@@ -1,0 +1,1 @@
+# SullyOS\n\n手抓糯米机 - 浏览器虚拟手机系统\n\n[![Build APK](https://github.com/y-my61/test/actions/workflows/build-apk.yml/badge.svg)](https://github.com/y-my61/test/actions/workflows/build-apk.yml)

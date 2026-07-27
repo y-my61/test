@@ -1,1 +1,235 @@
-aW1wb3J0IFJlYWN0LCB7IHVzZVJlZiwgdXNlU3RhdGUgfSBmcm9tICdyZWFjdCc7CmltcG9ydCB7CiAgICBCVUlMVElOX1NPVU5EUywKICAgIFdoaXRlYm94U291bmQsCiAgICBwbGF5V2hpdGVib3hTb3VuZCwKICAgIHVubG9ja1doaXRlYm94QXVkaW8sCiAgICBpc0N1c3RvbUF1ZGlvU3JjLAogICAgZW5jb2RlU291bmRTaGFyZSwKICAgIGRlY29kZVNvdW5kU2hhcmUsCn0gZnJvbSAnLi4vLi4vdXRpbHMvd2hpdGVib3hTb3VuZCc7CgovLyDnmb3moYbjgIzmj5DnpLrpn7PjgI3nvJbovpHlmajvvIjni6znq4vkuo7nmb3moYYgQ1NT77yJ44CCCi8vCi8vIOinpuWPkeaXtuacuu+8iOaSreaUvumAu+i+keingSBhcHBzL0NoYXQudHN477yJ77ya5LuF5b2TInRhIOaWsOWPkeeahOa2iOaBryLmiJDkuLrkvJror53mnIDlkI7kuIDmnaHml7blk43kuIDmrKHvvJsKLy8g5L2g6Ieq5bex5Y+R5raI5oGvIC8g57+75pen6K6w5b2V6YO95LiN5Lya5ZON44CCCi8vCi8vIOWtmOWCqOS4juWIhuS6q++8mgovLyAtIOm7mOiupOOAjOino+e7keOAjeKAlOKAlOaPkOekuumfs+eLrOeri+WtmOWcqOinkuiJsuWtl+autemHjO+8jOeZveahhuWIhuS6q+eggeS/neaMgei9u+mHj+OAgee6ryBDU1PjgILmj5DnpLrpn7Plj6/nlKjkuIvmlrnjgIzliIbkuqvnoIHjgI3ljZXni6zkvKDjgIIKLy8gLSDmiZPlvIDjgIznu5HlrprliLDnmb3moYbjgI3igJTigJTmj5DnpLrpn7PkvJrlhpnov5vnmb3moYYgQ1NTIOeahOaMh+S7pOazqOmHiu+8jOi3n+eZveahhuS4gOi1t+WIhuS6q+WHuuWOu++8iOmaj+aXtuWPr+ino+e7ke+8ieOAggovLyDmnKznu4Tku7bkuI3lhbPlv4PlrZjlk6rvvIzlj6rlkJDlh7ogKHNvdW5kLCBib3VuZCkg55qE5Y+Y5YyW77yM6JC95Zyw5L2N572u55SxIENoYXQudHN4IOWGs+WumuOAggoKLy8g5LiK5Lyg6Z+z6aKR6L2sIGRhdGEgVVJJIOeahOS9k+enr+S4iumZkO+8mue7keWumuWIhuS6q+aXtuS8mui/m+WIhuS6q+egge+8jOWkquWkp+S8mueIhu+8m+aPkOekuumfs+acrOWwseivpeefre+8jDIwMEtCIOi2s+Wkn+OAggpjb25zdCBNQVhfVVBMT0FEX0JZVEVTID0gMjAwICogMTAyNDsKCmNvbnN0IHJlYWRGaWxlQXNEYXRhVXJsID0gKGZpbGU6IEZpbGUpOiBQcm9taXNlPHN0cmluZz4gPT4KICAgIG5ldyBQcm9taXNlKChyZXNvbHZlLCByZWplY3QpID0+IHsKICAgICAgICBjb25zdCByZWFkZXIgPSBuZXcgRmlsZVJlYWRlcigpOwogICAgICAgIHJlYWRlci5vbmxvYWQgPSAoKSA9PiByZXNvbHZlKFN0cmluZyhyZWFkZXIucmVzdWx0IHx8ICcnKSk7CiAgICAgICAgcmVhZGVyLm9uZXJyb3IgPSAoKSA9PiByZWplY3QocmVhZGVyLmVycm9yKTsKICAgICAgICByZWFkZXIucmVhZEFzRGF0YVVSTChmaWxlKTsKICAgIH0pOwoKY29uc3QgY29weVRleHQgPSBhc3luYyAodGV4dDogc3RyaW5nKTogUHJvbWlzZTxib29sZWFuPiA9PiB7CiAgICB0cnkgeyBhd2FpdCBuYXZpZ2F0b3IuY2xpcGJvYXJkLndyaXRlVGV4dCh0ZXh0KTsgcmV0dXJuIHRydWU7IH0gY2F0Y2ggeyAvKiBmYWxsIHRocm91Z2ggKi8gfQogICAgdHJ5IHsKICAgICAgICBjb25zdCB0YSA9IGRvY3VtZW50LmNyZWF0ZUVsZW1lbnQoJ3RleHRhcmVhJyk7CiAgICAgICAgdGEudmFsdWUgPSB0ZXh0OyB0YS5zdHlsZS5wb3NpdGlvbiA9ICdmaXhlZCc7IHRhLnN0eWxlLm9wYWNpdHkgPSAnMCc7CiAgICAgICAgZG9jdW1lbnQuYm9keS5hcHBlbmRDaGlsZCh0YSk7IHRhLnNlbGVjdCgpOwogICAgICAgIGNvbnN0IG9rID0gZG9jdW1lbnQuZXhlY0NvbW1hbmQoJ2NvcHknKTsgZG9jdW1lbnQuYm9keS5yZW1vdmVDaGlsZCh0YSk7IHJldHVybiBvazsKICAgIH0gY2F0Y2ggeyByZXR1cm4gZmFsc2U7IH0KfTsKCmludGVyZmFjZSBQcm9wcyB7CiAgICBzb3VuZDogV2hpdGVib3hTb3VuZCB8IG51bGw7CiAgICBvbkNoYW5nZVNvdW5kOiAoc291bmQ6IFdoaXRlYm94U291bmQgfCBudWxsKSA9PiB2b2lkOwogICAgLyoqIOOAjOe7keWumuWIsOeZveahhuOAjeW8gOWFs++8m+WFqOWxgOm7mOiupOaPkOekuumfs+S4jea2ieWPiue7keWumu+8jOS8oCBmYWxzZSDpmpDol4/jgILpu5jorqTmmL7npLrjgIIgKi8KICAgIHNob3dCaW5kPzogYm9vbGVhbjsKICAgIGJvdW5kPzogYm9vbGVhbjsKICAgIG9uQ2hhbmdlQm91bmQ/OiAoYm91bmQ6IGJvb2xlYW4pID0+IHZvaWQ7CiAgICAvKiog6aG26YOo5o+Q56S65p2h5paH5qGI77yI5Yy65YiG44CM6KeS6Imy54mI44CN5LiO44CM5YWo5bGA6buY6K6k54mI44CN77yJ44CCICovCiAgICBoaW50PzogUmVhY3QuUmVhY3ROb2RlOwp9Cgpjb25zdCBXaGl0ZWJveFNvdW5kRWRpdG9yOiBSZWFjdC5GQzxQcm9wcz4gPSAoeyBzb3VuZCwgb25DaGFuZ2VTb3VuZCwgc2hvd0JpbmQgPSB0cnVlLCBib3VuZCA9IGZhbHNlLCBvbkNoYW5nZUJvdW5kLCBoaW50IH0pID0+IHsKICAgIGNvbnN0IHZvbHVtZSA9IHNvdW5kPy52b2x1bWUgPz8gMC42OwogICAgY29uc3Qgc3JjID0gc291bmQ/LnNyYyB8fCAnJzsKICAgIGNvbnN0IGlzQnVpbHRpbiA9ICEhQlVJTFRJTl9TT1VORFNbc3JjXTsKICAgIGNvbnN0IGlzQ3VzdG9tID0gISFzcmMgJiYgaXNDdXN0b21BdWRpb1NyYyhzcmMpOwogICAgY29uc3QgaXNVcGxvYWQgPSBpc0N1c3RvbSAmJiAhL15odHRwcz86L2kudGVzdChzcmMpOwoKICAgIGNvbnN0IFt1cmxEcmFmdCwgc2V0VXJsRHJhZnRdID0gdXNlU3RhdGUoaXNDdXN0b20gJiYgL15odHRwcz86L2kudGVzdChzcmMpID8gc3JjIDogJycpOwogICAgY29uc3QgW2J1c3ksIHNldEJ1c3ldID0gdXNlU3RhdGUoZmFsc2UpOwogICAgY29uc3QgZmlsZVJlZiA9IHVzZVJlZjxIVE1MSW5wdXRFbGVtZW50PihudWxsKTsKCiAgICBjb25zdCBwaWNrQnVpbHRpbiA9IChrZXk6IHN0cmluZykgPT4gewogICAgICAgIHVubG9ja1doaXRlYm94QXVkaW8oKTsKICAgICAgICBjb25zdCBuZXh0ID0geyBzcmM6IGtleSwgdm9sdW1lIH07CiAgICAgICAgb25DaGFuZ2VTb3VuZChuZXh0KTsKICAgICAgICBwbGF5V2hpdGVib3hTb3VuZChuZXh0KTsgLy8g54K55LiA5LiL5Y2z6K+V5ZCsCiAgICB9OwoKICAgIGNvbnN0IHNldFZvbHVtZSA9ICh2OiBudW1iZXIpID0+IHsKICAgICAgICBpZiAoIXNyYykgcmV0dXJuOwogICAgICAgIG9uQ2hhbmdlU291bmQoeyBzcmMsIHZvbHVtZTogdiB9KTsKICAgIH07CgogICAgY29uc3QgaGFuZGxlVXBsb2FkID0gYXN5bmMgKGU6IFJlYWN0LkNoYW5nZUV2ZW50PEhUTUxJbnB1dEVsZW1lbnQ+KSA9PiB7CiAgICAgICAgY29uc3QgZmlsZSA9IGUudGFyZ2V0LmZpbGVzPy5bMF07CiAgICAgICAgZS50YXJnZXQudmFsdWUgPSAnJzsKICAgICAgICBpZiAoIWZpbGUpIHJldHVybjsKICAgICAgICBpZiAoIWZpbGUudHlwZS5zdGFydHNXaXRoKCdhdWRpby8nKSkgeyB3aW5kb3cuYWxlcnQoJ+ivt+mAieaLqemfs+mikeaWh+S7tu+8iG1wMyAvIHdhdiAvIG9nZyDnrYnvvInjgIInKTsgcmV0dXJuOyB9CiAgICAgICAgaWYgKGZpbGUuc2l6ZSA+IE1BWF9VUExPQURfQllURVMpIHsKICAgICAgICAgICAgd2luZG93LmFsZXJ0KGDpn7PpopHlpKrlpKfvvIgke01hdGgucm91bmQoZmlsZS5zaXplIC8gMTAyNCl9S0LvvInjgILnu5HlrprliLDnmb3moYbliIbkuqvml7bkvJrov5vliIbkuqvnoIHvvIzor7fnlKgg4omkICR7TUFYX1VQTE9BRF9CWVRFUyAvIDEwMjR9S0Ig55qE55+t5o+Q56S66Z+z77yM5oiW5pS555So44CM6Z+z6aKRIFVSTOOAjeOAgmApOwogICAgICAgICAgICByZXR1cm47CiAgICAgICAgfQogICAgICAgIHNldEJ1c3kodHJ1ZSk7CiAgICAgICAgdHJ5IHsKICAgICAgICAgICAgY29uc3QgZGF0YVVybCA9IGF3YWl0IHJlYWRGaWxlQXNEYXRhVXJsKGZpbGUpOwogICAgICAgICAgICB1bmxvY2tXaGl0ZWJveEF1ZGlvKCk7CiAgICAgICAgICAgIGNvbnN0IG5leHQgPSB7IHNyYzogZGF0YVVybCwgdm9sdW1lIH07CiAgICAgICAgICAgIG9uQ2hhbmdlU291bmQobmV4dCk7CiAgICAgICAgICAgIHBsYXlXaGl0ZWJveFNvdW5kKG5leHQpOwogICAgICAgIH0gY2F0Y2ggewogICAgICAgICAgICB3aW5kb3cuYWxlcnQoJ+ivu+WPlumfs+mikeWksei0pe+8jOivt+aNouS4quaWh+S7tumHjeivleOAgicpOwogICAgICAgIH0gZmluYWxseSB7CiAgICAgICAgICAgIHNldEJ1c3koZmFsc2UpOwogICAgICAgIH0KICAgIH07CgogICAgY29uc3QgYXBwbHlVcmwgPSAoKSA9PiB7CiAgICAgICAgY29uc3QgdSA9IHVybERyYWZ0LnRyaW0oKTsKICAgICAgICBpZiAoIXUpIHJldHVybjsKICAgICAgICBpZiAoIS9eaHR0cHM/OlwvXC8vaS50ZXN0KHUpKSB7IHdpbmRvdy5hbGVydCgn6K+35aGr5YaZIGh0dHAocyk6Ly8g5byA5aS055qE6Z+z6aKR55u06ZO+44CCJyk7IHJldHVybjsgfQogICAgICAgIHVubG9ja1doaXRlYm94QXVkaW8oKTsKICAgICAgICBjb25zdCBuZXh0ID0geyBzcmM6IHUsIHZvbHVtZSB9OwogICAgICAgIG9uQ2hhbmdlU291bmQobmV4dCk7CiAgICAgICAgcGxheVdoaXRlYm94U291bmQobmV4dCk7CiAgICB9OwoKICAgIGNvbnN0IGNsZWFyU291bmQgPSAoKSA9PiB7IG9uQ2hhbmdlU291bmQobnVsbCk7IHNldFVybERyYWZ0KCcnKTsgfTsKCiAgICBjb25zdCBoYW5kbGVTaGFyZUV4cG9ydCA9IGFzeW5jICgpID0+IHsKICAgICAgICBpZiAoIXNvdW5kKSByZXR1cm47CiAgICAgICAgY29uc3Qgb2sgPSBhd2FpdCBjb3B5VGV4dChlbmNvZGVTb3VuZFNoYXJlKHNvdW5kKSk7CiAgICAgICAgd2luZG93LmFsZXJ0KG9rID8gJ+W3suWkjeWItuaPkOekuumfs+WIhuS6q+egge+8jOWPkee7meWIq+S6uueymOi0tOWvvOWFpeWNs+WPr++8iOS4jeWQq+eZveahhuearuiCpO+8ieOAgicgOiAn5aSN5Yi25aSx6LSl77yM6K+36YeN6K+V44CCJyk7CiAgICB9OwogICAgY29uc3QgaGFuZGxlU2hhcmVJbXBvcnQgPSAoKSA9PiB7CiAgICAgICAgY29uc3QgY29kZSA9IHdpbmRvdy5wcm9tcHQoJ+eymOi0tOaPkOekuumfs+WIhuS6q+egge+8iFNVTExZU05EMTouLi7vvInvvJonLCAnJyk/LnRyaW0oKTsKICAgICAgICBpZiAoIWNvZGUpIHJldHVybjsKICAgICAgICBjb25zdCBpbmNvbWluZyA9IGRlY29kZVNvdW5kU2hhcmUoY29kZSk7CiAgICAgICAgaWYgKCFpbmNvbWluZykgeyB3aW5kb3cuYWxlcnQoJ+WIhuS6q+eggeaXoOazleivhuWIq++8jOivt+ehruiupOWujOaVtOeymOi0tOOAgicpOyByZXR1cm47IH0KICAgICAgICB1bmxvY2tXaGl0ZWJveEF1ZGlvKCk7CiAgICAgICAgb25DaGFuZ2VTb3VuZChpbmNvbWluZyk7CiAgICAgICAgcGxheVdoaXRlYm94U291bmQoaW5jb21pbmcpOwogICAgfTsKCiAgICBjb25zdCBjaGlwQ2xzID0gKGFjdGl2ZTogYm9vbGVhbikgPT4KICAgICAgICBgcm91bmRlZC1mdWxsIHB4LTMgcHktMS41IHRleHQtWzExcHhdIGZvbnQtc2VtaWJvbGQgdHJhbnNpdGlvbi1hbGwgYWN0aXZlOnNjYWxlLTk1ICR7CiAgICAgICAgICAgIGFjdGl2ZSA/ICdiZy1pbmRpZ28tNTAwIHRleHQtd2hpdGUgc2hhZG93LXNtJyA6ICdiZy1zbGF0ZS0xMDAgdGV4dC1zbGF0ZS01MDAgaG92ZXI6Ymctc2xhdGUtMjAwJwogICAgICAgIH1gOwoKICAgIHJldHVybiAoCiAgICAgICAgPGRpdiBjbGFzc05hbWU9InNwYWNlLXktNCI+CiAgICAgICAgICAgIDxkaXYgY2xhc3NOYW1lPSJyb3VuZGVkLTJ4bCBib3JkZXIgYm9yZGVyLWFtYmVyLTEwMCBiZy1hbWJlci01MC83MCBweC0zLjUgcHktMi41IHRleHQtWzExcHhdIGxlYWRpbmctcmVsYXhlZCB0ZXh0LWFtYmVyLTcwMCI+CiAgICAgICAgICAgICAgICB7aGludCA/PyA8PvCflJQg5o+Q56S66Z+z5Y+q5ZyoIDxiPnRhIOaWsOWPkeeahOa2iOaBr+aIkOS4uuacgOaWsOS4gOadoTwvYj4g5pe25ZON5LiA5qyh77yb5L2g6Ieq5bex5Y+R5raI5oGv44CB57+75pen6K6w5b2V6YO95LiN5Lya5ZON44CCPC8+fQogICAgICAgICAgICA8L2Rpdj4KCiAgICAgICAgICAgIHsvKiDlhoXnva7pn7PmlYggKi99CiAgICAgICAgICAgIDxkaXY+CiAgICAgICAgICAgICAgICA8ZGl2IGNsYXNzTmFtZT0ibWItMiB0ZXh0LVsxMXB4XSBmb250LWJvbGQgdGV4dC1zbGF0ZS01MDAiPuWGhee9rumfs+aViCA8c3BhbiBjbGFzc05hbWU9ImZvbnQtbm9ybWFsIHRleHQtc2xhdGUtNDAwIj7CtyDngrnkuIDkuIvor5XlkKzlubbpgInnlKg8L3NwYW4+PC9kaXY+CiAgICAgICAgICAgICAgICA8ZGl2IGNsYXNzTmFtZT0iZmxleCBmbGV4LXdyYXAgZ2FwLTEuNSI+CiAgICAgICAgICAgICAgICAgICAge09iamVjdC5lbnRyaWVzKEJVSUxUSU5fU09VTkRTKS5tYXAoKFtrZXksIHNdKSA9PiAoCiAgICAgICAgICAgICAgICAgICAgICAgIDxidXR0b24ga2V5PXtrZXl9IG9uQ2xpY2s9eygpID0+IHBpY2tCdWlsdGluKGtleSl9IGNsYXNzTmFtZT17Y2hpcENscyhpc0J1aWx0aW4gJiYgc3JjID09PSBrZXkpfT4KICAgICAgICAgICAgICAgICAgICAgICAgICAgIHtpc0J1aWx0aW4gJiYgc3JjID09PSBrZXkgPyAn4pyTICcgOiAnJ317cy5sYWJlbH0KICAgICAgICAgICAgICAgICAgICAgICAgPC9idXR0b24+CiAgICAgICAgICAgICAgICAgICAgKSl9CiAgICAgICAgICAgICAgICA8L2Rpdj4KICAgICAgICAgICAgPC9kaXY+CgogICAgICAgICAgICB7Lyog5LiK5LygIC8gVVJMICovfQogICAgICAgICAgICA8ZGl2PgogICAgICAgICAgICAgICAgPGRpdiBjbGFzc05hbWU9Im1iLTIgdGV4dC1bMTFweF0gZm9udC1ib2xkIHRleHQtc2xhdGUtNTAwIj7oh6rlrprkuYkgPHNwYW4gY2xhc3NOYW1lPSJmb250LW5vcm1hbCB0ZXh0LXNsYXRlLTQwMCI+wrcg5LiK5Lyg6Z+z6aKR77yI4omkMjAwS0LvvInmiJbloavnm7Tpk748L3NwYW4+PC9kaXY+CiAgICAgICAgICAgICAgICA8ZGl2IGNsYXNzTmFtZT0iZmxleCBmbGV4LXdyYXAgaXRlbXMtY2VudGVyIGdhcC0yIj4KICAgICAgICAgICAgICAgICAgICA8aW5wdXQgcmVmPXtmaWxlUmVmfSB0eXBlPSJmaWxlIiBhY2NlcHQ9ImF1ZGlvLyoiIGNsYXNzTmFtZT0iaGlkZGVuIiBvbkNoYW5nZT17aGFuZGxlVXBsb2FkfSAvPgogICAgICAgICAgICAgICAgICAgIDxidXR0b24KICAgICAgICAgICAgICAgICAgICAgICAgb25DbGljaz17KCkgPT4gZmlsZVJlZi5jdXJyZW50Py5jbGljaygpfQogICAgICAgICAgICAgICAgICAgICAgICBkaXNhYmxlZD17YnVzeX0KICAgICAgICAgICAgICAgICAgICAgICAgY2xhc3NOYW1lPSJyb3VuZGVkLXhsIGJvcmRlciBib3JkZXItaW5kaWdvLTIwMCBiZy1pbmRpZ28tNTAgcHgtMyBweS0xLjUgdGV4dC1bMTFweF0gZm9udC1zZW1pYm9sZCB0ZXh0LWluZGlnby02MDAgaG92ZXI6YmctaW5kaWdvLTEwMCBkaXNhYmxlZDpvcGFjaXR5LTUwIgogICAgICAgICAgICAgICAgICAgID57YnVzeSA/ICfor7vlj5bkuK3igKYnIDogJ+KshiDkuIrkvKDpn7PpopHmlofku7YnfTwvYnV0dG9uPgogICAgICAgICAgICAgICAgICAgIHtpc1VwbG9hZCAmJiAoCiAgICAgICAgICAgICAgICAgICAgICAgIDxzcGFuIGNsYXNzTmFtZT0icm91bmRlZC1mdWxsIGJnLWVtZXJhbGQtNTAgcHgtMiBweS0xIHRleHQtWzEwcHhdIGZvbnQtc2VtaWJvbGQgdGV4dC1lbWVyYWxkLTYwMCI+5bey5YaF5bWM5LiK5Lyg6Z+z6aKRIOKckzwvc3Bhbj4KICAgICAgICAgICAgICAgICAgICApfQogICAgICAgICAgICAgICAgPC9kaXY+CiAgICAgICAgICAgICAgICA8ZGl2IGNsYXNzTmFtZT0ibXQtMiBmbGV4IGl0ZW1zLWNlbnRlciBnYXAtMS41Ij4KICAgICAgICAgICAgICAgICAgICA8aW5wdXQKICAgICAgICAgICAgICAgICAgICAgICAgdmFsdWU9e3VybERyYWZ0fQogICAgICAgICAgICAgICAgICAgICAgICBvbkNoYW5nZT17KGUpID0+IHNldFVybERyYWZ0KGUudGFyZ2V0LnZhbHVlKX0KICAgICAgICAgICAgICAgICAgICAgICAgb25LZXlEb3duPXsoZSkgPT4geyBpZiAoZS5rZXkgPT09ICdFbnRlcicpIGFwcGx5VXJsKCk7IH19CiAgICAgICAgICAgICAgICAgICAgICAgIHBsYWNlaG9sZGVyPSJodHRwczovL+KApi9kaW5nLm1wMyIKICAgICAgICAgICAgICAgICAgICAgICAgY2xhc3NOYW1lPSJtaW4tdy0wIGZsZXgtMSByb3VuZGVkLXhsIGJvcmRlciBib3JkZXItc2xhdGUtMjAwIGJnLXdoaXRlIHB4LTMgcHktMS41IHRleHQtWzExcHhdIHRleHQtc2xhdGUtNjAwIG91dGxpbmUtbm9uZSBmb2N1czpib3JkZXItaW5kaWdvLTMwMCIKICAgICAgICAgICAgICAgICAgICAvPgogICAgICAgICAgICAgICAgICAgIDxidXR0b24gb25DbGljaz17YXBwbHlVcmx9IGNsYXNzTmFtZT0ic2hyaW5rLTAgcm91bmRlZC14bCBiZy1zbGF0ZS0xMDAgcHgtMyBweS0xLjUgdGV4dC1bMTFweF0gZm9udC1zZW1pYm9sZCB0ZXh0LXNsYXRlLTUwMCBob3ZlcjpiZy1zbGF0ZS0yMDAiPueUqOatpOmTvuaOpTwvYnV0dG9uPgogICAgICAgICAgICAgICAgPC9kaXY+CiAgICAgICAgICAgIDwvZGl2PgoKICAgICAgICAgICAgey8qIOmfs+mHjyArIOivleWQrCArIOWFs+mXrSAqL30KICAgICAgICAgICAgPGRpdj4KICAgICAgICAgICAgICAgIDxkaXYgY2xhc3NOYW1lPSJtYi0yIGZsZXggaXRlbXMtY2VudGVyIGp1c3RpZnktYmV0d2VlbiI+CiAgICAgICAgICAgICAgICAgICAgPHNwYW4gY2xhc3NOYW1lPSJ0ZXh0LVsxMXB4XSBmb250LWJvbGQgdGV4dC1zbGF0ZS01MDAiPumfs+mHjzwvc3Bhbj4KICAgICAgICAgICAgICAgICAgICA8c3BhbiBjbGFzc05hbWU9InRleHQtWzEwcHhdIHRleHQtc2xhdGUtNDAwIj57TWF0aC5yb3VuZCh2b2x1bWUgKiAxMDApfSU8L3NwYW4+CiAgICAgICAgICAgICAgICA8L2Rpdj4KICAgICAgICAgICAgICAgIDxpbnB1dAogICAgICAgICAgICAgICAgICAgIHR5cGU9InJhbmdlIiBtaW49ezB9IG1heD17MX0gc3RlcD17MC4wNX0gdmFsdWU9e3ZvbHVtZX0KICAgICAgICAgICAgICAgICAgICBkaXNhYmxlZD17IXNyY30KICAgICAgICAgICAgICAgICAgICBvbkNoYW5nZT17KGUpID0+IHNldFZvbHVtZShOdW1iZXIoZS50YXJnZXQudmFsdWUpKX0KICAgICAgICAgICAgICAgICAgICBjbGFzc05hbWU9InctZnVsbCBhY2NlbnQtaW5kaWdvLTUwMCBkaXNhYmxlZDpvcGFjaXR5LTQwIgogICAgICAgICAgICAgICAgLz4KICAgICAgICAgICAgICAgIDxkaXYgY2xhc3NOYW1lPSJtdC0zIGZsZXggaXRlbXMtY2VudGVyIGdhcC0yIj4KICAgICAgICAgICAgICAgICAgICA8YnV0dG9uCiAgICAgICAgICAgICAgICAgICAgICAgIG9uQ2xpY2s9eygpID0+IHsgdW5sb2NrV2hpdGVib3hBdWRpbygpOyBwbGF5V2hpdGVib3hTb3VuZChzb3VuZCk7IH19CiAgICAgICAgICAgICAgICAgICAgICAgIGRpc2FibGVkPXshc3JjfQogICAgICAgICAgICAgICAgICAgICAgICBjbGFzc05hbWU9InJvdW5kZWQteGwgYmctaW5kaWdvLTUwMCBweC00IHB5LTEuNSB0ZXh0LVsxMXB4XSBmb250LWJvbGQgdGV4dC13aGl0ZSBob3ZlcjpiZy1pbmRpZ28tNjAwIGRpc2FibGVkOm9wYWNpdHktNDAiCiAgICAgICAgICAgICAgICAgICAgPuKWtiDor5XlkKw8L2J1dHRvbj4KICAgICAgICAgICAgICAgICAgICB7c3JjICYmICgKICAgICAgICAgICAgICAgICAgICAgICAgPGJ1dHRvbiBvbkNsaWNrPXtjbGVhclNvdW5kfSBjbGFzc05hbWU9InJvdW5kZWQteGwgcHgtMyBweS0xLjUgdGV4dC1bMTFweF0gZm9udC1zZW1pYm9sZCB0ZXh0LXJvc2UtNDAwIGhvdmVyOmJnLXJvc2UtNTAgaG92ZXI6dGV4dC1yb3NlLTUwMCI+5YWz6Zet5o+Q56S66Z+zPC9idXR0b24+CiAgICAgICAgICAgICAgICAgICAgKX0KICAgICAgICAgICAgICAgICAgICA8c3BhbiBjbGFzc05hbWU9Im1sLWF1dG8gdGV4dC1bMTBweF0gdGV4dC1zbGF0ZS00MDAiPgogICAgICAgICAgICAgICAgICAgICAgICB7c3JjID8gKGlzQnVpbHRpbiA/ICflvZPliY3vvJrlhoXnva7pn7PmlYgnIDogJ+W9k+WJje+8muiHquWumuS5iemfs+mikScpIDogJ+W9k+WJje+8muaXoCd9CiAgICAgICAgICAgICAgICAgICAgPC9zcGFuPgogICAgICAgICAgICAgICAgPC9kaXY+CiAgICAgICAgICAgIDwvZGl2PgoKICAgICAgICAgICAgey8qIOe7keWumuWIsOeZveahhiDlvIDlhbPvvIjlhajlsYDpu5jorqTniYjkuI3mmL7npLrvvIkgKi99CiAgICAgICAgICAgIHtzaG93QmluZCAmJiAoCiAgICAgICAgICAgICAgICA8ZGl2IGNsYXNzTmFtZT0icm91bmRlZC0yeGwgYm9yZGVyIGJvcmRlci1zbGF0ZS0xMDAgYmctc2xhdGUtNTAvNzAgcHgtMy41IHB5LTMiPgogICAgICAgICAgICAgICAgICAgIDxsYWJlbCBjbGFzc05hbWU9ImZsZXggY3Vyc29yLXBvaW50ZXIgaXRlbXMtc3RhcnQgZ2FwLTMiPgogICAgICAgICAgICAgICAgICAgICAgICA8aW5wdXQKICAgICAgICAgICAgICAgICAgICAgICAgICAgIHR5cGU9ImNoZWNrYm94IgogICAgICAgICAgICAgICAgICAgICAgICAgICAgY2hlY2tlZD17Ym91bmR9CiAgICAgICAgICAgICAgICAgICAgICAgICAgICBvbkNoYW5nZT17KGUpID0+IG9uQ2hhbmdlQm91bmQ/LihlLnRhcmdldC5jaGVja2VkKX0KICAgICAgICAgICAgICAgICAgICAgICAgICAgIGNsYXNzTmFtZT0ibXQtMC41IGgtNCB3LTQgc2hyaW5rLTAgYWNjZW50LWluZGlnby01MDAiCiAgICAgICAgICAgICAgICAgICAgICAgIC8+CiAgICAgICAgICAgICAgICAgICAgICAgIDxzcGFuIGNsYXNzTmFtZT0ibWluLXctMCI+CiAgICAgICAgICAgICAgICAgICAgICAgICAgICA8c3BhbiBjbGFzc05hbWU9ImJsb2NrIHRleHQtWzEycHhdIGZvbnQtYm9sZCB0ZXh0LXNsYXRlLTcwMCI+57uR5a6a5Yiw55m95qGG5LiA6LW35YiG5LqrPC9zcGFuPgogICAgICAgICAgICAgICAgICAgICAgICAgICAgPHNwYW4gY2xhc3NOYW1lPSJibG9jayB0ZXh0LVsxMHB4XSBsZWFkaW5nLXNudWcgdGV4dC1zbGF0ZS00MDAiPgogICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgIHtib3VuZAogICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICA/ICflt7Lnu5HlrprvvJrliIbkuqvov5nlpZfnmb3moYbml7bkvJrluKbkuIrmj5DnpLrpn7PvvIjkuIrkvKDnmoTpn7PpopHkvJrov5vliIbkuqvnoIHvvIzlj6/og73lj5jlpKfvvInjgIInCiAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgIDogJ+acque7keWumu+8mueZveahhuWIhuS6q+eggeS/neaMgei9u+mHj+OAgeWPquWQq+earuiCpO+8m+aPkOekuumfs+eUqOS4i+aWueWIhuS6q+eggeWNleeLrOS8oOOAgid9CiAgICAgICAgICAgICAgICAgICAgICAgICAgICA8L3NwYW4+CiAgICAgICAgICAgICAgICAgICAgICAgIDwvc3Bhbj4KICAgICAgICAgICAgICAgICAgICA8L2xhYmVsPgogICAgICAgICAgICAgICAgPC9kaXY+CiAgICAgICAgICAgICl9CgogICAgICAgICAgICB7Lyog5o+Q56S66Z+z54us56uL5YiG5Lqr56CBICovfQogICAgICAgICAgICA8ZGl2IGNsYXNzTmFtZT0iZmxleCBpdGVtcy1jZW50ZXIgZ2FwLTIiPgogICAgICAgICAgICAgICAgPGJ1dHRvbiBvbkNsaWNrPXtoYW5kbGVTaGFyZUltcG9ydH0gY2xhc3NOYW1lPSJyb3VuZGVkLWxnIHB4LTIuNSBweS0xIHRleHQtWzEwcHhdIGZvbnQtc2VtaWJvbGQgdGV4dC1zbGF0ZS00MDAgaG92ZXI6Ymctc2xhdGUtMTAwIGhvdmVyOnRleHQtc2xhdGUtNjAwIj7lr7zlhaXliIbkuqvnoIE8L2J1dHRvbj4KICAgICAgICAgICAgICAgIDxidXR0b24gb25DbGljaz17aGFuZGxlU2hhcmVFeHBvcnR9IGRpc2FibGVkPXshc291bmR9IGNsYXNzTmFtZT17YHJvdW5kZWQtbGcgcHgtMi41IHB5LTEgdGV4dC1bMTBweF0gZm9udC1zZW1pYm9sZCAke3NvdW5kID8gJ3RleHQtc2xhdGUtNDAwIGhvdmVyOmJnLXNsYXRlLTEwMCBob3Zlcjp0ZXh0LXNsYXRlLTYwMCcgOiAndGV4dC1zbGF0ZS0zMDAnfWB9PuWvvOWHuuWIhuS6q+eggTwvYnV0dG9uPgogICAgICAgICAgICAgICAgPHNwYW4gY2xhc3NOYW1lPSJtbC1hdXRvIHRleHQtWzEwcHhdIHRleHQtc2xhdGUtMzAwIj5TVUxMWVNORDEgwrcg5Y2V54us5YiG5Lqr5o+Q56S66Z+zPC9zcGFuPgogICAgICAgICAgICA8L2Rpdj4KICAgICAgICA8L2Rpdj4KICAgICk7Cn07CgpleHBvcnQgZGVmYXVsdCBXaGl0ZWJveFNvdW5kRWRpdG9yOwo=
+import React, { useRef, useState } from 'react';
+import {
+    BUILTIN_SOUNDS,
+    WhiteboxSound,
+    playWhiteboxSound,
+    unlockWhiteboxAudio,
+    isCustomAudioSrc,
+    encodeSoundShare,
+    decodeSoundShare,
+} from '../../utils/whiteboxSound';
+
+// 白框「提示音」编辑器（独立于白框 CSS）。
+//
+// 触发时机（播放逻辑见 apps/Chat.tsx）：仅当"ta 新发的消息"成为会话最后一条时响一次；
+// 你自己发消息 / 翻旧记录都不会响。
+//
+// 存储与分享：
+// - 默认「解绑」——提示音独立存在角色字段里，白框分享码保持轻量、纯 CSS。提示音可用下方「分享码」单独传。
+// - 打开「绑定到白框」——提示音会写进白框 CSS 的指令注释，跟白框一起分享出去（随时可解绑）。
+// 本组件不关心存哪，只吐出 (sound, bound) 的变化，落地位置由 Chat.tsx 决定。
+
+// 上传音频转 data URI 的体积上限：绑定分享时会进分享码，太大会爆；提示音本就该短，200KB 足够。
+const MAX_UPLOAD_BYTES = 200 * 1024;
+
+const readFileAsDataUrl = (file: File): Promise<string> =>
+    new Promise((resolve, reject) => {
+        const reader = new FileReader();
+        reader.onload = () => resolve(String(reader.result || ''));
+        reader.onerror = () => reject(reader.error);
+        reader.readAsDataURL(file);
+    });
+
+const copyText = async (text: string): Promise<boolean> => {
+    try { await navigator.clipboard.writeText(text); return true; } catch { /* fall through */ }
+    try {
+        const ta = document.createElement('textarea');
+        ta.value = text; ta.style.position = 'fixed'; ta.style.opacity = '0';
+        document.body.appendChild(ta); ta.select();
+        const ok = document.execCommand('copy'); document.body.removeChild(ta); return ok;
+    } catch { return false; }
+};
+
+interface Props {
+    sound: WhiteboxSound | null;
+    onChangeSound: (sound: WhiteboxSound | null) => void;
+    /** 「绑定到白框」开关；全局默认提示音不涉及绑定，传 false 隐藏。默认显示。 */
+    showBind?: boolean;
+    bound?: boolean;
+    onChangeBound?: (bound: boolean) => void;
+    /** 顶部提示条文案（区分「角色版」与「全局默认版」）。 */
+    hint?: React.ReactNode;
+}
+
+const WhiteboxSoundEditor: React.FC<Props> = ({ sound, onChangeSound, showBind = true, bound = false, onChangeBound, hint }) => {
+    const volume = sound?.volume ?? 0.6;
+    const src = sound?.src || '';
+    const isBuiltin = !!BUILTIN_SOUNDS[src];
+    const isCustom = !!src && isCustomAudioSrc(src);
+    const isUpload = isCustom && !/^https?:/i.test(src);
+
+    const [urlDraft, setUrlDraft] = useState(isCustom && /^https?:/i.test(src) ? src : '');
+    const [busy, setBusy] = useState(false);
+    const fileRef = useRef<HTMLInputElement>(null);
+
+    const pickBuiltin = (key: string) => {
+        unlockWhiteboxAudio();
+        const next = { src: key, volume };
+        onChangeSound(next);
+        playWhiteboxSound(next); // 点一下即试听
+    };
+
+    const setVolume = (v: number) => {
+        if (!src) return;
+        onChangeSound({ src, volume: v });
+    };
+
+    const handleUpload = async (e: React.ChangeEvent<HTMLInputElement>) => {
+        const file = e.target.files?.[0];
+        e.target.value = '';
+        if (!file) return;
+        if (!file.type.startsWith('audio/')) { window.alert('请选择音频文件（mp3 / wav / ogg 等）。'); return; }
+        if (file.size > MAX_UPLOAD_BYTES) {
+            window.alert(`音频太大（${Math.round(file.size / 1024)}KB）。绑定到白框分享时会进分享码，请用 ≤ ${MAX_UPLOAD_BYTES / 1024}KB 的短提示音，或改用「音频 URL」。`);
+            return;
+        }
+        setBusy(true);
+        try {
+            const dataUrl = await readFileAsDataUrl(file);
+            unlockWhiteboxAudio();
+            const next = { src: dataUrl, volume };
+            onChangeSound(next);
+            playWhiteboxSound(next);
+        } catch {
+            window.alert('读取音频失败，请换个文件重试。');
+        } finally {
+            setBusy(false);
+        }
+    };
+
+    const applyUrl = () => {
+        const u = urlDraft.trim();
+        if (!u) return;
+        if (!/^https?:\/\//i.test(u)) { window.alert('请填写 http(s):// 开头的音频直链。'); return; }
+        unlockWhiteboxAudio();
+        const next = { src: u, volume };
+        onChangeSound(next);
+        playWhiteboxSound(next);
+    };
+
+    const clearSound = () => { onChangeSound(null); setUrlDraft(''); };
+
+    const handleShareExport = async () => {
+        if (!sound) return;
+        const ok = await copyText(encodeSoundShare(sound));
+        window.alert(ok ? '已复制提示音分享码，发给别人粘贴导入即可（不含白框皮肤）。' : '复制失败，请重试。');
+    };
+    const handleShareImport = () => {
+        const code = window.prompt('粘贴提示音分享码（SULLYSND1:...）：', '')?.trim();
+        if (!code) return;
+        const incoming = decodeSoundShare(code);
+        if (!incoming) { window.alert('分享码无法识别，请确认完整粘贴。'); return; }
+        unlockWhiteboxAudio();
+        onChangeSound(incoming);
+        playWhiteboxSound(incoming);
+    };
+
+    const chipCls = (active: boolean) =>
+        `rounded-full px-3 py-1.5 text-[11px] font-semibold transition-all active:scale-95 ${
+            active ? 'bg-indigo-500 text-white shadow-sm' : 'bg-slate-100 text-slate-500 hover:bg-slate-200'
+        }`;
+
+    return (
+        <div className="space-y-4">
+            <div className="rounded-2xl border border-amber-100 bg-amber-50/70 px-3.5 py-2.5 text-[11px] leading-relaxed text-amber-700">
+                {hint ?? <>🔔 提示音只在 <b>ta 新发的消息成为最新一条</b> 时响一次；你自己发消息、翻旧记录都不会响。</>}
+            </div>
+
+            {/* 内置音效 */}
+            <div>
+                <div className="mb-2 text-[11px] font-bold text-slate-500">内置音效 <span className="font-normal text-slate-400">· 点一下试听并选用</span></div>
+                <div className="flex flex-wrap gap-1.5">
+                    {Object.entries(BUILTIN_SOUNDS).map(([key, s]) => (
+                        <button key={key} onClick={() => pickBuiltin(key)} className={chipCls(isBuiltin && src === key)}>
+                            {isBuiltin && src === key ? '✓ ' : ''}{s.label}
+                        </button>
+                    ))}
+                </div>
+            </div>
+
+            {/* 上传 / URL */}
+            <div>
+                <div className="mb-2 text-[11px] font-bold text-slate-500">自定义 <span className="font-normal text-slate-400">· 上传音频（≤200KB）或填直链</span></div>
+                <div className="flex flex-wrap items-center gap-2">
+                    <input ref={fileRef} type="file" accept="audio/*" className="hidden" onChange={handleUpload} />
+                    <button
+                        onClick={() => fileRef.current?.click()}
+                        disabled={busy}
+                        className="rounded-xl border border-indigo-200 bg-indigo-50 px-3 py-1.5 text-[11px] font-semibold text-indigo-600 hover:bg-indigo-100 disabled:opacity-50"
+                    >{busy ? '读取中…' : '⬆ 上传音频文件'}</button>
+                    {isUpload && (
+                        <span className="rounded-full bg-emerald-50 px-2 py-1 text-[10px] font-semibold text-emerald-600">已内嵌上传音频 ✓</span>
+                    )}
+                </div>
+                <div className="mt-2 flex items-center gap-1.5">
+                    <input
+                        value={urlDraft}
+                        onChange={(e) => setUrlDraft(e.target.value)}
+                        onKeyDown={(e) => { if (e.key === 'Enter') applyUrl(); }}
+                        placeholder="https://…/ding.mp3"
+                        className="min-w-0 flex-1 rounded-xl border border-slate-200 bg-white px-3 py-1.5 text-[11px] text-slate-600 outline-none focus:border-indigo-300"
+                    />
+                    <button onClick={applyUrl} className="shrink-0 rounded-xl bg-slate-100 px-3 py-1.5 text-[11px] font-semibold text-slate-500 hover:bg-slate-200">用此链接</button>
+                </div>
+            </div>
+
+            {/* 音量 + 试听 + 关闭 */}
+            <div>
+                <div className="mb-2 flex items-center justify-between">
+                    <span className="text-[11px] font-bold text-slate-500">音量</span>
+                    <span className="text-[10px] text-slate-400">{Math.round(volume * 100)}%</span>
+                </div>
+                <input
+                    type="range" min={0} max={1} step={0.05} value={volume}
+                    disabled={!src}
+                    onChange={(e) => setVolume(Number(e.target.value))}
+                    className="w-full accent-indigo-500 disabled:opacity-40"
+                />
+                <div className="mt-3 flex items-center gap-2">
+                    <button
+                        onClick={() => { unlockWhiteboxAudio(); playWhiteboxSound(sound); }}
+                        disabled={!src}
+                        className="rounded-xl bg-indigo-500 px-4 py-1.5 text-[11px] font-bold text-white hover:bg-indigo-600 disabled:opacity-40"
+                    >▶ 试听</button>
+                    {src && (
+                        <button onClick={clearSound} className="rounded-xl px-3 py-1.5 text-[11px] font-semibold text-rose-400 hover:bg-rose-50 hover:text-rose-500">关闭提示音</button>
+                    )}
+                    <span className="ml-auto text-[10px] text-slate-400">
+                        {src ? (isBuiltin ? '当前：内置音效' : '当前：自定义音频') : '当前：无'}
+                    </span>
+                </div>
+            </div>
+
+            {/* 绑定到白框 开关（全局默认版不显示） */}
+            {showBind && (
+                <div className="rounded-2xl border border-slate-100 bg-slate-50/70 px-3.5 py-3">
+                    <label className="flex cursor-pointer items-start gap-3">
+                        <input
+                            type="checkbox"
+                            checked={bound}
+                            onChange={(e) => onChangeBound?.(e.target.checked)}
+                            className="mt-0.5 h-4 w-4 shrink-0 accent-indigo-500"
+                        />
+                        <span className="min-w-0">
+                            <span className="block text-[12px] font-bold text-slate-700">绑定到白框一起分享</span>
+                            <span className="block text-[10px] leading-snug text-slate-400">
+                                {bound
+                                    ? '已绑定：分享这套白框时会带上提示音（上传的音频会进分享码，可能变大）。'
+                                    : '未绑定：白框分享码保持轻量、只含皮肤；提示音用下方分享码单独传。'}
+                            </span>
+                        </span>
+                    </label>
+                </div>
+            )}
+
+            {/* 提示音独立分享码 */}
+            <div className="flex items-center gap-2">
+                <button onClick={handleShareImport} className="rounded-lg px-2.5 py-1 text-[10px] font-semibold text-slate-400 hover:bg-slate-100 hover:text-slate-600">导入分享码</button>
+                <button onClick={handleShareExport} disabled={!sound} className={`rounded-lg px-2.5 py-1 text-[10px] font-semibold ${sound ? 'text-slate-400 hover:bg-slate-100 hover:text-slate-600' : 'text-slate-300'}`}>导出分享码</button>
+                <span className="ml-auto text-[10px] text-slate-300">SULLYSND1 · 单独分享提示音</span>
+            </div>
+        </div>
+    );
+};
+
+export default WhiteboxSoundEditor;

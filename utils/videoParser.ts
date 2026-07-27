@@ -1,1 +1,161 @@
-Ly8g6KeG6aKR6ZO+5o6l6Kej5p6QIOKAlCDmipbpn7MgLyBC56uZIC8g5b+r5omL562J6KeG6aKR5bmz5Y+w55qE5YiG5Lqr6ZO+5o6l77yMSmluYSBSZWFkZXIg5Z+65pys5oqT5LiN5Yiw5Lic6KW/Ci8vIO+8iFNQQSArIOeZu+W9leWime+8ie+8jOi1sCBhcGl6ZXJvIOeahCB2aWRlby1wYXJzZSBBUEkg5ou/57uT5p6E5YyW5YWD5pWw5o2u77yI5qCH6aKYL+S9nOiAhS/lsIHpnaIv54Ot5bqm77yJ77yMCi8vIOaYoOWwhOaIkCBFeHRyYWN0ZWRXZWJwYWdlIOWkjeeUqOeOsOaciSB3ZWJwYWdlX2NhcmQg566h57q/77yI5Y2h54mH5riy5p+TICsgbWVzc2FnZUZvcm1hdCDlloIgTExN77yJ44CCCi8vCi8vIOaOpeWFpeaWueW8j++8mua1j+iniOWZqOebtOi/nu+8iOivpSBBUEkgQ09SUyDlhajlvIDvvInvvIzkuI3otbAgc2Z3b3JrZXIg4oCU4oCUIOWMv+WQjemFjemineaMieiwg+eUqOaWuSBJUCDorqHvvIwKLy8g57uPIHdvcmtlciDovazlj5HkvJrorqnmiYDmnInnlKjmiLfmjKTlkIzkuIDkuKrlh7rlj6MgSVAg55qE5q+P5pel6YWN6aKd44CCQVBJIEtleSDlj6/pgInvvIhhcGl6ZXJvLmNuIOazqOWGjO+8jAovLyDkvJrlkZjphY3pop3mm7Tpq5jvvInvvIzlrZggbG9jYWxTdG9yYWdl77yM6K6+572u6aG144CM6KeG6aKR6ZO+5o6l6Kej5p6Q44CN6YeM5aGr44CCCi8vCi8vIOWksei0pe+8iOmFjemineiAl+WwvSAvIOW5s+WPsOS4jeaUr+aMgSAvIOacjeWKoeaMguS6hu+8ieeUseiwg+eUqOaWuemZjee6p+WIsCBleHRyYWN0V2VicGFnZUNvbnRlbnTjgIIKCmltcG9ydCB0eXBlIHsgRXh0cmFjdGVkV2VicGFnZSwgVmlkZW9TaGFyZUluZm8gfSBmcm9tICcuL3dlYnBhZ2VFeHRyYWN0b3InOwoKY29uc3QgQVBJX0VORFBPSU5UID0gJ2h0dHBzOi8vdjEuYXBpemVyby5jbi9hcGkvdmlkZW8tcGFyc2UnOwpjb25zdCBMU19LRVkgPSAnc3VsbHlfdmlkZW9fcGFyc2Vfa2V5X3YxJzsKY29uc3QgUkVRVUVTVF9USU1FT1VUX01TID0gMjAwMDA7CgovLyDlhoXnva7pu5jorqQgS2V577yI5LuT5bqT5omA5pyJ6ICF55qEIGFwaXplcm8g5Lya5ZGYIGtlee+8jOWFqOS9k+eUqOaIt+WFseS6q+WFtuavj+aXpemFjemine+8ieOAggovLyDms6jmhI/vvJrku5PlupPlhazlvIDvvIzov5nph4zlhpnku4DkuYjlsLHnrYnkuo7lhazlvIDku4DkuYjigJTigJRrZXkg5rOE6ZyyL+iiq+WIt+eIhuaXtuadpei/memHjOaNouaIlua4heepuu+8jAovLyDmuIXnqbrlkI7lm57okL3ljL/lkI3osIPnlKjvvIg1IOasoS/lpKkvSVDvvInjgILkuozmlLnnlKjmiLflj6/lnKggbG9jYWxTdG9yYWdlIOWhq+iHquW3seeahCBrZXkg6KaG55uW44CCCi8vIOm7mOiupCBrZXkg5bey5Zyo5YWs5byA5LuT5bqT5Lit6KKrIEdpdEh1YiBzZWNyZXQg5omr5o+P5qCH6K6w77yM5pS55Li656m677yI5Zue6JC95Yy/5ZCN6LCD55So77yMNeasoS/lpKkvSVDvvIkKY29uc3QgREVGQVVMVF9WSURFT19QQVJTRV9LRVkgPSAnJzsKCi8qKiDor7vlj5bnlJ/mlYjnmoQgYXBpemVybyBBUEkgS2V577yabG9jYWxTdG9yYWdlIOeUqOaIt+iHquWhqyA+IOWGhee9rum7mOiupCA+IOWMv+WQje+8iOepuuS4su+8ieOAgiAqLwpleHBvcnQgY29uc3QgZ2V0VmlkZW9QYXJzZUtleSA9ICgpOiBzdHJpbmcgPT4gewogIHRyeSB7CiAgICByZXR1cm4gKGxvY2FsU3RvcmFnZS5nZXRJdGVtKExTX0tFWSkgfHwgJycpLnRyaW0oKSB8fCBERUZBVUxUX1ZJREVPX1BBUlNFX0tFWTsKICB9IGNhdGNoIHsKICAgIHJldHVybiBERUZBVUxUX1ZJREVPX1BBUlNFX0tFWTsKICB9Cn07CgovKiog5YaZ5YWlIEFQSSBLZXnjgILkvKDnqbog4oaSIOa4heaOie+8iOWbnuiQveWGhee9rum7mOiupCBrZXnvvIzmsqHmnInlhoXnva7liJnljL/lkI3vvInjgIIgKi8KZXhwb3J0IGNvbnN0IHNldFZpZGVvUGFyc2VLZXkgPSAoa2V5OiBzdHJpbmcpOiB2b2lkID0+IHsKICB0cnkgewogICAgY29uc3QgdHJpbW1lZCA9IChrZXkgfHwgJycpLnRyaW0oKTsKICAgIGlmICghdHJpbW1lZCkgbG9jYWxTdG9yYWdlLnJlbW92ZUl0ZW0oTFNfS0VZKTsKICAgIGVsc2UgbG9jYWxTdG9yYWdlLnNldEl0ZW0oTFNfS0VZLCB0cmltbWVkKTsKICB9IGNhdGNoIHsgLyogbG9jYWxTdG9yYWdlIOS4jeWPr+eUqOWwseW9k+WMv+WQjSAqLyB9Cn07CgovLyB2aWRlby1wYXJzZSDmlK/mjIHnmoTlubPlj7Dln5/lkI3jgILliKTmlq3mjIkgaG9zdG5hbWUg5ZCO57yA5Yy56YWN77yI5ZCr5a2Q5Z+f77yJ44CCCi8vIOWuvei/m+S4peWHuu+8muWRveS4reS6huS9huino+aekOWksei0peS8mumZjee6p+WbnumAmueUqOe9kemhteaKk+WPlu+8jOaJgOS7peWDjyB3ZWliby94LmNvbSDov5nnp40KLy8g44CM5LiN5LiA5a6a5piv6KeG6aKR44CN55qE5Z+f5ZCN5Lmf5pS+6L+b5p2l4oCU4oCU6KeG6aKR6aG16Kej5p6Q5oiQ5Yqf6LWa5Yiw77yM5paH5a2X5biW5aSx6LSl5bCx6LWw6ICB6Lev44CCCi8vIOWwj+e6ouS5puS4jeWcqOWIl++8muW3suacieS4k+mXqOeahCB4aHNfY2FyZCDot6/lvoTvvIhhcHBzL0NoYXQudHN477yJ44CCCmNvbnN0IFZJREVPX1NIQVJFX0hPU1RTOiBSZWdFeHBbXSA9IFsKICAvKD86XnxcLilkb3V5aW5cLmNvbSQvaSwgLyg/Ol58XC4paWVzZG91eWluXC5jb20kL2ksCiAgLyg/Ol58XC4pdGlrdG9rXC5jb20kL2ksCiAgLyg/Ol58XC4pYmlsaWJpbGlcLmNvbSQvaSwgL15iMjNcLnR2JC9pLAogIC8oPzpefFwuKWt1YWlzaG91XC5jb20kL2ksIC8oPzpefFwuKWNoZW56aG9uZ3RlY2hcLmNvbSQvaSwgLy8gY2hlbnpob25ndGVjaDog5b+r5omL5YiG5Lqr55+t6ZO+5Z+fCiAgLyg/Ol58XC4pd2VpYm9cLmNvbSQvaSwgLyg/Ol58XC4pd2VpYm9cLmNuJC9pLAogIC8oPzpefFwuKXBpcGl4XC5jb20kL2ksIC8oPzpefFwuKWl6dWl5b3VcLmNvbSQvaSwKICAvKD86XnxcLil5b3V0dWJlXC5jb20kL2ksIC9eeW91dHVcLmJlJC9pLAogIC8oPzpefFwuKXZpbWVvXC5jb20kL2ksCiAgLyg/Ol58XC4pdHdpdHRlclwuY29tJC9pLCAvKD86XnxcLil4XC5jb20kL2ksIC9edFwuY28kL2ksCiAgLyg/Ol58XC4pamlhbnlpbmdcLmNvbSQvaSwgLyg/Ol58XC4pa2xpbmdhaVwuY29tJC9pLCAvLyDljbPmoqYgLyDlj6/ngbUgQUkg55Sf5oiQ5YaF5a655YiG5LqrCl07CgovKiog6L+Z5Liq6ZO+5o6l5piv5ZCm6K+l5LyY5YWI6LWw6KeG6aKR6Kej5p6Q77yI6ICM5LiN5piv6YCa55So572R6aG15oqT5Y+W77yJ44CCICovCmV4cG9ydCBmdW5jdGlvbiBpc1ZpZGVvU2hhcmVVcmwodXJsOiBzdHJpbmcpOiBib29sZWFuIHsKICB0cnkgewogICAgY29uc3QgaG9zdCA9IG5ldyBVUkwodXJsKS5ob3N0bmFtZTsKICAgIHJldHVybiBWSURFT19TSEFSRV9IT1NUUy5zb21lKChyZSkgPT4gcmUudGVzdChob3N0KSk7CiAgfSBjYXRjaCB7CiAgICByZXR1cm4gZmFsc2U7CiAgfQp9CgovLyBBUEkg5Lia5Yqh6ZSZ6K+v56CBIOKGkiDnlKjmiLfog73nnIvmh4LnmoTor53vvIhIVFRQIOeKtuaAgeS4jeWPr+mdoO+8jOS7pSBib2R5LmNvZGUg5Li65YeG77yJ44CCCmNvbnN0IEVSUk9SX01FU1NBR0VTOiBSZWNvcmQ8bnVtYmVyLCBzdHJpbmc+ID0gewogIDQwMDA6ICfpk77mjqXmoLzlvI/kuI3lr7nmiJblubPlj7DkuI3mlK/mjIEnLAogIDQwMTU6ICfku4rml6XlhY3otLnop6PmnpDmrKHmlbDlt7LnlKjlrozvvIjlj6/lnKjorr7nva7ph4zloasgQVBJIEtleSDmj5Dpop3vvIknLAogIDQwMjk6ICfop6PmnpDor7fmsYLlpKrpopHnuYHvvIznqI3nrYnlh6Dnp5Llho3or5UnLAogIDQwMzA6ICfku4rml6Xop6PmnpDphY3pop3lt7LogJflsL0nLAogIDUwMjA6ICfop6PmnpDmnI3liqHov57kuI3kuIrmupDlubPlj7AnLAogIDUwMjE6ICfmupDlubPlj7DlhoXlrrnop6PmnpDlpLHotKXvvIjlj6/og73lt7LliKDpmaTmiJbpnIDopoHnmbvlvZXvvIknLAp9OwoKLyoqIOWkp+aVsOWtl+i9rOOAjDEuMuS4hyAvIDMuNOS6v+OAje+8jOWNoeeJh+WSjOWWgiBMTE0g55qE54Ot5bqm6KGM5YWx55So44CCMCAvIOaXoOaViOi/lOWbnuepuuS4suOAgiAqLwpleHBvcnQgZnVuY3Rpb24gZm9ybWF0U3RhdENvdW50KG4/OiBudW1iZXIpOiBzdHJpbmcgewogIGlmICh0eXBlb2YgbiAhPT0gJ251bWJlcicgfHwgIU51bWJlci5pc0Zpbml0ZShuKSB8fCBuIDw9IDApIHJldHVybiAnJzsKICBpZiAobiA+PSAxMDAwMDAwMDApIHJldHVybiBgJHsobiAvIDEwMDAwMDAwMCkudG9GaXhlZCgxKS5yZXBsYWNlKC9cLjAkLywgJycpfeS6v2A7CiAgaWYgKG4gPj0gMTAwMDApIHJldHVybiBgJHsobiAvIDEwMDAwKS50b0ZpeGVkKDEpLnJlcGxhY2UoL1wuMCQvLCAnJyl95LiHYDsKICByZXR1cm4gU3RyaW5nKG4pOwp9Cgpjb25zdCB0b0NvdW50ID0gKHY6IGFueSk6IG51bWJlciB8IHVuZGVmaW5lZCA9PiB7CiAgY29uc3QgbiA9IE51bWJlcih2KTsKICByZXR1cm4gTnVtYmVyLmlzRmluaXRlKG4pICYmIG4gPiAwID8gbiA6IHVuZGVmaW5lZDsKfTsKCi8qKgogKiDosIMgYXBpemVybyB2aWRlby1wYXJzZSDop6PmnpDkuIDkuKrop4bpopHlubPlj7DliIbkuqvpk77mjqXvvIzov5Tlm57lj6/nm7TmjqXlrZjov5sKICogd2VicGFnZV9jYXJkIG1ldGFkYXRhIOeahCBFeHRyYWN0ZWRXZWJwYWdl77yI5bimIHZpZGVvIOmZhOWKoOWtl+aute+8ieOAggogKiDlpLHotKXmipvplJnvvIzosIPnlKjmlrnotJ/otKPpmY3nuqfliLAgZXh0cmFjdFdlYnBhZ2VDb250ZW5044CCCiAqLwpleHBvcnQgYXN5bmMgZnVuY3Rpb24gcGFyc2VWaWRlb1NoYXJlVXJsKHVybDogc3RyaW5nKTogUHJvbWlzZTxFeHRyYWN0ZWRXZWJwYWdlPiB7CiAgY29uc3QgcGFyYW1zID0gbmV3IFVSTFNlYXJjaFBhcmFtcyh7IHVybCwgZmxhdDogJzEnIH0pOwogIGNvbnN0IGtleSA9IGdldFZpZGVvUGFyc2VLZXkoKTsKICBpZiAoa2V5KSBwYXJhbXMuc2V0KCdrZXknLCBrZXkpOwoKICBjb25zdCBjb250cm9sbGVyID0gbmV3IEFib3J0Q29udHJvbGxlcigpOwogIGNvbnN0IHRpbWVyID0gc2V0VGltZW91dCgoKSA9PiBjb250cm9sbGVyLmFib3J0KCksIFJFUVVFU1RfVElNRU9VVF9NUyk7CiAgbGV0IHBhcnNlZDogYW55ID0gbnVsbDsKICB0cnkgewogICAgY29uc3QgcmVzID0gYXdhaXQgZmV0Y2goYCR7QVBJX0VORFBPSU5UfT8ke3BhcmFtcy50b1N0cmluZygpfWAsIHsgc2lnbmFsOiBjb250cm9sbGVyLnNpZ25hbCB9KTsKICAgIGNvbnN0IHRleHQgPSBhd2FpdCByZXMudGV4dCgpLmNhdGNoKCgpID0+ICcnKTsKICAgIHRyeSB7IHBhcnNlZCA9IHRleHQgPyBKU09OLnBhcnNlKHRleHQpIDogbnVsbDsgfSBjYXRjaCB7IC8qIG5vbi1qc29uICovIH0KICAgIGlmICghcGFyc2VkKSB0aHJvdyBuZXcgRXJyb3IoYOinhumikeino+aekOacjeWKoeaXoOWTjeW6lCAoSFRUUCAke3Jlcy5zdGF0dXN9KWApOwogIH0gY2F0Y2ggKGU6IGFueSkgewogICAgaWYgKGU/Lm5hbWUgPT09ICdBYm9ydEVycm9yJykgdGhyb3cgbmV3IEVycm9yKCfop4bpopHop6PmnpDotoXml7YnKTsKICAgIHRocm93IGU7CiAgfSBmaW5hbGx5IHsKICAgIGNsZWFyVGltZW91dCh0aW1lcik7CiAgfQoKICBjb25zdCBjb2RlID0gTnVtYmVyKHBhcnNlZC5jb2RlKTsKICBpZiAoY29kZSAhPT0gMCkgewogICAgdGhyb3cgbmV3IEVycm9yKEVSUk9SX01FU1NBR0VTW2NvZGVdIHx8IFN0cmluZyhwYXJzZWQubXNnIHx8IGDop4bpopHop6PmnpDlpLHotKUgKGNvZGUgJHtjb2RlfSlgKSk7CiAgfQoKICAvLyBmbGF0PTHvvJrlrZfmrrXnm7TmjqXlnKggZGF0YSDpobblsYLjgILlhbzlrrkgZmxhdD0wIOeahOS4pOWxgiBkYXRhIOS7pemYsiBBUEkg6KGM5Li65Y+Y5YyW44CCCiAgY29uc3QgZDogYW55ID0gcGFyc2VkLmRhdGE/LmRhdGEgJiYgIXBhcnNlZC5kYXRhLnRpdGxlID8gcGFyc2VkLmRhdGEuZGF0YSA6IChwYXJzZWQuZGF0YSB8fCB7fSk7CiAgY29uc3Qgc291cmNlOiBhbnkgPSBkLnNvdXJjZSB8fCB7fTsKICBjb25zdCBzdGF0czogYW55ID0gZC5zdGF0cyB8fCB7fTsKICBjb25zdCBpbWFnZWxpc3Q6IHN0cmluZ1tdID0gQXJyYXkuaXNBcnJheShkLmltYWdlbGlzdCkgPyBkLmltYWdlbGlzdC5maWx0ZXIoKHU6IGFueSkgPT4gdHlwZW9mIHUgPT09ICdzdHJpbmcnICYmIHUpIDogW107CiAgY29uc3QgaXNJbWFnZVBvc3QgPSBkLnR5cGUgPT09ICflm77niYcnIHx8ICghZC52aWRlb191cmwgJiYgaW1hZ2VsaXN0Lmxlbmd0aCA+IDApOwoKICBjb25zdCB0aXRsZSA9IFN0cmluZyhkLnRpdGxlIHx8ICcnKS50cmltKCk7CiAgaWYgKCF0aXRsZSAmJiAhZC52aWRlb191cmwgJiYgIWltYWdlbGlzdC5sZW5ndGgpIHsKICAgIHRocm93IG5ldyBFcnJvcign6Kej5p6Q57uT5p6c5Li656m6Jyk7IC8vIOepuuWjs+e7k+aenOS4jeW7uuWNoe+8jOmZjee6p+i1sOmAmueUqOaKk+WPlgogIH0KCiAgY29uc3QgdmlkZW86IFZpZGVvU2hhcmVJbmZvID0gewogICAgcGxhdGZvcm06IFN0cmluZyhkLnBsYXRmb3JtIHx8IHNvdXJjZS5wbGF0Zm9ybSB8fCAnJyksCiAgICBwbGF0Zm9ybUxhYmVsOiBTdHJpbmcoc291cmNlLnBsYXRmb3JtX2xhYmVsIHx8ICcnKSB8fCB1bmRlZmluZWQsCiAgICBjb250ZW50VHlwZTogaXNJbWFnZVBvc3QgPyAnaW1hZ2UnIDogJ3ZpZGVvJywKICAgIGF1dGhvck5hbWU6IFN0cmluZyhzdGF0cy5hdXRob3JfbmFtZSB8fCBzb3VyY2UuYXV0aG9yX25hbWUgfHwgJycpIHx8IHVuZGVmaW5lZCwKICAgIGF1dGhvckF2YXRhcjogU3RyaW5nKHN0YXRzLmF1dGhvcl9hdmF0YXIgfHwgJycpIHx8IHVuZGVmaW5lZCwKICAgIHBsYXlDb3VudDogdG9Db3VudChzdGF0cy5wbGF5X2NvdW50KSwKICAgIGxpa2VDb3VudDogdG9Db3VudChzdGF0cy5saWtlX2NvdW50KSwKICAgIGNvbW1lbnRDb3VudDogdG9Db3VudChzdGF0cy5jb21tZW50X2NvdW50KSwKICAgIHNoYXJlQ291bnQ6IHRvQ291bnQoc3RhdHMuc2hhcmVfY291bnQpLAogICAgY29sbGVjdENvdW50OiB0b0NvdW50KHN0YXRzLmNvbGxlY3RfY291bnQpLAogICAgcHVibGlzaFRpbWU6IFN0cmluZyhzdGF0cy5wdWJsaXNoX3RpbWUgfHwgJycpIHx8IHVuZGVmaW5lZCwKICAgIGltYWdlQ291bnQ6IGlzSW1hZ2VQb3N0ID8gaW1hZ2VsaXN0Lmxlbmd0aCA6IHVuZGVmaW5lZCwKICB9OwoKICBjb25zdCBmaW5hbFVybCA9IFN0cmluZyhzb3VyY2Uub3JpZ2luYWxfdXJsIHx8ICcnKSB8fCB1bmRlZmluZWQ7CiAgcmV0dXJuIHsKICAgIHVybCwKICAgIGZpbmFsVXJsLAogICAgdGl0bGU6IHRpdGxlIHx8IGAke3ZpZGVvLnBsYXRmb3JtTGFiZWwgfHwgdmlkZW8ucGxhdGZvcm19JHtpc0ltYWdlUG9zdCA/ICflm77mlocnIDogJ+inhumikSd9YCwKICAgIHNpdGVOYW1lOiB2aWRlby5wbGF0Zm9ybUxhYmVsIHx8IHZpZGVvLnBsYXRmb3JtIHx8IHVuZGVmaW5lZCwKICAgIGNvbnRlbnQ6ICcnLCAvLyDop4bpopHmsqHmnInlj6/or7vmraPmlofvvJttZXNzYWdlRm9ybWF0IOeahCB2aWRlbyDliIbmlK/kvJrnlJ/miJDkuJPpl6jnmoTmj4/ov7DmlofmnKwKICAgIGV4Y2VycHQ6IHZpZGVvLmF1dGhvck5hbWUgPyBgQCR7dmlkZW8uYXV0aG9yTmFtZX1gIDogJycsCiAgICBpbWFnZTogU3RyaW5nKGQuY292ZXJfdXJsIHx8ICcnKS50cmltKCkgfHwgaW1hZ2VsaXN0WzBdIHx8IHVuZGVmaW5lZCwKICAgIHRydW5jYXRlZDogZmFsc2UsCiAgICBmZXRjaGVkQXQ6IERhdGUubm93KCksCiAgICB2aWRlbywKICB9Owp9Cg==
+// 视频链接解析 — 抖音 / B站 / 快手等视频平台的分享链接，Jina Reader 基本抓不到东西
+// （SPA + 登录墙），走 apizero 的 video-parse API 拿结构化元数据（标题/作者/封面/热度），
+// 映射成 ExtractedWebpage 复用现有 webpage_card 管线（卡片渲染 + messageFormat 喂 LLM）。
+//
+// 接入方式：浏览器直连（该 API CORS 全开），不走 sfworker —— 匿名配额按调用方 IP 计，
+// 经 worker 转发会让所有用户挤同一个出口 IP 的每日配额。API Key 可选（apizero.cn 注册，
+// 会员配额更高），存 localStorage，设置页「视频链接解析」里填。
+//
+// 失败（配额耗尽 / 平台不支持 / 服务挂了）由调用方降级到 extractWebpageContent。
+
+import type { ExtractedWebpage, VideoShareInfo } from './webpageExtractor';
+
+const API_ENDPOINT = 'https://v1.apizero.cn/api/video-parse';
+const LS_KEY = 'sully_video_parse_key_v1';
+const REQUEST_TIMEOUT_MS = 20000;
+
+// 内置默认 Key（仓库所有者的 apizero 会员 key，全体用户共享其每日配额）。
+// 注意：仓库公开，这里写什么就等于公开什么——key 泄露/被刷爆时来这里换或清空，
+// 清空后回落匿名调用（5 次/天/IP）。二改用户可在 localStorage 填自己的 key 覆盖。
+// 默认 key 已在公开仓库中被 GitHub secret 扫描标记，改为空（回落匿名调用，5次/天/IP）
+const DEFAULT_VIDEO_PARSE_KEY = '';
+
+/** 读取生效的 apizero API Key：localStorage 用户自填 > 内置默认 > 匿名（空串）。 */
+export const getVideoParseKey = (): string => {
+  try {
+    return (localStorage.getItem(LS_KEY) || '').trim() || DEFAULT_VIDEO_PARSE_KEY;
+  } catch {
+    return DEFAULT_VIDEO_PARSE_KEY;
+  }
+};
+
+/** 写入 API Key。传空 → 清掉（回落内置默认 key，没有内置则匿名）。 */
+export const setVideoParseKey = (key: string): void => {
+  try {
+    const trimmed = (key || '').trim();
+    if (!trimmed) localStorage.removeItem(LS_KEY);
+    else localStorage.setItem(LS_KEY, trimmed);
+  } catch { /* localStorage 不可用就当匿名 */ }
+};
+
+// video-parse 支持的平台域名。判断按 hostname 后缀匹配（含子域）。
+// 宽进严出：命中了但解析失败会降级回通用网页抓取，所以像 weibo/x.com 这种
+// 「不一定是视频」的域名也放进来——视频页解析成功赚到，文字帖失败就走老路。
+// 小红书不在列：已有专门的 xhs_card 路径（apps/Chat.tsx）。
+const VIDEO_SHARE_HOSTS: RegExp[] = [
+  /(?:^|\.)douyin\.com$/i, /(?:^|\.)iesdouyin\.com$/i,
+  /(?:^|\.)tiktok\.com$/i,
+  /(?:^|\.)bilibili\.com$/i, /^b23\.tv$/i,
+  /(?:^|\.)kuaishou\.com$/i, /(?:^|\.)chenzhongtech\.com$/i, // chenzhongtech: 快手分享短链域
+  /(?:^|\.)weibo\.com$/i, /(?:^|\.)weibo\.cn$/i,
+  /(?:^|\.)pipix\.com$/i, /(?:^|\.)izuiyou\.com$/i,
+  /(?:^|\.)youtube\.com$/i, /^youtu\.be$/i,
+  /(?:^|\.)vimeo\.com$/i,
+  /(?:^|\.)twitter\.com$/i, /(?:^|\.)x\.com$/i, /^t\.co$/i,
+  /(?:^|\.)jianying\.com$/i, /(?:^|\.)klingai\.com$/i, // 即梦 / 可灵 AI 生成内容分享
+];
+
+/** 这个链接是否该优先走视频解析（而不是通用网页抓取）。 */
+export function isVideoShareUrl(url: string): boolean {
+  try {
+    const host = new URL(url).hostname;
+    return VIDEO_SHARE_HOSTS.some((re) => re.test(host));
+  } catch {
+    return false;
+  }
+}
+
+// API 业务错误码 → 用户能看懂的话（HTTP 状态不可靠，以 body.code 为准）。
+const ERROR_MESSAGES: Record<number, string> = {
+  4000: '链接格式不对或平台不支持',
+  4015: '今日免费解析次数已用完（可在设置里填 API Key 提额）',
+  4029: '解析请求太频繁，稍等几秒再试',
+  4030: '今日解析配额已耗尽',
+  5020: '解析服务连不上源平台',
+  5021: '源平台内容解析失败（可能已删除或需要登录）',
+};
+
+/** 大数字转「1.2万 / 3.4亿」，卡片和喂 LLM 的热度行共用。0 / 无效返回空串。 */
+export function formatStatCount(n?: number): string {
+  if (typeof n !== 'number' || !Number.isFinite(n) || n <= 0) return '';
+  if (n >= 100000000) return `${(n / 100000000).toFixed(1).replace(/\.0$/, '')}亿`;
+  if (n >= 10000) return `${(n / 10000).toFixed(1).replace(/\.0$/, '')}万`;
+  return String(n);
+}
+
+const toCount = (v: any): number | undefined => {
+  const n = Number(v);
+  return Number.isFinite(n) && n > 0 ? n : undefined;
+};
+
+/**
+ * 调 apizero video-parse 解析一个视频平台分享链接，返回可直接存进
+ * webpage_card metadata 的 ExtractedWebpage（带 video 附加字段）。
+ * 失败抛错，调用方负责降级到 extractWebpageContent。
+ */
+export async function parseVideoShareUrl(url: string): Promise<ExtractedWebpage> {
+  const params = new URLSearchParams({ url, flat: '1' });
+  const key = getVideoParseKey();
+  if (key) params.set('key', key);
+
+  const controller = new AbortController();
+  const timer = setTimeout(() => controller.abort(), REQUEST_TIMEOUT_MS);
+  let parsed: any = null;
+  try {
+    const res = await fetch(`${API_ENDPOINT}?${params.toString()}`, { signal: controller.signal });
+    const text = await res.text().catch(() => '');
+    try { parsed = text ? JSON.parse(text) : null; } catch { /* non-json */ }
+    if (!parsed) throw new Error(`视频解析服务无响应 (HTTP ${res.status})`);
+  } catch (e: any) {
+    if (e?.name === 'AbortError') throw new Error('视频解析超时');
+    throw e;
+  } finally {
+    clearTimeout(timer);
+  }
+
+  const code = Number(parsed.code);
+  if (code !== 0) {
+    throw new Error(ERROR_MESSAGES[code] || String(parsed.msg || `视频解析失败 (code ${code})`));
+  }
+
+  // flat=1：字段直接在 data 顶层。兼容 flat=0 的两层 data 以防 API 行为变化。
+  const d: any = parsed.data?.data && !parsed.data.title ? parsed.data.data : (parsed.data || {});
+  const source: any = d.source || {};
+  const stats: any = d.stats || {};
+  const imagelist: string[] = Array.isArray(d.imagelist) ? d.imagelist.filter((u: any) => typeof u === 'string' && u) : [];
+  const isImagePost = d.type === '图片' || (!d.video_url && imagelist.length > 0);
+
+  const title = String(d.title || '').trim();
+  if (!title && !d.video_url && !imagelist.length) {
+    throw new Error('解析结果为空'); // 空壳结果不建卡，降级走通用抓取
+  }
+
+  const video: VideoShareInfo = {
+    platform: String(d.platform || source.platform || ''),
+    platformLabel: String(source.platform_label || '') || undefined,
+    contentType: isImagePost ? 'image' : 'video',
+    authorName: String(stats.author_name || source.author_name || '') || undefined,
+    authorAvatar: String(stats.author_avatar || '') || undefined,
+    playCount: toCount(stats.play_count),
+    likeCount: toCount(stats.like_count),
+    commentCount: toCount(stats.comment_count),
+    shareCount: toCount(stats.share_count),
+    collectCount: toCount(stats.collect_count),
+    publishTime: String(stats.publish_time || '') || undefined,
+    imageCount: isImagePost ? imagelist.length : undefined,
+  };
+
+  const finalUrl = String(source.original_url || '') || undefined;
+  return {
+    url,
+    finalUrl,
+    title: title || `${video.platformLabel || video.platform}${isImagePost ? '图文' : '视频'}`,
+    siteName: video.platformLabel || video.platform || undefined,
+    content: '', // 视频没有可读正文；messageFormat 的 video 分支会生成专门的描述文本
+    excerpt: video.authorName ? `@${video.authorName}` : '',
+    image: String(d.cover_url || '').trim() || imagelist[0] || undefined,
+    truncated: false,
+    fetchedAt: Date.now(),
+    video,
+  };
+}

@@ -1,1 +1,7 @@
-ZXhwb3J0IGNvbnN0IGZvcm1hdEJ5dGVzID0gKGJ5dGVzPzogbnVtYmVyKTogc3RyaW5nID0+IHsKICBpZiAoIWJ5dGVzIHx8IGJ5dGVzIDw9IDApIHJldHVybiAnJzsKICBpZiAoYnl0ZXMgPCAxMDI0KSByZXR1cm4gYCR7Ynl0ZXN9IEJgOwogIGlmIChieXRlcyA8IDEwMjQgKiAxMDI0KSByZXR1cm4gYCR7KGJ5dGVzIC8gMTAyNCkudG9GaXhlZCgxKX0gS0JgOwogIGlmIChieXRlcyA8IDEwMjQgKiAxMDI0ICogMTAyNCkgcmV0dXJuIGAkeyhieXRlcyAvIDEwMjQgLyAxMDI0KS50b0ZpeGVkKDEpfSBNQmA7CiAgcmV0dXJuIGAkeyhieXRlcyAvIDEwMjQgLyAxMDI0IC8gMTAyNCkudG9GaXhlZCgyKX0gR0JgOwp9Owo=
+export const formatBytes = (bytes?: number): string => {
+  if (!bytes || bytes <= 0) return '';
+  if (bytes < 1024) return `${bytes} B`;
+  if (bytes < 1024 * 1024) return `${(bytes / 1024).toFixed(1)} KB`;
+  if (bytes < 1024 * 1024 * 1024) return `${(bytes / 1024 / 1024).toFixed(1)} MB`;
+  return `${(bytes / 1024 / 1024 / 1024).toFixed(2)} GB`;
+};

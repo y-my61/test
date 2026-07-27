@@ -1,1 +1,142 @@
-LyoqCiAqIFNoYXJlZCBXZWIgUHVzaCBzdWJzY3JpYmUgaGVscGVycyB1c2VkIGJ5IGJvdGggSW5zdGFudCBQdXNoIGFuZCBQcm9hY3RpdmUKICogUHVzaCBwYXRocy4gQm90aCBmbG93cyBoaXQgdGhlIHNhbWUgYnJvd3NlciByYWNlIC8gZW5jb2RpbmcgcXVpcmtzOyB0aGlzCiAqIGZpbGUgaXMgdGhlIHNpbmdsZSBzb3VyY2Ugb2YgdHJ1dGggc28gYSBmdXR1cmUgYnJvd3Nlci1xdWlyayBwYXRjaCBsYW5kcwogKiBpbiBvbmUgcGxhY2UgaW5zdGVhZCBvZiB0d28uCiAqLwoKLy8gdW5zdWJzY3JpYmUoKSByZXNvbHZlIOWQjiBDaHJvbWl1bSDlhoXpg6ggUHVzaE1lc3NhZ2luZ0FwcElkZW50aWZpZXIg5oqK5b2T5YmNCi8vIOiuoumYheagh+aIkCByZW1vdmVkLXNlbnRpbmVsOyDov5nmrrXml7bpl7Tph4zntKfmjqXnnYDnmoQgc3Vic2NyaWJlKCkg5Lya55u05o6l5ZCQCi8vIGBwZXJtYW5lbnRseS1yZW1vdmVkLmludmFsaWRgIOWTqOWFtSwg6ICM5LiN5piv5Y67IEZDTSDmi7/mlrDnq6/ngrkuIOetieS4gOS8muWGjeivleWwseWlvS4KLy8g5qGM6Z2iIENocm9tZSB+IDMwMG1zIOWknywg56e75Yqo56uvIC8gaU9TIFBXQSDnu5kgODAwbXMg6LW35q2lLCDlpLHotKXlho3nur/mgKfpgIDpgb8uCmV4cG9ydCBjb25zdCBTVUJTQ1JJQkVfU0VUVExFX01TID0gODAwOwovKiog5oC75bCd6K+V5qyh5pWwICjlkKvpppbmrKEpLCDkuI3mmK8i6YeN6K+V5qyh5pWwIi4g5b2T5YmNOiAxIOasoemmluivlSArIDIg5qyh6YeN6K+VID0gMyDmrKEuICovCmV4cG9ydCBjb25zdCBTVUJTQ1JJQkVfQVRURU1QVFNfTUFYID0gMzsKCi8qKiBDb252ZXJ0IGJhc2U2NHVybCBzdHJpbmcgdG8gVWludDhBcnJheTxBcnJheUJ1ZmZlcj4gKGZvciBWQVBJRCBhcHBsaWNhdGlvblNlcnZlcktleSkuICovCmV4cG9ydCBmdW5jdGlvbiBiNjR1VG9CeXRlcyhiNjR1OiBzdHJpbmcpOiBVaW50OEFycmF5PEFycmF5QnVmZmVyPiB7CiAgY29uc3QgcGFkZGVkID0gYjY0dS5yZXBsYWNlKC8tL2csICcrJykucmVwbGFjZSgvXy9nLCAnLycpCiAgICArICc9Jy5yZXBlYXQoKDQgLSAoYjY0dS5sZW5ndGggJSA0KSkgJSA0KTsKICBjb25zdCBiaW4gPSBhdG9iKHBhZGRlZCk7CiAgLy8g5pi+5byP5ou/IEFycmF5QnVmZmVyIOiAjOS4jeaYr+m7mOiupCBBcnJheUJ1ZmZlckxpa2UsIOWQpuWImSBQdXNoTWFuYWdlci5zdWJzY3JpYmUg5ZyoCiAgLy8g5Lil5qC8IFRTIGxpYiAoQXJyYXlCdWZmZXJWaWV3PEFycmF5QnVmZmVyPikg5LiL5Lya5YikIFNoYXJlZEFycmF5QnVmZmVyIOS4jeWFvOWuuS4KICBjb25zdCBidWYgPSBuZXcgQXJyYXlCdWZmZXIoYmluLmxlbmd0aCk7CiAgY29uc3Qgb3V0ID0gbmV3IFVpbnQ4QXJyYXkoYnVmKTsKICBmb3IgKGxldCBpID0gMDsgaSA8IGJpbi5sZW5ndGg7IGkrKykgb3V0W2ldID0gYmluLmNoYXJDb2RlQXQoaSk7CiAgcmV0dXJuIG91dDsKfQoKZXhwb3J0IGZ1bmN0aW9uIGJ5dGVzVG9CNjR1KGJ1ZjogQXJyYXlCdWZmZXIgfCBudWxsIHwgdW5kZWZpbmVkKTogc3RyaW5nIHsKICBpZiAoIWJ1ZikgcmV0dXJuICcnOwogIGNvbnN0IGJ5dGVzID0gbmV3IFVpbnQ4QXJyYXkoYnVmKTsKICBsZXQgYmluID0gJyc7CiAgZm9yIChsZXQgaSA9IDA7IGkgPCBieXRlcy5sZW5ndGg7IGkrKykgYmluICs9IFN0cmluZy5mcm9tQ2hhckNvZGUoYnl0ZXNbaV0pOwogIHJldHVybiBidG9hKGJpbikucmVwbGFjZSgvXCsvZywgJy0nKS5yZXBsYWNlKC9cLy9nLCAnXycpLnJlcGxhY2UoLz0rJC8sICcnKTsKfQoKLyoqCiAqIFRydWUgaWYgYSBzdWJzY3JpcHRpb24ncyBlbmRwb2ludCBpcyBhIENocm9tZS1pbnRlcm5hbCAicGVybWFuZW50bHkKICogcmVtb3ZlZCIgc2VudGluZWwuICBCcm93c2VycyBvY2Nhc2lvbmFsbHkgcmV2b2tlIHN1YnNjcmlwdGlvbnMgZHVlIHRvCiAqIGxvbmcgaW5hY3Rpdml0eSwgYWJ1c2Ugc2lnbmFscywgb3IgdGhlIHNpdGUgYmVpbmcgdmlzaXRlZCB0b28gcmFyZWx5OwogKiBgZ2V0U3Vic2NyaXB0aW9uKClgIHRoZW4gcmV0dXJucyBhbiBvYmplY3Qgd2hvc2UgZW5kcG9pbnQgVVJMIGlzCiAqIGBodHRwczovL3Blcm1hbmVudGx5LXJlbW92ZWQuaW52YWxpZC8uLi5gLiAgYC5pbnZhbGlkYCBpcyBhbiBSRkMgMjYwNgogKiByZXNlcnZlZCBUTEQgdGhhdCBuZXZlciByZXNvbHZlcywgc28gYW55IHB1c2ggc2VuZCB3b3VsZCBmYWlsIHdpdGggYQogKiBnZW5lcmljIHVwc3RyZWFtIGVycm9yICh3aGljaCBDbG91ZGZsYXJlIFdvcmtlcnMgd3JhcHMgYXMgSFRUUCA1MzApLgogKi8KZXhwb3J0IGZ1bmN0aW9uIGlzRGVhZFB1c2hFbmRwb2ludChlbmRwb2ludDogc3RyaW5nIHwgbnVsbCB8IHVuZGVmaW5lZCk6IGJvb2xlYW4gewogIGlmICghZW5kcG9pbnQpIHJldHVybiBmYWxzZTsKICByZXR1cm4gZW5kcG9pbnQuaW5jbHVkZXMoJ3Blcm1hbmVudGx5LXJlbW92ZWQuaW52YWxpZCcpOwp9CgovKioKICogV2ViIFB1c2gg5LiJ5Lu25aWX6IO95Yqb5qOA5rWLOiBTZXJ2aWNlIFdvcmtlciAvIFB1c2hNYW5hZ2VyIC8gTm90aWZpY2F0aW9u44CCCiAqIOWFqOm9kOi/lOWbniBudWxsOyDnvLrku7vkvZXkuIDkuKrov5Tlm57lj6/nm7TmjqXlsZXnpLrnu5nnlKjmiLfnmoTljp/lm6DmlofmoYjjgIIKICoKICog5Li65LuA5LmI6KaB57uG5YiGOiBY5rWP6KeI5ZmoIC8gVmlhIOi/meexuyBXZWJWaWV3IOWjs+a1j+iniOWZqOW4uOingeOAjFNXIOiDveazqOWGjOaIkOWKn+S9huayoeaciQogKiBQdXNoTWFuYWdlciAvIE5vdGlmaWNhdGlvbuOAjSgyMDI2LTA3IOeUqOaIt+Wunua1izog6K+K5pat6YeMIHN3OiBhY3RpdmXjgIFub3RpZjoKICogdW5zdXBwb3J0ZWQsIOWNtOiiq+aKpSLkuI3mlK/mjIEgU2VydmljZSBXb3JrZXIiKSDigJTigJQg56y857uf5paH5qGI5Lya5oqK55So5oi35byV5Y675p+lIFNXIC8KICog6YeN6KOFIFBXQSwg5a6e6ZmF5piv5YaF5qC45rKh5pyJIFdlYiBQdXNoIOiDveWKmywg5Y+q6IO95o2i5rWP6KeI5Zmo44CCTm90aWZpY2F0aW9uIOS5n+W/hemhuwogKiDlnKjov5nph4zmn6Xmjok6IOWPquafpSBQdXNoTWFuYWdlciDnmoTor50sIOWQjue7rSBgTm90aWZpY2F0aW9uLnBlcm1pc3Npb25gIOWcqOayoeacieivpQogKiBBUEkg55qE546v5aKD5Lya55u05o6lIFJlZmVyZW5jZUVycm9y44CCCiAqLwpleHBvcnQgZnVuY3Rpb24gZGVzY3JpYmVQdXNoQ2FwYWJpbGl0eUdhcCgpOiBzdHJpbmcgfCBudWxsIHsKICBjb25zdCBzd1N1cHBvcnRlZCA9IHR5cGVvZiBuYXZpZ2F0b3IgIT09ICd1bmRlZmluZWQnICYmICdzZXJ2aWNlV29ya2VyJyBpbiBuYXZpZ2F0b3I7CiAgY29uc3QgcHVzaFN1cHBvcnRlZCA9IHR5cGVvZiB3aW5kb3cgIT09ICd1bmRlZmluZWQnICYmICdQdXNoTWFuYWdlcicgaW4gd2luZG93OwogIGNvbnN0IG5vdGlmU3VwcG9ydGVkID0gdHlwZW9mIE5vdGlmaWNhdGlvbiAhPT0gJ3VuZGVmaW5lZCc7CiAgaWYgKHN3U3VwcG9ydGVkICYmIHB1c2hTdXBwb3J0ZWQgJiYgbm90aWZTdXBwb3J0ZWQpIHJldHVybiBudWxsOwogIGNvbnN0IG1pc3NpbmcgPSBbCiAgICAhc3dTdXBwb3J0ZWQgPyAnU2VydmljZSBXb3JrZXInIDogJycsCiAgICAhcHVzaFN1cHBvcnRlZCA/ICdQdXNoIEFQSScgOiAnJywKICAgICFub3RpZlN1cHBvcnRlZCA/ICfns7vnu5/pgJrnn6XmjqXlj6MgKE5vdGlmaWNhdGlvbiknIDogJycsCiAgXS5maWx0ZXIoQm9vbGVhbikuam9pbign44CBJyk7CiAgcmV0dXJuIGDlvZPliY3mtY/op4jlmajnvLrlsJEgJHttaXNzaW5nfe+8jOWGheaguOayoeaciee9kemhteaOqOmAgeiDveWKm++8iFjmtY/op4jlmaggLyBWaWEg562JIFdlYlZpZXcg5aOz5rWP6KeI5Zmo55qE6YCa55eF77yJ4oCU4oCUIOivt+aNoiBDaHJvbWUgLyBFZGdlIC8gRmlyZWZveCDnrYnlrozmlbTlhoXmoLjmtY/op4jlmahgOwp9CgovKioKICogVHJhbnNsYXRlIHRoZSBicm93c2VyJ3MgcmF3IHN1YnNjcmliZSgpIHJlamVjdGlvbiBpbnRvIGEgQ2hpbmVzZSwKICogZW5kLXVzZXItYWN0aW9uYWJsZSBoaW50LiAgVGhlIGNvbW1vbiBjYXNlcyBvbiBBbmRyb2lkIHBob25lcyB3aXRob3V0CiAqIEdvb2dsZSBQbGF5IFNlcnZpY2VzIChvciBpbiB0aGlyZC1wYXJ0eSBDaHJvbWl1bS1iYXNlZCBicm93c2VycyB0aGF0CiAqIGFkdmVydGlzZSBgUHVzaE1hbmFnZXJgIGJ1dCByb3V0ZSB0aHJvdWdoIEZDTSBpbnRlcm5hbGx5KSBhcmUKICogYEFib3J0RXJyb3JgIC8gZ2VuZXJpYyBuZXR3b3JrIGVycm9ycyB3aGVuIHRoZSBGQ00gZW5kcG9pbnQgY2Fubm90IGJlCiAqIHJlYWNoZWQuICBXZSBzdXJmYWNlIHRob3NlIGRpc3RpbmN0bHkgc28gdGhlIHVzZXIga25vd3MgaXQncyBub3QgYQogKiBwZXJtaXNzaW9uIGlzc3VlLgogKi8KZXhwb3J0IGZ1bmN0aW9uIGV4cGxhaW5TdWJzY3JpYmVFcnJvcihlOiB1bmtub3duKTogc3RyaW5nIHsKICBjb25zdCBlcnIgPSBlIGFzIHsgbmFtZT86IHN0cmluZzsgbWVzc2FnZT86IHN0cmluZyB9IHwgbnVsbDsKICBjb25zdCBuYW1lID0gZXJyPy5uYW1lIHx8ICcnOwogIGNvbnN0IG1zZyA9IGVycj8ubWVzc2FnZSB8fCBTdHJpbmcoZSB8fCAn5pyq55+l6ZSZ6K+vJyk7CiAgaWYgKG5hbWUgPT09ICdOb3RBbGxvd2VkRXJyb3InKSB7CiAgICByZXR1cm4gJ+a1j+iniOWZqOaLkue7neWIm+W7uuiuoumYhe+8iE5vdEFsbG93ZWRFcnJvcu+8ieKAlOKAlOmAmuW4uOaYr+ermeeCueadg+mZkOiiq+aLpuaIquaIluWkhOS6jumakOi6q+aooeW8jyc7CiAgfQogIGlmIChuYW1lID09PSAnTm90U3VwcG9ydGVkRXJyb3InKSB7CiAgICByZXR1cm4gJ+W9k+WJjea1j+iniOWZqOS4jeaUr+aMgee9kemhteaOqOmAgeKAlOKAlOW4uOingeS6juayoeijheiwt+atjOacjeWKoeeahOWbveihjOWuieWNk+aJi+acuu+8iOWwj+exsy/ljY7kuLovT1BQTy92aXZvIOWkp+Wkmum7mOiupOWwseayoeacie+8ie+8jOaIluiAheaJi+acuuiHquW4pueahOeyvueugOa1j+iniOWZqOOAguaNoiBDaHJvbWUgLyBFZGdlIC8gRmlyZWZveCDmoYzpnaLniYjor5Xor5UnOwogIH0KICBpZiAobmFtZSA9PT0gJ0Fib3J0RXJyb3InIHx8IC9wdXNoIHNlcnZpY2V8RkNNfG5ldHdvcmsvaS50ZXN0KG1zZykpIHsKICAgIHJldHVybiAn6L+e5LiN5LiK5o6o6YCB5pyN5Yqh5Zmo4oCU4oCU6L+Z5Y+w6K6+5aSH55qE572R6aG15o6o6YCB6ZO+6Lev6LWw5LiN6YCa44CC5pyA5bi46KeB5Lik56eN5oOF5Ya177yaMSkg5Zu96KGM5a6J5Y2T5omL5py65rKh6KOF6LC35q2M5pyN5Yqh77yI5bCP57GzL+WNjuS4ui9PUFBPL3Zpdm8g6buY6K6k5bCx5rKh5pyJ77yJ77yM57O757uf5bGC6Z2i5bCx5o6o5LiN5LqG77ybMikg5b2T5YmN572R57uc5oyh5L2P5LqG6LC35q2M55qE5o6o6YCB5pyN5Yqh5Zmo44CC5bu66K6u77ya5o2i5Y+w6KOF5LqG6LC35q2M5pyN5Yqh55qE6K6+5aSH77yM5oiW6ICF55So55S16ISR5LiK55qEIENocm9tZSAvIEVkZ2UgLyBGaXJlZm94IOivleivlSc7CiAgfQogIGlmIChuYW1lID09PSAnSW52YWxpZFN0YXRlRXJyb3InKSB7CiAgICByZXR1cm4gJ+iuoumYheeKtuaAgeWGsueqge+8iEludmFsaWRTdGF0ZUVycm9y77yJ4oCU4oCU5Y+v6IO95pen6K6i6ZiF5rKh5riF5bmy5YeA77yM5Yi35paw6aG16Z2i5oiW5YaN54K55LiA5qyhIumHjee9ruiuoumYhSInOwogIH0KICByZXR1cm4gYOiuoumYheWIm+W7uuWksei0pe+8iCR7bmFtZSB8fCAnRXJyb3Infe+8miR7bXNnfe+8iWA7Cn0KCi8qKgogKiBTdWJzY3JpYmUgd2l0aCByZXRyeSBvbiB6b21iaWUgc2VudGluZWwuICBXYWl0IGJldHdlZW4gYXR0ZW1wdHMgaXMgbGluZWFyOgogKiA4MDBtcyBiZWZvcmUgYXR0ZW1wdCAjMiwgMTYwMG1zIGJlZm9yZSBhdHRlbXB0ICMzLiAgTm8gd2FpdCBiZWZvcmUgdGhlCiAqIGZpcnN0IGF0dGVtcHQg4oCUIGNhbGxlciBpcyByZXNwb25zaWJsZSBmb3IgYW55IHJlcXVpcmVkIHNldHRsZSBkZWxheSBhZnRlcgogKiBpdHMgb3duIHVuc3Vic2NyaWJlKCkuCiAqLwpleHBvcnQgYXN5bmMgZnVuY3Rpb24gc3Vic2NyaWJlV2l0aFJldHJ5KAogIHJlZzogU2VydmljZVdvcmtlclJlZ2lzdHJhdGlvbiwKICB2YXBpZFB1YmxpY0tleTogc3RyaW5nLAogIGxvZ1ByZWZpeDogc3RyaW5nLAopOiBQcm9taXNlPHsgc3ViOiBQdXNoU3Vic2NyaXB0aW9uIHwgbnVsbDsgcmVhc29uPzogc3RyaW5nIH0+IHsKICBmb3IgKGxldCBhdHRlbXB0ID0gMDsgYXR0ZW1wdCA8IFNVQlNDUklCRV9BVFRFTVBUU19NQVg7IGF0dGVtcHQrKykgewogICAgbGV0IHN1YjogUHVzaFN1YnNjcmlwdGlvbjsKICAgIHRyeSB7CiAgICAgIHN1YiA9IGF3YWl0IHJlZy5wdXNoTWFuYWdlci5zdWJzY3JpYmUoewogICAgICAgIHVzZXJWaXNpYmxlT25seTogdHJ1ZSwKICAgICAgICBhcHBsaWNhdGlvblNlcnZlcktleTogYjY0dVRvQnl0ZXModmFwaWRQdWJsaWNLZXkpLAogICAgICB9KTsKICAgIH0gY2F0Y2ggKGUpIHsKICAgICAgY29uc29sZS53YXJuKGAke2xvZ1ByZWZpeH0gcHVzaE1hbmFnZXIuc3Vic2NyaWJlIGZhaWxlZGAsIGUpOwogICAgICByZXR1cm4geyBzdWI6IG51bGwsIHJlYXNvbjogZXhwbGFpblN1YnNjcmliZUVycm9yKGUpIH07CiAgICB9CiAgICBpZiAoIWlzRGVhZFB1c2hFbmRwb2ludChzdWIuZW5kcG9pbnQpKSByZXR1cm4geyBzdWIgfTsKICAgIHRyeSB7IGF3YWl0IHN1Yi51bnN1YnNjcmliZSgpOyB9IGNhdGNoIChlKSB7CiAgICAgIC8vIOWmguaenOi/niB1bnN1YnNjcmliZSDpg73mipssIOS4i+S4gOasoSBzdWJzY3JpYmUoKSDlpKfmpoLnjofov5jmmK/lkIzkuIDkuKogem9tYmllLAogICAgICAvLyDkvYbku43nhLblhZzlupXph43or5UgKOmHjeivleS4iumZkOaMoeedgOS4jeS8muatu+W+queOrykuCiAgICAgIGNvbnNvbGUud2FybihgJHtsb2dQcmVmaXh9IHVuc3Vic2NyaWJlIG9mIHpvbWJpZSBlbmRwb2ludCB0aHJld2AsIGUpOwogICAgfQogICAgY29uc3QgaXNMYXN0ID0gYXR0ZW1wdCA9PT0gU1VCU0NSSUJFX0FUVEVNUFRTX01BWCAtIDE7CiAgICBpZiAoIWlzTGFzdCkgewogICAgICBjb25zdCB3YWl0ID0gU1VCU0NSSUJFX1NFVFRMRV9NUyAqIChhdHRlbXB0ICsgMSk7CiAgICAgIGNvbnNvbGUud2FybihgJHtsb2dQcmVmaXh9IHN1YnNjcmliZSgpIHJldHVybmVkIHpvbWJpZSBlbmRwb2ludDsgcmV0cnkgIyR7YXR0ZW1wdCArIDF9IGFmdGVyICR7d2FpdH1tc2ApOwogICAgICBhd2FpdCBuZXcgUHJvbWlzZShyID0+IHNldFRpbWVvdXQociwgd2FpdCkpOwogICAgfQogIH0KICByZXR1cm4gewogICAgc3ViOiBudWxsLAogICAgcmVhc29uOiBg5rWP6KeI5Zmo5oyB57ut6L+U5ZueIHBlcm1hbmVudGx5LXJlbW92ZWQuaW52YWxpZO+8iOW3suWwneivlSAke1NVQlNDUklCRV9BVFRFTVBUU19NQVh9IOasoe+8ieKAlCDlj6/og73mmK/nlLHkuo7nq5nngrnlj4LkuI7luqYgKFNpdGUgRW5nYWdlbWVudCkg6L+H5L2O5oiW5rWP6KeI5Zmo5YaF6YOo5pWw5o2u5q6L55WZ5a+86Ie044CC6K+35bCd6K+V5riF55CG56uZ54K55pWw5o2u5ZCO6YeN6K+V77yM5oiW5pu05o2i6K6+5aSHL+a1j+iniOWZqGAsCiAgfTsKfQo=
+/**
+ * Shared Web Push subscribe helpers used by both Instant Push and Proactive
+ * Push paths. Both flows hit the same browser race / encoding quirks; this
+ * file is the single source of truth so a future browser-quirk patch lands
+ * in one place instead of two.
+ */
+
+// unsubscribe() resolve 后 Chromium 内部 PushMessagingAppIdentifier 把当前
+// 订阅标成 removed-sentinel; 这段时间里紧接着的 subscribe() 会直接吐
+// `permanently-removed.invalid` 哨兵, 而不是去 FCM 拿新端点. 等一会再试就好.
+// 桌面 Chrome ~ 300ms 够, 移动端 / iOS PWA 给 800ms 起步, 失败再线性退避.
+export const SUBSCRIBE_SETTLE_MS = 800;
+/** 总尝试次数 (含首次), 不是"重试次数". 当前: 1 次首试 + 2 次重试 = 3 次. */
+export const SUBSCRIBE_ATTEMPTS_MAX = 3;
+
+/** Convert base64url string to Uint8Array<ArrayBuffer> (for VAPID applicationServerKey). */
+export function b64uToBytes(b64u: string): Uint8Array<ArrayBuffer> {
+  const padded = b64u.replace(/-/g, '+').replace(/_/g, '/')
+    + '='.repeat((4 - (b64u.length % 4)) % 4);
+  const bin = atob(padded);
+  // 显式拿 ArrayBuffer 而不是默认 ArrayBufferLike, 否则 PushManager.subscribe 在
+  // 严格 TS lib (ArrayBufferView<ArrayBuffer>) 下会判 SharedArrayBuffer 不兼容.
+  const buf = new ArrayBuffer(bin.length);
+  const out = new Uint8Array(buf);
+  for (let i = 0; i < bin.length; i++) out[i] = bin.charCodeAt(i);
+  return out;
+}
+
+export function bytesToB64u(buf: ArrayBuffer | null | undefined): string {
+  if (!buf) return '';
+  const bytes = new Uint8Array(buf);
+  let bin = '';
+  for (let i = 0; i < bytes.length; i++) bin += String.fromCharCode(bytes[i]);
+  return btoa(bin).replace(/\+/g, '-').replace(/\//g, '_').replace(/=+$/, '');
+}
+
+/**
+ * True if a subscription's endpoint is a Chrome-internal "permanently
+ * removed" sentinel.  Browsers occasionally revoke subscriptions due to
+ * long inactivity, abuse signals, or the site being visited too rarely;
+ * `getSubscription()` then returns an object whose endpoint URL is
+ * `https://permanently-removed.invalid/...`.  `.invalid` is an RFC 2606
+ * reserved TLD that never resolves, so any push send would fail with a
+ * generic upstream error (which Cloudflare Workers wraps as HTTP 530).
+ */
+export function isDeadPushEndpoint(endpoint: string | null | undefined): boolean {
+  if (!endpoint) return false;
+  return endpoint.includes('permanently-removed.invalid');
+}
+
+/**
+ * Web Push 三件套能力检测: Service Worker / PushManager / Notification。
+ * 全齐返回 null; 缺任何一个返回可直接展示给用户的原因文案。
+ *
+ * 为什么要细分: X浏览器 / Via 这类 WebView 壳浏览器常见「SW 能注册成功但没有
+ * PushManager / Notification」(2026-07 用户实测: 诊断里 sw: active、notif:
+ * unsupported, 却被报"不支持 Service Worker") —— 笼统文案会把用户引去查 SW /
+ * 重装 PWA, 实际是内核没有 Web Push 能力, 只能换浏览器。Notification 也必须
+ * 在这里查掉: 只查 PushManager 的话, 后续 `Notification.permission` 在没有该
+ * API 的环境会直接 ReferenceError。
+ */
+export function describePushCapabilityGap(): string | null {
+  const swSupported = typeof navigator !== 'undefined' && 'serviceWorker' in navigator;
+  const pushSupported = typeof window !== 'undefined' && 'PushManager' in window;
+  const notifSupported = typeof Notification !== 'undefined';
+  if (swSupported && pushSupported && notifSupported) return null;
+  const missing = [
+    !swSupported ? 'Service Worker' : '',
+    !pushSupported ? 'Push API' : '',
+    !notifSupported ? '系统通知接口 (Notification)' : '',
+  ].filter(Boolean).join('、');
+  return `当前浏览器缺少 ${missing}，内核没有网页推送能力（X浏览器 / Via 等 WebView 壳浏览器的通病）—— 请换 Chrome / Edge / Firefox 等完整内核浏览器`;
+}
+
+/**
+ * Translate the browser's raw subscribe() rejection into a Chinese,
+ * end-user-actionable hint.  The common cases on Android phones without
+ * Google Play Services (or in third-party Chromium-based browsers that
+ * advertise `PushManager` but route through FCM internally) are
+ * `AbortError` / generic network errors when the FCM endpoint cannot be
+ * reached.  We surface those distinctly so the user knows it's not a
+ * permission issue.
+ */
+export function explainSubscribeError(e: unknown): string {
+  const err = e as { name?: string; message?: string } | null;
+  const name = err?.name || '';
+  const msg = err?.message || String(e || '未知错误');
+  if (name === 'NotAllowedError') {
+    return '浏览器拒绝创建订阅（NotAllowedError）——通常是站点权限被拦截或处于隐身模式';
+  }
+  if (name === 'NotSupportedError') {
+    return '当前浏览器不支持网页推送——常见于没装谷歌服务的国行安卓手机（小米/华为/OPPO/vivo 大多默认就没有），或者手机自带的精简浏览器。换 Chrome / Edge / Firefox 桌面版试试';
+  }
+  if (name === 'AbortError' || /push service|FCM|network/i.test(msg)) {
+    return '连不上推送服务器——这台设备的网页推送链路走不通。最常见两种情况：1) 国行安卓手机没装谷歌服务（小米/华为/OPPO/vivo 默认就没有），系统层面就推不了；2) 当前网络挡住了谷歌的推送服务器。建议：换台装了谷歌服务的设备，或者用电脑上的 Chrome / Edge / Firefox 试试';
+  }
+  if (name === 'InvalidStateError') {
+    return '订阅状态冲突（InvalidStateError）——可能旧订阅没清干净，刷新页面或再点一次"重置订阅"';
+  }
+  return `订阅创建失败（${name || 'Error'}：${msg}）`;
+}
+
+/**
+ * Subscribe with retry on zombie sentinel.  Wait between attempts is linear:
+ * 800ms before attempt #2, 1600ms before attempt #3.  No wait before the
+ * first attempt — caller is responsible for any required settle delay after
+ * its own unsubscribe().
+ */
+export async function subscribeWithRetry(
+  reg: ServiceWorkerRegistration,
+  vapidPublicKey: string,
+  logPrefix: string,
+): Promise<{ sub: PushSubscription | null; reason?: string }> {
+  for (let attempt = 0; attempt < SUBSCRIBE_ATTEMPTS_MAX; attempt++) {
+    let sub: PushSubscription;
+    try {
+      sub = await reg.pushManager.subscribe({
+        userVisibleOnly: true,
+        applicationServerKey: b64uToBytes(vapidPublicKey),
+      });
+    } catch (e) {
+      console.warn(`${logPrefix} pushManager.subscribe failed`, e);
+      return { sub: null, reason: explainSubscribeError(e) };
+    }
+    if (!isDeadPushEndpoint(sub.endpoint)) return { sub };
+    try { await sub.unsubscribe(); } catch (e) {
+      // 如果连 unsubscribe 都抛, 下一次 subscribe() 大概率还是同一个 zombie,
+      // 但仍然兜底重试 (重试上限挡着不会死循环).
+      console.warn(`${logPrefix} unsubscribe of zombie endpoint threw`, e);
+    }
+    const isLast = attempt === SUBSCRIBE_ATTEMPTS_MAX - 1;
+    if (!isLast) {
+      const wait = SUBSCRIBE_SETTLE_MS * (attempt + 1);
+      console.warn(`${logPrefix} subscribe() returned zombie endpoint; retry #${attempt + 1} after ${wait}ms`);
+      await new Promise(r => setTimeout(r, wait));
+    }
+  }
+  return {
+    sub: null,
+    reason: `浏览器持续返回 permanently-removed.invalid（已尝试 ${SUBSCRIBE_ATTEMPTS_MAX} 次）— 可能是由于站点参与度 (Site Engagement) 过低或浏览器内部数据残留导致。请尝试清理站点数据后重试，或更换设备/浏览器`,
+  };
+}

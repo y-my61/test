@@ -1,1 +1,220 @@
-bGV0IGhhc0luc3RhbGxlZElPU1N0YW5kYWxvbmVXb3JrYXJvdW5kID0gZmFsc2U7CmxldCBzdGFibGVTdGFuZGFsb25lSGVpZ2h0ID0gMDsKLy8g5a6J5YWo5Yy65Y+q5Zyo5peL6L2sIC8g56qX5Y+j5bC65a+45Y+Y5YyW5pe25omN5Y+Y77yM57yT5a2Y5o6i5rWL57uT5p6c77yM6YG/5YWNIHZpc3VhbFZpZXdwb3J0IOa7muWKqOOAgeiBmueEpuaXtuWPjeWkjeWQjOatpemHjeaOkuOAggovLyDkuIrkuIvlkIToh6rni6znq4vnvJPlrZjvvJrmn5Dovrnor7vliLDpnZ4gMCDmiY3plIHlrprvvJtpT1Mg5ZCv5Yqo5pep5pyf5p+Q6L655Y+v6IO9556s5pe25Li6IDDvvIzmraTml7bor6XovrnkuI3plIHjgIHkuIvmrKHnu6fnu63mjqLmtYvvvIwKLy8g6YG/5YWN44CM5LiA6L6555yf5YC844CB5LiA6L65556s5pe2IDDjgI3ooqvmlbTkvZPplIHmrbvvvIjlkKbliJkgaG9tZSDmnaHpgb/orqnkvJrlpLHmlYjvvIznm7TliLDml4vovawv5bC65a+45Y+Y5YyW5omN5oGi5aSN77yJ44CCCmxldCBjYWNoZWRUb3BJbnNldDogbnVtYmVyIHwgbnVsbCA9IG51bGw7CmxldCBjYWNoZWRCb3R0b21JbnNldDogbnVtYmVyIHwgbnVsbCA9IG51bGw7CgovLyDnlKjkuIDkuKrpmpDol4/mjqLpkojlkIzml7bor7vlj5bkuIrkuIvlronlhajljLrvvJrljZXmrKHmj5LlhaUgKyDljZXmrKEgZ2V0Q29tcHV0ZWRTdHlsZe+8iOS4gOasoSByZWZsb3fvvInjgIIKLy8gZW52KCkg5Zyo5pys6aG555uuIGlPUyDlhajlsY8gUFdBIOS4i+WBtuWPkei/lOWbniAw77yM5pWF6ZyAIEpTIOaOoua1i+WFnOW6leOAggpleHBvcnQgY29uc3QgcmVhZFNhZmVBcmVhSW5zZXRzID0gKCk6IHsgdG9wOiBudW1iZXI7IGJvdHRvbTogbnVtYmVyIH0gPT4gewogICAgaWYgKHR5cGVvZiBkb2N1bWVudCA9PT0gJ3VuZGVmaW5lZCcgfHwgIWRvY3VtZW50LmJvZHkpIHsKICAgICAgICByZXR1cm4geyB0b3A6IGNhY2hlZFRvcEluc2V0ID8/IDAsIGJvdHRvbTogY2FjaGVkQm90dG9tSW5zZXQgPz8gMCB9OwogICAgfQogICAgLy8g5Lik6L656YO95bey6ZSB5a6a5pyJ5pWI5YC877yM55u05o6l55So57yT5a2Y77yM5LiN5YaN5o+S5o6i6ZKI6YeN5o6S44CCCiAgICBpZiAoY2FjaGVkVG9wSW5zZXQgIT09IG51bGwgJiYgY2FjaGVkQm90dG9tSW5zZXQgIT09IG51bGwpIHsKICAgICAgICByZXR1cm4geyB0b3A6IGNhY2hlZFRvcEluc2V0LCBib3R0b206IGNhY2hlZEJvdHRvbUluc2V0IH07CiAgICB9CgogICAgY29uc3QgcHJvYmUgPSBkb2N1bWVudC5jcmVhdGVFbGVtZW50KCdkaXYnKTsKICAgIHByb2JlLnN0eWxlLnBvc2l0aW9uID0gJ2ZpeGVkJzsKICAgIHByb2JlLnN0eWxlLnZpc2liaWxpdHkgPSAnaGlkZGVuJzsKICAgIHByb2JlLnN0eWxlLnBvaW50ZXJFdmVudHMgPSAnbm9uZSc7CiAgICBwcm9iZS5zdHlsZS5vcGFjaXR5ID0gJzAnOwogICAgcHJvYmUuc3R5bGUucGFkZGluZ1RvcCA9ICdlbnYoc2FmZS1hcmVhLWluc2V0LXRvcCknOwogICAgcHJvYmUuc3R5bGUucGFkZGluZ0JvdHRvbSA9ICdlbnYoc2FmZS1hcmVhLWluc2V0LWJvdHRvbSknOwogICAgZG9jdW1lbnQuYm9keS5hcHBlbmRDaGlsZChwcm9iZSk7CgogICAgY29uc3QgY29tcHV0ZWQgPSB3aW5kb3cuZ2V0Q29tcHV0ZWRTdHlsZShwcm9iZSk7CiAgICBjb25zdCB0b3AgPSBNYXRoLnJvdW5kKHBhcnNlRmxvYXQoY29tcHV0ZWQucGFkZGluZ1RvcCkgfHwgMCk7CiAgICBjb25zdCBib3R0b20gPSBNYXRoLnJvdW5kKHBhcnNlRmxvYXQoY29tcHV0ZWQucGFkZGluZ0JvdHRvbSkgfHwgMCk7CgogICAgZG9jdW1lbnQuYm9keS5yZW1vdmVDaGlsZChwcm9iZSk7CgogICAgLy8g5ZCE6L655Y+q5Zyo6K+75Yiw6Z2eIDAg5pe26ZSB5a6a77yb5LuN5Li6IDAg55qE6L655L+d5oyB5pyq57yT5a2Y77yM5LiL5qyh5LqL5Lu257un57ut5o6i5rWL77yM6K+75Yiw55yf5YC85YaN6ZSB44CCCiAgICBpZiAoY2FjaGVkVG9wSW5zZXQgPT09IG51bGwgJiYgdG9wID4gMCkgY2FjaGVkVG9wSW5zZXQgPSB0b3A7CiAgICBpZiAoY2FjaGVkQm90dG9tSW5zZXQgPT09IG51bGwgJiYgYm90dG9tID4gMCkgY2FjaGVkQm90dG9tSW5zZXQgPSBib3R0b207CgogICAgcmV0dXJuIHsgdG9wOiBjYWNoZWRUb3BJbnNldCA/PyB0b3AsIGJvdHRvbTogY2FjaGVkQm90dG9tSW5zZXQgPz8gYm90dG9tIH07Cn07CgpleHBvcnQgY29uc3QgaXNJT1NEZXZpY2UgPSAoKTogYm9vbGVhbiA9PiB7CiAgICBpZiAodHlwZW9mIG5hdmlnYXRvciA9PT0gJ3VuZGVmaW5lZCcpIHJldHVybiBmYWxzZTsKICAgIGNvbnN0IHVhID0gbmF2aWdhdG9yLnVzZXJBZ2VudCB8fCAnJzsKICAgIHJldHVybiAvaVBhZHxpUGhvbmV8aVBvZC8udGVzdCh1YSkgfHwgKG5hdmlnYXRvci5wbGF0Zm9ybSA9PT0gJ01hY0ludGVsJyAmJiBuYXZpZ2F0b3IubWF4VG91Y2hQb2ludHMgPiAxKTsKfTsKCmV4cG9ydCBjb25zdCBpc1N0YW5kYWxvbmVEaXNwbGF5TW9kZSA9ICgpOiBib29sZWFuID0+IHsKICAgIGlmICh0eXBlb2Ygd2luZG93ID09PSAndW5kZWZpbmVkJykgcmV0dXJuIGZhbHNlOwogICAgcmV0dXJuIHdpbmRvdy5tYXRjaE1lZGlhPy4oJyhkaXNwbGF5LW1vZGU6IHN0YW5kYWxvbmUpJykubWF0Y2hlcyB8fCAhISh3aW5kb3cubmF2aWdhdG9yIGFzIE5hdmlnYXRvciAmIHsgc3RhbmRhbG9uZT86IGJvb2xlYW4gfSkuc3RhbmRhbG9uZTsKfTsKCmV4cG9ydCBjb25zdCBpc0lPU1N0YW5kYWxvbmVXZWJBcHAgPSAoKTogYm9vbGVhbiA9PiBpc0lPU0RldmljZSgpICYmIGlzU3RhbmRhbG9uZURpc3BsYXlNb2RlKCk7CgovLyDlronljZPmnLrvvIhDaHJvbWUgLyBFZGdlIOetie+8ieOAguWuieWNk+aZrumAmua1j+iniOWZqOW8uei9r+mUruebmOaXtue7j+W4uOS4jeaMiSBpbnRlcmFjdGl2ZS13aWRnZXQ9cmVzaXplcy1jb250ZW50Ci8vIOWbnua1ge+8jOiAjOaYr+e8qeWwj+WPr+inhuWMuuOAgeaKiuaVtOmhteW+gOS4iumhtu+8iOmhtuagj+iiq+WIh+OAgemAgOWHuumHjei/m+aJjeaBouWkje+8ieOAgumcgOimgeWSjCBpT1Mg5YWo5bGPIFBXQSDkuIDmoLfvvIwKLy8g6K6pIGFwcCDpq5jluqbot5/pmo/lj6/op4bljLrlubbplIHmrbvlpJblsYLmu5rliqjjgIIKZXhwb3J0IGNvbnN0IGlzQW5kcm9pZERldmljZSA9ICgpOiBib29sZWFuID0+IHsKICAgIGlmICh0eXBlb2YgbmF2aWdhdG9yID09PSAndW5kZWZpbmVkJykgcmV0dXJuIGZhbHNlOwogICAgcmV0dXJuIC9BbmRyb2lkL2kudGVzdChuYXZpZ2F0b3IudXNlckFnZW50IHx8ICcnKTsKfTsKCi8vIOmhtumDqOaXtumSny/nlLXph4/mnaHmmK/lkKbpmpDol4/vvJrlpJbop4LjgIzpmpDol4/pobbpg6jml7bpl7TmoI/jgI3lvIDlhbPmmL7lvI/orr7ov4flsLHlkKznlKjmiLfnmoTvvJvmsqHorr7ov4codW5kZWZpbmVkKeaMieW5s+WPsOm7mOiupOKAlOKAlAovLyBpT1Mg5YWo5bGPIFBXQSDns7vnu5/nirbmgIHmoI8o55yf5a6e5pe26Ze0L+eUtemHjynliKDkuI3mjonvvIzpu5jorqTpmpDol48gU3VsbHlPUyDov5nmnaHpgb/lhY3lj4zmmL7jgIIKLy8g5b+F6aG755SoID8/IOiAjOmdniB8fO+8muaYvuW8jyBmYWxzZe+8iOeUqOaIt+S4u+WKqOimgeaYvuekuu+8ieS4jeiDveiiq+W5s+WPsOm7mOiupCB0cnVlIOebluaOieOAggovLyDlj6rlhrPlrprml7bpkp8v55S16YeP5p2h77yb6ZSZ6K+v5oyH56S65Zmo44CB57O757uf6LCD6K+V57uI56uv562J5LiO5pys5byA5YWz5peg5YWz77yM5aeL57uI54us56uL5pi+56S644CCCmV4cG9ydCBjb25zdCBpc1N0YXR1c0JhckhpZGRlbiA9ICgKICAgIGhpZGVTdGF0dXNCYXI/OiBib29sZWFuLAogICAgcGxhdGZvcm1EZWZhdWx0SGlkZGVuOiBib29sZWFuID0gaXNJT1NTdGFuZGFsb25lV2ViQXBwKCksCik6IGJvb2xlYW4gPT4gaGlkZVN0YXR1c0JhciA/PyBwbGF0Zm9ybURlZmF1bHRIaWRkZW47Cgpjb25zdCBpc1RleHRFbnRyeUVsZW1lbnQgPSAodGFyZ2V0OiBFdmVudFRhcmdldCB8IG51bGwpOiB0YXJnZXQgaXMgSFRNTEVsZW1lbnQgPT4gewogICAgaWYgKCEodGFyZ2V0IGluc3RhbmNlb2YgSFRNTEVsZW1lbnQpKSByZXR1cm4gZmFsc2U7CiAgICBpZiAodGFyZ2V0LmlzQ29udGVudEVkaXRhYmxlKSByZXR1cm4gdHJ1ZTsKICAgIHJldHVybiBbJ0lOUFVUJywgJ1RFWFRBUkVBJywgJ1NFTEVDVCddLmluY2x1ZGVzKHRhcmdldC50YWdOYW1lKTsKfTsKCmNvbnN0IHNldFZpZXdwb3J0VmFycyA9ICgpID0+IHsKICAgIGlmICh0eXBlb2YgZG9jdW1lbnQgPT09ICd1bmRlZmluZWQnKSByZXR1cm47CiAgICBjb25zdCBzaG91bGRTdGFiaWxpemVIZWlnaHQgPSBpc0lPU1N0YW5kYWxvbmVXZWJBcHAoKTsKICAgIGNvbnN0IGlubmVySGVpZ2h0ID0gTWF0aC5yb3VuZCh3aW5kb3cuaW5uZXJIZWlnaHQpOwogICAgY29uc3Qgdmlld3BvcnRIZWlnaHQgPSBNYXRoLnJvdW5kKHdpbmRvdy52aXN1YWxWaWV3cG9ydD8uaGVpZ2h0IHx8IGlubmVySGVpZ2h0KTsKICAgIGNvbnN0IHZpZXdwb3J0T2Zmc2V0VG9wID0gTWF0aC5yb3VuZCh3aW5kb3cudmlzdWFsVmlld3BvcnQ/Lm9mZnNldFRvcCB8fCAwKTsKICAgIC8vIOWNleasoeaOoumSiOivu+WPluS4iuS4i+WuieWFqOWMuuOAgumhtumDqCBlbnYg5YG25Y+R6L+U5ZueIDDvvIzmjqLmtYvkuI3liLDml7bpgIDlm54gNDRweO+8iOe6pueKtuaAgeagjy/liJjmtbfpq5jluqbvvInvvIzpgb/lhY3pobbmoI/lhoXlrrnmgLzov5vliJjmtbfjgIIKICAgIGNvbnN0IHNhZmVJbnNldHMgPSBzaG91bGRTdGFiaWxpemVIZWlnaHQgPyByZWFkU2FmZUFyZWFJbnNldHMoKSA6IHsgdG9wOiAwLCBib3R0b206IDAgfTsKICAgIGNvbnN0IGJvdHRvbVNhZmVJbnNldCA9IHNhZmVJbnNldHMuYm90dG9tOwogICAgY29uc3QgdG9wU2FmZUluc2V0ID0gc2hvdWxkU3RhYmlsaXplSGVpZ2h0ID8gKHNhZmVJbnNldHMudG9wID4gMCA/IHNhZmVJbnNldHMudG9wIDogNDQpIDogMDsKCiAgICBsZXQgZnVsbEFwcEhlaWdodDogbnVtYmVyOwogICAgbGV0IGtleWJvYXJkSW5zZXQ6IG51bWJlcjsKCiAgICBpZiAoc2hvdWxkU3RhYmlsaXplSGVpZ2h0KSB7CiAgICAgICAgLy8g5YWo5bGPIFBXQSDmsqHmnInlnLDlnYDmoI/vvIzlj6/op4bpq5jluqblj6rlnKjova/plK7nm5jlvLnlh7rml7blj5jnn67jgILln7rnur/lj5bjgIzop4Hov4fnmoTmnIDlpKflj6/op4bpq5jluqbjgI3jgIIKICAgICAgICBpZiAoIXN0YWJsZVN0YW5kYWxvbmVIZWlnaHQgfHwgdmlld3BvcnRIZWlnaHQgPiBzdGFibGVTdGFuZGFsb25lSGVpZ2h0KSB7CiAgICAgICAgICAgIHN0YWJsZVN0YW5kYWxvbmVIZWlnaHQgPSB2aWV3cG9ydEhlaWdodDsKICAgICAgICB9CiAgICAgICAgLy8g6ZSu55uY5oCB5Yik5o2u55So44CM5Y+v6KeG6auY5bqm5Y+Y55+u44CN6ICM6Z2eIG9ic2N1cmVkSGVpZ2h077yaaU9TIDI2IOi1tyBzdGFuZGFsb25lIOS8muaKiiBsYXlvdXQgdmlld3BvcnQg5Lmf5LiA6LW357yp77yMCiAgICAgICAgLy8gaW5uZXJIZWlnaHQg6Lef552A5Y+Y55+u77yMb2JzY3VyZWRIZWlnaHQg566X5Ye65p2l5pivIDAg6ICM5aSx5pWI44CCdmlld3BvcnRIZWlnaHQgPiAxNTAg5piv5a+5IGlPUyDlgbblj5HohI/lgLznmoTmiqTmoI/igJTigJQKICAgICAgICAvLyDplK7nm5jliqjnlLvmnJ8gdmlzdWFsVmlld3BvcnQg5YG25bCU5oql6ZSZ5YC877yM5q2k5pe26YCA5YyW5oiQ44CM5peg6ZSu55uY5oCB44CN77yM5a6B5Y+v5LiN6YG/6K6p5Lmf5LiN6KaB5oqK5biD5bGA5pKR5bSp5oiQ5ruh5bGP55m944CCCiAgICAgICAgY29uc3Qga2V5Ym9hcmRPcGVuID0gdmlld3BvcnRIZWlnaHQgPiAxNTAgJiYgdmlld3BvcnRIZWlnaHQgPCBzdGFibGVTdGFuZGFsb25lSGVpZ2h0IC0gMTAwOwogICAgICAgIC8vIOmUruebmOaAge+8mmFwcCDpq5jluqbmlLbliLDlvZPliY3lj6/op4bljLrvvIhob21lIOadoeW3suiiq+mUruebmOeblu+8jOS4jeWGjeWPoOWKoCBzYWZl77yJ77yb5peg6ZSu55uY5oCB77ya5Z+657q/ICsgc2FmZe+8iOW6lemDqOe7mSBob21lIOadoeeVmeS9je+8ieOAggogICAgICAgIGZ1bGxBcHBIZWlnaHQgPSBrZXlib2FyZE9wZW4gPyB2aWV3cG9ydEhlaWdodCA6IHN0YWJsZVN0YW5kYWxvbmVIZWlnaHQgKyBib3R0b21TYWZlSW5zZXQ7CiAgICAgICAgLy8gc3RhbmRhbG9uZSDkuIvplK7nm5jpgb/orqnmlLnnlLHjgIxhcHAg6auY5bqm6Lef6ZqP5Y+v6KeG5Yy644CN57uf5LiA5aSE55CG77yMa2V5Ym9hcmQtaW5zZXQg572uIDDvvIzpgb/lhY0gQ2FsbEFwcCDnrYnlho3lj6DkuIDlsYIgcGFkZGluZ+OAggogICAgICAgIGtleWJvYXJkSW5zZXQgPSAwOwogICAgICAgIC8vIGlPUyAyNiDplK7nm5jlvLnlh7rkvJrmiormlbTpobXpobbkuIrljrvvvIh2aXN1YWxWaWV3cG9ydC5vZmZzZXRUb3AgPiAw77yJ77yM5ouJ5Zue6aG26YOo5a+56b2Q5Y+v6KeG5Yy677ybCiAgICAgICAgLy8g6YWN5ZCIIGlvcy1rZXlib2FyZC1vcGVuIOS4i+eahCB0b3VjaG1vdmUg5oum5oiq77yI6KeBIGluc3RhbGxJT1NTdGFuZGFsb25lV29ya2Fyb3VuZO+8ie+8jOaKiuWkluWxgua7muWKqOW9u+W6lemUgeatu+OAggogICAgICAgIGlmIChrZXlib2FyZE9wZW4gJiYgdmlld3BvcnRPZmZzZXRUb3AgPiAwKSB7CiAgICAgICAgICAgIHdpbmRvdy5zY3JvbGxUbygwLCAwKTsKICAgICAgICB9CiAgICB9IGVsc2UgewogICAgICAgIHN0YWJsZVN0YW5kYWxvbmVIZWlnaHQgPSAwOwogICAgICAgIC8vIG9ic2N1cmVkSGVpZ2h0ID0g6KKr6L2v6ZSu55uY55uW5L2P55qE6auY5bqm44CC5a6J5Y2T5rWP6KeI5Zmo6Iul5oyJIHJlc2l6ZXMtY29udGVudCDlm57mtYHvvIwKICAgICAgICAvLyBpbm5lckhlaWdodCDkvJrot5/nnYDnvKnvvIxvYnNjdXJlZEhlaWdodCDiiYggMO+8iOi1sOaXoOmUruebmOWIhuaUr++8jOW4g+WxgOiHquihjOWbnua1ge+8jOS7gOS5iOmDveS4jeeUqOWBmu+8ie+8mwogICAgICAgIC8vIOiLpeS4jeWbnua1geiAjOaYr+e8qeWwj+WPr+inhuWMui/pobbotbfmlbTpobXvvIxvYnNjdXJlZEhlaWdodCA+IDEyMO+8jOi/m+WFpemUruebmOWIhuaUr+e7n+S4gOmBv+iuqeOAggogICAgICAgIGNvbnN0IG9ic2N1cmVkSGVpZ2h0ID0gTWF0aC5tYXgoMCwgaW5uZXJIZWlnaHQgLSB2aWV3cG9ydEhlaWdodCAtIHZpZXdwb3J0T2Zmc2V0VG9wKTsKICAgICAgICBjb25zdCBrZXlib2FyZE9wZW4gPSBvYnNjdXJlZEhlaWdodCA+IDEyMDsKICAgICAgICAvLyDplK7nm5jpgb/orqnnu5/kuIDnlKjjgIxhcHAg6auY5bqm6Lef6ZqP5Y+v6KeG5Yy644CN77yM5LiN5YaN6Z2gIGtleWJvYXJkLWluc2V0IOiuqeWQhCBBcHAg6Ieq5bex5Y+gIHBhZGRpbmfjgIIKICAgICAgICBrZXlib2FyZEluc2V0ID0gMDsKICAgICAgICBpZiAoa2V5Ym9hcmRPcGVuKSB7CiAgICAgICAgICAgIC8vIOWuieWNkyBDaHJvbWUvRWRnZe+8mmFwcCDpq5jluqbmlLbliLDplK7nm5jkuIrmlrnnmoTlj6/op4bljLrvvIzovpPlhaXmoYboh6rnhLbokL3lnKjlj6/op4bljLrlhoXvvJsKICAgICAgICAgICAgLy8g5YaN5oqK6KKr5rWP6KeI5Zmo6aG26LW355qE5aSW5bGC5rua5Yqo5ouJ5Zue6aG26YOo77yI6YWN5ZCIIGJvZHkuaW9zLWtleWJvYXJkLW9wZW4g55qEIHRvdWNobW92ZSDplIHlrprvvInvvIwKICAgICAgICAgICAgLy8g55WM6Z2i5LiN5YaN5pW05L2T5LiK56e744CB6YCA5Ye66YeN6L+b5omN5oGi5aSN44CCCiAgICAgICAgICAgIGZ1bGxBcHBIZWlnaHQgPSB2aWV3cG9ydEhlaWdodDsKICAgICAgICAgICAgaWYgKHZpZXdwb3J0T2Zmc2V0VG9wID4gMCkgd2luZG93LnNjcm9sbFRvKDAsIDApOwogICAgICAgIH0gZWxzZSB7CiAgICAgICAgICAgIGZ1bGxBcHBIZWlnaHQgPSBNYXRoLm1heChpbm5lckhlaWdodCwgdmlld3BvcnRIZWlnaHQgKyB2aWV3cG9ydE9mZnNldFRvcCk7CiAgICAgICAgfQogICAgfQoKICAgIGRvY3VtZW50LmRvY3VtZW50RWxlbWVudC5zdHlsZS5zZXRQcm9wZXJ0eSgnLS1hcHAtaGVpZ2h0JywgYCR7ZnVsbEFwcEhlaWdodH1weGApOwogICAgZG9jdW1lbnQuZG9jdW1lbnRFbGVtZW50LnN0eWxlLnNldFByb3BlcnR5KCctLXZpc3VhbC12aWV3cG9ydC1oZWlnaHQnLCBgJHt2aWV3cG9ydEhlaWdodH1weGApOwogICAgZG9jdW1lbnQuZG9jdW1lbnRFbGVtZW50LnN0eWxlLnNldFByb3BlcnR5KCctLWtleWJvYXJkLWluc2V0JywgYCR7a2V5Ym9hcmRJbnNldH1weGApOwogICAgZG9jdW1lbnQuZG9jdW1lbnRFbGVtZW50LnN0eWxlLnNldFByb3BlcnR5KCctLXN0YW5kYWxvbmUtc2FmZS1hcmVhLWJvdHRvbScsIGAke2JvdHRvbVNhZmVJbnNldH1weGApOwogICAgZG9jdW1lbnQuZG9jdW1lbnRFbGVtZW50LnN0eWxlLnNldFByb3BlcnR5KCctLXN0YW5kYWxvbmUtc2FmZS1hcmVhLXRvcCcsIGAke3RvcFNhZmVJbnNldH1weGApOwp9OwoKZXhwb3J0IGNvbnN0IGluc3RhbGxJT1NTdGFuZGFsb25lV29ya2Fyb3VuZCA9ICgpID0+IHsKICAgIGlmICh0eXBlb2Ygd2luZG93ID09PSAndW5kZWZpbmVkJyB8fCB0eXBlb2YgZG9jdW1lbnQgPT09ICd1bmRlZmluZWQnKSByZXR1cm47CiAgICBpZiAoaGFzSW5zdGFsbGVkSU9TU3RhbmRhbG9uZVdvcmthcm91bmQpIHJldHVybjsKCiAgICBoYXNJbnN0YWxsZWRJT1NTdGFuZGFsb25lV29ya2Fyb3VuZCA9IHRydWU7CiAgICBjb25zdCB1c2VTdGFuZGFsb25lRml4ZXMgPSBpc0lPU1N0YW5kYWxvbmVXZWJBcHAoKTsKICAgIC8vIGlPUyDlhajlsY8gUFdBIOS4juWuieWNk+a1j+iniOWZqOmDvemcgOimgeOAjOiBmueEpuaMgiBrZXlib2FyZCDnsbsgKyDplIHlpJblsYLmu5rliqjjgI3ov5nlpZfplK7nm5jpgb/orqnjgIIKICAgIC8vIOWuieWNkyBDaHJvbWUvRWRnZSDlvLnplK7nm5jml7bkvJrmiormlbTpobXpobbotbfvvIzlkIzmoLfpnaDov5nlpZfljovlm57ljrvjgIIKICAgIGNvbnN0IHVzZUtleWJvYXJkRml4ZXMgPSB1c2VTdGFuZGFsb25lRml4ZXMgfHwgaXNBbmRyb2lkRGV2aWNlKCk7CiAgICBpZiAodXNlU3RhbmRhbG9uZUZpeGVzKSB7CiAgICAgICAgZG9jdW1lbnQuZG9jdW1lbnRFbGVtZW50LmNsYXNzTGlzdC5hZGQoJ2lvcy1zdGFuZGFsb25lJyk7CiAgICAgICAgZG9jdW1lbnQuYm9keS5jbGFzc0xpc3QuYWRkKCdpb3Mtc3RhbmRhbG9uZScpOwogICAgfQoKICAgIGNvbnN0IGhhbmRsZVZpZXdwb3J0Q2hhbmdlID0gKCkgPT4gewogICAgICAgIHNldFZpZXdwb3J0VmFycygpOwogICAgfTsKCiAgICAvLyDlj6rmnInml4vovawgLyDnqpflj6PlsLrlr7jlj5jljJbmiY3nnJ/nmoTmlLnlj5jlronlhajljLrvvJrorqnnvJPlrZjlpLHmlYjlkI7ph43mlrDmjqLmtYvvvIjmu5rliqjjgIHogZrnhKbotbDnvJPlrZjvvIzkuI3lho3ph43mjpLvvInjgIIKICAgIGNvbnN0IGhhbmRsZVNhZmVBcmVhQ2hhbmdlID0gKCkgPT4gewogICAgICAgIGNhY2hlZFRvcEluc2V0ID0gbnVsbDsKICAgICAgICBjYWNoZWRCb3R0b21JbnNldCA9IG51bGw7CiAgICAgICAgc2V0Vmlld3BvcnRWYXJzKCk7CiAgICB9OwoKICAgIGNvbnN0IGhhbmRsZUZvY3VzSW4gPSAoZXZlbnQ6IEZvY3VzRXZlbnQpID0+IHsKICAgICAgICBpZiAoIWlzVGV4dEVudHJ5RWxlbWVudChldmVudC50YXJnZXQpKSByZXR1cm47CiAgICAgICAgZG9jdW1lbnQuYm9keS5jbGFzc0xpc3QuYWRkKCdpb3Mta2V5Ym9hcmQtb3BlbicpOwogICAgICAgIHNldFZpZXdwb3J0VmFycygpOwoKICAgICAgICBjb25zdCB0YXJnZXQgPSBldmVudC50YXJnZXQ7CiAgICAgICAgd2luZG93LnJlcXVlc3RBbmltYXRpb25GcmFtZSgoKSA9PiB7CiAgICAgICAgICAgIHdpbmRvdy5yZXF1ZXN0QW5pbWF0aW9uRnJhbWUoKCkgPT4gewogICAgICAgICAgICAgICAgaWYgKGRvY3VtZW50LmFjdGl2ZUVsZW1lbnQgIT09IHRhcmdldCkgcmV0dXJuOwogICAgICAgICAgICAgICAgdHJ5IHsKICAgICAgICAgICAgICAgICAgICB0YXJnZXQuc2Nyb2xsSW50b1ZpZXcoeyBibG9jazogJ25lYXJlc3QnLCBpbmxpbmU6ICduZWFyZXN0JyB9KTsKICAgICAgICAgICAgICAgIH0gY2F0Y2ggewogICAgICAgICAgICAgICAgICAgIC8vIElnbm9yZSBzY3JvbGwgZmFpbHVyZXMgb24gb2xkZXIgaU9TIGJ1aWxkcy4KICAgICAgICAgICAgICAgIH0KICAgICAgICAgICAgfSk7CiAgICAgICAgfSk7CiAgICB9OwoKICAgIGNvbnN0IGhhbmRsZUZvY3VzT3V0ID0gKCkgPT4gewogICAgICAgIHdpbmRvdy5zZXRUaW1lb3V0KCgpID0+IHsKICAgICAgICAgICAgaWYgKCFpc1RleHRFbnRyeUVsZW1lbnQoZG9jdW1lbnQuYWN0aXZlRWxlbWVudCkpIHsKICAgICAgICAgICAgICAgIGRvY3VtZW50LmJvZHkuY2xhc3NMaXN0LnJlbW92ZSgnaW9zLWtleWJvYXJkLW9wZW4nKTsKICAgICAgICAgICAgfQogICAgICAgICAgICBzZXRWaWV3cG9ydFZhcnMoKTsKICAgICAgICB9LCAxODApOwogICAgfTsKCiAgICAvLyDplK7nm5jlvLnlh7rml7bplIHmrbvlpJblsYLmu5rliqjvvJrlj6rmlL7ooYzlj6/mu5rljLrvvIjmtojmga/liJfooajnrYkgLm92ZXJmbG93LXktYXV0b++8ieWGhemDqOa7muWKqO+8jOWFtuS9mSB0b3VjaG1vdmUg5LiA5b6L5oum5o6J44CCCiAgICAvLyDkuI3plIHnmoTor50gaU9TIOS8muWcqOi+k+WFpeahhuiBmueEpuaXtumaj+aJi+WKv+aKiuaVtOmhtemhtumjnu+8iHZpc3VhbFZpZXdwb3J0Lm9mZnNldFRvcCDmvILnp7vjgIHpnLLlh7rlupXlsYLoibLlnZfjgIHpl6rng4HvvInjgIIKICAgIGNvbnN0IGhhbmRsZVRvdWNoTW92ZSA9IChldmVudDogVG91Y2hFdmVudCkgPT4gewogICAgICAgIGlmICghZG9jdW1lbnQuYm9keS5jbGFzc0xpc3QuY29udGFpbnMoJ2lvcy1rZXlib2FyZC1vcGVuJykpIHJldHVybjsKICAgICAgICBjb25zdCB0YXJnZXQgPSBldmVudC50YXJnZXQgYXMgRWxlbWVudCB8IG51bGw7CiAgICAgICAgaWYgKHRhcmdldD8uY2xvc2VzdCgnLm92ZXJmbG93LXktYXV0bycpKSByZXR1cm47CiAgICAgICAgZXZlbnQucHJldmVudERlZmF1bHQoKTsKICAgIH07CgogICAgd2luZG93LmFkZEV2ZW50TGlzdGVuZXIoJ3Jlc2l6ZScsIGhhbmRsZVNhZmVBcmVhQ2hhbmdlKTsKICAgIHdpbmRvdy5hZGRFdmVudExpc3RlbmVyKCdvcmllbnRhdGlvbmNoYW5nZScsIGhhbmRsZVNhZmVBcmVhQ2hhbmdlKTsKICAgIHdpbmRvdy52aXN1YWxWaWV3cG9ydD8uYWRkRXZlbnRMaXN0ZW5lcigncmVzaXplJywgaGFuZGxlVmlld3BvcnRDaGFuZ2UpOwogICAgd2luZG93LnZpc3VhbFZpZXdwb3J0Py5hZGRFdmVudExpc3RlbmVyKCdzY3JvbGwnLCBoYW5kbGVWaWV3cG9ydENoYW5nZSk7CiAgICBpZiAodXNlS2V5Ym9hcmRGaXhlcykgewogICAgICAgIGRvY3VtZW50LmFkZEV2ZW50TGlzdGVuZXIoJ2ZvY3VzaW4nLCBoYW5kbGVGb2N1c0luKTsKICAgICAgICBkb2N1bWVudC5hZGRFdmVudExpc3RlbmVyKCdmb2N1c291dCcsIGhhbmRsZUZvY3VzT3V0KTsKICAgICAgICBkb2N1bWVudC5hZGRFdmVudExpc3RlbmVyKCd0b3VjaG1vdmUnLCBoYW5kbGVUb3VjaE1vdmUsIHsgcGFzc2l2ZTogZmFsc2UgfSk7CiAgICB9CiAgICBzZXRWaWV3cG9ydFZhcnMoKTsKCiAgICAvLyBpT1Mgc3RhbmRhbG9uZSDlhrflkK/liqjml7YgZW52KCkgLyBKUyBwcm9iZSDlgbblj5Hpg73nu5kgMO+8m3Jlc2l6ZSAvIG9yaWVudGF0aW9uY2hhbmdlIOaVtOWcuuWPr+iDvemDveS4jeinpuWPke+8jAogICAgLy8g57yT5a2Y5bCx5Lya6KKr6ZSB5ZyoIDDvvIzlupXpg6jmjqfku7bmlbTlnLrotLQgaG9tZSDmnaHjgILov5nph4zlnKjlkK/liqjlkI7pmLbmoq/lvI/ph43mjqLlh6DmrKHvvIzpgYfliLDku7vkuIDovrnov5jmsqHplIHlrprlsLHlho3or5XjgIIKICAgIGlmICh1c2VTdGFuZGFsb25lRml4ZXMpIHsKICAgICAgICBjb25zdCBSRVRSWV9ERUxBWVNfTVMgPSBbMTIwLCA1MDAsIDE1MDAsIDMwMDBdOwogICAgICAgIGZvciAoY29uc3QgZGVsYXkgb2YgUkVUUllfREVMQVlTX01TKSB7CiAgICAgICAgICAgIHdpbmRvdy5zZXRUaW1lb3V0KCgpID0+IHsKICAgICAgICAgICAgICAgIGlmIChjYWNoZWRUb3BJbnNldCAhPT0gbnVsbCAmJiBjYWNoZWRCb3R0b21JbnNldCAhPT0gbnVsbCkgcmV0dXJuOyAvLyDkuKTovrnpg73lt7LplIHlrprvvIzml6DpnIDlho3or5UKICAgICAgICAgICAgICAgIHNldFZpZXdwb3J0VmFycygpOwogICAgICAgICAgICB9LCBkZWxheSk7CiAgICAgICAgfQogICAgfQp9Owo=
+let hasInstalledIOSStandaloneWorkaround = false;
+let stableStandaloneHeight = 0;
+// 安全区只在旋转 / 窗口尺寸变化时才变，缓存探测结果，避免 visualViewport 滚动、聚焦时反复同步重排。
+// 上下各自独立缓存：某边读到非 0 才锁定；iOS 启动早期某边可能瞬时为 0，此时该边不锁、下次继续探测，
+// 避免「一边真值、一边瞬时 0」被整体锁死（否则 home 条避让会失效，直到旋转/尺寸变化才恢复）。
+let cachedTopInset: number | null = null;
+let cachedBottomInset: number | null = null;
+
+// 用一个隐藏探针同时读取上下安全区：单次插入 + 单次 getComputedStyle（一次 reflow）。
+// env() 在本项目 iOS 全屏 PWA 下偶发返回 0，故需 JS 探测兜底。
+export const readSafeAreaInsets = (): { top: number; bottom: number } => {
+    if (typeof document === 'undefined' || !document.body) {
+        return { top: cachedTopInset ?? 0, bottom: cachedBottomInset ?? 0 };
+    }
+    // 两边都已锁定有效值，直接用缓存，不再插探针重排。
+    if (cachedTopInset !== null && cachedBottomInset !== null) {
+        return { top: cachedTopInset, bottom: cachedBottomInset };
+    }
+
+    const probe = document.createElement('div');
+    probe.style.position = 'fixed';
+    probe.style.visibility = 'hidden';
+    probe.style.pointerEvents = 'none';
+    probe.style.opacity = '0';
+    probe.style.paddingTop = 'env(safe-area-inset-top)';
+    probe.style.paddingBottom = 'env(safe-area-inset-bottom)';
+    document.body.appendChild(probe);
+
+    const computed = window.getComputedStyle(probe);
+    const top = Math.round(parseFloat(computed.paddingTop) || 0);
+    const bottom = Math.round(parseFloat(computed.paddingBottom) || 0);
+
+    document.body.removeChild(probe);
+
+    // 各边只在读到非 0 时锁定；仍为 0 的边保持未缓存，下次事件继续探测，读到真值再锁。
+    if (cachedTopInset === null && top > 0) cachedTopInset = top;
+    if (cachedBottomInset === null && bottom > 0) cachedBottomInset = bottom;
+
+    return { top: cachedTopInset ?? top, bottom: cachedBottomInset ?? bottom };
+};
+
+export const isIOSDevice = (): boolean => {
+    if (typeof navigator === 'undefined') return false;
+    const ua = navigator.userAgent || '';
+    return /iPad|iPhone|iPod/.test(ua) || (navigator.platform === 'MacIntel' && navigator.maxTouchPoints > 1);
+};
+
+export const isStandaloneDisplayMode = (): boolean => {
+    if (typeof window === 'undefined') return false;
+    return window.matchMedia?.('(display-mode: standalone)').matches || !!(window.navigator as Navigator & { standalone?: boolean }).standalone;
+};
+
+export const isIOSStandaloneWebApp = (): boolean => isIOSDevice() && isStandaloneDisplayMode();
+
+// 安卓机（Chrome / Edge 等）。安卓普通浏览器弹软键盘时经常不按 interactive-widget=resizes-content
+// 回流，而是缩小可视区、把整页往上顶（顶栏被切、退出重进才恢复）。需要和 iOS 全屏 PWA 一样，
+// 让 app 高度跟随可视区并锁死外层滚动。
+export const isAndroidDevice = (): boolean => {
+    if (typeof navigator === 'undefined') return false;
+    return /Android/i.test(navigator.userAgent || '');
+};
+
+// 顶部时钟/电量条是否隐藏：外观「隐藏顶部时间栏」开关显式设过就听用户的；没设过(undefined)按平台默认——
+// iOS 全屏 PWA 系统状态栏(真实时间/电量)删不掉，默认隐藏 SullyOS 这条避免双显。
+// 必须用 ?? 而非 ||：显式 false（用户主动要显示）不能被平台默认 true 盖掉。
+// 只决定时钟/电量条；错误指示器、系统调试终端等与本开关无关，始终独立显示。
+export const isStatusBarHidden = (
+    hideStatusBar?: boolean,
+    platformDefaultHidden: boolean = isIOSStandaloneWebApp(),
+): boolean => hideStatusBar ?? platformDefaultHidden;
+
+const isTextEntryElement = (target: EventTarget | null): target is HTMLElement => {
+    if (!(target instanceof HTMLElement)) return false;
+    if (target.isContentEditable) return true;
+    return ['INPUT', 'TEXTAREA', 'SELECT'].includes(target.tagName);
+};
+
+const setViewportVars = () => {
+    if (typeof document === 'undefined') return;
+    const shouldStabilizeHeight = isIOSStandaloneWebApp();
+    const innerHeight = Math.round(window.innerHeight);
+    const viewportHeight = Math.round(window.visualViewport?.height || innerHeight);
+    const viewportOffsetTop = Math.round(window.visualViewport?.offsetTop || 0);
+    // 单次探针读取上下安全区。顶部 env 偶发返回 0，探测不到时退回 44px（约状态栏/刘海高度），避免顶栏内容怼进刘海。
+    const safeInsets = shouldStabilizeHeight ? readSafeAreaInsets() : { top: 0, bottom: 0 };
+    const bottomSafeInset = safeInsets.bottom;
+    const topSafeInset = shouldStabilizeHeight ? (safeInsets.top > 0 ? safeInsets.top : 44) : 0;
+
+    let fullAppHeight: number;
+    let keyboardInset: number;
+
+    if (shouldStabilizeHeight) {
+        // 全屏 PWA 没有地址栏，可视高度只在软键盘弹出时变矮。基线取「见过的最大可视高度」。
+        if (!stableStandaloneHeight || viewportHeight > stableStandaloneHeight) {
+            stableStandaloneHeight = viewportHeight;
+        }
+        // 键盘态判据用「可视高度变矮」而非 obscuredHeight：iOS 26 起 standalone 会把 layout viewport 也一起缩，
+        // innerHeight 跟着变矮，obscuredHeight 算出来是 0 而失效。viewportHeight > 150 是对 iOS 偶发脏值的护栏——
+        // 键盘动画期 visualViewport 偶尔报错值，此时退化成「无键盘态」，宁可不避让也不要把布局撑崩成满屏白。
+        const keyboardOpen = viewportHeight > 150 && viewportHeight < stableStandaloneHeight - 100;
+        // 键盘态：app 高度收到当前可视区（home 条已被键盘盖，不再叠加 safe）；无键盘态：基线 + safe（底部给 home 条留位）。
+        fullAppHeight = keyboardOpen ? viewportHeight : stableStandaloneHeight + bottomSafeInset;
+        // standalone 下键盘避让改由「app 高度跟随可视区」统一处理，keyboard-inset 置 0，避免 CallApp 等再叠一层 padding。
+        keyboardInset = 0;
+        // iOS 26 键盘弹出会把整页顶上去（visualViewport.offsetTop > 0），拉回顶部对齐可视区；
+        // 配合 ios-keyboard-open 下的 touchmove 拦截（见 installIOSStandaloneWorkaround），把外层滚动彻底锁死。
+        if (keyboardOpen && viewportOffsetTop > 0) {
+            window.scrollTo(0, 0);
+        }
+    } else {
+        stableStandaloneHeight = 0;
+        // obscuredHeight = 被软键盘盖住的高度。安卓浏览器若按 resizes-content 回流，
+        // innerHeight 会跟着缩，obscuredHeight ≈ 0（走无键盘分支，布局自行回流，什么都不用做）；
+        // 若不回流而是缩小可视区/顶起整页，obscuredHeight > 120，进入键盘分支统一避让。
+        const obscuredHeight = Math.max(0, innerHeight - viewportHeight - viewportOffsetTop);
+        const keyboardOpen = obscuredHeight > 120;
+        // 键盘避让统一用「app 高度跟随可视区」，不再靠 keyboard-inset 让各 App 自己叠 padding。
+        keyboardInset = 0;
+        if (keyboardOpen) {
+            // 安卓 Chrome/Edge：app 高度收到键盘上方的可视区，输入框自然落在可视区内；
+            // 再把被浏览器顶起的外层滚动拉回顶部（配合 body.ios-keyboard-open 的 touchmove 锁定），
+            // 界面不再整体上移、退出重进才恢复。
+            fullAppHeight = viewportHeight;
+            if (viewportOffsetTop > 0) window.scrollTo(0, 0);
+        } else {
+            fullAppHeight = Math.max(innerHeight, viewportHeight + viewportOffsetTop);
+        }
+    }
+
+    document.documentElement.style.setProperty('--app-height', `${fullAppHeight}px`);
+    document.documentElement.style.setProperty('--visual-viewport-height', `${viewportHeight}px`);
+    document.documentElement.style.setProperty('--keyboard-inset', `${keyboardInset}px`);
+    document.documentElement.style.setProperty('--standalone-safe-area-bottom', `${bottomSafeInset}px`);
+    document.documentElement.style.setProperty('--standalone-safe-area-top', `${topSafeInset}px`);
+};
+
+export const installIOSStandaloneWorkaround = () => {
+    if (typeof window === 'undefined' || typeof document === 'undefined') return;
+    if (hasInstalledIOSStandaloneWorkaround) return;
+
+    hasInstalledIOSStandaloneWorkaround = true;
+    const useStandaloneFixes = isIOSStandaloneWebApp();
+    // iOS 全屏 PWA 与安卓浏览器都需要「聚焦挂 keyboard 类 + 锁外层滚动」这套键盘避让。
+    // 安卓 Chrome/Edge 弹键盘时会把整页顶起，同样靠这套压回去。
+    const useKeyboardFixes = useStandaloneFixes || isAndroidDevice();
+    if (useStandaloneFixes) {
+        document.documentElement.classList.add('ios-standalone');
+        document.body.classList.add('ios-standalone');
+    }
+
+    const handleViewportChange = () => {
+        setViewportVars();
+    };
+
+    // 只有旋转 / 窗口尺寸变化才真的改变安全区：让缓存失效后重新探测（滚动、聚焦走缓存，不再重排）。
+    const handleSafeAreaChange = () => {
+        cachedTopInset = null;
+        cachedBottomInset = null;
+        setViewportVars();
+    };
+
+    const handleFocusIn = (event: FocusEvent) => {
+        if (!isTextEntryElement(event.target)) return;
+        document.body.classList.add('ios-keyboard-open');
+        setViewportVars();
+
+        const target = event.target;
+        window.requestAnimationFrame(() => {
+            window.requestAnimationFrame(() => {
+                if (document.activeElement !== target) return;
+                try {
+                    target.scrollIntoView({ block: 'nearest', inline: 'nearest' });
+                } catch {
+                    // Ignore scroll failures on older iOS builds.
+                }
+            });
+        });
+    };
+
+    const handleFocusOut = () => {
+        window.setTimeout(() => {
+            if (!isTextEntryElement(document.activeElement)) {
+                document.body.classList.remove('ios-keyboard-open');
+            }
+            setViewportVars();
+        }, 180);
+    };
+
+    // 键盘弹出时锁死外层滚动：只放行可滚区（消息列表等 .overflow-y-auto）内部滚动，其余 touchmove 一律拦掉。
+    // 不锁的话 iOS 会在输入框聚焦时随手势把整页顶飞（visualViewport.offsetTop 漂移、露出底层色块、闪烁）。
+    const handleTouchMove = (event: TouchEvent) => {
+        if (!document.body.classList.contains('ios-keyboard-open')) return;
+        const target = event.target as Element | null;
+        if (target?.closest('.overflow-y-auto')) return;
+        event.preventDefault();
+    };
+
+    window.addEventListener('resize', handleSafeAreaChange);
+    window.addEventListener('orientationchange', handleSafeAreaChange);
+    window.visualViewport?.addEventListener('resize', handleViewportChange);
+    window.visualViewport?.addEventListener('scroll', handleViewportChange);
+    if (useKeyboardFixes) {
+        document.addEventListener('focusin', handleFocusIn);
+        document.addEventListener('focusout', handleFocusOut);
+        document.addEventListener('touchmove', handleTouchMove, { passive: false });
+    }
+    setViewportVars();
+
+    // iOS standalone 冷启动时 env() / JS probe 偶发都给 0；resize / orientationchange 整场可能都不触发，
+    // 缓存就会被锁在 0，底部控件整场贴 home 条。这里在启动后阶梯式重探几次，遇到任一边还没锁定就再试。
+    if (useStandaloneFixes) {
+        const RETRY_DELAYS_MS = [120, 500, 1500, 3000];
+        for (const delay of RETRY_DELAYS_MS) {
+            window.setTimeout(() => {
+                if (cachedTopInset !== null && cachedBottomInset !== null) return; // 两边都已锁定，无需再试
+                setViewportVars();
+            }, delay);
+        }
+    }
+};

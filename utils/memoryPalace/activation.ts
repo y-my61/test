@@ -1,1 +1,82 @@
-LyoqCiAqIE1lbW9yeSBQYWxhY2Ug4oCUIOaJqeaVo+a/gOa0uyAoU3ByZWFkaW5nIEFjdGl2YXRpb24pCiAqCiAqIOajgOe0ouWRveS4reeahOiusOW/huayv+WFs+iBlOe9kee7nCLogZTmg7Mi5Yiw55u45YWz6K6w5b+G44CCCiAqIOS6uuagvOmjjuagvOW9seWTjeS4jeWQjOWFs+iBlOexu+Wei+eahOadg+mHjeOAggogKi8KCmltcG9ydCB0eXBlIHsgTWVtb3J5Tm9kZSwgUGVyc29uYWxpdHlTdHlsZSwgU2NvcmVkTWVtb3J5IH0gZnJvbSAnLi90eXBlcyc7CmltcG9ydCB7IFBFUlNPTkFMSVRZX1dFSUdIVFMgfSBmcm9tICcuL3R5cGVzJzsKaW1wb3J0IHsgTWVtb3J5Tm9kZURCLCBNZW1vcnlMaW5rREIgfSBmcm9tICcuL2RiJzsKCi8vIOazqOaEj++8mkV2ZW50Qm94IOaOpeeuoeS6hiLlkIzkuIDkuovku7Yi55qE5by657uR5a6a6IGM6LSj5ZCO77yMTWVtb3J5TGluayDpgIDljJbkuLoi6IOM5pmv6IGU5oOzIuOAggovLyDov5nph4zmioogZGVjYXkg5LuOIDAuNSDihpIgMC4z77yMbWF4RXhwYW5kIOm7mOiupOS7jiA1IOKGkiAz77yM6K6p5byx5YWz6IGU5rS7552A5L2G5LiN5Li75a+85Y+s5Zue44CCCmNvbnN0IEFDVElWQVRJT05fREVDQVkgPSAwLjM7CgovKioKICog5rK/5YWz6IGU572R57uc5omp5pWj5r+A5rS7CiAqCiAqIOWvueavj+S4quenjeWtkOiusOW/hu+8jOayvyBtZW1vcnlfbGlua3Mg5om+5Yiw6YK75bGF77yMCiAqIOiuoeeul+a/gOa0u+WAvCA9IHNlZWRfc2NvcmUgw5cgbGlua19zdHJlbmd0aCDDlyB0eXBlX3dlaWdodCDDlyBkZWNheQogKgogKiBAcGFyYW0gc2VlZHMg5Yid5aeL5qOA57Si5ZG95Lit55qE6K6w5b+G77yI5bim5YiG5pWw77yJCiAqIEBwYXJhbSBjaGFySWQg6KeS6ImyIElECiAqIEBwYXJhbSBzdHlsZSDkurrmoLzpo47moLzvvIjlvbHlk43lhbPogZTnsbvlnovmnYPph43vvIkKICogQHBhcmFtIG1heEV4cGFuZCDmnIDlpJrpop3lpJbmianlsZXnmoTorrDlv4bmlbDph48KICovCmV4cG9ydCBhc3luYyBmdW5jdGlvbiBzcHJlYWRBY3RpdmF0aW9uKAogICAgc2VlZHM6IFNjb3JlZE1lbW9yeVtdLAogICAgY2hhcklkOiBzdHJpbmcsCiAgICBzdHlsZTogUGVyc29uYWxpdHlTdHlsZSA9ICdlbW90aW9uYWwnLAogICAgbWF4RXhwYW5kOiBudW1iZXIgPSAzLAopOiBQcm9taXNlPFNjb3JlZE1lbW9yeVtdPiB7CiAgICBjb25zdCB3ZWlnaHRzID0gUEVSU09OQUxJVFlfV0VJR0hUU1tzdHlsZV07CiAgICBjb25zdCBzZWVkSWRzID0gbmV3IFNldChzZWVkcy5tYXAocyA9PiBzLm5vZGUuaWQpKTsKICAgIGNvbnN0IGFjdGl2YXRlZCA9IG5ldyBNYXA8c3RyaW5nLCBudW1iZXI+KCk7IC8vIG5vZGVJZCDihpIgYWN0aXZhdGlvbiBzY29yZQoKICAgIC8vIOWvueavj+S4quenjeWtkO+8jOaJvuWIsOWug+eahOmCu+WxheW5tuiuoeeul+a/gOa0u+WAvAogICAgZm9yIChjb25zdCBzZWVkIG9mIHNlZWRzKSB7CiAgICAgICAgY29uc3QgbGlua3MgPSBhd2FpdCBNZW1vcnlMaW5rREIuZ2V0QnlOb2RlSWQoc2VlZC5ub2RlLmlkKTsKCiAgICAgICAgZm9yIChjb25zdCBsaW5rIG9mIGxpbmtzKSB7CiAgICAgICAgICAgIC8vIOehruWumumCu+WxhSBJRAogICAgICAgICAgICBjb25zdCBuZWlnaGJvcklkID0gbGluay5zb3VyY2VJZCA9PT0gc2VlZC5ub2RlLmlkID8gbGluay50YXJnZXRJZCA6IGxpbmsuc291cmNlSWQ7CgogICAgICAgICAgICAvLyDot7Pov4flt7Lnu4/mmK/np43lrZDnmoQKICAgICAgICAgICAgaWYgKHNlZWRJZHMuaGFzKG5laWdoYm9ySWQpKSBjb250aW51ZTsKCiAgICAgICAgICAgIC8vIOiuoeeul+a/gOa0u+WAvAogICAgICAgICAgICBjb25zdCB0eXBlV2VpZ2h0ID0gd2VpZ2h0c1tsaW5rLnR5cGVdIHx8IDAuMjsKICAgICAgICAgICAgY29uc3QgYWN0aXZhdGlvblNjb3JlID0gc2VlZC5maW5hbFNjb3JlICogbGluay5zdHJlbmd0aCAqIHR5cGVXZWlnaHQgKiBBQ1RJVkFUSU9OX0RFQ0FZOwoKICAgICAgICAgICAgLy8g5Y+W5pyA6auY5r+A5rS75YC8CiAgICAgICAgICAgIGNvbnN0IGV4aXN0aW5nID0gYWN0aXZhdGVkLmdldChuZWlnaGJvcklkKSB8fCAwOwogICAgICAgICAgICBpZiAoYWN0aXZhdGlvblNjb3JlID4gZXhpc3RpbmcpIHsKICAgICAgICAgICAgICAgIGFjdGl2YXRlZC5zZXQobmVpZ2hib3JJZCwgYWN0aXZhdGlvblNjb3JlKTsKICAgICAgICAgICAgfQogICAgICAgIH0KICAgIH0KCiAgICAvLyDmjInmv4DmtLvlgLzmjpLluo/vvIzlj5YgdG9wTgogICAgY29uc3Qgc29ydGVkQWN0aXZhdGlvbnMgPSBbLi4uYWN0aXZhdGVkLmVudHJpZXMoKV0KICAgICAgICAuc29ydCgoYSwgYikgPT4gYlsxXSAtIGFbMV0pCiAgICAgICAgLnNsaWNlKDAsIG1heEV4cGFuZCk7CgogICAgLy8g5Yqg6L296KKr5r+A5rS755qEIE1lbW9yeU5vZGXvvIjot7Pov4cgYXJjaGl2ZWQg4oCU4oCUIOWug+S7rOW3suiiq+WOi+WFpSBib3ggc3VtbWFyee+8iQogICAgY29uc3QgZXhwYW5kZWRSZXN1bHRzOiBTY29yZWRNZW1vcnlbXSA9IFtdOwogICAgZm9yIChjb25zdCBbbm9kZUlkLCBzY29yZV0gb2Ygc29ydGVkQWN0aXZhdGlvbnMpIHsKICAgICAgICBjb25zdCBub2RlID0gYXdhaXQgTWVtb3J5Tm9kZURCLmdldEJ5SWQobm9kZUlkKTsKICAgICAgICBpZiAobm9kZSAmJiAhbm9kZS5hcmNoaXZlZCkgewogICAgICAgICAgICBleHBhbmRlZFJlc3VsdHMucHVzaCh7CiAgICAgICAgICAgICAgICBub2RlLAogICAgICAgICAgICAgICAgZmluYWxTY29yZTogc2NvcmUsCiAgICAgICAgICAgICAgICBzaW1pbGFyaXR5OiAwLAogICAgICAgICAgICAgICAgYm0yNVNjb3JlOiAwLAogICAgICAgICAgICAgICAgcm9vbVNjb3JlOiBzY29yZSwKICAgICAgICAgICAgfSk7CiAgICAgICAgfQogICAgfQoKICAgIC8vIOWQiOW5tu+8mnNlZWRzICsg5omp5bGV57uT5p6cCiAgICByZXR1cm4gWy4uLnNlZWRzLCAuLi5leHBhbmRlZFJlc3VsdHNdOwp9Cg==
+/**
+ * Memory Palace — 扩散激活 (Spreading Activation)
+ *
+ * 检索命中的记忆沿关联网络"联想"到相关记忆。
+ * 人格风格影响不同关联类型的权重。
+ */
+
+import type { MemoryNode, PersonalityStyle, ScoredMemory } from './types';
+import { PERSONALITY_WEIGHTS } from './types';
+import { MemoryNodeDB, MemoryLinkDB } from './db';
+
+// 注意：EventBox 接管了"同一事件"的强绑定职责后，MemoryLink 退化为"背景联想"。
+// 这里把 decay 从 0.5 → 0.3，maxExpand 默认从 5 → 3，让弱关联活着但不主导召回。
+const ACTIVATION_DECAY = 0.3;
+
+/**
+ * 沿关联网络扩散激活
+ *
+ * 对每个种子记忆，沿 memory_links 找到邻居，
+ * 计算激活值 = seed_score × link_strength × type_weight × decay
+ *
+ * @param seeds 初始检索命中的记忆（带分数）
+ * @param charId 角色 ID
+ * @param style 人格风格（影响关联类型权重）
+ * @param maxExpand 最多额外扩展的记忆数量
+ */
+export async function spreadActivation(
+    seeds: ScoredMemory[],
+    charId: string,
+    style: PersonalityStyle = 'emotional',
+    maxExpand: number = 3,
+): Promise<ScoredMemory[]> {
+    const weights = PERSONALITY_WEIGHTS[style];
+    const seedIds = new Set(seeds.map(s => s.node.id));
+    const activated = new Map<string, number>(); // nodeId → activation score
+
+    // 对每个种子，找到它的邻居并计算激活值
+    for (const seed of seeds) {
+        const links = await MemoryLinkDB.getByNodeId(seed.node.id);
+
+        for (const link of links) {
+            // 确定邻居 ID
+            const neighborId = link.sourceId === seed.node.id ? link.targetId : link.sourceId;
+
+            // 跳过已经是种子的
+            if (seedIds.has(neighborId)) continue;
+
+            // 计算激活值
+            const typeWeight = weights[link.type] || 0.2;
+            const activationScore = seed.finalScore * link.strength * typeWeight * ACTIVATION_DECAY;
+
+            // 取最高激活值
+            const existing = activated.get(neighborId) || 0;
+            if (activationScore > existing) {
+                activated.set(neighborId, activationScore);
+            }
+        }
+    }
+
+    // 按激活值排序，取 topN
+    const sortedActivations = [...activated.entries()]
+        .sort((a, b) => b[1] - a[1])
+        .slice(0, maxExpand);
+
+    // 加载被激活的 MemoryNode（跳过 archived —— 它们已被压入 box summary）
+    const expandedResults: ScoredMemory[] = [];
+    for (const [nodeId, score] of sortedActivations) {
+        const node = await MemoryNodeDB.getById(nodeId);
+        if (node && !node.archived) {
+            expandedResults.push({
+                node,
+                finalScore: score,
+                similarity: 0,
+                bm25Score: 0,
+                roomScore: score,
+            });
+        }
+    }
+
+    // 合并：seeds + 扩展结果
+    return [...seeds, ...expandedResults];
+}

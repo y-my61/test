@@ -1,1 +1,12 @@
-Ly8gU2luZ2xlIHNvdXJjZSBvZiB0cnV0aCBmb3IgSW5zdGFudCBQdXNoIHdvcmtlciBjb2RlIHZlcnNpb24uCi8vCi8vIEJvdGggdGhlIHdvcmtlciBidW5kbGUgKHdvcmtlci9pbnN0YW50LXB1c2gvc3JjL2luZGV4LnRzIOKGkiAvdmVyc2lvbiByb3V0ZSkKLy8gYW5kIHRoZSBTdWxseU9TIGZyb250ZW5kIChTZXR0aW5ncyDmmL7npLogKyDpg6jnvbLlr7nmr5QgKyDmm7TmlrDlvLnnqpfop6blj5EpIGltcG9ydAovLyBmcm9tIGhlcmUsIHNvIHRoZSBkYXRlIHJldHVybmVkIGJ5IHRoZSB1c2VyJ3MgZGVwbG95ZWQgd29ya2VyIGFuZCB0aGUgZGF0ZQovLyBzaG93biBpbiB0aGUgYXBwIGNhbm5vdCBkcmlmdCBhcGFydCB1bmxlc3MgdGhlIGJ1bmRsZSB3YXMgcmVidWlsdCBhZ2FpbnN0Ci8vIGFuIG9sZGVyIHNvdXJjZSB0cmVlLgovLwovLyBCdW1wIHRoaXMgd2hlbmV2ZXIgd29ya2VyL2luc3RhbnQtcHVzaC9zcmMvKiBnZXRzIGEgYmVoYXZpb3IgY2hhbmdlIHRoYXQKLy8gcmVxdWlyZXMgdXNlcnMgdG8gcmVkZXBsb3kgdGhlaXIgd29ya2VyLiBVc2UgWVlZWS1NTS1ERDsgdGhlIGZyb250ZW5kCi8vIGNvbXBhcmVzIHN0cmluZ3MgZGlyZWN0bHkuCmV4cG9ydCBjb25zdCBJTlNUQU5UX1dPUktFUl9WRVJTSU9OID0gJzIwMjYtMDctMTcnOwo=
+// Single source of truth for Instant Push worker code version.
+//
+// Both the worker bundle (worker/instant-push/src/index.ts → /version route)
+// and the SullyOS frontend (Settings 显示 + 部署对比 + 更新弹窗触发) import
+// from here, so the date returned by the user's deployed worker and the date
+// shown in the app cannot drift apart unless the bundle was rebuilt against
+// an older source tree.
+//
+// Bump this whenever worker/instant-push/src/* gets a behavior change that
+// requires users to redeploy their worker. Use YYYY-MM-DD; the frontend
+// compares strings directly.
+export const INSTANT_WORKER_VERSION = '2026-07-17';

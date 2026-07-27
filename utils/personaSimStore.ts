@@ -1,1 +1,29 @@
-Ly8g5YWo5bGA44CM5Lq65qC85qih5ouf44CN5ryU5Ye655Sf5oiQ54q25oCB44CCCi8vIOaUvuWcqOaooeWdl+S9nOeUqOWfn+iAjOmdniBDaGVja1Bob25lIOWGhemDqO+8jOi/meagt++8mgovLyAgIDEuIOeUn+aIkOS4reWNs+S9v+emu+W8gOafpeaJi+acuiBBcHDvvIjnlJroh7PliIfliLDliKvnmoQgT1MgQXBw77yJ77yM54q25oCBL+aPkOekuuS+neaXp+WtmOWcqO+8mwovLyAgIDIuIFBob25lU2hlbGwg6YeM55qE5YWo5bGA5oyH56S65p2h5Y+v5Lul6ZqP5aSE5pi+56S66L+b5bqm77yM54K55LiA5LiL5rex6ZO+5Zue5Yiw5ryU5Ye644CCCmltcG9ydCB7IHVzZVN5bmNFeHRlcm5hbFN0b3JlIH0gZnJvbSAncmVhY3QnOwppbXBvcnQgdHlwZSB7IFNpbVN0YXRlIH0gZnJvbSAnLi4vYXBwcy9QZXJzb25hU2ltJzsKCmV4cG9ydCB0eXBlIEdsb2JhbFNpbVN0YXRlID0gU2ltU3RhdGUgJiB7CiAgICBjaGFySWQ/OiBzdHJpbmc7CiAgICBjaGFyTmFtZT86IHN0cmluZzsKICAgIGRlZXBMaW5rPzogYm9vbGVhbjsgLy8g55So5oi354K55LqG5YWo5bGA5oyH56S65p2h77yM6K+35rGCIENoZWNrUGhvbmUg55u05o6l6L+b5YWl6K+l5ryU5Ye6Cn07CgpsZXQgc3RhdGU6IEdsb2JhbFNpbVN0YXRlID0geyBzdGF0dXM6ICdpZGxlJyB9Owpjb25zdCBsaXN0ZW5lcnMgPSBuZXcgU2V0PCgpID0+IHZvaWQ+KCk7CmNvbnN0IGVtaXQgPSAoKSA9PiBsaXN0ZW5lcnMuZm9yRWFjaChsID0+IGwoKSk7CgpleHBvcnQgY29uc3QgcGVyc29uYVNpbVN0b3JlID0gewogICAgZ2V0OiAoKTogR2xvYmFsU2ltU3RhdGUgPT4gc3RhdGUsCiAgICBzZXQ6IChzOiBHbG9iYWxTaW1TdGF0ZSkgPT4geyBzdGF0ZSA9IHM7IGVtaXQoKTsgfSwKICAgIHJlc2V0OiAoKSA9PiB7IHN0YXRlID0geyBzdGF0dXM6ICdpZGxlJyB9OyBlbWl0KCk7IH0sCiAgICByZXF1ZXN0T3BlbjogKCkgPT4geyBzdGF0ZSA9IHsgLi4uc3RhdGUsIGRlZXBMaW5rOiB0cnVlIH07IGVtaXQoKTsgfSwKICAgIGNsZWFyRGVlcExpbms6ICgpID0+IHsgaWYgKHN0YXRlLmRlZXBMaW5rKSB7IHN0YXRlID0geyAuLi5zdGF0ZSwgZGVlcExpbms6IGZhbHNlIH07IGVtaXQoKTsgfSB9LAogICAgc3Vic2NyaWJlOiAobDogKCkgPT4gdm9pZCkgPT4geyBsaXN0ZW5lcnMuYWRkKGwpOyByZXR1cm4gKCkgPT4geyBsaXN0ZW5lcnMuZGVsZXRlKGwpOyB9OyB9LAp9OwoKZXhwb3J0IGZ1bmN0aW9uIHVzZVBlcnNvbmFTaW0oKTogR2xvYmFsU2ltU3RhdGUgewogICAgcmV0dXJuIHVzZVN5bmNFeHRlcm5hbFN0b3JlKHBlcnNvbmFTaW1TdG9yZS5zdWJzY3JpYmUsIHBlcnNvbmFTaW1TdG9yZS5nZXQsIHBlcnNvbmFTaW1TdG9yZS5nZXQpOwp9Cg==
+// 全局「人格模拟」演出生成状态。
+// 放在模块作用域而非 CheckPhone 内部，这样：
+//   1. 生成中即使离开查手机 App（甚至切到别的 OS App），状态/提示依旧存在；
+//   2. PhoneShell 里的全局指示条可以随处显示进度，点一下深链回到演出。
+import { useSyncExternalStore } from 'react';
+import type { SimState } from '../apps/PersonaSim';
+
+export type GlobalSimState = SimState & {
+    charId?: string;
+    charName?: string;
+    deepLink?: boolean; // 用户点了全局指示条，请求 CheckPhone 直接进入该演出
+};
+
+let state: GlobalSimState = { status: 'idle' };
+const listeners = new Set<() => void>();
+const emit = () => listeners.forEach(l => l());
+
+export const personaSimStore = {
+    get: (): GlobalSimState => state,
+    set: (s: GlobalSimState) => { state = s; emit(); },
+    reset: () => { state = { status: 'idle' }; emit(); },
+    requestOpen: () => { state = { ...state, deepLink: true }; emit(); },
+    clearDeepLink: () => { if (state.deepLink) { state = { ...state, deepLink: false }; emit(); } },
+    subscribe: (l: () => void) => { listeners.add(l); return () => { listeners.delete(l); }; },
+};
+
+export function usePersonaSim(): GlobalSimState {
+    return useSyncExternalStore(personaSimStore.subscribe, personaSimStore.get, personaSimStore.get);
+}

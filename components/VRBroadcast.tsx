@@ -1,1 +1,82 @@
-aW1wb3J0IFJlYWN0LCB7IHVzZUVmZmVjdCwgdXNlUmVmLCB1c2VTdGF0ZSB9IGZyb20gJ3JlYWN0JzsKCi8qKgogKiDjgIzlvbzmlrnjgI3lpKfkuJbnlYzlloflj60g4oCU4oCUIOW9k+afkOinkuiJsuato+WcqOeZu+WFpeW9vOaWueOAgeiwg+eUqCBBUEkg6KGM5Yqo5pe277yMCiAqIOmhtumDqOa7keWHuuS4gOadoSBNTU8g6aOO5qC855qE5LiW55WM5pKt5oql44CC55uR5ZCsIHJ1blNlc3Npb24g5rS+5Y+R55qECiAqIHZyLXNlc3Npb24tc3RhcnQgLyB2ci1zZXNzaW9uLWVuZCDkuovku7bvvIzlhajlsYDmjILovb3vvIhBcHAg5qC557qn77yJ44CCCiAqLwoKaW50ZXJmYWNlIEFjdGl2ZVNlc3Npb24geyBjaGFySWQ6IHN0cmluZzsgY2hhck5hbWU6IHN0cmluZzsgcm9vbTogc3RyaW5nOyBub3ZlbFRpdGxlPzogc3RyaW5nOyB9Cgpjb25zdCBST09NX0xBQkVMOiBSZWNvcmQ8c3RyaW5nLCB7IG5hbWU6IHN0cmluZyB9PiA9IHsKICAgIGxpYnJhcnk6IHsgbmFtZTogJ+WbvuS5pummhicgfSwKICAgIG11c2ljOiB7IG5hbWU6ICflkKzmrYzmiL8nIH0sCiAgICBndWVzdGJvb2s6IHsgbmFtZTogJ+eVmeiogOewvycgfSwKICAgIGd5bTogeyBuYW1lOiAn5rS75Yqo5Zy6JyB9LAp9OwoKY29uc3QgVlJCcm9hZGNhc3Q6IFJlYWN0LkZDID0gKCkgPT4gewogICAgY29uc3QgW2FjdGl2ZSwgc2V0QWN0aXZlXSA9IHVzZVN0YXRlPEFjdGl2ZVNlc3Npb25bXT4oW10pOwogICAgY29uc3QgaGlkZVRpbWVyID0gdXNlUmVmPFJldHVyblR5cGU8dHlwZW9mIHNldFRpbWVvdXQ+IHwgbnVsbD4obnVsbCk7CgogICAgdXNlRWZmZWN0KCgpID0+IHsKICAgICAgICBjb25zdCBvblN0YXJ0ID0gKGU6IEV2ZW50KSA9PiB7CiAgICAgICAgICAgIGNvbnN0IGQgPSAoZSBhcyBDdXN0b21FdmVudCkuZGV0YWlsIGFzIEFjdGl2ZVNlc3Npb247CiAgICAgICAgICAgIGlmICghZD8uY2hhcklkKSByZXR1cm47CiAgICAgICAgICAgIHNldEFjdGl2ZShwcmV2ID0+IHByZXYuc29tZShzID0+IHMuY2hhcklkID09PSBkLmNoYXJJZCkgPyBwcmV2IDogWy4uLnByZXYsIGRdKTsKICAgICAgICB9OwogICAgICAgIGNvbnN0IG9uRW5kID0gKGU6IEV2ZW50KSA9PiB7CiAgICAgICAgICAgIGNvbnN0IGlkID0gKGUgYXMgQ3VzdG9tRXZlbnQpLmRldGFpbD8uY2hhcklkOwogICAgICAgICAgICAvLyDnu5PmnZ/ml7blu7bov5/kuIDkvJrlho3np7vpmaTvvIzorqki5Yia6YCb5a6MIueahOaSreaKpeWkmueVmeS4gOS4iwogICAgICAgICAgICBzZXRUaW1lb3V0KCgpID0+IHNldEFjdGl2ZShwcmV2ID0+IHByZXYuZmlsdGVyKHMgPT4gcy5jaGFySWQgIT09IGlkKSksIDE1MDApOwogICAgICAgIH07CiAgICAgICAgd2luZG93LmFkZEV2ZW50TGlzdGVuZXIoJ3ZyLXNlc3Npb24tc3RhcnQnLCBvblN0YXJ0KTsKICAgICAgICB3aW5kb3cuYWRkRXZlbnRMaXN0ZW5lcigndnItc2Vzc2lvbi1lbmQnLCBvbkVuZCk7CiAgICAgICAgcmV0dXJuICgpID0+IHsKICAgICAgICAgICAgd2luZG93LnJlbW92ZUV2ZW50TGlzdGVuZXIoJ3ZyLXNlc3Npb24tc3RhcnQnLCBvblN0YXJ0KTsKICAgICAgICAgICAgd2luZG93LnJlbW92ZUV2ZW50TGlzdGVuZXIoJ3ZyLXNlc3Npb24tZW5kJywgb25FbmQpOwogICAgICAgICAgICBpZiAoaGlkZVRpbWVyLmN1cnJlbnQpIGNsZWFyVGltZW91dChoaWRlVGltZXIuY3VycmVudCk7CiAgICAgICAgfTsKICAgIH0sIFtdKTsKCiAgICBpZiAoYWN0aXZlLmxlbmd0aCA9PT0gMCkgcmV0dXJuIG51bGw7CiAgICBjb25zdCBjdXIgPSBhY3RpdmVbYWN0aXZlLmxlbmd0aCAtIDFdOwogICAgY29uc3Qgcm9vbSA9IFJPT01fTEFCRUxbY3VyLnJvb21dIHx8IHsgbmFtZTogJ+W9vOaWuScgfTsKICAgIGNvbnN0IGV4dHJhID0gYWN0aXZlLmxlbmd0aCA+IDEgPyBgIOetiSAke2FjdGl2ZS5sZW5ndGh9IOS6umAgOiAnJzsKCiAgICByZXR1cm4gKAogICAgICAgIDxkaXYgY2xhc3NOYW1lPSJmaXhlZCBsZWZ0LTEvMiAtdHJhbnNsYXRlLXgtMS8yIHotWzk5OV0gcG9pbnRlci1ldmVudHMtbm9uZSIKICAgICAgICAgICAgc3R5bGU9e3sgdG9wOiAnY2FsYyh2YXIoLS1zYWZlLXRvcCkgKyA2cHgpJyB9fT4KICAgICAgICAgICAgPHN0eWxlPntgQGtleWZyYW1lcyB2cmJjaW57ZnJvbXtvcGFjaXR5OjA7dHJhbnNmb3JtOnRyYW5zbGF0ZVkoLTE0cHgpIHNjYWxlKC45Nil9dG97b3BhY2l0eToxO3RyYW5zZm9ybTp0cmFuc2xhdGVZKDApIHNjYWxlKDEpfX0KICAgICAgICAgICAgICAgICAgICAgQGtleWZyYW1lcyB2cmJjc2hpbW1lcnswJXtiYWNrZ3JvdW5kLXBvc2l0aW9uOi0xMjAlIDB9MTAwJXtiYWNrZ3JvdW5kLXBvc2l0aW9uOjIyMCUgMH19CiAgICAgICAgICAgICAgICAgICAgIEBrZXlmcmFtZXMgdnJiY3R3aW5rbGV7MCUsMTAwJXtvcGFjaXR5Oi4zNTt0cmFuc2Zvcm06c2NhbGUoLjg1KX01MCV7b3BhY2l0eToxO3RyYW5zZm9ybTpzY2FsZSgxLjEpfX1gfTwvc3R5bGU+CiAgICAgICAgICAgIDxkaXYgY2xhc3NOYW1lPSJyZWxhdGl2ZSBmbGV4IGl0ZW1zLWNlbnRlciBnYXAtMi41IHBsLTMgcHItMy41IHB5LTEuNSByb3VuZGVkLWZ1bGwgb3ZlcmZsb3ctaGlkZGVuIGJhY2tkcm9wLWJsdXIteGwiCiAgICAgICAgICAgICAgICBzdHlsZT17ewogICAgICAgICAgICAgICAgICAgIGFuaW1hdGlvbjogJ3ZyYmNpbiAuNDVzIGN1YmljLWJlemllciguMiwuOSwuMywxLjIpJywKICAgICAgICAgICAgICAgICAgICBiYWNrZ3JvdW5kOiAnbGluZWFyLWdyYWRpZW50KDEwMGRlZywgcmdiYSgyMiwyOCw0NiwuODIpLCByZ2JhKDE0LDE4LDMwLC44MikpJywKICAgICAgICAgICAgICAgICAgICBib3JkZXI6ICcxcHggc29saWQgcmdiYSgxOTAsMjAwLDI1NSwuMjgpJywKICAgICAgICAgICAgICAgICAgICBib3hTaGFkb3c6ICcwIDEwcHggMzBweCByZ2JhKDAsMCwwLC40NSksIGluc2V0IDAgMXB4IDAgcmdiYSgyMDAsMjEwLDI1NSwuMTgpLCAwIDAgMThweCByZ2JhKDE1MCwxNzAsMjU1LC4xOCknLAogICAgICAgICAgICAgICAgfX0+CiAgICAgICAgICAgICAgICB7Lyog5pyI5YWJ5rWB5YWJICovfQogICAgICAgICAgICAgICAgPGRpdiBjbGFzc05hbWU9ImFic29sdXRlIGluc2V0LTAgcG9pbnRlci1ldmVudHMtbm9uZSIgc3R5bGU9e3sKICAgICAgICAgICAgICAgICAgICBiYWNrZ3JvdW5kOiAnbGluZWFyLWdyYWRpZW50KDEwNWRlZyx0cmFuc3BhcmVudCAzMiUscmdiYSgyMDAsMjE1LDI1NSwuMTYpIDUwJSx0cmFuc3BhcmVudCA2OCUpJywKICAgICAgICAgICAgICAgICAgICBiYWNrZ3JvdW5kU2l6ZTogJzIyMCUgMTAwJScsCiAgICAgICAgICAgICAgICAgICAgYW5pbWF0aW9uOiAndnJiY3NoaW1tZXIgM3MgbGluZWFyIGluZmluaXRlJywKICAgICAgICAgICAgICAgIH19IC8+CiAgICAgICAgICAgICAgICA8c3BhbiBjbGFzc05hbWU9InJlbGF0aXZlIHRleHQtWzEycHhdIG9wYWNpdHktODAiIHN0eWxlPXt7IGZpbHRlcjogJ2Ryb3Atc2hhZG93KDAgMCA1cHggcmdiYSgxODAsMTk1LDI1NSwuNikpJyB9fT7inKY8L3NwYW4+CiAgICAgICAgICAgICAgICA8c3BhbiBjbGFzc05hbWU9InJlbGF0aXZlIHRleHQtWzExcHhdIHRyYWNraW5nLVswLjA0ZW1dIHRleHQtd2hpdGUvOTAgd2hpdGVzcGFjZS1ub3dyYXAgZm9udC1saWdodCI+CiAgICAgICAgICAgICAgICAgICAgPHNwYW4gY2xhc3NOYW1lPSJ0ZXh0LWFtYmVyLTIwMC85MCBmb250LW5vcm1hbCI+e2N1ci5jaGFyTmFtZX08L3NwYW4+e2V4dHJhfSDmraPmvKvmuLjkuo7lvbzmlrkgwrcge3Jvb20ubmFtZX0KICAgICAgICAgICAgICAgICAgICB7Y3VyLm5vdmVsVGl0bGUgPyBgIOivu+OAiiR7Y3VyLm5vdmVsVGl0bGV944CLYCA6ICcnfQogICAgICAgICAgICAgICAgPC9zcGFuPgogICAgICAgICAgICAgICAgPHNwYW4gY2xhc3NOYW1lPSJyZWxhdGl2ZSBmbGV4IGdhcC0xIj4KICAgICAgICAgICAgICAgICAgICB7WzAsIDEsIDJdLm1hcChpID0+ICgKICAgICAgICAgICAgICAgICAgICAgICAgPHNwYW4ga2V5PXtpfSBjbGFzc05hbWU9InctMSBoLTEgcm91bmRlZC1mdWxsIGJnLWluZGlnby0xMDAvODAiCiAgICAgICAgICAgICAgICAgICAgICAgICAgICBzdHlsZT17eyBhbmltYXRpb246ICd2cmJjdHdpbmtsZSAxLjRzIGluZmluaXRlJywgYW5pbWF0aW9uRGVsYXk6IGAke2kgKiAwLjI1fXNgIH19IC8+CiAgICAgICAgICAgICAgICAgICAgKSl9CiAgICAgICAgICAgICAgICA8L3NwYW4+CiAgICAgICAgICAgIDwvZGl2PgogICAgICAgIDwvZGl2PgogICAgKTsKfTsKCmV4cG9ydCBkZWZhdWx0IFZSQnJvYWRjYXN0Owo=
+import React, { useEffect, useRef, useState } from 'react';
+
+/**
+ * 「彼方」大世界喇叭 —— 当某角色正在登入彼方、调用 API 行动时，
+ * 顶部滑出一条 MMO 风格的世界播报。监听 runSession 派发的
+ * vr-session-start / vr-session-end 事件，全局挂载（App 根级）。
+ */
+
+interface ActiveSession { charId: string; charName: string; room: string; novelTitle?: string; }
+
+const ROOM_LABEL: Record<string, { name: string }> = {
+    library: { name: '图书馆' },
+    music: { name: '听歌房' },
+    guestbook: { name: '留言簿' },
+    gym: { name: '活动场' },
+};
+
+const VRBroadcast: React.FC = () => {
+    const [active, setActive] = useState<ActiveSession[]>([]);
+    const hideTimer = useRef<ReturnType<typeof setTimeout> | null>(null);
+
+    useEffect(() => {
+        const onStart = (e: Event) => {
+            const d = (e as CustomEvent).detail as ActiveSession;
+            if (!d?.charId) return;
+            setActive(prev => prev.some(s => s.charId === d.charId) ? prev : [...prev, d]);
+        };
+        const onEnd = (e: Event) => {
+            const id = (e as CustomEvent).detail?.charId;
+            // 结束时延迟一会再移除，让"刚逛完"的播报多留一下
+            setTimeout(() => setActive(prev => prev.filter(s => s.charId !== id)), 1500);
+        };
+        window.addEventListener('vr-session-start', onStart);
+        window.addEventListener('vr-session-end', onEnd);
+        return () => {
+            window.removeEventListener('vr-session-start', onStart);
+            window.removeEventListener('vr-session-end', onEnd);
+            if (hideTimer.current) clearTimeout(hideTimer.current);
+        };
+    }, []);
+
+    if (active.length === 0) return null;
+    const cur = active[active.length - 1];
+    const room = ROOM_LABEL[cur.room] || { name: '彼方' };
+    const extra = active.length > 1 ? ` 等 ${active.length} 人` : '';
+
+    return (
+        <div className="fixed left-1/2 -translate-x-1/2 z-[999] pointer-events-none"
+            style={{ top: 'calc(var(--safe-top) + 6px)' }}>
+            <style>{`@keyframes vrbcin{from{opacity:0;transform:translateY(-14px) scale(.96)}to{opacity:1;transform:translateY(0) scale(1)}}
+                     @keyframes vrbcshimmer{0%{background-position:-120% 0}100%{background-position:220% 0}}
+                     @keyframes vrbctwinkle{0%,100%{opacity:.35;transform:scale(.85)}50%{opacity:1;transform:scale(1.1)}}`}</style>
+            <div className="relative flex items-center gap-2.5 pl-3 pr-3.5 py-1.5 rounded-full overflow-hidden backdrop-blur-xl"
+                style={{
+                    animation: 'vrbcin .45s cubic-bezier(.2,.9,.3,1.2)',
+                    background: 'linear-gradient(100deg, rgba(22,28,46,.82), rgba(14,18,30,.82))',
+                    border: '1px solid rgba(190,200,255,.28)',
+                    boxShadow: '0 10px 30px rgba(0,0,0,.45), inset 0 1px 0 rgba(200,210,255,.18), 0 0 18px rgba(150,170,255,.18)',
+                }}>
+                {/* 月光流光 */}
+                <div className="absolute inset-0 pointer-events-none" style={{
+                    background: 'linear-gradient(105deg,transparent 32%,rgba(200,215,255,.16) 50%,transparent 68%)',
+                    backgroundSize: '220% 100%',
+                    animation: 'vrbcshimmer 3s linear infinite',
+                }} />
+                <span className="relative text-[12px] opacity-80" style={{ filter: 'drop-shadow(0 0 5px rgba(180,195,255,.6))' }}>✦</span>
+                <span className="relative text-[11px] tracking-[0.04em] text-white/90 whitespace-nowrap font-light">
+                    <span className="text-amber-200/90 font-normal">{cur.charName}</span>{extra} 正漫游于彼方 · {room.name}
+                    {cur.novelTitle ? ` 读《${cur.novelTitle}》` : ''}
+                </span>
+                <span className="relative flex gap-1">
+                    {[0, 1, 2].map(i => (
+                        <span key={i} className="w-1 h-1 rounded-full bg-indigo-100/80"
+                            style={{ animation: 'vrbctwinkle 1.4s infinite', animationDelay: `${i * 0.25}s` }} />
+                    ))}
+                </span>
+            </div>
+        </div>
+    );
+};
+
+export default VRBroadcast;

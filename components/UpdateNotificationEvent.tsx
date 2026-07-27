@@ -1,1 +1,130 @@
-LyoqCiAqIFVwZGF0ZU5vdGlmaWNhdGlvbkV2ZW50LnRzeAogKiDniYjmnKzmm7TmlrDlvLrliLbmj5DphpLlvLnnqpcgKDIwMjYuNS4yNSDlsI/mm7TmlrApCiAqCiAqIOaJgOacieWwmuacquehruiupOi/h+acrOasoeW8ueeql+eahOeUqOaIt++8jOaJk+W8gOWQjumDveS8muiiq+W8uuWItuaOpeWIsOS4gOasoe+8jAogKiDngrnlh7si5p+l55yL5pu05pawIuWQjuS8mui3s+i9rOWIsOS9v+eUqOW4ruWKqSBBcHAg55qE5a+55bqU5pu05paw5pel5b+X6aG144CCCiAqLwoKaW1wb3J0IFJlYWN0IGZyb20gJ3JlYWN0JzsKaW1wb3J0IHsgdXNlT1MgfSBmcm9tICcuLi9jb250ZXh0L09TQ29udGV4dCc7CmltcG9ydCB7IEFwcElEIH0gZnJvbSAnLi4vdHlwZXMnOwoKLy8g5Y6G5Y+yIGtleSDigJTigJQg5L+d55WZLCDorqnogIHnlKjmiLfnmoQi5bey55yL6L+HIueKtuaAgeW7tue7reWIsOacrOaciOaWsOW8ueeql+WIpOaWremHjApleHBvcnQgY29uc3QgVVBEQVRFX05PVElGSUNBVElPTl9LRVkgPSAnc3VsbHlvc191cGRhdGVfMjAyNl8wNF9zZWVuJzsKZXhwb3J0IGNvbnN0IFVQREFURV9OT1RJRklDQVRJT05fS0VZXzIwMjZfMDUgPSAnc3VsbHlvc191cGRhdGVfMjAyNl8wNV9zZWVuJzsKZXhwb3J0IGNvbnN0IFVQREFURV9OT1RJRklDQVRJT05fS0VZXzIwMjZfMDVfMTAgPSAnc3VsbHlvc191cGRhdGVfMjAyNl8wNV8xMF9zZWVuJzsKZXhwb3J0IGNvbnN0IFVQREFURV9OT1RJRklDQVRJT05fS0VZXzIwMjZfMDVfMTcgPSAnc3VsbHlvc191cGRhdGVfMjAyNl8wNV8xN19zZWVuJzsKLy8g5Y6G5Y+yIGtleSDigJTigJQgNS4yNSDmg4Xnu6ogYnVmZiDkuZ/mjqXlhaUgSW5zdGFudCBQdXNoCmV4cG9ydCBjb25zdCBVUERBVEVfTk9USUZJQ0FUSU9OX0tFWV8yMDI2XzA1XzI1ID0gJ3N1bGx5b3NfdXBkYXRlXzIwMjZfMDVfMjVfc2Vlbic7Ci8vIOWOhuWPsiBrZXkg4oCU4oCUIDYuNSDjgIzlvbzmlrnjgI3kuIrnur8KZXhwb3J0IGNvbnN0IFVQREFURV9OT1RJRklDQVRJT05fS0VZXzIwMjZfMDZfMDUgPSAnc3VsbHlvc191cGRhdGVfMjAyNl8wNl8wNV9zZWVuJzsKLy8g5Y6G5Y+yIGtleSDigJTigJQgNi4xNCDjgIzlrrblm63jgI3kuIrnur8gwrcg5bCP5bGL57+75pawICsg55Ge5bm45ZKW5ZWhCmV4cG9ydCBjb25zdCBVUERBVEVfTk9USUZJQ0FUSU9OX0tFWV8yMDI2XzA2XzE0ID0gJ3N1bGx5b3NfdXBkYXRlXzIwMjZfMDZfMTRfc2Vlbic7Ci8vIOWOhuWPsiBrZXkg4oCU4oCUIDYuMjEg44CM5p+l5omL5py644CN57+75pawICsg5Lq65qC85qih5oufIMK3IOaJi+a4uOmjjuWkluingiDCtyDlsI/nuqLkuabliIbkuqsKZXhwb3J0IGNvbnN0IFVQREFURV9OT1RJRklDQVRJT05fS0VZXzIwMjZfMDZfMjEgPSAnc3VsbHlvc191cGRhdGVfMjAyNl8wNl8yMV9zZWVuJzsKLy8g5Y6G5Y+yIGtleSDigJTigJQgNi4yNiDmoqblooPnm7Lnm5Igwrcg6IGU57O75Lq65qih5byPIMK3IGNoYXIg55qE5bCP5omL5py6IMK3IOingemdoueKtuaAgeagjyDCtyDml7bpl7TmhJ/nn6XlvZLkvY0gwrcg6bG85aOwIFRUUwpleHBvcnQgY29uc3QgVVBEQVRFX05PVElGSUNBVElPTl9LRVlfMjAyNl8wNl8yNiA9ICdzdWxseW9zX3VwZGF0ZV8yMDI2XzA2XzI2X3NlZW4nOwovLyDmnKzmrKHmm7TmlrAga2V5IOKAlOKAlCA3LjEwIOeUn+a0u+e7n+iuoSDCtyDlhajmnI3lhpnor5cgwrcg55S76aOO6YeN5p6EIMK3IOinkuiJsuWIhue7hCDCtyDorrDlv4blrqvmrr/pl6jniYwg562JCmV4cG9ydCBjb25zdCBVUERBVEVfTk9USUZJQ0FUSU9OX0tFWV8yMDI2XzA3XzEwID0gJ3N1bGx5b3NfdXBkYXRlXzIwMjZfMDdfMTBfc2Vlbic7CgpleHBvcnQgY29uc3QgRkFRX1RBUkdFVF9TRUNUSU9OX0tFWSA9ICdzdWxseW9zX2ZhcV90YXJnZXRfc2VjdGlvbic7CmV4cG9ydCBjb25zdCBDSEFOR0VMT0dfMjAyNl8wNCA9ICdjaGFuZ2Vsb2ctMjAyNi0wNCc7CmV4cG9ydCBjb25zdCBDSEFOR0VMT0dfMjAyNl8wNSA9ICdjaGFuZ2Vsb2ctMjAyNi0wNSc7CmV4cG9ydCBjb25zdCBDSEFOR0VMT0dfMjAyNl8wNV8xMCA9ICdjaGFuZ2Vsb2ctMjAyNi0wNS0xMCc7CmV4cG9ydCBjb25zdCBDSEFOR0VMT0dfMjAyNl8wNV8xNyA9ICdjaGFuZ2Vsb2ctMjAyNi0wNS0xNyc7CmV4cG9ydCBjb25zdCBDSEFOR0VMT0dfMjAyNl8wNV8yNyA9ICdjaGFuZ2Vsb2ctMjAyNi0wNS0yNyc7CmV4cG9ydCBjb25zdCBDSEFOR0VMT0dfMjAyNl8wNl8wNSA9ICdjaGFuZ2Vsb2ctMjAyNi0wNi0wNSc7CmV4cG9ydCBjb25zdCBDSEFOR0VMT0dfMjAyNl8wNl8xNCA9ICdjaGFuZ2Vsb2ctMjAyNi0wNi0xNCc7CmV4cG9ydCBjb25zdCBDSEFOR0VMT0dfMjAyNl8wNl8yMSA9ICdjaGFuZ2Vsb2ctMjAyNi0wNi0yMSc7CmV4cG9ydCBjb25zdCBDSEFOR0VMT0dfMjAyNl8wNl8yNiA9ICdjaGFuZ2Vsb2ctMjAyNi0wNi0yNic7CmV4cG9ydCBjb25zdCBDSEFOR0VMT0dfMjAyNl8wN18xMCA9ICdjaGFuZ2Vsb2ctMjAyNi0wNy0xMCc7CgpleHBvcnQgY29uc3Qgc2hvdWxkU2hvd1VwZGF0ZU5vdGlmaWNhdGlvbiA9ICgpOiBib29sZWFuID0+IHsKICAgIHRyeSB7CiAgICAgICAgcmV0dXJuICFsb2NhbFN0b3JhZ2UuZ2V0SXRlbShVUERBVEVfTk9USUZJQ0FUSU9OX0tFWV8yMDI2XzA3XzEwKTsKICAgIH0gY2F0Y2ggewogICAgICAgIHJldHVybiBmYWxzZTsKICAgIH0KfTsKCmludGVyZmFjZSBVcGRhdGVOb3RpZmljYXRpb25Qb3B1cFByb3BzIHsKICAgIG9uQ2xvc2U6ICgpID0+IHZvaWQ7Cn0KCmV4cG9ydCBjb25zdCBVcGRhdGVOb3RpZmljYXRpb25Qb3B1cDogUmVhY3QuRkM8VXBkYXRlTm90aWZpY2F0aW9uUG9wdXBQcm9wcz4gPSAoeyBvbkNsb3NlIH0pID0+IHsKICAgIGNvbnN0IHsgb3BlbkFwcCB9ID0gdXNlT1MoKTsKCiAgICBjb25zdCBoYW5kbGVWaWV3ID0gKCkgPT4gewogICAgICAgIHRyeSB7CiAgICAgICAgICAgIGxvY2FsU3RvcmFnZS5zZXRJdGVtKFVQREFURV9OT1RJRklDQVRJT05fS0VZXzIwMjZfMDdfMTAsIERhdGUubm93KCkudG9TdHJpbmcoKSk7CiAgICAgICAgICAgIHNlc3Npb25TdG9yYWdlLnNldEl0ZW0oRkFRX1RBUkdFVF9TRUNUSU9OX0tFWSwgQ0hBTkdFTE9HXzIwMjZfMDdfMTApOwogICAgICAgIH0gY2F0Y2ggeyAvKiBpZ25vcmUgKi8gfQogICAgICAgIG9wZW5BcHAoQXBwSUQuRkFRKTsKICAgICAgICBvbkNsb3NlKCk7CiAgICB9OwoKICAgIGNvbnN0IGhhbmRsZURpc21pc3MgPSAoKSA9PiB7CiAgICAgICAgdHJ5IHsgbG9jYWxTdG9yYWdlLnNldEl0ZW0oVVBEQVRFX05PVElGSUNBVElPTl9LRVlfMjAyNl8wN18xMCwgRGF0ZS5ub3coKS50b1N0cmluZygpKTsgfSBjYXRjaCB7IC8qIGlnbm9yZSAqLyB9CiAgICAgICAgb25DbG9zZSgpOwogICAgfTsKCiAgICByZXR1cm4gKAogICAgICAgIDxkaXYgY2xhc3NOYW1lPSJmaXhlZCBpbnNldC0wIHotWzk5OThdIGZsZXggaXRlbXMtY2VudGVyIGp1c3RpZnktY2VudGVyIHAtNSBhbmltYXRlLWZhZGUtaW4iPgogICAgICAgICAgICA8ZGl2IGNsYXNzTmFtZT0iYWJzb2x1dGUgaW5zZXQtMCBiZy1ibGFjay82MCBiYWNrZHJvcC1ibHVyLW1kIiAvPgogICAgICAgICAgICA8ZGl2IGNsYXNzTmFtZT0icmVsYXRpdmUgdy1mdWxsIG1heC13LXNtIGJnLXdoaXRlLzk1IGJhY2tkcm9wLWJsdXIteGwgcm91bmRlZC1bMi41cmVtXSBzaGFkb3ctMnhsIGJvcmRlciBib3JkZXItd2hpdGUvMzAgb3ZlcmZsb3ctaGlkZGVuIGFuaW1hdGUtc2xpZGUtdXAiPgogICAgICAgICAgICAgICAgPGRpdiBjbGFzc05hbWU9InB0LTcgcGItMyBweC02IHRleHQtY2VudGVyIj4KICAgICAgICAgICAgICAgICAgICA8aW1nCiAgICAgICAgICAgICAgICAgICAgICAgIHNyYz0iaHR0cHM6Ly9jZG5qcy5jbG91ZGZsYXJlLmNvbS9hamF4L2xpYnMvdHdlbW9qaS8xNC4wLjIvNzJ4NzIvMWY1MTQucG5nIgogICAgICAgICAgICAgICAgICAgICAgICBhbHQ9InVwZGF0ZSIKICAgICAgICAgICAgICAgICAgICAgICAgY2xhc3NOYW1lPSJ3LTEwIGgtMTAgbXgtYXV0byBtYi0yIgogICAgICAgICAgICAgICAgICAgIC8+CiAgICAgICAgICAgICAgICAgICAgPGgyIGNsYXNzTmFtZT0idGV4dC1sZyBmb250LWV4dHJhYm9sZCB0ZXh0LXNsYXRlLTgwMCI+5aSn54mI5pys5pu05pawIMK3IOeUn+a0u+e7n+iuoTwvaDI+CiAgICAgICAgICAgICAgICAgICAgPHAgY2xhc3NOYW1lPSJ0ZXh0LVsxMXB4XSB0ZXh0LXNsYXRlLTQwMCBtdC0xIj4yMDI2IOW5tCA3IOaciCAxMCDml6UgwrcgMTAg6aG55pu05pawPC9wPgogICAgICAgICAgICAgICAgPC9kaXY+CgogICAgICAgICAgICAgICAgPGRpdiBjbGFzc05hbWU9InB4LTYgcGItNCBzcGFjZS15LTMiPgogICAgICAgICAgICAgICAgICAgIDxkaXYgY2xhc3NOYW1lPSJiZy1ncmFkaWVudC10by1iciBmcm9tLWluZGlnby01MCB0by12aW9sZXQtNTAgYm9yZGVyIGJvcmRlci1pbmRpZ28tMTAwIHJvdW5kZWQtMnhsIHAtNCI+CiAgICAgICAgICAgICAgICAgICAgICAgIDxwIGNsYXNzTmFtZT0idGV4dC1bMTNweF0gdGV4dC1zbGF0ZS03MDAgbGVhZGluZy1yZWxheGVkIj4KICAgICAgICAgICAgICAgICAgICAgICAgICAgIDxzdHJvbmcgY2xhc3NOYW1lPSJ0ZXh0LWluZGlnby02MDAiPuOAjOaho+ahiOOAjTwvc3Ryb25nPuaWsOWinjxzdHJvbmcgY2xhc3NOYW1lPSJ0ZXh0LXZpb2xldC02MDAiPueUn+a0u+e7n+iuoTwvc3Ryb25nPu+8mueUn+eQhuacnyAvIOiNr+ebkiAvIOiusOi0piAvIOmUu+eCvOWbm+aooeWdl++8jOi/mOiDveiuqeinkuiJsjxzdHJvbmc+5rOo5YWl5Luj6K6wPC9zdHJvbmc+4oCU4oCU6IGK5aSp5pe26ZqP5Y+j6K+05ZCD6I2v5LqG44CB6Iqx5LqG5aSa5bCR77yMdGEg5biu5L2g6K6w44CCCiAgICAgICAgICAgICAgICAgICAgICAgIDwvcD4KICAgICAgICAgICAgICAgICAgICAgICAgPHAgY2xhc3NOYW1lPSJ0ZXh0LVsxMnB4XSB0ZXh0LXNsYXRlLTUwMCBsZWFkaW5nLXJlbGF4ZWQgbXQtMiI+CiAgICAgICAgICAgICAgICAgICAgICAgICAgICA8c3Ryb25nIGNsYXNzTmFtZT0idGV4dC1pbmRpZ28tNjAwIj7jgIzlvbzmlrnjgI08L3N0cm9uZz7lvIDkuoblnLo8c3Ryb25nPuWFqOacjeWGmeivlzwvc3Ryb25nPu+8mzxzdHJvbmcgY2xhc3NOYW1lPSJ0ZXh0LXZpb2xldC02MDAiPuaNj+S6ujwvc3Ryb25nPuaNouaWsOeUu+mjjiArIFBTRCDmibnph4/lr7zlhaUgKyDmiYvlip7ljLrvvJs8c3Ryb25nPuelnue7j+mTvuaOpTwvc3Ryb25nPuaUr+aMgTxzdHJvbmc+6KeS6Imy5YiG57uEPC9zdHJvbmc+44CCCiAgICAgICAgICAgICAgICAgICAgICAgIDwvcD4KICAgICAgICAgICAgICAgICAgICAgICAgPHAgY2xhc3NOYW1lPSJ0ZXh0LVsxMnB4XSB0ZXh0LXNsYXRlLTUwMCBsZWFkaW5nLXJlbGF4ZWQgbXQtMiI+CiAgICAgICAgICAgICAgICAgICAgICAgICAgICDov5jmnInvvJo8c3Ryb25nPuWwj+Wxizwvc3Ryb25nPuijheS/ruWkp+WNh+e6pyArIOWutuWbreaWsOWinuOAjOWHjOaZqOOAjeaute+8mzxzdHJvbmcgY2xhc3NOYW1lPSJ0ZXh0LXZpb2xldC02MDAiPuiusOW/huWuq+auvzwvc3Ryb25nPumXqOeJjO+8iOa1i+ivleS4re+8ie+8mzxzdHJvbmc+5LiT5bGe5o+Q56S66ZOD5aOwPC9zdHJvbmc+77yb5aOB57q4L+Wwj+Wxi+WbvuaUueWtmCBCbG9i77yb5LiA5aSn5om5IGlPUyDpgILphY3kuI7mlaPkv67jgIIKICAgICAgICAgICAgICAgICAgICAgICAgPC9wPgogICAgICAgICAgICAgICAgICAgIDwvZGl2PgogICAgICAgICAgICAgICAgICAgIDxkaXYgY2xhc3NOYW1lPSJiZy12aW9sZXQtNTAgYm9yZGVyIGJvcmRlci12aW9sZXQtMjAwIHJvdW5kZWQtMnhsIHAtMyI+CiAgICAgICAgICAgICAgICAgICAgICAgIDxwIGNsYXNzTmFtZT0idGV4dC1bMTJweF0gZm9udC1ib2xkIHRleHQtdmlvbGV0LTYwMCB0ZXh0LWNlbnRlciI+CiAgICAgICAgICAgICAgICAgICAgICAgICAgICDngrnkuIvmlrnmjInpkq7nnIvlrozmlbTmm7TmlrDor7TmmI4KICAgICAgICAgICAgICAgICAgICAgICAgPC9wPgogICAgICAgICAgICAgICAgICAgIDwvZGl2PgogICAgICAgICAgICAgICAgPC9kaXY+CgogICAgICAgICAgICAgICAgPGRpdiBjbGFzc05hbWU9InB4LTYgcGItNyBwdC0yIHNwYWNlLXktMiI+CiAgICAgICAgICAgICAgICAgICAgPGJ1dHRvbgogICAgICAgICAgICAgICAgICAgICAgICBvbkNsaWNrPXtoYW5kbGVWaWV3fQogICAgICAgICAgICAgICAgICAgICAgICBjbGFzc05hbWU9InctZnVsbCBweS0zLjUgYmctZ3JhZGllbnQtdG8tciBmcm9tLXZpb2xldC01MDAgdG8tcHVycGxlLTUwMCB0ZXh0LXdoaXRlIGZvbnQtYm9sZCByb3VuZGVkLTJ4bCBzaGFkb3ctbGcgc2hhZG93LXZpb2xldC0yMDAgYWN0aXZlOnNjYWxlLTk1IHRyYW5zaXRpb24tdHJhbnNmb3JtIHRleHQtc20iCiAgICAgICAgICAgICAgICAgICAgPgogICAgICAgICAgICAgICAgICAgICAgICDnnIvnnIvov5nmrKHmm7TmlrDkuobllaUKICAgICAgICAgICAgICAgICAgICA8L2J1dHRvbj4KICAgICAgICAgICAgICAgICAgICA8YnV0dG9uCiAgICAgICAgICAgICAgICAgICAgICAgIG9uQ2xpY2s9e2hhbmRsZURpc21pc3N9CiAgICAgICAgICAgICAgICAgICAgICAgIGNsYXNzTmFtZT0idy1mdWxsIHB5LTIgdGV4dC1zbGF0ZS00MDAgZm9udC1tZWRpdW0gdGV4dC14cyBhY3RpdmU6c2NhbGUtOTUgdHJhbnNpdGlvbi10cmFuc2Zvcm0iCiAgICAgICAgICAgICAgICAgICAgPgogICAgICAgICAgICAgICAgICAgICAgICDku6XlkI7lho3or7QKICAgICAgICAgICAgICAgICAgICA8L2J1dHRvbj4KICAgICAgICAgICAgICAgIDwvZGl2PgogICAgICAgICAgICA8L2Rpdj4KICAgICAgICA8L2Rpdj4KICAgICk7Cn07CgppbnRlcmZhY2UgVXBkYXRlTm90aWZpY2F0aW9uQ29udHJvbGxlclByb3BzIHsKICAgIG9uQ2xvc2U6ICgpID0+IHZvaWQ7Cn0KCmV4cG9ydCBjb25zdCBVcGRhdGVOb3RpZmljYXRpb25Db250cm9sbGVyOiBSZWFjdC5GQzxVcGRhdGVOb3RpZmljYXRpb25Db250cm9sbGVyUHJvcHM+ID0gKHsgb25DbG9zZSB9KSA9PiB7CiAgICByZXR1cm4gPFVwZGF0ZU5vdGlmaWNhdGlvblBvcHVwIG9uQ2xvc2U9e29uQ2xvc2V9IC8+Owp9Owo=
+/**
+ * UpdateNotificationEvent.tsx
+ * 版本更新强制提醒弹窗 (2026.5.25 小更新)
+ *
+ * 所有尚未确认过本次弹窗的用户，打开后都会被强制接到一次，
+ * 点击"查看更新"后会跳转到使用帮助 App 的对应更新日志页。
+ */
+
+import React from 'react';
+import { useOS } from '../context/OSContext';
+import { AppID } from '../types';
+
+// 历史 key —— 保留, 让老用户的"已看过"状态延续到本月新弹窗判断里
+export const UPDATE_NOTIFICATION_KEY = 'sullyos_update_2026_04_seen';
+export const UPDATE_NOTIFICATION_KEY_2026_05 = 'sullyos_update_2026_05_seen';
+export const UPDATE_NOTIFICATION_KEY_2026_05_10 = 'sullyos_update_2026_05_10_seen';
+export const UPDATE_NOTIFICATION_KEY_2026_05_17 = 'sullyos_update_2026_05_17_seen';
+// 历史 key —— 5.25 情绪 buff 也接入 Instant Push
+export const UPDATE_NOTIFICATION_KEY_2026_05_25 = 'sullyos_update_2026_05_25_seen';
+// 历史 key —— 6.5 「彼方」上线
+export const UPDATE_NOTIFICATION_KEY_2026_06_05 = 'sullyos_update_2026_06_05_seen';
+// 历史 key —— 6.14 「家园」上线 · 小屋翻新 + 瑞幸咖啡
+export const UPDATE_NOTIFICATION_KEY_2026_06_14 = 'sullyos_update_2026_06_14_seen';
+// 历史 key —— 6.21 「查手机」翻新 + 人格模拟 · 手游风外观 · 小红书分享
+export const UPDATE_NOTIFICATION_KEY_2026_06_21 = 'sullyos_update_2026_06_21_seen';
+// 历史 key —— 6.26 梦境盲盒 · 联系人模式 · char 的小手机 · 见面状态栏 · 时间感知归位 · 鱼声 TTS
+export const UPDATE_NOTIFICATION_KEY_2026_06_26 = 'sullyos_update_2026_06_26_seen';
+// 本次更新 key —— 7.10 生活统计 · 全服写诗 · 画风重构 · 角色分组 · 记忆宫殿门牌 等
+export const UPDATE_NOTIFICATION_KEY_2026_07_10 = 'sullyos_update_2026_07_10_seen';
+
+export const FAQ_TARGET_SECTION_KEY = 'sullyos_faq_target_section';
+export const CHANGELOG_2026_04 = 'changelog-2026-04';
+export const CHANGELOG_2026_05 = 'changelog-2026-05';
+export const CHANGELOG_2026_05_10 = 'changelog-2026-05-10';
+export const CHANGELOG_2026_05_17 = 'changelog-2026-05-17';
+export const CHANGELOG_2026_05_27 = 'changelog-2026-05-27';
+export const CHANGELOG_2026_06_05 = 'changelog-2026-06-05';
+export const CHANGELOG_2026_06_14 = 'changelog-2026-06-14';
+export const CHANGELOG_2026_06_21 = 'changelog-2026-06-21';
+export const CHANGELOG_2026_06_26 = 'changelog-2026-06-26';
+export const CHANGELOG_2026_07_10 = 'changelog-2026-07-10';
+
+export const shouldShowUpdateNotification = (): boolean => {
+    try {
+        return !localStorage.getItem(UPDATE_NOTIFICATION_KEY_2026_07_10);
+    } catch {
+        return false;
+    }
+};
+
+interface UpdateNotificationPopupProps {
+    onClose: () => void;
+}
+
+export const UpdateNotificationPopup: React.FC<UpdateNotificationPopupProps> = ({ onClose }) => {
+    const { openApp } = useOS();
+
+    const handleView = () => {
+        try {
+            localStorage.setItem(UPDATE_NOTIFICATION_KEY_2026_07_10, Date.now().toString());
+            sessionStorage.setItem(FAQ_TARGET_SECTION_KEY, CHANGELOG_2026_07_10);
+        } catch { /* ignore */ }
+        openApp(AppID.FAQ);
+        onClose();
+    };
+
+    const handleDismiss = () => {
+        try { localStorage.setItem(UPDATE_NOTIFICATION_KEY_2026_07_10, Date.now().toString()); } catch { /* ignore */ }
+        onClose();
+    };
+
+    return (
+        <div className="fixed inset-0 z-[9998] flex items-center justify-center p-5 animate-fade-in">
+            <div className="absolute inset-0 bg-black/60 backdrop-blur-md" />
+            <div className="relative w-full max-w-sm bg-white/95 backdrop-blur-xl rounded-[2.5rem] shadow-2xl border border-white/30 overflow-hidden animate-slide-up">
+                <div className="pt-7 pb-3 px-6 text-center">
+                    <img
+                        src="https://cdnjs.cloudflare.com/ajax/libs/twemoji/14.0.2/72x72/1f514.png"
+                        alt="update"
+                        className="w-10 h-10 mx-auto mb-2"
+                    />
+                    <h2 className="text-lg font-extrabold text-slate-800">大版本更新 · 生活统计</h2>
+                    <p className="text-[11px] text-slate-400 mt-1">2026 年 7 月 10 日 · 10 项更新</p>
+                </div>
+
+                <div className="px-6 pb-4 space-y-3">
+                    <div className="bg-gradient-to-br from-indigo-50 to-violet-50 border border-indigo-100 rounded-2xl p-4">
+                        <p className="text-[13px] text-slate-700 leading-relaxed">
+                            <strong className="text-indigo-600">「档案」</strong>新增<strong className="text-violet-600">生活统计</strong>：生理期 / 药盒 / 记账 / 锻炼四模块，还能让角色<strong>注入代记</strong>——聊天时随口说吃药了、花了多少，ta 帮你记。
+                        </p>
+                        <p className="text-[12px] text-slate-500 leading-relaxed mt-2">
+                            <strong className="text-indigo-600">「彼方」</strong>开了场<strong>全服写诗</strong>；<strong className="text-violet-600">捏人</strong>换新画风 + PSD 批量导入 + 手办区；<strong>神经链接</strong>支持<strong>角色分组</strong>。
+                        </p>
+                        <p className="text-[12px] text-slate-500 leading-relaxed mt-2">
+                            还有：<strong>小屋</strong>装修大升级 + 家园新增「凌晨」段；<strong className="text-violet-600">记忆宫殿</strong>门牌（测试中）；<strong>专属提示铃声</strong>；壁纸/小屋图改存 Blob；一大批 iOS 适配与散修。
+                        </p>
+                    </div>
+                    <div className="bg-violet-50 border border-violet-200 rounded-2xl p-3">
+                        <p className="text-[12px] font-bold text-violet-600 text-center">
+                            点下方按钮看完整更新说明
+                        </p>
+                    </div>
+                </div>
+
+                <div className="px-6 pb-7 pt-2 space-y-2">
+                    <button
+                        onClick={handleView}
+                        className="w-full py-3.5 bg-gradient-to-r from-violet-500 to-purple-500 text-white font-bold rounded-2xl shadow-lg shadow-violet-200 active:scale-95 transition-transform text-sm"
+                    >
+                        看看这次更新了啥
+                    </button>
+                    <button
+                        onClick={handleDismiss}
+                        className="w-full py-2 text-slate-400 font-medium text-xs active:scale-95 transition-transform"
+                    >
+                        以后再说
+                    </button>
+                </div>
+            </div>
+        </div>
+    );
+};
+
+interface UpdateNotificationControllerProps {
+    onClose: () => void;
+}
+
+export const UpdateNotificationController: React.FC<UpdateNotificationControllerProps> = ({ onClose }) => {
+    return <UpdateNotificationPopup onClose={onClose} />;
+};

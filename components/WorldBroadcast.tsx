@@ -1,1 +1,91 @@
-aW1wb3J0IFJlYWN0LCB7IHVzZUVmZmVjdCwgdXNlUmVmLCB1c2VTdGF0ZSB9IGZyb20gJ3JlYWN0JzsKCi8qKgogKiDjgIzlrrblm63jgI3lhajlsYDnlJ/miJDlloflj60g4oCU4oCUIOS7u+aEj+eVjOmdoumDveiDveeci+WIsOafkOS4quS4lueVjOato+WcqOa8lOe7ju+8iOaOqOi/m+S4gOautSAvIOe7k+WNt++8ieOAggogKiDnm5HlkKwgcnVuV29ybGRFcGlzb2RlIOa0vuWPkeeahCB3b3JsZC1lcGlzb2RlLSogLyB3b3JsZC1jaGFwdGVyLSog5LqL5Lu277yMQXBwIOaguee6p+aMgui9veOAggogKiDkuI7lvbzmlrkgVlJCcm9hZGNhc3Qg5ZCM5p6E77yM5L2G6LWw5a625Zut55qE5reh57Sr6aOO44CCCiAqLwppbnRlcmZhY2UgV29ybGRHZW4geyB3b3JsZElkOiBzdHJpbmc7IHdvcmxkTmFtZTogc3RyaW5nOyBzdG9yeVRpbWU/OiBzdHJpbmc7IGRvbmU6IG51bWJlcjsgdG90YWw6IG51bWJlcjsgY2hhck5hbWU/OiBzdHJpbmc7IGNoYXB0ZXI/OiBudW1iZXI7IH0KCmNvbnN0IFdvcmxkQnJvYWRjYXN0OiBSZWFjdC5GQyA9ICgpID0+IHsKICAgIGNvbnN0IFtnZW4sIHNldEdlbl0gPSB1c2VTdGF0ZTxXb3JsZEdlbiB8IG51bGw+KG51bGwpOwogICAgY29uc3QgaGlkZVRpbWVyID0gdXNlUmVmPFJldHVyblR5cGU8dHlwZW9mIHNldFRpbWVvdXQ+IHwgbnVsbD4obnVsbCk7CgogICAgdXNlRWZmZWN0KCgpID0+IHsKICAgICAgICBjb25zdCBjbGVhckhpZGUgPSAoKSA9PiB7IGlmIChoaWRlVGltZXIuY3VycmVudCkgeyBjbGVhclRpbWVvdXQoaGlkZVRpbWVyLmN1cnJlbnQpOyBoaWRlVGltZXIuY3VycmVudCA9IG51bGw7IH0gfTsKICAgICAgICBjb25zdCBvblN0YXJ0ID0gKGU6IEV2ZW50KSA9PiB7CiAgICAgICAgICAgIGNvbnN0IGQgPSAoZSBhcyBDdXN0b21FdmVudCkuZGV0YWlsIHx8IHt9OwogICAgICAgICAgICBjbGVhckhpZGUoKTsKICAgICAgICAgICAgc2V0R2VuKHsgd29ybGRJZDogZC53b3JsZElkLCB3b3JsZE5hbWU6IGQud29ybGROYW1lIHx8ICflrrblm60nLCBzdG9yeVRpbWU6IGQuc3RvcnlUaW1lLCBkb25lOiAwLCB0b3RhbDogZC50b3RhbCB8fCAxIH0pOwogICAgICAgIH07CiAgICAgICAgY29uc3Qgb25CZWF0ID0gKGU6IEV2ZW50KSA9PiB7CiAgICAgICAgICAgIGNvbnN0IGQgPSAoZSBhcyBDdXN0b21FdmVudCkuZGV0YWlsIHx8IHt9OwogICAgICAgICAgICBzZXRHZW4ocHJldiA9PiBwcmV2ICYmIHByZXYud29ybGRJZCA9PT0gZC53b3JsZElkID8geyAuLi5wcmV2LCBkb25lOiBkLmRvbmUgPz8gcHJldi5kb25lLCB0b3RhbDogZC50b3RhbCA/PyBwcmV2LnRvdGFsLCBjaGFyTmFtZTogZC5jaGFyTmFtZSB9IDogcHJldik7CiAgICAgICAgfTsKICAgICAgICBjb25zdCBvbkNoYXB0ZXJTdGFydCA9IChlOiBFdmVudCkgPT4gewogICAgICAgICAgICBjb25zdCBkID0gKGUgYXMgQ3VzdG9tRXZlbnQpLmRldGFpbCB8fCB7fTsKICAgICAgICAgICAgc2V0R2VuKHByZXYgPT4gcHJldiAmJiBwcmV2LndvcmxkSWQgPT09IGQud29ybGRJZCA/IHsgLi4ucHJldiwgY2hhcHRlcjogZC5pbmRleCB9IDogcHJldik7CiAgICAgICAgfTsKICAgICAgICBjb25zdCBvbkVuZCA9IChlOiBFdmVudCkgPT4gewogICAgICAgICAgICBjb25zdCBpZCA9IChlIGFzIEN1c3RvbUV2ZW50KS5kZXRhaWw/LndvcmxkSWQ7CiAgICAgICAgICAgIGNsZWFySGlkZSgpOwogICAgICAgICAgICBoaWRlVGltZXIuY3VycmVudCA9IHNldFRpbWVvdXQoKCkgPT4gc2V0R2VuKHByZXYgPT4gKHByZXYgJiYgcHJldi53b3JsZElkID09PSBpZCA/IG51bGwgOiBwcmV2KSksIDE0MDApOwogICAgICAgIH07CiAgICAgICAgd2luZG93LmFkZEV2ZW50TGlzdGVuZXIoJ3dvcmxkLWVwaXNvZGUtc3RhcnQnLCBvblN0YXJ0KTsKICAgICAgICB3aW5kb3cuYWRkRXZlbnRMaXN0ZW5lcignd29ybGQtYmVhdC1kb25lJywgb25CZWF0KTsKICAgICAgICB3aW5kb3cuYWRkRXZlbnRMaXN0ZW5lcignd29ybGQtY2hhcHRlci1zdGFydCcsIG9uQ2hhcHRlclN0YXJ0KTsKICAgICAgICB3aW5kb3cuYWRkRXZlbnRMaXN0ZW5lcignd29ybGQtZXBpc29kZS1lbmQnLCBvbkVuZCk7CiAgICAgICAgcmV0dXJuICgpID0+IHsKICAgICAgICAgICAgd2luZG93LnJlbW92ZUV2ZW50TGlzdGVuZXIoJ3dvcmxkLWVwaXNvZGUtc3RhcnQnLCBvblN0YXJ0KTsKICAgICAgICAgICAgd2luZG93LnJlbW92ZUV2ZW50TGlzdGVuZXIoJ3dvcmxkLWJlYXQtZG9uZScsIG9uQmVhdCk7CiAgICAgICAgICAgIHdpbmRvdy5yZW1vdmVFdmVudExpc3RlbmVyKCd3b3JsZC1jaGFwdGVyLXN0YXJ0Jywgb25DaGFwdGVyU3RhcnQpOwogICAgICAgICAgICB3aW5kb3cucmVtb3ZlRXZlbnRMaXN0ZW5lcignd29ybGQtZXBpc29kZS1lbmQnLCBvbkVuZCk7CiAgICAgICAgICAgIGNsZWFySGlkZSgpOwogICAgICAgIH07CiAgICB9LCBbXSk7CgogICAgaWYgKCFnZW4pIHJldHVybiBudWxsOwogICAgY29uc3QgcGN0ID0gTWF0aC5yb3VuZCgoZ2VuLmRvbmUgLyBNYXRoLm1heCgxLCBnZW4udG90YWwpKSAqIDEwMCk7CiAgICBjb25zdCBsYWJlbCA9IGdlbi5jaGFwdGVyCiAgICAgICAgPyBg57uT56ysICR7Z2VuLmNoYXB0ZXJ9IOWNt+aAu+e7k+S4reKApmAKICAgICAgICA6IGdlbi5jaGFyTmFtZQogICAgICAgICAgICA/IGDmraPlnKjmvJTnu44gJHtnZW4uY2hhck5hbWV9IMK3ICR7Z2VuLmRvbmV9LyR7Z2VuLnRvdGFsfWAKICAgICAgICAgICAgOiAn5LiW55WM5byV5pOO6L+Q6L2s5Lit4oCmJzsKCiAgICByZXR1cm4gKAogICAgICAgIDxkaXYgY2xhc3NOYW1lPSJmaXhlZCBsZWZ0LTEvMiAtdHJhbnNsYXRlLXgtMS8yIHotWzk5OV0gcG9pbnRlci1ldmVudHMtbm9uZSIgc3R5bGU9e3sgdG9wOiAnY2FsYyh2YXIoLS1zYWZlLXRvcCkgKyA2cHgpJyB9fT4KICAgICAgICAgICAgPHN0eWxlPntgQGtleWZyYW1lcyB3aGJjaW57ZnJvbXtvcGFjaXR5OjA7dHJhbnNmb3JtOnRyYW5zbGF0ZVkoLTE0cHgpIHNjYWxlKC45Nil9dG97b3BhY2l0eToxO3RyYW5zZm9ybTp0cmFuc2xhdGVZKDApIHNjYWxlKDEpfX0KICAgICAgICAgICAgICAgICAgICAgQGtleWZyYW1lcyB3aGJjc2hpbW1lcnswJXtiYWNrZ3JvdW5kLXBvc2l0aW9uOi0xMjAlIDB9MTAwJXtiYWNrZ3JvdW5kLXBvc2l0aW9uOjIyMCUgMH19CiAgICAgICAgICAgICAgICAgICAgIEBrZXlmcmFtZXMgd2hiY3R3aW5rbGV7MCUsMTAwJXtvcGFjaXR5Oi4zNTt0cmFuc2Zvcm06c2NhbGUoLjg1KX01MCV7b3BhY2l0eToxO3RyYW5zZm9ybTpzY2FsZSgxLjEpfX1gfTwvc3R5bGU+CiAgICAgICAgICAgIDxkaXYgY2xhc3NOYW1lPSJyZWxhdGl2ZSBmbGV4IGl0ZW1zLWNlbnRlciBnYXAtMi41IHBsLTMgcHItMy41IHB5LTEuNSByb3VuZGVkLWZ1bGwgb3ZlcmZsb3ctaGlkZGVuIGJhY2tkcm9wLWJsdXIteGwiCiAgICAgICAgICAgICAgICBzdHlsZT17ewogICAgICAgICAgICAgICAgICAgIGFuaW1hdGlvbjogJ3doYmNpbiAuNDVzIGN1YmljLWJlemllciguMiwuOSwuMywxLjIpJywKICAgICAgICAgICAgICAgICAgICBiYWNrZ3JvdW5kOiAnbGluZWFyLWdyYWRpZW50KDEwMGRlZywgcmdiYSg1OCw1MywxMDIsLjg1KSwgcmdiYSgzNiwyOSw2OCwuODUpKScsCiAgICAgICAgICAgICAgICAgICAgYm9yZGVyOiAnMXB4IHNvbGlkIHJnYmEoMjAwLDE4MCwyNTUsLjMpJywKICAgICAgICAgICAgICAgICAgICBib3hTaGFkb3c6ICcwIDEwcHggMzBweCByZ2JhKDAsMCwwLC40KSwgaW5zZXQgMCAxcHggMCByZ2JhKDIxMCwxOTUsMjU1LC4xOCksIDAgMCAxOHB4IHJnYmEoMTYwLDEzMCwyMjUsLjIpJywKICAgICAgICAgICAgICAgIH19PgogICAgICAgICAgICAgICAgPGRpdiBjbGFzc05hbWU9ImFic29sdXRlIGluc2V0LTAgcG9pbnRlci1ldmVudHMtbm9uZSIgc3R5bGU9e3sKICAgICAgICAgICAgICAgICAgICBiYWNrZ3JvdW5kOiAnbGluZWFyLWdyYWRpZW50KDEwNWRlZyx0cmFuc3BhcmVudCAzMiUscmdiYSgyMTAsMTk1LDI1NSwuMTgpIDUwJSx0cmFuc3BhcmVudCA2OCUpJywKICAgICAgICAgICAgICAgICAgICBiYWNrZ3JvdW5kU2l6ZTogJzIyMCUgMTAwJScsCiAgICAgICAgICAgICAgICAgICAgYW5pbWF0aW9uOiAnd2hiY3NoaW1tZXIgM3MgbGluZWFyIGluZmluaXRlJywKICAgICAgICAgICAgICAgIH19IC8+CiAgICAgICAgICAgICAgICA8c3BhbiBjbGFzc05hbWU9InJlbGF0aXZlIHRleHQtWzEycHhdIHRleHQtdmlvbGV0LTEwMCIgc3R5bGU9e3sgZmlsdGVyOiAnZHJvcC1zaGFkb3coMCAwIDVweCByZ2JhKDIwMCwxNzAsMjU1LC42KSknIH19PuKMgjwvc3Bhbj4KICAgICAgICAgICAgICAgIDxzcGFuIGNsYXNzTmFtZT0icmVsYXRpdmUgdGV4dC1bMTFweF0gdHJhY2tpbmctWzAuMDNlbV0gdGV4dC13aGl0ZS85MCB3aGl0ZXNwYWNlLW5vd3JhcCBmb250LWxpZ2h0Ij4KICAgICAgICAgICAgICAgICAgICA8c3BhbiBjbGFzc05hbWU9InRleHQtYW1iZXItMjAwLzkwIj7jgIx7Z2VuLndvcmxkTmFtZX3jgI08L3NwYW4+e2xhYmVsfQogICAgICAgICAgICAgICAgPC9zcGFuPgogICAgICAgICAgICAgICAgeyFnZW4uY2hhcHRlciAmJiAoCiAgICAgICAgICAgICAgICAgICAgPHNwYW4gY2xhc3NOYW1lPSJyZWxhdGl2ZSB3LTEyIGgtMSByb3VuZGVkLWZ1bGwgYmctd2hpdGUvMTUgb3ZlcmZsb3ctaGlkZGVuIj4KICAgICAgICAgICAgICAgICAgICAgICAgPHNwYW4gY2xhc3NOYW1lPSJibG9jayBoLWZ1bGwgcm91bmRlZC1mdWxsIHRyYW5zaXRpb24tYWxsIGR1cmF0aW9uLTUwMCIgc3R5bGU9e3sgd2lkdGg6IGAke3BjdH0lYCwgYmFja2dyb3VuZDogJ2xpbmVhci1ncmFkaWVudCg5MGRlZywjYTc4YmZhLCNmMGFiZmMpJyB9fSAvPgogICAgICAgICAgICAgICAgICAgIDwvc3Bhbj4KICAgICAgICAgICAgICAgICl9CiAgICAgICAgICAgICAgICA8c3BhbiBjbGFzc05hbWU9InJlbGF0aXZlIGZsZXggZ2FwLTEiPgogICAgICAgICAgICAgICAgICAgIHtbMCwgMSwgMl0ubWFwKGkgPT4gKAogICAgICAgICAgICAgICAgICAgICAgICA8c3BhbiBrZXk9e2l9IGNsYXNzTmFtZT0idy0xIGgtMSByb3VuZGVkLWZ1bGwgYmctdmlvbGV0LTEwMC84MCIgc3R5bGU9e3sgYW5pbWF0aW9uOiAnd2hiY3R3aW5rbGUgMS40cyBpbmZpbml0ZScsIGFuaW1hdGlvbkRlbGF5OiBgJHtpICogMC4yNX1zYCB9fSAvPgogICAgICAgICAgICAgICAgICAgICkpfQogICAgICAgICAgICAgICAgPC9zcGFuPgogICAgICAgICAgICA8L2Rpdj4KICAgICAgICA8L2Rpdj4KICAgICk7Cn07CgpleHBvcnQgZGVmYXVsdCBXb3JsZEJyb2FkY2FzdDsK
+import React, { useEffect, useRef, useState } from 'react';
+
+/**
+ * 「家园」全局生成喇叭 —— 任意界面都能看到某个世界正在演绎（推进一段 / 结卷）。
+ * 监听 runWorldEpisode 派发的 world-episode-* / world-chapter-* 事件，App 根级挂载。
+ * 与彼方 VRBroadcast 同构，但走家园的淡紫风。
+ */
+interface WorldGen { worldId: string; worldName: string; storyTime?: string; done: number; total: number; charName?: string; chapter?: number; }
+
+const WorldBroadcast: React.FC = () => {
+    const [gen, setGen] = useState<WorldGen | null>(null);
+    const hideTimer = useRef<ReturnType<typeof setTimeout> | null>(null);
+
+    useEffect(() => {
+        const clearHide = () => { if (hideTimer.current) { clearTimeout(hideTimer.current); hideTimer.current = null; } };
+        const onStart = (e: Event) => {
+            const d = (e as CustomEvent).detail || {};
+            clearHide();
+            setGen({ worldId: d.worldId, worldName: d.worldName || '家园', storyTime: d.storyTime, done: 0, total: d.total || 1 });
+        };
+        const onBeat = (e: Event) => {
+            const d = (e as CustomEvent).detail || {};
+            setGen(prev => prev && prev.worldId === d.worldId ? { ...prev, done: d.done ?? prev.done, total: d.total ?? prev.total, charName: d.charName } : prev);
+        };
+        const onChapterStart = (e: Event) => {
+            const d = (e as CustomEvent).detail || {};
+            setGen(prev => prev && prev.worldId === d.worldId ? { ...prev, chapter: d.index } : prev);
+        };
+        const onEnd = (e: Event) => {
+            const id = (e as CustomEvent).detail?.worldId;
+            clearHide();
+            hideTimer.current = setTimeout(() => setGen(prev => (prev && prev.worldId === id ? null : prev)), 1400);
+        };
+        window.addEventListener('world-episode-start', onStart);
+        window.addEventListener('world-beat-done', onBeat);
+        window.addEventListener('world-chapter-start', onChapterStart);
+        window.addEventListener('world-episode-end', onEnd);
+        return () => {
+            window.removeEventListener('world-episode-start', onStart);
+            window.removeEventListener('world-beat-done', onBeat);
+            window.removeEventListener('world-chapter-start', onChapterStart);
+            window.removeEventListener('world-episode-end', onEnd);
+            clearHide();
+        };
+    }, []);
+
+    if (!gen) return null;
+    const pct = Math.round((gen.done / Math.max(1, gen.total)) * 100);
+    const label = gen.chapter
+        ? `结第 ${gen.chapter} 卷总结中…`
+        : gen.charName
+            ? `正在演绎 ${gen.charName} · ${gen.done}/${gen.total}`
+            : '世界引擎运转中…';
+
+    return (
+        <div className="fixed left-1/2 -translate-x-1/2 z-[999] pointer-events-none" style={{ top: 'calc(var(--safe-top) + 6px)' }}>
+            <style>{`@keyframes whbcin{from{opacity:0;transform:translateY(-14px) scale(.96)}to{opacity:1;transform:translateY(0) scale(1)}}
+                     @keyframes whbcshimmer{0%{background-position:-120% 0}100%{background-position:220% 0}}
+                     @keyframes whbctwinkle{0%,100%{opacity:.35;transform:scale(.85)}50%{opacity:1;transform:scale(1.1)}}`}</style>
+            <div className="relative flex items-center gap-2.5 pl-3 pr-3.5 py-1.5 rounded-full overflow-hidden backdrop-blur-xl"
+                style={{
+                    animation: 'whbcin .45s cubic-bezier(.2,.9,.3,1.2)',
+                    background: 'linear-gradient(100deg, rgba(58,53,102,.85), rgba(36,29,68,.85))',
+                    border: '1px solid rgba(200,180,255,.3)',
+                    boxShadow: '0 10px 30px rgba(0,0,0,.4), inset 0 1px 0 rgba(210,195,255,.18), 0 0 18px rgba(160,130,225,.2)',
+                }}>
+                <div className="absolute inset-0 pointer-events-none" style={{
+                    background: 'linear-gradient(105deg,transparent 32%,rgba(210,195,255,.18) 50%,transparent 68%)',
+                    backgroundSize: '220% 100%',
+                    animation: 'whbcshimmer 3s linear infinite',
+                }} />
+                <span className="relative text-[12px] text-violet-100" style={{ filter: 'drop-shadow(0 0 5px rgba(200,170,255,.6))' }}>⌂</span>
+                <span className="relative text-[11px] tracking-[0.03em] text-white/90 whitespace-nowrap font-light">
+                    <span className="text-amber-200/90">「{gen.worldName}」</span>{label}
+                </span>
+                {!gen.chapter && (
+                    <span className="relative w-12 h-1 rounded-full bg-white/15 overflow-hidden">
+                        <span className="block h-full rounded-full transition-all duration-500" style={{ width: `${pct}%`, background: 'linear-gradient(90deg,#a78bfa,#f0abfc)' }} />
+                    </span>
+                )}
+                <span className="relative flex gap-1">
+                    {[0, 1, 2].map(i => (
+                        <span key={i} className="w-1 h-1 rounded-full bg-violet-100/80" style={{ animation: 'whbctwinkle 1.4s infinite', animationDelay: `${i * 0.25}s` }} />
+                    ))}
+                </span>
+            </div>
+        </div>
+    );
+};
+
+export default WorldBroadcast;

@@ -1,1 +1,201 @@
-LyoqCiAqIFdvcmtlclVwZGF0ZVJlbWluZGVyRXZlbnQudHN4CiAqIOWQjuerryAoSW5zdGFudCBQdXNoIFdvcmtlcikg5pu05paw5o+Q6YaS5by556qX44CCCiAqCiAqIOiDjOaZr++8mueUqOaIt+eahCB3b3JrZXIg6LeR5Zyo6Ieq5bex55qEIENsb3VkZmxhcmUg6LSm5oi36YeM77yM55uu5YmN5rKh5rOV5L+d6K+B6Ieq5Yqo6Lef5LiK5ri45ZCM5q2lCiAqICjop4Egd29ya2VyL2luc3RhbnQtcHVzaC9SRUFETUUubWQg6Zi25q61IDIg56ysIDUg5p2h5a2Y55aR6K+05piOKeOAguaJgOS7peavj+asoeaIkeS7rOabtOaWsAogKiB3b3JrZXIg5Luj56CB5bCxIGJ1bXAgdXRpbHMvaW5zdGFudFdvcmtlclZlcnNpb24udHMg6YeM55qEIElOU1RBTlRfV09SS0VSX1ZFUlNJT04sCiAqIOWQr+eUqOS6hiBJbnN0YW50IFB1c2gg55qE55So5oi35Lya6KKr5o+Q6YaS5LiA5qyh77ya5Y676YeN5paw6YOo572yIC8g5ZCM5q2l5LiA5LiLIHdvcmtlcuOAggogKgogKiDlj6rmj5DphpLlkK/nlKjkuoYgSW5zdGFudCBQdXNoIOeahOeUqOaIt++8m+ayoeW8gOeahOS6uuWujOWFqOS4jeWPl+aJk+aJsOOAggogKiDjgIznqI3lkI7lpITnkIbjgI3lj6rotKrnnaEgMyDlpKnvvIjkuI3nrpfnoa7orqTvvInvvJtzdWxseW9zX3dvcmtlcl9idWlsZF9zZWVuIOWPquWcqOeUqOaIt+ecn+atowogKiDpg6jnvbLov4fnmoTor63looPlhpnlhaXvvIjorr7nva7ph4zkv53lrZgv5a+55q+U5LiA6Ie077yJ44CC5ZCv5Yqo5pe255qEIC92ZXJzaW9uIOW8guatpeaOoua1i++8iFBob25lU2hlbGzvvIkKICog6Iul56Gu6K6k6YOo572y55qEIHdvcmtlciDov4fml6fvvIzkvJrmuIXmjokgc2VlbiDph43mlrDmraboo4Xmj5DphpLjgIIKICovCgppbXBvcnQgUmVhY3QsIHsgdXNlU3RhdGUgfSBmcm9tICdyZWFjdCc7CmltcG9ydCB7CiAgbG9hZEluc3RhbnRDb25maWcsCiAgY29weUluc3RhbnRXb3JrZXJCdW5kbGVUb0NsaXBib2FyZCwKICBidWlsZENsb3VkZmxhcmVEYXNoYm9hcmRVcmwsCn0gZnJvbSAnLi4vdXRpbHMvaW5zdGFudFB1c2hDbGllbnQnOwppbXBvcnQgeyBJTlNUQU5UX1dPUktFUl9WRVJTSU9OIH0gZnJvbSAnLi4vdXRpbHMvaW5zdGFudFdvcmtlclZlcnNpb24nOwoKLy8g6K6w5b2V55So5oi344CM5bey56Gu6K6k6L+H55qEIHdvcmtlciDniYjmnKzlj7fjgI3jgIIKY29uc3QgV09SS0VSX1VQREFURV9TRUVOX0tFWSA9ICdzdWxseW9zX3dvcmtlcl9idWlsZF9zZWVuJzsKLy8g44CM56iN5ZCO5aSE55CG44CN55qE6LSq552h5oiq5q2i5pe26Ze05oiz44CC6L+H5Y6744CM56iN5ZCO5aSE55CG44CN55u05o6lIG1hcmtXb3JrZXJCdWlsZFNlZW4g5rC45LmF5Y6L5o6J5o+Q6YaS77yMCi8vIOe7k+aenOS4gOaJueeUqOaIt+eCueWujOWwseWGjeS5n+aDs+S4jei1t+adpeabtOaWsO+8jHdvcmtlciDplb/mnJ/lgZzlnKjml6fniYgg4oCU4oCUIOWJjeerr+aMgee7reiHquWKqOabtOaWsOOAgQovLyB3b3JrZXIg5Y6f5Zyw6LiP5q2l77yMaW5zdGFudCDlkITnp43jgIzml7bngbXml7bkuI3ngbXjgI3nmoTlj43ppojpg73ku47ov5nmnaHmvILnp7vph4zplb/lh7rmnaXjgIIKLy8g546w5Zyo44CM56iN5ZCO5aSE55CG44CN5Y+q6LSq552hIDMg5aSp77yM55u05Yiw55So5oi355yf5q2j6YOo572yICjorr7nva7ph4zkv53lrZgv5a+55q+U5LiA6Ie05omNIG1hcmtTZWVuKeOAggpjb25zdCBXT1JLRVJfVVBEQVRFX1NOT09aRV9LRVkgPSAnc3VsbHlvc193b3JrZXJfdXBkYXRlX3Nub296ZV91bnRpbCc7CgovKioKICog5oqK5b2T5YmNIHdvcmtlciDniYjmnKzmoIforrDkuLrlt7Lnoa7orqTjgILlj6rlnKjnlKjmiLcqKuecn+ato+mDqOe9sui/hyoq55qE6K+t5aKD6LCD55SoCiAqICjorr7nva7ph4zkv53lrZjlkK/nlKjphY3nva4gLyDlr7nmr5Tlt7Lpg6jnvbLkuIDoh7Qp77yM5LiN6KaB5Zyo44CM56iN5ZCO5aSE55CG44CN5pe26LCD44CCCiAqLwpleHBvcnQgY29uc3QgbWFya1dvcmtlckJ1aWxkU2VlbiA9ICgpOiB2b2lkID0+IHsKICB0cnkgewogICAgbG9jYWxTdG9yYWdlLnNldEl0ZW0oV09SS0VSX1VQREFURV9TRUVOX0tFWSwgSU5TVEFOVF9XT1JLRVJfVkVSU0lPTik7CiAgfSBjYXRjaCB7IC8qIGlnbm9yZSAqLyB9Cn07CgovKiog44CM56iN5ZCO5aSE55CG44CN77ya6LSq552hIE4g5aSp5ZCO5YaN5o+Q6YaS77yI6buY6K6kIDMg5aSp77yJ44CCICovCmV4cG9ydCBjb25zdCBzbm9vemVXb3JrZXJVcGRhdGVSZW1pbmRlciA9IChkYXlzID0gMyk6IHZvaWQgPT4gewogIHRyeSB7CiAgICBsb2NhbFN0b3JhZ2Uuc2V0SXRlbShXT1JLRVJfVVBEQVRFX1NOT09aRV9LRVksIFN0cmluZyhEYXRlLm5vdygpICsgZGF5cyAqIDg2XzQwMF8wMDApKTsKICB9IGNhdGNoIHsgLyogaWdub3JlICovIH0KfTsKCi8qKgogKiDph43mlrDmraboo4Xmj5DphpLvvIjmuIXmjonlt7Lnoa7orqTmoIforrDvvInjgILlkK/liqjml7bnmoQgL3ZlcnNpb24g5byC5q2l5o6i5rWL56Gu6K6k44CM6YOo572y55qEIHdvcmtlcgogKiDnoa7lrp7ml6fkuobjgI3ml7bosIPnlKgg4oCU4oCUIOWNs+S9v+eUqOaIt+S7peWJjeehruiupOi/h+i/meS4queJiOacrOWPt++8jOWunumZhemDqOe9sua8guenu+S6huS5n+imgeWGjeaPkOmGkuOAggogKiDotKrnnaHnqpflj6Pku43nhLbnlJ/mlYjvvIzkuI3kvJrov57ml6XovbDngrjjgIIKICovCmV4cG9ydCBjb25zdCByZWFybVdvcmtlclVwZGF0ZVJlbWluZGVyID0gKCk6IHZvaWQgPT4gewogIHRyeSB7CiAgICBsb2NhbFN0b3JhZ2UucmVtb3ZlSXRlbShXT1JLRVJfVVBEQVRFX1NFRU5fS0VZKTsKICB9IGNhdGNoIHsgLyogaWdub3JlICovIH0KfTsKCi8qKgogKiDmmK/lkKbopoHlvLnjgIx3b3JrZXIg5pyJ5pu05paw44CN5o+Q6YaS77yaCiAqICAtIOWPquWvueWQr+eUqOS6hiBJbnN0YW50IFB1c2gg55qE55So5oi35by5CiAqICAtIOi0quedoeeql+WPo+WGheS4jeW8uQogKiAgLSDlt7Lnoa7orqTniYjmnKzkuI7lvZPliY3lhoXnva7niYjmnKzkuI3kuIDoh7TmiY3lvLkgKG51bGwg5Lmf566X5LiN5LiA6Ie0IOKAlOKAlCDogIHnlKjmiLfpppbmrKHpk7ror6Xlip/og73ml7bmj5DphpLkuIDmrKEpCiAqLwpleHBvcnQgY29uc3Qgc2hvdWxkU2hvd1dvcmtlclVwZGF0ZVJlbWluZGVyID0gKCk6IGJvb2xlYW4gPT4gewogIHRyeSB7CiAgICBjb25zdCBjZmcgPSBsb2FkSW5zdGFudENvbmZpZygpOwogICAgaWYgKCFjZmcuZW5hYmxlZCkgcmV0dXJuIGZhbHNlOwogICAgY29uc3Qgc25vb3plVW50aWwgPSBOdW1iZXIobG9jYWxTdG9yYWdlLmdldEl0ZW0oV09SS0VSX1VQREFURV9TTk9PWkVfS0VZKSB8fCAwKTsKICAgIGlmIChEYXRlLm5vdygpIDwgc25vb3plVW50aWwpIHJldHVybiBmYWxzZTsKICAgIGNvbnN0IHNlZW4gPSBsb2NhbFN0b3JhZ2UuZ2V0SXRlbShXT1JLRVJfVVBEQVRFX1NFRU5fS0VZKTsKICAgIHJldHVybiBzZWVuICE9PSBJTlNUQU5UX1dPUktFUl9WRVJTSU9OOwogIH0gY2F0Y2ggewogICAgcmV0dXJuIGZhbHNlOwogIH0KfTsKCmludGVyZmFjZSBXb3JrZXJVcGRhdGVSZW1pbmRlclBvcHVwUHJvcHMgewogIG9uQ2xvc2U6ICgpID0+IHZvaWQ7Cn0KCmV4cG9ydCBjb25zdCBXb3JrZXJVcGRhdGVSZW1pbmRlclBvcHVwOiBSZWFjdC5GQzxXb3JrZXJVcGRhdGVSZW1pbmRlclBvcHVwUHJvcHM+ID0gKHsgb25DbG9zZSB9KSA9PiB7CiAgY29uc3QgW2NvcHlTdGF0dXMsIHNldENvcHlTdGF0dXNdID0gdXNlU3RhdGU8J2lkbGUnIHwgJ2xvYWRpbmcnIHwgJ2RvbmUnIHwgJ2Vycm9yJz4oJ2lkbGUnKTsKICBjb25zdCBbY29weUVycm9yLCBzZXRDb3B5RXJyb3JdID0gdXNlU3RhdGUoJycpOwoKICBjb25zdCBjZmcgPSBsb2FkSW5zdGFudENvbmZpZygpOwogIGNvbnN0IGRhc2hib2FyZFVybCA9IGJ1aWxkQ2xvdWRmbGFyZURhc2hib2FyZFVybChjZmcud29ya2VyVXJsKTsKICAvLyB3b3JrZXJzLmRldiDlrZDln5/miY3og73mjqjlh7rnoa7liIfnmoQgd29ya2VyIG5hbWU7IOiHquWumuS5ieWfnyAvIOWPjeS7o+mAgOWMluaIkCB3b3JrZXJzIOWIl+ihqOmhteOAggogIGNvbnN0IGRhc2hib2FyZExhYmVsID0gZGFzaGJvYXJkVXJsLmluY2x1ZGVzKCcvc2VydmljZXMvdmlldy8nKQogICAgPyAn5omT5byA5oiR55qEIFdvcmtlcicKICAgIDogJ+aJk+W8gCBXb3JrZXIg5YiX6KGoJzsKCiAgY29uc3QgaGFuZGxlQ29weSA9IGFzeW5jICgpID0+IHsKICAgIHNldENvcHlTdGF0dXMoJ2xvYWRpbmcnKTsKICAgIHRyeSB7CiAgICAgIGF3YWl0IGNvcHlJbnN0YW50V29ya2VyQnVuZGxlVG9DbGlwYm9hcmQoKTsKICAgICAgc2V0Q29weVN0YXR1cygnZG9uZScpOwogICAgICBzZXRUaW1lb3V0KCgpID0+IHNldENvcHlTdGF0dXMoKHMpID0+IChzID09PSAnZG9uZScgPyAnaWRsZScgOiBzKSksIDI1MDApOwogICAgfSBjYXRjaCAoZSkgewogICAgICBjb25zdCBlcnIgPSBlIGFzIHsgbWVzc2FnZT86IHN0cmluZyB9IHwgbnVsbDsKICAgICAgc2V0Q29weUVycm9yKGVycj8ubWVzc2FnZSA/PyAn5pyq55+l6ZSZ6K+vJyk7CiAgICAgIHNldENvcHlTdGF0dXMoJ2Vycm9yJyk7CiAgICB9CiAgfTsKCiAgY29uc3QgaGFuZGxlT3BlbldvcmtlciA9ICgpID0+IHsKICAgIC8vIOS4jeWcqOi/memHjCBtYXJrV29ya2VyQnVpbGRTZWVuIOKAlOKAlCDnlKjmiLflj6/og73lj6rmmK/lhYjmiZPlvIAgZGFzaGJvYXJkLCDov5jmsqHnnJ/nspjotLTpg6jnvbLjgIIKICAgIC8vIOetieS7luWGjeasoeWbnuadpeWPkSLlr7nmr5Tlt7Lpg6jnvbIi5pe26Iul5LiA6Ie0LCDpgqPkuKrmtYHnqIvkvJrpobrlhbboh6rnhLbkuI3lho3op6blj5Hmj5DphpLjgIIKICAgIHdpbmRvdy5vcGVuKGRhc2hib2FyZFVybCwgJ19ibGFuaycsICdub29wZW5lcixub3JlZmVycmVyJyk7CiAgfTsKCiAgY29uc3QgaGFuZGxlTGF0ZXIgPSAoKSA9PiB7CiAgICAvLyDlj6rotKrnnaEsIOS4jSBtYXJrU2VlbiDigJTigJQg5ZCm5YiZ55So5oi354K55a6M5bCx5rC46L+c5oOz5LiN6LW35p2l5pu05pawLCB3b3JrZXIg6ZW/5pyf5ryC5Zyo5pen54mICiAgICBzbm9vemVXb3JrZXJVcGRhdGVSZW1pbmRlcigpOwogICAgb25DbG9zZSgpOwogIH07CgogIGNvbnN0IGNvcHlCdXR0b25MYWJlbCA9IGNvcHlTdGF0dXMgPT09ICdsb2FkaW5nJwogICAgPyAn5aSN5Yi25Lit4oCmJwogICAgOiBjb3B5U3RhdHVzID09PSAnZG9uZScKICAgICAgPyAn4pyTIOW3suWkjeWIticKICAgICAgOiBjb3B5U3RhdHVzID09PSAnZXJyb3InCiAgICAgICAgPyAn6YeN6K+V5aSN5Yi2JwogICAgICAgIDogJ+WkjeWItuacgOaWsOS7o+eggSc7CgogIHJldHVybiAoCiAgICA8ZGl2IGNsYXNzTmFtZT0iZml4ZWQgaW5zZXQtMCB6LVs5OTk4XSBmbGV4IGl0ZW1zLWNlbnRlciBqdXN0aWZ5LWNlbnRlciBwLTUgYW5pbWF0ZS1mYWRlLWluIj4KICAgICAgPGRpdiBjbGFzc05hbWU9ImFic29sdXRlIGluc2V0LTAgYmctYmxhY2svNjAgYmFja2Ryb3AtYmx1ci1tZCIgLz4KICAgICAgPGRpdiBjbGFzc05hbWU9InJlbGF0aXZlIHctZnVsbCBtYXgtdy1zbSBiZy13aGl0ZS85NSBiYWNrZHJvcC1ibHVyLXhsIHJvdW5kZWQtWzIuNXJlbV0gc2hhZG93LTJ4bCBib3JkZXIgYm9yZGVyLXdoaXRlLzMwIG92ZXJmbG93LWhpZGRlbiBhbmltYXRlLXNsaWRlLXVwIj4KICAgICAgICA8ZGl2IGNsYXNzTmFtZT0icHQtNyBwYi0zIHB4LTYgdGV4dC1jZW50ZXIiPgogICAgICAgICAgPGltZwogICAgICAgICAgICBzcmM9Imh0dHBzOi8vY2RuanMuY2xvdWRmbGFyZS5jb20vYWpheC9saWJzL3R3ZW1vamkvMTQuMC4yLzcyeDcyLzFmNmUwLnBuZyIKICAgICAgICAgICAgYWx0PSJ3b3JrZXIgdXBkYXRlIgogICAgICAgICAgICBjbGFzc05hbWU9InctMTAgaC0xMCBteC1hdXRvIG1iLTIiCiAgICAgICAgICAvPgogICAgICAgICAgPGgyIGNsYXNzTmFtZT0idGV4dC1sZyBmb250LWV4dHJhYm9sZCB0ZXh0LXNsYXRlLTgwMCI+V29ya2VyIOWQjuerr+acieabtOaWsDwvaDI+CiAgICAgICAgICA8cCBjbGFzc05hbWU9InRleHQtWzExcHhdIHRleHQtc2xhdGUtNDAwIG10LTEiPuacgOaWsOeJiOacrCB7SU5TVEFOVF9XT1JLRVJfVkVSU0lPTn0gwrcgSW5zdGFudCBQdXNoPC9wPgogICAgICAgIDwvZGl2PgoKICAgICAgICA8ZGl2IGNsYXNzTmFtZT0icHgtNiBwYi00IHNwYWNlLXktMyI+CiAgICAgICAgICA8ZGl2IGNsYXNzTmFtZT0iYmctZ3JhZGllbnQtdG8tYnIgZnJvbS1pbmRpZ28tNTAgdG8tc2t5LTUwIGJvcmRlciBib3JkZXItaW5kaWdvLTEwMCByb3VuZGVkLTJ4bCBwLTQgc3BhY2UteS0yIj4KICAgICAgICAgICAgPHAgY2xhc3NOYW1lPSJ0ZXh0LVsxM3B4XSB0ZXh0LXNsYXRlLTcwMCBsZWFkaW5nLXJlbGF4ZWQiPgogICAgICAgICAgICAgIOaOqOmAgSB3b3JrZXIg5pyJ5paw54mI5pys77yM6ZyA6KaB5L2g5ZCM5q2l5LiA5LiL77yaCiAgICAgICAgICAgIDwvcD4KICAgICAgICAgICAgPHAgY2xhc3NOYW1lPSJ0ZXh0LVsxMnB4XSB0ZXh0LXNsYXRlLTYwMCBsZWFkaW5nLXJlbGF4ZWQiPgogICAgICAgICAgICAgIDxzdHJvbmc+RGVubyDpg6jnvbI8L3N0cm9uZz7vvJrov5sgUGxheWdyb3VuZCDph43mlrDpg6jnvbLkuIDmrKHvvIjkv53lrZjljbPlj6/vvInvvIxsb2FkZXIg5Lya6Ieq5Yqo5ouJ5Yiw5pyA5paw5Luj56CB44CCCiAgICAgICAgICAgIDwvcD4KICAgICAgICAgICAgPHAgY2xhc3NOYW1lPSJ0ZXh0LVsxMnB4XSB0ZXh0LXNsYXRlLTYwMCBsZWFkaW5nLXJlbGF4ZWQiPjxzdHJvbmc+Q2xvdWRmbGFyZSDpg6jnvbI8L3N0cm9uZz7vvJo8L3A+CiAgICAgICAgICAgIDxvbCBjbGFzc05hbWU9InRleHQtWzEycHhdIHRleHQtc2xhdGUtNjAwIGxlYWRpbmctcmVsYXhlZCBsaXN0LWRlY2ltYWwgcGwtNSBzcGFjZS15LTAuNSI+CiAgICAgICAgICAgICAgPGxpPueCueS4i+mdouOAjOWkjeWItuacgOaWsOS7o+eggeOAjTwvbGk+CiAgICAgICAgICAgICAgPGxpPuaJk+W8gOS9oOeahCBDbG91ZGZsYXJlIHdvcmtlciDnvJbovpHnlYzpnaI8L2xpPgogICAgICAgICAgICAgIDxsaT7lhajpgInnspjotLTopobnm5bvvIzngrkgRGVwbG95PC9saT4KICAgICAgICAgICAgPC9vbD4KICAgICAgICAgICAgPHAgY2xhc3NOYW1lPSJ0ZXh0LVsxMXB4XSB0ZXh0LXNsYXRlLTUwMCBsZWFkaW5nLXJlbGF4ZWQgcHQtMSI+CiAgICAgICAgICAgICAg5aaC5p6c5LiN5pa55L6/546w5Zyo5aSE55CG77yM5paw5Luj56CB5Lmf5bey57uP5ZCM5q2l5Yiw44CM6K6+572uIOKGkiBJbnN0YW50IOa2iOaBr+iuvue9ruOAjemHjO+8jAogICAgICAgICAgICAgIOmaj+aXtuaMieaPkOekuuaTjeS9nOWNs+WPr+OAggogICAgICAgICAgICA8L3A+CiAgICAgICAgICAgIHtjb3B5U3RhdHVzID09PSAnZXJyb3InICYmICgKICAgICAgICAgICAgICA8cCBjbGFzc05hbWU9InRleHQtWzExcHhdIHRleHQtcm9zZS01MDAgbGVhZGluZy1yZWxheGVkIj7lpI3liLblpLHotKXvvJp7Y29weUVycm9yfTwvcD4KICAgICAgICAgICAgKX0KICAgICAgICAgIDwvZGl2PgogICAgICAgIDwvZGl2PgoKICAgICAgICA8ZGl2IGNsYXNzTmFtZT0icHgtNiBwYi03IHB0LTIgc3BhY2UteS0yIj4KICAgICAgICAgIDxidXR0b24KICAgICAgICAgICAgb25DbGljaz17KCkgPT4gdm9pZCBoYW5kbGVDb3B5KCl9CiAgICAgICAgICAgIGRpc2FibGVkPXtjb3B5U3RhdHVzID09PSAnbG9hZGluZyd9CiAgICAgICAgICAgIGNsYXNzTmFtZT17YHctZnVsbCBweS0zLjUgZm9udC1ib2xkIHJvdW5kZWQtMnhsIHRleHQtc20gdHJhbnNpdGlvbi10cmFuc2Zvcm0gYWN0aXZlOnNjYWxlLTk1ICR7CiAgICAgICAgICAgICAgY29weVN0YXR1cyA9PT0gJ2RvbmUnCiAgICAgICAgICAgICAgICA/ICdiZy1lbWVyYWxkLTUwMCB0ZXh0LXdoaXRlJwogICAgICAgICAgICAgICAgOiAnYmctZ3JhZGllbnQtdG8tciBmcm9tLWluZGlnby01MDAgdG8tc2t5LTUwMCB0ZXh0LXdoaXRlIHNoYWRvdy1sZyBzaGFkb3ctaW5kaWdvLTIwMCcKICAgICAgICAgICAgfWB9CiAgICAgICAgICA+CiAgICAgICAgICAgIHtjb3B5QnV0dG9uTGFiZWx9CiAgICAgICAgICA8L2J1dHRvbj4KICAgICAgICAgIDxidXR0b24KICAgICAgICAgICAgb25DbGljaz17aGFuZGxlT3Blbldvcmtlcn0KICAgICAgICAgICAgY2xhc3NOYW1lPSJ3LWZ1bGwgcHktMyBiZy13aGl0ZSBib3JkZXIgYm9yZGVyLXNsYXRlLTIwMCB0ZXh0LXNsYXRlLTcwMCBmb250LWJvbGQgcm91bmRlZC0yeGwgdGV4dC1zbSBhY3RpdmU6c2NhbGUtOTUgdHJhbnNpdGlvbi10cmFuc2Zvcm0iCiAgICAgICAgICA+CiAgICAgICAgICAgIOKGlyB7ZGFzaGJvYXJkTGFiZWx9CiAgICAgICAgICA8L2J1dHRvbj4KICAgICAgICAgIDxidXR0b24KICAgICAgICAgICAgb25DbGljaz17aGFuZGxlTGF0ZXJ9CiAgICAgICAgICAgIGNsYXNzTmFtZT0idy1mdWxsIHB5LTIuNSB0ZXh0LXNsYXRlLTQwMCBmb250LW1lZGl1bSB0ZXh0LVsxMnB4XSIKICAgICAgICAgID4KICAgICAgICAgICAg56iN5ZCO5aSE55CGCiAgICAgICAgICA8L2J1dHRvbj4KICAgICAgICA8L2Rpdj4KICAgICAgPC9kaXY+CiAgICA8L2Rpdj4KICApOwp9OwoKaW50ZXJmYWNlIFdvcmtlclVwZGF0ZVJlbWluZGVyQ29udHJvbGxlclByb3BzIHsKICBvbkNsb3NlOiAoKSA9PiB2b2lkOwp9CgpleHBvcnQgY29uc3QgV29ya2VyVXBkYXRlUmVtaW5kZXJDb250cm9sbGVyOiBSZWFjdC5GQzxXb3JrZXJVcGRhdGVSZW1pbmRlckNvbnRyb2xsZXJQcm9wcz4gPSAoeyBvbkNsb3NlIH0pID0+IHsKICByZXR1cm4gPFdvcmtlclVwZGF0ZVJlbWluZGVyUG9wdXAgb25DbG9zZT17b25DbG9zZX0gLz47Cn07Cg==
+/**
+ * WorkerUpdateReminderEvent.tsx
+ * 后端 (Instant Push Worker) 更新提醒弹窗。
+ *
+ * 背景：用户的 worker 跑在自己的 Cloudflare 账户里，目前没法保证自动跟上游同步
+ * (见 worker/instant-push/README.md 阶段 2 第 5 条存疑说明)。所以每次我们更新
+ * worker 代码就 bump utils/instantWorkerVersion.ts 里的 INSTANT_WORKER_VERSION,
+ * 启用了 Instant Push 的用户会被提醒一次：去重新部署 / 同步一下 worker。
+ *
+ * 只提醒启用了 Instant Push 的用户；没开的人完全不受打扰。
+ * 「稍后处理」只贪睡 3 天（不算确认）；sullyos_worker_build_seen 只在用户真正
+ * 部署过的语境写入（设置里保存/对比一致）。启动时的 /version 异步探测（PhoneShell）
+ * 若确认部署的 worker 过旧，会清掉 seen 重新武装提醒。
+ */
+
+import React, { useState } from 'react';
+import {
+  loadInstantConfig,
+  copyInstantWorkerBundleToClipboard,
+  buildCloudflareDashboardUrl,
+} from '../utils/instantPushClient';
+import { INSTANT_WORKER_VERSION } from '../utils/instantWorkerVersion';
+
+// 记录用户「已确认过的 worker 版本号」。
+const WORKER_UPDATE_SEEN_KEY = 'sullyos_worker_build_seen';
+// 「稍后处理」的贪睡截止时间戳。过去「稍后处理」直接 markWorkerBuildSeen 永久压掉提醒，
+// 结果一批用户点完就再也想不起来更新，worker 长期停在旧版 —— 前端持续自动更新、
+// worker 原地踏步，instant 各种「时灵时不灵」的反馈都从这条漂移里长出来。
+// 现在「稍后处理」只贪睡 3 天，直到用户真正部署 (设置里保存/对比一致才 markSeen)。
+const WORKER_UPDATE_SNOOZE_KEY = 'sullyos_worker_update_snooze_until';
+
+/**
+ * 把当前 worker 版本标记为已确认。只在用户**真正部署过**的语境调用
+ * (设置里保存启用配置 / 对比已部署一致)，不要在「稍后处理」时调。
+ */
+export const markWorkerBuildSeen = (): void => {
+  try {
+    localStorage.setItem(WORKER_UPDATE_SEEN_KEY, INSTANT_WORKER_VERSION);
+  } catch { /* ignore */ }
+};
+
+/** 「稍后处理」：贪睡 N 天后再提醒（默认 3 天）。 */
+export const snoozeWorkerUpdateReminder = (days = 3): void => {
+  try {
+    localStorage.setItem(WORKER_UPDATE_SNOOZE_KEY, String(Date.now() + days * 86_400_000));
+  } catch { /* ignore */ }
+};
+
+/**
+ * 重新武装提醒（清掉已确认标记）。启动时的 /version 异步探测确认「部署的 worker
+ * 确实旧了」时调用 —— 即使用户以前确认过这个版本号，实际部署漂移了也要再提醒。
+ * 贪睡窗口仍然生效，不会连日轰炸。
+ */
+export const rearmWorkerUpdateReminder = (): void => {
+  try {
+    localStorage.removeItem(WORKER_UPDATE_SEEN_KEY);
+  } catch { /* ignore */ }
+};
+
+/**
+ * 是否要弹「worker 有更新」提醒：
+ *  - 只对启用了 Instant Push 的用户弹
+ *  - 贪睡窗口内不弹
+ *  - 已确认版本与当前内置版本不一致才弹 (null 也算不一致 —— 老用户首次铺该功能时提醒一次)
+ */
+export const shouldShowWorkerUpdateReminder = (): boolean => {
+  try {
+    const cfg = loadInstantConfig();
+    if (!cfg.enabled) return false;
+    const snoozeUntil = Number(localStorage.getItem(WORKER_UPDATE_SNOOZE_KEY) || 0);
+    if (Date.now() < snoozeUntil) return false;
+    const seen = localStorage.getItem(WORKER_UPDATE_SEEN_KEY);
+    return seen !== INSTANT_WORKER_VERSION;
+  } catch {
+    return false;
+  }
+};
+
+interface WorkerUpdateReminderPopupProps {
+  onClose: () => void;
+}
+
+export const WorkerUpdateReminderPopup: React.FC<WorkerUpdateReminderPopupProps> = ({ onClose }) => {
+  const [copyStatus, setCopyStatus] = useState<'idle' | 'loading' | 'done' | 'error'>('idle');
+  const [copyError, setCopyError] = useState('');
+
+  const cfg = loadInstantConfig();
+  const dashboardUrl = buildCloudflareDashboardUrl(cfg.workerUrl);
+  // workers.dev 子域才能推出确切的 worker name; 自定义域 / 反代退化成 workers 列表页。
+  const dashboardLabel = dashboardUrl.includes('/services/view/')
+    ? '打开我的 Worker'
+    : '打开 Worker 列表';
+
+  const handleCopy = async () => {
+    setCopyStatus('loading');
+    try {
+      await copyInstantWorkerBundleToClipboard();
+      setCopyStatus('done');
+      setTimeout(() => setCopyStatus((s) => (s === 'done' ? 'idle' : s)), 2500);
+    } catch (e) {
+      const err = e as { message?: string } | null;
+      setCopyError(err?.message ?? '未知错误');
+      setCopyStatus('error');
+    }
+  };
+
+  const handleOpenWorker = () => {
+    // 不在这里 markWorkerBuildSeen —— 用户可能只是先打开 dashboard, 还没真粘贴部署。
+    // 等他再次回来发"对比已部署"时若一致, 那个流程会顺其自然不再触发提醒。
+    window.open(dashboardUrl, '_blank', 'noopener,noreferrer');
+  };
+
+  const handleLater = () => {
+    // 只贪睡, 不 markSeen —— 否则用户点完就永远想不起来更新, worker 长期漂在旧版
+    snoozeWorkerUpdateReminder();
+    onClose();
+  };
+
+  const copyButtonLabel = copyStatus === 'loading'
+    ? '复制中…'
+    : copyStatus === 'done'
+      ? '✓ 已复制'
+      : copyStatus === 'error'
+        ? '重试复制'
+        : '复制最新代码';
+
+  return (
+    <div className="fixed inset-0 z-[9998] flex items-center justify-center p-5 animate-fade-in">
+      <div className="absolute inset-0 bg-black/60 backdrop-blur-md" />
+      <div className="relative w-full max-w-sm bg-white/95 backdrop-blur-xl rounded-[2.5rem] shadow-2xl border border-white/30 overflow-hidden animate-slide-up">
+        <div className="pt-7 pb-3 px-6 text-center">
+          <img
+            src="https://cdnjs.cloudflare.com/ajax/libs/twemoji/14.0.2/72x72/1f6e0.png"
+            alt="worker update"
+            className="w-10 h-10 mx-auto mb-2"
+          />
+          <h2 className="text-lg font-extrabold text-slate-800">Worker 后端有更新</h2>
+          <p className="text-[11px] text-slate-400 mt-1">最新版本 {INSTANT_WORKER_VERSION} · Instant Push</p>
+        </div>
+
+        <div className="px-6 pb-4 space-y-3">
+          <div className="bg-gradient-to-br from-indigo-50 to-sky-50 border border-indigo-100 rounded-2xl p-4 space-y-2">
+            <p className="text-[13px] text-slate-700 leading-relaxed">
+              推送 worker 有新版本，需要你同步一下：
+            </p>
+            <p className="text-[12px] text-slate-600 leading-relaxed">
+              <strong>Deno 部署</strong>：进 Playground 重新部署一次（保存即可），loader 会自动拉到最新代码。
+            </p>
+            <p className="text-[12px] text-slate-600 leading-relaxed"><strong>Cloudflare 部署</strong>：</p>
+            <ol className="text-[12px] text-slate-600 leading-relaxed list-decimal pl-5 space-y-0.5">
+              <li>点下面「复制最新代码」</li>
+              <li>打开你的 Cloudflare worker 编辑界面</li>
+              <li>全选粘贴覆盖，点 Deploy</li>
+            </ol>
+            <p className="text-[11px] text-slate-500 leading-relaxed pt-1">
+              如果不方便现在处理，新代码也已经同步到「设置 → Instant 消息设置」里，
+              随时按提示操作即可。
+            </p>
+            {copyStatus === 'error' && (
+              <p className="text-[11px] text-rose-500 leading-relaxed">复制失败：{copyError}</p>
+            )}
+          </div>
+        </div>
+
+        <div className="px-6 pb-7 pt-2 space-y-2">
+          <button
+            onClick={() => void handleCopy()}
+            disabled={copyStatus === 'loading'}
+            className={`w-full py-3.5 font-bold rounded-2xl text-sm transition-transform active:scale-95 ${
+              copyStatus === 'done'
+                ? 'bg-emerald-500 text-white'
+                : 'bg-gradient-to-r from-indigo-500 to-sky-500 text-white shadow-lg shadow-indigo-200'
+            }`}
+          >
+            {copyButtonLabel}
+          </button>
+          <button
+            onClick={handleOpenWorker}
+            className="w-full py-3 bg-white border border-slate-200 text-slate-700 font-bold rounded-2xl text-sm active:scale-95 transition-transform"
+          >
+            ↗ {dashboardLabel}
+          </button>
+          <button
+            onClick={handleLater}
+            className="w-full py-2.5 text-slate-400 font-medium text-[12px]"
+          >
+            稍后处理
+          </button>
+        </div>
+      </div>
+    </div>
+  );
+};
+
+interface WorkerUpdateReminderControllerProps {
+  onClose: () => void;
+}
+
+export const WorkerUpdateReminderController: React.FC<WorkerUpdateReminderControllerProps> = ({ onClose }) => {
+  return <WorkerUpdateReminderPopup onClose={onClose} />;
+};

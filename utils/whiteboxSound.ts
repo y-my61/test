@@ -1,1 +1,224 @@
-Ly8g55m95qGG44CM5o+Q56S66Z+z44CN5aOw5piO5byP5aOw6Z+z5bGC44CCCi8vCi8vIOiuvuiuoeimgeeCue+8iOingeWIhuaUryBjaGF0YXBwLXdoaXRlYm94LWpzLXltcGszOe+8ie+8mgovLyAtIOeZveahhuS4gOebtOaYryBDU1Mtb25seSDnmoTlj6/liIbkuqvnmq7ogqTns7vnu5/vvIzpnaAi5LiN5omn6KGM5Lu75L2V6ISa5pysIuadpeS/neivgeWvvOWFpemZjOeUn+S6uuWIhuS6q+eggeaXtueahOWuieWFqOOAggovLyAgIOS4uuS6huS4jeegtOWdj+i/meS4quaKpOagj++8jOaPkOekuumfsyoq5LiN57uZ55So5oi3IEpTKirvvIzogIzmmK/miorlo7Dpn7PphY3nva7lo7DmmI7miJAgQ1NTIOmHjOeahOS4gOauteeJueauiuazqOmHiu+8mgovLyAgICAgLyogQHN1bGx5LXNvdW5kIHsic3JjIjoiY2hpbWUiLCJ2b2x1bWUiOjAuNn0gKi8KLy8gICDmkq3mlL7nlLHmnKzmqKHlnZfvvIjlj6/kv6Hku6PnoIHvvInmiafooYzvvIznlKjmiLflj6rmmK/loavmlbDmja7jgIIKLy8gLSDov5nmrrXms6jph4rlpKnnhLbot5/nnYDnmb3moYbnmoTmiYDmnInliIbkuqvpgJrpgZPotbDvvIjljZXop5LoibIgY2hyb21lQ3VzdG9tQ3NzIC8g5YWo5bGAIGNoYXRDaHJvbWVDdXN0b21Dc3MgLwovLyAgIFNVTExZQ1NTMSDpooTorr7lr7zlh7rnoIEgLyBUWFQg5a+85Ye677yJ77yM5Zug5Li66L+Z5Lqb6YCa6YGT6YO95oqKIENTUyDlvZPkuI3pgI/mmI7lrZfnrKbkuLLmkKzov5DvvIzkuI3op6PmnpDjgIHkuI3muIXmtJfms6jph4rjgIIKLy8gLSDmtY/op4jlmajlv73nlaUgQ1NTIOazqOmHiu+8jOaJgOS7peWvuea4suafk+mbtuW9seWTjeOAgeWvueiAgeeZveahhuWujOWFqOWQkeWQjuWFvOWuueOAggovLyAtIOWGhee9rumfs+aViOeUqCBXZWJBdWRpbyDnjrDlnLrlkIjmiJDvvIjml6Dpn7PpopHmlofku7bjgIHliIbkuqvnoIHph4zlj6rlrZjkuIDkuKrnn60ga2V577yM5L2T56ev5p6B5bCP77yJ77yb5Lmf5pSv5oyB6Ieq5a6a5LmJ6Z+z6aKRIFVSTOOAggoKZXhwb3J0IGludGVyZmFjZSBXaGl0ZWJveFNvdW5kIHsKICAgIC8qKiDlhoXnva7pn7PmlYgga2V577yI6KeBIEJVSUxUSU5fU09VTkRT77yJ44CBJ25vbmUn77yI5pi+5byP6Z2Z6Z+z77yM55So5LqO6KeS6Imy6KaG55uW5YWo5bGA77yJ44CB5oiW6Ieq5a6a5LmJ6Z+z6aKR55u06ZO+IFVSTOOAgiAqLwogICAgc3JjOiBzdHJpbmc7CiAgICAvKiog6Z+z6YePIDB+Me+8jOm7mOiupCAwLjbjgIIgKi8KICAgIHZvbHVtZT86IG51bWJlcjsKfQoKLy8g5YaF572u6Z+z5pWI77ya5q+P5Liq5piv5LiA5LiyIumfs+espiLvvIznlKggV2ViQXVkaW8g546w5Zy65ZCI5oiQ44CCZnJlcT3popHnjocoSHop77yMYXQ955u45a+56LW354K5KOenkinvvIxkdXI95pe26ZW/KOenkinvvIwKLy8gdHlwZT3ms6LlvaLvvIxnYWluPeivpemfs+ebuOWvuemfs+mHj+OAguWIu+aEj+WBmuW+l+efreOAgei9u+OAgeS4jeWIuuiAs++8iOenu+WKqOerr+aPkOekuumfs+WcuuaZr++8ieOAggp0eXBlIE5vdGUgPSB7IGZyZXE6IG51bWJlcjsgYXQ6IG51bWJlcjsgZHVyOiBudW1iZXI7IHR5cGU/OiBPc2NpbGxhdG9yVHlwZTsgZ2Fpbj86IG51bWJlciB9OwoKaW50ZXJmYWNlIEJ1aWx0aW5Tb3VuZCB7CiAgICBsYWJlbDogc3RyaW5nOwogICAgbm90ZXM6IE5vdGVbXTsKfQoKZXhwb3J0IGNvbnN0IEJVSUxUSU5fU09VTkRTOiBSZWNvcmQ8c3RyaW5nLCBCdWlsdGluU291bmQ+ID0gewogICAgY2hpbWU6IHsKICAgICAgICBsYWJlbDogJ+mjjumTgycsCiAgICAgICAgbm90ZXM6IFsKICAgICAgICAgICAgeyBmcmVxOiAxMDQ2LjUsIGF0OiAwLCBkdXI6IDAuNSwgdHlwZTogJ3NpbmUnLCBnYWluOiAwLjYgfSwKICAgICAgICAgICAgeyBmcmVxOiAxNTY4LjAsIGF0OiAwLjA5LCBkdXI6IDAuNiwgdHlwZTogJ3NpbmUnLCBnYWluOiAwLjQ1IH0sCiAgICAgICAgXSwKICAgIH0sCiAgICBkaW5nOiB7CiAgICAgICAgbGFiZWw6ICflj64nLAogICAgICAgIG5vdGVzOiBbCiAgICAgICAgICAgIHsgZnJlcTogODgwLCBhdDogMCwgZHVyOiAwLjQ1LCB0eXBlOiAnc2luZScsIGdhaW46IDAuNyB9LAogICAgICAgICAgICB7IGZyZXE6IDE3NjAsIGF0OiAwLCBkdXI6IDAuMjgsIHR5cGU6ICdzaW5lJywgZ2FpbjogMC4xOCB9LAogICAgICAgIF0sCiAgICB9LAogICAgcG9wOiB7CiAgICAgICAgbGFiZWw6ICfmsJTms6EnLAogICAgICAgIG5vdGVzOiBbCiAgICAgICAgICAgIHsgZnJlcTogNDIwLCBhdDogMCwgZHVyOiAwLjA5LCB0eXBlOiAndHJpYW5nbGUnLCBnYWluOiAwLjcgfSwKICAgICAgICAgICAgeyBmcmVxOiA3ODAsIGF0OiAwLjA1LCBkdXI6IDAuMTIsIHR5cGU6ICdzaW5lJywgZ2FpbjogMC42IH0sCiAgICAgICAgXSwKICAgIH0sCiAgICBjcnlzdGFsOiB7CiAgICAgICAgbGFiZWw6ICfmsLTmmbYnLAogICAgICAgIG5vdGVzOiBbCiAgICAgICAgICAgIHsgZnJlcTogMTMxOC41LCBhdDogMCwgZHVyOiAwLjMyLCB0eXBlOiAnc2luZScsIGdhaW46IDAuNSB9LAogICAgICAgICAgICB7IGZyZXE6IDE3NjAuMCwgYXQ6IDAuMDgsIGR1cjogMC4zMiwgdHlwZTogJ3NpbmUnLCBnYWluOiAwLjQgfSwKICAgICAgICAgICAgeyBmcmVxOiAyMDkzLjAsIGF0OiAwLjE2LCBkdXI6IDAuNCwgdHlwZTogJ3NpbmUnLCBnYWluOiAwLjMyIH0sCiAgICAgICAgXSwKICAgIH0sCiAgICBoZWFydDogewogICAgICAgIGxhYmVsOiAn5b+D6LezJywKICAgICAgICBub3RlczogWwogICAgICAgICAgICB7IGZyZXE6IDE3NCwgYXQ6IDAsIGR1cjogMC4xOCwgdHlwZTogJ3NpbmUnLCBnYWluOiAwLjkgfSwKICAgICAgICAgICAgeyBmcmVxOiAxNzQsIGF0OiAwLjI0LCBkdXI6IDAuMjIsIHR5cGU6ICdzaW5lJywgZ2FpbjogMC43IH0sCiAgICAgICAgXSwKICAgIH0sCiAgICByZXRybzogewogICAgICAgIGxhYmVsOiAn5YOP57SgJywKICAgICAgICBub3RlczogWwogICAgICAgICAgICB7IGZyZXE6IDY2MCwgYXQ6IDAsIGR1cjogMC4wNywgdHlwZTogJ3NxdWFyZScsIGdhaW46IDAuMjggfSwKICAgICAgICAgICAgeyBmcmVxOiA5OTAsIGF0OiAwLjA4LCBkdXI6IDAuMSwgdHlwZTogJ3NxdWFyZScsIGdhaW46IDAuMjggfSwKICAgICAgICBdLAogICAgfSwKfTsKCmV4cG9ydCBjb25zdCBCVUlMVElOX1NPVU5EX0tFWVMgPSBPYmplY3Qua2V5cyhCVUlMVElOX1NPVU5EUyk7Cgpjb25zdCBjbGFtcFZvbHVtZSA9ICh2OiB1bmtub3duKTogbnVtYmVyID0+IHsKICAgIGNvbnN0IG4gPSB0eXBlb2YgdiA9PT0gJ251bWJlcicgPyB2IDogTnVtYmVyKHYpOwogICAgaWYgKCFOdW1iZXIuaXNGaW5pdGUobikpIHJldHVybiAwLjY7CiAgICByZXR1cm4gTWF0aC5taW4oMSwgTWF0aC5tYXgoMCwgbikpOwp9OwoKLy8gLS0tLSDms6jph4rmjIfku6TnmoTop6PmnpAgLyDlhpnlhaUgLS0tLQoKLy8g5Yy56YWNIC8qIEBzdWxseS1zb3VuZCAuLi4ge2pzb259IC4uLiAqL++8jOWuveadvuWuuemUme+8iOWkp+Wwj+WGmeOAgeepuueZveOAgXYxIOS5i+exu+eJiOacrOagh+iusOmDveS4jeaMke+8ieOAggpjb25zdCBESVJFQ1RJVkVfUkUgPSAvXC9cKlxzKkBzdWxseS1zb3VuZFxiW157fV0qKFx7W157fV0qXH0pXHMqXCpcLy9pOwoKLyoqIOS7juS4gOautSBDU1Mg5a2X56ym5Liy6YeM6Kej5p6Q5Ye65aOw6Z+z6YWN572u77yb5rKh5pyJIC8g6Kej5p6Q5aSx6LSlIC8gc3JjIOS4uuepuiDihpIg6L+U5ZueIG51bGzjgIIgKi8KZXhwb3J0IGNvbnN0IHBhcnNlV2hpdGVib3hTb3VuZCA9IChjc3M/OiBzdHJpbmcgfCBudWxsKTogV2hpdGVib3hTb3VuZCB8IG51bGwgPT4gewogICAgaWYgKCFjc3MpIHJldHVybiBudWxsOwogICAgY29uc3QgbSA9IGNzcy5tYXRjaChESVJFQ1RJVkVfUkUpOwogICAgaWYgKCFtKSByZXR1cm4gbnVsbDsKICAgIHRyeSB7CiAgICAgICAgY29uc3Qgb2JqID0gSlNPTi5wYXJzZShtWzFdKTsKICAgICAgICBjb25zdCBzcmMgPSB0eXBlb2Ygb2JqPy5zcmMgPT09ICdzdHJpbmcnID8gb2JqLnNyYy50cmltKCkgOiAnJzsKICAgICAgICBpZiAoIXNyYykgcmV0dXJuIG51bGw7CiAgICAgICAgcmV0dXJuIHsgc3JjLCB2b2x1bWU6IGNsYW1wVm9sdW1lKG9iaj8udm9sdW1lKSB9OwogICAgfSBjYXRjaCB7CiAgICAgICAgcmV0dXJuIG51bGw7CiAgICB9Cn07CgovKiog5Yml5o6JIENTUyDph4zlt7LmnInnmoQgQHN1bGx5LXNvdW5kIOaMh+S7pO+8iOi/nuWQjOWFtuWQjue0p+i3n+eahOS4gOS4quaNouihjO+8ie+8jOi/lOWbnue6ryBDU1PjgIIgKi8KZXhwb3J0IGNvbnN0IHN0cmlwV2hpdGVib3hTb3VuZERpcmVjdGl2ZSA9IChjc3M/OiBzdHJpbmcgfCBudWxsKTogc3RyaW5nID0+IHsKICAgIGlmICghY3NzKSByZXR1cm4gJyc7CiAgICByZXR1cm4gY3NzLnJlcGxhY2UoL1wvXCpccypAc3VsbHktc291bmRcYltee31dKlx7W157fV0qXH1ccypcKlwvXG4/L2ksICcnKTsKfTsKCi8qKgogKiDmiorlo7Dpn7PphY3nva7lhpnov5sgQ1NT77ya5YWI5Yml5o6J5pen5oyH5Luk77yMc291bmQg5Li6IG51bGwg5YiZ562J5LqO5Yig6Zmk77yb5ZCm5YiZ5oqK5paw5oyH5Luk5pS+5YiwIENTUyDpobbpg6jjgIIKICog5L+d5oyB5aOw6Z+z6YWN572u6ZqPIENTUyDlrZfnrKbkuLLkuIDotbfotbDvvIjlrZjlrZfmrrUgLyDpooTorr4gLyBUWFQgLyDliIbkuqvnoIHvvInjgIIKICovCmV4cG9ydCBjb25zdCB1cHNlcnRXaGl0ZWJveFNvdW5kID0gKGNzczogc3RyaW5nLCBzb3VuZDogV2hpdGVib3hTb3VuZCB8IG51bGwpOiBzdHJpbmcgPT4gewogICAgY29uc3QgYmFzZSA9IHN0cmlwV2hpdGVib3hTb3VuZERpcmVjdGl2ZShjc3MpOwogICAgaWYgKCFzb3VuZCB8fCAhc291bmQuc3JjKSByZXR1cm4gYmFzZTsKICAgIGNvbnN0IHBheWxvYWQgPSBKU09OLnN0cmluZ2lmeSh7IHNyYzogc291bmQuc3JjLCB2b2x1bWU6IGNsYW1wVm9sdW1lKHNvdW5kLnZvbHVtZSkgfSk7CiAgICBjb25zdCBkaXJlY3RpdmUgPSBgLyogQHN1bGx5LXNvdW5kICR7cGF5bG9hZH0gKi9gOwogICAgcmV0dXJuIGJhc2UgPyBgJHtkaXJlY3RpdmV9XG4ke2Jhc2V9YCA6IGRpcmVjdGl2ZTsKfTsKCi8qKgogKiDmsYLlh7rlrp7pmYXnlJ/mlYjnmoTmj5DnpLrpn7PjgILkvJjlhYjnuqfvvIjku47pq5jliLDkvY7vvInvvJoKICogICDop5LoibLnmb3moYbmjIfku6TvvIjop5LoibLlt7Lnu5HlrprvvInihpIg6KeS6Imy54us56uL5a2X5q6177yI6KeS6Imy5pyq57uR5a6a77yJ4oaSIOWFqOWxgOeZveahhuaMh+S7pCDihpIg5YWo5bGA6buY6K6k5a2X5q6144CCCiAqIOi/meagt+inkuiJsuiuvuS6huWwseeUqOinkuiJsueahO+8jOayoeiuvuWwseWbnuiQveWIsOWFqOWxgOm7mOiupO+8m+S4pOenjeWtmOazle+8iOe7kei/m+azqOmHiiAvIOeLrOeri+Wtl+aute+8iemDveiDveaSreOAggogKi8KZXhwb3J0IGNvbnN0IHJlc29sdmVBY3RpdmVTb3VuZCA9ICgKICAgIGNoYXJDc3M/OiBzdHJpbmcgfCBudWxsLAogICAgY2hhclNvdW5kPzogV2hpdGVib3hTb3VuZCB8IG51bGwsCiAgICBnbG9iYWxDc3M/OiBzdHJpbmcgfCBudWxsLAogICAgZ2xvYmFsU291bmQ/OiBXaGl0ZWJveFNvdW5kIHwgbnVsbCwKKTogV2hpdGVib3hTb3VuZCB8IG51bGwgPT4gewogICAgY29uc3QgcGljayA9IChzPzogV2hpdGVib3hTb3VuZCB8IG51bGwpID0+IChzICYmIHMuc3JjID8gcyA6IG51bGwpOwogICAgcmV0dXJuIHBhcnNlV2hpdGVib3hTb3VuZChjaGFyQ3NzKSA/PyBwaWNrKGNoYXJTb3VuZCkgPz8gcGFyc2VXaGl0ZWJveFNvdW5kKGdsb2JhbENzcykgPz8gcGljayhnbG9iYWxTb3VuZCk7Cn07CgovLyDmj5DnpLrpn7PnmoTjgIzni6znq4vliIbkuqvnoIHjgI3vvJpTVUxMWVNORDE6ICsgYmFzZTY0KHV0ZjgoSlNPTikp44CC6K6p55So5oi35LiN5bim55m95qGG44CB5Y2V54us5oqK5o+Q56S66Z+z5Y+R57uZ5Yir5Lq644CCCmV4cG9ydCBjb25zdCBlbmNvZGVTb3VuZFNoYXJlID0gKHNvdW5kOiBXaGl0ZWJveFNvdW5kKTogc3RyaW5nID0+CiAgICAnU1VMTFlTTkQxOicgKyBidG9hKHVuZXNjYXBlKGVuY29kZVVSSUNvbXBvbmVudChKU09OLnN0cmluZ2lmeSh7IHNyYzogc291bmQuc3JjLCB2b2x1bWU6IGNsYW1wVm9sdW1lKHNvdW5kLnZvbHVtZSkgfSkpKSk7CgpleHBvcnQgY29uc3QgZGVjb2RlU291bmRTaGFyZSA9IChjb2RlOiBzdHJpbmcpOiBXaGl0ZWJveFNvdW5kIHwgbnVsbCA9PiB7CiAgICB0cnkgewogICAgICAgIGNvbnN0IGJvZHkgPSBjb2RlLnRyaW0oKS5yZXBsYWNlKC9eU1VMTFlTTkQxOi8sICcnKTsKICAgICAgICBjb25zdCBvYmogPSBKU09OLnBhcnNlKGRlY29kZVVSSUNvbXBvbmVudChlc2NhcGUoYXRvYihib2R5KSkpKTsKICAgICAgICBjb25zdCBzcmMgPSB0eXBlb2Ygb2JqPy5zcmMgPT09ICdzdHJpbmcnID8gb2JqLnNyYy50cmltKCkgOiAnJzsKICAgICAgICBpZiAoIXNyYykgcmV0dXJuIG51bGw7CiAgICAgICAgcmV0dXJuIHsgc3JjLCB2b2x1bWU6IGNsYW1wVm9sdW1lKG9iaj8udm9sdW1lKSB9OwogICAgfSBjYXRjaCB7CiAgICAgICAgcmV0dXJuIG51bGw7CiAgICB9Cn07CgovLyAtLS0tIOaSreaUviAtLS0tCgpsZXQgYXVkaW9DdHg6IEF1ZGlvQ29udGV4dCB8IG51bGwgPSBudWxsOwoKY29uc3QgZ2V0Q3R4ID0gKCk6IEF1ZGlvQ29udGV4dCB8IG51bGwgPT4gewogICAgaWYgKHR5cGVvZiB3aW5kb3cgPT09ICd1bmRlZmluZWQnKSByZXR1cm4gbnVsbDsKICAgIHRyeSB7CiAgICAgICAgY29uc3QgQ3RvciA9IHdpbmRvdy5BdWRpb0NvbnRleHQgfHwgKHdpbmRvdyBhcyBhbnkpLndlYmtpdEF1ZGlvQ29udGV4dDsKICAgICAgICBpZiAoIUN0b3IpIHJldHVybiBudWxsOwogICAgICAgIGlmICghYXVkaW9DdHgpIGF1ZGlvQ3R4ID0gbmV3IEN0b3IoKTsKICAgICAgICByZXR1cm4gYXVkaW9DdHg7CiAgICB9IGNhdGNoIHsKICAgICAgICByZXR1cm4gbnVsbDsKICAgIH0KfTsKCi8qKgogKiDlnKjnlKjmiLfmiYvlir/ph4zosIPnlKjkuIDmrKHvvIzlsJ3or5Xop6PplIEgLyDmgaLlpI0gQXVkaW9Db250ZXh077yI56e75Yqo56uv6Ieq5Yqo5pKt5pS+562W55Wl6KaB5rGC6aaW5Liq6Z+z6aKR6ZyA55So5oi35omL5Yq/6Kem5Y+R77yJ44CCCiAqIOW5guetieOAgWJlc3QtZWZmb3J077yM5aSx6LSl6Z2Z6buY44CCCiAqLwpleHBvcnQgY29uc3QgdW5sb2NrV2hpdGVib3hBdWRpbyA9ICgpOiB2b2lkID0+IHsKICAgIGNvbnN0IGN0eCA9IGdldEN0eCgpOwogICAgaWYgKGN0eCAmJiBjdHguc3RhdGUgPT09ICdzdXNwZW5kZWQnKSBjdHgucmVzdW1lKCkuY2F0Y2goKCkgPT4ge30pOwp9OwoKY29uc3QgcGxheUJ1aWx0aW4gPSAoc291bmQ6IEJ1aWx0aW5Tb3VuZCwgdm9sdW1lOiBudW1iZXIpOiB2b2lkID0+IHsKICAgIGNvbnN0IGN0eCA9IGdldEN0eCgpOwogICAgaWYgKCFjdHgpIHJldHVybjsKICAgIGlmIChjdHguc3RhdGUgPT09ICdzdXNwZW5kZWQnKSBjdHgucmVzdW1lKCkuY2F0Y2goKCkgPT4ge30pOwogICAgY29uc3QgbWFzdGVyID0gY3R4LmNyZWF0ZUdhaW4oKTsKICAgIG1hc3Rlci5nYWluLnZhbHVlID0gdm9sdW1lOwogICAgbWFzdGVyLmNvbm5lY3QoY3R4LmRlc3RpbmF0aW9uKTsKICAgIGNvbnN0IHQwID0gY3R4LmN1cnJlbnRUaW1lICsgMC4wMTsKICAgIGZvciAoY29uc3QgbiBvZiBzb3VuZC5ub3RlcykgewogICAgICAgIGNvbnN0IG9zYyA9IGN0eC5jcmVhdGVPc2NpbGxhdG9yKCk7CiAgICAgICAgY29uc3QgZyA9IGN0eC5jcmVhdGVHYWluKCk7CiAgICAgICAgb3NjLnR5cGUgPSBuLnR5cGUgfHwgJ3NpbmUnOwogICAgICAgIG9zYy5mcmVxdWVuY3kudmFsdWUgPSBuLmZyZXE7CiAgICAgICAgb3NjLmNvbm5lY3QoZyk7CiAgICAgICAgZy5jb25uZWN0KG1hc3Rlcik7CiAgICAgICAgY29uc3Qgc3RhcnQgPSB0MCArIG4uYXQ7CiAgICAgICAgY29uc3QgcGVhayA9IE1hdGgubWF4KDAuMDAwMSwgbi5nYWluID8/IDAuNik7CiAgICAgICAgZy5nYWluLnNldFZhbHVlQXRUaW1lKDAuMDAwMSwgc3RhcnQpOwogICAgICAgIGcuZ2Fpbi5saW5lYXJSYW1wVG9WYWx1ZUF0VGltZShwZWFrLCBzdGFydCArIDAuMDA4KTsKICAgICAgICBnLmdhaW4uZXhwb25lbnRpYWxSYW1wVG9WYWx1ZUF0VGltZSgwLjAwMDEsIHN0YXJ0ICsgbi5kdXIpOwogICAgICAgIG9zYy5zdGFydChzdGFydCk7CiAgICAgICAgb3NjLnN0b3Aoc3RhcnQgKyBuLmR1ciArIDAuMDMpOwogICAgfQp9OwoKLyoqIHNyYyDmmK/oh6rlrprkuYnpn7PpopHvvIhodHRwKHMpIOebtOmTvuaIluWGheiBlCBkYXRhIFVSSe+8ie+8jOiAjOmdnuWGhee9ruWQiOaIkOmfs+OAgiAqLwpleHBvcnQgY29uc3QgaXNDdXN0b21BdWRpb1NyYyA9IChzOiBzdHJpbmcpOiBib29sZWFuID0+IC9eaHR0cHM/OlwvXC8vaS50ZXN0KHMpIHx8IC9eZGF0YTphdWRpb1wvL2kudGVzdChzKTsKCi8qKiDmkq3mlL7kuIDkuKrnmb3moYbmj5DnpLrpn7PphY3nva7jgIJiZXN0LWVmZm9ydO+8muiiq+iHquWKqOaSreaUvuetlueVpeaMoeS9jyAvIOaXoOmfs+mikeiDveWKm+aXtumdmem7mOWksei0pe+8jOe7neS4jeaKm+OAgiAqLwpleHBvcnQgY29uc3QgcGxheVdoaXRlYm94U291bmQgPSAoc291bmQ6IFdoaXRlYm94U291bmQgfCBudWxsKTogdm9pZCA9PiB7CiAgICBpZiAoIXNvdW5kIHx8ICFzb3VuZC5zcmMgfHwgc291bmQuc3JjID09PSAnbm9uZScpIHJldHVybjsKICAgIGNvbnN0IHZvbHVtZSA9IGNsYW1wVm9sdW1lKHNvdW5kLnZvbHVtZSk7CiAgICB0cnkgewogICAgICAgIGNvbnN0IGJ1aWx0aW4gPSBCVUlMVElOX1NPVU5EU1tzb3VuZC5zcmNdOwogICAgICAgIGlmIChidWlsdGluKSB7CiAgICAgICAgICAgIHBsYXlCdWlsdGluKGJ1aWx0aW4sIHZvbHVtZSk7CiAgICAgICAgICAgIHJldHVybjsKICAgICAgICB9CiAgICAgICAgLy8g6Ieq5a6a5LmJ6Z+z6aKR77yaaHR0cChzKSDnm7Tpk77miJbkuIrkvKDlkI7lhoXogZTnmoQgZGF0YTphdWRpbyBVUknvvIzkuqTnu5kgPGF1ZGlvPiDmkq3mlL7jgIIKICAgICAgICBpZiAoaXNDdXN0b21BdWRpb1NyYyhzb3VuZC5zcmMpICYmIHR5cGVvZiBBdWRpbyAhPT0gJ3VuZGVmaW5lZCcpIHsKICAgICAgICAgICAgY29uc3QgZWwgPSBuZXcgQXVkaW8oc291bmQuc3JjKTsKICAgICAgICAgICAgZWwudm9sdW1lID0gdm9sdW1lOwogICAgICAgICAgICBlbC5wbGF5KCkuY2F0Y2goKCkgPT4ge30pOwogICAgICAgIH0KICAgIH0gY2F0Y2ggewogICAgICAgIC8qIOaSreaUvuWksei0pemdmem7mO+8jOaPkOekuumfs+S4jeivpeW9seWTjeiBiuWkqeS4u+a1geeoiyAqLwogICAgfQp9Owo=
+// 白框「提示音」声明式声音层。
+//
+// 设计要点（见分支 chatapp-whitebox-js-ympk39）：
+// - 白框一直是 CSS-only 的可分享皮肤系统，靠"不执行任何脚本"来保证导入陌生人分享码时的安全。
+//   为了不破坏这个护栏，提示音**不给用户 JS**，而是把声音配置声明成 CSS 里的一段特殊注释：
+//     /* @sully-sound {"src":"chime","volume":0.6} */
+//   播放由本模块（可信代码）执行，用户只是填数据。
+// - 这段注释天然跟着白框的所有分享通道走（单角色 chromeCustomCss / 全局 chatChromeCustomCss /
+//   SULLYCSS1 预设导出码 / TXT 导出），因为这些通道都把 CSS 当不透明字符串搬运，不解析、不清洗注释。
+// - 浏览器忽略 CSS 注释，所以对渲染零影响、对老白框完全向后兼容。
+// - 内置音效用 WebAudio 现场合成（无音频文件、分享码里只存一个短 key，体积极小）；也支持自定义音频 URL。
+
+export interface WhiteboxSound {
+    /** 内置音效 key（见 BUILTIN_SOUNDS）、'none'（显式静音，用于角色覆盖全局）、或自定义音频直链 URL。 */
+    src: string;
+    /** 音量 0~1，默认 0.6。 */
+    volume?: number;
+}
+
+// 内置音效：每个是一串"音符"，用 WebAudio 现场合成。freq=频率(Hz)，at=相对起点(秒)，dur=时长(秒)，
+// type=波形，gain=该音相对音量。刻意做得短、轻、不刺耳（移动端提示音场景）。
+type Note = { freq: number; at: number; dur: number; type?: OscillatorType; gain?: number };
+
+interface BuiltinSound {
+    label: string;
+    notes: Note[];
+}
+
+export const BUILTIN_SOUNDS: Record<string, BuiltinSound> = {
+    chime: {
+        label: '风铃',
+        notes: [
+            { freq: 1046.5, at: 0, dur: 0.5, type: 'sine', gain: 0.6 },
+            { freq: 1568.0, at: 0.09, dur: 0.6, type: 'sine', gain: 0.45 },
+        ],
+    },
+    ding: {
+        label: '叮',
+        notes: [
+            { freq: 880, at: 0, dur: 0.45, type: 'sine', gain: 0.7 },
+            { freq: 1760, at: 0, dur: 0.28, type: 'sine', gain: 0.18 },
+        ],
+    },
+    pop: {
+        label: '气泡',
+        notes: [
+            { freq: 420, at: 0, dur: 0.09, type: 'triangle', gain: 0.7 },
+            { freq: 780, at: 0.05, dur: 0.12, type: 'sine', gain: 0.6 },
+        ],
+    },
+    crystal: {
+        label: '水晶',
+        notes: [
+            { freq: 1318.5, at: 0, dur: 0.32, type: 'sine', gain: 0.5 },
+            { freq: 1760.0, at: 0.08, dur: 0.32, type: 'sine', gain: 0.4 },
+            { freq: 2093.0, at: 0.16, dur: 0.4, type: 'sine', gain: 0.32 },
+        ],
+    },
+    heart: {
+        label: '心跳',
+        notes: [
+            { freq: 174, at: 0, dur: 0.18, type: 'sine', gain: 0.9 },
+            { freq: 174, at: 0.24, dur: 0.22, type: 'sine', gain: 0.7 },
+        ],
+    },
+    retro: {
+        label: '像素',
+        notes: [
+            { freq: 660, at: 0, dur: 0.07, type: 'square', gain: 0.28 },
+            { freq: 990, at: 0.08, dur: 0.1, type: 'square', gain: 0.28 },
+        ],
+    },
+};
+
+export const BUILTIN_SOUND_KEYS = Object.keys(BUILTIN_SOUNDS);
+
+const clampVolume = (v: unknown): number => {
+    const n = typeof v === 'number' ? v : Number(v);
+    if (!Number.isFinite(n)) return 0.6;
+    return Math.min(1, Math.max(0, n));
+};
+
+// ---- 注释指令的解析 / 写入 ----
+
+// 匹配 /* @sully-sound ... {json} ... */，宽松容错（大小写、空白、v1 之类版本标记都不挑）。
+const DIRECTIVE_RE = /\/\*\s*@sully-sound\b[^{}]*(\{[^{}]*\})\s*\*\//i;
+
+/** 从一段 CSS 字符串里解析出声音配置；没有 / 解析失败 / src 为空 → 返回 null。 */
+export const parseWhiteboxSound = (css?: string | null): WhiteboxSound | null => {
+    if (!css) return null;
+    const m = css.match(DIRECTIVE_RE);
+    if (!m) return null;
+    try {
+        const obj = JSON.parse(m[1]);
+        const src = typeof obj?.src === 'string' ? obj.src.trim() : '';
+        if (!src) return null;
+        return { src, volume: clampVolume(obj?.volume) };
+    } catch {
+        return null;
+    }
+};
+
+/** 剥掉 CSS 里已有的 @sully-sound 指令（连同其后紧跟的一个换行），返回纯 CSS。 */
+export const stripWhiteboxSoundDirective = (css?: string | null): string => {
+    if (!css) return '';
+    return css.replace(/\/\*\s*@sully-sound\b[^{}]*\{[^{}]*\}\s*\*\/\n?/i, '');
+};
+
+/**
+ * 把声音配置写进 CSS：先剥掉旧指令，sound 为 null 则等于删除；否则把新指令放到 CSS 顶部。
+ * 保持声音配置随 CSS 字符串一起走（存字段 / 预设 / TXT / 分享码）。
+ */
+export const upsertWhiteboxSound = (css: string, sound: WhiteboxSound | null): string => {
+    const base = stripWhiteboxSoundDirective(css);
+    if (!sound || !sound.src) return base;
+    const payload = JSON.stringify({ src: sound.src, volume: clampVolume(sound.volume) });
+    const directive = `/* @sully-sound ${payload} */`;
+    return base ? `${directive}\n${base}` : directive;
+};
+
+/**
+ * 求出实际生效的提示音。优先级（从高到低）：
+ *   角色白框指令（角色已绑定）→ 角色独立字段（角色未绑定）→ 全局白框指令 → 全局默认字段。
+ * 这样角色设了就用角色的，没设就回落到全局默认；两种存法（绑进注释 / 独立字段）都能播。
+ */
+export const resolveActiveSound = (
+    charCss?: string | null,
+    charSound?: WhiteboxSound | null,
+    globalCss?: string | null,
+    globalSound?: WhiteboxSound | null,
+): WhiteboxSound | null => {
+    const pick = (s?: WhiteboxSound | null) => (s && s.src ? s : null);
+    return parseWhiteboxSound(charCss) ?? pick(charSound) ?? parseWhiteboxSound(globalCss) ?? pick(globalSound);
+};
+
+// 提示音的「独立分享码」：SULLYSND1: + base64(utf8(JSON))。让用户不带白框、单独把提示音发给别人。
+export const encodeSoundShare = (sound: WhiteboxSound): string =>
+    'SULLYSND1:' + btoa(unescape(encodeURIComponent(JSON.stringify({ src: sound.src, volume: clampVolume(sound.volume) }))));
+
+export const decodeSoundShare = (code: string): WhiteboxSound | null => {
+    try {
+        const body = code.trim().replace(/^SULLYSND1:/, '');
+        const obj = JSON.parse(decodeURIComponent(escape(atob(body))));
+        const src = typeof obj?.src === 'string' ? obj.src.trim() : '';
+        if (!src) return null;
+        return { src, volume: clampVolume(obj?.volume) };
+    } catch {
+        return null;
+    }
+};
+
+// ---- 播放 ----
+
+let audioCtx: AudioContext | null = null;
+
+const getCtx = (): AudioContext | null => {
+    if (typeof window === 'undefined') return null;
+    try {
+        const Ctor = window.AudioContext || (window as any).webkitAudioContext;
+        if (!Ctor) return null;
+        if (!audioCtx) audioCtx = new Ctor();
+        return audioCtx;
+    } catch {
+        return null;
+    }
+};
+
+/**
+ * 在用户手势里调用一次，尝试解锁 / 恢复 AudioContext（移动端自动播放策略要求首个音频需用户手势触发）。
+ * 幂等、best-effort，失败静默。
+ */
+export const unlockWhiteboxAudio = (): void => {
+    const ctx = getCtx();
+    if (ctx && ctx.state === 'suspended') ctx.resume().catch(() => {});
+};
+
+const playBuiltin = (sound: BuiltinSound, volume: number): void => {
+    const ctx = getCtx();
+    if (!ctx) return;
+    if (ctx.state === 'suspended') ctx.resume().catch(() => {});
+    const master = ctx.createGain();
+    master.gain.value = volume;
+    master.connect(ctx.destination);
+    const t0 = ctx.currentTime + 0.01;
+    for (const n of sound.notes) {
+        const osc = ctx.createOscillator();
+        const g = ctx.createGain();
+        osc.type = n.type || 'sine';
+        osc.frequency.value = n.freq;
+        osc.connect(g);
+        g.connect(master);
+        const start = t0 + n.at;
+        const peak = Math.max(0.0001, n.gain ?? 0.6);
+        g.gain.setValueAtTime(0.0001, start);
+        g.gain.linearRampToValueAtTime(peak, start + 0.008);
+        g.gain.exponentialRampToValueAtTime(0.0001, start + n.dur);
+        osc.start(start);
+        osc.stop(start + n.dur + 0.03);
+    }
+};
+
+/** src 是自定义音频（http(s) 直链或内联 data URI），而非内置合成音。 */
+export const isCustomAudioSrc = (s: string): boolean => /^https?:\/\//i.test(s) || /^data:audio\//i.test(s);
+
+/** 播放一个白框提示音配置。best-effort：被自动播放策略挡住 / 无音频能力时静默失败，绝不抛。 */
+export const playWhiteboxSound = (sound: WhiteboxSound | null): void => {
+    if (!sound || !sound.src || sound.src === 'none') return;
+    const volume = clampVolume(sound.volume);
+    try {
+        const builtin = BUILTIN_SOUNDS[sound.src];
+        if (builtin) {
+            playBuiltin(builtin, volume);
+            return;
+        }
+        // 自定义音频：http(s) 直链或上传后内联的 data:audio URI，交给 <audio> 播放。
+        if (isCustomAudioSrc(sound.src) && typeof Audio !== 'undefined') {
+            const el = new Audio(sound.src);
+            el.volume = volume;
+            el.play().catch(() => {});
+        }
+    } catch {
+        /* 播放失败静默，提示音不该影响聊天主流程 */
+    }
+};

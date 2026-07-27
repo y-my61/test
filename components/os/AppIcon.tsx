@@ -1,1 +1,137 @@
-CmltcG9ydCBSZWFjdCBmcm9tICdyZWFjdCc7CmltcG9ydCB7IEFwcENvbmZpZyB9IGZyb20gJy4uLy4uL3R5cGVzJzsKaW1wb3J0IHsgSWNvbnMgfSBmcm9tICcuLi8uLi9jb25zdGFudHMnOwppbXBvcnQgeyBpc1BhcGVyV2FsbHBhcGVyLCB1c2VPUyB9IGZyb20gJy4uLy4uL2NvbnRleHQvT1NDb250ZXh0JzsKaW1wb3J0IHsgdXNlQmxvYlJlZlVybCB9IGZyb20gJy4uLy4uL3V0aWxzL2Jsb2JSZWYnOwppbXBvcnQgeyBnZXRBY25oSWNvbiB9IGZyb20gJy4vYWNuaEljb25zJzsKaW1wb3J0IHsgcHJlbG9hZEFwcCB9IGZyb20gJy4vYXBwUHJlbG9hZCc7CgppbnRlcmZhY2UgQXBwSWNvblByb3BzIHsKICBhcHA6IEFwcENvbmZpZzsKICBvbkNsaWNrOiAoKSA9PiB2b2lkOwogIHNpemU/OiAnc20nIHwgJ21kJyB8ICdsZyc7CiAgaGlkZUxhYmVsPzogYm9vbGVhbjsKICB2YXJpYW50PzogJ2RlZmF1bHQnIHwgJ21pbmltYWwnIHwgJ2RvY2snOwp9CgovLyDliqjmo67vvIhOb29rUGhvbmXvvInpo47moLznk6bniYfphY3oibIg4oCU4oCUIOebtOaOpeeUqCBhbmltYWwtaXNsYW5kLXVpIOeahOW6lOeUqOiJsuadv++8iOeyvuehriBoZXjvvInjgIIKY29uc3QgTk9PS19USUxFX0NPTE9SUzogUmVjb3JkPHN0cmluZywgc3RyaW5nPiA9IHsKICBpbmRpZ286ICcjODg5REYwJywgdmlvbGV0OiAnI0I3N0RFRScsIHB1cnBsZTogJyNCNzdERUUnLCBmdWNoc2lhOiAnI0Y4QTZCMicsCiAgcGluazogJyNGOEE2QjInLCByb3NlOiAnI0ZDNzM2RCcsIHJlZDogJyNGQzczNkQnLCBvcmFuZ2U6ICcjRTU5MjY2JywKICBhbWJlcjogJyNGN0NENjcnLCBsaW1lOiAnI0QxREE0OScsIGdyZWVuOiAnIzhBQzY4QScsIGVtZXJhbGQ6ICcjODJENUJCJywKICBjeWFuOiAnIzgyRDVCQicsIGJsdWU6ICcjODg5REYwJywgc2xhdGU6ICcjOUE4MzVBJywKfTsKCmNvbnN0IEFwcEljb246IFJlYWN0LkZDPEFwcEljb25Qcm9wcz4gPSBSZWFjdC5tZW1vKCh7IGFwcCwgb25DbGljaywgc2l6ZSA9ICdtZCcsIGhpZGVMYWJlbCA9IGZhbHNlLCB2YXJpYW50ID0gJ2RlZmF1bHQnIH0pID0+IHsKICBjb25zdCB7IGN1c3RvbUljb25zLCB0aGVtZSB9ID0gdXNlT1MoKTsKICBjb25zdCBJY29uQ29tcG9uZW50ID0gSWNvbnNbYXBwLmljb25dIHx8IEljb25zLlNldHRpbmdzOwogIGNvbnN0IGN1c3RvbUljb25VcmwgPSB1c2VCbG9iUmVmVXJsKGN1c3RvbUljb25zW2FwcC5pZF0pOwogIGNvbnN0IGlzTm9vayA9IHRoZW1lLnNraW4gPT09ICdhbmltYWxjcm9zc2luZyc7CiAgY29uc3QgaXNQYXBlckRlc2t0b3AgPSB0aGVtZS5za2luICE9PSAnYW5pbWFsY3Jvc3NpbmcnICYmIHRoZW1lLnNraW4gIT09ICdtb2JpbGVnYW1lJyAmJiB0aGVtZS5za2luICE9PSAndGFtYWdvdGNoaScgJiYgaXNQYXBlcldhbGxwYXBlcih0aGVtZS53YWxscGFwZXIpOwogIGNvbnN0IHByZXNlcnZlQ3VzdG9tT3V0bGluZSA9ICEhY3VzdG9tSWNvblVybCAmJiB0aGVtZS5wcmVzZXJ2ZUN1c3RvbUljb25PdXRsaW5lcyA9PT0gdHJ1ZTsKICAvLyDliqjmo67nmq7ogqTkuIvmoIfnrb7nlKjmt7Hmo5XoibLvvIzmma7pgJrnmq7ogqTmsr/nlKjkuLvpopggY29udGVudENvbG9y44CCCiAgY29uc3QgY29udGVudENvbG9yID0gaXNOb29rID8gJyM3MjVkNDInIDogKHRoZW1lLmNvbnRlbnRDb2xvciB8fCAnI2ZmZmZmZicpOwoKICAvLyBTdGFuZGFyZCBzaXplcwogIGNvbnN0IHNpemVDbGFzc2VzID0KICAgIHNpemUgPT09ICdsZycgPyAndy1bNC4yNXJlbV0gaC1bNC4yNXJlbV0nIDoKICAgIHNpemUgPT09ICdzbScgPyAndy1bMi43NXJlbV0gaC1bMi43NXJlbV0nIDoKICAgICd3LVszLjVyZW1dIGgtWzMuNXJlbV0nOwoKICAvLyDliqjmo67lvanom4vmqKHlvI/vvJrmlbTmnLrnu5/kuIAgTm9va1Bob25lIOWkluingu+8jOi/nueUqOaIt+iHquWumuS5ieWbvuagh+S5n+S4gOW5tuebluaOieOAggogIGlmIChpc05vb2spIHsKICAgIGNvbnN0IHRpbGVDb2xvciA9IE5PT0tfVElMRV9DT0xPUlNbYXBwLmNvbG9yXSB8fCBOT09LX1RJTEVfQ09MT1JTLnNsYXRlOwogICAgcmV0dXJuICgKICAgICAgPGJ1dHRvbgogICAgICAgIG9uQ2xpY2s9e29uQ2xpY2t9CiAgICAgICAgb25Qb2ludGVyRG93bj17KCkgPT4gcHJlbG9hZEFwcChhcHAuaWQpfQogICAgICAgIGNsYXNzTmFtZT0iZmxleCBmbGV4LWNvbCBpdGVtcy1jZW50ZXIgZ2FwLTEuNSBncm91cCByZWxhdGl2ZSBhY3RpdmU6c2NhbGUtOTUgdHJhbnNpdGlvbi10cmFuc2Zvcm0gZHVyYXRpb24tMjAwIgogICAgICAgIHN0eWxlPXt7IFdlYmtpdFRhcEhpZ2hsaWdodENvbG9yOiAndHJhbnNwYXJlbnQnIH19CiAgICAgID4KICAgICAgICB7LyogTm9va1Bob25lIOWchuinkuaWueWdl+eTpueJh++8mue6r+W5s+mdou+8jOaXoOi+ueahhi/ml6DpmLTlvbEv5peg6auY5YWJ77yI5a+56b2Q5Y+C6ICD5Zu+77yJICovfQogICAgICAgIDxkaXYKICAgICAgICAgIGNsYXNzTmFtZT17YCR7c2l6ZUNsYXNzZXN9IHJlbGF0aXZlIGZsZXggaXRlbXMtY2VudGVyIGp1c3RpZnktY2VudGVyIG92ZXJmbG93LWhpZGRlbmB9CiAgICAgICAgICBzdHlsZT17eyBiYWNrZ3JvdW5kQ29sb3I6IHRpbGVDb2xvciwgYm9yZGVyUmFkaXVzOiAnMzQlJyB9fQogICAgICAgID4KICAgICAgICAgIDxkaXYgY2xhc3NOYW1lPSJ3LVs3OCVdIGgtWzc4JV0gcmVsYXRpdmUiPgogICAgICAgICAgICB7Z2V0QWNuaEljb24oYXBwLmlkKX0KICAgICAgICAgIDwvZGl2PgogICAgICAgIDwvZGl2PgogICAgICAgIHshaGlkZUxhYmVsICYmICgKICAgICAgICAgIDxzcGFuCiAgICAgICAgICAgIGNsYXNzTmFtZT17YCR7c2l6ZSA9PT0gJ3NtJyA/ICd0ZXh0LVs5cHhdIHRyYWNraW5nLXdpZGUnIDogJ3RleHQtWzEwLjVweF0gdHJhY2tpbmctd2lkZSd9IGZvbnQtYm9sZCBtYXgtdy1mdWxsIHRydW5jYXRlICR7dmFyaWFudCA9PT0gJ2RvY2snID8gJ2hpZGRlbicgOiAnYmxvY2snfWB9CiAgICAgICAgICAgIHN0eWxlPXt7IGNvbG9yOiBjb250ZW50Q29sb3IgfX0KICAgICAgICAgID4KICAgICAgICAgICAge2FwcC5uYW1lfQogICAgICAgICAgPC9zcGFuPgogICAgICAgICl9CiAgICAgIDwvYnV0dG9uPgogICAgKTsKICB9CgogIHJldHVybiAoCiAgICA8YnV0dG9uCiAgICAgIG9uQ2xpY2s9e29uQ2xpY2t9CiAgICAgIG9uUG9pbnRlckRvd249eygpID0+IHByZWxvYWRBcHAoYXBwLmlkKX0KICAgICAgY2xhc3NOYW1lPSJmbGV4IGZsZXgtY29sIGl0ZW1zLWNlbnRlciBnYXAtMS41IGdyb3VwIHJlbGF0aXZlIGFjdGl2ZTpzY2FsZS05NSB0cmFuc2l0aW9uLXRyYW5zZm9ybSBkdXJhdGlvbi0yMDAiCiAgICAgIHN0eWxlPXt7IFdlYmtpdFRhcEhpZ2hsaWdodENvbG9yOiAndHJhbnNwYXJlbnQnIH19CiAgICA+CiAgICAgIHsvKiAjNDA5IOeahOKAnOS/neeVmemAj+aYjuWbvuagh+WOn+i9ruW7k+KAneaUueS4uuWPr+mAie+8m+m7mOiupOe7p+e7reS9v+eUqOWOn+adpeeahOezu+e7n+WchuinkuW6leahhuOAgiAqL30KICAgICAgPGRpdgogICAgICAgIGNsYXNzTmFtZT17YCR7c2l6ZUNsYXNzZXN9IHJlbGF0aXZlIGZsZXggaXRlbXMtY2VudGVyIGp1c3RpZnktY2VudGVyICR7cHJlc2VydmVDdXN0b21PdXRsaW5lID8gJycgOiBpc1BhcGVyRGVza3RvcCA/IGAKICAgICAgICAgIHJvdW5kZWQtWzEuMXJlbV0gYm9yZGVyCiAgICAgICAgICB0cmFuc2l0aW9uLVt0cmFuc2Zvcm0sYmFja2dyb3VuZC1jb2xvcixib3gtc2hhZG93XSBkdXJhdGlvbi0yMDAKICAgICAgICAgIGdyb3VwLWhvdmVyOi10cmFuc2xhdGUteS0wLjUKICAgICAgICBgIDogYAogICAgICAgIGJnLXdoaXRlLzQwIHJvdW5kZWQtWzEuMTI1cmVtXQogICAgICAgIGJvcmRlciBib3JkZXItd2hpdGUvMzUKICAgICAgICBzaGFkb3ctWzBfNHB4XzEycHhfcmdiYSgwLDAsMCwwLjE2KV0KICAgICAgICBncm91cC1ob3ZlcjpiZy13aGl0ZS81MCBncm91cC1ob3Zlcjpib3JkZXItd2hpdGUvNTAKICAgICAgYH1gfQogICAgICAgIHN0eWxlPXshcHJlc2VydmVDdXN0b21PdXRsaW5lICYmIGlzUGFwZXJEZXNrdG9wID8gewogICAgICAgICAgYmFja2dyb3VuZDogJ3JnYmEoMjI0LDIyMSwyMTUsMC40MiknLAogICAgICAgICAgYm9yZGVyQ29sb3I6ICdyZ2JhKDkxLDcyLDUxLDAuMDc1KScsCiAgICAgICAgICBib3hTaGFkb3c6ICcwIDRweCAxMnB4IHJnYmEoOTEsNzIsNTEsMC4wNTUpJywKICAgICAgICB9IDogdW5kZWZpbmVkfQogICAgICA+CgogICAgICAgIHtjdXN0b21JY29uVXJsID8gKAogICAgICAgICAgICA8aW1nCiAgICAgICAgICAgICAgc3JjPXtjdXN0b21JY29uVXJsfQogICAgICAgICAgICAgIGNsYXNzTmFtZT17YHctZnVsbCBoLWZ1bGwgJHtwcmVzZXJ2ZUN1c3RvbU91dGxpbmUgPyAnb2JqZWN0LWNvbnRhaW4nIDogJ29iamVjdC1jb3ZlciByb3VuZGVkLVsxLjJyZW1dJ31gfQogICAgICAgICAgICAgIGFsdD17YXBwLm5hbWV9CiAgICAgICAgICAgICAgbG9hZGluZz0ibGF6eSIKICAgICAgICAgICAgLz4KICAgICAgICApIDogKAogICAgICAgICAgICA8ZGl2IAogICAgICAgICAgICAgICAgY2xhc3NOYW1lPXtpc1BhcGVyRGVza3RvcAogICAgICAgICAgICAgICAgICA/ICd3LVs0NyVdIGgtWzQ3JV0gb3BhY2l0eS04MCcKICAgICAgICAgICAgICAgICAgOiAndy1bNTAlXSBoLVs1MCVdIGRyb3Atc2hhZG93LVswXzJweF81cHhfcmdiYSgwLDAsMCwwLjMpXSBvcGFjaXR5LTkwJ30KICAgICAgICAgICAgICAgIHN0eWxlPXt7IGNvbG9yOiBjb250ZW50Q29sb3IgfX0KICAgICAgICAgICAgPgogICAgICAgICAgICAgICAgIDxJY29uQ29tcG9uZW50IGNsYXNzTmFtZT0idy1mdWxsIGgtZnVsbCIgLz4KICAgICAgICAgICAgPC9kaXY+CiAgICAgICAgKX0KICAgICAgPC9kaXY+CiAgICAgIAogICAgICB7IWhpZGVMYWJlbCAmJiAoCiAgICAgICAgPHNwYW4KICAgICAgICAgICAgY2xhc3NOYW1lPXtgJHtzaXplID09PSAnc20nID8gJ3RleHQtWzguNXB4XScgOiAndGV4dC1bMTBweF0nfSAke2lzUGFwZXJEZXNrdG9wID8gJ3RyYWNraW5nLVswLjA4ZW1dIGZvbnQtc2VtaWJvbGQgb3BhY2l0eS03NScgOiAndHJhY2tpbmctd2lkZXN0IGZvbnQtYm9sZCB1cHBlcmNhc2Ugb3BhY2l0eS04MCB0ZXh0LXNoYWRvdy1tZCd9IHRyYW5zaXRpb24tb3BhY2l0eSBtYXgtdy1mdWxsIHRydW5jYXRlICR7dmFyaWFudCA9PT0gJ2RvY2snID8gJ2hpZGRlbicgOiAnYmxvY2snfWB9CiAgICAgICAgICAgIHN0eWxlPXt7IGNvbG9yOiBjb250ZW50Q29sb3IgfX0KICAgICAgICA+CiAgICAgICAgICB7YXBwLm5hbWV9CiAgICAgICAgPC9zcGFuPgogICAgICApfQogICAgPC9idXR0b24+CiAgKTsKfSwgKHByZXYsIG5leHQpID0+IHsKICAgIC8vIEN1c3RvbSBjb21wYXJpc29uIHRvIHByZXZlbnQgcmUtcmVuZGVyIHVubGVzcyBzcGVjaWZpYyBwcm9wcyBjaGFuZ2UKICAgIC8vIFdlIGRvbid0IGNoZWNrICdvbkNsaWNrJyBkZWVwbHkgYXNzdW1pbmcgaXQncyBzdGFibGUgb3Igd2Ugd2FudCB0byBpZ25vcmUgZnVuY3Rpb24gcmVmIGNoYW5nZXMKICAgIHJldHVybiBwcmV2LmFwcC5pZCA9PT0gbmV4dC5hcHAuaWQgJiYgCiAgICAgICAgICAgcHJldi5zaXplID09PSBuZXh0LnNpemUgJiYgCiAgICAgICAgICAgcHJldi5oaWRlTGFiZWwgPT09IG5leHQuaGlkZUxhYmVsICYmCiAgICAgICAgICAgcHJldi52YXJpYW50ID09PSBuZXh0LnZhcmlhbnQ7Cn0pOwoKZXhwb3J0IGRlZmF1bHQgQXBwSWNvbjsK
+
+import React from 'react';
+import { AppConfig } from '../../types';
+import { Icons } from '../../constants';
+import { isPaperWallpaper, useOS } from '../../context/OSContext';
+import { useBlobRefUrl } from '../../utils/blobRef';
+import { getAcnhIcon } from './acnhIcons';
+import { preloadApp } from './appPreload';
+
+interface AppIconProps {
+  app: AppConfig;
+  onClick: () => void;
+  size?: 'sm' | 'md' | 'lg';
+  hideLabel?: boolean;
+  variant?: 'default' | 'minimal' | 'dock';
+}
+
+// 动森（NookPhone）风格瓦片配色 —— 直接用 animal-island-ui 的应用色板（精确 hex）。
+const NOOK_TILE_COLORS: Record<string, string> = {
+  indigo: '#889DF0', violet: '#B77DEE', purple: '#B77DEE', fuchsia: '#F8A6B2',
+  pink: '#F8A6B2', rose: '#FC736D', red: '#FC736D', orange: '#E59266',
+  amber: '#F7CD67', lime: '#D1DA49', green: '#8AC68A', emerald: '#82D5BB',
+  cyan: '#82D5BB', blue: '#889DF0', slate: '#9A835A',
+};
+
+const AppIcon: React.FC<AppIconProps> = React.memo(({ app, onClick, size = 'md', hideLabel = false, variant = 'default' }) => {
+  const { customIcons, theme } = useOS();
+  const IconComponent = Icons[app.icon] || Icons.Settings;
+  const customIconUrl = useBlobRefUrl(customIcons[app.id]);
+  const isNook = theme.skin === 'animalcrossing';
+  const isPaperDesktop = theme.skin !== 'animalcrossing' && theme.skin !== 'mobilegame' && theme.skin !== 'tamagotchi' && isPaperWallpaper(theme.wallpaper);
+  const preserveCustomOutline = !!customIconUrl && theme.preserveCustomIconOutlines === true;
+  // 动森皮肤下标签用深棕色，普通皮肤沿用主题 contentColor。
+  const contentColor = isNook ? '#725d42' : (theme.contentColor || '#ffffff');
+
+  // Standard sizes
+  const sizeClasses =
+    size === 'lg' ? 'w-[4.25rem] h-[4.25rem]' :
+    size === 'sm' ? 'w-[2.75rem] h-[2.75rem]' :
+    'w-[3.5rem] h-[3.5rem]';
+
+  // 动森彩蛋模式：整机统一 NookPhone 外观，连用户自定义图标也一并盖掉。
+  if (isNook) {
+    const tileColor = NOOK_TILE_COLORS[app.color] || NOOK_TILE_COLORS.slate;
+    return (
+      <button
+        onClick={onClick}
+        onPointerDown={() => preloadApp(app.id)}
+        className="flex flex-col items-center gap-1.5 group relative active:scale-95 transition-transform duration-200"
+        style={{ WebkitTapHighlightColor: 'transparent' }}
+      >
+        {/* NookPhone 圆角方块瓦片：纯平面，无边框/无阴影/无高光（对齐参考图） */}
+        <div
+          className={`${sizeClasses} relative flex items-center justify-center overflow-hidden`}
+          style={{ backgroundColor: tileColor, borderRadius: '34%' }}
+        >
+          <div className="w-[78%] h-[78%] relative">
+            {getAcnhIcon(app.id)}
+          </div>
+        </div>
+        {!hideLabel && (
+          <span
+            className={`${size === 'sm' ? 'text-[9px] tracking-wide' : 'text-[10.5px] tracking-wide'} font-bold max-w-full truncate ${variant === 'dock' ? 'hidden' : 'block'}`}
+            style={{ color: contentColor }}
+          >
+            {app.name}
+          </span>
+        )}
+      </button>
+    );
+  }
+
+  return (
+    <button
+      onClick={onClick}
+      onPointerDown={() => preloadApp(app.id)}
+      className="flex flex-col items-center gap-1.5 group relative active:scale-95 transition-transform duration-200"
+      style={{ WebkitTapHighlightColor: 'transparent' }}
+    >
+      {/* #409 的“保留透明图标原轮廓”改为可选；默认继续使用原来的系统圆角底框。 */}
+      <div
+        className={`${sizeClasses} relative flex items-center justify-center ${preserveCustomOutline ? '' : isPaperDesktop ? `
+          rounded-[1.1rem] border
+          transition-[transform,background-color,box-shadow] duration-200
+          group-hover:-translate-y-0.5
+        ` : `
+        bg-white/40 rounded-[1.125rem]
+        border border-white/35
+        shadow-[0_4px_12px_rgba(0,0,0,0.16)]
+        group-hover:bg-white/50 group-hover:border-white/50
+      `}`}
+        style={!preserveCustomOutline && isPaperDesktop ? {
+          background: 'rgba(224,221,215,0.42)',
+          borderColor: 'rgba(91,72,51,0.075)',
+          boxShadow: '0 4px 12px rgba(91,72,51,0.055)',
+        } : undefined}
+      >
+
+        {customIconUrl ? (
+            <img
+              src={customIconUrl}
+              className={`w-full h-full ${preserveCustomOutline ? 'object-contain' : 'object-cover rounded-[1.2rem]'}`}
+              alt={app.name}
+              loading="lazy"
+            />
+        ) : (
+            <div 
+                className={isPaperDesktop
+                  ? 'w-[47%] h-[47%] opacity-80'
+                  : 'w-[50%] h-[50%] drop-shadow-[0_2px_5px_rgba(0,0,0,0.3)] opacity-90'}
+                style={{ color: contentColor }}
+            >
+                 <IconComponent className="w-full h-full" />
+            </div>
+        )}
+      </div>
+      
+      {!hideLabel && (
+        <span
+            className={`${size === 'sm' ? 'text-[8.5px]' : 'text-[10px]'} ${isPaperDesktop ? 'tracking-[0.08em] font-semibold opacity-75' : 'tracking-widest font-bold uppercase opacity-80 text-shadow-md'} transition-opacity max-w-full truncate ${variant === 'dock' ? 'hidden' : 'block'}`}
+            style={{ color: contentColor }}
+        >
+          {app.name}
+        </span>
+      )}
+    </button>
+  );
+}, (prev, next) => {
+    // Custom comparison to prevent re-render unless specific props change
+    // We don't check 'onClick' deeply assuming it's stable or we want to ignore function ref changes
+    return prev.app.id === next.app.id && 
+           prev.size === next.size && 
+           prev.hideLabel === next.hideLabel &&
+           prev.variant === next.variant;
+});
+
+export default AppIcon;

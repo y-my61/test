@@ -1,1 +1,64 @@
-LyoqCiAqIOingemdoihEYXRlQXBwKeOAjOaBouWkjeS4iuasoei/m+W6puOAjeW0qea6g+iHquaEiCDigJQg5omT56C0IGlPUyBXZWJLaXQg5Y+N5aSN6Zeq6YCA5q275b6q546vCiAqCiAqIOinpuWPkeWcuuaZryAo55So5oi35oql6ZqcOiBpT1MgRWRnZSDop4HpnaLml7bnqoHnhLbpl6rpgIAsIOS5i+WQjuWIt+aWsOmHjei/m+WPjeWkjeeBsOWxjy/nmb3lsY8pOgogKiAgLSDop4HpnaLkvJror53mr48gMzBzIC8g5YiH5ZCO5Y+wIC8g5YWz6aG16Z2i5pe25Lya5oqK5b2T5YmNIERhdGVTdGF0ZSDnm7TmjqXokL3lupMgKHNhdmVkRGF0ZVN0YXRlKTsKICogIC0g6Iul6L+Z5Lu95b+r54Wn5pys6Lqr5b6I6YeNICjlpKflm77nq4vnu5gv6IOM5pmvICsg5aSn6YeP5Y6G5Y+y5raI5oGvICsg6ZiF6K+75qih5byP5YWo6YeP5riy5p+TKSwKICogICAg5Zyo5YaF5a2Y5ZCD57Sn55qEIGlPUyBXZWJLaXQg5LiK44CM57un57ut5LiK5qyh44CN5Lya5oqK5pW05Liq5YaF5a656L+b56iL5pKR54iGIChPT00pIOaIluinpuWPkQogKiAgICDnnIvpl6jni5fotoXml7Yg4oCU4oCUIOa1j+iniOWZqOebtOaOpeadgOi/m+eoiywg6KGo546w5Li644CM5q2k572R6aG15Y+N5aSN5Ye6546w6Zeu6aKY44CN6ICM6Z2eIEpTIOW8guW4uOOAggogKgogKiDlhbPplK46IOi/meexu+i/m+eoi+e6p+W0qea6gyAqKuS4jeaYryoqIOiDveiiqyBSZWFjdCBFcnJvckJvdW5kYXJ5IOaNleiOt+eahCBKUyDlvILluLgsIOiAjOS4lOW0qea6g+WJjQogKiDpgqPku70gc2F2ZWREYXRlU3RhdGUg5bey57uP6JC95bqTIOKAlOKAlCDph43ov5vop4HpnaLngrnjgIznu6fnu63kuIrmrKHjgI3kvJrljp/moLfph43mlL7lkIzkuIDku73ph43lv6vnhacsCiAqIOS6juaYr+avj+asoemDveW0qSwg55So5oi36KKr5rC45LmF6ZSB5q275Zyo6L+Z5Liq5Yqf6IO96YeMICjlj6rog73muIXnq5nngrnmlbDmja7miY3og73oh6rmlZEp44CCCiAqCiAqIOiHquaEiOaAnei3ryAo5Lik5q615byPLCDlj4LogIMgY2h1bmtMb2FkUmVjb3Zlcnkg55qEIHNlc3Npb25TdG9yYWdlIOaKpOagjyk6CiAqICAxKSDmgaLlpI3jgIzlsJ3or5XjgI3lvIDlp4vml7YgKOeCueOAjOe7p+e7reS4iuasoeOAjSkg4oaSIGFybURhdGVSZXN1bWVBdHRlbXB0KGNoYXJJZCkg5YaZ5ZOo5YW1OwogKiAgMikg5Lya6K+d5oiQ5Yqf5oyC6L295bm256iz5a6a5riy5p+T5LiA5bCP5q615pe26Ze05ZCOIOKGkiBjbGVhckRhdGVSZXN1bWVBdHRlbXB0KCkg5pKk5ZOo5YW1ICjor4HmmI7ov5nku73lv6vnhafog73lronlhajliqDovb0p44CCCiAqIOiLpei/m+eoi+WcqCAxKSDkuI4gMikg5LmL6Ze06KKr5p2ALCDlk6jlhbXkuI3kvJrooqvmuIXpmaQgKOi/m+eoi+W0qea6g+S4jeS8mui3kSBSZWFjdCDljbjovb3pgLvovpEpLAogKiDkuo7mmK/kuIvmrKHov5vop4HpnaLml7YgdGFrZUNyYXNoZWREYXRlUmVzdW1lKCkg6K+75Yiw5q6L55WZ5ZOo5YW1ID0g5LiK5qyh5oGi5aSN5bSp5LqGIOKGkgogKiDosIPnlKjmlrnkuKLlvIPov5nku73mnInmr5LnmoQgc2F2ZWREYXRlU3RhdGUgKOS7hea4heaBouWkjeW/q+eFpywg5LiN5Yqo5raI5oGv5Y6G5Y+yKSwg6K6p55So5oi36YeN5paw5byA5aeL44CCCiAqCiAqIOS4uuS7gOS5iOeUqCBzZXNzaW9uU3RvcmFnZTog5pW06aG1IHJlbG9hZCAo5Yi35pawIC8gV2ViS2l0IOW0qea6g+WQjumHjei9vSkg5LuN5Zyo5ZCM5LiAIHRhYiDkvJror53lhoUsCiAqIOWTqOWFteW+l+S7peeVmeWtmOiiq+ajgOWHujsg5q2j5bi45YWz5qCH562+6aG15ZCO6Ieq54S25riF56m6LCDkuI3kvJror6/kvKTkuIvmrKHlhajmlrDmiZPlvIDjgIIKICovCgpjb25zdCBSRVNVTUVfU0VOVElORUxfS0VZID0gJ3N1bGx5b3NfZGF0ZV9yZXN1bWVfYXR0ZW1wdCc7CgovKiog5oGi5aSN5bCd6K+V5byA5aeLOiDorrDkuIvmraPlnKjmgaLlpI3lk6rkuKrop5LoibLnmoTop4HpnaLkvJror50gKi8KZXhwb3J0IGNvbnN0IGFybURhdGVSZXN1bWVBdHRlbXB0ID0gKGNoYXJJZDogc3RyaW5nKTogdm9pZCA9PiB7CiAgICB0cnkgewogICAgICAgIHNlc3Npb25TdG9yYWdlLnNldEl0ZW0oUkVTVU1FX1NFTlRJTkVMX0tFWSwgSlNPTi5zdHJpbmdpZnkoeyBjaGFySWQsIGF0OiBEYXRlLm5vdygpIH0pKTsKICAgIH0gY2F0Y2ggewogICAgICAgIC8vIHNlc3Npb25TdG9yYWdlIOS4jeWPr+eUqDog5rKh5rOV6Ziy5q275b6q546vLCDkvYbkuZ/kuI3lvbHlk43mraPluLjlip/og70g4oCU4oCUIOmdmem7mOmZjee6pwogICAgfQp9OwoKLyoqIOaBouWkjeaIkOWKnyAvIOW5suWHgOmAgOWHujog5pKk6ZSA5ZOo5YW1LCDooajnpLrov5nku73lv6vnhaflt7Looqvor4HmmI7og73lronlhajliqDovb0gKi8KZXhwb3J0IGNvbnN0IGNsZWFyRGF0ZVJlc3VtZUF0dGVtcHQgPSAoKTogdm9pZCA9PiB7CiAgICB0cnkgewogICAgICAgIHNlc3Npb25TdG9yYWdlLnJlbW92ZUl0ZW0oUkVTVU1FX1NFTlRJTkVMX0tFWSk7CiAgICB9IGNhdGNoIHsKICAgICAgICAvLyBpZ25vcmUKICAgIH0KfTsKCi8qKgogKiDov5vop4HpnaLml7bosIPnlKg6IOiLpeS4iuS4gOasoeaBouWkjeWwneivleeahOWTqOWFtei/mOaui+eVmSAo6K+05piO6L+b56iL5Zyo5oGi5aSN6YCU5Lit6KKr5p2AID0g5bSp5rqD5LqGKSwKICog6L+U5Zue5bSp5rqD5pe25q2j5Zyo5oGi5aSN55qEIGNoYXJJZCwg5bm26aG65omL5riF5o6J5ZOo5YW1ICjlj6ror7vkuIDmrKEp44CC5rKh5pyJ5q6L55WZ5YiZ6L+U5ZueIG51bGzjgIIKICovCmV4cG9ydCBjb25zdCB0YWtlQ3Jhc2hlZERhdGVSZXN1bWUgPSAoKTogc3RyaW5nIHwgbnVsbCA9PiB7CiAgICBsZXQgcmF3OiBzdHJpbmcgfCBudWxsID0gbnVsbDsKICAgIHRyeSB7CiAgICAgICAgcmF3ID0gc2Vzc2lvblN0b3JhZ2UuZ2V0SXRlbShSRVNVTUVfU0VOVElORUxfS0VZKTsKICAgICAgICBpZiAocmF3KSBzZXNzaW9uU3RvcmFnZS5yZW1vdmVJdGVtKFJFU1VNRV9TRU5USU5FTF9LRVkpOwogICAgfSBjYXRjaCB7CiAgICAgICAgcmV0dXJuIG51bGw7CiAgICB9CiAgICBpZiAoIXJhdykgcmV0dXJuIG51bGw7CiAgICB0cnkgewogICAgICAgIGNvbnN0IHBhcnNlZCA9IEpTT04ucGFyc2UocmF3KTsKICAgICAgICByZXR1cm4gdHlwZW9mIHBhcnNlZD8uY2hhcklkID09PSAnc3RyaW5nJyAmJiBwYXJzZWQuY2hhcklkID8gcGFyc2VkLmNoYXJJZCA6IG51bGw7CiAgICB9IGNhdGNoIHsKICAgICAgICByZXR1cm4gbnVsbDsKICAgIH0KfTsK
+/**
+ * 见面(DateApp)「恢复上次进度」崩溃自愈 — 打破 iOS WebKit 反复闪退死循环
+ *
+ * 触发场景 (用户报障: iOS Edge 见面时突然闪退, 之后刷新重进反复灰屏/白屏):
+ *  - 见面会话每 30s / 切后台 / 关页面时会把当前 DateState 直接落库 (savedDateState);
+ *  - 若这份快照本身很重 (大图立绘/背景 + 大量历史消息 + 阅读模式全量渲染),
+ *    在内存吃紧的 iOS WebKit 上「继续上次」会把整个内容进程撑爆 (OOM) 或触发
+ *    看门狗超时 —— 浏览器直接杀进程, 表现为「此网页反复出现问题」而非 JS 异常。
+ *
+ * 关键: 这类进程级崩溃 **不是** 能被 React ErrorBoundary 捕获的 JS 异常, 而且崩溃前
+ * 那份 savedDateState 已经落库 —— 重进见面点「继续上次」会原样重放同一份重快照,
+ * 于是每次都崩, 用户被永久锁死在这个功能里 (只能清站点数据才能自救)。
+ *
+ * 自愈思路 (两段式, 参考 chunkLoadRecovery 的 sessionStorage 护栏):
+ *  1) 恢复「尝试」开始时 (点「继续上次」) → armDateResumeAttempt(charId) 写哨兵;
+ *  2) 会话成功挂载并稳定渲染一小段时间后 → clearDateResumeAttempt() 撤哨兵 (证明这份快照能安全加载)。
+ * 若进程在 1) 与 2) 之间被杀, 哨兵不会被清除 (进程崩溃不会跑 React 卸载逻辑),
+ * 于是下次进见面时 takeCrashedDateResume() 读到残留哨兵 = 上次恢复崩了 →
+ * 调用方丢弃这份有毒的 savedDateState (仅清恢复快照, 不动消息历史), 让用户重新开始。
+ *
+ * 为什么用 sessionStorage: 整页 reload (刷新 / WebKit 崩溃后重载) 仍在同一 tab 会话内,
+ * 哨兵得以留存被检出; 正常关标签页后自然清空, 不会误伤下次全新打开。
+ */
+
+const RESUME_SENTINEL_KEY = 'sullyos_date_resume_attempt';
+
+/** 恢复尝试开始: 记下正在恢复哪个角色的见面会话 */
+export const armDateResumeAttempt = (charId: string): void => {
+    try {
+        sessionStorage.setItem(RESUME_SENTINEL_KEY, JSON.stringify({ charId, at: Date.now() }));
+    } catch {
+        // sessionStorage 不可用: 没法防死循环, 但也不影响正常功能 —— 静默降级
+    }
+};
+
+/** 恢复成功 / 干净退出: 撤销哨兵, 表示这份快照已被证明能安全加载 */
+export const clearDateResumeAttempt = (): void => {
+    try {
+        sessionStorage.removeItem(RESUME_SENTINEL_KEY);
+    } catch {
+        // ignore
+    }
+};
+
+/**
+ * 进见面时调用: 若上一次恢复尝试的哨兵还残留 (说明进程在恢复途中被杀 = 崩溃了),
+ * 返回崩溃时正在恢复的 charId, 并顺手清掉哨兵 (只读一次)。没有残留则返回 null。
+ */
+export const takeCrashedDateResume = (): string | null => {
+    let raw: string | null = null;
+    try {
+        raw = sessionStorage.getItem(RESUME_SENTINEL_KEY);
+        if (raw) sessionStorage.removeItem(RESUME_SENTINEL_KEY);
+    } catch {
+        return null;
+    }
+    if (!raw) return null;
+    try {
+        const parsed = JSON.parse(raw);
+        return typeof parsed?.charId === 'string' && parsed.charId ? parsed.charId : null;
+    } catch {
+        return null;
+    }
+};

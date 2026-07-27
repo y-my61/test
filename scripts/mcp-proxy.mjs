@@ -1,1 +1,237 @@
-IyEvdXNyL2Jpbi9lbnYgbm9kZQovKioKICogTUNQIENPUlMgUHJveHkgKHdpdGggU1BBIFByZS13YXJtIGZvciByZXBseV9jb21tZW50KQogKgogKiB4aWFvaG9uZ3NodS1tY3Ag5pyN5Yqh5Zmo57y65bCRIEFjY2Vzcy1Db250cm9sLUV4cG9zZS1IZWFkZXJzOiBNY3AtU2Vzc2lvbi1JZO+8jAogKiDlr7zoh7TmtY/op4jlmajor7vkuI3liLAgc2Vzc2lvbiBJRO+8jE1DUCDljY/orq7ml6Dms5XmraPluLjlt6XkvZzjgIIKICoKICog6L+Z5Liq5Luj55CG6L2s5Y+R5omA5pyJ6K+35rGC5YiwIE1DUCDmnI3liqHlmajvvIzlubbmt7vliqDmraPnoa7nmoQgQ09SUyDlpLTjgIIKICoKICog6aKd5aSW5Yqf6IO9OiByZXBseV9jb21tZW50IFNQQSDpooTng60KICog5bCP57qi5Lmm5pivIFNQQe+8jOebtOaOpeaJk+W8gOW4luWtkCBVUkwg5pe26Lev55Sx5Yid5aeL5YyW5LiN5a6M5pW077yM6K+E6K665Yy6IERPTSDkuI3muLLmn5PjgIIKICog5Luj55CG5qOA5rWL5YiwIHJlcGx5X2NvbW1lbnQg6LCD55So5pe277yM5YWI5Y+R5LiA5LiqIGNoZWNrX2xvZ2luIOiuqSBNQ1Ag5rWP6KeI5Zmo6K6/6ZeuCiAqIOWwj+e6ouS5pu+8iOmihOeDrSBTUEHvvInvvIznhLblkI7lho3ovazlj5Hljp/lp4vor7fmsYLjgILov5nmoLcgcmVwbHlfY29tbWVudCDlr7zoiKrliLDluJblrZDml7YKICogU1BBIEpTIOW3sue8k+WtmO+8jOivhOiuuuWMuuabtOWPr+iDveato+W4uOa4suafk+OAggogKgogKiDnlKjms5U6CiAqICAgbm9kZSBzY3JpcHRzL21jcC1wcm94eS5tanMgICAgICAgICAgICAgICAgICAgICAgICAgICAjIOm7mOiupDog5Luj55CGIDE4MDYxIOKGkiBNQ1AgMTgwNjAKICogICBub2RlIHNjcmlwdHMvbWNwLXByb3h5Lm1qcyAtLXBvcnQgMTkwMDAgICAgICAgICAgICAgICMg6Ieq5a6a5LmJ5Luj55CG56uv5Y+jCiAqICAgbm9kZSBzY3JpcHRzL21jcC1wcm94eS5tanMgLS10YXJnZXQgaHR0cDovL2xvY2FsaG9zdDo5MDkwICAjIOiHquWumuS5iSBNQ1Ag5Zyw5Z2ACiAqICAgbm9kZSBzY3JpcHRzL21jcC1wcm94eS5tanMgLS1uby1wcmV3YXJtICAgICAgICAgICAgICAjIOemgeeUqCBTUEEg6aKE54OtCiAqCiAqIOeEtuWQjuWcqOW6lOeUqOiuvue9rumHjOaKiiBNQ1AgVVJMIOaUueS4ujogaHR0cDovL2xvY2FsaG9zdDoxODA2MS9tY3AKICoKICog6YCa55SoIE1DUCDmqKHlvI/vvIjphY3lkIjorr7nva7ph4znmoTjgIzku6PnkIYgVVJM44CN77yJOgogKiAgIOivt+axguW4piA/dGFyZ2V0PTx1cmwtZW5jb2RlZCBNQ1AgVVJMPiDml7bvvIzovazlj5HliLDor6XlnLDlnYDogIzkuI3mmK8gLS10YXJnZXTvvIwKICogICDkuI4gd29ya2VyL21jcC1wcm94eSDnmoQgQ2xvdWRmbGFyZSBXb3JrZXIg6YeH55So5ZCM5LiA5aWX57qm5a6a44CCCiAqICAg5L6LOiBodHRwOi8vbG9jYWxob3N0OjE4MDYxLz90YXJnZXQ9aHR0cHMlM0ElMkYlMkZtY3AuZXhhbXBsZS5jb20lMkZtY3AKICovCgppbXBvcnQgeyBjcmVhdGVTZXJ2ZXIsIHJlcXVlc3QgYXMgaHR0cFJlcXVlc3QgfSBmcm9tICdodHRwJzsKaW1wb3J0IHsgcmVxdWVzdCBhcyBodHRwc1JlcXVlc3QgfSBmcm9tICdodHRwcyc7Cgpjb25zdCBhcmdzID0gcHJvY2Vzcy5hcmd2LnNsaWNlKDIpOwpjb25zdCBnZXRBcmcgPSAobmFtZSwgZmFsbGJhY2spID0+IHsKICAgIGNvbnN0IGlkeCA9IGFyZ3MuaW5kZXhPZihuYW1lKTsKICAgIHJldHVybiBpZHggPj0gMCAmJiBhcmdzW2lkeCArIDFdID8gYXJnc1tpZHggKyAxXSA6IGZhbGxiYWNrOwp9OwoKY29uc3QgUFJPWFlfUE9SVCA9IHBhcnNlSW50KGdldEFyZygnLS1wb3J0JywgJzE4MDYxJyksIDEwKTsKY29uc3QgVEFSR0VUID0gZ2V0QXJnKCctLXRhcmdldCcsICdodHRwOi8vbG9jYWxob3N0OjE4MDYwJyk7CmNvbnN0IFBSRVdBUk1fRU5BQkxFRCA9ICFhcmdzLmluY2x1ZGVzKCctLW5vLXByZXdhcm0nKTsKCmNvbnN0IENPUlNfSEVBREVSUyA9IHsKICAgICdBY2Nlc3MtQ29udHJvbC1BbGxvdy1PcmlnaW4nOiAnKicsCiAgICAnQWNjZXNzLUNvbnRyb2wtQWxsb3ctTWV0aG9kcyc6ICdQT1NULCBHRVQsIERFTEVURSwgT1BUSU9OUycsCiAgICAnQWNjZXNzLUNvbnRyb2wtQWxsb3ctSGVhZGVycyc6ICdDb250ZW50LVR5cGUsIEFjY2VwdCwgTWNwLVNlc3Npb24tSWQsIEF1dGhvcml6YXRpb24sIE1DUC1Qcm90b2NvbC1WZXJzaW9uLCBMYXN0LUV2ZW50LUlELCBYLU1DUC1Gb3J3YXJkLUhlYWRlcnMnLAogICAgJ0FjY2Vzcy1Db250cm9sLUV4cG9zZS1IZWFkZXJzJzogJ01jcC1TZXNzaW9uLUlkJywKICAgICdBY2Nlc3MtQ29udHJvbC1NYXgtQWdlJzogJzg2NDAwJywKfTsKCi8vID09PT09PT09PT09PT09PT09PT09IFNQQSBQcmUtd2FybSDpgLvovpEgPT09PT09PT09PT09PT09PT09PT0KCmxldCByZXF1ZXN0SWRDb3VudGVyID0gMTAwMDAwOyAvLyDnu5npooTng63or7fmsYLnlKjnmoTpq5jkvY0gaWTvvIzpgb/lhY3lkozliY3nq6/lhrLnqoEKbGV0IGxhc3RQcmV3YXJtVGltZSA9IDA7CmNvbnN0IFBSRVdBUk1fQ09PTERPV04gPSAzMF8wMDA7IC8vIDMwIOenkuWGt+WNtOacn++8jOmBv+WFjemikee5gemihOeDrQoKLyoqCiAqIOWQkSBNQ1Ag5pyN5Yqh5Zmo5Y+R6YCB5LiA5LiqIEpTT04tUlBDIOivt+axgu+8jOi/lOWbnuWujOaVtOWTjeW6lOaWh+acrAogKi8KZnVuY3Rpb24gbWNwQ2FsbChzZXNzaW9uSWQsIGpzb25ScGNCb2R5KSB7CiAgICByZXR1cm4gbmV3IFByb21pc2UoKHJlc29sdmUsIHJlamVjdCkgPT4gewogICAgICAgIGNvbnN0IHRhcmdldFVybCA9IG5ldyBVUkwoJy9tY3AnLCBUQVJHRVQpOwogICAgICAgIGNvbnN0IGJvZHlTdHIgPSBKU09OLnN0cmluZ2lmeShqc29uUnBjQm9keSk7CiAgICAgICAgY29uc3QgaGVhZGVycyA9IHsKICAgICAgICAgICAgJ0NvbnRlbnQtVHlwZSc6ICdhcHBsaWNhdGlvbi9qc29uJywKICAgICAgICAgICAgJ0FjY2VwdCc6ICdhcHBsaWNhdGlvbi9qc29uLCB0ZXh0L2V2ZW50LXN0cmVhbScsCiAgICAgICAgfTsKICAgICAgICBpZiAoc2Vzc2lvbklkKSBoZWFkZXJzWydNY3AtU2Vzc2lvbi1JZCddID0gc2Vzc2lvbklkOwoKICAgICAgICBjb25zdCByZXEgPSBodHRwUmVxdWVzdCgKICAgICAgICAgICAgewogICAgICAgICAgICAgICAgaG9zdG5hbWU6IHRhcmdldFVybC5ob3N0bmFtZSwKICAgICAgICAgICAgICAgIHBvcnQ6IHRhcmdldFVybC5wb3J0LAogICAgICAgICAgICAgICAgcGF0aDogdGFyZ2V0VXJsLnBhdGhuYW1lLAogICAgICAgICAgICAgICAgbWV0aG9kOiAnUE9TVCcsCiAgICAgICAgICAgICAgICBoZWFkZXJzLAogICAgICAgICAgICB9LAogICAgICAgICAgICAocmVzKSA9PiB7CiAgICAgICAgICAgICAgICBjb25zdCBjaHVua3MgPSBbXTsKICAgICAgICAgICAgICAgIHJlcy5vbignZGF0YScsIChjKSA9PiBjaHVua3MucHVzaChjKSk7CiAgICAgICAgICAgICAgICByZXMub24oJ2VuZCcsICgpID0+IHJlc29sdmUoQnVmZmVyLmNvbmNhdChjaHVua3MpLnRvU3RyaW5nKCkpKTsKICAgICAgICAgICAgICAgIHJlcy5vbignZXJyb3InLCByZWplY3QpOwogICAgICAgICAgICB9LAogICAgICAgICk7CiAgICAgICAgcmVxLm9uKCdlcnJvcicsIHJlamVjdCk7CiAgICAgICAgcmVxLndyaXRlKGJvZHlTdHIpOwogICAgICAgIHJlcS5lbmQoKTsKICAgIH0pOwp9CgovKioKICog6aKE54OtOiDosIPnlKggY2hlY2tfbG9naW4g6K6pIE1DUCDmtY/op4jlmajorr/pl67lsI/nuqLkuabnq5nngrkKICogY2hlY2tfbG9naW4g5Lya5a+86Iiq5Yiw5bCP57qi5Lmm5qOA5p+l55m75b2V54q25oCB77yM5LuO6ICM5Yid5aeL5YyWIFNQQQogKi8KYXN5bmMgZnVuY3Rpb24gcHJld2FybVNQQShzZXNzaW9uSWQpIHsKICAgIGNvbnN0IG5vdyA9IERhdGUubm93KCk7CiAgICBpZiAobm93IC0gbGFzdFByZXdhcm1UaW1lIDwgUFJFV0FSTV9DT09MRE9XTikgewogICAgICAgIGNvbnNvbGUubG9nKGBbcHJveHldIFNQQSDpooTng63ot7Pov4fvvIgke01hdGgucm91bmQoKFBSRVdBUk1fQ09PTERPV04gLSAobm93IC0gbGFzdFByZXdhcm1UaW1lKSkgLyAxMDAwKX3np5LlhrfljbTkuK3vvIlgKTsKICAgICAgICByZXR1cm47CiAgICB9CgogICAgY29uc29sZS5sb2coJ1twcm94eV0g8J+UpSBTUEEg6aKE54OtOiDlj5HpgIEgY2hlY2tfbG9naW4g6K6p5rWP6KeI5Zmo6K6/6Zeu5bCP57qi5LmmLi4uJyk7CiAgICB0cnkgewogICAgICAgIGNvbnN0IHJlc3AgPSBhd2FpdCBtY3BDYWxsKHNlc3Npb25JZCwgewogICAgICAgICAgICBqc29ucnBjOiAnMi4wJywKICAgICAgICAgICAgbWV0aG9kOiAndG9vbHMvY2FsbCcsCiAgICAgICAgICAgIHBhcmFtczogewogICAgICAgICAgICAgICAgbmFtZTogJ2NoZWNrX2xvZ2luJywKICAgICAgICAgICAgICAgIGFyZ3VtZW50czoge30sCiAgICAgICAgICAgIH0sCiAgICAgICAgICAgIGlkOiArK3JlcXVlc3RJZENvdW50ZXIsCiAgICAgICAgfSk7CiAgICAgICAgbGFzdFByZXdhcm1UaW1lID0gRGF0ZS5ub3coKTsKICAgICAgICBjb25zb2xlLmxvZyhgW3Byb3h5XSDwn5SlIFNQQSDpooTng63lrozmiJDvvIgke0RhdGUubm93KCkgLSBub3d9bXPvvInvvIzlk43lupQ6ICR7cmVzcC5zbGljZSgwLCAxMDApfWApOwogICAgfSBjYXRjaCAoZSkgewogICAgICAgIGNvbnNvbGUud2FybihgW3Byb3h5XSBTUEEg6aKE54Ot5aSx6LSl77yI5LiN5b2x5ZON5ZCO57ut6K+35rGC77yJOiAke2UubWVzc2FnZX1gKTsKICAgIH0KfQoKLyoqCiAqIOajgOa1i+aYr+WQpuaYryByZXBseV9jb21tZW50IOebuOWFs+eahCB0b29scy9jYWxsIOivt+axggogKi8KZnVuY3Rpb24gaXNSZXBseUNvbW1lbnRDYWxsKHBhcnNlZCkgewogICAgaWYgKHBhcnNlZD8ubWV0aG9kICE9PSAndG9vbHMvY2FsbCcpIHJldHVybiBmYWxzZTsKICAgIGNvbnN0IHRvb2xOYW1lID0gKHBhcnNlZC5wYXJhbXM/Lm5hbWUgfHwgJycpLnRvTG93ZXJDYXNlKCkucmVwbGFjZSgvW18tXS9nLCAnJyk7CiAgICByZXR1cm4gdG9vbE5hbWUuaW5jbHVkZXMoJ3JlcGx5Y29tbWVudCcpOwp9CgovLyA9PT09PT09PT09PT09PT09PT09PSBQcm94eSBTZXJ2ZXIgPT09PT09PT09PT09PT09PT09PT0KCmNyZWF0ZVNlcnZlcigocmVxLCByZXMpID0+IHsKICAgIC8vIENPUlMgcHJlZmxpZ2h0CiAgICBpZiAocmVxLm1ldGhvZCA9PT0gJ09QVElPTlMnKSB7CiAgICAgICAgLy8g6Ieq5a6a5LmJIE1DUCDpibTmnYPlpLTnmoTlkI3lrZfnlLHnlKjmiLfphY3nva7vvIzpooTmo4Dml7bljp/moLflhYHorrjmtY/op4jlmajor7fmsYLnmoTlpLTlkI3jgIIKICAgICAgICBjb25zdCByZXF1ZXN0ZWRIZWFkZXJzID0gcmVxLmhlYWRlcnNbJ2FjY2Vzcy1jb250cm9sLXJlcXVlc3QtaGVhZGVycyddOwogICAgICAgIHJlcy53cml0ZUhlYWQoMjA0LCB7CiAgICAgICAgICAgIC4uLkNPUlNfSEVBREVSUywKICAgICAgICAgICAgLi4uKHJlcXVlc3RlZEhlYWRlcnMgPyB7ICdBY2Nlc3MtQ29udHJvbC1BbGxvdy1IZWFkZXJzJzogcmVxdWVzdGVkSGVhZGVycyB9IDoge30pLAogICAgICAgIH0pOwogICAgICAgIHJlcy5lbmQoKTsKICAgICAgICByZXR1cm47CiAgICB9CgogICAgLy8gQ29sbGVjdCBib2R5CiAgICBjb25zdCBjaHVua3MgPSBbXTsKICAgIHJlcS5vbignZGF0YScsIChjKSA9PiBjaHVua3MucHVzaChjKSk7CiAgICByZXEub24oJ2VuZCcsIGFzeW5jICgpID0+IHsKICAgICAgICBjb25zdCBib2R5ID0gQnVmZmVyLmNvbmNhdChjaHVua3MpOwoKICAgICAgICAvLyDpgJrnlKjmqKHlvI86ID90YXJnZXQ9POe7neWvuVVSTD4g5LyY5YWI5LqOIC0tdGFyZ2V077yI5LiOIHdvcmtlci9tY3AtcHJveHkg57qm5a6a5LiA6Ie077yJCiAgICAgICAgY29uc3QgaW5jb21pbmdVcmwgPSBuZXcgVVJMKHJlcS51cmwsIFRBUkdFVCk7CiAgICAgICAgY29uc3QgdGFyZ2V0T3ZlcnJpZGUgPSBpbmNvbWluZ1VybC5zZWFyY2hQYXJhbXMuZ2V0KCd0YXJnZXQnKTsKICAgICAgICBsZXQgdGFyZ2V0VXJsOwogICAgICAgIGlmICh0YXJnZXRPdmVycmlkZSkgewogICAgICAgICAgICB0cnkgewogICAgICAgICAgICAgICAgdGFyZ2V0VXJsID0gbmV3IFVSTCh0YXJnZXRPdmVycmlkZSk7CiAgICAgICAgICAgIH0gY2F0Y2ggewogICAgICAgICAgICAgICAgcmVzLndyaXRlSGVhZCg0MDAsIHsgLi4uQ09SU19IRUFERVJTLCAnQ29udGVudC1UeXBlJzogJ3RleHQvcGxhaW4nIH0pOwogICAgICAgICAgICAgICAgcmVzLmVuZCgnSW52YWxpZCA/dGFyZ2V0PSBVUkwnKTsKICAgICAgICAgICAgICAgIHJldHVybjsKICAgICAgICAgICAgfQogICAgICAgIH0gZWxzZSB7CiAgICAgICAgICAgIHRhcmdldFVybCA9IGluY29taW5nVXJsOwogICAgICAgIH0KCiAgICAgICAgLy8g5Zu65a6a5Y2P6K6u5aS0ICsg5YmN56uv5piO56Gu5aOw5piO55qE6Ieq5a6a5LmJIE1DUCDlpLTjgILmjqfliLblpLTlkozku6PnkIblr4bpkqXkuI3pgI/kvKDkuIrmuLjjgIIKICAgICAgICBjb25zdCBmd2RIZWFkZXJzID0ge307CiAgICAgICAgaWYgKHJlcS5oZWFkZXJzWydjb250ZW50LXR5cGUnXSkgZndkSGVhZGVyc1snQ29udGVudC1UeXBlJ10gPSByZXEuaGVhZGVyc1snY29udGVudC10eXBlJ107CiAgICAgICAgaWYgKHJlcS5oZWFkZXJzWydhY2NlcHQnXSkgZndkSGVhZGVyc1snQWNjZXB0J10gPSByZXEuaGVhZGVyc1snYWNjZXB0J107CiAgICAgICAgaWYgKHJlcS5oZWFkZXJzWydtY3Atc2Vzc2lvbi1pZCddKSBmd2RIZWFkZXJzWydNY3AtU2Vzc2lvbi1JZCddID0gcmVxLmhlYWRlcnNbJ21jcC1zZXNzaW9uLWlkJ107CiAgICAgICAgaWYgKHJlcS5oZWFkZXJzWydhdXRob3JpemF0aW9uJ10pIGZ3ZEhlYWRlcnNbJ0F1dGhvcml6YXRpb24nXSA9IHJlcS5oZWFkZXJzWydhdXRob3JpemF0aW9uJ107CiAgICAgICAgaWYgKHJlcS5oZWFkZXJzWydtY3AtcHJvdG9jb2wtdmVyc2lvbiddKSBmd2RIZWFkZXJzWydNQ1AtUHJvdG9jb2wtVmVyc2lvbiddID0gcmVxLmhlYWRlcnNbJ21jcC1wcm90b2NvbC12ZXJzaW9uJ107CiAgICAgICAgY29uc3QgYmxvY2tlZEZvcndhcmRIZWFkZXJzID0gbmV3IFNldChbCiAgICAgICAgICAgICdob3N0JywgJ2Nvbm5lY3Rpb24nLCAnY29udGVudC1sZW5ndGgnLCAndHJhbnNmZXItZW5jb2RpbmcnLCAndXBncmFkZScsCiAgICAgICAgICAgICd4LXByb3h5LWtleScsICd4LW1jcC1mb3J3YXJkLWhlYWRlcnMnLAogICAgICAgIF0pOwogICAgICAgIGNvbnN0IGN1c3RvbUhlYWRlck5hbWVzID0gU3RyaW5nKHJlcS5oZWFkZXJzWyd4LW1jcC1mb3J3YXJkLWhlYWRlcnMnXSB8fCAnJykKICAgICAgICAgICAgLnNwbGl0KCcsJykubWFwKG5hbWUgPT4gbmFtZS50cmltKCkpLmZpbHRlcihCb29sZWFuKTsKICAgICAgICBmb3IgKGNvbnN0IG5hbWUgb2YgY3VzdG9tSGVhZGVyTmFtZXMpIHsKICAgICAgICAgICAgY29uc3QgbG93ZXIgPSBuYW1lLnRvTG93ZXJDYXNlKCk7CiAgICAgICAgICAgIGlmIChibG9ja2VkRm9yd2FyZEhlYWRlcnMuaGFzKGxvd2VyKSkgY29udGludWU7CiAgICAgICAgICAgIGNvbnN0IHZhbHVlID0gcmVxLmhlYWRlcnNbbG93ZXJdOwogICAgICAgICAgICBpZiAodmFsdWUgIT09IHVuZGVmaW5lZCkgZndkSGVhZGVyc1tuYW1lXSA9IHZhbHVlOwogICAgICAgIH0KCiAgICAgICAgLy8g5qOA5rWL5piv5ZCm6ZyA6KaBIFNQQSDpooTng60KICAgICAgICBpZiAoUFJFV0FSTV9FTkFCTEVEICYmIGJvZHkubGVuZ3RoID4gMCkgewogICAgICAgICAgICB0cnkgewogICAgICAgICAgICAgICAgY29uc3QgcGFyc2VkID0gSlNPTi5wYXJzZShib2R5LnRvU3RyaW5nKCkpOwogICAgICAgICAgICAgICAgaWYgKGlzUmVwbHlDb21tZW50Q2FsbChwYXJzZWQpKSB7CiAgICAgICAgICAgICAgICAgICAgY29uc29sZS5sb2coJ1twcm94eV0g8J+UjSDmo4DmtYvliLAgcmVwbHlfY29tbWVudCDosIPnlKjvvIzop6blj5EgU1BBIOmihOeDrS4uLicpOwogICAgICAgICAgICAgICAgICAgIGF3YWl0IHByZXdhcm1TUEEocmVxLmhlYWRlcnNbJ21jcC1zZXNzaW9uLWlkJ10pOwogICAgICAgICAgICAgICAgfQogICAgICAgICAgICB9IGNhdGNoIHsKICAgICAgICAgICAgICAgIC8vIEpTT04g6Kej5p6Q5aSx6LSl77yM5q2j5bi46L2s5Y+RCiAgICAgICAgICAgIH0KICAgICAgICB9CgogICAgICAgIC8vIEZvcndhcmQgdG8gTUNQIHNlcnZlcu+8iGh0dHBzIOebruagh+i1sCBodHRwcyDmqKHlnZfvvIkKICAgICAgICBjb25zdCByZXF1ZXN0Rm4gPSB0YXJnZXRVcmwucHJvdG9jb2wgPT09ICdodHRwczonID8gaHR0cHNSZXF1ZXN0IDogaHR0cFJlcXVlc3Q7CiAgICAgICAgY29uc3QgcHJveHlSZXEgPSByZXF1ZXN0Rm4oCiAgICAgICAgICAgIHsKICAgICAgICAgICAgICAgIGhvc3RuYW1lOiB0YXJnZXRVcmwuaG9zdG5hbWUsCiAgICAgICAgICAgICAgICBwb3J0OiB0YXJnZXRVcmwucG9ydCB8fCAodGFyZ2V0VXJsLnByb3RvY29sID09PSAnaHR0cHM6JyA/IDQ0MyA6IDgwKSwKICAgICAgICAgICAgICAgIHBhdGg6IHRhcmdldFVybC5wYXRobmFtZSArIHRhcmdldFVybC5zZWFyY2gsCiAgICAgICAgICAgICAgICBtZXRob2Q6IHJlcS5tZXRob2QsCiAgICAgICAgICAgICAgICBoZWFkZXJzOiBmd2RIZWFkZXJzLAogICAgICAgICAgICB9LAogICAgICAgICAgICAocHJveHlSZXMpID0+IHsKICAgICAgICAgICAgICAgIC8vIEJ1aWxkIHJlc3BvbnNlIGhlYWRlcnM6IENPUlMgKyBmb3J3YXJkZWQKICAgICAgICAgICAgICAgIGNvbnN0IHJlc3BIZWFkZXJzID0geyAuLi5DT1JTX0hFQURFUlMgfTsKICAgICAgICAgICAgICAgIGNvbnN0IGN0ID0gcHJveHlSZXMuaGVhZGVyc1snY29udGVudC10eXBlJ107CiAgICAgICAgICAgICAgICBpZiAoY3QpIHJlc3BIZWFkZXJzWydDb250ZW50LVR5cGUnXSA9IGN0OwogICAgICAgICAgICAgICAgY29uc3Qgc2lkID0gcHJveHlSZXMuaGVhZGVyc1snbWNwLXNlc3Npb24taWQnXTsKICAgICAgICAgICAgICAgIGlmIChzaWQpIHJlc3BIZWFkZXJzWydNY3AtU2Vzc2lvbi1JZCddID0gc2lkOwoKICAgICAgICAgICAgICAgIHJlcy53cml0ZUhlYWQocHJveHlSZXMuc3RhdHVzQ29kZSB8fCAyMDAsIHJlc3BIZWFkZXJzKTsKICAgICAgICAgICAgICAgIHByb3h5UmVzLnBpcGUocmVzKTsKICAgICAgICAgICAgfSwKICAgICAgICApOwoKICAgICAgICBwcm94eVJlcS5vbignZXJyb3InLCAoZSkgPT4gewogICAgICAgICAgICBjb25zb2xlLmVycm9yKGBbcHJveHldIEVycm9yIGZvcndhcmRpbmcgdG8gJHtUQVJHRVR9OiAke2UubWVzc2FnZX1gKTsKICAgICAgICAgICAgcmVzLndyaXRlSGVhZCg1MDIsIHsgLi4uQ09SU19IRUFERVJTLCAnQ29udGVudC1UeXBlJzogJ3RleHQvcGxhaW4nIH0pOwogICAgICAgICAgICByZXMuZW5kKGBQcm94eSBlcnJvcjogJHtlLm1lc3NhZ2V9YCk7CiAgICAgICAgfSk7CgogICAgICAgIGlmIChib2R5Lmxlbmd0aCA+IDApIHByb3h5UmVxLndyaXRlKGJvZHkpOwogICAgICAgIHByb3h5UmVxLmVuZCgpOwogICAgfSk7Cn0pLmxpc3RlbihQUk9YWV9QT1JULCAoKSA9PiB7CiAgICBjb25zb2xlLmxvZyhgTUNQIENPUlMgUHJveHkgc3RhcnRlZGApOwogICAgY29uc29sZS5sb2coYCAgUHJveHk6ICBodHRwOi8vbG9jYWxob3N0OiR7UFJPWFlfUE9SVH0vbWNwYCk7CiAgICBjb25zb2xlLmxvZyhgICBUYXJnZXQ6ICR7VEFSR0VUfS9tY3BgKTsKICAgIGNvbnNvbGUubG9nKGAgIFNQQSBQcmUtd2FybTogJHtQUkVXQVJNX0VOQUJMRUQgPyAnRU5BQkxFRCcgOiAnZGlzYWJsZWQnfWApOwogICAgY29uc29sZS5sb2coYFxuU2V0IHlvdXIgTUNQIFVSTCB0bzogaHR0cDovL2xvY2FsaG9zdDoke1BST1hZX1BPUlR9L21jcGApOwp9KTsK
+#!/usr/bin/env node
+/**
+ * MCP CORS Proxy (with SPA Pre-warm for reply_comment)
+ *
+ * xiaohongshu-mcp 服务器缺少 Access-Control-Expose-Headers: Mcp-Session-Id，
+ * 导致浏览器读不到 session ID，MCP 协议无法正常工作。
+ *
+ * 这个代理转发所有请求到 MCP 服务器，并添加正确的 CORS 头。
+ *
+ * 额外功能: reply_comment SPA 预热
+ * 小红书是 SPA，直接打开帖子 URL 时路由初始化不完整，评论区 DOM 不渲染。
+ * 代理检测到 reply_comment 调用时，先发一个 check_login 让 MCP 浏览器访问
+ * 小红书（预热 SPA），然后再转发原始请求。这样 reply_comment 导航到帖子时
+ * SPA JS 已缓存，评论区更可能正常渲染。
+ *
+ * 用法:
+ *   node scripts/mcp-proxy.mjs                           # 默认: 代理 18061 → MCP 18060
+ *   node scripts/mcp-proxy.mjs --port 19000              # 自定义代理端口
+ *   node scripts/mcp-proxy.mjs --target http://localhost:9090  # 自定义 MCP 地址
+ *   node scripts/mcp-proxy.mjs --no-prewarm              # 禁用 SPA 预热
+ *
+ * 然后在应用设置里把 MCP URL 改为: http://localhost:18061/mcp
+ *
+ * 通用 MCP 模式（配合设置里的「代理 URL」）:
+ *   请求带 ?target=<url-encoded MCP URL> 时，转发到该地址而不是 --target，
+ *   与 worker/mcp-proxy 的 Cloudflare Worker 采用同一套约定。
+ *   例: http://localhost:18061/?target=https%3A%2F%2Fmcp.example.com%2Fmcp
+ */
+
+import { createServer, request as httpRequest } from 'http';
+import { request as httpsRequest } from 'https';
+
+const args = process.argv.slice(2);
+const getArg = (name, fallback) => {
+    const idx = args.indexOf(name);
+    return idx >= 0 && args[idx + 1] ? args[idx + 1] : fallback;
+};
+
+const PROXY_PORT = parseInt(getArg('--port', '18061'), 10);
+const TARGET = getArg('--target', 'http://localhost:18060');
+const PREWARM_ENABLED = !args.includes('--no-prewarm');
+
+const CORS_HEADERS = {
+    'Access-Control-Allow-Origin': '*',
+    'Access-Control-Allow-Methods': 'POST, GET, DELETE, OPTIONS',
+    'Access-Control-Allow-Headers': 'Content-Type, Accept, Mcp-Session-Id, Authorization, MCP-Protocol-Version, Last-Event-ID, X-MCP-Forward-Headers',
+    'Access-Control-Expose-Headers': 'Mcp-Session-Id',
+    'Access-Control-Max-Age': '86400',
+};
+
+// ==================== SPA Pre-warm 逻辑 ====================
+
+let requestIdCounter = 100000; // 给预热请求用的高位 id，避免和前端冲突
+let lastPrewarmTime = 0;
+const PREWARM_COOLDOWN = 30_000; // 30 秒冷却期，避免频繁预热
+
+/**
+ * 向 MCP 服务器发送一个 JSON-RPC 请求，返回完整响应文本
+ */
+function mcpCall(sessionId, jsonRpcBody) {
+    return new Promise((resolve, reject) => {
+        const targetUrl = new URL('/mcp', TARGET);
+        const bodyStr = JSON.stringify(jsonRpcBody);
+        const headers = {
+            'Content-Type': 'application/json',
+            'Accept': 'application/json, text/event-stream',
+        };
+        if (sessionId) headers['Mcp-Session-Id'] = sessionId;
+
+        const req = httpRequest(
+            {
+                hostname: targetUrl.hostname,
+                port: targetUrl.port,
+                path: targetUrl.pathname,
+                method: 'POST',
+                headers,
+            },
+            (res) => {
+                const chunks = [];
+                res.on('data', (c) => chunks.push(c));
+                res.on('end', () => resolve(Buffer.concat(chunks).toString()));
+                res.on('error', reject);
+            },
+        );
+        req.on('error', reject);
+        req.write(bodyStr);
+        req.end();
+    });
+}
+
+/**
+ * 预热: 调用 check_login 让 MCP 浏览器访问小红书站点
+ * check_login 会导航到小红书检查登录状态，从而初始化 SPA
+ */
+async function prewarmSPA(sessionId) {
+    const now = Date.now();
+    if (now - lastPrewarmTime < PREWARM_COOLDOWN) {
+        console.log(`[proxy] SPA 预热跳过（${Math.round((PREWARM_COOLDOWN - (now - lastPrewarmTime)) / 1000)}秒冷却中）`);
+        return;
+    }
+
+    console.log('[proxy] 🔥 SPA 预热: 发送 check_login 让浏览器访问小红书...');
+    try {
+        const resp = await mcpCall(sessionId, {
+            jsonrpc: '2.0',
+            method: 'tools/call',
+            params: {
+                name: 'check_login',
+                arguments: {},
+            },
+            id: ++requestIdCounter,
+        });
+        lastPrewarmTime = Date.now();
+        console.log(`[proxy] 🔥 SPA 预热完成（${Date.now() - now}ms），响应: ${resp.slice(0, 100)}`);
+    } catch (e) {
+        console.warn(`[proxy] SPA 预热失败（不影响后续请求）: ${e.message}`);
+    }
+}
+
+/**
+ * 检测是否是 reply_comment 相关的 tools/call 请求
+ */
+function isReplyCommentCall(parsed) {
+    if (parsed?.method !== 'tools/call') return false;
+    const toolName = (parsed.params?.name || '').toLowerCase().replace(/[_-]/g, '');
+    return toolName.includes('replycomment');
+}
+
+// ==================== Proxy Server ====================
+
+createServer((req, res) => {
+    // CORS preflight
+    if (req.method === 'OPTIONS') {
+        // 自定义 MCP 鉴权头的名字由用户配置，预检时原样允许浏览器请求的头名。
+        const requestedHeaders = req.headers['access-control-request-headers'];
+        res.writeHead(204, {
+            ...CORS_HEADERS,
+            ...(requestedHeaders ? { 'Access-Control-Allow-Headers': requestedHeaders } : {}),
+        });
+        res.end();
+        return;
+    }
+
+    // Collect body
+    const chunks = [];
+    req.on('data', (c) => chunks.push(c));
+    req.on('end', async () => {
+        const body = Buffer.concat(chunks);
+
+        // 通用模式: ?target=<绝对URL> 优先于 --target（与 worker/mcp-proxy 约定一致）
+        const incomingUrl = new URL(req.url, TARGET);
+        const targetOverride = incomingUrl.searchParams.get('target');
+        let targetUrl;
+        if (targetOverride) {
+            try {
+                targetUrl = new URL(targetOverride);
+            } catch {
+                res.writeHead(400, { ...CORS_HEADERS, 'Content-Type': 'text/plain' });
+                res.end('Invalid ?target= URL');
+                return;
+            }
+        } else {
+            targetUrl = incomingUrl;
+        }
+
+        // 固定协议头 + 前端明确声明的自定义 MCP 头。控制头和代理密钥不透传上游。
+        const fwdHeaders = {};
+        if (req.headers['content-type']) fwdHeaders['Content-Type'] = req.headers['content-type'];
+        if (req.headers['accept']) fwdHeaders['Accept'] = req.headers['accept'];
+        if (req.headers['mcp-session-id']) fwdHeaders['Mcp-Session-Id'] = req.headers['mcp-session-id'];
+        if (req.headers['authorization']) fwdHeaders['Authorization'] = req.headers['authorization'];
+        if (req.headers['mcp-protocol-version']) fwdHeaders['MCP-Protocol-Version'] = req.headers['mcp-protocol-version'];
+        const blockedForwardHeaders = new Set([
+            'host', 'connection', 'content-length', 'transfer-encoding', 'upgrade',
+            'x-proxy-key', 'x-mcp-forward-headers',
+        ]);
+        const customHeaderNames = String(req.headers['x-mcp-forward-headers'] || '')
+            .split(',').map(name => name.trim()).filter(Boolean);
+        for (const name of customHeaderNames) {
+            const lower = name.toLowerCase();
+            if (blockedForwardHeaders.has(lower)) continue;
+            const value = req.headers[lower];
+            if (value !== undefined) fwdHeaders[name] = value;
+        }
+
+        // 检测是否需要 SPA 预热
+        if (PREWARM_ENABLED && body.length > 0) {
+            try {
+                const parsed = JSON.parse(body.toString());
+                if (isReplyCommentCall(parsed)) {
+                    console.log('[proxy] 🔍 检测到 reply_comment 调用，触发 SPA 预热...');
+                    await prewarmSPA(req.headers['mcp-session-id']);
+                }
+            } catch {
+                // JSON 解析失败，正常转发
+            }
+        }
+
+        // Forward to MCP server（https 目标走 https 模块）
+        const requestFn = targetUrl.protocol === 'https:' ? httpsRequest : httpRequest;
+        const proxyReq = requestFn(
+            {
+                hostname: targetUrl.hostname,
+                port: targetUrl.port || (targetUrl.protocol === 'https:' ? 443 : 80),
+                path: targetUrl.pathname + targetUrl.search,
+                method: req.method,
+                headers: fwdHeaders,
+            },
+            (proxyRes) => {
+                // Build response headers: CORS + forwarded
+                const respHeaders = { ...CORS_HEADERS };
+                const ct = proxyRes.headers['content-type'];
+                if (ct) respHeaders['Content-Type'] = ct;
+                const sid = proxyRes.headers['mcp-session-id'];
+                if (sid) respHeaders['Mcp-Session-Id'] = sid;
+
+                res.writeHead(proxyRes.statusCode || 200, respHeaders);
+                proxyRes.pipe(res);
+            },
+        );
+
+        proxyReq.on('error', (e) => {
+            console.error(`[proxy] Error forwarding to ${TARGET}: ${e.message}`);
+            res.writeHead(502, { ...CORS_HEADERS, 'Content-Type': 'text/plain' });
+            res.end(`Proxy error: ${e.message}`);
+        });
+
+        if (body.length > 0) proxyReq.write(body);
+        proxyReq.end();
+    });
+}).listen(PROXY_PORT, () => {
+    console.log(`MCP CORS Proxy started`);
+    console.log(`  Proxy:  http://localhost:${PROXY_PORT}/mcp`);
+    console.log(`  Target: ${TARGET}/mcp`);
+    console.log(`  SPA Pre-warm: ${PREWARM_ENABLED ? 'ENABLED' : 'disabled'}`);
+    console.log(`\nSet your MCP URL to: http://localhost:${PROXY_PORT}/mcp`);
+});

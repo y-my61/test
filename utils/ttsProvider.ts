@@ -1,1 +1,55 @@
-LyoqCiAqIOWFqOWxgCBUVFMg5pyN5Yqh5ZWG6YCJ5oup77yITWluaU1heCDihpQg6bG85aOwIEZpc2ggQXVkaW/vvInjgIIKICoKICog5aSn5aSa5pWw6K+t6Z+z5ZCI5oiQ5YWl5Y+j6YO96IO95ou/5YiwIGFwaUNvbmZpZ++8jOebtOaOpeeUqCBgcmVzb2x2ZVR0c1Byb3ZpZGVyKGFwaUNvbmZpZylgIOWNs+WPr+OAggogKiDkvYblsJHmlbDlnLDmlrnvvIjlpoIgY2hhdFByb21wdHMuYnVpbGRTeXN0ZW1Qcm9tcHQg5ou86K+t6Z+z5qC85byP5oyH5a+85pe277yJ5ou/5LiN5YiwIGFwaUNvbmZpZ++8jAogKiDmiYDku6Xov5nph4zpop3lpJbnu7TmiqTkuIDkuKrmqKHlnZfnuqfljZXkvovvvJpPU0NvbnRleHQg5ZyoIGFwaUNvbmZpZy50dHNQcm92aWRlciDlj5jljJbml7YKICog6LCDIHNldFR0c1Byb3ZpZGVyKCkg5ZCM5q2l77yMcHJvbXB0IOS+p+eUqCBnZXRUdHNQcm92aWRlcigpIOivu+acgOaWsOWAvOOAggogKiDvvIjkuI4gbWluaW1heEVuZHBvaW50IOmHjOeahCByZWdpb24g5Y2V5L6L5ZCM5LiA5aWX5oCd6Lev44CC77yJCiAqLwppbXBvcnQgdHlwZSB7IEFQSUNvbmZpZywgVHRzUHJvdmlkZXIgfSBmcm9tICcuLi90eXBlcyc7CgpleHBvcnQgY29uc3Qgbm9ybWFsaXplVHRzUHJvdmlkZXIgPSAocmF3OiB1bmtub3duKTogVHRzUHJvdmlkZXIgPT4KICByYXcgPT09ICdmaXNoYXVkaW8nID8gJ2Zpc2hhdWRpbycgOiAnbWluaW1heCc7CgpsZXQgY3VycmVudFByb3ZpZGVyOiBUdHNQcm92aWRlciA9ICdtaW5pbWF4JzsKCmV4cG9ydCBmdW5jdGlvbiBzZXRUdHNQcm92aWRlcihwcm92aWRlcjogVHRzUHJvdmlkZXIgfCBzdHJpbmcgfCB1bmRlZmluZWQgfCBudWxsKTogdm9pZCB7CiAgY3VycmVudFByb3ZpZGVyID0gbm9ybWFsaXplVHRzUHJvdmlkZXIocHJvdmlkZXIpOwp9CgpleHBvcnQgZnVuY3Rpb24gZ2V0VHRzUHJvdmlkZXIoKTogVHRzUHJvdmlkZXIgewogIHJldHVybiBjdXJyZW50UHJvdmlkZXI7Cn0KCi8qKiDku44gYXBpQ29uZmlnIOino+aekOW9k+WJjSBUVFMg5pyN5Yqh5ZWG77yI57y655yBIOKGkiBtaW5pbWF477yJ44CCICovCmV4cG9ydCBjb25zdCByZXNvbHZlVHRzUHJvdmlkZXIgPSAoYXBpQ29uZmlnPzogUGljazxBUElDb25maWcsICd0dHNQcm92aWRlcic+IHwgbnVsbCk6IFR0c1Byb3ZpZGVyID0+CiAgbm9ybWFsaXplVHRzUHJvdmlkZXIoYXBpQ29uZmlnPy50dHNQcm92aWRlcik7CgovKioKICog55So5oi36Ieq5a6a5LmJ44CM6K+t6Z+z6KGo5ryU5oyH5Y2X44CN6KaG55uW44CCCiAqIOS4jiB0dHNQcm92aWRlciDljZXkvovlkIzkuIDlpZfmgJ3ot6/vvJpjaGF0UHJvbXB0cyAvIGRhdGVQcm9tcHRzIOaLvOivremfs+agvOW8j+aMh+WvvOaXtuaLv+S4jeWIsCBhcGlDb25maWfvvIwKICog5omA5LulIE9TQ29udGV4dCDlnKggYXBpQ29uZmlnLnZvaWNlUHJvbXB0cyDlj5jljJbml7bosIMgc2V0Vm9pY2VQcm9tcHRPdmVycmlkZXMoKSDlkIzmraXvvIwKICogcHJvbXB0IOS+p+eUqCBnZXRWb2ljZVByb21wdE92ZXJyaWRlKCkg6K+75pyA5paw5YC844CC5p+Q6aG555WZ56m6IOKGkiDov5Tlm54gdW5kZWZpbmVkIOKGkiDosIPnlKjmlrnlm57pgIDlhoXnva7pu5jorqTjgIIKICoKICog5LiJ5Liq6ZSu77yaCiAqICAgLSAnbWluaW1heCcgLyAnZmlzaGF1ZGlvJ++8muiBiuWkqSArIOeUteivneWFseeUqOeahOivremfs+ihqOa8lOaMh+WNl++8jOaMiSBUVFMg5pyN5Yqh5ZWG5LqM6YCJ5LiA5rOo5YWl44CCCiAqICAgLSAnZGF0ZVZvaWNlJ++8muingemdou+8iERhdGVBcHDvvInkuJPnlKjnmoQgW3Y6eHh4XSDor63pn7Pmg4Xnu6rop4TliJnvvIzkuI7mnI3liqHllYbml6DlhbPjgIHljZXni6zkuIDku73jgIIKICovCmV4cG9ydCB0eXBlIFZvaWNlUHJvbXB0S2V5ID0gVHRzUHJvdmlkZXIgfCAnZGF0ZVZvaWNlJzsKCmxldCB2b2ljZVByb21wdE92ZXJyaWRlczogUGFydGlhbDxSZWNvcmQ8Vm9pY2VQcm9tcHRLZXksIHN0cmluZz4+ID0ge307CgpleHBvcnQgZnVuY3Rpb24gc2V0Vm9pY2VQcm9tcHRPdmVycmlkZXMob3ZlcnJpZGVzOiBBUElDb25maWdbJ3ZvaWNlUHJvbXB0cyddIHwgdW5kZWZpbmVkIHwgbnVsbCk6IHZvaWQgewogIHZvaWNlUHJvbXB0T3ZlcnJpZGVzID0gewogICAgbWluaW1heDogdHlwZW9mIG92ZXJyaWRlcz8ubWluaW1heCA9PT0gJ3N0cmluZycgPyBvdmVycmlkZXMubWluaW1heCA6IHVuZGVmaW5lZCwKICAgIGZpc2hhdWRpbzogdHlwZW9mIG92ZXJyaWRlcz8uZmlzaGF1ZGlvID09PSAnc3RyaW5nJyA/IG92ZXJyaWRlcy5maXNoYXVkaW8gOiB1bmRlZmluZWQsCiAgICBkYXRlVm9pY2U6IHR5cGVvZiBvdmVycmlkZXM/LmRhdGVWb2ljZSA9PT0gJ3N0cmluZycgPyBvdmVycmlkZXMuZGF0ZVZvaWNlIDogdW5kZWZpbmVkLAogIH07Cn0KCi8qKiDlj5bmn5DpobnnmoToh6rlrprkuYnor63pn7PmjIfljZfvvJvnqbrnmb0gLyDmnKrorr4g4oaSIHVuZGVmaW5lZO+8iOiwg+eUqOaWueeUqOWGhee9rum7mOiupOWFnOW6le+8ieOAgiAqLwpleHBvcnQgZnVuY3Rpb24gZ2V0Vm9pY2VQcm9tcHRPdmVycmlkZShrZXk6IFZvaWNlUHJvbXB0S2V5KTogc3RyaW5nIHwgdW5kZWZpbmVkIHsKICBjb25zdCB2ID0gdm9pY2VQcm9tcHRPdmVycmlkZXNba2V5XTsKICByZXR1cm4gdiAmJiB2LnRyaW0oKSA/IHYgOiB1bmRlZmluZWQ7Cn0K
+/**
+ * 全局 TTS 服务商选择（MiniMax ↔ 鱼声 Fish Audio）。
+ *
+ * 大多数语音合成入口都能拿到 apiConfig，直接用 `resolveTtsProvider(apiConfig)` 即可。
+ * 但少数地方（如 chatPrompts.buildSystemPrompt 拼语音格式指导时）拿不到 apiConfig，
+ * 所以这里额外维护一个模块级单例：OSContext 在 apiConfig.ttsProvider 变化时
+ * 调 setTtsProvider() 同步，prompt 侧用 getTtsProvider() 读最新值。
+ * （与 minimaxEndpoint 里的 region 单例同一套思路。）
+ */
+import type { APIConfig, TtsProvider } from '../types';
+
+export const normalizeTtsProvider = (raw: unknown): TtsProvider =>
+  raw === 'fishaudio' ? 'fishaudio' : 'minimax';
+
+let currentProvider: TtsProvider = 'minimax';
+
+export function setTtsProvider(provider: TtsProvider | string | undefined | null): void {
+  currentProvider = normalizeTtsProvider(provider);
+}
+
+export function getTtsProvider(): TtsProvider {
+  return currentProvider;
+}
+
+/** 从 apiConfig 解析当前 TTS 服务商（缺省 → minimax）。 */
+export const resolveTtsProvider = (apiConfig?: Pick<APIConfig, 'ttsProvider'> | null): TtsProvider =>
+  normalizeTtsProvider(apiConfig?.ttsProvider);
+
+/**
+ * 用户自定义「语音表演指南」覆盖。
+ * 与 ttsProvider 单例同一套思路：chatPrompts / datePrompts 拼语音格式指导时拿不到 apiConfig，
+ * 所以 OSContext 在 apiConfig.voicePrompts 变化时调 setVoicePromptOverrides() 同步，
+ * prompt 侧用 getVoicePromptOverride() 读最新值。某项留空 → 返回 undefined → 调用方回退内置默认。
+ *
+ * 三个键：
+ *   - 'minimax' / 'fishaudio'：聊天 + 电话共用的语音表演指南，按 TTS 服务商二选一注入。
+ *   - 'dateVoice'：见面（DateApp）专用的 [v:xxx] 语音情绪规则，与服务商无关、单独一份。
+ */
+export type VoicePromptKey = TtsProvider | 'dateVoice';
+
+let voicePromptOverrides: Partial<Record<VoicePromptKey, string>> = {};
+
+export function setVoicePromptOverrides(overrides: APIConfig['voicePrompts'] | undefined | null): void {
+  voicePromptOverrides = {
+    minimax: typeof overrides?.minimax === 'string' ? overrides.minimax : undefined,
+    fishaudio: typeof overrides?.fishaudio === 'string' ? overrides.fishaudio : undefined,
+    dateVoice: typeof overrides?.dateVoice === 'string' ? overrides.dateVoice : undefined,
+  };
+}
+
+/** 取某项的自定义语音指南；空白 / 未设 → undefined（调用方用内置默认兜底）。 */
+export function getVoicePromptOverride(key: VoicePromptKey): string | undefined {
+  const v = voicePromptOverrides[key];
+  return v && v.trim() ? v : undefined;
+}

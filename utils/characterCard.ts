@@ -1,1 +1,75 @@
-aW1wb3J0IHsgQ2hhcmFjdGVyUHJvZmlsZSB9IGZyb20gJy4uL3R5cGVzJzsKCi8qKgogKiDop5LoibLljaHliIbkuqvml7blv4XpobvliaXnprvnmoTlrZfmrrXmuIXljZXjgIIKICoKICog6KeS6Imy5Y2h5piv5ou/5p2l5YiG5Lqr44CM6KeS6Imy44CN5pys6Lqr55qE77yI5Lq66K6+44CB5LiW55WM6KeC44CB56uL57uY44CB5LiW55WM5Lmm4oCm4oCm77yJ77yMCiAqIOS4jeivpeaKiuWPkeWNoeS6uuiHquW3seeahOengeWvhuWHreaNruOAgeeVjOmdoue+juWMluOAgeacrOWcsOWBj+WlveWSjOi/kOihjOaXtuaui+eVmeS4gOi1t+W4puWHuuWOu+OAggogKiDljoblj7LkuIrlr7zlh7rotbDnmoTmmK/jgIzpu5HlkI3ljZXlj6rliZQgNiDkuKrlrZfmrrXjgIHlhbbkvZkgLi4uY2FyZFByb3BzIOWFqOWvvOWHuuOAjeeahOWGmeazle+8jAogKiDlr7zoh7TkuIvpnaLov5nkupvkuJzopb/lhajooqvmiZPljIXov5vljaHph4zvvIzliKvkurrkuIDlr7zlhaXlsLHmlbTlpZfmjqXnrqHigJTigJTlsKTlhbbmmK8gQVBJIOWvhumSpe+8jAogKiDlsZ7kuo7ngb7pmr7nuqfms4TmvI/jgILov5nph4zmlLnmiJDkuIDku73mmL7lvI/muIXljZXvvIwqKuWvvOWHuuaXtuS4jeWGmeWHuuOAgeWvvOWFpeaXtuS5n+S4jeivu+WFpSoq77yMCiAqIOWPjOWQkemDvei/h+S4gOmBje+8muWNs+S+v+WIq+S6uue7meS9oOS4gOW8oOiAgeeJiOacrO+8iOW3sue7j+aKiuWvhumSpeaJk+i/m+WOu+eahO+8ieWNoe+8jOWvvOWFpei/meS+p+S5n+S8muWJpeaOieOAggogKgogKiDliIblm5vnsbvvvJoKICogIDEpIOWHreaNru+8muS7u+S9leWGheW1jCBBUEkga2V5IOeahOmFjee9ruWvueixoe+8jOaVtOS9k+WJlOmZpO+8iGVtb3Rpb24gYnVmZiAvIOWQkemHjyAvIOS4u+WKqOa2iOaBr+WJryBBUEnvvInjgIIKICogIDIpIOe+juWMlu+8muS4u+mimOOAgeeZveahhiBDU1PjgIHmsJTms6HjgIHog4zmma/jgIHmj5DnpLrpn7PjgIHmgJ3ogIPpk77moLflvI/igJTigJTmjqXmlLbmlrnnlKjoh6rlt7HnmoTjgIIKICogIDMpIOivreiogO+8muWQhOWkhOivremfs+ivreiogCAvIOW8gOWFs+WBj+WlveKAlOKAlOaOpeaUtuaWueeahOacrOWcsOWBj+Wlve+8jOS4jeivpeiiq+WNoeimhuebluOAggogKiAgNCkg6L+Q6KGM5pe254q25oCB77yaYnVmZuOAgeWuq+auv+azqOWFpeOAgeingemdoi/lsI/lsYvlrZjmoaPjgIHmn6XmiYvmnLrmlbDmja7nrYnlj5HljaHkurrlvZPkuIvnirbmgIHmrovnlZnjgIIKICovCmV4cG9ydCBjb25zdCBDQVJEX1NUUklQUEVEX0ZJRUxEUyA9IFsKICAvLyAxKSDlh63mja7vvIjlkKsgYXBpS2V577yM54G+6Zq+57qn5rOE5ryP77yJCiAgJ2Vtb3Rpb25Db25maWcnLAogICdlbWJlZGRpbmdDb25maWcnLAogICdwcm9hY3RpdmVDb25maWcnLAogICdhY3RpdmVNc2cyQ29uZmlnJywKCiAgLy8gMikg576O5YyWCiAgJ2VtYmVkZGVkVGhlbWUnLCAgICAgICAgICAgLy8gQ2hhcmFjdGVyRXhwb3J0RGF0YSDkuIrnmoTlhoXltYzkuLvpopjvvIjlr7zlhaXkvqfkuIDlubbliaXnprvvvIkKICAnYnViYmxlU3R5bGUnLAogICdjaGF0RmluZVR1bmUnLCAgICAgICAgICAgIC8vIOiBiuWkqeijheaJru+8iOe7huiKguW+ruiwg+eahOinkuiJsue6p+imhueblu+8ie+8muWPkeWNoeS6uueahOeVjOmdouWBj+Wlve+8jOaOpeaUtuaWueeUqOiHquW3seeahAogICdjaHJvbWVDdXN0b21Dc3MnLAogICdjaGF0U291bmQnLAogICdjaGF0U291bmRCb3VuZCcsCiAgJ2NoYXRCYWNrZ3JvdW5kJywKICAnZGF0ZUJhY2tncm91bmQnLAogICd0aGlua2luZ0NoYWluU3R5bGUnLAogICd0aGlua2luZ0NoYWluQ3VzdG9tQ29sb3JzJywKICAndGhpbmtpbmdDaGFpbkN1c3RvbVByb21wdCcsCiAgJ3RoaW5raW5nQ2hhaW5DdXN0b21Dc3MnLAoKICAvLyAzKSDor63oqIAgLyDor63pn7MgLyDnu4Tnu4fnsbvmnKzlnLDlgY/lpb0KICAnZ3JvdXBJZCcsICAgICAgICAgICAgICAgICAvLyDop5LoibLliIbnu4TmmK/lj5HljaHkurroh6rlt7HnmoTmlbTnkIbmlrnlvI/vvIzmjIflkJHnmoTliIbnu4QgaWQg5Zyo5o6l5pS25pa55pys5Zyw5Lmf5LiN5a2Y5ZyoCiAgJ2NoYXRWb2ljZUxhbmcnLAogICdkYXRlVm9pY2VMYW5nJywKICAnY2FsbFZvaWNlTGFuZycsCiAgJ2NoYXRWb2ljZUVuYWJsZWQnLAogICdkYXRlVm9pY2VFbmFibGVkJywKCiAgLy8gNCkg6L+Q6KGM5pe254q25oCB5q6L55WZCiAgJ2FjdGl2ZUJ1ZmZzJywKICAnYnVmZkluamVjdGlvbicsCiAgJ21lbW9yeVBhbGFjZUluamVjdGlvbicsCiAgJ3NhdmVkRGF0ZVN0YXRlJywKICAnc2F2ZWRSb29tU3RhdGUnLAogICdsYXN0Um9vbURhdGUnLAogICdwaG9uZVN0YXRlJywKICAnZHJlYW1Mb2dzJywKICAnc3BlY2lhbE1vbWVudFJlY29yZHMnLAogICd2clN0YXRlJywKICAnY2hpYmlTdHVkaW8nLApdIGFzIGNvbnN0OwoKLyoqCiAqIOS7juS4gOS7veinkuiJsuWNoeaVsOaNrumHjOWJlOmZpOaJgOacieaVj+aEnyAvIOengeWvhiAvIOi/kOihjOaXtuWtl+aute+8jOi/lOWbnua1heaLt+i0neOAggogKiDlr7zlh7rvvIjnlJ/miJDliIbkuqvmlofku7bvvInlkozlr7zlhaXvvIjokL3lupPliY3vvInpg73osIPnlKjlroPvvIzkv53or4HkuKTkuKrmlrnlkJHkuIDoh7TjgIIKICovCmV4cG9ydCBmdW5jdGlvbiBzdHJpcFNlbnNpdGl2ZUNhcmRGaWVsZHM8VCBleHRlbmRzIFJlY29yZDxzdHJpbmcsIGFueT4+KGRhdGE6IFQpOiBUIHsKICBjb25zdCBjbG9uZTogUmVjb3JkPHN0cmluZywgYW55PiA9IHsgLi4uZGF0YSB9OwogIGZvciAoY29uc3Qga2V5IG9mIENBUkRfU1RSSVBQRURfRklFTERTKSB7CiAgICBkZWxldGUgY2xvbmVba2V5XTsKICB9CiAgcmV0dXJuIGNsb25lIGFzIFQ7Cn0KCi8qKiDkvpvnsbvlnovmlLbnqoTnlKjvvJpDaGFyYWN0ZXJQcm9maWxlIOS4iuiiq+WJpeemu+aOieeahOmUruOAgiAqLwpleHBvcnQgdHlwZSBTdHJpcHBlZENhcmRGaWVsZCA9IEV4dHJhY3Q8a2V5b2YgQ2hhcmFjdGVyUHJvZmlsZSwgdHlwZW9mIENBUkRfU1RSSVBQRURfRklFTERTW251bWJlcl0+Owo=
+import { CharacterProfile } from '../types';
+
+/**
+ * 角色卡分享时必须剥离的字段清单。
+ *
+ * 角色卡是拿来分享「角色」本身的（人设、世界观、立绘、世界书……），
+ * 不该把发卡人自己的私密凭据、界面美化、本地偏好和运行时残留一起带出去。
+ * 历史上导出走的是「黑名单只剔 6 个字段、其余 ...cardProps 全导出」的写法，
+ * 导致下面这些东西全被打包进卡里，别人一导入就整套接管——尤其是 API 密钥，
+ * 属于灾难级泄漏。这里改成一份显式清单，**导出时不写出、导入时也不读入**，
+ * 双向都过一遍：即便别人给你一张老版本（已经把密钥打进去的）卡，导入这侧也会剥掉。
+ *
+ * 分四类：
+ *  1) 凭据：任何内嵌 API key 的配置对象，整体剔除（emotion buff / 向量 / 主动消息副 API）。
+ *  2) 美化：主题、白框 CSS、气泡、背景、提示音、思考链样式——接收方用自己的。
+ *  3) 语言：各处语音语言 / 开关偏好——接收方的本地偏好，不该被卡覆盖。
+ *  4) 运行时状态：buff、宫殿注入、见面/小屋存档、查手机数据等发卡人当下状态残留。
+ */
+export const CARD_STRIPPED_FIELDS = [
+  // 1) 凭据（含 apiKey，灾难级泄漏）
+  'emotionConfig',
+  'embeddingConfig',
+  'proactiveConfig',
+  'activeMsg2Config',
+
+  // 2) 美化
+  'embeddedTheme',           // CharacterExportData 上的内嵌主题（导入侧一并剥离）
+  'bubbleStyle',
+  'chatFineTune',            // 聊天装扮（细节微调的角色级覆盖）：发卡人的界面偏好，接收方用自己的
+  'chromeCustomCss',
+  'chatSound',
+  'chatSoundBound',
+  'chatBackground',
+  'dateBackground',
+  'thinkingChainStyle',
+  'thinkingChainCustomColors',
+  'thinkingChainCustomPrompt',
+  'thinkingChainCustomCss',
+
+  // 3) 语言 / 语音 / 组织类本地偏好
+  'groupId',                 // 角色分组是发卡人自己的整理方式，指向的分组 id 在接收方本地也不存在
+  'chatVoiceLang',
+  'dateVoiceLang',
+  'callVoiceLang',
+  'chatVoiceEnabled',
+  'dateVoiceEnabled',
+
+  // 4) 运行时状态残留
+  'activeBuffs',
+  'buffInjection',
+  'memoryPalaceInjection',
+  'savedDateState',
+  'savedRoomState',
+  'lastRoomDate',
+  'phoneState',
+  'dreamLogs',
+  'specialMomentRecords',
+  'vrState',
+  'chibiStudio',
+] as const;
+
+/**
+ * 从一份角色卡数据里剔除所有敏感 / 私密 / 运行时字段，返回浅拷贝。
+ * 导出（生成分享文件）和导入（落库前）都调用它，保证两个方向一致。
+ */
+export function stripSensitiveCardFields<T extends Record<string, any>>(data: T): T {
+  const clone: Record<string, any> = { ...data };
+  for (const key of CARD_STRIPPED_FIELDS) {
+    delete clone[key];
+  }
+  return clone as T;
+}
+
+/** 供类型收窄用：CharacterProfile 上被剥离掉的键。 */
+export type StrippedCardField = Extract<keyof CharacterProfile, typeof CARD_STRIPPED_FIELDS[number]>;

@@ -1,1 +1,243 @@
-LyoqCiAqIE1lbW9yeSBQYWxhY2Ug4oCUIEVtYmVkZGluZyDmnI3liqEKICoKICog6LCD55SoIE9wZW5BSSDlhbzlrrnnmoQgRW1iZWRkaW5nIEFQSe+8jOWwhuaWh+acrOi9rOS4uuWQkemHj+OAggogKiDmlK/mjIHnoYXln7rmtYHliqggLyDpmL/ph4zkupEgLyDlrZfoioLnrYnnq6/ngrnjgIIKICovCgppbXBvcnQgdHlwZSB7IEVtYmVkZGluZ0NvbmZpZyB9IGZyb20gJy4vdHlwZXMnOwoKLy8g4pSA4pSA4pSAIOaguOW/gyBBUEkg6LCD55SoIOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgAoKLyoqCiAqIOWNleadoeaWh+acrOWQkemHj+WMliDigJQg6L+U5ZueIEZsb2F0MzJBcnJheSDoioLnnIHlhoXlrZgKICovCmV4cG9ydCBhc3luYyBmdW5jdGlvbiBnZXRFbWJlZGRpbmcodGV4dDogc3RyaW5nLCBjb25maWc6IEVtYmVkZGluZ0NvbmZpZyk6IFByb21pc2U8RmxvYXQzMkFycmF5PiB7CiAgICBjb25zdCByZXN1bHRzID0gYXdhaXQgZ2V0RW1iZWRkaW5ncyhbdGV4dF0sIGNvbmZpZyk7CiAgICByZXR1cm4gcmVzdWx0c1swXTsKfQoKLyoqCiAqIOaJuemHj+aWh+acrOWQkemHj+WMlu+8iOS4gOasoeacgOWkmiAxMCDmnaHvvIzotoXlh7roh6rliqjliIbmibnvvIkKICog6L+U5ZueIEZsb2F0MzJBcnJheVtdIOKAlCDmr5QgbnVtYmVyW11bXSDoioLnnIHnuqYgNTAlIOWGheWtmAogKi8KZXhwb3J0IGFzeW5jIGZ1bmN0aW9uIGdldEVtYmVkZGluZ3ModGV4dHM6IHN0cmluZ1tdLCBjb25maWc6IEVtYmVkZGluZ0NvbmZpZyk6IFByb21pc2U8RmxvYXQzMkFycmF5W10+IHsKICAgIGlmICh0ZXh0cy5sZW5ndGggPT09IDApIHJldHVybiBbXTsKCiAgICAvLyBEYXNoU2NvcGXvvIhRd2VuIOWumOerr++8ieeahCB0ZXh0LWVtYmVkZGluZy12My92NOOAgVF3ZW4zLUVtYmVkZGluZyDljZXmrKEgYmF0Y2gKICAgIC8vIOehrOS4iumZkOaYryAxMCDmnaHvvIzotoXov4fnm7TmjqUgNDAwIEludmFsaWRQYXJhbWV0ZXLjgILlj5YgMTAg5L2c5Li66YCa55So5a6J5YWo5YC877yaCiAgICAvLyDnoYXln7rmtYHliqjnrYkgYmdlIOezu+WIl+eUqCAxMCDkuZ/nhafluLjlt6XkvZzvvIznuq/mjIkgdG9rZW4g6K6h6LS55LiN5Y+X5b2x5ZON44CCCiAgICBjb25zdCBCQVRDSF9TSVpFID0gMTA7CiAgICAvLyDljZXmnaHpmLLnur/vvJpiZ2UtbTMg562J5qih5Z6L5Y2V5p2h6L6T5YWl5LiK6ZmQIDgxOTIgdG9rZW7vvIzmnI3liqHnq6/kuI3miKrmlq3jgIHotoXlh7oKICAgIC8vIOebtOaOpSA0MDDvvIjnoYXln7rmtYHliqggY29kZSAyMDAxNSAiVGhlIHBhcmFtZXRlciBpcyBpbnZhbGlkIu+8ieOAguS4reaWh+acgOWdjwogICAgLy8g4omIIDEgdG9rZW4v5a2X77yMNDAwMCDlrZfnrKbnlZnotrPkvZnph4/jgILmraPluLjogYrlpKkv6K6w5b+G5YaF5a656L+c55+t5LqO5q2k77yM5Y+q5pyJCiAgICAvLyBiYXNlNjQgLyDotoXplb/mlofmoaPov5nnsbvlvILluLjovpPlhaXkvJrooqvmiKrjgIIKICAgIGNvbnN0IE1BWF9JVEVNX0NIQVJTID0gNDAwMDsKICAgIC8vIOaJuemHj+mYsue6v++8mumDqOWIhuacjeWKoeWVhuaMieOAjOaVtOS4quivt+axgueahCB0b2tlbiDmgLvph4/jgI3moKHpqozigJTigJTmr4/mnaHpg73lkIjms5XjgIEKICAgIC8vIOWQiOaJueWQjuWKoOi1t+adpei2hemZkOeFp+agtyA0MDDvvIjljZXmnaHjgIzmtYvor5Xov57mjqXjgI3mraPluLjogIzmo4DntKLmibnph4/miqXplJnnmoTmnaXmupAKICAgIC8vIOS5i+S4gO+8ieOAguaMieaJueWGheWtl+espumihOeul+WIh+aJueWFnOS9j+acgOWdj+aDheWGte+8m+ato+W4uOiBiuWkqSBxdWVyeSDpg73lvojnn63vvIwKICAgIC8vIOS4gOiIrOS7jeaYryAxfjIg5om577yM6KGM5Li65LiN5Y+Y44CCCiAgICBjb25zdCBCQVRDSF9DSEFSX0JVREdFVCA9IDYwMDA7CiAgICAvLyDlpJrmibnlubbooYzlj5HpgIHvvIzpgb/lhY3mi4bmibnlkI7lj5jmiJDkuLLooYzlpJrlvoDov5Tmi5bmhaLmo4DntKLvvIjlsKTlhbbnoYXln7rnlKjmiLfmnKzmnaXkuIDmrKEKICAgIC8vIOWwseWPkeWujO+8ieOAguS9humZkOWItuW5tuWPkeaVsO+8jOmYsuatouOAjOmHjeW7uuWFqOmDqOiusOW/huOAjSjkuIrnmb7mibkpIOS4gOasoeaAp+i9sOWHuuWOu+inpuWPkQogICAgLy8g5pyN5Yqh5ZWG6ZmQ5rWBIC8gNDI544CC5qOA57Si6YCa5bi45bCxIDF+MiDmibkg4oaSIOWFqOW5tuihjCDiiYggMSDkuKrlvoDov5TjgIIKICAgIGNvbnN0IE1BWF9DT05DVVJSRU5DWSA9IDU7CgogICAgY29uc3QgdHJ1bmNhdGVkTm90ZXM6IHN0cmluZ1tdID0gW107CiAgICBjb25zdCBzYWZlVGV4dHMgPSB0ZXh0cy5tYXAoKHQsIGkpID0+IHsKICAgICAgICBpZiAodC5sZW5ndGggPD0gTUFYX0lURU1fQ0hBUlMpIHJldHVybiB0OwogICAgICAgIHRydW5jYXRlZE5vdGVzLnB1c2goYOesrCR7aSArIDF95p2hKCR7dC5sZW5ndGh95a2XLCDlvIDlpLQiJHt0LnNsaWNlKDAsIDMwKS5yZXBsYWNlKC9cbi9nLCAnICcpfSIpYCk7CiAgICAgICAgcmV0dXJuIHQuc2xpY2UoMCwgTUFYX0lURU1fQ0hBUlMpOwogICAgfSk7CiAgICAvLyDmraPluLjogYrlpKkgcXVlcnnvvIjiiaQyMDAwIOWtl++8ieWSjOiusOW/huWGheWuue+8iExMTSDmgLvnu5MsIOWHoOeZvuWtl++8iemDveWkn+S4jeedgOi/meadoee6v++8jAogICAgLy8g6Kem5Y+R6K+05piO5pyJ5byC5bi46LaF6ZW/6L6T5YWl5re35LqG6L+b5p2l44CC6LWwIGNvbnNvbGUuZXJyb3LigJTigJTorr7nva7ph4znmoTml6Xlv5fpnaLmnb/lj6oKICAgIC8vIOaNleiOtyBlcnJvciDpgJrpgZPvvIzkv53or4HnlKjmiLfog73nnIvliLAi5Y+R55Sf5LqG5oiq5pat44CB5oiq55qE5piv5ZOq5p2hIuOAggogICAgaWYgKHRydW5jYXRlZE5vdGVzLmxlbmd0aCA+IDApIHsKICAgICAgICBjb25zb2xlLmVycm9yKAogICAgICAgICAgICBg4pqg77iPIFtFbWJlZGRpbmddICR7dHJ1bmNhdGVkTm90ZXMubGVuZ3RofSDmnaHovpPlhaXotoUgJHtNQVhfSVRFTV9DSEFSU30g5a2X5LiK6ZmQ77yM5bey5oiq5pat5Ye65ZCR6YeP77yI5YaF5a655pys5L2T5LiN5Y+X5b2x5ZON77yM5LuF5oyJ5YmNICR7TUFYX0lURU1fQ0hBUlN9IOWtl+W7uue0ouW8le+8ie+8miR7dHJ1bmNhdGVkTm90ZXMuam9pbign77ybJyl9YCwKICAgICAgICApOwogICAgfQoKICAgIC8vIOWFiOaMiemhuuW6j+WIh+Wdl++8muadoeaVsCDiiaQgQkFUQ0hfU0laRSDkuJTmibnlhoXlrZfnrKbmgLvph48g4omkIEJBVENIX0NIQVJfQlVER0VUCiAgICAvLyDvvIjpobrluo/lvojph43opoHvvJrosIPnlKjmlrnmjInkuIvmoIflj5blkJHph4/vvInjgILljZXmnaHotoXpooTnrpfml7bni6zljaDkuIDmibnjgIIKICAgIGNvbnN0IGNodW5rczogc3RyaW5nW11bXSA9IFtdOwogICAgbGV0IGN1cnJlbnRDaHVuazogc3RyaW5nW10gPSBbXTsKICAgIGxldCBjdXJyZW50Q2hhcnMgPSAwOwogICAgZm9yIChjb25zdCB0IG9mIHNhZmVUZXh0cykgewogICAgICAgIGlmIChjdXJyZW50Q2h1bmsubGVuZ3RoID4gMAogICAgICAgICAgICAmJiAoY3VycmVudENodW5rLmxlbmd0aCA+PSBCQVRDSF9TSVpFIHx8IGN1cnJlbnRDaGFycyArIHQubGVuZ3RoID4gQkFUQ0hfQ0hBUl9CVURHRVQpKSB7CiAgICAgICAgICAgIGNodW5rcy5wdXNoKGN1cnJlbnRDaHVuayk7CiAgICAgICAgICAgIGN1cnJlbnRDaHVuayA9IFtdOwogICAgICAgICAgICBjdXJyZW50Q2hhcnMgPSAwOwogICAgICAgIH0KICAgICAgICBjdXJyZW50Q2h1bmsucHVzaCh0KTsKICAgICAgICBjdXJyZW50Q2hhcnMgKz0gdC5sZW5ndGg7CiAgICB9CiAgICBpZiAoY3VycmVudENodW5rLmxlbmd0aCA+IDApIGNodW5rcy5wdXNoKGN1cnJlbnRDaHVuayk7CgogICAgY29uc3QgcmVzdWx0czogRmxvYXQzMkFycmF5W10gPSBbXTsKICAgIC8vIOavj+asoeW5tuihjOi3kSBNQVhfQ09OQ1VSUkVOQ1kg5Liq5Z2X77yb5Z2X6Ze06aG65bqP44CB5Z2X5YaF6aG65bqP6YO95Lil5qC85L+d5oyBCiAgICBmb3IgKGxldCBpID0gMDsgaSA8IGNodW5rcy5sZW5ndGg7IGkgKz0gTUFYX0NPTkNVUlJFTkNZKSB7CiAgICAgICAgY29uc3Qgd2luZG93ID0gY2h1bmtzLnNsaWNlKGksIGkgKyBNQVhfQ09OQ1VSUkVOQ1kpOwogICAgICAgIGNvbnN0IHdpbmRvd1Jlc3VsdHMgPSBhd2FpdCBQcm9taXNlLmFsbCgKICAgICAgICAgICAgd2luZG93Lm1hcChjaHVuayA9PiBjYWxsRW1iZWRkaW5nQVBJKGNodW5rLCBjb25maWcpKSwKICAgICAgICApOwogICAgICAgIC8vIFByb21pc2UuYWxsIOS/neW6j++8mndpbmRvd1Jlc3VsdHNbal0g5a+55bqUIHdpbmRvd1tqXe+8jOaMieW6j+WxleW8gAogICAgICAgIGZvciAoY29uc3QgYmF0Y2hSZXN1bHQgb2Ygd2luZG93UmVzdWx0cykgewogICAgICAgICAgICByZXN1bHRzLnB1c2goLi4uYmF0Y2hSZXN1bHQubWFwKHYgPT4gbmV3IEZsb2F0MzJBcnJheSh2KSkpOwogICAgICAgIH0KICAgIH0KCiAgICByZXR1cm4gcmVzdWx0czsKfQoKLyoqCiAqIOivpeaooeWei+aYr+WQpuaUr+aMgeiHquWumuS5iSBgZGltZW5zaW9uc2Ag5Y+C5pWw44CCCiAqCiAqIOehheWfuua1geWKqOaWh+aho+aYjuehru+8mmBkaW1lbnNpb25zYCDku4UgUXdlbi9Rd2VuMy1FbWJlZGRpbmcg57O75YiX5pSv5oyB44CCCiAqIGJnZSDns7vliJfvvIhiZ2UtbTPjgIFiZ2UtbGFyZ2Ug562J77yJ6L6T5Ye657u05bqm5Zu65a6a77yM5Lyg5YWlIGBkaW1lbnNpb25zYCDkvJrooqsKICog5pyN5Yqh56uv5ouS57ud77yIMjAyNi0wNiDotbfov5Tlm54gNTAw77yJ44CC6L+Z6YeM5Y+q57uZ5pSv5oyB55qE5qih5Z6L5bim5LiK6K+l5Y+C5pWw44CCCiAqLwpmdW5jdGlvbiBtb2RlbFN1cHBvcnRzRGltZW5zaW9ucyhtb2RlbDogc3RyaW5nKTogYm9vbGVhbiB7CiAgICByZXR1cm4gL3F3ZW4zPy0/ZW1iZWRkaW5nL2kudGVzdChtb2RlbCk7Cn0KCi8qKgogKiDlrp7pmYXosIPnlKggRW1iZWRkaW5nIEFQSQogKi8KYXN5bmMgZnVuY3Rpb24gY2FsbEVtYmVkZGluZ0FQSSgKICAgIGlucHV0OiBzdHJpbmdbXSwgY29uZmlnOiBFbWJlZGRpbmdDb25maWcsIHJldHJ5Q291bnQ6IG51bWJlciA9IDAKKTogUHJvbWlzZTxudW1iZXJbXVtdPiB7CiAgICAvLyDoh6rliqjkv67mraPluLjop4EgVVJMIOmUmeivrwogICAgbGV0IGJhc2VVcmwgPSBjb25maWcuYmFzZVVybC5yZXBsYWNlKC9cLyskLywgJycpOwogICAgYmFzZVVybCA9IGJhc2VVcmwucmVwbGFjZSgnYWkuc2lsaWNvbmZsb3cuY24nLCAnYXBpLnNpbGljb25mbG93LmNuJyk7CiAgICBjb25zdCB1cmwgPSBgJHtiYXNlVXJsfS9lbWJlZGRpbmdzYDsKCiAgICBjb25zdCBib2R5OiBSZWNvcmQ8c3RyaW5nLCB1bmtub3duPiA9IHsKICAgICAgICBtb2RlbDogY29uZmlnLm1vZGVsLAogICAgICAgIGlucHV0LAogICAgICAgIGVuY29kaW5nX2Zvcm1hdDogJ2Zsb2F0JywKICAgIH07CiAgICAvLyDku4XlnKjmqKHlnovmlK/mjIHml7bmiY3lj5HpgIEgZGltZW5zaW9uc++8jOWQpuWImSBiZ2Ug562J5Zu65a6a57u05bqm5qih5Z6L5Lya5oqlIDUwMAogICAgaWYgKG1vZGVsU3VwcG9ydHNEaW1lbnNpb25zKGNvbmZpZy5tb2RlbCkgJiYgY29uZmlnLmRpbWVuc2lvbnMpIHsKICAgICAgICBib2R5LmRpbWVuc2lvbnMgPSBjb25maWcuZGltZW5zaW9uczsKICAgIH0KCiAgICB0cnkgewogICAgICAgIGNvbnN0IHJlc3BvbnNlID0gYXdhaXQgZmV0Y2godXJsLCB7CiAgICAgICAgICAgIG1ldGhvZDogJ1BPU1QnLAogICAgICAgICAgICBoZWFkZXJzOiB7CiAgICAgICAgICAgICAgICAnQ29udGVudC1UeXBlJzogJ2FwcGxpY2F0aW9uL2pzb24nLAogICAgICAgICAgICAgICAgJ0F1dGhvcml6YXRpb24nOiBgQmVhcmVyICR7Y29uZmlnLmFwaUtleX1gLAogICAgICAgICAgICB9LAogICAgICAgICAgICBib2R5OiBKU09OLnN0cmluZ2lmeShib2R5KSwKICAgICAgICB9KTsKCiAgICAgICAgaWYgKCFyZXNwb25zZS5vaykgewogICAgICAgICAgICBjb25zdCBlcnJvclRleHQgPSBhd2FpdCByZXNwb25zZS50ZXh0KCkuY2F0Y2goKCkgPT4gJ1Vua25vd24gZXJyb3InKTsKICAgICAgICAgICAgLy8g5a6M5pW05ZON5bqUICsg6K+35rGC5b2i54q26JC95pel5b+X77yI6K6+572u6YeM55qE5pel5b+X6Z2i5p2/5oqTIGNvbnNvbGUuZXJyb3LvvInigJTigJQKICAgICAgICAgICAgLy8gNDAwIOexu+aOkuafpeWFqOmdoOi/meadoe+8muiDveeci+WHuuaYr+WTquS4gOaJueOAgeavj+adoeWkmumVvwogICAgICAgICAgICBjb25zb2xlLmVycm9yKAogICAgICAgICAgICAgICAgYOKdjCBbRW1iZWRkaW5nXSBBUEkgJHtyZXNwb25zZS5zdGF0dXN9IChtb2RlbD0ke2NvbmZpZy5tb2RlbH0sIGJhdGNoPSR7aW5wdXQubGVuZ3RofSDmnaEsIOWQhOadoeWtl+espuaVsD1bJHtpbnB1dC5tYXAocyA9PiBzLmxlbmd0aCkuam9pbignLCAnKX1dKWAsCiAgICAgICAgICAgICAgICBlcnJvclRleHQsCiAgICAgICAgICAgICk7CiAgICAgICAgICAgIGNvbnN0IGVyciA9IG5ldyBFcnJvcihgRW1iZWRkaW5nIEFQSSBlcnJvciAke3Jlc3BvbnNlLnN0YXR1c306ICR7ZXJyb3JUZXh0fWApIGFzIEVycm9yICYgeyBzdGF0dXM/OiBudW1iZXIgfTsKICAgICAgICAgICAgZXJyLnN0YXR1cyA9IHJlc3BvbnNlLnN0YXR1czsKICAgICAgICAgICAgdGhyb3cgZXJyOwogICAgICAgIH0KCiAgICAgICAgY29uc3QgZGF0YSA9IGF3YWl0IHJlc3BvbnNlLmpzb24oKTsKCiAgICAgICAgaWYgKCFkYXRhLmRhdGEgfHwgIUFycmF5LmlzQXJyYXkoZGF0YS5kYXRhKSkgewogICAgICAgICAgICB0aHJvdyBuZXcgRXJyb3IoYEVtYmVkZGluZyBBUEkgcmV0dXJuZWQgdW5leHBlY3RlZCBmb3JtYXQ6ICR7SlNPTi5zdHJpbmdpZnkoZGF0YSkuc2xpY2UoMCwgMjAwKX1gKTsKICAgICAgICB9CgogICAgICAgIC8vIE9wZW5BSSDmoLzlvI86IGRhdGFbXS5lbWJlZGRpbmdbXQogICAgICAgIC8vIOaMiSBpbmRleCDmjpLluo/noa7kv53pobrluo/mraPnoa4KICAgICAgICBjb25zdCBzb3J0ZWQgPSBbLi4uZGF0YS5kYXRhXS5zb3J0KChhOiBhbnksIGI6IGFueSkgPT4gYS5pbmRleCAtIGIuaW5kZXgpOwogICAgICAgIHJldHVybiBzb3J0ZWQubWFwKChpdGVtOiBhbnkpID0+IGl0ZW0uZW1iZWRkaW5nIGFzIG51bWJlcltdKTsKCiAgICB9IGNhdGNoIChlcnI6IGFueSkgewogICAgICAgIGNvbnN0IHN0YXR1czogbnVtYmVyIHwgdW5kZWZpbmVkID0gZXJyPy5zdGF0dXM7CiAgICAgICAgLy8g5Y+C5pWw57G7IDR4eCDph43or5XlkIzmoLfnmoTor7fmsYLkuI3kvJrlj5jlpb3vvJvnvZHnu5zplJnor68gLyA1eHggLyA0Mjkg5omN5YC85b6X6YeN6K+V5LiA5qyhCiAgICAgICAgY29uc3QgcmV0cnlhYmxlID0gc3RhdHVzID09PSB1bmRlZmluZWQgfHwgc3RhdHVzID49IDUwMCB8fCBzdGF0dXMgPT09IDQyOTsKICAgICAgICBpZiAocmV0cnlhYmxlICYmIHJldHJ5Q291bnQgPCAxKSB7CiAgICAgICAgICAgIGNvbnNvbGUud2Fybihg4pqhIFtFbWJlZGRpbmddIFJldHJ5IGFmdGVyIGVycm9yOiAke2Vyci5tZXNzYWdlfWApOwogICAgICAgICAgICBhd2FpdCBuZXcgUHJvbWlzZShyID0+IHNldFRpbWVvdXQociwgMTAwMCkpOwogICAgICAgICAgICByZXR1cm4gY2FsbEVtYmVkZGluZ0FQSShpbnB1dCwgY29uZmlnLCByZXRyeUNvdW50ICsgMSk7CiAgICAgICAgfQogICAgICAgIC8vIOaJuemHj+iiqyA0MDAg5ouSIOKGkiDoh6rliqjpmY3nuqfkuLrpgJDmnaHlkJHph4/ljJbvvJrkuIDmnaXnu5XlvIDjgIzmibnlhoUgdG9rZW4g5oC76YePCiAgICAgICAgLy8g6LaF6ZmQ44CN57G75qCh6aqM77yI5q+P5p2h5Y2V54us5Y+R5bCx5ZCI5rOV77yJ77yM5LqM5p2l6IO957K+56Gu5a6a5L2N5Z2P6L6T5YWl5piv5ZOq5p2h44CCCiAgICAgICAgaWYgKHN0YXR1cyA9PT0gNDAwICYmIGlucHV0Lmxlbmd0aCA+IDEpIHsKICAgICAgICAgICAgY29uc29sZS53YXJuKGDimqEgW0VtYmVkZGluZ10g5om56YePICR7aW5wdXQubGVuZ3RofSDmnaHooqsgNDAwIOaLku+8jOiHquWKqOmZjee6p+S4uumAkOadoeWQkemHj+WMlmApOwogICAgICAgICAgICBjb25zdCByZXN1bHRzOiBudW1iZXJbXVtdID0gW107CiAgICAgICAgICAgIGZvciAobGV0IGkgPSAwOyBpIDwgaW5wdXQubGVuZ3RoOyBpKyspIHsKICAgICAgICAgICAgICAgIHRyeSB7CiAgICAgICAgICAgICAgICAgICAgLy8gcmV0cnlDb3VudD0x77ya5Y2V5p2h5aSx6LSl5LiN5YaN6YeN6K+VL+WGjemZjee6p++8jOebtOaOpei/myBjYXRjaCDlrprkvY0KICAgICAgICAgICAgICAgICAgICBjb25zdCBzaW5nbGUgPSBhd2FpdCBjYWxsRW1iZWRkaW5nQVBJKFtpbnB1dFtpXV0sIGNvbmZpZywgMSk7CiAgICAgICAgICAgICAgICAgICAgcmVzdWx0cy5wdXNoKHNpbmdsZVswXSk7CiAgICAgICAgICAgICAgICB9IGNhdGNoIChpdGVtRXJyOiBhbnkpIHsKICAgICAgICAgICAgICAgICAgICBjb25zdCBwcmV2aWV3ID0gaW5wdXRbaV0uc2xpY2UoMCwgODApLnJlcGxhY2UoL1xuL2csICcgJyk7CiAgICAgICAgICAgICAgICAgICAgdGhyb3cgbmV3IEVycm9yKAogICAgICAgICAgICAgICAgICAgICAgICBgRW1iZWRkaW5nIOmAkOadoemZjee6p+WQjuesrCAke2kgKyAxfS8ke2lucHV0Lmxlbmd0aH0g5p2h5LuN5aSx6LSl77yIJHtpbnB1dFtpXS5sZW5ndGh9IOWtl++8jOW8gOWktO+8miIke3ByZXZpZXd9Iu+8iTogJHtpdGVtRXJyLm1lc3NhZ2V9YCwKICAgICAgICAgICAgICAgICAgICApOwogICAgICAgICAgICAgICAgfQogICAgICAgICAgICB9CiAgICAgICAgICAgIC8vIOmZjee6p+aIkOWKn+S5n+i1sCBlcnJvciDpgJrpgZPmmK3lkYrkuIDlo7DvvJrml6Xlv5fpnaLmnb/ph4zntKfmjKjnnYDkuIrpnaLpgqPmnaEgNDAw77yMCiAgICAgICAgICAgIC8vIOeUqOaIt+aJjeefpemBkyLmiqXkuoYgNDAwIOS9huW3suiHquWKqOaBouWkjeOAgee7k+aenOWujOaVtCLvvIzkuI3nhLblj6rnnIvliLAgNDAwIOS8mgogICAgICAgICAgICAvLyDku6XkuLrov5nova7orrDlv4bkuKLkuobjgILpopHnuYHlh7rnjrDliJnor7TmmI7mnInlvILluLjovpPlhaXmiJbmnI3liqHllYbmoKHpqozlj5jkuKXjgIIKICAgICAgICAgICAgY29uc29sZS5lcnJvcigKICAgICAgICAgICAgICAgIGDimqDvuI8gW0VtYmVkZGluZ10g5LiK6Z2i55qE5om56YePIDQwMCDlt7Loh6rliqjpmY3nuqfkuLrpgJDmnaHlkJHph4/ljJblubblhajpg6jmiJDlip/vvIzmnKzmrKHnu5PmnpzlrozmlbTml6DnvLrjgILoi6XpopHnuYHlh7rnjrDvvIzor7fmiorml6Xlv5fph4wgNDAwIOmCo+adoeeahOWujOaVtOWTjeW6lOWPjemmiOe7meW8gOWPkeiAhWAsCiAgICAgICAgICAgICk7CiAgICAgICAgICAgIHJldHVybiByZXN1bHRzOwogICAgICAgIH0KICAgICAgICB0aHJvdyBlcnI7CiAgICB9Cn0KCi8vIOKUgOKUgOKUgCDmlbDlrablt6Xlhbcg4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSACgovKioKICog5L2Z5bym55u45Ly85bqm77yIRmxvYXQzMkFycmF5IOS8mOWMlueJiO+8iQogKgogKiDmlK/mjIEgbnVtYmVyW10g5ZKMIEZsb2F0MzJBcnJheSDmt7flkIjovpPlhaXjgIIKICog5L2/55SoIEZsb2F0MzJBcnJheSDml7blhoXlrZjorr/pl67ov57nu63vvIxWOCDlj6/ku6XliKnnlKggU0lNRCDliqDpgJ/vvIwKICog5ZyoIDEwMjQg57u05ZCR6YeP5LiK5q+U5pmu6YCaIG51bWJlcltdIOW/qyAzLTV444CCCiAqCiAqIOi/lOWbnuWAvOiMg+WbtCBbLTEsIDFd77yM6LaK5o6l6L+RIDEg6LaK55u45Ly8CiAqLwpleHBvcnQgZnVuY3Rpb24gY29zaW5lU2ltaWxhcml0eSgKICAgIGE6IG51bWJlcltdIHwgRmxvYXQzMkFycmF5LAogICAgYjogbnVtYmVyW10gfCBGbG9hdDMyQXJyYXksCik6IG51bWJlciB7CiAgICBjb25zdCBsZW4gPSBhLmxlbmd0aDsKICAgIGlmIChsZW4gIT09IGIubGVuZ3RoKSB7CiAgICAgICAgdGhyb3cgbmV3IEVycm9yKGBWZWN0b3IgZGltZW5zaW9uIG1pc21hdGNoOiAke2xlbn0gdnMgJHtiLmxlbmd0aH1gKTsKICAgIH0KCiAgICBsZXQgZG90UHJvZHVjdCA9IDA7CiAgICBsZXQgbm9ybUEgPSAwOwogICAgbGV0IG5vcm1CID0gMDsKCiAgICAvLyA0eCDlvqrnjq/lsZXlvIAg4oCUIOWHj+WwkeWIhuaUr+mihOa1i+W8gOmUgO+8jOmFjeWQiOi/nue7reWGheWtmOW4g+WxgOaYvuiRl+aPkOmAnwogICAgY29uc3QgbGltaXQgPSBsZW4gLSAobGVuICUgNCk7CiAgICBsZXQgaSA9IDA7CiAgICBmb3IgKDsgaSA8IGxpbWl0OyBpICs9IDQpIHsKICAgICAgICBjb25zdCBhMCA9IGFbaV0sIGExID0gYVtpKzFdLCBhMiA9IGFbaSsyXSwgYTMgPSBhW2krM107CiAgICAgICAgY29uc3QgYjAgPSBiW2ldLCBiMSA9IGJbaSsxXSwgYjIgPSBiW2krMl0sIGIzID0gYltpKzNdOwogICAgICAgIGRvdFByb2R1Y3QgKz0gYTAqYjAgKyBhMSpiMSArIGEyKmIyICsgYTMqYjM7CiAgICAgICAgbm9ybUEgKz0gYTAqYTAgKyBhMSphMSArIGEyKmEyICsgYTMqYTM7CiAgICAgICAgbm9ybUIgKz0gYjAqYjAgKyBiMSpiMSArIGIyKmIyICsgYjMqYjM7CiAgICB9CiAgICAvLyDlpITnkIbkvZnmlbAKICAgIGZvciAoOyBpIDwgbGVuOyBpKyspIHsKICAgICAgICBkb3RQcm9kdWN0ICs9IGFbaV0gKiBiW2ldOwogICAgICAgIG5vcm1BICs9IGFbaV0gKiBhW2ldOwogICAgICAgIG5vcm1CICs9IGJbaV0gKiBiW2ldOwogICAgfQoKICAgIGNvbnN0IGRlbm9taW5hdG9yID0gTWF0aC5zcXJ0KG5vcm1BKSAqIE1hdGguc3FydChub3JtQik7CiAgICBpZiAoZGVub21pbmF0b3IgPT09IDApIHJldHVybiAwOwoKICAgIHJldHVybiBkb3RQcm9kdWN0IC8gZGVub21pbmF0b3I7Cn0K
+/**
+ * Memory Palace — Embedding 服务
+ *
+ * 调用 OpenAI 兼容的 Embedding API，将文本转为向量。
+ * 支持硅基流动 / 阿里云 / 字节等端点。
+ */
+
+import type { EmbeddingConfig } from './types';
+
+// ─── 核心 API 调用 ────────────────────────────────────
+
+/**
+ * 单条文本向量化 — 返回 Float32Array 节省内存
+ */
+export async function getEmbedding(text: string, config: EmbeddingConfig): Promise<Float32Array> {
+    const results = await getEmbeddings([text], config);
+    return results[0];
+}
+
+/**
+ * 批量文本向量化（一次最多 10 条，超出自动分批）
+ * 返回 Float32Array[] — 比 number[][] 节省约 50% 内存
+ */
+export async function getEmbeddings(texts: string[], config: EmbeddingConfig): Promise<Float32Array[]> {
+    if (texts.length === 0) return [];
+
+    // DashScope（Qwen 官端）的 text-embedding-v3/v4、Qwen3-Embedding 单次 batch
+    // 硬上限是 10 条，超过直接 400 InvalidParameter。取 10 作为通用安全值：
+    // 硅基流动等 bge 系列用 10 也照常工作，纯按 token 计费不受影响。
+    const BATCH_SIZE = 10;
+    // 单条防线：bge-m3 等模型单条输入上限 8192 token，服务端不截断、超出
+    // 直接 400（硅基流动 code 20015 "The parameter is invalid"）。中文最坏
+    // ≈ 1 token/字，4000 字符留足余量。正常聊天/记忆内容远短于此，只有
+    // base64 / 超长文档这类异常输入会被截。
+    const MAX_ITEM_CHARS = 4000;
+    // 批量防线：部分服务商按「整个请求的 token 总量」校验——每条都合法、
+    // 合批后加起来超限照样 400（单条「测试连接」正常而检索批量报错的来源
+    // 之一）。按批内字符预算切批兜住最坏情况；正常聊天 query 都很短，
+    // 一般仍是 1~2 批，行为不变。
+    const BATCH_CHAR_BUDGET = 6000;
+    // 多批并行发送，避免拆批后变成串行多往返拖慢检索（尤其硅基用户本来一次
+    // 就发完）。但限制并发数，防止「重建全部记忆」(上百批) 一次性轰出去触发
+    // 服务商限流 / 429。检索通常就 1~2 批 → 全并行 ≈ 1 个往返。
+    const MAX_CONCURRENCY = 5;
+
+    const truncatedNotes: string[] = [];
+    const safeTexts = texts.map((t, i) => {
+        if (t.length <= MAX_ITEM_CHARS) return t;
+        truncatedNotes.push(`第${i + 1}条(${t.length}字, 开头"${t.slice(0, 30).replace(/\n/g, ' ')}")`);
+        return t.slice(0, MAX_ITEM_CHARS);
+    });
+    // 正常聊天 query（≤2000 字）和记忆内容（LLM 总结, 几百字）都够不着这条线，
+    // 触发说明有异常超长输入混了进来。走 console.error——设置里的日志面板只
+    // 捕获 error 通道，保证用户能看到"发生了截断、截的是哪条"。
+    if (truncatedNotes.length > 0) {
+        console.error(
+            `⚠️ [Embedding] ${truncatedNotes.length} 条输入超 ${MAX_ITEM_CHARS} 字上限，已截断出向量（内容本体不受影响，仅按前 ${MAX_ITEM_CHARS} 字建索引）：${truncatedNotes.join('；')}`,
+        );
+    }
+
+    // 先按顺序切块：条数 ≤ BATCH_SIZE 且批内字符总量 ≤ BATCH_CHAR_BUDGET
+    // （顺序很重要：调用方按下标取向量）。单条超预算时独占一批。
+    const chunks: string[][] = [];
+    let currentChunk: string[] = [];
+    let currentChars = 0;
+    for (const t of safeTexts) {
+        if (currentChunk.length > 0
+            && (currentChunk.length >= BATCH_SIZE || currentChars + t.length > BATCH_CHAR_BUDGET)) {
+            chunks.push(currentChunk);
+            currentChunk = [];
+            currentChars = 0;
+        }
+        currentChunk.push(t);
+        currentChars += t.length;
+    }
+    if (currentChunk.length > 0) chunks.push(currentChunk);
+
+    const results: Float32Array[] = [];
+    // 每次并行跑 MAX_CONCURRENCY 个块；块间顺序、块内顺序都严格保持
+    for (let i = 0; i < chunks.length; i += MAX_CONCURRENCY) {
+        const window = chunks.slice(i, i + MAX_CONCURRENCY);
+        const windowResults = await Promise.all(
+            window.map(chunk => callEmbeddingAPI(chunk, config)),
+        );
+        // Promise.all 保序：windowResults[j] 对应 window[j]，按序展开
+        for (const batchResult of windowResults) {
+            results.push(...batchResult.map(v => new Float32Array(v)));
+        }
+    }
+
+    return results;
+}
+
+/**
+ * 该模型是否支持自定义 `dimensions` 参数。
+ *
+ * 硅基流动文档明确：`dimensions` 仅 Qwen/Qwen3-Embedding 系列支持。
+ * bge 系列（bge-m3、bge-large 等）输出维度固定，传入 `dimensions` 会被
+ * 服务端拒绝（2026-06 起返回 500）。这里只给支持的模型带上该参数。
+ */
+function modelSupportsDimensions(model: string): boolean {
+    return /qwen3?-?embedding/i.test(model);
+}
+
+/**
+ * 实际调用 Embedding API
+ */
+async function callEmbeddingAPI(
+    input: string[], config: EmbeddingConfig, retryCount: number = 0
+): Promise<number[][]> {
+    // 自动修正常见 URL 错误
+    let baseUrl = config.baseUrl.replace(/\/+$/, '');
+    baseUrl = baseUrl.replace('ai.siliconflow.cn', 'api.siliconflow.cn');
+    const url = `${baseUrl}/embeddings`;
+
+    const body: Record<string, unknown> = {
+        model: config.model,
+        input,
+        encoding_format: 'float',
+    };
+    // 仅在模型支持时才发送 dimensions，否则 bge 等固定维度模型会报 500
+    if (modelSupportsDimensions(config.model) && config.dimensions) {
+        body.dimensions = config.dimensions;
+    }
+
+    try {
+        const response = await fetch(url, {
+            method: 'POST',
+            headers: {
+                'Content-Type': 'application/json',
+                'Authorization': `Bearer ${config.apiKey}`,
+            },
+            body: JSON.stringify(body),
+        });
+
+        if (!response.ok) {
+            const errorText = await response.text().catch(() => 'Unknown error');
+            // 完整响应 + 请求形状落日志（设置里的日志面板抓 console.error）——
+            // 400 类排查全靠这条：能看出是哪一批、每条多长
+            console.error(
+                `❌ [Embedding] API ${response.status} (model=${config.model}, batch=${input.length} 条, 各条字符数=[${input.map(s => s.length).join(', ')}])`,
+                errorText,
+            );
+            const err = new Error(`Embedding API error ${response.status}: ${errorText}`) as Error & { status?: number };
+            err.status = response.status;
+            throw err;
+        }
+
+        const data = await response.json();
+
+        if (!data.data || !Array.isArray(data.data)) {
+            throw new Error(`Embedding API returned unexpected format: ${JSON.stringify(data).slice(0, 200)}`);
+        }
+
+        // OpenAI 格式: data[].embedding[]
+        // 按 index 排序确保顺序正确
+        const sorted = [...data.data].sort((a: any, b: any) => a.index - b.index);
+        return sorted.map((item: any) => item.embedding as number[]);
+
+    } catch (err: any) {
+        const status: number | undefined = err?.status;
+        // 参数类 4xx 重试同样的请求不会变好；网络错误 / 5xx / 429 才值得重试一次
+        const retryable = status === undefined || status >= 500 || status === 429;
+        if (retryable && retryCount < 1) {
+            console.warn(`⚡ [Embedding] Retry after error: ${err.message}`);
+            await new Promise(r => setTimeout(r, 1000));
+            return callEmbeddingAPI(input, config, retryCount + 1);
+        }
+        // 批量被 400 拒 → 自动降级为逐条向量化：一来绕开「批内 token 总量
+        // 超限」类校验（每条单独发就合法），二来能精确定位坏输入是哪条。
+        if (status === 400 && input.length > 1) {
+            console.warn(`⚡ [Embedding] 批量 ${input.length} 条被 400 拒，自动降级为逐条向量化`);
+            const results: number[][] = [];
+            for (let i = 0; i < input.length; i++) {
+                try {
+                    // retryCount=1：单条失败不再重试/再降级，直接进 catch 定位
+                    const single = await callEmbeddingAPI([input[i]], config, 1);
+                    results.push(single[0]);
+                } catch (itemErr: any) {
+                    const preview = input[i].slice(0, 80).replace(/\n/g, ' ');
+                    throw new Error(
+                        `Embedding 逐条降级后第 ${i + 1}/${input.length} 条仍失败（${input[i].length} 字，开头："${preview}"）: ${itemErr.message}`,
+                    );
+                }
+            }
+            // 降级成功也走 error 通道昭告一声：日志面板里紧挨着上面那条 400，
+            // 用户才知道"报了 400 但已自动恢复、结果完整"，不然只看到 400 会
+            // 以为这轮记忆丢了。频繁出现则说明有异常输入或服务商校验变严。
+            console.error(
+                `⚠️ [Embedding] 上面的批量 400 已自动降级为逐条向量化并全部成功，本次结果完整无缺。若频繁出现，请把日志里 400 那条的完整响应反馈给开发者`,
+            );
+            return results;
+        }
+        throw err;
+    }
+}
+
+// ─── 数学工具 ──────────────────────────────────────────
+
+/**
+ * 余弦相似度（Float32Array 优化版）
+ *
+ * 支持 number[] 和 Float32Array 混合输入。
+ * 使用 Float32Array 时内存访问连续，V8 可以利用 SIMD 加速，
+ * 在 1024 维向量上比普通 number[] 快 3-5x。
+ *
+ * 返回值范围 [-1, 1]，越接近 1 越相似
+ */
+export function cosineSimilarity(
+    a: number[] | Float32Array,
+    b: number[] | Float32Array,
+): number {
+    const len = a.length;
+    if (len !== b.length) {
+        throw new Error(`Vector dimension mismatch: ${len} vs ${b.length}`);
+    }
+
+    let dotProduct = 0;
+    let normA = 0;
+    let normB = 0;
+
+    // 4x 循环展开 — 减少分支预测开销，配合连续内存布局显著提速
+    const limit = len - (len % 4);
+    let i = 0;
+    for (; i < limit; i += 4) {
+        const a0 = a[i], a1 = a[i+1], a2 = a[i+2], a3 = a[i+3];
+        const b0 = b[i], b1 = b[i+1], b2 = b[i+2], b3 = b[i+3];
+        dotProduct += a0*b0 + a1*b1 + a2*b2 + a3*b3;
+        normA += a0*a0 + a1*a1 + a2*a2 + a3*a3;
+        normB += b0*b0 + b1*b1 + b2*b2 + b3*b3;
+    }
+    // 处理余数
+    for (; i < len; i++) {
+        dotProduct += a[i] * b[i];
+        normA += a[i] * a[i];
+        normB += b[i] * b[i];
+    }
+
+    const denominator = Math.sqrt(normA) * Math.sqrt(normB);
+    if (denominator === 0) return 0;
+
+    return dotProduct / denominator;
+}

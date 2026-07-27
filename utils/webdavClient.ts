@@ -1,1 +1,416 @@
-LyoqCiAqIFdlYkRBViBDbGllbnQgZm9yIENsb3VkIEJhY2t1cAogKgogKiBTdXBwb3J0czog5Z2a5p6c5LqRIChOdXRzdG9yZSksIE5leHRjbG91ZCwgU3lub2xvZ3kgTkFTLCBUZXJhQ2xvdWQsIEJveCwgZXRjLgogKgogKiBUd28gdHJhbnNwb3J0czoKICogICAtIE5hdGl2ZSAoQ2FwYWNpdG9yIEFuZHJvaWQvaU9TKTogaGl0cyB0aGUgV2ViREFWIHNlcnZlciBkaXJlY3RseSB2aWEKICogICAgIENhcGFjaXRvckh0dHAsIHdoaWNoIHVzZXMgdGhlIE9TIEhUVFAgc3RhY2sgYW5kIGJ5cGFzc2VzIENPUlMuIE5vCiAqICAgICBDbG91ZGZsYXJlIFdvcmtlciByZXF1ZXN0IHF1b3RhIGJ1cm5lZCwgbm8gZXh0cmEgaG9wLgogKiAgIC0gV2ViOiByb3V0ZXMgUE9TVCArIFgtV2ViREFWLU1ldGhvZCB0aHJvdWdoIHRoZSBzdWxseS1uIENGIFdvcmtlciBzbyB0aGUKICogICAgIGJyb3dzZXIgQ09SUyBwcmVmbGlnaHQgcGFzc2VzIChUZXJhQ2xvdWQgLyBpbmZpbmktY2xvdWQgLyBOQVMgZG9uJ3QKICogICAgIHJldHVybiBDT1JTIGhlYWRlcnMpLgogKi8KaW1wb3J0IHsgQ2FwYWNpdG9yLCBDYXBhY2l0b3JIdHRwIH0gZnJvbSAnQGNhcGFjaXRvci9jb3JlJzsKCmltcG9ydCB7IENsb3VkQmFja3VwQ29uZmlnLCBDbG91ZEJhY2t1cEZpbGUgfSBmcm9tICcuLi90eXBlcyc7CmltcG9ydCB7IGdldFByb3h5V29ya2VyVXJsIH0gZnJvbSAnLi9wcm94eVdvcmtlcic7CgovLyDnu48gQ0YgV29ya2VyIOS7o+eQhuS4iuS8oO+8iHdlYiDot6/lvoTvvInnmoTor7fmsYLkvZPkuIrpmZDjgIJDbG91ZGZsYXJlIFdvcmtlciDlhY3otLnniYjljZXmrKHor7fmsYLkvZPnuqYgMTAwTULvvIwKLy8g6LaF5LqG5Lya6KKrIFdvcmtlci/lubPlj7Dnm7TmjqXmi5LvvIjov5Tlm54gNDEzIOS5i+exu++8ie+8jOS4lOWkp+ivt+axguS9k+S4iuihjOi/mOWPr+iDveaSniB+NDJzIOS4iuihjOi2heaXtuOAguaJgOS7peWcqOWPkei1twovLyDkuIrkvKDliY3lhYjmjIkgYmxvYiDlpKflsI/pooTmo4DvvJrotoXpmZDnm7TmjqXnu5nlj6/miafooYznmoTmiqXplJnvvIjmlLnnlKjmnKzlnLDlr7zlh7ogLyBHaXRIdWLvvInvvIzliKvorqnnlKjmiLflgrvnrYnlh6DljYHnp5IKLy8g5omN5aSx6LSl44CC5aSH5Lu9IGJsb2Ig5bey5piv5Y6L57ypIHppcO+8jGd6aXAg5LiK6KGM5peg5oSP5LmJ77yM6L+Z6YeM5Y+q5YGa5aSn5bCP6Ze444CCCi8vIOazqO+8mm5hdGl2ZSDot6/lvoTvvIhDYXBhY2l0b3JIdHRwIOebtOi/nuS4iua4uCBXZWJEQVbvvIzkuI3ov4cgV29ya2Vy77yJ5LiN5Y+X5q2k6ZmQ77yM5LiK5ri45ZCE5a625a656YeP5LiN5LiA77yMCi8vIOeUseWTjeW6lOeKtuaAgeWFnOW6le+8m25hdGl2ZSDnq6/miormlbTkuKogYmxvYiDor7vov5sgQXJyYXlCdWZmZXIg55qE6aKd5aSW5ou36LSd5piv5bey55+l5YaF5a2Y5byA6ZSA77yM5b275bqV6Kej6ZyA5pS5Ci8vIOOAjOWFiOiQveS4tOaXtuaWh+S7tuWGjeaMiei3r+W+hCBQVVTjgI3vvIzliJfkuLogZm9sbG93LXVw44CCCmNvbnN0IFdPUktFUl9NQVhfVVBMT0FEX0JZVEVTID0gMTAwICogMTAyNCAqIDEwMjQ7Cgpjb25zdCBmb3JtYXRNaUIgPSAoYnl0ZXM6IG51bWJlcik6IHN0cmluZyA9PiBgJHsoYnl0ZXMgLyAoMTAyNCAqIDEwMjQpKS50b0ZpeGVkKDEpfU1CYDsKCmNvbnN0IGlzTmF0aXZlID0gKCk6IGJvb2xlYW4gPT4gewogICAgdHJ5IHsKICAgICAgICByZXR1cm4gQ2FwYWNpdG9yLmlzTmF0aXZlUGxhdGZvcm0oKTsKICAgIH0gY2F0Y2ggewogICAgICAgIHJldHVybiBmYWxzZTsKICAgIH0KfTsKCmNvbnN0IGJ1aWxkRnVsbFVybCA9ICh3ZWJkYXZVcmw6IHN0cmluZywgcGF0aDogc3RyaW5nKTogc3RyaW5nID0+CiAgICB3ZWJkYXZVcmwucmVwbGFjZSgvXC8rJC8sICcnKSArICcvJyArIHBhdGgucmVwbGFjZSgvXlwvKy8sICcnKTsKCmNvbnN0IGJ1aWxkUHJveHlVcmwgPSAoZnVsbFVybDogc3RyaW5nKTogc3RyaW5nID0+CiAgICBgJHtnZXRQcm94eVdvcmtlclVybCgpfS93ZWJkYXY/dXJsPSR7ZW5jb2RlVVJJQ29tcG9uZW50KGZ1bGxVcmwpfWA7Cgpjb25zdCBidWlsZEF1dGhIZWFkZXIgPSAoY29uZmlnOiBDbG91ZEJhY2t1cENvbmZpZyk6IHN0cmluZyA9PgogICAgYEJhc2ljICR7YnRvYShgJHtjb25maWcudXNlcm5hbWV9OiR7Y29uZmlnLnBhc3N3b3JkfWApfWA7Cgp0eXBlIFdlYmRhdk1ldGhvZCA9ICdHRVQnIHwgJ1BVVCcgfCAnUFJPUEZJTkQnIHwgJ01LQ09MJyB8ICdERUxFVEUnOwp0eXBlIFdlYmRhdk9wdGlvbnMgPSB7CiAgICByYW5nZT86IHN0cmluZzsKICAgIGRlcHRoPzogJzAnIHwgJzEnOwogICAgY29udGVudFR5cGU/OiBzdHJpbmc7CiAgICBib2R5Pzogc3RyaW5nIHwgQXJyYXlCdWZmZXIgfCBCbG9iOwp9Owp0eXBlIFdlYmRhdlJlc3BvbnNlID0gewogICAgc3RhdHVzOiBudW1iZXI7CiAgICB0ZXh0OiAoKSA9PiBQcm9taXNlPHN0cmluZz47CiAgICBhcnJheUJ1ZmZlcjogKCkgPT4gUHJvbWlzZTxBcnJheUJ1ZmZlcj47Cn07CgovLyBBbmRyb2lkJ3MgSHR0cFVSTENvbm5lY3Rpb24gKHdoaWNoIENhcGFjaXRvckh0dHAgdXNlcyB1bmRlciB0aGUgaG9vZCkgcmVqZWN0cwovLyBub24tc3RhbmRhcmQgSFRUUCB2ZXJicyBsaWtlIFBST1BGSU5EIGFuZCBNS0NPTCB3aXRoIGBQcm90b2NvbEV4Y2VwdGlvbmAuCi8vIFN0YW5kYXJkIHZlcmJzIGdvIGRpcmVjdCBvbiBuYXRpdmU7IHRoZSByZXN0IGZhbGwgYmFjayB0byB0aGUgV29ya2VyLCB3aGljaAovLyBpcyBmaW5lIGJlY2F1c2UgUFJPUEZJTkQvTUtDT0wgcmVzcG9uc2VzIGFyZSA8MSBLQi4KY29uc3QgTkFUSVZFX0RJUkVDVF9NRVRIT0RTOiBSZWFkb25seVNldDxXZWJkYXZNZXRob2Q+ID0gbmV3IFNldChbJ0dFVCcsICdQVVQnLCAnREVMRVRFJ10pOwoKY29uc3QgZGVjb2RlQmluYXJ5RnJvbUNhcGFjaXRvciA9IChkYXRhOiBhbnkpOiBBcnJheUJ1ZmZlciA9PiB7CiAgICBpZiAoZGF0YSBpbnN0YW5jZW9mIEFycmF5QnVmZmVyKSByZXR1cm4gZGF0YTsKICAgIGlmIChkYXRhICYmIGRhdGEuYnVmZmVyIGluc3RhbmNlb2YgQXJyYXlCdWZmZXIpIHJldHVybiBkYXRhLmJ1ZmZlcjsKICAgIGlmICh0eXBlb2YgZGF0YSA9PT0gJ3N0cmluZycpIHsKICAgICAgICAvLyBDYXBhY2l0b3IgZW5jb2RlcyBiaW5hcnkgYXMgYmFzZTY0IGZvciB0aGUgSlMgYnJpZGdlCiAgICAgICAgY29uc3QgYmluID0gYXRvYihkYXRhKTsKICAgICAgICBjb25zdCBvdXQgPSBuZXcgVWludDhBcnJheShiaW4ubGVuZ3RoKTsKICAgICAgICBmb3IgKGxldCBpID0gMDsgaSA8IGJpbi5sZW5ndGg7IGkrKykgb3V0W2ldID0gYmluLmNoYXJDb2RlQXQoaSk7CiAgICAgICAgcmV0dXJuIG91dC5idWZmZXI7CiAgICB9CiAgICByZXR1cm4gbmV3IEFycmF5QnVmZmVyKDApOwp9OwoKY29uc3Qgd2ViZGF2UmVxdWVzdCA9IGFzeW5jICgKICAgIGNvbmZpZzogQ2xvdWRCYWNrdXBDb25maWcsCiAgICBwYXRoOiBzdHJpbmcsCiAgICBtZXRob2Q6IFdlYmRhdk1ldGhvZCwKICAgIG9wdHM6IFdlYmRhdk9wdGlvbnMgPSB7fSwKKTogUHJvbWlzZTxXZWJkYXZSZXNwb25zZT4gPT4gewogICAgY29uc3QgZnVsbFVybCA9IGJ1aWxkRnVsbFVybChjb25maWcud2ViZGF2VXJsLCBwYXRoKTsKICAgIGNvbnN0IGF1dGggPSBidWlsZEF1dGhIZWFkZXIoY29uZmlnKTsKCiAgICBpZiAoaXNOYXRpdmUoKSAmJiBOQVRJVkVfRElSRUNUX01FVEhPRFMuaGFzKG1ldGhvZCkpIHsKICAgICAgICBjb25zdCBoZWFkZXJzOiBSZWNvcmQ8c3RyaW5nLCBzdHJpbmc+ID0geyBBdXRob3JpemF0aW9uOiBhdXRoIH07CiAgICAgICAgaWYgKG9wdHMucmFuZ2UpIGhlYWRlcnNbJ1JhbmdlJ10gPSBvcHRzLnJhbmdlOwogICAgICAgIGlmIChvcHRzLmRlcHRoKSBoZWFkZXJzWydEZXB0aCddID0gb3B0cy5kZXB0aDsKICAgICAgICBpZiAob3B0cy5jb250ZW50VHlwZSkgaGVhZGVyc1snQ29udGVudC1UeXBlJ10gPSBvcHRzLmNvbnRlbnRUeXBlOwoKICAgICAgICBsZXQgZGF0YTogYW55ID0gdW5kZWZpbmVkOwogICAgICAgIGlmIChvcHRzLmJvZHkgIT09IHVuZGVmaW5lZCAmJiBvcHRzLmJvZHkgIT09IG51bGwpIHsKICAgICAgICAgICAgaWYgKG9wdHMuYm9keSBpbnN0YW5jZW9mIEJsb2IpIGRhdGEgPSBhd2FpdCBvcHRzLmJvZHkuYXJyYXlCdWZmZXIoKTsKICAgICAgICAgICAgZWxzZSBkYXRhID0gb3B0cy5ib2R5OwogICAgICAgIH0KCiAgICAgICAgY29uc3QgaXNCaW5hcnlHZXQgPSBtZXRob2QgPT09ICdHRVQnOwogICAgICAgIGNvbnN0IHJlc3BvbnNlID0gYXdhaXQgQ2FwYWNpdG9ySHR0cC5yZXF1ZXN0KHsKICAgICAgICAgICAgdXJsOiBmdWxsVXJsLAogICAgICAgICAgICBtZXRob2QsCiAgICAgICAgICAgIGhlYWRlcnMsCiAgICAgICAgICAgIGRhdGEsCiAgICAgICAgICAgIHJlc3BvbnNlVHlwZTogaXNCaW5hcnlHZXQgPyAnYXJyYXlidWZmZXInIDogJ3RleHQnLAogICAgICAgIH0pOwoKICAgICAgICBjb25zdCByZXNwRGF0YSA9IHJlc3BvbnNlLmRhdGE7CiAgICAgICAgcmV0dXJuIHsKICAgICAgICAgICAgc3RhdHVzOiByZXNwb25zZS5zdGF0dXMsCiAgICAgICAgICAgIHRleHQ6IGFzeW5jICgpID0+ICh0eXBlb2YgcmVzcERhdGEgPT09ICdzdHJpbmcnID8gcmVzcERhdGEgOiAnJyksCiAgICAgICAgICAgIGFycmF5QnVmZmVyOiBhc3luYyAoKSA9PiBkZWNvZGVCaW5hcnlGcm9tQ2FwYWNpdG9yKHJlc3BEYXRhKSwKICAgICAgICB9OwogICAgfQoKICAgIC8vIFdlYiBwYXRoIOKGkiBQT1NUIHRocm91Z2ggV29ya2VyLCByZWFsIG1ldGhvZCBnb2VzIGluIFgtV2ViREFWLU1ldGhvZAogICAgY29uc3QgdXJsID0gYnVpbGRQcm94eVVybChmdWxsVXJsKTsKICAgIGNvbnN0IGhlYWRlcnM6IFJlY29yZDxzdHJpbmcsIHN0cmluZz4gPSB7CiAgICAgICAgQXV0aG9yaXphdGlvbjogYXV0aCwKICAgICAgICAnWC1XZWJEQVYtTWV0aG9kJzogbWV0aG9kLAogICAgfTsKICAgIGlmIChvcHRzLnJhbmdlKSBoZWFkZXJzWydYLVdlYkRBVi1SYW5nZSddID0gb3B0cy5yYW5nZTsKICAgIGlmIChvcHRzLmRlcHRoKSBoZWFkZXJzWydYLVdlYkRBVi1EZXB0aCddID0gb3B0cy5kZXB0aDsKICAgIGlmIChvcHRzLmNvbnRlbnRUeXBlKSBoZWFkZXJzWydDb250ZW50LVR5cGUnXSA9IG9wdHMuY29udGVudFR5cGU7CgogICAgY29uc3QgcmVzID0gYXdhaXQgZmV0Y2godXJsLCB7CiAgICAgICAgbWV0aG9kOiAnUE9TVCcsCiAgICAgICAgaGVhZGVycywKICAgICAgICBib2R5OiAob3B0cy5ib2R5IGFzIEJvZHlJbml0IHwgdW5kZWZpbmVkKSA/PyBudWxsLAogICAgfSk7CiAgICByZXR1cm4gewogICAgICAgIHN0YXR1czogcmVzLnN0YXR1cywKICAgICAgICB0ZXh0OiAoKSA9PiByZXMudGV4dCgpLAogICAgICAgIGFycmF5QnVmZmVyOiAoKSA9PiByZXMuYXJyYXlCdWZmZXIoKSwKICAgIH07Cn07CgovKioKICogVGVzdCBXZWJEQVYgY29ubmVjdGlvbiBieSBkb2luZyBhIFBST1BGSU5EIG9uIHRoZSByZW1vdGUgcGF0aAogKi8KZXhwb3J0IGNvbnN0IHRlc3RDb25uZWN0aW9uID0gYXN5bmMgKGNvbmZpZzogQ2xvdWRCYWNrdXBDb25maWcpOiBQcm9taXNlPHsgb2s6IGJvb2xlYW47IG1lc3NhZ2U6IHN0cmluZyB9PiA9PiB7CiAgICB0cnkgewogICAgICAgIGNvbnN0IHJlcyA9IGF3YWl0IHdlYmRhdlJlcXVlc3QoY29uZmlnLCBjb25maWcucmVtb3RlUGF0aCwgJ1BST1BGSU5EJywgewogICAgICAgICAgICBkZXB0aDogJzAnLAogICAgICAgICAgICBjb250ZW50VHlwZTogJ2FwcGxpY2F0aW9uL3htbDsgY2hhcnNldD11dGYtOCcsCiAgICAgICAgICAgIGJvZHk6ICc8P3htbCB2ZXJzaW9uPSIxLjAiIGVuY29kaW5nPSJ1dGYtOCI/PjxkOnByb3BmaW5kIHhtbG5zOmQ9IkRBVjoiPjxkOnByb3A+PGQ6cmVzb3VyY2V0eXBlLz48L2Q6cHJvcD48L2Q6cHJvcGZpbmQ+JywKICAgICAgICB9KTsKCiAgICAgICAgaWYgKHJlcy5zdGF0dXMgPT09IDIwNyB8fCByZXMuc3RhdHVzID09PSAyMDApIHJldHVybiB7IG9rOiB0cnVlLCBtZXNzYWdlOiAn6L+e5o6l5oiQ5YqfJyB9OwogICAgICAgIGlmIChyZXMuc3RhdHVzID09PSA0MDEpIHJldHVybiB7IG9rOiBmYWxzZSwgbWVzc2FnZTogJ+iupOivgeWksei0pe+8muivt+ajgOafpeeUqOaIt+WQjeWSjOWvhueggScgfTsKICAgICAgICBpZiAocmVzLnN0YXR1cyA9PT0gNDA0KSB7CiAgICAgICAgICAgIGNvbnN0IG1rY29sT2sgPSBhd2FpdCBjcmVhdGVEaXJlY3RvcnkoY29uZmlnKTsKICAgICAgICAgICAgaWYgKG1rY29sT2spIHJldHVybiB7IG9rOiB0cnVlLCBtZXNzYWdlOiAn6L+e5o6l5oiQ5Yqf77yI5bey6Ieq5Yqo5Yib5bu65aSH5Lu955uu5b2V77yJJyB9OwogICAgICAgICAgICByZXR1cm4geyBvazogZmFsc2UsIG1lc3NhZ2U6ICflpIfku73nm67lvZXkuI3lrZjlnKjkuJTml6Dms5XliJvlu7onIH07CiAgICAgICAgfQogICAgICAgIHJldHVybiB7IG9rOiBmYWxzZSwgbWVzc2FnZTogYOacjeWKoeWZqOi/lOWbniAke3Jlcy5zdGF0dXN9YCB9OwogICAgfSBjYXRjaCAoZTogYW55KSB7CiAgICAgICAgcmV0dXJuIHsgb2s6IGZhbHNlLCBtZXNzYWdlOiBg6L+e5o6l5aSx6LSlOiAke2UubWVzc2FnZX1gIH07CiAgICB9Cn07CgovKioKICogQ3JlYXRlIHJlbW90ZSBkaXJlY3RvcnkgKE1LQ09MKQogKi8KZXhwb3J0IGNvbnN0IGNyZWF0ZURpcmVjdG9yeSA9IGFzeW5jIChjb25maWc6IENsb3VkQmFja3VwQ29uZmlnKTogUHJvbWlzZTxib29sZWFuPiA9PiB7CiAgICB0cnkgewogICAgICAgIGNvbnN0IHJlcyA9IGF3YWl0IHdlYmRhdlJlcXVlc3QoY29uZmlnLCBjb25maWcucmVtb3RlUGF0aCwgJ01LQ09MJyk7CiAgICAgICAgcmV0dXJuIHJlcy5zdGF0dXMgPT09IDIwMSB8fCByZXMuc3RhdHVzID09PSA0MDU7IC8vIDQwNSA9IGFscmVhZHkgZXhpc3RzCiAgICB9IGNhdGNoIHsKICAgICAgICByZXR1cm4gZmFsc2U7CiAgICB9Cn07CgovKioKICogVXBsb2FkIGEgYmFja3VwIGZpbGUgdG8gV2ViREFWLgogKgogKiBXZWI6IFhNTEh0dHBSZXF1ZXN0IHNvIHVwbG9hZC5vbnByb2dyZXNzIGNhbiByZXBvcnQgcmVhbCBieXRlcy11cGxvYWRlZC4KICogTmF0aXZlOiBDYXBhY2l0b3JIdHRwIFBVVCBkaXJlY3QgdG8gdXBzdHJlYW0g4oCUIG5vIHJlYWwgcHJvZ3Jlc3MgZXZlbnRzLAogKiBidXQgdGhlIHJvdW5kLXRyaXAgc2tpcHMgdGhlIFdvcmtlciBlbnRpcmVseS4KICovCmV4cG9ydCBjb25zdCB1cGxvYWRCYWNrdXAgPSBhc3luYyAoCiAgICBjb25maWc6IENsb3VkQmFja3VwQ29uZmlnLAogICAgYmxvYjogQmxvYiwKICAgIGZpbGVuYW1lOiBzdHJpbmcsCiAgICBvblByb2dyZXNzPzogKHBlcmNlbnQ6IG51bWJlcikgPT4gdm9pZCwKKTogUHJvbWlzZTx7IG9rOiBib29sZWFuOyBtZXNzYWdlOiBzdHJpbmcgfT4gPT4gewogICAgY29uc3QgcmVtb3RlUGF0aCA9IGNvbmZpZy5yZW1vdGVQYXRoLnJlcGxhY2UoL1wvKyQvLCAnJykgKyAnLycgKyBmaWxlbmFtZTsKCiAgICBjb25zdCBtYXBTdGF0dXMgPSAoczogbnVtYmVyKSA9PiB7CiAgICAgICAgaWYgKHMgPT09IDIwMCB8fCBzID09PSAyMDEgfHwgcyA9PT0gMjA0KSByZXR1cm4geyBvazogdHJ1ZSwgbWVzc2FnZTogJ+S4iuS8oOaIkOWKnycgfTsKICAgICAgICBpZiAocyA9PT0gNDAxKSByZXR1cm4geyBvazogZmFsc2UsIG1lc3NhZ2U6ICforqTor4HlpLHotKUnIH07CiAgICAgICAgaWYgKHMgPT09IDQxMykgcmV0dXJuIHsgb2s6IGZhbHNlLCBtZXNzYWdlOiBg5aSH5Lu95paH5Lu2ICR7Zm9ybWF0TWlCKGJsb2Iuc2l6ZSl9IOi2heWHuuS6keerr+S4iuS8oOS4iumZkO+8jOivt+aUueeUqOOAjOacrOWcsOWvvOWHuuOAjeaIluOAjEdpdEh1YiDlpIfku73jgI1gIH07CiAgICAgICAgaWYgKHMgPT09IDUwNykgcmV0dXJuIHsgb2s6IGZhbHNlLCBtZXNzYWdlOiAn5LqR56uv56m66Ze05LiN6LazJyB9OwogICAgICAgIHJldHVybiB7IG9rOiBmYWxzZSwgbWVzc2FnZTogYOS4iuS8oOWksei0pSAoJHtzfSlgIH07CiAgICB9OwoKICAgIC8vIE9uIG5hdGl2ZSwgUFVUIGdvZXMgZGlyZWN0IHZpYSBDYXBhY2l0b3JIdHRwIChubyBYSFIgdXBsb2FkIHByb2dyZXNzCiAgICAvLyBhdmFpbGFibGUsIHNvIHdlIGp1c3QgYm9va2VuZCB3aXRoIDUlIOKGkiAxMDAlKS4gT24gd2ViIHdlIGtlZXAgWEhSIGZvcgogICAgLy8gcmVhbCBieXRlLWxldmVsIHByb2dyZXNzIHRocm91Z2ggdGhlIFdvcmtlci4KICAgIGlmIChpc05hdGl2ZSgpICYmIE5BVElWRV9ESVJFQ1RfTUVUSE9EUy5oYXMoJ1BVVCcpKSB7CiAgICAgICAgdHJ5IHsKICAgICAgICAgICAgb25Qcm9ncmVzcz8uKDUpOwogICAgICAgICAgICBjb25zdCByZXMgPSBhd2FpdCB3ZWJkYXZSZXF1ZXN0KGNvbmZpZywgcmVtb3RlUGF0aCwgJ1BVVCcsIHsKICAgICAgICAgICAgICAgIGNvbnRlbnRUeXBlOiAnYXBwbGljYXRpb24vemlwJywKICAgICAgICAgICAgICAgIGJvZHk6IGJsb2IsCiAgICAgICAgICAgIH0pOwogICAgICAgICAgICBvblByb2dyZXNzPy4oMTAwKTsKICAgICAgICAgICAgcmV0dXJuIG1hcFN0YXR1cyhyZXMuc3RhdHVzKTsKICAgICAgICB9IGNhdGNoIChlOiBhbnkpIHsKICAgICAgICAgICAgcmV0dXJuIHsgb2s6IGZhbHNlLCBtZXNzYWdlOiBg5LiK5Lyg5aSx6LSlOiAke2U/Lm1lc3NhZ2UgfHwgJ+acquefpemUmeivryd9YCB9OwogICAgICAgIH0KICAgIH0KCiAgICByZXR1cm4gbmV3IFByb21pc2UoKHJlc29sdmUpID0+IHsKICAgICAgICAvLyDlpKflsI/pooTmo4DvvJrnu48gV29ya2VyIOS7o+eQhueahOS4iuS8oOi2heS9k+enr+S4iumZkOaXtu+8jOebtOaOpee7meWPr+aJp+ihjOaKpemUme+8jOS4jeWPkei1t+azqOWumuWksei0peeahOS4iuS8oOOAggogICAgICAgIGlmIChibG9iLnNpemUgPiBXT1JLRVJfTUFYX1VQTE9BRF9CWVRFUykgewogICAgICAgICAgICByZXNvbHZlKHsKICAgICAgICAgICAgICAgIG9rOiBmYWxzZSwKICAgICAgICAgICAgICAgIG1lc3NhZ2U6IGDlpIfku73mlofku7YgJHtmb3JtYXRNaUIoYmxvYi5zaXplKX0g6LaF6L+H5LqR56uv5Luj55CG5LiK5Lyg5LiK6ZmQ77yI57qmICR7Zm9ybWF0TWlCKFdPUktFUl9NQVhfVVBMT0FEX0JZVEVTKX3vvInvvIzor7fmlLnnlKjjgIzmnKzlnLDlr7zlh7rjgI3miJbjgIxHaXRIdWIg5aSH5Lu944CNYCwKICAgICAgICAgICAgfSk7CiAgICAgICAgICAgIHJldHVybjsKICAgICAgICB9CgogICAgICAgIGNvbnN0IHVybCA9IGJ1aWxkUHJveHlVcmwoYnVpbGRGdWxsVXJsKGNvbmZpZy53ZWJkYXZVcmwsIHJlbW90ZVBhdGgpKTsKICAgICAgICBjb25zdCBhdXRoID0gYnVpbGRBdXRoSGVhZGVyKGNvbmZpZyk7CgogICAgICAgIGNvbnN0IHhociA9IG5ldyBYTUxIdHRwUmVxdWVzdCgpOwogICAgICAgIHhoci5vcGVuKCdQT1NUJywgdXJsKTsKICAgICAgICB4aHIuc2V0UmVxdWVzdEhlYWRlcignQXV0aG9yaXphdGlvbicsIGF1dGgpOwogICAgICAgIHhoci5zZXRSZXF1ZXN0SGVhZGVyKCdDb250ZW50LVR5cGUnLCAnYXBwbGljYXRpb24vemlwJyk7CiAgICAgICAgeGhyLnNldFJlcXVlc3RIZWFkZXIoJ1gtV2ViREFWLU1ldGhvZCcsICdQVVQnKTsKCiAgICAgICAgeGhyLnVwbG9hZC5vbnByb2dyZXNzID0gKGUpID0+IHsKICAgICAgICAgICAgaWYgKCFlLmxlbmd0aENvbXB1dGFibGUpIHJldHVybjsKICAgICAgICAgICAgY29uc3QgcGN0ID0gTWF0aC5taW4oOTksIE1hdGguZmxvb3IoKGUubG9hZGVkIC8gZS50b3RhbCkgKiAxMDApKTsKICAgICAgICAgICAgb25Qcm9ncmVzcz8uKHBjdCk7CiAgICAgICAgfTsKICAgICAgICB4aHIub25sb2FkID0gKCkgPT4gewogICAgICAgICAgICBvblByb2dyZXNzPy4oMTAwKTsKICAgICAgICAgICAgcmVzb2x2ZShtYXBTdGF0dXMoeGhyLnN0YXR1cykpOwogICAgICAgIH07CiAgICAgICAgeGhyLm9uZXJyb3IgPSAoKSA9PiByZXNvbHZlKHsgb2s6IGZhbHNlLCBtZXNzYWdlOiAn5LiK5Lyg5aSx6LSlOiDnvZHnu5zplJnor68nIH0pOwogICAgICAgIHhoci5vbmFib3J0ID0gKCkgPT4gcmVzb2x2ZSh7IG9rOiBmYWxzZSwgbWVzc2FnZTogJ+S4iuS8oOW3suWPlua2iCcgfSk7CiAgICAgICAgeGhyLm9udGltZW91dCA9ICgpID0+IHJlc29sdmUoeyBvazogZmFsc2UsIG1lc3NhZ2U6ICfkuIrkvKDotoXml7YnIH0pOwoKICAgICAgICB4aHIuc2VuZChibG9iKTsKICAgIH0pOwp9OwoKLyoqCiAqIExpc3QgYmFja3VwIGZpbGVzIG9uIFdlYkRBVgogKi8KZXhwb3J0IGNvbnN0IGxpc3RCYWNrdXBzID0gYXN5bmMgKGNvbmZpZzogQ2xvdWRCYWNrdXBDb25maWcpOiBQcm9taXNlPENsb3VkQmFja3VwRmlsZVtdPiA9PiB7CiAgICB0cnkgewogICAgICAgIGNvbnN0IHJlcyA9IGF3YWl0IHdlYmRhdlJlcXVlc3QoY29uZmlnLCBjb25maWcucmVtb3RlUGF0aCwgJ1BST1BGSU5EJywgewogICAgICAgICAgICBkZXB0aDogJzEnLAogICAgICAgICAgICBjb250ZW50VHlwZTogJ2FwcGxpY2F0aW9uL3htbDsgY2hhcnNldD11dGYtOCcsCiAgICAgICAgICAgIGJvZHk6ICc8P3htbCB2ZXJzaW9uPSIxLjAiIGVuY29kaW5nPSJ1dGYtOCI/PjxkOnByb3BmaW5kIHhtbG5zOmQ9IkRBVjoiPjxkOnByb3A+PGQ6Z2V0Y29udGVudGxlbmd0aC8+PGQ6Z2V0bGFzdG1vZGlmaWVkLz48ZDpkaXNwbGF5bmFtZS8+PGQ6cmVzb3VyY2V0eXBlLz48L2Q6cHJvcD48L2Q6cHJvcGZpbmQ+JywKICAgICAgICB9KTsKICAgICAgICBpZiAocmVzLnN0YXR1cyAhPT0gMjA3ICYmIHJlcy5zdGF0dXMgIT09IDIwMCkgcmV0dXJuIFtdOwogICAgICAgIGNvbnN0IHhtbCA9IGF3YWl0IHJlcy50ZXh0KCk7CiAgICAgICAgcmV0dXJuIHBhcnNlV2ViREFWTGlzdGluZyh4bWwsIGNvbmZpZyk7CiAgICB9IGNhdGNoIHsKICAgICAgICByZXR1cm4gW107CiAgICB9Cn07CgovKioKICogRG93bmxvYWQgYSBiYWNrdXAgZmlsZSBmcm9tIFdlYkRBViBpbiBmaXhlZC1zaXplIGNodW5rcyB2aWEgSFRUUCBSYW5nZS4KICoKICogU2luZ2xlLXNob3QgR0VUIHJlbGlhYmx5IGZhaWxlZCBmb3IgbGFyZ2UgYmFja3VwczogdGhyb3VnaCB0aGUgV29ya2VyLCB0aGUKICogdXBzdHJlYW3ihpJ3b3JrZXLihpJjbGllbnQgcGlwZSBvdXRsaXZlZCB0aGUgd29ya2VyJ3Mgd2FsbC1jbG9jayBidWRnZXQgb24gc2xvdwogKiBsaW5rcyBhbmQgdGhlIGJyb3dzZXIgbG9nZ2VkIGBuZXQ6OkVSUl9GQUlMRUQgMjAwIChPSylgLiBUaHJvdWdoIG5hdGl2ZQogKiBDYXBhY2l0b3JIdHRwLCB0aGUgd2hvbGUgcmVzcG9uc2Ugd291bGQgaGF2ZSB0byBsYW5kIGluIEpTIGFzIG9uZQogKiBBcnJheUJ1ZmZlciAoT09NIHJpc2sgb24gYmlnIHppcHMpLiBDaHVua2luZyBzb2x2ZXMgYm90aDogZWFjaCByZXF1ZXN0IGlzCiAqIGJvdW5kZWQsIHJldHJpZXMgYXJlIGxvY2FsLCBhbmQgcHJvZ3Jlc3MgcmVmbGVjdHMgYWN0dWFsIGJ5dGVzLgogKi8KY29uc3QgQ0hVTktfU0laRSA9IDggKiAxMDI0ICogMTAyNDsKY29uc3QgTUFYX0NIVU5LX1JFVFJJRVMgPSAzOwoKY29uc3QgZmV0Y2hDaHVuayA9IGFzeW5jICgKICAgIGNvbmZpZzogQ2xvdWRCYWNrdXBDb25maWcsCiAgICBwYXRoOiBzdHJpbmcsCiAgICByYW5nZUhlYWRlcjogc3RyaW5nLAopOiBQcm9taXNlPEFycmF5QnVmZmVyPiA9PiB7CiAgICBsZXQgbGFzdEVycjogYW55ID0gbnVsbDsKICAgIGZvciAobGV0IGF0dGVtcHQgPSAwOyBhdHRlbXB0IDwgTUFYX0NIVU5LX1JFVFJJRVM7IGF0dGVtcHQrKykgewogICAgICAgIHRyeSB7CiAgICAgICAgICAgIGNvbnN0IHJlcyA9IGF3YWl0IHdlYmRhdlJlcXVlc3QoY29uZmlnLCBwYXRoLCAnR0VUJywgeyByYW5nZTogcmFuZ2VIZWFkZXIgfSk7CiAgICAgICAgICAgIGlmIChyZXMuc3RhdHVzID09PSAyMDYgfHwgcmVzLnN0YXR1cyA9PT0gMjAwKSByZXR1cm4gYXdhaXQgcmVzLmFycmF5QnVmZmVyKCk7CiAgICAgICAgICAgIGxhc3RFcnIgPSBuZXcgRXJyb3IoYGNodW5rIEhUVFAgJHtyZXMuc3RhdHVzfWApOwogICAgICAgIH0gY2F0Y2ggKGUpIHsKICAgICAgICAgICAgbGFzdEVyciA9IGU7CiAgICAgICAgfQogICAgICAgIGF3YWl0IG5ldyBQcm9taXNlKHIgPT4gc2V0VGltZW91dChyLCA1MDAgKiAoYXR0ZW1wdCArIDEpKSk7CiAgICB9CiAgICB0aHJvdyBsYXN0RXJyIHx8IG5ldyBFcnJvcignY2h1bmsgZmFpbGVkJyk7Cn07CgpleHBvcnQgY29uc3QgZG93bmxvYWRCYWNrdXAgPSBhc3luYyAoCiAgICBjb25maWc6IENsb3VkQmFja3VwQ29uZmlnLAogICAgZmlsZTogQ2xvdWRCYWNrdXBGaWxlLAogICAgb25Qcm9ncmVzcz86IChwZXJjZW50OiBudW1iZXIpID0+IHZvaWQsCik6IFByb21pc2U8QmxvYiB8IG51bGw+ID0+IHsKICAgIHRyeSB7CiAgICAgICAgb25Qcm9ncmVzcz8uKDIpOwoKICAgICAgICBpZiAoZmlsZS5zaXplID4gQ0hVTktfU0laRSkgewogICAgICAgICAgICB0cnkgewogICAgICAgICAgICAgICAgY29uc3QgdG90YWwgPSBmaWxlLnNpemU7CiAgICAgICAgICAgICAgICBjb25zdCBwYXJ0czogQXJyYXlCdWZmZXJbXSA9IFtdOwogICAgICAgICAgICAgICAgbGV0IHJlY2VpdmVkID0gMDsKICAgICAgICAgICAgICAgIGZvciAobGV0IHN0YXJ0ID0gMDsgc3RhcnQgPCB0b3RhbDsgc3RhcnQgKz0gQ0hVTktfU0laRSkgewogICAgICAgICAgICAgICAgICAgIGNvbnN0IGVuZCA9IE1hdGgubWluKHN0YXJ0ICsgQ0hVTktfU0laRSAtIDEsIHRvdGFsIC0gMSk7CiAgICAgICAgICAgICAgICAgICAgY29uc3QgYnVmID0gYXdhaXQgZmV0Y2hDaHVuayhjb25maWcsIGZpbGUuaHJlZiwgYGJ5dGVzPSR7c3RhcnR9LSR7ZW5kfWApOwogICAgICAgICAgICAgICAgICAgIHBhcnRzLnB1c2goYnVmKTsKICAgICAgICAgICAgICAgICAgICByZWNlaXZlZCArPSBidWYuYnl0ZUxlbmd0aDsKICAgICAgICAgICAgICAgICAgICBvblByb2dyZXNzPy4oTWF0aC5taW4oOTksIE1hdGguZmxvb3IoKHJlY2VpdmVkIC8gdG90YWwpICogMTAwKSkpOwogICAgICAgICAgICAgICAgfQogICAgICAgICAgICAgICAgY29uc3QgYmxvYiA9IG5ldyBCbG9iKHBhcnRzLCB7IHR5cGU6ICdhcHBsaWNhdGlvbi96aXAnIH0pOwogICAgICAgICAgICAgICAgb25Qcm9ncmVzcz8uKDEwMCk7CiAgICAgICAgICAgICAgICByZXR1cm4gYmxvYjsKICAgICAgICAgICAgfSBjYXRjaCAoZSkgewogICAgICAgICAgICAgICAgLy8gTW9zdCBsaWtlbHk6IHRoZSBkZXBsb3llZCBXb3JrZXIgaGFzbid0IGJlZW4gcmVkZXBsb3llZCB3aXRoIHRoZQogICAgICAgICAgICAgICAgLy8gWC1XZWJEQVYtUmFuZ2UgaGVhZGVyIGFsbG93ZWQgYnkgQ09SUyBwcmVmbGlnaHQuIEZhbGwgdGhyb3VnaCB0bwogICAgICAgICAgICAgICAgLy8gYSBzaW5nbGUgR0VUIHNvIHNtYWxsL21lZGl1bSBiYWNrdXBzIHN0aWxsIHJlc3RvcmUuIChXb24ndCBoZWxwCiAgICAgICAgICAgICAgICAvLyBmb3IgaHVnZSBmaWxlcyDigJQgdGhvc2UgbmVlZCB0aGUgbmV3IHdvcmtlci4pCiAgICAgICAgICAgICAgICBjb25zb2xlLndhcm4oJ1t3ZWJkYXZdIGNodW5rZWQgZG93bmxvYWQgZmFpbGVkLCBmYWxsaW5nIGJhY2sgdG8gc2luZ2xlIEdFVCcsIGUpOwogICAgICAgICAgICAgICAgb25Qcm9ncmVzcz8uKDIpOwogICAgICAgICAgICB9CiAgICAgICAgfQoKICAgICAgICAvLyBTbWFsbCAvIHVua25vd24gc2l6ZSwgb3IgY2h1bmtlZCBmYWxsYmFjayDigJQgc2luZ2xlIEdFVAogICAgICAgIGNvbnN0IHJlcyA9IGF3YWl0IHdlYmRhdlJlcXVlc3QoY29uZmlnLCBmaWxlLmhyZWYsICdHRVQnKTsKICAgICAgICBpZiAocmVzLnN0YXR1cyAhPT0gMjAwICYmIHJlcy5zdGF0dXMgIT09IDIwNikgcmV0dXJuIG51bGw7CiAgICAgICAgb25Qcm9ncmVzcz8uKDUwKTsKICAgICAgICBjb25zdCBidWYgPSBhd2FpdCByZXMuYXJyYXlCdWZmZXIoKTsKICAgICAgICBvblByb2dyZXNzPy4oMTAwKTsKICAgICAgICByZXR1cm4gbmV3IEJsb2IoW2J1Zl0sIHsgdHlwZTogJ2FwcGxpY2F0aW9uL3ppcCcgfSk7CiAgICB9IGNhdGNoIHsKICAgICAgICByZXR1cm4gbnVsbDsKICAgIH0KfTsKCi8qKgogKiBEZWxldGUgYSBiYWNrdXAgZmlsZSBmcm9tIFdlYkRBVgogKi8KZXhwb3J0IGNvbnN0IGRlbGV0ZUJhY2t1cCA9IGFzeW5jICgKICAgIGNvbmZpZzogQ2xvdWRCYWNrdXBDb25maWcsCiAgICBmaWxlOiBDbG91ZEJhY2t1cEZpbGUsCik6IFByb21pc2U8Ym9vbGVhbj4gPT4gewogICAgdHJ5IHsKICAgICAgICBjb25zdCByZXMgPSBhd2FpdCB3ZWJkYXZSZXF1ZXN0KGNvbmZpZywgZmlsZS5ocmVmLCAnREVMRVRFJyk7CiAgICAgICAgcmV0dXJuIHJlcy5zdGF0dXMgPT09IDIwNCB8fCByZXMuc3RhdHVzID09PSAyMDA7CiAgICB9IGNhdGNoIHsKICAgICAgICByZXR1cm4gZmFsc2U7CiAgICB9Cn07CgovKioKICogUGFyc2UgV2ViREFWIFBST1BGSU5EIFhNTCByZXNwb25zZSBpbnRvIGZpbGUgbGlzdAogKi8KY29uc3QgcGFyc2VXZWJEQVZMaXN0aW5nID0gKHhtbDogc3RyaW5nLCBjb25maWc6IENsb3VkQmFja3VwQ29uZmlnKTogQ2xvdWRCYWNrdXBGaWxlW10gPT4gewogICAgY29uc3QgcGFyc2VyID0gbmV3IERPTVBhcnNlcigpOwogICAgY29uc3QgZG9jID0gcGFyc2VyLnBhcnNlRnJvbVN0cmluZyh4bWwsICdhcHBsaWNhdGlvbi94bWwnKTsKICAgIGNvbnN0IHJlc3BvbnNlcyA9IGRvYy5xdWVyeVNlbGVjdG9yQWxsKCdyZXNwb25zZScpOwogICAgY29uc3QgZmlsZXM6IENsb3VkQmFja3VwRmlsZVtdID0gW107CgogICAgcmVzcG9uc2VzLmZvckVhY2goKHJlc3BvbnNlKSA9PiB7CiAgICAgICAgY29uc3QgaHJlZiA9IHJlc3BvbnNlLnF1ZXJ5U2VsZWN0b3IoJ2hyZWYnKT8udGV4dENvbnRlbnQgfHwgJyc7CiAgICAgICAgY29uc3QgaXNDb2xsZWN0aW9uID0gcmVzcG9uc2UucXVlcnlTZWxlY3RvcigncmVzb3VyY2V0eXBlIGNvbGxlY3Rpb24nKSAhPT0gbnVsbDsKICAgICAgICBpZiAoaXNDb2xsZWN0aW9uKSByZXR1cm47CgogICAgICAgIGNvbnN0IGRpc3BsYXlOYW1lID0gcmVzcG9uc2UucXVlcnlTZWxlY3RvcignZGlzcGxheW5hbWUnKT8udGV4dENvbnRlbnQgfHwgJyc7CiAgICAgICAgY29uc3QgY29udGVudExlbmd0aCA9IHJlc3BvbnNlLnF1ZXJ5U2VsZWN0b3IoJ2dldGNvbnRlbnRsZW5ndGgnKT8udGV4dENvbnRlbnQgfHwgJzAnOwogICAgICAgIGNvbnN0IGxhc3RNb2RpZmllZCA9IHJlc3BvbnNlLnF1ZXJ5U2VsZWN0b3IoJ2dldGxhc3Rtb2RpZmllZCcpPy50ZXh0Q29udGVudCB8fCAnJzsKCiAgICAgICAgY29uc3QgbmFtZSA9IGRpc3BsYXlOYW1lIHx8IGhyZWYuc3BsaXQoJy8nKS5maWx0ZXIoQm9vbGVhbikucG9wKCkgfHwgJyc7CiAgICAgICAgaWYgKCFuYW1lLmVuZHNXaXRoKCcuemlwJykpIHJldHVybjsKCiAgICAgICAgZmlsZXMucHVzaCh7CiAgICAgICAgICAgIG5hbWUsCiAgICAgICAgICAgIHNpemU6IHBhcnNlSW50KGNvbnRlbnRMZW5ndGgsIDEwKSwKICAgICAgICAgICAgbGFzdE1vZGlmaWVkLAogICAgICAgICAgICBocmVmOiBjb25maWcucmVtb3RlUGF0aC5yZXBsYWNlKC9cLyskLywgJycpICsgJy8nICsgbmFtZSwKICAgICAgICB9KTsKICAgIH0pOwoKICAgIGZpbGVzLnNvcnQoKGEsIGIpID0+IGIubmFtZS5sb2NhbGVDb21wYXJlKGEubmFtZSkpOwogICAgcmV0dXJuIGZpbGVzOwp9OwoKLyoqCiAqIENsZWFuIHVwIG9sZCBiYWNrdXBzLCBrZWVwaW5nIG9ubHkgdGhlIGxhdGVzdCBOCiAqLwpleHBvcnQgY29uc3QgY2xlYW51cE9sZEJhY2t1cHMgPSBhc3luYyAoY29uZmlnOiBDbG91ZEJhY2t1cENvbmZpZywga2VlcENvdW50OiBudW1iZXIgPSA1KTogUHJvbWlzZTxudW1iZXI+ID0+IHsKICAgIGNvbnN0IGZpbGVzID0gYXdhaXQgbGlzdEJhY2t1cHMoY29uZmlnKTsKICAgIGlmIChmaWxlcy5sZW5ndGggPD0ga2VlcENvdW50KSByZXR1cm4gMDsKCiAgICBsZXQgZGVsZXRlZCA9IDA7CiAgICBjb25zdCB0b0RlbGV0ZSA9IGZpbGVzLnNsaWNlKGtlZXBDb3VudCk7CiAgICBmb3IgKGNvbnN0IGZpbGUgb2YgdG9EZWxldGUpIHsKICAgICAgICBpZiAoYXdhaXQgZGVsZXRlQmFja3VwKGNvbmZpZywgZmlsZSkpIGRlbGV0ZWQrKzsKICAgIH0KICAgIHJldHVybiBkZWxldGVkOwp9OwoKLyoqCiAqIEZvcm1hdCBmaWxlIHNpemUgZm9yIGRpc3BsYXkKICovCmV4cG9ydCBjb25zdCBmb3JtYXRGaWxlU2l6ZSA9IChieXRlczogbnVtYmVyKTogc3RyaW5nID0+IHsKICAgIGlmIChieXRlcyA8IDEwMjQpIHJldHVybiBgJHtieXRlc30gQmA7CiAgICBpZiAoYnl0ZXMgPCAxMDI0ICogMTAyNCkgcmV0dXJuIGAkeyhieXRlcyAvIDEwMjQpLnRvRml4ZWQoMSl9IEtCYDsKICAgIHJldHVybiBgJHsoYnl0ZXMgLyAoMTAyNCAqIDEwMjQpKS50b0ZpeGVkKDEpfSBNQmA7Cn07Cg==
+/**
+ * WebDAV Client for Cloud Backup
+ *
+ * Supports: 坚果云 (Nutstore), Nextcloud, Synology NAS, TeraCloud, Box, etc.
+ *
+ * Two transports:
+ *   - Native (Capacitor Android/iOS): hits the WebDAV server directly via
+ *     CapacitorHttp, which uses the OS HTTP stack and bypasses CORS. No
+ *     Cloudflare Worker request quota burned, no extra hop.
+ *   - Web: routes POST + X-WebDAV-Method through the sully-n CF Worker so the
+ *     browser CORS preflight passes (TeraCloud / infini-cloud / NAS don't
+ *     return CORS headers).
+ */
+import { Capacitor, CapacitorHttp } from '@capacitor/core';
+
+import { CloudBackupConfig, CloudBackupFile } from '../types';
+import { getProxyWorkerUrl } from './proxyWorker';
+
+// 经 CF Worker 代理上传（web 路径）的请求体上限。Cloudflare Worker 免费版单次请求体约 100MB，
+// 超了会被 Worker/平台直接拒（返回 413 之类），且大请求体上行还可能撞 ~42s 上行超时。所以在发起
+// 上传前先按 blob 大小预检：超限直接给可执行的报错（改用本地导出 / GitHub），别让用户傻等几十秒
+// 才失败。备份 blob 已是压缩 zip，gzip 上行无意义，这里只做大小闸。
+// 注：native 路径（CapacitorHttp 直连上游 WebDAV，不过 Worker）不受此限，上游各家容量不一，
+// 由响应状态兜底；native 端把整个 blob 读进 ArrayBuffer 的额外拷贝是已知内存开销，彻底解需改
+// 「先落临时文件再按路径 PUT」，列为 follow-up。
+const WORKER_MAX_UPLOAD_BYTES = 100 * 1024 * 1024;
+
+const formatMiB = (bytes: number): string => `${(bytes / (1024 * 1024)).toFixed(1)}MB`;
+
+const isNative = (): boolean => {
+    try {
+        return Capacitor.isNativePlatform();
+    } catch {
+        return false;
+    }
+};
+
+const buildFullUrl = (webdavUrl: string, path: string): string =>
+    webdavUrl.replace(/\/+$/, '') + '/' + path.replace(/^\/+/, '');
+
+const buildProxyUrl = (fullUrl: string): string =>
+    `${getProxyWorkerUrl()}/webdav?url=${encodeURIComponent(fullUrl)}`;
+
+const buildAuthHeader = (config: CloudBackupConfig): string =>
+    `Basic ${btoa(`${config.username}:${config.password}`)}`;
+
+type WebdavMethod = 'GET' | 'PUT' | 'PROPFIND' | 'MKCOL' | 'DELETE';
+type WebdavOptions = {
+    range?: string;
+    depth?: '0' | '1';
+    contentType?: string;
+    body?: string | ArrayBuffer | Blob;
+};
+type WebdavResponse = {
+    status: number;
+    text: () => Promise<string>;
+    arrayBuffer: () => Promise<ArrayBuffer>;
+};
+
+// Android's HttpURLConnection (which CapacitorHttp uses under the hood) rejects
+// non-standard HTTP verbs like PROPFIND and MKCOL with `ProtocolException`.
+// Standard verbs go direct on native; the rest fall back to the Worker, which
+// is fine because PROPFIND/MKCOL responses are <1 KB.
+const NATIVE_DIRECT_METHODS: ReadonlySet<WebdavMethod> = new Set(['GET', 'PUT', 'DELETE']);
+
+const decodeBinaryFromCapacitor = (data: any): ArrayBuffer => {
+    if (data instanceof ArrayBuffer) return data;
+    if (data && data.buffer instanceof ArrayBuffer) return data.buffer;
+    if (typeof data === 'string') {
+        // Capacitor encodes binary as base64 for the JS bridge
+        const bin = atob(data);
+        const out = new Uint8Array(bin.length);
+        for (let i = 0; i < bin.length; i++) out[i] = bin.charCodeAt(i);
+        return out.buffer;
+    }
+    return new ArrayBuffer(0);
+};
+
+const webdavRequest = async (
+    config: CloudBackupConfig,
+    path: string,
+    method: WebdavMethod,
+    opts: WebdavOptions = {},
+): Promise<WebdavResponse> => {
+    const fullUrl = buildFullUrl(config.webdavUrl, path);
+    const auth = buildAuthHeader(config);
+
+    if (isNative() && NATIVE_DIRECT_METHODS.has(method)) {
+        const headers: Record<string, string> = { Authorization: auth };
+        if (opts.range) headers['Range'] = opts.range;
+        if (opts.depth) headers['Depth'] = opts.depth;
+        if (opts.contentType) headers['Content-Type'] = opts.contentType;
+
+        let data: any = undefined;
+        if (opts.body !== undefined && opts.body !== null) {
+            if (opts.body instanceof Blob) data = await opts.body.arrayBuffer();
+            else data = opts.body;
+        }
+
+        const isBinaryGet = method === 'GET';
+        const response = await CapacitorHttp.request({
+            url: fullUrl,
+            method,
+            headers,
+            data,
+            responseType: isBinaryGet ? 'arraybuffer' : 'text',
+        });
+
+        const respData = response.data;
+        return {
+            status: response.status,
+            text: async () => (typeof respData === 'string' ? respData : ''),
+            arrayBuffer: async () => decodeBinaryFromCapacitor(respData),
+        };
+    }
+
+    // Web path → POST through Worker, real method goes in X-WebDAV-Method
+    const url = buildProxyUrl(fullUrl);
+    const headers: Record<string, string> = {
+        Authorization: auth,
+        'X-WebDAV-Method': method,
+    };
+    if (opts.range) headers['X-WebDAV-Range'] = opts.range;
+    if (opts.depth) headers['X-WebDAV-Depth'] = opts.depth;
+    if (opts.contentType) headers['Content-Type'] = opts.contentType;
+
+    const res = await fetch(url, {
+        method: 'POST',
+        headers,
+        body: (opts.body as BodyInit | undefined) ?? null,
+    });
+    return {
+        status: res.status,
+        text: () => res.text(),
+        arrayBuffer: () => res.arrayBuffer(),
+    };
+};
+
+/**
+ * Test WebDAV connection by doing a PROPFIND on the remote path
+ */
+export const testConnection = async (config: CloudBackupConfig): Promise<{ ok: boolean; message: string }> => {
+    try {
+        const res = await webdavRequest(config, config.remotePath, 'PROPFIND', {
+            depth: '0',
+            contentType: 'application/xml; charset=utf-8',
+            body: '<?xml version="1.0" encoding="utf-8"?><d:propfind xmlns:d="DAV:"><d:prop><d:resourcetype/></d:prop></d:propfind>',
+        });
+
+        if (res.status === 207 || res.status === 200) return { ok: true, message: '连接成功' };
+        if (res.status === 401) return { ok: false, message: '认证失败：请检查用户名和密码' };
+        if (res.status === 404) {
+            const mkcolOk = await createDirectory(config);
+            if (mkcolOk) return { ok: true, message: '连接成功（已自动创建备份目录）' };
+            return { ok: false, message: '备份目录不存在且无法创建' };
+        }
+        return { ok: false, message: `服务器返回 ${res.status}` };
+    } catch (e: any) {
+        return { ok: false, message: `连接失败: ${e.message}` };
+    }
+};
+
+/**
+ * Create remote directory (MKCOL)
+ */
+export const createDirectory = async (config: CloudBackupConfig): Promise<boolean> => {
+    try {
+        const res = await webdavRequest(config, config.remotePath, 'MKCOL');
+        return res.status === 201 || res.status === 405; // 405 = already exists
+    } catch {
+        return false;
+    }
+};
+
+/**
+ * Upload a backup file to WebDAV.
+ *
+ * Web: XMLHttpRequest so upload.onprogress can report real bytes-uploaded.
+ * Native: CapacitorHttp PUT direct to upstream — no real progress events,
+ * but the round-trip skips the Worker entirely.
+ */
+export const uploadBackup = async (
+    config: CloudBackupConfig,
+    blob: Blob,
+    filename: string,
+    onProgress?: (percent: number) => void,
+): Promise<{ ok: boolean; message: string }> => {
+    const remotePath = config.remotePath.replace(/\/+$/, '') + '/' + filename;
+
+    const mapStatus = (s: number) => {
+        if (s === 200 || s === 201 || s === 204) return { ok: true, message: '上传成功' };
+        if (s === 401) return { ok: false, message: '认证失败' };
+        if (s === 413) return { ok: false, message: `备份文件 ${formatMiB(blob.size)} 超出云端上传上限，请改用「本地导出」或「GitHub 备份」` };
+        if (s === 507) return { ok: false, message: '云端空间不足' };
+        return { ok: false, message: `上传失败 (${s})` };
+    };
+
+    // On native, PUT goes direct via CapacitorHttp (no XHR upload progress
+    // available, so we just bookend with 5% → 100%). On web we keep XHR for
+    // real byte-level progress through the Worker.
+    if (isNative() && NATIVE_DIRECT_METHODS.has('PUT')) {
+        try {
+            onProgress?.(5);
+            const res = await webdavRequest(config, remotePath, 'PUT', {
+                contentType: 'application/zip',
+                body: blob,
+            });
+            onProgress?.(100);
+            return mapStatus(res.status);
+        } catch (e: any) {
+            return { ok: false, message: `上传失败: ${e?.message || '未知错误'}` };
+        }
+    }
+
+    return new Promise((resolve) => {
+        // 大小预检：经 Worker 代理的上传超体积上限时，直接给可执行报错，不发起注定失败的上传。
+        if (blob.size > WORKER_MAX_UPLOAD_BYTES) {
+            resolve({
+                ok: false,
+                message: `备份文件 ${formatMiB(blob.size)} 超过云端代理上传上限（约 ${formatMiB(WORKER_MAX_UPLOAD_BYTES)}），请改用「本地导出」或「GitHub 备份」`,
+            });
+            return;
+        }
+
+        const url = buildProxyUrl(buildFullUrl(config.webdavUrl, remotePath));
+        const auth = buildAuthHeader(config);
+
+        const xhr = new XMLHttpRequest();
+        xhr.open('POST', url);
+        xhr.setRequestHeader('Authorization', auth);
+        xhr.setRequestHeader('Content-Type', 'application/zip');
+        xhr.setRequestHeader('X-WebDAV-Method', 'PUT');
+
+        xhr.upload.onprogress = (e) => {
+            if (!e.lengthComputable) return;
+            const pct = Math.min(99, Math.floor((e.loaded / e.total) * 100));
+            onProgress?.(pct);
+        };
+        xhr.onload = () => {
+            onProgress?.(100);
+            resolve(mapStatus(xhr.status));
+        };
+        xhr.onerror = () => resolve({ ok: false, message: '上传失败: 网络错误' });
+        xhr.onabort = () => resolve({ ok: false, message: '上传已取消' });
+        xhr.ontimeout = () => resolve({ ok: false, message: '上传超时' });
+
+        xhr.send(blob);
+    });
+};
+
+/**
+ * List backup files on WebDAV
+ */
+export const listBackups = async (config: CloudBackupConfig): Promise<CloudBackupFile[]> => {
+    try {
+        const res = await webdavRequest(config, config.remotePath, 'PROPFIND', {
+            depth: '1',
+            contentType: 'application/xml; charset=utf-8',
+            body: '<?xml version="1.0" encoding="utf-8"?><d:propfind xmlns:d="DAV:"><d:prop><d:getcontentlength/><d:getlastmodified/><d:displayname/><d:resourcetype/></d:prop></d:propfind>',
+        });
+        if (res.status !== 207 && res.status !== 200) return [];
+        const xml = await res.text();
+        return parseWebDAVListing(xml, config);
+    } catch {
+        return [];
+    }
+};
+
+/**
+ * Download a backup file from WebDAV in fixed-size chunks via HTTP Range.
+ *
+ * Single-shot GET reliably failed for large backups: through the Worker, the
+ * upstream→worker→client pipe outlived the worker's wall-clock budget on slow
+ * links and the browser logged `net::ERR_FAILED 200 (OK)`. Through native
+ * CapacitorHttp, the whole response would have to land in JS as one
+ * ArrayBuffer (OOM risk on big zips). Chunking solves both: each request is
+ * bounded, retries are local, and progress reflects actual bytes.
+ */
+const CHUNK_SIZE = 8 * 1024 * 1024;
+const MAX_CHUNK_RETRIES = 3;
+
+const fetchChunk = async (
+    config: CloudBackupConfig,
+    path: string,
+    rangeHeader: string,
+): Promise<ArrayBuffer> => {
+    let lastErr: any = null;
+    for (let attempt = 0; attempt < MAX_CHUNK_RETRIES; attempt++) {
+        try {
+            const res = await webdavRequest(config, path, 'GET', { range: rangeHeader });
+            if (res.status === 206 || res.status === 200) return await res.arrayBuffer();
+            lastErr = new Error(`chunk HTTP ${res.status}`);
+        } catch (e) {
+            lastErr = e;
+        }
+        await new Promise(r => setTimeout(r, 500 * (attempt + 1)));
+    }
+    throw lastErr || new Error('chunk failed');
+};
+
+export const downloadBackup = async (
+    config: CloudBackupConfig,
+    file: CloudBackupFile,
+    onProgress?: (percent: number) => void,
+): Promise<Blob | null> => {
+    try {
+        onProgress?.(2);
+
+        if (file.size > CHUNK_SIZE) {
+            try {
+                const total = file.size;
+                const parts: ArrayBuffer[] = [];
+                let received = 0;
+                for (let start = 0; start < total; start += CHUNK_SIZE) {
+                    const end = Math.min(start + CHUNK_SIZE - 1, total - 1);
+                    const buf = await fetchChunk(config, file.href, `bytes=${start}-${end}`);
+                    parts.push(buf);
+                    received += buf.byteLength;
+                    onProgress?.(Math.min(99, Math.floor((received / total) * 100)));
+                }
+                const blob = new Blob(parts, { type: 'application/zip' });
+                onProgress?.(100);
+                return blob;
+            } catch (e) {
+                // Most likely: the deployed Worker hasn't been redeployed with the
+                // X-WebDAV-Range header allowed by CORS preflight. Fall through to
+                // a single GET so small/medium backups still restore. (Won't help
+                // for huge files — those need the new worker.)
+                console.warn('[webdav] chunked download failed, falling back to single GET', e);
+                onProgress?.(2);
+            }
+        }
+
+        // Small / unknown size, or chunked fallback — single GET
+        const res = await webdavRequest(config, file.href, 'GET');
+        if (res.status !== 200 && res.status !== 206) return null;
+        onProgress?.(50);
+        const buf = await res.arrayBuffer();
+        onProgress?.(100);
+        return new Blob([buf], { type: 'application/zip' });
+    } catch {
+        return null;
+    }
+};
+
+/**
+ * Delete a backup file from WebDAV
+ */
+export const deleteBackup = async (
+    config: CloudBackupConfig,
+    file: CloudBackupFile,
+): Promise<boolean> => {
+    try {
+        const res = await webdavRequest(config, file.href, 'DELETE');
+        return res.status === 204 || res.status === 200;
+    } catch {
+        return false;
+    }
+};
+
+/**
+ * Parse WebDAV PROPFIND XML response into file list
+ */
+const parseWebDAVListing = (xml: string, config: CloudBackupConfig): CloudBackupFile[] => {
+    const parser = new DOMParser();
+    const doc = parser.parseFromString(xml, 'application/xml');
+    const responses = doc.querySelectorAll('response');
+    const files: CloudBackupFile[] = [];
+
+    responses.forEach((response) => {
+        const href = response.querySelector('href')?.textContent || '';
+        const isCollection = response.querySelector('resourcetype collection') !== null;
+        if (isCollection) return;
+
+        const displayName = response.querySelector('displayname')?.textContent || '';
+        const contentLength = response.querySelector('getcontentlength')?.textContent || '0';
+        const lastModified = response.querySelector('getlastmodified')?.textContent || '';
+
+        const name = displayName || href.split('/').filter(Boolean).pop() || '';
+        if (!name.endsWith('.zip')) return;
+
+        files.push({
+            name,
+            size: parseInt(contentLength, 10),
+            lastModified,
+            href: config.remotePath.replace(/\/+$/, '') + '/' + name,
+        });
+    });
+
+    files.sort((a, b) => b.name.localeCompare(a.name));
+    return files;
+};
+
+/**
+ * Clean up old backups, keeping only the latest N
+ */
+export const cleanupOldBackups = async (config: CloudBackupConfig, keepCount: number = 5): Promise<number> => {
+    const files = await listBackups(config);
+    if (files.length <= keepCount) return 0;
+
+    let deleted = 0;
+    const toDelete = files.slice(keepCount);
+    for (const file of toDelete) {
+        if (await deleteBackup(config, file)) deleted++;
+    }
+    return deleted;
+};
+
+/**
+ * Format file size for display
+ */
+export const formatFileSize = (bytes: number): string => {
+    if (bytes < 1024) return `${bytes} B`;
+    if (bytes < 1024 * 1024) return `${(bytes / 1024).toFixed(1)} KB`;
+    return `${(bytes / (1024 * 1024)).toFixed(1)} MB`;
+};

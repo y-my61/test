@@ -1,1 +1,53 @@
-aW1wb3J0IHsgbWluaW1heEZldGNoIH0gZnJvbSAnLi9taW5pbWF4RW5kcG9pbnQnOwoKZXhwb3J0IHR5cGUgTWluaU1heFZvaWNlVHlwZSA9ICdhbGwnIHwgJ3N5c3RlbScgfCAndm9pY2VfY2xvbmluZycgfCAndm9pY2VfZ2VuZXJhdGlvbic7CgpleHBvcnQgaW50ZXJmYWNlIE1pbmlNYXhWb2ljZUl0ZW0gewogIHZvaWNlX2lkOiBzdHJpbmc7CiAgdm9pY2VfbmFtZT86IHN0cmluZzsKICBba2V5OiBzdHJpbmddOiBhbnk7Cn0KCmV4cG9ydCBpbnRlcmZhY2UgTWluaU1heFZvaWNlTGlzdFJlc3VsdCB7CiAgc3lzdGVtX3ZvaWNlOiBNaW5pTWF4Vm9pY2VJdGVtW107CiAgdm9pY2VfY2xvbmluZzogTWluaU1heFZvaWNlSXRlbVtdOwogIHZvaWNlX2dlbmVyYXRpb246IE1pbmlNYXhWb2ljZUl0ZW1bXTsKICB0cmFjZV9pZD86IHN0cmluZzsKfQoKY29uc3QgTUlOSU1BWF9WT0lDRV9FTkRQT0lOVCA9ICcvYXBpL21pbmltYXgvZ2V0LXZvaWNlJzsKY29uc3Qgbm9ybWFsaXplQXBpS2V5ID0gKHJhdzogc3RyaW5nKTogc3RyaW5nID0+IHJhdy50cmltKCkucmVwbGFjZSgvXkJlYXJlclxzKy9pLCAnJykudHJpbSgpOwoKZXhwb3J0IGFzeW5jIGZ1bmN0aW9uIGZldGNoTWluaU1heFZvaWNlcyhhcGlLZXk6IHN0cmluZywgdm9pY2VUeXBlOiBNaW5pTWF4Vm9pY2VUeXBlID0gJ2FsbCcpOiBQcm9taXNlPE1pbmlNYXhWb2ljZUxpc3RSZXN1bHQ+IHsKICBjb25zdCBrZXkgPSBub3JtYWxpemVBcGlLZXkoYXBpS2V5IHx8ICcnKTsKICBpZiAoIWtleSkgewogICAgdGhyb3cgbmV3IEVycm9yKCfnvLrlsJEgTWluaU1heCBBUEkgS2V5Jyk7CiAgfQoKICBjb25zdCByZXNwb25zZSA9IGF3YWl0IG1pbmltYXhGZXRjaChNSU5JTUFYX1ZPSUNFX0VORFBPSU5ULCB7CiAgICBtZXRob2Q6ICdQT1NUJywKICAgIGhlYWRlcnM6IHsKICAgICAgJ0NvbnRlbnQtVHlwZSc6ICdhcHBsaWNhdGlvbi9qc29uJywKICAgICAgQXV0aG9yaXphdGlvbjogYEJlYXJlciAke2tleX1gLAogICAgICAnWC1NaW5pTWF4LUFQSS1LZXknOiBrZXksCiAgICB9LAogICAgYm9keTogSlNPTi5zdHJpbmdpZnkoewogICAgICB2b2ljZV90eXBlOiB2b2ljZVR5cGUsCiAgICB9KSwKICB9KTsKCiAgY29uc3QgZGF0YSA9IGF3YWl0IHJlc3BvbnNlLmpzb24oKTsKCiAgY29uc3Qgc3RhdHVzQ29kZSA9IGRhdGE/LmJhc2VfcmVzcD8uc3RhdHVzX2NvZGU7CiAgaWYgKCFyZXNwb25zZS5vayB8fCAodHlwZW9mIHN0YXR1c0NvZGUgPT09ICdudW1iZXInICYmIHN0YXR1c0NvZGUgIT09IDApKSB7CiAgICBjb25zdCBzdGF0dXNNc2cgPSBkYXRhPy5iYXNlX3Jlc3A/LnN0YXR1c19tc2cgfHwgYEhUVFAgJHtyZXNwb25zZS5zdGF0dXN9YDsKICAgIHRocm93IG5ldyBFcnJvcihgTWluaU1heCDpn7PoibLmn6Xor6LlpLHotKU6ICR7c3RhdHVzTXNnfWApOwogIH0KCiAgcmV0dXJuIHsKICAgIHN5c3RlbV92b2ljZTogQXJyYXkuaXNBcnJheShkYXRhPy5zeXN0ZW1fdm9pY2UpID8gZGF0YS5zeXN0ZW1fdm9pY2UgOiBbXSwKICAgIHZvaWNlX2Nsb25pbmc6IEFycmF5LmlzQXJyYXkoZGF0YT8udm9pY2VfY2xvbmluZykgPyBkYXRhLnZvaWNlX2Nsb25pbmcgOiBbXSwKICAgIHZvaWNlX2dlbmVyYXRpb246IEFycmF5LmlzQXJyYXkoZGF0YT8udm9pY2VfZ2VuZXJhdGlvbikgPyBkYXRhLnZvaWNlX2dlbmVyYXRpb24gOiBbXSwKICAgIHRyYWNlX2lkOiBkYXRhPy50cmFjZV9pZCwKICB9Owp9Cg==
+import { minimaxFetch } from './minimaxEndpoint';
+
+export type MiniMaxVoiceType = 'all' | 'system' | 'voice_cloning' | 'voice_generation';
+
+export interface MiniMaxVoiceItem {
+  voice_id: string;
+  voice_name?: string;
+  [key: string]: any;
+}
+
+export interface MiniMaxVoiceListResult {
+  system_voice: MiniMaxVoiceItem[];
+  voice_cloning: MiniMaxVoiceItem[];
+  voice_generation: MiniMaxVoiceItem[];
+  trace_id?: string;
+}
+
+const MINIMAX_VOICE_ENDPOINT = '/api/minimax/get-voice';
+const normalizeApiKey = (raw: string): string => raw.trim().replace(/^Bearer\s+/i, '').trim();
+
+export async function fetchMiniMaxVoices(apiKey: string, voiceType: MiniMaxVoiceType = 'all'): Promise<MiniMaxVoiceListResult> {
+  const key = normalizeApiKey(apiKey || '');
+  if (!key) {
+    throw new Error('缺少 MiniMax API Key');
+  }
+
+  const response = await minimaxFetch(MINIMAX_VOICE_ENDPOINT, {
+    method: 'POST',
+    headers: {
+      'Content-Type': 'application/json',
+      Authorization: `Bearer ${key}`,
+      'X-MiniMax-API-Key': key,
+    },
+    body: JSON.stringify({
+      voice_type: voiceType,
+    }),
+  });
+
+  const data = await response.json();
+
+  const statusCode = data?.base_resp?.status_code;
+  if (!response.ok || (typeof statusCode === 'number' && statusCode !== 0)) {
+    const statusMsg = data?.base_resp?.status_msg || `HTTP ${response.status}`;
+    throw new Error(`MiniMax 音色查询失败: ${statusMsg}`);
+  }
+
+  return {
+    system_voice: Array.isArray(data?.system_voice) ? data.system_voice : [],
+    voice_cloning: Array.isArray(data?.voice_cloning) ? data.voice_cloning : [],
+    voice_generation: Array.isArray(data?.voice_generation) ? data.voice_generation : [],
+    trace_id: data?.trace_id,
+  };
+}

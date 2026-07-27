@@ -1,1 +1,425 @@
-aW1wb3J0IHsgREIgfSBmcm9tICcuL2RiJzsKaW1wb3J0IHR5cGUgeyBDaGFyYWN0ZXJQcm9maWxlLCBDaGFyYWN0ZXJCdWZmIH0gZnJvbSAnLi4vdHlwZXMnOwppbXBvcnQgeyBsYW5kQW1iaWVudEV2ZW50RnJvbUV2YWwgfSBmcm9tICcuL3Jvb21BbWJpZW50JzsKaW1wb3J0IHsgQ0hBVF9HRU5fRVZFTlRTIH0gZnJvbSAnLi9jaGF0R2VuRXZlbnRzJzsKCi8vIOaDhee7quivhOS8sOWksei0peeahOeUqOaIt+WPr+ingeS/oeWPt++8iE9TQ29udGV4dCDnm5HlkKzlvLkgdG9hc3TvvInjgILmnKzlh73mlbDmmK/mnKzlnLAgLyBpbnN0YW50KHdvcmtlcikKLy8g5Lik5p2h6Lev5b6E55qE5YWx55So6JC954K577yM5Zyo6L+Z6YeM5rS+5Y+R6IO96KaG55uW44CMd29ya2VyIOaOqOWbnueahCByYXcg6Kej5p6Q5YWo54Gt44CN6L+Z57G75LqR56uv5aSx6LSl44CCCmNvbnN0IGFubm91bmNlRW1vdGlvbkZhaWxlZCA9IChjaGFyRGF0YTogQ2hhcmFjdGVyUHJvZmlsZSwgcmVhc29uOiBzdHJpbmcpOiB2b2lkID0+IHsKICAgIHRyeSB7CiAgICAgICAgaWYgKHR5cGVvZiB3aW5kb3cgIT09ICd1bmRlZmluZWQnKSB7CiAgICAgICAgICAgIHdpbmRvdy5kaXNwYXRjaEV2ZW50KG5ldyBDdXN0b21FdmVudChDSEFUX0dFTl9FVkVOVFMuZW1vdGlvbkZhaWxlZCwgewogICAgICAgICAgICAgICAgZGV0YWlsOiB7IGNoYXJJZDogY2hhckRhdGEuaWQsIGNoYXJOYW1lOiBjaGFyRGF0YS5uYW1lLCByZWFzb24gfSwKICAgICAgICAgICAgfSkpOwogICAgICAgIH0KICAgIH0gY2F0Y2ggeyAvKiBTU1IgLyDmtYvor5Xnjq/looPml6Agd2luZG93ICovIH0KfTsKCi8vIOinkuiJsuOAjOacgOWQjuS4gOasoeWGheW/g+eLrOeZvShJbm5lclN0YXRlKeOAjeeahOi9u+mHj+e8k+WtmO+8iGxvY2FsU3RvcmFnZe+8ieOAggovLyBpbm5lclN0YXRlIOaYr+eerOaXtuS6p+eJqe+8jOi/memHjOWcqOaDhee7quivhOS8sOiQveWcsOeahOWFseeUqOeCuemhuuaJi+e8k+WtmOS4gOS7ve+8jOS+m+WIq+WkhO+8iOWmguafpeaJi+acuummlumhte+8ieivu+WPlu+8jAovLyDkuI3pop3lpJbliqggQ2hhcmFjdGVyUHJvZmlsZSAvIERCIHNjaGVtYeOAggpleHBvcnQgY29uc3QgbGFzdElubmVyU3RhdGVLZXkgPSAoY2hhcklkOiBzdHJpbmcpID0+IGBzdWxseV9sYXN0X2lubmVyc3RhdGVfJHtjaGFySWR9YDsKZXhwb3J0IGZ1bmN0aW9uIGdldExhc3RJbm5lclN0YXRlKGNoYXJJZDogc3RyaW5nKTogc3RyaW5nIHsKICAgIHRyeSB7CiAgICAgICAgcmV0dXJuICh0eXBlb2YgbG9jYWxTdG9yYWdlICE9PSAndW5kZWZpbmVkJyAmJiBsb2NhbFN0b3JhZ2UuZ2V0SXRlbShsYXN0SW5uZXJTdGF0ZUtleShjaGFySWQpKSkgfHwgJyc7CiAgICB9IGNhdGNoIHsgcmV0dXJuICcnOyB9Cn0KCi8vIOaDhee7quivhOS8sOe7k+aenOOAjOino+aekCArIOiQvSBidWZm44CN55qE5YWx55So5a6e546wLgovLwovLyDljp/mnKzlhoXogZTlnKggaG9va3MvdXNlQ2hhdEFJLnRzIOeahCBldmFsdWF0ZUVtb3Rpb25CYWNrZ3JvdW5kIOmHjC4g5o+Q5Y+W5Ye65p2l5piv5Li65LqG6K6p5Lik5p2h6Lev5b6E5YWx55SoOgovLyAgIDEuIOacrOWcsOaooeW8jzog5a6i5oi356uv6LeRIGV2YWwgTExNIOaLv+WIsCByYXcsIOiwg+acrOWHveaVsOiQveWcsC4KLy8gICAyLiBpbnN0YW50IOaooeW8jzogd29ya2VyIOi3kSBldmFsIExMTSwg5oqKIHJhdyDkvZzkuLogZW1vdGlvbl91cGRhdGUgcHVzaCDmjqjlm54sIOWuouaIt+erryBmbHVzaCDml7bosIPmnKzlh73mlbDokL3lnLAuCi8vCi8vIOWFpeWPgiByYXdUZXh0ID0gTExNIOi/lOWbnueahOWOn+Wni+aWh+acrCAo5Y+v6IO95ZCrIGBgYGpzb24g5YyF6KO5KS4g6L+U5ZueIGlubmVyU3RhdGUgKOaEj+ivhua1gSkg5a2X56ym5Liy5oiWIG51bGwsCi8vIOiwg+eUqOaWuei0n+i0o+aKiuWug+WWguWbnuS4i+S4gOi9riBwcm9tcHQgKGV2b2x2ZWROYXJyYXRpdmUpLiBidWZmIOeahOW6lOeUqCAo5YaZIERCICsg5bm/5pKtIGVtb3Rpb24tdXBkYXRlZCkKLy8g5Zyo5pys5Ye95pWw5YaF5a6M5oiQLgoKY29uc3Qgc2FuaXRpemVCdWZmcyA9IChidWZmcz86IENoYXJhY3RlckJ1ZmZbXSk6IENoYXJhY3RlckJ1ZmZbXSA9PiB7CiAgICBpZiAoIUFycmF5LmlzQXJyYXkoYnVmZnMpKSByZXR1cm4gW107CiAgICByZXR1cm4gYnVmZnMKICAgICAgICAubWFwKChidWZmLCBpbmRleCkgPT4gewogICAgICAgICAgICBsZXQgbGFiZWwgPSB0eXBlb2YgYnVmZj8ubGFiZWwgPT09ICdzdHJpbmcnID8gYnVmZi5sYWJlbC50cmltKCkgOiAnJzsKICAgICAgICAgICAgbGV0IG5hbWUgPSB0eXBlb2YgYnVmZj8ubmFtZSA9PT0gJ3N0cmluZycgPyBidWZmLm5hbWUudHJpbSgpIDogJyc7CiAgICAgICAgICAgIC8vIOaooeWei+WBtuWwlOa8jyBuYW1lICjlhoXpg6joi7HmlocgaWQpIOaIlua8jyBsYWJlbCAo5Lit5paH5qCH562+KSDigJQg57y65LiA5Y2K5LiN6K+l5pW05p2h5Lii5byDLAogICAgICAgICAgICAvLyDnlKjlj6bkuIDljYrlhZzlupU6IG5hbWUg57y65bCx5LuOIGlkL+W6j+WPt+a0vueUnywgbGFiZWwg57y65bCx55SoIG5hbWUg6aG25LiKLgogICAgICAgICAgICBpZiAoIWxhYmVsICYmICFuYW1lKSByZXR1cm4gbnVsbDsKICAgICAgICAgICAgaWYgKCFuYW1lKSBuYW1lID0gKHR5cGVvZiBidWZmPy5pZCA9PT0gJ3N0cmluZycgJiYgYnVmZi5pZC50cmltKCkpID8gYnVmZi5pZC50cmltKCkgOiBgZW1vdGlvbl8ke2luZGV4fWA7CiAgICAgICAgICAgIGlmICghbGFiZWwpIGxhYmVsID0gbmFtZTsKCiAgICAgICAgICAgIGNvbnN0IHJhd0ludGVuc2l0eSA9IE51bWJlcigoYnVmZiBhcyBhbnkpPy5pbnRlbnNpdHkpOwogICAgICAgICAgICBjb25zdCBpbnRlbnNpdHk6IDEgfCAyIHwgMyA9ICFOdW1iZXIuaXNGaW5pdGUocmF3SW50ZW5zaXR5KQogICAgICAgICAgICAgICAgPyAyCiAgICAgICAgICAgICAgICA6IHJhd0ludGVuc2l0eSA8PSAxCiAgICAgICAgICAgICAgICAgICAgPyAxCiAgICAgICAgICAgICAgICAgICAgOiByYXdJbnRlbnNpdHkgPj0gMwogICAgICAgICAgICAgICAgICAgICAgICA/IDMKICAgICAgICAgICAgICAgICAgICAgICAgOiAyOwoKICAgICAgICAgICAgY29uc3Qgb3V0OiBDaGFyYWN0ZXJCdWZmID0gewogICAgICAgICAgICAgICAgaWQ6IHR5cGVvZiBidWZmPy5pZCA9PT0gJ3N0cmluZycgJiYgYnVmZi5pZC50cmltKCkgPyBidWZmLmlkLnRyaW0oKSA6IGBidWZmXyR7RGF0ZS5ub3coKX1fJHtpbmRleH1gLAogICAgICAgICAgICAgICAgbmFtZSwKICAgICAgICAgICAgICAgIGxhYmVsLAogICAgICAgICAgICAgICAgaW50ZW5zaXR5LAogICAgICAgICAgICB9OwogICAgICAgICAgICBpZiAodHlwZW9mIGJ1ZmY/LmVtb2ppID09PSAnc3RyaW5nJykgb3V0LmVtb2ppID0gYnVmZi5lbW9qaTsKICAgICAgICAgICAgaWYgKHR5cGVvZiBidWZmPy5jb2xvciA9PT0gJ3N0cmluZycpIG91dC5jb2xvciA9IGJ1ZmYuY29sb3I7CiAgICAgICAgICAgIGlmICh0eXBlb2YgYnVmZj8uZGVzY3JpcHRpb24gPT09ICdzdHJpbmcnKSBvdXQuZGVzY3JpcHRpb24gPSBidWZmLmRlc2NyaXB0aW9uOwogICAgICAgICAgICByZXR1cm4gb3V0OwogICAgICAgIH0pCiAgICAgICAgLmZpbHRlcigoYnVmZik6IGJ1ZmYgaXMgQ2hhcmFjdGVyQnVmZiA9PiAhIWJ1ZmYpOwp9OwoKLy8g4pSA4pSA4pSAIEpTT04g5L+u5aSN6ZO+ICjlhajpg6ggc3RyaW5nLWF3YXJlIOmAkOWtl+espuaJq+aPjywg5LiN55So5q2j5YiZ55uy5omr5Lul5YWN6K+v5Lyk5a2X56ym5Liy5YaF5a65KSDilIDilIDilIAKCi8vIOS/ruWkjSAxOiDmioogSlNPTiDlrZfnrKbkuLLlgLzph4znmoToo7jmjaLooYwv5Yi26KGo56ym6L2s5LmJLCDlhbzlrrkgTExNIOWBtuWwlOWQkOacqui9rOS5ieaOp+WItuWtl+espueahOaDheWGtS4KY29uc3QgcmVwYWlyQ29udHJvbENoYXJzID0gKHM6IHN0cmluZyk6IHN0cmluZyA9PiB7CiAgICBsZXQgaW5TdHIgPSBmYWxzZSwgZXNjID0gZmFsc2UsIG91dCA9ICcnOwogICAgZm9yIChsZXQgaSA9IDA7IGkgPCBzLmxlbmd0aDsgaSsrKSB7CiAgICAgICAgY29uc3QgY2ggPSBzW2ldOwogICAgICAgIGlmIChlc2MpIHsgb3V0ICs9IGNoOyBlc2MgPSBmYWxzZTsgY29udGludWU7IH0KICAgICAgICBpZiAoY2ggPT09ICdcXCcpIHsgb3V0ICs9IGNoOyBlc2MgPSB0cnVlOyBjb250aW51ZTsgfQogICAgICAgIGlmIChjaCA9PT0gJyInKSB7IGluU3RyID0gIWluU3RyOyBvdXQgKz0gY2g7IGNvbnRpbnVlOyB9CiAgICAgICAgaWYgKGluU3RyICYmIGNoID09PSAnXG4nKSB7IG91dCArPSAnXFxuJzsgY29udGludWU7IH0KICAgICAgICBpZiAoaW5TdHIgJiYgY2ggPT09ICdccicpIHsgb3V0ICs9ICdcXHInOyBjb250aW51ZTsgfQogICAgICAgIGlmIChpblN0ciAmJiBjaCA9PT0gJ1x0JykgeyBvdXQgKz0gJ1xcdCc7IGNvbnRpbnVlOyB9CiAgICAgICAgb3V0ICs9IGNoOwogICAgfQogICAgcmV0dXJuIG91dDsKfTsKCi8vIOS/ruWkjSAyOiDovazkuYnlrZfnrKbkuLLlgLzlhoXpg6jnmoToo7joi7Hmloflj4zlvJXlj7cgKOaooeWei+WGmeS4reaWh+W8leivreaXtuW4uOebtOaOpeeUqCAiIOS4jei9rOS5iSkuCi8vIOWIpOWumuinhOWImTog5aSE5LqO5a2X56ym5Liy5YaF5pe26YGH5YiwICIsIOWQkeWQjueci+esrOS4gOS4qumdnuepuueZveWtl+espiDigJQg5pivICwgOiB9IF0g5oiW5Yiw57uT5bC+5omN566X55yf5q2j55qECi8vIOmXreWQiOW8leWPtywg5ZCm5YiZ6KeG5Li65YaF5a656YeM55qE6KO45byV5Y+3LCDovazmiJAgXCIuIOWQr+WPkeW8j+W5tuS4jeWujOe+jiwg5L2G5Y+q5Zyo55u05o6lIHBhcnNlIOWksei0peWQjuaJjeWQr+eUqC4KY29uc3QgcmVwYWlySW5uZXJRdW90ZXMgPSAoczogc3RyaW5nKTogc3RyaW5nID0+IHsKICAgIGxldCBpblN0ciA9IGZhbHNlLCBlc2MgPSBmYWxzZSwgb3V0ID0gJyc7CiAgICBmb3IgKGxldCBpID0gMDsgaSA8IHMubGVuZ3RoOyBpKyspIHsKICAgICAgICBjb25zdCBjaCA9IHNbaV07CiAgICAgICAgaWYgKGVzYykgeyBvdXQgKz0gY2g7IGVzYyA9IGZhbHNlOyBjb250aW51ZTsgfQogICAgICAgIGlmIChjaCA9PT0gJ1xcJykgeyBvdXQgKz0gY2g7IGVzYyA9IHRydWU7IGNvbnRpbnVlOyB9CiAgICAgICAgaWYgKGNoID09PSAnIicpIHsKICAgICAgICAgICAgaWYgKCFpblN0cikgeyBpblN0ciA9IHRydWU7IG91dCArPSBjaDsgY29udGludWU7IH0KICAgICAgICAgICAgbGV0IGogPSBpICsgMTsKICAgICAgICAgICAgd2hpbGUgKGogPCBzLmxlbmd0aCAmJiAvXHMvLnRlc3Qoc1tqXSkpIGorKzsKICAgICAgICAgICAgY29uc3QgbmV4dCA9IGogPCBzLmxlbmd0aCA/IHNbal0gOiAnJzsKICAgICAgICAgICAgaWYgKG5leHQgPT09ICcnIHx8IG5leHQgPT09ICcsJyB8fCBuZXh0ID09PSAnOicgfHwgbmV4dCA9PT0gJ30nIHx8IG5leHQgPT09ICddJykgewogICAgICAgICAgICAgICAgaW5TdHIgPSBmYWxzZTsgb3V0ICs9IGNoOwogICAgICAgICAgICB9IGVsc2UgewogICAgICAgICAgICAgICAgb3V0ICs9ICdcXCInOwogICAgICAgICAgICB9CiAgICAgICAgICAgIGNvbnRpbnVlOwogICAgICAgIH0KICAgICAgICBvdXQgKz0gY2g7CiAgICB9CiAgICByZXR1cm4gb3V0Owp9OwoKLy8g5L+u5aSNIDM6IOWOu+aOiSB9IC8gXSDliY3nmoTlsL7pgJflj7cuCmNvbnN0IHN0cmlwVHJhaWxpbmdDb21tYXMgPSAoczogc3RyaW5nKTogc3RyaW5nID0+IHsKICAgIGxldCBpblN0ciA9IGZhbHNlLCBlc2MgPSBmYWxzZSwgb3V0ID0gJyc7CiAgICBmb3IgKGxldCBpID0gMDsgaSA8IHMubGVuZ3RoOyBpKyspIHsKICAgICAgICBjb25zdCBjaCA9IHNbaV07CiAgICAgICAgaWYgKGVzYykgeyBvdXQgKz0gY2g7IGVzYyA9IGZhbHNlOyBjb250aW51ZTsgfQogICAgICAgIGlmIChpblN0cikgewogICAgICAgICAgICBpZiAoY2ggPT09ICdcXCcpIGVzYyA9IHRydWU7CiAgICAgICAgICAgIGVsc2UgaWYgKGNoID09PSAnIicpIGluU3RyID0gZmFsc2U7CiAgICAgICAgICAgIG91dCArPSBjaDsKICAgICAgICAgICAgY29udGludWU7CiAgICAgICAgfQogICAgICAgIGlmIChjaCA9PT0gJyInKSB7IGluU3RyID0gdHJ1ZTsgb3V0ICs9IGNoOyBjb250aW51ZTsgfQogICAgICAgIGlmIChjaCA9PT0gJywnKSB7CiAgICAgICAgICAgIGxldCBqID0gaSArIDE7CiAgICAgICAgICAgIHdoaWxlIChqIDwgcy5sZW5ndGggJiYgL1xzLy50ZXN0KHNbal0pKSBqKys7CiAgICAgICAgICAgIGlmIChzW2pdID09PSAnfScgfHwgc1tqXSA9PT0gJ10nKSBjb250aW51ZTsgLy8g5Lii5byD5bC+6YCX5Y+3CiAgICAgICAgfQogICAgICAgIG91dCArPSBjaDsKICAgIH0KICAgIHJldHVybiBvdXQ7Cn07CgovLyDkv67lpI0gNDog6KGl5YWo6KKr5oiq5pat55qEIEpTT04gKG1heF90b2tlbnMg5oiq5patIC8g5ZON5bqU5Lit5patKS4KLy8g5omr5o+P6K6w5b2V5ous5Y+35qCILCDnu5PlsL7ml7Y6IOWFs+aOieacqumXreWQiOWtl+espuS4siDihpIg5Y675o6J5oKs56m655qEICwgLyDnu5nmgqznqbrnmoQgOiDooaUgbnVsbCDihpIg6YCG5bqP6KGl6Zet5ZCI5ous5Y+3Lgpjb25zdCBjbG9zZVRydW5jYXRlZEpzb24gPSAoczogc3RyaW5nKTogc3RyaW5nID0+IHsKICAgIGxldCBpblN0ciA9IGZhbHNlLCBlc2MgPSBmYWxzZTsKICAgIGNvbnN0IHN0YWNrOiBzdHJpbmdbXSA9IFtdOwogICAgZm9yIChsZXQgaSA9IDA7IGkgPCBzLmxlbmd0aDsgaSsrKSB7CiAgICAgICAgY29uc3QgY2ggPSBzW2ldOwogICAgICAgIGlmIChlc2MpIHsgZXNjID0gZmFsc2U7IGNvbnRpbnVlOyB9CiAgICAgICAgaWYgKGluU3RyKSB7CiAgICAgICAgICAgIGlmIChjaCA9PT0gJ1xcJykgZXNjID0gdHJ1ZTsKICAgICAgICAgICAgZWxzZSBpZiAoY2ggPT09ICciJykgaW5TdHIgPSBmYWxzZTsKICAgICAgICAgICAgY29udGludWU7CiAgICAgICAgfQogICAgICAgIGlmIChjaCA9PT0gJyInKSBpblN0ciA9IHRydWU7CiAgICAgICAgZWxzZSBpZiAoY2ggPT09ICd7Jykgc3RhY2sucHVzaCgnfScpOwogICAgICAgIGVsc2UgaWYgKGNoID09PSAnWycpIHN0YWNrLnB1c2goJ10nKTsKICAgICAgICBlbHNlIGlmIChjaCA9PT0gJ30nIHx8IGNoID09PSAnXScpIHsKICAgICAgICAgICAgaWYgKHN0YWNrW3N0YWNrLmxlbmd0aCAtIDFdID09PSBjaCkgc3RhY2sucG9wKCk7CiAgICAgICAgfQogICAgfQogICAgbGV0IG91dCA9IHM7CiAgICBpZiAoZXNjKSBvdXQgPSBvdXQuc2xpY2UoMCwgLTEpOyAvLyDmiKrmlq3lnKjlj43mlpzmnaDkuIosIOS4ouaOieWNiuS4qui9rOS5ieW6j+WIlwogICAgaWYgKGluU3RyKSBvdXQgKz0gJyInOwogICAgb3V0ID0gb3V0LnJlcGxhY2UoL1tcc10rJC8sICcnKTsKICAgIGlmIChvdXQuZW5kc1dpdGgoJywnKSkgb3V0ID0gb3V0LnNsaWNlKDAsIC0xKTsKICAgIGlmIChvdXQuZW5kc1dpdGgoJzonKSkgb3V0ICs9ICcgbnVsbCc7CiAgICB3aGlsZSAoc3RhY2subGVuZ3RoKSBvdXQgKz0gc3RhY2sucG9wKCk7CiAgICByZXR1cm4gb3V0Owp9OwoKLy8g5LuO5Y6f5paH6YeM5a6a5L2N56ys5LiA5LiqIHsg5bm25oyJ5ous5Y+35bmz6KGh5oiq5Y+W5a6M5pW05a+56LGhICjlrrnlv43liY3lkI7lpLnmnYLpl7LogYrmloflrZcsIOWQjue8gOmHjOaciSB9IOS5n+S4jeivr+WQnikuCmNvbnN0IGV4dHJhY3RCYWxhbmNlZE9iamVjdCA9IChyYXc6IHN0cmluZyk6IHN0cmluZyB8IHVuZGVmaW5lZCA9PiB7CiAgICBjb25zdCBzdGFydCA9IHJhdy5pbmRleE9mKCd7Jyk7CiAgICBpZiAoc3RhcnQgPCAwKSByZXR1cm4gdW5kZWZpbmVkOwogICAgbGV0IGluU3RyID0gZmFsc2UsIGVzYyA9IGZhbHNlLCBkZXB0aCA9IDA7CiAgICBmb3IgKGxldCBpID0gc3RhcnQ7IGkgPCByYXcubGVuZ3RoOyBpKyspIHsKICAgICAgICBjb25zdCBjaCA9IHJhd1tpXTsKICAgICAgICBpZiAoZXNjKSB7IGVzYyA9IGZhbHNlOyBjb250aW51ZTsgfQogICAgICAgIGlmIChpblN0cikgewogICAgICAgICAgICBpZiAoY2ggPT09ICdcXCcpIGVzYyA9IHRydWU7CiAgICAgICAgICAgIGVsc2UgaWYgKGNoID09PSAnIicpIGluU3RyID0gZmFsc2U7CiAgICAgICAgICAgIGNvbnRpbnVlOwogICAgICAgIH0KICAgICAgICBpZiAoY2ggPT09ICciJykgaW5TdHIgPSB0cnVlOwogICAgICAgIGVsc2UgaWYgKGNoID09PSAneycpIGRlcHRoKys7CiAgICAgICAgZWxzZSBpZiAoY2ggPT09ICd9JykgewogICAgICAgICAgICBkZXB0aC0tOwogICAgICAgICAgICBpZiAoZGVwdGggPT09IDApIHJldHVybiByYXcuc2xpY2Uoc3RhcnQsIGkgKyAxKTsKICAgICAgICB9CiAgICB9CiAgICByZXR1cm4gdW5kZWZpbmVkOwp9OwoKZXhwb3J0IGludGVyZmFjZSBFbW90aW9uRXZhbFJlc3VsdCB7CiAgICBjaGFuZ2VkOiBib29sZWFuOwogICAgYnVmZnM/OiBDaGFyYWN0ZXJCdWZmW107CiAgICBpbmplY3Rpb24/OiBzdHJpbmc7CiAgICBpbm5lclN0YXRlPzogc3RyaW5nOwogICAgLyoqIHRydWUgPSDmlbTkvZMgSlNPTi5wYXJzZSDlhajlpLHotKUsIOmdoOWtl+autee6p+ato+WImeaKouaVkeWHuuadpeeahOmDqOWIhue7k+aenCAqLwogICAgc2FsdmFnZWQ/OiBib29sZWFuOwp9Cgpjb25zdCBsb29rc0xpa2VFdmFsUmVzdWx0ID0gKHY6IGFueSk6IGJvb2xlYW4gPT4KICAgICEhdiAmJiB0eXBlb2YgdiA9PT0gJ29iamVjdCcgJiYgIUFycmF5LmlzQXJyYXkodikKICAgICYmICgnY2hhbmdlZCcgaW4gdiB8fCAnYnVmZnMnIGluIHYgfHwgJ2luamVjdGlvbicgaW4gdiB8fCAnaW5uZXJTdGF0ZScgaW4gdik7Cgpjb25zdCB0cnlQYXJzZU9iamVjdCA9IChzOiBzdHJpbmcpOiBhbnkgfCBudWxsID0+IHsKICAgIHRyeSB7CiAgICAgICAgY29uc3QgdiA9IEpTT04ucGFyc2Uocyk7CiAgICAgICAgcmV0dXJuICh2ICYmIHR5cGVvZiB2ID09PSAnb2JqZWN0JyAmJiAhQXJyYXkuaXNBcnJheSh2KSkgPyB2IDogbnVsbDsKICAgIH0gY2F0Y2ggeyByZXR1cm4gbnVsbDsgfQp9OwoKLy8g5a2X5q6157qn5oqi5pWROiDmlbTkvZMgcGFyc2Ug5YWo54Gt5pe2LCDnlKjluKbovazkuYnmhJ/nn6XnmoTmraPliJnmioogaW5uZXJTdGF0ZSAvIGluamVjdGlvbiAvIGNoYW5nZWQgLyBidWZmcwovLyDljZXni6zmiqDlh7rmnaUg4oCUIOWugeWPr+aLv+WIsOmDqOWIhue7k+aenCwg5Lmf5LiN6KaB5pW06L2u5oOF57uq6K+E5Lyw6Z2Z6buY6JK45Y+RLgpjb25zdCBzYWx2YWdlRmllbGRzID0gKHJlcGFpcmVkUmF3OiBzdHJpbmcpOiBFbW90aW9uRXZhbFJlc3VsdCB8IG51bGwgPT4gewogICAgY29uc3QgcGlja1N0cmluZyA9IChrZXk6IHN0cmluZyk6IHN0cmluZyB8IHVuZGVmaW5lZCA9PiB7CiAgICAgICAgY29uc3QgbSA9IHJlcGFpcmVkUmF3Lm1hdGNoKG5ldyBSZWdFeHAoYCIke2tleX0iXFxzKjpcXHMqIigoPzpcXFxcLnxbXiJcXFxcXSkqKWApKTsKICAgICAgICBpZiAoIW0gfHwgIW1bMV0pIHJldHVybiB1bmRlZmluZWQ7CiAgICAgICAgbGV0IHY6IHN0cmluZzsKICAgICAgICB0cnkgeyB2ID0gSlNPTi5wYXJzZShgIiR7bVsxXX0iYCk7IH0KICAgICAgICBjYXRjaCB7CiAgICAgICAgICAgIHYgPSBtWzFdLnJlcGxhY2UoL1xcbi9nLCAnXG4nKS5yZXBsYWNlKC9cXHQvZywgJ1x0JykucmVwbGFjZSgvXFwiL2csICciJykucmVwbGFjZSgvXFxcXC9nLCAnXFwnKTsKICAgICAgICB9CiAgICAgICAgdiA9IHYudHJpbSgpOwogICAgICAgIHJldHVybiB2IHx8IHVuZGVmaW5lZDsKICAgIH07CgogICAgbGV0IGJ1ZmZzOiBDaGFyYWN0ZXJCdWZmW10gfCB1bmRlZmluZWQ7CiAgICBjb25zdCBidWZmc0lkeCA9IHJlcGFpcmVkUmF3LnNlYXJjaCgvImJ1ZmZzIlxzKjpccypcWy8pOwogICAgaWYgKGJ1ZmZzSWR4ID49IDApIHsKICAgICAgICBjb25zdCBhcnJTdGFydCA9IHJlcGFpcmVkUmF3LmluZGV4T2YoJ1snLCBidWZmc0lkeCk7CiAgICAgICAgbGV0IGluU3RyID0gZmFsc2UsIGVzYyA9IGZhbHNlLCBkZXB0aCA9IDA7CiAgICAgICAgZm9yIChsZXQgaSA9IGFyclN0YXJ0OyBpIDwgcmVwYWlyZWRSYXcubGVuZ3RoOyBpKyspIHsKICAgICAgICAgICAgY29uc3QgY2ggPSByZXBhaXJlZFJhd1tpXTsKICAgICAgICAgICAgaWYgKGVzYykgeyBlc2MgPSBmYWxzZTsgY29udGludWU7IH0KICAgICAgICAgICAgaWYgKGluU3RyKSB7CiAgICAgICAgICAgICAgICBpZiAoY2ggPT09ICdcXCcpIGVzYyA9IHRydWU7CiAgICAgICAgICAgICAgICBlbHNlIGlmIChjaCA9PT0gJyInKSBpblN0ciA9IGZhbHNlOwogICAgICAgICAgICAgICAgY29udGludWU7CiAgICAgICAgICAgIH0KICAgICAgICAgICAgaWYgKGNoID09PSAnIicpIGluU3RyID0gdHJ1ZTsKICAgICAgICAgICAgZWxzZSBpZiAoY2ggPT09ICdbJykgZGVwdGgrKzsKICAgICAgICAgICAgZWxzZSBpZiAoY2ggPT09ICddJykgewogICAgICAgICAgICAgICAgZGVwdGgtLTsKICAgICAgICAgICAgICAgIGlmIChkZXB0aCA9PT0gMCkgewogICAgICAgICAgICAgICAgICAgIHRyeSB7CiAgICAgICAgICAgICAgICAgICAgICAgIGNvbnN0IGFyciA9IEpTT04ucGFyc2Uoc3RyaXBUcmFpbGluZ0NvbW1hcyhyZXBhaXJlZFJhdy5zbGljZShhcnJTdGFydCwgaSArIDEpKSk7CiAgICAgICAgICAgICAgICAgICAgICAgIGlmIChBcnJheS5pc0FycmF5KGFycikpIGJ1ZmZzID0gYXJyOwogICAgICAgICAgICAgICAgICAgIH0gY2F0Y2ggeyAvKiDmlbDnu4TmnKzouqvkuZ/ng4IsIOaUvuW8gyBidWZmcyAqLyB9CiAgICAgICAgICAgICAgICAgICAgYnJlYWs7CiAgICAgICAgICAgICAgICB9CiAgICAgICAgICAgIH0KICAgICAgICB9CiAgICB9CgogICAgY29uc3QgaW5qZWN0aW9uID0gcGlja1N0cmluZygnaW5qZWN0aW9uJyk7CiAgICBjb25zdCBpbm5lclN0YXRlID0gcGlja1N0cmluZygnaW5uZXJTdGF0ZScpOwogICAgY29uc3QgY2hhbmdlZE1hdGNoID0gcmVwYWlyZWRSYXcubWF0Y2goLyJjaGFuZ2VkIlxzKjpccyoiPyh0cnVlfGZhbHNlKSI/L2kpOwoKICAgIGlmICghaW5qZWN0aW9uICYmICFpbm5lclN0YXRlICYmICFidWZmcykgcmV0dXJuIG51bGw7CiAgICBjb25zdCBjaGFuZ2VkID0gY2hhbmdlZE1hdGNoCiAgICAgICAgPyBjaGFuZ2VkTWF0Y2hbMV0udG9Mb3dlckNhc2UoKSA9PT0gJ3RydWUnCiAgICAgICAgOiAhIShpbmplY3Rpb24gfHwgYnVmZnMpOyAvLyDmiqLmlZHlh7rkuoYgaW5qZWN0aW9uL2J1ZmZzIOWwseW9k+acieWPmOWMliwg5Y+q5pyJIGlubmVyU3RhdGUg5YiZ5LiN5YqoIGJ1ZmYKICAgIHJldHVybiB7IGNoYW5nZWQsIGJ1ZmZzLCBpbmplY3Rpb24sIGlubmVyU3RhdGUsIHNhbHZhZ2VkOiB0cnVlIH07Cn07CgovKioKICog57qv6Kej5p6Q5bGCICjml6Dlia/kvZznlKgsIOWvvOWHuuS+m+a1i+ivlSk6IOS7jiBMTE0g5Y6f5aeL6L6T5Ye66YeM5bC96YeP5oqg5Ye65oOF57uq6K+E5Lyw57uT5p6cLgogKgogKiDlgJnpgInniYfmrrUgKOS+neasoeWwneivlSk6IGBgYGpzb24g5Zu05qCPIOKGkiDoo7ggYGBgIOWbtOagjyDihpIg5pyq6Zet5ZCI5Zu05qCPIOKGkiDmi6zlj7flubPooaHlr7nosaEg4oaSCiAqIOi0quWpqummliB7IOWwviB9IOKGkiDpppYgeyDliLDmlofmnKsgKOaIquaWrSkuIOavj+S4quWAmemAiei3keS/ruWkjemTvjog5Y6f5qC3IOKGkiDovazkuYnoo7jmjqfliLblrZfnrKYg4oaSCiAqIOi9rOS5ieWtl+espuS4suWGheijuOW8leWPtyDihpIg5Y675bC+6YCX5Y+3IOKGkiDooaXlhajmiKrmlq0uIOWFqOeBreWQjui1sOWtl+autee6p+ato+WImeaKouaVkS4g5a6e5Zyo5rKh5pyJIOKGkiBudWxsLgogKi8KZXhwb3J0IGZ1bmN0aW9uIHBhcnNlRW1vdGlvbkV2YWxPdXRwdXQocmF3VGV4dDogc3RyaW5nKTogRW1vdGlvbkV2YWxSZXN1bHQgfCBudWxsIHsKICAgIGNvbnN0IHJhdyA9IChyYXdUZXh0IHx8ICcnKS50cmltKCk7CiAgICBpZiAoIXJhdykgcmV0dXJuIG51bGw7CgogICAgY29uc3QgY2FuZGlkYXRlczogc3RyaW5nW10gPSBbXTsKICAgIGNvbnN0IHB1c2hDYW5kID0gKHM/OiBzdHJpbmcpID0+IHsKICAgICAgICBjb25zdCB0ID0gKHMgfHwgJycpLnRyaW0oKTsKICAgICAgICBpZiAodCAmJiB0LmluY2x1ZGVzKCd7JykgJiYgIWNhbmRpZGF0ZXMuaW5jbHVkZXModCkpIGNhbmRpZGF0ZXMucHVzaCh0KTsKICAgIH07CiAgICBjb25zdCBmZW5jZVJlID0gL2BgYCg/Ompzb24pP1xzKihbXHNcU10qPylgYGAvZ2k7CiAgICBsZXQgZm06IFJlZ0V4cEV4ZWNBcnJheSB8IG51bGw7CiAgICB3aGlsZSAoKGZtID0gZmVuY2VSZS5leGVjKHJhdykpICE9PSBudWxsKSBwdXNoQ2FuZChmbVsxXSk7CiAgICBjb25zdCBvcGVuRmVuY2UgPSByYXcubWF0Y2goL2BgYCg/Ompzb24pP1xzKihbXHNcU10qKSQvaSk7CiAgICBpZiAob3BlbkZlbmNlKSBwdXNoQ2FuZChvcGVuRmVuY2VbMV0pOyAvLyDlm7TmoI/msqHpl63lkIggKOi+k+WHuuiiq+aIquaWrSkKICAgIHB1c2hDYW5kKGV4dHJhY3RCYWxhbmNlZE9iamVjdChyYXcpKTsKICAgIC8vIOOAjOmmliB7IOWIsOaWh+acq+OAjeimgeaOkuWcqOi0quWpquWMuemFjeS5i+WJjTog5oiq5pat5Zy65pmv5LiL6LSq5amq5Lya5YGc5ZyoIGJ1ZmZzIOmHjOacgOWQjuS4gOS4qiB9IOS4iiwKICAgIC8vIOihpeWFqOWQjuWPquWJqSBjaGFuZ2VkK2J1ZmZzLCDmiorlkI7pnaLnmoQgaW5qZWN0aW9uL2lubmVyU3RhdGUg5YWo5Lii5LqGOyDogIzov5nkuKrlgJnpgInlr7kKICAgIC8vIOWujOaVtCBKU09OICsg5bC+5be06Zey6IGK55qE6L6T5YWl5b+F54S2IHBhcnNlIOWksei0pSAo5bC+6YOo5pyJ6Z2eIEpTT04g5paH5pysKSwg5LiN5Lya6K+v5LykLgogICAgY29uc3QgZmlyc3RCcmFjZSA9IHJhdy5pbmRleE9mKCd7Jyk7CiAgICBpZiAoZmlyc3RCcmFjZSA+PSAwKSBwdXNoQ2FuZChyYXcuc2xpY2UoZmlyc3RCcmFjZSkpOwogICAgY29uc3QgZ3JlZWR5ID0gcmF3Lm1hdGNoKC9ce1tcc1xTXSpcfS8pOwogICAgaWYgKGdyZWVkeSkgcHVzaENhbmQoZ3JlZWR5WzBdKTsKCiAgICBsZXQgcmVwYWlyZWRGb3JTYWx2YWdlID0gJyc7CiAgICBmb3IgKGNvbnN0IGNhbmQgb2YgY2FuZGlkYXRlcykgewogICAgICAgIGNvbnN0IGMxID0gcmVwYWlyQ29udHJvbENoYXJzKGNhbmQpOwogICAgICAgIGNvbnN0IGMyID0gcmVwYWlySW5uZXJRdW90ZXMoYzEpOwogICAgICAgIGNvbnN0IGMzID0gc3RyaXBUcmFpbGluZ0NvbW1hcyhjMik7CiAgICAgICAgY29uc3QgYzQgPSBjbG9zZVRydW5jYXRlZEpzb24oYzMpOwogICAgICAgIGlmICghcmVwYWlyZWRGb3JTYWx2YWdlKSByZXBhaXJlZEZvclNhbHZhZ2UgPSBjMzsKICAgICAgICBmb3IgKGNvbnN0IGF0dGVtcHQgb2YgW2NhbmQsIGMxLCBjMiwgYzMsIGM0XSkgewogICAgICAgICAgICBjb25zdCB2ID0gdHJ5UGFyc2VPYmplY3QoYXR0ZW1wdCk7CiAgICAgICAgICAgIGlmICh2ICYmIGxvb2tzTGlrZUV2YWxSZXN1bHQodikpIHsKICAgICAgICAgICAgICAgIC8vIOaooeWei+WBtuWwlOaKiuW4g+WwlOWGmeaIkOWtl+espuS4siAidHJ1ZSIvImZhbHNlIgogICAgICAgICAgICAgICAgY29uc3QgY2hhbmdlZCA9IHYuY2hhbmdlZCA9PT0gdHJ1ZSB8fCAodHlwZW9mIHYuY2hhbmdlZCA9PT0gJ3N0cmluZycgJiYgdi5jaGFuZ2VkLnRvTG93ZXJDYXNlKCkgPT09ICd0cnVlJyk7CiAgICAgICAgICAgICAgICByZXR1cm4gewogICAgICAgICAgICAgICAgICAgIGNoYW5nZWQsCiAgICAgICAgICAgICAgICAgICAgYnVmZnM6IEFycmF5LmlzQXJyYXkodi5idWZmcykgPyB2LmJ1ZmZzIDogdW5kZWZpbmVkLAogICAgICAgICAgICAgICAgICAgIGluamVjdGlvbjogdHlwZW9mIHYuaW5qZWN0aW9uID09PSAnc3RyaW5nJyA/IHYuaW5qZWN0aW9uIDogdW5kZWZpbmVkLAogICAgICAgICAgICAgICAgICAgIGlubmVyU3RhdGU6IHR5cGVvZiB2LmlubmVyU3RhdGUgPT09ICdzdHJpbmcnID8gdi5pbm5lclN0YXRlIDogdW5kZWZpbmVkLAogICAgICAgICAgICAgICAgfTsKICAgICAgICAgICAgfQogICAgICAgIH0KICAgIH0KCiAgICByZXR1cm4gc2FsdmFnZUZpZWxkcyhyZXBhaXJlZEZvclNhbHZhZ2UgfHwgcmVwYWlySW5uZXJRdW90ZXMocmVwYWlyQ29udHJvbENoYXJzKHJhdykpKTsKfQoKLyoqCiAqIOS7jiBjaGF0LWNvbXBsZXRpb24g5ZON5bqU55qEIG1lc3NhZ2Ug5a+56LGh6YeM5bC96YeP5oqg5Ye65paH5pysLgogKiBjb250ZW50IOWPr+iDveaYr+Wtl+espuS4siwg5Lmf5Y+v6IO95piv5YiG5Z2X5pWw57uEICjpg6jliIYgQ2xhdWRlIOWFvOWuueS7o+eQhik7IGNvbnRlbnQg5Li656m65pe25Zue6YCACiAqIHJlYXNvbmluZ19jb250ZW50ICjkuKrliKvku6PnkIblvIDmgJ3ogIPlkI7miorlhajpg6jovpPlh7rloZ7ov5sgcmVhc29uaW5nLCBjb250ZW50IOeVmeepuiDigJTigJQg5ZCO57utCiAqIHBhcnNlRW1vdGlvbkV2YWxPdXRwdXQg5Lya5LuO6YeM6Z2i5q2j5YiZ5a6a5L2NIEpTT04sIOWWgui/m+WOu+aXoOWusykuCiAqLwpleHBvcnQgZnVuY3Rpb24gZXh0cmFjdEFzc2lzdGFudFRleHQobWVzc2FnZTogYW55KTogc3RyaW5nIHsKICAgIGlmICghbWVzc2FnZSkgcmV0dXJuICcnOwogICAgY29uc3QgYyA9IG1lc3NhZ2UuY29udGVudDsKICAgIGlmICh0eXBlb2YgYyA9PT0gJ3N0cmluZycgJiYgYy50cmltKCkpIHJldHVybiBjOwogICAgaWYgKEFycmF5LmlzQXJyYXkoYykpIHsKICAgICAgICBjb25zdCBqb2luZWQgPSBjCiAgICAgICAgICAgIC5tYXAoKHA6IGFueSkgPT4gKHR5cGVvZiBwID09PSAnc3RyaW5nJyA/IHAgOiAocD8udGV4dCB8fCAnJykpKQogICAgICAgICAgICAuZmlsdGVyKEJvb2xlYW4pCiAgICAgICAgICAgIC5qb2luKCdcbicpOwogICAgICAgIGlmIChqb2luZWQudHJpbSgpKSByZXR1cm4gam9pbmVkOwogICAgfQogICAgY29uc3QgciA9IG1lc3NhZ2UucmVhc29uaW5nX2NvbnRlbnQ7CiAgICBpZiAodHlwZW9mIHIgPT09ICdzdHJpbmcnICYmIHIudHJpbSgpKSByZXR1cm4gcjsKICAgIHJldHVybiAnJzsKfQoKLyoqCiAqIOino+aekOaDhee7quivhOS8sCByYXcg5paH5pys5bm26JC95ZywIGJ1ZmYuIOi/lOWbniBpbm5lclN0YXRlICjmhI/or4bmtYEpIOaIliBudWxsLgogKiAtIOino+aekOWksei0pSDihpIg6L+U5ZueIG51bGwsIOS4jeWKqCBidWZmLgogKiAtIGNoYW5nZWQ9ZmFsc2Ug4oaSIOS4jeWKqCBidWZmLCDov5Tlm54gaW5uZXJTdGF0ZSAo6Iul5pyJKS4KICogLSBjaGFuZ2VkPXRydWUg4oaSIHNhbml0aXplIGJ1ZmZzIOKGkiBEQi5zYXZlQ2hhcmFjdGVyIOKGkiDlub/mkq0gJ2Vtb3Rpb24tdXBkYXRlZCcg4oaSIOi/lOWbniBpbm5lclN0YXRlLgogKiAtIGNoYW5nZWQ9dHJ1ZSDkvYYgYnVmZnMgLyBpbmplY3Rpb24g5Y+M57y65aSxICjmoLzlvI/ng4LliLDlj6rmiqLmlZHlh7ogaW5uZXJTdGF0ZSkg4oaSIOS4jea4heepuuW3suaciQogKiAgIGJ1ZmYg54q25oCBLCDlj6rov5Tlm54gaW5uZXJTdGF0ZSDigJTigJQg6Kej5p6Q5Y2K5q6L5LiN6K+l5oqK6KeS6Imy546w5pyJ5oOF57uq5bqV6Imy5oq55o6JLgogKi8KZXhwb3J0IGFzeW5jIGZ1bmN0aW9uIGFwcGx5RW1vdGlvbkV2YWxSYXcoCiAgICByYXdUZXh0OiBzdHJpbmcsCiAgICBjaGFyRGF0YTogQ2hhcmFjdGVyUHJvZmlsZSwKKTogUHJvbWlzZTxzdHJpbmcgfCBudWxsPiB7CiAgICB0cnkgewogICAgICAgIGNvbnN0IHJlc3VsdCA9IHBhcnNlRW1vdGlvbkV2YWxPdXRwdXQocmF3VGV4dCB8fCAnJyk7CiAgICAgICAgaWYgKCFyZXN1bHQpIHsKICAgICAgICAgICAgY29uc29sZS53YXJuKCfwn46tIFtFbW90aW9uXSBDb3VsZCBub3QgcGFyc2UgZXZhbCBvdXRwdXQgKGFsbCByZXBhaXJzICsgc2FsdmFnZSBmYWlsZWQpOicsIChyYXdUZXh0IHx8ICcnKS5zbGljZSgwLCAzMDApKTsKICAgICAgICAgICAgYW5ub3VuY2VFbW90aW9uRmFpbGVkKGNoYXJEYXRhLCAn6K+E5Lyw5qih5Z6L55qE6L6T5Ye65LiN5piv5Y+v6Kej5p6Q55qEIEpTT07vvIjmqKHlnovmjonmoLzlvI/vvIzlj6/mjaLkuKror4TkvLDmqKHlnovor5Xor5XvvIknKTsKICAgICAgICAgICAgcmV0dXJuIG51bGw7CiAgICAgICAgfQogICAgICAgIGlmIChyZXN1bHQuc2FsdmFnZWQpIHsKICAgICAgICAgICAgY29uc29sZS53YXJuKCfwn46tIFtFbW90aW9uXSBGdWxsIEpTT04gcGFyc2UgZmFpbGVkLCBzYWx2YWdlZCBmaWVsZHM6JywgewogICAgICAgICAgICAgICAgYnVmZnM6IHJlc3VsdC5idWZmcz8ubGVuZ3RoID8/IDAsCiAgICAgICAgICAgICAgICBpbmplY3Rpb246ICEhcmVzdWx0LmluamVjdGlvbiwKICAgICAgICAgICAgICAgIGlubmVyU3RhdGU6ICEhcmVzdWx0LmlubmVyU3RhdGUsCiAgICAgICAgICAgIH0pOwogICAgICAgIH0KCiAgICAgICAgY29uc3QgaW5uZXJTdGF0ZU91dCA9ICh0eXBlb2YgcmVzdWx0LmlubmVyU3RhdGUgPT09ICdzdHJpbmcnICYmIHJlc3VsdC5pbm5lclN0YXRlLnRyaW0oKSkKICAgICAgICAgICAgPyByZXN1bHQuaW5uZXJTdGF0ZS50cmltKCkKICAgICAgICAgICAgOiBudWxsOwoKICAgICAgICBpZiAoaW5uZXJTdGF0ZU91dCkgewogICAgICAgICAgICB0cnkgeyBsb2NhbFN0b3JhZ2Uuc2V0SXRlbShsYXN0SW5uZXJTdGF0ZUtleShjaGFyRGF0YS5pZCksIGlubmVyU3RhdGVPdXQpOyB9IGNhdGNoIHsgLyogaWdub3JlICovIH0KICAgICAgICB9CgogICAgICAgIC8vIOWwj+Wxi+eUn+a0u+WKqOaAge+8iOWPr+mAiemhuumjjui9puS6p+WHuu+8jOingSB1dGlscy9yb29tQW1iaWVudC50c++8ie+8muiQvSByb29tX2NhcmQg6L+b56eB6IGK44CCCiAgICAgICAgLy8g5pys5Ye95pWw5piv5Zyo57q/IC8gaW5zdGFudCh3b3JrZXIpIOS4pOadoei3r+W+hOeahOWFseeUqOiQveeCue+8jOaJgOS7peWcqOi/memHjOaOpeOAggogICAgICAgIC8vIOS4juaDhee7quS4u+mTvui3r+WujOWFqOino+iApuKAlOKAlOWksei0peWPquS4oui/meadoeWKqOaAge+8jOS4jeW9seWTjSBidWZm44CCCiAgICAgICAgYXdhaXQgbGFuZEFtYmllbnRFdmVudEZyb21FdmFsKHJlc3VsdCwgY2hhckRhdGEpOwoKICAgICAgICBpZiAoIXJlc3VsdC5jaGFuZ2VkKSB7CiAgICAgICAgICAgIGNvbnNvbGUubG9nKCfwn46tIFtFbW90aW9uXSBObyBjaGFuZ2UgZGV0ZWN0ZWQsIHNraXBwaW5nIGJ1ZmYgdXBkYXRlJyk7CiAgICAgICAgICAgIGlmIChpbm5lclN0YXRlT3V0KSBjb25zb2xlLmxvZyhg8J+MiiBbSW5uZXJTdGF0ZV0gJHtjaGFyRGF0YS5uYW1lfTogJHtpbm5lclN0YXRlT3V0fWApOwogICAgICAgICAgICByZXR1cm4gaW5uZXJTdGF0ZU91dDsKICAgICAgICB9CgogICAgICAgIGNvbnN0IGhhc0J1ZmZBcnJheSA9IEFycmF5LmlzQXJyYXkocmVzdWx0LmJ1ZmZzKTsKICAgICAgICBjb25zdCBoYXNJbmplY3Rpb24gPSB0eXBlb2YgcmVzdWx0LmluamVjdGlvbiA9PT0gJ3N0cmluZycgJiYgISFyZXN1bHQuaW5qZWN0aW9uLnRyaW0oKTsKICAgICAgICBpZiAoIWhhc0J1ZmZBcnJheSAmJiAhaGFzSW5qZWN0aW9uKSB7CiAgICAgICAgICAgIC8vIGNoYW5nZWQ9dHJ1ZSDkvYbkuKTkuKrovb3ojbfpg73msqHmi7/liLAg4oCUIOS/neeVmeeOsOeKtuavlOa4heepuuWuieWFqAogICAgICAgICAgICBjb25zb2xlLndhcm4oJ/Cfjq0gW0Vtb3Rpb25dIGNoYW5nZWQ9dHJ1ZSBidXQgbm8gYnVmZnMvaW5qZWN0aW9uIHBhcnNlZCwga2VlcGluZyBleGlzdGluZyBzdGF0ZScpOwogICAgICAgICAgICBpZiAoaW5uZXJTdGF0ZU91dCkgY29uc29sZS5sb2coYPCfjIogW0lubmVyU3RhdGVdICR7Y2hhckRhdGEubmFtZX06ICR7aW5uZXJTdGF0ZU91dH1gKTsKICAgICAgICAgICAgcmV0dXJuIGlubmVyU3RhdGVPdXQ7CiAgICAgICAgfQoKICAgICAgICAvLyBidWZmcyDmlbDnu4TlnKjlnLog4oaSIOWujOaVtOabtOaWsCAo5pWw57uE5Li656m6ID0g5qih5Z6L5Li75Yqo5riF56m6LCDlsIrph40pLgogICAgICAgIC8vIGJ1ZmZzIOe8uuWkseS9hiBpbmplY3Rpb24g5Zyo5Zy6ICjmiqLmlZHlnLrmma8pIOKGkiDkv53nlZnml6cgYnVmZnMsIOWPquaNoiBpbmplY3Rpb24uCiAgICAgICAgY29uc3Qgc2FuaXRpemVkQnVmZnMgPSBoYXNCdWZmQXJyYXkgPyBzYW5pdGl6ZUJ1ZmZzKHJlc3VsdC5idWZmcykgOiAoY2hhckRhdGEuYWN0aXZlQnVmZnMgfHwgW10pOwogICAgICAgIGNvbnN0IGJ1ZmZJbmplY3Rpb24gPSBoYXNJbmplY3Rpb24gPyByZXN1bHQuaW5qZWN0aW9uISA6IChoYXNCdWZmQXJyYXkgPyAnJyA6IChjaGFyRGF0YS5idWZmSW5qZWN0aW9uIHx8ICcnKSk7CiAgICAgICAgY29uc3QgdXBkYXRlZDogQ2hhcmFjdGVyUHJvZmlsZSA9IHsKICAgICAgICAgICAgLi4uY2hhckRhdGEsCiAgICAgICAgICAgIGFjdGl2ZUJ1ZmZzOiBzYW5pdGl6ZWRCdWZmcywKICAgICAgICAgICAgYnVmZkluamVjdGlvbiwKICAgICAgICB9OwogICAgICAgIGF3YWl0IERCLnNhdmVDaGFyYWN0ZXIodXBkYXRlZCk7CgogICAgICAgIC8vIGRldGFpbCDnm7TmjqXluKbkuIogYnVmZnMgKyBidWZmSW5qZWN0aW9uOiDnm5HlkKzmlrkgKENoYXQpIOWPr+ebtOaOpeiQvSBPU0NvbnRleHQsIOS4jeW/hemHjeivuyBEQgogICAgICAgIC8vIOKAlOKAlCDpgb/lvIAgc2F2ZUNoYXJhY3RlciDmnKrnrYnkuovliqHmj5DkuqQgLyBpbnN0YW50IGZsdXNoIOS4iyBEQiDph43or7vlgbblj5Hmi7/ml6flgLznmoTnq57mgIEuCiAgICAgICAgaWYgKHR5cGVvZiB3aW5kb3cgIT09ICd1bmRlZmluZWQnKSB7CiAgICAgICAgICAgIHdpbmRvdy5kaXNwYXRjaEV2ZW50KG5ldyBDdXN0b21FdmVudCgnZW1vdGlvbi11cGRhdGVkJywgewogICAgICAgICAgICAgICAgZGV0YWlsOiB7IGNoYXJJZDogY2hhckRhdGEuaWQsIGJ1ZmZzOiBzYW5pdGl6ZWRCdWZmcywgYnVmZkluamVjdGlvbiB9LAogICAgICAgICAgICB9KSk7CiAgICAgICAgfQogICAgICAgIGNvbnNvbGUubG9nKCfwn46tIFtFbW90aW9uXSBVcGRhdGVkIGJ1ZmZzOicsIHNhbml0aXplZEJ1ZmZzLm1hcCgoYikgPT4gYi5sYWJlbCkuam9pbignLCAnKSB8fCAnbm9uZScpOwogICAgICAgIGlmIChpbm5lclN0YXRlT3V0KSBjb25zb2xlLmxvZyhg8J+MiiBbSW5uZXJTdGF0ZV0gJHtjaGFyRGF0YS5uYW1lfTogJHtpbm5lclN0YXRlT3V0fWApOwogICAgICAgIHJldHVybiBpbm5lclN0YXRlT3V0OwogICAgfSBjYXRjaCAoZTogYW55KSB7CiAgICAgICAgY29uc29sZS53YXJuKCfwn46tIFtFbW90aW9uXSBhcHBseUVtb3Rpb25FdmFsUmF3IGZhaWxlZDonLCBlPy5tZXNzYWdlKTsKICAgICAgICBhbm5vdW5jZUVtb3Rpb25GYWlsZWQoY2hhckRhdGEsIGDor4TkvLDnu5PmnpzokL3lupPlpLHotKXvvJoke2U/Lm1lc3NhZ2UgfHwgJ+acquefpemUmeivryd9YCk7CiAgICAgICAgcmV0dXJuIG51bGw7CiAgICB9Cn0K
+import { DB } from './db';
+import type { CharacterProfile, CharacterBuff } from '../types';
+import { landAmbientEventFromEval } from './roomAmbient';
+import { CHAT_GEN_EVENTS } from './chatGenEvents';
+
+// 情绪评估失败的用户可见信号（OSContext 监听弹 toast）。本函数是本地 / instant(worker)
+// 两条路径的共用落点，在这里派发能覆盖「worker 推回的 raw 解析全灭」这类云端失败。
+const announceEmotionFailed = (charData: CharacterProfile, reason: string): void => {
+    try {
+        if (typeof window !== 'undefined') {
+            window.dispatchEvent(new CustomEvent(CHAT_GEN_EVENTS.emotionFailed, {
+                detail: { charId: charData.id, charName: charData.name, reason },
+            }));
+        }
+    } catch { /* SSR / 测试环境无 window */ }
+};
+
+// 角色「最后一次内心独白(InnerState)」的轻量缓存（localStorage）。
+// innerState 是瞬时产物，这里在情绪评估落地的共用点顺手缓存一份，供别处（如查手机首页）读取，
+// 不额外动 CharacterProfile / DB schema。
+export const lastInnerStateKey = (charId: string) => `sully_last_innerstate_${charId}`;
+export function getLastInnerState(charId: string): string {
+    try {
+        return (typeof localStorage !== 'undefined' && localStorage.getItem(lastInnerStateKey(charId))) || '';
+    } catch { return ''; }
+}
+
+// 情绪评估结果「解析 + 落 buff」的共用实现.
+//
+// 原本内联在 hooks/useChatAI.ts 的 evaluateEmotionBackground 里. 提取出来是为了让两条路径共用:
+//   1. 本地模式: 客户端跑 eval LLM 拿到 raw, 调本函数落地.
+//   2. instant 模式: worker 跑 eval LLM, 把 raw 作为 emotion_update push 推回, 客户端 flush 时调本函数落地.
+//
+// 入参 rawText = LLM 返回的原始文本 (可能含 ```json 包裹). 返回 innerState (意识流) 字符串或 null,
+// 调用方负责把它喂回下一轮 prompt (evolvedNarrative). buff 的应用 (写 DB + 广播 emotion-updated)
+// 在本函数内完成.
+
+const sanitizeBuffs = (buffs?: CharacterBuff[]): CharacterBuff[] => {
+    if (!Array.isArray(buffs)) return [];
+    return buffs
+        .map((buff, index) => {
+            let label = typeof buff?.label === 'string' ? buff.label.trim() : '';
+            let name = typeof buff?.name === 'string' ? buff.name.trim() : '';
+            // 模型偶尔漏 name (内部英文 id) 或漏 label (中文标签) — 缺一半不该整条丢弃,
+            // 用另一半兜底: name 缺就从 id/序号派生, label 缺就用 name 顶上.
+            if (!label && !name) return null;
+            if (!name) name = (typeof buff?.id === 'string' && buff.id.trim()) ? buff.id.trim() : `emotion_${index}`;
+            if (!label) label = name;
+
+            const rawIntensity = Number((buff as any)?.intensity);
+            const intensity: 1 | 2 | 3 = !Number.isFinite(rawIntensity)
+                ? 2
+                : rawIntensity <= 1
+                    ? 1
+                    : rawIntensity >= 3
+                        ? 3
+                        : 2;
+
+            const out: CharacterBuff = {
+                id: typeof buff?.id === 'string' && buff.id.trim() ? buff.id.trim() : `buff_${Date.now()}_${index}`,
+                name,
+                label,
+                intensity,
+            };
+            if (typeof buff?.emoji === 'string') out.emoji = buff.emoji;
+            if (typeof buff?.color === 'string') out.color = buff.color;
+            if (typeof buff?.description === 'string') out.description = buff.description;
+            return out;
+        })
+        .filter((buff): buff is CharacterBuff => !!buff);
+};
+
+// ─── JSON 修复链 (全部 string-aware 逐字符扫描, 不用正则盲扫以免误伤字符串内容) ───
+
+// 修复 1: 把 JSON 字符串值里的裸换行/制表符转义, 兼容 LLM 偶尔吐未转义控制字符的情况.
+const repairControlChars = (s: string): string => {
+    let inStr = false, esc = false, out = '';
+    for (let i = 0; i < s.length; i++) {
+        const ch = s[i];
+        if (esc) { out += ch; esc = false; continue; }
+        if (ch === '\\') { out += ch; esc = true; continue; }
+        if (ch === '"') { inStr = !inStr; out += ch; continue; }
+        if (inStr && ch === '\n') { out += '\\n'; continue; }
+        if (inStr && ch === '\r') { out += '\\r'; continue; }
+        if (inStr && ch === '\t') { out += '\\t'; continue; }
+        out += ch;
+    }
+    return out;
+};
+
+// 修复 2: 转义字符串值内部的裸英文双引号 (模型写中文引语时常直接用 " 不转义).
+// 判定规则: 处于字符串内时遇到 ", 向后看第一个非空白字符 — 是 , : } ] 或到结尾才算真正的
+// 闭合引号, 否则视为内容里的裸引号, 转成 \". 启发式并不完美, 但只在直接 parse 失败后才启用.
+const repairInnerQuotes = (s: string): string => {
+    let inStr = false, esc = false, out = '';
+    for (let i = 0; i < s.length; i++) {
+        const ch = s[i];
+        if (esc) { out += ch; esc = false; continue; }
+        if (ch === '\\') { out += ch; esc = true; continue; }
+        if (ch === '"') {
+            if (!inStr) { inStr = true; out += ch; continue; }
+            let j = i + 1;
+            while (j < s.length && /\s/.test(s[j])) j++;
+            const next = j < s.length ? s[j] : '';
+            if (next === '' || next === ',' || next === ':' || next === '}' || next === ']') {
+                inStr = false; out += ch;
+            } else {
+                out += '\\"';
+            }
+            continue;
+        }
+        out += ch;
+    }
+    return out;
+};
+
+// 修复 3: 去掉 } / ] 前的尾逗号.
+const stripTrailingCommas = (s: string): string => {
+    let inStr = false, esc = false, out = '';
+    for (let i = 0; i < s.length; i++) {
+        const ch = s[i];
+        if (esc) { out += ch; esc = false; continue; }
+        if (inStr) {
+            if (ch === '\\') esc = true;
+            else if (ch === '"') inStr = false;
+            out += ch;
+            continue;
+        }
+        if (ch === '"') { inStr = true; out += ch; continue; }
+        if (ch === ',') {
+            let j = i + 1;
+            while (j < s.length && /\s/.test(s[j])) j++;
+            if (s[j] === '}' || s[j] === ']') continue; // 丢弃尾逗号
+        }
+        out += ch;
+    }
+    return out;
+};
+
+// 修复 4: 补全被截断的 JSON (max_tokens 截断 / 响应中断).
+// 扫描记录括号栈, 结尾时: 关掉未闭合字符串 → 去掉悬空的 , / 给悬空的 : 补 null → 逆序补闭合括号.
+const closeTruncatedJson = (s: string): string => {
+    let inStr = false, esc = false;
+    const stack: string[] = [];
+    for (let i = 0; i < s.length; i++) {
+        const ch = s[i];
+        if (esc) { esc = false; continue; }
+        if (inStr) {
+            if (ch === '\\') esc = true;
+            else if (ch === '"') inStr = false;
+            continue;
+        }
+        if (ch === '"') inStr = true;
+        else if (ch === '{') stack.push('}');
+        else if (ch === '[') stack.push(']');
+        else if (ch === '}' || ch === ']') {
+            if (stack[stack.length - 1] === ch) stack.pop();
+        }
+    }
+    let out = s;
+    if (esc) out = out.slice(0, -1); // 截断在反斜杠上, 丢掉半个转义序列
+    if (inStr) out += '"';
+    out = out.replace(/[\s]+$/, '');
+    if (out.endsWith(',')) out = out.slice(0, -1);
+    if (out.endsWith(':')) out += ' null';
+    while (stack.length) out += stack.pop();
+    return out;
+};
+
+// 从原文里定位第一个 { 并按括号平衡截取完整对象 (容忍前后夹杂闲聊文字, 后缀里有 } 也不误吞).
+const extractBalancedObject = (raw: string): string | undefined => {
+    const start = raw.indexOf('{');
+    if (start < 0) return undefined;
+    let inStr = false, esc = false, depth = 0;
+    for (let i = start; i < raw.length; i++) {
+        const ch = raw[i];
+        if (esc) { esc = false; continue; }
+        if (inStr) {
+            if (ch === '\\') esc = true;
+            else if (ch === '"') inStr = false;
+            continue;
+        }
+        if (ch === '"') inStr = true;
+        else if (ch === '{') depth++;
+        else if (ch === '}') {
+            depth--;
+            if (depth === 0) return raw.slice(start, i + 1);
+        }
+    }
+    return undefined;
+};
+
+export interface EmotionEvalResult {
+    changed: boolean;
+    buffs?: CharacterBuff[];
+    injection?: string;
+    innerState?: string;
+    /** true = 整体 JSON.parse 全失败, 靠字段级正则抢救出来的部分结果 */
+    salvaged?: boolean;
+}
+
+const looksLikeEvalResult = (v: any): boolean =>
+    !!v && typeof v === 'object' && !Array.isArray(v)
+    && ('changed' in v || 'buffs' in v || 'injection' in v || 'innerState' in v);
+
+const tryParseObject = (s: string): any | null => {
+    try {
+        const v = JSON.parse(s);
+        return (v && typeof v === 'object' && !Array.isArray(v)) ? v : null;
+    } catch { return null; }
+};
+
+// 字段级抢救: 整体 parse 全灭时, 用带转义感知的正则把 innerState / injection / changed / buffs
+// 单独抠出来 — 宁可拿到部分结果, 也不要整轮情绪评估静默蒸发.
+const salvageFields = (repairedRaw: string): EmotionEvalResult | null => {
+    const pickString = (key: string): string | undefined => {
+        const m = repairedRaw.match(new RegExp(`"${key}"\\s*:\\s*"((?:\\\\.|[^"\\\\])*)`));
+        if (!m || !m[1]) return undefined;
+        let v: string;
+        try { v = JSON.parse(`"${m[1]}"`); }
+        catch {
+            v = m[1].replace(/\\n/g, '\n').replace(/\\t/g, '\t').replace(/\\"/g, '"').replace(/\\\\/g, '\\');
+        }
+        v = v.trim();
+        return v || undefined;
+    };
+
+    let buffs: CharacterBuff[] | undefined;
+    const buffsIdx = repairedRaw.search(/"buffs"\s*:\s*\[/);
+    if (buffsIdx >= 0) {
+        const arrStart = repairedRaw.indexOf('[', buffsIdx);
+        let inStr = false, esc = false, depth = 0;
+        for (let i = arrStart; i < repairedRaw.length; i++) {
+            const ch = repairedRaw[i];
+            if (esc) { esc = false; continue; }
+            if (inStr) {
+                if (ch === '\\') esc = true;
+                else if (ch === '"') inStr = false;
+                continue;
+            }
+            if (ch === '"') inStr = true;
+            else if (ch === '[') depth++;
+            else if (ch === ']') {
+                depth--;
+                if (depth === 0) {
+                    try {
+                        const arr = JSON.parse(stripTrailingCommas(repairedRaw.slice(arrStart, i + 1)));
+                        if (Array.isArray(arr)) buffs = arr;
+                    } catch { /* 数组本身也烂, 放弃 buffs */ }
+                    break;
+                }
+            }
+        }
+    }
+
+    const injection = pickString('injection');
+    const innerState = pickString('innerState');
+    const changedMatch = repairedRaw.match(/"changed"\s*:\s*"?(true|false)"?/i);
+
+    if (!injection && !innerState && !buffs) return null;
+    const changed = changedMatch
+        ? changedMatch[1].toLowerCase() === 'true'
+        : !!(injection || buffs); // 抢救出了 injection/buffs 就当有变化, 只有 innerState 则不动 buff
+    return { changed, buffs, injection, innerState, salvaged: true };
+};
+
+/**
+ * 纯解析层 (无副作用, 导出供测试): 从 LLM 原始输出里尽量抠出情绪评估结果.
+ *
+ * 候选片段 (依次尝试): ```json 围栏 → 裸 ``` 围栏 → 未闭合围栏 → 括号平衡对象 →
+ * 贪婪首 { 尾 } → 首 { 到文末 (截断). 每个候选跑修复链: 原样 → 转义裸控制字符 →
+ * 转义字符串内裸引号 → 去尾逗号 → 补全截断. 全灭后走字段级正则抢救. 实在没有 → null.
+ */
+export function parseEmotionEvalOutput(rawText: string): EmotionEvalResult | null {
+    const raw = (rawText || '').trim();
+    if (!raw) return null;
+
+    const candidates: string[] = [];
+    const pushCand = (s?: string) => {
+        const t = (s || '').trim();
+        if (t && t.includes('{') && !candidates.includes(t)) candidates.push(t);
+    };
+    const fenceRe = /```(?:json)?\s*([\s\S]*?)```/gi;
+    let fm: RegExpExecArray | null;
+    while ((fm = fenceRe.exec(raw)) !== null) pushCand(fm[1]);
+    const openFence = raw.match(/```(?:json)?\s*([\s\S]*)$/i);
+    if (openFence) pushCand(openFence[1]); // 围栏没闭合 (输出被截断)
+    pushCand(extractBalancedObject(raw));
+    // 「首 { 到文末」要排在贪婪匹配之前: 截断场景下贪婪会停在 buffs 里最后一个 } 上,
+    // 补全后只剩 changed+buffs, 把后面的 injection/innerState 全丢了; 而这个候选对
+    // 完整 JSON + 尾巴闲聊的输入必然 parse 失败 (尾部有非 JSON 文本), 不会误伤.
+    const firstBrace = raw.indexOf('{');
+    if (firstBrace >= 0) pushCand(raw.slice(firstBrace));
+    const greedy = raw.match(/\{[\s\S]*\}/);
+    if (greedy) pushCand(greedy[0]);
+
+    let repairedForSalvage = '';
+    for (const cand of candidates) {
+        const c1 = repairControlChars(cand);
+        const c2 = repairInnerQuotes(c1);
+        const c3 = stripTrailingCommas(c2);
+        const c4 = closeTruncatedJson(c3);
+        if (!repairedForSalvage) repairedForSalvage = c3;
+        for (const attempt of [cand, c1, c2, c3, c4]) {
+            const v = tryParseObject(attempt);
+            if (v && looksLikeEvalResult(v)) {
+                // 模型偶尔把布尔写成字符串 "true"/"false"
+                const changed = v.changed === true || (typeof v.changed === 'string' && v.changed.toLowerCase() === 'true');
+                return {
+                    changed,
+                    buffs: Array.isArray(v.buffs) ? v.buffs : undefined,
+                    injection: typeof v.injection === 'string' ? v.injection : undefined,
+                    innerState: typeof v.innerState === 'string' ? v.innerState : undefined,
+                };
+            }
+        }
+    }
+
+    return salvageFields(repairedForSalvage || repairInnerQuotes(repairControlChars(raw)));
+}
+
+/**
+ * 从 chat-completion 响应的 message 对象里尽量抠出文本.
+ * content 可能是字符串, 也可能是分块数组 (部分 Claude 兼容代理); content 为空时回退
+ * reasoning_content (个别代理开思考后把全部输出塞进 reasoning, content 留空 —— 后续
+ * parseEmotionEvalOutput 会从里面正则定位 JSON, 喂进去无害).
+ */
+export function extractAssistantText(message: any): string {
+    if (!message) return '';
+    const c = message.content;
+    if (typeof c === 'string' && c.trim()) return c;
+    if (Array.isArray(c)) {
+        const joined = c
+            .map((p: any) => (typeof p === 'string' ? p : (p?.text || '')))
+            .filter(Boolean)
+            .join('\n');
+        if (joined.trim()) return joined;
+    }
+    const r = message.reasoning_content;
+    if (typeof r === 'string' && r.trim()) return r;
+    return '';
+}
+
+/**
+ * 解析情绪评估 raw 文本并落地 buff. 返回 innerState (意识流) 或 null.
+ * - 解析失败 → 返回 null, 不动 buff.
+ * - changed=false → 不动 buff, 返回 innerState (若有).
+ * - changed=true → sanitize buffs → DB.saveCharacter → 广播 'emotion-updated' → 返回 innerState.
+ * - changed=true 但 buffs / injection 双缺失 (格式烂到只抢救出 innerState) → 不清空已有
+ *   buff 状态, 只返回 innerState —— 解析半残不该把角色现有情绪底色抹掉.
+ */
+export async function applyEmotionEvalRaw(
+    rawText: string,
+    charData: CharacterProfile,
+): Promise<string | null> {
+    try {
+        const result = parseEmotionEvalOutput(rawText || '');
+        if (!result) {
+            console.warn('🎭 [Emotion] Could not parse eval output (all repairs + salvage failed):', (rawText || '').slice(0, 300));
+            announceEmotionFailed(charData, '评估模型的输出不是可解析的 JSON（模型掉格式，可换个评估模型试试）');
+            return null;
+        }
+        if (result.salvaged) {
+            console.warn('🎭 [Emotion] Full JSON parse failed, salvaged fields:', {
+                buffs: result.buffs?.length ?? 0,
+                injection: !!result.injection,
+                innerState: !!result.innerState,
+            });
+        }
+
+        const innerStateOut = (typeof result.innerState === 'string' && result.innerState.trim())
+            ? result.innerState.trim()
+            : null;
+
+        if (innerStateOut) {
+            try { localStorage.setItem(lastInnerStateKey(charData.id), innerStateOut); } catch { /* ignore */ }
+        }
+
+        // 小屋生活动态（可选顺风车产出，见 utils/roomAmbient.ts）：落 room_card 进私聊。
+        // 本函数是在线 / instant(worker) 两条路径的共用落点，所以在这里接。
+        // 与情绪主链路完全解耦——失败只丢这条动态，不影响 buff。
+        await landAmbientEventFromEval(result, charData);
+
+        if (!result.changed) {
+            console.log('🎭 [Emotion] No change detected, skipping buff update');
+            if (innerStateOut) console.log(`🌊 [InnerState] ${charData.name}: ${innerStateOut}`);
+            return innerStateOut;
+        }
+
+        const hasBuffArray = Array.isArray(result.buffs);
+        const hasInjection = typeof result.injection === 'string' && !!result.injection.trim();
+        if (!hasBuffArray && !hasInjection) {
+            // changed=true 但两个载荷都没拿到 — 保留现状比清空安全
+            console.warn('🎭 [Emotion] changed=true but no buffs/injection parsed, keeping existing state');
+            if (innerStateOut) console.log(`🌊 [InnerState] ${charData.name}: ${innerStateOut}`);
+            return innerStateOut;
+        }
+
+        // buffs 数组在场 → 完整更新 (数组为空 = 模型主动清空, 尊重).
+        // buffs 缺失但 injection 在场 (抢救场景) → 保留旧 buffs, 只换 injection.
+        const sanitizedBuffs = hasBuffArray ? sanitizeBuffs(result.buffs) : (charData.activeBuffs || []);
+        const buffInjection = hasInjection ? result.injection! : (hasBuffArray ? '' : (charData.buffInjection || ''));
+        const updated: CharacterProfile = {
+            ...charData,
+            activeBuffs: sanitizedBuffs,
+            buffInjection,
+        };
+        await DB.saveCharacter(updated);
+
+        // detail 直接带上 buffs + buffInjection: 监听方 (Chat) 可直接落 OSContext, 不必重读 DB
+        // —— 避开 saveCharacter 未等事务提交 / instant flush 下 DB 重读偶发拿旧值的竞态.
+        if (typeof window !== 'undefined') {
+            window.dispatchEvent(new CustomEvent('emotion-updated', {
+                detail: { charId: charData.id, buffs: sanitizedBuffs, buffInjection },
+            }));
+        }
+        console.log('🎭 [Emotion] Updated buffs:', sanitizedBuffs.map((b) => b.label).join(', ') || 'none');
+        if (innerStateOut) console.log(`🌊 [InnerState] ${charData.name}: ${innerStateOut}`);
+        return innerStateOut;
+    } catch (e: any) {
+        console.warn('🎭 [Emotion] applyEmotionEvalRaw failed:', e?.message);
+        announceEmotionFailed(charData, `评估结果落库失败：${e?.message || '未知错误'}`);
+        return null;
+    }
+}

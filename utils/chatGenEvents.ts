@@ -1,1 +1,78 @@
-LyoqCiAqIOiBiuWkqeeUn+aIkOeahOWFqOWxgOW5v+aSreS6i+S7tu+8iOWvueagh+W9vOaWueeahCB2ci1zZXNzaW9uLXN0YXJ0L2VuZO+8ieOAggogKgogKiDog4zmma/vvJpDaGF0IEFwcCDliIfotbDmmK/nnJ8gdW5tb3VudO+8iFBob25lU2hlbGwg5oyJIGFjdGl2ZUFwcCBzd2l0Y2gg5riy5p+T77yJ77yM5L2GCiAqIHVzZUNoYXRBSS50cmlnZ2VyQUkg55qE5byC5q2l6Zet5YyF5Lya57un57ut6LeR5a6M5bm25oqK5Zue5aSN6JC95bqT77yI5pys5ZywIGZldGNoIOi3r+W+hO+8ie+8jAogKiDmg4Xnu6ror4TkvLDlkIznkIbjgILov4fljrvov5nmrrUi5ZCO5Y+w55Sf5oiQIuWvueeUqOaIt+WujOWFqOS4jeWPr+ingeKAlOKAlOWIh+i1sOWwseWDj+atu+S6huOAggogKgogKiDov5nph4zlrprkuYnkuIDnu4Qgd2luZG93IEN1c3RvbUV2ZW5077yM55Sx55Sf5oiQ6Zet5YyF5Zyo5byA5aeLL+e7k+adn+aXtua0vuWPke+8mgogKiAgIC0g5qC557qnIDxDaGF0QnJvYWRjYXN0Lz7vvIhBcHAudHN477yMUGhvbmVTaGVsbCDkuYvlpJbvvInnm5HlkKzlubbmuLLmn5MKICogICAgIOOAjHh4IOato+WcqOWbnuW6lOKApuOAjeOAjHh4IOato+WcqOaEn+WPl+KApuOAjeWFqOWxgOaoquW5he+8jOe7hOS7tueUn+WRveWRqOacn+S4jiBDaGF0IOaXoOWFs++8mwogKiAgIC0gT1NDb250ZXh0IOebkeWQrCByZXBseSDokL3lupPkuovku7bvvIxidW1wIGxhc3RNc2dUaW1lc3RhbXAg6K6p5b2T5YmN5oyC6L2955qECiAqICAgICBDaGF0IOmHjeaWsCByZWxvYWRNZXNzYWdlc++8jOW5tuWcqOeUqOaIt+S4jeWcqOivpeS8muivneaXtuihpeacquivuy90b2FzdOKAlOKAlAogKiAgICAg5LiOIGluc3RhbnQgcHVzaCDnmoQgJ2FjdGl2ZS1tc2ctcmVjZWl2ZWQnIOWbnuiQveihjOS4uuWvuem9kOOAggogKgogKiBkZXRhaWwg5LiA5b6L5pivIHsgY2hhcklkLCBjaGFyTmFtZSB944CCCiAqLwoKZXhwb3J0IGNvbnN0IENIQVRfR0VOX0VWRU5UUyA9IHsKICAgIC8qKiDkuLvlm57lpI3nlJ/miJDlvIDlp4vvvIjmnKzlnLAgZmV0Y2gg5LiOIGluc3RhbnQgcHVzaCDkuKTmnaHot6/lvoTpg73nrpfvvIkgKi8KICAgIHJlcGx5U3RhcnQ6ICdjaGF0LWdlbi1yZXBseS1zdGFydCcsCiAgICAvKiog5Li75Zue5aSN55Sf5oiQ5Lya6K+d57uT5p2f77yIdHJpZ2dlckFJIGZpbmFsbHnvvIzmiJDlip8v5aSx6LSlL2luc3RhbnQg5Z2H6Kem5Y+R77yJICovCiAgICByZXBseUVuZDogJ2NoYXQtZ2VuLXJlcGx5LWVuZCcsCiAgICAvKiog5pys5ZywIGZldGNoIOi3r+W+hO+8muWbnuWkjeW3suWFqOmDqOiQveW6k++8iOWQjuWkhOeQhueuoee6v+i3keWujO+8ieOAgmluc3RhbnQg6Lev5b6E5LiN5Y+R4oCU4oCU5a6D6LWwICdhY3RpdmUtbXNnLXJlY2VpdmVkJyAqLwogICAgcmVwbHlBcnJpdmVkOiAnY2hhdC1nZW4tcmVwbHktYXJyaXZlZCcsCiAgICAvKiog5oOF57uq6K+E5Lyw5byA5aeL77yI5pys5ZywIGV2YWwgLyBwb3N0LXB1c2ggZXZhbCAvIOS4u+WKqOa2iOaBryBldmFsIC8gaW5zdGFudCDngrnnga/vvIkgKi8KICAgIGVtb3Rpb25TdGFydDogJ2NoYXQtZ2VuLWVtb3Rpb24tc3RhcnQnLAogICAgLyoqIOaDhee7quivhOS8sOe7k+adn++8iGluc3RhbnQg6Lev5b6E55SxIHdvcmtlciDmjqjlm57vvIznu5PmnZ/kv6Hlj7fmmK/ml6LmnInnmoQgJ2luc3RhbnQtZW1vdGlvbi1kb25lJ++8iSAqLwogICAgZW1vdGlvbkVuZDogJ2NoYXQtZ2VuLWVtb3Rpb24tZW5kJywKICAgIC8qKgogICAgICog5oOF57uq6K+E5Lyw5aSx6LSl77yI5pys5ZywIGZldGNoIOaKpemUmSAvIOS6keerryB3b3JrZXIg56m657uT5p6cIC8g6L6T5Ye66Kej5p6Q5YWo54Gt77yJ44CCCiAgICAgKiDov4fljrvlpLHotKXlj6rlhpkgY29uc29sZS53YXJu77yM55So5oi35L6n6KGo546w5piv44CM5oOF57uq5LiN5pu05paw5L2G5rKh5Lu75L2V5oql6ZSZ44CN77yM5a6M5YWo5rKh5rOV6Ieq5p+lCiAgICAgKiDvvIjnnJ/lrp7nlKjmiLflj43ppojvvInjgIJPU0NvbnRleHQg55uR5ZCs5pys5LqL5Lu25by5IHRvYXN077yI5q+P6KeS6Imy5bim5Ya35Y2077yJ77yMZGV0YWlsLnJlYXNvbiDluKbkurror53ljp/lm6DjgIIKICAgICAqLwogICAgZW1vdGlvbkZhaWxlZDogJ2NoYXQtZ2VuLWVtb3Rpb24tZmFpbGVkJywKfSBhcyBjb25zdDsKCmV4cG9ydCBpbnRlcmZhY2UgQ2hhdEdlbkRldGFpbCB7CiAgICBjaGFySWQ6IHN0cmluZzsKICAgIGNoYXJOYW1lOiBzdHJpbmc7CiAgICAvKiogZW1vdGlvbkZhaWxlZCDkuJPnlKjvvJrlpLHotKXljp/lm6DvvIjkurror53vvIzlj6/nm7TmjqXlsZXnpLrnu5nnlKjmiLfvvIkgKi8KICAgIHJlYXNvbj86IHN0cmluZzsKfQoKZXhwb3J0IGZ1bmN0aW9uIGFubm91bmNlQ2hhdEdlbihldmVudDogc3RyaW5nLCBkZXRhaWw6IENoYXRHZW5EZXRhaWwpOiB2b2lkIHsKICAgIHRyeSB7CiAgICAgICAgd2luZG93LmRpc3BhdGNoRXZlbnQobmV3IEN1c3RvbUV2ZW50KGV2ZW50LCB7IGRldGFpbCB9KSk7CiAgICB9IGNhdGNoIHsgLyogU1NSIC8g5rWL6K+V546v5aKD5pegIHdpbmRvdyAqLyB9Cn0KCi8vIOKUgOKUgOKUgCDlvZPliY3ogYrlpKnop4blm77lv6vnhacg4pSA4pSA4pSACi8vIENoYXRCcm9hZGNhc3Qg5oyC5ZyoIE9TUHJvdmlkZXIg5LmL5aSW5ou/5LiN5YiwIGFjdGl2ZUFwcC9hY3RpdmVDaGFyYWN0ZXJJZO+8jAovLyDnlLEgT1NDb250ZXh0IOWcqOinhuWbvuWPmOWMluaXtuWGmeWFpei/meS4quaooeWdl+e6p+W/q+eFp++8iOWQjCBNdXNpY0NvbnRleHQg55qECi8vIGxvYWRNdXNpY1BsYXliYWNrU25hcHNob3Qg5qih5byP77yJ77yM5bm25rS+5Y+RIENIQVRfVklFV19DSEFOR0VEX0VWRU5UIOinpuWPkemHjea4suafk+OAggovLyDnlKjpgJTvvJrnlKjmiLfmraPlvIDnnYDmn5Dop5LoibLnmoTogYrlpKnpobXml7bvvIzor6Xop5LoibLnmoTmqKrluYXkuI3mmL7npLrvvIjpobXlhoXlt7LmnInmiZPlrZfmjIfnpLrvvInvvIwKLy8g5YiH6LWw55qE556s6Ze05qiq5bmF5o6l5qOS5Ye6546w44CCCgpleHBvcnQgY29uc3QgQ0hBVF9WSUVXX0NIQU5HRURfRVZFTlQgPSAnY2hhdC12aWV3LWNoYW5nZWQnOwoKaW50ZXJmYWNlIENoYXRWaWV3U25hcHNob3QgewogICAgLyoqIOW9k+WJjeaYr+WQpuW8gOedgCBDaGF0IEFwcCAqLwogICAgY2hhdE9wZW46IGJvb2xlYW47CiAgICAvKiogQ2hhdCBBcHAg5b2T5YmN5Lya6K+d55qE6KeS6ImyIGlk77yIY2hhdE9wZW49ZmFsc2Ug5pe25peg5oSP5LmJ77yJICovCiAgICBjaGFySWQ6IHN0cmluZyB8IG51bGw7Cn0KCmxldCBjaGF0VmlldzogQ2hhdFZpZXdTbmFwc2hvdCA9IHsgY2hhdE9wZW46IGZhbHNlLCBjaGFySWQ6IG51bGwgfTsKCmV4cG9ydCBmdW5jdGlvbiBzZXRDaGF0Vmlld1NuYXBzaG90KGNoYXRPcGVuOiBib29sZWFuLCBjaGFySWQ6IHN0cmluZyB8IG51bGwpOiB2b2lkIHsKICAgIGlmIChjaGF0Vmlldy5jaGF0T3BlbiA9PT0gY2hhdE9wZW4gJiYgY2hhdFZpZXcuY2hhcklkID09PSBjaGFySWQpIHJldHVybjsKICAgIGNoYXRWaWV3ID0geyBjaGF0T3BlbiwgY2hhcklkIH07CiAgICB0cnkgewogICAgICAgIHdpbmRvdy5kaXNwYXRjaEV2ZW50KG5ldyBDdXN0b21FdmVudChDSEFUX1ZJRVdfQ0hBTkdFRF9FVkVOVCkpOwogICAgfSBjYXRjaCB7IC8qIFNTUiAqLyB9Cn0KCmV4cG9ydCBmdW5jdGlvbiBnZXRDaGF0Vmlld1NuYXBzaG90KCk6IENoYXRWaWV3U25hcHNob3QgewogICAgcmV0dXJuIGNoYXRWaWV3Owp9Cg==
+/**
+ * 聊天生成的全局广播事件（对标彼方的 vr-session-start/end）。
+ *
+ * 背景：Chat App 切走是真 unmount（PhoneShell 按 activeApp switch 渲染），但
+ * useChatAI.triggerAI 的异步闭包会继续跑完并把回复落库（本地 fetch 路径），
+ * 情绪评估同理。过去这段"后台生成"对用户完全不可见——切走就像死了。
+ *
+ * 这里定义一组 window CustomEvent，由生成闭包在开始/结束时派发：
+ *   - 根级 <ChatBroadcast/>（App.tsx，PhoneShell 之外）监听并渲染
+ *     「xx 正在回应…」「xx 正在感受…」全局横幅，组件生命周期与 Chat 无关；
+ *   - OSContext 监听 reply 落库事件，bump lastMsgTimestamp 让当前挂载的
+ *     Chat 重新 reloadMessages，并在用户不在该会话时补未读/toast——
+ *     与 instant push 的 'active-msg-received' 回落行为对齐。
+ *
+ * detail 一律是 { charId, charName }。
+ */
+
+export const CHAT_GEN_EVENTS = {
+    /** 主回复生成开始（本地 fetch 与 instant push 两条路径都算） */
+    replyStart: 'chat-gen-reply-start',
+    /** 主回复生成会话结束（triggerAI finally，成功/失败/instant 均触发） */
+    replyEnd: 'chat-gen-reply-end',
+    /** 本地 fetch 路径：回复已全部落库（后处理管线跑完）。instant 路径不发——它走 'active-msg-received' */
+    replyArrived: 'chat-gen-reply-arrived',
+    /** 情绪评估开始（本地 eval / post-push eval / 主动消息 eval / instant 点灯） */
+    emotionStart: 'chat-gen-emotion-start',
+    /** 情绪评估结束（instant 路径由 worker 推回，结束信号是既有的 'instant-emotion-done'） */
+    emotionEnd: 'chat-gen-emotion-end',
+    /**
+     * 情绪评估失败（本地 fetch 报错 / 云端 worker 空结果 / 输出解析全灭）。
+     * 过去失败只写 console.warn，用户侧表现是「情绪不更新但没任何报错」，完全没法自查
+     * （真实用户反馈）。OSContext 监听本事件弹 toast（每角色带冷却），detail.reason 带人话原因。
+     */
+    emotionFailed: 'chat-gen-emotion-failed',
+} as const;
+
+export interface ChatGenDetail {
+    charId: string;
+    charName: string;
+    /** emotionFailed 专用：失败原因（人话，可直接展示给用户） */
+    reason?: string;
+}
+
+export function announceChatGen(event: string, detail: ChatGenDetail): void {
+    try {
+        window.dispatchEvent(new CustomEvent(event, { detail }));
+    } catch { /* SSR / 测试环境无 window */ }
+}
+
+// ─── 当前聊天视图快照 ───
+// ChatBroadcast 挂在 OSProvider 之外拿不到 activeApp/activeCharacterId，
+// 由 OSContext 在视图变化时写入这个模块级快照（同 MusicContext 的
+// loadMusicPlaybackSnapshot 模式），并派发 CHAT_VIEW_CHANGED_EVENT 触发重渲染。
+// 用途：用户正开着某角色的聊天页时，该角色的横幅不显示（页内已有打字指示），
+// 切走的瞬间横幅接棒出现。
+
+export const CHAT_VIEW_CHANGED_EVENT = 'chat-view-changed';
+
+interface ChatViewSnapshot {
+    /** 当前是否开着 Chat App */
+    chatOpen: boolean;
+    /** Chat App 当前会话的角色 id（chatOpen=false 时无意义） */
+    charId: string | null;
+}
+
+let chatView: ChatViewSnapshot = { chatOpen: false, charId: null };
+
+export function setChatViewSnapshot(chatOpen: boolean, charId: string | null): void {
+    if (chatView.chatOpen === chatOpen && chatView.charId === charId) return;
+    chatView = { chatOpen, charId };
+    try {
+        window.dispatchEvent(new CustomEvent(CHAT_VIEW_CHANGED_EVENT));
+    } catch { /* SSR */ }
+}
+
+export function getChatViewSnapshot(): ChatViewSnapshot {
+    return chatView;
+}

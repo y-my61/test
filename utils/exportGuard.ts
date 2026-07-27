@@ -1,1 +1,127 @@
-LyoqCiAqIOWvvOWHuuWJjeeahOOAjOaYjuaWh+WvhumSpeOAjeS9k+ajgCArIOS6jOasoeehruiupOOAggogKgogKiDop5LoibLljaHms4TmvI8gQVBJIGtleSDnmoTmlZnorq3lkI7vvIznu5nmiYDmnInjgIzlr7zlh7ogLyDliIbkuqsgLyDnlJ/miJDliIbkuqvnoIHjgI3nmoTlhaXlj6Pnu5/kuIDliqDkuIDpgZPpl7jvvJoKICog5a+85Ye65YmN5rex5bqm5omr5o+PIHBheWxvYWTvvIzliKTmlq3ph4zpnaLmmK/lkKblkKvmmI7mloflr4bpkqXvvIzlvLnkuozmrKHnoa7orqTvvIzorqnnlKjmiLflnKjngrnjgIznoa7lrprjgI3liY3lhYjnnIvmuIXjgIIKICoKICog5LiJ5oCB77yI5LiO5Lqn5ZOB5paH5qGI5a+55bqU77yJ77yaCiAqICAtIHNhZmUgICAgICAgICAgICAg77ya5rKh5pyJ5piO5paH5a+G6ZKlIOKGkiDjgIzor6Xlr7zlh7rlhoXlrrnlronlhajvvIzlj6/ku6XnlKjkuo7liIbkuqvjgI0KICogIC0gY29udGFpbnMtc2VjcmV0ICDvvJoqKumihOacn+WGhSoq5ZCr5a+G6ZKl77yI5LuF6K6+572uLeaVsOaNruWkh+S7vei/meexu+aVtOWMheWkh+S7ve+8ieKGkiDjgIzor7fkuI3opoHlj5HpgIHnu5nku7vkvZXkurrjgI0KICogIC0gdW5leHBlY3RlZC1zZWNyZXTvvJoqKuS4jeivpeWQq+WvhumSpeeahOWIhuS6q+exu+WvvOWHuioq5Y205omr5Yiw5LqG5a+G6ZKl77yI6K+05piO6L+Y5pyJ5ryP5rSe77yJ4oaSIOOAjOivt+aIquWbvuW5tuWPkemAgee7meS9nOiAheOAjQogKgogKiDmiavmj4/pgLvovpHliLvmhI/lkowgdG9vbHMvY2FyZC1pbnNwZWN0b3IuaHRtbCDkv53mjIHkuIDoh7TvvJoKICog5pei55yL5a2X5q615ZCN77yIYXBpS2V5L3NlY3JldC90b2tlbi9hdXRob3JpemF0aW9uL2JlYXJlci9wYXNzd29yZC9hbm9uS2V54oCm77yJ77yMCiAqIOS5n+eci+Wtl+auteWAvO+8iHNrLeKApuOAgUJlYXJlciDigKbjgIFKV1TjgIEzMisg5L2N6ZW/5ZOI5biM77yJ77yM5pyq55+lL+aWsOWinuWtl+auteS5n+iDveimhuebluOAggogKi8KCmV4cG9ydCBpbnRlcmZhY2UgU2VjcmV0SGl0IHsKICAvKiog5ZG95Lit5a2X5q6155qE54K56Lev5b6E77yM5aaCIGVtb3Rpb25Db25maWcuYXBpLmFwaUtleSAqLwogIHBhdGg6IHN0cmluZzsKICAvKiog5omT56CB5ZCO55qE5YC877yM5LuF6Zyy5aS05bC+5Yeg5L2N77yM57ud5LiN5Zue5pi+5a6M5pW05a+G6ZKlICovCiAgbWFza2VkOiBzdHJpbmc7CiAgLyoqIOWRveS4reWOn+WboCAqLwogIHJlYXNvbjogc3RyaW5nOwp9CgpleHBvcnQgdHlwZSBFeHBvcnRTYWZldHlMZXZlbCA9ICdzYWZlJyB8ICdjb250YWlucy1zZWNyZXQnIHwgJ3VuZXhwZWN0ZWQtc2VjcmV0JzsKCmV4cG9ydCBpbnRlcmZhY2UgRXhwb3J0U2FmZXR5IHsKICBsZXZlbDogRXhwb3J0U2FmZXR5TGV2ZWw7CiAgbWVzc2FnZTogc3RyaW5nOwogIGhpdHM6IFNlY3JldEhpdFtdOwp9Cgpjb25zdCBTRUNSRVRfS0VZX05BTUUgPSAvKGFwaVtfLV0/a2V5fHNlY3JldHx0b2tlbnxhdXRob3JpemF0aW9ufGF1dGh8YmVhcmVyfHBhc3N3b3JkfHBhc3N3ZHxwd2R8YWNjZXNzW18tXT9rZXl8cHJpdmF0ZVtfLV0/a2V5fGFub25bXy1dP2tleXxjcmVkZW50aWFsfGFwaWtleSkvaTsKCmNvbnN0IFNFQ1JFVF9WQUxVRV9QQVRURVJOUzogeyByZTogUmVnRXhwOyBsYWJlbDogc3RyaW5nIH1bXSA9IFsKICB7IHJlOiAvXGJzay1bQS1aYS16MC05X1wtXXsxMix9LywgbGFiZWw6ICdPcGVuQUkg6aOO5qC85a+G6ZKlIHNrLeKApicgfSwKICB7IHJlOiAvXGJCZWFyZXJccytbQS1aYS16MC05Ll9cLV17MTIsfS9pLCBsYWJlbDogJ0JlYXJlciDku6TniYwnIH0sCiAgeyByZTogL1xiZXlKW0EtWmEtejAtOV9cLV17MTAsfVwuW0EtWmEtejAtOV9cLV17MTAsfVwuW0EtWmEtejAtOV9cLV17Nix9LywgbGFiZWw6ICdKV1QnIH0sCiAgeyByZTogL1xiW0EtWmEtejAtOV17MzIsfVxiLywgbGFiZWw6ICfnlpHkvLzplb/lr4bpkqUgLyDlk4jluIzvvIgzMisg5L2N77yJJyB9LApdOwoKLyoqIOi/meS6m+Wtl+auteWQjeWNs+S+v+WAvOW+iOmVv+S5n+WIq+ivr+aKpe+8iOato+aWhyAvIOaPj+i/sCAvIOWbvueJhyBkYXRhVVJMIOetie+8iSAqLwpjb25zdCBWQUxVRV9XSElURUxJU1RfS0VZUyA9IC9eKGlkfHZvaWNlSWR8ZmlzaFJlZmVyZW5jZUlkfHN5c3RlbVByb21wdHxkZXNjcmlwdGlvbnx3b3JsZHZpZXd8Y29udGVudHxzdW1tYXJ5fG1lbW9yeVRleHR8aW1wcmVzc2lvbnxhdmF0YXJ8c3JjfHByb21wdHxub3Rlc3xiaW98dGl0bGV8bGFiZWx8dGV4dHxjc3N8Y2hyb21lQ3VzdG9tQ3NzfGx5cmljcykkL2k7CgpmdW5jdGlvbiBtYXNrKHY6IHVua25vd24pOiBzdHJpbmcgewogIGNvbnN0IHMgPSB0eXBlb2YgdiA9PT0gJ3N0cmluZycgPyB2IDogU3RyaW5nKHYpOwogIGlmIChzLmxlbmd0aCA8PSA4KSByZXR1cm4gJ+KAoicucmVwZWF0KHMubGVuZ3RoKTsKICByZXR1cm4gYCR7cy5zbGljZSgwLCA0KX3igKLigKLigKLigKLigKLigKIke3Muc2xpY2UoLTMpfSAoJHtzLmxlbmd0aH3lrZcpYDsKfQoKZnVuY3Rpb24gbG9va3NMaWtlU2VjcmV0VmFsdWUodjogc3RyaW5nKTogc3RyaW5nIHwgbnVsbCB7CiAgaWYgKHYubGVuZ3RoIDwgMTIpIHJldHVybiBudWxsOwogIGlmICh2LnN0YXJ0c1dpdGgoJ2RhdGE6JykpIHJldHVybiBudWxsOwogIGlmICgvXmh0dHBzPzpcL1wvLy50ZXN0KHYpICYmICEvWz8mXShrZXl8dG9rZW58c2VjcmV0KT0vaS50ZXN0KHYpKSByZXR1cm4gbnVsbDsKICBmb3IgKGNvbnN0IHAgb2YgU0VDUkVUX1ZBTFVFX1BBVFRFUk5TKSBpZiAocC5yZS50ZXN0KHYpKSByZXR1cm4gcC5sYWJlbDsKICByZXR1cm4gbnVsbDsKfQoKLyoqIOa3seW6pumAkuW9kuaJq+aPj+S7u+aEj+WvueixoSAvIOaVsOe7hO+8jOi/lOWbnuaJgOacieeWkeS8vOaYjuaWh+WvhumSpeWRveS4remhueOAgiAqLwpleHBvcnQgZnVuY3Rpb24gc2NhblBsYWludGV4dFNlY3JldHMob2JqOiB1bmtub3duLCBwYXRoID0gJycsIGhpdHM6IFNlY3JldEhpdFtdID0gW10sIHNlZW4gPSBuZXcgV2Vha1NldDxvYmplY3Q+KCkpOiBTZWNyZXRIaXRbXSB7CiAgaWYgKG9iaiA9PT0gbnVsbCB8fCB0eXBlb2Ygb2JqICE9PSAnb2JqZWN0JykgcmV0dXJuIGhpdHM7CiAgaWYgKHNlZW4uaGFzKG9iaiBhcyBvYmplY3QpKSByZXR1cm4gaGl0czsgLy8g6Ziy5b6q546v5byV55SoCiAgc2Vlbi5hZGQob2JqIGFzIG9iamVjdCk7CiAgZm9yIChjb25zdCBbaywgdl0gb2YgT2JqZWN0LmVudHJpZXMob2JqIGFzIFJlY29yZDxzdHJpbmcsIHVua25vd24+KSkgewogICAgY29uc3QgcCA9IHBhdGggPyBgJHtwYXRofS4ke2t9YCA6IGs7CiAgICBjb25zdCBpc1NlY3JldE5hbWUgPSBTRUNSRVRfS0VZX05BTUUudGVzdChrKTsKICAgIGlmIChpc1NlY3JldE5hbWUgJiYgdiAhPSBudWxsICYmIHYgIT09ICcnICYmIHR5cGVvZiB2ICE9PSAnb2JqZWN0JykgewogICAgICBoaXRzLnB1c2goeyBwYXRoOiBwLCBtYXNrZWQ6IG1hc2sodiksIHJlYXNvbjogYOWtl+auteWQjeeWkeS8vOWHreaNru+8iCR7a33vvIlgIH0pOwogICAgfSBlbHNlIGlmICh0eXBlb2YgdiA9PT0gJ3N0cmluZycgJiYgIVZBTFVFX1dISVRFTElTVF9LRVlTLnRlc3QoaykpIHsKICAgICAgY29uc3QgbGJsID0gbG9va3NMaWtlU2VjcmV0VmFsdWUodik7CiAgICAgIGlmIChsYmwpIGhpdHMucHVzaCh7IHBhdGg6IHAsIG1hc2tlZDogbWFzayh2KSwgcmVhc29uOiBg5a2X5q615YC855aR5Ly8JHtsYmx9YCB9KTsKICAgIH0KICAgIGlmICh2ICYmIHR5cGVvZiB2ID09PSAnb2JqZWN0Jykgc2NhblBsYWludGV4dFNlY3JldHModiwgcCwgaGl0cywgc2Vlbik7CiAgfQogIHJldHVybiBoaXRzOwp9CgovKioKICog6K+E5Lyw5LiA5qyh5a+85Ye655qE5a6J5YWo5oCn44CCCiAqIEBwYXJhbSBkYXRhIOW+heWvvOWHuueahOWvueixoe+8iOiLpeS9oOaJi+S4iuaYryBKU09OIOWtl+espuS4su+8jOWFiCBKU09OLnBhcnNlIOWGjeS8oOi/m+adpe+8iQogKiBAcGFyYW0gb3B0cy5leHBlY3RTZWNyZXRzIOivpeWvvOWHuui3r+W+hOaYr+WQpuOAjOacrOWwseWFgeiuuOWQq+WvhumSpeOAjeOAguS7heiuvue9ri3mlbDmja7lpIfku73ov5nnsbvmlbTljIXlpIfku73kvKAgdHJ1ZeOAggogKi8KZXhwb3J0IGZ1bmN0aW9uIGFzc2Vzc0V4cG9ydChkYXRhOiB1bmtub3duLCBvcHRzOiB7IGV4cGVjdFNlY3JldHM/OiBib29sZWFuIH0gPSB7fSk6IEV4cG9ydFNhZmV0eSB7CiAgY29uc3QgaGl0cyA9IHNjYW5QbGFpbnRleHRTZWNyZXRzKGRhdGEpOwogIGlmIChoaXRzLmxlbmd0aCA9PT0gMCkgewogICAgcmV0dXJuIHsgbGV2ZWw6ICdzYWZlJywgbWVzc2FnZTogJ+ivpeWvvOWHuuWGheWuueWuieWFqO+8jOWPr+S7peeUqOS6juWIhuS6qycsIGhpdHMgfTsKICB9CiAgaWYgKG9wdHMuZXhwZWN0U2VjcmV0cykgewogICAgcmV0dXJuIHsgbGV2ZWw6ICdjb250YWlucy1zZWNyZXQnLCBtZXNzYWdlOiAn6K+l5a+85Ye65pWw5o2u5YyF5ZCr5LqG5piO5paH5a+G6ZKl77yM6K+35LiN6KaB5Y+R6YCB57uZ5Lu75L2V5Lq6JywgaGl0cyB9OwogIH0KICBjb25zdCBwYXRocyA9IGhpdHMubWFwKGggPT4gYMK3ICR7aC5wYXRofWApLmpvaW4oJ1xuJyk7CiAgcmV0dXJuIHsKICAgIGxldmVsOiAndW5leHBlY3RlZC1zZWNyZXQnLAogICAgbWVzc2FnZTogYOivpeWvvOWHuuaVsOaNruWMheWQq+S6huaYjuaWh+WvhumSpe+8iOS4jeW6lOWHuueOsO+8ieOAguivt+aIquWbvuW5tuWPkemAgee7meS9nOiAheOAglxuXG7mo4Dlh7rkvY3nva7vvJpcbiR7cGF0aHN9YCwKICAgIGhpdHMsCiAgfTsKfQoKLyoqCiAqIOWvvOWHuuWJjeeahOS6jOasoeehruiupOmXuOmXqOOAguaUvuWcqOavj+S4quWvvOWHuuWHveaVsOacgOWJjemdou+8mgogKiAgIGlmICghKGF3YWl0IGNvbmZpcm1FeHBvcnRTYWZldHkocGF5bG9hZCkpKSByZXR1cm47CiAqCiAqIOi/lOWbniB0cnVlID0g55So5oi356Gu6K6k57un57ut77ybZmFsc2UgPSDnlKjmiLflj5bmtojvvIzosIPnlKjmlrnlupTnm7TmjqUgcmV0dXJuIOS4reatouWvvOWHuuOAggogKiDpu5jorqTnlKggd2luZG93LmNvbmZpcm3vvIjmtY/op4jlmaggLyBDYXBhY2l0b3Igd2VidmlldyDlnYflj6/nlKjjgIHpmLvloZ7jgIHpm7bkvp3otZbvvInjgIIKICog5oOz5o6l5YWl6Ieq5a6a5LmJ5by556qX5pe277yM5LygIG9wdHMuY29uZmlybUltcGwg6KaG55uW44CCCiAqLwpleHBvcnQgYXN5bmMgZnVuY3Rpb24gY29uZmlybUV4cG9ydFNhZmV0eSgKICBkYXRhOiB1bmtub3duLAogIG9wdHM6IHsKICAgIGV4cGVjdFNlY3JldHM/OiBib29sZWFuOwogICAgLyoqIOiHquWumuS5ieehruiupOWunueOsO+8muaUtuWIsOaPkOekuuaWh+ahiO+8jOi/lOWbnueUqOaIt+aYr+WQpue7p+e7reOAgiAqLwogICAgY29uZmlybUltcGw/OiAoYXNzZXNzbWVudDogRXhwb3J0U2FmZXR5KSA9PiBib29sZWFuIHwgUHJvbWlzZTxib29sZWFuPjsKICB9ID0ge30sCik6IFByb21pc2U8Ym9vbGVhbj4gewogIGNvbnN0IGFzc2Vzc21lbnQgPSBhc3Nlc3NFeHBvcnQoZGF0YSwgeyBleHBlY3RTZWNyZXRzOiBvcHRzLmV4cGVjdFNlY3JldHMgfSk7CgogIGlmIChvcHRzLmNvbmZpcm1JbXBsKSByZXR1cm4gb3B0cy5jb25maXJtSW1wbChhc3Nlc3NtZW50KTsKCiAgY29uc3QgYyA9ICh0eXBlb2Ygd2luZG93ICE9PSAndW5kZWZpbmVkJyAmJiB0eXBlb2Ygd2luZG93LmNvbmZpcm0gPT09ICdmdW5jdGlvbicpCiAgICA/IHdpbmRvdy5jb25maXJtLmJpbmQod2luZG93KQogICAgOiBudWxsOwogIGlmICghYykgcmV0dXJuIHRydWU7IC8vIOaXoCBjb25maXJtIOeOr+Wig++8iOWmguWNlea1i++8iem7mOiupOaUvuihjO+8jOS6pOeUseiwg+eUqOaWueWPpuihjOWkhOeQhgoKICAvLyDkuInmgIHpg73lvLnkuozmrKHnoa7orqTvvJrlronlhajnu5nlh7rjgIzlj6/liIbkuqvjgI3nmoTlronlv4Pmj5DnpLrvvIzmo4Dlh7rlr4bpkqXnu5nlh7rlr7nlupTorablkYrjgIIKICByZXR1cm4gYyhgJHthc3Nlc3NtZW50Lm1lc3NhZ2V9XG5cbueCueOAjOehruWumuOAjee7p+e7reWvvOWHuu+8jOOAjOWPlua2iOOAjeS4reatouOAgmApOwp9Cg==
+/**
+ * 导出前的「明文密钥」体检 + 二次确认。
+ *
+ * 角色卡泄漏 API key 的教训后，给所有「导出 / 分享 / 生成分享码」的入口统一加一道闸：
+ * 导出前深度扫描 payload，判断里面是否含明文密钥，弹二次确认，让用户在点「确定」前先看清。
+ *
+ * 三态（与产品文案对应）：
+ *  - safe             ：没有明文密钥 → 「该导出内容安全，可以用于分享」
+ *  - contains-secret  ：**预期内**含密钥（仅设置-数据备份这类整包备份）→ 「请不要发送给任何人」
+ *  - unexpected-secret：**不该含密钥的分享类导出**却扫到了密钥（说明还有漏洞）→ 「请截图并发送给作者」
+ *
+ * 扫描逻辑刻意和 tools/card-inspector.html 保持一致：
+ * 既看字段名（apiKey/secret/token/authorization/bearer/password/anonKey…），
+ * 也看字段值（sk-…、Bearer …、JWT、32+ 位长哈希），未知/新增字段也能覆盖。
+ */
+
+export interface SecretHit {
+  /** 命中字段的点路径，如 emotionConfig.api.apiKey */
+  path: string;
+  /** 打码后的值，仅露头尾几位，绝不回显完整密钥 */
+  masked: string;
+  /** 命中原因 */
+  reason: string;
+}
+
+export type ExportSafetyLevel = 'safe' | 'contains-secret' | 'unexpected-secret';
+
+export interface ExportSafety {
+  level: ExportSafetyLevel;
+  message: string;
+  hits: SecretHit[];
+}
+
+const SECRET_KEY_NAME = /(api[_-]?key|secret|token|authorization|auth|bearer|password|passwd|pwd|access[_-]?key|private[_-]?key|anon[_-]?key|credential|apikey)/i;
+
+const SECRET_VALUE_PATTERNS: { re: RegExp; label: string }[] = [
+  { re: /\bsk-[A-Za-z0-9_\-]{12,}/, label: 'OpenAI 风格密钥 sk-…' },
+  { re: /\bBearer\s+[A-Za-z0-9._\-]{12,}/i, label: 'Bearer 令牌' },
+  { re: /\beyJ[A-Za-z0-9_\-]{10,}\.[A-Za-z0-9_\-]{10,}\.[A-Za-z0-9_\-]{6,}/, label: 'JWT' },
+  { re: /\b[A-Za-z0-9]{32,}\b/, label: '疑似长密钥 / 哈希（32+ 位）' },
+];
+
+/** 这些字段名即便值很长也别误报（正文 / 描述 / 图片 dataURL 等） */
+const VALUE_WHITELIST_KEYS = /^(id|voiceId|fishReferenceId|systemPrompt|description|worldview|content|summary|memoryText|impression|avatar|src|prompt|notes|bio|title|label|text|css|chromeCustomCss|lyrics)$/i;
+
+function mask(v: unknown): string {
+  const s = typeof v === 'string' ? v : String(v);
+  if (s.length <= 8) return '•'.repeat(s.length);
+  return `${s.slice(0, 4)}••••••${s.slice(-3)} (${s.length}字)`;
+}
+
+function looksLikeSecretValue(v: string): string | null {
+  if (v.length < 12) return null;
+  if (v.startsWith('data:')) return null;
+  if (/^https?:\/\//.test(v) && !/[?&](key|token|secret)=/i.test(v)) return null;
+  for (const p of SECRET_VALUE_PATTERNS) if (p.re.test(v)) return p.label;
+  return null;
+}
+
+/** 深度递归扫描任意对象 / 数组，返回所有疑似明文密钥命中项。 */
+export function scanPlaintextSecrets(obj: unknown, path = '', hits: SecretHit[] = [], seen = new WeakSet<object>()): SecretHit[] {
+  if (obj === null || typeof obj !== 'object') return hits;
+  if (seen.has(obj as object)) return hits; // 防循环引用
+  seen.add(obj as object);
+  for (const [k, v] of Object.entries(obj as Record<string, unknown>)) {
+    const p = path ? `${path}.${k}` : k;
+    const isSecretName = SECRET_KEY_NAME.test(k);
+    if (isSecretName && v != null && v !== '' && typeof v !== 'object') {
+      hits.push({ path: p, masked: mask(v), reason: `字段名疑似凭据（${k}）` });
+    } else if (typeof v === 'string' && !VALUE_WHITELIST_KEYS.test(k)) {
+      const lbl = looksLikeSecretValue(v);
+      if (lbl) hits.push({ path: p, masked: mask(v), reason: `字段值疑似${lbl}` });
+    }
+    if (v && typeof v === 'object') scanPlaintextSecrets(v, p, hits, seen);
+  }
+  return hits;
+}
+
+/**
+ * 评估一次导出的安全性。
+ * @param data 待导出的对象（若你手上是 JSON 字符串，先 JSON.parse 再传进来）
+ * @param opts.expectSecrets 该导出路径是否「本就允许含密钥」。仅设置-数据备份这类整包备份传 true。
+ */
+export function assessExport(data: unknown, opts: { expectSecrets?: boolean } = {}): ExportSafety {
+  const hits = scanPlaintextSecrets(data);
+  if (hits.length === 0) {
+    return { level: 'safe', message: '该导出内容安全，可以用于分享', hits };
+  }
+  if (opts.expectSecrets) {
+    return { level: 'contains-secret', message: '该导出数据包含了明文密钥，请不要发送给任何人', hits };
+  }
+  const paths = hits.map(h => `· ${h.path}`).join('\n');
+  return {
+    level: 'unexpected-secret',
+    message: `该导出数据包含了明文密钥（不应出现）。请截图并发送给作者。\n\n检出位置：\n${paths}`,
+    hits,
+  };
+}
+
+/**
+ * 导出前的二次确认闸门。放在每个导出函数最前面：
+ *   if (!(await confirmExportSafety(payload))) return;
+ *
+ * 返回 true = 用户确认继续；false = 用户取消，调用方应直接 return 中止导出。
+ * 默认用 window.confirm（浏览器 / Capacitor webview 均可用、阻塞、零依赖）。
+ * 想接入自定义弹窗时，传 opts.confirmImpl 覆盖。
+ */
+export async function confirmExportSafety(
+  data: unknown,
+  opts: {
+    expectSecrets?: boolean;
+    /** 自定义确认实现：收到提示文案，返回用户是否继续。 */
+    confirmImpl?: (assessment: ExportSafety) => boolean | Promise<boolean>;
+  } = {},
+): Promise<boolean> {
+  const assessment = assessExport(data, { expectSecrets: opts.expectSecrets });
+
+  if (opts.confirmImpl) return opts.confirmImpl(assessment);
+
+  const c = (typeof window !== 'undefined' && typeof window.confirm === 'function')
+    ? window.confirm.bind(window)
+    : null;
+  if (!c) return true; // 无 confirm 环境（如单测）默认放行，交由调用方另行处理
+
+  // 三态都弹二次确认：安全给出「可分享」的安心提示，检出密钥给出对应警告。
+  return c(`${assessment.message}\n\n点「确定」继续导出，「取消」中止。`);
+}

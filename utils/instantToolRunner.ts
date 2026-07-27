@@ -1,1 +1,277 @@
-LyoqCiAqIGluc3RhbnRUb29sUnVubmVyIOKAlCBQaGFzZSAyIFJvdW5kIDIg5a6i5oi356uvIHRvb2wgcnVubmVyCiAqCiAqIOa2iOi0uSBTVyDlhpnliLAgYHBlbmRpbmdfdG9vbF9jYWxsc2Agc3RvcmUg55qEIFRvb2xSZXF1ZXN0UHVzaCwg55SoIGFnZW50aWNUb29scyDot5HmnKzlnLDlt6XlhbcsCiAqIOaKiiBPcGVuQUktc2hhcGUgdG9vbCByZXN1bHQg5ou85aW9IFBPU1QgL2NvbnRpbnVlIOiuqSB3b3JrZXIg57ut6LeR5LiL5LiA6L2uIExMTS4gZmluYWwgcHVzaAogKiDnlLEgU1cg5YOP6aaW6L2u5LiA5qC35YaZIGluYm94LCBBY3RpdmVNc2dSdW50aW1lLmZsdXNoSW5ib3hUb0NoYXQg6LeRIGFwcGx5QXNzaXN0YW50UG9zdFByb2Nlc3NpbmcuCiAqCiAqIOinpuWPkeaXtuacujoKICogICAtIEFjdGl2ZU1zZ1J1bnRpbWUuaW5pdCDlkK/liqjml7bmjpLnqbrkuIDmrKEgKOWFnOW6leWGt+WQr+WKqCAvIHN3aXBlLWtpbGwg6YeN5ZCvKQogKiAgIC0gU1cg5pS25YiwIHRvb2xfcmVxdWVzdCBwdXNoICsg5b2T5YmNIHdpbmRvdyB2aXNpYmxlIOaXtiBwb3N0TWVzc2FnZSgnaW5zdGFudC10b29sLXJlcXVlc3QnKSwKICogICAgIEFjdGl2ZU1zZ1J1bnRpbWUg5pS25Yiw5ZCO56uL5Yi76LCD55SoIHJ1blBlbmRpbmdUb29sQ2FsbHMoKQogKgogKiDlpLHotKXor63kuYk6CiAqICAgLSBkaXNwYXRjaCDmipvplJkgKERCIC8g572R57ucKSDihpIg6L+Z5p2hIHBlbmRpbmcg5bey6KKrIGF0b21pYyBjbGFpbSDotbAsIOmHjeivlemcgOimgeeUqOaIt+mHjeaWsOinpuWPkeaOqOmAgQogKiAgIC0gUE9TVCAvY29udGludWUg5aSx6LSlIOKGkiDlkIzkuIo7IOeVmSBjb25zb2xlLmVycm9yLCDlkI7nu60gcGhhc2Ug5YqgIGRlYWQtbGV0dGVyCiAqICAgLSDotbAi5YWIIGFjayDlkI7lpITnkIYi5piv5Li65LqG5LiN6K6p6YeN5oqVIHB1c2gg5oqKIHRvb2xDYWxscyDot5HkuKTpgY0gKExMTSDotLnnlKggKyBVSSDph43lpI0pCiAqLwoKaW1wb3J0IHsgQWN0aXZlTXNnU3RvcmUgfSBmcm9tICcuL2FjdGl2ZU1zZ1N0b3JlJzsKaW1wb3J0IHsgREIgfSBmcm9tICcuL2RiJzsKaW1wb3J0IHsgZGlzcGF0Y2hBZ2VudGljVG9vbCwgdHlwZSBBZ2VudGljVG9vbEN0eCB9IGZyb20gJy4vYWdlbnRpY1Rvb2xzJzsKaW1wb3J0IHsKICBsb2FkSW5zdGFudENvbmZpZywKICBpc0luc3RhbnRDb25maWdSZWFkeSwKICBnZXRPckNyZWF0ZUluc3RhbnRTdWJzY3JpcHRpb24sCiAgZ2V0SW5zdGFudE92ZXJzaXplVHJhbnNwb3J0LAogIHBvc3RTc2VQYXlsb2FkVG9TZXJ2aWNlV29ya2VyLAp9IGZyb20gJy4vaW5zdGFudFB1c2hDbGllbnQnOwppbXBvcnQgeyBwdXNoWGhzQ2FjaGVzLCBwdXNoTGFzdFhoc05vdGVzUmVmIH0gZnJvbSAnLi9hY3RpdmVNc2dSdW50aW1lJzsKaW1wb3J0IHsgUmVpQ2xpZW50IH0gZnJvbSAnQHJlaS1zdGFuZGFyZC9hbXNnLWNsaWVudCc7CmltcG9ydCB0eXBlIHsgQVBJQ29uZmlnLCBSZWFsdGltZUNvbmZpZywgVXNlclByb2ZpbGUsIEluc3RhbnRQdXNoUGVuZGluZ1Rvb2xDYWxsIH0gZnJvbSAnLi4vdHlwZXMnOwoKdHlwZSBJbnN0YW50VG9vbFN0YXR1c1BoYXNlID0gJ3J1bm5pbmcnIHwgJ2NvbnRpbnVpbmcnIHwgJ2RvbmUnIHwgJ2ZhaWxlZCc7CgpmdW5jdGlvbiBnZXRUb29sU3RhdHVzTGFiZWwodG9vbENhbGxzOiBJbnN0YW50UHVzaFBlbmRpbmdUb29sQ2FsbFsndG9vbENhbGxzJ10pOiBzdHJpbmcgewogIGNvbnN0IG5hbWVzID0gdG9vbENhbGxzLm1hcCgoY2FsbCkgPT4gY2FsbC5mdW5jdGlvbi5uYW1lKTsKICBpZiAobmFtZXMuc29tZSgobmFtZSkgPT4gbmFtZS5zdGFydHNXaXRoKCd4aHNfJykpKSByZXR1cm4gJ+ivu+WPluWwj+e6ouS5pic7CiAgaWYgKG5hbWVzLnNvbWUoKG5hbWUpID0+IG5hbWUgPT09ICdub3Rpb25fcmVhZF9kaWFyeScgfHwgbmFtZSA9PT0gJ3JlYWRfbm90ZScpKSByZXR1cm4gJ+ivu+WPliBOb3Rpb24nOwogIGlmIChuYW1lcy5zb21lKChuYW1lKSA9PiBuYW1lID09PSAnZmVpc2h1X3JlYWRfZGlhcnknKSkgcmV0dXJuICfor7vlj5bpo57kuaYnOwogIGlmIChuYW1lcy5zb21lKChuYW1lKSA9PiBuYW1lID09PSAnd2ViX3NlYXJjaCcpKSByZXR1cm4gJ+aQnOe0oue9kemhtSc7CiAgaWYgKG5hbWVzLnNvbWUoKG5hbWUpID0+IG5hbWUgPT09ICdyZWNhbGwnKSkgcmV0dXJuICfor7vlj5borrDlv4YnOwogIHJldHVybiAn6LCD55So5bel5YW3JzsKfQoKZnVuY3Rpb24gZW1pdFRvb2xTdGF0dXMoCiAgY2hhcklkOiBzdHJpbmcsCiAgcGhhc2U6IEluc3RhbnRUb29sU3RhdHVzUGhhc2UsCiAgdGV4dDogc3RyaW5nLAogIHNlc3Npb25JZD86IHN0cmluZywKKTogdm9pZCB7CiAgY29uc3QgZGV0YWlsID0geyBjaGFySWQsIHBoYXNlLCB0ZXh0LCBzZXNzaW9uSWQsIHVwZGF0ZWRBdDogRGF0ZS5ub3coKSB9OwogIHRyeSB7CiAgICBsb2NhbFN0b3JhZ2Uuc2V0SXRlbShgaW5zdGFudF90b29sX3N0YXR1c18ke2NoYXJJZH1gLCBKU09OLnN0cmluZ2lmeShkZXRhaWwpKTsKICB9IGNhdGNoIHsgLyogaWdub3JlICovIH0KICB0cnkgewogICAgd2luZG93LmRpc3BhdGNoRXZlbnQobmV3IEN1c3RvbUV2ZW50KCdpbnN0YW50LXRvb2wtc3RhdHVzJywgewogICAgICBkZXRhaWwsCiAgICB9KSk7CiAgfSBjYXRjaCB7IC8qIGlnbm9yZSAqLyB9Cn0KCi8qKiDot5HkuIDova4gVG9vbFJlcXVlc3Qg4oaSIFBPU1QgL2NvbnRpbnVlLiDlpLHotKXml7bov5Tlm54gZmFsc2UgKOS4iuWxguWGs+WumuimgeS4jeimgSB0b2FzdCkuICovCmFzeW5jIGZ1bmN0aW9uIHJ1bk9uZVBlbmRpbmdUb29sQ2FsbChpdGVtOiBJbnN0YW50UHVzaFBlbmRpbmdUb29sQ2FsbCk6IFByb21pc2U8Ym9vbGVhbj4gewogIGNvbnN0IHRvb2xMYWJlbCA9IGdldFRvb2xTdGF0dXNMYWJlbChpdGVtLnRvb2xDYWxscyk7CiAgZW1pdFRvb2xTdGF0dXMoCiAgICBpdGVtLmNoYXJJZCwKICAgICdydW5uaW5nJywKICAgIGDmraPlnKgke3Rvb2xMYWJlbH3vvIzor7flhYjlgZznlZnlnKjmraTpobXvvIzlrozmiJDlkI7kvJroh6rliqjnu6fnu63lm57lpI3jgIJgLAogICAgaXRlbS5zZXNzaW9uSWQsCiAgKTsKCiAgY29uc3Qgc2Vzc2lvbiA9IGF3YWl0IEFjdGl2ZU1zZ1N0b3JlLmdldE91dGJvdW5kU2Vzc2lvbihpdGVtLnNlc3Npb25JZCk7CiAgaWYgKCFzZXNzaW9uKSB7CiAgICBjb25zb2xlLndhcm4oJ1tpbnN0YW50LXRvb2wtcnVubmVyXSBvdXRib3VuZCBzZXNzaW9uIG5vdCBmb3VuZCwgc2tpcHBpbmcnLCBpdGVtLnNlc3Npb25JZCk7CiAgICBlbWl0VG9vbFN0YXR1cyhpdGVtLmNoYXJJZCwgJ2ZhaWxlZCcsIGAke3Rvb2xMYWJlbH3kuK3mlq3kuobvvIzor7fph43mlrDop6blj5Hov5nmrKHlm57lpI3jgIJgLCBpdGVtLnNlc3Npb25JZCk7CiAgICByZXR1cm4gZmFsc2U7CiAgfQoKICBjb25zdCBjaGFyYWN0ZXJzID0gYXdhaXQgREIuZ2V0QWxsQ2hhcmFjdGVycygpOwogIGNvbnN0IGNoYXIgPSBjaGFyYWN0ZXJzLmZpbmQoKGMpID0+IGMuaWQgPT09IGl0ZW0uY2hhcklkKTsKICBpZiAoIWNoYXIpIHsKICAgIGNvbnNvbGUud2FybignW2luc3RhbnQtdG9vbC1ydW5uZXJdIGNoYXJhY3RlciBub3QgZm91bmQnLCBpdGVtLmNoYXJJZCk7CiAgICBlbWl0VG9vbFN0YXR1cyhpdGVtLmNoYXJJZCwgJ2ZhaWxlZCcsIGAke3Rvb2xMYWJlbH3kuK3mlq3kuobvvIzor7fph43mlrDop6blj5Hov5nmrKHlm57lpI3jgIJgLCBpdGVtLnNlc3Npb25JZCk7CiAgICByZXR1cm4gZmFsc2U7CiAgfQoKICBjb25zdCB1c2VyUHJvZmlsZTogVXNlclByb2ZpbGUgPQogICAgKGF3YWl0IERCLmdldFVzZXJQcm9maWxlKCkpID8/IHsgbmFtZTogJ1VzZXInLCBhdmF0YXI6ICcnLCBiaW86ICcnIH07CiAgY29uc3QgcmVhbHRpbWVDb25maWcgPSBsb2FkUmVhbHRpbWVDb25maWdGcm9tTG9jYWxTdG9yYWdlKCk7CgogIC8vIHRvb2wgcnVubmVyIOeUqOeahCBjdHgg6LefIGFwcGx5QXNzaXN0YW50UG9zdFByb2Nlc3Npbmcg5pys5ZywIGZldGNoIOi3r+W+hOeUqOeahOaYr+WQjOS4gOS4quW9oueKti4KICAvLwogIC8vIHhoc0NhY2hlcyAvIGxhc3RYaHNOb3Rlc1JlZiDnm7TmjqXlpI3nlKggYWN0aXZlTXNnUnVudGltZSDnmoTmqKHlnZfnuqfljZXkvosg4oCUIOS4jeWGjeavj+asoeaWsOW7uuepuiBNYXAuCiAgLy8g6L+Z5qC3IHJvdW5kIDEg5Zyo6L+Z6YeMIHJ1blhoc0Jyb3dzZSDloavlhYXnmoQgbm90ZXMgKyB4c2VjVG9rZW4g6IO96KKrIHJvdW5kIDIgKHdvcmtlciDlj5Hlm54gcHVzaAogIC8vIOWQjiBhcHBseUFzc2lzdGFudFBvc3RQcm9jZXNzaW5nIOWkhOeQhiBbW1hIU19TSEFSRTog5bqP5Y+3XV0gLyBbW1hIU19DT01NRU5UOiAuLi5dXSkg6K+75YiwLgogIC8vCiAgLy8g55Sf5ZG95ZGo5pyfID0g5Li76L+b56iL5omT5byA5pyf6Ze0LiDliLfpobXpnaIgLyDlhbPmtY/op4jlmajmuIXnqbosIOi3n+acrOWcsCBmZXRjaCDot6/lvoQgdXNlQ2hhdEFJIHVzZVJlZiDnrYnku7cuCiAgY29uc3QgY3R4OiBBZ2VudGljVG9vbEN0eCA9IHsKICAgIGNoYXIsCiAgICB1c2VyUHJvZmlsZSwKICAgIHJlYWx0aW1lQ29uZmlnLAogICAgeGhzQ2FjaGVzOiBwdXNoWGhzQ2FjaGVzLAogICAgbGFzdFhoc05vdGVzUmVmOiBwdXNoTGFzdFhoc05vdGVzUmVmLAogICAgb25Qcm9ncmVzczogKF9jaGFubmVsLCB0ZXh0KSA9PiB7CiAgICAgIGNvbnNvbGUubG9nKCdbaW5zdGFudC10b29sLXJ1bm5lcjpwcm9ncmVzc10nLCB0ZXh0KTsKICAgICAgZW1pdFRvb2xTdGF0dXMoaXRlbS5jaGFySWQsICdydW5uaW5nJywgYCR7dGV4dH3vvIzor7flhYjlgZznlZnlnKjmraTpobXjgIJgLCBpdGVtLnNlc3Npb25JZCk7CiAgICB9LAogIH07CgogIC8vIDEuIOi3keaJgOaciSB0b29sLCDkuLLooYwg4oCUIGFnZW50aWNUb29scyDlhoXpg6jlpJrmraUgKFhIUyByZXRyeSAvIERJQVJZIGZhbGxiYWNrKSDkuI3og73lubblj5EuCiAgY29uc3QgdG9vbFJlc3VsdHM6IEFycmF5PHsgdG9vbF9jYWxsX2lkOiBzdHJpbmc7IHJvbGU6ICd0b29sJzsgY29udGVudDogc3RyaW5nIH0+ID0gW107CiAgZm9yIChjb25zdCBjYWxsIG9mIGl0ZW0udG9vbENhbGxzKSB7CiAgICBsZXQgcmVzdWx0OiB1bmtub3duOwogICAgdHJ5IHsKICAgICAgY29uc3QgYXJncyA9IEpTT04ucGFyc2UoY2FsbC5mdW5jdGlvbi5hcmd1bWVudHMgfHwgJ3t9Jyk7CiAgICAgIHJlc3VsdCA9IGF3YWl0IGRpc3BhdGNoQWdlbnRpY1Rvb2woY2FsbC5mdW5jdGlvbi5uYW1lLCBhcmdzLCBjdHgpOwogICAgfSBjYXRjaCAoZSkgewogICAgICBjb25zb2xlLmVycm9yKCdbaW5zdGFudC10b29sLXJ1bm5lcl0gdG9vbCBmYWlsZWQnLCBjYWxsLmZ1bmN0aW9uLm5hbWUsIGUpOwogICAgICByZXN1bHQgPSB7IG9rOiBmYWxzZSwgcmVhc29uOiAndG9vbF90aHJldycsIG1lc3NhZ2U6IChlIGFzIEVycm9yKT8ubWVzc2FnZSA/PyBTdHJpbmcoZSkgfTsKICAgIH0KICAgIHRvb2xSZXN1bHRzLnB1c2goewogICAgICB0b29sX2NhbGxfaWQ6IGNhbGwuaWQsCiAgICAgIHJvbGU6ICd0b29sJywKICAgICAgLy8gT3BlbkFJIOWFvOWuueerr+eCueimgeaxgiB0b29sIHJlc3VsdCBjb250ZW50IOaYr+Wtl+espuS4sjsgYWdlbnRpY1Rvb2xzIOi/lOe7k+aehOWMliByZXN1bHQsIEpTT04g5YyWLgogICAgICBjb250ZW50OiBKU09OLnN0cmluZ2lmeShyZXN1bHQpLAogICAgfSk7CiAgfQoKICAvLyDmiorov5nkuIDova4gWEhTIOW3peWFt+aKk+WIsOeahOeslOiusCArIHhzZWNUb2tlbiDokL3lupMgKOaMiSBzZXNzaW9uSWQpLiByb3VuZCAyIHdvcmtlciDlj5Hlm54KICAvLyBbW1hIU19TSEFSRTog5bqP5Y+3XV0gLyDor4TorrogLyDngrnotZ4g5pe2LCBhcHBseUFzc2lzdGFudFBvc3RQcm9jZXNzaW5nIOimgemdoOi/meS7veeslOiusOWPluWNoeeJhzsKICAvLyDlhoXlrZjljZXkvosgcHVzaExhc3RYaHNOb3Rlc1JlZiDot6ggU1cg5ZSk6YaSIC8g6aG16Z2i5Zue5pS25Lya5riF56m6LCDkuI3mjIHkuYXljJblsLHkvJrpnZnpu5jmjonljaHniYcuCiAgaWYgKHB1c2hMYXN0WGhzTm90ZXNSZWYuY3VycmVudC5sZW5ndGggPiAwKSB7CiAgICB0cnkgewogICAgICBhd2FpdCBBY3RpdmVNc2dTdG9yZS5zYXZlWGhzU2Vzc2lvbk5vdGVzKGl0ZW0uc2Vzc2lvbklkLCB7CiAgICAgICAgbm90ZXM6IHB1c2hMYXN0WGhzTm90ZXNSZWYuY3VycmVudCwKICAgICAgICB4c2VjVG9rZW5zOiBBcnJheS5mcm9tKHB1c2hYaHNDYWNoZXMueHNlY1Rva2VuQ2FjaGUuZW50cmllcygpKSwKICAgICAgfSk7CiAgICB9IGNhdGNoIChlKSB7CiAgICAgIGNvbnNvbGUud2FybignW2luc3RhbnQtdG9vbC1ydW5uZXJdIHBlcnNpc3QgeGhzIG5vdGVzIGZhaWxlZCcsIGl0ZW0uc2Vzc2lvbklkLCBlKTsKICAgIH0KICB9CgogIC8vIDIuIOaLvOS4i+S4gOi9riBMTE0g55yL5Yiw55qEIG1lc3NhZ2VzOiBvdXRib3VuZCBoaXN0b3J5ICsgYXNzaXN0YW50IHRvb2xfY2FsbCBtZXNzYWdlICsgdG9vbCByZXN1bHRzLgogIC8vICAgIOi/meaYryBPcGVuQUkgdG9vbC1jYWxsIOWNj+iurueahOagh+WHhuW9oueKtjsgd29ya2VyIOaLv+WIsOWQjuS8muebtOaOpei9rOWPkee7mSBMTE0uCiAgY29uc3QgYXNzaXN0YW50TXNnID0gewogICAgcm9sZTogJ2Fzc2lzdGFudCcgYXMgY29uc3QsCiAgICBjb250ZW50OiBpdGVtLmxsbU91dHB1dFRleHQgfHwgJycsCiAgICB0b29sX2NhbGxzOiBpdGVtLnRvb2xDYWxscywKICB9OwogIGNvbnN0IG5leHRNZXNzYWdlcyA9IFsuLi5zZXNzaW9uLm1lc3NhZ2VzLCBhc3Npc3RhbnRNc2csIC4uLnRvb2xSZXN1bHRzXTsKCiAgLy8gMy4g5om+5YiwIHB1c2ggc3Vic2NyaXB0aW9uICsgd29ya2VyIOWHreaNri4KICBjb25zdCBjZmcgPSBsb2FkSW5zdGFudENvbmZpZygpOwogIGlmICghaXNJbnN0YW50Q29uZmlnUmVhZHkoY2ZnKSkgewogICAgY29uc29sZS53YXJuKCdbaW5zdGFudC10b29sLXJ1bm5lcl0gaW5zdGFudCBjb25maWcgbm90IHJlYWR5LCBjYW5ub3QgY29udGludWUnKTsKICAgIGVtaXRUb29sU3RhdHVzKGl0ZW0uY2hhcklkLCAnZmFpbGVkJywgYCR7dG9vbExhYmVsfeWujOaIkOS6hu+8jOS9hiBJbnN0YW50IFB1c2gg6YWN572u5LiN5Y+v55So77yM5rKh5rOV57un57ut5Zue5aSN44CCYCwgaXRlbS5zZXNzaW9uSWQpOwogICAgcmV0dXJuIGZhbHNlOwogIH0KICBjb25zdCB7IHN1YiB9ID0gYXdhaXQgZ2V0T3JDcmVhdGVJbnN0YW50U3Vic2NyaXB0aW9uKCk7CiAgaWYgKCFzdWIpIHsKICAgIGNvbnNvbGUud2FybignW2luc3RhbnQtdG9vbC1ydW5uZXJdIG5vIHB1c2ggc3Vic2NyaXB0aW9uLCBjYW5ub3QgY29udGludWUnKTsKICAgIGVtaXRUb29sU3RhdHVzKGl0ZW0uY2hhcklkLCAnZmFpbGVkJywgYCR7dG9vbExhYmVsfeWujOaIkOS6hu+8jOS9huaOqOmAgeiuoumYheS4jeWPr+eUqO+8jOayoeazlee7p+e7reWbnuWkjeOAgmAsIGl0ZW0uc2Vzc2lvbklkKTsKICAgIHJldHVybiBmYWxzZTsKICB9CgogIC8vIDQuIFBPU1QgL2NvbnRpbnVlLiBwYXlsb2FkIOW9oueKtiA9IC9pbnN0YW50ICsgc2Vzc2lvbklkICsgaXRlcmF0aW9uLiBhcGlDcmVkZW50aWFscyDku44KICAvLyAgICBvdXRib3VuZF9zZXNzaW9uIOWPliAoc2VuZEluc3RhbnRQdXNoIOaXtuiusOS4i+eahCwg6LeoIHJvdW5kIOeUqOWQjOS4gOe7hCkuCiAgY29uc3QgYXBpQ29uZmlnID0gbG9hZEFwaUNvbmZpZ0Zyb21Mb2NhbFN0b3JhZ2UoKTsKCiAgLy8gaXRlcmF0aW9uOiBTVyDlnKggc2F2ZVBlbmRpbmdUb29sQ2FsbCDml7bmjIHkuYXljJbkuobkuIrkuIDova4gd29ya2VyIGhvb2sg55yL5Yiw55qEIGl0ZXJhdGlvbgogIC8vICjku44gcHVzaC5tZXRhZGF0YS5pdGVyYXRpb24g6YCP5LygKS4gL2NvbnRpbnVlIOW/hemhu+S4peagvOmAkuWiniwgd29ya2VyIOerryBmYWlsLWZhc3QgNDAwIOWuiC4KICBjb25zdCBuZXh0SXRlcmF0aW9uID0gKGl0ZW0uaXRlcmF0aW9uID8/IDApICsgMTsKCiAgLy8gYW1zZy1pbnN0YW50IDAuNi4wKyDlvLrmoKHpqowgYXZhdGFyVXJsOiDku4XmjqXlj5cgaHR0cChzKSwgZGF0YTogVVJJIOebtOaOpSBJTlZBTElEX1BBWUxPQURfRk9STUFULgogIC8vIFN1bGx5T1Mg6KeS6Imy5aS05YOP5Z+65pys5pivIGJhc2U2NCDlrZjnmoQsIOebtOS8oOS8muiiq+WMheS+p+aLki4g5rKh5pyJ5YWs572RIFVSTCDlsLHlubLohIbkuI3kvKAg4oCUIOmAmuefpeerrwogIC8vIOeUqCB3b3JrZXIg6Ieq5bex55qE6buY6K6k5Zu+5qCHLiDlkIwgdXNlQ2hhdEFJLnRzOjY5MyDnmoTlpITnkIYuCiAgY29uc3Qgc2FmZUF2YXRhclVybCA9IC9eaHR0cHM/OlwvXC8vaS50ZXN0KGNoYXIuYXZhdGFyIHx8ICcnKSA/IGNoYXIuYXZhdGFyIDogdW5kZWZpbmVkOwoKICBjb25zdCBjb250aW51ZVBheWxvYWQgPSB7CiAgICBzZXNzaW9uSWQ6IGl0ZW0uc2Vzc2lvbklkLAogICAgaXRlcmF0aW9uOiBuZXh0SXRlcmF0aW9uLAogICAgbWVzc2FnZXM6IG5leHRNZXNzYWdlcywKICAgIHB1c2hTdWJzY3JpcHRpb246IHN1YiwKICAgIGFwaVVybDogc2Vzc2lvbi5hcGlDcmVkZW50aWFscy5iYXNlVXJsIHx8IGFwaUNvbmZpZy5iYXNlVXJsLAogICAgYXBpS2V5OiBzZXNzaW9uLmFwaUNyZWRlbnRpYWxzLmFwaUtleSB8fCBhcGlDb25maWcuYXBpS2V5LAogICAgcHJpbWFyeU1vZGVsOiBzZXNzaW9uLmFwaUNyZWRlbnRpYWxzLm1vZGVsIHx8IGFwaUNvbmZpZy5tb2RlbCwKICAgIGNvbnRhY3ROYW1lOiBjaGFyLm5hbWUsCiAgICBhdmF0YXJVcmw6IHNhZmVBdmF0YXJVcmwsCiAgICBjaGFySWQ6IGl0ZW0uY2hhcklkLAogICAgbWV0YWRhdGE6IHsgY2hhcklkOiBpdGVtLmNoYXJJZCwgY2hhck5hbWU6IGNoYXIubmFtZSB9LAogICAgdGVtcGVyYXR1cmU6IDAuOCwKICAgIG92ZXJzaXplVHJhbnNwb3J0OiBnZXRJbnN0YW50T3ZlcnNpemVUcmFuc3BvcnQoY2ZnKSwKICB9OwoKICB0cnkgewogICAgZW1pdFRvb2xTdGF0dXMoaXRlbS5jaGFySWQsICdjb250aW51aW5nJywgYCR7dG9vbExhYmVsfeWujOaIkOS6hu+8jOato+WcqOiuqeinkuiJsue7p+e7reWbnuWkjeOAgmAsIGl0ZW0uc2Vzc2lvbklkKTsKICAgIGNvbnN0IHJlaUNsaWVudCA9IG5ldyBSZWlDbGllbnQoewogICAgICBiYXNlVXJsOiBjZmcud29ya2VyVXJsLAogICAgICBpbnN0YW50RW5jcnlwdGlvbjogZmFsc2UsCiAgICAgIGluc3RhbnRDbGllbnRUb2tlbjogY2ZnLmNsaWVudFRva2VuIHx8ICcnLAogICAgfSk7CiAgICBjb25zdCBhYm9ydENvbnRyb2xsZXIgPSBuZXcgQWJvcnRDb250cm9sbGVyKCk7CiAgICBjb25zdCBhYm9ydE9uUGFnZUhpZGUgPSAoZXZlbnQ6IFBhZ2VUcmFuc2l0aW9uRXZlbnQpID0+IHsKICAgICAgaWYgKGV2ZW50LnBlcnNpc3RlZCkgcmV0dXJuOwogICAgICBhYm9ydENvbnRyb2xsZXIuYWJvcnQoKTsKICAgIH07CiAgICB3aW5kb3cuYWRkRXZlbnRMaXN0ZW5lcigncGFnZWhpZGUnLCBhYm9ydE9uUGFnZUhpZGUsIHsgb25jZTogdHJ1ZSB9KTsKCiAgICB0cnkgewogICAgICBhd2FpdCByZWlDbGllbnQuY29uc3VtZUluc3RhbnRTdHJlYW0oY29udGludWVQYXlsb2FkLCAnL2NvbnRpbnVlJywgewogICAgICAgIHNpZ25hbDogYWJvcnRDb250cm9sbGVyLnNpZ25hbCwKICAgICAgICBvblBheWxvYWQ6IGFzeW5jIChwOiBhbnkpID0+IHsKICAgICAgICAgIGF3YWl0IHBvc3RTc2VQYXlsb2FkVG9TZXJ2aWNlV29ya2VyKHAsIGl0ZW0uc2Vzc2lvbklkKTsKICAgICAgICB9LAogICAgICAgIG9uRG9uZTogKCkgPT4gewogICAgICAgICAgZW1pdFRvb2xTdGF0dXMoaXRlbS5jaGFySWQsICdkb25lJywgYCR7dG9vbExhYmVsfeWujOaIkOS6hu+8jOinkuiJsuWbnuWkjeW3sumAgei+vuOAgmAsIGl0ZW0uc2Vzc2lvbklkKTsKICAgICAgICB9LAogICAgICAgIG9uRXJyb3I6IChlcnI6IGFueSkgPT4gewogICAgICAgICAgY29uc29sZS53YXJuKCdbaW5zdGFudC10b29sLXJ1bm5lcl0gL2NvbnRpbnVlIFNTRSBzdHJlYW0gZXJyb3I6JywgZXJyPy5jb2RlLCBlcnI/Lm1lc3NhZ2UpOwogICAgICAgICAgLy8gRXJyb3IgcGF5bG9hZCBoYXMgYWxyZWFkeSBiZWVuIGluZ2VzdGVkIHZpYSBvblBheWxvYWQgYmVmb3JlIG9uRXJyb3IgZmlyZXMuCiAgICAgICAgICBlbWl0VG9vbFN0YXR1cyhpdGVtLmNoYXJJZCwgJ2ZhaWxlZCcsIGAke3Rvb2xMYWJlbH3lrozmiJDkuobvvIzkvYbnu63lhpnlj5HnlJ/plJnor6/jgIJgLCBpdGVtLnNlc3Npb25JZCk7CiAgICAgICAgfSwKICAgICAgfSk7CiAgICB9IGZpbmFsbHkgewogICAgICB0cnkgeyB3aW5kb3cucmVtb3ZlRXZlbnRMaXN0ZW5lcigncGFnZWhpZGUnLCBhYm9ydE9uUGFnZUhpZGUpOyB9IGNhdGNoIHsgLyogaWdub3JlICovIH0KICAgIH0KCiAgICByZXR1cm4gdHJ1ZTsKICB9IGNhdGNoIChlKSB7CiAgICBjb25zb2xlLmVycm9yKCdbaW5zdGFudC10b29sLXJ1bm5lcl0gL2NvbnRpbnVlIGNvbnN1bWVJbnN0YW50U3RyZWFtIHRocmV3JywgZSk7CiAgICBlbWl0VG9vbFN0YXR1cyhpdGVtLmNoYXJJZCwgJ2ZhaWxlZCcsIGAke3Rvb2xMYWJlbH3lrozmiJDkuobvvIzkvYbnu63lhpnor7fmsYLmsqHmnInlj5Hlh7rljrvjgIJgLCBpdGVtLnNlc3Npb25JZCk7CiAgICByZXR1cm4gZmFsc2U7CiAgfQp9CgovKiog5o6S56m6IHBlbmRpbmdfdG9vbF9jYWxscyBzdG9yZTsg6LCD55So5YmN5ZCO6YO95piv5Y6f5a2QLCDlpLHotKXnmoTkuI3ph43mipUgKOingSBtb2R1bGUg6aG2IGRvYykuICovCmV4cG9ydCBhc3luYyBmdW5jdGlvbiBydW5QZW5kaW5nVG9vbENhbGxzKCk6IFByb21pc2U8eyBwcm9jZXNzZWQ6IG51bWJlcjsgb2s6IG51bWJlciB9PiB7CiAgY29uc3QgcGVuZGluZyA9IGF3YWl0IEFjdGl2ZU1zZ1N0b3JlLmNvbnN1bWVQZW5kaW5nVG9vbENhbGxzKCk7CiAgbGV0IG9rID0gMDsKICBmb3IgKGNvbnN0IGl0ZW0gb2YgcGVuZGluZykgewogICAgY29uc3Qgc3VjY2VzcyA9IGF3YWl0IHJ1bk9uZVBlbmRpbmdUb29sQ2FsbChpdGVtKTsKICAgIGlmIChzdWNjZXNzKSBvayArPSAxOwogIH0KICBpZiAocGVuZGluZy5sZW5ndGggPiAwKSB7CiAgICBjb25zb2xlLmxvZyhgW2luc3RhbnQtdG9vbC1ydW5uZXJdIHByb2Nlc3NlZCAke3BlbmRpbmcubGVuZ3RofSBwZW5kaW5nIHRvb2wgY2FsbChzKSwgJHtva30gb2tgKTsKICB9CiAgcmV0dXJuIHsgcHJvY2Vzc2VkOiBwZW5kaW5nLmxlbmd0aCwgb2sgfTsKfQoKLy8g4pSA4pSAIHByaXZhdGUgaGVscGVycyDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIAKCmZ1bmN0aW9uIGxvYWRBcGlDb25maWdGcm9tTG9jYWxTdG9yYWdlKCk6IEFQSUNvbmZpZyB7CiAgY29uc3QgZmFsbGJhY2s6IEFQSUNvbmZpZyA9IHsgYmFzZVVybDogJycsIGFwaUtleTogJycsIG1vZGVsOiAnJyB9OwogIHRyeSB7CiAgICBjb25zdCByYXcgPSBsb2NhbFN0b3JhZ2UuZ2V0SXRlbSgnb3NfYXBpX2NvbmZpZycpOwogICAgaWYgKCFyYXcpIHJldHVybiBmYWxsYmFjazsKICAgIGNvbnN0IHBhcnNlZCA9IEpTT04ucGFyc2UocmF3KTsKICAgIHJldHVybiB7CiAgICAgIGJhc2VVcmw6IHBhcnNlZC5iYXNlVXJsIHx8ICcnLAogICAgICBhcGlLZXk6IHBhcnNlZC5hcGlLZXkgfHwgJycsCiAgICAgIG1vZGVsOiBwYXJzZWQubW9kZWwgfHwgJycsCiAgICAgIC4uLnBhcnNlZCwKICAgIH07CiAgfSBjYXRjaCB7CiAgICByZXR1cm4gZmFsbGJhY2s7CiAgfQp9CgpmdW5jdGlvbiBsb2FkUmVhbHRpbWVDb25maWdGcm9tTG9jYWxTdG9yYWdlKCk6IFJlYWx0aW1lQ29uZmlnIHwgdW5kZWZpbmVkIHsKICB0cnkgewogICAgY29uc3QgcmF3ID0gbG9jYWxTdG9yYWdlLmdldEl0ZW0oJ29zX3JlYWx0aW1lX2NvbmZpZycpOwogICAgaWYgKCFyYXcpIHJldHVybiB1bmRlZmluZWQ7CiAgICByZXR1cm4gSlNPTi5wYXJzZShyYXcpIGFzIFJlYWx0aW1lQ29uZmlnOwogIH0gY2F0Y2ggewogICAgcmV0dXJuIHVuZGVmaW5lZDsKICB9Cn0K
+/**
+ * instantToolRunner — Phase 2 Round 2 客户端 tool runner
+ *
+ * 消费 SW 写到 `pending_tool_calls` store 的 ToolRequestPush, 用 agenticTools 跑本地工具,
+ * 把 OpenAI-shape tool result 拼好 POST /continue 让 worker 续跑下一轮 LLM. final push
+ * 由 SW 像首轮一样写 inbox, ActiveMsgRuntime.flushInboxToChat 跑 applyAssistantPostProcessing.
+ *
+ * 触发时机:
+ *   - ActiveMsgRuntime.init 启动时排空一次 (兜底冷启动 / swipe-kill 重启)
+ *   - SW 收到 tool_request push + 当前 window visible 时 postMessage('instant-tool-request'),
+ *     ActiveMsgRuntime 收到后立刻调用 runPendingToolCalls()
+ *
+ * 失败语义:
+ *   - dispatch 抛错 (DB / 网络) → 这条 pending 已被 atomic claim 走, 重试需要用户重新触发推送
+ *   - POST /continue 失败 → 同上; 留 console.error, 后续 phase 加 dead-letter
+ *   - 走"先 ack 后处理"是为了不让重投 push 把 toolCalls 跑两遍 (LLM 费用 + UI 重复)
+ */
+
+import { ActiveMsgStore } from './activeMsgStore';
+import { DB } from './db';
+import { dispatchAgenticTool, type AgenticToolCtx } from './agenticTools';
+import {
+  loadInstantConfig,
+  isInstantConfigReady,
+  getOrCreateInstantSubscription,
+  getInstantOversizeTransport,
+  postSsePayloadToServiceWorker,
+} from './instantPushClient';
+import { pushXhsCaches, pushLastXhsNotesRef } from './activeMsgRuntime';
+import { ReiClient } from '@rei-standard/amsg-client';
+import type { APIConfig, RealtimeConfig, UserProfile, InstantPushPendingToolCall } from '../types';
+
+type InstantToolStatusPhase = 'running' | 'continuing' | 'done' | 'failed';
+
+function getToolStatusLabel(toolCalls: InstantPushPendingToolCall['toolCalls']): string {
+  const names = toolCalls.map((call) => call.function.name);
+  if (names.some((name) => name.startsWith('xhs_'))) return '读取小红书';
+  if (names.some((name) => name === 'notion_read_diary' || name === 'read_note')) return '读取 Notion';
+  if (names.some((name) => name === 'feishu_read_diary')) return '读取飞书';
+  if (names.some((name) => name === 'web_search')) return '搜索网页';
+  if (names.some((name) => name === 'recall')) return '读取记忆';
+  return '调用工具';
+}
+
+function emitToolStatus(
+  charId: string,
+  phase: InstantToolStatusPhase,
+  text: string,
+  sessionId?: string,
+): void {
+  const detail = { charId, phase, text, sessionId, updatedAt: Date.now() };
+  try {
+    localStorage.setItem(`instant_tool_status_${charId}`, JSON.stringify(detail));
+  } catch { /* ignore */ }
+  try {
+    window.dispatchEvent(new CustomEvent('instant-tool-status', {
+      detail,
+    }));
+  } catch { /* ignore */ }
+}
+
+/** 跑一轮 ToolRequest → POST /continue. 失败时返回 false (上层决定要不要 toast). */
+async function runOnePendingToolCall(item: InstantPushPendingToolCall): Promise<boolean> {
+  const toolLabel = getToolStatusLabel(item.toolCalls);
+  emitToolStatus(
+    item.charId,
+    'running',
+    `正在${toolLabel}，请先停留在此页，完成后会自动继续回复。`,
+    item.sessionId,
+  );
+
+  const session = await ActiveMsgStore.getOutboundSession(item.sessionId);
+  if (!session) {
+    console.warn('[instant-tool-runner] outbound session not found, skipping', item.sessionId);
+    emitToolStatus(item.charId, 'failed', `${toolLabel}中断了，请重新触发这次回复。`, item.sessionId);
+    return false;
+  }
+
+  const characters = await DB.getAllCharacters();
+  const char = characters.find((c) => c.id === item.charId);
+  if (!char) {
+    console.warn('[instant-tool-runner] character not found', item.charId);
+    emitToolStatus(item.charId, 'failed', `${toolLabel}中断了，请重新触发这次回复。`, item.sessionId);
+    return false;
+  }
+
+  const userProfile: UserProfile =
+    (await DB.getUserProfile()) ?? { name: 'User', avatar: '', bio: '' };
+  const realtimeConfig = loadRealtimeConfigFromLocalStorage();
+
+  // tool runner 用的 ctx 跟 applyAssistantPostProcessing 本地 fetch 路径用的是同一个形状.
+  //
+  // xhsCaches / lastXhsNotesRef 直接复用 activeMsgRuntime 的模块级单例 — 不再每次新建空 Map.
+  // 这样 round 1 在这里 runXhsBrowse 填充的 notes + xsecToken 能被 round 2 (worker 发回 push
+  // 后 applyAssistantPostProcessing 处理 [[XHS_SHARE: 序号]] / [[XHS_COMMENT: ...]]) 读到.
+  //
+  // 生命周期 = 主进程打开期间. 刷页面 / 关浏览器清空, 跟本地 fetch 路径 useChatAI useRef 等价.
+  const ctx: AgenticToolCtx = {
+    char,
+    userProfile,
+    realtimeConfig,
+    xhsCaches: pushXhsCaches,
+    lastXhsNotesRef: pushLastXhsNotesRef,
+    onProgress: (_channel, text) => {
+      console.log('[instant-tool-runner:progress]', text);
+      emitToolStatus(item.charId, 'running', `${text}，请先停留在此页。`, item.sessionId);
+    },
+  };
+
+  // 1. 跑所有 tool, 串行 — agenticTools 内部多步 (XHS retry / DIARY fallback) 不能并发.
+  const toolResults: Array<{ tool_call_id: string; role: 'tool'; content: string }> = [];
+  for (const call of item.toolCalls) {
+    let result: unknown;
+    try {
+      const args = JSON.parse(call.function.arguments || '{}');
+      result = await dispatchAgenticTool(call.function.name, args, ctx);
+    } catch (e) {
+      console.error('[instant-tool-runner] tool failed', call.function.name, e);
+      result = { ok: false, reason: 'tool_threw', message: (e as Error)?.message ?? String(e) };
+    }
+    toolResults.push({
+      tool_call_id: call.id,
+      role: 'tool',
+      // OpenAI 兼容端点要求 tool result content 是字符串; agenticTools 返结构化 result, JSON 化.
+      content: JSON.stringify(result),
+    });
+  }
+
+  // 把这一轮 XHS 工具抓到的笔记 + xsecToken 落库 (按 sessionId). round 2 worker 发回
+  // [[XHS_SHARE: 序号]] / 评论 / 点赞 时, applyAssistantPostProcessing 要靠这份笔记取卡片;
+  // 内存单例 pushLastXhsNotesRef 跨 SW 唤醒 / 页面回收会清空, 不持久化就会静默掉卡片.
+  if (pushLastXhsNotesRef.current.length > 0) {
+    try {
+      await ActiveMsgStore.saveXhsSessionNotes(item.sessionId, {
+        notes: pushLastXhsNotesRef.current,
+        xsecTokens: Array.from(pushXhsCaches.xsecTokenCache.entries()),
+      });
+    } catch (e) {
+      console.warn('[instant-tool-runner] persist xhs notes failed', item.sessionId, e);
+    }
+  }
+
+  // 2. 拼下一轮 LLM 看到的 messages: outbound history + assistant tool_call message + tool results.
+  //    这是 OpenAI tool-call 协议的标准形状; worker 拿到后会直接转发给 LLM.
+  const assistantMsg = {
+    role: 'assistant' as const,
+    content: item.llmOutputText || '',
+    tool_calls: item.toolCalls,
+  };
+  const nextMessages = [...session.messages, assistantMsg, ...toolResults];
+
+  // 3. 找到 push subscription + worker 凭据.
+  const cfg = loadInstantConfig();
+  if (!isInstantConfigReady(cfg)) {
+    console.warn('[instant-tool-runner] instant config not ready, cannot continue');
+    emitToolStatus(item.charId, 'failed', `${toolLabel}完成了，但 Instant Push 配置不可用，没法继续回复。`, item.sessionId);
+    return false;
+  }
+  const { sub } = await getOrCreateInstantSubscription();
+  if (!sub) {
+    console.warn('[instant-tool-runner] no push subscription, cannot continue');
+    emitToolStatus(item.charId, 'failed', `${toolLabel}完成了，但推送订阅不可用，没法继续回复。`, item.sessionId);
+    return false;
+  }
+
+  // 4. POST /continue. payload 形状 = /instant + sessionId + iteration. apiCredentials 从
+  //    outbound_session 取 (sendInstantPush 时记下的, 跨 round 用同一组).
+  const apiConfig = loadApiConfigFromLocalStorage();
+
+  // iteration: SW 在 savePendingToolCall 时持久化了上一轮 worker hook 看到的 iteration
+  // (从 push.metadata.iteration 透传). /continue 必须严格递增, worker 端 fail-fast 400 守.
+  const nextIteration = (item.iteration ?? 0) + 1;
+
+  // amsg-instant 0.6.0+ 强校验 avatarUrl: 仅接受 http(s), data: URI 直接 INVALID_PAYLOAD_FORMAT.
+  // SullyOS 角色头像基本是 base64 存的, 直传会被包侧拒. 没有公网 URL 就干脆不传 — 通知端
+  // 用 worker 自己的默认图标. 同 useChatAI.ts:693 的处理.
+  const safeAvatarUrl = /^https?:\/\//i.test(char.avatar || '') ? char.avatar : undefined;
+
+  const continuePayload = {
+    sessionId: item.sessionId,
+    iteration: nextIteration,
+    messages: nextMessages,
+    pushSubscription: sub,
+    apiUrl: session.apiCredentials.baseUrl || apiConfig.baseUrl,
+    apiKey: session.apiCredentials.apiKey || apiConfig.apiKey,
+    primaryModel: session.apiCredentials.model || apiConfig.model,
+    contactName: char.name,
+    avatarUrl: safeAvatarUrl,
+    charId: item.charId,
+    metadata: { charId: item.charId, charName: char.name },
+    temperature: 0.8,
+    oversizeTransport: getInstantOversizeTransport(cfg),
+  };
+
+  try {
+    emitToolStatus(item.charId, 'continuing', `${toolLabel}完成了，正在让角色继续回复。`, item.sessionId);
+    const reiClient = new ReiClient({
+      baseUrl: cfg.workerUrl,
+      instantEncryption: false,
+      instantClientToken: cfg.clientToken || '',
+    });
+    const abortController = new AbortController();
+    const abortOnPageHide = (event: PageTransitionEvent) => {
+      if (event.persisted) return;
+      abortController.abort();
+    };
+    window.addEventListener('pagehide', abortOnPageHide, { once: true });
+
+    try {
+      await reiClient.consumeInstantStream(continuePayload, '/continue', {
+        signal: abortController.signal,
+        onPayload: async (p: any) => {
+          await postSsePayloadToServiceWorker(p, item.sessionId);
+        },
+        onDone: () => {
+          emitToolStatus(item.charId, 'done', `${toolLabel}完成了，角色回复已送达。`, item.sessionId);
+        },
+        onError: (err: any) => {
+          console.warn('[instant-tool-runner] /continue SSE stream error:', err?.code, err?.message);
+          // Error payload has already been ingested via onPayload before onError fires.
+          emitToolStatus(item.charId, 'failed', `${toolLabel}完成了，但续写发生错误。`, item.sessionId);
+        },
+      });
+    } finally {
+      try { window.removeEventListener('pagehide', abortOnPageHide); } catch { /* ignore */ }
+    }
+
+    return true;
+  } catch (e) {
+    console.error('[instant-tool-runner] /continue consumeInstantStream threw', e);
+    emitToolStatus(item.charId, 'failed', `${toolLabel}完成了，但续写请求没有发出去。`, item.sessionId);
+    return false;
+  }
+}
+
+/** 排空 pending_tool_calls store; 调用前后都是原子, 失败的不重投 (见 module 顶 doc). */
+export async function runPendingToolCalls(): Promise<{ processed: number; ok: number }> {
+  const pending = await ActiveMsgStore.consumePendingToolCalls();
+  let ok = 0;
+  for (const item of pending) {
+    const success = await runOnePendingToolCall(item);
+    if (success) ok += 1;
+  }
+  if (pending.length > 0) {
+    console.log(`[instant-tool-runner] processed ${pending.length} pending tool call(s), ${ok} ok`);
+  }
+  return { processed: pending.length, ok };
+}
+
+// ── private helpers ─────────────────────────────────────────────────────────
+
+function loadApiConfigFromLocalStorage(): APIConfig {
+  const fallback: APIConfig = { baseUrl: '', apiKey: '', model: '' };
+  try {
+    const raw = localStorage.getItem('os_api_config');
+    if (!raw) return fallback;
+    const parsed = JSON.parse(raw);
+    return {
+      baseUrl: parsed.baseUrl || '',
+      apiKey: parsed.apiKey || '',
+      model: parsed.model || '',
+      ...parsed,
+    };
+  } catch {
+    return fallback;
+  }
+}
+
+function loadRealtimeConfigFromLocalStorage(): RealtimeConfig | undefined {
+  try {
+    const raw = localStorage.getItem('os_realtime_config');
+    if (!raw) return undefined;
+    return JSON.parse(raw) as RealtimeConfig;
+  } catch {
+    return undefined;
+  }
+}

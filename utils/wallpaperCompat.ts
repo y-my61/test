@@ -1,1 +1,22 @@
-LyoqIOaXp+eJiOezu+e7n+m7mOiupOeahOeyiee7v+a4kOWPmO+8m+S4jeWGjeaYr+ezu+e7n+m7mOiupO+8jOS7heS+m+WtmOmHj+i/geenu+WSjOeUqOaIt+S4u+WKqOmAieaLqeOAjOaAgOaXp+eJiOOAjeOAgiAqLwpleHBvcnQgY29uc3QgTEVHQUNZX0RFRkFVTFRfV0FMTFBBUEVSID0gJ2xpbmVhci1ncmFkaWVudCgxMzVkZWcsICNGRkRFRTkgMCUsICNCNUZGRkMgMTAwJSknOwoKLyoqCiAqIOa1j+iniOWZqOaIluWOhuWPsueJiOacrOWPr+iDveaKiuWNgeWFrei/m+WItuminOiJsuinhOiMg+WMluS4uiByZ2IoKe+8jOWboOatpOS4jeiDveWPquWBmuWOn+Wtl+espuS4suebuOetieWIpOaWreOAggogKiDlkIzml7bopoHmsYLop5LluqblkozkuKTnq6/ns7vnu5/oibLpg73ljLnphY3vvIzpgb/lhY3or6/kvKTmma7pgJrnlKjmiLfoh6rlrprkuYnmuJDlj5jjgIIKICovCmV4cG9ydCBmdW5jdGlvbiBpc0xlZ2FjeURlZmF1bHRXYWxscGFwZXIod2FsbHBhcGVyPzogc3RyaW5nKTogYm9vbGVhbiB7CiAgICBpZiAoIXdhbGxwYXBlcikgcmV0dXJuIGZhbHNlOwogICAgY29uc3QgY29tcGFjdCA9IHdhbGxwYXBlci50b0xvd2VyQ2FzZSgpLnJlcGxhY2UoL1xzKy9nLCAnJyk7CiAgICBjb25zdCBoYXNQaW5rID0gY29tcGFjdC5pbmNsdWRlcygnI2ZmZGVlOScpIHx8IGNvbXBhY3QuaW5jbHVkZXMoJ3JnYigyNTUsMjIyLDIzMyknKTsKICAgIGNvbnN0IGhhc01pbnQgPSBjb21wYWN0LmluY2x1ZGVzKCcjYjVmZmZjJykgfHwgY29tcGFjdC5pbmNsdWRlcygncmdiKDE4MSwyNTUsMjUyKScpOwogICAgcmV0dXJuIGNvbXBhY3Quc3RhcnRzV2l0aCgnbGluZWFyLWdyYWRpZW50KDEzNWRlZywnKSAmJiBoYXNQaW5rICYmIGhhc01pbnQ7Cn0KCi8qKiDlj6rmnInmmI7noa7moIforrDkuLrmgIDml6fniYjml7bmiY3kv53nlZnml6fpu5jorqTlo4HnurjvvIzpgb/lhY3mma7pgJrogIHmlbDmja7ph43mlrDnm5bov4fnurjmhJ/pu5jorqTjgIIgKi8KZXhwb3J0IGZ1bmN0aW9uIHNob3VsZFByZXNlcnZlTGVnYWN5RGVmYXVsdFdhbGxwYXBlcigKICAgIHdhbGxwYXBlcj86IHN0cmluZywKICAgIGRlc2t0b3BWYXJpYW50Pzogc3RyaW5nLAopOiBib29sZWFuIHsKICAgIHJldHVybiBkZXNrdG9wVmFyaWFudCA9PT0gJ25vc3RhbGdpYScgJiYgaXNMZWdhY3lEZWZhdWx0V2FsbHBhcGVyKHdhbGxwYXBlcik7Cn0K
+/** 旧版系统默认的粉绿渐变；不再是系统默认，仅供存量迁移和用户主动选择「怀旧版」。 */
+export const LEGACY_DEFAULT_WALLPAPER = 'linear-gradient(135deg, #FFDEE9 0%, #B5FFFC 100%)';
+
+/**
+ * 浏览器或历史版本可能把十六进制颜色规范化为 rgb()，因此不能只做原字符串相等判断。
+ * 同时要求角度和两端系统色都匹配，避免误伤普通用户自定义渐变。
+ */
+export function isLegacyDefaultWallpaper(wallpaper?: string): boolean {
+    if (!wallpaper) return false;
+    const compact = wallpaper.toLowerCase().replace(/\s+/g, '');
+    const hasPink = compact.includes('#ffdee9') || compact.includes('rgb(255,222,233)');
+    const hasMint = compact.includes('#b5fffc') || compact.includes('rgb(181,255,252)');
+    return compact.startsWith('linear-gradient(135deg,') && hasPink && hasMint;
+}
+
+/** 只有明确标记为怀旧版时才保留旧默认壁纸，避免普通老数据重新盖过纸感默认。 */
+export function shouldPreserveLegacyDefaultWallpaper(
+    wallpaper?: string,
+    desktopVariant?: string,
+): boolean {
+    return desktopVariant === 'nostalgia' && isLegacyDefaultWallpaper(wallpaper);
+}

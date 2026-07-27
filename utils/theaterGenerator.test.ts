@@ -1,1 +1,39 @@
-aW1wb3J0IHsgZGVzY3JpYmUsIGl0LCBleHBlY3QgfSBmcm9tICd2aXRlc3QnOwppbXBvcnQgeyBwYXJzZVRoZWF0ZXJMaW5lcyB9IGZyb20gJy4vdGhlYXRlckdlbmVyYXRvcic7CgpkZXNjcmliZSgncGFyc2VUaGVhdGVyTGluZXMnLCAoKSA9PiB7CiAgICBpdCgn6Kej5p6Q5qCH5YeG44CMW+awm+WbtF0g5paH5pys44CN6KGM77yMZW1vdGlvbiDkuI4gdGV4dCDliIbnprsnLCAoKSA9PiB7CiAgICAgICAgY29uc3QgcmF3ID0gYFvwn5qqXSDlpbnmjqjlvIDnjrvnkoPpl6jvvIzlhrfmsJTmiZHpnaLjgIIKW/CfjqddIOiAs+acuumHjOmaj+acuuWIsOmCo+mmluatjOOAggpb8J+YruKAjfCfkqhdIOOAjOKApuKApueul+S6huOAguOAjeWlueaKueS6huaKiuaxl+OAgmA7CiAgICAgICAgY29uc3QgbGluZXMgPSBwYXJzZVRoZWF0ZXJMaW5lcyhyYXcpOwogICAgICAgIGV4cGVjdChsaW5lcykudG9IYXZlTGVuZ3RoKDMpOwogICAgICAgIGV4cGVjdChsaW5lc1swXSkudG9FcXVhbCh7IGVtb3Rpb246ICfwn5qqJywgdGV4dDogJ+WlueaOqOW8gOeOu+eSg+mXqO+8jOWGt+awlOaJkemdouOAgicgfSk7CiAgICAgICAgZXhwZWN0KGxpbmVzWzJdLmVtb3Rpb24pLnRvQmUoJ/CfmK7igI3wn5KoJyk7CiAgICAgICAgZXhwZWN0KGxpbmVzWzJdLnRleHQpLnRvQmUoJ+OAjOKApuKApueul+S6huOAguOAjeWlueaKueS6huaKiuaxl+OAgicpOwogICAgfSk7CgogICAgaXQoJ+WuueW/jeWFqOinkuaWueaLrOWPt+OAkOOAkScsICgpID0+IHsKICAgICAgICBjb25zdCBsaW5lcyA9IHBhcnNlVGhlYXRlckxpbmVzKCfjgJDwn5mC44CRIOWlueeskeS6huS4gOS4i+OAgicpOwogICAgICAgIGV4cGVjdChsaW5lcykudG9FcXVhbChbeyBlbW90aW9uOiAn8J+ZgicsIHRleHQ6ICflpbnnrJHkuobkuIDkuIvjgIInIH1dKTsKICAgIH0pOwoKICAgIGl0KCfliaXmjonku6PnoIHlm7TmoI/lubbot7Pov4fnqbrooYwgLyDnuq/liIbpmpTooYwnLCAoKSA9PiB7CiAgICAgICAgY29uc3QgcmF3ID0gJ2BgYFxuW/CfmIxdIOesrOS4gOaLjeOAglxuXG4tLS1cblvwn6WxXSDnrKzkuozmi43jgIJcbmBgYCc7CiAgICAgICAgY29uc3QgbGluZXMgPSBwYXJzZVRoZWF0ZXJMaW5lcyhyYXcpOwogICAgICAgIGV4cGVjdChsaW5lcykudG9FcXVhbChbCiAgICAgICAgICAgIHsgZW1vdGlvbjogJ/CfmIwnLCB0ZXh0OiAn56ys5LiA5ouN44CCJyB9LAogICAgICAgICAgICB7IGVtb3Rpb246ICfwn6WxJywgdGV4dDogJ+esrOS6jOaLjeOAgicgfSwKICAgICAgICBdKTsKICAgIH0pOwoKICAgIGl0KCfmsqHluKbmsJvlm7TmoIfnrb7nmoTooYzkuZ/kv53nlZnkuLrnuq/mlofmnKzvvIjkuI3kuKLlhoXlrrnvvIknLCAoKSA9PiB7CiAgICAgICAgY29uc3QgbGluZXMgPSBwYXJzZVRoZWF0ZXJMaW5lcygn5aW556uZ5Zyo56qX6L655Y+R5ZGG44CCJyk7CiAgICAgICAgZXhwZWN0KGxpbmVzKS50b0VxdWFsKFt7IHRleHQ6ICflpbnnq5nlnKjnqpfovrnlj5HlkYbjgIInIH1dKTsKICAgIH0pOwoKICAgIGl0KCfnqbrovpPlhaXov5Tlm57nqbrmlbDnu4QnLCAoKSA9PiB7CiAgICAgICAgZXhwZWN0KHBhcnNlVGhlYXRlckxpbmVzKCcnKSkudG9FcXVhbChbXSk7CiAgICAgICAgZXhwZWN0KHBhcnNlVGhlYXRlckxpbmVzKCcgICBcbiAgXG4nKSkudG9FcXVhbChbXSk7CiAgICB9KTsKfSk7Cg==
+import { describe, it, expect } from 'vitest';
+import { parseTheaterLines } from './theaterGenerator';
+
+describe('parseTheaterLines', () => {
+    it('解析标准「[氛围] 文本」行，emotion 与 text 分离', () => {
+        const raw = `[🚪] 她推开玻璃门，冷气扑面。
+[🎧] 耳机里随机到那首歌。
+[😮‍💨] 「……算了。」她抹了把汗。`;
+        const lines = parseTheaterLines(raw);
+        expect(lines).toHaveLength(3);
+        expect(lines[0]).toEqual({ emotion: '🚪', text: '她推开玻璃门，冷气扑面。' });
+        expect(lines[2].emotion).toBe('😮‍💨');
+        expect(lines[2].text).toBe('「……算了。」她抹了把汗。');
+    });
+
+    it('容忍全角方括号【】', () => {
+        const lines = parseTheaterLines('【🙂】 她笑了一下。');
+        expect(lines).toEqual([{ emotion: '🙂', text: '她笑了一下。' }]);
+    });
+
+    it('剥掉代码围栏并跳过空行 / 纯分隔行', () => {
+        const raw = '```\n[😌] 第一拍。\n\n---\n[🥱] 第二拍。\n```';
+        const lines = parseTheaterLines(raw);
+        expect(lines).toEqual([
+            { emotion: '😌', text: '第一拍。' },
+            { emotion: '🥱', text: '第二拍。' },
+        ]);
+    });
+
+    it('没带氛围标签的行也保留为纯文本（不丢内容）', () => {
+        const lines = parseTheaterLines('她站在窗边发呆。');
+        expect(lines).toEqual([{ text: '她站在窗边发呆。' }]);
+    });
+
+    it('空输入返回空数组', () => {
+        expect(parseTheaterLines('')).toEqual([]);
+        expect(parseTheaterLines('   \n  \n')).toEqual([]);
+    });
+});

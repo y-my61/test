@@ -1,1 +1,50 @@
-ZXhwb3J0IGludGVyZmFjZSBWYXBpZEtleVBhaXIgewogIHB1YmxpY0tleTogc3RyaW5nOwogIHByaXZhdGVLZXk6IHN0cmluZzsKfQoKZXhwb3J0IGZ1bmN0aW9uIGJ5dGVzVG9CYXNlNjRVcmwoYnVmOiBBcnJheUJ1ZmZlciB8IFVpbnQ4QXJyYXkpOiBzdHJpbmcgewogIGNvbnN0IGJ5dGVzID0gYnVmIGluc3RhbmNlb2YgVWludDhBcnJheSA/IGJ1ZiA6IG5ldyBVaW50OEFycmF5KGJ1Zik7CiAgbGV0IGJpbiA9ICcnOwogIGZvciAobGV0IGkgPSAwOyBpIDwgYnl0ZXMubGVuZ3RoOyBpKyspIGJpbiArPSBTdHJpbmcuZnJvbUNoYXJDb2RlKGJ5dGVzW2ldKTsKICByZXR1cm4gYnRvYShiaW4pLnJlcGxhY2UoL1wrL2csICctJykucmVwbGFjZSgvXC8vZywgJ18nKS5yZXBsYWNlKC89KyQvLCAnJyk7Cn0KCmV4cG9ydCBmdW5jdGlvbiBiYXNlNjRVcmxUb0J5dGVzKGI2NHU6IHN0cmluZyk6IFVpbnQ4QXJyYXkgewogIGNvbnN0IHBhZGRlZCA9IGI2NHUucmVwbGFjZSgvLS9nLCAnKycpLnJlcGxhY2UoL18vZywgJy8nKQogICAgKyAnPScucmVwZWF0KCg0IC0gKGI2NHUubGVuZ3RoICUgNCkpICUgNCk7CiAgY29uc3QgYmluID0gYXRvYihwYWRkZWQpOwogIGNvbnN0IG91dCA9IG5ldyBVaW50OEFycmF5KGJpbi5sZW5ndGgpOwogIGZvciAobGV0IGkgPSAwOyBpIDwgYmluLmxlbmd0aDsgaSsrKSBvdXRbaV0gPSBiaW4uY2hhckNvZGVBdChpKTsKICByZXR1cm4gb3V0Owp9CgpleHBvcnQgYXN5bmMgZnVuY3Rpb24gZ2VuZXJhdGVWYXBpZEtleVBhaXIoKTogUHJvbWlzZTxWYXBpZEtleVBhaXI+IHsKICBpZiAoIWNyeXB0bz8uc3VidGxlKSB7CiAgICB0aHJvdyBuZXcgRXJyb3IoCiAgICAgICdjcnlwdG8uc3VidGxlIOS4jeWPr+eUqOOAguivt+ehruiupOW9k+WJjemhtemdoumAmui/hyBIVFRQUyDmiJYgbG9jYWxob3N0IOiuv+mXru+8jFNhZmFyaSDml6Dnl5XmqKHlvI/kuIvkuZ/kvJrnpoHnlKggV2ViQ3J5cHRv44CCJywKICAgICk7CiAgfQogIGNvbnN0IGtwID0gYXdhaXQgY3J5cHRvLnN1YnRsZS5nZW5lcmF0ZUtleSgKICAgIHsgbmFtZTogJ0VDRFNBJywgbmFtZWRDdXJ2ZTogJ1AtMjU2JyB9LAogICAgdHJ1ZSwKICAgIFsnc2lnbicsICd2ZXJpZnknXSwKICApOwogIC8vIFB1YmxpYyBrZXk6IHJhdyB1bmNvbXByZXNzZWQgPSAweDA0IHx8IFgoMzIpIHx8IFkoMzIpID0gNjUgYnl0ZXMKICBjb25zdCBwdWJSYXcgPSBhd2FpdCBjcnlwdG8uc3VidGxlLmV4cG9ydEtleSgncmF3Jywga3AucHVibGljS2V5KTsKICAvLyBQcml2YXRlIGtleTogZXh0cmFjdCBkIGZyb20gSldLIChhbHJlYWR5IGJhc2U2NHVybCBwZXIgSldLIHNwZWMpCiAgY29uc3QgcHJpdkp3ayA9IGF3YWl0IGNyeXB0by5zdWJ0bGUuZXhwb3J0S2V5KCdqd2snLCBrcC5wcml2YXRlS2V5KTsKICBpZiAoIXByaXZKd2suZCkgewogICAgdGhyb3cgbmV3IEVycm9yKCflr7zlh7rnp4HpkqXlpLHotKXvvJpKV0sg57y65bCRIGQg5a2X5q61Jyk7CiAgfQogIHJldHVybiB7CiAgICBwdWJsaWNLZXk6IGJ5dGVzVG9CYXNlNjRVcmwocHViUmF3KSwKICAgIHByaXZhdGVLZXk6IHByaXZKd2suZCwKICB9Owp9CgpleHBvcnQgZnVuY3Rpb24gZ2VuZXJhdGVDbGllbnRUb2tlbihieXRlTGVuZ3RoID0gMzIpOiBzdHJpbmcgewogIGNvbnN0IGJ1ZiA9IG5ldyBVaW50OEFycmF5KGJ5dGVMZW5ndGgpOwogIGNyeXB0by5nZXRSYW5kb21WYWx1ZXMoYnVmKTsKICByZXR1cm4gYnl0ZXNUb0Jhc2U2NFVybChidWYpOwp9Cg==
+export interface VapidKeyPair {
+  publicKey: string;
+  privateKey: string;
+}
+
+export function bytesToBase64Url(buf: ArrayBuffer | Uint8Array): string {
+  const bytes = buf instanceof Uint8Array ? buf : new Uint8Array(buf);
+  let bin = '';
+  for (let i = 0; i < bytes.length; i++) bin += String.fromCharCode(bytes[i]);
+  return btoa(bin).replace(/\+/g, '-').replace(/\//g, '_').replace(/=+$/, '');
+}
+
+export function base64UrlToBytes(b64u: string): Uint8Array {
+  const padded = b64u.replace(/-/g, '+').replace(/_/g, '/')
+    + '='.repeat((4 - (b64u.length % 4)) % 4);
+  const bin = atob(padded);
+  const out = new Uint8Array(bin.length);
+  for (let i = 0; i < bin.length; i++) out[i] = bin.charCodeAt(i);
+  return out;
+}
+
+export async function generateVapidKeyPair(): Promise<VapidKeyPair> {
+  if (!crypto?.subtle) {
+    throw new Error(
+      'crypto.subtle 不可用。请确认当前页面通过 HTTPS 或 localhost 访问，Safari 无痕模式下也会禁用 WebCrypto。',
+    );
+  }
+  const kp = await crypto.subtle.generateKey(
+    { name: 'ECDSA', namedCurve: 'P-256' },
+    true,
+    ['sign', 'verify'],
+  );
+  // Public key: raw uncompressed = 0x04 || X(32) || Y(32) = 65 bytes
+  const pubRaw = await crypto.subtle.exportKey('raw', kp.publicKey);
+  // Private key: extract d from JWK (already base64url per JWK spec)
+  const privJwk = await crypto.subtle.exportKey('jwk', kp.privateKey);
+  if (!privJwk.d) {
+    throw new Error('导出私钥失败：JWK 缺少 d 字段');
+  }
+  return {
+    publicKey: bytesToBase64Url(pubRaw),
+    privateKey: privJwk.d,
+  };
+}
+
+export function generateClientToken(byteLength = 32): string {
+  const buf = new Uint8Array(byteLength);
+  crypto.getRandomValues(buf);
+  return bytesToBase64Url(buf);
+}

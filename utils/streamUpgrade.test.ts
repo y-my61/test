@@ -1,1 +1,70 @@
-aW1wb3J0IHsgZGVzY3JpYmUsIGl0LCBleHBlY3QgfSBmcm9tICd2aXRlc3QnOwppbXBvcnQgeyB1cGdyYWRlQ2hhdEJvZHlUb1N0cmVhbSwgYXNzZW1ibGVVcGdyYWRlZFJlc3BvbnNlIH0gZnJvbSAnLi9zdHJlYW1VcGdyYWRlJzsKCi8vIOmAj+aYjua1geW8j+WNh+e6p++8muivt+axguS9k+aUueWGmSArIFNTRSDlk43lupTmi7zlm54gSlNPTuOAggovLyDlhbPplK7kuI3lj5jph4/vvJrosIPnlKjmlrnmi7/liLDnmoTmnIDnu4ggSlNPTiDkuI7kuI3ljYfnuqfml7bnu5PmnoTnrYnku7fvvIhjaG9pY2VzL3VzYWdlL21vZGVs77yJ44CCCgpkZXNjcmliZSgndXBncmFkZUNoYXRCb2R5VG9TdHJlYW0nLCAoKSA9PiB7CiAgICBpdCgnc3RyZWFtOmZhbHNlIOKGkiDljYfnuqfkuLogc3RyZWFtOnRydWUgKyBpbmNsdWRlX3VzYWdl77yM5YW25L2Z5a2X5q615LiN5YqoJywgKCkgPT4gewogICAgICAgIGNvbnN0IG91dCA9IHVwZ3JhZGVDaGF0Qm9keVRvU3RyZWFtKEpTT04uc3RyaW5naWZ5KHsgbW9kZWw6ICdtJywgbWVzc2FnZXM6IFtdLCBzdHJlYW06IGZhbHNlLCBtYXhfdG9rZW5zOiA4MDAwIH0pKTsKICAgICAgICBjb25zdCBwYXJzZWQgPSBKU09OLnBhcnNlKG91dCEpOwogICAgICAgIGV4cGVjdChwYXJzZWQuc3RyZWFtKS50b0JlKHRydWUpOwogICAgICAgIGV4cGVjdChwYXJzZWQuc3RyZWFtX29wdGlvbnMpLnRvRXF1YWwoeyBpbmNsdWRlX3VzYWdlOiB0cnVlIH0pOwogICAgICAgIGV4cGVjdChwYXJzZWQubWF4X3Rva2VucykudG9CZSg4MDAwKTsKICAgIH0pOwoKICAgIGl0KCfnvLrnnIEgc3RyZWFtIOKGkiDlkIzmoLfljYfnuqcnLCAoKSA9PiB7CiAgICAgICAgY29uc3Qgb3V0ID0gdXBncmFkZUNoYXRCb2R5VG9TdHJlYW0oSlNPTi5zdHJpbmdpZnkoeyBtb2RlbDogJ20nLCBtZXNzYWdlczogW10gfSkpOwogICAgICAgIGV4cGVjdChKU09OLnBhcnNlKG91dCEpLnN0cmVhbSkudG9CZSh0cnVlKTsKICAgIH0pOwoKICAgIGl0KCflt7LmmK8gc3RyZWFtOnRydWXvvIjogYrlpKnkuLvot6/lvoTnrYnoh6rooYzlvIDmtYHnmoTosIPnlKjvvInihpIg5LiN56Kw77yM6L+U5ZueIG51bGwnLCAoKSA9PiB7CiAgICAgICAgZXhwZWN0KHVwZ3JhZGVDaGF0Qm9keVRvU3RyZWFtKEpTT04uc3RyaW5naWZ5KHsgbW9kZWw6ICdtJywgc3RyZWFtOiB0cnVlIH0pKSkudG9CZU51bGwoKTsKICAgIH0pOwoKICAgIGl0KCfpnZ4gSlNPTiAvIOmdnuWvueixoSBib2R5IOKGkiDov5Tlm54gbnVsbCDljp/moLfmlL7ooYwnLCAoKSA9PiB7CiAgICAgICAgZXhwZWN0KHVwZ3JhZGVDaGF0Qm9keVRvU3RyZWFtKCdub3QtanNvbicpKS50b0JlTnVsbCgpOwogICAgICAgIGV4cGVjdCh1cGdyYWRlQ2hhdEJvZHlUb1N0cmVhbSgnWzEsMl0nKSkudG9CZU51bGwoKTsKICAgIH0pOwp9KTsKCmRlc2NyaWJlKCdhc3NlbWJsZVVwZ3JhZGVkUmVzcG9uc2UnLCAoKSA9PiB7CiAgICBpdCgnU1NFIOWTjeW6lCDihpIg5ou85Zue5qCH5YeGIGNoYXQuY29tcGxldGlvbiBKU09OJywgYXN5bmMgKCkgPT4gewogICAgICAgIGNvbnN0IHNzZSA9IFsKICAgICAgICAgICAgJ2RhdGE6IHsiaWQiOiJjMSIsIm1vZGVsIjoicmVhbC1iYWNrZW5kIiwiY2hvaWNlcyI6W3siZGVsdGEiOnsicm9sZSI6ImFzc2lzdGFudCIsImNvbnRlbnQiOiLkvaDlpb0ifX1dfScsCiAgICAgICAgICAgICdkYXRhOiB7ImNob2ljZXMiOlt7ImRlbHRhIjp7ImNvbnRlbnQiOiLlkYAifX1dfScsCiAgICAgICAgICAgICdkYXRhOiB7ImNob2ljZXMiOlt7ImRlbHRhIjp7fSwiZmluaXNoX3JlYXNvbiI6InN0b3AifV0sInVzYWdlIjp7InByb21wdF90b2tlbnMiOjEwLCJjb21wbGV0aW9uX3Rva2VucyI6MiwidG90YWxfdG9rZW5zIjoxMn19JywKICAgICAgICAgICAgJ2RhdGE6IFtET05FXScsCiAgICAgICAgICAgICcnLAogICAgICAgIF0uam9pbignXG4nKTsKICAgICAgICBjb25zdCB1cHN0cmVhbSA9IG5ldyBSZXNwb25zZShzc2UsIHsgc3RhdHVzOiAyMDAsIGhlYWRlcnM6IHsgJ0NvbnRlbnQtVHlwZSc6ICd0ZXh0L2V2ZW50LXN0cmVhbScgfSB9KTsKICAgICAgICBjb25zdCBvdXQgPSBhd2FpdCBhc3NlbWJsZVVwZ3JhZGVkUmVzcG9uc2UodXBzdHJlYW0pOwogICAgICAgIGV4cGVjdChvdXQuaGVhZGVycy5nZXQoJ2NvbnRlbnQtdHlwZScpKS50b0NvbnRhaW4oJ2FwcGxpY2F0aW9uL2pzb24nKTsKICAgICAgICBjb25zdCBkYXRhID0gYXdhaXQgb3V0Lmpzb24oKTsKICAgICAgICBleHBlY3QoZGF0YS5jaG9pY2VzWzBdLm1lc3NhZ2UuY29udGVudCkudG9CZSgn5L2g5aW95ZGAJyk7CiAgICAgICAgZXhwZWN0KGRhdGEubW9kZWwpLnRvQmUoJ3JlYWwtYmFja2VuZCcpOwogICAgICAgIGV4cGVjdChkYXRhLnVzYWdlLnRvdGFsX3Rva2VucykudG9CZSgxMik7CiAgICB9KTsKCiAgICBpdCgnT3BlblJvdXRlciDlv4Pot7PlhYjkuo4gZGF0YSDml7bku43mi7zlm57moIflh4YgSlNPTicsIGFzeW5jICgpID0+IHsKICAgICAgICBjb25zdCBzc2UgPSBbCiAgICAgICAgICAgICc6IE9QRU5ST1VURVIgUFJPQ0VTU0lORycsCiAgICAgICAgICAgICcnLAogICAgICAgICAgICAnZGF0YTogeyJpZCI6ImMyIiwiY2hvaWNlcyI6W3siZGVsdGEiOnsiY29udGVudCI6IuW/g+i3s+WQjiJ9fV19JywKICAgICAgICAgICAgJ2RhdGE6IHsiY2hvaWNlcyI6W3siZGVsdGEiOnsiY29udGVudCI6Iuato+W4uCJ9fV19JywKICAgICAgICAgICAgJ2RhdGE6IFtET05FXScsCiAgICAgICAgICAgICcnLAogICAgICAgIF0uam9pbignXG4nKTsKICAgICAgICBjb25zdCB1cHN0cmVhbSA9IG5ldyBSZXNwb25zZShzc2UsIHsgc3RhdHVzOiAyMDAsIGhlYWRlcnM6IHsgJ0NvbnRlbnQtVHlwZSc6ICd0ZXh0L2V2ZW50LXN0cmVhbScgfSB9KTsKICAgICAgICBjb25zdCBvdXQgPSBhd2FpdCBhc3NlbWJsZVVwZ3JhZGVkUmVzcG9uc2UodXBzdHJlYW0pOwogICAgICAgIGNvbnN0IGRhdGEgPSBhd2FpdCBvdXQuanNvbigpOwogICAgICAgIGV4cGVjdChkYXRhLmNob2ljZXNbMF0ubWVzc2FnZS5jb250ZW50KS50b0JlKCflv4Pot7PlkI7mraPluLgnKTsKICAgIH0pOwoKICAgIGl0KCfku6PnkIbml6Dop4Ygc3RyZWFtIOi/lOWbnuaVtOWMhSBKU09OIOKGkiDljp/mlofpgI/kvKDvvIjph43mlrDljIXoo4XvvIknLCBhc3luYyAoKSA9PiB7CiAgICAgICAgY29uc3QganNvbiA9IEpTT04uc3RyaW5naWZ5KHsgY2hvaWNlczogW3sgbWVzc2FnZTogeyBjb250ZW50OiAn5pW05YyFJyB9IH1dIH0pOwogICAgICAgIGNvbnN0IHVwc3RyZWFtID0gbmV3IFJlc3BvbnNlKGpzb24sIHsgc3RhdHVzOiAyMDAsIGhlYWRlcnM6IHsgJ0NvbnRlbnQtVHlwZSc6ICdhcHBsaWNhdGlvbi9qc29uJyB9IH0pOwogICAgICAgIGNvbnN0IG91dCA9IGF3YWl0IGFzc2VtYmxlVXBncmFkZWRSZXNwb25zZSh1cHN0cmVhbSk7CiAgICAgICAgZXhwZWN0KChhd2FpdCBvdXQuanNvbigpKS5jaG9pY2VzWzBdLm1lc3NhZ2UuY29udGVudCkudG9CZSgn5pW05YyFJyk7CiAgICB9KTsKfSk7Cg==
+import { describe, it, expect } from 'vitest';
+import { upgradeChatBodyToStream, assembleUpgradedResponse } from './streamUpgrade';
+
+// 透明流式升级：请求体改写 + SSE 响应拼回 JSON。
+// 关键不变量：调用方拿到的最终 JSON 与不升级时结构等价（choices/usage/model）。
+
+describe('upgradeChatBodyToStream', () => {
+    it('stream:false → 升级为 stream:true + include_usage，其余字段不动', () => {
+        const out = upgradeChatBodyToStream(JSON.stringify({ model: 'm', messages: [], stream: false, max_tokens: 8000 }));
+        const parsed = JSON.parse(out!);
+        expect(parsed.stream).toBe(true);
+        expect(parsed.stream_options).toEqual({ include_usage: true });
+        expect(parsed.max_tokens).toBe(8000);
+    });
+
+    it('缺省 stream → 同样升级', () => {
+        const out = upgradeChatBodyToStream(JSON.stringify({ model: 'm', messages: [] }));
+        expect(JSON.parse(out!).stream).toBe(true);
+    });
+
+    it('已是 stream:true（聊天主路径等自行开流的调用）→ 不碰，返回 null', () => {
+        expect(upgradeChatBodyToStream(JSON.stringify({ model: 'm', stream: true }))).toBeNull();
+    });
+
+    it('非 JSON / 非对象 body → 返回 null 原样放行', () => {
+        expect(upgradeChatBodyToStream('not-json')).toBeNull();
+        expect(upgradeChatBodyToStream('[1,2]')).toBeNull();
+    });
+});
+
+describe('assembleUpgradedResponse', () => {
+    it('SSE 响应 → 拼回标准 chat.completion JSON', async () => {
+        const sse = [
+            'data: {"id":"c1","model":"real-backend","choices":[{"delta":{"role":"assistant","content":"你好"}}]}',
+            'data: {"choices":[{"delta":{"content":"呀"}}]}',
+            'data: {"choices":[{"delta":{},"finish_reason":"stop"}],"usage":{"prompt_tokens":10,"completion_tokens":2,"total_tokens":12}}',
+            'data: [DONE]',
+            '',
+        ].join('\n');
+        const upstream = new Response(sse, { status: 200, headers: { 'Content-Type': 'text/event-stream' } });
+        const out = await assembleUpgradedResponse(upstream);
+        expect(out.headers.get('content-type')).toContain('application/json');
+        const data = await out.json();
+        expect(data.choices[0].message.content).toBe('你好呀');
+        expect(data.model).toBe('real-backend');
+        expect(data.usage.total_tokens).toBe(12);
+    });
+
+    it('OpenRouter 心跳先于 data 时仍拼回标准 JSON', async () => {
+        const sse = [
+            ': OPENROUTER PROCESSING',
+            '',
+            'data: {"id":"c2","choices":[{"delta":{"content":"心跳后"}}]}',
+            'data: {"choices":[{"delta":{"content":"正常"}}]}',
+            'data: [DONE]',
+            '',
+        ].join('\n');
+        const upstream = new Response(sse, { status: 200, headers: { 'Content-Type': 'text/event-stream' } });
+        const out = await assembleUpgradedResponse(upstream);
+        const data = await out.json();
+        expect(data.choices[0].message.content).toBe('心跳后正常');
+    });
+
+    it('代理无视 stream 返回整包 JSON → 原文透传（重新包装）', async () => {
+        const json = JSON.stringify({ choices: [{ message: { content: '整包' } }] });
+        const upstream = new Response(json, { status: 200, headers: { 'Content-Type': 'application/json' } });
+        const out = await assembleUpgradedResponse(upstream);
+        expect((await out.json()).choices[0].message.content).toBe('整包');
+    });
+});

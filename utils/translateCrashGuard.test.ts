@@ -1,1 +1,105 @@
-aW1wb3J0IHsgZGVzY3JpYmUsIGl0LCBleHBlY3QsIGFmdGVyQWxsLCB2aSB9IGZyb20gJ3ZpdGVzdCc7CmltcG9ydCB7IGluc3RhbGxUcmFuc2xhdGVDcmFzaEd1YXJkIH0gZnJvbSAnLi90cmFuc2xhdGVDcmFzaEd1YXJkJzsKCi8vIOmUgeS9j+OAjOa1j+iniOWZqOiHquWKqOe/u+ivkeaUuSBET00g4oaSIFJlYWN0IHJlY29uY2lsZSDmipsgTm90Rm91bmRFcnJvciDnmb3lsY/jgI3nmoTmiqTmoI/ooYzkuLrjgIIKLy8g5rWL6K+V546v5aKD5pivIG5vZGUsIOayoeacieecn+WuniBOb2RlLCDov5nph4zmkK3kuIDkuKrmnIDlsI8gRE9NIOaooeWeizoKLy8g5Y6f55SfIGluc2VydEJlZm9yZS9yZW1vdmVDaGlsZCDlnKjjgIzlj4Lnhacv5b6F5Yig6IqC54K55LiN5piv6Ieq5bex5a2p5a2Q44CN5pe25oqb6ZSZICjlpI3liLvmtY/op4jlmajooYzkuLopLAovLyDmiqTmoI/oo4XkuIrlkI7lupTpmY3nuqfliLDoioLngrnnnJ/mraPnmoQgcGFyZW50IOS4iuWujOaIkOaTjeS9nCwg6ICM6Z2e5oqb6ZSZ44CCCgpjbGFzcyBGYWtlTm9kZSB7CiAgICBwYXJlbnROb2RlOiBGYWtlTm9kZSB8IG51bGwgPSBudWxsOwogICAgY2hpbGROb2RlczogRmFrZU5vZGVbXSA9IFtdOwoKICAgIGluc2VydEJlZm9yZShuZXdOb2RlOiBGYWtlTm9kZSwgcmVmOiBGYWtlTm9kZSB8IG51bGwpOiBGYWtlTm9kZSB7CiAgICAgICAgaWYgKHJlZiAmJiByZWYucGFyZW50Tm9kZSAhPT0gdGhpcykgewogICAgICAgICAgICB0aHJvdyBuZXcgRXJyb3IoIk5vdEZvdW5kRXJyb3I6IHJlZmVyZW5jZSBub2RlIGlzIG5vdCBhIGNoaWxkIG9mIHRoaXMgbm9kZSIpOwogICAgICAgIH0KICAgICAgICBjb25zdCBpZHggPSByZWYgPyB0aGlzLmNoaWxkTm9kZXMuaW5kZXhPZihyZWYpIDogdGhpcy5jaGlsZE5vZGVzLmxlbmd0aDsKICAgICAgICB0aGlzLmNoaWxkTm9kZXMuc3BsaWNlKGlkeCwgMCwgbmV3Tm9kZSk7CiAgICAgICAgbmV3Tm9kZS5wYXJlbnROb2RlID0gdGhpczsKICAgICAgICByZXR1cm4gbmV3Tm9kZTsKICAgIH0KCiAgICByZW1vdmVDaGlsZChjaGlsZDogRmFrZU5vZGUpOiBGYWtlTm9kZSB7CiAgICAgICAgaWYgKGNoaWxkLnBhcmVudE5vZGUgIT09IHRoaXMpIHsKICAgICAgICAgICAgdGhyb3cgbmV3IEVycm9yKCJOb3RGb3VuZEVycm9yOiBub2RlIGlzIG5vdCBhIGNoaWxkIG9mIHRoaXMgbm9kZSIpOwogICAgICAgIH0KICAgICAgICB0aGlzLmNoaWxkTm9kZXMuc3BsaWNlKHRoaXMuY2hpbGROb2Rlcy5pbmRleE9mKGNoaWxkKSwgMSk7CiAgICAgICAgY2hpbGQucGFyZW50Tm9kZSA9IG51bGw7CiAgICAgICAgcmV0dXJuIGNoaWxkOwogICAgfQoKICAgIGFwcGVuZENoaWxkKG5vZGU6IEZha2VOb2RlKTogRmFrZU5vZGUgewogICAgICAgIHRoaXMuY2hpbGROb2Rlcy5wdXNoKG5vZGUpOwogICAgICAgIG5vZGUucGFyZW50Tm9kZSA9IHRoaXM7CiAgICAgICAgcmV0dXJuIG5vZGU7CiAgICB9Cn0KCi8vIOeUqCBGYWtlTm9kZSDlhpLlhYXlhajlsYAgTm9kZSwg5YaN6KOF5oqk5qCPICjmiqTmoI/mlLnnmoTlsLHmmK8gTm9kZS5wcm90b3R5cGUp44CCCnZpLnN0dWJHbG9iYWwoJ05vZGUnLCBGYWtlTm9kZSk7Cmluc3RhbGxUcmFuc2xhdGVDcmFzaEd1YXJkKCk7CgphZnRlckFsbCgoKSA9PiB7CiAgICB2aS51bnN0dWJBbGxHbG9iYWxzKCk7Cn0pOwoKZGVzY3JpYmUoJ2luc3RhbGxUcmFuc2xhdGVDcmFzaEd1YXJkIC0gaW5zZXJ0QmVmb3JlJywgKCkgPT4gewogICAgaXQoJ+WPgueFp+iKgueCueato+W4uCAo5pivIHRoaXMg55qE5a2p5a2QKSDml7YsIOihjOS4uuS4jeWPmCcsICgpID0+IHsKICAgICAgICBjb25zdCBwYXJlbnQgPSBuZXcgRmFrZU5vZGUoKTsKICAgICAgICBjb25zdCBhID0gbmV3IEZha2VOb2RlKCk7CiAgICAgICAgY29uc3QgYiA9IG5ldyBGYWtlTm9kZSgpOwogICAgICAgIHBhcmVudC5hcHBlbmRDaGlsZChiKTsKICAgICAgICBwYXJlbnQuaW5zZXJ0QmVmb3JlKGEsIGIpOwogICAgICAgIGV4cGVjdChwYXJlbnQuY2hpbGROb2RlcykudG9FcXVhbChbYSwgYl0pOwogICAgfSk7CgogICAgaXQoJ+WPgueFp+iKgueCueiiq+OAjOe/u+ivkeWZqOOAjeaQrOWIsOWIq+eahCBwYXJlbnQg5ZCOLCDkuI3lho3mipvplJksIOiAjOaYr+aPkuWIsOWug+ecn+ato+eahCBwYXJlbnQnLCAoKSA9PiB7CiAgICAgICAgY29uc3QgcmVhY3RQYXJlbnQgPSBuZXcgRmFrZU5vZGUoKTsKICAgICAgICBjb25zdCB0cmFuc2xhdG9yV3JhcHBlciA9IG5ldyBGYWtlTm9kZSgpOwogICAgICAgIGNvbnN0IHJlZiA9IG5ldyBGYWtlTm9kZSgpOwogICAgICAgIC8vIOe/u+ivkeWZqOaKiiByZWYg5LuOIHJlYWN0UGFyZW50IOaQrOi/m+S6hiB0cmFuc2xhdG9yV3JhcHBlcgogICAgICAgIHRyYW5zbGF0b3JXcmFwcGVyLmFwcGVuZENoaWxkKHJlZik7CgogICAgICAgIGNvbnN0IG5ld05vZGUgPSBuZXcgRmFrZU5vZGUoKTsKICAgICAgICAvLyBSZWFjdCDku6XkuLogcmVmIOi/mOWcqCByZWFjdFBhcmVudCDkuIsg4oaSIOWOn+eUn+S8muaKmyBOb3RGb3VuZEVycm9yCiAgICAgICAgZXhwZWN0KCgpID0+IHJlYWN0UGFyZW50Lmluc2VydEJlZm9yZShuZXdOb2RlLCByZWYpKS5ub3QudG9UaHJvdygpOwogICAgICAgIC8vIOmZjee6pzog5o+S5YiwIHJlZiDnnJ/mraPnmoQgcGFyZW50ICh0cmFuc2xhdG9yV3JhcHBlcikKICAgICAgICBleHBlY3QodHJhbnNsYXRvcldyYXBwZXIuY2hpbGROb2RlcykudG9FcXVhbChbbmV3Tm9kZSwgcmVmXSk7CiAgICB9KTsKCiAgICBpdCgn5Y+C54Wn6IqC54K55bey5b275bqV6ISx56a75paH5qGj5qCR5pe2LCDpgIDljJbkuLogYXBwZW5kIOWIsCB0aGlzLCDkuI3mipvplJknLCAoKSA9PiB7CiAgICAgICAgY29uc3QgcGFyZW50ID0gbmV3IEZha2VOb2RlKCk7CiAgICAgICAgY29uc3Qgb3JwaGFuUmVmID0gbmV3IEZha2VOb2RlKCk7IC8vIHBhcmVudE5vZGUg5Li6IG51bGwKICAgICAgICBjb25zdCBuZXdOb2RlID0gbmV3IEZha2VOb2RlKCk7CiAgICAgICAgZXhwZWN0KCgpID0+IHBhcmVudC5pbnNlcnRCZWZvcmUobmV3Tm9kZSwgb3JwaGFuUmVmKSkubm90LnRvVGhyb3coKTsKICAgICAgICBleHBlY3QocGFyZW50LmNoaWxkTm9kZXMpLnRvRXF1YWwoW25ld05vZGVdKTsKICAgIH0pOwp9KTsKCmRlc2NyaWJlKCdpbnN0YWxsVHJhbnNsYXRlQ3Jhc2hHdWFyZCAtIHJlbW92ZUNoaWxkJywgKCkgPT4gewogICAgaXQoJ+W+heWIoOiKgueCueaYryB0aGlzIOeahOWtqeWtkOaXtiwg6KGM5Li65LiN5Y+YJywgKCkgPT4gewogICAgICAgIGNvbnN0IHBhcmVudCA9IG5ldyBGYWtlTm9kZSgpOwogICAgICAgIGNvbnN0IGNoaWxkID0gbmV3IEZha2VOb2RlKCk7CiAgICAgICAgcGFyZW50LmFwcGVuZENoaWxkKGNoaWxkKTsKICAgICAgICBwYXJlbnQucmVtb3ZlQ2hpbGQoY2hpbGQpOwogICAgICAgIGV4cGVjdChwYXJlbnQuY2hpbGROb2RlcykudG9FcXVhbChbXSk7CiAgICB9KTsKCiAgICBpdCgn5b6F5Yig6IqC54K56KKr44CM57+76K+R5Zmo44CN5pCs6LWw5ZCOLCDku47lroPnnJ/mraPnmoQgcGFyZW50IOWIoOmZpCwg5LiN5oqb6ZSZJywgKCkgPT4gewogICAgICAgIGNvbnN0IHJlYWN0UGFyZW50ID0gbmV3IEZha2VOb2RlKCk7CiAgICAgICAgY29uc3QgdHJhbnNsYXRvcldyYXBwZXIgPSBuZXcgRmFrZU5vZGUoKTsKICAgICAgICBjb25zdCBjaGlsZCA9IG5ldyBGYWtlTm9kZSgpOwogICAgICAgIHRyYW5zbGF0b3JXcmFwcGVyLmFwcGVuZENoaWxkKGNoaWxkKTsKCiAgICAgICAgZXhwZWN0KCgpID0+IHJlYWN0UGFyZW50LnJlbW92ZUNoaWxkKGNoaWxkKSkubm90LnRvVGhyb3coKTsKICAgICAgICBleHBlY3QodHJhbnNsYXRvcldyYXBwZXIuY2hpbGROb2RlcykudG9FcXVhbChbXSk7CiAgICAgICAgZXhwZWN0KGNoaWxkLnBhcmVudE5vZGUpLnRvQmVOdWxsKCk7CiAgICB9KTsKCiAgICBpdCgn5b6F5Yig6IqC54K55bey6ISx56a75paH5qGj5qCR5pe2LCDpnZnpu5jov5Tlm54sIOS4jeaKm+mUmScsICgpID0+IHsKICAgICAgICBjb25zdCByZWFjdFBhcmVudCA9IG5ldyBGYWtlTm9kZSgpOwogICAgICAgIGNvbnN0IG9ycGhhbiA9IG5ldyBGYWtlTm9kZSgpOwogICAgICAgIGV4cGVjdCgoKSA9PiByZWFjdFBhcmVudC5yZW1vdmVDaGlsZChvcnBoYW4pKS5ub3QudG9UaHJvdygpOwogICAgfSk7Cn0pOwo=
+import { describe, it, expect, afterAll, vi } from 'vitest';
+import { installTranslateCrashGuard } from './translateCrashGuard';
+
+// 锁住「浏览器自动翻译改 DOM → React reconcile 抛 NotFoundError 白屏」的护栏行为。
+// 测试环境是 node, 没有真实 Node, 这里搭一个最小 DOM 模型:
+// 原生 insertBefore/removeChild 在「参照/待删节点不是自己孩子」时抛错 (复刻浏览器行为),
+// 护栏装上后应降级到节点真正的 parent 上完成操作, 而非抛错。
+
+class FakeNode {
+    parentNode: FakeNode | null = null;
+    childNodes: FakeNode[] = [];
+
+    insertBefore(newNode: FakeNode, ref: FakeNode | null): FakeNode {
+        if (ref && ref.parentNode !== this) {
+            throw new Error("NotFoundError: reference node is not a child of this node");
+        }
+        const idx = ref ? this.childNodes.indexOf(ref) : this.childNodes.length;
+        this.childNodes.splice(idx, 0, newNode);
+        newNode.parentNode = this;
+        return newNode;
+    }
+
+    removeChild(child: FakeNode): FakeNode {
+        if (child.parentNode !== this) {
+            throw new Error("NotFoundError: node is not a child of this node");
+        }
+        this.childNodes.splice(this.childNodes.indexOf(child), 1);
+        child.parentNode = null;
+        return child;
+    }
+
+    appendChild(node: FakeNode): FakeNode {
+        this.childNodes.push(node);
+        node.parentNode = this;
+        return node;
+    }
+}
+
+// 用 FakeNode 冒充全局 Node, 再装护栏 (护栏改的就是 Node.prototype)。
+vi.stubGlobal('Node', FakeNode);
+installTranslateCrashGuard();
+
+afterAll(() => {
+    vi.unstubAllGlobals();
+});
+
+describe('installTranslateCrashGuard - insertBefore', () => {
+    it('参照节点正常 (是 this 的孩子) 时, 行为不变', () => {
+        const parent = new FakeNode();
+        const a = new FakeNode();
+        const b = new FakeNode();
+        parent.appendChild(b);
+        parent.insertBefore(a, b);
+        expect(parent.childNodes).toEqual([a, b]);
+    });
+
+    it('参照节点被「翻译器」搬到别的 parent 后, 不再抛错, 而是插到它真正的 parent', () => {
+        const reactParent = new FakeNode();
+        const translatorWrapper = new FakeNode();
+        const ref = new FakeNode();
+        // 翻译器把 ref 从 reactParent 搬进了 translatorWrapper
+        translatorWrapper.appendChild(ref);
+
+        const newNode = new FakeNode();
+        // React 以为 ref 还在 reactParent 下 → 原生会抛 NotFoundError
+        expect(() => reactParent.insertBefore(newNode, ref)).not.toThrow();
+        // 降级: 插到 ref 真正的 parent (translatorWrapper)
+        expect(translatorWrapper.childNodes).toEqual([newNode, ref]);
+    });
+
+    it('参照节点已彻底脱离文档树时, 退化为 append 到 this, 不抛错', () => {
+        const parent = new FakeNode();
+        const orphanRef = new FakeNode(); // parentNode 为 null
+        const newNode = new FakeNode();
+        expect(() => parent.insertBefore(newNode, orphanRef)).not.toThrow();
+        expect(parent.childNodes).toEqual([newNode]);
+    });
+});
+
+describe('installTranslateCrashGuard - removeChild', () => {
+    it('待删节点是 this 的孩子时, 行为不变', () => {
+        const parent = new FakeNode();
+        const child = new FakeNode();
+        parent.appendChild(child);
+        parent.removeChild(child);
+        expect(parent.childNodes).toEqual([]);
+    });
+
+    it('待删节点被「翻译器」搬走后, 从它真正的 parent 删除, 不抛错', () => {
+        const reactParent = new FakeNode();
+        const translatorWrapper = new FakeNode();
+        const child = new FakeNode();
+        translatorWrapper.appendChild(child);
+
+        expect(() => reactParent.removeChild(child)).not.toThrow();
+        expect(translatorWrapper.childNodes).toEqual([]);
+        expect(child.parentNode).toBeNull();
+    });
+
+    it('待删节点已脱离文档树时, 静默返回, 不抛错', () => {
+        const reactParent = new FakeNode();
+        const orphan = new FakeNode();
+        expect(() => reactParent.removeChild(orphan)).not.toThrow();
+    });
+});

@@ -1,1 +1,60 @@
-aW1wb3J0IHsgZGVzY3JpYmUsIGl0LCBleHBlY3QgfSBmcm9tICd2aXRlc3QnOwppbXBvcnQgeyBpbnRlcmFjdGlvbkdhcE5vdGUsIHR6QXdhcmVuZXNzTm90ZSwgcmVzb2x2ZUNoYXJUaW1lWm9uZSB9IGZyb20gJy4vdGltZXpvbmUnOwppbXBvcnQgdHlwZSB7IENoYXJhY3RlclByb2ZpbGUgfSBmcm9tICcuLi90eXBlcyc7Cgpjb25zdCBOT1cgPSAxXzcwMF8wMDBfMDAwXzAwMDsgLy8g5Zu65a6aIG5vd++8jOmBv+WFjeS+nei1luezu+e7n+aXtumSnwpjb25zdCBtaW4gPSAobjogbnVtYmVyKSA9PiBOT1cgLSBuICogNjBfMDAwOwpjb25zdCBociA9IChuOiBudW1iZXIpID0+IE5PVyAtIG4gKiAzXzYwMF8wMDA7CmNvbnN0IGRheSA9IChuOiBudW1iZXIpID0+IE5PVyAtIG4gKiA4Nl80MDBfMDAwOwoKZGVzY3JpYmUoJ2ludGVyYWN0aW9uR2FwTm90ZScsICgpID0+IHsKICAgIGl0KCdsYXN0VHMg5Li656m6IOKGkiDnqbrkuLLvvIjkuI3ms6jlhaXvvIknLCAoKSA9PiB7CiAgICAgICAgZXhwZWN0KGludGVyYWN0aW9uR2FwTm90ZSh1bmRlZmluZWQsIE5PVykpLnRvQmUoJycpOwogICAgfSk7CgogICAgaXQoJzUg5YiG6ZKf5YaFIOKGkiDjgIzliJrliJrov5jlnKjogZTns7vjgI0nLCAoKSA9PiB7CiAgICAgICAgZXhwZWN0KGludGVyYWN0aW9uR2FwTm90ZShtaW4oMiksIE5PVykpLnRvQ29udGFpbign5Yia5Yia6L+Y5Zyo6IGU57O7Jyk7CiAgICB9KTsKCiAgICBpdCgn5YiG6ZKf57qnIOKGkiBYIOWIhumSnycsICgpID0+IHsKICAgICAgICBleHBlY3QoaW50ZXJhY3Rpb25HYXBOb3RlKG1pbigzMCksIE5PVykpLnRvQ29udGFpbignMzAg5YiG6ZKfJyk7CiAgICB9KTsKCiAgICBpdCgn5bCP5pe257qnIOKGkiBYIOWwj+aXticsICgpID0+IHsKICAgICAgICBleHBlY3QoaW50ZXJhY3Rpb25HYXBOb3RlKGhyKDUpLCBOT1cpKS50b0NvbnRhaW4oJzUg5bCP5pe2Jyk7CiAgICB9KTsKCiAgICBpdCgn5aSp57qnIOKGkiBYIOWkqSArIOS5heacquiBlOezu+S9k+aEnycsICgpID0+IHsKICAgICAgICBjb25zdCBub3RlID0gaW50ZXJhY3Rpb25HYXBOb3RlKGRheSgzKSwgTk9XKTsKICAgICAgICBleHBlY3Qobm90ZSkudG9Db250YWluKCczIOWkqScpOwogICAgICAgIGV4cGVjdChub3RlKS50b0NvbnRhaW4oJ+W3sue7j+acieS4gOmYteWtkOayoeiBlOezu+S6hicpOwogICAgfSk7CgogICAgaXQoJ+acquadpeaXtumXtOaIs++8iOaXtumSn+a8guenu++8ieKGkiDnqbrkuLLvvIzkuI3kuqfnlJ/otJ/mlbAnLCAoKSA9PiB7CiAgICAgICAgZXhwZWN0KGludGVyYWN0aW9uR2FwTm90ZShOT1cgKyA2MF8wMDAsIE5PVykpLnRvQmUoJycpOwogICAgfSk7Cn0pOwoKZGVzY3JpYmUoJ3R6QXdhcmVuZXNzTm90ZScsICgpID0+IHsKICAgIGl0KCfml6Dml7bljLog4oaSIOepuuS4sicsICgpID0+IHsKICAgICAgICBleHBlY3QodHpBd2FyZW5lc3NOb3RlKHVuZGVmaW5lZCkpLnRvQmUoJycpOwogICAgfSk7CiAgICBpdCgn5pyJ5pe25Yy6IOKGkiDlkKvml7blt67mj5DnpLrkuI7ml7bljLrmoIfnrb4nLCAoKSA9PiB7CiAgICAgICAgY29uc3Qgbm90ZSA9IHR6QXdhcmVuZXNzTm90ZSgnQW1lcmljYS9OZXdfWW9yaycpOwogICAgICAgIGV4cGVjdChub3RlKS50b0NvbnRhaW4oJ+aXtuWMuicpOwogICAgICAgIGV4cGVjdChub3RlKS50b0NvbnRhaW4oJ+e6vee6picpOwogICAgfSk7Cn0pOwoKZGVzY3JpYmUoJ3Jlc29sdmVDaGFyVGltZVpvbmUnLCAoKSA9PiB7CiAgICBjb25zdCBiYXNlID0geyBjdXN0b21UaW1lem9uZTogJ0FzaWEvVG9reW8nIH0gYXMgUGFydGlhbDxDaGFyYWN0ZXJQcm9maWxlPjsKICAgIGl0KCfmnKrlvIDlkK8g4oaSIHVuZGVmaW5lZO+8iOi3n+maj+acrOacuu+8iScsICgpID0+IHsKICAgICAgICBleHBlY3QocmVzb2x2ZUNoYXJUaW1lWm9uZSh7IC4uLmJhc2UsIGN1c3RvbVRpbWV6b25lRW5hYmxlZDogZmFsc2UgfSBhcyBDaGFyYWN0ZXJQcm9maWxlKSkudG9CZVVuZGVmaW5lZCgpOwogICAgfSk7CiAgICBpdCgn5byA5ZCv5LiU5pyJ5YC8IOKGkiDov5Tlm57ml7bljLogaWQnLCAoKSA9PiB7CiAgICAgICAgZXhwZWN0KHJlc29sdmVDaGFyVGltZVpvbmUoeyAuLi5iYXNlLCBjdXN0b21UaW1lem9uZUVuYWJsZWQ6IHRydWUgfSBhcyBDaGFyYWN0ZXJQcm9maWxlKSkudG9CZSgnQXNpYS9Ub2t5bycpOwogICAgfSk7CiAgICBpdCgn5byA5ZCv5L2G5peg5YC8IOKGkiB1bmRlZmluZWQnLCAoKSA9PiB7CiAgICAgICAgZXhwZWN0KHJlc29sdmVDaGFyVGltZVpvbmUoeyBjdXN0b21UaW1lem9uZUVuYWJsZWQ6IHRydWUgfSBhcyBDaGFyYWN0ZXJQcm9maWxlKSkudG9CZVVuZGVmaW5lZCgpOwogICAgfSk7Cn0pOwo=
+import { describe, it, expect } from 'vitest';
+import { interactionGapNote, tzAwarenessNote, resolveCharTimeZone } from './timezone';
+import type { CharacterProfile } from '../types';
+
+const NOW = 1_700_000_000_000; // 固定 now，避免依赖系统时钟
+const min = (n: number) => NOW - n * 60_000;
+const hr = (n: number) => NOW - n * 3_600_000;
+const day = (n: number) => NOW - n * 86_400_000;
+
+describe('interactionGapNote', () => {
+    it('lastTs 为空 → 空串（不注入）', () => {
+        expect(interactionGapNote(undefined, NOW)).toBe('');
+    });
+
+    it('5 分钟内 → 「刚刚还在联系」', () => {
+        expect(interactionGapNote(min(2), NOW)).toContain('刚刚还在联系');
+    });
+
+    it('分钟级 → X 分钟', () => {
+        expect(interactionGapNote(min(30), NOW)).toContain('30 分钟');
+    });
+
+    it('小时级 → X 小时', () => {
+        expect(interactionGapNote(hr(5), NOW)).toContain('5 小时');
+    });
+
+    it('天级 → X 天 + 久未联系体感', () => {
+        const note = interactionGapNote(day(3), NOW);
+        expect(note).toContain('3 天');
+        expect(note).toContain('已经有一阵子没联系了');
+    });
+
+    it('未来时间戳（时钟漂移）→ 空串，不产生负数', () => {
+        expect(interactionGapNote(NOW + 60_000, NOW)).toBe('');
+    });
+});
+
+describe('tzAwarenessNote', () => {
+    it('无时区 → 空串', () => {
+        expect(tzAwarenessNote(undefined)).toBe('');
+    });
+    it('有时区 → 含时差提示与时区标签', () => {
+        const note = tzAwarenessNote('America/New_York');
+        expect(note).toContain('时区');
+        expect(note).toContain('纽约');
+    });
+});
+
+describe('resolveCharTimeZone', () => {
+    const base = { customTimezone: 'Asia/Tokyo' } as Partial<CharacterProfile>;
+    it('未开启 → undefined（跟随本机）', () => {
+        expect(resolveCharTimeZone({ ...base, customTimezoneEnabled: false } as CharacterProfile)).toBeUndefined();
+    });
+    it('开启且有值 → 返回时区 id', () => {
+        expect(resolveCharTimeZone({ ...base, customTimezoneEnabled: true } as CharacterProfile)).toBe('Asia/Tokyo');
+    });
+    it('开启但无值 → undefined', () => {
+        expect(resolveCharTimeZone({ customTimezoneEnabled: true } as CharacterProfile)).toBeUndefined();
+    });
+});

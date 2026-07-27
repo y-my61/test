@@ -1,1 +1,70 @@
-dHlwZSBUb29sQ2FsbExpa2UgPSB7CiAgICBpZD86IHVua25vd247CiAgICB0eXBlPzogdW5rbm93bjsKICAgIGZ1bmN0aW9uPzogewogICAgICAgIG5hbWU/OiB1bmtub3duOwogICAgICAgIGFyZ3VtZW50cz86IHVua25vd247CiAgICAgICAgW2tleTogc3RyaW5nXTogdW5rbm93bjsKICAgIH07CiAgICBba2V5OiBzdHJpbmddOiB1bmtub3duOwp9OwoKY29uc3Qgc2FmZUZyYWdtZW50ID0gKHZhbHVlOiBzdHJpbmcpOiBzdHJpbmcgPT4KICAgIHZhbHVlLnJlcGxhY2UoL1teQS1aYS16MC05Xy1dL2csICdfJykucmVwbGFjZSgvXysvZywgJ18nKS5zbGljZSgwLCA0OCkgfHwgJ3Rvb2wnOwoKLyoqCiAqIEdlbWluaSDnmoQgT3BlbkFJIOWFvOWuueWxguWBtuWwlOS8mui/lOWbnuepuiB0b29sX2NhbGwuaWTvvJvnu5Pmnpzlm57loavml7blj4jopoHmsYIKICogZnVuY3Rpb25fcmVzcG9uc2UubmFtZSDpnZ7nqbrjgILlhYjmiormnKzova7osIPnlKjop4TojIPljJbvvIznoa7kv50gYXNzaXN0YW50LnRvb2xfY2FsbHMKICog5ZKM5ZCO57utIHJvbGU9dG9vbCDmtojmga/kvb/nlKjlkIzkuIDnu4TnqLPlrpogaWQvbmFtZeOAggogKi8KZXhwb3J0IGZ1bmN0aW9uIG5vcm1hbGl6ZVRvb2xDYWxsc0ZvckNvbXBhdCh0b29sQ2FsbHM6IHVua25vd24sIHNjb3BlID0gJ3Rvb2wnKTogYW55W10gewogICAgaWYgKCFBcnJheS5pc0FycmF5KHRvb2xDYWxscykpIHJldHVybiBbXTsKCiAgICBjb25zdCBzZWVuSWRzID0gbmV3IFNldDxzdHJpbmc+KCk7CiAgICBjb25zdCBzYWZlU2NvcGUgPSBzYWZlRnJhZ21lbnQoc2NvcGUpOwoKICAgIHJldHVybiB0b29sQ2FsbHMubWFwKChyYXdDYWxsOiBUb29sQ2FsbExpa2UsIGluZGV4OiBudW1iZXIpID0+IHsKICAgICAgICBjb25zdCByYXdOYW1lID0gdHlwZW9mIHJhd0NhbGw/LmZ1bmN0aW9uPy5uYW1lID09PSAnc3RyaW5nJwogICAgICAgICAgICA/IHJhd0NhbGwuZnVuY3Rpb24ubmFtZS50cmltKCkKICAgICAgICAgICAgOiAnJzsKICAgICAgICBjb25zdCBuYW1lID0gcmF3TmFtZSB8fCAndW5rbm93bl90b29sJzsKICAgICAgICBjb25zdCByYXdJZCA9IHR5cGVvZiByYXdDYWxsPy5pZCA9PT0gJ3N0cmluZycgPyByYXdDYWxsLmlkLnRyaW0oKSA6ICcnOwogICAgICAgIGxldCBpZCA9IHJhd0lkOwoKICAgICAgICBpZiAoIWlkIHx8IHNlZW5JZHMuaGFzKGlkKSkgewogICAgICAgICAgICBpZCA9IGBjYWxsXyR7c2FmZVNjb3BlfV8ke3NhZmVGcmFnbWVudChuYW1lKX1fJHtpbmRleH1gOwogICAgICAgIH0KICAgICAgICBzZWVuSWRzLmFkZChpZCk7CgogICAgICAgIHJldHVybiB7CiAgICAgICAgICAgIC4uLnJhd0NhbGwsCiAgICAgICAgICAgIGlkLAogICAgICAgICAgICB0eXBlOiByYXdDYWxsPy50eXBlIHx8ICdmdW5jdGlvbicsCiAgICAgICAgICAgIGZ1bmN0aW9uOiB7CiAgICAgICAgICAgICAgICAuLi4ocmF3Q2FsbD8uZnVuY3Rpb24gfHwge30pLAogICAgICAgICAgICAgICAgbmFtZSwKICAgICAgICAgICAgfSwKICAgICAgICB9OwogICAgfSk7Cn0KCmV4cG9ydCBmdW5jdGlvbiBidWlsZFRvb2xSZXN1bHRNZXNzYWdlKHRvb2xDYWxsOiBUb29sQ2FsbExpa2UsIGNvbnRlbnQ6IHN0cmluZyk6IHsKICAgIHJvbGU6ICd0b29sJzsKICAgIG5hbWU6IHN0cmluZzsKICAgIHRvb2xfY2FsbF9pZDogc3RyaW5nOwogICAgY29udGVudDogc3RyaW5nOwp9IHsKICAgIGNvbnN0IG5hbWUgPSB0eXBlb2YgdG9vbENhbGw/LmZ1bmN0aW9uPy5uYW1lID09PSAnc3RyaW5nJyAmJiB0b29sQ2FsbC5mdW5jdGlvbi5uYW1lLnRyaW0oKQogICAgICAgID8gdG9vbENhbGwuZnVuY3Rpb24ubmFtZS50cmltKCkKICAgICAgICA6ICd1bmtub3duX3Rvb2wnOwogICAgY29uc3QgdG9vbENhbGxJZCA9IHR5cGVvZiB0b29sQ2FsbD8uaWQgPT09ICdzdHJpbmcnICYmIHRvb2xDYWxsLmlkLnRyaW0oKQogICAgICAgID8gdG9vbENhbGwuaWQudHJpbSgpCiAgICAgICAgOiBgY2FsbF9yZXN1bHRfJHtzYWZlRnJhZ21lbnQobmFtZSl9YDsKCiAgICByZXR1cm4gewogICAgICAgIHJvbGU6ICd0b29sJywKICAgICAgICBuYW1lLAogICAgICAgIHRvb2xfY2FsbF9pZDogdG9vbENhbGxJZCwKICAgICAgICBjb250ZW50LAogICAgfTsKfQo=
+type ToolCallLike = {
+    id?: unknown;
+    type?: unknown;
+    function?: {
+        name?: unknown;
+        arguments?: unknown;
+        [key: string]: unknown;
+    };
+    [key: string]: unknown;
+};
+
+const safeFragment = (value: string): string =>
+    value.replace(/[^A-Za-z0-9_-]/g, '_').replace(/_+/g, '_').slice(0, 48) || 'tool';
+
+/**
+ * Gemini 的 OpenAI 兼容层偶尔会返回空 tool_call.id；结果回填时又要求
+ * function_response.name 非空。先把本轮调用规范化，确保 assistant.tool_calls
+ * 和后续 role=tool 消息使用同一组稳定 id/name。
+ */
+export function normalizeToolCallsForCompat(toolCalls: unknown, scope = 'tool'): any[] {
+    if (!Array.isArray(toolCalls)) return [];
+
+    const seenIds = new Set<string>();
+    const safeScope = safeFragment(scope);
+
+    return toolCalls.map((rawCall: ToolCallLike, index: number) => {
+        const rawName = typeof rawCall?.function?.name === 'string'
+            ? rawCall.function.name.trim()
+            : '';
+        const name = rawName || 'unknown_tool';
+        const rawId = typeof rawCall?.id === 'string' ? rawCall.id.trim() : '';
+        let id = rawId;
+
+        if (!id || seenIds.has(id)) {
+            id = `call_${safeScope}_${safeFragment(name)}_${index}`;
+        }
+        seenIds.add(id);
+
+        return {
+            ...rawCall,
+            id,
+            type: rawCall?.type || 'function',
+            function: {
+                ...(rawCall?.function || {}),
+                name,
+            },
+        };
+    });
+}
+
+export function buildToolResultMessage(toolCall: ToolCallLike, content: string): {
+    role: 'tool';
+    name: string;
+    tool_call_id: string;
+    content: string;
+} {
+    const name = typeof toolCall?.function?.name === 'string' && toolCall.function.name.trim()
+        ? toolCall.function.name.trim()
+        : 'unknown_tool';
+    const toolCallId = typeof toolCall?.id === 'string' && toolCall.id.trim()
+        ? toolCall.id.trim()
+        : `call_result_${safeFragment(name)}`;
+
+    return {
+        role: 'tool',
+        name,
+        tool_call_id: toolCallId,
+        content,
+    };
+}

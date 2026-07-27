@@ -1,1 +1,32 @@
-LyoqCiAqIOaKiuivt+axgumHjOeahOWkmuadoSByb2xlOnN5c3RlbSDlkIjlubbmiJDlvIDlpLTkuIDmnaHvvIhkZXYtZGVidWcg5o6S6Zqc55So77yJ44CCCiAqCiAqIFN1bGx5T1Mg55qE6IGK5aSp6K+35rGC6buY6K6k5piv5LiJ5q615byP77yaW+eos+WumiBzeXN0ZW0sIC4uLuWOhuWPsiwg5piT5Y+YIHN5c3RlbV3vvIjlpJbliqDlj4zor60gLwogKiBNQ1Ag5o+Q6YaS5p2h5Lmf5Y+v6IO95pivIHN5c3Rlbe+8ieOAguato+inhCBPcGVuQUnihpJDbGF1ZGUg5YW85a655bGC5Lya5q2j56Gu5b2S5bm25aSa5p2hIHN5c3Rlbe+8jAogKiDkvYbnpL7ljLrpgIblkJHnmoTpgILphY3lsYLlj6/og73lnKjlpITnkIbljoblj7LkuYvlkI7nmoQgc3lzdGVtIOaXtumHjeWkjeaLvOaOpeWJjeaWh++8jOWvvOiHtCBwcm9tcHRfdG9rZW5zCiAqIOW8guW4uOiGqOiDgOOAgui/meS4que6r+WHveaVsOmFjeWQiCBkZXZEZWJ1ZyDnmoQgbWVyZ2VTeXN0ZW1NZXNzYWdlcyDlvIDlhbPlgZogQS9CIOWvueeFp++8mgogKiDlkIjlubblkI7orqHotLnpqqTpmY0g4oaSIOS4rei9rOmAgumFjeWxgumXrumimOWdkOWunu+8m+S4jeWPmCDihpIg5piv6K6h6YeP77yIdG9rZW5pemVy77yJ5Y+j5b6E6Zeu6aKY44CCCiAqCiAqIOivreS5ieS7o+S7t++8iOaJgOS7peWPquWBmuS4tOaXtuW8gOWFs+OAgem7mOiupOWFs++8ie+8muaYk+WPmOWwvuauteacrOivpei0tOedgOeUn+aIkOeCueazqOWFpeS7peiOt+W+lyByZWNlbmN5CiAqIOazqOaEj+WKm++8jOWQiOW5tui/m+WktOmDqOS8muWJiuW8sei/meS4gOiuvuiuoe+8jOS4lOaUueWPmOeos+WumuWJjee8gCDihpIg5YmN57yA57yT5a2Y5pW05L2T5aSx5pWI44CCCiAqLwoKZXhwb3J0IGludGVyZmFjZSBDaGF0TWVzc2FnZUxpa2UgewogICAgcm9sZTogc3RyaW5nOwogICAgY29udGVudDogYW55Owp9CgovKioKICog5omA5pyJIHN5c3RlbSDnmoTlhoXlrrnmjInlh7rnjrDpobrluo/nlKjnqbrooYzmi7zmjqXvvIzmlL7liLDlvIDlpLTkuIDmnaHvvJvpnZ4gc3lzdGVtIOa2iOaBr+S/neaMgeebuOWvuemhuuW6j+OAggogKiDlj6rmnIkgMC8xIOadoSBzeXN0ZW0g5pe25Y6f5qC36L+U5Zue77yI5LiN5YGa5peg6LCT55qE5pWw57uE6YeN5bu677yJ44CCCiAqLwpleHBvcnQgZnVuY3Rpb24gbWVyZ2VTeXN0ZW1NZXNzYWdlczxUIGV4dGVuZHMgQ2hhdE1lc3NhZ2VMaWtlPihtZXNzYWdlczogVFtdKTogVFtdIHsKICAgIGNvbnN0IHN5c3RlbXMgPSBtZXNzYWdlcy5maWx0ZXIobSA9PiBtLnJvbGUgPT09ICdzeXN0ZW0nKTsKICAgIGlmIChzeXN0ZW1zLmxlbmd0aCA8PSAxKSByZXR1cm4gbWVzc2FnZXM7CiAgICBjb25zdCBtZXJnZWQgPSBzeXN0ZW1zCiAgICAgICAgLm1hcChtID0+IHR5cGVvZiBtLmNvbnRlbnQgPT09ICdzdHJpbmcnID8gbS5jb250ZW50IDogSlNPTi5zdHJpbmdpZnkobS5jb250ZW50KSkKICAgICAgICAuZmlsdGVyKHBhcnQgPT4gcGFydCAmJiBwYXJ0LnRyaW0oKSkKICAgICAgICAuam9pbignXG5cbicpOwogICAgY29uc3QgcmVzdCA9IG1lc3NhZ2VzLmZpbHRlcihtID0+IG0ucm9sZSAhPT0gJ3N5c3RlbScpOwogICAgcmV0dXJuIFt7IC4uLnN5c3RlbXNbMF0sIGNvbnRlbnQ6IG1lcmdlZCB9LCAuLi5yZXN0XTsKfQo=
+/**
+ * 把请求里的多条 role:system 合并成开头一条（dev-debug 排障用）。
+ *
+ * SullyOS 的聊天请求默认是三段式：[稳定 system, ...历史, 易变 system]（外加双语 /
+ * MCP 提醒条也可能是 system）。正规 OpenAI→Claude 兼容层会正确归并多条 system，
+ * 但社区逆向的适配层可能在处理历史之后的 system 时重复拼接前文，导致 prompt_tokens
+ * 异常膨胀。这个纯函数配合 devDebug 的 mergeSystemMessages 开关做 A/B 对照：
+ * 合并后计费骤降 → 中转适配层问题坐实；不变 → 是计量（tokenizer）口径问题。
+ *
+ * 语义代价（所以只做临时开关、默认关）：易变尾段本该贴着生成点注入以获得 recency
+ * 注意力，合并进头部会削弱这一设计，且改变稳定前缀 → 前缀缓存整体失效。
+ */
+
+export interface ChatMessageLike {
+    role: string;
+    content: any;
+}
+
+/**
+ * 所有 system 的内容按出现顺序用空行拼接，放到开头一条；非 system 消息保持相对顺序。
+ * 只有 0/1 条 system 时原样返回（不做无谓的数组重建）。
+ */
+export function mergeSystemMessages<T extends ChatMessageLike>(messages: T[]): T[] {
+    const systems = messages.filter(m => m.role === 'system');
+    if (systems.length <= 1) return messages;
+    const merged = systems
+        .map(m => typeof m.content === 'string' ? m.content : JSON.stringify(m.content))
+        .filter(part => part && part.trim())
+        .join('\n\n');
+    const rest = messages.filter(m => m.role !== 'system');
+    return [{ ...systems[0], content: merged }, ...rest];
+}

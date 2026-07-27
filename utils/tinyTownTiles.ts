@@ -1,1 +1,611 @@
-LyoqCiAqIENpdHkgVGlsZSBHZW5lcmF0b3Ig4oCUIOeyvuiHtOmDveW4gueJiCB2MgogKgogKiDnlKggQ2FudmFzIEFQSSDlnKjov5DooYzml7bnlJ/miJDnjrDku6Pln47luILpo47moLzlg4/ntKDlnLDnoJYKICogdjI6IOWNh+e6p+WIsCAzMngzMiDlg4/ntKDvvIzliqDlhaXmipbliqjmuJDlj5jjgIHkuprlg4/ntKDnu4boioLjgIHlj43lhYnmlYjmnpwKICog5pu057K+6Ie055qE5bu6562R6L2u5buT44CB56qX5oi35o6S5YiX5ZKM6ZyT6Jm554Gv5YWJ5pWICiAqLwoKaW1wb3J0IHsgU2ltU2Vhc29uIH0gZnJvbSAnLi4vdHlwZXMnOwoKY29uc3QgVElMRV9TSVpFID0gMzI7CgpmdW5jdGlvbiBjcmVhdGVUaWxlQ2FudmFzKCk6IFtIVE1MQ2FudmFzRWxlbWVudCwgQ2FudmFzUmVuZGVyaW5nQ29udGV4dDJEXSB7CiAgICBjb25zdCBjID0gZG9jdW1lbnQuY3JlYXRlRWxlbWVudCgnY2FudmFzJyk7CiAgICBjLndpZHRoID0gVElMRV9TSVpFOyBjLmhlaWdodCA9IFRJTEVfU0laRTsKICAgIGNvbnN0IGN0eCA9IGMuZ2V0Q29udGV4dCgnMmQnKSE7CiAgICBjdHguaW1hZ2VTbW9vdGhpbmdFbmFibGVkID0gZmFsc2U7CiAgICByZXR1cm4gW2MsIGN0eF07Cn0KCmZ1bmN0aW9uIHB4KGN0eDogQ2FudmFzUmVuZGVyaW5nQ29udGV4dDJELCB4OiBudW1iZXIsIHk6IG51bWJlciwgY29sb3I6IHN0cmluZykgewogICAgY3R4LmZpbGxTdHlsZSA9IGNvbG9yOyBjdHguZmlsbFJlY3QoeCwgeSwgMSwgMSk7Cn0KCmZ1bmN0aW9uIGZpbGwoY3R4OiBDYW52YXNSZW5kZXJpbmdDb250ZXh0MkQsIGNvbG9yOiBzdHJpbmcpIHsKICAgIGN0eC5maWxsU3R5bGUgPSBjb2xvcjsgY3R4LmZpbGxSZWN0KDAsIDAsIFRJTEVfU0laRSwgVElMRV9TSVpFKTsKfQoKZnVuY3Rpb24gcmVjdChjdHg6IENhbnZhc1JlbmRlcmluZ0NvbnRleHQyRCwgeDogbnVtYmVyLCB5OiBudW1iZXIsIHc6IG51bWJlciwgaDogbnVtYmVyLCBjb2xvcjogc3RyaW5nKSB7CiAgICBjdHguZmlsbFN0eWxlID0gY29sb3I7IGN0eC5maWxsUmVjdCh4LCB5LCB3LCBoKTsKfQoKLyoqIOacieW6j+aKluWKqCAob3JkZXJlZCBkaXRoZXJpbmcpIDJ4MiBCYXllciDnn6npmLUgKi8KZnVuY3Rpb24gZGl0aGVyKGN0eDogQ2FudmFzUmVuZGVyaW5nQ29udGV4dDJELCB4OiBudW1iZXIsIHk6IG51bWJlciwgdzogbnVtYmVyLCBoOiBudW1iZXIsIGMxOiBzdHJpbmcsIGMyOiBzdHJpbmcsIHRocmVzaG9sZCA9IDAuNSkgewogICAgY29uc3QgYmF5ZXIgPSBbWzAuMDAsIDAuNTBdLCBbMC43NSwgMC4yNV1dOwogICAgZm9yIChsZXQgcHkgPSB5OyBweSA8IHkgKyBoOyBweSsrKSB7CiAgICAgICAgZm9yIChsZXQgcHgyID0geDsgcHgyIDwgeCArIHc7IHB4MisrKSB7CiAgICAgICAgICAgIGNvbnN0IHYgPSBiYXllcltweSAlIDJdW3B4MiAlIDJdOwogICAgICAgICAgICBjdHguZmlsbFN0eWxlID0gdiA8IHRocmVzaG9sZCA/IGMxIDogYzI7CiAgICAgICAgICAgIGN0eC5maWxsUmVjdChweDIsIHB5LCAxLCAxKTsKICAgICAgICB9CiAgICB9Cn0KCi8qKiDpq5jlhYnmnaHnurkgKi8KZnVuY3Rpb24gaGlnaGxpZ2h0KGN0eDogQ2FudmFzUmVuZGVyaW5nQ29udGV4dDJELCB4OiBudW1iZXIsIHk6IG51bWJlciwgdzogbnVtYmVyLCBoOiBudW1iZXIsIGFscGhhID0gMC4xNSkgewogICAgY3R4Lmdsb2JhbEFscGhhID0gYWxwaGE7CiAgICBjdHguZmlsbFN0eWxlID0gJyNmZmZmZmYnOwogICAgY3R4LmZpbGxSZWN0KHgsIHksIHcsIGgpOwogICAgY3R4Lmdsb2JhbEFscGhhID0gMTsKfQoKLyoqIOmYtOW9seadoee6uSAqLwpmdW5jdGlvbiBzaGFkb3coY3R4OiBDYW52YXNSZW5kZXJpbmdDb250ZXh0MkQsIHg6IG51bWJlciwgeTogbnVtYmVyLCB3OiBudW1iZXIsIGg6IG51bWJlciwgYWxwaGEgPSAwLjIpIHsKICAgIGN0eC5nbG9iYWxBbHBoYSA9IGFscGhhOwogICAgY3R4LmZpbGxTdHlsZSA9ICcjMDAwMDAwJzsKICAgIGN0eC5maWxsUmVjdCh4LCB5LCB3LCBoKTsKICAgIGN0eC5nbG9iYWxBbHBoYSA9IDE7Cn0KCi8vIOKUgOKUgCDosIPoibLmnb8g4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSACgpjb25zdCBQQUwgPSB7CiAgICAvLyDlnLDpnaIKICAgIGFzcGhhbHQ6ICcjMmEyYTNhJywgYXNwaGFsdE1pZDogJyMzMjMyNDInLCBhc3BoYWx0TGlnaHQ6ICcjM2EzYTRhJywgYXNwaGFsdERhcms6ICcjMWUxZTJlJywKICAgIHNpZGV3YWxrOiAnIzRhNGE1YScsIHNpZGV3YWxrTGlnaHQ6ICcjNWE1YTZhJywgc2lkZXdhbGtNaWQ6ICcjNTI1MjYyJywKICAgIHJvYWQ6ICcjMzAzMDQwJywgcm9hZExpbmU6ICcjZThjODQwJywgcm9hZExpbmVXaGl0ZTogJyNjY2NjY2MnLAogICAgLy8g5bu6562R5Z+656GACiAgICBjb25jcmV0ZTogJyM1NTU1NjgnLCBjb25jcmV0ZURhcms6ICcjM2QzZDUwJywgY29uY3JldGVMaWdodDogJyM2YTZhN2QnLCBjb25jcmV0ZU1pZDogJyM0YzRjNjAnLAogICAgZ2xhc3M6ICcjMmQ0NTcwJywgZ2xhc3NCcmlnaHQ6ICcjNGE3MGE4JywgZ2xhc3NSZWZsZWN0OiAnIzdhYTBkMCcsIGdsYXNzRGFyazogJyMxZTMwNTgnLAogICAgc3RlZWw6ICcjNWE1YTZhJywgc3RlZWxEYXJrOiAnIzQwNDA1MCcsIHN0ZWVsTGlnaHQ6ICcjN2E3YThhJywgc3RlZWxNaWQ6ICcjNGQ0ZDVkJywKICAgIGJyaWNrOiAnIzZhNDAzMCcsIGJyaWNrRGFyazogJyM0YTI4MjAnLCBicmlja0xpZ2h0OiAnIzhhNWE0OCcsIGJyaWNrTWlkOiAnIzdhNGEzOCcsCiAgICAvLyDpnJPombnoibLvvIjmm7Tmn5TlkozjgIHmm7TkuLDlr4znmoTlsYLmrKHvvIkKICAgIG5lb25QaW5rOiAnI2ZmNDQ4OCcsIG5lb25QaW5rR2xvdzogJyNmZjg4YWEnLCBuZW9uQmx1ZTogJyM0NGFhZmYnLCBuZW9uQmx1ZUdsb3c6ICcjODhjY2ZmJywKICAgIG5lb25HcmVlbjogJyM0NGZmODgnLCBuZW9uR3JlZW5HbG93OiAnIzg4ZmZhYScsCiAgICBuZW9uUHVycGxlOiAnI2FhNDRmZicsIG5lb25QdXJwbGVHbG93OiAnI2NjODhmZicsCiAgICBuZW9uT3JhbmdlOiAnI2ZmODg0NCcsIG5lb25ZZWxsb3c6ICcjZmZkZDQ0JywKICAgIC8vIOeql+aIt++8iOabtOS4sOWvjOeahOeBr+WFieiJsuiwg++8iQogICAgd2luZG93V2FybTogJyNmZmU4YTAnLCB3aW5kb3dDb29sOiAnI2EwYzhmZicsIHdpbmRvd0Rhcms6ICcjMjAyMDMwJywgd2luZG93R2xvdzogJyNmZmY0ZDAnLAogICAgd2luZG93Qmx1ZTogJyM0MDgwYjgnLAogICAgLy8g6ZeoCiAgICBkb29yTWV0YWw6ICcjNDg0ODU4JywgZG9vckdsYXNzOiAnIzNhNjA5MCcsIGRvb3JGcmFtZTogJyMzODM4NDgnLAogICAgLy8g5qSN54mp77yI5Z+O5biC57u/5YyW77yJCiAgICB0cmVlRGFyazogJyMxYTVhMzAnLCB0cmVlTGlnaHQ6ICcjMmE3YTQwJywgdHJlZU1pZDogJyMyMDZhMzgnLCBsZWFmU2hhZG93OiAnIzE0NTAyOCcsCiAgICAvLyDpgJrnlKgKICAgIG91dGxpbmU6ICcjMWExYTJhJywgd2hpdGU6ICcjZThlOGYwJywgYmxhY2s6ICcjMGMwYzE4JywKICAgIHdhcm1HcmF5OiAnIzZiNjU3NycsCiAgICAvLyDlraPoioLlj5jkvZMKICAgIHNwcmluZ05lb246ICcjZmY4OGNjJywgc3VtbWVyTmVvbjogJyNmZjQ0NDQnLCBmYWxsTmVvbjogJyNmZjg4MDAnLCB3aW50ZXJOZW9uOiAnIzg4Y2NmZicsCiAgICAvLyDmsLQv5YWs5ZutCiAgICBwYXJrR3JlZW46ICcjMWE0YTI4JywgcGFya0xpZ2h0OiAnIzJhNmEzYScsIHBhcmtNaWQ6ICcjMjI1YTMyJywgcG9uZEJsdWU6ICcjMjg0OGEwJywKfTsKCi8vIOKUgOKUgCDlnLDpnaIg4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSACgpmdW5jdGlvbiBkcmF3QXNwaGFsdChjdHg6IENhbnZhc1JlbmRlcmluZ0NvbnRleHQyRCkgewogICAgZmlsbChjdHgsIFBBTC5hc3BoYWx0KTsKICAgIC8vIOeyvuiHtOeijuefs+e6ueeQhiAtIOWkmuWxguasoQogICAgZGl0aGVyKGN0eCwgMCwgMCwgMTYsIDE2LCBQQUwuYXNwaGFsdCwgUEFMLmFzcGhhbHRNaWQsIDAuNik7CiAgICBkaXRoZXIoY3R4LCAxNiwgMTYsIDE2LCAxNiwgUEFMLmFzcGhhbHQsIFBBTC5hc3BoYWx0TWlkLCAwLjYpOwogICAgLy8g5pWj6JC957uG6IqC54K5CiAgICBjb25zdCBzcG90cyA9IFtbMyw1XSxbOCwyXSxbMTQsOV0sWzIyLDRdLFsyNywxM10sWzYsMjBdLFsxOCwyNF0sWzI1LDI4XSxbMTAsMzBdLFs0LDE0XSxbMjAsN10sWzMwLDE5XV07CiAgICBzcG90cy5mb3JFYWNoKChbeCwgeV0pID0+IHB4KGN0eCwgeCwgeSwgUEFMLmFzcGhhbHRMaWdodCkpOwogICAgY29uc3QgZGFya1Nwb3RzID0gW1sxLDhdLFsxMiwzXSxbMTksMTVdLFsyNiwyMl0sWzcsMjddLFsxNSwxOV0sWzI4LDZdLFs1LDI1XV07CiAgICBkYXJrU3BvdHMuZm9yRWFjaCgoW3gsIHldKSA9PiBweChjdHgsIHgsIHksIFBBTC5hc3BoYWx0RGFyaykpOwogICAgLy8g5b6u6KOC57q5CiAgICByZWN0KGN0eCwgMTAsIDE0LCA0LCAxLCBQQUwuYXNwaGFsdERhcmspOwogICAgcHgoY3R4LCAxNCwgMTUsIFBBTC5hc3BoYWx0RGFyayk7Cn0KCmZ1bmN0aW9uIGRyYXdBc3BoYWx0QWx0KGN0eDogQ2FudmFzUmVuZGVyaW5nQ29udGV4dDJEKSB7CiAgICBmaWxsKGN0eCwgUEFMLmFzcGhhbHRNaWQpOwogICAgZGl0aGVyKGN0eCwgMCwgMCwgMzIsIDMyLCBQQUwuYXNwaGFsdE1pZCwgUEFMLmFzcGhhbHRMaWdodCwgMC42NSk7CiAgICAvLyDmjpLmsLTlj6Pnm5YKICAgIHJlY3QoY3R4LCAxMiwgMTIsIDgsIDgsIFBBTC5hc3BoYWx0RGFyayk7CiAgICByZWN0KGN0eCwgMTMsIDEzLCA2LCA2LCBQQUwuc3RlZWxEYXJrKTsKICAgIGZvciAobGV0IGkgPSAwOyBpIDwgNDsgaSsrKSByZWN0KGN0eCwgMTQsIDE0ICsgaSAqIDEuNSwgNCwgMSwgUEFMLmFzcGhhbHREYXJrKTsKICAgIGhpZ2hsaWdodChjdHgsIDEzLCAxMywgNiwgMSwgMC4xKTsKfQoKZnVuY3Rpb24gZHJhd1JvYWQoY3R4OiBDYW52YXNSZW5kZXJpbmdDb250ZXh0MkQpIHsKICAgIGZpbGwoY3R4LCBQQUwucm9hZCk7CiAgICBkaXRoZXIoY3R4LCAwLCAwLCAzMiwgMzIsIFBBTC5yb2FkLCBQQUwuYXNwaGFsdERhcmssIDAuNyk7CiAgICAvLyDkuK3pl7TomZrnur8KICAgIHJlY3QoY3R4LCAxNSwgMCwgMiwgNiwgUEFMLnJvYWRMaW5lV2hpdGUpOwogICAgcmVjdChjdHgsIDE1LCAxNCwgMiwgNiwgUEFMLnJvYWRMaW5lV2hpdGUpOwogICAgLy8g6L6557q/CiAgICByZWN0KGN0eCwgMCwgMCwgMiwgMzIsIFBBTC5yb2FkTGluZVdoaXRlKTsKICAgIHJlY3QoY3R4LCAzMCwgMCwgMiwgMzIsIFBBTC5yb2FkTGluZVdoaXRlKTsKICAgIC8vIOi3r+mdouWPjeWFiQogICAgaGlnaGxpZ2h0KGN0eCwgOCwgMTAsIDYsIDEsIDAuMDYpOwogICAgaGlnaGxpZ2h0KGN0eCwgMTgsIDIyLCA4LCAxLCAwLjA2KTsKfQoKZnVuY3Rpb24gZHJhd1NpZGV3YWxrKGN0eDogQ2FudmFzUmVuZGVyaW5nQ29udGV4dDJEKSB7CiAgICBmaWxsKGN0eCwgUEFMLnNpZGV3YWxrKTsKICAgIC8vIOegluWdl+e6ueeQhiDigJQg57K+6Ie05Lqk6ZSZ5o6S5YiXCiAgICBmb3IgKGxldCB5ID0gMDsgeSA8IDMyOyB5ICs9IDQpIHsKICAgICAgICBjb25zdCBvZmZzZXQgPSAoeSAvIDQpICUgMiA9PT0gMCA/IDAgOiA0OwogICAgICAgIGZvciAobGV0IHggPSAtNDsgeCA8IDM2OyB4ICs9IDgpIHsKICAgICAgICAgICAgcmVjdChjdHgsIHggKyBvZmZzZXQsIHksIDcsIDMsIFBBTC5zaWRld2Fsa0xpZ2h0KTsKICAgICAgICAgICAgc2hhZG93KGN0eCwgeCArIG9mZnNldCwgeSArIDMsIDcsIDEsIDAuMSk7CiAgICAgICAgICAgIGhpZ2hsaWdodChjdHgsIHggKyBvZmZzZXQsIHksIDcsIDEsIDAuMDgpOwogICAgICAgIH0KICAgIH0KICAgIC8vIOeBsOWwmOaxoea4jQogICAgcHgoY3R4LCA1LCA3LCBQQUwuc2lkZXdhbGtNaWQpOyBweChjdHgsIDIwLCAyMywgUEFMLnNpZGV3YWxrTWlkKTsKfQoKZnVuY3Rpb24gZHJhd1BhcmsoY3R4OiBDYW52YXNSZW5kZXJpbmdDb250ZXh0MkQpIHsKICAgIGZpbGwoY3R4LCBQQUwucGFya0dyZWVuKTsKICAgIGRpdGhlcihjdHgsIDAsIDAsIDMyLCAzMiwgUEFMLnBhcmtHcmVlbiwgUEFMLnBhcmtNaWQsIDAuNTUpOwogICAgLy8g6I2J5Y+257q555CGCiAgICBjb25zdCBncmFzc0JsYWRlcyA9IFtbMiwzXSxbNiw4XSxbMTAsMV0sWzE1LDEyXSxbMjAsNV0sWzI1LDldLFsyOCwxNV0sWzQsMjBdLFsxMiwyNF0sWzE4LDI4XSxbMjQsMjJdLFszMCwzXSxbOCwxNl0sWzIyLDE4XV07CiAgICBncmFzc0JsYWRlcy5mb3JFYWNoKChbeCwgeV0pID0+IHsgcHgoY3R4LCB4LCB5LCBQQUwucGFya0xpZ2h0KTsgcHgoY3R4LCB4LCB5LTEsIFBBTC50cmVlTGlnaHQpOyB9KTsKICAgIC8vIOWwj+iKsQogICAgcHgoY3R4LCA3LCAxMSwgJyNlODc5ZjknKTsgcHgoY3R4LCAyMywgNywgJyNmYmJmMjQnKTsgcHgoY3R4LCAxNCwgMjYsICcjZmI3MTg1Jyk7Cn0KCi8vIOKUgOKUgCDlu7rnrZEg4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSACgpmdW5jdGlvbiBkcmF3QXBhcnRtZW50KGN0eDogQ2FudmFzUmVuZGVyaW5nQ29udGV4dDJELCBhY2NlbnRDb2xvciA9IFBBTC5uZW9uQmx1ZSkgewogICAgZmlsbChjdHgsIFBBTC5hc3BoYWx0KTsKICAgIC8vIOW7uuetkeS4u+S9kyDigJQg5YiG5bGC5riQ5Y+YCiAgICByZWN0KGN0eCwgMywgMywgMjYsIDI3LCBQQUwuY29uY3JldGUpOwogICAgZGl0aGVyKGN0eCwgMywgMywgMjYsIDI3LCBQQUwuY29uY3JldGUsIFBBTC5jb25jcmV0ZU1pZCwgMC42KTsKICAgIC8vIOW6lemDqOmYtOW9sQogICAgcmVjdChjdHgsIDMsIDI4LCAyNiwgMiwgUEFMLmNvbmNyZXRlRGFyayk7CiAgICBzaGFkb3coY3R4LCAzLCAyNiwgMjYsIDIsIDAuMTUpOwogICAgLy8g56qX5oi3572R5qC8IOKAlCDnsr7oh7TmjpLliJcKICAgIGZvciAobGV0IHkgPSA1OyB5IDwgMjY7IHkgKz0gNCkgewogICAgICAgIGZvciAobGV0IHggPSA1OyB4IDwgMjc7IHggKz0gNSkgewogICAgICAgICAgICBjb25zdCBsaXQgPSAoKHggKiA3ICsgeSAqIDEzKSAlIDEwKSA+IDM7CiAgICAgICAgICAgIGNvbnN0IHdjID0gbGl0ID8gKCgoeCArIHkpICUgMyA9PT0gMCkgPyBQQUwud2luZG93Q29vbCA6IFBBTC53aW5kb3dXYXJtKSA6IFBBTC53aW5kb3dEYXJrOwogICAgICAgICAgICByZWN0KGN0eCwgeCwgeSwgMywgMiwgd2MpOwogICAgICAgICAgICBpZiAobGl0KSB7CiAgICAgICAgICAgICAgICAvLyDnqpfmoYYKICAgICAgICAgICAgICAgIHJlY3QoY3R4LCB4LCB5LCAzLCAxLCBQQUwud2luZG93R2xvdyk7CiAgICAgICAgICAgICAgICBzaGFkb3coY3R4LCB4LCB5ICsgMiwgMywgMSwgMC4xNSk7CiAgICAgICAgICAgIH0KICAgICAgICAgICAgLy8g56qX5qGG5o+P6L65CiAgICAgICAgICAgIGN0eC5nbG9iYWxBbHBoYSA9IDAuMjsKICAgICAgICAgICAgY3R4LnN0cm9rZVN0eWxlID0gUEFMLm91dGxpbmU7CiAgICAgICAgICAgIGN0eC5zdHJva2VSZWN0KHggLSAwLjUsIHkgLSAwLjUsIDQsIDMpOwogICAgICAgICAgICBjdHguZ2xvYmFsQWxwaGEgPSAxOwogICAgICAgIH0KICAgIH0KICAgIC8vIOWFpeWPo+mXqOWOhQogICAgcmVjdChjdHgsIDEyLCAyNCwgOCwgNiwgUEFMLmRvb3JHbGFzcyk7CiAgICByZWN0KGN0eCwgMTEsIDI0LCAxLCA2LCBQQUwuZG9vckZyYW1lKTsKICAgIHJlY3QoY3R4LCAyMCwgMjQsIDEsIDYsIFBBTC5kb29yRnJhbWUpOwogICAgaGlnaGxpZ2h0KGN0eCwgMTMsIDI0LCAzLCA2LCAwLjEyKTsKICAgIC8vIOmck+iZuemhtue6vyDigJQg5Y+M5bGC5Y+R5YWJCiAgICByZWN0KGN0eCwgMywgMywgMjYsIDIsIGFjY2VudENvbG9yKTsKICAgIGN0eC5nbG9iYWxBbHBoYSA9IDAuMzsKICAgIGN0eC5maWxsU3R5bGUgPSBhY2NlbnRDb2xvcjsKICAgIGN0eC5maWxsUmVjdCgzLCAxLCAyNiwgMik7CiAgICBjdHguZ2xvYmFsQWxwaGEgPSAxOwogICAgLy8g5bu6562R6L6557yY6auY5YWJCiAgICBoaWdobGlnaHQoY3R4LCAzLCAzLCAxLCAyNSwgMC4wOCk7Cn0KCmZ1bmN0aW9uIGRyYXdTa3lzY3JhcGVyKGN0eDogQ2FudmFzUmVuZGVyaW5nQ29udGV4dDJEKSB7CiAgICBmaWxsKGN0eCwgUEFMLmFzcGhhbHQpOwogICAgLy8g6auY5qW85Li75L2TIOKAlCDnjrvnkoPluZXlopkKICAgIHJlY3QoY3R4LCA2LCAxLCAyMCwgMjksIFBBTC5nbGFzcyk7CiAgICBkaXRoZXIoY3R4LCA2LCAxLCAyMCwgMjksIFBBTC5nbGFzcywgUEFMLmdsYXNzRGFyaywgMC41NSk7CiAgICByZWN0KGN0eCwgNiwgMjksIDIwLCAyLCBQQUwuc3RlZWxEYXJrKTsKICAgIC8vIOW5leWimeaoquadoeWPjeWFiQogICAgZm9yIChsZXQgeSA9IDM7IHkgPCAyODsgeSArPSAzKSB7CiAgICAgICAgcmVjdChjdHgsIDcsIHksIDE4LCAxLCBQQUwuZ2xhc3NCcmlnaHQpOwogICAgICAgIGhpZ2hsaWdodChjdHgsIDcsIHksIDEwLCAxLCAwLjEyKTsKICAgIH0KICAgIC8vIOeql+aIt+eBr+WFieeCuSDigJQg6ZqP5py65L2G5Zu65a6aCiAgICBmb3IgKGxldCB5ID0gNTsgeSA8IDI3OyB5ICs9IDQpIHsKICAgICAgICBmb3IgKGxldCB4ID0gODsgeCA8IDI0OyB4ICs9IDQpIHsKICAgICAgICAgICAgY29uc3QgbGl0ID0gKCh4ICogMTEgKyB5ICogNykgJSAxMCkgPiA0OwogICAgICAgICAgICBpZiAobGl0KSB7CiAgICAgICAgICAgICAgICBweChjdHgsIHgsIHksIFBBTC53aW5kb3dXYXJtKTsKICAgICAgICAgICAgICAgIHB4KGN0eCwgeCArIDEsIHksIFBBTC53aW5kb3dXYXJtKTsKICAgICAgICAgICAgfQogICAgICAgIH0KICAgIH0KICAgIC8vIOWkqee6vyDigJQg5pu057K+6Ie0CiAgICByZWN0KGN0eCwgMTUsIDAsIDIsIDIsIFBBTC5zdGVlbExpZ2h0KTsKICAgIHB4KGN0eCwgMTUsIDAsIFBBTC5uZW9uUGluayk7CiAgICBweChjdHgsIDE2LCAwLCBQQUwubmVvblBpbmtHbG93KTsKICAgIC8vIOalvOS9k+WPs+S+p+mYtOW9sQogICAgc2hhZG93KGN0eCwgMjQsIDEsIDIsIDI5LCAwLjEyKTsKICAgIC8vIOWFpeWPowogICAgcmVjdChjdHgsIDEzLCAyNywgNiwgNCwgUEFMLmRvb3JHbGFzcyk7CiAgICBoaWdobGlnaHQoY3R4LCAxNCwgMjcsIDIsIDQsIDAuMSk7Cn0KCmZ1bmN0aW9uIGRyYXdDYWZlKGN0eDogQ2FudmFzUmVuZGVyaW5nQ29udGV4dDJEKSB7CiAgICBmaWxsKGN0eCwgUEFMLmFzcGhhbHQpOwogICAgLy8g5bqX6Z2i5Li75L2TIOKAlCDnoJblopnotKjmhJ8KICAgIHJlY3QoY3R4LCAyLCAxMCwgMjgsIDIwLCBQQUwuYnJpY2tMaWdodCk7CiAgICBkaXRoZXIoY3R4LCAyLCAxMCwgMjgsIDIwLCBQQUwuYnJpY2tMaWdodCwgUEFMLmJyaWNrTWlkLCAwLjYpOwogICAgcmVjdChjdHgsIDIsIDI5LCAyOCwgMiwgUEFMLmJyaWNrRGFyayk7CiAgICAvLyDnoJbnurnnu4boioIKICAgIGZvciAobGV0IHkgPSAxMjsgeSA8IDI4OyB5ICs9IDQpIHsKICAgICAgICBjb25zdCBvZmYgPSAoeSAvIDQpICUgMiA9PT0gMCA/IDAgOiAzOwogICAgICAgIGZvciAobGV0IHggPSAyICsgb2ZmOyB4IDwgMzA7IHggKz0gNikgewogICAgICAgICAgICBzaGFkb3coY3R4LCB4LCB5ICsgMywgNSwgMSwgMC4wOCk7CiAgICAgICAgfQogICAgfQogICAgLy8g5aSn546755KD5qmx56qXCiAgICByZWN0KGN0eCwgMywgMTYsIDEwLCA4LCBQQUwud2luZG93Qmx1ZSk7CiAgICByZWN0KGN0eCwgMTksIDE2LCAxMCwgOCwgUEFMLndpbmRvd0JsdWUpOwogICAgaGlnaGxpZ2h0KGN0eCwgMywgMTYsIDQsIDgsIDAuMTUpOwogICAgaGlnaGxpZ2h0KGN0eCwgMTksIDE2LCA0LCA4LCAwLjE1KTsKICAgIC8vIOeql+aIt+WGhemDqOa4qeaaluWFieeCuQogICAgcHgoY3R4LCA2LCAxOSwgUEFMLndpbmRvd1dhcm0pOyBweChjdHgsIDgsIDIwLCBQQUwud2luZG93V2FybSk7CiAgICBweChjdHgsIDIzLCAxOSwgUEFMLndpbmRvd1dhcm0pOyBweChjdHgsIDI1LCAyMCwgUEFMLndpbmRvd1dhcm0pOwogICAgLy8g6ZeoCiAgICByZWN0KGN0eCwgMTQsIDE4LCA0LCAxMywgUEFMLmRvb3JHbGFzcyk7CiAgICByZWN0KGN0eCwgMTMsIDE4LCAxLCAxMywgUEFMLmRvb3JGcmFtZSk7CiAgICByZWN0KGN0eCwgMTgsIDE4LCAxLCAxMywgUEFMLmRvb3JGcmFtZSk7CiAgICAvLyDpga7pmLPnr7cg4oCUIOabtOeyvuiHtOeahOadoee6uQogICAgZm9yIChsZXQgeCA9IDE7IHggPCAzMTsgeCsrKSB7CiAgICAgICAgY29uc3Qgc3RyaXBlID0gTWF0aC5mbG9vcih4IC8gMykgJSAyOwogICAgICAgIGNvbnN0IGMgPSBzdHJpcGUgPT09IDAgPyBQQUwubmVvbk9yYW5nZSA6IFBBTC53aGl0ZTsKICAgICAgICByZWN0KGN0eCwgeCwgOCwgMSwgMywgYyk7CiAgICB9CiAgICBzaGFkb3coY3R4LCAxLCAxMSwgMzAsIDEsIDAuMTUpOwogICAgLy8g5oub54mMIOKAlCDmuJDlj5jlj5HlhYkKICAgIHJlY3QoY3R4LCA1LCA2LCAyMiwgMiwgUEFMLm5lb25HcmVlbik7CiAgICBjdHguZ2xvYmFsQWxwaGEgPSAwLjM7IGN0eC5maWxsU3R5bGUgPSBQQUwubmVvbkdyZWVuR2xvdzsKICAgIGN0eC5maWxsUmVjdCg1LCA1LCAyMiwgMSk7IGN0eC5nbG9iYWxBbHBoYSA9IDE7CiAgICAvLyDnqpflj7DoirHnm4YKICAgIHJlY3QoY3R4LCA0LCAxNSwgMywgMSwgJyM5MjQwMGUnKTsKICAgIHB4KGN0eCwgNSwgMTQsIFBBTC50cmVlTGlnaHQpOyBweChjdHgsIDYsIDE0LCBQQUwudHJlZU1pZCk7CiAgICByZWN0KGN0eCwgMjYsIDE1LCAzLCAxLCAnIzkyNDAwZScpOwogICAgcHgoY3R4LCAyNywgMTQsIFBBTC50cmVlTGlnaHQpOyBweChjdHgsIDI4LCAxNCwgUEFMLnRyZWVNaWQpOwp9CgpmdW5jdGlvbiBkcmF3Q2x1YihjdHg6IENhbnZhc1JlbmRlcmluZ0NvbnRleHQyRCkgewogICAgZmlsbChjdHgsIFBBTC5hc3BoYWx0KTsKICAgIC8vIOW7uuetkeS4u+S9kyDigJQg5rex6ImyCiAgICByZWN0KGN0eCwgMiwgNiwgMjgsIDI0LCBQQUwuYmxhY2spOwogICAgZGl0aGVyKGN0eCwgMiwgNiwgMjgsIDI0LCBQQUwuYmxhY2ssIFBBTC5vdXRsaW5lLCAwLjcpOwogICAgcmVjdChjdHgsIDIsIDI5LCAyOCwgMiwgUEFMLm91dGxpbmUpOwogICAgLy8g6ZyT6Jm56Zeo5qGGIOKAlCDlj4zlsYIKICAgIHJlY3QoY3R4LCAxMCwgMTQsIDEyLCAxNiwgUEFMLm5lb25QdXJwbGUpOwogICAgcmVjdChjdHgsIDExLCAxNSwgMTAsIDE1LCBQQUwubmVvblB1cnBsZUdsb3cpOwogICAgcmVjdChjdHgsIDEyLCAxNiwgOCwgMTQsIFBBTC5ibGFjayk7CiAgICAvLyDpl6jlhoXpu5HmmpfmuJDlj5gKICAgIHNoYWRvdyhjdHgsIDEyLCAxNiwgOCwgNCwgMC4zKTsKICAgIC8vIOmck+iZueeBr+adoQogICAgcmVjdChjdHgsIDIsIDYsIDI4LCAyLCBQQUwubmVvblBpbmspOwogICAgY3R4Lmdsb2JhbEFscGhhID0gMC40OyBjdHguZmlsbFN0eWxlID0gUEFMLm5lb25QaW5rR2xvdzsKICAgIGN0eC5maWxsUmVjdCgyLCA1LCAyOCwgMSk7IGN0eC5nbG9iYWxBbHBoYSA9IDE7CiAgICByZWN0KGN0eCwgMiwgMTAsIDI4LCAxLCBQQUwubmVvbkJsdWUpOwogICAgY3R4Lmdsb2JhbEFscGhhID0gMC4zOyBjdHguZmlsbFN0eWxlID0gUEFMLm5lb25CbHVlR2xvdzsKICAgIGN0eC5maWxsUmVjdCgyLCA5LCAyOCwgMSk7IGN0eC5nbG9iYWxBbHBoYSA9IDE7CiAgICAvLyDmi5vniYzpl6rng4Eg4oCUIOWkmuWxgumck+iZueeBrwogICAgY29uc3Qgc2lnbnMgPSBbCiAgICAgICAgWzYsIDMsIFBBTC5uZW9uUGlua10sIFsxMCwgMiwgUEFMLm5lb25CbHVlXSwgWzE0LCAzLCBQQUwubmVvblllbGxvd10sCiAgICAgICAgWzE4LCAyLCBQQUwubmVvbkdyZWVuXSwgWzIyLCAzLCBQQUwubmVvblB1cnBsZV0sIFsyNiwgMiwgUEFMLm5lb25PcmFuZ2VdLAogICAgXTsKICAgIHNpZ25zLmZvckVhY2goKFt4LCB5LCBjXSkgPT4gewogICAgICAgIHB4KGN0eCwgeCBhcyBudW1iZXIsIHkgYXMgbnVtYmVyLCBjIGFzIHN0cmluZyk7CiAgICAgICAgY3R4Lmdsb2JhbEFscGhhID0gMC4zOyBweChjdHgsICh4IGFzIG51bWJlcikgKyAxLCB5IGFzIG51bWJlciwgYyBhcyBzdHJpbmcpOyBjdHguZ2xvYmFsQWxwaGEgPSAxOwogICAgfSk7CiAgICAvLyDlnLDpnaLlj43lhYkKICAgIGZvciAobGV0IHggPSAxMDsgeCA8IDIyOyB4KyspIHsKICAgICAgICBjdHguZ2xvYmFsQWxwaGEgPSAwLjA4OwogICAgICAgIHB4KGN0eCwgeCwgMzAsIFBBTC5uZW9uUHVycGxlKTsgcHgoY3R4LCB4LCAzMSwgUEFMLm5lb25QdXJwbGUpOwogICAgICAgIGN0eC5nbG9iYWxBbHBoYSA9IDE7CiAgICB9Cn0KCmZ1bmN0aW9uIGRyYXdPZmZpY2UoY3R4OiBDYW52YXNSZW5kZXJpbmdDb250ZXh0MkQpIHsKICAgIGZpbGwoY3R4LCBQQUwuYXNwaGFsdCk7CiAgICAvLyDlhpnlrZfmpbzkuLvkvZMKICAgIHJlY3QoY3R4LCA1LCAyLCAyMiwgMjgsIFBBTC5zdGVlbCk7CiAgICBkaXRoZXIoY3R4LCA1LCAyLCAyMiwgMjgsIFBBTC5zdGVlbCwgUEFMLnN0ZWVsTWlkLCAwLjYpOwogICAgcmVjdChjdHgsIDUsIDI5LCAyMiwgMiwgUEFMLnN0ZWVsRGFyayk7CiAgICAvLyDnjrvnkoPnqpfmoLwg4oCUIOaVtOm9kOeahOe9keagvAogICAgZm9yIChsZXQgeSA9IDQ7IHkgPCAyODsgeSArPSAzKSB7CiAgICAgICAgZm9yIChsZXQgeCA9IDc7IHggPCAyNTsgeCArPSAzKSB7CiAgICAgICAgICAgIGNvbnN0IGxpdCA9ICgoeSArIHgpICUgNSA8IDMpOwogICAgICAgICAgICByZWN0KGN0eCwgeCwgeSwgMiwgMiwgbGl0ID8gUEFMLndpbmRvd1dhcm0gOiBQQUwuZ2xhc3NCcmlnaHQpOwogICAgICAgICAgICBpZiAobGl0KSBoaWdobGlnaHQoY3R4LCB4LCB5LCAyLCAxLCAwLjEpOwogICAgICAgIH0KICAgIH0KICAgIC8vIOWkp+WOhQogICAgcmVjdChjdHgsIDEyLCAyNCwgOCwgNywgUEFMLmRvb3JHbGFzcyk7CiAgICBoaWdobGlnaHQoY3R4LCAxMywgMjQsIDMsIDcsIDAuMSk7CiAgICByZWN0KGN0eCwgMTEsIDI0LCAxLCA3LCBQQUwuZG9vckZyYW1lKTsKICAgIHJlY3QoY3R4LCAyMCwgMjQsIDEsIDcsIFBBTC5kb29yRnJhbWUpOwogICAgLy8g6aG26YOo6KOF6aWwCiAgICByZWN0KGN0eCwgNiwgMSwgMjAsIDEsIFBBTC5zdGVlbExpZ2h0KTsKICAgIGhpZ2hsaWdodChjdHgsIDYsIDEsIDIwLCAxLCAwLjE1KTsKICAgIC8vIOS+p+mdoumYtOW9sQogICAgc2hhZG93KGN0eCwgMjUsIDIsIDIsIDI4LCAwLjEpOwp9CgovLyDilIDilIAg5Z+O5biC6KOF6aWwIOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgAoKZnVuY3Rpb24gZHJhd0NpdHlUcmVlKGN0eDogQ2FudmFzUmVuZGVyaW5nQ29udGV4dDJELCBzZWFzb24/OiBTaW1TZWFzb24pIHsKICAgIGZpbGwoY3R4LCBQQUwuc2lkZXdhbGspOwogICAgZGl0aGVyKGN0eCwgMCwgMCwgMzIsIDMyLCBQQUwuc2lkZXdhbGssIFBBTC5zaWRld2Fsa0xpZ2h0LCAwLjY1KTsKICAgIC8vIOagkeagueWMuuWfn+mYtOW9sQogICAgY3R4Lmdsb2JhbEFscGhhID0gMC4xMjsKICAgIGN0eC5iZWdpblBhdGgoKTsgY3R4LmVsbGlwc2UoMTYsIDI4LCA4LCAzLCAwLCAwLCBNYXRoLlBJICogMik7CiAgICBjdHguZmlsbFN0eWxlID0gJyMwMDAnOyBjdHguZmlsbCgpOyBjdHguZ2xvYmFsQWxwaGEgPSAxOwogICAgLy8g5qCR5bmyIOKAlCDmnInnurnnkIYKICAgIHJlY3QoY3R4LCAxNCwgMTgsIDQsIDEyLCAnIzVhNDAzMCcpOwogICAgZGl0aGVyKGN0eCwgMTQsIDE4LCA0LCAxMiwgJyM1YTQwMzAnLCAnIzRhMzAyMCcsIDAuNTUpOwogICAgaGlnaGxpZ2h0KGN0eCwgMTQsIDE4LCAxLCAxMiwgMC4wOCk7CiAgICAvLyDmoJHlhqAg4oCUIOWkmuWxguWchuW9ouWPoOWKoO+8jOabtOiHqueEtgogICAgY29uc3QgbGVhZkMgPSBzZWFzb24gPT09ICdmYWxsJyA/ICcjYzA2MDIwJyA6IHNlYXNvbiA9PT0gJ3dpbnRlcicgPyAnIzZhOGFhYScgOiBQQUwudHJlZUxpZ2h0OwogICAgY29uc3QgbGVhZkQgPSBzZWFzb24gPT09ICdmYWxsJyA/ICcjYTA0MDEwJyA6IHNlYXNvbiA9PT0gJ3dpbnRlcicgPyAnIzVhN2E5YScgOiBQQUwudHJlZURhcms7CiAgICAvLyDlupXlsYLvvIjlpKfvvIkKICAgIGN0eC5iZWdpblBhdGgoKTsgY3R4LmFyYygxNiwgMTIsIDEwLCAwLCBNYXRoLlBJICogMik7CiAgICBjdHguZmlsbFN0eWxlID0gbGVhZkM7IGN0eC5maWxsKCk7CiAgICAvLyDkuK3lsYIKICAgIGN0eC5iZWdpblBhdGgoKTsgY3R4LmFyYygxMywgMTAsIDYsIDAsIE1hdGguUEkgKiAyKTsKICAgIGN0eC5maWxsU3R5bGUgPSBsZWFmRDsgY3R4LmZpbGwoKTsKICAgIGN0eC5iZWdpblBhdGgoKTsgY3R4LmFyYygyMCwgMTEsIDUsIDAsIE1hdGguUEkgKiAyKTsKICAgIGN0eC5maWxsU3R5bGUgPSBsZWFmRDsgY3R4LmZpbGwoKTsKICAgIC8vIOmhtuWxgumrmOWFiQogICAgY3R4LmJlZ2luUGF0aCgpOyBjdHguYXJjKDE1LCA4LCA1LCAwLCBNYXRoLlBJICogMik7CiAgICBjdHguZmlsbFN0eWxlID0gbGVhZkM7IGN0eC5maWxsKCk7CiAgICBoaWdobGlnaHQoY3R4LCAxMiwgNSwgNiwgMywgMC4xMik7CiAgICAvLyDlraPoioLmlYjmnpwKICAgIGlmIChzZWFzb24gPT09ICd3aW50ZXInKSB7CiAgICAgICAgY3R4Lmdsb2JhbEFscGhhID0gMC41OwogICAgICAgIGN0eC5iZWdpblBhdGgoKTsgY3R4LmFyYygxNiwgNywgNywgTWF0aC5QSSwgMCk7CiAgICAgICAgY3R4LmZpbGxTdHlsZSA9ICcjZTBlYWYwJzsgY3R4LmZpbGwoKTsKICAgICAgICBjdHguZ2xvYmFsQWxwaGEgPSAxOwogICAgfQogICAgaWYgKHNlYXNvbiA9PT0gJ2ZhbGwnKSB7CiAgICAgICAgLy8g6aOY6JC955qE5Y+25a2QCiAgICAgICAgcHgoY3R4LCA1LCAyMiwgJyNlMDgwMzAnKTsgcHgoY3R4LCAyNCwgMjUsICcjZDA2MDIwJyk7CiAgICAgICAgcHgoY3R4LCA4LCAyNywgJyNjMDYwMjAnKTsgcHgoY3R4LCAyNiwgMjAsICcjYjA1MDEwJyk7CiAgICB9Cn0KCmZ1bmN0aW9uIGRyYXdTdHJlZXRMaWdodChjdHg6IENhbnZhc1JlbmRlcmluZ0NvbnRleHQyRCkgewogICAgZmlsbChjdHgsIFBBTC5zaWRld2Fsayk7CiAgICBkaXRoZXIoY3R4LCAwLCAwLCAzMiwgMzIsIFBBTC5zaWRld2FsaywgUEFMLnNpZGV3YWxrTGlnaHQsIDAuNjUpOwogICAgLy8g54Gv5p+xIOKAlCDmnInnspfnu4blj5jljJYKICAgIHJlY3QoY3R4LCAxNSwgOCwgMiwgMjIsIFBBTC5zdGVlbERhcmspOwogICAgcmVjdChjdHgsIDE0LCAyNiwgNCwgMywgUEFMLnN0ZWVsRGFyayk7CiAgICBkaXRoZXIoY3R4LCAxNSwgOCwgMiwgMjIsIFBBTC5zdGVlbERhcmssIFBBTC5zdGVlbE1pZCwgMC41KTsKICAgIC8vIOeBr+WktAogICAgcmVjdChjdHgsIDEwLCA0LCAxMiwgNCwgUEFMLnN0ZWVsTGlnaHQpOwogICAgaGlnaGxpZ2h0KGN0eCwgMTAsIDQsIDEyLCAxLCAwLjE1KTsKICAgIC8vIOeBr+azoQogICAgcmVjdChjdHgsIDEzLCA2LCA2LCAyLCBQQUwud2luZG93V2FybSk7CiAgICAvLyDlhYnmmZUg4oCUIOWkmuWxguasoQogICAgY3R4Lmdsb2JhbEFscGhhID0gMC4wODsKICAgIGN0eC5iZWdpblBhdGgoKTsgY3R4LmFyYygxNiwgMTAsIDEwLCAwLCBNYXRoLlBJICogMik7CiAgICBjdHguZmlsbFN0eWxlID0gUEFMLndpbmRvd1dhcm07IGN0eC5maWxsKCk7CiAgICBjdHguZ2xvYmFsQWxwaGEgPSAwLjA1OwogICAgY3R4LmJlZ2luUGF0aCgpOyBjdHguYXJjKDE2LCAxNCwgMTQsIDAsIE1hdGguUEkgKiAyKTsKICAgIGN0eC5maWxsU3R5bGUgPSBQQUwud2luZG93R2xvdzsgY3R4LmZpbGwoKTsKICAgIGN0eC5nbG9iYWxBbHBoYSA9IDE7CiAgICAvLyDlnLDpnaLlhYnlvbEKICAgIGhpZ2hsaWdodChjdHgsIDEwLCAyOCwgMTIsIDIsIDAuMDYpOwp9CgpmdW5jdGlvbiBkcmF3QmVuY2goY3R4OiBDYW52YXNSZW5kZXJpbmdDb250ZXh0MkQpIHsKICAgIGZpbGwoY3R4LCBQQUwuc2lkZXdhbGspOwogICAgZGl0aGVyKGN0eCwgMCwgMCwgMzIsIDMyLCBQQUwuc2lkZXdhbGssIFBBTC5zaWRld2Fsa0xpZ2h0LCAwLjY1KTsKICAgIC8vIOmVv+akhemYtOW9sQogICAgc2hhZG93KGN0eCwgNywgMjIsIDE4LCAyLCAwLjEpOwogICAgLy8g5bqn6Z2i5pyo5p2/CiAgICByZWN0KGN0eCwgNSwgMTUsIDIyLCAyLCAnIzhhNmE1OCcpOwogICAgcmVjdChjdHgsIDUsIDE3LCAyMiwgMiwgJyM3YTVhNDgnKTsKICAgIC8vIOmdoOiDjAogICAgcmVjdChjdHgsIDUsIDExLCAyMiwgMiwgJyM4YTZhNTgnKTsKICAgIHJlY3QoY3R4LCA1LCAxMywgMjIsIDIsICcjN2E1YTQ4Jyk7CiAgICAvLyDpq5jlhYkKICAgIGhpZ2hsaWdodChjdHgsIDUsIDE1LCAyMiwgMSwgMC4xKTsKICAgIGhpZ2hsaWdodChjdHgsIDUsIDExLCAyMiwgMSwgMC4xKTsKICAgIC8vIOakheiFvyDigJQg6YeR5bGe6LSo5oSfCiAgICByZWN0KGN0eCwgOCwgMTksIDIsIDYsIFBBTC5zdGVlbERhcmspOwogICAgcmVjdChjdHgsIDIyLCAxOSwgMiwgNiwgUEFMLnN0ZWVsRGFyayk7CiAgICByZWN0KGN0eCwgOCwgOSwgMiwgMiwgUEFMLnN0ZWVsRGFyayk7CiAgICByZWN0KGN0eCwgMjIsIDksIDIsIDIsIFBBTC5zdGVlbERhcmspOwogICAgaGlnaGxpZ2h0KGN0eCwgOCwgMTksIDEsIDYsIDAuMDgpOwogICAgaGlnaGxpZ2h0KGN0eCwgMjIsIDE5LCAxLCA2LCAwLjA4KTsKfQoKZnVuY3Rpb24gZHJhd1RyYXNoQ2FuKGN0eDogQ2FudmFzUmVuZGVyaW5nQ29udGV4dDJEKSB7CiAgICBmaWxsKGN0eCwgUEFMLnNpZGV3YWxrKTsKICAgIGRpdGhlcihjdHgsIDAsIDAsIDMyLCAzMiwgUEFMLnNpZGV3YWxrLCBQQUwuc2lkZXdhbGtMaWdodCwgMC42NSk7CiAgICAvLyDmobbouqsKICAgIHJlY3QoY3R4LCAxMCwgMTAsIDEyLCAxNiwgUEFMLnN0ZWVsRGFyayk7CiAgICBkaXRoZXIoY3R4LCAxMCwgMTAsIDEyLCAxNiwgUEFMLnN0ZWVsRGFyaywgUEFMLnN0ZWVsTWlkLCAwLjU1KTsKICAgIC8vIOahtueblgogICAgcmVjdChjdHgsIDgsIDgsIDE2LCAzLCBQQUwuc3RlZWxMaWdodCk7CiAgICBoaWdobGlnaHQoY3R4LCA4LCA4LCAxNiwgMSwgMC4xMik7CiAgICAvLyDmobblupUKICAgIHJlY3QoY3R4LCAxMCwgMjYsIDEyLCAyLCBQQUwuc3RlZWwpOwogICAgLy8g6YeR5bGe5bimCiAgICByZWN0KGN0eCwgMTAsIDE1LCAxMiwgMSwgUEFMLnN0ZWVsTGlnaHQpOwogICAgcmVjdChjdHgsIDEwLCAyMSwgMTIsIDEsIFBBTC5zdGVlbExpZ2h0KTsKICAgIC8vIOS+p+mdouWPjeWFiQogICAgaGlnaGxpZ2h0KGN0eCwgMTAsIDEwLCAyLCAxNiwgMC4wOCk7CiAgICBzaGFkb3coY3R4LCAyMCwgMTAsIDIsIDE2LCAwLjA4KTsKfQoKLy8g4pSA4pSAIOWcsOWbvuiDjOaZr+eUn+aIkCDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIAKCmZ1bmN0aW9uIGRyYXdUaWxlbWFwKGNvbHM6IG51bWJlciwgcm93czogbnVtYmVyLCBzZWFzb246IFNpbVNlYXNvbiA9ICdzcHJpbmcnKTogc3RyaW5nIHsKICAgIGNvbnN0IGMgPSBkb2N1bWVudC5jcmVhdGVFbGVtZW50KCdjYW52YXMnKTsKICAgIGMud2lkdGggPSBUSUxFX1NJWkUgKiBjb2xzOyBjLmhlaWdodCA9IFRJTEVfU0laRSAqIHJvd3M7CiAgICBjb25zdCBjdHggPSBjLmdldENvbnRleHQoJzJkJykhOwogICAgY3R4LmltYWdlU21vb3RoaW5nRW5hYmxlZCA9IGZhbHNlOwoKICAgIGxldCBzZWVkID0gNDI7CiAgICBjb25zdCByYW5kID0gKCkgPT4geyBzZWVkID0gKHNlZWQgKiAxNjY0NTI1ICsgMTAxMzkwNDIyMykgJiAweDdmZmZmZmZmOyByZXR1cm4gc2VlZCAvIDB4N2ZmZmZmZmY7IH07CgogICAgLy8g5Z+O5biC5Zyw6Z2i5Z+66LCDCiAgICBmb3IgKGxldCByb3cgPSAwOyByb3cgPCByb3dzOyByb3crKykgewogICAgICAgIGZvciAobGV0IGNvbCA9IDA7IGNvbCA8IGNvbHM7IGNvbCsrKSB7CiAgICAgICAgICAgIGN0eC5zYXZlKCk7CiAgICAgICAgICAgIGN0eC50cmFuc2xhdGUoY29sICogVElMRV9TSVpFLCByb3cgKiBUSUxFX1NJWkUpOwogICAgICAgICAgICBjb25zdCByID0gcmFuZCgpOwogICAgICAgICAgICBpZiAociA8IDAuNSkgZHJhd0FzcGhhbHQoY3R4KTsKICAgICAgICAgICAgZWxzZSBpZiAociA8IDAuOCkgZHJhd0FzcGhhbHRBbHQoY3R4KTsKICAgICAgICAgICAgZWxzZSBkcmF3U2lkZXdhbGsoY3R4KTsKICAgICAgICAgICAgY3R4LnJlc3RvcmUoKTsKICAgICAgICB9CiAgICB9CgogICAgLy8g5a2j6IqC6Imy6LCD5Y+g5YqgIOKAlCDmm7Tlvq7lppkKICAgIGNvbnN0IG92ZXJsYXlzOiBSZWNvcmQ8U2ltU2Vhc29uLCBzdHJpbmc+ID0gewogICAgICAgIHNwcmluZzogJ3JnYmEoMTgwLDE0MCwyNTUsMC4wNiknLAogICAgICAgIHN1bW1lcjogJ3JnYmEoMjU1LDEwMCw1MCwwLjA1KScsCiAgICAgICAgZmFsbDogJ3JnYmEoMjU1LDE1MCw1MCwwLjA4KScsCiAgICAgICAgd2ludGVyOiAncmdiYSgxMjAsMTYwLDIyMCwwLjEwKScsCiAgICB9OwogICAgY3R4LmZpbGxTdHlsZSA9IG92ZXJsYXlzW3NlYXNvbl07CiAgICBjdHguZmlsbFJlY3QoMCwgMCwgYy53aWR0aCwgYy5oZWlnaHQpOwoKICAgIC8vIOaVo+W4g+mck+iZueWFieeCuSDigJQg5pu05p+U5ZKM44CB5pu05aSa5bGC5qyhCiAgICBjb25zdCBuZW9uQ29sb3JzID0gW1BBTC5uZW9uUGluaywgUEFMLm5lb25CbHVlLCBQQUwubmVvbkdyZWVuLCBQQUwubmVvblB1cnBsZSwgUEFMLm5lb25PcmFuZ2VdOwogICAgZm9yIChsZXQgaSA9IDA7IGkgPCAyMDsgaSsrKSB7CiAgICAgICAgY29uc3QgbnggPSBNYXRoLmZsb29yKHJhbmQoKSAqIGMud2lkdGgpOwogICAgICAgIGNvbnN0IG55ID0gTWF0aC5mbG9vcihyYW5kKCkgKiBjLmhlaWdodCk7CiAgICAgICAgY29uc3QgbmMgPSBuZW9uQ29sb3JzW01hdGguZmxvb3IocmFuZCgpICogbmVvbkNvbG9ycy5sZW5ndGgpXTsKICAgICAgICAvLyDlpJblsYLlhYnmmZUKICAgICAgICBjdHguZ2xvYmFsQWxwaGEgPSAwLjA2OwogICAgICAgIGN0eC5maWxsU3R5bGUgPSBuYzsKICAgICAgICBjdHguYmVnaW5QYXRoKCk7IGN0eC5hcmMobngsIG55LCA2LCAwLCBNYXRoLlBJICogMik7IGN0eC5maWxsKCk7CiAgICAgICAgLy8g5qC45b+D5Lqu54K5CiAgICAgICAgY3R4Lmdsb2JhbEFscGhhID0gMC4xNTsKICAgICAgICBjdHguZmlsbFJlY3QobngsIG55LCAyLCAyKTsKICAgIH0KICAgIGN0eC5nbG9iYWxBbHBoYSA9IDE7CgogICAgLy8g546v5aKD5YWJ5riQ5Y+YIOKAlCDlupXpg6jmm7TmmpfvvIzmqKHmi5/ln47luILnga/lhYkKICAgIGNvbnN0IGdyYWQgPSBjdHguY3JlYXRlTGluZWFyR3JhZGllbnQoMCwgMCwgMCwgYy5oZWlnaHQpOwogICAgZ3JhZC5hZGRDb2xvclN0b3AoMCwgJ3JnYmEoMCwwLDAsMCknKTsKICAgIGdyYWQuYWRkQ29sb3JTdG9wKDEsICdyZ2JhKDAsMCwwLDAuMTUpJyk7CiAgICBjdHguZmlsbFN0eWxlID0gZ3JhZDsKICAgIGN0eC5maWxsUmVjdCgwLCAwLCBjLndpZHRoLCBjLmhlaWdodCk7CgogICAgcmV0dXJuIGMudG9EYXRhVVJMKCdpbWFnZS9wbmcnKTsKfQoKLy8g4pSA4pSAIOWvvOWHuuaOpeWPoyDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIAKCmV4cG9ydCBpbnRlcmZhY2UgVGlsZVNldCB7CiAgICBncmFzczogc3RyaW5nOwogICAgZ3Jhc3NBbHQ6IHN0cmluZzsKICAgIHBhdGg6IHN0cmluZzsKICAgIHdhdGVyOiBzdHJpbmc7CiAgICBzYW5kOiBzdHJpbmc7CiAgICB0cmVlUGluZTogc3RyaW5nOwogICAgdHJlZVJvdW5kOiBzdHJpbmc7CiAgICBmbG93ZXJzOiBzdHJpbmc7CiAgICBob3VzZVJlZDogc3RyaW5nOwogICAgaG91c2VCbHVlOiBzdHJpbmc7CiAgICBob3VzZUxhcmdlOiBzdHJpbmc7CiAgICBjYXN0bGU6IHN0cmluZzsKICAgIGJyaWRnZTogc3RyaW5nOwogICAgZmVuY2U6IHN0cmluZzsKICAgIHJvY2s6IHN0cmluZzsKICAgIGJ1c2g6IHN0cmluZzsKICAgIGZhcm1QbG90OiBzdHJpbmc7CiAgICBmYXJtUGxvdENyb3A6IHN0cmluZzsKICAgIG1pbmVFbnRyYW5jZTogc3RyaW5nOwogICAgZmlzaHBvbmQ6IHN0cmluZzsKICAgIG1hcmtldDogc3RyaW5nOwogICAgd29ya3Nob3A6IHN0cmluZzsKICAgIC8qKiDlrozmlbTln47luILlnLDlm77og4zmma8gKi8KICAgIG1hcEJhY2tncm91bmQ6IHN0cmluZzsKfQoKY29uc3QgX2NhY2hlOiBSZWNvcmQ8c3RyaW5nLCBUaWxlU2V0PiA9IHt9OwoKZXhwb3J0IGZ1bmN0aW9uIGdldFRpbGVTZXQoc2Vhc29uOiBTaW1TZWFzb24gPSAnc3ByaW5nJyk6IFRpbGVTZXQgewogICAgaWYgKF9jYWNoZVtzZWFzb25dKSByZXR1cm4gX2NhY2hlW3NlYXNvbl07CgogICAgY29uc3QgZ2VuID0gKGRyYXc6IChjdHg6IENhbnZhc1JlbmRlcmluZ0NvbnRleHQyRCkgPT4gdm9pZCk6IHN0cmluZyA9PiB7CiAgICAgICAgY29uc3QgW2MsIGN0eF0gPSBjcmVhdGVUaWxlQ2FudmFzKCk7CiAgICAgICAgZHJhdyhjdHgpOwogICAgICAgIHJldHVybiBjLnRvRGF0YVVSTCgnaW1hZ2UvcG5nJyk7CiAgICB9OwoKICAgIGNvbnN0IGdlbmVyYXRlZDogVGlsZVNldCA9IHsKICAgICAgICBncmFzczogICAgICAgZ2VuKGRyYXdQYXJrKSwKICAgICAgICBncmFzc0FsdDogICAgZ2VuKGRyYXdBc3BoYWx0QWx0KSwKICAgICAgICBwYXRoOiAgICAgICAgZ2VuKGRyYXdSb2FkKSwKICAgICAgICB3YXRlcjogICAgICAgZ2VuKGN0eCA9PiBkcmF3U2lkZXdhbGsoY3R4KSksCiAgICAgICAgc2FuZDogICAgICAgIGdlbihkcmF3U2lkZXdhbGspLAogICAgICAgIHRyZWVQaW5lOiAgICBnZW4oY3R4ID0+IGRyYXdDaXR5VHJlZShjdHgsIHNlYXNvbikpLAogICAgICAgIHRyZWVSb3VuZDogICBnZW4oY3R4ID0+IGRyYXdDaXR5VHJlZShjdHgsIHNlYXNvbikpLAogICAgICAgIGZsb3dlcnM6ICAgICBnZW4oZHJhd0JlbmNoKSwKICAgICAgICBob3VzZVJlZDogICAgZ2VuKGN0eCA9PiBkcmF3QXBhcnRtZW50KGN0eCwgUEFMLm5lb25QaW5rKSksCiAgICAgICAgaG91c2VCbHVlOiAgIGdlbihjdHggPT4gZHJhd0FwYXJ0bWVudChjdHgsIFBBTC5uZW9uQmx1ZSkpLAogICAgICAgIGhvdXNlTGFyZ2U6ICBnZW4oZHJhd1NreXNjcmFwZXIpLAogICAgICAgIGNhc3RsZTogICAgICBnZW4oZHJhd09mZmljZSksCiAgICAgICAgYnJpZGdlOiAgICAgIGdlbihkcmF3U3RyZWV0TGlnaHQpLAogICAgICAgIGZlbmNlOiAgICAgICBnZW4oZHJhd1RyYXNoQ2FuKSwKICAgICAgICByb2NrOiAgICAgICAgZ2VuKGRyYXdTdHJlZXRMaWdodCksCiAgICAgICAgYnVzaDogICAgICAgIGdlbihjdHggPT4gZHJhd0NpdHlUcmVlKGN0eCwgc2Vhc29uKSksCiAgICAgICAgZmFybVBsb3Q6ICAgIGdlbihkcmF3Q2FmZSksCiAgICAgICAgZmFybVBsb3RDcm9wOmdlbihkcmF3Q2FmZSksCiAgICAgICAgbWluZUVudHJhbmNlOmdlbihkcmF3Q2x1YiksCiAgICAgICAgZmlzaHBvbmQ6ICAgIGdlbihkcmF3UGFyayksCiAgICAgICAgbWFya2V0OiAgICAgIGdlbihkcmF3Q2FmZSksCiAgICAgICAgd29ya3Nob3A6ICAgIGdlbihkcmF3T2ZmaWNlKSwKICAgICAgICBtYXBCYWNrZ3JvdW5kOiBkcmF3VGlsZW1hcCgyMCwgMTksIHNlYXNvbiksCiAgICB9OwoKICAgIF9jYWNoZVtzZWFzb25dID0gZ2VuZXJhdGVkOwoKICAgIHJldHVybiBfY2FjaGVbc2Vhc29uXTsKfQoKZXhwb3J0IGZ1bmN0aW9uIGhvdXNlRm9yRmFtaWx5KGVtb2ppOiBzdHJpbmcpOiBrZXlvZiBUaWxlU2V0IHsKICAgIHN3aXRjaCAoZW1vamkpIHsKICAgICAgICBjYXNlICfwn4+iJzogcmV0dXJuICdob3VzZVJlZCc7CiAgICAgICAgY2FzZSAn8J+Pme+4jyc6IHJldHVybiAnaG91c2VMYXJnZSc7CiAgICAgICAgY2FzZSAn8J+PrCc6IHJldHVybiAnaG91c2VCbHVlJzsKICAgICAgICBjYXNlICfwn4+oJzogcmV0dXJuICdjYXN0bGUnOwogICAgICAgIGNhc2UgJ/CfjIMnOiByZXR1cm4gJ2hvdXNlTGFyZ2UnOwogICAgICAgIGNhc2UgJ/CfjIYnOiByZXR1cm4gJ2hvdXNlUmVkJzsKICAgICAgICBkZWZhdWx0OiByZXR1cm4gJ2hvdXNlTGFyZ2UnOwogICAgfQp9CgpleHBvcnQgZnVuY3Rpb24gZGVjb3JGb3JFbW9qaShlbW9qaTogc3RyaW5nKToga2V5b2YgVGlsZVNldCB8IG51bGwgewogICAgc3dpdGNoIChlbW9qaSkgewogICAgICAgIGNhc2UgJ/CfjLInOiBjYXNlICfwn4yzJzogcmV0dXJuICd0cmVlUGluZSc7CiAgICAgICAgY2FzZSAn8J+qkSc6IHJldHVybiAnZmxvd2Vycyc7CiAgICAgICAgY2FzZSAn8J+alyc6IHJldHVybiAncGF0aCc7CiAgICAgICAgY2FzZSAn8J+SoSc6IHJldHVybiAnYnJpZGdlJzsKICAgICAgICBjYXNlICfwn4y/JzogcmV0dXJuICdidXNoJzsKICAgICAgICBkZWZhdWx0OiByZXR1cm4gbnVsbDsKICAgIH0KfQoKZXhwb3J0IGZ1bmN0aW9uIGJ1aWxkaW5nVGlsZUtleSh0eXBlOiBzdHJpbmcpOiBrZXlvZiBUaWxlU2V0IHsKICAgIHN3aXRjaCAodHlwZSkgewogICAgICAgIGNhc2UgJ2NhZmUnOiAgICAgIHJldHVybiAnZmFybVBsb3QnOwogICAgICAgIGNhc2UgJ2NsdWInOiAgICAgIHJldHVybiAnbWluZUVudHJhbmNlJzsKICAgICAgICBjYXNlICdwYXJrJzogICAgICByZXR1cm4gJ2Zpc2hwb25kJzsKICAgICAgICBjYXNlICdtYXJrZXQnOiAgICByZXR1cm4gJ21hcmtldCc7CiAgICAgICAgY2FzZSAnb2ZmaWNlJzogICAgcmV0dXJuICd3b3Jrc2hvcCc7CiAgICAgICAgZGVmYXVsdDogcmV0dXJuICdob3VzZUxhcmdlJzsKICAgIH0KfQo=
+/**
+ * City Tile Generator — 精致都市版 v2
+ *
+ * 用 Canvas API 在运行时生成现代城市风格像素地砖
+ * v2: 升级到 32x32 像素，加入抖动渐变、亚像素细节、反光效果
+ * 更精致的建筑轮廓、窗户排列和霓虹灯光效
+ */
+
+import { SimSeason } from '../types';
+
+const TILE_SIZE = 32;
+
+function createTileCanvas(): [HTMLCanvasElement, CanvasRenderingContext2D] {
+    const c = document.createElement('canvas');
+    c.width = TILE_SIZE; c.height = TILE_SIZE;
+    const ctx = c.getContext('2d')!;
+    ctx.imageSmoothingEnabled = false;
+    return [c, ctx];
+}
+
+function px(ctx: CanvasRenderingContext2D, x: number, y: number, color: string) {
+    ctx.fillStyle = color; ctx.fillRect(x, y, 1, 1);
+}
+
+function fill(ctx: CanvasRenderingContext2D, color: string) {
+    ctx.fillStyle = color; ctx.fillRect(0, 0, TILE_SIZE, TILE_SIZE);
+}
+
+function rect(ctx: CanvasRenderingContext2D, x: number, y: number, w: number, h: number, color: string) {
+    ctx.fillStyle = color; ctx.fillRect(x, y, w, h);
+}
+
+/** 有序抖动 (ordered dithering) 2x2 Bayer 矩阵 */
+function dither(ctx: CanvasRenderingContext2D, x: number, y: number, w: number, h: number, c1: string, c2: string, threshold = 0.5) {
+    const bayer = [[0.00, 0.50], [0.75, 0.25]];
+    for (let py = y; py < y + h; py++) {
+        for (let px2 = x; px2 < x + w; px2++) {
+            const v = bayer[py % 2][px2 % 2];
+            ctx.fillStyle = v < threshold ? c1 : c2;
+            ctx.fillRect(px2, py, 1, 1);
+        }
+    }
+}
+
+/** 高光条纹 */
+function highlight(ctx: CanvasRenderingContext2D, x: number, y: number, w: number, h: number, alpha = 0.15) {
+    ctx.globalAlpha = alpha;
+    ctx.fillStyle = '#ffffff';
+    ctx.fillRect(x, y, w, h);
+    ctx.globalAlpha = 1;
+}
+
+/** 阴影条纹 */
+function shadow(ctx: CanvasRenderingContext2D, x: number, y: number, w: number, h: number, alpha = 0.2) {
+    ctx.globalAlpha = alpha;
+    ctx.fillStyle = '#000000';
+    ctx.fillRect(x, y, w, h);
+    ctx.globalAlpha = 1;
+}
+
+// ── 调色板 ──────────────────────────────────────────────────────
+
+const PAL = {
+    // 地面
+    asphalt: '#2a2a3a', asphaltMid: '#323242', asphaltLight: '#3a3a4a', asphaltDark: '#1e1e2e',
+    sidewalk: '#4a4a5a', sidewalkLight: '#5a5a6a', sidewalkMid: '#525262',
+    road: '#303040', roadLine: '#e8c840', roadLineWhite: '#cccccc',
+    // 建筑基础
+    concrete: '#555568', concreteDark: '#3d3d50', concreteLight: '#6a6a7d', concreteMid: '#4c4c60',
+    glass: '#2d4570', glassBright: '#4a70a8', glassReflect: '#7aa0d0', glassDark: '#1e3058',
+    steel: '#5a5a6a', steelDark: '#404050', steelLight: '#7a7a8a', steelMid: '#4d4d5d',
+    brick: '#6a4030', brickDark: '#4a2820', brickLight: '#8a5a48', brickMid: '#7a4a38',
+    // 霓虹色（更柔和、更丰富的层次）
+    neonPink: '#ff4488', neonPinkGlow: '#ff88aa', neonBlue: '#44aaff', neonBlueGlow: '#88ccff',
+    neonGreen: '#44ff88', neonGreenGlow: '#88ffaa',
+    neonPurple: '#aa44ff', neonPurpleGlow: '#cc88ff',
+    neonOrange: '#ff8844', neonYellow: '#ffdd44',
+    // 窗户（更丰富的灯光色调）
+    windowWarm: '#ffe8a0', windowCool: '#a0c8ff', windowDark: '#202030', windowGlow: '#fff4d0',
+    windowBlue: '#4080b8',
+    // 门
+    doorMetal: '#484858', doorGlass: '#3a6090', doorFrame: '#383848',
+    // 植物（城市绿化）
+    treeDark: '#1a5a30', treeLight: '#2a7a40', treeMid: '#206a38', leafShadow: '#145028',
+    // 通用
+    outline: '#1a1a2a', white: '#e8e8f0', black: '#0c0c18',
+    warmGray: '#6b6577',
+    // 季节变体
+    springNeon: '#ff88cc', summerNeon: '#ff4444', fallNeon: '#ff8800', winterNeon: '#88ccff',
+    // 水/公园
+    parkGreen: '#1a4a28', parkLight: '#2a6a3a', parkMid: '#225a32', pondBlue: '#2848a0',
+};
+
+// ── 地面 ─────────────────────────────────────────────────────
+
+function drawAsphalt(ctx: CanvasRenderingContext2D) {
+    fill(ctx, PAL.asphalt);
+    // 精致碎石纹理 - 多层次
+    dither(ctx, 0, 0, 16, 16, PAL.asphalt, PAL.asphaltMid, 0.6);
+    dither(ctx, 16, 16, 16, 16, PAL.asphalt, PAL.asphaltMid, 0.6);
+    // 散落细节点
+    const spots = [[3,5],[8,2],[14,9],[22,4],[27,13],[6,20],[18,24],[25,28],[10,30],[4,14],[20,7],[30,19]];
+    spots.forEach(([x, y]) => px(ctx, x, y, PAL.asphaltLight));
+    const darkSpots = [[1,8],[12,3],[19,15],[26,22],[7,27],[15,19],[28,6],[5,25]];
+    darkSpots.forEach(([x, y]) => px(ctx, x, y, PAL.asphaltDark));
+    // 微裂纹
+    rect(ctx, 10, 14, 4, 1, PAL.asphaltDark);
+    px(ctx, 14, 15, PAL.asphaltDark);
+}
+
+function drawAsphaltAlt(ctx: CanvasRenderingContext2D) {
+    fill(ctx, PAL.asphaltMid);
+    dither(ctx, 0, 0, 32, 32, PAL.asphaltMid, PAL.asphaltLight, 0.65);
+    // 排水口盖
+    rect(ctx, 12, 12, 8, 8, PAL.asphaltDark);
+    rect(ctx, 13, 13, 6, 6, PAL.steelDark);
+    for (let i = 0; i < 4; i++) rect(ctx, 14, 14 + i * 1.5, 4, 1, PAL.asphaltDark);
+    highlight(ctx, 13, 13, 6, 1, 0.1);
+}
+
+function drawRoad(ctx: CanvasRenderingContext2D) {
+    fill(ctx, PAL.road);
+    dither(ctx, 0, 0, 32, 32, PAL.road, PAL.asphaltDark, 0.7);
+    // 中间虚线
+    rect(ctx, 15, 0, 2, 6, PAL.roadLineWhite);
+    rect(ctx, 15, 14, 2, 6, PAL.roadLineWhite);
+    // 边线
+    rect(ctx, 0, 0, 2, 32, PAL.roadLineWhite);
+    rect(ctx, 30, 0, 2, 32, PAL.roadLineWhite);
+    // 路面反光
+    highlight(ctx, 8, 10, 6, 1, 0.06);
+    highlight(ctx, 18, 22, 8, 1, 0.06);
+}
+
+function drawSidewalk(ctx: CanvasRenderingContext2D) {
+    fill(ctx, PAL.sidewalk);
+    // 砖块纹理 — 精致交错排列
+    for (let y = 0; y < 32; y += 4) {
+        const offset = (y / 4) % 2 === 0 ? 0 : 4;
+        for (let x = -4; x < 36; x += 8) {
+            rect(ctx, x + offset, y, 7, 3, PAL.sidewalkLight);
+            shadow(ctx, x + offset, y + 3, 7, 1, 0.1);
+            highlight(ctx, x + offset, y, 7, 1, 0.08);
+        }
+    }
+    // 灰尘污渍
+    px(ctx, 5, 7, PAL.sidewalkMid); px(ctx, 20, 23, PAL.sidewalkMid);
+}
+
+function drawPark(ctx: CanvasRenderingContext2D) {
+    fill(ctx, PAL.parkGreen);
+    dither(ctx, 0, 0, 32, 32, PAL.parkGreen, PAL.parkMid, 0.55);
+    // 草叶纹理
+    const grassBlades = [[2,3],[6,8],[10,1],[15,12],[20,5],[25,9],[28,15],[4,20],[12,24],[18,28],[24,22],[30,3],[8,16],[22,18]];
+    grassBlades.forEach(([x, y]) => { px(ctx, x, y, PAL.parkLight); px(ctx, x, y-1, PAL.treeLight); });
+    // 小花
+    px(ctx, 7, 11, '#e879f9'); px(ctx, 23, 7, '#fbbf24'); px(ctx, 14, 26, '#fb7185');
+}
+
+// ── 建筑 ─────────────────────────────────────────────────────
+
+function drawApartment(ctx: CanvasRenderingContext2D, accentColor = PAL.neonBlue) {
+    fill(ctx, PAL.asphalt);
+    // 建筑主体 — 分层渐变
+    rect(ctx, 3, 3, 26, 27, PAL.concrete);
+    dither(ctx, 3, 3, 26, 27, PAL.concrete, PAL.concreteMid, 0.6);
+    // 底部阴影
+    rect(ctx, 3, 28, 26, 2, PAL.concreteDark);
+    shadow(ctx, 3, 26, 26, 2, 0.15);
+    // 窗户网格 — 精致排列
+    for (let y = 5; y < 26; y += 4) {
+        for (let x = 5; x < 27; x += 5) {
+            const lit = ((x * 7 + y * 13) % 10) > 3;
+            const wc = lit ? (((x + y) % 3 === 0) ? PAL.windowCool : PAL.windowWarm) : PAL.windowDark;
+            rect(ctx, x, y, 3, 2, wc);
+            if (lit) {
+                // 窗框
+                rect(ctx, x, y, 3, 1, PAL.windowGlow);
+                shadow(ctx, x, y + 2, 3, 1, 0.15);
+            }
+            // 窗框描边
+            ctx.globalAlpha = 0.2;
+            ctx.strokeStyle = PAL.outline;
+            ctx.strokeRect(x - 0.5, y - 0.5, 4, 3);
+            ctx.globalAlpha = 1;
+        }
+    }
+    // 入口门厅
+    rect(ctx, 12, 24, 8, 6, PAL.doorGlass);
+    rect(ctx, 11, 24, 1, 6, PAL.doorFrame);
+    rect(ctx, 20, 24, 1, 6, PAL.doorFrame);
+    highlight(ctx, 13, 24, 3, 6, 0.12);
+    // 霓虹顶线 — 双层发光
+    rect(ctx, 3, 3, 26, 2, accentColor);
+    ctx.globalAlpha = 0.3;
+    ctx.fillStyle = accentColor;
+    ctx.fillRect(3, 1, 26, 2);
+    ctx.globalAlpha = 1;
+    // 建筑边缘高光
+    highlight(ctx, 3, 3, 1, 25, 0.08);
+}
+
+function drawSkyscraper(ctx: CanvasRenderingContext2D) {
+    fill(ctx, PAL.asphalt);
+    // 高楼主体 — 玻璃幕墙
+    rect(ctx, 6, 1, 20, 29, PAL.glass);
+    dither(ctx, 6, 1, 20, 29, PAL.glass, PAL.glassDark, 0.55);
+    rect(ctx, 6, 29, 20, 2, PAL.steelDark);
+    // 幕墙横条反光
+    for (let y = 3; y < 28; y += 3) {
+        rect(ctx, 7, y, 18, 1, PAL.glassBright);
+        highlight(ctx, 7, y, 10, 1, 0.12);
+    }
+    // 窗户灯光点 — 随机但固定
+    for (let y = 5; y < 27; y += 4) {
+        for (let x = 8; x < 24; x += 4) {
+            const lit = ((x * 11 + y * 7) % 10) > 4;
+            if (lit) {
+                px(ctx, x, y, PAL.windowWarm);
+                px(ctx, x + 1, y, PAL.windowWarm);
+            }
+        }
+    }
+    // 天线 — 更精致
+    rect(ctx, 15, 0, 2, 2, PAL.steelLight);
+    px(ctx, 15, 0, PAL.neonPink);
+    px(ctx, 16, 0, PAL.neonPinkGlow);
+    // 楼体右侧阴影
+    shadow(ctx, 24, 1, 2, 29, 0.12);
+    // 入口
+    rect(ctx, 13, 27, 6, 4, PAL.doorGlass);
+    highlight(ctx, 14, 27, 2, 4, 0.1);
+}
+
+function drawCafe(ctx: CanvasRenderingContext2D) {
+    fill(ctx, PAL.asphalt);
+    // 店面主体 — 砖墙质感
+    rect(ctx, 2, 10, 28, 20, PAL.brickLight);
+    dither(ctx, 2, 10, 28, 20, PAL.brickLight, PAL.brickMid, 0.6);
+    rect(ctx, 2, 29, 28, 2, PAL.brickDark);
+    // 砖纹细节
+    for (let y = 12; y < 28; y += 4) {
+        const off = (y / 4) % 2 === 0 ? 0 : 3;
+        for (let x = 2 + off; x < 30; x += 6) {
+            shadow(ctx, x, y + 3, 5, 1, 0.08);
+        }
+    }
+    // 大玻璃橱窗
+    rect(ctx, 3, 16, 10, 8, PAL.windowBlue);
+    rect(ctx, 19, 16, 10, 8, PAL.windowBlue);
+    highlight(ctx, 3, 16, 4, 8, 0.15);
+    highlight(ctx, 19, 16, 4, 8, 0.15);
+    // 窗户内部温暖光点
+    px(ctx, 6, 19, PAL.windowWarm); px(ctx, 8, 20, PAL.windowWarm);
+    px(ctx, 23, 19, PAL.windowWarm); px(ctx, 25, 20, PAL.windowWarm);
+    // 门
+    rect(ctx, 14, 18, 4, 13, PAL.doorGlass);
+    rect(ctx, 13, 18, 1, 13, PAL.doorFrame);
+    rect(ctx, 18, 18, 1, 13, PAL.doorFrame);
+    // 遮阳篷 — 更精致的条纹
+    for (let x = 1; x < 31; x++) {
+        const stripe = Math.floor(x / 3) % 2;
+        const c = stripe === 0 ? PAL.neonOrange : PAL.white;
+        rect(ctx, x, 8, 1, 3, c);
+    }
+    shadow(ctx, 1, 11, 30, 1, 0.15);
+    // 招牌 — 渐变发光
+    rect(ctx, 5, 6, 22, 2, PAL.neonGreen);
+    ctx.globalAlpha = 0.3; ctx.fillStyle = PAL.neonGreenGlow;
+    ctx.fillRect(5, 5, 22, 1); ctx.globalAlpha = 1;
+    // 窗台花盆
+    rect(ctx, 4, 15, 3, 1, '#92400e');
+    px(ctx, 5, 14, PAL.treeLight); px(ctx, 6, 14, PAL.treeMid);
+    rect(ctx, 26, 15, 3, 1, '#92400e');
+    px(ctx, 27, 14, PAL.treeLight); px(ctx, 28, 14, PAL.treeMid);
+}
+
+function drawClub(ctx: CanvasRenderingContext2D) {
+    fill(ctx, PAL.asphalt);
+    // 建筑主体 — 深色
+    rect(ctx, 2, 6, 28, 24, PAL.black);
+    dither(ctx, 2, 6, 28, 24, PAL.black, PAL.outline, 0.7);
+    rect(ctx, 2, 29, 28, 2, PAL.outline);
+    // 霓虹门框 — 双层
+    rect(ctx, 10, 14, 12, 16, PAL.neonPurple);
+    rect(ctx, 11, 15, 10, 15, PAL.neonPurpleGlow);
+    rect(ctx, 12, 16, 8, 14, PAL.black);
+    // 门内黑暗渐变
+    shadow(ctx, 12, 16, 8, 4, 0.3);
+    // 霓虹灯条
+    rect(ctx, 2, 6, 28, 2, PAL.neonPink);
+    ctx.globalAlpha = 0.4; ctx.fillStyle = PAL.neonPinkGlow;
+    ctx.fillRect(2, 5, 28, 1); ctx.globalAlpha = 1;
+    rect(ctx, 2, 10, 28, 1, PAL.neonBlue);
+    ctx.globalAlpha = 0.3; ctx.fillStyle = PAL.neonBlueGlow;
+    ctx.fillRect(2, 9, 28, 1); ctx.globalAlpha = 1;
+    // 招牌闪烁 — 多层霓虹灯
+    const signs = [
+        [6, 3, PAL.neonPink], [10, 2, PAL.neonBlue], [14, 3, PAL.neonYellow],
+        [18, 2, PAL.neonGreen], [22, 3, PAL.neonPurple], [26, 2, PAL.neonOrange],
+    ];
+    signs.forEach(([x, y, c]) => {
+        px(ctx, x as number, y as number, c as string);
+        ctx.globalAlpha = 0.3; px(ctx, (x as number) + 1, y as number, c as string); ctx.globalAlpha = 1;
+    });
+    // 地面反光
+    for (let x = 10; x < 22; x++) {
+        ctx.globalAlpha = 0.08;
+        px(ctx, x, 30, PAL.neonPurple); px(ctx, x, 31, PAL.neonPurple);
+        ctx.globalAlpha = 1;
+    }
+}
+
+function drawOffice(ctx: CanvasRenderingContext2D) {
+    fill(ctx, PAL.asphalt);
+    // 写字楼主体
+    rect(ctx, 5, 2, 22, 28, PAL.steel);
+    dither(ctx, 5, 2, 22, 28, PAL.steel, PAL.steelMid, 0.6);
+    rect(ctx, 5, 29, 22, 2, PAL.steelDark);
+    // 玻璃窗格 — 整齐的网格
+    for (let y = 4; y < 28; y += 3) {
+        for (let x = 7; x < 25; x += 3) {
+            const lit = ((y + x) % 5 < 3);
+            rect(ctx, x, y, 2, 2, lit ? PAL.windowWarm : PAL.glassBright);
+            if (lit) highlight(ctx, x, y, 2, 1, 0.1);
+        }
+    }
+    // 大厅
+    rect(ctx, 12, 24, 8, 7, PAL.doorGlass);
+    highlight(ctx, 13, 24, 3, 7, 0.1);
+    rect(ctx, 11, 24, 1, 7, PAL.doorFrame);
+    rect(ctx, 20, 24, 1, 7, PAL.doorFrame);
+    // 顶部装饰
+    rect(ctx, 6, 1, 20, 1, PAL.steelLight);
+    highlight(ctx, 6, 1, 20, 1, 0.15);
+    // 侧面阴影
+    shadow(ctx, 25, 2, 2, 28, 0.1);
+}
+
+// ── 城市装饰 ─────────────────────────────────────────────────
+
+function drawCityTree(ctx: CanvasRenderingContext2D, season?: SimSeason) {
+    fill(ctx, PAL.sidewalk);
+    dither(ctx, 0, 0, 32, 32, PAL.sidewalk, PAL.sidewalkLight, 0.65);
+    // 树根区域阴影
+    ctx.globalAlpha = 0.12;
+    ctx.beginPath(); ctx.ellipse(16, 28, 8, 3, 0, 0, Math.PI * 2);
+    ctx.fillStyle = '#000'; ctx.fill(); ctx.globalAlpha = 1;
+    // 树干 — 有纹理
+    rect(ctx, 14, 18, 4, 12, '#5a4030');
+    dither(ctx, 14, 18, 4, 12, '#5a4030', '#4a3020', 0.55);
+    highlight(ctx, 14, 18, 1, 12, 0.08);
+    // 树冠 — 多层圆形叠加，更自然
+    const leafC = season === 'fall' ? '#c06020' : season === 'winter' ? '#6a8aaa' : PAL.treeLight;
+    const leafD = season === 'fall' ? '#a04010' : season === 'winter' ? '#5a7a9a' : PAL.treeDark;
+    // 底层（大）
+    ctx.beginPath(); ctx.arc(16, 12, 10, 0, Math.PI * 2);
+    ctx.fillStyle = leafC; ctx.fill();
+    // 中层
+    ctx.beginPath(); ctx.arc(13, 10, 6, 0, Math.PI * 2);
+    ctx.fillStyle = leafD; ctx.fill();
+    ctx.beginPath(); ctx.arc(20, 11, 5, 0, Math.PI * 2);
+    ctx.fillStyle = leafD; ctx.fill();
+    // 顶层高光
+    ctx.beginPath(); ctx.arc(15, 8, 5, 0, Math.PI * 2);
+    ctx.fillStyle = leafC; ctx.fill();
+    highlight(ctx, 12, 5, 6, 3, 0.12);
+    // 季节效果
+    if (season === 'winter') {
+        ctx.globalAlpha = 0.5;
+        ctx.beginPath(); ctx.arc(16, 7, 7, Math.PI, 0);
+        ctx.fillStyle = '#e0eaf0'; ctx.fill();
+        ctx.globalAlpha = 1;
+    }
+    if (season === 'fall') {
+        // 飘落的叶子
+        px(ctx, 5, 22, '#e08030'); px(ctx, 24, 25, '#d06020');
+        px(ctx, 8, 27, '#c06020'); px(ctx, 26, 20, '#b05010');
+    }
+}
+
+function drawStreetLight(ctx: CanvasRenderingContext2D) {
+    fill(ctx, PAL.sidewalk);
+    dither(ctx, 0, 0, 32, 32, PAL.sidewalk, PAL.sidewalkLight, 0.65);
+    // 灯柱 — 有粗细变化
+    rect(ctx, 15, 8, 2, 22, PAL.steelDark);
+    rect(ctx, 14, 26, 4, 3, PAL.steelDark);
+    dither(ctx, 15, 8, 2, 22, PAL.steelDark, PAL.steelMid, 0.5);
+    // 灯头
+    rect(ctx, 10, 4, 12, 4, PAL.steelLight);
+    highlight(ctx, 10, 4, 12, 1, 0.15);
+    // 灯泡
+    rect(ctx, 13, 6, 6, 2, PAL.windowWarm);
+    // 光晕 — 多层次
+    ctx.globalAlpha = 0.08;
+    ctx.beginPath(); ctx.arc(16, 10, 10, 0, Math.PI * 2);
+    ctx.fillStyle = PAL.windowWarm; ctx.fill();
+    ctx.globalAlpha = 0.05;
+    ctx.beginPath(); ctx.arc(16, 14, 14, 0, Math.PI * 2);
+    ctx.fillStyle = PAL.windowGlow; ctx.fill();
+    ctx.globalAlpha = 1;
+    // 地面光影
+    highlight(ctx, 10, 28, 12, 2, 0.06);
+}
+
+function drawBench(ctx: CanvasRenderingContext2D) {
+    fill(ctx, PAL.sidewalk);
+    dither(ctx, 0, 0, 32, 32, PAL.sidewalk, PAL.sidewalkLight, 0.65);
+    // 长椅阴影
+    shadow(ctx, 7, 22, 18, 2, 0.1);
+    // 座面木板
+    rect(ctx, 5, 15, 22, 2, '#8a6a58');
+    rect(ctx, 5, 17, 22, 2, '#7a5a48');
+    // 靠背
+    rect(ctx, 5, 11, 22, 2, '#8a6a58');
+    rect(ctx, 5, 13, 22, 2, '#7a5a48');
+    // 高光
+    highlight(ctx, 5, 15, 22, 1, 0.1);
+    highlight(ctx, 5, 11, 22, 1, 0.1);
+    // 椅腿 — 金属质感
+    rect(ctx, 8, 19, 2, 6, PAL.steelDark);
+    rect(ctx, 22, 19, 2, 6, PAL.steelDark);
+    rect(ctx, 8, 9, 2, 2, PAL.steelDark);
+    rect(ctx, 22, 9, 2, 2, PAL.steelDark);
+    highlight(ctx, 8, 19, 1, 6, 0.08);
+    highlight(ctx, 22, 19, 1, 6, 0.08);
+}
+
+function drawTrashCan(ctx: CanvasRenderingContext2D) {
+    fill(ctx, PAL.sidewalk);
+    dither(ctx, 0, 0, 32, 32, PAL.sidewalk, PAL.sidewalkLight, 0.65);
+    // 桶身
+    rect(ctx, 10, 10, 12, 16, PAL.steelDark);
+    dither(ctx, 10, 10, 12, 16, PAL.steelDark, PAL.steelMid, 0.55);
+    // 桶盖
+    rect(ctx, 8, 8, 16, 3, PAL.steelLight);
+    highlight(ctx, 8, 8, 16, 1, 0.12);
+    // 桶底
+    rect(ctx, 10, 26, 12, 2, PAL.steel);
+    // 金属带
+    rect(ctx, 10, 15, 12, 1, PAL.steelLight);
+    rect(ctx, 10, 21, 12, 1, PAL.steelLight);
+    // 侧面反光
+    highlight(ctx, 10, 10, 2, 16, 0.08);
+    shadow(ctx, 20, 10, 2, 16, 0.08);
+}
+
+// ── 地图背景生成 ──────────────────────────────────────────────
+
+function drawTilemap(cols: number, rows: number, season: SimSeason = 'spring'): string {
+    const c = document.createElement('canvas');
+    c.width = TILE_SIZE * cols; c.height = TILE_SIZE * rows;
+    const ctx = c.getContext('2d')!;
+    ctx.imageSmoothingEnabled = false;
+
+    let seed = 42;
+    const rand = () => { seed = (seed * 1664525 + 1013904223) & 0x7fffffff; return seed / 0x7fffffff; };
+
+    // 城市地面基调
+    for (let row = 0; row < rows; row++) {
+        for (let col = 0; col < cols; col++) {
+            ctx.save();
+            ctx.translate(col * TILE_SIZE, row * TILE_SIZE);
+            const r = rand();
+            if (r < 0.5) drawAsphalt(ctx);
+            else if (r < 0.8) drawAsphaltAlt(ctx);
+            else drawSidewalk(ctx);
+            ctx.restore();
+        }
+    }
+
+    // 季节色调叠加 — 更微妙
+    const overlays: Record<SimSeason, string> = {
+        spring: 'rgba(180,140,255,0.06)',
+        summer: 'rgba(255,100,50,0.05)',
+        fall: 'rgba(255,150,50,0.08)',
+        winter: 'rgba(120,160,220,0.10)',
+    };
+    ctx.fillStyle = overlays[season];
+    ctx.fillRect(0, 0, c.width, c.height);
+
+    // 散布霓虹光点 — 更柔和、更多层次
+    const neonColors = [PAL.neonPink, PAL.neonBlue, PAL.neonGreen, PAL.neonPurple, PAL.neonOrange];
+    for (let i = 0; i < 20; i++) {
+        const nx = Math.floor(rand() * c.width);
+        const ny = Math.floor(rand() * c.height);
+        const nc = neonColors[Math.floor(rand() * neonColors.length)];
+        // 外层光晕
+        ctx.globalAlpha = 0.06;
+        ctx.fillStyle = nc;
+        ctx.beginPath(); ctx.arc(nx, ny, 6, 0, Math.PI * 2); ctx.fill();
+        // 核心亮点
+        ctx.globalAlpha = 0.15;
+        ctx.fillRect(nx, ny, 2, 2);
+    }
+    ctx.globalAlpha = 1;
+
+    // 环境光渐变 — 底部更暗，模拟城市灯光
+    const grad = ctx.createLinearGradient(0, 0, 0, c.height);
+    grad.addColorStop(0, 'rgba(0,0,0,0)');
+    grad.addColorStop(1, 'rgba(0,0,0,0.15)');
+    ctx.fillStyle = grad;
+    ctx.fillRect(0, 0, c.width, c.height);
+
+    return c.toDataURL('image/png');
+}
+
+// ── 导出接口 ─────────────────────────────────────────────────
+
+export interface TileSet {
+    grass: string;
+    grassAlt: string;
+    path: string;
+    water: string;
+    sand: string;
+    treePine: string;
+    treeRound: string;
+    flowers: string;
+    houseRed: string;
+    houseBlue: string;
+    houseLarge: string;
+    castle: string;
+    bridge: string;
+    fence: string;
+    rock: string;
+    bush: string;
+    farmPlot: string;
+    farmPlotCrop: string;
+    mineEntrance: string;
+    fishpond: string;
+    market: string;
+    workshop: string;
+    /** 完整城市地图背景 */
+    mapBackground: string;
+}
+
+const _cache: Record<string, TileSet> = {};
+
+export function getTileSet(season: SimSeason = 'spring'): TileSet {
+    if (_cache[season]) return _cache[season];
+
+    const gen = (draw: (ctx: CanvasRenderingContext2D) => void): string => {
+        const [c, ctx] = createTileCanvas();
+        draw(ctx);
+        return c.toDataURL('image/png');
+    };
+
+    const generated: TileSet = {
+        grass:       gen(drawPark),
+        grassAlt:    gen(drawAsphaltAlt),
+        path:        gen(drawRoad),
+        water:       gen(ctx => drawSidewalk(ctx)),
+        sand:        gen(drawSidewalk),
+        treePine:    gen(ctx => drawCityTree(ctx, season)),
+        treeRound:   gen(ctx => drawCityTree(ctx, season)),
+        flowers:     gen(drawBench),
+        houseRed:    gen(ctx => drawApartment(ctx, PAL.neonPink)),
+        houseBlue:   gen(ctx => drawApartment(ctx, PAL.neonBlue)),
+        houseLarge:  gen(drawSkyscraper),
+        castle:      gen(drawOffice),
+        bridge:      gen(drawStreetLight),
+        fence:       gen(drawTrashCan),
+        rock:        gen(drawStreetLight),
+        bush:        gen(ctx => drawCityTree(ctx, season)),
+        farmPlot:    gen(drawCafe),
+        farmPlotCrop:gen(drawCafe),
+        mineEntrance:gen(drawClub),
+        fishpond:    gen(drawPark),
+        market:      gen(drawCafe),
+        workshop:    gen(drawOffice),
+        mapBackground: drawTilemap(20, 19, season),
+    };
+
+    _cache[season] = generated;
+
+    return _cache[season];
+}
+
+export function houseForFamily(emoji: string): keyof TileSet {
+    switch (emoji) {
+        case '🏢': return 'houseRed';
+        case '🏙️': return 'houseLarge';
+        case '🏬': return 'houseBlue';
+        case '🏨': return 'castle';
+        case '🌃': return 'houseLarge';
+        case '🌆': return 'houseRed';
+        default: return 'houseLarge';
+    }
+}
+
+export function decorForEmoji(emoji: string): keyof TileSet | null {
+    switch (emoji) {
+        case '🌲': case '🌳': return 'treePine';
+        case '🪑': return 'flowers';
+        case '🚗': return 'path';
+        case '💡': return 'bridge';
+        case '🌿': return 'bush';
+        default: return null;
+    }
+}
+
+export function buildingTileKey(type: string): keyof TileSet {
+    switch (type) {
+        case 'cafe':      return 'farmPlot';
+        case 'club':      return 'mineEntrance';
+        case 'park':      return 'fishpond';
+        case 'market':    return 'market';
+        case 'office':    return 'workshop';
+        default: return 'houseLarge';
+    }
+}

@@ -1,1 +1,27 @@
-aW1wb3J0IHsgZGVzY3JpYmUsIGV4cGVjdCwgaXQgfSBmcm9tICd2aXRlc3QnOwppbXBvcnQgewogICAgTEVHQUNZX0RFRkFVTFRfV0FMTFBBUEVSLAogICAgaXNMZWdhY3lEZWZhdWx0V2FsbHBhcGVyLAogICAgc2hvdWxkUHJlc2VydmVMZWdhY3lEZWZhdWx0V2FsbHBhcGVyLAp9IGZyb20gJy4vd2FsbHBhcGVyQ29tcGF0JzsKCmRlc2NyaWJlKCdpc0xlZ2FjeURlZmF1bHRXYWxscGFwZXInLCAoKSA9PiB7CiAgICBpdCgn6K+G5Yir5pen54mI5Y2B5YWt6L+b5Yi257KJ57u/6buY6K6k5riQ5Y+YJywgKCkgPT4gewogICAgICAgIGV4cGVjdChpc0xlZ2FjeURlZmF1bHRXYWxscGFwZXIoTEVHQUNZX0RFRkFVTFRfV0FMTFBBUEVSKSkudG9CZSh0cnVlKTsKICAgIH0pOwoKICAgIGl0KCfor4bliKvmtY/op4jlmajop4TojIPljJblkI7nmoQgcmdiKCkg54mI5pysJywgKCkgPT4gewogICAgICAgIGV4cGVjdChpc0xlZ2FjeURlZmF1bHRXYWxscGFwZXIoJ2xpbmVhci1ncmFkaWVudCgxMzVkZWcsIHJnYigyNTUsIDIyMiwgMjMzKSAwJSwgcmdiKDE4MSwgMjU1LCAyNTIpIDEwMCUpJykpLnRvQmUodHJ1ZSk7CiAgICB9KTsKCiAgICBpdCgn5LiN5oqK5YW25a6D55So5oi35riQ5Y+Y5b2T5oiQ5pen6buY6K6kJywgKCkgPT4gewogICAgICAgIGV4cGVjdChpc0xlZ2FjeURlZmF1bHRXYWxscGFwZXIoJ2xpbmVhci1ncmFkaWVudCgxMzVkZWcsICNmZmRlZGUsICNiNWZmZmMpJykpLnRvQmUoZmFsc2UpOwogICAgICAgIGV4cGVjdChpc0xlZ2FjeURlZmF1bHRXYWxscGFwZXIoJ2xpbmVhci1ncmFkaWVudCgxODBkZWcsICNGRkRFRTksICNCNUZGRkMpJykpLnRvQmUoZmFsc2UpOwogICAgfSk7CgogICAgaXQoJ+WPquS4uueUqOaIt+S4u+WKqOmAieaLqeeahOaAgOaXp+eJiOS/neeVmeaXp+m7mOiupOWjgee6uCcsICgpID0+IHsKICAgICAgICBleHBlY3Qoc2hvdWxkUHJlc2VydmVMZWdhY3lEZWZhdWx0V2FsbHBhcGVyKExFR0FDWV9ERUZBVUxUX1dBTExQQVBFUiwgJ25vc3RhbGdpYScpKS50b0JlKHRydWUpOwogICAgICAgIGV4cGVjdChzaG91bGRQcmVzZXJ2ZUxlZ2FjeURlZmF1bHRXYWxscGFwZXIoTEVHQUNZX0RFRkFVTFRfV0FMTFBBUEVSLCAncGFwZXInKSkudG9CZShmYWxzZSk7CiAgICAgICAgZXhwZWN0KHNob3VsZFByZXNlcnZlTGVnYWN5RGVmYXVsdFdhbGxwYXBlcihMRUdBQ1lfREVGQVVMVF9XQUxMUEFQRVIpKS50b0JlKGZhbHNlKTsKICAgIH0pOwp9KTsK
+import { describe, expect, it } from 'vitest';
+import {
+    LEGACY_DEFAULT_WALLPAPER,
+    isLegacyDefaultWallpaper,
+    shouldPreserveLegacyDefaultWallpaper,
+} from './wallpaperCompat';
+
+describe('isLegacyDefaultWallpaper', () => {
+    it('识别旧版十六进制粉绿默认渐变', () => {
+        expect(isLegacyDefaultWallpaper(LEGACY_DEFAULT_WALLPAPER)).toBe(true);
+    });
+
+    it('识别浏览器规范化后的 rgb() 版本', () => {
+        expect(isLegacyDefaultWallpaper('linear-gradient(135deg, rgb(255, 222, 233) 0%, rgb(181, 255, 252) 100%)')).toBe(true);
+    });
+
+    it('不把其它用户渐变当成旧默认', () => {
+        expect(isLegacyDefaultWallpaper('linear-gradient(135deg, #ffdede, #b5fffc)')).toBe(false);
+        expect(isLegacyDefaultWallpaper('linear-gradient(180deg, #FFDEE9, #B5FFFC)')).toBe(false);
+    });
+
+    it('只为用户主动选择的怀旧版保留旧默认壁纸', () => {
+        expect(shouldPreserveLegacyDefaultWallpaper(LEGACY_DEFAULT_WALLPAPER, 'nostalgia')).toBe(true);
+        expect(shouldPreserveLegacyDefaultWallpaper(LEGACY_DEFAULT_WALLPAPER, 'paper')).toBe(false);
+        expect(shouldPreserveLegacyDefaultWallpaper(LEGACY_DEFAULT_WALLPAPER)).toBe(false);
+    });
+});

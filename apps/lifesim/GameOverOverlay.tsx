@@ -1,1 +1,52 @@
-LyoqCiAqIEdhbWVPdmVyT3ZlcmxheSDigJQg5ri45oiP57uT5p2fIChyZXRybyBlcnJvciBkaWFsb2cgc3R5bGUpCiAqIEluc3BpcmVkIGJ5IGNsYXNzaWMgT1MgZXJyb3Igd2luZG93cwogKi8KCmltcG9ydCBSZWFjdCBmcm9tICdyZWFjdCc7CmltcG9ydCB7IEJ1aWxkaW5ncywgQXJyb3dDb3VudGVyQ2xvY2t3aXNlIH0gZnJvbSAnQHBob3NwaG9yLWljb25zL3JlYWN0JzsKCmNvbnN0IEdhbWVPdmVyT3ZlcmxheTogUmVhY3QuRkM8eyByZWFzb24/OiBzdHJpbmc7IG9uUmVzdGFydDogKCkgPT4gdm9pZCB9PiA9ICh7IHJlYXNvbiwgb25SZXN0YXJ0IH0pID0+ICgKICAgIDxkaXYgY2xhc3NOYW1lPSJhYnNvbHV0ZSBpbnNldC0wIGZsZXggaXRlbXMtY2VudGVyIGp1c3RpZnktY2VudGVyIHotNTAgcHgtNCIKICAgICAgICBzdHlsZT17eyBiYWNrZ3JvdW5kOiAncmdiYSgwLDAsMCwwLjQpJyB9fT4KICAgICAgICA8ZGl2IGNsYXNzTmFtZT0icmV0cm8td2luZG93IHctZnVsbCIgc3R5bGU9e3sKICAgICAgICAgICAgbWF4V2lkdGg6IDI4MCwKICAgICAgICAgICAgYm9yZGVyQ29sb3I6ICcjYjg1MDUwJywKICAgICAgICAgICAgYm94U2hhZG93OiAnNHB4IDRweCAwcHggcmdiYSgwLDAsMCwwLjI1KSwgaW5zZXQgMCAwIDAgMXB4IHJnYmEoMjU1LDI1NSwyNTUsMC41KScsCiAgICAgICAgfX0+CiAgICAgICAgICAgIHsvKiBFcnJvci1zdHlsZSB0aXRsZWJhciAqL30KICAgICAgICAgICAgPGRpdiBjbGFzc05hbWU9InJldHJvLXRpdGxlYmFyIiBzdHlsZT17ewogICAgICAgICAgICAgICAgYmFja2dyb3VuZDogJ2xpbmVhci1ncmFkaWVudCgxODBkZWcsICNkMDYwNjAsICNiODUwNTApJywKICAgICAgICAgICAgfX0+CiAgICAgICAgICAgICAgICA8c3BhbiBjbGFzc05hbWU9ImZsZXggaXRlbXMtY2VudGVyIGdhcC0xIj4KICAgICAgICAgICAgICAgICAgICA8c3BhbiBzdHlsZT17eyBmb250U2l6ZTogMTIgfX0+4pqgPC9zcGFuPiBFcnJvcgogICAgICAgICAgICAgICAgPC9zcGFuPgogICAgICAgICAgICAgICAgPHNwYW4gY2xhc3NOYW1lPSJyZXRyby1kb3RzIj4KICAgICAgICAgICAgICAgICAgICA8c3BhbiBjbGFzc05hbWU9InJldHJvLWRvdCIgc3R5bGU9e3sgYmFja2dyb3VuZDogJyNmODcxNzEnIH19PsOXPC9zcGFuPgogICAgICAgICAgICAgICAgPC9zcGFuPgogICAgICAgICAgICA8L2Rpdj4KCiAgICAgICAgICAgIDxkaXYgc3R5bGU9e3sgcGFkZGluZzogMTYsIHRleHRBbGlnbjogJ2NlbnRlcicgfX0+CiAgICAgICAgICAgICAgICA8QnVpbGRpbmdzIHNpemU9ezQ4fSB3ZWlnaHQ9ImR1b3RvbmUiIHN0eWxlPXt7IGNvbG9yOiAnI2I4NTA1MCcsIG1hcmdpbkJvdHRvbTogOCB9fSBjbGFzc05hbWU9Im14LWF1dG8iIC8+CgogICAgICAgICAgICAgICAgPHAgc3R5bGU9e3sgZm9udFNpemU6IDE0LCBmb250V2VpZ2h0OiA3MDAsIGNvbG9yOiAnIzQ0NCcsIG1hcmdpbkJvdHRvbTogOCB9fT4KICAgICAgICAgICAgICAgICAgICDln47luILnqbrkuobvvIEKICAgICAgICAgICAgICAgIDwvcD4KCiAgICAgICAgICAgICAgICA8ZGl2IGNsYXNzTmFtZT0icmV0cm8taW5zZXQiIHN0eWxlPXt7IHBhZGRpbmc6ICc4cHggMTJweCcsIG1hcmdpbkJvdHRvbTogMTIsIHRleHRBbGlnbjogJ2xlZnQnIH19PgogICAgICAgICAgICAgICAgICAgIDxwIHN0eWxlPXt7IGZvbnRTaXplOiAxMCwgY29sb3I6ICcjNjY2JywgbGluZUhlaWdodDogMS41IH19PgogICAgICAgICAgICAgICAgICAgICAgICB7cmVhc29uIHx8ICfmiYDmnInkurrpg73mkKzotbDkuobigKbigKbov5nluqfln47luILnqbrml6DkuIDkurrjgIInfQogICAgICAgICAgICAgICAgICAgIDwvcD4KICAgICAgICAgICAgICAgIDwvZGl2PgoKICAgICAgICAgICAgICAgIDxidXR0b24gb25DbGljaz17b25SZXN0YXJ0fQogICAgICAgICAgICAgICAgICAgIGNsYXNzTmFtZT0icmV0cm8tYnRuIHJldHJvLWJ0bi1wcmltYXJ5IHctZnVsbCBmbGV4IGl0ZW1zLWNlbnRlciBqdXN0aWZ5LWNlbnRlciBnYXAtMSIKICAgICAgICAgICAgICAgICAgICBzdHlsZT17eyBwYWRkaW5nOiAnOHB4IDE2cHgnLCBmb250U2l6ZTogMTIgfX0+CiAgICAgICAgICAgICAgICAgICAgPEFycm93Q291bnRlckNsb2Nrd2lzZSBzaXplPXsxM30gd2VpZ2h0PSJib2xkIiAvPiDph43lu7rln47luIIKICAgICAgICAgICAgICAgIDwvYnV0dG9uPgogICAgICAgICAgICA8L2Rpdj4KICAgICAgICA8L2Rpdj4KICAgIDwvZGl2PgopOwoKZXhwb3J0IGRlZmF1bHQgR2FtZU92ZXJPdmVybGF5Owo=
+/**
+ * GameOverOverlay — 游戏结束 (retro error dialog style)
+ * Inspired by classic OS error windows
+ */
+
+import React from 'react';
+import { Buildings, ArrowCounterClockwise } from '@phosphor-icons/react';
+
+const GameOverOverlay: React.FC<{ reason?: string; onRestart: () => void }> = ({ reason, onRestart }) => (
+    <div className="absolute inset-0 flex items-center justify-center z-50 px-4"
+        style={{ background: 'rgba(0,0,0,0.4)' }}>
+        <div className="retro-window w-full" style={{
+            maxWidth: 280,
+            borderColor: '#b85050',
+            boxShadow: '4px 4px 0px rgba(0,0,0,0.25), inset 0 0 0 1px rgba(255,255,255,0.5)',
+        }}>
+            {/* Error-style titlebar */}
+            <div className="retro-titlebar" style={{
+                background: 'linear-gradient(180deg, #d06060, #b85050)',
+            }}>
+                <span className="flex items-center gap-1">
+                    <span style={{ fontSize: 12 }}>⚠</span> Error
+                </span>
+                <span className="retro-dots">
+                    <span className="retro-dot" style={{ background: '#f87171' }}>×</span>
+                </span>
+            </div>
+
+            <div style={{ padding: 16, textAlign: 'center' }}>
+                <Buildings size={48} weight="duotone" style={{ color: '#b85050', marginBottom: 8 }} className="mx-auto" />
+
+                <p style={{ fontSize: 14, fontWeight: 700, color: '#444', marginBottom: 8 }}>
+                    城市空了！
+                </p>
+
+                <div className="retro-inset" style={{ padding: '8px 12px', marginBottom: 12, textAlign: 'left' }}>
+                    <p style={{ fontSize: 10, color: '#666', lineHeight: 1.5 }}>
+                        {reason || '所有人都搬走了……这座城市空无一人。'}
+                    </p>
+                </div>
+
+                <button onClick={onRestart}
+                    className="retro-btn retro-btn-primary w-full flex items-center justify-center gap-1"
+                    style={{ padding: '8px 16px', fontSize: 12 }}>
+                    <ArrowCounterClockwise size={13} weight="bold" /> 重建城市
+                </button>
+            </div>
+        </div>
+    </div>
+);
+
+export default GameOverOverlay;

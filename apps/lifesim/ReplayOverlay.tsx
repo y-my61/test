@@ -1,1 +1,199 @@
-LyoqCiAqIE5hcnJhdGl2ZVJlcGxheU92ZXJsYXkg4oCUIOWPmeS6i+WbnuaUviAocmV0cm8gd2luZG93IHN0eWxlKQogKiBMb29rcyBsaWtlIGEgcmV0cm8gT1Mgbm90aWZpY2F0aW9uL2RpYWxvZyB3aW5kb3cKICovCgppbXBvcnQgUmVhY3QgZnJvbSAncmVhY3QnOwppbXBvcnQgeyBTaW1BY3Rpb24gfSBmcm9tICcuLi8uLi90eXBlcyc7CmltcG9ydCB7CiAgICBBbGllbiwgQm9va09wZW4sIExpZ2h0bmluZywgR2xvYmUsIENoYXRDaXJjbGVEb3RzLCBXYXJuaW5nQ2lyY2xlLAp9IGZyb20gJ0BwaG9zcGhvci1pY29ucy9yZWFjdCc7CmltcG9ydCBTdG9yeUF0dGFjaG1lbnRzIGZyb20gJy4vU3RvcnlBdHRhY2htZW50cyc7CmltcG9ydCB7IGZvcm1hdExpZmVTaW1BY3Rpb25EZXNjcmlwdGlvbiB9IGZyb20gJy4uLy4uL3V0aWxzL2xpZmVTaW1Ub25lJzsKCmNvbnN0IFRPTkVfU1RZTEVTOiBSZWNvcmQ8c3RyaW5nLCB7IGFjY2VudDogc3RyaW5nOyBsYWJlbDogc3RyaW5nIH0+ID0gewogICAgdmVuZ2VmdWw6IHsgYWNjZW50OiAnI2I4NTA1MCcsIGxhYmVsOiAn5aSN5LuHJyB9LAogICAgcm9tYW50aWM6IHsgYWNjZW50OiAnI2MwNjA5MCcsIGxhYmVsOiAn5rWq5ryrJyB9LAogICAgc2NoZW1pbmc6IHsgYWNjZW50OiAnIzhiNmJiOCcsIGxhYmVsOiAn6Zi06LCLJyB9LAogICAgY2hhb3RpYzogIHsgYWNjZW50OiAnI2MwNzA0MCcsIGxhYmVsOiAn5re35LmxJyB9LAogICAgcGVhY2VmdWw6IHsgYWNjZW50OiAnIzViOWI2YicsIGxhYmVsOiAn5bmz5ZKMJyB9LAogICAgYW11c2VkOiAgIHsgYWNjZW50OiAnI2I4OTg0MCcsIGxhYmVsOiAn5pyJ6LajJyB9LAogICAgYW54aW91czogIHsgYWNjZW50OiAnIzUwNzBiMCcsIGxhYmVsOiAn54Sm6JmRJyB9LAp9OwoKY29uc3QgTmFycmF0aXZlUmVwbGF5T3ZlcmxheTogUmVhY3QuRkM8ewogICAgYWN0aW9uczogU2ltQWN0aW9uW107CiAgICBjdXJyZW50SW5kZXg6IG51bWJlcjsKICAgIG9uTmV4dDogKCkgPT4gdm9pZDsKfT4gPSAoeyBhY3Rpb25zLCBjdXJyZW50SW5kZXgsIG9uTmV4dCB9KSA9PiB7CiAgICBjb25zdCBhY3Rpb24gPSBhY3Rpb25zW2N1cnJlbnRJbmRleF07CiAgICBpZiAoIWFjdGlvbikgcmV0dXJuIG51bGw7CiAgICBjb25zdCBpc0xhc3QgPSBjdXJyZW50SW5kZXggPj0gYWN0aW9ucy5sZW5ndGggLSAxOwogICAgY29uc3QgbmFycmF0aXZlID0gYWN0aW9uLm5hcnJhdGl2ZTsKICAgIGNvbnN0IGRpc3BsYXlEZXNjcmlwdGlvbiA9IGZvcm1hdExpZmVTaW1BY3Rpb25EZXNjcmlwdGlvbihhY3Rpb24uZGVzY3JpcHRpb24pOwogICAgY29uc3QgdG9uZSA9IG5hcnJhdGl2ZT8uZW1vdGlvbmFsVG9uZTsKICAgIGNvbnN0IHRvbmVTdHlsZSA9IHRvbmUgPyBUT05FX1NUWUxFU1t0b25lXSA6IG51bGw7CiAgICBjb25zdCBzdG9yeUxhYmVsID0gYWN0aW9uLnN0b3J5S2luZCA9PT0gJ21haW5fcGxvdCcKICAgICAgICA/ICfkuLvnur/liafmg4UnCiAgICAgICAgOiBhY3Rpb24uc3RvcnlLaW5kID09PSAnY2hhcmFjdGVyX2RyYW1hJwogICAgICAgICAgICA/ICfop5LoibLliafmg4UnCiAgICAgICAgICAgIDogYWN0aW9uLnN0b3J5S2luZCA9PT0gJ3N5c3RlbScKICAgICAgICAgICAgICAgID8gJ+ezu+e7n+aSreaKpScKICAgICAgICAgICAgICAgIDogbnVsbDsKICAgIGNvbnN0IGFjY2VudCA9IGFjdGlvbi5zdG9yeUtpbmQgPT09ICdtYWluX3Bsb3QnCiAgICAgICAgPyAnI2I4NmMzZCcKICAgICAgICA6IGFjdGlvbi5zdG9yeUtpbmQgPT09ICdzeXN0ZW0nCiAgICAgICAgICAgID8gJyM3ZjhjOWInCiAgICAgICAgICAgIDogdG9uZVN0eWxlPy5hY2NlbnQgfHwgJyM4YjdiYjgnOwoKICAgIHJldHVybiAoCiAgICAgICAgPGRpdiBjbGFzc05hbWU9ImFic29sdXRlIGluc2V0LTAgZmxleCBpdGVtcy1jZW50ZXIganVzdGlmeS1jZW50ZXIgei01MCBweC00IgogICAgICAgICAgICBzdHlsZT17eyBiYWNrZ3JvdW5kOiAncmdiYSgwLDAsMCwwLjM1KScgfX0+CiAgICAgICAgICAgIDxkaXYgY2xhc3NOYW1lPSJyZXRyby13aW5kb3cgdy1mdWxsIiBzdHlsZT17ewogICAgICAgICAgICAgICAgbWF4V2lkdGg6IDMyMCwKICAgICAgICAgICAgICAgIG1heEhlaWdodDogJ2NhbGModmFyKC0tYXBwLWhlaWdodCwgMTAwbHZoKSAtIDMycHgpJywKICAgICAgICAgICAgICAgIGJveFNoYWRvdzogJzRweCA0cHggMHB4IHJnYmEoMCwwLDAsMC4yKSwgaW5zZXQgMCAwIDAgMXB4IHJnYmEoMjU1LDI1NSwyNTUsMC41KScsCiAgICAgICAgICAgICAgICBib3JkZXJDb2xvcjogYWNjZW50LAogICAgICAgICAgICAgICAgZGlzcGxheTogJ2ZsZXgnLAogICAgICAgICAgICAgICAgZmxleERpcmVjdGlvbjogJ2NvbHVtbicsCiAgICAgICAgICAgICAgICBtaW5IZWlnaHQ6IDAsCiAgICAgICAgICAgIH19PgogICAgICAgICAgICAgICAgey8qIFRpdGxlYmFyICovfQogICAgICAgICAgICAgICAgPGRpdiBjbGFzc05hbWU9InJldHJvLXRpdGxlYmFyIiBzdHlsZT17ewogICAgICAgICAgICAgICAgICAgIGJhY2tncm91bmQ6IGBsaW5lYXItZ3JhZGllbnQoMTgwZGVnLCAke2FjY2VudH1jYywgJHthY2NlbnR9KWAsCiAgICAgICAgICAgICAgICAgICAgZmxleFNocmluazogMCwKICAgICAgICAgICAgICAgIH19PgogICAgICAgICAgICAgICAgICAgIDxzcGFuPnJlcGxheS5leGUgLSB7Y3VycmVudEluZGV4ICsgMX0ve2FjdGlvbnMubGVuZ3RofTwvc3Bhbj4KICAgICAgICAgICAgICAgICAgICA8ZGl2IGNsYXNzTmFtZT0iZmxleCBpdGVtcy1jZW50ZXIgZ2FwLTEuNSI+CiAgICAgICAgICAgICAgICAgICAgICAgIHtzdG9yeUxhYmVsICYmICgKICAgICAgICAgICAgICAgICAgICAgICAgICAgIDxzcGFuIHN0eWxlPXt7IGZvbnRTaXplOiA4LCBvcGFjaXR5OiAwLjkgfX0+WyB7c3RvcnlMYWJlbH0gXTwvc3Bhbj4KICAgICAgICAgICAgICAgICAgICAgICAgKX0KICAgICAgICAgICAgICAgICAgICAgICAge3RvbmVTdHlsZSAmJiAoCiAgICAgICAgICAgICAgICAgICAgICAgICAgICA8c3BhbiBzdHlsZT17eyBmb250U2l6ZTogOCwgb3BhY2l0eTogMC44IH19Plsge3RvbmVTdHlsZS5sYWJlbH0gXTwvc3Bhbj4KICAgICAgICAgICAgICAgICAgICAgICAgKX0KICAgICAgICAgICAgICAgICAgICA8L2Rpdj4KICAgICAgICAgICAgICAgIDwvZGl2PgoKICAgICAgICAgICAgICAgIDxkaXYKICAgICAgICAgICAgICAgICAgICBjbGFzc05hbWU9Im5vLXNjcm9sbGJhciIKICAgICAgICAgICAgICAgICAgICBzdHlsZT17ewogICAgICAgICAgICAgICAgICAgICAgICBwYWRkaW5nOiAxMiwKICAgICAgICAgICAgICAgICAgICAgICAgb3ZlcmZsb3dZOiAnYXV0bycsCiAgICAgICAgICAgICAgICAgICAgICAgIG92ZXJmbG93WDogJ2hpZGRlbicsCiAgICAgICAgICAgICAgICAgICAgICAgIG1pbkhlaWdodDogMCwKICAgICAgICAgICAgICAgICAgICAgICAgZmxleDogMSwKICAgICAgICAgICAgICAgICAgICAgICAgb3ZlcnNjcm9sbEJlaGF2aW9yOiAnY29udGFpbicsCiAgICAgICAgICAgICAgICAgICAgfX0KICAgICAgICAgICAgICAgID4KICAgICAgICAgICAgICAgICAgICB7LyogQ2hhcmFjdGVyIGluZm8gKi99CiAgICAgICAgICAgICAgICAgICAgPGRpdiBjbGFzc05hbWU9ImZsZXggaXRlbXMtc3RhcnQgZ2FwLTIuNSBtYi0zIj4KICAgICAgICAgICAgICAgICAgICAgICAgPGRpdiBzdHlsZT17ewogICAgICAgICAgICAgICAgICAgICAgICAgICAgd2lkdGg6IDM2LCBoZWlnaHQ6IDM2LCBib3JkZXJSYWRpdXM6IDQsCiAgICAgICAgICAgICAgICAgICAgICAgICAgICBiYWNrZ3JvdW5kOiAncmdiYSgwLDAsMCwwLjA1KScsCiAgICAgICAgICAgICAgICAgICAgICAgICAgICBib3JkZXI6ICcycHggc29saWQgcmdiYSgwLDAsMCwwLjEpJywKICAgICAgICAgICAgICAgICAgICAgICAgICAgIGRpc3BsYXk6ICdmbGV4JywgYWxpZ25JdGVtczogJ2NlbnRlcicsIGp1c3RpZnlDb250ZW50OiAnY2VudGVyJywKICAgICAgICAgICAgICAgICAgICAgICAgICAgIG92ZXJmbG93OiAnaGlkZGVuJywgZmxleFNocmluazogMCwKICAgICAgICAgICAgICAgICAgICAgICAgfX0+CiAgICAgICAgICAgICAgICAgICAgICAgICAgICB7YWN0aW9uLmFjdG9yQXZhdGFyPy5zdGFydHNXaXRoKCdodHRwJykgfHwgYWN0aW9uLmFjdG9yQXZhdGFyPy5zdGFydHNXaXRoKCdkYXRhOicpCiAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgPyA8aW1nIHNyYz17YWN0aW9uLmFjdG9yQXZhdGFyfSBzdHlsZT17eyB3aWR0aDogMzYsIGhlaWdodDogMzYsIG9iamVjdEZpdDogJ2NvdmVyJywgYm9yZGVyUmFkaXVzOiAzIH19IGFsdD0iIiAvPgogICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgIDogYWN0aW9uLmFjdG9yQXZhdGFyID8gPHNwYW4gc3R5bGU9e3sgZm9udFNpemU6IDE4IH19PnthY3Rpb24uYWN0b3JBdmF0YXJ9PC9zcGFuPgogICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgIDogPEFsaWVuIHNpemU9ezE4fSB3ZWlnaHQ9ImJvbGQiIHN0eWxlPXt7IGNvbG9yOiAnI2FhYScgfX0gLz59CiAgICAgICAgICAgICAgICAgICAgICAgIDwvZGl2PgogICAgICAgICAgICAgICAgICAgICAgICA8ZGl2PgogICAgICAgICAgICAgICAgICAgICAgICAgICAgPGRpdiBjbGFzc05hbWU9ImZsZXggaXRlbXMtY2VudGVyIGdhcC0xLjUgZmxleC13cmFwIj4KICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICA8cCBzdHlsZT17eyBmb250U2l6ZTogMTIsIGZvbnRXZWlnaHQ6IDcwMCwgY29sb3I6IGFjY2VudCB9fT57YWN0aW9uLmFjdG9yfTwvcD4KICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICB7c3RvcnlMYWJlbCAmJiAoCiAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgIDxzcGFuIHN0eWxlPXt7CiAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICBmb250U2l6ZTogOCwKICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgIGZvbnRXZWlnaHQ6IDcwMCwKICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgIGNvbG9yOiBhY2NlbnQsCiAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICBib3JkZXI6IGAxcHggc29saWQgJHthY2NlbnR9NTVgLAogICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgYm9yZGVyUmFkaXVzOiA5OTksCiAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICBwYWRkaW5nOiAnMXB4IDVweCcsCiAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICBiYWNrZ3JvdW5kOiBgJHthY2NlbnR9MTJgLAogICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICB9fT4KICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgIHtzdG9yeUxhYmVsfQogICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICA8L3NwYW4+CiAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgKX0KICAgICAgICAgICAgICAgICAgICAgICAgICAgIDwvZGl2PgogICAgICAgICAgICAgICAgICAgICAgICAgICAgPHAgc3R5bGU9e3sgZm9udFNpemU6IDksIGNvbG9yOiAnI2FhYScsIGZvbnRGYW1pbHk6ICdtb25vc3BhY2UnIH19PuesrCB7YWN0aW9uLnR1cm5OdW1iZXJ9IOWbnuWQiDwvcD4KICAgICAgICAgICAgICAgICAgICAgICAgPC9kaXY+CiAgICAgICAgICAgICAgICAgICAgPC9kaXY+CgogICAgICAgICAgICAgICAgICAgIHthY3Rpb24uaGVhZGxpbmUgJiYgKAogICAgICAgICAgICAgICAgICAgICAgICA8ZGl2IGNsYXNzTmFtZT0icmV0cm8taW5zZXQiIHN0eWxlPXt7IHBhZGRpbmc6ICc2cHggOHB4JywgbWFyZ2luQm90dG9tOiA4IH19PgogICAgICAgICAgICAgICAgICAgICAgICAgICAgPHAgc3R5bGU9e3sgZm9udFNpemU6IDksIGZvbnRXZWlnaHQ6IDYwMCwgY29sb3I6IGFjY2VudCwgbWFyZ2luQm90dG9tOiAzIH19PgogICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgIOWJp+aDheagh+mimAogICAgICAgICAgICAgICAgICAgICAgICAgICAgPC9wPgogICAgICAgICAgICAgICAgICAgICAgICAgICAgPHAgc3R5bGU9e3sgZm9udFNpemU6IDEyLCBjb2xvcjogJyM0MDM4NDcnLCBsaW5lSGVpZ2h0OiAxLjQ1LCBmb250V2VpZ2h0OiA3MDAgfX0+CiAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAge2FjdGlvbi5oZWFkbGluZX0KICAgICAgICAgICAgICAgICAgICAgICAgICAgIDwvcD4KICAgICAgICAgICAgICAgICAgICAgICAgPC9kaXY+CiAgICAgICAgICAgICAgICAgICAgKX0KCiAgICAgICAgICAgICAgICAgICAgey8qIElubmVyIHRob3VnaHQgKi99CiAgICAgICAgICAgICAgICAgICAgeyhuYXJyYXRpdmU/LmlubmVyVGhvdWdodCB8fCBhY3Rpb24ucmVhc29uaW5nKSAmJiAoCiAgICAgICAgICAgICAgICAgICAgICAgIDxkaXYgY2xhc3NOYW1lPSJyZXRyby1pbnNldCIgc3R5bGU9e3sgcGFkZGluZzogJzZweCA4cHgnLCBtYXJnaW5Cb3R0b206IDggfX0+CiAgICAgICAgICAgICAgICAgICAgICAgICAgICA8cCBzdHlsZT17eyBmb250U2l6ZTogOSwgZm9udFdlaWdodDogNjAwLCBjb2xvcjogJyNiODk4NDAnLCBtYXJnaW5Cb3R0b206IDMsIGRpc3BsYXk6ICdmbGV4JywgYWxpZ25JdGVtczogJ2NlbnRlcicsIGdhcDogMyB9fT4KICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICA8Q2hhdENpcmNsZURvdHMgc2l6ZT17MTB9IHdlaWdodD0iYm9sZCIgLz4g5YaF5b+D54us55m9CiAgICAgICAgICAgICAgICAgICAgICAgICAgICA8L3A+CiAgICAgICAgICAgICAgICAgICAgICAgICAgICA8cCBzdHlsZT17eyBmb250U2l6ZTogMTAsIGNvbG9yOiAnIzg4Nzc1MCcsIGxpbmVIZWlnaHQ6IDEuNSwgZm9udFN0eWxlOiAnaXRhbGljJyB9fT4KICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAie25hcnJhdGl2ZT8uaW5uZXJUaG91Z2h0IHx8IGFjdGlvbi5yZWFzb25pbmd9IgogICAgICAgICAgICAgICAgICAgICAgICAgICAgPC9wPgogICAgICAgICAgICAgICAgICAgICAgICA8L2Rpdj4KICAgICAgICAgICAgICAgICAgICApfQoKICAgICAgICAgICAgICAgICAgICB7LyogRGlhbG9ndWUgKi99CiAgICAgICAgICAgICAgICAgICAge25hcnJhdGl2ZT8uZGlhbG9ndWUgJiYgKAogICAgICAgICAgICAgICAgICAgICAgICA8ZGl2IGNsYXNzTmFtZT0icmV0cm8taW5zZXQiIHN0eWxlPXt7IHBhZGRpbmc6ICc2cHggOHB4JywgbWFyZ2luQm90dG9tOiA4IH19PgogICAgICAgICAgICAgICAgICAgICAgICAgICAgPHAgc3R5bGU9e3sgZm9udFNpemU6IDksIGZvbnRXZWlnaHQ6IDYwMCwgY29sb3I6ICcjODg4JywgbWFyZ2luQm90dG9tOiAzLCBkaXNwbGF5OiAnZmxleCcsIGFsaWduSXRlbXM6ICdjZW50ZXInLCBnYXA6IDMgfX0+CiAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgPEJvb2tPcGVuIHNpemU9ezEwfSB3ZWlnaHQ9ImJvbGQiIC8+IOWcuuaZrwogICAgICAgICAgICAgICAgICAgICAgICAgICAgPC9wPgogICAgICAgICAgICAgICAgICAgICAgICAgICAgPHAgc3R5bGU9e3sgZm9udFNpemU6IDEwLCBjb2xvcjogJyM1NTUnLCBsaW5lSGVpZ2h0OiAxLjUgfX0+e25hcnJhdGl2ZS5kaWFsb2d1ZX08L3A+CiAgICAgICAgICAgICAgICAgICAgICAgIDwvZGl2PgogICAgICAgICAgICAgICAgICAgICl9CgogICAgICAgICAgICAgICAgICAgIHsvKiBBY3Rpb24gZGVzY3JpcHRpb24gKi99CiAgICAgICAgICAgICAgICAgICAgPHAgc3R5bGU9e3sgZm9udFNpemU6IDExLCBjb2xvcjogJyMzMzMnLCBsaW5lSGVpZ2h0OiAxLjUsIG1hcmdpbkJvdHRvbTogOCwgZm9udFdlaWdodDogNTAwIH19PgogICAgICAgICAgICAgICAgICAgICAgICB7ZGlzcGxheURlc2NyaXB0aW9ufQogICAgICAgICAgICAgICAgICAgIDwvcD4KCiAgICAgICAgICAgICAgICAgICAgey8qIFJlc3VsdCAqL30KICAgICAgICAgICAgICAgICAgICA8ZGl2IGNsYXNzTmFtZT0icmV0cm8taW5zZXQiIHN0eWxlPXt7IHBhZGRpbmc6ICc2cHggOHB4JyB9fT4KICAgICAgICAgICAgICAgICAgICAgICAgPHAgc3R5bGU9e3sgZm9udFNpemU6IDksIGZvbnRXZWlnaHQ6IDYwMCwgY29sb3I6ICcjODg4JywgbWFyZ2luQm90dG9tOiAzLCBkaXNwbGF5OiAnZmxleCcsIGFsaWduSXRlbXM6ICdjZW50ZXInLCBnYXA6IDMgfX0+CiAgICAgICAgICAgICAgICAgICAgICAgICAgICA8TGlnaHRuaW5nIHNpemU9ezEwfSB3ZWlnaHQ9ImJvbGQiIC8+IOe7k+aenAogICAgICAgICAgICAgICAgICAgICAgICA8L3A+CiAgICAgICAgICAgICAgICAgICAgICAgIDxwIHN0eWxlPXt7IGZvbnRTaXplOiAxMSwgY29sb3I6ICcjNDQ0JywgbGluZUhlaWdodDogMS40IH19PnthY3Rpb24uaW1tZWRpYXRlUmVzdWx0fTwvcD4KICAgICAgICAgICAgICAgICAgICA8L2Rpdj4KCiAgICAgICAgICAgICAgICAgICAgPFN0b3J5QXR0YWNobWVudHMgYXR0YWNobWVudHM9e2FjdGlvbi5hdHRhY2htZW50c30gLz4KCiAgICAgICAgICAgICAgICAgICAgey8qIENvbW1lbnQgb24gd29ybGQgKi99CiAgICAgICAgICAgICAgICAgICAge25hcnJhdGl2ZT8uY29tbWVudE9uV29ybGQgJiYgKAogICAgICAgICAgICAgICAgICAgICAgICA8cCBzdHlsZT17eyBmb250U2l6ZTogOSwgY29sb3I6ICcjYWFhJywgZm9udFN0eWxlOiAnaXRhbGljJywgbWFyZ2luVG9wOiA4LCB0ZXh0QWxpZ246ICdjZW50ZXInLCBkaXNwbGF5OiAnZmxleCcsIGFsaWduSXRlbXM6ICdjZW50ZXInLCBqdXN0aWZ5Q29udGVudDogJ2NlbnRlcicsIGdhcDogMyB9fT4KICAgICAgICAgICAgICAgICAgICAgICAgICAgIDxHbG9iZSBzaXplPXs5fSB3ZWlnaHQ9ImJvbGQiIC8+ICJ7bmFycmF0aXZlLmNvbW1lbnRPbldvcmxkfSIKICAgICAgICAgICAgICAgICAgICAgICAgPC9wPgogICAgICAgICAgICAgICAgICAgICl9CgogICAgICAgICAgICAgICAgICAgIHsvKiBSZWFjdGlvbiB0byB1c2VyICovfQogICAgICAgICAgICAgICAgICAgIHthY3Rpb24ucmVhY3Rpb25Ub1VzZXIgJiYgKAogICAgICAgICAgICAgICAgICAgICAgICA8cCBzdHlsZT17eyBmb250U2l6ZTogOSwgY29sb3I6ICcjOTA4MGEwJywgZm9udFN0eWxlOiAnaXRhbGljJywgbWFyZ2luVG9wOiA0LCB0ZXh0QWxpZ246ICdjZW50ZXInLCBkaXNwbGF5OiAnZmxleCcsIGFsaWduSXRlbXM6ICdjZW50ZXInLCBqdXN0aWZ5Q29udGVudDogJ2NlbnRlcicsIGdhcDogMyB9fT4KICAgICAgICAgICAgICAgICAgICAgICAgICAgIDxDaGF0Q2lyY2xlRG90cyBzaXplPXs5fSB3ZWlnaHQ9ImJvbGQiIC8+ICJ7YWN0aW9uLnJlYWN0aW9uVG9Vc2VyfSIKICAgICAgICAgICAgICAgICAgICAgICAgPC9wPgogICAgICAgICAgICAgICAgICAgICl9CiAgICAgICAgICAgICAgICA8L2Rpdj4KCiAgICAgICAgICAgICAgICB7LyogQWN0aW9uIGJ1dHRvbiAqL30KICAgICAgICAgICAgICAgIDxkaXYgc3R5bGU9e3sgcGFkZGluZzogJzhweCAxMnB4JywgYm9yZGVyVG9wOiAnMXB4IHNvbGlkIHJnYmEoMCwwLDAsMC4wOCknLCBmbGV4U2hyaW5rOiAwIH19PgogICAgICAgICAgICAgICAgICAgIDxidXR0b24gb25DbGljaz17b25OZXh0fQogICAgICAgICAgICAgICAgICAgICAgICBjbGFzc05hbWU9InJldHJvLWJ0biByZXRyby1idG4tcHJpbWFyeSB3LWZ1bGwgZmxleCBpdGVtcy1jZW50ZXIganVzdGlmeS1jZW50ZXIgZ2FwLTEiCiAgICAgICAgICAgICAgICAgICAgICAgIHN0eWxlPXt7IHBhZGRpbmc6ICc3cHggMTJweCcsIGJhY2tncm91bmQ6IGBsaW5lYXItZ3JhZGllbnQoMTgwZGVnLCAke2FjY2VudH1jYywgJHthY2NlbnR9KWAsIGJvcmRlckNvbG9yOiBhY2NlbnQgfX0+CiAgICAgICAgICAgICAgICAgICAgICAgIHtpc0xhc3QgPyA8PjxXYXJuaW5nQ2lyY2xlIHNpemU9ezEyfSB3ZWlnaHQ9ImJvbGQiIC8+IOWbnuWIsOa4uOaIjzwvPiA6ICfkuIvkuIDmnaEg4oaSJ30KICAgICAgICAgICAgICAgICAgICA8L2J1dHRvbj4KICAgICAgICAgICAgICAgIDwvZGl2PgogICAgICAgICAgICA8L2Rpdj4KICAgICAgICA8L2Rpdj4KICAgICk7Cn07CgpleHBvcnQgZGVmYXVsdCBOYXJyYXRpdmVSZXBsYXlPdmVybGF5Owo=
+/**
+ * NarrativeReplayOverlay — 叙事回放 (retro window style)
+ * Looks like a retro OS notification/dialog window
+ */
+
+import React from 'react';
+import { SimAction } from '../../types';
+import {
+    Alien, BookOpen, Lightning, Globe, ChatCircleDots, WarningCircle,
+} from '@phosphor-icons/react';
+import StoryAttachments from './StoryAttachments';
+import { formatLifeSimActionDescription } from '../../utils/lifeSimTone';
+
+const TONE_STYLES: Record<string, { accent: string; label: string }> = {
+    vengeful: { accent: '#b85050', label: '复仇' },
+    romantic: { accent: '#c06090', label: '浪漫' },
+    scheming: { accent: '#8b6bb8', label: '阴谋' },
+    chaotic:  { accent: '#c07040', label: '混乱' },
+    peaceful: { accent: '#5b9b6b', label: '平和' },
+    amused:   { accent: '#b89840', label: '有趣' },
+    anxious:  { accent: '#5070b0', label: '焦虑' },
+};
+
+const NarrativeReplayOverlay: React.FC<{
+    actions: SimAction[];
+    currentIndex: number;
+    onNext: () => void;
+}> = ({ actions, currentIndex, onNext }) => {
+    const action = actions[currentIndex];
+    if (!action) return null;
+    const isLast = currentIndex >= actions.length - 1;
+    const narrative = action.narrative;
+    const displayDescription = formatLifeSimActionDescription(action.description);
+    const tone = narrative?.emotionalTone;
+    const toneStyle = tone ? TONE_STYLES[tone] : null;
+    const storyLabel = action.storyKind === 'main_plot'
+        ? '主线剧情'
+        : action.storyKind === 'character_drama'
+            ? '角色剧情'
+            : action.storyKind === 'system'
+                ? '系统播报'
+                : null;
+    const accent = action.storyKind === 'main_plot'
+        ? '#b86c3d'
+        : action.storyKind === 'system'
+            ? '#7f8c9b'
+            : toneStyle?.accent || '#8b7bb8';
+
+    return (
+        <div className="absolute inset-0 flex items-center justify-center z-50 px-4"
+            style={{ background: 'rgba(0,0,0,0.35)' }}>
+            <div className="retro-window w-full" style={{
+                maxWidth: 320,
+                maxHeight: 'calc(var(--app-height, 100lvh) - 32px)',
+                boxShadow: '4px 4px 0px rgba(0,0,0,0.2), inset 0 0 0 1px rgba(255,255,255,0.5)',
+                borderColor: accent,
+                display: 'flex',
+                flexDirection: 'column',
+                minHeight: 0,
+            }}>
+                {/* Titlebar */}
+                <div className="retro-titlebar" style={{
+                    background: `linear-gradient(180deg, ${accent}cc, ${accent})`,
+                    flexShrink: 0,
+                }}>
+                    <span>replay.exe - {currentIndex + 1}/{actions.length}</span>
+                    <div className="flex items-center gap-1.5">
+                        {storyLabel && (
+                            <span style={{ fontSize: 8, opacity: 0.9 }}>[ {storyLabel} ]</span>
+                        )}
+                        {toneStyle && (
+                            <span style={{ fontSize: 8, opacity: 0.8 }}>[ {toneStyle.label} ]</span>
+                        )}
+                    </div>
+                </div>
+
+                <div
+                    className="no-scrollbar"
+                    style={{
+                        padding: 12,
+                        overflowY: 'auto',
+                        overflowX: 'hidden',
+                        minHeight: 0,
+                        flex: 1,
+                        overscrollBehavior: 'contain',
+                    }}
+                >
+                    {/* Character info */}
+                    <div className="flex items-start gap-2.5 mb-3">
+                        <div style={{
+                            width: 36, height: 36, borderRadius: 4,
+                            background: 'rgba(0,0,0,0.05)',
+                            border: '2px solid rgba(0,0,0,0.1)',
+                            display: 'flex', alignItems: 'center', justifyContent: 'center',
+                            overflow: 'hidden', flexShrink: 0,
+                        }}>
+                            {action.actorAvatar?.startsWith('http') || action.actorAvatar?.startsWith('data:')
+                                ? <img src={action.actorAvatar} style={{ width: 36, height: 36, objectFit: 'cover', borderRadius: 3 }} alt="" />
+                                : action.actorAvatar ? <span style={{ fontSize: 18 }}>{action.actorAvatar}</span>
+                                : <Alien size={18} weight="bold" style={{ color: '#aaa' }} />}
+                        </div>
+                        <div>
+                            <div className="flex items-center gap-1.5 flex-wrap">
+                                <p style={{ fontSize: 12, fontWeight: 700, color: accent }}>{action.actor}</p>
+                                {storyLabel && (
+                                    <span style={{
+                                        fontSize: 8,
+                                        fontWeight: 700,
+                                        color: accent,
+                                        border: `1px solid ${accent}55`,
+                                        borderRadius: 999,
+                                        padding: '1px 5px',
+                                        background: `${accent}12`,
+                                    }}>
+                                        {storyLabel}
+                                    </span>
+                                )}
+                            </div>
+                            <p style={{ fontSize: 9, color: '#aaa', fontFamily: 'monospace' }}>第 {action.turnNumber} 回合</p>
+                        </div>
+                    </div>
+
+                    {action.headline && (
+                        <div className="retro-inset" style={{ padding: '6px 8px', marginBottom: 8 }}>
+                            <p style={{ fontSize: 9, fontWeight: 600, color: accent, marginBottom: 3 }}>
+                                剧情标题
+                            </p>
+                            <p style={{ fontSize: 12, color: '#403847', lineHeight: 1.45, fontWeight: 700 }}>
+                                {action.headline}
+                            </p>
+                        </div>
+                    )}
+
+                    {/* Inner thought */}
+                    {(narrative?.innerThought || action.reasoning) && (
+                        <div className="retro-inset" style={{ padding: '6px 8px', marginBottom: 8 }}>
+                            <p style={{ fontSize: 9, fontWeight: 600, color: '#b89840', marginBottom: 3, display: 'flex', alignItems: 'center', gap: 3 }}>
+                                <ChatCircleDots size={10} weight="bold" /> 内心独白
+                            </p>
+                            <p style={{ fontSize: 10, color: '#887750', lineHeight: 1.5, fontStyle: 'italic' }}>
+                                "{narrative?.innerThought || action.reasoning}"
+                            </p>
+                        </div>
+                    )}
+
+                    {/* Dialogue */}
+                    {narrative?.dialogue && (
+                        <div className="retro-inset" style={{ padding: '6px 8px', marginBottom: 8 }}>
+                            <p style={{ fontSize: 9, fontWeight: 600, color: '#888', marginBottom: 3, display: 'flex', alignItems: 'center', gap: 3 }}>
+                                <BookOpen size={10} weight="bold" /> 场景
+                            </p>
+                            <p style={{ fontSize: 10, color: '#555', lineHeight: 1.5 }}>{narrative.dialogue}</p>
+                        </div>
+                    )}
+
+                    {/* Action description */}
+                    <p style={{ fontSize: 11, color: '#333', lineHeight: 1.5, marginBottom: 8, fontWeight: 500 }}>
+                        {displayDescription}
+                    </p>
+
+                    {/* Result */}
+                    <div className="retro-inset" style={{ padding: '6px 8px' }}>
+                        <p style={{ fontSize: 9, fontWeight: 600, color: '#888', marginBottom: 3, display: 'flex', alignItems: 'center', gap: 3 }}>
+                            <Lightning size={10} weight="bold" /> 结果
+                        </p>
+                        <p style={{ fontSize: 11, color: '#444', lineHeight: 1.4 }}>{action.immediateResult}</p>
+                    </div>
+
+                    <StoryAttachments attachments={action.attachments} />
+
+                    {/* Comment on world */}
+                    {narrative?.commentOnWorld && (
+                        <p style={{ fontSize: 9, color: '#aaa', fontStyle: 'italic', marginTop: 8, textAlign: 'center', display: 'flex', alignItems: 'center', justifyContent: 'center', gap: 3 }}>
+                            <Globe size={9} weight="bold" /> "{narrative.commentOnWorld}"
+                        </p>
+                    )}
+
+                    {/* Reaction to user */}
+                    {action.reactionToUser && (
+                        <p style={{ fontSize: 9, color: '#9080a0', fontStyle: 'italic', marginTop: 4, textAlign: 'center', display: 'flex', alignItems: 'center', justifyContent: 'center', gap: 3 }}>
+                            <ChatCircleDots size={9} weight="bold" /> "{action.reactionToUser}"
+                        </p>
+                    )}
+                </div>
+
+                {/* Action button */}
+                <div style={{ padding: '8px 12px', borderTop: '1px solid rgba(0,0,0,0.08)', flexShrink: 0 }}>
+                    <button onClick={onNext}
+                        className="retro-btn retro-btn-primary w-full flex items-center justify-center gap-1"
+                        style={{ padding: '7px 12px', background: `linear-gradient(180deg, ${accent}cc, ${accent})`, borderColor: accent }}>
+                        {isLast ? <><WarningCircle size={12} weight="bold" /> 回到游戏</> : '下一条 →'}
+                    </button>
+                </div>
+            </div>
+        </div>
+    );
+};
+
+export default NarrativeReplayOverlay;

@@ -1,1 +1,161 @@
-CmltcG9ydCBSZWFjdCwgeyB1c2VFZmZlY3QsIHVzZVN0YXRlIH0gZnJvbSAncmVhY3QnOwppbXBvcnQgeyB1c2VPUyB9IGZyb20gJy4uLy4uL2NvbnRleHQvT1NDb250ZXh0JzsKaW1wb3J0IE1vZGFsIGZyb20gJy4vTW9kYWwnOwppbXBvcnQgeyBpc1N0YXR1c0JhckhpZGRlbiB9IGZyb20gJy4uLy4uL3V0aWxzL2lvc1N0YW5kYWxvbmUnOwoKLy8gVHlwZVNjcmlwdCBkZWZpbml0aW9uIGZvciBXZWIgQmF0dGVyeSBBUEkKaW50ZXJmYWNlIEJhdHRlcnlNYW5hZ2VyIGV4dGVuZHMgRXZlbnRUYXJnZXQgewogIGxldmVsOiBudW1iZXI7CiAgY2hhcmdpbmc6IGJvb2xlYW47CiAgYWRkRXZlbnRMaXN0ZW5lcih0eXBlOiBzdHJpbmcsIGxpc3RlbmVyOiAoZXZlbnQ6IEV2ZW50KSA9PiB2b2lkKTogdm9pZDsKICByZW1vdmVFdmVudExpc3RlbmVyKHR5cGU6IHN0cmluZywgbGlzdGVuZXI6IChldmVudDogRXZlbnQpID0+IHZvaWQpOiB2b2lkOwp9CgppbnRlcmZhY2UgTmF2aWdhdG9yV2l0aEJhdHRlcnkgZXh0ZW5kcyBOYXZpZ2F0b3IgewogIGdldEJhdHRlcnk/OiAoKSA9PiBQcm9taXNlPEJhdHRlcnlNYW5hZ2VyPjsKfQoKY29uc3QgU3RhdHVzQmFyOiBSZWFjdC5GQyA9ICgpID0+IHsKICBjb25zdCB7IHZpcnR1YWxUaW1lLCB0aGVtZSwgc3lzdGVtTG9ncywgY2xlYXJMb2dzIH0gPSB1c2VPUygpOwogIGNvbnN0IFtiYXR0ZXJ5TGV2ZWwsIHNldEJhdHRlcnlMZXZlbF0gPSB1c2VTdGF0ZTxudW1iZXI+KDEwMCk7CiAgY29uc3QgW2lzQ2hhcmdpbmcsIHNldElzQ2hhcmdpbmddID0gdXNlU3RhdGU8Ym9vbGVhbj4oZmFsc2UpOwogIGNvbnN0IFtzaG93TG9nTW9kYWwsIHNldFNob3dMb2dNb2RhbF0gPSB1c2VTdGF0ZShmYWxzZSk7CiAgCiAgLy8gRm9ybWF0IG51bWJlcnMgdG8gaGF2ZSBsZWFkaW5nIHplcm9zCiAgY29uc3QgZm9ybWF0ID0gKG46IG51bWJlcikgPT4gbi50b1N0cmluZygpLnBhZFN0YXJ0KDIsICcwJyk7CgogIC8vIFVzZSBjb250ZW50IGNvbG9yIGZyb20gdGhlbWUKICBjb25zdCB0ZXh0Q29sb3IgPSB0aGVtZS5jb250ZW50Q29sb3IgfHwgJyNmZmZmZmYnOwogIGNvbnN0IGFjbmggPSB0aGVtZS5za2luID09PSAnYW5pbWFsY3Jvc3NpbmcnOyAvLyDliqjmo67lvanom4vvvJrnlLXph4/mnaHnlKjlj7bnu7/oibIKCiAgdXNlRWZmZWN0KCgpID0+IHsKICAgIGNvbnN0IGluaXRCYXR0ZXJ5ID0gYXN5bmMgKCkgPT4gewogICAgICBjb25zdCBuYXYgPSBuYXZpZ2F0b3IgYXMgTmF2aWdhdG9yV2l0aEJhdHRlcnk7CiAgICAgIGlmIChuYXYuZ2V0QmF0dGVyeSkgewogICAgICAgIHRyeSB7CiAgICAgICAgICBjb25zdCBiYXR0ZXJ5ID0gYXdhaXQgbmF2LmdldEJhdHRlcnkoKTsKICAgICAgICAgIAogICAgICAgICAgY29uc3QgdXBkYXRlQmF0dGVyeSA9ICgpID0+IHsKICAgICAgICAgICAgc2V0QmF0dGVyeUxldmVsKE1hdGgucm91bmQoYmF0dGVyeS5sZXZlbCAqIDEwMCkpOwogICAgICAgICAgICBzZXRJc0NoYXJnaW5nKGJhdHRlcnkuY2hhcmdpbmcpOwogICAgICAgICAgfTsKCiAgICAgICAgICB1cGRhdGVCYXR0ZXJ5KCk7CiAgICAgICAgICAKICAgICAgICAgIGJhdHRlcnkuYWRkRXZlbnRMaXN0ZW5lcignbGV2ZWxjaGFuZ2UnLCB1cGRhdGVCYXR0ZXJ5KTsKICAgICAgICAgIGJhdHRlcnkuYWRkRXZlbnRMaXN0ZW5lcignY2hhcmdpbmdjaGFuZ2UnLCB1cGRhdGVCYXR0ZXJ5KTsKCiAgICAgICAgICByZXR1cm4gKCkgPT4gewogICAgICAgICAgICBiYXR0ZXJ5LnJlbW92ZUV2ZW50TGlzdGVuZXIoJ2xldmVsY2hhbmdlJywgdXBkYXRlQmF0dGVyeSk7CiAgICAgICAgICAgIGJhdHRlcnkucmVtb3ZlRXZlbnRMaXN0ZW5lcignY2hhcmdpbmdjaGFuZ2UnLCB1cGRhdGVCYXR0ZXJ5KTsKICAgICAgICAgIH07CiAgICAgICAgfSBjYXRjaCAoZSkgewogICAgICAgICAgY29uc29sZS5lcnJvcigiQmF0dGVyeSBBUEkgZmFpbGVkIiwgZSk7CiAgICAgICAgfQogICAgICB9CiAgICB9OwoKICAgIGluaXRCYXR0ZXJ5KCk7CiAgfSwgW10pOwoKICBjb25zdCBoYXNFcnJvciA9IHN5c3RlbUxvZ3MubGVuZ3RoID4gMDsKCiAgLy8g5pe26ZKfL+eUtemHj+adoeaYr+WQpumakOiXj++8muWkluinguOAjOmakOiXj+mhtumDqOaXtumXtOagj+OAjeW8gOWFsyArIOW5s+WPsOm7mOiupO+8iGlPUyDlhajlsY8gUFdBIOezu+e7n+W3suacieeKtuaAgeagj++8jOm7mOiupOmakOiXj+mBv+WFjeWPjOaYvu+8ieOAggogIC8vIOS7hemakOiXj+S4i+mdoui/meadoeaXtumSny/nlLXph4/mnaHvvJvplJnor6/mjIfnpLrlmaggKyDns7vnu5/osIPor5Xnu4jnq6/kuI7mnKzlvIDlhbPml6DlhbPvvIzlp4vnu4jni6znq4vmuLLmn5PjgIJ2aXJ0dWFsVGltZSDlrp7kuLrnnJ/lrp7ml7bpl7TvvIzpmpDol4/kuI3kuKLkv6Hmga/jgIIKICBjb25zdCBoaWRlT3NTdGF0dXNCYXIgPSBpc1N0YXR1c0JhckhpZGRlbih0aGVtZS5oaWRlU3RhdHVzQmFyKTsKCiAgcmV0dXJuICgKICAgIDw+CiAgICAgIHsvKiBzYWZlLWFyZWEtQiDop6Pms5XvvJppT1Mg5YWo5bGPIFBXQSDkuIvns7vnu5/nirbmgIHmoI/vvIjnnJ/lrp7ml7bpl7Qv55S16YeP77yJ5Yig5LiN5o6J77yM6ZqQ5o6JIFN1bGx5T1Mg6Ieq5bex6L+Z5p2h6YG/5YWN5Y+M5pi+44CCCiAgICAgICAgIOmdniBpT1Mgc3RhbmRhbG9uZe+8iOWuieWNky/moYzpnaLmtY/op4jlmajml6Dns7vnu5/nirbmgIHmoI/vvInku43muLLmn5PvvIzkvZzkuLromZrmi5/miYvmnLroh6rlt7HnmoTnirbmgIHmoI/jgIIgKi99CiAgICAgIHshaGlkZU9zU3RhdHVzQmFyICYmICgKICAgICAgPGRpdgogICAgICAgICAgY2xhc3NOYW1lPSJ3LWZ1bGwgZmxleCBqdXN0aWZ5LWJldHdlZW4gaXRlbXMtc3RhcnQgcHgtNiB0ZXh0LVsxMXB4XSBmb250LWJvbGQgei01MCBhYnNvbHV0ZSB0b3AtMCBsZWZ0LTAgYmctdHJhbnNwYXJlbnQgdHJhbnNpdGlvbi1jb2xvcnMgZHVyYXRpb24tNTAwIHNlbGVjdC1ub25lIHBvaW50ZXItZXZlbnRzLW5vbmUiCiAgICAgICAgICBzdHlsZT17ewogICAgICAgICAgICAgIGNvbG9yOiB0ZXh0Q29sb3IsCiAgICAgICAgICAgICAgcGFkZGluZ1RvcDogJ21heCg0cHgsIHZhcigtLXNhZmUtdG9wKSknLAogICAgICAgICAgICAgIGhlaWdodDogJ2F1dG8nLAogICAgICAgICAgICAgIG1pbkhlaWdodDogJzJyZW0nCiAgICAgICAgICB9fQogICAgICA+CiAgICAgICAgPGRpdiBjbGFzc05hbWU9InctMS8zIHBsLTIgZmxleCBpdGVtcy1jZW50ZXIgZ2FwLTIgcG9pbnRlci1ldmVudHMtYXV0byI+CiAgICAgICAgICA8c3Bhbj57Zm9ybWF0KHZpcnR1YWxUaW1lLmhvdXJzKX06e2Zvcm1hdCh2aXJ0dWFsVGltZS5taW51dGVzKX08L3NwYW4+CiAgICAgICAgPC9kaXY+CiAgICAgICAgPGRpdiBjbGFzc05hbWU9InctMS8zIGZsZXgganVzdGlmeS1jZW50ZXIiPgogICAgICAgICAgey8qIE5vdGNoIEFyZWEgc3BhY2VyICovfQogICAgICAgIDwvZGl2PgogICAgICAgIDxkaXYgY2xhc3NOYW1lPSJ3LTEvMyBmbGV4IGp1c3RpZnktZW5kIGdhcC0xLjUgaXRlbXMtY2VudGVyIHByLTIiPgogICAgICAgICAgPHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCAyNCAyNCIgZmlsbD0iY3VycmVudENvbG9yIiBjbGFzc05hbWU9InctMy41IGgtMy41Ij4KICAgICAgICAgICAgPHBhdGggZmlsbFJ1bGU9ImV2ZW5vZGQiIGQ9Ik0xLjM3MSA4LjE0M2M1Ljg1OC01Ljg1NyAxNS4zNTYtNS44NTcgMjEuMjEzIDBhLjc1Ljc1IDAgMCAxIDAgMS4wNjFsLS41My41M2EuNzUuNzUgMCAwIDEtMS4wNiAwYy00Ljk4LTQuOTc5LTEzLjA1My00Ljk3OS0xOC4wMzIgMGEuNzUuNzUgMCAwIDEtMS4wNiAwbC0uNTMtLjUzYS43NS43NSAwIDAgMSAwLTEuMDZabTMuMTgyIDMuMTgyYzQuMS00LjEgMTAuNzQ5LTQuMSAxNC44NSAwYS43NS43NSAwIDAgMSAwIDEuMDYxbC0uNTMuNTNhLjc1Ljc1IDAgMCAxLTEuMDYyIDAgOC4yNSA4LjI1IDAgMCAwLTExLjY2NyAwIC43NS43NSAwIDAgMS0xLjA2IDBsLS41My0uNTNhLjc1Ljc1IDAgMCAxIDAtMS4wNlptMy4yMDQgMy4xODJhNiA2IDAgMCAxIDguNDg2IDAgLjc1Ljc1IDAgMCAxIDAgMS4wNjFsLS41My41M2EuNzUuNzUgMCAwIDEtMS4wNjEgMCAzLjc1IDMuNzUgMCAwIDAtNS4zMDQgMCAuNzUuNzUgMCAwIDEtMS4wNiAwbC0uNTMtLjUzYS43NS43NSAwIDAgMSAwLTEuMDZabTMuMTgyIDMuMTgyYTEuNSAxLjUgMCAwIDEgMi4xMjIgMCAuNzUuNzUgMCAwIDEgMCAxLjA2MWwtLjUzLjUzYS43NS43NSAwIDAgMS0xLjA2MSAwbC0uNTMtLjUzYS43NS43NSAwIDAgMSAwLTEuMDZaIiBjbGlwUnVsZT0iZXZlbm9kZCIgLz4KICAgICAgICAgIDwvc3ZnPgogICAgICAgICAgPGRpdiBjbGFzc05hbWU9ImZsZXggaXRlbXMtY2VudGVyIGdhcC0xIj4KICAgICAgICAgICAgPHNwYW4+e2JhdHRlcnlMZXZlbH0lPC9zcGFuPgogICAgICAgICAgICA8ZGl2IGNsYXNzTmFtZT0idy01IGgtMi41IGJvcmRlciBib3JkZXItY3VycmVudCByb3VuZGVkLVszcHhdIHAtWzFweF0gcmVsYXRpdmUgb3BhY2l0eS04MCBmbGV4IGl0ZW1zLWNlbnRlciI+CiAgICAgICAgICAgICAgPGRpdgogICAgICAgICAgICAgICAgICBjbGFzc05hbWU9e2BoLWZ1bGwgcm91bmRlZC1bMXB4XSAke2lzQ2hhcmdpbmcgPyAnYmctZ3JlZW4tNDAwJyA6IGFjbmggPyAnYmctWyM3Y2JhNGNdJyA6ICdiZy1jdXJyZW50J31gfQogICAgICAgICAgICAgICAgICBzdHlsZT17eyB3aWR0aDogYCR7YmF0dGVyeUxldmVsfSVgIH19CiAgICAgICAgICAgICAgPjwvZGl2PgogICAgICAgICAgICAgIHtpc0NoYXJnaW5nICYmICgKICAgICAgICAgICAgICAgICAgPGRpdiBjbGFzc05hbWU9ImFic29sdXRlIGluc2V0LTAgZmxleCBpdGVtcy1jZW50ZXIganVzdGlmeS1jZW50ZXIiPgogICAgICAgICAgICAgICAgICAgICAgPHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCAyMCAyMCIgZmlsbD0iY3VycmVudENvbG9yIiBjbGFzc05hbWU9InctMyBoLTMgdGV4dC1ibGFjayI+CiAgICAgICAgICAgICAgICAgICAgICAgICAgPHBhdGggZD0iTTExLjk4MyAxLjkwN2EuNzUuNzUgMCAwIDAtMS4yOTItLjY1N2wtOC41IDkuNUEuNzUuNzUgMCAwIDAgMi43NSAxMmg2LjU3MmwtMS4zMDUgNi4wOTNhLjc1Ljc1IDAgMCAwIDEuMjkyLjY1N2w4LjUtOS41QS43NS43NSAwIDAgMCAxNy4yNSA4aC02LjU3MmwxLjMwNS02LjA5M1oiIC8+CiAgICAgICAgICAgICAgICAgICAgICA8L3N2Zz4KICAgICAgICAgICAgICAgICAgPC9kaXY+CiAgICAgICAgICAgICAgKX0KICAgICAgICAgICAgPC9kaXY+CiAgICAgICAgICA8L2Rpdj4KICAgICAgICA8L2Rpdj4KICAgICAgPC9kaXY+CiAgICAgICl9CgogICAgICB7LyogSW5kZXBlbmRlbnQgRXJyb3IgSW5kaWNhdG9yIC0gRmxvYXRpbmcgYmVsb3cgc3RhdHVzIGJhciAqL30KICAgICAge2hhc0Vycm9yICYmICgKICAgICAgICAgIDxidXR0b24gCiAgICAgICAgICAgICAgb25DbGljaz17KCkgPT4gc2V0U2hvd0xvZ01vZGFsKHRydWUpfSAKICAgICAgICAgICAgICBjbGFzc05hbWU9ImZpeGVkIGxlZnQtMS8yIC10cmFuc2xhdGUteC0xLzIgei1bNjBdIGJnLXJlZC01MDAvOTAgdGV4dC13aGl0ZSByb3VuZGVkLWZ1bGwgcHgtNCBweS0xLjUgdGV4dC1bMTBweF0gZm9udC1ib2xkIHNoYWRvdy1sZyBhbmltYXRlLXB1bHNlIGZsZXggaXRlbXMtY2VudGVyIGdhcC0xLjUgYmFja2Ryb3AtYmx1ci1tZCBib3JkZXIgYm9yZGVyLXdoaXRlLzIwIHBvaW50ZXItZXZlbnRzLWF1dG8iCiAgICAgICAgICAgICAgc3R5bGU9e3sgdG9wOiAnY2FsYyh2YXIoLS1jaHJvbWUtdG9wKSArIDFyZW0pJyB9fQogICAgICAgICAgPgogICAgICAgICAgICAgIDxzdmcgeG1sbnM9Imh0dHA6Ly93d3cudzMub3JnLzIwMDAvc3ZnIiB2aWV3Qm94PSIwIDAgMjAgMjAiIGZpbGw9ImN1cnJlbnRDb2xvciIgY2xhc3NOYW1lPSJ3LTMgaC0zIj4KICAgICAgICAgICAgICAgICAgPHBhdGggZmlsbFJ1bGU9ImV2ZW5vZGQiIGQ9Ik0xOCAxMGE4IDggMCAxIDEtMTYgMCA4IDggMCAwIDEgMTYgMFptLTgtNWEuNzUuNzUgMCAwIDEgLjc1Ljc1djQuNWEuNzUuNzUgMCAwIDEtMS41IDB2LTQuNUEuNzUuNzUgMCAwIDEgMTAgNVptMCAxMGExIDEgMCAxIDAgMC0yIDEgMSAwIDAgMCAwIDJaIiBjbGlwUnVsZT0iZXZlbm9kZCIgLz4KICAgICAgICAgICAgICA8L3N2Zz4KICAgICAgICAgICAgICA8c3Bhbj5TWVNURU0gRVJST1I8L3NwYW4+CiAgICAgICAgICA8L2J1dHRvbj4KICAgICAgKX0KCiAgICAgIDxNb2RhbCAKICAgICAgICAgIGlzT3Blbj17c2hvd0xvZ01vZGFsfSAKICAgICAgICAgIHRpdGxlPSLns7vnu5/osIPor5Xnu4jnq68iIAogICAgICAgICAgb25DbG9zZT17KCkgPT4gc2V0U2hvd0xvZ01vZGFsKGZhbHNlKX0KICAgICAgICAgIGZvb3Rlcj17CiAgICAgICAgICAgICAgPGRpdiBjbGFzc05hbWU9ImZsZXggZ2FwLTIgdy1mdWxsIj4KICAgICAgICAgICAgICAgICAgPGJ1dHRvbiBvbkNsaWNrPXsoKSA9PiB7IG5hdmlnYXRvci5jbGlwYm9hcmQud3JpdGVUZXh0KEpTT04uc3RyaW5naWZ5KHN5c3RlbUxvZ3MsIG51bGwsIDIpKTsgfX0gY2xhc3NOYW1lPSJmbGV4LTEgcHktMyBiZy1zbGF0ZS0xMDAgZm9udC1ib2xkIHJvdW5kZWQteGwgdGV4dC1zbGF0ZS02MDAiPuWkjeWItiBKU09OPC9idXR0b24+CiAgICAgICAgICAgICAgICAgIDxidXR0b24gb25DbGljaz17Y2xlYXJMb2dzfSBjbGFzc05hbWU9ImZsZXgtMSBweS0zIGJnLXJlZC01MDAgdGV4dC13aGl0ZSBmb250LWJvbGQgcm91bmRlZC14bCBzaGFkb3ctbGcgc2hhZG93LXJlZC0yMDAiPua4heepuuaXpeW/lzwvYnV0dG9uPgogICAgICAgICAgICAgIDwvZGl2PgogICAgICAgICAgfQogICAgICA+CiAgICAgICAgICA8ZGl2IGNsYXNzTmFtZT0iaC02NCBiZy1zbGF0ZS05MDAgcm91bmRlZC14bCBwLTMgb3ZlcmZsb3cteS1hdXRvIGZvbnQtbW9ubyB0ZXh0LVsxMHB4XSBzcGFjZS15LTIgbm8tc2Nyb2xsYmFyIHNoYWRvdy1pbm5lciI+CiAgICAgICAgICAgICAge3N5c3RlbUxvZ3MubGVuZ3RoID09PSAwID8gKAogICAgICAgICAgICAgICAgICA8ZGl2IGNsYXNzTmFtZT0idGV4dC1zbGF0ZS01MDAgdGV4dC1jZW50ZXIgbXQtMjAiPuezu+e7n+i/kOihjOato+W4uO+8jOaaguaXoOmUmeivr+aXpeW/l+OAgjwvZGl2PgogICAgICAgICAgICAgICkgOiAoCiAgICAgICAgICAgICAgICAgIHN5c3RlbUxvZ3MubWFwKGxvZyA9PiAoCiAgICAgICAgICAgICAgICAgICAgICA8ZGl2IGtleT17bG9nLmlkfSBjbGFzc05hbWU9ImJvcmRlci1iIGJvcmRlci13aGl0ZS8xMCBwYi0yIG1iLTIgbGFzdDpib3JkZXItMCBsYXN0Om1iLTAgbGFzdDpwYi0wIj4KICAgICAgICAgICAgICAgICAgICAgICAgICA8ZGl2IGNsYXNzTmFtZT0iZmxleCBqdXN0aWZ5LWJldHdlZW4gaXRlbXMtc3RhcnQgdGV4dC13aGl0ZS81MCBtYi0xIj4KICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgPHNwYW4+W3tuZXcgRGF0ZShsb2cudGltZXN0YW1wKS50b0xvY2FsZVRpbWVTdHJpbmcoKX1dPC9zcGFuPgogICAgICAgICAgICAgICAgICAgICAgICAgICAgICA8c3BhbiBjbGFzc05hbWU9e2B1cHBlcmNhc2UgZm9udC1ib2xkICR7bG9nLnR5cGUgPT09ICdlcnJvcicgPyAndGV4dC1yZWQtNDAwJyA6ICd0ZXh0LW9yYW5nZS00MDAnfWB9Pntsb2cudHlwZX08L3NwYW4+CiAgICAgICAgICAgICAgICAgICAgICAgICAgPC9kaXY+CiAgICAgICAgICAgICAgICAgICAgICAgICAgPGRpdiBjbGFzc05hbWU9InRleHQtd2hpdGUgZm9udC1ib2xkIG1iLTEgYnJlYWstd29yZHMiPntsb2cubWVzc2FnZX08L2Rpdj4KICAgICAgICAgICAgICAgICAgICAgICAgICB7bG9nLmRldGFpbCAmJiAoCiAgICAgICAgICAgICAgICAgICAgICAgICAgICAgIDxwcmUgY2xhc3NOYW1lPSJ0ZXh0LXNsYXRlLTQwMCB3aGl0ZXNwYWNlLXByZS13cmFwIGJyZWFrLWFsbCBiZy1ibGFjay8zMCBwLTIgcm91bmRlZCI+e2xvZy5kZXRhaWx9PC9wcmU+CiAgICAgICAgICAgICAgICAgICAgICAgICAgKX0KICAgICAgICAgICAgICAgICAgICAgICAgICA8ZGl2IGNsYXNzTmFtZT0idGV4dC13aGl0ZS8zMCB0ZXh0LXJpZ2h0IG10LTEiPlNyYzoge2xvZy5zb3VyY2V9PC9kaXY+CiAgICAgICAgICAgICAgICAgICAgICA8L2Rpdj4KICAgICAgICAgICAgICAgICAgKSkKICAgICAgICAgICAgICApfQogICAgICAgICAgPC9kaXY+CiAgICAgIDwvTW9kYWw+CiAgICA8Lz4KICApOwp9OwoKZXhwb3J0IGRlZmF1bHQgU3RhdHVzQmFyOwo=
+
+import React, { useEffect, useState } from 'react';
+import { useOS } from '../../context/OSContext';
+import Modal from './Modal';
+import { isStatusBarHidden } from '../../utils/iosStandalone';
+
+// TypeScript definition for Web Battery API
+interface BatteryManager extends EventTarget {
+  level: number;
+  charging: boolean;
+  addEventListener(type: string, listener: (event: Event) => void): void;
+  removeEventListener(type: string, listener: (event: Event) => void): void;
+}
+
+interface NavigatorWithBattery extends Navigator {
+  getBattery?: () => Promise<BatteryManager>;
+}
+
+const StatusBar: React.FC = () => {
+  const { virtualTime, theme, systemLogs, clearLogs } = useOS();
+  const [batteryLevel, setBatteryLevel] = useState<number>(100);
+  const [isCharging, setIsCharging] = useState<boolean>(false);
+  const [showLogModal, setShowLogModal] = useState(false);
+  
+  // Format numbers to have leading zeros
+  const format = (n: number) => n.toString().padStart(2, '0');
+
+  // Use content color from theme
+  const textColor = theme.contentColor || '#ffffff';
+  const acnh = theme.skin === 'animalcrossing'; // 动森彩蛋：电量条用叶绿色
+
+  useEffect(() => {
+    const initBattery = async () => {
+      const nav = navigator as NavigatorWithBattery;
+      if (nav.getBattery) {
+        try {
+          const battery = await nav.getBattery();
+          
+          const updateBattery = () => {
+            setBatteryLevel(Math.round(battery.level * 100));
+            setIsCharging(battery.charging);
+          };
+
+          updateBattery();
+          
+          battery.addEventListener('levelchange', updateBattery);
+          battery.addEventListener('chargingchange', updateBattery);
+
+          return () => {
+            battery.removeEventListener('levelchange', updateBattery);
+            battery.removeEventListener('chargingchange', updateBattery);
+          };
+        } catch (e) {
+          console.error("Battery API failed", e);
+        }
+      }
+    };
+
+    initBattery();
+  }, []);
+
+  const hasError = systemLogs.length > 0;
+
+  // 时钟/电量条是否隐藏：外观「隐藏顶部时间栏」开关 + 平台默认（iOS 全屏 PWA 系统已有状态栏，默认隐藏避免双显）。
+  // 仅隐藏下面这条时钟/电量条；错误指示器 + 系统调试终端与本开关无关，始终独立渲染。virtualTime 实为真实时间，隐藏不丢信息。
+  const hideOsStatusBar = isStatusBarHidden(theme.hideStatusBar);
+
+  return (
+    <>
+      {/* safe-area-B 解法：iOS 全屏 PWA 下系统状态栏（真实时间/电量）删不掉，隐掉 SullyOS 自己这条避免双显。
+         非 iOS standalone（安卓/桌面浏览器无系统状态栏）仍渲染，作为虚拟手机自己的状态栏。 */}
+      {!hideOsStatusBar && (
+      <div
+          className="w-full flex justify-between items-start px-6 text-[11px] font-bold z-50 absolute top-0 left-0 bg-transparent transition-colors duration-500 select-none pointer-events-none"
+          style={{
+              color: textColor,
+              paddingTop: 'max(4px, var(--safe-top))',
+              height: 'auto',
+              minHeight: '2rem'
+          }}
+      >
+        <div className="w-1/3 pl-2 flex items-center gap-2 pointer-events-auto">
+          <span>{format(virtualTime.hours)}:{format(virtualTime.minutes)}</span>
+        </div>
+        <div className="w-1/3 flex justify-center">
+          {/* Notch Area spacer */}
+        </div>
+        <div className="w-1/3 flex justify-end gap-1.5 items-center pr-2">
+          <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="currentColor" className="w-3.5 h-3.5">
+            <path fillRule="evenodd" d="M1.371 8.143c5.858-5.857 15.356-5.857 21.213 0a.75.75 0 0 1 0 1.061l-.53.53a.75.75 0 0 1-1.06 0c-4.98-4.979-13.053-4.979-18.032 0a.75.75 0 0 1-1.06 0l-.53-.53a.75.75 0 0 1 0-1.06Zm3.182 3.182c4.1-4.1 10.749-4.1 14.85 0a.75.75 0 0 1 0 1.061l-.53.53a.75.75 0 0 1-1.062 0 8.25 8.25 0 0 0-11.667 0 .75.75 0 0 1-1.06 0l-.53-.53a.75.75 0 0 1 0-1.06Zm3.204 3.182a6 6 0 0 1 8.486 0 .75.75 0 0 1 0 1.061l-.53.53a.75.75 0 0 1-1.061 0 3.75 3.75 0 0 0-5.304 0 .75.75 0 0 1-1.06 0l-.53-.53a.75.75 0 0 1 0-1.06Zm3.182 3.182a1.5 1.5 0 0 1 2.122 0 .75.75 0 0 1 0 1.061l-.53.53a.75.75 0 0 1-1.061 0l-.53-.53a.75.75 0 0 1 0-1.06Z" clipRule="evenodd" />
+          </svg>
+          <div className="flex items-center gap-1">
+            <span>{batteryLevel}%</span>
+            <div className="w-5 h-2.5 border border-current rounded-[3px] p-[1px] relative opacity-80 flex items-center">
+              <div
+                  className={`h-full rounded-[1px] ${isCharging ? 'bg-green-400' : acnh ? 'bg-[#7cba4c]' : 'bg-current'}`}
+                  style={{ width: `${batteryLevel}%` }}
+              ></div>
+              {isCharging && (
+                  <div className="absolute inset-0 flex items-center justify-center">
+                      <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 20" fill="currentColor" className="w-3 h-3 text-black">
+                          <path d="M11.983 1.907a.75.75 0 0 0-1.292-.657l-8.5 9.5A.75.75 0 0 0 2.75 12h6.572l-1.305 6.093a.75.75 0 0 0 1.292.657l8.5-9.5A.75.75 0 0 0 17.25 8h-6.572l1.305-6.093Z" />
+                      </svg>
+                  </div>
+              )}
+            </div>
+          </div>
+        </div>
+      </div>
+      )}
+
+      {/* Independent Error Indicator - Floating below status bar */}
+      {hasError && (
+          <button 
+              onClick={() => setShowLogModal(true)} 
+              className="fixed left-1/2 -translate-x-1/2 z-[60] bg-red-500/90 text-white rounded-full px-4 py-1.5 text-[10px] font-bold shadow-lg animate-pulse flex items-center gap-1.5 backdrop-blur-md border border-white/20 pointer-events-auto"
+              style={{ top: 'calc(var(--chrome-top) + 1rem)' }}
+          >
+              <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 20" fill="currentColor" className="w-3 h-3">
+                  <path fillRule="evenodd" d="M18 10a8 8 0 1 1-16 0 8 8 0 0 1 16 0Zm-8-5a.75.75 0 0 1 .75.75v4.5a.75.75 0 0 1-1.5 0v-4.5A.75.75 0 0 1 10 5Zm0 10a1 1 0 1 0 0-2 1 1 0 0 0 0 2Z" clipRule="evenodd" />
+              </svg>
+              <span>SYSTEM ERROR</span>
+          </button>
+      )}
+
+      <Modal 
+          isOpen={showLogModal} 
+          title="系统调试终端" 
+          onClose={() => setShowLogModal(false)}
+          footer={
+              <div className="flex gap-2 w-full">
+                  <button onClick={() => { navigator.clipboard.writeText(JSON.stringify(systemLogs, null, 2)); }} className="flex-1 py-3 bg-slate-100 font-bold rounded-xl text-slate-600">复制 JSON</button>
+                  <button onClick={clearLogs} className="flex-1 py-3 bg-red-500 text-white font-bold rounded-xl shadow-lg shadow-red-200">清空日志</button>
+              </div>
+          }
+      >
+          <div className="h-64 bg-slate-900 rounded-xl p-3 overflow-y-auto font-mono text-[10px] space-y-2 no-scrollbar shadow-inner">
+              {systemLogs.length === 0 ? (
+                  <div className="text-slate-500 text-center mt-20">系统运行正常，暂无错误日志。</div>
+              ) : (
+                  systemLogs.map(log => (
+                      <div key={log.id} className="border-b border-white/10 pb-2 mb-2 last:border-0 last:mb-0 last:pb-0">
+                          <div className="flex justify-between items-start text-white/50 mb-1">
+                              <span>[{new Date(log.timestamp).toLocaleTimeString()}]</span>
+                              <span className={`uppercase font-bold ${log.type === 'error' ? 'text-red-400' : 'text-orange-400'}`}>{log.type}</span>
+                          </div>
+                          <div className="text-white font-bold mb-1 break-words">{log.message}</div>
+                          {log.detail && (
+                              <pre className="text-slate-400 whitespace-pre-wrap break-all bg-black/30 p-2 rounded">{log.detail}</pre>
+                          )}
+                          <div className="text-white/30 text-right mt-1">Src: {log.source}</div>
+                      </div>
+                  ))
+              )}
+          </div>
+      </Modal>
+    </>
+  );
+};
+
+export default StatusBar;

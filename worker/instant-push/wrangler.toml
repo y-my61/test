@@ -1,1 +1,29 @@
-bmFtZSA9ICJpbnN0YW50LXB1c2giCm1haW4gPSAic3JjL2luZGV4LnRzIgpjb21wYXRpYmlsaXR5X2RhdGUgPSAiMjAyNi0wMS0wMSIKIyBhbXNnLWluc3RhbnQgMC4zLjArIHVzZXMgb25seSBXZWIgQ3J5cHRvOyBubyBjb21wYXRpYmlsaXR5X2ZsYWdzIG5lZWRlZC4KIyBTZWNyZXRzIOKAlCBzZXQgdmlhIERhc2hib2FyZCDmiJYgd3JhbmdsZXIgc2VjcmV0IHB1dCBOQU1FCiMgICBWQVBJRF9QVUJMSUNfS0VZCiMgICBWQVBJRF9QUklWQVRFX0tFWQojICAgVkFQSURfRU1BSUwgICAgICAgICAgIyDlj6/pgInvvJvnvLrliJnpu5jorqQgbWFpbHRvOm5vcmVwbHlAZXhhbXBsZS5jb20KIyAgIEFNU0dfQ0xJRU5UX1RPS0VOICAgICMg5Y+v6YCJ77yb6KO46LeR5Lmf6KGMCiMgICBBTVNHX09WRVJTSVpFX1RSQU5TUE9SVCAjIOWPr+mAiemrmOe6p+WFnOW6le+8m+mAmuW4uOeVmeepuu+8jOeUseWJjeWPsOajgOa1iyBEMSDlkI7mjInor7fmsYLpgInmi6kKCiMg5aSn5YyF5Lyg6L6T6buY6K6k6LWwIGFtc2ctaW5zdGFudCBnZW5lcmljIG11bHRpcGFydO+8jOS4jemcgOimgeaVsOaNruW6k+OAggojIOWPr+mAiee7keWumiBEMSBCbG9iU3RvcmUgZW52ZWxvcGXvvJrlpJrkuIDmrKHpg6jnvbLphY3nva7vvIzmjaLmm7TnqLPnmoTlpKflr7nosaHkvKDovpPjgIIKIyDliY3lj7DkvJrpgJrov4cgL2NhcGFiaWxpdGllcyDoh6rliqjmo4DmtYsgRDHvvJvmo4DmtYvpgJrov4flkI7miY3lhYHorrjnlKjmiLfmiZPlvIAgRDEg5byA5YWz44CCCiMKIyDpg6jnvbI6CiMgICB3cmFuZ2xlciBkMSBjcmVhdGUgaW5zdGFudC1ibG9iLWRiCiMgICDmiorkuIvpnaIgZGF0YWJhc2VfaWQg5aGr5LiKLCDnhLblkI7lj5bmtojms6jph4rmlbTkuKogW1tkMV9kYXRhYmFzZXNdXSDlnZcuCiMgICDooajnu5PmnoTnlLEgV29ya2VyIOiHquWKqCBDUkVBVEUgSUYgTk9UIEVYSVNUUywg5LiN6ZyA6KaB5omL5Yqo6LeRIHNjaGVtYS5zcWwuCiMKIyBbW2QxX2RhdGFiYXNlc11dCiMgYmluZGluZyA9ICJEQiIKIyBkYXRhYmFzZV9uYW1lID0gImluc3RhbnQtYmxvYi1kYiIKIyBkYXRhYmFzZV9pZCA9ICJSRVBMQUNFX1dJVEhfWU9VUl9EMV9JRCIKCiMgRDEg6L+H5pyfIGJsb2Ig5Lya5Zyo6K+35rGC57uP6L+HIFdvcmtlciDml7boh6rliqjlrprmnJ/muIXnkIbjgIIKIyDov5nmrrUgY3JvbiDlj6rmmK/lj6/pgInliqDpgJ/muIXnkIbvvJrkvY7mtYHph4/pg6jnvbLmg7Pmm7Tlh4bml7bmiavml6fmlbDmja7ml7blho3miZPlvIDjgIIKIyBbdHJpZ2dlcnNdCiMgY3JvbnMgPSBbIiovMTUgKiAqICogKiJdCg==
+name = "instant-push"
+main = "src/index.ts"
+compatibility_date = "2026-01-01"
+# amsg-instant 0.3.0+ uses only Web Crypto; no compatibility_flags needed.
+# Secrets — set via Dashboard 或 wrangler secret put NAME
+#   VAPID_PUBLIC_KEY
+#   VAPID_PRIVATE_KEY
+#   VAPID_EMAIL          # 可选；缺则默认 mailto:noreply@example.com
+#   AMSG_CLIENT_TOKEN    # 可选；裸跑也行
+#   AMSG_OVERSIZE_TRANSPORT # 可选高级兜底；通常留空，由前台检测 D1 后按请求选择
+
+# 大包传输默认走 amsg-instant generic multipart，不需要数据库。
+# 可选绑定 D1 BlobStore envelope：多一次部署配置，换更稳的大对象传输。
+# 前台会通过 /capabilities 自动检测 D1；检测通过后才允许用户打开 D1 开关。
+#
+# 部署:
+#   wrangler d1 create instant-blob-db
+#   把下面 database_id 填上, 然后取消注释整个 [[d1_databases]] 块.
+#   表结构由 Worker 自动 CREATE IF NOT EXISTS, 不需要手动跑 schema.sql.
+#
+# [[d1_databases]]
+# binding = "DB"
+# database_name = "instant-blob-db"
+# database_id = "REPLACE_WITH_YOUR_D1_ID"
+
+# D1 过期 blob 会在请求经过 Worker 时自动定期清理。
+# 这段 cron 只是可选加速清理：低流量部署想更准时扫旧数据时再打开。
+# [triggers]
+# crons = ["*/15 * * * *"]

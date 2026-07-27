@@ -1,1 +1,197 @@
-LyoqCiAqIE1lbW9yeSBEaXZlICjorrDlv4bmvZzooYwpIOKAlCDnsbvlnovlrprkuYkKICoKICog5Lqk5LqS5byPIFJQRyDmjqLntKLmqKHlvI/vvJrnlKjmiLflnKjlg4/ntKDlsI/lsYvkuK3kuI7op5LoibLkuIDotbfmjqLntKLorrDlv4bjgIIKICog6YCA5Ye65ZCO6KeS6Imy5LiN6K6w5b6X5Y+R55Sf6L+H5LuA5LmI77yM5L2G55So5oi35Lya6I635b6X5LiA5Liq5Li05pe2IGJ1ZmbjgIIKICovCgppbXBvcnQgdHlwZSB7IE1lbW9yeVJvb20gfSBmcm9tICcuLi8uLi91dGlscy9tZW1vcnlQYWxhY2UvdHlwZXMnOwoKLy8g4pSA4pSA4pSAIOaOoue0ouaooeW8jyDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIAKCi8qKiDop5LoibLlvJXpooYgdnMg6Ieq55Sx5o6i57SiICovCmV4cG9ydCB0eXBlIERpdmVNb2RlID0gJ2d1aWRlZCcgfCAnZnJlZSc7CgovKiog5r2c6KGM6Zi25q61ICovCmV4cG9ydCB0eXBlIERpdmVQaGFzZSA9ICdpbnRybycgfCAnZXhwbG9yaW5nJyB8ICdkaWFsb2d1ZScgfCAnb3V0cm8nOwoKLy8g4pSA4pSA4pSAIOWvueivneezu+e7nyDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIAKCmV4cG9ydCBpbnRlcmZhY2UgRGl2ZURpYWxvZ3VlIHsKICBpZDogc3RyaW5nOwogIHNwZWFrZXI6ICdjaGFyYWN0ZXInIHwgJ25hcnJhdG9yJyB8ICd1c2VyX2Nob2ljZSc7CiAgdGV4dDogc3RyaW5nOwogIC8qKiDnlKjmiLfpgInpobnvvIjku4Ugc3BlYWtlciA9PT0gJ3VzZXJfY2hvaWNlJyDml7bmnInlgLzvvIkgKi8KICBjaG9pY2VzPzogRGl2ZUNob2ljZVtdOwogIC8qKiDlhbPogZTnmoTlrrblhbfmp73kvY0gSUTvvIjop6blj5HmnaXmupDvvIkgKi8KICB0cmlnZ2VyZWRCeT86IHN0cmluZzsKICB0aW1lc3RhbXA6IG51bWJlcjsKfQoKZXhwb3J0IGludGVyZmFjZSBEaXZlQ2hvaWNlIHsKICBpZDogc3RyaW5nOwogIHRleHQ6IHN0cmluZzsKICAvKiog6YCJ5oup5ZCO5a+5IGJ1ZmYg55qE5b2x5ZONICovCiAgYnVmZkVmZmVjdD86IFBhcnRpYWw8RGl2ZUJ1ZmZWYWx1ZXM+OwogIC8qKiDmoIforrDnibnmrorooYzkuLogKi8KICBhY3Rpb24/OiAnY29tZm9ydCcgfCAncXVlc3Rpb24nIHwgJ29ic2VydmUnIHwgJ2xlYXZlJyB8ICd1bmxvY2snOwp9CgovLyDilIDilIDilIAgQnVmZiDns7vnu58g4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSACgpleHBvcnQgaW50ZXJmYWNlIERpdmVCdWZmVmFsdWVzIHsKICBlbXBhdGh5OiBudW1iZXI7ICAgIC8vIOWFseaDhSDigJQg5YC+5ZCs44CB5a6J5oWw5pe257Sv56evCiAgdHJ1c3Q6IG51bWJlcjsgICAgICAvLyDkv6Hku7sg4oCUIOWwiumHjeinkuiJsuaEj+aEv+OAgeS4jeW8uuihjOafpeeciwogIGluc2lnaHQ6IG51bWJlcjsgICAgLy8g5rSe5a+fIOKAlCDmj5Dpl67jgIHmjqLntKLnu4boioIKICBib25kOiBudW1iZXI7ICAgICAgIC8vIOe+gee7iiDigJQg5LiA6LW35Zue5b+G576O5aW95pe25Yi7Cn0KCmV4cG9ydCB0eXBlIEJ1ZmZUeXBlID0ga2V5b2YgRGl2ZUJ1ZmZWYWx1ZXM7CgpleHBvcnQgaW50ZXJmYWNlIERpdmVCdWZmIHsKICB0eXBlOiBCdWZmVHlwZTsKICBsYWJlbDogc3RyaW5nOwogIHZhbHVlOiBudW1iZXI7CiAgaWNvbjogc3RyaW5nOwogIGRlc2NyaXB0aW9uOiBzdHJpbmc7Cn0KCmV4cG9ydCBjb25zdCBCVUZGX01FVEE6IFJlY29yZDxCdWZmVHlwZSwgeyBsYWJlbDogc3RyaW5nOyBpY29uOiBzdHJpbmc7IGRlc2NyaXB0aW9uOiBzdHJpbmcgfT4gPSB7CiAgZW1wYXRoeTogeyBsYWJlbDogJ+WFseaDhScsIGljb246ICfwn5KXJywgZGVzY3JpcHRpb246ICfkvaDorqTnnJ/lgL7lkKzkuoZ0YeeahOiusOW/hicgfSwKICB0cnVzdDogICB7IGxhYmVsOiAn5L+h5Lu7JywgaWNvbjogJ/CfpJ0nLCBkZXNjcmlwdGlvbjogJ+S9oOWwiumHjeS6hnRh55qE6L6555WMJyB9LAogIGluc2lnaHQ6IHsgbGFiZWw6ICfmtJ7lr58nLCBpY29uOiAn8J+UjScsIGRlc2NyaXB0aW9uOiAn5L2g5Y+R546w5LqG6ZqQ6JeP55qE57uG6IqCJyB9LAogIGJvbmQ6ICAgIHsgbGFiZWw6ICfnvoHnu4onLCBpY29uOiAn4pyoJywgZGVzY3JpcHRpb246ICfkvaDku6zkuIDotbfph43muKnkuobnj43otLXnmoTlm57lv4YnIH0sCn07CgovLyDilIDilIDilIAg5oi/6Ze05o6i57Si54q25oCBIOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgAoKZXhwb3J0IGludGVyZmFjZSBSb29tRXhwbG9yZVN0YXRlIHsKICByb29tSWQ6IE1lbW9yeVJvb207CiAgLyoqIOivpeaIv+mXtOS4reW3suinpuWPkeWvueivneeahOWutuWFtyAqLwogIHZpc2l0ZWRTbG90czogU2V0PHN0cmluZz47CiAgLyoqIOaYr+WQpuaciSLplIHkvY8i55qE5YaF5a6577yI6ZiB5qW8562J5pWP5oSf5oi/6Ze077yJICovCiAgaGFzTG9ja2VkQ29udGVudDogYm9vbGVhbjsKICAvKiog5piv5ZCm5bey6Kej6ZSBICovCiAgdW5sb2NrZWQ6IGJvb2xlYW47Cn0KCi8vIOKUgOKUgOKUgCDmlbTkvZPmvZzooYzkvJror50g4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSACgpleHBvcnQgaW50ZXJmYWNlIERpdmVTZXNzaW9uIHsKICBjaGFySWQ6IHN0cmluZzsKICBjaGFyTmFtZTogc3RyaW5nOwogIG1vZGU6IERpdmVNb2RlOwogIHBoYXNlOiBEaXZlUGhhc2U7CiAgY3VycmVudFJvb206IE1lbW9yeVJvb207CiAgLyoqIOeOqeWutuWcqOaIv+mXtOS4reeahOS9jee9riAoJSkgKi8KICBwbGF5ZXJQb3M6IHsgeDogbnVtYmVyOyB5OiBudW1iZXIgfTsKICAvKiog6KeS6Imy5Zyo5oi/6Ze05Lit55qE5L2N572uICglKSAqLwogIGNoYXJQb3M6IHsgeDogbnVtYmVyOyB5OiBudW1iZXIgfTsKICAvKiog5a+56K+d5Y6G5Y+yICovCiAgZGlhbG9ndWVzOiBEaXZlRGlhbG9ndWVbXTsKICAvKiog5ZCE5oi/6Ze05o6i57Si54q25oCBICovCiAgcm9vbVN0YXRlczogTWFwPE1lbW9yeVJvb20sIFJvb21FeHBsb3JlU3RhdGU+OwogIC8qKiDntK/np68gYnVmZiDlgLwgKi8KICBidWZmVmFsdWVzOiBEaXZlQnVmZlZhbHVlczsKICAvKiog5bey6K6/6Zeu55qE5oi/6Ze05YiX6KGoICovCiAgdmlzaXRlZFJvb21zOiBNZW1vcnlSb29tW107CiAgLyoqIOaYr+WQpuato+WcqOetieW+hSBMTE0g5Zue5aSNICovCiAgaXNMb2FkaW5nOiBib29sZWFuOwogIHN0YXJ0ZWRBdDogbnVtYmVyOwp9CgovLyDilIDilIDilIAgTExNIOivt+axgi/lk43lupQg4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSACgpleHBvcnQgaW50ZXJmYWNlIERpdmVMTE1SZXF1ZXN0IHsKICBjaGFySWQ6IHN0cmluZzsKICBjaGFyTmFtZTogc3RyaW5nOwogIC8qKiDmmKDlsITnmoTnlKjmiLflkI3vvIjnlKjkuo4gdXNlcl9yb29tIOaYvuekuuOAjHvnlKjmiLflkI1955qE5oi/44CN77yJICovCiAgdXNlck5hbWU/OiBzdHJpbmc7CiAgcm9vbTogTWVtb3J5Um9vbTsKICBzbG90SWQ/OiBzdHJpbmc7CiAgc2xvdE5hbWU/OiBzdHJpbmc7CiAgc2xvdENhdGVnb3J5Pzogc3RyaW5nOwogIC8qKiDku47orrDlv4blrqvmrr/mo4DntKLliLDnmoTnm7jlhbPorrDlv4YgKi8KICBtZW1vcmllczogc3RyaW5nW107CiAgLyoqIOaOoue0ouaooeW8jyAqLwogIG1vZGU6IERpdmVNb2RlOwogIC8qKiDnlKjmiLfnmoTpgInmi6nvvIjlpoLmnpzmmK/lm57lpI3lr7nor53vvIkgKi8KICB1c2VyQ2hvaWNlPzogRGl2ZUNob2ljZTsKICAvKiog5LmL5YmN55qE5a+56K+d5LiK5LiL5paH77yI5pyA6L+RNeadoe+8iSAqLwogIHJlY2VudERpYWxvZ3VlczogRGl2ZURpYWxvZ3VlW107CiAgLyoqIOW9k+WJjee0r+enr+eahCBidWZmICovCiAgY3VycmVudEJ1ZmZzOiBEaXZlQnVmZlZhbHVlczsKfQoKZXhwb3J0IGludGVyZmFjZSBEaXZlTExNUmVzcG9uc2UgewogIC8qKiDop5LoibLnmoTlr7nor50v5peB55m9ICovCiAgZGlhbG9ndWVzOiBBcnJheTx7CiAgICBzcGVha2VyOiAnY2hhcmFjdGVyJyB8ICduYXJyYXRvcic7CiAgICB0ZXh0OiBzdHJpbmc7CiAgfT47CiAgLyoqIOe7meeUqOaIt+eahOmAiemhuSAqLwogIGNob2ljZXM/OiBBcnJheTx7CiAgICB0ZXh0OiBzdHJpbmc7CiAgICBhY3Rpb246IERpdmVDaG9pY2VbJ2FjdGlvbiddOwogICAgYnVmZkVmZmVjdD86IFBhcnRpYWw8RGl2ZUJ1ZmZWYWx1ZXM+OwogIH0+OwogIC8qKiDop5LoibLmmK/lkKbmipfmi5LvvIjpmIHmpbznrYnvvIkgKi8KICBpc1JlbHVjdGFudD86IGJvb2xlYW47CiAgLyoqIOW8leWvvOaooeW8j+S4i++8jOinkuiJsuW7uuiuruWOu+eahOS4i+S4gOS4quaIv+mXtCAqLwogIHN1Z2dlc3ROZXh0Um9vbT86IE1lbW9yeVJvb207Cn0KCi8vIOKUgOKUgOKUgCDmiL/pl7TliafmnKzvvIjkuIDmrKEgTExNIOmihOeUn+aIkOaVtOaIv+mXtOeahOaOouiuv++8iSDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIAKCi8qKiDljZXkuKogYmVhdCDkuK3nmoTnlKjmiLfpgInpobkg4oCU4oCUIOavj+S4qumAiemhuemDveacieeLrOeri+eahOinkuiJsuWPjeW6lCAqLwpleHBvcnQgaW50ZXJmYWNlIERpdmVTY3JpcHRDaG9pY2UgewogIGlkOiBzdHJpbmc7CiAgLyoqIOeUqOaIt+eahOmAiemhueaWh+acrCAqLwogIHRleHQ6IHN0cmluZzsKICAvKiog6KGM5Li657G75Z6L77ya55So5LqOIGJ1ZmYg6K6h566XICovCiAgYWN0aW9uPzogRGl2ZUNob2ljZVsnYWN0aW9uJ107CiAgLyoqIOaYvuW8jyBidWZmIOW9seWTjSAqLwogIGJ1ZmZFZmZlY3Q/OiBQYXJ0aWFsPERpdmVCdWZmVmFsdWVzPjsKICAvKiog6YCJ5ZCO6KeS6Imy55qE54us56uL5Zue5bqU77yIY2hhcmFjdGVyIOWPsOivje+8m+WPr+WkmuauteeUqCBcblxuIOWIhumalO+8iSAqLwogIHJlYWN0aW9uOiBzdHJpbmc7CiAgLyoqIOWPr+mAie+8mui/meadoeWPjeW6lOS5i+WQjumineWklueahOeOr+Wig+aXgeeZve+8iOavlOWmgiLnga/lhYnovbvovbvmmYPkuobkuIDkuIsi77yJICovCiAgcmVhY3Rpb25OYXJyYXRvcj86IHN0cmluZzsKfQoKLyoqIOaIv+mXtOWJp+acrOS4reeahOS4gOauteaIjyAqLwpleHBvcnQgaW50ZXJmYWNlIERpdmVCZWF0IHsKICAvKiog6KeS6Imy5q2k5Yi76K+055qE5LiA5q616K+dICovCiAgY2hhckxpbmU6IHN0cmluZzsKICAvKiog5Y+v6YCJ77ya6K+06K+d5YmN55qE546v5aKD5peB55m9ICovCiAgbmFycmF0b3JMaW5lPzogc3RyaW5nOwogIC8qKiAzIOS4quWPjeW6lOmAiemhue+8jOavj+S4qumDveW4pueLrOeri+WbnuW6lCAqLwogIGNob2ljZXM6IERpdmVTY3JpcHRDaG9pY2VbXTsKfQoKLyoqIOS4gOS4quaIv+mXtOS7jui/m+WcuuWIsOemu+WcuueahOWujOaVtOWJp+acrCAqLwpleHBvcnQgaW50ZXJmYWNlIFJvb21TY3JpcHQgewogIC8qKiDov5vmiL/pl7TnmoTnjq/looPml4Hnmb3vvIjlj6/pgInvvIkgKi8KICBpbnRyb05hcnJhdG9yPzogc3RyaW5nOwogIC8qKiDmiL/pl7Tph4znmoTlh6DmrrXmiI/vvIzpu5jorqQgMyAqLwogIGJlYXRzOiBEaXZlQmVhdFtdOwogIC8qKiDnprvlvIDmiL/pl7TnmoTnjq/looPml4Hnmb3vvIjlj6/pgInvvIkgKi8KICBjbG9zaW5nTmFycmF0b3I/OiBzdHJpbmc7CiAgLyoqIOWPr+mAie+8muemu+W8gOaXtua1rueOsOeahOS4gOWPpeivne+8jOS9nOS4uuiusOW/hueahOS9meWRsyAqLwogIGZpbmFsTW9vZEhpbnQ/OiBzdHJpbmc7CiAgLyoqIExMTSDlu7rorq7nmoTkuIvkuIDkuKrmiL/pl7QgKi8KICBuZXh0Um9vbT86IE1lbW9yeVJvb207Cn0KCi8vIOKUgOKUgOKUgCDnu5Pnrpcg4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSACgpleHBvcnQgaW50ZXJmYWNlIERpdmVSZXN1bHQgewogIGNoYXJJZDogc3RyaW5nOwogIG1vZGU6IERpdmVNb2RlOwogIHZpc2l0ZWRSb29tczogTWVtb3J5Um9vbVtdOwogIHRvdGFsRGlhbG9ndWVzOiBudW1iZXI7CiAgYnVmZnM6IERpdmVCdWZmW107CiAgLyoqIOS4u+imgeiOt+W+l+eahCBidWZmIOexu+WeiyAqLwogIHByaW1hcnlCdWZmOiBCdWZmVHlwZTsKICBkdXJhdGlvbjogbnVtYmVyOyAvLyBtcwogIGNvbXBsZXRlZEF0OiBudW1iZXI7Cn0K
+/**
+ * Memory Dive (记忆潜行) — 类型定义
+ *
+ * 交互式 RPG 探索模式：用户在像素小屋中与角色一起探索记忆。
+ * 退出后角色不记得发生过什么，但用户会获得一个临时 buff。
+ */
+
+import type { MemoryRoom } from '../../utils/memoryPalace/types';
+
+// ─── 探索模式 ────────────────────────────────────────────
+
+/** 角色引领 vs 自由探索 */
+export type DiveMode = 'guided' | 'free';
+
+/** 潜行阶段 */
+export type DivePhase = 'intro' | 'exploring' | 'dialogue' | 'outro';
+
+// ─── 对话系统 ────────────────────────────────────────────
+
+export interface DiveDialogue {
+  id: string;
+  speaker: 'character' | 'narrator' | 'user_choice';
+  text: string;
+  /** 用户选项（仅 speaker === 'user_choice' 时有值） */
+  choices?: DiveChoice[];
+  /** 关联的家具槽位 ID（触发来源） */
+  triggeredBy?: string;
+  timestamp: number;
+}
+
+export interface DiveChoice {
+  id: string;
+  text: string;
+  /** 选择后对 buff 的影响 */
+  buffEffect?: Partial<DiveBuffValues>;
+  /** 标记特殊行为 */
+  action?: 'comfort' | 'question' | 'observe' | 'leave' | 'unlock';
+}
+
+// ─── Buff 系统 ───────────────────────────────────────────
+
+export interface DiveBuffValues {
+  empathy: number;    // 共情 — 倾听、安慰时累积
+  trust: number;      // 信任 — 尊重角色意愿、不强行查看
+  insight: number;    // 洞察 — 提问、探索细节
+  bond: number;       // 羁绊 — 一起回忆美好时刻
+}
+
+export type BuffType = keyof DiveBuffValues;
+
+export interface DiveBuff {
+  type: BuffType;
+  label: string;
+  value: number;
+  icon: string;
+  description: string;
+}
+
+export const BUFF_META: Record<BuffType, { label: string; icon: string; description: string }> = {
+  empathy: { label: '共情', icon: '💗', description: '你认真倾听了ta的记忆' },
+  trust:   { label: '信任', icon: '🤝', description: '你尊重了ta的边界' },
+  insight: { label: '洞察', icon: '🔍', description: '你发现了隐藏的细节' },
+  bond:    { label: '羁绊', icon: '✨', description: '你们一起重温了珍贵的回忆' },
+};
+
+// ─── 房间探索状态 ────────────────────────────────────────
+
+export interface RoomExploreState {
+  roomId: MemoryRoom;
+  /** 该房间中已触发对话的家具 */
+  visitedSlots: Set<string>;
+  /** 是否有"锁住"的内容（阁楼等敏感房间） */
+  hasLockedContent: boolean;
+  /** 是否已解锁 */
+  unlocked: boolean;
+}
+
+// ─── 整体潜行会话 ────────────────────────────────────────
+
+export interface DiveSession {
+  charId: string;
+  charName: string;
+  mode: DiveMode;
+  phase: DivePhase;
+  currentRoom: MemoryRoom;
+  /** 玩家在房间中的位置 (%) */
+  playerPos: { x: number; y: number };
+  /** 角色在房间中的位置 (%) */
+  charPos: { x: number; y: number };
+  /** 对话历史 */
+  dialogues: DiveDialogue[];
+  /** 各房间探索状态 */
+  roomStates: Map<MemoryRoom, RoomExploreState>;
+  /** 累积 buff 值 */
+  buffValues: DiveBuffValues;
+  /** 已访问的房间列表 */
+  visitedRooms: MemoryRoom[];
+  /** 是否正在等待 LLM 回复 */
+  isLoading: boolean;
+  startedAt: number;
+}
+
+// ─── LLM 请求/响应 ───────────────────────────────────────
+
+export interface DiveLLMRequest {
+  charId: string;
+  charName: string;
+  /** 映射的用户名（用于 user_room 显示「{用户名}的房」） */
+  userName?: string;
+  room: MemoryRoom;
+  slotId?: string;
+  slotName?: string;
+  slotCategory?: string;
+  /** 从记忆宫殿检索到的相关记忆 */
+  memories: string[];
+  /** 探索模式 */
+  mode: DiveMode;
+  /** 用户的选择（如果是回复对话） */
+  userChoice?: DiveChoice;
+  /** 之前的对话上下文（最近5条） */
+  recentDialogues: DiveDialogue[];
+  /** 当前累积的 buff */
+  currentBuffs: DiveBuffValues;
+}
+
+export interface DiveLLMResponse {
+  /** 角色的对话/旁白 */
+  dialogues: Array<{
+    speaker: 'character' | 'narrator';
+    text: string;
+  }>;
+  /** 给用户的选项 */
+  choices?: Array<{
+    text: string;
+    action: DiveChoice['action'];
+    buffEffect?: Partial<DiveBuffValues>;
+  }>;
+  /** 角色是否抗拒（阁楼等） */
+  isReluctant?: boolean;
+  /** 引导模式下，角色建议去的下一个房间 */
+  suggestNextRoom?: MemoryRoom;
+}
+
+// ─── 房间剧本（一次 LLM 预生成整房间的探访） ──────────
+
+/** 单个 beat 中的用户选项 —— 每个选项都有独立的角色反应 */
+export interface DiveScriptChoice {
+  id: string;
+  /** 用户的选项文本 */
+  text: string;
+  /** 行为类型：用于 buff 计算 */
+  action?: DiveChoice['action'];
+  /** 显式 buff 影响 */
+  buffEffect?: Partial<DiveBuffValues>;
+  /** 选后角色的独立回应（character 台词；可多段用 \n\n 分隔） */
+  reaction: string;
+  /** 可选：这条反应之后额外的环境旁白（比如"灯光轻轻晃了一下"） */
+  reactionNarrator?: string;
+}
+
+/** 房间剧本中的一段戏 */
+export interface DiveBeat {
+  /** 角色此刻说的一段话 */
+  charLine: string;
+  /** 可选：说话前的环境旁白 */
+  narratorLine?: string;
+  /** 3 个反应选项，每个都带独立回应 */
+  choices: DiveScriptChoice[];
+}
+
+/** 一个房间从进场到离场的完整剧本 */
+export interface RoomScript {
+  /** 进房间的环境旁白（可选） */
+  introNarrator?: string;
+  /** 房间里的几段戏，默认 3 */
+  beats: DiveBeat[];
+  /** 离开房间的环境旁白（可选） */
+  closingNarrator?: string;
+  /** 可选：离开时浮现的一句话，作为记忆的余味 */
+  finalMoodHint?: string;
+  /** LLM 建议的下一个房间 */
+  nextRoom?: MemoryRoom;
+}
+
+// ─── 结算 ────────────────────────────────────────────────
+
+export interface DiveResult {
+  charId: string;
+  mode: DiveMode;
+  visitedRooms: MemoryRoom[];
+  totalDialogues: number;
+  buffs: DiveBuff[];
+  /** 主要获得的 buff 类型 */
+  primaryBuff: BuffType;
+  duration: number; // ms
+  completedAt: number;
+}

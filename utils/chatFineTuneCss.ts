@@ -1,1 +1,120 @@
-LyoqCiAqIOiBiuWkqee7huiKguW+ruiwgyBDU1Mg55Sf5oiQ5Zmo77yI5aSW6KeCIOKGkiDogYrlpKnnu4boioLvvInjgIIKICoKICog5pS257yW6Ieq56S+5Yy65L2c6ICF44CM5q+b6LGG6IWQ5ZKM6Z2i5py644CN77yIREPvvInnmoTjgIznpZ7np5jmi7zlpb3noIHjgI3nvo7ljJYgQ1NT77yI6Ie06LCi6KeBIFJFQURNRSDpuKPosKLvvInvvJoKICog6ZqQ6JeP5aS05YOP44CB5aS05YOP5a+56b2QL+W+ruiwg+OAgea2iOaBr+i0tOi+ueOAgeawlOazoee8qei/m+OAgeato+aWh+Wtl+WPty/ooYzot53jgIIKICog6YCJ5oup5Zmo5rK/55So5aW555qE54mI5pys5bey5Zyo55yf5a6eIERPTSDkuIrpqozor4Hov4fnmoTlvaLmgIEKICog77yI6ZSaIC5ncm91cC5qdXN0aWZ5LSog5LiOIC5zdWxseS1idWJibGUtKiDnu5PmnoTvvInvvIznlJ/miJDop4TliJnluKYgIWltcG9ydGFudAogKiDku6Xljovov4cgVGFpbHdpbmQg5bel5YW357G744CCCiAqCiAqIOazqOWFpeS9jee9ru+8mkNoYXQudHN4IOWcqOeUqOaIt+iHquWumuS5ieeZveahhiBDU1PvvIhjaGF0Q2hyb21lQ3VzdG9tQ3NzIC8g6KeS6ImyCiAqIGNocm9tZUN1c3RvbUNzc++8iSoq5LmL5YmNKirmj5LlhaXmnKzmoLflvI/igJTigJTlkIzkuLogIWltcG9ydGFudCDml7blkI7ogIXog5zvvIzogIHnlKjmiLcKICog5omL5YaZ55qE576O5YyW5Luj56CB5rC46L+c6IO96KaG55uW6L+Z6YeM55qE5Y+v6KeG5YyW6K6+572u77yM5LqS5LiN5omT5p6244CCCiAqCiAqIOWFqOmDqOWtl+autee8uuecgeaXtui/lOWbnuepuuS4su+8iOS4gOS4qiA8c3R5bGU+IOmDveS4jeazqOWFpe+8jOeOsOeKtumbtuWPmOWMlu+8ieOAggogKi8KCmltcG9ydCB0eXBlIHsgQ2hhdEZpbmVUdW5lRmllbGRzLCBDaGF0RmluZVR1bmVPdmVycmlkZSB9IGZyb20gJy4uL3R5cGVzJzsKCi8qKiDlvq7osIPlrZfmrrXmuIXljZXvvIjlkIjlubYgLyDph43nva4gLyDlv6vnhafpg73ku6Xov5nku73kuLrlh4bvvIzliqDlrZfmrrXlj6rmlLnov5nph4zkuIDlpITvvInjgIIgKi8KZXhwb3J0IGNvbnN0IENIQVRfRklORV9UVU5FX0tFWVMgPSBbCiAgICAnY2hhdEF2YXRhclZpc2liaWxpdHknLCAnY2hhdEF2YXRhckFsaWduJywgJ2NoYXRBdmF0YXJPZmZzZXRZJywKICAgICdjaGF0QnViYmxlRm9udFNpemUnLCAnY2hhdEJ1YmJsZUxpbmVIZWlnaHQnLCAnY2hhdEJ1YmJsZUluZGVudCcsICdjaGF0U25hcFRvRWRnZScsCiAgICAvLyBjaGF0TW9kdWxlQWxpZ24g5LiN55Sf5oiQIENTU++8iEhUTUwv5b+D6LGh5Y2h54mH5L2N572u57uPIE1lc3NhZ2VJdGVtIOW4g+WxgOWxnuaAp+eUn+aViO+8ie+8jAogICAgLy8g5L2G5ZCM5bGe5b6u6LCD5a2X5q6177ya5ZCI5bm2L+mHjee9ri/op5LoibLopobnm5Yv5aSH5Lu96YO96Lef6L+Z5Lu95riF5Y2V6LWw44CCCiAgICAnY2hhdE1vZHVsZUFsaWduJywKXSBhcyBjb25zdCBzYXRpc2ZpZXMgUmVhZG9ubHlBcnJheTxrZXlvZiBDaGF0RmluZVR1bmVGaWVsZHM+OwoKLyoqCiAqIOOAjOWFqOWxgOaJk+W6le+8jOinkuiJsuWPr+imhuebluOAjeeahOWQiOW5tuinhOWIme+8mgogKiAtIG92ZXJyaWRlIOe8uuecgeaIliBlbmFibGVkIOS4jeS4uiB0cnVlIOKGkiDljp/moLfov5Tlm57lhajlsYDlgLzvvIjop5LoibLlrozlhajot5/pmo/lhajlsYDvvInvvJsKICogLSBlbmFibGVkPXRydWUg4oaSIOW3suWumuS5ie+8iCE9PSB1bmRlZmluZWTvvInnmoTlrZfmrrXpgJDkuKropobnm5blhajlsYDvvIzmnKrlrprkuYnnmoTlrZfmrrXot5/pmo/lhajlsYDjgIIKICogICDms6jmhI/mmL7lvI8gMCAvICdib3RoJyAvIGZhbHNlIOS5n+eul+OAjOW3suWumuS5ieOAjeKAlOKAlOinkuiJsuWPr+S7peWAn+atpOaKiuafkOmhueWOi+Wbnum7mOiupO+8jAogKiAgIOWNs+S9v+WFqOWxgOiuvuS6huWIq+eahOWAvO+8iFVJIOeahOOAjOWbnum7mOiupOOAjeaMiemSruS+nei1lui/meS4gOeCue+8ieOAggogKiDov5Tlm57lgLzlj6rlkKvlvq7osIPlrZfmrrXnmoTmtYXmi7fotJ3vvIzlloLnu5kgYnVpbGRDaGF0RmluZVR1bmVDc3Mg5Y2z5Y+v44CCCiAqLwpleHBvcnQgZnVuY3Rpb24gbWVyZ2VDaGF0RmluZVR1bmUoZ2xvYmFsOiBDaGF0RmluZVR1bmVGaWVsZHMsIG92ZXJyaWRlPzogQ2hhdEZpbmVUdW5lT3ZlcnJpZGUgfCBudWxsKTogQ2hhdEZpbmVUdW5lRmllbGRzIHsKICAgIGNvbnN0IG1lcmdlZDogQ2hhdEZpbmVUdW5lRmllbGRzID0ge307CiAgICBmb3IgKGNvbnN0IGtleSBvZiBDSEFUX0ZJTkVfVFVORV9LRVlTKSB7CiAgICAgICAgY29uc3QgdmFsdWUgPSBvdmVycmlkZT8uZW5hYmxlZCA9PT0gdHJ1ZSAmJiBvdmVycmlkZVtrZXldICE9PSB1bmRlZmluZWQgPyBvdmVycmlkZVtrZXldIDogZ2xvYmFsW2tleV07CiAgICAgICAgaWYgKHZhbHVlICE9PSB1bmRlZmluZWQpIChtZXJnZWQgYXMgUmVjb3JkPHN0cmluZywgdW5rbm93bj4pW2tleV0gPSB2YWx1ZTsKICAgIH0KICAgIHJldHVybiBtZXJnZWQ7Cn0KCmNvbnN0IEFJX0FWQVRBUiA9ICcuc3VsbHktY2hhdC1yb290IC5ncm91cC5qdXN0aWZ5LXN0YXJ0ID4gW2NsYXNzfj0iYWJzb2x1dGUiXVtjbGFzc349InotMCJdJzsKY29uc3QgVVNFUl9BVkFUQVIgPSAnLnN1bGx5LWNoYXQtcm9vdCAuZ3JvdXAuanVzdGlmeS1lbmQgPiBbY2xhc3N+PSJhYnNvbHV0ZSJdW2NsYXNzfj0iei0wIl0nOwpjb25zdCBBSV9CT0RZID0gJy5zdWxseS1jaGF0LXJvb3QgLnN1bGx5LWJ1YmJsZS1haSA+IGRpdltjbGFzc349InNlbGVjdC10ZXh0Il0nOwpjb25zdCBVU0VSX0JPRFkgPSAnLnN1bGx5LWNoYXQtcm9vdCAuc3VsbHktYnViYmxlLXVzZXIgPiBkaXZbY2xhc3N+PSJzZWxlY3QtdGV4dCJdJzsKLy8g6LS06L65L+e8qei/m+WPquivpeWKqOaZrumAmuawlOazoe+8mkhUTUwg5Y2h54mH77yIMjgwcHgg5a6a5a695qih5Z2X77yM5YyF6KOF5bGC5bimIC5zdWxseS1odG1sLXdyYXDvvIkKLy8g55qE6buY6K6k5L2N572u5bCx5pivIuinhuinieWxheS4rSLnmoTnuqblrprvvIw6bm90KCkg57uV5byA6K6p5a6D5LiN6ZqP576O5YyW5oyq56qd44CCCmNvbnN0IEFJX1dSQVAgPSAnLnN1bGx5LWNoYXQtcm9vdCAuZ3JvdXAuanVzdGlmeS1zdGFydCBbY2xhc3N+PSJtYXgtdy1bNzIlXSJdLm1sLTEyOm5vdCguc3VsbHktaHRtbC13cmFwKSc7CmNvbnN0IFVTRVJfV1JBUCA9ICcuc3VsbHktY2hhdC1yb290IC5ncm91cC5qdXN0aWZ5LWVuZCBbY2xhc3N+PSJtYXgtdy1bNzIlXSJdLm1yLTEyOm5vdCguc3VsbHktaHRtbC13cmFwKSc7Ci8vIOW/g+ixoeWNoeeJh++8iOaAneiAg+mTvu+8jOS7hSBBSSDkvqfvvInkuI7msJTms6HlhbHnlKjljIXoo4XlsYLvvIw6bm90KCkg57uV5LiN5byA4oCU4oCU5YyF6KOF5bGC6KKr6LS06L65L+e8qei/m+aMquWKqOaXtgovLyDnu5nlroPkuIDkuKrlj43lkJEgbWFyZ2luIOaKtea2iO+8jOmSieWbnum7mOiupOS9jee9ru+8iG1sLTEyID0gNDhweO+8ie+8jOS4jiBIVE1MIOWNoeeJh+WQjOS4gCLmqKHlnZfkuI3mjKrnqp0i57qm5a6a44CCCmNvbnN0IEFJX1BTWUNIRSA9ICcuc3VsbHktY2hhdC1yb290IC5ncm91cC5qdXN0aWZ5LXN0YXJ0IC5zdWxseS1wc3ljaGUnOwpjb25zdCBERUZBVUxUX1dSQVBfTUFSR0lOID0gNDg7Cgpjb25zdCBoaWRlUnVsZSA9IChzZWw6IHN0cmluZykgPT4KICAgIGAke3NlbH0geyBkaXNwbGF5OiBub25lICFpbXBvcnRhbnQ7IHZpc2liaWxpdHk6IGhpZGRlbiAhaW1wb3J0YW50OyBvcGFjaXR5OiAwICFpbXBvcnRhbnQ7IHBvaW50ZXItZXZlbnRzOiBub25lICFpbXBvcnRhbnQ7IH1gOwoKZXhwb3J0IGZ1bmN0aW9uIGJ1aWxkQ2hhdEZpbmVUdW5lQ3NzKHRoZW1lOiBDaGF0RmluZVR1bmVGaWVsZHMpOiBzdHJpbmcgewogICAgY29uc3QgcnVsZXM6IHN0cmluZ1tdID0gW107CiAgICBjb25zdCB2aXMgPSB0aGVtZS5jaGF0QXZhdGFyVmlzaWJpbGl0eSB8fCAnYm90aCc7CiAgICBjb25zdCBoaWRlQWkgPSB2aXMgPT09ICdoaWRlX2FpJyB8fCB2aXMgPT09ICdoaWRlX2JvdGgnOwogICAgY29uc3QgaGlkZVVzZXIgPSB2aXMgPT09ICdoaWRlX3VzZXInIHx8IHZpcyA9PT0gJ2hpZGVfYm90aCc7CgogICAgLy8g4pSA4pSAIOmakOiXj+WktOWDjyDilIDilIAKICAgIGlmIChoaWRlQWkpIHJ1bGVzLnB1c2goaGlkZVJ1bGUoQUlfQVZBVEFSKSk7CiAgICBpZiAoaGlkZVVzZXIpIHJ1bGVzLnB1c2goaGlkZVJ1bGUoVVNFUl9BVkFUQVIpKTsKCiAgICAvLyDilIDilIAg6LS06L6577yI5Y+q5a+56ZqQ6JeP5LqG5aS05YOP55qE5LiA5L6n5pS25Zue56m65L2N77yJ4pSA4pSACiAgICBpZiAodGhlbWUuY2hhdFNuYXBUb0VkZ2UpIHsKICAgICAgICBpZiAoaGlkZUFpKSBydWxlcy5wdXNoKGAke0FJX1dSQVB9IHsgbWFyZ2luLWxlZnQ6IDAgIWltcG9ydGFudDsgfWApOwogICAgICAgIGlmIChoaWRlVXNlcikgcnVsZXMucHVzaChgJHtVU0VSX1dSQVB9IHsgbWFyZ2luLXJpZ2h0OiAwICFpbXBvcnRhbnQ7IH1gKTsKICAgIH0KCiAgICAvLyDilIDilIAg5aS05YOP5a+56b2QICsg5Z6C55u05b6u6LCDIOKUgOKUgAogICAgY29uc3QgYWxpZ24gPSB0aGVtZS5jaGF0QXZhdGFyQWxpZ24gfHwgJ2JvdHRvbSc7CiAgICBjb25zdCBvZmZZID0gdGhlbWUuY2hhdEF2YXRhck9mZnNldFkgfHwgMDsKICAgIGlmIChhbGlnbiAhPT0gJ2JvdHRvbScgfHwgb2ZmWSAhPT0gMCkgewogICAgICAgIGNvbnN0IGJvdGggPSBgJHtBSV9BVkFUQVJ9LCAke1VTRVJfQVZBVEFSfWA7CiAgICAgICAgaWYgKGFsaWduID09PSAndG9wJykgewogICAgICAgICAgICBydWxlcy5wdXNoKGAke2JvdGh9IHsgYm90dG9tOiBhdXRvICFpbXBvcnRhbnQ7IHRvcDogLTAuNXJlbSAhaW1wb3J0YW50OyR7b2ZmWSA/IGAgdHJhbnNmb3JtOiB0cmFuc2xhdGVZKCR7b2ZmWX1weCkgIWltcG9ydGFudDtgIDogJyd9IH1gKTsKICAgICAgICB9IGVsc2UgaWYgKGFsaWduID09PSAnY2VudGVyJykgewogICAgICAgICAgICBydWxlcy5wdXNoKGAke2JvdGh9IHsgYm90dG9tOiBhdXRvICFpbXBvcnRhbnQ7IHRvcDogNTAlICFpbXBvcnRhbnQ7IHRyYW5zZm9ybTogdHJhbnNsYXRlWShjYWxjKC01MCUgKyAke29mZll9cHgpKSAhaW1wb3J0YW50OyB9YCk7CiAgICAgICAgfSBlbHNlIHsKICAgICAgICAgICAgcnVsZXMucHVzaChgJHtib3RofSB7IHRyYW5zZm9ybTogdHJhbnNsYXRlWSgke29mZll9cHgpICFpbXBvcnRhbnQ7IH1gKTsKICAgICAgICB9CiAgICB9CgogICAgLy8g4pSA4pSAIOawlOazoeS4juWktOWDj+S+p+eahOmXtOi3ne+8iOi0tOi+ueS+p+S4jemHjeWkjeiuvue9ru+8jOi0tOi+ueS8mOWFiO+8ieKUgOKUgAogICAgY29uc3QgaW5kZW50ID0gdGhlbWUuY2hhdEJ1YmJsZUluZGVudCB8fCAwOwogICAgaWYgKGluZGVudCA+IDApIHsKICAgICAgICBpZiAoISh0aGVtZS5jaGF0U25hcFRvRWRnZSAmJiBoaWRlQWkpKSBydWxlcy5wdXNoKGAke0FJX1dSQVB9IHsgbWFyZ2luLWxlZnQ6ICR7aW5kZW50fXB4ICFpbXBvcnRhbnQ7IH1gKTsKICAgICAgICBpZiAoISh0aGVtZS5jaGF0U25hcFRvRWRnZSAmJiBoaWRlVXNlcikpIHJ1bGVzLnB1c2goYCR7VVNFUl9XUkFQfSB7IG1hcmdpbi1yaWdodDogJHtpbmRlbnR9cHggIWltcG9ydGFudDsgfWApOwogICAgfQoKICAgIC8vIOKUgOKUgCDlv4PosaHljaHniYfpkonlm57pu5jorqTkvY3nva4g4pSA4pSACiAgICAvLyBBSSDkvqfljIXoo4XlsYLooqvmjKrliqjlpJrlsJHvvIzlsLHnu5nlv4PosaHlj43lkJHooaXlpJrlsJHvvJrotLTovrnml7bljIXoo4XlsYIgNDjihpIw77yI6KGlIDQ4cHjvvInvvIwKICAgIC8vIOe8qei/m+aXtiA0OOKGkmluZGVudO+8iOihpSA0OC1pbmRlbnTvvIzlj6/kuLrotJ/vvInjgILljIXoo4XlsYLmsqHliqjlsLHkuI3lh7rop4TliJnjgIIKICAgIGlmICh0aGVtZS5jaGF0U25hcFRvRWRnZSAmJiBoaWRlQWkpIHsKICAgICAgICBydWxlcy5wdXNoKGAke0FJX1BTWUNIRX0geyBtYXJnaW4tbGVmdDogJHtERUZBVUxUX1dSQVBfTUFSR0lOfXB4ICFpbXBvcnRhbnQ7IH1gKTsKICAgIH0gZWxzZSBpZiAoaW5kZW50ID4gMCkgewogICAgICAgIHJ1bGVzLnB1c2goYCR7QUlfUFNZQ0hFfSB7IG1hcmdpbi1sZWZ0OiAke0RFRkFVTFRfV1JBUF9NQVJHSU4gLSBpbmRlbnR9cHggIWltcG9ydGFudDsgfWApOwogICAgfQoKICAgIC8vIOKUgOKUgCDmraPmloflrZflj7cgLyDooYzot53vvIjmsr/nlKjnpL7ljLrniYjnmoTlm5vlsYLpgInmi6nlmajvvJrlrrnlmagv5YaF5bGC6KGML+WGheiBlOe7p+aJvy/lvJXnlKjooYzvvInilIDilIAKICAgIGNvbnN0IGZzID0gdGhlbWUuY2hhdEJ1YmJsZUZvbnRTaXplIHx8IDA7CiAgICBjb25zdCBsaCA9IHRoZW1lLmNoYXRCdWJibGVMaW5lSGVpZ2h0IHx8IDA7CiAgICBpZiAoZnMgPiAwIHx8IGxoID4gMCkgewogICAgICAgIGNvbnN0IGRlY2wgPSBgJHtmcyA+IDAgPyBgIGZvbnQtc2l6ZTogJHtmc31weCAhaW1wb3J0YW50O2AgOiAnJ30ke2xoID4gMCA/IGAgbGluZS1oZWlnaHQ6ICR7bGh9ICFpbXBvcnRhbnQ7YCA6ICcnfWA7CiAgICAgICAgY29uc3QgaW5oZXJpdERlY2wgPSBgJHtmcyA+IDAgPyAnIGZvbnQtc2l6ZTogaW5oZXJpdCAhaW1wb3J0YW50OycgOiAnJ30ke2xoID4gMCA/ICcgbGluZS1oZWlnaHQ6IGluaGVyaXQgIWltcG9ydGFudDsnIDogJyd9YDsKICAgICAgICBydWxlcy5wdXNoKGAke0FJX0JPRFl9LCAke1VTRVJfQk9EWX0geyR7ZGVjbH0gfWApOwogICAgICAgIHJ1bGVzLnB1c2goYCR7QUlfQk9EWX0gZGl2LCAke1VTRVJfQk9EWX0gZGl2IHske2RlY2x9IH1gKTsKICAgICAgICBydWxlcy5wdXNoKGAke0FJX0JPRFl9IHN0cm9uZywgJHtBSV9CT0RZfSBlbSwgJHtBSV9CT0RZfSBzcGFuLCAke1VTRVJfQk9EWX0gc3Ryb25nLCAke1VTRVJfQk9EWX0gZW0sICR7VVNFUl9CT0RZfSBzcGFuIHske2luaGVyaXREZWNsfSB9YCk7CiAgICAgICAgcnVsZXMucHVzaChgJHtBSV9CT0RZfSBbY2xhc3MqPSJ0ZXh0LVsxM3B4XSJdLCAke1VTRVJfQk9EWX0gW2NsYXNzKj0idGV4dC1bMTNweF0iXSB7JHtkZWNsfSB9YCk7CiAgICB9CgogICAgcmV0dXJuIHJ1bGVzLmxlbmd0aCA/IGAvKiDogYrlpKnnu4boioLlvq7osIPvvIjlpJbop4IgQXBwIOeUn+aIkO+8jOeUqOaIt+iHquWumuS5iSBDU1Mg5Y+v6KaG55uW77yJICovXG4ke3J1bGVzLmpvaW4oJ1xuJyl9YCA6ICcnOwp9Cg==
+/**
+ * 聊天细节微调 CSS 生成器（外观 → 聊天细节）。
+ *
+ * 收编自社区作者「毛豆腐和面机」（DC）的「神秘拼好码」美化 CSS（致谢见 README 鸣谢）：
+ * 隐藏头像、头像对齐/微调、消息贴边、气泡缩进、正文字号/行距。
+ * 选择器沿用她的版本已在真实 DOM 上验证过的形态
+ * （锚 .group.justify-* 与 .sully-bubble-* 结构），生成规则带 !important
+ * 以压过 Tailwind 工具类。
+ *
+ * 注入位置：Chat.tsx 在用户自定义白框 CSS（chatChromeCustomCss / 角色
+ * chromeCustomCss）**之前**插入本样式——同为 !important 时后者胜，老用户
+ * 手写的美化代码永远能覆盖这里的可视化设置，互不打架。
+ *
+ * 全部字段缺省时返回空串（一个 <style> 都不注入，现状零变化）。
+ */
+
+import type { ChatFineTuneFields, ChatFineTuneOverride } from '../types';
+
+/** 微调字段清单（合并 / 重置 / 快照都以这份为准，加字段只改这里一处）。 */
+export const CHAT_FINE_TUNE_KEYS = [
+    'chatAvatarVisibility', 'chatAvatarAlign', 'chatAvatarOffsetY',
+    'chatBubbleFontSize', 'chatBubbleLineHeight', 'chatBubbleIndent', 'chatSnapToEdge',
+    // chatModuleAlign 不生成 CSS（HTML/心象卡片位置经 MessageItem 布局属性生效），
+    // 但同属微调字段：合并/重置/角色覆盖/备份都跟这份清单走。
+    'chatModuleAlign',
+] as const satisfies ReadonlyArray<keyof ChatFineTuneFields>;
+
+/**
+ * 「全局打底，角色可覆盖」的合并规则：
+ * - override 缺省或 enabled 不为 true → 原样返回全局值（角色完全跟随全局）；
+ * - enabled=true → 已定义（!== undefined）的字段逐个覆盖全局，未定义的字段跟随全局。
+ *   注意显式 0 / 'both' / false 也算「已定义」——角色可以借此把某项压回默认，
+ *   即使全局设了别的值（UI 的「回默认」按钮依赖这一点）。
+ * 返回值只含微调字段的浅拷贝，喂给 buildChatFineTuneCss 即可。
+ */
+export function mergeChatFineTune(global: ChatFineTuneFields, override?: ChatFineTuneOverride | null): ChatFineTuneFields {
+    const merged: ChatFineTuneFields = {};
+    for (const key of CHAT_FINE_TUNE_KEYS) {
+        const value = override?.enabled === true && override[key] !== undefined ? override[key] : global[key];
+        if (value !== undefined) (merged as Record<string, unknown>)[key] = value;
+    }
+    return merged;
+}
+
+const AI_AVATAR = '.sully-chat-root .group.justify-start > [class~="absolute"][class~="z-0"]';
+const USER_AVATAR = '.sully-chat-root .group.justify-end > [class~="absolute"][class~="z-0"]';
+const AI_BODY = '.sully-chat-root .sully-bubble-ai > div[class~="select-text"]';
+const USER_BODY = '.sully-chat-root .sully-bubble-user > div[class~="select-text"]';
+// 贴边/缩进只该动普通气泡：HTML 卡片（280px 定宽模块，包装层带 .sully-html-wrap）
+// 的默认位置就是"视觉居中"的约定，:not() 绕开让它不随美化挪窝。
+const AI_WRAP = '.sully-chat-root .group.justify-start [class~="max-w-[72%]"].ml-12:not(.sully-html-wrap)';
+const USER_WRAP = '.sully-chat-root .group.justify-end [class~="max-w-[72%]"].mr-12:not(.sully-html-wrap)';
+// 心象卡片（思考链，仅 AI 侧）与气泡共用包装层，:not() 绕不开——包装层被贴边/缩进挪动时
+// 给它一个反向 margin 抵消，钉回默认位置（ml-12 = 48px），与 HTML 卡片同一"模块不挪窝"约定。
+const AI_PSYCHE = '.sully-chat-root .group.justify-start .sully-psyche';
+const DEFAULT_WRAP_MARGIN = 48;
+
+const hideRule = (sel: string) =>
+    `${sel} { display: none !important; visibility: hidden !important; opacity: 0 !important; pointer-events: none !important; }`;
+
+export function buildChatFineTuneCss(theme: ChatFineTuneFields): string {
+    const rules: string[] = [];
+    const vis = theme.chatAvatarVisibility || 'both';
+    const hideAi = vis === 'hide_ai' || vis === 'hide_both';
+    const hideUser = vis === 'hide_user' || vis === 'hide_both';
+
+    // ── 隐藏头像 ──
+    if (hideAi) rules.push(hideRule(AI_AVATAR));
+    if (hideUser) rules.push(hideRule(USER_AVATAR));
+
+    // ── 贴边（只对隐藏了头像的一侧收回空位）──
+    if (theme.chatSnapToEdge) {
+        if (hideAi) rules.push(`${AI_WRAP} { margin-left: 0 !important; }`);
+        if (hideUser) rules.push(`${USER_WRAP} { margin-right: 0 !important; }`);
+    }
+
+    // ── 头像对齐 + 垂直微调 ──
+    const align = theme.chatAvatarAlign || 'bottom';
+    const offY = theme.chatAvatarOffsetY || 0;
+    if (align !== 'bottom' || offY !== 0) {
+        const both = `${AI_AVATAR}, ${USER_AVATAR}`;
+        if (align === 'top') {
+            rules.push(`${both} { bottom: auto !important; top: -0.5rem !important;${offY ? ` transform: translateY(${offY}px) !important;` : ''} }`);
+        } else if (align === 'center') {
+            rules.push(`${both} { bottom: auto !important; top: 50% !important; transform: translateY(calc(-50% + ${offY}px)) !important; }`);
+        } else {
+            rules.push(`${both} { transform: translateY(${offY}px) !important; }`);
+        }
+    }
+
+    // ── 气泡与头像侧的间距（贴边侧不重复设置，贴边优先）──
+    const indent = theme.chatBubbleIndent || 0;
+    if (indent > 0) {
+        if (!(theme.chatSnapToEdge && hideAi)) rules.push(`${AI_WRAP} { margin-left: ${indent}px !important; }`);
+        if (!(theme.chatSnapToEdge && hideUser)) rules.push(`${USER_WRAP} { margin-right: ${indent}px !important; }`);
+    }
+
+    // ── 心象卡片钉回默认位置 ──
+    // AI 侧包装层被挪动多少，就给心象反向补多少：贴边时包装层 48→0（补 48px），
+    // 缩进时 48→indent（补 48-indent，可为负）。包装层没动就不出规则。
+    if (theme.chatSnapToEdge && hideAi) {
+        rules.push(`${AI_PSYCHE} { margin-left: ${DEFAULT_WRAP_MARGIN}px !important; }`);
+    } else if (indent > 0) {
+        rules.push(`${AI_PSYCHE} { margin-left: ${DEFAULT_WRAP_MARGIN - indent}px !important; }`);
+    }
+
+    // ── 正文字号 / 行距（沿用社区版的四层选择器：容器/内层行/内联继承/引用行）──
+    const fs = theme.chatBubbleFontSize || 0;
+    const lh = theme.chatBubbleLineHeight || 0;
+    if (fs > 0 || lh > 0) {
+        const decl = `${fs > 0 ? ` font-size: ${fs}px !important;` : ''}${lh > 0 ? ` line-height: ${lh} !important;` : ''}`;
+        const inheritDecl = `${fs > 0 ? ' font-size: inherit !important;' : ''}${lh > 0 ? ' line-height: inherit !important;' : ''}`;
+        rules.push(`${AI_BODY}, ${USER_BODY} {${decl} }`);
+        rules.push(`${AI_BODY} div, ${USER_BODY} div {${decl} }`);
+        rules.push(`${AI_BODY} strong, ${AI_BODY} em, ${AI_BODY} span, ${USER_BODY} strong, ${USER_BODY} em, ${USER_BODY} span {${inheritDecl} }`);
+        rules.push(`${AI_BODY} [class*="text-[13px]"], ${USER_BODY} [class*="text-[13px]"] {${decl} }`);
+    }
+
+    return rules.length ? `/* 聊天细节微调（外观 App 生成，用户自定义 CSS 可覆盖） */\n${rules.join('\n')}` : '';
+}

@@ -1,1 +1,154 @@
-Ly8g576k6IGKIExMTSDovpPlh7rop6PmnpAg4oCU4oCUIOS4pOWxguWuuemUme+8iOWutuinhO+8muS4peagvOWxguWksei0peWQjui/m+WuveadvuWxgu+8jOe7neS4jemdmem7mOS4ouaVtOi9rui+k+WHuu+8ieOAggovLyDnuq/lh73mlbDjgIHml6Dlia/kvZznlKjvvIzkvr/kuo4gdml0ZXN0IOebtOa1i+OAggoKZXhwb3J0IGludGVyZmFjZSBEaXJlY3RvckFjdGlvbiB7CiAgICBjaGFySWQ6IHN0cmluZzsKICAgIGNvbnRlbnQ6IHN0cmluZzsKfQoKLyoqIOWJpeaOiSBtYXJrZG93biDku6PnoIHlm7TmoI/vvIhgYGBqc29uIC8gYGBgeWFtbCAvIGBgYCDnrYnvvInvvIxMTE0g5b6I54ix6KO56L+Z5LiqICovCmNvbnN0IHN0cmlwRmVuY2VzID0gKHJhdzogc3RyaW5nKTogc3RyaW5nID0+CiAgICBTdHJpbmcocmF3ID8/ICcnKQogICAgICAgIC5yZXBsYWNlKC9gYGBbYS16QS1aXSpccj9cbj8vZywgJycpCiAgICAgICAgLnJlcGxhY2UoL2BgYC9nLCAnJykKICAgICAgICAudHJpbSgpOwoKLyoqIOmAkOWtl+auteinhOaVtOWvvOa8lOWKqOS9nO+8mmNoYXJJZCDlvLrovawgc3RyaW5n77yMY29udGVudCDpnZ4gc3RyaW5nIOaXtuWFnOW6lei9rOaNou+8jOepuueahOS4ouW8gyAqLwpjb25zdCBub3JtYWxpemVBY3Rpb24gPSAoYTogYW55KTogRGlyZWN0b3JBY3Rpb24gfCBudWxsID0+IHsKICAgIGlmICghYSB8fCB0eXBlb2YgYSAhPT0gJ29iamVjdCcpIHJldHVybiBudWxsOwogICAgY29uc3QgY2hhcklkID0gYS5jaGFySWQgPT0gbnVsbCA/ICcnIDogU3RyaW5nKGEuY2hhcklkKS50cmltKCk7CiAgICBjb25zdCBjb250ZW50ID0gKHR5cGVvZiBhLmNvbnRlbnQgPT09ICdzdHJpbmcnID8gYS5jb250ZW50IDogU3RyaW5nKGEuY29udGVudCA/PyAnJykpLnRyaW0oKTsKICAgIGlmICghY2hhcklkIHx8ICFjb250ZW50KSByZXR1cm4gbnVsbDsKICAgIHJldHVybiB7IGNoYXJJZCwgY29udGVudCB9Owp9OwoKLyoqCiAqIOino+aekOWvvOa8lOaooeW8j+i+k+WHuueahCBKU09OIOWKqOS9nOaVsOe7hOOAggogKiDnrKzkuIDlsYLvvIjkuKXmoLzvvInvvJrliaXlm7TmoI8g4oaSIOaIquWPluacgOWkluWxgiBbIC4uLiBdIOKGkiBKU09OLnBhcnNlIOaVtOS9k+OAggogKiDnrKzkuozlsYLvvIjlrr3mnb7vvInvvJrmraPliJnpgJDkuKrmiqDlh7rlkKsgImNoYXJJZCIg55qE5a+56LGh6YCQ5LiqIHBhcnNl77yM6IO95pWR5LiA5Liq5piv5LiA5Liq44CCCiAqIOS4pOWxgueahuepuuaXtui/lOWbniBbXe+8jOeUseiwg+eUqOaWueWGs+WumuaYr+WQpuaPkOekuueUqOaIt+OAggogKi8KZXhwb3J0IGZ1bmN0aW9uIHBhcnNlRGlyZWN0b3JBY3Rpb25zKHJhdzogc3RyaW5nKTogRGlyZWN0b3JBY3Rpb25bXSB7CiAgICBjb25zdCB0ZXh0ID0gc3RyaXBGZW5jZXMocmF3KTsKICAgIGlmICghdGV4dCkgcmV0dXJuIFtdOwoKICAgIGNvbnN0IGZpcnN0ID0gdGV4dC5pbmRleE9mKCdbJyk7CiAgICBjb25zdCBsYXN0ID0gdGV4dC5sYXN0SW5kZXhPZignXScpOwogICAgaWYgKGZpcnN0ICE9PSAtMSAmJiBsYXN0ID4gZmlyc3QpIHsKICAgICAgICB0cnkgewogICAgICAgICAgICBjb25zdCBhcnIgPSBKU09OLnBhcnNlKHRleHQuc3Vic3RyaW5nKGZpcnN0LCBsYXN0ICsgMSkpOwogICAgICAgICAgICBpZiAoQXJyYXkuaXNBcnJheShhcnIpKSB7CiAgICAgICAgICAgICAgICBjb25zdCBub3JtYWxpemVkID0gYXJyLm1hcChub3JtYWxpemVBY3Rpb24pLmZpbHRlcigoYSk6IGEgaXMgRGlyZWN0b3JBY3Rpb24gPT4gYSAhPT0gbnVsbCk7CiAgICAgICAgICAgICAgICBpZiAobm9ybWFsaXplZC5sZW5ndGggPiAwKSByZXR1cm4gbm9ybWFsaXplZDsKICAgICAgICAgICAgfQogICAgICAgIH0gY2F0Y2ggeyAvKiDmjonov5vnrKzkuozlsYIgKi8gfQogICAgfQoKICAgIGNvbnN0IG9iak1hdGNoZXMgPSB0ZXh0Lm1hdGNoKC9ce1tee31dKj9bIiddY2hhcklkWyInXVtcc1xTXSo/XH0vZykgfHwgW107CiAgICBjb25zdCByZXNjdWVkOiBEaXJlY3RvckFjdGlvbltdID0gW107CiAgICBmb3IgKGNvbnN0IG0gb2Ygb2JqTWF0Y2hlcykgewogICAgICAgIHRyeSB7CiAgICAgICAgICAgIGNvbnN0IGFjdGlvbiA9IG5vcm1hbGl6ZUFjdGlvbihKU09OLnBhcnNlKG0pKTsKICAgICAgICAgICAgaWYgKGFjdGlvbikgcmVzY3VlZC5wdXNoKGFjdGlvbik7CiAgICAgICAgfSBjYXRjaCB7IC8qIOi/meS4quWvueixoeWdj+S6hu+8jOi3s+i/h+Wug+aVkeWIq+eahCAqLyB9CiAgICB9CiAgICByZXR1cm4gcmVzY3VlZDsKfQoKLyoqCiAqIFtbU0tJUF1dIOi+k+WHuuWJpeemu+WFnOW6le+8iOaPkOekuuivjeW3suS4jeWGjeaVmei/meS4quagh+iusOKAlOKAlOi9ruivouaooeW8j+eOsOWcqOimgeaxguavj+S9jeaIkOWRmOW/heWPkeiogO+8ie+8mgogKiDmqKHlnovoi6Xku43lkJDlh7ogW1tTS0lQXV0g5oiW56m65YaF5a6577yM5Yml5YeA5ZCO5rKh5Ymp5q2j5paHID0g5pys6L2u6Lez6L+H6K+l5oiQ5ZGY44CCCiAqLwpleHBvcnQgZnVuY3Rpb24gc3RyaXBTa2lwTWFya2VyKHJhdzogc3RyaW5nKTogeyBza2lwcGVkOiBib29sZWFuOyBjb250ZW50OiBzdHJpbmcgfSB7CiAgICBjb25zdCBjb250ZW50ID0gc3RyaXBGZW5jZXMocmF3KS5yZXBsYWNlKC9cW1xbXHMqU0tJUFxzKlxdXF0vZ2ksICcnKS50cmltKCk7CiAgICByZXR1cm4geyBza2lwcGVkOiBjb250ZW50ID09PSAnJywgY29udGVudCB9Owp9CgpleHBvcnQgaW50ZXJmYWNlIEdyb3VwVG9waWNCb3hQYXJzZWQgewogICAgdGl0bGU6IHN0cmluZzsKICAgIHN1bW1hcnk6IHN0cmluZzsKfQoKLyoqCiAqIOino+aekOOAjOe+pOWFrOWFseivnemimOebkuOAjeaAu+e7k+i+k+WHuu+8muaPkOekuuivjeimgeaxguaooeWei+WPquWQkCB7InRpdGxlIiwic3VtbWFyeSJ9IOeahCBKU09O77yMCiAqIOS9huWunumZhei/lOWbnuW4uOW4uOaOieagvOW8j++8iHN1bW1hcnkg6YeM5bim6KO45o2i6KGMIC8g5pyq6L2s5LmJ5byV5Y+344CB5aSW6Z2i6KO55LiA5bGCIGBgYGpzb27jgIEKICog5o6o55CG5qih5Z6L5YWI5p2l5LiA5q61IDx0aGluaz7igKY8L3RoaW5rPu+8ieOAguaXp+eJiCBwYXJzZVRvcGljQm94UmVzcG9uc2Ug5Y+q5YGa5Lil5qC8IEpTT04ucGFyc2XvvIwKICog5LiA5pemIHBhcnNlIOWksei0peWwseaVtOi9ruaKpeOAjOaAu+e7k+agvOW8j+aXoOazleino+aekOOAjeW5tuaKm+mUmeKAlOKAlOiAjOi/meS8muiuqQogKiBhcmNoaXZlZFRocm91Z2hNZXNzYWdlSWQg5rC46L+c5o6o6L+b5LiN5LqG77yM54Ot5Yy65Lul5YmN55qE5raI5oGv6LaK5aCG6LaK5aSa77yI55So5oi35a6e5rWL5Y2h5YiwIDY0OSDmnaHvvInvvIwKICog5b2S5qGj6Zif5YiX6KKr5LiA5p2h5Z2P6L6T5Ye65rC45LmF5aC15q2744CC6L+Z6YeM5oyJ5a626KeE5YGa5LiJ5bGC5a656ZSZ77yM5a6B5Y+v57uZ5Liq57KX57OZ5oC757uT5Lmf57ud5LiN5Y2h5L2P6Zif5YiX44CCCiAqCiAqIOesrOS4gOWxgu+8iOS4peagvO+8ie+8muWJpeWbtOagjyAvIDx0aGluaz4g5ZCO77yM5pW05L2TIG9yIOacgOWkluWxgiB74oCmfSDnm7TmjqUgSlNPTi5wYXJzZeOAggogKiDnrKzkuozlsYLvvIjlrr3mnb7vvInvvJpKU09OIOWdj+WcqOWtl+espuS4sumHjOeahOijuOaNouihjOKAlOKAlOebtOaOpeato+WImeaKoCB0aXRsZSAvIHN1bW1hcnkg5a2X5q615YC877yI5YWB6K645ZCr5o2i6KGM77yJ44CCCiAqIOesrOS4ieWxgu+8iOWFnOW6le+8ie+8muaooeWei+WOi+agueayoee7mee7k+aehO+8jOWPquimgeacieWunui0qOaWh+acrO+8jOaVtOauteW9kyBzdW1tYXJ5IOeUqO+8iOaIquaWremYsui2hemVv++8ieOAggogKiDkuInlsYLnmobnqbrov5Tlm54gbnVsbO+8jOeUseiwg+eUqOaWueWGs+WumuaYr+WQpuaPkOekuueUqOaIt+OAggogKi8KZXhwb3J0IGZ1bmN0aW9uIHBhcnNlR3JvdXBUb3BpY0JveChyYXc6IHN0cmluZyk6IEdyb3VwVG9waWNCb3hQYXJzZWQgfCBudWxsIHsKICAgIGNvbnN0IHRleHQgPSBTdHJpbmcocmF3ID8/ICcnKQogICAgICAgIC5yZXBsYWNlKC88dGhpbms+W1xzXFNdKj88XC90aGluaz4vZ2ksICcnKSAvLyDmjqjnkIbmqKHlnovnmoTmgJ3ogIPlnZfvvIzkvJrmioogSlNPTiDlhrLlnq4KICAgICAgICAucmVwbGFjZSgvYGBgW2EtekEtWl0qXHI/XG4/L2csICcnKQogICAgICAgIC5yZXBsYWNlKC9gYGAvZywgJycpCiAgICAgICAgLnRyaW0oKTsKICAgIGlmICghdGV4dCkgcmV0dXJuIG51bGw7CgogICAgY29uc3QgZnJvbU9iaiA9IChwOiBhbnkpOiBHcm91cFRvcGljQm94UGFyc2VkIHwgbnVsbCA9PiB7CiAgICAgICAgaWYgKCFwIHx8IHR5cGVvZiBwICE9PSAnb2JqZWN0JykgcmV0dXJuIG51bGw7CiAgICAgICAgY29uc3Qgc3VtbWFyeSA9IHAuc3VtbWFyeSA9PSBudWxsID8gJycgOiBTdHJpbmcocC5zdW1tYXJ5KS50cmltKCk7CiAgICAgICAgaWYgKCFzdW1tYXJ5KSByZXR1cm4gbnVsbDsKICAgICAgICBjb25zdCB0aXRsZSA9IHAudGl0bGUgPT0gbnVsbCA/ICcnIDogU3RyaW5nKHAudGl0bGUpLnRyaW0oKTsKICAgICAgICByZXR1cm4geyB0aXRsZTogdGl0bGUgfHwgJ+S4gOautee+pOiBiuWbnuW/hicsIHN1bW1hcnkgfTsKICAgIH07CgogICAgLy8g56ys5LiA5bGC77ya5pW05L2TIEpTT07vvIzmiJbmiKrlj5bmnIDlpJblsYIge+KApn0g5YaNIHBhcnNlCiAgICB0cnkgewogICAgICAgIGNvbnN0IGhpdCA9IGZyb21PYmooSlNPTi5wYXJzZSh0ZXh0KSk7CiAgICAgICAgaWYgKGhpdCkgcmV0dXJuIGhpdDsKICAgIH0gY2F0Y2ggeyAvKiDmjonov5vkuIvkuIDlsYIgKi8gfQogICAgY29uc3QgYnJhY2VTdGFydCA9IHRleHQuaW5kZXhPZigneycpOwogICAgY29uc3QgYnJhY2VFbmQgPSB0ZXh0Lmxhc3RJbmRleE9mKCd9Jyk7CiAgICBpZiAoYnJhY2VTdGFydCAhPT0gLTEgJiYgYnJhY2VFbmQgPiBicmFjZVN0YXJ0KSB7CiAgICAgICAgdHJ5IHsKICAgICAgICAgICAgY29uc3QgaGl0ID0gZnJvbU9iaihKU09OLnBhcnNlKHRleHQuc2xpY2UoYnJhY2VTdGFydCwgYnJhY2VFbmQgKyAxKSkpOwogICAgICAgICAgICBpZiAoaGl0KSByZXR1cm4gaGl0OwogICAgICAgIH0gY2F0Y2ggeyAvKiDmjonov5vkuIvkuIDlsYIgKi8gfQogICAgfQoKICAgIC8vIOesrOS6jOWxgu+8mkpTT04g57uT5p6E5Z2P5LqG77yM55u05o6l5oqg5a2X5q615YC877yIW1xzXFNdIOWuueW/jeWAvOmHjOeahOijuOaNouihjO+8ieOAggogICAgLy8gc3VtbWFyeSDmiqDliLDpl63lkIjlvJXlj7flkI7ntKfot5/nmoQgLCAvIH0gLyDmlofmnKvkuLrmraLjgIIKICAgIGNvbnN0IHN1bW1hcnlNYXRjaCA9IHRleHQubWF0Y2goL1siJ10/c3VtbWFyeVsiJ10/XHMqWzrvvJpdXHMqWyInXShbXHNcU10qPylbIiddXHMqKD86WyzvvIx9XXwkKS9pKTsKICAgIGlmIChzdW1tYXJ5TWF0Y2ggJiYgc3VtbWFyeU1hdGNoWzFdLnRyaW0oKSkgewogICAgICAgIGNvbnN0IHRpdGxlTWF0Y2ggPSB0ZXh0Lm1hdGNoKC9bIiddP3RpdGxlWyInXT9ccypbOu+8ml1ccypbIiddKFtcc1xTXSo/KVsiJ11ccyooPzpbLO+8jH1dfCQpL2kpOwogICAgICAgIHJldHVybiB7CiAgICAgICAgICAgIHRpdGxlOiAodGl0bGVNYXRjaD8uWzFdIHx8ICcnKS50cmltKCkgfHwgJ+S4gOautee+pOiBiuWbnuW/hicsCiAgICAgICAgICAgIHN1bW1hcnk6IHN1bW1hcnlNYXRjaFsxXS50cmltKCksCiAgICAgICAgfTsKICAgIH0KCiAgICAvLyDnrKzkuInlsYLvvJrlrozlhajmsqHnu5PmnoTvvIzkvYbmnInlrp7otKjmlofmnKzigJTigJTmlbTmrrXlvZPmgLvnu5PnlKjvvIzlpb3ov4fmsLjkuYXljaHmrbvlvZLmoaPpmJ/liJcKICAgIGNvbnN0IHBsYWluID0gdGV4dC5yZXBsYWNlKC9eW3tbXSsvLCAnJykucmVwbGFjZSgvW31cXV0rJC8sICcnKS50cmltKCk7CiAgICBpZiAocGxhaW4ubGVuZ3RoID49IDEwKSB7CiAgICAgICAgcmV0dXJuIHsgdGl0bGU6ICfkuIDmrrXnvqTogYrlm57lv4YnLCBzdW1tYXJ5OiBwbGFpbi5sZW5ndGggPiA4MDAgPyBgJHtwbGFpbi5zbGljZSgwLCA4MDApfeKApmAgOiBwbGFpbiB9OwogICAgfQogICAgcmV0dXJuIG51bGw7Cn0KCi8qKgogKiDop6PmnpDnvqTmgLvnu5PovpPlh7rph4znmoQgc3VtbWFyeSDlrZfmrrXjgIIKICog56ys5LiA5bGC77yI5Lil5qC877yJ77ya5Yml5Zu05qCP5ZCO5Yy56YWNIGBzdW1tYXJ5OmAgKyDlvJXlj7fpl63lkIjphY3lr7nvvIjmiJboo7jlgLzlj5bliLDmlofmnKvvvInjgIIKICog56ys5LqM5bGC77yI5a695p2+77yJ77ya5YmlIGBzdW1tYXJ5OmAg5YmN57yA44CB5Yml6aaW5bC+5byV5Y+377yM5Y+W5YWo5paHIHRyaW3igJTigJQKICog5qih5Z6L5rKh5oyJIFlBTUwg6L6T5Ye65pe277yM5pW05q615bCx5b2T5oC757uT5q2j5paH55So44CCCiAqLwpleHBvcnQgZnVuY3Rpb24gcGFyc2VTdW1tYXJ5WWFtbChyYXc6IHN0cmluZyk6IHN0cmluZyB7CiAgICBjb25zdCB0ZXh0ID0gc3RyaXBGZW5jZXMocmF3KTsKICAgIGlmICghdGV4dCkgcmV0dXJuICcnOwoKICAgIGNvbnN0IHF1b3RlZCA9IHRleHQubWF0Y2goLyg/Ol58XG4pXHMqc3VtbWFyeVxzKls677yaXVxzKihbIiddKShbXHNcU10qPylcMVxzKig/OlxufCQpL2kpOwogICAgaWYgKHF1b3RlZCAmJiBxdW90ZWRbMl0udHJpbSgpKSByZXR1cm4gcXVvdGVkWzJdLnRyaW0oKTsKCiAgICBjb25zdCBiYXJlID0gdGV4dC5tYXRjaCgvKD86XnxcbilccypzdW1tYXJ5XHMqWzrvvJpdXHMqKFtcc1xTXSspJC9pKTsKICAgIGNvbnN0IGNhbmRpZGF0ZSA9IGJhcmUgPyBiYXJlWzFdIDogdGV4dDsKICAgIHJldHVybiBjYW5kaWRhdGUKICAgICAgICAucmVwbGFjZSgvXnN1bW1hcnlccypbOu+8ml1ccyovaSwgJycpCiAgICAgICAgLnRyaW0oKQogICAgICAgIC5yZXBsYWNlKC9eWyIn4oCc4oCdXSt8WyIn4oCc4oCdXSskL2csICcnKQogICAgICAgIC50cmltKCk7Cn0K
+// 群聊 LLM 输出解析 —— 两层容错（家规：严格层失败后进宽松层，绝不静默丢整轮输出）。
+// 纯函数、无副作用，便于 vitest 直测。
+
+export interface DirectorAction {
+    charId: string;
+    content: string;
+}
+
+/** 剥掉 markdown 代码围栏（```json / ```yaml / ``` 等），LLM 很爱裹这个 */
+const stripFences = (raw: string): string =>
+    String(raw ?? '')
+        .replace(/```[a-zA-Z]*\r?\n?/g, '')
+        .replace(/```/g, '')
+        .trim();
+
+/** 逐字段规整导演动作：charId 强转 string，content 非 string 时兜底转换，空的丢弃 */
+const normalizeAction = (a: any): DirectorAction | null => {
+    if (!a || typeof a !== 'object') return null;
+    const charId = a.charId == null ? '' : String(a.charId).trim();
+    const content = (typeof a.content === 'string' ? a.content : String(a.content ?? '')).trim();
+    if (!charId || !content) return null;
+    return { charId, content };
+};
+
+/**
+ * 解析导演模式输出的 JSON 动作数组。
+ * 第一层（严格）：剥围栏 → 截取最外层 [ ... ] → JSON.parse 整体。
+ * 第二层（宽松）：正则逐个抠出含 "charId" 的对象逐个 parse，能救一个是一个。
+ * 两层皆空时返回 []，由调用方决定是否提示用户。
+ */
+export function parseDirectorActions(raw: string): DirectorAction[] {
+    const text = stripFences(raw);
+    if (!text) return [];
+
+    const first = text.indexOf('[');
+    const last = text.lastIndexOf(']');
+    if (first !== -1 && last > first) {
+        try {
+            const arr = JSON.parse(text.substring(first, last + 1));
+            if (Array.isArray(arr)) {
+                const normalized = arr.map(normalizeAction).filter((a): a is DirectorAction => a !== null);
+                if (normalized.length > 0) return normalized;
+            }
+        } catch { /* 掉进第二层 */ }
+    }
+
+    const objMatches = text.match(/\{[^{}]*?["']charId["'][\s\S]*?\}/g) || [];
+    const rescued: DirectorAction[] = [];
+    for (const m of objMatches) {
+        try {
+            const action = normalizeAction(JSON.parse(m));
+            if (action) rescued.push(action);
+        } catch { /* 这个对象坏了，跳过它救别的 */ }
+    }
+    return rescued;
+}
+
+/**
+ * [[SKIP]] 输出剥离兜底（提示词已不再教这个标记——轮询模式现在要求每位成员必发言）：
+ * 模型若仍吐出 [[SKIP]] 或空内容，剥净后没剩正文 = 本轮跳过该成员。
+ */
+export function stripSkipMarker(raw: string): { skipped: boolean; content: string } {
+    const content = stripFences(raw).replace(/\[\[\s*SKIP\s*\]\]/gi, '').trim();
+    return { skipped: content === '', content };
+}
+
+export interface GroupTopicBoxParsed {
+    title: string;
+    summary: string;
+}
+
+/**
+ * 解析「群公共话题盒」总结输出：提示词要求模型只吐 {"title","summary"} 的 JSON，
+ * 但实际返回常常掉格式（summary 里带裸换行 / 未转义引号、外面裹一层 ```json、
+ * 推理模型先来一段 <think>…</think>）。旧版 parseTopicBoxResponse 只做严格 JSON.parse，
+ * 一旦 parse 失败就整轮报「总结格式无法解析」并抛错——而这会让
+ * archivedThroughMessageId 永远推进不了，热区以前的消息越堆越多（用户实测卡到 649 条），
+ * 归档队列被一条坏输出永久堵死。这里按家规做三层容错，宁可给个粗糙总结也绝不卡住队列。
+ *
+ * 第一层（严格）：剥围栏 / <think> 后，整体 or 最外层 {…} 直接 JSON.parse。
+ * 第二层（宽松）：JSON 坏在字符串里的裸换行——直接正则抠 title / summary 字段值（允许含换行）。
+ * 第三层（兜底）：模型压根没给结构，只要有实质文本，整段当 summary 用（截断防超长）。
+ * 三层皆空返回 null，由调用方决定是否提示用户。
+ */
+export function parseGroupTopicBox(raw: string): GroupTopicBoxParsed | null {
+    const text = String(raw ?? '')
+        .replace(/<think>[\s\S]*?<\/think>/gi, '') // 推理模型的思考块，会把 JSON 冲垮
+        .replace(/```[a-zA-Z]*\r?\n?/g, '')
+        .replace(/```/g, '')
+        .trim();
+    if (!text) return null;
+
+    const fromObj = (p: any): GroupTopicBoxParsed | null => {
+        if (!p || typeof p !== 'object') return null;
+        const summary = p.summary == null ? '' : String(p.summary).trim();
+        if (!summary) return null;
+        const title = p.title == null ? '' : String(p.title).trim();
+        return { title: title || '一段群聊回忆', summary };
+    };
+
+    // 第一层：整体 JSON，或截取最外层 {…} 再 parse
+    try {
+        const hit = fromObj(JSON.parse(text));
+        if (hit) return hit;
+    } catch { /* 掉进下一层 */ }
+    const braceStart = text.indexOf('{');
+    const braceEnd = text.lastIndexOf('}');
+    if (braceStart !== -1 && braceEnd > braceStart) {
+        try {
+            const hit = fromObj(JSON.parse(text.slice(braceStart, braceEnd + 1)));
+            if (hit) return hit;
+        } catch { /* 掉进下一层 */ }
+    }
+
+    // 第二层：JSON 结构坏了，直接抠字段值（[\s\S] 容忍值里的裸换行）。
+    // summary 抠到闭合引号后紧跟的 , / } / 文末为止。
+    const summaryMatch = text.match(/["']?summary["']?\s*[:：]\s*["']([\s\S]*?)["']\s*(?:[,，}]|$)/i);
+    if (summaryMatch && summaryMatch[1].trim()) {
+        const titleMatch = text.match(/["']?title["']?\s*[:：]\s*["']([\s\S]*?)["']\s*(?:[,，}]|$)/i);
+        return {
+            title: (titleMatch?.[1] || '').trim() || '一段群聊回忆',
+            summary: summaryMatch[1].trim(),
+        };
+    }
+
+    // 第三层：完全没结构，但有实质文本——整段当总结用，好过永久卡死归档队列
+    const plain = text.replace(/^[{[]+/, '').replace(/[}\]]+$/, '').trim();
+    if (plain.length >= 10) {
+        return { title: '一段群聊回忆', summary: plain.length > 800 ? `${plain.slice(0, 800)}…` : plain };
+    }
+    return null;
+}
+
+/**
+ * 解析群总结输出里的 summary 字段。
+ * 第一层（严格）：剥围栏后匹配 `summary:` + 引号闭合配对（或裸值取到文末）。
+ * 第二层（宽松）：剥 `summary:` 前缀、剥首尾引号，取全文 trim——
+ * 模型没按 YAML 输出时，整段就当总结正文用。
+ */
+export function parseSummaryYaml(raw: string): string {
+    const text = stripFences(raw);
+    if (!text) return '';
+
+    const quoted = text.match(/(?:^|\n)\s*summary\s*[:：]\s*(["'])([\s\S]*?)\1\s*(?:\n|$)/i);
+    if (quoted && quoted[2].trim()) return quoted[2].trim();
+
+    const bare = text.match(/(?:^|\n)\s*summary\s*[:：]\s*([\s\S]+)$/i);
+    const candidate = bare ? bare[1] : text;
+    return candidate
+        .replace(/^summary\s*[:：]\s*/i, '')
+        .trim()
+        .replace(/^["'“”]+|["'“”]+$/g, '')
+        .trim();
+}

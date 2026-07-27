@@ -1,1 +1,37 @@
-aW1wb3J0IHR5cGUgeyBTb2NpYWxDb21tZW50LCBTb2NpYWxQb3N0IH0gZnJvbSAnLi4vdHlwZXMnOwoKLyoqCiAqIFByZXBlbmQgYSBnZW5lcmF0ZWQgYmF0Y2ggd2l0aG91dCByZXBsYWNpbmcgYW55dGhpbmcgdGhhdCBhcnJpdmVkIHdoaWxlIHRoZQogKiByZXF1ZXN0IHdhcyBpbiBmbGlnaHQuIElEcyBhcmUgdW5pcXVlIGluIG5vcm1hbCB1c2U7IHRoZSBndWFyZCBhbHNvIG1ha2VzIGEKICogcmV0cmllZCByZXNwb25zZSBpZGVtcG90ZW50LgogKi8KZXhwb3J0IGZ1bmN0aW9uIHByZXBlbmRVbmlxdWVTb2NpYWxQb3N0cyhjdXJyZW50OiBTb2NpYWxQb3N0W10sIGluY29taW5nOiBTb2NpYWxQb3N0W10pOiBTb2NpYWxQb3N0W10gewogICAgY29uc3QgZXhpc3RpbmdJZHMgPSBuZXcgU2V0KGN1cnJlbnQubWFwKHBvc3QgPT4gcG9zdC5pZCkpOwogICAgY29uc3QgZnJlc2ggPSBpbmNvbWluZy5maWx0ZXIocG9zdCA9PiAhZXhpc3RpbmdJZHMuaGFzKHBvc3QuaWQpKTsKICAgIHJldHVybiBmcmVzaC5sZW5ndGggPiAwID8gWy4uLmZyZXNoLCAuLi5jdXJyZW50XSA6IGN1cnJlbnQ7Cn0KCi8qKiBSZXBsYWNlIG9uZSBwb3N0IHVzaW5nIHRoZSBsYXRlc3QgdmVyc2lvbiBjdXJyZW50bHkgaW4gdGhlIGZlZWQuICovCmV4cG9ydCBmdW5jdGlvbiB1cGRhdGVTb2NpYWxQb3N0KAogICAgY3VycmVudDogU29jaWFsUG9zdFtdLAogICAgcG9zdElkOiBzdHJpbmcsCiAgICB1cGRhdGVyOiAocG9zdDogU29jaWFsUG9zdCkgPT4gU29jaWFsUG9zdCwKKTogeyBmZWVkOiBTb2NpYWxQb3N0W107IHBvc3Q/OiBTb2NpYWxQb3N0IH0gewogICAgbGV0IHVwZGF0ZWQ6IFNvY2lhbFBvc3QgfCB1bmRlZmluZWQ7CiAgICBjb25zdCBmZWVkID0gY3VycmVudC5tYXAocG9zdCA9PiB7CiAgICAgICAgaWYgKHBvc3QuaWQgIT09IHBvc3RJZCkgcmV0dXJuIHBvc3Q7CiAgICAgICAgdXBkYXRlZCA9IHVwZGF0ZXIocG9zdCk7CiAgICAgICAgcmV0dXJuIHVwZGF0ZWQ7CiAgICB9KTsKICAgIHJldHVybiB7IGZlZWQ6IHVwZGF0ZWQgPyBmZWVkIDogY3VycmVudCwgcG9zdDogdXBkYXRlZCB9Owp9CgovKioKICogQUkgY29tbWVudHMgY2FuIGZpbmlzaCBhZnRlciB0aGUgdXNlciBoYXMgYWxyZWFkeSBsZWZ0IGEgY29tbWVudC4gS2VlcCB0aGUKICogbGl2ZSBjb21tZW50cyBhbmQgYXBwZW5kIG9ubHkgZ2VudWluZWx5IG5ldyBnZW5lcmF0ZWQgZW50cmllcy4KICovCmV4cG9ydCBmdW5jdGlvbiBtZXJnZVNvY2lhbENvbW1lbnRzKGN1cnJlbnQ6IFNvY2lhbENvbW1lbnRbXSwgaW5jb21pbmc6IFNvY2lhbENvbW1lbnRbXSk6IFNvY2lhbENvbW1lbnRbXSB7CiAgICBjb25zdCBleGlzdGluZ0lkcyA9IG5ldyBTZXQoY3VycmVudC5tYXAoY29tbWVudCA9PiBjb21tZW50LmlkKSk7CiAgICBjb25zdCBmcmVzaCA9IGluY29taW5nLmZpbHRlcihjb21tZW50ID0+ICFleGlzdGluZ0lkcy5oYXMoY29tbWVudC5pZCkpOwogICAgcmV0dXJuIGZyZXNoLmxlbmd0aCA+IDAgPyBbLi4uY3VycmVudCwgLi4uZnJlc2hdIDogY3VycmVudDsKfQo=
+import type { SocialComment, SocialPost } from '../types';
+
+/**
+ * Prepend a generated batch without replacing anything that arrived while the
+ * request was in flight. IDs are unique in normal use; the guard also makes a
+ * retried response idempotent.
+ */
+export function prependUniqueSocialPosts(current: SocialPost[], incoming: SocialPost[]): SocialPost[] {
+    const existingIds = new Set(current.map(post => post.id));
+    const fresh = incoming.filter(post => !existingIds.has(post.id));
+    return fresh.length > 0 ? [...fresh, ...current] : current;
+}
+
+/** Replace one post using the latest version currently in the feed. */
+export function updateSocialPost(
+    current: SocialPost[],
+    postId: string,
+    updater: (post: SocialPost) => SocialPost,
+): { feed: SocialPost[]; post?: SocialPost } {
+    let updated: SocialPost | undefined;
+    const feed = current.map(post => {
+        if (post.id !== postId) return post;
+        updated = updater(post);
+        return updated;
+    });
+    return { feed: updated ? feed : current, post: updated };
+}
+
+/**
+ * AI comments can finish after the user has already left a comment. Keep the
+ * live comments and append only genuinely new generated entries.
+ */
+export function mergeSocialComments(current: SocialComment[], incoming: SocialComment[]): SocialComment[] {
+    const existingIds = new Set(current.map(comment => comment.id));
+    const fresh = incoming.filter(comment => !existingIds.has(comment.id));
+    return fresh.length > 0 ? [...current, ...fresh] : current;
+}

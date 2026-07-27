@@ -1,1 +1,429 @@
-LyoqCiAqIFBpeGVsIEhvbWUg4oCUIOi1hOS6p+S7k+W6kwogKgogKiDliIbnsbvnrqHnkIbmiYDmnInlg4/ntKDlrrblhbfvvJrliIbnsbvnrZvpgInjgIHmkJzntKLjgIHph43lkb3lkI3jgIHmoIfnrb7jgIHmibnph4/mk43kvZzjgIIKICog6aG26YOo5YaF5bWM5LiA5LiqIuS7k+W6kyAvIOWDj+e0oOW3peWdiiLliIfmjaLvvIzpgb/lhY3nlKjmiLflnKjlupXpg6ggdGFiIOmHjOa3t+a3huS4pOiAheOAggogKi8KCmltcG9ydCBSZWFjdCwgeyB1c2VTdGF0ZSwgdXNlQ2FsbGJhY2ssIHVzZU1lbW8gfSBmcm9tICdyZWFjdCc7CmltcG9ydCB0eXBlIHsgUGl4ZWxBc3NldCB9IGZyb20gJy4vdHlwZXMnOwppbXBvcnQgdHlwZSB7IE1lbW9yeVJvb20gfSBmcm9tICcuLi8uLi91dGlscy9tZW1vcnlQYWxhY2UvdHlwZXMnOwppbXBvcnQgeyBQaXhlbEFzc2V0REIgfSBmcm9tICcuL3BpeGVsSG9tZURiJzsKaW1wb3J0IFBpeGVsQXNzZXRHZW5lcmF0b3IgZnJvbSAnLi9QaXhlbEFzc2V0R2VuZXJhdG9yJzsKCmludGVyZmFjZSBQcm9wcyB7CiAgYXNzZXRzOiBQaXhlbEFzc2V0W107CiAgb25DaGFuZ2VkOiAoKSA9PiB2b2lkOwogIG9uU2VsZWN0QXNzZXQ6IChhc3NldElkOiBzdHJpbmcpID0+IHZvaWQ7CiAgaXNTZWxlY3Rpbmc/OiBib29sZWFuOwp9CgovLyDpooTlrprkuYnliIbnsbsKY29uc3QgQ0FURUdPUklFUyA9IFsKICB7IGlkOiAnYWxsJywgICAgICAgbGFiZWw6ICflhajpg6gnIH0sCiAgeyBpZDogJ2Z1cm5pdHVyZScsIGxhYmVsOiAn5a625YW3JyB9LAogIHsgaWQ6ICdkZWNvcicsICAgICBsYWJlbDogJ+ijhemlsCcgfSwKICB7IGlkOiAncGxhbnQnLCAgICAgbGFiZWw6ICfmpI3niaknIH0sCiAgeyBpZDogJ2Zvb2QnLCAgICAgIGxhYmVsOiAn6aOf54mpJyB9LAogIHsgaWQ6ICdjaGFyYWN0ZXInLCBsYWJlbDogJ+inkuiJsicgfSwKICB7IGlkOiAnb3RoZXInLCAgICAgbGFiZWw6ICflhbbku5YnIH0sCiAgeyBpZDogJ2ltcG9ydGVkJywgIGxhYmVsOiAn5a+85YWlJyB9LApdOwoKLy8g5oi/6Ze0562b6YCJ77yI5Y+q5piv5LiA5Liq5YiG57G7IHRhZ++8jOi1hOa6kOWcqOWFtuS7luaIv+mXtOS5n+iDveeci+WIsO+8iQpjb25zdCBST09NX09QVElPTlM6IEFycmF5PHsgaWQ6IE1lbW9yeVJvb20gfCAnYWxsX3Jvb21zJzsgbGFiZWw6IHN0cmluZzsgdGFnOiBzdHJpbmcgfT4gPSBbCiAgeyBpZDogJ2FsbF9yb29tcycsICAgbGFiZWw6ICfmiYDmnInmiL/pl7QnLCB0YWc6ICcnIH0sCiAgeyBpZDogJ2xpdmluZ19yb29tJywgbGFiZWw6ICflrqLljoUnLCAgICAgdGFnOiAn5a6i5Y6FJyB9LAogIHsgaWQ6ICdiZWRyb29tJywgICAgIGxhYmVsOiAn5Y2n5a6kJywgICAgIHRhZzogJ+WNp+WupCcgfSwKICB7IGlkOiAnc3R1ZHknLCAgICAgICBsYWJlbDogJ+S5puaIvycsICAgICB0YWc6ICfkuabmiL8nIH0sCiAgeyBpZDogJ2F0dGljJywgICAgICAgbGFiZWw6ICfpmIHmpbwnLCAgICAgdGFnOiAn6ZiB5qW8JyB9LAogIHsgaWQ6ICdzZWxmX3Jvb20nLCAgIGxhYmVsOiAn6Ieq5oiR5oi/JywgICB0YWc6ICfoh6rmiJHmiL8nIH0sCiAgeyBpZDogJ3VzZXJfcm9vbScsICAgbGFiZWw6ICfnlKjmiLfmiL8nLCAgIHRhZzogJ+eUqOaIt+aIvycgfSwKICB7IGlkOiAnd2luZG93c2lsbCcsICBsYWJlbDogJ+mcsuWPsCcsICAgICB0YWc6ICfpnLLlj7AnIH0sCl07Cgpjb25zdCBBc3NldExpYnJhcnk6IFJlYWN0LkZDPFByb3BzPiA9ICh7IGFzc2V0cywgb25DaGFuZ2VkLCBvblNlbGVjdEFzc2V0LCBpc1NlbGVjdGluZyB9KSA9PiB7CiAgLyoqIOmhtumDqOWkpyB0YWLvvJrku5PlupPmtY/op4ggdnMg5YOP57Sg5bel5Z2K77yI5ZCI5bm26Ieq5bqV6YOo5YWl5Y+j77yM6YG/5YWN5re35reG77yJICovCiAgY29uc3QgW3N1YlZpZXcsIHNldFN1YlZpZXddID0gdXNlU3RhdGU8J2xpYnJhcnknIHwgJ3dvcmtzaG9wJz4oJ2xpYnJhcnknKTsKICBjb25zdCBbc2VsZWN0ZWRJZHMsIHNldFNlbGVjdGVkSWRzXSA9IHVzZVN0YXRlPFNldDxzdHJpbmc+PihuZXcgU2V0KCkpOwogIGNvbnN0IFtzZWxlY3RNb2RlLCBzZXRTZWxlY3RNb2RlXSA9IHVzZVN0YXRlKGZhbHNlKTsKICBjb25zdCBbc2VhcmNoLCBzZXRTZWFyY2hdID0gdXNlU3RhdGUoJycpOwogIGNvbnN0IFtjYXRlZ29yeSwgc2V0Q2F0ZWdvcnldID0gdXNlU3RhdGUoJ2FsbCcpOwogIGNvbnN0IFtyb29tRmlsdGVyLCBzZXRSb29tRmlsdGVyXSA9IHVzZVN0YXRlPHN0cmluZz4oJ2FsbF9yb29tcycpOwogIGNvbnN0IFtzb3J0QnksIHNldFNvcnRCeV0gPSB1c2VTdGF0ZTwnbmV3ZXN0JyB8ICduYW1lJz4oJ25ld2VzdCcpOwogIGNvbnN0IFtlZGl0aW5nSWQsIHNldEVkaXRpbmdJZF0gPSB1c2VTdGF0ZTxzdHJpbmcgfCBudWxsPihudWxsKTsKICBjb25zdCBbZWRpdE5hbWUsIHNldEVkaXROYW1lXSA9IHVzZVN0YXRlKCcnKTsKICBjb25zdCBbc2hvd1RhZ0lucHV0LCBzZXRTaG93VGFnSW5wdXRdID0gdXNlU3RhdGU8c3RyaW5nIHwgbnVsbD4obnVsbCk7CiAgY29uc3QgW3RhZ0lucHV0LCBzZXRUYWdJbnB1dF0gPSB1c2VTdGF0ZSgnJyk7CgogIC8vIOetm+mAiSArIOaOkuW6jwogIGNvbnN0IGZpbHRlcmVkID0gdXNlTWVtbygoKSA9PiB7CiAgICBsZXQgbGlzdCA9IFsuLi5hc3NldHNdOwoKICAgIC8vIOWIhuexu+etm+mAiQogICAgaWYgKGNhdGVnb3J5ICE9PSAnYWxsJykgewogICAgICBsaXN0ID0gbGlzdC5maWx0ZXIoYSA9PiBhLnRhZ3MuaW5jbHVkZXMoY2F0ZWdvcnkpKTsKICAgIH0KCiAgICAvLyDmiL/pl7TnrZvpgInvvIjmjInmiL/pl7QgbGFiZWwgdGFnIOWMuemFje+8jOi1hOa6kOacrOi6q+ayoeaIv+mXtOWxnuaApyA9IOWPquaYr+S4qui/h+a7pOinhuWbvu+8iQogICAgaWYgKHJvb21GaWx0ZXIgIT09ICdhbGxfcm9vbXMnKSB7CiAgICAgIGNvbnN0IHJvb21PcHQgPSBST09NX09QVElPTlMuZmluZChyID0+IHIuaWQgPT09IHJvb21GaWx0ZXIpOwogICAgICBjb25zdCB0YWcgPSByb29tT3B0Py50YWc7CiAgICAgIGlmICh0YWcpIGxpc3QgPSBsaXN0LmZpbHRlcihhID0+IGEudGFncy5pbmNsdWRlcyh0YWcpKTsKICAgIH0KCiAgICAvLyDmkJzntKIKICAgIGlmIChzZWFyY2gudHJpbSgpKSB7CiAgICAgIGNvbnN0IHEgPSBzZWFyY2gudG9Mb3dlckNhc2UoKTsKICAgICAgbGlzdCA9IGxpc3QuZmlsdGVyKGEgPT4KICAgICAgICBhLm5hbWUudG9Mb3dlckNhc2UoKS5pbmNsdWRlcyhxKSB8fAogICAgICAgIGEudGFncy5zb21lKHQgPT4gdC50b0xvd2VyQ2FzZSgpLmluY2x1ZGVzKHEpKQogICAgICApOwogICAgfQoKICAgIC8vIOaOkuW6jwogICAgaWYgKHNvcnRCeSA9PT0gJ25ld2VzdCcpIHsKICAgICAgbGlzdC5zb3J0KChhLCBiKSA9PiBiLmNyZWF0ZWRBdCAtIGEuY3JlYXRlZEF0KTsKICAgIH0gZWxzZSB7CiAgICAgIGxpc3Quc29ydCgoYSwgYikgPT4gYS5uYW1lLmxvY2FsZUNvbXBhcmUoYi5uYW1lKSk7CiAgICB9CgogICAgcmV0dXJuIGxpc3Q7CiAgfSwgW2Fzc2V0cywgY2F0ZWdvcnksIHJvb21GaWx0ZXIsIHNlYXJjaCwgc29ydEJ5XSk7CgogIC8vIOeCueWHuwogIGNvbnN0IGhhbmRsZUNsaWNrID0gdXNlQ2FsbGJhY2soKGlkOiBzdHJpbmcpID0+IHsKICAgIGlmIChzZWxlY3RNb2RlKSB7CiAgICAgIHNldFNlbGVjdGVkSWRzKHByZXYgPT4gewogICAgICAgIGNvbnN0IG5leHQgPSBuZXcgU2V0KHByZXYpOwogICAgICAgIG5leHQuaGFzKGlkKSA/IG5leHQuZGVsZXRlKGlkKSA6IG5leHQuYWRkKGlkKTsKICAgICAgICByZXR1cm4gbmV4dDsKICAgICAgfSk7CiAgICB9IGVsc2UgewogICAgICBvblNlbGVjdEFzc2V0KGlkKTsKICAgIH0KICB9LCBbc2VsZWN0TW9kZSwgb25TZWxlY3RBc3NldF0pOwoKICAvLyDph43lkb3lkI0KICBjb25zdCBzdGFydFJlbmFtZSA9IHVzZUNhbGxiYWNrKChhc3NldDogUGl4ZWxBc3NldCkgPT4gewogICAgc2V0RWRpdGluZ0lkKGFzc2V0LmlkKTsKICAgIHNldEVkaXROYW1lKGFzc2V0Lm5hbWUpOwogIH0sIFtdKTsKCiAgY29uc3Qgc2F2ZVJlbmFtZSA9IHVzZUNhbGxiYWNrKGFzeW5jICgpID0+IHsKICAgIGlmICghZWRpdGluZ0lkIHx8ICFlZGl0TmFtZS50cmltKCkpIHJldHVybjsKICAgIGNvbnN0IGFzc2V0ID0gYXNzZXRzLmZpbmQoYSA9PiBhLmlkID09PSBlZGl0aW5nSWQpOwogICAgaWYgKGFzc2V0KSB7CiAgICAgIGF3YWl0IFBpeGVsQXNzZXREQi5zYXZlKHsgLi4uYXNzZXQsIG5hbWU6IGVkaXROYW1lLnRyaW0oKSB9KTsKICAgICAgb25DaGFuZ2VkKCk7CiAgICB9CiAgICBzZXRFZGl0aW5nSWQobnVsbCk7CiAgfSwgW2VkaXRpbmdJZCwgZWRpdE5hbWUsIGFzc2V0cywgb25DaGFuZ2VkXSk7CgogIC8vIOa3u+WKoOagh+etvgogIGNvbnN0IGFkZFRhZyA9IHVzZUNhbGxiYWNrKGFzeW5jIChhc3NldElkOiBzdHJpbmcsIHRhZzogc3RyaW5nKSA9PiB7CiAgICBjb25zdCBhc3NldCA9IGFzc2V0cy5maW5kKGEgPT4gYS5pZCA9PT0gYXNzZXRJZCk7CiAgICBpZiAoIWFzc2V0IHx8ICF0YWcudHJpbSgpKSByZXR1cm47CiAgICBjb25zdCB0ID0gdGFnLnRyaW0oKS50b0xvd2VyQ2FzZSgpOwogICAgaWYgKGFzc2V0LnRhZ3MuaW5jbHVkZXModCkpIHJldHVybjsKICAgIGF3YWl0IFBpeGVsQXNzZXREQi5zYXZlKHsgLi4uYXNzZXQsIHRhZ3M6IFsuLi5hc3NldC50YWdzLCB0XSB9KTsKICAgIG9uQ2hhbmdlZCgpOwogICAgc2V0VGFnSW5wdXQoJycpOwogIH0sIFthc3NldHMsIG9uQ2hhbmdlZF0pOwoKICAvLyDnp7vpmaTmoIfnrb4KICBjb25zdCByZW1vdmVUYWcgPSB1c2VDYWxsYmFjayhhc3luYyAoYXNzZXRJZDogc3RyaW5nLCB0YWc6IHN0cmluZykgPT4gewogICAgY29uc3QgYXNzZXQgPSBhc3NldHMuZmluZChhID0+IGEuaWQgPT09IGFzc2V0SWQpOwogICAgaWYgKCFhc3NldCkgcmV0dXJuOwogICAgYXdhaXQgUGl4ZWxBc3NldERCLnNhdmUoeyAuLi5hc3NldCwgdGFnczogYXNzZXQudGFncy5maWx0ZXIodCA9PiB0ICE9PSB0YWcpIH0pOwogICAgb25DaGFuZ2VkKCk7CiAgfSwgW2Fzc2V0cywgb25DaGFuZ2VkXSk7CgogIC8vIOaJuemHj+WKoOagh+etvgogIGNvbnN0IGJhdGNoQWRkVGFnID0gdXNlQ2FsbGJhY2soYXN5bmMgKHRhZzogc3RyaW5nKSA9PiB7CiAgICBpZiAoIXRhZy50cmltKCkpIHJldHVybjsKICAgIGNvbnN0IHQgPSB0YWcudHJpbSgpLnRvTG93ZXJDYXNlKCk7CiAgICBmb3IgKGNvbnN0IGlkIG9mIHNlbGVjdGVkSWRzKSB7CiAgICAgIGNvbnN0IGFzc2V0ID0gYXNzZXRzLmZpbmQoYSA9PiBhLmlkID09PSBpZCk7CiAgICAgIGlmIChhc3NldCAmJiAhYXNzZXQudGFncy5pbmNsdWRlcyh0KSkgewogICAgICAgIGF3YWl0IFBpeGVsQXNzZXREQi5zYXZlKHsgLi4uYXNzZXQsIHRhZ3M6IFsuLi5hc3NldC50YWdzLCB0XSB9KTsKICAgICAgfQogICAgfQogICAgb25DaGFuZ2VkKCk7CiAgfSwgW3NlbGVjdGVkSWRzLCBhc3NldHMsIG9uQ2hhbmdlZF0pOwoKICAvLyDliKDpmaTpgInkuK0KICBjb25zdCBoYW5kbGVEZWxldGVTZWxlY3RlZCA9IHVzZUNhbGxiYWNrKGFzeW5jICgpID0+IHsKICAgIGZvciAoY29uc3QgaWQgb2Ygc2VsZWN0ZWRJZHMpIGF3YWl0IFBpeGVsQXNzZXREQi5kZWxldGUoaWQpOwogICAgc2V0U2VsZWN0ZWRJZHMobmV3IFNldCgpKTsKICAgIHNldFNlbGVjdE1vZGUoZmFsc2UpOwogICAgb25DaGFuZ2VkKCk7CiAgfSwgW3NlbGVjdGVkSWRzLCBvbkNoYW5nZWRdKTsKCiAgLy8g5a+85Ye6CiAgY29uc3QgaGFuZGxlRXhwb3J0WmlwID0gdXNlQ2FsbGJhY2soYXN5bmMgKCkgPT4gewogICAgY29uc3QgSlNaaXAgPSAoYXdhaXQgaW1wb3J0KCdqc3ppcCcpKS5kZWZhdWx0OwogICAgY29uc3QgemlwID0gbmV3IEpTWmlwKCk7CiAgICBjb25zdCB0b0V4cG9ydCA9IHNlbGVjdE1vZGUgPyBhc3NldHMuZmlsdGVyKGEgPT4gc2VsZWN0ZWRJZHMuaGFzKGEuaWQpKSA6IGZpbHRlcmVkOwogICAgZm9yIChjb25zdCBhc3NldCBvZiB0b0V4cG9ydCkgewogICAgICBjb25zdCByZXNwID0gYXdhaXQgZmV0Y2goYXNzZXQucGl4ZWxJbWFnZSk7CiAgICAgIGNvbnN0IGJsb2IgPSBhd2FpdCByZXNwLmJsb2IoKTsKICAgICAgemlwLmZpbGUoYCR7YXNzZXQubmFtZX1fJHthc3NldC5waXhlbFNpemV9cHgucG5nYCwgYmxvYik7CiAgICB9CiAgICBjb25zdCBjb250ZW50ID0gYXdhaXQgemlwLmdlbmVyYXRlQXN5bmMoeyB0eXBlOiAnYmxvYicgfSk7CiAgICBjb25zdCB1cmwgPSBVUkwuY3JlYXRlT2JqZWN0VVJMKGNvbnRlbnQpOwogICAgY29uc3QgYSA9IGRvY3VtZW50LmNyZWF0ZUVsZW1lbnQoJ2EnKTsKICAgIGEuaHJlZiA9IHVybDsKICAgIGEuZG93bmxvYWQgPSBgcGl4ZWxfYXNzZXRzXyR7RGF0ZS5ub3coKX0uemlwYDsKICAgIGEuY2xpY2soKTsKICAgIFVSTC5yZXZva2VPYmplY3RVUkwodXJsKTsKICB9LCBbYXNzZXRzLCBzZWxlY3RlZElkcywgc2VsZWN0TW9kZSwgZmlsdGVyZWRdKTsKCiAgLy8g6aG26YOo5aSnIHRhYgogIGNvbnN0IFN1YlRhYnMgPSAoCiAgICA8ZGl2IGNsYXNzTmFtZT0ic2hyaW5rLTAgZmxleCBnYXAtMSBiZy1zbGF0ZS04MDAvODAgbXgtMyBtdC0yIHAtMSByb3VuZGVkLXhsIj4KICAgICAgPGJ1dHRvbiBvbkNsaWNrPXsoKSA9PiBzZXRTdWJWaWV3KCdsaWJyYXJ5Jyl9CiAgICAgICAgY2xhc3NOYW1lPXtgZmxleC0xIHB5LTEuNSByb3VuZGVkLWxnIHRleHQtWzExcHhdIGZvbnQtYm9sZCB0cmFuc2l0aW9uLWFsbCAke3N1YlZpZXcgPT09ICdsaWJyYXJ5JyA/ICdiZy1hbWJlci01MDAgdGV4dC13aGl0ZScgOiAndGV4dC1zbGF0ZS00MDAgaG92ZXI6dGV4dC1zbGF0ZS0yMDAnfWB9PgogICAgICAgIOS7k+W6kyAoe2Fzc2V0cy5sZW5ndGh9KQogICAgICA8L2J1dHRvbj4KICAgICAgPGJ1dHRvbiBvbkNsaWNrPXsoKSA9PiBzZXRTdWJWaWV3KCd3b3Jrc2hvcCcpfQogICAgICAgIGNsYXNzTmFtZT17YGZsZXgtMSBweS0xLjUgcm91bmRlZC1sZyB0ZXh0LVsxMXB4XSBmb250LWJvbGQgdHJhbnNpdGlvbi1hbGwgJHtzdWJWaWV3ID09PSAnd29ya3Nob3AnID8gJ2JnLWFtYmVyLTUwMCB0ZXh0LXdoaXRlJyA6ICd0ZXh0LXNsYXRlLTQwMCBob3Zlcjp0ZXh0LXNsYXRlLTIwMCd9YH0+CiAgICAgICAg5YOP57Sg5bel5Z2KCiAgICAgIDwvYnV0dG9uPgogICAgPC9kaXY+CiAgKTsKCiAgLy8g5bel5Z2KIHRhYu+8muebtOaOpeW1jCBQaXhlbEFzc2V0R2VuZXJhdG9yCiAgaWYgKHN1YlZpZXcgPT09ICd3b3Jrc2hvcCcpIHsKICAgIHJldHVybiAoCiAgICAgIDxkaXYgY2xhc3NOYW1lPSJoLWZ1bGwgZmxleCBmbGV4LWNvbCBvdmVyZmxvdy1oaWRkZW4iPgogICAgICAgIHtTdWJUYWJzfQogICAgICAgIDxkaXYgY2xhc3NOYW1lPSJmbGV4LTEgb3ZlcmZsb3ctaGlkZGVuIj4KICAgICAgICAgIDxQaXhlbEFzc2V0R2VuZXJhdG9yIG9uR2VuZXJhdGVkPXtvbkNoYW5nZWR9IC8+CiAgICAgICAgPC9kaXY+CiAgICAgIDwvZGl2PgogICAgKTsKICB9CgogIGlmIChhc3NldHMubGVuZ3RoID09PSAwKSB7CiAgICByZXR1cm4gKAogICAgICA8ZGl2IGNsYXNzTmFtZT0iaC1mdWxsIGZsZXggZmxleC1jb2wgb3ZlcmZsb3ctaGlkZGVuIj4KICAgICAgICB7U3ViVGFic30KICAgICAgICA8ZGl2IGNsYXNzTmFtZT0iZmxleC0xIGZsZXggZmxleC1jb2wgaXRlbXMtY2VudGVyIGp1c3RpZnktY2VudGVyIGdhcC0zIHB4LTYiPgogICAgICAgICAgPGRpdiBjbGFzc05hbWU9InctMTYgaC0xNiByb3VuZGVkLTJ4bCBiZy1zbGF0ZS04MDAgZmxleCBpdGVtcy1jZW50ZXIganVzdGlmeS1jZW50ZXIiPgogICAgICAgICAgICA8c3BhbiBjbGFzc05hbWU9InRleHQtMnhsIHRleHQtc2xhdGUtNjAwIj4wPC9zcGFuPgogICAgICAgICAgPC9kaXY+CiAgICAgICAgICA8cCBjbGFzc05hbWU9InRleHQtc20gdGV4dC1zbGF0ZS00MDAgdGV4dC1jZW50ZXIiPuS7k+W6k+aYr+epuueahDwvcD4KICAgICAgICAgIDxidXR0b24gb25DbGljaz17KCkgPT4gc2V0U3ViVmlldygnd29ya3Nob3AnKX0KICAgICAgICAgICAgY2xhc3NOYW1lPSJ0ZXh0LXhzIHRleHQtYW1iZXItNDAwIHVuZGVybGluZSBob3Zlcjp0ZXh0LWFtYmVyLTMwMCI+CiAgICAgICAgICAgIOWOu+WDj+e0oOW3peWdiuS4iuS8oOWbvueJh+eUn+aIkOWutuWFtwogICAgICAgICAgPC9idXR0b24+CiAgICAgICAgPC9kaXY+CiAgICAgIDwvZGl2PgogICAgKTsKICB9CgogIHJldHVybiAoCiAgICA8ZGl2IGNsYXNzTmFtZT0iaC1mdWxsIGZsZXggZmxleC1jb2wgb3ZlcmZsb3ctaGlkZGVuIj4KICAgICAge1N1YlRhYnN9CiAgICAgIHsvKiDpgInmi6nmj5DnpLogKi99CiAgICAgIHtpc1NlbGVjdGluZyAmJiAoCiAgICAgICAgPGRpdiBjbGFzc05hbWU9InNocmluay0wIHB4LTQgcHktMiBiZy1hbWJlci02MDAvMjAgYm9yZGVyLWIgYm9yZGVyLWFtYmVyLTYwMC8zMCB0ZXh0LWNlbnRlciI+CiAgICAgICAgICA8c3BhbiBjbGFzc05hbWU9InRleHQteHMgdGV4dC1hbWJlci00MDAgZm9udC1ib2xkIj7ngrnlh7vntKDmnZDmnaXmlL7nva7miJbmm7/mjaI8L3NwYW4+CiAgICAgICAgPC9kaXY+CiAgICAgICl9CgogICAgICB7Lyog5pCc57Si5qCPICovfQogICAgICA8ZGl2IGNsYXNzTmFtZT0ic2hyaW5rLTAgcHgtMyBwdC0yIHBiLTEiPgogICAgICAgIDxpbnB1dAogICAgICAgICAgdHlwZT0idGV4dCIKICAgICAgICAgIHZhbHVlPXtzZWFyY2h9CiAgICAgICAgICBvbkNoYW5nZT17ZSA9PiBzZXRTZWFyY2goZS50YXJnZXQudmFsdWUpfQogICAgICAgICAgcGxhY2Vob2xkZXI9IuaQnOe0ouWQjeensOaIluagh+etvi4uLiIKICAgICAgICAgIGNsYXNzTmFtZT0idy1mdWxsIHB4LTMgcHktMS41IGJnLXNsYXRlLTgwMCBib3JkZXIgYm9yZGVyLXNsYXRlLTcwMCByb3VuZGVkLWxnIHRleHQteHMgdGV4dC1zbGF0ZS0yMDAgcGxhY2Vob2xkZXItc2xhdGUtNTAwIG91dGxpbmUtbm9uZSBmb2N1czpib3JkZXItYW1iZXItNTAwLzUwIgogICAgICAgIC8+CiAgICAgIDwvZGl2PgoKICAgICAgey8qIOWIhuexuyBUYWIgKi99CiAgICAgIDxkaXYgY2xhc3NOYW1lPSJzaHJpbmstMCBweC0zIHB5LTEuNSBmbGV4IGdhcC0xIG92ZXJmbG93LXgtYXV0byBuby1zY3JvbGxiYXIiPgogICAgICAgIHtDQVRFR09SSUVTLm1hcChjYXQgPT4gewogICAgICAgICAgY29uc3QgY291bnQgPSBjYXQuaWQgPT09ICdhbGwnID8gYXNzZXRzLmxlbmd0aCA6IGFzc2V0cy5maWx0ZXIoYSA9PiBhLnRhZ3MuaW5jbHVkZXMoY2F0LmlkKSkubGVuZ3RoOwogICAgICAgICAgaWYgKGNhdC5pZCAhPT0gJ2FsbCcgJiYgY291bnQgPT09IDApIHJldHVybiBudWxsOwogICAgICAgICAgcmV0dXJuICgKICAgICAgICAgICAgPGJ1dHRvbiBrZXk9e2NhdC5pZH0gb25DbGljaz17KCkgPT4gc2V0Q2F0ZWdvcnkoY2F0LmlkKX0KICAgICAgICAgICAgICBjbGFzc05hbWU9e2BzaHJpbmstMCBweC0yIHB5LTEgcm91bmRlZC1tZCB0ZXh0LVsxMHB4XSBmb250LWJvbGQgdHJhbnNpdGlvbi1hbGwgJHsKICAgICAgICAgICAgICAgIGNhdGVnb3J5ID09PSBjYXQuaWQgPyAnYmctYW1iZXItNTAwIHRleHQtd2hpdGUnIDogJ2JnLXNsYXRlLTgwMCB0ZXh0LXNsYXRlLTQwMCcKICAgICAgICAgICAgICB9YH0+CiAgICAgICAgICAgICAge2NhdC5sYWJlbH17Y291bnQgPiAwID8gYCAke2NvdW50fWAgOiAnJ30KICAgICAgICAgICAgPC9idXR0b24+CiAgICAgICAgICApOwogICAgICAgIH0pfQogICAgICA8L2Rpdj4KCiAgICAgIHsvKiDmiL/pl7QgVGFi77yI5Y+q5piv562b6YCJ77yM5LiN5Luj6KGo5Yir55qE5oi/6Ze05bCx55yL5LiN5Yiw77yJICovfQogICAgICA8ZGl2IGNsYXNzTmFtZT0ic2hyaW5rLTAgcHgtMyBweS0xIGZsZXggZ2FwLTEgb3ZlcmZsb3cteC1hdXRvIG5vLXNjcm9sbGJhciI+CiAgICAgICAgPHNwYW4gY2xhc3NOYW1lPSJzaHJpbmstMCB0ZXh0LVs5cHhdIHRleHQtc2xhdGUtNTAwIHNlbGYtY2VudGVyIG1yLTEiPuaMieaIv+mXtDwvc3Bhbj4KICAgICAgICB7Uk9PTV9PUFRJT05TLm1hcChyID0+IHsKICAgICAgICAgIGNvbnN0IGNvdW50ID0gci5pZCA9PT0gJ2FsbF9yb29tcycgPyBhc3NldHMubGVuZ3RoIDogYXNzZXRzLmZpbHRlcihhID0+IGEudGFncy5pbmNsdWRlcyhyLnRhZykpLmxlbmd0aDsKICAgICAgICAgIGlmIChyLmlkICE9PSAnYWxsX3Jvb21zJyAmJiBjb3VudCA9PT0gMCkgcmV0dXJuIG51bGw7CiAgICAgICAgICByZXR1cm4gKAogICAgICAgICAgICA8YnV0dG9uIGtleT17ci5pZH0gb25DbGljaz17KCkgPT4gc2V0Um9vbUZpbHRlcihyLmlkKX0KICAgICAgICAgICAgICBjbGFzc05hbWU9e2BzaHJpbmstMCBweC0yIHB5LTEgcm91bmRlZC1tZCB0ZXh0LVsxMHB4XSBmb250LWJvbGQgdHJhbnNpdGlvbi1hbGwgJHsKICAgICAgICAgICAgICAgIHJvb21GaWx0ZXIgPT09IHIuaWQgPyAnYmctZW1lcmFsZC01MDAgdGV4dC13aGl0ZScgOiAnYmctc2xhdGUtODAwIHRleHQtc2xhdGUtNDAwJwogICAgICAgICAgICAgIH1gfT4KICAgICAgICAgICAgICB7ci5sYWJlbH17Y291bnQgPiAwID8gYCAke2NvdW50fWAgOiAnJ30KICAgICAgICAgICAgPC9idXR0b24+CiAgICAgICAgICApOwogICAgICAgIH0pfQogICAgICA8L2Rpdj4KCiAgICAgIHsvKiDmk43kvZzmoI8gKi99CiAgICAgIDxkaXYgY2xhc3NOYW1lPSJzaHJpbmstMCBmbGV4IGl0ZW1zLWNlbnRlciBqdXN0aWZ5LWJldHdlZW4gcHgtMyBweS0xIGJvcmRlci1iIGJvcmRlci1zbGF0ZS03MDAvNTAiPgogICAgICAgIDxkaXYgY2xhc3NOYW1lPSJmbGV4IGdhcC0xLjUgaXRlbXMtY2VudGVyIj4KICAgICAgICAgIDxidXR0b24gb25DbGljaz17KCkgPT4geyBzZXRTZWxlY3RNb2RlKCFzZWxlY3RNb2RlKTsgc2V0U2VsZWN0ZWRJZHMobmV3IFNldCgpKTsgfX0KICAgICAgICAgICAgY2xhc3NOYW1lPXtgcHgtMiBweS0xIHJvdW5kZWQgdGV4dC1bMTBweF0gZm9udC1ib2xkICR7c2VsZWN0TW9kZSA/ICdiZy1hbWJlci01MDAgdGV4dC13aGl0ZScgOiAnYmctc2xhdGUtNzAwIHRleHQtc2xhdGUtMzAwJ31gfT4KICAgICAgICAgICAge3NlbGVjdE1vZGUgPyBg5bey6YCJICR7c2VsZWN0ZWRJZHMuc2l6ZX1gIDogJ+WkmumAiSd9CiAgICAgICAgICA8L2J1dHRvbj4KICAgICAgICAgIDxidXR0b24gb25DbGljaz17KCkgPT4gc2V0U29ydEJ5KHNvcnRCeSA9PT0gJ25ld2VzdCcgPyAnbmFtZScgOiAnbmV3ZXN0Jyl9CiAgICAgICAgICAgIGNsYXNzTmFtZT0icHgtMiBweS0xIHJvdW5kZWQgdGV4dC1bMTBweF0gZm9udC1ib2xkIGJnLXNsYXRlLTcwMCB0ZXh0LXNsYXRlLTMwMCI+CiAgICAgICAgICAgIHtzb3J0QnkgPT09ICduZXdlc3QnID8gJ+aMieaXtumXtCcgOiAn5oyJ5ZCN56ewJ30KICAgICAgICAgIDwvYnV0dG9uPgogICAgICAgIDwvZGl2PgogICAgICAgIDxkaXYgY2xhc3NOYW1lPSJmbGV4IGdhcC0xLjUiPgogICAgICAgICAge3NlbGVjdE1vZGUgJiYgc2VsZWN0ZWRJZHMuc2l6ZSA+IDAgJiYgKAogICAgICAgICAgICA8PgogICAgICAgICAgICAgIDxCYXRjaFRhZ0J0biBvbkFkZD17YmF0Y2hBZGRUYWd9IC8+CiAgICAgICAgICAgICAgPGJ1dHRvbiBvbkNsaWNrPXtoYW5kbGVEZWxldGVTZWxlY3RlZH0KICAgICAgICAgICAgICAgIGNsYXNzTmFtZT0icHgtMiBweS0xIHJvdW5kZWQgdGV4dC1bMTBweF0gZm9udC1ib2xkIGJnLXJlZC03MDAgdGV4dC13aGl0ZSBhY3RpdmU6c2NhbGUtOTUiPuWIoOmZpDwvYnV0dG9uPgogICAgICAgICAgICA8Lz4KICAgICAgICAgICl9CiAgICAgICAgICA8YnV0dG9uIG9uQ2xpY2s9e2hhbmRsZUV4cG9ydFppcH0KICAgICAgICAgICAgY2xhc3NOYW1lPSJweC0yIHB5LTEgcm91bmRlZCB0ZXh0LVsxMHB4XSBmb250LWJvbGQgYmctaW5kaWdvLTcwMCB0ZXh0LXdoaXRlIGFjdGl2ZTpzY2FsZS05NSI+5a+85Ye6PC9idXR0b24+CiAgICAgICAgPC9kaXY+CiAgICAgIDwvZGl2PgoKICAgICAgey8qIOiuoeaVsCAqL30KICAgICAgPGRpdiBjbGFzc05hbWU9InNocmluay0wIHB4LTMgcHktMSI+CiAgICAgICAgPHNwYW4gY2xhc3NOYW1lPSJ0ZXh0LVs5cHhdIHRleHQtc2xhdGUtNTAwIj57ZmlsdGVyZWQubGVuZ3RofSDku7bntKDmnZA8L3NwYW4+CiAgICAgIDwvZGl2PgoKICAgICAgey8qIOe9keagvCAqL30KICAgICAgPGRpdiBjbGFzc05hbWU9ImZsZXgtMSBvdmVyZmxvdy15LWF1dG8gcHgtMyBuby1zY3JvbGxiYXIiIHN0eWxlPXt7IHBhZGRpbmdCb3R0b206ICdjYWxjKDAuNzVyZW0gKyB2YXIoLS1zYWZlLWJvdHRvbSwgMHB4KSknIH19PgogICAgICAgIDxkaXYgY2xhc3NOYW1lPSJncmlkIGdyaWQtY29scy0zIGdhcC0yIj4KICAgICAgICAgIHtmaWx0ZXJlZC5tYXAoYXNzZXQgPT4gewogICAgICAgICAgICBjb25zdCBpc1NlbGVjdGVkID0gc2VsZWN0ZWRJZHMuaGFzKGFzc2V0LmlkKTsKICAgICAgICAgICAgY29uc3QgaXNFZGl0aW5nID0gZWRpdGluZ0lkID09PSBhc3NldC5pZDsKICAgICAgICAgICAgY29uc3QgaXNUYWdnaW5nID0gc2hvd1RhZ0lucHV0ID09PSBhc3NldC5pZDsKICAgICAgICAgICAgcmV0dXJuICgKICAgICAgICAgICAgICA8ZGl2IGtleT17YXNzZXQuaWR9IGNsYXNzTmFtZT17YHJlbGF0aXZlIGJnLXNsYXRlLTgwMCByb3VuZGVkLXhsIG92ZXJmbG93LWhpZGRlbiBib3JkZXItMiB0cmFuc2l0aW9uLWFsbCAkewogICAgICAgICAgICAgICAgaXNTZWxlY3RlZCA/ICdib3JkZXItYW1iZXItNTAwJyA6ICdib3JkZXItdHJhbnNwYXJlbnQnCiAgICAgICAgICAgICAgfWB9PgogICAgICAgICAgICAgICAgey8qIOWbvueJhyAqL30KICAgICAgICAgICAgICAgIDxidXR0b24gb25DbGljaz17KCkgPT4gaGFuZGxlQ2xpY2soYXNzZXQuaWQpfQogICAgICAgICAgICAgICAgICBjbGFzc05hbWU9InctZnVsbCBhc3BlY3Qtc3F1YXJlIGZsZXggaXRlbXMtY2VudGVyIGp1c3RpZnktY2VudGVyIHAtMiBhY3RpdmU6c2NhbGUtOTUgdHJhbnNpdGlvbi10cmFuc2Zvcm0iPgogICAgICAgICAgICAgICAgICA8aW1nIHNyYz17YXNzZXQucGl4ZWxJbWFnZX0gYWx0PXthc3NldC5uYW1lfQogICAgICAgICAgICAgICAgICAgIGNsYXNzTmFtZT0ibWF4LXctZnVsbCBtYXgtaC1mdWxsIG9iamVjdC1jb250YWluIgogICAgICAgICAgICAgICAgICAgIHN0eWxlPXt7IGltYWdlUmVuZGVyaW5nOiAncGl4ZWxhdGVkJyB9fSBkcmFnZ2FibGU9e2ZhbHNlfSAvPgogICAgICAgICAgICAgICAgPC9idXR0b24+CgogICAgICAgICAgICAgICAgey8qIOWwuuWvuOagh+etviAqL30KICAgICAgICAgICAgICAgIDxzcGFuIGNsYXNzTmFtZT0iYWJzb2x1dGUgdG9wLTEgcmlnaHQtMSB0ZXh0LVs4cHhdIGJnLWJsYWNrLzYwIHRleHQtc2xhdGUtMzAwIHB4LTEgcm91bmRlZCI+CiAgICAgICAgICAgICAgICAgIHthc3NldC5waXhlbFNpemV9cHgKICAgICAgICAgICAgICAgIDwvc3Bhbj4KCiAgICAgICAgICAgICAgICB7Lyog5aSa6YCJ5Yu+ICovfQogICAgICAgICAgICAgICAge3NlbGVjdE1vZGUgJiYgKAogICAgICAgICAgICAgICAgICA8ZGl2IGNsYXNzTmFtZT17YGFic29sdXRlIHRvcC0xIGxlZnQtMSB3LTQgaC00IHJvdW5kZWQtZnVsbCBib3JkZXItMiBmbGV4IGl0ZW1zLWNlbnRlciBqdXN0aWZ5LWNlbnRlciAkewogICAgICAgICAgICAgICAgICAgIGlzU2VsZWN0ZWQgPyAnYmctYW1iZXItNTAwIGJvcmRlci1hbWJlci01MDAnIDogJ2JvcmRlci1zbGF0ZS01MDAgYmctYmxhY2svMzAnCiAgICAgICAgICAgICAgICAgIH1gfT4KICAgICAgICAgICAgICAgICAgICB7aXNTZWxlY3RlZCAmJiA8c3BhbiBjbGFzc05hbWU9InRleHQtd2hpdGUgdGV4dC1bOHB4XSI+4pyTPC9zcGFuPn0KICAgICAgICAgICAgICAgICAgPC9kaXY+CiAgICAgICAgICAgICAgICApfQoKICAgICAgICAgICAgICAgIHsvKiDlupXpg6jkv6Hmga/ljLogKi99CiAgICAgICAgICAgICAgICA8ZGl2IGNsYXNzTmFtZT0icHgtMS41IHBiLTEuNSBzcGFjZS15LTEiPgogICAgICAgICAgICAgICAgICB7Lyog5ZCN56ew77yI5Y+v57yW6L6R77yJICovfQogICAgICAgICAgICAgICAgICB7aXNFZGl0aW5nID8gKAogICAgICAgICAgICAgICAgICAgIDxpbnB1dCB2YWx1ZT17ZWRpdE5hbWV9IG9uQ2hhbmdlPXtlID0+IHNldEVkaXROYW1lKGUudGFyZ2V0LnZhbHVlKX0KICAgICAgICAgICAgICAgICAgICAgIG9uQmx1cj17c2F2ZVJlbmFtZX0gb25LZXlEb3duPXtlID0+IGUua2V5ID09PSAnRW50ZXInICYmIHNhdmVSZW5hbWUoKX0KICAgICAgICAgICAgICAgICAgICAgIGF1dG9Gb2N1cyBjbGFzc05hbWU9InctZnVsbCBiZy1zbGF0ZS03MDAgdGV4dC1bOXB4XSB0ZXh0LXdoaXRlIHB4LTEgcHktMC41IHJvdW5kZWQgb3V0bGluZS1ub25lIiAvPgogICAgICAgICAgICAgICAgICApIDogKAogICAgICAgICAgICAgICAgICAgIDxkaXYgY2xhc3NOYW1lPSJmbGV4IGl0ZW1zLWNlbnRlciBnYXAtMSI+CiAgICAgICAgICAgICAgICAgICAgICA8c3BhbiBjbGFzc05hbWU9InRleHQtWzlweF0gdGV4dC1zbGF0ZS0zMDAgZm9udC1tZWRpdW0gdHJ1bmNhdGUgZmxleC0xIj57YXNzZXQubmFtZX08L3NwYW4+CiAgICAgICAgICAgICAgICAgICAgICB7IXNlbGVjdE1vZGUgJiYgKAogICAgICAgICAgICAgICAgICAgICAgICA8YnV0dG9uIG9uQ2xpY2s9eygpID0+IHN0YXJ0UmVuYW1lKGFzc2V0KX0KICAgICAgICAgICAgICAgICAgICAgICAgICBjbGFzc05hbWU9InRleHQtWzhweF0gdGV4dC1zbGF0ZS01MDAgaG92ZXI6dGV4dC1zbGF0ZS0zMDAgc2hyaW5rLTAiPuaUueWQjTwvYnV0dG9uPgogICAgICAgICAgICAgICAgICAgICAgKX0KICAgICAgICAgICAgICAgICAgICA8L2Rpdj4KICAgICAgICAgICAgICAgICAgKX0KCiAgICAgICAgICAgICAgICAgIHsvKiDmoIfnrb4gKi99CiAgICAgICAgICAgICAgICAgIDxkaXYgY2xhc3NOYW1lPSJmbGV4IGZsZXgtd3JhcCBnYXAtMC41IGl0ZW1zLWNlbnRlciI+CiAgICAgICAgICAgICAgICAgICAge2Fzc2V0LnRhZ3MubWFwKHQgPT4gKAogICAgICAgICAgICAgICAgICAgICAgPHNwYW4ga2V5PXt0fSBjbGFzc05hbWU9ImlubGluZS1mbGV4IGl0ZW1zLWNlbnRlciBnYXAtcHggdGV4dC1bOHB4XSBiZy1zbGF0ZS03MDAgdGV4dC1zbGF0ZS00MDAgcHgtMSByb3VuZGVkIGdyb3VwIj4KICAgICAgICAgICAgICAgICAgICAgICAge3R9CiAgICAgICAgICAgICAgICAgICAgICAgIHshc2VsZWN0TW9kZSAmJiAoCiAgICAgICAgICAgICAgICAgICAgICAgICAgPGJ1dHRvbiBvbkNsaWNrPXsoKSA9PiByZW1vdmVUYWcoYXNzZXQuaWQsIHQpfQogICAgICAgICAgICAgICAgICAgICAgICAgICAgY2xhc3NOYW1lPSJ0ZXh0LXNsYXRlLTYwMCBob3Zlcjp0ZXh0LXJlZC00MDAgaGlkZGVuIGdyb3VwLWhvdmVyOmlubGluZSBtbC0wLjUiPng8L2J1dHRvbj4KICAgICAgICAgICAgICAgICAgICAgICAgKX0KICAgICAgICAgICAgICAgICAgICAgIDwvc3Bhbj4KICAgICAgICAgICAgICAgICAgICApKX0KICAgICAgICAgICAgICAgICAgICB7IXNlbGVjdE1vZGUgJiYgIWlzVGFnZ2luZyAmJiAoCiAgICAgICAgICAgICAgICAgICAgICA8YnV0dG9uIG9uQ2xpY2s9eygpID0+IHsgc2V0U2hvd1RhZ0lucHV0KGFzc2V0LmlkKTsgc2V0VGFnSW5wdXQoJycpOyB9fQogICAgICAgICAgICAgICAgICAgICAgICBjbGFzc05hbWU9InRleHQtWzhweF0gdGV4dC1zbGF0ZS02MDAgaG92ZXI6dGV4dC1zbGF0ZS0zMDAiPivmoIfnrb48L2J1dHRvbj4KICAgICAgICAgICAgICAgICAgICApfQogICAgICAgICAgICAgICAgICAgIHtpc1RhZ2dpbmcgJiYgKAogICAgICAgICAgICAgICAgICAgICAgPGlucHV0IHZhbHVlPXt0YWdJbnB1dH0gb25DaGFuZ2U9e2UgPT4gc2V0VGFnSW5wdXQoZS50YXJnZXQudmFsdWUpfQogICAgICAgICAgICAgICAgICAgICAgICBvbktleURvd249e2UgPT4gewogICAgICAgICAgICAgICAgICAgICAgICAgIGlmIChlLmtleSA9PT0gJ0VudGVyJykgeyBhZGRUYWcoYXNzZXQuaWQsIHRhZ0lucHV0KTsgc2V0U2hvd1RhZ0lucHV0KG51bGwpOyB9CiAgICAgICAgICAgICAgICAgICAgICAgICAgaWYgKGUua2V5ID09PSAnRXNjYXBlJykgc2V0U2hvd1RhZ0lucHV0KG51bGwpOwogICAgICAgICAgICAgICAgICAgICAgICB9fQogICAgICAgICAgICAgICAgICAgICAgICBvbkJsdXI9eygpID0+IHsgaWYgKHRhZ0lucHV0LnRyaW0oKSkgYWRkVGFnKGFzc2V0LmlkLCB0YWdJbnB1dCk7IHNldFNob3dUYWdJbnB1dChudWxsKTsgfX0KICAgICAgICAgICAgICAgICAgICAgICAgYXV0b0ZvY3VzIHBsYWNlaG9sZGVyPSLovpPlhaXmoIfnrb4iCiAgICAgICAgICAgICAgICAgICAgICAgIGNsYXNzTmFtZT0idy0xMiBiZy1zbGF0ZS03MDAgdGV4dC1bOHB4XSB0ZXh0LXdoaXRlIHB4LTEgcHktMC41IHJvdW5kZWQgb3V0bGluZS1ub25lIiAvPgogICAgICAgICAgICAgICAgICAgICl9CiAgICAgICAgICAgICAgICAgIDwvZGl2PgoKICAgICAgICAgICAgICAgICAgey8qIOiwg+iJsuadvyAqL30KICAgICAgICAgICAgICAgICAgPGRpdiBjbGFzc05hbWU9ImZsZXggaC0xIHJvdW5kZWQtZnVsbCBvdmVyZmxvdy1oaWRkZW4iPgogICAgICAgICAgICAgICAgICAgIHthc3NldC5wYWxldHRlLnNsaWNlKDAsIDYpLm1hcCgoYywgaSkgPT4gKAogICAgICAgICAgICAgICAgICAgICAgPGRpdiBrZXk9e2l9IGNsYXNzTmFtZT0iZmxleC0xIiBzdHlsZT17eyBiYWNrZ3JvdW5kQ29sb3I6IGMgfX0gLz4KICAgICAgICAgICAgICAgICAgICApKX0KICAgICAgICAgICAgICAgICAgPC9kaXY+CiAgICAgICAgICAgICAgICA8L2Rpdj4KICAgICAgICAgICAgICA8L2Rpdj4KICAgICAgICAgICAgKTsKICAgICAgICAgIH0pfQogICAgICAgIDwvZGl2PgogICAgICA8L2Rpdj4KICAgIDwvZGl2PgogICk7Cn07CgovLyDmibnph4/liqDmoIfnrb7mjInpkq7vvIjluKbovpPlhaXmoYbvvIkKY29uc3QgQmF0Y2hUYWdCdG46IFJlYWN0LkZDPHsgb25BZGQ6ICh0YWc6IHN0cmluZykgPT4gdm9pZCB9PiA9ICh7IG9uQWRkIH0pID0+IHsKICBjb25zdCBbb3Blbiwgc2V0T3Blbl0gPSB1c2VTdGF0ZShmYWxzZSk7CiAgY29uc3QgW3ZhbHVlLCBzZXRWYWx1ZV0gPSB1c2VTdGF0ZSgnJyk7CgogIGlmICghb3BlbikgewogICAgcmV0dXJuICgKICAgICAgPGJ1dHRvbiBvbkNsaWNrPXsoKSA9PiBzZXRPcGVuKHRydWUpfQogICAgICAgIGNsYXNzTmFtZT0icHgtMiBweS0xIHJvdW5kZWQgdGV4dC1bMTBweF0gZm9udC1ib2xkIGJnLXNsYXRlLTcwMCB0ZXh0LXNsYXRlLTMwMCBhY3RpdmU6c2NhbGUtOTUiPgogICAgICAgIOWKoOagh+etvgogICAgICA8L2J1dHRvbj4KICAgICk7CiAgfQoKICByZXR1cm4gKAogICAgPGRpdiBjbGFzc05hbWU9ImZsZXggZ2FwLTEgaXRlbXMtY2VudGVyIj4KICAgICAgPGlucHV0IHZhbHVlPXt2YWx1ZX0gb25DaGFuZ2U9e2UgPT4gc2V0VmFsdWUoZS50YXJnZXQudmFsdWUpfQogICAgICAgIG9uS2V5RG93bj17ZSA9PiB7IGlmIChlLmtleSA9PT0gJ0VudGVyJyAmJiB2YWx1ZS50cmltKCkpIHsgb25BZGQodmFsdWUpOyBzZXRPcGVuKGZhbHNlKTsgc2V0VmFsdWUoJycpOyB9IH19CiAgICAgICAgYXV0b0ZvY3VzIHBsYWNlaG9sZGVyPSLmoIfnrb7lkI0iCiAgICAgICAgY2xhc3NOYW1lPSJ3LTE0IGJnLXNsYXRlLTcwMCB0ZXh0LVsxMHB4XSB0ZXh0LXdoaXRlIHB4LTEuNSBweS0xIHJvdW5kZWQgb3V0bGluZS1ub25lIiAvPgogICAgICA8YnV0dG9uIG9uQ2xpY2s9eygpID0+IHsgaWYgKHZhbHVlLnRyaW0oKSkgeyBvbkFkZCh2YWx1ZSk7IHNldE9wZW4oZmFsc2UpOyBzZXRWYWx1ZSgnJyk7IH0gfX0KICAgICAgICBjbGFzc05hbWU9InB4LTEuNSBweS0xIHJvdW5kZWQgdGV4dC1bMTBweF0gZm9udC1ib2xkIGJnLWFtYmVyLTYwMCB0ZXh0LXdoaXRlIj7noa7lrpo8L2J1dHRvbj4KICAgIDwvZGl2PgogICk7Cn07CgpleHBvcnQgZGVmYXVsdCBBc3NldExpYnJhcnk7Cg==
+/**
+ * Pixel Home — 资产仓库
+ *
+ * 分类管理所有像素家具：分类筛选、搜索、重命名、标签、批量操作。
+ * 顶部内嵌一个"仓库 / 像素工坊"切换，避免用户在底部 tab 里混淆两者。
+ */
+
+import React, { useState, useCallback, useMemo } from 'react';
+import type { PixelAsset } from './types';
+import type { MemoryRoom } from '../../utils/memoryPalace/types';
+import { PixelAssetDB } from './pixelHomeDb';
+import PixelAssetGenerator from './PixelAssetGenerator';
+
+interface Props {
+  assets: PixelAsset[];
+  onChanged: () => void;
+  onSelectAsset: (assetId: string) => void;
+  isSelecting?: boolean;
+}
+
+// 预定义分类
+const CATEGORIES = [
+  { id: 'all',       label: '全部' },
+  { id: 'furniture', label: '家具' },
+  { id: 'decor',     label: '装饰' },
+  { id: 'plant',     label: '植物' },
+  { id: 'food',      label: '食物' },
+  { id: 'character', label: '角色' },
+  { id: 'other',     label: '其他' },
+  { id: 'imported',  label: '导入' },
+];
+
+// 房间筛选（只是一个分类 tag，资源在其他房间也能看到）
+const ROOM_OPTIONS: Array<{ id: MemoryRoom | 'all_rooms'; label: string; tag: string }> = [
+  { id: 'all_rooms',   label: '所有房间', tag: '' },
+  { id: 'living_room', label: '客厅',     tag: '客厅' },
+  { id: 'bedroom',     label: '卧室',     tag: '卧室' },
+  { id: 'study',       label: '书房',     tag: '书房' },
+  { id: 'attic',       label: '阁楼',     tag: '阁楼' },
+  { id: 'self_room',   label: '自我房',   tag: '自我房' },
+  { id: 'user_room',   label: '用户房',   tag: '用户房' },
+  { id: 'windowsill',  label: '露台',     tag: '露台' },
+];
+
+const AssetLibrary: React.FC<Props> = ({ assets, onChanged, onSelectAsset, isSelecting }) => {
+  /** 顶部大 tab：仓库浏览 vs 像素工坊（合并自底部入口，避免混淆） */
+  const [subView, setSubView] = useState<'library' | 'workshop'>('library');
+  const [selectedIds, setSelectedIds] = useState<Set<string>>(new Set());
+  const [selectMode, setSelectMode] = useState(false);
+  const [search, setSearch] = useState('');
+  const [category, setCategory] = useState('all');
+  const [roomFilter, setRoomFilter] = useState<string>('all_rooms');
+  const [sortBy, setSortBy] = useState<'newest' | 'name'>('newest');
+  const [editingId, setEditingId] = useState<string | null>(null);
+  const [editName, setEditName] = useState('');
+  const [showTagInput, setShowTagInput] = useState<string | null>(null);
+  const [tagInput, setTagInput] = useState('');
+
+  // 筛选 + 排序
+  const filtered = useMemo(() => {
+    let list = [...assets];
+
+    // 分类筛选
+    if (category !== 'all') {
+      list = list.filter(a => a.tags.includes(category));
+    }
+
+    // 房间筛选（按房间 label tag 匹配，资源本身没房间属性 = 只是个过滤视图）
+    if (roomFilter !== 'all_rooms') {
+      const roomOpt = ROOM_OPTIONS.find(r => r.id === roomFilter);
+      const tag = roomOpt?.tag;
+      if (tag) list = list.filter(a => a.tags.includes(tag));
+    }
+
+    // 搜索
+    if (search.trim()) {
+      const q = search.toLowerCase();
+      list = list.filter(a =>
+        a.name.toLowerCase().includes(q) ||
+        a.tags.some(t => t.toLowerCase().includes(q))
+      );
+    }
+
+    // 排序
+    if (sortBy === 'newest') {
+      list.sort((a, b) => b.createdAt - a.createdAt);
+    } else {
+      list.sort((a, b) => a.name.localeCompare(b.name));
+    }
+
+    return list;
+  }, [assets, category, roomFilter, search, sortBy]);
+
+  // 点击
+  const handleClick = useCallback((id: string) => {
+    if (selectMode) {
+      setSelectedIds(prev => {
+        const next = new Set(prev);
+        next.has(id) ? next.delete(id) : next.add(id);
+        return next;
+      });
+    } else {
+      onSelectAsset(id);
+    }
+  }, [selectMode, onSelectAsset]);
+
+  // 重命名
+  const startRename = useCallback((asset: PixelAsset) => {
+    setEditingId(asset.id);
+    setEditName(asset.name);
+  }, []);
+
+  const saveRename = useCallback(async () => {
+    if (!editingId || !editName.trim()) return;
+    const asset = assets.find(a => a.id === editingId);
+    if (asset) {
+      await PixelAssetDB.save({ ...asset, name: editName.trim() });
+      onChanged();
+    }
+    setEditingId(null);
+  }, [editingId, editName, assets, onChanged]);
+
+  // 添加标签
+  const addTag = useCallback(async (assetId: string, tag: string) => {
+    const asset = assets.find(a => a.id === assetId);
+    if (!asset || !tag.trim()) return;
+    const t = tag.trim().toLowerCase();
+    if (asset.tags.includes(t)) return;
+    await PixelAssetDB.save({ ...asset, tags: [...asset.tags, t] });
+    onChanged();
+    setTagInput('');
+  }, [assets, onChanged]);
+
+  // 移除标签
+  const removeTag = useCallback(async (assetId: string, tag: string) => {
+    const asset = assets.find(a => a.id === assetId);
+    if (!asset) return;
+    await PixelAssetDB.save({ ...asset, tags: asset.tags.filter(t => t !== tag) });
+    onChanged();
+  }, [assets, onChanged]);
+
+  // 批量加标签
+  const batchAddTag = useCallback(async (tag: string) => {
+    if (!tag.trim()) return;
+    const t = tag.trim().toLowerCase();
+    for (const id of selectedIds) {
+      const asset = assets.find(a => a.id === id);
+      if (asset && !asset.tags.includes(t)) {
+        await PixelAssetDB.save({ ...asset, tags: [...asset.tags, t] });
+      }
+    }
+    onChanged();
+  }, [selectedIds, assets, onChanged]);
+
+  // 删除选中
+  const handleDeleteSelected = useCallback(async () => {
+    for (const id of selectedIds) await PixelAssetDB.delete(id);
+    setSelectedIds(new Set());
+    setSelectMode(false);
+    onChanged();
+  }, [selectedIds, onChanged]);
+
+  // 导出
+  const handleExportZip = useCallback(async () => {
+    const JSZip = (await import('jszip')).default;
+    const zip = new JSZip();
+    const toExport = selectMode ? assets.filter(a => selectedIds.has(a.id)) : filtered;
+    for (const asset of toExport) {
+      const resp = await fetch(asset.pixelImage);
+      const blob = await resp.blob();
+      zip.file(`${asset.name}_${asset.pixelSize}px.png`, blob);
+    }
+    const content = await zip.generateAsync({ type: 'blob' });
+    const url = URL.createObjectURL(content);
+    const a = document.createElement('a');
+    a.href = url;
+    a.download = `pixel_assets_${Date.now()}.zip`;
+    a.click();
+    URL.revokeObjectURL(url);
+  }, [assets, selectedIds, selectMode, filtered]);
+
+  // 顶部大 tab
+  const SubTabs = (
+    <div className="shrink-0 flex gap-1 bg-slate-800/80 mx-3 mt-2 p-1 rounded-xl">
+      <button onClick={() => setSubView('library')}
+        className={`flex-1 py-1.5 rounded-lg text-[11px] font-bold transition-all ${subView === 'library' ? 'bg-amber-500 text-white' : 'text-slate-400 hover:text-slate-200'}`}>
+        仓库 ({assets.length})
+      </button>
+      <button onClick={() => setSubView('workshop')}
+        className={`flex-1 py-1.5 rounded-lg text-[11px] font-bold transition-all ${subView === 'workshop' ? 'bg-amber-500 text-white' : 'text-slate-400 hover:text-slate-200'}`}>
+        像素工坊
+      </button>
+    </div>
+  );
+
+  // 工坊 tab：直接嵌 PixelAssetGenerator
+  if (subView === 'workshop') {
+    return (
+      <div className="h-full flex flex-col overflow-hidden">
+        {SubTabs}
+        <div className="flex-1 overflow-hidden">
+          <PixelAssetGenerator onGenerated={onChanged} />
+        </div>
+      </div>
+    );
+  }
+
+  if (assets.length === 0) {
+    return (
+      <div className="h-full flex flex-col overflow-hidden">
+        {SubTabs}
+        <div className="flex-1 flex flex-col items-center justify-center gap-3 px-6">
+          <div className="w-16 h-16 rounded-2xl bg-slate-800 flex items-center justify-center">
+            <span className="text-2xl text-slate-600">0</span>
+          </div>
+          <p className="text-sm text-slate-400 text-center">仓库是空的</p>
+          <button onClick={() => setSubView('workshop')}
+            className="text-xs text-amber-400 underline hover:text-amber-300">
+            去像素工坊上传图片生成家具
+          </button>
+        </div>
+      </div>
+    );
+  }
+
+  return (
+    <div className="h-full flex flex-col overflow-hidden">
+      {SubTabs}
+      {/* 选择提示 */}
+      {isSelecting && (
+        <div className="shrink-0 px-4 py-2 bg-amber-600/20 border-b border-amber-600/30 text-center">
+          <span className="text-xs text-amber-400 font-bold">点击素材来放置或替换</span>
+        </div>
+      )}
+
+      {/* 搜索栏 */}
+      <div className="shrink-0 px-3 pt-2 pb-1">
+        <input
+          type="text"
+          value={search}
+          onChange={e => setSearch(e.target.value)}
+          placeholder="搜索名称或标签..."
+          className="w-full px-3 py-1.5 bg-slate-800 border border-slate-700 rounded-lg text-xs text-slate-200 placeholder-slate-500 outline-none focus:border-amber-500/50"
+        />
+      </div>
+
+      {/* 分类 Tab */}
+      <div className="shrink-0 px-3 py-1.5 flex gap-1 overflow-x-auto no-scrollbar">
+        {CATEGORIES.map(cat => {
+          const count = cat.id === 'all' ? assets.length : assets.filter(a => a.tags.includes(cat.id)).length;
+          if (cat.id !== 'all' && count === 0) return null;
+          return (
+            <button key={cat.id} onClick={() => setCategory(cat.id)}
+              className={`shrink-0 px-2 py-1 rounded-md text-[10px] font-bold transition-all ${
+                category === cat.id ? 'bg-amber-500 text-white' : 'bg-slate-800 text-slate-400'
+              }`}>
+              {cat.label}{count > 0 ? ` ${count}` : ''}
+            </button>
+          );
+        })}
+      </div>
+
+      {/* 房间 Tab（只是筛选，不代表别的房间就看不到） */}
+      <div className="shrink-0 px-3 py-1 flex gap-1 overflow-x-auto no-scrollbar">
+        <span className="shrink-0 text-[9px] text-slate-500 self-center mr-1">按房间</span>
+        {ROOM_OPTIONS.map(r => {
+          const count = r.id === 'all_rooms' ? assets.length : assets.filter(a => a.tags.includes(r.tag)).length;
+          if (r.id !== 'all_rooms' && count === 0) return null;
+          return (
+            <button key={r.id} onClick={() => setRoomFilter(r.id)}
+              className={`shrink-0 px-2 py-1 rounded-md text-[10px] font-bold transition-all ${
+                roomFilter === r.id ? 'bg-emerald-500 text-white' : 'bg-slate-800 text-slate-400'
+              }`}>
+              {r.label}{count > 0 ? ` ${count}` : ''}
+            </button>
+          );
+        })}
+      </div>
+
+      {/* 操作栏 */}
+      <div className="shrink-0 flex items-center justify-between px-3 py-1 border-b border-slate-700/50">
+        <div className="flex gap-1.5 items-center">
+          <button onClick={() => { setSelectMode(!selectMode); setSelectedIds(new Set()); }}
+            className={`px-2 py-1 rounded text-[10px] font-bold ${selectMode ? 'bg-amber-500 text-white' : 'bg-slate-700 text-slate-300'}`}>
+            {selectMode ? `已选 ${selectedIds.size}` : '多选'}
+          </button>
+          <button onClick={() => setSortBy(sortBy === 'newest' ? 'name' : 'newest')}
+            className="px-2 py-1 rounded text-[10px] font-bold bg-slate-700 text-slate-300">
+            {sortBy === 'newest' ? '按时间' : '按名称'}
+          </button>
+        </div>
+        <div className="flex gap-1.5">
+          {selectMode && selectedIds.size > 0 && (
+            <>
+              <BatchTagBtn onAdd={batchAddTag} />
+              <button onClick={handleDeleteSelected}
+                className="px-2 py-1 rounded text-[10px] font-bold bg-red-700 text-white active:scale-95">删除</button>
+            </>
+          )}
+          <button onClick={handleExportZip}
+            className="px-2 py-1 rounded text-[10px] font-bold bg-indigo-700 text-white active:scale-95">导出</button>
+        </div>
+      </div>
+
+      {/* 计数 */}
+      <div className="shrink-0 px-3 py-1">
+        <span className="text-[9px] text-slate-500">{filtered.length} 件素材</span>
+      </div>
+
+      {/* 网格 */}
+      <div className="flex-1 overflow-y-auto px-3 no-scrollbar" style={{ paddingBottom: 'calc(0.75rem + var(--safe-bottom, 0px))' }}>
+        <div className="grid grid-cols-3 gap-2">
+          {filtered.map(asset => {
+            const isSelected = selectedIds.has(asset.id);
+            const isEditing = editingId === asset.id;
+            const isTagging = showTagInput === asset.id;
+            return (
+              <div key={asset.id} className={`relative bg-slate-800 rounded-xl overflow-hidden border-2 transition-all ${
+                isSelected ? 'border-amber-500' : 'border-transparent'
+              }`}>
+                {/* 图片 */}
+                <button onClick={() => handleClick(asset.id)}
+                  className="w-full aspect-square flex items-center justify-center p-2 active:scale-95 transition-transform">
+                  <img src={asset.pixelImage} alt={asset.name}
+                    className="max-w-full max-h-full object-contain"
+                    style={{ imageRendering: 'pixelated' }} draggable={false} />
+                </button>
+
+                {/* 尺寸标签 */}
+                <span className="absolute top-1 right-1 text-[8px] bg-black/60 text-slate-300 px-1 rounded">
+                  {asset.pixelSize}px
+                </span>
+
+                {/* 多选勾 */}
+                {selectMode && (
+                  <div className={`absolute top-1 left-1 w-4 h-4 rounded-full border-2 flex items-center justify-center ${
+                    isSelected ? 'bg-amber-500 border-amber-500' : 'border-slate-500 bg-black/30'
+                  }`}>
+                    {isSelected && <span className="text-white text-[8px]">✓</span>}
+                  </div>
+                )}
+
+                {/* 底部信息区 */}
+                <div className="px-1.5 pb-1.5 space-y-1">
+                  {/* 名称（可编辑） */}
+                  {isEditing ? (
+                    <input value={editName} onChange={e => setEditName(e.target.value)}
+                      onBlur={saveRename} onKeyDown={e => e.key === 'Enter' && saveRename()}
+                      autoFocus className="w-full bg-slate-700 text-[9px] text-white px-1 py-0.5 rounded outline-none" />
+                  ) : (
+                    <div className="flex items-center gap-1">
+                      <span className="text-[9px] text-slate-300 font-medium truncate flex-1">{asset.name}</span>
+                      {!selectMode && (
+                        <button onClick={() => startRename(asset)}
+                          className="text-[8px] text-slate-500 hover:text-slate-300 shrink-0">改名</button>
+                      )}
+                    </div>
+                  )}
+
+                  {/* 标签 */}
+                  <div className="flex flex-wrap gap-0.5 items-center">
+                    {asset.tags.map(t => (
+                      <span key={t} className="inline-flex items-center gap-px text-[8px] bg-slate-700 text-slate-400 px-1 rounded group">
+                        {t}
+                        {!selectMode && (
+                          <button onClick={() => removeTag(asset.id, t)}
+                            className="text-slate-600 hover:text-red-400 hidden group-hover:inline ml-0.5">x</button>
+                        )}
+                      </span>
+                    ))}
+                    {!selectMode && !isTagging && (
+                      <button onClick={() => { setShowTagInput(asset.id); setTagInput(''); }}
+                        className="text-[8px] text-slate-600 hover:text-slate-300">+标签</button>
+                    )}
+                    {isTagging && (
+                      <input value={tagInput} onChange={e => setTagInput(e.target.value)}
+                        onKeyDown={e => {
+                          if (e.key === 'Enter') { addTag(asset.id, tagInput); setShowTagInput(null); }
+                          if (e.key === 'Escape') setShowTagInput(null);
+                        }}
+                        onBlur={() => { if (tagInput.trim()) addTag(asset.id, tagInput); setShowTagInput(null); }}
+                        autoFocus placeholder="输入标签"
+                        className="w-12 bg-slate-700 text-[8px] text-white px-1 py-0.5 rounded outline-none" />
+                    )}
+                  </div>
+
+                  {/* 调色板 */}
+                  <div className="flex h-1 rounded-full overflow-hidden">
+                    {asset.palette.slice(0, 6).map((c, i) => (
+                      <div key={i} className="flex-1" style={{ backgroundColor: c }} />
+                    ))}
+                  </div>
+                </div>
+              </div>
+            );
+          })}
+        </div>
+      </div>
+    </div>
+  );
+};
+
+// 批量加标签按钮（带输入框）
+const BatchTagBtn: React.FC<{ onAdd: (tag: string) => void }> = ({ onAdd }) => {
+  const [open, setOpen] = useState(false);
+  const [value, setValue] = useState('');
+
+  if (!open) {
+    return (
+      <button onClick={() => setOpen(true)}
+        className="px-2 py-1 rounded text-[10px] font-bold bg-slate-700 text-slate-300 active:scale-95">
+        加标签
+      </button>
+    );
+  }
+
+  return (
+    <div className="flex gap-1 items-center">
+      <input value={value} onChange={e => setValue(e.target.value)}
+        onKeyDown={e => { if (e.key === 'Enter' && value.trim()) { onAdd(value); setOpen(false); setValue(''); } }}
+        autoFocus placeholder="标签名"
+        className="w-14 bg-slate-700 text-[10px] text-white px-1.5 py-1 rounded outline-none" />
+      <button onClick={() => { if (value.trim()) { onAdd(value); setOpen(false); setValue(''); } }}
+        className="px-1.5 py-1 rounded text-[10px] font-bold bg-amber-600 text-white">确定</button>
+    </div>
+  );
+};
+
+export default AssetLibrary;

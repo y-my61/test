@@ -1,1 +1,354 @@
-LyoqCiAqIE1lbW9yeSBEaXZlIOKAlCDkuIrlsY/miL/pl7TmuLLmn5MKICoKICog5L+u5aSNIFJPT01fU0NBTEUgMi4yIOWvvOiHtOeahOWutuWFt+mUmeS9jemXrumimO+8mgogKiAgIC0g6YCa6L+HIFJlc2l6ZU9ic2VydmVyIOa1i+mHj+WuueWZqO+8jOWKqOaAgeiuoeeul+mAgumFjeWwuuWvuAogKiAgIC0g5oi/6Ze05oyJ5a696auY5q+U5a6M5pW05pS+5YWl6KeG5Y+j77yM5a625YW3ICUg5Z2Q5qCH5LiO57yW6L6R5Zmo5a6M5YWo5LiA6Ie0CiAqICAgLSDop5LoibIgLyDnlKjmiLcgc3ByaXRlIOaMiSB0aWxlIOavlOS+i+e8qeaUvgogKgogKiDop5LoibLkuI7nlKjmiLflsI/kurrkvb/nlKggQ1NTIHRyYW5zaXRpb24g6Ieq5Yqo6L+H5rih5YiwIGNoYXJQb3MgLyBwbGF5ZXJQb3PvvIwKICogICDkuIrlsYLlj6rpnIDorr7nva7nm67moIfkvY3nva7ljbPlj6/ojrflvpci6KGM6LWwIuWKqOeUu+OAggogKi8KCmltcG9ydCBSZWFjdCwgeyB1c2VFZmZlY3QsIHVzZVJlZiwgdXNlU3RhdGUsIHVzZU1lbW8gfSBmcm9tICdyZWFjdCc7CmltcG9ydCB0eXBlIHsgTWVtb3J5Um9vbSB9IGZyb20gJy4uLy4uL3V0aWxzL21lbW9yeVBhbGFjZS90eXBlcyc7CmltcG9ydCB0eXBlIHsgUGl4ZWxIb21lU3RhdGUsIFBpeGVsUm9vbUxheW91dCwgUGl4ZWxBc3NldCB9IGZyb20gJy4vdHlwZXMnOwppbXBvcnQgeyBkZWNvZGVDb2xvckZpZWxkIH0gZnJvbSAnLi90eXBlcyc7CmltcG9ydCB7IFJPT01fU0laRVMsIFJPT01fU0xPVFMgfSBmcm9tICcuL3Jvb21UZW1wbGF0ZXMnOwoKY29uc3QgVElMRV9CQVNFID0gMjg7Cgpjb25zdCBGTE9PUl9TVFlMRVM6IFJlY29yZDxzdHJpbmcsIHsgd2FsbEZhY2U6IHN0cmluZzsgZmxvb3I6IHN0cmluZyB9PiA9IHsKICBsaXZpbmdfcm9vbTogeyB3YWxsRmFjZTogJyNlOGQ1YjgnLCBmbG9vcjogJyNjNGE4ODInIH0sCiAgYmVkcm9vbTogICAgIHsgd2FsbEZhY2U6ICcjZThkZGQwJywgZmxvb3I6ICcjZDRiODk2JyB9LAogIHN0dWR5OiAgICAgICB7IHdhbGxGYWNlOiAnI2M5Yjk5YScsIGZsb29yOiAnIzhiNmY0NycgfSwKICBhdHRpYzogICAgICAgeyB3YWxsRmFjZTogJyM2YjVkNTAnLCBmbG9vcjogJyM3MDYwNTAnIH0sCiAgc2VsZl9yb29tOiAgIHsgd2FsbEZhY2U6ICcjZjBkMGUwJywgZmxvb3I6ICcjZDRhOGMwJyB9LAogIHVzZXJfcm9vbTogICB7IHdhbGxGYWNlOiAnI2M4ZTBkMCcsIGZsb29yOiAnI2E4YzRiMCcgfSwKICB3aW5kb3dzaWxsOiAgeyB3YWxsRmFjZTogJyNhOGJmYjAnLCBmbG9vcjogJyM5MmE4OWMnIH0sCn07CgppbnRlcmZhY2UgUHJvcHMgewogIHJvb21JZDogTWVtb3J5Um9vbTsKICBsYXlvdXQ6IFBpeGVsUm9vbUxheW91dCB8IHVuZGVmaW5lZDsKICBhc3NldHM6IFBpeGVsQXNzZXRbXTsKICBjaGFyU3ByaXRlPzogc3RyaW5nOwogIHBsYXllclNwcml0ZT86IHN0cmluZzsKICBjaGFyTmFtZTogc3RyaW5nOwogIHVzZXJOYW1lOiBzdHJpbmc7CiAgY2hhclBvczogeyB4OiBudW1iZXI7IHk6IG51bWJlciB9OwogIHBsYXllclBvczogeyB4OiBudW1iZXI7IHk6IG51bWJlciB9OwogIGNoYXJXYWxraW5nOiBib29sZWFuOwogIGNoYXJGbGlwOiBib29sZWFuOwogIHdhbGtTdGVwOiAwIHwgMTsKICB0cmFuc2l0aW9uU3RhdGU6ICdpZGxlJyB8ICdvdXQnIHwgJ2luJzsKfQoKY29uc3QgTWVtb3J5RGl2ZVJvb206IFJlYWN0LkZDPFByb3BzPiA9ICh7CiAgcm9vbUlkLCBsYXlvdXQsIGFzc2V0cywgY2hhclNwcml0ZSwgcGxheWVyU3ByaXRlLCBjaGFyTmFtZSwgdXNlck5hbWUsCiAgY2hhclBvcywgcGxheWVyUG9zLCBjaGFyV2Fsa2luZywgY2hhckZsaXAsIHdhbGtTdGVwLCB0cmFuc2l0aW9uU3RhdGUsCn0pID0+IHsKICBjb25zdCB2aWV3cG9ydFJlZiA9IHVzZVJlZjxIVE1MRGl2RWxlbWVudD4obnVsbCk7CiAgY29uc3QgW3NpemUsIHNldFNpemVdID0gdXNlU3RhdGUoeyB3OiAwLCBoOiAwIH0pOwoKICB1c2VFZmZlY3QoKCkgPT4gewogICAgY29uc3QgZWwgPSB2aWV3cG9ydFJlZi5jdXJyZW50OwogICAgaWYgKCFlbCkgcmV0dXJuOwogICAgY29uc3QgdXBkYXRlID0gKCkgPT4gewogICAgICBjb25zdCByID0gZWwuZ2V0Qm91bmRpbmdDbGllbnRSZWN0KCk7CiAgICAgIHNldFNpemUoeyB3OiByLndpZHRoLCBoOiByLmhlaWdodCB9KTsKICAgIH07CiAgICB1cGRhdGUoKTsKICAgIGNvbnN0IHJvID0gbmV3IFJlc2l6ZU9ic2VydmVyKHVwZGF0ZSk7CiAgICByby5vYnNlcnZlKGVsKTsKICAgIHJldHVybiAoKSA9PiByby5kaXNjb25uZWN0KCk7CiAgfSwgW10pOwoKICBjb25zdCByb29tU2l6ZSA9IFJPT01fU0laRVNbcm9vbUlkXSB8fCB7IHc6IDEwLCBoOiA2IH07CgogIC8vIOWFs+mUru+8muaMieWuvemrmOavlOmAgumFjeinhuWPo++8jOS/neivgeWujOaVtOWPr+ingeOAgeS4jeijgeWIhwogIGNvbnN0IHsgcHcsIHBoLCB0aWxlUHggfSA9IHVzZU1lbW8oKCkgPT4gewogICAgaWYgKHNpemUudyA9PT0gMCB8fCBzaXplLmggPT09IDApIHJldHVybiB7IHB3OiAwLCBwaDogMCwgdGlsZVB4OiBUSUxFX0JBU0UgfTsKICAgIGNvbnN0IGFzcGVjdCA9IHJvb21TaXplLncgLyByb29tU2l6ZS5oOwogICAgY29uc3Qgdmlld3BvcnRBc3BlY3QgPSBzaXplLncgLyBzaXplLmg7CiAgICBsZXQgd2lkdGg6IG51bWJlciwgaGVpZ2h0OiBudW1iZXI7CiAgICBpZiAodmlld3BvcnRBc3BlY3QgPiBhc3BlY3QpIHsKICAgICAgLy8g6KeG5Y+j5pu05a69IOKGkiDku6Xpq5jluqbloavmu6EKICAgICAgaGVpZ2h0ID0gc2l6ZS5oOwogICAgICB3aWR0aCA9IGhlaWdodCAqIGFzcGVjdDsKICAgIH0gZWxzZSB7CiAgICAgIC8vIOinhuWPo+abtOeYpiDihpIg5Lul5a695bqm5aGr5ruhCiAgICAgIHdpZHRoID0gc2l6ZS53OwogICAgICBoZWlnaHQgPSB3aWR0aCAvIGFzcGVjdDsKICAgIH0KICAgIC8vIOemu+aVo+WMluWIsOaVtOaVsOWDj+e0oO+8jOmBv+WFjeWtkOWDj+e0oOa4suafkwogICAgd2lkdGggPSBNYXRoLmZsb29yKHdpZHRoKTsKICAgIGhlaWdodCA9IE1hdGguZmxvb3IoaGVpZ2h0KTsKICAgIHJldHVybiB7IHB3OiB3aWR0aCwgcGg6IGhlaWdodCwgdGlsZVB4OiB3aWR0aCAvIHJvb21TaXplLncgfTsKICB9LCBbc2l6ZS53LCBzaXplLmgsIHJvb21TaXplLncsIHJvb21TaXplLmhdKTsKCiAgY29uc3Qgcm9vbVN0eWxlID0gRkxPT1JfU1RZTEVTW3Jvb21JZF0gfHwgRkxPT1JfU1RZTEVTLmxpdmluZ19yb29tOwogIC8vIOS4jue8lui+keWZqCBXQUxMX1RPUF9SQVRJTyDkv53mjIHkuIDoh7TvvIzpgb/lhY3lopkv5Zyw5p2/5YiG55WM57q/5L2N572u5LiN5ZCM5a+86Ie05a625YW355yL6LW35p2l6ZSZ5L2NCiAgY29uc3Qgd2FsbEggPSBNYXRoLnJvdW5kKHBoICogMC4zOCk7CiAgLy8g5a625YW35bC65a+477ya5LiO57yW6L6R5Zmo5L+d5oyB5ZCM5LiA5YWs5byPCiAgY29uc3QgZnVyQmFzZSA9IE1hdGgubWluKHB3LCBwaCk7CiAgLy8g6KeS6Imy5bC65a+45Zu65a6a5Lul6KeG5Y+j77yI5a655Zmo77yJ5Li65Z+65YeG77yM6ICM5LiN5pivIHRpbGVQeCDigJTigJQKICAvLyDlkKbliJnlg4/ljaflrqQgNXg144CB5a6i5Y6FIDEweDYg6L+Z56eN5a696auY5q+U5beu5byC5Lya6K6pIHRpbGVQeCDlnKjmiL/pl7Tpl7Tnm7jlt67ov5EgMiDlgI3vvIwKICAvLyDop5LoibLlnKjljaflrqTnnIvotbfmnaXmr5TlrqLljoXlpKflvojlpJrjgILop4blj6PmnKzouqvlnKjmiL/pl7TliIfmjaLml7blsLrlr7jkuI3lj5jvvIzov5nph4zmiY3og73lgZrliLAKICAvLyAi6LWw5Yiw5Lu75L2V5oi/6Ze06YO95piv5ZCM5qC35aSn5bCP55qE5bCP5Lq6IuOAggogIGNvbnN0IGNoYXJCYXNlID0gTWF0aC5taW4oc2l6ZS53LCBzaXplLmgpIHx8IGZ1ckJhc2U7CiAgY29uc3QgY2hhclNpemUgPSBNYXRoLm1heCgyMiwgTWF0aC5yb3VuZChjaGFyQmFzZSAqIDAuMTEpKTsKICBjb25zdCBwbGF5ZXJTaXplID0gTWF0aC5tYXgoMjAsIE1hdGgucm91bmQoY2hhckJhc2UgKiAwLjEwKSk7CgogIGNvbnN0IHNsb3REZWZzID0gUk9PTV9TTE9UU1tyb29tSWRdIHx8IFtdOwoKICBjb25zdCB0cmFuc2l0aW9uT3BhY2l0eSA9IHRyYW5zaXRpb25TdGF0ZSA9PT0gJ291dCcgPyAwIDogMTsKICBjb25zdCB0cmFuc2l0aW9uRmlsdGVyID0gdHJhbnNpdGlvblN0YXRlID09PSAnb3V0JyA/ICdicmlnaHRuZXNzKDAuMyknIDogJ2JyaWdodG5lc3MoMSknOwoKICByZXR1cm4gKAogICAgPGRpdiByZWY9e3ZpZXdwb3J0UmVmfSBjbGFzc05hbWU9InJlbGF0aXZlIHctZnVsbCBoLWZ1bGwgb3ZlcmZsb3ctaGlkZGVuIGJnLXNsYXRlLTk1MCBmbGV4IGl0ZW1zLWNlbnRlciBqdXN0aWZ5LWNlbnRlciI+CiAgICAgIHsvKiDmiL/pl7TnlLvluIMg4oCU4oCUIOWbuuWumuWDj+e0oOWuvemrmO+8jOWutuWFtyAlIOWumuS9jeiHqueEtuWvuem9kCAqL30KICAgICAge3B3ID4gMCAmJiAoCiAgICAgICAgPGRpdgogICAgICAgICAgY2xhc3NOYW1lPSJyZWxhdGl2ZSIKICAgICAgICAgIHN0eWxlPXt7CiAgICAgICAgICAgIHdpZHRoOiBwdywKICAgICAgICAgICAgaGVpZ2h0OiBwaCwKICAgICAgICAgICAgb3BhY2l0eTogdHJhbnNpdGlvbk9wYWNpdHksCiAgICAgICAgICAgIGZpbHRlcjogdHJhbnNpdGlvbkZpbHRlciwKICAgICAgICAgICAgdHJhbnNpdGlvbjogJ29wYWNpdHkgMzUwbXMgZWFzZSwgZmlsdGVyIDM1MG1zIGVhc2UnLAogICAgICAgICAgfX0KICAgICAgICA+CiAgICAgICAgICB7Lyog5aKZ6Z2iICovfQogICAgICAgICAgPGRpdiBjbGFzc05hbWU9ImFic29sdXRlIGluc2V0LXgtMCB0b3AtMCBvdmVyZmxvdy1oaWRkZW4iIHN0eWxlPXt7IGhlaWdodDogd2FsbEggfX0+CiAgICAgICAgICAgIDxXYWxsT3JGbG9vcgogICAgICAgICAgICAgIGZpZWxkPXtsYXlvdXQ/LndhbGxDb2xvcn0KICAgICAgICAgICAgICBmaWxsTW9kZT17bGF5b3V0Py53YWxsRmlsbE1vZGV9CiAgICAgICAgICAgICAgb2Zmc2V0WD17bGF5b3V0Py53YWxsT2Zmc2V0WH0KICAgICAgICAgICAgICBvZmZzZXRZPXtsYXlvdXQ/LndhbGxPZmZzZXRZfQogICAgICAgICAgICAgIHRpbGVTaXplPXt0aWxlUHggKiAyfQogICAgICAgICAgICAgIGZhbGxiYWNrPXtyb29tU3R5bGUud2FsbEZhY2V9CiAgICAgICAgICAgIC8+CiAgICAgICAgICA8L2Rpdj4KCiAgICAgICAgICB7Lyog5Zyw5p2/ICovfQogICAgICAgICAgPGRpdiBjbGFzc05hbWU9ImFic29sdXRlIGluc2V0LXgtMCBib3R0b20tMCBvdmVyZmxvdy1oaWRkZW4iIHN0eWxlPXt7IHRvcDogd2FsbEggfX0+CiAgICAgICAgICAgIDxXYWxsT3JGbG9vcgogICAgICAgICAgICAgIGZpZWxkPXtsYXlvdXQ/LmZsb29yQ29sb3J9CiAgICAgICAgICAgICAgZmlsbE1vZGU9e2xheW91dD8uZmxvb3JGaWxsTW9kZX0KICAgICAgICAgICAgICBvZmZzZXRYPXtsYXlvdXQ/LmZsb29yT2Zmc2V0WH0KICAgICAgICAgICAgICBvZmZzZXRZPXtsYXlvdXQ/LmZsb29yT2Zmc2V0WX0KICAgICAgICAgICAgICB0aWxlU2l6ZT17dGlsZVB4fQogICAgICAgICAgICAgIGZhbGxiYWNrPXtyb29tU3R5bGUuZmxvb3J9CiAgICAgICAgICAgIC8+CiAgICAgICAgICA8L2Rpdj4KCiAgICAgICAgICB7Lyog5a625YW377yI57qv6KOF6aWw77yM5peg5LqS5Yqo44CB5peg6K6/6Zeu54q25oCB77yJCiAgICAgICAgICAgICDkvY3nva7kuI7nvJbovpHlmajlrozlhajkuIDoh7TvvJrplJrngrnmmK/lrrblhbfmlrnmoYbvvIh3aWR0aCDDlyB3aWR0aO+8ieeahOS4reW/g++8jAogICAgICAgICAgICAg55SoIHB4IOWBj+enuyAtZnVyU2l6ZS8yIOWumuS9je+8jOiAjOS4jeaYryB0cmFuc2xhdGUoLTUwJSwgLTUwJSkg4oCU4oCUCiAgICAgICAgICAgICDlm6DkuLogdHJhbnNsYXRlIOS8mueUqCBpbWcg55qE5a6e6ZmF6auY5bqm77yIaGVpZ2h0OmF1dG/vvInvvIzpq5jlrrblhbflsLHkvJrlvoDkuIrmvILjgIIKICAgICAgICAgICAgIOe8lui+keWZqOmHjOS4gOebtOaYr+eUqCBmdXJTaXpl77yI5a695bqm77yJ5L2c5Li65Z6C55u05YGP56e75Z+65YeG55qE77yM6L+Z6YeM5Lmf5LiA5qC377yMCiAgICAgICAgICAgICDmvZzooYzop4blm77nmoTlrrblhbfkvY3nva7lsLHog73lkozmiL/pl7TnvJbovpHlmajph4zmi5blh7rmnaXnmoTkvY3nva7kuIDmqKHkuIDmoLfjgIIgKi99CiAgICAgICAgICB7bGF5b3V0Py5mdXJuaXR1cmUubWFwKGYgPT4gewogICAgICAgICAgICBjb25zdCBhc3NldCA9IGYuYXNzZXRJZCA/IGFzc2V0cy5maW5kKGEgPT4gYS5pZCA9PT0gZi5hc3NldElkKSA6IG51bGw7CiAgICAgICAgICAgIGNvbnN0IGltZ1NyYyA9IGFzc2V0Py5waXhlbEltYWdlOwogICAgICAgICAgICBpZiAoIWltZ1NyYykgcmV0dXJuIG51bGw7CgogICAgICAgICAgICBjb25zdCBzbG90ID0gc2xvdERlZnMuZmluZChzID0+IHMuaWQgPT09IGYuc2xvdElkKTsKICAgICAgICAgICAgY29uc3QgZnVyU2l6ZSA9IE1hdGgucm91bmQoZnVyQmFzZSAqIDAuMjIgKiBmLnNjYWxlKTsKICAgICAgICAgICAgY29uc3QgaXNSdWcgPSAhIWFzc2V0Py50YWdzPy5pbmNsdWRlcygncnVnJyk7CgogICAgICAgICAgICBjb25zdCBhdXRvWiA9IE1hdGgucm91bmQoZi55ICogNCkgKyAyMDsKICAgICAgICAgICAgbGV0IHpJZHg6IG51bWJlcjsKICAgICAgICAgICAgaWYgKGlzUnVnKSB6SWR4ID0gMTsKICAgICAgICAgICAgZWxzZSBpZiAoZi56T3JkZXIgPT09ICdiYWNrJykgeklkeCA9IDIgKyBNYXRoLnJvdW5kKGF1dG9aIC8gMjAwKTsKICAgICAgICAgICAgZWxzZSBpZiAoZi56T3JkZXIgPT09ICdmcm9udCcpIHpJZHggPSAxMDAwICsgYXV0b1o7CiAgICAgICAgICAgIGVsc2UgeklkeCA9IGF1dG9aOwoKICAgICAgICAgICAgY29uc3QgcG9zWCA9IE1hdGgucm91bmQoKGYueCAvIDEwMCkgKiBwdyAtIGZ1clNpemUgLyAyKTsKICAgICAgICAgICAgY29uc3QgcG9zWSA9IE1hdGgucm91bmQoKGYueSAvIDEwMCkgKiBwaCAtIGZ1clNpemUgLyAyKTsKCiAgICAgICAgICAgIHJldHVybiAoCiAgICAgICAgICAgICAgPGRpdgogICAgICAgICAgICAgICAga2V5PXtmLnNsb3RJZH0KICAgICAgICAgICAgICAgIGNsYXNzTmFtZT0iYWJzb2x1dGUgcG9pbnRlci1ldmVudHMtbm9uZSIKICAgICAgICAgICAgICAgIHN0eWxlPXt7CiAgICAgICAgICAgICAgICAgIGxlZnQ6IHBvc1gsIHRvcDogcG9zWSwKICAgICAgICAgICAgICAgICAgd2lkdGg6IGZ1clNpemUsCiAgICAgICAgICAgICAgICAgIHpJbmRleDogeklkeCwKICAgICAgICAgICAgICAgIH19CiAgICAgICAgICAgICAgICB0aXRsZT17c2xvdD8ubmFtZX0KICAgICAgICAgICAgICA+CiAgICAgICAgICAgICAgICA8aW1nIHNyYz17aW1nU3JjfSBhbHQ9e3Nsb3Q/Lm5hbWUgfHwgZi5zbG90SWR9CiAgICAgICAgICAgICAgICAgIHN0eWxlPXt7CiAgICAgICAgICAgICAgICAgICAgZGlzcGxheTogJ2Jsb2NrJywKICAgICAgICAgICAgICAgICAgICB3aWR0aDogJzEwMCUnLAogICAgICAgICAgICAgICAgICAgIGhlaWdodDogJ2F1dG8nLAogICAgICAgICAgICAgICAgICAgIGltYWdlUmVuZGVyaW5nOiAncGl4ZWxhdGVkJywKICAgICAgICAgICAgICAgICAgICB0cmFuc2Zvcm06IGByb3RhdGUoJHtmLnJvdGF0aW9uIHx8IDB9ZGVnKWAsCiAgICAgICAgICAgICAgICAgIH19CiAgICAgICAgICAgICAgICAgIGRyYWdnYWJsZT17ZmFsc2V9CiAgICAgICAgICAgICAgICAvPgogICAgICAgICAgICAgIDwvZGl2PgogICAgICAgICAgICApOwogICAgICAgICAgfSl9CgogICAgICAgICAgey8qIOeUqOaIt+Wwj+S6uu+8iOi3n+maj++8jOWFiOe7mOWItuS9jiB677yM6L+Z5qC35LiO6KeS6Imy6YeN5Y+g5pe25Zyo5ZCO77yJICovfQogICAgICAgICAgPFNwcml0ZVBlcnNvbgogICAgICAgICAgICBwb3M9e3BsYXllclBvc30KICAgICAgICAgICAgc2l6ZT17cGxheWVyU2l6ZX0KICAgICAgICAgICAgc3ByaXRlPXtwbGF5ZXJTcHJpdGV9CiAgICAgICAgICAgIGxhYmVsPXt1c2VyTmFtZX0KICAgICAgICAgICAgbGFiZWxDb2xvcj0iYmctZW1lcmFsZC02MDAvNjAiCiAgICAgICAgICAgIHdhbGtpbmc9e2NoYXJXYWxraW5nfQogICAgICAgICAgICBmbGlwPXtjaGFyRmxpcH0KICAgICAgICAgICAgc3RlcD17d2Fsa1N0ZXB9CiAgICAgICAgICAgIHpCb29zdD17MH0KICAgICAgICAgICAgZGVmYXVsdENvbG9yPSJlbWVyYWxkIgogICAgICAgICAgLz4KCiAgICAgICAgICB7Lyog6KeS6Imy5bCP5Lq677yITlBD77yJICovfQogICAgICAgICAgPFNwcml0ZVBlcnNvbgogICAgICAgICAgICBwb3M9e2NoYXJQb3N9CiAgICAgICAgICAgIHNpemU9e2NoYXJTaXplfQogICAgICAgICAgICBzcHJpdGU9e2NoYXJTcHJpdGV9CiAgICAgICAgICAgIGxhYmVsPXtjaGFyTmFtZX0KICAgICAgICAgICAgbGFiZWxDb2xvcj0iYmctdmlvbGV0LTYwMC83MCIKICAgICAgICAgICAgd2Fsa2luZz17Y2hhcldhbGtpbmd9CiAgICAgICAgICAgIGZsaXA9e2NoYXJGbGlwfQogICAgICAgICAgICBzdGVwPXt3YWxrU3RlcH0KICAgICAgICAgICAgekJvb3N0PXsxfQogICAgICAgICAgICBkZWZhdWx0Q29sb3I9InZpb2xldCIKICAgICAgICAgIC8+CiAgICAgICAgPC9kaXY+CiAgICAgICl9CgogICAgICB7Lyog5Zy65pmv6L2s5o2i6buR5bmV77yI5reh5YWl5pe26KaG55uW5LiA5bGC77yJICovfQogICAgICB7dHJhbnNpdGlvblN0YXRlICE9PSAnaWRsZScgJiYgKAogICAgICAgIDxkaXYKICAgICAgICAgIGNsYXNzTmFtZT0iYWJzb2x1dGUgaW5zZXQtMCBwb2ludGVyLWV2ZW50cy1ub25lIGJnLWJsYWNrIgogICAgICAgICAgc3R5bGU9e3sKICAgICAgICAgICAgb3BhY2l0eTogdHJhbnNpdGlvblN0YXRlID09PSAnb3V0JyA/IDAuNyA6IDAsCiAgICAgICAgICAgIHRyYW5zaXRpb246ICdvcGFjaXR5IDM1MG1zIGVhc2UnLAogICAgICAgICAgfX0KICAgICAgICAvPgogICAgICApfQogICAgPC9kaXY+CiAgKTsKfTsKCi8vIOKUgOKUgOKUgCDlrZDnu4Tku7bvvJrlopkgLyDlnLDmnb/og4zmma8g4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSACgpjb25zdCBXYWxsT3JGbG9vcjogUmVhY3QuRkM8ewogIGZpZWxkOiBzdHJpbmcgfCB1bmRlZmluZWQ7CiAgZmlsbE1vZGU6ICd0aWxlJyB8ICdzdHJldGNoJyB8IHVuZGVmaW5lZDsKICBvZmZzZXRYOiBudW1iZXIgfCB1bmRlZmluZWQ7CiAgb2Zmc2V0WTogbnVtYmVyIHwgdW5kZWZpbmVkOwogIHRpbGVTaXplOiBudW1iZXI7CiAgZmFsbGJhY2s6IHN0cmluZzsKfT4gPSAoeyBmaWVsZCwgZmlsbE1vZGUsIG9mZnNldFgsIG9mZnNldFksIHRpbGVTaXplLCBmYWxsYmFjayB9KSA9PiB7CiAgY29uc3QgZCA9IGRlY29kZUNvbG9yRmllbGQoZmllbGQpOwogIGlmIChkLmtpbmQgPT09ICdpbWFnZScpIHsKICAgIGNvbnN0IHN0eWxlOiBSZWFjdC5DU1NQcm9wZXJ0aWVzID0gZmlsbE1vZGUgPT09ICdzdHJldGNoJwogICAgICA/IHsKICAgICAgICAgIGJhY2tncm91bmRJbWFnZTogYHVybCgke2QudmFsdWV9KWAsCiAgICAgICAgICBiYWNrZ3JvdW5kU2l6ZTogJ2NvdmVyJywKICAgICAgICAgIGJhY2tncm91bmRSZXBlYXQ6ICduby1yZXBlYXQnLAogICAgICAgICAgYmFja2dyb3VuZFBvc2l0aW9uOiBgJHtvZmZzZXRYID8/IDUwfSUgJHtvZmZzZXRZID8/IDUwfSVgLAogICAgICAgICAgaW1hZ2VSZW5kZXJpbmc6ICdwaXhlbGF0ZWQnLAogICAgICAgIH0KICAgICAgOiB7CiAgICAgICAgICBiYWNrZ3JvdW5kSW1hZ2U6IGB1cmwoJHtkLnZhbHVlfSlgLAogICAgICAgICAgYmFja2dyb3VuZFNpemU6IGAke3RpbGVTaXplfXB4ICR7dGlsZVNpemV9cHhgLAogICAgICAgICAgYmFja2dyb3VuZFJlcGVhdDogJ3JlcGVhdCcsCiAgICAgICAgICBpbWFnZVJlbmRlcmluZzogJ3BpeGVsYXRlZCcsCiAgICAgICAgfTsKICAgIHJldHVybiA8ZGl2IGNsYXNzTmFtZT0iYWJzb2x1dGUgaW5zZXQtMCIgc3R5bGU9e3N0eWxlfSAvPjsKICB9CiAgY29uc3QgY29sb3IgPSBkLmtpbmQgPT09ICdjb2xvcicgPyBkLnZhbHVlIDogZmFsbGJhY2s7CiAgcmV0dXJuIDxkaXYgY2xhc3NOYW1lPSJhYnNvbHV0ZSBpbnNldC0wIiBzdHlsZT17eyBiYWNrZ3JvdW5kQ29sb3I6IGNvbG9yIH19IC8+Owp9OwoKLy8g4pSA4pSA4pSAIOWtkOe7hOS7tu+8muWDj+e0oOWwj+S6uu+8iOinkuiJsuaIlueUqOaIt++8iSDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIAKCmNvbnN0IFNwcml0ZVBlcnNvbjogUmVhY3QuRkM8ewogIHBvczogeyB4OiBudW1iZXI7IHk6IG51bWJlciB9OwogIHNpemU6IG51bWJlcjsKICBzcHJpdGU/OiBzdHJpbmc7CiAgbGFiZWw6IHN0cmluZzsKICBsYWJlbENvbG9yOiBzdHJpbmc7CiAgd2Fsa2luZzogYm9vbGVhbjsKICBmbGlwOiBib29sZWFuOwogIHN0ZXA6IDAgfCAxOwogIHpCb29zdDogbnVtYmVyOwogIGRlZmF1bHRDb2xvcjogJ2VtZXJhbGQnIHwgJ3Zpb2xldCc7Cn0+ID0gKHsgcG9zLCBzaXplLCBzcHJpdGUsIGxhYmVsLCBsYWJlbENvbG9yLCB3YWxraW5nLCBmbGlwLCBzdGVwLCB6Qm9vc3QsIGRlZmF1bHRDb2xvciB9KSA9PiB7CiAgY29uc3QgYm9iID0gd2Fsa2luZyA/IChzdGVwID09PSAwID8gLTEgOiAwKSA6IDA7CiAgY29uc3QgdGlsdCA9IHdhbGtpbmcgPyAoc3RlcCA9PT0gMCA/IC00IDogNCkgOiAwOwogIGNvbnN0IGJhc2VDb2xvciA9IGRlZmF1bHRDb2xvciA9PT0gJ2VtZXJhbGQnCiAgICA/ICdsaW5lYXItZ3JhZGllbnQoMTM1ZGVnLCAjNmVlN2I3IDAlLCAjMzRkMzk5IDUwJSwgIzEwYjk4MSAxMDAlKScKICAgIDogJ2xpbmVhci1ncmFkaWVudCgxMzVkZWcsICNjNGI1ZmQgMCUsICNhNzhiZmEgNTAlLCAjOGI1Y2Y2IDEwMCUpJzsKCiAgcmV0dXJuICgKICAgIDxkaXYKICAgICAgY2xhc3NOYW1lPSJhYnNvbHV0ZSBwb2ludGVyLWV2ZW50cy1ub25lIgogICAgICBzdHlsZT17ewogICAgICAgIGxlZnQ6IGAke3Bvcy54fSVgLAogICAgICAgIHRvcDogYCR7cG9zLnl9JWAsCiAgICAgICAgd2lkdGg6IHNpemUsCiAgICAgICAgaGVpZ2h0OiBzaXplLAogICAgICAgIHRyYW5zZm9ybTogJ3RyYW5zbGF0ZSgtNTAlLCAtMTAwJSknLAogICAgICAgIHRyYW5zaXRpb246ICdsZWZ0IDkwMG1zIGVhc2UtaW4tb3V0LCB0b3AgOTAwbXMgZWFzZS1pbi1vdXQnLAogICAgICAgIHpJbmRleDogTWF0aC5yb3VuZChwb3MueSAqIDQpICsgMjAgKyB6Qm9vc3QsCiAgICAgIH19CiAgICA+CiAgICAgIDxkaXYKICAgICAgICBzdHlsZT17ewogICAgICAgICAgd2lkdGg6ICcxMDAlJywKICAgICAgICAgIGhlaWdodDogJzEwMCUnLAogICAgICAgICAgdHJhbnNmb3JtOiBgc2NhbGVYKCR7ZmxpcCA/IC0xIDogMX0pIHJvdGF0ZSgke3RpbHR9ZGVnKSB0cmFuc2xhdGVZKCR7Ym9ifXB4KWAsCiAgICAgICAgICB0cmFuc2Zvcm1PcmlnaW46ICdjZW50ZXIgYm90dG9tJywKICAgICAgICAgIHRyYW5zaXRpb246ICd0cmFuc2Zvcm0gMjAwbXMgZWFzZS1vdXQnLAogICAgICAgIH19CiAgICAgID4KICAgICAgICB7c3ByaXRlID8gKAogICAgICAgICAgPGltZyBzcmM9e3Nwcml0ZX0KICAgICAgICAgICAgc3R5bGU9e3sKICAgICAgICAgICAgICBkaXNwbGF5OiAnYmxvY2snLCB3aWR0aDogJzEwMCUnLCBoZWlnaHQ6ICcxMDAlJywKICAgICAgICAgICAgICBvYmplY3RGaXQ6ICdjb250YWluJywgaW1hZ2VSZW5kZXJpbmc6ICdwaXhlbGF0ZWQnLAogICAgICAgICAgICAgIGZpbHRlcjogJ2Ryb3Atc2hhZG93KDAgMnB4IDJweCByZ2JhKDAsMCwwLDAuMzUpKScsCiAgICAgICAgICAgIH19CiAgICAgICAgICAgIGRyYWdnYWJsZT17ZmFsc2V9CiAgICAgICAgICAgIGFsdD17bGFiZWx9CiAgICAgICAgICAvPgogICAgICAgICkgOiAoCiAgICAgICAgICA8RGVmYXVsdFNwcml0ZSBiZ0dyYWRpZW50PXtiYXNlQ29sb3J9IC8+CiAgICAgICAgKX0KICAgICAgPC9kaXY+CiAgICAgIHsvKiDmoIfnrb4gKi99CiAgICAgIDxkaXYgY2xhc3NOYW1lPSJhYnNvbHV0ZSBsZWZ0LTEvMiAtdHJhbnNsYXRlLXgtMS8yIC1ib3R0b20tNCI+CiAgICAgICAgPHNwYW4gY2xhc3NOYW1lPXtgdGV4dC1bOHB4XSBweC0xIHJvdW5kZWQtc20gdGV4dC13aGl0ZS85MCB3aGl0ZXNwYWNlLW5vd3JhcCAke2xhYmVsQ29sb3J9YH0+CiAgICAgICAgICB7bGFiZWx9CiAgICAgICAgPC9zcGFuPgogICAgICA8L2Rpdj4KICAgICAgey8qIOiEmuS4i+mYtOW9sSAqL30KICAgICAgPGRpdiBjbGFzc05hbWU9ImFic29sdXRlIGxlZnQtMS8yIC10cmFuc2xhdGUteC0xLzIgcm91bmRlZC1mdWxsIGJnLWJsYWNrLzI1IgogICAgICAgIHN0eWxlPXt7IHdpZHRoOiBzaXplICogMC41NSwgaGVpZ2h0OiAzLCBib3R0b206IC0yIH19CiAgICAgIC8+CiAgICA8L2Rpdj4KICApOwp9OwoKY29uc3QgRGVmYXVsdFNwcml0ZTogUmVhY3QuRkM8eyBiZ0dyYWRpZW50OiBzdHJpbmcgfT4gPSAoeyBiZ0dyYWRpZW50IH0pID0+ICgKICA8ZGl2IGNsYXNzTmFtZT0icmVsYXRpdmUgdy1mdWxsIGgtZnVsbCI+CiAgICA8ZGl2IGNsYXNzTmFtZT0iYWJzb2x1dGUgaW5zZXQteC1bMTUlXSBpbnNldC15LVsxMCVdIHJvdW5kZWQtc20gYm9yZGVyIGJvcmRlci13aGl0ZS80MCIKICAgICAgc3R5bGU9e3sgYmFja2dyb3VuZDogYmdHcmFkaWVudCwgaW1hZ2VSZW5kZXJpbmc6ICdwaXhlbGF0ZWQnIH19PgogICAgICA8ZGl2IGNsYXNzTmFtZT0iYWJzb2x1dGUgdG9wLVsyNSVdIGxlZnQtWzE1JV0gdy0xIGgtMSByb3VuZGVkLWZ1bGwgYmctd2hpdGUiIC8+CiAgICAgIDxkaXYgY2xhc3NOYW1lPSJhYnNvbHV0ZSB0b3AtWzI1JV0gcmlnaHQtWzE1JV0gdy0xIGgtMSByb3VuZGVkLWZ1bGwgYmctd2hpdGUiIC8+CiAgICAgIDxkaXYgY2xhc3NOYW1lPSJhYnNvbHV0ZSB0b3AtWzMwJV0gbGVmdC1bMjAlXSB3LVsycHhdIGgtWzJweF0gcm91bmRlZC1mdWxsIGJnLXNsYXRlLTkwMCIgLz4KICAgICAgPGRpdiBjbGFzc05hbWU9ImFic29sdXRlIHRvcC1bMzAlXSByaWdodC1bMjAlXSB3LVsycHhdIGgtWzJweF0gcm91bmRlZC1mdWxsIGJnLXNsYXRlLTkwMCIgLz4KICAgIDwvZGl2PgogIDwvZGl2PgopOwoKZXhwb3J0IGRlZmF1bHQgTWVtb3J5RGl2ZVJvb207Cg==
+/**
+ * Memory Dive — 上屏房间渲染
+ *
+ * 修复 ROOM_SCALE 2.2 导致的家具错位问题：
+ *   - 通过 ResizeObserver 测量容器，动态计算适配尺寸
+ *   - 房间按宽高比完整放入视口，家具 % 坐标与编辑器完全一致
+ *   - 角色 / 用户 sprite 按 tile 比例缩放
+ *
+ * 角色与用户小人使用 CSS transition 自动过渡到 charPos / playerPos，
+ *   上层只需设置目标位置即可获得"行走"动画。
+ */
+
+import React, { useEffect, useRef, useState, useMemo } from 'react';
+import type { MemoryRoom } from '../../utils/memoryPalace/types';
+import type { PixelHomeState, PixelRoomLayout, PixelAsset } from './types';
+import { decodeColorField } from './types';
+import { ROOM_SIZES, ROOM_SLOTS } from './roomTemplates';
+
+const TILE_BASE = 28;
+
+const FLOOR_STYLES: Record<string, { wallFace: string; floor: string }> = {
+  living_room: { wallFace: '#e8d5b8', floor: '#c4a882' },
+  bedroom:     { wallFace: '#e8ddd0', floor: '#d4b896' },
+  study:       { wallFace: '#c9b99a', floor: '#8b6f47' },
+  attic:       { wallFace: '#6b5d50', floor: '#706050' },
+  self_room:   { wallFace: '#f0d0e0', floor: '#d4a8c0' },
+  user_room:   { wallFace: '#c8e0d0', floor: '#a8c4b0' },
+  windowsill:  { wallFace: '#a8bfb0', floor: '#92a89c' },
+};
+
+interface Props {
+  roomId: MemoryRoom;
+  layout: PixelRoomLayout | undefined;
+  assets: PixelAsset[];
+  charSprite?: string;
+  playerSprite?: string;
+  charName: string;
+  userName: string;
+  charPos: { x: number; y: number };
+  playerPos: { x: number; y: number };
+  charWalking: boolean;
+  charFlip: boolean;
+  walkStep: 0 | 1;
+  transitionState: 'idle' | 'out' | 'in';
+}
+
+const MemoryDiveRoom: React.FC<Props> = ({
+  roomId, layout, assets, charSprite, playerSprite, charName, userName,
+  charPos, playerPos, charWalking, charFlip, walkStep, transitionState,
+}) => {
+  const viewportRef = useRef<HTMLDivElement>(null);
+  const [size, setSize] = useState({ w: 0, h: 0 });
+
+  useEffect(() => {
+    const el = viewportRef.current;
+    if (!el) return;
+    const update = () => {
+      const r = el.getBoundingClientRect();
+      setSize({ w: r.width, h: r.height });
+    };
+    update();
+    const ro = new ResizeObserver(update);
+    ro.observe(el);
+    return () => ro.disconnect();
+  }, []);
+
+  const roomSize = ROOM_SIZES[roomId] || { w: 10, h: 6 };
+
+  // 关键：按宽高比适配视口，保证完整可见、不裁切
+  const { pw, ph, tilePx } = useMemo(() => {
+    if (size.w === 0 || size.h === 0) return { pw: 0, ph: 0, tilePx: TILE_BASE };
+    const aspect = roomSize.w / roomSize.h;
+    const viewportAspect = size.w / size.h;
+    let width: number, height: number;
+    if (viewportAspect > aspect) {
+      // 视口更宽 → 以高度填满
+      height = size.h;
+      width = height * aspect;
+    } else {
+      // 视口更瘦 → 以宽度填满
+      width = size.w;
+      height = width / aspect;
+    }
+    // 离散化到整数像素，避免子像素渲染
+    width = Math.floor(width);
+    height = Math.floor(height);
+    return { pw: width, ph: height, tilePx: width / roomSize.w };
+  }, [size.w, size.h, roomSize.w, roomSize.h]);
+
+  const roomStyle = FLOOR_STYLES[roomId] || FLOOR_STYLES.living_room;
+  // 与编辑器 WALL_TOP_RATIO 保持一致，避免墙/地板分界线位置不同导致家具看起来错位
+  const wallH = Math.round(ph * 0.38);
+  // 家具尺寸：与编辑器保持同一公式
+  const furBase = Math.min(pw, ph);
+  // 角色尺寸固定以视口（容器）为基准，而不是 tilePx ——
+  // 否则像卧室 5x5、客厅 10x6 这种宽高比差异会让 tilePx 在房间间相差近 2 倍，
+  // 角色在卧室看起来比客厅大很多。视口本身在房间切换时尺寸不变，这里才能做到
+  // "走到任何房间都是同样大小的小人"。
+  const charBase = Math.min(size.w, size.h) || furBase;
+  const charSize = Math.max(22, Math.round(charBase * 0.11));
+  const playerSize = Math.max(20, Math.round(charBase * 0.10));
+
+  const slotDefs = ROOM_SLOTS[roomId] || [];
+
+  const transitionOpacity = transitionState === 'out' ? 0 : 1;
+  const transitionFilter = transitionState === 'out' ? 'brightness(0.3)' : 'brightness(1)';
+
+  return (
+    <div ref={viewportRef} className="relative w-full h-full overflow-hidden bg-slate-950 flex items-center justify-center">
+      {/* 房间画布 —— 固定像素宽高，家具 % 定位自然对齐 */}
+      {pw > 0 && (
+        <div
+          className="relative"
+          style={{
+            width: pw,
+            height: ph,
+            opacity: transitionOpacity,
+            filter: transitionFilter,
+            transition: 'opacity 350ms ease, filter 350ms ease',
+          }}
+        >
+          {/* 墙面 */}
+          <div className="absolute inset-x-0 top-0 overflow-hidden" style={{ height: wallH }}>
+            <WallOrFloor
+              field={layout?.wallColor}
+              fillMode={layout?.wallFillMode}
+              offsetX={layout?.wallOffsetX}
+              offsetY={layout?.wallOffsetY}
+              tileSize={tilePx * 2}
+              fallback={roomStyle.wallFace}
+            />
+          </div>
+
+          {/* 地板 */}
+          <div className="absolute inset-x-0 bottom-0 overflow-hidden" style={{ top: wallH }}>
+            <WallOrFloor
+              field={layout?.floorColor}
+              fillMode={layout?.floorFillMode}
+              offsetX={layout?.floorOffsetX}
+              offsetY={layout?.floorOffsetY}
+              tileSize={tilePx}
+              fallback={roomStyle.floor}
+            />
+          </div>
+
+          {/* 家具（纯装饰，无互动、无访问状态）
+             位置与编辑器完全一致：锚点是家具方框（width × width）的中心，
+             用 px 偏移 -furSize/2 定位，而不是 translate(-50%, -50%) ——
+             因为 translate 会用 img 的实际高度（height:auto），高家具就会往上漂。
+             编辑器里一直是用 furSize（宽度）作为垂直偏移基准的，这里也一样，
+             潜行视图的家具位置就能和房间编辑器里拖出来的位置一模一样。 */}
+          {layout?.furniture.map(f => {
+            const asset = f.assetId ? assets.find(a => a.id === f.assetId) : null;
+            const imgSrc = asset?.pixelImage;
+            if (!imgSrc) return null;
+
+            const slot = slotDefs.find(s => s.id === f.slotId);
+            const furSize = Math.round(furBase * 0.22 * f.scale);
+            const isRug = !!asset?.tags?.includes('rug');
+
+            const autoZ = Math.round(f.y * 4) + 20;
+            let zIdx: number;
+            if (isRug) zIdx = 1;
+            else if (f.zOrder === 'back') zIdx = 2 + Math.round(autoZ / 200);
+            else if (f.zOrder === 'front') zIdx = 1000 + autoZ;
+            else zIdx = autoZ;
+
+            const posX = Math.round((f.x / 100) * pw - furSize / 2);
+            const posY = Math.round((f.y / 100) * ph - furSize / 2);
+
+            return (
+              <div
+                key={f.slotId}
+                className="absolute pointer-events-none"
+                style={{
+                  left: posX, top: posY,
+                  width: furSize,
+                  zIndex: zIdx,
+                }}
+                title={slot?.name}
+              >
+                <img src={imgSrc} alt={slot?.name || f.slotId}
+                  style={{
+                    display: 'block',
+                    width: '100%',
+                    height: 'auto',
+                    imageRendering: 'pixelated',
+                    transform: `rotate(${f.rotation || 0}deg)`,
+                  }}
+                  draggable={false}
+                />
+              </div>
+            );
+          })}
+
+          {/* 用户小人（跟随，先绘制低 z，这样与角色重叠时在后） */}
+          <SpritePerson
+            pos={playerPos}
+            size={playerSize}
+            sprite={playerSprite}
+            label={userName}
+            labelColor="bg-emerald-600/60"
+            walking={charWalking}
+            flip={charFlip}
+            step={walkStep}
+            zBoost={0}
+            defaultColor="emerald"
+          />
+
+          {/* 角色小人（NPC） */}
+          <SpritePerson
+            pos={charPos}
+            size={charSize}
+            sprite={charSprite}
+            label={charName}
+            labelColor="bg-violet-600/70"
+            walking={charWalking}
+            flip={charFlip}
+            step={walkStep}
+            zBoost={1}
+            defaultColor="violet"
+          />
+        </div>
+      )}
+
+      {/* 场景转换黑幕（淡入时覆盖一层） */}
+      {transitionState !== 'idle' && (
+        <div
+          className="absolute inset-0 pointer-events-none bg-black"
+          style={{
+            opacity: transitionState === 'out' ? 0.7 : 0,
+            transition: 'opacity 350ms ease',
+          }}
+        />
+      )}
+    </div>
+  );
+};
+
+// ─── 子组件：墙 / 地板背景 ────────────────────────────
+
+const WallOrFloor: React.FC<{
+  field: string | undefined;
+  fillMode: 'tile' | 'stretch' | undefined;
+  offsetX: number | undefined;
+  offsetY: number | undefined;
+  tileSize: number;
+  fallback: string;
+}> = ({ field, fillMode, offsetX, offsetY, tileSize, fallback }) => {
+  const d = decodeColorField(field);
+  if (d.kind === 'image') {
+    const style: React.CSSProperties = fillMode === 'stretch'
+      ? {
+          backgroundImage: `url(${d.value})`,
+          backgroundSize: 'cover',
+          backgroundRepeat: 'no-repeat',
+          backgroundPosition: `${offsetX ?? 50}% ${offsetY ?? 50}%`,
+          imageRendering: 'pixelated',
+        }
+      : {
+          backgroundImage: `url(${d.value})`,
+          backgroundSize: `${tileSize}px ${tileSize}px`,
+          backgroundRepeat: 'repeat',
+          imageRendering: 'pixelated',
+        };
+    return <div className="absolute inset-0" style={style} />;
+  }
+  const color = d.kind === 'color' ? d.value : fallback;
+  return <div className="absolute inset-0" style={{ backgroundColor: color }} />;
+};
+
+// ─── 子组件：像素小人（角色或用户） ───────────────────
+
+const SpritePerson: React.FC<{
+  pos: { x: number; y: number };
+  size: number;
+  sprite?: string;
+  label: string;
+  labelColor: string;
+  walking: boolean;
+  flip: boolean;
+  step: 0 | 1;
+  zBoost: number;
+  defaultColor: 'emerald' | 'violet';
+}> = ({ pos, size, sprite, label, labelColor, walking, flip, step, zBoost, defaultColor }) => {
+  const bob = walking ? (step === 0 ? -1 : 0) : 0;
+  const tilt = walking ? (step === 0 ? -4 : 4) : 0;
+  const baseColor = defaultColor === 'emerald'
+    ? 'linear-gradient(135deg, #6ee7b7 0%, #34d399 50%, #10b981 100%)'
+    : 'linear-gradient(135deg, #c4b5fd 0%, #a78bfa 50%, #8b5cf6 100%)';
+
+  return (
+    <div
+      className="absolute pointer-events-none"
+      style={{
+        left: `${pos.x}%`,
+        top: `${pos.y}%`,
+        width: size,
+        height: size,
+        transform: 'translate(-50%, -100%)',
+        transition: 'left 900ms ease-in-out, top 900ms ease-in-out',
+        zIndex: Math.round(pos.y * 4) + 20 + zBoost,
+      }}
+    >
+      <div
+        style={{
+          width: '100%',
+          height: '100%',
+          transform: `scaleX(${flip ? -1 : 1}) rotate(${tilt}deg) translateY(${bob}px)`,
+          transformOrigin: 'center bottom',
+          transition: 'transform 200ms ease-out',
+        }}
+      >
+        {sprite ? (
+          <img src={sprite}
+            style={{
+              display: 'block', width: '100%', height: '100%',
+              objectFit: 'contain', imageRendering: 'pixelated',
+              filter: 'drop-shadow(0 2px 2px rgba(0,0,0,0.35))',
+            }}
+            draggable={false}
+            alt={label}
+          />
+        ) : (
+          <DefaultSprite bgGradient={baseColor} />
+        )}
+      </div>
+      {/* 标签 */}
+      <div className="absolute left-1/2 -translate-x-1/2 -bottom-4">
+        <span className={`text-[8px] px-1 rounded-sm text-white/90 whitespace-nowrap ${labelColor}`}>
+          {label}
+        </span>
+      </div>
+      {/* 脚下阴影 */}
+      <div className="absolute left-1/2 -translate-x-1/2 rounded-full bg-black/25"
+        style={{ width: size * 0.55, height: 3, bottom: -2 }}
+      />
+    </div>
+  );
+};
+
+const DefaultSprite: React.FC<{ bgGradient: string }> = ({ bgGradient }) => (
+  <div className="relative w-full h-full">
+    <div className="absolute inset-x-[15%] inset-y-[10%] rounded-sm border border-white/40"
+      style={{ background: bgGradient, imageRendering: 'pixelated' }}>
+      <div className="absolute top-[25%] left-[15%] w-1 h-1 rounded-full bg-white" />
+      <div className="absolute top-[25%] right-[15%] w-1 h-1 rounded-full bg-white" />
+      <div className="absolute top-[30%] left-[20%] w-[2px] h-[2px] rounded-full bg-slate-900" />
+      <div className="absolute top-[30%] right-[20%] w-[2px] h-[2px] rounded-full bg-slate-900" />
+    </div>
+  </div>
+);
+
+export default MemoryDiveRoom;

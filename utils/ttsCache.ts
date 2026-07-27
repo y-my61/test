@@ -1,1 +1,74 @@
-LyoqCiAqIFNoYXJlZCBsb25nLXRlcm0gY2FjaGUgZm9yIE1pbmlNYXggVFRTIGF1ZGlvLgogKgogKiBLZXlpbmcgc3RyYXRlZ3k6IGNhbGxlcnMgYnVpbGQgYSBwbGFpbiBvYmplY3QgZGVzY3JpYmluZyB0aGUgcmVxdWVzdAogKiAodGV4dCArIHZvaWNlIHNldHRpbmdzICsgbW9kZWwgKyBsYW5ndWFnZV9ib29zdCwgZXRjLiksIGhhc2ggaXQsIGFuZCB1c2UgdGhlCiAqIHJlc3VsdGluZyBzdHJpbmcgYXMgdGhlIEluZGV4ZWREQiBrZXkuIFR3byBjYWxsZXJzIHRoYXQgc2VuZCB0aGUgc2FtZQogKiBlZmZlY3RpdmUgcmVxdWVzdCByZXVzZSB0aGUgc2FtZSBjYWNoZWQgYXVkaW8sIHJlZ2FyZGxlc3Mgb2Ygd2hpY2ggYXBwCiAqIChDaGF0IC8gRGF0ZSAvIENhbGwgLyBWb2ljZURlc2lnbmVyKSBnZW5lcmF0ZWQgaXQgZmlyc3QuCiAqCiAqIFN0b3JhZ2UgbGl2ZXMgaW4gdGhlIGV4aXN0aW5nIGBhc3NldHNgIG9iamVjdCBzdG9yZSB2aWEgYERCLnNhdmVBc3NldFJhd2AgLwogKiBgREIuZ2V0QXNzZXRSYXdgLCBzbyBubyBzY2hlbWEgbWlncmF0aW9uIGlzIHJlcXVpcmVkLiBFbnRyaWVzIHJlY29yZAogKiBgY3JlYXRlZEF0YCAvIGBsYXN0VXNlZEF0YCB0aW1lc3RhbXBzIGZvciBvcHRpb25hbCBmdXR1cmUgcHJ1bmluZzsgd2UgZG9uJ3QKICogYXV0by1ldmljdCB5ZXQg4oCUIHRoZSB1c2VyIGV4cGxpY2l0bHkgYXNrZWQgZm9yIGEgbG9uZy1saXZlZCBjYWNoZS4KICovCmltcG9ydCB7IERCIH0gZnJvbSAnLi9kYic7CgovLyBjeXJiNTM6IGZhc3Qgbm9uLWNyeXB0byA2NC1iaXQgaGFzaC4gQ29sbGlzaW9ucyBhcmUgYXN0cm9ub21pY2FsbHkgdW5saWtlbHkKLy8gZm9yIHRoZSBudW1iZXIgb2YgZGlzdGluY3QgKHRleHQsIHZvaWNlLWNvbmZpZykgcGFpcnMgYSB1c2VyIHdpbGwgZ2VuZXJhdGUuCmZ1bmN0aW9uIGN5cmI1MyhzdHI6IHN0cmluZywgc2VlZCA9IDApOiBzdHJpbmcgewogIGxldCBoMSA9IDB4ZGVhZGJlZWYgXiBzZWVkOwogIGxldCBoMiA9IDB4NDFjNmNlNTcgXiBzZWVkOwogIGZvciAobGV0IGkgPSAwOyBpIDwgc3RyLmxlbmd0aDsgaSsrKSB7CiAgICBjb25zdCBjaCA9IHN0ci5jaGFyQ29kZUF0KGkpOwogICAgaDEgPSBNYXRoLmltdWwoaDEgXiBjaCwgMjY1NDQzNTc2MSk7CiAgICBoMiA9IE1hdGguaW11bChoMiBeIGNoLCAxNTk3MzM0Njc3KTsKICB9CiAgaDEgPSBNYXRoLmltdWwoaDEgXiAoaDEgPj4+IDE2KSwgMjI0NjgyMjUwNyk7CiAgaDEgXj0gTWF0aC5pbXVsKGgyIF4gKGgyID4+PiAxMyksIDMyNjY0ODk5MDkpOwogIGgyID0gTWF0aC5pbXVsKGgyIF4gKGgyID4+PiAxNiksIDIyNDY4MjI1MDcpOwogIGgyIF49IE1hdGguaW11bChoMSBeIChoMSA+Pj4gMTMpLCAzMjY2NDg5OTA5KTsKICByZXR1cm4gKGgyID4+PiAwKS50b1N0cmluZygxNikucGFkU3RhcnQoOCwgJzAnKSArIChoMSA+Pj4gMCkudG9TdHJpbmcoMTYpLnBhZFN0YXJ0KDgsICcwJyk7Cn0KCi8vIERldGVybWluaXN0aWMgSlNPTjogc29ydHMgb2JqZWN0IGtleXMgc28gZXF1aXZhbGVudCBvYmplY3RzIGhhc2ggaWRlbnRpY2FsbHkKLy8gcmVnYXJkbGVzcyBvZiBpbnNlcnRpb24gb3JkZXIuCmZ1bmN0aW9uIHN0YWJsZVN0cmluZ2lmeSh2YWx1ZTogYW55KTogc3RyaW5nIHsKICBpZiAodmFsdWUgPT09IG51bGwgfHwgdmFsdWUgPT09IHVuZGVmaW5lZCkgcmV0dXJuICdudWxsJzsKICBpZiAodHlwZW9mIHZhbHVlICE9PSAnb2JqZWN0JykgcmV0dXJuIEpTT04uc3RyaW5naWZ5KHZhbHVlKTsKICBpZiAoQXJyYXkuaXNBcnJheSh2YWx1ZSkpIHJldHVybiAnWycgKyB2YWx1ZS5tYXAoc3RhYmxlU3RyaW5naWZ5KS5qb2luKCcsJykgKyAnXSc7CiAgY29uc3Qga2V5cyA9IE9iamVjdC5rZXlzKHZhbHVlKS5zb3J0KCk7CiAgcmV0dXJuICd7JyArIGtleXMubWFwKGsgPT4gSlNPTi5zdHJpbmdpZnkoaykgKyAnOicgKyBzdGFibGVTdHJpbmdpZnkodmFsdWVba10pKS5qb2luKCcsJykgKyAnfSc7Cn0KCmV4cG9ydCBmdW5jdGlvbiBoYXNoVHRzUGFyYW1zKHBhcmFtczogYW55KTogc3RyaW5nIHsKICByZXR1cm4gJ3R0c18nICsgY3lyYjUzKHN0YWJsZVN0cmluZ2lmeShwYXJhbXMpKTsKfQoKaW50ZXJmYWNlIFR0c0NhY2hlRW50cnkgewogIGJsb2I6IEJsb2I7CiAgY3JlYXRlZEF0OiBudW1iZXI7CiAgbGFzdFVzZWRBdDogbnVtYmVyOwp9CgpleHBvcnQgYXN5bmMgZnVuY3Rpb24gZ2V0Q2FjaGVkVHRzKGtleTogc3RyaW5nKTogUHJvbWlzZTxCbG9iIHwgbnVsbD4gewogIHRyeSB7CiAgICBjb25zdCBlbnRyeSA9IChhd2FpdCBEQi5nZXRBc3NldFJhdyhrZXkpKSBhcyBUdHNDYWNoZUVudHJ5IHwgbnVsbDsKICAgIGlmICghZW50cnkgfHwgIShlbnRyeS5ibG9iIGluc3RhbmNlb2YgQmxvYikpIHJldHVybiBudWxsOwogICAgLy8gRmlyZS1hbmQtZm9yZ2V0IHRvdWNoIHNvIGZ1dHVyZSBwcnVuaW5nIGNhbiBrZWVwIHRoZSBob3Qgc2V0LgogICAgREIuc2F2ZUFzc2V0UmF3KGtleSwgeyAuLi5lbnRyeSwgbGFzdFVzZWRBdDogRGF0ZS5ub3coKSB9KS5jYXRjaCgoKSA9PiB7IC8qIGlnbm9yZSAqLyB9KTsKICAgIHJldHVybiBlbnRyeS5ibG9iOwogIH0gY2F0Y2ggewogICAgcmV0dXJuIG51bGw7CiAgfQp9CgpleHBvcnQgYXN5bmMgZnVuY3Rpb24gc2F2ZUNhY2hlZFR0cyhrZXk6IHN0cmluZywgYmxvYjogQmxvYik6IFByb21pc2U8dm9pZD4gewogIHRyeSB7CiAgICBjb25zdCBub3cgPSBEYXRlLm5vdygpOwogICAgY29uc3QgZW50cnk6IFR0c0NhY2hlRW50cnkgPSB7IGJsb2IsIGNyZWF0ZWRBdDogbm93LCBsYXN0VXNlZEF0OiBub3cgfTsKICAgIGF3YWl0IERCLnNhdmVBc3NldFJhdyhrZXksIGVudHJ5KTsKICB9IGNhdGNoIChlKSB7CiAgICBjb25zb2xlLndhcm4oJ1tUVFMgY2FjaGVdIHNhdmUgZmFpbGVkJywgZSk7CiAgfQp9Cg==
+/**
+ * Shared long-term cache for MiniMax TTS audio.
+ *
+ * Keying strategy: callers build a plain object describing the request
+ * (text + voice settings + model + language_boost, etc.), hash it, and use the
+ * resulting string as the IndexedDB key. Two callers that send the same
+ * effective request reuse the same cached audio, regardless of which app
+ * (Chat / Date / Call / VoiceDesigner) generated it first.
+ *
+ * Storage lives in the existing `assets` object store via `DB.saveAssetRaw` /
+ * `DB.getAssetRaw`, so no schema migration is required. Entries record
+ * `createdAt` / `lastUsedAt` timestamps for optional future pruning; we don't
+ * auto-evict yet — the user explicitly asked for a long-lived cache.
+ */
+import { DB } from './db';
+
+// cyrb53: fast non-crypto 64-bit hash. Collisions are astronomically unlikely
+// for the number of distinct (text, voice-config) pairs a user will generate.
+function cyrb53(str: string, seed = 0): string {
+  let h1 = 0xdeadbeef ^ seed;
+  let h2 = 0x41c6ce57 ^ seed;
+  for (let i = 0; i < str.length; i++) {
+    const ch = str.charCodeAt(i);
+    h1 = Math.imul(h1 ^ ch, 2654435761);
+    h2 = Math.imul(h2 ^ ch, 1597334677);
+  }
+  h1 = Math.imul(h1 ^ (h1 >>> 16), 2246822507);
+  h1 ^= Math.imul(h2 ^ (h2 >>> 13), 3266489909);
+  h2 = Math.imul(h2 ^ (h2 >>> 16), 2246822507);
+  h2 ^= Math.imul(h1 ^ (h1 >>> 13), 3266489909);
+  return (h2 >>> 0).toString(16).padStart(8, '0') + (h1 >>> 0).toString(16).padStart(8, '0');
+}
+
+// Deterministic JSON: sorts object keys so equivalent objects hash identically
+// regardless of insertion order.
+function stableStringify(value: any): string {
+  if (value === null || value === undefined) return 'null';
+  if (typeof value !== 'object') return JSON.stringify(value);
+  if (Array.isArray(value)) return '[' + value.map(stableStringify).join(',') + ']';
+  const keys = Object.keys(value).sort();
+  return '{' + keys.map(k => JSON.stringify(k) + ':' + stableStringify(value[k])).join(',') + '}';
+}
+
+export function hashTtsParams(params: any): string {
+  return 'tts_' + cyrb53(stableStringify(params));
+}
+
+interface TtsCacheEntry {
+  blob: Blob;
+  createdAt: number;
+  lastUsedAt: number;
+}
+
+export async function getCachedTts(key: string): Promise<Blob | null> {
+  try {
+    const entry = (await DB.getAssetRaw(key)) as TtsCacheEntry | null;
+    if (!entry || !(entry.blob instanceof Blob)) return null;
+    // Fire-and-forget touch so future pruning can keep the hot set.
+    DB.saveAssetRaw(key, { ...entry, lastUsedAt: Date.now() }).catch(() => { /* ignore */ });
+    return entry.blob;
+  } catch {
+    return null;
+  }
+}
+
+export async function saveCachedTts(key: string, blob: Blob): Promise<void> {
+  try {
+    const now = Date.now();
+    const entry: TtsCacheEntry = { blob, createdAt: now, lastUsedAt: now };
+    await DB.saveAssetRaw(key, entry);
+  } catch (e) {
+    console.warn('[TTS cache] save failed', e);
+  }
+}

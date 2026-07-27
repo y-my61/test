@@ -1,1 +1,150 @@
-LyoqCiAqIFVuaWZpZWQgc3BlZWNoLXRvLXRleHQgKFNUVCkg4oCUIHVzZWQgYnkgdGhlIENhbGwgYXBwIGZvciB2b2ljZSBpbnB1dC4KICoKICogSHlicmlkIHN0cmF0ZWd5IChBK0IpOgogKiAgIC0gV2ViIHBsYXRmb3JtICDihpIgbmF0aXZlIGB3ZWJraXRTcGVlY2hSZWNvZ25pdGlvbmAgLyBgU3BlZWNoUmVjb2duaXRpb25gCiAqICAgICAgICAgICAgICAgICAgICAgKHplcm8gZGVwZW5kZW5jeSwgc3RyZWFtcyBpbnRlcmltIHJlc3VsdHMpLgogKiAgIC0gQ2FwYWNpdG9yIGFwcCDihpIgYEBjYXBhY2l0b3ItY29tbXVuaXR5L3NwZWVjaC1yZWNvZ25pdGlvbmAgKG9uLWRldmljZSBjYXBhYmxlKSwKICogICAgICAgICAgICAgICAgICAgICBsb2FkZWQgdmlhIGR5bmFtaWMgaW1wb3J0IHNvIGl0IG5ldmVyIGVudGVycyB0aGUgd2ViIGJ1bmRsZS4KICoKICogVGhlIHVzZXIgc3BlYWtzIENoaW5lc2UgdG8gdGhlIGNoYXJhY3RlciBieSBkZWZhdWx0LCBzbyB0aGUgZGVmYXVsdCByZWNvZ25pdGlvbgogKiBsYW5ndWFnZSBpcyB6aC1DTiByZWdhcmRsZXNzIG9mIHRoZSBjaGFyYWN0ZXIncyBUVFMgb3V0cHV0IGxhbmd1YWdlLgogKi8KaW1wb3J0IHsgQ2FwYWNpdG9yIH0gZnJvbSAnQGNhcGFjaXRvci9jb3JlJzsKCmV4cG9ydCBpbnRlcmZhY2UgU3R0Q2FsbGJhY2tzIHsKICAvKiogRmlyZWQgcmVwZWF0ZWRseSB3aXRoIHRoZSBiZXN0LXNvLWZhciB0cmFuc2NyaXB0IChpbnRlcmltICsgZmluYWwpLiAqLwogIG9uUGFydGlhbD86ICh0ZXh0OiBzdHJpbmcpID0+IHZvaWQ7CiAgLyoqIEZpcmVkIG9uY2Ugd2l0aCB0aGUgZmluYWwgdHJhbnNjcmlwdCB3aGVuIHJlY29nbml0aW9uIHNldHRsZXMuICovCiAgb25GaW5hbD86ICh0ZXh0OiBzdHJpbmcpID0+IHZvaWQ7CiAgLyoqIEZpcmVkIG9uIGFueSByZWNvZ25pdGlvbiBlcnJvciAoYWxyZWFkeSB0dXJuZWQgaW50byBhIGZyaWVuZGx5IG1lc3NhZ2UpLiAqLwogIG9uRXJyb3I/OiAobWVzc2FnZTogc3RyaW5nKSA9PiB2b2lkOwogIC8qKiBGaXJlZCB3aGVuIHRoZSBzZXNzaW9uIGVuZHMgZm9yIGFueSByZWFzb24gKHN1Y2Nlc3MsIGVycm9yLCBvciBzdG9wKS4gKi8KICBvbkVuZD86ICgpID0+IHZvaWQ7Cn0KCmV4cG9ydCBpbnRlcmZhY2UgU3R0U2Vzc2lvbiB7CiAgLyoqIFN0b3AgbGlzdGVuaW5nLiBTYWZlIHRvIGNhbGwgbXVsdGlwbGUgdGltZXMuICovCiAgc3RvcDogKCkgPT4gdm9pZDsKfQoKY29uc3QgaXNOYXRpdmUgPSAoKTogYm9vbGVhbiA9PiB7CiAgdHJ5IHsgcmV0dXJuIENhcGFjaXRvci5pc05hdGl2ZVBsYXRmb3JtKCk7IH0gY2F0Y2ggeyByZXR1cm4gZmFsc2U7IH0KfTsKCmNvbnN0IGdldFdlYkN0b3IgPSAoKTogYW55ID0+CiAgKHR5cGVvZiB3aW5kb3cgIT09ICd1bmRlZmluZWQnICYmICgod2luZG93IGFzIGFueSkuU3BlZWNoUmVjb2duaXRpb24gfHwgKHdpbmRvdyBhcyBhbnkpLndlYmtpdFNwZWVjaFJlY29nbml0aW9uKSkgfHwgbnVsbDsKCi8qKiBXaGV0aGVyIHZvaWNlIGlucHV0IGlzIHVzYWJsZSBpbiB0aGUgY3VycmVudCBlbnZpcm9ubWVudC4gKi8KZXhwb3J0IGNvbnN0IGlzU3R0U3VwcG9ydGVkID0gKCk6IGJvb2xlYW4gPT4gewogIGlmIChpc05hdGl2ZSgpKSByZXR1cm4gdHJ1ZTsgLy8gcGx1Z2luIHByZXNlbnQ7IGFjdHVhbCBhdmFpbGFiaWxpdHkgcmVzb2x2ZWQgYXQgc3RhcnQoKQogIHJldHVybiAhIWdldFdlYkN0b3IoKTsKfTsKCmNvbnN0IGZyaWVuZGx5RXJyb3IgPSAocmF3OiBzdHJpbmcpOiBzdHJpbmcgPT4gewogIGlmICgvbm90LWFsbG93ZWR8ZGVuaWVkfHBlcm1pc3Npb24vaS50ZXN0KHJhdykpIHJldHVybiAn6bqm5YWL6aOO5p2D6ZmQ6KKr5ouS57ud77yM5Y6757O757uf6K6+572u6YeM5YWB6K645LiA5LiLJzsKICBpZiAoL25vLXNwZWVjaC9pLnRlc3QocmF3KSkgcmV0dXJuICfmsqHlkKzmuIXvvIzlho3or7TkuIDmrKHvvJ8nOwogIGlmICgvbmV0d29yay9pLnRlc3QocmF3KSkgcmV0dXJuICfor63pn7Por4bliKvmnI3liqHov57kuI3kuIrvvIzmo4Dmn6XkuIvnvZHnu5wnOwogIGlmICgvYWJvcnRlZC9pLnRlc3QocmF3KSkgcmV0dXJuICcnOwogIHJldHVybiByYXcgfHwgJ+ivremfs+ivhuWIq+WHuumUmeS6hic7Cn07CgovLyDnnIvpl6jni5fml7bplb/vvJrlvIDpuqblkI7ov5nkuYjkuYXov5jmsqHmnInku7vkvZXpn7PpopEv6K+t6Z+zL+e7k+aenOS/oeWPt++8jOWwseWIpOWumui/meS4qua1j+iniOWZqOeahAovLyDlnKjnur/or4bliKvlkI7nq6/kuI3lj6/nlKjvvIjlm73lhoXlpZflo7PmtY/op4jlmajluLjop4HvvJrmnIkgd2Via2l0U3BlZWNoUmVjb2duaXRpb24g5a+56LGh44CBCi8vIOm6puWFi+mjjuS5n+S6ru+8jOS9huawuOi/nOS4jei/lOWbnue7k+aenOOAgeS5n+S4jeaKpemUme+8ieOAggpjb25zdCBTVFRfV0FUQ0hET0dfTVMgPSA3MDAwOwoKY29uc3Qgc3RhcnRXZWIgPSAobGFuZzogc3RyaW5nLCBjYjogU3R0Q2FsbGJhY2tzKTogU3R0U2Vzc2lvbiA9PiB7CiAgY29uc3QgQ3RvciA9IGdldFdlYkN0b3IoKTsKICBpZiAoIUN0b3IpIHRocm93IG5ldyBFcnJvcign5b2T5YmN5rWP6KeI5Zmo5LiN5pSv5oyB6K+t6Z+z6K+G5YirJyk7CiAgY29uc3QgcmVjID0gbmV3IEN0b3IoKTsKICByZWMubGFuZyA9IGxhbmc7CiAgcmVjLmludGVyaW1SZXN1bHRzID0gdHJ1ZTsKICAvLyDmjIHnu63ogYblkKzliLDnlKjmiLfmiYvliqjlgZzvvIjotLTlkIggVUkg55qE44CM54K56bqm5YWL6aOO57uT5p2f44CN77yJ77yM5Yir5LiA6YGH5YGc6aG/5bCx6Ieq5bex5pat44CCCiAgcmVjLmNvbnRpbnVvdXMgPSB0cnVlOwogIHJlYy5tYXhBbHRlcm5hdGl2ZXMgPSAxOwogIGxldCBmaW5hbFRleHQgPSAnJzsKICBsZXQgZW5kZWQgPSBmYWxzZTsKICAvLyDmmK/lkKbmlLbliLDov4for4bliKvlmajjgIzmtLvnnYDjgI3nmoTkv6Hlj7fvvIjpn7PpopHlvIDlp4sgLyDmo4DmtYvliLDor7Tor50gLyDlh7rnu5PmnpzvvInjgIIKICBsZXQgZ290U2lnbmFsID0gZmFsc2U7CiAgbGV0IHdhdGNoZG9nOiBSZXR1cm5UeXBlPHR5cGVvZiBzZXRUaW1lb3V0PiB8IG51bGwgPSBudWxsOwogIGNvbnN0IGNsZWFyV2F0Y2hkb2cgPSAoKSA9PiB7IGlmICh3YXRjaGRvZykgeyBjbGVhclRpbWVvdXQod2F0Y2hkb2cpOyB3YXRjaGRvZyA9IG51bGw7IH0gfTsKICBjb25zdCBtYXJrQWxpdmUgPSAoKSA9PiB7IGdvdFNpZ25hbCA9IHRydWU7IGNsZWFyV2F0Y2hkb2coKTsgfTsKCiAgcmVjLm9uYXVkaW9zdGFydCA9IG1hcmtBbGl2ZTsKICByZWMub25zcGVlY2hzdGFydCA9IG1hcmtBbGl2ZTsKICByZWMub25yZXN1bHQgPSAoZTogYW55KSA9PiB7CiAgICBtYXJrQWxpdmUoKTsKICAgIGxldCBpbnRlcmltID0gJyc7CiAgICBmb3IgKGxldCBpID0gZS5yZXN1bHRJbmRleDsgaSA8IGUucmVzdWx0cy5sZW5ndGg7IGkgKz0gMSkgewogICAgICBjb25zdCByID0gZS5yZXN1bHRzW2ldOwogICAgICBpZiAoci5pc0ZpbmFsKSBmaW5hbFRleHQgKz0gclswXS50cmFuc2NyaXB0OwogICAgICBlbHNlIGludGVyaW0gKz0gclswXS50cmFuc2NyaXB0OwogICAgfQogICAgY2Iub25QYXJ0aWFsPy4oKGZpbmFsVGV4dCArIGludGVyaW0pLnRyaW0oKSk7CiAgfTsKICByZWMub25lcnJvciA9IChlOiBhbnkpID0+IHsKICAgIGNvbnN0IG1zZyA9IGZyaWVuZGx5RXJyb3IoU3RyaW5nKGU/LmVycm9yIHx8ICcnKSk7CiAgICBpZiAobXNnKSBjYi5vbkVycm9yPy4obXNnKTsKICB9OwogIHJlYy5vbmVuZCA9ICgpID0+IHsKICAgIGlmIChlbmRlZCkgcmV0dXJuOwogICAgZW5kZWQgPSB0cnVlOwogICAgY2xlYXJXYXRjaGRvZygpOwogICAgY29uc3QgZiA9IGZpbmFsVGV4dC50cmltKCk7CiAgICBpZiAoZikgY2Iub25GaW5hbD8uKGYpOwogICAgY2Iub25FbmQ/LigpOwogIH07CiAgcmVjLnN0YXJ0KCk7CiAgLy8g6Iul5Zyo55yL6Zeo54uX5pe26ZmQ5YaF6K+G5Yir5Zmo5q+r5peg55Sf5ZG96L+56LGh77yM5aSa5Y2K5piv6L+Z5Liq5rWP6KeI5Zmo5rKh5pyJ5Y+v55So55qE5Zyo57q/6K+G5YirCiAgLy8g5pyN5Yqh77yI5aWX5aOz5rWP6KeI5ZmoL+e8uiBHb29nbGUg5pyN5Yqh55qEIFdlYlZpZXfvvInjgILmmI7noa7lkYror4nnlKjmiLfvvIzliKvorqnpuqblhYvpo47nqbrkuq7jgIIKICB3YXRjaGRvZyA9IHNldFRpbWVvdXQoKCkgPT4gewogICAgaWYgKGdvdFNpZ25hbCB8fCBlbmRlZCkgcmV0dXJuOwogICAgY2Iub25FcnJvcj8uKCfov5nkuKrmtY/op4jlmajor4bliKvkuI3liLDor63pn7PvvIzlpJrljYrkuI3mlK/mjIHlnKjnur/or63pn7Por4bliKvvvIjlm73lhoXlpZflo7PmtY/op4jlmajluLjop4HvvInjgILmjaIgQ2hyb21lIC8gRWRnZe+8jOaIluiAheebtOaOpeaJk+Wtl+WQp+OAgicpOwogICAgdHJ5IHsgcmVjLnN0b3AoKTsgfSBjYXRjaCB7IC8qIGlnbm9yZSAqLyB9CiAgfSwgU1RUX1dBVENIRE9HX01TKTsKICByZXR1cm4geyBzdG9wOiAoKSA9PiB7IGNsZWFyV2F0Y2hkb2coKTsgdHJ5IHsgcmVjLnN0b3AoKTsgfSBjYXRjaCB7IC8qIGlnbm9yZSAqLyB9IH0gfTsKfTsKCmNvbnN0IHN0YXJ0TmF0aXZlID0gYXN5bmMgKGxhbmc6IHN0cmluZywgY2I6IFN0dENhbGxiYWNrcyk6IFByb21pc2U8U3R0U2Vzc2lvbj4gPT4gewogIGNvbnN0IHsgU3BlZWNoUmVjb2duaXRpb24gfSA9IGF3YWl0IGltcG9ydCgnQGNhcGFjaXRvci1jb21tdW5pdHkvc3BlZWNoLXJlY29nbml0aW9uJyk7CgogIGNvbnN0IHBlcm0gPSBhd2FpdCBTcGVlY2hSZWNvZ25pdGlvbi5jaGVja1Blcm1pc3Npb25zKCkuY2F0Y2goKCkgPT4gKHsgc3BlZWNoUmVjb2duaXRpb246ICdwcm9tcHQnIGFzIGNvbnN0IH0pKTsKICBpZiAocGVybS5zcGVlY2hSZWNvZ25pdGlvbiAhPT0gJ2dyYW50ZWQnKSB7CiAgICBjb25zdCByZXEgPSBhd2FpdCBTcGVlY2hSZWNvZ25pdGlvbi5yZXF1ZXN0UGVybWlzc2lvbnMoKTsKICAgIGlmIChyZXEuc3BlZWNoUmVjb2duaXRpb24gIT09ICdncmFudGVkJykgdGhyb3cgbmV3IEVycm9yKCfpuqblhYvpo47mnYPpmZDooqvmi5Lnu50nKTsKICB9CgogIGxldCBsYXN0UGFydGlhbCA9ICcnOwogIGxldCBlbmRlZCA9IGZhbHNlOwogIGNvbnN0IGhhbmRsZSA9IGF3YWl0IFNwZWVjaFJlY29nbml0aW9uLmFkZExpc3RlbmVyKCdwYXJ0aWFsUmVzdWx0cycsIChkYXRhOiBhbnkpID0+IHsKICAgIGNvbnN0IG0gPSBkYXRhPy5tYXRjaGVzPy5bMF07CiAgICBpZiAobSkgeyBsYXN0UGFydGlhbCA9IG07IGNiLm9uUGFydGlhbD8uKG0pOyB9CiAgfSk7CgogIGNvbnN0IGZpbmlzaCA9IChmaW5hbFRleHQ6IHN0cmluZywgZXJyTXNnPzogc3RyaW5nKSA9PiB7CiAgICBpZiAoZW5kZWQpIHJldHVybjsKICAgIGVuZGVkID0gdHJ1ZTsKICAgIGhhbmRsZS5yZW1vdmUoKTsKICAgIGlmIChlcnJNc2cpIGNiLm9uRXJyb3I/LihmcmllbmRseUVycm9yKGVyck1zZykpOwogICAgZWxzZSBpZiAoZmluYWxUZXh0KSBjYi5vbkZpbmFsPy4oZmluYWxUZXh0KTsKICAgIGNiLm9uRW5kPy4oKTsKICB9OwoKICAvLyBXaXRoIHBhcnRpYWxSZXN1bHRzOiB0cnVlLCBzdGFydCgpIHJlc29sdmVzIG9uY2UgcmVjb2duaXRpb24gc2V0dGxlcy4KICBTcGVlY2hSZWNvZ25pdGlvbi5zdGFydCh7IGxhbmd1YWdlOiBsYW5nLCBwYXJ0aWFsUmVzdWx0czogdHJ1ZSwgcG9wdXA6IGZhbHNlLCBtYXhSZXN1bHRzOiAxIH0pCiAgICAudGhlbigocmVzOiBhbnkpID0+IGZpbmlzaCgocmVzPy5tYXRjaGVzPy5bMF0gfHwgbGFzdFBhcnRpYWwgfHwgJycpLnRyaW0oKSkpCiAgICAuY2F0Y2goKGU6IGFueSkgPT4gZmluaXNoKCcnLCBlPy5tZXNzYWdlIHx8ICduYXRpdmUtZXJyb3InKSk7CgogIHJldHVybiB7IHN0b3A6ICgpID0+IHsgU3BlZWNoUmVjb2duaXRpb24uc3RvcCgpLmNhdGNoKCgpID0+IHsgLyogaWdub3JlICovIH0pOyB9IH07Cn07CgovKioKICogU3RhcnQgYSBzcGVlY2gtdG8tdGV4dCBzZXNzaW9uLiBSZXNvbHZlcyB0byBhIGhhbmRsZSB5b3UgY2FuIGBzdG9wKClgLgogKiBBbGwgdHJhbnNjcmlwdHMgYXJyaXZlIHZpYSB0aGUgY2FsbGJhY2tzLgogKi8KZXhwb3J0IGNvbnN0IHN0YXJ0U3R0ID0gYXN5bmMgKGxhbmc6IHN0cmluZywgY2I6IFN0dENhbGxiYWNrcyk6IFByb21pc2U8U3R0U2Vzc2lvbj4gPT4gewogIGNvbnN0IGxhbmd1YWdlID0gbGFuZyB8fCAnemgtQ04nOwogIGlmIChpc05hdGl2ZSgpKSByZXR1cm4gc3RhcnROYXRpdmUobGFuZ3VhZ2UsIGNiKTsKICByZXR1cm4gc3RhcnRXZWIobGFuZ3VhZ2UsIGNiKTsKfTsK
+/**
+ * Unified speech-to-text (STT) — used by the Call app for voice input.
+ *
+ * Hybrid strategy (A+B):
+ *   - Web platform  → native `webkitSpeechRecognition` / `SpeechRecognition`
+ *                     (zero dependency, streams interim results).
+ *   - Capacitor app → `@capacitor-community/speech-recognition` (on-device capable),
+ *                     loaded via dynamic import so it never enters the web bundle.
+ *
+ * The user speaks Chinese to the character by default, so the default recognition
+ * language is zh-CN regardless of the character's TTS output language.
+ */
+import { Capacitor } from '@capacitor/core';
+
+export interface SttCallbacks {
+  /** Fired repeatedly with the best-so-far transcript (interim + final). */
+  onPartial?: (text: string) => void;
+  /** Fired once with the final transcript when recognition settles. */
+  onFinal?: (text: string) => void;
+  /** Fired on any recognition error (already turned into a friendly message). */
+  onError?: (message: string) => void;
+  /** Fired when the session ends for any reason (success, error, or stop). */
+  onEnd?: () => void;
+}
+
+export interface SttSession {
+  /** Stop listening. Safe to call multiple times. */
+  stop: () => void;
+}
+
+const isNative = (): boolean => {
+  try { return Capacitor.isNativePlatform(); } catch { return false; }
+};
+
+const getWebCtor = (): any =>
+  (typeof window !== 'undefined' && ((window as any).SpeechRecognition || (window as any).webkitSpeechRecognition)) || null;
+
+/** Whether voice input is usable in the current environment. */
+export const isSttSupported = (): boolean => {
+  if (isNative()) return true; // plugin present; actual availability resolved at start()
+  return !!getWebCtor();
+};
+
+const friendlyError = (raw: string): string => {
+  if (/not-allowed|denied|permission/i.test(raw)) return '麦克风权限被拒绝，去系统设置里允许一下';
+  if (/no-speech/i.test(raw)) return '没听清，再说一次？';
+  if (/network/i.test(raw)) return '语音识别服务连不上，检查下网络';
+  if (/aborted/i.test(raw)) return '';
+  return raw || '语音识别出错了';
+};
+
+// 看门狗时长：开麦后这么久还没有任何音频/语音/结果信号，就判定这个浏览器的
+// 在线识别后端不可用（国内套壳浏览器常见：有 webkitSpeechRecognition 对象、
+// 麦克风也亮，但永远不返回结果、也不报错）。
+const STT_WATCHDOG_MS = 7000;
+
+const startWeb = (lang: string, cb: SttCallbacks): SttSession => {
+  const Ctor = getWebCtor();
+  if (!Ctor) throw new Error('当前浏览器不支持语音识别');
+  const rec = new Ctor();
+  rec.lang = lang;
+  rec.interimResults = true;
+  // 持续聆听到用户手动停（贴合 UI 的「点麦克风结束」），别一遇停顿就自己断。
+  rec.continuous = true;
+  rec.maxAlternatives = 1;
+  let finalText = '';
+  let ended = false;
+  // 是否收到过识别器「活着」的信号（音频开始 / 检测到说话 / 出结果）。
+  let gotSignal = false;
+  let watchdog: ReturnType<typeof setTimeout> | null = null;
+  const clearWatchdog = () => { if (watchdog) { clearTimeout(watchdog); watchdog = null; } };
+  const markAlive = () => { gotSignal = true; clearWatchdog(); };
+
+  rec.onaudiostart = markAlive;
+  rec.onspeechstart = markAlive;
+  rec.onresult = (e: any) => {
+    markAlive();
+    let interim = '';
+    for (let i = e.resultIndex; i < e.results.length; i += 1) {
+      const r = e.results[i];
+      if (r.isFinal) finalText += r[0].transcript;
+      else interim += r[0].transcript;
+    }
+    cb.onPartial?.((finalText + interim).trim());
+  };
+  rec.onerror = (e: any) => {
+    const msg = friendlyError(String(e?.error || ''));
+    if (msg) cb.onError?.(msg);
+  };
+  rec.onend = () => {
+    if (ended) return;
+    ended = true;
+    clearWatchdog();
+    const f = finalText.trim();
+    if (f) cb.onFinal?.(f);
+    cb.onEnd?.();
+  };
+  rec.start();
+  // 若在看门狗时限内识别器毫无生命迹象，多半是这个浏览器没有可用的在线识别
+  // 服务（套壳浏览器/缺 Google 服务的 WebView）。明确告诉用户，别让麦克风空亮。
+  watchdog = setTimeout(() => {
+    if (gotSignal || ended) return;
+    cb.onError?.('这个浏览器识别不到语音，多半不支持在线语音识别（国内套壳浏览器常见）。换 Chrome / Edge，或者直接打字吧。');
+    try { rec.stop(); } catch { /* ignore */ }
+  }, STT_WATCHDOG_MS);
+  return { stop: () => { clearWatchdog(); try { rec.stop(); } catch { /* ignore */ } } };
+};
+
+const startNative = async (lang: string, cb: SttCallbacks): Promise<SttSession> => {
+  const { SpeechRecognition } = await import('@capacitor-community/speech-recognition');
+
+  const perm = await SpeechRecognition.checkPermissions().catch(() => ({ speechRecognition: 'prompt' as const }));
+  if (perm.speechRecognition !== 'granted') {
+    const req = await SpeechRecognition.requestPermissions();
+    if (req.speechRecognition !== 'granted') throw new Error('麦克风权限被拒绝');
+  }
+
+  let lastPartial = '';
+  let ended = false;
+  const handle = await SpeechRecognition.addListener('partialResults', (data: any) => {
+    const m = data?.matches?.[0];
+    if (m) { lastPartial = m; cb.onPartial?.(m); }
+  });
+
+  const finish = (finalText: string, errMsg?: string) => {
+    if (ended) return;
+    ended = true;
+    handle.remove();
+    if (errMsg) cb.onError?.(friendlyError(errMsg));
+    else if (finalText) cb.onFinal?.(finalText);
+    cb.onEnd?.();
+  };
+
+  // With partialResults: true, start() resolves once recognition settles.
+  SpeechRecognition.start({ language: lang, partialResults: true, popup: false, maxResults: 1 })
+    .then((res: any) => finish((res?.matches?.[0] || lastPartial || '').trim()))
+    .catch((e: any) => finish('', e?.message || 'native-error'));
+
+  return { stop: () => { SpeechRecognition.stop().catch(() => { /* ignore */ }); } };
+};
+
+/**
+ * Start a speech-to-text session. Resolves to a handle you can `stop()`.
+ * All transcripts arrive via the callbacks.
+ */
+export const startStt = async (lang: string, cb: SttCallbacks): Promise<SttSession> => {
+  const language = lang || 'zh-CN';
+  if (isNative()) return startNative(language, cb);
+  return startWeb(language, cb);
+};

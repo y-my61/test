@@ -1,1 +1,94 @@
-LyoqCiAqIOiAgeeUqOaIt+aVsOaNrumHjOeahOmyqOebmO+8iHNoYXJrcGFu77yJ5Zu+6ZO+5o6l5LiA5qyh5oCn5pS55YaZ5oiQIGpzRGVsaXZy44CCCiAqCiAqIOiDjOaZr++8mlN1bGx5IOeahOihqOaDheWMheOAgeWutuWbreaDhee7queri+e7mOOAgeWwj+Wxi+WutuWFt+OAgeingemdouearuiCpOetiem7mOiupOe0oOadkOWOn+WFiOaMguWcqCBzaGFya3BhbiDlm77luooKICog77yI5LiN56iz5a6a44CB5bi45ouJ5LiN5Yiw77yJ44CC5rqQ56CB5bi46YeP5bey5pS55Li657Sg5p2Q5LuT5bqTIGpzRGVsaXZyIOi3r+W+hO+8jOS9huOAkOW3sue7j+ijhei/h+OAkeeahOeUqOaItyBJbmRleGVkREIKICog6YeM5a2Y55qE5LuN5piv6ICB6bKo55uY6ZO+5o6l4oCU4oCU5Y+q5pS55rqQ56CB5Y+q6IO95pWR5paw55So5oi344CC6L+Z6YeM5Zyo5ZCv5Yqo5pe25oqK6L+Z5Lqb5bqT5a2Y6ZO+5o6l5bCx5Zyw5pS55YaZ77yM5pWR546w5pyJ55So5oi344CCCiAqCiAqIOWPquabv+aNouOAkOeyvuehruWMuemFjeOAkeeahOW3suefpemyqOebmCBVUkzvvIjkuIvooaggMzAg5p2h77yJ77yM57ud5LiN56Kw55So5oi36Ieq5bex5LiK5Lyg55qE5Zu+77ybCiAqIGJhbmsg6IOM5pmv5Zu+77yIYmcucG5n77yJ55So5oi36YCJ5oup5LiN6L+B44CBaGVhZC5wbmcg5bey5Y2V54us5aSE55CG77yM6YO95LiN5Zyo6KGo5YaF44CCCiAqLwoKaW1wb3J0IHsgREIgfSBmcm9tICcuL2RiJzsKCmNvbnN0IEJBU0UgPSAnaHR0cHM6Ly9jZG4uanNkZWxpdnIubmV0L2doL3FlZ2o1NjctY2xvdWQvU3VsbHlPUy1hc3NldHNAbWFpbi9iZ20vU1VMTFkvJzsKCi8vIOmyqOebmOWujOaVtCBVUkwgLT4ganNEZWxpdnIg5a6M5pW0IFVSTO+8iOaWh+S7tuWQjeS/neaMgeS4jeWPmO+8jOS4jua6kOeggeW4uOmHj+S4gOiHtO+8ieOAggpleHBvcnQgY29uc3QgU0hBUktQQU5fQVNTRVRfTUFQOiBSZWNvcmQ8c3RyaW5nLCBzdHJpbmc+ID0gT2JqZWN0LmZyb21FbnRyaWVzKAogICAgWwogICAgICAgIFsnaHR0cHM6Ly9zaGFya3Bhbi54eXovZi9wV2c2SFEvbmlnaHQucG5nJywgJ25pZ2h0LnBuZyddLAogICAgICAgIFsnaHR0cHM6Ly9zaGFya3Bhbi54eXovZi83NXd2dWovdy5wbmcnLCAndy5wbmcnXSwKICAgICAgICBbJ2h0dHBzOi8vc2hhcmtwYW4ueHl6L2YvTUs3N0lhL3NlZS5wbmcnLCAnc2VlLnBuZyddLAogICAgICAgIFsnaHR0cHM6Ly9zaGFya3Bhbi54eXovZi8zV3dNSGUvZmlnaHQucG5nJywgJ2ZpZ2h0LnBuZyddLAogICAgICAgIFsnaHR0cHM6Ly9zaGFya3Bhbi54eXovZi81bnd4Q2ovYW4ucG5nJywgJ2FuLnBuZyddLAogICAgICAgIFsnaHR0cHM6Ly9zaGFya3Bhbi54eXovZi95bFdwZk4vc0ROLnBuZycsICdzRE4ucG5nJ10sCiAgICAgICAgWydodHRwczovL3NoYXJrcGFuLnh5ei9mL1FkbmFVNi9zb3JyeS5wbmcnLCAnc29ycnkucG5nJ10sCiAgICAgICAgWydodHRwczovL3NoYXJrcGFuLnh5ei9mLzVuckpzai93YWl0LnBuZycsICd3YWl0LnBuZyddLAogICAgICAgIFsnaHR0cHM6Ly9zaGFya3Bhbi54eXovZi93M1FRRnEvMDEucG5nJywgJzAxLnBuZyddLAogICAgICAgIFsnaHR0cHM6Ly9zaGFya3Bhbi54eXovZi9NS2c3dGEvMDIucG5nJywgJzAyLnBuZyddLAogICAgICAgIFsnaHR0cHM6Ly9zaGFya3Bhbi54eXovZi8zV25NY2UvMDMucG5nJywgJzAzLnBuZyddLAogICAgICAgIFsnaHR0cHM6Ly9zaGFya3Bhbi54eXovZi81bjF4U2ovMDQucG5nJywgJzA0LnBuZyddLAogICAgICAgIFsnaHR0cHM6Ly9zaGFya3Bhbi54eXovZi9rZHdldDYvMDUucG5nJywgJzA1LnBuZyddLAogICAgICAgIFsnaHR0cHM6Ly9zaGFya3Bhbi54eXovZi9vV1pRRjQvUzIucG5nJywgJ1MyLnBuZyddLAogICAgICAgIFsnaHR0cHM6Ly9zaGFya3Bhbi54eXovZi9BM1hlVVovQkVELnBuZycsICdCRUQucG5nJ10sCiAgICAgICAgWydodHRwczovL3NoYXJrcGFuLnh5ei9mL0c1bjNVbC9ETloucG5nJywgJ0ROWi5wbmcnXSwKICAgICAgICBbJ2h0dHBzOi8vc2hhcmtwYW4ueHl6L2YvemxwV1M1L1NHLnBuZycsICdTRy5wbmcnXSwKICAgICAgICBbJ2h0dHBzOi8vc2hhcmtwYW4ueHl6L2YvODVLNWlqL0REQi5wbmcnLCAnRERCLnBuZyddLAogICAgICAgIFsnaHR0cHM6Ly9zaGFya3Bhbi54eXovZi83NU52c2ovTEpULnBuZycsICdMSlQucG5nJ10sCiAgICAgICAgWydodHRwczovL3NoYXJrcGFuLnh5ei9mL05kSnlodi9iLnBuZycsICdiLnBuZyddLAogICAgICAgIFsnaHR0cHM6Ly9zaGFya3Bhbi54eXovZi9tM2FkaFcvVmhhLnBuZycsICdWaGEucG5nJ10sCiAgICAgICAgWydodHRwczovL3NoYXJrcGFuLnh5ei9mL0JaZ0RmYS9Wc2FkLnBuZycsICdWc2FkLnBuZyddLAogICAgICAgIFsnaHR0cHM6Ly9zaGFya3Bhbi54eXovZi80cnpkdGovVk5vcm1hbC5wbmcnLCAnVk5vcm1hbC5wbmcnXSwKICAgICAgICBbJ2h0dHBzOi8vc2hhcmtwYW4ueHl6L2YvTmRsVmZ2L1ZBbi5wbmcnLCAnVkFuLnBuZyddLAogICAgICAgIFsnaHR0cHM6Ly9zaGFya3Bhbi54eXovZi9WeW9udFkvVnNoeS5wbmcnLCAnVnNoeS5wbmcnXSwKICAgICAgICBbJ2h0dHBzOi8vc2hhcmtwYW4ueHl6L2YveGw4bXVYL1ZCbC5wbmcnLCAnVkJsLnBuZyddLAogICAgICAgIFsnaHR0cHM6Ly9zaGFya3Bhbi54eXovZi9kRHpMaTgvMDAxLnBuZycsICcwMDEucG5nJ10sCiAgICAgICAgWydodHRwczovL3NoYXJrcGFuLnh5ei9mL2xtRDZUeC8wMDIucG5nJywgJzAwMi5wbmcnXSwKICAgICAgICBbJ2h0dHBzOi8vc2hhcmtwYW4ueHl6L2YvZ1hheUN3L1hULnBuZycsICdYVC5wbmcnXSwKICAgICAgICBbJ2h0dHBzOi8vc2hhcmtwYW4ueHl6L2YvMld6QUZRL0NBRkUucG5nJywgJ0NBRkUucG5nJ10sCiAgICBdLm1hcCgoW29sZCwgbmFtZV0pID0+IFtvbGQsIEJBU0UgKyBuYW1lXSksCik7CgovKiog5oqK5a2X56ym5Liy6YeM5omA5pyJ5bey55+l6bKo55uY6ZO+5o6l5pu/5o2i5oiQIGpzRGVsaXZy44CC5peg5bey55+l6ZO+5o6l5YiZ5Y6f5qC36L+U5Zue77yI55yB5o6J5peg6LCT5pS55YaZ77yJ44CCICovCmV4cG9ydCBmdW5jdGlvbiByZXdyaXRlU2hhcmtwYW5VcmxzKHM6IHN0cmluZyk6IHN0cmluZyB7CiAgICBpZiAoIXMuaW5jbHVkZXMoJ3NoYXJrcGFuLnh5eicpKSByZXR1cm4gczsKICAgIGxldCBvdXQgPSBzOwogICAgZm9yIChjb25zdCBbb2xkVXJsLCBuZXdVcmxdIG9mIE9iamVjdC5lbnRyaWVzKFNIQVJLUEFOX0FTU0VUX01BUCkpIHsKICAgICAgICBpZiAob3V0LmluY2x1ZGVzKG9sZFVybCkpIG91dCA9IG91dC5zcGxpdChvbGRVcmwpLmpvaW4obmV3VXJsKTsKICAgIH0KICAgIHJldHVybiBvdXQ7Cn0KCmNvbnN0IE1JR1JBVElPTl9GTEFHID0gJ3NoYXJrcGFuX2Fzc2V0c19taWdyYXRlZF92MSc7CgovKioKICog5ZCv5Yqo5pe26LCD55So5LiA5qyh77ya5oqK6KGo5oOF5YyFICsg6KeS6Imy77yI56uL57uYL+WutuWFty/op4HpnaLnmq7ogqTvvIzlj6/og73mt7HlsYLltYzlpZfvvInph4zlrZjnmoTpsqjnm5jpk77mjqUKICog5pS55YaZ5oiQIGpzRGVsaXZy44CC5bmC562J77yb6LeR5oiQ5Yqf5ZCO5omT5qCH6K6w6Lez6L+H5ZCO57ut5ZCv5Yqo44CC5Lu75L2V5byC5bi45ZCe5o6J77yM57ud5LiN6Zi75pat5ZCv5Yqo44CCCiAqLwpleHBvcnQgYXN5bmMgZnVuY3Rpb24gbWlncmF0ZVNoYXJrcGFuQXNzZXRzKCk6IFByb21pc2U8dm9pZD4gewogICAgdHJ5IHsgaWYgKGxvY2FsU3RvcmFnZS5nZXRJdGVtKE1JR1JBVElPTl9GTEFHKSA9PT0gJzEnKSByZXR1cm47IH0gY2F0Y2ggeyAvKiBsb2NhbFN0b3JhZ2Ug5LiN5Y+v55So77ya54Wn6LeRICovIH0KCiAgICB0cnkgewogICAgICAgIC8vIOihqOaDheWMhe+8mumAkOihjOaUuSB1cmzvvIhrZXlQYXRoPW5hbWXvvIxzYXZlRW1vamkg5ZCM5ZCN6KaG55uW77yJCiAgICAgICAgY29uc3QgZW1vamlzID0gYXdhaXQgREIuZ2V0UmF3U3RvcmVEYXRhKCdlbW9qaXMnKTsKICAgICAgICBmb3IgKGNvbnN0IGUgb2YgZW1vamlzKSB7CiAgICAgICAgICAgIGlmIChlICYmIHR5cGVvZiBlLnVybCA9PT0gJ3N0cmluZycgJiYgZS51cmwuaW5jbHVkZXMoJ3NoYXJrcGFuLnh5eicpKSB7CiAgICAgICAgICAgICAgICBjb25zdCBudSA9IHJld3JpdGVTaGFya3BhblVybHMoZS51cmwpOwogICAgICAgICAgICAgICAgaWYgKG51ICE9PSBlLnVybCkgYXdhaXQgREIuc2F2ZUVtb2ppKGUubmFtZSwgbnUsIGUuY2F0ZWdvcnlJZCk7CiAgICAgICAgICAgIH0KICAgICAgICB9CgogICAgICAgIC8vIOinkuiJsu+8muaVtOS9k+W6j+WIl+WMluWQjua3seWxguabv+aNou+8iOeri+e7mCBzcHJpdGVzIC8g5bCP5bGLIHJvb21Db25maWcgLyDop4HpnaIgZGF0ZVNraW5TZXRzIOmDveiDveS4gOe9keaJk+Wwve+8iQogICAgICAgIGNvbnN0IGNoYXJzID0gYXdhaXQgREIuZ2V0QWxsQ2hhcmFjdGVycygpOwogICAgICAgIGZvciAoY29uc3QgYyBvZiBjaGFycykgewogICAgICAgICAgICBjb25zdCBzID0gSlNPTi5zdHJpbmdpZnkoYyk7CiAgICAgICAgICAgIGlmICghcy5pbmNsdWRlcygnc2hhcmtwYW4ueHl6JykpIGNvbnRpbnVlOwogICAgICAgICAgICBjb25zdCBucyA9IHJld3JpdGVTaGFya3BhblVybHMocyk7CiAgICAgICAgICAgIGlmIChucyAhPT0gcykgYXdhaXQgREIuc2F2ZUNoYXJhY3RlcihKU09OLnBhcnNlKG5zKSk7CiAgICAgICAgfQoKICAgICAgICB0cnkgeyBsb2NhbFN0b3JhZ2Uuc2V0SXRlbShNSUdSQVRJT05fRkxBRywgJzEnKTsgfSBjYXRjaCB7IC8qIGlnbm9yZSAqLyB9CiAgICB9IGNhdGNoIChlcnIpIHsKICAgICAgICBjb25zb2xlLndhcm4oJ1ttaWdyYXRlU2hhcmtwYW5Bc3NldHNdIOi/geenu+Wksei0pe+8iOS4jeW9seWTjeWQr+WKqO+8jOS4i+asoeWGjeivle+8iScsIGVycik7CiAgICB9Cn0K
+/**
+ * 老用户数据里的鲨盘（sharkpan）图链接一次性改写成 jsDelivr。
+ *
+ * 背景：Sully 的表情包、家园情绪立绘、小屋家具、见面皮肤等默认素材原先挂在 sharkpan 图床
+ * （不稳定、常拉不到）。源码常量已改为素材仓库 jsDelivr 路径，但【已经装过】的用户 IndexedDB
+ * 里存的仍是老鲨盘链接——只改源码只能救新用户。这里在启动时把这些库存链接就地改写，救现有用户。
+ *
+ * 只替换【精确匹配】的已知鲨盘 URL（下表 30 条），绝不碰用户自己上传的图；
+ * bank 背景图（bg.png）用户选择不迁、head.png 已单独处理，都不在表内。
+ */
+
+import { DB } from './db';
+
+const BASE = 'https://cdn.jsdelivr.net/gh/qegj567-cloud/SullyOS-assets@main/bgm/SULLY/';
+
+// 鲨盘完整 URL -> jsDelivr 完整 URL（文件名保持不变，与源码常量一致）。
+export const SHARKPAN_ASSET_MAP: Record<string, string> = Object.fromEntries(
+    [
+        ['https://sharkpan.xyz/f/pWg6HQ/night.png', 'night.png'],
+        ['https://sharkpan.xyz/f/75wvuj/w.png', 'w.png'],
+        ['https://sharkpan.xyz/f/MK77Ia/see.png', 'see.png'],
+        ['https://sharkpan.xyz/f/3WwMHe/fight.png', 'fight.png'],
+        ['https://sharkpan.xyz/f/5nwxCj/an.png', 'an.png'],
+        ['https://sharkpan.xyz/f/ylWpfN/sDN.png', 'sDN.png'],
+        ['https://sharkpan.xyz/f/QdnaU6/sorry.png', 'sorry.png'],
+        ['https://sharkpan.xyz/f/5nrJsj/wait.png', 'wait.png'],
+        ['https://sharkpan.xyz/f/w3QQFq/01.png', '01.png'],
+        ['https://sharkpan.xyz/f/MKg7ta/02.png', '02.png'],
+        ['https://sharkpan.xyz/f/3WnMce/03.png', '03.png'],
+        ['https://sharkpan.xyz/f/5n1xSj/04.png', '04.png'],
+        ['https://sharkpan.xyz/f/kdwet6/05.png', '05.png'],
+        ['https://sharkpan.xyz/f/oWZQF4/S2.png', 'S2.png'],
+        ['https://sharkpan.xyz/f/A3XeUZ/BED.png', 'BED.png'],
+        ['https://sharkpan.xyz/f/G5n3Ul/DNZ.png', 'DNZ.png'],
+        ['https://sharkpan.xyz/f/zlpWS5/SG.png', 'SG.png'],
+        ['https://sharkpan.xyz/f/85K5ij/DDB.png', 'DDB.png'],
+        ['https://sharkpan.xyz/f/75Nvsj/LJT.png', 'LJT.png'],
+        ['https://sharkpan.xyz/f/NdJyhv/b.png', 'b.png'],
+        ['https://sharkpan.xyz/f/m3adhW/Vha.png', 'Vha.png'],
+        ['https://sharkpan.xyz/f/BZgDfa/Vsad.png', 'Vsad.png'],
+        ['https://sharkpan.xyz/f/4rzdtj/VNormal.png', 'VNormal.png'],
+        ['https://sharkpan.xyz/f/NdlVfv/VAn.png', 'VAn.png'],
+        ['https://sharkpan.xyz/f/VyontY/Vshy.png', 'Vshy.png'],
+        ['https://sharkpan.xyz/f/xl8muX/VBl.png', 'VBl.png'],
+        ['https://sharkpan.xyz/f/dDzLi8/001.png', '001.png'],
+        ['https://sharkpan.xyz/f/lmD6Tx/002.png', '002.png'],
+        ['https://sharkpan.xyz/f/gXayCw/XT.png', 'XT.png'],
+        ['https://sharkpan.xyz/f/2WzAFQ/CAFE.png', 'CAFE.png'],
+    ].map(([old, name]) => [old, BASE + name]),
+);
+
+/** 把字符串里所有已知鲨盘链接替换成 jsDelivr。无已知链接则原样返回（省掉无谓改写）。 */
+export function rewriteSharkpanUrls(s: string): string {
+    if (!s.includes('sharkpan.xyz')) return s;
+    let out = s;
+    for (const [oldUrl, newUrl] of Object.entries(SHARKPAN_ASSET_MAP)) {
+        if (out.includes(oldUrl)) out = out.split(oldUrl).join(newUrl);
+    }
+    return out;
+}
+
+const MIGRATION_FLAG = 'sharkpan_assets_migrated_v1';
+
+/**
+ * 启动时调用一次：把表情包 + 角色（立绘/家具/见面皮肤，可能深层嵌套）里存的鲨盘链接
+ * 改写成 jsDelivr。幂等；跑成功后打标记跳过后续启动。任何异常吞掉，绝不阻断启动。
+ */
+export async function migrateSharkpanAssets(): Promise<void> {
+    try { if (localStorage.getItem(MIGRATION_FLAG) === '1') return; } catch { /* localStorage 不可用：照跑 */ }
+
+    try {
+        // 表情包：逐行改 url（keyPath=name，saveEmoji 同名覆盖）
+        const emojis = await DB.getRawStoreData('emojis');
+        for (const e of emojis) {
+            if (e && typeof e.url === 'string' && e.url.includes('sharkpan.xyz')) {
+                const nu = rewriteSharkpanUrls(e.url);
+                if (nu !== e.url) await DB.saveEmoji(e.name, nu, e.categoryId);
+            }
+        }
+
+        // 角色：整体序列化后深层替换（立绘 sprites / 小屋 roomConfig / 见面 dateSkinSets 都能一网打尽）
+        const chars = await DB.getAllCharacters();
+        for (const c of chars) {
+            const s = JSON.stringify(c);
+            if (!s.includes('sharkpan.xyz')) continue;
+            const ns = rewriteSharkpanUrls(s);
+            if (ns !== s) await DB.saveCharacter(JSON.parse(ns));
+        }
+
+        try { localStorage.setItem(MIGRATION_FLAG, '1'); } catch { /* ignore */ }
+    } catch (err) {
+        console.warn('[migrateSharkpanAssets] 迁移失败（不影响启动，下次再试）', err);
+    }
+}

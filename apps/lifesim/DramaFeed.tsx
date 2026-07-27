@@ -1,1 +1,404 @@
-LyoqCiAqIERyYW1hRmVlZCAtIGR5bmFtaWMgc3RyZWFtICsgbWFpbiBwbG90IGFyY2hpdmUKICovCgppbXBvcnQgUmVhY3QsIHsgdXNlRWZmZWN0LCB1c2VNZW1vLCB1c2VTdGF0ZSB9IGZyb20gJ3JlYWN0JzsKaW1wb3J0IHsgTGlmZVNpbVN0YXRlLCBTaW1BY3Rpb24gfSBmcm9tICcuLi8uLi90eXBlcyc7CmltcG9ydCB7CiAgICBBbGllbiwgQm9va09wZW4sIENoYXRDaXJjbGVEb3RzLCBHbG9iZSwgTGlnaHRuaW5nLCBTcGFya2xlLAp9IGZyb20gJ0BwaG9zcGhvci1pY29ucy9yZWFjdCc7CmltcG9ydCBTdG9yeUF0dGFjaG1lbnRzIGZyb20gJy4vU3RvcnlBdHRhY2htZW50cyc7CmltcG9ydCB7IGZvcm1hdExpZmVTaW1BY3Rpb25EZXNjcmlwdGlvbiB9IGZyb20gJy4uLy4uL3V0aWxzL2xpZmVTaW1Ub25lJzsKCmNvbnN0IEVWRU5UX0FDQ0VOVFM6IFJlY29yZDxzdHJpbmcsIHN0cmluZz4gPSB7CiAgICBmaWdodDogJyNiODUwNTAnLAogICAgcm9tYW5jZTogJyNjMDYwOTAnLAogICAgZ29zc2lwOiAnIzhiNmJiOCcsCiAgICBhbGxpYW5jZTogJyM1MDgwYjgnLAogICAgcGFydHk6ICcjYjg5ODQwJywKICAgIHJpdmFscnk6ICcjYzA3MDQwJywKICAgIG1haW5QbG90OiAnI2I4NmMzZCcsCiAgICBzeXN0ZW06ICcjN2Y4YzliJywKfTsKCmNvbnN0IFRPTkVfRE9UUzogUmVjb3JkPHN0cmluZywgc3RyaW5nPiA9IHsKICAgIHZlbmdlZnVsOiAnI2I4NTA1MCcsCiAgICByb21hbnRpYzogJyNjMDYwOTAnLAogICAgc2NoZW1pbmc6ICcjOGI2YmI4JywKICAgIGNoYW90aWM6ICcjYzA3MDQwJywKICAgIHBlYWNlZnVsOiAnIzViOWI2YicsCiAgICBhbXVzZWQ6ICcjYjg5ODQwJywKICAgIGFueGlvdXM6ICcjNTA3MGIwJywKfTsKCnR5cGUgRHJhbWFGaWx0ZXIgPSAnYWxsJyB8ICdjaGFyYWN0ZXInIHwgJ21haW5fcGxvdCcgfCAnc3lzdGVtJzsKCmNvbnN0IEZJTFRFUlM6IHsgdmFsdWU6IERyYW1hRmlsdGVyOyBsYWJlbDogc3RyaW5nIH1bXSA9IFsKICAgIHsgdmFsdWU6ICdhbGwnLCBsYWJlbDogJ+WFqOmDqCcgfSwKICAgIHsgdmFsdWU6ICdjaGFyYWN0ZXInLCBsYWJlbDogJ+inkuiJsicgfSwKICAgIHsgdmFsdWU6ICdtYWluX3Bsb3QnLCBsYWJlbDogJ+S4u+e6vycgfSwKICAgIHsgdmFsdWU6ICdzeXN0ZW0nLCBsYWJlbDogJ+ezu+e7nycgfSwKXTsKCmZ1bmN0aW9uIGdldEV2ZW50QWNjZW50KGFjdGlvbjogU2ltQWN0aW9uKTogc3RyaW5nIHsKICAgIGlmIChhY3Rpb24uc3RvcnlLaW5kID09PSAnbWFpbl9wbG90JykgcmV0dXJuIEVWRU5UX0FDQ0VOVFMubWFpblBsb3Q7CiAgICBpZiAoYWN0aW9uLnN0b3J5S2luZCA9PT0gJ3N5c3RlbScpIHJldHVybiBFVkVOVF9BQ0NFTlRTLnN5c3RlbTsKCiAgICBjb25zdCBkZXNjID0gYWN0aW9uLmRlc2NyaXB0aW9uLnRvTG93ZXJDYXNlKCk7CiAgICBpZiAoZGVzYy5pbmNsdWRlcygnZmlnaHQnKSB8fCBkZXNjLmluY2x1ZGVzKCflkLXmnrYnKSB8fCBkZXNjLmluY2x1ZGVzKCfmiZPmnrYnKSkgcmV0dXJuIEVWRU5UX0FDQ0VOVFMuZmlnaHQ7CiAgICBpZiAoZGVzYy5pbmNsdWRlcygncm9tYW5jZScpIHx8IGRlc2MuaW5jbHVkZXMoJ+aap+aYpycpIHx8IGRlc2MuaW5jbHVkZXMoJ+aBiycpKSByZXR1cm4gRVZFTlRfQUNDRU5UUy5yb21hbmNlOwogICAgaWYgKGRlc2MuaW5jbHVkZXMoJ2dvc3NpcCcpIHx8IGRlc2MuaW5jbHVkZXMoJ+mXsuivnScpIHx8IGRlc2MuaW5jbHVkZXMoJ+WFq+WNpicpKSByZXR1cm4gRVZFTlRfQUNDRU5UUy5nb3NzaXA7CiAgICBpZiAoZGVzYy5pbmNsdWRlcygnYWxsaWFuY2UnKSB8fCBkZXNjLmluY2x1ZGVzKCfnu5Pnm58nKSkgcmV0dXJuIEVWRU5UX0FDQ0VOVFMuYWxsaWFuY2U7CiAgICBpZiAoZGVzYy5pbmNsdWRlcygncGFydHknKSB8fCBkZXNjLmluY2x1ZGVzKCfmtL7lr7knKSkgcmV0dXJuIEVWRU5UX0FDQ0VOVFMucGFydHk7CiAgICBpZiAoZGVzYy5pbmNsdWRlcygncml2YWxyeScpIHx8IGRlc2MuaW5jbHVkZXMoJ+ernuS6iScpKSByZXR1cm4gRVZFTlRfQUNDRU5UUy5yaXZhbHJ5OwogICAgaWYgKGFjdGlvbi5hY3RvcklkID09PSAnc3lzdGVtJyB8fCBhY3Rpb24uYWN0b3JJZCA9PT0gJ2F1dG9ub21vdXMnKSByZXR1cm4gJyM4YjZiYjgnOwogICAgaWYgKGFjdGlvbi5hY3RvcklkID09PSAndXNlcicpIHJldHVybiAnIzViOWI2Yic7CiAgICByZXR1cm4gJyM4ODgnOwp9CgpmdW5jdGlvbiBnZXRTdG9yeUJhZGdlKGFjdGlvbjogU2ltQWN0aW9uKTogc3RyaW5nIHsKICAgIGlmIChhY3Rpb24uc3RvcnlLaW5kID09PSAnbWFpbl9wbG90JykgcmV0dXJuICfkuLvnur8nOwogICAgaWYgKGFjdGlvbi5zdG9yeUtpbmQgPT09ICdjaGFyYWN0ZXJfZHJhbWEnKSByZXR1cm4gJ+inkuiJsic7CiAgICBpZiAoYWN0aW9uLnN0b3J5S2luZCA9PT0gJ3N5c3RlbScpIHJldHVybiAn57O757ufJzsKICAgIHJldHVybiAnJzsKfQoKZnVuY3Rpb24gbWF0Y2hlc0RyYW1hRmlsdGVyKGFjdGlvbjogU2ltQWN0aW9uLCBmaWx0ZXI6IERyYW1hRmlsdGVyKTogYm9vbGVhbiB7CiAgICBpZiAoZmlsdGVyID09PSAnYWxsJykgcmV0dXJuIHRydWU7CiAgICBpZiAoZmlsdGVyID09PSAnbWFpbl9wbG90JykgcmV0dXJuIGFjdGlvbi5zdG9yeUtpbmQgPT09ICdtYWluX3Bsb3QnOwogICAgaWYgKGZpbHRlciA9PT0gJ3N5c3RlbScpIHJldHVybiBhY3Rpb24uc3RvcnlLaW5kID09PSAnc3lzdGVtJyB8fCBhY3Rpb24uYWN0b3JJZCA9PT0gJ3N5c3RlbScgfHwgYWN0aW9uLmFjdG9ySWQgPT09ICdhdXRvbm9tb3VzJzsKICAgIHJldHVybiBhY3Rpb24uc3RvcnlLaW5kID09PSAnY2hhcmFjdGVyX2RyYW1hJyB8fCBhY3Rpb24uYWN0b3JJZCA9PT0gJ3VzZXInIHx8ICghIWFjdGlvbi5hY3RvcklkICYmICFbJ3N5c3RlbScsICdhdXRvbm9tb3VzJywgJ3N0b3J5J10uaW5jbHVkZXMoYWN0aW9uLmFjdG9ySWQpKTsKfQoKY29uc3QgRHJhbWFFbnRyeTogUmVhY3QuRkM8eyBhY3Rpb246IFNpbUFjdGlvbiB9PiA9ICh7IGFjdGlvbiB9KSA9PiB7CiAgICBjb25zdCBbZXhwYW5kZWQsIHNldEV4cGFuZGVkXSA9IHVzZVN0YXRlKGZhbHNlKTsKICAgIGNvbnN0IGFjY2VudCA9IGdldEV2ZW50QWNjZW50KGFjdGlvbik7CiAgICBjb25zdCBuYXJyYXRpdmUgPSBhY3Rpb24ubmFycmF0aXZlOwogICAgY29uc3QgZGlzcGxheURlc2NyaXB0aW9uID0gZm9ybWF0TGlmZVNpbUFjdGlvbkRlc2NyaXB0aW9uKGFjdGlvbi5kZXNjcmlwdGlvbik7CiAgICBjb25zdCBoYXNEZXRhaWxzID0gISEobmFycmF0aXZlPy5pbm5lclRob3VnaHQgfHwgbmFycmF0aXZlPy5kaWFsb2d1ZSB8fCBuYXJyYXRpdmU/LmNvbW1lbnRPbldvcmxkIHx8IGFjdGlvbi5yZWFzb25pbmcgfHwgYWN0aW9uLnJlYWN0aW9uVG9Vc2VyKTsKICAgIGNvbnN0IHRvbmVDb2xvciA9IG5hcnJhdGl2ZT8uZW1vdGlvbmFsVG9uZSA/IFRPTkVfRE9UU1tuYXJyYXRpdmUuZW1vdGlvbmFsVG9uZV0gOiB1bmRlZmluZWQ7CiAgICBjb25zdCBzdG9yeUJhZGdlID0gZ2V0U3RvcnlCYWRnZShhY3Rpb24pOwoKICAgIHJldHVybiAoCiAgICAgICAgPGRpdgogICAgICAgICAgICBzdHlsZT17ewogICAgICAgICAgICAgICAgYmFja2dyb3VuZDogYWN0aW9uLnN0b3J5S2luZCA9PT0gJ21haW5fcGxvdCcgPyAncmdiYSgyNTUsMjQ3LDIzNCwwLjcpJyA6ICdyZ2JhKDI1NSwyNTUsMjU1LDAuNSknLAogICAgICAgICAgICAgICAgYm9yZGVyOiAnMXB4IHNvbGlkIHJnYmEoMCwwLDAsMC4wOCknLAogICAgICAgICAgICAgICAgYm9yZGVyTGVmdDogYDNweCBzb2xpZCAke2FjY2VudH1gLAogICAgICAgICAgICAgICAgYm9yZGVyUmFkaXVzOiA0LAogICAgICAgICAgICAgICAgcGFkZGluZzogJzVweCA4cHgnLAogICAgICAgICAgICAgICAgY3Vyc29yOiBoYXNEZXRhaWxzID8gJ3BvaW50ZXInIDogJ2RlZmF1bHQnLAogICAgICAgICAgICAgICAgbWluV2lkdGg6IDAsCiAgICAgICAgICAgIH19CiAgICAgICAgICAgIG9uQ2xpY2s9eygpID0+IGhhc0RldGFpbHMgJiYgc2V0RXhwYW5kZWQoIWV4cGFuZGVkKX0KICAgICAgICA+CiAgICAgICAgICAgIDxkaXYgY2xhc3NOYW1lPSJmbGV4IGl0ZW1zLWNlbnRlciBnYXAtMS41IiBzdHlsZT17eyBtaW5XaWR0aDogMCB9fT4KICAgICAgICAgICAgICAgIDxkaXYKICAgICAgICAgICAgICAgICAgICBjbGFzc05hbWU9ImZsZXgtc2hyaW5rLTAiCiAgICAgICAgICAgICAgICAgICAgc3R5bGU9e3sKICAgICAgICAgICAgICAgICAgICAgICAgd2lkdGg6IDE4LAogICAgICAgICAgICAgICAgICAgICAgICBoZWlnaHQ6IDE4LAogICAgICAgICAgICAgICAgICAgICAgICBib3JkZXJSYWRpdXM6IDMsCiAgICAgICAgICAgICAgICAgICAgICAgIG92ZXJmbG93OiAnaGlkZGVuJywKICAgICAgICAgICAgICAgICAgICAgICAgYmFja2dyb3VuZDogJ3JnYmEoMCwwLDAsMC4wNSknLAogICAgICAgICAgICAgICAgICAgICAgICBkaXNwbGF5OiAnZmxleCcsCiAgICAgICAgICAgICAgICAgICAgICAgIGFsaWduSXRlbXM6ICdjZW50ZXInLAogICAgICAgICAgICAgICAgICAgICAgICBqdXN0aWZ5Q29udGVudDogJ2NlbnRlcicsCiAgICAgICAgICAgICAgICAgICAgfX0KICAgICAgICAgICAgICAgID4KICAgICAgICAgICAgICAgICAgICB7YWN0aW9uLmFjdG9yQXZhdGFyPy5zdGFydHNXaXRoKCdodHRwJykgfHwgYWN0aW9uLmFjdG9yQXZhdGFyPy5zdGFydHNXaXRoKCdkYXRhOicpCiAgICAgICAgICAgICAgICAgICAgICAgID8gPGltZyBzcmM9e2FjdGlvbi5hY3RvckF2YXRhcn0gc3R5bGU9e3sgd2lkdGg6IDE4LCBoZWlnaHQ6IDE4LCBvYmplY3RGaXQ6ICdjb3ZlcicsIGJvcmRlclJhZGl1czogMyB9fSBhbHQ9IiIgLz4KICAgICAgICAgICAgICAgICAgICAgICAgOiBhY3Rpb24uYWN0b3JBdmF0YXIKICAgICAgICAgICAgICAgICAgICAgICAgICAgID8gPHNwYW4gc3R5bGU9e3sgZm9udFNpemU6IDExIH19PnthY3Rpb24uYWN0b3JBdmF0YXJ9PC9zcGFuPgogICAgICAgICAgICAgICAgICAgICAgICAgICAgOiA8QWxpZW4gc2l6ZT17MTB9IHdlaWdodD0iYm9sZCIgc3R5bGU9e3sgY29sb3I6ICcjYWFhJyB9fSAvPn0KICAgICAgICAgICAgICAgIDwvZGl2PgogICAgICAgICAgICAgICAgPHNwYW4gc3R5bGU9e3sgZm9udFNpemU6IDEwLCBmb250V2VpZ2h0OiA3MDAsIGNvbG9yOiBhY2NlbnQgfX0+e2FjdGlvbi5hY3Rvcn08L3NwYW4+CiAgICAgICAgICAgICAgICB7c3RvcnlCYWRnZSAmJiAoCiAgICAgICAgICAgICAgICAgICAgPHNwYW4KICAgICAgICAgICAgICAgICAgICAgICAgc3R5bGU9e3sKICAgICAgICAgICAgICAgICAgICAgICAgICAgIGZvbnRTaXplOiA4LAogICAgICAgICAgICAgICAgICAgICAgICAgICAgZm9udFdlaWdodDogNzAwLAogICAgICAgICAgICAgICAgICAgICAgICAgICAgY29sb3I6IGFjY2VudCwKICAgICAgICAgICAgICAgICAgICAgICAgICAgIGJvcmRlcjogYDFweCBzb2xpZCAke2FjY2VudH01NWAsCiAgICAgICAgICAgICAgICAgICAgICAgICAgICBiYWNrZ3JvdW5kOiBgJHthY2NlbnR9MTJgLAogICAgICAgICAgICAgICAgICAgICAgICAgICAgYm9yZGVyUmFkaXVzOiA5OTksCiAgICAgICAgICAgICAgICAgICAgICAgICAgICBwYWRkaW5nOiAnMXB4IDVweCcsCiAgICAgICAgICAgICAgICAgICAgICAgICAgICBsZXR0ZXJTcGFjaW5nOiAnMC4wNGVtJywKICAgICAgICAgICAgICAgICAgICAgICAgICAgIGZsZXhTaHJpbms6IDAsCiAgICAgICAgICAgICAgICAgICAgICAgIH19CiAgICAgICAgICAgICAgICAgICAgPgogICAgICAgICAgICAgICAgICAgICAgICB7c3RvcnlCYWRnZX0KICAgICAgICAgICAgICAgICAgICA8L3NwYW4+CiAgICAgICAgICAgICAgICApfQogICAgICAgICAgICAgICAge3RvbmVDb2xvciAmJiAoCiAgICAgICAgICAgICAgICAgICAgPHNwYW4gc3R5bGU9e3sgd2lkdGg6IDUsIGhlaWdodDogNSwgYm9yZGVyUmFkaXVzOiAnNTAlJywgYmFja2dyb3VuZDogdG9uZUNvbG9yLCBmbGV4U2hyaW5rOiAwIH19IC8+CiAgICAgICAgICAgICAgICApfQogICAgICAgICAgICAgICAgPHNwYW4gc3R5bGU9e3sgZm9udFNpemU6IDgsIGNvbG9yOiAnI2JiYicsIG1hcmdpbkxlZnQ6ICdhdXRvJywgZm9udEZhbWlseTogJ21vbm9zcGFjZScsIGZsZXhTaHJpbms6IDAgfX0+UnthY3Rpb24udHVybk51bWJlcn08L3NwYW4+CiAgICAgICAgICAgICAgICB7aGFzRGV0YWlscyAmJiAoCiAgICAgICAgICAgICAgICAgICAgPHNwYW4gc3R5bGU9e3sgZm9udFNpemU6IDgsIGNvbG9yOiAnI2NjYycsIGZsZXhTaHJpbms6IDAgfX0+e2V4cGFuZGVkID8gJ+KWsicgOiAn4pa8J308L3NwYW4+CiAgICAgICAgICAgICAgICApfQogICAgICAgICAgICA8L2Rpdj4KCiAgICAgICAgICAgIHthY3Rpb24uaGVhZGxpbmUgJiYgKAogICAgICAgICAgICAgICAgPHAgc3R5bGU9e3sgZm9udFNpemU6IDExLCBmb250V2VpZ2h0OiA3MDAsIGNvbG9yOiAnIzNmMzg0NicsIGxpbmVIZWlnaHQ6IDEuMzUsIG1hcmdpblRvcDogNCwgb3ZlcmZsb3dXcmFwOiAnYW55d2hlcmUnIH19PgogICAgICAgICAgICAgICAgICAgIHthY3Rpb24uaGVhZGxpbmV9CiAgICAgICAgICAgICAgICA8L3A+CiAgICAgICAgICAgICl9CgogICAgICAgICAgICA8cCBzdHlsZT17eyBmb250U2l6ZTogMTAsIGNvbG9yOiAnIzU1NScsIGxpbmVIZWlnaHQ6IDEuNCwgbWFyZ2luVG9wOiAzLCBvdmVyZmxvd1dyYXA6ICdhbnl3aGVyZScgfX0+e2Rpc3BsYXlEZXNjcmlwdGlvbn08L3A+CgogICAgICAgICAgICB7YWN0aW9uLmltbWVkaWF0ZVJlc3VsdCAmJiBhY3Rpb24uaW1tZWRpYXRlUmVzdWx0ICE9PSBhY3Rpb24uZGVzY3JpcHRpb24gJiYgKAogICAgICAgICAgICAgICAgPHAgc3R5bGU9e3sgZm9udFNpemU6IDksIGNvbG9yOiAnIzg4OCcsIG1hcmdpblRvcDogMiwgb3ZlcmZsb3dXcmFwOiAnYW55d2hlcmUnIH19PuKGkiB7YWN0aW9uLmltbWVkaWF0ZVJlc3VsdH08L3A+CiAgICAgICAgICAgICl9CgogICAgICAgICAgICA8U3RvcnlBdHRhY2htZW50cyBhdHRhY2htZW50cz17YWN0aW9uLmF0dGFjaG1lbnRzfSBjb21wYWN0IC8+CgogICAgICAgICAgICB7ZXhwYW5kZWQgJiYgaGFzRGV0YWlscyAmJiAoCiAgICAgICAgICAgICAgICA8ZGl2IHN0eWxlPXt7IG1hcmdpblRvcDogNSwgcGFkZGluZ1RvcDogNSwgYm9yZGVyVG9wOiAnMXB4IGRhc2hlZCByZ2JhKDAsMCwwLDAuMDgpJyB9fT4KICAgICAgICAgICAgICAgICAgICB7KG5hcnJhdGl2ZT8uaW5uZXJUaG91Z2h0IHx8IGFjdGlvbi5yZWFzb25pbmcpICYmICgKICAgICAgICAgICAgICAgICAgICAgICAgPGRpdiBjbGFzc05hbWU9InJldHJvLWluc2V0IiBzdHlsZT17eyBwYWRkaW5nOiAnM3B4IDZweCcsIG1hcmdpbkJvdHRvbTogNCB9fT4KICAgICAgICAgICAgICAgICAgICAgICAgICAgIDxwIHN0eWxlPXt7IGZvbnRTaXplOiA5LCBjb2xvcjogJyM5OTgnLCBmb250U3R5bGU6ICdpdGFsaWMnLCBkaXNwbGF5OiAnZmxleCcsIGFsaWduSXRlbXM6ICdjZW50ZXInLCBnYXA6IDMsIG92ZXJmbG93V3JhcDogJ2FueXdoZXJlJyB9fT4KICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICA8Q2hhdENpcmNsZURvdHMgc2l6ZT17OX0gd2VpZ2h0PSJib2xkIiAvPiB7bmFycmF0aXZlPy5pbm5lclRob3VnaHQgfHwgYWN0aW9uLnJlYXNvbmluZ30KICAgICAgICAgICAgICAgICAgICAgICAgICAgIDwvcD4KICAgICAgICAgICAgICAgICAgICAgICAgPC9kaXY+CiAgICAgICAgICAgICAgICAgICAgKX0KICAgICAgICAgICAgICAgICAgICB7bmFycmF0aXZlPy5kaWFsb2d1ZSAmJiAoCiAgICAgICAgICAgICAgICAgICAgICAgIDxwIHN0eWxlPXt7IGZvbnRTaXplOiA5LCBjb2xvcjogJyM2NjYnLCBkaXNwbGF5OiAnZmxleCcsIGFsaWduSXRlbXM6ICdjZW50ZXInLCBnYXA6IDMsIG1hcmdpbkJvdHRvbTogMywgb3ZlcmZsb3dXcmFwOiAnYW55d2hlcmUnIH19PgogICAgICAgICAgICAgICAgICAgICAgICAgICAgPEJvb2tPcGVuIHNpemU9ezl9IHdlaWdodD0iYm9sZCIgc3R5bGU9e3sgZmxleFNocmluazogMCB9fSAvPiB7bmFycmF0aXZlLmRpYWxvZ3VlfQogICAgICAgICAgICAgICAgICAgICAgICA8L3A+CiAgICAgICAgICAgICAgICAgICAgKX0KICAgICAgICAgICAgICAgICAgICB7bmFycmF0aXZlPy5jb21tZW50T25Xb3JsZCAmJiAoCiAgICAgICAgICAgICAgICAgICAgICAgIDxwIHN0eWxlPXt7IGZvbnRTaXplOiA4LCBjb2xvcjogJyNhYWEnLCBmb250U3R5bGU6ICdpdGFsaWMnLCBkaXNwbGF5OiAnZmxleCcsIGFsaWduSXRlbXM6ICdjZW50ZXInLCBnYXA6IDMsIG92ZXJmbG93V3JhcDogJ2FueXdoZXJlJyB9fT4KICAgICAgICAgICAgICAgICAgICAgICAgICAgIDxHbG9iZSBzaXplPXs4fSB3ZWlnaHQ9ImJvbGQiIHN0eWxlPXt7IGZsZXhTaHJpbms6IDAgfX0gLz4ge25hcnJhdGl2ZS5jb21tZW50T25Xb3JsZH0KICAgICAgICAgICAgICAgICAgICAgICAgPC9wPgogICAgICAgICAgICAgICAgICAgICl9CiAgICAgICAgICAgICAgICAgICAge2FjdGlvbi5yZWFjdGlvblRvVXNlciAmJiAoCiAgICAgICAgICAgICAgICAgICAgICAgIDxwIHN0eWxlPXt7IGZvbnRTaXplOiA5LCBjb2xvcjogJyM5MDgwYTAnLCBmb250U3R5bGU6ICdpdGFsaWMnLCBtYXJnaW5Ub3A6IDMsIGRpc3BsYXk6ICdmbGV4JywgYWxpZ25JdGVtczogJ2NlbnRlcicsIGdhcDogMywgb3ZlcmZsb3dXcmFwOiAnYW55d2hlcmUnIH19PgogICAgICAgICAgICAgICAgICAgICAgICAgICAgPENoYXRDaXJjbGVEb3RzIHNpemU9ezl9IHdlaWdodD0iYm9sZCIgc3R5bGU9e3sgZmxleFNocmluazogMCB9fSAvPiAie2FjdGlvbi5yZWFjdGlvblRvVXNlcn0iCiAgICAgICAgICAgICAgICAgICAgICAgIDwvcD4KICAgICAgICAgICAgICAgICAgICApfQogICAgICAgICAgICAgICAgPC9kaXY+CiAgICAgICAgICAgICl9CgogICAgICAgICAgICB7YWN0aW9uLmNoYWluRnJvbUlkICYmICgKICAgICAgICAgICAgICAgIDxwIHN0eWxlPXt7IGZvbnRTaXplOiA4LCBjb2xvcjogJyNiODk4NDAnLCBtYXJnaW5Ub3A6IDMsIGRpc3BsYXk6ICdmbGV4JywgYWxpZ25JdGVtczogJ2NlbnRlcicsIGdhcDogMyB9fT4KICAgICAgICAgICAgICAgICAgICA8TGlnaHRuaW5nIHNpemU9ezh9IHdlaWdodD0iYm9sZCIgc3R5bGU9e3sgZmxleFNocmluazogMCB9fSAvPiDov57plIHkuovku7YKICAgICAgICAgICAgICAgIDwvcD4KICAgICAgICAgICAgKX0KICAgICAgICA8L2Rpdj4KICAgICk7Cn07Cgpjb25zdCBNYWluUGxvdEFyY2hpdmU6IFJlYWN0LkZDPHsgZ2FtZVN0YXRlOiBMaWZlU2ltU3RhdGUgfT4gPSAoeyBnYW1lU3RhdGUgfSkgPT4gewogICAgY29uc3QgbWFpblBsb3RzID0gdXNlTWVtbygKICAgICAgICAoKSA9PiBbLi4uZ2FtZVN0YXRlLmFjdGlvbkxvZ10uZmlsdGVyKGFjdGlvbiA9PiBhY3Rpb24uc3RvcnlLaW5kID09PSAnbWFpbl9wbG90JykucmV2ZXJzZSgpLAogICAgICAgIFtnYW1lU3RhdGUuYWN0aW9uTG9nXQogICAgKTsKICAgIGNvbnN0IFtzZWxlY3RlZElkLCBzZXRTZWxlY3RlZElkXSA9IHVzZVN0YXRlPHN0cmluZyB8IG51bGw+KG1haW5QbG90c1swXT8uaWQgfHwgbnVsbCk7CgogICAgdXNlRWZmZWN0KCgpID0+IHsKICAgICAgICBpZiAoIW1haW5QbG90cy5sZW5ndGgpIHsKICAgICAgICAgICAgc2V0U2VsZWN0ZWRJZChudWxsKTsKICAgICAgICAgICAgcmV0dXJuOwogICAgICAgIH0KICAgICAgICBpZiAoIXNlbGVjdGVkSWQgfHwgIW1haW5QbG90cy5zb21lKGFjdGlvbiA9PiBhY3Rpb24uaWQgPT09IHNlbGVjdGVkSWQpKSB7CiAgICAgICAgICAgIHNldFNlbGVjdGVkSWQobWFpblBsb3RzWzBdLmlkKTsKICAgICAgICB9CiAgICB9LCBbbWFpblBsb3RzLCBzZWxlY3RlZElkXSk7CgogICAgY29uc3Qgc2VsZWN0ZWRQbG90ID0gbWFpblBsb3RzLmZpbmQoYWN0aW9uID0+IGFjdGlvbi5pZCA9PT0gc2VsZWN0ZWRJZCkgfHwgbWFpblBsb3RzWzBdIHx8IG51bGw7CiAgICBjb25zdCBucGNOYW1lTWFwID0gbmV3IE1hcChnYW1lU3RhdGUubnBjcy5tYXAobnBjID0+IFtucGMuaWQsIGAke25wYy5lbW9qaSB8fCAnJ30ke25wYy5uYW1lfWAudHJpbSgpXSkpOwogICAgY29uc3QgaW52b2x2ZWROYW1lcyA9IHNlbGVjdGVkUGxvdD8uaW52b2x2ZWROcGNJZHM/Lm1hcChpZCA9PiBucGNOYW1lTWFwLmdldChpZCkpLmZpbHRlcihCb29sZWFuKSB8fCBbXTsKCiAgICByZXR1cm4gKAogICAgICAgIDxkaXYgY2xhc3NOYW1lPSJyZXRyby13aW5kb3ciIHN0eWxlPXt7IG1pbkhlaWdodDogMCwgbWluV2lkdGg6IDAsIGRpc3BsYXk6ICdmbGV4JywgZmxleERpcmVjdGlvbjogJ2NvbHVtbicgfX0+CiAgICAgICAgICAgIDxkaXYgY2xhc3NOYW1lPSJyZXRyby10aXRsZWJhciI+CiAgICAgICAgICAgICAgICA8c3Bhbj5tYWlucGxvdC5hcmM8L3NwYW4+CiAgICAgICAgICAgICAgICA8c3BhbiBjbGFzc05hbWU9ImZsZXggaXRlbXMtY2VudGVyIGdhcC0xIj4KICAgICAgICAgICAgICAgICAgICA8U3BhcmtsZSBzaXplPXsxMH0gd2VpZ2h0PSJmaWxsIiAvPgogICAgICAgICAgICAgICAgICAgIHttYWluUGxvdHMubGVuZ3RofQogICAgICAgICAgICAgICAgPC9zcGFuPgogICAgICAgICAgICA8L2Rpdj4KCiAgICAgICAgICAgIHshc2VsZWN0ZWRQbG90ID8gKAogICAgICAgICAgICAgICAgPGRpdiBjbGFzc05hbWU9ImZsZXgtMSBmbGV4IGl0ZW1zLWNlbnRlciBqdXN0aWZ5LWNlbnRlciB0ZXh0LWNlbnRlciIgc3R5bGU9e3sgcGFkZGluZzogMTQgfX0+CiAgICAgICAgICAgICAgICAgICAgPGRpdj4KICAgICAgICAgICAgICAgICAgICAgICAgPHAgc3R5bGU9e3sgZm9udFNpemU6IDExLCBmb250V2VpZ2h0OiA3MDAsIGNvbG9yOiAnIzdmNmM1ZCcgfX0+5Li757q/5qGj5qGI5a6k6L+Y5piv56m655qEPC9wPgogICAgICAgICAgICAgICAgICAgICAgICA8cCBzdHlsZT17eyBmb250U2l6ZTogMTAsIGNvbG9yOiAnIzlhOGY4NCcsIG1hcmdpblRvcDogNiwgbGluZUhlaWdodDogMS41IH19PgogICAgICAgICAgICAgICAgICAgICAgICAgICAg5aSa54K55Yeg5qyh4oCc5ZCD55Oc4oCd77yM5LiW55WM57q/5bCx5Lya5Zyo6L+Z6YeM55WZ5LiL6K6w5b2V44CCCiAgICAgICAgICAgICAgICAgICAgICAgIDwvcD4KICAgICAgICAgICAgICAgICAgICA8L2Rpdj4KICAgICAgICAgICAgICAgIDwvZGl2PgogICAgICAgICAgICApIDogKAogICAgICAgICAgICAgICAgPD4KICAgICAgICAgICAgICAgICAgICA8ZGl2IHN0eWxlPXt7IHBhZGRpbmc6IDgsIGJvcmRlckJvdHRvbTogJzFweCBzb2xpZCByZ2JhKDAsMCwwLDAuMDgpJyB9fT4KICAgICAgICAgICAgICAgICAgICAgICAgPGRpdiBzdHlsZT17eyBmb250U2l6ZTogOSwgZm9udFdlaWdodDogNzAwLCBjb2xvcjogJyM4YjdiNzInLCBtYXJnaW5Cb3R0b206IDYgfX0+5Li757q/5Y6G5Y+yPC9kaXY+CiAgICAgICAgICAgICAgICAgICAgICAgIDxkaXYgY2xhc3NOYW1lPSJzcGFjZS15LTEuNSBuby1zY3JvbGxiYXIiIHN0eWxlPXt7IG1heEhlaWdodDogMTY4LCBvdmVyZmxvd1k6ICdhdXRvJywgb3ZlcmZsb3dYOiAnaGlkZGVuJywgcGFkZGluZ1JpZ2h0OiAyIH19PgogICAgICAgICAgICAgICAgICAgICAgICAgICAge21haW5QbG90cy5tYXAoYWN0aW9uID0+IHsKICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICBjb25zdCBhY3RpdmUgPSBhY3Rpb24uaWQgPT09IHNlbGVjdGVkUGxvdC5pZDsKICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICByZXR1cm4gKAogICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICA8YnV0dG9uCiAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICBrZXk9e2FjdGlvbi5pZH0KICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgIG9uQ2xpY2s9eygpID0+IHNldFNlbGVjdGVkSWQoYWN0aW9uLmlkKX0KICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgIHN0eWxlPXt7CiAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgd2lkdGg6ICcxMDAlJywKICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICB0ZXh0QWxpZ246ICdsZWZ0JywKICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICBib3JkZXI6IGFjdGl2ZSA/IGAxcHggc29saWQgJHtFVkVOVF9BQ0NFTlRTLm1haW5QbG90fTU1YCA6ICcxcHggc29saWQgcmdiYSgwLDAsMCwwLjA4KScsCiAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgYm9yZGVyTGVmdDogYDNweCBzb2xpZCAke2FjdGl2ZSA/IEVWRU5UX0FDQ0VOVFMubWFpblBsb3QgOiAnI2QwYzFiNyd9YCwKICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICBib3JkZXJSYWRpdXM6IDQsCiAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgcGFkZGluZzogJzZweCA3cHgnLAogICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgIGJhY2tncm91bmQ6IGFjdGl2ZSA/ICdyZ2JhKDI1NSwyNDcsMjM0LDAuOCknIDogJ3JnYmEoMjU1LDI1NSwyNTUsMC41NSknLAogICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgIG1pbldpZHRoOiAwLAogICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgfX0KICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgPgogICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgPGRpdiBjbGFzc05hbWU9ImZsZXggaXRlbXMtY2VudGVyIGdhcC0yIiBzdHlsZT17eyBtaW5XaWR0aDogMCB9fT4KICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICA8c3BhbiBzdHlsZT17eyBmb250U2l6ZTogOSwgZm9udFdlaWdodDogNzAwLCBjb2xvcjogYWN0aXZlID8gRVZFTlRfQUNDRU5UUy5tYWluUGxvdCA6ICcjN2Y3NTZlJywgZmxleDogMSwgbWluV2lkdGg6IDAsIG92ZXJmbG93V3JhcDogJ2FueXdoZXJlJyB9fT4KICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAge2FjdGlvbi5oZWFkbGluZSB8fCBhY3Rpb24uZGVzY3JpcHRpb259CiAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgPC9zcGFuPgogICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgIDxzcGFuIHN0eWxlPXt7IGZvbnRTaXplOiA4LCBjb2xvcjogJyNhYWEnLCBmb250RmFtaWx5OiAnbW9ub3NwYWNlJywgZmxleFNocmluazogMCB9fT5Se2FjdGlvbi50dXJuTnVtYmVyfTwvc3Bhbj4KICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgIDwvZGl2PgogICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAge2FjdGlvbi5hdHRhY2htZW50cyAmJiBhY3Rpb24uYXR0YWNobWVudHMubGVuZ3RoID4gMCAmJiAoCiAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgPGRpdiBzdHlsZT17eyBmb250U2l6ZTogOCwgY29sb3I6ICcjOWY4YjdkJywgbWFyZ2luVG9wOiAzIH19PgogICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICDpmYTku7Yge2FjdGlvbi5hdHRhY2htZW50cy5sZW5ndGh9CiAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgPC9kaXY+CiAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICApfQogICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICA8L2J1dHRvbj4KICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICApOwogICAgICAgICAgICAgICAgICAgICAgICAgICAgfSl9CiAgICAgICAgICAgICAgICAgICAgICAgIDwvZGl2PgogICAgICAgICAgICAgICAgICAgIDwvZGl2PgoKICAgICAgICAgICAgICAgICAgICA8ZGl2IHN0eWxlPXt7IHBhZGRpbmc6IDgsIGJvcmRlckJvdHRvbTogJzFweCBzb2xpZCByZ2JhKDAsMCwwLDAuMDgpJywgYmFja2dyb3VuZDogJ3JnYmEoMTg0LDEwOCw2MSwwLjA1KScgfX0+CiAgICAgICAgICAgICAgICAgICAgICAgIDxkaXYgY2xhc3NOYW1lPSJmbGV4IGl0ZW1zLWNlbnRlciBnYXAtMS41IGZsZXgtd3JhcCI+CiAgICAgICAgICAgICAgICAgICAgICAgICAgICA8c3BhbgogICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgIHN0eWxlPXt7CiAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgIGZvbnRTaXplOiA4LAogICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICBmb250V2VpZ2h0OiA3MDAsCiAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgIGNvbG9yOiBFVkVOVF9BQ0NFTlRTLm1haW5QbG90LAogICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICBib3JkZXI6IGAxcHggc29saWQgJHtFVkVOVF9BQ0NFTlRTLm1haW5QbG90fTU1YCwKICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgYmFja2dyb3VuZDogYCR7RVZFTlRfQUNDRU5UUy5tYWluUGxvdH0xMmAsCiAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgIGJvcmRlclJhZGl1czogOTk5LAogICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICBwYWRkaW5nOiAnMXB4IDZweCcsCiAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgIGxldHRlclNwYWNpbmc6ICcwLjA0ZW0nLAogICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgIH19CiAgICAgICAgICAgICAgICAgICAgICAgICAgICA+CiAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAg5b2T5YmN5Li757q/CiAgICAgICAgICAgICAgICAgICAgICAgICAgICA8L3NwYW4+CiAgICAgICAgICAgICAgICAgICAgICAgICAgICA8c3BhbiBzdHlsZT17eyBmb250U2l6ZTogOCwgY29sb3I6ICcjYTE5NjhjJywgZm9udEZhbWlseTogJ21vbm9zcGFjZScgfX0+UntzZWxlY3RlZFBsb3QudHVybk51bWJlcn08L3NwYW4+CiAgICAgICAgICAgICAgICAgICAgICAgIDwvZGl2PgogICAgICAgICAgICAgICAgICAgICAgICA8cCBzdHlsZT17eyBmb250U2l6ZTogMTIsIGZvbnRXZWlnaHQ6IDcwMCwgY29sb3I6ICcjNGIzYzMxJywgbWFyZ2luVG9wOiA1LCBsaW5lSGVpZ2h0OiAxLjQ1LCBvdmVyZmxvd1dyYXA6ICdhbnl3aGVyZScgfX0+CiAgICAgICAgICAgICAgICAgICAgICAgICAgICB7c2VsZWN0ZWRQbG90LmhlYWRsaW5lIHx8IHNlbGVjdGVkUGxvdC5kZXNjcmlwdGlvbn0KICAgICAgICAgICAgICAgICAgICAgICAgPC9wPgogICAgICAgICAgICAgICAgICAgICAgICA8cCBzdHlsZT17eyBmb250U2l6ZTogMTAsIGNvbG9yOiAnIzZhNjE1YScsIGxpbmVIZWlnaHQ6IDEuNTUsIG1hcmdpblRvcDogNSwgb3ZlcmZsb3dXcmFwOiAnYW55d2hlcmUnIH19PgogICAgICAgICAgICAgICAgICAgICAgICAgICAge3NlbGVjdGVkUGxvdC5kZXNjcmlwdGlvbn0KICAgICAgICAgICAgICAgICAgICAgICAgPC9wPgogICAgICAgICAgICAgICAgICAgICAgICB7c2VsZWN0ZWRQbG90LmltbWVkaWF0ZVJlc3VsdCAmJiAoCiAgICAgICAgICAgICAgICAgICAgICAgICAgICA8ZGl2IGNsYXNzTmFtZT0icmV0cm8taW5zZXQiIHN0eWxlPXt7IHBhZGRpbmc6ICc2cHggOHB4JywgbWFyZ2luVG9wOiA3IH19PgogICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgIDxkaXYgc3R5bGU9e3sgZm9udFNpemU6IDgsIGZvbnRXZWlnaHQ6IDcwMCwgY29sb3I6ICcjOWI3NjVlJywgbWFyZ2luQm90dG9tOiAzIH19PumYtuautee7k+aenDwvZGl2PgogICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgIDxkaXYgc3R5bGU9e3sgZm9udFNpemU6IDEwLCBjb2xvcjogJyM1OTUwNGEnLCBsaW5lSGVpZ2h0OiAxLjUsIG92ZXJmbG93V3JhcDogJ2FueXdoZXJlJyB9fT57c2VsZWN0ZWRQbG90LmltbWVkaWF0ZVJlc3VsdH08L2Rpdj4KICAgICAgICAgICAgICAgICAgICAgICAgICAgIDwvZGl2PgogICAgICAgICAgICAgICAgICAgICAgICApfQogICAgICAgICAgICAgICAgICAgICAgICB7aW52b2x2ZWROYW1lcy5sZW5ndGggPiAwICYmICgKICAgICAgICAgICAgICAgICAgICAgICAgICAgIDxkaXYgY2xhc3NOYW1lPSJmbGV4IGdhcC0xIGZsZXgtd3JhcCIgc3R5bGU9e3sgbWFyZ2luVG9wOiA3IH19PgogICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgIHtpbnZvbHZlZE5hbWVzLm1hcChuYW1lID0+ICgKICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgPHNwYW4KICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgIGtleT17bmFtZX0KICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgIHN0eWxlPXt7CiAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgZm9udFNpemU6IDgsCiAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgZm9udFdlaWdodDogNzAwLAogICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgIGNvbG9yOiAnIzdjNjU1NScsCiAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgYmFja2dyb3VuZDogJ3JnYmEoMjU1LDI1NSwyNTUsMC42KScsCiAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgYm9yZGVyOiAnMXB4IHNvbGlkIHJnYmEoMTg0LDEwOCw2MSwwLjE4KScsCiAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgYm9yZGVyUmFkaXVzOiA5OTksCiAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgcGFkZGluZzogJzJweCA2cHgnLAogICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgfX0KICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgPgogICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAge25hbWV9CiAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgIDwvc3Bhbj4KICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICApKX0KICAgICAgICAgICAgICAgICAgICAgICAgICAgIDwvZGl2PgogICAgICAgICAgICAgICAgICAgICAgICApfQogICAgICAgICAgICAgICAgICAgICAgICA8U3RvcnlBdHRhY2htZW50cyBhdHRhY2htZW50cz17c2VsZWN0ZWRQbG90LmF0dGFjaG1lbnRzfSAvPgogICAgICAgICAgICAgICAgICAgIDwvZGl2PgoKICAgICAgICAgICAgICAgICAgICB7KHNlbGVjdGVkUGxvdC5uYXJyYXRpdmU/LmlubmVyVGhvdWdodCB8fCBzZWxlY3RlZFBsb3QubmFycmF0aXZlPy5jb21tZW50T25Xb3JsZCkgJiYgKAogICAgICAgICAgICAgICAgICAgICAgICA8ZGl2IHN0eWxlPXt7IHBhZGRpbmc6IDggfX0+CiAgICAgICAgICAgICAgICAgICAgICAgICAgICA8ZGl2IHN0eWxlPXt7IGZvbnRTaXplOiA5LCBmb250V2VpZ2h0OiA3MDAsIGNvbG9yOiAnIzhiN2I3MicsIG1hcmdpbkJvdHRvbTogNiB9fT7nvJbliaflrqTmibnms6g8L2Rpdj4KICAgICAgICAgICAgICAgICAgICAgICAgICAgIHtzZWxlY3RlZFBsb3QubmFycmF0aXZlPy5pbm5lclRob3VnaHQgJiYgKAogICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgIDxkaXYgY2xhc3NOYW1lPSJyZXRyby1pbnNldCIgc3R5bGU9e3sgcGFkZGluZzogJzZweCA4cHgnLCBtYXJnaW5Cb3R0b206IHNlbGVjdGVkUGxvdC5uYXJyYXRpdmU/LmNvbW1lbnRPbldvcmxkID8gNiA6IDAgfX0+CiAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgIDxwIHN0eWxlPXt7IGZvbnRTaXplOiA5LCBjb2xvcjogJyM3ZDcwNWUnLCBsaW5lSGVpZ2h0OiAxLjU1LCBmb250U3R5bGU6ICdpdGFsaWMnLCBvdmVyZmxvd1dyYXA6ICdhbnl3aGVyZScgfX0+CiAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICB7c2VsZWN0ZWRQbG90Lm5hcnJhdGl2ZS5pbm5lclRob3VnaHR9CiAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgIDwvcD4KICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICA8L2Rpdj4KICAgICAgICAgICAgICAgICAgICAgICAgICAgICl9CiAgICAgICAgICAgICAgICAgICAgICAgICAgICB7c2VsZWN0ZWRQbG90Lm5hcnJhdGl2ZT8uY29tbWVudE9uV29ybGQgJiYgKAogICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgIDxwIHN0eWxlPXt7IGZvbnRTaXplOiA5LCBjb2xvcjogJyM4ZTg0N2QnLCBsaW5lSGVpZ2h0OiAxLjU1LCBvdmVyZmxvd1dyYXA6ICdhbnl3aGVyZScgfX0+CiAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgIHtzZWxlY3RlZFBsb3QubmFycmF0aXZlLmNvbW1lbnRPbldvcmxkfQogICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgIDwvcD4KICAgICAgICAgICAgICAgICAgICAgICAgICAgICl9CiAgICAgICAgICAgICAgICAgICAgICAgIDwvZGl2PgogICAgICAgICAgICAgICAgICAgICl9CiAgICAgICAgICAgICAgICA8Lz4KICAgICAgICAgICAgKX0KICAgICAgICA8L2Rpdj4KICAgICk7Cn07Cgpjb25zdCBEcmFtYUZlZWQ6IFJlYWN0LkZDPHsgZ2FtZVN0YXRlOiBMaWZlU2ltU3RhdGUgfT4gPSAoeyBnYW1lU3RhdGUgfSkgPT4gewogICAgY29uc3QgW2ZpbHRlciwgc2V0RmlsdGVyXSA9IHVzZVN0YXRlPERyYW1hRmlsdGVyPignYWxsJyk7CiAgICBjb25zdCBsb2dzID0gWy4uLmdhbWVTdGF0ZS5hY3Rpb25Mb2ddCiAgICAgICAgLmZpbHRlcihhY3Rpb24gPT4gbWF0Y2hlc0RyYW1hRmlsdGVyKGFjdGlvbiwgZmlsdGVyKSkKICAgICAgICAucmV2ZXJzZSgpOwoKICAgIHJldHVybiAoCiAgICAgICAgPGRpdiBzdHlsZT17eyBwYWRkaW5nOiA2LCBtaW5IZWlnaHQ6ICcxMDAlJywgbWluV2lkdGg6IDAsIG92ZXJmbG93WDogJ2hpZGRlbicgfX0+CiAgICAgICAgICAgIDxkaXYgY2xhc3NOYW1lPSJyZXRyby13aW5kb3ciIHN0eWxlPXt7IHBhZGRpbmc6IDYsIG1hcmdpbkJvdHRvbTogOCB9fT4KICAgICAgICAgICAgICAgIDxkaXYgY2xhc3NOYW1lPSJmbGV4IGl0ZW1zLWNlbnRlciBnYXAtMS41IGZsZXgtd3JhcCI+CiAgICAgICAgICAgICAgICAgICAge0ZJTFRFUlMubWFwKGl0ZW0gPT4gewogICAgICAgICAgICAgICAgICAgICAgICBjb25zdCBhY3RpdmUgPSBmaWx0ZXIgPT09IGl0ZW0udmFsdWU7CiAgICAgICAgICAgICAgICAgICAgICAgIHJldHVybiAoCiAgICAgICAgICAgICAgICAgICAgICAgICAgICA8YnV0dG9uCiAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAga2V5PXtpdGVtLnZhbHVlfQogICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgIG9uQ2xpY2s9eygpID0+IHNldEZpbHRlcihpdGVtLnZhbHVlKX0KICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICBjbGFzc05hbWU9InJldHJvLWJ0biIKICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICBzdHlsZT17ewogICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICBwYWRkaW5nOiAnM3B4IDEwcHgnLAogICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICBmb250U2l6ZTogOSwKICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgLi4uKGFjdGl2ZSA/IHsKICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgIGJhY2tncm91bmQ6ICdsaW5lYXItZ3JhZGllbnQoMTgwZGVnLCAjYTU5NGQwLCAjOGI3YmI4KScsCiAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICBjb2xvcjogJ3doaXRlJywKICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgIGJvcmRlckNvbG9yOiAnIzhiN2JiOCcsCiAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgIH0gOiB7fSksCiAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgfX0KICAgICAgICAgICAgICAgICAgICAgICAgICAgID4KICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICB7aXRlbS5sYWJlbH0KICAgICAgICAgICAgICAgICAgICAgICAgICAgIDwvYnV0dG9uPgogICAgICAgICAgICAgICAgICAgICAgICApOwogICAgICAgICAgICAgICAgICAgIH0pfQogICAgICAgICAgICAgICAgPC9kaXY+CiAgICAgICAgICAgIDwvZGl2PgoKICAgICAgICAgICAgPGRpdiBjbGFzc05hbWU9ImdyaWQgZ2FwLTIgbGc6Z3JpZC1jb2xzLTIiIHN0eWxlPXt7IG1pbkhlaWdodDogJ2NhbGMoMTAwJSAtIDQ4cHgpJywgbWluV2lkdGg6IDAgfX0+CiAgICAgICAgICAgICAgICA8ZGl2IGNsYXNzTmFtZT0icmV0cm8td2luZG93IG9yZGVyLTIgbGc6b3JkZXItMSIgc3R5bGU9e3sgbWluSGVpZ2h0OiAwLCBtaW5XaWR0aDogMCwgZGlzcGxheTogJ2ZsZXgnLCBmbGV4RGlyZWN0aW9uOiAnY29sdW1uJyB9fT4KICAgICAgICAgICAgICAgICAgICA8ZGl2IGNsYXNzTmFtZT0icmV0cm8tdGl0bGViYXIiPgogICAgICAgICAgICAgICAgICAgICAgICA8c3Bhbj5kcmFtYS5sb2c8L3NwYW4+CiAgICAgICAgICAgICAgICAgICAgICAgIDxzcGFuPntsb2dzLmxlbmd0aH08L3NwYW4+CiAgICAgICAgICAgICAgICAgICAgPC9kaXY+CiAgICAgICAgICAgICAgICAgICAgPGRpdiBzdHlsZT17eyBwYWRkaW5nOiA2LCBtaW5XaWR0aDogMCB9fSBjbGFzc05hbWU9InNwYWNlLXktMSBmbGV4LTEgb3ZlcmZsb3cteS1hdXRvIG92ZXJmbG93LXgtaGlkZGVuIG5vLXNjcm9sbGJhciI+CiAgICAgICAgICAgICAgICAgICAgICAgIHtsb2dzLmxlbmd0aCA9PT0gMCA/ICgKICAgICAgICAgICAgICAgICAgICAgICAgICAgIDxkaXYgY2xhc3NOYW1lPSJ0ZXh0LWNlbnRlciBweS04IiBzdHlsZT17eyBjb2xvcjogJyM5OTknLCBmb250U2l6ZTogMTEgfX0+6L+Y5rKh5pyJ5paw55qE5Yqo5oCB6K6w5b2V4oCmPC9kaXY+CiAgICAgICAgICAgICAgICAgICAgICAgICkgOiBsb2dzLm1hcChhY3Rpb24gPT4gKAogICAgICAgICAgICAgICAgICAgICAgICAgICAgPERyYW1hRW50cnkga2V5PXthY3Rpb24uaWR9IGFjdGlvbj17YWN0aW9ufSAvPgogICAgICAgICAgICAgICAgICAgICAgICApKX0KICAgICAgICAgICAgICAgICAgICA8L2Rpdj4KICAgICAgICAgICAgICAgIDwvZGl2PgoKICAgICAgICAgICAgICAgIDxkaXYgY2xhc3NOYW1lPSJvcmRlci0xIGxnOm9yZGVyLTIiIHN0eWxlPXt7IG1pbldpZHRoOiAwIH19PgogICAgICAgICAgICAgICAgICAgIDxNYWluUGxvdEFyY2hpdmUgZ2FtZVN0YXRlPXtnYW1lU3RhdGV9IC8+CiAgICAgICAgICAgICAgICA8L2Rpdj4KICAgICAgICAgICAgPC9kaXY+CiAgICAgICAgPC9kaXY+CiAgICApOwp9OwoKZXhwb3J0IGRlZmF1bHQgRHJhbWFGZWVkOwo=
+/**
+ * DramaFeed - dynamic stream + main plot archive
+ */
+
+import React, { useEffect, useMemo, useState } from 'react';
+import { LifeSimState, SimAction } from '../../types';
+import {
+    Alien, BookOpen, ChatCircleDots, Globe, Lightning, Sparkle,
+} from '@phosphor-icons/react';
+import StoryAttachments from './StoryAttachments';
+import { formatLifeSimActionDescription } from '../../utils/lifeSimTone';
+
+const EVENT_ACCENTS: Record<string, string> = {
+    fight: '#b85050',
+    romance: '#c06090',
+    gossip: '#8b6bb8',
+    alliance: '#5080b8',
+    party: '#b89840',
+    rivalry: '#c07040',
+    mainPlot: '#b86c3d',
+    system: '#7f8c9b',
+};
+
+const TONE_DOTS: Record<string, string> = {
+    vengeful: '#b85050',
+    romantic: '#c06090',
+    scheming: '#8b6bb8',
+    chaotic: '#c07040',
+    peaceful: '#5b9b6b',
+    amused: '#b89840',
+    anxious: '#5070b0',
+};
+
+type DramaFilter = 'all' | 'character' | 'main_plot' | 'system';
+
+const FILTERS: { value: DramaFilter; label: string }[] = [
+    { value: 'all', label: '全部' },
+    { value: 'character', label: '角色' },
+    { value: 'main_plot', label: '主线' },
+    { value: 'system', label: '系统' },
+];
+
+function getEventAccent(action: SimAction): string {
+    if (action.storyKind === 'main_plot') return EVENT_ACCENTS.mainPlot;
+    if (action.storyKind === 'system') return EVENT_ACCENTS.system;
+
+    const desc = action.description.toLowerCase();
+    if (desc.includes('fight') || desc.includes('吵架') || desc.includes('打架')) return EVENT_ACCENTS.fight;
+    if (desc.includes('romance') || desc.includes('暧昧') || desc.includes('恋')) return EVENT_ACCENTS.romance;
+    if (desc.includes('gossip') || desc.includes('闲话') || desc.includes('八卦')) return EVENT_ACCENTS.gossip;
+    if (desc.includes('alliance') || desc.includes('结盟')) return EVENT_ACCENTS.alliance;
+    if (desc.includes('party') || desc.includes('派对')) return EVENT_ACCENTS.party;
+    if (desc.includes('rivalry') || desc.includes('竞争')) return EVENT_ACCENTS.rivalry;
+    if (action.actorId === 'system' || action.actorId === 'autonomous') return '#8b6bb8';
+    if (action.actorId === 'user') return '#5b9b6b';
+    return '#888';
+}
+
+function getStoryBadge(action: SimAction): string {
+    if (action.storyKind === 'main_plot') return '主线';
+    if (action.storyKind === 'character_drama') return '角色';
+    if (action.storyKind === 'system') return '系统';
+    return '';
+}
+
+function matchesDramaFilter(action: SimAction, filter: DramaFilter): boolean {
+    if (filter === 'all') return true;
+    if (filter === 'main_plot') return action.storyKind === 'main_plot';
+    if (filter === 'system') return action.storyKind === 'system' || action.actorId === 'system' || action.actorId === 'autonomous';
+    return action.storyKind === 'character_drama' || action.actorId === 'user' || (!!action.actorId && !['system', 'autonomous', 'story'].includes(action.actorId));
+}
+
+const DramaEntry: React.FC<{ action: SimAction }> = ({ action }) => {
+    const [expanded, setExpanded] = useState(false);
+    const accent = getEventAccent(action);
+    const narrative = action.narrative;
+    const displayDescription = formatLifeSimActionDescription(action.description);
+    const hasDetails = !!(narrative?.innerThought || narrative?.dialogue || narrative?.commentOnWorld || action.reasoning || action.reactionToUser);
+    const toneColor = narrative?.emotionalTone ? TONE_DOTS[narrative.emotionalTone] : undefined;
+    const storyBadge = getStoryBadge(action);
+
+    return (
+        <div
+            style={{
+                background: action.storyKind === 'main_plot' ? 'rgba(255,247,234,0.7)' : 'rgba(255,255,255,0.5)',
+                border: '1px solid rgba(0,0,0,0.08)',
+                borderLeft: `3px solid ${accent}`,
+                borderRadius: 4,
+                padding: '5px 8px',
+                cursor: hasDetails ? 'pointer' : 'default',
+                minWidth: 0,
+            }}
+            onClick={() => hasDetails && setExpanded(!expanded)}
+        >
+            <div className="flex items-center gap-1.5" style={{ minWidth: 0 }}>
+                <div
+                    className="flex-shrink-0"
+                    style={{
+                        width: 18,
+                        height: 18,
+                        borderRadius: 3,
+                        overflow: 'hidden',
+                        background: 'rgba(0,0,0,0.05)',
+                        display: 'flex',
+                        alignItems: 'center',
+                        justifyContent: 'center',
+                    }}
+                >
+                    {action.actorAvatar?.startsWith('http') || action.actorAvatar?.startsWith('data:')
+                        ? <img src={action.actorAvatar} style={{ width: 18, height: 18, objectFit: 'cover', borderRadius: 3 }} alt="" />
+                        : action.actorAvatar
+                            ? <span style={{ fontSize: 11 }}>{action.actorAvatar}</span>
+                            : <Alien size={10} weight="bold" style={{ color: '#aaa' }} />}
+                </div>
+                <span style={{ fontSize: 10, fontWeight: 700, color: accent }}>{action.actor}</span>
+                {storyBadge && (
+                    <span
+                        style={{
+                            fontSize: 8,
+                            fontWeight: 700,
+                            color: accent,
+                            border: `1px solid ${accent}55`,
+                            background: `${accent}12`,
+                            borderRadius: 999,
+                            padding: '1px 5px',
+                            letterSpacing: '0.04em',
+                            flexShrink: 0,
+                        }}
+                    >
+                        {storyBadge}
+                    </span>
+                )}
+                {toneColor && (
+                    <span style={{ width: 5, height: 5, borderRadius: '50%', background: toneColor, flexShrink: 0 }} />
+                )}
+                <span style={{ fontSize: 8, color: '#bbb', marginLeft: 'auto', fontFamily: 'monospace', flexShrink: 0 }}>R{action.turnNumber}</span>
+                {hasDetails && (
+                    <span style={{ fontSize: 8, color: '#ccc', flexShrink: 0 }}>{expanded ? '▲' : '▼'}</span>
+                )}
+            </div>
+
+            {action.headline && (
+                <p style={{ fontSize: 11, fontWeight: 700, color: '#3f3846', lineHeight: 1.35, marginTop: 4, overflowWrap: 'anywhere' }}>
+                    {action.headline}
+                </p>
+            )}
+
+            <p style={{ fontSize: 10, color: '#555', lineHeight: 1.4, marginTop: 3, overflowWrap: 'anywhere' }}>{displayDescription}</p>
+
+            {action.immediateResult && action.immediateResult !== action.description && (
+                <p style={{ fontSize: 9, color: '#888', marginTop: 2, overflowWrap: 'anywhere' }}>→ {action.immediateResult}</p>
+            )}
+
+            <StoryAttachments attachments={action.attachments} compact />
+
+            {expanded && hasDetails && (
+                <div style={{ marginTop: 5, paddingTop: 5, borderTop: '1px dashed rgba(0,0,0,0.08)' }}>
+                    {(narrative?.innerThought || action.reasoning) && (
+                        <div className="retro-inset" style={{ padding: '3px 6px', marginBottom: 4 }}>
+                            <p style={{ fontSize: 9, color: '#998', fontStyle: 'italic', display: 'flex', alignItems: 'center', gap: 3, overflowWrap: 'anywhere' }}>
+                                <ChatCircleDots size={9} weight="bold" /> {narrative?.innerThought || action.reasoning}
+                            </p>
+                        </div>
+                    )}
+                    {narrative?.dialogue && (
+                        <p style={{ fontSize: 9, color: '#666', display: 'flex', alignItems: 'center', gap: 3, marginBottom: 3, overflowWrap: 'anywhere' }}>
+                            <BookOpen size={9} weight="bold" style={{ flexShrink: 0 }} /> {narrative.dialogue}
+                        </p>
+                    )}
+                    {narrative?.commentOnWorld && (
+                        <p style={{ fontSize: 8, color: '#aaa', fontStyle: 'italic', display: 'flex', alignItems: 'center', gap: 3, overflowWrap: 'anywhere' }}>
+                            <Globe size={8} weight="bold" style={{ flexShrink: 0 }} /> {narrative.commentOnWorld}
+                        </p>
+                    )}
+                    {action.reactionToUser && (
+                        <p style={{ fontSize: 9, color: '#9080a0', fontStyle: 'italic', marginTop: 3, display: 'flex', alignItems: 'center', gap: 3, overflowWrap: 'anywhere' }}>
+                            <ChatCircleDots size={9} weight="bold" style={{ flexShrink: 0 }} /> "{action.reactionToUser}"
+                        </p>
+                    )}
+                </div>
+            )}
+
+            {action.chainFromId && (
+                <p style={{ fontSize: 8, color: '#b89840', marginTop: 3, display: 'flex', alignItems: 'center', gap: 3 }}>
+                    <Lightning size={8} weight="bold" style={{ flexShrink: 0 }} /> 连锁事件
+                </p>
+            )}
+        </div>
+    );
+};
+
+const MainPlotArchive: React.FC<{ gameState: LifeSimState }> = ({ gameState }) => {
+    const mainPlots = useMemo(
+        () => [...gameState.actionLog].filter(action => action.storyKind === 'main_plot').reverse(),
+        [gameState.actionLog]
+    );
+    const [selectedId, setSelectedId] = useState<string | null>(mainPlots[0]?.id || null);
+
+    useEffect(() => {
+        if (!mainPlots.length) {
+            setSelectedId(null);
+            return;
+        }
+        if (!selectedId || !mainPlots.some(action => action.id === selectedId)) {
+            setSelectedId(mainPlots[0].id);
+        }
+    }, [mainPlots, selectedId]);
+
+    const selectedPlot = mainPlots.find(action => action.id === selectedId) || mainPlots[0] || null;
+    const npcNameMap = new Map(gameState.npcs.map(npc => [npc.id, `${npc.emoji || ''}${npc.name}`.trim()]));
+    const involvedNames = selectedPlot?.involvedNpcIds?.map(id => npcNameMap.get(id)).filter(Boolean) || [];
+
+    return (
+        <div className="retro-window" style={{ minHeight: 0, minWidth: 0, display: 'flex', flexDirection: 'column' }}>
+            <div className="retro-titlebar">
+                <span>mainplot.arc</span>
+                <span className="flex items-center gap-1">
+                    <Sparkle size={10} weight="fill" />
+                    {mainPlots.length}
+                </span>
+            </div>
+
+            {!selectedPlot ? (
+                <div className="flex-1 flex items-center justify-center text-center" style={{ padding: 14 }}>
+                    <div>
+                        <p style={{ fontSize: 11, fontWeight: 700, color: '#7f6c5d' }}>主线档案室还是空的</p>
+                        <p style={{ fontSize: 10, color: '#9a8f84', marginTop: 6, lineHeight: 1.5 }}>
+                            多点几次“吃瓜”，世界线就会在这里留下记录。
+                        </p>
+                    </div>
+                </div>
+            ) : (
+                <>
+                    <div style={{ padding: 8, borderBottom: '1px solid rgba(0,0,0,0.08)' }}>
+                        <div style={{ fontSize: 9, fontWeight: 700, color: '#8b7b72', marginBottom: 6 }}>主线历史</div>
+                        <div className="space-y-1.5 no-scrollbar" style={{ maxHeight: 168, overflowY: 'auto', overflowX: 'hidden', paddingRight: 2 }}>
+                            {mainPlots.map(action => {
+                                const active = action.id === selectedPlot.id;
+                                return (
+                                    <button
+                                        key={action.id}
+                                        onClick={() => setSelectedId(action.id)}
+                                        style={{
+                                            width: '100%',
+                                            textAlign: 'left',
+                                            border: active ? `1px solid ${EVENT_ACCENTS.mainPlot}55` : '1px solid rgba(0,0,0,0.08)',
+                                            borderLeft: `3px solid ${active ? EVENT_ACCENTS.mainPlot : '#d0c1b7'}`,
+                                            borderRadius: 4,
+                                            padding: '6px 7px',
+                                            background: active ? 'rgba(255,247,234,0.8)' : 'rgba(255,255,255,0.55)',
+                                            minWidth: 0,
+                                        }}
+                                    >
+                                        <div className="flex items-center gap-2" style={{ minWidth: 0 }}>
+                                            <span style={{ fontSize: 9, fontWeight: 700, color: active ? EVENT_ACCENTS.mainPlot : '#7f756e', flex: 1, minWidth: 0, overflowWrap: 'anywhere' }}>
+                                                {action.headline || action.description}
+                                            </span>
+                                            <span style={{ fontSize: 8, color: '#aaa', fontFamily: 'monospace', flexShrink: 0 }}>R{action.turnNumber}</span>
+                                        </div>
+                                        {action.attachments && action.attachments.length > 0 && (
+                                            <div style={{ fontSize: 8, color: '#9f8b7d', marginTop: 3 }}>
+                                                附件 {action.attachments.length}
+                                            </div>
+                                        )}
+                                    </button>
+                                );
+                            })}
+                        </div>
+                    </div>
+
+                    <div style={{ padding: 8, borderBottom: '1px solid rgba(0,0,0,0.08)', background: 'rgba(184,108,61,0.05)' }}>
+                        <div className="flex items-center gap-1.5 flex-wrap">
+                            <span
+                                style={{
+                                    fontSize: 8,
+                                    fontWeight: 700,
+                                    color: EVENT_ACCENTS.mainPlot,
+                                    border: `1px solid ${EVENT_ACCENTS.mainPlot}55`,
+                                    background: `${EVENT_ACCENTS.mainPlot}12`,
+                                    borderRadius: 999,
+                                    padding: '1px 6px',
+                                    letterSpacing: '0.04em',
+                                }}
+                            >
+                                当前主线
+                            </span>
+                            <span style={{ fontSize: 8, color: '#a1968c', fontFamily: 'monospace' }}>R{selectedPlot.turnNumber}</span>
+                        </div>
+                        <p style={{ fontSize: 12, fontWeight: 700, color: '#4b3c31', marginTop: 5, lineHeight: 1.45, overflowWrap: 'anywhere' }}>
+                            {selectedPlot.headline || selectedPlot.description}
+                        </p>
+                        <p style={{ fontSize: 10, color: '#6a615a', lineHeight: 1.55, marginTop: 5, overflowWrap: 'anywhere' }}>
+                            {selectedPlot.description}
+                        </p>
+                        {selectedPlot.immediateResult && (
+                            <div className="retro-inset" style={{ padding: '6px 8px', marginTop: 7 }}>
+                                <div style={{ fontSize: 8, fontWeight: 700, color: '#9b765e', marginBottom: 3 }}>阶段结果</div>
+                                <div style={{ fontSize: 10, color: '#59504a', lineHeight: 1.5, overflowWrap: 'anywhere' }}>{selectedPlot.immediateResult}</div>
+                            </div>
+                        )}
+                        {involvedNames.length > 0 && (
+                            <div className="flex gap-1 flex-wrap" style={{ marginTop: 7 }}>
+                                {involvedNames.map(name => (
+                                    <span
+                                        key={name}
+                                        style={{
+                                            fontSize: 8,
+                                            fontWeight: 700,
+                                            color: '#7c6555',
+                                            background: 'rgba(255,255,255,0.6)',
+                                            border: '1px solid rgba(184,108,61,0.18)',
+                                            borderRadius: 999,
+                                            padding: '2px 6px',
+                                        }}
+                                    >
+                                        {name}
+                                    </span>
+                                ))}
+                            </div>
+                        )}
+                        <StoryAttachments attachments={selectedPlot.attachments} />
+                    </div>
+
+                    {(selectedPlot.narrative?.innerThought || selectedPlot.narrative?.commentOnWorld) && (
+                        <div style={{ padding: 8 }}>
+                            <div style={{ fontSize: 9, fontWeight: 700, color: '#8b7b72', marginBottom: 6 }}>编剧室批注</div>
+                            {selectedPlot.narrative?.innerThought && (
+                                <div className="retro-inset" style={{ padding: '6px 8px', marginBottom: selectedPlot.narrative?.commentOnWorld ? 6 : 0 }}>
+                                    <p style={{ fontSize: 9, color: '#7d705e', lineHeight: 1.55, fontStyle: 'italic', overflowWrap: 'anywhere' }}>
+                                        {selectedPlot.narrative.innerThought}
+                                    </p>
+                                </div>
+                            )}
+                            {selectedPlot.narrative?.commentOnWorld && (
+                                <p style={{ fontSize: 9, color: '#8e847d', lineHeight: 1.55, overflowWrap: 'anywhere' }}>
+                                    {selectedPlot.narrative.commentOnWorld}
+                                </p>
+                            )}
+                        </div>
+                    )}
+                </>
+            )}
+        </div>
+    );
+};
+
+const DramaFeed: React.FC<{ gameState: LifeSimState }> = ({ gameState }) => {
+    const [filter, setFilter] = useState<DramaFilter>('all');
+    const logs = [...gameState.actionLog]
+        .filter(action => matchesDramaFilter(action, filter))
+        .reverse();
+
+    return (
+        <div style={{ padding: 6, minHeight: '100%', minWidth: 0, overflowX: 'hidden' }}>
+            <div className="retro-window" style={{ padding: 6, marginBottom: 8 }}>
+                <div className="flex items-center gap-1.5 flex-wrap">
+                    {FILTERS.map(item => {
+                        const active = filter === item.value;
+                        return (
+                            <button
+                                key={item.value}
+                                onClick={() => setFilter(item.value)}
+                                className="retro-btn"
+                                style={{
+                                    padding: '3px 10px',
+                                    fontSize: 9,
+                                    ...(active ? {
+                                        background: 'linear-gradient(180deg, #a594d0, #8b7bb8)',
+                                        color: 'white',
+                                        borderColor: '#8b7bb8',
+                                    } : {}),
+                                }}
+                            >
+                                {item.label}
+                            </button>
+                        );
+                    })}
+                </div>
+            </div>
+
+            <div className="grid gap-2 lg:grid-cols-2" style={{ minHeight: 'calc(100% - 48px)', minWidth: 0 }}>
+                <div className="retro-window order-2 lg:order-1" style={{ minHeight: 0, minWidth: 0, display: 'flex', flexDirection: 'column' }}>
+                    <div className="retro-titlebar">
+                        <span>drama.log</span>
+                        <span>{logs.length}</span>
+                    </div>
+                    <div style={{ padding: 6, minWidth: 0 }} className="space-y-1 flex-1 overflow-y-auto overflow-x-hidden no-scrollbar">
+                        {logs.length === 0 ? (
+                            <div className="text-center py-8" style={{ color: '#999', fontSize: 11 }}>还没有新的动态记录…</div>
+                        ) : logs.map(action => (
+                            <DramaEntry key={action.id} action={action} />
+                        ))}
+                    </div>
+                </div>
+
+                <div className="order-1 lg:order-2" style={{ minWidth: 0 }}>
+                    <MainPlotArchive gameState={gameState} />
+                </div>
+            </div>
+        </div>
+    );
+};
+
+export default DramaFeed;

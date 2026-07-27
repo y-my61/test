@@ -1,1 +1,194 @@
-aW1wb3J0IFJlYWN0LCB7IHVzZVN0YXRlIH0gZnJvbSAncmVhY3QnOwppbXBvcnQgeyBTaW1TdG9yeUF0dGFjaG1lbnQgfSBmcm9tICcuLi8uLi90eXBlcyc7CmltcG9ydCB7IEJvb2tPcGVuLCBGaWxlVGV4dCwgSW1hZ2VTcXVhcmUsIFBhY2thZ2UsIFggfSBmcm9tICdAcGhvc3Bob3ItaWNvbnMvcmVhY3QnOwoKY29uc3QgS0lORF9NRVRBID0gewogICAgaW1hZ2U6IHsgbGFiZWw6ICfmj5Llm74nLCBJY29uOiBJbWFnZVNxdWFyZSB9LAogICAgaXRlbTogeyBsYWJlbDogJ+mBk+WFtycsIEljb246IFBhY2thZ2UgfSwKICAgIGZhbmZpYzogeyBsYWJlbDogJ+WQjOS6uuaWhycsIEljb246IEJvb2tPcGVuIH0sCiAgICBldmlkZW5jZTogeyBsYWJlbDogJ+mZhOS7ticsIEljb246IEZpbGVUZXh0IH0sCn0gYXMgY29uc3Q7Cgpjb25zdCBSQVJJVFlfQ09MT1JTID0gewogICAgY29tbW9uOiAnIzdmOGM5YicsCiAgICByYXJlOiAnIzViN2JiOCcsCiAgICBlcGljOiAnIzliNWJiOCcsCn0gYXMgY29uc3Q7Cgpjb25zdCBTdG9yeUF0dGFjaG1lbnRzOiBSZWFjdC5GQzx7CiAgICBhdHRhY2htZW50cz86IFNpbVN0b3J5QXR0YWNobWVudFtdOwogICAgY29tcGFjdD86IGJvb2xlYW47Cn0+ID0gKHsgYXR0YWNobWVudHMsIGNvbXBhY3QgPSBmYWxzZSB9KSA9PiB7CiAgICBjb25zdCBbYWN0aXZlLCBzZXRBY3RpdmVdID0gdXNlU3RhdGU8U2ltU3RvcnlBdHRhY2htZW50IHwgbnVsbD4obnVsbCk7CgogICAgaWYgKCFhdHRhY2htZW50cyB8fCBhdHRhY2htZW50cy5sZW5ndGggPT09IDApIHJldHVybiBudWxsOwoKICAgIHJldHVybiAoCiAgICAgICAgPD4KICAgICAgICAgICAgPGRpdiBzdHlsZT17eyBtYXJnaW5Ub3A6IGNvbXBhY3QgPyA1IDogOCwgbWluV2lkdGg6IDAgfX0+CiAgICAgICAgICAgICAgICA8ZGl2IGNsYXNzTmFtZT0iZmxleCBpdGVtcy1jZW50ZXIgZ2FwLTEuNSBtYi0xLjUiPgogICAgICAgICAgICAgICAgICAgIDxzcGFuIHN0eWxlPXt7IGZvbnRTaXplOiBjb21wYWN0ID8gOCA6IDksIGZvbnRXZWlnaHQ6IDcwMCwgY29sb3I6ICcjN2E2Zjk1JywgbGV0dGVyU3BhY2luZzogJzAuMDZlbScgfX0+CiAgICAgICAgICAgICAgICAgICAgICAgIEFUVEFDSE1FTlRTCiAgICAgICAgICAgICAgICAgICAgPC9zcGFuPgogICAgICAgICAgICAgICAgICAgIDxzcGFuIHN0eWxlPXt7IGZvbnRTaXplOiBjb21wYWN0ID8gOCA6IDksIGNvbG9yOiAnI2FhYScgfX0+e2F0dGFjaG1lbnRzLmxlbmd0aH08L3NwYW4+CiAgICAgICAgICAgICAgICA8L2Rpdj4KICAgICAgICAgICAgICAgIDxkaXYgY2xhc3NOYW1lPSJmbGV4IGdhcC0xLjUgb3ZlcmZsb3cteC1hdXRvIG5vLXNjcm9sbGJhciBwYi0xIj4KICAgICAgICAgICAgICAgICAgICB7YXR0YWNobWVudHMubWFwKGl0ZW0gPT4gewogICAgICAgICAgICAgICAgICAgICAgICBjb25zdCBtZXRhID0gS0lORF9NRVRBW2l0ZW0ua2luZF07CiAgICAgICAgICAgICAgICAgICAgICAgIGNvbnN0IEljb24gPSBtZXRhLkljb247CiAgICAgICAgICAgICAgICAgICAgICAgIGNvbnN0IGFjY2VudCA9IFJBUklUWV9DT0xPUlNbaXRlbS5yYXJpdHkgfHwgJ2NvbW1vbiddOwogICAgICAgICAgICAgICAgICAgICAgICByZXR1cm4gKAogICAgICAgICAgICAgICAgICAgICAgICAgICAgPGJ1dHRvbgogICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgIGtleT17aXRlbS5pZH0KICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICBvbkNsaWNrPXsoZXZlbnQpID0+IHsKICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgZXZlbnQuc3RvcFByb3BhZ2F0aW9uKCk7CiAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgIHNldEFjdGl2ZShpdGVtKTsKICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICB9fQogICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgIGNsYXNzTmFtZT0iZmxleC1zaHJpbmstMCIKICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICBzdHlsZT17ewogICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICB3aWR0aDogY29tcGFjdCA/IDExOCA6IDEzMiwKICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgdGV4dEFsaWduOiAnbGVmdCcsCiAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgIGJvcmRlcjogYDFweCBzb2xpZCAke2FjY2VudH01NWAsCiAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgIGJvcmRlckxlZnQ6IGAzcHggc29saWQgJHthY2NlbnR9YCwKICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgYm9yZGVyUmFkaXVzOiA0LAogICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICBiYWNrZ3JvdW5kOiAncmdiYSgyNTUsMjU1LDI1NSwwLjYpJywKICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgcGFkZGluZzogNiwKICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgYm94U2hhZG93OiAnaW5zZXQgMCAxcHggMCByZ2JhKDI1NSwyNTUsMjU1LDAuNDUpJywKICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICB9fQogICAgICAgICAgICAgICAgICAgICAgICAgICAgPgogICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgIHtpdGVtLmltYWdlVXJsICYmICgKICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgPGltZwogICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgc3JjPXtpdGVtLmltYWdlVXJsfQogICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgYWx0PXtpdGVtLnRpdGxlfQogICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgc3R5bGU9e3sKICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICB3aWR0aDogJzEwMCUnLAogICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgIGhlaWdodDogY29tcGFjdCA/IDU4IDogNjYsCiAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgb2JqZWN0Rml0OiAnY292ZXInLAogICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgIGJvcmRlclJhZGl1czogMywKICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICBib3JkZXI6ICcxcHggc29saWQgcmdiYSgwLDAsMCwwLjA4KScsCiAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgbWFyZ2luQm90dG9tOiA1LAogICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgfX0KICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgLz4KICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICApfQogICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgIDxkaXYgY2xhc3NOYW1lPSJmbGV4IGl0ZW1zLWNlbnRlciBnYXAtMSI+CiAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgIDxJY29uIHNpemU9ezExfSB3ZWlnaHQ9ImJvbGQiIHN0eWxlPXt7IGNvbG9yOiBhY2NlbnQsIGZsZXhTaHJpbms6IDAgfX0gLz4KICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgPHNwYW4gc3R5bGU9e3sgZm9udFNpemU6IDgsIGZvbnRXZWlnaHQ6IDcwMCwgY29sb3I6IGFjY2VudCB9fT57bWV0YS5sYWJlbH08L3NwYW4+CiAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgPC9kaXY+CiAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgPGRpdiBzdHlsZT17eyBmb250U2l6ZTogY29tcGFjdCA/IDkgOiAxMCwgZm9udFdlaWdodDogNzAwLCBjb2xvcjogJyM0YzQ2NTgnLCBtYXJnaW5Ub3A6IDMsIGxpbmVIZWlnaHQ6IDEuMywgb3ZlcmZsb3dXcmFwOiAnYW55d2hlcmUnIH19PgogICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICB7aXRlbS50aXRsZX0KICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICA8L2Rpdj4KICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICA8ZGl2IHN0eWxlPXt7IGZvbnRTaXplOiA4LCBjb2xvcjogJyM3ZDc4ODcnLCBtYXJnaW5Ub3A6IDMsIGxpbmVIZWlnaHQ6IDEuNCwgb3ZlcmZsb3dXcmFwOiAnYW55d2hlcmUnIH19PgogICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICB7aXRlbS5zdW1tYXJ5fQogICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgIDwvZGl2PgogICAgICAgICAgICAgICAgICAgICAgICAgICAgPC9idXR0b24+CiAgICAgICAgICAgICAgICAgICAgICAgICk7CiAgICAgICAgICAgICAgICAgICAgfSl9CiAgICAgICAgICAgICAgICA8L2Rpdj4KICAgICAgICAgICAgPC9kaXY+CgogICAgICAgICAgICB7YWN0aXZlICYmICgKICAgICAgICAgICAgICAgIDxkaXYKICAgICAgICAgICAgICAgICAgICBvbkNsaWNrPXsoKSA9PiBzZXRBY3RpdmUobnVsbCl9CiAgICAgICAgICAgICAgICAgICAgc3R5bGU9e3sKICAgICAgICAgICAgICAgICAgICAgICAgcG9zaXRpb246ICdmaXhlZCcsCiAgICAgICAgICAgICAgICAgICAgICAgIGluc2V0OiAwLAogICAgICAgICAgICAgICAgICAgICAgICBiYWNrZ3JvdW5kOiAncmdiYSgwLDAsMCwwLjQyKScsCiAgICAgICAgICAgICAgICAgICAgICAgIHpJbmRleDogNzAsCiAgICAgICAgICAgICAgICAgICAgICAgIGRpc3BsYXk6ICdmbGV4JywKICAgICAgICAgICAgICAgICAgICAgICAgYWxpZ25JdGVtczogJ2NlbnRlcicsCiAgICAgICAgICAgICAgICAgICAgICAgIGp1c3RpZnlDb250ZW50OiAnY2VudGVyJywKICAgICAgICAgICAgICAgICAgICAgICAgcGFkZGluZzogMTYsCiAgICAgICAgICAgICAgICAgICAgfX0KICAgICAgICAgICAgICAgID4KICAgICAgICAgICAgICAgICAgICA8ZGl2CiAgICAgICAgICAgICAgICAgICAgICAgIGNsYXNzTmFtZT0icmV0cm8td2luZG93IgogICAgICAgICAgICAgICAgICAgICAgICBvbkNsaWNrPXtldmVudCA9PiBldmVudC5zdG9wUHJvcGFnYXRpb24oKX0KICAgICAgICAgICAgICAgICAgICAgICAgc3R5bGU9e3sKICAgICAgICAgICAgICAgICAgICAgICAgICAgIHdpZHRoOiAnMTAwJScsCiAgICAgICAgICAgICAgICAgICAgICAgICAgICBtYXhXaWR0aDogMzYwLAogICAgICAgICAgICAgICAgICAgICAgICAgICAgbWF4SGVpZ2h0OiAnNzh2aCcsCiAgICAgICAgICAgICAgICAgICAgICAgICAgICBvdmVyZmxvdzogJ2hpZGRlbicsCiAgICAgICAgICAgICAgICAgICAgICAgICAgICBkaXNwbGF5OiAnZmxleCcsCiAgICAgICAgICAgICAgICAgICAgICAgICAgICBmbGV4RGlyZWN0aW9uOiAnY29sdW1uJywKICAgICAgICAgICAgICAgICAgICAgICAgICAgIG1pbldpZHRoOiAwLAogICAgICAgICAgICAgICAgICAgICAgICB9fQogICAgICAgICAgICAgICAgICAgID4KICAgICAgICAgICAgICAgICAgICAgICAgPGRpdiBjbGFzc05hbWU9InJldHJvLXRpdGxlYmFyIj4KICAgICAgICAgICAgICAgICAgICAgICAgICAgIDxzcGFuIHN0eWxlPXt7IG1pbldpZHRoOiAwLCBvdmVyZmxvd1dyYXA6ICdhbnl3aGVyZScgfX0+e2FjdGl2ZS50aXRsZX08L3NwYW4+CiAgICAgICAgICAgICAgICAgICAgICAgICAgICA8YnV0dG9uCiAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgb25DbGljaz17KCkgPT4gc2V0QWN0aXZlKG51bGwpfQogICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgIHN0eWxlPXt7CiAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgIGRpc3BsYXk6ICdpbmxpbmUtZmxleCcsCiAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgIGFsaWduSXRlbXM6ICdjZW50ZXInLAogICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICBqdXN0aWZ5Q29udGVudDogJ2NlbnRlcicsCiAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgIHdpZHRoOiAxOCwKICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgaGVpZ2h0OiAxOCwKICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgYm9yZGVyUmFkaXVzOiAzLAogICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICBiYWNrZ3JvdW5kOiAncmdiYSgyNTUsMjU1LDI1NSwwLjE1KScsCiAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgIGJvcmRlcjogJzFweCBzb2xpZCByZ2JhKDI1NSwyNTUsMjU1LDAuMjUpJywKICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgY29sb3I6ICd3aGl0ZScsCiAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgIGZsZXhTaHJpbms6IDAsCiAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgfX0KICAgICAgICAgICAgICAgICAgICAgICAgICAgID4KICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICA8WCBzaXplPXsxMH0gd2VpZ2h0PSJib2xkIiAvPgogICAgICAgICAgICAgICAgICAgICAgICAgICAgPC9idXR0b24+CiAgICAgICAgICAgICAgICAgICAgICAgIDwvZGl2PgoKICAgICAgICAgICAgICAgICAgICAgICAgPGRpdiBjbGFzc05hbWU9Im5vLXNjcm9sbGJhciIgc3R5bGU9e3sgcGFkZGluZzogMTIsIG92ZXJmbG93WTogJ2F1dG8nLCBvdmVyZmxvd1g6ICdoaWRkZW4nIH19PgogICAgICAgICAgICAgICAgICAgICAgICAgICAge2FjdGl2ZS5pbWFnZVVybCAmJiAoCiAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgPGltZwogICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICBzcmM9e2FjdGl2ZS5pbWFnZVVybH0KICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgYWx0PXthY3RpdmUudGl0bGV9CiAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgIHN0eWxlPXt7CiAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICB3aWR0aDogJzEwMCUnLAogICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgYm9yZGVyUmFkaXVzOiA2LAogICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgYm9yZGVyOiAnMXB4IHNvbGlkIHJnYmEoMCwwLDAsMC4xKScsCiAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICBtYXJnaW5Cb3R0b206IDEwLAogICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICB9fQogICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgIC8+CiAgICAgICAgICAgICAgICAgICAgICAgICAgICApfQoKICAgICAgICAgICAgICAgICAgICAgICAgICAgIDxkaXYgc3R5bGU9e3sgZm9udFNpemU6IDEwLCBjb2xvcjogJyM2ZTY3ODAnLCBmb250V2VpZ2h0OiA3MDAsIG1hcmdpbkJvdHRvbTogNCB9fT4KICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICB7S0lORF9NRVRBW2FjdGl2ZS5raW5kXS5sYWJlbH0gwrcgeyhhY3RpdmUucmFyaXR5IHx8ICdjb21tb24nKS50b1VwcGVyQ2FzZSgpfQogICAgICAgICAgICAgICAgICAgICAgICAgICAgPC9kaXY+CgogICAgICAgICAgICAgICAgICAgICAgICAgICAgeyhhY3RpdmUua2luZCA9PT0gJ2ZhbmZpYycgfHwgYWN0aXZlLmtpbmQgPT09ICdldmlkZW5jZScpICYmIGFjdGl2ZS5kZXRhaWwgPyAoCiAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgPD4KICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgPGRpdiBjbGFzc05hbWU9InJldHJvLWluc2V0IiBzdHlsZT17eyBwYWRkaW5nOiAnOHB4IDEwcHgnLCBtYXJnaW5Ub3A6IDIgfX0+CiAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICA8ZGl2IHN0eWxlPXt7IGZvbnRTaXplOiAxMCwgY29sb3I6ICcjNzc3JywgZm9udFdlaWdodDogNzAwLCBtYXJnaW5Cb3R0b206IDQgfX0+CiAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAg5Y6f5paHCiAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICA8L2Rpdj4KICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgIDxkaXYgc3R5bGU9e3sgZm9udFNpemU6IDExLCBjb2xvcjogJyM0ZjRiNTgnLCBsaW5lSGVpZ2h0OiAxLjc1LCB3aGl0ZVNwYWNlOiAncHJlLXdyYXAnLCBvdmVyZmxvd1dyYXA6ICdhbnl3aGVyZScgfX0+CiAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAge2FjdGl2ZS5kZXRhaWx9CiAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICA8L2Rpdj4KICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgPC9kaXY+CiAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgIDxkaXYgc3R5bGU9e3sgZm9udFNpemU6IDEwLCBjb2xvcjogJyM3YjczODcnLCBsaW5lSGVpZ2h0OiAxLjYsIG1hcmdpblRvcDogOSwgb3ZlcmZsb3dXcmFwOiAnYW55d2hlcmUnIH19PgogICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAge2FjdGl2ZS5zdW1tYXJ5fQogICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICA8L2Rpdj4KICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICA8Lz4KICAgICAgICAgICAgICAgICAgICAgICAgICAgICkgOiAoCiAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgPD4KICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgPGRpdiBzdHlsZT17eyBmb250U2l6ZTogMTIsIGNvbG9yOiAnIzQ0NCcsIGxpbmVIZWlnaHQ6IDEuNiwgb3ZlcmZsb3dXcmFwOiAnYW55d2hlcmUnIH19PgogICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAge2FjdGl2ZS5zdW1tYXJ5fQogICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICA8L2Rpdj4KICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAge2FjdGl2ZS5kZXRhaWwgJiYgKAogICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgPGRpdiBjbGFzc05hbWU9InJldHJvLWluc2V0IiBzdHlsZT17eyBwYWRkaW5nOiAnOHB4IDEwcHgnLCBtYXJnaW5Ub3A6IDEwIH19PgogICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgIDxkaXYgc3R5bGU9e3sgZm9udFNpemU6IDEwLCBjb2xvcjogJyM3NzcnLCBmb250V2VpZ2h0OiA3MDAsIG1hcmdpbkJvdHRvbTogNCB9fT4KICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAg5bGV5byA5YaF5a65CiAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgPC9kaXY+CiAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgPGRpdiBzdHlsZT17eyBmb250U2l6ZTogMTEsIGNvbG9yOiAnIzRmNGI1OCcsIGxpbmVIZWlnaHQ6IDEuNywgd2hpdGVTcGFjZTogJ3ByZS13cmFwJywgb3ZlcmZsb3dXcmFwOiAnYW55d2hlcmUnIH19PgogICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICB7YWN0aXZlLmRldGFpbH0KICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICA8L2Rpdj4KICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgIDwvZGl2PgogICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICApfQogICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgIDwvPgogICAgICAgICAgICAgICAgICAgICAgICAgICAgKX0KICAgICAgICAgICAgICAgICAgICAgICAgPC9kaXY+CiAgICAgICAgICAgICAgICAgICAgPC9kaXY+CiAgICAgICAgICAgICAgICA8L2Rpdj4KICAgICAgICAgICAgKX0KICAgICAgICA8Lz4KICAgICk7Cn07CgpleHBvcnQgZGVmYXVsdCBTdG9yeUF0dGFjaG1lbnRzOwo=
+import React, { useState } from 'react';
+import { SimStoryAttachment } from '../../types';
+import { BookOpen, FileText, ImageSquare, Package, X } from '@phosphor-icons/react';
+
+const KIND_META = {
+    image: { label: '插图', Icon: ImageSquare },
+    item: { label: '道具', Icon: Package },
+    fanfic: { label: '同人文', Icon: BookOpen },
+    evidence: { label: '附件', Icon: FileText },
+} as const;
+
+const RARITY_COLORS = {
+    common: '#7f8c9b',
+    rare: '#5b7bb8',
+    epic: '#9b5bb8',
+} as const;
+
+const StoryAttachments: React.FC<{
+    attachments?: SimStoryAttachment[];
+    compact?: boolean;
+}> = ({ attachments, compact = false }) => {
+    const [active, setActive] = useState<SimStoryAttachment | null>(null);
+
+    if (!attachments || attachments.length === 0) return null;
+
+    return (
+        <>
+            <div style={{ marginTop: compact ? 5 : 8, minWidth: 0 }}>
+                <div className="flex items-center gap-1.5 mb-1.5">
+                    <span style={{ fontSize: compact ? 8 : 9, fontWeight: 700, color: '#7a6f95', letterSpacing: '0.06em' }}>
+                        ATTACHMENTS
+                    </span>
+                    <span style={{ fontSize: compact ? 8 : 9, color: '#aaa' }}>{attachments.length}</span>
+                </div>
+                <div className="flex gap-1.5 overflow-x-auto no-scrollbar pb-1">
+                    {attachments.map(item => {
+                        const meta = KIND_META[item.kind];
+                        const Icon = meta.Icon;
+                        const accent = RARITY_COLORS[item.rarity || 'common'];
+                        return (
+                            <button
+                                key={item.id}
+                                onClick={(event) => {
+                                    event.stopPropagation();
+                                    setActive(item);
+                                }}
+                                className="flex-shrink-0"
+                                style={{
+                                    width: compact ? 118 : 132,
+                                    textAlign: 'left',
+                                    border: `1px solid ${accent}55`,
+                                    borderLeft: `3px solid ${accent}`,
+                                    borderRadius: 4,
+                                    background: 'rgba(255,255,255,0.6)',
+                                    padding: 6,
+                                    boxShadow: 'inset 0 1px 0 rgba(255,255,255,0.45)',
+                                }}
+                            >
+                                {item.imageUrl && (
+                                    <img
+                                        src={item.imageUrl}
+                                        alt={item.title}
+                                        style={{
+                                            width: '100%',
+                                            height: compact ? 58 : 66,
+                                            objectFit: 'cover',
+                                            borderRadius: 3,
+                                            border: '1px solid rgba(0,0,0,0.08)',
+                                            marginBottom: 5,
+                                        }}
+                                    />
+                                )}
+                                <div className="flex items-center gap-1">
+                                    <Icon size={11} weight="bold" style={{ color: accent, flexShrink: 0 }} />
+                                    <span style={{ fontSize: 8, fontWeight: 700, color: accent }}>{meta.label}</span>
+                                </div>
+                                <div style={{ fontSize: compact ? 9 : 10, fontWeight: 700, color: '#4c4658', marginTop: 3, lineHeight: 1.3, overflowWrap: 'anywhere' }}>
+                                    {item.title}
+                                </div>
+                                <div style={{ fontSize: 8, color: '#7d7887', marginTop: 3, lineHeight: 1.4, overflowWrap: 'anywhere' }}>
+                                    {item.summary}
+                                </div>
+                            </button>
+                        );
+                    })}
+                </div>
+            </div>
+
+            {active && (
+                <div
+                    onClick={() => setActive(null)}
+                    style={{
+                        position: 'fixed',
+                        inset: 0,
+                        background: 'rgba(0,0,0,0.42)',
+                        zIndex: 70,
+                        display: 'flex',
+                        alignItems: 'center',
+                        justifyContent: 'center',
+                        padding: 16,
+                    }}
+                >
+                    <div
+                        className="retro-window"
+                        onClick={event => event.stopPropagation()}
+                        style={{
+                            width: '100%',
+                            maxWidth: 360,
+                            maxHeight: '78vh',
+                            overflow: 'hidden',
+                            display: 'flex',
+                            flexDirection: 'column',
+                            minWidth: 0,
+                        }}
+                    >
+                        <div className="retro-titlebar">
+                            <span style={{ minWidth: 0, overflowWrap: 'anywhere' }}>{active.title}</span>
+                            <button
+                                onClick={() => setActive(null)}
+                                style={{
+                                    display: 'inline-flex',
+                                    alignItems: 'center',
+                                    justifyContent: 'center',
+                                    width: 18,
+                                    height: 18,
+                                    borderRadius: 3,
+                                    background: 'rgba(255,255,255,0.15)',
+                                    border: '1px solid rgba(255,255,255,0.25)',
+                                    color: 'white',
+                                    flexShrink: 0,
+                                }}
+                            >
+                                <X size={10} weight="bold" />
+                            </button>
+                        </div>
+
+                        <div className="no-scrollbar" style={{ padding: 12, overflowY: 'auto', overflowX: 'hidden' }}>
+                            {active.imageUrl && (
+                                <img
+                                    src={active.imageUrl}
+                                    alt={active.title}
+                                    style={{
+                                        width: '100%',
+                                        borderRadius: 6,
+                                        border: '1px solid rgba(0,0,0,0.1)',
+                                        marginBottom: 10,
+                                    }}
+                                />
+                            )}
+
+                            <div style={{ fontSize: 10, color: '#6e6780', fontWeight: 700, marginBottom: 4 }}>
+                                {KIND_META[active.kind].label} · {(active.rarity || 'common').toUpperCase()}
+                            </div>
+
+                            {(active.kind === 'fanfic' || active.kind === 'evidence') && active.detail ? (
+                                <>
+                                    <div className="retro-inset" style={{ padding: '8px 10px', marginTop: 2 }}>
+                                        <div style={{ fontSize: 10, color: '#777', fontWeight: 700, marginBottom: 4 }}>
+                                            原文
+                                        </div>
+                                        <div style={{ fontSize: 11, color: '#4f4b58', lineHeight: 1.75, whiteSpace: 'pre-wrap', overflowWrap: 'anywhere' }}>
+                                            {active.detail}
+                                        </div>
+                                    </div>
+                                    <div style={{ fontSize: 10, color: '#7b7387', lineHeight: 1.6, marginTop: 9, overflowWrap: 'anywhere' }}>
+                                        {active.summary}
+                                    </div>
+                                </>
+                            ) : (
+                                <>
+                                    <div style={{ fontSize: 12, color: '#444', lineHeight: 1.6, overflowWrap: 'anywhere' }}>
+                                        {active.summary}
+                                    </div>
+                                    {active.detail && (
+                                        <div className="retro-inset" style={{ padding: '8px 10px', marginTop: 10 }}>
+                                            <div style={{ fontSize: 10, color: '#777', fontWeight: 700, marginBottom: 4 }}>
+                                                展开内容
+                                            </div>
+                                            <div style={{ fontSize: 11, color: '#4f4b58', lineHeight: 1.7, whiteSpace: 'pre-wrap', overflowWrap: 'anywhere' }}>
+                                                {active.detail}
+                                            </div>
+                                        </div>
+                                    )}
+                                </>
+                            )}
+                        </div>
+                    </div>
+                </div>
+            )}
+        </>
+    );
+};
+
+export default StoryAttachments;

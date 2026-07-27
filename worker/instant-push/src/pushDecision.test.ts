@@ -1,1 +1,353 @@
-aW1wb3J0IHsgZGVzY3JpYmUsIGl0LCBleHBlY3QsIHZpIH0gZnJvbSAndml0ZXN0JzsKaW1wb3J0IHsgYnVpbGRQdXNoRGVjaXNpb24sIHR5cGUgUHVzaERlY2lzaW9uSW5wdXQgfSBmcm9tICcuL2luZGV4JzsKCi8vIOKUgOKUgOKUgCDmtYvor5UgZml4dHVyZSBoZWxwZXJzIOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgAoKZnVuY3Rpb24gYmFzZUlucHV0KG92ZXJyaWRlczogUGFydGlhbDxQdXNoRGVjaXNpb25JbnB1dD4gPSB7fSk6IFB1c2hEZWNpc2lvbklucHV0IHsKICByZXR1cm4gewogICAgbGxtT3V0cHV0VGV4dDogJycsCiAgICBzZXNzaW9uSWQ6ICdzZXNzX3Rlc3QnLAogICAgaXRlcmF0aW9uOiAwLAogICAgY29udGFjdE5hbWU6ICdYJywKICAgIGF2YXRhclVybDogbnVsbCwKICAgIGNhbGxlck1ldGFkYXRhOiB7fSwKICAgIC4uLm92ZXJyaWRlcywKICB9Owp9Cgp0eXBlIEFueVB1c2hQYXlsb2FkID0gewogIG1lc3NhZ2U/OiBzdHJpbmc7CiAgbWVzc2FnZUtpbmQ/OiBzdHJpbmc7CiAgbWVzc2FnZUlkPzogc3RyaW5nOwogIG5vdGlmaWNhdGlvbj86IHsgc2hvdz86IHN0cmluZzsgdGl0bGU/OiBzdHJpbmc7IGJvZHk/OiBzdHJpbmcgfTsKICBtZXRhZGF0YT86IFJlY29yZDxzdHJpbmcsIHVua25vd24+OwogIHRvb2xDYWxscz86IEFycmF5PHsgZnVuY3Rpb246IHsgbmFtZTogc3RyaW5nIH0gfT47Cn07CgpmdW5jdGlvbiBwdXNoZXMocjogUmV0dXJuVHlwZTx0eXBlb2YgYnVpbGRQdXNoRGVjaXNpb24+KTogQW55UHVzaFBheWxvYWRbXSB7CiAgaWYgKHIuZGVjaXNpb24gPT09ICdza2lwLXB1c2gnKSByZXR1cm4gW107CiAgcmV0dXJuIHIucHVzaFBheWxvYWRzIGFzIEFueVB1c2hQYXlsb2FkW107Cn0KCi8vIOKUgOKUgOKUgCBEIOezu+WIlzogcHVzaCBwYXlsb2FkIOS4ieadoei3r+W+hCAoMC44KyBwdXNoUGF5bG9hZHMpIOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgAoKZGVzY3JpYmUoJ2J1aWxkUHVzaERlY2lzaW9uIEQg57O75YiXIChwdXNoUGF5bG9hZHMg5pWw57uEKScsICgpID0+IHsKICBpdCgnRDEgZmluaXNoIOWNleihjOW5suWHgOaWh+acrCDihpIgMSDkuKogc2VnbWVudCwgMSDmnaEgcHVzaCcsICgpID0+IHsKICAgIGNvbnN0IHIgPSBidWlsZFB1c2hEZWNpc2lvbihiYXNlSW5wdXQoeyBsbG1PdXRwdXRUZXh0OiAn5L2g5aW9JyB9KSk7CiAgICBleHBlY3Qoci5kZWNpc2lvbikudG9CZSgnZmluaXNoJyk7CiAgICBjb25zdCBwcyA9IHB1c2hlcyhyKTsKICAgIGV4cGVjdChwcykudG9IYXZlTGVuZ3RoKDEpOwogICAgLy8gcmF3IOi3nyBzYW5pdGl6ZWQg5Zyo5pmu6YCa5paH5pys5LiK5LiA5qC3LCDkvYbpg73loZ4gbm90aWZpY2F0aW9uLmJvZHkgKDAuOCsg5LiN5YaNCiAgICAvLyDnlKjmnaHku7bljrvph40sIGxpYiDkuI0gY2xvbmUgbm90aWZpY2F0aW9uIOi3qCBjaHVuaywg5q+P5p2h54us56uLKQogICAgZXhwZWN0KHBzWzBdLm1lc3NhZ2UpLnRvQmUoJ+S9oOWlvScpOwogICAgZXhwZWN0KHBzWzBdLm5vdGlmaWNhdGlvbikudG9FcXVhbCh7IHNob3c6ICd3aGVuLWhpZGRlbicsIHRpdGxlOiAn5p2l6IeqIFgnLCBib2R5OiAn5L2g5aW9JyB9KTsKICAgIGV4cGVjdChwc1swXS5tZXRhZGF0YT8uZGlyZWN0aXZlcykudG9FcXVhbChbXSk7CiAgfSk7CgogIGl0KCdEMSsgZmluaXNoIOWkmuihjOaWh+acrCDihpIgY2h1bmtUZXh0IOWIhyBOIOS4qiBzZWdtZW50LCBOIOadoSBwdXNoJywgKCkgPT4gewogICAgY29uc3QgciA9IGJ1aWxkUHVzaERlY2lzaW9uKGJhc2VJbnB1dCh7CiAgICAgIGxsbU91dHB1dFRleHQ6ICfkvaDnnItcbueci+adpeaYqOWkqeW/meeahOi/mOaYr+acuuWvhuWViuOAglxu5oiR5rKh5LqL55qEJywKICAgIH0pKTsKICAgIGV4cGVjdChyLmRlY2lzaW9uKS50b0JlKCdmaW5pc2gnKTsKICAgIGNvbnN0IHBzID0gcHVzaGVzKHIpOwogICAgZXhwZWN0KHBzKS50b0hhdmVMZW5ndGgoMyk7CiAgICBleHBlY3QocHMubWFwKChwKSA9PiBwLm1lc3NhZ2UpKS50b0VxdWFsKFsKICAgICAgJ+S9oOeciycsCiAgICAgICfnnIvmnaXmmKjlpKnlv5nnmoTov5jmmK/mnLrlr4bllYrjgIInLAogICAgICAn5oiR5rKh5LqL55qEJywKICAgIF0pOwogICAgLy8gbm90aWZpY2F0aW9uLmJvZHkg6LefIG1lc3NhZ2Ug5LiA6Ie0ICjmma7pgJrmlofmnKwgc2FuaXRpemVkID09PSByYXcpCiAgICBleHBlY3QocHNbMF0ubm90aWZpY2F0aW9uPy5ib2R5KS50b0JlKCfkvaDnnIsnKTsKICB9KTsKCiAgaXQoJ0QyIGZpbmlzaCDlkKsgU0VORF9FTU9KSSDihpIgZW1vamkg54us56uLIHNlZ21lbnQsIG1lc3NhZ2Ug55WZIHJhdyDnu5nlrqLmiLfnq68gU3RlcCA5JywgKCkgPT4gewogICAgY29uc3QgciA9IGJ1aWxkUHVzaERlY2lzaW9uKGJhc2VJbnB1dCh7CiAgICAgIGxsbU91dHB1dFRleHQ6ICfkvaDnnItcbltbU0VORF9FTU9KSTog56yRXV1cbuaIkeayoeS6i+eahCcsCiAgICB9KSk7CiAgICBleHBlY3Qoci5kZWNpc2lvbikudG9CZSgnZmluaXNoJyk7CiAgICBjb25zdCBwcyA9IHB1c2hlcyhyKTsKICAgIGV4cGVjdChwcykudG9IYXZlTGVuZ3RoKDMpOwogICAgLy8gZW1vamkg6L+Z5p2hOiBtZXNzYWdlIOaYryByYXcgW1tTRU5EX0VNT0pJOl1dICjlrqLmiLfnq68gU3RlcCA5IOa4suafkyBzdGlja2VyKSwKICAgIC8vIG5vdGlmaWNhdGlvbi5ib2R5IOaYr+WPr+ivuyBwbGFjZWhvbGRlcgogICAgZXhwZWN0KHBzWzFdLm1lc3NhZ2UpLnRvQmUoJ1tbU0VORF9FTU9KSTog56yRXV0nKTsKICAgIGV4cGVjdChwc1sxXS5ub3RpZmljYXRpb24/LmJvZHkpLnRvQmUoJ1vooajmg4XvvJrnrJFdJyk7CiAgfSk7CgogIGl0KCdEMisgaW5saW5lIFNFTkRfRU1PSkkg5Zyo5paH5a2X5Lit6Ze0IOKGkiDmi4YgMyDmrrUgKHRleHQvZW1vamkvdGV4dCknLCAoKSA9PiB7CiAgICBjb25zdCByID0gYnVpbGRQdXNoRGVjaXNpb24oYmFzZUlucHV0KHsKICAgICAgbGxtT3V0cHV0VGV4dDogJ+S9oOeciyBbW1NFTkRfRU1PSkk6IOeskV1dIOaIkeayoeS6i+eahCcsCiAgICB9KSk7CiAgICBleHBlY3Qoci5kZWNpc2lvbikudG9CZSgnZmluaXNoJyk7CiAgICBjb25zdCBwcyA9IHB1c2hlcyhyKTsKICAgIGV4cGVjdChwcykudG9IYXZlTGVuZ3RoKDMpOwogICAgZXhwZWN0KHBzWzBdLm1lc3NhZ2UpLnRvQmUoJ+S9oOeciycpOwogICAgZXhwZWN0KHBzWzFdLm1lc3NhZ2UpLnRvQmUoJ1tbU0VORF9FTU9KSTog56yRXV0nKTsKICAgIGV4cGVjdChwc1sxXS5ub3RpZmljYXRpb24/LmJvZHkpLnRvQmUoJ1vooajmg4XvvJrnrJFdJyk7CiAgICBleHBlY3QocHNbMl0ubWVzc2FnZSkudG9CZSgn5oiR5rKh5LqL55qEJyk7CiAgfSk7CgogIGl0KCdEMyBmaW5pc2gg5LuFIDx0aGluaz4g4oaSIHNhbml0aXplIOWFqCBzdHJpcCDihpIgc2tpcC1wdXNoICjml6Dku7vkvZUgYmFubmVyIC8gYnViYmxlKScsICgpID0+IHsKICAgIGNvbnN0IHIgPSBidWlsZFB1c2hEZWNpc2lvbihiYXNlSW5wdXQoewogICAgICBsbG1PdXRwdXRUZXh0OiAnPHRoaW5rPmludGVybmFsIG1vbm9sb2d1ZTwvdGhpbms+JywKICAgIH0pKTsKICAgIC8vIDAuOCs6IDAgc2VnbWVudHMg4oaSIHNraXAtcHVzaCAo5pS+5byD6L+Z5LiA6L2uLCDkuI3lvLnpgJrnn6UpCiAgICAvLyDot58gbmV4dC4zIOeahCBaV1NQIOWNoOS9jeaYr+iuvuiuoeW3ruW8giDigJQg5aSaIHB1c2gg5qih5byP5LiL5rKh5b+F6KaB5by66KGM5Y2g5L2NCiAgICBleHBlY3Qoci5kZWNpc2lvbikudG9CZSgnc2tpcC1wdXNoJyk7CiAgfSk7CgogIGl0KCdENCB0b29sLXJlcXVlc3Qg5ZCrIHByZWZpeCDihpIgbmFycmF0aW9uIHB1c2ggKyB0b29sUmVxIHB1c2gg5ZCE5LiA5p2hJywgKCkgPT4gewogICAgY29uc3QgciA9IGJ1aWxkUHVzaERlY2lzaW9uKGJhc2VJbnB1dCh7CiAgICAgIGxsbU91dHB1dFRleHQ6ICforqnmiJHmn6Xmn6VbW1JFQ0FMTDogMjAyNC0wNV1dJywKICAgIH0pKTsKICAgIGV4cGVjdChyLmRlY2lzaW9uKS50b0JlKCd0b29sLXJlcXVlc3QnKTsKICAgIGNvbnN0IHBzID0gcHVzaGVzKHIpOwogICAgZXhwZWN0KHBzKS50b0hhdmVMZW5ndGgoMik7CiAgICAvLyBuYXJyYXRpb24gcHVzaDogY29udGVudCBraW5kLCDmmL7npLogYmFubmVyCiAgICBleHBlY3QocHNbMF0ubWVzc2FnZSkudG9CZSgn6K6p5oiR5p+l5p+lJyk7CiAgICBleHBlY3QocHNbMF0ubm90aWZpY2F0aW9uPy5ib2R5KS50b0JlKCforqnmiJHmn6Xmn6UnKTsKICAgIC8vIHRvb2xSZXEgcHVzaDogdG9vbF9yZXF1ZXN0IGtpbmQsIOS4jeW4piBub3RpZmljYXRpb24gKFNXIOWIhui9qCwg5LiN5by5IE9TIGJhbm5lcikKICAgIGV4cGVjdChwc1sxXS5tZXNzYWdlS2luZCkudG9CZSgndG9vbF9yZXF1ZXN0Jyk7CiAgICBleHBlY3QocHNbMV0udG9vbENhbGxzKS50b0hhdmVMZW5ndGgoMSk7CiAgICBleHBlY3QocHNbMV0udG9vbENhbGxzPy5bMF0uZnVuY3Rpb24ubmFtZSkudG9CZSgncmVjYWxsJyk7CiAgICBleHBlY3QocHNbMV0ubm90aWZpY2F0aW9uKS50b0JlVW5kZWZpbmVkKCk7CiAgfSk7CgogIGl0KCdENSB0b29sLXJlcXVlc3Qg56m6IHByZWZpeCAoTExNIOebtOaOpeWQkOaVsOaNruagh+etvikg4oaSIOWPquaciSB0b29sUmVxIOS4gOadoScsICgpID0+IHsKICAgIGNvbnN0IHIgPSBidWlsZFB1c2hEZWNpc2lvbihiYXNlSW5wdXQoewogICAgICBsbG1PdXRwdXRUZXh0OiAnW1tTRUFSQ0g6IHdlYXRoZXJdXScsCiAgICB9KSk7CiAgICBleHBlY3Qoci5kZWNpc2lvbikudG9CZSgndG9vbC1yZXF1ZXN0Jyk7CiAgICBjb25zdCBwcyA9IHB1c2hlcyhyKTsKICAgIGV4cGVjdChwcykudG9IYXZlTGVuZ3RoKDEpOwogICAgZXhwZWN0KHBzWzBdLm1lc3NhZ2VLaW5kKS50b0JlKCd0b29sX3JlcXVlc3QnKTsKICAgIGV4cGVjdChwc1swXS50b29sQ2FsbHM/LlswXS5mdW5jdGlvbi5uYW1lKS50b0JlKCd3ZWJfc2VhcmNoJyk7CiAgfSk7CgogIGl0KCdENiBmaW5pc2ggKyBBQ1RJT046UE9LRSDihpIgbWVzc2FnZSDliaXlhYksIGRpcmVjdGl2ZXMg5oyC5Zyo5pyA5ZCO5LiA5p2hIHB1c2gnLCAoKSA9PiB7CiAgICBjb25zdCByID0gYnVpbGRQdXNoRGVjaXNpb24oYmFzZUlucHV0KHsKICAgICAgbGxtT3V0cHV0VGV4dDogJ09LW1tBQ1RJT046UE9LRV1dJywKICAgIH0pKTsKICAgIGV4cGVjdChyLmRlY2lzaW9uKS50b0JlKCdmaW5pc2gnKTsKICAgIGNvbnN0IHBzID0gcHVzaGVzKHIpOwogICAgZXhwZWN0KHBzKS50b0hhdmVMZW5ndGgoMSk7CiAgICBleHBlY3QocHNbMF0ubWVzc2FnZSkudG9CZSgnT0snKTsKICAgIGV4cGVjdChwc1swXS5tZXRhZGF0YT8uZGlyZWN0aXZlcykudG9FcXVhbChbeyB0eXBlOiAncG9rZScgfV0pOwogIH0pOwoKICBpdCgnRDYrIGZpbmlzaCDlpJogY2h1bmsgKyBkaXJlY3RpdmVzIOKGkiDlj6rlnKjmnIDlkI7kuIDmnaEgcHVzaCDkuIrmjIIgZGlyZWN0aXZlcycsICgpID0+IHsKICAgIGNvbnN0IHIgPSBidWlsZFB1c2hEZWNpc2lvbihiYXNlSW5wdXQoewogICAgICBsbG1PdXRwdXRUZXh0OiAn5L2g5aW9XG5PS1xu5YaN6KeBW1tBQ1RJT046UE9LRV1dJywKICAgIH0pKTsKICAgIGV4cGVjdChyLmRlY2lzaW9uKS50b0JlKCdmaW5pc2gnKTsKICAgIGNvbnN0IHBzID0gcHVzaGVzKHIpOwogICAgZXhwZWN0KHBzKS50b0hhdmVMZW5ndGgoMyk7CiAgICAvLyDliY0gMiDmnaHkuI3luKYgZGlyZWN0aXZlcwogICAgZXhwZWN0KHBzWzBdLm1ldGFkYXRhPy5kaXJlY3RpdmVzKS50b0JlVW5kZWZpbmVkKCk7CiAgICBleHBlY3QocHNbMV0ubWV0YWRhdGE/LmRpcmVjdGl2ZXMpLnRvQmVVbmRlZmluZWQoKTsKICAgIC8vIOacgOWQjuS4gOadoeW4piwg6Ziy5a6i5oi356uvIHJlcGxheSDlpJrmrKEKICAgIGV4cGVjdChwc1syXS5tZXRhZGF0YT8uZGlyZWN0aXZlcykudG9FcXVhbChbeyB0eXBlOiAncG9rZScgfV0pOwogIH0pOwp9KTsKCi8vIOKUgOKUgOKUgCBFIOezu+WIlzogdGl0bGUgZmFsbGJhY2sg4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSACgpkZXNjcmliZSgnYnVpbGRQdXNoRGVjaXNpb24gRSDns7vliJcgKHRpdGxlIGZhbGxiYWNrKScsICgpID0+IHsKICBpdCgnRTEgY29udGFjdE5hbWU9IlN1bGx5IiDihpIg5q+P5p2hIHB1c2ggdGl0bGU9IuadpeiHqiBTdWxseSInLCAoKSA9PiB7CiAgICBjb25zdCByID0gYnVpbGRQdXNoRGVjaXNpb24oYmFzZUlucHV0KHsKICAgICAgbGxtT3V0cHV0VGV4dDogJ+S9oOWlvVxu5YaN6KeBJywKICAgICAgY29udGFjdE5hbWU6ICdTdWxseScsCiAgICB9KSk7CiAgICBjb25zdCBwcyA9IHB1c2hlcyhyKTsKICAgIGZvciAoY29uc3QgcCBvZiBwcykgewogICAgICBleHBlY3QocC5ub3RpZmljYXRpb24/LnRpdGxlKS50b0JlKCfmnaXoh6ogU3VsbHknKTsKICAgIH0KICB9KTsKCiAgaXQuZWFjaChbCiAgICB7IG5hbWU6ICfnqbrlrZfnrKbkuLInLCB2YWx1ZTogJycgfSwKICAgIHsgbmFtZTogJ+WFqOepuueZvScsIHZhbHVlOiAnICAgJyB9LAogICAgeyBuYW1lOiAn5re35ZCI56m655m9ICh0YWIgKyDlhajop5LnqbrmoLwgKyBuYnNwKScsIHZhbHVlOiAnXHTjgIAgJyB9LAogIF0pKCdFMiBjb250YWN0TmFtZT0kbmFtZSDihpIgZmFsbGJhY2sg5YiwICLmnaXoh6og5Li75Yqo5raI5oGvIicsICh7IHZhbHVlIH0pID0+IHsKICAgIGNvbnN0IHIgPSBidWlsZFB1c2hEZWNpc2lvbihiYXNlSW5wdXQoewogICAgICBsbG1PdXRwdXRUZXh0OiAn5L2g5aW9JywKICAgICAgY29udGFjdE5hbWU6IHZhbHVlLAogICAgfSkpOwogICAgY29uc3QgcHMgPSBwdXNoZXMocik7CiAgICBleHBlY3QocHNbMF0ubm90aWZpY2F0aW9uPy50aXRsZSkudG9CZSgn5p2l6IeqIOS4u+WKqOa2iOaBrycpOwogIH0pOwp9KTsKCi8vIOKUgOKUgOKUgCBGIOezu+WIlzogc2l6ZSB3YXJuIOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgAoKZGVzY3JpYmUoJ2J1aWxkUHVzaERlY2lzaW9uIEYg57O75YiXIChzaXplIHdhcm4gcGVyLXB1c2gpJywgKCkgPT4gewogIGl0KCdGMSDnn60gbWVzc2FnZSDihpIgb25TaXplV2FybiDkuI3ooqvosIPnlKgnLCAoKSA9PiB7CiAgICBjb25zdCBvblNpemVXYXJuID0gdmkuZm4oKTsKICAgIGJ1aWxkUHVzaERlY2lzaW9uKGJhc2VJbnB1dCh7IGxsbU91dHB1dFRleHQ6ICfkvaDlpb0nIH0pLCB7IG9uU2l6ZVdhcm4gfSk7CiAgICBleHBlY3Qob25TaXplV2Fybikubm90LnRvSGF2ZUJlZW5DYWxsZWQoKTsKICB9KTsKCiAgaXQoJ0YyIH4zMDAwQiDplb8gbWVzc2FnZSAo5Y2VIGNodW5rKSDihpIgb25TaXplV2FybiDosIMgMSDmrKEsIGJ5dGVzID4gMjMwMCcsICgpID0+IHsKICAgIGNvbnN0IG9uU2l6ZVdhcm4gPSB2aS5mbigpOwogICAgLy8g55So5Y2V5q616LaF6ZW/5paH5pysICjml6DmjaLooYzpgb/lhY3ooqsgY2h1bmtUZXh0IOWIh+eijikKICAgIGNvbnN0IGxvbmdUZXh0ID0gJ3gnLnJlcGVhdCgzMDAwKTsKICAgIGJ1aWxkUHVzaERlY2lzaW9uKGJhc2VJbnB1dCh7IGxsbU91dHB1dFRleHQ6IGxvbmdUZXh0IH0pLCB7IG9uU2l6ZVdhcm4gfSk7CiAgICBleHBlY3Qob25TaXplV2FybikudG9IYXZlQmVlbkNhbGxlZFRpbWVzKDEpOwogICAgZXhwZWN0KHZpLm1vY2tlZChvblNpemVXYXJuKS5tb2NrLmNhbGxzWzBdWzBdKS50b0JlR3JlYXRlclRoYW4oMjMwMCk7CiAgfSk7CgogIGl0KCdGMyDkuI3kvKAgb25TaXplV2FybiArIOmVvyBtZXNzYWdlIOKGkiDpu5jorqQgY29uc29sZS53YXJuIOiiq+iwg+eUqCcsICgpID0+IHsKICAgIGNvbnN0IHdhcm5TcHkgPSB2aS5zcHlPbihjb25zb2xlLCAnd2FybicpLm1vY2tJbXBsZW1lbnRhdGlvbigoKSA9PiB1bmRlZmluZWQpOwogICAgdHJ5IHsKICAgICAgYnVpbGRQdXNoRGVjaXNpb24oYmFzZUlucHV0KHsgbGxtT3V0cHV0VGV4dDogJ3gnLnJlcGVhdCgzMDAwKSB9KSk7CiAgICAgIGV4cGVjdCh3YXJuU3B5KS50b0hhdmVCZWVuQ2FsbGVkVGltZXMoMSk7CiAgICAgIGV4cGVjdCh3YXJuU3B5Lm1vY2suY2FsbHNbMF1bMF0pLnRvQ29udGFpbignW2luc3RhbnQtcHVzaF0nKTsKICAgIH0gZmluYWxseSB7CiAgICAgIHdhcm5TcHkubW9ja1Jlc3RvcmUoKTsKICAgIH0KICB9KTsKCiAgaXQoJ0YyKyDlpJogcHVzaCDpg73lvojnn60g4oaSIG9uU2l6ZVdhcm4g5LiN6KKr6LCD55SoJywgKCkgPT4gewogICAgY29uc3Qgb25TaXplV2FybiA9IHZpLmZuKCk7CiAgICBidWlsZFB1c2hEZWNpc2lvbihiYXNlSW5wdXQoeyBsbG1PdXRwdXRUZXh0OiAn5L2g5aW9XG7lho3op4FcbuWlveeahCcgfSksIHsgb25TaXplV2FybiB9KTsKICAgIGV4cGVjdChvblNpemVXYXJuKS5ub3QudG9IYXZlQmVlbkNhbGxlZCgpOwogIH0pOwp9KTsKCi8vIOKUgOKUgOKUgCBtZXRhZGF0YSDpgI/kvKAg4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSACgpkZXNjcmliZSgnYnVpbGRQdXNoRGVjaXNpb24gbWV0YWRhdGEg6YCP5LygJywgKCkgPT4gewogIGl0KCdmaW5pc2gg5Y2VIHB1c2g6IGNhbGxlck1ldGFkYXRhIOWFqOWtl+autemAj+S8oCArIGl0ZXJhdGlvbiArIGRpcmVjdGl2ZXMnLCAoKSA9PiB7CiAgICBjb25zdCByID0gYnVpbGRQdXNoRGVjaXNpb24oYmFzZUlucHV0KHsKICAgICAgbGxtT3V0cHV0VGV4dDogJ+S9oOWlvScsCiAgICAgIGl0ZXJhdGlvbjogMywKICAgICAgY2FsbGVyTWV0YWRhdGE6IHsgY2hhcklkOiAnYzEnLCBleHRyYTogJ3ZhbCcgfSwKICAgIH0pKTsKICAgIGNvbnN0IHBzID0gcHVzaGVzKHIpOwogICAgZXhwZWN0KHBzWzBdLm1ldGFkYXRhKS50b0VxdWFsKHsKICAgICAgY2hhcklkOiAnYzEnLAogICAgICBleHRyYTogJ3ZhbCcsCiAgICAgIGRpcmVjdGl2ZXM6IFtdLAogICAgICBpdGVyYXRpb246IDMsCiAgICB9KTsKICB9KTsKCiAgaXQoJ2ZpbmlzaCDlpJogcHVzaDog5q+P5p2h6YO95bimIGNhbGxlck1ldGFkYXRhLCDlj6rmnIDlkI7kuIDmnaHluKYgZGlyZWN0aXZlcycsICgpID0+IHsKICAgIGNvbnN0IHIgPSBidWlsZFB1c2hEZWNpc2lvbihiYXNlSW5wdXQoewogICAgICBsbG1PdXRwdXRUZXh0OiAn5L2g5aW9XG7lho3op4EnLAogICAgICBpdGVyYXRpb246IDEsCiAgICAgIGNhbGxlck1ldGFkYXRhOiB7IGNoYXJJZDogJ2MxJyB9LAogICAgfSkpOwogICAgY29uc3QgcHMgPSBwdXNoZXMocik7CiAgICBleHBlY3QocHMpLnRvSGF2ZUxlbmd0aCgyKTsKICAgIGV4cGVjdChwc1swXS5tZXRhZGF0YSkudG9NYXRjaE9iamVjdCh7IGNoYXJJZDogJ2MxJywgaXRlcmF0aW9uOiAxIH0pOwogICAgZXhwZWN0KHBzWzBdLm1ldGFkYXRhPy5kaXJlY3RpdmVzKS50b0JlVW5kZWZpbmVkKCk7CiAgICBleHBlY3QocHNbMV0ubWV0YWRhdGEpLnRvTWF0Y2hPYmplY3QoeyBjaGFySWQ6ICdjMScsIGl0ZXJhdGlvbjogMSwgZGlyZWN0aXZlczogW10gfSk7CiAgfSk7CgogIGl0KCd0b29sLXJlcXVlc3Qg6Lev5b6EOiBuYXJyYXRpb24gKyB0b29sUmVxIOmDveW4piBjYWxsZXJNZXRhZGF0YSArIGl0ZXJhdGlvbicsICgpID0+IHsKICAgIGNvbnN0IHIgPSBidWlsZFB1c2hEZWNpc2lvbihiYXNlSW5wdXQoewogICAgICBsbG1PdXRwdXRUZXh0OiAn6K6p5oiR5p+l5p+lXG5bW1NFQVJDSDogd2VhdGhlcl1dJywKICAgICAgaXRlcmF0aW9uOiAyLAogICAgICBjYWxsZXJNZXRhZGF0YTogeyBjaGFySWQ6ICdjMScgfSwKICAgIH0pKTsKICAgIGNvbnN0IHBzID0gcHVzaGVzKHIpOwogICAgZXhwZWN0KHBzKS50b0hhdmVMZW5ndGgoMik7CiAgICBleHBlY3QocHNbMF0ubWV0YWRhdGEpLnRvTWF0Y2hPYmplY3QoeyBjaGFySWQ6ICdjMScsIGl0ZXJhdGlvbjogMiB9KTsKICAgIGV4cGVjdChwc1sxXS5tZXRhZGF0YSkudG9NYXRjaE9iamVjdCh7IGNoYXJJZDogJ2MxJywgaXRlcmF0aW9uOiAyIH0pOwogICAgLy8gdG9vbC1yZXF1ZXN0IOi3r+W+hOaXoCBkaXJlY3RpdmVzICjpgqPmmK8gZmluaXNoIOeLrOaciSkKICAgIGV4cGVjdChwc1swXS5tZXRhZGF0YT8uZGlyZWN0aXZlcykudG9CZVVuZGVmaW5lZCgpOwogICAgZXhwZWN0KHBzWzFdLm1ldGFkYXRhPy5kaXJlY3RpdmVzKS50b0JlVW5kZWZpbmVkKCk7CiAgfSk7CgogIGl0KCdjYWxsZXIg5ZCO5rOo5YWl55qEIGl0ZXJhdGlvbiDopobnm5YgY2FsbGVyIOiHquW4pueahCAoc3ByZWFkIOmhuuW6j+mYsuWbnuW9kiknLCAoKSA9PiB7CiAgICBjb25zdCByID0gYnVpbGRQdXNoRGVjaXNpb24oYmFzZUlucHV0KHsKICAgICAgbGxtT3V0cHV0VGV4dDogJ+S9oOWlvScsCiAgICAgIGl0ZXJhdGlvbjogNSwKICAgICAgY2FsbGVyTWV0YWRhdGE6IHsgaXRlcmF0aW9uOiA5OTksIGNoYXJJZDogJ2MxJyB9LAogICAgfSkpOwogICAgY29uc3QgcHMgPSBwdXNoZXMocik7CiAgICBleHBlY3QocHNbMF0ubWV0YWRhdGE/Lml0ZXJhdGlvbikudG9CZSg1KTsKICAgIGV4cGVjdChwc1swXS5tZXRhZGF0YT8uY2hhcklkKS50b0JlKCdjMScpOwogIH0pOwp9KTsKCi8vIOKUgOKUgOKUgCBtZXNzYWdlSWQgcGVyLWNodW5rIOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgAoKZGVzY3JpYmUoJ2J1aWxkUHVzaERlY2lzaW9uIG1lc3NhZ2VJZCBwZXItY2h1bmsgdW5pcXVlbmVzcycsICgpID0+IHsKICBpdCgn5aSaIGNodW5rIHB1c2gg5q+P5p2hIG1lc3NhZ2VJZCDlkKsgX2NodW5rXyR7aX0g5ZCO57yALCDkuKTkuKTkuI3lkIwnLCAoKSA9PiB7CiAgICBjb25zdCByID0gYnVpbGRQdXNoRGVjaXNpb24oYmFzZUlucHV0KHsKICAgICAgc2Vzc2lvbklkOiAnc2Vzc19hYmMnLAogICAgICBpdGVyYXRpb246IDEsCiAgICAgIGxsbU91dHB1dFRleHQ6ICfkvaDlpb1cbuWGjeingVxu5aW955qEJywKICAgIH0pKTsKICAgIGNvbnN0IHBzID0gcHVzaGVzKHIpOwogICAgZXhwZWN0KHBzKS50b0hhdmVMZW5ndGgoMyk7CiAgICBjb25zdCBpZHMgPSBwcy5tYXAoKHApID0+IHAubWVzc2FnZUlkKTsKICAgIGV4cGVjdChuZXcgU2V0KGlkcykuc2l6ZSkudG9CZSgzKTsKICAgIGV4cGVjdChpZHNbMF0pLnRvQ29udGFpbignX2NodW5rXzAnKTsKICAgIGV4cGVjdChpZHNbMV0pLnRvQ29udGFpbignX2NodW5rXzEnKTsKICAgIGV4cGVjdChpZHNbMl0pLnRvQ29udGFpbignX2NodW5rXzInKTsKICB9KTsKCiAgaXQoJ3Rvb2wtcmVxdWVzdCDot6/lvoQ6IG5hcnJhdGlvbiDnlKggY2h1bmsg5ZCO57yALCB0b29sUmVxIOeUqCB0b29scmVxIOWQjue8gCcsICgpID0+IHsKICAgIGNvbnN0IHIgPSBidWlsZFB1c2hEZWNpc2lvbihiYXNlSW5wdXQoewogICAgICBzZXNzaW9uSWQ6ICdzZXNzX3h5eicsCiAgICAgIGl0ZXJhdGlvbjogMCwKICAgICAgbGxtT3V0cHV0VGV4dDogJ+iuqeaIkeafpeafpVxuW1tSRUNBTEw6IDIwMjQtMDVdXScsCiAgICB9KSk7CiAgICBjb25zdCBwcyA9IHB1c2hlcyhyKTsKICAgIGV4cGVjdChwcykudG9IYXZlTGVuZ3RoKDIpOwogICAgZXhwZWN0KHBzWzBdLm1lc3NhZ2VJZCkudG9Db250YWluKCdfY2h1bmtfMCcpOwogICAgZXhwZWN0KHBzWzFdLm1lc3NhZ2VJZCkudG9Db250YWluKCdfdG9vbHJlcScpOwogIH0pOwp9KTsKCi8vIOKUgOKUgOKUgCBza2lwLXB1c2ggZWRnZSBjYXNlIOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgAoKZGVzY3JpYmUoJ2J1aWxkUHVzaERlY2lzaW9uIHNraXAtcHVzaCAo56m65YaF5a65KScsICgpID0+IHsKICBpdCgn56m65a2X56ym5LiyIOKGkiBza2lwLXB1c2gnLCAoKSA9PiB7CiAgICBjb25zdCByID0gYnVpbGRQdXNoRGVjaXNpb24oYmFzZUlucHV0KHsgbGxtT3V0cHV0VGV4dDogJycgfSkpOwogICAgZXhwZWN0KHIuZGVjaXNpb24pLnRvQmUoJ3NraXAtcHVzaCcpOwogIH0pOwoKICBpdCgn5YWo56m655m9IOKGkiBza2lwLXB1c2gnLCAoKSA9PiB7CiAgICBjb25zdCByID0gYnVpbGRQdXNoRGVjaXNpb24oYmFzZUlucHV0KHsgbGxtT3V0cHV0VGV4dDogJyAgIFxuXG4gICcgfSkpOwogICAgZXhwZWN0KHIuZGVjaXNpb24pLnRvQmUoJ3NraXAtcHVzaCcpOwogIH0pOwoKICBpdCgn5Y+q5pyJIElOTkVSX1NUQVRFIOKGkiBza2lwLXB1c2ggKOaXoCBkaXJlY3RpdmUg5peg5YaF5a65KScsICgpID0+IHsKICAgIGNvbnN0IHIgPSBidWlsZFB1c2hEZWNpc2lvbihiYXNlSW5wdXQoewogICAgICBsbG1PdXRwdXRUZXh0OiAnW1tJTk5FUl9TVEFURTogY29uZnVzZWRdXScsCiAgICB9KSk7CiAgICAvLyBJTk5FUl9TVEFURSDooqvliaUsIOaXoCBkaXJlY3RpdmUg5Lmf5pegIHNlZ21lbnQg4oaSIHNraXAtcHVzaAogICAgZXhwZWN0KHIuZGVjaXNpb24pLnRvQmUoJ3NraXAtcHVzaCcpOwogIH0pOwoKICBpdCgn5Y+q5pyJ5Ymv5L2c55SoIGRpcmVjdGl2ZSDml6AgbmFycmF0aW9uIOKGkiBmaW5pc2ggKyBkaXJlY3RpdmUtb25seSBwdXNoJywgKCkgPT4gewogICAgY29uc3QgciA9IGJ1aWxkUHVzaERlY2lzaW9uKGJhc2VJbnB1dCh7CiAgICAgIGxsbU91dHB1dFRleHQ6ICdbW0FDVElPTjpQT0tFXV0nLAogICAgfSkpOwogICAgLy8g5pS5OiBjbGFzc2lmaWVyIOaKiiBBQ1RJT046UE9LRSDmj5DmiJAgZGlyZWN0aXZlLCBjbGVhbmVkVGV4dCDnqbog4oaSIHNlZ21lbnRzIOepuiwKICAgIC8vIOS9hiBkaXJlY3RpdmVzLmxlbmd0aCA+IDAsIGJ1aWxkUHVzaERlY2lzaW9uIOS4jeWGjSBza2lwLXB1c2gsIGVtaXQg5LiA5p2hCiAgICAvLyBkaXJlY3RpdmUtb25seSBwdXNoIChtZXNzYWdlOicnLCDkuI3luKYgbm90aWZpY2F0aW9uLCBtZXRhZGF0YS5kaXJlY3RpdmVzIOaQuuW4pikuCiAgICBleHBlY3Qoci5kZWNpc2lvbikudG9CZSgnZmluaXNoJyk7CiAgICBjb25zdCBwcyA9IChyIGFzIEV4dHJhY3Q8dHlwZW9mIHIsIHsgZGVjaXNpb246ICdmaW5pc2gnIH0+KS5wdXNoUGF5bG9hZHM7CiAgICBleHBlY3QocHMpLnRvSGF2ZUxlbmd0aCgxKTsKICAgIGNvbnN0IHB1c2ggPSBwc1swXSBhcyB7IG1lc3NhZ2U6IHN0cmluZzsgbWV0YWRhdGE6IHsgZGlyZWN0aXZlczogdW5rbm93bltdIH07IG5vdGlmaWNhdGlvbj86IHVua25vd24gfTsKICAgIGV4cGVjdChwdXNoLm1lc3NhZ2UpLnRvQmUoJycpOwogICAgZXhwZWN0KHB1c2gubWV0YWRhdGEuZGlyZWN0aXZlcykudG9FcXVhbChbeyB0eXBlOiAncG9rZScgfV0pOwogICAgZXhwZWN0KHB1c2gubm90aWZpY2F0aW9uKS50b0JlVW5kZWZpbmVkKCk7CiAgfSk7CgogIGl0KCdJTk5FUl9TVEFURSArIOWJr+S9nOeUqCBkaXJlY3RpdmUg4oaSIGZpbmlzaCArIGRpcmVjdGl2ZS1vbmx5IHB1c2gnLCAoKSA9PiB7CiAgICBjb25zdCByID0gYnVpbGRQdXNoRGVjaXNpb24oYmFzZUlucHV0KHsKICAgICAgbGxtT3V0cHV0VGV4dDogJ1tbSU5ORVJfU1RBVEU6IGNvbmZ1c2VkXV1bW0FDVElPTjpQT0tFXV0nLAogICAgfSkpOwogICAgLy8gSU5ORVJfU1RBVEUg6KKr5YmlICsgQUNUSU9OOlBPS0Ug5o+Q5oiQIGRpcmVjdGl2ZSDihpIgc2VnbWVudHM9W10gKyBkaXJlY3RpdmVzPVtwb2tlXQogICAgLy8g4oaSIGZpbmlzaCAoZGlyZWN0aXZlLW9ubHkpLiDot5/kuIrpnaIgY2FzZSDnrYnku7csIOWkmiBJTk5FUl9TVEFURSDkuI3lvbHlk40uCiAgICBleHBlY3Qoci5kZWNpc2lvbikudG9CZSgnZmluaXNoJyk7CiAgICBjb25zdCBwcyA9IChyIGFzIEV4dHJhY3Q8dHlwZW9mIHIsIHsgZGVjaXNpb246ICdmaW5pc2gnIH0+KS5wdXNoUGF5bG9hZHM7CiAgICBleHBlY3QocHMpLnRvSGF2ZUxlbmd0aCgxKTsKICAgIGV4cGVjdCgocHNbMF0gYXMgeyBtZXRhZGF0YTogeyBkaXJlY3RpdmVzOiB1bmtub3duW10gfSB9KS5tZXRhZGF0YS5kaXJlY3RpdmVzKS50b0VxdWFsKFt7IHR5cGU6ICdwb2tlJyB9XSk7CiAgfSk7Cn0pOwo=
+import { describe, it, expect, vi } from 'vitest';
+import { buildPushDecision, type PushDecisionInput } from './index';
+
+// ─── 测试 fixture helpers ────────────────────────────────────────────────
+
+function baseInput(overrides: Partial<PushDecisionInput> = {}): PushDecisionInput {
+  return {
+    llmOutputText: '',
+    sessionId: 'sess_test',
+    iteration: 0,
+    contactName: 'X',
+    avatarUrl: null,
+    callerMetadata: {},
+    ...overrides,
+  };
+}
+
+type AnyPushPayload = {
+  message?: string;
+  messageKind?: string;
+  messageId?: string;
+  notification?: { show?: string; title?: string; body?: string };
+  metadata?: Record<string, unknown>;
+  toolCalls?: Array<{ function: { name: string } }>;
+};
+
+function pushes(r: ReturnType<typeof buildPushDecision>): AnyPushPayload[] {
+  if (r.decision === 'skip-push') return [];
+  return r.pushPayloads as AnyPushPayload[];
+}
+
+// ─── D 系列: push payload 三条路径 (0.8+ pushPayloads) ───────────────────────
+
+describe('buildPushDecision D 系列 (pushPayloads 数组)', () => {
+  it('D1 finish 单行干净文本 → 1 个 segment, 1 条 push', () => {
+    const r = buildPushDecision(baseInput({ llmOutputText: '你好' }));
+    expect(r.decision).toBe('finish');
+    const ps = pushes(r);
+    expect(ps).toHaveLength(1);
+    // raw 跟 sanitized 在普通文本上一样, 但都塞 notification.body (0.8+ 不再
+    // 用条件去重, lib 不 clone notification 跨 chunk, 每条独立)
+    expect(ps[0].message).toBe('你好');
+    expect(ps[0].notification).toEqual({ show: 'when-hidden', title: '来自 X', body: '你好' });
+    expect(ps[0].metadata?.directives).toEqual([]);
+  });
+
+  it('D1+ finish 多行文本 → chunkText 切 N 个 segment, N 条 push', () => {
+    const r = buildPushDecision(baseInput({
+      llmOutputText: '你看\n看来昨天忙的还是机密啊。\n我没事的',
+    }));
+    expect(r.decision).toBe('finish');
+    const ps = pushes(r);
+    expect(ps).toHaveLength(3);
+    expect(ps.map((p) => p.message)).toEqual([
+      '你看',
+      '看来昨天忙的还是机密啊。',
+      '我没事的',
+    ]);
+    // notification.body 跟 message 一致 (普通文本 sanitized === raw)
+    expect(ps[0].notification?.body).toBe('你看');
+  });
+
+  it('D2 finish 含 SEND_EMOJI → emoji 独立 segment, message 留 raw 给客户端 Step 9', () => {
+    const r = buildPushDecision(baseInput({
+      llmOutputText: '你看\n[[SEND_EMOJI: 笑]]\n我没事的',
+    }));
+    expect(r.decision).toBe('finish');
+    const ps = pushes(r);
+    expect(ps).toHaveLength(3);
+    // emoji 这条: message 是 raw [[SEND_EMOJI:]] (客户端 Step 9 渲染 sticker),
+    // notification.body 是可读 placeholder
+    expect(ps[1].message).toBe('[[SEND_EMOJI: 笑]]');
+    expect(ps[1].notification?.body).toBe('[表情：笑]');
+  });
+
+  it('D2+ inline SEND_EMOJI 在文字中间 → 拆 3 段 (text/emoji/text)', () => {
+    const r = buildPushDecision(baseInput({
+      llmOutputText: '你看 [[SEND_EMOJI: 笑]] 我没事的',
+    }));
+    expect(r.decision).toBe('finish');
+    const ps = pushes(r);
+    expect(ps).toHaveLength(3);
+    expect(ps[0].message).toBe('你看');
+    expect(ps[1].message).toBe('[[SEND_EMOJI: 笑]]');
+    expect(ps[1].notification?.body).toBe('[表情：笑]');
+    expect(ps[2].message).toBe('我没事的');
+  });
+
+  it('D3 finish 仅 <think> → sanitize 全 strip → skip-push (无任何 banner / bubble)', () => {
+    const r = buildPushDecision(baseInput({
+      llmOutputText: '<think>internal monologue</think>',
+    }));
+    // 0.8+: 0 segments → skip-push (放弃这一轮, 不弹通知)
+    // 跟 next.3 的 ZWSP 占位是设计差异 — 多 push 模式下没必要强行占位
+    expect(r.decision).toBe('skip-push');
+  });
+
+  it('D4 tool-request 含 prefix → narration push + toolReq push 各一条', () => {
+    const r = buildPushDecision(baseInput({
+      llmOutputText: '让我查查[[RECALL: 2024-05]]',
+    }));
+    expect(r.decision).toBe('tool-request');
+    const ps = pushes(r);
+    expect(ps).toHaveLength(2);
+    // narration push: content kind, 显示 banner
+    expect(ps[0].message).toBe('让我查查');
+    expect(ps[0].notification?.body).toBe('让我查查');
+    // toolReq push: tool_request kind, 不带 notification (SW 分轨, 不弹 OS banner)
+    expect(ps[1].messageKind).toBe('tool_request');
+    expect(ps[1].toolCalls).toHaveLength(1);
+    expect(ps[1].toolCalls?.[0].function.name).toBe('recall');
+    expect(ps[1].notification).toBeUndefined();
+  });
+
+  it('D5 tool-request 空 prefix (LLM 直接吐数据标签) → 只有 toolReq 一条', () => {
+    const r = buildPushDecision(baseInput({
+      llmOutputText: '[[SEARCH: weather]]',
+    }));
+    expect(r.decision).toBe('tool-request');
+    const ps = pushes(r);
+    expect(ps).toHaveLength(1);
+    expect(ps[0].messageKind).toBe('tool_request');
+    expect(ps[0].toolCalls?.[0].function.name).toBe('web_search');
+  });
+
+  it('D6 finish + ACTION:POKE → message 剥光, directives 挂在最后一条 push', () => {
+    const r = buildPushDecision(baseInput({
+      llmOutputText: 'OK[[ACTION:POKE]]',
+    }));
+    expect(r.decision).toBe('finish');
+    const ps = pushes(r);
+    expect(ps).toHaveLength(1);
+    expect(ps[0].message).toBe('OK');
+    expect(ps[0].metadata?.directives).toEqual([{ type: 'poke' }]);
+  });
+
+  it('D6+ finish 多 chunk + directives → 只在最后一条 push 上挂 directives', () => {
+    const r = buildPushDecision(baseInput({
+      llmOutputText: '你好\nOK\n再见[[ACTION:POKE]]',
+    }));
+    expect(r.decision).toBe('finish');
+    const ps = pushes(r);
+    expect(ps).toHaveLength(3);
+    // 前 2 条不带 directives
+    expect(ps[0].metadata?.directives).toBeUndefined();
+    expect(ps[1].metadata?.directives).toBeUndefined();
+    // 最后一条带, 防客户端 replay 多次
+    expect(ps[2].metadata?.directives).toEqual([{ type: 'poke' }]);
+  });
+});
+
+// ─── E 系列: title fallback ──────────────────────────────────────────────
+
+describe('buildPushDecision E 系列 (title fallback)', () => {
+  it('E1 contactName="Sully" → 每条 push title="来自 Sully"', () => {
+    const r = buildPushDecision(baseInput({
+      llmOutputText: '你好\n再见',
+      contactName: 'Sully',
+    }));
+    const ps = pushes(r);
+    for (const p of ps) {
+      expect(p.notification?.title).toBe('来自 Sully');
+    }
+  });
+
+  it.each([
+    { name: '空字符串', value: '' },
+    { name: '全空白', value: '   ' },
+    { name: '混合空白 (tab + 全角空格 + nbsp)', value: '\t　 ' },
+  ])('E2 contactName=$name → fallback 到 "来自 主动消息"', ({ value }) => {
+    const r = buildPushDecision(baseInput({
+      llmOutputText: '你好',
+      contactName: value,
+    }));
+    const ps = pushes(r);
+    expect(ps[0].notification?.title).toBe('来自 主动消息');
+  });
+});
+
+// ─── F 系列: size warn ──────────────────────────────────────────────────
+
+describe('buildPushDecision F 系列 (size warn per-push)', () => {
+  it('F1 短 message → onSizeWarn 不被调用', () => {
+    const onSizeWarn = vi.fn();
+    buildPushDecision(baseInput({ llmOutputText: '你好' }), { onSizeWarn });
+    expect(onSizeWarn).not.toHaveBeenCalled();
+  });
+
+  it('F2 ~3000B 长 message (单 chunk) → onSizeWarn 调 1 次, bytes > 2300', () => {
+    const onSizeWarn = vi.fn();
+    // 用单段超长文本 (无换行避免被 chunkText 切碎)
+    const longText = 'x'.repeat(3000);
+    buildPushDecision(baseInput({ llmOutputText: longText }), { onSizeWarn });
+    expect(onSizeWarn).toHaveBeenCalledTimes(1);
+    expect(vi.mocked(onSizeWarn).mock.calls[0][0]).toBeGreaterThan(2300);
+  });
+
+  it('F3 不传 onSizeWarn + 长 message → 默认 console.warn 被调用', () => {
+    const warnSpy = vi.spyOn(console, 'warn').mockImplementation(() => undefined);
+    try {
+      buildPushDecision(baseInput({ llmOutputText: 'x'.repeat(3000) }));
+      expect(warnSpy).toHaveBeenCalledTimes(1);
+      expect(warnSpy.mock.calls[0][0]).toContain('[instant-push]');
+    } finally {
+      warnSpy.mockRestore();
+    }
+  });
+
+  it('F2+ 多 push 都很短 → onSizeWarn 不被调用', () => {
+    const onSizeWarn = vi.fn();
+    buildPushDecision(baseInput({ llmOutputText: '你好\n再见\n好的' }), { onSizeWarn });
+    expect(onSizeWarn).not.toHaveBeenCalled();
+  });
+});
+
+// ─── metadata 透传 ──────────────────────────────────────────────────────
+
+describe('buildPushDecision metadata 透传', () => {
+  it('finish 单 push: callerMetadata 全字段透传 + iteration + directives', () => {
+    const r = buildPushDecision(baseInput({
+      llmOutputText: '你好',
+      iteration: 3,
+      callerMetadata: { charId: 'c1', extra: 'val' },
+    }));
+    const ps = pushes(r);
+    expect(ps[0].metadata).toEqual({
+      charId: 'c1',
+      extra: 'val',
+      directives: [],
+      iteration: 3,
+    });
+  });
+
+  it('finish 多 push: 每条都带 callerMetadata, 只最后一条带 directives', () => {
+    const r = buildPushDecision(baseInput({
+      llmOutputText: '你好\n再见',
+      iteration: 1,
+      callerMetadata: { charId: 'c1' },
+    }));
+    const ps = pushes(r);
+    expect(ps).toHaveLength(2);
+    expect(ps[0].metadata).toMatchObject({ charId: 'c1', iteration: 1 });
+    expect(ps[0].metadata?.directives).toBeUndefined();
+    expect(ps[1].metadata).toMatchObject({ charId: 'c1', iteration: 1, directives: [] });
+  });
+
+  it('tool-request 路径: narration + toolReq 都带 callerMetadata + iteration', () => {
+    const r = buildPushDecision(baseInput({
+      llmOutputText: '让我查查\n[[SEARCH: weather]]',
+      iteration: 2,
+      callerMetadata: { charId: 'c1' },
+    }));
+    const ps = pushes(r);
+    expect(ps).toHaveLength(2);
+    expect(ps[0].metadata).toMatchObject({ charId: 'c1', iteration: 2 });
+    expect(ps[1].metadata).toMatchObject({ charId: 'c1', iteration: 2 });
+    // tool-request 路径无 directives (那是 finish 独有)
+    expect(ps[0].metadata?.directives).toBeUndefined();
+    expect(ps[1].metadata?.directives).toBeUndefined();
+  });
+
+  it('caller 后注入的 iteration 覆盖 caller 自带的 (spread 顺序防回归)', () => {
+    const r = buildPushDecision(baseInput({
+      llmOutputText: '你好',
+      iteration: 5,
+      callerMetadata: { iteration: 999, charId: 'c1' },
+    }));
+    const ps = pushes(r);
+    expect(ps[0].metadata?.iteration).toBe(5);
+    expect(ps[0].metadata?.charId).toBe('c1');
+  });
+});
+
+// ─── messageId per-chunk ────────────────────────────────────────────────
+
+describe('buildPushDecision messageId per-chunk uniqueness', () => {
+  it('多 chunk push 每条 messageId 含 _chunk_${i} 后缀, 两两不同', () => {
+    const r = buildPushDecision(baseInput({
+      sessionId: 'sess_abc',
+      iteration: 1,
+      llmOutputText: '你好\n再见\n好的',
+    }));
+    const ps = pushes(r);
+    expect(ps).toHaveLength(3);
+    const ids = ps.map((p) => p.messageId);
+    expect(new Set(ids).size).toBe(3);
+    expect(ids[0]).toContain('_chunk_0');
+    expect(ids[1]).toContain('_chunk_1');
+    expect(ids[2]).toContain('_chunk_2');
+  });
+
+  it('tool-request 路径: narration 用 chunk 后缀, toolReq 用 toolreq 后缀', () => {
+    const r = buildPushDecision(baseInput({
+      sessionId: 'sess_xyz',
+      iteration: 0,
+      llmOutputText: '让我查查\n[[RECALL: 2024-05]]',
+    }));
+    const ps = pushes(r);
+    expect(ps).toHaveLength(2);
+    expect(ps[0].messageId).toContain('_chunk_0');
+    expect(ps[1].messageId).toContain('_toolreq');
+  });
+});
+
+// ─── skip-push edge case ────────────────────────────────────────────────
+
+describe('buildPushDecision skip-push (空内容)', () => {
+  it('空字符串 → skip-push', () => {
+    const r = buildPushDecision(baseInput({ llmOutputText: '' }));
+    expect(r.decision).toBe('skip-push');
+  });
+
+  it('全空白 → skip-push', () => {
+    const r = buildPushDecision(baseInput({ llmOutputText: '   \n\n  ' }));
+    expect(r.decision).toBe('skip-push');
+  });
+
+  it('只有 INNER_STATE → skip-push (无 directive 无内容)', () => {
+    const r = buildPushDecision(baseInput({
+      llmOutputText: '[[INNER_STATE: confused]]',
+    }));
+    // INNER_STATE 被剥, 无 directive 也无 segment → skip-push
+    expect(r.decision).toBe('skip-push');
+  });
+
+  it('只有副作用 directive 无 narration → finish + directive-only push', () => {
+    const r = buildPushDecision(baseInput({
+      llmOutputText: '[[ACTION:POKE]]',
+    }));
+    // 改: classifier 把 ACTION:POKE 提成 directive, cleanedText 空 → segments 空,
+    // 但 directives.length > 0, buildPushDecision 不再 skip-push, emit 一条
+    // directive-only push (message:'', 不带 notification, metadata.directives 携带).
+    expect(r.decision).toBe('finish');
+    const ps = (r as Extract<typeof r, { decision: 'finish' }>).pushPayloads;
+    expect(ps).toHaveLength(1);
+    const push = ps[0] as { message: string; metadata: { directives: unknown[] }; notification?: unknown };
+    expect(push.message).toBe('');
+    expect(push.metadata.directives).toEqual([{ type: 'poke' }]);
+    expect(push.notification).toBeUndefined();
+  });
+
+  it('INNER_STATE + 副作用 directive → finish + directive-only push', () => {
+    const r = buildPushDecision(baseInput({
+      llmOutputText: '[[INNER_STATE: confused]][[ACTION:POKE]]',
+    }));
+    // INNER_STATE 被剥 + ACTION:POKE 提成 directive → segments=[] + directives=[poke]
+    // → finish (directive-only). 跟上面 case 等价, 多 INNER_STATE 不影响.
+    expect(r.decision).toBe('finish');
+    const ps = (r as Extract<typeof r, { decision: 'finish' }>).pushPayloads;
+    expect(ps).toHaveLength(1);
+    expect((ps[0] as { metadata: { directives: unknown[] } }).metadata.directives).toEqual([{ type: 'poke' }]);
+  });
+});

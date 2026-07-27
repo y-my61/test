@@ -1,1 +1,314 @@
-aW1wb3J0IFJlYWN0LCB7IHVzZUVmZmVjdCwgdXNlU3RhdGUgfSBmcm9tICdyZWFjdCc7CmltcG9ydCBNb2RhbCBmcm9tICcuLi9vcy9Nb2RhbCc7CmltcG9ydCB7IEFQSUNvbmZpZywgQ2hhcmFjdGVyUHJvZmlsZSwgR3JvdXBQcm9maWxlLCBSZWFsdGltZUNvbmZpZywgVXNlclByb2ZpbGUgfSBmcm9tICcuLi8uLi90eXBlcyc7CmltcG9ydCB7IEFjdGl2ZU1zZ0NsaWVudCwgZ2V0RGVmYXVsdEFjdGl2ZU1zZ0ZpcnN0U2VuZFRpbWUgfSBmcm9tICcuLi8uLi91dGlscy9hY3RpdmVNc2dDbGllbnQnOwoKaW50ZXJmYWNlIEFjdGl2ZU1zZzJTZXR0aW5nc01vZGFsUHJvcHMgewogIGlzT3BlbjogYm9vbGVhbjsKICBvbkNsb3NlOiAoKSA9PiB2b2lkOwogIGNoYXI6IENoYXJhY3RlclByb2ZpbGU7CiAgYXBpQ29uZmlnOiBBUElDb25maWc7CiAgdXNlclByb2ZpbGU6IFVzZXJQcm9maWxlOwogIGdyb3VwczogR3JvdXBQcm9maWxlW107CiAgcmVhbHRpbWVDb25maWc6IFJlYWx0aW1lQ29uZmlnOwogIG9uU2F2ZTogKGNvbmZpZzogTm9uTnVsbGFibGU8Q2hhcmFjdGVyUHJvZmlsZVsnYWN0aXZlTXNnMkNvbmZpZyddPikgPT4gdm9pZDsKICBhZGRUb2FzdDogKG1lc3NhZ2U6IHN0cmluZywgdHlwZT86ICdzdWNjZXNzJyB8ICdlcnJvcicgfCAnaW5mbycpID0+IHZvaWQ7Cn0KCmNvbnN0IE1PREVfT1BUSU9OUyA9IFsKICB7IGlkOiAnZml4ZWQnLCBsYWJlbDogJ+WbuuWumicsIGRlc2M6ICfliLDngrnnm7TmjqXlj5HkvaDlhpnlpb3nmoTlhoXlrrknIH0sCiAgeyBpZDogJ2F1dG8nLCBsYWJlbDogJ+iHquWKqCcsIGRlc2M6ICfnlKjlvZPliY3op5LoibLorr7lrprlkozogYrlpKnlv6vnhafoh6rlt7HnlJ/miJAnIH0sCiAgeyBpZDogJ3Byb21wdGVkJywgbGFiZWw6ICfmj5DnpLror40nLCBkZXNjOiAn5Zu057uV5L2g5YaZ55qE5pa55ZCR55Sf5oiQ5Li75Yqo5raI5oGvJyB9LApdIGFzIGNvbnN0OwoKY29uc3QgUkVDVVJSRU5DRV9PUFRJT05TID0gWwogIHsgaWQ6ICdub25lJywgbGFiZWw6ICfkuIDmrKEnIH0sCiAgeyBpZDogJ2RhaWx5JywgbGFiZWw6ICfmr4/lpKknIH0sCiAgeyBpZDogJ3dlZWtseScsIGxhYmVsOiAn5q+P5ZGoJyB9LApdIGFzIGNvbnN0OwoKY29uc3QgQWN0aXZlTXNnMlNldHRpbmdzTW9kYWw6IFJlYWN0LkZDPEFjdGl2ZU1zZzJTZXR0aW5nc01vZGFsUHJvcHM+ID0gKHsKICBpc09wZW4sCiAgb25DbG9zZSwKICBjaGFyLAogIGFwaUNvbmZpZywKICB1c2VyUHJvZmlsZSwKICBncm91cHMsCiAgcmVhbHRpbWVDb25maWcsCiAgb25TYXZlLAogIGFkZFRvYXN0LAp9KSA9PiB7CiAgY29uc3Qgc2F2ZWQgPSBjaGFyLmFjdGl2ZU1zZzJDb25maWc7CiAgY29uc3QgW2VuYWJsZWQsIHNldEVuYWJsZWRdID0gdXNlU3RhdGUoc2F2ZWQ/LmVuYWJsZWQgPz8gZmFsc2UpOwogIGNvbnN0IFttb2RlLCBzZXRNb2RlXSA9IHVzZVN0YXRlPE5vbk51bGxhYmxlPENoYXJhY3RlclByb2ZpbGVbJ2FjdGl2ZU1zZzJDb25maWcnXT5bJ21vZGUnXT4oc2F2ZWQ/Lm1vZGUgPz8gJ2F1dG8nKTsKICBjb25zdCBbZmlyc3RTZW5kVGltZSwgc2V0Rmlyc3RTZW5kVGltZV0gPSB1c2VTdGF0ZShzYXZlZD8uZmlyc3RTZW5kVGltZSA/PyBnZXREZWZhdWx0QWN0aXZlTXNnRmlyc3RTZW5kVGltZSgpKTsKICBjb25zdCBbcmVjdXJyZW5jZVR5cGUsIHNldFJlY3VycmVuY2VUeXBlXSA9IHVzZVN0YXRlKHNhdmVkPy5yZWN1cnJlbmNlVHlwZSA/PyAnbm9uZScpOwogIGNvbnN0IFt1c2VyTWVzc2FnZSwgc2V0VXNlck1lc3NhZ2VdID0gdXNlU3RhdGUoc2F2ZWQ/LnVzZXJNZXNzYWdlID8/ICcnKTsKICBjb25zdCBbcHJvbXB0SGludCwgc2V0UHJvbXB0SGludF0gPSB1c2VTdGF0ZShzYXZlZD8ucHJvbXB0SGludCA/PyAnJyk7CiAgY29uc3QgW21heFRva2Vucywgc2V0TWF4VG9rZW5zXSA9IHVzZVN0YXRlKFN0cmluZyhzYXZlZD8ubWF4VG9rZW5zID8/ICcnKSk7CiAgY29uc3QgW3VzZVNlY29uZGFyeUFwaSwgc2V0VXNlU2Vjb25kYXJ5QXBpXSA9IHVzZVN0YXRlKHNhdmVkPy51c2VTZWNvbmRhcnlBcGkgPz8gZmFsc2UpOwogIGNvbnN0IFtzZWNVcmwsIHNldFNlY1VybF0gPSB1c2VTdGF0ZShzYXZlZD8uc2Vjb25kYXJ5QXBpPy5iYXNlVXJsID8/ICcnKTsKICBjb25zdCBbc2VjS2V5LCBzZXRTZWNLZXldID0gdXNlU3RhdGUoc2F2ZWQ/LnNlY29uZGFyeUFwaT8uYXBpS2V5ID8/ICcnKTsKICBjb25zdCBbc2VjTW9kZWwsIHNldFNlY01vZGVsXSA9IHVzZVN0YXRlKHNhdmVkPy5zZWNvbmRhcnlBcGk/Lm1vZGVsID8/ICcnKTsKICBjb25zdCBbZ2xvYmFsUmVhZHksIHNldEdsb2JhbFJlYWR5XSA9IHVzZVN0YXRlKGZhbHNlKTsKICBjb25zdCBbcHVzaFN1bW1hcnksIHNldFB1c2hTdW1tYXJ5XSA9IHVzZVN0YXRlKCcnKTsKICBjb25zdCBbaXNTdWJtaXR0aW5nLCBzZXRJc1N1Ym1pdHRpbmddID0gdXNlU3RhdGUoZmFsc2UpOwoKICB1c2VFZmZlY3QoKCkgPT4gewogICAgaWYgKCFpc09wZW4pIHJldHVybjsKCiAgICBjb25zdCBuZXh0ID0gY2hhci5hY3RpdmVNc2cyQ29uZmlnOwogICAgc2V0RW5hYmxlZChuZXh0Py5lbmFibGVkID8/IGZhbHNlKTsKICAgIHNldE1vZGUobmV4dD8ubW9kZSA/PyAnYXV0bycpOwogICAgc2V0Rmlyc3RTZW5kVGltZShuZXh0Py5maXJzdFNlbmRUaW1lID8/IGdldERlZmF1bHRBY3RpdmVNc2dGaXJzdFNlbmRUaW1lKCkpOwogICAgc2V0UmVjdXJyZW5jZVR5cGUobmV4dD8ucmVjdXJyZW5jZVR5cGUgPz8gJ25vbmUnKTsKICAgIHNldFVzZXJNZXNzYWdlKG5leHQ/LnVzZXJNZXNzYWdlID8/ICcnKTsKICAgIHNldFByb21wdEhpbnQobmV4dD8ucHJvbXB0SGludCA/PyAnJyk7CiAgICBzZXRNYXhUb2tlbnMobmV4dD8ubWF4VG9rZW5zID8gU3RyaW5nKG5leHQubWF4VG9rZW5zKSA6ICcnKTsKICAgIHNldFVzZVNlY29uZGFyeUFwaShuZXh0Py51c2VTZWNvbmRhcnlBcGkgPz8gZmFsc2UpOwogICAgc2V0U2VjVXJsKG5leHQ/LnNlY29uZGFyeUFwaT8uYmFzZVVybCA/PyAnJyk7CiAgICBzZXRTZWNLZXkobmV4dD8uc2Vjb25kYXJ5QXBpPy5hcGlLZXkgPz8gJycpOwogICAgc2V0U2VjTW9kZWwobmV4dD8uc2Vjb25kYXJ5QXBpPy5tb2RlbCA/PyAnJyk7CgogICAgdm9pZCAoYXN5bmMgKCkgPT4gewogICAgICBjb25zdCBnbG9iYWxDb25maWcgPSBhd2FpdCBBY3RpdmVNc2dDbGllbnQuZ2V0R2xvYmFsQ29uZmlnKCk7CiAgICAgIGNvbnN0IHB1c2hTdGF0dXMgPSBhd2FpdCBBY3RpdmVNc2dDbGllbnQuZ2V0UHVzaFN0YXR1cygpOwogICAgICBzZXRHbG9iYWxSZWFkeShCb29sZWFuKGdsb2JhbENvbmZpZy50ZW5hbnRUb2tlbikpOwogICAgICBzZXRQdXNoU3VtbWFyeShwdXNoU3RhdHVzLnN1cHBvcnRlZAogICAgICAgID8gYOadg+mZkO+8miR7cHVzaFN0YXR1cy5wZXJtaXNzaW9ufSAvIOiuoumYhe+8miR7cHVzaFN0YXR1cy5oYXNTdWJzY3JpcHRpb24gPyAn5bey5bCx57uqJyA6ICfmnKrliJvlu7onfWAKICAgICAgICA6ICflvZPliY3njq/looPkuI3mlK/mjIEgV2ViIFB1c2gnKTsKICAgIH0pKCk7CiAgfSwgW2lzT3BlbiwgY2hhci5pZCwgY2hhci5hY3RpdmVNc2cyQ29uZmlnXSk7CgogIGNvbnN0IGJ1aWxkTmV4dENvbmZpZyA9ICgpOiBOb25OdWxsYWJsZTxDaGFyYWN0ZXJQcm9maWxlWydhY3RpdmVNc2cyQ29uZmlnJ10+ID0+ICh7CiAgICBlbmFibGVkLAogICAgbW9kZSwKICAgIGZpcnN0U2VuZFRpbWUsCiAgICByZWN1cnJlbmNlVHlwZSwKICAgIHVzZXJNZXNzYWdlOiB1c2VyTWVzc2FnZS50cmltKCkgfHwgdW5kZWZpbmVkLAogICAgcHJvbXB0SGludDogcHJvbXB0SGludC50cmltKCkgfHwgdW5kZWZpbmVkLAogICAgbWF4VG9rZW5zOiBtYXhUb2tlbnMudHJpbSgpID8gTnVtYmVyKG1heFRva2VucykgOiB1bmRlZmluZWQsCiAgICB0YXNrVXVpZDogc2F2ZWQ/LnRhc2tVdWlkLAogICAgcmVtb3RlU3RhdHVzOiBzYXZlZD8ucmVtb3RlU3RhdHVzIHx8ICdpZGxlJywKICAgIHVzZVNlY29uZGFyeUFwaTogdXNlU2Vjb25kYXJ5QXBpICYmICEhc2VjVXJsLAogICAgc2Vjb25kYXJ5QXBpOiB1c2VTZWNvbmRhcnlBcGkgJiYgc2VjVXJsID8gewogICAgICBiYXNlVXJsOiBzZWNVcmwudHJpbSgpLAogICAgICBhcGlLZXk6IHNlY0tleS50cmltKCksCiAgICAgIG1vZGVsOiBzZWNNb2RlbC50cmltKCksCiAgICB9IDogdW5kZWZpbmVkLAogICAgbGFzdFN5bmNlZEF0OiBzYXZlZD8ubGFzdFN5bmNlZEF0LAogICAgbGFzdEVycm9yOiBzYXZlZD8ubGFzdEVycm9yLAogIH0pOwoKICBjb25zdCBoYW5kbGVTdWJtaXQgPSBhc3luYyAoKSA9PiB7CiAgICBjb25zdCBuZXh0Q29uZmlnID0gYnVpbGROZXh0Q29uZmlnKCk7CiAgICBzZXRJc1N1Ym1pdHRpbmcodHJ1ZSk7CgogICAgdHJ5IHsKICAgICAgaWYgKCFuZXh0Q29uZmlnLmVuYWJsZWQpIHsKICAgICAgICBpZiAobmV4dENvbmZpZy50YXNrVXVpZCkgewogICAgICAgICAgYXdhaXQgQWN0aXZlTXNnQ2xpZW50LmNhbmNlbFRhc2sobmV4dENvbmZpZy50YXNrVXVpZCk7CiAgICAgICAgfQogICAgICAgIG9uU2F2ZSh7CiAgICAgICAgICAuLi5uZXh0Q29uZmlnLAogICAgICAgICAgdGFza1V1aWQ6IHVuZGVmaW5lZCwKICAgICAgICAgIHJlbW90ZVN0YXR1czogJ2lkbGUnLAogICAgICAgICAgbGFzdFN5bmNlZEF0OiBEYXRlLm5vdygpLAogICAgICAgICAgbGFzdEVycm9yOiB1bmRlZmluZWQsCiAgICAgICAgfSk7CiAgICAgICAgYWRkVG9hc3QoJ+S4u+WKqOa2iOaBryAyLjAg5bey5YWz6Zet44CCJywgJ2luZm8nKTsKICAgICAgICBvbkNsb3NlKCk7CiAgICAgICAgcmV0dXJuOwogICAgICB9CgogICAgICBpZiAoIWdsb2JhbFJlYWR5KSB7CiAgICAgICAgdGhyb3cgbmV3IEVycm9yKCfor7flhYjljrvns7vnu5/orr7nva7ph4zlrozmiJDigJzkuLvliqjmtojmga8gMi4w4oCd55qE5YWo5bGA6YWN572u44CCJyk7CiAgICAgIH0KCiAgICAgIGNvbnN0IHJlc3VsdCA9IGF3YWl0IEFjdGl2ZU1zZ0NsaWVudC5zY2hlZHVsZUNoYXJhY3RlclRhc2soewogICAgICAgIGNoYXIsCiAgICAgICAgY29uZmlnOiBuZXh0Q29uZmlnLAogICAgICAgIHVzZXJQcm9maWxlLAogICAgICAgIGdyb3VwcywKICAgICAgICByZWFsdGltZUNvbmZpZywKICAgICAgICBhcGlDb25maWcsCiAgICAgIH0pOwoKICAgICAgb25TYXZlKHsKICAgICAgICAuLi5uZXh0Q29uZmlnLAogICAgICAgIHRhc2tVdWlkOiByZXN1bHQudXVpZCwKICAgICAgICByZW1vdGVTdGF0dXM6IHJlc3VsdC5zdGF0dXMgPT09ICdzZW50JyA/ICdzZW50JyA6ICdzY2hlZHVsZWQnLAogICAgICAgIGxhc3RTeW5jZWRBdDogRGF0ZS5ub3coKSwKICAgICAgICBsYXN0RXJyb3I6IHVuZGVmaW5lZCwKICAgICAgfSk7CiAgICAgIGFkZFRvYXN0KCfkuLvliqjmtojmga8gMi4wIOS7u+WKoeW3suWIm+W7uuOAgicsICdzdWNjZXNzJyk7CiAgICAgIG9uQ2xvc2UoKTsKICAgIH0gY2F0Y2ggKGVycm9yOiBhbnkpIHsKICAgICAgY29uc3QgbWVzc2FnZSA9IGVycm9yPy5tZXNzYWdlIHx8ICfkuLvliqjmtojmga8gMi4wIOS/neWtmOWksei0peOAgic7CiAgICAgIG9uU2F2ZSh7CiAgICAgICAgLi4ubmV4dENvbmZpZywKICAgICAgICByZW1vdGVTdGF0dXM6ICdlcnJvcicsCiAgICAgICAgbGFzdEVycm9yOiBtZXNzYWdlLAogICAgICB9KTsKICAgICAgYWRkVG9hc3QobWVzc2FnZSwgJ2Vycm9yJyk7CiAgICB9IGZpbmFsbHkgewogICAgICBzZXRJc1N1Ym1pdHRpbmcoZmFsc2UpOwogICAgfQogIH07CgogIHJldHVybiAoCiAgICA8TW9kYWwKICAgICAgaXNPcGVuPXtpc09wZW59CiAgICAgIHRpdGxlPSLkuLvliqjmtojmga8gMi4wIgogICAgICBvbkNsb3NlPXtvbkNsb3NlfQogICAgICBmb290ZXI9eygKICAgICAgICA8PgogICAgICAgICAgPGJ1dHRvbiBvbkNsaWNrPXtvbkNsb3NlfSBjbGFzc05hbWU9ImZsZXgtMSBweS0zIGJnLXNsYXRlLTEwMCB0ZXh0LXNsYXRlLTUwMCBmb250LWJvbGQgcm91bmRlZC0yeGwgYWN0aXZlOnNjYWxlLTk1IHRyYW5zaXRpb24tdHJhbnNmb3JtIj4KICAgICAgICAgICAg5Y+W5raICiAgICAgICAgICA8L2J1dHRvbj4KICAgICAgICAgIDxidXR0b24gb25DbGljaz17aGFuZGxlU3VibWl0fSBkaXNhYmxlZD17aXNTdWJtaXR0aW5nfSBjbGFzc05hbWU9ImZsZXgtMSBweS0zIGJnLWZ1Y2hzaWEtNTAwIHRleHQtd2hpdGUgZm9udC1ib2xkIHJvdW5kZWQtMnhsIGFjdGl2ZTpzY2FsZS05NSB0cmFuc2l0aW9uLXRyYW5zZm9ybSBkaXNhYmxlZDpvcGFjaXR5LTUwIj4KICAgICAgICAgICAge2lzU3VibWl0dGluZyA/ICfkv53lrZjkuK0uLi4nIDogZW5hYmxlZCA/ICfkv53lrZjlubblkIzmraUnIDogJ+WFs+mXrSAyLjAnfQogICAgICAgICAgPC9idXR0b24+CiAgICAgICAgPC8+CiAgICAgICl9CiAgICA+CiAgICAgIDxkaXYgY2xhc3NOYW1lPSJzcGFjZS15LTQgdGV4dC1zbSB0ZXh0LXNsYXRlLTYwMCI+CiAgICAgICAgPHAgY2xhc3NOYW1lPSJ0ZXh0LXhzIGxlYWRpbmctcmVsYXhlZCB0ZXh0LXNsYXRlLTUwMCI+CiAgICAgICAgICDov5nmmK/mlrDnmoTkupHnq6/kuLvliqjmtojmga/lhaXlj6PjgILlroPkvJrmiorlvZPliY3op5LoibLorr7lrprjgIHmnIDov5HogYrlpKnlv6vnhaflkozmjqjpgIHorqLpmIXkuIDotbfmj5DkuqTliLDkuLvliqjmtojmga/moIflh4bmnI3liqHph4zjgILplb/lkajmnJ/lvqrnjq/ku7vliqHlu7rorq7lnKjliafmg4Xlj5jljJblkI7ph43mlrDkv53lrZjkuIDmrKHvvIzpgb/lhY3kvb/nlKjov4fml6fnmoTkuIrkuIvmlofjgIIKICAgICAgICA8L3A+CgogICAgICAgIDxkaXYgY2xhc3NOYW1lPSJmbGV4IGl0ZW1zLWNlbnRlciBqdXN0aWZ5LWJldHdlZW4gYmctZnVjaHNpYS01MCBib3JkZXIgYm9yZGVyLWZ1Y2hzaWEtMTAwIHJvdW5kZWQtMnhsIHAtNCI+CiAgICAgICAgICA8ZGl2PgogICAgICAgICAgICA8ZGl2IGNsYXNzTmFtZT0iZm9udC1ib2xkIHRleHQtc2xhdGUtNzAwIj7lkK/nlKjkuLvliqjmtojmga8gMi4wPC9kaXY+CiAgICAgICAgICAgIDxkaXYgY2xhc3NOYW1lPSJ0ZXh0LXhzIHRleHQtZnVjaHNpYS02MDAgbXQtMSI+e3B1c2hTdW1tYXJ5IHx8ICfmraPlnKjmo4Dmn6UgUHVzaCDnirbmgIEuLi4nfTwvZGl2PgogICAgICAgICAgPC9kaXY+CiAgICAgICAgICA8YnV0dG9uCiAgICAgICAgICAgIG9uQ2xpY2s9eygpID0+IHNldEVuYWJsZWQoIWVuYWJsZWQpfQogICAgICAgICAgICBjbGFzc05hbWU9e2B3LTEyIGgtNyByb3VuZGVkLWZ1bGwgdHJhbnNpdGlvbi1jb2xvcnMgcmVsYXRpdmUgJHtlbmFibGVkID8gJ2JnLWZ1Y2hzaWEtNTAwJyA6ICdiZy1zbGF0ZS0yMDAnfWB9CiAgICAgICAgICA+CiAgICAgICAgICAgIDxzcGFuIGNsYXNzTmFtZT17YGFic29sdXRlIHRvcC0wLjUgbGVmdC0wLjUgdy02IGgtNiBiZy13aGl0ZSByb3VuZGVkLWZ1bGwgc2hhZG93IHRyYW5zaXRpb24tYWxsIGR1cmF0aW9uLTIwMCAke2VuYWJsZWQgPyAndHJhbnNsYXRlLXgtNScgOiAndHJhbnNsYXRlLXgtMCd9YH0gLz4KICAgICAgICAgIDwvYnV0dG9uPgogICAgICAgIDwvZGl2PgoKICAgICAgICB7c2F2ZWQ/LnRhc2tVdWlkID8gKAogICAgICAgICAgPGRpdiBjbGFzc05hbWU9ImJnLXNsYXRlLTUwIGJvcmRlciBib3JkZXItc2xhdGUtMjAwIHJvdW5kZWQtMnhsIHAtNCB0ZXh0LXhzIHNwYWNlLXktMSI+CiAgICAgICAgICAgIDxkaXY+5b2T5YmN5Lu75YqhIFVVSUTvvJo8c3BhbiBjbGFzc05hbWU9ImZvbnQtbW9ubyBicmVhay1hbGwiPntzYXZlZC50YXNrVXVpZH08L3NwYW4+PC9kaXY+CiAgICAgICAgICAgIDxkaXY+54q25oCB77yaPHNwYW4gY2xhc3NOYW1lPSJmb250LWJvbGQiPntzYXZlZC5yZW1vdGVTdGF0dXMgfHwgJ3Vua25vd24nfTwvc3Bhbj48L2Rpdj4KICAgICAgICAgICAge3NhdmVkLmxhc3RFcnJvciA/IDxkaXYgY2xhc3NOYW1lPSJ0ZXh0LXJlZC01MDAiPuacgOi/kemUmeivr++8mntzYXZlZC5sYXN0RXJyb3J9PC9kaXY+IDogbnVsbH0KICAgICAgICAgIDwvZGl2PgogICAgICAgICkgOiBudWxsfQoKICAgICAgICB7ZW5hYmxlZCA/ICgKICAgICAgICAgIDw+CiAgICAgICAgICAgIDxkaXY+CiAgICAgICAgICAgICAgPGxhYmVsIGNsYXNzTmFtZT0idGV4dC1bMTBweF0gZm9udC1ib2xkIHRleHQtc2xhdGUtNDAwIHVwcGVyY2FzZSB0cmFja2luZy13aWRlc3QgbWItMiBibG9jayBwbC0xIj7mqKHlvI88L2xhYmVsPgogICAgICAgICAgICAgIDxkaXYgY2xhc3NOYW1lPSJzcGFjZS15LTIiPgogICAgICAgICAgICAgICAge01PREVfT1BUSU9OUy5tYXAoKG9wdGlvbikgPT4gKAogICAgICAgICAgICAgICAgICA8YnV0dG9uCiAgICAgICAgICAgICAgICAgICAga2V5PXtvcHRpb24uaWR9CiAgICAgICAgICAgICAgICAgICAgb25DbGljaz17KCkgPT4gc2V0TW9kZShvcHRpb24uaWQpfQogICAgICAgICAgICAgICAgICAgIGNsYXNzTmFtZT17YHctZnVsbCB0ZXh0LWxlZnQgcm91bmRlZC0yeGwgYm9yZGVyIHB4LTQgcHktMyB0cmFuc2l0aW9uLWFsbCAke21vZGUgPT09IG9wdGlvbi5pZCA/ICdiZy1mdWNoc2lhLTUwMCB0ZXh0LXdoaXRlIGJvcmRlci1mdWNoc2lhLTUwMCcgOiAnYmctd2hpdGUgYm9yZGVyLXNsYXRlLTIwMCB0ZXh0LXNsYXRlLTYwMCd9YH0KICAgICAgICAgICAgICAgICAgPgogICAgICAgICAgICAgICAgICAgIDxkaXYgY2xhc3NOYW1lPSJmb250LWJvbGQiPntvcHRpb24ubGFiZWx9PC9kaXY+CiAgICAgICAgICAgICAgICAgICAgPGRpdiBjbGFzc05hbWU9e2B0ZXh0LXhzIG10LTEgJHttb2RlID09PSBvcHRpb24uaWQgPyAndGV4dC1mdWNoc2lhLTUwJyA6ICd0ZXh0LXNsYXRlLTQwMCd9YH0+e29wdGlvbi5kZXNjfTwvZGl2PgogICAgICAgICAgICAgICAgICA8L2J1dHRvbj4KICAgICAgICAgICAgICAgICkpfQogICAgICAgICAgICAgIDwvZGl2PgogICAgICAgICAgICA8L2Rpdj4KCiAgICAgICAgICAgIDxkaXY+CiAgICAgICAgICAgICAgPGxhYmVsIGNsYXNzTmFtZT0idGV4dC1bMTBweF0gZm9udC1ib2xkIHRleHQtc2xhdGUtNDAwIHVwcGVyY2FzZSB0cmFja2luZy13aWRlc3QgbWItMS41IGJsb2NrIHBsLTEiPummluasoeWPkemAgeaXtumXtDwvbGFiZWw+CiAgICAgICAgICAgICAgPGlucHV0CiAgICAgICAgICAgICAgICB0eXBlPSJkYXRldGltZS1sb2NhbCIKICAgICAgICAgICAgICAgIHZhbHVlPXtmaXJzdFNlbmRUaW1lfQogICAgICAgICAgICAgICAgb25DaGFuZ2U9eyhldmVudCkgPT4gc2V0Rmlyc3RTZW5kVGltZShldmVudC50YXJnZXQudmFsdWUpfQogICAgICAgICAgICAgICAgY2xhc3NOYW1lPSJ3LWZ1bGwgYmctd2hpdGUgYm9yZGVyIGJvcmRlci1zbGF0ZS0yMDAgcm91bmRlZC0yeGwgcHgtNCBweS0zIHRleHQtc20iCiAgICAgICAgICAgICAgLz4KICAgICAgICAgICAgPC9kaXY+CgogICAgICAgICAgICA8ZGl2PgogICAgICAgICAgICAgIDxsYWJlbCBjbGFzc05hbWU9InRleHQtWzEwcHhdIGZvbnQtYm9sZCB0ZXh0LXNsYXRlLTQwMCB1cHBlcmNhc2UgdHJhY2tpbmctd2lkZXN0IG1iLTIgYmxvY2sgcGwtMSI+6YeN5aSN5pa55byPPC9sYWJlbD4KICAgICAgICAgICAgICA8ZGl2IGNsYXNzTmFtZT0iZ3JpZCBncmlkLWNvbHMtMyBnYXAtMiI+CiAgICAgICAgICAgICAgICB7UkVDVVJSRU5DRV9PUFRJT05TLm1hcCgob3B0aW9uKSA9PiAoCiAgICAgICAgICAgICAgICAgIDxidXR0b24KICAgICAgICAgICAgICAgICAgICBrZXk9e29wdGlvbi5pZH0KICAgICAgICAgICAgICAgICAgICBvbkNsaWNrPXsoKSA9PiBzZXRSZWN1cnJlbmNlVHlwZShvcHRpb24uaWQpfQogICAgICAgICAgICAgICAgICAgIGNsYXNzTmFtZT17YHB5LTIuNSByb3VuZGVkLXhsIHRleHQteHMgZm9udC1ib2xkIGJvcmRlciB0cmFuc2l0aW9uLWFsbCAke3JlY3VycmVuY2VUeXBlID09PSBvcHRpb24uaWQgPyAnYmctZnVjaHNpYS01MDAgdGV4dC13aGl0ZSBib3JkZXItZnVjaHNpYS01MDAnIDogJ2JnLXdoaXRlIGJvcmRlci1zbGF0ZS0yMDAgdGV4dC1zbGF0ZS02MDAnfWB9CiAgICAgICAgICAgICAgICAgID4KICAgICAgICAgICAgICAgICAgICB7b3B0aW9uLmxhYmVsfQogICAgICAgICAgICAgICAgICA8L2J1dHRvbj4KICAgICAgICAgICAgICAgICkpfQogICAgICAgICAgICAgIDwvZGl2PgogICAgICAgICAgICAgIDxkaXYgY2xhc3NOYW1lPSJ0ZXh0LVsxMXB4XSB0ZXh0LXNsYXRlLTQwMCBtdC0yIHBsLTEiPgogICAgICAgICAgICAgICAgMi4wIOagh+WHhueJiOebruWJjeWPquaUr+aMge+8muS4gOasoSAvIOavj+WkqSAvIOavj+WRqOOAgjMwIOWIhumSn+OAgTEg5bCP5pe244CBMiDlsI/ml7bov5nnsbvpl7TpmpTmmoLml7bkuI3mlK/mjIHjgIIKICAgICAgICAgICAgICA8L2Rpdj4KICAgICAgICAgICAgPC9kaXY+CgogICAgICAgICAgICB7bW9kZSA9PT0gJ2ZpeGVkJyA/ICgKICAgICAgICAgICAgICA8ZGl2PgogICAgICAgICAgICAgICAgPGxhYmVsIGNsYXNzTmFtZT0idGV4dC1bMTBweF0gZm9udC1ib2xkIHRleHQtc2xhdGUtNDAwIHVwcGVyY2FzZSB0cmFja2luZy13aWRlc3QgbWItMS41IGJsb2NrIHBsLTEiPuWbuuWumua2iOaBr+WGheWuuTwvbGFiZWw+CiAgICAgICAgICAgICAgICA8dGV4dGFyZWEKICAgICAgICAgICAgICAgICAgdmFsdWU9e3VzZXJNZXNzYWdlfQogICAgICAgICAgICAgICAgICBvbkNoYW5nZT17KGV2ZW50KSA9PiBzZXRVc2VyTWVzc2FnZShldmVudC50YXJnZXQudmFsdWUpfQogICAgICAgICAgICAgICAgICBwbGFjZWhvbGRlcj0i5Yiw54K55ZCO55u05o6l5o6o6YCB6L+Z5q615raI5oGvIgogICAgICAgICAgICAgICAgICBjbGFzc05hbWU9InctZnVsbCBoLTI4IGJnLXdoaXRlIGJvcmRlciBib3JkZXItc2xhdGUtMjAwIHJvdW5kZWQtMnhsIHB4LTQgcHktMyB0ZXh0LXNtIHJlc2l6ZS1ub25lIgogICAgICAgICAgICAgICAgLz4KICAgICAgICAgICAgICA8L2Rpdj4KICAgICAgICAgICAgKSA6ICgKICAgICAgICAgICAgICA8PgogICAgICAgICAgICAgICAgPGRpdj4KICAgICAgICAgICAgICAgICAgPGxhYmVsIGNsYXNzTmFtZT0idGV4dC1bMTBweF0gZm9udC1ib2xkIHRleHQtc2xhdGUtNDAwIHVwcGVyY2FzZSB0cmFja2luZy13aWRlc3QgbWItMS41IGJsb2NrIHBsLTEiPgogICAgICAgICAgICAgICAgICAgIHttb2RlID09PSAncHJvbXB0ZWQnID8gJ+mineWkluaPkOekuuivjScgOiAn6KGl5YWF54G15oSfICjlj6/pgIkpJ30KICAgICAgICAgICAgICAgICAgPC9sYWJlbD4KICAgICAgICAgICAgICAgICAgPHRleHRhcmVhCiAgICAgICAgICAgICAgICAgICAgdmFsdWU9e3Byb21wdEhpbnR9CiAgICAgICAgICAgICAgICAgICAgb25DaGFuZ2U9eyhldmVudCkgPT4gc2V0UHJvbXB0SGludChldmVudC50YXJnZXQudmFsdWUpfQogICAgICAgICAgICAgICAgICAgIHBsYWNlaG9sZGVyPXttb2RlID09PSAncHJvbXB0ZWQnID8gJ+S+i+Wmgu+8muaZmuWuieWJjeaSkuWoh+S4gOS4i++8jOS9huWIq+WkquayuScgOiAn5L6L5aaC77ya5LuK5aSp5LiL6Zuo44CB5oOz5om+5oiR6IGK5LiA54K56L275p2+55qEJ30KICAgICAgICAgICAgICAgICAgICBjbGFzc05hbWU9InctZnVsbCBoLTI0IGJnLXdoaXRlIGJvcmRlciBib3JkZXItc2xhdGUtMjAwIHJvdW5kZWQtMnhsIHB4LTQgcHktMyB0ZXh0LXNtIHJlc2l6ZS1ub25lIgogICAgICAgICAgICAgICAgICAvPgogICAgICAgICAgICAgICAgPC9kaXY+CgogICAgICAgICAgICAgICAgPGRpdj4KICAgICAgICAgICAgICAgICAgPGxhYmVsIGNsYXNzTmFtZT0idGV4dC1bMTBweF0gZm9udC1ib2xkIHRleHQtc2xhdGUtNDAwIHVwcGVyY2FzZSB0cmFja2luZy13aWRlc3QgbWItMS41IGJsb2NrIHBsLTEiPm1heFRva2VucyAo5Y+v6YCJKTwvbGFiZWw+CiAgICAgICAgICAgICAgICAgIDxpbnB1dAogICAgICAgICAgICAgICAgICAgIHR5cGU9Im51bWJlciIKICAgICAgICAgICAgICAgICAgICBtaW49ezF9CiAgICAgICAgICAgICAgICAgICAgdmFsdWU9e21heFRva2Vuc30KICAgICAgICAgICAgICAgICAgICBvbkNoYW5nZT17KGV2ZW50KSA9PiBzZXRNYXhUb2tlbnMoZXZlbnQudGFyZ2V0LnZhbHVlKX0KICAgICAgICAgICAgICAgICAgICBwbGFjZWhvbGRlcj0i5L6L5aaCIDEyMCIKICAgICAgICAgICAgICAgICAgICBjbGFzc05hbWU9InctZnVsbCBiZy13aGl0ZSBib3JkZXIgYm9yZGVyLXNsYXRlLTIwMCByb3VuZGVkLTJ4bCBweC00IHB5LTMgdGV4dC1zbSIKICAgICAgICAgICAgICAgICAgLz4KICAgICAgICAgICAgICAgIDwvZGl2PgogICAgICAgICAgICAgIDwvPgogICAgICAgICAgICApfQoKICAgICAgICAgICAgPGRpdiBjbGFzc05hbWU9InB0LTEgYm9yZGVyLXQgYm9yZGVyLXNsYXRlLTEwMCI+CiAgICAgICAgICAgICAgPGRpdiBjbGFzc05hbWU9ImZsZXggaXRlbXMtY2VudGVyIGp1c3RpZnktYmV0d2VlbiBtYi0yIj4KICAgICAgICAgICAgICAgIDxkaXY+CiAgICAgICAgICAgICAgICAgIDxkaXYgY2xhc3NOYW1lPSJmb250LWJvbGQgdGV4dC1zbGF0ZS03MDAiPuS9v+eUqOWNleeLrCBBUEk8L2Rpdj4KICAgICAgICAgICAgICAgICAgPGRpdiBjbGFzc05hbWU9InRleHQteHMgdGV4dC1zbGF0ZS00MDAgbXQtMSI+5LiN5byA5ZCv5YiZ5aSN55So5b2T5YmN6IGK5aSp5Li7IEFQSeOAgjwvZGl2PgogICAgICAgICAgICAgICAgPC9kaXY+CiAgICAgICAgICAgICAgICA8YnV0dG9uCiAgICAgICAgICAgICAgICAgIG9uQ2xpY2s9eygpID0+IHNldFVzZVNlY29uZGFyeUFwaSghdXNlU2Vjb25kYXJ5QXBpKX0KICAgICAgICAgICAgICAgICAgY2xhc3NOYW1lPXtgdy0xMiBoLTcgcm91bmRlZC1mdWxsIHRyYW5zaXRpb24tY29sb3JzIHJlbGF0aXZlICR7dXNlU2Vjb25kYXJ5QXBpID8gJ2JnLWZ1Y2hzaWEtNTAwJyA6ICdiZy1zbGF0ZS0yMDAnfWB9CiAgICAgICAgICAgICAgICA+CiAgICAgICAgICAgICAgICAgIDxzcGFuIGNsYXNzTmFtZT17YGFic29sdXRlIHRvcC0wLjUgbGVmdC0wLjUgdy02IGgtNiBiZy13aGl0ZSByb3VuZGVkLWZ1bGwgc2hhZG93IHRyYW5zaXRpb24tYWxsIGR1cmF0aW9uLTIwMCAke3VzZVNlY29uZGFyeUFwaSA/ICd0cmFuc2xhdGUteC01JyA6ICd0cmFuc2xhdGUteC0wJ31gfSAvPgogICAgICAgICAgICAgICAgPC9idXR0b24+CiAgICAgICAgICAgICAgPC9kaXY+CgogICAgICAgICAgICAgIHt1c2VTZWNvbmRhcnlBcGkgPyAoCiAgICAgICAgICAgICAgICA8ZGl2IGNsYXNzTmFtZT0ic3BhY2UteS0zIGJnLXNsYXRlLTUwIHJvdW5kZWQtMnhsIHAtMyI+CiAgICAgICAgICAgICAgICAgIDxpbnB1dCB2YWx1ZT17c2VjVXJsfSBvbkNoYW5nZT17KGV2ZW50KSA9PiBzZXRTZWNVcmwoZXZlbnQudGFyZ2V0LnZhbHVlKX0gcGxhY2Vob2xkZXI9IkFQSSBVUkwiIGNsYXNzTmFtZT0idy1mdWxsIHB4LTMgcHktMiBiZy13aGl0ZSByb3VuZGVkLXhsIHRleHQtc20gYm9yZGVyIGJvcmRlci1zbGF0ZS0yMDAiIC8+CiAgICAgICAgICAgICAgICAgIDxpbnB1dCB0eXBlPSJwYXNzd29yZCIgdmFsdWU9e3NlY0tleX0gb25DaGFuZ2U9eyhldmVudCkgPT4gc2V0U2VjS2V5KGV2ZW50LnRhcmdldC52YWx1ZSl9IHBsYWNlaG9sZGVyPSJBUEkgS2V5IiBjbGFzc05hbWU9InctZnVsbCBweC0zIHB5LTIgYmctd2hpdGUgcm91bmRlZC14bCB0ZXh0LXNtIGJvcmRlciBib3JkZXItc2xhdGUtMjAwIiAvPgogICAgICAgICAgICAgICAgICA8aW5wdXQgdmFsdWU9e3NlY01vZGVsfSBvbkNoYW5nZT17KGV2ZW50KSA9PiBzZXRTZWNNb2RlbChldmVudC50YXJnZXQudmFsdWUpfSBwbGFjZWhvbGRlcj0iTW9kZWwiIGNsYXNzTmFtZT0idy1mdWxsIHB4LTMgcHktMiBiZy13aGl0ZSByb3VuZGVkLXhsIHRleHQtc20gYm9yZGVyIGJvcmRlci1zbGF0ZS0yMDAiIC8+CiAgICAgICAgICAgICAgICA8L2Rpdj4KICAgICAgICAgICAgICApIDogbnVsbH0KICAgICAgICAgICAgPC9kaXY+CiAgICAgICAgICA8Lz4KICAgICAgICApIDogbnVsbH0KICAgICAgPC9kaXY+CiAgICA8L01vZGFsPgogICk7Cn07CgpleHBvcnQgZGVmYXVsdCBSZWFjdC5tZW1vKEFjdGl2ZU1zZzJTZXR0aW5nc01vZGFsKTsK
+import React, { useEffect, useState } from 'react';
+import Modal from '../os/Modal';
+import { APIConfig, CharacterProfile, GroupProfile, RealtimeConfig, UserProfile } from '../../types';
+import { ActiveMsgClient, getDefaultActiveMsgFirstSendTime } from '../../utils/activeMsgClient';
+
+interface ActiveMsg2SettingsModalProps {
+  isOpen: boolean;
+  onClose: () => void;
+  char: CharacterProfile;
+  apiConfig: APIConfig;
+  userProfile: UserProfile;
+  groups: GroupProfile[];
+  realtimeConfig: RealtimeConfig;
+  onSave: (config: NonNullable<CharacterProfile['activeMsg2Config']>) => void;
+  addToast: (message: string, type?: 'success' | 'error' | 'info') => void;
+}
+
+const MODE_OPTIONS = [
+  { id: 'fixed', label: '固定', desc: '到点直接发你写好的内容' },
+  { id: 'auto', label: '自动', desc: '用当前角色设定和聊天快照自己生成' },
+  { id: 'prompted', label: '提示词', desc: '围绕你写的方向生成主动消息' },
+] as const;
+
+const RECURRENCE_OPTIONS = [
+  { id: 'none', label: '一次' },
+  { id: 'daily', label: '每天' },
+  { id: 'weekly', label: '每周' },
+] as const;
+
+const ActiveMsg2SettingsModal: React.FC<ActiveMsg2SettingsModalProps> = ({
+  isOpen,
+  onClose,
+  char,
+  apiConfig,
+  userProfile,
+  groups,
+  realtimeConfig,
+  onSave,
+  addToast,
+}) => {
+  const saved = char.activeMsg2Config;
+  const [enabled, setEnabled] = useState(saved?.enabled ?? false);
+  const [mode, setMode] = useState<NonNullable<CharacterProfile['activeMsg2Config']>['mode']>(saved?.mode ?? 'auto');
+  const [firstSendTime, setFirstSendTime] = useState(saved?.firstSendTime ?? getDefaultActiveMsgFirstSendTime());
+  const [recurrenceType, setRecurrenceType] = useState(saved?.recurrenceType ?? 'none');
+  const [userMessage, setUserMessage] = useState(saved?.userMessage ?? '');
+  const [promptHint, setPromptHint] = useState(saved?.promptHint ?? '');
+  const [maxTokens, setMaxTokens] = useState(String(saved?.maxTokens ?? ''));
+  const [useSecondaryApi, setUseSecondaryApi] = useState(saved?.useSecondaryApi ?? false);
+  const [secUrl, setSecUrl] = useState(saved?.secondaryApi?.baseUrl ?? '');
+  const [secKey, setSecKey] = useState(saved?.secondaryApi?.apiKey ?? '');
+  const [secModel, setSecModel] = useState(saved?.secondaryApi?.model ?? '');
+  const [globalReady, setGlobalReady] = useState(false);
+  const [pushSummary, setPushSummary] = useState('');
+  const [isSubmitting, setIsSubmitting] = useState(false);
+
+  useEffect(() => {
+    if (!isOpen) return;
+
+    const next = char.activeMsg2Config;
+    setEnabled(next?.enabled ?? false);
+    setMode(next?.mode ?? 'auto');
+    setFirstSendTime(next?.firstSendTime ?? getDefaultActiveMsgFirstSendTime());
+    setRecurrenceType(next?.recurrenceType ?? 'none');
+    setUserMessage(next?.userMessage ?? '');
+    setPromptHint(next?.promptHint ?? '');
+    setMaxTokens(next?.maxTokens ? String(next.maxTokens) : '');
+    setUseSecondaryApi(next?.useSecondaryApi ?? false);
+    setSecUrl(next?.secondaryApi?.baseUrl ?? '');
+    setSecKey(next?.secondaryApi?.apiKey ?? '');
+    setSecModel(next?.secondaryApi?.model ?? '');
+
+    void (async () => {
+      const globalConfig = await ActiveMsgClient.getGlobalConfig();
+      const pushStatus = await ActiveMsgClient.getPushStatus();
+      setGlobalReady(Boolean(globalConfig.tenantToken));
+      setPushSummary(pushStatus.supported
+        ? `权限：${pushStatus.permission} / 订阅：${pushStatus.hasSubscription ? '已就绪' : '未创建'}`
+        : '当前环境不支持 Web Push');
+    })();
+  }, [isOpen, char.id, char.activeMsg2Config]);
+
+  const buildNextConfig = (): NonNullable<CharacterProfile['activeMsg2Config']> => ({
+    enabled,
+    mode,
+    firstSendTime,
+    recurrenceType,
+    userMessage: userMessage.trim() || undefined,
+    promptHint: promptHint.trim() || undefined,
+    maxTokens: maxTokens.trim() ? Number(maxTokens) : undefined,
+    taskUuid: saved?.taskUuid,
+    remoteStatus: saved?.remoteStatus || 'idle',
+    useSecondaryApi: useSecondaryApi && !!secUrl,
+    secondaryApi: useSecondaryApi && secUrl ? {
+      baseUrl: secUrl.trim(),
+      apiKey: secKey.trim(),
+      model: secModel.trim(),
+    } : undefined,
+    lastSyncedAt: saved?.lastSyncedAt,
+    lastError: saved?.lastError,
+  });
+
+  const handleSubmit = async () => {
+    const nextConfig = buildNextConfig();
+    setIsSubmitting(true);
+
+    try {
+      if (!nextConfig.enabled) {
+        if (nextConfig.taskUuid) {
+          await ActiveMsgClient.cancelTask(nextConfig.taskUuid);
+        }
+        onSave({
+          ...nextConfig,
+          taskUuid: undefined,
+          remoteStatus: 'idle',
+          lastSyncedAt: Date.now(),
+          lastError: undefined,
+        });
+        addToast('主动消息 2.0 已关闭。', 'info');
+        onClose();
+        return;
+      }
+
+      if (!globalReady) {
+        throw new Error('请先去系统设置里完成“主动消息 2.0”的全局配置。');
+      }
+
+      const result = await ActiveMsgClient.scheduleCharacterTask({
+        char,
+        config: nextConfig,
+        userProfile,
+        groups,
+        realtimeConfig,
+        apiConfig,
+      });
+
+      onSave({
+        ...nextConfig,
+        taskUuid: result.uuid,
+        remoteStatus: result.status === 'sent' ? 'sent' : 'scheduled',
+        lastSyncedAt: Date.now(),
+        lastError: undefined,
+      });
+      addToast('主动消息 2.0 任务已创建。', 'success');
+      onClose();
+    } catch (error: any) {
+      const message = error?.message || '主动消息 2.0 保存失败。';
+      onSave({
+        ...nextConfig,
+        remoteStatus: 'error',
+        lastError: message,
+      });
+      addToast(message, 'error');
+    } finally {
+      setIsSubmitting(false);
+    }
+  };
+
+  return (
+    <Modal
+      isOpen={isOpen}
+      title="主动消息 2.0"
+      onClose={onClose}
+      footer={(
+        <>
+          <button onClick={onClose} className="flex-1 py-3 bg-slate-100 text-slate-500 font-bold rounded-2xl active:scale-95 transition-transform">
+            取消
+          </button>
+          <button onClick={handleSubmit} disabled={isSubmitting} className="flex-1 py-3 bg-fuchsia-500 text-white font-bold rounded-2xl active:scale-95 transition-transform disabled:opacity-50">
+            {isSubmitting ? '保存中...' : enabled ? '保存并同步' : '关闭 2.0'}
+          </button>
+        </>
+      )}
+    >
+      <div className="space-y-4 text-sm text-slate-600">
+        <p className="text-xs leading-relaxed text-slate-500">
+          这是新的云端主动消息入口。它会把当前角色设定、最近聊天快照和推送订阅一起提交到主动消息标准服务里。长周期循环任务建议在剧情变化后重新保存一次，避免使用过旧的上下文。
+        </p>
+
+        <div className="flex items-center justify-between bg-fuchsia-50 border border-fuchsia-100 rounded-2xl p-4">
+          <div>
+            <div className="font-bold text-slate-700">启用主动消息 2.0</div>
+            <div className="text-xs text-fuchsia-600 mt-1">{pushSummary || '正在检查 Push 状态...'}</div>
+          </div>
+          <button
+            onClick={() => setEnabled(!enabled)}
+            className={`w-12 h-7 rounded-full transition-colors relative ${enabled ? 'bg-fuchsia-500' : 'bg-slate-200'}`}
+          >
+            <span className={`absolute top-0.5 left-0.5 w-6 h-6 bg-white rounded-full shadow transition-all duration-200 ${enabled ? 'translate-x-5' : 'translate-x-0'}`} />
+          </button>
+        </div>
+
+        {saved?.taskUuid ? (
+          <div className="bg-slate-50 border border-slate-200 rounded-2xl p-4 text-xs space-y-1">
+            <div>当前任务 UUID：<span className="font-mono break-all">{saved.taskUuid}</span></div>
+            <div>状态：<span className="font-bold">{saved.remoteStatus || 'unknown'}</span></div>
+            {saved.lastError ? <div className="text-red-500">最近错误：{saved.lastError}</div> : null}
+          </div>
+        ) : null}
+
+        {enabled ? (
+          <>
+            <div>
+              <label className="text-[10px] font-bold text-slate-400 uppercase tracking-widest mb-2 block pl-1">模式</label>
+              <div className="space-y-2">
+                {MODE_OPTIONS.map((option) => (
+                  <button
+                    key={option.id}
+                    onClick={() => setMode(option.id)}
+                    className={`w-full text-left rounded-2xl border px-4 py-3 transition-all ${mode === option.id ? 'bg-fuchsia-500 text-white border-fuchsia-500' : 'bg-white border-slate-200 text-slate-600'}`}
+                  >
+                    <div className="font-bold">{option.label}</div>
+                    <div className={`text-xs mt-1 ${mode === option.id ? 'text-fuchsia-50' : 'text-slate-400'}`}>{option.desc}</div>
+                  </button>
+                ))}
+              </div>
+            </div>
+
+            <div>
+              <label className="text-[10px] font-bold text-slate-400 uppercase tracking-widest mb-1.5 block pl-1">首次发送时间</label>
+              <input
+                type="datetime-local"
+                value={firstSendTime}
+                onChange={(event) => setFirstSendTime(event.target.value)}
+                className="w-full bg-white border border-slate-200 rounded-2xl px-4 py-3 text-sm"
+              />
+            </div>
+
+            <div>
+              <label className="text-[10px] font-bold text-slate-400 uppercase tracking-widest mb-2 block pl-1">重复方式</label>
+              <div className="grid grid-cols-3 gap-2">
+                {RECURRENCE_OPTIONS.map((option) => (
+                  <button
+                    key={option.id}
+                    onClick={() => setRecurrenceType(option.id)}
+                    className={`py-2.5 rounded-xl text-xs font-bold border transition-all ${recurrenceType === option.id ? 'bg-fuchsia-500 text-white border-fuchsia-500' : 'bg-white border-slate-200 text-slate-600'}`}
+                  >
+                    {option.label}
+                  </button>
+                ))}
+              </div>
+              <div className="text-[11px] text-slate-400 mt-2 pl-1">
+                2.0 标准版目前只支持：一次 / 每天 / 每周。30 分钟、1 小时、2 小时这类间隔暂时不支持。
+              </div>
+            </div>
+
+            {mode === 'fixed' ? (
+              <div>
+                <label className="text-[10px] font-bold text-slate-400 uppercase tracking-widest mb-1.5 block pl-1">固定消息内容</label>
+                <textarea
+                  value={userMessage}
+                  onChange={(event) => setUserMessage(event.target.value)}
+                  placeholder="到点后直接推送这段消息"
+                  className="w-full h-28 bg-white border border-slate-200 rounded-2xl px-4 py-3 text-sm resize-none"
+                />
+              </div>
+            ) : (
+              <>
+                <div>
+                  <label className="text-[10px] font-bold text-slate-400 uppercase tracking-widest mb-1.5 block pl-1">
+                    {mode === 'prompted' ? '额外提示词' : '补充灵感 (可选)'}
+                  </label>
+                  <textarea
+                    value={promptHint}
+                    onChange={(event) => setPromptHint(event.target.value)}
+                    placeholder={mode === 'prompted' ? '例如：晚安前撒娇一下，但别太油' : '例如：今天下雨、想找我聊一点轻松的'}
+                    className="w-full h-24 bg-white border border-slate-200 rounded-2xl px-4 py-3 text-sm resize-none"
+                  />
+                </div>
+
+                <div>
+                  <label className="text-[10px] font-bold text-slate-400 uppercase tracking-widest mb-1.5 block pl-1">maxTokens (可选)</label>
+                  <input
+                    type="number"
+                    min={1}
+                    value={maxTokens}
+                    onChange={(event) => setMaxTokens(event.target.value)}
+                    placeholder="例如 120"
+                    className="w-full bg-white border border-slate-200 rounded-2xl px-4 py-3 text-sm"
+                  />
+                </div>
+              </>
+            )}
+
+            <div className="pt-1 border-t border-slate-100">
+              <div className="flex items-center justify-between mb-2">
+                <div>
+                  <div className="font-bold text-slate-700">使用单独 API</div>
+                  <div className="text-xs text-slate-400 mt-1">不开启则复用当前聊天主 API。</div>
+                </div>
+                <button
+                  onClick={() => setUseSecondaryApi(!useSecondaryApi)}
+                  className={`w-12 h-7 rounded-full transition-colors relative ${useSecondaryApi ? 'bg-fuchsia-500' : 'bg-slate-200'}`}
+                >
+                  <span className={`absolute top-0.5 left-0.5 w-6 h-6 bg-white rounded-full shadow transition-all duration-200 ${useSecondaryApi ? 'translate-x-5' : 'translate-x-0'}`} />
+                </button>
+              </div>
+
+              {useSecondaryApi ? (
+                <div className="space-y-3 bg-slate-50 rounded-2xl p-3">
+                  <input value={secUrl} onChange={(event) => setSecUrl(event.target.value)} placeholder="API URL" className="w-full px-3 py-2 bg-white rounded-xl text-sm border border-slate-200" />
+                  <input type="password" value={secKey} onChange={(event) => setSecKey(event.target.value)} placeholder="API Key" className="w-full px-3 py-2 bg-white rounded-xl text-sm border border-slate-200" />
+                  <input value={secModel} onChange={(event) => setSecModel(event.target.value)} placeholder="Model" className="w-full px-3 py-2 bg-white rounded-xl text-sm border border-slate-200" />
+                </div>
+              ) : null}
+            </div>
+          </>
+        ) : null}
+      </div>
+    </Modal>
+  );
+};
+
+export default React.memo(ActiveMsg2SettingsModal);

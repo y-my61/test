@@ -1,1 +1,126 @@
-aW1wb3J0IFJlYWN0LCB7IHVzZUVmZmVjdCwgdXNlTWVtbywgdXNlUmVmLCB1c2VTdGF0ZSB9IGZyb20gJ3JlYWN0JzsKCi8vIOinkuiJsuWIh+aNouOAjOeZu+WcuuOAjei/h+WcuiDigJTigJQg5LiN5piv5o2i6aG1L+aNoiB0YWLvvIzogIzmmK/jgIznprvlvIDkuIDkuKrkurrvvIzotbDov5vlj6bkuIDkuKrkurrnmoTnqbrpl7TjgI3jgIIKLy8g6K6+6K6h77ya5Lul44CM5Y2z5bCG6KeB5Yiw55qE6L+Z5Liq5Lq644CN55qE5aS05YOP6Jma5YyW6ZO65bqV77yIdGEg55qE6Imy5b2p5LiW55WM77yJ77yM5Lit5b+D5aS05YOP5bim5p+U5YWJ5rWu546wICsg5ZCN5a2X5Y2H6LW3IOKGkiDmjqjov5vnqb/ov4fov5vlhaXogYrlpKnjgIIKLy8KLy8g5oCn6IO96KaB54K577yI5L+u44CM5pWw5o2u5aSa5pe25Y2h6aG/ICsg5aS05YOP5rKh55yL5riF5bCx6L+b6IGK5aSp44CN77yJ77yaCi8vICAgwrcg5YWo56iL5Y+q5YqoIHRyYW5zZm9ybSAvIG9wYWNpdHkg4oCU4oCUIOi/meS4pOexu+i1sOWQiOaIkOWZqOe6v+eoi++8jOS4u+e6v+eoi+WGjeW/me+8iOi/m+iBiuWkqeimgeaMgui9veWkp+mHj+W4puWbvua2iOaBr++8ieS5n+S4jeaOieW4p++8mwovLyAgICAg57ud5LiN5Yqo55S75YyWIGZpbHRlcjpibHVy77yI5q+P5bin6YeN5qCF5qC85YyW77yM5piv5LmL5YmN5Y2h6aG/55qE55yf5Ye277yJ44CC6Jma5YyW5bqV5Zu+55qEIGJsdXIg5piv6Z2Z5oCB55qE77yM5Y+q5qCF5qC85YyW5LiA5qyh44CCCi8vICAgwrcg5pe26Ze06L2077ya5aS05YOP5YWI5b+r6YCf44CM5a+554Sm5riF5pmw44CN77yI57yp5pS+K+a3oeWFpe+8jOmdnuaooeeziu+8ie+8jOa4heaZsOWQjuaYjuehruWBnOeVmeS4gOaLjeiuqeS6uueci+a4heiEuOS4juWQjeWtl++8jOWGjemAgOWcuuOAggovLyDlj6/ovbvop6bot7Pov4fvvJvlsIrph40gcHJlZmVycy1yZWR1Y2VkLW1vdGlvbu+8m+WGheiBlCBAa2V5ZnJhbWVz77yIQ0ROIFRhaWx3aW5kIOS4jeWPr+mdoOeUn+aIkOiHquWumuS5iSBhbmltYXRlLSrvvInjgIIKCmludGVyZmFjZSBQcm9wcyB7CiAgbmFtZTogc3RyaW5nOwogIGF2YXRhcj86IHN0cmluZzsKICAvKiog6L+H5Zy65pKt5a6M77yI5oiW6KKr6Lez6L+H77yJ5ZCO5Zue6LCD77yM55Sx54i257uE5Lu25Y246L295pys5bGC44CCICovCiAgb25Eb25lOiAoKSA9PiB2b2lkOwp9Cgpjb25zdCBwcmVmZXJzUmVkdWNlZE1vdGlvbiA9ICgpID0+CiAgdHlwZW9mIHdpbmRvdyAhPT0gJ3VuZGVmaW5lZCcgJiYKICAhIXdpbmRvdy5tYXRjaE1lZGlhICYmCiAgd2luZG93Lm1hdGNoTWVkaWEoJyhwcmVmZXJzLXJlZHVjZWQtbW90aW9uOiByZWR1Y2UpJykubWF0Y2hlczsKCmNvbnN0IENoYXJhY3RlckVudHJ5VHJhbnNpdGlvbjogUmVhY3QuRkM8UHJvcHM+ID0gKHsgbmFtZSwgYXZhdGFyLCBvbkRvbmUgfSkgPT4gewogIGNvbnN0IHJlZHVjZWQgPSB1c2VNZW1vKHByZWZlcnNSZWR1Y2VkTW90aW9uLCBbXSk7CiAgLy8g5aS05YOP57qmIDY1MG1zIOWvueeEpua4heaZsOOAgeWQjeWtl+e6piA3ODBtcyDliLDkvY0g4oaSIOWBnOeVmeWIsCBSRVZFQUxfQVQg6K6p5Lq655yL5riF77yM5YaN6YCA5Zy644CCCiAgY29uc3QgUkVWRUFMX0FUID0gcmVkdWNlZCA/IDIyMCA6IDEwMDA7IC8vIOW8gOWni+mAgOWcuueahOaXtuWIu++8iOa4heaZsOWQjueahOWBnOeVmee7iOeCue+8iQogIGNvbnN0IEVYSVQgPSByZWR1Y2VkID8gMjAwIDogNDQwOyAgICAgICAvLyDpgIDlnLrvvIjmjqjov5vnqb/ov4cgKyDmt6Hlh7rvvInml7bplb8KICBjb25zdCBUT1RBTCA9IFJFVkVBTF9BVCArIEVYSVQ7CgogIGNvbnN0IFtleGl0aW5nLCBzZXRFeGl0aW5nXSA9IHVzZVN0YXRlKGZhbHNlKTsKICBjb25zdCBkb25lUmVmID0gdXNlUmVmKGZhbHNlKTsKICBjb25zdCBmaW5pc2ggPSAoKSA9PiB7IGlmICghZG9uZVJlZi5jdXJyZW50KSB7IGRvbmVSZWYuY3VycmVudCA9IHRydWU7IG9uRG9uZSgpOyB9IH07CgogIHVzZUVmZmVjdCgoKSA9PiB7CiAgICBjb25zdCB0RXhpdCA9IHNldFRpbWVvdXQoKCkgPT4gc2V0RXhpdGluZyh0cnVlKSwgUkVWRUFMX0FUKTsKICAgIGNvbnN0IHREb25lID0gc2V0VGltZW91dChmaW5pc2gsIFRPVEFMKTsKICAgIHJldHVybiAoKSA9PiB7IGNsZWFyVGltZW91dCh0RXhpdCk7IGNsZWFyVGltZW91dCh0RG9uZSk7IH07CiAgICAvLyBlc2xpbnQtZGlzYWJsZS1uZXh0LWxpbmUgcmVhY3QtaG9va3MvZXhoYXVzdGl2ZS1kZXBzCiAgfSwgW10pOwoKICAvLyDovbvop6bot7Pov4fvvJrnq4vliLvov5vlhaXpgIDlnLrvvIjku43mmK/lubPmu5Hmjqjov5vvvIzkuI3mmK/noazliIfvvIkKICBjb25zdCBza2lwID0gKCkgPT4geyBpZiAoIWV4aXRpbmcpIHsgc2V0RXhpdGluZyh0cnVlKTsgd2luZG93LnNldFRpbWVvdXQoZmluaXNoLCBFWElUKTsgfSB9OwoKICBjb25zdCBhdmF0YXJCZyA9IGF2YXRhciA/IGB1cmwoJHthdmF0YXJ9KWAgOiAnJzsKCiAgcmV0dXJuICgKICAgIDxkaXYKICAgICAgb25DbGljaz17c2tpcH0KICAgICAgYXJpYS1oaWRkZW4KICAgICAgY2xhc3NOYW1lPSJhYnNvbHV0ZSBpbnNldC0wIHotWzE0MF0gb3ZlcmZsb3ctaGlkZGVuIGZsZXggaXRlbXMtY2VudGVyIGp1c3RpZnktY2VudGVyIGN1cnNvci1wb2ludGVyIgogICAgICBzdHlsZT17eyBvcGFjaXR5OiBleGl0aW5nID8gMCA6IDEsIHRyYW5zaXRpb246IGBvcGFjaXR5ICR7RVhJVH1tcyBlYXNlLWluYCwgd2lsbENoYW5nZTogJ29wYWNpdHknIH19CiAgICA+CiAgICAgIDxzdHlsZT57YAogICAgICAgIEBrZXlmcmFtZXMgY2hhclZlaWxJbiB7IGZyb20geyBvcGFjaXR5OiAwIH0gdG8geyBvcGFjaXR5OiAxIH0gfQogICAgICAgIEBrZXlmcmFtZXMgY2hhckF2YXRhckluIHsgMCUgeyBvcGFjaXR5OjA7IHRyYW5zZm9ybTogdHJhbnNsYXRlWSgxMnB4KSBzY2FsZSguODQpIH0gMTAwJSB7IG9wYWNpdHk6MTsgdHJhbnNmb3JtOiB0cmFuc2xhdGVZKDApIHNjYWxlKDEpIH0gfQogICAgICAgIEBrZXlmcmFtZXMgY2hhckdsb3dJbiB7IDAlIHsgb3BhY2l0eTowOyB0cmFuc2Zvcm06IHRyYW5zbGF0ZSgtNTAlLC01MCUpIHNjYWxlKC42KSB9IDQ1JSB7IG9wYWNpdHk6Ljg1IH0gMTAwJSB7IG9wYWNpdHk6LjY7IHRyYW5zZm9ybTogdHJhbnNsYXRlKC01MCUsLTUwJSkgc2NhbGUoMSkgfSB9CiAgICAgICAgQGtleWZyYW1lcyBjaGFyTmFtZUluIHsgZnJvbSB7IG9wYWNpdHk6MDsgdHJhbnNmb3JtOiB0cmFuc2xhdGVZKDEycHgpIH0gdG8geyBvcGFjaXR5OjE7IHRyYW5zZm9ybTogdHJhbnNsYXRlWSgwKSB9IH0KICAgICAgICBAa2V5ZnJhbWVzIGNoYXJMaW5lSW4geyBmcm9tIHsgb3BhY2l0eTowOyB0cmFuc2Zvcm06IHNjYWxlWCgwKSB9IHRvIHsgb3BhY2l0eTouNzsgdHJhbnNmb3JtOiBzY2FsZVgoMSkgfSB9CiAgICAgIGB9PC9zdHlsZT4KCiAgICAgIHsvKiDmsJvlm7TlupXvvJromZrljJblpLTlg48gPSB0YSDnmoToibLlvankuJbnlYzvvIjpnZnmgIEgYmx1cu+8jOWPquagheagvOWMluS4gOasoe+8ieOAggogICAgICAgICAg5YWz6ZSu77ya5LiN5YGa5reh5YWlIOKAlOKAlCBzaG93RW50cnkg5LiA5Li655yf5bCx44CM56uL5Yi744CN6ZO65ruh55uW5L2P6IGK5aSp77yM5ZCm5YiZ6YCP5piO5pyf5Lya6YCP5Ye65bqV5LiL6IGK5aSp55WM6Z2i77yMCiAgICAgICAgICDlj5jmiJDjgIzogYrlpKnlhYjpl6rkuIDkuIvvvIzov4flnLrmiY3mt6Hov5vmnaXjgI3nmoTmnKzmnKvlgJLnva7jgILml6DlpLTlg4/ml7blm57pgIDkuLvpopjoibLlhYnlnLrjgIIgKi99CiAgICAgIHthdmF0YXJCZyA/ICgKICAgICAgICA8ZGl2IGNsYXNzTmFtZT0iYWJzb2x1dGUgaW5zZXQtMCBiZy1jb3ZlciBiZy1jZW50ZXIiIHN0eWxlPXt7CiAgICAgICAgICBiYWNrZ3JvdW5kOiBhdmF0YXJCZywgYmFja2dyb3VuZFNpemU6ICdjb3ZlcicsIGJhY2tncm91bmRQb3NpdGlvbjogJ2NlbnRlcicsCiAgICAgICAgICBmaWx0ZXI6ICdibHVyKDI2cHgpJywgdHJhbnNmb3JtOiAnc2NhbGUoMS4xNiknLAogICAgICAgIH19IC8+CiAgICAgICkgOiAoCiAgICAgICAgPGRpdiBjbGFzc05hbWU9ImFic29sdXRlIGluc2V0LTAiIHN0eWxlPXt7CiAgICAgICAgICBiYWNrZ3JvdW5kOiAncmFkaWFsLWdyYWRpZW50KDEyMCUgMTAwJSBhdCA1MCUgNDAlLCBoc2xhKHZhcigtLXByaW1hcnktaHVlKSw1NSUsNDAlLDAuOSksICMwYzBiMWUgNzAlKScsCiAgICAgICAgfX0gLz4KICAgICAgKX0KICAgICAgey8qIOWOi+aalyArIOaal+inku+8muiuqeS4reW/g+WktOWDj+S4juWQjeWtl+a4heaZsOa1ruWHuu+8iOmdmeaAge+8iSAqL30KICAgICAgPGRpdiBjbGFzc05hbWU9ImFic29sdXRlIGluc2V0LTAiIHN0eWxlPXt7IGJhY2tncm91bmQ6ICdyYWRpYWwtZ3JhZGllbnQoMTE1JSA5NSUgYXQgNTAlIDQyJSwgcmdiYSg4LDgsMTgsMC4zNSkgMzAlLCByZ2JhKDYsNiwxNiwwLjc4KSAxMDAlKScgfX0gLz4KCiAgICAgIHsvKiDkuK3lv4PlhoXlrrnvvJrpgIDlnLrml7blj6rlr7nov5nlsYLvvIjml6AgZmlsdGVy77yM57yp5pS+5buJ5Lu377yJ5YGa5o6o6L+b56m/6L+H77yb6Jma5YyW5bqV5Zu+6ZqP5qC55bGC5reh5Ye65Y2z5Y+v44CCICovfQogICAgICA8ZGl2CiAgICAgICAgY2xhc3NOYW1lPSJyZWxhdGl2ZSBmbGV4IGZsZXgtY29sIGl0ZW1zLWNlbnRlciBweC04IgogICAgICAgIHN0eWxlPXt7CiAgICAgICAgICB0cmFuc2Zvcm06IGV4aXRpbmcgPyAnc2NhbGUoMS4xNCknIDogJ3NjYWxlKDEpJywKICAgICAgICAgIHRyYW5zaXRpb246IGB0cmFuc2Zvcm0gJHtFWElUfW1zIGN1YmljLWJlemllcigwLjQsMCwwLjIsMSlgLAogICAgICAgICAgd2lsbENoYW5nZTogJ3RyYW5zZm9ybScsCiAgICAgICAgfX0KICAgICAgPgogICAgICAgIDxkaXYgY2xhc3NOYW1lPSJyZWxhdGl2ZSIgc3R5bGU9e3sgd2lkdGg6IDEzMiwgaGVpZ2h0OiAxMzIgfX0+CiAgICAgICAgICB7Lyog5p+U5YWJ5pmV77yI5Zyo5aS05YOP5ZCO57u95pS+77yJICovfQogICAgICAgICAgPGRpdiBjbGFzc05hbWU9ImFic29sdXRlIiBzdHlsZT17ewogICAgICAgICAgICBsZWZ0OiAnNTAlJywgdG9wOiAnNTAlJywgd2lkdGg6IDIzMCwgaGVpZ2h0OiAyMzAsIHRyYW5zZm9ybTogJ3RyYW5zbGF0ZSgtNTAlLC01MCUpJywKICAgICAgICAgICAgYm9yZGVyUmFkaXVzOiAnOTk5OXB4JywgZmlsdGVyOiAnYmx1cig4cHgpJywKICAgICAgICAgICAgYmFja2dyb3VuZDogJ3JhZGlhbC1ncmFkaWVudChjaXJjbGUsIHJnYmEoMjU1LDI1NSwyNTUsMC41KSAwJSwgaHNsYSh2YXIoLS1wcmltYXJ5LWh1ZSksODAlLDgwJSwwLjMyKSA0MCUsIHRyYW5zcGFyZW50IDY2JSknLAogICAgICAgICAgICBhbmltYXRpb246IHJlZHVjZWQgPyAnY2hhclZlaWxJbiAyNDBtcyBlYXNlLW91dCBib3RoJyA6ICdjaGFyR2xvd0luIDY4MG1zIGN1YmljLWJlemllcigwLjIyLDEsMC4zNiwxKSA0MG1zIGJvdGgnLAogICAgICAgICAgfX0gLz4KICAgICAgICAgIHsvKiDlpLTlg4/vvJrnvKnmlL4gKyDmt6HlhaXjgIzlr7nnhKbjgI3vvIzkuI3nlKggZmlsdGVyOmJsdXLvvIjpgb/lhY3mr4/luKfph43moIXmoLzljJbljaHpob/vvIkgKi99CiAgICAgICAgICA8ZGl2CiAgICAgICAgICAgIGNsYXNzTmFtZT0iYWJzb2x1dGUgaW5zZXQtMCByb3VuZGVkLWZ1bGwgYmctY292ZXIgYmctY2VudGVyIgogICAgICAgICAgICBzdHlsZT17ewogICAgICAgICAgICAgIGJhY2tncm91bmRJbWFnZTogYXZhdGFyQmcgfHwgdW5kZWZpbmVkLAogICAgICAgICAgICAgIGJhY2tncm91bmRDb2xvcjogYXZhdGFyQmcgPyB1bmRlZmluZWQgOiAnaHNsYSh2YXIoLS1wcmltYXJ5LWh1ZSksNTAlLDU1JSwwLjYpJywKICAgICAgICAgICAgICBib3hTaGFkb3c6ICcwIDhweCA0MHB4IHJnYmEoMCwwLDAsMC40NSksIDAgMCAwIDEuNXB4IHJnYmEoMjU1LDI1NSwyNTUsMC41KSwgMCAwIDI4cHggaHNsYSh2YXIoLS1wcmltYXJ5LWh1ZSksODAlLDgwJSwwLjQ1KScsCiAgICAgICAgICAgICAgYW5pbWF0aW9uOiByZWR1Y2VkID8gJ2NoYXJWZWlsSW4gMjgwbXMgZWFzZS1vdXQgYm90aCcgOiAnY2hhckF2YXRhckluIDU2MG1zIGN1YmljLWJlemllcigwLjIyLDEsMC4zNiwxKSA5MG1zIGJvdGgnLAogICAgICAgICAgICAgIHdpbGxDaGFuZ2U6ICd0cmFuc2Zvcm0sIG9wYWNpdHknLAogICAgICAgICAgICB9fQogICAgICAgICAgLz4KICAgICAgICA8L2Rpdj4KICAgICAgICA8ZGl2CiAgICAgICAgICBjbGFzc05hbWU9Im10LTUgdGV4dC13aGl0ZSB0ZXh0LTJ4bCBmb250LW1lZGl1bSB0cmFja2luZy13aWRlIgogICAgICAgICAgc3R5bGU9e3sKICAgICAgICAgICAgdGV4dFNoYWRvdzogJzAgMnB4IDE4cHggcmdiYSgwLDAsMCwwLjUpLCAwIDAgMjRweCBoc2xhKHZhcigtLXByaW1hcnktaHVlKSw4MCUsODAlLDAuMyknLAogICAgICAgICAgICBhbmltYXRpb246IHJlZHVjZWQgPyAnY2hhck5hbWVJbiAzMDBtcyBlYXNlLW91dCBib3RoJyA6ICdjaGFyTmFtZUluIDQ4MG1zIGN1YmljLWJlemllcigwLjIyLDEsMC4zNiwxKSAzMjBtcyBib3RoJywKICAgICAgICAgIH19CiAgICAgICAgPgogICAgICAgICAge25hbWV9CiAgICAgICAgPC9kaXY+CiAgICAgICAgPGRpdiBjbGFzc05hbWU9Im10LTMgaC1weCB3LTIwIiBzdHlsZT17ewogICAgICAgICAgYmFja2dyb3VuZDogJ2xpbmVhci1ncmFkaWVudCg5MGRlZywgdHJhbnNwYXJlbnQsIHJnYmEoMjU1LDI1NSwyNTUsMC44KSwgdHJhbnNwYXJlbnQpJywKICAgICAgICAgIHRyYW5zZm9ybU9yaWdpbjogJ2NlbnRlcicsCiAgICAgICAgICBhbmltYXRpb246IHJlZHVjZWQgPyAnY2hhclZlaWxJbiAzMDBtcyBlYXNlLW91dCBib3RoJyA6ICdjaGFyTGluZUluIDU0MG1zIGVhc2Utb3V0IDQyMG1zIGJvdGgnLAogICAgICAgIH19IC8+CiAgICAgIDwvZGl2PgogICAgPC9kaXY+CiAgKTsKfTsKCmV4cG9ydCBkZWZhdWx0IENoYXJhY3RlckVudHJ5VHJhbnNpdGlvbjsK
+import React, { useEffect, useMemo, useRef, useState } from 'react';
+
+// 角色切换「登场」过场 —— 不是换页/换 tab，而是「离开一个人，走进另一个人的空间」。
+// 设计：以「即将见到的这个人」的头像虚化铺底（ta 的色彩世界），中心头像带柔光浮现 + 名字升起 → 推进穿过进入聊天。
+//
+// 性能要点（修「数据多时卡顿 + 头像没看清就进聊天」）：
+//   · 全程只动 transform / opacity —— 这两类走合成器线程，主线程再忙（进聊天要挂载大量带图消息）也不掉帧；
+//     绝不动画化 filter:blur（每帧重栅格化，是之前卡顿的真凶）。虚化底图的 blur 是静态的，只栅格化一次。
+//   · 时间轴：头像先快速「对焦清晰」（缩放+淡入，非模糊），清晰后明确停留一拍让人看清脸与名字，再退场。
+// 可轻触跳过；尊重 prefers-reduced-motion；内联 @keyframes（CDN Tailwind 不可靠生成自定义 animate-*）。
+
+interface Props {
+  name: string;
+  avatar?: string;
+  /** 过场播完（或被跳过）后回调，由父组件卸载本层。 */
+  onDone: () => void;
+}
+
+const prefersReducedMotion = () =>
+  typeof window !== 'undefined' &&
+  !!window.matchMedia &&
+  window.matchMedia('(prefers-reduced-motion: reduce)').matches;
+
+const CharacterEntryTransition: React.FC<Props> = ({ name, avatar, onDone }) => {
+  const reduced = useMemo(prefersReducedMotion, []);
+  // 头像约 650ms 对焦清晰、名字约 780ms 到位 → 停留到 REVEAL_AT 让人看清，再退场。
+  const REVEAL_AT = reduced ? 220 : 1000; // 开始退场的时刻（清晰后的停留终点）
+  const EXIT = reduced ? 200 : 440;       // 退场（推进穿过 + 淡出）时长
+  const TOTAL = REVEAL_AT + EXIT;
+
+  const [exiting, setExiting] = useState(false);
+  const doneRef = useRef(false);
+  const finish = () => { if (!doneRef.current) { doneRef.current = true; onDone(); } };
+
+  useEffect(() => {
+    const tExit = setTimeout(() => setExiting(true), REVEAL_AT);
+    const tDone = setTimeout(finish, TOTAL);
+    return () => { clearTimeout(tExit); clearTimeout(tDone); };
+    // eslint-disable-next-line react-hooks/exhaustive-deps
+  }, []);
+
+  // 轻触跳过：立刻进入退场（仍是平滑推进，不是硬切）
+  const skip = () => { if (!exiting) { setExiting(true); window.setTimeout(finish, EXIT); } };
+
+  const avatarBg = avatar ? `url(${avatar})` : '';
+
+  return (
+    <div
+      onClick={skip}
+      aria-hidden
+      className="absolute inset-0 z-[140] overflow-hidden flex items-center justify-center cursor-pointer"
+      style={{ opacity: exiting ? 0 : 1, transition: `opacity ${EXIT}ms ease-in`, willChange: 'opacity' }}
+    >
+      <style>{`
+        @keyframes charVeilIn { from { opacity: 0 } to { opacity: 1 } }
+        @keyframes charAvatarIn { 0% { opacity:0; transform: translateY(12px) scale(.84) } 100% { opacity:1; transform: translateY(0) scale(1) } }
+        @keyframes charGlowIn { 0% { opacity:0; transform: translate(-50%,-50%) scale(.6) } 45% { opacity:.85 } 100% { opacity:.6; transform: translate(-50%,-50%) scale(1) } }
+        @keyframes charNameIn { from { opacity:0; transform: translateY(12px) } to { opacity:1; transform: translateY(0) } }
+        @keyframes charLineIn { from { opacity:0; transform: scaleX(0) } to { opacity:.7; transform: scaleX(1) } }
+      `}</style>
+
+      {/* 氛围底：虚化头像 = ta 的色彩世界（静态 blur，只栅格化一次）。
+          关键：不做淡入 —— showEntry 一为真就「立刻」铺满盖住聊天，否则透明期会透出底下聊天界面，
+          变成「聊天先闪一下，过场才淡进来」的本末倒置。无头像时回退主题色光场。 */}
+      {avatarBg ? (
+        <div className="absolute inset-0 bg-cover bg-center" style={{
+          background: avatarBg, backgroundSize: 'cover', backgroundPosition: 'center',
+          filter: 'blur(26px)', transform: 'scale(1.16)',
+        }} />
+      ) : (
+        <div className="absolute inset-0" style={{
+          background: 'radial-gradient(120% 100% at 50% 40%, hsla(var(--primary-hue),55%,40%,0.9), #0c0b1e 70%)',
+        }} />
+      )}
+      {/* 压暗 + 暗角：让中心头像与名字清晰浮出（静态） */}
+      <div className="absolute inset-0" style={{ background: 'radial-gradient(115% 95% at 50% 42%, rgba(8,8,18,0.35) 30%, rgba(6,6,16,0.78) 100%)' }} />
+
+      {/* 中心内容：退场时只对这层（无 filter，缩放廉价）做推进穿过；虚化底图随根层淡出即可。 */}
+      <div
+        className="relative flex flex-col items-center px-8"
+        style={{
+          transform: exiting ? 'scale(1.14)' : 'scale(1)',
+          transition: `transform ${EXIT}ms cubic-bezier(0.4,0,0.2,1)`,
+          willChange: 'transform',
+        }}
+      >
+        <div className="relative" style={{ width: 132, height: 132 }}>
+          {/* 柔光晕（在头像后绽放） */}
+          <div className="absolute" style={{
+            left: '50%', top: '50%', width: 230, height: 230, transform: 'translate(-50%,-50%)',
+            borderRadius: '9999px', filter: 'blur(8px)',
+            background: 'radial-gradient(circle, rgba(255,255,255,0.5) 0%, hsla(var(--primary-hue),80%,80%,0.32) 40%, transparent 66%)',
+            animation: reduced ? 'charVeilIn 240ms ease-out both' : 'charGlowIn 680ms cubic-bezier(0.22,1,0.36,1) 40ms both',
+          }} />
+          {/* 头像：缩放 + 淡入「对焦」，不用 filter:blur（避免每帧重栅格化卡顿） */}
+          <div
+            className="absolute inset-0 rounded-full bg-cover bg-center"
+            style={{
+              backgroundImage: avatarBg || undefined,
+              backgroundColor: avatarBg ? undefined : 'hsla(var(--primary-hue),50%,55%,0.6)',
+              boxShadow: '0 8px 40px rgba(0,0,0,0.45), 0 0 0 1.5px rgba(255,255,255,0.5), 0 0 28px hsla(var(--primary-hue),80%,80%,0.45)',
+              animation: reduced ? 'charVeilIn 280ms ease-out both' : 'charAvatarIn 560ms cubic-bezier(0.22,1,0.36,1) 90ms both',
+              willChange: 'transform, opacity',
+            }}
+          />
+        </div>
+        <div
+          className="mt-5 text-white text-2xl font-medium tracking-wide"
+          style={{
+            textShadow: '0 2px 18px rgba(0,0,0,0.5), 0 0 24px hsla(var(--primary-hue),80%,80%,0.3)',
+            animation: reduced ? 'charNameIn 300ms ease-out both' : 'charNameIn 480ms cubic-bezier(0.22,1,0.36,1) 320ms both',
+          }}
+        >
+          {name}
+        </div>
+        <div className="mt-3 h-px w-20" style={{
+          background: 'linear-gradient(90deg, transparent, rgba(255,255,255,0.8), transparent)',
+          transformOrigin: 'center',
+          animation: reduced ? 'charVeilIn 300ms ease-out both' : 'charLineIn 540ms ease-out 420ms both',
+        }} />
+      </div>
+    </div>
+  );
+};
+
+export default CharacterEntryTransition;

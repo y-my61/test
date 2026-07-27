@@ -1,1 +1,147 @@
-CmltcG9ydCB7IENoYXRUaGVtZSB9IGZyb20gJy4uLy4uL3R5cGVzJzsKCi8vIEJ1aWx0LWluIHByZXNldHMgbWFwIHRvIHRoZSBuZXcgZGF0YSBzdHJ1Y3R1cmUgZm9yIGNvbnNpc3RlbmN5CmV4cG9ydCBjb25zdCBQUkVTRVRfVEhFTUVTOiBSZWNvcmQ8c3RyaW5nLCBDaGF0VGhlbWU+ID0gewogICAgZGVmYXVsdDogewogICAgICAgIGlkOiAnZGVmYXVsdCcsIG5hbWU6ICdJbmRpZ28nLCB0eXBlOiAncHJlc2V0JywKICAgICAgICB1c2VyOiB7IHRleHRDb2xvcjogJyNmZmZmZmYnLCBiYWNrZ3JvdW5kQ29sb3I6ICcjNjM2NmYxJywgYm9yZGVyUmFkaXVzOiAyMCwgb3BhY2l0eTogMSwgYmFja2dyb3VuZEltYWdlT3BhY2l0eTogMC41IH0sIAogICAgICAgIGFpOiB7IHRleHRDb2xvcjogJyMxZTI5M2InLCBiYWNrZ3JvdW5kQ29sb3I6ICcjZmZmZmZmJywgYm9yZGVyUmFkaXVzOiAyMCwgb3BhY2l0eTogMSwgYmFja2dyb3VuZEltYWdlT3BhY2l0eTogMC41IH0KICAgIH0sCiAgICBkcmVhbTogewogICAgICAgIGlkOiAnZHJlYW0nLCBuYW1lOiAnRHJlYW0nLCB0eXBlOiAncHJlc2V0JywKICAgICAgICB1c2VyOiB7IHRleHRDb2xvcjogJyNmZmZmZmYnLCBiYWNrZ3JvdW5kQ29sb3I6ICcjZjQ3MmI2JywgYm9yZGVyUmFkaXVzOiAyMCwgb3BhY2l0eTogMSwgYmFja2dyb3VuZEltYWdlT3BhY2l0eTogMC41IH0sCiAgICAgICAgYWk6IHsgdGV4dENvbG9yOiAnIzFlMjkzYicsIGJhY2tncm91bmRDb2xvcjogJyNmZmZmZmYnLCBib3JkZXJSYWRpdXM6IDIwLCBvcGFjaXR5OiAxLCBiYWNrZ3JvdW5kSW1hZ2VPcGFjaXR5OiAwLjUgfQogICAgfSwKICAgIGZvcmVzdDogewogICAgICAgIGlkOiAnZm9yZXN0JywgbmFtZTogJ0ZvcmVzdCcsIHR5cGU6ICdwcmVzZXQnLAogICAgICAgIHVzZXI6IHsgdGV4dENvbG9yOiAnI2ZmZmZmZicsIGJhY2tncm91bmRDb2xvcjogJyMxMGI5ODEnLCBib3JkZXJSYWRpdXM6IDIwLCBvcGFjaXR5OiAxLCBiYWNrZ3JvdW5kSW1hZ2VPcGFjaXR5OiAwLjUgfSwKICAgICAgICBhaTogeyB0ZXh0Q29sb3I6ICcjMWUyOTNiJywgYmFja2dyb3VuZENvbG9yOiAnI2ZmZmZmZicsIGJvcmRlclJhZGl1czogMjAsIG9wYWNpdHk6IDEsIGJhY2tncm91bmRJbWFnZU9wYWNpdHk6IDAuNSB9CiAgICB9LAp9OwoKLy8gQ2hhcmFjdGVyIEFwcDogTW9udGhseSBSZWZpbmVtZW50IFByb21wdHMgKGRhaWx5IG1lbW9yaWVzIOKGkiBtb250aGx5IGNvcmUgbWVtb3J5KQovLyBUaGVzZSBhcmUgc2VwYXJhdGUgZnJvbSBjaGF0IGFyY2hpdmUgcHJvbXB0cyBiZWNhdXNlOgovLyAxLiBJbnB1dCBpcyBhbHJlYWR5LXN1bW1hcml6ZWQgZGFpbHkgbWVtb3JpZXMsIG5vdCByYXcgY2hhdCBsb2dzCi8vIDIuIEdvYWwgaXMgdG9rZW4tZWZmaWNpZW50IG1vbnRobHkgb3ZlcnZpZXcsIG5vdCBkZXRhaWxlZCBldmVudCBsb2cKLy8gMy4gV3JpdHRlbiBhcyBjaGFyYWN0ZXIncyBvd24gbW9udGhseSByZWZsZWN0aW9uCmV4cG9ydCBjb25zdCBERUZBVUxUX1JFRklORV9QUk9NUFRTID0gWwogICAgewogICAgICAgIGlkOiAncmVmaW5lX2F0bW9zcGhlcmUnLAogICAgICAgIG5hbWU6ICfmsJvlm7TmnIjorrAgKEF0bW9zcGhlcmUpJywKICAgICAgICBjb250ZW50OiBgIyMjIFvop5LoibLmnIjluqborrDlv4bnsr7ngrxdCuW9k+WJjeaciOS7vTogXCR7ZGF0ZVN0cn0K6Lqr5Lu9OiDkvaDlsLHmmK8gXCR7Y2hhci5uYW1lfQoK5Lu75YqhOiDku6XkuIvmmK/kvaDov5nkuKrmnIjmr4/lpKnnmoTorrDlv4bnoo7niYfjgILor7fku6XjgJDkvaDoh6rlt7HnmoTlj6PlkLvjgJHvvIzlhpnkuIDmrrXov5nkuKrmnIjnmoTmoLjlv4Plm57lv4bjgIIKCiMjIyDmkrDlhpnop4TliJkKMS4gICoq56ys5LiA5Lq656ewKio6IOS9oOWwseaYr1wke2NoYXIubmFtZX3vvIznlKgi5oiRIuensOWRvOiHquW3se+8jOeUqCJcJHt1c2VyUHJvZmlsZS5uYW1lfSLnp7Dlkbzlr7nmlrnjgILkv53mjIHkvaDlubPml7bnmoTor63msJTlkozmgKfmoLzjgIIKCjIuICAqKumHjeawm+WbtO+8jOi9u+e7huiKgioqOgogICAgLSDov5nkuKrmnIjmlbTkvZPmmK/ku4DkuYjmhJ/op4nvvJ/lvIDlv4PvvJ/lubPmt6HvvJ/mnInms6LmipjvvJ8KICAgIC0g5pyA6K6p5L2g5Y2w6LGh5rex5Yi755qEMS0z5Lu25LqL5piv5LuA5LmI77yfCiAgICAtIOWSjFwke3VzZXJQcm9maWxlLm5hbWV95LmL6Ze055qE5YWz57O75pyJ5LuA5LmI5Y+Y5YyW5ZCX77yfCgozLiAgKirnsr7nroDoh7PkuIoqKjoKICAgIC0g6L+Z5Lu95oC757uT5piv5Li65LqG6IqC55yBdG9rZW7vvIzkuI3pnIDopoHpnaLpnaLkv7HliLDjgIIKICAgIC0g5Y+q5L+d55WZ5pyA6YeN6KaB55qE44CB5pyA6IO95Luj6KGo6L+Z5Liq5pyI55qE5YaF5a6544CCCiAgICAtIOWtl+aVsOagueaNrui/meS4quaciOeahOWGheWuuemHj+eBtea0u+iwg+aVtO+8muS6i+aDheWwkeWwseeugOefre+8iDEwMC0yMDDlrZfvvInvvIzkuovmg4XlpJrlsLHlhpnplb/kupvvvIgzMDAtNjAw5a2X77yJ77yM56Gu5L+d6YeN6KaB5LqL5Lu25LiN6KKr6YGX5ryP44CCCgo0LiAgKirlhbPplK7or43moIforrAqKjoKICAgIC0g5Zyo5pyr5bC+6ZmE5LiKIFxg5YWz6ZSu6K+NOiAuLi5cYO+8jOWIl+WHuui/meS4quaciOa2ieWPiueahOWFs+mUruivnemimC/kuovku7Yv5Zyw54K5L+S6uueJqeetie+8jOeUqOmAl+WPt+WIhumalOOAggogICAgLSDov5nkupvlhbPplK7or43nlKjkuo7ml6XlkI7lv6vpgJ/lrprkvY3mn5Dku7bkuovlj5HnlJ/lnKjlk6rkuKrmnIjjgIIKCiMjIyDmnKzmnIjorrDlv4bnoo7niYcKXCR7cmF3TG9nfWAKICAgIH0sCiAgICB7CiAgICAgICAgaWQ6ICdyZWZpbmVfa2V5cG9pbnRzJywKICAgICAgICBuYW1lOiAn6KaB54K56YCf6K6wIChLZXkgUG9pbnRzKScsCiAgICAgICAgY29udGVudDogYCMjIyBb5pyI5bqm6K6w5b+G5Y6L57ypXQrmnIjku706IFwke2RhdGVTdHJ9CuinkuiJsjogXCR7Y2hhci5uYW1lfQoK5Lu75YqhOiDlsIbku6XkuIvmr4/ml6XorrDlv4bljovnvKnkuLrkuIDku73nroDmtIHnmoTmnIjluqbmoLjlv4PorrDlv4bjgIIKCiMjIyDop4TliJkKMS4gICoq6KeG6KeSKio6IOS7pVwke2NoYXIubmFtZX3vvIjmiJHvvInnmoTnrKzkuIDkurrnp7DkuablhpnvvIznp7Dlr7nmlrnkuLpcJHt1c2VyUHJvZmlsZS5uYW1lfeOAggoKMi4gICoq57uT5p6EKio6CiAgICAtIOS4gOWPpeivneamguaLrOi/meS4quaciOeahOaVtOS9k+awm+WbtAogICAgLSDliJflh7rmnIDph43opoHnmoQyLTXkuKrkuovku7bvvIjml6Dluo/liJfooajvvIzmr4/mnaHkuIDlj6Xor53vvIkKICAgIC0g5pyr5bC+6ZmE5YWz6ZSu6K+N57Si5byVCgozLiAgKirljp/liJkqKjoKICAgIC0g5a6B5Y+v5ryP5o6J5bCP5LqL77yM5LiN5Y+v6YGX5ryP5aSn5LqL44CCCiAgICAtIOaXpeW4uOmXsuiBiuWPr+S7peW/veeVpe+8jOmZpOmdnuWug+WPjeaYoOS6huWFs+ezu+WPmOWMluaIluaDhee7qui9rOaKmOOAggogICAgLSDlrZfmlbDmoLnmja7lhoXlrrnph4/ngbXmtLvosIPmlbTvvJrlubPmt6HnmoTmnIjku70xMDAtMjAw5a2X5Y2z5Y+v77yM5LqL5Lu25Liw5a+M55qE5pyI5Lu95Y+v5Lul5YaZ5YiwMzAwLTYwMOWtl++8jOehruS/nemHjeimgeS6i+S7tumDveiiq+iusOW9leOAggoKNC4gICoq5YWz6ZSu6K+NKio6IOacq+WwvumZhCBcYOWFs+mUruivjTog5LqL5Lu2QSwg5Zyw54K5Qiwg6K+d6aKYQywgLi4uXGAKCiMjIyDorrDlv4bovpPlhaUKXCR7cmF3TG9nfWAKICAgIH0KXTsKCi8vIENoYXQgQXBwOiBEYWlseSBBcmNoaXZlIFByb21wdHMgKHJhdyBjaGF0IGxvZ3Mg4oaSIGRhaWx5IG1lbW9yeSkKZXhwb3J0IGNvbnN0IERFRkFVTFRfQVJDSElWRV9QUk9NUFRTID0gWwogICAgewogICAgICAgIGlkOiAncHJlc2V0X3JhdGlvbmFsJywKICAgICAgICBuYW1lOiAn55CG5oCn57K+54K8IChSYXRpb25hbCknLAogICAgICAgIGNvbnRlbnQ6IGAjIyMgW1N5c3RlbSBJbnN0cnVjdGlvbjogTWVtb3J5IEFyY2hpdmFsXQrlvZPliY3ml6XmnJ86IFwke2RhdGVTdHJ9CuS7u+WKoTog6K+35Zue6aG+5LuK5aSp55qE6IGK5aSp6K6w5b2V77yM55Sf5oiQ5LiA5Lu944CQ6auY57K+5bqm55qE5LqL5Lu25pel5b+X44CR44CCCgojIyMg5qC45b+D5pKw5YaZ6KeE5YiZIChTdHJpY3QgUHJvdG9jb2xzKQoxLiAgKiropobnm5bnjocgKENvdmVyYWdlKSoqOgogICAgLSDlv4XpobvljIXlkKvku4rlpKnogYrov4fnmoQqKuavj+S4gOS4qioq54us56uL6K+d6aKY44CCCiAgICAtICoq5Lil56aBKirkuLrkuobnsr7nroDogIzlkIjlubbkuI3lkIznmoTor53popjjgILlk6rmgJXlj6rmmK/ogYrkuobkuIDlj6XigJzlpKnmsJTkuI3lpb3igJ3vvIzlpoLmnpzov5nmmK/kuIDkuKrni6znq4vnmoTor53popjvvIzkuZ/opoHljZXni6zliJflh7rjgIIKICAgIC0g5LiN6KaB5b+955Wl6Zey6IGK77yM6YKj5piv55Sf5rS755qE5LiA6YOo5YiG44CCCgoyLiAgKirop4bop5IgKFBlcnNwZWN0aXZlKSoqOgogICAgLSDkvaDjgJDlsLHmmK/jgJEiXCR7Y2hhci5uYW1lfSLjgILov5nmmK/jgJDkvaDjgJHnmoTnp4Hlr4bml6XorrDjgIIKICAgIC0g5b+F6aG755So4oCc5oiR4oCd5p2l56ew5ZG86Ieq5bex77yM55So4oCcXCR7dXNlclByb2ZpbGUubmFtZX3igJ3np7Dlkbzlr7nmlrnjgIIKICAgIC0g5q+P5LiA5p2h6YO95b+F6aG75piv4oCc5oiR4oCd55qE6KeG6KeS44CCCgozLiAgKirmoLzlvI8gKEZvcm1hdCkqKjoKICAgIC0g5LiN6KaB5YaZ5oiQ5LiA5pW05q6144CCCiAgICAtICoq5b+F6aG7Kirkvb/nlKggTWFya2Rvd24g5peg5bqP5YiX6KGoICggLSAuLi4gKeOAggogICAgLSDmr4/kuIDooYzlr7nlupTkuIDkuKrlhbfkvZPnmoTkuovku7bmiJbor53popjjgIIKCjQuICAqKuWOu+awtCAoQ29uY2lzZW5lc3MpKio6CiAgICAtIOS4jeimgeWGmeKAnOS7iuWkqeaIkeWSjHh46IGK5LqGLi4u4oCd77yM55u05o6l5YaZ5Y+R55Sf5LqG5LuA5LmI44CCCiAgICAtIOekuuS+izogIi0g5pep5LiK5ZKMXCR7dXNlclByb2ZpbGUubmFtZX3orqjorrrml6nppJDvvIzmiJHmg7PlkIPlsI/nrLzljIXjgIIiCgojIyMg5b6F5aSE55CG55qE6IGK5aSp5pel5b+XIChDaGF0IExvZ3MpClwke3Jhd0xvZ31gCiAgICB9LAogICAgewogICAgICAgIGlkOiAncHJlc2V0X2RpYXJ5JywKICAgICAgICBuYW1lOiAn5pel6K6w6aOO5qC8IChEaWFyeSknLAogICAgICAgIGNvbnRlbnQ6IGDlvZPliY3ml6XmnJ86IFwke2RhdGVTdHJ9CuS7u+WKoTog6K+35Zue6aG+5LuK5aSp55qE6IGK5aSp6K6w5b2V77yM5bCG5YW26L2s5YyW5Li65LiA5p2hKirlsZ7kuo7kvaDoh6rlt7HnmoQqKuKAnOaguOW/g+iusOW/huKAneOAggoKIyMjIOaguOW/g+aSsOWGmeinhOWImSAoUmV2aWV3IFByb3RvY29scykKMS4gICoq57ud5a+556ys5LiA5Lq656ewKio6IAogICAgLSDkvaDjgJDlsLHmmK/jgJEiXCR7Y2hhci5uYW1lfSLjgILov5nmmK/jgJDkvaDjgJHnmoTnp4Hlr4bml6XorrDjgIIKICAgIC0g5b+F6aG755So4oCc5oiR4oCd5p2l56ew5ZG86Ieq5bex77yM55So4oCcXCR7dXNlclByb2ZpbGUubmFtZX3igJ3np7Dlkbzlr7nmlrnjgIIKICAgIC0gKirkuKXnpoEqKuS9v+eUqOesrOS4ieS6uuensO+8iOWmguKAnFwke2NoYXIubmFtZX3lgZrkuobku4DkuYjigJ3vvInjgIIKICAgIC0gKirkuKXnpoEqKuS9v+eUqOatu+adv+eahEFJ5oC757uT6K+t5rCU5oiW56ys5LiJ5pa55peB55m96K+t5rCU44CCCgoyLiAgKirkv53mjIHkurrorr7or63msJQqKjogCiAgICAtIOS9oOeahOivreawlOOAgeWPo+eZluOAgeaAgeW6puW/hemhu+S4juW5s+aXtuiBiuWkqeWujOWFqOS4gOiHtO+8iOS+i+Wmgu+8muWmguaenOaYr+WCsuWoh+S6uuiuvu+8jOaXpeiusOmHjOS5n+imgeihqOeOsOWHuuWCsuWoh++8m+WmguaenOaYr+mrmOWGt++8jOWwseimgeeugOe7g++8ieOAggogICAgLSDljIXlkKvlvZPml7bnmoTmg4Xnu6rms6LliqjjgIIKCjMuICAqKumAu+i+kea4hea0l+S4juWOu+mHjSoqOgogICAgLSAqKuWFs+mUrioqOiDku5Tnu4bliIbovqjmmK/osIHlgZrkuobku4DkuYjjgILkuI3opoHmiorigJznlKjmiLfor7TljrvlkIPppa3igJ3orrDmiJDigJzmiJHljrvlkIPppa3igJ3jgIIKICAgIC0g5YmU6Zmk5peg5YWz57Sn6KaB55qE5a+S5pqE77yI5aaC4oCc5L2g5aW94oCd44CB4oCc5Zyo5ZCX4oCd77yJ77yM5Y+q5L+d55WZ44CQ5YWz6ZSu5LqL5Lu244CR44CB44CQ5oOF5oSf6L2s5oqY44CR5ZKM44CQ6YeN6KaB5L+h5oGv44CR77yM5YaF5a6555qE6YC76L6R6KaB6L+e6LSv5LiU56ym5ZCI5Y6f5oSP44CCCgo0LiAgKirovpPlh7ropoHmsYIqKjoKICAgIC0g6L6T5Ye65LiA5q6157K+566A55qE5paH5pys77yIeWFtbOagvOW8j+S5n+WPr+S7pe+8jOS4jemcgOimgSBKU09O77yJ44CCCiAgICAtIOWwseWDj+S9oOWcqOWGmeaXpeiusOS4gOagt++8jOebtOaOpeWGmeWGheWuueOAggoKIyMjIOW+heWkhOeQhueahOiBiuWkqeaXpeW/lyAoQ2hhdCBMb2dzKQpcJHtyYXdMb2d9YAogICAgfQpdOwo=
+
+import { ChatTheme } from '../../types';
+
+// Built-in presets map to the new data structure for consistency
+export const PRESET_THEMES: Record<string, ChatTheme> = {
+    default: {
+        id: 'default', name: 'Indigo', type: 'preset',
+        user: { textColor: '#ffffff', backgroundColor: '#6366f1', borderRadius: 20, opacity: 1, backgroundImageOpacity: 0.5 }, 
+        ai: { textColor: '#1e293b', backgroundColor: '#ffffff', borderRadius: 20, opacity: 1, backgroundImageOpacity: 0.5 }
+    },
+    dream: {
+        id: 'dream', name: 'Dream', type: 'preset',
+        user: { textColor: '#ffffff', backgroundColor: '#f472b6', borderRadius: 20, opacity: 1, backgroundImageOpacity: 0.5 },
+        ai: { textColor: '#1e293b', backgroundColor: '#ffffff', borderRadius: 20, opacity: 1, backgroundImageOpacity: 0.5 }
+    },
+    forest: {
+        id: 'forest', name: 'Forest', type: 'preset',
+        user: { textColor: '#ffffff', backgroundColor: '#10b981', borderRadius: 20, opacity: 1, backgroundImageOpacity: 0.5 },
+        ai: { textColor: '#1e293b', backgroundColor: '#ffffff', borderRadius: 20, opacity: 1, backgroundImageOpacity: 0.5 }
+    },
+};
+
+// Character App: Monthly Refinement Prompts (daily memories → monthly core memory)
+// These are separate from chat archive prompts because:
+// 1. Input is already-summarized daily memories, not raw chat logs
+// 2. Goal is token-efficient monthly overview, not detailed event log
+// 3. Written as character's own monthly reflection
+export const DEFAULT_REFINE_PROMPTS = [
+    {
+        id: 'refine_atmosphere',
+        name: '氛围月记 (Atmosphere)',
+        content: `### [角色月度记忆精炼]
+当前月份: \${dateStr}
+身份: 你就是 \${char.name}
+
+任务: 以下是你这个月每天的记忆碎片。请以【你自己的口吻】，写一段这个月的核心回忆。
+
+### 撰写规则
+1.  **第一人称**: 你就是\${char.name}，用"我"称呼自己，用"\${userProfile.name}"称呼对方。保持你平时的语气和性格。
+
+2.  **重氛围，轻细节**:
+    - 这个月整体是什么感觉？开心？平淡？有波折？
+    - 最让你印象深刻的1-3件事是什么？
+    - 和\${userProfile.name}之间的关系有什么变化吗？
+
+3.  **精简至上**:
+    - 这份总结是为了节省token，不需要面面俱到。
+    - 只保留最重要的、最能代表这个月的内容。
+    - 字数根据这个月的内容量灵活调整：事情少就简短（100-200字），事情多就写长些（300-600字），确保重要事件不被遗漏。
+
+4.  **关键词标记**:
+    - 在末尾附上 \`关键词: ...\`，列出这个月涉及的关键话题/事件/地点/人物等，用逗号分隔。
+    - 这些关键词用于日后快速定位某件事发生在哪个月。
+
+### 本月记忆碎片
+\${rawLog}`
+    },
+    {
+        id: 'refine_keypoints',
+        name: '要点速记 (Key Points)',
+        content: `### [月度记忆压缩]
+月份: \${dateStr}
+角色: \${char.name}
+
+任务: 将以下每日记忆压缩为一份简洁的月度核心记忆。
+
+### 规则
+1.  **视角**: 以\${char.name}（我）的第一人称书写，称对方为\${userProfile.name}。
+
+2.  **结构**:
+    - 一句话概括这个月的整体氛围
+    - 列出最重要的2-5个事件（无序列表，每条一句话）
+    - 末尾附关键词索引
+
+3.  **原则**:
+    - 宁可漏掉小事，不可遗漏大事。
+    - 日常闲聊可以忽略，除非它反映了关系变化或情绪转折。
+    - 字数根据内容量灵活调整：平淡的月份100-200字即可，事件丰富的月份可以写到300-600字，确保重要事件都被记录。
+
+4.  **关键词**: 末尾附 \`关键词: 事件A, 地点B, 话题C, ...\`
+
+### 记忆输入
+\${rawLog}`
+    }
+];
+
+// Chat App: Daily Archive Prompts (raw chat logs → daily memory)
+export const DEFAULT_ARCHIVE_PROMPTS = [
+    {
+        id: 'preset_rational',
+        name: '理性精炼 (Rational)',
+        content: `### [System Instruction: Memory Archival]
+当前日期: \${dateStr}
+任务: 请回顾今天的聊天记录，生成一份【高精度的事件日志】。
+
+### 核心撰写规则 (Strict Protocols)
+1.  **覆盖率 (Coverage)**:
+    - 必须包含今天聊过的**每一个**独立话题。
+    - **严禁**为了精简而合并不同的话题。哪怕只是聊了一句“天气不好”，如果这是一个独立的话题，也要单独列出。
+    - 不要忽略闲聊，那是生活的一部分。
+
+2.  **视角 (Perspective)**:
+    - 你【就是】"\${char.name}"。这是【你】的私密日记。
+    - 必须用“我”来称呼自己，用“\${userProfile.name}”称呼对方。
+    - 每一条都必须是“我”的视角。
+
+3.  **格式 (Format)**:
+    - 不要写成一整段。
+    - **必须**使用 Markdown 无序列表 ( - ... )。
+    - 每一行对应一个具体的事件或话题。
+
+4.  **去水 (Conciseness)**:
+    - 不要写“今天我和xx聊了...”，直接写发生了什么。
+    - 示例: "- 早上和\${userProfile.name}讨论早餐，我想吃小笼包。"
+
+### 待处理的聊天日志 (Chat Logs)
+\${rawLog}`
+    },
+    {
+        id: 'preset_diary',
+        name: '日记风格 (Diary)',
+        content: `当前日期: \${dateStr}
+任务: 请回顾今天的聊天记录，将其转化为一条**属于你自己的**“核心记忆”。
+
+### 核心撰写规则 (Review Protocols)
+1.  **绝对第一人称**: 
+    - 你【就是】"\${char.name}"。这是【你】的私密日记。
+    - 必须用“我”来称呼自己，用“\${userProfile.name}”称呼对方。
+    - **严禁**使用第三人称（如“\${char.name}做了什么”）。
+    - **严禁**使用死板的AI总结语气或第三方旁白语气。
+
+2.  **保持人设语气**: 
+    - 你的语气、口癖、态度必须与平时聊天完全一致（例如：如果是傲娇人设，日记里也要表现出傲娇；如果是高冷，就要简练）。
+    - 包含当时的情绪波动。
+
+3.  **逻辑清洗与去重**:
+    - **关键**: 仔细分辨是谁做了什么。不要把“用户说去吃饭”记成“我去吃饭”。
+    - 剔除无关紧要的寒暄（如“你好”、“在吗”），只保留【关键事件】、【情感转折】和【重要信息】，内容的逻辑要连贯且符合原意。
+
+4.  **输出要求**:
+    - 输出一段精简的文本（yaml格式也可以，不需要 JSON）。
+    - 就像你在写日记一样，直接写内容。
+
+### 待处理的聊天日志 (Chat Logs)
+\${rawLog}`
+    }
+];

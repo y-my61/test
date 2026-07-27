@@ -1,1 +1,263 @@
-aW1wb3J0IFJlYWN0LCB7IHVzZUVmZmVjdCwgdXNlU3RhdGUgfSBmcm9tICdyZWFjdCc7CmltcG9ydCB7CiAgICBVc2VyLCBNb29uU3RhcnMsIEhlYXJ0U3RyYWlnaHQsIEJvb2tPcGVuLAogICAgSG91c2UsIEJ1aWxkaW5ncywgVXNlcnNUaHJlZSwgQnJpZWZjYXNlLCBMaWdodG5pbmcsIEhlYXJ0YmVhdCwKICAgIFJlcGVhdCwgU21pbGV5LCBIYW5kc2hha2UsIEdyYWR1YXRpb25DYXAsIFNwYXJrbGUsIEZlYXRoZXIsIERvdHNUaHJlZSwKICAgIFBlbmNpbFNpbXBsZSwgVHJhc2gsCn0gZnJvbSAnQHBob3NwaG9yLWljb25zL3JlYWN0JzsKaW1wb3J0IHR5cGUgeyBQbGF0ZUVudHJ5LCBQbGF0ZVJvb20sIFJvb21QbGF0ZSB9IGZyb20gJy4uLy4uL3V0aWxzL21lbW9yeVBhbGFjZS90eXBlcyc7CmltcG9ydCB7IFBMQVRFX1JPT01TLCBQTEFURV9USVRMRVMsIFBMQVRFX0VOVFJZX0NBUFMsIFBMQVRFX0VOVFJZX0hBUkRfTUFYX0NIQVJTIH0gZnJvbSAnLi4vLi4vdXRpbHMvbWVtb3J5UGFsYWNlL3R5cGVzJzsKaW1wb3J0IHsgUm9vbVBsYXRlREIgfSBmcm9tICcuLi8uLi91dGlscy9tZW1vcnlQYWxhY2UvZGInOwoKLyoqCiAqIOaIv+mXtOmXqOeJjOmdouadv++8iOelnue7j+mTvuaOpSDCtyDlupXoibLorqTnn6XvvInigJQg5reh57Sr5qKm5aKD55qu6IKkCiAqCiAqIOWxleekuuWbm+Wdl+mXqOeJjOeahOW4uOmpu+adoeebruOAgumXqOeJjOeUseWwgeebki/mtojljJboh6rliqjokrjppo/nu7TmiqTvvIzov5nph4zlj6rmj5DkvpsKICog5a6h6K6h5YWl5Y+j77ya5p+l55yL44CB5pS55YaZ44CB5Yig6Zmk4oCU4oCU6JK46ZSZ55qE5LqL5a6e5LiA5pem5bi46am75Lya6KKr6Ieq5L+h5Zyw6YeN5aSN5b6I5LmF77yMCiAqIOW/hemhu+acieS6uuW3pee6oOmUmeeahOWPo+WtkOOAggogKi8KCmNvbnN0IFJPT01fSUNPTjogUmVjb3JkPFBsYXRlUm9vbSwgUmVhY3QuUmVhY3ROb2RlPiA9IHsKICAgIHVzZXJfcm9vbTogPFVzZXIgc2l6ZT17MjJ9IHdlaWdodD0iZHVvdG9uZSIgLz4sCiAgICBzZWxmX3Jvb206IDxNb29uU3RhcnMgc2l6ZT17MjJ9IHdlaWdodD0iZHVvdG9uZSIgLz4sCiAgICBiZWRyb29tOiAgIDxIZWFydFN0cmFpZ2h0IHNpemU9ezIyfSB3ZWlnaHQ9ImR1b3RvbmUiIC8+LAogICAgc3R1ZHk6ICAgICA8Qm9va09wZW4gc2l6ZT17MjJ9IHdlaWdodD0iZHVvdG9uZSIgLz4sCn07Cgpjb25zdCBST09NX0hJTlQ6IFJlY29yZDxQbGF0ZVJvb20sIHN0cmluZz4gPSB7CiAgICB1c2VyX3Jvb206ICflhbPkuo5UQeeahOeos+WumuS6i+Wunu+8muWutuW6reOAgeWxheS9j+OAgemHjeimgeS7luS6uuOAgembt+WMuicsCiAgICBzZWxmX3Jvb206ICfop5LoibLlr7noh6rlt7HnmoTnqLPlrprorqTnn6UnLAogICAgYmVkcm9vbTogICAn5YWz57O755qE6LSo5Zyw4oCU4oCU5Y+q5pyJ546w6LGh77yM5rKh5pyJ5a6a5LmJJywKICAgIHN0dWR5OiAgICAgJ+S8muS7gOS5iOOAgeWcqOWtpuS7gOS5iCcsCn07CgovKiogdGFnIOKGkiDmnaHnm67lsI/lm77moIfvvIjmjInljIXlkKvljLnphY3vvIzlhZzlupUgU3BhcmtsZe+8iSAqLwpjb25zdCBUQUdfSUNPTlM6IEFycmF5PHsgbWF0Y2g6IHN0cmluZ1tdOyBpY29uOiBSZWFjdC5SZWFjdE5vZGUgfT4gPSBbCiAgICB7IG1hdGNoOiBbJ+WutuW6rScsICflrrbkuronXSwgICAgICAgICAgIGljb246IDxIb3VzZSBzaXplPXsxNn0gd2VpZ2h0PSJkdW90b25lIiAvPiB9LAogICAgeyBtYXRjaDogWyflsYXkvY8nLCAn5L2PJ10sICAgICAgICAgICAgIGljb246IDxCdWlsZGluZ3Mgc2l6ZT17MTZ9IHdlaWdodD0iZHVvdG9uZSIgLz4gfSwKICAgIHsgbWF0Y2g6IFsn6YeN6KaB5LuW5Lq6JywgJ+aci+WPiycsICfkurrpmYUnXSwgaWNvbjogPFVzZXJzVGhyZWUgc2l6ZT17MTZ9IHdlaWdodD0iZHVvdG9uZSIgLz4gfSwKICAgIHsgbWF0Y2g6IFsn5bel5L2cJywgJ+iBjCddLCAgICAgICAgICAgICBpY29uOiA8QnJpZWZjYXNlIHNpemU9ezE2fSB3ZWlnaHQ9ImR1b3RvbmUiIC8+IH0sCiAgICB7IG1hdGNoOiBbJ+mbt+WMuicsICfnpoHlv4wnXSwgICAgICAgICAgIGljb246IDxMaWdodG5pbmcgc2l6ZT17MTZ9IHdlaWdodD0iZHVvdG9uZSIgLz4gfSwKICAgIHsgbWF0Y2g6IFsn5YGl5bq3JywgJ+i6q+S9kyddLCAgICAgICAgICAgaWNvbjogPEhlYXJ0YmVhdCBzaXplPXsxNn0gd2VpZ2h0PSJkdW90b25lIiAvPiB9LAogICAgeyBtYXRjaDogWyfkuaDmg68nLCAn5L2c5oGvJ10sICAgICAgICAgICBpY29uOiA8UmVwZWF0IHNpemU9ezE2fSB3ZWlnaHQ9ImR1b3RvbmUiIC8+IH0sCiAgICB7IG1hdGNoOiBbJ+aAp+agvCcsICfmg4Xnu6onXSwgICAgICAgICAgIGljb246IDxTbWlsZXkgc2l6ZT17MTZ9IHdlaWdodD0iZHVvdG9uZSIgLz4gfSwKICAgIHsgbWF0Y2g6IFsn57qm5a6aJywgJ+m7mOWlkSddLCAgICAgICAgICAgaWNvbjogPEhhbmRzaGFrZSBzaXplPXsxNn0gd2VpZ2h0PSJkdW90b25lIiAvPiB9LAogICAgeyBtYXRjaDogWyfmioDog70nLCAn5a2m5LmgJywgJ+efpeivhiddLCAgICBpY29uOiA8R3JhZHVhdGlvbkNhcCBzaXplPXsxNn0gd2VpZ2h0PSJkdW90b25lIiAvPiB9LApdOwoKZnVuY3Rpb24gdGFnSWNvbih0YWc/OiBzdHJpbmcpOiBSZWFjdC5SZWFjdE5vZGUgewogICAgaWYgKHRhZykgewogICAgICAgIGZvciAoY29uc3QgdCBvZiBUQUdfSUNPTlMpIHsKICAgICAgICAgICAgaWYgKHQubWF0Y2guc29tZShtID0+IHRhZy5pbmNsdWRlcyhtKSB8fCBtLmluY2x1ZGVzKHRhZykpKSByZXR1cm4gdC5pY29uOwogICAgICAgIH0KICAgIH0KICAgIHJldHVybiA8U3BhcmtsZSBzaXplPXsxNn0gd2VpZ2h0PSJkdW90b25lIiAvPjsKfQoKLyoqIOWMuuWdl+S5i+mXtOeahOWwj+ijhemlsOWIhumalCAqLwpjb25zdCBTZWN0aW9uRGl2aWRlcjogUmVhY3QuRkMgPSAoKSA9PiAoCiAgICA8ZGl2IGNsYXNzTmFtZT0iZmxleCBpdGVtcy1jZW50ZXIganVzdGlmeS1jZW50ZXIgZ2FwLTIgcHktMSB0ZXh0LXZpb2xldC0yMDAiPgogICAgICAgIDxTcGFya2xlIHNpemU9ezEwfSB3ZWlnaHQ9ImZpbGwiIC8+CiAgICAgICAgPFNwYXJrbGUgc2l6ZT17MTR9IHdlaWdodD0iZmlsbCIgY2xhc3NOYW1lPSJ0ZXh0LXZpb2xldC0zMDAiIC8+CiAgICAgICAgPFNwYXJrbGUgc2l6ZT17MTB9IHdlaWdodD0iZmlsbCIgLz4KICAgIDwvZGl2PgopOwoKaW50ZXJmYWNlIFJvb21QbGF0ZVBhbmVsUHJvcHMgewogICAgY2hhcklkOiBzdHJpbmc7CiAgICB1c2VyTmFtZT86IHN0cmluZzsKfQoKY29uc3QgUm9vbVBsYXRlUGFuZWw6IFJlYWN0LkZDPFJvb21QbGF0ZVBhbmVsUHJvcHM+ID0gKHsgY2hhcklkLCB1c2VyTmFtZSB9KSA9PiB7CiAgICBjb25zdCBbcGxhdGVzLCBzZXRQbGF0ZXNdID0gdXNlU3RhdGU8TWFwPFBsYXRlUm9vbSwgUm9vbVBsYXRlPj4obmV3IE1hcCgpKTsKICAgIGNvbnN0IFtsb2FkaW5nLCBzZXRMb2FkaW5nXSA9IHVzZVN0YXRlKHRydWUpOwogICAgY29uc3QgW2VkaXRpbmcsIHNldEVkaXRpbmddID0gdXNlU3RhdGU8eyByb29tOiBQbGF0ZVJvb207IGVudHJ5SWQ6IHN0cmluZzsgZHJhZnQ6IHN0cmluZyB9IHwgbnVsbD4obnVsbCk7CiAgICBjb25zdCBbbWVudUVudHJ5SWQsIHNldE1lbnVFbnRyeUlkXSA9IHVzZVN0YXRlPHN0cmluZyB8IG51bGw+KG51bGwpOwoKICAgIHVzZUVmZmVjdCgoKSA9PiB7CiAgICAgICAgbGV0IGNhbmNlbGxlZCA9IGZhbHNlOwogICAgICAgIChhc3luYyAoKSA9PiB7CiAgICAgICAgICAgIHRyeSB7CiAgICAgICAgICAgICAgICBjb25zdCBsb2FkZWQgPSBhd2FpdCBSb29tUGxhdGVEQi5nZXRCeUNoYXJJZChjaGFySWQpOwogICAgICAgICAgICAgICAgaWYgKCFjYW5jZWxsZWQpIHsKICAgICAgICAgICAgICAgICAgICBzZXRQbGF0ZXMobmV3IE1hcChsb2FkZWQubWFwKHAgPT4gW3Aucm9vbSwgcF0pKSk7CiAgICAgICAgICAgICAgICB9CiAgICAgICAgICAgIH0gY2F0Y2ggKGUpIHsKICAgICAgICAgICAgICAgIGNvbnNvbGUud2FybignW1Jvb21QbGF0ZVBhbmVsXSDliqDovb3pl6jniYzlpLHotKUnLCBlKTsKICAgICAgICAgICAgfSBmaW5hbGx5IHsKICAgICAgICAgICAgICAgIGlmICghY2FuY2VsbGVkKSBzZXRMb2FkaW5nKGZhbHNlKTsKICAgICAgICAgICAgfQogICAgICAgIH0pKCk7CiAgICAgICAgcmV0dXJuICgpID0+IHsgY2FuY2VsbGVkID0gdHJ1ZTsgfTsKICAgIH0sIFtjaGFySWRdKTsKCiAgICBjb25zdCBzYXZlUGxhdGUgPSBhc3luYyAocGxhdGU6IFJvb21QbGF0ZSkgPT4gewogICAgICAgIGF3YWl0IFJvb21QbGF0ZURCLnNhdmUocGxhdGUpOwogICAgICAgIHNldFBsYXRlcyhwcmV2ID0+IG5ldyBNYXAocHJldikuc2V0KHBsYXRlLnJvb20sIHBsYXRlKSk7CiAgICB9OwoKICAgIGNvbnN0IHJlbW92ZUVudHJ5ID0gKHJvb206IFBsYXRlUm9vbSwgZW50cnlJZDogc3RyaW5nKSA9PiB7CiAgICAgICAgY29uc3QgcGxhdGUgPSBwbGF0ZXMuZ2V0KHJvb20pOwogICAgICAgIGlmICghcGxhdGUpIHJldHVybjsKICAgICAgICBzZXRNZW51RW50cnlJZChudWxsKTsKICAgICAgICBzYXZlUGxhdGUoeyAuLi5wbGF0ZSwgZW50cmllczogcGxhdGUuZW50cmllcy5maWx0ZXIoZSA9PiBlLmlkICE9PSBlbnRyeUlkKSwgdXBkYXRlZEF0OiBEYXRlLm5vdygpIH0pOwogICAgfTsKCiAgICBjb25zdCBjb21taXRFZGl0ID0gKCkgPT4gewogICAgICAgIGlmICghZWRpdGluZykgcmV0dXJuOwogICAgICAgIGNvbnN0IHBsYXRlID0gcGxhdGVzLmdldChlZGl0aW5nLnJvb20pOwogICAgICAgIGNvbnN0IHRleHQgPSBlZGl0aW5nLmRyYWZ0LnJlcGxhY2UoL1xzKy9nLCAnICcpLnRyaW0oKS5zbGljZSgwLCBQTEFURV9FTlRSWV9IQVJEX01BWF9DSEFSUyk7CiAgICAgICAgc2V0RWRpdGluZyhudWxsKTsKICAgICAgICBpZiAoIXBsYXRlIHx8ICF0ZXh0KSByZXR1cm47CiAgICAgICAgY29uc3QgZW50cmllcyA9IHBsYXRlLmVudHJpZXMubWFwKGUgPT4KICAgICAgICAgICAgZS5pZCA9PT0gZWRpdGluZy5lbnRyeUlkICYmIGUudGV4dCAhPT0gdGV4dCA/IHsgLi4uZSwgdGV4dCwgdXBkYXRlZEF0OiBEYXRlLm5vdygpIH0gOiBlCiAgICAgICAgKTsKICAgICAgICBzYXZlUGxhdGUoeyAuLi5wbGF0ZSwgZW50cmllcywgdXBkYXRlZEF0OiBEYXRlLm5vdygpIH0pOwogICAgfTsKCiAgICBjb25zdCBmbXREYXRlID0gKHRzOiBudW1iZXIpID0+IG5ldyBEYXRlKHRzKS50b0xvY2FsZURhdGVTdHJpbmcoKTsKCiAgICBpZiAobG9hZGluZykgewogICAgICAgIHJldHVybiAoCiAgICAgICAgICAgIDxkaXYgY2xhc3NOYW1lPSJmbGV4IGl0ZW1zLWNlbnRlciBqdXN0aWZ5LWNlbnRlciBoLTQwIj4KICAgICAgICAgICAgICAgIDxkaXYgY2xhc3NOYW1lPSJ3LTggaC04IGJvcmRlci00IGJvcmRlci12aW9sZXQtMTAwIGJvcmRlci10LXZpb2xldC00MDAgcm91bmRlZC1mdWxsIGFuaW1hdGUtc3BpbiI+PC9kaXY+CiAgICAgICAgICAgIDwvZGl2PgogICAgICAgICk7CiAgICB9CgogICAgY29uc3QgdG90YWxFbnRyaWVzID0gUExBVEVfUk9PTVMucmVkdWNlKChzLCByKSA9PiBzICsgKHBsYXRlcy5nZXQocik/LmVudHJpZXMubGVuZ3RoIHx8IDApLCAwKTsKCiAgICByZXR1cm4gKAogICAgICAgIDxkaXYgY2xhc3NOYW1lPSJzcGFjZS15LTQgYW5pbWF0ZS1mYWRlLWluIHBiLTEwIj4KICAgICAgICAgICAgey8qIOmhtumDqOivtOaYjuWNoSAqL30KICAgICAgICAgICAgPGRpdiBjbGFzc05hbWU9InJlbGF0aXZlIG92ZXJmbG93LWhpZGRlbiBiZy1ncmFkaWVudC10by1iciBmcm9tLXdoaXRlIHZpYS12aW9sZXQtNTAvNzAgdG8tcHVycGxlLTEwMC81MCBwLTUgcm91bmRlZC0zeGwgYm9yZGVyIGJvcmRlci12aW9sZXQtMTAwLzgwIHNoYWRvdy1bMF8xMHB4XzM1cHhfLTE4cHhfcmdiYSgxMzksOTIsMjQ2LDAuNDUpXSI+CiAgICAgICAgICAgICAgICA8RmVhdGhlciBzaXplPXs3Mn0gd2VpZ2h0PSJkdW90b25lIiBjbGFzc05hbWU9ImFic29sdXRlIC1yaWdodC0zIC1ib3R0b20tNCB0ZXh0LXZpb2xldC0yMDAvNTAgcm90YXRlLTEyIHBvaW50ZXItZXZlbnRzLW5vbmUiIC8+CiAgICAgICAgICAgICAgICA8ZGl2IGNsYXNzTmFtZT0idGV4dC1bMTBweF0gdGV4dC12aW9sZXQtMzAwIHVwcGVyY2FzZSB0cmFja2luZy1bMC4yNWVtXSBmb250LWJvbGQiPlJlc2lkZW50IEtub3dsZWRnZTwvZGl2PgogICAgICAgICAgICAgICAgPHAgY2xhc3NOYW1lPSJ0ZXh0LXhzIHRleHQtc2xhdGUtNTAwIG10LTIgbGVhZGluZy1yZWxheGVkIHJlbGF0aXZlIHotMTAiPgogICAgICAgICAgICAgICAgICAgIOmXqOeJjOaYr+inkuiJsuS7juebuOWkhOS4reiHquW3seiSuOmmj+WHuueahOW4uOmpu+iupOefpeKAlOKAlOS6i+S7tuebkuWwgeWtmOOAgeiupOefpea2iOWMluaXtuiHquWKqOaVtOeQhu+8jOavj+i9ruWvueivnemDveWcqOWcuuOAggogICAgICAgICAgICAgICAgPC9wPgogICAgICAgICAgICAgICAgPHAgY2xhc3NOYW1lPSJ0ZXh0LXhzIHRleHQtdmlvbGV0LTQwMC85MCBtdC0xLjUgcmVsYXRpdmUgei0xMCI+6JK46aaP55qE5p2h55uu5Y+v5Lul5Zyo6L+Z6YeM5pS55YaZ5oiW5Yig6Zmk44CCPC9wPgogICAgICAgICAgICA8L2Rpdj4KCiAgICAgICAgICAgIHt0b3RhbEVudHJpZXMgPT09IDAgJiYgKAogICAgICAgICAgICAgICAgPGRpdiBjbGFzc05hbWU9InRleHQtY2VudGVyIHB5LTEyIGJnLWdyYWRpZW50LXRvLWIgZnJvbS13aGl0ZSB0by12aW9sZXQtNTAvNTAgcm91bmRlZC0zeGwgYm9yZGVyIGJvcmRlci1kYXNoZWQgYm9yZGVyLXZpb2xldC0yMDAiPgogICAgICAgICAgICAgICAgICAgIDxTcGFya2xlIHNpemU9ezI4fSB3ZWlnaHQ9ImR1b3RvbmUiIGNsYXNzTmFtZT0ibXgtYXV0byB0ZXh0LXZpb2xldC0zMDAgbWItMyIgLz4KICAgICAgICAgICAgICAgICAgICA8cCBjbGFzc05hbWU9InRleHQtc20gdGV4dC1zbGF0ZS00MDAiPumXqOeJjOi/mOaYr+epuueahDwvcD4KICAgICAgICAgICAgICAgICAgICA8cCBjbGFzc05hbWU9InRleHQteHMgdGV4dC1zbGF0ZS0zMDAgbXQtMiBtYXgtdy14cyBteC1hdXRvIGxlYWRpbmctcmVsYXhlZCI+CiAgICAgICAgICAgICAgICAgICAgICAgIOe7p+e7reebuOWkhO+8muS6i+S7tuebkuiiq+WOi+e8qS/lsIHlrZjjgIHmiJbop6blj5HkuIDmrKHorqTnn6XmtojljJblkI7vvIzop5LoibLkvJroh6rlt7Hmiormsonmt4DkuIvmnaXnmoTorqTnn6XlhpnkuIrpl6jniYzjgIIKICAgICAgICAgICAgICAgICAgICA8L3A+CiAgICAgICAgICAgICAgICA8L2Rpdj4KICAgICAgICAgICAgKX0KCiAgICAgICAgICAgIHtQTEFURV9ST09NUy5tYXAoKHJvb20sIHJvb21JZHgpID0+IHsKICAgICAgICAgICAgICAgIGNvbnN0IHBsYXRlID0gcGxhdGVzLmdldChyb29tKTsKICAgICAgICAgICAgICAgIGNvbnN0IGVudHJpZXMgPSBwbGF0ZT8uZW50cmllcyB8fCBbXTsKICAgICAgICAgICAgICAgIGlmIChlbnRyaWVzLmxlbmd0aCA9PT0gMCAmJiB0b3RhbEVudHJpZXMgPT09IDApIHJldHVybiBudWxsOwogICAgICAgICAgICAgICAgY29uc3QgdGl0bGUgPSByb29tID09PSAndXNlcl9yb29tJyAmJiB1c2VyTmFtZSA/IGDlhbPkuo4ke3VzZXJOYW1lfWAgOiBQTEFURV9USVRMRVNbcm9vbV07CiAgICAgICAgICAgICAgICByZXR1cm4gKAogICAgICAgICAgICAgICAgICAgIDxSZWFjdC5GcmFnbWVudCBrZXk9e3Jvb219PgogICAgICAgICAgICAgICAgICAgICAgICB7cm9vbUlkeCA+IDAgJiYgdG90YWxFbnRyaWVzID4gMCAmJiA8U2VjdGlvbkRpdmlkZXIgLz59CiAgICAgICAgICAgICAgICAgICAgICAgIDxkaXYgY2xhc3NOYW1lPSJiZy1ncmFkaWVudC10by1iIGZyb20td2hpdGUgdG8tdmlvbGV0LTUwLzQwIHJvdW5kZWQtM3hsIHAtNSBib3JkZXIgYm9yZGVyLXZpb2xldC0xMDAvODAgc2hhZG93LVswXzhweF8zMHB4Xy0xNnB4X3JnYmEoMTM5LDkyLDI0NiwwLjM1KV0iPgogICAgICAgICAgICAgICAgICAgICAgICAgICAgey8qIOWMuuWdl+WktO+8muWchuW9ouW+veeroCArIOagh+mimCArIOWuuemHjyAqL30KICAgICAgICAgICAgICAgICAgICAgICAgICAgIDxkaXYgY2xhc3NOYW1lPSJmbGV4IGl0ZW1zLWNlbnRlciBnYXAtMyBtYi0xIj4KICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICA8ZGl2IGNsYXNzTmFtZT0ic2hyaW5rLTAgdy0xMSBoLTExIHJvdW5kZWQtZnVsbCBiZy1ncmFkaWVudC10by1iciBmcm9tLXZpb2xldC0xMDAgdG8tcHVycGxlLTIwMC84MCBib3JkZXIgYm9yZGVyLXdoaXRlIHNoYWRvdy1pbm5lciBmbGV4IGl0ZW1zLWNlbnRlciBqdXN0aWZ5LWNlbnRlciB0ZXh0LXZpb2xldC01MDAiPgogICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICB7Uk9PTV9JQ09OW3Jvb21dfQogICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgIDwvZGl2PgogICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgIDxkaXYgY2xhc3NOYW1lPSJtaW4tdy0wIGZsZXgtMSI+CiAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgIDxoMyBjbGFzc05hbWU9InRleHQtWzE1cHhdIGZvbnQtYm9sZCB0ZXh0LXNsYXRlLTcwMCBmbGV4IGl0ZW1zLWNlbnRlciBnYXAtMS41Ij4KICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgIHt0aXRsZX0KICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgIDxTcGFya2xlIHNpemU9ezExfSB3ZWlnaHQ9ImZpbGwiIGNsYXNzTmFtZT0idGV4dC12aW9sZXQtMzAwIiAvPgogICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICA8L2gzPgogICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICA8cCBjbGFzc05hbWU9InRleHQtWzEwcHhdIHRleHQtc2xhdGUtNDAwIHRydW5jYXRlIj57Uk9PTV9ISU5UW3Jvb21dfTwvcD4KICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICA8L2Rpdj4KICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICA8c3BhbiBjbGFzc05hbWU9InNocmluay0wIHRleHQtWzExcHhdIGZvbnQtYm9sZCB0ZXh0LXZpb2xldC0zMDAiPntlbnRyaWVzLmxlbmd0aH0ve1BMQVRFX0VOVFJZX0NBUFNbcm9vbV19PC9zcGFuPgogICAgICAgICAgICAgICAgICAgICAgICAgICAgPC9kaXY+CgogICAgICAgICAgICAgICAgICAgICAgICAgICAge2VudHJpZXMubGVuZ3RoID09PSAwID8gKAogICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgIDxwIGNsYXNzTmFtZT0idGV4dC14cyB0ZXh0LXNsYXRlLTMwMCBpdGFsaWMgbXQtMyBtbC0xIj7mmoLml6DmnaHnm648L3A+CiAgICAgICAgICAgICAgICAgICAgICAgICAgICApIDogKAogICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgIDx1bCBjbGFzc05hbWU9InNwYWNlLXktMi41IG10LTQiPgogICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICB7ZW50cmllcy5tYXAoKGU6IFBsYXRlRW50cnkpID0+ICgKICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgIDxsaSBrZXk9e2UuaWR9IGNsYXNzTmFtZT0iYmctd2hpdGUvODAgcm91bmRlZC0yeGwgYm9yZGVyIGJvcmRlci12aW9sZXQtMTAwLzcwIHNoYWRvdy1zbSI+CiAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAge2VkaXRpbmc/LnJvb20gPT09IHJvb20gJiYgZWRpdGluZy5lbnRyeUlkID09PSBlLmlkID8gKAogICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAvKiDnvJbovpHmgIHvvJrnvr3mr5vnrJQgKyDlj5bmtogv5L+d5a2YICovCiAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgIDxkaXYgY2xhc3NOYW1lPSJwLTMiPgogICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgPHRleHRhcmVhCiAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgdmFsdWU9e2VkaXRpbmcuZHJhZnR9CiAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgb25DaGFuZ2U9e2V2ID0+IHNldEVkaXRpbmcoeyAuLi5lZGl0aW5nLCBkcmFmdDogZXYudGFyZ2V0LnZhbHVlIH0pfQogICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgIGF1dG9Gb2N1cwogICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgIHJvd3M9ezJ9CiAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgY2xhc3NOYW1lPSJ3LWZ1bGwgYmctd2hpdGUgYm9yZGVyLTIgYm9yZGVyLXZpb2xldC0yMDAgcm91bmRlZC14bCBweC0zIHB5LTIgdGV4dC1zbSB0ZXh0LXNsYXRlLTcwMCByZXNpemUtbm9uZSBmb2N1czpyaW5nLTIgZm9jdXM6cmluZy12aW9sZXQtMjAwIGZvY3VzOmJvcmRlci12aW9sZXQtMzAwIGZvY3VzOm91dGxpbmUtbm9uZSIKICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgIC8+CiAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICA8ZGl2IGNsYXNzTmFtZT0iZmxleCBpdGVtcy1jZW50ZXIganVzdGlmeS1iZXR3ZWVuIG10LTIiPgogICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgIDxGZWF0aGVyIHNpemU9ezE2fSB3ZWlnaHQ9ImR1b3RvbmUiIGNsYXNzTmFtZT0idGV4dC12aW9sZXQtMzAwIG1sLTEiIC8+CiAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgPGRpdiBjbGFzc05hbWU9ImZsZXggZ2FwLTIiPgogICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICA8YnV0dG9uIG9uQ2xpY2s9eygpID0+IHNldEVkaXRpbmcobnVsbCl9IGNsYXNzTmFtZT0idGV4dC14cyBmb250LWJvbGQgdGV4dC1zbGF0ZS00MDAgcHgtNCBweS0xLjUgcm91bmRlZC14bCBiZy12aW9sZXQtNTAgYm9yZGVyIGJvcmRlci12aW9sZXQtMTAwIj7lj5bmtog8L2J1dHRvbj4KICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgPGJ1dHRvbiBvbkNsaWNrPXtjb21taXRFZGl0fSBjbGFzc05hbWU9InRleHQteHMgZm9udC1ib2xkIHRleHQtd2hpdGUgcHgtNSBweS0xLjUgcm91bmRlZC14bCBiZy1ncmFkaWVudC10by1yIGZyb20tdmlvbGV0LTUwMCB0by1wdXJwbGUtNTAwIHNoYWRvdy1tZCBzaGFkb3ctdmlvbGV0LTIwMCI+5L+d5a2YPC9idXR0b24+CiAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgPC9kaXY+CiAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICA8L2Rpdj4KICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgPC9kaXY+CiAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgKSA6ICgKICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgPGRpdiBjbGFzc05hbWU9ImZsZXggaXRlbXMtc3RhcnQgZ2FwLTIuNSBwLTMiPgogICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgey8qIOadoeebruWbvuagh++8iOaMiSB0YWcg5Yy56YWN77yJICovfQogICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgPGRpdiBjbGFzc05hbWU9InNocmluay0wIHctOCBoLTggcm91bmRlZC1mdWxsIGJnLXZpb2xldC01MCBib3JkZXIgYm9yZGVyLXZpb2xldC0xMDAvODAgZmxleCBpdGVtcy1jZW50ZXIganVzdGlmeS1jZW50ZXIgdGV4dC12aW9sZXQtNDAwIG10LTAuNSI+CiAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAge3RhZ0ljb24oZS50YWcpfQogICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgPC9kaXY+CiAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICA8ZGl2IGNsYXNzTmFtZT0ibWluLXctMCBmbGV4LTEiPgogICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgIDxwCiAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgIGNsYXNzTmFtZT0idGV4dC1zbSB0ZXh0LXNsYXRlLTcwMCBsZWFkaW5nLXJlbGF4ZWQgY3Vyc29yLXBvaW50ZXIiCiAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgIG9uQ2xpY2s9eygpID0+IHsgc2V0TWVudUVudHJ5SWQobnVsbCk7IHNldEVkaXRpbmcoeyByb29tLCBlbnRyeUlkOiBlLmlkLCBkcmFmdDogZS50ZXh0IH0pOyB9fQogICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICB0aXRsZT0i54K55Ye75pS55YaZIgogICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgID4KICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAge2UudGV4dH0KICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICA8L3A+CiAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgPHAgY2xhc3NOYW1lPSJ0ZXh0LVsxMHB4XSB0ZXh0LXZpb2xldC0zMDAvOTAgbXQtMSI+CiAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgIHtmbXREYXRlKGUuZmlyc3RMZWFybmVkQXQpfSDCtyDlvpfnn6V7ZS5zb3VyY2VDb3VudCA+IDEgPyBgIMK3IOWNsOivgSAke2Uuc291cmNlQ291bnR9IOasoWAgOiAnJ30KICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICA8L3A+CiAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICA8L2Rpdj4KICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgIDxkaXYgY2xhc3NOYW1lPSJzaHJpbmstMCBmbGV4IGZsZXgtY29sIGl0ZW1zLWVuZCBnYXAtMS41Ij4KICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICB7ZS50YWcgJiYgKAogICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICA8c3BhbiBjbGFzc05hbWU9InRleHQtWzEwcHhdIHRleHQtdmlvbGV0LTUwMCBiZy12aW9sZXQtNTAgYm9yZGVyIGJvcmRlci12aW9sZXQtMTAwIHJvdW5kZWQtZnVsbCBweC0yLjUgcHktMC41IHdoaXRlc3BhY2Utbm93cmFwIj4KICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgIHtlLnRhZ30KICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgPC9zcGFuPgogICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICl9CiAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgPGJ1dHRvbgogICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICBvbkNsaWNrPXsoKSA9PiBzZXRNZW51RW50cnlJZChtZW51RW50cnlJZCA9PT0gZS5pZCA/IG51bGwgOiBlLmlkKX0KICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgY2xhc3NOYW1lPSJ0ZXh0LXZpb2xldC0zMDAgaG92ZXI6dGV4dC12aW9sZXQtNTAwIHAtMC41IgogICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICB0aXRsZT0i5pu05aSa5pON5L2cIgogICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgID4KICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgPERvdHNUaHJlZSBzaXplPXsxOH0gd2VpZ2h0PSJib2xkIiAvPgogICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgIDwvYnV0dG9uPgogICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgPC9kaXY+CiAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgIDwvZGl2PgogICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICl9CiAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgey8qIOKApiDlsZXlvIDnmoTmk43kvZzooYwgKi99CiAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAge21lbnVFbnRyeUlkID09PSBlLmlkICYmICEoZWRpdGluZz8uZW50cnlJZCA9PT0gZS5pZCkgJiYgKAogICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICA8ZGl2IGNsYXNzTmFtZT0iZmxleCBqdXN0aWZ5LWVuZCBnYXAtMiBweC0zIHBiLTMgLW10LTEgYW5pbWF0ZS1mYWRlLWluIj4KICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgIDxidXR0b24KICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICBvbkNsaWNrPXsoKSA9PiB7IHNldE1lbnVFbnRyeUlkKG51bGwpOyBzZXRFZGl0aW5nKHsgcm9vbSwgZW50cnlJZDogZS5pZCwgZHJhZnQ6IGUudGV4dCB9KTsgfX0KICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICBjbGFzc05hbWU9ImZsZXggaXRlbXMtY2VudGVyIGdhcC0xIHRleHQtWzExcHhdIGZvbnQtYm9sZCB0ZXh0LXZpb2xldC01MDAgYmctdmlvbGV0LTUwIGJvcmRlciBib3JkZXItdmlvbGV0LTEwMCByb3VuZGVkLXhsIHB4LTMgcHktMS41IgogICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgPgogICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgIDxQZW5jaWxTaW1wbGUgc2l6ZT17MTJ9IHdlaWdodD0iYm9sZCIgLz4g5pS55YaZCiAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICA8L2J1dHRvbj4KICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgIDxidXR0b24KICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICBvbkNsaWNrPXsoKSA9PiByZW1vdmVFbnRyeShyb29tLCBlLmlkKX0KICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICBjbGFzc05hbWU9ImZsZXggaXRlbXMtY2VudGVyIGdhcC0xIHRleHQtWzExcHhdIGZvbnQtYm9sZCB0ZXh0LXJvc2UtNDAwIGJnLXJvc2UtNTAgYm9yZGVyIGJvcmRlci1yb3NlLTEwMCByb3VuZGVkLXhsIHB4LTMgcHktMS41IgogICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgPgogICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgIDxUcmFzaCBzaXplPXsxMn0gd2VpZ2h0PSJib2xkIiAvPiDliKDpmaQKICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgIDwvYnV0dG9uPgogICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICA8L2Rpdj4KICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICApfQogICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgPC9saT4KICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgKSl9CiAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgPC91bD4KICAgICAgICAgICAgICAgICAgICAgICAgICAgICl9CiAgICAgICAgICAgICAgICAgICAgICAgIDwvZGl2PgogICAgICAgICAgICAgICAgICAgIDwvUmVhY3QuRnJhZ21lbnQ+CiAgICAgICAgICAgICAgICApOwogICAgICAgICAgICB9KX0KICAgICAgICA8L2Rpdj4KICAgICk7Cn07CgpleHBvcnQgZGVmYXVsdCBSb29tUGxhdGVQYW5lbDsK
+import React, { useEffect, useState } from 'react';
+import {
+    User, MoonStars, HeartStraight, BookOpen,
+    House, Buildings, UsersThree, Briefcase, Lightning, Heartbeat,
+    Repeat, Smiley, Handshake, GraduationCap, Sparkle, Feather, DotsThree,
+    PencilSimple, Trash,
+} from '@phosphor-icons/react';
+import type { PlateEntry, PlateRoom, RoomPlate } from '../../utils/memoryPalace/types';
+import { PLATE_ROOMS, PLATE_TITLES, PLATE_ENTRY_CAPS, PLATE_ENTRY_HARD_MAX_CHARS } from '../../utils/memoryPalace/types';
+import { RoomPlateDB } from '../../utils/memoryPalace/db';
+
+/**
+ * 房间门牌面板（神经链接 · 底色认知）— 淡紫梦境皮肤
+ *
+ * 展示四块门牌的常驻条目。门牌由封盒/消化自动蒸馏维护，这里只提供
+ * 审计入口：查看、改写、删除——蒸错的事实一旦常驻会被自信地重复很久，
+ * 必须有人工纠错的口子。
+ */
+
+const ROOM_ICON: Record<PlateRoom, React.ReactNode> = {
+    user_room: <User size={22} weight="duotone" />,
+    self_room: <MoonStars size={22} weight="duotone" />,
+    bedroom:   <HeartStraight size={22} weight="duotone" />,
+    study:     <BookOpen size={22} weight="duotone" />,
+};
+
+const ROOM_HINT: Record<PlateRoom, string> = {
+    user_room: '关于TA的稳定事实：家庭、居住、重要他人、雷区',
+    self_room: '角色对自己的稳定认知',
+    bedroom:   '关系的质地——只有现象，没有定义',
+    study:     '会什么、在学什么',
+};
+
+/** tag → 条目小图标（按包含匹配，兜底 Sparkle） */
+const TAG_ICONS: Array<{ match: string[]; icon: React.ReactNode }> = [
+    { match: ['家庭', '家人'],           icon: <House size={16} weight="duotone" /> },
+    { match: ['居住', '住'],             icon: <Buildings size={16} weight="duotone" /> },
+    { match: ['重要他人', '朋友', '人际'], icon: <UsersThree size={16} weight="duotone" /> },
+    { match: ['工作', '职'],             icon: <Briefcase size={16} weight="duotone" /> },
+    { match: ['雷区', '禁忌'],           icon: <Lightning size={16} weight="duotone" /> },
+    { match: ['健康', '身体'],           icon: <Heartbeat size={16} weight="duotone" /> },
+    { match: ['习惯', '作息'],           icon: <Repeat size={16} weight="duotone" /> },
+    { match: ['性格', '情绪'],           icon: <Smiley size={16} weight="duotone" /> },
+    { match: ['约定', '默契'],           icon: <Handshake size={16} weight="duotone" /> },
+    { match: ['技能', '学习', '知识'],    icon: <GraduationCap size={16} weight="duotone" /> },
+];
+
+function tagIcon(tag?: string): React.ReactNode {
+    if (tag) {
+        for (const t of TAG_ICONS) {
+            if (t.match.some(m => tag.includes(m) || m.includes(tag))) return t.icon;
+        }
+    }
+    return <Sparkle size={16} weight="duotone" />;
+}
+
+/** 区块之间的小装饰分隔 */
+const SectionDivider: React.FC = () => (
+    <div className="flex items-center justify-center gap-2 py-1 text-violet-200">
+        <Sparkle size={10} weight="fill" />
+        <Sparkle size={14} weight="fill" className="text-violet-300" />
+        <Sparkle size={10} weight="fill" />
+    </div>
+);
+
+interface RoomPlatePanelProps {
+    charId: string;
+    userName?: string;
+}
+
+const RoomPlatePanel: React.FC<RoomPlatePanelProps> = ({ charId, userName }) => {
+    const [plates, setPlates] = useState<Map<PlateRoom, RoomPlate>>(new Map());
+    const [loading, setLoading] = useState(true);
+    const [editing, setEditing] = useState<{ room: PlateRoom; entryId: string; draft: string } | null>(null);
+    const [menuEntryId, setMenuEntryId] = useState<string | null>(null);
+
+    useEffect(() => {
+        let cancelled = false;
+        (async () => {
+            try {
+                const loaded = await RoomPlateDB.getByCharId(charId);
+                if (!cancelled) {
+                    setPlates(new Map(loaded.map(p => [p.room, p])));
+                }
+            } catch (e) {
+                console.warn('[RoomPlatePanel] 加载门牌失败', e);
+            } finally {
+                if (!cancelled) setLoading(false);
+            }
+        })();
+        return () => { cancelled = true; };
+    }, [charId]);
+
+    const savePlate = async (plate: RoomPlate) => {
+        await RoomPlateDB.save(plate);
+        setPlates(prev => new Map(prev).set(plate.room, plate));
+    };
+
+    const removeEntry = (room: PlateRoom, entryId: string) => {
+        const plate = plates.get(room);
+        if (!plate) return;
+        setMenuEntryId(null);
+        savePlate({ ...plate, entries: plate.entries.filter(e => e.id !== entryId), updatedAt: Date.now() });
+    };
+
+    const commitEdit = () => {
+        if (!editing) return;
+        const plate = plates.get(editing.room);
+        const text = editing.draft.replace(/\s+/g, ' ').trim().slice(0, PLATE_ENTRY_HARD_MAX_CHARS);
+        setEditing(null);
+        if (!plate || !text) return;
+        const entries = plate.entries.map(e =>
+            e.id === editing.entryId && e.text !== text ? { ...e, text, updatedAt: Date.now() } : e
+        );
+        savePlate({ ...plate, entries, updatedAt: Date.now() });
+    };
+
+    const fmtDate = (ts: number) => new Date(ts).toLocaleDateString();
+
+    if (loading) {
+        return (
+            <div className="flex items-center justify-center h-40">
+                <div className="w-8 h-8 border-4 border-violet-100 border-t-violet-400 rounded-full animate-spin"></div>
+            </div>
+        );
+    }
+
+    const totalEntries = PLATE_ROOMS.reduce((s, r) => s + (plates.get(r)?.entries.length || 0), 0);
+
+    return (
+        <div className="space-y-4 animate-fade-in pb-10">
+            {/* 顶部说明卡 */}
+            <div className="relative overflow-hidden bg-gradient-to-br from-white via-violet-50/70 to-purple-100/50 p-5 rounded-3xl border border-violet-100/80 shadow-[0_10px_35px_-18px_rgba(139,92,246,0.45)]">
+                <Feather size={72} weight="duotone" className="absolute -right-3 -bottom-4 text-violet-200/50 rotate-12 pointer-events-none" />
+                <div className="text-[10px] text-violet-300 uppercase tracking-[0.25em] font-bold">Resident Knowledge</div>
+                <p className="text-xs text-slate-500 mt-2 leading-relaxed relative z-10">
+                    门牌是角色从相处中自己蒸馏出的常驻认知——事件盒封存、认知消化时自动整理，每轮对话都在场。
+                </p>
+                <p className="text-xs text-violet-400/90 mt-1.5 relative z-10">蒸馏的条目可以在这里改写或删除。</p>
+            </div>
+
+            {totalEntries === 0 && (
+                <div className="text-center py-12 bg-gradient-to-b from-white to-violet-50/50 rounded-3xl border border-dashed border-violet-200">
+                    <Sparkle size={28} weight="duotone" className="mx-auto text-violet-300 mb-3" />
+                    <p className="text-sm text-slate-400">门牌还是空的</p>
+                    <p className="text-xs text-slate-300 mt-2 max-w-xs mx-auto leading-relaxed">
+                        继续相处：事件盒被压缩/封存、或触发一次认知消化后，角色会自己把沉淀下来的认知写上门牌。
+                    </p>
+                </div>
+            )}
+
+            {PLATE_ROOMS.map((room, roomIdx) => {
+                const plate = plates.get(room);
+                const entries = plate?.entries || [];
+                if (entries.length === 0 && totalEntries === 0) return null;
+                const title = room === 'user_room' && userName ? `关于${userName}` : PLATE_TITLES[room];
+                return (
+                    <React.Fragment key={room}>
+                        {roomIdx > 0 && totalEntries > 0 && <SectionDivider />}
+                        <div className="bg-gradient-to-b from-white to-violet-50/40 rounded-3xl p-5 border border-violet-100/80 shadow-[0_8px_30px_-16px_rgba(139,92,246,0.35)]">
+                            {/* 区块头：圆形徽章 + 标题 + 容量 */}
+                            <div className="flex items-center gap-3 mb-1">
+                                <div className="shrink-0 w-11 h-11 rounded-full bg-gradient-to-br from-violet-100 to-purple-200/80 border border-white shadow-inner flex items-center justify-center text-violet-500">
+                                    {ROOM_ICON[room]}
+                                </div>
+                                <div className="min-w-0 flex-1">
+                                    <h3 className="text-[15px] font-bold text-slate-700 flex items-center gap-1.5">
+                                        {title}
+                                        <Sparkle size={11} weight="fill" className="text-violet-300" />
+                                    </h3>
+                                    <p className="text-[10px] text-slate-400 truncate">{ROOM_HINT[room]}</p>
+                                </div>
+                                <span className="shrink-0 text-[11px] font-bold text-violet-300">{entries.length}/{PLATE_ENTRY_CAPS[room]}</span>
+                            </div>
+
+                            {entries.length === 0 ? (
+                                <p className="text-xs text-slate-300 italic mt-3 ml-1">暂无条目</p>
+                            ) : (
+                                <ul className="space-y-2.5 mt-4">
+                                    {entries.map((e: PlateEntry) => (
+                                        <li key={e.id} className="bg-white/80 rounded-2xl border border-violet-100/70 shadow-sm">
+                                            {editing?.room === room && editing.entryId === e.id ? (
+                                                /* 编辑态：羽毛笔 + 取消/保存 */
+                                                <div className="p-3">
+                                                    <textarea
+                                                        value={editing.draft}
+                                                        onChange={ev => setEditing({ ...editing, draft: ev.target.value })}
+                                                        autoFocus
+                                                        rows={2}
+                                                        className="w-full bg-white border-2 border-violet-200 rounded-xl px-3 py-2 text-sm text-slate-700 resize-none focus:ring-2 focus:ring-violet-200 focus:border-violet-300 focus:outline-none"
+                                                    />
+                                                    <div className="flex items-center justify-between mt-2">
+                                                        <Feather size={16} weight="duotone" className="text-violet-300 ml-1" />
+                                                        <div className="flex gap-2">
+                                                            <button onClick={() => setEditing(null)} className="text-xs font-bold text-slate-400 px-4 py-1.5 rounded-xl bg-violet-50 border border-violet-100">取消</button>
+                                                            <button onClick={commitEdit} className="text-xs font-bold text-white px-5 py-1.5 rounded-xl bg-gradient-to-r from-violet-500 to-purple-500 shadow-md shadow-violet-200">保存</button>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            ) : (
+                                                <div className="flex items-start gap-2.5 p-3">
+                                                    {/* 条目图标（按 tag 匹配） */}
+                                                    <div className="shrink-0 w-8 h-8 rounded-full bg-violet-50 border border-violet-100/80 flex items-center justify-center text-violet-400 mt-0.5">
+                                                        {tagIcon(e.tag)}
+                                                    </div>
+                                                    <div className="min-w-0 flex-1">
+                                                        <p
+                                                            className="text-sm text-slate-700 leading-relaxed cursor-pointer"
+                                                            onClick={() => { setMenuEntryId(null); setEditing({ room, entryId: e.id, draft: e.text }); }}
+                                                            title="点击改写"
+                                                        >
+                                                            {e.text}
+                                                        </p>
+                                                        <p className="text-[10px] text-violet-300/90 mt-1">
+                                                            {fmtDate(e.firstLearnedAt)} · 得知{e.sourceCount > 1 ? ` · 印证 ${e.sourceCount} 次` : ''}
+                                                        </p>
+                                                    </div>
+                                                    <div className="shrink-0 flex flex-col items-end gap-1.5">
+                                                        {e.tag && (
+                                                            <span className="text-[10px] text-violet-500 bg-violet-50 border border-violet-100 rounded-full px-2.5 py-0.5 whitespace-nowrap">
+                                                                {e.tag}
+                                                            </span>
+                                                        )}
+                                                        <button
+                                                            onClick={() => setMenuEntryId(menuEntryId === e.id ? null : e.id)}
+                                                            className="text-violet-300 hover:text-violet-500 p-0.5"
+                                                            title="更多操作"
+                                                        >
+                                                            <DotsThree size={18} weight="bold" />
+                                                        </button>
+                                                    </div>
+                                                </div>
+                                            )}
+                                            {/* … 展开的操作行 */}
+                                            {menuEntryId === e.id && !(editing?.entryId === e.id) && (
+                                                <div className="flex justify-end gap-2 px-3 pb-3 -mt-1 animate-fade-in">
+                                                    <button
+                                                        onClick={() => { setMenuEntryId(null); setEditing({ room, entryId: e.id, draft: e.text }); }}
+                                                        className="flex items-center gap-1 text-[11px] font-bold text-violet-500 bg-violet-50 border border-violet-100 rounded-xl px-3 py-1.5"
+                                                    >
+                                                        <PencilSimple size={12} weight="bold" /> 改写
+                                                    </button>
+                                                    <button
+                                                        onClick={() => removeEntry(room, e.id)}
+                                                        className="flex items-center gap-1 text-[11px] font-bold text-rose-400 bg-rose-50 border border-rose-100 rounded-xl px-3 py-1.5"
+                                                    >
+                                                        <Trash size={12} weight="bold" /> 删除
+                                                    </button>
+                                                </div>
+                                            )}
+                                        </li>
+                                    ))}
+                                </ul>
+                            )}
+                        </div>
+                    </React.Fragment>
+                );
+            })}
+        </div>
+    );
+};
+
+export default RoomPlatePanel;

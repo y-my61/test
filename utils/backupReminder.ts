@@ -1,1 +1,103 @@
-LyoqCiAqIGJhY2t1cFJlbWluZGVyLnRzCiAqIOOAjOivpeWkh+S7veWVpuOAjeaPkOmGkueahOe6r+mAu+i+kSArIGxvY2FsU3RvcmFnZSDmjIHkuYXljJbjgIIKICoKICog6IOM5pmv77ya57Ov57Gz5py677yIU3VsbHlPU++8ieaYryBsb2NhbC1maXJzdO+8jOWFqOmDqOaVsOaNruWPquWcqOeUqOaIt+iHquW3seeahOa1j+iniOWZqCBJbmRleGVkREIg6YeM77yMCiAqIOa4hee8k+WtmCAvIOaNouiuvuWkhyAvIOW0qea6g+WwseWFqOayoeS6huOAguaJgOS7pemalOS4gOauteaXtumXtOayoeWvvOWHuuWwsea4qeaflOaPkOmGkuS4gOasoeOAggogKgogKiDorr7orqHvvJroh6rljIXlkKvmqKHlnZfvvIjkuI3ov5sgT1NDb250ZXh0IOmCo+WdqOWkpyBpbnRlcmZhY2XvvInvvIzlr7npvZAgV29ya2VyVXBkYXRlUmVtaW5kZXJFdmVudCDnmoTlhpnms5XjgIIKICogIC0g6aKR546H55So5oi35Y+v5Zyo44CM6K6+572uIOKGkiDlpIfku73jgI3ph4zmlLnvvIwxfjMwIOWkqe+8jOm7mOiupCA3IOWkqeOAggogKiAgLSBtYXJrQmFja3VwRG9uZSgpOiDku7vkvZXkuIDmrKHmiJDlip/lr7zlh7ov5LqR5aSH5Lu95ZCO6LCD55So77yM5o6o6L+bIGxhc3RCYWNrdXBBdCDlubbmuIXmjonmj5DphpLmgIHjgIIKICogIC0gc2hvdWxkU2hvd0JhY2t1cFJlbWluZGVyKCk6IFBob25lU2hlbGwg55So5a6D5Yaz5a6a5by55LiN5by544CCCiAqICAtIOe6r+WHveaVsOmDveaOpeWPl+WPr+azqOWFpeeahCBub3fvvIzmlrnkvr8gdml0ZXN0IOebtOa1i+OAggogKi8KCmNvbnN0IEtFWSA9ICdzdWxseW9zX2JhY2t1cF9yZW1pbmRlcic7CmNvbnN0IERBWV9NUyA9IDI0ICogNjAgKiA2MCAqIDEwMDA7CgpleHBvcnQgY29uc3QgQkFDS1VQX1JFTUlOREVSX01JTl9EQVlTID0gMTsKZXhwb3J0IGNvbnN0IEJBQ0tVUF9SRU1JTkRFUl9NQVhfREFZUyA9IDMwOwpleHBvcnQgY29uc3QgQkFDS1VQX1JFTUlOREVSX0RFRkFVTFRfREFZUyA9IDc7CgpleHBvcnQgaW50ZXJmYWNlIEJhY2t1cFJlbWluZGVyU3RhdGUgewogICAgLyoqIOaPkOmGkumXtOmalO+8iOWkqe+8ie+8jDF+MzAgKi8KICAgIGludGVydmFsRGF5czogbnVtYmVyOwogICAgLyoqIOS4iuasoeaIkOWKn+Wkh+S7veeahOaXtumXtOaIs++8iG1z77yJ77ybMCA9IOS7juacquWkh+S7vSAqLwogICAgbGFzdEJhY2t1cEF0OiBudW1iZXI7CiAgICAvKiog5LiK5qyh5by56L+H5o+Q6YaS55qE5pe26Ze05oiz77yIbXPvvInvvJswID0g5LuO5pyq5o+Q6YaS77yI5o+Q6YaS5ZCO6L+b5YWl5LiA5Liq6Ze06ZqU55qE5Ya35Y2077yM6YG/5YWN5aSp5aSp5by577yJICovCiAgICBsYXN0UmVtaW5kZWRBdDogbnVtYmVyOwogICAgLyoqIOmmluasoeingeWIsOatpOiuvuWkh+eahOaXtumXtOaIs++8iG1z77yJ77yb5LuO5pyq5aSH5Lu95pe255So5a6D5b2TIuWkmuS5heayoeWkh+S7vSLnmoTotbfnrpfngrnvvIzpgb/lhY3mlrDnlKjmiLfkuIDoo4XlsLHooqvlv7Xlj6ggKi8KICAgIGZpcnN0U2VlbkF0OiBudW1iZXI7Cn0KCmV4cG9ydCBjb25zdCBjbGFtcFJlbWluZGVyRGF5cyA9IChuOiBudW1iZXIpOiBudW1iZXIgPT4gewogICAgY29uc3QgdiA9IE1hdGgucm91bmQoTnVtYmVyKG4pKTsKICAgIGlmICghTnVtYmVyLmlzRmluaXRlKHYpKSByZXR1cm4gQkFDS1VQX1JFTUlOREVSX0RFRkFVTFRfREFZUzsKICAgIHJldHVybiBNYXRoLm1pbihCQUNLVVBfUkVNSU5ERVJfTUFYX0RBWVMsIE1hdGgubWF4KEJBQ0tVUF9SRU1JTkRFUl9NSU5fREFZUywgdikpOwp9OwoKY29uc3QgcGVyc2lzdCA9IChzOiBCYWNrdXBSZW1pbmRlclN0YXRlKTogdm9pZCA9PiB7CiAgICB0cnkgeyBsb2NhbFN0b3JhZ2Uuc2V0SXRlbShLRVksIEpTT04uc3RyaW5naWZ5KHMpKTsgfSBjYXRjaCB7IC8qIOmakOengeaooeW8j+etie+8muWtmOS4jeS6huWwseeul+S6hiAqLyB9Cn07CgovKioKICog6K+75b2T5YmN54q25oCB77yb57y65a2X5q6155So6buY6K6k6KGl6b2Q44CC6aaW5qyh6K+75Y+W77yIZmlyc3RTZWVuQXQg5Li6IDDvvInml7bmiorlroPplJrliLAgbm93IOW5tuWbnuWGme+8jAogKiDov5nmoLci5LuO5pyq5aSH5Lu9IueahOeUqOaIt+S5n+acieS4quWQiOeQhueahOi1t+eul+eCue+8jOS4jeS8muS4gOi/myBBcHAg5bCx6KKr5o+Q6YaS44CCCiAqLwpleHBvcnQgZnVuY3Rpb24gZ2V0QmFja3VwUmVtaW5kZXJTdGF0ZShub3c6IG51bWJlciA9IERhdGUubm93KCkpOiBCYWNrdXBSZW1pbmRlclN0YXRlIHsKICAgIGxldCByYXc6IFBhcnRpYWw8QmFja3VwUmVtaW5kZXJTdGF0ZT4gPSB7fTsKICAgIHRyeSB7CiAgICAgICAgY29uc3QgcyA9IGxvY2FsU3RvcmFnZS5nZXRJdGVtKEtFWSk7CiAgICAgICAgaWYgKHMpIHJhdyA9IEpTT04ucGFyc2UocykgYXMgUGFydGlhbDxCYWNrdXBSZW1pbmRlclN0YXRlPjsKICAgIH0gY2F0Y2ggeyAvKiDlnY8gSlNPTiDlvZPnqbrlpITnkIYgKi8gfQoKICAgIGNvbnN0IHN0YXRlOiBCYWNrdXBSZW1pbmRlclN0YXRlID0gewogICAgICAgIGludGVydmFsRGF5czogY2xhbXBSZW1pbmRlckRheXMocmF3LmludGVydmFsRGF5cyA/PyBCQUNLVVBfUkVNSU5ERVJfREVGQVVMVF9EQVlTKSwKICAgICAgICBsYXN0QmFja3VwQXQ6IE51bWJlcihyYXcubGFzdEJhY2t1cEF0KSB8fCAwLAogICAgICAgIGxhc3RSZW1pbmRlZEF0OiBOdW1iZXIocmF3Lmxhc3RSZW1pbmRlZEF0KSB8fCAwLAogICAgICAgIGZpcnN0U2VlbkF0OiBOdW1iZXIocmF3LmZpcnN0U2VlbkF0KSB8fCAwLAogICAgfTsKICAgIGlmIChzdGF0ZS5maXJzdFNlZW5BdCA9PT0gMCkgewogICAgICAgIHN0YXRlLmZpcnN0U2VlbkF0ID0gbm93OwogICAgICAgIHBlcnNpc3Qoc3RhdGUpOwogICAgfQogICAgcmV0dXJuIHN0YXRlOwp9CgovKiog6K6+572u5o+Q6YaS6aKR546H77yI5aSp77yJ77yM6L+U5Zue6JC95bqT5ZCO55qE5paw54q25oCB44CCICovCmV4cG9ydCBmdW5jdGlvbiBzZXRCYWNrdXBSZW1pbmRlckludGVydmFsRGF5cyhkYXlzOiBudW1iZXIsIG5vdzogbnVtYmVyID0gRGF0ZS5ub3coKSk6IEJhY2t1cFJlbWluZGVyU3RhdGUgewogICAgY29uc3QgbmV4dCA9IHsgLi4uZ2V0QmFja3VwUmVtaW5kZXJTdGF0ZShub3cpLCBpbnRlcnZhbERheXM6IGNsYW1wUmVtaW5kZXJEYXlzKGRheXMpIH07CiAgICBwZXJzaXN0KG5leHQpOwogICAgcmV0dXJuIG5leHQ7Cn0KCi8qKiDkuIDmrKHmiJDlip/lpIfku73lkI7osIPnlKjvvJrmjqjov5sgbGFzdEJhY2t1cEF077yM5bm25riF5o6J5o+Q6YaS5Ya35Y2077yI5LiL5qyh5Yiw54K56YeN5paw566X77yJ44CCICovCmV4cG9ydCBmdW5jdGlvbiBtYXJrQmFja3VwRG9uZShub3c6IG51bWJlciA9IERhdGUubm93KCkpOiB2b2lkIHsKICAgIHBlcnNpc3QoeyAuLi5nZXRCYWNrdXBSZW1pbmRlclN0YXRlKG5vdyksIGxhc3RCYWNrdXBBdDogbm93LCBsYXN0UmVtaW5kZWRBdDogMCB9KTsKfQoKLyoqIOW8uei/h+aPkOmGkuWQjuiwg+eUqO+8muiusOS4i+aXtumXtO+8jOi/m+WFpeS4gOS4qumXtOmalOeahOWGt+WNtO+8jOmBv+WFjeWPjeWkjeW8ueOAgiAqLwpleHBvcnQgZnVuY3Rpb24gbWFya0JhY2t1cFJlbWluZGVyU2hvd24obm93OiBudW1iZXIgPSBEYXRlLm5vdygpKTogdm9pZCB7CiAgICBwZXJzaXN0KHsgLi4uZ2V0QmFja3VwUmVtaW5kZXJTdGF0ZShub3cpLCBsYXN0UmVtaW5kZWRBdDogbm93IH0pOwp9CgovKioKICog5piv5ZCm6K+l5by55o+Q6YaS77yaCiAqICAtIOi3neS4iuasoeWkh+S7ve+8iOS7juacquWkh+S7veWImei3nemmluinge+8ieW3sui2hei/hyBpbnRlcnZhbERheXPvvIzkuJQKICogIC0g6Led5LiK5qyh5o+Q6YaS5Lmf5bey6LaF6L+HIGludGVydmFsRGF5c++8iOaPkOmGkuWGt+WNtO+8m+Wkh+S7veaIkOWKn+S8muaKiuWug+a4hSAw77yM5LqO5piv6Ieq54S25LiN5YaN5by577yJ44CCCiAqLwpleHBvcnQgZnVuY3Rpb24gc2hvdWxkU2hvd0JhY2t1cFJlbWluZGVyKG5vdzogbnVtYmVyID0gRGF0ZS5ub3coKSk6IGJvb2xlYW4gewogICAgY29uc3Qgc3QgPSBnZXRCYWNrdXBSZW1pbmRlclN0YXRlKG5vdyk7CiAgICBjb25zdCBpbnRlcnZhbE1zID0gc3QuaW50ZXJ2YWxEYXlzICogREFZX01TOwogICAgY29uc3QgYmFja3VwQW5jaG9yID0gc3QubGFzdEJhY2t1cEF0ID4gMCA/IHN0Lmxhc3RCYWNrdXBBdCA6IHN0LmZpcnN0U2VlbkF0OwogICAgaWYgKG5vdyAtIGJhY2t1cEFuY2hvciA8IGludGVydmFsTXMpIHJldHVybiBmYWxzZTsKICAgIGlmIChub3cgLSBzdC5sYXN0UmVtaW5kZWRBdCA8IGludGVydmFsTXMpIHJldHVybiBmYWxzZTsKICAgIHJldHVybiB0cnVlOwp9CgovKiog6Led5LiK5qyh5aSH5Lu96L+H5LqG5Yeg5aSp77yI5ZCR5LiL5Y+W5pW077yJ77yb5LuO5pyq5aSH5Lu96L+U5ZueIG51bGzjgILnu5nlvLnnqpfmlofmoYjnlKjjgIIgKi8KZXhwb3J0IGZ1bmN0aW9uIGRheXNTaW5jZUxhc3RCYWNrdXAobm93OiBudW1iZXIgPSBEYXRlLm5vdygpKTogbnVtYmVyIHwgbnVsbCB7CiAgICBjb25zdCBzdCA9IGdldEJhY2t1cFJlbWluZGVyU3RhdGUobm93KTsKICAgIGlmIChzdC5sYXN0QmFja3VwQXQgPD0gMCkgcmV0dXJuIG51bGw7CiAgICByZXR1cm4gTWF0aC5tYXgoMCwgTWF0aC5mbG9vcigobm93IC0gc3QubGFzdEJhY2t1cEF0KSAvIERBWV9NUykpOwp9Cg==
+/**
+ * backupReminder.ts
+ * 「该备份啦」提醒的纯逻辑 + localStorage 持久化。
+ *
+ * 背景：糯米机（SullyOS）是 local-first，全部数据只在用户自己的浏览器 IndexedDB 里，
+ * 清缓存 / 换设备 / 崩溃就全没了。所以隔一段时间没导出就温柔提醒一次。
+ *
+ * 设计：自包含模块（不进 OSContext 那坨大 interface），对齐 WorkerUpdateReminderEvent 的写法。
+ *  - 频率用户可在「设置 → 备份」里改，1~30 天，默认 7 天。
+ *  - markBackupDone(): 任何一次成功导出/云备份后调用，推进 lastBackupAt 并清掉提醒态。
+ *  - shouldShowBackupReminder(): PhoneShell 用它决定弹不弹。
+ *  - 纯函数都接受可注入的 now，方便 vitest 直测。
+ */
+
+const KEY = 'sullyos_backup_reminder';
+const DAY_MS = 24 * 60 * 60 * 1000;
+
+export const BACKUP_REMINDER_MIN_DAYS = 1;
+export const BACKUP_REMINDER_MAX_DAYS = 30;
+export const BACKUP_REMINDER_DEFAULT_DAYS = 7;
+
+export interface BackupReminderState {
+    /** 提醒间隔（天），1~30 */
+    intervalDays: number;
+    /** 上次成功备份的时间戳（ms）；0 = 从未备份 */
+    lastBackupAt: number;
+    /** 上次弹过提醒的时间戳（ms）；0 = 从未提醒（提醒后进入一个间隔的冷却，避免天天弹） */
+    lastRemindedAt: number;
+    /** 首次见到此设备的时间戳（ms）；从未备份时用它当"多久没备份"的起算点，避免新用户一装就被念叨 */
+    firstSeenAt: number;
+}
+
+export const clampReminderDays = (n: number): number => {
+    const v = Math.round(Number(n));
+    if (!Number.isFinite(v)) return BACKUP_REMINDER_DEFAULT_DAYS;
+    return Math.min(BACKUP_REMINDER_MAX_DAYS, Math.max(BACKUP_REMINDER_MIN_DAYS, v));
+};
+
+const persist = (s: BackupReminderState): void => {
+    try { localStorage.setItem(KEY, JSON.stringify(s)); } catch { /* 隐私模式等：存不了就算了 */ }
+};
+
+/**
+ * 读当前状态；缺字段用默认补齐。首次读取（firstSeenAt 为 0）时把它锚到 now 并回写，
+ * 这样"从未备份"的用户也有个合理的起算点，不会一进 App 就被提醒。
+ */
+export function getBackupReminderState(now: number = Date.now()): BackupReminderState {
+    let raw: Partial<BackupReminderState> = {};
+    try {
+        const s = localStorage.getItem(KEY);
+        if (s) raw = JSON.parse(s) as Partial<BackupReminderState>;
+    } catch { /* 坏 JSON 当空处理 */ }
+
+    const state: BackupReminderState = {
+        intervalDays: clampReminderDays(raw.intervalDays ?? BACKUP_REMINDER_DEFAULT_DAYS),
+        lastBackupAt: Number(raw.lastBackupAt) || 0,
+        lastRemindedAt: Number(raw.lastRemindedAt) || 0,
+        firstSeenAt: Number(raw.firstSeenAt) || 0,
+    };
+    if (state.firstSeenAt === 0) {
+        state.firstSeenAt = now;
+        persist(state);
+    }
+    return state;
+}
+
+/** 设置提醒频率（天），返回落库后的新状态。 */
+export function setBackupReminderIntervalDays(days: number, now: number = Date.now()): BackupReminderState {
+    const next = { ...getBackupReminderState(now), intervalDays: clampReminderDays(days) };
+    persist(next);
+    return next;
+}
+
+/** 一次成功备份后调用：推进 lastBackupAt，并清掉提醒冷却（下次到点重新算）。 */
+export function markBackupDone(now: number = Date.now()): void {
+    persist({ ...getBackupReminderState(now), lastBackupAt: now, lastRemindedAt: 0 });
+}
+
+/** 弹过提醒后调用：记下时间，进入一个间隔的冷却，避免反复弹。 */
+export function markBackupReminderShown(now: number = Date.now()): void {
+    persist({ ...getBackupReminderState(now), lastRemindedAt: now });
+}
+
+/**
+ * 是否该弹提醒：
+ *  - 距上次备份（从未备份则距首见）已超过 intervalDays，且
+ *  - 距上次提醒也已超过 intervalDays（提醒冷却；备份成功会把它清 0，于是自然不再弹）。
+ */
+export function shouldShowBackupReminder(now: number = Date.now()): boolean {
+    const st = getBackupReminderState(now);
+    const intervalMs = st.intervalDays * DAY_MS;
+    const backupAnchor = st.lastBackupAt > 0 ? st.lastBackupAt : st.firstSeenAt;
+    if (now - backupAnchor < intervalMs) return false;
+    if (now - st.lastRemindedAt < intervalMs) return false;
+    return true;
+}
+
+/** 距上次备份过了几天（向下取整）；从未备份返回 null。给弹窗文案用。 */
+export function daysSinceLastBackup(now: number = Date.now()): number | null {
+    const st = getBackupReminderState(now);
+    if (st.lastBackupAt <= 0) return null;
+    return Math.max(0, Math.floor((now - st.lastBackupAt) / DAY_MS));
+}

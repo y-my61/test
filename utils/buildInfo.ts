@@ -1,1 +1,13 @@
-LyoqCiAqIOaehOW7uueJiOacrOebuOWFs+W4uOmHj+eahOWNleS4gOadpea6kOOAggogKgogKiBgX19CVUlMRF9CUkFOQ0hfX2AgLyBgX19CVUlMRF9DT01NSVRfX2Ag5pivIHZpdGUuY29uZmlnLnRzIOazqOWFpeeahOWFqOWxgOW4uOmHj++8iHByb2Qg5Lmf5pyJ55yf5YC877yJ77yMCiAqIOS9huOAjGJyYW5jaEBjb21taXTjgI3ov5nkuKogdXNlci1mYWNpbmcg5qCH562+5a2X56ym5Liy5Y6f5pys5ZyoIEJ1aWxkQmFkZ2UgLyBWZXJzaW9uSW5mbyAvIERldkRlYnVnUGFuZWwKICog5LiJ5aSE5YiG5Yir546w5ou877yM5oOz5YqgIGRpcnR5IOagh+OAgeaIquefrSBjb21taXQg5LmL57G76KaB5pS55LiJ5aSE4oCU4oCU5oq95Yiw6L+Z6YeM6ZuG5Lit57u05oqk44CCCiAqLwoKLyoqICJicmFuY2hAc2hvcnRDb21taXQiIOW9ouW8j+eahOaehOW7uuagh+etvu+8m0J1aWxkQmFkZ2Ug6KeS5qCH44CB6K6+572u6aG1IFZlcnNpb25JbmZv44CB6LCD6K+V6Z2i5p2/6YO955So6L+Z5LiA5Lu944CCICovCmV4cG9ydCBjb25zdCBCVUlMRF9MQUJFTCA9IGAke19fQlVJTERfQlJBTkNIX199QCR7X19CVUlMRF9DT01NSVRfX31gOwoKLyoqIOiuvue9rumhteW6lemDqOeahOS6p+WTgeeJiOacrOWQje+8iOaJi+W3pee7tOaKpO+8ie+8jOi3n+aehOW7uiBoYXNoIOaYr+S4pOeggeS6i+KAlOKAlOWPkeeJiOWJjeaUuei/memHjOOAgiAqLwpleHBvcnQgY29uc3QgQVBQX1ZFUlNJT04gPSAndjIuMiAoUmVhbHRpbWUgQXdhcmVuZXNzKSc7Cg==
+/**
+ * 构建版本相关常量的单一来源。
+ *
+ * `__BUILD_BRANCH__` / `__BUILD_COMMIT__` 是 vite.config.ts 注入的全局常量（prod 也有真值），
+ * 但「branch@commit」这个 user-facing 标签字符串原本在 BuildBadge / VersionInfo / DevDebugPanel
+ * 三处分别现拼，想加 dirty 标、截短 commit 之类要改三处——抽到这里集中维护。
+ */
+
+/** "branch@shortCommit" 形式的构建标签；BuildBadge 角标、设置页 VersionInfo、调试面板都用这一份。 */
+export const BUILD_LABEL = `${__BUILD_BRANCH__}@${__BUILD_COMMIT__}`;
+
+/** 设置页底部的产品版本名（手工维护），跟构建 hash 是两码事——发版前改这里。 */
+export const APP_VERSION = 'v2.2 (Realtime Awareness)';

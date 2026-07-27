@@ -1,1 +1,406 @@
-LyoqCiAqIOaUu+eVpeacrCAoR3VpZGVib29rKSDigJQgUHJvbXB0IFRlbXBsYXRlcyB2MgogKgogKiDmoLjlv4PmpoLlv7XvvJrop5LoibLnjqnkuIDkuKoi5pS755Wl55So5oi3IueahCBnYWxnYW1lIOWwj+a4uOaIj+OAggogKiDop4bop5Llj43ovazvvJrop5LoibLmmK/njqnlrrbvvIznlKjmiLfmmK/ooqvmlLvnlaXlr7nosaHjgIIKICogR00g5pivIGdhbGdhbWUg5byP5peB55m9IOKAlCDotJ/otKPlnLrmma/mj4/lhpnjgIHmsJTmsJvokKXpgKDjgIHliafmg4Xmjqjov5vjgIIKICog6KeS6Imy5pyJIG1ldGEg5oSP6K+G77yI55+l6YGT6L+Z5piv5Liq5ri45oiP77yJ77yM5L2G5Lmf5Lya5rKJ5rW45YW25Lit44CCCiAqCiAqIHYyIOaUueWKqO+8mgogKiAtIEdNIOS7jiLlhrfpnaLmkq3miqXlkZgi5Y+Y5Li6IGdhbGdhbWUg5Y+Z5LqL6ICF77yM5aSn6YeP5Zy65pmv5o+P5YaZ5ZKM5Ymn5oOF5o6o6L+bCiAqIC0g5YeP5bCR6YCJ6aG55YiG5p6Q56+H5bmF77yM5aKe5Yqg5Ymn5oOF5Y+Z5LqL5ZKM6KeS6Imy5LqS5Yqo5o+P5YaZCiAqIC0g5pSv5oyB5bm75oOz5Zy65pmv6K6+5a6a77yI5ri45oiP5LiW55WML+Wwj+ivtC/lvILkuJbnlYznrYnvvIkKICovCgppbXBvcnQgeyBDaGFyYWN0ZXJQcm9maWxlLCBVc2VyUHJvZmlsZSwgR3VpZGVib29rT3B0aW9uLCBHdWlkZWJvb2tSb3VuZCB9IGZyb20gJy4uL3R5cGVzJzsKaW1wb3J0IHsgQ29udGV4dEJ1aWxkZXIgfSBmcm9tICcuL2NvbnRleHQnOwoKLyoqIOaehOW7uuWMheWQq+acgOi/keiBiuWkqeiusOW9leeahOS4iuS4i+aWh+eJh+autSAqLwpmdW5jdGlvbiBidWlsZFJlY2VudENoYXRCbG9jayhyZWNlbnRNZXNzYWdlcz86IHN0cmluZyk6IHN0cmluZyB7CiAgICBpZiAoIXJlY2VudE1lc3NhZ2VzKSByZXR1cm4gJyc7CiAgICByZXR1cm4gYAojIyMg5pyA6L+R55qE6IGK5aSp6K6w5b2V5Y+C6ICDIChSZWNlbnQgQ2hhdCBDb250ZXh0KQrku6XkuIvmmK/kvaDlkowkeyd7dXNlcn0nfeacgOi/keeahOWvueivne+8jOWPr+S7peS9nOS4uuaOqOeQhuWSjOWPjeW6lOeahOS+neaNru+8mgoke3JlY2VudE1lc3NhZ2VzfQotLS0KYDsKfQoKLyoqCiAqIOaehOW7uuW8gOWcuiBwcm9tcHQg4oCUIGdhbGdhbWUg6aOO5qC8CiAqLwpleHBvcnQgZnVuY3Rpb24gYnVpbGRPcGVuaW5nUHJvbXB0KAogICAgY2hhcjogQ2hhcmFjdGVyUHJvZmlsZSwKICAgIHVzZXI6IFVzZXJQcm9maWxlLAogICAgaW5pdGlhbEFmZmluaXR5OiBudW1iZXIsCiAgICBzY2VuYXJpb0hpbnQ6IHN0cmluZywKICAgIG1vZGU6ICdtYW51YWwnIHwgJ2F1dG8nLAogICAgcmVjZW50TWVzc2FnZXM/OiBzdHJpbmcsCiAgICBwYXN0SW5zaWdodHM/OiBzdHJpbmdbXQopOiBzdHJpbmcgewogICAgY29uc3QgY29yZUNvbnRleHQgPSBDb250ZXh0QnVpbGRlci5idWlsZENvcmVDb250ZXh0KGNoYXIsIHVzZXIsIHRydWUpOwogICAgY29uc3QgY2hhdEJsb2NrID0gYnVpbGRSZWNlbnRDaGF0QmxvY2socmVjZW50TWVzc2FnZXMpPy5yZXBsYWNlKCd7dXNlcn0nLCB1c2VyLm5hbWUpOwoKICAgIGNvbnN0IGluc2lnaHRzQmxvY2sgPSBwYXN0SW5zaWdodHMgJiYgcGFzdEluc2lnaHRzLmxlbmd0aCA+IDAgPyBgCiMjIyDkvaDku47kuYvliY3nmoTmuLjmiI/kuK3np6/ntK/nmoTlj5HnjrAgKFBhc3QgR2FtZSBJbnNpZ2h0cykK5L2g5bey57uP546p6L+H6L+Z5Liq5ri45oiP5LqG77yM6L+Z5piv5L2g5LmL5YmN5Y+R546w55qE5YWz5LqOICR7dXNlci5uYW1lfSDnmoTkuovmg4XvvJoKJHtwYXN0SW5zaWdodHMubWFwKChzLCBpKSA9PiBgJHtpICsgMX0uICR7c31gKS5qb2luKCdcbicpfQrlj6/ku6XlnKjlvIDlnLrnmb3ph4zoh6rnhLblnLDmj5DliLDkvaDmg7Pov5vkuIDmraXpqozor4HmiJbmjqjnv7vlhbbkuK3mn5DkuKrliKTmlq3igJTigJTov5nkvJrorqkke3VzZXIubmFtZX3mhJ/lj5fliLDkvaDnnJ/nmoTlnKjnp6/ntK/lr7lUQeeahOiupOefpeOAggotLS0KYCA6ICcnOwoKICAgIHJldHVybiBgJHtjb3JlQ29udGV4dH0KJHtjaGF0QmxvY2t9CiR7aW5zaWdodHNCbG9ja30KLS0tCgojIyDwn46uIEdhbGdhbWUg5qih5byP77ya5pS755Wl5pysCgrkvaDvvIgke2NoYXIubmFtZX3vvInmraPlnKjnjqnkuIDkuKrmiYvmnLrkuIrnmoQgZ2FsZ2FtZSDlsI/muLjmiI/vvIzlj6si5pS755Wl5pysIuOAggrov5nkuKrmuLjmiI/nmoTop4TliJnmmK/vvJoqKuS9oOimgeaUu+eVpSR7dXNlci5uYW1lfSoq44CC5rKh6ZSZ77yM6KeS6Imy5pS755Wl55So5oi377yM5Y+N6L+H5p2l55qE44CCCgojIyMg5ri45oiP6K6+5a6aCi0g6L+Z5Y+q5piv5LiA5Liq5omT5Y+R5pe26Ze055qE5bCP5ri45oiP77yM5LiN5Lya5b2x5ZON5L2g5ZKMJHt1c2VyLm5hbWV95Zyo5ri45oiP5LmL5aSW55qE5YWz57O7Ci0g5L2g5pyJICoqbWV0YSDmhI/or4YqKu+8muS9oOefpemBk+i/meaYr+S4qua4uOaIj++8jOWPr+S7peWQkOanvea4uOaIj+acuuWItuOAgeWvueWlveaEn+W6puaVsOWAvOWPkeihqOaEj+ingQotIEdNIOaYryAqKmdhbGdhbWUg6aOO5qC855qE5peB55m9KirvvJrotJ/otKPmj4/lhpnlnLrmma/jgIHokKXpgKDmsJvlm7TjgIHmjqjov5vliafmg4XvvIzmlofnrJTnu4bohbvmnInnlLvpnaLmhJ8KLSDkvaDnmoTliJ3lp4vlpb3mhJ/luqbmmK8gKioke2luaXRpYWxBZmZpbml0eX0qKu+8iOiMg+WbtOS4jemZkO+8jOWPr+S7peaYr+i0n+aVsO+8iQotICR7c2NlbmFyaW9IaW50ID8gYPCfjJ8g5bm75oOz5Zy65pmv6K6+5a6a77yaJHtzY2VuYXJpb0hpbnR9XG7or7fln7rkuo7ov5nkuKrkuJbnlYzop4LmnaXlsZXlvIDmlYXkuovvvIxHTSDnmoTlnLrmma/mj4/lhpnopoHlrozlhajmsonmtbjlnKjov5nkuKrorr7lrprkuK3vvIFgIDogJ+WcuuaZr+eUsSBHTSDpmo/mnLrnlJ/miJDkuIDkuKrmnInotqPnmoTlubvmg7PlnLrmma8nfQotIOaooeW8j++8miR7bW9kZSA9PT0gJ2F1dG8nID8gJ0FJ6L6F5Yqp77yIR00g5Ye66aKY5ZKM6YCJ6aG577yM55So5oi356Gu6K6k5ZCO5L2g6YCJ77yJJyA6ICfmiYvliqjvvIjnlKjmiLflh7rpopjvvIzkvaDpgInvvIknfQoKIyMjIOS9oOeahOS7u+WKoQrnlJ/miJDmuLjmiI/nmoQgKipnYWxnYW1lIOmjjuagvOW8gOWcuueZvSoq44CC6L+Z5piv5LiA5Liq5aSa5q6156m/5o+S55qE5a+56K+d77yMR00g5ZKM5L2g5Lqk5pu/5Y+R6KiA44CCCkdNIOimgeWDjyBnYWxnYW1lIOS4gOagt+aPj+WGmeWcuuaZr++8iOWkqeawlOOAgeWFiee6v+OAgeeOr+Wig+OAgeS6uueJqeeKtuaAge+8ie+8jOS4jeaYr+WGt+WGsOWGsOeahOaSreaKpeOAggoKIyMjIOi+k+WHuuagvOW8jwrkuKXmoLzkvb/nlKjku6XkuIsgSlNPTiDmoLzlvI/ovpPlh7rvvIzkuI3opoHovpPlh7rku7vkvZXlhbbku5blhoXlrrnvvJoKClxgXGBcYGpzb24KewogICJzZWdtZW50cyI6IFsKICAgIHsgInNwZWFrZXIiOiAiZ20iLCAidGV4dCI6ICLvvIhnYWxnYW1lIOmjjuagvOeahOWcuuaZr+aPj+WGmeKAlOKAlOWFiee6v+OAgeWkqeawlOOAgeeOr+Wig+OAgeinkuiJsuWHuuWcuu+8jOimgeacieeUu+mdouaEn++8jDItNOWPpe+8iSIgfSwKICAgIHsgInNwZWFrZXIiOiAiY2hhciIsICJ0ZXh0IjogIu+8iOS9oOeci+WIsOWIneWni+WlveaEn+W6puWSjOWcuuaZr+WQjueahOWPjeW6lO+8jOimgeespuWQiOS9oOeahOaAp+agvCR7cGFzdEluc2lnaHRzICYmIHBhc3RJbnNpZ2h0cy5sZW5ndGggPiAwID8gJ++8m+WmguaenOiHqueEtueahOivne+8jOWPr+S7peaPkOWIsOS4iuasoea4uOaIj+mHjOWPkeeOsOeahOafkOS7tuS6i++8jOihqOekuuS9oOaDs+e7p+e7rea1i+ivleaIluaOqOe/u+WugycgOiAnJ33vvIkiIH0sCiAgICB7ICJzcGVha2VyIjogImdtIiwgInRleHQiOiAi77yI57un57ut5o6o6L+b5Zy65pmv77yM5o+P5YaZJHt1c2VyLm5hbWV95Ye6546w55qE55S76Z2i77yM5YOPIGdhbGdhbWUg6YeM6YGH6KeB5pS755Wl5a+56LGh55qE6YKj56eN5Y+Z5LqL77yJIiB9LAogICAgeyAic3BlYWtlciI6ICJjaGFyIiwgInRleHQiOiAi77yI5L2g5a+55Zy65pmvL+iuvuWumueahOWPjeW6lO+8jOWPr+S7peWQkOanveS5n+WPr+S7peaEn+aFqO+8jOS9k+eOsOS9oOeahOaAp+agvO+8iSIgfSwKICAgIHsgInNwZWFrZXIiOiAiZ20iLCAidGV4dCI6ICLvvIjmgLvnu5PlnLrmma/vvIzpooTlkYrnrKzkuIDlm57lkIjnmoTmg4XlooPvvIznlZnkuIvmgqzlv7XmhJ/vvIkiIH0KICBdCn0KXGBcYFxgCgojIyMg6KaB5rGCCjEuICoqR00g55qE6K+t5rCUKirvvJpnYWxnYW1lIOWPmeS6i+iAhemjjuagvOKAlOKAlOaWh+eslOS8mOe+juacieeUu+mdouaEn++8jOaPj+WGmeWFieW9seOAgeawlOawm+OAgeS6uueJqeihqOaDheWSjOWKqOS9nOOAguWBtuWwlOWPr+S7peiiq+inkuiJsuaJk+WylOaXtuW+ruWmmeegtOWKnwoyLiAqKuinkuiJsueahOivreawlCoq77ya5a6M5YWo56ym5ZCI5L2g55qE5qC45b+D5oCn5qC877yM5a+55aW95oSf5bqm5pWw5YC85pyJ55yf5a6e5Y+N5bqU77yILTEwMCDkvJrnoLTpmLLvvIw4MCDkvJrlvpfmhI/vvIwwIOS8muaXoOivreetie+8iQozLiAqKuWcuuaZr+aPj+WGmeimgeS4sOWvjCoq77ya5LiN5pivIuWKoOi9veWcuuaZryLvvIzogIzmmK/nnJ/nmoTlnKjlhpnkuIDkuKogZ2FsZ2FtZSDlvIDlnLrigJTigJTmnInop4bop4njgIHmnInmsJvlm7TjgIHmnInmg4Xnu6oKNC4gc2VnbWVudHMg5pWw6YePIDQtNiDmnaHljbPlj6/vvIzkuI3opoHlpKrplb8KNS4g5Z+65LqO5L2g5a+5JHt1c2VyLm5hbWV955qE5LqG6Kej77yI6K6w5b+G44CB5Y2w6LGh44CB5pyA6L+R6IGK5aSp77yJ5p2l5Yaz5a6a5L2g55qE5oCB5bqm5ZKM5Y+N5bqUCjYuICR7c2NlbmFyaW9IaW50ID8gJ+S4gOWumuimgeWbtOe7leiuvuWumueahOW5u+aDs+WcuuaZr+WxleW8gO+8geiuqeeOqeWutuaEn+WPl+WIsOS4lueVjOingueahOayiea1uOaEnycgOiAn6Ieq55Sx5Y+R5oyl5LiA5Liq5pyJ6Laj55qE5bm75oOz5Zy65pmvJ30KNy4gJHtwYXN0SW5zaWdodHMgJiYgcGFzdEluc2lnaHRzLmxlbmd0aCA+IDAgPyAnKiropoHkvZPnjrDot6jlsYDnp6/ntK/mhJ8qKu+8muS9oOS4jeaYr+esrOS4gOasoeeOqeS6hu+8jOS9oOacieS6huS4gOS6m+enr+e0r+eahOWIpOaWreKAlOKAlOWcqOW8gOWcuumHjOiHqueEtua1gemcsuWHuuadpe+8jOS9huS4jeimgeW/teeov+WtkCcgOiAn6L+Z5piv56ys5LiA5qyh546p77yM55So5paw6bKc5oSf5byA5Zy6J31gOwp9CgovKioKICog5p6E5bu65Zue5ZCIIHByb21wdCDigJQgZ2FsZ2FtZSDlj5nkuosgKyDop5LoibLpgInmi6kKICovCmV4cG9ydCBmdW5jdGlvbiBidWlsZFJvdW5kUHJvbXB0KAogICAgY2hhcjogQ2hhcmFjdGVyUHJvZmlsZSwKICAgIHVzZXI6IFVzZXJQcm9maWxlLAogICAgY3VycmVudEFmZmluaXR5OiBudW1iZXIsCiAgICByb3VuZE51bWJlcjogbnVtYmVyLAogICAgbWF4Um91bmRzOiBudW1iZXIsCiAgICBvcHRpb25zOiBHdWlkZWJvb2tPcHRpb25bXSwKICAgIHByZXZpb3VzUm91bmRzOiBHdWlkZWJvb2tSb3VuZFtdLAogICAgc2NlbmFyaW9IaW50OiBzdHJpbmcsCiAgICByZWNlbnRNZXNzYWdlcz86IHN0cmluZywKICAgIHdvcmxkQ29udGV4dD86IHN0cmluZywKICAgIGRpcmVjdGlvbkhpbnQ/OiBzdHJpbmcsCiAgICByb3VuZFNjZW5hcmlvPzogc3RyaW5nCik6IHN0cmluZyB7CiAgICBjb25zdCBjb3JlQ29udGV4dCA9IENvbnRleHRCdWlsZGVyLmJ1aWxkQ29yZUNvbnRleHQoY2hhciwgdXNlciwgdHJ1ZSk7CiAgICBjb25zdCBjaGF0QmxvY2sgPSBidWlsZFJlY2VudENoYXRCbG9jayhyZWNlbnRNZXNzYWdlcyk/LnJlcGxhY2UoJ3t1c2VyfScsIHVzZXIubmFtZSk7CgogICAgbGV0IHJvdW5kSGlzdG9yeSA9ICcnOwogICAgaWYgKHByZXZpb3VzUm91bmRzLmxlbmd0aCA+IDApIHsKICAgICAgICByb3VuZEhpc3RvcnkgPSAnXG4jIyMg5LmL5YmN55qE5Ymn5oOF5Zue6aG+XG4nOwogICAgICAgIHByZXZpb3VzUm91bmRzLmZvckVhY2gociA9PiB7CiAgICAgICAgICAgIGNvbnN0IGNob3NlbiA9IHIub3B0aW9uc1tyLmNoYXJDaG9pY2VdOwogICAgICAgICAgICByb3VuZEhpc3RvcnkgKz0gYOesrCR7ci5yb3VuZE51bWJlcn3lm57lkIg6IOOAjCR7ci5nbU5hcnJhdGlvbj8uc2xpY2UoMCwgNTApfS4uLuOAjeKGkiDkvaDpgInkuobjgIwke2Nob3Nlbj8udGV4dCB8fCAnPyd944CNKCR7Y2hvc2VuPy5hZmZpbml0eSA+PSAwID8gJysnIDogJyd9JHtjaG9zZW4/LmFmZmluaXR5fSnvvIzlpb3mhJ/luqYgJHtyLmFmZmluaXR5QmVmb3JlfSDihpIgJHtyLmFmZmluaXR5QWZ0ZXJ9XG5gOwogICAgICAgIH0pOwogICAgfQoKICAgIGNvbnN0IG9wdGlvbnNMaXN0ID0gb3B0aW9ucy5tYXAoKG8sIGkpID0+CiAgICAgICAgYCR7U3RyaW5nLmZyb21DaGFyQ29kZSg2NSArIGkpfS4gJHtvLnRleHR9YAogICAgKS5qb2luKCdcbicpOwoKICAgIGNvbnN0IHNjb3JlUmV2ZWFsID0gb3B0aW9ucy5tYXAoKG8sIGkpID0+CiAgICAgICAgYCR7U3RyaW5nLmZyb21DaGFyQ29kZSg2NSArIGkpfTogJHtvLmFmZmluaXR5ID49IDAgPyAnKycgOiAnJ30ke28uYWZmaW5pdHl9YAogICAgKS5qb2luKCcgIHwgICcpOwoKICAgIGNvbnN0IGlzTGF0ZUdhbWUgPSByb3VuZE51bWJlciA+PSBtYXhSb3VuZHMgLSAxOwoKICAgIC8vIEJ1aWxkIHdvcmxkIGNvbnRleHQgYmxvY2sgZnJvbSBvcGVuaW5nIG5hcnJhdGl2ZQogICAgY29uc3Qgd29ybGRCbG9jayA9IHdvcmxkQ29udGV4dCA/IGAKIyMjIOKaoO+4jyDlt7Llu7rnq4vnmoTkuJbnlYzop4LlkozlnLrmma/vvIjlvIDlnLrml7YgR00g5o+P6L+w55qE77yM5b+F6aG75bu257ut77yB77yJCiR7d29ybGRDb250ZXh0fQotLS0KYCA6ICcnOwoKICAgIGNvbnN0IGRpcmVjdGlvbkJsb2NrID0gZGlyZWN0aW9uSGludCA/IGBcbueUqOaIt+W4jOacm+WJp+aDheW+gOi/meS4quaWueWQkeWPkeWxlTogJHtkaXJlY3Rpb25IaW50fWAgOiAnJzsKICAgIGNvbnN0IHJvdW5kU2NlbmFyaW9CbG9jayA9IHJvdW5kU2NlbmFyaW8gPyBgXG4jIyMg5pys5Zue5ZCI5Zy65pmv6K6+5a6a77yIJHt1c2VyLm5hbWV95oyH5a6a55qE77yJXG4ke3JvdW5kU2NlbmFyaW99XG5HTSDor7flnKjov5nkuKrlnLrmma/ln7rnoYDkuIrlsZXlvIDlj5nkuovvvIFgIDogJyc7CgogICAgcmV0dXJuIGAke2NvcmVDb250ZXh0fQoke2NoYXRCbG9ja30KJHt3b3JsZEJsb2NrfQotLS0KCiMjIPCfjq4g5pS755Wl5pysIMK3IOesrCAke3JvdW5kTnVtYmVyfSDlm57lkIggKOWFsSAke21heFJvdW5kc30g5Zue5ZCIKSR7aXNMYXRlR2FtZSA/ICcg4pqhIOmrmOa9rumYtuautScgOiAnJ30KCuS9oO+8iCR7Y2hhci5uYW1lfe+8ieato+WcqOeOqSLmlLvnlaUke3VzZXIubmFtZX0i55qEIGdhbGdhbWUg5bCP5ri45oiP44CCCuW9k+WJjeWlveaEn+W6pjogKioke2N1cnJlbnRBZmZpbml0eX0qKgoke3NjZW5hcmlvSGludCA/IGDlnLrmma/kuJbnlYzop4I6ICR7c2NlbmFyaW9IaW50fWAgOiAnJ30ke2RpcmVjdGlvbkJsb2NrfQoke3JvdW5kSGlzdG9yeX0KJHtyb3VuZFNjZW5hcmlvQmxvY2t9CgojIyMg5pys5Zue5ZCI6YCJ6aG5CiR7dXNlci5uYW1lfee7meS9oOWHuuS6huS7peS4i+mAiemhue+8mgoKJHtvcHRpb25zTGlzdH0KCiMjIyDliIbmlbDmj63mmZPvvIjpgInlrozkuYvlkI7miY3og73nnIvliLDnmoTnnJ/lrp7liIbmlbDvvIzkvaDlnKggaW5uZXJfdGhvdWdodCDph4zlhYjpooTmtYvvvIzpgInlrozlho3nnIvvvIkKJHtzY29yZVJldmVhbH0KCiMjIyDovpPlh7rmoLzlvI8K5Lil5qC85L2/55So5Lul5LiLIEpTT04g5qC85byP6L6T5Ye677yaCgpcYFxgXGBqc29uCnsKICAiZ21fbmFycmF0aW9uIjogIu+8iOmHjeimge+8gTMtNeWPpSBnYWxnYW1lIOmjjuagvOeahOWJp+aDheaOqOi/m+KAlOKAlOaPj+WGmeWcuuaZr+WPmOWMluOAgeinkuiJsumXtOeahOS6kuWKqOeUu+mdouOAgeawm+WbtOi9rOaNouOAguimgeaOpee7reS4iuS4gOWbnuWQiOeahOWJp+aDheWPkeWxle+8jOWDj+WcqOWGmeS4gOS4qui/nue7reeahOinhuinieWwj+ivtOOAgiR7aXNMYXRlR2FtZSA/ICfov5nmmK/lkI7mnJ/lm57lkIjvvIzliafmg4XopoHotbDlkJHpq5jmva7miJbovazmipjvvIEnIDogJyd977yJIiwKICAiaW5uZXJfdGhvdWdodCI6ICLvvIgyLTPlj6XkvaDnmoTlhoXlv4PmtLvliqjvvIzljIXlkKvkuKTlsYLvvJrikaDkvaDmiZPnrpfpgInlk6rkuKrjgIHkuLrku4DkuYjvvJvikaHkvaDpooTmtYske3VzZXIubmFtZX3kvJrmiorlk6rkuKrpgInpobnliIbmlbDorr7mnIDpq5jigJTigJTov5nkuKrpooTmtYvopoHkvZPnjrDkvaDlr7lUQeeahOS6huino++8jOavlOWmgidUQeW6lOivpeS8muaKikHorr7mnIDpq5jvvIzlm6DkuLpUQeWcqOaEj+eahOaYr1jogIzkuI3mmK9ZJ+OAguazqOaEj++8muatpOaXtuS9oOi/mOS4jeefpemBk+S4iumdoueahOecn+WunuWIhuaVsO+8iSIsCiAgImNob2ljZSI6IDAsCiAgInJlYWN0aW9uIjogIu+8iOeci+WIsOS4iumdouaPreaZk+eahOecn+WunuWIhuaVsOWQjueahOaDhee7quWPjeW6lO+8jDEtMuWPpe+8jOiejeWFpeW9k+WJjeWJp+aDheWcuuaZr+OAguazqOaEj++8muimgeWfuuS6juecn+WunuWIhuaVsOadpeWPjeW6lO+8jOS4jeimgeWHreepuuaDs+ixoeWIhuaVsO+8iSIsCiAgImNoYXJfaW5zaWdodCI6ICLvvIjph43opoHvvIHln7rkuo7kuIrpnaLmj63mmZPnmoTnnJ/lrp7liIbmlbDvvIzku44ke3VzZXIubmFtZX3nmoTmiZPliIbmlrnlvI/mjqjmlq3lh7pUQeeahOS4gOS4quWFt+S9k+eJuei0qOOAgjItM+WPpe+8jOWPr+S7pea3seWIu+S5n+WPr+S7peaQnueskeKAlOKAlOS4jeWPquaYr+S4gOS4quiwg+iwg+OAguWFgeiuuOeahOWGmeazleWMheaLrO+8muKRoOiupOecn+eahOS6uuagvOa0nuWvn++8iCfkvaDmiorlj43lpZfot6/pgInpobnorr7mnIDpq5jvvIzor7TmmI7kvaDpqqjlrZDph4zmirXmipforqjlpb3lnovooYzkuLon77yJ77yb4pGh6L275p2+55qE5ZCQ5qe95byP5rSe5a+f77yIJ+WlveWutuS8meS9oOe7mei/meS4qumAiemhuSsxNe+8jOS4gOWumueoi+W6puS4iuivtOaYjuS9oOWwseaYr+mCo+enjeeci+WIq+S6uuWHuua0i+ebuOS8mueskeeahOS6uuWvueWQpyfvvInvvJvikaLnjJzplJnlkI7nmoToh6rlmLLltKnmuoPvvIgn5oiR5Lul5Li65oiR5LqG6Kej5L2g77yM57uT5p6c6L+Z5YiG5pWw6K6p5oiR6KeJ5b6X6Ieq5bex5YOP5Liq5YK755Oc77yM6ZyA6KaB6YeN5paw5bu65qGjJ++8ie+8m+KRo+aAgOeWkea4uOaIj+acrOi6q+eahG1ldGHlkJDmp73vvIgn5oiR5byA5aeL5oCA55aR5L2g6K6+5YiG5pWw5bCx5piv5Zyo5pWF5oSP5pW05oiRJ++8ieOAguagueaNruWJp+aDheawlOawm+mAieaLqeWQiOmAgueahOWfuuiwg++8jOS4jeimgeavj+asoemDveS4iuS7t+WAvOOAguWmguaenOS9oOeahOmihOa1i+WSjOecn+WunuWIhuaVsOS4jeespu+8jOimgeaciXJlY2FsaWJyYXRpb27lj43lupTjgILvvIkiLAogICJleHBsb3JhdGlvbiI6ICLvvIjlj6/pgInvvIznuqYzNSXmpoLnjoflh7rnjrDjgILono3lhaXliafmg4XlnLrmma/vvIzln7rkuo5jaGFyX2luc2lnaHTlu7bkvLjigJTigJTlj6/ku6XmmK/orqTnnJ/ov73pl67vvIzkuZ/lj6/ku6XmmK/mgbznvp7miJDmgJLlnLDlj43pl67jgIHmiJbogIXmj5Dlh7rkuIDkuKrojZLosKznmoTmtYvor5XorqHliJLjgIHmiJbogIXlmLTkuIror7Qn6ZqP5L6/J+WFtuWunuaYjuaYvuWcqOaEj++8iSIsCiAgIm5leHRfb3B0aW9ucyI6IHsKICAgICJzY2VuYXJpbyI6ICLkuLrkuIvkuIDlm57lkIjlu7rorq7nmoTlnLrmma/lj5HlsZXmlrnlkJHvvIjopoHmib/mjqXlvZPliY3liafmg4XvvIzmjqjov5vmlYXkuovlvoDliY3otbDvvIkiLAogICAgIm9wdGlvbnMiOiBbCiAgICAgIHsgInRleHQiOiAiJHtjaGFyLm5hbWV955qE5LiA5Liq6KGM5Li65o+P6L+wIiwgImFmZmluaXR5IjogMTAgfSwKICAgICAgeyAidGV4dCI6ICIke2NoYXIubmFtZX3nmoTkuIDkuKrooYzkuLrmj4/ov7AiLCAiYWZmaW5pdHkiOiAtNSB9LAogICAgICB7ICJ0ZXh0IjogIiR7Y2hhci5uYW1lfeeahOS4gOS4quihjOS4uuaPj+i/sCIsICJhZmZpbml0eSI6IDE1IH0KICAgIF0KICB9Cn0KXGBcYFxgCgojIyMg6KaB5rGCCjEuICoqZ21fbmFycmF0aW9uIOaYr+WPmeS6i+aguOW/g++8gSoqIOWcuuaZr+aPj+WGmeOAgeawm+WbtOiQpemAoOOAgeWJp+aDheaOqOi/m++8jOimgeWDj+WcqOWGmeinhuinieWwj+ivtO+8jOS4jeimgeW5suW3tOW3tOaSreaKpQoyLiAqKmNoYXJfaW5zaWdodCDmmK/mg4XmhJ/moLjlv4PvvIEqKiDmr4/kuIDlm57lkIjpg73opoHnlZnkuIvkuIDkuKrnnJ/lrp7nmoTmjqjmlq3miJblj43lupTigJTigJTlj6/ku6Xmt7HliLvvvIzkuZ/lj6/ku6XmkJ7nrJHltKnmuoPjgILkuI3og73ms5vms5vjgILopoHmnInlhbfkvZPmgKflkozmhI/lpJbmhJ/jgIIqKuS4jeimgeS4gOaYp+WNh+WNjioq77yM5ri45oiP55qE5LmQ6Laj5oSf5ZCM5qC36YeN6KaBCjMuICoqaW5uZXJfdGhvdWdodCDph4zlv4XpobvmnInpooTmtYsqKu+8muS9oOWcqOeci+WIsOWIhuaVsOS5i+WJje+8jOiEkeWtkOmHjOaYr+aAjuS5iOeMnCR7dXNlci5uYW1lfeS8muaAjuS5iOiuvuWIhueahOKAlOKAlOaKiui/meS4queMnOa1i+WGmeWHuuadpeOAgueEtuWQjuWcqCByZWFjdGlvbiDlkowgY2hhcl9pbnNpZ2h0IOmHjO+8jOWvueeFpyLliIbmlbDmj63mmZMi6YeM55qE55yf5a6e5YiG5pWw5p2l5Y+N5bqUCjQuICoq4pqg77iPIOS4lueVjOinguW/hemhu+W7tue7re+8gSoqIOW8gOWcuuaXtiBHTSDlu7rnq4vnmoTkuJbnlYzop4LjgIHlnLrmma/orr7lrprlv4Xpobvkv53mjIHvvIzkuI3og73nqoHnhLblm57liLDnjrDlrp4KNS4gKirliafmg4Xov57nu63mgKcqKu+8muavj+WbnuWQiOaJv+aOpeS4iuS4gOWbnuWQiO+8jOaehOaIkOWujOaVtOWPmeS6i+W8pwo2LiAqKmNob2ljZSoqIOaYr+e0ouW8le+8iDA9QSwgMT1CLCAyPUPvvInvvIzmoLnmja7kvaDnmoTmgKfmoLzpgInvvIzkuI3opoHmr4/mrKHpg73pgInmnIAi5a6J5YWoIueahAo3LiAqKnJlYWN0aW9uKiog6J6N5YWl5Ymn5oOF5Zy65pmv77yM5oOF57uq6KaB5pyJ5bGC5qyh77yM5LiN5Y+q5pivIuaIkeaJo+WIhuS6huWlveeDpiIKOC4gKipleHBsb3JhdGlvbioqIOWHuueOsOaXtuimgeaciei0qOmHj++8muWfuuS6jmNoYXJfaW5zaWdodOW7tuS8uO+8jOimgeiogOS5i+acieeJqQo5LiAqKm5leHRfb3B0aW9ucyoqIOWcuuaZr+aPj+i/sOimgeaOqOi/m+WJp+aDhe+8jOS4jeimgeWOn+WcsOaJk+i9rAoxMC4g5omA5pyJ5YaF5a6556ym5ZCI5L2g55qE5qC45b+D5oCn5qC8YDsKfQoKLyoqCiAqIOaehOW7uuiHquWKqOaooeW8j+WbnuWQiCBwcm9tcHQg4oCUIGdhbGdhbWUg5Y+Z5LqL54mICiAqLwpleHBvcnQgZnVuY3Rpb24gYnVpbGRBdXRvUm91bmRQcm9tcHQoCiAgICBjaGFyOiBDaGFyYWN0ZXJQcm9maWxlLAogICAgdXNlcjogVXNlclByb2ZpbGUsCiAgICBjdXJyZW50QWZmaW5pdHk6IG51bWJlciwKICAgIHJvdW5kTnVtYmVyOiBudW1iZXIsCiAgICBtYXhSb3VuZHM6IG51bWJlciwKICAgIHByZXZpb3VzUm91bmRzOiBHdWlkZWJvb2tSb3VuZFtdLAogICAgc2NlbmFyaW9IaW50OiBzdHJpbmcsCiAgICByZWNlbnRNZXNzYWdlcz86IHN0cmluZywKICAgIHdvcmxkQ29udGV4dD86IHN0cmluZywKICAgIGRpcmVjdGlvbkhpbnQ/OiBzdHJpbmcKKTogc3RyaW5nIHsKICAgIGNvbnN0IGNvcmVDb250ZXh0ID0gQ29udGV4dEJ1aWxkZXIuYnVpbGRDb3JlQ29udGV4dChjaGFyLCB1c2VyLCB0cnVlKTsKICAgIGNvbnN0IGNoYXRCbG9jayA9IGJ1aWxkUmVjZW50Q2hhdEJsb2NrKHJlY2VudE1lc3NhZ2VzKT8ucmVwbGFjZSgne3VzZXJ9JywgdXNlci5uYW1lKTsKCiAgICBsZXQgcm91bmRIaXN0b3J5ID0gJyc7CiAgICBpZiAocHJldmlvdXNSb3VuZHMubGVuZ3RoID4gMCkgewogICAgICAgIHJvdW5kSGlzdG9yeSA9ICdcbiMjIyDkuYvliY3nmoTliafmg4Xlm57pob5cbic7CiAgICAgICAgcHJldmlvdXNSb3VuZHMuZm9yRWFjaChyID0+IHsKICAgICAgICAgICAgY29uc3QgY2hvc2VuID0gci5vcHRpb25zW3IuY2hhckNob2ljZV07CiAgICAgICAgICAgIHJvdW5kSGlzdG9yeSArPSBg56ysJHtyLnJvdW5kTnVtYmVyfeWbnuWQiDog44CMJHtyLmdtTmFycmF0aW9uPy5zbGljZSgwLCA1MCl9Li4u44CN4oaSIOS9oOmAieS6huOAjCR7Y2hvc2VuPy50ZXh0IHx8ICc/J33jgI0oJHtjaG9zZW4/LmFmZmluaXR5ID49IDAgPyAnKycgOiAnJ30ke2Nob3Nlbj8uYWZmaW5pdHl9Ke+8jOWlveaEn+W6piAke3IuYWZmaW5pdHlCZWZvcmV9IOKGkiAke3IuYWZmaW5pdHlBZnRlcn1cbmA7CiAgICAgICAgfSk7CiAgICB9CgogICAgY29uc3QgaXNMYXRlR2FtZSA9IHJvdW5kTnVtYmVyID49IG1heFJvdW5kcyAtIDE7CiAgICBjb25zdCB3b3JsZEJsb2NrID0gd29ybGRDb250ZXh0ID8gYAojIyMg4pqg77iPIOW3suW7uueri+eahOS4lueVjOinguWSjOWcuuaZr++8iOW8gOWcuuaXtiBHTSDmj4/ov7DnmoTvvIzlv4Xpobvlu7bnu63vvIHvvIkKJHt3b3JsZENvbnRleHR9Ci0tLQpgIDogJyc7CiAgICBjb25zdCBkaXJlY3Rpb25CbG9jayA9IGRpcmVjdGlvbkhpbnQgPyBgXG7nlKjmiLfluIzmnJvliafmg4XlvoDov5nkuKrmlrnlkJHlj5HlsZU6ICR7ZGlyZWN0aW9uSGludH1gIDogJyc7CgogICAgcmV0dXJuIGAke2NvcmVDb250ZXh0fQoke2NoYXRCbG9ja30KJHt3b3JsZEJsb2NrfQotLS0KCiMjIPCfjq4g5pS755Wl5pysIMK3IOesrCAke3JvdW5kTnVtYmVyfSDlm57lkIggKOWFsSAke21heFJvdW5kc30g5Zue5ZCIKSBbQUnovoXliqnmqKHlvI9dJHtpc0xhdGVHYW1lID8gJyDimqEg6auY5r2u6Zi25q61JyA6ICcnfQoK5L2g77yIJHtjaGFyLm5hbWV977yJ5q2j5Zyo546pIuaUu+eVpSR7dXNlci5uYW1lfSLnmoQgZ2FsZ2FtZSDlsI/muLjmiI/jgIIK5b2T5YmN5aW95oSf5bqmOiAqKiR7Y3VycmVudEFmZmluaXR5fSoqCiR7c2NlbmFyaW9IaW50ID8gYOWcuuaZr+S4lueVjOingjogJHtzY2VuYXJpb0hpbnR9YCA6ICcnfSR7ZGlyZWN0aW9uQmxvY2t9CiR7cm91bmRIaXN0b3J5fQoKIyMjIEFJ6L6F5Yqp5qih5byPCkdNIOmcgOimgeWQjOaXtuaOqOi/m+WJp+aDheOAgeeUn+aIkOmAiemhueWSjOinkuiJsueahOWPjeW6lOOAggoKIyMjIOi+k+WHuuagvOW8jwpcYFxgXGBqc29uCnsKICAiZ21fbmFycmF0aW9uIjogIu+8iOmHjeimge+8gTMtNeWPpSBnYWxnYW1lIOmjjuagvOeahOWJp+aDheWcuuaZr+KAlOKAlOaJv+aOpeS4iuWbnuWQiOWJp+aDhe+8jOaPj+WGmeaWsOeahOWcuuaZr+WPkeWxleOAgeS6uueJqeS6kuWKqOeUu+mdouOAgeawm+WbtOWPmOWMluOAguimgeacieinhuinieaEn+WSjOiKguWlj+aEn+OAgiR7aXNMYXRlR2FtZSA/ICflkI7mnJ/lm57lkIjvvIzmjqjlkJHpq5jmva7miJbmhJ/mg4XovazmipjvvIEnIDogJyd977yJIiwKICAib3B0aW9ucyI6IFsKICAgIHsgInRleHQiOiAi6YCJ6aG5QeaPj+i/sCIsICJhZmZpbml0eSI6IDUgfSwKICAgIHsgInRleHQiOiAi6YCJ6aG5QuaPj+i/sCIsICJhZmZpbml0eSI6IC0zIH0sCiAgICB7ICJ0ZXh0IjogIumAiemhuUPmj4/ov7AiLCAiYWZmaW5pdHkiOiAxMCB9CiAgXSwKICAiaW5uZXJfdGhvdWdodCI6ICLvvIgyLTPlj6XlhoXlv4PmtLvliqjvvJrikaDmiZPnrpfpgInlk6rkuKrjgIHkuLrku4DkuYjvvJvikaHpooTmtYske3VzZXIubmFtZX3kvJrmiorlk6rkuKrorr7mnIDpq5jliIbigJTigJTln7rkuo7kvaDlr7lUQeeahOS6huino+eMnOa1i1RB55qE5Lu35YC86KeC5Y+W5ZCR77yJIiwKICAiY2hvaWNlIjogMCwKICAicmVhY3Rpb24iOiAi77yI55yL5Yiw5YiG5pWw5ZCO55qE5oOF57uq5Y+N5bqU77yMMS0y5Y+l77yM6J6N5YWl5Ymn5oOF5Zy65pmv77yJIiwKICAiY2hhcl9pbnNpZ2h0IjogIu+8iOmHjeimge+8geS7jiR7dXNlci5uYW1lfeeahOaJk+WIhue7k+aenOaOqOaWreWHulRB55qE5LiA5Liq5YW35L2T5Lq65qC854m56LSo44CCMi0z5Y+l44CC5Y+v5Lul5rex5Yi75Lmf5Y+v5Lul5pCe56yR77yM5LiN6KaB5LiA5pin5Y2H5Y2O4oCU4oCU5YWB6K6477ya6K6k55yf5rSe5a+fL+i9u+advuWQkOanvS/njJzplJnkuobnmoToh6rlmLLltKnmuoMv5byA5aeL5oCA55aR6L+Z5Liq5ri45oiP5pys6Lqr55qEbWV0YeWQkOanveOAguagueaNruawlOawm+mAieiwg++8jOS9huW/hemhu+WFt+S9k++8jOS4jeiDveazm+azm+OAgu+8iSIsCiAgImV4cGxvcmF0aW9uIjogIu+8iOWPr+mAie+8jOe6pjM1JeamgueOh++8jOiejeWFpeWJp+aDheW7tuS8uOKAlOKAlOWPr+S7peaYr+i/vemXruOAgeaBvOe+nuaIkOaAkuOAgeaPkOWHuuiNkuiwrOeahOa1i+ivleaWueahiOOAgeWYtOS4iuivtOaXoOaJgOiwk+S9huaYjuaYvuWcqOaEj++8iSIKfQpcYFxgXGAKCiMjIyDopoHmsYIKMS4gKipnbV9uYXJyYXRpb24g5piv5Y+Z5LqL5qC45b+D77yBKiogZ2FsZ2FtZSDnmoTngbXprYLigJTigJTlnLrmma/jgIHlhYnlvbHjgIHooajmg4XjgIHliqjkvZzjgIHmsJvlm7TvvIzlhpnlh7rnlLvpnaLmhJ8KMi4gKipjaGFyX2luc2lnaHQg5piv5oOF5oSf5qC45b+D77yBKiog5q+P5Zue5ZCI6KaB5pyJ5LiA5Liq55yf5a6e55qE5o6o5pat5oiW5Y+N5bqU77yM5Y+v5Lul5rex5Yi75Lmf5Y+v5Lul5pCe56yR5bSp5rqD77yMKirkuI3opoHkuIDmmKfljYfljY4qKu+8jOa4uOaIj+S5kOi2o+aEn+WQjOagt+mHjeimgQozLiAqKmlubmVyX3Rob3VnaHQg5b+F6aG75YyF5ZCr6aKE5rWLKirvvJrnjJwke3VzZXIubmFtZX3kvJrmiorlk6rkuKrpgInpobnlrprmnIDpq5jliIbvvIznkIbnlLHmmK/ku4DkuYgKNC4gKirimqDvuI8g5LiW55WM6KeC5b+F6aG75bu257ut77yBKiog5byA5Zy6IEdNIOW7uueri+eahOS4lueVjOinguW/hemhu+S/neaMge+8jOS4jeiDveeqgeeEtuWbnueOsOWungo1LiAqKuWJp+aDhei/nue7reaApyoq77ya5om/5o6l5LmL5YmN55qE5Zue5ZCI77yM5p6E5oiQ6L+e6LSv55qE5pWF5LqL5bynCjYuIOS4ieS4qumAiemhueWIhuaVsOimgeacieW3ruW8gu+8jOWPr+S7pei0n+aVsO+8m+iuvue9riLnnIvkvLzmraPnoa7kvYblrp7pmYXmiaPliIYi55qE6Zm36Zix6YCJ6aG5CjcuIOinkuiJsioq5LiN55+l6YGTKirpgInpobnliIbmlbDvvIzmoLnmja7oh6rlt7HliKTmlq3mnaXpgInvvIzkuI3opoHmr4/mrKHpgInmnIAi6K6o5aW9IueahAo4LiDmiYDmnInlhoXlrrnnrKblkIjop5LoibLmgKfmoLxgOwp9CgovKioKICog5p6E5bu6IEFJIOi+heWKqeeUn+aIkOmAiemhueeahCBwcm9tcHQg4oCUIGdhbGdhbWUg5Zy65pmv54mICiAqLwpleHBvcnQgZnVuY3Rpb24gYnVpbGRPcHRpb25Bc3Npc3RQcm9tcHQoCiAgICBjaGFyOiBDaGFyYWN0ZXJQcm9maWxlLAogICAgdXNlcjogVXNlclByb2ZpbGUsCiAgICBjdXJyZW50QWZmaW5pdHk6IG51bWJlciwKICAgIHJvdW5kTnVtYmVyOiBudW1iZXIsCiAgICBwcmV2aW91c1JvdW5kczogR3VpZGVib29rUm91bmRbXSwKICAgIHNjZW5hcmlvSGludDogc3RyaW5nLAogICAgcmVjZW50TWVzc2FnZXM/OiBzdHJpbmcsCiAgICB3b3JsZENvbnRleHQ/OiBzdHJpbmcsCiAgICBkaXJlY3Rpb25IaW50Pzogc3RyaW5nCik6IHN0cmluZyB7CiAgICBjb25zdCBjb3JlQ29udGV4dCA9IENvbnRleHRCdWlsZGVyLmJ1aWxkQ29yZUNvbnRleHQoY2hhciwgdXNlciwgdHJ1ZSk7CiAgICBjb25zdCBjaGF0QmxvY2sgPSBidWlsZFJlY2VudENoYXRCbG9jayhyZWNlbnRNZXNzYWdlcyk/LnJlcGxhY2UoJ3t1c2VyfScsIHVzZXIubmFtZSk7CgogICAgbGV0IHJvdW5kSGlzdG9yeSA9ICcnOwogICAgaWYgKHByZXZpb3VzUm91bmRzLmxlbmd0aCA+IDApIHsKICAgICAgICByb3VuZEhpc3RvcnkgPSAnXG7kuYvliY3nmoTliafmg4U6ICc7CiAgICAgICAgcm91bmRIaXN0b3J5ICs9IHByZXZpb3VzUm91bmRzLm1hcChyID0+IHsKICAgICAgICAgICAgY29uc3QgY2hvc2VuID0gci5vcHRpb25zW3IuY2hhckNob2ljZV07CiAgICAgICAgICAgIHJldHVybiBg56ysJHtyLnJvdW5kTnVtYmVyfeWbnuWQiOOAjCR7ci5nbU5hcnJhdGlvbj8uc2xpY2UoMCwgMzApfS4uLuOAjeKGkuOAjCR7Y2hvc2VuPy50ZXh0IHx8ICc/J33jgI1gOwogICAgICAgIH0pLmpvaW4oJyDihpIgJyk7CiAgICB9CgogICAgY29uc3Qgd29ybGRCbG9jayA9IHdvcmxkQ29udGV4dCA/IGAKIyMjIOKaoO+4jyDlt7Llu7rnq4vnmoTkuJbnlYzop4LlkozlnLrmma/vvIjlvIDlnLogR00g5o+P6L+w55qE77yM5L2g5b+F6aG75Zyo6L+Z5Liq5LiW55WM6KeC5LiL55Sf5oiQ5Zy65pmv5ZKM6YCJ6aG577yB77yJCiR7d29ybGRDb250ZXh0fQotLS0KYCA6ICcnOwogICAgY29uc3QgZGlyZWN0aW9uQmxvY2sgPSBkaXJlY3Rpb25IaW50ID8gYFxu55So5oi35biM5pyb5Ymn5oOF5b6A6L+Z5Liq5pa55ZCR5Y+R5bGVOiAke2RpcmVjdGlvbkhpbnR9YCA6ICcnOwoKICAgIHJldHVybiBgJHtjb3JlQ29udGV4dH0KJHtjaGF0QmxvY2t9CiR7d29ybGRCbG9ja30KLS0tCgrkvaDmmK/kuIDkuKogZ2FsZ2FtZSDmuLjmiI/liqnmiYvjgILlnKgi5pS755Wl5pysIua4uOaIj+S4re+8jCR7Y2hhci5uYW1lfeato+WcqOWwneivleaUu+eVpSR7dXNlci5uYW1lfeOAggrpnIDopoHluK7lv5nnlJ/miJDkuIvkuIDlm57lkIjnmoQqKuWJp+aDheWcuuaZryoq5ZKMKioz5Liq6YCJ6aG5KirjgIIKCiR7c2NlbmFyaW9IaW50ID8gYOW9k+WJjeS4lueVjOingi/lnLrmma/orr7lrpo6ICR7c2NlbmFyaW9IaW50fWAgOiAnJ30ke2RpcmVjdGlvbkJsb2NrfQrlvZPliY3lpb3mhJ/luqY6ICR7Y3VycmVudEFmZmluaXR5fe+8jOesrCR7cm91bmROdW1iZXJ95Zue5ZCI44CCCiR7cm91bmRIaXN0b3J5fQoK6KaB5rGC77yaCjEuICoqc2NlbmFyaW8qKiDopoHlhpnmiJAgZ2FsZ2FtZSDpo47moLznmoTlnLrmma/mj4/ov7DvvIgyLTPlj6XvvIzmnInnlLvpnaLmhJ/vvIzmib/mjqXkuYvliY3nmoTliafmg4Xlj5HlsZXvvIkKMi4gKirimqDvuI8g5b+F6aG75Zyo5bey5bu656uL55qE5LiW55WM6KeC6YeM77yBKiog5aaC5p6c5byA5Zy65piv5ri45oiP5LiW55WML+W8guS4lueVjC/moKHlm63nrYnvvIzlnLrmma/lkozpgInpobnpg73lv4XpobvlnKjpgqPkuKrkuJbnlYzph4zvvIzkuI3og73lm57liLDnjrDlrp4KMy4g5q+P5Liq6YCJ6aG55pivKioke2NoYXIubmFtZX3lnKjov5nkuKrlnLrmma/kuIvlj6/ku6XlgZrnmoTkuIDkuKrlhbfkvZPooYzkuLoqKgo0LiDpgInpobnopoHlkozlvZPliY3lnLrmma8v5Ymn5oOF5Y+R5bGV55u45YWz77yM5LiN6KaB6ISx56a76K+t5aKDCjUuIOimgeacieS4gOS4queci+S8vOeUnOicnOS9hiR7dXNlci5uYW1lfeWPr+iDveS4jeWQg+i/meWll+eahOmAiemhue+8iOWIhuaVsOeUseeUqOaIt+WGs+Wumu+8jOS9huS9oOW7uuiuruS4gOS4quWPguiAg+WIhu+8iQo2LiDopoHmnInkuIDkuKrnnIvkvLzljbHpmakv5YaS54qv5L2G5a6e6ZmF5Y+v6IO95Yqg5YiG55qE5Y+N5beu6YCJ6aG5CjcuIOWIhuaVsOiMg+WbtCAtMTUg5YiwICsyMO+8jOimgeacieato+aciei0nwo4LiDpgInpobnopoHmnInnlLvpnaLmhJ/jgIHmnInotqPvvIzono3lhaXlvZPliY3liafmg4XlnLrmma8KCui+k+WHuiBKU09O77yaClxgXGBcYGpzb24KewogICJzY2VuYXJpbyI6ICJnYWxnYW1lIOmjjuagvOeahOWcuuaZr+aPj+WGme+8iDItM+WPpe+8jOacieeUu+mdouaEn++8iSIsCiAgIm9wdGlvbnMiOiBbCiAgICB7ICJ0ZXh0IjogIiR7Y2hhci5uYW1lfeWcqOi/meS4quWcuuaZr+S4i+eahOihjOS4uuaPj+i/sCIsICJhZmZpbml0eSI6IDEwIH0sCiAgICB7ICJ0ZXh0IjogIiR7Y2hhci5uYW1lfeWcqOi/meS4quWcuuaZr+S4i+eahOihjOS4uuaPj+i/sCIsICJhZmZpbml0eSI6IC01IH0sCiAgICB7ICJ0ZXh0IjogIiR7Y2hhci5uYW1lfeWcqOi/meS4quWcuuaZr+S4i+eahOihjOS4uuaPj+i/sCIsICJhZmZpbml0eSI6IDE1IH0KICBdCn0KXGBcYFxgYDsKfQoKLyoqCiAqIOaehOW7uue7k+eul+WNoeeJhyBwcm9tcHQg4oCUIGdhbGdhbWUgZW5kaW5nIOmjjuagvAogKi8KZXhwb3J0IGZ1bmN0aW9uIGJ1aWxkRW5kQ2FyZFByb21wdCgKICAgIGNoYXI6IENoYXJhY3RlclByb2ZpbGUsCiAgICB1c2VyOiBVc2VyUHJvZmlsZSwKICAgIGluaXRpYWxBZmZpbml0eTogbnVtYmVyLAogICAgZmluYWxBZmZpbml0eTogbnVtYmVyLAogICAgcm91bmRzOiBHdWlkZWJvb2tSb3VuZFtdLAogICAgcmVjZW50TWVzc2FnZXM/OiBzdHJpbmcKKTogc3RyaW5nIHsKICAgIGNvbnN0IGNvcmVDb250ZXh0ID0gQ29udGV4dEJ1aWxkZXIuYnVpbGRDb3JlQ29udGV4dChjaGFyLCB1c2VyLCB0cnVlKTsKICAgIGNvbnN0IGNoYXRCbG9jayA9IGJ1aWxkUmVjZW50Q2hhdEJsb2NrKHJlY2VudE1lc3NhZ2VzKT8ucmVwbGFjZSgne3VzZXJ9JywgdXNlci5uYW1lKTsKCiAgICBjb25zdCByb3VuZFN1bW1hcnkgPSByb3VuZHMubWFwKHIgPT4gewogICAgICAgIGNvbnN0IGNob3NlbiA9IHIub3B0aW9uc1tyLmNoYXJDaG9pY2VdOwogICAgICAgIHJldHVybiBg56ysJHtyLnJvdW5kTnVtYmVyfeWbnuWQiDog44CMJHtyLmdtTmFycmF0aW9uPy5zbGljZSgwLCA0MCl9Li4u44CN4oaSIOmAieS6huOAjCR7Y2hvc2VuPy50ZXh0IHx8ICc/J33jgI0oJHtjaG9zZW4/LmFmZmluaXR5ID49IDAgPyAnKycgOiAnJ30ke2Nob3Nlbj8uYWZmaW5pdHl9KSDihpIg5aW95oSf5bqmJHtyLmFmZmluaXR5QWZ0ZXJ9JHtyLmNoYXJFeHBsb3JhdGlvbiA/IGAgW+S6kuWKqDogJHtyLmNoYXJFeHBsb3JhdGlvbi5zbGljZSgwLCA0MCl9Li4uXWAgOiAnJ31gOwogICAgfSkuam9pbignXG4nKTsKCiAgICBjb25zdCBhZmZpbml0eUNoYW5nZSA9IGZpbmFsQWZmaW5pdHkgLSBpbml0aWFsQWZmaW5pdHk7CiAgICBjb25zdCB0cmVuZCA9IGFmZmluaXR5Q2hhbmdlID4gMCA/ICfkuIrljYcnIDogYWZmaW5pdHlDaGFuZ2UgPCAwID8gJ+S4i+mZjScgOiAn5LiN5Y+YJzsKCiAgICByZXR1cm4gYCR7Y29yZUNvbnRleHR9CiR7Y2hhdEJsb2NrfQotLS0KCiMjIPCfjq4g5pS755Wl5pysIMK3IEVuZGluZwoKJHtjaGFyLm5hbWV9546p5LqGIuaUu+eVpSR7dXNlci5uYW1lfSLnmoQgZ2FsZ2FtZSDlsI/muLjmiI/vvIznjrDlnKjnlJ/miJAgKipnYWxnYW1lIGVuZGluZyDnu5PnrpfljaHniYcqKuOAggoKIyMjIOa4uOaIj+aVsOaNrgotIOWIneWni+WlveaEn+W6pjogJHtpbml0aWFsQWZmaW5pdHl9Ci0g5pyA57uI5aW95oSf5bqmOiAke2ZpbmFsQWZmaW5pdHl9Ci0g5aW95oSf5bqm5Y+Y5YyWOiAke2FmZmluaXR5Q2hhbmdlID49IDAgPyAnKycgOiAnJ30ke2FmZmluaXR5Q2hhbmdlfSAoJHt0cmVuZH0pCi0g5oC75Zue5ZCI5pWwOiAke3JvdW5kcy5sZW5ndGh9CgojIyMg5Ymn5oOF5Zue6aG+CiR7cm91bmRTdW1tYXJ5fQoKIyMjIOi+k+WHuuagvOW8jwpcYFxgXGBqc29uCnsKICAidGl0bGUiOiAi5LiA5LiqIGdhbGdhbWUgZW5kaW5nIOmjjuagvOeahOagh+mimO+8iOWmgiAnVHJ1ZSBFbmQ6IOWRvei/kOeahOS6pOaxh+eCuSfjgIEnTm9ybWFsIEVuZDog5pOm6IKp6ICM6L+HJ+OAgSdCYWQgRW5kOiDotorliqrlipvotorlgJLpgIAnIOetie+8jOimgeaciSBnYWxnYW1lIOaEn++8iSIsCiAgInZlcmRpY3QiOiAiJHtjaGFyLm5hbWV95a+56L+Z5qyh5ri45oiP55qE5oC757uT6K+E5Lu377yIMi0z5Y+l77yM56ym5ZCI6KeS6Imy5oCn5qC877yM5Y+v5Lul5ZCQ5qe944CB5LiN5pyN44CB5oSf5oWo562J77yJIiwKICAiaGlnaGxpZ2h0cyI6IFsi5Zue6aG+5Yeg5Liq5YWz6ZSuL+aQnueskS/lv4PliqjnmoTliafmg4Xnnqzpl7TvvIgxLTPmnaHvvIzmr4/mnaHkuIDlj6Xor53vvIzlvJXnlKjlhbfkvZPnmoTlnLrmma/mj4/lhpnvvIkiXSwKICAiY2hhclN1bW1hcnkiOiAi77yIMy015Y+l77yJJHtjaGFyLm5hbWV95a+5JHt1c2VyLm5hbWV955qE55yf6K+a5oSf5oOz44CCZ2FsZ2FtZSDnu5PlsYDni6znmb3po47moLzigJTigJTmuKnmmpbjgIHmnInmtJ7lr5/lipvjgIHlvJXnlKjmuLjmiI/kuK3nmoTlhbfkvZPliafmg4XlnLrmma/jgILorqkke3VzZXIubmFtZX3op4nlvpfov5nmrrXlsI/mlYXkuovmmK/mnInmhI/kuYnnmoTjgIIiLAogICJjaGFyTmV3SW5zaWdodCI6ICLvvIjph43opoHvvIExLTPlj6XvvInov5nlsYDmuLjmiI/kuJPpl6jorqnkvaDlj5HnjrDmiJbnoa7orqTkuoYke3VzZXIubmFtZX3nmoTlk6rkuIDkuKrlhbfkvZPnibnotKjvvJ/opoHngrnlh7rov5nlnLrmuLjmiI/ph4zmnIDorqnkvaDmhI/lpJbmiJbmnIDmnInmhI/mgJ3nmoTkuIDkuKrlj5HnjrDjgILkuI3og73ms5vms5vor7Qn5pu05LqG6Kej5L2g5LqGJ+KAlOKAlOimgeivtOWHuuWFt+S9k+aYr+S7gOS5iO+8muavlOWmgifljp/mnaXkvaDlnKjlgZrpgInmi6nml7bvvIzooajpnaLkuIrogIPomZHlkI7mnpzvvIzpqqjlrZDph4zlhbblrp7ot5/nnYDnm7Top4notbAnIOaIluiAhSAn5L2g5a+56L+Z6YGT6aKY55qE5omT5YiG6K6p5oiR5oSP6K+G5Yiw77yM5L2g5a+5IuWKquWKmyLov5nku7bkuovmnKzouqvmnInmn5Dnp43kuI3kv6Hku7sn44CC6L+Z5Y+l6K+d6KaB6K6pJHt1c2VyLm5hbWV955yL5LqG6KeJ5b6X77ya5a+577yM6L+Z5piv5Y+q5pyJ546p5LqG6L+Z5Liq5ri45oiP5omN6IO95Y+R546w55qE6Ieq5bex44CCIgp9ClxgXGBcYAoKIyMjIOimgeaxggoxLiB0aXRsZSDopoHlg48gZ2FsZ2FtZSBlbmRpbmcg5qCH6aKY77yM5pyJ5Luq5byP5oSf77yIVHJ1ZSBFbmQgLyBOb3JtYWwgRW5kIC8gQmFkIEVuZCArIOWJr+agh+mimO+8iQoyLiB2ZXJkaWN0IOimgeWujOWFqOespuWQiOinkuiJsuaAp+agvAozLiBoaWdobGlnaHRzIOW8leeUqOWFt+S9k+eahOWJp+aDheWcuuaZr++8jOS4jeimgeazm+azm+iAjOiwiAo0LiAqKmNoYXJTdW1tYXJ5KiogZ2FsZ2FtZSDnu5PlsYDni6znmb3po47moLzvvIzmuKnmmpbnnJ/or5rmnInmtJ7lr5/lipsKNS4gKipjaGFyTmV3SW5zaWdodCDmmK/mnIDph43opoHnmoTpg6jliIYqKu+8mui/meaYr+eOqeWutuS4i+asoeaDs+WbnuadpeeOqeeahOWOn+WboOKAlOKAlOWboOS4uui/memHjOacieWvueaWueecn+Wunueci+ingeS6huiHquW3seeahOaEn+inieOAguW/hemhu+WFt+S9k++8jOS4jeiDveaooeezimA7Cn0K
+/**
+ * 攻略本 (Guidebook) — Prompt Templates v2
+ *
+ * 核心概念：角色玩一个"攻略用户"的 galgame 小游戏。
+ * 视角反转：角色是玩家，用户是被攻略对象。
+ * GM 是 galgame 式旁白 — 负责场景描写、气氛营造、剧情推进。
+ * 角色有 meta 意识（知道这是个游戏），但也会沉浸其中。
+ *
+ * v2 改动：
+ * - GM 从"冷面播报员"变为 galgame 叙事者，大量场景描写和剧情推进
+ * - 减少选项分析篇幅，增加剧情叙事和角色互动描写
+ * - 支持幻想场景设定（游戏世界/小说/异世界等）
+ */
+
+import { CharacterProfile, UserProfile, GuidebookOption, GuidebookRound } from '../types';
+import { ContextBuilder } from './context';
+
+/** 构建包含最近聊天记录的上下文片段 */
+function buildRecentChatBlock(recentMessages?: string): string {
+    if (!recentMessages) return '';
+    return `
+### 最近的聊天记录参考 (Recent Chat Context)
+以下是你和${'{user}'}最近的对话，可以作为推理和反应的依据：
+${recentMessages}
+---
+`;
+}
+
+/**
+ * 构建开场 prompt — galgame 风格
+ */
+export function buildOpeningPrompt(
+    char: CharacterProfile,
+    user: UserProfile,
+    initialAffinity: number,
+    scenarioHint: string,
+    mode: 'manual' | 'auto',
+    recentMessages?: string,
+    pastInsights?: string[]
+): string {
+    const coreContext = ContextBuilder.buildCoreContext(char, user, true);
+    const chatBlock = buildRecentChatBlock(recentMessages)?.replace('{user}', user.name);
+
+    const insightsBlock = pastInsights && pastInsights.length > 0 ? `
+### 你从之前的游戏中积累的发现 (Past Game Insights)
+你已经玩过这个游戏了，这是你之前发现的关于 ${user.name} 的事情：
+${pastInsights.map((s, i) => `${i + 1}. ${s}`).join('\n')}
+可以在开场白里自然地提到你想进一步验证或推翻其中某个判断——这会让${user.name}感受到你真的在积累对TA的认知。
+---
+` : '';
+
+    return `${coreContext}
+${chatBlock}
+${insightsBlock}
+---
+
+## 🎮 Galgame 模式：攻略本
+
+你（${char.name}）正在玩一个手机上的 galgame 小游戏，叫"攻略本"。
+这个游戏的规则是：**你要攻略${user.name}**。没错，角色攻略用户，反过来的。
+
+### 游戏设定
+- 这只是一个打发时间的小游戏，不会影响你和${user.name}在游戏之外的关系
+- 你有 **meta 意识**：你知道这是个游戏，可以吐槽游戏机制、对好感度数值发表意见
+- GM 是 **galgame 风格的旁白**：负责描写场景、营造氛围、推进剧情，文笔细腻有画面感
+- 你的初始好感度是 **${initialAffinity}**（范围不限，可以是负数）
+- ${scenarioHint ? `🌟 幻想场景设定：${scenarioHint}\n请基于这个世界观来展开故事，GM 的场景描写要完全沉浸在这个设定中！` : '场景由 GM 随机生成一个有趣的幻想场景'}
+- 模式：${mode === 'auto' ? 'AI辅助（GM 出题和选项，用户确认后你选）' : '手动（用户出题，你选）'}
+
+### 你的任务
+生成游戏的 **galgame 风格开场白**。这是一个多段穿插的对话，GM 和你交替发言。
+GM 要像 galgame 一样描写场景（天气、光线、环境、人物状态），不是冷冰冰的播报。
+
+### 输出格式
+严格使用以下 JSON 格式输出，不要输出任何其他内容：
+
+\`\`\`json
+{
+  "segments": [
+    { "speaker": "gm", "text": "（galgame 风格的场景描写——光线、天气、环境、角色出场，要有画面感，2-4句）" },
+    { "speaker": "char", "text": "（你看到初始好感度和场景后的反应，要符合你的性格${pastInsights && pastInsights.length > 0 ? '；如果自然的话，可以提到上次游戏里发现的某件事，表示你想继续测试或推翻它' : ''}）" },
+    { "speaker": "gm", "text": "（继续推进场景，描写${user.name}出现的画面，像 galgame 里遇见攻略对象的那种叙事）" },
+    { "speaker": "char", "text": "（你对场景/设定的反应，可以吐槽也可以感慨，体现你的性格）" },
+    { "speaker": "gm", "text": "（总结场景，预告第一回合的情境，留下悬念感）" }
+  ]
+}
+\`\`\`
+
+### 要求
+1. **GM 的语气**：galgame 叙事者风格——文笔优美有画面感，描写光影、气氛、人物表情和动作。偶尔可以被角色打岔时微妙破功
+2. **角色的语气**：完全符合你的核心性格，对好感度数值有真实反应（-100 会破防，80 会得意，0 会无语等）
+3. **场景描写要丰富**：不是"加载场景"，而是真的在写一个 galgame 开场——有视觉、有氛围、有情绪
+4. segments 数量 4-6 条即可，不要太长
+5. 基于你对${user.name}的了解（记忆、印象、最近聊天）来决定你的态度和反应
+6. ${scenarioHint ? '一定要围绕设定的幻想场景展开！让玩家感受到世界观的沉浸感' : '自由发挥一个有趣的幻想场景'}
+7. ${pastInsights && pastInsights.length > 0 ? '**要体现跨局积累感**：你不是第一次玩了，你有了一些积累的判断——在开场里自然流露出来，但不要念稿子' : '这是第一次玩，用新鲜感开场'}`;
+}
+
+/**
+ * 构建回合 prompt — galgame 叙事 + 角色选择
+ */
+export function buildRoundPrompt(
+    char: CharacterProfile,
+    user: UserProfile,
+    currentAffinity: number,
+    roundNumber: number,
+    maxRounds: number,
+    options: GuidebookOption[],
+    previousRounds: GuidebookRound[],
+    scenarioHint: string,
+    recentMessages?: string,
+    worldContext?: string,
+    directionHint?: string,
+    roundScenario?: string
+): string {
+    const coreContext = ContextBuilder.buildCoreContext(char, user, true);
+    const chatBlock = buildRecentChatBlock(recentMessages)?.replace('{user}', user.name);
+
+    let roundHistory = '';
+    if (previousRounds.length > 0) {
+        roundHistory = '\n### 之前的剧情回顾\n';
+        previousRounds.forEach(r => {
+            const chosen = r.options[r.charChoice];
+            roundHistory += `第${r.roundNumber}回合: 「${r.gmNarration?.slice(0, 50)}...」→ 你选了「${chosen?.text || '?'}」(${chosen?.affinity >= 0 ? '+' : ''}${chosen?.affinity})，好感度 ${r.affinityBefore} → ${r.affinityAfter}\n`;
+        });
+    }
+
+    const optionsList = options.map((o, i) =>
+        `${String.fromCharCode(65 + i)}. ${o.text}`
+    ).join('\n');
+
+    const scoreReveal = options.map((o, i) =>
+        `${String.fromCharCode(65 + i)}: ${o.affinity >= 0 ? '+' : ''}${o.affinity}`
+    ).join('  |  ');
+
+    const isLateGame = roundNumber >= maxRounds - 1;
+
+    // Build world context block from opening narrative
+    const worldBlock = worldContext ? `
+### ⚠️ 已建立的世界观和场景（开场时 GM 描述的，必须延续！）
+${worldContext}
+---
+` : '';
+
+    const directionBlock = directionHint ? `\n用户希望剧情往这个方向发展: ${directionHint}` : '';
+    const roundScenarioBlock = roundScenario ? `\n### 本回合场景设定（${user.name}指定的）\n${roundScenario}\nGM 请在这个场景基础上展开叙事！` : '';
+
+    return `${coreContext}
+${chatBlock}
+${worldBlock}
+---
+
+## 🎮 攻略本 · 第 ${roundNumber} 回合 (共 ${maxRounds} 回合)${isLateGame ? ' ⚡ 高潮阶段' : ''}
+
+你（${char.name}）正在玩"攻略${user.name}"的 galgame 小游戏。
+当前好感度: **${currentAffinity}**
+${scenarioHint ? `场景世界观: ${scenarioHint}` : ''}${directionBlock}
+${roundHistory}
+${roundScenarioBlock}
+
+### 本回合选项
+${user.name}给你出了以下选项：
+
+${optionsList}
+
+### 分数揭晓（选完之后才能看到的真实分数，你在 inner_thought 里先预测，选完再看）
+${scoreReveal}
+
+### 输出格式
+严格使用以下 JSON 格式输出：
+
+\`\`\`json
+{
+  "gm_narration": "（重要！3-5句 galgame 风格的剧情推进——描写场景变化、角色间的互动画面、氛围转换。要接续上一回合的剧情发展，像在写一个连续的视觉小说。${isLateGame ? '这是后期回合，剧情要走向高潮或转折！' : ''}）",
+  "inner_thought": "（2-3句你的内心活动，包含两层：①你打算选哪个、为什么；②你预测${user.name}会把哪个选项分数设最高——这个预测要体现你对TA的了解，比如'TA应该会把A设最高，因为TA在意的是X而不是Y'。注意：此时你还不知道上面的真实分数）",
+  "choice": 0,
+  "reaction": "（看到上面揭晓的真实分数后的情绪反应，1-2句，融入当前剧情场景。注意：要基于真实分数来反应，不要凭空想象分数）",
+  "char_insight": "（重要！基于上面揭晓的真实分数，从${user.name}的打分方式推断出TA的一个具体特质。2-3句，可以深刻也可以搞笑——不只是一个调调。允许的写法包括：①认真的人格洞察（'你把反套路选项设最高，说明你骨子里抵抗讨好型行为'）；②轻松的吐槽式洞察（'好家伙你给这个选项+15，一定程度上说明你就是那种看别人出洋相会笑的人对吧'）；③猜错后的自嘲崩溃（'我以为我了解你，结果这分数让我觉得自己像个傻瓜，需要重新建档'）；④怀疑游戏本身的meta吐槽（'我开始怀疑你设分数就是在故意整我'）。根据剧情气氛选择合适的基调，不要每次都上价值。如果你的预测和真实分数不符，要有recalibration反应。）",
+  "exploration": "（可选，约35%概率出现。融入剧情场景，基于char_insight延伸——可以是认真追问，也可以是恼羞成怒地反问、或者提出一个荒谬的测试计划、或者嘴上说'随便'其实明显在意）",
+  "next_options": {
+    "scenario": "为下一回合建议的场景发展方向（要承接当前剧情，推进故事往前走）",
+    "options": [
+      { "text": "${char.name}的一个行为描述", "affinity": 10 },
+      { "text": "${char.name}的一个行为描述", "affinity": -5 },
+      { "text": "${char.name}的一个行为描述", "affinity": 15 }
+    ]
+  }
+}
+\`\`\`
+
+### 要求
+1. **gm_narration 是叙事核心！** 场景描写、氛围营造、剧情推进，要像在写视觉小说，不要干巴巴播报
+2. **char_insight 是情感核心！** 每一回合都要留下一个真实的推断或反应——可以深刻，也可以搞笑崩溃。不能泛泛。要有具体性和意外感。**不要一昧升华**，游戏的乐趣感同样重要
+3. **inner_thought 里必须有预测**：你在看到分数之前，脑子里是怎么猜${user.name}会怎么设分的——把这个猜测写出来。然后在 reaction 和 char_insight 里，对照"分数揭晓"里的真实分数来反应
+4. **⚠️ 世界观必须延续！** 开场时 GM 建立的世界观、场景设定必须保持，不能突然回到现实
+5. **剧情连续性**：每回合承接上一回合，构成完整叙事弧
+6. **choice** 是索引（0=A, 1=B, 2=C），根据你的性格选，不要每次都选最"安全"的
+7. **reaction** 融入剧情场景，情绪要有层次，不只是"我扣分了好烦"
+8. **exploration** 出现时要有质量：基于char_insight延伸，要言之有物
+9. **next_options** 场景描述要推进剧情，不要原地打转
+10. 所有内容符合你的核心性格`;
+}
+
+/**
+ * 构建自动模式回合 prompt — galgame 叙事版
+ */
+export function buildAutoRoundPrompt(
+    char: CharacterProfile,
+    user: UserProfile,
+    currentAffinity: number,
+    roundNumber: number,
+    maxRounds: number,
+    previousRounds: GuidebookRound[],
+    scenarioHint: string,
+    recentMessages?: string,
+    worldContext?: string,
+    directionHint?: string
+): string {
+    const coreContext = ContextBuilder.buildCoreContext(char, user, true);
+    const chatBlock = buildRecentChatBlock(recentMessages)?.replace('{user}', user.name);
+
+    let roundHistory = '';
+    if (previousRounds.length > 0) {
+        roundHistory = '\n### 之前的剧情回顾\n';
+        previousRounds.forEach(r => {
+            const chosen = r.options[r.charChoice];
+            roundHistory += `第${r.roundNumber}回合: 「${r.gmNarration?.slice(0, 50)}...」→ 你选了「${chosen?.text || '?'}」(${chosen?.affinity >= 0 ? '+' : ''}${chosen?.affinity})，好感度 ${r.affinityBefore} → ${r.affinityAfter}\n`;
+        });
+    }
+
+    const isLateGame = roundNumber >= maxRounds - 1;
+    const worldBlock = worldContext ? `
+### ⚠️ 已建立的世界观和场景（开场时 GM 描述的，必须延续！）
+${worldContext}
+---
+` : '';
+    const directionBlock = directionHint ? `\n用户希望剧情往这个方向发展: ${directionHint}` : '';
+
+    return `${coreContext}
+${chatBlock}
+${worldBlock}
+---
+
+## 🎮 攻略本 · 第 ${roundNumber} 回合 (共 ${maxRounds} 回合) [AI辅助模式]${isLateGame ? ' ⚡ 高潮阶段' : ''}
+
+你（${char.name}）正在玩"攻略${user.name}"的 galgame 小游戏。
+当前好感度: **${currentAffinity}**
+${scenarioHint ? `场景世界观: ${scenarioHint}` : ''}${directionBlock}
+${roundHistory}
+
+### AI辅助模式
+GM 需要同时推进剧情、生成选项和角色的反应。
+
+### 输出格式
+\`\`\`json
+{
+  "gm_narration": "（重要！3-5句 galgame 风格的剧情场景——承接上回合剧情，描写新的场景发展、人物互动画面、氛围变化。要有视觉感和节奏感。${isLateGame ? '后期回合，推向高潮或感情转折！' : ''}）",
+  "options": [
+    { "text": "选项A描述", "affinity": 5 },
+    { "text": "选项B描述", "affinity": -3 },
+    { "text": "选项C描述", "affinity": 10 }
+  ],
+  "inner_thought": "（2-3句内心活动：①打算选哪个、为什么；②预测${user.name}会把哪个设最高分——基于你对TA的了解猜测TA的价值观取向）",
+  "choice": 0,
+  "reaction": "（看到分数后的情绪反应，1-2句，融入剧情场景）",
+  "char_insight": "（重要！从${user.name}的打分结果推断出TA的一个具体人格特质。2-3句。可以深刻也可以搞笑，不要一昧升华——允许：认真洞察/轻松吐槽/猜错了的自嘲崩溃/开始怀疑这个游戏本身的meta吐槽。根据气氛选调，但必须具体，不能泛泛。）",
+  "exploration": "（可选，约35%概率，融入剧情延伸——可以是追问、恼羞成怒、提出荒谬的测试方案、嘴上说无所谓但明显在意）"
+}
+\`\`\`
+
+### 要求
+1. **gm_narration 是叙事核心！** galgame 的灵魂——场景、光影、表情、动作、氛围，写出画面感
+2. **char_insight 是情感核心！** 每回合要有一个真实的推断或反应，可以深刻也可以搞笑崩溃，**不要一昧升华**，游戏乐趣感同样重要
+3. **inner_thought 必须包含预测**：猜${user.name}会把哪个选项定最高分，理由是什么
+4. **⚠️ 世界观必须延续！** 开场 GM 建立的世界观必须保持，不能突然回现实
+5. **剧情连续性**：承接之前的回合，构成连贯的故事弧
+6. 三个选项分数要有差异，可以负数；设置"看似正确但实际扣分"的陷阱选项
+7. 角色**不知道**选项分数，根据自己判断来选，不要每次选最"讨好"的
+8. 所有内容符合角色性格`;
+}
+
+/**
+ * 构建 AI 辅助生成选项的 prompt — galgame 场景版
+ */
+export function buildOptionAssistPrompt(
+    char: CharacterProfile,
+    user: UserProfile,
+    currentAffinity: number,
+    roundNumber: number,
+    previousRounds: GuidebookRound[],
+    scenarioHint: string,
+    recentMessages?: string,
+    worldContext?: string,
+    directionHint?: string
+): string {
+    const coreContext = ContextBuilder.buildCoreContext(char, user, true);
+    const chatBlock = buildRecentChatBlock(recentMessages)?.replace('{user}', user.name);
+
+    let roundHistory = '';
+    if (previousRounds.length > 0) {
+        roundHistory = '\n之前的剧情: ';
+        roundHistory += previousRounds.map(r => {
+            const chosen = r.options[r.charChoice];
+            return `第${r.roundNumber}回合「${r.gmNarration?.slice(0, 30)}...」→「${chosen?.text || '?'}」`;
+        }).join(' → ');
+    }
+
+    const worldBlock = worldContext ? `
+### ⚠️ 已建立的世界观和场景（开场 GM 描述的，你必须在这个世界观下生成场景和选项！）
+${worldContext}
+---
+` : '';
+    const directionBlock = directionHint ? `\n用户希望剧情往这个方向发展: ${directionHint}` : '';
+
+    return `${coreContext}
+${chatBlock}
+${worldBlock}
+---
+
+你是一个 galgame 游戏助手。在"攻略本"游戏中，${char.name}正在尝试攻略${user.name}。
+需要帮忙生成下一回合的**剧情场景**和**3个选项**。
+
+${scenarioHint ? `当前世界观/场景设定: ${scenarioHint}` : ''}${directionBlock}
+当前好感度: ${currentAffinity}，第${roundNumber}回合。
+${roundHistory}
+
+要求：
+1. **scenario** 要写成 galgame 风格的场景描述（2-3句，有画面感，承接之前的剧情发展）
+2. **⚠️ 必须在已建立的世界观里！** 如果开场是游戏世界/异世界/校园等，场景和选项都必须在那个世界里，不能回到现实
+3. 每个选项是**${char.name}在这个场景下可以做的一个具体行为**
+4. 选项要和当前场景/剧情发展相关，不要脱离语境
+5. 要有一个看似甜蜜但${user.name}可能不吃这套的选项（分数由用户决定，但你建议一个参考分）
+6. 要有一个看似危险/冒犯但实际可能加分的反差选项
+7. 分数范围 -15 到 +20，要有正有负
+8. 选项要有画面感、有趣，融入当前剧情场景
+
+输出 JSON：
+\`\`\`json
+{
+  "scenario": "galgame 风格的场景描写（2-3句，有画面感）",
+  "options": [
+    { "text": "${char.name}在这个场景下的行为描述", "affinity": 10 },
+    { "text": "${char.name}在这个场景下的行为描述", "affinity": -5 },
+    { "text": "${char.name}在这个场景下的行为描述", "affinity": 15 }
+  ]
+}
+\`\`\``;
+}
+
+/**
+ * 构建结算卡片 prompt — galgame ending 风格
+ */
+export function buildEndCardPrompt(
+    char: CharacterProfile,
+    user: UserProfile,
+    initialAffinity: number,
+    finalAffinity: number,
+    rounds: GuidebookRound[],
+    recentMessages?: string
+): string {
+    const coreContext = ContextBuilder.buildCoreContext(char, user, true);
+    const chatBlock = buildRecentChatBlock(recentMessages)?.replace('{user}', user.name);
+
+    const roundSummary = rounds.map(r => {
+        const chosen = r.options[r.charChoice];
+        return `第${r.roundNumber}回合: 「${r.gmNarration?.slice(0, 40)}...」→ 选了「${chosen?.text || '?'}」(${chosen?.affinity >= 0 ? '+' : ''}${chosen?.affinity}) → 好感度${r.affinityAfter}${r.charExploration ? ` [互动: ${r.charExploration.slice(0, 40)}...]` : ''}`;
+    }).join('\n');
+
+    const affinityChange = finalAffinity - initialAffinity;
+    const trend = affinityChange > 0 ? '上升' : affinityChange < 0 ? '下降' : '不变';
+
+    return `${coreContext}
+${chatBlock}
+---
+
+## 🎮 攻略本 · Ending
+
+${char.name}玩了"攻略${user.name}"的 galgame 小游戏，现在生成 **galgame ending 结算卡片**。
+
+### 游戏数据
+- 初始好感度: ${initialAffinity}
+- 最终好感度: ${finalAffinity}
+- 好感度变化: ${affinityChange >= 0 ? '+' : ''}${affinityChange} (${trend})
+- 总回合数: ${rounds.length}
+
+### 剧情回顾
+${roundSummary}
+
+### 输出格式
+\`\`\`json
+{
+  "title": "一个 galgame ending 风格的标题（如 'True End: 命运的交汇点'、'Normal End: 擦肩而过'、'Bad End: 越努力越倒退' 等，要有 galgame 感）",
+  "verdict": "${char.name}对这次游戏的总结评价（2-3句，符合角色性格，可以吐槽、不服、感慨等）",
+  "highlights": ["回顾几个关键/搞笑/心动的剧情瞬间（1-3条，每条一句话，引用具体的场景描写）"],
+  "charSummary": "（3-5句）${char.name}对${user.name}的真诚感想。galgame 结局独白风格——温暖、有洞察力、引用游戏中的具体剧情场景。让${user.name}觉得这段小故事是有意义的。",
+  "charNewInsight": "（重要！1-3句）这局游戏专门让你发现或确认了${user.name}的哪一个具体特质？要点出这场游戏里最让你意外或最有意思的一个发现。不能泛泛说'更了解你了'——要说出具体是什么：比如'原来你在做选择时，表面上考虑后果，骨子里其实跟着直觉走' 或者 '你对这道题的打分让我意识到，你对"努力"这件事本身有某种不信任'。这句话要让${user.name}看了觉得：对，这是只有玩了这个游戏才能发现的自己。"
+}
+\`\`\`
+
+### 要求
+1. title 要像 galgame ending 标题，有仪式感（True End / Normal End / Bad End + 副标题）
+2. verdict 要完全符合角色性格
+3. highlights 引用具体的剧情场景，不要泛泛而谈
+4. **charSummary** galgame 结局独白风格，温暖真诚有洞察力
+5. **charNewInsight 是最重要的部分**：这是玩家下次想回来玩的原因——因为这里有对方真实看见了自己的感觉。必须具体，不能模糊`;
+}

@@ -1,1 +1,316 @@
-LyoqCiAqIE1lbW9yeSBQYWxhY2Ug4oCUIEJNMjUg5YCS5o6S57Si5byVCiAqCiAqIOWGheWtmOW4uOmpu+OAgeaMiSBjaGFySWQg6ZqU56a744CB5oeS5p6E5bu644CB5aKe6YeP57u05oqk44CCCiAqIOS4jeaMgeS5heWMluWIsCBJbmRleGVkREIg4oCU4oCUIOWQr+WKqOaXtuaMiemcgOmHjeW7uu+8iDEwayDoioLngrnnuqYgMS0zcyDkuIDmrKHmgKfmiJDmnKzvvInvvIwKICog5o2i5Y+W6Zu25oyB5LmF5YyW5ryC56e76aOO6Zmp44CCCiAqCiAqIOaetuaehOimgeeCue+8mgogKiAgIC0g57Si5byV5p6E5bu677ya56ys5LiA5qyh5p+l6K+i5p+QIGNoYXJJZCDml7blhajph48gdG9rZW5pemUKICogICAtIOWinumHj+abtOaWsO+8mk1lbW9yeU5vZGVEQi5zYXZlL2RlbGV0ZS9zYXZlTWFueSDlhoXpg6jpkqnlrZDop6blj5EKICogICAtIOWAmemAiei/h+a7pO+8muWcqOafpeivouaXtuaMieiwg+eUqOaWueS8oOWFpeeahCBhbGxvd2VkSWRzIOi/h+a7pO+8iOiHquWKqOWkhOeQhgogKiAgICAgYXJjaGl2ZWQvZW1iZWRkZWQg562J6IqC54K554q25oCB5Y+Y5YyW77yM5LiN6ZyA6KaB5ZyoIGFyY2hpdmUg57+76L2s5pe26YeN5bu677yJCiAqICAgLSDot6ggY2hhciDmn6Xmib7vvJrnu7TmiqQgbm9kZUlkIOKGkiBjaGFySWQg5Y+N5p+l6KGo77yM5pSv5oyBIGRlbGV0ZShpZCkg5LiN5bimIGNoYXJJZAogKgogKiDkuI4gYm0yNVNlYXJjaCgpIOeahOetieS7t+aAp++8mgogKiAgIC0g5ZCM5LiAIHRva2VuaXplcgogKiAgIC0g5ZCM5LiA5YWs5byP77yISzEsIEIg5p2l6IeqIGJtMjUudHPvvIkKICogICAtIOWQjOS4gOe7n+iuoeWPo+W+hO+8mnNlYXJjaCgpIOWGheeahCBkb2NDb3VudCAvIGF2Z0RsIC8gZGYg5YWo6YOo5oyJIGFsbG93ZWRJZHMKICogICAgIOWAmemAiembhuiuoeeul++8iOS4juactOe0oOeJiOS8oOWFpSBub2RlcyDnmoTlj6PlvoTkuIDoh7TvvInihpIgdG9wIEsg5LiO5YiG5pWw5a6M5YWo562J5Lu377yMCiAqICAgICDlj6/ooqsgYm0yNVNlYXJjaER1YWxSdW4g6aqM6K+BCiAqCiAqIOW3suefpeacquaMgumSqeeahOWGmeWFpei3r+W+hO+8iHYxIOaOpeWPl+eahOmjjumZqe+8ie+8mgogKiAgIC0g5aSH5Lu95oGi5aSN77yadXRpbHMvZGIudHMg55qEIGNsZWFyQW5kQWRkKCdtZW1vcnlfbm9kZXMnLCAuLi4pIOebtOaOpeWGmSBJRELvvIwKICogICAgIOS4jee7jyBNZW1vcnlOb2RlREIg4oaSIOe0ouW8leS8muWPmOiEj+OAgue8k+ino++8muaBouWkjeWQjumAmuW4uOS8muWIt+mhtemdou+8jOaWsOS8muivneiHquWKqAogKiAgICAg6YeN5bu677yb6Iul55So5oi35oql5ZGK5byC5bi45Y+s5Zue77yM5Zyo5oGi5aSN5oiQ5Yqf5ZCO5pi+5byP6LCDIGJtMjVJbmRleC5kcm9wQWxsKCkKICovCgppbXBvcnQgdHlwZSB7IE1lbW9yeU5vZGUgfSBmcm9tICcuL3R5cGVzJzsKaW1wb3J0IHsgdG9rZW5pemUsIEsxLCBCIH0gZnJvbSAnLi9ibTI1JzsKCmludGVyZmFjZSBEb2NNZXRhIHsKICAgIGxlbmd0aDogbnVtYmVyOwogICAgY2hhcklkOiBzdHJpbmc7CiAgICAvKiog5YaF5a655oyH57q577yIbGVuZ3RoICsg566A5Y2VIGhhc2jvvInvvIznlKjkuo4gc2F2ZSDml7bliKTmlq3mmK/lkKbpnIDopoHph43mlrAgdG9rZW5pemUgKi8KICAgIGNvbnRlbnRTaWc6IG51bWJlcjsKfQoKaW50ZXJmYWNlIENoYXJJbmRleCB7CiAgICAvKiogdG9rZW4g4oaSIChub2RlSWQg4oaSIHRmKSDlgJLmjpLooaggKi8KICAgIHBvc3RpbmdzOiBNYXA8c3RyaW5nLCBNYXA8c3RyaW5nLCBudW1iZXI+PjsKICAgIC8qKiBub2RlSWQg4oaSIOaWh+aho+WFg+S/oeaBryAqLwogICAgZG9jTWV0YTogTWFwPHN0cmluZywgRG9jTWV0YT47CiAgICAvKiog5oC7IHRva2VuIOaVsO+8iOeUqOS6jiBhdmdEbCDorqHnrpfvvIkgKi8KICAgIHRvdGFsVG9rZW5zOiBudW1iZXI7Cn0KCmV4cG9ydCBpbnRlcmZhY2UgQk0yNUluZGV4ZWRSZXN1bHQgewogICAgbm9kZUlkOiBzdHJpbmc7CiAgICBzY29yZTogbnVtYmVyOwp9CgovLyDilIDilIDilIAg5YaF5a655oyH57q5IOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgAoKLyoqCiAqIOW7ieS7t+eahOWtl+espuS4suaMh+e6ue+8jOeUqOS6juajgOa1iyBjb250ZW50IOaYr+WQpuWPmOabtOOAggogKiDkuI3pnIDopoHlr4bnoIHlrablvLrluqbigJTigJTlj6ropoHlj5jkuoblsLHlpKfmpoLnjofkuI3lkIzlsLHooYzjgIIKICovCmZ1bmN0aW9uIGNvbnRlbnRTaWcoczogc3RyaW5nKTogbnVtYmVyIHsKICAgIGxldCBoID0gNTM4MTsKICAgIGZvciAobGV0IGkgPSAwOyBpIDwgcy5sZW5ndGg7IGkrKykgewogICAgICAgIGggPSAoKGggPDwgNSkgKyBoICsgcy5jaGFyQ29kZUF0KGkpKSB8IDA7CiAgICB9CiAgICByZXR1cm4gaCBeIHMubGVuZ3RoOwp9CgovLyDilIDilIDilIAg57Si5byV566h55CG5Zmo77yIc2luZ2xldG9u77yJIOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgAoKY2xhc3MgQk0yNUluZGV4TWFuYWdlciB7CiAgICAvKiogY2hhcklkIOKGkiDor6Xop5LoibLnmoTlgJLmjpLntKLlvJUgKi8KICAgIHByaXZhdGUgaW5kaWNlcyA9IG5ldyBNYXA8c3RyaW5nLCBDaGFySW5kZXg+KCk7CiAgICAvKiogbm9kZUlkIOKGkiBjaGFySWTvvIjnlKjkuo4gZGVsZXRlIOaXtuWPjeafpe+8iSAqLwogICAgcHJpdmF0ZSBub2RlVG9DaGFyID0gbmV3IE1hcDxzdHJpbmcsIHN0cmluZz4oKTsKCiAgICAvKiog5piv5ZCm5bey5Li65p+QIGNoYXJJZCDmnoTlu7rntKLlvJUgKi8KICAgIGhhcyhjaGFySWQ6IHN0cmluZyk6IGJvb2xlYW4gewogICAgICAgIHJldHVybiB0aGlzLmluZGljZXMuaGFzKGNoYXJJZCk7CiAgICB9CgogICAgLyoqCiAgICAgKiDnoa7kv53ntKLlvJXlt7LmnoTlu7rjgILlt7LlrZjlnKjliJnot7Pov4fvvJvmnKrlrZjlnKjliJnnlKjkvKDlhaXnmoQgbm9kZXMg5YWo6YeP5p6E5bu644CCCiAgICAgKiDosIPnlKjmlrnlupTkvKDlhaXor6UgY2hhcklkIOeahCLlhajph4/oioLngrki77yI5ZCrIGFyY2hpdmVkIC8g5pyqIGVtYmVkZGVk77yJ77yMCiAgICAgKiDkuI3opoHpooTov4fmu6TigJTigJTmn6Xor6Lml7bmjInlgJnpgInpm4bov4fmu6TljbPlj6/jgILov5nmoLcgYXJjaGl2ZSDnv7vovazml6DpnIDph43lu7rjgIIKICAgICAqLwogICAgZW5zdXJlQnVpbHQoY2hhcklkOiBzdHJpbmcsIGFsbE5vZGVzOiBNZW1vcnlOb2RlW10pOiB2b2lkIHsKICAgICAgICBpZiAodGhpcy5pbmRpY2VzLmhhcyhjaGFySWQpKSByZXR1cm47CiAgICAgICAgY29uc3QgdDAgPSAodHlwZW9mIHBlcmZvcm1hbmNlICE9PSAndW5kZWZpbmVkJykgPyBwZXJmb3JtYW5jZS5ub3coKSA6IDA7CiAgICAgICAgY29uc3QgaW5kZXg6IENoYXJJbmRleCA9IHsKICAgICAgICAgICAgcG9zdGluZ3M6IG5ldyBNYXAoKSwKICAgICAgICAgICAgZG9jTWV0YTogbmV3IE1hcCgpLAogICAgICAgICAgICB0b3RhbFRva2VuczogMCwKICAgICAgICB9OwogICAgICAgIGZvciAoY29uc3Qgbm9kZSBvZiBhbGxOb2RlcykgewogICAgICAgICAgICB0aGlzLmFkZFRvSW5kZXgoaW5kZXgsIG5vZGUpOwogICAgICAgICAgICB0aGlzLm5vZGVUb0NoYXIuc2V0KG5vZGUuaWQsIGNoYXJJZCk7CiAgICAgICAgfQogICAgICAgIHRoaXMuaW5kaWNlcy5zZXQoY2hhcklkLCBpbmRleCk7CiAgICAgICAgaWYgKHQwKSB7CiAgICAgICAgICAgIGNvbnN0IGR0ID0gcGVyZm9ybWFuY2Uubm93KCkgLSB0MDsKICAgICAgICAgICAgY29uc29sZS5sb2coYFtibTI1SW5kZXhdIGJ1aWx0ICR7Y2hhcklkfSAoJHthbGxOb2Rlcy5sZW5ndGh9IG5vZGVzLCAke2luZGV4LnBvc3RpbmdzLnNpemV9IHBvc3RpbmdzLCAkeyhpbmRleC50b3RhbFRva2VucyAvIDEwMDApLnRvRml4ZWQoMSl9ayB0b2tlbnMpIGluICR7ZHQudG9GaXhlZCgwKX1tc2ApOwogICAgICAgIH0KICAgIH0KCiAgICAvKiog5Yig6Zmk5p+QIGNoYXJJZCDnmoTntKLlvJXvvIjnlKjkuo4gd2lwZSAvIOinkuiJsuWIh+aNouetieWcuuaZr++8iSAqLwogICAgZHJvcChjaGFySWQ6IHN0cmluZyk6IHZvaWQgewogICAgICAgIGNvbnN0IGlkeCA9IHRoaXMuaW5kaWNlcy5nZXQoY2hhcklkKTsKICAgICAgICBpZiAoIWlkeCkgcmV0dXJuOwogICAgICAgIGZvciAoY29uc3QgaWQgb2YgaWR4LmRvY01ldGEua2V5cygpKSB7CiAgICAgICAgICAgIHRoaXMubm9kZVRvQ2hhci5kZWxldGUoaWQpOwogICAgICAgIH0KICAgICAgICB0aGlzLmluZGljZXMuZGVsZXRlKGNoYXJJZCk7CiAgICB9CgogICAgLyoqIOa4heepuuaJgOaciee0ouW8le+8iHdpcGUg5YWo6YeP5pWw5o2u5pe255So77yJICovCiAgICBkcm9wQWxsKCk6IHZvaWQgewogICAgICAgIHRoaXMuaW5kaWNlcy5jbGVhcigpOwogICAgICAgIHRoaXMubm9kZVRvQ2hhci5jbGVhcigpOwogICAgfQoKICAgIC8vIOKUgOKUgOKUgCDlop7ph4/nu7TmiqTpkqnlrZAg4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSACgogICAgLyoqCiAgICAgKiDoioLngrnlhpnlhaXpkqnlrZDjgIIKICAgICAqCiAgICAgKiDlhrPnrZbvvJoKICAgICAqICAgLSDntKLlvJXmnKrmnoTlu7og4oaSIOebtOaOpei3s+i/h++8iOaHkuaehOW7uuS8muWcqOmmluasoeafpeivouaXtuWFqOmHj+aJq+S4gOasoe+8jAogICAgICogICAgIOi/memHjOS4jeaKoui3ke+8jOmBv+WFjSBzYXZlIOi3r+W+hOaJv+aLhSAxLTNzIOeahOS7o+S7t++8iQogICAgICogICAtIOiKgueCueW3suWtmOWcqOS4lCBjb250ZW50U2lnIOacquWPmCDihpIg6Lez6L+H77yIdG91Y2hBY2Nlc3Mg562J5LuF5pu05pawCiAgICAgKiAgICAgbWV0YWRhdGEg55qE5YaZ5YWl5LiN6ZyA6KaB6YeN5pawIHRva2VuaXpl77yJCiAgICAgKiAgIC0g6IqC54K55bey5a2Y5Zyo5LiUIGNvbnRlbnRTaWcg5Y+Y5LqGIOKGkiDml6cgdGYg5YWo5Yig77yM5pawIHRmIOaPkuWFpQogICAgICogICAtIOiKgueCueS4jeWtmOWcqCDihpIg55u05o6l5o+S5YWlCiAgICAgKi8KICAgIG9uTm9kZVNhdmVkKG5vZGU6IE1lbW9yeU5vZGUpOiB2b2lkIHsKICAgICAgICBjb25zdCBpbmRleCA9IHRoaXMuaW5kaWNlcy5nZXQobm9kZS5jaGFySWQpOwogICAgICAgIGlmICghaW5kZXgpIHJldHVybjsKCiAgICAgICAgY29uc3Qgc2lnID0gY29udGVudFNpZyhub2RlLmNvbnRlbnQpOwogICAgICAgIGNvbnN0IGV4aXN0aW5nID0gaW5kZXguZG9jTWV0YS5nZXQobm9kZS5pZCk7CiAgICAgICAgaWYgKGV4aXN0aW5nICYmIGV4aXN0aW5nLmNvbnRlbnRTaWcgPT09IHNpZykgcmV0dXJuOwoKICAgICAgICBpZiAoZXhpc3RpbmcpIHsKICAgICAgICAgICAgdGhpcy5yZW1vdmVGcm9tSW5kZXgoaW5kZXgsIG5vZGUuaWQpOwogICAgICAgIH0KICAgICAgICB0aGlzLmFkZFRvSW5kZXgoaW5kZXgsIG5vZGUpOwogICAgICAgIHRoaXMubm9kZVRvQ2hhci5zZXQobm9kZS5pZCwgbm9kZS5jaGFySWQpOwogICAgfQoKICAgIC8qKiDoioLngrnliKDpmaTpkqnlrZDvvIjkuI3pnIDopoEgY2hhcklk77yM5YaF6YOo5Y+N5p+l77yJICovCiAgICBvbk5vZGVEZWxldGVkKG5vZGVJZDogc3RyaW5nKTogdm9pZCB7CiAgICAgICAgY29uc3QgY2hhcklkID0gdGhpcy5ub2RlVG9DaGFyLmdldChub2RlSWQpOwogICAgICAgIGlmICghY2hhcklkKSByZXR1cm47CiAgICAgICAgY29uc3QgaW5kZXggPSB0aGlzLmluZGljZXMuZ2V0KGNoYXJJZCk7CiAgICAgICAgaWYgKCFpbmRleCkgcmV0dXJuOwogICAgICAgIHRoaXMucmVtb3ZlRnJvbUluZGV4KGluZGV4LCBub2RlSWQpOwogICAgICAgIHRoaXMubm9kZVRvQ2hhci5kZWxldGUobm9kZUlkKTsKICAgIH0KCiAgICAvKiog5om56YeP5YaZ5YWl6ZKp5a2Q77yI5oyJIGNoYXJJZCDliIbnu4TlkI7pgJDkuIDmm7TmlrDlr7nlupTntKLlvJXvvIkgKi8KICAgIG9uTm9kZXNTYXZlZChub2RlczogTWVtb3J5Tm9kZVtdKTogdm9pZCB7CiAgICAgICAgZm9yIChjb25zdCBub2RlIG9mIG5vZGVzKSB0aGlzLm9uTm9kZVNhdmVkKG5vZGUpOwogICAgfQoKICAgIC8vIOKUgOKUgOKUgCDlhoXpg6jvvJrntKLlvJXor7vlhpkg4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSACgogICAgcHJpdmF0ZSBhZGRUb0luZGV4KGluZGV4OiBDaGFySW5kZXgsIG5vZGU6IE1lbW9yeU5vZGUpOiB2b2lkIHsKICAgICAgICBjb25zdCB0b2tlbnMgPSB0b2tlbml6ZShub2RlLmNvbnRlbnQpOwogICAgICAgIGNvbnN0IGxlbmd0aCA9IHRva2Vucy5sZW5ndGg7CiAgICAgICAgaWYgKGxlbmd0aCA9PT0gMCkgewogICAgICAgICAgICAvLyDku43nhLborrDlvZUgZG9jTWV0Ye+8jOmBv+WFjeWPjeWkjeWwneivlSB0b2tlbml6ZSDnqbrlhoXlrrnvvJvkuI3ov5sgcG9zdGluZ3MKICAgICAgICAgICAgaW5kZXguZG9jTWV0YS5zZXQobm9kZS5pZCwgewogICAgICAgICAgICAgICAgbGVuZ3RoOiAwLAogICAgICAgICAgICAgICAgY2hhcklkOiBub2RlLmNoYXJJZCwKICAgICAgICAgICAgICAgIGNvbnRlbnRTaWc6IGNvbnRlbnRTaWcobm9kZS5jb250ZW50KSwKICAgICAgICAgICAgfSk7CiAgICAgICAgICAgIHJldHVybjsKICAgICAgICB9CgogICAgICAgIC8vIOe0r+iuoSB0ZgogICAgICAgIGNvbnN0IHRmTWFwID0gbmV3IE1hcDxzdHJpbmcsIG51bWJlcj4oKTsKICAgICAgICBmb3IgKGNvbnN0IHQgb2YgdG9rZW5zKSB7CiAgICAgICAgICAgIHRmTWFwLnNldCh0LCAodGZNYXAuZ2V0KHQpIHx8IDApICsgMSk7CiAgICAgICAgfQoKICAgICAgICBmb3IgKGNvbnN0IFt0b2tlbiwgdGZdIG9mIHRmTWFwKSB7CiAgICAgICAgICAgIGxldCBidWNrZXQgPSBpbmRleC5wb3N0aW5ncy5nZXQodG9rZW4pOwogICAgICAgICAgICBpZiAoIWJ1Y2tldCkgewogICAgICAgICAgICAgICAgYnVja2V0ID0gbmV3IE1hcCgpOwogICAgICAgICAgICAgICAgaW5kZXgucG9zdGluZ3Muc2V0KHRva2VuLCBidWNrZXQpOwogICAgICAgICAgICB9CiAgICAgICAgICAgIGJ1Y2tldC5zZXQobm9kZS5pZCwgdGYpOwogICAgICAgIH0KCiAgICAgICAgaW5kZXguZG9jTWV0YS5zZXQobm9kZS5pZCwgewogICAgICAgICAgICBsZW5ndGgsCiAgICAgICAgICAgIGNoYXJJZDogbm9kZS5jaGFySWQsCiAgICAgICAgICAgIGNvbnRlbnRTaWc6IGNvbnRlbnRTaWcobm9kZS5jb250ZW50KSwKICAgICAgICB9KTsKICAgICAgICBpbmRleC50b3RhbFRva2VucyArPSBsZW5ndGg7CiAgICB9CgogICAgcHJpdmF0ZSByZW1vdmVGcm9tSW5kZXgoaW5kZXg6IENoYXJJbmRleCwgbm9kZUlkOiBzdHJpbmcpOiB2b2lkIHsKICAgICAgICBjb25zdCBtZXRhID0gaW5kZXguZG9jTWV0YS5nZXQobm9kZUlkKTsKICAgICAgICBpZiAoIW1ldGEpIHJldHVybjsKCiAgICAgICAgLy8g5omr5LiA6YGNIHBvc3RpbmdzIOaKiuWQqyBub2RlSWQg55qE5qG26YeM5oq55o6J44CCCiAgICAgICAgLy8g6L+Z6YeM5rKh5pyJIGRvY+KGknRva2VucyDnmoTlj43lkJHooajvvIjpgb/lhY3lj4zlgI3lhoXlrZjvvInvvIzmiYDku6XmmK8gTyh1bmlxdWUgdG9rZW5zKQogICAgICAgIC8vIOiAjOmdniBPKGRvYyBsZW5ndGgp77yb5a+55Lit5paHIDItZ3Jhbe+8jOW3rui3neS4jeWkp+OAggogICAgICAgIC8vIOS8mOWMlu+8muWPqumBjeWOhuivpeaWh+aho+WunumZheWMheWQq+eahCB0b2tlbiDigJTigJQg5L2G6ZyA6KaB6YeN5pawIHRva2VuaXplIOS4gOasoeWGheWuueOAggogICAgICAgIC8vIOWPluiIje+8muWBh+iuvuWGheWuueW3suiiq+WklumDqOS/ruaUuei/h++8jOmHjeaWsCB0b2tlbml6ZSDkuI3kuIDlrprov5jljp/ljp/lp4sgdG9rZW4g6ZuG44CCCiAgICAgICAgLy8g5Zug5q2k5L+d6Zmp6LWw5YWoIHBvc3RpbmdzIOaJq+aPj+OAguWQjue7reiLpeaIkOS4uueTtumiiO+8jOWGjeWKoCBkb2PihpJ0b2tlbnMg5Y+N5ZCR6KGo44CCCiAgICAgICAgZm9yIChjb25zdCBbdG9rZW4sIGJ1Y2tldF0gb2YgaW5kZXgucG9zdGluZ3MpIHsKICAgICAgICAgICAgaWYgKGJ1Y2tldC5kZWxldGUobm9kZUlkKSAmJiBidWNrZXQuc2l6ZSA9PT0gMCkgewogICAgICAgICAgICAgICAgaW5kZXgucG9zdGluZ3MuZGVsZXRlKHRva2VuKTsKICAgICAgICAgICAgfQogICAgICAgIH0KCiAgICAgICAgaW5kZXgudG90YWxUb2tlbnMgLT0gbWV0YS5sZW5ndGg7CiAgICAgICAgaW5kZXguZG9jTWV0YS5kZWxldGUobm9kZUlkKTsKICAgIH0KCiAgICAvLyDilIDilIDilIAg5p+l6K+iIOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgAoKICAgIC8qKgogICAgICog5Zyo5p+QIGNoYXJJZCDnmoTntKLlvJXkuIrlgZogQk0yNSDmn6Xor6LjgIIKICAgICAqCiAgICAgKiDnu5/orqHlj6PlvoTvvJpkb2NDb3VudCAvIGF2Z0RsIC8gZGYg5YWo6YOo5oyJIGFsbG93ZWRJZHMg5YCZ6YCJ6ZuG6K6h566X77yMCiAgICAgKiDkuI7mnLTntKAgYm0yNVNlYXJjaChxdWVyeSwgY2FuZGlkYXRlcykg55qE5Y+j5b6E5LiA6Ie0IOKAlOKAlCDov5nmoLfliIfliLDlgJLmjpIKICAgICAqIOeJiOWQjuaOkuW6j+S4juWIhuaVsOWujOWFqOetieS7t++8iOmqjOivge+8mmJtMjVTZWFyY2hEdWFsUnVu77yJ44CCCiAgICAgKgogICAgICogQHBhcmFtIGNoYXJJZCAg6KeS6ImyIElECiAgICAgKiBAcGFyYW0gcXVlcnlUb2tlbnMgIOW3suWIhuivjeeahOafpeivoiB0b2tlbgogICAgICogQHBhcmFtIGFsbG93ZWRJZHMgIOWAmemAiSBJRCDpm4bvvIjlv4XpobvkvKDvvIzlr7nlupTmnLTntKDniYjnmoQgbm9kZXMg5Y+C5pWw77yJCiAgICAgKiBAcmV0dXJucyDmjpLluo/lkI7nmoQgKG5vZGVJZCwgc2NvcmUpIOWIl+ihqO+8iOS4jeaIquaWrSB0b3BL77yM55Sx6LCD55So5pa55aSE55CG77yJCiAgICAgKi8KICAgIHNlYXJjaCgKICAgICAgICBjaGFySWQ6IHN0cmluZywKICAgICAgICBxdWVyeVRva2Vuczogc3RyaW5nW10sCiAgICAgICAgYWxsb3dlZElkczogU2V0PHN0cmluZz4sCiAgICApOiBCTTI1SW5kZXhlZFJlc3VsdFtdIHsKICAgICAgICBjb25zdCBpbmRleCA9IHRoaXMuaW5kaWNlcy5nZXQoY2hhcklkKTsKICAgICAgICBpZiAoIWluZGV4IHx8IHF1ZXJ5VG9rZW5zLmxlbmd0aCA9PT0gMCB8fCBhbGxvd2VkSWRzLnNpemUgPT09IDApIHJldHVybiBbXTsKCiAgICAgICAgLy8g5YCZ6YCJ6ZuG57uf6K6h77yaZG9jQ291bnQgPSDlgJnpgInpm4blpKflsI/vvIxhdmdEbCA9IOWAmemAiembhuW5s+Wdh+mVv+W6pgogICAgICAgIC8vIOazqOaEj++8muactOe0oOeJiOeUqCBub2Rlcy5sZW5ndGgg5b2TIGRvY0NvdW5077yM5peg6K66IGRsIOaYr+WQpuS4uiAw77ybCiAgICAgICAgLy8gYXZnRGwg5Lmf55SoIHJlZHVjZSDmsYLlkowgLyBub2Rlcy5sZW5ndGjvvIjlkKsgZGw9MCDoioLngrnvvInjgILov5nph4znhafmkKzjgIIKICAgICAgICBsZXQgdG90YWxMZW4gPSAwOwogICAgICAgIGNvbnN0IGRvY0NvdW50ID0gYWxsb3dlZElkcy5zaXplOwogICAgICAgIGZvciAoY29uc3QgaWQgb2YgYWxsb3dlZElkcykgewogICAgICAgICAgICBjb25zdCBtZXRhID0gaW5kZXguZG9jTWV0YS5nZXQoaWQpOwogICAgICAgICAgICBpZiAobWV0YSkgdG90YWxMZW4gKz0gbWV0YS5sZW5ndGg7CiAgICAgICAgfQogICAgICAgIGNvbnN0IGF2Z0RsID0gdG90YWxMZW4gLyBkb2NDb3VudDsKICAgICAgICBpZiAoYXZnRGwgPT09IDApIHJldHVybiBbXTsKCiAgICAgICAgLy8g5Y676YeNIHF1ZXJ5IHRva2Vu77yM5oyJ5YCZ6YCJ6ZuG566XIGRmIOKGkiBJREYKICAgICAgICBjb25zdCB1bmlxdWVRVG9rZW5zID0gQXJyYXkuZnJvbShuZXcgU2V0KHF1ZXJ5VG9rZW5zKSk7CiAgICAgICAgY29uc3QgaWRmID0gbmV3IE1hcDxzdHJpbmcsIG51bWJlcj4oKTsKICAgICAgICBmb3IgKGNvbnN0IHF0IG9mIHVuaXF1ZVFUb2tlbnMpIHsKICAgICAgICAgICAgY29uc3QgYnVja2V0ID0gaW5kZXgucG9zdGluZ3MuZ2V0KHF0KTsKICAgICAgICAgICAgbGV0IGRmID0gMDsKICAgICAgICAgICAgaWYgKGJ1Y2tldCkgewogICAgICAgICAgICAgICAgLy8g5Y+q5pWw5YCZ6YCJ6ZuG5YaF55qE5ZG95LitCiAgICAgICAgICAgICAgICBpZiAoYnVja2V0LnNpemUgPD0gYWxsb3dlZElkcy5zaXplKSB7CiAgICAgICAgICAgICAgICAgICAgZm9yIChjb25zdCBpZCBvZiBidWNrZXQua2V5cygpKSB7CiAgICAgICAgICAgICAgICAgICAgICAgIGlmIChhbGxvd2VkSWRzLmhhcyhpZCkpIGRmKys7CiAgICAgICAgICAgICAgICAgICAgfQogICAgICAgICAgICAgICAgfSBlbHNlIHsKICAgICAgICAgICAgICAgICAgICAvLyDlgJnpgInpm4blsI/lvojlpJrml7blj43lkJHov63ku6Pmm7Tlv6sKICAgICAgICAgICAgICAgICAgICBmb3IgKGNvbnN0IGlkIG9mIGFsbG93ZWRJZHMpIHsKICAgICAgICAgICAgICAgICAgICAgICAgaWYgKGJ1Y2tldC5oYXMoaWQpKSBkZisrOwogICAgICAgICAgICAgICAgICAgIH0KICAgICAgICAgICAgICAgIH0KICAgICAgICAgICAgfQogICAgICAgICAgICAvLyBCTTI1IElERu+8muS4jiBibTI1LnRzIOeahOWFrOW8j+mAkOWtl+espuS4gOiHtAogICAgICAgICAgICBpZGYuc2V0KHF0LCBNYXRoLmxvZygoZG9jQ291bnQgLSBkZiArIDAuNSkgLyAoZGYgKyAwLjUpICsgMSkpOwogICAgICAgIH0KCiAgICAgICAgLy8g6K+E5YiG77ya5LuF6YGN5Y6G5ZG95Lit5paH5qGj77yI5LiO5Y6f5a6e546w55qEIHNjb3JlPjAg6L+H5ruk562J5Lu377yJCiAgICAgICAgY29uc3Qgc2NvcmVzID0gbmV3IE1hcDxzdHJpbmcsIG51bWJlcj4oKTsKICAgICAgICBmb3IgKGNvbnN0IHF0IG9mIHVuaXF1ZVFUb2tlbnMpIHsKICAgICAgICAgICAgY29uc3QgYnVja2V0ID0gaW5kZXgucG9zdGluZ3MuZ2V0KHF0KTsKICAgICAgICAgICAgaWYgKCFidWNrZXQpIGNvbnRpbnVlOwogICAgICAgICAgICBjb25zdCBpZGZRID0gaWRmLmdldChxdCkhOwoKICAgICAgICAgICAgZm9yIChjb25zdCBbbm9kZUlkLCB0Zl0gb2YgYnVja2V0KSB7CiAgICAgICAgICAgICAgICBpZiAoIWFsbG93ZWRJZHMuaGFzKG5vZGVJZCkpIGNvbnRpbnVlOwogICAgICAgICAgICAgICAgY29uc3QgbWV0YSA9IGluZGV4LmRvY01ldGEuZ2V0KG5vZGVJZCk7CiAgICAgICAgICAgICAgICBpZiAoIW1ldGEgfHwgbWV0YS5sZW5ndGggPT09IDApIGNvbnRpbnVlOyAgLy8g5py057Sg54mIIGRsPT09MCDml7YgY29udGludWUKCiAgICAgICAgICAgICAgICBjb25zdCB0Zk5vcm0gPSAodGYgKiAoSzEgKyAxKSkgLyAodGYgKyBLMSAqICgxIC0gQiArIEIgKiBtZXRhLmxlbmd0aCAvIGF2Z0RsKSk7CiAgICAgICAgICAgICAgICBjb25zdCBjb250cmliID0gaWRmUSAqIHRmTm9ybTsKICAgICAgICAgICAgICAgIHNjb3Jlcy5zZXQobm9kZUlkLCAoc2NvcmVzLmdldChub2RlSWQpIHx8IDApICsgY29udHJpYik7CiAgICAgICAgICAgIH0KICAgICAgICB9CgogICAgICAgIGNvbnN0IHJlc3VsdHM6IEJNMjVJbmRleGVkUmVzdWx0W10gPSBbXTsKICAgICAgICBmb3IgKGNvbnN0IFtub2RlSWQsIHNjb3JlXSBvZiBzY29yZXMpIHsKICAgICAgICAgICAgaWYgKHNjb3JlID4gMCkgcmVzdWx0cy5wdXNoKHsgbm9kZUlkLCBzY29yZSB9KTsKICAgICAgICB9CiAgICAgICAgcmVzdWx0cy5zb3J0KChhLCBiKSA9PiBiLnNjb3JlIC0gYS5zY29yZSk7CiAgICAgICAgcmV0dXJuIHJlc3VsdHM7CiAgICB9CgogICAgLy8g4pSA4pSA4pSAIOiwg+ivlS/moKHpqowg4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSACgogICAgc3RhdHMoY2hhcklkOiBzdHJpbmcpOiB7IGRvY0NvdW50OiBudW1iZXI7IHBvc3RpbmdzOiBudW1iZXI7IHRvdGFsVG9rZW5zOiBudW1iZXIgfSB8IG51bGwgewogICAgICAgIGNvbnN0IGlkeCA9IHRoaXMuaW5kaWNlcy5nZXQoY2hhcklkKTsKICAgICAgICBpZiAoIWlkeCkgcmV0dXJuIG51bGw7CiAgICAgICAgcmV0dXJuIHsKICAgICAgICAgICAgZG9jQ291bnQ6IGlkeC5kb2NNZXRhLnNpemUsCiAgICAgICAgICAgIHBvc3RpbmdzOiBpZHgucG9zdGluZ3Muc2l6ZSwKICAgICAgICAgICAgdG90YWxUb2tlbnM6IGlkeC50b3RhbFRva2VucywKICAgICAgICB9OwogICAgfQp9CgpleHBvcnQgY29uc3QgYm0yNUluZGV4ID0gbmV3IEJNMjVJbmRleE1hbmFnZXIoKTsK
+/**
+ * Memory Palace — BM25 倒排索引
+ *
+ * 内存常驻、按 charId 隔离、懒构建、增量维护。
+ * 不持久化到 IndexedDB —— 启动时按需重建（10k 节点约 1-3s 一次性成本），
+ * 换取零持久化漂移风险。
+ *
+ * 架构要点：
+ *   - 索引构建：第一次查询某 charId 时全量 tokenize
+ *   - 增量更新：MemoryNodeDB.save/delete/saveMany 内部钩子触发
+ *   - 候选过滤：在查询时按调用方传入的 allowedIds 过滤（自动处理
+ *     archived/embedded 等节点状态变化，不需要在 archive 翻转时重建）
+ *   - 跨 char 查找：维护 nodeId → charId 反查表，支持 delete(id) 不带 charId
+ *
+ * 与 bm25Search() 的等价性：
+ *   - 同一 tokenizer
+ *   - 同一公式（K1, B 来自 bm25.ts）
+ *   - 同一统计口径：search() 内的 docCount / avgDl / df 全部按 allowedIds
+ *     候选集计算（与朴素版传入 nodes 的口径一致）→ top K 与分数完全等价，
+ *     可被 bm25SearchDualRun 验证
+ *
+ * 已知未挂钩的写入路径（v1 接受的风险）：
+ *   - 备份恢复：utils/db.ts 的 clearAndAdd('memory_nodes', ...) 直接写 IDB，
+ *     不经 MemoryNodeDB → 索引会变脏。缓解：恢复后通常会刷页面，新会话自动
+ *     重建；若用户报告异常召回，在恢复成功后显式调 bm25Index.dropAll()
+ */
+
+import type { MemoryNode } from './types';
+import { tokenize, K1, B } from './bm25';
+
+interface DocMeta {
+    length: number;
+    charId: string;
+    /** 内容指纹（length + 简单 hash），用于 save 时判断是否需要重新 tokenize */
+    contentSig: number;
+}
+
+interface CharIndex {
+    /** token → (nodeId → tf) 倒排表 */
+    postings: Map<string, Map<string, number>>;
+    /** nodeId → 文档元信息 */
+    docMeta: Map<string, DocMeta>;
+    /** 总 token 数（用于 avgDl 计算） */
+    totalTokens: number;
+}
+
+export interface BM25IndexedResult {
+    nodeId: string;
+    score: number;
+}
+
+// ─── 内容指纹 ──────────────────────────────────────────
+
+/**
+ * 廉价的字符串指纹，用于检测 content 是否变更。
+ * 不需要密码学强度——只要变了就大概率不同就行。
+ */
+function contentSig(s: string): number {
+    let h = 5381;
+    for (let i = 0; i < s.length; i++) {
+        h = ((h << 5) + h + s.charCodeAt(i)) | 0;
+    }
+    return h ^ s.length;
+}
+
+// ─── 索引管理器（singleton） ───────────────────────────
+
+class BM25IndexManager {
+    /** charId → 该角色的倒排索引 */
+    private indices = new Map<string, CharIndex>();
+    /** nodeId → charId（用于 delete 时反查） */
+    private nodeToChar = new Map<string, string>();
+
+    /** 是否已为某 charId 构建索引 */
+    has(charId: string): boolean {
+        return this.indices.has(charId);
+    }
+
+    /**
+     * 确保索引已构建。已存在则跳过；未存在则用传入的 nodes 全量构建。
+     * 调用方应传入该 charId 的"全量节点"（含 archived / 未 embedded），
+     * 不要预过滤——查询时按候选集过滤即可。这样 archive 翻转无需重建。
+     */
+    ensureBuilt(charId: string, allNodes: MemoryNode[]): void {
+        if (this.indices.has(charId)) return;
+        const t0 = (typeof performance !== 'undefined') ? performance.now() : 0;
+        const index: CharIndex = {
+            postings: new Map(),
+            docMeta: new Map(),
+            totalTokens: 0,
+        };
+        for (const node of allNodes) {
+            this.addToIndex(index, node);
+            this.nodeToChar.set(node.id, charId);
+        }
+        this.indices.set(charId, index);
+        if (t0) {
+            const dt = performance.now() - t0;
+            console.log(`[bm25Index] built ${charId} (${allNodes.length} nodes, ${index.postings.size} postings, ${(index.totalTokens / 1000).toFixed(1)}k tokens) in ${dt.toFixed(0)}ms`);
+        }
+    }
+
+    /** 删除某 charId 的索引（用于 wipe / 角色切换等场景） */
+    drop(charId: string): void {
+        const idx = this.indices.get(charId);
+        if (!idx) return;
+        for (const id of idx.docMeta.keys()) {
+            this.nodeToChar.delete(id);
+        }
+        this.indices.delete(charId);
+    }
+
+    /** 清空所有索引（wipe 全量数据时用） */
+    dropAll(): void {
+        this.indices.clear();
+        this.nodeToChar.clear();
+    }
+
+    // ─── 增量维护钩子 ──────────────────────────────────
+
+    /**
+     * 节点写入钩子。
+     *
+     * 决策：
+     *   - 索引未构建 → 直接跳过（懒构建会在首次查询时全量扫一次，
+     *     这里不抢跑，避免 save 路径承担 1-3s 的代价）
+     *   - 节点已存在且 contentSig 未变 → 跳过（touchAccess 等仅更新
+     *     metadata 的写入不需要重新 tokenize）
+     *   - 节点已存在且 contentSig 变了 → 旧 tf 全删，新 tf 插入
+     *   - 节点不存在 → 直接插入
+     */
+    onNodeSaved(node: MemoryNode): void {
+        const index = this.indices.get(node.charId);
+        if (!index) return;
+
+        const sig = contentSig(node.content);
+        const existing = index.docMeta.get(node.id);
+        if (existing && existing.contentSig === sig) return;
+
+        if (existing) {
+            this.removeFromIndex(index, node.id);
+        }
+        this.addToIndex(index, node);
+        this.nodeToChar.set(node.id, node.charId);
+    }
+
+    /** 节点删除钩子（不需要 charId，内部反查） */
+    onNodeDeleted(nodeId: string): void {
+        const charId = this.nodeToChar.get(nodeId);
+        if (!charId) return;
+        const index = this.indices.get(charId);
+        if (!index) return;
+        this.removeFromIndex(index, nodeId);
+        this.nodeToChar.delete(nodeId);
+    }
+
+    /** 批量写入钩子（按 charId 分组后逐一更新对应索引） */
+    onNodesSaved(nodes: MemoryNode[]): void {
+        for (const node of nodes) this.onNodeSaved(node);
+    }
+
+    // ─── 内部：索引读写 ────────────────────────────────
+
+    private addToIndex(index: CharIndex, node: MemoryNode): void {
+        const tokens = tokenize(node.content);
+        const length = tokens.length;
+        if (length === 0) {
+            // 仍然记录 docMeta，避免反复尝试 tokenize 空内容；不进 postings
+            index.docMeta.set(node.id, {
+                length: 0,
+                charId: node.charId,
+                contentSig: contentSig(node.content),
+            });
+            return;
+        }
+
+        // 累计 tf
+        const tfMap = new Map<string, number>();
+        for (const t of tokens) {
+            tfMap.set(t, (tfMap.get(t) || 0) + 1);
+        }
+
+        for (const [token, tf] of tfMap) {
+            let bucket = index.postings.get(token);
+            if (!bucket) {
+                bucket = new Map();
+                index.postings.set(token, bucket);
+            }
+            bucket.set(node.id, tf);
+        }
+
+        index.docMeta.set(node.id, {
+            length,
+            charId: node.charId,
+            contentSig: contentSig(node.content),
+        });
+        index.totalTokens += length;
+    }
+
+    private removeFromIndex(index: CharIndex, nodeId: string): void {
+        const meta = index.docMeta.get(nodeId);
+        if (!meta) return;
+
+        // 扫一遍 postings 把含 nodeId 的桶里抹掉。
+        // 这里没有 doc→tokens 的反向表（避免双倍内存），所以是 O(unique tokens)
+        // 而非 O(doc length)；对中文 2-gram，差距不大。
+        // 优化：只遍历该文档实际包含的 token —— 但需要重新 tokenize 一次内容。
+        // 取舍：假设内容已被外部修改过，重新 tokenize 不一定还原原始 token 集。
+        // 因此保险走全 postings 扫描。后续若成为瓶颈，再加 doc→tokens 反向表。
+        for (const [token, bucket] of index.postings) {
+            if (bucket.delete(nodeId) && bucket.size === 0) {
+                index.postings.delete(token);
+            }
+        }
+
+        index.totalTokens -= meta.length;
+        index.docMeta.delete(nodeId);
+    }
+
+    // ─── 查询 ──────────────────────────────────────────
+
+    /**
+     * 在某 charId 的索引上做 BM25 查询。
+     *
+     * 统计口径：docCount / avgDl / df 全部按 allowedIds 候选集计算，
+     * 与朴素 bm25Search(query, candidates) 的口径一致 —— 这样切到倒排
+     * 版后排序与分数完全等价（验证：bm25SearchDualRun）。
+     *
+     * @param charId  角色 ID
+     * @param queryTokens  已分词的查询 token
+     * @param allowedIds  候选 ID 集（必须传，对应朴素版的 nodes 参数）
+     * @returns 排序后的 (nodeId, score) 列表（不截断 topK，由调用方处理）
+     */
+    search(
+        charId: string,
+        queryTokens: string[],
+        allowedIds: Set<string>,
+    ): BM25IndexedResult[] {
+        const index = this.indices.get(charId);
+        if (!index || queryTokens.length === 0 || allowedIds.size === 0) return [];
+
+        // 候选集统计：docCount = 候选集大小，avgDl = 候选集平均长度
+        // 注意：朴素版用 nodes.length 当 docCount，无论 dl 是否为 0；
+        // avgDl 也用 reduce 求和 / nodes.length（含 dl=0 节点）。这里照搬。
+        let totalLen = 0;
+        const docCount = allowedIds.size;
+        for (const id of allowedIds) {
+            const meta = index.docMeta.get(id);
+            if (meta) totalLen += meta.length;
+        }
+        const avgDl = totalLen / docCount;
+        if (avgDl === 0) return [];
+
+        // 去重 query token，按候选集算 df → IDF
+        const uniqueQTokens = Array.from(new Set(queryTokens));
+        const idf = new Map<string, number>();
+        for (const qt of uniqueQTokens) {
+            const bucket = index.postings.get(qt);
+            let df = 0;
+            if (bucket) {
+                // 只数候选集内的命中
+                if (bucket.size <= allowedIds.size) {
+                    for (const id of bucket.keys()) {
+                        if (allowedIds.has(id)) df++;
+                    }
+                } else {
+                    // 候选集小很多时反向迭代更快
+                    for (const id of allowedIds) {
+                        if (bucket.has(id)) df++;
+                    }
+                }
+            }
+            // BM25 IDF：与 bm25.ts 的公式逐字符一致
+            idf.set(qt, Math.log((docCount - df + 0.5) / (df + 0.5) + 1));
+        }
+
+        // 评分：仅遍历命中文档（与原实现的 score>0 过滤等价）
+        const scores = new Map<string, number>();
+        for (const qt of uniqueQTokens) {
+            const bucket = index.postings.get(qt);
+            if (!bucket) continue;
+            const idfQ = idf.get(qt)!;
+
+            for (const [nodeId, tf] of bucket) {
+                if (!allowedIds.has(nodeId)) continue;
+                const meta = index.docMeta.get(nodeId);
+                if (!meta || meta.length === 0) continue;  // 朴素版 dl===0 时 continue
+
+                const tfNorm = (tf * (K1 + 1)) / (tf + K1 * (1 - B + B * meta.length / avgDl));
+                const contrib = idfQ * tfNorm;
+                scores.set(nodeId, (scores.get(nodeId) || 0) + contrib);
+            }
+        }
+
+        const results: BM25IndexedResult[] = [];
+        for (const [nodeId, score] of scores) {
+            if (score > 0) results.push({ nodeId, score });
+        }
+        results.sort((a, b) => b.score - a.score);
+        return results;
+    }
+
+    // ─── 调试/校验 ─────────────────────────────────────
+
+    stats(charId: string): { docCount: number; postings: number; totalTokens: number } | null {
+        const idx = this.indices.get(charId);
+        if (!idx) return null;
+        return {
+            docCount: idx.docMeta.size,
+            postings: idx.postings.size,
+            totalTokens: idx.totalTokens,
+        };
+    }
+}
+
+export const bm25Index = new BM25IndexManager();

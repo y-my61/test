@@ -1,1 +1,35 @@
-aW1wb3J0IHsgRGFpbHlTY2hlZHVsZSB9IGZyb20gJy4uL3R5cGVzJzsKaW1wb3J0IHsgREIgfSBmcm9tICcuL2RiJzsKaW1wb3J0IHsgZ2V0TG9jYWxEYXRlS2V5IH0gZnJvbSAnLi9sb2NhbERhdGUnOwoKLyoqCiAqIExvYWQgdGhlIHNjaGVkdWxlIGZvciB0aGUgdXNlcidzIGxvY2FsIGNhbGVuZGFyIGRheS4KICoKICogT2xkZXIgYnVpbGRzIGtleWVkIHNjaGVkdWxlcyBieSBVVEMgZGF0ZS4gSWYgdG9kYXkncyBsb2NhbCBrZXkgaXMgYWJzZW50LCBhCiAqIGxlZ2FjeS1rZXllZCByZWNvcmQgaXMgcmV1c2VkIG9ubHkgd2hlbiBpdHMgZ2VuZXJhdGVkQXQgYmVsb25ncyB0byB0b2RheSBpbgogKiB0aGUgY3VycmVudCBzeXN0ZW0gdGltZXpvbmUuIEhpc3RvcmljYWwgcmVjb3JkcyBhcmUgZGVsaWJlcmF0ZWx5IHVudG91Y2hlZC4KICovCmV4cG9ydCBhc3luYyBmdW5jdGlvbiBnZXRMb2NhbERhaWx5U2NoZWR1bGUoCiAgICBjaGFySWQ6IHN0cmluZywKICAgIGF0OiBEYXRlID0gbmV3IERhdGUoKSwKKTogUHJvbWlzZTxEYWlseVNjaGVkdWxlIHwgbnVsbD4gewogICAgY29uc3QgbG9jYWxLZXkgPSBnZXRMb2NhbERhdGVLZXkoYXQpOwogICAgY29uc3QgY3VycmVudCA9IGF3YWl0IERCLmdldERhaWx5U2NoZWR1bGUoY2hhcklkLCBsb2NhbEtleSk7CiAgICBpZiAoY3VycmVudCkgcmV0dXJuIGN1cnJlbnQ7CgogICAgY29uc3QgbGVnYWN5VXRjS2V5ID0gYXQudG9JU09TdHJpbmcoKS5zbGljZSgwLCAxMCk7CiAgICBpZiAobGVnYWN5VXRjS2V5ID09PSBsb2NhbEtleSkgcmV0dXJuIG51bGw7CgogICAgY29uc3QgbGVnYWN5ID0gYXdhaXQgREIuZ2V0RGFpbHlTY2hlZHVsZShjaGFySWQsIGxlZ2FjeVV0Y0tleSk7CiAgICBpZiAoIWxlZ2FjeSB8fCAhTnVtYmVyLmlzRmluaXRlKGxlZ2FjeS5nZW5lcmF0ZWRBdCkpIHJldHVybiBudWxsOwogICAgaWYgKGdldExvY2FsRGF0ZUtleShuZXcgRGF0ZShsZWdhY3kuZ2VuZXJhdGVkQXQpKSAhPT0gbG9jYWxLZXkpIHJldHVybiBudWxsOwoKICAgIGNvbnN0IG1pZ3JhdGVkOiBEYWlseVNjaGVkdWxlID0gewogICAgICAgIC4uLmxlZ2FjeSwKICAgICAgICBpZDogYCR7Y2hhcklkfV8ke2xvY2FsS2V5fWAsCiAgICAgICAgY2hhcklkLAogICAgICAgIGRhdGU6IGxvY2FsS2V5LAogICAgfTsKICAgIGF3YWl0IERCLnNhdmVEYWlseVNjaGVkdWxlKG1pZ3JhdGVkKTsKICAgIHJldHVybiBtaWdyYXRlZDsKfQo=
+import { DailySchedule } from '../types';
+import { DB } from './db';
+import { getLocalDateKey } from './localDate';
+
+/**
+ * Load the schedule for the user's local calendar day.
+ *
+ * Older builds keyed schedules by UTC date. If today's local key is absent, a
+ * legacy-keyed record is reused only when its generatedAt belongs to today in
+ * the current system timezone. Historical records are deliberately untouched.
+ */
+export async function getLocalDailySchedule(
+    charId: string,
+    at: Date = new Date(),
+): Promise<DailySchedule | null> {
+    const localKey = getLocalDateKey(at);
+    const current = await DB.getDailySchedule(charId, localKey);
+    if (current) return current;
+
+    const legacyUtcKey = at.toISOString().slice(0, 10);
+    if (legacyUtcKey === localKey) return null;
+
+    const legacy = await DB.getDailySchedule(charId, legacyUtcKey);
+    if (!legacy || !Number.isFinite(legacy.generatedAt)) return null;
+    if (getLocalDateKey(new Date(legacy.generatedAt)) !== localKey) return null;
+
+    const migrated: DailySchedule = {
+        ...legacy,
+        id: `${charId}_${localKey}`,
+        charId,
+        date: localKey,
+    };
+    await DB.saveDailySchedule(migrated);
+    return migrated;
+}

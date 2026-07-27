@@ -1,1 +1,98 @@
-LyoqCiAqIOWwj+Wxi+OAjOeUn+a0u+WKqOaAgeOAjea2k+a1gSDihpIg56eB6IGKIHJvb21fY2FyZAogKgogKiDmgJ3ot6/vvIjnlKjmiLfmi43mnb/nmoTmnoHnroDniYjvvInvvJrmg4Xnu6ror4TkvLDvvIjlia8gQVBJ77yJ5pys5p2l5bCx5Zyo5q+P6L2u6IGK5a6M5ZCO6LeR77yM6K6p5a6DKirlgbblsJTpobrkvr8qKgogKiDmjY7luKbkuIDlj6XjgIzop5LoibLlsI/lsYvph4zlj5HnlJ/nmoTlsI/lj5jljJbjgI3vvIjmjaLkuobmoYzkuIrnmoTkuaYgLyDnqpflj7DlpJrkuobnm4boirHigKbigKbvvInvvIzokL3miJDkuIDlvKAKICog6L276YePIHJvb21fY2FyZCDov5vnp4HogYrigJTigJTljaHniYcgY29udGVudCDov5vkuIrkuIvmlofvvIzop5LoibLoh6rnhLborrDlvpfoh6rlt7HlubLov4fllaXvvIwKICog5ZCO57ut5b2S5qGjL+iusOW/huWFqOi1sOeOsOacieeuoee6v+OAgioq5LiN57uR6KeS6Imy5a2X5q6144CB5LiN5YGa54us56uLIGZlZWQqKu+8muWNoeeJh+acrOi6q+WwseaYr+iusOW9le+8jAogKiDkuIDliIfkuqTnu5nkuIrkuIvmloflkoznnIvliLDkuIrkuIvmlofnmoQgQUnjgIIKICoKICog566h57q/77yI5Y+M6Lev5b6E6YCa5ZCD77yJ77yaCiAqICAgMS4gYnVpbGRFbW90aW9uRXZhbFByb21wdCDmnoTlu7rml7bvvIzoi6Ugc2hvdWxkUmVxdWVzdEFtYmllbnQg5Y+M6Ze46YCa6L+H77yM6L+95YqgCiAqICAgICAgYnVpbGRBbWJpZW50RXZhbFNlY3Rpb24g55qE5Y+v6YCJ6L6T5Ye65q6144CCaW5zdGFudCDmqKHlvI/nmoQgZXZhbCBwcm9tcHQg5Lmf5piv5a6i5oi356uvCiAqICAgICAg5p6E5bu65ZCO5Lyg57uZIHdvcmtlciDnmoTvvIzmiYDku6Xov5nkuIDlpITopobnm5blnKjnur8gKyBpbnN0YW50IOS4pOadoei3r+W+hOOAggogKiAgIDIuIGFwcGx5RW1vdGlvbkV2YWxSYXfvvIjkuKTmnaHot6/lvoTnmoTlhbHnlKjokL3ngrnvvInop6PmnpDlj6/pgIkgYW1iaWVudEV2ZW5077yMCiAqICAgICAg6JC9IHJvb21fY2FyZCArIOiusOW9lSBsb2NhbFN0b3JhZ2Ug5rC05L2N44CCCiAqCiAqIOiKgua1geWPjOmXuO+8iOWuouaIt+err+WIpO+8jOWIpOS4jei/h+i/niBwcm9tcHQg5q616YO95LiN5Yqg44CB6Zu25oiQ5pys77yJ77yaCiAqICAgLSDml7bpl7Tpl7jvvJrot53kuIrkuIDmnaEgPCBBTUJJRU5UX01JTl9JTlRFUlZBTF9NUyDkuI3nlJ/miJAKICogICAtIOamgueOh+mXuO+8mui/h+S6huaXtumXtOmXuOS5n+WPquaciSBBTUJJRU5UX1BST0JBQklMSVRZIOamgueOh+ecn+WHuuKAlOKAlCLlgbblsJQi55qE5oOK5Zac77yM5LiN5piv5YeG54K55omT5Y2hCiAqLwoKaW1wb3J0IHsgQ2hhcmFjdGVyUHJvZmlsZSB9IGZyb20gJy4uL3R5cGVzJzsKaW1wb3J0IHsgREIgfSBmcm9tICcuL2RiJzsKCmV4cG9ydCBjb25zdCBBTUJJRU5UX01JTl9JTlRFUlZBTF9NUyA9IDkwICogNjAgKiAxMDAwOyAvLyA5MCDliIbpkp8KZXhwb3J0IGNvbnN0IEFNQklFTlRfUFJPQkFCSUxJVFkgPSAwLjM7CmNvbnN0IEFNQklFTlRfVEVYVF9NQVggPSA2MDsKCmNvbnN0IGxhc3RLZXkgPSAoY2hhcklkOiBzdHJpbmcpID0+IGByb29tX2FtYmllbnRfbGFzdF8ke2NoYXJJZH1gOwoKaW50ZXJmYWNlIEFtYmllbnRNYXJrIHsgdHM6IG51bWJlcjsgdGV4dDogc3RyaW5nIH0KCmZ1bmN0aW9uIHJlYWRMYXN0TWFyayhjaGFySWQ6IHN0cmluZyk6IEFtYmllbnRNYXJrIHwgbnVsbCB7CiAgICB0cnkgewogICAgICAgIGNvbnN0IHJhdyA9IHR5cGVvZiBsb2NhbFN0b3JhZ2UgIT09ICd1bmRlZmluZWQnID8gbG9jYWxTdG9yYWdlLmdldEl0ZW0obGFzdEtleShjaGFySWQpKSA6IG51bGw7CiAgICAgICAgaWYgKCFyYXcpIHJldHVybiBudWxsOwogICAgICAgIGNvbnN0IHBhcnNlZCA9IEpTT04ucGFyc2UocmF3KTsKICAgICAgICByZXR1cm4gdHlwZW9mIHBhcnNlZD8udHMgPT09ICdudW1iZXInID8gcGFyc2VkIDogbnVsbDsKICAgIH0gY2F0Y2ggeyByZXR1cm4gbnVsbDsgfQp9CgpmdW5jdGlvbiB3cml0ZUxhc3RNYXJrKGNoYXJJZDogc3RyaW5nLCB0ZXh0OiBzdHJpbmcpOiB2b2lkIHsKICAgIHRyeSB7IGxvY2FsU3RvcmFnZS5zZXRJdGVtKGxhc3RLZXkoY2hhcklkKSwgSlNPTi5zdHJpbmdpZnkoeyB0czogRGF0ZS5ub3coKSwgdGV4dCB9IHNhdGlzZmllcyBBbWJpZW50TWFyaykpOyB9IGNhdGNoIHsgLyogaWdub3JlICovIH0KfQoKLyoqIOWPjOmXuOWIpOWumuOAgnJhbmRvbSDlj6/ms6jlhaXkvr/kuo7mtYvor5XjgIIgKi8KZXhwb3J0IGZ1bmN0aW9uIHNob3VsZFJlcXVlc3RBbWJpZW50KGNoYXJJZDogc3RyaW5nLCByYW5kb206ICgpID0+IG51bWJlciA9IE1hdGgucmFuZG9tKTogYm9vbGVhbiB7CiAgICBjb25zdCBsYXN0ID0gcmVhZExhc3RNYXJrKGNoYXJJZCk7CiAgICBpZiAobGFzdCAmJiBEYXRlLm5vdygpIC0gbGFzdC50cyA8IEFNQklFTlRfTUlOX0lOVEVSVkFMX01TKSByZXR1cm4gZmFsc2U7CiAgICByZXR1cm4gcmFuZG9tKCkgPCBBTUJJRU5UX1BST0JBQklMSVRZOwp9CgovKiog5oOF57uq6K+E5LywIHByb21wdCDnmoTlj6/pgInovpPlh7rmrrXjgILlj6rlnKjlj4zpl7jpgJrov4fml7bmi7zov5vljrvjgIIgKi8KZXhwb3J0IGZ1bmN0aW9uIGJ1aWxkQW1iaWVudEV2YWxTZWN0aW9uKGNoYXI6IENoYXJhY3RlclByb2ZpbGUpOiBzdHJpbmcgewogICAgY29uc3QgaXRlbXMgPSAoY2hhci5yb29tQ29uZmlnPy5pdGVtcyB8fCBbXSkKICAgICAgICAuc2xpY2UoMCwgMTUpCiAgICAgICAgLm1hcChpID0+IGkubmFtZSkKICAgICAgICAuZmlsdGVyKEJvb2xlYW4pCiAgICAgICAgLmpvaW4oJ+OAgScpOwogICAgY29uc3QgbGFzdFRleHQgPSByZWFkTGFzdE1hcmsoY2hhci5pZCk/LnRleHQ7CiAgICByZXR1cm4gYAoKIyMgW+WPr+mAiV0g5bCP5bGL55Sf5rS75Yqo5oCBIChhbWJpZW50RXZlbnQpCuinkuiJsuacieS4gOmXtOiHquW3seeahOWwj+Wxi+OAguWmguaenOS9oOinieW+lyB0YSDov5nmrrXml7bpl7Tph4zjgIHlnKjoh6rlt7HnmoTnlJ/mtLvph4zoh6rnhLbkvJrlj5HnlJ/kuIDkuKoqKuW+ruWwj+eahOWPmOWMlioqCu+8iOaNouS6huahjOS4iueahOS5puOAgeeql+WPsOWkmuS6huebhuiKseOAgeeBr+i/mOS6ruedgOOAgeadr+WtkOaMquS6huS9jee9ruKApuKApu+8ie+8jOWPr+S7peWcqOS4iui/sCBKU09OIOmHjOmineWkluWKoOS4gOS4quWPr+mAieWtl+aute+8mgoiYW1iaWVudEV2ZW50IjogeyAidGV4dCI6ICLmiorpo5jnqpfpgqPmnKzkuabmjaLmiJDkuobmlrDnmoTkuIDmnKwiLCAiZW1vamkiOiAi8J+TliIgfQotIHRleHQg4omkICR7QU1CSUVOVF9URVhUX01BWH0g5a2X77yM5a6i6KeC55m95o+P5LiA5Y+l77yM5LiN5bim5b+D55CG5o+P5YaZ77yI5b+D55CG5b2SIGlubmVyU3RhdGXvvInjgIIKLSDlj5jljJbopoHotLTlkIjop5LoibLmraTliLvnmoTml6XnqIsv5oOF57uq77yM5LiU5pivIHRhIOiHquW3seeUn+a0u+eahOeXlei/ue+8jOS4jueUqOaIt+aXoOWFs+OAggoke2l0ZW1zID8gYC0g5bCP5bGL6YeM546w5pyJ55qE54mp5Lu25Y+v5Lul5Y+C6ICD77yaJHtpdGVtc33jgIJgIDogJyd9CiR7bGFzdFRleHQgPyBgLSDkuIrkuIDmnaHliqjmgIHmmK/jgIwke2xhc3RUZXh0feOAje+8jOS4jeimgemHjeWkjeaIlumbt+WQjOOAgmAgOiAnJ30KLSAqKue7neWkp+WkmuaVsOaXtuWAmeS4jemcgOimgSoq4oCU4oCU5rKh5pyJ5YC85b6X5LiA5o+Q55qE5Y+Y5YyW5bCx55yB55Wl5pW05LiqIGFtYmllbnRFdmVudCDlrZfmrrXvvIzkuI3opoHnoaznvJbjgIJgOwp9CgovKioKICog5LuOIGV2YWwg57uT5p6c6YeM6Kej5p6Q5Y+v6YCJIGFtYmllbnRFdmVudCDlubbokL3lnLDvvJrnp4HogYogcm9vbV9jYXJkICsgbG9jYWxTdG9yYWdlIOawtOS9jeOAggogKiDlrr3mnb7moKHpqozvvIzkuI3lkIjms5Uv5aSx6LSl6Z2Z6buY6L+U5ZueIGZhbHNl77yM57ud5LiN5b2x5ZON5oOF57uq5Li76ZO+6Lev44CCCiAqLwpleHBvcnQgYXN5bmMgZnVuY3Rpb24gbGFuZEFtYmllbnRFdmVudEZyb21FdmFsKHBhcnNlZDogYW55LCBjaGFyOiBDaGFyYWN0ZXJQcm9maWxlKTogUHJvbWlzZTxib29sZWFuPiB7CiAgICB0cnkgewogICAgICAgIGNvbnN0IGV2ID0gcGFyc2VkPy5hbWJpZW50RXZlbnQ7CiAgICAgICAgaWYgKCFldiB8fCB0eXBlb2YgZXYudGV4dCAhPT0gJ3N0cmluZycgfHwgIWV2LnRleHQudHJpbSgpKSByZXR1cm4gZmFsc2U7CiAgICAgICAgY29uc3QgdGV4dCA9IGV2LnRleHQudHJpbSgpLnNsaWNlKDAsIEFNQklFTlRfVEVYVF9NQVgpOwogICAgICAgIGNvbnN0IGVtb2ppID0gKHR5cGVvZiBldi5lbW9qaSA9PT0gJ3N0cmluZycgJiYgZXYuZW1vamkudHJpbSgpKSA/IGV2LmVtb2ppLnRyaW0oKS5zbGljZSgwLCA0KSA6IHVuZGVmaW5lZDsKICAgICAgICBhd2FpdCBEQi5zYXZlTWVzc2FnZSh7CiAgICAgICAgICAgIGNoYXJJZDogY2hhci5pZCwKICAgICAgICAgICAgcm9sZTogJ2Fzc2lzdGFudCcsCiAgICAgICAgICAgIHR5cGU6ICdyb29tX2NhcmQnLAogICAgICAgICAgICBjb250ZW50OiBgW+Wwj+Wxi+WKqOaAgV0gJHtjaGFyLm5hbWV9JHt0ZXh0fWAsCiAgICAgICAgICAgIG1ldGFkYXRhOiB7IHJvb21BbWJpZW50OiB0cnVlLCB0ZXh0LCBlbW9qaSB9LAogICAgICAgIH0pOwogICAgICAgIHdyaXRlTGFzdE1hcmsoY2hhci5pZCwgdGV4dCk7CiAgICAgICAgY29uc29sZS5sb2coYPCfj6AgW1Jvb21BbWJpZW50XSAke2NoYXIubmFtZX06ICR7dGV4dH1gKTsKICAgICAgICByZXR1cm4gdHJ1ZTsKICAgIH0gY2F0Y2ggKGU6IGFueSkgewogICAgICAgIGNvbnNvbGUud2Fybign8J+PoCBbUm9vbUFtYmllbnRdIGxhbmQgZmFpbGVkIChub24tZmF0YWwpOicsIGU/Lm1lc3NhZ2UpOwogICAgICAgIHJldHVybiBmYWxzZTsKICAgIH0KfQo=
+/**
+ * 小屋「生活动态」涓流 → 私聊 room_card
+ *
+ * 思路（用户拍板的极简版）：情绪评估（副 API）本来就在每轮聊完后跑，让它**偶尔顺便**
+ * 捎带一句「角色小屋里发生的小变化」（换了桌上的书 / 窗台多了盆花……），落成一张
+ * 轻量 room_card 进私聊——卡片 content 进上下文，角色自然记得自己干过啥，
+ * 后续归档/记忆全走现有管线。**不绑角色字段、不做独立 feed**：卡片本身就是记录，
+ * 一切交给上下文和看到上下文的 AI。
+ *
+ * 管线（双路径通吃）：
+ *   1. buildEmotionEvalPrompt 构建时，若 shouldRequestAmbient 双闸通过，追加
+ *      buildAmbientEvalSection 的可选输出段。instant 模式的 eval prompt 也是客户端
+ *      构建后传给 worker 的，所以这一处覆盖在线 + instant 两条路径。
+ *   2. applyEmotionEvalRaw（两条路径的共用落点）解析可选 ambientEvent，
+ *      落 room_card + 记录 localStorage 水位。
+ *
+ * 节流双闸（客户端判，判不过连 prompt 段都不加、零成本）：
+ *   - 时间闸：距上一条 < AMBIENT_MIN_INTERVAL_MS 不生成
+ *   - 概率闸：过了时间闸也只有 AMBIENT_PROBABILITY 概率真出——"偶尔"的惊喜，不是准点打卡
+ */
+
+import { CharacterProfile } from '../types';
+import { DB } from './db';
+
+export const AMBIENT_MIN_INTERVAL_MS = 90 * 60 * 1000; // 90 分钟
+export const AMBIENT_PROBABILITY = 0.3;
+const AMBIENT_TEXT_MAX = 60;
+
+const lastKey = (charId: string) => `room_ambient_last_${charId}`;
+
+interface AmbientMark { ts: number; text: string }
+
+function readLastMark(charId: string): AmbientMark | null {
+    try {
+        const raw = typeof localStorage !== 'undefined' ? localStorage.getItem(lastKey(charId)) : null;
+        if (!raw) return null;
+        const parsed = JSON.parse(raw);
+        return typeof parsed?.ts === 'number' ? parsed : null;
+    } catch { return null; }
+}
+
+function writeLastMark(charId: string, text: string): void {
+    try { localStorage.setItem(lastKey(charId), JSON.stringify({ ts: Date.now(), text } satisfies AmbientMark)); } catch { /* ignore */ }
+}
+
+/** 双闸判定。random 可注入便于测试。 */
+export function shouldRequestAmbient(charId: string, random: () => number = Math.random): boolean {
+    const last = readLastMark(charId);
+    if (last && Date.now() - last.ts < AMBIENT_MIN_INTERVAL_MS) return false;
+    return random() < AMBIENT_PROBABILITY;
+}
+
+/** 情绪评估 prompt 的可选输出段。只在双闸通过时拼进去。 */
+export function buildAmbientEvalSection(char: CharacterProfile): string {
+    const items = (char.roomConfig?.items || [])
+        .slice(0, 15)
+        .map(i => i.name)
+        .filter(Boolean)
+        .join('、');
+    const lastText = readLastMark(char.id)?.text;
+    return `
+
+## [可选] 小屋生活动态 (ambientEvent)
+角色有一间自己的小屋。如果你觉得 ta 这段时间里、在自己的生活里自然会发生一个**微小的变化**
+（换了桌上的书、窗台多了盆花、灯还亮着、杯子挪了位置……），可以在上述 JSON 里额外加一个可选字段：
+"ambientEvent": { "text": "把飘窗那本书换成了新的一本", "emoji": "📖" }
+- text ≤ ${AMBIENT_TEXT_MAX} 字，客观白描一句，不带心理描写（心理归 innerState）。
+- 变化要贴合角色此刻的日程/情绪，且是 ta 自己生活的痕迹，与用户无关。
+${items ? `- 小屋里现有的物件可以参考：${items}。` : ''}
+${lastText ? `- 上一条动态是「${lastText}」，不要重复或雷同。` : ''}
+- **绝大多数时候不需要**——没有值得一提的变化就省略整个 ambientEvent 字段，不要硬编。`;
+}
+
+/**
+ * 从 eval 结果里解析可选 ambientEvent 并落地：私聊 room_card + localStorage 水位。
+ * 宽松校验，不合法/失败静默返回 false，绝不影响情绪主链路。
+ */
+export async function landAmbientEventFromEval(parsed: any, char: CharacterProfile): Promise<boolean> {
+    try {
+        const ev = parsed?.ambientEvent;
+        if (!ev || typeof ev.text !== 'string' || !ev.text.trim()) return false;
+        const text = ev.text.trim().slice(0, AMBIENT_TEXT_MAX);
+        const emoji = (typeof ev.emoji === 'string' && ev.emoji.trim()) ? ev.emoji.trim().slice(0, 4) : undefined;
+        await DB.saveMessage({
+            charId: char.id,
+            role: 'assistant',
+            type: 'room_card',
+            content: `[小屋动态] ${char.name}${text}`,
+            metadata: { roomAmbient: true, text, emoji },
+        });
+        writeLastMark(char.id, text);
+        console.log(`🏠 [RoomAmbient] ${char.name}: ${text}`);
+        return true;
+    } catch (e: any) {
+        console.warn('🏠 [RoomAmbient] land failed (non-fatal):', e?.message);
+        return false;
+    }
+}

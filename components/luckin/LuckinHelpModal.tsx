@@ -1,1 +1,63 @@
-aW1wb3J0IFJlYWN0IGZyb20gJ3JlYWN0JzsKCi8qKgogKiDnkZ7kuIDmna8g5L2/55So6K+05piOICjpppbmrKHlkK/liqjoh6rliqjlvLnkuIDmrKEsIOS5i+WQjuaUtuWcqCBiYW5uZXIg55qEID8g6YeM6ZqP5pe255yLKQogKgogKiDnkZ7lubggTUNQIOi3n+m6puW9k+WKs+mAu+i+keS4jeWQjDog5ouJ5LiN5Yiw5pW05pys6I+c5Y2VLCDmmK8i5ZGK6K+J6KeS6Imy5ZOq5a625bqX55qE5ZOq5p2vIueUseinkuiJsuWOu+eCueOAggogKi8KY29uc3QgTHVja2luSGVscE1vZGFsOiBSZWFjdC5GQzx7IG9wZW46IGJvb2xlYW47IG9uQ2xvc2U6ICgpID0+IHZvaWQgfT4gPSAoeyBvcGVuLCBvbkNsb3NlIH0pID0+IHsKICAgIGlmICghb3BlbikgcmV0dXJuIG51bGw7CiAgICByZXR1cm4gKAogICAgICAgIDxkaXYgY2xhc3NOYW1lPSJmaXhlZCBpbnNldC0wIHotWzcwXSBiZy1ibGFjay80MCBmbGV4IGl0ZW1zLWNlbnRlciBqdXN0aWZ5LWNlbnRlciBwLTQiIG9uQ2xpY2s9e29uQ2xvc2V9PgogICAgICAgICAgICA8ZGl2IGNsYXNzTmFtZT0iYmctZ3JhZGllbnQtdG8tYiBmcm9tLVsjRkFGN0YwXSB0by1bI0YzRUZFNl0gdy1mdWxsIHNtOm1heC13LXNtIHJvdW5kZWQtMnhsIG92ZXJmbG93LWhpZGRlbiBzaGFkb3ctMnhsIGZsZXggZmxleC1jb2wiIHN0eWxlPXt7IG1heEhlaWdodDogJ2NhbGMoMTAwZHZoIC0gdmFyKC0tc2FmZS10b3AsIDBweCkgLSB2YXIoLS1zYWZlLWJvdHRvbSwgMHB4KSAtIDJyZW0pJyB9fSBvbkNsaWNrPXtlID0+IGUuc3RvcFByb3BhZ2F0aW9uKCl9PgogICAgICAgICAgICAgICAgPGRpdiBjbGFzc05hbWU9ImZsZXggaXRlbXMtY2VudGVyIGp1c3RpZnktYmV0d2VlbiBweC00IHB5LTMgYmctZ3JhZGllbnQtdG8tciBmcm9tLVsjMEIxRjNBXSB0by1bIzFFNEQ4Q10gcm91bmRlZC10LTJ4bCBzaHJpbmstMCI+CiAgICAgICAgICAgICAgICAgICAgPGRpdiBjbGFzc05hbWU9ImZsZXggaXRlbXMtY2VudGVyIGdhcC0yIj4KICAgICAgICAgICAgICAgICAgICAgICAgPHNwYW4gY2xhc3NOYW1lPSJ0ZXh0LXhsIj7wn6aMPC9zcGFuPgogICAgICAgICAgICAgICAgICAgICAgICA8ZGl2PgogICAgICAgICAgICAgICAgICAgICAgICAgICAgPGRpdiBjbGFzc05hbWU9InRleHQtWzEzcHhdIGZvbnQtYm9sZCB0ZXh0LXdoaXRlIj7nkZ7kuIDmna8gwrcg5oCO5LmI55SoPC9kaXY+CiAgICAgICAgICAgICAgICAgICAgICAgICAgICA8ZGl2IGNsYXNzTmFtZT0idGV4dC1bOXB4XSB0ZXh0LXdoaXRlLzcwIj7ot5/puqblvZPlirPkuI3lpKrkuIDmoLcsIOiKsSAzMCDnp5LnnIvkuIs8L2Rpdj4KICAgICAgICAgICAgICAgICAgICAgICAgPC9kaXY+CiAgICAgICAgICAgICAgICAgICAgPC9kaXY+CiAgICAgICAgICAgICAgICAgICAgPGJ1dHRvbiBvbkNsaWNrPXtvbkNsb3NlfSBjbGFzc05hbWU9InctOCBoLTggcm91bmRlZC1mdWxsIGJnLXdoaXRlLzIwIGZsZXggaXRlbXMtY2VudGVyIGp1c3RpZnktY2VudGVyIHRleHQtd2hpdGUgYWN0aXZlOnNjYWxlLTkwIj7inJU8L2J1dHRvbj4KICAgICAgICAgICAgICAgIDwvZGl2PgoKICAgICAgICAgICAgICAgIDxkaXYgY2xhc3NOYW1lPSJmbGV4LTEgb3ZlcmZsb3cteS1hdXRvIHAtNCBzcGFjZS15LTMgdGV4dC1bMTJweF0gdGV4dC1zbGF0ZS03MDAgbGVhZGluZy1yZWxheGVkIj4KICAgICAgICAgICAgICAgICAgICB7Lyog5qC45b+DICovfQogICAgICAgICAgICAgICAgICAgIDxkaXYgY2xhc3NOYW1lPSJiZy13aGl0ZSByb3VuZGVkLXhsIGJvcmRlciBib3JkZXItWyNFNkRGQ0ZdIHAtMyI+CiAgICAgICAgICAgICAgICAgICAgICAgIDxkaXYgY2xhc3NOYW1lPSJ0ZXh0LVsxMnB4XSBmb250LWJvbGQgdGV4dC1bIzBCMUYzQV0gbWItMSI+4piVIOebtOaOpei3nyB0YSDor7Qi5ZOq5a625bqX55qE5ZOq5p2vIjwvZGl2PgogICAgICAgICAgICAgICAgICAgICAgICA8ZGl2PueRnuW5uOi3n+m6puW9k+WKs+S4jeS4gOagt+KAlOKAlDxiPuaLieS4jeWIsOaVtOacrOiPnOWNlTwvYj7jgILkvaDnm7TmjqXlkYror4nop5LoibLmg7Pllp3ku4DkuYjjgIHlnKjlk6rpmYTov5EsIHRhIOS8muiHquWKqOaJvuacgOWMuemFjeeahOmXqOW6l+OAgeeCueWlveOAgeWHuuW+ruS/oeS6jOe7tOeggeaJq+eggeS7mOOAgjwvZGl2PgogICAgICAgICAgICAgICAgICAgICAgICA8ZGl2IGNsYXNzTmFtZT0ibXQtMiBiZy1bIzBCMUYzQV0vNSByb3VuZGVkLWxnIHB4LTIuNSBweS0yIHRleHQtWzExcHhdIHRleHQtWyMwQjFGM0FdIj4KICAgICAgICAgICAgICAgICAgICAgICAgICAgIOS4vuS+i++8mjxiciAvPuOAjOW4ruaIkeeCueS4gOadrzxiPuiKsea6quWFrOWbremZhOi/kemXqOW6lzwvYj7nmoQ8Yj7ml6Dns5blhrDnvo7lvI88L2I+44CNCiAgICAgICAgICAgICAgICAgICAgICAgIDwvZGl2PgogICAgICAgICAgICAgICAgICAgIDwvZGl2PgoKICAgICAgICAgICAgICAgICAgICB7Lyog6Zeo5bqXICovfQogICAgICAgICAgICAgICAgICAgIDxkaXYgY2xhc3NOYW1lPSJmbGV4IGdhcC0yIj4KICAgICAgICAgICAgICAgICAgICAgICAgPHNwYW4gY2xhc3NOYW1lPSJ0ZXh0LVsxNXB4XSBzaHJpbmstMCI+8J+TjTwvc3Bhbj4KICAgICAgICAgICAgICAgICAgICAgICAgPGRpdj48Yj7kuI3mjIflrprpl6jlupc8L2I+5pe2LCDop5LoibLmjInkvaA8Yj7lvZPliY3lrprkvY08L2I+6YCJ5pyA6L+R55qE5bqX44CCPHNwYW4gY2xhc3NOYW1lPSJ0ZXh0LWFtYmVyLTcwMCI+5byA552A5qKv5a2Q5a6a5L2N5Y+v6IO95LiN5YeGPC9zcGFuPiAo5ZCv5Yqo5pe25by555qE5a6a5L2N5qGG6YeM6IO955yL57K+5bqmLCDkuI3lh4blsLHmiYvpgInln47luIIp44CCPC9kaXY+CiAgICAgICAgICAgICAgICAgICAgPC9kaXY+CgogICAgICAgICAgICAgICAgICAgIHsvKiDoh6rliqjpgIkgKi99CiAgICAgICAgICAgICAgICAgICAgPGRpdiBjbGFzc05hbWU9ImZsZXggZ2FwLTIiPgogICAgICAgICAgICAgICAgICAgICAgICA8c3BhbiBjbGFzc05hbWU9InRleHQtWzE1cHhdIHNocmluay0wIj7wn46vPC9zcGFuPgogICAgICAgICAgICAgICAgICAgICAgICA8ZGl2PjxiPuS4jeaMh+WumumlruWTgSAvIOadr+WeiyAvIOWGt+eDrTwvYj7ml7YsIOinkuiJsuS8muaMieWvueS9oOeahOS6huinozxiPuiHquW3seaLv+S4u+aEjzwvYj4gKOi2iuaHguS9oOeCueW+l+i2iuWHhiwg5LiN5ruh5oSP55u05o6l6K+0IuaNouS4gOadry/opoHng63nmoQv5aSn5p2vIinjgII8L2Rpdj4KICAgICAgICAgICAgICAgICAgICA8L2Rpdj4KCiAgICAgICAgICAgICAgICAgICAgey8qIOa1i+ivleeJiOS8mOaDoCAqL30KICAgICAgICAgICAgICAgICAgICA8ZGl2IGNsYXNzTmFtZT0iZmxleCBnYXAtMiI+CiAgICAgICAgICAgICAgICAgICAgICAgIDxzcGFuIGNsYXNzTmFtZT0idGV4dC1bMTVweF0gc2hyaW5rLTAiPvCfp6o8L3NwYW4+CiAgICAgICAgICAgICAgICAgICAgICAgIDxkaXY+PGI+55uu5YmN5piv5rWL6K+V54mIPC9iPu+8mueUqOS4jeS6hueRnuW5uOWumOaWueeahOmXqOW6l+S8mOaDoCwgPGI+5Y+q5pyJ5L2g6LSm5Y+36Ieq5bex55qE5Yi4PC9iPuiDveiHquWKqOaKteaJo+OAgjwvZGl2PgogICAgICAgICAgICAgICAgICAgIDwvZGl2PgoKICAgICAgICAgICAgICAgICAgICA8ZGl2IGNsYXNzTmFtZT0idGV4dC1bMTBweF0gdGV4dC1zbGF0ZS00MDAgdGV4dC1jZW50ZXIgcHQtMSI+5LiL5Y2VIC8g5pSv5LuY6YO95Zyo5pyA5ZCO6YKj5byg44CM57uT6LSm5Y2h44CN5LiK54K5LCDllYblk4HljaHlj6rmmK8gdGEg57uZ5L2g55yL55qEPC9kaXY+CiAgICAgICAgICAgICAgICA8L2Rpdj4KCiAgICAgICAgICAgICAgICA8ZGl2IGNsYXNzTmFtZT0iYm9yZGVyLXQgYm9yZGVyLVsjREREM0JDXSBiZy1ncmFkaWVudC10by1yIGZyb20tWyNFRkU5RENdIHRvLVsjRTdERkM5XSBweC0zIHB5LTIuNSBzaHJpbmstMCI+CiAgICAgICAgICAgICAgICAgICAgPGJ1dHRvbiBvbkNsaWNrPXtvbkNsb3NlfSBjbGFzc05hbWU9InctZnVsbCBweC0zIHB5LTIuNSBiZy1bIzBCMUYzQV0gdGV4dC13aGl0ZSB0ZXh0LVsxM3B4XSBmb250LWJvbGQgcm91bmRlZC14bCBhY3RpdmU6c2NhbGUtOTUiPuefpemBk+WVpiwg5byA54K5PC9idXR0b24+CiAgICAgICAgICAgICAgICA8L2Rpdj4KICAgICAgICAgICAgPC9kaXY+CiAgICAgICAgPC9kaXY+CiAgICApOwp9OwoKZXhwb3J0IGRlZmF1bHQgTHVja2luSGVscE1vZGFsOwo=
+import React from 'react';
+
+/**
+ * 瑞一杯 使用说明 (首次启动自动弹一次, 之后收在 banner 的 ? 里随时看)
+ *
+ * 瑞幸 MCP 跟麦当劳逻辑不同: 拉不到整本菜单, 是"告诉角色哪家店的哪杯"由角色去点。
+ */
+const LuckinHelpModal: React.FC<{ open: boolean; onClose: () => void }> = ({ open, onClose }) => {
+    if (!open) return null;
+    return (
+        <div className="fixed inset-0 z-[70] bg-black/40 flex items-center justify-center p-4" onClick={onClose}>
+            <div className="bg-gradient-to-b from-[#FAF7F0] to-[#F3EFE6] w-full sm:max-w-sm rounded-2xl overflow-hidden shadow-2xl flex flex-col" style={{ maxHeight: 'calc(100dvh - var(--safe-top, 0px) - var(--safe-bottom, 0px) - 2rem)' }} onClick={e => e.stopPropagation()}>
+                <div className="flex items-center justify-between px-4 py-3 bg-gradient-to-r from-[#0B1F3A] to-[#1E4D8C] rounded-t-2xl shrink-0">
+                    <div className="flex items-center gap-2">
+                        <span className="text-xl">🦌</span>
+                        <div>
+                            <div className="text-[13px] font-bold text-white">瑞一杯 · 怎么用</div>
+                            <div className="text-[9px] text-white/70">跟麦当劳不太一样, 花 30 秒看下</div>
+                        </div>
+                    </div>
+                    <button onClick={onClose} className="w-8 h-8 rounded-full bg-white/20 flex items-center justify-center text-white active:scale-90">✕</button>
+                </div>
+
+                <div className="flex-1 overflow-y-auto p-4 space-y-3 text-[12px] text-slate-700 leading-relaxed">
+                    {/* 核心 */}
+                    <div className="bg-white rounded-xl border border-[#E6DFCF] p-3">
+                        <div className="text-[12px] font-bold text-[#0B1F3A] mb-1">☕ 直接跟 ta 说"哪家店的哪杯"</div>
+                        <div>瑞幸跟麦当劳不一样——<b>拉不到整本菜单</b>。你直接告诉角色想喝什么、在哪附近, ta 会自动找最匹配的门店、点好、出微信二维码扫码付。</div>
+                        <div className="mt-2 bg-[#0B1F3A]/5 rounded-lg px-2.5 py-2 text-[11px] text-[#0B1F3A]">
+                            举例：<br />「帮我点一杯<b>花溪公园附近门店</b>的<b>无糖冰美式</b>」
+                        </div>
+                    </div>
+
+                    {/* 门店 */}
+                    <div className="flex gap-2">
+                        <span className="text-[15px] shrink-0">📍</span>
+                        <div><b>不指定门店</b>时, 角色按你<b>当前定位</b>选最近的店。<span className="text-amber-700">开着梯子定位可能不准</span> (启动时弹的定位框里能看精度, 不准就手选城市)。</div>
+                    </div>
+
+                    {/* 自动选 */}
+                    <div className="flex gap-2">
+                        <span className="text-[15px] shrink-0">🎯</span>
+                        <div><b>不指定饮品 / 杯型 / 冷热</b>时, 角色会按对你的了解<b>自己拿主意</b> (越懂你点得越准, 不满意直接说"换一杯/要热的/大杯")。</div>
+                    </div>
+
+                    {/* 测试版优惠 */}
+                    <div className="flex gap-2">
+                        <span className="text-[15px] shrink-0">🧪</span>
+                        <div><b>目前是测试版</b>：用不了瑞幸官方的门店优惠, <b>只有你账号自己的券</b>能自动抵扣。</div>
+                    </div>
+
+                    <div className="text-[10px] text-slate-400 text-center pt-1">下单 / 支付都在最后那张「结账卡」上点, 商品卡只是 ta 给你看的</div>
+                </div>
+
+                <div className="border-t border-[#DDD3BC] bg-gradient-to-r from-[#EFE9DC] to-[#E7DFC9] px-3 py-2.5 shrink-0">
+                    <button onClick={onClose} className="w-full px-3 py-2.5 bg-[#0B1F3A] text-white text-[13px] font-bold rounded-xl active:scale-95">知道啦, 开点</button>
+                </div>
+            </div>
+        </div>
+    );
+};
+
+export default LuckinHelpModal;

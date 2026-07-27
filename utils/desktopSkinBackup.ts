@@ -1,1 +1,61 @@
-Ly8g5qGM6Z2i55qu6IKk5pys5py65YGP5aW955qE5aSH5Lu9L+aBouWkje+8iOmajyDorr7nva7ihpLlr7zlh7og5LiA6LW36LWw77yJ44CCCi8vIOa2ieWPiu+8mueUteWtkOWuoOeJqSh0YW1hZ290Y2hpKSAvIOaJi+a4uOmjjihtb2JpbGVnYW1lKSDnmoTnlYzpnaLphY3oibLmlrnmoYggKyDnnIvmnb8gYmFubmVy44CCCi8vIOi/meS6m+WBj+WlveWtmOWcqCBsb2NhbFN0b3JhZ2XvvIzkuI3mjILlnKjop5LoibLkuIrvvIzml6nmnJ/lr7zlh7rmuIXljZXph4zmsqHmnInigJTigJTooaXpvZDlkI7miY3og73ot6jorr7lpIfov4Hnp7vjgIIKLy8KLy8g55yL5p2/5Zu+77yIdGFtYV9ib2FyZF9pbWfvvInmmK/kuKrnibnkvovvvJrlroPmmK8gYmxvYnJlZiDku6TniYzvvIzmjIflkJHmnKzmnLogYmxvYl9hc3NldHPjgIIKLy8g5Luk54mM5o2i6K6+5aSH5bCx5aSx5pWI77yM5omA5Lul5a+85Ye65pe26Kej5p6Q5ZueIGRhdGEgVVJMIOWGheW1jOi/m+Wkh+S7ve+8jOWvvOWFpeaXtuWGjeiQveaIkOacrOacuiBibG9i44CCCi8vIOS4juWjgee6uOeahOWPr+enu+akjeetlueVpeWQjOa6kO+8iOingSB1dGlscy9ibG9iUmVmLnRzIC8gT1NDb250ZXh0IOWvvOWHuueuoee6v++8ieOAggoKaW1wb3J0IHsgaXNCbG9iUmVmLCBnZXRCbG9iRm9yUmVmLCBibG9iVG9EYXRhVXJsLCBtaWdyYXRlRGF0YVVybFRvUmVmIH0gZnJvbSAnLi9ibG9iUmVmJzsKCi8vIOe6r+Wtl+espuS4suWBj+WlvemUru+8iOWOn+agt+W4pui1sO+8iQpjb25zdCBQTEFJTl9LRVlTID0gWwogICAgJ3RhbWFfc3R5bGVfdjInLCAgIC8vIOeUteWtkOWuoOeJqe+8mueVjOmdoumjjuagvOaWueahiCB7aHVlLGRhcmssZ29sZCxtdXRlfQogICAgJ21nX3N0eWxlX3YxJywgICAgIC8vIOaJi+a4uOmjju+8mueVjOmdoumFjeiJsuaWueahiAogICAgJ3RhbWFfYm9hcmRfZmcnLCAgIC8vIOeci+adv+aWh+Wtl+iJsu+8iOepuj3oh6rliqjvvIkKICAgICd0YW1hX2FjY2VudF9odWUnLCAvLyDml6fniYjljZXoibLnm7jlgY/lpb3vvIjov4Hnp7vnlKjvvIzluKbkuIrml6DlrrPvvIkKXTsKY29uc3QgQk9BUkRfSU1HX0tFWSA9ICd0YW1hX2JvYXJkX2ltZyc7IC8vIOeci+advyBiYW5uZXIg5Zu+77yIYmxvYnJlZiDku6TniYwgLyBkYXRhOiAvIGh0dHDvvIkKCi8qKgogKiDlr7zlh7rvvJror7vpvZDmnKzmnLrlgY/lpb3jgIIKICogQHBhcmFtIGluY2x1ZGVJbWFnZSDmmK/lkKblhoXltYznnIvmnb/lm77vvIhmYWxzZT3nuq/mlofmnKzlpIfku73vvIzot7Pov4flpKflm77vvIzlj6rluKbphY3oibLlgY/lpb3vvInjgIIKICogICDnnIvmnb/lm77mmK8gYmxvYnJlZiDku6TniYzvvIzku6TniYzmjaLorr7lpIflpLHmlYjvvIzmlYUgdHJ1ZSDml7bop6PmnpDlm54gZGF0YSBVUkzvvJvlm77luoogaHR0cCDpk77mjqXljp/moLfluKbjgIIKICog5peg5YaF5a656L+U5ZueIHVuZGVmaW5lZOOAggogKi8KZXhwb3J0IGFzeW5jIGZ1bmN0aW9uIGV4cG9ydERlc2t0b3BTa2luTG9jYWwoaW5jbHVkZUltYWdlID0gdHJ1ZSk6IFByb21pc2U8UmVjb3JkPHN0cmluZywgc3RyaW5nPiB8IHVuZGVmaW5lZD4gewogICAgY29uc3QgcmVjOiBSZWNvcmQ8c3RyaW5nLCBzdHJpbmc+ID0ge307CiAgICB0cnkgewogICAgICAgIGZvciAoY29uc3QgayBvZiBQTEFJTl9LRVlTKSB7CiAgICAgICAgICAgIGNvbnN0IHYgPSBsb2NhbFN0b3JhZ2UuZ2V0SXRlbShrKTsKICAgICAgICAgICAgaWYgKHYgIT0gbnVsbCkgcmVjW2tdID0gdjsKICAgICAgICB9CiAgICAgICAgY29uc3QgaW1nID0gaW5jbHVkZUltYWdlID8gbG9jYWxTdG9yYWdlLmdldEl0ZW0oQk9BUkRfSU1HX0tFWSkgOiBudWxsOwogICAgICAgIGlmIChpbWcpIHsKICAgICAgICAgICAgaWYgKGlzQmxvYlJlZihpbWcpKSB7CiAgICAgICAgICAgICAgICBjb25zdCBibG9iID0gYXdhaXQgZ2V0QmxvYkZvclJlZihpbWcpOwogICAgICAgICAgICAgICAgaWYgKGJsb2IpIHJlY1tCT0FSRF9JTUdfS0VZXSA9IGF3YWl0IGJsb2JUb0RhdGFVcmwoYmxvYik7CiAgICAgICAgICAgICAgICAvLyDop6PmnpDkuI3liLDvvIjlm77lt7LkuKLvvInlsLHkuI3luKbvvIzpgb/lhY3lr7zlh7rkuIDkuKrmgaLlpI3nq6/orqTkuI3lvpfnmoTmrbvku6TniYwKICAgICAgICAgICAgfSBlbHNlIHsKICAgICAgICAgICAgICAgIHJlY1tCT0FSRF9JTUdfS0VZXSA9IGltZzsgLy8g5penIGRhdGE6IC8g5Zu+5bqKIGh0dHDvvIzljp/moLflj6/np7vmpI0KICAgICAgICAgICAgfQogICAgICAgIH0KICAgIH0gY2F0Y2ggeyAvKiDnp4Hlr4bmqKHlvI/nrYnor7vnm5jlpLHotKXvvJrog73luKblpJrlsJHluKblpJrlsJEgKi8gfQogICAgcmV0dXJuIE9iamVjdC5rZXlzKHJlYykubGVuZ3RoID4gMCA/IHJlYyA6IHVuZGVmaW5lZDsKfQoKLyoqIOWvvOWFpe+8muWGmeWbnuacrOacuuWBj+Wlve+8m+eci+adv+WbvuiLpeaYryBkYXRhIFVSTCDliJnokL3miJDmnKzmnLogYmxvYu+8jOWtl+auteaNouaIkOaWsOS7pOeJjOOAgiAqLwpleHBvcnQgYXN5bmMgZnVuY3Rpb24gaW1wb3J0RGVza3RvcFNraW5Mb2NhbChyZWM/OiBSZWNvcmQ8c3RyaW5nLCBzdHJpbmc+IHwgbnVsbCk6IFByb21pc2U8dm9pZD4gewogICAgaWYgKCFyZWMpIHJldHVybjsKICAgIHRyeSB7CiAgICAgICAgZm9yIChjb25zdCBrIG9mIFBMQUlOX0tFWVMpIHsKICAgICAgICAgICAgaWYgKHR5cGVvZiByZWNba10gPT09ICdzdHJpbmcnKSBsb2NhbFN0b3JhZ2Uuc2V0SXRlbShrLCByZWNba10pOwogICAgICAgIH0KICAgICAgICBjb25zdCBpbWcgPSByZWNbQk9BUkRfSU1HX0tFWV07CiAgICAgICAgaWYgKHR5cGVvZiBpbWcgPT09ICdzdHJpbmcnICYmIGltZykgewogICAgICAgICAgICAvLyBkYXRhIFVSTCDihpIg5pys5py6IGJsb2LvvIjmjaLorr7lpIflkI7ku6TniYzph43lu7rvvInvvJtodHRwL+W3suaYr+S7pOeJjOWImeWOn+agt+WGmQogICAgICAgICAgICBjb25zdCBzdG9yZWQgPSBpbWcuc3RhcnRzV2l0aCgnZGF0YTonKSA/IGF3YWl0IG1pZ3JhdGVEYXRhVXJsVG9SZWYoaW1nKSA6IGltZzsKICAgICAgICAgICAgbG9jYWxTdG9yYWdlLnNldEl0ZW0oQk9BUkRfSU1HX0tFWSwgc3RvcmVkKTsKICAgICAgICB9CiAgICB9IGNhdGNoIHsgLyog5YaZ55uY5aSx6LSl5peg5aao77yM55So6buY6K6k55qu6IKkICovIH0KfQo=
+// 桌面皮肤本机偏好的备份/恢复（随 设置→导出 一起走）。
+// 涉及：电子宠物(tamagotchi) / 手游风(mobilegame) 的界面配色方案 + 看板 banner。
+// 这些偏好存在 localStorage，不挂在角色上，早期导出清单里没有——补齐后才能跨设备迁移。
+//
+// 看板图（tama_board_img）是个特例：它是 blobref 令牌，指向本机 blob_assets。
+// 令牌换设备就失效，所以导出时解析回 data URL 内嵌进备份，导入时再落成本机 blob。
+// 与壁纸的可移植策略同源（见 utils/blobRef.ts / OSContext 导出管线）。
+
+import { isBlobRef, getBlobForRef, blobToDataUrl, migrateDataUrlToRef } from './blobRef';
+
+// 纯字符串偏好键（原样带走）
+const PLAIN_KEYS = [
+    'tama_style_v2',   // 电子宠物：界面风格方案 {hue,dark,gold,mute}
+    'mg_style_v1',     // 手游风：界面配色方案
+    'tama_board_fg',   // 看板文字色（空=自动）
+    'tama_accent_hue', // 旧版单色相偏好（迁移用，带上无害）
+];
+const BOARD_IMG_KEY = 'tama_board_img'; // 看板 banner 图（blobref 令牌 / data: / http）
+
+/**
+ * 导出：读齐本机偏好。
+ * @param includeImage 是否内嵌看板图（false=纯文本备份，跳过大图，只带配色偏好）。
+ *   看板图是 blobref 令牌，令牌换设备失效，故 true 时解析回 data URL；图床 http 链接原样带。
+ * 无内容返回 undefined。
+ */
+export async function exportDesktopSkinLocal(includeImage = true): Promise<Record<string, string> | undefined> {
+    const rec: Record<string, string> = {};
+    try {
+        for (const k of PLAIN_KEYS) {
+            const v = localStorage.getItem(k);
+            if (v != null) rec[k] = v;
+        }
+        const img = includeImage ? localStorage.getItem(BOARD_IMG_KEY) : null;
+        if (img) {
+            if (isBlobRef(img)) {
+                const blob = await getBlobForRef(img);
+                if (blob) rec[BOARD_IMG_KEY] = await blobToDataUrl(blob);
+                // 解析不到（图已丢）就不带，避免导出一个恢复端认不得的死令牌
+            } else {
+                rec[BOARD_IMG_KEY] = img; // 旧 data: / 图床 http，原样可移植
+            }
+        }
+    } catch { /* 私密模式等读盘失败：能带多少带多少 */ }
+    return Object.keys(rec).length > 0 ? rec : undefined;
+}
+
+/** 导入：写回本机偏好；看板图若是 data URL 则落成本机 blob，字段换成新令牌。 */
+export async function importDesktopSkinLocal(rec?: Record<string, string> | null): Promise<void> {
+    if (!rec) return;
+    try {
+        for (const k of PLAIN_KEYS) {
+            if (typeof rec[k] === 'string') localStorage.setItem(k, rec[k]);
+        }
+        const img = rec[BOARD_IMG_KEY];
+        if (typeof img === 'string' && img) {
+            // data URL → 本机 blob（换设备后令牌重建）；http/已是令牌则原样写
+            const stored = img.startsWith('data:') ? await migrateDataUrlToRef(img) : img;
+            localStorage.setItem(BOARD_IMG_KEY, stored);
+        }
+    } catch { /* 写盘失败无妨，用默认皮肤 */ }
+}

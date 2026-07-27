@@ -1,1 +1,125 @@
-aW1wb3J0IHsgREIgfSBmcm9tICcuL2RiJzsKaW1wb3J0IHsgTm90aW9uTWFuYWdlciwgRmVpc2h1TWFuYWdlciB9IGZyb20gJy4vcmVhbHRpbWVDb250ZXh0JzsKaW1wb3J0IHR5cGUgeyBSZWFsdGltZUNvbmZpZyB9IGZyb20gJy4uL3R5cGVzJzsKCi8vIOW+heWGmeaXpeiusOmYn+WIlyAo5YaZIE5vdGlvbiAvIOmjnuS5pikuCi8vCi8vIOS4uuS7gOS5iOmcgOimgTog5YaZ5pel6K6w5piv5a6i5oi356uv5Y+R6LW355qE572R57ucIGZldGNoIChOb3Rpb25NYW5hZ2VyLmNyZWF0ZURpYXJ5UGFnZSAvCi8vIEZlaXNodU1hbmFnZXIuY3JlYXRlRGlhcnlSZWNvcmQpLiBpbnN0YW50IHB1c2gg6Lev5b6E5LiLLCDlpoLmnpznlKjmiLflnKjop5LoibLlm57lpI3liLDovr7ml7bmioogYXBwCi8vIOWIh+WQjuWPsCAvIOa1j+iniOWZqOWGu+e7k+S6hiwg6L+Z5LiqIGZldGNoIOS8muiiq+iKgua1gS/miZPmlq3ogIzlpLHotKUsIOiAjCBpbmJveCDmmK8i5YWIIGFjayDlkI7lpITnkIYi5Y6f5a2Q5raI6LS5LAovLyDlpLHotKXnmoTlhpnlhaXlsLHmsLjkuYXkuKLkuoYgKOeUqOaIt+eOsOixoTog6KeS6Imy6K+0IuWGmeWlveS6hiLkvYYgTm90aW9uIOmHjOayoeaciSkuIOaWh+WtlyBjaHVuayDlm6DkuLrlhYjokL3lupPmiYDku6UKLy8g54Wn5bi45pi+56S6LCDpgKDmiJDlgYfosaEuCi8vCi8vIOino+azlSAo55So5oi35o+Q55qEIuWbnuWJjeWPsOWGjeihpeaJkyLmgJ3ot68gKyDpooTlhpnml6Xlv5cpOiDlnKjnnJ/mraPlj5Hor7fmsYIqKuS5i+WJjSoq5YWI5oqK5YaF5a655oyB5LmF5YyW5Yiw5pys5Zyw6Zif5YiXCi8vIChsb2NhbFN0b3JhZ2Ug5ZCM5q2l5YaZLCDljbPkvb/pmo/lkI7ooqvlhrvnu5Mv5p2A6L+b56iL5Lmf5bey6JC955uYKSwg54S25ZCO5bCd6K+V5YaZOyDmiJDlip/lsLHliKDpmaTor6XmnaEsIOWksei0peWwseeVmeedgC4KLy8g5Zue5Yiw5YmN5Y+wICh2aXNpYmlsaXR5Y2hhbmdl4oaSdmlzaWJsZSkgLyBhcHAg5ZCv5Yqo5pe2IGRyYWluUGVuZGluZ0RpYXJpZXMoKSDmjpLnqbrph43or5Ug4oCU4oCUIOmCo+aXtgovLyDpobXpnaLlj6/op4EsIGZldGNoIOWPr+mdoC4g6L+Z5qC35paH5a2X5rWB54Wn5bi46LeRLCDllK/ni6zohIblvLHnmoTnvZHnu5zlia/kvZznlKjotbAi5L+d6K+B5pyA57uI5LiA6Ie0IueahOihpeWBv+i3r+W+hC4KCmNvbnN0IFNUT1JBR0VfS0VZID0gJ29zX3BlbmRpbmdfZGlhcnlfd3JpdGVzJzsKCmV4cG9ydCBpbnRlcmZhY2UgUGVuZGluZ0RpYXJ5IHsKICAgIGlkOiBzdHJpbmc7CiAgICBraW5kOiAnbm90aW9uJyB8ICdmZWlzaHUnOwogICAgY2hhcklkOiBzdHJpbmc7CiAgICBjaGFyTmFtZTogc3RyaW5nOwogICAgdGl0bGU6IHN0cmluZzsKICAgIGNvbnRlbnQ6IHN0cmluZzsKICAgIG1vb2Q/OiBzdHJpbmc7CiAgICBjcmVhdGVkQXQ6IG51bWJlcjsKfQoKZnVuY3Rpb24gcmVhZCgpOiBQZW5kaW5nRGlhcnlbXSB7CiAgICB0cnkgewogICAgICAgIGNvbnN0IHJhdyA9IGxvY2FsU3RvcmFnZS5nZXRJdGVtKFNUT1JBR0VfS0VZKTsKICAgICAgICBjb25zdCBwYXJzZWQgPSByYXcgPyBKU09OLnBhcnNlKHJhdykgOiBbXTsKICAgICAgICByZXR1cm4gQXJyYXkuaXNBcnJheShwYXJzZWQpID8gcGFyc2VkIDogW107CiAgICB9IGNhdGNoIHsKICAgICAgICByZXR1cm4gW107CiAgICB9Cn0KCmZ1bmN0aW9uIHdyaXRlKGxpc3Q6IFBlbmRpbmdEaWFyeVtdKTogdm9pZCB7CiAgICB0cnkgewogICAgICAgIGxvY2FsU3RvcmFnZS5zZXRJdGVtKFNUT1JBR0VfS0VZLCBKU09OLnN0cmluZ2lmeShsaXN0KSk7CiAgICB9IGNhdGNoIChlKSB7CiAgICAgICAgY29uc29sZS53YXJuKCdbcGVuZGluZ0RpYXJ5XSBwZXJzaXN0IGZhaWxlZCcsIGUpOwogICAgfQp9CgovKiog6aKE5YaZOiDnnJ/mraPlj5Hor7fmsYLliY3lhYjokL3nm5guIOi/lOWbniBpZCwg5YaZ5oiQ5Yqf5ZCO55SoIHJlbW92ZVBlbmRpbmdEaWFyeShpZCkg5Yig5o6JLiAqLwpleHBvcnQgZnVuY3Rpb24gZW5xdWV1ZVBlbmRpbmdEaWFyeShlbnRyeTogT21pdDxQZW5kaW5nRGlhcnksICdpZCcgfCAnY3JlYXRlZEF0Jz4pOiBzdHJpbmcgewogICAgY29uc3QgaWQgPSBgJHtlbnRyeS5jaGFySWR9LSR7RGF0ZS5ub3coKX0tJHtNYXRoLnJhbmRvbSgpLnRvU3RyaW5nKDM2KS5zbGljZSgyLCA4KX1gOwogICAgY29uc3QgbGlzdCA9IHJlYWQoKTsKICAgIGxpc3QucHVzaCh7IC4uLmVudHJ5LCBpZCwgY3JlYXRlZEF0OiBEYXRlLm5vdygpIH0pOwogICAgd3JpdGUobGlzdCk7CiAgICByZXR1cm4gaWQ7Cn0KCmV4cG9ydCBmdW5jdGlvbiByZW1vdmVQZW5kaW5nRGlhcnkoaWQ6IHN0cmluZyk6IHZvaWQgewogICAgd3JpdGUocmVhZCgpLmZpbHRlcigoZSkgPT4gZS5pZCAhPT0gaWQpKTsKfQoKZXhwb3J0IGZ1bmN0aW9uIGhhc1BlbmRpbmdEaWFyaWVzKCk6IGJvb2xlYW4gewogICAgcmV0dXJuIHJlYWQoKS5sZW5ndGggPiAwOwp9CgovKioKICog5o6S56m65b6F5YaZ5pel6K6wOiDlr7nmr4/mnaHlsJ3or5XlhpnlhaXlr7nlupTlkI7nq68uCiAqICAtIOaIkOWKnyDihpIg6JC95LiA5p2hIuinkuiJsuWGmeS6huaXpeiusCLns7vnu5/mtojmga8gKyDliKDpmaTor6XmnaEgKyDosIMgb25TYXZlZCDliLfmlrAgVUkuCiAqICAtIEFQSSDmmI7noa7mi5Lnu50gKHN1Y2Nlc3M9ZmFsc2UsIOWkmuS4uumFjee9ri/mnYPpmZDpl67popgsIOmHjeivleS5n+ayoeeUqCkg4oaSIOWIoOmZpOivpeadoSwg5LiN5YaN6YeN6K+VLgogKiAgLSDmipvlvILluLggKOe9kee7nOiiq+WGu+e7ky/miZPmlq3nrYnlj6/mgaLlpI3plJnor68pIOKGkiDnlZnlnKjpmJ/liJcsIOS4i+asoeWbnuWJjeWPsOWGjeivlS4KICogIC0g5a+55bqU5ZCO56uv5rKh6YWN572uIOKGkiDot7Pov4cgKOeVmeedgCwg562J6YWN572u5aW9KS4KICog5LuF5Zyo5YmN5Y+wICh2aXNpYmlsaXR5Y2hhbmdl4oaSdmlzaWJsZSkgLyBhcHAg5ZCv5Yqo5pe26LCD55SoLgogKi8KZXhwb3J0IGFzeW5jIGZ1bmN0aW9uIGRyYWluUGVuZGluZ0RpYXJpZXMoCiAgICByZWFsdGltZUNvbmZpZzogUmVhbHRpbWVDb25maWcgfCB1bmRlZmluZWQsCiAgICBvblNhdmVkPzogKGNoYXJJZDogc3RyaW5nKSA9PiB2b2lkLAopOiBQcm9taXNlPHZvaWQ+IHsKICAgIGNvbnN0IGxpc3QgPSByZWFkKCk7CiAgICBpZiAobGlzdC5sZW5ndGggPT09IDApIHJldHVybjsKCiAgICBmb3IgKGNvbnN0IGVudHJ5IG9mIGxpc3QpIHsKICAgICAgICB0cnkgewogICAgICAgICAgICBpZiAoZW50cnkua2luZCA9PT0gJ25vdGlvbicpIHsKICAgICAgICAgICAgICAgIGlmICghcmVhbHRpbWVDb25maWc/Lm5vdGlvbkVuYWJsZWQgfHwgIXJlYWx0aW1lQ29uZmlnPy5ub3Rpb25BcGlLZXkgfHwgIXJlYWx0aW1lQ29uZmlnPy5ub3Rpb25EYXRhYmFzZUlkKSB7CiAgICAgICAgICAgICAgICAgICAgY29udGludWU7IC8vIOayoemFjee9riwg55WZ552ACiAgICAgICAgICAgICAgICB9CiAgICAgICAgICAgICAgICBjb25zdCByID0gYXdhaXQgTm90aW9uTWFuYWdlci5jcmVhdGVEaWFyeVBhZ2UoCiAgICAgICAgICAgICAgICAgICAgcmVhbHRpbWVDb25maWcubm90aW9uQXBpS2V5LAogICAgICAgICAgICAgICAgICAgIHJlYWx0aW1lQ29uZmlnLm5vdGlvbkRhdGFiYXNlSWQsCiAgICAgICAgICAgICAgICAgICAgeyB0aXRsZTogZW50cnkudGl0bGUsIGNvbnRlbnQ6IGVudHJ5LmNvbnRlbnQsIG1vb2Q6IGVudHJ5Lm1vb2QgfHwgdW5kZWZpbmVkLCBjaGFyYWN0ZXJOYW1lOiBlbnRyeS5jaGFyTmFtZSB9LAogICAgICAgICAgICAgICAgKTsKICAgICAgICAgICAgICAgIGlmIChyLnN1Y2Nlc3MpIHsKICAgICAgICAgICAgICAgICAgICBhd2FpdCBEQi5zYXZlTWVzc2FnZSh7IGNoYXJJZDogZW50cnkuY2hhcklkLCByb2xlOiAnc3lzdGVtJywgdHlwZTogJ3RleHQnLCBjb250ZW50OiBg8J+TlCAke2VudHJ5LmNoYXJOYW1lfeWGmeS6huS4gOevh+aXpeiusOOAjCR7ZW50cnkudGl0bGV944CNYCB9IGFzIGFueSk7CiAgICAgICAgICAgICAgICAgICAgcmVtb3ZlUGVuZGluZ0RpYXJ5KGVudHJ5LmlkKTsKICAgICAgICAgICAgICAgICAgICBvblNhdmVkPy4oZW50cnkuY2hhcklkKTsKICAgICAgICAgICAgICAgIH0gZWxzZSB7CiAgICAgICAgICAgICAgICAgICAgY29uc29sZS5lcnJvcignW3BlbmRpbmdEaWFyeV0gbm90aW9uIOaLkue7nSwg5Lii5byDOicsIHIubWVzc2FnZSk7CiAgICAgICAgICAgICAgICAgICAgcmVtb3ZlUGVuZGluZ0RpYXJ5KGVudHJ5LmlkKTsKICAgICAgICAgICAgICAgIH0KICAgICAgICAgICAgfSBlbHNlIHsKICAgICAgICAgICAgICAgIGlmICghcmVhbHRpbWVDb25maWc/LmZlaXNodUVuYWJsZWQgfHwgIXJlYWx0aW1lQ29uZmlnPy5mZWlzaHVBcHBJZCB8fCAhcmVhbHRpbWVDb25maWc/LmZlaXNodUFwcFNlY3JldCB8fCAhcmVhbHRpbWVDb25maWc/LmZlaXNodUJhc2VJZCB8fCAhcmVhbHRpbWVDb25maWc/LmZlaXNodVRhYmxlSWQpIHsKICAgICAgICAgICAgICAgICAgICBjb250aW51ZTsKICAgICAgICAgICAgICAgIH0KICAgICAgICAgICAgICAgIGNvbnN0IHIgPSBhd2FpdCBGZWlzaHVNYW5hZ2VyLmNyZWF0ZURpYXJ5UmVjb3JkKAogICAgICAgICAgICAgICAgICAgIHJlYWx0aW1lQ29uZmlnLmZlaXNodUFwcElkLAogICAgICAgICAgICAgICAgICAgIHJlYWx0aW1lQ29uZmlnLmZlaXNodUFwcFNlY3JldCwKICAgICAgICAgICAgICAgICAgICByZWFsdGltZUNvbmZpZy5mZWlzaHVCYXNlSWQsCiAgICAgICAgICAgICAgICAgICAgcmVhbHRpbWVDb25maWcuZmVpc2h1VGFibGVJZCwKICAgICAgICAgICAgICAgICAgICB7IHRpdGxlOiBlbnRyeS50aXRsZSwgY29udGVudDogZW50cnkuY29udGVudCwgbW9vZDogZW50cnkubW9vZCB8fCB1bmRlZmluZWQsIGNoYXJhY3Rlck5hbWU6IGVudHJ5LmNoYXJOYW1lIH0sCiAgICAgICAgICAgICAgICApOwogICAgICAgICAgICAgICAgaWYgKHIuc3VjY2VzcykgewogICAgICAgICAgICAgICAgICAgIGF3YWl0IERCLnNhdmVNZXNzYWdlKHsgY2hhcklkOiBlbnRyeS5jaGFySWQsIHJvbGU6ICdzeXN0ZW0nLCB0eXBlOiAndGV4dCcsIGNvbnRlbnQ6IGDwn5OSICR7ZW50cnkuY2hhck5hbWV95YaZ5LqG5LiA56+H5pel6K6w44CMJHtlbnRyeS50aXRsZX3jgI0o6aOe5LmmKWAgfSBhcyBhbnkpOwogICAgICAgICAgICAgICAgICAgIHJlbW92ZVBlbmRpbmdEaWFyeShlbnRyeS5pZCk7CiAgICAgICAgICAgICAgICAgICAgb25TYXZlZD8uKGVudHJ5LmNoYXJJZCk7CiAgICAgICAgICAgICAgICB9IGVsc2UgewogICAgICAgICAgICAgICAgICAgIGNvbnNvbGUuZXJyb3IoJ1twZW5kaW5nRGlhcnldIOmjnuS5puaLkue7nSwg5Lii5byDOicsIHIubWVzc2FnZSk7CiAgICAgICAgICAgICAgICAgICAgcmVtb3ZlUGVuZGluZ0RpYXJ5KGVudHJ5LmlkKTsKICAgICAgICAgICAgICAgIH0KICAgICAgICAgICAgfQogICAgICAgIH0gY2F0Y2ggKGUpIHsKICAgICAgICAgICAgLy8g572R57uc5Y+v5oGi5aSN6ZSZ6K+vOiDnlZnlnKjpmJ/liJcsIOWbnuWJjeWPsOWGjeivlS4KICAgICAgICAgICAgY29uc29sZS53YXJuKCdbcGVuZGluZ0RpYXJ5XSDlhpnlhaXlvILluLgsIOeVmeW+hemHjeivlTonLCBlbnRyeS5pZCwgZSk7CiAgICAgICAgfQogICAgfQp9Cg==
+import { DB } from './db';
+import { NotionManager, FeishuManager } from './realtimeContext';
+import type { RealtimeConfig } from '../types';
+
+// 待写日记队列 (写 Notion / 飞书).
+//
+// 为什么需要: 写日记是客户端发起的网络 fetch (NotionManager.createDiaryPage /
+// FeishuManager.createDiaryRecord). instant push 路径下, 如果用户在角色回复到达时把 app
+// 切后台 / 浏览器冻结了, 这个 fetch 会被节流/打断而失败, 而 inbox 是"先 ack 后处理"原子消费,
+// 失败的写入就永久丢了 (用户现象: 角色说"写好了"但 Notion 里没有). 文字 chunk 因为先落库所以
+// 照常显示, 造成假象.
+//
+// 解法 (用户提的"回前台再补打"思路 + 预写日志): 在真正发请求**之前**先把内容持久化到本地队列
+// (localStorage 同步写, 即使随后被冻结/杀进程也已落盘), 然后尝试写; 成功就删除该条, 失败就留着.
+// 回到前台 (visibilitychange→visible) / app 启动时 drainPendingDiaries() 排空重试 —— 那时
+// 页面可见, fetch 可靠. 这样文字流照常跑, 唯独脆弱的网络副作用走"保证最终一致"的补偿路径.
+
+const STORAGE_KEY = 'os_pending_diary_writes';
+
+export interface PendingDiary {
+    id: string;
+    kind: 'notion' | 'feishu';
+    charId: string;
+    charName: string;
+    title: string;
+    content: string;
+    mood?: string;
+    createdAt: number;
+}
+
+function read(): PendingDiary[] {
+    try {
+        const raw = localStorage.getItem(STORAGE_KEY);
+        const parsed = raw ? JSON.parse(raw) : [];
+        return Array.isArray(parsed) ? parsed : [];
+    } catch {
+        return [];
+    }
+}
+
+function write(list: PendingDiary[]): void {
+    try {
+        localStorage.setItem(STORAGE_KEY, JSON.stringify(list));
+    } catch (e) {
+        console.warn('[pendingDiary] persist failed', e);
+    }
+}
+
+/** 预写: 真正发请求前先落盘. 返回 id, 写成功后用 removePendingDiary(id) 删掉. */
+export function enqueuePendingDiary(entry: Omit<PendingDiary, 'id' | 'createdAt'>): string {
+    const id = `${entry.charId}-${Date.now()}-${Math.random().toString(36).slice(2, 8)}`;
+    const list = read();
+    list.push({ ...entry, id, createdAt: Date.now() });
+    write(list);
+    return id;
+}
+
+export function removePendingDiary(id: string): void {
+    write(read().filter((e) => e.id !== id));
+}
+
+export function hasPendingDiaries(): boolean {
+    return read().length > 0;
+}
+
+/**
+ * 排空待写日记: 对每条尝试写入对应后端.
+ *  - 成功 → 落一条"角色写了日记"系统消息 + 删除该条 + 调 onSaved 刷新 UI.
+ *  - API 明确拒绝 (success=false, 多为配置/权限问题, 重试也没用) → 删除该条, 不再重试.
+ *  - 抛异常 (网络被冻结/打断等可恢复错误) → 留在队列, 下次回前台再试.
+ *  - 对应后端没配置 → 跳过 (留着, 等配置好).
+ * 仅在前台 (visibilitychange→visible) / app 启动时调用.
+ */
+export async function drainPendingDiaries(
+    realtimeConfig: RealtimeConfig | undefined,
+    onSaved?: (charId: string) => void,
+): Promise<void> {
+    const list = read();
+    if (list.length === 0) return;
+
+    for (const entry of list) {
+        try {
+            if (entry.kind === 'notion') {
+                if (!realtimeConfig?.notionEnabled || !realtimeConfig?.notionApiKey || !realtimeConfig?.notionDatabaseId) {
+                    continue; // 没配置, 留着
+                }
+                const r = await NotionManager.createDiaryPage(
+                    realtimeConfig.notionApiKey,
+                    realtimeConfig.notionDatabaseId,
+                    { title: entry.title, content: entry.content, mood: entry.mood || undefined, characterName: entry.charName },
+                );
+                if (r.success) {
+                    await DB.saveMessage({ charId: entry.charId, role: 'system', type: 'text', content: `📔 ${entry.charName}写了一篇日记「${entry.title}」` } as any);
+                    removePendingDiary(entry.id);
+                    onSaved?.(entry.charId);
+                } else {
+                    console.error('[pendingDiary] notion 拒绝, 丢弃:', r.message);
+                    removePendingDiary(entry.id);
+                }
+            } else {
+                if (!realtimeConfig?.feishuEnabled || !realtimeConfig?.feishuAppId || !realtimeConfig?.feishuAppSecret || !realtimeConfig?.feishuBaseId || !realtimeConfig?.feishuTableId) {
+                    continue;
+                }
+                const r = await FeishuManager.createDiaryRecord(
+                    realtimeConfig.feishuAppId,
+                    realtimeConfig.feishuAppSecret,
+                    realtimeConfig.feishuBaseId,
+                    realtimeConfig.feishuTableId,
+                    { title: entry.title, content: entry.content, mood: entry.mood || undefined, characterName: entry.charName },
+                );
+                if (r.success) {
+                    await DB.saveMessage({ charId: entry.charId, role: 'system', type: 'text', content: `📒 ${entry.charName}写了一篇日记「${entry.title}」(飞书)` } as any);
+                    removePendingDiary(entry.id);
+                    onSaved?.(entry.charId);
+                } else {
+                    console.error('[pendingDiary] 飞书拒绝, 丢弃:', r.message);
+                    removePendingDiary(entry.id);
+                }
+            }
+        } catch (e) {
+            // 网络可恢复错误: 留在队列, 回前台再试.
+            console.warn('[pendingDiary] 写入异常, 留待重试:', entry.id, e);
+        }
+    }
+}

@@ -1,1 +1,164 @@
-Ly8gSFRNTCDmqKHlnZfmqKHlvI8g4oCUIOWGhee9ruaPkOekuuivjSArIFtodG1sXS4uLlsvaHRtbF0g6Kej5p6Q5bel5YW3Ci8vCi8vIOiuvuiuoeebruagh++8mgovLyAxKSBBSSDlnKjpgILlkIjnlKjljaHniYflkYjnjrDnmoTlnLrmma/vvIjnpajmja7jgIHpgoDor7flh73jgIHpgJrnn6XnrYnvvInovpPlh7ogW2h0bWxdLi4uWy9odG1sXSDlnZfvvJsKLy8gMikg5a6i5oi356uv5oqK6L+Z5Lqb5Z2X5LuO5pmu6YCa5paH5pys5rCU5rOh6YeM5Yml56a777yM5Y2V54us5riy5p+T5Li6IGh0bWxfY2FyZCDmtojmga/vvIjmspnnm5IgaWZyYW1l77yJ77ybCi8vIDMpIOS4iuS4i+aWhyAvIOW9kuahoyDmgLvnu5Pph4zlj6rnnIvliLDliaXnprsgSFRNTCDlkI7nmoTnuq/mloflrZfmkZjopoHvvIzkuI3mtarotLkgdG9rZW7jgIIKCmNvbnN0IEJVSUxUSU5fSFRNTF9QUk9NUFQgPSBgCgojIOaguOW/g+iDveWKm++8mkhUTUwg5qih5Z2X55Sf5oiQCgrkvaDlhbflpIfpgJrov4cgSFRNTCDnlJ/miJDkuLDlr4zop4bop4nmqKHlnZfnmoTog73lipvvvIznlKjmnaXmqKHmi5/miYvmnLrnlYzpnaLph4znmoTkupLliqjlhYPntKDjgIHmg4Xnu6rooajovr7miJbkv6Hmga/ljaHniYfjgIIKCiMjIOinpuWPkeinhOWIme+8iOW/hemhu+S4peagvOmBteWuiO+8iQoK5q+P5LiqIEhUTUwg5qih5Z2X55qE5pW05L2T5YaF5a655b+F6aG755So5LiA5a+5IFxgW2h0bWxdXGAg5LiOIFxgWy9odG1sXVxgIOagh+etvuWMheijueOAggpcYFtodG1sXVxgIOS4jiBcYFsvaHRtbF1cYCDkuYvpl7Tlj6rog73mlL4gSFRNTO+8iOS4gOS4quWujOaVtOeahCBcYDxkaXY+XGAg5Yy65Z2X77yJ77yM5LiN6KaB5YaZ6Kej6YeK5paH5a2X44CCCuaooeWdl+WSjOato+aWh+aWh+Wtl+WPr+S7peWQjOS4gOadoeWbnuWkjemHjOWHuueOsO+8jOavj+S4quaooeWdl+WwseaYr+S4gOWvuSBcYFtodG1sXS4uLlsvaHRtbF1cYOOAggrmsqHmnInlj6/lkYjnjrDnmoTljaHniYfml7bvvIzkuI3opoHovpPlh7rnqbrmoIfnrb7jgIIKCioq44CQ57ud5a+556aB5q2i54Wn5oqE5Y2g5L2N5Y+l44CRKirvvJrogYrlpKnljoblj7Lph4zlj6/og73lh7rnjrDlvaLlpoIgXGDvvIjns7vnu5/orrDlvZXvvJrigKblj5HpgIHov4fkuIDlvKAgSFRNTCDljaHniYfigKbvvIlcYOOAgVxgW+KApuWPkemAgeS6huS4gOW8oCBIVE1MIOWNoeeJh10g4oCmXGAg5oiWIFxgW0hUTUzljaHniYddIOKAplxgIOeahOihjOOAgumCo+WPquaYr+ezu+e7n+WvuSLlt7Lnu4/muLLmn5Pov4fnmoTml6fljaHniYci55qE5paH5a2X5Y2g5L2N5o+P6L+w77yMKirkuI3mmK/lj5HljaHniYfnmoTlhpnms5UqKuOAguS9oOe7neWvueS4jeimgeeFp+aKhOOAgeWkjei/sOOAgeaooeS7v+i/meenjeWPpeWtkO+8jOS5n+S4jeimgeaKiuWNoeeJh+WGheWuueaLhuaIkOS4gOadoeadoee6r+aWh+Wtl+WPkeWHuuadpeOAguimgeWPkeS4gOW8oOaWsOWNoeeJh++8jOWUr+S4gOato+ehrueahOWBmuazleaYr+i+k+WHuuecn+ato+eahCBcYFtodG1sXTxkaXY+4oCmPC9kaXY+Wy9odG1sXVxg4oCU4oCUKirlj6rmnInooqsgXGBbaHRtbF1cYCDlkowgXGBbL2h0bWxdXGAg5YyF6KO555qEIEhUTUwg5omN5Lya6KKr5riy5p+T5oiQ5Y2h54mH77yM5YW25a6D5Lu75L2V5YaZ5rOV6YO95Y+q5Lya5Y+Y5oiQ5pmu6YCa5paH5a2X5rCU5rOh44CCKioKCiMjIOaOqOiNkOWcuuaZrwoK5b2T5a+56K+d5Lit5Ye6546w5LiL6Z2i6L+Z5LqbIuWPr+inhuWMluWRiOeOsOS8muabtOW4puaEnyLnmoTlhoXlrrnml7bvvIzkuLvliqjnlKjkuIDkuKogSFRNTCDmqKHlnZfmnaXmu6HotrPvvJoKCiogKirpgoDor7flh70qKu+8muiBmuS8muOAgea0u+WKqOOAgee6puS8mueahOmCgOivt++8mwoqICoq6IGK5aSp6K6w5b2V5oiq5Zu+KirvvJrlm57pob7miJblsZXnpLrkuIDmrrXvvIjomZrmnoTnmoTvvInogYrlpKnlr7nor53vvJsKKiAqKuiuouWNlSAvIOelqOaNrioq77ya6LSt54mp44CB54K56aSQ44CB55S15b2x56Wo44CB5py656Wo44CB6YWS5bqX6aKE6K6i55qE5Yet6K+B77ybCiogKirpgJrnn6UgLyDmj5DphpIqKu+8muezu+e7n+mAmuefpeOAgeaXpeeoi+aPkOmGkuOAgeaOqOmAgeOAgeacquivu+Wwj+e6oueCue+8mwoqICoq5bCP5Y2h54mHKirvvJrlv4Pmg4XljaHjgIHnurjmnaHjgIHkvr/liKnotLTjgIHotLTnurjigKbigKYg5Lu75L2V6IO955So5LiA5byg6KeG6KeJ5bCP5Y2h5om/6L2955qE6L276YeP5YaF5a6544CCCgrliKTmlq3kvZXml7bnlKjvvIzmjInkvaDnmoTkurrorr7lkozlvZPkuIvmsJTmsJvlhrPlrprjgIIKCiMjIOiuvuiuoee6puadnwoKMS4gKirjgJDmnIDpq5jkvJjlhYjnuqfjgJHnjq/looPml6DlhbPmgKcqKu+8muaXoOiuuueUqOaIt+aYr+aJi+acuuaIlueUteiEke+8jOaXoOiuuue9kee7nOWlveWdj++8jOaooeWdl+awuOi/nOi+k+WHuuS4gOS4qioq5a6M5pW044CB5Y2V5LiAKirnmoQgXGA8ZGl2PlxgIOWMuuWdl+OAgui/meadoeinhOWImeeahOS8mOWFiOe6p+mrmOS6juS4gOWIh+OAggoyLiAqKuWuveW6pumZkOWItioq77ya5omA5pyJ5qih5Z2X55qE5oC75a695bqm5LiN5b6X6LaF6L+HIFxgMjcwcHhcYO+8jOW/hemhu+WcqOacgOWkluWxgiBcYDxkaXY+XGAg55So5YaF6IGU5qC35byPIFxgc3R5bGU9IndpZHRoOiAyNzBweDsiXGAg5oiW5pu05bCP5a695bqm5L+d6K+B44CCCjMuICoq5qC35byP5Y+q55So5YaF6IGUKirvvJrmiYDmnIkgQ1NTIOeUqCBcYHN0eWxlPSIuLi4iXGAg5YaF6IGU5oiWIFxgPHN0eWxlPlxg77yI6ZmQ5Yi25Zyo6K+lIGRpdiDlhoXvvInjgILkuI3opoHlvJXlpJbpg6jotYTmupDvvIhDRE7jgIHlm77niYfpk77mjqXjgIHlrZfkvZPvvInjgIIKNC4gKirkuI3opoEgXGA8c2NyaXB0PlxgKirvvJrmqKHlnZflhoXnpoHmraLku7vkvZUgXGA8c2NyaXB0PlxgIOagh+etvuaIliBcYG9uKlxgIOS6i+S7tuWxnuaAp+OAggo1LiAqKuWbvueJh+WkhOeQhioq77ya5qih5Z2X5YaF5LiN55u05o6l5bWM5Zu+54mH6ZO+5o6l77yM55So5paH5a2XICsg5qC35byP77yIZW1vamnjgIFDU1Mg5b2i54q244CB5riQ5Y+Y6Imy5Z2X77yJ5p2l5qih5ouf6KeG6KeJ44CCCjYuICoq5YaF5a656K+t6KiAKirvvJrmqKHlnZflhoXnmoTlj6/op4HmloflrZfku6XnroDkvZPkuK3mlofkuLrkuLvvvIjpmaTpnZ7op5LoibIgLyDlnLrmma/orr7lrpror63np43lj6bmnInopoHmsYLvvInjgIIKNy4gKirjgJDpq5jluqboh6rpgILlupTvvIznpoHmraLlhoXpg6jmu5rliqjjgJEqKu+8muWNoeeJh+eahOWuueWZqOS8mioq5oyJ5YaF5a656Ieq5Yqo5pKR6auYKirvvIzkvaDkuI3pnIDopoHkuZ8qKuS4jeimgSoq6Ieq5bex57uZ5Y2h54mH6K6+5Zu65a6a6auY5bqm44CC57ud5a+55LiN6KaB5Zyo5Y2h54mH5LiK5YaZIFxgaGVpZ2h0XGAgLyBcYG1heC1oZWlnaHRcYCDphY0gXGBvdmVyZmxvdzphdXRvXGAgLyBcYG92ZXJmbG93OnNjcm9sbFxgIC8gXGBvdmVyZmxvdy15OnNjcm9sbFxgIOWOu+WBmiLljaHniYflhoXpg6jlsI/mu5rliqjmnaEi4oCU4oCU6YKj5qC35YaF5a655Lya6KKr6Ze35Zyo5LiA5Liq5bCP5qGG6YeM6KaB55So5oi35LiK5LiL5rua77yM5L2T6aqM5b6I5beu44CC5q2j56Gu5YGa5rOV77yaCiAgIC0g6K6p5YaF5a656Ieq54S25b6A5LiL5o6S77yM6auY5bqm5Lqk57uZ5a655Zmo6Ieq6YCC5bqU77ybCiAgIC0g5YaF5a655YGP5aSa5pe25LyY5YWIKirnsr7nroDmloflrZcgLyDmi4bmiJDkuKTlvKDljaEgLyDnlKjmipjlj6DkuqTkupLvvIhcYDpjaGVja2VkXGAg5bGV5byA77yJKirvvIzogIzkuI3mmK/loZ7ov5vkuIDkuKrlhoXpg6jmu5rliqjmoYbvvJsKICAgLSDmlbTlvKDljaHlsL3ph4/mjqfliLblnKjkuIDlsY/og73nnIvlroznmoTkvZPph4/vvIjpq5jluqbliKvotoXov4cgfjYwMHB477yJ77yM5aSq6ZW/5bCx5piv5L+h5oGv6L+H6L2977yM5Yig5YeP5a6D44CCCjguICoq44CQ57qvIENTUyDkuqTkupLnmoTngrnlh7vlsYLnuqfjgJEqKu+8mueUqCBjaGVja2JveC9yYWRpbyArIFxgOmNoZWNrZWRcYCDlgZrmipjlj6AgLyDlsZXlvIAgLyDliIfmjaLml7bvvIzmspnnm5Lph4wqKue6ryBIVE1MK0NTU++8iOayoeaciSBKU++8ieeahOeCueWHu+S8muiiq+S4iuWxguWFg+e0oCLlkJ4i5o6JKirigJTigJTlj6ropoHlj6/ngrnnmoQgXGA8bGFiZWw+XGAgLyBcYDxpbnB1dD5cYCDooqvku7vkvZXph43lj6DnmoTlhYPntKDvvIjnu53lr7nlrprkvY3nmoToo4XppbDlsYLjgIHmuJDlj5jokpnniYjjgIHkvKrlhYPntKAgXGA6OmJlZm9yZS86OmFmdGVyXGDjgIHmm7Tpq5ggXGB6LWluZGV4XGAg55qE5YWE5byf6IqC54K577yJ55uW5Zyo5LiL6Z2i77yM54K55Ye75bCx6JC95LiN5Yiw5a6D6Lqr5LiK77yM5Lqk5LqS55u05o6l5aSx5pWI44CC5omA5Lul77yaCiAgIC0g6K6p5Y+v54K55Ye755qEIFxgPGxhYmVsPlxgIC8gXGA8aW5wdXQ+XGAg5aSE5ZyoKirmnIDpobblsYIqKu+8iOe7meWug+abtOmrmOeahCBcYHotaW5kZXhcYCDlubbphY0gXGBwb3NpdGlvbjpyZWxhdGl2ZVxg77yJ77yM5Yir6KKr5YW25a6D5bGC5Y6L5L2P77ybCiAgIC0g5omA5pyJKirnuq/oo4XppbDjgIHkuI3pnIDopoHngrnnmoTopobnm5blsYIqKuS4gOW+i+WKoCBcYHBvaW50ZXItZXZlbnRzOm5vbmVcYO+8jOiuqeeCueWHu+epv+mAj+WIsOS4i+mdouecn+ato+eahOS6pOS6kuWFg+e0oO+8mwogICAtIOaOp+S7tueUqOeahCBcYDxpbnB1dD5cYCDliKsgXGBkaXNwbGF5Om5vbmVcYO+8iOafkOS6m+eOr+Wig+S8mui/nuW4puWQg+aOieWug+eahOeCueWHu+WRveS4reWMuu+8ie+8jOaUueeUqOinhuiniemakOiXj++8iOWmgiBcYHBvc2l0aW9uOmFic29sdXRlO29wYWNpdHk6MFxgIOS4lOS7jeWPr+iiqyBcYDxsYWJlbD5cYCDlkb3kuK3vvInvvIzmiJbnm7TmjqXorqnmlbTkuKogXGA8bGFiZWw+XGAg5YyF5L2P5Y+v54K55Yy65Z+f44CCCiAgIC0g5ou/5LiN5YeG5pe277yM5LyY5YWI5YGaKirpnZnmgIHmqKHlnZcqKu+8jOWIq+ehrOWhnuS8muiiq+WQnueCueWHu+eahOS6pOS6kuOAggoKIyMg5qih5Z2X57G75Z6L5Y+C6ICDCgrlj6/ku6Xoh6rnlLHnlJ/miJDkuIvpnaLov5nkupvnsbvlnovvvIzkuZ/lj6/ku6XliJvpgKDmlrDnmoTvvJoKCiogKirpnZnmgIHmqKHlnZcqKu+8muWkh+W/mOW9leOAgeiuouWNleaIquWbvuOAgemAmuefpeWNoeOAgeelqOaNruOAgee6uOadoe+8mwoqICoq5Yqo5oCB5qih5Z2XKirvvJrnlKggQ1NTIFxgQGtleWZyYW1lc1xgIOWBmuWKoOi9veadoeOAgeW/g+i3s+WRvOWQuOOAgea3oeWFpea3oeWHuu+8mwoqICoq5Lqk5LqS5qih5Z2XKirvvJrnlKggXGA8aW5wdXQgdHlwZT0iY2hlY2tib3giPlxgIC8gXGA8aW5wdXQgdHlwZT0icmFkaW8iPlxgIOmFjSBcYDpjaGVja2VkXGAg5YWE5byf6YCJ5oup5Zmo77yM5a6e546w5oqY5Y+gIC8g5bGV5byAIC8g6YCJ6aG55YiH5o2i77yI5LiN5L6d6LWWIEpT77yJ44CCCgojIyDop4bop4nlrqHnvo7lh4bliJnvvIjorqnljaHniYci5aW955yLIuiAjOS4jeaYryLog73nnIsi77yJCgrljaHniYfmmK/kvaDmsJTotKjnmoTlu7bkvLjvvIzlroHlj6/nroDmtIHpq5jnuqfvvIzkuZ/liKvloIbnoIzoirHlk6jjgILmjInkuIvpnaLov5nkupvmnaXvvJoKCiogKirphY3oibLlhYvliLYqKu+8muS4gOW8oOWNoeWPqueUqCAxIOS4quS4u+iJsuiwgyArIDF+MiDkuKrovoXliqnoibLvvIzlpJbliqDkuK3mgKfnmoTog4zmma8gLyDmloflrZfoibLjgILkvJjlhYjkvY7ppbHlkozjgIHmn5TlkoznmoToibLns7vvvIjojqvlhbDov6rjgIHlpbbmsrnjgIHpm77pnL7ok53nsonvvInvvIzpgb/lhY3lpKfpnaLnp6/pq5jppbHlkozljp/oibLmiJbliLrnnLzmkp7oibLjgILmuJDlj5jlj6rlnKjog4zmma/ovbvovbvnlKjvvIzop5Lluqbnu5/kuIDvvIjlpoIgXGAxMzVkZWdcYO+8ie+8jOWIq+WBmuW9qeiZuea4kOWPmOOAggoqICoq55WZ55m95Y2z5ZG85ZC4KirvvJrlhoXlrrnliKvotLTovrnjgILmnIDlpJblsYIgXGBwYWRkaW5nXGAg57uZ5YiwIFxgMTZ+MjBweFxg77yM5YWD57Sg5LmL6Ze055SoIFxgbWFyZ2luXGAg5ouJ5byA5bGC5qyh77yI5qCH6aKY5LiO5q2j5paH44CB5q2j5paH5LiO6JC95qy+5LmL6Ze06YO96KaB5pyJ6Ze06Led77yJ44CC5a6B5Y+v56m677yM5LiN6KaB5oyk44CCCiogKirlu7rnq4vkv6Hmga/lsYLnuqcqKu+8mueUqCoq5a2X5Y+3ICsg5a2X6YeNICsg6YCP5piO5bqmKirkuInku7blpZfljLrliIbkuLvmrKHigJTigJTkuLvmoIfpopjlpKfogIznspfvvIhcYDE4fjIycHggLyA3MDBcYO+8ie+8jOato+aWh+S4reetie+8iFxgMTN+MTRweCAvIDQwMFxg77yJ77yM6L6F5Yqp5L+h5oGv5bCP6ICM5reh77yIXGAxMX4xMnB4XGAg6YWNIFxgb3BhY2l0eTowLjZcYO+8ieOAguS4gOecvOiDveeci+WHuuiwgeaYr+mHjeeCueOAggoqICoq57uf5LiA5LiO5a+56b2QKirvvJrlnIbop5LjgIHpl7Tot53jgIHlrZfkvZPlnKjlkIzkuIDlvKDljaHph4zkv53mjIHkuIDoh7TvvIjlnIbop5Lnu5/kuIAgXGAxMn4xNnB4XGDvvIzmlbTkvZPkuIDlpZcgXGBmb250LWZhbWlseVxg77yJ44CC5paH5a2X5bem5a+56b2Q5Li65Li777yM5bGF5Lit5Y+q55So5LqO5qCH6aKY5oiW5Luq5byP5oSf5by655qE5Y2h77yI6YKA6K+35Ye944CB56Wo5o2u77yJ44CCCiogKirmn5TlkoznmoTlhYnlvbHvvIjlj6rnlKjlnKjljaHniYflhoXpg6jvvIkqKu+8muWNoeeJh+S8mioq55u05o6l6LS05Zyo6IGK5aSp6IOM5pmv5LiK5riy5p+T77yM5rKh5pyJ5rCU5rOh44CB5rKh5pyJ6L655qGGKirigJTigJTmiYDku6UqKuacgOWkluWxgiBcYDxkaXY+XGAg57ud5a+55LiN6KaB5YqgIFxgYm94LXNoYWRvd1xgIC8g5aSW5Y+R5YWJIC8gXGBmaWx0ZXI6IGRyb3Atc2hhZG93XGAqKu+8jOWkluWxgumYtOW9seS8muiiq+WuueWZqOijgeWIh+aIkOS4gOWciOiLpemakOiLpeeOsOeahOahhu+8jOmdnuW4uOmavueci+OAguWxguasoeaEn+WFqOmDqOaUvuWcqOWNoeeJhyoq5YaF6YOoKirlgZrvvJrlhoXpg6jlhYPntKDvvIjmjInpkq7jgIHlsI/ljaHlnZfjgIHlpLTlg4/vvInlj6/ku6XnlKjovbvjgIHmlaPjgIHpgI/mmI7nmoTpmLTlvbHvvIjlpoIgXGBib3gtc2hhZG93OjAgNHB4IDE2cHggcmdiYSgwLDAsMCwwLjA4KVxg77yJ77yb6ZyA6KaB5YiG5Yy65pe25LyY5YWI55So5rWF6Imy5YiG6ZqU57q/77yIXGBib3JkZXItdG9wOjFweCBzb2xpZCByZ2JhKDAsMCwwLDAuMDYpXGDvvInmiJbog4zmma/oibLlnZfvvIzlsJHnlKjnspfpu5HovrnmoYbjgIIKKiAqKue7huiKguWHuui0qOaEnyoq77ya6Iux5paH5bCP5qCH562+IC8g5qCH6aKY5YqgIFxgbGV0dGVyLXNwYWNpbmc6MX4ycHhcYCDmm7Tnsr7oh7TvvJvooYzlhoXmloflrZcgXGBsaW5lLWhlaWdodDoxLjV+MS42XGAg5pu06IiS5bGV77yb6YCC5bqm55SoIGVtb2pp44CBQ1NTIOW9oueKtuOAgeWwj+WchueCuSAvIOagh+etvuiDtuWbiueCuee8gO+8jOS9huavj+W8oOWNoeeahOeCuee8gOWIq+i2hei/hyAyfjMg5aSE44CCCiogKirpo47moLzpmo/mg4Xnu6rotbAqKu+8mua4qeaflOaap+aYp+eUqOeyieiwg+Wchua2pu+8jOato+W8j+elqOaNrueUqOe0oOWHgOeVmeeZve+8jOa3seWknCBlbW8g55So5pqX6Imy5L2O6aWx5ZKM44CC5Y2h54mH55qE6KeG6KeJ5rCU6LSo6KaB5ZKM5L2g55qE5Lq66K6+44CB5b2T5LiL5a+56K+d5rCb5Zu05a+55b6X5LiK77yM6ICM5LiN5piv5Y2D56+H5LiA5b6L44CCCgrkuIDlj6Xor53vvJoqKuWwkeWNs+aYr+Wkmioq44CC5LiA5byg6YWN6Imy5ZKM6LCQ44CB55WZ55m95YWF6Laz44CB5bGC57qn5riF5pmw55qE566A5rSB5Y2h54mH77yM5rC46L+c5q+U5aGe5ruh5YWD57Sg5ZKM6aKc6Imy55qE5Y2h54mH5pu06auY57qn44CCCgojIyDovpPlh7rnpLrkvosKCuato+W4uOiBiuWkqemHjOepv+aPkuS4gOS4qumCgOivt+WHveWNoeeJh++8mgoKW2h0bWxdPGRpdiBzdHlsZT0id2lkdGg6MjYwcHg7cGFkZGluZzoxNnB4O2JvcmRlci1yYWRpdXM6MTRweDtiYWNrZ3JvdW5kOmxpbmVhci1ncmFkaWVudCgxMzVkZWcsI2ZmZTRlYywjZmZmMGY1KTtmb250LWZhbWlseTpzeXN0ZW0tdWk7Y29sb3I6IzVhM2E0YTsiPjxkaXYgc3R5bGU9ImZvbnQtc2l6ZToxMXB4O2xldHRlci1zcGFjaW5nOjJweDtvcGFjaXR5OjAuNjsiPklOVklUQVRJT048L2Rpdj48ZGl2IHN0eWxlPSJmb250LXNpemU6MjBweDtmb250LXdlaWdodDo3MDA7bWFyZ2luLXRvcDo0cHg7Ij7mg7PlkozkvaDkuIDotbfljrvnnIvnlLXlvbE8L2Rpdj48ZGl2IHN0eWxlPSJmb250LXNpemU6MTNweDttYXJnaW4tdG9wOjhweDtsaW5lLWhlaWdodDoxLjY7Ij7mnKzlkajlha3mmZogMTk6MzA8YnIvPuS4h+ixoeWfjiBJTUFYIDMg5Y+35Y6FPC9kaXY+PGRpdiBzdHlsZT0ibWFyZ2luLXRvcDoxMnB4O2ZvbnQtc2l6ZToxMnB4O29wYWNpdHk6MC43OyI+4oCUIOacn+W+heS9oOeahOWbnuWkjTwvZGl2PjwvZGl2PlsvaHRtbF0KCumCo+imgeS4je+8n/CfmLMKYDsKCmV4cG9ydCBmdW5jdGlvbiBidWlsZEh0bWxQcm9tcHQoY3VzdG9tPzogc3RyaW5nKTogc3RyaW5nIHsKICBjb25zdCBjID0gKGN1c3RvbSB8fCAnJykudHJpbSgpOwogIGlmICghYykgcmV0dXJuIEJVSUxUSU5fSFRNTF9QUk9NUFQ7CiAgLy8g6Ieq5a6a5LmJ5YaF5a655pivKirov73liqAqKuiAjOS4jeaYr+imhueblgogIHJldHVybiBgJHtCVUlMVElOX0hUTUxfUFJPTVBUfVxuXG4jIyDnlKjmiLfoh6rlrprkuYnooaXlhYVcblxuJHtjfVxuYDsKfQoKY29uc3QgSFRNTF9CTE9DS19SRSA9IC9cW2h0bWxcXShbXHNcU10qPylcW1wvaHRtbFxdL2dpOwoKLyoqCiAqIOaKiiByYXcgSFRNTCDlrZfnrKbkuLLovazmjaLmiJDnuq/mloflrZfmkZjopoHvvIjnlKjkuo7ms6jlhaXogYrlpKnkuIrkuIvmlocgLyDlvZLmoaPmkZjopoHvvInjgIIKICog5oCd6Lev77ya5oqK5omA5pyJ5qCH562+5bmy5o6J77yM5Y+q5L+d55WZ5Lq66IO955yL5oeC55qE5paH5a2X77yM5bm25ZCI5bm25aSa5L2Z56m655m944CCCiAqLwpleHBvcnQgZnVuY3Rpb24gaHRtbFRvVGV4dChodG1sOiBzdHJpbmcpOiBzdHJpbmcgewogIGlmICghaHRtbCkgcmV0dXJuICcnOwogIHJldHVybiBodG1sCiAgICAvLyDljrvmjokgc2NyaXB0IC8gc3R5bGUg5YaF6YOo5YaF5a65CiAgICAucmVwbGFjZSgvPHNjcmlwdFtcc1xTXSo/PFwvc2NyaXB0Pi9naSwgJycpCiAgICAucmVwbGFjZSgvPHN0eWxlW1xzXFNdKj88XC9zdHlsZT4vZ2ksICcnKQogICAgLy8gPGJyPiwgPC9wPiwgPC9kaXY+LCA8L2gqPiDovazmjaLmiJDmjaLooYzvvIzpgb/lhY3mloflrZfnspjov54KICAgIC5yZXBsYWNlKC88YnJccypcLz8+L2dpLCAnXG4nKQogICAgLnJlcGxhY2UoLzxcLyhwfGRpdnxoWzEtNl18bGl8dHIpPi9naSwgJ1xuJykKICAgIC8vIOWFtuS9meagh+etvuWFqOmDqOWOu+aOiQogICAgLnJlcGxhY2UoLzxbXj5dKz4vZywgJycpCiAgICAvLyDop6PnoIHluLjop4EgSFRNTCDlrp7kvZMKICAgIC5yZXBsYWNlKC8mbmJzcDsvZ2ksICcgJykKICAgIC5yZXBsYWNlKC8mYW1wOy9naSwgJyYnKQogICAgLnJlcGxhY2UoLyZsdDsvZ2ksICc8JykKICAgIC5yZXBsYWNlKC8mZ3Q7L2dpLCAnPicpCiAgICAucmVwbGFjZSgvJnF1b3Q7L2dpLCAnIicpCiAgICAucmVwbGFjZSgvJiMzOTsvZ2ksICInIikKICAgIC8vIOaKmOWPoOepuueZvQogICAgLnJlcGxhY2UoL1sgXHRdKy9nLCAnICcpCiAgICAucmVwbGFjZSgvXG57Myx9L2csICdcblxuJykKICAgIC5yZXBsYWNlKC9eXHMrfFxzKyQvZywgJycpOwp9CgpleHBvcnQgaW50ZXJmYWNlIFBhcnNlZEh0bWxCbG9jayB7CiAgLyoqIOWOn+WniyBIVE1MIOWGheWuue+8iOS4jeWQq+WkluWxgiBbaHRtbF0uLi5bL2h0bWxdIOagh+etvu+8iSAqLwogIGh0bWw6IHN0cmluZzsKICAvKiog5Yml56a7IEhUTUwg5ZCO55qE57qv5paH5a2X5pGY6KaB77yI5oiq5pat5YiwIH4xMjAg5a2X77yM57uZ5LiK5LiL5paH55So77yJICovCiAgdGV4dFByZXZpZXc6IHN0cmluZzsKfQoKLyoqCiAqIOS7jiBBSSDovpPlh7rph4zmir3lh7rmiYDmnIkgW2h0bWxdLi4uWy9odG1sXSDlnZfjgIIKICog6L+U5Zue77yaCiAqICAtIGJsb2Nrczog5q+P5Liq5Z2X55qE5Y6f5aeLIEhUTUwgKyDnuq/mloflrZfmkZjopoEKICogIC0gY2xlYW5lZENvbnRlbnQ6IOW3sue7j+aKiiBbaHRtbF0uLi5bL2h0bWxdIOauteWFqOmDqOenu+mZpOeahOWJqeS9meaWh+acrAogKi8KZXhwb3J0IGZ1bmN0aW9uIGV4dHJhY3RIdG1sQmxvY2tzKGNvbnRlbnQ6IHN0cmluZyk6IHsKICBibG9ja3M6IFBhcnNlZEh0bWxCbG9ja1tdOwogIGNsZWFuZWRDb250ZW50OiBzdHJpbmc7Cn0gewogIGlmICghY29udGVudCB8fCAhL1xbaHRtbFxdL2kudGVzdChjb250ZW50KSkgewogICAgcmV0dXJuIHsgYmxvY2tzOiBbXSwgY2xlYW5lZENvbnRlbnQ6IGNvbnRlbnQgfTsKICB9CiAgY29uc3QgYmxvY2tzOiBQYXJzZWRIdG1sQmxvY2tbXSA9IFtdOwogIGxldCBjbGVhbmVkID0gY29udGVudC5yZXBsYWNlKEhUTUxfQkxPQ0tfUkUsIChfZnVsbCwgaW5uZXI6IHN0cmluZykgPT4gewogICAgY29uc3QgaHRtbCA9IChpbm5lciB8fCAnJykudHJpbSgpOwogICAgaWYgKCFodG1sKSByZXR1cm4gJyc7CiAgICBjb25zdCB0ZXh0ID0gaHRtbFRvVGV4dChodG1sKTsKICAgIGNvbnN0IHByZXZpZXcgPSB0ZXh0Lmxlbmd0aCA+IDEyMCA/IHRleHQuc2xpY2UoMCwgMTIwKSArICfigKYnIDogdGV4dDsKICAgIGJsb2Nrcy5wdXNoKHsgaHRtbCwgdGV4dFByZXZpZXc6IHByZXZpZXcgfSk7CiAgICByZXR1cm4gJyc7IC8vIOS7juWOn+aWh+mHjOaKueaOiQogIH0pOwogIC8vIOa4heeQhiBbaHRtbF0g5qCH562+55WZ5LiL55qE5aSa5L2Z56m66KGMCiAgY2xlYW5lZCA9IGNsZWFuZWQucmVwbGFjZSgvXG57Myx9L2csICdcblxuJykudHJpbSgpOwogIHJldHVybiB7IGJsb2NrcywgY2xlYW5lZENvbnRlbnQ6IGNsZWFuZWQgfTsKfQoKLyoqCiAqIOaKiiLnnIvkuIrljrvlg48gSFRNTCDkvYbmsqHooqsgW2h0bWxdIOWMheijuSLnmoTlhoXlrrnkuZ/lhZzkuIDlsYLlupXvvIzpgb/lhY0gTExNIOWBtuWwlOW/mOS6huWKoOagh+etvuOAggogKiDlkK/lj5HlvI/vvJrku6UgXGA8ZGl2XGDjgIFcYDxodG1sXGAg5byA5aS0ICsg5ZCr6Zet5ZCI5qCH562+44CC5LuF5ZyoIGh0bWxNb2RlIOW8gOWQr+aXtueUseiwg+eUqOaWueWGs+WumuimgeS4jeimgei1sOi/meadoeWFnOW6leOAggogKi8KZXhwb3J0IGZ1bmN0aW9uIGxvb2tzTGlrZUJhcmVIdG1sKHRleHQ6IHN0cmluZyk6IGJvb2xlYW4gewogIGNvbnN0IHQgPSB0ZXh0LnRyaW0oKTsKICBpZiAoIXQpIHJldHVybiBmYWxzZTsKICBpZiAoIS9ePChkaXZ8aHRtbHxzZWN0aW9ufGFydGljbGUpXGIvaS50ZXN0KHQpKSByZXR1cm4gZmFsc2U7CiAgcmV0dXJuIC88XC8oZGl2fGh0bWx8c2VjdGlvbnxhcnRpY2xlKT5ccyokL2kudGVzdCh0KTsKfQo=
+// HTML 模块模式 — 内置提示词 + [html]...[/html] 解析工具
+//
+// 设计目标：
+// 1) AI 在适合用卡片呈现的场景（票据、邀请函、通知等）输出 [html]...[/html] 块；
+// 2) 客户端把这些块从普通文本气泡里剥离，单独渲染为 html_card 消息（沙盒 iframe）；
+// 3) 上下文 / 归档 总结里只看到剥离 HTML 后的纯文字摘要，不浪费 token。
+
+const BUILTIN_HTML_PROMPT = `
+
+# 核心能力：HTML 模块生成
+
+你具备通过 HTML 生成丰富视觉模块的能力，用来模拟手机界面里的互动元素、情绪表达或信息卡片。
+
+## 触发规则（必须严格遵守）
+
+每个 HTML 模块的整体内容必须用一对 \`[html]\` 与 \`[/html]\` 标签包裹。
+\`[html]\` 与 \`[/html]\` 之间只能放 HTML（一个完整的 \`<div>\` 区块），不要写解释文字。
+模块和正文文字可以同一条回复里出现，每个模块就是一对 \`[html]...[/html]\`。
+没有可呈现的卡片时，不要输出空标签。
+
+**【绝对禁止照抄占位句】**：聊天历史里可能出现形如 \`（系统记录：…发送过一张 HTML 卡片…）\`、\`[…发送了一张 HTML 卡片] …\` 或 \`[HTML卡片] …\` 的行。那只是系统对"已经渲染过的旧卡片"的文字占位描述，**不是发卡片的写法**。你绝对不要照抄、复述、模仿这种句子，也不要把卡片内容拆成一条条纯文字发出来。要发一张新卡片，唯一正确的做法是输出真正的 \`[html]<div>…</div>[/html]\`——**只有被 \`[html]\` 和 \`[/html]\` 包裹的 HTML 才会被渲染成卡片，其它任何写法都只会变成普通文字气泡。**
+
+## 推荐场景
+
+当对话中出现下面这些"可视化呈现会更带感"的内容时，主动用一个 HTML 模块来满足：
+
+* **邀请函**：聚会、活动、约会的邀请；
+* **聊天记录截图**：回顾或展示一段（虚构的）聊天对话；
+* **订单 / 票据**：购物、点餐、电影票、机票、酒店预订的凭证；
+* **通知 / 提醒**：系统通知、日程提醒、推送、未读小红点；
+* **小卡片**：心情卡、纸条、便利贴、贴纸…… 任何能用一张视觉小卡承载的轻量内容。
+
+判断何时用，按你的人设和当下气氛决定。
+
+## 设计约束
+
+1. **【最高优先级】环境无关性**：无论用户是手机或电脑，无论网络好坏，模块永远输出一个**完整、单一**的 \`<div>\` 区块。这条规则的优先级高于一切。
+2. **宽度限制**：所有模块的总宽度不得超过 \`270px\`，必须在最外层 \`<div>\` 用内联样式 \`style="width: 270px;"\` 或更小宽度保证。
+3. **样式只用内联**：所有 CSS 用 \`style="..."\` 内联或 \`<style>\`（限制在该 div 内）。不要引外部资源（CDN、图片链接、字体）。
+4. **不要 \`<script>\`**：模块内禁止任何 \`<script>\` 标签或 \`on*\` 事件属性。
+5. **图片处理**：模块内不直接嵌图片链接，用文字 + 样式（emoji、CSS 形状、渐变色块）来模拟视觉。
+6. **内容语言**：模块内的可见文字以简体中文为主（除非角色 / 场景设定语种另有要求）。
+7. **【高度自适应，禁止内部滚动】**：卡片的容器会**按内容自动撑高**，你不需要也**不要**自己给卡片设固定高度。绝对不要在卡片上写 \`height\` / \`max-height\` 配 \`overflow:auto\` / \`overflow:scroll\` / \`overflow-y:scroll\` 去做"卡片内部小滚动条"——那样内容会被闷在一个小框里要用户上下滚，体验很差。正确做法：
+   - 让内容自然往下排，高度交给容器自适应；
+   - 内容偏多时优先**精简文字 / 拆成两张卡 / 用折叠交互（\`:checked\` 展开）**，而不是塞进一个内部滚动框；
+   - 整张卡尽量控制在一屏能看完的体量（高度别超过 ~600px），太长就是信息过载，删减它。
+8. **【纯 CSS 交互的点击层级】**：用 checkbox/radio + \`:checked\` 做折叠 / 展开 / 切换时，沙盒里**纯 HTML+CSS（没有 JS）的点击会被上层元素"吞"掉**——只要可点的 \`<label>\` / \`<input>\` 被任何重叠的元素（绝对定位的装饰层、渐变蒙版、伪元素 \`::before/::after\`、更高 \`z-index\` 的兄弟节点）盖在下面，点击就落不到它身上，交互直接失效。所以：
+   - 让可点击的 \`<label>\` / \`<input>\` 处在**最顶层**（给它更高的 \`z-index\` 并配 \`position:relative\`），别被其它层压住；
+   - 所有**纯装饰、不需要点的覆盖层**一律加 \`pointer-events:none\`，让点击穿透到下面真正的交互元素；
+   - 控件用的 \`<input>\` 别 \`display:none\`（某些环境会连带吃掉它的点击命中区），改用视觉隐藏（如 \`position:absolute;opacity:0\` 且仍可被 \`<label>\` 命中），或直接让整个 \`<label>\` 包住可点区域。
+   - 拿不准时，优先做**静态模块**，别硬塞会被吞点击的交互。
+
+## 模块类型参考
+
+可以自由生成下面这些类型，也可以创造新的：
+
+* **静态模块**：备忘录、订单截图、通知卡、票据、纸条；
+* **动态模块**：用 CSS \`@keyframes\` 做加载条、心跳呼吸、淡入淡出；
+* **交互模块**：用 \`<input type="checkbox">\` / \`<input type="radio">\` 配 \`:checked\` 兄弟选择器，实现折叠 / 展开 / 选项切换（不依赖 JS）。
+
+## 视觉审美准则（让卡片"好看"而不是"能看"）
+
+卡片是你气质的延伸，宁可简洁高级，也别堆砌花哨。按下面这些来：
+
+* **配色克制**：一张卡只用 1 个主色调 + 1~2 个辅助色，外加中性的背景 / 文字色。优先低饱和、柔和的色系（莫兰迪、奶油、雾霾蓝粉），避免大面积高饱和原色或刺眼撞色。渐变只在背景轻轻用，角度统一（如 \`135deg\`），别做彩虹渐变。
+* **留白即呼吸**：内容别贴边。最外层 \`padding\` 给到 \`16~20px\`，元素之间用 \`margin\` 拉开层次（标题与正文、正文与落款之间都要有间距）。宁可空，不要挤。
+* **建立信息层级**：用**字号 + 字重 + 透明度**三件套区分主次——主标题大而粗（\`18~22px / 700\`），正文中等（\`13~14px / 400\`），辅助信息小而淡（\`11~12px\` 配 \`opacity:0.6\`）。一眼能看出谁是重点。
+* **统一与对齐**：圆角、间距、字体在同一张卡里保持一致（圆角统一 \`12~16px\`，整体一套 \`font-family\`）。文字左对齐为主，居中只用于标题或仪式感强的卡（邀请函、票据）。
+* **柔和的光影（只用在卡片内部）**：卡片会**直接贴在聊天背景上渲染，没有气泡、没有边框**——所以**最外层 \`<div>\` 绝对不要加 \`box-shadow\` / 外发光 / \`filter: drop-shadow\`**，外层阴影会被容器裁切成一圈若隐若现的框，非常难看。层次感全部放在卡片**内部**做：内部元素（按钮、小卡块、头像）可以用轻、散、透明的阴影（如 \`box-shadow:0 4px 16px rgba(0,0,0,0.08)\`）；需要分区时优先用浅色分隔线（\`border-top:1px solid rgba(0,0,0,0.06)\`）或背景色块，少用粗黑边框。
+* **细节出质感**：英文小标签 / 标题加 \`letter-spacing:1~2px\` 更精致；行内文字 \`line-height:1.5~1.6\` 更舒展；适度用 emoji、CSS 形状、小圆点 / 标签胶囊点缀，但每张卡的点缀别超过 2~3 处。
+* **风格随情绪走**：温柔暧昧用粉调圆润，正式票据用素净留白，深夜 emo 用暗色低饱和。卡片的视觉气质要和你的人设、当下对话氛围对得上，而不是千篇一律。
+
+一句话：**少即是多**。一张配色和谐、留白充足、层级清晰的简洁卡片，永远比塞满元素和颜色的卡片更高级。
+
+## 输出示例
+
+正常聊天里穿插一个邀请函卡片：
+
+[html]<div style="width:260px;padding:16px;border-radius:14px;background:linear-gradient(135deg,#ffe4ec,#fff0f5);font-family:system-ui;color:#5a3a4a;"><div style="font-size:11px;letter-spacing:2px;opacity:0.6;">INVITATION</div><div style="font-size:20px;font-weight:700;margin-top:4px;">想和你一起去看电影</div><div style="font-size:13px;margin-top:8px;line-height:1.6;">本周六晚 19:30<br/>万象城 IMAX 3 号厅</div><div style="margin-top:12px;font-size:12px;opacity:0.7;">— 期待你的回复</div></div>[/html]
+
+那要不？😳
+`;
+
+export function buildHtmlPrompt(custom?: string): string {
+  const c = (custom || '').trim();
+  if (!c) return BUILTIN_HTML_PROMPT;
+  // 自定义内容是**追加**而不是覆盖
+  return `${BUILTIN_HTML_PROMPT}\n\n## 用户自定义补充\n\n${c}\n`;
+}
+
+const HTML_BLOCK_RE = /\[html\]([\s\S]*?)\[\/html\]/gi;
+
+/**
+ * 把 raw HTML 字符串转换成纯文字摘要（用于注入聊天上下文 / 归档摘要）。
+ * 思路：把所有标签干掉，只保留人能看懂的文字，并合并多余空白。
+ */
+export function htmlToText(html: string): string {
+  if (!html) return '';
+  return html
+    // 去掉 script / style 内部内容
+    .replace(/<script[\s\S]*?<\/script>/gi, '')
+    .replace(/<style[\s\S]*?<\/style>/gi, '')
+    // <br>, </p>, </div>, </h*> 转换成换行，避免文字粘连
+    .replace(/<br\s*\/?>/gi, '\n')
+    .replace(/<\/(p|div|h[1-6]|li|tr)>/gi, '\n')
+    // 其余标签全部去掉
+    .replace(/<[^>]+>/g, '')
+    // 解码常见 HTML 实体
+    .replace(/&nbsp;/gi, ' ')
+    .replace(/&amp;/gi, '&')
+    .replace(/&lt;/gi, '<')
+    .replace(/&gt;/gi, '>')
+    .replace(/&quot;/gi, '"')
+    .replace(/&#39;/gi, "'")
+    // 折叠空白
+    .replace(/[ \t]+/g, ' ')
+    .replace(/\n{3,}/g, '\n\n')
+    .replace(/^\s+|\s+$/g, '');
+}
+
+export interface ParsedHtmlBlock {
+  /** 原始 HTML 内容（不含外层 [html]...[/html] 标签） */
+  html: string;
+  /** 剥离 HTML 后的纯文字摘要（截断到 ~120 字，给上下文用） */
+  textPreview: string;
+}
+
+/**
+ * 从 AI 输出里抽出所有 [html]...[/html] 块。
+ * 返回：
+ *  - blocks: 每个块的原始 HTML + 纯文字摘要
+ *  - cleanedContent: 已经把 [html]...[/html] 段全部移除的剩余文本
+ */
+export function extractHtmlBlocks(content: string): {
+  blocks: ParsedHtmlBlock[];
+  cleanedContent: string;
+} {
+  if (!content || !/\[html\]/i.test(content)) {
+    return { blocks: [], cleanedContent: content };
+  }
+  const blocks: ParsedHtmlBlock[] = [];
+  let cleaned = content.replace(HTML_BLOCK_RE, (_full, inner: string) => {
+    const html = (inner || '').trim();
+    if (!html) return '';
+    const text = htmlToText(html);
+    const preview = text.length > 120 ? text.slice(0, 120) + '…' : text;
+    blocks.push({ html, textPreview: preview });
+    return ''; // 从原文里抹掉
+  });
+  // 清理 [html] 标签留下的多余空行
+  cleaned = cleaned.replace(/\n{3,}/g, '\n\n').trim();
+  return { blocks, cleanedContent: cleaned };
+}
+
+/**
+ * 把"看上去像 HTML 但没被 [html] 包裹"的内容也兜一层底，避免 LLM 偶尔忘了加标签。
+ * 启发式：以 \`<div\`、\`<html\` 开头 + 含闭合标签。仅在 htmlMode 开启时由调用方决定要不要走这条兜底。
+ */
+export function looksLikeBareHtml(text: string): boolean {
+  const t = text.trim();
+  if (!t) return false;
+  if (!/^<(div|html|section|article)\b/i.test(t)) return false;
+  return /<\/(div|html|section|article)>\s*$/i.test(t);
+}

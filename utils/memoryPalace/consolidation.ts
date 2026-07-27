@@ -1,1 +1,186 @@
-LyoqCiAqIE1lbW9yeSBQYWxhY2Ug4oCUIOW3qeWbuiAoQ29uc29saWRhdGlvbikKICoKICog5qih5ouf55+t5pyf6K6w5b+GIOKGkiDplb/mnJ/orrDlv4bnmoTov4fnqIvvvJoKICogLSDlrqLljoUg4oaSIOWNp+WupOaZi+WNhwogKiAtIOiJvuWuvua1qeaWr+mBl+W/mOabsue6vwogKiAtIOWuouWOheWuuemHj+euoeeQhgogKi8KCmltcG9ydCB0eXBlIHsgTWVtb3J5Tm9kZSwgTWVtb3J5Um9vbSwgUmVtb3RlVmVjdG9yQ29uZmlnIH0gZnJvbSAnLi90eXBlcyc7CmltcG9ydCB7IFJPT01fQ09ORklHUyB9IGZyb20gJy4vdHlwZXMnOwppbXBvcnQgeyBNZW1vcnlOb2RlREIgfSBmcm9tICcuL2RiJzsKaW1wb3J0IHsgYnVsa1NldFJvb20gfSBmcm9tICcuL3N1cGFiYXNlVmVjdG9yJzsKCi8vIOKUgOKUgOKUgCDoib7lrr7mtanmlq/oobDlh48g4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSACgovKioKICogZWZmZWN0aXZlIGltcG9ydGFuY2Ug6KGw5YeP5LiL6ZmQ77yI55u45a+55LqO5Y6f5aeLIGltcG9ydGFuY2Ug55qE5q+U5L6L77yJ77yM5oyJ5oi/6Ze05YiG57qn44CCCiAqCiAqIOS6uueahOiusOW/humHjCLph43lpKfkurrnlJ/kuovku7Yi77yIaW1wPTgr77yJ5Y2z5L2/6L+H5LqG5b6I5LmF5Lmf5LiN5Lya6YCA5YyW5oiQ55CQ5LqL44CCCiAqIOS9hiAwLjk5OTUv5bCP5pe2IOeahOi/nue7reihsOWHj+WcqCAxNDAg5aSp5ZCO5Lya5oqKIGltcD0xMCDljovliLAgfjLvvIzorqnpq5jph43opoHmgKcKICog55qE5pen6K6w5b+G5Zyo5o6S5bqP5pe26L6T57uZ5L2O6YeN6KaB5oCn55qE6L+R5pyf6K6w5b+G4oCU4oCU6L+Z6L+d5Y+N5LqGIGltcCDlrZfmrrXmnKzouqvnmoQKICog6K+t5LmJ77yIaW1wPTEwIOWwseivpeawuOi/nOavlCBpbXA9MyDmm7Tph43opoHvvInjgIIKICoKICog5Yqg5LiA5LiqIGZsb29y77ya5peg6K666KGw5YeP5aSa5LmF77yMZWZmZWN0aXZlIGltcG9ydGFuY2Ug5LiN5Lya5L2O5LqOCiAqIGltcG9ydGFuY2Ugw5cgRkxPT1JfUkFUSU/jgIIKICoKICog5oyJ5oi/6Ze05YiG57qn55qE5Y6f5Zug77yaCiAqICAgLSBsaXZpbmdfcm9vbSDmmK8i54Ot57yT5a2YIu+8jOS4uuaXpeW4uOeQkOS6i+S/neeVme+8mzAuOCBmbG9vciDlhYHorrjmm7TlpJroobDlh4/vvIwKICogICAgIOiuqeaXp+eQkOS6i+ecn+ato+ayieS4i+WOu+OAggogKiAgIC0gYmVkcm9vbSAvIHN0dWR5IC8gdXNlcl9yb29tIOaYryBjb25zb2xpZGF0aW9uIOaZi+WNh+WQjueahCLplb/mnJ/lupMi77yMCiAqICAgICDov5vlvpfmnaXmnKzmnaXlsLHmmK/lm6DkuLrph43opoHvvIhpbXDiiaU4IOeri+WNs+aZi+WNhyAvIGltcOKJpTYg5LiUID4yNGgg5pmL5Y2HIC8KICogICAgIGFjY2Vzc0NvdW504omlMyDmmYvljYfvvInvvIzmsqHnkIbnlLHorqnlroPku6zoobDlh48gMjAl44CC55SoIDAuOSBmbG9vcu+8jAogKiAgICAg5a+5IGF0dGljIOeahCLmsLjkuI3oobDlh48i77yIZGVjYXlSYXRlPW51bGzvvInkv53nlZkgMTAlIOW3ruW8guWBmuWMuuWIhuOAggogKiAgIC0gc2VsZl9yb29tIC8gYXR0aWMgLyB3aW5kb3dzaWxsIGRlY2F5UmF0ZT1udWxsIOS4jee7j+i/h+i/memHjO+8jOetieaViCAxLjDjgIIKICovCmNvbnN0IEVGRkVDVElWRV9JTVBPUlRBTkNFX0ZMT09SX1JBVElPUzogUmVjb3JkPE1lbW9yeVJvb20sIG51bWJlcj4gPSB7CiAgICBsaXZpbmdfcm9vbTogMC44MCwKICAgIGJlZHJvb206ICAgICAwLjkwLAogICAgc3R1ZHk6ICAgICAgIDAuOTAsCiAgICB1c2VyX3Jvb206ICAgMC45MCwKICAgIHNlbGZfcm9vbTogICAxLjAwLCAvLyDlrp7pmYXlm6AgZGVjYXlSYXRlPW51bGwg5LiN6LWwIGZsb29y77yM5LuF5L2c5a6M5pW05oCnCiAgICBhdHRpYzogICAgICAgMS4wMCwKICAgIHdpbmRvd3NpbGw6ICAxLjAwLAp9OwoKLyoqCiAqIOiuoeeul+acieaViOmHjeimgeaAp++8iOiAg+iZkeaXtumXtOihsOWHjyArIGZsb29y77yJCiAqCiAqIGVmZmVjdGl2ZSA9IG1heChpbXBvcnRhbmNlIMOXIGRlY2F5UmF0ZSBeIGhvdXJzLCBpbXBvcnRhbmNlIMOXIGZsb29yX3JhdGlvW3Jvb21dKQogKiDpu5jorqTlrqLljoUgZGVjYXlSYXRlID0gMC45OTcyIOKGkiAx5aSp5ZCOIH45My41JSwgN+WkqeWQjiB+NjIlLCAzMOWkqeWQjiB+MTIuNyUKICog5LiN5Lya5L2O5LqOIGltcG9ydGFuY2Ugw5cgZmxvb3JfcmF0aW9bcm9vbV3vvIgwLjgg5oiWIDAuOe+8iQogKi8KZXhwb3J0IGZ1bmN0aW9uIGNhbGN1bGF0ZUVmZmVjdGl2ZUltcG9ydGFuY2Uobm9kZTogTWVtb3J5Tm9kZSwgbm93OiBudW1iZXIgPSBEYXRlLm5vdygpKTogbnVtYmVyIHsKICAgIGNvbnN0IHJvb20gPSBub2RlLnJvb207CiAgICBjb25zdCBjb25maWcgPSBST09NX0NPTkZJR1Nbcm9vbV07CgogICAgLy8g5rC45LiN6YGX5b+Y55qE5oi/6Ze077yIc2VsZl9yb29tIC8gYXR0aWMgLyB3aW5kb3dzaWxs77yJCiAgICBpZiAoY29uZmlnLmRlY2F5UmF0ZSA9PT0gbnVsbCkgcmV0dXJuIG5vZGUuaW1wb3J0YW5jZTsKCiAgICBjb25zdCBob3VycyA9IChub3cgLSBub2RlLmNyZWF0ZWRBdCkgLyAoMTAwMCAqIDYwICogNjApOwogICAgaWYgKGhvdXJzIDw9IDApIHJldHVybiBub2RlLmltcG9ydGFuY2U7CgogICAgY29uc3QgZGVjYXllZCA9IG5vZGUuaW1wb3J0YW5jZSAqIE1hdGgucG93KGNvbmZpZy5kZWNheVJhdGUsIGhvdXJzKTsKICAgIGNvbnN0IGZsb29yID0gbm9kZS5pbXBvcnRhbmNlICogRUZGRUNUSVZFX0lNUE9SVEFOQ0VfRkxPT1JfUkFUSU9TW3Jvb21dOwogICAgcmV0dXJuIE1hdGgubWF4KGRlY2F5ZWQsIGZsb29yKTsKfQoKLy8g4pSA4pSA4pSAIOaZi+WNh+adoeS7tiDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIAKCi8qKgogKiDliKTmlq3lrqLljoXkuK3nmoTorrDlv4bmmK/lkKblupTmmYvljYfliLDljaflrqQKICoKICog5p2h5Lu277yI5ruh6Laz5Lu75LiA5Y2z5Y+v77yJ77yaCiAqIDEuIGltcG9ydGFuY2Ug4omlIDgg4oaSIOeri+WNs+aZi+WNhwogKiAyLiBpbXBvcnRhbmNlIOKJpSA2IOS4lCBhZ2UgPiAyNGgg4oaSIOaXtumXtOayiea3gAogKiAzLiBhY2Nlc3NDb3VudCDiiaUgMyDihpIg6aKR57mB6K6/6ZeuCiAqLwpleHBvcnQgZnVuY3Rpb24gc2hvdWxkUHJvbW90ZShub2RlOiBNZW1vcnlOb2RlLCBub3c6IG51bWJlciA9IERhdGUubm93KCkpOiBib29sZWFuIHsKICAgIGlmIChub2RlLnJvb20gIT09ICdsaXZpbmdfcm9vbScpIHJldHVybiBmYWxzZTsKCiAgICAvLyDmnaHku7YgMTog6auY6YeN6KaB5oCn56uL5Y2z5pmL5Y2HCiAgICBpZiAobm9kZS5pbXBvcnRhbmNlID49IDgpIHJldHVybiB0cnVlOwoKICAgIC8vIOadoeS7tiAyOiDkuK3nrYnph43opoHmgKcgKyDml7bpl7Tmsonmt4AKICAgIGNvbnN0IGFnZUhvdXJzID0gKG5vdyAtIG5vZGUuY3JlYXRlZEF0KSAvICgxMDAwICogNjAgKiA2MCk7CiAgICBpZiAobm9kZS5pbXBvcnRhbmNlID49IDYgJiYgYWdlSG91cnMgPj0gMjQpIHJldHVybiB0cnVlOwoKICAgIC8vIOadoeS7tiAzOiDpopHnuYHorr/pl64KICAgIGlmIChub2RlLmFjY2Vzc0NvdW50ID49IDMpIHJldHVybiB0cnVlOwoKICAgIHJldHVybiBmYWxzZTsKfQoKLy8g4pSA4pSA4pSAIOi/kOihjOW3qeWbuiDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIAKCmV4cG9ydCBpbnRlcmZhY2UgQ29uc29saWRhdGlvblJlc3VsdCB7CiAgICBwcm9tb3RlZDogc3RyaW5nW107ICAgLy8g5pmL5Y2H55qEIG5vZGUgSURzCiAgICBldmljdGVkOiBzdHJpbmdbXTsgICAgLy8g5Zug5a656YeP5reY5rGw55qEIG5vZGUgSURz77yI5LuF5qCH6K6w77yM5LiN5Yig6Zmk5pWw5o2u77yJCn0KCi8qKgogKiDov5DooYzlt6nlm7rov4fnqIsKICoKICogMS4g5qOA5p+l5a6i5Y6F6K6w5b+G55qE5pmL5Y2H5p2h5Lu2CiAqIDIuIOa7oei2s+adoeS7tueahCDihpIgcm9vbSDmlLnkuLogYmVkcm9vbQogKiAzLiDlrqLljoXotoXlrrnph48g4oaSIOaMiSBlZmZlY3RpdmUgaW1wb3J0YW5jZSDmnIDkvY7nmoTmoIforrDkuLrlt7LpgZflv5jvvIjnp7vliLAgYXR0aWMg6ICM6Z2e5Yig6Zmk77yJCiAqCiAqIOi/nOeoi+WQjOatpe+8muS8oOWFpSByZW1vdGVDb25maWcg5pe277yM5oqKIHJvb20g5Y+Y5pu0IFBBVENIIOWIsCBTdXBhYmFzZSBtZW1vcnlfdmVjdG9ycy5yb29t77yMCiAqIOmBv+WFjeaNouiuvuWkhy/mnKzlnLDph43lu7rml7bor7vliLAgc3RhbGUgbGl2aW5nX3Jvb23jgILlpLHotKXkuI3lvbHlk43mnKzlnLDlt6nlm7rnu5PmnpzjgIIKICovCmV4cG9ydCBhc3luYyBmdW5jdGlvbiBydW5Db25zb2xpZGF0aW9uKAogICAgY2hhcklkOiBzdHJpbmcsCiAgICByZW1vdGVDb25maWc/OiBSZW1vdGVWZWN0b3JDb25maWcsCik6IFByb21pc2U8Q29uc29saWRhdGlvblJlc3VsdD4gewogICAgY29uc3Qgbm93ID0gRGF0ZS5ub3coKTsKICAgIGNvbnN0IHJlc3VsdDogQ29uc29saWRhdGlvblJlc3VsdCA9IHsgcHJvbW90ZWQ6IFtdLCBldmljdGVkOiBbXSB9OwoKICAgIC8vIOiOt+WPluWuouWOheaJgOacieiusOW/hgogICAgY29uc3QgbGl2aW5nUm9vbU5vZGVzID0gYXdhaXQgTWVtb3J5Tm9kZURCLmdldEJ5Um9vbShjaGFySWQsICdsaXZpbmdfcm9vbScpOwoKICAgIC8vIDEuIOaZi+WNh+ajgOafpQogICAgZm9yIChjb25zdCBub2RlIG9mIGxpdmluZ1Jvb21Ob2RlcykgewogICAgICAgIGlmIChzaG91bGRQcm9tb3RlKG5vZGUsIG5vdykpIHsKICAgICAgICAgICAgbm9kZS5yb29tID0gJ2JlZHJvb20nOwogICAgICAgICAgICBhd2FpdCBNZW1vcnlOb2RlREIuc2F2ZShub2RlKTsKICAgICAgICAgICAgcmVzdWx0LnByb21vdGVkLnB1c2gobm9kZS5pZCk7CiAgICAgICAgICAgIGNvbnNvbGUubG9nKGDirIbvuI8gW0NvbnNvbGlkYXRpb25dIFByb21vdGVkIHRvIGJlZHJvb206ICIke25vZGUuY29udGVudC5zbGljZSgwLCAzMCl9Li4uImApOwogICAgICAgIH0KICAgIH0KCiAgICAvLyAyLiDlrrnph4/nrqHnkIbvvIjmmYvljYflkI7ph43mlrDojrflj5blrqLljoXmlbDmja7vvIkKICAgIGNvbnN0IGNhcGFjaXR5ID0gUk9PTV9DT05GSUdTLmxpdmluZ19yb29tLmNhcGFjaXR5OwogICAgaWYgKGNhcGFjaXR5ICE9PSBudWxsKSB7CiAgICAgICAgY29uc3QgcmVtYWluaW5nTm9kZXMgPSBhd2FpdCBNZW1vcnlOb2RlREIuZ2V0QnlSb29tKGNoYXJJZCwgJ2xpdmluZ19yb29tJyk7CgogICAgICAgIGlmIChyZW1haW5pbmdOb2Rlcy5sZW5ndGggPiBjYXBhY2l0eSkgewogICAgICAgICAgICAvLyDmjIkgZWZmZWN0aXZlIGltcG9ydGFuY2Ug5o6S5bqPCiAgICAgICAgICAgIGNvbnN0IHNjb3JlZCA9IHJlbWFpbmluZ05vZGVzLm1hcChuID0+ICh7CiAgICAgICAgICAgICAgICBub2RlOiBuLAogICAgICAgICAgICAgICAgZWZmZWN0aXZlOiBjYWxjdWxhdGVFZmZlY3RpdmVJbXBvcnRhbmNlKG4sIG5vdyksCiAgICAgICAgICAgIH0pKTsKICAgICAgICAgICAgc2NvcmVkLnNvcnQoKGEsIGIpID0+IGEuZWZmZWN0aXZlIC0gYi5lZmZlY3RpdmUpOwoKICAgICAgICAgICAgLy8g5reY5rGw5pyA5L2O55qE77yM55u05Yiw5Zue5Yiw5a656YeP5YaFCiAgICAgICAgICAgIGNvbnN0IHRvRXZpY3QgPSBzY29yZWQuc2xpY2UoMCwgcmVtYWluaW5nTm9kZXMubGVuZ3RoIC0gY2FwYWNpdHkpOwogICAgICAgICAgICBmb3IgKGNvbnN0IHsgbm9kZSB9IG9mIHRvRXZpY3QpIHsKICAgICAgICAgICAgICAgIC8vIOS4jeWIoOmZpO+8jOenu+WIsCBhdHRpY++8iOS9nOS4uiLooqvpgZflv5jkvYbku43lnKjmvZzmhI/or4bkuK0i55qE6K6w5b+G77yJCiAgICAgICAgICAgICAgICBub2RlLnJvb20gPSAnYXR0aWMnOwogICAgICAgICAgICAgICAgYXdhaXQgTWVtb3J5Tm9kZURCLnNhdmUobm9kZSk7CiAgICAgICAgICAgICAgICByZXN1bHQuZXZpY3RlZC5wdXNoKG5vZGUuaWQpOwogICAgICAgICAgICAgICAgY29uc29sZS5sb2coYPCfk6YgW0NvbnNvbGlkYXRpb25dIEV2aWN0ZWQgdG8gYXR0aWM6ICIke25vZGUuY29udGVudC5zbGljZSgwLCAzMCl9Li4uImApOwogICAgICAgICAgICB9CiAgICAgICAgfQogICAgfQoKICAgIC8vIDMuIOi/nOeoi+WQjOatpe+8iFN1cGFiYXNlIG1lbW9yeV92ZWN0b3JzLnJvb23vvIkKICAgIC8vICAgIOS4pOexu+WPmOabtCDihpIg5Lik5qyhIFBBVENI77yacHJvbW90ZWQg5YWo6L+bIGJlZHJvb23vvIxldmljdGVkIOWFqOi/myBhdHRpY+OAggogICAgLy8gICAg6L+c56uv5rKh5pyJ5a+55bqUIG1lbW9yeV9pZCDnmoQgUEFUQ0gg6Ieq5YqoIG5vLW9w77yM5LiN5Lya6YCg5oiQ6ISP5pWw5o2u44CCCiAgICBpZiAocmVtb3RlQ29uZmlnPy5lbmFibGVkICYmIHJlbW90ZUNvbmZpZy5pbml0aWFsaXplZCAmJiAocmVzdWx0LnByb21vdGVkLmxlbmd0aCA+IDAgfHwgcmVzdWx0LmV2aWN0ZWQubGVuZ3RoID4gMCkpIHsKICAgICAgICB0cnkgewogICAgICAgICAgICBjb25zdCB0YXNrczogUHJvbWlzZTxib29sZWFuPltdID0gW107CiAgICAgICAgICAgIGlmIChyZXN1bHQucHJvbW90ZWQubGVuZ3RoID4gMCkgewogICAgICAgICAgICAgICAgdGFza3MucHVzaChidWxrU2V0Um9vbShyZW1vdGVDb25maWcsIHJlc3VsdC5wcm9tb3RlZCwgJ2JlZHJvb20nKSk7CiAgICAgICAgICAgIH0KICAgICAgICAgICAgaWYgKHJlc3VsdC5ldmljdGVkLmxlbmd0aCA+IDApIHsKICAgICAgICAgICAgICAgIHRhc2tzLnB1c2goYnVsa1NldFJvb20ocmVtb3RlQ29uZmlnLCByZXN1bHQuZXZpY3RlZCwgJ2F0dGljJykpOwogICAgICAgICAgICB9CiAgICAgICAgICAgIGNvbnN0IG9rcyA9IGF3YWl0IFByb21pc2UuYWxsKHRhc2tzKTsKICAgICAgICAgICAgY29uc3QgYWxsT2sgPSBva3MuZXZlcnkoQm9vbGVhbik7CiAgICAgICAgICAgIGlmIChhbGxPaykgewogICAgICAgICAgICAgICAgY29uc29sZS5sb2coYOKYge+4jyBbQ29uc29saWRhdGlvbl0g6L+c56iL5ZCM5q2l5a6M5oiQ77yaJHtyZXN1bHQucHJvbW90ZWQubGVuZ3RofSDihpIgYmVkcm9vbe+8jCR7cmVzdWx0LmV2aWN0ZWQubGVuZ3RofSDihpIgYXR0aWNgKTsKICAgICAgICAgICAgfSBlbHNlIHsKICAgICAgICAgICAgICAgIGNvbnNvbGUud2Fybihg4piB77iPIFtDb25zb2xpZGF0aW9uXSDov5znqIvlkIzmraXpg6jliIblpLHotKXvvIzmnKzlnLDlt6nlm7rlt7LnlJ/mlYjkvYYgU3VwYWJhc2Ugcm9vbSDlrZfmrrXlj6/og73mu57lkI5gKTsKICAgICAgICAgICAgfQogICAgICAgIH0gY2F0Y2ggKGU6IGFueSkgewogICAgICAgICAgICBjb25zb2xlLndhcm4oYOKYge+4jyBbQ29uc29saWRhdGlvbl0g6L+c56iL5ZCM5q2l5byC5bi477yI5pys5Zyw5bep5Zu65LiN5Y+X5b2x5ZON77yJOiAke2U/Lm1lc3NhZ2UgfHwgZX1gKTsKICAgICAgICB9CiAgICB9CgogICAgaWYgKHJlc3VsdC5wcm9tb3RlZC5sZW5ndGggPiAwIHx8IHJlc3VsdC5ldmljdGVkLmxlbmd0aCA+IDApIHsKICAgICAgICBjb25zb2xlLmxvZyhg4pyFIFtDb25zb2xpZGF0aW9uXSAke3Jlc3VsdC5wcm9tb3RlZC5sZW5ndGh9IHByb21vdGVkLCAke3Jlc3VsdC5ldmljdGVkLmxlbmd0aH0gZXZpY3RlZGApOwogICAgfQoKICAgIHJldHVybiByZXN1bHQ7Cn0K
+/**
+ * Memory Palace — 巩固 (Consolidation)
+ *
+ * 模拟短期记忆 → 长期记忆的过程：
+ * - 客厅 → 卧室晋升
+ * - 艾宾浩斯遗忘曲线
+ * - 客厅容量管理
+ */
+
+import type { MemoryNode, MemoryRoom, RemoteVectorConfig } from './types';
+import { ROOM_CONFIGS } from './types';
+import { MemoryNodeDB } from './db';
+import { bulkSetRoom } from './supabaseVector';
+
+// ─── 艾宾浩斯衰减 ────────────────────────────────────
+
+/**
+ * effective importance 衰减下限（相对于原始 importance 的比例），按房间分级。
+ *
+ * 人的记忆里"重大人生事件"（imp=8+）即使过了很久也不会退化成琐事。
+ * 但 0.9995/小时 的连续衰减在 140 天后会把 imp=10 压到 ~2，让高重要性
+ * 的旧记忆在排序时输给低重要性的近期记忆——这违反了 imp 字段本身的
+ * 语义（imp=10 就该永远比 imp=3 更重要）。
+ *
+ * 加一个 floor：无论衰减多久，effective importance 不会低于
+ * importance × FLOOR_RATIO。
+ *
+ * 按房间分级的原因：
+ *   - living_room 是"热缓存"，为日常琐事保留；0.8 floor 允许更多衰减，
+ *     让旧琐事真正沉下去。
+ *   - bedroom / study / user_room 是 consolidation 晋升后的"长期库"，
+ *     进得来本来就是因为重要（imp≥8 立即晋升 / imp≥6 且 >24h 晋升 /
+ *     accessCount≥3 晋升），没理由让它们衰减 20%。用 0.9 floor，
+ *     对 attic 的"永不衰减"（decayRate=null）保留 10% 差异做区分。
+ *   - self_room / attic / windowsill decayRate=null 不经过这里，等效 1.0。
+ */
+const EFFECTIVE_IMPORTANCE_FLOOR_RATIOS: Record<MemoryRoom, number> = {
+    living_room: 0.80,
+    bedroom:     0.90,
+    study:       0.90,
+    user_room:   0.90,
+    self_room:   1.00, // 实际因 decayRate=null 不走 floor，仅作完整性
+    attic:       1.00,
+    windowsill:  1.00,
+};
+
+/**
+ * 计算有效重要性（考虑时间衰减 + floor）
+ *
+ * effective = max(importance × decayRate ^ hours, importance × floor_ratio[room])
+ * 默认客厅 decayRate = 0.9972 → 1天后 ~93.5%, 7天后 ~62%, 30天后 ~12.7%
+ * 不会低于 importance × floor_ratio[room]（0.8 或 0.9）
+ */
+export function calculateEffectiveImportance(node: MemoryNode, now: number = Date.now()): number {
+    const room = node.room;
+    const config = ROOM_CONFIGS[room];
+
+    // 永不遗忘的房间（self_room / attic / windowsill）
+    if (config.decayRate === null) return node.importance;
+
+    const hours = (now - node.createdAt) / (1000 * 60 * 60);
+    if (hours <= 0) return node.importance;
+
+    const decayed = node.importance * Math.pow(config.decayRate, hours);
+    const floor = node.importance * EFFECTIVE_IMPORTANCE_FLOOR_RATIOS[room];
+    return Math.max(decayed, floor);
+}
+
+// ─── 晋升条件 ─────────────────────────────────────────
+
+/**
+ * 判断客厅中的记忆是否应晋升到卧室
+ *
+ * 条件（满足任一即可）：
+ * 1. importance ≥ 8 → 立即晋升
+ * 2. importance ≥ 6 且 age > 24h → 时间沉淀
+ * 3. accessCount ≥ 3 → 频繁访问
+ */
+export function shouldPromote(node: MemoryNode, now: number = Date.now()): boolean {
+    if (node.room !== 'living_room') return false;
+
+    // 条件 1: 高重要性立即晋升
+    if (node.importance >= 8) return true;
+
+    // 条件 2: 中等重要性 + 时间沉淀
+    const ageHours = (now - node.createdAt) / (1000 * 60 * 60);
+    if (node.importance >= 6 && ageHours >= 24) return true;
+
+    // 条件 3: 频繁访问
+    if (node.accessCount >= 3) return true;
+
+    return false;
+}
+
+// ─── 运行巩固 ─────────────────────────────────────────
+
+export interface ConsolidationResult {
+    promoted: string[];   // 晋升的 node IDs
+    evicted: string[];    // 因容量淘汰的 node IDs（仅标记，不删除数据）
+}
+
+/**
+ * 运行巩固过程
+ *
+ * 1. 检查客厅记忆的晋升条件
+ * 2. 满足条件的 → room 改为 bedroom
+ * 3. 客厅超容量 → 按 effective importance 最低的标记为已遗忘（移到 attic 而非删除）
+ *
+ * 远程同步：传入 remoteConfig 时，把 room 变更 PATCH 到 Supabase memory_vectors.room，
+ * 避免换设备/本地重建时读到 stale living_room。失败不影响本地巩固结果。
+ */
+export async function runConsolidation(
+    charId: string,
+    remoteConfig?: RemoteVectorConfig,
+): Promise<ConsolidationResult> {
+    const now = Date.now();
+    const result: ConsolidationResult = { promoted: [], evicted: [] };
+
+    // 获取客厅所有记忆
+    const livingRoomNodes = await MemoryNodeDB.getByRoom(charId, 'living_room');
+
+    // 1. 晋升检查
+    for (const node of livingRoomNodes) {
+        if (shouldPromote(node, now)) {
+            node.room = 'bedroom';
+            await MemoryNodeDB.save(node);
+            result.promoted.push(node.id);
+            console.log(`⬆️ [Consolidation] Promoted to bedroom: "${node.content.slice(0, 30)}..."`);
+        }
+    }
+
+    // 2. 容量管理（晋升后重新获取客厅数据）
+    const capacity = ROOM_CONFIGS.living_room.capacity;
+    if (capacity !== null) {
+        const remainingNodes = await MemoryNodeDB.getByRoom(charId, 'living_room');
+
+        if (remainingNodes.length > capacity) {
+            // 按 effective importance 排序
+            const scored = remainingNodes.map(n => ({
+                node: n,
+                effective: calculateEffectiveImportance(n, now),
+            }));
+            scored.sort((a, b) => a.effective - b.effective);
+
+            // 淘汰最低的，直到回到容量内
+            const toEvict = scored.slice(0, remainingNodes.length - capacity);
+            for (const { node } of toEvict) {
+                // 不删除，移到 attic（作为"被遗忘但仍在潜意识中"的记忆）
+                node.room = 'attic';
+                await MemoryNodeDB.save(node);
+                result.evicted.push(node.id);
+                console.log(`📦 [Consolidation] Evicted to attic: "${node.content.slice(0, 30)}..."`);
+            }
+        }
+    }
+
+    // 3. 远程同步（Supabase memory_vectors.room）
+    //    两类变更 → 两次 PATCH：promoted 全进 bedroom，evicted 全进 attic。
+    //    远端没有对应 memory_id 的 PATCH 自动 no-op，不会造成脏数据。
+    if (remoteConfig?.enabled && remoteConfig.initialized && (result.promoted.length > 0 || result.evicted.length > 0)) {
+        try {
+            const tasks: Promise<boolean>[] = [];
+            if (result.promoted.length > 0) {
+                tasks.push(bulkSetRoom(remoteConfig, result.promoted, 'bedroom'));
+            }
+            if (result.evicted.length > 0) {
+                tasks.push(bulkSetRoom(remoteConfig, result.evicted, 'attic'));
+            }
+            const oks = await Promise.all(tasks);
+            const allOk = oks.every(Boolean);
+            if (allOk) {
+                console.log(`☁️ [Consolidation] 远程同步完成：${result.promoted.length} → bedroom，${result.evicted.length} → attic`);
+            } else {
+                console.warn(`☁️ [Consolidation] 远程同步部分失败，本地巩固已生效但 Supabase room 字段可能滞后`);
+            }
+        } catch (e: any) {
+            console.warn(`☁️ [Consolidation] 远程同步异常（本地巩固不受影响）: ${e?.message || e}`);
+        }
+    }
+
+    if (result.promoted.length > 0 || result.evicted.length > 0) {
+        console.log(`✅ [Consolidation] ${result.promoted.length} promoted, ${result.evicted.length} evicted`);
+    }
+
+    return result;
+}

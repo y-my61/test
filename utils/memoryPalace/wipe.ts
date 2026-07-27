@@ -1,1 +1,165 @@
-LyoqCiAqIE1lbW9yeSBQYWxhY2Ug4oCUIOS4gOmUrua4heepugogKgogKiDmiormnKzlnLDmiYDmnInorrDlv4blrqvmrr/mlbDmja7muIXpm7bvvJvlj6/pgInlkIzmraXmuIXnqbrnlKjmiLfoh6rlt7HnmoQgU3VwYWJhc2UgbWVtb3J5X3ZlY3RvcnPjgIIKICoKICog5L2/55So5Zy65pmv77yaCiAqICAtIOeUqOaIt+aDsyLph43mnaUi77yI5q+U5aaC5pS55LqGIGVtYmVkZGluZyDmqKHlnovjgIHmiJbluIzmnJvlupTnlKjmlrDniYggYm94SWQg5L2T57O777yJCiAqICAtIOW8gOWPkS/mtYvor5Xph43nva4KICovCgppbXBvcnQgeyBvcGVuREIgfSBmcm9tICcuLi9kYic7CmltcG9ydCB0eXBlIHsgUmVtb3RlVmVjdG9yQ29uZmlnIH0gZnJvbSAnLi90eXBlcyc7CmltcG9ydCB7IGJtMjVJbmRleCB9IGZyb20gJy4vYm0yNUluZGV4JzsKCmNvbnN0IE1QX1NUT1JFUyA9IFsKICAgICdtZW1vcnlfbm9kZXMnLAogICAgJ21lbW9yeV92ZWN0b3JzJywKICAgICdtZW1vcnlfbGlua3MnLAogICAgJ21lbW9yeV9iYXRjaGVzJywKICAgICd0b3BpY19ib3hlcycsCiAgICAnYW50aWNpcGF0aW9ucycsCiAgICAnZXZlbnRfYm94ZXMnLAogICAgJ3Jvb21fcGxhdGVzJywKICAgICdkaWdlc3RfcmVwb3J0cycsCl07CgovKiog5riF56m6IGxvY2FsU3RvcmFnZSDkuK3miYDmnIkgbXBfbGFzdE1zZ0lkXzxjaGFySWQ+IOmrmOawtOS9jeagh+iusCAqLwpmdW5jdGlvbiBjbGVhckhpZ2hXYXRlcm1hcmtzKCk6IG51bWJlciB7CiAgICBsZXQgbiA9IDA7CiAgICB0cnkgewogICAgICAgIGNvbnN0IHRvUmVtb3ZlOiBzdHJpbmdbXSA9IFtdOwogICAgICAgIGZvciAobGV0IGkgPSAwOyBpIDwgbG9jYWxTdG9yYWdlLmxlbmd0aDsgaSsrKSB7CiAgICAgICAgICAgIGNvbnN0IGtleSA9IGxvY2FsU3RvcmFnZS5rZXkoaSk7CiAgICAgICAgICAgIGlmIChrZXkgJiYga2V5LnN0YXJ0c1dpdGgoJ21wX2xhc3RNc2dJZF8nKSkgdG9SZW1vdmUucHVzaChrZXkpOwogICAgICAgIH0KICAgICAgICBmb3IgKGNvbnN0IGtleSBvZiB0b1JlbW92ZSkgewogICAgICAgICAgICBsb2NhbFN0b3JhZ2UucmVtb3ZlSXRlbShrZXkpOwogICAgICAgICAgICBuKys7CiAgICAgICAgfQogICAgfSBjYXRjaCB7IC8qIGlnbm9yZSAqLyB9CiAgICByZXR1cm4gbjsKfQoKLyoqIOa4heepuuacrOWcsCBJbmRleGVkREIg55qE5omA5pyJ6K6w5b+G5a6r5q6/6KGoICovCmFzeW5jIGZ1bmN0aW9uIGNsZWFyTG9jYWxTdG9yZXMoKTogUHJvbWlzZTxSZWNvcmQ8c3RyaW5nLCBudW1iZXI+PiB7CiAgICBjb25zdCBjb3VudHM6IFJlY29yZDxzdHJpbmcsIG51bWJlcj4gPSB7fTsKICAgIGNvbnN0IGRiID0gYXdhaXQgb3BlbkRCKCk7CgogICAgLy8g5Y+q5a+55a6e6ZmF5a2Y5Zyo55qEIHN0b3JlIOaTjeS9nO+8iOWFvOWuueaXp+eJiOacrOacquW7uiBldmVudF9ib3hlcyDnmoTmg4XlhrXvvIkKICAgIGNvbnN0IHByZXNlbnRTdG9yZXMgPSBNUF9TVE9SRVMuZmlsdGVyKG5hbWUgPT4gZGIub2JqZWN0U3RvcmVOYW1lcy5jb250YWlucyhuYW1lKSk7CiAgICBpZiAocHJlc2VudFN0b3Jlcy5sZW5ndGggPT09IDApIHJldHVybiBjb3VudHM7CgogICAgcmV0dXJuIGF3YWl0IG5ldyBQcm9taXNlPFJlY29yZDxzdHJpbmcsIG51bWJlcj4+KChyZXNvbHZlLCByZWplY3QpID0+IHsKICAgICAgICBjb25zdCB0eCA9IGRiLnRyYW5zYWN0aW9uKHByZXNlbnRTdG9yZXMsICdyZWFkd3JpdGUnKTsKCiAgICAgICAgLy8g5YWI5byC5q2l5pS26ZuG5q+P5byg6KGo55qE6KGM5pWw77yM5YaN5riF56m677yb55So5bWM5aWXIG9uc3VjY2VzcyDkuLLotbfmnaUKICAgICAgICBsZXQgcGVuZGluZyA9IHByZXNlbnRTdG9yZXMubGVuZ3RoOwogICAgICAgIGNvbnN0IGNoZWNrRG9uZSA9ICgpID0+IHsKICAgICAgICAgICAgaWYgKHBlbmRpbmcgPT09IDApIHsKICAgICAgICAgICAgICAgIC8vIOaJgOaciSBjb3VudCDlm57osIPlrozmiJDvvIzov5nph4zlj5HotbcgY2xlYXIKICAgICAgICAgICAgICAgIGZvciAoY29uc3QgbmFtZSBvZiBwcmVzZW50U3RvcmVzKSB7CiAgICAgICAgICAgICAgICAgICAgdHJ5IHsgdHgub2JqZWN0U3RvcmUobmFtZSkuY2xlYXIoKTsgfSBjYXRjaCB7IC8qIGlnbm9yZSAqLyB9CiAgICAgICAgICAgICAgICB9CiAgICAgICAgICAgIH0KICAgICAgICB9OwoKICAgICAgICBmb3IgKGNvbnN0IG5hbWUgb2YgcHJlc2VudFN0b3JlcykgewogICAgICAgICAgICBjb25zdCByZXEgPSB0eC5vYmplY3RTdG9yZShuYW1lKS5jb3VudCgpOwogICAgICAgICAgICByZXEub25zdWNjZXNzID0gKCkgPT4gewogICAgICAgICAgICAgICAgY291bnRzW25hbWVdID0gcmVxLnJlc3VsdCB8fCAwOwogICAgICAgICAgICAgICAgcGVuZGluZy0tOwogICAgICAgICAgICAgICAgY2hlY2tEb25lKCk7CiAgICAgICAgICAgIH07CiAgICAgICAgICAgIHJlcS5vbmVycm9yID0gKCkgPT4gewogICAgICAgICAgICAgICAgY291bnRzW25hbWVdID0gMDsKICAgICAgICAgICAgICAgIHBlbmRpbmctLTsKICAgICAgICAgICAgICAgIGNoZWNrRG9uZSgpOwogICAgICAgICAgICB9OwogICAgICAgIH0KCiAgICAgICAgdHgub25jb21wbGV0ZSA9ICgpID0+IHJlc29sdmUoY291bnRzKTsKICAgICAgICB0eC5vbmVycm9yID0gKCkgPT4gcmVqZWN0KHR4LmVycm9yKTsKICAgICAgICB0eC5vbmFib3J0ID0gKCkgPT4gcmVqZWN0KHR4LmVycm9yKTsKICAgIH0pOwp9CgovKiog5riF56m66L+c56iLIFN1cGFiYXNlIOWQkemHj+ihqO+8iOWFqOihqOWIoOmZpO+8jOi3qOaJgOacieinkuiJsu+8iSAqLwphc3luYyBmdW5jdGlvbiBjbGVhclJlbW90ZVZlY3RvcnMoY29uZmlnOiBSZW1vdGVWZWN0b3JDb25maWcpOiBQcm9taXNlPG51bWJlcj4gewogICAgaWYgKCFjb25maWcuZW5hYmxlZCB8fCAhY29uZmlnLmluaXRpYWxpemVkKSByZXR1cm4gMDsKICAgIHRyeSB7CiAgICAgICAgY29uc3QgaGVhZGVycyA9IHsKICAgICAgICAgICAgJ2FwaWtleSc6IGNvbmZpZy5zdXBhYmFzZUFub25LZXksCiAgICAgICAgICAgICdBdXRob3JpemF0aW9uJzogYEJlYXJlciAke2NvbmZpZy5zdXBhYmFzZUFub25LZXl9YCwKICAgICAgICAgICAgJ0NvbnRlbnQtVHlwZSc6ICdhcHBsaWNhdGlvbi9qc29uJywKICAgICAgICAgICAgJ1ByZWZlcic6ICdjb3VudD1leGFjdCxyZXR1cm49bWluaW1hbCcsCiAgICAgICAgfTsKICAgICAgICBjb25zdCBiYXNlID0gYCR7Y29uZmlnLnN1cGFiYXNlVXJsLnJlcGxhY2UoL1wvKyQvLCAnJyl9L3Jlc3QvdjEvbWVtb3J5X3ZlY3RvcnNgOwoKICAgICAgICAvLyDlhYjmn6XmgLvmlbDvvIjnlKggSEVBRCArIGNvdW50PWV4YWN077yJCiAgICAgICAgbGV0IHRvdGFsID0gMDsKICAgICAgICB0cnkgewogICAgICAgICAgICBjb25zdCBoZWFkID0gYXdhaXQgZmV0Y2goYCR7YmFzZX0/c2VsZWN0PW1lbW9yeV9pZGAsIHsKICAgICAgICAgICAgICAgIG1ldGhvZDogJ0hFQUQnLAogICAgICAgICAgICAgICAgaGVhZGVyczogeyAuLi5oZWFkZXJzLCAnUHJlZmVyJzogJ2NvdW50PWV4YWN0JyB9LAogICAgICAgICAgICB9KTsKICAgICAgICAgICAgY29uc3QgcmFuZ2UgPSBoZWFkLmhlYWRlcnMuZ2V0KCdjb250ZW50LXJhbmdlJyk7CiAgICAgICAgICAgIGlmIChyYW5nZSkgewogICAgICAgICAgICAgICAgY29uc3QgbSA9IHJhbmdlLm1hdGNoKC9cLyhcZCspLyk7CiAgICAgICAgICAgICAgICBpZiAobSkgdG90YWwgPSBwYXJzZUludChtWzFdLCAxMCk7CiAgICAgICAgICAgIH0KICAgICAgICB9IGNhdGNoIHsgLyogaWdub3JlICovIH0KCiAgICAgICAgLy8gUG9zdGdSRVNUIOimgeaxgiBERUxFVEUg5b+F6aG75bim6L+H5ruk5p2h5Lu277yb55SoICJtZW1vcnlfaWQ9bm90LmlzLm51bGwiIOWMuemFjeWFqOmDqOihjAogICAgICAgIGNvbnN0IGRlbFJlcyA9IGF3YWl0IGZldGNoKGAke2Jhc2V9P21lbW9yeV9pZD1ub3QuaXMubnVsbGAsIHsKICAgICAgICAgICAgbWV0aG9kOiAnREVMRVRFJywKICAgICAgICAgICAgaGVhZGVycywKICAgICAgICB9KTsKICAgICAgICBpZiAoIWRlbFJlcy5vaykgewogICAgICAgICAgICBjb25zb2xlLndhcm4oYPCfl5HvuI8gW1dpcGVdIOi/nOeoi+WIoOmZpOi/lOWbniAke2RlbFJlcy5zdGF0dXN9OiAke2F3YWl0IGRlbFJlcy50ZXh0KCkuY2F0Y2goKCkgPT4gJycpfWApOwogICAgICAgICAgICByZXR1cm4gMDsKICAgICAgICB9CiAgICAgICAgcmV0dXJuIHRvdGFsOwogICAgfSBjYXRjaCAoZTogYW55KSB7CiAgICAgICAgY29uc29sZS53YXJuKGDwn5eR77iPIFtXaXBlXSDov5znqIvliKDpmaTlvILluLg6ICR7ZT8ubWVzc2FnZSB8fCBlfWApOwogICAgICAgIHJldHVybiAwOwogICAgfQp9CgpleHBvcnQgaW50ZXJmYWNlIFdpcGVSZXN1bHQgewogICAgbG9jYWw6IFJlY29yZDxzdHJpbmcsIG51bWJlcj47CiAgICBsb2NhbFJvd3NUb3RhbDogbnVtYmVyOwogICAgaGlnaFdhdGVybWFya3M6IG51bWJlcjsKICAgIHJlbW90ZTogbnVtYmVyOwogICAgcmVtb3RlQXR0ZW1wdGVkOiBib29sZWFuOwp9CgovKioKICog5LiA6ZSu5riF56m66K6w5b+G5a6r5q6/5pWw5o2u44CCCiAqCiAqIEBwYXJhbSBvcHRpb25zLnJlbW90ZUNvbmZpZyDoi6Xmj5DkvpvvvIzkvJrlkIzml7bmuIXnqbrov5znqIsgU3VwYWJhc2UgbWVtb3J5X3ZlY3RvcnPvvIjlhajooajvvIkKICogQHBhcmFtIG9wdGlvbnMuc2tpcFJlbW90ZSAg5Y2z5L2/5pyJIHJlbW90ZUNvbmZpZyDkuZ/ot7Pov4fov5znqIvvvIjku4XmuIXmnKzlnLDvvIkKICovCmV4cG9ydCBhc3luYyBmdW5jdGlvbiB3aXBlQWxsTWVtb3J5UGFsYWNlKG9wdGlvbnM6IHsKICAgIHJlbW90ZUNvbmZpZz86IFJlbW90ZVZlY3RvckNvbmZpZzsKICAgIHNraXBSZW1vdGU/OiBib29sZWFuOwp9ID0ge30pOiBQcm9taXNlPFdpcGVSZXN1bHQ+IHsKICAgIGNvbnNvbGUubG9nKGDwn5eR77iPIFtXaXBlXSDlvIDlp4vkuIDplK7muIXnqbrorrDlv4blrqvmrr8uLi5gKTsKCiAgICBjb25zdCBsb2NhbCA9IGF3YWl0IGNsZWFyTG9jYWxTdG9yZXMoKTsKICAgIGNvbnN0IGxvY2FsUm93c1RvdGFsID0gT2JqZWN0LnZhbHVlcyhsb2NhbCkucmVkdWNlKChzLCB2KSA9PiBzICsgdiwgMCk7CiAgICBjb25zdCBod20gPSBjbGVhckhpZ2hXYXRlcm1hcmtzKCk7CgogICAgLy8g5ZCM5q2l5riF56m65YaF5a2Y5Lit55qEIEJNMjUg5YCS5o6S57Si5byV77yI5ZCm5YiZ5LiL5qyh5p+l6K+i5Lya5ou/5Yiw5a2k5YS/IG5vZGVJZO+8iQogICAgYm0yNUluZGV4LmRyb3BBbGwoKTsKCiAgICBsZXQgcmVtb3RlID0gMDsKICAgIGxldCByZW1vdGVBdHRlbXB0ZWQgPSBmYWxzZTsKICAgIGlmIChvcHRpb25zLnJlbW90ZUNvbmZpZyAmJiAhb3B0aW9ucy5za2lwUmVtb3RlKSB7CiAgICAgICAgcmVtb3RlQXR0ZW1wdGVkID0gdHJ1ZTsKICAgICAgICByZW1vdGUgPSBhd2FpdCBjbGVhclJlbW90ZVZlY3RvcnMob3B0aW9ucy5yZW1vdGVDb25maWcpOwogICAgfQoKICAgIGNvbnNvbGUubG9nKGDwn5eR77iPIFtXaXBlXSDlrozmiJDvvJrmnKzlnLAgJHtsb2NhbFJvd3NUb3RhbH0g6KGM44CB6auY5rC05L2NICR7aHdtfSDmnaHjgIHov5znqIsgJHtyZW1vdGVBdHRlbXB0ZWQgPyByZW1vdGUgOiAn6Lez6L+HJ31gKTsKICAgIHJldHVybiB7IGxvY2FsLCBsb2NhbFJvd3NUb3RhbCwgaGlnaFdhdGVybWFya3M6IGh3bSwgcmVtb3RlLCByZW1vdGVBdHRlbXB0ZWQgfTsKfQo=
+/**
+ * Memory Palace — 一键清空
+ *
+ * 把本地所有记忆宫殿数据清零；可选同步清空用户自己的 Supabase memory_vectors。
+ *
+ * 使用场景：
+ *  - 用户想"重来"（比如改了 embedding 模型、或希望应用新版 boxId 体系）
+ *  - 开发/测试重置
+ */
+
+import { openDB } from '../db';
+import type { RemoteVectorConfig } from './types';
+import { bm25Index } from './bm25Index';
+
+const MP_STORES = [
+    'memory_nodes',
+    'memory_vectors',
+    'memory_links',
+    'memory_batches',
+    'topic_boxes',
+    'anticipations',
+    'event_boxes',
+    'room_plates',
+    'digest_reports',
+];
+
+/** 清空 localStorage 中所有 mp_lastMsgId_<charId> 高水位标记 */
+function clearHighWatermarks(): number {
+    let n = 0;
+    try {
+        const toRemove: string[] = [];
+        for (let i = 0; i < localStorage.length; i++) {
+            const key = localStorage.key(i);
+            if (key && key.startsWith('mp_lastMsgId_')) toRemove.push(key);
+        }
+        for (const key of toRemove) {
+            localStorage.removeItem(key);
+            n++;
+        }
+    } catch { /* ignore */ }
+    return n;
+}
+
+/** 清空本地 IndexedDB 的所有记忆宫殿表 */
+async function clearLocalStores(): Promise<Record<string, number>> {
+    const counts: Record<string, number> = {};
+    const db = await openDB();
+
+    // 只对实际存在的 store 操作（兼容旧版本未建 event_boxes 的情况）
+    const presentStores = MP_STORES.filter(name => db.objectStoreNames.contains(name));
+    if (presentStores.length === 0) return counts;
+
+    return await new Promise<Record<string, number>>((resolve, reject) => {
+        const tx = db.transaction(presentStores, 'readwrite');
+
+        // 先异步收集每张表的行数，再清空；用嵌套 onsuccess 串起来
+        let pending = presentStores.length;
+        const checkDone = () => {
+            if (pending === 0) {
+                // 所有 count 回调完成，这里发起 clear
+                for (const name of presentStores) {
+                    try { tx.objectStore(name).clear(); } catch { /* ignore */ }
+                }
+            }
+        };
+
+        for (const name of presentStores) {
+            const req = tx.objectStore(name).count();
+            req.onsuccess = () => {
+                counts[name] = req.result || 0;
+                pending--;
+                checkDone();
+            };
+            req.onerror = () => {
+                counts[name] = 0;
+                pending--;
+                checkDone();
+            };
+        }
+
+        tx.oncomplete = () => resolve(counts);
+        tx.onerror = () => reject(tx.error);
+        tx.onabort = () => reject(tx.error);
+    });
+}
+
+/** 清空远程 Supabase 向量表（全表删除，跨所有角色） */
+async function clearRemoteVectors(config: RemoteVectorConfig): Promise<number> {
+    if (!config.enabled || !config.initialized) return 0;
+    try {
+        const headers = {
+            'apikey': config.supabaseAnonKey,
+            'Authorization': `Bearer ${config.supabaseAnonKey}`,
+            'Content-Type': 'application/json',
+            'Prefer': 'count=exact,return=minimal',
+        };
+        const base = `${config.supabaseUrl.replace(/\/+$/, '')}/rest/v1/memory_vectors`;
+
+        // 先查总数（用 HEAD + count=exact）
+        let total = 0;
+        try {
+            const head = await fetch(`${base}?select=memory_id`, {
+                method: 'HEAD',
+                headers: { ...headers, 'Prefer': 'count=exact' },
+            });
+            const range = head.headers.get('content-range');
+            if (range) {
+                const m = range.match(/\/(\d+)/);
+                if (m) total = parseInt(m[1], 10);
+            }
+        } catch { /* ignore */ }
+
+        // PostgREST 要求 DELETE 必须带过滤条件；用 "memory_id=not.is.null" 匹配全部行
+        const delRes = await fetch(`${base}?memory_id=not.is.null`, {
+            method: 'DELETE',
+            headers,
+        });
+        if (!delRes.ok) {
+            console.warn(`🗑️ [Wipe] 远程删除返回 ${delRes.status}: ${await delRes.text().catch(() => '')}`);
+            return 0;
+        }
+        return total;
+    } catch (e: any) {
+        console.warn(`🗑️ [Wipe] 远程删除异常: ${e?.message || e}`);
+        return 0;
+    }
+}
+
+export interface WipeResult {
+    local: Record<string, number>;
+    localRowsTotal: number;
+    highWatermarks: number;
+    remote: number;
+    remoteAttempted: boolean;
+}
+
+/**
+ * 一键清空记忆宫殿数据。
+ *
+ * @param options.remoteConfig 若提供，会同时清空远程 Supabase memory_vectors（全表）
+ * @param options.skipRemote  即使有 remoteConfig 也跳过远程（仅清本地）
+ */
+export async function wipeAllMemoryPalace(options: {
+    remoteConfig?: RemoteVectorConfig;
+    skipRemote?: boolean;
+} = {}): Promise<WipeResult> {
+    console.log(`🗑️ [Wipe] 开始一键清空记忆宫殿...`);
+
+    const local = await clearLocalStores();
+    const localRowsTotal = Object.values(local).reduce((s, v) => s + v, 0);
+    const hwm = clearHighWatermarks();
+
+    // 同步清空内存中的 BM25 倒排索引（否则下次查询会拿到孤儿 nodeId）
+    bm25Index.dropAll();
+
+    let remote = 0;
+    let remoteAttempted = false;
+    if (options.remoteConfig && !options.skipRemote) {
+        remoteAttempted = true;
+        remote = await clearRemoteVectors(options.remoteConfig);
+    }
+
+    console.log(`🗑️ [Wipe] 完成：本地 ${localRowsTotal} 行、高水位 ${hwm} 条、远程 ${remoteAttempted ? remote : '跳过'}`);
+    return { local, localRowsTotal, highWatermarks: hwm, remote, remoteAttempted };
+}

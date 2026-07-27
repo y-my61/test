@@ -1,1 +1,55 @@
-LyoqCiAqIOeoi+W6j+WMliByb2xsIOS4gOS4qiBOUEMg56uL57uYIOKAlOKAlCDlpI3nlKjmjY/ohLjlmajvvIhjaGFyYWN0ZXJfY3JlYXRvci5odG1s77yJ55qE6ZqP5py6K+WvvOWHuuiDveWKm+OAggogKgogKiDlgZrms5XvvJrmjILkuIDkuKrlsY/luZXlpJbnmoTpmpDol48gaWZyYW1lIOi9veWFpeaNj+iEuOWZqO+8jOetieWugyBgbGlrZTUyMF9yZWFkeWAg5ZCO5Y+RIGBsaWtlNTIwX2luaXRgCiAqICsgYGxpa2U1MjBfcm9sbGDvvIhoZWFkbGVzcyDmtojmga/vvIzop4EgaHRtbCDph4wgcm9sbEFuZEV4cG9ydO+8ie+8jOWug+S8mumaj+acuuS4gOWll+W5tueUqAogKiBodG1sMmNhbnZhcyDlr7zlh7rpgI/mmI7nq4vnu5jvvIzlm57kvKAgYGxpa2U1MjBfcmVzdWx0YOOAgui2heaXti/lh7rplJnov5Tlm54gbnVsbO+8jOiwg+eUqOaWuemZjee6p+eUqAogKiBlbW9qaSDlpLTlg4/jgILlvbzmlrnCt+WJp+mZoue7mee8uua8lOWRmOeahOWJp+acrOinkuiJsuihpSBOUEMg55So44CCCiAqLwoKY29uc3QgQ0hBUl9DUkVBVE9SX1VSTCA9ICgoKGltcG9ydC5tZXRhIGFzIGFueSkuZW52Py5CQVNFX1VSTCA/PyAnLycpICsgJ2xpa2U1MjAvY2hhcmFjdGVyX2NyZWF0b3IuaHRtbCcpLnJlcGxhY2UoL1wvKy9nLCAnLycpOwoKZXhwb3J0IGludGVyZmFjZSBSb2xsZWROcGMgeyBpbWc6IHN0cmluZzsgc3RhdGU6IGFueTsgfQoKZXhwb3J0IGZ1bmN0aW9uIHJvbGxOcGNDaGliaSh0aW1lb3V0TXMgPSAxODAwMCk6IFByb21pc2U8Um9sbGVkTnBjIHwgbnVsbD4gewogICAgcmV0dXJuIG5ldyBQcm9taXNlKChyZXNvbHZlKSA9PiB7CiAgICAgICAgaWYgKHR5cGVvZiBkb2N1bWVudCA9PT0gJ3VuZGVmaW5lZCcgfHwgdHlwZW9mIHdpbmRvdyA9PT0gJ3VuZGVmaW5lZCcpIHsgcmVzb2x2ZShudWxsKTsgcmV0dXJuOyB9CiAgICAgICAgbGV0IGRvbmUgPSBmYWxzZTsKICAgICAgICBjb25zdCBpZnJhbWUgPSBkb2N1bWVudC5jcmVhdGVFbGVtZW50KCdpZnJhbWUnKTsKICAgICAgICAvLyDlsY/luZXlpJbkvYbkv53mjIHlj6/op4HvvIhodG1sMmNhbnZhcyDkuI3muLLmn5MgdmlzaWJpbGl0eTpoaWRkZW4g55qE5YaF5a6577yJ77yM57uZ6Laz5biD5bGA5bC65a+4CiAgICAgICAgaWZyYW1lLnN0eWxlLmNzc1RleHQgPSAncG9zaXRpb246Zml4ZWQ7bGVmdDotMTAwMDBweDt0b3A6MDt3aWR0aDo5MDBweDtoZWlnaHQ6MTIwMHB4O2JvcmRlcjowO29wYWNpdHk6MTtwb2ludGVyLWV2ZW50czpub25lO3otaW5kZXg6LTE7JzsKICAgICAgICBpZnJhbWUuc2V0QXR0cmlidXRlKCdhcmlhLWhpZGRlbicsICd0cnVlJyk7CgogICAgICAgIGNvbnN0IGNsZWFudXAgPSAoKSA9PiB7CiAgICAgICAgICAgIHdpbmRvdy5yZW1vdmVFdmVudExpc3RlbmVyKCdtZXNzYWdlJywgb25Nc2cpOwogICAgICAgICAgICB0cnkgeyBpZnJhbWUucmVtb3ZlKCk7IH0gY2F0Y2ggeyAvKiBpZ25vcmUgKi8gfQogICAgICAgIH07CiAgICAgICAgY29uc3QgZmluaXNoID0gKHY6IFJvbGxlZE5wYyB8IG51bGwpID0+IHsgaWYgKGRvbmUpIHJldHVybjsgZG9uZSA9IHRydWU7IGNsZWFudXAoKTsgcmVzb2x2ZSh2KTsgfTsKCiAgICAgICAgY29uc3Qgb25Nc2cgPSAoZTogTWVzc2FnZUV2ZW50KSA9PiB7CiAgICAgICAgICAgIGlmIChlLnNvdXJjZSAhPT0gaWZyYW1lLmNvbnRlbnRXaW5kb3cgfHwgIWUuZGF0YSB8fCB0eXBlb2YgZS5kYXRhICE9PSAnb2JqZWN0JykgcmV0dXJuOwogICAgICAgICAgICBpZiAoZS5kYXRhLnR5cGUgPT09ICdsaWtlNTIwX3JlYWR5JykgewogICAgICAgICAgICAgICAgaWZyYW1lLmNvbnRlbnRXaW5kb3c/LnBvc3RNZXNzYWdlKHsgdHlwZTogJ2xpa2U1MjBfaW5pdCcsIHBheWxvYWQ6IHsgbW9kZTogJ2NoYXInLCBjaGFyTmFtZTogJ05QQycsIGlzU3VsbHk6IGZhbHNlIH0gfSwgJyonKTsKICAgICAgICAgICAgICAgIHNldFRpbWVvdXQoKCkgPT4gaWZyYW1lLmNvbnRlbnRXaW5kb3c/LnBvc3RNZXNzYWdlKHsgdHlwZTogJ2xpa2U1MjBfcm9sbCcgfSwgJyonKSwgMTUwKTsKICAgICAgICAgICAgfSBlbHNlIGlmIChlLmRhdGEudHlwZSA9PT0gJ2xpa2U1MjBfcmVzdWx0JyAmJiBlLmRhdGEucGF5bG9hZCkgewogICAgICAgICAgICAgICAgY29uc3QgaW1nID0gZS5kYXRhLnBheWxvYWQudHJhbnNwYXJlbnREYXRhVXJsIHx8IGUuZGF0YS5wYXlsb2FkLmRhdGFVcmw7CiAgICAgICAgICAgICAgICBmaW5pc2goaW1nID8geyBpbWcsIHN0YXRlOiBlLmRhdGEucGF5bG9hZC5zdGF0ZSB9IDogbnVsbCk7CiAgICAgICAgICAgIH0gZWxzZSBpZiAoZS5kYXRhLnR5cGUgPT09ICdsaWtlNTIwX3JvbGxfZXJyb3InKSB7CiAgICAgICAgICAgICAgICBmaW5pc2gobnVsbCk7CiAgICAgICAgICAgIH0KICAgICAgICB9OwoKICAgICAgICB3aW5kb3cuYWRkRXZlbnRMaXN0ZW5lcignbWVzc2FnZScsIG9uTXNnKTsKICAgICAgICBpZnJhbWUuc3JjID0gQ0hBUl9DUkVBVE9SX1VSTDsKICAgICAgICBkb2N1bWVudC5ib2R5LmFwcGVuZENoaWxkKGlmcmFtZSk7CiAgICAgICAgc2V0VGltZW91dCgoKSA9PiBmaW5pc2gobnVsbCksIHRpbWVvdXRNcyk7CiAgICB9KTsKfQoKLyoqIOe7mSBOUEMg6ZqP5py66LW35Liq5ZCN5a2X77yI5Ymn5pys57y66KeS5pe255So77yJ44CCICovCmNvbnN0IE5QQ19OQU1FUyA9IFsn6Lev5Lq655SyJywgJ+i3r+S6uuS5mScsICfot6/kurrkuJknLCAn6Zi/5bKbJywgJ+Wwj+axgCcsICflrqLkuLLogIUnLCAn5peg5ZCN5rCPJywgJ+abv+ihpea8lOWRmCcsICfluZXlkI7kuronLCAn576k5ryUIEEnLCAn576k5ryUIEInXTsKZXhwb3J0IGZ1bmN0aW9uIHJhbmRvbU5wY05hbWUodXNlZDogc3RyaW5nW10pOiBzdHJpbmcgewogICAgY29uc3QgcG9vbCA9IE5QQ19OQU1FUy5maWx0ZXIobiA9PiAhdXNlZC5pbmNsdWRlcyhuKSk7CiAgICBpZiAocG9vbC5sZW5ndGggPiAwKSByZXR1cm4gcG9vbFtNYXRoLmZsb29yKE1hdGgucmFuZG9tKCkgKiBwb29sLmxlbmd0aCldOwogICAgcmV0dXJuIGBOUEMtJHtNYXRoLnJhbmRvbSgpLnRvU3RyaW5nKDM2KS5zbGljZSgyLCA1KX1gOwp9Cg==
+/**
+ * 程序化 roll 一个 NPC 立绘 —— 复用捏脸器（character_creator.html）的随机+导出能力。
+ *
+ * 做法：挂一个屏幕外的隐藏 iframe 载入捏脸器，等它 `like520_ready` 后发 `like520_init`
+ * + `like520_roll`（headless 消息，见 html 里 rollAndExport），它会随机一套并用
+ * html2canvas 导出透明立绘，回传 `like520_result`。超时/出错返回 null，调用方降级用
+ * emoji 头像。彼方·剧院给缺演员的剧本角色补 NPC 用。
+ */
+
+const CHAR_CREATOR_URL = (((import.meta as any).env?.BASE_URL ?? '/') + 'like520/character_creator.html').replace(/\/+/g, '/');
+
+export interface RolledNpc { img: string; state: any; }
+
+export function rollNpcChibi(timeoutMs = 18000): Promise<RolledNpc | null> {
+    return new Promise((resolve) => {
+        if (typeof document === 'undefined' || typeof window === 'undefined') { resolve(null); return; }
+        let done = false;
+        const iframe = document.createElement('iframe');
+        // 屏幕外但保持可见（html2canvas 不渲染 visibility:hidden 的内容），给足布局尺寸
+        iframe.style.cssText = 'position:fixed;left:-10000px;top:0;width:900px;height:1200px;border:0;opacity:1;pointer-events:none;z-index:-1;';
+        iframe.setAttribute('aria-hidden', 'true');
+
+        const cleanup = () => {
+            window.removeEventListener('message', onMsg);
+            try { iframe.remove(); } catch { /* ignore */ }
+        };
+        const finish = (v: RolledNpc | null) => { if (done) return; done = true; cleanup(); resolve(v); };
+
+        const onMsg = (e: MessageEvent) => {
+            if (e.source !== iframe.contentWindow || !e.data || typeof e.data !== 'object') return;
+            if (e.data.type === 'like520_ready') {
+                iframe.contentWindow?.postMessage({ type: 'like520_init', payload: { mode: 'char', charName: 'NPC', isSully: false } }, '*');
+                setTimeout(() => iframe.contentWindow?.postMessage({ type: 'like520_roll' }, '*'), 150);
+            } else if (e.data.type === 'like520_result' && e.data.payload) {
+                const img = e.data.payload.transparentDataUrl || e.data.payload.dataUrl;
+                finish(img ? { img, state: e.data.payload.state } : null);
+            } else if (e.data.type === 'like520_roll_error') {
+                finish(null);
+            }
+        };
+
+        window.addEventListener('message', onMsg);
+        iframe.src = CHAR_CREATOR_URL;
+        document.body.appendChild(iframe);
+        setTimeout(() => finish(null), timeoutMs);
+    });
+}
+
+/** 给 NPC 随机起个名字（剧本缺角时用）。 */
+const NPC_NAMES = ['路人甲', '路人乙', '路人丙', '阿岛', '小汀', '客串者', '无名氏', '替补演员', '幕后人', '群演 A', '群演 B'];
+export function randomNpcName(used: string[]): string {
+    const pool = NPC_NAMES.filter(n => !used.includes(n));
+    if (pool.length > 0) return pool[Math.floor(Math.random() * pool.length)];
+    return `NPC-${Math.random().toString(36).slice(2, 5)}`;
+}

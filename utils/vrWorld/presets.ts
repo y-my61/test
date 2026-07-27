@@ -1,1 +1,115 @@
-LyoqCiAqIOW9vOaWucK35Ymn6ZmiIOWGmeS9nOmjjuagvOmihOiuvu+8iOWDjyLphZLppobpooTorr4i6YKj5qC377yM6YCJ5LiA5Liq5bCx57uZIExMTSDngYzkuIDmlbTlpZflhpnkvZzpo47moLzmoaPmoYjvvInjgIIKICog55So5LqOIkxMTSDku6PlhpnliafmnKwi5ZKMIua2puiJsuWJp+acrCLjgILlj6/oh6rnlLHlop7liKDjgIIKICovCmV4cG9ydCBpbnRlcmZhY2UgV3JpdGluZ1ByZXNldCB7CiAgICBrZXk6IHN0cmluZzsKICAgIG5hbWU6IHN0cmluZzsKICAgIC8qKiDpgInkuK3ml7bnu5nnlKjmiLfnnIvnmoTkuIDlj6Xor53vvIjlj6/pgInvvIkgKi8KICAgIGJsdXJiPzogc3RyaW5nOwogICAgLyoqIOazqOWFpSBMTE0g55qE5a6M5pW06aOO5qC85qGj5qGIICovCiAgICBwcm9tcHQ6IHN0cmluZzsKfQoKZXhwb3J0IGNvbnN0IFdSSVRJTkdfUFJFU0VUUzogV3JpdGluZ1ByZXNldFtdID0gWwogICAgewogICAgICAgIGtleTogJ3JvbWNvbScsCiAgICAgICAgbmFtZTogJ+agoeWbremdkuaYpeaBi+eIseWWnOWJpycsCiAgICAgICAgYmx1cmI6ICfkuKTkuKrlmLTnoaznmoTnrKjom4vvvIznu5XmnIDov5znmoTot6/or7TmnIDlpJrlup/or53vvIzno5Xno5Xnu4rnu4rotbDliLAi5oiR5Zac5qyi5L2gIuOAguiNkuivnumHjOW4pueUnOOAgicsCiAgICAgICAgcHJvbXB0OiBgIyDlhpnkvZzpo47moLzmoaPmoYggwrcg5qCh5Zut6Z2S5pil5oGL54ix5Zac5YmnCgrjgJDkuIDlj6Xor53lnZDmoIfjgJHkuKTkuKrlmLTnoaznmoTnrKjom4vvvIzlnKjmnIDmma7pgJrnmoTmoKHlm63ml6XluLjph4zvvIznu5XmnIDov5znmoTot6/jgIHor7TmnIDlpJrnmoTlup/or53vvIzoirHkuIDmlbTkuKrlrabmnJ/miY3no5Xno5Xnu4rnu4rotbDliLDpgqPlj6Ui5oiR5Zac5qyi5L2gIuOAguiNkuivnumHjOW4pueUnO+8jOWQkOanvemHjOiXj+W/g+WKqOOAggoK44CQ5ZGz6YGT44CR5piO5b+r44CB54Ot6Ze544CB6I2S6K+e5Lit6YCP552A55Sc77yM5YyF6KKx5LiA5ouN5LiA5ouN5Zyw5oqW77yM6IqC5aWP5YOP5ryr5omN44CC5bi46am76Iie5Y+w77ya5a2m55Sf5Lya5Yqe5YWs5a6k44CB5bGL6aG25Y2I5LyR44CB5paH5YyW56Wt5ZCO5Y+w44CB6YCa5a2m6Lev55qE5Z2h6YGT44CB6Ieq5Yqo6LSp5Y2W5py65peB44CB6Zuo5aSp55qE5YWs5Lqk56uZ5Y+w44CC5bqV5bGC6YC76L6R77ya5rC46L+c5ZyoIuaXpeW4uCLlkowi56qB5Y+R54q25Ya1IuS5i+mXtOmrmOmAn+aoqui3s+OAggoK44CQ5oCO5LmI5YaZ44CR5Y+l5a2Q55+t5L+D5pyJ5Yqb77yM5aSn6YeP5aGe5ZCQ5qe95byP5YaF5b+D54us55m944CB5aS45byg5q+U5Za744CB56qB54S25Yi56L2m55qE5Ya35bm96buY77yb5Y+Z5LqL5Y+j5ZC75YOP6ZqU552A5qGM5a2Q6Lef6K+76ICF5ZSg5ZeR44CC57uG6IqC5b6AIumrmOWvhuW6puaXpeW4uOeskeaWmSLloIbvvIzkvovvvJrjgIzlpbnnlKjor77mnKznsr7lh4bmi43kuK3miJHlkI7ohJHli7rnmoTop6bmhJ/loKrnp7DoibrmnK/jgILjgI3jgIzmiJHkuKXogoPmgJ3ogIPkuobkuInnp5LkurrnlJ/nmoTmhI/kuYnvvIznhLblkI7ooqvlpbnnmoTkvr/lvZPpppnlkbPlvbvlupXlh7vmuoPjgILjgI0KCuOAkOWvueeZveaYr+e7neWvueS4u+inkuOAkeW8leaTjuaYr+a8q+aJjeW8jyLlkJDmp73igJTlm57lh7vigJTlho3lkJDmp70i77yM6Z2g6K+v6Kej44CB5q2q5puy44CB5LiA5pys5q2j57uP55qE6IOh6K+05YWr6YGT44CB54yd5LiN5Y+K6Ziy55qE55yf5b+D6K+d5o6o6L+b44CC5YWz57O75Y2H5rip5YWo5oq85Zyo5Zi05LiK55qE5p2l5Zue6L6D6YeP77yM5aSW5Yqg5YG25bCU5LiN5bCP5b+D5rOE6Zyy55qE6YKj54K55p+U6L2v44CC5qC35L6L77yaCi0gIuS9oOaYr+S4jeaYr+WvueaIkeacieaEj+aAne+8nyIi4oCm4oCm5oiR5Y+q5piv6KeJ5b6X5L2g5LiA5Liq5Lq65Z2Q552A5b6I56KN55y844CCIiLmiYDku6XkvaDkuIDnm7TlnKjlhbPms6jmiJHvvJ8iIuKApuKApuS9oOiDveS4jeiDveaKiui/meenjeS+puaOouWkqei1i+eUqOWcqOWtpuS5oOS4iuOAgiIKLSAi5YGH5aaC6L+Z5piv6L275bCP6K+077yM5L2g6KeJ5b6X5oiR5Lus5Yiw56ys5Yeg5Y235LqG77yfIiLnrKzkuInljbfvvIwn5piO5piO5LqS55u45Zac5qyi5Y206LCB6YO95LiN6IKv5YWI6K+0J+OAgiIi56ys5Zub5Y235qCH6aKY5pivJ+esqOibi+e7iOS6juivtOS6hifjgIIiIuKApuKApuS9oOWcqOaal+ekuuS7gOS5iOOAgiIi5rKh5pyJ44CC5L2G5L2g5oOz5b2T6YKj5Liq56yo6JuL55qE6K+d77yM5oiR5Y+v5Lul562J5L2g44CCIgoK44CQ55yf5b+D6K+d6JeP5ZOq44CR5oOF57uq5Z+L552A5YaZ77yM6JeP5Zyo5a+G6ZuG5ZCQ5qe95ZKM6Zey6IGK55qE57yd6ZqZ6YeM77yM5rC46L+c5Y+q5pS+5Zyo5LiA5Y+l5a+555m955qE5pyA5ZCO5Y2K5Y+l5oiW5LiA5Liq5bCP5Yqo5L2c6YeM4oCU4oCU6JC954K56LaK6L2777yM56C45LiL5p2l6LaK6YeN44CC56ug6IqC6IqC5ouN77ya5pel5bi44oaS5LqL5Lu26Kem5Y+R4oaS6K+v5Lya5bC05bCs4oaS5ZCQ5qe95Y2H57qn4oaS54yd5LiN5Y+K6Ziy55qE5rip5p+U4oaS56ug5pyr5L2Z6Z+144CC5pW05L2T5o6o6L+bIuW/q+KAlOW/q+KAlOaFouKAlOW/qyLvvIzpq5jlr4bluqbnrJHngrnlkI7nqoHnhLbloZ7kuIDmrrXlronpnZnnnJ/mg4XvvIzpnaDlj43lt67liLbpgKDlhrLlh7vjgIIKCuOAkOWKqOS9nOi1sCLlkJDmp73ml4Hnmb0r5Y+N5beu6JCMIuOAkeS+i++8muOAjOS7luWIq+i/h+iEuOWBh+ijheeci+aJi+acuu+8jOS9huWxj+W5leaYr+m7keeahOi/meS7tuS6i+WFqOePremDveazqOaEj+WIsOS6huOAguOAjeOAjOS4pOS6uuiCqeiGgOaSnuWcqOS4gOi1t+mCo+S4gOenku+8jOivnemimOS7juWQkOanveaVsOWtpuiAgeW4iOi3s+i9rOWIsOS6huWuh+WumeWkp+eIhueCuOe6p+WIq+eahOayiem7mOOAguOAjQoK44CQ6YGT5YW35oSP6LGh44CR6Ieq5Yqo6LSp5Y2W5py644CB5bGL6aG26ZOB5Lid5Zu05qCP44CB5paH5YyW56Wt5rW35oql44CB5o6w5oiQ5Lik5Y2K55qE5Yaw5qON44CB5YaZ5LqG5Y+I5pOm55qEIExJTkUg6I2J56i/44CB5pS+5a2m5ZCO6KKr5ouJ6ZW/55qE5b2x5a2Q44CCQUNHIOm7keivne+8iGZsYWcv6Lev5Lq6L+WCsuWohy/otKXniqwv5ZGK55m9L+S/rue9l+WcuuKApu+8ieWPr+eUqOS9huWIq+a7peeUqO+8jOS/neivgeS4jeeci+eVquS5n+iDvei3n+S4iuOAguaguOW/g+aLm+W8j++8muWYtOS4iuivtOS4jeimgeOAgei6q+S9k+W+iOivmuWunueahOWPjeW3ruOAgmAsCiAgICB9LAogICAgewogICAgICAgIGtleTogJ2hlYWxpbmcnLAogICAgICAgIG5hbWU6ICfml6XluLjmsrvmhIjCt+WygeaciOmdmeWlvScsCiAgICAgICAgYmx1cmI6ICfmsqHmnInlpKfkuovlj5HnlJ/vvIzlj6rmnInng63ojLbjgIHml6fmnKjmoYzlkozkuIDlj6Xov5/mnaXnmoQi5Y6f5p2l5L2g5Lmf5Zyo6L+Z6YeMIuOAgicsCiAgICAgICAgcHJvbXB0OiBgIyDlhpnkvZzpo47moLzmoaPmoYggwrcg5pel5bi45rK75oSI57O7CgrjgJDlnZDmoIfjgJHmsqHmnInlj43mtL7jgIHmsqHmnInljbHmnLrvvIzmnIDlpKfnmoTlhrLnqoHkuZ/kuI3ov4fmmK8i5LuK5aSp55qE6Z2i5YyF5Y2W5a6M5LqGIuOAgumdoOaegee7hueahOeUn+a0u+i0qOaEn+WSjOS6uuS4juS6uuS5i+mXtOa3oea3oeeahOaaluaEj+aJk+WKqOS6uuOAggoK44CQ5ZGz6YGT44CR5oWi44CB5p+U44CB55WZ55m95aSa44CC6Imy6LCD5YOP5Y2I5ZCO5pac6Ziz44CB5pen5pyo5qGM44CB54Ot6Iy26IW+6LW355qE55m95rG944CC6IqC5aWP6IiS57yT77yM5YWB6K645rKJ6buY44CB5YWB6K645LiA5pW05q615Y+q5YaZ6aOO44CB5YWJ5ZKM5rCU5ZGz44CCCgrjgJDmgI7kuYjlhpnjgJHplb/nn63lj6XkuqTplJnvvIzlpJrnlKjpgJrmhJ/kuI7nu4boioLvvIjlhYnnur/jgIHmuKnluqbjgIHlo7Dpn7PjgIHmsJTlkbPvvInjgILmg4Xnu6rlhYvliLbvvIzmnIDmtZPnmoTmhJ/mg4XkuZ/lj6rnlKjmnIDovbvnmoTor43jgILpgb/lhY3miI/liafljJbniIblj5HvvIzpnaAi5LuA5LmI6YO95rKh6K+05L2G5LuA5LmI6YO95oeC5LqGIueahOeerOmXtOaUtuadn+OAguS+i++8muOAjOWlueayoeWbnuetlO+8jOWPquaYr+aKiuWPpuS4gOWNiumlvOW5suaOqOWIsOaIkemdouWJje+8jOmCo+S4gOWIu+aJgOacieeahOivneWlveWDj+mDveWkmuS9meS6huOAguOAjQoK44CQ5a+555m944CR55Sf5rS75YyW44CB55+t44CB5bi45pyJ5YGc6aG/5ZKM562U6Z2e5omA6Zeu44CC55yf5b+D6K+d5LuO5LiN55u06K+077yM6JeP5ZyoIuimgeS4jeimgeWGjeadpeS4gOadryIi6Lev5LiK5bCP5b+DIui/meexu+WutuW4uOmHjOOAggoK44CQ6IqC5ouN44CR5bmz5reh5pel5bi44oaS5LiA5Liq5b6u5bCP55qE5aWR5py64oaS5Lik5Lq65LmL6Ze05Yeg5LmO5a+f6KeJ5LiN5Yiw55qE6Z2g6L+R4oaS5LiA5Y+l6L275Yiw5Yeg5LmO5ZCs5LiN6KeB55qE5rip5p+U4oaS5L2Z6Z+144CC57uT5bC+5b+M54W95oOF77yM5a6c5reh5pS244CCYCwKICAgIH0sCiAgICB7CiAgICAgICAga2V5OiAnY2h1dW5pJywKICAgICAgICBuYW1lOiAn5Lit5LqM54Ot6KGAwrfnh4PlkJHmiJjmlpcnLAogICAgICAgIHByb21wdDogYCMg5YaZ5L2c6aOO5qC85qGj5qGIIMK3IOS4reS6jOeDreihgOeHg+WQkQoK44CQ5Z2Q5qCH44CR5LiN566h6K6+5a6a5aSa5pel5bi477yM6YO96KaB6KKr5Li76KeS6ISR5YaF5bCP5Ymn5Zy65Y2H5qC85oiQ5Y+y6K+X5Yaz5oiY44CC5bqf5p+05Zyo57ud5aKD6YeM6KeJ6YaS44CB5ZaK5Ye6576e6IC75Y+I5bim5oSf55qE5oub5byP5ZCN44CB5Li65ZCM5Ly05ou85Yiw5pyA5ZCO5LiA5ru06KGA44CCCgrjgJDlkbPpgZPjgJHpq5jkuqLjgIHlpLjlvKDjgIHogr7kuIrohbrntKDmi4nmu6HjgILoibLosIPmmK/nh4Png6fnmoTotaTnuqLkuI7nlLXlhYnok53jgILoioLlpY/lv73lv6vlv73mhaLigJTigJTok4Tlipvml7bmnoHmhaLmnoHnu4bvvIzniIblj5Hml7bnn63lj6XovbDngrjjgIIKCuOAkOaAjuS5iOWGmeOAkeWkp+mHj+WGheW/g+eLrOeZveS4juesrOS6jOS6uuensOW8j+WRkOWWiu+8jOWkuOW8oOavlOWWu+WSjCLlsIHljbAv5aWR57qmL+atpOWIu+iniemGkiLkuYvnsbvnmoTkuK3kuozor43msYfopoHmlaLnlKjjgIHnlKjliLDlupXjgILmi5vlvI/kuI7op4nphpLlv4Xpobvlkb3lkI3jgILkvovvvJrjgIzmiJHkvZPlhoXmsonnnaHnmoTkuJzopb/vvIzlnKjov5nkuIDliLvvvIznnYHlvIDkuobnnLzjgILjgI3miJjmlpfmj4/lhpnopoHmnInpob/mjKvmhJ/vvJrkuIDlj6XkuIDmi43vvIzlhbPplK7lh7vkuK3nu5nnibnlhpnjgIIKCuOAkOWvueeZveOAkeWPsOivjeimgeeHg+OAgeimgeijheOAgeimgeWcqOacgOWwtOWwrOeahOi+uee8mOaTpui/h+WOu+WPiOiOq+WQjeiuqeS6uueDreihgOOAguS4reS6jOS5i+S4i+iXj+edgOS4jeiCr+iupOi+k+eahOecn+W/g+OAggoK44CQ6IqC5ouN44CR5bmz6Z2Z5Lyq6KOF4oaS5Y2x5py66ZmN5Li04oaS5r+S5q2757ud5aKD4oaS6KeJ6YaSL+e+gee7iueIhuWPkeKGkumAhui9rOKGkuaUtuWwvueVmeS4gOS4quabtOWkp+eahCBmbGFn44CCYCwKICAgIH0sCiAgICB7CiAgICAgICAga2V5OiAnbXlzdGVyeScsCiAgICAgICAgbmFtZTogJ+acrOagvOaOqOeQhsK35pq06aOO6Zuq5bGx5bqEJywKICAgICAgICBwcm9tcHQ6IGAjIOWGmeS9nOmjjuagvOaho+ahiCDCtyDmnKzmoLzmjqjnkIYKCuOAkOWdkOagh+OAkeWwgemXreepuumXtOOAgeaciemZkOWrjOeWkeS6uuOAgeS4gOahqeeci+S8vOS4jeWPr+iDveeahOahiOS7tuOAguivu+iAheiDveaLv+WIsOWSjOS+puaOouS4gOagt+eahOWFqOmDqOe6v+e0ouKAlOKAlOWFrOW5s+aYr+mTgeW+i+OAggoK44CQ5ZGz6YGT44CR5Ya36Z2Z44CB57K+56Gu44CB6Zi057+z5Lit5bim5pm65oCn55qE5b+r5oSf44CC6Imy6LCD5piv54Gw6JOd5LiO54Ob5b2x44CC6IqC5aWP5byg5byb5pyJ5bqm77ya5pel5bi46ZO66ZmI4oaS5ZG95qGI6Zmh54S26ZmN5rip4oaS5bGC5bGC5oq95Lid4oaS55yf55u45o+t5pmT55qE6YWj55WF44CCCgrjgJDmgI7kuYjlhpnjgJHlj5nov7DlhYvliLbjgIHkv6Hmga/lr4bluqbpq5jvvIzlhbPplK7nur/ntKLol4/lnKjkuI3otbfnnLznmoTnu4boioLph4zvvIjkvYblv4Xpobvlh7rnjrDov4fvvIzkuI3orrjol4/np4HvvInjgILlpJrnlKjlr7nor53mjqjov5vmjqjnkIbvvIzlsJHnlKjlvaLlrrnor43loIbnoIzjgILor6HorqHopoHog73oh6rlnIblhbbor7TjgILlj6/nlKjlgJLlj5njgIHor6/lr7zjgIHlj5nov7DmgKflnIjlpZfjgIIKCuOAkOWvueeZveOAkeS+puaOouWGt+mdmeeKgOWIqe+8jOWrjOeWkeS6uuWQhOaAgOW/g+S6i+OAgeWPsOivjeeVmeaJo+OAguaPreW6leaXtuadpeS4gOauteWxguWxgumAkui/m+eahOmVv+aOqOeQhueLrOeZveOAggoK44CQ6IqC5ouN44CR55m75Zy65LiO5pel5bi44oaS5qGI5Lu25Y+R55Sf77yI5a+G5a6kL+S4jeWcqOWcuuivgeaYju+8ieKGkuiwg+afpeS4juivr+WvvOKGkuS+puaOoumbhuWQiOS8l+S6uuKGkuecn+ebuOS4juWKqOacuuKGkuS9memfte+8iOS6uuaAp+eahOS4gOWjsOWPueaBr++8ieOAgmAsCiAgICB9LAogICAgewogICAgICAgIGtleTogJ3RyYWdlZHknLAogICAgICAgIG5hbWU6ICfoh7Tpg4Hns7vCt+e7huiFu+aui+mFtycsCiAgICAgICAgcHJvbXB0OiBgIyDlhpnkvZzpo47moLzmoaPmoYggwrcg6Ie06YOB57O7CgrjgJDlnZDmoIfjgJHmuKnmn5TlnLDmiornvo7lpb3nmoTkuJzopb/kuIDngrnngrnmkpXnoo7nu5nkvaDnnIvjgILkuI3mmK/kuLromZDogIzomZDvvIzogIzmmK/orqnkurrlnKjlv4Pnoo7ph4znhafop4HnnJ/lrp7jgIIKCuOAkOWRs+mBk+OAkeWFi+WItuOAgemYtOaflOOAgee+juW+l+WPkeWGt+OAguiJsuiwg+aYr+ikquiJsueahOeZveOAgembqOeBsOOAgem7hOaYj+WwhuWwveeahOapmeOAguiKguWlj+e8k+aFouWOi+aKke+8jOeVmeeZveWkhOWFqOaYr+aDhee7quOAggoK44CQ5oCO5LmI5YaZ44CR55So5pyA5bmz6Z2Z55qE56yU5YaZ5pyA55eb55qE5LqL4oCU4oCU6LaK5YWL5Yi26LaK6ZSL5Yip44CC5aSn6YeP5oSP6LGh5LiO6LGh5b6B77yI5YeL6LCi44CB6YCA5r2u44CB54aE54Gv44CB6ZSZ6L+H55qE55S16L2m77yJ44CC6YG/5YWN55u05o6l5ZOt5ZaK77yM6Z2g57uG6IqC5ZKM5pyq6K+05Ye65Y+j55qE6K+d6K6p5Lq656qS5oGv44CC5L6L77ya44CM5aW556yR552A5oyl5omL77yM5oiR5Lmf56yR552A5oyl5omL77yM5oiR5Lus6YO955+l6YGT6L+Z5piv5pyA5ZCO5LiA5qyh77yM5L2G6LCB6YO95rKh6K+044CC44CNCgrjgJDlr7nnmb3jgJHovbvjgIHmt6HjgIHmrLLoqIDlj4jmraLvvIznnJ/mraPmg7Por7TnmoTmsLjov5zlkr3kuoblm57ljrvjgILmnIDph43nmoTlkYrnmb3lvoDlvoDkvKroo4XmiJDmnIDovbvnmoTnjqnnrJHjgIIKCuOAkOiKguaLjeOAkemdmeWlveeahOaXpeW4uOKGkuijgueXleWIneeOsOKGkua4qeaflOeahOiHquasuuKGkuaXoOWPr+aMveWbnuKGkuW5s+mdmeeahOW0qeWhjOKGkuS4gOS4quW+ruWwj+WNtOiHtOWRveeahOS9memfteOAgue7k+WwvuS4jee7meW7ieS7t+aVkei1juOAgmAsCiAgICB9LAogICAgewogICAgICAgIGtleTogJ3d1eGlhJywKICAgICAgICBuYW1lOiAn5Y+k6aOO5q2m5L6gwrfmsZ/muZblv6vmhI8nLAogICAgICAgIHByb21wdDogYCMg5YaZ5L2c6aOO5qC85qGj5qGIIMK3IOWPpOmjjuatpuS+oAoK44CQ5Z2Q5qCH44CR5b+r5oSP5oGp5LuH55qE5rGf5rmW77yM5YiA5YWJ5YmR5b2x6YeM6KeB5Lq65b+D44CC5LiA5aO26YWS44CB5LiA5p+E5YmR44CB5LiA5q615pS+5LiN5LiL55qE5pen5oCo5oiW5pen5oOF44CCCgrjgJDlkbPpgZPjgJHosarov4jkuK3luKboi43lh4nvvIzmvYfmtJLph4zol4/mt7Hmg4XjgILoibLosIPmmK/pnZLooavjgIHmnIjnmb3jgIHliZHplIvlr5LlhYnjgIHlrqLmoIjnga/ngavjgILoioLlpY/lpKflvIDlpKflkIjvvJrpnZnlpoLlk4HojLbvvIzliqjlpoLmg4rpm7fjgIIKCuOAkOaAjuS5iOWGmeOAkeaWh+eZveebuOmXtO+8jOWPpeWtkOiusueptuiKguWlj+S4juawlOmfte+8jOWkmueUqOefreWPpeS4juWvueS7l+mAoOWKv+OAguatpuaJk+WGmSLmhI8i5LiN5Y+q5YaZIuaLmyLigJTigJTlv6vmhaLjgIHmsJTlir/jgIHlv4PlooPjgILnjq/looPmj4/lhpnlj6Tpm4XvvIjlpJzpm6jjgIHlraToiJ/jgIHmrovpmLPjgIHmlq3moaXvvInjgILkvovvvJrjgIzku5bliZHmnKrlh7rpnpjvvIzmu6HluqfljbTlt7Lml6DkurrmlaLoqIDjgILjgI0KCuOAkOWvueeZveOAkeiogOeugOaEj+i1heOAgeW4puaxn+a5luawlO+8jOivnemHjOacieWIgOS5n+acieS5ieOAguaDheaEj+S7juS4jeebtOeZve+8jOWkmuiXj+WcqOS4gOWPpSLkv53ph40i5oiW5LiA56KX6YCS6L+H5Y6755qE6YWS6YeM44CCCgrjgJDoioLmi43jgJHmsZ/muZbnmbvlnLrihpLmganmgKgv5oOF5LmJ54m15byV4oaS5pqX5rWB5LiO6K+V5o6i4oaS5Yaz5oiY5oiW5oqJ5oup4oaS5b+r5oSP5oiW6IuN5YeJ55qE5pS25p2f44CCYCwKICAgIH0sCl07CgpleHBvcnQgY29uc3QgZ2V0UHJlc2V0ID0gKGtleTogc3RyaW5nKTogV3JpdGluZ1ByZXNldCB8IHVuZGVmaW5lZCA9PiBXUklUSU5HX1BSRVNFVFMuZmluZChwID0+IHAua2V5ID09PSBrZXkpOwo=
+/**
+ * 彼方·剧院 写作风格预设（像"酒馆预设"那样，选一个就给 LLM 灌一整套写作风格档案）。
+ * 用于"LLM 代写剧本"和"润色剧本"。可自由增删。
+ */
+export interface WritingPreset {
+    key: string;
+    name: string;
+    /** 选中时给用户看的一句话（可选） */
+    blurb?: string;
+    /** 注入 LLM 的完整风格档案 */
+    prompt: string;
+}
+
+export const WRITING_PRESETS: WritingPreset[] = [
+    {
+        key: 'romcom',
+        name: '校园青春恋爱喜剧',
+        blurb: '两个嘴硬的笨蛋，绕最远的路说最多废话，磕磕绊绊走到"我喜欢你"。荒诞里带甜。',
+        prompt: `# 写作风格档案 · 校园青春恋爱喜剧
+
+【一句话坐标】两个嘴硬的笨蛋，在最普通的校园日常里，绕最远的路、说最多的废话，花一整个学期才磕磕绊绊走到那句"我喜欢你"。荒诞里带甜，吐槽里藏心动。
+
+【味道】明快、热闹、荒诞中透着甜，包袱一拍一拍地抖，节奏像漫才。常驻舞台：学生会办公室、屋顶午休、文化祭后台、通学路的坡道、自动贩卖机旁、雨天的公交站台。底层逻辑：永远在"日常"和"突发状况"之间高速横跳。
+
+【怎么写】句子短促有力，大量塞吐槽式内心独白、夸张比喻、突然刹车的冷幽默；叙事口吻像隔着桌子跟读者唠嗑。细节往"高密度日常笑料"堆，例：「她用课本精准拍中我后脑勺的触感堪称艺术。」「我严肃思考了三秒人生的意义，然后被她的便当香味彻底击溃。」
+
+【对白是绝对主角】引擎是漫才式"吐槽—回击—再吐槽"，靠误解、歪曲、一本正经的胡说八道、猝不及防的真心话推进。关系升温全押在嘴上的来回较量，外加偶尔不小心泄露的那点柔软。样例：
+- "你是不是对我有意思？""……我只是觉得你一个人坐着很碍眼。""所以你一直在关注我？""……你能不能把这种侦探天赋用在学习上。"
+- "假如这是轻小说，你觉得我们到第几卷了？""第三卷，'明明互相喜欢却谁都不肯先说'。""第四卷标题是'笨蛋终于说了'。""……你在暗示什么。""没有。但你想当那个笨蛋的话，我可以等你。"
+
+【真心话藏哪】情绪埋着写，藏在密集吐槽和闲聊的缝隙里，永远只放在一句对白的最后半句或一个小动作里——落点越轻，砸下来越重。章节节拍：日常→事件触发→误会尴尬→吐槽升级→猝不及防的温柔→章末余韵。整体推进"快—快—慢—快"，高密度笑点后突然塞一段安静真情，靠反差制造冲击。
+
+【动作走"吐槽旁白+反差萌"】例：「他别过脸假装看手机，但屏幕是黑的这件事全班都注意到了。」「两人肩膀撞在一起那一秒，话题从吐槽数学老师跳转到了宇宙大爆炸级别的沉默。」
+
+【道具意象】自动贩卖机、屋顶铁丝围栏、文化祭海报、掰成两半的冰棍、写了又擦的 LINE 草稿、放学后被拉长的影子。ACG 黑话（flag/路人/傲娇/败犬/告白/修罗场…）可用但别滥用，保证不看番也能跟上。核心招式：嘴上说不要、身体很诚实的反差。`,
+    },
+    {
+        key: 'healing',
+        name: '日常治愈·岁月静好',
+        blurb: '没有大事发生，只有热茶、旧木桌和一句迟来的"原来你也在这里"。',
+        prompt: `# 写作风格档案 · 日常治愈系
+
+【坐标】没有反派、没有危机，最大的冲突也不过是"今天的面包卖完了"。靠极细的生活质感和人与人之间淡淡的暖意打动人。
+
+【味道】慢、柔、留白多。色调像午后斜阳、旧木桌、热茶腾起的白汽。节奏舒缓，允许沉默、允许一整段只写风、光和气味。
+
+【怎么写】长短句交错，多用通感与细节（光线、温度、声音、气味）。情绪克制，最浓的感情也只用最轻的词。避免戏剧化爆发，靠"什么都没说但什么都懂了"的瞬间收束。例：「她没回答，只是把另一半饼干推到我面前，那一刻所有的话好像都多余了。」
+
+【对白】生活化、短、常有停顿和答非所问。真心话从不直说，藏在"要不要再来一杯""路上小心"这类家常里。
+
+【节拍】平淡日常→一个微小的契机→两人之间几乎察觉不到的靠近→一句轻到几乎听不见的温柔→余韵。结尾忌煽情，宜淡收。`,
+    },
+    {
+        key: 'chuuni',
+        name: '中二热血·燃向战斗',
+        prompt: `# 写作风格档案 · 中二热血燃向
+
+【坐标】不管设定多日常，都要被主角脑内小剧场升格成史诗决战。废柴在绝境里觉醒、喊出羞耻又带感的招式名、为同伴拼到最后一滴血。
+
+【味道】高亢、夸张、肾上腺素拉满。色调是燃烧的赤红与电光蓝。节奏忽快忽慢——蓄力时极慢极细，爆发时短句轰炸。
+
+【怎么写】大量内心独白与第二人称式呐喊，夸张比喻和"封印/契约/此刻觉醒"之类的中二词汇要敢用、用到底。招式与觉醒必须命名。例：「我体内沉睡的东西，在这一刻，睁开了眼。」战斗描写要有顿挫感：一句一拍，关键击中给特写。
+
+【对白】台词要燃、要装、要在最尴尬的边缘擦过去又莫名让人热血。中二之下藏着不肯认输的真心。
+
+【节拍】平静伪装→危机降临→濒死绝境→觉醒/羁绊爆发→逆转→收尾留一个更大的 flag。`,
+    },
+    {
+        key: 'mystery',
+        name: '本格推理·暴风雪山庄',
+        prompt: `# 写作风格档案 · 本格推理
+
+【坐标】封闭空间、有限嫌疑人、一桩看似不可能的案件。读者能拿到和侦探一样的全部线索——公平是铁律。
+
+【味道】冷静、精确、阴翳中带智性的快感。色调是灰蓝与烛影。节奏张弛有度：日常铺陈→命案陡然降温→层层抽丝→真相揭晓的酣畅。
+
+【怎么写】叙述克制、信息密度高，关键线索藏在不起眼的细节里（但必须出现过，不许藏私）。多用对话推进推理，少用形容词堆砌。诡计要能自圆其说。可用倒叙、误导、叙述性圈套。
+
+【对白】侦探冷静犀利，嫌疑人各怀心事、台词留扣。揭底时来一段层层递进的长推理独白。
+
+【节拍】登场与日常→案件发生（密室/不在场证明）→调查与误导→侦探集合众人→真相与动机→余韵（人性的一声叹息）。`,
+    },
+    {
+        key: 'tragedy',
+        name: '致郁系·细腻残酷',
+        prompt: `# 写作风格档案 · 致郁系
+
+【坐标】温柔地把美好的东西一点点撕碎给你看。不是为虐而虐，而是让人在心碎里照见真实。
+
+【味道】克制、阴柔、美得发冷。色调是褪色的白、雨灰、黄昏将尽的橙。节奏缓慢压抑，留白处全是情绪。
+
+【怎么写】用最平静的笔写最痛的事——越克制越锋利。大量意象与象征（凋谢、退潮、熄灯、错过的电车）。避免直接哭喊，靠细节和未说出口的话让人窒息。例：「她笑着挥手，我也笑着挥手，我们都知道这是最后一次，但谁都没说。」
+
+【对白】轻、淡、欲言又止，真正想说的永远咽了回去。最重的告白往往伪装成最轻的玩笑。
+
+【节拍】静好的日常→裂痕初现→温柔的自欺→无可挽回→平静的崩塌→一个微小却致命的余韵。结尾不给廉价救赎。`,
+    },
+    {
+        key: 'wuxia',
+        name: '古风武侠·江湖快意',
+        prompt: `# 写作风格档案 · 古风武侠
+
+【坐标】快意恩仇的江湖，刀光剑影里见人心。一壶酒、一柄剑、一段放不下的旧怨或旧情。
+
+【味道】豪迈中带苍凉，潇洒里藏深情。色调是青衫、月白、剑锋寒光、客栈灯火。节奏大开大合：静如品茶，动如惊雷。
+
+【怎么写】文白相间，句子讲究节奏与气韵，多用短句与对仗造势。武打写"意"不只写"招"——快慢、气势、心境。环境描写古雅（夜雨、孤舟、残阳、断桥）。例：「他剑未出鞘，满座却已无人敢言。」
+
+【对白】言简意赅、带江湖气，话里有刀也有义。情意从不直白，多藏在一句"保重"或一碗递过去的酒里。
+
+【节拍】江湖登场→恩怨/情义牵引→暗流与试探→决战或抉择→快意或苍凉的收束。`,
+    },
+];
+
+export const getPreset = (key: string): WritingPreset | undefined => WRITING_PRESETS.find(p => p.key === key);

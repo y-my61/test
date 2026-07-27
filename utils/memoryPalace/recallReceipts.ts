@@ -1,1 +1,108 @@
-LyoqCiAqIE1lbW9yeSBQYWxhY2Ug4oCUIOWPrOWbnuWbnuaJpyAoUmVjYWxsIFJlY2VpcHRzKQogKgogKiDorrDlvZUi6Lev5b6E4pGg5Y+s5ZueIuavj+asoeWunumZheazqOWFpeWIsOS4u+iBiuWkqSBwcm9tcHQg55qEIG1lbW9yeUlkIOWIl+ihqOOAggogKiDnlKjpgJTvvJrot6/lvoTikaFleHRyYWN0aW9uIOWkhOeQhiBidWZmZXIg5pe277yM55So5Zue5omn5Y+N5p+lIui/meauteWvueivneacn+mXtOinkuiJsuiiqwogKiDlloLov4flk6rkupvorrDlv4Yi77yM5L2c5Li66auY5LyY5YWI57qnIHJlbGF0ZWRNZW1vcmllcyDlloLnu5kgZXh0cmFjdGlvbiBMTE3vvIwKICog6K6p5a6D6IO956iz5a6a6K+G5YirIueUqOaIt+e6oOato+eahOaYr+WTquadoeaXp+iusOW/hiLjgIIKICoKICog5Li65LuA5LmI6ZyA6KaB6L+Z546p5oSP77yaCiAqICAg57qg5q2j6K+t5Y+l5ZKM6KKr57qg5q2j55qE6K6w5b+G5LmL6Ze05bi45bi46ZqU5Yeg5Y2B5p2h5raI5oGv77yIYnVmZmVyIOa7oSAxMDAg5omN5aSE55CG77yJ77yMCiAqICAg5Y2V57qv6Z2gIuWvueacgOi/kea2iOaBr+WBmuWQkemHj+WPrOWbniLnu4/luLjmvI8g4oCUIOS9huWPrOWbnuaXtuaIkeS7rCAxMDAlIOefpemBkyBwcm9tcHQKICogICDph4zloZ7kuoblk6rkupvorrDlv4bvvIzmiorov5nkuKrkuovlrp7orrDkuIvmnaXlsLHkuI3lv4XnjJzjgIIKICoKICog5a2Y5YKo77yabG9jYWxTdG9yYWdl77yM5oyJIGNoYXIg5YiG6ZSu77yM546v5b2i5L+d55WZ5pyA6L+RIFJFQ0VJUFRfTUFYIOadoeOAggogKiDkvZPnp6/vvJp+NjAwQi/mnaEgw5cgMTAwIOKJiCA2MEtCL+inkuiJsu+8jOWPr+aOpeWPl+OAggogKi8KCmNvbnN0IFJFQ0VJUFRfTUFYID0gMTAwOwpjb25zdCBTVE9SQUdFX0tFWV9QUkVGSVggPSAnb3NfbXBfcmVjYWxsX3JlY2VpcHRzXyc7CgpleHBvcnQgaW50ZXJmYWNlIFJlY2FsbFJlY2VpcHQgewogICAgLyoqIOWPrOWbnuWPkeeUn+eahOaXtumXtOaIs++8iG1z77yJICovCiAgICB0czogbnVtYmVyOwogICAgLyoqIOW9k+asoeazqOWFpeWIsCBwcm9tcHQg55qE5omA5pyJIG1lbW9yeUlk77yI5ZCr5LqL5Lu255uS5bGV5byA55qEIHN1bW1hcnkgKyDmtLvoioLngrnvvIkgKi8KICAgIGlkczogc3RyaW5nW107Cn0KCmZ1bmN0aW9uIHN0b3JhZ2VLZXkoY2hhcklkOiBzdHJpbmcpOiBzdHJpbmcgewogICAgcmV0dXJuIGAke1NUT1JBR0VfS0VZX1BSRUZJWH0ke2NoYXJJZH1gOwp9CgpmdW5jdGlvbiByZWFkQWxsKGNoYXJJZDogc3RyaW5nKTogUmVjYWxsUmVjZWlwdFtdIHsKICAgIHRyeSB7CiAgICAgICAgY29uc3QgcmF3ID0gbG9jYWxTdG9yYWdlLmdldEl0ZW0oc3RvcmFnZUtleShjaGFySWQpKTsKICAgICAgICBpZiAoIXJhdykgcmV0dXJuIFtdOwogICAgICAgIGNvbnN0IHBhcnNlZCA9IEpTT04ucGFyc2UocmF3KTsKICAgICAgICBpZiAoIUFycmF5LmlzQXJyYXkocGFyc2VkKSkgcmV0dXJuIFtdOwogICAgICAgIHJldHVybiBwYXJzZWQuZmlsdGVyKAogICAgICAgICAgICAocik6IHIgaXMgUmVjYWxsUmVjZWlwdCA9PgogICAgICAgICAgICAgICAgciAmJiB0eXBlb2Ygci50cyA9PT0gJ251bWJlcicgJiYgQXJyYXkuaXNBcnJheShyLmlkcykKICAgICAgICApOwogICAgfSBjYXRjaCB7CiAgICAgICAgcmV0dXJuIFtdOwogICAgfQp9CgpmdW5jdGlvbiB3cml0ZUFsbChjaGFySWQ6IHN0cmluZywgcmVjZWlwdHM6IFJlY2FsbFJlY2VpcHRbXSk6IHZvaWQgewogICAgdHJ5IHsKICAgICAgICBsb2NhbFN0b3JhZ2Uuc2V0SXRlbShzdG9yYWdlS2V5KGNoYXJJZCksIEpTT04uc3RyaW5naWZ5KHJlY2VpcHRzKSk7CiAgICB9IGNhdGNoIChlKSB7CiAgICAgICAgLy8gbG9jYWxTdG9yYWdlIOWGmea7oeaIluaXoOadg+mZkO+8muaXoOWjsOmZjee6p++8jOWbnuaJp+WPquaYr+i+heWKqeaJi+autQogICAgICAgIGNvbnNvbGUud2FybihgW1JlY2FsbFJlY2VpcHRzXSB3cml0ZSBmYWlsZWQgZm9yICR7Y2hhcklkfTpgLCBlKTsKICAgIH0KfQoKLyoqCiAqIOiusOW9leS4gOasoeWPrOWbnuWbnuaJp+OAggogKiDnqbrmlbDnu4Tnm7TmjqXot7Pov4fvvIzpgb/lhY3lm57miafooajph4zloZ7mu6Ei5Y+s5Zue5YiwIDAg5p2hIueahOWZquWjsOOAggogKi8KZXhwb3J0IGZ1bmN0aW9uIHJlY29yZFJlY2FsbFJlY2VpcHQoY2hhcklkOiBzdHJpbmcsIGlkczogc3RyaW5nW10pOiB2b2lkIHsKICAgIGlmICghY2hhcklkIHx8IGlkcy5sZW5ndGggPT09IDApIHJldHVybjsKICAgIGNvbnN0IGxpc3QgPSByZWFkQWxsKGNoYXJJZCk7CiAgICBsaXN0LnB1c2goeyB0czogRGF0ZS5ub3coKSwgaWRzOiBbLi4ubmV3IFNldChpZHMpXSB9KTsKICAgIC8vIOeOr+W9ouaIquaWre+8jOS/neeVmeacgOi/kSBSRUNFSVBUX01BWCDmnaEKICAgIGNvbnN0IHRyaW1tZWQgPSBsaXN0Lmxlbmd0aCA+IFJFQ0VJUFRfTUFYID8gbGlzdC5zbGljZSgtUkVDRUlQVF9NQVgpIDogbGlzdDsKICAgIHdyaXRlQWxsKGNoYXJJZCwgdHJpbW1lZCk7Cn0KCi8qKgogKiDlj5bkuIDmrrXml7bpl7Tnqpflj6PlhoXooqvms6jlhaXov4fnmoQgbWVtb3J5SWTvvIzmjIki5pyA5ZCO5LiA5qyh5rOo5YWl5pe26Ze0IuWAkuW6j+WOu+mHjeOAggogKgogKiDnlKjms5XvvJpleHRyYWN0aW9uIOWkhOeQhiBidWZmZXIg5YmN77yM5Lyg5YWlIGJ1ZmZlciDpppbmnKvmtojmga/nmoTml7bpl7TmiLPvvIzmi7/liLAKICog6L+Z5q615a+56K+d6YeM6KeS6Imy5a6e6ZmF55yL5Yiw6L+H55qE5omA5pyJ6K6w5b+GIGlk44CCCiAqCiAqIEBwYXJhbSBmcm9tVHMg5ZCr56uvCiAqIEBwYXJhbSB0b1RzICAg5ZCr56uv77yb5Y+v5q+U5b2T5YmN5pe26Ze056iN5pma5LiA54K577yI5raI5oGv5pe26Ze05oiz5ZKMIHJlY2VpcHQg5pe26Ze05oizCiAqICAgICAgICAgICAgICAg5LiN5LiA5a6a5Lil5qC85a+56b2Q77yM5bu66K6u6LCD55So5pa55YqgIH4xMCDliIbpkp/lrrnlt67vvIkKICogQHBhcmFtIGxpbWl0ICDov5Tlm57kuIrpmZDvvIjpu5jorqQgNTDvvIkKICovCmV4cG9ydCBmdW5jdGlvbiBnZXRSZWNlaXB0SWRzSW5SYW5nZSgKICAgIGNoYXJJZDogc3RyaW5nLAogICAgZnJvbVRzOiBudW1iZXIsCiAgICB0b1RzOiBudW1iZXIsCiAgICBsaW1pdDogbnVtYmVyID0gNTAsCik6IHN0cmluZ1tdIHsKICAgIGNvbnN0IGxpc3QgPSByZWFkQWxsKGNoYXJJZCk7CiAgICAvLyDmjIkgdHMg5YCS5bqP6YGN5Y6G77yM5L+d6K+B5ZCM5LiAIGlkIOWPlueahOaYryLmnIDlkI7kuIDmrKHlh7rnjrDnmoTkvY3mrKEiCiAgICBjb25zdCBzZWVuID0gbmV3IFNldDxzdHJpbmc+KCk7CiAgICBjb25zdCByZXN1bHQ6IHN0cmluZ1tdID0gW107CiAgICBmb3IgKGxldCBpID0gbGlzdC5sZW5ndGggLSAxOyBpID49IDA7IGktLSkgewogICAgICAgIGNvbnN0IHIgPSBsaXN0W2ldOwogICAgICAgIGlmIChyLnRzIDwgZnJvbVRzIHx8IHIudHMgPiB0b1RzKSBjb250aW51ZTsKICAgICAgICBmb3IgKGNvbnN0IGlkIG9mIHIuaWRzKSB7CiAgICAgICAgICAgIGlmIChzZWVuLmhhcyhpZCkpIGNvbnRpbnVlOwogICAgICAgICAgICBzZWVuLmFkZChpZCk7CiAgICAgICAgICAgIHJlc3VsdC5wdXNoKGlkKTsKICAgICAgICAgICAgaWYgKHJlc3VsdC5sZW5ndGggPj0gbGltaXQpIHJldHVybiByZXN1bHQ7CiAgICAgICAgfQogICAgfQogICAgcmV0dXJuIHJlc3VsdDsKfQoKLyoqIOa1i+ivlS/osIPor5XnlKjvvJrmuIXnqbrmn5Dop5LoibLnmoTlm57miafooaggKi8KZXhwb3J0IGZ1bmN0aW9uIGNsZWFyUmVjZWlwdHMoY2hhcklkOiBzdHJpbmcpOiB2b2lkIHsKICAgIHRyeSB7CiAgICAgICAgbG9jYWxTdG9yYWdlLnJlbW92ZUl0ZW0oc3RvcmFnZUtleShjaGFySWQpKTsKICAgIH0gY2F0Y2gge30KfQo=
+/**
+ * Memory Palace — 召回回执 (Recall Receipts)
+ *
+ * 记录"路径①召回"每次实际注入到主聊天 prompt 的 memoryId 列表。
+ * 用途：路径②extraction 处理 buffer 时，用回执反查"这段对话期间角色被
+ * 喂过哪些记忆"，作为高优先级 relatedMemories 喂给 extraction LLM，
+ * 让它能稳定识别"用户纠正的是哪条旧记忆"。
+ *
+ * 为什么需要这玩意：
+ *   纠正语句和被纠正的记忆之间常常隔几十条消息（buffer 满 100 才处理），
+ *   单纯靠"对最近消息做向量召回"经常漏 — 但召回时我们 100% 知道 prompt
+ *   里塞了哪些记忆，把这个事实记下来就不必猜。
+ *
+ * 存储：localStorage，按 char 分键，环形保留最近 RECEIPT_MAX 条。
+ * 体积：~600B/条 × 100 ≈ 60KB/角色，可接受。
+ */
+
+const RECEIPT_MAX = 100;
+const STORAGE_KEY_PREFIX = 'os_mp_recall_receipts_';
+
+export interface RecallReceipt {
+    /** 召回发生的时间戳（ms） */
+    ts: number;
+    /** 当次注入到 prompt 的所有 memoryId（含事件盒展开的 summary + 活节点） */
+    ids: string[];
+}
+
+function storageKey(charId: string): string {
+    return `${STORAGE_KEY_PREFIX}${charId}`;
+}
+
+function readAll(charId: string): RecallReceipt[] {
+    try {
+        const raw = localStorage.getItem(storageKey(charId));
+        if (!raw) return [];
+        const parsed = JSON.parse(raw);
+        if (!Array.isArray(parsed)) return [];
+        return parsed.filter(
+            (r): r is RecallReceipt =>
+                r && typeof r.ts === 'number' && Array.isArray(r.ids)
+        );
+    } catch {
+        return [];
+    }
+}
+
+function writeAll(charId: string, receipts: RecallReceipt[]): void {
+    try {
+        localStorage.setItem(storageKey(charId), JSON.stringify(receipts));
+    } catch (e) {
+        // localStorage 写满或无权限：无声降级，回执只是辅助手段
+        console.warn(`[RecallReceipts] write failed for ${charId}:`, e);
+    }
+}
+
+/**
+ * 记录一次召回回执。
+ * 空数组直接跳过，避免回执表里塞满"召回到 0 条"的噪声。
+ */
+export function recordRecallReceipt(charId: string, ids: string[]): void {
+    if (!charId || ids.length === 0) return;
+    const list = readAll(charId);
+    list.push({ ts: Date.now(), ids: [...new Set(ids)] });
+    // 环形截断，保留最近 RECEIPT_MAX 条
+    const trimmed = list.length > RECEIPT_MAX ? list.slice(-RECEIPT_MAX) : list;
+    writeAll(charId, trimmed);
+}
+
+/**
+ * 取一段时间窗口内被注入过的 memoryId，按"最后一次注入时间"倒序去重。
+ *
+ * 用法：extraction 处理 buffer 前，传入 buffer 首末消息的时间戳，拿到
+ * 这段对话里角色实际看到过的所有记忆 id。
+ *
+ * @param fromTs 含端
+ * @param toTs   含端；可比当前时间稍晚一点（消息时间戳和 receipt 时间戳
+ *               不一定严格对齐，建议调用方加 ~10 分钟容差）
+ * @param limit  返回上限（默认 50）
+ */
+export function getReceiptIdsInRange(
+    charId: string,
+    fromTs: number,
+    toTs: number,
+    limit: number = 50,
+): string[] {
+    const list = readAll(charId);
+    // 按 ts 倒序遍历，保证同一 id 取的是"最后一次出现的位次"
+    const seen = new Set<string>();
+    const result: string[] = [];
+    for (let i = list.length - 1; i >= 0; i--) {
+        const r = list[i];
+        if (r.ts < fromTs || r.ts > toTs) continue;
+        for (const id of r.ids) {
+            if (seen.has(id)) continue;
+            seen.add(id);
+            result.push(id);
+            if (result.length >= limit) return result;
+        }
+    }
+    return result;
+}
+
+/** 测试/调试用：清空某角色的回执表 */
+export function clearReceipts(charId: string): void {
+    try {
+        localStorage.removeItem(storageKey(charId));
+    } catch {}
+}

@@ -1,1 +1,33 @@
-Ly8g5YWo5bGA44CM5qKm5aKD44CN55Sf5oiQ54q25oCB44CCCi8vIOaUvuWcqOaooeWdl+S9nOeUqOWfn+iAjOmdniBEcmVhbVRoZWF0ZXIg5YaF6YOo77yM6L+Z5qC377yaCi8vICAgMS4g55Sf5oiQ5Lit5Y2z5L2/56a75byA5bCP5bGLIEFwcO+8iOeUmuiHs+WIh+WIsOWIq+eahCBPUyBBcHDvvInvvIznirbmgIEv5o+Q56S65L6d5pen5a2Y5Zyo77ybCi8vICAgMi4gUGhvbmVTaGVsbCDph4znmoTlhajlsYDmjIfnpLrmnaHlj6/ku6Xpmo/lpITmmL7npLrov5vluqbvvIzngrnkuIDkuIvmt7Hpk77lm57liLDpgqPlnLrmoqbjgIIKaW1wb3J0IHsgdXNlU3luY0V4dGVybmFsU3RvcmUgfSBmcm9tICdyZWFjdCc7CmltcG9ydCB0eXBlIHsgRHJlYW1TY3JpcHQgfSBmcm9tICcuLi90eXBlcyc7CgpleHBvcnQgdHlwZSBEcmVhbUdlblN0YXRlID0KICAgIHwgeyBzdGF0dXM6ICdpZGxlJyB9CiAgICB8IHsgc3RhdHVzOiAnbG9hZGluZyc7IGNoYXJJZDogc3RyaW5nOyBjaGFyTmFtZTogc3RyaW5nIH0KICAgIHwgeyBzdGF0dXM6ICdyZWFkeSc7IGNoYXJJZDogc3RyaW5nOyBjaGFyTmFtZTogc3RyaW5nOyBzY3JpcHQ6IERyZWFtU2NyaXB0IH0KICAgIHwgeyBzdGF0dXM6ICdlcnJvcic7IGNoYXJJZDogc3RyaW5nOyBjaGFyTmFtZTogc3RyaW5nIH07CgpleHBvcnQgdHlwZSBHbG9iYWxEcmVhbVN0YXRlID0gRHJlYW1HZW5TdGF0ZSAmIHsKICAgIGRlZXBMaW5rPzogYm9vbGVhbjsgLy8g55So5oi354K55LqG5YWo5bGA5oyH56S65p2h77yM6K+35rGC5bCP5bGL55u05o6l6L+b5YWl6YKj5Zy65qKmCn07CgpsZXQgc3RhdGU6IEdsb2JhbERyZWFtU3RhdGUgPSB7IHN0YXR1czogJ2lkbGUnIH07CmNvbnN0IGxpc3RlbmVycyA9IG5ldyBTZXQ8KCkgPT4gdm9pZD4oKTsKY29uc3QgZW1pdCA9ICgpID0+IGxpc3RlbmVycy5mb3JFYWNoKGwgPT4gbCgpKTsKCmV4cG9ydCBjb25zdCBkcmVhbVNpbVN0b3JlID0gewogICAgZ2V0OiAoKTogR2xvYmFsRHJlYW1TdGF0ZSA9PiBzdGF0ZSwKICAgIHNldDogKHM6IEdsb2JhbERyZWFtU3RhdGUpID0+IHsgc3RhdGUgPSBzOyBlbWl0KCk7IH0sCiAgICByZXNldDogKCkgPT4geyBzdGF0ZSA9IHsgc3RhdHVzOiAnaWRsZScgfTsgZW1pdCgpOyB9LAogICAgcmVxdWVzdE9wZW46ICgpID0+IHsgc3RhdGUgPSB7IC4uLnN0YXRlLCBkZWVwTGluazogdHJ1ZSB9OyBlbWl0KCk7IH0sCiAgICBjbGVhckRlZXBMaW5rOiAoKSA9PiB7IGlmIChzdGF0ZS5kZWVwTGluaykgeyBzdGF0ZSA9IHsgLi4uc3RhdGUsIGRlZXBMaW5rOiBmYWxzZSB9OyBlbWl0KCk7IH0gfSwKICAgIHN1YnNjcmliZTogKGw6ICgpID0+IHZvaWQpID0+IHsgbGlzdGVuZXJzLmFkZChsKTsgcmV0dXJuICgpID0+IHsgbGlzdGVuZXJzLmRlbGV0ZShsKTsgfTsgfSwKfTsKCmV4cG9ydCBmdW5jdGlvbiB1c2VEcmVhbVNpbSgpOiBHbG9iYWxEcmVhbVN0YXRlIHsKICAgIHJldHVybiB1c2VTeW5jRXh0ZXJuYWxTdG9yZShkcmVhbVNpbVN0b3JlLnN1YnNjcmliZSwgZHJlYW1TaW1TdG9yZS5nZXQsIGRyZWFtU2ltU3RvcmUuZ2V0KTsKfQo=
+// 全局「梦境」生成状态。
+// 放在模块作用域而非 DreamTheater 内部，这样：
+//   1. 生成中即使离开小屋 App（甚至切到别的 OS App），状态/提示依旧存在；
+//   2. PhoneShell 里的全局指示条可以随处显示进度，点一下深链回到那场梦。
+import { useSyncExternalStore } from 'react';
+import type { DreamScript } from '../types';
+
+export type DreamGenState =
+    | { status: 'idle' }
+    | { status: 'loading'; charId: string; charName: string }
+    | { status: 'ready'; charId: string; charName: string; script: DreamScript }
+    | { status: 'error'; charId: string; charName: string };
+
+export type GlobalDreamState = DreamGenState & {
+    deepLink?: boolean; // 用户点了全局指示条，请求小屋直接进入那场梦
+};
+
+let state: GlobalDreamState = { status: 'idle' };
+const listeners = new Set<() => void>();
+const emit = () => listeners.forEach(l => l());
+
+export const dreamSimStore = {
+    get: (): GlobalDreamState => state,
+    set: (s: GlobalDreamState) => { state = s; emit(); },
+    reset: () => { state = { status: 'idle' }; emit(); },
+    requestOpen: () => { state = { ...state, deepLink: true }; emit(); },
+    clearDeepLink: () => { if (state.deepLink) { state = { ...state, deepLink: false }; emit(); } },
+    subscribe: (l: () => void) => { listeners.add(l); return () => { listeners.delete(l); }; },
+};
+
+export function useDreamSim(): GlobalDreamState {
+    return useSyncExternalStore(dreamSimStore.subscribe, dreamSimStore.get, dreamSimStore.get);
+}

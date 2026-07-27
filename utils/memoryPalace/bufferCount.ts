@@ -1,1 +1,31 @@
-aW1wb3J0IHR5cGUgeyBNZXNzYWdlIH0gZnJvbSAnLi4vLi4vdHlwZXMnOwoKLyoqCiAqIOe6r+iuoeeul++8muiusOW/huWuq+auvyLmnKrlkIzmraUi57yT5Yay5Yy65p2h5pWw4oCU4oCU5Y2z55yf5q2j6IO96KKrIHBpcGVsaW5lIOWkhOeQhueahOWOhuWPsua2iOaBr+aVsOOAggogKgogKiDlj6PlvoTlv4XpobvlkowgcGlwZWxpbmUg55qE57yT5Yay5Yy65a6a5LmJ5LiA6Ie077yaCiAqICAgLSDmjpLpmaTng63ljLrvvIjmnIDlkI4gaG90Wm9uZVNpemUg5p2h5rC46L+c55WZ5Zyo5LiK5LiL5paH77yM5LiN5Y+C5LiO5aSE55CG77yJCiAqICAgLSDmjpLpmaTlt7LlpITnkIbvvIhpZCA8PSBod23vvIkKICoKICog5YiH5Yu/6YCA5ZueICJpZCA+IGh3bSIg6KO46L+H5ruk4oCU4oCU6YKj5Lya5oqK5rC46L+c5LiN5aSE55CG55qE54Ot5Yy65Lmf566X6L+b5pyq5ZCM5q2l77yMCiAqIFVJIOS8muaYvuekuuWHoOeZvuadoeW+heWkhOeQhuOAgeeUqOaIt+eCueS6huWNtOi3keS4jeWHuuaWsOawtOS9je+8jOetieS6jumql+S6uuOAggogKiDov5nkuKrlnZHlt7Lnu4/ouKnov4fkuIDmrKHvvIxidWZmZXJDb3VudC50ZXN0LnRzIOaKiuato+ehruWPo+W+hOmSieS9j+S6huOAggogKgogKiBAcGFyYW0gc2VtYW50aWNNZXNzYWdlcyDlt7Lov4fmu6TmiJAi6K+t5LmJ55u45YWzIueahOa2iOaBr++8iOWPr+S4jeaOkuW6j++8jOacrOWHveaVsOWGhemDqOaMiSBpZCDmjpLluo/vvIkKICogQHBhcmFtIGh3bSDlvZPliY3pq5jmsLTkvY3moIforrDvvIhpZCA8PSBod20g6KeG5Li65bey5aSE55CG77yJCiAqIEBwYXJhbSBob3Rab25lU2l6ZSDng63ljLrlpKflsI/vvIzpu5jorqQgMjAw77yM5LiOIHBpcGVsaW5lIOeahCBIT1RfWk9ORV9TSVpFIOWvuem9kAogKi8KZXhwb3J0IGZ1bmN0aW9uIGNvdW50VW5wcm9jZXNzZWRCdWZmZXJNZXNzYWdlcygKICAgIHNlbWFudGljTWVzc2FnZXM6IE1lc3NhZ2VbXSwKICAgIGh3bTogbnVtYmVyLAogICAgaG90Wm9uZVNpemUgPSAyMDAsCik6IG51bWJlciB7CiAgICBjb25zdCBzb3J0ZWQgPSBbLi4uc2VtYW50aWNNZXNzYWdlc10uc29ydCgoYSwgYikgPT4gYS5pZCAtIGIuaWQpOwogICAgaWYgKHNvcnRlZC5sZW5ndGggPD0gaG90Wm9uZVNpemUpIHJldHVybiAwOwogICAgY29uc3QgaG90Wm9uZVN0YXJ0SWQgPSBzb3J0ZWRbc29ydGVkLmxlbmd0aCAtIGhvdFpvbmVTaXplXS5pZDsKICAgIGxldCBjb3VudCA9IDA7CiAgICBmb3IgKGNvbnN0IG0gb2Ygc29ydGVkKSB7CiAgICAgICAgaWYgKG0uaWQgPiBod20gJiYgbS5pZCA8IGhvdFpvbmVTdGFydElkKSBjb3VudCsrOwogICAgfQogICAgcmV0dXJuIGNvdW50Owp9Cg==
+import type { Message } from '../../types';
+
+/**
+ * 纯计算：记忆宫殿"未同步"缓冲区条数——即真正能被 pipeline 处理的历史消息数。
+ *
+ * 口径必须和 pipeline 的缓冲区定义一致：
+ *   - 排除热区（最后 hotZoneSize 条永远留在上下文，不参与处理）
+ *   - 排除已处理（id <= hwm）
+ *
+ * 切勿退回 "id > hwm" 裸过滤——那会把永远不处理的热区也算进未同步，
+ * UI 会显示几百条待处理、用户点了却跑不出新水位，等于骗人。
+ * 这个坑已经踩过一次，bufferCount.test.ts 把正确口径钉住了。
+ *
+ * @param semanticMessages 已过滤成"语义相关"的消息（可不排序，本函数内部按 id 排序）
+ * @param hwm 当前高水位标记（id <= hwm 视为已处理）
+ * @param hotZoneSize 热区大小，默认 200，与 pipeline 的 HOT_ZONE_SIZE 对齐
+ */
+export function countUnprocessedBufferMessages(
+    semanticMessages: Message[],
+    hwm: number,
+    hotZoneSize = 200,
+): number {
+    const sorted = [...semanticMessages].sort((a, b) => a.id - b.id);
+    if (sorted.length <= hotZoneSize) return 0;
+    const hotZoneStartId = sorted[sorted.length - hotZoneSize].id;
+    let count = 0;
+    for (const m of sorted) {
+        if (m.id > hwm && m.id < hotZoneStartId) count++;
+    }
+    return count;
+}

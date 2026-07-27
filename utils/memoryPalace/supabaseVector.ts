@@ -1,1 +1,564 @@
-LyoqCiAqIE1lbW9yeSBQYWxhY2Ug4oCUIFN1cGFiYXNlIHBndmVjdG9yIOi/nOeoi+WQkemHj+WtmOWCqAogKgogKiDnlKjmiLflnKjoh6rlt7HnmoQgU3VwYWJhc2Ug6aG555uu6YeM5a2Y5YKo5ZCR6YeP77yM5pys5Zyw5Y+q5YGa57yT5a2Y44CCCiAqIOS9v+eUqOWOn+eUnyBmZXRjaCDosIPnlKggUG9zdGdSRVNUIEFQSe+8jOaXoOmcgOmineWkluS+nei1luOAggogKgogKiDmlbDmja7lvZLlsZ7vvJoxMDAlIOWcqOeUqOaIt+iHquW3seeahCBTdXBhYmFzZSDpobnnm67vvIzmiJHku6zkuI3norDkuI3lrZjjgIIKICovCgppbXBvcnQgdHlwZSB7IFJlbW90ZVZlY3RvckNvbmZpZywgTWVtb3J5Tm9kZSB9IGZyb20gJy4vdHlwZXMnOwoKLy8g4pSA4pSA4pSAIOWIneWni+WMliBTUUzvvIjnlKjmiLfpnIDlnKggU3VwYWJhc2UgU1FMIEVkaXRvciDov5DooYzkuIDmrKHvvIkg4pSA4pSACgpleHBvcnQgY29uc3QgSU5JVF9TUUwgPSBgCi0tIDEuIOWQr+eUqCBwZ3ZlY3RvciDmianlsZUKY3JlYXRlIGV4dGVuc2lvbiBpZiBub3QgZXhpc3RzIHZlY3RvcjsKCi0tIDIuIOWIm+W7uuWQkemHj+ihqApjcmVhdGUgdGFibGUgaWYgbm90IGV4aXN0cyBtZW1vcnlfdmVjdG9ycyAoCiAgbWVtb3J5X2lkIHRleHQgcHJpbWFyeSBrZXksCiAgY2hhcl9pZCB0ZXh0IG5vdCBudWxsLAogIGNvbnRlbnQgdGV4dCBub3QgbnVsbCBkZWZhdWx0ICcnLAogIHZlY3RvciB2ZWN0b3IoMTAyNCksCiAgZGltZW5zaW9ucyBpbnQgZGVmYXVsdCAxMDI0LAogIG1vZGVsIHRleHQsCiAgcm9vbSB0ZXh0LAogIGltcG9ydGFuY2UgaW50IGRlZmF1bHQgNSwKICB0YWdzIHRleHRbXSBkZWZhdWx0ICd7fScsCiAgbW9vZCB0ZXh0IGRlZmF1bHQgJycsCiAgLS0gUnVzc2VsbCDmg4XmhJ/nqbrpl7TvvIjlj6/nqbrvvJvogIHmlbDmja7nlLHmnKzlnLAgTU9PRF9UT19WQSDmn6XooajlhZzlupXvvIkKICB2YWxlbmNlIHJlYWwgZGVmYXVsdCBudWxsLAogIGFyb3VzYWwgcmVhbCBkZWZhdWx0IG51bGwsCiAgY3JlYXRlZF9hdCBiaWdpbnQgZGVmYXVsdCAoZXh0cmFjdChlcG9jaCBmcm9tIG5vdygpKSAqIDEwMDApOjpiaWdpbnQsCiAgbGFzdF9hY2Nlc3NlZF9hdCBiaWdpbnQgZGVmYXVsdCAwLAogIGFjY2Vzc19jb3VudCBpbnQgZGVmYXVsdCAwLAogIC0tIOS+v+WIqei0tOe9rumhtuaIquatou+8iG1zIHRpbWVzdGFtcO+8jG51bGwgPSDkuI3nva7pobbvvIkKICBwaW5uZWRfdW50aWwgYmlnaW50IGRlZmF1bHQgbnVsbCwKICAtLSDmtojljJbooY3nlJ/orrDlv4bnmoTmupAgKyDmnaXmupDmoIfnrb4KICBzb3VyY2VfaWQgdGV4dCBkZWZhdWx0IG51bGwsCiAgb3JpZ2luIHRleHQgZGVmYXVsdCBudWxsLAogIC0tIEV2ZW50Qm94IOaJqeWxleWIlwogIGFyY2hpdmVkIGJvb2xlYW4gZGVmYXVsdCBmYWxzZSwgICAgICAgLS0g6KKr5Y6L5YWlIGJveCBzdW1tYXJ5IOeahOa0u+iKgueCueaJk+agh++8jOaQnOe0ouaXtui/h+a7pAogIGlzX3N1bW1hcnkgYm9vbGVhbiBkZWZhdWx0IGZhbHNlLCAgICAgLS0g5q2k6KGM5pys6Lqr5pivIGJveCBzdW1tYXJ577yI5Y+C5LiO5pCc57Si77yM5L2G5bGV5byA6YC76L6R5LiN5ZCM77yJCiAgZXZlbnRfYm94X2lkIHRleHQgZGVmYXVsdCBudWxsICAgICAgICAtLSDmiYDlsZ4gRXZlbnRCb3guaWTvvJtudWxsID0g54us56uL6K6w5b+GCik7CgotLSAyYi4g5YW85a655Y2H57qn77ya5bey5pyJ6KGo5re75Yqg5paw5YiX77yI5bmC562J77yM5LiN5b2x5ZON5paw6KGo77yJCmFsdGVyIHRhYmxlIG1lbW9yeV92ZWN0b3JzIGFkZCBjb2x1bW4gaWYgbm90IGV4aXN0cyBsYXN0X2FjY2Vzc2VkX2F0IGJpZ2ludCBkZWZhdWx0IDA7CmFsdGVyIHRhYmxlIG1lbW9yeV92ZWN0b3JzIGFkZCBjb2x1bW4gaWYgbm90IGV4aXN0cyBhY2Nlc3NfY291bnQgaW50IGRlZmF1bHQgMDsKYWx0ZXIgdGFibGUgbWVtb3J5X3ZlY3RvcnMgYWRkIGNvbHVtbiBpZiBub3QgZXhpc3RzIGFyY2hpdmVkIGJvb2xlYW4gZGVmYXVsdCBmYWxzZTsKYWx0ZXIgdGFibGUgbWVtb3J5X3ZlY3RvcnMgYWRkIGNvbHVtbiBpZiBub3QgZXhpc3RzIGlzX3N1bW1hcnkgYm9vbGVhbiBkZWZhdWx0IGZhbHNlOwphbHRlciB0YWJsZSBtZW1vcnlfdmVjdG9ycyBhZGQgY29sdW1uIGlmIG5vdCBleGlzdHMgZXZlbnRfYm94X2lkIHRleHQgZGVmYXVsdCBudWxsOwphbHRlciB0YWJsZSBtZW1vcnlfdmVjdG9ycyBhZGQgY29sdW1uIGlmIG5vdCBleGlzdHMgdmFsZW5jZSByZWFsIGRlZmF1bHQgbnVsbDsKYWx0ZXIgdGFibGUgbWVtb3J5X3ZlY3RvcnMgYWRkIGNvbHVtbiBpZiBub3QgZXhpc3RzIGFyb3VzYWwgcmVhbCBkZWZhdWx0IG51bGw7CmFsdGVyIHRhYmxlIG1lbW9yeV92ZWN0b3JzIGFkZCBjb2x1bW4gaWYgbm90IGV4aXN0cyBwaW5uZWRfdW50aWwgYmlnaW50IGRlZmF1bHQgbnVsbDsKYWx0ZXIgdGFibGUgbWVtb3J5X3ZlY3RvcnMgYWRkIGNvbHVtbiBpZiBub3QgZXhpc3RzIHNvdXJjZV9pZCB0ZXh0IGRlZmF1bHQgbnVsbDsKYWx0ZXIgdGFibGUgbWVtb3J5X3ZlY3RvcnMgYWRkIGNvbHVtbiBpZiBub3QgZXhpc3RzIG9yaWdpbiB0ZXh0IGRlZmF1bHQgbnVsbDsKCi0tIDMuIOWIm+W7uue0ouW8lQpjcmVhdGUgaW5kZXggaWYgbm90IGV4aXN0cyBpZHhfbXZfY2hhcl9pZCBvbiBtZW1vcnlfdmVjdG9ycyhjaGFyX2lkKTsKY3JlYXRlIGluZGV4IGlmIG5vdCBleGlzdHMgaWR4X212X2huc3cgb24gbWVtb3J5X3ZlY3RvcnMKICB1c2luZyBobnN3ICh2ZWN0b3IgdmVjdG9yX2Nvc2luZV9vcHMpOwpjcmVhdGUgaW5kZXggaWYgbm90IGV4aXN0cyBpZHhfbXZfZXZlbnRfYm94X2lkIG9uIG1lbW9yeV92ZWN0b3JzKGV2ZW50X2JveF9pZCkKICB3aGVyZSBldmVudF9ib3hfaWQgaXMgbm90IG51bGw7CmNyZWF0ZSBpbmRleCBpZiBub3QgZXhpc3RzIGlkeF9tdl9hcmNoaXZlZCBvbiBtZW1vcnlfdmVjdG9ycyhhcmNoaXZlZCk7CgotLSA0LiDnm7jkvLzluqbmkJzntKLlh73mlbDvvIjlhYggZHJvcCDml6fniYjvvIzlm6DkuLrov5Tlm57nsbvlnovlj5jmm7Tml7YgcmVwbGFjZSDkuI3lhYHorrjvvIkKZHJvcCBmdW5jdGlvbiBpZiBleGlzdHMgbWF0Y2hfdmVjdG9ycyh2ZWN0b3IsIHRleHQsIGZsb2F0LCBpbnQpOwpjcmVhdGUgb3IgcmVwbGFjZSBmdW5jdGlvbiBtYXRjaF92ZWN0b3JzKAogIHF1ZXJ5X2VtYmVkZGluZyB2ZWN0b3IoMTAyNCksCiAgbWF0Y2hfY2hhcl9pZCB0ZXh0LAogIG1hdGNoX3RocmVzaG9sZCBmbG9hdCBkZWZhdWx0IDAuMywKICBtYXRjaF9jb3VudCBpbnQgZGVmYXVsdCAyMAopCnJldHVybnMgdGFibGUgKAogIG1lbW9yeV9pZCB0ZXh0LAogIGNoYXJfaWQgdGV4dCwKICBjb250ZW50IHRleHQsCiAgc2ltaWxhcml0eSBmbG9hdCwKICByb29tIHRleHQsCiAgaW1wb3J0YW5jZSBpbnQsCiAgdGFncyB0ZXh0W10sCiAgbW9vZCB0ZXh0LAogIHZhbGVuY2UgcmVhbCwKICBhcm91c2FsIHJlYWwsCiAgY3JlYXRlZF9hdCBiaWdpbnQsCiAgbGFzdF9hY2Nlc3NlZF9hdCBiaWdpbnQsCiAgYWNjZXNzX2NvdW50IGludCwKICBwaW5uZWRfdW50aWwgYmlnaW50LAogIHNvdXJjZV9pZCB0ZXh0LAogIG9yaWdpbiB0ZXh0LAogIGFyY2hpdmVkIGJvb2xlYW4sCiAgaXNfc3VtbWFyeSBib29sZWFuLAogIGV2ZW50X2JveF9pZCB0ZXh0CikKbGFuZ3VhZ2Ugc3FsIHN0YWJsZQphcyAkJAogIHNlbGVjdAogICAgbXYubWVtb3J5X2lkLAogICAgbXYuY2hhcl9pZCwKICAgIG12LmNvbnRlbnQsCiAgICAxIC0gKG12LnZlY3RvciA8PT4gcXVlcnlfZW1iZWRkaW5nKSBhcyBzaW1pbGFyaXR5LAogICAgbXYucm9vbSwKICAgIG12LmltcG9ydGFuY2UsCiAgICBtdi50YWdzLAogICAgbXYubW9vZCwKICAgIG12LnZhbGVuY2UsCiAgICBtdi5hcm91c2FsLAogICAgbXYuY3JlYXRlZF9hdCwKICAgIG12Lmxhc3RfYWNjZXNzZWRfYXQsCiAgICBtdi5hY2Nlc3NfY291bnQsCiAgICBtdi5waW5uZWRfdW50aWwsCiAgICBtdi5zb3VyY2VfaWQsCiAgICBtdi5vcmlnaW4sCiAgICBtdi5hcmNoaXZlZCwKICAgIG12LmlzX3N1bW1hcnksCiAgICBtdi5ldmVudF9ib3hfaWQKICBmcm9tIG1lbW9yeV92ZWN0b3JzIG12CiAgd2hlcmUgbXYuY2hhcl9pZCA9IG1hdGNoX2NoYXJfaWQKICAgIGFuZCBjb2FsZXNjZShtdi5hcmNoaXZlZCwgZmFsc2UpID0gZmFsc2UgIC0tIOi/h+a7pOW3suW9kuaho+iKgueCuQogICAgYW5kIDEgLSAobXYudmVjdG9yIDw9PiBxdWVyeV9lbWJlZGRpbmcpID4gbWF0Y2hfdGhyZXNob2xkCiAgb3JkZXIgYnkgbXYudmVjdG9yIDw9PiBxdWVyeV9lbWJlZGRpbmcKICBsaW1pdCBtYXRjaF9jb3VudDsKJCQ7CgotLSA1LiDooYznuqflronlhajvvIjlhYHorrggYW5vbiBrZXkg5a6M5YWo6K6/6ZeuIOKAlCDov5nmmK/nlKjmiLfoh6rlt7HnmoTmlbDmja7lupPvvIkKYWx0ZXIgdGFibGUgbWVtb3J5X3ZlY3RvcnMgZW5hYmxlIHJvdyBsZXZlbCBzZWN1cml0eTsKZHJvcCBwb2xpY3kgaWYgZXhpc3RzICJBbGxvdyBhbGwgYWNjZXNzIiBvbiBtZW1vcnlfdmVjdG9yczsKY3JlYXRlIHBvbGljeSAiQWxsb3cgYWxsIGFjY2VzcyIgb24gbWVtb3J5X3ZlY3RvcnMKICBmb3IgYWxsIHVzaW5nICh0cnVlKSB3aXRoIGNoZWNrICh0cnVlKTsKYC50cmltKCk7CgovLyDilIDilIDilIAgU3VwYWJhc2UgUkVTVCBoZWxwZXJzIOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgAoKZnVuY3Rpb24gaGVhZGVycyhjb25maWc6IFJlbW90ZVZlY3RvckNvbmZpZyk6IFJlY29yZDxzdHJpbmcsIHN0cmluZz4gewogICAgcmV0dXJuIHsKICAgICAgICAnYXBpa2V5JzogY29uZmlnLnN1cGFiYXNlQW5vbktleSwKICAgICAgICAnQXV0aG9yaXphdGlvbic6IGBCZWFyZXIgJHtjb25maWcuc3VwYWJhc2VBbm9uS2V5fWAsCiAgICAgICAgJ0NvbnRlbnQtVHlwZSc6ICdhcHBsaWNhdGlvbi9qc29uJywKICAgICAgICAnUHJlZmVyJzogJ3JldHVybj1taW5pbWFsJywKICAgIH07Cn0KCmZ1bmN0aW9uIHJlc3RVcmwoY29uZmlnOiBSZW1vdGVWZWN0b3JDb25maWcsIHBhdGg6IHN0cmluZyk6IHN0cmluZyB7CiAgICByZXR1cm4gYCR7Y29uZmlnLnN1cGFiYXNlVXJsLnJlcGxhY2UoL1wvKyQvLCAnJyl9L3Jlc3QvdjEke3BhdGh9YDsKfQoKZnVuY3Rpb24gcnBjVXJsKGNvbmZpZzogUmVtb3RlVmVjdG9yQ29uZmlnLCBmbjogc3RyaW5nKTogc3RyaW5nIHsKICAgIHJldHVybiBgJHtjb25maWcuc3VwYWJhc2VVcmwucmVwbGFjZSgvXC8rJC8sICcnKX0vcmVzdC92MS9ycGMvJHtmbn1gOwp9CgovLyDilIDilIDilIAg5YWs5YWxIEFQSSDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIAKCi8qKgogKiDmtYvor5Xov57mjqUgKyDmo4DmtYvooajmmK/lkKblrZjlnKgKICovCmV4cG9ydCBhc3luYyBmdW5jdGlvbiB0ZXN0Q29ubmVjdGlvbihjb25maWc6IFJlbW90ZVZlY3RvckNvbmZpZyk6IFByb21pc2U8ewogICAgb2s6IGJvb2xlYW47CiAgICB0YWJsZUV4aXN0czogYm9vbGVhbjsKICAgIG1lc3NhZ2U6IHN0cmluZzsKfT4gewogICAgdHJ5IHsKICAgICAgICBjb25zdCByZXMgPSBhd2FpdCBmZXRjaChyZXN0VXJsKGNvbmZpZywgJy9tZW1vcnlfdmVjdG9ycz9zZWxlY3Q9bWVtb3J5X2lkJmxpbWl0PTEnKSwgewogICAgICAgICAgICBoZWFkZXJzOiBoZWFkZXJzKGNvbmZpZyksCiAgICAgICAgfSk7CgogICAgICAgIGlmIChyZXMuc3RhdHVzID09PSAyMDApIHsKICAgICAgICAgICAgcmV0dXJuIHsgb2s6IHRydWUsIHRhYmxlRXhpc3RzOiB0cnVlLCBtZXNzYWdlOiAn6L+e5o6l5oiQ5Yqf77yM6KGo5bey5bCx57uqJyB9OwogICAgICAgIH0KICAgICAgICBpZiAocmVzLnN0YXR1cyA9PT0gNDA0IHx8IHJlcy5zdGF0dXMgPT09IDQwNikgewogICAgICAgICAgICAvLyBUYWJsZSBkb2Vzbid0IGV4aXN0IOKAlCBQb3N0Z1JFU1QgcmV0dXJucyA0MDQgb3Igc3BlY2lmaWMgZXJyb3IKICAgICAgICAgICAgcmV0dXJuIHsgb2s6IHRydWUsIHRhYmxlRXhpc3RzOiBmYWxzZSwgbWVzc2FnZTogJ+i/nuaOpeaIkOWKn++8jOS9huihqOWwmuacquWIm+W7uu+8iOivt+i/kOihjOWIneWni+WMliBTUUzvvIknIH07CiAgICAgICAgfQogICAgICAgIGlmIChyZXMuc3RhdHVzID09PSA0MDEpIHsKICAgICAgICAgICAgcmV0dXJuIHsgb2s6IGZhbHNlLCB0YWJsZUV4aXN0czogZmFsc2UsIG1lc3NhZ2U6ICforqTor4HlpLHotKXvvJror7fmo4Dmn6UgYW5vbiBrZXknIH07CiAgICAgICAgfQogICAgICAgIGNvbnN0IGJvZHkgPSBhd2FpdCByZXMudGV4dCgpLmNhdGNoKCgpID0+ICcnKTsKICAgICAgICAvLyBDaGVjayBmb3IgInJlbGF0aW9uIGRvZXMgbm90IGV4aXN0IiBlcnJvcgogICAgICAgIGlmIChib2R5LmluY2x1ZGVzKCdkb2VzIG5vdCBleGlzdCcpIHx8IGJvZHkuaW5jbHVkZXMoJ3JlbGF0aW9uJykpIHsKICAgICAgICAgICAgcmV0dXJuIHsgb2s6IHRydWUsIHRhYmxlRXhpc3RzOiBmYWxzZSwgbWVzc2FnZTogJ+i/nuaOpeaIkOWKn++8jOS9huihqOWwmuacquWIm+W7uu+8iOivt+i/kOihjOWIneWni+WMliBTUUzvvIknIH07CiAgICAgICAgfQogICAgICAgIHJldHVybiB7IG9rOiBmYWxzZSwgdGFibGVFeGlzdHM6IGZhbHNlLCBtZXNzYWdlOiBg5pyN5Yqh5Zmo6L+U5ZueICR7cmVzLnN0YXR1c306ICR7Ym9keS5zbGljZSgwLCAxMDApfWAgfTsKICAgIH0gY2F0Y2ggKGU6IGFueSkgewogICAgICAgIHJldHVybiB7IG9rOiBmYWxzZSwgdGFibGVFeGlzdHM6IGZhbHNlLCBtZXNzYWdlOiBg6L+e5o6l5aSx6LSlOiAke2UubWVzc2FnZX1gIH07CiAgICB9Cn0KCi8qKgogKiDmj5LlhaXmiJbmm7TmlrDlkJHph4/vvIh1cHNlcnTvvIkKICovCi8qKgogKiBEZWNvZGUgbG9jYWwtdmVjdG9yIHN0b3JhZ2UgZm9ybXMgc2FmZWx5IGZvciB0aGUgd2lyZSBmb3JtYXQuIEFmdGVyIHdlCiAqIHN3aXRjaGVkIEluZGV4ZWREQiB0byBVaW50OEFycmF5KEZsb2F0MzIgcmF3IGJ5dGVzKSwgYGluc3RhbmNlb2YgRmxvYXQzMkFycmF5YAogKiBjaGVja3MgYWxvbmUgd291bGQgc2lsZW50bHkgbWlzcyBVaW50OEFycmF5IGFuZCBmYWxsIHRocm91Z2ggdG8gYC5qb2luYCwKICogd2hpY2ggd291bGQgc3RyaW5naWZ5IHRoZSBCWVRFUyBpbnN0ZWFkIG9mIHRoZSBmbG9hdHMg4oCUIGNvcnJ1cHRpbmcgZXZlcnkKICogcmVtb3RlIHVwc2VydCBmb3IgaHlicmlkIChsb2NhbCtyZW1vdGUpIHVzZXJzLgogKi8KZnVuY3Rpb24gdmVjdG9yVG9XaXJlQXJyYXkodmVjOiBudW1iZXJbXSB8IEZsb2F0MzJBcnJheSB8IFVpbnQ4QXJyYXkpOiBudW1iZXJbXSB7CiAgICBpZiAodmVjIGluc3RhbmNlb2YgRmxvYXQzMkFycmF5KSByZXR1cm4gQXJyYXkuZnJvbSh2ZWMpOwogICAgaWYgKHZlYyBpbnN0YW5jZW9mIFVpbnQ4QXJyYXkpIHsKICAgICAgICBjb25zdCBmMzIgPSBuZXcgRmxvYXQzMkFycmF5KHZlYy5idWZmZXIsIHZlYy5ieXRlT2Zmc2V0LCB2ZWMuYnl0ZUxlbmd0aCA+Pj4gMik7CiAgICAgICAgcmV0dXJuIEFycmF5LmZyb20oZjMyKTsKICAgIH0KICAgIHJldHVybiB2ZWM7Cn0KCmV4cG9ydCBhc3luYyBmdW5jdGlvbiB1cHNlcnRWZWN0b3IoCiAgICBjb25maWc6IFJlbW90ZVZlY3RvckNvbmZpZywKICAgIG1lbW9yeUlkOiBzdHJpbmcsCiAgICBjaGFySWQ6IHN0cmluZywKICAgIHZlY3RvcjogbnVtYmVyW10gfCBGbG9hdDMyQXJyYXkgfCBVaW50OEFycmF5LAogICAgbm9kZTogTWVtb3J5Tm9kZSwKICAgIGRpbWVuc2lvbnM6IG51bWJlciwKICAgIG1vZGVsPzogc3RyaW5nLAopOiBQcm9taXNlPGJvb2xlYW4+IHsKICAgIHRyeSB7CiAgICAgICAgY29uc3QgdmVjQXJyYXkgPSB2ZWN0b3JUb1dpcmVBcnJheSh2ZWN0b3IpOwogICAgICAgIGNvbnN0IGJvZHkgPSB7CiAgICAgICAgICAgIG1lbW9yeV9pZDogbWVtb3J5SWQsCiAgICAgICAgICAgIGNoYXJfaWQ6IGNoYXJJZCwKICAgICAgICAgICAgY29udGVudDogbm9kZS5jb250ZW50LAogICAgICAgICAgICB2ZWN0b3I6IGBbJHt2ZWNBcnJheS5qb2luKCcsJyl9XWAsCiAgICAgICAgICAgIGRpbWVuc2lvbnMsCiAgICAgICAgICAgIG1vZGVsOiBtb2RlbCB8fCBudWxsLAogICAgICAgICAgICByb29tOiBub2RlLnJvb20sCiAgICAgICAgICAgIGltcG9ydGFuY2U6IG5vZGUuaW1wb3J0YW5jZSwKICAgICAgICAgICAgdGFnczogbm9kZS50YWdzLAogICAgICAgICAgICBtb29kOiBub2RlLm1vb2QsCiAgICAgICAgICAgIHZhbGVuY2U6IHR5cGVvZiBub2RlLnZhbGVuY2UgPT09ICdudW1iZXInID8gbm9kZS52YWxlbmNlIDogbnVsbCwKICAgICAgICAgICAgYXJvdXNhbDogdHlwZW9mIG5vZGUuYXJvdXNhbCA9PT0gJ251bWJlcicgPyBub2RlLmFyb3VzYWwgOiBudWxsLAogICAgICAgICAgICBjcmVhdGVkX2F0OiBub2RlLmNyZWF0ZWRBdCwKICAgICAgICAgICAgbGFzdF9hY2Nlc3NlZF9hdDogbm9kZS5sYXN0QWNjZXNzZWRBdCB8fCBub2RlLmNyZWF0ZWRBdCwKICAgICAgICAgICAgYWNjZXNzX2NvdW50OiBub2RlLmFjY2Vzc0NvdW50IHx8IDAsCiAgICAgICAgICAgIHBpbm5lZF91bnRpbDogbm9kZS5waW5uZWRVbnRpbCA/PyBudWxsLAogICAgICAgICAgICBzb3VyY2VfaWQ6IG5vZGUuc291cmNlSWQgPz8gbnVsbCwKICAgICAgICAgICAgb3JpZ2luOiBub2RlLm9yaWdpbiA/PyBudWxsLAogICAgICAgICAgICBhcmNoaXZlZDogISFub2RlLmFyY2hpdmVkLAogICAgICAgICAgICBpc19zdW1tYXJ5OiAhIW5vZGUuaXNCb3hTdW1tYXJ5LAogICAgICAgICAgICBldmVudF9ib3hfaWQ6IG5vZGUuZXZlbnRCb3hJZCA/PyBudWxsLAogICAgICAgIH07CgogICAgICAgIGNvbnN0IHJlcyA9IGF3YWl0IGZldGNoKHJlc3RVcmwoY29uZmlnLCAnL21lbW9yeV92ZWN0b3JzJyksIHsKICAgICAgICAgICAgbWV0aG9kOiAnUE9TVCcsCiAgICAgICAgICAgIGhlYWRlcnM6IHsKICAgICAgICAgICAgICAgIC4uLmhlYWRlcnMoY29uZmlnKSwKICAgICAgICAgICAgICAgICdQcmVmZXInOiAncmVzb2x1dGlvbj1tZXJnZS1kdXBsaWNhdGVzLHJldHVybj1taW5pbWFsJywKICAgICAgICAgICAgfSwKICAgICAgICAgICAgYm9keTogSlNPTi5zdHJpbmdpZnkoYm9keSksCiAgICAgICAgfSk7CgogICAgICAgIHJldHVybiByZXMub2s7CiAgICB9IGNhdGNoIHsKICAgICAgICByZXR1cm4gZmFsc2U7CiAgICB9Cn0KCi8qKgogKiDmibnph4/mj5LlhaXlkJHph48KICovCmV4cG9ydCBhc3luYyBmdW5jdGlvbiB1cHNlcnRWZWN0b3JCYXRjaCgKICAgIGNvbmZpZzogUmVtb3RlVmVjdG9yQ29uZmlnLAogICAgaXRlbXM6IHsKICAgICAgICBtZW1vcnlJZDogc3RyaW5nOwogICAgICAgIGNoYXJJZDogc3RyaW5nOwogICAgICAgIHZlY3RvcjogbnVtYmVyW10gfCBGbG9hdDMyQXJyYXkgfCBVaW50OEFycmF5OwogICAgICAgIG5vZGU6IE1lbW9yeU5vZGU7CiAgICAgICAgZGltZW5zaW9uczogbnVtYmVyOwogICAgICAgIG1vZGVsPzogc3RyaW5nOwogICAgfVtdLAopOiBQcm9taXNlPGJvb2xlYW4+IHsKICAgIGlmIChpdGVtcy5sZW5ndGggPT09IDApIHJldHVybiB0cnVlOwogICAgdHJ5IHsKICAgICAgICBjb25zdCBib2R5ID0gaXRlbXMubWFwKGl0ZW0gPT4gewogICAgICAgICAgICBjb25zdCB2ZWNBcnJheSA9IHZlY3RvclRvV2lyZUFycmF5KGl0ZW0udmVjdG9yKTsKICAgICAgICAgICAgcmV0dXJuIHsKICAgICAgICAgICAgICAgIG1lbW9yeV9pZDogaXRlbS5tZW1vcnlJZCwKICAgICAgICAgICAgICAgIGNoYXJfaWQ6IGl0ZW0uY2hhcklkLAogICAgICAgICAgICAgICAgY29udGVudDogaXRlbS5ub2RlLmNvbnRlbnQsCiAgICAgICAgICAgICAgICB2ZWN0b3I6IGBbJHt2ZWNBcnJheS5qb2luKCcsJyl9XWAsCiAgICAgICAgICAgICAgICBkaW1lbnNpb25zOiBpdGVtLmRpbWVuc2lvbnMsCiAgICAgICAgICAgICAgICBtb2RlbDogaXRlbS5tb2RlbCB8fCBudWxsLAogICAgICAgICAgICAgICAgcm9vbTogaXRlbS5ub2RlLnJvb20sCiAgICAgICAgICAgICAgICBpbXBvcnRhbmNlOiBpdGVtLm5vZGUuaW1wb3J0YW5jZSwKICAgICAgICAgICAgICAgIHRhZ3M6IGl0ZW0ubm9kZS50YWdzLAogICAgICAgICAgICAgICAgbW9vZDogaXRlbS5ub2RlLm1vb2QsCiAgICAgICAgICAgICAgICB2YWxlbmNlOiB0eXBlb2YgaXRlbS5ub2RlLnZhbGVuY2UgPT09ICdudW1iZXInID8gaXRlbS5ub2RlLnZhbGVuY2UgOiBudWxsLAogICAgICAgICAgICAgICAgYXJvdXNhbDogdHlwZW9mIGl0ZW0ubm9kZS5hcm91c2FsID09PSAnbnVtYmVyJyA/IGl0ZW0ubm9kZS5hcm91c2FsIDogbnVsbCwKICAgICAgICAgICAgICAgIGNyZWF0ZWRfYXQ6IGl0ZW0ubm9kZS5jcmVhdGVkQXQsCiAgICAgICAgICAgICAgICBsYXN0X2FjY2Vzc2VkX2F0OiBpdGVtLm5vZGUubGFzdEFjY2Vzc2VkQXQgfHwgaXRlbS5ub2RlLmNyZWF0ZWRBdCwKICAgICAgICAgICAgICAgIGFjY2Vzc19jb3VudDogaXRlbS5ub2RlLmFjY2Vzc0NvdW50IHx8IDAsCiAgICAgICAgICAgICAgICBwaW5uZWRfdW50aWw6IGl0ZW0ubm9kZS5waW5uZWRVbnRpbCA/PyBudWxsLAogICAgICAgICAgICAgICAgc291cmNlX2lkOiBpdGVtLm5vZGUuc291cmNlSWQgPz8gbnVsbCwKICAgICAgICAgICAgICAgIG9yaWdpbjogaXRlbS5ub2RlLm9yaWdpbiA/PyBudWxsLAogICAgICAgICAgICAgICAgYXJjaGl2ZWQ6ICEhaXRlbS5ub2RlLmFyY2hpdmVkLAogICAgICAgICAgICAgICAgaXNfc3VtbWFyeTogISFpdGVtLm5vZGUuaXNCb3hTdW1tYXJ5LAogICAgICAgICAgICAgICAgZXZlbnRfYm94X2lkOiBpdGVtLm5vZGUuZXZlbnRCb3hJZCA/PyBudWxsLAogICAgICAgICAgICB9OwogICAgICAgIH0pOwoKICAgICAgICBjb25zdCByZXMgPSBhd2FpdCBmZXRjaChyZXN0VXJsKGNvbmZpZywgJy9tZW1vcnlfdmVjdG9ycycpLCB7CiAgICAgICAgICAgIG1ldGhvZDogJ1BPU1QnLAogICAgICAgICAgICBoZWFkZXJzOiB7CiAgICAgICAgICAgICAgICAuLi5oZWFkZXJzKGNvbmZpZyksCiAgICAgICAgICAgICAgICAnUHJlZmVyJzogJ3Jlc29sdXRpb249bWVyZ2UtZHVwbGljYXRlcyxyZXR1cm49bWluaW1hbCcsCiAgICAgICAgICAgIH0sCiAgICAgICAgICAgIGJvZHk6IEpTT04uc3RyaW5naWZ5KGJvZHkpLAogICAgICAgIH0pOwoKICAgICAgICByZXR1cm4gcmVzLm9rOwogICAgfSBjYXRjaCB7CiAgICAgICAgcmV0dXJuIGZhbHNlOwogICAgfQp9CgovKioKICog5ZCR6YeP55u45Ly85bqm5pCc57Si77yI6LCD55SoIG1hdGNoX3ZlY3RvcnMgUlBDIOWHveaVsO+8iQogKgogKiDimqDvuI8g6ZSZ6K+v5Lyg5pKt77ya572R57uc6ZSZ6K+v77yIQ09SUyAvIGZldGNoIOaKmyBUeXBlRXJyb3LvvIkvIEhUVFAg6Z2eIDJ4eCDpg73kvJrlkJHkuIogdGhyb3fvvIwKICog5LiN5YaN6Z2Z6buY6L+U5Zue56m65pWw57uE44CC6L+Z5qC35LiK5bGC77yIdmVjdG9yU2VhcmNoLnRz77yJ5omN6IO95YiG6L6oIui/nOeoi+aMguS6huKGkuemgeeUqOacrOS8muivnei/nOeoi+i3r+W+hCIKICog5ZKMIui/nOeoi+ato+W4uOS9hui/measoeayoeWRveS4reKGkui/lOWbnuepuiLjgILkuYvliY3nmoQgY2F0Y2h7IHJldHVybiBbXSB9IOWvvOiHtOavj+asoeafpeivoumDvQogKiDouKnkuIDpgY0gQ09SUyArIOWbnumAgOWIsOacrOWcsCBnZXRBbGxCeUNoYXJJZO+8jOmAoOaIkOi/geenu+aJuemHj+afpeivouaXtiAxNSDmrKHph43lpI3liqDovb3lhajph4/lkJHph4/jgIIKICovCmV4cG9ydCBhc3luYyBmdW5jdGlvbiBzZWFyY2hWZWN0b3JzKAogICAgY29uZmlnOiBSZW1vdGVWZWN0b3JDb25maWcsCiAgICBxdWVyeVZlY3RvcjogbnVtYmVyW10gfCBGbG9hdDMyQXJyYXkgfCBVaW50OEFycmF5LAogICAgY2hhcklkOiBzdHJpbmcsCiAgICB0aHJlc2hvbGQ6IG51bWJlciA9IDAuMywKICAgIHRvcEs6IG51bWJlciA9IDIwLAopOiBQcm9taXNlPHsKICAgIG1lbW9yeUlkOiBzdHJpbmc7CiAgICBjb250ZW50OiBzdHJpbmc7CiAgICBzaW1pbGFyaXR5OiBudW1iZXI7CiAgICByb29tOiBzdHJpbmc7CiAgICBpbXBvcnRhbmNlOiBudW1iZXI7CiAgICB0YWdzOiBzdHJpbmdbXTsKICAgIG1vb2Q6IHN0cmluZzsKICAgIHZhbGVuY2U6IG51bWJlciB8IG51bGw7CiAgICBhcm91c2FsOiBudW1iZXIgfCBudWxsOwogICAgY3JlYXRlZEF0OiBudW1iZXI7CiAgICBsYXN0QWNjZXNzZWRBdDogbnVtYmVyOwogICAgYWNjZXNzQ291bnQ6IG51bWJlcjsKICAgIHBpbm5lZFVudGlsOiBudW1iZXIgfCBudWxsOwogICAgc291cmNlSWQ6IHN0cmluZyB8IG51bGw7CiAgICBvcmlnaW46IHN0cmluZyB8IG51bGw7CiAgICBhcmNoaXZlZDogYm9vbGVhbjsKICAgIGlzU3VtbWFyeTogYm9vbGVhbjsKICAgIGV2ZW50Qm94SWQ6IHN0cmluZyB8IG51bGw7Cn1bXT4gewogICAgY29uc3QgdmVjQXJyYXkgPSB2ZWN0b3JUb1dpcmVBcnJheShxdWVyeVZlY3Rvcik7CgogICAgY29uc3QgcmVzID0gYXdhaXQgZmV0Y2gocnBjVXJsKGNvbmZpZywgJ21hdGNoX3ZlY3RvcnMnKSwgewogICAgICAgIG1ldGhvZDogJ1BPU1QnLAogICAgICAgIGhlYWRlcnM6IGhlYWRlcnMoY29uZmlnKSwKICAgICAgICBib2R5OiBKU09OLnN0cmluZ2lmeSh7CiAgICAgICAgICAgIHF1ZXJ5X2VtYmVkZGluZzogYFske3ZlY0FycmF5LmpvaW4oJywnKX1dYCwKICAgICAgICAgICAgbWF0Y2hfY2hhcl9pZDogY2hhcklkLAogICAgICAgICAgICBtYXRjaF90aHJlc2hvbGQ6IHRocmVzaG9sZCwKICAgICAgICAgICAgbWF0Y2hfY291bnQ6IHRvcEssCiAgICAgICAgfSksCiAgICB9KTsKCiAgICBpZiAoIXJlcy5vaykgewogICAgICAgIHRocm93IG5ldyBFcnJvcihgbWF0Y2hfdmVjdG9ycyBIVFRQICR7cmVzLnN0YXR1c31gKTsKICAgIH0KCiAgICBjb25zdCBkYXRhID0gYXdhaXQgcmVzLmpzb24oKTsKICAgIHJldHVybiAoZGF0YSB8fCBbXSkubWFwKChyb3c6IGFueSkgPT4gKHsKICAgICAgICBtZW1vcnlJZDogcm93Lm1lbW9yeV9pZCwKICAgICAgICBjb250ZW50OiByb3cuY29udGVudCwKICAgICAgICBzaW1pbGFyaXR5OiByb3cuc2ltaWxhcml0eSwKICAgICAgICByb29tOiByb3cucm9vbSwKICAgICAgICBpbXBvcnRhbmNlOiByb3cuaW1wb3J0YW5jZSwKICAgICAgICB0YWdzOiByb3cudGFncyB8fCBbXSwKICAgICAgICBtb29kOiByb3cubW9vZCB8fCAnJywKICAgICAgICB2YWxlbmNlOiB0eXBlb2Ygcm93LnZhbGVuY2UgPT09ICdudW1iZXInID8gcm93LnZhbGVuY2UgOiBudWxsLAogICAgICAgIGFyb3VzYWw6IHR5cGVvZiByb3cuYXJvdXNhbCA9PT0gJ251bWJlcicgPyByb3cuYXJvdXNhbCA6IG51bGwsCiAgICAgICAgY3JlYXRlZEF0OiBOdW1iZXIocm93LmNyZWF0ZWRfYXQpIHx8IDAsCiAgICAgICAgbGFzdEFjY2Vzc2VkQXQ6IE51bWJlcihyb3cubGFzdF9hY2Nlc3NlZF9hdCkgfHwgMCwKICAgICAgICBhY2Nlc3NDb3VudDogTnVtYmVyKHJvdy5hY2Nlc3NfY291bnQpIHx8IDAsCiAgICAgICAgcGlubmVkVW50aWw6IHJvdy5waW5uZWRfdW50aWwgIT0gbnVsbCA/IE51bWJlcihyb3cucGlubmVkX3VudGlsKSA6IG51bGwsCiAgICAgICAgc291cmNlSWQ6IHJvdy5zb3VyY2VfaWQgPz8gbnVsbCwKICAgICAgICBvcmlnaW46IHJvdy5vcmlnaW4gPz8gbnVsbCwKICAgICAgICBhcmNoaXZlZDogISFyb3cuYXJjaGl2ZWQsCiAgICAgICAgaXNTdW1tYXJ5OiAhIXJvdy5pc19zdW1tYXJ5LAogICAgICAgIGV2ZW50Qm94SWQ6IHJvdy5ldmVudF9ib3hfaWQgPz8gbnVsbCwKICAgIH0pKTsKfQoKLyoqCiAqIOaMieaIv+mXtOebtOaOpeaLieWPlui/nOeoi+iusOW/hu+8iFBvc3RnUkVTVCDov4fmu6TvvIzkuI3ot5HlkJHph4/nm7jkvLzluqbvvInjgIIKICog55So5LqOIuacrOWcsOayoeacieWQkemHj+iusOW/huS9hui/nOeoi+aciSLnmoTlnLrmma/vvIzmr5TlpoLorrDlv4bmvZzooYzopoHlnKjlrqLljoUv5Y2n5a6k6YeMCiAqIOWxleekuuivpeiEkeWMuuacieWTquS6m+iusOW/huaXtu+8jOebtOaOpeaMiSByb29tIOWIl+afpei/nOerr+WwseWkn+S6huOAggogKgogKiDov5Tlm54gTWVtb3J5Tm9kZSDlvaLnirbvvIzmlrnkvr/osIPnlKjmlrnkuI7mnKzlnLDnu5PmnpzlkIjlubYv5Y676YeN44CCCiAqLwpleHBvcnQgYXN5bmMgZnVuY3Rpb24gZmV0Y2hSZW1vdGVCeVJvb20oCiAgICBjb25maWc6IFJlbW90ZVZlY3RvckNvbmZpZywKICAgIGNoYXJJZDogc3RyaW5nLAogICAgcm9vbTogc3RyaW5nLAogICAgbGltaXQ6IG51bWJlciA9IDUwLAopOiBQcm9taXNlPE1lbW9yeU5vZGVbXT4gewogICAgdHJ5IHsKICAgICAgICBjb25zdCBwYXJhbXMgPSBuZXcgVVJMU2VhcmNoUGFyYW1zKHsKICAgICAgICAgICAgc2VsZWN0OiAnbWVtb3J5X2lkLGNoYXJfaWQsY29udGVudCxyb29tLGltcG9ydGFuY2UsdGFncyxtb29kLHZhbGVuY2UsYXJvdXNhbCxjcmVhdGVkX2F0LGxhc3RfYWNjZXNzZWRfYXQsYWNjZXNzX2NvdW50LHBpbm5lZF91bnRpbCxzb3VyY2VfaWQsb3JpZ2luLGFyY2hpdmVkLGlzX3N1bW1hcnksZXZlbnRfYm94X2lkJywKICAgICAgICAgICAgY2hhcl9pZDogYGVxLiR7Y2hhcklkfWAsCiAgICAgICAgICAgIHJvb206IGBlcS4ke3Jvb219YCwKICAgICAgICAgICAgYXJjaGl2ZWQ6ICdlcS5mYWxzZScsCiAgICAgICAgICAgIG9yZGVyOiAnaW1wb3J0YW5jZS5kZXNjLGxhc3RfYWNjZXNzZWRfYXQuZGVzYycsCiAgICAgICAgICAgIGxpbWl0OiBTdHJpbmcobGltaXQpLAogICAgICAgIH0pOwogICAgICAgIGNvbnN0IHJlcyA9IGF3YWl0IGZldGNoKHJlc3RVcmwoY29uZmlnLCBgL21lbW9yeV92ZWN0b3JzPyR7cGFyYW1zLnRvU3RyaW5nKCl9YCksIHsKICAgICAgICAgICAgaGVhZGVyczogaGVhZGVycyhjb25maWcpLAogICAgICAgIH0pOwogICAgICAgIGlmICghcmVzLm9rKSByZXR1cm4gW107CiAgICAgICAgY29uc3Qgcm93cyA9IGF3YWl0IHJlcy5qc29uKCk7CiAgICAgICAgcmV0dXJuIChyb3dzIHx8IFtdKS5tYXAoKHJvdzogYW55KTogTWVtb3J5Tm9kZSA9PiAoewogICAgICAgICAgICBpZDogcm93Lm1lbW9yeV9pZCwKICAgICAgICAgICAgY2hhcklkOiByb3cuY2hhcl9pZCwKICAgICAgICAgICAgY29udGVudDogcm93LmNvbnRlbnQgfHwgJycsCiAgICAgICAgICAgIHJvb206IHJvdy5yb29tLAogICAgICAgICAgICB0YWdzOiByb3cudGFncyB8fCBbXSwKICAgICAgICAgICAgaW1wb3J0YW5jZTogcm93LmltcG9ydGFuY2UgPz8gNSwKICAgICAgICAgICAgbW9vZDogcm93Lm1vb2QgfHwgJycsCiAgICAgICAgICAgIHZhbGVuY2U6IHR5cGVvZiByb3cudmFsZW5jZSA9PT0gJ251bWJlcicgPyByb3cudmFsZW5jZSA6IHVuZGVmaW5lZCwKICAgICAgICAgICAgYXJvdXNhbDogdHlwZW9mIHJvdy5hcm91c2FsID09PSAnbnVtYmVyJyA/IHJvdy5hcm91c2FsIDogdW5kZWZpbmVkLAogICAgICAgICAgICBlbWJlZGRlZDogdHJ1ZSwgLy8g6L+c56iL5bCx5piv5ZCR6YeP6KGo77yM6buY6K6k6KeG5Li65beyIGVtYmVkZGVkCiAgICAgICAgICAgIGNyZWF0ZWRBdDogTnVtYmVyKHJvdy5jcmVhdGVkX2F0KSB8fCAwLAogICAgICAgICAgICBsYXN0QWNjZXNzZWRBdDogTnVtYmVyKHJvdy5sYXN0X2FjY2Vzc2VkX2F0KSB8fCAwLAogICAgICAgICAgICBhY2Nlc3NDb3VudDogTnVtYmVyKHJvdy5hY2Nlc3NfY291bnQpIHx8IDAsCiAgICAgICAgICAgIHBpbm5lZFVudGlsOiByb3cucGlubmVkX3VudGlsICE9IG51bGwgPyBOdW1iZXIocm93LnBpbm5lZF91bnRpbCkgOiBudWxsLAogICAgICAgICAgICBzb3VyY2VJZDogcm93LnNvdXJjZV9pZCA/PyBudWxsLAogICAgICAgICAgICBvcmlnaW46IHJvdy5vcmlnaW4gPz8gdW5kZWZpbmVkLAogICAgICAgICAgICBhcmNoaXZlZDogISFyb3cuYXJjaGl2ZWQsCiAgICAgICAgICAgIGlzQm94U3VtbWFyeTogISFyb3cuaXNfc3VtbWFyeSwKICAgICAgICAgICAgZXZlbnRCb3hJZDogcm93LmV2ZW50X2JveF9pZCA/PyBudWxsLAogICAgICAgIH0pKTsKICAgIH0gY2F0Y2ggewogICAgICAgIHJldHVybiBbXTsKICAgIH0KfQoKLyoqCiAqIOaJuemHj+aKiuS4gOe7hOWQkemHj+agh+iusOS4uiBhcmNoaXZlZO+8iEV2ZW50Qm94IOWOi+e8qeaXtueUqO+8iQogKiDpgJrov4cgUEFUQ0gg5Y2V5Y+R5aSaIElE77yM6YG/5YWNIE4g5qyhIHVwc2VydAogKi8KZXhwb3J0IGFzeW5jIGZ1bmN0aW9uIGJ1bGtTZXRBcmNoaXZlZCgKICAgIGNvbmZpZzogUmVtb3RlVmVjdG9yQ29uZmlnLAogICAgbWVtb3J5SWRzOiBzdHJpbmdbXSwKICAgIGFyY2hpdmVkOiBib29sZWFuLAopOiBQcm9taXNlPGJvb2xlYW4+IHsKICAgIGlmIChtZW1vcnlJZHMubGVuZ3RoID09PSAwKSByZXR1cm4gdHJ1ZTsKICAgIHRyeSB7CiAgICAgICAgLy8gUG9zdGdSRVNUIGBpbi4oLi4uKWAgZmlsdGVyCiAgICAgICAgY29uc3QgaWRMaXN0ID0gbWVtb3J5SWRzLm1hcChpZCA9PiBlbmNvZGVVUklDb21wb25lbnQoaWQpKS5qb2luKCcsJyk7CiAgICAgICAgY29uc3QgcmVzID0gYXdhaXQgZmV0Y2gocmVzdFVybChjb25maWcsIGAvbWVtb3J5X3ZlY3RvcnM/bWVtb3J5X2lkPWluLigke2lkTGlzdH0pYCksIHsKICAgICAgICAgICAgbWV0aG9kOiAnUEFUQ0gnLAogICAgICAgICAgICBoZWFkZXJzOiB7CiAgICAgICAgICAgICAgICAuLi5oZWFkZXJzKGNvbmZpZyksCiAgICAgICAgICAgICAgICAnUHJlZmVyJzogJ3JldHVybj1taW5pbWFsJywKICAgICAgICAgICAgfSwKICAgICAgICAgICAgYm9keTogSlNPTi5zdHJpbmdpZnkoeyBhcmNoaXZlZCB9KSwKICAgICAgICB9KTsKICAgICAgICByZXR1cm4gcmVzLm9rOwogICAgfSBjYXRjaCB7CiAgICAgICAgcmV0dXJuIGZhbHNlOwogICAgfQp9CgovKioKICog5om56YeP5oqK5LiA57uE5ZCR6YeP55qEIHJvb20g5a2X5q615pS55oiQ5ZCM5LiA5Liq5YC877yIY29uc29saWRhdGlvbiDmmYvljYcv6amx6YCQ5pe255So77yJCiAqIHByb21vdGlvbiDlhajpg6gg4oaSIGJlZHJvb23vvIxldmljdGlvbiDlhajpg6gg4oaSIGF0dGlj77yM5omA5Lul5Y+q6ZyA5Lik5qyhIFBBVENI44CCCiAqCiAqIOazqOaEj++8muWPquaUuSBtZW1vcnlfdmVjdG9ycy5yb29t77yMY29udGVudCAvIGltcG9ydGFuY2UgLyDlkJHph4/mnKzouqvpg73kuI3liqjjgIIKICog5omA5Lul5Y2z5L6/IG1lbW9yeV9pZCDlnKjov5znq6/kuI3lrZjlnKjvvIjnlKjmiLflkI7lkK/nlKjkupHlkIzmraXvvIzogIHoioLngrnlj6rlnKjmnKzlnLDvvInvvIwKICogUEFUQ0gg5Lmf5Y+q5pivIG5vLW9wIOabtOaWsCAwIOihjO+8jOS4jeS8mumAoOaIkOaVsOaNruaxoeafk+OAggogKi8KZXhwb3J0IGFzeW5jIGZ1bmN0aW9uIGJ1bGtTZXRSb29tKAogICAgY29uZmlnOiBSZW1vdGVWZWN0b3JDb25maWcsCiAgICBtZW1vcnlJZHM6IHN0cmluZ1tdLAogICAgcm9vbTogc3RyaW5nLAopOiBQcm9taXNlPGJvb2xlYW4+IHsKICAgIGlmIChtZW1vcnlJZHMubGVuZ3RoID09PSAwKSByZXR1cm4gdHJ1ZTsKICAgIHRyeSB7CiAgICAgICAgY29uc3QgaWRMaXN0ID0gbWVtb3J5SWRzLm1hcChpZCA9PiBlbmNvZGVVUklDb21wb25lbnQoaWQpKS5qb2luKCcsJyk7CiAgICAgICAgY29uc3QgcmVzID0gYXdhaXQgZmV0Y2gocmVzdFVybChjb25maWcsIGAvbWVtb3J5X3ZlY3RvcnM/bWVtb3J5X2lkPWluLigke2lkTGlzdH0pYCksIHsKICAgICAgICAgICAgbWV0aG9kOiAnUEFUQ0gnLAogICAgICAgICAgICBoZWFkZXJzOiB7CiAgICAgICAgICAgICAgICAuLi5oZWFkZXJzKGNvbmZpZyksCiAgICAgICAgICAgICAgICAnUHJlZmVyJzogJ3JldHVybj1taW5pbWFsJywKICAgICAgICAgICAgfSwKICAgICAgICAgICAgYm9keTogSlNPTi5zdHJpbmdpZnkoeyByb29tIH0pLAogICAgICAgIH0pOwogICAgICAgIHJldHVybiByZXMub2s7CiAgICB9IGNhdGNoIHsKICAgICAgICByZXR1cm4gZmFsc2U7CiAgICB9Cn0KCi8qKgogKiDliKDpmaTlkJHph48KICovCmV4cG9ydCBhc3luYyBmdW5jdGlvbiBkZWxldGVWZWN0b3IoY29uZmlnOiBSZW1vdGVWZWN0b3JDb25maWcsIG1lbW9yeUlkOiBzdHJpbmcpOiBQcm9taXNlPGJvb2xlYW4+IHsKICAgIHRyeSB7CiAgICAgICAgY29uc3QgcmVzID0gYXdhaXQgZmV0Y2gocmVzdFVybChjb25maWcsIGAvbWVtb3J5X3ZlY3RvcnM/bWVtb3J5X2lkPWVxLiR7ZW5jb2RlVVJJQ29tcG9uZW50KG1lbW9yeUlkKX1gKSwgewogICAgICAgICAgICBtZXRob2Q6ICdERUxFVEUnLAogICAgICAgICAgICBoZWFkZXJzOiBoZWFkZXJzKGNvbmZpZyksCiAgICAgICAgfSk7CiAgICAgICAgcmV0dXJuIHJlcy5vazsKICAgIH0gY2F0Y2ggewogICAgICAgIHJldHVybiBmYWxzZTsKICAgIH0KfQoKLyoqCiAqIOiOt+WPlui/nOeoi+WQkemHj+aVsOmHj++8iOeUqOS6jiBVSSDmmL7npLrvvIkKICovCmV4cG9ydCBhc3luYyBmdW5jdGlvbiBnZXRWZWN0b3JDb3VudChjb25maWc6IFJlbW90ZVZlY3RvckNvbmZpZywgY2hhcklkPzogc3RyaW5nKTogUHJvbWlzZTxudW1iZXI+IHsKICAgIHRyeSB7CiAgICAgICAgY29uc3QgZmlsdGVyID0gY2hhcklkID8gYCZjaGFyX2lkPWVxLiR7ZW5jb2RlVVJJQ29tcG9uZW50KGNoYXJJZCl9YCA6ICcnOwogICAgICAgIGNvbnN0IHJlcyA9IGF3YWl0IGZldGNoKHJlc3RVcmwoY29uZmlnLCBgL21lbW9yeV92ZWN0b3JzP3NlbGVjdD1tZW1vcnlfaWQke2ZpbHRlcn1gKSwgewogICAgICAgICAgICBtZXRob2Q6ICdIRUFEJywKICAgICAgICAgICAgaGVhZGVyczogewogICAgICAgICAgICAgICAgLi4uaGVhZGVycyhjb25maWcpLAogICAgICAgICAgICAgICAgJ1ByZWZlcic6ICdjb3VudD1leGFjdCcsCiAgICAgICAgICAgIH0sCiAgICAgICAgfSk7CiAgICAgICAgY29uc3QgcmFuZ2UgPSByZXMuaGVhZGVycy5nZXQoJ2NvbnRlbnQtcmFuZ2UnKTsKICAgICAgICBpZiAocmFuZ2UpIHsKICAgICAgICAgICAgY29uc3QgbWF0Y2ggPSByYW5nZS5tYXRjaCgvXC8oXGQrKS8pOwogICAgICAgICAgICBpZiAobWF0Y2gpIHJldHVybiBwYXJzZUludChtYXRjaFsxXSwgMTApOwogICAgICAgIH0KICAgICAgICByZXR1cm4gMDsKICAgIH0gY2F0Y2ggewogICAgICAgIHJldHVybiAwOwogICAgfQp9CgovKioKICog5bCG5pys5Zyw5ZCR6YeP5ZCM5q2l5Yiw6L+c56iL77yI5LiA5qyh5oCn6L+B56e777yJCiAqLwpleHBvcnQgYXN5bmMgZnVuY3Rpb24gc3luY0xvY2FsVG9SZW1vdGUoCiAgICBjb25maWc6IFJlbW90ZVZlY3RvckNvbmZpZywKICAgIGdldExvY2FsVmVjdG9yczogKCkgPT4gUHJvbWlzZTx7IG1lbW9yeUlkOiBzdHJpbmc7IGNoYXJJZDogc3RyaW5nOyB2ZWN0b3I6IG51bWJlcltdIHwgRmxvYXQzMkFycmF5IHwgVWludDhBcnJheTsgbm9kZTogTWVtb3J5Tm9kZTsgZGltZW5zaW9uczogbnVtYmVyOyBtb2RlbD86IHN0cmluZyB9W10+LAogICAgb25Qcm9ncmVzcz86IChkb25lOiBudW1iZXIsIHRvdGFsOiBudW1iZXIpID0+IHZvaWQsCik6IFByb21pc2U8eyBzeW5jZWQ6IG51bWJlcjsgZmFpbGVkOiBudW1iZXIgfT4gewogICAgY29uc3QgbG9jYWxzID0gYXdhaXQgZ2V0TG9jYWxWZWN0b3JzKCk7CiAgICBpZiAobG9jYWxzLmxlbmd0aCA9PT0gMCkgcmV0dXJuIHsgc3luY2VkOiAwLCBmYWlsZWQ6IDAgfTsKCiAgICBsZXQgc3luY2VkID0gMCwgZmFpbGVkID0gMDsKICAgIGNvbnN0IEJBVENIID0gNTA7CgogICAgZm9yIChsZXQgaSA9IDA7IGkgPCBsb2NhbHMubGVuZ3RoOyBpICs9IEJBVENIKSB7CiAgICAgICAgY29uc3QgYmF0Y2ggPSBsb2NhbHMuc2xpY2UoaSwgaSArIEJBVENIKTsKICAgICAgICBjb25zdCBvayA9IGF3YWl0IHVwc2VydFZlY3RvckJhdGNoKGNvbmZpZywgYmF0Y2gpOwogICAgICAgIGlmIChvaykgewogICAgICAgICAgICBzeW5jZWQgKz0gYmF0Y2gubGVuZ3RoOwogICAgICAgIH0gZWxzZSB7CiAgICAgICAgICAgIGZhaWxlZCArPSBiYXRjaC5sZW5ndGg7CiAgICAgICAgfQogICAgICAgIG9uUHJvZ3Jlc3M/LihNYXRoLm1pbihpICsgQkFUQ0gsIGxvY2Fscy5sZW5ndGgpLCBsb2NhbHMubGVuZ3RoKTsKICAgIH0KCiAgICByZXR1cm4geyBzeW5jZWQsIGZhaWxlZCB9Owp9Cg==
+/**
+ * Memory Palace — Supabase pgvector 远程向量存储
+ *
+ * 用户在自己的 Supabase 项目里存储向量，本地只做缓存。
+ * 使用原生 fetch 调用 PostgREST API，无需额外依赖。
+ *
+ * 数据归属：100% 在用户自己的 Supabase 项目，我们不碰不存。
+ */
+
+import type { RemoteVectorConfig, MemoryNode } from './types';
+
+// ─── 初始化 SQL（用户需在 Supabase SQL Editor 运行一次） ──
+
+export const INIT_SQL = `
+-- 1. 启用 pgvector 扩展
+create extension if not exists vector;
+
+-- 2. 创建向量表
+create table if not exists memory_vectors (
+  memory_id text primary key,
+  char_id text not null,
+  content text not null default '',
+  vector vector(1024),
+  dimensions int default 1024,
+  model text,
+  room text,
+  importance int default 5,
+  tags text[] default '{}',
+  mood text default '',
+  -- Russell 情感空间（可空；老数据由本地 MOOD_TO_VA 查表兜底）
+  valence real default null,
+  arousal real default null,
+  created_at bigint default (extract(epoch from now()) * 1000)::bigint,
+  last_accessed_at bigint default 0,
+  access_count int default 0,
+  -- 便利贴置顶截止（ms timestamp，null = 不置顶）
+  pinned_until bigint default null,
+  -- 消化衍生记忆的源 + 来源标签
+  source_id text default null,
+  origin text default null,
+  -- EventBox 扩展列
+  archived boolean default false,       -- 被压入 box summary 的活节点打标，搜索时过滤
+  is_summary boolean default false,     -- 此行本身是 box summary（参与搜索，但展开逻辑不同）
+  event_box_id text default null        -- 所属 EventBox.id；null = 独立记忆
+);
+
+-- 2b. 兼容升级：已有表添加新列（幂等，不影响新表）
+alter table memory_vectors add column if not exists last_accessed_at bigint default 0;
+alter table memory_vectors add column if not exists access_count int default 0;
+alter table memory_vectors add column if not exists archived boolean default false;
+alter table memory_vectors add column if not exists is_summary boolean default false;
+alter table memory_vectors add column if not exists event_box_id text default null;
+alter table memory_vectors add column if not exists valence real default null;
+alter table memory_vectors add column if not exists arousal real default null;
+alter table memory_vectors add column if not exists pinned_until bigint default null;
+alter table memory_vectors add column if not exists source_id text default null;
+alter table memory_vectors add column if not exists origin text default null;
+
+-- 3. 创建索引
+create index if not exists idx_mv_char_id on memory_vectors(char_id);
+create index if not exists idx_mv_hnsw on memory_vectors
+  using hnsw (vector vector_cosine_ops);
+create index if not exists idx_mv_event_box_id on memory_vectors(event_box_id)
+  where event_box_id is not null;
+create index if not exists idx_mv_archived on memory_vectors(archived);
+
+-- 4. 相似度搜索函数（先 drop 旧版，因为返回类型变更时 replace 不允许）
+drop function if exists match_vectors(vector, text, float, int);
+create or replace function match_vectors(
+  query_embedding vector(1024),
+  match_char_id text,
+  match_threshold float default 0.3,
+  match_count int default 20
+)
+returns table (
+  memory_id text,
+  char_id text,
+  content text,
+  similarity float,
+  room text,
+  importance int,
+  tags text[],
+  mood text,
+  valence real,
+  arousal real,
+  created_at bigint,
+  last_accessed_at bigint,
+  access_count int,
+  pinned_until bigint,
+  source_id text,
+  origin text,
+  archived boolean,
+  is_summary boolean,
+  event_box_id text
+)
+language sql stable
+as $$
+  select
+    mv.memory_id,
+    mv.char_id,
+    mv.content,
+    1 - (mv.vector <=> query_embedding) as similarity,
+    mv.room,
+    mv.importance,
+    mv.tags,
+    mv.mood,
+    mv.valence,
+    mv.arousal,
+    mv.created_at,
+    mv.last_accessed_at,
+    mv.access_count,
+    mv.pinned_until,
+    mv.source_id,
+    mv.origin,
+    mv.archived,
+    mv.is_summary,
+    mv.event_box_id
+  from memory_vectors mv
+  where mv.char_id = match_char_id
+    and coalesce(mv.archived, false) = false  -- 过滤已归档节点
+    and 1 - (mv.vector <=> query_embedding) > match_threshold
+  order by mv.vector <=> query_embedding
+  limit match_count;
+$$;
+
+-- 5. 行级安全（允许 anon key 完全访问 — 这是用户自己的数据库）
+alter table memory_vectors enable row level security;
+drop policy if exists "Allow all access" on memory_vectors;
+create policy "Allow all access" on memory_vectors
+  for all using (true) with check (true);
+`.trim();
+
+// ─── Supabase REST helpers ───────────────────────────
+
+function headers(config: RemoteVectorConfig): Record<string, string> {
+    return {
+        'apikey': config.supabaseAnonKey,
+        'Authorization': `Bearer ${config.supabaseAnonKey}`,
+        'Content-Type': 'application/json',
+        'Prefer': 'return=minimal',
+    };
+}
+
+function restUrl(config: RemoteVectorConfig, path: string): string {
+    return `${config.supabaseUrl.replace(/\/+$/, '')}/rest/v1${path}`;
+}
+
+function rpcUrl(config: RemoteVectorConfig, fn: string): string {
+    return `${config.supabaseUrl.replace(/\/+$/, '')}/rest/v1/rpc/${fn}`;
+}
+
+// ─── 公共 API ────────────────────────────────────────
+
+/**
+ * 测试连接 + 检测表是否存在
+ */
+export async function testConnection(config: RemoteVectorConfig): Promise<{
+    ok: boolean;
+    tableExists: boolean;
+    message: string;
+}> {
+    try {
+        const res = await fetch(restUrl(config, '/memory_vectors?select=memory_id&limit=1'), {
+            headers: headers(config),
+        });
+
+        if (res.status === 200) {
+            return { ok: true, tableExists: true, message: '连接成功，表已就绪' };
+        }
+        if (res.status === 404 || res.status === 406) {
+            // Table doesn't exist — PostgREST returns 404 or specific error
+            return { ok: true, tableExists: false, message: '连接成功，但表尚未创建（请运行初始化 SQL）' };
+        }
+        if (res.status === 401) {
+            return { ok: false, tableExists: false, message: '认证失败：请检查 anon key' };
+        }
+        const body = await res.text().catch(() => '');
+        // Check for "relation does not exist" error
+        if (body.includes('does not exist') || body.includes('relation')) {
+            return { ok: true, tableExists: false, message: '连接成功，但表尚未创建（请运行初始化 SQL）' };
+        }
+        return { ok: false, tableExists: false, message: `服务器返回 ${res.status}: ${body.slice(0, 100)}` };
+    } catch (e: any) {
+        return { ok: false, tableExists: false, message: `连接失败: ${e.message}` };
+    }
+}
+
+/**
+ * 插入或更新向量（upsert）
+ */
+/**
+ * Decode local-vector storage forms safely for the wire format. After we
+ * switched IndexedDB to Uint8Array(Float32 raw bytes), `instanceof Float32Array`
+ * checks alone would silently miss Uint8Array and fall through to `.join`,
+ * which would stringify the BYTES instead of the floats — corrupting every
+ * remote upsert for hybrid (local+remote) users.
+ */
+function vectorToWireArray(vec: number[] | Float32Array | Uint8Array): number[] {
+    if (vec instanceof Float32Array) return Array.from(vec);
+    if (vec instanceof Uint8Array) {
+        const f32 = new Float32Array(vec.buffer, vec.byteOffset, vec.byteLength >>> 2);
+        return Array.from(f32);
+    }
+    return vec;
+}
+
+export async function upsertVector(
+    config: RemoteVectorConfig,
+    memoryId: string,
+    charId: string,
+    vector: number[] | Float32Array | Uint8Array,
+    node: MemoryNode,
+    dimensions: number,
+    model?: string,
+): Promise<boolean> {
+    try {
+        const vecArray = vectorToWireArray(vector);
+        const body = {
+            memory_id: memoryId,
+            char_id: charId,
+            content: node.content,
+            vector: `[${vecArray.join(',')}]`,
+            dimensions,
+            model: model || null,
+            room: node.room,
+            importance: node.importance,
+            tags: node.tags,
+            mood: node.mood,
+            valence: typeof node.valence === 'number' ? node.valence : null,
+            arousal: typeof node.arousal === 'number' ? node.arousal : null,
+            created_at: node.createdAt,
+            last_accessed_at: node.lastAccessedAt || node.createdAt,
+            access_count: node.accessCount || 0,
+            pinned_until: node.pinnedUntil ?? null,
+            source_id: node.sourceId ?? null,
+            origin: node.origin ?? null,
+            archived: !!node.archived,
+            is_summary: !!node.isBoxSummary,
+            event_box_id: node.eventBoxId ?? null,
+        };
+
+        const res = await fetch(restUrl(config, '/memory_vectors'), {
+            method: 'POST',
+            headers: {
+                ...headers(config),
+                'Prefer': 'resolution=merge-duplicates,return=minimal',
+            },
+            body: JSON.stringify(body),
+        });
+
+        return res.ok;
+    } catch {
+        return false;
+    }
+}
+
+/**
+ * 批量插入向量
+ */
+export async function upsertVectorBatch(
+    config: RemoteVectorConfig,
+    items: {
+        memoryId: string;
+        charId: string;
+        vector: number[] | Float32Array | Uint8Array;
+        node: MemoryNode;
+        dimensions: number;
+        model?: string;
+    }[],
+): Promise<boolean> {
+    if (items.length === 0) return true;
+    try {
+        const body = items.map(item => {
+            const vecArray = vectorToWireArray(item.vector);
+            return {
+                memory_id: item.memoryId,
+                char_id: item.charId,
+                content: item.node.content,
+                vector: `[${vecArray.join(',')}]`,
+                dimensions: item.dimensions,
+                model: item.model || null,
+                room: item.node.room,
+                importance: item.node.importance,
+                tags: item.node.tags,
+                mood: item.node.mood,
+                valence: typeof item.node.valence === 'number' ? item.node.valence : null,
+                arousal: typeof item.node.arousal === 'number' ? item.node.arousal : null,
+                created_at: item.node.createdAt,
+                last_accessed_at: item.node.lastAccessedAt || item.node.createdAt,
+                access_count: item.node.accessCount || 0,
+                pinned_until: item.node.pinnedUntil ?? null,
+                source_id: item.node.sourceId ?? null,
+                origin: item.node.origin ?? null,
+                archived: !!item.node.archived,
+                is_summary: !!item.node.isBoxSummary,
+                event_box_id: item.node.eventBoxId ?? null,
+            };
+        });
+
+        const res = await fetch(restUrl(config, '/memory_vectors'), {
+            method: 'POST',
+            headers: {
+                ...headers(config),
+                'Prefer': 'resolution=merge-duplicates,return=minimal',
+            },
+            body: JSON.stringify(body),
+        });
+
+        return res.ok;
+    } catch {
+        return false;
+    }
+}
+
+/**
+ * 向量相似度搜索（调用 match_vectors RPC 函数）
+ *
+ * ⚠️ 错误传播：网络错误（CORS / fetch 抛 TypeError）/ HTTP 非 2xx 都会向上 throw，
+ * 不再静默返回空数组。这样上层（vectorSearch.ts）才能分辨"远程挂了→禁用本会话远程路径"
+ * 和"远程正常但这次没命中→返回空"。之前的 catch{ return [] } 导致每次查询都
+ * 踩一遍 CORS + 回退到本地 getAllByCharId，造成迁移批量查询时 15 次重复加载全量向量。
+ */
+export async function searchVectors(
+    config: RemoteVectorConfig,
+    queryVector: number[] | Float32Array | Uint8Array,
+    charId: string,
+    threshold: number = 0.3,
+    topK: number = 20,
+): Promise<{
+    memoryId: string;
+    content: string;
+    similarity: number;
+    room: string;
+    importance: number;
+    tags: string[];
+    mood: string;
+    valence: number | null;
+    arousal: number | null;
+    createdAt: number;
+    lastAccessedAt: number;
+    accessCount: number;
+    pinnedUntil: number | null;
+    sourceId: string | null;
+    origin: string | null;
+    archived: boolean;
+    isSummary: boolean;
+    eventBoxId: string | null;
+}[]> {
+    const vecArray = vectorToWireArray(queryVector);
+
+    const res = await fetch(rpcUrl(config, 'match_vectors'), {
+        method: 'POST',
+        headers: headers(config),
+        body: JSON.stringify({
+            query_embedding: `[${vecArray.join(',')}]`,
+            match_char_id: charId,
+            match_threshold: threshold,
+            match_count: topK,
+        }),
+    });
+
+    if (!res.ok) {
+        throw new Error(`match_vectors HTTP ${res.status}`);
+    }
+
+    const data = await res.json();
+    return (data || []).map((row: any) => ({
+        memoryId: row.memory_id,
+        content: row.content,
+        similarity: row.similarity,
+        room: row.room,
+        importance: row.importance,
+        tags: row.tags || [],
+        mood: row.mood || '',
+        valence: typeof row.valence === 'number' ? row.valence : null,
+        arousal: typeof row.arousal === 'number' ? row.arousal : null,
+        createdAt: Number(row.created_at) || 0,
+        lastAccessedAt: Number(row.last_accessed_at) || 0,
+        accessCount: Number(row.access_count) || 0,
+        pinnedUntil: row.pinned_until != null ? Number(row.pinned_until) : null,
+        sourceId: row.source_id ?? null,
+        origin: row.origin ?? null,
+        archived: !!row.archived,
+        isSummary: !!row.is_summary,
+        eventBoxId: row.event_box_id ?? null,
+    }));
+}
+
+/**
+ * 按房间直接拉取远程记忆（PostgREST 过滤，不跑向量相似度）。
+ * 用于"本地没有向量记忆但远程有"的场景，比如记忆潜行要在客厅/卧室里
+ * 展示该脑区有哪些记忆时，直接按 room 列查远端就够了。
+ *
+ * 返回 MemoryNode 形状，方便调用方与本地结果合并/去重。
+ */
+export async function fetchRemoteByRoom(
+    config: RemoteVectorConfig,
+    charId: string,
+    room: string,
+    limit: number = 50,
+): Promise<MemoryNode[]> {
+    try {
+        const params = new URLSearchParams({
+            select: 'memory_id,char_id,content,room,importance,tags,mood,valence,arousal,created_at,last_accessed_at,access_count,pinned_until,source_id,origin,archived,is_summary,event_box_id',
+            char_id: `eq.${charId}`,
+            room: `eq.${room}`,
+            archived: 'eq.false',
+            order: 'importance.desc,last_accessed_at.desc',
+            limit: String(limit),
+        });
+        const res = await fetch(restUrl(config, `/memory_vectors?${params.toString()}`), {
+            headers: headers(config),
+        });
+        if (!res.ok) return [];
+        const rows = await res.json();
+        return (rows || []).map((row: any): MemoryNode => ({
+            id: row.memory_id,
+            charId: row.char_id,
+            content: row.content || '',
+            room: row.room,
+            tags: row.tags || [],
+            importance: row.importance ?? 5,
+            mood: row.mood || '',
+            valence: typeof row.valence === 'number' ? row.valence : undefined,
+            arousal: typeof row.arousal === 'number' ? row.arousal : undefined,
+            embedded: true, // 远程就是向量表，默认视为已 embedded
+            createdAt: Number(row.created_at) || 0,
+            lastAccessedAt: Number(row.last_accessed_at) || 0,
+            accessCount: Number(row.access_count) || 0,
+            pinnedUntil: row.pinned_until != null ? Number(row.pinned_until) : null,
+            sourceId: row.source_id ?? null,
+            origin: row.origin ?? undefined,
+            archived: !!row.archived,
+            isBoxSummary: !!row.is_summary,
+            eventBoxId: row.event_box_id ?? null,
+        }));
+    } catch {
+        return [];
+    }
+}
+
+/**
+ * 批量把一组向量标记为 archived（EventBox 压缩时用）
+ * 通过 PATCH 单发多 ID，避免 N 次 upsert
+ */
+export async function bulkSetArchived(
+    config: RemoteVectorConfig,
+    memoryIds: string[],
+    archived: boolean,
+): Promise<boolean> {
+    if (memoryIds.length === 0) return true;
+    try {
+        // PostgREST `in.(...)` filter
+        const idList = memoryIds.map(id => encodeURIComponent(id)).join(',');
+        const res = await fetch(restUrl(config, `/memory_vectors?memory_id=in.(${idList})`), {
+            method: 'PATCH',
+            headers: {
+                ...headers(config),
+                'Prefer': 'return=minimal',
+            },
+            body: JSON.stringify({ archived }),
+        });
+        return res.ok;
+    } catch {
+        return false;
+    }
+}
+
+/**
+ * 批量把一组向量的 room 字段改成同一个值（consolidation 晋升/驱逐时用）
+ * promotion 全部 → bedroom，eviction 全部 → attic，所以只需两次 PATCH。
+ *
+ * 注意：只改 memory_vectors.room，content / importance / 向量本身都不动。
+ * 所以即便 memory_id 在远端不存在（用户后启用云同步，老节点只在本地），
+ * PATCH 也只是 no-op 更新 0 行，不会造成数据污染。
+ */
+export async function bulkSetRoom(
+    config: RemoteVectorConfig,
+    memoryIds: string[],
+    room: string,
+): Promise<boolean> {
+    if (memoryIds.length === 0) return true;
+    try {
+        const idList = memoryIds.map(id => encodeURIComponent(id)).join(',');
+        const res = await fetch(restUrl(config, `/memory_vectors?memory_id=in.(${idList})`), {
+            method: 'PATCH',
+            headers: {
+                ...headers(config),
+                'Prefer': 'return=minimal',
+            },
+            body: JSON.stringify({ room }),
+        });
+        return res.ok;
+    } catch {
+        return false;
+    }
+}
+
+/**
+ * 删除向量
+ */
+export async function deleteVector(config: RemoteVectorConfig, memoryId: string): Promise<boolean> {
+    try {
+        const res = await fetch(restUrl(config, `/memory_vectors?memory_id=eq.${encodeURIComponent(memoryId)}`), {
+            method: 'DELETE',
+            headers: headers(config),
+        });
+        return res.ok;
+    } catch {
+        return false;
+    }
+}
+
+/**
+ * 获取远程向量数量（用于 UI 显示）
+ */
+export async function getVectorCount(config: RemoteVectorConfig, charId?: string): Promise<number> {
+    try {
+        const filter = charId ? `&char_id=eq.${encodeURIComponent(charId)}` : '';
+        const res = await fetch(restUrl(config, `/memory_vectors?select=memory_id${filter}`), {
+            method: 'HEAD',
+            headers: {
+                ...headers(config),
+                'Prefer': 'count=exact',
+            },
+        });
+        const range = res.headers.get('content-range');
+        if (range) {
+            const match = range.match(/\/(\d+)/);
+            if (match) return parseInt(match[1], 10);
+        }
+        return 0;
+    } catch {
+        return 0;
+    }
+}
+
+/**
+ * 将本地向量同步到远程（一次性迁移）
+ */
+export async function syncLocalToRemote(
+    config: RemoteVectorConfig,
+    getLocalVectors: () => Promise<{ memoryId: string; charId: string; vector: number[] | Float32Array | Uint8Array; node: MemoryNode; dimensions: number; model?: string }[]>,
+    onProgress?: (done: number, total: number) => void,
+): Promise<{ synced: number; failed: number }> {
+    const locals = await getLocalVectors();
+    if (locals.length === 0) return { synced: 0, failed: 0 };
+
+    let synced = 0, failed = 0;
+    const BATCH = 50;
+
+    for (let i = 0; i < locals.length; i += BATCH) {
+        const batch = locals.slice(i, i + BATCH);
+        const ok = await upsertVectorBatch(config, batch);
+        if (ok) {
+            synced += batch.length;
+        } else {
+            failed += batch.length;
+        }
+        onProgress?.(Math.min(i + BATCH, locals.length), locals.length);
+    }
+
+    return { synced, failed };
+}

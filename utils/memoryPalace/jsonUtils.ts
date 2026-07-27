@@ -1,1 +1,138 @@
-LyoqCiAqIE1lbW9yeSBQYWxhY2Ug4oCUIEpTT04g5a6J5YWo6Kej5p6Q5bel5YW3CiAqCiAqIExMTSDov5Tlm57nmoQgSlNPTiDnu4/luLjmnInmoLzlvI/pl67popjvvJoKICogLSDmnKrovazkuYnnmoTlvJXlj7cKICogLSDlsL7pmo/pgJflj7cKICogLSBtYXhfdG9rZW5zIOaIquaWreWvvOiHtCBKU09OIOS4jeWujOaVtO+8iOacgOW4uOinge+8ge+8iQogKiAtIE1hcmtkb3duIOS7o+eggeWdl+WMheijuQogKgogKiDlm5vlsYIgZmFsbGJhY2sg56Gu5L+d5bC95Y+v6IO95aSa5Zyw6Kej5p6Q5oiQ5Yqf44CCCiAqLwoKLyoqCiAqIOS7jiBMTE0g5Zue5aSN5Lit5a6J5YWo5o+Q5Y+W5bm26Kej5p6QIEpTT04g5pWw57uECiAqLwpleHBvcnQgZnVuY3Rpb24gc2FmZVBhcnNlSnNvbkFycmF5KHJhdzogc3RyaW5nKTogYW55W10gewogICAgaWYgKCFyYXcgfHwgIXJhdy50cmltKCkpIHJldHVybiBbXTsKCiAgICAvLyDljrvmjokgbWFya2Rvd24g5Luj56CB5Z2X5YyF6KO5CiAgICBsZXQgY2xlYW5lZCA9IHJhdy5yZXBsYWNlKC9gYGAoPzpqc29uKT9ccyovZywgJycpLnJlcGxhY2UoL2BgYC9nLCAnJykudHJpbSgpOwoKICAgIC8vIDEuIOWwneivleaPkOWPluWujOaVtOeahCBbLi4uXSDlnZcKICAgIGNvbnN0IGZ1bGxNYXRjaCA9IGNsZWFuZWQubWF0Y2goL1xbW1xzXFNdKlxdLyk7CiAgICBpZiAoZnVsbE1hdGNoKSB7CiAgICAgICAgLy8g55u05o6l6Kej5p6QCiAgICAgICAgdHJ5IHsKICAgICAgICAgICAgY29uc3QgcmVzdWx0ID0gSlNPTi5wYXJzZShmdWxsTWF0Y2hbMF0pOwogICAgICAgICAgICBpZiAoQXJyYXkuaXNBcnJheShyZXN1bHQpKSByZXR1cm4gcmVzdWx0OwogICAgICAgIH0gY2F0Y2ggeyAvKiBjb250aW51ZSAqLyB9CgogICAgICAgIC8vIOS/ruWkjeWQjuino+aekAogICAgICAgIHRyeSB7CiAgICAgICAgICAgIGNvbnN0IGZpeGVkID0gZml4QnJva2VuSnNvbihmdWxsTWF0Y2hbMF0pOwogICAgICAgICAgICBjb25zdCByZXN1bHQgPSBKU09OLnBhcnNlKGZpeGVkKTsKICAgICAgICAgICAgaWYgKEFycmF5LmlzQXJyYXkocmVzdWx0KSkgcmV0dXJuIHJlc3VsdDsKICAgICAgICB9IGNhdGNoIHsgLyogY29udGludWUgKi8gfQoKICAgICAgICAvLyDpgJDlr7nosaHmiqLmlZEKICAgICAgICBjb25zdCBzYWx2YWdlZCA9IHNhbHZhZ2VPYmplY3RzKGZ1bGxNYXRjaFswXSk7CiAgICAgICAgaWYgKHNhbHZhZ2VkLmxlbmd0aCA+IDApIHJldHVybiBzYWx2YWdlZDsKICAgIH0KCiAgICAvLyAyLiDmsqHmnInlrozmlbQgWy4uLl0g4oaSIOWPr+iDveaYr+iiqyBtYXhfdG9rZW5zIOaIquaWreS6hgogICAgLy8gICAg5om+5YiwIFsg5byA5aeL77yM5bC95Yqb5LuO5oiq5pat55qE5YaF5a655Lit5oqi5pWR5a6M5pW055qE5a+56LGhCiAgICBjb25zdCBvcGVuQnJhY2tldElkeCA9IGNsZWFuZWQuaW5kZXhPZignWycpOwogICAgaWYgKG9wZW5CcmFja2V0SWR4ID49IDApIHsKICAgICAgICBjb25zdCB0cnVuY2F0ZWQgPSBjbGVhbmVkLnNsaWNlKG9wZW5CcmFja2V0SWR4KTsKICAgICAgICBjb25zdCBzYWx2YWdlZCA9IHNhbHZhZ2VPYmplY3RzKHRydW5jYXRlZCk7CiAgICAgICAgaWYgKHNhbHZhZ2VkLmxlbmd0aCA+IDApIHsKICAgICAgICAgICAgY29uc29sZS53YXJuKGDimqEgW0pTT05dIFNhbHZhZ2VkICR7c2FsdmFnZWQubGVuZ3RofSBvYmplY3RzIGZyb20gdHJ1bmNhdGVkIHJlc3BvbnNlYCk7CiAgICAgICAgICAgIHJldHVybiBzYWx2YWdlZDsKICAgICAgICB9CiAgICB9CgogICAgLy8gMy4g6L+eIFsg6YO95rKh5pyJ77yM55u05o6l5LuO5pW05Liq5paH5pys5Lit5oqi5pWRIHsuLi59IOWdlwogICAgY29uc3QgbGFzdFJlc29ydCA9IHNhbHZhZ2VPYmplY3RzKGNsZWFuZWQpOwogICAgaWYgKGxhc3RSZXNvcnQubGVuZ3RoID4gMCkgewogICAgICAgIGNvbnNvbGUud2Fybihg4pqhIFtKU09OXSBMYXN0IHJlc29ydDogc2FsdmFnZWQgJHtsYXN0UmVzb3J0Lmxlbmd0aH0gb2JqZWN0c2ApOwogICAgICAgIHJldHVybiBsYXN0UmVzb3J0OwogICAgfQoKICAgIHJldHVybiBbXTsKfQoKLyoqIOS/ruWkjSBMTE0g6L6T5Ye655qEIEpTT04g5Lit5bi46KeB5qC85byP6ZSZ6K+vICovCmZ1bmN0aW9uIGZpeEJyb2tlbkpzb24oczogc3RyaW5nKTogc3RyaW5nIHsKICAgIC8vIOWwvumaj+mAl+WPtyAsXSDmiJYgLH0KICAgIHMgPSBzLnJlcGxhY2UoLyxccyooW31cXV0pL2csICckMScpOwogICAgLy8g5bGe5oCn5ZCN5Y2V5byV5Y+34oaS5Y+M5byV5Y+3CiAgICBzID0gcy5yZXBsYWNlKC8nKFx3KyknXHMqOi9nLCAnIiQxIjonKTsKICAgIC8vIOWtl+espuS4suWAvOS4reeahOacqui9rOS5ieaNouihjAogICAgcyA9IHMucmVwbGFjZSgvIihbXiJdKilcbihbXiJdKikiL2csIChfLCBhLCBiKSA9PiBgIiR7YX1cXG4ke2J9ImApOwogICAgcmV0dXJuIHM7Cn0KCi8qKiDmjIkgey4uLn0g5Z2X6YCQ5Liq5bCd6K+V6Kej5p6Q77yM6IO95pWR5aSa5bCR5pWR5aSa5bCRCiAqCiAqIOKaoO+4jyDkuI3opoHnlKjmraPliJkgYC9ceyg/Oltee31bXF1dKnxce1tee31dKlx9fFxbW15cW1xdXSpcXSkqXH0vZ2Ag5Y675YiH5a+56LGh4oCU4oCUCiAqIOi/meenjeW4puW1jOWll+mAieaLqSArIOWkluWxgiAqIOeahCByZWdleCDlnKggVjgg5byV5pOO5LiL5pyJKirngb7pmr7mgKflm57muq8qKumjjumZqe+8mgogKiDkuIDmnaEgTExNIOWbnuWkjemHjOafkOS4qiBjb250ZW50IOWtl+espuS4sueisOW3p+W4puS4quijuCBge2Ag5oiW57uT5p6E6KKr5oiq5pat5LiA5Y2K77yMCiAqIHJlZ2V4IOWwseS8muaMh+aVsOaXtumXtOeIhueCuO+8jOaVtOS4quS4u+e6v+eoi+iiq+mUgeatu++8iOeUqOaItyBGMTIg6YO95omT5LiN5byA77yJ44CCCiAqIOWunua1i+inpuWPkei/h+S4gOasoSBHZW1pbmkgMy4xIHBybyBwcmV2aWV3IOi/lOWbnui/geenu+iusOW/huaKiumhtemdouWujOWFqOWGu+S9j+OAggogKgogKiDmlLnmiJDnur/mgKfnirbmgIHmnLrmiavmj4/vvJpPKG4pIOWtl+espue6p+mBjeWOhu+8jOi/vei4qiBicmFjZSDmt7HluqYgKyBzdHJpbmcg5LiK5LiL5paH77yMCiAqIOWPlumhtuWxgumFjeW5s+eahCBgey4uLn1gIOeJh+auteOAguWPr+aOp+OAgeaXoOWbnua6r+OAgeawuOi/nOS4jeS8muWGuyBVSeOAggogKi8KZnVuY3Rpb24gc2FsdmFnZU9iamVjdHMocmF3OiBzdHJpbmcpOiBhbnlbXSB7CiAgICBjb25zdCByZXN1bHRzOiBhbnlbXSA9IFtdOwogICAgY29uc3QgbiA9IHJhdy5sZW5ndGg7CiAgICBsZXQgaSA9IDA7CiAgICB3aGlsZSAoaSA8IG4pIHsKICAgICAgICAvLyDot7PliLDkuIvkuIDkuKrmvZzlnKjlr7nosaHotbfngrkKICAgICAgICBjb25zdCBzdGFydCA9IHJhdy5pbmRleE9mKCd7JywgaSk7CiAgICAgICAgaWYgKHN0YXJ0IDwgMCkgYnJlYWs7CgogICAgICAgIC8vIOS7jiBzdGFydCDlvIDlp4vmiavliLDphY3lubPnmoQgfQogICAgICAgIGxldCBkZXB0aCA9IDA7CiAgICAgICAgbGV0IGluU3RyaW5nID0gZmFsc2U7CiAgICAgICAgbGV0IGVzY2FwZWQgPSBmYWxzZTsKICAgICAgICBsZXQgZW5kID0gLTE7CiAgICAgICAgZm9yIChsZXQgaiA9IHN0YXJ0OyBqIDwgbjsgaisrKSB7CiAgICAgICAgICAgIGNvbnN0IGNoID0gcmF3LmNoYXJDb2RlQXQoaik7CiAgICAgICAgICAgIGlmIChlc2NhcGVkKSB7IGVzY2FwZWQgPSBmYWxzZTsgY29udGludWU7IH0KICAgICAgICAgICAgaWYgKGluU3RyaW5nKSB7CiAgICAgICAgICAgICAgICBpZiAoY2ggPT09IDkyIC8qIFwgKi8pIGVzY2FwZWQgPSB0cnVlOwogICAgICAgICAgICAgICAgZWxzZSBpZiAoY2ggPT09IDM0IC8qICIgKi8pIGluU3RyaW5nID0gZmFsc2U7CiAgICAgICAgICAgICAgICBjb250aW51ZTsKICAgICAgICAgICAgfQogICAgICAgICAgICBpZiAoY2ggPT09IDM0IC8qICIgKi8pIHsgaW5TdHJpbmcgPSB0cnVlOyBjb250aW51ZTsgfQogICAgICAgICAgICBpZiAoY2ggPT09IDEyMyAvKiB7ICovKSBkZXB0aCsrOwogICAgICAgICAgICBlbHNlIGlmIChjaCA9PT0gMTI1IC8qIH0gKi8pIHsKICAgICAgICAgICAgICAgIGRlcHRoLS07CiAgICAgICAgICAgICAgICBpZiAoZGVwdGggPT09IDApIHsgZW5kID0gajsgYnJlYWs7IH0KICAgICAgICAgICAgfQogICAgICAgIH0KCiAgICAgICAgaWYgKGVuZCA8IDApIGJyZWFrOyAvLyDmsqHphY3lubPvvIzmlL7lvIPlkI7nu63vvIjmraPluLjmiKrmlq3mg4XlhrXvvIkKICAgICAgICBjb25zdCBjYW5kaWRhdGUgPSByYXcuc2xpY2Uoc3RhcnQsIGVuZCArIDEpOwogICAgICAgIGkgPSBlbmQgKyAxOwoKICAgICAgICAvLyDnrKzkuIDlsYLvvJrnm7TmjqXop6PmnpAKICAgICAgICB0cnkgewogICAgICAgICAgICBjb25zdCBvYmogPSBKU09OLnBhcnNlKGNhbmRpZGF0ZSk7CiAgICAgICAgICAgIGlmIChvYmogJiYgdHlwZW9mIG9iaiA9PT0gJ29iamVjdCcpIHsKICAgICAgICAgICAgICAgIHJlc3VsdHMucHVzaChvYmopOwogICAgICAgICAgICAgICAgY29udGludWU7CiAgICAgICAgICAgIH0KICAgICAgICB9IGNhdGNoIHsgLyogdHJ5IGZpeCAqLyB9CiAgICAgICAgLy8g56ys5LqM5bGC77ya5L+u5aSN5ZCO6Kej5p6QCiAgICAgICAgdHJ5IHsKICAgICAgICAgICAgY29uc3Qgb2JqID0gSlNPTi5wYXJzZShmaXhCcm9rZW5Kc29uKGNhbmRpZGF0ZSkpOwogICAgICAgICAgICBpZiAob2JqICYmIHR5cGVvZiBvYmogPT09ICdvYmplY3QnKSB7CiAgICAgICAgICAgICAgICByZXN1bHRzLnB1c2gob2JqKTsKICAgICAgICAgICAgfQogICAgICAgIH0gY2F0Y2ggeyAvKiBza2lwIHRoaXMgb2JqZWN0ICovIH0KICAgIH0KICAgIHJldHVybiByZXN1bHRzOwp9Cg==
+/**
+ * Memory Palace — JSON 安全解析工具
+ *
+ * LLM 返回的 JSON 经常有格式问题：
+ * - 未转义的引号
+ * - 尾随逗号
+ * - max_tokens 截断导致 JSON 不完整（最常见！）
+ * - Markdown 代码块包裹
+ *
+ * 四层 fallback 确保尽可能多地解析成功。
+ */
+
+/**
+ * 从 LLM 回复中安全提取并解析 JSON 数组
+ */
+export function safeParseJsonArray(raw: string): any[] {
+    if (!raw || !raw.trim()) return [];
+
+    // 去掉 markdown 代码块包裹
+    let cleaned = raw.replace(/```(?:json)?\s*/g, '').replace(/```/g, '').trim();
+
+    // 1. 尝试提取完整的 [...] 块
+    const fullMatch = cleaned.match(/\[[\s\S]*\]/);
+    if (fullMatch) {
+        // 直接解析
+        try {
+            const result = JSON.parse(fullMatch[0]);
+            if (Array.isArray(result)) return result;
+        } catch { /* continue */ }
+
+        // 修复后解析
+        try {
+            const fixed = fixBrokenJson(fullMatch[0]);
+            const result = JSON.parse(fixed);
+            if (Array.isArray(result)) return result;
+        } catch { /* continue */ }
+
+        // 逐对象抢救
+        const salvaged = salvageObjects(fullMatch[0]);
+        if (salvaged.length > 0) return salvaged;
+    }
+
+    // 2. 没有完整 [...] → 可能是被 max_tokens 截断了
+    //    找到 [ 开始，尽力从截断的内容中抢救完整的对象
+    const openBracketIdx = cleaned.indexOf('[');
+    if (openBracketIdx >= 0) {
+        const truncated = cleaned.slice(openBracketIdx);
+        const salvaged = salvageObjects(truncated);
+        if (salvaged.length > 0) {
+            console.warn(`⚡ [JSON] Salvaged ${salvaged.length} objects from truncated response`);
+            return salvaged;
+        }
+    }
+
+    // 3. 连 [ 都没有，直接从整个文本中抢救 {...} 块
+    const lastResort = salvageObjects(cleaned);
+    if (lastResort.length > 0) {
+        console.warn(`⚡ [JSON] Last resort: salvaged ${lastResort.length} objects`);
+        return lastResort;
+    }
+
+    return [];
+}
+
+/** 修复 LLM 输出的 JSON 中常见格式错误 */
+function fixBrokenJson(s: string): string {
+    // 尾随逗号 ,] 或 ,}
+    s = s.replace(/,\s*([}\]])/g, '$1');
+    // 属性名单引号→双引号
+    s = s.replace(/'(\w+)'\s*:/g, '"$1":');
+    // 字符串值中的未转义换行
+    s = s.replace(/"([^"]*)\n([^"]*)"/g, (_, a, b) => `"${a}\\n${b}"`);
+    return s;
+}
+
+/** 按 {...} 块逐个尝试解析，能救多少救多少
+ *
+ * ⚠️ 不要用正则 `/\{(?:[^{}[\]]*|\{[^{}]*\}|\[[^\[\]]*\])*\}/g` 去切对象——
+ * 这种带嵌套选择 + 外层 * 的 regex 在 V8 引擎下有**灾难性回溯**风险：
+ * 一条 LLM 回复里某个 content 字符串碰巧带个裸 `{` 或结构被截断一半，
+ * regex 就会指数时间爆炸，整个主线程被锁死（用户 F12 都打不开）。
+ * 实测触发过一次 Gemini 3.1 pro preview 返回迁移记忆把页面完全冻住。
+ *
+ * 改成线性状态机扫描：O(n) 字符级遍历，追踪 brace 深度 + string 上下文，
+ * 取顶层配平的 `{...}` 片段。可控、无回溯、永远不会冻 UI。
+ */
+function salvageObjects(raw: string): any[] {
+    const results: any[] = [];
+    const n = raw.length;
+    let i = 0;
+    while (i < n) {
+        // 跳到下一个潜在对象起点
+        const start = raw.indexOf('{', i);
+        if (start < 0) break;
+
+        // 从 start 开始扫到配平的 }
+        let depth = 0;
+        let inString = false;
+        let escaped = false;
+        let end = -1;
+        for (let j = start; j < n; j++) {
+            const ch = raw.charCodeAt(j);
+            if (escaped) { escaped = false; continue; }
+            if (inString) {
+                if (ch === 92 /* \ */) escaped = true;
+                else if (ch === 34 /* " */) inString = false;
+                continue;
+            }
+            if (ch === 34 /* " */) { inString = true; continue; }
+            if (ch === 123 /* { */) depth++;
+            else if (ch === 125 /* } */) {
+                depth--;
+                if (depth === 0) { end = j; break; }
+            }
+        }
+
+        if (end < 0) break; // 没配平，放弃后续（正常截断情况）
+        const candidate = raw.slice(start, end + 1);
+        i = end + 1;
+
+        // 第一层：直接解析
+        try {
+            const obj = JSON.parse(candidate);
+            if (obj && typeof obj === 'object') {
+                results.push(obj);
+                continue;
+            }
+        } catch { /* try fix */ }
+        // 第二层：修复后解析
+        try {
+            const obj = JSON.parse(fixBrokenJson(candidate));
+            if (obj && typeof obj === 'object') {
+                results.push(obj);
+            }
+        } catch { /* skip this object */ }
+    }
+    return results;
+}

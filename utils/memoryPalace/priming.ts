@@ -1,1 +1,73 @@
-LyoqCiAqIE1lbW9yeSBQYWxhY2Ug4oCUIOWQr+WKqOaViOW6lCAoUHJpbWluZykgKyDlj43liI0gKFJ1bWluYXRpb24pCiAqCiAqIOWQr+WKqOaViOW6lO+8muW9k+WJjeaDhee7quWBj+e9ruajgOe0oue7k+aenO+8iOW8gOW/g+aXtuabtOWuueaYk+aDs+i1t+W8gOW/g+eahOS6i++8iQogKiDlj43liI3vvJrpmIHmpbzph4znmoTorrDlv4bmnInmpoLnjoci5LiN6K+36Ieq5p2lIuWcsOa1rueOsAogKi8KCmltcG9ydCB0eXBlIHsgTWVtb3J5Tm9kZSwgU2NvcmVkTWVtb3J5IH0gZnJvbSAnLi90eXBlcyc7CmltcG9ydCB7IE1lbW9yeU5vZGVEQiB9IGZyb20gJy4vZGInOwppbXBvcnQgeyBnZXRFbW90aW9uVkEsIG1vb2RUb1ZBLCBlbW90aW9uRGlzdGFuY2UgfSBmcm9tICcuL2Vtb3Rpb25TcGFjZSc7CgovKiog6Led56a75Li6IDAg5pe255qE5pyA5aSn5Yqg5oiQ77yb6Led56a7ID49IFBSSU1JTkdfUkFESVVTIOaXtuS4jeWKoOaIkCAqLwpjb25zdCBQUklNSU5HX01BWF9CT09TVCA9IDEuMzsKLyoqIOinhuS9nCLmg4XmhJ/nm7jlhbMi55qE6Led56a76ZiI5YC844CC6IyD5Zu057KX55WlIDAgfiAyLjgz77yMMC41IOimhueblue6piAxLzQg5oOF5oSf5bmz6Z2iICovCmNvbnN0IFBSSU1JTkdfUkFESVVTID0gMC41OwoKLyoqCiAqIOWQr+WKqOaViOW6lO+8muW9k+WJjeaDhee7quWMuemFjeeahOiusOW/huaPkOWNh+WIhuaVsAogKgogKiDljYfnuqflkI7kvb/nlKggUnVzc2VsbCDmg4XmhJ/nqbrpl7TnmoTkuoznu7Tot53nprvvvIzogIzpnZ7lrZfnrKbkuLLnsr7noa7ljLnphY3jgIIKICog5aW95aSE77yaJ2hhcHB5JyDop5LoibLog73llKTotbcgJ2dyYXRlZnVsJyAvICdleGNpdGVkJyDnrYnpgrvov5Hmg4Xnu6rnmoTorrDlv4bvvIwKICog5LiN5YaN5Y2hIExMTSDliJrlpb3nlKjlkIzkuIDkuKror43jgIIKICoKICog6Led56a76KGw5YeP77ya57q/5oCn44CC6Led56a7IDAg4oaSIMOXMS4z77yb6Led56a7ID0gUkFESVVTIOKGkiDDlzEuMOOAggogKgogKiBAcGFyYW0gcmVzdWx0cyDlgJnpgInorrDlv4YKICogQHBhcmFtIGN1cnJlbnRNb29kIOinkuiJsuW9k+WJjeaDhee7quWtl+espuS4su+8iOmAmui/hyBtb29kVG9WQSDovazkuLrlnZDmoIfvvInvvIwKICogICAgICAgICAgICAgICAgICAgIOaIluebtOaOpeS8oOWFpSB7IHYsIGEgfSDlnZDmoIflr7nosaHjgIIKICovCmV4cG9ydCBmdW5jdGlvbiBhcHBseVByaW1pbmcoCiAgICByZXN1bHRzOiBTY29yZWRNZW1vcnlbXSwKICAgIGN1cnJlbnRNb29kOiBzdHJpbmcgfCB7IHY6IG51bWJlcjsgYTogbnVtYmVyIH0gfCB1bmRlZmluZWQsCik6IFNjb3JlZE1lbW9yeVtdIHsKICAgIGlmICghY3VycmVudE1vb2QpIHJldHVybiByZXN1bHRzOwoKICAgIGNvbnN0IGN1ciA9IHR5cGVvZiBjdXJyZW50TW9vZCA9PT0gJ3N0cmluZycgPyBtb29kVG9WQShjdXJyZW50TW9vZCkgOiBjdXJyZW50TW9vZDsKICAgIC8vIOWdkOagh+WcqOWOn+eCue+8iG5ldXRyYWzvvInlsLHkuI3lgZrliqDmiJDvvIzpgb/lhY3lhajlsYDmiqzliIYKICAgIGlmIChjdXIudiA9PT0gMCAmJiBjdXIuYSA9PT0gMCkgcmV0dXJuIHJlc3VsdHM7CgogICAgcmV0dXJuIHJlc3VsdHMubWFwKHIgPT4gewogICAgICAgIGNvbnN0IG1lbVZBID0gZ2V0RW1vdGlvblZBKHIubm9kZSk7CiAgICAgICAgY29uc3QgZGlzdCA9IGVtb3Rpb25EaXN0YW5jZShtZW1WQSwgY3VyKTsKICAgICAgICBpZiAoZGlzdCA+PSBQUklNSU5HX1JBRElVUykgcmV0dXJuIHI7CiAgICAgICAgLy8g6Led56a7IDAg4oaSIOa7oeWKoOaIkO+8m+i3neemuyA9IFJBRElVUyDihpIg5peg5Yqg5oiQCiAgICAgICAgY29uc3QgYm9vc3QgPSAxICsgKFBSSU1JTkdfTUFYX0JPT1NUIC0gMSkgKiAoMSAtIGRpc3QgLyBQUklNSU5HX1JBRElVUyk7CiAgICAgICAgcmV0dXJuIHsgLi4uciwgZmluYWxTY29yZTogci5maW5hbFNjb3JlICogYm9vc3QgfTsKICAgIH0pOwp9CgovKioKICog5Y+N5YiN5qOA5p+l77ya6ZiB5qW86K6w5b+G5pyJ5qaC546H6ZqP5py65rWu546wCiAqCiAqIOWPjeWIjeamgueOhyA9IHRlbmRlbmN5IMOXIDAuMu+8iOacgOmrmCAyMCXvvIkKICoKICogQHBhcmFtIGNoYXJJZCDop5LoibIgSUQKICogQHBhcmFtIHRlbmRlbmN5IOWPjeWIjeWAvuWQkSAwLTHvvIzpu5jorqQgMC4zCiAqIEByZXR1cm5zIOS4gOadoemaj+acuumYgealvOiusOW/hu+8jOaIliBudWxsCiAqLwpleHBvcnQgYXN5bmMgZnVuY3Rpb24gY2hlY2tSdW1pbmF0aW9uKAogICAgY2hhcklkOiBzdHJpbmcsCiAgICB0ZW5kZW5jeTogbnVtYmVyID0gMC4zLAopOiBQcm9taXNlPE1lbW9yeU5vZGUgfCBudWxsPiB7CiAgICBjb25zdCBwcm9iYWJpbGl0eSA9IE1hdGgubWluKHRlbmRlbmN5LCAxKSAqIDAuMjsKCiAgICBpZiAoTWF0aC5yYW5kb20oKSA+IHByb2JhYmlsaXR5KSByZXR1cm4gbnVsbDsKCiAgICAvLyDku47pmIHmpbzpmo/mnLrlj5bkuIDmnaEKICAgIGNvbnN0IGF0dGljTm9kZXMgPSBhd2FpdCBNZW1vcnlOb2RlREIuZ2V0QnlSb29tKGNoYXJJZCwgJ2F0dGljJyk7CiAgICBpZiAoYXR0aWNOb2Rlcy5sZW5ndGggPT09IDApIHJldHVybiBudWxsOwoKICAgIGNvbnN0IHJhbmRvbUluZGV4ID0gTWF0aC5mbG9vcihNYXRoLnJhbmRvbSgpICogYXR0aWNOb2Rlcy5sZW5ndGgpOwogICAgcmV0dXJuIGF0dGljTm9kZXNbcmFuZG9tSW5kZXhdOwp9Cg==
+/**
+ * Memory Palace — 启动效应 (Priming) + 反刍 (Rumination)
+ *
+ * 启动效应：当前情绪偏置检索结果（开心时更容易想起开心的事）
+ * 反刍：阁楼里的记忆有概率"不请自来"地浮现
+ */
+
+import type { MemoryNode, ScoredMemory } from './types';
+import { MemoryNodeDB } from './db';
+import { getEmotionVA, moodToVA, emotionDistance } from './emotionSpace';
+
+/** 距离为 0 时的最大加成；距离 >= PRIMING_RADIUS 时不加成 */
+const PRIMING_MAX_BOOST = 1.3;
+/** 视作"情感相关"的距离阈值。范围粗略 0 ~ 2.83，0.5 覆盖约 1/4 情感平面 */
+const PRIMING_RADIUS = 0.5;
+
+/**
+ * 启动效应：当前情绪匹配的记忆提升分数
+ *
+ * 升级后使用 Russell 情感空间的二维距离，而非字符串精确匹配。
+ * 好处：'happy' 角色能唤起 'grateful' / 'excited' 等邻近情绪的记忆，
+ * 不再卡 LLM 刚好用同一个词。
+ *
+ * 距离衰减：线性。距离 0 → ×1.3；距离 = RADIUS → ×1.0。
+ *
+ * @param results 候选记忆
+ * @param currentMood 角色当前情绪字符串（通过 moodToVA 转为坐标），
+ *                    或直接传入 { v, a } 坐标对象。
+ */
+export function applyPriming(
+    results: ScoredMemory[],
+    currentMood: string | { v: number; a: number } | undefined,
+): ScoredMemory[] {
+    if (!currentMood) return results;
+
+    const cur = typeof currentMood === 'string' ? moodToVA(currentMood) : currentMood;
+    // 坐标在原点（neutral）就不做加成，避免全局抬分
+    if (cur.v === 0 && cur.a === 0) return results;
+
+    return results.map(r => {
+        const memVA = getEmotionVA(r.node);
+        const dist = emotionDistance(memVA, cur);
+        if (dist >= PRIMING_RADIUS) return r;
+        // 距离 0 → 满加成；距离 = RADIUS → 无加成
+        const boost = 1 + (PRIMING_MAX_BOOST - 1) * (1 - dist / PRIMING_RADIUS);
+        return { ...r, finalScore: r.finalScore * boost };
+    });
+}
+
+/**
+ * 反刍检查：阁楼记忆有概率随机浮现
+ *
+ * 反刍概率 = tendency × 0.2（最高 20%）
+ *
+ * @param charId 角色 ID
+ * @param tendency 反刍倾向 0-1，默认 0.3
+ * @returns 一条随机阁楼记忆，或 null
+ */
+export async function checkRumination(
+    charId: string,
+    tendency: number = 0.3,
+): Promise<MemoryNode | null> {
+    const probability = Math.min(tendency, 1) * 0.2;
+
+    if (Math.random() > probability) return null;
+
+    // 从阁楼随机取一条
+    const atticNodes = await MemoryNodeDB.getByRoom(charId, 'attic');
+    if (atticNodes.length === 0) return null;
+
+    const randomIndex = Math.floor(Math.random() * atticNodes.length);
+    return atticNodes[randomIndex];
+}

@@ -1,1 +1,20 @@
-ZXhwb3J0IGludGVyZmFjZSBDaGFyYWN0ZXJMYXVuY2hJbnRlbnQgewogICAgY2hhcklkOiBzdHJpbmc7CiAgICBvcGVuQ2hpYmlTdHVkaW8/OiBib29sZWFuOwp9CgpsZXQgcGVuZGluZzogQ2hhcmFjdGVyTGF1bmNoSW50ZW50IHwgbnVsbCA9IG51bGw7CgpleHBvcnQgY29uc3QgY2hhcmFjdGVyTGF1bmNoID0gewogICAgcmVxdWVzdChpbnRlbnQ6IENoYXJhY3RlckxhdW5jaEludGVudCk6IHZvaWQgewogICAgICAgIHBlbmRpbmcgPSBpbnRlbnQ7CiAgICB9LAogICAgcGVlaygpOiBDaGFyYWN0ZXJMYXVuY2hJbnRlbnQgfCBudWxsIHsKICAgICAgICByZXR1cm4gcGVuZGluZzsKICAgIH0sCiAgICBjb25zdW1lKCk6IENoYXJhY3RlckxhdW5jaEludGVudCB8IG51bGwgewogICAgICAgIGNvbnN0IHZhbHVlID0gcGVuZGluZzsKICAgICAgICBwZW5kaW5nID0gbnVsbDsKICAgICAgICByZXR1cm4gdmFsdWU7CiAgICB9LAp9Owo=
+export interface CharacterLaunchIntent {
+    charId: string;
+    openChibiStudio?: boolean;
+}
+
+let pending: CharacterLaunchIntent | null = null;
+
+export const characterLaunch = {
+    request(intent: CharacterLaunchIntent): void {
+        pending = intent;
+    },
+    peek(): CharacterLaunchIntent | null {
+        return pending;
+    },
+    consume(): CharacterLaunchIntent | null {
+        const value = pending;
+        pending = null;
+        return value;
+    },
+};

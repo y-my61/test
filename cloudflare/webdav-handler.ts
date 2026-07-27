@@ -1,1 +1,118 @@
-LyoqCiAqIFdlYkRBViBwcm94eSByb3V0ZSBoYW5kbGVyIGZvciBDbG91ZGZsYXJlIFdvcmtlcgogKgogKiBBZGQgdGhpcyB0byB5b3VyIGV4aXN0aW5nIHN1bGx5LW4gV29ya2VyLgogKiBSb3V0ZTogL3dlYmRhdj91cmw9PGVuY29kZWQgdGFyZ2V0IFVSTD4KICoKICogRXhhbXBsZSBpbnRlZ3JhdGlvbiBpbiB5b3VyIFdvcmtlcidzIGZldGNoIGhhbmRsZXI6CiAqCiAqICAgaWYgKHBhdGhuYW1lID09PSAnL3dlYmRhdicpIHsKICogICAgICAgcmV0dXJuIGhhbmRsZVdlYkRBVihyZXF1ZXN0KTsKICogICB9CiAqLwoKZXhwb3J0IGFzeW5jIGZ1bmN0aW9uIGhhbmRsZVdlYkRBVihyZXE6IFJlcXVlc3QpOiBQcm9taXNlPFJlc3BvbnNlPiB7CiAgICBjb25zdCBDT1JTOiBSZWNvcmQ8c3RyaW5nLCBzdHJpbmc+ID0gewogICAgICAgICdBY2Nlc3MtQ29udHJvbC1BbGxvdy1PcmlnaW4nOiAnKicsCiAgICAgICAgJ0FjY2Vzcy1Db250cm9sLUFsbG93LUhlYWRlcnMnOiAnQXV0aG9yaXphdGlvbiwgQ29udGVudC1UeXBlLCBYLVdlYkRBVi1NZXRob2QsIFgtV2ViREFWLURlcHRoLCBYLVdlYkRBVi1SYW5nZSwgRGVwdGgsIFJhbmdlJywKICAgICAgICAnQWNjZXNzLUNvbnRyb2wtQWxsb3ctTWV0aG9kcyc6ICdHRVQsIFBPU1QsIE9QVElPTlMnLAogICAgICAgICdBY2Nlc3MtQ29udHJvbC1NYXgtQWdlJzogJzg2NDAwJywKICAgIH07CgogICAgaWYgKHJlcS5tZXRob2QgPT09ICdPUFRJT05TJykgewogICAgICAgIHJldHVybiBuZXcgUmVzcG9uc2UobnVsbCwgeyBzdGF0dXM6IDIwNCwgaGVhZGVyczogQ09SUyB9KTsKICAgIH0KCiAgICBpZiAocmVxLm1ldGhvZCAhPT0gJ1BPU1QnKSB7CiAgICAgICAgcmV0dXJuIG5ldyBSZXNwb25zZShKU09OLnN0cmluZ2lmeSh7IGVycm9yOiAnTWV0aG9kIG5vdCBhbGxvd2VkJyB9KSwgewogICAgICAgICAgICBzdGF0dXM6IDQwNSwKICAgICAgICAgICAgaGVhZGVyczogeyAuLi5DT1JTLCAnQ29udGVudC1UeXBlJzogJ2FwcGxpY2F0aW9uL2pzb24nIH0sCiAgICAgICAgfSk7CiAgICB9CgogICAgY29uc3QgdXJsID0gbmV3IFVSTChyZXEudXJsKTsKICAgIGNvbnN0IHRhcmdldFVybCA9IHVybC5zZWFyY2hQYXJhbXMuZ2V0KCd1cmwnKTsKCiAgICBpZiAoIXRhcmdldFVybCkgewogICAgICAgIHJldHVybiBuZXcgUmVzcG9uc2UoSlNPTi5zdHJpbmdpZnkoeyBlcnJvcjogJ01pc3NpbmcgdXJsIHBhcmFtZXRlcicgfSksIHsKICAgICAgICAgICAgc3RhdHVzOiA0MDAsCiAgICAgICAgICAgIGhlYWRlcnM6IHsgLi4uQ09SUywgJ0NvbnRlbnQtVHlwZSc6ICdhcHBsaWNhdGlvbi9qc29uJyB9LAogICAgICAgIH0pOwogICAgfQoKICAgIC8vIE9ubHkgYWxsb3cgSFRUUFMKICAgIGxldCBwYXJzZWQ6IFVSTDsKICAgIHRyeSB7CiAgICAgICAgcGFyc2VkID0gbmV3IFVSTCh0YXJnZXRVcmwpOwogICAgICAgIGlmIChwYXJzZWQucHJvdG9jb2wgIT09ICdodHRwczonKSB7CiAgICAgICAgICAgIHJldHVybiBuZXcgUmVzcG9uc2UoSlNPTi5zdHJpbmdpZnkoeyBlcnJvcjogJ09ubHkgSFRUUFMgVVJMcyBhbGxvd2VkJyB9KSwgewogICAgICAgICAgICAgICAgc3RhdHVzOiA0MDAsCiAgICAgICAgICAgICAgICBoZWFkZXJzOiB7IC4uLkNPUlMsICdDb250ZW50LVR5cGUnOiAnYXBwbGljYXRpb24vanNvbicgfSwKICAgICAgICAgICAgfSk7CiAgICAgICAgfQogICAgfSBjYXRjaCB7CiAgICAgICAgcmV0dXJuIG5ldyBSZXNwb25zZShKU09OLnN0cmluZ2lmeSh7IGVycm9yOiAnSW52YWxpZCBVUkwnIH0pLCB7CiAgICAgICAgICAgIHN0YXR1czogNDAwLAogICAgICAgICAgICBoZWFkZXJzOiB7IC4uLkNPUlMsICdDb250ZW50LVR5cGUnOiAnYXBwbGljYXRpb24vanNvbicgfSwKICAgICAgICB9KTsKICAgIH0KCiAgICBjb25zdCB3ZWJkYXZNZXRob2QgPSByZXEuaGVhZGVycy5nZXQoJ1gtV2ViREFWLU1ldGhvZCcpIHx8ICdHRVQnOwogICAgY29uc3QgYWxsb3dlZCA9IFsnR0VUJywgJ1BVVCcsICdQUk9QRklORCcsICdNS0NPTCcsICdERUxFVEUnXTsKICAgIGlmICghYWxsb3dlZC5pbmNsdWRlcyh3ZWJkYXZNZXRob2QudG9VcHBlckNhc2UoKSkpIHsKICAgICAgICByZXR1cm4gbmV3IFJlc3BvbnNlKEpTT04uc3RyaW5naWZ5KHsgZXJyb3I6ICdXZWJEQVYgbWV0aG9kIG5vdCBhbGxvd2VkJyB9KSwgewogICAgICAgICAgICBzdGF0dXM6IDQwMCwKICAgICAgICAgICAgaGVhZGVyczogeyAuLi5DT1JTLCAnQ29udGVudC1UeXBlJzogJ2FwcGxpY2F0aW9uL2pzb24nIH0sCiAgICAgICAgfSk7CiAgICB9CgogICAgY29uc3QgZndkOiBSZWNvcmQ8c3RyaW5nLCBzdHJpbmc+ID0ge307CiAgICBjb25zdCBhdXRoID0gcmVxLmhlYWRlcnMuZ2V0KCdBdXRob3JpemF0aW9uJyk7CiAgICBpZiAoYXV0aCkgZndkWydBdXRob3JpemF0aW9uJ10gPSBhdXRoOwogICAgY29uc3QgY3QgPSByZXEuaGVhZGVycy5nZXQoJ0NvbnRlbnQtVHlwZScpOwogICAgaWYgKGN0KSBmd2RbJ0NvbnRlbnQtVHlwZSddID0gY3Q7CiAgICBjb25zdCBkZXB0aCA9IHJlcS5oZWFkZXJzLmdldCgnWC1XZWJEQVYtRGVwdGgnKSB8fCByZXEuaGVhZGVycy5nZXQoJ0RlcHRoJyk7CiAgICBpZiAoZGVwdGgpIGZ3ZFsnRGVwdGgnXSA9IGRlcHRoOwogICAgY29uc3QgcmFuZ2UgPSByZXEuaGVhZGVycy5nZXQoJ1gtV2ViREFWLVJhbmdlJykgfHwgcmVxLmhlYWRlcnMuZ2V0KCdSYW5nZScpOwogICAgaWYgKHJhbmdlKSBmd2RbJ1JhbmdlJ10gPSByYW5nZTsKCiAgICB0cnkgewogICAgICAgIGxldCBib2R5OiBBcnJheUJ1ZmZlciB8IG51bGwgPSBudWxsOwogICAgICAgIGlmICh3ZWJkYXZNZXRob2QgIT09ICdHRVQnICYmIHdlYmRhdk1ldGhvZCAhPT0gJ01LQ09MJykgewogICAgICAgICAgICBib2R5ID0gYXdhaXQgcmVxLmFycmF5QnVmZmVyKCk7CiAgICAgICAgICAgIGlmIChib2R5LmJ5dGVMZW5ndGggPT09IDApIGJvZHkgPSBudWxsOwogICAgICAgIH0KCiAgICAgICAgY29uc3QgcmVzcCA9IGF3YWl0IGZldGNoKHRhcmdldFVybCwgewogICAgICAgICAgICBtZXRob2Q6IHdlYmRhdk1ldGhvZCwKICAgICAgICAgICAgaGVhZGVyczogZndkLAogICAgICAgICAgICBib2R5LAogICAgICAgIH0pOwoKICAgICAgICBjb25zdCByZXNIZWFkZXJzID0gbmV3IEhlYWRlcnMoQ09SUyk7CiAgICAgICAgY29uc3QgcmN0ID0gcmVzcC5oZWFkZXJzLmdldCgnQ29udGVudC1UeXBlJyk7CiAgICAgICAgaWYgKHJjdCkgcmVzSGVhZGVycy5zZXQoJ0NvbnRlbnQtVHlwZScsIHJjdCk7CiAgICAgICAgLy8gT25seSBmb3J3YXJkIENvbnRlbnQtTGVuZ3RoIG9uIDIwNiDigJQgZnVsbC1maWxlIHN0cmVhbXMgbXVzdCB1c2UKICAgICAgICAvLyBjaHVua2VkIFRFIHNvIGEgbWlkLXN0cmVhbSBkaXNjb25uZWN0IGRvZXNuJ3QgdHJpZ2dlcgogICAgICAgIC8vIEVSUl9DT05URU5UX0xFTkdUSF9NSVNNQVRDSCBvbiB0aGUgY2xpZW50LgogICAgICAgIGlmIChyZXNwLnN0YXR1cyA9PT0gMjA2KSB7CiAgICAgICAgICAgIGNvbnN0IHJjbCA9IHJlc3AuaGVhZGVycy5nZXQoJ0NvbnRlbnQtTGVuZ3RoJyk7CiAgICAgICAgICAgIGlmIChyY2wpIHJlc0hlYWRlcnMuc2V0KCdDb250ZW50LUxlbmd0aCcsIHJjbCk7CiAgICAgICAgfQogICAgICAgIGNvbnN0IHJjciA9IHJlc3AuaGVhZGVycy5nZXQoJ0NvbnRlbnQtUmFuZ2UnKTsKICAgICAgICBpZiAocmNyKSByZXNIZWFkZXJzLnNldCgnQ29udGVudC1SYW5nZScsIHJjcik7CiAgICAgICAgY29uc3QgcmFyID0gcmVzcC5oZWFkZXJzLmdldCgnQWNjZXB0LVJhbmdlcycpOwogICAgICAgIGlmIChyYXIpIHJlc0hlYWRlcnMuc2V0KCdBY2NlcHQtUmFuZ2VzJywgcmFyKTsKICAgICAgICByZXNIZWFkZXJzLnNldCgnQWNjZXNzLUNvbnRyb2wtRXhwb3NlLUhlYWRlcnMnLCAnQ29udGVudC1MZW5ndGgsIENvbnRlbnQtUmFuZ2UsIEFjY2VwdC1SYW5nZXMnKTsKCiAgICAgICAgcmV0dXJuIG5ldyBSZXNwb25zZShyZXNwLmJvZHksIHsKICAgICAgICAgICAgc3RhdHVzOiByZXNwLnN0YXR1cywKICAgICAgICAgICAgaGVhZGVyczogcmVzSGVhZGVycywKICAgICAgICB9KTsKICAgIH0gY2F0Y2ggKGU6IGFueSkgewogICAgICAgIHJldHVybiBuZXcgUmVzcG9uc2UoSlNPTi5zdHJpbmdpZnkoeyBlcnJvcjogYFByb3h5IGVycm9yOiAke2UubWVzc2FnZX1gIH0pLCB7CiAgICAgICAgICAgIHN0YXR1czogNTAyLAogICAgICAgICAgICBoZWFkZXJzOiB7IC4uLkNPUlMsICdDb250ZW50LVR5cGUnOiAnYXBwbGljYXRpb24vanNvbicgfSwKICAgICAgICB9KTsKICAgIH0KfQo=
+/**
+ * WebDAV proxy route handler for Cloudflare Worker
+ *
+ * Add this to your existing sully-n Worker.
+ * Route: /webdav?url=<encoded target URL>
+ *
+ * Example integration in your Worker's fetch handler:
+ *
+ *   if (pathname === '/webdav') {
+ *       return handleWebDAV(request);
+ *   }
+ */
+
+export async function handleWebDAV(req: Request): Promise<Response> {
+    const CORS: Record<string, string> = {
+        'Access-Control-Allow-Origin': '*',
+        'Access-Control-Allow-Headers': 'Authorization, Content-Type, X-WebDAV-Method, X-WebDAV-Depth, X-WebDAV-Range, Depth, Range',
+        'Access-Control-Allow-Methods': 'GET, POST, OPTIONS',
+        'Access-Control-Max-Age': '86400',
+    };
+
+    if (req.method === 'OPTIONS') {
+        return new Response(null, { status: 204, headers: CORS });
+    }
+
+    if (req.method !== 'POST') {
+        return new Response(JSON.stringify({ error: 'Method not allowed' }), {
+            status: 405,
+            headers: { ...CORS, 'Content-Type': 'application/json' },
+        });
+    }
+
+    const url = new URL(req.url);
+    const targetUrl = url.searchParams.get('url');
+
+    if (!targetUrl) {
+        return new Response(JSON.stringify({ error: 'Missing url parameter' }), {
+            status: 400,
+            headers: { ...CORS, 'Content-Type': 'application/json' },
+        });
+    }
+
+    // Only allow HTTPS
+    let parsed: URL;
+    try {
+        parsed = new URL(targetUrl);
+        if (parsed.protocol !== 'https:') {
+            return new Response(JSON.stringify({ error: 'Only HTTPS URLs allowed' }), {
+                status: 400,
+                headers: { ...CORS, 'Content-Type': 'application/json' },
+            });
+        }
+    } catch {
+        return new Response(JSON.stringify({ error: 'Invalid URL' }), {
+            status: 400,
+            headers: { ...CORS, 'Content-Type': 'application/json' },
+        });
+    }
+
+    const webdavMethod = req.headers.get('X-WebDAV-Method') || 'GET';
+    const allowed = ['GET', 'PUT', 'PROPFIND', 'MKCOL', 'DELETE'];
+    if (!allowed.includes(webdavMethod.toUpperCase())) {
+        return new Response(JSON.stringify({ error: 'WebDAV method not allowed' }), {
+            status: 400,
+            headers: { ...CORS, 'Content-Type': 'application/json' },
+        });
+    }
+
+    const fwd: Record<string, string> = {};
+    const auth = req.headers.get('Authorization');
+    if (auth) fwd['Authorization'] = auth;
+    const ct = req.headers.get('Content-Type');
+    if (ct) fwd['Content-Type'] = ct;
+    const depth = req.headers.get('X-WebDAV-Depth') || req.headers.get('Depth');
+    if (depth) fwd['Depth'] = depth;
+    const range = req.headers.get('X-WebDAV-Range') || req.headers.get('Range');
+    if (range) fwd['Range'] = range;
+
+    try {
+        let body: ArrayBuffer | null = null;
+        if (webdavMethod !== 'GET' && webdavMethod !== 'MKCOL') {
+            body = await req.arrayBuffer();
+            if (body.byteLength === 0) body = null;
+        }
+
+        const resp = await fetch(targetUrl, {
+            method: webdavMethod,
+            headers: fwd,
+            body,
+        });
+
+        const resHeaders = new Headers(CORS);
+        const rct = resp.headers.get('Content-Type');
+        if (rct) resHeaders.set('Content-Type', rct);
+        // Only forward Content-Length on 206 — full-file streams must use
+        // chunked TE so a mid-stream disconnect doesn't trigger
+        // ERR_CONTENT_LENGTH_MISMATCH on the client.
+        if (resp.status === 206) {
+            const rcl = resp.headers.get('Content-Length');
+            if (rcl) resHeaders.set('Content-Length', rcl);
+        }
+        const rcr = resp.headers.get('Content-Range');
+        if (rcr) resHeaders.set('Content-Range', rcr);
+        const rar = resp.headers.get('Accept-Ranges');
+        if (rar) resHeaders.set('Accept-Ranges', rar);
+        resHeaders.set('Access-Control-Expose-Headers', 'Content-Length, Content-Range, Accept-Ranges');
+
+        return new Response(resp.body, {
+            status: resp.status,
+            headers: resHeaders,
+        });
+    } catch (e: any) {
+        return new Response(JSON.stringify({ error: `Proxy error: ${e.message}` }), {
+            status: 502,
+            headers: { ...CORS, 'Content-Type': 'application/json' },
+        });
+    }
+}

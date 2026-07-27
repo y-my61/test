@@ -1,1 +1,30 @@
-QGVjaG8gb2ZmCnNldGxvY2FsCmNkIC9kICIlfmRwMCIKCnNldCAiTk9ERV9FWEU9QzpcUHJvZ3JhbSBGaWxlc1xub2RlanNcbm9kZS5leGUiCmlmIG5vdCBleGlzdCAiJU5PREVfRVhFJSIgKAogIGVjaG8gTm9kZS5qcyBub3QgZm91bmQ6ICVOT0RFX0VYRSUKICBwYXVzZQogIGV4aXQgL2IgMQopCgppZiBub3QgZXhpc3QgIm5vZGVfbW9kdWxlcyIgKAogIGVjaG8gSW5zdGFsbGluZyBkZXBlbmRlbmNpZXMgZm9yIHRoZSBmaXJzdCB0aW1lLi4uCiAgY2FsbCBucG0gaW5zdGFsbCAtLWNhY2hlIC5ucG0tY2FjaGUKICBpZiBlcnJvcmxldmVsIDEgKAogICAgZWNobyBucG0gaW5zdGFsbCBmYWlsZWQuCiAgICBwYXVzZQogICAgZXhpdCAvYiAxCiAgKQopCgplY2hvIEJ1aWxkaW5nIHByb2plY3QuLi4KY2FsbCBucG0gcnVuIGJ1aWxkCmlmIGVycm9ybGV2ZWwgMSAoCiAgZWNobyBCdWlsZCBmYWlsZWQuCiAgcGF1c2UKICBleGl0IC9iIDEKKQoKY2FsbCAiJX5kcDBvcGVuLWxvY2FsLXdlYi5iYXQiCg==
+@echo off
+setlocal
+cd /d "%~dp0"
+
+set "NODE_EXE=C:\Program Files\nodejs\node.exe"
+if not exist "%NODE_EXE%" (
+  echo Node.js not found: %NODE_EXE%
+  pause
+  exit /b 1
+)
+
+if not exist "node_modules" (
+  echo Installing dependencies for the first time...
+  call npm install --cache .npm-cache
+  if errorlevel 1 (
+    echo npm install failed.
+    pause
+    exit /b 1
+  )
+)
+
+echo Building project...
+call npm run build
+if errorlevel 1 (
+  echo Build failed.
+  pause
+  exit /b 1
+)
+
+call "%~dp0open-local-web.bat"

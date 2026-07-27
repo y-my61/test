@@ -1,1 +1,122 @@
-aW1wb3J0IFJlYWN0LCB7IHVzZUVmZmVjdCwgdXNlU3RhdGUgfSBmcm9tICdyZWFjdCc7CmltcG9ydCB7IENIQVRfR0VOX0VWRU5UUywgQ0hBVF9WSUVXX0NIQU5HRURfRVZFTlQsIGdldENoYXRWaWV3U25hcHNob3QgfSBmcm9tICcuLi91dGlscy9jaGF0R2VuRXZlbnRzJzsKCi8qKgogKiDogYrlpKnnlJ/miJDlhajlsYDmqKrluYXvvIjlr7nmoIflvbzmlrnnmoQgVlJCcm9hZGNhc3TvvIxBcHAg5qC557qn5oyC6L2977yJ44CCCiAqCiAqIOebkeWQrCB1c2VDaGF0QUkgLyBldmFsdWF0ZUVtb3Rpb25CYWNrZ3JvdW5kIOa0vuWPkeeahCBjaGF0LWdlbi0qIOS6i+S7tu+8jOaYvuekugogKiDjgIx4eCDmraPlnKjlm57lupTigKbjgI3jgIx4eCDmraPlnKjmhJ/lj5figKbjgI3jgILnlJ/miJDpl63ljIXlnKggQ2hhdCDljbjovb3lkI7nu6fnu63ot5HvvIzkuovku7bnhaflj5HvvIwKICog5omA5Lul55So5oi35YiH6LWwIENoYXQg5Lmf6IO955yL5Yiw55Sf5oiQ6L+Y5rS7552A77yb54K55qiq5bmF6Lez5Zue6K+l6KeS6Imy55qE6IGK5aSp6aG1CiAqIO+8iOWkjeeUqCBPU0NvbnRleHQg5bey5pyJ55qEICdhY3RpdmUtbXNnLW9wZW4nIOebkeWQrO+8ieOAggogKgogKiDmipHliLbop4TliJnvvJrnlKjmiLfmraPlvIDnnYDor6Xop5LoibLnmoTogYrlpKnpobXml7bkuI3mmL7npLrvvIjpobXlhoXlt7LmnInmiZPlrZcv5oOF57uq5oyH56S654Gv77yJ77yMCiAqIOWIh+i1sOeahOeerOmXtOeUsSBDSEFUX1ZJRVdfQ0hBTkdFRF9FVkVOVCDop6blj5Hph43muLLmn5PjgIHmqKrluYXmjqXmo5LjgIIKICoKICog57uT5p2f5L+h5Y+36YO95ZyoIGZpbmFsbHkg6YeM5rS+5Y+R77yM5q2j5bi45LiN5Lya5ryP77ybVFRMIOWPquaYr+WFnOW6le+8iGluc3RhbnQg5oOF57uq6K+E5Lyw55qECiAqICdpbnN0YW50LWVtb3Rpb24tZG9uZScg5Y+v6IO95ZugIHdvcmtlciDooqvmnYAv5o6o6YCB5Lii5aSx6ICM5rC45LiN5Yiw6L6+77yJ44CCCiAqLwoKdHlwZSBHZW5LaW5kID0gJ3JlcGx5JyB8ICdlbW90aW9uJzsKaW50ZXJmYWNlIEdlbkVudHJ5IHsga2luZDogR2VuS2luZDsgY2hhcklkOiBzdHJpbmc7IGNoYXJOYW1lOiBzdHJpbmc7IHN0YXJ0ZWRBdDogbnVtYmVyOyB9CgovLyDlhZzlupXov4fmnJ/vvJrkuLvlm57lpI3lr7npvZAgaW5zdGFudCAzMDBzIOi2heaXtiArIOacrOWcsOmHjeivleS9memHj++8m+aDhee7quivhOS8sOWvuem9kCBob29rIOWGhSA5MHMg5a6J5YWo572RCmNvbnN0IFRUTF9NUzogUmVjb3JkPEdlbktpbmQsIG51bWJlcj4gPSB7IHJlcGx5OiA2ICogNjBfMDAwLCBlbW90aW9uOiAyICogNjBfMDAwIH07Cgpjb25zdCBMQUJFTDogUmVjb3JkPEdlbktpbmQsIHN0cmluZz4gPSB7IHJlcGx5OiAn5q2j5Zyo5Zue5bqUJywgZW1vdGlvbjogJ+ato+WcqOaEn+WPlycgfTsKCmNvbnN0IENoYXRCcm9hZGNhc3Q6IFJlYWN0LkZDID0gKCkgPT4gewogICAgY29uc3QgW2VudHJpZXMsIHNldEVudHJpZXNdID0gdXNlU3RhdGU8R2VuRW50cnlbXT4oW10pOwogICAgY29uc3QgWywgc2V0Vmlld1RpY2tdID0gdXNlU3RhdGUoMCk7CgogICAgdXNlRWZmZWN0KCgpID0+IHsKICAgICAgICBjb25zdCBhZGQgPSAoa2luZDogR2VuS2luZCkgPT4gKGU6IEV2ZW50KSA9PiB7CiAgICAgICAgICAgIGNvbnN0IGQgPSAoZSBhcyBDdXN0b21FdmVudCkuZGV0YWlsIGFzIHsgY2hhcklkPzogc3RyaW5nOyBjaGFyTmFtZT86IHN0cmluZyB9OwogICAgICAgICAgICBpZiAoIWQ/LmNoYXJJZCkgcmV0dXJuOwogICAgICAgICAgICBzZXRFbnRyaWVzKHByZXYgPT4gcHJldi5zb21lKHggPT4geC5raW5kID09PSBraW5kICYmIHguY2hhcklkID09PSBkLmNoYXJJZCkKICAgICAgICAgICAgICAgID8gcHJldgogICAgICAgICAgICAgICAgOiBbLi4ucHJldiwgeyBraW5kLCBjaGFySWQ6IGQuY2hhcklkISwgY2hhck5hbWU6IGQuY2hhck5hbWUgfHwgJycsIHN0YXJ0ZWRBdDogRGF0ZS5ub3coKSB9XSk7CiAgICAgICAgfTsKICAgICAgICBjb25zdCByZW1vdmUgPSAoa2luZDogR2VuS2luZCkgPT4gKGU6IEV2ZW50KSA9PiB7CiAgICAgICAgICAgIGNvbnN0IGlkID0gKGUgYXMgQ3VzdG9tRXZlbnQpLmRldGFpbD8uY2hhcklkOwogICAgICAgICAgICBpZiAoIWlkKSByZXR1cm47CiAgICAgICAgICAgIHNldEVudHJpZXMocHJldiA9PiB7CiAgICAgICAgICAgICAgICBjb25zdCBuZXh0ID0gcHJldi5maWx0ZXIoeCA9PiAhKHgua2luZCA9PT0ga2luZCAmJiB4LmNoYXJJZCA9PT0gaWQpKTsKICAgICAgICAgICAgICAgIHJldHVybiBuZXh0Lmxlbmd0aCA9PT0gcHJldi5sZW5ndGggPyBwcmV2IDogbmV4dDsKICAgICAgICAgICAgfSk7CiAgICAgICAgfTsKICAgICAgICBjb25zdCBvblJlcGx5U3RhcnQgPSBhZGQoJ3JlcGx5Jyk7CiAgICAgICAgY29uc3Qgb25SZXBseUVuZCA9IHJlbW92ZSgncmVwbHknKTsKICAgICAgICBjb25zdCBvbkVtb3Rpb25TdGFydCA9IGFkZCgnZW1vdGlvbicpOwogICAgICAgIGNvbnN0IG9uRW1vdGlvbkVuZCA9IHJlbW92ZSgnZW1vdGlvbicpOwogICAgICAgIGNvbnN0IG9uVmlldyA9ICgpID0+IHNldFZpZXdUaWNrKG4gPT4gbiArIDEpOwogICAgICAgIHdpbmRvdy5hZGRFdmVudExpc3RlbmVyKENIQVRfR0VOX0VWRU5UUy5yZXBseVN0YXJ0LCBvblJlcGx5U3RhcnQpOwogICAgICAgIHdpbmRvdy5hZGRFdmVudExpc3RlbmVyKENIQVRfR0VOX0VWRU5UUy5yZXBseUVuZCwgb25SZXBseUVuZCk7CiAgICAgICAgd2luZG93LmFkZEV2ZW50TGlzdGVuZXIoQ0hBVF9HRU5fRVZFTlRTLmVtb3Rpb25TdGFydCwgb25FbW90aW9uU3RhcnQpOwogICAgICAgIHdpbmRvdy5hZGRFdmVudExpc3RlbmVyKENIQVRfR0VOX0VWRU5UUy5lbW90aW9uRW5kLCBvbkVtb3Rpb25FbmQpOwogICAgICAgIC8vIGluc3RhbnQg5qih5byP5oOF57uq6K+E5Lyw5ZyoIHdvcmtlciDot5HvvIznu5PmnZ/kv6Hlj7fmmK8gYWN0aXZlTXNnUnVudGltZSDnmoTml6LmnInkuovku7YKICAgICAgICB3aW5kb3cuYWRkRXZlbnRMaXN0ZW5lcignaW5zdGFudC1lbW90aW9uLWRvbmUnLCBvbkVtb3Rpb25FbmQpOwogICAgICAgIHdpbmRvdy5hZGRFdmVudExpc3RlbmVyKENIQVRfVklFV19DSEFOR0VEX0VWRU5ULCBvblZpZXcpOwogICAgICAgIGNvbnN0IHN3ZWVwZXIgPSBzZXRJbnRlcnZhbCgoKSA9PiB7CiAgICAgICAgICAgIGNvbnN0IG5vdyA9IERhdGUubm93KCk7CiAgICAgICAgICAgIHNldEVudHJpZXMocHJldiA9PiB7CiAgICAgICAgICAgICAgICBjb25zdCBuZXh0ID0gcHJldi5maWx0ZXIoeCA9PiBub3cgLSB4LnN0YXJ0ZWRBdCA8IFRUTF9NU1t4LmtpbmRdKTsKICAgICAgICAgICAgICAgIHJldHVybiBuZXh0Lmxlbmd0aCA9PT0gcHJldi5sZW5ndGggPyBwcmV2IDogbmV4dDsKICAgICAgICAgICAgfSk7CiAgICAgICAgfSwgMTVfMDAwKTsKICAgICAgICByZXR1cm4gKCkgPT4gewogICAgICAgICAgICB3aW5kb3cucmVtb3ZlRXZlbnRMaXN0ZW5lcihDSEFUX0dFTl9FVkVOVFMucmVwbHlTdGFydCwgb25SZXBseVN0YXJ0KTsKICAgICAgICAgICAgd2luZG93LnJlbW92ZUV2ZW50TGlzdGVuZXIoQ0hBVF9HRU5fRVZFTlRTLnJlcGx5RW5kLCBvblJlcGx5RW5kKTsKICAgICAgICAgICAgd2luZG93LnJlbW92ZUV2ZW50TGlzdGVuZXIoQ0hBVF9HRU5fRVZFTlRTLmVtb3Rpb25TdGFydCwgb25FbW90aW9uU3RhcnQpOwogICAgICAgICAgICB3aW5kb3cucmVtb3ZlRXZlbnRMaXN0ZW5lcihDSEFUX0dFTl9FVkVOVFMuZW1vdGlvbkVuZCwgb25FbW90aW9uRW5kKTsKICAgICAgICAgICAgd2luZG93LnJlbW92ZUV2ZW50TGlzdGVuZXIoJ2luc3RhbnQtZW1vdGlvbi1kb25lJywgb25FbW90aW9uRW5kKTsKICAgICAgICAgICAgd2luZG93LnJlbW92ZUV2ZW50TGlzdGVuZXIoQ0hBVF9WSUVXX0NIQU5HRURfRVZFTlQsIG9uVmlldyk7CiAgICAgICAgICAgIGNsZWFySW50ZXJ2YWwoc3dlZXBlcik7CiAgICAgICAgfTsKICAgIH0sIFtdKTsKCiAgICBjb25zdCB2aWV3ID0gZ2V0Q2hhdFZpZXdTbmFwc2hvdCgpOwogICAgY29uc3QgdmlzaWJsZSA9IGVudHJpZXMuZmlsdGVyKHggPT4gISh2aWV3LmNoYXRPcGVuICYmIHZpZXcuY2hhcklkID09PSB4LmNoYXJJZCkpOwogICAgaWYgKHZpc2libGUubGVuZ3RoID09PSAwKSByZXR1cm4gbnVsbDsKICAgIC8vIOWbnuWkjeS8mOWFiOS6juaDhee7quWxleekuu+8iOWQjOinkuiJsuS4pOS4qumDveWcqOi3keaXtiLmraPlnKjlm57lupQi5L+h5oGv6YeP5pu05aSn77yJCiAgICBjb25zdCBjdXIgPSBbLi4udmlzaWJsZV0uc29ydCgoYSwgYikgPT4KICAgICAgICAoYS5raW5kID09PSBiLmtpbmQgPyBhLnN0YXJ0ZWRBdCAtIGIuc3RhcnRlZEF0IDogKGEua2luZCA9PT0gJ3JlcGx5JyA/IDEgOiAtMSkpCiAgICApW3Zpc2libGUubGVuZ3RoIC0gMV07CiAgICBjb25zdCBleHRyYSA9IHZpc2libGUubGVuZ3RoID4gMSA/IGAg562JICR7dmlzaWJsZS5sZW5ndGh9IOmhuWAgOiAnJzsKCiAgICBjb25zdCBqdW1wID0gKCkgPT4gewogICAgICAgIHRyeSB7CiAgICAgICAgICAgIHdpbmRvdy5kaXNwYXRjaEV2ZW50KG5ldyBDdXN0b21FdmVudCgnYWN0aXZlLW1zZy1vcGVuJywgeyBkZXRhaWw6IHsgY2hhcklkOiBjdXIuY2hhcklkIH0gfSkpOwogICAgICAgIH0gY2F0Y2ggeyAvKiBpZ25vcmUgKi8gfQogICAgfTsKCiAgICByZXR1cm4gKAogICAgICAgIDxkaXYgY2xhc3NOYW1lPSJmaXhlZCBsZWZ0LTEvMiAtdHJhbnNsYXRlLXgtMS8yIHotWzk5OV0iCiAgICAgICAgICAgIHN0eWxlPXt7IHRvcDogJ2NhbGModmFyKC0tc2FmZS10b3ApICsgNDRweCknIH19PgogICAgICAgICAgICA8c3R5bGU+e2BAa2V5ZnJhbWVzIGNoYXRiY2lue2Zyb217b3BhY2l0eTowO3RyYW5zZm9ybTp0cmFuc2xhdGVZKC0xNHB4KSBzY2FsZSguOTYpfXRve29wYWNpdHk6MTt0cmFuc2Zvcm06dHJhbnNsYXRlWSgwKSBzY2FsZSgxKX19CiAgICAgICAgICAgICAgICAgICAgIEBrZXlmcmFtZXMgY2hhdGJjZG90ezAlLDYwJSwxMDAle29wYWNpdHk6LjM1O3RyYW5zZm9ybTp0cmFuc2xhdGVZKDApfTMwJXtvcGFjaXR5OjE7dHJhbnNmb3JtOnRyYW5zbGF0ZVkoLTJweCl9fWB9PC9zdHlsZT4KICAgICAgICAgICAgPGJ1dHRvbiB0eXBlPSJidXR0b24iIG9uQ2xpY2s9e2p1bXB9CiAgICAgICAgICAgICAgICBjbGFzc05hbWU9InJlbGF0aXZlIGZsZXggaXRlbXMtY2VudGVyIGdhcC0yLjUgcGwtMyBwci0zLjUgcHktMS41IHJvdW5kZWQtZnVsbCBvdmVyZmxvdy1oaWRkZW4gYmFja2Ryb3AtYmx1ci14bCBjdXJzb3ItcG9pbnRlciIKICAgICAgICAgICAgICAgIHN0eWxlPXt7CiAgICAgICAgICAgICAgICAgICAgYW5pbWF0aW9uOiAnY2hhdGJjaW4gLjQ1cyBjdWJpYy1iZXppZXIoLjIsLjksLjMsMS4yKScsCiAgICAgICAgICAgICAgICAgICAgYmFja2dyb3VuZDogJ2xpbmVhci1ncmFkaWVudCgxMDBkZWcsIHJnYmEoMjAsMzYsMzIsLjg1KSwgcmdiYSgxMiwyMiwyMCwuODUpKScsCiAgICAgICAgICAgICAgICAgICAgYm9yZGVyOiAnMXB4IHNvbGlkIHJnYmEoMTYwLDIzMCwyMDAsLjI4KScsCiAgICAgICAgICAgICAgICAgICAgYm94U2hhZG93OiAnMCAxMHB4IDMwcHggcmdiYSgwLDAsMCwuNDUpLCBpbnNldCAwIDFweCAwIHJnYmEoMTkwLDI0MCwyMTUsLjE2KSwgMCAwIDE4cHggcmdiYSgxMTAsMjIwLDE3MCwuMTUpJywKICAgICAgICAgICAgICAgIH19PgogICAgICAgICAgICAgICAgPHNwYW4gY2xhc3NOYW1lPSJyZWxhdGl2ZSB0ZXh0LVsxMnB4XSBvcGFjaXR5LTg1IiBzdHlsZT17eyBmaWx0ZXI6ICdkcm9wLXNoYWRvdygwIDAgNXB4IHJnYmEoMTQwLDIzNSwxOTAsLjYpKScgfX0+CiAgICAgICAgICAgICAgICAgICAge2N1ci5raW5kID09PSAncmVwbHknID8gJ/CfkqwnIDogJ/Cfq6cnfQogICAgICAgICAgICAgICAgPC9zcGFuPgogICAgICAgICAgICAgICAgPHNwYW4gY2xhc3NOYW1lPSJyZWxhdGl2ZSB0ZXh0LVsxMXB4XSB0cmFja2luZy1bMC4wNGVtXSB0ZXh0LXdoaXRlLzkwIHdoaXRlc3BhY2Utbm93cmFwIGZvbnQtbGlnaHQiPgogICAgICAgICAgICAgICAgICAgIDxzcGFuIGNsYXNzTmFtZT0idGV4dC1lbWVyYWxkLTIwMC85MCBmb250LW5vcm1hbCI+e2N1ci5jaGFyTmFtZX08L3NwYW4+e2V4dHJhfSB7TEFCRUxbY3VyLmtpbmRdfQogICAgICAgICAgICAgICAgPC9zcGFuPgogICAgICAgICAgICAgICAgPHNwYW4gY2xhc3NOYW1lPSJyZWxhdGl2ZSBmbGV4IGdhcC0xIj4KICAgICAgICAgICAgICAgICAgICB7WzAsIDEsIDJdLm1hcChpID0+ICgKICAgICAgICAgICAgICAgICAgICAgICAgPHNwYW4ga2V5PXtpfSBjbGFzc05hbWU9InctMSBoLTEgcm91bmRlZC1mdWxsIGJnLWVtZXJhbGQtMTAwLzgwIgogICAgICAgICAgICAgICAgICAgICAgICAgICAgc3R5bGU9e3sgYW5pbWF0aW9uOiAnY2hhdGJjZG90IDEuMnMgaW5maW5pdGUnLCBhbmltYXRpb25EZWxheTogYCR7aSAqIDAuMn1zYCB9fSAvPgogICAgICAgICAgICAgICAgICAgICkpfQogICAgICAgICAgICAgICAgPC9zcGFuPgogICAgICAgICAgICA8L2J1dHRvbj4KICAgICAgICA8L2Rpdj4KICAgICk7Cn07CgpleHBvcnQgZGVmYXVsdCBDaGF0QnJvYWRjYXN0Owo=
+import React, { useEffect, useState } from 'react';
+import { CHAT_GEN_EVENTS, CHAT_VIEW_CHANGED_EVENT, getChatViewSnapshot } from '../utils/chatGenEvents';
+
+/**
+ * 聊天生成全局横幅（对标彼方的 VRBroadcast，App 根级挂载）。
+ *
+ * 监听 useChatAI / evaluateEmotionBackground 派发的 chat-gen-* 事件，显示
+ * 「xx 正在回应…」「xx 正在感受…」。生成闭包在 Chat 卸载后继续跑，事件照发，
+ * 所以用户切走 Chat 也能看到生成还活着；点横幅跳回该角色的聊天页
+ * （复用 OSContext 已有的 'active-msg-open' 监听）。
+ *
+ * 抑制规则：用户正开着该角色的聊天页时不显示（页内已有打字/情绪指示灯），
+ * 切走的瞬间由 CHAT_VIEW_CHANGED_EVENT 触发重渲染、横幅接棒。
+ *
+ * 结束信号都在 finally 里派发，正常不会漏；TTL 只是兜底（instant 情绪评估的
+ * 'instant-emotion-done' 可能因 worker 被杀/推送丢失而永不到达）。
+ */
+
+type GenKind = 'reply' | 'emotion';
+interface GenEntry { kind: GenKind; charId: string; charName: string; startedAt: number; }
+
+// 兜底过期：主回复对齐 instant 300s 超时 + 本地重试余量；情绪评估对齐 hook 内 90s 安全网
+const TTL_MS: Record<GenKind, number> = { reply: 6 * 60_000, emotion: 2 * 60_000 };
+
+const LABEL: Record<GenKind, string> = { reply: '正在回应', emotion: '正在感受' };
+
+const ChatBroadcast: React.FC = () => {
+    const [entries, setEntries] = useState<GenEntry[]>([]);
+    const [, setViewTick] = useState(0);
+
+    useEffect(() => {
+        const add = (kind: GenKind) => (e: Event) => {
+            const d = (e as CustomEvent).detail as { charId?: string; charName?: string };
+            if (!d?.charId) return;
+            setEntries(prev => prev.some(x => x.kind === kind && x.charId === d.charId)
+                ? prev
+                : [...prev, { kind, charId: d.charId!, charName: d.charName || '', startedAt: Date.now() }]);
+        };
+        const remove = (kind: GenKind) => (e: Event) => {
+            const id = (e as CustomEvent).detail?.charId;
+            if (!id) return;
+            setEntries(prev => {
+                const next = prev.filter(x => !(x.kind === kind && x.charId === id));
+                return next.length === prev.length ? prev : next;
+            });
+        };
+        const onReplyStart = add('reply');
+        const onReplyEnd = remove('reply');
+        const onEmotionStart = add('emotion');
+        const onEmotionEnd = remove('emotion');
+        const onView = () => setViewTick(n => n + 1);
+        window.addEventListener(CHAT_GEN_EVENTS.replyStart, onReplyStart);
+        window.addEventListener(CHAT_GEN_EVENTS.replyEnd, onReplyEnd);
+        window.addEventListener(CHAT_GEN_EVENTS.emotionStart, onEmotionStart);
+        window.addEventListener(CHAT_GEN_EVENTS.emotionEnd, onEmotionEnd);
+        // instant 模式情绪评估在 worker 跑，结束信号是 activeMsgRuntime 的既有事件
+        window.addEventListener('instant-emotion-done', onEmotionEnd);
+        window.addEventListener(CHAT_VIEW_CHANGED_EVENT, onView);
+        const sweeper = setInterval(() => {
+            const now = Date.now();
+            setEntries(prev => {
+                const next = prev.filter(x => now - x.startedAt < TTL_MS[x.kind]);
+                return next.length === prev.length ? prev : next;
+            });
+        }, 15_000);
+        return () => {
+            window.removeEventListener(CHAT_GEN_EVENTS.replyStart, onReplyStart);
+            window.removeEventListener(CHAT_GEN_EVENTS.replyEnd, onReplyEnd);
+            window.removeEventListener(CHAT_GEN_EVENTS.emotionStart, onEmotionStart);
+            window.removeEventListener(CHAT_GEN_EVENTS.emotionEnd, onEmotionEnd);
+            window.removeEventListener('instant-emotion-done', onEmotionEnd);
+            window.removeEventListener(CHAT_VIEW_CHANGED_EVENT, onView);
+            clearInterval(sweeper);
+        };
+    }, []);
+
+    const view = getChatViewSnapshot();
+    const visible = entries.filter(x => !(view.chatOpen && view.charId === x.charId));
+    if (visible.length === 0) return null;
+    // 回复优先于情绪展示（同角色两个都在跑时"正在回应"信息量更大）
+    const cur = [...visible].sort((a, b) =>
+        (a.kind === b.kind ? a.startedAt - b.startedAt : (a.kind === 'reply' ? 1 : -1))
+    )[visible.length - 1];
+    const extra = visible.length > 1 ? ` 等 ${visible.length} 项` : '';
+
+    const jump = () => {
+        try {
+            window.dispatchEvent(new CustomEvent('active-msg-open', { detail: { charId: cur.charId } }));
+        } catch { /* ignore */ }
+    };
+
+    return (
+        <div className="fixed left-1/2 -translate-x-1/2 z-[999]"
+            style={{ top: 'calc(var(--safe-top) + 44px)' }}>
+            <style>{`@keyframes chatbcin{from{opacity:0;transform:translateY(-14px) scale(.96)}to{opacity:1;transform:translateY(0) scale(1)}}
+                     @keyframes chatbcdot{0%,60%,100%{opacity:.35;transform:translateY(0)}30%{opacity:1;transform:translateY(-2px)}}`}</style>
+            <button type="button" onClick={jump}
+                className="relative flex items-center gap-2.5 pl-3 pr-3.5 py-1.5 rounded-full overflow-hidden backdrop-blur-xl cursor-pointer"
+                style={{
+                    animation: 'chatbcin .45s cubic-bezier(.2,.9,.3,1.2)',
+                    background: 'linear-gradient(100deg, rgba(20,36,32,.85), rgba(12,22,20,.85))',
+                    border: '1px solid rgba(160,230,200,.28)',
+                    boxShadow: '0 10px 30px rgba(0,0,0,.45), inset 0 1px 0 rgba(190,240,215,.16), 0 0 18px rgba(110,220,170,.15)',
+                }}>
+                <span className="relative text-[12px] opacity-85" style={{ filter: 'drop-shadow(0 0 5px rgba(140,235,190,.6))' }}>
+                    {cur.kind === 'reply' ? '💬' : '🫧'}
+                </span>
+                <span className="relative text-[11px] tracking-[0.04em] text-white/90 whitespace-nowrap font-light">
+                    <span className="text-emerald-200/90 font-normal">{cur.charName}</span>{extra} {LABEL[cur.kind]}
+                </span>
+                <span className="relative flex gap-1">
+                    {[0, 1, 2].map(i => (
+                        <span key={i} className="w-1 h-1 rounded-full bg-emerald-100/80"
+                            style={{ animation: 'chatbcdot 1.2s infinite', animationDelay: `${i * 0.2}s` }} />
+                    ))}
+                </span>
+            </button>
+        </div>
+    );
+};
+
+export default ChatBroadcast;

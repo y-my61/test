@@ -1,1 +1,124 @@
-LyoqCiAqIEdpdEh1YiBwcm94eSByb3V0ZSBoYW5kbGVyIGZvciBDbG91ZGZsYXJlIFdvcmtlcgogKgogKiBBZGQgdGhpcyB0byB5b3VyIGV4aXN0aW5nIHN1bGx5LW4gV29ya2VyLgogKiBSb3V0ZTogL2dpdGh1Yj91cmw9PGVuY29kZWQgdGFyZ2V0IFVSTD4KICoKICogRXhhbXBsZSBpbnRlZ3JhdGlvbiBpbiB5b3VyIFdvcmtlcidzIGZldGNoIGhhbmRsZXI6CiAqCiAqICAgaWYgKHBhdGhuYW1lID09PSAnL2dpdGh1YicpIHsKICogICAgICAgcmV0dXJuIGhhbmRsZUdpdGh1YihyZXF1ZXN0KTsKICogICB9CiAqCiAqIFdoeSB0aGlzIGV4aXN0czogbW9zdCB1c2VycyBoaXQgYXBpLmdpdGh1Yi5jb20gZGlyZWN0bHkgZnJvbSB0aGUgYnJvd3NlcgogKiAoR2l0SHViIGRvZXMgc2V0IENPUlMgZm9yIGFueSBvcmlnaW4pLCBidXQgc29tZSBuZXR3b3JrcyAobm90YWJseSB0aGUgR0ZXKQogKiBjYW4ndCByZWFjaCBnaXRodWIuY29tIGF0IGFsbC4gUm91dGluZyB0aHJvdWdoIENsb3VkZmxhcmUgZ2l2ZXMgdGhvc2UgdXNlcnMKICogYSB3b3JraW5nIHBhdGguIEhlYWRzLXVwIOKAlCBXb3JrZXJzIGZyZWUgdGllciBjYXBzIHRoZSByZXF1ZXN0IGJvZHkgYXQKICogfjEwMCBNQiwgc28gdmVyeSBsYXJnZSAnZnVsbCcgYmFja3VwcyBzdGlsbCBuZWVkIGEgZGlyZWN0IHVwbG9hZC4KICovCgpjb25zdCBBTExPV0VEX0hPU1RTID0gbmV3IFNldChbJ2FwaS5naXRodWIuY29tJywgJ3VwbG9hZHMuZ2l0aHViLmNvbSddKTsKCmV4cG9ydCBhc3luYyBmdW5jdGlvbiBoYW5kbGVHaXRodWIocmVxOiBSZXF1ZXN0KTogUHJvbWlzZTxSZXNwb25zZT4gewogICAgY29uc3QgQ09SUzogUmVjb3JkPHN0cmluZywgc3RyaW5nPiA9IHsKICAgICAgICAnQWNjZXNzLUNvbnRyb2wtQWxsb3ctT3JpZ2luJzogJyonLAogICAgICAgICdBY2Nlc3MtQ29udHJvbC1BbGxvdy1IZWFkZXJzJzoKICAgICAgICAgICAgJ0F1dGhvcml6YXRpb24sIENvbnRlbnQtVHlwZSwgQWNjZXB0LCBYLUdpdEh1Yi1NZXRob2QsIFgtR2l0SHViLUFwaS1WZXJzaW9uJywKICAgICAgICAnQWNjZXNzLUNvbnRyb2wtQWxsb3ctTWV0aG9kcyc6ICdHRVQsIFBPU1QsIE9QVElPTlMnLAogICAgICAgICdBY2Nlc3MtQ29udHJvbC1NYXgtQWdlJzogJzg2NDAwJywKICAgIH07CgogICAgaWYgKHJlcS5tZXRob2QgPT09ICdPUFRJT05TJykgewogICAgICAgIHJldHVybiBuZXcgUmVzcG9uc2UobnVsbCwgeyBzdGF0dXM6IDIwNCwgaGVhZGVyczogQ09SUyB9KTsKICAgIH0KCiAgICBpZiAocmVxLm1ldGhvZCAhPT0gJ1BPU1QnKSB7CiAgICAgICAgcmV0dXJuIG5ldyBSZXNwb25zZShKU09OLnN0cmluZ2lmeSh7IGVycm9yOiAnTWV0aG9kIG5vdCBhbGxvd2VkJyB9KSwgewogICAgICAgICAgICBzdGF0dXM6IDQwNSwKICAgICAgICAgICAgaGVhZGVyczogeyAuLi5DT1JTLCAnQ29udGVudC1UeXBlJzogJ2FwcGxpY2F0aW9uL2pzb24nIH0sCiAgICAgICAgfSk7CiAgICB9CgogICAgY29uc3QgdXJsID0gbmV3IFVSTChyZXEudXJsKTsKICAgIGNvbnN0IHRhcmdldFVybCA9IHVybC5zZWFyY2hQYXJhbXMuZ2V0KCd1cmwnKTsKICAgIGlmICghdGFyZ2V0VXJsKSB7CiAgICAgICAgcmV0dXJuIG5ldyBSZXNwb25zZShKU09OLnN0cmluZ2lmeSh7IGVycm9yOiAnTWlzc2luZyB1cmwgcGFyYW1ldGVyJyB9KSwgewogICAgICAgICAgICBzdGF0dXM6IDQwMCwKICAgICAgICAgICAgaGVhZGVyczogeyAuLi5DT1JTLCAnQ29udGVudC1UeXBlJzogJ2FwcGxpY2F0aW9uL2pzb24nIH0sCiAgICAgICAgfSk7CiAgICB9CgogICAgbGV0IHBhcnNlZDogVVJMOwogICAgdHJ5IHsKICAgICAgICBwYXJzZWQgPSBuZXcgVVJMKHRhcmdldFVybCk7CiAgICB9IGNhdGNoIHsKICAgICAgICByZXR1cm4gbmV3IFJlc3BvbnNlKEpTT04uc3RyaW5naWZ5KHsgZXJyb3I6ICdJbnZhbGlkIFVSTCcgfSksIHsKICAgICAgICAgICAgc3RhdHVzOiA0MDAsCiAgICAgICAgICAgIGhlYWRlcnM6IHsgLi4uQ09SUywgJ0NvbnRlbnQtVHlwZSc6ICdhcHBsaWNhdGlvbi9qc29uJyB9LAogICAgICAgIH0pOwogICAgfQoKICAgIGlmIChwYXJzZWQucHJvdG9jb2wgIT09ICdodHRwczonIHx8ICFBTExPV0VEX0hPU1RTLmhhcyhwYXJzZWQuaG9zdG5hbWUpKSB7CiAgICAgICAgcmV0dXJuIG5ldyBSZXNwb25zZShKU09OLnN0cmluZ2lmeSh7IGVycm9yOiAnSG9zdCBub3QgYWxsb3dlZCcgfSksIHsKICAgICAgICAgICAgc3RhdHVzOiA0MDAsCiAgICAgICAgICAgIGhlYWRlcnM6IHsgLi4uQ09SUywgJ0NvbnRlbnQtVHlwZSc6ICdhcHBsaWNhdGlvbi9qc29uJyB9LAogICAgICAgIH0pOwogICAgfQoKICAgIGNvbnN0IGdoTWV0aG9kID0gKHJlcS5oZWFkZXJzLmdldCgnWC1HaXRIdWItTWV0aG9kJykgfHwgJ0dFVCcpLnRvVXBwZXJDYXNlKCk7CiAgICBjb25zdCBhbGxvd2VkID0gWydHRVQnLCAnUE9TVCcsICdERUxFVEUnLCAnUEFUQ0gnLCAnUFVUJ107CiAgICBpZiAoIWFsbG93ZWQuaW5jbHVkZXMoZ2hNZXRob2QpKSB7CiAgICAgICAgcmV0dXJuIG5ldyBSZXNwb25zZShKU09OLnN0cmluZ2lmeSh7IGVycm9yOiAnTWV0aG9kIG5vdCBhbGxvd2VkJyB9KSwgewogICAgICAgICAgICBzdGF0dXM6IDQwMCwKICAgICAgICAgICAgaGVhZGVyczogeyAuLi5DT1JTLCAnQ29udGVudC1UeXBlJzogJ2FwcGxpY2F0aW9uL2pzb24nIH0sCiAgICAgICAgfSk7CiAgICB9CgogICAgY29uc3QgZndkOiBSZWNvcmQ8c3RyaW5nLCBzdHJpbmc+ID0ge307CiAgICBjb25zdCBhdXRoID0gcmVxLmhlYWRlcnMuZ2V0KCdBdXRob3JpemF0aW9uJyk7CiAgICBpZiAoYXV0aCkgZndkWydBdXRob3JpemF0aW9uJ10gPSBhdXRoOwogICAgY29uc3QgY3QgPSByZXEuaGVhZGVycy5nZXQoJ0NvbnRlbnQtVHlwZScpOwogICAgaWYgKGN0KSBmd2RbJ0NvbnRlbnQtVHlwZSddID0gY3Q7CiAgICBjb25zdCBhY2NlcHQgPSByZXEuaGVhZGVycy5nZXQoJ0FjY2VwdCcpOwogICAgaWYgKGFjY2VwdCkgZndkWydBY2NlcHQnXSA9IGFjY2VwdDsKICAgIGNvbnN0IGFwaVZlciA9IHJlcS5oZWFkZXJzLmdldCgnWC1HaXRIdWItQXBpLVZlcnNpb24nKTsKICAgIGlmIChhcGlWZXIpIGZ3ZFsnWC1HaXRIdWItQXBpLVZlcnNpb24nXSA9IGFwaVZlcjsKICAgIC8vIEdpdEh1YiByZWplY3RzIHJlcXVlc3RzIHdpdGhvdXQgYSBVQS4KICAgIGZ3ZFsnVXNlci1BZ2VudCddID0gJ3N1bGx5LWJhY2t1cC1wcm94eSc7CgogICAgdHJ5IHsKICAgICAgICBsZXQgYm9keTogQXJyYXlCdWZmZXIgfCBudWxsID0gbnVsbDsKICAgICAgICBpZiAoZ2hNZXRob2QgIT09ICdHRVQnICYmIGdoTWV0aG9kICE9PSAnREVMRVRFJykgewogICAgICAgICAgICBib2R5ID0gYXdhaXQgcmVxLmFycmF5QnVmZmVyKCk7CiAgICAgICAgICAgIGlmIChib2R5LmJ5dGVMZW5ndGggPT09IDApIGJvZHkgPSBudWxsOwogICAgICAgIH0KCiAgICAgICAgY29uc3QgcmVzcCA9IGF3YWl0IGZldGNoKHRhcmdldFVybCwgewogICAgICAgICAgICBtZXRob2Q6IGdoTWV0aG9kLAogICAgICAgICAgICBoZWFkZXJzOiBmd2QsCiAgICAgICAgICAgIGJvZHksCiAgICAgICAgICAgIHJlZGlyZWN0OiAnZm9sbG93JywKICAgICAgICB9KTsKCiAgICAgICAgY29uc3QgcmVzSGVhZGVycyA9IG5ldyBIZWFkZXJzKENPUlMpOwogICAgICAgIGNvbnN0IHJjdCA9IHJlc3AuaGVhZGVycy5nZXQoJ0NvbnRlbnQtVHlwZScpOwogICAgICAgIGlmIChyY3QpIHJlc0hlYWRlcnMuc2V0KCdDb250ZW50LVR5cGUnLCByY3QpOwogICAgICAgIGlmIChyZXNwLnN0YXR1cyA9PT0gMjA2KSB7CiAgICAgICAgICAgIGNvbnN0IHJjbCA9IHJlc3AuaGVhZGVycy5nZXQoJ0NvbnRlbnQtTGVuZ3RoJyk7CiAgICAgICAgICAgIGlmIChyY2wpIHJlc0hlYWRlcnMuc2V0KCdDb250ZW50LUxlbmd0aCcsIHJjbCk7CiAgICAgICAgfQogICAgICAgIGNvbnN0IHJjciA9IHJlc3AuaGVhZGVycy5nZXQoJ0NvbnRlbnQtUmFuZ2UnKTsKICAgICAgICBpZiAocmNyKSByZXNIZWFkZXJzLnNldCgnQ29udGVudC1SYW5nZScsIHJjcik7CiAgICAgICAgcmVzSGVhZGVycy5zZXQoJ0FjY2Vzcy1Db250cm9sLUV4cG9zZS1IZWFkZXJzJywgJ0NvbnRlbnQtTGVuZ3RoLCBDb250ZW50LVJhbmdlJyk7CgogICAgICAgIHJldHVybiBuZXcgUmVzcG9uc2UocmVzcC5ib2R5LCB7CiAgICAgICAgICAgIHN0YXR1czogcmVzcC5zdGF0dXMsCiAgICAgICAgICAgIGhlYWRlcnM6IHJlc0hlYWRlcnMsCiAgICAgICAgfSk7CiAgICB9IGNhdGNoIChlOiBhbnkpIHsKICAgICAgICByZXR1cm4gbmV3IFJlc3BvbnNlKEpTT04uc3RyaW5naWZ5KHsgZXJyb3I6IGBQcm94eSBlcnJvcjogJHtlLm1lc3NhZ2V9YCB9KSwgewogICAgICAgICAgICBzdGF0dXM6IDUwMiwKICAgICAgICAgICAgaGVhZGVyczogeyAuLi5DT1JTLCAnQ29udGVudC1UeXBlJzogJ2FwcGxpY2F0aW9uL2pzb24nIH0sCiAgICAgICAgfSk7CiAgICB9Cn0K
+/**
+ * GitHub proxy route handler for Cloudflare Worker
+ *
+ * Add this to your existing sully-n Worker.
+ * Route: /github?url=<encoded target URL>
+ *
+ * Example integration in your Worker's fetch handler:
+ *
+ *   if (pathname === '/github') {
+ *       return handleGithub(request);
+ *   }
+ *
+ * Why this exists: most users hit api.github.com directly from the browser
+ * (GitHub does set CORS for any origin), but some networks (notably the GFW)
+ * can't reach github.com at all. Routing through Cloudflare gives those users
+ * a working path. Heads-up — Workers free tier caps the request body at
+ * ~100 MB, so very large 'full' backups still need a direct upload.
+ */
+
+const ALLOWED_HOSTS = new Set(['api.github.com', 'uploads.github.com']);
+
+export async function handleGithub(req: Request): Promise<Response> {
+    const CORS: Record<string, string> = {
+        'Access-Control-Allow-Origin': '*',
+        'Access-Control-Allow-Headers':
+            'Authorization, Content-Type, Accept, X-GitHub-Method, X-GitHub-Api-Version',
+        'Access-Control-Allow-Methods': 'GET, POST, OPTIONS',
+        'Access-Control-Max-Age': '86400',
+    };
+
+    if (req.method === 'OPTIONS') {
+        return new Response(null, { status: 204, headers: CORS });
+    }
+
+    if (req.method !== 'POST') {
+        return new Response(JSON.stringify({ error: 'Method not allowed' }), {
+            status: 405,
+            headers: { ...CORS, 'Content-Type': 'application/json' },
+        });
+    }
+
+    const url = new URL(req.url);
+    const targetUrl = url.searchParams.get('url');
+    if (!targetUrl) {
+        return new Response(JSON.stringify({ error: 'Missing url parameter' }), {
+            status: 400,
+            headers: { ...CORS, 'Content-Type': 'application/json' },
+        });
+    }
+
+    let parsed: URL;
+    try {
+        parsed = new URL(targetUrl);
+    } catch {
+        return new Response(JSON.stringify({ error: 'Invalid URL' }), {
+            status: 400,
+            headers: { ...CORS, 'Content-Type': 'application/json' },
+        });
+    }
+
+    if (parsed.protocol !== 'https:' || !ALLOWED_HOSTS.has(parsed.hostname)) {
+        return new Response(JSON.stringify({ error: 'Host not allowed' }), {
+            status: 400,
+            headers: { ...CORS, 'Content-Type': 'application/json' },
+        });
+    }
+
+    const ghMethod = (req.headers.get('X-GitHub-Method') || 'GET').toUpperCase();
+    const allowed = ['GET', 'POST', 'DELETE', 'PATCH', 'PUT'];
+    if (!allowed.includes(ghMethod)) {
+        return new Response(JSON.stringify({ error: 'Method not allowed' }), {
+            status: 400,
+            headers: { ...CORS, 'Content-Type': 'application/json' },
+        });
+    }
+
+    const fwd: Record<string, string> = {};
+    const auth = req.headers.get('Authorization');
+    if (auth) fwd['Authorization'] = auth;
+    const ct = req.headers.get('Content-Type');
+    if (ct) fwd['Content-Type'] = ct;
+    const accept = req.headers.get('Accept');
+    if (accept) fwd['Accept'] = accept;
+    const apiVer = req.headers.get('X-GitHub-Api-Version');
+    if (apiVer) fwd['X-GitHub-Api-Version'] = apiVer;
+    // GitHub rejects requests without a UA.
+    fwd['User-Agent'] = 'sully-backup-proxy';
+
+    try {
+        let body: ArrayBuffer | null = null;
+        if (ghMethod !== 'GET' && ghMethod !== 'DELETE') {
+            body = await req.arrayBuffer();
+            if (body.byteLength === 0) body = null;
+        }
+
+        const resp = await fetch(targetUrl, {
+            method: ghMethod,
+            headers: fwd,
+            body,
+            redirect: 'follow',
+        });
+
+        const resHeaders = new Headers(CORS);
+        const rct = resp.headers.get('Content-Type');
+        if (rct) resHeaders.set('Content-Type', rct);
+        if (resp.status === 206) {
+            const rcl = resp.headers.get('Content-Length');
+            if (rcl) resHeaders.set('Content-Length', rcl);
+        }
+        const rcr = resp.headers.get('Content-Range');
+        if (rcr) resHeaders.set('Content-Range', rcr);
+        resHeaders.set('Access-Control-Expose-Headers', 'Content-Length, Content-Range');
+
+        return new Response(resp.body, {
+            status: resp.status,
+            headers: resHeaders,
+        });
+    } catch (e: any) {
+        return new Response(JSON.stringify({ error: `Proxy error: ${e.message}` }), {
+            status: 502,
+            headers: { ...CORS, 'Content-Type': 'application/json' },
+        });
+    }
+}

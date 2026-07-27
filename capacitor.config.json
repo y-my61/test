@@ -1,1 +1,19 @@
-ewogICJhcHBJZCI6ICJjb20uYWV0aGVyb3Muc2ltdWxhdG9yIiwKICAiYXBwTmFtZSI6ICLmiYvmipPns6/nsbPmnLoiLAogICJ3ZWJEaXIiOiAiZGlzdCIsCiAgInNlcnZlciI6IHsKICAgICJhbmRyb2lkU2NoZW1lIjogImh0dHBzIiwKICAgICJjbGVhcnRleHQiOiB0cnVlCiAgfSwKICAicGx1Z2lucyI6IHsKICAgICJTcGxhc2hTY3JlZW4iOiB7CiAgICAgICJsYXVuY2hTaG93RHVyYXRpb24iOiAwCiAgICB9LAogICAgIktleWJvYXJkIjogewogICAgICAicmVzaXplIjogImJvZHkiLAogICAgICAic3R5bGUiOiAiZGFyayIsCiAgICAgICJyZXNpemVPbkZ1bGxTY3JlZW4iOiB0cnVlCiAgICB9CiAgfQp9
+{
+  "appId": "com.aetheros.simulator",
+  "appName": "手抓糯米机",
+  "webDir": "dist",
+  "server": {
+    "androidScheme": "https",
+    "cleartext": true
+  },
+  "plugins": {
+    "SplashScreen": {
+      "launchShowDuration": 0
+    },
+    "Keyboard": {
+      "resize": "body",
+      "style": "dark",
+      "resizeOnFullScreen": true
+    }
+  }
+}

@@ -1,1 +1,95 @@
-aW1wb3J0IFJlYWN0LCB7IHVzZUVmZmVjdCwgdXNlTGF5b3V0RWZmZWN0LCB1c2VSZWYsIHVzZVN0YXRlIH0gZnJvbSAncmVhY3QnOwppbXBvcnQgeyBxdWVyeVN3VmVyc2lvbiB9IGZyb20gJy4uL3V0aWxzL3N3VmVyc2lvbic7CmltcG9ydCB7IEJVSUxEX0xBQkVMIH0gZnJvbSAnLi4vdXRpbHMvYnVpbGRJbmZvJzsKCi8qKgogKiDmnoTlu7rniYjmnKzmjIfnpLrlmajvvJrlj7PkuIvop5LpmLbmoq/lvI/loIbkuInooYwKICogICBzd0A8U1dfVkVSU0lPTj4KICogICA8YnJhbmNoPkA8c2hvcnRIYXNoPgogKiAgIOW8gOWPkeS4reWGheWuue+8jOS4jeS7o+ihqOacgOe7iOaViOaenAogKgogKiAtIOWPs+S+p+i0tOm9kOaIkOerluebtOe6v++8m+W3puS+p+avj+ihjOagueaNruWunua1i+WuveW6puWKqOaAgeWGs+WumuWchuinku+8iOS7heWcqCLkvLjlh7rpgrvooYwi5LiA5L6n77yJ44CCCiAqICAg5YiG5pSv5ZCN6ZW/5bqm5Y+v5Y+Y77yM5omA5Lul6KGM5a696aG65bqP5LiN5Zu65a6a77yM6ZyA6KaBIHVzZUxheW91dEVmZmVjdCDlnKggcGFpbnQg5YmN5rWL6YeP44CCCiAqIC0g5LuF5b2TIHZpdGUuY29uZmlnIOazqOWFpeeahCBfX0JVSUxEX0JBREdFX1ZJU0lCTEVfXyDkuLogdHJ1ZSDml7bmjILovb0KICogICDvvIhWSVRFX0hJREVfQlVJTERfQkFER0U9MSDml7bmnoTlu7rkvJrmiorlroPnvJbor5HmiJAgZmFsc2Ug4oaSIOagkeaRh+aOie+8iQogKiAtIFNXIOeJiOacrOmAmui/hyB1dGlscy9zd1ZlcnNpb24g55qEIEdFVF9TV19WRVJTSU9OIOWNj+iuruafpeivou+8m1NXIOacquazqOWGjCAvCiAqICAg5LiN5ZON5bqU5pe25pi+56S6IHN3QD8KICogLSBwb2ludGVyLWV2ZW50cy1ub25lICsgc2VsZWN0LW5vbmXvvJrkuI3lj6/ngrnjgIHkuI3lj6/pgInjgIHkuI3lvbHlk43kuIvlsYLkuqTkupIKICogLSB6LVsyMTQ3NDgzNjQ3Xe+8muS/neivgeebluWcqOaJgOaciSBtb2RhbCAvIOWKqOeUuyAvIOWFqOWxj+imhuebluWxguS5i+S4igogKiAtIHNhZmUtYXJlYS1pbnNldO+8mmlPUyBQV0Eg5bqV6YOoIGhvbWUgaW5kaWNhdG9yIOWMuuWfn+mBv+iuqQogKgogKiDms6jvvJrov5nmmK8gZGV2IC8gZm9yayDkuJPnlKjnmoTphpLnm67op5LmoIfjgILmraPlvI/niYjvvIhtYWluL21hc3Rlcu+8ieS8muiiq+agkeaRh+aOie+8jAogKiDkvYbmnoTlu7ogLyBTVyDniYjmnKzku43pgJrov4cgU2V0dGluZ3Mg5bqV6YOo55qEIFZlcnNpb25JbmZvIOS9juiwg+Wxleekuu+8jOaWueS+v+eUqOaIt+aKpemanOOAggogKi8KY29uc3QgQnVpbGRCYWRnZTogUmVhY3QuRkMgPSAoKSA9PiB7CiAgICBpZiAoIV9fQlVJTERfQkFER0VfVklTSUJMRV9fKSByZXR1cm4gbnVsbDsKCiAgICBjb25zdCBidWlsZExhYmVsID0gQlVJTERfTEFCRUw7CiAgICBjb25zdCBbc3dWZXJzaW9uLCBzZXRTd1ZlcnNpb25dID0gdXNlU3RhdGU8c3RyaW5nPign4oCmJyk7CiAgICBjb25zdCBsaW5lUmVmcyA9IHVzZVJlZjxBcnJheTxIVE1MU3BhbkVsZW1lbnQgfCBudWxsPj4oW10pOwogICAgY29uc3QgW3dpZHRocywgc2V0V2lkdGhzXSA9IHVzZVN0YXRlPG51bWJlcltdIHwgbnVsbD4obnVsbCk7CgogICAgdXNlRWZmZWN0KCgpID0+IHsKICAgICAgICBsZXQgY2FuY2VsbGVkID0gZmFsc2U7CiAgICAgICAgcXVlcnlTd1ZlcnNpb24oKS50aGVuKCh2KSA9PiB7IGlmICghY2FuY2VsbGVkKSBzZXRTd1ZlcnNpb24odik7IH0pOwogICAgICAgIHJldHVybiAoKSA9PiB7IGNhbmNlbGxlZCA9IHRydWU7IH07CiAgICB9LCBbXSk7CgogICAgLy8g5Y+z5L6n6LS06b2QIChyb3VuZGVkLXRyIOS7hemhtuihjCwgcm91bmRlZC1iciDku4XmnKvooYwp44CCCiAgICAvLyDlt6bkvqfpgJDooYzmtYvlrr06IOS7heW9k+W9k+WJjeihjOS4peagvOWuveS6juS4iiAvIOS4i+mCu+ihjOaXtiwg6K+l5L6n5Ly45Ye6LCDmiY3nu5nlnIbop5I7CiAgICAvLyDnrYnlrr0gLyDmm7TnqoTml7YsIOmCu+ihjOS8muimhuebluWIsOW9k+WJjeihjOWkluS+pywg5ZyG6KeS5Lya5b2i5oiQ5Ye557ydLCDmiYDku6Xnu5nmlrnop5LorqnlroPku6zotLTkuIrjgIIKICAgIGNvbnN0IGxpbmVzOiBBcnJheTx7IHRleHQ6IHN0cmluZzsgY2xzOiBzdHJpbmcgfT4gPSBbCiAgICAgICAgeyB0ZXh0OiBgc3dAJHtzd1ZlcnNpb259YCwgY2xzOiAndGV4dC1bOXB4XSB0cmFja2luZy13aWRlcicgfSwKICAgICAgICB7IHRleHQ6IGJ1aWxkTGFiZWwsIGNsczogJ3RleHQtWzlweF0gdHJhY2tpbmctd2lkZXInIH0sCiAgICAgICAgeyB0ZXh0OiAn5byA5Y+R5Lit5YaF5a6577yM5LiN5Luj6KGo5pyA57uI5pWI5p6cJywgY2xzOiAndGV4dC1bOHB4XSB0cmFja2luZy1ub3JtYWwgdGV4dC13aGl0ZS8zNScgfSwKICAgIF07CiAgICBjb25zdCBsYXN0SWR4ID0gbGluZXMubGVuZ3RoIC0gMTsKCiAgICB1c2VMYXlvdXRFZmZlY3QoKCkgPT4gewogICAgICAgIHNldFdpZHRocyhsaW5lUmVmcy5jdXJyZW50Lm1hcCgocikgPT4gcj8ub2Zmc2V0V2lkdGggPz8gMCkpOwogICAgfSwgW3N3VmVyc2lvbiwgYnVpbGRMYWJlbF0pOwoKICAgIGNvbnN0IGNvcm5lckNsYXNzID0gKGk6IG51bWJlcik6IHN0cmluZyA9PiB7CiAgICAgICAgY29uc3QgdyA9IHdpZHRocz8uW2ldOwogICAgICAgIGNvbnN0IHdQcmV2ID0gaSA+IDAgPyB3aWR0aHM/LltpIC0gMV0gOiB1bmRlZmluZWQ7CiAgICAgICAgY29uc3Qgd05leHQgPSBpIDwgbGFzdElkeCA/IHdpZHRocz8uW2kgKyAxXSA6IHVuZGVmaW5lZDsKICAgICAgICBjb25zdCB0b3BMZWZ0ID0gd2lkdGhzID09PSBudWxsIHx8ICh3ICE9PSB1bmRlZmluZWQgJiYgKHdQcmV2ID09PSB1bmRlZmluZWQgfHwgdyA+IHdQcmV2KSk7CiAgICAgICAgY29uc3QgYm90dG9tTGVmdCA9IHdpZHRocyA9PT0gbnVsbCB8fCAodyAhPT0gdW5kZWZpbmVkICYmICh3TmV4dCA9PT0gdW5kZWZpbmVkIHx8IHcgPiB3TmV4dCkpOwogICAgICAgIHJldHVybiBbCiAgICAgICAgICAgIHRvcExlZnQgJiYgJ3JvdW5kZWQtdGwtbWQnLAogICAgICAgICAgICBib3R0b21MZWZ0ICYmICdyb3VuZGVkLWJsLW1kJywKICAgICAgICAgICAgaSA9PT0gMCAmJiAncm91bmRlZC10ci1tZCcsCiAgICAgICAgICAgIGkgPT09IGxhc3RJZHggJiYgJ3JvdW5kZWQtYnItbWQnLAogICAgICAgIF0uZmlsdGVyKEJvb2xlYW4pLmpvaW4oJyAnKTsKICAgIH07CgogICAgcmV0dXJuICgKICAgICAgICA8ZGl2CiAgICAgICAgICAgIGFyaWEtaGlkZGVuCiAgICAgICAgICAgIGNsYXNzTmFtZT0iZml4ZWQgcG9pbnRlci1ldmVudHMtbm9uZSBzZWxlY3Qtbm9uZSIKICAgICAgICAgICAgc3R5bGU9e3sKICAgICAgICAgICAgICAgIGJvdHRvbTogJ2NhbGModmFyKC0tc2FmZS1ib3R0b20pICsgNHB4KScsCiAgICAgICAgICAgICAgICByaWdodDogJ2NhbGMoZW52KHNhZmUtYXJlYS1pbnNldC1yaWdodCwgMHB4KSArIDZweCknLAogICAgICAgICAgICAgICAgekluZGV4OiAyMTQ3NDgzNjQ3LAogICAgICAgICAgICAgICAgdG91Y2hBY3Rpb246ICdub25lJywKICAgICAgICAgICAgfX0KICAgICAgICA+CiAgICAgICAgICAgIDxkaXYKICAgICAgICAgICAgICAgIGNsYXNzTmFtZT0iZm9udC1tb25vIHRleHQtd2hpdGUvNDUgZmxleCBmbGV4LWNvbCBpdGVtcy1lbmQgbGVhZGluZy1bMS4yNV0iCiAgICAgICAgICAgICAgICBzdHlsZT17eyBsZXR0ZXJTcGFjaW5nOiAnMC4wNWVtJyB9fQogICAgICAgICAgICA+CiAgICAgICAgICAgICAgICB7bGluZXMubWFwKChsaW5lLCBpKSA9PiAoCiAgICAgICAgICAgICAgICAgICAgPHNwYW4KICAgICAgICAgICAgICAgICAgICAgICAga2V5PXtpfQogICAgICAgICAgICAgICAgICAgICAgICByZWY9eyhlbCkgPT4geyBsaW5lUmVmcy5jdXJyZW50W2ldID0gZWw7IH19CiAgICAgICAgICAgICAgICAgICAgICAgIGNsYXNzTmFtZT17YCR7bGluZS5jbHN9IHB4LTEuNSBweS1bMXB4XSBiZy1ibGFjay8zNSBiYWNrZHJvcC1ibHVyLXNtIHNoYWRvdy1zbSAke2Nvcm5lckNsYXNzKGkpfWB9CiAgICAgICAgICAgICAgICAgICAgPgogICAgICAgICAgICAgICAgICAgICAgICB7bGluZS50ZXh0fQogICAgICAgICAgICAgICAgICAgIDwvc3Bhbj4KICAgICAgICAgICAgICAgICkpfQogICAgICAgICAgICA8L2Rpdj4KICAgICAgICA8L2Rpdj4KICAgICk7Cn07CgpleHBvcnQgZGVmYXVsdCBCdWlsZEJhZGdlOwo=
+import React, { useEffect, useLayoutEffect, useRef, useState } from 'react';
+import { querySwVersion } from '../utils/swVersion';
+import { BUILD_LABEL } from '../utils/buildInfo';
+
+/**
+ * 构建版本指示器：右下角阶梯式堆三行
+ *   sw@<SW_VERSION>
+ *   <branch>@<shortHash>
+ *   开发中内容，不代表最终效果
+ *
+ * - 右侧贴齐成竖直线；左侧每行根据实测宽度动态决定圆角（仅在"伸出邻行"一侧）。
+ *   分支名长度可变，所以行宽顺序不固定，需要 useLayoutEffect 在 paint 前测量。
+ * - 仅当 vite.config 注入的 __BUILD_BADGE_VISIBLE__ 为 true 时挂载
+ *   （VITE_HIDE_BUILD_BADGE=1 时构建会把它编译成 false → 树摇掉）
+ * - SW 版本通过 utils/swVersion 的 GET_SW_VERSION 协议查询；SW 未注册 /
+ *   不响应时显示 sw@?
+ * - pointer-events-none + select-none：不可点、不可选、不影响下层交互
+ * - z-[2147483647]：保证盖在所有 modal / 动画 / 全屏覆盖层之上
+ * - safe-area-inset：iOS PWA 底部 home indicator 区域避让
+ *
+ * 注：这是 dev / fork 专用的醒目角标。正式版（main/master）会被树摇掉，
+ * 但构建 / SW 版本仍通过 Settings 底部的 VersionInfo 低调展示，方便用户报障。
+ */
+const BuildBadge: React.FC = () => {
+    if (!__BUILD_BADGE_VISIBLE__) return null;
+
+    const buildLabel = BUILD_LABEL;
+    const [swVersion, setSwVersion] = useState<string>('…');
+    const lineRefs = useRef<Array<HTMLSpanElement | null>>([]);
+    const [widths, setWidths] = useState<number[] | null>(null);
+
+    useEffect(() => {
+        let cancelled = false;
+        querySwVersion().then((v) => { if (!cancelled) setSwVersion(v); });
+        return () => { cancelled = true; };
+    }, []);
+
+    // 右侧贴齐 (rounded-tr 仅顶行, rounded-br 仅末行)。
+    // 左侧逐行测宽: 仅当当前行严格宽于上 / 下邻行时, 该侧伸出, 才给圆角;
+    // 等宽 / 更窄时, 邻行会覆盖到当前行外侧, 圆角会形成凹缝, 所以给方角让它们贴上。
+    const lines: Array<{ text: string; cls: string }> = [
+        { text: `sw@${swVersion}`, cls: 'text-[9px] tracking-wider' },
+        { text: buildLabel, cls: 'text-[9px] tracking-wider' },
+        { text: '开发中内容，不代表最终效果', cls: 'text-[8px] tracking-normal text-white/35' },
+    ];
+    const lastIdx = lines.length - 1;
+
+    useLayoutEffect(() => {
+        setWidths(lineRefs.current.map((r) => r?.offsetWidth ?? 0));
+    }, [swVersion, buildLabel]);
+
+    const cornerClass = (i: number): string => {
+        const w = widths?.[i];
+        const wPrev = i > 0 ? widths?.[i - 1] : undefined;
+        const wNext = i < lastIdx ? widths?.[i + 1] : undefined;
+        const topLeft = widths === null || (w !== undefined && (wPrev === undefined || w > wPrev));
+        const bottomLeft = widths === null || (w !== undefined && (wNext === undefined || w > wNext));
+        return [
+            topLeft && 'rounded-tl-md',
+            bottomLeft && 'rounded-bl-md',
+            i === 0 && 'rounded-tr-md',
+            i === lastIdx && 'rounded-br-md',
+        ].filter(Boolean).join(' ');
+    };
+
+    return (
+        <div
+            aria-hidden
+            className="fixed pointer-events-none select-none"
+            style={{
+                bottom: 'calc(var(--safe-bottom) + 4px)',
+                right: 'calc(env(safe-area-inset-right, 0px) + 6px)',
+                zIndex: 2147483647,
+                touchAction: 'none',
+            }}
+        >
+            <div
+                className="font-mono text-white/45 flex flex-col items-end leading-[1.25]"
+                style={{ letterSpacing: '0.05em' }}
+            >
+                {lines.map((line, i) => (
+                    <span
+                        key={i}
+                        ref={(el) => { lineRefs.current[i] = el; }}
+                        className={`${line.cls} px-1.5 py-[1px] bg-black/35 backdrop-blur-sm shadow-sm ${cornerClass(i)}`}
+                    >
+                        {line.text}
+                    </span>
+                ))}
+            </div>
+        </div>
+    );
+};
+
+export default BuildBadge;

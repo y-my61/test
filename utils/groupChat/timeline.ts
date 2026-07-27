@@ -1,1 +1,63 @@
-aW1wb3J0IHsgTWVzc2FnZSB9IGZyb20gJy4uLy4uL3R5cGVzJzsKaW1wb3J0IHsgbWVzc2FnZUxvZ1RleHQgfSBmcm9tICcuL2Zvcm1hdCc7CgpleHBvcnQgY29uc3QgREVGQVVMVF9NRU1CRVJfVElNRUxJTkVfQ0FQID0gNDA7CgovKiog5pe26Ze057q/5Y2V6KGM5q2j5paH55qE5oiq5pat6ZW/5bqm4oCU4oCU5q+U5pen54mIIjUwIOWtlyLlrr3mnb7vvIzkv53kvY/mg4Xnu6rnu4boioLlj4jkuI3oh7Pkuo7mkpHniIYgcHJvbXB0ICovCmNvbnN0IExJTkVfTUFYX0NIQVJTID0gODA7Cgpjb25zdCB0cnVuY2F0ZSA9ICh0ZXh0OiBzdHJpbmcsIG1heDogbnVtYmVyKTogc3RyaW5nID0+CiAgICB0ZXh0Lmxlbmd0aCA+IG1heCA/IGAke3RleHQuc2xpY2UoMCwgbWF4KX3igKZgIDogdGV4dDsKCmNvbnN0IGZvcm1hdFRpbWUgPSAodHM6IG51bWJlcik6IHN0cmluZyA9PiB7CiAgICBjb25zdCBkID0gbmV3IERhdGUodHMpOwogICAgY29uc3QgbW0gPSBTdHJpbmcoZC5nZXRNb250aCgpICsgMSkucGFkU3RhcnQoMiwgJzAnKTsKICAgIGNvbnN0IGRkID0gU3RyaW5nKGQuZ2V0RGF0ZSgpKS5wYWRTdGFydCgyLCAnMCcpOwogICAgY29uc3QgaGggPSBTdHJpbmcoZC5nZXRIb3VycygpKS5wYWRTdGFydCgyLCAnMCcpOwogICAgY29uc3QgbWkgPSBTdHJpbmcoZC5nZXRNaW51dGVzKCkpLnBhZFN0YXJ0KDIsICcwJyk7CiAgICByZXR1cm4gYCR7bW19LSR7ZGR9ICR7aGh9OiR7bWl9YDsKfTsKCmV4cG9ydCBpbnRlcmZhY2UgTWVtYmVyVGltZWxpbmVPcHRpb25zIHsKICAgIC8qKiDor6XmiJDlkZjnmoTnp4HogYrmtojmga/vvIjlu7rorq4gREIuZ2V0UmVjZW50TWVzc2FnZXNCeUNoYXJJZChpZCwgY2FwLCB0cnVlKSDlj5bmnIDov5EgY2FwIOadoe+8iSAqLwogICAgcHJpdmF0ZU1zZ3M6IE1lc3NhZ2VbXTsKICAgIC8qKiDnvqTogYrmtojmga/vvIjlvZPliY3nvqTvvIzlhoXlrZjph4zlt7LmnInnmoTljbPlj6/vvIkgKi8KICAgIGdyb3VwTXNnczogTWVzc2FnZVtdOwogICAgLyoqIOWQiOW5tuaOkuW6j+WQjuWPluacqyBOIOadoSAqLwogICAgY2FwOiBudW1iZXI7CiAgICAvKiog576k5raI5oGv6K+06K+d5Lq66Kej5p6Q77yaY2hhcklkIOKGkiDmmL7npLrlkI3vvIh1c2VyIOinkuiJsuS4jee7j+i/h+Wug++8iSAqLwogICAgcmVzb2x2ZVNwZWFrZXI6IChtOiBNZXNzYWdlKSA9PiBzdHJpbmc7CiAgICAvKiog6KGo5oOF5YyFIFVSTCDihpIg5ZCN56ew77yI5Y2g5L2N56ym55So77yJICovCiAgICBzdGlja2VyTmFtZT86ICh1cmw6IHN0cmluZykgPT4gc3RyaW5nOwp9CgovKioKICog5p6E5bu65p+Q5oiQ5ZGY55qEIuengeiBiiArIOe+pOiBiuWQiOW5tuaXtumXtOe6vyLigJTigJTmjInml7bpl7TmiLPljYfluo/jgIHluKbmnaXmupDmoIfnrb7jgIIKICog6L+Z5piv576k6IGK6YeM6KeS6Imy5oSf5oOF5LiO56eB6IGK6KGU5o6l55qE5YWz6ZSu77ya5pen54mI5Y+q5bimIuacgOWQjiAxMCDmnaHnp4HogYogw5cg5oiq5patIDUwIOWtlyIKICog5LiU5LiO576k5Y6G5Y+y6ZqU56a777yM6KeS6Imy55yL5LiN5Yiw5Lik5p2h57q/55qE5YWI5ZCO5YWz57O744CCCiAqCiAqIOi+k+WHuuW9ouWmgu+8mgogKiAgIFvnp4HogYpdWzA3LTEwIDIyOjE0XSDnlKjmiLc6IOS7iuWkqeWlvee0r+KApuKApgogKiAgIFvnp4HogYpdWzA3LTEwIDIyOjE1XSDmiJE6IOmCo+aXqeeCueedoe+8jOWIq+WIt+aJi+acuuS6hgogKiAgIFvnvqTogYpdWzA3LTExIDA5OjAyXSDlsI/lpI86IOaXqeWViu+8gQogKi8KZXhwb3J0IGZ1bmN0aW9uIGJ1aWxkTWVtYmVyVGltZWxpbmUob3B0czogTWVtYmVyVGltZWxpbmVPcHRpb25zKTogc3RyaW5nIHsKICAgIGNvbnN0IHsgcHJpdmF0ZU1zZ3MsIGdyb3VwTXNncywgY2FwLCByZXNvbHZlU3BlYWtlciwgc3RpY2tlck5hbWUgfSA9IG9wdHM7CgogICAgY29uc3QgdGFnZ2VkID0gWwogICAgICAgIC4uLnByaXZhdGVNc2dzLnNsaWNlKC1jYXApLm1hcChtID0+ICh7IG0sIGlzR3JvdXA6IGZhbHNlIH0pKSwKICAgICAgICAuLi5ncm91cE1zZ3Muc2xpY2UoLWNhcCkubWFwKG0gPT4gKHsgbSwgaXNHcm91cDogdHJ1ZSB9KSksCiAgICBdOwogICAgdGFnZ2VkLnNvcnQoKGEsIGIpID0+IGEubS50aW1lc3RhbXAgLSBiLm0udGltZXN0YW1wKTsKCiAgICByZXR1cm4gdGFnZ2VkCiAgICAgICAgLnNsaWNlKC1jYXApCiAgICAgICAgLm1hcCgoeyBtLCBpc0dyb3VwIH0pID0+IHsKICAgICAgICAgICAgY29uc3QgdGFnID0gaXNHcm91cCA/ICdb576k6IGKXScgOiAnW+engeiBil0nOwogICAgICAgICAgICAvLyDnp4HogYrooYznmoQi5oiRIj0g6K+l5oiQ5ZGY5pys5Lq677yb576k6IGK6KGM55So55yf5ZCN77yM5oiQ5ZGY5omN6IO95YiG5riF6LCB6K+055qECiAgICAgICAgICAgIGNvbnN0IHNwZWFrZXIgPSBtLnJvbGUgPT09ICd1c2VyJyA/ICfnlKjmiLcnIDogKGlzR3JvdXAgPyByZXNvbHZlU3BlYWtlcihtKSA6ICfmiJEnKTsKICAgICAgICAgICAgY29uc3QgdGV4dCA9IHRydW5jYXRlKG1lc3NhZ2VMb2dUZXh0KG0sIHN0aWNrZXJOYW1lKSwgTElORV9NQVhfQ0hBUlMpOwogICAgICAgICAgICByZXR1cm4gYCR7dGFnfVske2Zvcm1hdFRpbWUobS50aW1lc3RhbXApfV0gJHtzcGVha2VyfTogJHt0ZXh0fWA7CiAgICAgICAgfSkKICAgICAgICAuam9pbignXG4nKTsKfQo=
+import { Message } from '../../types';
+import { messageLogText } from './format';
+
+export const DEFAULT_MEMBER_TIMELINE_CAP = 40;
+
+/** 时间线单行正文的截断长度——比旧版"50 字"宽松，保住情绪细节又不至于撑爆 prompt */
+const LINE_MAX_CHARS = 80;
+
+const truncate = (text: string, max: number): string =>
+    text.length > max ? `${text.slice(0, max)}…` : text;
+
+const formatTime = (ts: number): string => {
+    const d = new Date(ts);
+    const mm = String(d.getMonth() + 1).padStart(2, '0');
+    const dd = String(d.getDate()).padStart(2, '0');
+    const hh = String(d.getHours()).padStart(2, '0');
+    const mi = String(d.getMinutes()).padStart(2, '0');
+    return `${mm}-${dd} ${hh}:${mi}`;
+};
+
+export interface MemberTimelineOptions {
+    /** 该成员的私聊消息（建议 DB.getRecentMessagesByCharId(id, cap, true) 取最近 cap 条） */
+    privateMsgs: Message[];
+    /** 群聊消息（当前群，内存里已有的即可） */
+    groupMsgs: Message[];
+    /** 合并排序后取末 N 条 */
+    cap: number;
+    /** 群消息说话人解析：charId → 显示名（user 角色不经过它） */
+    resolveSpeaker: (m: Message) => string;
+    /** 表情包 URL → 名称（占位符用） */
+    stickerName?: (url: string) => string;
+}
+
+/**
+ * 构建某成员的"私聊 + 群聊合并时间线"——按时间戳升序、带来源标签。
+ * 这是群聊里角色感情与私聊衔接的关键：旧版只带"最后 10 条私聊 × 截断 50 字"
+ * 且与群历史隔离，角色看不到两条线的先后关系。
+ *
+ * 输出形如：
+ *   [私聊][07-10 22:14] 用户: 今天好累……
+ *   [私聊][07-10 22:15] 我: 那早点睡，别刷手机了
+ *   [群聊][07-11 09:02] 小夏: 早啊！
+ */
+export function buildMemberTimeline(opts: MemberTimelineOptions): string {
+    const { privateMsgs, groupMsgs, cap, resolveSpeaker, stickerName } = opts;
+
+    const tagged = [
+        ...privateMsgs.slice(-cap).map(m => ({ m, isGroup: false })),
+        ...groupMsgs.slice(-cap).map(m => ({ m, isGroup: true })),
+    ];
+    tagged.sort((a, b) => a.m.timestamp - b.m.timestamp);
+
+    return tagged
+        .slice(-cap)
+        .map(({ m, isGroup }) => {
+            const tag = isGroup ? '[群聊]' : '[私聊]';
+            // 私聊行的"我"= 该成员本人；群聊行用真名，成员才能分清谁说的
+            const speaker = m.role === 'user' ? '用户' : (isGroup ? resolveSpeaker(m) : '我');
+            const text = truncate(messageLogText(m, stickerName), LINE_MAX_CHARS);
+            return `${tag}[${formatTime(m.timestamp)}] ${speaker}: ${text}`;
+        })
+        .join('\n');
+}

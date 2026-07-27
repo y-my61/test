@@ -1,1 +1,44 @@
-77u/aW1wb3J0IHsgYnVpbGRCYWNrZ3JvdW5kRnVuY3Rpb25VcmwsIGludGVybmFsRXJyb3JSZXNwb25zZSwganNvblJlc3BvbnNlLCBtZXRob2ROb3RBbGxvd2VkLCBwcmVmbGlnaHRSZXNwb25zZSB9IGZyb20gJy4vX3NoYXJlZC9yZWknOwoKZXhwb3J0IGRlZmF1bHQgYXN5bmMgKHJlcTogUmVxdWVzdCkgPT4gewogIGlmIChyZXEubWV0aG9kID09PSAnT1BUSU9OUycpIHsKICAgIHJldHVybiBwcmVmbGlnaHRSZXNwb25zZSgnUE9TVCcpOwogIH0KCiAgaWYgKHJlcS5tZXRob2QgIT09ICdQT1NUJykgewogICAgcmV0dXJuIG1ldGhvZE5vdEFsbG93ZWQoJ1BPU1QnKTsKICB9CgogIHRyeSB7CiAgICBjb25zdCBoZWFkZXJzID0gbmV3IEhlYWRlcnMoKTsKICAgIGNvbnN0IGF1dGhvcml6YXRpb24gPSByZXEuaGVhZGVycy5nZXQoJ2F1dGhvcml6YXRpb24nKTsKICAgIGlmIChhdXRob3JpemF0aW9uKSB7CiAgICAgIGhlYWRlcnMuc2V0KCdhdXRob3JpemF0aW9uJywgYXV0aG9yaXphdGlvbik7CiAgICB9CgogICAgY29uc3QgYmFja2dyb3VuZFJlc3BvbnNlID0gYXdhaXQgZmV0Y2goYnVpbGRCYWNrZ3JvdW5kRnVuY3Rpb25VcmwocmVxLCBuZXcgVVJMKHJlcS51cmwpLnNlYXJjaCksIHsKICAgICAgbWV0aG9kOiAnUE9TVCcsCiAgICAgIGhlYWRlcnMsCiAgICB9KTsKCiAgICBpZiAoIWJhY2tncm91bmRSZXNwb25zZS5vaykgewogICAgICByZXR1cm4ganNvblJlc3BvbnNlKHsKICAgICAgICBzdWNjZXNzOiBmYWxzZSwKICAgICAgICBlcnJvcjogewogICAgICAgICAgY29kZTogJ0JBQ0tHUk9VTkRfUVVFVUVfRkFJTEVEJywKICAgICAgICAgIG1lc3NhZ2U6IGBGYWlsZWQgdG8gcXVldWUgYmFja2dyb3VuZCBkaXNwYXRjaCAoSFRUUCAke2JhY2tncm91bmRSZXNwb25zZS5zdGF0dXN9KS5gLAogICAgICAgIH0sCiAgICAgIH0sIDUwMik7CiAgICB9CgogICAgcmV0dXJuIGpzb25SZXNwb25zZSh7CiAgICAgIHN1Y2Nlc3M6IHRydWUsCiAgICAgIGRhdGE6IHsKICAgICAgICBxdWV1ZWQ6IHRydWUsCiAgICAgICAgbWVzc2FnZTogJ3NlbmQtbm90aWZpY2F0aW9ucyBoYXMgYmVlbiBoYW5kZWQgb2ZmIHRvIHRoZSBiYWNrZ3JvdW5kIGZ1bmN0aW9uLicsCiAgICAgIH0sCiAgICB9LCAyMDIpOwogIH0gY2F0Y2ggKGVycm9yKSB7CiAgICByZXR1cm4gaW50ZXJuYWxFcnJvclJlc3BvbnNlKGVycm9yKTsKICB9Cn07Cg==
+﻿import { buildBackgroundFunctionUrl, internalErrorResponse, jsonResponse, methodNotAllowed, preflightResponse } from './_shared/rei';
+
+export default async (req: Request) => {
+  if (req.method === 'OPTIONS') {
+    return preflightResponse('POST');
+  }
+
+  if (req.method !== 'POST') {
+    return methodNotAllowed('POST');
+  }
+
+  try {
+    const headers = new Headers();
+    const authorization = req.headers.get('authorization');
+    if (authorization) {
+      headers.set('authorization', authorization);
+    }
+
+    const backgroundResponse = await fetch(buildBackgroundFunctionUrl(req, new URL(req.url).search), {
+      method: 'POST',
+      headers,
+    });
+
+    if (!backgroundResponse.ok) {
+      return jsonResponse({
+        success: false,
+        error: {
+          code: 'BACKGROUND_QUEUE_FAILED',
+          message: `Failed to queue background dispatch (HTTP ${backgroundResponse.status}).`,
+        },
+      }, 502);
+    }
+
+    return jsonResponse({
+      success: true,
+      data: {
+        queued: true,
+        message: 'send-notifications has been handed off to the background function.',
+      },
+    }, 202);
+  } catch (error) {
+    return internalErrorResponse(error);
+  }
+};

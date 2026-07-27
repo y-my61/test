@@ -1,1 +1,335 @@
-aW1wb3J0IFJlYWN0LCB7IHVzZUVmZmVjdCwgdXNlU3RhdGUgfSBmcm9tICdyZWFjdCc7CmltcG9ydCB7IEFwaVByZXNldCwgQVBJQ29uZmlnLCBDaGFyYWN0ZXJQcm9maWxlIH0gZnJvbSAnLi4vLi4vdHlwZXMnOwppbXBvcnQgeyBDaGVja1NxdWFyZSwgRmxvcHB5RGlzaywgR2VhciwgU3F1YXJlLCBYIH0gZnJvbSAnQHBob3NwaG9yLWljb25zL3JlYWN0JzsKaW1wb3J0IHsgdXNlT1MgfSBmcm9tICcuLi8uLi9jb250ZXh0L09TQ29udGV4dCc7CmltcG9ydCB7IENoYXJhY3Rlckdyb3VwRmlsdGVyQmFyLCBmaWx0ZXJDaGFyYWN0ZXJzQnlHcm91cCwgR1JPVVBfRklMVEVSX0FMTCB9IGZyb20gJy4uLy4uL2NvbXBvbmVudHMvY2hhcmFjdGVyL0NoYXJhY3Rlckdyb3VwRmlsdGVyJzsKCnR5cGUgTGlmZVNpbUFwaURyYWZ0ID0gUGljazxBUElDb25maWcsICdiYXNlVXJsJyB8ICdhcGlLZXknIHwgJ21vZGVsJz47Cgpjb25zdCBFTVBUWV9BUElfRFJBRlQ6IExpZmVTaW1BcGlEcmFmdCA9IHsKICAgIGJhc2VVcmw6ICcnLAogICAgYXBpS2V5OiAnJywKICAgIG1vZGVsOiAnJywKfTsKCmNvbnN0IExpZmVTaW1TZXR0aW5nc1BhbmVsOiBSZWFjdC5GQzx7CiAgICBjaGFyYWN0ZXJzOiBDaGFyYWN0ZXJQcm9maWxlW107CiAgICBzZWxlY3RlZENoYXJJZHM6IHN0cmluZ1tdOwogICAgYXBpUHJlc2V0czogQXBpUHJlc2V0W107CiAgICB1c2VJbmRlcGVuZGVudEFwaUNvbmZpZzogYm9vbGVhbjsKICAgIGluZGVwZW5kZW50QXBpQ29uZmlnPzogUGFydGlhbDxBUElDb25maWc+OwogICAgb25Ub2dnbGVDaGFyOiAoY2hhcklkOiBzdHJpbmcpID0+IHZvaWQ7CiAgICBvblNlbGVjdEFsbDogKCkgPT4gdm9pZDsKICAgIG9uU2VsZWN0Tm9uZTogKCkgPT4gdm9pZDsKICAgIG9uU2F2ZUFwaVNldHRpbmdzOiAocGF5bG9hZDogeyBlbmFibGVkOiBib29sZWFuOyBjb25maWc6IExpZmVTaW1BcGlEcmFmdCB9KSA9PiBQcm9taXNlPHZvaWQ+IHwgdm9pZDsKICAgIG9uQ2xvc2U6ICgpID0+IHZvaWQ7Cn0+ID0gKHsKICAgIGNoYXJhY3RlcnMsCiAgICBzZWxlY3RlZENoYXJJZHMsCiAgICBhcGlQcmVzZXRzLAogICAgdXNlSW5kZXBlbmRlbnRBcGlDb25maWcsCiAgICBpbmRlcGVuZGVudEFwaUNvbmZpZywKICAgIG9uVG9nZ2xlQ2hhciwKICAgIG9uU2VsZWN0QWxsLAogICAgb25TZWxlY3ROb25lLAogICAgb25TYXZlQXBpU2V0dGluZ3MsCiAgICBvbkNsb3NlLAp9KSA9PiB7CiAgICBjb25zdCBbdXNlSW5kZXBlbmRlbnRBcGksIHNldFVzZUluZGVwZW5kZW50QXBpXSA9IHVzZVN0YXRlKHVzZUluZGVwZW5kZW50QXBpQ29uZmlnKTsKICAgIGNvbnN0IFtkcmFmdCwgc2V0RHJhZnRdID0gdXNlU3RhdGU8TGlmZVNpbUFwaURyYWZ0PihFTVBUWV9BUElfRFJBRlQpOwogICAgY29uc3QgW2lzU2F2aW5nLCBzZXRJc1NhdmluZ10gPSB1c2VTdGF0ZShmYWxzZSk7CiAgICAvLyDlj4LkuI7op5LoibLlpJrpgInnmoTliIbnu4TnrZvpgInvvIhjaGFyYWN0ZXJzIOeUsSBwcm9wcyDkvKDlhaXvvIzov5nph4zljZXni6zlj5YgY2hhcmFjdGVyR3JvdXBz77yJCiAgICBjb25zdCB7IGNoYXJhY3Rlckdyb3VwcyB9ID0gdXNlT1MoKTsKICAgIGNvbnN0IFtjaGFyR3JvdXBJZCwgc2V0Q2hhckdyb3VwSWRdID0gdXNlU3RhdGU8c3RyaW5nPihHUk9VUF9GSUxURVJfQUxMKTsKCiAgICB1c2VFZmZlY3QoKCkgPT4gewogICAgICAgIHNldFVzZUluZGVwZW5kZW50QXBpKHVzZUluZGVwZW5kZW50QXBpQ29uZmlnKTsKICAgICAgICBzZXREcmFmdCh7CiAgICAgICAgICAgIGJhc2VVcmw6IGluZGVwZW5kZW50QXBpQ29uZmlnPy5iYXNlVXJsIHx8ICcnLAogICAgICAgICAgICBhcGlLZXk6IGluZGVwZW5kZW50QXBpQ29uZmlnPy5hcGlLZXkgfHwgJycsCiAgICAgICAgICAgIG1vZGVsOiBpbmRlcGVuZGVudEFwaUNvbmZpZz8ubW9kZWwgfHwgJycsCiAgICAgICAgfSk7CiAgICB9LCBbaW5kZXBlbmRlbnRBcGlDb25maWcsIHVzZUluZGVwZW5kZW50QXBpQ29uZmlnXSk7CgogICAgY29uc3QgcGF0Y2hEcmFmdCA9ICh1cGRhdGVzOiBQYXJ0aWFsPExpZmVTaW1BcGlEcmFmdD4pID0+IHsKICAgICAgICBzZXREcmFmdChwcmV2ID0+ICh7IC4uLnByZXYsIC4uLnVwZGF0ZXMgfSkpOwogICAgfTsKCiAgICBjb25zdCBoYW5kbGVMb2FkUHJlc2V0ID0gKHByZXNldDogQXBpUHJlc2V0KSA9PiB7CiAgICAgICAgc2V0RHJhZnQoewogICAgICAgICAgICBiYXNlVXJsOiBwcmVzZXQuY29uZmlnLmJhc2VVcmwgfHwgJycsCiAgICAgICAgICAgIGFwaUtleTogcHJlc2V0LmNvbmZpZy5hcGlLZXkgfHwgJycsCiAgICAgICAgICAgIG1vZGVsOiBwcmVzZXQuY29uZmlnLm1vZGVsIHx8ICcnLAogICAgICAgIH0pOwogICAgICAgIHNldFVzZUluZGVwZW5kZW50QXBpKHRydWUpOwogICAgfTsKCiAgICBjb25zdCBoYW5kbGVTYXZlQW5kQ2xvc2UgPSBhc3luYyAoKSA9PiB7CiAgICAgICAgaWYgKGlzU2F2aW5nKSByZXR1cm47CiAgICAgICAgc2V0SXNTYXZpbmcodHJ1ZSk7CiAgICAgICAgdHJ5IHsKICAgICAgICAgICAgYXdhaXQgb25TYXZlQXBpU2V0dGluZ3MoewogICAgICAgICAgICAgICAgZW5hYmxlZDogdXNlSW5kZXBlbmRlbnRBcGksCiAgICAgICAgICAgICAgICBjb25maWc6IHsKICAgICAgICAgICAgICAgICAgICBiYXNlVXJsOiBkcmFmdC5iYXNlVXJsLnRyaW0oKSwKICAgICAgICAgICAgICAgICAgICBhcGlLZXk6IGRyYWZ0LmFwaUtleS50cmltKCksCiAgICAgICAgICAgICAgICAgICAgbW9kZWw6IGRyYWZ0Lm1vZGVsLnRyaW0oKSwKICAgICAgICAgICAgICAgIH0sCiAgICAgICAgICAgIH0pOwogICAgICAgICAgICBvbkNsb3NlKCk7CiAgICAgICAgfSBmaW5hbGx5IHsKICAgICAgICAgICAgc2V0SXNTYXZpbmcoZmFsc2UpOwogICAgICAgIH0KICAgIH07CgogICAgcmV0dXJuICgKICAgICAgICA8ZGl2CiAgICAgICAgICAgIGNsYXNzTmFtZT0iYWJzb2x1dGUgaW5zZXQtMCB6LTQwIGZsZXggaXRlbXMtZW5kIGp1c3RpZnktY2VudGVyIgogICAgICAgICAgICBzdHlsZT17eyBiYWNrZ3JvdW5kOiAncmdiYSgwLDAsMCwwLjMpJyB9fQogICAgICAgICAgICBvbkNsaWNrPXtldmVudCA9PiB7IGlmIChldmVudC50YXJnZXQgPT09IGV2ZW50LmN1cnJlbnRUYXJnZXQpIHZvaWQgaGFuZGxlU2F2ZUFuZENsb3NlKCk7IH19CiAgICAgICAgPgogICAgICAgICAgICA8ZGl2CiAgICAgICAgICAgICAgICBjbGFzc05hbWU9InJldHJvLXdpbmRvdyB3LWZ1bGwgbXgtMiBtYi0yIgogICAgICAgICAgICAgICAgc3R5bGU9e3sKICAgICAgICAgICAgICAgICAgICBtYXhIZWlnaHQ6ICc4MnZoJywKICAgICAgICAgICAgICAgICAgICBkaXNwbGF5OiAnZmxleCcsCiAgICAgICAgICAgICAgICAgICAgZmxleERpcmVjdGlvbjogJ2NvbHVtbicsCiAgICAgICAgICAgICAgICAgICAgYm94U2hhZG93OiAnNHB4IDRweCAwIHJnYmEoMCwwLDAsMC4yKSwgaW5zZXQgMCAwIDAgMXB4IHJnYmEoMjU1LDI1NSwyNTUsMC41KScsCiAgICAgICAgICAgICAgICAgICAgbWluV2lkdGg6IDAsCiAgICAgICAgICAgICAgICB9fQogICAgICAgICAgICA+CiAgICAgICAgICAgICAgICA8ZGl2IGNsYXNzTmFtZT0icmV0cm8tdGl0bGViYXIiPgogICAgICAgICAgICAgICAgICAgIDxzcGFuIGNsYXNzTmFtZT0iZmxleCBpdGVtcy1jZW50ZXIgZ2FwLTEiPgogICAgICAgICAgICAgICAgICAgICAgICA8R2VhciBzaXplPXsxMX0gd2VpZ2h0PSJib2xkIiAvPiBsaWZlc2ltLnNldHRpbmdzCiAgICAgICAgICAgICAgICAgICAgPC9zcGFuPgogICAgICAgICAgICAgICAgICAgIDxidXR0b24KICAgICAgICAgICAgICAgICAgICAgICAgb25DbGljaz17KCkgPT4gdm9pZCBoYW5kbGVTYXZlQW5kQ2xvc2UoKX0KICAgICAgICAgICAgICAgICAgICAgICAgc3R5bGU9e3sKICAgICAgICAgICAgICAgICAgICAgICAgICAgIGRpc3BsYXk6ICdpbmxpbmUtZmxleCcsCiAgICAgICAgICAgICAgICAgICAgICAgICAgICBhbGlnbkl0ZW1zOiAnY2VudGVyJywKICAgICAgICAgICAgICAgICAgICAgICAgICAgIGp1c3RpZnlDb250ZW50OiAnY2VudGVyJywKICAgICAgICAgICAgICAgICAgICAgICAgICAgIHdpZHRoOiAxOCwKICAgICAgICAgICAgICAgICAgICAgICAgICAgIGhlaWdodDogMTgsCiAgICAgICAgICAgICAgICAgICAgICAgICAgICBib3JkZXJSYWRpdXM6IDMsCiAgICAgICAgICAgICAgICAgICAgICAgICAgICBiYWNrZ3JvdW5kOiAncmdiYSgyNTUsMjU1LDI1NSwwLjE1KScsCiAgICAgICAgICAgICAgICAgICAgICAgICAgICBib3JkZXI6ICcxcHggc29saWQgcmdiYSgyNTUsMjU1LDI1NSwwLjI1KScsCiAgICAgICAgICAgICAgICAgICAgICAgICAgICBjb2xvcjogJ3doaXRlJywKICAgICAgICAgICAgICAgICAgICAgICAgfX0KICAgICAgICAgICAgICAgICAgICA+CiAgICAgICAgICAgICAgICAgICAgICAgIDxYIHNpemU9ezEwfSB3ZWlnaHQ9ImJvbGQiIC8+CiAgICAgICAgICAgICAgICAgICAgPC9idXR0b24+CiAgICAgICAgICAgICAgICA8L2Rpdj4KCiAgICAgICAgICAgICAgICA8ZGl2IGNsYXNzTmFtZT0ib3ZlcmZsb3cteS1hdXRvIG92ZXJmbG93LXgtaGlkZGVuIG5vLXNjcm9sbGJhciBmbGV4LTEiIHN0eWxlPXt7IHBhZGRpbmc6IDEwIH19PgogICAgICAgICAgICAgICAgICAgIDxkaXYgY2xhc3NOYW1lPSJyZXRyby1pbnNldCIgc3R5bGU9e3sgcGFkZGluZzogJzZweCA4cHgnLCBtYXJnaW5Cb3R0b206IDEwIH19PgogICAgICAgICAgICAgICAgICAgICAgICA8cCBzdHlsZT17eyBmb250U2l6ZTogMTAsIGNvbG9yOiAnIzZhNjE4MScsIGxpbmVIZWlnaHQ6IDEuNiB9fT4KICAgICAgICAgICAgICAgICAgICAgICAgICAgIOi/memHjOWPr+S7peWIhuWIq+aOp+WItui/meWxgCBMaWZlU2ltIOWFgeiuuOWTquS6m+inkuiJsuWPguS4ju+8jOS7peWPiuaYr+WQpue7mSBMaWZlU2ltIOWNleeLrOaMh+WumuS4gOWllyBBUEnjgIIKICAgICAgICAgICAgICAgICAgICAgICAgPC9wPgogICAgICAgICAgICAgICAgICAgIDwvZGl2PgoKICAgICAgICAgICAgICAgICAgICA8ZGl2IHN0eWxlPXt7IGZvbnRTaXplOiAxMCwgZm9udFdlaWdodDogNzAwLCBjb2xvcjogJyM2ZjY3ODAnLCBtYXJnaW5Cb3R0b206IDYsIGxldHRlclNwYWNpbmc6ICcwLjA0ZW0nIH19PgogICAgICAgICAgICAgICAgICAgICAgICDlj4LkuI7op5LoibIKICAgICAgICAgICAgICAgICAgICA8L2Rpdj4KCiAgICAgICAgICAgICAgICAgICAgPGRpdiBjbGFzc05hbWU9ImZsZXggZ2FwLTIgbWItMiI+CiAgICAgICAgICAgICAgICAgICAgICAgIDxidXR0b24gb25DbGljaz17b25TZWxlY3RBbGx9IGNsYXNzTmFtZT0icmV0cm8tYnRuIiBzdHlsZT17eyBwYWRkaW5nOiAnNHB4IDEwcHgnLCBmb250U2l6ZTogMTAgfX0+CiAgICAgICAgICAgICAgICAgICAgICAgICAgICDlhajpgIkKICAgICAgICAgICAgICAgICAgICAgICAgPC9idXR0b24+CiAgICAgICAgICAgICAgICAgICAgICAgIDxidXR0b24gb25DbGljaz17b25TZWxlY3ROb25lfSBjbGFzc05hbWU9InJldHJvLWJ0biIgc3R5bGU9e3sgcGFkZGluZzogJzRweCAxMHB4JywgZm9udFNpemU6IDEwIH19PgogICAgICAgICAgICAgICAgICAgICAgICAgICAg5riF56m6CiAgICAgICAgICAgICAgICAgICAgICAgIDwvYnV0dG9uPgogICAgICAgICAgICAgICAgICAgIDwvZGl2PgoKICAgICAgICAgICAgICAgICAgICB7Lyog5YiG57uE562b6YCJ77yI5rKh5bu65YiG57uE5pe25LiN5riy5p+T77yJ77ya5Y+q5b2x5ZON5pi+56S65ZOq5Lqb5Y+v6YCJ6aG577yM5bey5Yu+6YCJ5Y+C5LiO6ICF5LiN5Y+X5b2x5ZONICovfQogICAgICAgICAgICAgICAgICAgIDxDaGFyYWN0ZXJHcm91cEZpbHRlckJhciBjaGFyYWN0ZXJzPXtjaGFyYWN0ZXJzfSBncm91cHM9e2NoYXJhY3Rlckdyb3Vwc30KICAgICAgICAgICAgICAgICAgICAgICAgdmFsdWU9e2NoYXJHcm91cElkfSBvbkNoYW5nZT17c2V0Q2hhckdyb3VwSWR9IGNsYXNzTmFtZT0ibWItMiIgLz4KICAgICAgICAgICAgICAgICAgICA8ZGl2IGNsYXNzTmFtZT0ic3BhY2UteS0xLjUiPgogICAgICAgICAgICAgICAgICAgICAgICB7ZmlsdGVyQ2hhcmFjdGVyc0J5R3JvdXAoY2hhcmFjdGVycywgY2hhcmFjdGVyR3JvdXBzLCBjaGFyR3JvdXBJZCkubWFwKGNoYXIgPT4gewogICAgICAgICAgICAgICAgICAgICAgICAgICAgY29uc3QgYWN0aXZlID0gc2VsZWN0ZWRDaGFySWRzLmluY2x1ZGVzKGNoYXIuaWQpOwogICAgICAgICAgICAgICAgICAgICAgICAgICAgcmV0dXJuICgKICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICA8YnV0dG9uCiAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgIGtleT17Y2hhci5pZH0KICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgb25DbGljaz17KCkgPT4gb25Ub2dnbGVDaGFyKGNoYXIuaWQpfQogICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICBjbGFzc05hbWU9InctZnVsbCB0ZXh0LWxlZnQiCiAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgIHN0eWxlPXt7CiAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICBkaXNwbGF5OiAnZmxleCcsCiAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICBhbGlnbkl0ZW1zOiAnY2VudGVyJywKICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgIGdhcDogMTAsCiAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICBwYWRkaW5nOiA4LAogICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgYm9yZGVyUmFkaXVzOiA2LAogICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgYm9yZGVyOiBhY3RpdmUgPyAnMnB4IHNvbGlkIHJnYmEoOTEsMTQzLDE2OCwwLjU1KScgOiAnMnB4IHNvbGlkIHJnYmEoMCwwLDAsMC4wOCknLAogICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgYmFja2dyb3VuZDogYWN0aXZlID8gJ3JnYmEoMTIzLDE3MywxOTYsMC4xMiknIDogJ3JnYmEoMjU1LDI1NSwyNTUsMC41NSknLAogICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgbWluV2lkdGg6IDAsCiAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgIH19CiAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgPgogICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICA8aW1nIHNyYz17Y2hhci5hdmF0YXJ9IGFsdD17Y2hhci5uYW1lfSBzdHlsZT17eyB3aWR0aDogMzIsIGhlaWdodDogMzIsIGJvcmRlclJhZGl1czogOCwgb2JqZWN0Rml0OiAnY292ZXInLCBmbGV4U2hyaW5rOiAwIH19IC8+CiAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgIDxkaXYgc3R5bGU9e3sgZmxleDogMSwgbWluV2lkdGg6IDAgfX0+CiAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICA8ZGl2IHN0eWxlPXt7IGZvbnRTaXplOiAxMSwgZm9udFdlaWdodDogNzAwLCBjb2xvcjogJyM1MDRhNjEnIH19PntjaGFyLm5hbWV9PC9kaXY+CiAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICA8ZGl2IHN0eWxlPXt7IGZvbnRTaXplOiA5LCBjb2xvcjogJyM4Yjg0OTknLCBsaW5lSGVpZ2h0OiAxLjUsIG92ZXJmbG93V3JhcDogJ2FueXdoZXJlJyB9fT4KICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICB7Y2hhci5kZXNjcmlwdGlvbiB8fCAn5pqC5peg5o+P6L+wJ30KICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgIDwvZGl2PgogICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICA8L2Rpdj4KICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgPGRpdiBzdHlsZT17eyBjb2xvcjogYWN0aXZlID8gJyM1YjhmYTgnIDogJyNhN2EwYjYnLCBmbGV4U2hyaW5rOiAwIH19PgogICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAge2FjdGl2ZSA/IDxDaGVja1NxdWFyZSBzaXplPXsxNn0gd2VpZ2h0PSJmaWxsIiAvPiA6IDxTcXVhcmUgc2l6ZT17MTZ9IHdlaWdodD0iYm9sZCIgLz59CiAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgIDwvZGl2PgogICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgIDwvYnV0dG9uPgogICAgICAgICAgICAgICAgICAgICAgICAgICAgKTsKICAgICAgICAgICAgICAgICAgICAgICAgfSl9CiAgICAgICAgICAgICAgICAgICAgPC9kaXY+CgogICAgICAgICAgICAgICAgICAgIDxkaXYgY2xhc3NOYW1lPSJyZXRyby1kaXZpZGVyIiBzdHlsZT17eyBtYXJnaW46ICcxMnB4IDAgMTBweCcgfX0gLz4KCiAgICAgICAgICAgICAgICAgICAgPGRpdiBjbGFzc05hbWU9ImZsZXggaXRlbXMtY2VudGVyIGp1c3RpZnktYmV0d2VlbiIgc3R5bGU9e3sgbWFyZ2luQm90dG9tOiA4LCBnYXA6IDEwIH19PgogICAgICAgICAgICAgICAgICAgICAgICA8ZGl2IHN0eWxlPXt7IG1pbldpZHRoOiAwIH19PgogICAgICAgICAgICAgICAgICAgICAgICAgICAgPGRpdiBzdHlsZT17eyBmb250U2l6ZTogMTAsIGZvbnRXZWlnaHQ6IDcwMCwgY29sb3I6ICcjNmY2NzgwJywgbGV0dGVyU3BhY2luZzogJzAuMDRlbScgfX0+CiAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgTGlmZVNpbSDni6znq4sgQVBJCiAgICAgICAgICAgICAgICAgICAgICAgICAgICA8L2Rpdj4KICAgICAgICAgICAgICAgICAgICAgICAgICAgIDxkaXYgc3R5bGU9e3sgZm9udFNpemU6IDksIGNvbG9yOiAnIzhhODE5OCcsIGxpbmVIZWlnaHQ6IDEuNSwgbWFyZ2luVG9wOiAzIH19PgogICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgIOaOqOiNkCBHZW1pbmkgRmxhc2gg57O75YiX77yM5L6/5a6c5LiU5b+r77yM6YCC5ZCI6L+Z56eN6auY6aKR6L275Ymn5oOF55Sf5oiQ44CCCiAgICAgICAgICAgICAgICAgICAgICAgICAgICA8L2Rpdj4KICAgICAgICAgICAgICAgICAgICAgICAgPC9kaXY+CiAgICAgICAgICAgICAgICAgICAgICAgIDxidXR0b24KICAgICAgICAgICAgICAgICAgICAgICAgICAgIG9uQ2xpY2s9eygpID0+IHNldFVzZUluZGVwZW5kZW50QXBpKHZhbHVlID0+ICF2YWx1ZSl9CiAgICAgICAgICAgICAgICAgICAgICAgICAgICBzdHlsZT17ewogICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgIHdpZHRoOiA0NCwKICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICBoZWlnaHQ6IDI0LAogICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgIGJvcmRlclJhZGl1czogOTk5LAogICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgIGJvcmRlcjogJzFweCBzb2xpZCByZ2JhKDAsMCwwLDAuMSknLAogICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgIGJhY2tncm91bmQ6IHVzZUluZGVwZW5kZW50QXBpID8gJ2xpbmVhci1ncmFkaWVudCgxODBkZWcsICM3YmFkYzQsICM1YjhmYTgpJyA6ICdyZ2JhKDAsMCwwLDAuMTIpJywKICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICBwb3NpdGlvbjogJ3JlbGF0aXZlJywKICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICBmbGV4U2hyaW5rOiAwLAogICAgICAgICAgICAgICAgICAgICAgICAgICAgfX0KICAgICAgICAgICAgICAgICAgICAgICAgPgogICAgICAgICAgICAgICAgICAgICAgICAgICAgPHNwYW4KICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICBzdHlsZT17ewogICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICBwb3NpdGlvbjogJ2Fic29sdXRlJywKICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgdG9wOiAyLAogICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICBsZWZ0OiB1c2VJbmRlcGVuZGVudEFwaSA/IDIyIDogMiwKICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgd2lkdGg6IDE4LAogICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICBoZWlnaHQ6IDE4LAogICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICBib3JkZXJSYWRpdXM6IDk5OSwKICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgYmFja2dyb3VuZDogJyNmZmYnLAogICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICBib3hTaGFkb3c6ICcwIDFweCAycHggcmdiYSgwLDAsMCwwLjE4KScsCiAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgIHRyYW5zaXRpb246ICdsZWZ0IDAuMTVzIGVhc2UnLAogICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgIH19CiAgICAgICAgICAgICAgICAgICAgICAgICAgICAvPgogICAgICAgICAgICAgICAgICAgICAgICA8L2J1dHRvbj4KICAgICAgICAgICAgICAgICAgICA8L2Rpdj4KCiAgICAgICAgICAgICAgICAgICAgPGRpdiBjbGFzc05hbWU9InJldHJvLWluc2V0IiBzdHlsZT17eyBwYWRkaW5nOiAnNnB4IDhweCcsIG1hcmdpbkJvdHRvbTogOCB9fT4KICAgICAgICAgICAgICAgICAgICAgICAgPHAgc3R5bGU9e3sgZm9udFNpemU6IDksIGNvbG9yOiAnIzgwNzc4ZScsIGxpbmVIZWlnaHQ6IDEuNiB9fT4KICAgICAgICAgICAgICAgICAgICAgICAgICAgIHt1c2VJbmRlcGVuZGVudEFwaQogICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgID8gJ+W8gOWQr+WQju+8jExpZmVTaW0g5Lya5LyY5YWI5L2/55So5LiL6Z2i6L+Z5aWX6YWN572u77yb5rKh5aGr55qE5a2X5q615Lya5Zue6YCA5Yiw5YWo5bGAIEFQSeOAgicKICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICA6ICflhbPpl63ml7bvvIxMaWZlU2ltIOebtOaOpeayv+eUqOezu+e7n+WFqOWxgCBBUEnjgIInfQogICAgICAgICAgICAgICAgICAgICAgICA8L3A+CiAgICAgICAgICAgICAgICAgICAgPC9kaXY+CgogICAgICAgICAgICAgICAgICAgIHt1c2VJbmRlcGVuZGVudEFwaSAmJiAoCiAgICAgICAgICAgICAgICAgICAgICAgIDw+CiAgICAgICAgICAgICAgICAgICAgICAgICAgICB7YXBpUHJlc2V0cy5sZW5ndGggPiAwICYmICgKICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICA8ZGl2IHN0eWxlPXt7IG1hcmdpbkJvdHRvbTogOCB9fT4KICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgPGRpdiBzdHlsZT17eyBmb250U2l6ZTogOSwgZm9udFdlaWdodDogNzAwLCBjb2xvcjogJyM3YjcyODknLCBtYXJnaW5Cb3R0b206IDUgfX0+CiAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICDpooTorr4KICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgPC9kaXY+CiAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgIDxkaXYgY2xhc3NOYW1lPSJmbGV4IGdhcC0yIG92ZXJmbG93LXgtYXV0byBuby1zY3JvbGxiYXIgcGItMSI+CiAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICB7YXBpUHJlc2V0cy5tYXAocHJlc2V0ID0+ICgKICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICA8YnV0dG9uCiAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgIGtleT17cHJlc2V0LmlkfQogICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICBvbkNsaWNrPXsoKSA9PiBoYW5kbGVMb2FkUHJlc2V0KHByZXNldCl9CiAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgIGNsYXNzTmFtZT0icmV0cm8tYnRuIgogICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICBzdHlsZT17ewogICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgcGFkZGluZzogJzRweCAxMHB4JywKICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgIGZvbnRTaXplOiA5LAogICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgd2hpdGVTcGFjZTogJ25vd3JhcCcsCiAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICBmbGV4U2hyaW5rOiAwLAogICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICB9fQogICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgID4KICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAge3ByZXNldC5uYW1lfSDCtyB7cHJlc2V0LmNvbmZpZy5tb2RlbH0KICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICA8L2J1dHRvbj4KICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICkpfQogICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICA8L2Rpdj4KICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICA8L2Rpdj4KICAgICAgICAgICAgICAgICAgICAgICAgICAgICl9CgogICAgICAgICAgICAgICAgICAgICAgICAgICAgPGRpdiBjbGFzc05hbWU9InNwYWNlLXktMyI+CiAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgPGRpdj4KICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgPGxhYmVsIHN0eWxlPXt7IGZvbnRTaXplOiA5LCBmb250V2VpZ2h0OiA3MDAsIGNvbG9yOiAnIzdiNzI4OScsIG1hcmdpbkJvdHRvbTogNCwgZGlzcGxheTogJ2Jsb2NrJyB9fT4KICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgIFVSTAogICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICA8L2xhYmVsPgogICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICA8aW5wdXQKICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgIHR5cGU9InRleHQiCiAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICB2YWx1ZT17ZHJhZnQuYmFzZVVybH0KICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgIG9uQ2hhbmdlPXtldmVudCA9PiBwYXRjaERyYWZ0KHsgYmFzZVVybDogZXZlbnQudGFyZ2V0LnZhbHVlIH0pfQogICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgcGxhY2Vob2xkZXI9Imh0dHBzOi8vLi4uIgogICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgY2xhc3NOYW1lPSJ3LWZ1bGwiCiAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICBzdHlsZT17ewogICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgIGJhY2tncm91bmQ6ICdyZ2JhKDI1NSwyNTUsMjU1LDAuNzIpJywKICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICBib3JkZXI6ICcxcHggc29saWQgcmdiYSgwLDAsMCwwLjEpJywKICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICBib3JkZXJSYWRpdXM6IDYsCiAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgcGFkZGluZzogJzhweCAxMHB4JywKICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICBmb250U2l6ZTogMTAsCiAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgZm9udEZhbWlseTogJ21vbm9zcGFjZScsCiAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICB9fQogICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAvPgogICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgIDwvZGl2PgogICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgIDxkaXY+CiAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgIDxsYWJlbCBzdHlsZT17eyBmb250U2l6ZTogOSwgZm9udFdlaWdodDogNzAwLCBjb2xvcjogJyM3YjcyODknLCBtYXJnaW5Cb3R0b206IDQsIGRpc3BsYXk6ICdibG9jaycgfX0+CiAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICBBUEkgS2V5CiAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgIDwvbGFiZWw+CiAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgIDxpbnB1dAogICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgdHlwZT0icGFzc3dvcmQiCiAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICB2YWx1ZT17ZHJhZnQuYXBpS2V5fQogICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgb25DaGFuZ2U9e2V2ZW50ID0+IHBhdGNoRHJhZnQoeyBhcGlLZXk6IGV2ZW50LnRhcmdldC52YWx1ZSB9KX0KICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgIHBsYWNlaG9sZGVyPSJzay0uLi4iCiAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICBjbGFzc05hbWU9InctZnVsbCIKICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgIHN0eWxlPXt7CiAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgYmFja2dyb3VuZDogJ3JnYmEoMjU1LDI1NSwyNTUsMC43MiknLAogICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgIGJvcmRlcjogJzFweCBzb2xpZCByZ2JhKDAsMCwwLDAuMSknLAogICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgIGJvcmRlclJhZGl1czogNiwKICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICBwYWRkaW5nOiAnOHB4IDEwcHgnLAogICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgIGZvbnRTaXplOiAxMCwKICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICBmb250RmFtaWx5OiAnbW9ub3NwYWNlJywKICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgIH19CiAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgIC8+CiAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgPC9kaXY+CiAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgPGRpdj4KICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgPGxhYmVsIHN0eWxlPXt7IGZvbnRTaXplOiA5LCBmb250V2VpZ2h0OiA3MDAsIGNvbG9yOiAnIzdiNzI4OScsIG1hcmdpbkJvdHRvbTogNCwgZGlzcGxheTogJ2Jsb2NrJyB9fT4KICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgIE1vZGVsCiAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgIDwvbGFiZWw+CiAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgIDxpbnB1dAogICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgdHlwZT0idGV4dCIKICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgIHZhbHVlPXtkcmFmdC5tb2RlbH0KICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgIG9uQ2hhbmdlPXtldmVudCA9PiBwYXRjaERyYWZ0KHsgbW9kZWw6IGV2ZW50LnRhcmdldC52YWx1ZSB9KX0KICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgIHBsYWNlaG9sZGVyPSJnZW1pbmktMi4wLWZsYXNoIC8gZ2VtaW5pLTIuNS1mbGFzaC1saXRlIC8gLi4uIgogICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgY2xhc3NOYW1lPSJ3LWZ1bGwiCiAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICBzdHlsZT17ewogICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgIGJhY2tncm91bmQ6ICdyZ2JhKDI1NSwyNTUsMjU1LDAuNzIpJywKICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICBib3JkZXI6ICcxcHggc29saWQgcmdiYSgwLDAsMCwwLjEpJywKICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICBib3JkZXJSYWRpdXM6IDYsCiAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgcGFkZGluZzogJzhweCAxMHB4JywKICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICBmb250U2l6ZTogMTAsCiAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgZm9udEZhbWlseTogJ21vbm9zcGFjZScsCiAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICB9fQogICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAvPgogICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgIDwvZGl2PgogICAgICAgICAgICAgICAgICAgICAgICAgICAgPC9kaXY+CiAgICAgICAgICAgICAgICAgICAgICAgIDwvPgogICAgICAgICAgICAgICAgICAgICl9CiAgICAgICAgICAgICAgICA8L2Rpdj4KCiAgICAgICAgICAgICAgICA8ZGl2IHN0eWxlPXt7IHBhZGRpbmc6ICc2cHggMTBweCcsIGJvcmRlclRvcDogJzFweCBzb2xpZCByZ2JhKDAsMCwwLDAuMDgpJyB9fT4KICAgICAgICAgICAgICAgICAgICA8YnV0dG9uCiAgICAgICAgICAgICAgICAgICAgICAgIG9uQ2xpY2s9eygpID0+IHZvaWQgaGFuZGxlU2F2ZUFuZENsb3NlKCl9CiAgICAgICAgICAgICAgICAgICAgICAgIGNsYXNzTmFtZT0icmV0cm8tYnRuIHctZnVsbCIKICAgICAgICAgICAgICAgICAgICAgICAgc3R5bGU9e3sgcGFkZGluZzogJzdweCAxMnB4JywgZGlzcGxheTogJ2ZsZXgnLCBhbGlnbkl0ZW1zOiAnY2VudGVyJywganVzdGlmeUNvbnRlbnQ6ICdjZW50ZXInLCBnYXA6IDYgfX0KICAgICAgICAgICAgICAgICAgICAgICAgZGlzYWJsZWQ9e2lzU2F2aW5nfQogICAgICAgICAgICAgICAgICAgID4KICAgICAgICAgICAgICAgICAgICAgICAgPEZsb3BweURpc2sgc2l6ZT17MTJ9IHdlaWdodD0iYm9sZCIgLz4ge2lzU2F2aW5nID8gJ+S/neWtmOS4rS4uLicgOiAn5L+d5a2Y5bm25YWz6ZetJ30KICAgICAgICAgICAgICAgICAgICA8L2J1dHRvbj4KICAgICAgICAgICAgICAgIDwvZGl2PgogICAgICAgICAgICA8L2Rpdj4KICAgICAgICA8L2Rpdj4KICAgICk7Cn07CgpleHBvcnQgZGVmYXVsdCBMaWZlU2ltU2V0dGluZ3NQYW5lbDsK
+import React, { useEffect, useState } from 'react';
+import { ApiPreset, APIConfig, CharacterProfile } from '../../types';
+import { CheckSquare, FloppyDisk, Gear, Square, X } from '@phosphor-icons/react';
+import { useOS } from '../../context/OSContext';
+import { CharacterGroupFilterBar, filterCharactersByGroup, GROUP_FILTER_ALL } from '../../components/character/CharacterGroupFilter';
+
+type LifeSimApiDraft = Pick<APIConfig, 'baseUrl' | 'apiKey' | 'model'>;
+
+const EMPTY_API_DRAFT: LifeSimApiDraft = {
+    baseUrl: '',
+    apiKey: '',
+    model: '',
+};
+
+const LifeSimSettingsPanel: React.FC<{
+    characters: CharacterProfile[];
+    selectedCharIds: string[];
+    apiPresets: ApiPreset[];
+    useIndependentApiConfig: boolean;
+    independentApiConfig?: Partial<APIConfig>;
+    onToggleChar: (charId: string) => void;
+    onSelectAll: () => void;
+    onSelectNone: () => void;
+    onSaveApiSettings: (payload: { enabled: boolean; config: LifeSimApiDraft }) => Promise<void> | void;
+    onClose: () => void;
+}> = ({
+    characters,
+    selectedCharIds,
+    apiPresets,
+    useIndependentApiConfig,
+    independentApiConfig,
+    onToggleChar,
+    onSelectAll,
+    onSelectNone,
+    onSaveApiSettings,
+    onClose,
+}) => {
+    const [useIndependentApi, setUseIndependentApi] = useState(useIndependentApiConfig);
+    const [draft, setDraft] = useState<LifeSimApiDraft>(EMPTY_API_DRAFT);
+    const [isSaving, setIsSaving] = useState(false);
+    // 参与角色多选的分组筛选（characters 由 props 传入，这里单独取 characterGroups）
+    const { characterGroups } = useOS();
+    const [charGroupId, setCharGroupId] = useState<string>(GROUP_FILTER_ALL);
+
+    useEffect(() => {
+        setUseIndependentApi(useIndependentApiConfig);
+        setDraft({
+            baseUrl: independentApiConfig?.baseUrl || '',
+            apiKey: independentApiConfig?.apiKey || '',
+            model: independentApiConfig?.model || '',
+        });
+    }, [independentApiConfig, useIndependentApiConfig]);
+
+    const patchDraft = (updates: Partial<LifeSimApiDraft>) => {
+        setDraft(prev => ({ ...prev, ...updates }));
+    };
+
+    const handleLoadPreset = (preset: ApiPreset) => {
+        setDraft({
+            baseUrl: preset.config.baseUrl || '',
+            apiKey: preset.config.apiKey || '',
+            model: preset.config.model || '',
+        });
+        setUseIndependentApi(true);
+    };
+
+    const handleSaveAndClose = async () => {
+        if (isSaving) return;
+        setIsSaving(true);
+        try {
+            await onSaveApiSettings({
+                enabled: useIndependentApi,
+                config: {
+                    baseUrl: draft.baseUrl.trim(),
+                    apiKey: draft.apiKey.trim(),
+                    model: draft.model.trim(),
+                },
+            });
+            onClose();
+        } finally {
+            setIsSaving(false);
+        }
+    };
+
+    return (
+        <div
+            className="absolute inset-0 z-40 flex items-end justify-center"
+            style={{ background: 'rgba(0,0,0,0.3)' }}
+            onClick={event => { if (event.target === event.currentTarget) void handleSaveAndClose(); }}
+        >
+            <div
+                className="retro-window w-full mx-2 mb-2"
+                style={{
+                    maxHeight: '82vh',
+                    display: 'flex',
+                    flexDirection: 'column',
+                    boxShadow: '4px 4px 0 rgba(0,0,0,0.2), inset 0 0 0 1px rgba(255,255,255,0.5)',
+                    minWidth: 0,
+                }}
+            >
+                <div className="retro-titlebar">
+                    <span className="flex items-center gap-1">
+                        <Gear size={11} weight="bold" /> lifesim.settings
+                    </span>
+                    <button
+                        onClick={() => void handleSaveAndClose()}
+                        style={{
+                            display: 'inline-flex',
+                            alignItems: 'center',
+                            justifyContent: 'center',
+                            width: 18,
+                            height: 18,
+                            borderRadius: 3,
+                            background: 'rgba(255,255,255,0.15)',
+                            border: '1px solid rgba(255,255,255,0.25)',
+                            color: 'white',
+                        }}
+                    >
+                        <X size={10} weight="bold" />
+                    </button>
+                </div>
+
+                <div className="overflow-y-auto overflow-x-hidden no-scrollbar flex-1" style={{ padding: 10 }}>
+                    <div className="retro-inset" style={{ padding: '6px 8px', marginBottom: 10 }}>
+                        <p style={{ fontSize: 10, color: '#6a6181', lineHeight: 1.6 }}>
+                            这里可以分别控制这局 LifeSim 允许哪些角色参与，以及是否给 LifeSim 单独指定一套 API。
+                        </p>
+                    </div>
+
+                    <div style={{ fontSize: 10, fontWeight: 700, color: '#6f6780', marginBottom: 6, letterSpacing: '0.04em' }}>
+                        参与角色
+                    </div>
+
+                    <div className="flex gap-2 mb-2">
+                        <button onClick={onSelectAll} className="retro-btn" style={{ padding: '4px 10px', fontSize: 10 }}>
+                            全选
+                        </button>
+                        <button onClick={onSelectNone} className="retro-btn" style={{ padding: '4px 10px', fontSize: 10 }}>
+                            清空
+                        </button>
+                    </div>
+
+                    {/* 分组筛选（没建分组时不渲染）：只影响显示哪些可选项，已勾选参与者不受影响 */}
+                    <CharacterGroupFilterBar characters={characters} groups={characterGroups}
+                        value={charGroupId} onChange={setCharGroupId} className="mb-2" />
+                    <div className="space-y-1.5">
+                        {filterCharactersByGroup(characters, characterGroups, charGroupId).map(char => {
+                            const active = selectedCharIds.includes(char.id);
+                            return (
+                                <button
+                                    key={char.id}
+                                    onClick={() => onToggleChar(char.id)}
+                                    className="w-full text-left"
+                                    style={{
+                                        display: 'flex',
+                                        alignItems: 'center',
+                                        gap: 10,
+                                        padding: 8,
+                                        borderRadius: 6,
+                                        border: active ? '2px solid rgba(91,143,168,0.55)' : '2px solid rgba(0,0,0,0.08)',
+                                        background: active ? 'rgba(123,173,196,0.12)' : 'rgba(255,255,255,0.55)',
+                                        minWidth: 0,
+                                    }}
+                                >
+                                    <img src={char.avatar} alt={char.name} style={{ width: 32, height: 32, borderRadius: 8, objectFit: 'cover', flexShrink: 0 }} />
+                                    <div style={{ flex: 1, minWidth: 0 }}>
+                                        <div style={{ fontSize: 11, fontWeight: 700, color: '#504a61' }}>{char.name}</div>
+                                        <div style={{ fontSize: 9, color: '#8b8499', lineHeight: 1.5, overflowWrap: 'anywhere' }}>
+                                            {char.description || '暂无描述'}
+                                        </div>
+                                    </div>
+                                    <div style={{ color: active ? '#5b8fa8' : '#a7a0b6', flexShrink: 0 }}>
+                                        {active ? <CheckSquare size={16} weight="fill" /> : <Square size={16} weight="bold" />}
+                                    </div>
+                                </button>
+                            );
+                        })}
+                    </div>
+
+                    <div className="retro-divider" style={{ margin: '12px 0 10px' }} />
+
+                    <div className="flex items-center justify-between" style={{ marginBottom: 8, gap: 10 }}>
+                        <div style={{ minWidth: 0 }}>
+                            <div style={{ fontSize: 10, fontWeight: 700, color: '#6f6780', letterSpacing: '0.04em' }}>
+                                LifeSim 独立 API
+                            </div>
+                            <div style={{ fontSize: 9, color: '#8a8198', lineHeight: 1.5, marginTop: 3 }}>
+                                推荐 Gemini Flash 系列，便宜且快，适合这种高频轻剧情生成。
+                            </div>
+                        </div>
+                        <button
+                            onClick={() => setUseIndependentApi(value => !value)}
+                            style={{
+                                width: 44,
+                                height: 24,
+                                borderRadius: 999,
+                                border: '1px solid rgba(0,0,0,0.1)',
+                                background: useIndependentApi ? 'linear-gradient(180deg, #7badc4, #5b8fa8)' : 'rgba(0,0,0,0.12)',
+                                position: 'relative',
+                                flexShrink: 0,
+                            }}
+                        >
+                            <span
+                                style={{
+                                    position: 'absolute',
+                                    top: 2,
+                                    left: useIndependentApi ? 22 : 2,
+                                    width: 18,
+                                    height: 18,
+                                    borderRadius: 999,
+                                    background: '#fff',
+                                    boxShadow: '0 1px 2px rgba(0,0,0,0.18)',
+                                    transition: 'left 0.15s ease',
+                                }}
+                            />
+                        </button>
+                    </div>
+
+                    <div className="retro-inset" style={{ padding: '6px 8px', marginBottom: 8 }}>
+                        <p style={{ fontSize: 9, color: '#80778e', lineHeight: 1.6 }}>
+                            {useIndependentApi
+                                ? '开启后，LifeSim 会优先使用下面这套配置；没填的字段会回退到全局 API。'
+                                : '关闭时，LifeSim 直接沿用系统全局 API。'}
+                        </p>
+                    </div>
+
+                    {useIndependentApi && (
+                        <>
+                            {apiPresets.length > 0 && (
+                                <div style={{ marginBottom: 8 }}>
+                                    <div style={{ fontSize: 9, fontWeight: 700, color: '#7b7289', marginBottom: 5 }}>
+                                        预设
+                                    </div>
+                                    <div className="flex gap-2 overflow-x-auto no-scrollbar pb-1">
+                                        {apiPresets.map(preset => (
+                                            <button
+                                                key={preset.id}
+                                                onClick={() => handleLoadPreset(preset)}
+                                                className="retro-btn"
+                                                style={{
+                                                    padding: '4px 10px',
+                                                    fontSize: 9,
+                                                    whiteSpace: 'nowrap',
+                                                    flexShrink: 0,
+                                                }}
+                                            >
+                                                {preset.name} · {preset.config.model}
+                                            </button>
+                                        ))}
+                                    </div>
+                                </div>
+                            )}
+
+                            <div className="space-y-3">
+                                <div>
+                                    <label style={{ fontSize: 9, fontWeight: 700, color: '#7b7289', marginBottom: 4, display: 'block' }}>
+                                        URL
+                                    </label>
+                                    <input
+                                        type="text"
+                                        value={draft.baseUrl}
+                                        onChange={event => patchDraft({ baseUrl: event.target.value })}
+                                        placeholder="https://..."
+                                        className="w-full"
+                                        style={{
+                                            background: 'rgba(255,255,255,0.72)',
+                                            border: '1px solid rgba(0,0,0,0.1)',
+                                            borderRadius: 6,
+                                            padding: '8px 10px',
+                                            fontSize: 10,
+                                            fontFamily: 'monospace',
+                                        }}
+                                    />
+                                </div>
+                                <div>
+                                    <label style={{ fontSize: 9, fontWeight: 700, color: '#7b7289', marginBottom: 4, display: 'block' }}>
+                                        API Key
+                                    </label>
+                                    <input
+                                        type="password"
+                                        value={draft.apiKey}
+                                        onChange={event => patchDraft({ apiKey: event.target.value })}
+                                        placeholder="sk-..."
+                                        className="w-full"
+                                        style={{
+                                            background: 'rgba(255,255,255,0.72)',
+                                            border: '1px solid rgba(0,0,0,0.1)',
+                                            borderRadius: 6,
+                                            padding: '8px 10px',
+                                            fontSize: 10,
+                                            fontFamily: 'monospace',
+                                        }}
+                                    />
+                                </div>
+                                <div>
+                                    <label style={{ fontSize: 9, fontWeight: 700, color: '#7b7289', marginBottom: 4, display: 'block' }}>
+                                        Model
+                                    </label>
+                                    <input
+                                        type="text"
+                                        value={draft.model}
+                                        onChange={event => patchDraft({ model: event.target.value })}
+                                        placeholder="gemini-2.0-flash / gemini-2.5-flash-lite / ..."
+                                        className="w-full"
+                                        style={{
+                                            background: 'rgba(255,255,255,0.72)',
+                                            border: '1px solid rgba(0,0,0,0.1)',
+                                            borderRadius: 6,
+                                            padding: '8px 10px',
+                                            fontSize: 10,
+                                            fontFamily: 'monospace',
+                                        }}
+                                    />
+                                </div>
+                            </div>
+                        </>
+                    )}
+                </div>
+
+                <div style={{ padding: '6px 10px', borderTop: '1px solid rgba(0,0,0,0.08)' }}>
+                    <button
+                        onClick={() => void handleSaveAndClose()}
+                        className="retro-btn w-full"
+                        style={{ padding: '7px 12px', display: 'flex', alignItems: 'center', justifyContent: 'center', gap: 6 }}
+                        disabled={isSaving}
+                    >
+                        <FloppyDisk size={12} weight="bold" /> {isSaving ? '保存中...' : '保存并关闭'}
+                    </button>
+                </div>
+            </div>
+        </div>
+    );
+};
+
+export default LifeSimSettingsPanel;

@@ -1,1 +1,61 @@
-IyBNaW5pTWF4IFQyQe+8iEhUVFDvvInmjqXlhaXpgJ/orrAKCj4g5p2l5rqQ77yaYGh0dHBzOi8vcGxhdGZvcm0ubWluaW1heGkuY29tL2RvY3MvYXBpLXJlZmVyZW5jZS9zcGVlY2gtdDJhLWh0dHBgIOWvueW6lCBPcGVuQVBJ44CCCgojIyAxKSDln7rnoYDmjqXlj6MKCi0g5Li75Zyw5Z2A77yaYGh0dHBzOi8vYXBpLm1pbmltYXhpLmNvbS92MS90MmFfdjJgCi0g5paH5qGj5o+Q5Yiw5aSH55So5Zyw5Z2A77yaYGh0dHBzOi8vYXBpLWJqLm1pbmltYXhpLmNvbS92MS90MmFfdjJgCi0g6Z+z6Imy5p+l6K+i5o6l5Y+j77yaYGh0dHBzOi8vYXBpLm1pbmltYXhpLmNvbS92MS9nZXRfdm9pY2Vg77yI5p+l6K+i5b2T5YmN6LSm5Y+35Y+v55SoIHZvaWNlX2lk77yJCi0g6Ym05p2D77yaYEF1dGhvcml6YXRpb246IEJlYXJlciA8QVBJX0tFWT5gCi0gYENvbnRlbnQtVHlwZTogYXBwbGljYXRpb24vanNvbmAKCiMjIDIpIOacgOWwj+WPr+eUqOivt+axgu+8iOmdnua1geW8j++8iQoKYGBgYmFzaApjdXJsIC1YIFBPU1QgJ2h0dHBzOi8vYXBpLm1pbmltYXhpLmNvbS92MS90MmFfdjInIFwKICAtSCAnQ29udGVudC1UeXBlOiBhcHBsaWNhdGlvbi9qc29uJyBcCiAgLUggJ0F1dGhvcml6YXRpb246IEJlYXJlciA8QVBJX0tFWT4nIFwKICAtZCAnewogICAgIm1vZGVsIjogInNwZWVjaC0yLjgtaGQiLAogICAgInRleHQiOiAi5L2g5aW977yM5qyi6L+O5L2/55SoIE1pbmlNYXgg5paH5pys6L2s6K+t6Z+z44CCIiwKICAgICJzdHJlYW0iOiBmYWxzZSwKICAgICJ2b2ljZV9zZXR0aW5nIjogeyJ2b2ljZV9pZCI6ICJtYWxlLXFuLXFpbmdzZSJ9LAogICAgImF1ZGlvX3NldHRpbmciOiB7ImZvcm1hdCI6ICJtcDMiLCAic2FtcGxlX3JhdGUiOiAzMjAwMCwgImJpdHJhdGUiOiAxMjgwMDAsICJjaGFubmVsIjogMX0sCiAgICAib3V0cHV0X2Zvcm1hdCI6ICJ1cmwiCiAgfScKYGBgCgojIyAzKSDlhbPplK7lrZfmrrUKCi0g5b+F5aGr77yaYG1vZGVsYOOAgWB0ZXh0YAotIOW4uOeUqO+8mgogIC0gYHN0cmVhbWDvvJrmmK/lkKbmtYHlvI/vvIzpu5jorqQgYGZhbHNlYAogIC0gYHZvaWNlX3NldHRpbmdg77yaYHZvaWNlX2lkL3NwZWVkL3ZvbC9waXRjaC9lbW90aW9uYAogIC0gYGF1ZGlvX3NldHRpbmdg77yaYGZvcm1hdC9zYW1wbGVfcmF0ZS9iaXRyYXRlL2NoYW5uZWxgCiAgLSBgb3V0cHV0X2Zvcm1hdGDvvJpgdXJsYCDmiJYgYGhleGDvvIjpnZ7mtYHlvI/lj6/pgInvvIzmtYHlvI/ku4UgaGV477yJCi0g5paH5pys5LiK6ZmQ77yaPCAxMDAwMCDlrZfnrKbvvJs+IDMwMDAg5pe25bu66K6u5rWB5byP44CCCgojIyA0KSDov5Tlm57lgLwKCi0gYGRhdGEuYXVkaW9g77ya6Z+z6aKR5YaF5a6577yIaGV4IOaIliBVUkzvvIzlj5blhrPkuo4gYG91dHB1dF9mb3JtYXRg77yJCi0gYGV4dHJhX2luZm9g77ya5pe26ZW/44CB6YeH5qC3546H44CBYml0cmF0ZeOAgeiuoei0ueWtl+espuaVsOetiQotIGBiYXNlX3Jlc3Auc3RhdHVzX2NvZGVg77ya5Lia5Yqh54q25oCB77yIYDBgIOS4uuaIkOWKn++8iQotIGB0cmFjZV9pZGDvvJrmjpLpmpzlv4XlpIfvvIzlu7rorq7lhajpk77ot6/miZPml6Xlv5fjgIIKCiMjIDUpIOaOpeWFpeW7uuiuru+8iOW3peeoi+Wunui3te+8iQoKMS4gKirlhYjot5HpnZ7mtYHlvI8gKyBvdXRwdXRfZm9ybWF0PXVybCoq77yM5YeP5bCR5L2g5pys5Zyw5a+5IGhleCDop6PnoIHlkozokL3nm5jlpITnkIbotJ/mi4XjgIIgIAoyLiAqKuaWh+acrOWIh+eJhyoq77ya5oyJIDIwMH41MDAg5a2X5YiH54mH5bm25Y+R5ZCI5oiQ77yI5L+d5bqP5ou85o6l77yJ77yM6YG/5YWN6ZW/5paH5pys5Y2V5qyh5aSx6LSl44CCICAKMy4gKirph43or5XnrZbnlaUqKu+8muWPquWvuei2heaXti/pmZDmtYHplJnor6/lgZrmjIfmlbDpgIDpgb/ph43or5XvvIzpibTmnYPkuI7lj4LmlbDplJnor6/nm7TmjqXlkYrorabjgIIgIAo0LiAqKuWFnOW6lemfs+iJsioq77ya5Li7IGB2b2ljZV9pZGAg5LiN5Y+v55So5pe25Zue6JC95Yiw57O757uf6buY6K6k6Z+z6Imy44CCICAKNS4gKirlj6/op4LmtYvmgKcqKu+8muiusOW9lSBgdHJhY2VfaWRg44CB5qih5Z6L44CB5paH5pys6ZW/5bqm44CB6ICX5pe244CB54q25oCB56CB44CCICAKNi4gKirlrZfluZXpnIDmsYIqKu+8mumcgOimgeWPpee6p+aXtumXtOaIs+aXtuWQr+eUqCBgc3VidGl0bGVfZW5hYmxlYO+8iOS7hemdnua1geW8j+acieaViO+8ieOAggoKIyMgNikg6KeS6Imy6Z+z6Imy77yI5Y+v5YWI5YGa4oCc6Z+z6ImyIEFwcOKAne+8iQoKLSDlj6/ku6XlhYjlgZrkuIDkuKrigJzop5LoibLpn7PoibLnrqHnkIbigJ3pobXvvJoKICAxKSDmi4nlj5YgYC92MS9nZXRfdm9pY2VgIOiOt+WPluezu+e7ny/lpI3liLsv5paH55Sf6Z+z6Imy77ybCiAgMikg6KeS6Imy5LiK5L+d5a2YIGB2b2ljZV9pZGDvvJsKICAzKSBUVFMg6K+35rGC5pe255u05o6l5oqK6K+lIGB2b2ljZV9pZGAg5YaZ5YWlIGB2b2ljZV9zZXR0aW5nLnZvaWNlX2lkYOOAggotIOW3suaciSB2b2ljZV9pZCDnmoTnlKjmiLflj68qKuebtOaOpei3s+i/h+afpeivouaOpeWPoyoq77yM57KY6LS05ZCO5Y2z5Y+v6LCD55So5ZCI5oiQ44CCCg==
+# MiniMax T2A（HTTP）接入速记
+
+> 来源：`https://platform.minimaxi.com/docs/api-reference/speech-t2a-http` 对应 OpenAPI。
+
+## 1) 基础接口
+
+- 主地址：`https://api.minimaxi.com/v1/t2a_v2`
+- 文档提到备用地址：`https://api-bj.minimaxi.com/v1/t2a_v2`
+- 音色查询接口：`https://api.minimaxi.com/v1/get_voice`（查询当前账号可用 voice_id）
+- 鉴权：`Authorization: Bearer <API_KEY>`
+- `Content-Type: application/json`
+
+## 2) 最小可用请求（非流式）
+
+```bash
+curl -X POST 'https://api.minimaxi.com/v1/t2a_v2' \
+  -H 'Content-Type: application/json' \
+  -H 'Authorization: Bearer <API_KEY>' \
+  -d '{
+    "model": "speech-2.8-hd",
+    "text": "你好，欢迎使用 MiniMax 文本转语音。",
+    "stream": false,
+    "voice_setting": {"voice_id": "male-qn-qingse"},
+    "audio_setting": {"format": "mp3", "sample_rate": 32000, "bitrate": 128000, "channel": 1},
+    "output_format": "url"
+  }'
+```
+
+## 3) 关键字段
+
+- 必填：`model`、`text`
+- 常用：
+  - `stream`：是否流式，默认 `false`
+  - `voice_setting`：`voice_id/speed/vol/pitch/emotion`
+  - `audio_setting`：`format/sample_rate/bitrate/channel`
+  - `output_format`：`url` 或 `hex`（非流式可选，流式仅 hex）
+- 文本上限：< 10000 字符；> 3000 时建议流式。
+
+## 4) 返回值
+
+- `data.audio`：音频内容（hex 或 URL，取决于 `output_format`）
+- `extra_info`：时长、采样率、bitrate、计费字符数等
+- `base_resp.status_code`：业务状态（`0` 为成功）
+- `trace_id`：排障必备，建议全链路打日志。
+
+## 5) 接入建议（工程实践）
+
+1. **先跑非流式 + output_format=url**，减少你本地对 hex 解码和落盘处理负担。  
+2. **文本切片**：按 200~500 字切片并发合成（保序拼接），避免长文本单次失败。  
+3. **重试策略**：只对超时/限流错误做指数退避重试，鉴权与参数错误直接告警。  
+4. **兜底音色**：主 `voice_id` 不可用时回落到系统默认音色。  
+5. **可观测性**：记录 `trace_id`、模型、文本长度、耗时、状态码。  
+6. **字幕需求**：需要句级时间戳时启用 `subtitle_enable`（仅非流式有效）。
+
+## 6) 角色音色（可先做“音色 App”）
+
+- 可以先做一个“角色音色管理”页：
+  1) 拉取 `/v1/get_voice` 获取系统/复刻/文生音色；
+  2) 角色上保存 `voice_id`；
+  3) TTS 请求时直接把该 `voice_id` 写入 `voice_setting.voice_id`。
+- 已有 voice_id 的用户可**直接跳过查询接口**，粘贴后即可调用合成。

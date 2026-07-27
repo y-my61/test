@@ -1,1 +1,119 @@
-LyoqCiAqIFdlYkRBViBQcm94eSBmb3IgQ2xvdWQgQmFja3VwCiAqCiAqIEJ5cGFzc2VzIENPUlMgcmVzdHJpY3Rpb25zIGZvciB3ZWIgY2xpZW50cyBieSBwcm94eWluZyBXZWJEQVYgcmVxdWVzdHMKICogdG8gdXNlci1jb25maWd1cmVkIGNsb3VkIHN0b3JhZ2UgKOWdmuaenOS6kSwgTmV4dGNsb3VkLCBTeW5vbG9neSwgZXRjLikKICoKICogVGhlIGNsaWVudCBzZW5kcyBhIFBPU1Qgd2l0aDoKICogICAtIFF1ZXJ5IHBhcmFtOiA/dXJsPTxlbmNvZGVkIHRhcmdldCBVUkw+CiAqICAgLSBIZWFkZXIgWC1XZWJEQVYtTWV0aG9kOiB0aGUgYWN0dWFsIFdlYkRBViBtZXRob2QgKEdFVCwgUFVULCBQUk9QRklORCwgTUtDT0wsIERFTEVURSkKICogICAtIEhlYWRlciBYLVdlYkRBVi1EZXB0aDogdGhlIERlcHRoIGhlYWRlciBmb3IgUFJPUEZJTkQKICogICAtIEF1dGhvcml6YXRpb24gaGVhZGVyOiBwYXNzZWQgdGhyb3VnaCB0byBXZWJEQVYgc2VydmVyCiAqICAgLSBCb2R5OiBwYXNzZWQgdGhyb3VnaCB0byBXZWJEQVYgc2VydmVyCiAqLwoKY29uc3QgQ09SU19IRUFERVJTOiBSZWNvcmQ8c3RyaW5nLCBzdHJpbmc+ID0gewogICAgJ0FjY2Vzcy1Db250cm9sLUFsbG93LU9yaWdpbic6ICcqJywKICAgICdBY2Nlc3MtQ29udHJvbC1BbGxvdy1IZWFkZXJzJzogJ0F1dGhvcml6YXRpb24sIENvbnRlbnQtVHlwZSwgWC1XZWJEQVYtTWV0aG9kLCBYLVdlYkRBVi1EZXB0aCwgRGVwdGgnLAogICAgJ0FjY2Vzcy1Db250cm9sLUFsbG93LU1ldGhvZHMnOiAnR0VULCBQT1NULCBPUFRJT05TJywKICAgICdBY2Nlc3MtQ29udHJvbC1NYXgtQWdlJzogJzg2NDAwJywKfTsKCmV4cG9ydCBkZWZhdWx0IGFzeW5jIChyZXE6IFJlcXVlc3QpID0+IHsKICAgIC8vIEhhbmRsZSBDT1JTIHByZWZsaWdodAogICAgaWYgKHJlcS5tZXRob2QgPT09ICdPUFRJT05TJykgewogICAgICAgIHJldHVybiBuZXcgUmVzcG9uc2UobnVsbCwgeyBzdGF0dXM6IDIwNCwgaGVhZGVyczogQ09SU19IRUFERVJTIH0pOwogICAgfQoKICAgIGlmIChyZXEubWV0aG9kICE9PSAnUE9TVCcpIHsKICAgICAgICByZXR1cm4gbmV3IFJlc3BvbnNlKEpTT04uc3RyaW5naWZ5KHsgZXJyb3I6ICdNZXRob2Qgbm90IGFsbG93ZWQnIH0pLCB7CiAgICAgICAgICAgIHN0YXR1czogNDA1LAogICAgICAgICAgICBoZWFkZXJzOiB7IC4uLkNPUlNfSEVBREVSUywgJ0NvbnRlbnQtVHlwZSc6ICdhcHBsaWNhdGlvbi9qc29uJyB9LAogICAgICAgIH0pOwogICAgfQoKICAgIGNvbnN0IHVybCA9IG5ldyBVUkwocmVxLnVybCk7CiAgICBjb25zdCB0YXJnZXRVcmwgPSB1cmwuc2VhcmNoUGFyYW1zLmdldCgndXJsJyk7CgogICAgaWYgKCF0YXJnZXRVcmwpIHsKICAgICAgICByZXR1cm4gbmV3IFJlc3BvbnNlKEpTT04uc3RyaW5naWZ5KHsgZXJyb3I6ICdNaXNzaW5nIHVybCBwYXJhbWV0ZXInIH0pLCB7CiAgICAgICAgICAgIHN0YXR1czogNDAwLAogICAgICAgICAgICBoZWFkZXJzOiB7IC4uLkNPUlNfSEVBREVSUywgJ0NvbnRlbnQtVHlwZSc6ICdhcHBsaWNhdGlvbi9qc29uJyB9LAogICAgICAgIH0pOwogICAgfQoKICAgIC8vIFZhbGlkYXRlIHRhcmdldCBVUkwg4oCUIG9ubHkgYWxsb3cgSFRUUFMgV2ViREFWIGVuZHBvaW50cwogICAgbGV0IHBhcnNlZFRhcmdldDogVVJMOwogICAgdHJ5IHsKICAgICAgICBwYXJzZWRUYXJnZXQgPSBuZXcgVVJMKHRhcmdldFVybCk7CiAgICAgICAgaWYgKHBhcnNlZFRhcmdldC5wcm90b2NvbCAhPT0gJ2h0dHBzOicpIHsKICAgICAgICAgICAgcmV0dXJuIG5ldyBSZXNwb25zZShKU09OLnN0cmluZ2lmeSh7IGVycm9yOiAnT25seSBIVFRQUyBVUkxzIGFsbG93ZWQnIH0pLCB7CiAgICAgICAgICAgICAgICBzdGF0dXM6IDQwMCwKICAgICAgICAgICAgICAgIGhlYWRlcnM6IHsgLi4uQ09SU19IRUFERVJTLCAnQ29udGVudC1UeXBlJzogJ2FwcGxpY2F0aW9uL2pzb24nIH0sCiAgICAgICAgICAgIH0pOwogICAgICAgIH0KICAgIH0gY2F0Y2ggewogICAgICAgIHJldHVybiBuZXcgUmVzcG9uc2UoSlNPTi5zdHJpbmdpZnkoeyBlcnJvcjogJ0ludmFsaWQgVVJMJyB9KSwgewogICAgICAgICAgICBzdGF0dXM6IDQwMCwKICAgICAgICAgICAgaGVhZGVyczogeyAuLi5DT1JTX0hFQURFUlMsICdDb250ZW50LVR5cGUnOiAnYXBwbGljYXRpb24vanNvbicgfSwKICAgICAgICB9KTsKICAgIH0KCiAgICAvLyBFeHRyYWN0IHRoZSByZWFsIFdlYkRBViBtZXRob2QgZnJvbSBoZWFkZXIKICAgIGNvbnN0IHdlYmRhdk1ldGhvZCA9IHJlcS5oZWFkZXJzLmdldCgnWC1XZWJEQVYtTWV0aG9kJykgfHwgJ0dFVCc7CiAgICBjb25zdCBhbGxvd2VkTWV0aG9kcyA9IFsnR0VUJywgJ1BVVCcsICdQUk9QRklORCcsICdNS0NPTCcsICdERUxFVEUnXTsKICAgIGlmICghYWxsb3dlZE1ldGhvZHMuaW5jbHVkZXMod2ViZGF2TWV0aG9kLnRvVXBwZXJDYXNlKCkpKSB7CiAgICAgICAgcmV0dXJuIG5ldyBSZXNwb25zZShKU09OLnN0cmluZ2lmeSh7IGVycm9yOiAnV2ViREFWIG1ldGhvZCBub3QgYWxsb3dlZCcgfSksIHsKICAgICAgICAgICAgc3RhdHVzOiA0MDAsCiAgICAgICAgICAgIGhlYWRlcnM6IHsgLi4uQ09SU19IRUFERVJTLCAnQ29udGVudC1UeXBlJzogJ2FwcGxpY2F0aW9uL2pzb24nIH0sCiAgICAgICAgfSk7CiAgICB9CgogICAgLy8gQnVpbGQgaGVhZGVycyB0byBmb3J3YXJkCiAgICBjb25zdCBmb3J3YXJkSGVhZGVyczogUmVjb3JkPHN0cmluZywgc3RyaW5nPiA9IHt9OwogICAgY29uc3QgYXV0aCA9IHJlcS5oZWFkZXJzLmdldCgnQXV0aG9yaXphdGlvbicpOwogICAgaWYgKGF1dGgpIGZvcndhcmRIZWFkZXJzWydBdXRob3JpemF0aW9uJ10gPSBhdXRoOwoKICAgIGNvbnN0IGNvbnRlbnRUeXBlID0gcmVxLmhlYWRlcnMuZ2V0KCdDb250ZW50LVR5cGUnKTsKICAgIGlmIChjb250ZW50VHlwZSkgZm9yd2FyZEhlYWRlcnNbJ0NvbnRlbnQtVHlwZSddID0gY29udGVudFR5cGU7CgogICAgLy8gUFJPUEZJTkQtc3BlY2lmaWMKICAgIGNvbnN0IGRlcHRoID0gcmVxLmhlYWRlcnMuZ2V0KCdYLVdlYkRBVi1EZXB0aCcpIHx8IHJlcS5oZWFkZXJzLmdldCgnRGVwdGgnKTsKICAgIGlmIChkZXB0aCkgZm9yd2FyZEhlYWRlcnNbJ0RlcHRoJ10gPSBkZXB0aDsKCiAgICB0cnkgewogICAgICAgIC8vIFJlYWQgYm9keSAoY291bGQgYmUgWE1MIGZvciBQUk9QRklORCwgb3IgYmluYXJ5IGZvciBQVVQpCiAgICAgICAgbGV0IGJvZHk6IEFycmF5QnVmZmVyIHwgbnVsbCA9IG51bGw7CiAgICAgICAgaWYgKHdlYmRhdk1ldGhvZCAhPT0gJ0dFVCcgJiYgd2ViZGF2TWV0aG9kICE9PSAnTUtDT0wnKSB7CiAgICAgICAgICAgIGJvZHkgPSBhd2FpdCByZXEuYXJyYXlCdWZmZXIoKTsKICAgICAgICAgICAgaWYgKGJvZHkuYnl0ZUxlbmd0aCA9PT0gMCkgYm9keSA9IG51bGw7CiAgICAgICAgfQoKICAgICAgICBjb25zdCByZXNwb25zZSA9IGF3YWl0IGZldGNoKHRhcmdldFVybCwgewogICAgICAgICAgICBtZXRob2Q6IHdlYmRhdk1ldGhvZCwKICAgICAgICAgICAgaGVhZGVyczogZm9yd2FyZEhlYWRlcnMsCiAgICAgICAgICAgIGJvZHk6IGJvZHksCiAgICAgICAgfSk7CgogICAgICAgIC8vIEJ1aWxkIHJlc3BvbnNlIOKAlCBwYXNzIHRocm91Z2ggc3RhdHVzIGFuZCBib2R5CiAgICAgICAgY29uc3QgcmVzcG9uc2VIZWFkZXJzID0gbmV3IEhlYWRlcnMoQ09SU19IRUFERVJTKTsKICAgICAgICBjb25zdCByZXNwQ29udGVudFR5cGUgPSByZXNwb25zZS5oZWFkZXJzLmdldCgnQ29udGVudC1UeXBlJyk7CiAgICAgICAgaWYgKHJlc3BDb250ZW50VHlwZSkgcmVzcG9uc2VIZWFkZXJzLnNldCgnQ29udGVudC1UeXBlJywgcmVzcENvbnRlbnRUeXBlKTsKICAgICAgICBjb25zdCByZXNwQ29udGVudExlbmd0aCA9IHJlc3BvbnNlLmhlYWRlcnMuZ2V0KCdDb250ZW50LUxlbmd0aCcpOwogICAgICAgIGlmIChyZXNwQ29udGVudExlbmd0aCkgcmVzcG9uc2VIZWFkZXJzLnNldCgnQ29udGVudC1MZW5ndGgnLCByZXNwQ29udGVudExlbmd0aCk7CgogICAgICAgIC8vIEZvciBHRVQgKGRvd25sb2FkKSwgc3RyZWFtIHRoZSBib2R5IHRocm91Z2gKICAgICAgICAvLyBGb3IgUFJPUEZJTkQsIHJldHVybiBYTUwgYXMtaXMKICAgICAgICBjb25zdCByZXNwb25zZUJvZHkgPSBhd2FpdCByZXNwb25zZS5hcnJheUJ1ZmZlcigpOwoKICAgICAgICByZXR1cm4gbmV3IFJlc3BvbnNlKHJlc3BvbnNlQm9keSwgewogICAgICAgICAgICBzdGF0dXM6IHJlc3BvbnNlLnN0YXR1cywKICAgICAgICAgICAgaGVhZGVyczogcmVzcG9uc2VIZWFkZXJzLAogICAgICAgIH0pOwogICAgfSBjYXRjaCAoZTogYW55KSB7CiAgICAgICAgcmV0dXJuIG5ldyBSZXNwb25zZShKU09OLnN0cmluZ2lmeSh7IGVycm9yOiBgUHJveHkgZXJyb3I6ICR7ZS5tZXNzYWdlfWAgfSksIHsKICAgICAgICAgICAgc3RhdHVzOiA1MDIsCiAgICAgICAgICAgIGhlYWRlcnM6IHsgLi4uQ09SU19IRUFERVJTLCAnQ29udGVudC1UeXBlJzogJ2FwcGxpY2F0aW9uL2pzb24nIH0sCiAgICAgICAgfSk7CiAgICB9Cn07Cg==
+/**
+ * WebDAV Proxy for Cloud Backup
+ *
+ * Bypasses CORS restrictions for web clients by proxying WebDAV requests
+ * to user-configured cloud storage (坚果云, Nextcloud, Synology, etc.)
+ *
+ * The client sends a POST with:
+ *   - Query param: ?url=<encoded target URL>
+ *   - Header X-WebDAV-Method: the actual WebDAV method (GET, PUT, PROPFIND, MKCOL, DELETE)
+ *   - Header X-WebDAV-Depth: the Depth header for PROPFIND
+ *   - Authorization header: passed through to WebDAV server
+ *   - Body: passed through to WebDAV server
+ */
+
+const CORS_HEADERS: Record<string, string> = {
+    'Access-Control-Allow-Origin': '*',
+    'Access-Control-Allow-Headers': 'Authorization, Content-Type, X-WebDAV-Method, X-WebDAV-Depth, Depth',
+    'Access-Control-Allow-Methods': 'GET, POST, OPTIONS',
+    'Access-Control-Max-Age': '86400',
+};
+
+export default async (req: Request) => {
+    // Handle CORS preflight
+    if (req.method === 'OPTIONS') {
+        return new Response(null, { status: 204, headers: CORS_HEADERS });
+    }
+
+    if (req.method !== 'POST') {
+        return new Response(JSON.stringify({ error: 'Method not allowed' }), {
+            status: 405,
+            headers: { ...CORS_HEADERS, 'Content-Type': 'application/json' },
+        });
+    }
+
+    const url = new URL(req.url);
+    const targetUrl = url.searchParams.get('url');
+
+    if (!targetUrl) {
+        return new Response(JSON.stringify({ error: 'Missing url parameter' }), {
+            status: 400,
+            headers: { ...CORS_HEADERS, 'Content-Type': 'application/json' },
+        });
+    }
+
+    // Validate target URL — only allow HTTPS WebDAV endpoints
+    let parsedTarget: URL;
+    try {
+        parsedTarget = new URL(targetUrl);
+        if (parsedTarget.protocol !== 'https:') {
+            return new Response(JSON.stringify({ error: 'Only HTTPS URLs allowed' }), {
+                status: 400,
+                headers: { ...CORS_HEADERS, 'Content-Type': 'application/json' },
+            });
+        }
+    } catch {
+        return new Response(JSON.stringify({ error: 'Invalid URL' }), {
+            status: 400,
+            headers: { ...CORS_HEADERS, 'Content-Type': 'application/json' },
+        });
+    }
+
+    // Extract the real WebDAV method from header
+    const webdavMethod = req.headers.get('X-WebDAV-Method') || 'GET';
+    const allowedMethods = ['GET', 'PUT', 'PROPFIND', 'MKCOL', 'DELETE'];
+    if (!allowedMethods.includes(webdavMethod.toUpperCase())) {
+        return new Response(JSON.stringify({ error: 'WebDAV method not allowed' }), {
+            status: 400,
+            headers: { ...CORS_HEADERS, 'Content-Type': 'application/json' },
+        });
+    }
+
+    // Build headers to forward
+    const forwardHeaders: Record<string, string> = {};
+    const auth = req.headers.get('Authorization');
+    if (auth) forwardHeaders['Authorization'] = auth;
+
+    const contentType = req.headers.get('Content-Type');
+    if (contentType) forwardHeaders['Content-Type'] = contentType;
+
+    // PROPFIND-specific
+    const depth = req.headers.get('X-WebDAV-Depth') || req.headers.get('Depth');
+    if (depth) forwardHeaders['Depth'] = depth;
+
+    try {
+        // Read body (could be XML for PROPFIND, or binary for PUT)
+        let body: ArrayBuffer | null = null;
+        if (webdavMethod !== 'GET' && webdavMethod !== 'MKCOL') {
+            body = await req.arrayBuffer();
+            if (body.byteLength === 0) body = null;
+        }
+
+        const response = await fetch(targetUrl, {
+            method: webdavMethod,
+            headers: forwardHeaders,
+            body: body,
+        });
+
+        // Build response — pass through status and body
+        const responseHeaders = new Headers(CORS_HEADERS);
+        const respContentType = response.headers.get('Content-Type');
+        if (respContentType) responseHeaders.set('Content-Type', respContentType);
+        const respContentLength = response.headers.get('Content-Length');
+        if (respContentLength) responseHeaders.set('Content-Length', respContentLength);
+
+        // For GET (download), stream the body through
+        // For PROPFIND, return XML as-is
+        const responseBody = await response.arrayBuffer();
+
+        return new Response(responseBody, {
+            status: response.status,
+            headers: responseHeaders,
+        });
+    } catch (e: any) {
+        return new Response(JSON.stringify({ error: `Proxy error: ${e.message}` }), {
+            status: 502,
+            headers: { ...CORS_HEADERS, 'Content-Type': 'application/json' },
+        });
+    }
+};

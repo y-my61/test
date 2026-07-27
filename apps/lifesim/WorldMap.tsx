@@ -1,1 +1,358 @@
-LyoqCiAqIFdvcmxkTWFwIOKAlCDln47luILlpKnpmYXnur/lnLDlm74gKHJldHJvIHBpeGVsIGFydCBzdHlsZSkKICogRml0cyBpbnNpZGUgcmV0cm8td2luZG93IGZyYW1lLCBjbGVhbmVyIGxheW91dAogKi8KCmltcG9ydCBSZWFjdCwgeyB1c2VTdGF0ZSwgdXNlRWZmZWN0LCB1c2VSZWYgfSBmcm9tICdyZWFjdCc7CmltcG9ydCB7IExpZmVTaW1TdGF0ZSB9IGZyb20gJy4uLy4uL3R5cGVzJzsKaW1wb3J0IHsKICAgIGdldEZhbWlseU1lbWJlcnMsIGdldEluZGVwZW5kZW50TlBDcywgZ2V0TW9vZExhYmVsLAogICAgZ2V0UHJvZmVzc2lvbkluZm8sIGdldEZhbWlseUF0bW9zcGhlcmUsCiAgICBTRUFTT05fSU5GTywgV0VBVEhFUl9JTkZPLAp9IGZyb20gJy4uLy4uL3V0aWxzL2xpZmVTaW1FbmdpbmUnOwppbXBvcnQgeyBnZXRUaWxlU2V0LCBob3VzZUZvckZhbWlseSwgVGlsZVNldCB9IGZyb20gJy4uLy4uL3V0aWxzL3RpbnlUb3duVGlsZXMnOwppbXBvcnQgeyBOUENBdmF0YXIsIEljb25SYWluZHJvcCwgSWNvblNub3dmbGFrZSwgSWNvbkxpZ2h0bmluZywgSWNvbkZsYW1lLCBJY29uRXhwbG9zaW9uLCBJY29uQ3J1c2ggfSBmcm9tICcuLi8uLi91dGlscy9zdHlsZWRJY29ucyc7Cgpjb25zdCBXb3JsZE1hcDogUmVhY3QuRkM8eyBnYW1lU3RhdGU6IExpZmVTaW1TdGF0ZSB9PiA9ICh7IGdhbWVTdGF0ZSB9KSA9PiB7CiAgICBjb25zdCBbdGlsZXMsIHNldFRpbGVzXSA9IHVzZVN0YXRlPFRpbGVTZXQgfCBudWxsPihudWxsKTsKICAgIGNvbnN0IFtzZWxlY3RlZEZhbWlseUlkLCBzZXRTZWxlY3RlZEZhbWlseUlkXSA9IHVzZVN0YXRlPHN0cmluZyB8IG51bGw+KG51bGwpOwogICAgY29uc3QgW3pvb21lZEZhbWlseUlkLCBzZXRab29tZWRGYW1pbHlJZF0gPSB1c2VTdGF0ZTxzdHJpbmcgfCBudWxsPihudWxsKTsKICAgIGNvbnN0IG1hcFJlZiA9IHVzZVJlZjxIVE1MRGl2RWxlbWVudD4obnVsbCk7CiAgICBjb25zdCBzZWFzb24gPSBnYW1lU3RhdGUuc2Vhc29uID8/ICdzcHJpbmcnOwogICAgY29uc3QgeyBjaGFvc0xldmVsIH0gPSBnYW1lU3RhdGU7CgogICAgdXNlRWZmZWN0KCgpID0+IHsKICAgICAgICBzZXRUaWxlcyhnZXRUaWxlU2V0KHNlYXNvbikpOwogICAgfSwgW3NlYXNvbl0pOwoKICAgIGNvbnN0IHNlbGVjdGVkRmFtaWx5ID0gc2VsZWN0ZWRGYW1pbHlJZCA/IGdhbWVTdGF0ZS5mYW1pbGllcy5maW5kKGYgPT4gZi5pZCA9PT0gc2VsZWN0ZWRGYW1pbHlJZCkgOiBudWxsOwogICAgY29uc3QgaW5kZXBlbmRlbnROUENzID0gZ2V0SW5kZXBlbmRlbnROUENzKGdhbWVTdGF0ZSk7CiAgICBjb25zdCB6b29tZWRGYW1pbHkgPSB6b29tZWRGYW1pbHlJZCA/IGdhbWVTdGF0ZS5mYW1pbGllcy5maW5kKGYgPT4gZi5pZCA9PT0gem9vbWVkRmFtaWx5SWQpIDogbnVsbDsKICAgIGNvbnN0IHpvb21lZE1lbWJlcnMgPSB6b29tZWRGYW1pbHkgPyBnZXRGYW1pbHlNZW1iZXJzKGdhbWVTdGF0ZSwgem9vbWVkRmFtaWx5LmlkKSA6IFtdOwoKICAgIGNvbnN0IHdlYXRoZXIgPSBnYW1lU3RhdGUud2VhdGhlciA/PyAnc3VubnknOwogICAgY29uc3Qgd2VhdGhlck92ZXJsYXkgPQogICAgICAgIHdlYXRoZXIgPT09ICdzdG9ybXknID8gJ3JnYmEoMjAsMCw0MCwwLjQpJyA6CiAgICAgICAgd2VhdGhlciA9PT0gJ3JhaW55JyAgPyAncmdiYSgwLDIwLDYwLDAuMjUpJyA6CiAgICAgICAgd2VhdGhlciA9PT0gJ3Nub3d5JyAgPyAncmdiYSgxMDAsMTIwLDE2MCwwLjIpJyA6CiAgICAgICAgY2hhb3NMZXZlbCA+IDgwID8gJ3JnYmEoMTIwLDAsMCwwLjIpJyA6CiAgICAgICAgY2hhb3NMZXZlbCA+IDYwID8gJ3JnYmEoODAsNDAsMCwwLjEyKScgOiAndHJhbnNwYXJlbnQnOwoKICAgIGNvbnN0IGhhbmRsZUZhbWlseUNsaWNrID0gKGZhbWlseUlkOiBzdHJpbmcpID0+IHsKICAgICAgICBpZiAoem9vbWVkRmFtaWx5SWQgPT09IGZhbWlseUlkKSB7CiAgICAgICAgICAgIHNldFpvb21lZEZhbWlseUlkKG51bGwpOwogICAgICAgICAgICBzZXRTZWxlY3RlZEZhbWlseUlkKG51bGwpOwogICAgICAgIH0gZWxzZSB7CiAgICAgICAgICAgIHNldFpvb21lZEZhbWlseUlkKGZhbWlseUlkKTsKICAgICAgICAgICAgc2V0U2VsZWN0ZWRGYW1pbHlJZChmYW1pbHlJZCk7CiAgICAgICAgfQogICAgfTsKCiAgICByZXR1cm4gKAogICAgICAgIDxkaXYgc3R5bGU9e3sgcG9zaXRpb246ICdyZWxhdGl2ZScgfX0+CiAgICAgICAgICAgIHsvKiBNYWluIG1hcCBhcmVhICovfQogICAgICAgICAgICA8ZGl2IHJlZj17bWFwUmVmfSBzdHlsZT17ewogICAgICAgICAgICAgICAgcG9zaXRpb246ICdyZWxhdGl2ZScsCiAgICAgICAgICAgICAgICBoZWlnaHQ6IHpvb21lZEZhbWlseUlkID8gJzI4MHB4JyA6ICcxNjBweCcsCiAgICAgICAgICAgICAgICBvdmVyZmxvdzogJ2hpZGRlbicsCiAgICAgICAgICAgICAgICB0cmFuc2l0aW9uOiAnaGVpZ2h0IDAuNHMgY3ViaWMtYmV6aWVyKDAuNCwwLDAuMiwxKScsCiAgICAgICAgICAgIH19PgogICAgICAgICAgICAgICAgey8qIENpdHkgbWFwIGJhY2tncm91bmQgKi99CiAgICAgICAgICAgICAgICB7dGlsZXMgPyAoCiAgICAgICAgICAgICAgICAgICAgPGltZyBzcmM9e3RpbGVzLm1hcEJhY2tncm91bmR9IGNsYXNzTmFtZT0iYWJzb2x1dGUgaW5zZXQtMCB3LWZ1bGwgaC1mdWxsIgogICAgICAgICAgICAgICAgICAgICAgICBzdHlsZT17eyBpbWFnZVJlbmRlcmluZzogJ3BpeGVsYXRlZCcsIG9iamVjdEZpdDogJ2NvdmVyJywgb3BhY2l0eTogMC44IH19IGFsdD0iIiBkcmFnZ2FibGU9e2ZhbHNlfSAvPgogICAgICAgICAgICAgICAgKSA6ICgKICAgICAgICAgICAgICAgICAgICA8ZGl2IGNsYXNzTmFtZT0iYWJzb2x1dGUgaW5zZXQtMCIgc3R5bGU9e3sgYmFja2dyb3VuZDogJyNjNGMwZDQnIH19IC8+CiAgICAgICAgICAgICAgICApfQoKICAgICAgICAgICAgICAgIHsvKiBCb3R0b20gZ3JhZGllbnQgKi99CiAgICAgICAgICAgICAgICA8ZGl2IGNsYXNzTmFtZT0iYWJzb2x1dGUgaW5zZXQtMCBwb2ludGVyLWV2ZW50cy1ub25lIiBzdHlsZT17ewogICAgICAgICAgICAgICAgICAgIGJhY2tncm91bmQ6ICdsaW5lYXItZ3JhZGllbnQoMTgwZGVnLCB0cmFuc3BhcmVudCA2MCUsIHJnYmEoMCwwLDAsMC4yNSkgMTAwJSknLAogICAgICAgICAgICAgICAgICAgIHpJbmRleDogMSwKICAgICAgICAgICAgICAgIH19IC8+CgogICAgICAgICAgICAgICAgey8qIFJvYWQgbGluZXMgKHN1YnRsZSkgKi99CiAgICAgICAgICAgICAgICA8c3ZnIGNsYXNzTmFtZT0iYWJzb2x1dGUgaW5zZXQtMCB3LWZ1bGwgaC1mdWxsIHBvaW50ZXItZXZlbnRzLW5vbmUiIHN0eWxlPXt7IHpJbmRleDogMiB9fT4KICAgICAgICAgICAgICAgICAgICB7Z2FtZVN0YXRlLmZhbWlsaWVzLmZsYXRNYXAoKGZhbUEsIGkpID0+CiAgICAgICAgICAgICAgICAgICAgICAgIGdhbWVTdGF0ZS5mYW1pbGllcy5zbGljZShpICsgMSkubWFwKGZhbUIgPT4gKAogICAgICAgICAgICAgICAgICAgICAgICAgICAgPGxpbmUga2V5PXtgJHtmYW1BLmlkfS0ke2ZhbUIuaWR9YH0KICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICB4MT17YCR7ZmFtQS5ob21lWH0lYH0geTE9e2Ake2ZhbUEuaG9tZVl9JWB9CiAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgeDI9e2Ake2ZhbUIuaG9tZVh9JWB9IHkyPXtgJHtmYW1CLmhvbWVZfSVgfQogICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgIHN0cm9rZT0icmdiYSgxMDAsODAsMTQwLDAuMTUpIiBzdHJva2VXaWR0aD0iMSIgc3Ryb2tlRGFzaGFycmF5PSI0LDMiCiAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgc3Ryb2tlTGluZWNhcD0icm91bmQiIC8+CiAgICAgICAgICAgICAgICAgICAgICAgICkpCiAgICAgICAgICAgICAgICAgICAgKX0KICAgICAgICAgICAgICAgIDwvc3ZnPgoKICAgICAgICAgICAgICAgIHsvKiBCdWlsZGluZ3MgKi99CiAgICAgICAgICAgICAgICB7dGlsZXMgJiYgZ2FtZVN0YXRlLmZhbWlsaWVzLm1hcChmYW1pbHkgPT4gewogICAgICAgICAgICAgICAgICAgIGNvbnN0IG1lbWJlcnMgPSBnZXRGYW1pbHlNZW1iZXJzKGdhbWVTdGF0ZSwgZmFtaWx5LmlkKTsKICAgICAgICAgICAgICAgICAgICBjb25zdCBpc1pvb21lZCA9IHpvb21lZEZhbWlseUlkID09PSBmYW1pbHkuaWQ7CiAgICAgICAgICAgICAgICAgICAgY29uc3QgaXNPdGhlclpvb21lZCA9IHpvb21lZEZhbWlseUlkICYmICFpc1pvb21lZDsKICAgICAgICAgICAgICAgICAgICBjb25zdCBpc0VtcHR5ID0gbWVtYmVycy5sZW5ndGggPT09IDA7CiAgICAgICAgICAgICAgICAgICAgY29uc3QgaG91c2VTcmMgPSB0aWxlc1tob3VzZUZvckZhbWlseShmYW1pbHkuZW1vamkpXTsKICAgICAgICAgICAgICAgICAgICBjb25zdCBkb3RDb2xvcnMgPSBbJyNmZmUwNjYnLCAnIzdkZDNmYycsICcjZjlhOGQ0JywgJyM4NmVmYWMnLCAnI2ZjYTVhNScsICcjYzRiNWZkJ107CgogICAgICAgICAgICAgICAgICAgIHJldHVybiAoCiAgICAgICAgICAgICAgICAgICAgICAgIDxkaXYga2V5PXtmYW1pbHkuaWR9IGNsYXNzTmFtZT0iYWJzb2x1dGUgY3Vyc29yLXBvaW50ZXIiCiAgICAgICAgICAgICAgICAgICAgICAgICAgICBzdHlsZT17ewogICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgIGxlZnQ6IGlzWm9vbWVkID8gJzUwJScgOiBgJHtmYW1pbHkuaG9tZVh9JWAsCiAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgdG9wOiBpc1pvb21lZCA/ICc0NiUnIDogYCR7ZmFtaWx5LmhvbWVZfSVgLAogICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgIHRyYW5zZm9ybTogaXNab29tZWQKICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgPyAndHJhbnNsYXRlKC01MCUsLTUwJSkgc2NhbGUoMi4zNSknCiAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgIDogaXNPdGhlclpvb21lZAogICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICA/ICd0cmFuc2xhdGUoLTUwJSwtNTAlKSBzY2FsZSgwLjcpJwogICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICA6ICd0cmFuc2xhdGUoLTUwJSwtNTAlKSBzY2FsZSgxKScsCiAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgekluZGV4OiBpc1pvb21lZCA/IDIwIDogMTAsCiAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgb3BhY2l0eTogaXNPdGhlclpvb21lZCA/IDAuMyA6IDEsCiAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgdHJhbnNpdGlvbjogJ2FsbCAwLjRzIGN1YmljLWJlemllcigwLjQsMCwwLjIsMSknLAogICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgIGZpbHRlcjogaXNab29tZWQgPyAnZHJvcC1zaGFkb3coMCAwIDEycHggcmdiYSgxMzksOTIsMjQ2LDAuNSkpJyA6ICdub25lJywKICAgICAgICAgICAgICAgICAgICAgICAgICAgIH19CiAgICAgICAgICAgICAgICAgICAgICAgICAgICBvbkNsaWNrPXsoKSA9PiBoYW5kbGVGYW1pbHlDbGljayhmYW1pbHkuaWQpfT4KICAgICAgICAgICAgICAgICAgICAgICAgICAgIHtpc1pvb21lZCAmJiAoCiAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgPGRpdiBjbGFzc05hbWU9ImFic29sdXRlIHJvdW5kZWQtZnVsbCBhbmltYXRlLXB1bHNlIgogICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICBzdHlsZT17ewogICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgaW5zZXQ6ICctMTJweCcsCiAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICBiYWNrZ3JvdW5kOiAncmFkaWFsLWdyYWRpZW50KGNpcmNsZSwgcmdiYSgxMzksOTIsMjQ2LDAuMjUpIDAlLCB0cmFuc3BhcmVudCA3MCUpJywKICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgIHpJbmRleDogLTEsCiAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgIH19IC8+CiAgICAgICAgICAgICAgICAgICAgICAgICAgICApfQogICAgICAgICAgICAgICAgICAgICAgICAgICAge2lzWm9vbWVkICYmIG1lbWJlcnMubGVuZ3RoID4gMCAmJiAoCiAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgPGRpdiBjbGFzc05hbWU9ImFic29sdXRlIGZsZXggZ2FwLTAuNSIKICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgc3R5bGU9e3sKICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgIGxlZnQ6ICc1MCUnLAogICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgdG9wOiAnNjglJywKICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgIHRyYW5zZm9ybTogJ3RyYW5zbGF0ZSgtNTAlLC01MCUpJywKICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgIHpJbmRleDogMiwKICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgIGJhY2tncm91bmQ6ICdyZ2JhKDAsMCwwLDAuMiknLAogICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgYm9yZGVyOiAnMXB4IHNvbGlkIHJnYmEoMjU1LDI1NSwyNTUsMC4yNSknLAogICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgYm9yZGVyUmFkaXVzOiAyLAogICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgcGFkZGluZzogJzFweCAycHgnLAogICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICB9fT4KICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAge21lbWJlcnMuc2xpY2UoMCwgNCkubWFwKChucGMsIGlkeCkgPT4gKAogICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgPHNwYW4ga2V5PXtucGMuaWR9IHRpdGxlPXtucGMubmFtZX0KICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICBzdHlsZT17ewogICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICB3aWR0aDogNCwKICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgaGVpZ2h0OiA0LAogICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICBkaXNwbGF5OiAnaW5saW5lLWJsb2NrJywKICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgYmFja2dyb3VuZDogZG90Q29sb3JzW2lkeCAlIGRvdENvbG9ycy5sZW5ndGhdLAogICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICBib3hTaGFkb3c6ICcwIDAgMCAxcHggcmdiYSgwLDAsMCwwLjU1KSwgMCAwIDNweCByZ2JhKDI1NSwyNTUsMjU1LDAuMyknLAogICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICBpbWFnZVJlbmRlcmluZzogJ3BpeGVsYXRlZCcsCiAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgfX0KICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgIC8+CiAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICkpfQogICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgIDwvZGl2PgogICAgICAgICAgICAgICAgICAgICAgICAgICAgKX0KICAgICAgICAgICAgICAgICAgICAgICAgICAgIHtob3VzZVNyYyA/ICgKICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICA8ZGl2IGNsYXNzTmFtZT0iZmxleCBqdXN0aWZ5LWNlbnRlciI+CiAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgIDxpbWcgc3JjPXtob3VzZVNyY30gd2lkdGg9ezM2fSBoZWlnaHQ9ezM2fQogICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgc3R5bGU9e3sKICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICBpbWFnZVJlbmRlcmluZzogJ3BpeGVsYXRlZCcsCiAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgZmlsdGVyOiBpc0VtcHR5ID8gJ2dyYXlzY2FsZSgxKSBvcGFjaXR5KDAuMyknCiAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgIDogJ2Ryb3Atc2hhZG93KDAgMnB4IDZweCByZ2JhKDAsMCwwLDAuMykpJywKICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICB0cmFuc2l0aW9uOiAnYWxsIDAuM3MnLAogICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgfX0KICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgIGFsdD0iIiBkcmFnZ2FibGU9e2ZhbHNlfSAvPgogICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgIDwvZGl2PgogICAgICAgICAgICAgICAgICAgICAgICAgICAgKSA6ICgKICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICA8ZGl2IHN0eWxlPXt7CiAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgIHRleHRBbGlnbjogJ2NlbnRlcicsCiAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgIGZpbHRlcjogaXNFbXB0eSA/ICdncmF5c2NhbGUoMSkgb3BhY2l0eSgwLjMpJyA6ICcnLAogICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgIH19PgogICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICA8TlBDQXZhdGFyIG5hbWU9e2ZhbWlseS5uYW1lfSBzaXplPXsyOH0gY2xhc3NOYW1lPSJyb3VuZGVkIiAvPgogICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgIDwvZGl2PgogICAgICAgICAgICAgICAgICAgICAgICAgICAgKX0KICAgICAgICAgICAgICAgICAgICAgICAgICAgIHsvKiBSZXNpZGVudCBhdmF0YXJzICovfQogICAgICAgICAgICAgICAgICAgICAgICAgICAge21lbWJlcnMubGVuZ3RoID4gMCAmJiAhaXNab29tZWQgJiYgKAogICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgIDxkaXYgY2xhc3NOYW1lPSJmbGV4IGZsZXgtd3JhcCBqdXN0aWZ5LWNlbnRlciBtdC0wLjUiCiAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgIHN0eWxlPXt7IG1heFdpZHRoOiAnNTJweCcsIGZvbnRTaXplOiAnMTBweCcsIGxpbmVIZWlnaHQ6IDEuMSB9fT4KICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAge21lbWJlcnMuc2xpY2UoMCwgNCkubWFwKG5wYyA9PiAoCiAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICA8c3BhbiBrZXk9e25wYy5pZH0gdGl0bGU9e25wYy5uYW1lfQogICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgIHN0eWxlPXt7IGZpbHRlcjogJ2Ryb3Atc2hhZG93KDAgMXB4IDJweCByZ2JhKDAsMCwwLDAuNikpJyB9fT4KICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICA8TlBDQXZhdGFyIG5hbWU9e25wYy5uYW1lfSBzaXplPXsxMH0gY2xhc3NOYW1lPSJyb3VuZGVkLXNtIiAvPgogICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgPC9zcGFuPgogICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICApKX0KICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAge21lbWJlcnMubGVuZ3RoID4gNCAmJiAoCiAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICA8c3BhbiBzdHlsZT17eyBjb2xvcjogJyNhYWEnLCBmb250U2l6ZTogJzdweCcsIHRleHRTaGFkb3c6ICcwIDFweCAycHggIzAwMCcgfX0+CiAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgK3ttZW1iZXJzLmxlbmd0aCAtIDR9CiAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICA8L3NwYW4+CiAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICl9CiAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgPC9kaXY+CiAgICAgICAgICAgICAgICAgICAgICAgICAgICApfQogICAgICAgICAgICAgICAgICAgICAgICAgICAgPGRpdiBjbGFzc05hbWU9InRleHQtY2VudGVyIHdoaXRlc3BhY2Utbm93cmFwIiBzdHlsZT17ewogICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgIGZvbnRTaXplOiAnN3B4JywgZm9udFdlaWdodDogNzAwLCBjb2xvcjogJyNkNGQ4ZTgnLAogICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgIHRleHRTaGFkb3c6ICcwIDFweCAzcHggcmdiYSgwLDAsMCwwLjkpLCAwIDAgNnB4IHJnYmEoMTAwLDgwLDE0MCwwLjMpJywKICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICBsZXR0ZXJTcGFjaW5nOiAnMC4wMmVtJywKICAgICAgICAgICAgICAgICAgICAgICAgICAgIH19PntmYW1pbHkubmFtZX08L2Rpdj4KICAgICAgICAgICAgICAgICAgICAgICAgPC9kaXY+CiAgICAgICAgICAgICAgICAgICAgKTsKICAgICAgICAgICAgICAgIH0pfQoKICAgICAgICAgICAgICAgIHsvKiBJbmRlcGVuZGVudCBOUENzICovfQogICAgICAgICAgICAgICAge2luZGVwZW5kZW50TlBDcy5sZW5ndGggPiAwICYmICgKICAgICAgICAgICAgICAgICAgICA8ZGl2IGNsYXNzTmFtZT0iYWJzb2x1dGUgZmxleCBmbGV4LXdyYXAgZ2FwLTAuNSBpdGVtcy1jZW50ZXIganVzdGlmeS1jZW50ZXIiCiAgICAgICAgICAgICAgICAgICAgICAgIHN0eWxlPXt7IGxlZnQ6ICc1MCUnLCB0b3A6ICc4MCUnLCB0cmFuc2Zvcm06ICd0cmFuc2xhdGUoLTUwJSwtNTAlKScsIG1heFdpZHRoOiAnODBweCcsIHpJbmRleDogOCB9fT4KICAgICAgICAgICAgICAgICAgICAgICAge2luZGVwZW5kZW50TlBDcy5tYXAobnBjID0+ICgKICAgICAgICAgICAgICAgICAgICAgICAgICAgIDxzcGFuIGtleT17bnBjLmlkfSB0aXRsZT17YCR7bnBjLm5hbWV977yI54us5bGF77yJYH0KICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICBzdHlsZT17eyBmaWx0ZXI6ICdkcm9wLXNoYWRvdygwIDFweCAzcHggcmdiYSgwLDAsMCwwLjUpKScgfX0+CiAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgPE5QQ0F2YXRhciBuYW1lPXtucGMubmFtZX0gc2l6ZT17MTJ9IGNsYXNzTmFtZT0icm91bmRlZC1zbSIgLz4KICAgICAgICAgICAgICAgICAgICAgICAgICAgIDwvc3Bhbj4KICAgICAgICAgICAgICAgICAgICAgICAgKSl9CiAgICAgICAgICAgICAgICAgICAgPC9kaXY+CiAgICAgICAgICAgICAgICApfQoKICAgICAgICAgICAgICAgIHsvKiBXZWF0aGVyIG92ZXJsYXkgKi99CiAgICAgICAgICAgICAgICA8ZGl2IGNsYXNzTmFtZT0iYWJzb2x1dGUgaW5zZXQtMCBwb2ludGVyLWV2ZW50cy1ub25lIHRyYW5zaXRpb24tYWxsIGR1cmF0aW9uLTEwMDAiCiAgICAgICAgICAgICAgICAgICAgc3R5bGU9e3sgYmFja2dyb3VuZDogd2VhdGhlck92ZXJsYXksIHpJbmRleDogMjUgfX0gLz4KCiAgICAgICAgICAgICAgICB7LyogUmFpbiBwYXJ0aWNsZXMgKi99CiAgICAgICAgICAgICAgICB7KHdlYXRoZXIgPT09ICdyYWlueScgfHwgd2VhdGhlciA9PT0gJ3N0b3JteScpICYmICgKICAgICAgICAgICAgICAgICAgICA8ZGl2IGNsYXNzTmFtZT0iYWJzb2x1dGUgaW5zZXQtMCBvdmVyZmxvdy1oaWRkZW4gcG9pbnRlci1ldmVudHMtbm9uZSIgc3R5bGU9e3sgekluZGV4OiAyNiB9fT4KICAgICAgICAgICAgICAgICAgICAgICAge0FycmF5LmZyb20oeyBsZW5ndGg6IDggfSkubWFwKChfLCBpKSA9PiAoCiAgICAgICAgICAgICAgICAgICAgICAgICAgICA8ZGl2IGtleT17aX0gY2xhc3NOYW1lPSJhYnNvbHV0ZSBvcGFjaXR5LTQwIgogICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgIHN0eWxlPXt7IGxlZnQ6IGAke2kgKiAxMn0lYCwgdG9wOiAnLTVweCcsCiAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgIGFuaW1hdGlvbjogYGZhbGwgJHswLjYgKyBpICogMC4wOH1zIGxpbmVhciBpbmZpbml0ZWAsIGFuaW1hdGlvbkRlbGF5OiBgJHtpICogMC4xMn1zYCB9fT4KICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICA8SWNvblJhaW5kcm9wIHNpemU9ezd9IC8+CiAgICAgICAgICAgICAgICAgICAgICAgICAgICA8L2Rpdj4KICAgICAgICAgICAgICAgICAgICAgICAgKSl9CiAgICAgICAgICAgICAgICAgICAgPC9kaXY+CiAgICAgICAgICAgICAgICApfQoKICAgICAgICAgICAgICAgIHsvKiBTbm93IHBhcnRpY2xlcyAqL30KICAgICAgICAgICAgICAgIHt3ZWF0aGVyID09PSAnc25vd3knICYmICgKICAgICAgICAgICAgICAgICAgICA8ZGl2IGNsYXNzTmFtZT0iYWJzb2x1dGUgaW5zZXQtMCBvdmVyZmxvdy1oaWRkZW4gcG9pbnRlci1ldmVudHMtbm9uZSIgc3R5bGU9e3sgekluZGV4OiAyNiB9fT4KICAgICAgICAgICAgICAgICAgICAgICAge0FycmF5LmZyb20oeyBsZW5ndGg6IDEwIH0pLm1hcCgoXywgaSkgPT4gKAogICAgICAgICAgICAgICAgICAgICAgICAgICAgPGRpdiBrZXk9e2l9IGNsYXNzTmFtZT0iYWJzb2x1dGUgb3BhY2l0eS01MCIKICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICBzdHlsZT17eyBsZWZ0OiBgJHtpICogOSArIDJ9JWAsIHRvcDogJy01cHgnLAogICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICBhbmltYXRpb246IGBmYWxsICR7MS4wICsgaSAqIDAuMTJ9cyBsaW5lYXIgaW5maW5pdGVgLCBhbmltYXRpb25EZWxheTogYCR7aSAqIDAuMTh9c2AgfX0+CiAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgPEljb25Tbm93Zmxha2Ugc2l6ZT17N30gLz4KICAgICAgICAgICAgICAgICAgICAgICAgICAgIDwvZGl2PgogICAgICAgICAgICAgICAgICAgICAgICApKX0KICAgICAgICAgICAgICAgICAgICA8L2Rpdj4KICAgICAgICAgICAgICAgICl9CgogICAgICAgICAgICAgICAgey8qIEhpZ2ggY2hhb3MgZWZmZWN0cyAqL30KICAgICAgICAgICAgICAgIHtjaGFvc0xldmVsID4gNjUgJiYgKAogICAgICAgICAgICAgICAgICAgIDxkaXYgY2xhc3NOYW1lPSJhYnNvbHV0ZSBpbnNldC0wIG92ZXJmbG93LWhpZGRlbiBwb2ludGVyLWV2ZW50cy1ub25lIiBzdHlsZT17eyB6SW5kZXg6IDI2IH19PgogICAgICAgICAgICAgICAgICAgICAgICB7W0ljb25MaWdodG5pbmcsIEljb25GbGFtZSwgSWNvbkV4cGxvc2lvbl0ubWFwKChJY29uLCBpKSA9PiAoCiAgICAgICAgICAgICAgICAgICAgICAgICAgICA8ZGl2IGtleT17aX0gY2xhc3NOYW1lPSJhYnNvbHV0ZSBhbmltYXRlLWJvdW5jZSBvcGFjaXR5LTQwIgogICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgIHN0eWxlPXt7IGxlZnQ6IGAkezE4K2kqMzJ9JWAsIHRvcDogYCR7OCtpKjEyfSVgLAogICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICBhbmltYXRpb25EZWxheTogYCR7aSowLjI1fXNgLCBhbmltYXRpb25EdXJhdGlvbjogJzEuMnMnIH19PgogICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgIDxJY29uIHNpemU9ezE0fSAvPgogICAgICAgICAgICAgICAgICAgICAgICAgICAgPC9kaXY+CiAgICAgICAgICAgICAgICAgICAgICAgICkpfQogICAgICAgICAgICAgICAgICAgIDwvZGl2PgogICAgICAgICAgICAgICAgKX0KCiAgICAgICAgICAgICAgICB7LyogQ2xpY2sgbWFwIGJsYW5rIHRvIGNsb3NlIHpvb20gKi99CiAgICAgICAgICAgICAgICB7em9vbWVkRmFtaWx5SWQgJiYgKAogICAgICAgICAgICAgICAgICAgIDxkaXYgY2xhc3NOYW1lPSJhYnNvbHV0ZSBpbnNldC0wIiBzdHlsZT17eyB6SW5kZXg6IDUgfX0KICAgICAgICAgICAgICAgICAgICAgICAgb25DbGljaz17KGUpID0+IHsKICAgICAgICAgICAgICAgICAgICAgICAgICAgIGlmIChlLnRhcmdldCA9PT0gZS5jdXJyZW50VGFyZ2V0KSB7CiAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgc2V0Wm9vbWVkRmFtaWx5SWQobnVsbCk7CiAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgc2V0U2VsZWN0ZWRGYW1pbHlJZChudWxsKTsKICAgICAgICAgICAgICAgICAgICAgICAgICAgIH0KICAgICAgICAgICAgICAgICAgICAgICAgfX0gLz4KICAgICAgICAgICAgICAgICl9CiAgICAgICAgICAgIDwvZGl2PgoKICAgICAgICAgICAgey8qIFpvb21lZCBkZXRhaWwgcGFuZWwgKi99CiAgICAgICAgICAgIHt6b29tZWRGYW1pbHkgJiYgKAogICAgICAgICAgICAgICAgPGRpdiBzdHlsZT17ewogICAgICAgICAgICAgICAgICAgIGJvcmRlclRvcDogJzJweCBzb2xpZCByZ2JhKDAsMCwwLDAuMSknLAogICAgICAgICAgICAgICAgICAgIGJhY2tncm91bmQ6ICdyZ2JhKDI1NSwyNTUsMjU1LDAuNyknLAogICAgICAgICAgICAgICAgICAgIGFuaW1hdGlvbjogJ3NsaWRlRG93biAwLjNzIGVhc2Utb3V0JywKICAgICAgICAgICAgICAgICAgICBvdmVyZmxvdzogJ2hpZGRlbicsCiAgICAgICAgICAgICAgICB9fT4KICAgICAgICAgICAgICAgICAgICA8ZGl2IHN0eWxlPXt7IHBhZGRpbmc6ICc4cHggMTBweCcgfX0+CiAgICAgICAgICAgICAgICAgICAgICAgIHsvKiBGYW1pbHkgdGl0bGUgKi99CiAgICAgICAgICAgICAgICAgICAgICAgIDxkaXYgY2xhc3NOYW1lPSJmbGV4IGl0ZW1zLWNlbnRlciBqdXN0aWZ5LWJldHdlZW4gbWItMiI+CiAgICAgICAgICAgICAgICAgICAgICAgICAgICA8ZGl2IGNsYXNzTmFtZT0iZmxleCBpdGVtcy1jZW50ZXIgZ2FwLTIiPgogICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgIDxkaXYgc3R5bGU9e3sKICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgd2lkdGg6IDI0LCBoZWlnaHQ6IDI0LCBib3JkZXJSYWRpdXM6IDQsCiAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgIG92ZXJmbG93OiAnaGlkZGVuJywgYm9yZGVyOiAnMXB4IHNvbGlkIHJnYmEoMTM5LDkyLDI0NiwwLjMpJywKICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgYmFja2dyb3VuZDogJ3JnYmEoMTM5LDkyLDI0NiwwLjEpJywKICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICB9fT4KICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgPE5QQ0F2YXRhciBuYW1lPXt6b29tZWRGYW1pbHkubmFtZX0gc2l6ZT17MjR9IGNsYXNzTmFtZT0icm91bmRlZCIgLz4KICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICA8L2Rpdj4KICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICA8ZGl2PgogICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICA8cCBzdHlsZT17eyBmb250U2l6ZTogMTEsIGZvbnRXZWlnaHQ6IDcwMCwgY29sb3I6ICcjNDQ0JyB9fT57em9vbWVkRmFtaWx5Lm5hbWV9PC9wPgogICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICA8cCBzdHlsZT17eyBmb250U2l6ZTogOSwgY29sb3I6ICcjOTk5JyB9fT4KICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgIHtnZXRGYW1pbHlBdG1vc3BoZXJlKGdhbWVTdGF0ZSwgem9vbWVkRmFtaWx5LmlkKX0gwrcge3pvb21lZE1lbWJlcnMubGVuZ3RofeS9jeS9j+aItwogICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICA8L3A+CiAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgPC9kaXY+CiAgICAgICAgICAgICAgICAgICAgICAgICAgICA8L2Rpdj4KICAgICAgICAgICAgICAgICAgICAgICAgICAgIDxidXR0b24gb25DbGljaz17KCkgPT4geyBzZXRab29tZWRGYW1pbHlJZChudWxsKTsgc2V0U2VsZWN0ZWRGYW1pbHlJZChudWxsKTsgfX0KICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICBjbGFzc05hbWU9InJldHJvLWJ0biIgc3R5bGU9e3sgcGFkZGluZzogJzJweCA2cHgnLCBmb250U2l6ZTogOSB9fT4KICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICDinJUKICAgICAgICAgICAgICAgICAgICAgICAgICAgIDwvYnV0dG9uPgogICAgICAgICAgICAgICAgICAgICAgICA8L2Rpdj4KCiAgICAgICAgICAgICAgICAgICAgICAgIHsvKiBNZW1iZXIgY2FyZHMgKGhvcml6b250YWwgc2Nyb2xsKSAqL30KICAgICAgICAgICAgICAgICAgICAgICAge3pvb21lZE1lbWJlcnMubGVuZ3RoID4gMCA/ICgKICAgICAgICAgICAgICAgICAgICAgICAgICAgIDxkaXYgY2xhc3NOYW1lPSJmbGV4IGdhcC0xLjUgb3ZlcmZsb3cteC1hdXRvIHBiLTEgbm8tc2Nyb2xsYmFyIj4KICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICB7em9vbWVkTWVtYmVycy5tYXAobnBjID0+IHsKICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgY29uc3QgcHJvZkluZm8gPSBnZXRQcm9mZXNzaW9uSW5mbyhucGMucHJvZmVzc2lvbiA/PyAnZnJlZWxhbmNlcicpOwogICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICBjb25zdCB7IGxhYmVsOiBtb29kTGFiZWwgfSA9IGdldE1vb2RMYWJlbChucGMubW9vZCk7CiAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgIGNvbnN0IGhhc0dydWRnZSA9IChucGMuZ3J1ZGdlcz8ubGVuZ3RoID8/IDApID4gMDsKICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgY29uc3QgaGFzQ3J1c2ggPSAobnBjLmNydXNoZXM/Lmxlbmd0aCA/PyAwKSA+IDA7CiAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgIGNvbnN0IG1vb2ROb3JtID0gKG5wYy5tb29kICsgMTAwKSAvIDI7CiAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgIGNvbnN0IG1vb2RDb2xvciA9IG1vb2ROb3JtID4gNjAgPyAnIzViOWI2YicgOiBtb29kTm9ybSA+IDMwID8gJyNiODk4NDAnIDogJyNiODUwNTAnOwogICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICByZXR1cm4gKAogICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgPGRpdiBrZXk9e25wYy5pZH0gY2xhc3NOYW1lPSJmbGV4LXNocmluay0wIHJldHJvLWluc2V0IiBzdHlsZT17ewogICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgIHBhZGRpbmc6ICc1cHggOHB4JywgbWluV2lkdGg6IDExMCwgYm9yZGVyUmFkaXVzOiA0LAogICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgfX0+CiAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgPGRpdiBjbGFzc05hbWU9ImZsZXggaXRlbXMtY2VudGVyIGdhcC0xLjUgbWItMSI+CiAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgIDxkaXYgc3R5bGU9e3sKICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgIHdpZHRoOiAyMCwgaGVpZ2h0OiAyMCwgYm9yZGVyUmFkaXVzOiAzLAogICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgb3ZlcmZsb3c6ICdoaWRkZW4nLCBib3JkZXI6IGAxcHggc29saWQgJHtwcm9mSW5mby5jb2xvcn0zMGAsCiAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgIH19PgogICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgPE5QQ0F2YXRhciBuYW1lPXtucGMubmFtZX0gc2l6ZT17MjB9IGNsYXNzTmFtZT0icm91bmRlZCIgLz4KICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgPC9kaXY+CiAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgIDxkaXYgc3R5bGU9e3sgbWluV2lkdGg6IDAgfX0+CiAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICA8cCBzdHlsZT17eyBmb250U2l6ZTogMTAsIGZvbnRXZWlnaHQ6IDcwMCwgY29sb3I6ICcjNDQ0JyB9fSBjbGFzc05hbWU9InRydW5jYXRlIj57bnBjLm5hbWV9PC9wPgogICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgPHAgc3R5bGU9e3sgY29sb3I6IHByb2ZJbmZvLmNvbG9yLCBmb250U2l6ZTogOCwgZm9udFdlaWdodDogNjAwIH19Pntwcm9mSW5mby56aH08L3A+CiAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgIDwvZGl2PgogICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgIDwvZGl2PgogICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgIDxkaXYgY2xhc3NOYW1lPSJmbGV4IGl0ZW1zLWNlbnRlciBnYXAtMSI+CiAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgIDxkaXYgY2xhc3NOYW1lPSJmbGV4LTEiIHN0eWxlPXt7CiAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICBoZWlnaHQ6IDMsIGJhY2tncm91bmQ6ICdyZ2JhKDAsMCwwLDAuMDYpJywgYm9yZGVyUmFkaXVzOiAxLCBvdmVyZmxvdzogJ2hpZGRlbicsCiAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgIH19PgogICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgPGRpdiBzdHlsZT17eyBoZWlnaHQ6ICcxMDAlJywgd2lkdGg6IGAke21vb2ROb3JtfSVgLCBiYWNrZ3JvdW5kOiBtb29kQ29sb3IsIGJvcmRlclJhZGl1czogMSwgdHJhbnNpdGlvbjogJ2FsbCAwLjNzJyB9fSAvPgogICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICA8L2Rpdj4KICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgPHNwYW4gc3R5bGU9e3sgZm9udFNpemU6IDcsIGNvbG9yOiBtb29kQ29sb3IsIGZvbnRXZWlnaHQ6IDYwMCB9fT57bW9vZExhYmVsfTwvc3Bhbj4KICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICA8L2Rpdj4KICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICB7KGhhc0dydWRnZSB8fCBoYXNDcnVzaCkgJiYgKAogICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICA8ZGl2IGNsYXNzTmFtZT0iZmxleCBnYXAtMSBtdC0wLjUiPgogICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAge2hhc0dydWRnZSAmJiA8c3BhbiB0aXRsZT0i6K6w5LuH5LitIj48SWNvbkZsYW1lIHNpemU9ezh9IC8+PC9zcGFuPn0KICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgIHtoYXNDcnVzaCAmJiA8c3BhbiB0aXRsZT0i5pqX5oGL5LitIj48SWNvbkNydXNoIHNpemU9ezh9IC8+PC9zcGFuPn0KICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgPC9kaXY+CiAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgKX0KICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgIDwvZGl2PgogICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICApOwogICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgIH0pfQogICAgICAgICAgICAgICAgICAgICAgICAgICAgPC9kaXY+CiAgICAgICAgICAgICAgICAgICAgICAgICkgOiAoCiAgICAgICAgICAgICAgICAgICAgICAgICAgICA8cCBzdHlsZT17eyBjb2xvcjogJyNhYWEnLCBmb250U2l6ZTogMTAsIHRleHRBbGlnbjogJ2NlbnRlcicsIHBhZGRpbmc6ICc2cHggMCcgfX0+5pqC5peg5L2P5oi3PC9wPgogICAgICAgICAgICAgICAgICAgICAgICApfQogICAgICAgICAgICAgICAgICAgIDwvZGl2PgogICAgICAgICAgICAgICAgPC9kaXY+CiAgICAgICAgICAgICl9CgogICAgICAgICAgICA8c3R5bGU+e2AKICAgICAgICAgICAgICAgIEBrZXlmcmFtZXMgZmFsbCB7CiAgICAgICAgICAgICAgICAgICAgZnJvbSB7IHRyYW5zZm9ybTogdHJhbnNsYXRlWSgtMTBweCk7IG9wYWNpdHk6IDAuNTsgfQogICAgICAgICAgICAgICAgICAgIHRvIHsgdHJhbnNmb3JtOiB0cmFuc2xhdGVZKDIyMHB4KTsgb3BhY2l0eTogMC4wNTsgfQogICAgICAgICAgICAgICAgfQogICAgICAgICAgICAgICAgQGtleWZyYW1lcyBzbGlkZURvd24gewogICAgICAgICAgICAgICAgICAgIGZyb20geyBtYXgtaGVpZ2h0OiAwOyBvcGFjaXR5OiAwOyB9CiAgICAgICAgICAgICAgICAgICAgdG8geyBtYXgtaGVpZ2h0OiAzMDBweDsgb3BhY2l0eTogMTsgfQogICAgICAgICAgICAgICAgfQogICAgICAgICAgICAgICAgLm5vLXNjcm9sbGJhcjo6LXdlYmtpdC1zY3JvbGxiYXIgeyBkaXNwbGF5OiBub25lOyB9CiAgICAgICAgICAgICAgICAubm8tc2Nyb2xsYmFyIHsgLW1zLW92ZXJmbG93LXN0eWxlOiBub25lOyBzY3JvbGxiYXItd2lkdGg6IG5vbmU7IH0KICAgICAgICAgICAgYH08L3N0eWxlPgogICAgICAgIDwvZGl2PgogICAgKTsKfTsKCmV4cG9ydCBkZWZhdWx0IFdvcmxkTWFwOwo=
+/**
+ * WorldMap — 城市天际线地图 (retro pixel art style)
+ * Fits inside retro-window frame, cleaner layout
+ */
+
+import React, { useState, useEffect, useRef } from 'react';
+import { LifeSimState } from '../../types';
+import {
+    getFamilyMembers, getIndependentNPCs, getMoodLabel,
+    getProfessionInfo, getFamilyAtmosphere,
+    SEASON_INFO, WEATHER_INFO,
+} from '../../utils/lifeSimEngine';
+import { getTileSet, houseForFamily, TileSet } from '../../utils/tinyTownTiles';
+import { NPCAvatar, IconRaindrop, IconSnowflake, IconLightning, IconFlame, IconExplosion, IconCrush } from '../../utils/styledIcons';
+
+const WorldMap: React.FC<{ gameState: LifeSimState }> = ({ gameState }) => {
+    const [tiles, setTiles] = useState<TileSet | null>(null);
+    const [selectedFamilyId, setSelectedFamilyId] = useState<string | null>(null);
+    const [zoomedFamilyId, setZoomedFamilyId] = useState<string | null>(null);
+    const mapRef = useRef<HTMLDivElement>(null);
+    const season = gameState.season ?? 'spring';
+    const { chaosLevel } = gameState;
+
+    useEffect(() => {
+        setTiles(getTileSet(season));
+    }, [season]);
+
+    const selectedFamily = selectedFamilyId ? gameState.families.find(f => f.id === selectedFamilyId) : null;
+    const independentNPCs = getIndependentNPCs(gameState);
+    const zoomedFamily = zoomedFamilyId ? gameState.families.find(f => f.id === zoomedFamilyId) : null;
+    const zoomedMembers = zoomedFamily ? getFamilyMembers(gameState, zoomedFamily.id) : [];
+
+    const weather = gameState.weather ?? 'sunny';
+    const weatherOverlay =
+        weather === 'stormy' ? 'rgba(20,0,40,0.4)' :
+        weather === 'rainy'  ? 'rgba(0,20,60,0.25)' :
+        weather === 'snowy'  ? 'rgba(100,120,160,0.2)' :
+        chaosLevel > 80 ? 'rgba(120,0,0,0.2)' :
+        chaosLevel > 60 ? 'rgba(80,40,0,0.12)' : 'transparent';
+
+    const handleFamilyClick = (familyId: string) => {
+        if (zoomedFamilyId === familyId) {
+            setZoomedFamilyId(null);
+            setSelectedFamilyId(null);
+        } else {
+            setZoomedFamilyId(familyId);
+            setSelectedFamilyId(familyId);
+        }
+    };
+
+    return (
+        <div style={{ position: 'relative' }}>
+            {/* Main map area */}
+            <div ref={mapRef} style={{
+                position: 'relative',
+                height: zoomedFamilyId ? '280px' : '160px',
+                overflow: 'hidden',
+                transition: 'height 0.4s cubic-bezier(0.4,0,0.2,1)',
+            }}>
+                {/* City map background */}
+                {tiles ? (
+                    <img src={tiles.mapBackground} className="absolute inset-0 w-full h-full"
+                        style={{ imageRendering: 'pixelated', objectFit: 'cover', opacity: 0.8 }} alt="" draggable={false} />
+                ) : (
+                    <div className="absolute inset-0" style={{ background: '#c4c0d4' }} />
+                )}
+
+                {/* Bottom gradient */}
+                <div className="absolute inset-0 pointer-events-none" style={{
+                    background: 'linear-gradient(180deg, transparent 60%, rgba(0,0,0,0.25) 100%)',
+                    zIndex: 1,
+                }} />
+
+                {/* Road lines (subtle) */}
+                <svg className="absolute inset-0 w-full h-full pointer-events-none" style={{ zIndex: 2 }}>
+                    {gameState.families.flatMap((famA, i) =>
+                        gameState.families.slice(i + 1).map(famB => (
+                            <line key={`${famA.id}-${famB.id}`}
+                                x1={`${famA.homeX}%`} y1={`${famA.homeY}%`}
+                                x2={`${famB.homeX}%`} y2={`${famB.homeY}%`}
+                                stroke="rgba(100,80,140,0.15)" strokeWidth="1" strokeDasharray="4,3"
+                                strokeLinecap="round" />
+                        ))
+                    )}
+                </svg>
+
+                {/* Buildings */}
+                {tiles && gameState.families.map(family => {
+                    const members = getFamilyMembers(gameState, family.id);
+                    const isZoomed = zoomedFamilyId === family.id;
+                    const isOtherZoomed = zoomedFamilyId && !isZoomed;
+                    const isEmpty = members.length === 0;
+                    const houseSrc = tiles[houseForFamily(family.emoji)];
+                    const dotColors = ['#ffe066', '#7dd3fc', '#f9a8d4', '#86efac', '#fca5a5', '#c4b5fd'];
+
+                    return (
+                        <div key={family.id} className="absolute cursor-pointer"
+                            style={{
+                                left: isZoomed ? '50%' : `${family.homeX}%`,
+                                top: isZoomed ? '46%' : `${family.homeY}%`,
+                                transform: isZoomed
+                                    ? 'translate(-50%,-50%) scale(2.35)'
+                                    : isOtherZoomed
+                                    ? 'translate(-50%,-50%) scale(0.7)'
+                                    : 'translate(-50%,-50%) scale(1)',
+                                zIndex: isZoomed ? 20 : 10,
+                                opacity: isOtherZoomed ? 0.3 : 1,
+                                transition: 'all 0.4s cubic-bezier(0.4,0,0.2,1)',
+                                filter: isZoomed ? 'drop-shadow(0 0 12px rgba(139,92,246,0.5))' : 'none',
+                            }}
+                            onClick={() => handleFamilyClick(family.id)}>
+                            {isZoomed && (
+                                <div className="absolute rounded-full animate-pulse"
+                                    style={{
+                                        inset: '-12px',
+                                        background: 'radial-gradient(circle, rgba(139,92,246,0.25) 0%, transparent 70%)',
+                                        zIndex: -1,
+                                    }} />
+                            )}
+                            {isZoomed && members.length > 0 && (
+                                <div className="absolute flex gap-0.5"
+                                    style={{
+                                        left: '50%',
+                                        top: '68%',
+                                        transform: 'translate(-50%,-50%)',
+                                        zIndex: 2,
+                                        background: 'rgba(0,0,0,0.2)',
+                                        border: '1px solid rgba(255,255,255,0.25)',
+                                        borderRadius: 2,
+                                        padding: '1px 2px',
+                                    }}>
+                                    {members.slice(0, 4).map((npc, idx) => (
+                                        <span key={npc.id} title={npc.name}
+                                            style={{
+                                                width: 4,
+                                                height: 4,
+                                                display: 'inline-block',
+                                                background: dotColors[idx % dotColors.length],
+                                                boxShadow: '0 0 0 1px rgba(0,0,0,0.55), 0 0 3px rgba(255,255,255,0.3)',
+                                                imageRendering: 'pixelated',
+                                            }}
+                                        />
+                                    ))}
+                                </div>
+                            )}
+                            {houseSrc ? (
+                                <div className="flex justify-center">
+                                    <img src={houseSrc} width={36} height={36}
+                                        style={{
+                                            imageRendering: 'pixelated',
+                                            filter: isEmpty ? 'grayscale(1) opacity(0.3)'
+                                                : 'drop-shadow(0 2px 6px rgba(0,0,0,0.3))',
+                                            transition: 'all 0.3s',
+                                        }}
+                                        alt="" draggable={false} />
+                                </div>
+                            ) : (
+                                <div style={{
+                                    textAlign: 'center',
+                                    filter: isEmpty ? 'grayscale(1) opacity(0.3)' : '',
+                                }}>
+                                    <NPCAvatar name={family.name} size={28} className="rounded" />
+                                </div>
+                            )}
+                            {/* Resident avatars */}
+                            {members.length > 0 && !isZoomed && (
+                                <div className="flex flex-wrap justify-center mt-0.5"
+                                    style={{ maxWidth: '52px', fontSize: '10px', lineHeight: 1.1 }}>
+                                    {members.slice(0, 4).map(npc => (
+                                        <span key={npc.id} title={npc.name}
+                                            style={{ filter: 'drop-shadow(0 1px 2px rgba(0,0,0,0.6))' }}>
+                                            <NPCAvatar name={npc.name} size={10} className="rounded-sm" />
+                                        </span>
+                                    ))}
+                                    {members.length > 4 && (
+                                        <span style={{ color: '#aaa', fontSize: '7px', textShadow: '0 1px 2px #000' }}>
+                                            +{members.length - 4}
+                                        </span>
+                                    )}
+                                </div>
+                            )}
+                            <div className="text-center whitespace-nowrap" style={{
+                                fontSize: '7px', fontWeight: 700, color: '#d4d8e8',
+                                textShadow: '0 1px 3px rgba(0,0,0,0.9), 0 0 6px rgba(100,80,140,0.3)',
+                                letterSpacing: '0.02em',
+                            }}>{family.name}</div>
+                        </div>
+                    );
+                })}
+
+                {/* Independent NPCs */}
+                {independentNPCs.length > 0 && (
+                    <div className="absolute flex flex-wrap gap-0.5 items-center justify-center"
+                        style={{ left: '50%', top: '80%', transform: 'translate(-50%,-50%)', maxWidth: '80px', zIndex: 8 }}>
+                        {independentNPCs.map(npc => (
+                            <span key={npc.id} title={`${npc.name}（独居）`}
+                                style={{ filter: 'drop-shadow(0 1px 3px rgba(0,0,0,0.5))' }}>
+                                <NPCAvatar name={npc.name} size={12} className="rounded-sm" />
+                            </span>
+                        ))}
+                    </div>
+                )}
+
+                {/* Weather overlay */}
+                <div className="absolute inset-0 pointer-events-none transition-all duration-1000"
+                    style={{ background: weatherOverlay, zIndex: 25 }} />
+
+                {/* Rain particles */}
+                {(weather === 'rainy' || weather === 'stormy') && (
+                    <div className="absolute inset-0 overflow-hidden pointer-events-none" style={{ zIndex: 26 }}>
+                        {Array.from({ length: 8 }).map((_, i) => (
+                            <div key={i} className="absolute opacity-40"
+                                style={{ left: `${i * 12}%`, top: '-5px',
+                                    animation: `fall ${0.6 + i * 0.08}s linear infinite`, animationDelay: `${i * 0.12}s` }}>
+                                <IconRaindrop size={7} />
+                            </div>
+                        ))}
+                    </div>
+                )}
+
+                {/* Snow particles */}
+                {weather === 'snowy' && (
+                    <div className="absolute inset-0 overflow-hidden pointer-events-none" style={{ zIndex: 26 }}>
+                        {Array.from({ length: 10 }).map((_, i) => (
+                            <div key={i} className="absolute opacity-50"
+                                style={{ left: `${i * 9 + 2}%`, top: '-5px',
+                                    animation: `fall ${1.0 + i * 0.12}s linear infinite`, animationDelay: `${i * 0.18}s` }}>
+                                <IconSnowflake size={7} />
+                            </div>
+                        ))}
+                    </div>
+                )}
+
+                {/* High chaos effects */}
+                {chaosLevel > 65 && (
+                    <div className="absolute inset-0 overflow-hidden pointer-events-none" style={{ zIndex: 26 }}>
+                        {[IconLightning, IconFlame, IconExplosion].map((Icon, i) => (
+                            <div key={i} className="absolute animate-bounce opacity-40"
+                                style={{ left: `${18+i*32}%`, top: `${8+i*12}%`,
+                                    animationDelay: `${i*0.25}s`, animationDuration: '1.2s' }}>
+                                <Icon size={14} />
+                            </div>
+                        ))}
+                    </div>
+                )}
+
+                {/* Click map blank to close zoom */}
+                {zoomedFamilyId && (
+                    <div className="absolute inset-0" style={{ zIndex: 5 }}
+                        onClick={(e) => {
+                            if (e.target === e.currentTarget) {
+                                setZoomedFamilyId(null);
+                                setSelectedFamilyId(null);
+                            }
+                        }} />
+                )}
+            </div>
+
+            {/* Zoomed detail panel */}
+            {zoomedFamily && (
+                <div style={{
+                    borderTop: '2px solid rgba(0,0,0,0.1)',
+                    background: 'rgba(255,255,255,0.7)',
+                    animation: 'slideDown 0.3s ease-out',
+                    overflow: 'hidden',
+                }}>
+                    <div style={{ padding: '8px 10px' }}>
+                        {/* Family title */}
+                        <div className="flex items-center justify-between mb-2">
+                            <div className="flex items-center gap-2">
+                                <div style={{
+                                    width: 24, height: 24, borderRadius: 4,
+                                    overflow: 'hidden', border: '1px solid rgba(139,92,246,0.3)',
+                                    background: 'rgba(139,92,246,0.1)',
+                                }}>
+                                    <NPCAvatar name={zoomedFamily.name} size={24} className="rounded" />
+                                </div>
+                                <div>
+                                    <p style={{ fontSize: 11, fontWeight: 700, color: '#444' }}>{zoomedFamily.name}</p>
+                                    <p style={{ fontSize: 9, color: '#999' }}>
+                                        {getFamilyAtmosphere(gameState, zoomedFamily.id)} · {zoomedMembers.length}位住户
+                                    </p>
+                                </div>
+                            </div>
+                            <button onClick={() => { setZoomedFamilyId(null); setSelectedFamilyId(null); }}
+                                className="retro-btn" style={{ padding: '2px 6px', fontSize: 9 }}>
+                                ✕
+                            </button>
+                        </div>
+
+                        {/* Member cards (horizontal scroll) */}
+                        {zoomedMembers.length > 0 ? (
+                            <div className="flex gap-1.5 overflow-x-auto pb-1 no-scrollbar">
+                                {zoomedMembers.map(npc => {
+                                    const profInfo = getProfessionInfo(npc.profession ?? 'freelancer');
+                                    const { label: moodLabel } = getMoodLabel(npc.mood);
+                                    const hasGrudge = (npc.grudges?.length ?? 0) > 0;
+                                    const hasCrush = (npc.crushes?.length ?? 0) > 0;
+                                    const moodNorm = (npc.mood + 100) / 2;
+                                    const moodColor = moodNorm > 60 ? '#5b9b6b' : moodNorm > 30 ? '#b89840' : '#b85050';
+                                    return (
+                                        <div key={npc.id} className="flex-shrink-0 retro-inset" style={{
+                                            padding: '5px 8px', minWidth: 110, borderRadius: 4,
+                                        }}>
+                                            <div className="flex items-center gap-1.5 mb-1">
+                                                <div style={{
+                                                    width: 20, height: 20, borderRadius: 3,
+                                                    overflow: 'hidden', border: `1px solid ${profInfo.color}30`,
+                                                }}>
+                                                    <NPCAvatar name={npc.name} size={20} className="rounded" />
+                                                </div>
+                                                <div style={{ minWidth: 0 }}>
+                                                    <p style={{ fontSize: 10, fontWeight: 700, color: '#444' }} className="truncate">{npc.name}</p>
+                                                    <p style={{ color: profInfo.color, fontSize: 8, fontWeight: 600 }}>{profInfo.zh}</p>
+                                                </div>
+                                            </div>
+                                            <div className="flex items-center gap-1">
+                                                <div className="flex-1" style={{
+                                                    height: 3, background: 'rgba(0,0,0,0.06)', borderRadius: 1, overflow: 'hidden',
+                                                }}>
+                                                    <div style={{ height: '100%', width: `${moodNorm}%`, background: moodColor, borderRadius: 1, transition: 'all 0.3s' }} />
+                                                </div>
+                                                <span style={{ fontSize: 7, color: moodColor, fontWeight: 600 }}>{moodLabel}</span>
+                                            </div>
+                                            {(hasGrudge || hasCrush) && (
+                                                <div className="flex gap-1 mt-0.5">
+                                                    {hasGrudge && <span title="记仇中"><IconFlame size={8} /></span>}
+                                                    {hasCrush && <span title="暗恋中"><IconCrush size={8} /></span>}
+                                                </div>
+                                            )}
+                                        </div>
+                                    );
+                                })}
+                            </div>
+                        ) : (
+                            <p style={{ color: '#aaa', fontSize: 10, textAlign: 'center', padding: '6px 0' }}>暂无住户</p>
+                        )}
+                    </div>
+                </div>
+            )}
+
+            <style>{`
+                @keyframes fall {
+                    from { transform: translateY(-10px); opacity: 0.5; }
+                    to { transform: translateY(220px); opacity: 0.05; }
+                }
+                @keyframes slideDown {
+                    from { max-height: 0; opacity: 0; }
+                    to { max-height: 300px; opacity: 1; }
+                }
+                .no-scrollbar::-webkit-scrollbar { display: none; }
+                .no-scrollbar { -ms-overflow-style: none; scrollbar-width: none; }
+            `}</style>
+        </div>
+    );
+};
+
+export default WorldMap;

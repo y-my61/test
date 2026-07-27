@@ -1,1 +1,52 @@
-aW1wb3J0IHsgYnVpbGRCYWNrZ3JvdW5kRnVuY3Rpb25VcmwsIGNyZWF0ZUNyb25Ub2tlbkZvclRlbmFudCwgaW50ZXJuYWxFcnJvclJlc3BvbnNlLCBqc29uUmVzcG9uc2UsIGxpc3RUZW5hbnRJZHMgfSBmcm9tICcuL19zaGFyZWQvcmVpJzsKCmV4cG9ydCBjb25zdCBjb25maWcgPSB7CiAgc2NoZWR1bGU6ICcqICogKiAqIConLAp9OwoKZXhwb3J0IGRlZmF1bHQgYXN5bmMgKHJlcTogUmVxdWVzdCkgPT4gewogIHRyeSB7CiAgICBjb25zdCB0ZW5hbnRJZHMgPSBhd2FpdCBsaXN0VGVuYW50SWRzKCk7CiAgICBpZiAodGVuYW50SWRzLmxlbmd0aCA9PT0gMCkgewogICAgICByZXR1cm4ganNvblJlc3BvbnNlKHsKICAgICAgICBzdWNjZXNzOiB0cnVlLAogICAgICAgIGRhdGE6IHsKICAgICAgICAgIHRlbmFudENvdW50OiAwLAogICAgICAgICAgcXVldWVkOiAwLAogICAgICAgICAgbWVzc2FnZTogJ05vIEFjdGl2ZU1zZyAyLjAgdGVuYW50cyBmb3VuZC4nLAogICAgICAgIH0sCiAgICAgIH0pOwogICAgfQoKICAgIGNvbnN0IHJlc3VsdHMgPSBhd2FpdCBQcm9taXNlLmFsbFNldHRsZWQodGVuYW50SWRzLm1hcChhc3luYyAodGVuYW50SWQpID0+IHsKICAgICAgY29uc3Qgc2VhcmNoID0gbmV3IFVSTFNlYXJjaFBhcmFtcyh7IHRva2VuOiBjcmVhdGVDcm9uVG9rZW5Gb3JUZW5hbnQodGVuYW50SWQpIH0pLnRvU3RyaW5nKCk7CiAgICAgIGNvbnN0IHJlc3BvbnNlID0gYXdhaXQgZmV0Y2goYnVpbGRCYWNrZ3JvdW5kRnVuY3Rpb25VcmwocmVxLCBgPyR7c2VhcmNofWApLCB7CiAgICAgICAgbWV0aG9kOiAnUE9TVCcsCiAgICAgIH0pOwoKICAgICAgcmV0dXJuIHsKICAgICAgICB0ZW5hbnRJZCwKICAgICAgICBzdGF0dXM6IHJlc3BvbnNlLnN0YXR1cywKICAgICAgICBvazogcmVzcG9uc2Uub2ssCiAgICAgIH07CiAgICB9KSk7CgogICAgY29uc3QgcXVldWVkID0gcmVzdWx0cy5maWx0ZXIoKHJlc3VsdCkgPT4gcmVzdWx0LnN0YXR1cyA9PT0gJ2Z1bGZpbGxlZCcgJiYgcmVzdWx0LnZhbHVlLm9rKS5sZW5ndGg7CiAgICBjb25zdCBmYWlsZWQgPSByZXN1bHRzCiAgICAgIC5maWx0ZXIoKHJlc3VsdCkgPT4gcmVzdWx0LnN0YXR1cyA9PT0gJ3JlamVjdGVkJyB8fCAhcmVzdWx0LnZhbHVlLm9rKQogICAgICAubWFwKChyZXN1bHQpID0+IHJlc3VsdC5zdGF0dXMgPT09ICdyZWplY3RlZCcKICAgICAgICA/IHsgdGVuYW50SWQ6ICd1bmtub3duJywgZXJyb3I6IHJlc3VsdC5yZWFzb24gaW5zdGFuY2VvZiBFcnJvciA/IHJlc3VsdC5yZWFzb24ubWVzc2FnZSA6ICdVbmtub3duIGVycm9yJyB9CiAgICAgICAgOiB7IHRlbmFudElkOiByZXN1bHQudmFsdWUudGVuYW50SWQsIGVycm9yOiBgSFRUUCAke3Jlc3VsdC52YWx1ZS5zdGF0dXN9YCB9KTsKCiAgICByZXR1cm4ganNvblJlc3BvbnNlKHsKICAgICAgc3VjY2VzczogdHJ1ZSwKICAgICAgZGF0YTogewogICAgICAgIHRlbmFudENvdW50OiB0ZW5hbnRJZHMubGVuZ3RoLAogICAgICAgIHF1ZXVlZCwKICAgICAgICBmYWlsZWQsCiAgICAgIH0sCiAgICB9KTsKICB9IGNhdGNoIChlcnJvcikgewogICAgcmV0dXJuIGludGVybmFsRXJyb3JSZXNwb25zZShlcnJvcik7CiAgfQp9Owo=
+import { buildBackgroundFunctionUrl, createCronTokenForTenant, internalErrorResponse, jsonResponse, listTenantIds } from './_shared/rei';
+
+export const config = {
+  schedule: '* * * * *',
+};
+
+export default async (req: Request) => {
+  try {
+    const tenantIds = await listTenantIds();
+    if (tenantIds.length === 0) {
+      return jsonResponse({
+        success: true,
+        data: {
+          tenantCount: 0,
+          queued: 0,
+          message: 'No ActiveMsg 2.0 tenants found.',
+        },
+      });
+    }
+
+    const results = await Promise.allSettled(tenantIds.map(async (tenantId) => {
+      const search = new URLSearchParams({ token: createCronTokenForTenant(tenantId) }).toString();
+      const response = await fetch(buildBackgroundFunctionUrl(req, `?${search}`), {
+        method: 'POST',
+      });
+
+      return {
+        tenantId,
+        status: response.status,
+        ok: response.ok,
+      };
+    }));
+
+    const queued = results.filter((result) => result.status === 'fulfilled' && result.value.ok).length;
+    const failed = results
+      .filter((result) => result.status === 'rejected' || !result.value.ok)
+      .map((result) => result.status === 'rejected'
+        ? { tenantId: 'unknown', error: result.reason instanceof Error ? result.reason.message : 'Unknown error' }
+        : { tenantId: result.value.tenantId, error: `HTTP ${result.value.status}` });
+
+    return jsonResponse({
+      success: true,
+      data: {
+        tenantCount: tenantIds.length,
+        queued,
+        failed,
+      },
+    });
+  } catch (error) {
+    return internalErrorResponse(error);
+  }
+};

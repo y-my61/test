@@ -1,1 +1,56 @@
-LyoqCiAqIE1lbW9yeSBQYWxhY2Ug4oCUIOajgOe0ouafpeivoua6kOa2iOaBr+a4hea0lwogKgogKiByZXRyaWV2ZU1lbW9yaWVzIOeahCBxdWVyeSDmnoTlu7rmm77nm7TmjqXlkIPljp/lp4sgTWVzc2FnZS5jb250ZW5044CC6Zeu6aKY77yaCiAqIOiBiuWkqemHjOWPkeeahOWbvueJhyBjb250ZW50IOaYr+aVtOautSBiYXNlNjQgZGF0YSBVUknvvIhDaGF0LnRzeCDnmoQKICogcHJvY2Vzc0ltYWdlIOKGkiBoYW5kbGVTZW5kVGV4dChiYXNlNjQsICdpbWFnZScp77yM5Yqo6L6E5Yeg5LiH5a2X56ym77yJ4oCU4oCUCiAqIHBpcGVsaW5lIOeahCBVUkxfUkUg5Y+q5YmlIGh0dHAocykgVVJM77yMYGRhdGE6aW1hZ2UvLi4uO2Jhc2U2NCwuLi5gIOS8mgogKiDljp/moLfliIfov5sgc3Bpa2UgLyBzdWItc3Bpa2UgLyByZXJhbmsgLyBjb250ZXh0IOWkmui3ryBxdWVyee+8mgogKiAgIC0g6K+t5LmJ5LiK5piv57qv5Zmq5aOw77yM56iA6YeK55yf5a6e5oSP5Zu+55qE5Y+s5ZueCiAqICAgLSDkvZPnp6/kuIrmioogRW1iZWRkaW5nIOaJuemHj+ivt+axgueahCB0b2tlbiDmgLvph4/pobbniIbigJTigJTnoYXln7rmtYHliqjnrYnmnI3liqHllYYKICogICAgIOebtOaOpSA0MDAgY29kZSAyMDAxNSAiVGhlIHBhcmFtZXRlciBpcyBpbnZhbGlkIu+8iOOAjOa1i+ivlei/nuaOpeOAjeWNleadoQogKiAgICAg55+t5paH5pys5q2j5bi444CB5LiA57uZ6KeS6Imy5Y+R5raI5oGv5bCx5oql6ZSZ55qE5YW45Z6L5qC55Zug77yJCiAqCiAqIOWFpeW6k+euoee6v+aXqeWwseeUqCBpc01lc3NhZ2VTZW1hbnRpY2FsbHlSZWxldmFudCDov4fmu6TkuobvvIhwaXBlbGluZS50cyDnmoQKICogcHJvY2Vzc05ld01lc3NhZ2Vz77yJ77yM5qOA57Si566h57q/5piv5ryP572R55qE4oCU4oCU6L+Z6YeM6KGl6b2Q44CCCiAqLwoKaW1wb3J0IHR5cGUgeyBNZXNzYWdlIH0gZnJvbSAnLi4vLi4vdHlwZXMnOwppbXBvcnQgeyBpc01lc3NhZ2VTZW1hbnRpY2FsbHlSZWxldmFudCwgbm9ybWFsaXplTWVzc2FnZUNvbnRlbnQgfSBmcm9tICcuLi9tZXNzYWdlRm9ybWF0JzsKCi8qKgogKiBkYXRhIFVSSe+8iGJhc2U2NCDlhoXltYzotYTmupDvvInjgIJVUkxfUkUg5Y+q5YmlIGh0dHAocynvvIzov5nnsbvopoHljZXni6zliaXigJTigJQKICog6Zmk5LqGIGltYWdlIOa2iOaBr+acrOS9k++8jOeUqOaIt+WcqOaWh+acrOmHjOeymOi0tOOAgeWNoeeJhyBtZXRhZGF0YSDms4TmvI/ov5sgY29udGVudAogKiDnmoQgZGF0YSBVUkkg5Lmf5LiA5bm25YWc5L2P44CCYmFzZTY0IOS9k+WGheaXoOepuueZve+8jFxTKiDog73mlbTmrrXlkIPmjonjgIIKICovCmNvbnN0IERBVEFfVVJJX1JFID0gL2RhdGE6W2EtejAtOS4rLV0rXC9bYS16MC05ListXStbOyxdXFMqL2dpOwoKLyoqCiAqIOaKiuWOn+Wni+a2iOaBr+WIl+ihqOa4hea0l+aIkOOAjOWPr+S7peWuieWFqOWPguS4juajgOe0oiBxdWVyeSDmnoTlu7rjgI3nmoTliJfooajvvJoKICoKICogMS4g5Lii5o6J5peg6K+t5LmJ5raI5oGv77yIaW1hZ2UvZW1vamnjgIHml6DovazlhpnnmoTnuq/pn7PpopHlj4rnqbrmtojmga/vvInigJTigJQg5LiO5YWl5bqT5Y+j5b6E5LiA6Ie0CiAqICAgIOaciemFjeWll+aWh+Wtl+eahCB2b2ljZSDkvJrovazmiJDjgIzor63pn7PovazlhpnjgI3nu6fnu63lj4LkuI7mo4DntKIKICogMi4g5Y2h54mHL+ezu+e7n+exu+a2iOaBr+e7jyBub3JtYWxpemVNZXNzYWdlQ29udGVudCDnv7vmiJDlj6/or7vmlofmnKwKICogICAg77yIbXVzaWNfY2FyZCDnmoQgY29udGVudCDlj6/og73mmK/ljaDkvY3nrKbjgIFzY29yZV9jYXJkIOWPr+iDveaYryBKU09O77yJCiAqIDMuIOWJpeemu+aJgOaciSBkYXRhIFVSSe+8m+WJpeWujOWPmOepuueahOa2iOaBr+S4gOW5tuS4ouaOiQogKgogKiDnuq/lh73mlbDvvIzkuI3norAgSURCIC8g572R57uc44CCdGV4dCDmtojmga/lhoXlrrnkuI3lj5jml7bkv53nlZnljp/lr7nosaHlvJXnlKjjgIIKICovCmV4cG9ydCBmdW5jdGlvbiBzYW5pdGl6ZVF1ZXJ5U291cmNlTWVzc2FnZXMoCiAgICBtZXNzYWdlczogTWVzc2FnZVtdLAogICAgY2hhck5hbWU/OiBzdHJpbmcsCiAgICB1c2VyTmFtZT86IHN0cmluZywKKTogTWVzc2FnZVtdIHsKICAgIGNvbnN0IG91dDogTWVzc2FnZVtdID0gW107CiAgICBmb3IgKGNvbnN0IG0gb2YgbWVzc2FnZXMpIHsKICAgICAgICBpZiAoIWlzTWVzc2FnZVNlbWFudGljYWxseVJlbGV2YW50KG0pKSBjb250aW51ZTsKICAgICAgICBjb25zdCB0eXBlID0gbS50eXBlIGFzIHN0cmluZyB8IHVuZGVmaW5lZDsKICAgICAgICBjb25zdCByYXcgPSAoIXR5cGUgfHwgdHlwZSA9PT0gJ3RleHQnKQogICAgICAgICAgICA/IChtLmNvbnRlbnQgfHwgJycpCiAgICAgICAgICAgIDogbm9ybWFsaXplTWVzc2FnZUNvbnRlbnQobSwgY2hhck5hbWUgfHwgJycsIHVzZXJOYW1lIHx8ICdUQScpOwogICAgICAgIGNvbnN0IGNsZWFuZWQgPSByYXcucmVwbGFjZShEQVRBX1VSSV9SRSwgJyAnKTsKICAgICAgICBpZiAoIWNsZWFuZWQudHJpbSgpKSBjb250aW51ZTsKICAgICAgICBvdXQucHVzaChjbGVhbmVkID09PSBtLmNvbnRlbnQgPyBtIDogeyAuLi5tLCBjb250ZW50OiBjbGVhbmVkIH0pOwogICAgfQogICAgcmV0dXJuIG91dDsKfQo=
+/**
+ * Memory Palace — 检索查询源消息清洗
+ *
+ * retrieveMemories 的 query 构建曾直接吃原始 Message.content。问题：
+ * 聊天里发的图片 content 是整段 base64 data URI（Chat.tsx 的
+ * processImage → handleSendText(base64, 'image')，动辄几万字符）——
+ * pipeline 的 URL_RE 只剥 http(s) URL，`data:image/...;base64,...` 会
+ * 原样切进 spike / sub-spike / rerank / context 多路 query：
+ *   - 语义上是纯噪声，稀释真实意图的召回
+ *   - 体积上把 Embedding 批量请求的 token 总量顶爆——硅基流动等服务商
+ *     直接 400 code 20015 "The parameter is invalid"（「测试连接」单条
+ *     短文本正常、一给角色发消息就报错的典型根因）
+ *
+ * 入库管线早就用 isMessageSemanticallyRelevant 过滤了（pipeline.ts 的
+ * processNewMessages），检索管线是漏网的——这里补齐。
+ */
+
+import type { Message } from '../../types';
+import { isMessageSemanticallyRelevant, normalizeMessageContent } from '../messageFormat';
+
+/**
+ * data URI（base64 内嵌资源）。URL_RE 只剥 http(s)，这类要单独剥——
+ * 除了 image 消息本体，用户在文本里粘贴、卡片 metadata 泄漏进 content
+ * 的 data URI 也一并兜住。base64 体内无空白，\S* 能整段吃掉。
+ */
+const DATA_URI_RE = /data:[a-z0-9.+-]+\/[a-z0-9.+-]+[;,]\S*/gi;
+
+/**
+ * 把原始消息列表清洗成「可以安全参与检索 query 构建」的列表：
+ *
+ * 1. 丢掉无语义消息（image/emoji、无转写的纯音频及空消息）—— 与入库口径一致
+ *    有配套文字的 voice 会转成「语音转写」继续参与检索
+ * 2. 卡片/系统类消息经 normalizeMessageContent 翻成可读文本
+ *    （music_card 的 content 可能是占位符、score_card 可能是 JSON）
+ * 3. 剥离所有 data URI；剥完变空的消息一并丢掉
+ *
+ * 纯函数，不碰 IDB / 网络。text 消息内容不变时保留原对象引用。
+ */
+export function sanitizeQuerySourceMessages(
+    messages: Message[],
+    charName?: string,
+    userName?: string,
+): Message[] {
+    const out: Message[] = [];
+    for (const m of messages) {
+        if (!isMessageSemanticallyRelevant(m)) continue;
+        const type = m.type as string | undefined;
+        const raw = (!type || type === 'text')
+            ? (m.content || '')
+            : normalizeMessageContent(m, charName || '', userName || 'TA');
+        const cleaned = raw.replace(DATA_URI_RE, ' ');
+        if (!cleaned.trim()) continue;
+        out.push(cleaned === m.content ? m : { ...m, content: cleaned });
+    }
+    return out;
+}

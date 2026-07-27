@@ -1,1 +1,55 @@
-aW1wb3J0IHsgZGVzY3JpYmUsIGl0LCBleHBlY3QgfSBmcm9tICd2aXRlc3QnOwppbXBvcnQgewogICAgRVZFTlRfQk9YX1NVTU1BUllfVEFSR0VUX01JTl9DSEFSUywKICAgIEVWRU5UX0JPWF9TVU1NQVJZX1RBUkdFVF9NQVhfQ0hBUlMsCiAgICBFVkVOVF9CT1hfU1VNTUFSWV9IQVJEX01BWF9DSEFSUywKfSBmcm9tICcuL3R5cGVzJzsKaW1wb3J0IHsgZW5mb3JjZVN1bW1hcnlMZW5ndGhCdWRnZXQgfSBmcm9tICcuL3N1bW1hcnlMZW5ndGhCdWRnZXQnOwoKZGVzY3JpYmUoJ0V2ZW50Qm94IHN1bW1hcnkg5a2X5pWw6aKE566XJywgKCkgPT4gewogICAgaXQoJ+ebruagh+WMuumXtOS4i+eVjOWwj+S6juS4iueVjCcsICgpID0+IHsKICAgICAgICBleHBlY3QoRVZFTlRfQk9YX1NVTU1BUllfVEFSR0VUX01JTl9DSEFSUykudG9CZUxlc3NUaGFuKEVWRU5UX0JPWF9TVU1NQVJZX1RBUkdFVF9NQVhfQ0hBUlMpOwogICAgfSk7CgogICAgLy8g5Zue5b2S5a6I5Y2r77ya56Gs5oiq5pat57q/5b+F6aG76auY5LqO55uu5qCH5LiK55WM77yM57uZ44CM5qih5Z6L5pWw5LiN5YeG5a2X5pWw44CN55WZ57yT5Yay44CCCiAgICAvLyDoi6XnoI3nur8g4omkIOebruagh+S4iueVjO+8jOaooeWei+eehOedgOebruagh+S4iueVjOWGmeOAgeeojeW+rui2heS4gOeCueWwseS8muiiq+ehrOaIquaWreaLvOS4iuOAjOKApuKApuOAjeKAlOKAlAogICAgLy8g6L+Z5q2j5piv5pW05ZCI5Zue5b+G5pyr5bC+55yB55Wl5Y+355qE5qC55Zug44CC56CN57q/5ZKM55uu5qCH5LiK55WM5LiN6IO95LiA6LW35b6A5LiL5Y6L5Yiw5ZCM5LiA5Liq5YC844CCCiAgICBpdCgn56Gs5oiq5pat57q/6auY5LqO55uu5qCH5LiK55WM77yI55WZ57yT5Yay77yM6YG/5YWN5qih5Z6L56iN6LaF5bCx6KKr56CN5Ye644CM4oCm4oCm44CN77yJJywgKCkgPT4gewogICAgICAgIGV4cGVjdChFVkVOVF9CT1hfU1VNTUFSWV9IQVJEX01BWF9DSEFSUykudG9CZUdyZWF0ZXJUaGFuKEVWRU5UX0JPWF9TVU1NQVJZX1RBUkdFVF9NQVhfQ0hBUlMpOwogICAgfSk7Cn0pOwoKZGVzY3JpYmUoJ2VuZm9yY2VTdW1tYXJ5TGVuZ3RoQnVkZ2V0IOKAlCDotoXpmZDkuozmrKHljovnvKnlhZzlupUnLCAoKSA9PiB7CiAgICBjb25zdCBIQVJEID0gOTAwOwogICAgY29uc3QgRUxMSVBTSVMgPSAn4oCm4oCmJzsKCiAgICBpdCgn5pyq6LaF6ZmQ77ya5Y6f5qC36L+U5Zue77yM5LiU5LiN6Kem5Y+R5LqM5qyh5Y6L57ypJywgYXN5bmMgKCkgPT4gewogICAgICAgIGNvbnN0IHRleHQgPSAnYScucmVwZWF0KDUwMCk7CiAgICAgICAgbGV0IGNhbGxlZCA9IGZhbHNlOwogICAgICAgIGNvbnN0IG91dCA9IGF3YWl0IGVuZm9yY2VTdW1tYXJ5TGVuZ3RoQnVkZ2V0KHRleHQsIGFzeW5jICgpID0+IHsgY2FsbGVkID0gdHJ1ZTsgcmV0dXJuIG51bGw7IH0sIEhBUkQpOwogICAgICAgIGV4cGVjdChvdXQpLnRvQmUodGV4dCk7CiAgICAgICAgZXhwZWN0KGNhbGxlZCkudG9CZShmYWxzZSk7CiAgICB9KTsKCiAgICBpdCgn6LaF6ZmQICsg5LqM5qyh5Y6L57yp6L6+5qCH77ya6YeH55So5Y6L57yp57uT5p6c77yM5LiN55WZ55yB55Wl5Y+3JywgYXN5bmMgKCkgPT4gewogICAgICAgIGNvbnN0IHRleHQgPSAnYScucmVwZWF0KDEwMDApOwogICAgICAgIGNvbnN0IG91dCA9IGF3YWl0IGVuZm9yY2VTdW1tYXJ5TGVuZ3RoQnVkZ2V0KHRleHQsIGFzeW5jICgpID0+ICdiJy5yZXBlYXQoNjAwKSwgSEFSRCk7CiAgICAgICAgZXhwZWN0KG91dCkudG9CZSgnYicucmVwZWF0KDYwMCkpOwogICAgICAgIGV4cGVjdChvdXQuZW5kc1dpdGgoRUxMSVBTSVMpKS50b0JlKGZhbHNlKTsKICAgIH0pOwoKICAgIGl0KCfotoXpmZAgKyDkuozmrKHljovnvKnlkI7ku43otoXvvJrlj5bmm7Tnn63ogIXlgZrln7rlupXvvIznoazmiKrmlq3lhZzlupUnLCBhc3luYyAoKSA9PiB7CiAgICAgICAgY29uc3QgdGV4dCA9ICdhJy5yZXBlYXQoMTAwMCk7CiAgICAgICAgLy8g5LqM5qyh5Y6L57yp5Y6L5YiwIDk1MO+8jOS7jSA+IDkwMCDihpIg55SoIDk1MCDov5nku73lgZrln7rlupXmiKrmlq0KICAgICAgICBjb25zdCBvdXQgPSBhd2FpdCBlbmZvcmNlU3VtbWFyeUxlbmd0aEJ1ZGdldCh0ZXh0LCBhc3luYyAoKSA9PiAnYicucmVwZWF0KDk1MCksIEhBUkQpOwogICAgICAgIGV4cGVjdChvdXQuc3RhcnRzV2l0aCgnYicucmVwZWF0KEhBUkQpKSkudG9CZSh0cnVlKTsKICAgICAgICBleHBlY3Qob3V0LmVuZHNXaXRoKEVMTElQU0lTKSkudG9CZSh0cnVlKTsKICAgICAgICBleHBlY3Qob3V0Lmxlbmd0aCkudG9CZShIQVJEICsgRUxMSVBTSVMubGVuZ3RoKTsKICAgIH0pOwoKICAgIGl0KCfotoXpmZAgKyDkuozmrKHljovnvKnlpLHotKUobnVsbCnvvJrlm57pgIDnoazmiKrmlq3ljp/mlocnLCBhc3luYyAoKSA9PiB7CiAgICAgICAgY29uc3QgdGV4dCA9ICdhJy5yZXBlYXQoMTAwMCk7CiAgICAgICAgY29uc3Qgb3V0ID0gYXdhaXQgZW5mb3JjZVN1bW1hcnlMZW5ndGhCdWRnZXQodGV4dCwgYXN5bmMgKCkgPT4gbnVsbCwgSEFSRCk7CiAgICAgICAgZXhwZWN0KG91dCkudG9CZSgnYScucmVwZWF0KEhBUkQpICsgRUxMSVBTSVMpOwogICAgfSk7Cn0pOwo=
+import { describe, it, expect } from 'vitest';
+import {
+    EVENT_BOX_SUMMARY_TARGET_MIN_CHARS,
+    EVENT_BOX_SUMMARY_TARGET_MAX_CHARS,
+    EVENT_BOX_SUMMARY_HARD_MAX_CHARS,
+} from './types';
+import { enforceSummaryLengthBudget } from './summaryLengthBudget';
+
+describe('EventBox summary 字数预算', () => {
+    it('目标区间下界小于上界', () => {
+        expect(EVENT_BOX_SUMMARY_TARGET_MIN_CHARS).toBeLessThan(EVENT_BOX_SUMMARY_TARGET_MAX_CHARS);
+    });
+
+    // 回归守卫：硬截断线必须高于目标上界，给「模型数不准字数」留缓冲。
+    // 若砍线 ≤ 目标上界，模型瞄着目标上界写、稍微超一点就会被硬截断拼上「……」——
+    // 这正是整合回忆末尾省略号的根因。砍线和目标上界不能一起往下压到同一个值。
+    it('硬截断线高于目标上界（留缓冲，避免模型稍超就被砍出「……」）', () => {
+        expect(EVENT_BOX_SUMMARY_HARD_MAX_CHARS).toBeGreaterThan(EVENT_BOX_SUMMARY_TARGET_MAX_CHARS);
+    });
+});
+
+describe('enforceSummaryLengthBudget — 超限二次压缩兜底', () => {
+    const HARD = 900;
+    const ELLIPSIS = '……';
+
+    it('未超限：原样返回，且不触发二次压缩', async () => {
+        const text = 'a'.repeat(500);
+        let called = false;
+        const out = await enforceSummaryLengthBudget(text, async () => { called = true; return null; }, HARD);
+        expect(out).toBe(text);
+        expect(called).toBe(false);
+    });
+
+    it('超限 + 二次压缩达标：采用压缩结果，不留省略号', async () => {
+        const text = 'a'.repeat(1000);
+        const out = await enforceSummaryLengthBudget(text, async () => 'b'.repeat(600), HARD);
+        expect(out).toBe('b'.repeat(600));
+        expect(out.endsWith(ELLIPSIS)).toBe(false);
+    });
+
+    it('超限 + 二次压缩后仍超：取更短者做基底，硬截断兜底', async () => {
+        const text = 'a'.repeat(1000);
+        // 二次压缩压到 950，仍 > 900 → 用 950 这份做基底截断
+        const out = await enforceSummaryLengthBudget(text, async () => 'b'.repeat(950), HARD);
+        expect(out.startsWith('b'.repeat(HARD))).toBe(true);
+        expect(out.endsWith(ELLIPSIS)).toBe(true);
+        expect(out.length).toBe(HARD + ELLIPSIS.length);
+    });
+
+    it('超限 + 二次压缩失败(null)：回退硬截断原文', async () => {
+        const text = 'a'.repeat(1000);
+        const out = await enforceSummaryLengthBudget(text, async () => null, HARD);
+        expect(out).toBe('a'.repeat(HARD) + ELLIPSIS);
+    });
+});

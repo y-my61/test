@@ -1,1 +1,126 @@
-LyoqCiAqIFN1bGx5T1MgTUNQIENPUlMg5Luj55CGIOKAlCDpg6jnvbLliLDjgIzkvaDoh6rlt7HnmoTjgI1DbG91ZGZsYXJlIOi0puWPtwogKgogKiDkvZznlKjvvJrmtY/op4jlmajnm7Tov57ov5znqIsgTUNQIOacjeWKoeWZqOaXtue7j+W4uOiiqyBDT1JTIOaLpuS9j++8iOivu+S4jeWIsCBNY3AtU2Vzc2lvbi1JZAogKiDlk43lupTlpLTvvIxNQ1Ag5o+h5omL55u05o6l5aSx6LSl77yJ44CC6L+Z5LiqIFdvcmtlciDlgZrpgI/mmI7ovazlj5HlubbooaXkuIrmraPnoa7nmoQgQ09SUyDlpLTjgIIKICoKICog6YOo572y77yI5LqM6YCJ5LiA77yJ77yaCiAqICAgQS4gQ2xvdWRmbGFyZSBEYXNoYm9hcmQg4oaSIFdvcmtlcnMg4oaSIENyZWF0ZSDihpIg57KY6LS05pys5paH5Lu2IOKGkiBEZXBsb3kKICogICBCLiDmnKznm67lvZXkuIvmiafooYwgYHdyYW5nbGVyIGRlcGxveWAKICoKICog55So5rOV77ya5ZyoIFN1bGx5T1Mg6K6+572u55qEIE1DUCDmnI3liqHlmajjgIzku6PnkIYgVVJM44CN6YeM5aGr5L2g55qEIFdvcmtlciDlnLDlnYDvvIwKICogICAgICDkvovlpoIgaHR0cHM6Ly9tY3AtcHJveHkuPOS9oOeahOWtkOWfnz4ud29ya2Vycy5kZXYKICogICAgICDliY3nq6/kvJrku6UgPOS7o+eQhlVSTD4/dGFyZ2V0PTxNQ1DmnI3liqHlmahVUkw+IOeahOW9ouW8j+i9rOWPkeivt+axguOAggogKgogKiDlj6/pgInliqDlm7rvvIjlvLrng4jlu7rorq7vvIzpmLLmraLliKvkurrnmb3lq5bkvaDnmoQgV29ya2VyIOa1gemHj++8ie+8mgogKiAgIOWcqCBXb3JrZXIg55qE546v5aKD5Y+Y6YeP6YeM6K6+572uIFBST1hZX0tFWT086ZqP5py65a2X56ym5LiyPu+8jAogKiAgIOeEtuWQjuWcqCBTdWxseU9TIOiuvue9rueahOOAjOS7o+eQhuWvhumSpeOAjemHjOWhq+WQjOS4gOS4quWAvOOAggogKi8KCmNvbnN0IEZPUldBUkRfUkVRVUVTVF9IRUFERVJTID0gWwogICAgJ2NvbnRlbnQtdHlwZScsCiAgICAnYWNjZXB0JywKICAgICdhdXRob3JpemF0aW9uJywKICAgICdtY3Atc2Vzc2lvbi1pZCcsCiAgICAnbWNwLXByb3RvY29sLXZlcnNpb24nLAogICAgJ2xhc3QtZXZlbnQtaWQnLApdOwoKY29uc3QgQ09SU19IRUFERVJTID0gewogICAgJ0FjY2Vzcy1Db250cm9sLUFsbG93LU9yaWdpbic6ICcqJywKICAgICdBY2Nlc3MtQ29udHJvbC1BbGxvdy1NZXRob2RzJzogJ1BPU1QsIEdFVCwgREVMRVRFLCBPUFRJT05TJywKICAgICdBY2Nlc3MtQ29udHJvbC1BbGxvdy1IZWFkZXJzJzogJ0NvbnRlbnQtVHlwZSwgQWNjZXB0LCBBdXRob3JpemF0aW9uLCBNY3AtU2Vzc2lvbi1JZCwgTUNQLVByb3RvY29sLVZlcnNpb24sIExhc3QtRXZlbnQtSUQsIFgtUHJveHktS2V5LCBYLU1DUC1Gb3J3YXJkLUhlYWRlcnMnLAogICAgJ0FjY2Vzcy1Db250cm9sLUV4cG9zZS1IZWFkZXJzJzogJ01jcC1TZXNzaW9uLUlkLCBXV1ctQXV0aGVudGljYXRlJywKICAgICdBY2Nlc3MtQ29udHJvbC1NYXgtQWdlJzogJzg2NDAwJywKfTsKCmZ1bmN0aW9uIGNvcnNKc29uKHN0YXR1cywgb2JqKSB7CiAgICByZXR1cm4gbmV3IFJlc3BvbnNlKEpTT04uc3RyaW5naWZ5KG9iaiksIHsKICAgICAgICBzdGF0dXMsCiAgICAgICAgaGVhZGVyczogeyAnQ29udGVudC1UeXBlJzogJ2FwcGxpY2F0aW9uL2pzb24nLCAuLi5DT1JTX0hFQURFUlMgfSwKICAgIH0pOwp9CgpmdW5jdGlvbiBpc1ByaXZhdGVJcHY0KGhvc3QpIHsKICAgIGNvbnN0IHBhcnRzID0gaG9zdC5zcGxpdCgnLicpLm1hcChOdW1iZXIpOwogICAgaWYgKHBhcnRzLmxlbmd0aCAhPT0gNCB8fCBwYXJ0cy5zb21lKHAgPT4gIU51bWJlci5pc0ludGVnZXIocCkgfHwgcCA8IDAgfHwgcCA+IDI1NSkpIHJldHVybiBmYWxzZTsKICAgIGNvbnN0IFthLCBiXSA9IHBhcnRzOwogICAgcmV0dXJuIGEgPT09IDAgfHwgYSA9PT0gMTAgfHwgYSA9PT0gMTI3CiAgICAgICAgfHwgKGEgPT09IDE2OSAmJiBiID09PSAyNTQpCiAgICAgICAgfHwgKGEgPT09IDE3MiAmJiBiID49IDE2ICYmIGIgPD0gMzEpCiAgICAgICAgfHwgKGEgPT09IDE5MiAmJiBiID09PSAxNjgpCiAgICAgICAgfHwgKGEgPT09IDEwMCAmJiBiID49IDY0ICYmIGIgPD0gMTI3KTsKfQoKLy8g5Y+q5YWB6K645YWs572RIGh0dHAvaHR0cHMg55uu5qCH77yM56aB5q2i5oqKIFdvcmtlciDlvZPlhoXnvZHmjqLpkojnlKgKZnVuY3Rpb24gYmxvY2tlZFRhcmdldFJlYXNvbihyYXdVcmwpIHsKICAgIGxldCB1cmw7CiAgICB0cnkgeyB1cmwgPSBuZXcgVVJMKHJhd1VybCk7IH0gY2F0Y2ggeyByZXR1cm4gJ3RhcmdldCDkuI3mmK/lkIjms5UgVVJMJzsgfQogICAgaWYgKHVybC5wcm90b2NvbCAhPT0gJ2h0dHBzOicgJiYgdXJsLnByb3RvY29sICE9PSAnaHR0cDonKSByZXR1cm4gJ+WPquWFgeiuuCBodHRwL2h0dHBzJzsKICAgIGNvbnN0IGhvc3QgPSB1cmwuaG9zdG5hbWUudG9Mb3dlckNhc2UoKS5yZXBsYWNlKC9eXFt8XF0kL2csICcnKTsKICAgIGNvbnN0IGJsb2NrZWQgPSBob3N0ID09PSAnbG9jYWxob3N0JwogICAgICAgIHx8IGhvc3QuZW5kc1dpdGgoJy5sb2NhbGhvc3QnKQogICAgICAgIHx8IGhvc3QuZW5kc1dpdGgoJy5sb2NhbCcpCiAgICAgICAgfHwgaG9zdC5lbmRzV2l0aCgnLmludGVybmFsJykKICAgICAgICB8fCBob3N0ID09PSAnOjoxJwogICAgICAgIHx8IGhvc3Quc3RhcnRzV2l0aCgnZmMnKSB8fCBob3N0LnN0YXJ0c1dpdGgoJ2ZkJykgfHwgaG9zdC5zdGFydHNXaXRoKCdmZTgwJykKICAgICAgICB8fCBpc1ByaXZhdGVJcHY0KGhvc3QpOwogICAgcmV0dXJuIGJsb2NrZWQgPyAn5LiN5YWB6K645Luj55CG5YaF572RL+acrOacuuWcsOWdgCcgOiBudWxsOwp9CgpleHBvcnQgZGVmYXVsdCB7CiAgICBhc3luYyBmZXRjaChyZXF1ZXN0LCBlbnYpIHsKICAgICAgICBpZiAocmVxdWVzdC5tZXRob2QgPT09ICdPUFRJT05TJykgewogICAgICAgICAgICBjb25zdCBoZWFkZXJzID0gbmV3IEhlYWRlcnMoQ09SU19IRUFERVJTKTsKICAgICAgICAgICAgY29uc3QgcmVxdWVzdGVkSGVhZGVycyA9IHJlcXVlc3QuaGVhZGVycy5nZXQoJ2FjY2Vzcy1jb250cm9sLXJlcXVlc3QtaGVhZGVycycpOwogICAgICAgICAgICBpZiAocmVxdWVzdGVkSGVhZGVycykgaGVhZGVycy5zZXQoJ0FjY2Vzcy1Db250cm9sLUFsbG93LUhlYWRlcnMnLCByZXF1ZXN0ZWRIZWFkZXJzKTsKICAgICAgICAgICAgcmV0dXJuIG5ldyBSZXNwb25zZShudWxsLCB7IHN0YXR1czogMjA0LCBoZWFkZXJzIH0pOwogICAgICAgIH0KCiAgICAgICAgaWYgKGVudi5QUk9YWV9LRVkpIHsKICAgICAgICAgICAgY29uc3Qga2V5ID0gcmVxdWVzdC5oZWFkZXJzLmdldCgneC1wcm94eS1rZXknKSB8fCAnJzsKICAgICAgICAgICAgaWYgKGtleSAhPT0gZW52LlBST1hZX0tFWSkgcmV0dXJuIGNvcnNKc29uKDQwMywgeyBlcnJvcjogJ+S7o+eQhuWvhumSpemUmeivr++8iFgtUHJveHktS2V577yJJyB9KTsKICAgICAgICB9CgogICAgICAgIGNvbnN0IHRhcmdldCA9IG5ldyBVUkwocmVxdWVzdC51cmwpLnNlYXJjaFBhcmFtcy5nZXQoJ3RhcmdldCcpOwogICAgICAgIGlmICghdGFyZ2V0KSByZXR1cm4gY29yc0pzb24oNDAwLCB7IGVycm9yOiAn57y65bCRID90YXJnZXQ9PE1DUOacjeWKoeWZqFVSTD4g5Y+C5pWwJyB9KTsKICAgICAgICBjb25zdCBibG9ja2VkID0gYmxvY2tlZFRhcmdldFJlYXNvbih0YXJnZXQpOwogICAgICAgIGlmIChibG9ja2VkKSByZXR1cm4gY29yc0pzb24oNDAwLCB7IGVycm9yOiBibG9ja2VkIH0pOwoKICAgICAgICBjb25zdCBmd2RIZWFkZXJzID0gbmV3IEhlYWRlcnMoKTsKICAgICAgICBmb3IgKGNvbnN0IG5hbWUgb2YgRk9SV0FSRF9SRVFVRVNUX0hFQURFUlMpIHsKICAgICAgICAgICAgY29uc3QgdiA9IHJlcXVlc3QuaGVhZGVycy5nZXQobmFtZSk7CiAgICAgICAgICAgIGlmICh2KSBmd2RIZWFkZXJzLnNldChuYW1lLCB2KTsKICAgICAgICB9CiAgICAgICAgY29uc3QgYmxvY2tlZEZvcndhcmRIZWFkZXJzID0gbmV3IFNldChbCiAgICAgICAgICAgICdob3N0JywgJ2Nvbm5lY3Rpb24nLCAnY29udGVudC1sZW5ndGgnLCAndHJhbnNmZXItZW5jb2RpbmcnLCAndXBncmFkZScsCiAgICAgICAgICAgICd4LXByb3h5LWtleScsICd4LW1jcC1mb3J3YXJkLWhlYWRlcnMnLAogICAgICAgIF0pOwogICAgICAgIGNvbnN0IGN1c3RvbUhlYWRlck5hbWVzID0gKHJlcXVlc3QuaGVhZGVycy5nZXQoJ3gtbWNwLWZvcndhcmQtaGVhZGVycycpIHx8ICcnKQogICAgICAgICAgICAuc3BsaXQoJywnKS5tYXAobmFtZSA9PiBuYW1lLnRyaW0oKSkuZmlsdGVyKEJvb2xlYW4pOwogICAgICAgIGZvciAoY29uc3QgbmFtZSBvZiBjdXN0b21IZWFkZXJOYW1lcykgewogICAgICAgICAgICBpZiAoYmxvY2tlZEZvcndhcmRIZWFkZXJzLmhhcyhuYW1lLnRvTG93ZXJDYXNlKCkpKSBjb250aW51ZTsKICAgICAgICAgICAgY29uc3QgdmFsdWUgPSByZXF1ZXN0LmhlYWRlcnMuZ2V0KG5hbWUpOwogICAgICAgICAgICBpZiAodmFsdWUpIGZ3ZEhlYWRlcnMuc2V0KG5hbWUsIHZhbHVlKTsKICAgICAgICB9CgogICAgICAgIGxldCB1cHN0cmVhbTsKICAgICAgICB0cnkgewogICAgICAgICAgICB1cHN0cmVhbSA9IGF3YWl0IGZldGNoKHRhcmdldCwgewogICAgICAgICAgICAgICAgbWV0aG9kOiByZXF1ZXN0Lm1ldGhvZCwKICAgICAgICAgICAgICAgIGhlYWRlcnM6IGZ3ZEhlYWRlcnMsCiAgICAgICAgICAgICAgICBib2R5OiAocmVxdWVzdC5tZXRob2QgPT09ICdHRVQnIHx8IHJlcXVlc3QubWV0aG9kID09PSAnSEVBRCcpID8gdW5kZWZpbmVkIDogcmVxdWVzdC5ib2R5LAogICAgICAgICAgICB9KTsKICAgICAgICB9IGNhdGNoIChlKSB7CiAgICAgICAgICAgIHJldHVybiBjb3JzSnNvbig1MDIsIHsgZXJyb3I6IGDovazlj5HlpLHotKU6ICR7ZS5tZXNzYWdlfWAgfSk7CiAgICAgICAgfQoKICAgICAgICAvLyDpgI/kvKDlk43lupTvvIjlkKsgU1NFIOa1ge+8ie+8jOihpSBDT1JTIOWktAogICAgICAgIGNvbnN0IHJlc3BIZWFkZXJzID0gbmV3IEhlYWRlcnMoQ09SU19IRUFERVJTKTsKICAgICAgICBmb3IgKGNvbnN0IG5hbWUgb2YgWydjb250ZW50LXR5cGUnLCAnbWNwLXNlc3Npb24taWQnLCAnd3d3LWF1dGhlbnRpY2F0ZScsICdjYWNoZS1jb250cm9sJ10pIHsKICAgICAgICAgICAgY29uc3QgdiA9IHVwc3RyZWFtLmhlYWRlcnMuZ2V0KG5hbWUpOwogICAgICAgICAgICBpZiAodikgcmVzcEhlYWRlcnMuc2V0KG5hbWUsIHYpOwogICAgICAgIH0KICAgICAgICByZXR1cm4gbmV3IFJlc3BvbnNlKHVwc3RyZWFtLmJvZHksIHsgc3RhdHVzOiB1cHN0cmVhbS5zdGF0dXMsIGhlYWRlcnM6IHJlc3BIZWFkZXJzIH0pOwogICAgfSwKfTsK
+/**
+ * SullyOS MCP CORS 代理 — 部署到「你自己的」Cloudflare 账号
+ *
+ * 作用：浏览器直连远程 MCP 服务器时经常被 CORS 拦住（读不到 Mcp-Session-Id
+ * 响应头，MCP 握手直接失败）。这个 Worker 做透明转发并补上正确的 CORS 头。
+ *
+ * 部署（二选一）：
+ *   A. Cloudflare Dashboard → Workers → Create → 粘贴本文件 → Deploy
+ *   B. 本目录下执行 `wrangler deploy`
+ *
+ * 用法：在 SullyOS 设置的 MCP 服务器「代理 URL」里填你的 Worker 地址，
+ *      例如 https://mcp-proxy.<你的子域>.workers.dev
+ *      前端会以 <代理URL>?target=<MCP服务器URL> 的形式转发请求。
+ *
+ * 可选加固（强烈建议，防止别人白嫖你的 Worker 流量）：
+ *   在 Worker 的环境变量里设置 PROXY_KEY=<随机字符串>，
+ *   然后在 SullyOS 设置的「代理密钥」里填同一个值。
+ */
+
+const FORWARD_REQUEST_HEADERS = [
+    'content-type',
+    'accept',
+    'authorization',
+    'mcp-session-id',
+    'mcp-protocol-version',
+    'last-event-id',
+];
+
+const CORS_HEADERS = {
+    'Access-Control-Allow-Origin': '*',
+    'Access-Control-Allow-Methods': 'POST, GET, DELETE, OPTIONS',
+    'Access-Control-Allow-Headers': 'Content-Type, Accept, Authorization, Mcp-Session-Id, MCP-Protocol-Version, Last-Event-ID, X-Proxy-Key, X-MCP-Forward-Headers',
+    'Access-Control-Expose-Headers': 'Mcp-Session-Id, WWW-Authenticate',
+    'Access-Control-Max-Age': '86400',
+};
+
+function corsJson(status, obj) {
+    return new Response(JSON.stringify(obj), {
+        status,
+        headers: { 'Content-Type': 'application/json', ...CORS_HEADERS },
+    });
+}
+
+function isPrivateIpv4(host) {
+    const parts = host.split('.').map(Number);
+    if (parts.length !== 4 || parts.some(p => !Number.isInteger(p) || p < 0 || p > 255)) return false;
+    const [a, b] = parts;
+    return a === 0 || a === 10 || a === 127
+        || (a === 169 && b === 254)
+        || (a === 172 && b >= 16 && b <= 31)
+        || (a === 192 && b === 168)
+        || (a === 100 && b >= 64 && b <= 127);
+}
+
+// 只允许公网 http/https 目标，禁止把 Worker 当内网探针用
+function blockedTargetReason(rawUrl) {
+    let url;
+    try { url = new URL(rawUrl); } catch { return 'target 不是合法 URL'; }
+    if (url.protocol !== 'https:' && url.protocol !== 'http:') return '只允许 http/https';
+    const host = url.hostname.toLowerCase().replace(/^\[|\]$/g, '');
+    const blocked = host === 'localhost'
+        || host.endsWith('.localhost')
+        || host.endsWith('.local')
+        || host.endsWith('.internal')
+        || host === '::1'
+        || host.startsWith('fc') || host.startsWith('fd') || host.startsWith('fe80')
+        || isPrivateIpv4(host);
+    return blocked ? '不允许代理内网/本机地址' : null;
+}
+
+export default {
+    async fetch(request, env) {
+        if (request.method === 'OPTIONS') {
+            const headers = new Headers(CORS_HEADERS);
+            const requestedHeaders = request.headers.get('access-control-request-headers');
+            if (requestedHeaders) headers.set('Access-Control-Allow-Headers', requestedHeaders);
+            return new Response(null, { status: 204, headers });
+        }
+
+        if (env.PROXY_KEY) {
+            const key = request.headers.get('x-proxy-key') || '';
+            if (key !== env.PROXY_KEY) return corsJson(403, { error: '代理密钥错误（X-Proxy-Key）' });
+        }
+
+        const target = new URL(request.url).searchParams.get('target');
+        if (!target) return corsJson(400, { error: '缺少 ?target=<MCP服务器URL> 参数' });
+        const blocked = blockedTargetReason(target);
+        if (blocked) return corsJson(400, { error: blocked });
+
+        const fwdHeaders = new Headers();
+        for (const name of FORWARD_REQUEST_HEADERS) {
+            const v = request.headers.get(name);
+            if (v) fwdHeaders.set(name, v);
+        }
+        const blockedForwardHeaders = new Set([
+            'host', 'connection', 'content-length', 'transfer-encoding', 'upgrade',
+            'x-proxy-key', 'x-mcp-forward-headers',
+        ]);
+        const customHeaderNames = (request.headers.get('x-mcp-forward-headers') || '')
+            .split(',').map(name => name.trim()).filter(Boolean);
+        for (const name of customHeaderNames) {
+            if (blockedForwardHeaders.has(name.toLowerCase())) continue;
+            const value = request.headers.get(name);
+            if (value) fwdHeaders.set(name, value);
+        }
+
+        let upstream;
+        try {
+            upstream = await fetch(target, {
+                method: request.method,
+                headers: fwdHeaders,
+                body: (request.method === 'GET' || request.method === 'HEAD') ? undefined : request.body,
+            });
+        } catch (e) {
+            return corsJson(502, { error: `转发失败: ${e.message}` });
+        }
+
+        // 透传响应（含 SSE 流），补 CORS 头
+        const respHeaders = new Headers(CORS_HEADERS);
+        for (const name of ['content-type', 'mcp-session-id', 'www-authenticate', 'cache-control']) {
+            const v = upstream.headers.get(name);
+            if (v) respHeaders.set(name, v);
+        }
+        return new Response(upstream.body, { status: upstream.status, headers: respHeaders });
+    },
+};

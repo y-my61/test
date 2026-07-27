@@ -1,1 +1,169 @@
-LyoqCiAqIFBpeGVsIEhvbWUg4oCUIOaIv+Wxi+mihOiuvuWvvOWFpS/lr7zlh7oKICoKICog5a+85Ye677ya5b2T5YmN6KeS6Imy55qE5YWo6YOo5oi/6Ze05biD5bGAICsg55So5Yiw55qE5YOP57Sg6LWE5LqnIOKGkiBKU09OIOaWh+S7tgogKiDlr7zlhaXvvJror7vlj5YgSlNPTiDihpIg6KaG55uW5b2T5YmN6KeS6Imy55qE5oi/6Ze05biD5bGAICsg5a+85YWl57y65aSx55qE6LWE5LqnCiAqLwoKaW1wb3J0IHR5cGUgewogIFBpeGVsSG9tZVByZXNldCwgUGl4ZWxSb29tUHJlc2V0LCBQaXhlbEFzc2V0UHJlc2V0LAogIFBpeGVsSG9tZVN0YXRlLCBQaXhlbFJvb21MYXlvdXQsIFBpeGVsQXNzZXQsCn0gZnJvbSAnLi90eXBlcyc7CmltcG9ydCB7IFBpeGVsTGF5b3V0REIsIFBpeGVsQXNzZXREQiB9IGZyb20gJy4vcGl4ZWxIb21lRGInOwppbXBvcnQgeyBjb25maXJtRXhwb3J0U2FmZXR5IH0gZnJvbSAnLi4vLi4vdXRpbHMvZXhwb3J0R3VhcmQnOwoKLy8g4pSA4pSA4pSAIOWvvOWHuiDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIAKCmV4cG9ydCBhc3luYyBmdW5jdGlvbiBleHBvcnRQcmVzZXQoCiAgaG9tZVN0YXRlOiBQaXhlbEhvbWVTdGF0ZSwKICBhbGxBc3NldHM6IFBpeGVsQXNzZXRbXSwKICBwcmVzZXROYW1lOiBzdHJpbmcsCiAgYXV0aG9yOiBzdHJpbmcsCik6IFByb21pc2U8c3RyaW5nPiB7CiAgLy8g5pS26ZuG5omA5pyJ5L2/55So55qEIGFzc2V0SWQKICBjb25zdCB1c2VkQXNzZXRJZHMgPSBuZXcgU2V0PHN0cmluZz4oKTsKICBmb3IgKGNvbnN0IHJvb20gb2YgaG9tZVN0YXRlLnJvb21zKSB7CiAgICBmb3IgKGNvbnN0IGYgb2Ygcm9vbS5mdXJuaXR1cmUpIHsKICAgICAgaWYgKGYuYXNzZXRJZCkgdXNlZEFzc2V0SWRzLmFkZChmLmFzc2V0SWQpOwogICAgfQogIH0KCiAgLy8g5a+85Ye65oi/6Ze077yI5Y675o6JIGNoYXJJZO+8iQogIGNvbnN0IHJvb21zOiBQaXhlbFJvb21QcmVzZXRbXSA9IGhvbWVTdGF0ZS5yb29tcy5tYXAociA9PiAoewogICAgcm9vbUlkOiByLnJvb21JZCwKICAgIGZ1cm5pdHVyZTogci5mdXJuaXR1cmUsCiAgICB3YWxsQ29sb3I6IHIud2FsbENvbG9yLAogICAgZmxvb3JDb2xvcjogci5mbG9vckNvbG9yLAogICAgYW1iaWFuY2U6IHIuYW1iaWFuY2UsCiAgICB3YWxsRmlsbE1vZGU6IHIud2FsbEZpbGxNb2RlLAogICAgd2FsbE9mZnNldFg6IHIud2FsbE9mZnNldFgsCiAgICB3YWxsT2Zmc2V0WTogci53YWxsT2Zmc2V0WSwKICAgIGZsb29yRmlsbE1vZGU6IHIuZmxvb3JGaWxsTW9kZSwKICAgIGZsb29yT2Zmc2V0WDogci5mbG9vck9mZnNldFgsCiAgICBmbG9vck9mZnNldFk6IHIuZmxvb3JPZmZzZXRZLAogIH0pKTsKCiAgLy8g5a+85Ye655So5Yiw55qE6LWE5Lqn77yI57K+566A77yM5Y675o6JIG9yaWdpbmFsSW1hZ2Ug6IqC55yB56m66Ze077yJCiAgY29uc3QgYXNzZXRzOiBQaXhlbEFzc2V0UHJlc2V0W10gPSBhbGxBc3NldHMKICAgIC5maWx0ZXIoYSA9PiB1c2VkQXNzZXRJZHMuaGFzKGEuaWQpKQogICAgLm1hcChhID0+ICh7CiAgICAgIGlkOiBhLmlkLAogICAgICBuYW1lOiBhLm5hbWUsCiAgICAgIHBpeGVsSW1hZ2U6IGEucGl4ZWxJbWFnZSwKICAgICAgcGl4ZWxTaXplOiBhLnBpeGVsU2l6ZSwKICAgICAgcGFsZXR0ZTogYS5wYWxldHRlLAogICAgICB3aWR0aDogYS53aWR0aCwKICAgICAgaGVpZ2h0OiBhLmhlaWdodCwKICAgIH0pKTsKCiAgY29uc3QgcHJlc2V0OiBQaXhlbEhvbWVQcmVzZXQgPSB7CiAgICB2ZXJzaW9uOiAxLAogICAgbmFtZTogcHJlc2V0TmFtZSwKICAgIGF1dGhvciwKICAgIGNyZWF0ZWRBdDogRGF0ZS5ub3coKSwKICAgIHJvb21zLAogICAgYXNzZXRzLAogIH07CgogIHJldHVybiBKU09OLnN0cmluZ2lmeShwcmVzZXQpOwp9CgovKiog5a+85Ye65bm25LiL6L295Li6IC5qc29uIOaWh+S7tiAqLwpleHBvcnQgYXN5bmMgZnVuY3Rpb24gZG93bmxvYWRQcmVzZXQoCiAgaG9tZVN0YXRlOiBQaXhlbEhvbWVTdGF0ZSwKICBhbGxBc3NldHM6IFBpeGVsQXNzZXRbXSwKICBwcmVzZXROYW1lOiBzdHJpbmcsCiAgYXV0aG9yOiBzdHJpbmcsCik6IFByb21pc2U8dm9pZD4gewogIGNvbnN0IGpzb24gPSBhd2FpdCBleHBvcnRQcmVzZXQoaG9tZVN0YXRlLCBhbGxBc3NldHMsIHByZXNldE5hbWUsIGF1dGhvcik7CiAgLy8g5a+85Ye65YmN5piO5paH5a+G6ZKl5L2T5qOAICsg5LqM5qyh56Gu6K6k77yI5bCP5bGL6aKE6K6+5q2j5bi45LiN5ZCr5a+G6ZKlIOKGkiDmj5DnpLrjgIzlronlhajvvIzlj6/liIbkuqvjgI3vvInjgIIKICBpZiAoIShhd2FpdCBjb25maXJtRXhwb3J0U2FmZXR5KEpTT04ucGFyc2UoanNvbikpKSkgcmV0dXJuOwogIGNvbnN0IGJsb2IgPSBuZXcgQmxvYihbanNvbl0sIHsgdHlwZTogJ2FwcGxpY2F0aW9uL2pzb24nIH0pOwogIGNvbnN0IHVybCA9IFVSTC5jcmVhdGVPYmplY3RVUkwoYmxvYik7CiAgY29uc3QgYSA9IGRvY3VtZW50LmNyZWF0ZUVsZW1lbnQoJ2EnKTsKICBhLmhyZWYgPSB1cmw7CiAgYS5kb3dubG9hZCA9IGBwaXhlbF9ob21lXyR7cHJlc2V0TmFtZS5yZXBsYWNlKC9ccysvZywgJ18nKX1fJHtEYXRlLm5vdygpfS5qc29uYDsKICBhLmNsaWNrKCk7CiAgVVJMLnJldm9rZU9iamVjdFVSTCh1cmwpOwp9CgovLyDilIDilIDilIAg5a+85YWlIOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgAoKZXhwb3J0IGludGVyZmFjZSBJbXBvcnRSZXN1bHQgewogIHN1Y2Nlc3M6IGJvb2xlYW47CiAgcm9vbXNJbXBvcnRlZDogbnVtYmVyOwogIGFzc2V0c0ltcG9ydGVkOiBudW1iZXI7CiAgZXJyb3I/OiBzdHJpbmc7Cn0KCi8qKiDku44gSlNPTiDlrZfnrKbkuLLop6PmnpDlubblr7zlhaXpooTorr4gKi8KZXhwb3J0IGFzeW5jIGZ1bmN0aW9uIGltcG9ydFByZXNldCgKICBqc29uOiBzdHJpbmcsCiAgY2hhcklkOiBzdHJpbmcsCik6IFByb21pc2U8SW1wb3J0UmVzdWx0PiB7CiAgdHJ5IHsKICAgIGNvbnN0IHByZXNldDogUGl4ZWxIb21lUHJlc2V0ID0gSlNPTi5wYXJzZShqc29uKTsKCiAgICAvLyDpqozor4HmoLzlvI8KICAgIGlmICghcHJlc2V0LnZlcnNpb24gfHwgIXByZXNldC5yb29tcyB8fCAhQXJyYXkuaXNBcnJheShwcmVzZXQucm9vbXMpKSB7CiAgICAgIHJldHVybiB7IHN1Y2Nlc3M6IGZhbHNlLCByb29tc0ltcG9ydGVkOiAwLCBhc3NldHNJbXBvcnRlZDogMCwgZXJyb3I6ICfml6DmlYjnmoTpooTorr7mlofku7bmoLzlvI8nIH07CiAgICB9CgogICAgLy8g5a+85YWl6LWE5Lqn77yI6Lez6L+H5bey5a2Y5Zyo55qE77yJCiAgICBsZXQgYXNzZXRzSW1wb3J0ZWQgPSAwOwogICAgaWYgKHByZXNldC5hc3NldHMgJiYgcHJlc2V0LmFzc2V0cy5sZW5ndGggPiAwKSB7CiAgICAgIGNvbnN0IGV4aXN0aW5nQXNzZXRzID0gYXdhaXQgUGl4ZWxBc3NldERCLmdldEFsbCgpOwogICAgICBjb25zdCBleGlzdGluZ0lkcyA9IG5ldyBTZXQoZXhpc3RpbmdBc3NldHMubWFwKGEgPT4gYS5pZCkpOwoKICAgICAgZm9yIChjb25zdCBwcmVzZXRBc3NldCBvZiBwcmVzZXQuYXNzZXRzKSB7CiAgICAgICAgaWYgKCFleGlzdGluZ0lkcy5oYXMocHJlc2V0QXNzZXQuaWQpKSB7CiAgICAgICAgICBjb25zdCBmdWxsQXNzZXQ6IFBpeGVsQXNzZXQgPSB7CiAgICAgICAgICAgIC4uLnByZXNldEFzc2V0LAogICAgICAgICAgICBvcmlnaW5hbEltYWdlOiBwcmVzZXRBc3NldC5waXhlbEltYWdlLCAvLyDmsqHmnInljp/lm77vvIznlKjlg4/ntKDlm77ku6Pmm78KICAgICAgICAgICAgY3JlYXRlZEF0OiBEYXRlLm5vdygpLAogICAgICAgICAgICB0YWdzOiBbJ2ltcG9ydGVkJ10sCiAgICAgICAgICB9OwogICAgICAgICAgYXdhaXQgUGl4ZWxBc3NldERCLnNhdmUoZnVsbEFzc2V0KTsKICAgICAgICAgIGFzc2V0c0ltcG9ydGVkKys7CiAgICAgICAgfQogICAgICB9CiAgICB9CgogICAgLy8g5a+85YWl5oi/6Ze05biD5bGACiAgICBsZXQgcm9vbXNJbXBvcnRlZCA9IDA7CiAgICBmb3IgKGNvbnN0IHByZXNldFJvb20gb2YgcHJlc2V0LnJvb21zKSB7CiAgICAgIGNvbnN0IGxheW91dDogUGl4ZWxSb29tTGF5b3V0ID0gewogICAgICAgIHJvb21JZDogcHJlc2V0Um9vbS5yb29tSWQsCiAgICAgICAgY2hhcklkLAogICAgICAgIGZ1cm5pdHVyZTogcHJlc2V0Um9vbS5mdXJuaXR1cmUsCiAgICAgICAgd2FsbENvbG9yOiBwcmVzZXRSb29tLndhbGxDb2xvciwKICAgICAgICBmbG9vckNvbG9yOiBwcmVzZXRSb29tLmZsb29yQ29sb3IsCiAgICAgICAgYW1iaWFuY2U6IHByZXNldFJvb20uYW1iaWFuY2UsCiAgICAgICAgd2FsbEZpbGxNb2RlOiBwcmVzZXRSb29tLndhbGxGaWxsTW9kZSwKICAgICAgICB3YWxsT2Zmc2V0WDogcHJlc2V0Um9vbS53YWxsT2Zmc2V0WCwKICAgICAgICB3YWxsT2Zmc2V0WTogcHJlc2V0Um9vbS53YWxsT2Zmc2V0WSwKICAgICAgICBmbG9vckZpbGxNb2RlOiBwcmVzZXRSb29tLmZsb29yRmlsbE1vZGUsCiAgICAgICAgZmxvb3JPZmZzZXRYOiBwcmVzZXRSb29tLmZsb29yT2Zmc2V0WCwKICAgICAgICBmbG9vck9mZnNldFk6IHByZXNldFJvb20uZmxvb3JPZmZzZXRZLAogICAgICAgIGxhc3RVcGRhdGVkQXQ6IERhdGUubm93KCksCiAgICAgICAgbGFzdERlY29yYXRlZEJ5OiAndXNlcicsCiAgICAgIH07CiAgICAgIGF3YWl0IFBpeGVsTGF5b3V0REIuc2F2ZShsYXlvdXQpOwogICAgICByb29tc0ltcG9ydGVkKys7CiAgICB9CgogICAgcmV0dXJuIHsgc3VjY2VzczogdHJ1ZSwgcm9vbXNJbXBvcnRlZCwgYXNzZXRzSW1wb3J0ZWQgfTsKICB9IGNhdGNoIChlcnI6IGFueSkgewogICAgcmV0dXJuIHsgc3VjY2VzczogZmFsc2UsIHJvb21zSW1wb3J0ZWQ6IDAsIGFzc2V0c0ltcG9ydGVkOiAwLCBlcnJvcjogZXJyLm1lc3NhZ2UgfHwgJ+ino+aekOWksei0pScgfTsKICB9Cn0KCi8qKiDku47mlofku7bor7vlj5YgSlNPTiDlrZfnrKbkuLIgKi8KZXhwb3J0IGZ1bmN0aW9uIHJlYWRGaWxlQXNUZXh0KGZpbGU6IEZpbGUpOiBQcm9taXNlPHN0cmluZz4gewogIHJldHVybiBuZXcgUHJvbWlzZSgocmVzb2x2ZSwgcmVqZWN0KSA9PiB7CiAgICBjb25zdCByZWFkZXIgPSBuZXcgRmlsZVJlYWRlcigpOwogICAgcmVhZGVyLm9ubG9hZCA9ICgpID0+IHJlc29sdmUocmVhZGVyLnJlc3VsdCBhcyBzdHJpbmcpOwogICAgcmVhZGVyLm9uZXJyb3IgPSAoKSA9PiByZWplY3QocmVhZGVyLmVycm9yKTsKICAgIHJlYWRlci5yZWFkQXNUZXh0KGZpbGUpOwogIH0pOwp9Cg==
+/**
+ * Pixel Home — 房屋预设导入/导出
+ *
+ * 导出：当前角色的全部房间布局 + 用到的像素资产 → JSON 文件
+ * 导入：读取 JSON → 覆盖当前角色的房间布局 + 导入缺失的资产
+ */
+
+import type {
+  PixelHomePreset, PixelRoomPreset, PixelAssetPreset,
+  PixelHomeState, PixelRoomLayout, PixelAsset,
+} from './types';
+import { PixelLayoutDB, PixelAssetDB } from './pixelHomeDb';
+import { confirmExportSafety } from '../../utils/exportGuard';
+
+// ─── 导出 ────────────────────────────────────────────
+
+export async function exportPreset(
+  homeState: PixelHomeState,
+  allAssets: PixelAsset[],
+  presetName: string,
+  author: string,
+): Promise<string> {
+  // 收集所有使用的 assetId
+  const usedAssetIds = new Set<string>();
+  for (const room of homeState.rooms) {
+    for (const f of room.furniture) {
+      if (f.assetId) usedAssetIds.add(f.assetId);
+    }
+  }
+
+  // 导出房间（去掉 charId）
+  const rooms: PixelRoomPreset[] = homeState.rooms.map(r => ({
+    roomId: r.roomId,
+    furniture: r.furniture,
+    wallColor: r.wallColor,
+    floorColor: r.floorColor,
+    ambiance: r.ambiance,
+    wallFillMode: r.wallFillMode,
+    wallOffsetX: r.wallOffsetX,
+    wallOffsetY: r.wallOffsetY,
+    floorFillMode: r.floorFillMode,
+    floorOffsetX: r.floorOffsetX,
+    floorOffsetY: r.floorOffsetY,
+  }));
+
+  // 导出用到的资产（精简，去掉 originalImage 节省空间）
+  const assets: PixelAssetPreset[] = allAssets
+    .filter(a => usedAssetIds.has(a.id))
+    .map(a => ({
+      id: a.id,
+      name: a.name,
+      pixelImage: a.pixelImage,
+      pixelSize: a.pixelSize,
+      palette: a.palette,
+      width: a.width,
+      height: a.height,
+    }));
+
+  const preset: PixelHomePreset = {
+    version: 1,
+    name: presetName,
+    author,
+    createdAt: Date.now(),
+    rooms,
+    assets,
+  };
+
+  return JSON.stringify(preset);
+}
+
+/** 导出并下载为 .json 文件 */
+export async function downloadPreset(
+  homeState: PixelHomeState,
+  allAssets: PixelAsset[],
+  presetName: string,
+  author: string,
+): Promise<void> {
+  const json = await exportPreset(homeState, allAssets, presetName, author);
+  // 导出前明文密钥体检 + 二次确认（小屋预设正常不含密钥 → 提示「安全，可分享」）。
+  if (!(await confirmExportSafety(JSON.parse(json)))) return;
+  const blob = new Blob([json], { type: 'application/json' });
+  const url = URL.createObjectURL(blob);
+  const a = document.createElement('a');
+  a.href = url;
+  a.download = `pixel_home_${presetName.replace(/\s+/g, '_')}_${Date.now()}.json`;
+  a.click();
+  URL.revokeObjectURL(url);
+}
+
+// ─── 导入 ────────────────────────────────────────────
+
+export interface ImportResult {
+  success: boolean;
+  roomsImported: number;
+  assetsImported: number;
+  error?: string;
+}
+
+/** 从 JSON 字符串解析并导入预设 */
+export async function importPreset(
+  json: string,
+  charId: string,
+): Promise<ImportResult> {
+  try {
+    const preset: PixelHomePreset = JSON.parse(json);
+
+    // 验证格式
+    if (!preset.version || !preset.rooms || !Array.isArray(preset.rooms)) {
+      return { success: false, roomsImported: 0, assetsImported: 0, error: '无效的预设文件格式' };
+    }
+
+    // 导入资产（跳过已存在的）
+    let assetsImported = 0;
+    if (preset.assets && preset.assets.length > 0) {
+      const existingAssets = await PixelAssetDB.getAll();
+      const existingIds = new Set(existingAssets.map(a => a.id));
+
+      for (const presetAsset of preset.assets) {
+        if (!existingIds.has(presetAsset.id)) {
+          const fullAsset: PixelAsset = {
+            ...presetAsset,
+            originalImage: presetAsset.pixelImage, // 没有原图，用像素图代替
+            createdAt: Date.now(),
+            tags: ['imported'],
+          };
+          await PixelAssetDB.save(fullAsset);
+          assetsImported++;
+        }
+      }
+    }
+
+    // 导入房间布局
+    let roomsImported = 0;
+    for (const presetRoom of preset.rooms) {
+      const layout: PixelRoomLayout = {
+        roomId: presetRoom.roomId,
+        charId,
+        furniture: presetRoom.furniture,
+        wallColor: presetRoom.wallColor,
+        floorColor: presetRoom.floorColor,
+        ambiance: presetRoom.ambiance,
+        wallFillMode: presetRoom.wallFillMode,
+        wallOffsetX: presetRoom.wallOffsetX,
+        wallOffsetY: presetRoom.wallOffsetY,
+        floorFillMode: presetRoom.floorFillMode,
+        floorOffsetX: presetRoom.floorOffsetX,
+        floorOffsetY: presetRoom.floorOffsetY,
+        lastUpdatedAt: Date.now(),
+        lastDecoratedBy: 'user',
+      };
+      await PixelLayoutDB.save(layout);
+      roomsImported++;
+    }
+
+    return { success: true, roomsImported, assetsImported };
+  } catch (err: any) {
+    return { success: false, roomsImported: 0, assetsImported: 0, error: err.message || '解析失败' };
+  }
+}
+
+/** 从文件读取 JSON 字符串 */
+export function readFileAsText(file: File): Promise<string> {
+  return new Promise((resolve, reject) => {
+    const reader = new FileReader();
+    reader.onload = () => resolve(reader.result as string);
+    reader.onerror = () => reject(reader.error);
+    reader.readAsText(file);
+  });
+}

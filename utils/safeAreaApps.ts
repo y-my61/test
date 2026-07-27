@@ -1,1 +1,50 @@
-aW1wb3J0IHsgQXBwSUQgfSBmcm9tICcuLi90eXBlcyc7CgovLyDjgIzoh6rnkIblronlhajljLrjgI3nmoQgQXBwIOWQjeWNle+8mui/meS6myBBcHAg6Ieq5bex5oqK5YaF5a656ZO65ruh5Yiw5YiY5rW3L2hvbWUg5p2h5LiL77yM5bm255SoCi8vIC0tY2hyb21lLXRvcCAvIC0tc2FmZS1ib3R0b20g57uZ6aG2L+W6leaOp+S7tuiuqeS9je+8jOaJgOS7peWkluWjs++8iFBob25lU2hlbGzvvInkuI3lho3nu5/kuIDliqAgcGFkZGluZ++8jAovLyDliJjmtbfpgqPlnZfmmL7npLrnmoTlsLHmmK8gQXBwIOiHquW3seeahOiDjOaZr+iJsu+8jOWunueOsOmhtumDqOaXoOe8neOAggovLyDkuI3lnKjlkI3ljZXph4znmoQgQXBwIOS7jeeUseWkluWjs+WFnOW6leiuqeS9jeWuieWFqOWMuu+8iOingSBkb2Nz77yaVE9ETyhzYWZlLWFyZWEtQSkg6L+B56e76K6h5YiS77yJ44CCCmV4cG9ydCBjb25zdCBTRUxGX1NBRkVfQVJFQV9BUFBTOiBSZWFkb25seVNldDxBcHBJRD4gPSBuZXcgU2V0PEFwcElEPihbCiAgICBBcHBJRC5MYXVuY2hlciwKICAgIEFwcElELlZSV29ybGQsCiAgICBBcHBJRC5DaGF0LAogICAgQXBwSUQuR3JvdXBDaGF0LAogICAgQXBwSUQuU29jaWFsLAogICAgLy8g5om56YeP6L+B56e777yI6aG25qCP6Ieq55CGIHNhZmUtdG9w77yM5aSW5bGCL+WGheWxguaLhuingeWQhCBBcHDvvInvvJoKICAgIEFwcElELlNldHRpbmdzLAogICAgQXBwSUQuQ2hhcmFjdGVyLAogICAgQXBwSUQuVGhlbWVNYWtlciwKICAgIEFwcElELkFwcGVhcmFuY2UsCiAgICBBcHBJRC5HYWxsZXJ5LAogICAgQXBwSUQuRGF0ZSwKICAgIEFwcElELlVzZXIsCiAgICBBcHBJRC5Kb3VybmFsLAogICAgQXBwSUQuU2NoZWR1bGUsCiAgICBBcHBJRC5Sb29tLAogICAgQXBwSUQuQ2hlY2tQaG9uZSwKICAgIEFwcElELlN0dWR5LAogICAgQXBwSUQuRkFRLAogICAgQXBwSUQuR2FtZSwKICAgIEFwcElELldvcmxkYm9vaywKICAgIEFwcElELk5vdmVsLAogICAgQXBwSUQuQmFuaywKICAgIEFwcElELlhoc1N0b2NrLAogICAgQXBwSUQuWGhzRnJlZVJvYW0sCiAgICBBcHBJRC5Ccm93c2VyLAogICAgQXBwSUQuU29uZ3dyaXRpbmcsCiAgICBBcHBJRC5NdXNpYywKICAgIEFwcElELkNhbGwsCiAgICBBcHBJRC5Wb2ljZURlc2lnbmVyLAogICAgQXBwSUQuR3VpZGVib29rLAogICAgQXBwSUQuTGlmZVNpbSwKICAgIEFwcElELk1lbW9yeVBhbGFjZSwKICAgIEFwcElELkhhbmRib29rLAogICAgQXBwSUQuUVFCcmlkZ2UsCiAgICBBcHBJRC5Ib3ROZXdzLAogICAgQXBwSUQuV29ybGRIb21lLAogICAgQXBwSUQuQ2hhckNyZWF0b3JEZXYsCiAgICBBcHBJRC5TcGVjaWFsTW9tZW50cywKXSk7CgovLyDlpJblo7PmmK/lkKbpnIDopoHmm7/ov5nkuKogQXBwIOiuqeWHuuWuieWFqOWMuu+8muS4jeWcqOiHqueQhuWQjeWNlemHjOeahOaJjemcgOimgeOAggpleHBvcnQgY29uc3Qgc2hlbGxIYW5kbGVzU2FmZUFyZWEgPSAoYXBwSWQ6IEFwcElEKTogYm9vbGVhbiA9PiAhU0VMRl9TQUZFX0FSRUFfQVBQUy5oYXMoYXBwSWQpOwo=
+import { AppID } from '../types';
+
+// 「自理安全区」的 App 名单：这些 App 自己把内容铺满到刘海/home 条下，并用
+// --chrome-top / --safe-bottom 给顶/底控件让位，所以外壳（PhoneShell）不再统一加 padding，
+// 刘海那块显示的就是 App 自己的背景色，实现顶部无缝。
+// 不在名单里的 App 仍由外壳兜底让位安全区（见 docs：TODO(safe-area-A) 迁移计划）。
+export const SELF_SAFE_AREA_APPS: ReadonlySet<AppID> = new Set<AppID>([
+    AppID.Launcher,
+    AppID.VRWorld,
+    AppID.Chat,
+    AppID.GroupChat,
+    AppID.Social,
+    // 批量迁移（顶栏自理 safe-top，外层/内层拆见各 App）：
+    AppID.Settings,
+    AppID.Character,
+    AppID.ThemeMaker,
+    AppID.Appearance,
+    AppID.Gallery,
+    AppID.Date,
+    AppID.User,
+    AppID.Journal,
+    AppID.Schedule,
+    AppID.Room,
+    AppID.CheckPhone,
+    AppID.Study,
+    AppID.FAQ,
+    AppID.Game,
+    AppID.Worldbook,
+    AppID.Novel,
+    AppID.Bank,
+    AppID.XhsStock,
+    AppID.XhsFreeRoam,
+    AppID.Browser,
+    AppID.Songwriting,
+    AppID.Music,
+    AppID.Call,
+    AppID.VoiceDesigner,
+    AppID.Guidebook,
+    AppID.LifeSim,
+    AppID.MemoryPalace,
+    AppID.Handbook,
+    AppID.QQBridge,
+    AppID.HotNews,
+    AppID.WorldHome,
+    AppID.CharCreatorDev,
+    AppID.SpecialMoments,
+]);
+
+// 外壳是否需要替这个 App 让出安全区：不在自理名单里的才需要。
+export const shellHandlesSafeArea = (appId: AppID): boolean => !SELF_SAFE_AREA_APPS.has(appId);

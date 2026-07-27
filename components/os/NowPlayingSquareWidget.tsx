@@ -1,1 +1,285 @@
-LyoqCiAqIOaWueW9ouOAjOato+WcqOaSreaUvuOAjee7hOS7tiDigJQg55So5LqO5qGM6Z2i56ys5LqM6aG155qE6aOO6L2m5biD5bGACiAqIOKAlCDlhajlsYAgTXVzaWMgQ29udGV4dCDpqbHliqjvvIzngrnlh7vot7PliLAgTXVzaWMgQXBw44CCCiAqIOKAlCDloavmu6HniLblrrnlmajvvIjnlLHniLbnmoQgYXNwZWN0LXNxdWFyZSDnuqbmnZ/miJDmlrnlvaLvvInjgIIKICovCmltcG9ydCBSZWFjdCBmcm9tICdyZWFjdCc7CmltcG9ydCB7IFBsYXksIFBhdXNlLCBTa2lwQmFjaywgU2tpcEZvcndhcmQgfSBmcm9tICdAcGhvc3Bob3ItaWNvbnMvcmVhY3QnOwppbXBvcnQgeyBpc1BhcGVyV2FsbHBhcGVyLCB1c2VPUyB9IGZyb20gJy4uLy4uL2NvbnRleHQvT1NDb250ZXh0JzsKaW1wb3J0IHsgdXNlTXVzaWMgfSBmcm9tICcuLi8uLi9jb250ZXh0L011c2ljQ29udGV4dCc7CmltcG9ydCB7IEFwcElEIH0gZnJvbSAnLi4vLi4vdHlwZXMnOwoKY29uc3QgZm9ybWF0VGltZSA9IChzZWM6IG51bWJlcikgPT4gewogIGlmICghaXNGaW5pdGUoc2VjKSB8fCBzZWMgPCAwKSBzZWMgPSAwOwogIGNvbnN0IG0gPSBNYXRoLmZsb29yKHNlYyAvIDYwKTsKICBjb25zdCBzID0gTWF0aC5mbG9vcihzZWMgJSA2MCk7CiAgcmV0dXJuIGAke219OiR7cy50b1N0cmluZygpLnBhZFN0YXJ0KDIsICcwJyl9YDsKfTsKCmNvbnN0IE5vd1BsYXlpbmdTcXVhcmVXaWRnZXQ6IFJlYWN0LkZDPHsgY29udGVudENvbG9yOiBzdHJpbmcgfT4gPSAoeyBjb250ZW50Q29sb3IgfSkgPT4gewogIGNvbnN0IHsgb3BlbkFwcCwgdGhlbWUgfSA9IHVzZU9TKCk7CiAgY29uc3QgeyBjdXJyZW50LCBwbGF5aW5nLCBwcm9ncmVzcywgZHVyYXRpb24sIHRvZ2dsZVBsYXksIG5leHRTb25nLCBwcmV2U29uZyB9ID0gdXNlTXVzaWMoKTsKICBjb25zdCBhY25oID0gdGhlbWUuc2tpbiA9PT0gJ2FuaW1hbGNyb3NzaW5nJzsgLy8g5Yqo5qOu77ya5aW25rK55Y2h54mHICsg6JaE6I236L+b5bqmCiAgY29uc3QgcGFwZXIgPSB0aGVtZS5za2luICE9PSAnYW5pbWFsY3Jvc3NpbmcnICYmIHRoZW1lLnNraW4gIT09ICdtb2JpbGVnYW1lJyAmJiB0aGVtZS5za2luICE9PSAndGFtYWdvdGNoaScgJiYgaXNQYXBlcldhbGxwYXBlcih0aGVtZS53YWxscGFwZXIpOwoKICBjb25zdCBwY3QgPSBkdXJhdGlvbiA+IDAgPyAocHJvZ3Jlc3MgLyBkdXJhdGlvbikgKiAxMDAgOiAwOwogIGNvbnN0IGhhc1NvbmcgPSAhIWN1cnJlbnQ7CgogIGNvbnN0IGFsYnVtUGljID0gY3VycmVudD8uYWxidW1QaWM7CiAgY29uc3QgdGl0bGUgPSBjdXJyZW50Py5uYW1lIHx8ICfmir3kuIDlvKDmnaXlkKwnOwogIGNvbnN0IGFydGlzdHMgPSBjdXJyZW50Py5hcnRpc3RzIHx8ICfigJQg6L276Kem77yM6L+b5YWlJzsKICBjb25zdCBzdGF0dXNUZXh0ID0gIWhhc1NvbmcgPyAnU3RhbmRieScgOiAocGxheWluZyA/ICdOb3cgUGxheWluZycgOiAnUGF1c2VkJyk7CiAgY29uc3QgZG90Q29sb3IgPSBwYXBlciA/ICghaGFzU29uZyA/ICcjYTY2ZjUyJyA6ICcjNzg4MzY5JykgOiAoIWhhc1NvbmcgPyAnI2ZiYmYyNCcgOiAocGxheWluZyA/ICcjNGFkZTgwJyA6ICcjZmJiZjI0JykpOwoKICBjb25zdCBzdG9wUHJvcCA9IChlOiBSZWFjdC5Nb3VzZUV2ZW50KSA9PiB7IGUuc3RvcFByb3BhZ2F0aW9uKCk7IH07CiAgY29uc3QgaGFuZGxlUGxheSA9IChlOiBSZWFjdC5Nb3VzZUV2ZW50KSA9PiB7IGUuc3RvcFByb3BhZ2F0aW9uKCk7IGlmIChoYXNTb25nKSB0b2dnbGVQbGF5KCk7IGVsc2Ugb3BlbkFwcChBcHBJRC5NdXNpYyk7IH07CiAgY29uc3QgaGFuZGxlTmV4dCA9IChlOiBSZWFjdC5Nb3VzZUV2ZW50KSA9PiB7IGUuc3RvcFByb3BhZ2F0aW9uKCk7IGlmIChoYXNTb25nKSBuZXh0U29uZygpOyB9OwogIGNvbnN0IGhhbmRsZVByZXYgPSAoZTogUmVhY3QuTW91c2VFdmVudCkgPT4geyBlLnN0b3BQcm9wYWdhdGlvbigpOyBpZiAoaGFzU29uZykgcHJldlNvbmcoKTsgfTsKCiAgLy8g5Yqo5qOu5b2p6JuL77ya6buR6IO25ZSx5py65biD5bGA77yI5YWo5paw6K6+6K6h77yM6Z2e5Y6f54mI5Z2H6KGh5Zmo5p2h77yJCiAgaWYgKGFjbmgpIHsKICAgIHJldHVybiAoCiAgICAgIDxkaXYKICAgICAgICBvbkNsaWNrPXsoKSA9PiBvcGVuQXBwKEFwcElELk11c2ljKX0KICAgICAgICBjbGFzc05hbWU9InJlbGF0aXZlIHctZnVsbCBoLWZ1bGwgcm91bmRlZC1bMS43NXJlbV0gb3ZlcmZsb3ctaGlkZGVuIGN1cnNvci1wb2ludGVyIGFuaW1hdGUtZmFkZS1pbiB0cmFuc2l0aW9uLXRyYW5zZm9ybSBhY3RpdmU6c2NhbGUtWzAuOThdIGZsZXggZmxleC1jb2wgaXRlbXMtY2VudGVyIGp1c3RpZnktYmV0d2VlbiBwLTMiCiAgICAgICAgc3R5bGU9e3sgYmFja2dyb3VuZDogJ3JnYigyNDcsMjQzLDIyMyknLCBib3JkZXI6ICcycHggc29saWQgI2U4ZTJkNicsIGJveFNoYWRvdzogJzAgNnB4IDE4cHggcmdiYSg2MSw1Miw0MCwwLjEyKScsIGNvbG9yOiAnIzcyNWQ0MicgfX0KICAgICAgPgogICAgICAgIHsvKiDllLHniYcgKyDllLHoh4IgKi99CiAgICAgICAgPGRpdiBjbGFzc05hbWU9InJlbGF0aXZlIG10LTAuNSIgc3R5bGU9e3sgd2lkdGg6ICc1NCUnLCBhc3BlY3RSYXRpbzogJzEgLyAxJyB9fT4KICAgICAgICAgIDxkaXYgY2xhc3NOYW1lPSJhYnNvbHV0ZSBpbnNldC0wIHJvdW5kZWQtZnVsbCIKICAgICAgICAgICAgc3R5bGU9e3sKICAgICAgICAgICAgICBiYWNrZ3JvdW5kOiAncmVwZWF0aW5nLXJhZGlhbC1ncmFkaWVudChjaXJjbGUgYXQgNTAlIDUwJSwgIzJiMjMxZCAwIDJweCwgIzNhMmUyNiAycHggMy41cHgpJywKICAgICAgICAgICAgICBib3hTaGFkb3c6ICdpbnNldCAwIDAgMCAycHggIzFmMTgxMywgMCA0cHggMTBweCByZ2JhKDYxLDUyLDQwLDAuMjgpJywKICAgICAgICAgICAgICBhbmltYXRpb246IHBsYXlpbmcgPyAnc3BpbiA2cyBsaW5lYXIgaW5maW5pdGUnIDogJ25vbmUnLAogICAgICAgICAgICB9fT4KICAgICAgICAgICAgPGRpdiBjbGFzc05hbWU9ImFic29sdXRlIGluc2V0LVszNCVdIHJvdW5kZWQtZnVsbCBvdmVyZmxvdy1oaWRkZW4gZmxleCBpdGVtcy1jZW50ZXIganVzdGlmeS1jZW50ZXIiCiAgICAgICAgICAgICAgc3R5bGU9e3sgYmFja2dyb3VuZDogJyNGN0NENjcnLCBib3hTaGFkb3c6ICcwIDAgMCAycHggI2UwYjg0YScgfX0+CiAgICAgICAgICAgICAge2FsYnVtUGljCiAgICAgICAgICAgICAgICA/IDxpbWcgc3JjPXthbGJ1bVBpY30gYWx0PSIiIGNsYXNzTmFtZT0idy1mdWxsIGgtZnVsbCBvYmplY3QtY292ZXIiIC8+CiAgICAgICAgICAgICAgICA6IDxzcGFuIGNsYXNzTmFtZT0idGV4dC1bMTFweF0gZm9udC1ibGFjayB0ZXh0LVsjN2E1YzFlXSI+4pmqPC9zcGFuPn0KICAgICAgICAgICAgPC9kaXY+CiAgICAgICAgICAgIDxkaXYgY2xhc3NOYW1lPSJhYnNvbHV0ZSBsZWZ0LTEvMiB0b3AtMS8yIHctMS41IGgtMS41IC10cmFuc2xhdGUteC0xLzIgLXRyYW5zbGF0ZS15LTEvMiByb3VuZGVkLWZ1bGwiIHN0eWxlPXt7IGJhY2tncm91bmQ6ICcjMWYxODEzJyB9fSAvPgogICAgICAgICAgPC9kaXY+CiAgICAgICAgICB7Lyog5ZSx6IeCICovfQogICAgICAgICAgPGRpdiBjbGFzc05hbWU9ImFic29sdXRlIC10b3AtMSAtcmlnaHQtMSB3LTMgaC0zIHJvdW5kZWQtZnVsbCB6LTEwIiBzdHlsZT17eyBiYWNrZ3JvdW5kOiAnI2NkYmZhMCcsIGJveFNoYWRvdzogJzAgMXB4IDJweCByZ2JhKDYxLDUyLDQwLDAuMyknIH19IC8+CiAgICAgICAgICA8ZGl2IGNsYXNzTmFtZT0iYWJzb2x1dGUgdG9wLTAgcmlnaHQtMCB3LVszcHhdIHJvdW5kZWQtZnVsbCB6LTEwIG9yaWdpbi10b3AtcmlnaHQgdHJhbnNpdGlvbi10cmFuc2Zvcm0gZHVyYXRpb24tNTAwIgogICAgICAgICAgICBzdHlsZT17eyBoZWlnaHQ6ICc2MiUnLCBiYWNrZ3JvdW5kOiAnI2I4YTk4OCcsIHRyYW5zZm9ybTogcGxheWluZyA/ICdyb3RhdGUoMjJkZWcpJyA6ICdyb3RhdGUoNDJkZWcpJywgYm94U2hhZG93OiAnMCAxcHggMnB4IHJnYmEoNjEsNTIsNDAsMC4yNSknIH19IC8+CiAgICAgICAgPC9kaXY+CgogICAgICAgIHsvKiDmm7LlkI0gKi99CiAgICAgICAgPGRpdiBjbGFzc05hbWU9InRleHQtY2VudGVyIG1pbi13LTAgdy1mdWxsIHB4LTEiPgogICAgICAgICAgPGRpdiBjbGFzc05hbWU9InRleHQtWzExcHhdIGZvbnQtYm9sZCB0cnVuY2F0ZSBsZWFkaW5nLXRpZ2h0Ij57dGl0bGV9PC9kaXY+CiAgICAgICAgICA8ZGl2IGNsYXNzTmFtZT0idGV4dC1bOXB4XSB0cnVuY2F0ZSBsZWFkaW5nLXRpZ2h0IiBzdHlsZT17eyBjb2xvcjogJyM5ZjkyN2QnIH19PnthcnRpc3RzfTwvZGl2PgogICAgICAgIDwvZGl2PgoKICAgICAgICB7Lyog5o6n5Lu277ya5ZyG5b2iIEFDIOaMiemSriAqL30KICAgICAgICA8ZGl2IGNsYXNzTmFtZT0iZmxleCBpdGVtcy1jZW50ZXIganVzdGlmeS1jZW50ZXIgZ2FwLTMiPgogICAgICAgICAgPGJ1dHRvbiBhcmlhLWxhYmVsPSJQcmV2aW91cyIgb25DbGljaz17aGFuZGxlUHJldn0gb25Nb3VzZURvd249e3N0b3BQcm9wfSBkaXNhYmxlZD17IWhhc1Nvbmd9CiAgICAgICAgICAgIGNsYXNzTmFtZT0idy03IGgtNyByb3VuZGVkLWZ1bGwgZmxleCBpdGVtcy1jZW50ZXIganVzdGlmeS1jZW50ZXIgYWN0aXZlOnNjYWxlLTkwIHRyYW5zaXRpb24gZGlzYWJsZWQ6b3BhY2l0eS0zMCIKICAgICAgICAgICAgc3R5bGU9e3sgYmFja2dyb3VuZDogJyNmZmYnLCBib3JkZXI6ICcycHggc29saWQgI2UwZDZjMCcsIGNvbG9yOiAnIzcyNWQ0MicgfX0+CiAgICAgICAgICAgIDxTa2lwQmFjayBzaXplPXsxMn0gd2VpZ2h0PSJmaWxsIiAvPgogICAgICAgICAgPC9idXR0b24+CiAgICAgICAgICA8YnV0dG9uIGFyaWEtbGFiZWw9e3BsYXlpbmcgPyAnUGF1c2UnIDogJ1BsYXknfSBvbkNsaWNrPXtoYW5kbGVQbGF5fSBvbk1vdXNlRG93bj17c3RvcFByb3B9CiAgICAgICAgICAgIGNsYXNzTmFtZT0idy05IGgtOSByb3VuZGVkLWZ1bGwgZmxleCBpdGVtcy1jZW50ZXIganVzdGlmeS1jZW50ZXIgYWN0aXZlOnNjYWxlLTk1IHRyYW5zaXRpb24iCiAgICAgICAgICAgIHN0eWxlPXt7IGJhY2tncm91bmQ6ICcjMTljOGI5JywgY29sb3I6ICcjZmZmJywgYm94U2hhZG93OiAnMCAzcHggMCAwICMxMmE4OWInIH19PgogICAgICAgICAgICB7cGxheWluZyA/IDxQYXVzZSBzaXplPXsxNX0gd2VpZ2h0PSJmaWxsIiAvPiA6IDxQbGF5IHNpemU9ezE1fSB3ZWlnaHQ9ImZpbGwiIC8+fQogICAgICAgICAgPC9idXR0b24+CiAgICAgICAgICA8YnV0dG9uIGFyaWEtbGFiZWw9Ik5leHQiIG9uQ2xpY2s9e2hhbmRsZU5leHR9IG9uTW91c2VEb3duPXtzdG9wUHJvcH0gZGlzYWJsZWQ9eyFoYXNTb25nfQogICAgICAgICAgICBjbGFzc05hbWU9InctNyBoLTcgcm91bmRlZC1mdWxsIGZsZXggaXRlbXMtY2VudGVyIGp1c3RpZnktY2VudGVyIGFjdGl2ZTpzY2FsZS05MCB0cmFuc2l0aW9uIGRpc2FibGVkOm9wYWNpdHktMzAiCiAgICAgICAgICAgIHN0eWxlPXt7IGJhY2tncm91bmQ6ICcjZmZmJywgYm9yZGVyOiAnMnB4IHNvbGlkICNlMGQ2YzAnLCBjb2xvcjogJyM3MjVkNDInIH19PgogICAgICAgICAgICA8U2tpcEZvcndhcmQgc2l6ZT17MTJ9IHdlaWdodD0iZmlsbCIgLz4KICAgICAgICAgIDwvYnV0dG9uPgogICAgICAgIDwvZGl2PgogICAgICA8L2Rpdj4KICAgICk7CiAgfQoKICAvLyDmtYXoibLns7vlj5jkvZPvvIjlpJbop4Lorr7nva7lj6/liIfmjaLvvInvvJrnmb3ljaEgKyDmt7HlrZfvvIznu5nkuI3llpzmrKLmt7HoibLnjrvnkoPljaHnmoTnlKjmiLfjgIIKICBjb25zdCBsaWdodCA9ICEhdGhlbWUubm93UGxheWluZ1dpZGdldExpZ2h0OwogIGNvbnN0IHBhbGV0dGUgPSBwYXBlcgogICAgPyB7CiAgICAgICAgdGV4dENvbG9yOiAnIzRiNDEzNicsCiAgICAgICAgY2FyZEJnOiAncmdiYSgyMjQsMjIxLDIxNSwwLjM4KScsCiAgICAgICAgY2FyZEJvcmRlcjogJzFweCBzb2xpZCByZ2JhKDkxLDcyLDUxLDAuMDcpJywKICAgICAgICBjYXJkU2hhZG93OiAnMCA1cHggMTZweCByZ2JhKDkxLDcyLDUxLDAuMDU1KScsCiAgICAgICAgY292ZXJPcGFjaXR5OiAwLjE0LAogICAgICAgIGlkbGVHbG93OgogICAgICAgICAgJ3JhZGlhbC1ncmFkaWVudCgxMTAlIDkwJSBhdCAxMDAlIDEwMCUsIHJnYmEoMTY2LDExMSw4MiwwLjA4KSwgdHJhbnNwYXJlbnQgNTglKSwnICsKICAgICAgICAgICdyYWRpYWwtZ3JhZGllbnQoMTAwJSA4MCUgYXQgMCUgMCUsIHJnYmEoMTIwLDEzMSwxMDUsMC4xMCksIHRyYW5zcGFyZW50IDYyJSknLAogICAgICAgIHRodW1iQmc6ICdyZ2JhKDEyMCwxMzEsMTA1LDAuMDgpJywKICAgICAgICB0aHVtYkJvcmRlcjogJzFweCBzb2xpZCByZ2JhKDkxLDcyLDUxLDAuMTIpJywKICAgICAgICB0cmFja0JnOiAncmdiYSg5MSw3Miw1MSwwLjEyKScsCiAgICAgICAgcGxheUJnOiAnIzVmNjg0ZicsCiAgICAgICAgcGxheUNvbG9yOiAnI2ZmZmRmOCcsCiAgICAgIH0KICAgIDogbGlnaHQgPyB7CiAgICAgICAgdGV4dENvbG9yOiAnIzQ2NDE1YycsCiAgICAgICAgY2FyZEJnOiAncmdiYSgyNTUsMjU1LDI1NSwwLjc0KScsCiAgICAgICAgY2FyZEJvcmRlcjogJzFweCBzb2xpZCByZ2JhKDEyMCwxMTAsMTUwLDAuMTgpJywKICAgICAgICBjYXJkU2hhZG93OiAnMCA4cHggMjRweCByZ2JhKDgwLDcwLDEyMCwwLjE2KSwgaW5zZXQgMCAxcHggMCByZ2JhKDI1NSwyNTUsMjU1LDAuNyknLAogICAgICAgIGNvdmVyT3BhY2l0eTogMC4yLAogICAgICAgIGlkbGVHbG93OgogICAgICAgICAgJ3JhZGlhbC1ncmFkaWVudCgxMjAlIDEwMCUgYXQgOTUlIDEwMCUsIHJnYmEoMTY4LDE0MCwyNDAsMC4xOCksIHRyYW5zcGFyZW50IDU1JSksJyArCiAgICAgICAgICAncmFkaWFsLWdyYWRpZW50KDEwMCUgODAlIGF0IDAlIDAlLCByZ2JhKDEyMCwxNjUsMjUwLDAuMTYpLCB0cmFuc3BhcmVudCA2MCUpJywKICAgICAgICB0aHVtYkJnOiAncmdiYSgxMjAsMTEwLDE1MCwwLjEpJywKICAgICAgICB0aHVtYkJvcmRlcjogJzFweCBzb2xpZCByZ2JhKDEyMCwxMTAsMTUwLDAuMjIpJywKICAgICAgICB0cmFja0JnOiAncmdiYSg3MCw2NSw5MiwwLjE0KScsCiAgICAgICAgcGxheUJnOiAnIzZiNWZhOCcsCiAgICAgICAgcGxheUNvbG9yOiAnI2ZmZmZmZicsCiAgICAgIH0KICAgIDogewogICAgICAgIHRleHRDb2xvcjogY29udGVudENvbG9yLAogICAgICAgIGNhcmRCZzogJ3JnYmEoMjAsMTgsMjQsMC44MiknLAogICAgICAgIGNhcmRCb3JkZXI6ICcxcHggc29saWQgcmdiYSgyNTUsMjU1LDI1NSwwLjE0KScsCiAgICAgICAgY2FyZFNoYWRvdzogJzAgOHB4IDMwcHggcmdiYSgwLDAsMCwwLjIyKSwgaW5zZXQgMCAxcHggMCByZ2JhKDI1NSwyNTUsMjU1LDAuMDcpJywKICAgICAgICBjb3Zlck9wYWNpdHk6IDAuMzUsCiAgICAgICAgaWRsZUdsb3c6CiAgICAgICAgICAncmFkaWFsLWdyYWRpZW50KDEyMCUgMTAwJSBhdCA5NSUgMTAwJSwgcmdiYSgxOTIsMTMyLDI1MiwwLjIyKSwgdHJhbnNwYXJlbnQgNTUlKSwnICsKICAgICAgICAgICdyYWRpYWwtZ3JhZGllbnQoMTAwJSA4MCUgYXQgMCUgMCUsIHJnYmEoOTYsMTY1LDI1MCwwLjE0KSwgdHJhbnNwYXJlbnQgNjAlKScsCiAgICAgICAgdGh1bWJCZzogJ3JnYmEoMjU1LDI1NSwyNTUsMC4xKScsCiAgICAgICAgdGh1bWJCb3JkZXI6ICcxcHggc29saWQgcmdiYSgyNTUsMjU1LDI1NSwwLjE4KScsCiAgICAgICAgdHJhY2tCZzogJ3JnYmEoMjU1LDI1NSwyNTUsMC4xNSknLAogICAgICAgIHBsYXlCZzogY29udGVudENvbG9yLAogICAgICAgIHBsYXlDb2xvcjogJ3JnYmEoMjAsMTgsMjQsMC45NSknLAogICAgICB9OwoKICByZXR1cm4gKAogICAgPGRpdgogICAgICBvbkNsaWNrPXsoKSA9PiBvcGVuQXBwKEFwcElELk11c2ljKX0KICAgICAgY2xhc3NOYW1lPSJyZWxhdGl2ZSB3LWZ1bGwgaC1mdWxsIHJvdW5kZWQtWzEuNzVyZW1dIG92ZXJmbG93LWhpZGRlbiBjdXJzb3ItcG9pbnRlciBhbmltYXRlLWZhZGUtaW4gZ3JvdXAgdHJhbnNpdGlvbi10cmFuc2Zvcm0gYWN0aXZlOnNjYWxlLVswLjk4XSBmbGV4IGZsZXgtY29sIGp1c3RpZnktYmV0d2VlbiIKICAgICAgc3R5bGU9e3sKICAgICAgICBiYWNrZ3JvdW5kOiBwYWxldHRlLmNhcmRCZywKICAgICAgICBib3JkZXI6IHBhbGV0dGUuY2FyZEJvcmRlciwKICAgICAgICBib3hTaGFkb3c6IHBhbGV0dGUuY2FyZFNoYWRvdywKICAgICAgICBwYWRkaW5nOiAnMTJweCcsCiAgICAgICAgY29sb3I6IHBhbGV0dGUudGV4dENvbG9yLAogICAgICB9fQogICAgPgogICAgICB7Lyog6IOM5pmv5bCB6Z2i77yI5LiN5YaN5a6e5pe2IGJsdXIg4oCUIOaUueeUqOS9jumAj+aYjuW6puimhueblu+8iSAqL30KICAgICAge2FsYnVtUGljID8gKAogICAgICAgIDxkaXYgY2xhc3NOYW1lPSJhYnNvbHV0ZSBpbnNldC0wIHBvaW50ZXItZXZlbnRzLW5vbmUiCiAgICAgICAgICBzdHlsZT17ewogICAgICAgICAgICBiYWNrZ3JvdW5kSW1hZ2U6IGB1cmwoJHthbGJ1bVBpY30pYCwKICAgICAgICAgICAgYmFja2dyb3VuZFNpemU6ICdjb3ZlcicsCiAgICAgICAgICAgIGJhY2tncm91bmRQb3NpdGlvbjogJ2NlbnRlcicsCiAgICAgICAgICAgIHRyYW5zZm9ybTogJ3NjYWxlKDEuMSknLAogICAgICAgICAgICBvcGFjaXR5OiBwYWxldHRlLmNvdmVyT3BhY2l0eSwKICAgICAgICAgIH19CiAgICAgICAgLz4KICAgICAgKSA6ICgKICAgICAgICA8ZGl2IGNsYXNzTmFtZT0iYWJzb2x1dGUgaW5zZXQtMCBwb2ludGVyLWV2ZW50cy1ub25lIgogICAgICAgICAgc3R5bGU9e3sgYmFja2dyb3VuZDogcGFsZXR0ZS5pZGxlR2xvdyB9fQogICAgICAgIC8+CiAgICAgICl9CgogICAgICB7Lyog6aG26YOo77ya5bCB6Z2iICsg5paH5a2XICovfQogICAgICA8ZGl2IGNsYXNzTmFtZT0icmVsYXRpdmUgZmxleCBpdGVtcy1jZW50ZXIgZ2FwLTIgei0xMCBtaW4tdy0wIj4KICAgICAgICA8ZGl2CiAgICAgICAgICBjbGFzc05hbWU9InctOSBoLTkgc2hyaW5rLTAgcm91bmRlZC1sZyBvdmVyZmxvdy1oaWRkZW4gcmVsYXRpdmUiCiAgICAgICAgICBzdHlsZT17ewogICAgICAgICAgICBiYWNrZ3JvdW5kOiBwYWxldHRlLnRodW1iQmcsCiAgICAgICAgICAgIGJvcmRlcjogcGFsZXR0ZS50aHVtYkJvcmRlciwKICAgICAgICAgICAgYm94U2hhZG93OiBwYXBlciA/ICcwIDNweCA5cHggcmdiYSg5MSw3Miw1MSwwLjEwKScgOiBsaWdodCA/ICcwIDJweCA4cHggcmdiYSg4MCw3MCwxMjAsMC4xNCknIDogJzAgMnB4IDhweCByZ2JhKDAsMCwwLDAuMjUpJywKICAgICAgICAgIH19CiAgICAgICAgPgogICAgICAgICAge2FsYnVtUGljID8gKAogICAgICAgICAgICA8aW1nIHNyYz17YWxidW1QaWN9IGFsdD0iIiBjbGFzc05hbWU9InctZnVsbCBoLWZ1bGwgb2JqZWN0LWNvdmVyIgogICAgICAgICAgICAgIHN0eWxlPXt7IGFuaW1hdGlvbjogcGxheWluZyA/ICdzcGluIDE0cyBsaW5lYXIgaW5maW5pdGUnIDogJ25vbmUnIH19IC8+CiAgICAgICAgICApIDogKAogICAgICAgICAgICA8ZGl2IGNsYXNzTmFtZT0idy1mdWxsIGgtZnVsbCBmbGV4IGl0ZW1zLWNlbnRlciBqdXN0aWZ5LWNlbnRlciI+CiAgICAgICAgICAgICAgPHNwYW4gY2xhc3NOYW1lPSJ0ZXh0LVsxMHB4XSBmb250LWJvbGQgb3BhY2l0eS01MCIgc3R5bGU9e3sgbGV0dGVyU3BhY2luZzogJzAuMTVlbScgfX0+4pmqPC9zcGFuPgogICAgICAgICAgICA8L2Rpdj4KICAgICAgICAgICl9CiAgICAgICAgPC9kaXY+CiAgICAgICAgPGRpdiBjbGFzc05hbWU9ImZsZXgtMSBtaW4tdy0wIj4KICAgICAgICAgIDxkaXYgY2xhc3NOYW1lPSJmbGV4IGl0ZW1zLWNlbnRlciBnYXAtMSBtYi0wLjUiPgogICAgICAgICAgICA8c3BhbiBjbGFzc05hbWU9InctMSBoLTEgcm91bmRlZC1mdWxsIHNocmluay0wIgogICAgICAgICAgICAgIHN0eWxlPXt7CiAgICAgICAgICAgICAgICBiYWNrZ3JvdW5kOiBkb3RDb2xvciwKICAgICAgICAgICAgICAgIGJveFNoYWRvdzogcGxheWluZyA/IGAwIDAgNnB4ICR7ZG90Q29sb3J9YCA6ICdub25lJywKICAgICAgICAgICAgICAgIGFuaW1hdGlvbjogcGxheWluZyA/ICdwdWxzZSAycyBlYXNlLWluLW91dCBpbmZpbml0ZScgOiAnbm9uZScsCiAgICAgICAgICAgICAgfX0gLz4KICAgICAgICAgICAgPHNwYW4gY2xhc3NOYW1lPSJ0ZXh0LVs3LjVweF0gdXBwZXJjYXNlIGZvbnQtYm9sZCBvcGFjaXR5LTU1IiBzdHlsZT17eyBsZXR0ZXJTcGFjaW5nOiAnMC4yMmVtJyB9fT4KICAgICAgICAgICAgICB7c3RhdHVzVGV4dH0KICAgICAgICAgICAgPC9zcGFuPgogICAgICAgICAgPC9kaXY+CiAgICAgICAgICA8ZGl2IGNsYXNzTmFtZT0idGV4dC1bMTEuNXB4XSBmb250LXNlbWlib2xkIHRydW5jYXRlIGxlYWRpbmctdGlnaHQiPnt0aXRsZX08L2Rpdj4KICAgICAgICAgIDxkaXYgY2xhc3NOYW1lPSJ0ZXh0LVs5cHhdIG9wYWNpdHktNTUgdHJ1bmNhdGUgbGVhZGluZy10aWdodCBtdC1bMXB4XSI+e2FydGlzdHN9PC9kaXY+CiAgICAgICAgPC9kaXY+CiAgICAgIDwvZGl2PgoKICAgICAgey8qIOS4remXtO+8muWdh+ihoeWZqOadoSAqL30KICAgICAgPGRpdiBjbGFzc05hbWU9InJlbGF0aXZlIGZsZXgtMSBmbGV4IGl0ZW1zLWNlbnRlciBqdXN0aWZ5LWNlbnRlciBnYXAtWzNweF0gei0xMCBvcGFjaXR5LTQwIHB5LTEiPgogICAgICAgIHtbNSwgOSwgNCwgNywgNSwgOCwgNF0ubWFwKChoLCBpKSA9PiAoCiAgICAgICAgICA8ZGl2CiAgICAgICAgICAgIGtleT17aX0KICAgICAgICAgICAgY2xhc3NOYW1lPSJ3LVsycHhdIHJvdW5kZWQtZnVsbCIKICAgICAgICAgICAgc3R5bGU9e3sKICAgICAgICAgICAgICBoZWlnaHQ6IGAke2ggKiAxLjJ9cHhgLAogICAgICAgICAgICAgIGJhY2tncm91bmQ6ICdjdXJyZW50Q29sb3InLAogICAgICAgICAgICAgIGFuaW1hdGlvbjogcGxheWluZyA/IGBwdWxzZSAkezEuMiArIChpICogMC4xKX1zIGVhc2UtaW4tb3V0IGluZmluaXRlYCA6ICdub25lJywKICAgICAgICAgICAgICBhbmltYXRpb25EZWxheTogYCR7aSAqIDcwfW1zYCwKICAgICAgICAgICAgfX0KICAgICAgICAgIC8+CiAgICAgICAgKSl9CiAgICAgIDwvZGl2PgoKICAgICAgey8qIOW6lemDqO+8mui/m+W6piArIOaOp+S7tiAqL30KICAgICAgPGRpdiBjbGFzc05hbWU9InJlbGF0aXZlIHotMTAgZmxleCBmbGV4LWNvbCBnYXAtMS41Ij4KICAgICAgICB7Lyog6L+b5bqm5p2hICovfQogICAgICAgIDxkaXYgY2xhc3NOYW1lPSJmbGV4IGZsZXgtY29sIGdhcC0wLjUiPgogICAgICAgICAgPGRpdiBjbGFzc05hbWU9ImgtWzNweF0gdy1mdWxsIHJvdW5kZWQtZnVsbCBvdmVyZmxvdy1oaWRkZW4iCiAgICAgICAgICAgIHN0eWxlPXt7IGJhY2tncm91bmQ6IGFjbmggPyAncmdiYSg5NCw3Miw1OSwwLjE1KScgOiBwYWxldHRlLnRyYWNrQmcgfX0+CiAgICAgICAgICAgIDxkaXYgY2xhc3NOYW1lPSJoLWZ1bGwgcm91bmRlZC1mdWxsIHRyYW5zaXRpb24tW3dpZHRoXSBkdXJhdGlvbi0xNTAiCiAgICAgICAgICAgICAgc3R5bGU9e3sKICAgICAgICAgICAgICAgIHdpZHRoOiBgJHtwY3R9JWAsCiAgICAgICAgICAgICAgICBiYWNrZ3JvdW5kOiBhY25oID8gJ2xpbmVhci1ncmFkaWVudCg5MGRlZywgIzgyRDVCQiwgIzZmYmEyYyknIDogcGFwZXIgPyAnbGluZWFyLWdyYWRpZW50KDkwZGVnLCAjYTY2ZjUyLCAjNzg4MzY5KScgOiAnbGluZWFyLWdyYWRpZW50KDkwZGVnLCAjNjBhNWZhLCAjYzA4NGZjKScsCiAgICAgICAgICAgICAgICBib3hTaGFkb3c6IGFjbmggfHwgcGFwZXIgPyAnbm9uZScgOiAnMCAwIDZweCByZ2JhKDE5MiwxMzIsMjUyLDAuNTUpJywKICAgICAgICAgICAgICB9fSAvPgogICAgICAgICAgPC9kaXY+CiAgICAgICAgICA8ZGl2IGNsYXNzTmFtZT0iZmxleCBqdXN0aWZ5LWJldHdlZW4gdGV4dC1bNy41cHhdIHVwcGVyY2FzZSBmb250LW1lZGl1bSBvcGFjaXR5LTUwIiBzdHlsZT17eyBsZXR0ZXJTcGFjaW5nOiAnMC4xNWVtJyB9fT4KICAgICAgICAgICAgPHNwYW4+e2Zvcm1hdFRpbWUocHJvZ3Jlc3MpfTwvc3Bhbj4KICAgICAgICAgICAgPHNwYW4+e2hhc1NvbmcgPyBgLSR7Zm9ybWF0VGltZShNYXRoLm1heCgwLCBkdXJhdGlvbiAtIHByb2dyZXNzKSl9YCA6ICctLTotLSd9PC9zcGFuPgogICAgICAgICAgPC9kaXY+CiAgICAgICAgPC9kaXY+CgogICAgICAgIHsvKiDmkq3mlL7mjqfku7YgKi99CiAgICAgICAgPGRpdiBjbGFzc05hbWU9ImZsZXgganVzdGlmeS1jZW50ZXIgaXRlbXMtY2VudGVyIGdhcC0zIj4KICAgICAgICAgIDxidXR0b24KICAgICAgICAgICAgYXJpYS1sYWJlbD0iUHJldmlvdXMiCiAgICAgICAgICAgIG9uQ2xpY2s9e2hhbmRsZVByZXZ9CiAgICAgICAgICAgIG9uTW91c2VEb3duPXtzdG9wUHJvcH0KICAgICAgICAgICAgY2xhc3NOYW1lPSJ3LTYgaC02IGZsZXggaXRlbXMtY2VudGVyIGp1c3RpZnktY2VudGVyIG9wYWNpdHktNzAgaG92ZXI6b3BhY2l0eS0xMDAgYWN0aXZlOnNjYWxlLTkwIHRyYW5zaXRpb24gZGlzYWJsZWQ6b3BhY2l0eS0zMCIKICAgICAgICAgICAgZGlzYWJsZWQ9eyFoYXNTb25nfQogICAgICAgICAgPgogICAgICAgICAgICA8U2tpcEJhY2sgc2l6ZT17MTR9IHdlaWdodD0iZmlsbCIgLz4KICAgICAgICAgIDwvYnV0dG9uPgogICAgICAgICAgPGJ1dHRvbgogICAgICAgICAgICBhcmlhLWxhYmVsPXtwbGF5aW5nID8gJ1BhdXNlJyA6ICdQbGF5J30KICAgICAgICAgICAgb25DbGljaz17aGFuZGxlUGxheX0KICAgICAgICAgICAgb25Nb3VzZURvd249e3N0b3BQcm9wfQogICAgICAgICAgICBjbGFzc05hbWU9InctOSBoLTkgZmxleCBpdGVtcy1jZW50ZXIganVzdGlmeS1jZW50ZXIgcm91bmRlZC1mdWxsIGFjdGl2ZTpzY2FsZS05NSB0cmFuc2l0aW9uIgogICAgICAgICAgICBzdHlsZT17ewogICAgICAgICAgICAgIGJhY2tncm91bmQ6IHBhbGV0dGUucGxheUJnLAogICAgICAgICAgICAgIGNvbG9yOiBwYWxldHRlLnBsYXlDb2xvciwKICAgICAgICAgICAgICBib3hTaGFkb3c6ICcwIDNweCAxMHB4IHJnYmEoMCwwLDAsMC4yMiksIGluc2V0IDAgMXB4IDAgcmdiYSgyNTUsMjU1LDI1NSwwLjMpJywKICAgICAgICAgICAgfX0KICAgICAgICAgID4KICAgICAgICAgICAge3BsYXlpbmcgPyA8UGF1c2Ugc2l6ZT17MTV9IHdlaWdodD0iZmlsbCIgLz4gOiA8UGxheSBzaXplPXsxNX0gd2VpZ2h0PSJmaWxsIiAvPn0KICAgICAgICAgIDwvYnV0dG9uPgogICAgICAgICAgPGJ1dHRvbgogICAgICAgICAgICBhcmlhLWxhYmVsPSJOZXh0IgogICAgICAgICAgICBvbkNsaWNrPXtoYW5kbGVOZXh0fQogICAgICAgICAgICBvbk1vdXNlRG93bj17c3RvcFByb3B9CiAgICAgICAgICAgIGNsYXNzTmFtZT0idy02IGgtNiBmbGV4IGl0ZW1zLWNlbnRlciBqdXN0aWZ5LWNlbnRlciBvcGFjaXR5LTcwIGhvdmVyOm9wYWNpdHktMTAwIGFjdGl2ZTpzY2FsZS05MCB0cmFuc2l0aW9uIGRpc2FibGVkOm9wYWNpdHktMzAiCiAgICAgICAgICAgIGRpc2FibGVkPXshaGFzU29uZ30KICAgICAgICAgID4KICAgICAgICAgICAgPFNraXBGb3J3YXJkIHNpemU9ezE0fSB3ZWlnaHQ9ImZpbGwiIC8+CiAgICAgICAgICA8L2J1dHRvbj4KICAgICAgICA8L2Rpdj4KICAgICAgPC9kaXY+CiAgICA8L2Rpdj4KICApOwp9OwoKZXhwb3J0IGRlZmF1bHQgTm93UGxheWluZ1NxdWFyZVdpZGdldDsK
+/**
+ * 方形「正在播放」组件 — 用于桌面第二页的风车布局
+ * — 全局 Music Context 驱动，点击跳到 Music App。
+ * — 填满父容器（由父的 aspect-square 约束成方形）。
+ */
+import React from 'react';
+import { Play, Pause, SkipBack, SkipForward } from '@phosphor-icons/react';
+import { isPaperWallpaper, useOS } from '../../context/OSContext';
+import { useMusic } from '../../context/MusicContext';
+import { AppID } from '../../types';
+
+const formatTime = (sec: number) => {
+  if (!isFinite(sec) || sec < 0) sec = 0;
+  const m = Math.floor(sec / 60);
+  const s = Math.floor(sec % 60);
+  return `${m}:${s.toString().padStart(2, '0')}`;
+};
+
+const NowPlayingSquareWidget: React.FC<{ contentColor: string }> = ({ contentColor }) => {
+  const { openApp, theme } = useOS();
+  const { current, playing, progress, duration, togglePlay, nextSong, prevSong } = useMusic();
+  const acnh = theme.skin === 'animalcrossing'; // 动森：奶油卡片 + 薄荷进度
+  const paper = theme.skin !== 'animalcrossing' && theme.skin !== 'mobilegame' && theme.skin !== 'tamagotchi' && isPaperWallpaper(theme.wallpaper);
+
+  const pct = duration > 0 ? (progress / duration) * 100 : 0;
+  const hasSong = !!current;
+
+  const albumPic = current?.albumPic;
+  const title = current?.name || '抽一张来听';
+  const artists = current?.artists || '— 轻触，进入';
+  const statusText = !hasSong ? 'Standby' : (playing ? 'Now Playing' : 'Paused');
+  const dotColor = paper ? (!hasSong ? '#a66f52' : '#788369') : (!hasSong ? '#fbbf24' : (playing ? '#4ade80' : '#fbbf24'));
+
+  const stopProp = (e: React.MouseEvent) => { e.stopPropagation(); };
+  const handlePlay = (e: React.MouseEvent) => { e.stopPropagation(); if (hasSong) togglePlay(); else openApp(AppID.Music); };
+  const handleNext = (e: React.MouseEvent) => { e.stopPropagation(); if (hasSong) nextSong(); };
+  const handlePrev = (e: React.MouseEvent) => { e.stopPropagation(); if (hasSong) prevSong(); };
+
+  // 动森彩蛋：黑胶唱机布局（全新设计，非原版均衡器条）
+  if (acnh) {
+    return (
+      <div
+        onClick={() => openApp(AppID.Music)}
+        className="relative w-full h-full rounded-[1.75rem] overflow-hidden cursor-pointer animate-fade-in transition-transform active:scale-[0.98] flex flex-col items-center justify-between p-3"
+        style={{ background: 'rgb(247,243,223)', border: '2px solid #e8e2d6', boxShadow: '0 6px 18px rgba(61,52,40,0.12)', color: '#725d42' }}
+      >
+        {/* 唱片 + 唱臂 */}
+        <div className="relative mt-0.5" style={{ width: '54%', aspectRatio: '1 / 1' }}>
+          <div className="absolute inset-0 rounded-full"
+            style={{
+              background: 'repeating-radial-gradient(circle at 50% 50%, #2b231d 0 2px, #3a2e26 2px 3.5px)',
+              boxShadow: 'inset 0 0 0 2px #1f1813, 0 4px 10px rgba(61,52,40,0.28)',
+              animation: playing ? 'spin 6s linear infinite' : 'none',
+            }}>
+            <div className="absolute inset-[34%] rounded-full overflow-hidden flex items-center justify-center"
+              style={{ background: '#F7CD67', boxShadow: '0 0 0 2px #e0b84a' }}>
+              {albumPic
+                ? <img src={albumPic} alt="" className="w-full h-full object-cover" />
+                : <span className="text-[11px] font-black text-[#7a5c1e]">♪</span>}
+            </div>
+            <div className="absolute left-1/2 top-1/2 w-1.5 h-1.5 -translate-x-1/2 -translate-y-1/2 rounded-full" style={{ background: '#1f1813' }} />
+          </div>
+          {/* 唱臂 */}
+          <div className="absolute -top-1 -right-1 w-3 h-3 rounded-full z-10" style={{ background: '#cdbfa0', boxShadow: '0 1px 2px rgba(61,52,40,0.3)' }} />
+          <div className="absolute top-0 right-0 w-[3px] rounded-full z-10 origin-top-right transition-transform duration-500"
+            style={{ height: '62%', background: '#b8a988', transform: playing ? 'rotate(22deg)' : 'rotate(42deg)', boxShadow: '0 1px 2px rgba(61,52,40,0.25)' }} />
+        </div>
+
+        {/* 曲名 */}
+        <div className="text-center min-w-0 w-full px-1">
+          <div className="text-[11px] font-bold truncate leading-tight">{title}</div>
+          <div className="text-[9px] truncate leading-tight" style={{ color: '#9f927d' }}>{artists}</div>
+        </div>
+
+        {/* 控件：圆形 AC 按钮 */}
+        <div className="flex items-center justify-center gap-3">
+          <button aria-label="Previous" onClick={handlePrev} onMouseDown={stopProp} disabled={!hasSong}
+            className="w-7 h-7 rounded-full flex items-center justify-center active:scale-90 transition disabled:opacity-30"
+            style={{ background: '#fff', border: '2px solid #e0d6c0', color: '#725d42' }}>
+            <SkipBack size={12} weight="fill" />
+          </button>
+          <button aria-label={playing ? 'Pause' : 'Play'} onClick={handlePlay} onMouseDown={stopProp}
+            className="w-9 h-9 rounded-full flex items-center justify-center active:scale-95 transition"
+            style={{ background: '#19c8b9', color: '#fff', boxShadow: '0 3px 0 0 #12a89b' }}>
+            {playing ? <Pause size={15} weight="fill" /> : <Play size={15} weight="fill" />}
+          </button>
+          <button aria-label="Next" onClick={handleNext} onMouseDown={stopProp} disabled={!hasSong}
+            className="w-7 h-7 rounded-full flex items-center justify-center active:scale-90 transition disabled:opacity-30"
+            style={{ background: '#fff', border: '2px solid #e0d6c0', color: '#725d42' }}>
+            <SkipForward size={12} weight="fill" />
+          </button>
+        </div>
+      </div>
+    );
+  }
+
+  // 浅色系变体（外观设置可切换）：白卡 + 深字，给不喜欢深色玻璃卡的用户。
+  const light = !!theme.nowPlayingWidgetLight;
+  const palette = paper
+    ? {
+        textColor: '#4b4136',
+        cardBg: 'rgba(224,221,215,0.38)',
+        cardBorder: '1px solid rgba(91,72,51,0.07)',
+        cardShadow: '0 5px 16px rgba(91,72,51,0.055)',
+        coverOpacity: 0.14,
+        idleGlow:
+          'radial-gradient(110% 90% at 100% 100%, rgba(166,111,82,0.08), transparent 58%),' +
+          'radial-gradient(100% 80% at 0% 0%, rgba(120,131,105,0.10), transparent 62%)',
+        thumbBg: 'rgba(120,131,105,0.08)',
+        thumbBorder: '1px solid rgba(91,72,51,0.12)',
+        trackBg: 'rgba(91,72,51,0.12)',
+        playBg: '#5f684f',
+        playColor: '#fffdf8',
+      }
+    : light ? {
+        textColor: '#46415c',
+        cardBg: 'rgba(255,255,255,0.74)',
+        cardBorder: '1px solid rgba(120,110,150,0.18)',
+        cardShadow: '0 8px 24px rgba(80,70,120,0.16), inset 0 1px 0 rgba(255,255,255,0.7)',
+        coverOpacity: 0.2,
+        idleGlow:
+          'radial-gradient(120% 100% at 95% 100%, rgba(168,140,240,0.18), transparent 55%),' +
+          'radial-gradient(100% 80% at 0% 0%, rgba(120,165,250,0.16), transparent 60%)',
+        thumbBg: 'rgba(120,110,150,0.1)',
+        thumbBorder: '1px solid rgba(120,110,150,0.22)',
+        trackBg: 'rgba(70,65,92,0.14)',
+        playBg: '#6b5fa8',
+        playColor: '#ffffff',
+      }
+    : {
+        textColor: contentColor,
+        cardBg: 'rgba(20,18,24,0.82)',
+        cardBorder: '1px solid rgba(255,255,255,0.14)',
+        cardShadow: '0 8px 30px rgba(0,0,0,0.22), inset 0 1px 0 rgba(255,255,255,0.07)',
+        coverOpacity: 0.35,
+        idleGlow:
+          'radial-gradient(120% 100% at 95% 100%, rgba(192,132,252,0.22), transparent 55%),' +
+          'radial-gradient(100% 80% at 0% 0%, rgba(96,165,250,0.14), transparent 60%)',
+        thumbBg: 'rgba(255,255,255,0.1)',
+        thumbBorder: '1px solid rgba(255,255,255,0.18)',
+        trackBg: 'rgba(255,255,255,0.15)',
+        playBg: contentColor,
+        playColor: 'rgba(20,18,24,0.95)',
+      };
+
+  return (
+    <div
+      onClick={() => openApp(AppID.Music)}
+      className="relative w-full h-full rounded-[1.75rem] overflow-hidden cursor-pointer animate-fade-in group transition-transform active:scale-[0.98] flex flex-col justify-between"
+      style={{
+        background: palette.cardBg,
+        border: palette.cardBorder,
+        boxShadow: palette.cardShadow,
+        padding: '12px',
+        color: palette.textColor,
+      }}
+    >
+      {/* 背景封面（不再实时 blur — 改用低透明度覆盖） */}
+      {albumPic ? (
+        <div className="absolute inset-0 pointer-events-none"
+          style={{
+            backgroundImage: `url(${albumPic})`,
+            backgroundSize: 'cover',
+            backgroundPosition: 'center',
+            transform: 'scale(1.1)',
+            opacity: palette.coverOpacity,
+          }}
+        />
+      ) : (
+        <div className="absolute inset-0 pointer-events-none"
+          style={{ background: palette.idleGlow }}
+        />
+      )}
+
+      {/* 顶部：封面 + 文字 */}
+      <div className="relative flex items-center gap-2 z-10 min-w-0">
+        <div
+          className="w-9 h-9 shrink-0 rounded-lg overflow-hidden relative"
+          style={{
+            background: palette.thumbBg,
+            border: palette.thumbBorder,
+            boxShadow: paper ? '0 3px 9px rgba(91,72,51,0.10)' : light ? '0 2px 8px rgba(80,70,120,0.14)' : '0 2px 8px rgba(0,0,0,0.25)',
+          }}
+        >
+          {albumPic ? (
+            <img src={albumPic} alt="" className="w-full h-full object-cover"
+              style={{ animation: playing ? 'spin 14s linear infinite' : 'none' }} />
+          ) : (
+            <div className="w-full h-full flex items-center justify-center">
+              <span className="text-[10px] font-bold opacity-50" style={{ letterSpacing: '0.15em' }}>♪</span>
+            </div>
+          )}
+        </div>
+        <div className="flex-1 min-w-0">
+          <div className="flex items-center gap-1 mb-0.5">
+            <span className="w-1 h-1 rounded-full shrink-0"
+              style={{
+                background: dotColor,
+                boxShadow: playing ? `0 0 6px ${dotColor}` : 'none',
+                animation: playing ? 'pulse 2s ease-in-out infinite' : 'none',
+              }} />
+            <span className="text-[7.5px] uppercase font-bold opacity-55" style={{ letterSpacing: '0.22em' }}>
+              {statusText}
+            </span>
+          </div>
+          <div className="text-[11.5px] font-semibold truncate leading-tight">{title}</div>
+          <div className="text-[9px] opacity-55 truncate leading-tight mt-[1px]">{artists}</div>
+        </div>
+      </div>
+
+      {/* 中间：均衡器条 */}
+      <div className="relative flex-1 flex items-center justify-center gap-[3px] z-10 opacity-40 py-1">
+        {[5, 9, 4, 7, 5, 8, 4].map((h, i) => (
+          <div
+            key={i}
+            className="w-[2px] rounded-full"
+            style={{
+              height: `${h * 1.2}px`,
+              background: 'currentColor',
+              animation: playing ? `pulse ${1.2 + (i * 0.1)}s ease-in-out infinite` : 'none',
+              animationDelay: `${i * 70}ms`,
+            }}
+          />
+        ))}
+      </div>
+
+      {/* 底部：进度 + 控件 */}
+      <div className="relative z-10 flex flex-col gap-1.5">
+        {/* 进度条 */}
+        <div className="flex flex-col gap-0.5">
+          <div className="h-[3px] w-full rounded-full overflow-hidden"
+            style={{ background: acnh ? 'rgba(94,72,59,0.15)' : palette.trackBg }}>
+            <div className="h-full rounded-full transition-[width] duration-150"
+              style={{
+                width: `${pct}%`,
+                background: acnh ? 'linear-gradient(90deg, #82D5BB, #6fba2c)' : paper ? 'linear-gradient(90deg, #a66f52, #788369)' : 'linear-gradient(90deg, #60a5fa, #c084fc)',
+                boxShadow: acnh || paper ? 'none' : '0 0 6px rgba(192,132,252,0.55)',
+              }} />
+          </div>
+          <div className="flex justify-between text-[7.5px] uppercase font-medium opacity-50" style={{ letterSpacing: '0.15em' }}>
+            <span>{formatTime(progress)}</span>
+            <span>{hasSong ? `-${formatTime(Math.max(0, duration - progress))}` : '--:--'}</span>
+          </div>
+        </div>
+
+        {/* 播放控件 */}
+        <div className="flex justify-center items-center gap-3">
+          <button
+            aria-label="Previous"
+            onClick={handlePrev}
+            onMouseDown={stopProp}
+            className="w-6 h-6 flex items-center justify-center opacity-70 hover:opacity-100 active:scale-90 transition disabled:opacity-30"
+            disabled={!hasSong}
+          >
+            <SkipBack size={14} weight="fill" />
+          </button>
+          <button
+            aria-label={playing ? 'Pause' : 'Play'}
+            onClick={handlePlay}
+            onMouseDown={stopProp}
+            className="w-9 h-9 flex items-center justify-center rounded-full active:scale-95 transition"
+            style={{
+              background: palette.playBg,
+              color: palette.playColor,
+              boxShadow: '0 3px 10px rgba(0,0,0,0.22), inset 0 1px 0 rgba(255,255,255,0.3)',
+            }}
+          >
+            {playing ? <Pause size={15} weight="fill" /> : <Play size={15} weight="fill" />}
+          </button>
+          <button
+            aria-label="Next"
+            onClick={handleNext}
+            onMouseDown={stopProp}
+            className="w-6 h-6 flex items-center justify-center opacity-70 hover:opacity-100 active:scale-90 transition disabled:opacity-30"
+            disabled={!hasSong}
+          >
+            <SkipForward size={14} weight="fill" />
+          </button>
+        </div>
+      </div>
+    </div>
+  );
+};
+
+export default NowPlayingSquareWidget;

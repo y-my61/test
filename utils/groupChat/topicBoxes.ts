@@ -1,1 +1,109 @@
-aW1wb3J0IHR5cGUgeyBDaGFyYWN0ZXJQcm9maWxlLCBHcm91cFByb2ZpbGUsIEdyb3VwVG9waWNCb3gsIE1lc3NhZ2UgfSBmcm9tICcuLi8uLi90eXBlcyc7CmltcG9ydCB7IGlzTWVzc2FnZVNlbWFudGljYWxseVJlbGV2YW50IH0gZnJvbSAnLi4vbWVzc2FnZUZvcm1hdCc7CmltcG9ydCB7IG1lc3NhZ2VMb2dUZXh0IH0gZnJvbSAnLi9mb3JtYXQnOwoKZXhwb3J0IGNvbnN0IEdST1VQX1RPUElDX0hPVF9aT05FID0gMjAwOwpleHBvcnQgY29uc3QgR1JPVVBfVE9QSUNfQlVGRkVSX1RIUkVTSE9MRCA9IDEwMDsKZXhwb3J0IGNvbnN0IEdST1VQX1RPUElDX1BST0NFU1NfUkFUSU8gPSAwLjg1OwpleHBvcnQgY29uc3QgR1JPVVBfVE9QSUNfTUFYX0JBVENIID0gMjAwOwoKZXhwb3J0IHR5cGUgR3JvdXBUb3BpY0JhdGNoID0gewogICAgbWVzc2FnZXM6IE1lc3NhZ2VbXTsKICAgIHBlbmRpbmdDb3VudDogbnVtYmVyOwogICAgaG90Wm9uZUNvdW50OiBudW1iZXI7Cn07CgovKiog5Y+q6KeE5YiS5YWs5YWx5oiQ55uS6IyD5Zu077yb5pyA6L+RIDIwMCDmnaHmsLjov5zkv53nlZnkuLrljp/mlofng63ljLrjgIIgKi8KZXhwb3J0IGZ1bmN0aW9uIHBsYW5Hcm91cFRvcGljQmF0Y2goCiAgICBhbGxNZXNzYWdlczogTWVzc2FnZVtdLAogICAgYXJjaGl2ZWRUaHJvdWdoTWVzc2FnZUlkOiBudW1iZXIgPSAwLAogICAgZm9yY2U6IGJvb2xlYW4gPSBmYWxzZSwKKTogR3JvdXBUb3BpY0JhdGNoIHwgbnVsbCB7CiAgICBjb25zdCBzZW1hbnRpYyA9IGFsbE1lc3NhZ2VzCiAgICAgICAgLmZpbHRlcihpc01lc3NhZ2VTZW1hbnRpY2FsbHlSZWxldmFudCkKICAgICAgICAuc29ydCgoYSwgYikgPT4gYS5pZCAtIGIuaWQpOwogICAgaWYgKHNlbWFudGljLmxlbmd0aCA8PSBHUk9VUF9UT1BJQ19IT1RfWk9ORSkgcmV0dXJuIG51bGw7CiAgICBjb25zdCBob3Rab25lU3RhcnRJZCA9IHNlbWFudGljW3NlbWFudGljLmxlbmd0aCAtIEdST1VQX1RPUElDX0hPVF9aT05FXS5pZDsKICAgIGNvbnN0IHBlbmRpbmcgPSBzZW1hbnRpYy5maWx0ZXIobSA9PiBtLmlkID4gYXJjaGl2ZWRUaHJvdWdoTWVzc2FnZUlkICYmIG0uaWQgPCBob3Rab25lU3RhcnRJZCk7CiAgICBjb25zdCB0aHJlc2hvbGQgPSBmb3JjZSA/IDEgOiBHUk9VUF9UT1BJQ19CVUZGRVJfVEhSRVNIT0xEOwogICAgaWYgKHBlbmRpbmcubGVuZ3RoIDwgdGhyZXNob2xkKSByZXR1cm4gbnVsbDsKICAgIGNvbnN0IHByb2Nlc3NDb3VudCA9IE1hdGgubWluKAogICAgICAgIGZvcmNlID8gcGVuZGluZy5sZW5ndGggOiBNYXRoLmNlaWwocGVuZGluZy5sZW5ndGggKiBHUk9VUF9UT1BJQ19QUk9DRVNTX1JBVElPKSwKICAgICAgICBHUk9VUF9UT1BJQ19NQVhfQkFUQ0gsCiAgICApOwogICAgcmV0dXJuIHsKICAgICAgICBtZXNzYWdlczogcGVuZGluZy5zbGljZSgwLCBwcm9jZXNzQ291bnQpLAogICAgICAgIHBlbmRpbmdDb3VudDogcGVuZGluZy5sZW5ndGgsCiAgICAgICAgaG90Wm9uZUNvdW50OiBNYXRoLm1pbihHUk9VUF9UT1BJQ19IT1RfWk9ORSwgc2VtYW50aWMubGVuZ3RoKSwKICAgIH07Cn0KCmV4cG9ydCBmdW5jdGlvbiBncm91cFRvcGljUGVuZGluZ0NvdW50KGFsbE1lc3NhZ2VzOiBNZXNzYWdlW10sIGFyY2hpdmVkVGhyb3VnaE1lc3NhZ2VJZDogbnVtYmVyID0gMCk6IG51bWJlciB7CiAgICBjb25zdCBzZW1hbnRpYyA9IGFsbE1lc3NhZ2VzLmZpbHRlcihpc01lc3NhZ2VTZW1hbnRpY2FsbHlSZWxldmFudCkuc29ydCgoYSwgYikgPT4gYS5pZCAtIGIuaWQpOwogICAgaWYgKHNlbWFudGljLmxlbmd0aCA8PSBHUk9VUF9UT1BJQ19IT1RfWk9ORSkgcmV0dXJuIDA7CiAgICBjb25zdCBob3Rab25lU3RhcnRJZCA9IHNlbWFudGljW3NlbWFudGljLmxlbmd0aCAtIEdST1VQX1RPUElDX0hPVF9aT05FXS5pZDsKICAgIHJldHVybiBzZW1hbnRpYy5maWx0ZXIobSA9PiBtLmlkID4gYXJjaGl2ZWRUaHJvdWdoTWVzc2FnZUlkICYmIG0uaWQgPCBob3Rab25lU3RhcnRJZCkubGVuZ3RoOwp9CgpleHBvcnQgZnVuY3Rpb24gYnVpbGRHcm91cFRvcGljUHJvbXB0KAogICAgZ3JvdXA6IEdyb3VwUHJvZmlsZSwKICAgIGJhdGNoOiBNZXNzYWdlW10sCiAgICBjaGFyYWN0ZXJzOiBDaGFyYWN0ZXJQcm9maWxlW10sCiAgICB1c2VyTmFtZTogc3RyaW5nLAopOiBzdHJpbmcgewogICAgY29uc3QgbmFtZU9mID0gKG06IE1lc3NhZ2UpID0+IG0ucm9sZSA9PT0gJ3VzZXInCiAgICAgICAgPyB1c2VyTmFtZQogICAgICAgIDogKGNoYXJhY3RlcnMuZmluZChjID0+IGMuaWQgPT09IG0uY2hhcklkKT8ubmFtZSB8fCAn5pyq55+l5oiQ5ZGYJyk7CiAgICBjb25zdCBwYXJ0aWNpcGFudHMgPSBncm91cC5tZW1iZXJzLm1hcChpZCA9PiBjaGFyYWN0ZXJzLmZpbmQoYyA9PiBjLmlkID09PSBpZCk/Lm5hbWUpLmZpbHRlcihCb29sZWFuKS5qb2luKCfjgIEnKTsKICAgIC8vIOWPque7meaAu+e7k+acuuinkuiJsuivreS5iei1hOaWme+8jOS4jeS8oOWktOWDjy/nq4vnu5gv5oi/6Ze05Zu+54mH562J5aqS5L2T5a2X5q6177yM6YG/5YWNIGJhc2U2NCDmkpHniIbor7fmsYLjgIIKICAgIGNvbnN0IG1lbWJlclByb2ZpbGVzID0gZ3JvdXAubWVtYmVycy5tYXAoaWQgPT4gY2hhcmFjdGVycy5maW5kKGMgPT4gYy5pZCA9PT0gaWQpKS5maWx0ZXIoQm9vbGVhbikubWFwKGNoYXIgPT4gewogICAgICAgIGNvbnN0IGMgPSBjaGFyIGFzIENoYXJhY3RlclByb2ZpbGU7CiAgICAgICAgcmV0dXJuIGAjIyMgJHtjLm5hbWV977yIJHtjLmlkfe+8iVxu6KeS6Imy566A5LuL77yaJHtjLmRlc2NyaXB0aW9uIHx8ICfml6AnfVxu5qC45b+D6K6+5a6a77yaJHtjLnN5c3RlbVByb21wdCB8fCAn5pegJ31cbuS4lueVjOingu+8miR7Yy53b3JsZHZpZXcgfHwgJ+aXoCd9XG7lhpnkvZzkurrmoLzvvJoke2Mud3JpdGVyUGVyc29uYSB8fCAn5pegJ31cbuaguOW/g+iusOW/hu+8miR7Yy5yZWZpbmVkTWVtb3JpZXMgPyBKU09OLnN0cmluZ2lmeShjLnJlZmluZWRNZW1vcmllcykgOiAn5pegJ31gOwogICAgfSkuam9pbignXG5cbicpOwogICAgY29uc3QgbG9ncyA9IGJhdGNoLm1hcChtID0+IHsKICAgICAgICBjb25zdCB0aW1lID0gbmV3IERhdGUobS50aW1lc3RhbXApLnRvTG9jYWxlU3RyaW5nKCd6aC1DTicsIHsgbW9udGg6ICcyLWRpZ2l0JywgZGF5OiAnMi1kaWdpdCcsIGhvdXI6ICcyLWRpZ2l0JywgbWludXRlOiAnMi1kaWdpdCcgfSk7CiAgICAgICAgcmV0dXJuIGBbJHt0aW1lfV0gJHtuYW1lT2YobSl9OiAke21lc3NhZ2VMb2dUZXh0KG0pfWA7CiAgICB9KS5qb2luKCdcbicpOwogICAgcmV0dXJuIGDkvaDmmK/nvqTogYrmoaPmoYjmlbTnkIblkZjjgILor7fmiorkuIvpnaLkuIDmrrXlt7Lnu4/nprvlvIDov5HmnJ/kuIrkuIvmlofnmoTnvqTogYrvvIzmlbTnkIbmiJDkuIDlvKDmiYDmnInmiJDlkZjlhbHkuqvnmoTigJzlhazlhbHor53popjnm5LigJ3jgIIKCue+pOWQje+8miR7Z3JvdXAubmFtZX0K5oiQ5ZGY77yaJHtwYXJ0aWNpcGFudHN9CueUqOaIt++8miR7dXNlck5hbWV9CgojIyDlhajkvZPmiJDlkZjotYTmlpkK6L+Z5Lqb6LWE5paZ5Y+q55So5LqO5YeG56Gu55CG6Kej5q+P5Liq5Lq655qE6Lqr5Lu944CB5YWz57O75ZKM6K+06K+d5ZCr5LmJ77yb5oC757uT5LuN5b+F6aG75L+d5oyB576k5L2T5YWx5Lqr55qE5a6i6KeC6KeG6KeS44CCCiR7bWVtYmVyUHJvZmlsZXN9CgropoHmsYLvvJoKMS4g5L2/55So5a6i6KeC56ys5LiJ5Lq656ew77yM5YeG56Gu5Yy65YiG5q+P5Liq5Y+R6KiA6ICF77yM5LiN56uZ5Zyo5Lu75L2V5Y2V5LiA6KeS6Imy6KeG6KeS44CCCjIuIOS/neeVmeWFs+mUruivnemimOOAgee6puWumuOAgeWGsueqgeOAgeWFseWQjOe7j+WOhuOAgee+pOWGheail+WSjOaDhee7quWPmOWMlu+8m+S4jeimgemAkOWPpeWkjei/sOOAggozLiDmoIfpopggNuKAkzE4IOWtl++8m+aAu+e7kyAxMDDigJM1MDAg5a2X44CC55CQ56KO5YaF5a655Y+v5Lul566A55+t77yM5L2G5LiN6IO957yW6YCg44CCCjQuIOi/meW8oOebkuWtkOS8muWQjOaXtui/m+WFpeacrOe+pOmVv+acn+S4iuS4i+aWh++8jOW5tuS9nOS4uuWNoeeJh+mAgeWIsOavj+S9jeaIkOWRmOengeiBiuOAggo1LiDkuKXmoLzlj6rovpPlh7ogSlNPTu+8mnsidGl0bGUiOiIuLi4iLCJzdW1tYXJ5IjoiLi4uIn0K576k6IGK5Y6f5paH77yaCiR7bG9ncy5zbGljZSgwLCAzMDAwMCl9YDsKfQoKZXhwb3J0IGZ1bmN0aW9uIGJ1aWxkR3JvdXBUb3BpY0NvbnRleHQoZ3JvdXA6IEdyb3VwUHJvZmlsZSk6IHN0cmluZyB7CiAgICBjb25zdCBib3hlcyA9IGdyb3VwLnRvcGljQm94ZXMgfHwgW107CiAgICBpZiAoYm94ZXMubGVuZ3RoID09PSAwKSByZXR1cm4gJyc7CiAgICBjb25zdCBib2R5ID0gYm94ZXMuc2xpY2UoLTIwKS5tYXAoYm94ID0+IGAtIOOAkCR7Ym94LnRpdGxlfeOAkSR7Ym94LnN1bW1hcnl9YCkuam9pbignXG4nKTsKICAgIHJldHVybiBgXG4jIyMg44CQJHtncm91cC5uYW1lfSDCtyDlhazlhbHor53popjnm5LjgJFcbuS7peS4i+aYr+acrOe+pOW3suW9kuaho+eahOWFseWQjOe7j+WOhu+8jOaJgOacieaIkOWRmOmDveefpemBk++8m+mcgOimgeaXtuiHqueEtuaJv+aOpe+8jOS4jeimgemAkOadoeWkjei/sOOAglxuJHtib2R5fVxuYDsKfQoKZXhwb3J0IGZ1bmN0aW9uIG1ha2VHcm91cFRvcGljQm94KGdyb3VwOiBHcm91cFByb2ZpbGUsIGJhdGNoOiBNZXNzYWdlW10sIHRpdGxlOiBzdHJpbmcsIHN1bW1hcnk6IHN0cmluZyk6IEdyb3VwVG9waWNCb3ggewogICAgY29uc3Qgbm93ID0gRGF0ZS5ub3coKTsKICAgIHJldHVybiB7CiAgICAgICAgaWQ6IGBncm91cC10b3BpYy0ke25vd30tJHtNYXRoLnJhbmRvbSgpLnRvU3RyaW5nKDM2KS5zbGljZSgyLCA3KX1gLAogICAgICAgIGdyb3VwSWQ6IGdyb3VwLmlkLAogICAgICAgIHRpdGxlOiB0aXRsZS50cmltKCkgfHwgJ+S4gOautee+pOiBiuWbnuW/hicsCiAgICAgICAgc3VtbWFyeTogc3VtbWFyeS50cmltKCksCiAgICAgICAgc291cmNlU3RhcnRNZXNzYWdlSWQ6IGJhdGNoWzBdLmlkLAogICAgICAgIHNvdXJjZUVuZE1lc3NhZ2VJZDogYmF0Y2hbYmF0Y2gubGVuZ3RoIC0gMV0uaWQsCiAgICAgICAgbWVzc2FnZUNvdW50OiBiYXRjaC5sZW5ndGgsCiAgICAgICAgcGFydGljaXBhbnRzOiBBcnJheS5mcm9tKG5ldyBTZXQoYmF0Y2gubWFwKG0gPT4gbS5jaGFySWQpLmZpbHRlcihCb29sZWFuKSkpLAogICAgICAgIGRlbGl2ZXJlZE1lbWJlcklkczogWy4uLmdyb3VwLm1lbWJlcnNdLAogICAgICAgIGNyZWF0ZWRBdDogbm93LAogICAgICAgIHVwZGF0ZWRBdDogbm93LAogICAgfTsKfQo=
+import type { CharacterProfile, GroupProfile, GroupTopicBox, Message } from '../../types';
+import { isMessageSemanticallyRelevant } from '../messageFormat';
+import { messageLogText } from './format';
+
+export const GROUP_TOPIC_HOT_ZONE = 200;
+export const GROUP_TOPIC_BUFFER_THRESHOLD = 100;
+export const GROUP_TOPIC_PROCESS_RATIO = 0.85;
+export const GROUP_TOPIC_MAX_BATCH = 200;
+
+export type GroupTopicBatch = {
+    messages: Message[];
+    pendingCount: number;
+    hotZoneCount: number;
+};
+
+/** 只规划公共成盒范围；最近 200 条永远保留为原文热区。 */
+export function planGroupTopicBatch(
+    allMessages: Message[],
+    archivedThroughMessageId: number = 0,
+    force: boolean = false,
+): GroupTopicBatch | null {
+    const semantic = allMessages
+        .filter(isMessageSemanticallyRelevant)
+        .sort((a, b) => a.id - b.id);
+    if (semantic.length <= GROUP_TOPIC_HOT_ZONE) return null;
+    const hotZoneStartId = semantic[semantic.length - GROUP_TOPIC_HOT_ZONE].id;
+    const pending = semantic.filter(m => m.id > archivedThroughMessageId && m.id < hotZoneStartId);
+    const threshold = force ? 1 : GROUP_TOPIC_BUFFER_THRESHOLD;
+    if (pending.length < threshold) return null;
+    const processCount = Math.min(
+        force ? pending.length : Math.ceil(pending.length * GROUP_TOPIC_PROCESS_RATIO),
+        GROUP_TOPIC_MAX_BATCH,
+    );
+    return {
+        messages: pending.slice(0, processCount),
+        pendingCount: pending.length,
+        hotZoneCount: Math.min(GROUP_TOPIC_HOT_ZONE, semantic.length),
+    };
+}
+
+export function groupTopicPendingCount(allMessages: Message[], archivedThroughMessageId: number = 0): number {
+    const semantic = allMessages.filter(isMessageSemanticallyRelevant).sort((a, b) => a.id - b.id);
+    if (semantic.length <= GROUP_TOPIC_HOT_ZONE) return 0;
+    const hotZoneStartId = semantic[semantic.length - GROUP_TOPIC_HOT_ZONE].id;
+    return semantic.filter(m => m.id > archivedThroughMessageId && m.id < hotZoneStartId).length;
+}
+
+export function buildGroupTopicPrompt(
+    group: GroupProfile,
+    batch: Message[],
+    characters: CharacterProfile[],
+    userName: string,
+): string {
+    const nameOf = (m: Message) => m.role === 'user'
+        ? userName
+        : (characters.find(c => c.id === m.charId)?.name || '未知成员');
+    const participants = group.members.map(id => characters.find(c => c.id === id)?.name).filter(Boolean).join('、');
+    // 只给总结机角色语义资料，不传头像/立绘/房间图片等媒体字段，避免 base64 撑爆请求。
+    const memberProfiles = group.members.map(id => characters.find(c => c.id === id)).filter(Boolean).map(char => {
+        const c = char as CharacterProfile;
+        return `### ${c.name}（${c.id}）\n角色简介：${c.description || '无'}\n核心设定：${c.systemPrompt || '无'}\n世界观：${c.worldview || '无'}\n写作人格：${c.writerPersona || '无'}\n核心记忆：${c.refinedMemories ? JSON.stringify(c.refinedMemories) : '无'}`;
+    }).join('\n\n');
+    const logs = batch.map(m => {
+        const time = new Date(m.timestamp).toLocaleString('zh-CN', { month: '2-digit', day: '2-digit', hour: '2-digit', minute: '2-digit' });
+        return `[${time}] ${nameOf(m)}: ${messageLogText(m)}`;
+    }).join('\n');
+    return `你是群聊档案整理员。请把下面一段已经离开近期上下文的群聊，整理成一张所有成员共享的“公共话题盒”。
+
+群名：${group.name}
+成员：${participants}
+用户：${userName}
+
+## 全体成员资料
+这些资料只用于准确理解每个人的身份、关系和说话含义；总结仍必须保持群体共享的客观视角。
+${memberProfiles}
+
+要求：
+1. 使用客观第三人称，准确区分每个发言者，不站在任何单一角色视角。
+2. 保留关键话题、约定、冲突、共同经历、群内梗和情绪变化；不要逐句复述。
+3. 标题 6–18 字；总结 100–500 字。琐碎内容可以简短，但不能编造。
+4. 这张盒子会同时进入本群长期上下文，并作为卡片送到每位成员私聊。
+5. 严格只输出 JSON：{"title":"...","summary":"..."}
+群聊原文：
+${logs.slice(0, 30000)}`;
+}
+
+export function buildGroupTopicContext(group: GroupProfile): string {
+    const boxes = group.topicBoxes || [];
+    if (boxes.length === 0) return '';
+    const body = boxes.slice(-20).map(box => `- 【${box.title}】${box.summary}`).join('\n');
+    return `\n### 【${group.name} · 公共话题盒】\n以下是本群已归档的共同经历，所有成员都知道；需要时自然承接，不要逐条复述。\n${body}\n`;
+}
+
+export function makeGroupTopicBox(group: GroupProfile, batch: Message[], title: string, summary: string): GroupTopicBox {
+    const now = Date.now();
+    return {
+        id: `group-topic-${now}-${Math.random().toString(36).slice(2, 7)}`,
+        groupId: group.id,
+        title: title.trim() || '一段群聊回忆',
+        summary: summary.trim(),
+        sourceStartMessageId: batch[0].id,
+        sourceEndMessageId: batch[batch.length - 1].id,
+        messageCount: batch.length,
+        participants: Array.from(new Set(batch.map(m => m.charId).filter(Boolean))),
+        deliveredMemberIds: [...group.members],
+        createdAt: now,
+        updatedAt: now,
+    };
+}

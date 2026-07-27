@@ -1,1 +1,432 @@
-LyoqCiAqIExpZmVTaW0gQXV0b25vbW91cyBCZWhhdmlvciBTeXN0ZW0g4oCUIOmDveW4gueJiAogKiDlsYXmsJHoh6rkuLvooYzkuLrlvJXmk44g4oCUIOWfuuS6juaAp+agvC/lv4Pmg4Uv5YWz57O755Sf5oiQ6YO95biCRHJhbWHkuovku7bvvIzml6DpnIBMTE3osIPnlKgKICovCgppbXBvcnQgeyBMaWZlU2ltU3RhdGUsIFNpbU5QQywgU2ltQWN0aW9uLCBTaW1FdmVudFR5cGUsIE5QQ0Rlc2lyZSB9IGZyb20gJy4uL3R5cGVzJzsKaW1wb3J0IHsgZ2V0TlBDLCBnZXRGYW1pbHksIGdldEZhbWlseU1lbWJlcnMsIGdldEluZGVwZW5kZW50TlBDcywgZ2V0UmVsYXRpb25zaGlwLCBjbGFtcCwgYXBwbHlUcmlnZ2VyRXZlbnQsIGRlZXBDbG9uZSB9IGZyb20gJy4vbGlmZVNpbUVuZ2luZSc7Ci8vIGV2YWx1YXRlRXZlbnRDaGFpbnMgd2lsbCBiZSBpbXBvcnRlZCB3aGVuIHRoYXQgbW9kdWxlIGlzIGNyZWF0ZWQKLy8gaW1wb3J0IHsgZXZhbHVhdGVFdmVudENoYWlucyB9IGZyb20gJy4vbGlmZVNpbUV2ZW50Q2hhaW5zJzsKCmNvbnN0IGdlbklkID0gKCkgPT4gTWF0aC5yYW5kb20oKS50b1N0cmluZygzNikuc2xpY2UoMiwgMTApOwoKLy8g4pSA4pSAIERlc2lyZSBHZW5lcmF0aW9uIOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgAoKLyoqCiAqIOagueaNrk5QQ+W9k+WJjeeKtuaAgeabtOaWsOWFtuWGhempseWKm+WIl+ihqAogKi8KZnVuY3Rpb24gdXBkYXRlRGVzaXJlcyhzdGF0ZTogTGlmZVNpbVN0YXRlLCBucGM6IFNpbU5QQyk6IE5QQ0Rlc2lyZVtdIHsKICAgIGNvbnN0IGRlc2lyZXM6IE5QQ0Rlc2lyZVtdID0gW107CiAgICBjb25zdCBncnVkZ2VzID0gbnBjLmdydWRnZXMgPz8gW107CiAgICBjb25zdCBjcnVzaGVzID0gbnBjLmNydXNoZXMgPz8gW107CgogICAgLy8g6K6w5LuHICsg5b+D5oOF5beuIOKGkiDlpI3ku4fmrLIKICAgIGlmIChncnVkZ2VzLmxlbmd0aCA+IDAgJiYgbnBjLm1vb2QgPCAwKSB7CiAgICAgICAgZm9yIChjb25zdCB0YXJnZXRJZCBvZiBncnVkZ2VzKSB7CiAgICAgICAgICAgIGRlc2lyZXMucHVzaCh7IHR5cGU6ICdyZXZlbmdlJywgdGFyZ2V0TnBjSWQ6IHRhcmdldElkIH0pOwogICAgICAgIH0KICAgIH0KCiAgICAvLyDlhbPns7vlpb0gKyDmsqHmmpfmgYvlr7nosaEg4oaSIOWPr+iDveS6p+eUn+aap+aYpwogICAgaWYgKGNydXNoZXMubGVuZ3RoID09PSAwKSB7CiAgICAgICAgZm9yIChjb25zdCBmYW0gb2Ygc3RhdGUuZmFtaWxpZXMpIHsKICAgICAgICAgICAgaWYgKCFmYW0ubWVtYmVySWRzLmluY2x1ZGVzKG5wYy5pZCkpIGNvbnRpbnVlOwogICAgICAgICAgICBmb3IgKGNvbnN0IG90aGVySWQgb2YgZmFtLm1lbWJlcklkcykgewogICAgICAgICAgICAgICAgaWYgKG90aGVySWQgPT09IG5wYy5pZCkgY29udGludWU7CiAgICAgICAgICAgICAgICBjb25zdCByZWwgPSBnZXRSZWxhdGlvbnNoaXAoZmFtLCBucGMuaWQsIG90aGVySWQpOwogICAgICAgICAgICAgICAgaWYgKHJlbCA+IDYwICYmIE1hdGgucmFuZG9tKCkgPCAwLjMwKSB7CiAgICAgICAgICAgICAgICAgICAgZGVzaXJlcy5wdXNoKHsgdHlwZTogJ3JvbWFuY2UnLCB0YXJnZXROcGNJZDogb3RoZXJJZCB9KTsKICAgICAgICAgICAgICAgIH0KICAgICAgICAgICAgfQogICAgICAgIH0KICAgIH0KCiAgICAvLyDlv4Pmg4XmnoHlt64gKyDlrrbluq3kuK3mnInorqjljoznmoTkurog4oaSIOaDs+emu+WutgogICAgaWYgKG5wYy5tb29kIDwgLTQwICYmIG5wYy5mYW1pbHlJZCkgewogICAgICAgIGNvbnN0IGZhbSA9IGdldEZhbWlseShzdGF0ZSwgbnBjLmZhbWlseUlkKTsKICAgICAgICBpZiAoZmFtKSB7CiAgICAgICAgICAgIGZvciAoY29uc3Qgb3RoZXJJZCBvZiBmYW0ubWVtYmVySWRzKSB7CiAgICAgICAgICAgICAgICBpZiAob3RoZXJJZCA9PT0gbnBjLmlkKSBjb250aW51ZTsKICAgICAgICAgICAgICAgIGNvbnN0IHJlbCA9IGdldFJlbGF0aW9uc2hpcChmYW0sIG5wYy5pZCwgb3RoZXJJZCk7CiAgICAgICAgICAgICAgICBpZiAocmVsIDwgLTMwKSB7CiAgICAgICAgICAgICAgICAgICAgZGVzaXJlcy5wdXNoKHsgdHlwZTogJ2xlYXZlX2ZhbWlseScgfSk7CiAgICAgICAgICAgICAgICAgICAgYnJlYWs7IC8vIOWPqumcgOimgeS4gOS4qiBsZWF2ZV9mYW1pbHkgZGVzaXJlCiAgICAgICAgICAgICAgICB9CiAgICAgICAgICAgIH0KICAgICAgICB9CiAgICB9CgogICAgLy8g6IW56buRL+iBquaYjiArIOWFs+ezu+W3riDihpIg5pCs5byE5piv6Z2eCiAgICBjb25zdCBpc1NjaGVtaW5nID0gbnBjLnBlcnNvbmFsaXR5LnNvbWUocCA9PiBwID09PSAn6IW56buRJyB8fCBwID09PSAn6IGq5piOJyk7CiAgICBpZiAoaXNTY2hlbWluZykgewogICAgICAgIGZvciAoY29uc3QgZmFtIG9mIHN0YXRlLmZhbWlsaWVzKSB7CiAgICAgICAgICAgIGlmICghZmFtLm1lbWJlcklkcy5pbmNsdWRlcyhucGMuaWQpKSBjb250aW51ZTsKICAgICAgICAgICAgZm9yIChjb25zdCBvdGhlcklkIG9mIGZhbS5tZW1iZXJJZHMpIHsKICAgICAgICAgICAgICAgIGlmIChvdGhlcklkID09PSBucGMuaWQpIGNvbnRpbnVlOwogICAgICAgICAgICAgICAgY29uc3QgcmVsID0gZ2V0UmVsYXRpb25zaGlwKGZhbSwgbnBjLmlkLCBvdGhlcklkKTsKICAgICAgICAgICAgICAgIGlmIChyZWwgPCAtMjAgJiYgTWF0aC5yYW5kb20oKSA8IDAuMjApIHsKICAgICAgICAgICAgICAgICAgICBkZXNpcmVzLnB1c2goeyB0eXBlOiAnZ29zc2lwX2Fib3V0JywgdGFyZ2V0TnBjSWQ6IG90aGVySWQgfSk7CiAgICAgICAgICAgICAgICB9CiAgICAgICAgICAgIH0KICAgICAgICB9CiAgICB9CgogICAgLy8g54Ot5oOFL+a0u+azvCDihpIg56S+5LqkCiAgICBjb25zdCBpc1NvY2lhbCA9IG5wYy5wZXJzb25hbGl0eS5zb21lKHAgPT4gcCA9PT0gJ+eDreaDhScgfHwgcCA9PT0gJ+a0u+azvCcpOwogICAgaWYgKGlzU29jaWFsICYmIG5wYy5mYW1pbHlJZCkgewogICAgICAgIGNvbnN0IGZhbSA9IGdldEZhbWlseShzdGF0ZSwgbnBjLmZhbWlseUlkKTsKICAgICAgICBpZiAoZmFtICYmIGZhbS5tZW1iZXJJZHMubGVuZ3RoID4gMSAmJiBNYXRoLnJhbmRvbSgpIDwgMC4xNSkgewogICAgICAgICAgICBjb25zdCBjYW5kaWRhdGVzID0gZmFtLm1lbWJlcklkcy5maWx0ZXIoaWQgPT4gaWQgIT09IG5wYy5pZCk7CiAgICAgICAgICAgIGNvbnN0IHRhcmdldElkID0gY2FuZGlkYXRlc1tNYXRoLmZsb29yKE1hdGgucmFuZG9tKCkgKiBjYW5kaWRhdGVzLmxlbmd0aCldOwogICAgICAgICAgICBkZXNpcmVzLnB1c2goeyB0eXBlOiAnc29jaWFsaXplJywgdGFyZ2V0TnBjSWQ6IHRhcmdldElkIH0pOwogICAgICAgIH0KICAgIH0KCiAgICAvLyDmmrTouoEv5Yay5YqoICsg5b+D5oOF5LiN5aW9ICsg5pyJ5LuHIOKGkiDlvIDmiJgKICAgIGNvbnN0IGlzQWdncmVzc2l2ZSA9IG5wYy5wZXJzb25hbGl0eS5zb21lKHAgPT4gcCA9PT0gJ+aatOi6gScgfHwgcCA9PT0gJ+WGsuWKqCcpOwogICAgaWYgKGlzQWdncmVzc2l2ZSAmJiBucGMubW9vZCA8IC0xMCAmJiBncnVkZ2VzLmxlbmd0aCA+IDAgJiYgTWF0aC5yYW5kb20oKSA8IDAuNDApIHsKICAgICAgICBmb3IgKGNvbnN0IHRhcmdldElkIG9mIGdydWRnZXMpIHsKICAgICAgICAgICAgZGVzaXJlcy5wdXNoKHsgdHlwZTogJ3N0YXJ0X3JpdmFscnknLCB0YXJnZXROcGNJZDogdGFyZ2V0SWQgfSk7CiAgICAgICAgfQogICAgfQoKICAgIHJldHVybiBkZXNpcmVzOwp9CgovLyDilIDilIAgQWN0aW9uIEdlbmVyYXRpb24g4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSACgppbnRlcmZhY2UgV2VpZ2h0ZWRBY3Rpb24gewogICAgd2VpZ2h0OiBudW1iZXI7CiAgICBleGVjdXRlOiAoKSA9PiB7IGV2ZW50VHlwZTogU2ltRXZlbnRUeXBlOyBpbnZvbHZlZElkczogc3RyaW5nW107IGRlc2NyaXB0aW9uOiBzdHJpbmcgfSB8IG51bGw7Cn0KCi8qKgogKiDkuLrmnInmrLLmnJvnmoROUEPnlJ/miJDliqDmnYPooYzliqjliJfooagKICovCmZ1bmN0aW9uIGJ1aWxkQWN0aW9uQ2FuZGlkYXRlcygKICAgIHN0YXRlOiBMaWZlU2ltU3RhdGUsCiAgICBucGM6IFNpbU5QQywKICAgIGRlc2lyZXM6IE5QQ0Rlc2lyZVtdCik6IFdlaWdodGVkQWN0aW9uW10gewogICAgY29uc3QgY2FuZGlkYXRlczogV2VpZ2h0ZWRBY3Rpb25bXSA9IFtdOwoKICAgIGZvciAoY29uc3QgZGVzaXJlIG9mIGRlc2lyZXMpIHsKICAgICAgICBzd2l0Y2ggKGRlc2lyZS50eXBlKSB7CiAgICAgICAgICAgIGNhc2UgJ3JldmVuZ2UnOiB7CiAgICAgICAgICAgICAgICBjb25zdCB0YXJnZXQgPSBnZXROUEMoc3RhdGUsIGRlc2lyZS50YXJnZXROcGNJZCk7CiAgICAgICAgICAgICAgICBpZiAodGFyZ2V0KSB7CiAgICAgICAgICAgICAgICAgICAgY2FuZGlkYXRlcy5wdXNoKHsKICAgICAgICAgICAgICAgICAgICAgICAgd2VpZ2h0OiBucGMubW9vZCA8IC0yMCA/IDUwIDogMjUsCiAgICAgICAgICAgICAgICAgICAgICAgIGV4ZWN1dGU6ICgpID0+ICh7CiAgICAgICAgICAgICAgICAgICAgICAgICAgICBldmVudFR5cGU6ICdmaWdodCcgYXMgU2ltRXZlbnRUeXBlLAogICAgICAgICAgICAgICAgICAgICAgICAgICAgaW52b2x2ZWRJZHM6IFtucGMuaWQsIGRlc2lyZS50YXJnZXROcGNJZF0sCiAgICAgICAgICAgICAgICAgICAgICAgICAgICBkZXNjcmlwdGlvbjogYCR7bnBjLmVtb2ppfSR7bnBjLm5hbWV95b+N5peg5Y+v5b+N77yM5Zyo5YWs5a+T576k6YeMQOS6hiR7dGFyZ2V0LmVtb2ppfSR7dGFyZ2V0Lm5hbWV95YWs5byA5pKV6YC877yBYCwKICAgICAgICAgICAgICAgICAgICAgICAgfSksCiAgICAgICAgICAgICAgICAgICAgfSk7CiAgICAgICAgICAgICAgICB9CiAgICAgICAgICAgICAgICBicmVhazsKICAgICAgICAgICAgfQogICAgICAgICAgICBjYXNlICdyb21hbmNlJzogewogICAgICAgICAgICAgICAgY29uc3QgdGFyZ2V0ID0gZ2V0TlBDKHN0YXRlLCBkZXNpcmUudGFyZ2V0TnBjSWQpOwogICAgICAgICAgICAgICAgaWYgKHRhcmdldCkgewogICAgICAgICAgICAgICAgICAgIGNhbmRpZGF0ZXMucHVzaCh7CiAgICAgICAgICAgICAgICAgICAgICAgIHdlaWdodDogMzAsCiAgICAgICAgICAgICAgICAgICAgICAgIGV4ZWN1dGU6ICgpID0+ICh7CiAgICAgICAgICAgICAgICAgICAgICAgICAgICBldmVudFR5cGU6ICdyb21hbmNlJyBhcyBTaW1FdmVudFR5cGUsCiAgICAgICAgICAgICAgICAgICAgICAgICAgICBpbnZvbHZlZElkczogW25wYy5pZCwgZGVzaXJlLnRhcmdldE5wY0lkXSwKICAgICAgICAgICAgICAgICAgICAgICAgICAgIGRlc2NyaXB0aW9uOiBgJHtucGMuZW1vaml9JHtucGMubmFtZX3lnKjnlLXmoq/ph4wi5YG26YGHIuS6hiR7dGFyZ2V0LmVtb2ppfSR7dGFyZ2V0Lm5hbWV977yM5pqn5pin5YC855u057q/6aOZ5Y2H4oCm4oCmYCwKICAgICAgICAgICAgICAgICAgICAgICAgfSksCiAgICAgICAgICAgICAgICAgICAgfSk7CiAgICAgICAgICAgICAgICB9CiAgICAgICAgICAgICAgICBicmVhazsKICAgICAgICAgICAgfQogICAgICAgICAgICBjYXNlICdsZWF2ZV9mYW1pbHknOgogICAgICAgICAgICAgICAgY2FuZGlkYXRlcy5wdXNoKHsKICAgICAgICAgICAgICAgICAgICB3ZWlnaHQ6IG5wYy5tb29kIDwgLTQwID8gMjAgOiA4LAogICAgICAgICAgICAgICAgICAgIGV4ZWN1dGU6ICgpID0+IG51bGwsIC8vIEdPX1NPTE8g54m55q6K5aSE55CGCiAgICAgICAgICAgICAgICB9KTsKICAgICAgICAgICAgICAgIGJyZWFrOwogICAgICAgICAgICBjYXNlICdnb3NzaXBfYWJvdXQnOiB7CiAgICAgICAgICAgICAgICBjb25zdCB0YXJnZXQgPSBnZXROUEMoc3RhdGUsIGRlc2lyZS50YXJnZXROcGNJZCk7CiAgICAgICAgICAgICAgICBpZiAodGFyZ2V0KSB7CiAgICAgICAgICAgICAgICAgICAgY2FuZGlkYXRlcy5wdXNoKHsKICAgICAgICAgICAgICAgICAgICAgICAgd2VpZ2h0OiAyNSwKICAgICAgICAgICAgICAgICAgICAgICAgZXhlY3V0ZTogKCkgPT4gKHsKICAgICAgICAgICAgICAgICAgICAgICAgICAgIGV2ZW50VHlwZTogJ2dvc3NpcCcgYXMgU2ltRXZlbnRUeXBlLAogICAgICAgICAgICAgICAgICAgICAgICAgICAgaW52b2x2ZWRJZHM6IFtkZXNpcmUudGFyZ2V0TnBjSWRdLAogICAgICAgICAgICAgICAgICAgICAgICAgICAgZGVzY3JpcHRpb246IGAke25wYy5lbW9qaX0ke25wYy5uYW1lfeWcqOWwj+e+pOmHjOeWr+eLgui+k+WHuuWFs+S6jiR7dGFyZ2V0LmVtb2ppfSR7dGFyZ2V0Lm5hbWV955qE5YWr5Y2m4oCm4oCmYCwKICAgICAgICAgICAgICAgICAgICAgICAgfSksCiAgICAgICAgICAgICAgICAgICAgfSk7CiAgICAgICAgICAgICAgICB9CiAgICAgICAgICAgICAgICBicmVhazsKICAgICAgICAgICAgfQogICAgICAgICAgICBjYXNlICdzb2NpYWxpemUnOiB7CiAgICAgICAgICAgICAgICBjb25zdCB0YXJnZXQgPSBnZXROUEMoc3RhdGUsIGRlc2lyZS50YXJnZXROcGNJZCk7CiAgICAgICAgICAgICAgICBpZiAodGFyZ2V0KSB7CiAgICAgICAgICAgICAgICAgICAgY2FuZGlkYXRlcy5wdXNoKHsKICAgICAgICAgICAgICAgICAgICAgICAgd2VpZ2h0OiAyMCwKICAgICAgICAgICAgICAgICAgICAgICAgZXhlY3V0ZTogKCkgPT4gKHsKICAgICAgICAgICAgICAgICAgICAgICAgICAgIGV2ZW50VHlwZTogJ3BhcnR5JyBhcyBTaW1FdmVudFR5cGUsCiAgICAgICAgICAgICAgICAgICAgICAgICAgICBpbnZvbHZlZElkczogW25wYy5pZCwgZGVzaXJlLnRhcmdldE5wY0lkXSwKICAgICAgICAgICAgICAgICAgICAgICAgICAgIGRlc2NyaXB0aW9uOiBgJHtucGMuZW1vaml9JHtucGMubmFtZX3nuqYke3RhcmdldC5lbW9qaX0ke3RhcmdldC5uYW1lfeWOu+alvOS4i+mFkuWQp+Wwj+mFjOS4gOadr++8gWAsCiAgICAgICAgICAgICAgICAgICAgICAgIH0pLAogICAgICAgICAgICAgICAgICAgIH0pOwogICAgICAgICAgICAgICAgfQogICAgICAgICAgICAgICAgYnJlYWs7CiAgICAgICAgICAgIH0KICAgICAgICAgICAgY2FzZSAnc3RhcnRfcml2YWxyeSc6IHsKICAgICAgICAgICAgICAgIGNvbnN0IHRhcmdldCA9IGdldE5QQyhzdGF0ZSwgZGVzaXJlLnRhcmdldE5wY0lkKTsKICAgICAgICAgICAgICAgIGlmICh0YXJnZXQpIHsKICAgICAgICAgICAgICAgICAgICBjYW5kaWRhdGVzLnB1c2goewogICAgICAgICAgICAgICAgICAgICAgICB3ZWlnaHQ6IDI1LAogICAgICAgICAgICAgICAgICAgICAgICBleGVjdXRlOiAoKSA9PiAoewogICAgICAgICAgICAgICAgICAgICAgICAgICAgZXZlbnRUeXBlOiAncml2YWxyeScgYXMgU2ltRXZlbnRUeXBlLAogICAgICAgICAgICAgICAgICAgICAgICAgICAgaW52b2x2ZWRJZHM6IFtucGMuaWQsIGRlc2lyZS50YXJnZXROcGNJZF0sCiAgICAgICAgICAgICAgICAgICAgICAgICAgICBkZXNjcmlwdGlvbjogYCR7bnBjLmVtb2ppfSR7bnBjLm5hbWV95Zyo5pyL5Y+L5ZyI6Zi06Ziz5oCq5rCU5LqGJHt0YXJnZXQuZW1vaml9JHt0YXJnZXQubmFtZX3vvIzlhazlvIDlrqPmiJjvvIFgLAogICAgICAgICAgICAgICAgICAgICAgICB9KSwKICAgICAgICAgICAgICAgICAgICB9KTsKICAgICAgICAgICAgICAgIH0KICAgICAgICAgICAgICAgIGJyZWFrOwogICAgICAgICAgICB9CiAgICAgICAgfQogICAgfQoKICAgIHJldHVybiBjYW5kaWRhdGVzOwp9CgovKioKICog5Yqg5p2D6ZqP5py66YCJ5oupCiAqLwpmdW5jdGlvbiB3ZWlnaHRlZFJhbmRvbTxUIGV4dGVuZHMgeyB3ZWlnaHQ6IG51bWJlciB9PihpdGVtczogVFtdKTogVCB8IG51bGwgewogICAgaWYgKGl0ZW1zLmxlbmd0aCA9PT0gMCkgcmV0dXJuIG51bGw7CiAgICBjb25zdCB0b3RhbFdlaWdodCA9IGl0ZW1zLnJlZHVjZSgoc3VtLCBpdGVtKSA9PiBzdW0gKyBpdGVtLndlaWdodCwgMCk7CiAgICBsZXQgcm9sbCA9IE1hdGgucmFuZG9tKCkgKiB0b3RhbFdlaWdodDsKICAgIGZvciAoY29uc3QgaXRlbSBvZiBpdGVtcykgewogICAgICAgIHJvbGwgLT0gaXRlbS53ZWlnaHQ7CiAgICAgICAgaWYgKHJvbGwgPD0gMCkgcmV0dXJuIGl0ZW07CiAgICB9CiAgICByZXR1cm4gaXRlbXNbaXRlbXMubGVuZ3RoIC0gMV07Cn0KCi8qKgogKiDlvZNOUEPmsqHmnInljLnphY3nmoTmrLLmnJvml7bvvIznlJ/miJDpu5jorqTooYzkuLoKICovCmZ1bmN0aW9uIGdlbmVyYXRlRGVmYXVsdEFjdGlvbigKICAgIHN0YXRlOiBMaWZlU2ltU3RhdGUsCiAgICBucGM6IFNpbU5QQwopOiB7IGV2ZW50VHlwZTogU2ltRXZlbnRUeXBlOyBpbnZvbHZlZElkczogc3RyaW5nW107IGRlc2NyaXB0aW9uOiBzdHJpbmcgfSB8IG51bGwgewogICAgY29uc3Qgcm9sbCA9IE1hdGgucmFuZG9tKCk7CgogICAgLy8gNTAlIOS7gOS5iOmDveS4jeWBmgogICAgaWYgKHJvbGwgPCAwLjUwKSByZXR1cm4gbnVsbDsKCiAgICAvLyAzMCUg6ZqP5py65ZKM5a625bqt5oiQ5ZGY6IGa5LyaCiAgICBpZiAocm9sbCA8IDAuODAgJiYgbnBjLmZhbWlseUlkKSB7CiAgICAgICAgY29uc3QgZmFtID0gZ2V0RmFtaWx5KHN0YXRlLCBucGMuZmFtaWx5SWQpOwogICAgICAgIGlmIChmYW0gJiYgZmFtLm1lbWJlcklkcy5sZW5ndGggPiAxKSB7CiAgICAgICAgICAgIGNvbnN0IG90aGVycyA9IGZhbS5tZW1iZXJJZHMuZmlsdGVyKGlkID0+IGlkICE9PSBucGMuaWQpOwogICAgICAgICAgICBjb25zdCB0YXJnZXRJZCA9IG90aGVyc1tNYXRoLmZsb29yKE1hdGgucmFuZG9tKCkgKiBvdGhlcnMubGVuZ3RoKV07CiAgICAgICAgICAgIGNvbnN0IHRhcmdldCA9IGdldE5QQyhzdGF0ZSwgdGFyZ2V0SWQpOwogICAgICAgICAgICBpZiAodGFyZ2V0KSB7CiAgICAgICAgICAgICAgICByZXR1cm4gewogICAgICAgICAgICAgICAgICAgIGV2ZW50VHlwZTogJ3BhcnR5JywKICAgICAgICAgICAgICAgICAgICBpbnZvbHZlZElkczogW25wYy5pZCwgdGFyZ2V0SWRdLAogICAgICAgICAgICAgICAgICAgIGRlc2NyaXB0aW9uOiBgJHtucGMuZW1vaml9JHtucGMubmFtZX3lj6vkuIoke3RhcmdldC5lbW9qaX0ke3RhcmdldC5uYW1lfeS4gOi1t+eCueWkluWNlui/veWJp35gLAogICAgICAgICAgICAgICAgfTsKICAgICAgICAgICAgfQogICAgICAgIH0KICAgIH0KCiAgICAvLyAyMCUg6ZqP5py65YWr5Y2mCiAgICBjb25zdCBhbGxPdGhlck5wY3MgPSBzdGF0ZS5ucGNzLmZpbHRlcihuID0+IG4uaWQgIT09IG5wYy5pZCk7CiAgICBpZiAoYWxsT3RoZXJOcGNzLmxlbmd0aCA+IDApIHsKICAgICAgICBjb25zdCB0YXJnZXQgPSBhbGxPdGhlck5wY3NbTWF0aC5mbG9vcihNYXRoLnJhbmRvbSgpICogYWxsT3RoZXJOcGNzLmxlbmd0aCldOwogICAgICAgIHJldHVybiB7CiAgICAgICAgICAgIGV2ZW50VHlwZTogJ2dvc3NpcCcsCiAgICAgICAgICAgIGludm9sdmVkSWRzOiBbdGFyZ2V0LmlkXSwKICAgICAgICAgICAgZGVzY3JpcHRpb246IGAke25wYy5lbW9qaX0ke25wYy5uYW1lfeWcqOWFrOWvk+e+pOmHjOiBiui1t+S6hiR7dGFyZ2V0LmVtb2ppfSR7dGFyZ2V0Lm5hbWV955qE56eB5LqL4oCm4oCmYCwKICAgICAgICB9OwogICAgfQoKICAgIHJldHVybiBudWxsOwp9CgovLyDilIDilIAgR3J1ZGdlICYgQ3J1c2ggVXBkYXRlIOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgAoKLyoqCiAqIOagueaNruS6i+S7tuexu+Wei+abtOaWsE5QQ+eahOS7h+aBqOWSjOaal+aBi+WFs+ezuwogKi8KZnVuY3Rpb24gdXBkYXRlR3J1ZGdlc0FuZENydXNoZXMoCiAgICBzdGF0ZTogTGlmZVNpbVN0YXRlLAogICAgYWN0b3JJZDogc3RyaW5nLAogICAgZXZlbnRUeXBlOiBTaW1FdmVudFR5cGUsCiAgICBpbnZvbHZlZElkczogc3RyaW5nW10KKTogdm9pZCB7CiAgICBjb25zdCBhY3RvciA9IHN0YXRlLm5wY3MuZmluZChuID0+IG4uaWQgPT09IGFjdG9ySWQpOwogICAgaWYgKCFhY3RvcikgcmV0dXJuOwoKICAgIGlmICghYWN0b3IuZ3J1ZGdlcykgYWN0b3IuZ3J1ZGdlcyA9IFtdOwogICAgaWYgKCFhY3Rvci5jcnVzaGVzKSBhY3Rvci5jcnVzaGVzID0gW107CgogICAgc3dpdGNoIChldmVudFR5cGUpIHsKICAgICAgICBjYXNlICdmaWdodCc6IHsKICAgICAgICAgICAgLy8g5omT5p6255uu5qCH5Yqg5YWl5LuH5oGo5YiX6KGoCiAgICAgICAgICAgIGZvciAoY29uc3QgaWQgb2YgaW52b2x2ZWRJZHMpIHsKICAgICAgICAgICAgICAgIGlmIChpZCAhPT0gYWN0b3JJZCAmJiAhYWN0b3IuZ3J1ZGdlcy5pbmNsdWRlcyhpZCkpIHsKICAgICAgICAgICAgICAgICAgICBhY3Rvci5ncnVkZ2VzLnB1c2goaWQpOwogICAgICAgICAgICAgICAgfQogICAgICAgICAgICAgICAgLy8g6KKr5omT55qE5Lq65Lmf6K6w5LuHCiAgICAgICAgICAgICAgICBjb25zdCB0YXJnZXQgPSBzdGF0ZS5ucGNzLmZpbmQobiA9PiBuLmlkID09PSBpZCk7CiAgICAgICAgICAgICAgICBpZiAodGFyZ2V0ICYmIHRhcmdldC5pZCAhPT0gYWN0b3JJZCkgewogICAgICAgICAgICAgICAgICAgIGlmICghdGFyZ2V0LmdydWRnZXMpIHRhcmdldC5ncnVkZ2VzID0gW107CiAgICAgICAgICAgICAgICAgICAgaWYgKCF0YXJnZXQuZ3J1ZGdlcy5pbmNsdWRlcyhhY3RvcklkKSkgewogICAgICAgICAgICAgICAgICAgICAgICB0YXJnZXQuZ3J1ZGdlcy5wdXNoKGFjdG9ySWQpOwogICAgICAgICAgICAgICAgICAgIH0KICAgICAgICAgICAgICAgIH0KICAgICAgICAgICAgfQogICAgICAgICAgICBicmVhazsKICAgICAgICB9CiAgICAgICAgY2FzZSAncm9tYW5jZSc6IHsKICAgICAgICAgICAgLy8g5pqn5pin55uu5qCH5Yqg5YWl5pqX5oGL5YiX6KGoCiAgICAgICAgICAgIGZvciAoY29uc3QgaWQgb2YgaW52b2x2ZWRJZHMpIHsKICAgICAgICAgICAgICAgIGlmIChpZCAhPT0gYWN0b3JJZCAmJiAhYWN0b3IuY3J1c2hlcy5pbmNsdWRlcyhpZCkpIHsKICAgICAgICAgICAgICAgICAgICBhY3Rvci5jcnVzaGVzLnB1c2goaWQpOwogICAgICAgICAgICAgICAgfQogICAgICAgICAgICB9CiAgICAgICAgICAgIGJyZWFrOwogICAgICAgIH0KICAgICAgICBjYXNlICdwYXJ0eSc6IHsKICAgICAgICAgICAgLy8g6IGa5LyaIOKGkiDljp/osIXku4fmgaggKOmAmui/h3BhcnR55YyW6Kej55+b55u+KQogICAgICAgICAgICBmb3IgKGNvbnN0IGlkIG9mIGludm9sdmVkSWRzKSB7CiAgICAgICAgICAgICAgICBpZiAoaWQgIT09IGFjdG9ySWQpIHsKICAgICAgICAgICAgICAgICAgICBhY3Rvci5ncnVkZ2VzID0gYWN0b3IuZ3J1ZGdlcy5maWx0ZXIoZyA9PiBnICE9PSBpZCk7CiAgICAgICAgICAgICAgICAgICAgLy8g5a+55pa55Lmf5Y6f6LCFCiAgICAgICAgICAgICAgICAgICAgY29uc3Qgb3RoZXIgPSBzdGF0ZS5ucGNzLmZpbmQobiA9PiBuLmlkID09PSBpZCk7CiAgICAgICAgICAgICAgICAgICAgaWYgKG90aGVyICYmIG90aGVyLmdydWRnZXMpIHsKICAgICAgICAgICAgICAgICAgICAgICAgb3RoZXIuZ3J1ZGdlcyA9IG90aGVyLmdydWRnZXMuZmlsdGVyKGcgPT4gZyAhPT0gYWN0b3JJZCk7CiAgICAgICAgICAgICAgICAgICAgfQogICAgICAgICAgICAgICAgfQogICAgICAgICAgICB9CiAgICAgICAgICAgIGJyZWFrOwogICAgICAgIH0KICAgIH0KfQoKLy8g4pSA4pSAIE1haW4gQXV0b25vbW91cyBUdXJuIOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgAoKLyoqCiAqIOaJp+ihjOS4gOWbnuWQiE5QQ+iHquS4u+ihjOS4ugogKiDpgY3ljobmiYDmnIlOUEPvvIjpmo/mnLrpobrluo/vvInvvIzmoLnmja7mgKfmoLwv5qyy5pybL+W/g+aDheamgueOh+aAp+eUn+aIkOS6i+S7tgogKi8KZXhwb3J0IGZ1bmN0aW9uIHJ1bkF1dG9ub21vdXNUdXJuKHN0YXRlOiBMaWZlU2ltU3RhdGUpOiB7CiAgICBuZXdTdGF0ZTogTGlmZVNpbVN0YXRlOwogICAgZXZlbnRzOiBTaW1BY3Rpb25bXTsKfSB7CiAgICBsZXQgcyA9IGRlZXBDbG9uZShzdGF0ZSk7CiAgICBjb25zdCBldmVudHM6IFNpbUFjdGlvbltdID0gW107CgogICAgLy8g6ZqP5py65o6S5YiXTlBD6aG65bqPCiAgICBjb25zdCBzaHVmZmxlZE5wY3MgPSBbLi4ucy5ucGNzXS5zb3J0KCgpID0+IE1hdGgucmFuZG9tKCkgLSAwLjUpOwoKICAgIC8vIOWfuuehgOihjOWKqOamgueOhzogMjUlICsgY2hhb3MvMjAwIChjaGFvcz0xMDDml7Y3NSUpCiAgICBjb25zdCBiYXNlUHJvYmFiaWxpdHkgPSAwLjI1ICsgcy5jaGFvc0xldmVsIC8gMjAwOwoKICAgIGZvciAoY29uc3QgbnBjUmVmIG9mIHNodWZmbGVkTnBjcykgewogICAgICAgIC8vIOiOt+WPluacgOaWsOeJiE5QQ++8iOWboOS4uuWJjemdoueahE5QQ+ihjOWKqOWPr+iDveS/ruaUueS6hueKtuaAge+8iQogICAgICAgIGNvbnN0IG5wYyA9IHMubnBjcy5maW5kKG4gPT4gbi5pZCA9PT0gbnBjUmVmLmlkKTsKICAgICAgICBpZiAoIW5wYykgY29udGludWU7CgogICAgICAgIC8vIFN0ZXAgMTog5pu05paw5qyy5pybCiAgICAgICAgbnBjLmRlc2lyZXMgPSB1cGRhdGVEZXNpcmVzKHMsIG5wYyk7CgogICAgICAgIC8vIFN0ZXAgMjog5o636aqw5Yaz5a6a5piv5ZCm6KGM5YqoCiAgICAgICAgaWYgKE1hdGgucmFuZG9tKCkgPiBiYXNlUHJvYmFiaWxpdHkpIGNvbnRpbnVlOwoKICAgICAgICAvLyBTdGVwIDM6IOagueaNruassuacm+eUn+aIkOihjOWKqAogICAgICAgIGNvbnN0IGNhbmRpZGF0ZXMgPSBidWlsZEFjdGlvbkNhbmRpZGF0ZXMocywgbnBjLCBucGMuZGVzaXJlcyk7CgogICAgICAgIGxldCBhY3Rpb25SZXN1bHQ6IHsgZXZlbnRUeXBlOiBTaW1FdmVudFR5cGU7IGludm9sdmVkSWRzOiBzdHJpbmdbXTsgZGVzY3JpcHRpb246IHN0cmluZyB9IHwgbnVsbCA9IG51bGw7CiAgICAgICAgbGV0IGlzR29Tb2xvID0gZmFsc2U7CgogICAgICAgIGlmIChjYW5kaWRhdGVzLmxlbmd0aCA+IDApIHsKICAgICAgICAgICAgY29uc3QgY2hvc2VuID0gd2VpZ2h0ZWRSYW5kb20oY2FuZGlkYXRlcyk7CiAgICAgICAgICAgIGlmIChjaG9zZW4pIHsKICAgICAgICAgICAgICAgIGNvbnN0IHJlc3VsdCA9IGNob3Nlbi5leGVjdXRlKCk7CiAgICAgICAgICAgICAgICBpZiAocmVzdWx0ID09PSBudWxsKSB7CiAgICAgICAgICAgICAgICAgICAgLy8gR09fU09MTyAobGVhdmVfZmFtaWx5KQogICAgICAgICAgICAgICAgICAgIGlzR29Tb2xvID0gdHJ1ZTsKICAgICAgICAgICAgICAgIH0gZWxzZSB7CiAgICAgICAgICAgICAgICAgICAgYWN0aW9uUmVzdWx0ID0gcmVzdWx0OwogICAgICAgICAgICAgICAgfQogICAgICAgICAgICB9CiAgICAgICAgfSBlbHNlIHsKICAgICAgICAgICAgLy8g5rKh5pyJ5qyy5pyb6amx5YqoIOKGkiDpu5jorqTooYzkuLoKICAgICAgICAgICAgYWN0aW9uUmVzdWx0ID0gZ2VuZXJhdGVEZWZhdWx0QWN0aW9uKHMsIG5wYyk7CiAgICAgICAgfQoKICAgICAgICAvLyBTdGVwIDQ6IOaJp+ihjOihjOWKqAogICAgICAgIGlmIChpc0dvU29sbyAmJiBucGMuZmFtaWx5SWQpIHsKICAgICAgICAgICAgLy8g56a75a625Ye66LWwCiAgICAgICAgICAgIGNvbnN0IG9sZEZhbWlseSA9IGdldEZhbWlseShzLCBucGMuZmFtaWx5SWQpOwogICAgICAgICAgICBjb25zdCBvbGRGYW1pbHlOYW1lID0gb2xkRmFtaWx5Py5uYW1lID8/ICflrrbluq0nOwoKICAgICAgICAgICAgLy8g5LuO5pen5a625bqt56e76ZmkCiAgICAgICAgICAgIGlmIChvbGRGYW1pbHkpIHsKICAgICAgICAgICAgICAgIG9sZEZhbWlseS5tZW1iZXJJZHMgPSBvbGRGYW1pbHkubWVtYmVySWRzLmZpbHRlcihpZCA9PiBpZCAhPT0gbnBjLmlkKTsKICAgICAgICAgICAgICAgIC8vIOa4heeQhuWFs+ezuwogICAgICAgICAgICAgICAgZGVsZXRlIG9sZEZhbWlseS5yZWxhdGlvbnNoaXBzW25wYy5pZF07CiAgICAgICAgICAgICAgICBmb3IgKGNvbnN0IG90aGVySWQgb2YgT2JqZWN0LmtleXMob2xkRmFtaWx5LnJlbGF0aW9uc2hpcHMpKSB7CiAgICAgICAgICAgICAgICAgICAgaWYgKG9sZEZhbWlseS5yZWxhdGlvbnNoaXBzW290aGVySWRdKSBkZWxldGUgb2xkRmFtaWx5LnJlbGF0aW9uc2hpcHNbb3RoZXJJZF1bbnBjLmlkXTsKICAgICAgICAgICAgICAgIH0KICAgICAgICAgICAgfQogICAgICAgICAgICBucGMuZmFtaWx5SWQgPSBudWxsOwoKICAgICAgICAgICAgY29uc3QgYWN0aW9uOiBTaW1BY3Rpb24gPSB7CiAgICAgICAgICAgICAgICBpZDogZ2VuSWQoKSwKICAgICAgICAgICAgICAgIHR1cm5OdW1iZXI6IHMudHVybk51bWJlciwKICAgICAgICAgICAgICAgIGFjdG9yOiBucGMubmFtZSwKICAgICAgICAgICAgICAgIGFjdG9yQXZhdGFyOiBucGMuZW1vamksCiAgICAgICAgICAgICAgICBhY3RvcklkOiAnYXV0b25vbW91cycsCiAgICAgICAgICAgICAgICB0eXBlOiAnR09fU09MTycsCiAgICAgICAgICAgICAgICBkZXNjcmlwdGlvbjogYCR7bnBjLmVtb2ppfSR7bnBjLm5hbWV95Y+X5aSf5LqGJHtvbGRGYW1pbHlOYW1lfeeahOWupOWPi++8jOi/nuWknOaQrOi1sOS6hu+8gWAsCiAgICAgICAgICAgICAgICBpbW1lZGlhdGVSZXN1bHQ6IGAke25wYy5uYW1lfeeOsOWcqOeLrOWxheS6huOAgmAsCiAgICAgICAgICAgICAgICB0aW1lc3RhbXA6IERhdGUubm93KCksCiAgICAgICAgICAgIH07CiAgICAgICAgICAgIHMuYWN0aW9uTG9nLnB1c2goYWN0aW9uKTsKICAgICAgICAgICAgZXZlbnRzLnB1c2goYWN0aW9uKTsKCiAgICAgICAgICAgIHMuY2hhb3NMZXZlbCA9IGNsYW1wKHMuY2hhb3NMZXZlbCArIDEwLCAwLCAxMDApOwogICAgICAgICAgICBucGMubW9vZCA9IGNsYW1wKG5wYy5tb29kICsgMTApOyAvLyDnprvlvIDlkI7nqI3lvq7oiJLmnI3kuIDngrkKCiAgICAgICAgfSBlbHNlIGlmIChhY3Rpb25SZXN1bHQpIHsKICAgICAgICAgICAgLy8g5q2j5bi45LqL5Lu2CiAgICAgICAgICAgIGNvbnN0IHsgbmV3U3RhdGUsIGltbWVkaWF0ZVJlc3VsdCB9ID0gYXBwbHlUcmlnZ2VyRXZlbnQoCiAgICAgICAgICAgICAgICBzLAogICAgICAgICAgICAgICAgYWN0aW9uUmVzdWx0LmV2ZW50VHlwZSwKICAgICAgICAgICAgICAgIGFjdGlvblJlc3VsdC5pbnZvbHZlZElkcywKICAgICAgICAgICAgICAgIGFjdGlvblJlc3VsdC5kZXNjcmlwdGlvbgogICAgICAgICAgICApOwogICAgICAgICAgICBzID0gbmV3U3RhdGU7CgogICAgICAgICAgICBjb25zdCBhY3Rpb246IFNpbUFjdGlvbiA9IHsKICAgICAgICAgICAgICAgIGlkOiBnZW5JZCgpLAogICAgICAgICAgICAgICAgdHVybk51bWJlcjogcy50dXJuTnVtYmVyLAogICAgICAgICAgICAgICAgYWN0b3I6IG5wYy5uYW1lLAogICAgICAgICAgICAgICAgYWN0b3JBdmF0YXI6IG5wYy5lbW9qaSwKICAgICAgICAgICAgICAgIGFjdG9ySWQ6ICdhdXRvbm9tb3VzJywKICAgICAgICAgICAgICAgIHR5cGU6ICdUUklHR0VSX0VWRU5UJywKICAgICAgICAgICAgICAgIGRlc2NyaXB0aW9uOiBhY3Rpb25SZXN1bHQuZGVzY3JpcHRpb24sCiAgICAgICAgICAgICAgICBpbW1lZGlhdGVSZXN1bHQsCiAgICAgICAgICAgICAgICB0aW1lc3RhbXA6IERhdGUubm93KCksCiAgICAgICAgICAgIH07CiAgICAgICAgICAgIHMuYWN0aW9uTG9nLnB1c2goYWN0aW9uKTsKICAgICAgICAgICAgZXZlbnRzLnB1c2goYWN0aW9uKTsKCiAgICAgICAgICAgIC8vIFN0ZXAgNTog5pu05paw5LuH5oGoL+aal+aBiwogICAgICAgICAgICB1cGRhdGVHcnVkZ2VzQW5kQ3J1c2hlcyhzLCBucGMuaWQsIGFjdGlvblJlc3VsdC5ldmVudFR5cGUsIGFjdGlvblJlc3VsdC5pbnZvbHZlZElkcyk7CiAgICAgICAgfQogICAgICAgIC8vIGVsc2U6IERPX05PVEhJTkcg4oCUIE5QQ+atpOWbnuWQiOaMieWFteS4jeWKqAogICAgfQoKICAgIHJldHVybiB7IG5ld1N0YXRlOiBzLCBldmVudHMgfTsKfQo=
+/**
+ * LifeSim Autonomous Behavior System — 都市版
+ * 居民自主行为引擎 — 基于性格/心情/关系生成都市Drama事件，无需LLM调用
+ */
+
+import { LifeSimState, SimNPC, SimAction, SimEventType, NPCDesire } from '../types';
+import { getNPC, getFamily, getFamilyMembers, getIndependentNPCs, getRelationship, clamp, applyTriggerEvent, deepClone } from './lifeSimEngine';
+// evaluateEventChains will be imported when that module is created
+// import { evaluateEventChains } from './lifeSimEventChains';
+
+const genId = () => Math.random().toString(36).slice(2, 10);
+
+// ── Desire Generation ──────────────────────────────────────────
+
+/**
+ * 根据NPC当前状态更新其内驱力列表
+ */
+function updateDesires(state: LifeSimState, npc: SimNPC): NPCDesire[] {
+    const desires: NPCDesire[] = [];
+    const grudges = npc.grudges ?? [];
+    const crushes = npc.crushes ?? [];
+
+    // 记仇 + 心情差 → 复仇欲
+    if (grudges.length > 0 && npc.mood < 0) {
+        for (const targetId of grudges) {
+            desires.push({ type: 'revenge', targetNpcId: targetId });
+        }
+    }
+
+    // 关系好 + 没暗恋对象 → 可能产生暧昧
+    if (crushes.length === 0) {
+        for (const fam of state.families) {
+            if (!fam.memberIds.includes(npc.id)) continue;
+            for (const otherId of fam.memberIds) {
+                if (otherId === npc.id) continue;
+                const rel = getRelationship(fam, npc.id, otherId);
+                if (rel > 60 && Math.random() < 0.30) {
+                    desires.push({ type: 'romance', targetNpcId: otherId });
+                }
+            }
+        }
+    }
+
+    // 心情极差 + 家庭中有讨厌的人 → 想离家
+    if (npc.mood < -40 && npc.familyId) {
+        const fam = getFamily(state, npc.familyId);
+        if (fam) {
+            for (const otherId of fam.memberIds) {
+                if (otherId === npc.id) continue;
+                const rel = getRelationship(fam, npc.id, otherId);
+                if (rel < -30) {
+                    desires.push({ type: 'leave_family' });
+                    break; // 只需要一个 leave_family desire
+                }
+            }
+        }
+    }
+
+    // 腹黑/聪明 + 关系差 → 搬弄是非
+    const isScheming = npc.personality.some(p => p === '腹黑' || p === '聪明');
+    if (isScheming) {
+        for (const fam of state.families) {
+            if (!fam.memberIds.includes(npc.id)) continue;
+            for (const otherId of fam.memberIds) {
+                if (otherId === npc.id) continue;
+                const rel = getRelationship(fam, npc.id, otherId);
+                if (rel < -20 && Math.random() < 0.20) {
+                    desires.push({ type: 'gossip_about', targetNpcId: otherId });
+                }
+            }
+        }
+    }
+
+    // 热情/活泼 → 社交
+    const isSocial = npc.personality.some(p => p === '热情' || p === '活泼');
+    if (isSocial && npc.familyId) {
+        const fam = getFamily(state, npc.familyId);
+        if (fam && fam.memberIds.length > 1 && Math.random() < 0.15) {
+            const candidates = fam.memberIds.filter(id => id !== npc.id);
+            const targetId = candidates[Math.floor(Math.random() * candidates.length)];
+            desires.push({ type: 'socialize', targetNpcId: targetId });
+        }
+    }
+
+    // 暴躁/冲动 + 心情不好 + 有仇 → 开战
+    const isAggressive = npc.personality.some(p => p === '暴躁' || p === '冲动');
+    if (isAggressive && npc.mood < -10 && grudges.length > 0 && Math.random() < 0.40) {
+        for (const targetId of grudges) {
+            desires.push({ type: 'start_rivalry', targetNpcId: targetId });
+        }
+    }
+
+    return desires;
+}
+
+// ── Action Generation ──────────────────────────────────────────
+
+interface WeightedAction {
+    weight: number;
+    execute: () => { eventType: SimEventType; involvedIds: string[]; description: string } | null;
+}
+
+/**
+ * 为有欲望的NPC生成加权行动列表
+ */
+function buildActionCandidates(
+    state: LifeSimState,
+    npc: SimNPC,
+    desires: NPCDesire[]
+): WeightedAction[] {
+    const candidates: WeightedAction[] = [];
+
+    for (const desire of desires) {
+        switch (desire.type) {
+            case 'revenge': {
+                const target = getNPC(state, desire.targetNpcId);
+                if (target) {
+                    candidates.push({
+                        weight: npc.mood < -20 ? 50 : 25,
+                        execute: () => ({
+                            eventType: 'fight' as SimEventType,
+                            involvedIds: [npc.id, desire.targetNpcId],
+                            description: `${npc.emoji}${npc.name}忍无可忍，在公寓群里@了${target.emoji}${target.name}公开撕逼！`,
+                        }),
+                    });
+                }
+                break;
+            }
+            case 'romance': {
+                const target = getNPC(state, desire.targetNpcId);
+                if (target) {
+                    candidates.push({
+                        weight: 30,
+                        execute: () => ({
+                            eventType: 'romance' as SimEventType,
+                            involvedIds: [npc.id, desire.targetNpcId],
+                            description: `${npc.emoji}${npc.name}在电梯里"偶遇"了${target.emoji}${target.name}，暧昧值直线飙升……`,
+                        }),
+                    });
+                }
+                break;
+            }
+            case 'leave_family':
+                candidates.push({
+                    weight: npc.mood < -40 ? 20 : 8,
+                    execute: () => null, // GO_SOLO 特殊处理
+                });
+                break;
+            case 'gossip_about': {
+                const target = getNPC(state, desire.targetNpcId);
+                if (target) {
+                    candidates.push({
+                        weight: 25,
+                        execute: () => ({
+                            eventType: 'gossip' as SimEventType,
+                            involvedIds: [desire.targetNpcId],
+                            description: `${npc.emoji}${npc.name}在小群里疯狂输出关于${target.emoji}${target.name}的八卦……`,
+                        }),
+                    });
+                }
+                break;
+            }
+            case 'socialize': {
+                const target = getNPC(state, desire.targetNpcId);
+                if (target) {
+                    candidates.push({
+                        weight: 20,
+                        execute: () => ({
+                            eventType: 'party' as SimEventType,
+                            involvedIds: [npc.id, desire.targetNpcId],
+                            description: `${npc.emoji}${npc.name}约${target.emoji}${target.name}去楼下酒吧小酌一杯！`,
+                        }),
+                    });
+                }
+                break;
+            }
+            case 'start_rivalry': {
+                const target = getNPC(state, desire.targetNpcId);
+                if (target) {
+                    candidates.push({
+                        weight: 25,
+                        execute: () => ({
+                            eventType: 'rivalry' as SimEventType,
+                            involvedIds: [npc.id, desire.targetNpcId],
+                            description: `${npc.emoji}${npc.name}在朋友圈阴阳怪气了${target.emoji}${target.name}，公开宣战！`,
+                        }),
+                    });
+                }
+                break;
+            }
+        }
+    }
+
+    return candidates;
+}
+
+/**
+ * 加权随机选择
+ */
+function weightedRandom<T extends { weight: number }>(items: T[]): T | null {
+    if (items.length === 0) return null;
+    const totalWeight = items.reduce((sum, item) => sum + item.weight, 0);
+    let roll = Math.random() * totalWeight;
+    for (const item of items) {
+        roll -= item.weight;
+        if (roll <= 0) return item;
+    }
+    return items[items.length - 1];
+}
+
+/**
+ * 当NPC没有匹配的欲望时，生成默认行为
+ */
+function generateDefaultAction(
+    state: LifeSimState,
+    npc: SimNPC
+): { eventType: SimEventType; involvedIds: string[]; description: string } | null {
+    const roll = Math.random();
+
+    // 50% 什么都不做
+    if (roll < 0.50) return null;
+
+    // 30% 随机和家庭成员聚会
+    if (roll < 0.80 && npc.familyId) {
+        const fam = getFamily(state, npc.familyId);
+        if (fam && fam.memberIds.length > 1) {
+            const others = fam.memberIds.filter(id => id !== npc.id);
+            const targetId = others[Math.floor(Math.random() * others.length)];
+            const target = getNPC(state, targetId);
+            if (target) {
+                return {
+                    eventType: 'party',
+                    involvedIds: [npc.id, targetId],
+                    description: `${npc.emoji}${npc.name}叫上${target.emoji}${target.name}一起点外卖追剧~`,
+                };
+            }
+        }
+    }
+
+    // 20% 随机八卦
+    const allOtherNpcs = state.npcs.filter(n => n.id !== npc.id);
+    if (allOtherNpcs.length > 0) {
+        const target = allOtherNpcs[Math.floor(Math.random() * allOtherNpcs.length)];
+        return {
+            eventType: 'gossip',
+            involvedIds: [target.id],
+            description: `${npc.emoji}${npc.name}在公寓群里聊起了${target.emoji}${target.name}的私事……`,
+        };
+    }
+
+    return null;
+}
+
+// ── Grudge & Crush Update ──────────────────────────────────────
+
+/**
+ * 根据事件类型更新NPC的仇恨和暗恋关系
+ */
+function updateGrudgesAndCrushes(
+    state: LifeSimState,
+    actorId: string,
+    eventType: SimEventType,
+    involvedIds: string[]
+): void {
+    const actor = state.npcs.find(n => n.id === actorId);
+    if (!actor) return;
+
+    if (!actor.grudges) actor.grudges = [];
+    if (!actor.crushes) actor.crushes = [];
+
+    switch (eventType) {
+        case 'fight': {
+            // 打架目标加入仇恨列表
+            for (const id of involvedIds) {
+                if (id !== actorId && !actor.grudges.includes(id)) {
+                    actor.grudges.push(id);
+                }
+                // 被打的人也记仇
+                const target = state.npcs.find(n => n.id === id);
+                if (target && target.id !== actorId) {
+                    if (!target.grudges) target.grudges = [];
+                    if (!target.grudges.includes(actorId)) {
+                        target.grudges.push(actorId);
+                    }
+                }
+            }
+            break;
+        }
+        case 'romance': {
+            // 暧昧目标加入暗恋列表
+            for (const id of involvedIds) {
+                if (id !== actorId && !actor.crushes.includes(id)) {
+                    actor.crushes.push(id);
+                }
+            }
+            break;
+        }
+        case 'party': {
+            // 聚会 → 原谅仇恨 (通过party化解矛盾)
+            for (const id of involvedIds) {
+                if (id !== actorId) {
+                    actor.grudges = actor.grudges.filter(g => g !== id);
+                    // 对方也原谅
+                    const other = state.npcs.find(n => n.id === id);
+                    if (other && other.grudges) {
+                        other.grudges = other.grudges.filter(g => g !== actorId);
+                    }
+                }
+            }
+            break;
+        }
+    }
+}
+
+// ── Main Autonomous Turn ───────────────────────────────────────
+
+/**
+ * 执行一回合NPC自主行为
+ * 遍历所有NPC（随机顺序），根据性格/欲望/心情概率性生成事件
+ */
+export function runAutonomousTurn(state: LifeSimState): {
+    newState: LifeSimState;
+    events: SimAction[];
+} {
+    let s = deepClone(state);
+    const events: SimAction[] = [];
+
+    // 随机排列NPC顺序
+    const shuffledNpcs = [...s.npcs].sort(() => Math.random() - 0.5);
+
+    // 基础行动概率: 25% + chaos/200 (chaos=100时75%)
+    const baseProbability = 0.25 + s.chaosLevel / 200;
+
+    for (const npcRef of shuffledNpcs) {
+        // 获取最新版NPC（因为前面的NPC行动可能修改了状态）
+        const npc = s.npcs.find(n => n.id === npcRef.id);
+        if (!npc) continue;
+
+        // Step 1: 更新欲望
+        npc.desires = updateDesires(s, npc);
+
+        // Step 2: 掷骰决定是否行动
+        if (Math.random() > baseProbability) continue;
+
+        // Step 3: 根据欲望生成行动
+        const candidates = buildActionCandidates(s, npc, npc.desires);
+
+        let actionResult: { eventType: SimEventType; involvedIds: string[]; description: string } | null = null;
+        let isGoSolo = false;
+
+        if (candidates.length > 0) {
+            const chosen = weightedRandom(candidates);
+            if (chosen) {
+                const result = chosen.execute();
+                if (result === null) {
+                    // GO_SOLO (leave_family)
+                    isGoSolo = true;
+                } else {
+                    actionResult = result;
+                }
+            }
+        } else {
+            // 没有欲望驱动 → 默认行为
+            actionResult = generateDefaultAction(s, npc);
+        }
+
+        // Step 4: 执行行动
+        if (isGoSolo && npc.familyId) {
+            // 离家出走
+            const oldFamily = getFamily(s, npc.familyId);
+            const oldFamilyName = oldFamily?.name ?? '家庭';
+
+            // 从旧家庭移除
+            if (oldFamily) {
+                oldFamily.memberIds = oldFamily.memberIds.filter(id => id !== npc.id);
+                // 清理关系
+                delete oldFamily.relationships[npc.id];
+                for (const otherId of Object.keys(oldFamily.relationships)) {
+                    if (oldFamily.relationships[otherId]) delete oldFamily.relationships[otherId][npc.id];
+                }
+            }
+            npc.familyId = null;
+
+            const action: SimAction = {
+                id: genId(),
+                turnNumber: s.turnNumber,
+                actor: npc.name,
+                actorAvatar: npc.emoji,
+                actorId: 'autonomous',
+                type: 'GO_SOLO',
+                description: `${npc.emoji}${npc.name}受够了${oldFamilyName}的室友，连夜搬走了！`,
+                immediateResult: `${npc.name}现在独居了。`,
+                timestamp: Date.now(),
+            };
+            s.actionLog.push(action);
+            events.push(action);
+
+            s.chaosLevel = clamp(s.chaosLevel + 10, 0, 100);
+            npc.mood = clamp(npc.mood + 10); // 离开后稍微舒服一点
+
+        } else if (actionResult) {
+            // 正常事件
+            const { newState, immediateResult } = applyTriggerEvent(
+                s,
+                actionResult.eventType,
+                actionResult.involvedIds,
+                actionResult.description
+            );
+            s = newState;
+
+            const action: SimAction = {
+                id: genId(),
+                turnNumber: s.turnNumber,
+                actor: npc.name,
+                actorAvatar: npc.emoji,
+                actorId: 'autonomous',
+                type: 'TRIGGER_EVENT',
+                description: actionResult.description,
+                immediateResult,
+                timestamp: Date.now(),
+            };
+            s.actionLog.push(action);
+            events.push(action);
+
+            // Step 5: 更新仇恨/暗恋
+            updateGrudgesAndCrushes(s, npc.id, actionResult.eventType, actionResult.involvedIds);
+        }
+        // else: DO_NOTHING — NPC此回合按兵不动
+    }
+
+    return { newState: s, events };
+}

@@ -1,1 +1,134 @@
-LyoqCiAqIEdpdEh1YiDntKDmnZDku5PlupPvvIhxZWdqNTY3LWNsb3VkL1N1bGx5T1MtYXNzZXRz77yJ55qE57uf5LiA5Ye65Y+jICsg5aSaIENETiDplZzlg4/lhZzlupXjgIIKICoKICog6IOM5pmv77ya5oi/6Ze05bqV5Zu+IC8g5rS75Yqo6IOM5pmvIC8gQkdNIOetiee0oOadkOaJmOeuoeWcqOS4iumdoui/meS4qiBHaXRIdWIg5LuT5bqT77yM5LmL5YmN5pWj6JC9552ACiAqIGpzRGVsaXZyIC8gcmF3LmdpdGh1YnVzZXJjb250ZW50IOeahOWGmeatu+mTvuaOpeOAguWNleS4gCBob3N0IOaKvemjjuaXtuKAlOKAlGpzRGVsaXZyIOWcqOWkp+mZhuW4uOiiq+WimeOAgQogKiByYXcuZ2l0aHVidXNlcmNvbnRlbnQg5qC55pys5rKhIENETiDlhajnkIPpg73mhaLigJTigJTnlKjmiLflsLHjgIznnIvkuI3liLDlm77jgI3jgIIKICoKICog6L+Z6YeM5oqK44CM5LuT5bqT5YaF55u45a+56Lev5b6E44CN5pig5bCE5oiQ5LiA5Liy6Leo44CQ54us56uL572R57uc44CR55qE562J5Lu36ZWc5YOP77yb5Li75rqQ5ouJ5LiN5Yiw5bCx6Ieq5Yqo5o2i5LiL5LiA5Liq44CCCiAqIOWQjOS4gOS4quaWh+S7tuWcqOWQhCBDRE4g6L6557yY5a2X6IqC5a6M5YWo5LiA6Ie077yM6ZqP5L6/5YiH44CB5YiH5LqG5bCx5aW944CCCiAqCiAqIOS4ieenjea2iOi0ueaWueW8j++8jOWQhOeUqOWvueW6lOW3peWFt++8iOmDveWcqOa1j+iniOWZqOmHjOi3ke+8jOaOoua1i+eUqCBuZXcgSW1hZ2UoKS88YXVkaW8+77yJ77yaCiAqICAgwrcgPGltZz4gICAgICAgICAg4oaSIGNvbXBvbmVudHMvb3MvQ2RuSW1nLnRzeO+8iG9uRXJyb3Ig6Ieq5Yqo5YiH6ZWc5YOP77yJCiAqICAgwrcgQ1NTIGJhY2tncm91bmQg4oaSIHVzZVJlc2lsaWVudEFzc2V0VXJsKHBhdGgp77yISlMg6aKE5o6i5rWL77yM6L+U5Zue56ys5LiA5Liq6IO95Yqg6L2955qEIHVybCDlubbop6blj5Hph43muLLmn5PvvIkKICogICDCtyBuZXcgQXVkaW8oKSAgICDihpIgYXR0YWNoQXVkaW9NaXJyb3JGYWxsYmFjayhhdWRpbywgcGF0aE9yVXJsKe+8iGVycm9yIOS6i+S7tuWIh+mVnOWDj++8iQogKiDkuI3pnIDopoHov5DooYzml7blhZzlupXnmoTkuIDmrKHmgKflnLrmma/vvIhjYW52YXMg5ZCI5oiQ562J77yJ55u05o6lIGFzc2V0VXJsKHBhdGgpIOaLv+S4u+a6kOWNs+WPr+OAggogKgogKiDms6jvvJpzaGFya3BhbiDnrYnnrKzkuInmlrnlm77luormsqHmnInnrYnku7fplZzlg4/vvIxhc3NldFBhdGhGcm9tVXJsIOiupOS4jeWHuuS8muWOn+agt+i/lOWbnuWNleadoe+8jAogKiDmg7PorqnlroPku6zkuZ/kuqvlj5flhZzlupXlvpflhYjmiormlofku7bmkKzov5vov5nkuKogR2l0SHViIOS7k+W6k+OAggogKi8KCmltcG9ydCB7IHVzZUVmZmVjdCwgdXNlTWVtbywgdXNlU3RhdGUgfSBmcm9tICdyZWFjdCc7Cgpjb25zdCBBU1NFVFNfUkVQTyA9ICdxZWdqNTY3LWNsb3VkL1N1bGx5T1MtYXNzZXRzJzsKY29uc3QgQVNTRVRTX1JFRiA9ICdtYWluJzsKCmNvbnN0IHN0cmlwTGVhZCA9IChwOiBzdHJpbmcpID0+IHAucmVwbGFjZSgvXlwvKy8sICcnKTsKCi8qKiDku5PlupPnm7jlr7not6/lvoQg4oaSIOS4gOS4sui3qOeLrOeri+e9kee7nOeahOetieS7t+mVnOWDjyB1cmzvvIjotorpnaDliY3otorkvJjlhYjvvInjgIIgKi8KZXhwb3J0IGZ1bmN0aW9uIGFzc2V0TWlycm9ycyhwYXRoOiBzdHJpbmcpOiBzdHJpbmdbXSB7CiAgICBjb25zdCBwID0gc3RyaXBMZWFkKHBhdGgpOwogICAgcmV0dXJuIFsKICAgICAgICBgaHR0cHM6Ly9jZG4uanNkZWxpdnIubmV0L2doLyR7QVNTRVRTX1JFUE99QCR7QVNTRVRTX1JFRn0vJHtwfWAsCiAgICAgICAgYGh0dHBzOi8vZmFzdGx5LmpzZGVsaXZyLm5ldC9naC8ke0FTU0VUU19SRVBPfUAke0FTU0VUU19SRUZ9LyR7cH1gLAogICAgICAgIGBodHRwczovL2djb3JlLmpzZGVsaXZyLm5ldC9naC8ke0FTU0VUU19SRVBPfUAke0FTU0VUU19SRUZ9LyR7cH1gLAogICAgICAgIGBodHRwczovL2Nkbi5zdGF0aWNhbGx5LmlvL2doLyR7QVNTRVRTX1JFUE99LyR7QVNTRVRTX1JFRn0vJHtwfWAsCiAgICAgICAgYGh0dHBzOi8vcmF3LmdpdGh1YnVzZXJjb250ZW50LmNvbS8ke0FTU0VUU19SRVBPfS8ke0FTU0VUU19SRUZ9LyR7cH1gLAogICAgXTsKfQoKLyoqIOS4u+a6kO+8iG1pcnJvclswXe+8ieOAgue7meS4jemcgOimgei/kOihjOaXtuWFnOW6leeahOS4gOasoeaAp+WcuuaZr+OAgiAqLwpleHBvcnQgZnVuY3Rpb24gYXNzZXRVcmwocGF0aDogc3RyaW5nKTogc3RyaW5nIHsKICAgIHJldHVybiBhc3NldE1pcnJvcnMocGF0aClbMF07Cn0KCi8qKgogKiDmiorkuIDkuKrlt7Lnn6XnmoTlrozmlbTntKDmnZAgdXJs77yIanNkZWxpdnIgLyBzdGF0aWNhbGx5IC8gcmF3LmdpdGh1YnVzZXJjb250ZW50IOS7u+aEj+W9ouaAge+8ieWPjeino+WbngogKiDku5PlupPnm7jlr7not6/lvoTvvIzlpb3orqnljoblj7Llhpnmrbvpk77mjqXkuZ/og73mjqXov5vplZzlg4/lhZzlupXjgILorqTkuI3lh7rnmoTvvIjlpoIgc2hhcmtwYW4g5Zu+5bqK77yJ6L+U5ZueIG51bGzjgIIKICovCmV4cG9ydCBmdW5jdGlvbiBhc3NldFBhdGhGcm9tVXJsKHVybDogc3RyaW5nKTogc3RyaW5nIHwgbnVsbCB7CiAgICBsZXQgbSA9IHVybC5tYXRjaCgvXC9naFwvW14vXStcL1teL0BdK0BbXi9dK1wvKC4rKSQvKTsgICAgICAgICAgICAgICAgICAgICAvLyBqc2RlbGl2ciBAcmVmCiAgICBpZiAobSkgcmV0dXJuIG1bMV07CiAgICBtID0gdXJsLm1hdGNoKC9zdGF0aWNhbGx5XC5pb1wvZ2hcL1teL10rXC9bXi9dK1wvW14vXStcLyguKykkLyk7ICAgICAgICAgICAvLyBzdGF0aWNhbGx5IC9yZWYvCiAgICBpZiAobSkgcmV0dXJuIG1bMV07CiAgICBtID0gdXJsLm1hdGNoKC9yYXdcLmdpdGh1YnVzZXJjb250ZW50XC5jb21cL1teL10rXC9bXi9dK1wvW14vXStcLyguKykkLyk7ICAvLyByYXcgL3JlZi8KICAgIGlmIChtKSByZXR1cm4gbVsxXTsKICAgIHJldHVybiBudWxsOwp9CgovKiog5oqK5Lu75oSP57Sg5p2QIHVybCDlvZLkuIDmiJDplZzlg4/pk77vvJrorqTlvpfnmoTmjInku5PlupPot6/lvoTlsZXlvIDvvIzorqTkuI3lvpfnmoTljp/moLfljZXmnaHov5Tlm57jgIIgKi8KZXhwb3J0IGZ1bmN0aW9uIG1pcnJvcnNGb3JVcmwodXJsOiBzdHJpbmcpOiBzdHJpbmdbXSB7CiAgICBjb25zdCBwID0gYXNzZXRQYXRoRnJvbVVybCh1cmwpOwogICAgcmV0dXJuIHAgPyBhc3NldE1pcnJvcnMocCkgOiBbdXJsXTsKfQoKLy8g4pSA4pSA4pSAIOi/kOihjOaXtuaOoua1i++8iOa1j+iniOWZqO+8ieKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgAovLyDmjqLmtYvnu5PmnpznvJPlrZjvvIhrZXk95Li75rqQIHVybO+8ie+8muaVtOS4quS8muivneavj+S4que0oOadkOWPquaOouS4gOasoe+8jOWRveS4reebtOaOpeWkjeeUqOOAggpjb25zdCBwcm9iZWQgPSBuZXcgTWFwPHN0cmluZywgc3RyaW5nPigpOwpjb25zdCBwcm9iaW5nID0gbmV3IE1hcDxzdHJpbmcsIFByb21pc2U8c3RyaW5nPj4oKTsKCi8qKiDkvp3mrKHlsJ3or5XplZzlg4/vvIzov5Tlm57nrKzkuIDkuKrog73ooqvmtY/op4jlmajmiJDlip/liqDovb3kuLrlm77niYfnmoQgdXJs44CC5YWo5oyC5YiZ5Zue6YCA5pyr5L2N6ZWc5YOP44CCICovCmV4cG9ydCBmdW5jdGlvbiBsb2FkRmlyc3RXb3JraW5nSW1hZ2UobWlycm9yczogc3RyaW5nW10pOiBQcm9taXNlPHN0cmluZz4gewogICAgaWYgKCFtaXJyb3JzLmxlbmd0aCkgcmV0dXJuIFByb21pc2UucmVzb2x2ZSgnJyk7CiAgICBjb25zdCBrZXkgPSBtaXJyb3JzWzBdOwogICAgY29uc3QgaGl0ID0gcHJvYmVkLmdldChrZXkpOwogICAgaWYgKGhpdCkgcmV0dXJuIFByb21pc2UucmVzb2x2ZShoaXQpOwogICAgY29uc3QgaW5mbGlnaHQgPSBwcm9iaW5nLmdldChrZXkpOwogICAgaWYgKGluZmxpZ2h0KSByZXR1cm4gaW5mbGlnaHQ7CgogICAgY29uc3QgcnVuID0gKGFzeW5jICgpID0+IHsKICAgICAgICBmb3IgKGNvbnN0IHVybCBvZiBtaXJyb3JzKSB7CiAgICAgICAgICAgIGNvbnN0IG9rID0gYXdhaXQgbmV3IFByb21pc2U8Ym9vbGVhbj4oKHJlc29sdmUpID0+IHsKICAgICAgICAgICAgICAgIGNvbnN0IGltZyA9IG5ldyBJbWFnZSgpOwogICAgICAgICAgICAgICAgaW1nLm9ubG9hZCA9ICgpID0+IHJlc29sdmUodHJ1ZSk7CiAgICAgICAgICAgICAgICBpbWcub25lcnJvciA9ICgpID0+IHJlc29sdmUoZmFsc2UpOwogICAgICAgICAgICAgICAgaW1nLnNyYyA9IHVybDsKICAgICAgICAgICAgfSk7CiAgICAgICAgICAgIGlmIChvaykgeyBwcm9iZWQuc2V0KGtleSwgdXJsKTsgcmV0dXJuIHVybDsgfQogICAgICAgIH0KICAgICAgICBjb25zdCBsYXN0ID0gbWlycm9yc1ttaXJyb3JzLmxlbmd0aCAtIDFdOwogICAgICAgIHByb2JlZC5zZXQoa2V5LCBsYXN0KTsgLy8g5YWo5oyC77ya6K6w5pyr5L2N77yM5Yir5q+P5qyh6YeN5o6iCiAgICAgICAgcmV0dXJuIGxhc3Q7CiAgICB9KSgpOwogICAgcHJvYmluZy5zZXQoa2V5LCBydW4pOwogICAgcnVuLmZpbmFsbHkoKCkgPT4gcHJvYmluZy5kZWxldGUoa2V5KSk7CiAgICByZXR1cm4gcnVuOwp9CgovKioKICogQ1NTIOiDjOaZr+S4k+eUqCBob29r77ya57uZ5LiA5Liq5LuT5bqT6Lev5b6E77yM5YWI5ZCM5q2l6L+U5Zue5Li75rqQ77yI5LiN55WZ55m977yJ77yM5ZCO5Y+w5o6i5rWL5Yiw6IO95Yqg6L2955qE6ZWc5YOP5ZCOCiAqIOWIh+i/h+WOu+W5tuinpuWPkemHjea4suafk+OAgnBhdGgg5Li656m66L+U5Zue56m65a2X56ym5Liy44CCCiAqLwpleHBvcnQgZnVuY3Rpb24gdXNlUmVzaWxpZW50QXNzZXRVcmwocGF0aDogc3RyaW5nIHwgbnVsbCB8IHVuZGVmaW5lZCk6IHN0cmluZyB7CiAgICBjb25zdCBtaXJyb3JzID0gdXNlTWVtbygoKSA9PiAocGF0aCA/IGFzc2V0TWlycm9ycyhwYXRoKSA6IFtdKSwgW3BhdGhdKTsKICAgIGNvbnN0IFt1cmwsIHNldFVybF0gPSB1c2VTdGF0ZTxzdHJpbmc+KCgpID0+IG1pcnJvcnNbMF0gPz8gJycpOwogICAgdXNlRWZmZWN0KCgpID0+IHsKICAgICAgICBpZiAoIW1pcnJvcnMubGVuZ3RoKSB7IHNldFVybCgnJyk7IHJldHVybjsgfQogICAgICAgIHNldFVybChtaXJyb3JzWzBdKTsKICAgICAgICBsZXQgYWxpdmUgPSB0cnVlOwogICAgICAgIGxvYWRGaXJzdFdvcmtpbmdJbWFnZShtaXJyb3JzKS50aGVuKChvaykgPT4geyBpZiAoYWxpdmUgJiYgb2spIHNldFVybChvayk7IH0pOwogICAgICAgIHJldHVybiAoKSA9PiB7IGFsaXZlID0gZmFsc2U7IH07CiAgICB9LCBbbWlycm9yc10pOwogICAgcmV0dXJuIHVybDsKfQoKLyoqCiAqIOe7mSBKUyDmnoTpgKDnmoQgPGF1ZGlvPiDmjIIgQ0ROIOmVnOWDj+WFnOW6le+8muiuvuWlvemmlua6kO+8jOWKoOi9vS/mkq3mlL7miqXplJnlsLHliIfkuIvkuIDkuKrplZzlg4/ph43or5XvvIwKICog5YWo5oyC5omN572i5LyR44CC6L+U5Zue6Kej57uR5Ye95pWw77yI6LCD55So5a6D5Lya56e76Zmk55uR5ZCs77yM5YWD57Sg5aSN55So5o2i5puy5YmN5YWI6Kej57uR5pen55qE77yM6YG/5YWN55uR5ZCs5aCG5Y+g77yJ44CCCiAqIHBhdGhPclVybCDlj6/kuLrku5PlupPnm7jlr7not6/lvoTmiJblrozmlbTntKDmnZAgdXJs44CCCiAqLwpleHBvcnQgZnVuY3Rpb24gYXR0YWNoQXVkaW9NaXJyb3JGYWxsYmFjayhhdWRpbzogSFRNTEF1ZGlvRWxlbWVudCwgcGF0aE9yVXJsOiBzdHJpbmcpOiAoKSA9PiB2b2lkIHsKICAgIGNvbnN0IG1pcnJvcnMgPSBwYXRoT3JVcmwuaW5jbHVkZXMoJzovLycpID8gbWlycm9yc0ZvclVybChwYXRoT3JVcmwpIDogYXNzZXRNaXJyb3JzKHBhdGhPclVybCk7CiAgICBsZXQgaWR4ID0gMDsKICAgIGF1ZGlvLnNyYyA9IG1pcnJvcnNbMF07CiAgICBjb25zdCBvbkVycm9yID0gKCkgPT4gewogICAgICAgIGlmIChpZHggPj0gbWlycm9ycy5sZW5ndGggLSAxKSByZXR1cm47IC8vIOmVnOWDj+eUqOWwve+8jOiupOagvQogICAgICAgIGlkeCsrOwogICAgICAgIGNvbnN0IHdhc1BsYXlpbmcgPSAhYXVkaW8ucGF1c2VkOwogICAgICAgIGF1ZGlvLnNyYyA9IG1pcnJvcnNbaWR4XTsKICAgICAgICBhdWRpby5sb2FkKCk7CiAgICAgICAgaWYgKHdhc1BsYXlpbmcpIGF1ZGlvLnBsYXkoKS5jYXRjaCgoKSA9PiB7IC8qIOiHquWKqOaSreaUvuetlueVpeaLpuaIqu+8mumdmeW+heeUqOaIt+S6pOS6kiAqLyB9KTsKICAgIH07CiAgICBhdWRpby5hZGRFdmVudExpc3RlbmVyKCdlcnJvcicsIG9uRXJyb3IpOwogICAgcmV0dXJuICgpID0+IGF1ZGlvLnJlbW92ZUV2ZW50TGlzdGVuZXIoJ2Vycm9yJywgb25FcnJvcik7Cn0K
+/**
+ * GitHub 素材仓库（qegj567-cloud/SullyOS-assets）的统一出口 + 多 CDN 镜像兜底。
+ *
+ * 背景：房间底图 / 活动背景 / BGM 等素材托管在上面这个 GitHub 仓库，之前散落着
+ * jsDelivr / raw.githubusercontent 的写死链接。单一 host 抽风时——jsDelivr 在大陆常被墙、
+ * raw.githubusercontent 根本没 CDN 全球都慢——用户就「看不到图」。
+ *
+ * 这里把「仓库内相对路径」映射成一串跨【独立网络】的等价镜像；主源拉不到就自动换下一个。
+ * 同一个文件在各 CDN 边缘字节完全一致，随便切、切了就好。
+ *
+ * 三种消费方式，各用对应工具（都在浏览器里跑，探测用 new Image()/<audio>）：
+ *   · <img>          → components/os/CdnImg.tsx（onError 自动切镜像）
+ *   · CSS background → useResilientAssetUrl(path)（JS 预探测，返回第一个能加载的 url 并触发重渲染）
+ *   · new Audio()    → attachAudioMirrorFallback(audio, pathOrUrl)（error 事件切镜像）
+ * 不需要运行时兜底的一次性场景（canvas 合成等）直接 assetUrl(path) 拿主源即可。
+ *
+ * 注：sharkpan 等第三方图床没有等价镜像，assetPathFromUrl 认不出会原样返回单条，
+ * 想让它们也享受兜底得先把文件搬进这个 GitHub 仓库。
+ */
+
+import { useEffect, useMemo, useState } from 'react';
+
+const ASSETS_REPO = 'qegj567-cloud/SullyOS-assets';
+const ASSETS_REF = 'main';
+
+const stripLead = (p: string) => p.replace(/^\/+/, '');
+
+/** 仓库相对路径 → 一串跨独立网络的等价镜像 url（越靠前越优先）。 */
+export function assetMirrors(path: string): string[] {
+    const p = stripLead(path);
+    return [
+        `https://cdn.jsdelivr.net/gh/${ASSETS_REPO}@${ASSETS_REF}/${p}`,
+        `https://fastly.jsdelivr.net/gh/${ASSETS_REPO}@${ASSETS_REF}/${p}`,
+        `https://gcore.jsdelivr.net/gh/${ASSETS_REPO}@${ASSETS_REF}/${p}`,
+        `https://cdn.statically.io/gh/${ASSETS_REPO}/${ASSETS_REF}/${p}`,
+        `https://raw.githubusercontent.com/${ASSETS_REPO}/${ASSETS_REF}/${p}`,
+    ];
+}
+
+/** 主源（mirror[0]）。给不需要运行时兜底的一次性场景。 */
+export function assetUrl(path: string): string {
+    return assetMirrors(path)[0];
+}
+
+/**
+ * 把一个已知的完整素材 url（jsdelivr / statically / raw.githubusercontent 任意形态）反解回
+ * 仓库相对路径，好让历史写死链接也能接进镜像兜底。认不出的（如 sharkpan 图床）返回 null。
+ */
+export function assetPathFromUrl(url: string): string | null {
+    let m = url.match(/\/gh\/[^/]+\/[^/@]+@[^/]+\/(.+)$/);                     // jsdelivr @ref
+    if (m) return m[1];
+    m = url.match(/statically\.io\/gh\/[^/]+\/[^/]+\/[^/]+\/(.+)$/);           // statically /ref/
+    if (m) return m[1];
+    m = url.match(/raw\.githubusercontent\.com\/[^/]+\/[^/]+\/[^/]+\/(.+)$/);  // raw /ref/
+    if (m) return m[1];
+    return null;
+}
+
+/** 把任意素材 url 归一成镜像链：认得的按仓库路径展开，认不得的原样单条返回。 */
+export function mirrorsForUrl(url: string): string[] {
+    const p = assetPathFromUrl(url);
+    return p ? assetMirrors(p) : [url];
+}
+
+// ─── 运行时探测（浏览器）────────────────────────────────────────────────────
+// 探测结果缓存（key=主源 url）：整个会话每个素材只探一次，命中直接复用。
+const probed = new Map<string, string>();
+const probing = new Map<string, Promise<string>>();
+
+/** 依次尝试镜像，返回第一个能被浏览器成功加载为图片的 url。全挂则回退末位镜像。 */
+export function loadFirstWorkingImage(mirrors: string[]): Promise<string> {
+    if (!mirrors.length) return Promise.resolve('');
+    const key = mirrors[0];
+    const hit = probed.get(key);
+    if (hit) return Promise.resolve(hit);
+    const inflight = probing.get(key);
+    if (inflight) return inflight;
+
+    const run = (async () => {
+        for (const url of mirrors) {
+            const ok = await new Promise<boolean>((resolve) => {
+                const img = new Image();
+                img.onload = () => resolve(true);
+                img.onerror = () => resolve(false);
+                img.src = url;
+            });
+            if (ok) { probed.set(key, url); return url; }
+        }
+        const last = mirrors[mirrors.length - 1];
+        probed.set(key, last); // 全挂：记末位，别每次重探
+        return last;
+    })();
+    probing.set(key, run);
+    run.finally(() => probing.delete(key));
+    return run;
+}
+
+/**
+ * CSS 背景专用 hook：给一个仓库路径，先同步返回主源（不留白），后台探测到能加载的镜像后
+ * 切过去并触发重渲染。path 为空返回空字符串。
+ */
+export function useResilientAssetUrl(path: string | null | undefined): string {
+    const mirrors = useMemo(() => (path ? assetMirrors(path) : []), [path]);
+    const [url, setUrl] = useState<string>(() => mirrors[0] ?? '');
+    useEffect(() => {
+        if (!mirrors.length) { setUrl(''); return; }
+        setUrl(mirrors[0]);
+        let alive = true;
+        loadFirstWorkingImage(mirrors).then((ok) => { if (alive && ok) setUrl(ok); });
+        return () => { alive = false; };
+    }, [mirrors]);
+    return url;
+}
+
+/**
+ * 给 JS 构造的 <audio> 挂 CDN 镜像兜底：设好首源，加载/播放报错就切下一个镜像重试，
+ * 全挂才罢休。返回解绑函数（调用它会移除监听，元素复用换曲前先解绑旧的，避免监听堆叠）。
+ * pathOrUrl 可为仓库相对路径或完整素材 url。
+ */
+export function attachAudioMirrorFallback(audio: HTMLAudioElement, pathOrUrl: string): () => void {
+    const mirrors = pathOrUrl.includes('://') ? mirrorsForUrl(pathOrUrl) : assetMirrors(pathOrUrl);
+    let idx = 0;
+    audio.src = mirrors[0];
+    const onError = () => {
+        if (idx >= mirrors.length - 1) return; // 镜像用尽，认栽
+        idx++;
+        const wasPlaying = !audio.paused;
+        audio.src = mirrors[idx];
+        audio.load();
+        if (wasPlaying) audio.play().catch(() => { /* 自动播放策略拦截：静待用户交互 */ });
+    };
+    audio.addEventListener('error', onError);
+    return () => audio.removeEventListener('error', onError);
+}

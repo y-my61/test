@@ -1,1 +1,274 @@
-Ly8g5Zu+54mHIEJsb2Ig5byV55So5bGC77yIYmFzZTY0IOKGkiBCbG9iIOi/geenu+eahOaguOW/g++8ieOAggovLwovLyDog4zmma/vvJrmnKzpobnnm67lm77niYfljobmnaXku6UgYmFzZTY0IGRhdGEgVVJMIOebtOaOpeWtmOi/myBJbmRleGVkREIgLyBDaGFyYWN0ZXJQcm9maWxl44CCYmFzZTY0IOavlAovLyDljp/lp4vkuozov5vliLblpKcgfjMzJe+8jOS4lOS9nOS4uiBKUyDlrZfnrKbkuLLluLjpqbvlhoXlrZjvvIhSZWFjdCBzdGF0ZSAvIDxpbWcgc3JjPiDph4zpg73mi5bnnYDmlbTmrrXvvInvvIwKLy8g5aOB57q444CB5bCP5bGL77yIUm9vbUFwcO+8iei/meexu+Wkp+WbvuWwpOWFtuWQg+mFjemineWSjOWGheWtmOOAggovLwovLyDmlrnmoYjvvJrlm77niYfkuozov5vliLblrZjov5sgYmxvYl9hc3NldHMgc3RvcmXvvIhJbmRleGVkREIg5Y6f55Sf5pSv5oyBIEJsb2LvvInvvIzlrZfmrrXph4zlj6rlrZjkuIDkuKrnn60KLy8g5Luk54mMIGBibG9icmVmOjxpZD5g44CC6L+Z5qC377yaCi8vICAgwrcg5a2X5q615LuN5pivIHN0cmluZyDigJTigJQgQ2hhcmFjdGVyUHJvZmlsZSAvIOWQhCBzdG9yZSDorrDlvZXku43lj68gSlNPTiDlronlhajluo/liJfljJbjgIHnu5PmnoTljJblhYvpmobvvJsKLy8gICDCtyDmuLLmn5Pml7bmiorku6TniYzop6PmnpDmiJAgb2JqZWN0VVJM77yIVVJMLmNyZWF0ZU9iamVjdFVSTO+8ieWWgue7mSA8aW1nPi9DU1Mg6IOM5pmv77yM5bm2566h5aW95Zue5pS277ybCi8vICAgwrcg5aSH5Lu95a+85Ye65YmN5oqK5Luk54mM6Kej5p6Q5ZueIGRhdGEgVVJM77yM5aSN55So5pei5pyJ44CMZGF0YTppbWFnZSDihpIgemlwIGFzc2V0cy8q44CN5oq95Y+W566h57q/77yMCi8vICAgICDlpIfku73moLzlvI/kuI7lj6/np7vmpI3mgKflrozlhajkuI3lj5jvvIjop4EgY29udGV4dC9PU0NvbnRleHQudHN4IOWvvOWHui/lr7zlhaXvvInjgIIKLy8KLy8g5YW85a6577ya5pen5YC877yIYGRhdGE6Li4uYCAvIGBodHRwKHMpOi8vLi4uYCAvIENTUyDmuJDlj5jlrZfnrKbkuLLvvInkuIDlvovljp/moLfpgI/kvKDvvIzmsLjov5zog73muLLmn5PvvJsKLy8g5oOw5oCn6L+B56e755Sx5ZCE5raI6LS55pa577yI5aOB57q45Yqg6L2944CB6L+b5YWl5bCP5bGL77yJ5Zyo6K+75YiwIGRhdGE6IOaXtumhuuaJiyBwdXQg5oiQIEJsb2Ig5a6M5oiQ44CCCgppbXBvcnQgeyB1c2VFZmZlY3QsIHVzZVN0YXRlIH0gZnJvbSAncmVhY3QnOwppbXBvcnQgeyBEQiB9IGZyb20gJy4vZGInOwppbXBvcnQgdHlwZSB7IEFwcGVhcmFuY2VQcmVzZXQgfSBmcm9tICcuLi90eXBlcyc7CgpleHBvcnQgY29uc3QgQkxPQlJFRl9QUkVGSVggPSAnYmxvYnJlZjonOwoKLy8g55So5bim5ZOB54mM55qEIHN0cmluZyDlrZDnsbvlnovlgZrnsbvlnovlrojljavvvJrmraPliIbmlK/mlLbnqoTmiJAgQmxvYlJlZu+8jOi0n+WIhuaUr+S7jeS/neeVmSBzdHJpbmcKLy8g77yI6Iul55u05o6l55SoIGB2IGlzIHN0cmluZ2DvvIzlr7nmnKzlsLHmmK8gc3RyaW5nIOeahOWFpeWPgu+8jOWQpuWumuWIhuaUr+S8muiiq+aUtueqhOaIkCBuZXZlcu+8ieOAggpleHBvcnQgdHlwZSBCbG9iUmVmID0gc3RyaW5nICYgeyByZWFkb25seSBfX2Jsb2JSZWY6IHVuaXF1ZSBzeW1ib2wgfTsKCi8qKiDmmK/lkKbmmK8gYmxvYnJlZiDku6TniYzjgIIgKi8KZXhwb3J0IGNvbnN0IGlzQmxvYlJlZiA9ICh2OiB1bmtub3duKTogdiBpcyBCbG9iUmVmID0+CiAgICB0eXBlb2YgdiA9PT0gJ3N0cmluZycgJiYgdi5zdGFydHNXaXRoKEJMT0JSRUZfUFJFRklYKTsKCmNvbnN0IGlkT2ZSZWYgPSAocmVmOiBzdHJpbmcpOiBzdHJpbmcgPT4gcmVmLnNsaWNlKEJMT0JSRUZfUFJFRklYLmxlbmd0aCk7CgpsZXQgc2VxID0gMDsKY29uc3QgZ2VuSWQgPSAoKTogc3RyaW5nID0+CiAgICBgaW1nXyR7RGF0ZS5ub3coKS50b1N0cmluZygzNil9XyR7KHNlcSsrKS50b1N0cmluZygzNil9XyR7TWF0aC5yYW5kb20oKS50b1N0cmluZygzNikuc2xpY2UoMiwgOCl9YDsKCi8qKiDmioogQmxvYiDlrZjov5sgYmxvYl9hc3NldHPvvIzov5Tlm54gYGJsb2JyZWY6PGlkPmAg5Luk54mM44CCICovCmV4cG9ydCBhc3luYyBmdW5jdGlvbiBwdXRJbWFnZUJsb2IoYmxvYjogQmxvYik6IFByb21pc2U8c3RyaW5nPiB7CiAgICBjb25zdCBpZCA9IGdlbklkKCk7CiAgICBhd2FpdCBEQi5wdXRCbG9iQXNzZXQoaWQsIGJsb2IpOwogICAgcmV0dXJuIEJMT0JSRUZfUFJFRklYICsgaWQ7Cn0KCi8qKiDor7vlj5bku6TniYzlr7nlupTnmoQgQmxvYu+8iOmdnuS7pOeJjOaIluS4jeWtmOWcqOi/lOWbniBudWxs77yJ44CCICovCmV4cG9ydCBhc3luYyBmdW5jdGlvbiBnZXRCbG9iRm9yUmVmKHJlZjogc3RyaW5nKTogUHJvbWlzZTxCbG9iIHwgbnVsbD4gewogICAgaWYgKCFpc0Jsb2JSZWYocmVmKSkgcmV0dXJuIG51bGw7CiAgICB0cnkgewogICAgICAgIHJldHVybiBhd2FpdCBEQi5nZXRCbG9iQXNzZXQoaWRPZlJlZihyZWYpKTsKICAgIH0gY2F0Y2ggewogICAgICAgIHJldHVybiBudWxsOwogICAgfQp9CgovKioKICog5Yig6Zmk5Luk54mM5a+55bqU55qEIEJsb2LvvIhiZXN0LWVmZm9ydO+8ieOAggogKiDms6jmhI/vvJrlkIzkuIDku6TniYzlj6/og73ooqvlpJrlpITlvJXnlKjvvIjlsI/lsYvoh6rlrprkuYnntKDmnZDnmoQgaW1hZ2Ug5Lya6KKr5aSN5Yi26L+b5pGG5pS+55qEIGl0ZW0uaW1hZ2XvvInvvIwKICog5omA5Lul6LCD55So5pa56ZyA6Ieq6KGM56Gu6K6k5peg5Lq65YaN5byV55So5ZCO5omN5Yig77yM5ZCm5YiZ5Lya5Yig5Ye644CM56KO5Zu+44CN44CC5b2T5YmN5raI6LS55pa55LuO566A77ya5LiN5Li75Yqo5Yig77yMCiAqIOaui+eVmeWtpOWEvyBCbG9iIOeUseWQjue7rSBHQyDlpITnkIbvvIzlroHlj6/ljaDkuIDngrnnqbrpl7TkuZ/kuI3lhpLnoLTlm77po47pmanjgIIKICovCmV4cG9ydCBhc3luYyBmdW5jdGlvbiBkZWxldGVCbG9iUmVmKHJlZjogc3RyaW5nIHwgdW5kZWZpbmVkIHwgbnVsbCk6IFByb21pc2U8dm9pZD4gewogICAgaWYgKHJlZiAmJiBpc0Jsb2JSZWYocmVmKSkgewogICAgICAgIHRyeSB7IGF3YWl0IERCLmRlbGV0ZUJsb2JBc3NldChpZE9mUmVmKHJlZikpOyB9IGNhdGNoIHsgLyogaWdub3JlICovIH0KICAgIH0KfQoKLyoqCiAqIOS7heWcqOS7pOeJjOW3suS4jeWGjeiiq+aMgeS5heWMluiuvue9ruW8leeUqOaXtuWIoOmZpCBCbG9i44CCCiAqCiAqIOWjgee6uOOAgemUgeWxj+WSjOWkluingumihOiuvuWPr+iDveWFseS6q+WQjOS4gOS7pOeJjO+8m+ebtOaOpeWcqOaNouWbvuaXtiBkZWxldGUg5Lya6K6p6aKE6K6+5oiW4oCc5YiH5Zue6buY6K6k4oCd5aSH5Lu9CiAqIOWPmOaIkOatu+WbvuOAgui/memHjOajgOafpSBhc3NldHPvvIjlkKsgYXBwZWFyYW5jZV9wcmVzZXRfKiBKU09O77yJ5ZKMIGxvY2FsU3RvcmFnZe+8iOWQq+earuiCpOWjgee6uOWkh+S7ve+8iQogKiDlkI7lho3muIXnkIbjgILor7vlj5blvJXnlKjooajlpLHotKXml7blroHlj6/kv53nlZnvvIzkuZ/nu53kuI3lhpLpmanliKDlm77jgIIKICovCmV4cG9ydCBhc3luYyBmdW5jdGlvbiBkZWxldGVCbG9iUmVmSWZVbnJlZmVyZW5jZWQocmVmOiBzdHJpbmcgfCB1bmRlZmluZWQgfCBudWxsKTogUHJvbWlzZTxib29sZWFuPiB7CiAgICBpZiAoIXJlZiB8fCAhaXNCbG9iUmVmKHJlZikpIHJldHVybiBmYWxzZTsKCiAgICB0cnkgewogICAgICAgIGNvbnN0IGFzc2V0cyA9IGF3YWl0IERCLmdldEFsbEFzc2V0cygpOwogICAgICAgIGlmIChhc3NldHMuc29tZShhc3NldCA9PiB0eXBlb2YgYXNzZXQuZGF0YSA9PT0gJ3N0cmluZycgJiYgYXNzZXQuZGF0YS5pbmNsdWRlcyhyZWYpKSkgewogICAgICAgICAgICByZXR1cm4gZmFsc2U7CiAgICAgICAgfQogICAgfSBjYXRjaCB7CiAgICAgICAgcmV0dXJuIGZhbHNlOwogICAgfQoKICAgIHRyeSB7CiAgICAgICAgaWYgKHR5cGVvZiBsb2NhbFN0b3JhZ2UgIT09ICd1bmRlZmluZWQnKSB7CiAgICAgICAgICAgIGZvciAobGV0IGkgPSAwOyBpIDwgbG9jYWxTdG9yYWdlLmxlbmd0aDsgaSsrKSB7CiAgICAgICAgICAgICAgICBjb25zdCBrZXkgPSBsb2NhbFN0b3JhZ2Uua2V5KGkpOwogICAgICAgICAgICAgICAgaWYgKCFrZXkpIGNvbnRpbnVlOwogICAgICAgICAgICAgICAgaWYgKGxvY2FsU3RvcmFnZS5nZXRJdGVtKGtleSk/LmluY2x1ZGVzKHJlZikpIHJldHVybiBmYWxzZTsKICAgICAgICAgICAgfQogICAgICAgIH0KICAgIH0gY2F0Y2ggewogICAgICAgIHJldHVybiBmYWxzZTsKICAgIH0KCiAgICBhd2FpdCBkZWxldGVCbG9iUmVmKHJlZik7CiAgICByZXR1cm4gdHJ1ZTsKfQoKLy8g4pSA4pSA4pSAIGRhdGEgVVJMIOKHhCBCbG9iIOS6kui9rCDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIAKCi8qKiBgZGF0YTo8bWltZT47YmFzZTY0LHh4eHhgIOKGkiBCbG9i44CC6Z2eIGJhc2U2NCBkYXRhIFVSTCDkvJrmipvplJnjgIIgKi8KZXhwb3J0IGZ1bmN0aW9uIGRhdGFVcmxUb0Jsb2IoZGF0YVVybDogc3RyaW5nKTogQmxvYiB7CiAgICBjb25zdCBjb21tYSA9IGRhdGFVcmwuaW5kZXhPZignLCcpOwogICAgaWYgKGNvbW1hIDwgMCkgdGhyb3cgbmV3IEVycm9yKCdJbnZhbGlkIGRhdGEgVVJMJyk7CiAgICBjb25zdCBoZWFkZXIgPSBkYXRhVXJsLnNsaWNlKDAsIGNvbW1hKTsKICAgIGNvbnN0IG1pbWVNYXRjaCA9IGhlYWRlci5tYXRjaCgvXmRhdGE6KFteO10rKS8pOwogICAgY29uc3QgbWltZSA9IG1pbWVNYXRjaCA/IG1pbWVNYXRjaFsxXSA6ICdhcHBsaWNhdGlvbi9vY3RldC1zdHJlYW0nOwogICAgaWYgKCEvO2Jhc2U2NC9pLnRlc3QoaGVhZGVyKSkgewogICAgICAgIC8vIOmdniBiYXNlNjTvvIjmnoHlsJHop4HvvIzlpoIgdXRmOCDnvJbnoIHnmoQgc3Zn77yJ77yM6YCA5YyW5oiQIFVURi04IOe8lueggeOAggogICAgICAgIHJldHVybiBuZXcgQmxvYihbZGVjb2RlVVJJQ29tcG9uZW50KGRhdGFVcmwuc2xpY2UoY29tbWEgKyAxKSldLCB7IHR5cGU6IG1pbWUgfSk7CiAgICB9CiAgICBjb25zdCBiaW5hcnkgPSBhdG9iKGRhdGFVcmwuc2xpY2UoY29tbWEgKyAxKSk7CiAgICBjb25zdCBsZW4gPSBiaW5hcnkubGVuZ3RoOwogICAgY29uc3QgYnl0ZXMgPSBuZXcgVWludDhBcnJheShsZW4pOwogICAgZm9yIChsZXQgaSA9IDA7IGkgPCBsZW47IGkrKykgYnl0ZXNbaV0gPSBiaW5hcnkuY2hhckNvZGVBdChpKTsKICAgIHJldHVybiBuZXcgQmxvYihbYnl0ZXNdLCB7IHR5cGU6IG1pbWUgfSk7Cn0KCi8qKgogKiBCbG9iIOKGkiBgZGF0YTo8bWltZT47YmFzZTY0LHh4eHhg44CC5rWP6KeI5Zmo5Li757q/56iL6LWwIEZpbGVSZWFkZXLvvIjpq5jmlYjvvInvvJsKICog5rKh5pyJIEZpbGVSZWFkZXIg55qE546v5aKD77yIV29ya2VyIC8gTm9kZSDmtYvor5XvvInpgIDljJbliLAgYXJyYXlCdWZmZXIgKyBiYXNlNjQg5omL57yW44CCCiAqLwpleHBvcnQgYXN5bmMgZnVuY3Rpb24gYmxvYlRvRGF0YVVybChibG9iOiBCbG9iKTogUHJvbWlzZTxzdHJpbmc+IHsKICAgIGlmICh0eXBlb2YgRmlsZVJlYWRlciAhPT0gJ3VuZGVmaW5lZCcpIHsKICAgICAgICByZXR1cm4gbmV3IFByb21pc2UoKHJlc29sdmUsIHJlamVjdCkgPT4gewogICAgICAgICAgICBjb25zdCByZWFkZXIgPSBuZXcgRmlsZVJlYWRlcigpOwogICAgICAgICAgICByZWFkZXIub25sb2FkID0gKCkgPT4gcmVzb2x2ZShyZWFkZXIucmVzdWx0IGFzIHN0cmluZyk7CiAgICAgICAgICAgIHJlYWRlci5vbmVycm9yID0gKCkgPT4gcmVqZWN0KHJlYWRlci5lcnJvciB8fCBuZXcgRXJyb3IoJ2Jsb2JUb0RhdGFVcmwgZmFpbGVkJykpOwogICAgICAgICAgICByZWFkZXIucmVhZEFzRGF0YVVSTChibG9iKTsKICAgICAgICB9KTsKICAgIH0KICAgIGNvbnN0IGJ5dGVzID0gbmV3IFVpbnQ4QXJyYXkoYXdhaXQgYmxvYi5hcnJheUJ1ZmZlcigpKTsKICAgIGxldCBiaW5hcnkgPSAnJzsKICAgIGNvbnN0IENIVU5LID0gMHg4MDAwOyAvLyDliIblnZfmi7zlrZfnrKbkuLLvvIzpgb/lvIAgU3RyaW5nLmZyb21DaGFyQ29kZSDnmoTlj4LmlbDkuIrpmZAKICAgIGZvciAobGV0IGkgPSAwOyBpIDwgYnl0ZXMubGVuZ3RoOyBpICs9IENIVU5LKSB7CiAgICAgICAgYmluYXJ5ICs9IFN0cmluZy5mcm9tQ2hhckNvZGUoLi4uYnl0ZXMuc3ViYXJyYXkoaSwgaSArIENIVU5LKSk7CiAgICB9CiAgICBjb25zdCBtaW1lID0gYmxvYi50eXBlIHx8ICdhcHBsaWNhdGlvbi9vY3RldC1zdHJlYW0nOwogICAgcmV0dXJuIGBkYXRhOiR7bWltZX07YmFzZTY0LCR7YnRvYShiaW5hcnkpfWA7Cn0KCi8qKgogKiDmiorkuIDkuKogZGF0YTog5Zu+54mH5a2Y5oiQIEJsb2Ig5bm26L+U5Zue5Luk54mM77yI5oOw5oCn6L+B56e755So77yJ44CC6L2s5o2i5aSx6LSl5pe25Zue6YCA6L+U5Zue5Y6f5a2X56ym5Liy77yMCiAqIOS/neivgeiwg+eUqOaWueawuOi/nOaLv+WIsOS4gOS4quWPr+a4suafk+eahOWAvO+8jOS4jeS8muWboOi/geenu+Wksei0peiAjOS4ouWbvuOAggogKi8KZXhwb3J0IGFzeW5jIGZ1bmN0aW9uIG1pZ3JhdGVEYXRhVXJsVG9SZWYoZGF0YVVybDogc3RyaW5nKTogUHJvbWlzZTxzdHJpbmc+IHsKICAgIHRyeSB7CiAgICAgICAgcmV0dXJuIGF3YWl0IHB1dEltYWdlQmxvYihkYXRhVXJsVG9CbG9iKGRhdGFVcmwpKTsKICAgIH0gY2F0Y2ggewogICAgICAgIHJldHVybiBkYXRhVXJsOwogICAgfQp9CgovKioKICog5aSW6KeC6aKE6K6+5a+85YWl5LiT55So6L+B56e777ya5Y+q6L2s5o2i5bey57uP5o6l5YWlIEJsb2JSZWYg5riy5p+T6ZO+6Lev55qE5a2X5q6177yM5YW25LuWIGRhdGEgVVJMIOS/neaMgeWOn+eKtuOAggogKiBjYWNoZSDorqnlkIzkuIDlvKDljp/lm77lnKjlo4HnurjjgIHplIHlsY/miJblpJrkuKrlm77moIfkuK3lpI3nlKjlkIzkuIDkuKogQmxvYu+8jOmBv+WFjeWvvOWFpeaXtumHjeWkjeWNoOepuumXtOOAggogKi8KZXhwb3J0IGFzeW5jIGZ1bmN0aW9uIG1pZ3JhdGVBcHBlYXJhbmNlUHJlc2V0QmxvYlJlZnMoCiAgICBwcmVzZXQ6IEFwcGVhcmFuY2VQcmVzZXQsCiAgICBjYWNoZTogTWFwPHN0cmluZywgc3RyaW5nPiA9IG5ldyBNYXA8c3RyaW5nLCBzdHJpbmc+KCksCik6IFByb21pc2U8QXBwZWFyYW5jZVByZXNldD4gewogICAgY29uc3QgbWlncmF0ZSA9IGFzeW5jICh2YWx1ZTogc3RyaW5nIHwgdW5kZWZpbmVkKTogUHJvbWlzZTxzdHJpbmcgfCB1bmRlZmluZWQ+ID0+IHsKICAgICAgICBpZiAoIXZhbHVlPy5zdGFydHNXaXRoKCdkYXRhOicpKSByZXR1cm4gdmFsdWU7CiAgICAgICAgY29uc3QgY2FjaGVkID0gY2FjaGUuZ2V0KHZhbHVlKTsKICAgICAgICBpZiAoY2FjaGVkKSByZXR1cm4gY2FjaGVkOwogICAgICAgIGNvbnN0IHN0b3JlZCA9IGF3YWl0IG1pZ3JhdGVEYXRhVXJsVG9SZWYodmFsdWUpOwogICAgICAgIGNhY2hlLnNldCh2YWx1ZSwgc3RvcmVkKTsKICAgICAgICByZXR1cm4gc3RvcmVkOwogICAgfTsKCiAgICBjb25zdCB0aGVtZSA9IHsgLi4ucHJlc2V0LnRoZW1lIH07CiAgICB0aGVtZS53YWxscGFwZXIgPSAoYXdhaXQgbWlncmF0ZSh0aGVtZS53YWxscGFwZXIpKSB8fCB0aGVtZS53YWxscGFwZXI7CiAgICBpZiAoJ2xvY2tXYWxscGFwZXInIGluIHRoZW1lKSB0aGVtZS5sb2NrV2FsbHBhcGVyID0gYXdhaXQgbWlncmF0ZSh0aGVtZS5sb2NrV2FsbHBhcGVyKTsKCiAgICBsZXQgY3VzdG9tSWNvbnMgPSBwcmVzZXQuY3VzdG9tSWNvbnM7CiAgICBpZiAoY3VzdG9tSWNvbnMpIHsKICAgICAgICBjdXN0b21JY29ucyA9IHt9OwogICAgICAgIGZvciAoY29uc3QgW2FwcElkLCBpY29uXSBvZiBPYmplY3QuZW50cmllcyhwcmVzZXQuY3VzdG9tSWNvbnMgfHwge30pKSB7CiAgICAgICAgICAgIGN1c3RvbUljb25zW2FwcElkXSA9IChhd2FpdCBtaWdyYXRlKGljb24pKSB8fCBpY29uOwogICAgICAgIH0KICAgIH0KCiAgICByZXR1cm4geyAuLi5wcmVzZXQsIHRoZW1lLCBjdXN0b21JY29ucyB9Owp9CgovKioKICog5oqK5Y2V5Liq5YC85LuO5Luk54mM6Kej5p6Q5oiQ5Y+v55u05o6l55So55qEIGRhdGEgVVJM77yI6K+7IEJsb2Ig4oaSIGJhc2U2NO+8ie+8m+mdnuS7pOeJjOWOn+agt+i/lOWbnuOAggogKiDnlKjlnKjlv4Xpobvmi78gYmFzZTY0IOWtl+espuS4sueahOa2iOi0ueeCue+8iOWmgui3qCBpZnJhbWUgcG9zdE1lc3NhZ2Ug55qE5o2P5Lq65Zmo6YOo5Lu277yJ44CCCiAqIEJsb2Ig5bey5Lii5pe26L+U5Zue56m65Liy77yI6YG/5YWN5oqK5q275Luk54mM5b2TIGltZyBzcmMg55So77yJ44CCCiAqLwpleHBvcnQgYXN5bmMgZnVuY3Rpb24gcmVzb2x2ZVJlZlRvRGF0YVVybCh2YWx1ZTogc3RyaW5nKTogUHJvbWlzZTxzdHJpbmc+IHsKICAgIGlmICghaXNCbG9iUmVmKHZhbHVlKSkgcmV0dXJuIHZhbHVlOwogICAgY29uc3QgYmxvYiA9IGF3YWl0IGdldEJsb2JGb3JSZWYodmFsdWUpOwogICAgcmV0dXJuIGJsb2IgPyBibG9iVG9EYXRhVXJsKGJsb2IpIDogJyc7Cn0KCi8qKgogKiDmt7HluqbpgY3ljoblr7nosaHmoJHvvIzmiormiYDmnIkgYGJsb2JyZWY6PGlkPmAg5a2X56ym5Liy5Y6f5Zyw5pu/5o2i5oiQ5a+55bqU55qEIGRhdGEgVVJM77yI6K+7IEJsb2Ig6L2sIGJhc2U2NO+8ieOAggogKiDlpIfku73lr7zlh7rliY3osIPnlKjvvIzku6TniYzpmo/kuYvlj5jlm54gZGF0YTppbWFnZe+8jOS6pOe7meaXouaciSB6aXAg5oq95Y+W566h57q/5aSE55CG44CC6Kej5p6Q5LiN5Yiw55qE5Luk54mM572u56m65LiyCiAqIO+8iOWbvuW3suS4ou+8jOmBv+WFjeWvvOWHuuS4gOS4quaBouWkjeerr+iupOS4jeW+l+eahOatu+S7pOeJjO+8ieOAguWOn+WcsOS/ruaUueS8oOWFpeWvueixoe+8jOiwg+eUqOaWuemhu+S8oOeLrOeri+WJr+acrOOAggogKi8KZXhwb3J0IGFzeW5jIGZ1bmN0aW9uIHJlc29sdmVCbG9iUmVmc0RlZXAocm9vdDogdW5rbm93bik6IFByb21pc2U8dm9pZD4gewogICAgaWYgKHJvb3QgPT09IG51bGwgfHwgdHlwZW9mIHJvb3QgIT09ICdvYmplY3QnKSByZXR1cm47CiAgICBjb25zdCBoaXRzOiBBcnJheTx7IGNvbnRhaW5lcjogYW55OyBrZXk6IHN0cmluZyB8IG51bWJlcjsgcmVmOiBzdHJpbmcgfT4gPSBbXTsKICAgIGNvbnN0IHNlZW4gPSBuZXcgV2Vha1NldDxvYmplY3Q+KCk7CiAgICBjb25zdCBzdGFjazogb2JqZWN0W10gPSBbcm9vdCBhcyBvYmplY3RdOwogICAgd2hpbGUgKHN0YWNrLmxlbmd0aCkgewogICAgICAgIGNvbnN0IG5vZGUgPSBzdGFjay5wb3AoKSE7CiAgICAgICAgaWYgKHNlZW4uaGFzKG5vZGUpKSBjb250aW51ZTsKICAgICAgICBzZWVuLmFkZChub2RlKTsKICAgICAgICBjb25zdCBlbnRyaWVzOiBBcnJheTxbc3RyaW5nIHwgbnVtYmVyLCB1bmtub3duXT4gPSBBcnJheS5pc0FycmF5KG5vZGUpCiAgICAgICAgICAgID8gbm9kZS5tYXAoKHYsIGkpID0+IFtpLCB2XSkKICAgICAgICAgICAgOiBPYmplY3Qua2V5cyhub2RlKS5tYXAoayA9PiBbaywgKG5vZGUgYXMgYW55KVtrXV0pOwogICAgICAgIGZvciAoY29uc3QgW2tleSwgdl0gb2YgZW50cmllcykgewogICAgICAgICAgICBpZiAoaXNCbG9iUmVmKHYpKSB7CiAgICAgICAgICAgICAgICBoaXRzLnB1c2goeyBjb250YWluZXI6IG5vZGUsIGtleSwgcmVmOiB2IH0pOwogICAgICAgICAgICB9IGVsc2UgaWYgKHYgIT09IG51bGwgJiYgdHlwZW9mIHYgPT09ICdvYmplY3QnKSB7CiAgICAgICAgICAgICAgICBzdGFjay5wdXNoKHYgYXMgb2JqZWN0KTsKICAgICAgICAgICAgfQogICAgICAgIH0KICAgIH0KICAgIGlmICghaGl0cy5sZW5ndGgpIHJldHVybjsKICAgIC8vIOWQjOS4gOS7pOeJjOWPquivu+S4gOasoeOAggogICAgY29uc3QgY2FjaGUgPSBuZXcgTWFwPHN0cmluZywgc3RyaW5nPigpOwogICAgZm9yIChjb25zdCB7IGNvbnRhaW5lciwga2V5LCByZWYgfSBvZiBoaXRzKSB7CiAgICAgICAgbGV0IGRhdGFVcmwgPSBjYWNoZS5nZXQocmVmKTsKICAgICAgICBpZiAoZGF0YVVybCA9PT0gdW5kZWZpbmVkKSB7CiAgICAgICAgICAgIGNvbnN0IGJsb2IgPSBhd2FpdCBnZXRCbG9iRm9yUmVmKHJlZik7CiAgICAgICAgICAgIGRhdGFVcmwgPSBibG9iID8gYXdhaXQgYmxvYlRvRGF0YVVybChibG9iKSA6ICcnOwogICAgICAgICAgICBjYWNoZS5zZXQocmVmLCBkYXRhVXJsKTsKICAgICAgICB9CiAgICAgICAgY29udGFpbmVyW2tleV0gPSBkYXRhVXJsOwogICAgfQp9CgovLyDilIDilIDilIAgUmVhY3Qg5riy5p+TIGhvb2sg4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSACgovKioKICog5oqK5LiA5Liq5Zu+54mH5a2X5q615YC86Kej5p6Q5oiQ5Y+v55u05o6l55So5LqOIDxpbWcgc3JjPi9DU1MgdXJsKCkg55qE5a2X56ym5Liy44CCCiAqICAgwrcgYmxvYnJlZiDku6TniYwg4oaSIOivuyBCbG9iIOW7uiBvYmplY3RVUkzvvIznu4Tku7bljbjovb0gLyB2YWx1ZSDlj5jljJbml7YgcmV2b2tl77yM57ud5LiN5rOE5ryP77ybCiAqICAgwrcg5YW25a6D77yIZGF0YTogLyBodHRwKHMpIC8g5riQ5Y+YIC8gdW5kZWZpbmVk77yJ4oaSIOWOn+agt+i/lOWbnuOAggogKiDku6TniYzop6PmnpDliY3ov5Tlm54gdW5kZWZpbmVk77yI6aaW5bin5Y+v6IO95peg5Zu+77yM562JIEJsb2Ig6K+75Ye65ZCO5YaN5riy5p+T77yM5bGe6aKE5pyf77yJ44CCCiAqLwpleHBvcnQgZnVuY3Rpb24gdXNlQmxvYlJlZlVybCh2YWx1ZTogc3RyaW5nIHwgdW5kZWZpbmVkIHwgbnVsbCk6IHN0cmluZyB8IHVuZGVmaW5lZCB7CiAgICBjb25zdCBbdXJsLCBzZXRVcmxdID0gdXNlU3RhdGU8c3RyaW5nIHwgdW5kZWZpbmVkPigKICAgICAgICBpc0Jsb2JSZWYodmFsdWUpID8gdW5kZWZpbmVkIDogKHZhbHVlID8/IHVuZGVmaW5lZCkKICAgICk7CgogICAgdXNlRWZmZWN0KCgpID0+IHsKICAgICAgICBpZiAoIWlzQmxvYlJlZih2YWx1ZSkpIHsKICAgICAgICAgICAgc2V0VXJsKHZhbHVlID8/IHVuZGVmaW5lZCk7CiAgICAgICAgICAgIHJldHVybjsKICAgICAgICB9CiAgICAgICAgbGV0IGFsaXZlID0gdHJ1ZTsKICAgICAgICBsZXQgb2JqVXJsOiBzdHJpbmcgfCB1bmRlZmluZWQ7CiAgICAgICAgZ2V0QmxvYkZvclJlZih2YWx1ZSkudGhlbihibG9iID0+IHsKICAgICAgICAgICAgaWYgKCFhbGl2ZSkgcmV0dXJuOwogICAgICAgICAgICBpZiAoYmxvYikgewogICAgICAgICAgICAgICAgb2JqVXJsID0gVVJMLmNyZWF0ZU9iamVjdFVSTChibG9iKTsKICAgICAgICAgICAgICAgIHNldFVybChvYmpVcmwpOwogICAgICAgICAgICB9IGVsc2UgewogICAgICAgICAgICAgICAgc2V0VXJsKHVuZGVmaW5lZCk7CiAgICAgICAgICAgIH0KICAgICAgICB9KTsKICAgICAgICByZXR1cm4gKCkgPT4gewogICAgICAgICAgICBhbGl2ZSA9IGZhbHNlOwogICAgICAgICAgICBpZiAob2JqVXJsKSBVUkwucmV2b2tlT2JqZWN0VVJMKG9ialVybCk7CiAgICAgICAgfTsKICAgIH0sIFt2YWx1ZV0pOwoKICAgIHJldHVybiB1cmw7Cn0K
+// 图片 Blob 引用层（base64 → Blob 迁移的核心）。
+//
+// 背景：本项目图片历来以 base64 data URL 直接存进 IndexedDB / CharacterProfile。base64 比
+// 原始二进制大 ~33%，且作为 JS 字符串常驻内存（React state / <img src> 里都拖着整段），
+// 壁纸、小屋（RoomApp）这类大图尤其吃配额和内存。
+//
+// 方案：图片二进制存进 blob_assets store（IndexedDB 原生支持 Blob），字段里只存一个短
+// 令牌 `blobref:<id>`。这样：
+//   · 字段仍是 string —— CharacterProfile / 各 store 记录仍可 JSON 安全序列化、结构化克隆；
+//   · 渲染时把令牌解析成 objectURL（URL.createObjectURL）喂给 <img>/CSS 背景，并管好回收；
+//   · 备份导出前把令牌解析回 data URL，复用既有「data:image → zip assets/*」抽取管线，
+//     备份格式与可移植性完全不变（见 context/OSContext.tsx 导出/导入）。
+//
+// 兼容：旧值（`data:...` / `http(s)://...` / CSS 渐变字符串）一律原样透传，永远能渲染；
+// 惰性迁移由各消费方（壁纸加载、进入小屋）在读到 data: 时顺手 put 成 Blob 完成。
+
+import { useEffect, useState } from 'react';
+import { DB } from './db';
+import type { AppearancePreset } from '../types';
+
+export const BLOBREF_PREFIX = 'blobref:';
+
+// 用带品牌的 string 子类型做类型守卫：正分支收窄成 BlobRef，负分支仍保留 string
+// （若直接用 `v is string`，对本就是 string 的入参，否定分支会被收窄成 never）。
+export type BlobRef = string & { readonly __blobRef: unique symbol };
+
+/** 是否是 blobref 令牌。 */
+export const isBlobRef = (v: unknown): v is BlobRef =>
+    typeof v === 'string' && v.startsWith(BLOBREF_PREFIX);
+
+const idOfRef = (ref: string): string => ref.slice(BLOBREF_PREFIX.length);
+
+let seq = 0;
+const genId = (): string =>
+    `img_${Date.now().toString(36)}_${(seq++).toString(36)}_${Math.random().toString(36).slice(2, 8)}`;
+
+/** 把 Blob 存进 blob_assets，返回 `blobref:<id>` 令牌。 */
+export async function putImageBlob(blob: Blob): Promise<string> {
+    const id = genId();
+    await DB.putBlobAsset(id, blob);
+    return BLOBREF_PREFIX + id;
+}
+
+/** 读取令牌对应的 Blob（非令牌或不存在返回 null）。 */
+export async function getBlobForRef(ref: string): Promise<Blob | null> {
+    if (!isBlobRef(ref)) return null;
+    try {
+        return await DB.getBlobAsset(idOfRef(ref));
+    } catch {
+        return null;
+    }
+}
+
+/**
+ * 删除令牌对应的 Blob（best-effort）。
+ * 注意：同一令牌可能被多处引用（小屋自定义素材的 image 会被复制进摆放的 item.image），
+ * 所以调用方需自行确认无人再引用后才删，否则会删出「碎图」。当前消费方从简：不主动删，
+ * 残留孤儿 Blob 由后续 GC 处理，宁可占一点空间也不冒破图风险。
+ */
+export async function deleteBlobRef(ref: string | undefined | null): Promise<void> {
+    if (ref && isBlobRef(ref)) {
+        try { await DB.deleteBlobAsset(idOfRef(ref)); } catch { /* ignore */ }
+    }
+}
+
+/**
+ * 仅在令牌已不再被持久化设置引用时删除 Blob。
+ *
+ * 壁纸、锁屏和外观预设可能共享同一令牌；直接在换图时 delete 会让预设或“切回默认”备份
+ * 变成死图。这里检查 assets（含 appearance_preset_* JSON）和 localStorage（含皮肤壁纸备份）
+ * 后再清理。读取引用表失败时宁可保留，也绝不冒险删图。
+ */
+export async function deleteBlobRefIfUnreferenced(ref: string | undefined | null): Promise<boolean> {
+    if (!ref || !isBlobRef(ref)) return false;
+
+    try {
+        const assets = await DB.getAllAssets();
+        if (assets.some(asset => typeof asset.data === 'string' && asset.data.includes(ref))) {
+            return false;
+        }
+    } catch {
+        return false;
+    }
+
+    try {
+        if (typeof localStorage !== 'undefined') {
+            for (let i = 0; i < localStorage.length; i++) {
+                const key = localStorage.key(i);
+                if (!key) continue;
+                if (localStorage.getItem(key)?.includes(ref)) return false;
+            }
+        }
+    } catch {
+        return false;
+    }
+
+    await deleteBlobRef(ref);
+    return true;
+}
+
+// ─── data URL ⇄ Blob 互转 ───────────────────────────────────────
+
+/** `data:<mime>;base64,xxxx` → Blob。非 base64 data URL 会抛错。 */
+export function dataUrlToBlob(dataUrl: string): Blob {
+    const comma = dataUrl.indexOf(',');
+    if (comma < 0) throw new Error('Invalid data URL');
+    const header = dataUrl.slice(0, comma);
+    const mimeMatch = header.match(/^data:([^;]+)/);
+    const mime = mimeMatch ? mimeMatch[1] : 'application/octet-stream';
+    if (!/;base64/i.test(header)) {
+        // 非 base64（极少见，如 utf8 编码的 svg），退化成 UTF-8 编码。
+        return new Blob([decodeURIComponent(dataUrl.slice(comma + 1))], { type: mime });
+    }
+    const binary = atob(dataUrl.slice(comma + 1));
+    const len = binary.length;
+    const bytes = new Uint8Array(len);
+    for (let i = 0; i < len; i++) bytes[i] = binary.charCodeAt(i);
+    return new Blob([bytes], { type: mime });
+}
+
+/**
+ * Blob → `data:<mime>;base64,xxxx`。浏览器主线程走 FileReader（高效）；
+ * 没有 FileReader 的环境（Worker / Node 测试）退化到 arrayBuffer + base64 手编。
+ */
+export async function blobToDataUrl(blob: Blob): Promise<string> {
+    if (typeof FileReader !== 'undefined') {
+        return new Promise((resolve, reject) => {
+            const reader = new FileReader();
+            reader.onload = () => resolve(reader.result as string);
+            reader.onerror = () => reject(reader.error || new Error('blobToDataUrl failed'));
+            reader.readAsDataURL(blob);
+        });
+    }
+    const bytes = new Uint8Array(await blob.arrayBuffer());
+    let binary = '';
+    const CHUNK = 0x8000; // 分块拼字符串，避开 String.fromCharCode 的参数上限
+    for (let i = 0; i < bytes.length; i += CHUNK) {
+        binary += String.fromCharCode(...bytes.subarray(i, i + CHUNK));
+    }
+    const mime = blob.type || 'application/octet-stream';
+    return `data:${mime};base64,${btoa(binary)}`;
+}
+
+/**
+ * 把一个 data: 图片存成 Blob 并返回令牌（惰性迁移用）。转换失败时回退返回原字符串，
+ * 保证调用方永远拿到一个可渲染的值，不会因迁移失败而丢图。
+ */
+export async function migrateDataUrlToRef(dataUrl: string): Promise<string> {
+    try {
+        return await putImageBlob(dataUrlToBlob(dataUrl));
+    } catch {
+        return dataUrl;
+    }
+}
+
+/**
+ * 外观预设导入专用迁移：只转换已经接入 BlobRef 渲染链路的字段，其他 data URL 保持原状。
+ * cache 让同一张原图在壁纸、锁屏或多个图标中复用同一个 Blob，避免导入时重复占空间。
+ */
+export async function migrateAppearancePresetBlobRefs(
+    preset: AppearancePreset,
+    cache: Map<string, string> = new Map<string, string>(),
+): Promise<AppearancePreset> {
+    const migrate = async (value: string | undefined): Promise<string | undefined> => {
+        if (!value?.startsWith('data:')) return value;
+        const cached = cache.get(value);
+        if (cached) return cached;
+        const stored = await migrateDataUrlToRef(value);
+        cache.set(value, stored);
+        return stored;
+    };
+
+    const theme = { ...preset.theme };
+    theme.wallpaper = (await migrate(theme.wallpaper)) || theme.wallpaper;
+    if ('lockWallpaper' in theme) theme.lockWallpaper = await migrate(theme.lockWallpaper);
+
+    let customIcons = preset.customIcons;
+    if (customIcons) {
+        customIcons = {};
+        for (const [appId, icon] of Object.entries(preset.customIcons || {})) {
+            customIcons[appId] = (await migrate(icon)) || icon;
+        }
+    }
+
+    return { ...preset, theme, customIcons };
+}
+
+/**
+ * 把单个值从令牌解析成可直接用的 data URL（读 Blob → base64）；非令牌原样返回。
+ * 用在必须拿 base64 字符串的消费点（如跨 iframe postMessage 的捏人器部件）。
+ * Blob 已丢时返回空串（避免把死令牌当 img src 用）。
+ */
+export async function resolveRefToDataUrl(value: string): Promise<string> {
+    if (!isBlobRef(value)) return value;
+    const blob = await getBlobForRef(value);
+    return blob ? blobToDataUrl(blob) : '';
+}
+
+/**
+ * 深度遍历对象树，把所有 `blobref:<id>` 字符串原地替换成对应的 data URL（读 Blob 转 base64）。
+ * 备份导出前调用，令牌随之变回 data:image，交给既有 zip 抽取管线处理。解析不到的令牌置空串
+ * （图已丢，避免导出一个恢复端认不得的死令牌）。原地修改传入对象，调用方须传独立副本。
+ */
+export async function resolveBlobRefsDeep(root: unknown): Promise<void> {
+    if (root === null || typeof root !== 'object') return;
+    const hits: Array<{ container: any; key: string | number; ref: string }> = [];
+    const seen = new WeakSet<object>();
+    const stack: object[] = [root as object];
+    while (stack.length) {
+        const node = stack.pop()!;
+        if (seen.has(node)) continue;
+        seen.add(node);
+        const entries: Array<[string | number, unknown]> = Array.isArray(node)
+            ? node.map((v, i) => [i, v])
+            : Object.keys(node).map(k => [k, (node as any)[k]]);
+        for (const [key, v] of entries) {
+            if (isBlobRef(v)) {
+                hits.push({ container: node, key, ref: v });
+            } else if (v !== null && typeof v === 'object') {
+                stack.push(v as object);
+            }
+        }
+    }
+    if (!hits.length) return;
+    // 同一令牌只读一次。
+    const cache = new Map<string, string>();
+    for (const { container, key, ref } of hits) {
+        let dataUrl = cache.get(ref);
+        if (dataUrl === undefined) {
+            const blob = await getBlobForRef(ref);
+            dataUrl = blob ? await blobToDataUrl(blob) : '';
+            cache.set(ref, dataUrl);
+        }
+        container[key] = dataUrl;
+    }
+}
+
+// ─── React 渲染 hook ────────────────────────────────────────────
+
+/**
+ * 把一个图片字段值解析成可直接用于 <img src>/CSS url() 的字符串。
+ *   · blobref 令牌 → 读 Blob 建 objectURL，组件卸载 / value 变化时 revoke，绝不泄漏；
+ *   · 其它（data: / http(s) / 渐变 / undefined）→ 原样返回。
+ * 令牌解析前返回 undefined（首帧可能无图，等 Blob 读出后再渲染，属预期）。
+ */
+export function useBlobRefUrl(value: string | undefined | null): string | undefined {
+    const [url, setUrl] = useState<string | undefined>(
+        isBlobRef(value) ? undefined : (value ?? undefined)
+    );
+
+    useEffect(() => {
+        if (!isBlobRef(value)) {
+            setUrl(value ?? undefined);
+            return;
+        }
+        let alive = true;
+        let objUrl: string | undefined;
+        getBlobForRef(value).then(blob => {
+            if (!alive) return;
+            if (blob) {
+                objUrl = URL.createObjectURL(blob);
+                setUrl(objUrl);
+            } else {
+                setUrl(undefined);
+            }
+        });
+        return () => {
+            alive = false;
+            if (objUrl) URL.revokeObjectURL(objUrl);
+        };
+    }, [value]);
+
+    return url;
+}

@@ -1,1 +1,222 @@
-LyoqCiAqIExpZmVTaW0gTmFycmF0aXZlIFRlbXBsYXRlcyDigJQg56a757q/5peB55m95qih5p2/5bqTCiAqCiAqIOS4uuemu+e6v+aooeaLn+aPkOS+m+WfuuS6juaAp+agvMOX5LqL5Lu257G75Z6L55qE5qih5p2/5YyW5Y+Z5LqL5paH5pys44CCCiAqIOaXoOmcgCBMTE0g6LCD55So77yM6YCa6L+H6ZqP5py65oq95Y+W5qih5p2/ICsg5ZCN5a2X5pu/5o2i55Sf5oiQ5peB55m944CCCiAqLwoKaW1wb3J0IHsgU2ltRXZlbnRUeXBlLCBTaW1FZmZlY3RDb2RlIH0gZnJvbSAnLi4vdHlwZXMnOwoKLy8g4pSA4pSAIOaAp+agvOWIhue7hCDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIAKCmNvbnN0IFBFUlNPTkFMSVRZX0dST1VQUzogUmVjb3JkPHN0cmluZywgc3RyaW5nW10+ID0gewogICAgaG90OiAgICBbJ+eDreaDhScsICflpJblkJEnLCAn5rS75rO8J10sCiAgICBjb29sOiAgIFsn5Ya36Z2ZJywgJ+WGheaVmycsICfnkIbmgKcnXSwKICAgIGtpbmQ6ICAgWyflloToia8nLCAn5rip5p+UJywgJ+WMheWuuSddLAogICAgd2lsZDogICBbJ+aatOi6gScsICfnm7TnjocnLCAn5Yay5YqoJ10sCiAgICBkYXJrOiAgIFsn6IW56buRJywgJ+iBquaYjicsICfnpZ7np5gnXSwKICAgIHRzdW46ICAgWyflgrLlqIcnLCAn6KaB5by6JywgJ+aVj+aEnyddLAogICAgY2hpbGw6ICBbJ+aHkuaVoycsICfpmo/lkownLCAn5LmQ5aSpJ10sCiAgICBwdXJlOiAgIFsn5Y2V57qvJywgJ+WPr+eIsScsICfmtLvms7wnXSwKICAgIHN0cmljdDogWyfkuKXogoMnLCAn6LSf6LSjJywgJ+WujOe+juS4u+S5iSddLAp9OwoKZnVuY3Rpb24gZ2V0UGVyc29uYWxpdHlHcm91cChwZXJzb25hbGl0eTogc3RyaW5nW10pOiBzdHJpbmcgewogICAgZm9yIChjb25zdCBbZ3JvdXAsIHRyYWl0c10gb2YgT2JqZWN0LmVudHJpZXMoUEVSU09OQUxJVFlfR1JPVVBTKSkgewogICAgICAgIGlmIChwZXJzb25hbGl0eS5zb21lKHAgPT4gdHJhaXRzLmluY2x1ZGVzKHApKSkgcmV0dXJuIGdyb3VwOwogICAgfQogICAgcmV0dXJuICdjaGlsbCc7Cn0KCi8vIOKUgOKUgCDlj5nkuovmqKHmnb8g4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSACi8vIHtuYW1lfSA9IOihjOWKqOiAhSwge3RhcmdldH0gPSDnm67moIcKCnR5cGUgRXZlbnRLZXkgPSBTaW1FdmVudFR5cGUgfCBTaW1FZmZlY3RDb2RlIHwgc3RyaW5nOwoKY29uc3QgVEVNUExBVEVTOiBSZWNvcmQ8c3RyaW5nLCBQYXJ0aWFsPFJlY29yZDxFdmVudEtleSwgc3RyaW5nW10+Pj4gPSB7CiAgICBob3Q6IHsKICAgICAgICBmaWdodDogICAgWycie3RhcmdldH3kvaDnu5nmiJHnq5nkvY/vvIHku4rlpKnpnZ7or7TmuIXmpZrkuI3lj6/vvIEiJywgJ+aAkuawlOWGsuWGsuWcsOWGsuWQkXt0YXJnZXR977yM5LiA5Zy65Y+j6KeS56uL5Yi754iG5Y+RJywgJyLmnaXllYrvvIHosIHmgJXosIHvvIEiJ10sCiAgICAgICAgcGFydHk6ICAgIFsnIuWkp+WutumDveadpeWXqO+8geS7iuWkqeS4jemGieS4jeW9ku+8gSInLCAn5YW06auY6YeH54OI5Zyw5byg572X6IGa5Lya77yM5ouJ552A5omA5pyJ5Lq65LiA6LW3546pJywgJyLlpKrlvIDlv4PkuoblkKfvvIHov5nnp43ml6XlrZDlupTor6XlpKnlpKnmnInvvIEiJ10sCiAgICAgICAgcm9tYW5jZTogIFsnIuWYv+WYv+KApuKApnt0YXJnZXR95LuK5aSp55yL6LW35p2l5aW95aW955yL4oCm4oCmIicsICfohLjnuqLnnYDlgbflgbfpnaDov5F7dGFyZ2V0fe+8jOW/g+i3s+WKoOmAnycsICci5oiR44CB5oiR5omN5rKh5pyJ5Zac5qyie3RhcmdldH3ku4DkuYjnmoTvvIHigKbigKblpb3lkKfkuZ/orrjmnInkuIDngrnngrnjgIIiJ10sCiAgICAgICAgZ29zc2lwOiAgIFsnIuS9oOS7rOefpemBk+WQl++8gXt0YXJnZXR95bGF54S24oCm4oCm77yBIicsICfmu6HohLjlhavljablnLDliLDlpITmlaPmkq3mtojmga8nLCAnIui/meS5n+WkquWKsueIhuS6huWQp++8geW/hemhu+iuqeaJgOacieS6uumDveefpemBk++8gSInXSwKICAgICAgICByaXZhbHJ5OiAgWyci5oiR57ud5a+55LiN5Lya6L6T57uZe3RhcmdldH3vvIEiJywgJ+aWl+W/l+aYguaJrOWcsOWQkXt0YXJnZXR95Y+R6LW35oyR5oiYJywgJyLlsLHov5nvvJ/miJHkuIDlj6rmiYvpg73og73otaLkvaDvvIEiJ10sCiAgICAgICAgYWxsaWFuY2U6IFsnIuaIkeS7rOiBlOaJi+WQp++8geS4gOi1t+aQnuS6i+aDhe+8gSInLCAn54Ot5oOF5Zyw5ouJ552Ae3RhcmdldH3nu5PmiJDlkIznm58nLCAnIuacieaIkeS7rOWcqO+8jOiwgeS5n+WIq+aDs+aNo+S5se+8gSInXSwKICAgICAgICByZXZlbmdlX3Bsb3Q6ICAgWyci5ZO85ZO84oCm4oCme3RhcmdldH3vvIzkvaDnrYnnnYDnnqfjgIIiJywgJ+eskeWuuea7oemdouWcsOaal+S4reetluWIkuedgOS7gOS5iCcsICci6L+Z5qyh5oiR6KaB6K6pe3RhcmdldH3nn6XpgZPlvpfnvarmiJHnmoTkuIvlnLrvvIEiJ10sCiAgICAgICAgbG92ZV90cmlhbmdsZTogIFsnIuS4uuS7gOS5iHt0YXJnZXR96KaB6Lef5Yir5Lq66LWw6YKj5LmI6L+R5ZWK77yBIicsICfnhKbmgKXlnLDmnaXlm57ouLHmraXvvIzlq4nlppLnmoTngavnhLDlnKjnh4Png6cnLCAnIuS4jeihjOS4jeihjOS4jeihjO+8jOaIkeimgeWOu+aKint0YXJnZXR95oqi5Zue5p2l77yBIiddLAogICAgICAgIGJldHJheWFsOiAgICAgICBbJyLlr7nkuI3otbfkuoZ7dGFyZ2V0feKApuKApuS9huaIkeW/hemhu+i/meS5iOWBmu+8gSInLCAn55eb6Ium5L2G5Z2a5Yaz5Zyw5YGa5Ye65LqG6IOM5Y+b55qE6YCJ5oupJywgJyLliKvmgKrmiJHvvIzmmK/kvaDlhYjkuI3ku4HnmoTvvIEiJ10sCiAgICAgICAgcmVjb25jaWxpYXRpb246IFsnIueul+S6hueul+S6hu+8gXt0YXJnZXR95oiR5Lus5ZKM5aW95ZCn77yBIicsICflpKflpKflkqflkqflnLDlhrLov4fljrvnu5nkuoZ7dGFyZ2V0feS4gOS4queGiuaKsScsICci5ZC15p625aW957Sv5ZWK77yM6L+Y5piv5YGa5pyL5Y+L5q+U6L6D5aW977yBIiddLAogICAgICAgIG5wY19ydW5hd2F5OiAgICBbJyLmiJHlj5flpJ/kuobvvIHmiJHopoHotbDkuobvvIEiJywgJ+WktOS5n+S4jeWbnuWcsOWGsuWHuuS6huWutumXqCcsICci5YaN5Lmf5LiN5oOz5b6F5Zyo6L+Z6YeM5LqG77yM5oiR6KaB6Ieq55Sx77yBIiddLAogICAgICAgIG1vb2RfYnJlYWtkb3duOiBbJyLlkZzlkZzlkZzigKbigKbkuLrku4DkuYjkuIDliIfpg73ov5nkuYjns5/ns5XigKbigKYiJywgJ+i5suWcqOinkuiQvemHjOaDhee7quW0qea6gycsICci5oiR55yf55qE5pKR5LiN5L2P5LqG4oCm4oCmIiddLAogICAgfSwKICAgIGNvb2w6IHsKICAgICAgICBmaWdodDogICAgWyci4oCm4oCm5L2g55qE6KGM5Li65Luk5Lq65aSx5pyb44CCIicsICflhrflhrflnLDnnIvnnYB7dGFyZ2V0fe+8jOivreawlOS4jeW4puaEn+aDhScsICci6YGT55CG6K+05LiN6YCa55qE6K+d77yM6YKj5bCx5rKh5LuA5LmI5aW96K+055qE5LqG44CCIiddLAogICAgICAgIHBhcnR5OiAgICBbJyLigKbigKbml6LnhLbkvaDku6zpg73mg7PogZrkvJrvvIzmiJHlsLHpmarnnYDlnZDlnZDjgIIiJywgJ+WuiemdmeWcsOW+heWcqOinkuiQve+8jOWBtuWwlOW+ruW+ruS4gOeskScsICci54Ot6Ze55b2S54Ot6Ze577yM5Yir6Ze55Ye65LqL5bCx5aW944CCIiddLAogICAgICAgIHJvbWFuY2U6ICBbJ+WYtOS4iuS4jeivtOS7gOS5iO+8jOS9huebruWFieaAu+aYr+S4jeiHquinieWcsOi/vemaj3t0YXJnZXR9JywgJyLigKbigKbku4rlpKnnmoTlpKnmsJTov5jkuI3plJnjgIIi77yI55yL552Ae3RhcmdldH3or7TnmoTvvIknLCAn57+75LqG5LiA6aG15Lmm77yM5Y205bey57uP5Zyo5ZCM5LiA6aG15YGc55WZ5LqG5Y2B5YiG6ZKfJ10sCiAgICAgICAgZ29zc2lwOiAgIFsnIuKApuKApuacieS4gOS7tuS6i++8jOaIkeinieW+l+S9oOW6lOivpeefpemBk+OAgiInLCAn5LiN5Yqo5aOw6Imy5Zyw5oqK5YWz6ZSu5L+h5oGv6YCP6Zyy5Ye65Y67JywgJyLnuq/nsrnmmK/kv6Hmga/lhbHkuqvvvIzkuI3mmK/mkKzlvITmmK/pnZ7jgIIiJ10sCiAgICAgICAgcml2YWxyeTogIFsnIumCo+WwseWQhOWHreacrOS6i+WQp+OAgiInLCAn5reh54S25Zyw5o6l5Y+X5LqGe3RhcmdldH3nmoTmjJHmiJgnLCAnIui+k+i1ouS4jemHjeimge+8jOi/h+eoi+aJjeacieaEj+aAneOAgiInXSwKICAgICAgICBhbGxpYW5jZTogWyci5ZCI5L2c5Y+v5Lul77yM5L2G5pyJ5p2h5Lu244CCIicsICflhrfpnZnlnLDliIbmnpDliKnlvIrlkI7lhrPlrprnu5Pnm58nLCAnIuWIqeebiuS4gOiHtOaXtu+8jOWQiOS9nOaYr+acgOS8mOino+OAgiInXSwKICAgICAgICByZXZlbmdlX3Bsb3Q6ICAgWyfpnaLml6Dooajmg4XlnLDlnKjnrJTorrDmnKzkuIrlhpnnnYDku4DkuYgnLCAnIuS4gOWIh+mDveWcqOiuoeWIkuS5i+S4reOAgiInLCAn5Yi25a6a5LqG5LiA5Lu96K+m57uG55qE5aSN5LuH5pa55qGIJ10sCiAgICAgICAgbG92ZV90cmlhbmdsZTogIFsnIuKApuKApui/meenjeaEn+aDhee6oOiRm++8jOecn+aYr+m6u+eDpuOAgiInLCAn6KGo6Z2i5bmz6Z2Z5YaF5b+D5Y205Zyo5r+A54OI5oyj5omOJywgJyLnkIbmgKflkYror4nmiJHlupTor6XpgIDlh7rvvIzkvYbmmK/igKbigKYiJ10sCiAgICAgICAgYmV0cmF5YWw6ICAgICAgIFsnIuaKseatie+8jOaIkeWBmuS6huacgOS8mOmAieaLqeOAgiInLCAn5q+r5peg6KGo5oOF5Zyw5a6M5oiQ5LqG6IOM5Y+bJywgJyLkuI3opoHnlKjmhJ/mg4XmnaXnu5HmnrbpgLvovpHjgIIiJ10sCiAgICAgICAgcmVjb25jaWxpYXRpb246IFsnIuKApuKApui/h+WOu+eahOS6i+Wwseeul+S6huOAgiInLCAn6YCS5Ye65LiA5p2v6Iy277yM6L+Z5piv5pyA5aSn55qE6K+a5oSP5LqGJywgJyLnu6fnu63mlYzlr7nlr7nlj4zmlrnpg73msqHmnInlpb3lpITjgIIiJ10sCiAgICAgICAgbnBjX3J1bmF3YXk6ICAgIFsn55WZ5LiL5LiA5byg57q45p2h5bCx5raI5aSx5LqGJywgJyLigKbigKbov5nph4zlt7Lnu4/msqHmnInmiJHnlZnkuIvnmoTnkIbnlLHkuobjgIIiJywgJ+WuiemdmeWcsOaUtuaLvuWlveihjOadju+8jOWktOS5n+S4jeWbnuWcsOemu+W8gCddLAogICAgICAgIG1vb2RfYnJlYWtkb3duOiBbJ+S4gOS4quS6uuWdkOWcqOinkuiQveWPkeWRhu+8jOiwgeS5n+S4jeeQhicsICci4oCm4oCm5rKh5LuA5LmI44CCIu+8iOWjsOmfs+WcqOmipOaKlu+8iScsICfnrKzkuIDmrKHlpLHljrvkuobkuIDotK/nmoTlhrfpnZknXSwKICAgIH0sCiAgICBraW5kOiB7CiAgICAgICAgZmlnaHQ6ICAgIFsnIuaxguaxguS9oOS7rOWIq+WQteS6huKApuKApiInLCAn54Sm5oCl5Zyw6K+V5Zu+5Zyoe3RhcmdldH3lkozlr7nmlrnkuYvpl7Tlip3lkownLCAnIuWkp+WutumDveaYr+aci+WPi++8jOacieS7gOS5iOS4jeiDveWlveWlveivtOeahOWRou+8nyInXSwKICAgICAgICBwYXJ0eTogICAgWyci5p2l5p2l5p2l77yM5oiR57uZ5aSn5a625YeG5aSH5LqG54K55b+D77yBIicsICfmuKnmn5TlnLDnhafpob7nnYDmr4/kuIDkuKrkuronLCAnIueci+WIsOWkp+WutuW8gOW/g+aIkeWwsea7oei2s+S6huOAgiInXSwKICAgICAgICByb21hbmNlOiAgWyflsI/lv4Pnv7znv7zlnLDnu5l7dGFyZ2V0feeVmeS6huS4gOacteiKsScsICci5biM5pyb5L2g5LuK5aSp6L+H5b6X5byA5b+D44CCIicsICfpu5jpu5jlhbPms6jnnYB7dGFyZ2V0feeahOS4gOWIhyddLAogICAgICAgIGdvc3NpcDogICBbJyLov5nmoLfor7TliKvkurrkuI3lpKrlpb3lkKfigKbigKYiJywgJ+iZveeEtuS4jei1nuWQjOS9hui/mOaYr+W/jeS4jeS9j+WQrOS6hicsICci5oiR5Lus6L+Y5piv5Yir5Zyo6IOM5ZCO6K6u6K665LqG4oCm4oCmIiddLAogICAgICAgIHJpdmFscnk6ICBbJyLog73kuI3og73kuI3opoHnq57kuonvvIzlpKflrrbkuIDotbflpb3lpb3nm7jlpITvvJ8iJywgJ+WLieS4uuWFtumavuWcsOW6lOaImO+8jOWFqOeoi+mDveWcqOmBk+atiScsICci5oiR5LiN5oOz5Lyk5a6z5Lu75L2V5Lq64oCm4oCmIiddLAogICAgICAgIGFsbGlhbmNlOiBbJyLlj6ropoHog73luK7liLDlpKflrrbvvIzmiJHpg73mhL/mhI/jgIIiJywgJ+ecn+ivmuWcsOS8uOWHuuWPjOaJiycsICci5LiA6LW35Yqq5Yqb6K6p6L+Z6YeM5Y+Y5b6X5pu05aW95ZCn44CCIiddLAogICAgICAgIHJldmVuZ2VfcGxvdDogICBbJyLmiJHjgIHmiJHkuI3mg7PmiqXlpI3igKbigKbkvYbmmK/nnJ/nmoTlpKrov4fliIbkuobigKbigKYiJywgJ+e6oOe7k+S6huW+iOS5heacgOe7iOi/mOaYr+WGs+WumuimgeacieaJgOihjOWKqCcsICci5a+55LiN6LW377yM5L2G5oiR5Lmf5pyJ5bqV57q/55qE4oCm4oCmIiddLAogICAgICAgIGxvdmVfdHJpYW5nbGU6ICBbJyLlj6ropoF7dGFyZ2V0feW5uOemj+WwseWlveS6huKApuKApiInLCAn5ZCr5rOq6YCA5Ye65LqG5LiJ6KeS5YWz57O7JywgJyLlpoLmnpzmiJHnmoTpgIDlh7rog73orqnlpKflrrbpg73lpb3ov4fkuIDkupvigKbigKYiJ10sCiAgICAgICAgYmV0cmF5YWw6ICAgICAgIFsnIuWvueS4jei1t+KApuKApuaIkeecn+eahOW+iOaKseatieKApuKApiInLCAn5rOq5rWB5ruh6Z2i5L2G6L+Y5piv5YGa5Ye65LqG5oqJ5oupJywgJyLmiJHkuZ/kuI3mg7Pov5nmoLfnmoTigKbigKYiJ10sCiAgICAgICAgcmVjb25jaWxpYXRpb246IFsnIuWkquWlveS6hu+8jOS9oOS7rOe7iOS6juWSjOWlveS6hu+8gSInLCAn5oSf5Yqo5b6X55y855y25rOb57qiJywgJyLlkozlubPmiY3mmK/mnIDlpb3nmoTlmJvjgIIiJ10sCiAgICAgICAgbnBjX3J1bmF3YXk6ICAgIFsnIuWvueS4jei1t+Wkp+WutuKApuKApuaIkemcgOimgeS4gOS4quS6uumdmeS4gOmdmeOAgiInLCAn55WZ5LiL5LiA5bCB5oSf6LCi5L+h5ZCO5oKE5oKE56a75byAJywgJyLosKLosKLkvaDku6znmoTnhafpob7vvIzkvYbmiJHlv4XpobvotbDkuobigKbigKYiJ10sCiAgICAgICAgbW9vZF9icmVha2Rvd246IFsnIuS4uuS7gOS5iOaIkeWvueWkp+Wutui/meS5iOWlve+8jOi/mOaYr+S8mui/meagt+KApuKApiInLCAn5LiA5Liq5Lq65YG35YG35ZOt5LqG5b6I5LmFJywgJyLmiJHmmK/kuI3mmK/lgZrplJnkuobku4DkuYjigKbigKYiJ10sCiAgICB9LAogICAgd2lsZDogewogICAgICAgIGZpZ2h0OiAgICBbJyLkvaDor7Tku4DkuYjvvIHnu5nogIHlrZDlho3or7TkuIDpgY3vvIEiJywgJ+ebtOaOpeWGsuS4iuWOu++8jOS6jOivneS4jeivtCcsICci6ICB5a2Q5LuK5aSp6Z2e5pWZ6K6t5L2g5LiN5Y+v77yBIiddLAogICAgICAgIHBhcnR5OiAgICBbJyLlk4jlk4jlk4jvvIHllp3vvIHlkIPvvIEiJywgJ+Wkp+WXk+mXqOWcsOWQhuWWneedgCcsICci5byA5b+D5bCx5aW95Yir5bqf6K+d77yBIiddLAogICAgICAgIHJvbWFuY2U6ICBbJyLkvaDjgIHkvaDliKvnnIvmiJHvvIHigKbigKbmiJHmsqHmnInohLjnuqLvvIEiJywgJ+ivtOivnee7k+e7k+W3tOW3tOeahO+8jOWujOWFqOS4jeWDj+W5s+aXticsICci5Zac5qyi5bCx5piv5Zac5qyi77yB5pyJ5LuA5LmI5aW95omt5o2P55qE77yBIiddLAogICAgICAgIGdvc3NpcDogICBbJyLkvaDlkKzor7TkuobmsqHvvJ/pgqPkuKp7dGFyZ2V0feWxheeEtuKApuKApiInLCAn5ZeT6Zeo5aSn5b6X5pW05p2h6KGX6YO95ZCs6KeB5LqGJywgJyLmiJHlsLHmmK/nnIvkuI3mg6/vvIHlv4Xpobvor7Tlh7rmnaXvvIEiJ10sCiAgICAgICAgcml2YWxyeTogIFsnIuadpeWViu+8geavlOWwseavlO+8geiwgeaAleiwge+8gSInLCAn5pK46LW36KKW5a2Q5YeG5aSH5aSn5bmy5LiA5Zy6JywgJyLmiJHmmrTouoHmiJHpqoTlgrLvvIEiJ10sCiAgICAgICAgYWxsaWFuY2U6IFsnIuWFhOW8n++8geS7peWQjuaIkee9qeS9oO+8gSInLCAn5ouN552Ae3RhcmdldH3nmoTogqnohoDosarniL3lnLDlrqPluIPnu5Pnm58nLCAnIuacieemj+WQjOS6q+aciemavuWQjOW9k++8gSInXSwKICAgICAgICByZXZlbmdlX3Bsb3Q6ICAgWyci5ZO877yM6LWw552A556n77yBIicsICflkqzniZnliIfpvb/lnLDmmpfoh6rlj5HoqpMnLCAnIui/meWPo+awlOaIkeWSveS4jeS4i+WOu++8gSInXSwKICAgICAgICBsb3ZlX3RyaWFuZ2xlOiAgWyci5Yet5LuA5LmI77yBe3RhcmdldH3mmI7mmI7lupTor6XmmK/miJHnmoTvvIEiJywgJ+awlOW+l+aDs+aOgOahjOWtkCcsICci6LCB5pWi5oqi5oiR5bCx5o+N6LCB77yBIiddLAogICAgICAgIGJldHJheWFsOiAgICAgICBbJyLkvaDov5nkuKrlj5vlvpLvvIEiJywgJ+aAkueBq+S4reeDp++8jOaEn+inieiiq+asuumql+S6hicsICci5oiR6Lef5L2g5rKh5a6M77yBIiddLAogICAgICAgIHJlY29uY2lsaWF0aW9uOiBbJyLlk7zigKbigKbnrpfkvaDmgIHluqbov5jooYzjgIIiJywgJ+WIq+aJreWcsOaOpeWPl+S6huWSjOinoycsICci6L+Z5qyh5bCx5pS+6L+H5L2g77yM5LiL5qyh5Y+v5rKh6YKj5LmI5a655piT77yBIiddLAogICAgICAgIG5wY19ydW5hd2F5OiAgICBbJyLogIHlrZDkuI3kvLrlgJnkuobvvIEiJywgJ+egsOWcsOS4gOWjsOWFs+S4iumXqOWwsei1sOS6hicsICci54ix5ZKL5ZKL5Zyw77yBIiddLAogICAgICAgIG1vb2RfYnJlYWtkb3duOiBbJyLllYrllYrllYrllYrvvIHvvIHvvIEiJywgJ+WPkeS6huS4gOmAmuiEvuawlOS5i+WQjueYq+WdkOWcqOWcsOS4iicsICci4oCm4oCm5Li65LuA5LmI5omA5pyJ5Lq66YO96Lef5oiR5L2c5a+544CCIiddLAogICAgfSwKICAgIGRhcms6IHsKICAgICAgICBmaWdodDogICAgWyci5ZG177yM57uI5LqO562J5Yiw5L2g54qv6ZSZ5LqG44CCIicsICflmLTop5Llvq7lvq7kuIrmiazvvIzkuIDliIflsL3lnKjmjozmj6EnLCAnIuS9oOS7peS4uuS9oOi1ouS6hu+8n+a4uOaIj+aJjeWImuW8gOWni+OAgiInXSwKICAgICAgICBwYXJ0eTogICAgWyci5Y+C5Yqg6IGa5Lya5piv5pCc6ZuG5oOF5oql55qE5aW95py65Lya44CCIicsICflvq7nrJHnnYDot5/mr4/kuKrkurrlr5LmmoTvvIzmmpfkuK3orrDkvY/miYDmnInkv6Hmga8nLCAnIuihqOmdoueDremXue+8jOWunuWImeaal+a1gea2jOWKqOOAgiInXSwKICAgICAgICByb21hbmNlOiAgWyci5pyJ6Laj4oCm4oCme3RhcmdldH3lrozlhajmsqHlj5HnjrDmiJHnmoTlsI/lv4PmgJ3jgIIiJywgJ+W4g+S4i+eyvuW/g+iuvuiuoeeahOWBtumBhycsICci5oWi5oWi5p2l77yM54yO54mp5oC75Lya5LiK6ZKp55qE44CCIiddLAogICAgICAgIGdvc3NpcDogICBbJyLkvaDnn6XpgZPlkJfvvIzmiJHjgIzkuI3lsI/lv4PjgI3lj5HnjrDkuobkuIDku7bkuovjgIIiJywgJ+i9u+aPj+a3oeWGmeWcsOaKleS4i+S4gOmil+S/oeaBr+eCuOW8uScsICci55yf55u45Zib77yM5oC75Lya5Zyo5ZCI6YCC55qE5pe25YCZ5rWu5Ye65rC06Z2i44CCIiddLAogICAgICAgIHJpdmFscnk6ICBbJyLorqnku5blhYjlvpfmhI/kuIDpmLXvvIzmnIDlkI7nrJHnmoTkurrmmK/miJHjgIIiJywgJ+aal+S4reaUtumbhuWvueaJi+eahOW8seeCuScsICci5qOL5bGA5omN6LWw5LqG5LiA5Y2K77yM5oCl5LuA5LmI44CCIiddLAogICAgICAgIGFsbGlhbmNlOiBbJyLlkIjkvZzmhInlv6vigJTigJTkvYbor7forrDkvY/vvIzmiJHmnInmiJHnmoTlupXnur/jgIIiJywgJ+iuoeeul+WlveWIqeW8iuWQjuaJjeS8uOWHuuaphOamhOaenScsICci5pqC5pe255qE55uf5Y+L77yM5rC46L+c55qE5Yip55uK44CCIiddLAogICAgICAgIHJldmVuZ2VfcGxvdDogICBbJyLkuIDmraXkuIDmraXmnaXvvIzkuI3mgKXjgIIiJywgJ+WcqOaal+S4ree8lue7h+edgOeyvuWvhueahOWkjeS7h+S5i+e9kScsICci5Yiw5pe25YCZ77yMe3RhcmdldH3ov57mgI7kuYjovpPnmoTpg73kuI3nn6XpgZPjgIIiJ10sCiAgICAgICAgbG92ZV90cmlhbmdsZTogIFsnIuS4ieS4quS6uueahOa4uOaIj+aJjeaciei2o+WYm+OAgiInLCAn5Zyo5Lik5Liq5Lq65LmL6Ze05ri45YiD5pyJ5L2ZJywgJyLorqnku5bku6zkupLnm7jnjJznlpHvvIzmiJHlnZDmlLbmuJTnv4HkuYvliKnjgIIiJ10sCiAgICAgICAgYmV0cmF5YWw6ICAgICAgIFsnIuS4jeimgeaAquaIke+8jOaYr+S9oOWkquWkqeecn+S6huOAgiInLCAn6Z2i5LiN5pS56Imy5Zyw5a6M5oiQ5LqG6IOM5Y+bJywgJyLlnKjov5nkuKrkuJbnlYzkuIrvvIzlj6rmnInliKnnm4rmmK/msLjmgZLnmoTjgIIiJ10sCiAgICAgICAgcmVjb25jaWxpYXRpb246IFsnIuWSjOino++8n+WPr+S7pe+8jOS9hui/meeslOi0puaIkeiusOedgOOAgiInLCAn6KGo6Z2i5o+h5omL6KiA5ZKM77yM5b+D6YeM5Y+m5pyJ5omT566XJywgJyLnlZnkvaDkuIDlkb3mmK/lm6DkuLrkvaDov5jmnInliKnnlKjku7flgLzjgIIiJ10sCiAgICAgICAgbnBjX3J1bmF3YXk6ICAgIFsn5oKE5peg5aOw5oGv5Zyw5raI5aSx5LqG77yM5rKh5pyJ5Lq655+l6YGT5Y675LqG5ZOq6YeMJywgJyLov5nkuKroiJ7lj7DlpKrlsI/kuobvvIzmiJHpnIDopoHmm7TlpKfnmoTmo4vnm5jjgIIiJywgJ+eVmeS4i+S4gOS4quelnuenmOeahOW+rueskeWwseS4jeingeS6hiddLAogICAgICAgIG1vb2RfYnJlYWtkb3duOiBbJyLigKbigKbov57miJHkuZ/mnInmkpHkuI3kvY/nmoTml7blgJnlkJfjgIIiJywgJ+esrOS4gOasoeS7juWujOe+jueahOmdouWFt+WQjumdoumcsuWHuuiEhuW8sScsICci5ZG14oCm4oCm5Y6f5p2l5oiR5Lmf5LiN6L+H5piv5Liq5pmu6YCa5Lq644CCIiddLAogICAgfSwKICAgIHRzdW46IHsKICAgICAgICBmaWdodDogICAgWyci5omN44CB5omN5LiN5piv5Zug5Li65Zyo5oSP5L2g5omN55Sf5rCU55qE77yBIicsICfmmI7mmI7lvojnlJ/msJTljbTor7TmmK8i5peg5omA6LCTIicsICci5L2g5Lul5Li65oiR5Lya6KKr5L2g5rCU5Yiw77yf4oCm4oCm5aW95ZCn56Gu5a6e5rCU5Yiw5LqG77yBIiddLAogICAgICAgIHBhcnR5OiAgICBbJyLmiJHmiY3kuI3mmK/nibnmhI/mnaXlj4LliqDnmoTvvIzlj6rmmK/ot6/ov4fogIzlt7LjgIIiJywgJ+WYtOS4iuivtOedgOS4jeWxkeS9huaYjuaYjuW+iOW8gOW/gycsICci5ZO877yM5YuJ5by66Zmq5L2g5Lus546p546p5ZCn44CCIiddLAogICAgICAgIHJvbWFuY2U6ICBbJyLmiJHmiY3msqHmnInllpzmrKJ7dGFyZ2V0fe+8geaYr3t0YXJnZXR95LiA55u057yg552A5oiR77yBIicsICfpgIHkuoZ7dGFyZ2V0feekvOeJqeeEtuWQjueri+WIu+i3kei1sCcsICci5Yir6K+v5Lya77yB6L+Z5Liq5Lic6KW/5pS+552A5Lmf5piv5rWq6LS577yBIiddLAogICAgICAgIGdvc3NpcDogICBbJyLmiJHmiY3kuI3lhbPlv4N7dGFyZ2V0feeahOS6i++8geKApuKApuS4jei/h+aXoueEtuivtOWIsOS6hu+8jOWFt+S9k+aYr+aAjuagt+eahO+8nyInLCAn6KOF5L2c5LiN5Zyo5oSP5L2G56uW6LW35LqG6ICz5py1JywgJyLlkKzlkKzogIzlt7LvvIzkuI3ku6PooajmiJHlhavljabvvIEiJ10sCiAgICAgICAgcml2YWxyeTogIFsnIuS4jeaYr+aIkeaDs+i3n+S9oOavlO+8jOaYr+S9oOWkquW8seS6huiuqeaIkeeci+S4jeS4i+WOu++8gSInLCAn5Zi056Gs5Zyw5o6l5Y+X5LqG5oyR5oiYJywgJyLmiJHotaLkuobkuZ/kuI3kvJrpq5jlhbTnmoTigKbigKbmiY3mgKrjgIIiJ10sCiAgICAgICAgYWxsaWFuY2U6IFsnIuWIq+OAgeWIq+ivr+S8mu+8geaIkeWPquaYr+inieW+l+S4gOS4quS6uuWkquaXoOiBiuS6hu+8gSInLCAn57qi552A6IS45o+Q5Ye657uT55ufJywgJyLmiJHkuI3mmK/pnIDopoHkvaDvvIzlj6rmmK/igKbigKbmlYjnjofmm7Tpq5jogIzlt7LjgIIiJ10sCiAgICAgICAgcmV2ZW5nZV9wbG90OiAgIFsnIuWTvO+8jOaJjeS4jeaYr+WboOS4uuWPl+S8pOaJjeaDs+aKpeWkjeWRouKApuKApiInLCAn5Zi05LiK6K+05LiN5Zyo5oSP5L2G5bey57uP6K6h5YiS5LqG5LiJ5aWX5pa55qGIJywgJyLorql7dGFyZ2V0feefpemBk+W/veinhuaIkeeahOS4i+Wcuu+8gSInXSwKICAgICAgICBsb3ZlX3RyaWFuZ2xlOiAgWyci5oiR5omN5LiN5Zyo5LmOe3RhcmdldH3ot5/osIHlnKjkuIDotbfvvIHigKbigKbnnJ/nmoTkuI3lnKjkuY7jgIIiJywgJ+WBt+WBt+WFs+azqOedgHt0YXJnZXR955qE5LiA5Li+5LiA5YqoJywgJyLlpb3ng6bigKbigKbkuLrku4DkuYjlv4Pph4zov5nkuYjpmr7lj5fjgIIiJ10sCiAgICAgICAgYmV0cmF5YWw6ICAgICAgIFsnIuaYr+S9oOWFiOiuqeaIkeWkseacm+eahO+8gSInLCAn5ZKs552A5Zi05ZSH5YGa5Ye65LqG6IOM5Y+b55qE5Yaz5a6aJywgJyLigKbigKbmiJHkuZ/kuI3mg7Pov5nmoLfnmoTvvIznrKjom4vjgIIiJ10sCiAgICAgICAgcmVjb25jaWxpYXRpb246IFsnIuaJjeS4jeaYr+WboOS4uuaDs+S9oOaJjeadpeWSjOWlveeahOOAgiInLCAn6YCS5Ye65ZKM6Kej55qE5omL5L2G5aS05omt5ZCR5LiA6L65JywgJyLlk7zigKbigKbkvaDku6XlkI7opoHmmK/lho3mg7nmiJHnlJ/msJTvvIzmiJHlsLHlho3kuZ/kuI3nkIbkvaDkuobjgIIiJ10sCiAgICAgICAgbnBjX3J1bmF3YXk6ICAgIFsnIuaIkei1sOS6hu+8geWIq+aDs+aIke+8geKApuKApuaJjeS4jeS8muaDs+S9oOS7rOWRou+8gSInLCAn5aS05Lmf5LiN5Zue5L2G5YG35YG35pOm5LqG55y85rOqJywgJyLlj43mraPkuZ/msqHkurrlnKjkuY7miJHotbDkuI3otbDigKbigKYiJ10sCiAgICAgICAgbW9vZF9icmVha2Rvd246IFsnIuaIkeayoeS6i++8geWIq+eci+aIke+8gSInLCAn5piO5piO5Zyo5ZOt5Y2056Gs6K+05piv55y8552b6L+b5LqG5rKZ5a2QJywgJyLkuLrku4DkuYjigKbigKbkuLrku4DkuYjmsqHmnInkurrmh4LmiJHjgIIiJ10sCiAgICB9LAogICAgY2hpbGw6IHsKICAgICAgICBmaWdodDogICAgWyci5ZWK4oCm4oCm5aW957Sv5ZWK77yM6IO95LiN6IO95Yir5ZC15LqG44CCIicsICfmiZPnnYDlk4jmrKDnnIvnnYB7dGFyZ2V0feWPkeeBqycsICci566X5LqG566X5LqG77yM5aSn5a626YO95raI5raI5rCU44CCIiddLAogICAgICAgIHBhcnR5OiAgICBbJyLmnInlkIPnmoTlsLHooYx+IicsICfmhaLmgqDmgqDlnLDkuqvlj5fnnYDogZrkvJrmsJvlm7QnLCAnIui/meenjeaXpeWtkOacgOiIkuacjeS6huOAgiInXSwKICAgICAgICByb21hbmNlOiAgWyci5Zev4oCm4oCme3RhcmdldH3mjLrlpb3nmoTvvIzlnKjkuIDotbflvojoiJLmnI3jgIIiJywgJ+iHqueEtuiAjOeEtuWcsOmdoOWcqHt0YXJnZXR96Lqr6L65JywgJyLpobrlhbboh6rnhLblsLHlpb3llaZ+IiddLAogICAgICAgIGdvc3NpcDogICBbJyLlk6Z+5piv5ZCXfueEtuWQjuWRon4iJywgJ+WQrOWFq+WNpuWQrOW+l+a0pea0peacieWRsycsICci5aW957K+5b2p5ZWK5ZOI5ZOI5ZOI44CCIiddLAogICAgICAgIHJpdmFscnk6ICBbJyLmr5TlsLHmr5TlkKfvvIzovpPkuobkuZ/ml6DmiYDosJN+IicsICfovbvmnb7lnLDlupTmiJgnLCAnIuS6q+WPl+i/h+eoi+acgOmHjeimgeWYm+OAgiInXSwKICAgICAgICBhbGxpYW5jZTogWyci5aW95ZWK5aW95ZWK77yM5LiA6LW3546pfiInLCAn5q+r5LiN54q56LGr5bCx562U5bqU5LqGJywgJyLmnInkurrkuIDotbflpJrlvIDlv4PllYrjgIIiJ10sCiAgICAgICAgcmV2ZW5nZV9wbG90OiAgIFsnIuWXr+KApuKApuiZveeEtuacieeCueeUn+awlOS9huWlvem6u+eDpuWViuKApuKApiInLCAn5oOz5LqG5LqU5YiG6ZKf5bCx5pS+5byD5LqG5aSN5LuH6K6h5YiSJywgJyLnrpfkuobvvIzov5jmmK/nnaHop4nmr5TovoPph43opoHjgIIiJ10sCiAgICAgICAgbG92ZV90cmlhbmdsZTogIFsnIuWViuKApuKApuWlveWkjeadgu+8jOaIkemAieaLqeaUvuW8g+aAneiAg+OAgiInLCAn6ZqP6YGH6ICM5a6J5Zyw6Z2i5a+55oSf5oOF57qg6JGbJywgJyLlkb3ov5DkvJrlronmjpLlpb3nmoTlkKd+IiddLAogICAgICAgIGJldHJheWFsOiAgICAgICBbJyLlk47vvJ/kuLrku4DkuYjkvJrlj5jmiJDov5nmoLflkaLjgIIiJywgJ+S4gOiEuOi/t+iMq+WcsOiiq+WNt+WFpeS6huiDjOWPmycsICci4oCm4oCm5aW95ZCn44CCIiddLAogICAgICAgIHJlY29uY2lsaWF0aW9uOiBbJyLkuI3lkLXmnrbkuI3lsLHlpb3kuoblmJt+IicsICfnrJHlmLvlmLvlnLDmi4nnnYDlj4zmlrnlkozlpb0nLCAnIuW8gOW/g+acgOmHjeimgeWVpn4iJ10sCiAgICAgICAgbnBjX3J1bmF3YXk6ICAgIFsnIuWXr+KApuKApuaIkeWOu+WIq+WkhOW+heW+heOAgiInLCAn5oWi5oKg5oKg5Zyw6LWw5LqGJywgJyLmjaLkuKrlnLDmlrnkuZ/kuI3plJl+IiddLAogICAgICAgIG1vb2RfYnJlYWtkb3duOiBbJyLigKbigKbku4rlpKnkuI3lpKrmg7PliqjkuobjgIIiJywgJ+S4gOebtOi6uuedgOWPkeWRhicsICci5aW95YOP5pyJ54K557Sv5LqG44CCIiddLAogICAgfSwKICAgIHB1cmU6IHsKICAgICAgICBmaWdodDogICAgWyci5ZGc4oCm4oCm5Li65LuA5LmI6KaB5ZC15p625ZWK4oCm4oCmIicsICfnnLznnLblkKvms6rnnIvnnYB7dGFyZ2V0fScsICci5oiR5Lus5LiN6IO95YGa5pyL5Y+L5ZCX77yfIiddLAogICAgICAgIHBhcnR5OiAgICBbJyLogLbvvIHmtL7lr7nvvIHlpb3lvIDlv4Plpb3lvIDlv4PvvIEiJywgJ+i5pui5pui3s+i3s+WcsOWIsOWkhOi3kScsICci5aSn5a625LiA6LW3546p5aSq5qOS5LqG77yBIiddLAogICAgICAgIHJvbWFuY2U6ICBbJyLlmL/lmL/igKbigKZ7dGFyZ2V0feWlveWlveeci+KApuKApiInLCAn5YK756yR552A55uv552Ae3RhcmdldH3nnIsnLCAnIuS4uuS7gOS5iOeci+WIsHt0YXJnZXR95b+D6YeM5Lya5omR6YCa5omR6YCa55qE5ZGi77yfIiddLAogICAgICAgIGdvc3NpcDogICBbJyLor7bor7bor7bvvJ/nnJ/nmoTlgYfnmoTvvJ/vvIEiJywgJ+eequWkp+ecvOedm+S4gOiEuOmch+aDiicsICci5aW95Y6J5a6z55qE56eY5a+G77yB4oCU4oCU5ZWK5oiR5piv5LiN5piv5LiN5bqU6K+l55+l6YGT44CCIiddLAogICAgICAgIHJpdmFscnk6ICBbJyLmiJHkuZ/mg7Por5Xor5XvvIEiJywgJ+avq+aXoOernuS6ieaEj+ivhuWcsOWPguWKoOS6huavlOi1mycsICci5bCx566X6L6T5LqG5Lmf5aW95aW9546p77yBIiddLAogICAgICAgIGFsbGlhbmNlOiBbJyLlpb3mnIvlj4vlsLHmmK/opoHlnKjkuIDotbfvvIEiJywgJ+W8gOW/g+WcsOaLieedgHt0YXJnZXR955qE5omLJywgJyLmiJHku6zmmK/mnIDlpb3nmoTmkK3moaPvvIEiJ10sCiAgICAgICAgcmV2ZW5nZV9wbG90OiAgIFsnIuWRnOKApuKApnt0YXJnZXR95aW96L+H5YiG4oCm4oCmIicsICfnlJ/msJTkuobkvYbkuI3nn6XpgZPmgI7kuYjmiqXlpI0nLCAnIuaIkeimgeKApuKApuaIkeimgeKApuKApuS4jeeQhuS9oOS6hu+8geWTvO+8gSInXSwKICAgICAgICBsb3ZlX3RyaWFuZ2xlOiAgWyci5aW95aWH5oCq55qE5oSf6KeJ4oCm4oCm5aS05aW95pmV4oCm4oCmIicsICflrozlhajmkJ7kuI3mh4Llj5HnlJ/kuobku4DkuYgnLCAnIuS4uuS7gOS5iOWkp+WutumDveWcqOeUn+awlOWRou+8nyInXSwKICAgICAgICBiZXRyYXlhbDogICAgICAgWyci5oCO5LmI5Lya4oCm4oCm5oiR5Lul5Li65oiR5Lus5piv5pyL5Y+L4oCm4oCmIicsICfkuI3nkIbop6PkuLrku4DkuYjkvJrooqvog4zlj5snLCAnIuKApuKApuWlvemavui/h+OAgiInXSwKICAgICAgICByZWNvbmNpbGlhdGlvbjogWyci5aSq5aW95LqG5aSq5aW95LqG77yB5aSn5a625Y+I5piv5aW95pyL5Y+L5LqG77yBIicsICflvIDlv4Plvpfljp/lnLDovazlnIgnLCAnIuaIkeWwseefpemBk+S4gOWIh+mDveS8muWlvei1t+adpeeahO+8gSInXSwKICAgICAgICBucGNfcnVuYXdheTogICAgWyci5oiR4oCm4oCm5oiR5LiA5Liq5Lq66K+V6K+V55yL44CCIicsICflsI/lv4Pnv7znv7zlnLDotbDlh7rlrrbpl6gnLCAnIuiZveeEtuacieeCueWus+aAleS9huaIkeimgeWLh+aVou+8gSInXSwKICAgICAgICBtb29kX2JyZWFrZG93bjogWyci5ZGc5ZGc5ZGc5ZGc5ZGc4oCm4oCmIicsICflpKflk63otbfmnaXvvIzmgI7kuYjlk4Tpg73lk4TkuI3lpb0nLCAnIuS4uuS7gOS5iOaJgOacieS6uumDveS4jeWWnOasouaIkeS6huKApuKApiInXSwKICAgIH0sCiAgICBzdHJpY3Q6IHsKICAgICAgICBmaWdodDogICAgWyci5L2g55qE6KGM5Li65Lil6YeN6L+d5Y+N5LqG6KeE5YiZ44CCIicsICfkuIDohLjmraPoibLlnLDmibnor4R7dGFyZ2V0fScsICci6L+Z5Lu25LqL5b+F6aG76L+956m25Yiw5bqV44CCIiddLAogICAgICAgIHBhcnR5OiAgICBbJyLogZrkvJrlj6/ku6XvvIzkvYYyM+eCueS5i+WJjeW/hemhu+e7k+adn+OAgiInLCAn6buY6buY5qOA5p+l5rS75Yqo5rWB56iLJywgJyLigKbigKbov5jooYzlkKfvvIznrpfmmK/ovr7moIfkuobjgIIiJ10sCiAgICAgICAgcm9tYW5jZTogIFsn6buY6buY6K6w5b2V5LqGe3RhcmdldH3nmoTml6XnqIvooagnLCAnIue6r+eyueaYr+W3peS9nOmcgOimgeaJjeWFs+azqHt0YXJnZXR955qE44CCIicsICfnu5l7dGFyZ2V0feaVtOeQhuS6huS4gOS7veeUn+a0u+S9nOaBr+S8mOWMluaWueahiCddLAogICAgICAgIGdvc3NpcDogICBbJyLmoLnmja7miJHmjozmj6HnmoTkv6Hmga/vvIx7dGFyZ2V0feehruWunuaciemXrumimOOAgiInLCAn5ou/5Ye65LiA5Y+g6K+B5o2uJywgJyLkuIDliIfku6Xkuovlrp7kuLrkvp3mja7jgIIiJ10sCiAgICAgICAgcml2YWxyeTogIFsnIuernuS6ieS/g+i/m+i/m+atpe+8jOaIkeaOpeWPl+aMkeaImOOAgiInLCAn5Yi25a6a5LqG6K+m57uG55qE56ue5LqJ562W55WlJywgJyLmiJHkvJrnlKjlrp7lipvor7Tor53jgIIiJ10sCiAgICAgICAgYWxsaWFuY2U6IFsnIuWQiOS9nOWNj+iurumcgOimgeaYjuehruWQhOaWuei0o+S7u+OAgiInLCAn6LW36I2J5LqG5LiA5Lu95q2j5byP55qE5ZCI5L2c5paH5Lu2JywgJyLop4Tnn6nlrprlpb3vvIzmlYjnjofmiY3pq5jjgIIiJ10sCiAgICAgICAgcmV2ZW5nZV9wbG90OiAgIFsnIui/meS4quS6uueahOaJgOS9nOaJgOS4uuW3sue7j+i2heWHuuS6huW6lee6v+OAgiInLCAn5Ya36Z2Z5Zyw5pS26ZuG5a+55pa555qE6ZSZ6K+v6K6w5b2VJywgJyLliLDml7blgJnorqnkuovlrp7mnaXlrqHliKTjgIIiJ10sCiAgICAgICAgbG92ZV90cmlhbmdsZTogIFsnIuaEn+aDheeahOS6i+S4jeW6lOivpeW9seWTjeWkp+WxgOOAgiInLCAn6K+V5Zu+55So55CG5oCn5aSE55CG5L2G5YaF5b+D5b6I5oyj5omOJywgJyLigKbigKbkuLrku4DkuYjmiJHml6Dms5Xkv53mjIHlhrfpnZnjgIIiJ10sCiAgICAgICAgYmV0cmF5YWw6ICAgICAgIFsnIuaIkeWBmuWHuuS6huacgOespuWQiOWOn+WImeeahOWIpOaWreOAgiInLCAn5YWs5LqL5YWs5Yqe5Zyw5a6M5oiQ5LqG6IOM5Y+bJywgJyLlr7nkuI3otbfvvIzop4TliJnmr5TmhJ/mg4Xph43opoHjgIIiJ10sCiAgICAgICAgcmVjb25jaWxpYXRpb246IFsnIuaXoueEtuWPjOaWuemDveacieWPjeecge+8jOmCo+WwseaXouW+gOS4jeWSjuOAgiInLCAn5Lil6IKD5Zyw5a6j5biD5ZKM6KejJywgJyLku6XlkI7kuI3opoHlho3niq/lkIzmoLfnmoTplJnor6/jgIIiJ10sCiAgICAgICAgbnBjX3J1bmF3YXk6ICAgIFsnIuaIkeW3sue7j+WwveWIsOS6huiHquW3seeahOi0o+S7u++8jOmXruW/g+aXoOaEp+OAgiInLCAn5pW06b2Q5Zyw5pS25ou+5aW95omA5pyJ54mp5ZOB5ZCO56a75byAJywgJyLov5nkuKrnjq/looPlt7Lnu4/kuI3pgILlkIjmiJHkuobjgIIiJ10sCiAgICAgICAgbW9vZF9icmVha2Rvd246IFsnIuKApuKApuaIkeaYr+S4jeaYr+S4gOebtOS7peadpemDveWkquiLm+WIu+S6huOAgiInLCAn56ys5LiA5qyh5a+56Ieq5bex55qE5qCH5YeG5Lqn55Sf5oCA55aRJywgJyLljp/mnaXlroznvo7kuLvkuYnkuZ/kvJrkvKTlrrPliKvkurrigKbigKYiJ10sCiAgICB9LAp9OwoKLy8g4pSA4pSAIOS6i+S7tuagh+mimOaooeadvyDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIAKCmNvbnN0IEhFQURMSU5FX1RFTVBMQVRFUzogUGFydGlhbDxSZWNvcmQ8RXZlbnRLZXksIHN0cmluZ1tdPj4gPSB7CiAgICBmaWdodDogICAgICAgICAgICAgIFsn44CQ56qB5Y+R44CRezB95LiOezF954iG5Y+R5r+A54OI5Yay56qB77yBJywgJ+OAkOmch+WKqOOAkXswfeWSjHsxfeWkp+WQteS6huS4gOaetu+8gScsICfjgJDnjrDlnLrjgJF7MH3kuI57MX3kuYvpl7Tngavoja/lkbPljYHotrPvvIEnXSwKICAgIHBhcnR5OiAgICAgICAgICAgICAgWyfjgJDng63pl7njgJF7MH3nrYnkurrkuL7lip7kuobkuIDlnLrogZrkvJrvvIEnLCAn44CQ5qyi5LmQ44CR5aSn5a625LiA6LW35byA5b+D6IGa5Lya77yBJywgJ+OAkOWWnOiur+OAkXswfeWSjHsxfee7hOe7h+S6huiBlOiwiua0u+WKqO+8gSddLAogICAgcm9tYW5jZTogICAgICAgICAgICBbJ+OAkOeLrOWutuOAkXswfeWSjHsxfeiiq+ebruWHu+aap+aYp+WQjOihjO+8gScsICfjgJDnlJzonJzjgJF7MH3lkox7MX3kuYvpl7TkvLzkuY7mnInkuobmmqfmmKfnmoTmsJTmsJvvvJ8nLCAn44CQ54iG5paZ44CRezB95ZKMezF955qE5YWz57O75Ly85LmO5LiN5LiA6Iis4oCm4oCmJ10sCiAgICBnb3NzaXA6ICAgICAgICAgICAgIFsn44CQ54iG5paZ44CR5pyJ5YWzezB955qE5Yqy54iG5Lyg6Ze75q2j5Zyo55av5Lyg4oCmJywgJ+OAkOWFq+WNpuOAkeWFs+S6jnswfeeahOenmOWvhuiiq+abneWFieS6hu+8gScsICfjgJDmtYHoqIDjgJF7MH3nmoTkuovmg4Xpl7nlvpfkurrlsL3nmobnn6XigKbigKYnXSwKICAgIHJpdmFscnk6ICAgICAgICAgICAgWyfjgJDlr7nlhrPjgJF7MH3kuI57MX3mraPlvI/lvIDlp4vnq57kuonvvIEnLCAn44CQ54Gr6Iqx44CRezB95ZKMezF95LmL6Ze055qE6L6D6YeP5ouJ5byA5bi35bmV77yBJywgJ+OAkOaMkeaImOOAkXswfeWQkXsxfeWPkei1t+S6huaMkeaImO+8gSddLAogICAgYWxsaWFuY2U6ICAgICAgICAgICBbJ+OAkOe7k+ebn+OAkXswfeWSjHsxfei+vuaIkOS6huenmOWvhuWQjOebn++8gScsICfjgJDogZTmiYvjgJF7MH3kuI57MX3mkLrmiYvlkIjkvZzvvIEnLCAn44CQ55uf57qm44CRezB95ZKMezF957uT5oiQ5LqG5ZCM55uf77yBJ10sCiAgICByZXZlbmdlX3Bsb3Q6ICAgICAgIFsn44CQ5pqX5rWB44CRezB95Ly85LmO5Zyo6YWd6YW/5LuA5LmI5Y+v5oCV55qE6K6h5YiS4oCmJywgJ+OAkOitpuWRiuOAkXswfeeahOWkjeS7h+ato+WcqOaChOeEtumAvOi/keKApicsICfjgJDpmLTosIvjgJF7MH3mmpfkuK3osIvliJLnnYDmiqXlpI17MX3igKbigKYnXSwKICAgIGxvdmVfdHJpYW5nbGU6ICAgICAgWyfjgJDkv67nvZflnLrjgJF7MH3jgIF7MX3nmoTkuInop5LlhbPns7vmm53lhYnvvIEnLCAn44CQ57qg6JGb44CR5LiA5Zy65LiJ6KeS5oGL5Zyo5oKE54S25LiK5ryU4oCm4oCmJywgJ+OAkOWkjeadguOAkXswfeWSjHsxfeS5i+mXtOeahOaEn+aDheWPmOW+l+aJkeaclOi/t+emu++8gSddLAogICAgamVhbG91c3lfc3BpcmFsOiAgICBbJ+OAkOWrieeBq+OAkXswfemZt+WFpeS6huWrieWmkueahOa8qea2oe+8gScsICfjgJDmmpfmtozjgJF7MH3nmoTlq4nlppLkuYvlv4PmraPlnKjohqjog4DigKYnLCAn44CQ5Y2x6Zmp44CRezB95Zug5auJ5aaS6ICM5aSx5Y675LqG55CG5pm64oCm4oCmJ10sCiAgICBmYW1pbHlfZmV1ZDogICAgICAgIFsn44CQ5LiW5LuH44CR5Lik5qCL5YWs5a+T55qE55+b55u+5b275bqV5r+A5YyW77yBJywgJ+OAkOijgueXleOAkeWFrOWvk+S5i+mXtOeahOWFs+ezu+mZjeiHs+WGsOeCue+8gScsICfjgJDlhrPoo4LjgJHlhazlr5Pnn5vnm77lhajpnaLniIblj5HvvIEnXSwKICAgIGJldHJheWFsOiAgICAgICAgICAgWyfjgJDpnIfmg4rjgJF7MH3nq5/nhLbog4zlj5vkuoZ7MX3vvIEnLCAn44CQ5Y+b5Y+Y44CRezB95YGa5Ye65LqG5Luk5Lq65oSP5oOz5LiN5Yiw55qE6YCJ5oup77yBJywgJ+OAkOWPjei9rOOAkXswfeeahOiDjOWPm+iuqeaJgOacieS6uumch+aDiu+8gSddLAogICAgcm9tYW50aWNfY29uZmVzc2lvbjpbJ+OAkOWRiueZveOAkXswfee7iOS6juWQkXsxfeihqOeZveS6hu+8gScsICfjgJDlv4PliqjjgJF7MH3pvJPotbfli4fmsJTor7Tlh7rkuoblv4Pph4zor53vvIEnLCAn44CQ55yf5b+D44CRezB95a+5ezF96KGo6L6+5LqG5rex6JeP5bey5LmF55qE5oSf5oOF77yBJ10sCiAgICBnb3NzaXBfd2lsZGZpcmU6ICAgIFsn44CQ55av5Lyg44CR5LiA5YiZ5YWr5Y2m5Zyo5omA5pyJ5Lq65LmL6Ze054K45byA77yBJywgJ+OAkOWkseaOp+OAkeiwo+iogOWDj+mHjueBq+S4gOagt+iUk+W7tu+8gScsICfjgJDoiIborrrjgJHmr4/kuKrkurrpg73lnKjorq7orrrnurfnurfigKbigKYnXSwKICAgIG5wY19ydW5hd2F5OiAgICAgICAgWyfjgJDlh7rotbDjgJF7MH3mt7HlpJzmkKzotbDvvIzkuI3nn6XljrvlkJHigKYnLCAn44CQ5aSx6Liq44CRezB956qB54S25raI5aSx5LqG77yBJywgJ+OAkOeLrOeri+OAkXswfeWuo+W4g+aQrOWHuuWFrOWvk++8gSddLAogICAgbW9vZF9icmVha2Rvd246ICAgICBbJ+OAkOW0qea6g+OAkXswfeeahOaDhee7quW9u+W6leWkseaOp+S6huKApicsICfjgJDljbHmnLrjgJF7MH3pmbflhaXkuobkuKXph43nmoTmg4Xnu6rkvY7osLcnLCAn44CQ5b+D56KO44CRezB95YaN5Lmf5pKR5LiN5L2P5LqG4oCm4oCmJ10sCiAgICBzZWNyZXRfYWxsaWFuY2U6ICAgIFsn44CQ5pqX55uf44CRezB95ZKMezF95Zyo5pqX5Lit57uT5oiQ5ZCM55uf77yBJywgJ+OAkOWvhue6puOAkeS4gOWcuuenmOWvhueahOWQiOS9nOato+WcqOi/m+ihjOKApuKApiddLAogICAgcG93ZXJfc2hpZnQ6ICAgICAgICBbJ+OAkOWPmOWkqeOAkeWFrOWvk+WGhemDqOeahOivneivreadg+WPkeeUn+S6huW3qOWPmO+8gScsICfjgJDmtJfniYzjgJHkuIDliIfpg73ooqvph43mlrDmtJfniYzkuobigKbigKYnXSwKICAgIHJlY29uY2lsaWF0aW9uOiAgICAgWyfjgJDmmpblv4PjgJF7MH3lkox7MX3nu4jkuo7lhrDph4rliY3lq4wnLCAn44CQ5ZKM6Kej44CRezB95LiOezF96YeN5b2S5LqO5aW977yBJywgJ+OAkOaEn+WKqOOAkee7j+WOhumjjumbqOWQju+8jHswfeWSjHsxfeWSjOWlveWmguWInSddLAogICAgZmlnaHRfYnJlYWs6ICAgICAgICBbJ+OAkOeIhuWPkeOAkeenr+WOi+W3suS5heeahOefm+ebvue7iOS6jueIhuWPkeS6hu+8gScsICfjgJDlhrLnqoHjgJF7MH3lho3kuZ/lv43kuI3kuobkuobvvIEnXSwKfTsKCi8vIOKUgOKUgCDlr7zlh7rlh73mlbAg4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSACgovKioKICog5qC55o2uTlBD5oCn5qC85ZKM5LqL5Lu257G75Z6L77yM6L+U5Zue5LiA5Y+l5qih5p2/5YyW55qE6KeS6Imy5peB55m9CiAqLwpleHBvcnQgZnVuY3Rpb24gZ2V0TmFycmF0aXZlUXVvdGUoCiAgICBwZXJzb25hbGl0eTogc3RyaW5nW10sCiAgICBldmVudFR5cGU6IEV2ZW50S2V5LAogICAgbnBjTmFtZTogc3RyaW5nLAogICAgdGFyZ2V0TmFtZT86IHN0cmluZwopOiBzdHJpbmcgewogICAgY29uc3QgZ3JvdXAgPSBnZXRQZXJzb25hbGl0eUdyb3VwKHBlcnNvbmFsaXR5KTsKICAgIGNvbnN0IGdyb3VwVGVtcGxhdGVzID0gVEVNUExBVEVTW2dyb3VwXSA/PyBURU1QTEFURVMuY2hpbGw7CiAgICBjb25zdCBldmVudFRlbXBsYXRlcyA9IGdyb3VwVGVtcGxhdGVzPy5bZXZlbnRUeXBlXSA/PyBncm91cFRlbXBsYXRlcz8uWydmaWdodCddID8/IFsn4oCm4oCmJ107CiAgICBjb25zdCB0ZW1wbGF0ZSA9IGV2ZW50VGVtcGxhdGVzW01hdGguZmxvb3IoTWF0aC5yYW5kb20oKSAqIGV2ZW50VGVtcGxhdGVzLmxlbmd0aCldOwogICAgcmV0dXJuIHRlbXBsYXRlCiAgICAgICAgLnJlcGxhY2UoL1x7bmFtZVx9L2csIG5wY05hbWUpCiAgICAgICAgLnJlcGxhY2UoL1x7dGFyZ2V0XH0vZywgdGFyZ2V0TmFtZSB8fCAn5p+Q5Lq6Jyk7Cn0KCi8qKgogKiDnlJ/miJDmiI/liafmgKfnmoTmlrDpl7vmoIfpopgKICovCmV4cG9ydCBmdW5jdGlvbiBnZW5lcmF0ZUV2ZW50SGVhZGxpbmUoCiAgICBldmVudFR5cGU6IEV2ZW50S2V5LAogICAgaW52b2x2ZWROYW1lczogc3RyaW5nW10KKTogc3RyaW5nIHsKICAgIGNvbnN0IHRlbXBsYXRlcyA9IEhFQURMSU5FX1RFTVBMQVRFU1tldmVudFR5cGVdID8/IFsn5Y+R55Sf5LqG5LiA5Lqb5LqL5oOF4oCm4oCmJ107CiAgICBjb25zdCB0ZW1wbGF0ZSA9IHRlbXBsYXRlc1tNYXRoLmZsb29yKE1hdGgucmFuZG9tKCkgKiB0ZW1wbGF0ZXMubGVuZ3RoKV07CiAgICByZXR1cm4gdGVtcGxhdGUKICAgICAgICAucmVwbGFjZSgvXHswXH0vZywgaW52b2x2ZWROYW1lc1swXSB8fCAn5p+Q5Lq6JykKICAgICAgICAucmVwbGFjZSgvXHsxXH0vZywgaW52b2x2ZWROYW1lc1sxXSB8fCAn5p+Q5Lq6JykKICAgICAgICAucmVwbGFjZSgvXHsyXH0vZywgaW52b2x2ZWROYW1lc1syXSB8fCAn5p+Q5Lq6Jyk7Cn0K
+/**
+ * LifeSim Narrative Templates — 离线旁白模板库
+ *
+ * 为离线模拟提供基于性格×事件类型的模板化叙事文本。
+ * 无需 LLM 调用，通过随机抽取模板 + 名字替换生成旁白。
+ */
+
+import { SimEventType, SimEffectCode } from '../types';
+
+// ── 性格分组 ──────────────────────────────────────────────────
+
+const PERSONALITY_GROUPS: Record<string, string[]> = {
+    hot:    ['热情', '外向', '活泼'],
+    cool:   ['冷静', '内敛', '理性'],
+    kind:   ['善良', '温柔', '包容'],
+    wild:   ['暴躁', '直率', '冲动'],
+    dark:   ['腹黑', '聪明', '神秘'],
+    tsun:   ['傲娇', '要强', '敏感'],
+    chill:  ['懒散', '随和', '乐天'],
+    pure:   ['单纯', '可爱', '活泼'],
+    strict: ['严肃', '负责', '完美主义'],
+};
+
+function getPersonalityGroup(personality: string[]): string {
+    for (const [group, traits] of Object.entries(PERSONALITY_GROUPS)) {
+        if (personality.some(p => traits.includes(p))) return group;
+    }
+    return 'chill';
+}
+
+// ── 叙事模板 ──────────────────────────────────────────────────
+// {name} = 行动者, {target} = 目标
+
+type EventKey = SimEventType | SimEffectCode | string;
+
+const TEMPLATES: Record<string, Partial<Record<EventKey, string[]>>> = {
+    hot: {
+        fight:    ['"{target}你给我站住！今天非说清楚不可！"', '怒气冲冲地冲向{target}，一场口角立刻爆发', '"来啊！谁怕谁！"'],
+        party:    ['"大家都来嗨！今天不醉不归！"', '兴高采烈地张罗聚会，拉着所有人一起玩', '"太开心了吧！这种日子应该天天有！"'],
+        romance:  ['"嘿嘿……{target}今天看起来好好看……"', '脸红着偷偷靠近{target}，心跳加速', '"我、我才没有喜欢{target}什么的！……好吧也许有一点点。"'],
+        gossip:   ['"你们知道吗！{target}居然……！"', '满脸八卦地到处散播消息', '"这也太劲爆了吧！必须让所有人都知道！"'],
+        rivalry:  ['"我绝对不会输给{target}！"', '斗志昂扬地向{target}发起挑战', '"就这？我一只手都能赢你！"'],
+        alliance: ['"我们联手吧！一起搞事情！"', '热情地拉着{target}结成同盟', '"有我们在，谁也别想捣乱！"'],
+        revenge_plot:   ['"哼哼……{target}，你等着瞧。"', '笑容满面地暗中策划着什么', '"这次我要让{target}知道得罪我的下场！"'],
+        love_triangle:  ['"为什么{target}要跟别人走那么近啊！"', '焦急地来回踱步，嫉妒的火焰在燃烧', '"不行不行不行，我要去把{target}抢回来！"'],
+        betrayal:       ['"对不起了{target}……但我必须这么做！"', '痛苦但坚决地做出了背叛的选择', '"别怪我，是你先不仁的！"'],
+        reconciliation: ['"算了算了！{target}我们和好吧！"', '大大咧咧地冲过去给了{target}一个熊抱', '"吵架好累啊，还是做朋友比较好！"'],
+        npc_runaway:    ['"我受够了！我要走了！"', '头也不回地冲出了家门', '"再也不想待在这里了，我要自由！"'],
+        mood_breakdown: ['"呜呜呜……为什么一切都这么糟糕……"', '蹲在角落里情绪崩溃', '"我真的撑不住了……"'],
+    },
+    cool: {
+        fight:    ['"……你的行为令人失望。"', '冷冷地看着{target}，语气不带感情', '"道理说不通的话，那就没什么好说的了。"'],
+        party:    ['"……既然你们都想聚会，我就陪着坐坐。"', '安静地待在角落，偶尔微微一笑', '"热闹归热闹，别闹出事就好。"'],
+        romance:  ['嘴上不说什么，但目光总是不自觉地追随{target}', '"……今天的天气还不错。"（看着{target}说的）', '翻了一页书，却已经在同一页停留了十分钟'],
+        gossip:   ['"……有一件事，我觉得你应该知道。"', '不动声色地把关键信息透露出去', '"纯粹是信息共享，不是搬弄是非。"'],
+        rivalry:  ['"那就各凭本事吧。"', '淡然地接受了{target}的挑战', '"输赢不重要，过程才有意思。"'],
+        alliance: ['"合作可以，但有条件。"', '冷静地分析利弊后决定结盟', '"利益一致时，合作是最优解。"'],
+        revenge_plot:   ['面无表情地在笔记本上写着什么', '"一切都在计划之中。"', '制定了一份详细的复仇方案'],
+        love_triangle:  ['"……这种感情纠葛，真是麻烦。"', '表面平静内心却在激烈挣扎', '"理性告诉我应该退出，但是……"'],
+        betrayal:       ['"抱歉，我做了最优选择。"', '毫无表情地完成了背叛', '"不要用感情来绑架逻辑。"'],
+        reconciliation: ['"……过去的事就算了。"', '递出一杯茶，这是最大的诚意了', '"继续敌对对双方都没有好处。"'],
+        npc_runaway:    ['留下一张纸条就消失了', '"……这里已经没有我留下的理由了。"', '安静地收拾好行李，头也不回地离开'],
+        mood_breakdown: ['一个人坐在角落发呆，谁也不理', '"……没什么。"（声音在颤抖）', '第一次失去了一贯的冷静'],
+    },
+    kind: {
+        fight:    ['"求求你们别吵了……"', '焦急地试图在{target}和对方之间劝和', '"大家都是朋友，有什么不能好好说的呢？"'],
+        party:    ['"来来来，我给大家准备了点心！"', '温柔地照顾着每一个人', '"看到大家开心我就满足了。"'],
+        romance:  ['小心翼翼地给{target}留了一朵花', '"希望你今天过得开心。"', '默默关注着{target}的一切'],
+        gossip:   ['"这样说别人不太好吧……"', '虽然不赞同但还是忍不住听了', '"我们还是别在背后议论了……"'],
+        rivalry:  ['"能不能不要竞争，大家一起好好相处？"', '勉为其难地应战，全程都在道歉', '"我不想伤害任何人……"'],
+        alliance: ['"只要能帮到大家，我都愿意。"', '真诚地伸出双手', '"一起努力让这里变得更好吧。"'],
+        revenge_plot:   ['"我、我不想报复……但是真的太过分了……"', '纠结了很久最终还是决定要有所行动', '"对不起，但我也有底线的……"'],
+        love_triangle:  ['"只要{target}幸福就好了……"', '含泪退出了三角关系', '"如果我的退出能让大家都好过一些……"'],
+        betrayal:       ['"对不起……我真的很抱歉……"', '泪流满面但还是做出了抉择', '"我也不想这样的……"'],
+        reconciliation: ['"太好了，你们终于和好了！"', '感动得眼眶泛红', '"和平才是最好的嘛。"'],
+        npc_runaway:    ['"对不起大家……我需要一个人静一静。"', '留下一封感谢信后悄悄离开', '"谢谢你们的照顾，但我必须走了……"'],
+        mood_breakdown: ['"为什么我对大家这么好，还是会这样……"', '一个人偷偷哭了很久', '"我是不是做错了什么……"'],
+    },
+    wild: {
+        fight:    ['"你说什么！给老子再说一遍！"', '直接冲上去，二话不说', '"老子今天非教训你不可！"'],
+        party:    ['"哈哈哈！喝！吃！"', '大嗓门地吆喝着', '"开心就好别废话！"'],
+        romance:  ['"你、你别看我！……我没有脸红！"', '说话结结巴巴的，完全不像平时', '"喜欢就是喜欢！有什么好扭捏的！"'],
+        gossip:   ['"你听说了没？那个{target}居然……"', '嗓门大得整条街都听见了', '"我就是看不惯！必须说出来！"'],
+        rivalry:  ['"来啊！比就比！谁怕谁！"', '撸起袖子准备大干一场', '"我暴躁我骄傲！"'],
+        alliance: ['"兄弟！以后我罩你！"', '拍着{target}的肩膀豪爽地宣布结盟', '"有福同享有难同当！"'],
+        revenge_plot:   ['"哼，走着瞧！"', '咬牙切齿地暗自发誓', '"这口气我咽不下去！"'],
+        love_triangle:  ['"凭什么！{target}明明应该是我的！"', '气得想掀桌子', '"谁敢抢我就揍谁！"'],
+        betrayal:       ['"你这个叛徒！"', '怒火中烧，感觉被欺骗了', '"我跟你没完！"'],
+        reconciliation: ['"哼……算你态度还行。"', '别扭地接受了和解', '"这次就放过你，下次可没那么容易！"'],
+        npc_runaway:    ['"老子不伺候了！"', '砰地一声关上门就走了', '"爱咋咋地！"'],
+        mood_breakdown: ['"啊啊啊啊！！！"', '发了一通脾气之后瘫坐在地上', '"……为什么所有人都跟我作对。"'],
+    },
+    dark: {
+        fight:    ['"呵，终于等到你犯错了。"', '嘴角微微上扬，一切尽在掌握', '"你以为你赢了？游戏才刚开始。"'],
+        party:    ['"参加聚会是搜集情报的好机会。"', '微笑着跟每个人寒暄，暗中记住所有信息', '"表面热闹，实则暗流涌动。"'],
+        romance:  ['"有趣……{target}完全没发现我的小心思。"', '布下精心设计的偶遇', '"慢慢来，猎物总会上钩的。"'],
+        gossip:   ['"你知道吗，我「不小心」发现了一件事。"', '轻描淡写地投下一颗信息炸弹', '"真相嘛，总会在合适的时候浮出水面。"'],
+        rivalry:  ['"让他先得意一阵，最后笑的人是我。"', '暗中收集对手的弱点', '"棋局才走了一半，急什么。"'],
+        alliance: ['"合作愉快——但请记住，我有我的底线。"', '计算好利弊后才伸出橄榄枝', '"暂时的盟友，永远的利益。"'],
+        revenge_plot:   ['"一步一步来，不急。"', '在暗中编织着精密的复仇之网', '"到时候，{target}连怎么输的都不知道。"'],
+        love_triangle:  ['"三个人的游戏才有趣嘛。"', '在两个人之间游刃有余', '"让他们互相猜疑，我坐收渔翁之利。"'],
+        betrayal:       ['"不要怪我，是你太天真了。"', '面不改色地完成了背叛', '"在这个世界上，只有利益是永恒的。"'],
+        reconciliation: ['"和解？可以，但这笔账我记着。"', '表面握手言和，心里另有打算', '"留你一命是因为你还有利用价值。"'],
+        npc_runaway:    ['悄无声息地消失了，没有人知道去了哪里', '"这个舞台太小了，我需要更大的棋盘。"', '留下一个神秘的微笑就不见了'],
+        mood_breakdown: ['"……连我也有撑不住的时候吗。"', '第一次从完美的面具后面露出脆弱', '"呵……原来我也不过是个普通人。"'],
+    },
+    tsun: {
+        fight:    ['"才、才不是因为在意你才生气的！"', '明明很生气却说是"无所谓"', '"你以为我会被你气到？……好吧确实气到了！"'],
+        party:    ['"我才不是特意来参加的，只是路过而已。"', '嘴上说着不屑但明明很开心', '"哼，勉强陪你们玩玩吧。"'],
+        romance:  ['"我才没有喜欢{target}！是{target}一直缠着我！"', '送了{target}礼物然后立刻跑走', '"别误会！这个东西放着也是浪费！"'],
+        gossip:   ['"我才不关心{target}的事！……不过既然说到了，具体是怎样的？"', '装作不在意但竖起了耳朵', '"听听而已，不代表我八卦！"'],
+        rivalry:  ['"不是我想跟你比，是你太弱了让我看不下去！"', '嘴硬地接受了挑战', '"我赢了也不会高兴的……才怪。"'],
+        alliance: ['"别、别误会！我只是觉得一个人太无聊了！"', '红着脸提出结盟', '"我不是需要你，只是……效率更高而已。"'],
+        revenge_plot:   ['"哼，才不是因为受伤才想报复呢……"', '嘴上说不在意但已经计划了三套方案', '"让{target}知道忽视我的下场！"'],
+        love_triangle:  ['"我才不在乎{target}跟谁在一起！……真的不在乎。"', '偷偷关注着{target}的一举一动', '"好烦……为什么心里这么难受。"'],
+        betrayal:       ['"是你先让我失望的！"', '咬着嘴唇做出了背叛的决定', '"……我也不想这样的，笨蛋。"'],
+        reconciliation: ['"才不是因为想你才来和好的。"', '递出和解的手但头扭向一边', '"哼……你以后要是再惹我生气，我就再也不理你了。"'],
+        npc_runaway:    ['"我走了！别想我！……才不会想你们呢！"', '头也不回但偷偷擦了眼泪', '"反正也没人在乎我走不走……"'],
+        mood_breakdown: ['"我没事！别看我！"', '明明在哭却硬说是眼睛进了沙子', '"为什么……为什么没有人懂我。"'],
+    },
+    chill: {
+        fight:    ['"啊……好累啊，能不能别吵了。"', '打着哈欠看着{target}发火', '"算了算了，大家都消消气。"'],
+        party:    ['"有吃的就行~"', '慢悠悠地享受着聚会氛围', '"这种日子最舒服了。"'],
+        romance:  ['"嗯……{target}挺好的，在一起很舒服。"', '自然而然地靠在{target}身边', '"顺其自然就好啦~"'],
+        gossip:   ['"哦~是吗~然后呢~"', '听八卦听得津津有味', '"好精彩啊哈哈哈。"'],
+        rivalry:  ['"比就比吧，输了也无所谓~"', '轻松地应战', '"享受过程最重要嘛。"'],
+        alliance: ['"好啊好啊，一起玩~"', '毫不犹豫就答应了', '"有人一起多开心啊。"'],
+        revenge_plot:   ['"嗯……虽然有点生气但好麻烦啊……"', '想了五分钟就放弃了复仇计划', '"算了，还是睡觉比较重要。"'],
+        love_triangle:  ['"啊……好复杂，我选择放弃思考。"', '随遇而安地面对感情纠葛', '"命运会安排好的吧~"'],
+        betrayal:       ['"哎？为什么会变成这样呢。"', '一脸迷茫地被卷入了背叛', '"……好吧。"'],
+        reconciliation: ['"不吵架不就好了嘛~"', '笑嘻嘻地拉着双方和好', '"开心最重要啦~"'],
+        npc_runaway:    ['"嗯……我去别处待待。"', '慢悠悠地走了', '"换个地方也不错~"'],
+        mood_breakdown: ['"……今天不太想动了。"', '一直躺着发呆', '"好像有点累了。"'],
+    },
+    pure: {
+        fight:    ['"呜……为什么要吵架啊……"', '眼眶含泪看着{target}', '"我们不能做朋友吗？"'],
+        party:    ['"耶！派对！好开心好开心！"', '蹦蹦跳跳地到处跑', '"大家一起玩太棒了！"'],
+        romance:  ['"嘿嘿……{target}好好看……"', '傻笑着盯着{target}看', '"为什么看到{target}心里会扑通扑通的呢？"'],
+        gossip:   ['"诶诶诶？真的假的？！"', '瞪大眼睛一脸震惊', '"好厉害的秘密！——啊我是不是不应该知道。"'],
+        rivalry:  ['"我也想试试！"', '毫无竞争意识地参加了比赛', '"就算输了也好好玩！"'],
+        alliance: ['"好朋友就是要在一起！"', '开心地拉着{target}的手', '"我们是最好的搭档！"'],
+        revenge_plot:   ['"呜……{target}好过分……"', '生气了但不知道怎么报复', '"我要……我要……不理你了！哼！"'],
+        love_triangle:  ['"好奇怪的感觉……头好晕……"', '完全搞不懂发生了什么', '"为什么大家都在生气呢？"'],
+        betrayal:       ['"怎么会……我以为我们是朋友……"', '不理解为什么会被背叛', '"……好难过。"'],
+        reconciliation: ['"太好了太好了！大家又是好朋友了！"', '开心得原地转圈', '"我就知道一切都会好起来的！"'],
+        npc_runaway:    ['"我……我一个人试试看。"', '小心翼翼地走出家门', '"虽然有点害怕但我要勇敢！"'],
+        mood_breakdown: ['"呜呜呜呜呜……"', '大哭起来，怎么哄都哄不好', '"为什么所有人都不喜欢我了……"'],
+    },
+    strict: {
+        fight:    ['"你的行为严重违反了规则。"', '一脸正色地批评{target}', '"这件事必须追究到底。"'],
+        party:    ['"聚会可以，但23点之前必须结束。"', '默默检查活动流程', '"……还行吧，算是达标了。"'],
+        romance:  ['默默记录了{target}的日程表', '"纯粹是工作需要才关注{target}的。"', '给{target}整理了一份生活作息优化方案'],
+        gossip:   ['"根据我掌握的信息，{target}确实有问题。"', '拿出一叠证据', '"一切以事实为依据。"'],
+        rivalry:  ['"竞争促进进步，我接受挑战。"', '制定了详细的竞争策略', '"我会用实力说话。"'],
+        alliance: ['"合作协议需要明确各方责任。"', '起草了一份正式的合作文件', '"规矩定好，效率才高。"'],
+        revenge_plot:   ['"这个人的所作所为已经超出了底线。"', '冷静地收集对方的错误记录', '"到时候让事实来审判。"'],
+        love_triangle:  ['"感情的事不应该影响大局。"', '试图用理性处理但内心很挣扎', '"……为什么我无法保持冷静。"'],
+        betrayal:       ['"我做出了最符合原则的判断。"', '公事公办地完成了背叛', '"对不起，规则比感情重要。"'],
+        reconciliation: ['"既然双方都有反省，那就既往不咎。"', '严肃地宣布和解', '"以后不要再犯同样的错误。"'],
+        npc_runaway:    ['"我已经尽到了自己的责任，问心无愧。"', '整齐地收拾好所有物品后离开', '"这个环境已经不适合我了。"'],
+        mood_breakdown: ['"……我是不是一直以来都太苛刻了。"', '第一次对自己的标准产生怀疑', '"原来完美主义也会伤害别人……"'],
+    },
+};
+
+// ── 事件标题模板 ──────────────────────────────────────────────
+
+const HEADLINE_TEMPLATES: Partial<Record<EventKey, string[]>> = {
+    fight:              ['【突发】{0}与{1}爆发激烈冲突！', '【震动】{0}和{1}大吵了一架！', '【现场】{0}与{1}之间火药味十足！'],
+    party:              ['【热闹】{0}等人举办了一场聚会！', '【欢乐】大家一起开心聚会！', '【喜讯】{0}和{1}组织了联谊活动！'],
+    romance:            ['【独家】{0}和{1}被目击暧昧同行！', '【甜蜜】{0}和{1}之间似乎有了暧昧的气氛？', '【爆料】{0}和{1}的关系似乎不一般……'],
+    gossip:             ['【爆料】有关{0}的劲爆传闻正在疯传…', '【八卦】关于{0}的秘密被曝光了！', '【流言】{0}的事情闹得人尽皆知……'],
+    rivalry:            ['【对决】{0}与{1}正式开始竞争！', '【火花】{0}和{1}之间的较量拉开帷幕！', '【挑战】{0}向{1}发起了挑战！'],
+    alliance:           ['【结盟】{0}和{1}达成了秘密同盟！', '【联手】{0}与{1}携手合作！', '【盟约】{0}和{1}结成了同盟！'],
+    revenge_plot:       ['【暗流】{0}似乎在酝酿什么可怕的计划…', '【警告】{0}的复仇正在悄然逼近…', '【阴谋】{0}暗中谋划着报复{1}……'],
+    love_triangle:      ['【修罗场】{0}、{1}的三角关系曝光！', '【纠葛】一场三角恋在悄然上演……', '【复杂】{0}和{1}之间的感情变得扑朔迷离！'],
+    jealousy_spiral:    ['【嫉火】{0}陷入了嫉妒的漩涡！', '【暗涌】{0}的嫉妒之心正在膨胀…', '【危险】{0}因嫉妒而失去了理智……'],
+    family_feud:        ['【世仇】两栋公寓的矛盾彻底激化！', '【裂痕】公寓之间的关系降至冰点！', '【决裂】公寓矛盾全面爆发！'],
+    betrayal:           ['【震惊】{0}竟然背叛了{1}！', '【叛变】{0}做出了令人意想不到的选择！', '【反转】{0}的背叛让所有人震惊！'],
+    romantic_confession:['【告白】{0}终于向{1}表白了！', '【心动】{0}鼓起勇气说出了心里话！', '【真心】{0}对{1}表达了深藏已久的感情！'],
+    gossip_wildfire:    ['【疯传】一则八卦在所有人之间炸开！', '【失控】谣言像野火一样蔓延！', '【舆论】每个人都在议论纷纷……'],
+    npc_runaway:        ['【出走】{0}深夜搬走，不知去向…', '【失踪】{0}突然消失了！', '【独立】{0}宣布搬出公寓！'],
+    mood_breakdown:     ['【崩溃】{0}的情绪彻底失控了…', '【危机】{0}陷入了严重的情绪低谷', '【心碎】{0}再也撑不住了……'],
+    secret_alliance:    ['【暗盟】{0}和{1}在暗中结成同盟！', '【密约】一场秘密的合作正在进行……'],
+    power_shift:        ['【变天】公寓内部的话语权发生了巨变！', '【洗牌】一切都被重新洗牌了……'],
+    reconciliation:     ['【暖心】{0}和{1}终于冰释前嫌', '【和解】{0}与{1}重归于好！', '【感动】经历风雨后，{0}和{1}和好如初'],
+    fight_break:        ['【爆发】积压已久的矛盾终于爆发了！', '【冲突】{0}再也忍不了了！'],
+};
+
+// ── 导出函数 ──────────────────────────────────────────────────
+
+/**
+ * 根据NPC性格和事件类型，返回一句模板化的角色旁白
+ */
+export function getNarrativeQuote(
+    personality: string[],
+    eventType: EventKey,
+    npcName: string,
+    targetName?: string
+): string {
+    const group = getPersonalityGroup(personality);
+    const groupTemplates = TEMPLATES[group] ?? TEMPLATES.chill;
+    const eventTemplates = groupTemplates?.[eventType] ?? groupTemplates?.['fight'] ?? ['……'];
+    const template = eventTemplates[Math.floor(Math.random() * eventTemplates.length)];
+    return template
+        .replace(/\{name\}/g, npcName)
+        .replace(/\{target\}/g, targetName || '某人');
+}
+
+/**
+ * 生成戏剧性的新闻标题
+ */
+export function generateEventHeadline(
+    eventType: EventKey,
+    involvedNames: string[]
+): string {
+    const templates = HEADLINE_TEMPLATES[eventType] ?? ['发生了一些事情……'];
+    const template = templates[Math.floor(Math.random() * templates.length)];
+    return template
+        .replace(/\{0\}/g, involvedNames[0] || '某人')
+        .replace(/\{1\}/g, involvedNames[1] || '某人')
+        .replace(/\{2\}/g, involvedNames[2] || '某人');
+}

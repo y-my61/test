@@ -1,1 +1,416 @@
-LyoqCiAqIExpZmVTaW0gT2ZmbGluZSBTaW11bGF0aW9uIEVuZ2luZSDigJQg56a757q/5qih5ouf5byV5pOOCiAqCiAqIFdoZW4gdXNlcnMgY2xvc2UgdGhlIGFwcCBhbmQgY29tZSBiYWNrIGxhdGVyLCB0aGlzIGVuZ2luZSBzaW11bGF0ZXMgd2hhdAogKiBoYXBwZW5lZCB3aGlsZSB0aGV5IHdlcmUgYXdheSB1c2luZyBOUEMgYXV0b25vbW91cyBiZWhhdmlvciAobm8gTExNIGNhbGxzKS4KICoKICogUGVyZm9ybWFuY2UgdGFyZ2V0OiA0OCBzbG90cyBpbiA8IDEwMG1zIChwdXJlIG1hdGgsIG5vIGFzeW5jKS4KICovCgppbXBvcnQgewogICAgTGlmZVNpbVN0YXRlLCBTaW1BY3Rpb24sIE9mZmxpbmVSZWNhcEV2ZW50LCBTaW1FdmVudFR5cGUsIFNpbUVmZmVjdENvZGUsCiAgICBTaW1QZW5kaW5nRWZmZWN0Cn0gZnJvbSAnLi4vdHlwZXMnOwoKaW1wb3J0IHsKICAgIGFkdmFuY2VUaW1lT2ZEYXksIHNldHRsZVBlbmRpbmdFZmZlY3RzLCBhZHZhbmNlVHVybiwgZGVlcENsb25lLAogICAgZ2V0TlBDLCBnZXRDaGFvc0xhYmVsLCBnZXRNb29kTGFiZWwsIFNFQVNPTl9JTkZPLCBUSU1FX0lORk8KfSBmcm9tICcuL2xpZmVTaW1FbmdpbmUnOwoKaW1wb3J0IHsgcnVuQXV0b25vbW91c1R1cm4gfSBmcm9tICcuL2xpZmVTaW1BdXRvbm9tb3VzJzsKaW1wb3J0IHsgZXZhbHVhdGVFdmVudENoYWlucyB9IGZyb20gJy4vbGlmZVNpbUV2ZW50Q2hhaW5zJzsKCi8vIOKUgOKUgCBOYXJyYXRpdmUgdGVtcGxhdGUgaW1wb3J0cyAod2l0aCBpbmxpbmUgZmFsbGJhY2tzKSDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIAKCmxldCBnZW5lcmF0ZUV2ZW50SGVhZGxpbmU6IChldmVudFR5cGU6IFNpbUV2ZW50VHlwZSB8IFNpbUVmZmVjdENvZGUsIGludm9sdmVkTmFtZXM6IHN0cmluZ1tdKSA9PiBzdHJpbmc7CmxldCBnZXROYXJyYXRpdmVRdW90ZTogKG5wY05hbWU6IHN0cmluZywgbnBjRW1vamk6IHN0cmluZywgZXZlbnRUeXBlOiBTaW1FdmVudFR5cGUgfCBTaW1FZmZlY3RDb2RlKSA9PiBzdHJpbmc7Cgp0cnkgewogICAgY29uc3QgdGVtcGxhdGVzID0gcmVxdWlyZSgnLi9saWZlU2ltTmFycmF0aXZlVGVtcGxhdGVzJyk7CiAgICBnZW5lcmF0ZUV2ZW50SGVhZGxpbmUgPSB0ZW1wbGF0ZXMuZ2VuZXJhdGVFdmVudEhlYWRsaW5lOwogICAgZ2V0TmFycmF0aXZlUXVvdGUgPSB0ZW1wbGF0ZXMuZ2V0TmFycmF0aXZlUXVvdGU7Cn0gY2F0Y2ggewogICAgLy8gRmFsbGJhY2sgaWYgbmFycmF0aXZlIHRlbXBsYXRlcyBtb2R1bGUgZG9lc24ndCBleGlzdCB5ZXQKICAgIGdlbmVyYXRlRXZlbnRIZWFkbGluZSA9IChldmVudFR5cGU6IFNpbUV2ZW50VHlwZSB8IFNpbUVmZmVjdENvZGUsIGludm9sdmVkTmFtZXM6IHN0cmluZ1tdKSA9PiB7CiAgICAgICAgY29uc3QgdHlwZUxhYmVsczogUmVjb3JkPHN0cmluZywgc3RyaW5nPiA9IHsKICAgICAgICAgICAgZmlnaHQ6ICflpKfmiZPlh7rmiYvvvIEnLAogICAgICAgICAgICBwYXJ0eTogJ+asouiBmuS4gOWggu+8gScsCiAgICAgICAgICAgIGdvc3NpcDogJ+WFq+WNpuS8oOW8gOS6huKApuKApicsCiAgICAgICAgICAgIHJvbWFuY2U6ICfmmqfmmKfnmoTmsJTmga/igKbigKYnLAogICAgICAgICAgICByaXZhbHJ5OiAn6ZKI6ZSL55u45a+577yBJywKICAgICAgICAgICAgYWxsaWFuY2U6ICfnu5PmiJDlkIznm5/vvIEnLAogICAgICAgICAgICBmaWdodF9icmVhazogJ+efm+ebvueIhuWPke+8gScsCiAgICAgICAgICAgIG1vb2RfZHJvcDogJ+aDhee7quS9juiQvScsCiAgICAgICAgICAgIHJlbGF0aW9uc2hpcF9jaGFuZ2U6ICflhbPns7vlj5jliqgnLAogICAgICAgICAgICByZXZlbmdlX3Bsb3Q6ICflpI3ku4fmmpfmtozigKbigKYnLAogICAgICAgICAgICBsb3ZlX3RyaWFuZ2xlOiAn5LiJ6KeS5oGL57qg6JGb77yBJywKICAgICAgICAgICAgamVhbG91c3lfc3BpcmFsOiAn5auJ5aaS6JST5bu24oCm4oCmJywKICAgICAgICAgICAgZmFtaWx5X2ZldWQ6ICflrrbml4/mganmgKjvvIEnLAogICAgICAgICAgICBiZXRyYXlhbDogJ+iDjOWPm++8gScsCiAgICAgICAgICAgIHJvbWFudGljX2NvbmZlc3Npb246ICfmtarmvKvlkYrnmb3vvIEnLAogICAgICAgICAgICBnb3NzaXBfd2lsZGZpcmU6ICfmtYHoqIDonJror63lpoLph47ngavvvIEnLAogICAgICAgICAgICBucGNfcnVuYXdheTogJ+acieS6uuemu+WutuWHuui1sOS6hu+8gScsCiAgICAgICAgICAgIG1vb2RfYnJlYWtkb3duOiAn5oOF57uq5bSp5rqD77yBJywKICAgICAgICAgICAgc2VjcmV0X2FsbGlhbmNlOiAn5pqX5Lit57uT55uf4oCm4oCmJywKICAgICAgICAgICAgcG93ZXJfc2hpZnQ6ICfmnYPlipvmm7Tov63vvIEnLAogICAgICAgICAgICByZWNvbmNpbGlhdGlvbjogJ+WGsOmHiuWJjeWrjCcsCiAgICAgICAgfTsKICAgICAgICBjb25zdCBsYWJlbCA9IHR5cGVMYWJlbHNbZXZlbnRUeXBlXSA/PyAn5Y+R55Sf5LqG5LiA5Lqb5LqLLi4uJzsKICAgICAgICBjb25zdCBuYW1lcyA9IGludm9sdmVkTmFtZXMubGVuZ3RoID4gMCA/IGludm9sdmVkTmFtZXMuam9pbign44CBJykgOiAn5bGF5rCR5LusJzsKICAgICAgICByZXR1cm4gYCR7bmFtZXN977yaJHtsYWJlbH1gOwogICAgfTsKCiAgICBnZXROYXJyYXRpdmVRdW90ZSA9IChucGNOYW1lOiBzdHJpbmcsIF9ucGNFbW9qaTogc3RyaW5nLCBldmVudFR5cGU6IFNpbUV2ZW50VHlwZSB8IFNpbUVmZmVjdENvZGUpID0+IHsKICAgICAgICBjb25zdCBxdW90ZXM6IFJlY29yZDxzdHJpbmcsIHN0cmluZz4gPSB7CiAgICAgICAgICAgIGZpZ2h0OiAn5ZO877yM5Yir5Lul5Li66L+Z5qC35bCx5a6M5LqG77yBJywKICAgICAgICAgICAgcGFydHk6ICfku4rlpKnnjqnlvpfnnJ/lvIDlv4N+JywKICAgICAgICAgICAgZ29zc2lwOiAn5L2g5ZCs6K+05LqG5ZCX4oCm4oCmJywKICAgICAgICAgICAgcm9tYW5jZTogJ+W/g+i3s+WlveW/q+KApuKApicsCiAgICAgICAgICAgIHJpdmFscnk6ICfmiJHkuI3kvJrovpPnu5nkvaDnmoTvvIEnLAogICAgICAgICAgICBhbGxpYW5jZTogJ+S7peWQjuaIkeS7rOWwseaYr+S4gOS8meeahOS6huOAgicsCiAgICAgICAgICAgIHJldmVuZ2VfcGxvdDogJ+S9oOetieedgOKApuKApicsCiAgICAgICAgICAgIGxvdmVfdHJpYW5nbGU6ICfkuLrku4DkuYjkuovmg4XkvJrlj5jmiJDov5nmoLfigKbigKYnLAogICAgICAgICAgICByZWNvbmNpbGlhdGlvbjogJ+eul+S6hu+8jOaPoeaJi+iogOWSjOWQp+OAgicsCiAgICAgICAgICAgIG5wY19ydW5hd2F5OiAn5oiR5Y+X5aSf5LqG77yM5oiR6KaB6LWw77yBJywKICAgICAgICB9OwogICAgICAgIHJldHVybiBxdW90ZXNbZXZlbnRUeXBlXSA/PyAn4oCm4oCmJzsKICAgIH07Cn0KCi8vIOKUgOKUgCBTZWVkZWQgUFJORyBmb3IgZGV0ZXJtaW5pc3RpYy1pc2ggc2ltdWxhdGlvbiDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIAKCmZ1bmN0aW9uIGNyZWF0ZVNlZWRlZFJuZyhzZWVkOiBudW1iZXIpOiAoKSA9PiBudW1iZXIgewogICAgbGV0IHN0YXRlID0gc2VlZDsKICAgIHJldHVybiAoKSA9PiB7CiAgICAgICAgc3RhdGUgPSAoc3RhdGUgKiAxNjY0NTI1ICsgMTAxMzkwNDIyMykgJiAweDdmZmZmZmZmOwogICAgICAgIHJldHVybiBzdGF0ZSAvIDB4N2ZmZmZmZmY7CiAgICB9Owp9CgpmdW5jdGlvbiBoYXNoU2VlZChzdGF0ZUlkOiBzdHJpbmcsIHR1cm5OdW1iZXI6IG51bWJlcik6IG51bWJlciB7CiAgICBsZXQgaGFzaCA9IDA7CiAgICBjb25zdCBzdHIgPSBgJHtzdGF0ZUlkfS0ke3R1cm5OdW1iZXJ9YDsKICAgIGZvciAobGV0IGkgPSAwOyBpIDwgc3RyLmxlbmd0aDsgaSsrKSB7CiAgICAgICAgaGFzaCA9ICgoaGFzaCA8PCA1KSAtIGhhc2ggKyBzdHIuY2hhckNvZGVBdChpKSkgfCAwOwogICAgfQogICAgcmV0dXJuIE1hdGguYWJzKGhhc2gpOwp9CgovLyDilIDilIAgQ2hhb3MgdGhyZXNob2xkIHRyYWNrZXIg4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSACgpjb25zdCBDSEFPU19USFJFU0hPTERTID0gWzIwLCA0MCwgNjAsIDgwXTsKCmZ1bmN0aW9uIGdldENoYW9zVGhyZXNob2xkQmFuZChjaGFvczogbnVtYmVyKTogbnVtYmVyIHsKICAgIGZvciAobGV0IGkgPSBDSEFPU19USFJFU0hPTERTLmxlbmd0aCAtIDE7IGkgPj0gMDsgaS0tKSB7CiAgICAgICAgaWYgKGNoYW9zID49IENIQU9TX1RIUkVTSE9MRFNbaV0pIHJldHVybiBDSEFPU19USFJFU0hPTERTW2ldOwogICAgfQogICAgcmV0dXJuIDA7Cn0KCi8vIOKUgOKUgCBIZWxwZXI6IGNvbnZlcnQgYWN0aW9uIHRvIHJlY2FwIGV2ZW50IOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgAoKZnVuY3Rpb24gYWN0aW9uVG9SZWNhcCgKICAgIHN0YXRlOiBMaWZlU2ltU3RhdGUsCiAgICBhY3Rpb246IFNpbUFjdGlvbiwKICAgIHByZXZDaGFvczogbnVtYmVyCik6IE9mZmxpbmVSZWNhcEV2ZW50IHwgbnVsbCB7CiAgICAvLyBPbmx5IGluY2x1ZGUgVFJJR0dFUl9FVkVOVCBhbmQgR09fU09MTyBhY3Rpb25zCiAgICBpZiAoYWN0aW9uLnR5cGUgIT09ICdUUklHR0VSX0VWRU5UJyAmJiBhY3Rpb24udHlwZSAhPT0gJ0dPX1NPTE8nKSByZXR1cm4gbnVsbDsKCiAgICAvLyBEZXRlcm1pbmUgZXZlbnQgdHlwZSBmcm9tIGFjdGlvbiBkZXNjcmlwdGlvbiBoZXVyaXN0aWNzCiAgICBsZXQgZXZlbnRUeXBlOiBTaW1FdmVudFR5cGUgfCBTaW1FZmZlY3RDb2RlID0gJ2ZpZ2h0JzsKICAgIGNvbnN0IGRlc2MgPSBhY3Rpb24uZGVzY3JpcHRpb247CiAgICBpZiAoZGVzYy5pbmNsdWRlcygn5oql5aSNJykgfHwgZGVzYy5pbmNsdWRlcygn5LuHJykpIGV2ZW50VHlwZSA9ICdmaWdodCc7CiAgICBlbHNlIGlmIChkZXNjLmluY2x1ZGVzKCfmmqfmmKcnKSB8fCBkZXNjLmluY2x1ZGVzKCfmtarmvKsnKSB8fCBkZXNjLmluY2x1ZGVzKCflkYrnmb0nKSkgZXZlbnRUeXBlID0gJ3JvbWFuY2UnOwogICAgZWxzZSBpZiAoZGVzYy5pbmNsdWRlcygn5rWB6KiAJykgfHwgZGVzYy5pbmNsdWRlcygn5YWr5Y2mJykgfHwgZGVzYy5pbmNsdWRlcygn5pWj5biDJykpIGV2ZW50VHlwZSA9ICdnb3NzaXAnOwogICAgZWxzZSBpZiAoZGVzYy5pbmNsdWRlcygn6IGa5LyaJykgfHwgZGVzYy5pbmNsdWRlcygn6IGaJykgfHwgZGVzYy5pbmNsdWRlcygn5raI6YGjJykpIGV2ZW50VHlwZSA9ICdwYXJ0eSc7CiAgICBlbHNlIGlmIChkZXNjLmluY2x1ZGVzKCflrqPmiJgnKSB8fCBkZXNjLmluY2x1ZGVzKCfnq57kuoknKSkgZXZlbnRUeXBlID0gJ3JpdmFscnknOwogICAgZWxzZSBpZiAoZGVzYy5pbmNsdWRlcygn57uT55ufJykgfHwgZGVzYy5pbmNsdWRlcygn5ZCM55ufJykpIGV2ZW50VHlwZSA9ICdhbGxpYW5jZSc7CiAgICBlbHNlIGlmIChkZXNjLmluY2x1ZGVzKCfnprvlrrblh7rotbAnKSB8fCBkZXNjLmluY2x1ZGVzKCfnprvlvIAnKSkgZXZlbnRUeXBlID0gJ25wY19ydW5hd2F5JzsKCiAgICAvLyBGaW5kIGludm9sdmVkIE5QQ3MgZnJvbSB0aGUgYWN0aW9uCiAgICBjb25zdCBpbnZvbHZlZE5wY3M6IHsgbmFtZTogc3RyaW5nOyBlbW9qaTogc3RyaW5nIH1bXSA9IFtdOwogICAgZm9yIChjb25zdCBucGMgb2Ygc3RhdGUubnBjcykgewogICAgICAgIGlmIChkZXNjLmluY2x1ZGVzKG5wYy5uYW1lKSB8fCBhY3Rpb24uYWN0b3IgPT09IG5wYy5uYW1lKSB7CiAgICAgICAgICAgIGludm9sdmVkTnBjcy5wdXNoKHsgbmFtZTogbnBjLm5hbWUsIGVtb2ppOiBucGMuZW1vamkgfSk7CiAgICAgICAgfQogICAgfQoKICAgIC8vIFByaW1hcnkgTlBDIGlzIHRoZSBhY3RvcgogICAgY29uc3QgcHJpbWFyeU5wYyA9IHN0YXRlLm5wY3MuZmluZChuID0+IG4ubmFtZSA9PT0gYWN0aW9uLmFjdG9yKTsKICAgIGNvbnN0IGhlYWRsaW5lID0gZ2VuZXJhdGVFdmVudEhlYWRsaW5lKAogICAgICAgIGV2ZW50VHlwZSwKICAgICAgICBpbnZvbHZlZE5wY3MubWFwKG4gPT4gYCR7bi5lbW9qaX0ke24ubmFtZX1gKQogICAgKTsKICAgIGNvbnN0IG5hcnJhdGl2ZVF1b3RlID0gcHJpbWFyeU5wYwogICAgICAgID8gZ2V0TmFycmF0aXZlUXVvdGUocHJpbWFyeU5wYy5uYW1lLCBwcmltYXJ5TnBjLmVtb2ppLCBldmVudFR5cGUpCiAgICAgICAgOiB1bmRlZmluZWQ7CgogICAgY29uc3QgY2hhb3NDaGFuZ2UgPSBzdGF0ZS5jaGFvc0xldmVsIC0gcHJldkNoYW9zOwoKICAgIHJldHVybiB7CiAgICAgICAgZGF5OiBzdGF0ZS5kYXkgPz8gMSwKICAgICAgICBzZWFzb246IHN0YXRlLnNlYXNvbiA/PyAnc3ByaW5nJywKICAgICAgICB0aW1lT2ZEYXk6IHN0YXRlLnRpbWVPZkRheSA/PyAnbW9ybmluZycsCiAgICAgICAgaGVhZGxpbmUsCiAgICAgICAgZGVzY3JpcHRpb246IGFjdGlvbi5kZXNjcmlwdGlvbiArIChhY3Rpb24uaW1tZWRpYXRlUmVzdWx0ID8gYCAke2FjdGlvbi5pbW1lZGlhdGVSZXN1bHR9YCA6ICcnKSwKICAgICAgICBpbnZvbHZlZE5wY3MsCiAgICAgICAgZXZlbnRUeXBlLAogICAgICAgIGNoYW9zQ2hhbmdlOiBjaGFvc0NoYW5nZSAhPT0gMCA/IGNoYW9zQ2hhbmdlIDogdW5kZWZpbmVkLAogICAgICAgIG5hcnJhdGl2ZVF1b3RlLAogICAgfTsKfQoKLy8g4pSA4pSAIEhlbHBlcjogY29udmVydCBzZXR0bGVkIGVmZmVjdCB0byByZWNhcCBldmVudCDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIAKCmZ1bmN0aW9uIGVmZmVjdFRvUmVjYXAoCiAgICBzdGF0ZTogTGlmZVNpbVN0YXRlLAogICAgZWZmZWN0OiBTaW1QZW5kaW5nRWZmZWN0LAogICAgcHJldkNoYW9zOiBudW1iZXIKKTogT2ZmbGluZVJlY2FwRXZlbnQgfCBudWxsIHsKICAgIGNvbnN0IGludm9sdmVkTnBjczogeyBuYW1lOiBzdHJpbmc7IGVtb2ppOiBzdHJpbmcgfVtdID0gW107CiAgICBjb25zdCBpbnZvbHZlZElkcyA9IGVmZmVjdC5pbnZvbHZlZE5wY0lkcyA/PyBbXTsKICAgIGlmIChlZmZlY3QubnBjSWQgJiYgIWludm9sdmVkSWRzLmluY2x1ZGVzKGVmZmVjdC5ucGNJZCkpIHsKICAgICAgICBpbnZvbHZlZElkcy51bnNoaWZ0KGVmZmVjdC5ucGNJZCk7CiAgICB9CgogICAgZm9yIChjb25zdCBpZCBvZiBpbnZvbHZlZElkcykgewogICAgICAgIGNvbnN0IG5wYyA9IGdldE5QQyhzdGF0ZSwgaWQpOwogICAgICAgIGlmIChucGMpIHsKICAgICAgICAgICAgaW52b2x2ZWROcGNzLnB1c2goeyBuYW1lOiBucGMubmFtZSwgZW1vamk6IG5wYy5lbW9qaSB9KTsKICAgICAgICB9CiAgICB9CgogICAgY29uc3QgcHJpbWFyeU5wYyA9IGludm9sdmVkSWRzLmxlbmd0aCA+IDAgPyBnZXROUEMoc3RhdGUsIGludm9sdmVkSWRzWzBdKSA6IHVuZGVmaW5lZDsKICAgIGNvbnN0IGhlYWRsaW5lID0gZ2VuZXJhdGVFdmVudEhlYWRsaW5lKAogICAgICAgIGVmZmVjdC5lZmZlY3RDb2RlLAogICAgICAgIGludm9sdmVkTnBjcy5tYXAobiA9PiBgJHtuLmVtb2ppfSR7bi5uYW1lfWApCiAgICApOwogICAgY29uc3QgbmFycmF0aXZlUXVvdGUgPSBwcmltYXJ5TnBjCiAgICAgICAgPyBnZXROYXJyYXRpdmVRdW90ZShwcmltYXJ5TnBjLm5hbWUsIHByaW1hcnlOcGMuZW1vamksIGVmZmVjdC5lZmZlY3RDb2RlKQogICAgICAgIDogdW5kZWZpbmVkOwoKICAgIGNvbnN0IGNoYW9zQ2hhbmdlID0gc3RhdGUuY2hhb3NMZXZlbCAtIHByZXZDaGFvczsKCiAgICByZXR1cm4gewogICAgICAgIGRheTogc3RhdGUuZGF5ID8/IDEsCiAgICAgICAgc2Vhc29uOiBzdGF0ZS5zZWFzb24gPz8gJ3NwcmluZycsCiAgICAgICAgdGltZU9mRGF5OiBzdGF0ZS50aW1lT2ZEYXkgPz8gJ21vcm5pbmcnLAogICAgICAgIGhlYWRsaW5lLAogICAgICAgIGRlc2NyaXB0aW9uOiBlZmZlY3QuZGVzY3JpcHRpb24sCiAgICAgICAgaW52b2x2ZWROcGNzLAogICAgICAgIGV2ZW50VHlwZTogZWZmZWN0LmVmZmVjdENvZGUsCiAgICAgICAgY2hhb3NDaGFuZ2U6IGNoYW9zQ2hhbmdlICE9PSAwID8gY2hhb3NDaGFuZ2UgOiB1bmRlZmluZWQsCiAgICAgICAgbmFycmF0aXZlUXVvdGUsCiAgICB9Owp9CgovLyDilIDilIAgSGVscGVyOiBmZXN0aXZhbCByZWNhcCBldmVudCDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIAKCmZ1bmN0aW9uIGZlc3RpdmFsVG9SZWNhcCgKICAgIHN0YXRlOiBMaWZlU2ltU3RhdGUsCiAgICBmZXN0aXZhbE5hbWU6IHN0cmluZywKICAgIGZlc3RpdmFsRW1vamk6IHN0cmluZywKICAgIGZlc3RpdmFsRGVzYzogc3RyaW5nCik6IE9mZmxpbmVSZWNhcEV2ZW50IHsKICAgIHJldHVybiB7CiAgICAgICAgZGF5OiBzdGF0ZS5kYXkgPz8gMSwKICAgICAgICBzZWFzb246IHN0YXRlLnNlYXNvbiA/PyAnc3ByaW5nJywKICAgICAgICB0aW1lT2ZEYXk6IHN0YXRlLnRpbWVPZkRheSA/PyAnbW9ybmluZycsCiAgICAgICAgaGVhZGxpbmU6IGAke2Zlc3RpdmFsRW1vaml9ICR7ZmVzdGl2YWxOYW1lfWAsCiAgICAgICAgZGVzY3JpcHRpb246IGZlc3RpdmFsRGVzYywKICAgICAgICBpbnZvbHZlZE5wY3M6IFtdLAogICAgICAgIGV2ZW50VHlwZTogJ3BhcnR5JywgLy8gZmVzdGl2YWxzIGFyZSBwYXJ0eS1saWtlCiAgICB9Owp9CgovLyDilIDilIAgSGVscGVyOiBzZWFzb24gY2hhbmdlIHJlY2FwIGV2ZW50IOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgAoKZnVuY3Rpb24gc2Vhc29uQ2hhbmdlVG9SZWNhcChzdGF0ZTogTGlmZVNpbVN0YXRlKTogT2ZmbGluZVJlY2FwRXZlbnQgewogICAgY29uc3Qgc2Vhc29uID0gc3RhdGUuc2Vhc29uID8/ICdzcHJpbmcnOwogICAgY29uc3Qgc2kgPSBTRUFTT05fSU5GT1tzZWFzb25dOwogICAgcmV0dXJuIHsKICAgICAgICBkYXk6IHN0YXRlLmRheSA/PyAxLAogICAgICAgIHNlYXNvbiwKICAgICAgICB0aW1lT2ZEYXk6IHN0YXRlLnRpbWVPZkRheSA/PyAnbW9ybmluZycsCiAgICAgICAgaGVhZGxpbmU6IGAke3NpLmVtb2ppfSDlraPoioLkuqTmm7/igJTigJQke3NpLnpofeWto+WIsOadpWAsCiAgICAgICAgZGVzY3JpcHRpb246IGDkuJbnlYzov47mnaXkuoYke3NpLnpofeWto++8jOS4h+eJqeeEleeEtuS4gOaWsOOAgmAsCiAgICAgICAgaW52b2x2ZWROcGNzOiBbXSwKICAgICAgICBldmVudFR5cGU6ICdwYXJ0eScsCiAgICB9Owp9CgovLyDilIDilIAgTWFpbiBleHBvcnQ6IHNpbXVsYXRlIG9mZmxpbmUgdHVybnMg4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSACgpleHBvcnQgZnVuY3Rpb24gc2ltdWxhdGVPZmZsaW5lVHVybnMoCiAgICBzdGF0ZTogTGlmZVNpbVN0YXRlLAogICAgZWxhcHNlZE1zOiBudW1iZXIKKTogeyBuZXdTdGF0ZTogTGlmZVNpbVN0YXRlOyByZWNhcDogT2ZmbGluZVJlY2FwRXZlbnRbXSB9IHsKICAgIGxldCBzID0gZGVlcENsb25lKHN0YXRlKTsKICAgIGNvbnN0IHJlY2FwOiBPZmZsaW5lUmVjYXBFdmVudFtdID0gW107CgogICAgLy8gMS4gQ2FsY3VsYXRlIG51bWJlciBvZiB0aW1lIHNsb3RzCiAgICBjb25zdCByYXdTbG90cyA9IE1hdGguZmxvb3IoZWxhcHNlZE1zIC8gKDMwICogNjAgKiAxMDAwKSk7IC8vIDEgc2xvdCBwZXIgMzAgbWluCiAgICBsZXQgc2xvdHMgPSBNYXRoLm1pbihyYXdTbG90cywgNDgpOyAvLyBjYXAgYXQgNDggKDI0aCkKICAgIGlmIChzbG90cyA9PT0gMCAmJiBlbGFwc2VkTXMgPiA1ICogNjAgKiAxMDAwKSB7CiAgICAgICAgc2xvdHMgPSAxOyAvLyBtaW5pbXVtIDEgc2xvdCBpZiA+IDUgbWludXRlcwogICAgfQogICAgaWYgKHNsb3RzID09PSAwKSB7CiAgICAgICAgcmV0dXJuIHsgbmV3U3RhdGU6IHMsIHJlY2FwIH07CiAgICB9CgogICAgLy8gU2VlZCB0aGUgUFJORyBmcm9tIHN0YXRlIGlkICsgdHVybiBudW1iZXIgZm9yIGRldGVybWluaXN0aWMtaXNoIHJlc3VsdHMKICAgIGNvbnN0IHJuZyA9IGNyZWF0ZVNlZWRlZFJuZyhoYXNoU2VlZChzLmlkLCBzLnR1cm5OdW1iZXIpKTsKCiAgICAvLyBPdmVycmlkZSBNYXRoLnJhbmRvbSB0ZW1wb3JhcmlseSBmb3IgZGV0ZXJtaW5pc3RpYyBzaW11bGF0aW9uCiAgICBjb25zdCBvcmlnaW5hbFJhbmRvbSA9IE1hdGgucmFuZG9tOwogICAgTWF0aC5yYW5kb20gPSBybmc7CgogICAgdHJ5IHsKICAgICAgICAvLyBUcmFjayBzdGFydGluZyBjaGFvcyBmb3IgdGhyZXNob2xkIGNyb3NzaW5nIGRldGVjdGlvbgogICAgICAgIGxldCBwcmV2Q2hhb3NCYW5kID0gZ2V0Q2hhb3NUaHJlc2hvbGRCYW5kKHMuY2hhb3NMZXZlbCk7CgogICAgICAgIGZvciAobGV0IHNsb3QgPSAwOyBzbG90IDwgc2xvdHM7IHNsb3QrKykgewogICAgICAgICAgICAvLyBCYWlsIGVhcmx5IGlmIG5vIE5QQ3MgcmVtYWluCiAgICAgICAgICAgIGlmIChzLm5wY3MubGVuZ3RoID09PSAwKSB7CiAgICAgICAgICAgICAgICBicmVhazsKICAgICAgICAgICAgfQoKICAgICAgICAgICAgLy8gQmFpbCBlYXJseSBpZiBnYW1lIGlzIG92ZXIKICAgICAgICAgICAgaWYgKHMuZ2FtZU92ZXIpIHsKICAgICAgICAgICAgICAgIGJyZWFrOwogICAgICAgICAgICB9CgogICAgICAgICAgICBjb25zdCBwcmV2Q2hhb3MgPSBzLmNoYW9zTGV2ZWw7CgogICAgICAgICAgICAvLyAoYSkgQWR2YW5jZSB0aW1lIG9mIGRheQogICAgICAgICAgICBjb25zdCB0aW1lUmVzdWx0ID0gYWR2YW5jZVRpbWVPZkRheShzKTsKICAgICAgICAgICAgcyA9IHRpbWVSZXN1bHQubmV3U3RhdGU7CgogICAgICAgICAgICAvLyBDaGVjayBmb3IgZmVzdGl2YWwKICAgICAgICAgICAgaWYgKHRpbWVSZXN1bHQuZmVzdGl2YWwpIHsKICAgICAgICAgICAgICAgIHJlY2FwLnB1c2goZmVzdGl2YWxUb1JlY2FwKAogICAgICAgICAgICAgICAgICAgIHMsCiAgICAgICAgICAgICAgICAgICAgdGltZVJlc3VsdC5mZXN0aXZhbC5uYW1lLAogICAgICAgICAgICAgICAgICAgIHRpbWVSZXN1bHQuZmVzdGl2YWwuZW1vamksCiAgICAgICAgICAgICAgICAgICAgdGltZVJlc3VsdC5mZXN0aXZhbC5kZXNjcmlwdGlvbgogICAgICAgICAgICAgICAgKSk7CiAgICAgICAgICAgIH0KCiAgICAgICAgICAgIC8vIENoZWNrIGZvciBzZWFzb24gY2hhbmdlCiAgICAgICAgICAgIGlmICh0aW1lUmVzdWx0Lm5ld1NlYXNvbikgewogICAgICAgICAgICAgICAgcmVjYXAucHVzaChzZWFzb25DaGFuZ2VUb1JlY2FwKHMpKTsKICAgICAgICAgICAgfQoKICAgICAgICAgICAgLy8gKGIpIFJ1biBhdXRvbm9tb3VzIE5QQyB0dXJuCiAgICAgICAgICAgIGNvbnN0IGF1dG9SZXN1bHQgPSBydW5BdXRvbm9tb3VzVHVybihzKTsKICAgICAgICAgICAgcyA9IGF1dG9SZXN1bHQubmV3U3RhdGU7CgogICAgICAgICAgICAvLyBDb2xsZWN0IHBlbmRpbmcgZWZmZWN0cyBiZWZvcmUgdGhpcyBzbG90J3MgZWZmZWN0cwogICAgICAgICAgICBjb25zdCBwZW5kaW5nQmVmb3JlID0gbmV3IFNldChzLnBlbmRpbmdFZmZlY3RzLm1hcChlID0+IGUuaWQpKTsKCiAgICAgICAgICAgIC8vIChjKSBGb3IgVFJJR0dFUl9FVkVOVCBhY3Rpb25zLCBldmFsdWF0ZSBldmVudCBjaGFpbnMKICAgICAgICAgICAgZm9yIChjb25zdCBhY3Rpb24gb2YgYXV0b1Jlc3VsdC5ldmVudHMpIHsKICAgICAgICAgICAgICAgIGlmIChhY3Rpb24udHlwZSA9PT0gJ1RSSUdHRVJfRVZFTlQnKSB7CiAgICAgICAgICAgICAgICAgICAgLy8gSW5mZXIgZXZlbnQgdHlwZSBmcm9tIGRlc2NyaXB0aW9uIGZvciBjaGFpbiBldmFsdWF0aW9uCiAgICAgICAgICAgICAgICAgICAgbGV0IGV2dFR5cGU6IFNpbUV2ZW50VHlwZSA9ICdmaWdodCc7CiAgICAgICAgICAgICAgICAgICAgY29uc3QgZCA9IGFjdGlvbi5kZXNjcmlwdGlvbjsKICAgICAgICAgICAgICAgICAgICBpZiAoZC5pbmNsdWRlcygn5pqn5pinJykgfHwgZC5pbmNsdWRlcygn5rWq5ryrJykpIGV2dFR5cGUgPSAncm9tYW5jZSc7CiAgICAgICAgICAgICAgICAgICAgZWxzZSBpZiAoZC5pbmNsdWRlcygn5YWr5Y2mJykgfHwgZC5pbmNsdWRlcygn5rWB6KiAJykpIGV2dFR5cGUgPSAnZ29zc2lwJzsKICAgICAgICAgICAgICAgICAgICBlbHNlIGlmIChkLmluY2x1ZGVzKCfogZrkvJonKSB8fCBkLmluY2x1ZGVzKCfmtojpgaMnKSkgZXZ0VHlwZSA9ICdwYXJ0eSc7CiAgICAgICAgICAgICAgICAgICAgZWxzZSBpZiAoZC5pbmNsdWRlcygn5a6j5oiYJykgfHwgZC5pbmNsdWRlcygn56ue5LqJJykpIGV2dFR5cGUgPSAncml2YWxyeSc7CiAgICAgICAgICAgICAgICAgICAgZWxzZSBpZiAoZC5pbmNsdWRlcygn57uT55ufJykpIGV2dFR5cGUgPSAnYWxsaWFuY2UnOwogICAgICAgICAgICAgICAgICAgIGVsc2UgaWYgKGQuaW5jbHVkZXMoJ+aKpeWkjScpIHx8IGQuaW5jbHVkZXMoJ+aJkycpIHx8IGQuaW5jbHVkZXMoJ+WQtScpKSBldnRUeXBlID0gJ2ZpZ2h0JzsKCiAgICAgICAgICAgICAgICAgICAgLy8gRmluZCBpbnZvbHZlZCBOUEMgSURzIGZyb20gdGhlIGRlc2NyaXB0aW9uCiAgICAgICAgICAgICAgICAgICAgY29uc3QgaW52b2x2ZWRJZHM6IHN0cmluZ1tdID0gW107CiAgICAgICAgICAgICAgICAgICAgZm9yIChjb25zdCBucGMgb2Ygcy5ucGNzKSB7CiAgICAgICAgICAgICAgICAgICAgICAgIGlmIChkLmluY2x1ZGVzKG5wYy5uYW1lKSkgewogICAgICAgICAgICAgICAgICAgICAgICAgICAgaW52b2x2ZWRJZHMucHVzaChucGMuaWQpOwogICAgICAgICAgICAgICAgICAgICAgICB9CiAgICAgICAgICAgICAgICAgICAgfQoKICAgICAgICAgICAgICAgICAgICBjb25zdCBjaGFpbkVmZmVjdHMgPSBldmFsdWF0ZUV2ZW50Q2hhaW5zKHMsIGV2dFR5cGUsIGludm9sdmVkSWRzKTsKICAgICAgICAgICAgICAgICAgICBmb3IgKGNvbnN0IGVmZiBvZiBjaGFpbkVmZmVjdHMpIHsKICAgICAgICAgICAgICAgICAgICAgICAgcy5wZW5kaW5nRWZmZWN0cy5wdXNoKGVmZik7CiAgICAgICAgICAgICAgICAgICAgfQogICAgICAgICAgICAgICAgfQoKICAgICAgICAgICAgICAgIC8vIENvbnZlcnQgc2lnbmlmaWNhbnQgYWN0aW9ucyB0byByZWNhcAogICAgICAgICAgICAgICAgY29uc3QgcmVjYXBFdmVudCA9IGFjdGlvblRvUmVjYXAocywgYWN0aW9uLCBwcmV2Q2hhb3MpOwogICAgICAgICAgICAgICAgaWYgKHJlY2FwRXZlbnQpIHsKICAgICAgICAgICAgICAgICAgICByZWNhcC5wdXNoKHJlY2FwRXZlbnQpOwogICAgICAgICAgICAgICAgfQogICAgICAgICAgICB9CgogICAgICAgICAgICAvLyAoZCkgU2V0dGxlIHBlbmRpbmcgZWZmZWN0cwogICAgICAgICAgICBjb25zdCBzZXR0bGVkRWZmZWN0c0JlZm9yZSA9IFsuLi5zLnBlbmRpbmdFZmZlY3RzXTsKICAgICAgICAgICAgY29uc3Qgc2V0dGxlUmVzdWx0ID0gc2V0dGxlUGVuZGluZ0VmZmVjdHMocyk7CiAgICAgICAgICAgIHMgPSBzZXR0bGVSZXN1bHQubmV3U3RhdGU7CgogICAgICAgICAgICAvLyBJZGVudGlmeSB3aGljaCBlZmZlY3RzIHdlcmUgcmVzb2x2ZWQgKG5vIGxvbmdlciBpbiBwZW5kaW5nIGxpc3QpCiAgICAgICAgICAgIGNvbnN0IHBlbmRpbmdBZnRlciA9IG5ldyBTZXQocy5wZW5kaW5nRWZmZWN0cy5tYXAoZSA9PiBlLmlkKSk7CiAgICAgICAgICAgIGZvciAoY29uc3QgZWZmIG9mIHNldHRsZWRFZmZlY3RzQmVmb3JlKSB7CiAgICAgICAgICAgICAgICBpZiAoIXBlbmRpbmdBZnRlci5oYXMoZWZmLmlkKSAmJiAhcGVuZGluZ0JlZm9yZS5oYXMoZWZmLmlkKSkgewogICAgICAgICAgICAgICAgICAgIC8vIFRoaXMgd2FzIGEgbmV3bHkgYWRkZWQgZWZmZWN0IHRoYXQgcmVzb2x2ZWQgaW1tZWRpYXRlbHkg4oCUIHNraXAKICAgICAgICAgICAgICAgICAgICBjb250aW51ZTsKICAgICAgICAgICAgICAgIH0KICAgICAgICAgICAgICAgIGlmICghcGVuZGluZ0FmdGVyLmhhcyhlZmYuaWQpICYmIHBlbmRpbmdCZWZvcmUuaGFzKGVmZi5pZCkpIHsKICAgICAgICAgICAgICAgICAgICAvLyBUaGlzIGVmZmVjdCB3YXMgcmVzb2x2ZWQKICAgICAgICAgICAgICAgICAgICBjb25zdCByZWNhcEV2ZW50ID0gZWZmZWN0VG9SZWNhcChzLCBlZmYsIHByZXZDaGFvcyk7CiAgICAgICAgICAgICAgICAgICAgaWYgKHJlY2FwRXZlbnQpIHsKICAgICAgICAgICAgICAgICAgICAgICAgcmVjYXAucHVzaChyZWNhcEV2ZW50KTsKICAgICAgICAgICAgICAgICAgICB9CiAgICAgICAgICAgICAgICB9CiAgICAgICAgICAgIH0KCiAgICAgICAgICAgIC8vIChlKSBBZHZhbmNlIHR1cm4gY291bnRlcgogICAgICAgICAgICBzID0gYWR2YW5jZVR1cm4ocyk7CgogICAgICAgICAgICAvLyAoZikgQ2hlY2sgY2hhb3MgdGhyZXNob2xkIGNyb3NzaW5nCiAgICAgICAgICAgIGNvbnN0IGN1cnJlbnRDaGFvc0JhbmQgPSBnZXRDaGFvc1RocmVzaG9sZEJhbmQocy5jaGFvc0xldmVsKTsKICAgICAgICAgICAgaWYgKGN1cnJlbnRDaGFvc0JhbmQgIT09IHByZXZDaGFvc0JhbmQpIHsKICAgICAgICAgICAgICAgIGNvbnN0IGNoYW9zSW5mbyA9IGdldENoYW9zTGFiZWwocy5jaGFvc0xldmVsKTsKICAgICAgICAgICAgICAgIHJlY2FwLnB1c2goewogICAgICAgICAgICAgICAgICAgIGRheTogcy5kYXkgPz8gMSwKICAgICAgICAgICAgICAgICAgICBzZWFzb246IHMuc2Vhc29uID8/ICdzcHJpbmcnLAogICAgICAgICAgICAgICAgICAgIHRpbWVPZkRheTogcy50aW1lT2ZEYXkgPz8gJ21vcm5pbmcnLAogICAgICAgICAgICAgICAgICAgIGhlYWRsaW5lOiBg5re35Lmx5bqm5Y2H57qn77yaJHtjaGFvc0luZm8ubGFiZWx9YCwKICAgICAgICAgICAgICAgICAgICBkZXNjcmlwdGlvbjogYOWfjuW4gueahERyYW1h5oyH5pWw5bey57uP6L6+5YiwJHtzLmNoYW9zTGV2ZWx94oCU4oCUJHtjaGFvc0luZm8ubGFiZWx977yBYCwKICAgICAgICAgICAgICAgICAgICBpbnZvbHZlZE5wY3M6IFtdLAogICAgICAgICAgICAgICAgICAgIGV2ZW50VHlwZTogJ2ZpZ2h0JywgLy8gY2hhb3MgZXNjYWxhdGlvbiBpcyBjb25mbGljdC1saWtlCiAgICAgICAgICAgICAgICAgICAgY2hhb3NDaGFuZ2U6IHMuY2hhb3NMZXZlbCAtIHByZXZDaGFvcywKICAgICAgICAgICAgICAgIH0pOwogICAgICAgICAgICAgICAgcHJldkNoYW9zQmFuZCA9IGN1cnJlbnRDaGFvc0JhbmQ7CiAgICAgICAgICAgIH0KCiAgICAgICAgICAgIC8vIENoZWNrIGZvciBOUEMgcnVuYXdheXMgKE5QQ3MgdGhhdCBsb3N0IHRoZWlyIGZhbWlseUlkKQogICAgICAgICAgICAvLyBUaGlzIGlzIGFscmVhZHkgY2FwdHVyZWQgdGhyb3VnaCBHT19TT0xPIGFjdGlvbnMgaW4gYXV0b1Jlc3VsdC5ldmVudHMKCiAgICAgICAgICAgIC8vIFVwZGF0ZSBsYXN0IGFjdGl2ZSB0aW1lc3RhbXAgZm9yIHRoaXMgc2xvdAogICAgICAgICAgICBzLmxhc3RBY3RpdmVUaW1lc3RhbXAgPSBEYXRlLm5vdygpOwogICAgICAgIH0KICAgIH0gZmluYWxseSB7CiAgICAgICAgLy8gUmVzdG9yZSBvcmlnaW5hbCBNYXRoLnJhbmRvbQogICAgICAgIE1hdGgucmFuZG9tID0gb3JpZ2luYWxSYW5kb207CiAgICB9CgogICAgcmV0dXJuIHsgbmV3U3RhdGU6IHMsIHJlY2FwIH07Cn0KCi8vIOKUgOKUgCBVdGlsaXR5OiBzaG91bGQgd2UgcnVuIG9mZmxpbmUgc2ltdWxhdGlvbj8g4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSACgpleHBvcnQgZnVuY3Rpb24gc2hvdWxkU2ltdWxhdGVPZmZsaW5lKHN0YXRlOiBMaWZlU2ltU3RhdGUpOiBib29sZWFuIHsKICAgIGlmICghc3RhdGUubGFzdEFjdGl2ZVRpbWVzdGFtcCkgcmV0dXJuIGZhbHNlOwogICAgY29uc3QgZWxhcHNlZCA9IERhdGUubm93KCkgLSBzdGF0ZS5sYXN0QWN0aXZlVGltZXN0YW1wOwogICAgcmV0dXJuIGVsYXBzZWQgPiA1ICogNjAgKiAxMDAwOyAvLyA+IDUgbWludXRlcwp9CgovLyDilIDilIAgVXRpbGl0eTogaHVtYW4tcmVhZGFibGUgZWxhcHNlZCB0aW1lIGRlc2NyaXB0aW9uIOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgAoKZXhwb3J0IGZ1bmN0aW9uIGdldEVsYXBzZWREZXNjcmlwdGlvbihlbGFwc2VkTXM6IG51bWJlcik6IHN0cmluZyB7CiAgICBjb25zdCBob3VycyA9IE1hdGguZmxvb3IoZWxhcHNlZE1zIC8gKDEwMDAgKiA2MCAqIDYwKSk7CiAgICBjb25zdCBtaW51dGVzID0gTWF0aC5mbG9vcigoZWxhcHNlZE1zICUgKDEwMDAgKiA2MCAqIDYwKSkgLyAoMTAwMCAqIDYwKSk7CiAgICBpZiAoaG91cnMgPiAwKSByZXR1cm4gYCR7aG91cnN95bCP5pe2JHttaW51dGVzID4gMCA/IG1pbnV0ZXMgKyAn5YiG6ZKfJyA6ICcnfWA7CiAgICByZXR1cm4gYCR7bWludXRlc33liIbpkp9gOwp9Cg==
+/**
+ * LifeSim Offline Simulation Engine — 离线模拟引擎
+ *
+ * When users close the app and come back later, this engine simulates what
+ * happened while they were away using NPC autonomous behavior (no LLM calls).
+ *
+ * Performance target: 48 slots in < 100ms (pure math, no async).
+ */
+
+import {
+    LifeSimState, SimAction, OfflineRecapEvent, SimEventType, SimEffectCode,
+    SimPendingEffect
+} from '../types';
+
+import {
+    advanceTimeOfDay, settlePendingEffects, advanceTurn, deepClone,
+    getNPC, getChaosLabel, getMoodLabel, SEASON_INFO, TIME_INFO
+} from './lifeSimEngine';
+
+import { runAutonomousTurn } from './lifeSimAutonomous';
+import { evaluateEventChains } from './lifeSimEventChains';
+
+// ── Narrative template imports (with inline fallbacks) ────────────
+
+let generateEventHeadline: (eventType: SimEventType | SimEffectCode, involvedNames: string[]) => string;
+let getNarrativeQuote: (npcName: string, npcEmoji: string, eventType: SimEventType | SimEffectCode) => string;
+
+try {
+    const templates = require('./lifeSimNarrativeTemplates');
+    generateEventHeadline = templates.generateEventHeadline;
+    getNarrativeQuote = templates.getNarrativeQuote;
+} catch {
+    // Fallback if narrative templates module doesn't exist yet
+    generateEventHeadline = (eventType: SimEventType | SimEffectCode, involvedNames: string[]) => {
+        const typeLabels: Record<string, string> = {
+            fight: '大打出手！',
+            party: '欢聚一堂！',
+            gossip: '八卦传开了……',
+            romance: '暧昧的气息……',
+            rivalry: '针锋相对！',
+            alliance: '结成同盟！',
+            fight_break: '矛盾爆发！',
+            mood_drop: '情绪低落',
+            relationship_change: '关系变动',
+            revenge_plot: '复仇暗涌……',
+            love_triangle: '三角恋纠葛！',
+            jealousy_spiral: '嫉妒蔓延……',
+            family_feud: '家族恩怨！',
+            betrayal: '背叛！',
+            romantic_confession: '浪漫告白！',
+            gossip_wildfire: '流言蜚语如野火！',
+            npc_runaway: '有人离家出走了！',
+            mood_breakdown: '情绪崩溃！',
+            secret_alliance: '暗中结盟……',
+            power_shift: '权力更迭！',
+            reconciliation: '冰释前嫌',
+        };
+        const label = typeLabels[eventType] ?? '发生了一些事...';
+        const names = involvedNames.length > 0 ? involvedNames.join('、') : '居民们';
+        return `${names}：${label}`;
+    };
+
+    getNarrativeQuote = (npcName: string, _npcEmoji: string, eventType: SimEventType | SimEffectCode) => {
+        const quotes: Record<string, string> = {
+            fight: '哼，别以为这样就完了！',
+            party: '今天玩得真开心~',
+            gossip: '你听说了吗……',
+            romance: '心跳好快……',
+            rivalry: '我不会输给你的！',
+            alliance: '以后我们就是一伙的了。',
+            revenge_plot: '你等着……',
+            love_triangle: '为什么事情会变成这样……',
+            reconciliation: '算了，握手言和吧。',
+            npc_runaway: '我受够了，我要走！',
+        };
+        return quotes[eventType] ?? '……';
+    };
+}
+
+// ── Seeded PRNG for deterministic-ish simulation ──────────────────
+
+function createSeededRng(seed: number): () => number {
+    let state = seed;
+    return () => {
+        state = (state * 1664525 + 1013904223) & 0x7fffffff;
+        return state / 0x7fffffff;
+    };
+}
+
+function hashSeed(stateId: string, turnNumber: number): number {
+    let hash = 0;
+    const str = `${stateId}-${turnNumber}`;
+    for (let i = 0; i < str.length; i++) {
+        hash = ((hash << 5) - hash + str.charCodeAt(i)) | 0;
+    }
+    return Math.abs(hash);
+}
+
+// ── Chaos threshold tracker ──────────────────────────────────────
+
+const CHAOS_THRESHOLDS = [20, 40, 60, 80];
+
+function getChaosThresholdBand(chaos: number): number {
+    for (let i = CHAOS_THRESHOLDS.length - 1; i >= 0; i--) {
+        if (chaos >= CHAOS_THRESHOLDS[i]) return CHAOS_THRESHOLDS[i];
+    }
+    return 0;
+}
+
+// ── Helper: convert action to recap event ────────────────────────
+
+function actionToRecap(
+    state: LifeSimState,
+    action: SimAction,
+    prevChaos: number
+): OfflineRecapEvent | null {
+    // Only include TRIGGER_EVENT and GO_SOLO actions
+    if (action.type !== 'TRIGGER_EVENT' && action.type !== 'GO_SOLO') return null;
+
+    // Determine event type from action description heuristics
+    let eventType: SimEventType | SimEffectCode = 'fight';
+    const desc = action.description;
+    if (desc.includes('报复') || desc.includes('仇')) eventType = 'fight';
+    else if (desc.includes('暧昧') || desc.includes('浪漫') || desc.includes('告白')) eventType = 'romance';
+    else if (desc.includes('流言') || desc.includes('八卦') || desc.includes('散布')) eventType = 'gossip';
+    else if (desc.includes('聚会') || desc.includes('聚') || desc.includes('消遣')) eventType = 'party';
+    else if (desc.includes('宣战') || desc.includes('竞争')) eventType = 'rivalry';
+    else if (desc.includes('结盟') || desc.includes('同盟')) eventType = 'alliance';
+    else if (desc.includes('离家出走') || desc.includes('离开')) eventType = 'npc_runaway';
+
+    // Find involved NPCs from the action
+    const involvedNpcs: { name: string; emoji: string }[] = [];
+    for (const npc of state.npcs) {
+        if (desc.includes(npc.name) || action.actor === npc.name) {
+            involvedNpcs.push({ name: npc.name, emoji: npc.emoji });
+        }
+    }
+
+    // Primary NPC is the actor
+    const primaryNpc = state.npcs.find(n => n.name === action.actor);
+    const headline = generateEventHeadline(
+        eventType,
+        involvedNpcs.map(n => `${n.emoji}${n.name}`)
+    );
+    const narrativeQuote = primaryNpc
+        ? getNarrativeQuote(primaryNpc.name, primaryNpc.emoji, eventType)
+        : undefined;
+
+    const chaosChange = state.chaosLevel - prevChaos;
+
+    return {
+        day: state.day ?? 1,
+        season: state.season ?? 'spring',
+        timeOfDay: state.timeOfDay ?? 'morning',
+        headline,
+        description: action.description + (action.immediateResult ? ` ${action.immediateResult}` : ''),
+        involvedNpcs,
+        eventType,
+        chaosChange: chaosChange !== 0 ? chaosChange : undefined,
+        narrativeQuote,
+    };
+}
+
+// ── Helper: convert settled effect to recap event ────────────────
+
+function effectToRecap(
+    state: LifeSimState,
+    effect: SimPendingEffect,
+    prevChaos: number
+): OfflineRecapEvent | null {
+    const involvedNpcs: { name: string; emoji: string }[] = [];
+    const involvedIds = effect.involvedNpcIds ?? [];
+    if (effect.npcId && !involvedIds.includes(effect.npcId)) {
+        involvedIds.unshift(effect.npcId);
+    }
+
+    for (const id of involvedIds) {
+        const npc = getNPC(state, id);
+        if (npc) {
+            involvedNpcs.push({ name: npc.name, emoji: npc.emoji });
+        }
+    }
+
+    const primaryNpc = involvedIds.length > 0 ? getNPC(state, involvedIds[0]) : undefined;
+    const headline = generateEventHeadline(
+        effect.effectCode,
+        involvedNpcs.map(n => `${n.emoji}${n.name}`)
+    );
+    const narrativeQuote = primaryNpc
+        ? getNarrativeQuote(primaryNpc.name, primaryNpc.emoji, effect.effectCode)
+        : undefined;
+
+    const chaosChange = state.chaosLevel - prevChaos;
+
+    return {
+        day: state.day ?? 1,
+        season: state.season ?? 'spring',
+        timeOfDay: state.timeOfDay ?? 'morning',
+        headline,
+        description: effect.description,
+        involvedNpcs,
+        eventType: effect.effectCode,
+        chaosChange: chaosChange !== 0 ? chaosChange : undefined,
+        narrativeQuote,
+    };
+}
+
+// ── Helper: festival recap event ─────────────────────────────────
+
+function festivalToRecap(
+    state: LifeSimState,
+    festivalName: string,
+    festivalEmoji: string,
+    festivalDesc: string
+): OfflineRecapEvent {
+    return {
+        day: state.day ?? 1,
+        season: state.season ?? 'spring',
+        timeOfDay: state.timeOfDay ?? 'morning',
+        headline: `${festivalEmoji} ${festivalName}`,
+        description: festivalDesc,
+        involvedNpcs: [],
+        eventType: 'party', // festivals are party-like
+    };
+}
+
+// ── Helper: season change recap event ────────────────────────────
+
+function seasonChangeToRecap(state: LifeSimState): OfflineRecapEvent {
+    const season = state.season ?? 'spring';
+    const si = SEASON_INFO[season];
+    return {
+        day: state.day ?? 1,
+        season,
+        timeOfDay: state.timeOfDay ?? 'morning',
+        headline: `${si.emoji} 季节交替——${si.zh}季到来`,
+        description: `世界迎来了${si.zh}季，万物焕然一新。`,
+        involvedNpcs: [],
+        eventType: 'party',
+    };
+}
+
+// ── Main export: simulate offline turns ──────────────────────────
+
+export function simulateOfflineTurns(
+    state: LifeSimState,
+    elapsedMs: number
+): { newState: LifeSimState; recap: OfflineRecapEvent[] } {
+    let s = deepClone(state);
+    const recap: OfflineRecapEvent[] = [];
+
+    // 1. Calculate number of time slots
+    const rawSlots = Math.floor(elapsedMs / (30 * 60 * 1000)); // 1 slot per 30 min
+    let slots = Math.min(rawSlots, 48); // cap at 48 (24h)
+    if (slots === 0 && elapsedMs > 5 * 60 * 1000) {
+        slots = 1; // minimum 1 slot if > 5 minutes
+    }
+    if (slots === 0) {
+        return { newState: s, recap };
+    }
+
+    // Seed the PRNG from state id + turn number for deterministic-ish results
+    const rng = createSeededRng(hashSeed(s.id, s.turnNumber));
+
+    // Override Math.random temporarily for deterministic simulation
+    const originalRandom = Math.random;
+    Math.random = rng;
+
+    try {
+        // Track starting chaos for threshold crossing detection
+        let prevChaosBand = getChaosThresholdBand(s.chaosLevel);
+
+        for (let slot = 0; slot < slots; slot++) {
+            // Bail early if no NPCs remain
+            if (s.npcs.length === 0) {
+                break;
+            }
+
+            // Bail early if game is over
+            if (s.gameOver) {
+                break;
+            }
+
+            const prevChaos = s.chaosLevel;
+
+            // (a) Advance time of day
+            const timeResult = advanceTimeOfDay(s);
+            s = timeResult.newState;
+
+            // Check for festival
+            if (timeResult.festival) {
+                recap.push(festivalToRecap(
+                    s,
+                    timeResult.festival.name,
+                    timeResult.festival.emoji,
+                    timeResult.festival.description
+                ));
+            }
+
+            // Check for season change
+            if (timeResult.newSeason) {
+                recap.push(seasonChangeToRecap(s));
+            }
+
+            // (b) Run autonomous NPC turn
+            const autoResult = runAutonomousTurn(s);
+            s = autoResult.newState;
+
+            // Collect pending effects before this slot's effects
+            const pendingBefore = new Set(s.pendingEffects.map(e => e.id));
+
+            // (c) For TRIGGER_EVENT actions, evaluate event chains
+            for (const action of autoResult.events) {
+                if (action.type === 'TRIGGER_EVENT') {
+                    // Infer event type from description for chain evaluation
+                    let evtType: SimEventType = 'fight';
+                    const d = action.description;
+                    if (d.includes('暧昧') || d.includes('浪漫')) evtType = 'romance';
+                    else if (d.includes('八卦') || d.includes('流言')) evtType = 'gossip';
+                    else if (d.includes('聚会') || d.includes('消遣')) evtType = 'party';
+                    else if (d.includes('宣战') || d.includes('竞争')) evtType = 'rivalry';
+                    else if (d.includes('结盟')) evtType = 'alliance';
+                    else if (d.includes('报复') || d.includes('打') || d.includes('吵')) evtType = 'fight';
+
+                    // Find involved NPC IDs from the description
+                    const involvedIds: string[] = [];
+                    for (const npc of s.npcs) {
+                        if (d.includes(npc.name)) {
+                            involvedIds.push(npc.id);
+                        }
+                    }
+
+                    const chainEffects = evaluateEventChains(s, evtType, involvedIds);
+                    for (const eff of chainEffects) {
+                        s.pendingEffects.push(eff);
+                    }
+                }
+
+                // Convert significant actions to recap
+                const recapEvent = actionToRecap(s, action, prevChaos);
+                if (recapEvent) {
+                    recap.push(recapEvent);
+                }
+            }
+
+            // (d) Settle pending effects
+            const settledEffectsBefore = [...s.pendingEffects];
+            const settleResult = settlePendingEffects(s);
+            s = settleResult.newState;
+
+            // Identify which effects were resolved (no longer in pending list)
+            const pendingAfter = new Set(s.pendingEffects.map(e => e.id));
+            for (const eff of settledEffectsBefore) {
+                if (!pendingAfter.has(eff.id) && !pendingBefore.has(eff.id)) {
+                    // This was a newly added effect that resolved immediately — skip
+                    continue;
+                }
+                if (!pendingAfter.has(eff.id) && pendingBefore.has(eff.id)) {
+                    // This effect was resolved
+                    const recapEvent = effectToRecap(s, eff, prevChaos);
+                    if (recapEvent) {
+                        recap.push(recapEvent);
+                    }
+                }
+            }
+
+            // (e) Advance turn counter
+            s = advanceTurn(s);
+
+            // (f) Check chaos threshold crossing
+            const currentChaosBand = getChaosThresholdBand(s.chaosLevel);
+            if (currentChaosBand !== prevChaosBand) {
+                const chaosInfo = getChaosLabel(s.chaosLevel);
+                recap.push({
+                    day: s.day ?? 1,
+                    season: s.season ?? 'spring',
+                    timeOfDay: s.timeOfDay ?? 'morning',
+                    headline: `混乱度升级：${chaosInfo.label}`,
+                    description: `城市的Drama指数已经达到${s.chaosLevel}——${chaosInfo.label}！`,
+                    involvedNpcs: [],
+                    eventType: 'fight', // chaos escalation is conflict-like
+                    chaosChange: s.chaosLevel - prevChaos,
+                });
+                prevChaosBand = currentChaosBand;
+            }
+
+            // Check for NPC runaways (NPCs that lost their familyId)
+            // This is already captured through GO_SOLO actions in autoResult.events
+
+            // Update last active timestamp for this slot
+            s.lastActiveTimestamp = Date.now();
+        }
+    } finally {
+        // Restore original Math.random
+        Math.random = originalRandom;
+    }
+
+    return { newState: s, recap };
+}
+
+// ── Utility: should we run offline simulation? ───────────────────
+
+export function shouldSimulateOffline(state: LifeSimState): boolean {
+    if (!state.lastActiveTimestamp) return false;
+    const elapsed = Date.now() - state.lastActiveTimestamp;
+    return elapsed > 5 * 60 * 1000; // > 5 minutes
+}
+
+// ── Utility: human-readable elapsed time description ─────────────
+
+export function getElapsedDescription(elapsedMs: number): string {
+    const hours = Math.floor(elapsedMs / (1000 * 60 * 60));
+    const minutes = Math.floor((elapsedMs % (1000 * 60 * 60)) / (1000 * 60));
+    if (hours > 0) return `${hours}小时${minutes > 0 ? minutes + '分钟' : ''}`;
+    return `${minutes}分钟`;
+}

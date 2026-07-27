@@ -1,1 +1,312 @@
-LyoqCiAqIOaJi+i0puWGhemhteeJiOW8j+W6kyAodjIpCiAqCiAqIDYg5aWX6aKE572u5qih5p2/44CC5LiA5Lu9IHRlbXBsYXRlID0g5LiA57uE5bim5L2N572uL+WuuemHjy/lj6/lhpnogIUv6K+t5LmJ6KeS6Imy55qE5qe9IChTbG90RGVmKeOAggogKiBvcmNoZXN0cmF0b3Ig5oyJ5b2T5aSpIHVzZXIg5rS76LeD5bqmICsg6KeS6Imy5pWw6YCJ5qih5p2/LAogKiB1c2VyIOS4gOasoeWhqyAyfjMg5LiqIHVzZXIg5qe9LCDmr4/kuKrop5LoibLkuIDmrKHloasgMn41IOS4quanvSAob3duIGRpYXJ5ICsgY29ybmVyIG5vdGVzCiAqICsg5Y+v6YCJIHN0aWNreSksIOaDs+WFqOWhq+a7oemcgOimgSAzfjQg5Liq6KeS6Imy5Y+C5LiO5omN6KGMLCDmiYDku6Xmr4/kuKogdGVtcGxhdGUg6YO96K6+IDEwfjEzIOS4quanveOAggogKgogKiDlk7LlraY6ICLlpKflrrblhbHlhpnnmoTkuIDmnKzmiYvotKYiLCDkuI3mmK8gInVzZXIg5Li75YaZICsg6KeS6Imy5Ly05aWPIuOAggogKiAgLSB1c2VyIOayoee0oOadkOWwseWujOWFqOi3s+i/hyB1c2VyIOatpSwg5LiN55WZ5YGH6LSnCiAqICAtIGhlcm8tZGlhcnkgLyBtb29kLWNhcmQgLyBjb3JuZXItbm90ZSDpg70gdXNlcnxjaGFyIOWFseWGmQogKiAgLSDop5LoibLooqvpvJPlirEi6YCg6LCjIuiHquW3seS7iuWkqeeahOeUn+a0u+a1gSwg5LiN6KaB5oqK6L+H5Y6755qE5LqL57yW6L+b5LuK5aSpCiAqICAtIOWPquaciSB0aW1lbGluZS1wbGFuIC8gdG9kbyAvIGdyYXRpdHVkZSAvIHBob3RvLWNhcHRpb24g5pivIHVzZXIg5LiT5bGeCiAqICAtIHN0aWNreS1yZWFjdGlvbiDmsLjov5wgY2hhci1vbmx5LCDmsLjov5zopoEgcmVmZXJzVG8KICoKICog6K6+6K6h6KeE5YiZOgogKiAgLSDmr4/pobUgMTB+MTMg5Liq5qe9LCDorqkgMSB1c2VyICsgM340IGNoYXIg6YO96IO95ZCE6Ieq55WZ5Yeg5p2hCiAqICAtIOanveaAu+WNoOavlCA8IDgwJSwg55WZIOKJpSAyMCUg55yf5a6e55WZ55m9CiAqICAtIOavj+mhtSDiiaQgMSDkuKogaGVybyAoaXNIZXJvPXRydWUpCiAqCiAqIOWdkOagh+mDveaYryAlIG9mIOaVtOmhtSAo5bem5L6nIH42JSDnlZnnu5noo4XorqLnjq8sIOmhti/lupXlkITnlZkgfjYlKeOAggogKi8KCmltcG9ydCB7IExheW91dFRlbXBsYXRlIH0gZnJvbSAnLi4vdHlwZXMnOwoKLy8g4pSA4pSA4pSAIEEgwrcgcGxhbi1kYXkgwrcg6K6h5YiS5Z6L5LiA5pelIOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgApjb25zdCBQTEFOX0RBWTogTGF5b3V0VGVtcGxhdGUgPSB7CiAgICBpZDogJ3BsYW4tZGF5JywKICAgIG5hbWU6ICforqHliJLlnovkuIDml6UnLAogICAgc3VpdEZvcjogJ3VzZXIg5pep5LiK5oOz55CG5riF5LuK5aSp6KaB5YGa5LuA5LmIJywKICAgIHBhcGVyU3R5bGU6ICdkb3QnLAogICAgcGFnZXM6IFtbCiAgICAgICAgeyBpZDogJ0EnLCBzbG90Um9sZTogJ3RpbWVsaW5lLXBsYW4nLCBjaGFyQnVkZ2V0OiBbNDAsIDExMF0sIGVsaWdpYmxlQXV0aG9yczogWyd1c2VyJ10sCiAgICAgICAgICBoaW50OiAndXNlciDku4rlpKnnmoTml7bpl7TooagsIDZ+OCDooYwsIOavj+ihjCDml7bpl7QgKyDkuIDlj6XopoHlgZrnmoTkuoso4omkMTIg5a2XKScsCiAgICAgICAgICB4UGN0OiA2LCB5UGN0OiA4LCB3aWR0aFBjdDogNTIsIG1heEhlaWdodFBjdDogNDIsIGlzSGVybzogdHJ1ZSB9LAogICAgICAgIHsgaWQ6ICdCJywgc2xvdFJvbGU6ICdtb29kLWNhcmQnLCBjaGFyQnVkZ2V0OiBbMTIsIDQwXSwgZWxpZ2libGVBdXRob3JzOiBbJ3VzZXInLCAnY2hhciddLAogICAgICAgICAgaGludDogJ+S7iuaXpeW/g+aDhemAn+iusCAo4omkMzAg5a2XKSArIDF+NSDpopfmmJ8nLAogICAgICAgICAgeFBjdDogNjIsIHlQY3Q6IDgsIHdpZHRoUGN0OiAzMiwgbWF4SGVpZ2h0UGN0OiAxOCwKICAgICAgICAgIHJvdGF0ZTogMS41LCBza2luVmFyaWFudDogJ2xhdmVuZGVyJyB9LAogICAgICAgIHsgaWQ6ICdDJywgc2xvdFJvbGU6ICd0b2RvJywgY2hhckJ1ZGdldDogWzMwLCA4MF0sIGVsaWdpYmxlQXV0aG9yczogWyd1c2VyJ10sCiAgICAgICAgICBoaW50OiAndXNlciDku4rml6XlvoXlip4sIDN+NSDpobksIOavj+mhuSDiiaQgMTQg5a2XJywKICAgICAgICAgIHhQY3Q6IDYyLCB5UGN0OiAyOCwgd2lkdGhQY3Q6IDMyLCBtYXhIZWlnaHRQY3Q6IDIyIH0sCiAgICAgICAgeyBpZDogJ0QnLCBzbG90Um9sZTogJ3N0aWNreS1yZWFjdGlvbicsIGNoYXJCdWRnZXQ6IFsxNSwgNTBdLCBlbGlnaWJsZUF1dGhvcnM6IFsnY2hhciddLAogICAgICAgICAgaGludDogJ+eci+WIsOacrOmhteafkOadoeW3suWhq+eahOWGheWuuSAo5byV55SoIHNsb3RJZCksIOWQkOanvS/mjaflnLov6KGl5YiAJywKICAgICAgICAgIHhQY3Q6IDYyLCB5UGN0OiA1Miwgd2lkdGhQY3Q6IDMyLCBtYXhIZWlnaHRQY3Q6IDE0LAogICAgICAgICAgcm90YXRlOiAtMS4yLCBza2luVmFyaWFudDogJ21pbnQnIH0sCiAgICAgICAgeyBpZDogJ0UnLCBzbG90Um9sZTogJ3N0aWNreS1yZWFjdGlvbicsIGNoYXJCdWRnZXQ6IFsxNSwgNTBdLCBlbGlnaWJsZUF1dGhvcnM6IFsnY2hhciddLAogICAgICAgICAgaGludDogJ+WPpuS4gOadoeWPjeW6lCwg5LiN6KaB6YeN5aSNIEQg5byV55qE5ZCM5LiA5p2hJywKICAgICAgICAgIHhQY3Q6IDYyLCB5UGN0OiA2OCwgd2lkdGhQY3Q6IDMyLCBtYXhIZWlnaHRQY3Q6IDE0LAogICAgICAgICAgcm90YXRlOiAxLjUsIHNraW5WYXJpYW50OiAncm9zZScgfSwKICAgICAgICB7IGlkOiAnRicsIHNsb3RSb2xlOiAnbW9vZC1jYXJkJywgY2hhckJ1ZGdldDogWzEwLCAzMF0sIGVsaWdpYmxlQXV0aG9yczogWydjaGFyJ10sCiAgICAgICAgICBoaW50OiAn5p+Q6KeS6Imy5LuK5aSp55qE5b+D5oOF5Y2hICjlhpnoh6rlt7HnmoQsIOi3nyB1c2VyIOaXoOWFsyknLAogICAgICAgICAgeFBjdDogNjIsIHlQY3Q6IDg0LCB3aWR0aFBjdDogMzIsIG1heEhlaWdodFBjdDogMTIsCiAgICAgICAgICBza2luVmFyaWFudDogJ3NreScgfSwKICAgICAgICB7IGlkOiAnRycsIHNsb3RSb2xlOiAnY29ybmVyLW5vdGUnLCBjaGFyQnVkZ2V0OiBbNiwgMjBdLCBlbGlnaWJsZUF1dGhvcnM6IFsndXNlcicsICdjaGFyJ10sCiAgICAgICAgICBoaW50OiAn6L656KeS5bCP5a2XLCDkuIDlj6Xni6znmb0v5oSf5Y+5JywgeFBjdDogOCwgeVBjdDogNTIsIHdpZHRoUGN0OiAyNiwgbWF4SGVpZ2h0UGN0OiA4LAogICAgICAgICAgcm90YXRlOiAtMiB9LAogICAgICAgIHsgaWQ6ICdIJywgc2xvdFJvbGU6ICdjb3JuZXItbm90ZScsIGNoYXJCdWRnZXQ6IFs2LCAyMF0sIGVsaWdpYmxlQXV0aG9yczogWyd1c2VyJywgJ2NoYXInXSwKICAgICAgICAgIGhpbnQ6ICflj6bkuIDlj6XlsI/lrZcnLCB4UGN0OiAzNiwgeVBjdDogNTIsIHdpZHRoUGN0OiAyNCwgbWF4SGVpZ2h0UGN0OiA4LCByb3RhdGU6IDEuNiB9LAogICAgICAgIHsgaWQ6ICdJJywgc2xvdFJvbGU6ICdjb3JuZXItbm90ZScsIGNoYXJCdWRnZXQ6IFs2LCAyMF0sIGVsaWdpYmxlQXV0aG9yczogWyd1c2VyJywgJ2NoYXInXSwKICAgICAgICAgIGhpbnQ6ICflj6bkuIDlj6XlsI/lrZcgKOS7u+S9leS6uiknLCB4UGN0OiA4LCB5UGN0OiA2NCwgd2lkdGhQY3Q6IDI2LCBtYXhIZWlnaHRQY3Q6IDgsIHJvdGF0ZTogMiB9LAogICAgICAgIHsgaWQ6ICdKJywgc2xvdFJvbGU6ICdjb3JuZXItbm90ZScsIGNoYXJCdWRnZXQ6IFs2LCAyMF0sIGVsaWdpYmxlQXV0aG9yczogWyd1c2VyJywgJ2NoYXInXSwKICAgICAgICAgIGhpbnQ6ICflj6bkuIDlj6XlsI/lrZcnLCB4UGN0OiAzNiwgeVBjdDogNjQsIHdpZHRoUGN0OiAyNCwgbWF4SGVpZ2h0UGN0OiA4LCByb3RhdGU6IC0xLjQgfSwKICAgICAgICB7IGlkOiAnSycsIHNsb3RSb2xlOiAnY29ybmVyLW5vdGUnLCBjaGFyQnVkZ2V0OiBbNiwgMjBdLCBlbGlnaWJsZUF1dGhvcnM6IFsndXNlcicsICdjaGFyJ10sCiAgICAgICAgICBoaW50OiAn6aG16ISa5LiA5Y+lJywgeFBjdDogOCwgeVBjdDogODgsIHdpZHRoUGN0OiAyOCwgbWF4SGVpZ2h0UGN0OiA4LCByb3RhdGU6IC0yIH0sCiAgICBdXSwKfTsKCi8vIOKUgOKUgOKUgCBCIMK3IHJlZmxlY3RpdmUtZGF5IMK3IOWPjeaAneWei+S4gOaXpSDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIAKY29uc3QgUkVGTEVDVElWRV9EQVk6IExheW91dFRlbXBsYXRlID0gewogICAgaWQ6ICdyZWZsZWN0aXZlLWRheScsCiAgICBuYW1lOiAn5Y+N5oCd5Z6L5LiA5pelJywKICAgIHN1aXRGb3I6ICd1c2VyIOW9k+WkqeiBiuWkqSDiiaUgOCDlj6UsIOaDs+WGmeS4gOautemVv+aXpeiusCcsCiAgICBwYXBlclN0eWxlOiAnbGluZWQnLAogICAgcGFnZXM6IFtbCiAgICAgICAgeyBpZDogJ0EnLCBzbG90Um9sZTogJ2hlcm8tZGlhcnknLCBjaGFyQnVkZ2V0OiBbODAsIDE4MF0sIGVsaWdpYmxlQXV0aG9yczogWyd1c2VyJywgJ2NoYXInXSwKICAgICAgICAgIGhpbnQ6ICfku4rml6XkuLvml6XorrDmnKzkvZMsIOesrOS4gOS6uuensOOAguWPr+S7peaYryB1c2VyIOS5n+WPr+S7peaYr+afkOinkuiJsuWGmeiHquW3seS7iuWkqeeahOeUn+a0u+a1gScsCiAgICAgICAgICB4UGN0OiA2LCB5UGN0OiA4LCB3aWR0aFBjdDogNTYsIG1heEhlaWdodFBjdDogNDIsIGlzSGVybzogdHJ1ZSB9LAogICAgICAgIHsgaWQ6ICdCJywgc2xvdFJvbGU6ICdzdGlja3ktcmVhY3Rpb24nLCBjaGFyQnVkZ2V0OiBbMjAsIDYwXSwgZWxpZ2libGVBdXRob3JzOiBbJ2NoYXInXSwKICAgICAgICAgIGhpbnQ6ICflj43lupTlt7Lloavmn5DmnaEgKHJlZmVyc1RvKScsCiAgICAgICAgICB4UGN0OiA2NSwgeVBjdDogOCwgd2lkdGhQY3Q6IDMwLCBtYXhIZWlnaHRQY3Q6IDE4LAogICAgICAgICAgcm90YXRlOiAxLjgsIHNraW5WYXJpYW50OiAnbGF2ZW5kZXInIH0sCiAgICAgICAgeyBpZDogJ0MnLCBzbG90Um9sZTogJ3N0aWNreS1yZWFjdGlvbicsIGNoYXJCdWRnZXQ6IFsyMCwgNjBdLCBlbGlnaWJsZUF1dGhvcnM6IFsnY2hhciddLAogICAgICAgICAgaGludDogJ+WPpuS4gOS4quWPjeW6lCAo5byV5LiN5ZCM5p2hKScsCiAgICAgICAgICB4UGN0OiA2NSwgeVBjdDogMjgsIHdpZHRoUGN0OiAzMCwgbWF4SGVpZ2h0UGN0OiAxOCwKICAgICAgICAgIHJvdGF0ZTogLTEuNSwgc2tpblZhcmlhbnQ6ICdtaW50JyB9LAogICAgICAgIHsgaWQ6ICdEJywgc2xvdFJvbGU6ICdncmF0aXR1ZGUnLCBjaGFyQnVkZ2V0OiBbMzAsIDgwXSwgZWxpZ2libGVBdXRob3JzOiBbJ3VzZXInXSwKICAgICAgICAgIGhpbnQ6ICd1c2VyIOS7iuaXpeaEn+aBqSAzIOadoSAo4omkMjIg5a2XIC8g5p2hKSwg5b+F6aG75LuK5aSp55qE5LqLJywKICAgICAgICAgIHhQY3Q6IDYsIHlQY3Q6IDUyLCB3aWR0aFBjdDogNTAsIG1heEhlaWdodFBjdDogMjAgfSwKICAgICAgICB7IGlkOiAnRScsIHNsb3RSb2xlOiAnbW9vZC1jYXJkJywgY2hhckJ1ZGdldDogWzEwLCAzMF0sIGVsaWdpYmxlQXV0aG9yczogWyd1c2VyJywgJ2NoYXInXSwKICAgICAgICAgIGhpbnQ6ICfku4rml6Xlv4Pmg4UgKyDor4TliIYgKOiwgeeahOmDveihjCknLAogICAgICAgICAgeFBjdDogNjAsIHlQY3Q6IDUwLCB3aWR0aFBjdDogMzIsIG1heEhlaWdodFBjdDogMTYsCiAgICAgICAgICByb3RhdGU6IDEsIHNraW5WYXJpYW50OiAncm9zZScgfSwKICAgICAgICB7IGlkOiAnRicsIHNsb3RSb2xlOiAnbW9vZC1jYXJkJywgY2hhckJ1ZGdldDogWzEwLCAzMF0sIGVsaWdpYmxlQXV0aG9yczogWydjaGFyJ10sCiAgICAgICAgICBoaW50OiAn5p+Q6KeS6Imy55qE5b+D5oOF5Y2hICjlhpnoh6rlt7EsIOWIq+eUqCB1c2VyIOW9k+S4u+ivrSknLAogICAgICAgICAgeFBjdDogNjAsIHlQY3Q6IDcwLCB3aWR0aFBjdDogMzIsIG1heEhlaWdodFBjdDogMTQsCiAgICAgICAgICBza2luVmFyaWFudDogJ3NreScgfSwKICAgICAgICB7IGlkOiAnRycsIHNsb3RSb2xlOiAnY29ybmVyLW5vdGUnLCBjaGFyQnVkZ2V0OiBbNiwgMjJdLCBlbGlnaWJsZUF1dGhvcnM6IFsndXNlcicsICdjaGFyJ10sCiAgICAgICAgICBoaW50OiAn6L656KeS5bCP5a2X54us55m9JywgeFBjdDogNiwgeVBjdDogNzYsIHdpZHRoUGN0OiAyNiwgbWF4SGVpZ2h0UGN0OiA4LCByb3RhdGU6IC0xLjggfSwKICAgICAgICB7IGlkOiAnSCcsIHNsb3RSb2xlOiAnY29ybmVyLW5vdGUnLCBjaGFyQnVkZ2V0OiBbNiwgMjJdLCBlbGlnaWJsZUF1dGhvcnM6IFsndXNlcicsICdjaGFyJ10sCiAgICAgICAgICBoaW50OiAn5Y+m5LiA5Y+l5bCP5a2XJywgeFBjdDogMzQsIHlQY3Q6IDc2LCB3aWR0aFBjdDogMjQsIG1heEhlaWdodFBjdDogOCwgcm90YXRlOiAxLjQgfSwKICAgICAgICB7IGlkOiAnSScsIHNsb3RSb2xlOiAnY29ybmVyLW5vdGUnLCBjaGFyQnVkZ2V0OiBbNiwgMjJdLCBlbGlnaWJsZUF1dGhvcnM6IFsndXNlcicsICdjaGFyJ10sCiAgICAgICAgICBoaW50OiAn5Y+m5LiA5Y+l5bCP5a2XJywgeFBjdDogNiwgeVBjdDogODYsIHdpZHRoUGN0OiAyNCwgbWF4SGVpZ2h0UGN0OiA4LCByb3RhdGU6IDIgfSwKICAgICAgICB7IGlkOiAnSicsIHNsb3RSb2xlOiAnY29ybmVyLW5vdGUnLCBjaGFyQnVkZ2V0OiBbNiwgMjJdLCBlbGlnaWJsZUF1dGhvcnM6IFsndXNlcicsICdjaGFyJ10sCiAgICAgICAgICBoaW50OiAn6aG16ISa5LiA5Y+lJywgeFBjdDogMzIsIHlQY3Q6IDg4LCB3aWR0aFBjdDogMjgsIG1heEhlaWdodFBjdDogNywgcm90YXRlOiAtMS41IH0sCiAgICAgICAgeyBpZDogJ0snLCBzbG90Um9sZTogJ2Nvcm5lci1ub3RlJywgY2hhckJ1ZGdldDogWzYsIDIyXSwgZWxpZ2libGVBdXRob3JzOiBbJ2NoYXInXSwKICAgICAgICAgIGhpbnQ6ICfmn5Dop5LoibLkuIDlj6XlsI/lrZcsIOWGmeiHquW3seS7iuWkqeeci+WIsC/mg7PliLDnmoQnLAogICAgICAgICAgeFBjdDogNjQsIHlQY3Q6IDg4LCB3aWR0aFBjdDogMjgsIG1heEhlaWdodFBjdDogNywgcm90YXRlOiAxLjggfSwKICAgIF1dLAp9OwoKLy8g4pSA4pSA4pSAIEMgwrcgcGhvdG8tZGF5IMK3IOWbvuiusOS4gOaXpSDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIAKY29uc3QgUEhPVE9fREFZOiBMYXlvdXRUZW1wbGF0ZSA9IHsKICAgIGlkOiAncGhvdG8tZGF5JywKICAgIG5hbWU6ICflm77orrDkuIDml6UnLAogICAgc3VpdEZvcjogJ3VzZXIg5LuK5aSp5pyJ5oOz6YWN5Zu+55qE5pe25Yi7JywKICAgIHBhcGVyU3R5bGU6ICdwbGFpbicsCiAgICBwYWdlczogW1sKICAgICAgICB7IGlkOiAnQScsIHNsb3RSb2xlOiAncGhvdG8tY2FwdGlvbicsIGNoYXJCdWRnZXQ6IFsxMCwgMjVdLCBlbGlnaWJsZUF1dGhvcnM6IFsndXNlciddLAogICAgICAgICAgaGludDogJ3VzZXIg5LuK5aSp55qE5LiA5byg54Wn54mHICsg55+t5o+P6L+wICjiiaQyNSDlrZcpJywKICAgICAgICAgIHhQY3Q6IDYsIHlQY3Q6IDgsIHdpZHRoUGN0OiA0NCwgbWF4SGVpZ2h0UGN0OiAzNiwgaXNIZXJvOiB0cnVlIH0sCiAgICAgICAgeyBpZDogJ0InLCBzbG90Um9sZTogJ2hlcm8tZGlhcnknLCBjaGFyQnVkZ2V0OiBbNjAsIDEzMF0sIGVsaWdpYmxlQXV0aG9yczogWyd1c2VyJywgJ2NoYXInXSwKICAgICAgICAgIGhpbnQ6ICflm7Tnu5XnhafniYcgLyDlvZPml6XnmoTml6XorrDjgILlj6/ku6XmmK8gdXNlciwg5Lmf5Y+v5Lul5piv5p+Q6KeS6Imy5YaZIHRhIOS7iuWkqeeahOS6iycsCiAgICAgICAgICB4UGN0OiA1MywgeVBjdDogOCwgd2lkdGhQY3Q6IDQxLCBtYXhIZWlnaHRQY3Q6IDM2IH0sCiAgICAgICAgeyBpZDogJ0MnLCBzbG90Um9sZTogJ3N0aWNreS1yZWFjdGlvbicsIGNoYXJCdWRnZXQ6IFsyMCwgNTVdLCBlbGlnaWJsZUF1dGhvcnM6IFsnY2hhciddLAogICAgICAgICAgaGludDogJ+eci+S6hueFp+eJhyAvIOaXpeiusOWQjueahOWPjeW6lCAocmVmZXJzVG8pJywKICAgICAgICAgIHhQY3Q6IDYsIHlQY3Q6IDQ4LCB3aWR0aFBjdDogMzYsIG1heEhlaWdodFBjdDogMTgsCiAgICAgICAgICByb3RhdGU6IC0xLjUsIHNraW5WYXJpYW50OiAnbGF2ZW5kZXInIH0sCiAgICAgICAgeyBpZDogJ0QnLCBzbG90Um9sZTogJ3N0aWNreS1yZWFjdGlvbicsIGNoYXJCdWRnZXQ6IFsyMCwgNTVdLCBlbGlnaWJsZUF1dGhvcnM6IFsnY2hhciddLAogICAgICAgICAgaGludDogJ+WPpuS4gOS4quWPjeW6lCcsCiAgICAgICAgICB4UGN0OiA0OCwgeVBjdDogNTAsIHdpZHRoUGN0OiAzNiwgbWF4SGVpZ2h0UGN0OiAxOCwKICAgICAgICAgIHJvdGF0ZTogMS44LCBza2luVmFyaWFudDogJ21pbnQnIH0sCiAgICAgICAgeyBpZDogJ0UnLCBzbG90Um9sZTogJ21vb2QtY2FyZCcsIGNoYXJCdWRnZXQ6IFsxMCwgMzBdLCBlbGlnaWJsZUF1dGhvcnM6IFsndXNlcicsICdjaGFyJ10sCiAgICAgICAgICBoaW50OiAn5LuK5pel5b+D5oOFICsg6K+E5YiGJywKICAgICAgICAgIHhQY3Q6IDYsIHlQY3Q6IDcwLCB3aWR0aFBjdDogMzAsIG1heEhlaWdodFBjdDogMTQsCiAgICAgICAgICBza2luVmFyaWFudDogJ3Jvc2UnIH0sCiAgICAgICAgeyBpZDogJ0YnLCBzbG90Um9sZTogJ21vb2QtY2FyZCcsIGNoYXJCdWRnZXQ6IFsxMCwgMzBdLCBlbGlnaWJsZUF1dGhvcnM6IFsnY2hhciddLAogICAgICAgICAgaGludDogJ+afkOinkuiJsuW/g+aDheWNoSAo5YaZ6Ieq5bex5LuK5aSp55qEKScsCiAgICAgICAgICB4UGN0OiAzOCwgeVBjdDogNzAsIHdpZHRoUGN0OiAzMCwgbWF4SGVpZ2h0UGN0OiAxNCwKICAgICAgICAgIHNraW5WYXJpYW50OiAnc2t5JyB9LAogICAgICAgIHsgaWQ6ICdHJywgc2xvdFJvbGU6ICdjb3JuZXItbm90ZScsIGNoYXJCdWRnZXQ6IFs2LCAyMl0sIGVsaWdpYmxlQXV0aG9yczogWyd1c2VyJywgJ2NoYXInXSwKICAgICAgICAgIGhpbnQ6ICfovrnop5LlsI/lrZcnLCB4UGN0OiA3MCwgeVBjdDogNzAsIHdpZHRoUGN0OiAyNCwgbWF4SGVpZ2h0UGN0OiA4LCByb3RhdGU6IDIgfSwKICAgICAgICB7IGlkOiAnSCcsIHNsb3RSb2xlOiAnY29ybmVyLW5vdGUnLCBjaGFyQnVkZ2V0OiBbNiwgMjJdLCBlbGlnaWJsZUF1dGhvcnM6IFsndXNlcicsICdjaGFyJ10sCiAgICAgICAgICBoaW50OiAn5Y+m5LiA5Y+l5bCP5a2XJywgeFBjdDogNiwgeVBjdDogODQsIHdpZHRoUGN0OiAyOCwgbWF4SGVpZ2h0UGN0OiA3LCByb3RhdGU6IC0xLjYgfSwKICAgICAgICB7IGlkOiAnSScsIHNsb3RSb2xlOiAnY29ybmVyLW5vdGUnLCBjaGFyQnVkZ2V0OiBbNiwgMjJdLCBlbGlnaWJsZUF1dGhvcnM6IFsndXNlcicsICdjaGFyJ10sCiAgICAgICAgICBoaW50OiAn5Y+m5LiA5Y+l5bCP5a2XJywgeFBjdDogMzYsIHlQY3Q6IDg0LCB3aWR0aFBjdDogMjgsIG1heEhlaWdodFBjdDogNywgcm90YXRlOiAxLjQgfSwKICAgICAgICB7IGlkOiAnSicsIHNsb3RSb2xlOiAnY29ybmVyLW5vdGUnLCBjaGFyQnVkZ2V0OiBbNiwgMjJdLCBlbGlnaWJsZUF1dGhvcnM6IFsnY2hhciddLAogICAgICAgICAgaGludDogJ+afkOinkuiJsuS4gOWPpeWwj+Wtl+eLrOeZvScsIHhQY3Q6IDY2LCB5UGN0OiA4NCwgd2lkdGhQY3Q6IDI4LCBtYXhIZWlnaHRQY3Q6IDcsIHJvdGF0ZTogLTIgfSwKICAgIF1dLAp9OwoKLy8g4pSA4pSA4pSAIEQgwrcgcXVpZXQtZGF5IMK3IOWuiemdmeeahOS4gOWkqSDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIAKY29uc3QgUVVJRVRfREFZOiBMYXlvdXRUZW1wbGF0ZSA9IHsKICAgIGlkOiAncXVpZXQtZGF5JywKICAgIG5hbWU6ICflronpnZnnmoTkuIDlpKknLAogICAgc3VpdEZvcjogJ3VzZXIg5b2T5aSp6IGK5aSp5bCRIC8g5oOz6KaB6KeS6Imy5Lus6Lev6L+H55WZ56yU55qE5pys5a2QJywKICAgIHBhcGVyU3R5bGU6ICdncmlkJywKICAgIHBhZ2VzOiBbWwogICAgICAgIHsgaWQ6ICdBJywgc2xvdFJvbGU6ICdoZXJvLWRpYXJ5JywgY2hhckJ1ZGdldDogWzQwLCAxMTBdLCBlbGlnaWJsZUF1dGhvcnM6IFsndXNlcicsICdjaGFyJ10sCiAgICAgICAgICBoaW50OiAn5LuK5aSp55qE5LiA5q616K6w5b2VLCDosIHlhpnpg73ooYwgKOinkuiJsuWPr+S7peWGmeiHquW3seS7iuWkqeeahOS6iyknLAogICAgICAgICAgeFBjdDogOCwgeVBjdDogMjIsIHdpZHRoUGN0OiA1NiwgbWF4SGVpZ2h0UGN0OiAzMCwgaXNIZXJvOiB0cnVlIH0sCiAgICAgICAgeyBpZDogJ0InLCBzbG90Um9sZTogJ21vb2QtY2FyZCcsIGNoYXJCdWRnZXQ6IFsxMCwgMzBdLCBlbGlnaWJsZUF1dGhvcnM6IFsndXNlcicsICdjaGFyJ10sCiAgICAgICAgICBoaW50OiAn5LuK5pel5b+D5oOFICsg6K+E5YiGJywKICAgICAgICAgIHhQY3Q6IDgsIHlQY3Q6IDYsIHdpZHRoUGN0OiA1NiwgbWF4SGVpZ2h0UGN0OiAxMiwKICAgICAgICAgIHNraW5WYXJpYW50OiAncm9zZScgfSwKICAgICAgICB7IGlkOiAnQycsIHNsb3RSb2xlOiAnbW9vZC1jYXJkJywgY2hhckJ1ZGdldDogWzEwLCAzMF0sIGVsaWdpYmxlQXV0aG9yczogWydjaGFyJ10sCiAgICAgICAgICBoaW50OiAn5p+Q6KeS6Imy5b+D5oOF5Y2hICjlhpnoh6rlt7HnmoQpJywKICAgICAgICAgIHhQY3Q6IDY4LCB5UGN0OiA2LCB3aWR0aFBjdDogMjYsIG1heEhlaWdodFBjdDogMTIsCiAgICAgICAgICBza2luVmFyaWFudDogJ2xhdmVuZGVyJyB9LAogICAgICAgIHsgaWQ6ICdEJywgc2xvdFJvbGU6ICdtb29kLWNhcmQnLCBjaGFyQnVkZ2V0OiBbMTAsIDMwXSwgZWxpZ2libGVBdXRob3JzOiBbJ2NoYXInXSwKICAgICAgICAgIGhpbnQ6ICflj6bkuIDkuKrop5LoibLlv4Pmg4XljaEnLCB4UGN0OiA2OCwgeVBjdDogMjIsIHdpZHRoUGN0OiAyNiwgbWF4SGVpZ2h0UGN0OiAxMiwKICAgICAgICAgIHNraW5WYXJpYW50OiAnc2t5JyB9LAogICAgICAgIHsgaWQ6ICdFJywgc2xvdFJvbGU6ICdjb3JuZXItbm90ZScsIGNoYXJCdWRnZXQ6IFs2LCAyMF0sIGVsaWdpYmxlQXV0aG9yczogWyd1c2VyJywgJ2NoYXInXSwKICAgICAgICAgIGhpbnQ6ICfkuIDlj6XlsI/lrZcsIOS7u+S9leS6uicsIHhQY3Q6IDYwLCB5UGN0OiA1Niwgd2lkdGhQY3Q6IDMyLCBtYXhIZWlnaHRQY3Q6IDgsIHJvdGF0ZTogLTIgfSwKICAgICAgICB7IGlkOiAnRicsIHNsb3RSb2xlOiAnY29ybmVyLW5vdGUnLCBjaGFyQnVkZ2V0OiBbNiwgMjBdLCBlbGlnaWJsZUF1dGhvcnM6IFsndXNlcicsICdjaGFyJ10sCiAgICAgICAgICBoaW50OiAn5Y+m5LiA5Y+l5bCP5a2XJywgeFBjdDogOCwgeVBjdDogNTYsIHdpZHRoUGN0OiAzMCwgbWF4SGVpZ2h0UGN0OiA4LCByb3RhdGU6IDEuNiB9LAogICAgICAgIHsgaWQ6ICdHJywgc2xvdFJvbGU6ICdjb3JuZXItbm90ZScsIGNoYXJCdWRnZXQ6IFs2LCAyMF0sIGVsaWdpYmxlQXV0aG9yczogWyd1c2VyJywgJ2NoYXInXSwKICAgICAgICAgIGhpbnQ6ICflj6bkuIDlj6XlsI/lrZcnLCB4UGN0OiA4LCB5UGN0OiA2OCwgd2lkdGhQY3Q6IDMwLCBtYXhIZWlnaHRQY3Q6IDgsIHJvdGF0ZTogLTEuNCB9LAogICAgICAgIHsgaWQ6ICdIJywgc2xvdFJvbGU6ICdjb3JuZXItbm90ZScsIGNoYXJCdWRnZXQ6IFs2LCAyMF0sIGVsaWdpYmxlQXV0aG9yczogWyd1c2VyJywgJ2NoYXInXSwKICAgICAgICAgIGhpbnQ6ICflj6bkuIDlj6XlsI/lrZcnLCB4UGN0OiA0MCwgeVBjdDogNjgsIHdpZHRoUGN0OiAyOCwgbWF4SGVpZ2h0UGN0OiA4LCByb3RhdGU6IDIgfSwKICAgICAgICB7IGlkOiAnSScsIHNsb3RSb2xlOiAnc3RpY2t5LXJlYWN0aW9uJywgY2hhckJ1ZGdldDogWzEyLCA0MF0sIGVsaWdpYmxlQXV0aG9yczogWydjaGFyJ10sCiAgICAgICAgICBoaW50OiAn5Y+N5bqU5Yir5Lq65YaZ55qEIChyZWZlcnNUbyknLAogICAgICAgICAgeFBjdDogNTYsIHlQY3Q6IDc4LCB3aWR0aFBjdDogMzYsIG1heEhlaWdodFBjdDogMTQsCiAgICAgICAgICByb3RhdGU6IDEuMiwgc2tpblZhcmlhbnQ6ICdtaW50JyB9LAogICAgICAgIHsgaWQ6ICdKJywgc2xvdFJvbGU6ICdjb3JuZXItbm90ZScsIGNoYXJCdWRnZXQ6IFs2LCAyMF0sIGVsaWdpYmxlQXV0aG9yczogWydjaGFyJ10sCiAgICAgICAgICBoaW50OiAn6aG16ISa5LiA5Y+lLCDop5LoibLni6znmb0nLCB4UGN0OiA4LCB5UGN0OiA4Niwgd2lkdGhQY3Q6IDMyLCBtYXhIZWlnaHRQY3Q6IDgsIHJvdGF0ZTogLTEuOCB9LAogICAgXV0sCn07CgovLyDilIDilIDilIAgRSDCtyBlbnNlbWJsZS1kYXkgwrcg576k5YOP54Ot6Ze55pelIOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgApjb25zdCBFTlNFTUJMRV9EQVk6IExheW91dFRlbXBsYXRlID0gewogICAgaWQ6ICdlbnNlbWJsZS1kYXknLAogICAgbmFtZTogJ+e+pOWDj+eDremXueaXpScsCiAgICBzdWl0Rm9yOiAn5b2T5aSp5pyJIOKJpSAzIOS4quinkuiJsiwg5aSn5a625YWx5YaZJywKICAgIHBhcGVyU3R5bGU6ICdkb3QnLAogICAgcGFnZXM6IFtbCiAgICAgICAgeyBpZDogJ0EnLCBzbG90Um9sZTogJ2hlcm8tZGlhcnknLCBjaGFyQnVkZ2V0OiBbNjAsIDE0MF0sIGVsaWdpYmxlQXV0aG9yczogWyd1c2VyJywgJ2NoYXInXSwKICAgICAgICAgIGhpbnQ6ICfku4rml6XkuLvnur/ml6XorrAsIOesrOS4gOS6uuensCwg6LCB5YaZ6YO96KGMJywKICAgICAgICAgIHhQY3Q6IDYsIHlQY3Q6IDgsIHdpZHRoUGN0OiA1NCwgbWF4SGVpZ2h0UGN0OiAzNiwgaXNIZXJvOiB0cnVlIH0sCiAgICAgICAgeyBpZDogJ0InLCBzbG90Um9sZTogJ3N0aWNreS1yZWFjdGlvbicsIGNoYXJCdWRnZXQ6IFsxOCwgNTBdLCBlbGlnaWJsZUF1dGhvcnM6IFsnY2hhciddLAogICAgICAgICAgaGludDogJ+WPjeW6lOW3suWhq+afkOadoSAocmVmZXJzVG8pJywKICAgICAgICAgIHhQY3Q6IDYzLCB5UGN0OiA4LCB3aWR0aFBjdDogMzIsIG1heEhlaWdodFBjdDogMTQsCiAgICAgICAgICByb3RhdGU6IDEuOCwgc2tpblZhcmlhbnQ6ICdsYXZlbmRlcicgfSwKICAgICAgICB7IGlkOiAnQycsIHNsb3RSb2xlOiAnbW9vZC1jYXJkJywgY2hhckJ1ZGdldDogWzEwLCAzMF0sIGVsaWdpYmxlQXV0aG9yczogWyd1c2VyJywgJ2NoYXInXSwKICAgICAgICAgIGhpbnQ6ICflv4Pmg4XljaEsIOiwgeWGmemDveihjCcsCiAgICAgICAgICB4UGN0OiA2MywgeVBjdDogMjQsIHdpZHRoUGN0OiAzMiwgbWF4SGVpZ2h0UGN0OiAxNCwKICAgICAgICAgIHNraW5WYXJpYW50OiAnbWludCcgfSwKICAgICAgICB7IGlkOiAnRCcsIHNsb3RSb2xlOiAnc3RpY2t5LXJlYWN0aW9uJywgY2hhckJ1ZGdldDogWzE4LCA1MF0sIGVsaWdpYmxlQXV0aG9yczogWydjaGFyJ10sCiAgICAgICAgICBoaW50OiAn5Y+m5LiA5p2h5Y+N5bqUJywKICAgICAgICAgIHhQY3Q6IDYzLCB5UGN0OiA0MCwgd2lkdGhQY3Q6IDMyLCBtYXhIZWlnaHRQY3Q6IDE0LAogICAgICAgICAgcm90YXRlOiAtMS40LCBza2luVmFyaWFudDogJ3Jvc2UnIH0sCiAgICAgICAgeyBpZDogJ0UnLCBzbG90Um9sZTogJ21vb2QtY2FyZCcsIGNoYXJCdWRnZXQ6IFsxMCwgMzBdLCBlbGlnaWJsZUF1dGhvcnM6IFsnY2hhciddLAogICAgICAgICAgaGludDogJ+afkOinkuiJsuW/g+aDhSAo5YaZ6Ieq5bexKScsIHhQY3Q6IDYzLCB5UGN0OiA1Niwgd2lkdGhQY3Q6IDMyLCBtYXhIZWlnaHRQY3Q6IDEyLAogICAgICAgICAgc2tpblZhcmlhbnQ6ICdza3knIH0sCiAgICAgICAgeyBpZDogJ0YnLCBzbG90Um9sZTogJ2dyYXRpdHVkZScsIGNoYXJCdWRnZXQ6IFsyNSwgNzBdLCBlbGlnaWJsZUF1dGhvcnM6IFsndXNlciddLAogICAgICAgICAgaGludDogJ3VzZXIg5LuK5pel5oSf5oGpIDMg5p2hICjiiaQyMiDlrZcgLyDmnaEpJywKICAgICAgICAgIHhQY3Q6IDYsIHlQY3Q6IDQ2LCB3aWR0aFBjdDogNTQsIG1heEhlaWdodFBjdDogMTggfSwKICAgICAgICB7IGlkOiAnRycsIHNsb3RSb2xlOiAnY29ybmVyLW5vdGUnLCBjaGFyQnVkZ2V0OiBbNiwgMjJdLCBlbGlnaWJsZUF1dGhvcnM6IFsndXNlcicsICdjaGFyJ10sCiAgICAgICAgICBoaW50OiAn6L656KeS5bCP5a2XJywgeFBjdDogNiwgeVBjdDogNjYsIHdpZHRoUGN0OiAyNiwgbWF4SGVpZ2h0UGN0OiA4LCByb3RhdGU6IC0xLjUgfSwKICAgICAgICB7IGlkOiAnSCcsIHNsb3RSb2xlOiAnY29ybmVyLW5vdGUnLCBjaGFyQnVkZ2V0OiBbNiwgMjJdLCBlbGlnaWJsZUF1dGhvcnM6IFsndXNlcicsICdjaGFyJ10sCiAgICAgICAgICBoaW50OiAn5Y+m5LiA5Y+lJywgeFBjdDogMzIsIHlQY3Q6IDY2LCB3aWR0aFBjdDogMjYsIG1heEhlaWdodFBjdDogOCwgcm90YXRlOiAxLjYgfSwKICAgICAgICB7IGlkOiAnSScsIHNsb3RSb2xlOiAnY29ybmVyLW5vdGUnLCBjaGFyQnVkZ2V0OiBbNiwgMjJdLCBlbGlnaWJsZUF1dGhvcnM6IFsndXNlcicsICdjaGFyJ10sCiAgICAgICAgICBoaW50OiAn5Y+m5LiA5Y+lJywgeFBjdDogNiwgeVBjdDogNzYsIHdpZHRoUGN0OiAyNiwgbWF4SGVpZ2h0UGN0OiA4LCByb3RhdGU6IDIgfSwKICAgICAgICB7IGlkOiAnSicsIHNsb3RSb2xlOiAnY29ybmVyLW5vdGUnLCBjaGFyQnVkZ2V0OiBbNiwgMjJdLCBlbGlnaWJsZUF1dGhvcnM6IFsndXNlcicsICdjaGFyJ10sCiAgICAgICAgICBoaW50OiAn5Y+m5LiA5Y+lJywgeFBjdDogMzIsIHlQY3Q6IDc2LCB3aWR0aFBjdDogMjYsIG1heEhlaWdodFBjdDogOCwgcm90YXRlOiAtMS44IH0sCiAgICAgICAgeyBpZDogJ0snLCBzbG90Um9sZTogJ2Nvcm5lci1ub3RlJywgY2hhckJ1ZGdldDogWzYsIDIyXSwgZWxpZ2libGVBdXRob3JzOiBbJ3VzZXInLCAnY2hhciddLAogICAgICAgICAgaGludDogJ+mhteiEmuS4gOWPpScsIHhQY3Q6IDYsIHlQY3Q6IDg2LCB3aWR0aFBjdDogMjgsIG1heEhlaWdodFBjdDogNywgcm90YXRlOiAtMiB9LAogICAgICAgIHsgaWQ6ICdMJywgc2xvdFJvbGU6ICdjb3JuZXItbm90ZScsIGNoYXJCdWRnZXQ6IFs2LCAyMl0sIGVsaWdpYmxlQXV0aG9yczogWydjaGFyJ10sCiAgICAgICAgICBoaW50OiAn5p+Q6KeS6Imy6aG16ISa5LiA5Y+l54us55m9JywgeFBjdDogMzYsIHlQY3Q6IDg2LCB3aWR0aFBjdDogMjgsIG1heEhlaWdodFBjdDogNywgcm90YXRlOiAxLjYgfSwKICAgIF1dLAp9OwoKLy8g4pSA4pSA4pSAIEYgwrcgdG9kby1mb2N1cyDCtyDlvoXlip7kuLvlr7wg4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSACmNvbnN0IFRPRE9fRk9DVVM6IExheW91dFRlbXBsYXRlID0gewogICAgaWQ6ICd0b2RvLWZvY3VzJywKICAgIG5hbWU6ICflvoXlip7kuLvlr7wnLAogICAgc3VpdEZvcjogJ3VzZXIg5YGP5Yqf6IO95Z6L6K6w5b2VLCDku4rlpKnlsLHmmK/mnaXmiZPli77nmoQnLAogICAgcGFwZXJTdHlsZTogJ2dyaWQnLAogICAgcGFnZXM6IFtbCiAgICAgICAgeyBpZDogJ0EnLCBzbG90Um9sZTogJ3RvZG8nLCBjaGFyQnVkZ2V0OiBbNTAsIDEzMF0sIGVsaWdpYmxlQXV0aG9yczogWyd1c2VyJ10sCiAgICAgICAgICBoaW50OiAndXNlciDku4rml6XlvoXlip4sIDV+OCDpobksIOavj+mhuSDiiaQgMTYg5a2XJywKICAgICAgICAgIHhQY3Q6IDYsIHlQY3Q6IDgsIHdpZHRoUGN0OiA1NiwgbWF4SGVpZ2h0UGN0OiA1MCwgaXNIZXJvOiB0cnVlIH0sCiAgICAgICAgeyBpZDogJ0InLCBzbG90Um9sZTogJ21vb2QtY2FyZCcsIGNoYXJCdWRnZXQ6IFsxMCwgMzBdLCBlbGlnaWJsZUF1dGhvcnM6IFsndXNlcicsICdjaGFyJ10sCiAgICAgICAgICBoaW50OiAn5LuK5pel5b+D5oOFICsg6K+E5YiGJywKICAgICAgICAgIHhQY3Q6IDY1LCB5UGN0OiA4LCB3aWR0aFBjdDogMzAsIG1heEhlaWdodFBjdDogMTQsCiAgICAgICAgICBza2luVmFyaWFudDogJ2xhdmVuZGVyJyB9LAogICAgICAgIHsgaWQ6ICdDJywgc2xvdFJvbGU6ICdzdGlja3ktcmVhY3Rpb24nLCBjaGFyQnVkZ2V0OiBbMTUsIDQ1XSwgZWxpZ2libGVBdXRob3JzOiBbJ2NoYXInXSwKICAgICAgICAgIGhpbnQ6ICfnnIvliLAgdXNlciDnmoQgdG9kbywg5ZCQ5qe95p+Q5LiA6aG5IChyZWZlcnNUbyknLAogICAgICAgICAgeFBjdDogNjUsIHlQY3Q6IDI0LCB3aWR0aFBjdDogMzAsIG1heEhlaWdodFBjdDogMTQsCiAgICAgICAgICByb3RhdGU6IDEuNiwgc2tpblZhcmlhbnQ6ICdtaW50JyB9LAogICAgICAgIHsgaWQ6ICdEJywgc2xvdFJvbGU6ICdzdGlja3ktcmVhY3Rpb24nLCBjaGFyQnVkZ2V0OiBbMTUsIDQ1XSwgZWxpZ2libGVBdXRob3JzOiBbJ2NoYXInXSwKICAgICAgICAgIGhpbnQ6ICflj6bkuIDkuKrop5LoibIgLyDlj6bkuIDpobkgdG9kbycsCiAgICAgICAgICB4UGN0OiA2NSwgeVBjdDogNDAsIHdpZHRoUGN0OiAzMCwgbWF4SGVpZ2h0UGN0OiAxNCwKICAgICAgICAgIHJvdGF0ZTogLTEuMiwgc2tpblZhcmlhbnQ6ICdyb3NlJyB9LAogICAgICAgIHsgaWQ6ICdFJywgc2xvdFJvbGU6ICdtb29kLWNhcmQnLCBjaGFyQnVkZ2V0OiBbMTAsIDMwXSwgZWxpZ2libGVBdXRob3JzOiBbJ2NoYXInXSwKICAgICAgICAgIGhpbnQ6ICfmn5Dop5LoibLlv4Pmg4XljaEgKOWGmeiHquW3seS7iuWkqSknLAogICAgICAgICAgeFBjdDogNjUsIHlQY3Q6IDU2LCB3aWR0aFBjdDogMzAsIG1heEhlaWdodFBjdDogMTIsCiAgICAgICAgICBza2luVmFyaWFudDogJ3NreScgfSwKICAgICAgICB7IGlkOiAnRicsIHNsb3RSb2xlOiAnY29ybmVyLW5vdGUnLCBjaGFyQnVkZ2V0OiBbNiwgMjBdLCBlbGlnaWJsZUF1dGhvcnM6IFsndXNlcicsICdjaGFyJ10sCiAgICAgICAgICBoaW50OiAn6L656KeS5LiA5Y+l54us55m9JywgeFBjdDogNiwgeVBjdDogNjAsIHdpZHRoUGN0OiAyOCwgbWF4SGVpZ2h0UGN0OiA3LCByb3RhdGU6IC0yIH0sCiAgICAgICAgeyBpZDogJ0cnLCBzbG90Um9sZTogJ2Nvcm5lci1ub3RlJywgY2hhckJ1ZGdldDogWzYsIDIwXSwgZWxpZ2libGVBdXRob3JzOiBbJ3VzZXInLCAnY2hhciddLAogICAgICAgICAgaGludDogJ+WPpuS4gOWPpeWwj+WtlycsIHhQY3Q6IDM0LCB5UGN0OiA2MCwgd2lkdGhQY3Q6IDI4LCBtYXhIZWlnaHRQY3Q6IDcsIHJvdGF0ZTogMS40IH0sCiAgICAgICAgeyBpZDogJ0gnLCBzbG90Um9sZTogJ2Nvcm5lci1ub3RlJywgY2hhckJ1ZGdldDogWzYsIDIwXSwgZWxpZ2libGVBdXRob3JzOiBbJ3VzZXInLCAnY2hhciddLAogICAgICAgICAgaGludDogJ+WPpuS4gOWPpeWwj+WtlycsIHhQY3Q6IDYsIHlQY3Q6IDcwLCB3aWR0aFBjdDogMjgsIG1heEhlaWdodFBjdDogNywgcm90YXRlOiAyIH0sCiAgICAgICAgeyBpZDogJ0knLCBzbG90Um9sZTogJ2Nvcm5lci1ub3RlJywgY2hhckJ1ZGdldDogWzYsIDIwXSwgZWxpZ2libGVBdXRob3JzOiBbJ3VzZXInLCAnY2hhciddLAogICAgICAgICAgaGludDogJ+WPpuS4gOWPpeWwj+WtlycsIHhQY3Q6IDM0LCB5UGN0OiA3MCwgd2lkdGhQY3Q6IDI4LCBtYXhIZWlnaHRQY3Q6IDcsIHJvdGF0ZTogLTEuNiB9LAogICAgICAgIHsgaWQ6ICdKJywgc2xvdFJvbGU6ICdjb3JuZXItbm90ZScsIGNoYXJCdWRnZXQ6IFs2LCAyMF0sIGVsaWdpYmxlQXV0aG9yczogWydjaGFyJ10sCiAgICAgICAgICBoaW50OiAn5p+Q6KeS6Imy6aG16ISa54us55m9ICjlhpnoh6rlt7EpJywgeFBjdDogNiwgeVBjdDogODYsIHdpZHRoUGN0OiAzMiwgbWF4SGVpZ2h0UGN0OiA3LCByb3RhdGU6IC0xLjggfSwKICAgICAgICB7IGlkOiAnSycsIHNsb3RSb2xlOiAnY29ybmVyLW5vdGUnLCBjaGFyQnVkZ2V0OiBbNiwgMjBdLCBlbGlnaWJsZUF1dGhvcnM6IFsnY2hhciddLAogICAgICAgICAgaGludDogJ+WPpuS4gOS4quinkuiJsuS4gOWPpeeLrOeZvScsIHhQY3Q6IDQwLCB5UGN0OiA4Niwgd2lkdGhQY3Q6IDI4LCBtYXhIZWlnaHRQY3Q6IDcsIHJvdGF0ZTogMS42IH0sCiAgICBdXSwKfTsKCi8vIOKUgOKUgOKUgCDmqKHmnb/ooagg4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSACmV4cG9ydCBjb25zdCBMQVlPVVRfVEVNUExBVEVTOiBSZWNvcmQ8c3RyaW5nLCBMYXlvdXRUZW1wbGF0ZT4gPSB7CiAgICAncGxhbi1kYXknOiBQTEFOX0RBWSwKICAgICdyZWZsZWN0aXZlLWRheSc6IFJFRkxFQ1RJVkVfREFZLAogICAgJ3Bob3RvLWRheSc6IFBIT1RPX0RBWSwKICAgICdxdWlldC1kYXknOiBRVUlFVF9EQVksCiAgICAnZW5zZW1ibGUtZGF5JzogRU5TRU1CTEVfREFZLAogICAgJ3RvZG8tZm9jdXMnOiBUT0RPX0ZPQ1VTLAp9OwoKZXhwb3J0IGNvbnN0IFRFTVBMQVRFX0lEUyA9IE9iamVjdC5rZXlzKExBWU9VVF9URU1QTEFURVMpOwoKLyoqCiAqIOaMieW9k+aXpeadoeS7tumAieaooeadv+OAggogKgogKiDop4TliJk6CiAqICAtIHVzZXJNc2dDb3VudCA8IDQgICAgICAgICAgICAgICDihpIgcXVpZXQtZGF5CiAqICAtIHVzZXJIYXNQaG90b0ludGVudCA9PT0gdHJ1ZSAgICDihpIgcGhvdG8tZGF5CiAqICAtIGNoYXJDb3VudCA+PSAzICAgICAgICAgICAgICAgICDihpIgZW5zZW1ibGUtZGF5CiAqICAtIHVzZXJNc2dDb3VudCA+PSA4ICAgICAgICAgICAgICDihpIgcmVmbGVjdGl2ZS1kYXkKICogIC0g5YW25a6DICAgICAgICAgICAgICAgICAgICAgICAgICAgIOKGkiBwbGFuLWRheQogKgogKiB0b2RvLWZvY3VzIOS4jeS8muiiq+iHquWKqOmAiSAodXNlciDkuLvliqjmjJEp44CCCiAqLwpleHBvcnQgZnVuY3Rpb24gcGlja1RlbXBsYXRlKG9wdHM6IHsKICAgIHVzZXJNc2dDb3VudDogbnVtYmVyOwogICAgY2hhckNvdW50OiBudW1iZXI7CiAgICB1c2VySGFzUGhvdG9JbnRlbnQ/OiBib29sZWFuOwp9KTogTGF5b3V0VGVtcGxhdGUgewogICAgaWYgKG9wdHMudXNlckhhc1Bob3RvSW50ZW50KSByZXR1cm4gUEhPVE9fREFZOwogICAgaWYgKG9wdHMudXNlck1zZ0NvdW50IDwgNCkgcmV0dXJuIFFVSUVUX0RBWTsKICAgIGlmIChvcHRzLmNoYXJDb3VudCA+PSAzKSByZXR1cm4gRU5TRU1CTEVfREFZOwogICAgaWYgKG9wdHMudXNlck1zZ0NvdW50ID49IDgpIHJldHVybiBSRUZMRUNUSVZFX0RBWTsKICAgIHJldHVybiBQTEFOX0RBWTsKfQoKZXhwb3J0IGZ1bmN0aW9uIGdldFRlbXBsYXRlKGlkOiBzdHJpbmcpOiBMYXlvdXRUZW1wbGF0ZSB8IG51bGwgewogICAgcmV0dXJuIExBWU9VVF9URU1QTEFURVNbaWRdIHx8IG51bGw7Cn0K
+/**
+ * 手账内页版式库 (v2)
+ *
+ * 6 套预置模板。一份 template = 一组带位置/容量/可写者/语义角色的槽 (SlotDef)。
+ * orchestrator 按当天 user 活跃度 + 角色数选模板,
+ * user 一次填 2~3 个 user 槽, 每个角色一次填 2~5 个槽 (own diary + corner notes
+ * + 可选 sticky), 想全填满需要 3~4 个角色参与才行, 所以每个 template 都设 10~13 个槽。
+ *
+ * 哲学: "大家共写的一本手账", 不是 "user 主写 + 角色伴奏"。
+ *  - user 没素材就完全跳过 user 步, 不留假货
+ *  - hero-diary / mood-card / corner-note 都 user|char 共写
+ *  - 角色被鼓励"造谣"自己今天的生活流, 不要把过去的事编进今天
+ *  - 只有 timeline-plan / todo / gratitude / photo-caption 是 user 专属
+ *  - sticky-reaction 永远 char-only, 永远要 refersTo
+ *
+ * 设计规则:
+ *  - 每页 10~13 个槽, 让 1 user + 3~4 char 都能各自留几条
+ *  - 槽总占比 < 80%, 留 ≥ 20% 真实留白
+ *  - 每页 ≤ 1 个 hero (isHero=true)
+ *
+ * 坐标都是 % of 整页 (左侧 ~6% 留给装订环, 顶/底各留 ~6%)。
+ */
+
+import { LayoutTemplate } from '../types';
+
+// ─── A · plan-day · 计划型一日 ────────────────────────────
+const PLAN_DAY: LayoutTemplate = {
+    id: 'plan-day',
+    name: '计划型一日',
+    suitFor: 'user 早上想理清今天要做什么',
+    paperStyle: 'dot',
+    pages: [[
+        { id: 'A', slotRole: 'timeline-plan', charBudget: [40, 110], eligibleAuthors: ['user'],
+          hint: 'user 今天的时间表, 6~8 行, 每行 时间 + 一句要做的事(≤12 字)',
+          xPct: 6, yPct: 8, widthPct: 52, maxHeightPct: 42, isHero: true },
+        { id: 'B', slotRole: 'mood-card', charBudget: [12, 40], eligibleAuthors: ['user', 'char'],
+          hint: '今日心情速记 (≤30 字) + 1~5 颗星',
+          xPct: 62, yPct: 8, widthPct: 32, maxHeightPct: 18,
+          rotate: 1.5, skinVariant: 'lavender' },
+        { id: 'C', slotRole: 'todo', charBudget: [30, 80], eligibleAuthors: ['user'],
+          hint: 'user 今日待办, 3~5 项, 每项 ≤ 14 字',
+          xPct: 62, yPct: 28, widthPct: 32, maxHeightPct: 22 },
+        { id: 'D', slotRole: 'sticky-reaction', charBudget: [15, 50], eligibleAuthors: ['char'],
+          hint: '看到本页某条已填的内容 (引用 slotId), 吐槽/捧场/补刀',
+          xPct: 62, yPct: 52, widthPct: 32, maxHeightPct: 14,
+          rotate: -1.2, skinVariant: 'mint' },
+        { id: 'E', slotRole: 'sticky-reaction', charBudget: [15, 50], eligibleAuthors: ['char'],
+          hint: '另一条反应, 不要重复 D 引的同一条',
+          xPct: 62, yPct: 68, widthPct: 32, maxHeightPct: 14,
+          rotate: 1.5, skinVariant: 'rose' },
+        { id: 'F', slotRole: 'mood-card', charBudget: [10, 30], eligibleAuthors: ['char'],
+          hint: '某角色今天的心情卡 (写自己的, 跟 user 无关)',
+          xPct: 62, yPct: 84, widthPct: 32, maxHeightPct: 12,
+          skinVariant: 'sky' },
+        { id: 'G', slotRole: 'corner-note', charBudget: [6, 20], eligibleAuthors: ['user', 'char'],
+          hint: '边角小字, 一句独白/感叹', xPct: 8, yPct: 52, widthPct: 26, maxHeightPct: 8,
+          rotate: -2 },
+        { id: 'H', slotRole: 'corner-note', charBudget: [6, 20], eligibleAuthors: ['user', 'char'],
+          hint: '另一句小字', xPct: 36, yPct: 52, widthPct: 24, maxHeightPct: 8, rotate: 1.6 },
+        { id: 'I', slotRole: 'corner-note', charBudget: [6, 20], eligibleAuthors: ['user', 'char'],
+          hint: '另一句小字 (任何人)', xPct: 8, yPct: 64, widthPct: 26, maxHeightPct: 8, rotate: 2 },
+        { id: 'J', slotRole: 'corner-note', charBudget: [6, 20], eligibleAuthors: ['user', 'char'],
+          hint: '另一句小字', xPct: 36, yPct: 64, widthPct: 24, maxHeightPct: 8, rotate: -1.4 },
+        { id: 'K', slotRole: 'corner-note', charBudget: [6, 20], eligibleAuthors: ['user', 'char'],
+          hint: '页脚一句', xPct: 8, yPct: 88, widthPct: 28, maxHeightPct: 8, rotate: -2 },
+    ]],
+};
+
+// ─── B · reflective-day · 反思型一日 ──────────────────────
+const REFLECTIVE_DAY: LayoutTemplate = {
+    id: 'reflective-day',
+    name: '反思型一日',
+    suitFor: 'user 当天聊天 ≥ 8 句, 想写一段长日记',
+    paperStyle: 'lined',
+    pages: [[
+        { id: 'A', slotRole: 'hero-diary', charBudget: [80, 180], eligibleAuthors: ['user', 'char'],
+          hint: '今日主日记本体, 第一人称。可以是 user 也可以是某角色写自己今天的生活流',
+          xPct: 6, yPct: 8, widthPct: 56, maxHeightPct: 42, isHero: true },
+        { id: 'B', slotRole: 'sticky-reaction', charBudget: [20, 60], eligibleAuthors: ['char'],
+          hint: '反应已填某条 (refersTo)',
+          xPct: 65, yPct: 8, widthPct: 30, maxHeightPct: 18,
+          rotate: 1.8, skinVariant: 'lavender' },
+        { id: 'C', slotRole: 'sticky-reaction', charBudget: [20, 60], eligibleAuthors: ['char'],
+          hint: '另一个反应 (引不同条)',
+          xPct: 65, yPct: 28, widthPct: 30, maxHeightPct: 18,
+          rotate: -1.5, skinVariant: 'mint' },
+        { id: 'D', slotRole: 'gratitude', charBudget: [30, 80], eligibleAuthors: ['user'],
+          hint: 'user 今日感恩 3 条 (≤22 字 / 条), 必须今天的事',
+          xPct: 6, yPct: 52, widthPct: 50, maxHeightPct: 20 },
+        { id: 'E', slotRole: 'mood-card', charBudget: [10, 30], eligibleAuthors: ['user', 'char'],
+          hint: '今日心情 + 评分 (谁的都行)',
+          xPct: 60, yPct: 50, widthPct: 32, maxHeightPct: 16,
+          rotate: 1, skinVariant: 'rose' },
+        { id: 'F', slotRole: 'mood-card', charBudget: [10, 30], eligibleAuthors: ['char'],
+          hint: '某角色的心情卡 (写自己, 别用 user 当主语)',
+          xPct: 60, yPct: 70, widthPct: 32, maxHeightPct: 14,
+          skinVariant: 'sky' },
+        { id: 'G', slotRole: 'corner-note', charBudget: [6, 22], eligibleAuthors: ['user', 'char'],
+          hint: '边角小字独白', xPct: 6, yPct: 76, widthPct: 26, maxHeightPct: 8, rotate: -1.8 },
+        { id: 'H', slotRole: 'corner-note', charBudget: [6, 22], eligibleAuthors: ['user', 'char'],
+          hint: '另一句小字', xPct: 34, yPct: 76, widthPct: 24, maxHeightPct: 8, rotate: 1.4 },
+        { id: 'I', slotRole: 'corner-note', charBudget: [6, 22], eligibleAuthors: ['user', 'char'],
+          hint: '另一句小字', xPct: 6, yPct: 86, widthPct: 24, maxHeightPct: 8, rotate: 2 },
+        { id: 'J', slotRole: 'corner-note', charBudget: [6, 22], eligibleAuthors: ['user', 'char'],
+          hint: '页脚一句', xPct: 32, yPct: 88, widthPct: 28, maxHeightPct: 7, rotate: -1.5 },
+        { id: 'K', slotRole: 'corner-note', charBudget: [6, 22], eligibleAuthors: ['char'],
+          hint: '某角色一句小字, 写自己今天看到/想到的',
+          xPct: 64, yPct: 88, widthPct: 28, maxHeightPct: 7, rotate: 1.8 },
+    ]],
+};
+
+// ─── C · photo-day · 图记一日 ─────────────────────────────
+const PHOTO_DAY: LayoutTemplate = {
+    id: 'photo-day',
+    name: '图记一日',
+    suitFor: 'user 今天有想配图的时刻',
+    paperStyle: 'plain',
+    pages: [[
+        { id: 'A', slotRole: 'photo-caption', charBudget: [10, 25], eligibleAuthors: ['user'],
+          hint: 'user 今天的一张照片 + 短描述 (≤25 字)',
+          xPct: 6, yPct: 8, widthPct: 44, maxHeightPct: 36, isHero: true },
+        { id: 'B', slotRole: 'hero-diary', charBudget: [60, 130], eligibleAuthors: ['user', 'char'],
+          hint: '围绕照片 / 当日的日记。可以是 user, 也可以是某角色写 ta 今天的事',
+          xPct: 53, yPct: 8, widthPct: 41, maxHeightPct: 36 },
+        { id: 'C', slotRole: 'sticky-reaction', charBudget: [20, 55], eligibleAuthors: ['char'],
+          hint: '看了照片 / 日记后的反应 (refersTo)',
+          xPct: 6, yPct: 48, widthPct: 36, maxHeightPct: 18,
+          rotate: -1.5, skinVariant: 'lavender' },
+        { id: 'D', slotRole: 'sticky-reaction', charBudget: [20, 55], eligibleAuthors: ['char'],
+          hint: '另一个反应',
+          xPct: 48, yPct: 50, widthPct: 36, maxHeightPct: 18,
+          rotate: 1.8, skinVariant: 'mint' },
+        { id: 'E', slotRole: 'mood-card', charBudget: [10, 30], eligibleAuthors: ['user', 'char'],
+          hint: '今日心情 + 评分',
+          xPct: 6, yPct: 70, widthPct: 30, maxHeightPct: 14,
+          skinVariant: 'rose' },
+        { id: 'F', slotRole: 'mood-card', charBudget: [10, 30], eligibleAuthors: ['char'],
+          hint: '某角色心情卡 (写自己今天的)',
+          xPct: 38, yPct: 70, widthPct: 30, maxHeightPct: 14,
+          skinVariant: 'sky' },
+        { id: 'G', slotRole: 'corner-note', charBudget: [6, 22], eligibleAuthors: ['user', 'char'],
+          hint: '边角小字', xPct: 70, yPct: 70, widthPct: 24, maxHeightPct: 8, rotate: 2 },
+        { id: 'H', slotRole: 'corner-note', charBudget: [6, 22], eligibleAuthors: ['user', 'char'],
+          hint: '另一句小字', xPct: 6, yPct: 84, widthPct: 28, maxHeightPct: 7, rotate: -1.6 },
+        { id: 'I', slotRole: 'corner-note', charBudget: [6, 22], eligibleAuthors: ['user', 'char'],
+          hint: '另一句小字', xPct: 36, yPct: 84, widthPct: 28, maxHeightPct: 7, rotate: 1.4 },
+        { id: 'J', slotRole: 'corner-note', charBudget: [6, 22], eligibleAuthors: ['char'],
+          hint: '某角色一句小字独白', xPct: 66, yPct: 84, widthPct: 28, maxHeightPct: 7, rotate: -2 },
+    ]],
+};
+
+// ─── D · quiet-day · 安静的一天 ────────────────────────────
+const QUIET_DAY: LayoutTemplate = {
+    id: 'quiet-day',
+    name: '安静的一天',
+    suitFor: 'user 当天聊天少 / 想要角色们路过留笔的本子',
+    paperStyle: 'grid',
+    pages: [[
+        { id: 'A', slotRole: 'hero-diary', charBudget: [40, 110], eligibleAuthors: ['user', 'char'],
+          hint: '今天的一段记录, 谁写都行 (角色可以写自己今天的事)',
+          xPct: 8, yPct: 22, widthPct: 56, maxHeightPct: 30, isHero: true },
+        { id: 'B', slotRole: 'mood-card', charBudget: [10, 30], eligibleAuthors: ['user', 'char'],
+          hint: '今日心情 + 评分',
+          xPct: 8, yPct: 6, widthPct: 56, maxHeightPct: 12,
+          skinVariant: 'rose' },
+        { id: 'C', slotRole: 'mood-card', charBudget: [10, 30], eligibleAuthors: ['char'],
+          hint: '某角色心情卡 (写自己的)',
+          xPct: 68, yPct: 6, widthPct: 26, maxHeightPct: 12,
+          skinVariant: 'lavender' },
+        { id: 'D', slotRole: 'mood-card', charBudget: [10, 30], eligibleAuthors: ['char'],
+          hint: '另一个角色心情卡', xPct: 68, yPct: 22, widthPct: 26, maxHeightPct: 12,
+          skinVariant: 'sky' },
+        { id: 'E', slotRole: 'corner-note', charBudget: [6, 20], eligibleAuthors: ['user', 'char'],
+          hint: '一句小字, 任何人', xPct: 60, yPct: 56, widthPct: 32, maxHeightPct: 8, rotate: -2 },
+        { id: 'F', slotRole: 'corner-note', charBudget: [6, 20], eligibleAuthors: ['user', 'char'],
+          hint: '另一句小字', xPct: 8, yPct: 56, widthPct: 30, maxHeightPct: 8, rotate: 1.6 },
+        { id: 'G', slotRole: 'corner-note', charBudget: [6, 20], eligibleAuthors: ['user', 'char'],
+          hint: '另一句小字', xPct: 8, yPct: 68, widthPct: 30, maxHeightPct: 8, rotate: -1.4 },
+        { id: 'H', slotRole: 'corner-note', charBudget: [6, 20], eligibleAuthors: ['user', 'char'],
+          hint: '另一句小字', xPct: 40, yPct: 68, widthPct: 28, maxHeightPct: 8, rotate: 2 },
+        { id: 'I', slotRole: 'sticky-reaction', charBudget: [12, 40], eligibleAuthors: ['char'],
+          hint: '反应别人写的 (refersTo)',
+          xPct: 56, yPct: 78, widthPct: 36, maxHeightPct: 14,
+          rotate: 1.2, skinVariant: 'mint' },
+        { id: 'J', slotRole: 'corner-note', charBudget: [6, 20], eligibleAuthors: ['char'],
+          hint: '页脚一句, 角色独白', xPct: 8, yPct: 86, widthPct: 32, maxHeightPct: 8, rotate: -1.8 },
+    ]],
+};
+
+// ─── E · ensemble-day · 群像热闹日 ─────────────────────────
+const ENSEMBLE_DAY: LayoutTemplate = {
+    id: 'ensemble-day',
+    name: '群像热闹日',
+    suitFor: '当天有 ≥ 3 个角色, 大家共写',
+    paperStyle: 'dot',
+    pages: [[
+        { id: 'A', slotRole: 'hero-diary', charBudget: [60, 140], eligibleAuthors: ['user', 'char'],
+          hint: '今日主线日记, 第一人称, 谁写都行',
+          xPct: 6, yPct: 8, widthPct: 54, maxHeightPct: 36, isHero: true },
+        { id: 'B', slotRole: 'sticky-reaction', charBudget: [18, 50], eligibleAuthors: ['char'],
+          hint: '反应已填某条 (refersTo)',
+          xPct: 63, yPct: 8, widthPct: 32, maxHeightPct: 14,
+          rotate: 1.8, skinVariant: 'lavender' },
+        { id: 'C', slotRole: 'mood-card', charBudget: [10, 30], eligibleAuthors: ['user', 'char'],
+          hint: '心情卡, 谁写都行',
+          xPct: 63, yPct: 24, widthPct: 32, maxHeightPct: 14,
+          skinVariant: 'mint' },
+        { id: 'D', slotRole: 'sticky-reaction', charBudget: [18, 50], eligibleAuthors: ['char'],
+          hint: '另一条反应',
+          xPct: 63, yPct: 40, widthPct: 32, maxHeightPct: 14,
+          rotate: -1.4, skinVariant: 'rose' },
+        { id: 'E', slotRole: 'mood-card', charBudget: [10, 30], eligibleAuthors: ['char'],
+          hint: '某角色心情 (写自己)', xPct: 63, yPct: 56, widthPct: 32, maxHeightPct: 12,
+          skinVariant: 'sky' },
+        { id: 'F', slotRole: 'gratitude', charBudget: [25, 70], eligibleAuthors: ['user'],
+          hint: 'user 今日感恩 3 条 (≤22 字 / 条)',
+          xPct: 6, yPct: 46, widthPct: 54, maxHeightPct: 18 },
+        { id: 'G', slotRole: 'corner-note', charBudget: [6, 22], eligibleAuthors: ['user', 'char'],
+          hint: '边角小字', xPct: 6, yPct: 66, widthPct: 26, maxHeightPct: 8, rotate: -1.5 },
+        { id: 'H', slotRole: 'corner-note', charBudget: [6, 22], eligibleAuthors: ['user', 'char'],
+          hint: '另一句', xPct: 32, yPct: 66, widthPct: 26, maxHeightPct: 8, rotate: 1.6 },
+        { id: 'I', slotRole: 'corner-note', charBudget: [6, 22], eligibleAuthors: ['user', 'char'],
+          hint: '另一句', xPct: 6, yPct: 76, widthPct: 26, maxHeightPct: 8, rotate: 2 },
+        { id: 'J', slotRole: 'corner-note', charBudget: [6, 22], eligibleAuthors: ['user', 'char'],
+          hint: '另一句', xPct: 32, yPct: 76, widthPct: 26, maxHeightPct: 8, rotate: -1.8 },
+        { id: 'K', slotRole: 'corner-note', charBudget: [6, 22], eligibleAuthors: ['user', 'char'],
+          hint: '页脚一句', xPct: 6, yPct: 86, widthPct: 28, maxHeightPct: 7, rotate: -2 },
+        { id: 'L', slotRole: 'corner-note', charBudget: [6, 22], eligibleAuthors: ['char'],
+          hint: '某角色页脚一句独白', xPct: 36, yPct: 86, widthPct: 28, maxHeightPct: 7, rotate: 1.6 },
+    ]],
+};
+
+// ─── F · todo-focus · 待办主导 ─────────────────────────────
+const TODO_FOCUS: LayoutTemplate = {
+    id: 'todo-focus',
+    name: '待办主导',
+    suitFor: 'user 偏功能型记录, 今天就是来打勾的',
+    paperStyle: 'grid',
+    pages: [[
+        { id: 'A', slotRole: 'todo', charBudget: [50, 130], eligibleAuthors: ['user'],
+          hint: 'user 今日待办, 5~8 项, 每项 ≤ 16 字',
+          xPct: 6, yPct: 8, widthPct: 56, maxHeightPct: 50, isHero: true },
+        { id: 'B', slotRole: 'mood-card', charBudget: [10, 30], eligibleAuthors: ['user', 'char'],
+          hint: '今日心情 + 评分',
+          xPct: 65, yPct: 8, widthPct: 30, maxHeightPct: 14,
+          skinVariant: 'lavender' },
+        { id: 'C', slotRole: 'sticky-reaction', charBudget: [15, 45], eligibleAuthors: ['char'],
+          hint: '看到 user 的 todo, 吐槽某一项 (refersTo)',
+          xPct: 65, yPct: 24, widthPct: 30, maxHeightPct: 14,
+          rotate: 1.6, skinVariant: 'mint' },
+        { id: 'D', slotRole: 'sticky-reaction', charBudget: [15, 45], eligibleAuthors: ['char'],
+          hint: '另一个角色 / 另一项 todo',
+          xPct: 65, yPct: 40, widthPct: 30, maxHeightPct: 14,
+          rotate: -1.2, skinVariant: 'rose' },
+        { id: 'E', slotRole: 'mood-card', charBudget: [10, 30], eligibleAuthors: ['char'],
+          hint: '某角色心情卡 (写自己今天)',
+          xPct: 65, yPct: 56, widthPct: 30, maxHeightPct: 12,
+          skinVariant: 'sky' },
+        { id: 'F', slotRole: 'corner-note', charBudget: [6, 20], eligibleAuthors: ['user', 'char'],
+          hint: '边角一句独白', xPct: 6, yPct: 60, widthPct: 28, maxHeightPct: 7, rotate: -2 },
+        { id: 'G', slotRole: 'corner-note', charBudget: [6, 20], eligibleAuthors: ['user', 'char'],
+          hint: '另一句小字', xPct: 34, yPct: 60, widthPct: 28, maxHeightPct: 7, rotate: 1.4 },
+        { id: 'H', slotRole: 'corner-note', charBudget: [6, 20], eligibleAuthors: ['user', 'char'],
+          hint: '另一句小字', xPct: 6, yPct: 70, widthPct: 28, maxHeightPct: 7, rotate: 2 },
+        { id: 'I', slotRole: 'corner-note', charBudget: [6, 20], eligibleAuthors: ['user', 'char'],
+          hint: '另一句小字', xPct: 34, yPct: 70, widthPct: 28, maxHeightPct: 7, rotate: -1.6 },
+        { id: 'J', slotRole: 'corner-note', charBudget: [6, 20], eligibleAuthors: ['char'],
+          hint: '某角色页脚独白 (写自己)', xPct: 6, yPct: 86, widthPct: 32, maxHeightPct: 7, rotate: -1.8 },
+        { id: 'K', slotRole: 'corner-note', charBudget: [6, 20], eligibleAuthors: ['char'],
+          hint: '另一个角色一句独白', xPct: 40, yPct: 86, widthPct: 28, maxHeightPct: 7, rotate: 1.6 },
+    ]],
+};
+
+// ─── 模板表 ──────────────────────────────────────────────
+export const LAYOUT_TEMPLATES: Record<string, LayoutTemplate> = {
+    'plan-day': PLAN_DAY,
+    'reflective-day': REFLECTIVE_DAY,
+    'photo-day': PHOTO_DAY,
+    'quiet-day': QUIET_DAY,
+    'ensemble-day': ENSEMBLE_DAY,
+    'todo-focus': TODO_FOCUS,
+};
+
+export const TEMPLATE_IDS = Object.keys(LAYOUT_TEMPLATES);
+
+/**
+ * 按当日条件选模板。
+ *
+ * 规则:
+ *  - userMsgCount < 4               → quiet-day
+ *  - userHasPhotoIntent === true    → photo-day
+ *  - charCount >= 3                 → ensemble-day
+ *  - userMsgCount >= 8              → reflective-day
+ *  - 其它                            → plan-day
+ *
+ * todo-focus 不会被自动选 (user 主动挑)。
+ */
+export function pickTemplate(opts: {
+    userMsgCount: number;
+    charCount: number;
+    userHasPhotoIntent?: boolean;
+}): LayoutTemplate {
+    if (opts.userHasPhotoIntent) return PHOTO_DAY;
+    if (opts.userMsgCount < 4) return QUIET_DAY;
+    if (opts.charCount >= 3) return ENSEMBLE_DAY;
+    if (opts.userMsgCount >= 8) return REFLECTIVE_DAY;
+    return PLAN_DAY;
+}
+
+export function getTemplate(id: string): LayoutTemplate | null {
+    return LAYOUT_TEMPLATES[id] || null;
+}

@@ -1,1 +1,160 @@
-LyoqCiAqIOOAjOWutuWbreOAjeemu+e6vyB0aWNrIOiwg+W6puWZqOOAggogKgogKiDkuI4gVlJTY2hlZHVsZXIg55qEIuWbuuWumumXtOmalCLkuI3lkIzvvIzlrrblm63mjIkqKuavj+aXpeaXtuautSoq6Kem5Y+R77yaCiAqIOWHjOaZqO+8iDAyOjAwIOWQju+8iS8g5pep77yIMDk6MDAg5ZCO77yJLyDljYjvvIgxNDowMCDlkI7vvIkvIOaZmu+8iDIxOjAwIOWQju+8ie+8jOavj+S4quaXtuauteW9k+WkqeacgOWkmuS4gOi9ruOAggogKiDplJnov4fml7bmrrXlkI7lm57liLDliY3lj7DkvJrooaXngavvvIjlkowgVlJTY2hlZHVsZXIg5LiA5qC355qEIHZpc2liaWxpdHljaGFuZ2UgLyBmb2N1cyAvCiAqIOS4u+e6v+eoi+i9ruivouS4iemHjeWFnOW6le+8ie+8jOaJgOS7pSLml6nkuIrmsqHlvIAgQXBw77yM5Lit5Y2I5omT5byAIuS8muaKiuaXqeS4iumCo+i9ruihpeS4iuKAlOKAlAogKiDov5nmraPmmK8i5oiR5LiN55yL55qE5pe25YCZ5LiW55WM5oWi5oWi6LWw77yM5oiR5LiA55yL5bCx5Yqg6YCfIueahOS9k+mqjOOAggogKgogKiDlrZjlgqjvvIhsb2NhbFN0b3JhZ2XvvIzni6znq4vplK7vvIzkuI3kuI4gdnJfc2NoZWR1bGVzIC8gcHJvYWN0aXZlIOaMpOWNoO+8ie+8mgogKiAgIC0gd29ybGRfdGlja19zbG90czogeyBbd29ybGRJZF06ICgnbGF0ZW5pZ2h0J3wnbW9ybmluZyd8J25vb24nfCdldmVuaW5nJylbXSB9CiAqICAgLSB3b3JsZF90aWNrX2ZpcmVkOiB7IFt3b3JsZElkXTogeyBkYXRlOiAnWVlZWS1NTS1ERCcsIGZpcmVkOiBzbG90W10gfSB9CiAqLwoKZXhwb3J0IHR5cGUgV29ybGRUaWNrU2xvdCA9ICdsYXRlbmlnaHQnIHwgJ21vcm5pbmcnIHwgJ25vb24nIHwgJ2V2ZW5pbmcnOwoKY29uc3QgU0xPVFNfS0VZID0gJ3dvcmxkX3RpY2tfc2xvdHMnOwpjb25zdCBGSVJFRF9LRVkgPSAnd29ybGRfdGlja19maXJlZCc7CmNvbnN0IE1BSU5fVEhSRUFEX0NIRUNLX0lOVEVSVkFMID0gNjBfMDAwOwoKLyoqIOWQhOaXtuauteeahOi1t+eBq+aXtuWIu++8iOWwj+aXtu+8jOacrOWcsOaXtumXtO+8ieOAgmxhdGVuaWdodCDmjInlvZPlpKnml6Xljobml6XnmoTlh4zmmaggMiDngrnorqHjgIIgKi8KY29uc3QgU0xPVF9IT1VSOiBSZWNvcmQ8V29ybGRUaWNrU2xvdCwgbnVtYmVyPiA9IHsgbGF0ZW5pZ2h0OiAyLCBtb3JuaW5nOiA5LCBub29uOiAxNCwgZXZlbmluZzogMjEgfTsKCnR5cGUgU2xvdHNNYXAgPSBSZWNvcmQ8c3RyaW5nLCBXb3JsZFRpY2tTbG90W10+Owp0eXBlIEZpcmVkTWFwID0gUmVjb3JkPHN0cmluZywgeyBkYXRlOiBzdHJpbmc7IGZpcmVkOiBXb3JsZFRpY2tTbG90W10gfT47CgpmdW5jdGlvbiBsb2FkPFQ+KGtleTogc3RyaW5nKTogVCB7CiAgICB0cnkgewogICAgICAgIGNvbnN0IHJhdyA9IGxvY2FsU3RvcmFnZS5nZXRJdGVtKGtleSk7CiAgICAgICAgY29uc3QgcGFyc2VkID0gcmF3ID8gSlNPTi5wYXJzZShyYXcpIDoge307CiAgICAgICAgcmV0dXJuIChwYXJzZWQgJiYgdHlwZW9mIHBhcnNlZCA9PT0gJ29iamVjdCcgPyBwYXJzZWQgOiB7fSkgYXMgVDsKICAgIH0gY2F0Y2ggewogICAgICAgIHJldHVybiB7fSBhcyBUOwogICAgfQp9CgpmdW5jdGlvbiBzYXZlKGtleTogc3RyaW5nLCB2YWx1ZTogb2JqZWN0KSB7CiAgICBpZiAoT2JqZWN0LmtleXModmFsdWUpLmxlbmd0aCA9PT0gMCkgbG9jYWxTdG9yYWdlLnJlbW92ZUl0ZW0oa2V5KTsKICAgIGVsc2UgbG9jYWxTdG9yYWdlLnNldEl0ZW0oa2V5LCBKU09OLnN0cmluZ2lmeSh2YWx1ZSkpOwp9Cgpjb25zdCB0b2RheUtleSA9ICgpID0+IHsKICAgIGNvbnN0IGQgPSBuZXcgRGF0ZSgpOwogICAgcmV0dXJuIGAke2QuZ2V0RnVsbFllYXIoKX0tJHtTdHJpbmcoZC5nZXRNb250aCgpICsgMSkucGFkU3RhcnQoMiwgJzAnKX0tJHtTdHJpbmcoZC5nZXREYXRlKCkpLnBhZFN0YXJ0KDIsICcwJyl9YDsKfTsKCmxldCB0cmlnZ2VyQ2FsbGJhY2s6ICgod29ybGRJZDogc3RyaW5nLCB0cmlnZ2VyOiAnb2JzZXJ2ZScgfCAndGljaycpID0+IHZvaWQgfCBQcm9taXNlPHZvaWQ+KSB8IG51bGwgPSBudWxsOwpsZXQgdmlzaWJpbGl0eUxpc3RlbmVyOiAoKCkgPT4gdm9pZCkgfCBudWxsID0gbnVsbDsKbGV0IGZvY3VzTGlzdGVuZXI6ICgoKSA9PiB2b2lkKSB8IG51bGwgPSBudWxsOwpsZXQgbWFpblRocmVhZFRpbWVyOiBSZXR1cm5UeXBlPHR5cGVvZiBzZXRJbnRlcnZhbD4gfCBudWxsID0gbnVsbDsKCmZ1bmN0aW9uIGNoZWNrRHVlKCkgewogICAgaWYgKCF0cmlnZ2VyQ2FsbGJhY2spIHJldHVybjsKICAgIGNvbnN0IHNsb3RzTWFwID0gbG9hZDxTbG90c01hcD4oU0xPVFNfS0VZKTsKICAgIGNvbnN0IGZpcmVkTWFwID0gbG9hZDxGaXJlZE1hcD4oRklSRURfS0VZKTsKICAgIGNvbnN0IGRhdGUgPSB0b2RheUtleSgpOwogICAgY29uc3QgaG91ciA9IG5ldyBEYXRlKCkuZ2V0SG91cnMoKTsKICAgIGxldCBjaGFuZ2VkID0gZmFsc2U7CgogICAgZm9yIChjb25zdCBbd29ybGRJZCwgc2xvdHNdIG9mIE9iamVjdC5lbnRyaWVzKHNsb3RzTWFwKSkgewogICAgICAgIGlmICghQXJyYXkuaXNBcnJheShzbG90cykgfHwgc2xvdHMubGVuZ3RoID09PSAwKSBjb250aW51ZTsKICAgICAgICBsZXQgcmVjID0gZmlyZWRNYXBbd29ybGRJZF07CiAgICAgICAgaWYgKCFyZWMgfHwgcmVjLmRhdGUgIT09IGRhdGUpIHsKICAgICAgICAgICAgcmVjID0geyBkYXRlLCBmaXJlZDogW10gfTsKICAgICAgICAgICAgZmlyZWRNYXBbd29ybGRJZF0gPSByZWM7CiAgICAgICAgICAgIGNoYW5nZWQgPSB0cnVlOwogICAgICAgIH0KICAgICAgICBmb3IgKGNvbnN0IHNsb3Qgb2Ygc2xvdHMpIHsKICAgICAgICAgICAgaWYgKHJlYy5maXJlZC5pbmNsdWRlcyhzbG90KSkgY29udGludWU7CiAgICAgICAgICAgIGlmIChob3VyIDwgU0xPVF9IT1VSW3Nsb3RdKSBjb250aW51ZTsKICAgICAgICAgICAgcmVjLmZpcmVkLnB1c2goc2xvdCk7CiAgICAgICAgICAgIGNoYW5nZWQgPSB0cnVlOwogICAgICAgICAgICB2b2lkIHRyaWdnZXJDYWxsYmFjayh3b3JsZElkLCAndGljaycpOwogICAgICAgICAgICAvLyDkuIDmrKEgY2hlY2sg5q+P5Liq5LiW55WM5pyA5aSa6KGl5LiA6L2u77ya6ZO+5byPIE4g6KeS6Imy6LCD55So5b6I6LS177yMCiAgICAgICAgICAgIC8vIOmUmei/h+eahOWkmuS4quaXtuautemalOWIhumSn+e6p+i9ruivoumAkOS4quihpe+8jOS4jeWcqOWQjOS4gOeerOmXtOWPoOWKoOinpuWPkeOAggogICAgICAgICAgICBicmVhazsKICAgICAgICB9CiAgICB9CiAgICBpZiAoY2hhbmdlZCkgc2F2ZShGSVJFRF9LRVksIGZpcmVkTWFwKTsKfQoKZnVuY3Rpb24gaGFuZGxlVmlzaWJpbGl0eSgpIHsKICAgIGlmIChkb2N1bWVudC52aXNpYmlsaXR5U3RhdGUgIT09ICd2aXNpYmxlJykgcmV0dXJuOwogICAgY2hlY2tEdWUoKTsKfQoKZnVuY3Rpb24gYXR0YWNoTGlzdGVuZXJzKCkgewogICAgZGV0YWNoTGlzdGVuZXJzKCk7CiAgICB2aXNpYmlsaXR5TGlzdGVuZXIgPSBoYW5kbGVWaXNpYmlsaXR5OwogICAgZG9jdW1lbnQuYWRkRXZlbnRMaXN0ZW5lcigndmlzaWJpbGl0eWNoYW5nZScsIHZpc2liaWxpdHlMaXN0ZW5lcik7CiAgICBmb2N1c0xpc3RlbmVyID0gY2hlY2tEdWU7CiAgICB3aW5kb3cuYWRkRXZlbnRMaXN0ZW5lcignZm9jdXMnLCBmb2N1c0xpc3RlbmVyKTsKICAgIGlmICghbWFpblRocmVhZFRpbWVyKSBtYWluVGhyZWFkVGltZXIgPSBzZXRJbnRlcnZhbChjaGVja0R1ZSwgTUFJTl9USFJFQURfQ0hFQ0tfSU5URVJWQUwpOwp9CgpmdW5jdGlvbiBkZXRhY2hMaXN0ZW5lcnMoKSB7CiAgICBpZiAodmlzaWJpbGl0eUxpc3RlbmVyKSB7CiAgICAgICAgZG9jdW1lbnQucmVtb3ZlRXZlbnRMaXN0ZW5lcigndmlzaWJpbGl0eWNoYW5nZScsIHZpc2liaWxpdHlMaXN0ZW5lcik7CiAgICAgICAgdmlzaWJpbGl0eUxpc3RlbmVyID0gbnVsbDsKICAgIH0KICAgIGlmIChmb2N1c0xpc3RlbmVyKSB7CiAgICAgICAgd2luZG93LnJlbW92ZUV2ZW50TGlzdGVuZXIoJ2ZvY3VzJywgZm9jdXNMaXN0ZW5lcik7CiAgICAgICAgZm9jdXNMaXN0ZW5lciA9IG51bGw7CiAgICB9CiAgICBpZiAobWFpblRocmVhZFRpbWVyKSB7CiAgICAgICAgY2xlYXJJbnRlcnZhbChtYWluVGhyZWFkVGltZXIpOwogICAgICAgIG1haW5UaHJlYWRUaW1lciA9IG51bGw7CiAgICB9Cn0KCmV4cG9ydCBjb25zdCBXb3JsZFNjaGVkdWxlciA9IHsKICAgIC8qKiDms6jlhozop6blj5Hlm57osIPvvIjlupTnlKjlkK/liqjml7bosIPkuIDmrKHvvInjgIIgKi8KICAgIG9uVHJpZ2dlcihjYWxsYmFjazogKHdvcmxkSWQ6IHN0cmluZywgdHJpZ2dlcjogJ29ic2VydmUnIHwgJ3RpY2snKSA9PiB2b2lkIHwgUHJvbWlzZTx2b2lkPikgewogICAgICAgIHRyaWdnZXJDYWxsYmFjayA9IGNhbGxiYWNrOwogICAgICAgIGlmIChPYmplY3Qua2V5cyhsb2FkPFNsb3RzTWFwPihTTE9UU19LRVkpKS5sZW5ndGggPiAwKSB7CiAgICAgICAgICAgIGF0dGFjaExpc3RlbmVycygpOwogICAgICAgICAgICBjaGVja0R1ZSgpOwogICAgICAgIH0KICAgIH0sCgogICAgLyoqCiAgICAgKiDku6XkuJbnlYzphY3nva7kuLrlh4bph43lu7rosIPluqbooajjgIIKICAgICAqIOiwg+W6puihqOWtmCBsb2NhbFN0b3JhZ2Ug5LiN6ZqP5aSH5Lu96L+B56e777yM5LiW55WM6YWN572u77yIb2ZmbGluZVRpY2tTbG90c++8ieWtmCBJbmRleGVkREIKICAgICAqIOmaj+Wkh+S7vei1sOKAlOKAlOWSjCBWUlNjaGVkdWxlci5yZWNvbmNpbGUg5ZCM5qC355qE5a+56LSm6YC76L6R44CCCiAgICAgKiDms6jmhI/vvJrmlrDliqDlhaXosIPluqbnmoTkuJbnlYzvvIwi5LuK5aSp5bey57uP6L+H5Y6755qE5pe25q61IuinhuS4uuW3suiAl+Wwve+8jOS4jeihpeeBq+KAlOKAlAogICAgICog6YG/5YWN55So5oi35Yia6YWN572u5a6M5bCx556s6Ze06L+e54On5Yeg6L2uIExMTSDosIPnlKjjgIIKICAgICAqLwogICAgcmVjb25jaWxlKGFjdGl2ZTogeyB3b3JsZElkOiBzdHJpbmc7IHNsb3RzOiBXb3JsZFRpY2tTbG90W10gfVtdKSB7CiAgICAgICAgY29uc3Qgc2xvdHNNYXA6IFNsb3RzTWFwID0ge307CiAgICAgICAgY29uc3QgZmlyZWRNYXAgPSBsb2FkPEZpcmVkTWFwPihGSVJFRF9LRVkpOwogICAgICAgIGNvbnN0IGRhdGUgPSB0b2RheUtleSgpOwogICAgICAgIGNvbnN0IGhvdXIgPSBuZXcgRGF0ZSgpLmdldEhvdXJzKCk7CiAgICAgICAgbGV0IGZpcmVkQ2hhbmdlZCA9IGZhbHNlOwoKICAgICAgICBmb3IgKGNvbnN0IGEgb2YgYWN0aXZlKSB7CiAgICAgICAgICAgIGlmIChhLnNsb3RzLmxlbmd0aCA9PT0gMCkgY29udGludWU7CiAgICAgICAgICAgIHNsb3RzTWFwW2Eud29ybGRJZF0gPSBhLnNsb3RzOwogICAgICAgICAgICBpZiAoIWZpcmVkTWFwW2Eud29ybGRJZF0gfHwgZmlyZWRNYXBbYS53b3JsZElkXS5kYXRlICE9PSBkYXRlKSB7CiAgICAgICAgICAgICAgICBmaXJlZE1hcFthLndvcmxkSWRdID0geyBkYXRlLCBmaXJlZDogYS5zbG90cy5maWx0ZXIocyA9PiBob3VyID49IFNMT1RfSE9VUltzXSkgfTsKICAgICAgICAgICAgICAgIGZpcmVkQ2hhbmdlZCA9IHRydWU7CiAgICAgICAgICAgIH0KICAgICAgICB9CiAgICAgICAgZm9yIChjb25zdCBpZCBvZiBPYmplY3Qua2V5cyhmaXJlZE1hcCkpIHsKICAgICAgICAgICAgaWYgKCFzbG90c01hcFtpZF0pIHsKICAgICAgICAgICAgICAgIGRlbGV0ZSBmaXJlZE1hcFtpZF07CiAgICAgICAgICAgICAgICBmaXJlZENoYW5nZWQgPSB0cnVlOwogICAgICAgICAgICB9CiAgICAgICAgfQoKICAgICAgICBzYXZlKFNMT1RTX0tFWSwgc2xvdHNNYXApOwogICAgICAgIGlmIChmaXJlZENoYW5nZWQpIHNhdmUoRklSRURfS0VZLCBmaXJlZE1hcCk7CiAgICAgICAgaWYgKE9iamVjdC5rZXlzKHNsb3RzTWFwKS5sZW5ndGggPiAwKSBhdHRhY2hMaXN0ZW5lcnMoKTsKICAgICAgICBlbHNlIGRldGFjaExpc3RlbmVycygpOwogICAgfSwKCiAgICAvKiog56uL5Yi76Kem5Y+R5LiA6L2uIuingua1iyLvvIhVSSDmjqjov5vmjInpkq7nlKjvvInvvIzkuI3ljaDnlKjlvZPml6UgdGljayDphY3pop3jgIIgKi8KICAgIHRyaWdnZXJOb3cod29ybGRJZDogc3RyaW5nKSB7CiAgICAgICAgaWYgKHRyaWdnZXJDYWxsYmFjaykgdm9pZCB0cmlnZ2VyQ2FsbGJhY2sod29ybGRJZCwgJ29ic2VydmUnKTsKICAgIH0sCn07Cg==
+/**
+ * 「家园」离线 tick 调度器。
+ *
+ * 与 VRScheduler 的"固定间隔"不同，家园按**每日时段**触发：
+ * 凌晨（02:00 后）/ 早（09:00 后）/ 午（14:00 后）/ 晚（21:00 后），每个时段当天最多一轮。
+ * 错过时段后回到前台会补火（和 VRScheduler 一样的 visibilitychange / focus /
+ * 主线程轮询三重兜底），所以"早上没开 App，中午打开"会把早上那轮补上——
+ * 这正是"我不看的时候世界慢慢走，我一看就加速"的体验。
+ *
+ * 存储（localStorage，独立键，不与 vr_schedules / proactive 挤占）：
+ *   - world_tick_slots: { [worldId]: ('latenight'|'morning'|'noon'|'evening')[] }
+ *   - world_tick_fired: { [worldId]: { date: 'YYYY-MM-DD', fired: slot[] } }
+ */
+
+export type WorldTickSlot = 'latenight' | 'morning' | 'noon' | 'evening';
+
+const SLOTS_KEY = 'world_tick_slots';
+const FIRED_KEY = 'world_tick_fired';
+const MAIN_THREAD_CHECK_INTERVAL = 60_000;
+
+/** 各时段的起火时刻（小时，本地时间）。latenight 按当天日历日的凌晨 2 点计。 */
+const SLOT_HOUR: Record<WorldTickSlot, number> = { latenight: 2, morning: 9, noon: 14, evening: 21 };
+
+type SlotsMap = Record<string, WorldTickSlot[]>;
+type FiredMap = Record<string, { date: string; fired: WorldTickSlot[] }>;
+
+function load<T>(key: string): T {
+    try {
+        const raw = localStorage.getItem(key);
+        const parsed = raw ? JSON.parse(raw) : {};
+        return (parsed && typeof parsed === 'object' ? parsed : {}) as T;
+    } catch {
+        return {} as T;
+    }
+}
+
+function save(key: string, value: object) {
+    if (Object.keys(value).length === 0) localStorage.removeItem(key);
+    else localStorage.setItem(key, JSON.stringify(value));
+}
+
+const todayKey = () => {
+    const d = new Date();
+    return `${d.getFullYear()}-${String(d.getMonth() + 1).padStart(2, '0')}-${String(d.getDate()).padStart(2, '0')}`;
+};
+
+let triggerCallback: ((worldId: string, trigger: 'observe' | 'tick') => void | Promise<void>) | null = null;
+let visibilityListener: (() => void) | null = null;
+let focusListener: (() => void) | null = null;
+let mainThreadTimer: ReturnType<typeof setInterval> | null = null;
+
+function checkDue() {
+    if (!triggerCallback) return;
+    const slotsMap = load<SlotsMap>(SLOTS_KEY);
+    const firedMap = load<FiredMap>(FIRED_KEY);
+    const date = todayKey();
+    const hour = new Date().getHours();
+    let changed = false;
+
+    for (const [worldId, slots] of Object.entries(slotsMap)) {
+        if (!Array.isArray(slots) || slots.length === 0) continue;
+        let rec = firedMap[worldId];
+        if (!rec || rec.date !== date) {
+            rec = { date, fired: [] };
+            firedMap[worldId] = rec;
+            changed = true;
+        }
+        for (const slot of slots) {
+            if (rec.fired.includes(slot)) continue;
+            if (hour < SLOT_HOUR[slot]) continue;
+            rec.fired.push(slot);
+            changed = true;
+            void triggerCallback(worldId, 'tick');
+            // 一次 check 每个世界最多补一轮：链式 N 角色调用很贵，
+            // 错过的多个时段隔分钟级轮询逐个补，不在同一瞬间叠加触发。
+            break;
+        }
+    }
+    if (changed) save(FIRED_KEY, firedMap);
+}
+
+function handleVisibility() {
+    if (document.visibilityState !== 'visible') return;
+    checkDue();
+}
+
+function attachListeners() {
+    detachListeners();
+    visibilityListener = handleVisibility;
+    document.addEventListener('visibilitychange', visibilityListener);
+    focusListener = checkDue;
+    window.addEventListener('focus', focusListener);
+    if (!mainThreadTimer) mainThreadTimer = setInterval(checkDue, MAIN_THREAD_CHECK_INTERVAL);
+}
+
+function detachListeners() {
+    if (visibilityListener) {
+        document.removeEventListener('visibilitychange', visibilityListener);
+        visibilityListener = null;
+    }
+    if (focusListener) {
+        window.removeEventListener('focus', focusListener);
+        focusListener = null;
+    }
+    if (mainThreadTimer) {
+        clearInterval(mainThreadTimer);
+        mainThreadTimer = null;
+    }
+}
+
+export const WorldScheduler = {
+    /** 注册触发回调（应用启动时调一次）。 */
+    onTrigger(callback: (worldId: string, trigger: 'observe' | 'tick') => void | Promise<void>) {
+        triggerCallback = callback;
+        if (Object.keys(load<SlotsMap>(SLOTS_KEY)).length > 0) {
+            attachListeners();
+            checkDue();
+        }
+    },
+
+    /**
+     * 以世界配置为准重建调度表。
+     * 调度表存 localStorage 不随备份迁移，世界配置（offlineTickSlots）存 IndexedDB
+     * 随备份走——和 VRScheduler.reconcile 同样的对账逻辑。
+     * 注意：新加入调度的世界，"今天已经过去的时段"视为已耗尽，不补火——
+     * 避免用户刚配置完就瞬间连烧几轮 LLM 调用。
+     */
+    reconcile(active: { worldId: string; slots: WorldTickSlot[] }[]) {
+        const slotsMap: SlotsMap = {};
+        const firedMap = load<FiredMap>(FIRED_KEY);
+        const date = todayKey();
+        const hour = new Date().getHours();
+        let firedChanged = false;
+
+        for (const a of active) {
+            if (a.slots.length === 0) continue;
+            slotsMap[a.worldId] = a.slots;
+            if (!firedMap[a.worldId] || firedMap[a.worldId].date !== date) {
+                firedMap[a.worldId] = { date, fired: a.slots.filter(s => hour >= SLOT_HOUR[s]) };
+                firedChanged = true;
+            }
+        }
+        for (const id of Object.keys(firedMap)) {
+            if (!slotsMap[id]) {
+                delete firedMap[id];
+                firedChanged = true;
+            }
+        }
+
+        save(SLOTS_KEY, slotsMap);
+        if (firedChanged) save(FIRED_KEY, firedMap);
+        if (Object.keys(slotsMap).length > 0) attachListeners();
+        else detachListeners();
+    },
+
+    /** 立刻触发一轮"观测"（UI 推进按钮用），不占用当日 tick 配额。 */
+    triggerNow(worldId: string) {
+        if (triggerCallback) void triggerCallback(worldId, 'observe');
+    },
+};

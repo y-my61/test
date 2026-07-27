@@ -1,1 +1,25 @@
-LyoqCiAqIOWutuWbreWtmOWcqCBsb2NhbFN0b3JhZ2Ug6YeM55qE5pys5py66YWN572u77yI6ZqP44CM6K6+572uIOKGkiDlr7zlh7ov5a+85YWl5aSH5Lu944CN5LiA6LW35bim6LWw77yJ77yaCiAqICAgLSB3b3JsZF9ob21lX2Fwae+8muWutuWbreWFqOWxgCBBUEnvvIjmiYDmnInkuJbnlYzlhbHnlKjnmoTopobnm5bvvIkKICogICAtIHdvcmxkX2N1c3RvbV9zdHlsZXPvvJrnlKjmiLfmlLbol4/nmoToh6rlrprkuYnmlofpo47vvIjot6jkuJbnlYzlpI3nlKjvvIkKICog6L+Z5Lik5Lu95LiN5ZyoIEluZGV4ZWREQu+8jOaJgOS7peW/hemhu+WNleeLrOi1sOWkh+S7ve+8jOWQpuWImeaNouiuvuWkhyAvIOWvvOWFpeWQjuS8muS4ouOAggogKi8KZXhwb3J0IGNvbnN0IFdPUkxEX0FQSV9LRVkgPSAnd29ybGRfaG9tZV9hcGknOwpleHBvcnQgY29uc3QgV09STERfQ1VTVE9NX1NUWUxFX0tFWSA9ICd3b3JsZF9jdXN0b21fc3R5bGVzJzsKCmV4cG9ydCBmdW5jdGlvbiBleHBvcnRXb3JsZEhvbWVMb2NhbCgpOiBSZWNvcmQ8c3RyaW5nLCBzdHJpbmc+IHwgdW5kZWZpbmVkIHsKICAgIHRyeSB7CiAgICAgICAgY29uc3Qgb3V0OiBSZWNvcmQ8c3RyaW5nLCBzdHJpbmc+ID0ge307CiAgICAgICAgY29uc3QgYXBpID0gbG9jYWxTdG9yYWdlLmdldEl0ZW0oV09STERfQVBJX0tFWSk7IGlmIChhcGkpIG91dFtXT1JMRF9BUElfS0VZXSA9IGFwaTsKICAgICAgICBjb25zdCBzdHlsZXMgPSBsb2NhbFN0b3JhZ2UuZ2V0SXRlbShXT1JMRF9DVVNUT01fU1RZTEVfS0VZKTsgaWYgKHN0eWxlcykgb3V0W1dPUkxEX0NVU1RPTV9TVFlMRV9LRVldID0gc3R5bGVzOwogICAgICAgIHJldHVybiBPYmplY3Qua2V5cyhvdXQpLmxlbmd0aCA/IG91dCA6IHVuZGVmaW5lZDsKICAgIH0gY2F0Y2ggeyByZXR1cm4gdW5kZWZpbmVkOyB9Cn0KCmV4cG9ydCBmdW5jdGlvbiBpbXBvcnRXb3JsZEhvbWVMb2NhbChkYXRhOiBSZWNvcmQ8c3RyaW5nLCBzdHJpbmc+IHwgbnVsbCB8IHVuZGVmaW5lZCk6IHZvaWQgewogICAgaWYgKCFkYXRhIHx8IHR5cGVvZiBkYXRhICE9PSAnb2JqZWN0JykgcmV0dXJuOwogICAgdHJ5IHsKICAgICAgICBpZiAodHlwZW9mIGRhdGFbV09STERfQVBJX0tFWV0gPT09ICdzdHJpbmcnKSBsb2NhbFN0b3JhZ2Uuc2V0SXRlbShXT1JMRF9BUElfS0VZLCBkYXRhW1dPUkxEX0FQSV9LRVldKTsKICAgICAgICBpZiAodHlwZW9mIGRhdGFbV09STERfQ1VTVE9NX1NUWUxFX0tFWV0gPT09ICdzdHJpbmcnKSBsb2NhbFN0b3JhZ2Uuc2V0SXRlbShXT1JMRF9DVVNUT01fU1RZTEVfS0VZLCBkYXRhW1dPUkxEX0NVU1RPTV9TVFlMRV9LRVldKTsKICAgIH0gY2F0Y2ggeyAvKiBpZ25vcmUgKi8gfQp9Cg==
+/**
+ * 家园存在 localStorage 里的本机配置（随「设置 → 导出/导入备份」一起带走）：
+ *   - world_home_api：家园全局 API（所有世界共用的覆盖）
+ *   - world_custom_styles：用户收藏的自定义文风（跨世界复用）
+ * 这两份不在 IndexedDB，所以必须单独走备份，否则换设备 / 导入后会丢。
+ */
+export const WORLD_API_KEY = 'world_home_api';
+export const WORLD_CUSTOM_STYLE_KEY = 'world_custom_styles';
+
+export function exportWorldHomeLocal(): Record<string, string> | undefined {
+    try {
+        const out: Record<string, string> = {};
+        const api = localStorage.getItem(WORLD_API_KEY); if (api) out[WORLD_API_KEY] = api;
+        const styles = localStorage.getItem(WORLD_CUSTOM_STYLE_KEY); if (styles) out[WORLD_CUSTOM_STYLE_KEY] = styles;
+        return Object.keys(out).length ? out : undefined;
+    } catch { return undefined; }
+}
+
+export function importWorldHomeLocal(data: Record<string, string> | null | undefined): void {
+    if (!data || typeof data !== 'object') return;
+    try {
+        if (typeof data[WORLD_API_KEY] === 'string') localStorage.setItem(WORLD_API_KEY, data[WORLD_API_KEY]);
+        if (typeof data[WORLD_CUSTOM_STYLE_KEY] === 'string') localStorage.setItem(WORLD_CUSTOM_STYLE_KEY, data[WORLD_CUSTOM_STYLE_KEY]);
+    } catch { /* ignore */ }
+}

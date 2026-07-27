@@ -1,1 +1,166 @@
-LyoqCiAqIOW9vOaWucK35Ymn6ZmiIOKAlOKAlCBMTE0g57yW5o6S566h57q/77yI6ISa5pys55Sf5oiQL+a2puiJsuOAgea8lOWRmOaEj+ingeaUtumbhuOAgeWvvOa8lOaVtOWQiO+8ieOAggogKgogKiDmiormiYDmnIkgTExNIOiwg+eUqOmbhuS4reWcqOi/memHjO+8jFVJIOWPqueuoeS6pOS6kuOAgkFQSSDpgJrpgZPkuI7lvbzmlrnlhbblroPlip/og73kuIDoh7TvvJoKICog6KeS6Imy5peg5YWz55qE6LCD55So6LWwIOW9vOaWueeLrOeriyBBUEnvvIhnZXRWUkFwae+8ieKGkiDlm57okL3ogYrlpKnpu5jorqQgYXBpQ29uZmln77yb5ryU5ZGY5oSP6KeBCiAqIOi/meenjSLop5LoibLoh6rlt7Hor7Tor50i55qE6LCD55So77yM6LWwIGJ1aWxkQ2hhdFJlcXVlc3RQYXlsb2Fk77yIQ29udGV4dEJ1aWxkZXIgKyDorrDlv4blrqvmrr/vvIkKICog5ou/5Yiw6K+l6KeS6Imy5a6M5pW05Lq66K6+5LiK5LiL5paH77yM6LefIHJ1blNlc3Npb24g6Ieq55Sx5rS75Yqo5LiA6Ie044CCCiAqLwoKaW1wb3J0IHR5cGUgewogICAgQ2hhcmFjdGVyUHJvZmlsZSwgVXNlclByb2ZpbGUsIEdyb3VwUHJvZmlsZSwgQVBJQ29uZmlnLCBFbW9qaSwgRW1vamlDYXRlZ29yeSwKICAgIFZSU2NyaXB0LCBWUkNhc3RBc3NpZ24sIFZSQWN0b3JOb3RlLCBWUlN0YWdlTW9kZSwKfSBmcm9tICcuLi8uLi90eXBlcyc7CmltcG9ydCB7IERCIH0gZnJvbSAnLi4vZGInOwppbXBvcnQgeyBnZXRWUkFwaSB9IGZyb20gJy4vdnJBcGknOwppbXBvcnQgeyBidWlsZENoYXRSZXF1ZXN0UGF5bG9hZCB9IGZyb20gJy4uL2NoYXRSZXF1ZXN0UGF5bG9hZCc7CmltcG9ydCB7IHNhZmVGZXRjaEpzb24gfSBmcm9tICcuLi9zYWZlQXBpJzsKaW1wb3J0IHsgU1RBR0VfQlVCQkxFX01BWCB9IGZyb20gJy4vY29uc3RhbnRzJzsKaW1wb3J0IHsKICAgIGJ1aWxkTExNU2NyaXB0VHVybiwgYnVpbGRQb2xpc2hUdXJuLCBwYXJzZVNjcmlwdE91dHB1dCwgdHlwZSBQYXJzZWRTY3JpcHQsCiAgICBidWlsZEFjdG9yUmV2aWV3VHVybiwgcGFyc2VBY3RvclJldmlldywKICAgIGJ1aWxkQWN0b3JzQmF0Y2hUdXJuLCBwYXJzZUFjdG9yc0JhdGNoLAogICAgYnVpbGREaXJlY3RvclR1cm4sIHBhcnNlRGlyZWN0b3JPdXRwdXQsIHR5cGUgUGFyc2VkRGlyZWN0b3IsCn0gZnJvbSAnLi9wcm9tcHRzJzsKCmV4cG9ydCBpbnRlcmZhY2UgVGhlYXRlckFwaSB7IGJhc2VVcmw6IHN0cmluZzsgYXBpS2V5OiBzdHJpbmc7IG1vZGVsOiBzdHJpbmc7IH0KCi8qKiDop6PmnpDliafpmaLopoHnlKjnmoQgQVBJ77yI5b285pa554us56uLIEFQSSDihpIg6IGK5aSp6buY6K6k77yJ44CCICovCmV4cG9ydCBhc3luYyBmdW5jdGlvbiByZXNvbHZlVGhlYXRlckFwaShhcGlDb25maWc6IEFQSUNvbmZpZyk6IFByb21pc2U8VGhlYXRlckFwaSB8IG51bGw+IHsKICAgIGNvbnN0IHZyID0gYXdhaXQgZ2V0VlJBcGkoKTsKICAgIGNvbnN0IGFwaSA9IHZyPy5iYXNlVXJsID8gdnIgOiBhcGlDb25maWc7CiAgICBpZiAoIWFwaT8uYmFzZVVybCkgcmV0dXJuIG51bGw7CiAgICByZXR1cm4geyBiYXNlVXJsOiBhcGkuYmFzZVVybC5yZXBsYWNlKC9cLyskLywgJycpLCBhcGlLZXk6IGFwaS5hcGlLZXkgfHwgJ3NrLW5vbmUnLCBtb2RlbDogYXBpLm1vZGVsIH07Cn0KCmFzeW5jIGZ1bmN0aW9uIGNoYXQoYXBpOiBUaGVhdGVyQXBpLCBtZXNzYWdlczogQXJyYXk8eyByb2xlOiBzdHJpbmc7IGNvbnRlbnQ6IGFueSB9PiwgdGVtcGVyYXR1cmUgPSAwLjkpOiBQcm9taXNlPHN0cmluZz4gewogICAgY29uc3QgZGF0YTogYW55ID0gYXdhaXQgc2FmZUZldGNoSnNvbihgJHthcGkuYmFzZVVybH0vY2hhdC9jb21wbGV0aW9uc2AsIHsKICAgICAgICBtZXRob2Q6ICdQT1NUJywKICAgICAgICBoZWFkZXJzOiB7ICdDb250ZW50LVR5cGUnOiAnYXBwbGljYXRpb24vanNvbicsICdBdXRob3JpemF0aW9uJzogYEJlYXJlciAke2FwaS5hcGlLZXl9YCB9LAogICAgICAgIGJvZHk6IEpTT04uc3RyaW5naWZ5KHsgbW9kZWw6IGFwaS5tb2RlbCwgbWVzc2FnZXMsIHRlbXBlcmF0dXJlLCBzdHJlYW06IGZhbHNlIH0pLAogICAgfSwgMiwgMCwgeyBhcHBOYW1lOiAn5b285pa5wrfliafpmaInIH0pOwogICAgY29uc3QgYzogc3RyaW5nID0gZGF0YS5jaG9pY2VzPy5bMF0/Lm1lc3NhZ2U/LmNvbnRlbnQgfHwgJyc7CiAgICByZXR1cm4gYy5yZXBsYWNlKC88dGhpbms+W1xzXFNdKj88XC90aGluaz4vZ2ksICcnKS50cmltKCk7Cn0KCi8qKiDop5LoibLml6DlhbPkuIrkuIvmlofvvIhVSSDms6jlhaXkuIDmrKHvvInjgIIgKi8KZXhwb3J0IGludGVyZmFjZSBUaGVhdGVyQ3R4IHsKICAgIGNoYXJhY3RlcnM6IENoYXJhY3RlclByb2ZpbGVbXTsKICAgIHVzZXJQcm9maWxlOiBVc2VyUHJvZmlsZTsKICAgIGdyb3VwczogR3JvdXBQcm9maWxlW107CiAgICBlbW9qaXM6IEVtb2ppW107CiAgICBjYXRlZ29yaWVzOiBFbW9qaUNhdGVnb3J5W107Cn0KCi8qKiDlr7zmvJTnlKjnmoTnsr7nroDkurrorr7vvJrlp5PlkI0gKyDmoLjlv4PmjIfku6QgKyDkuJbnlYzop4Iv6KGl5YWF6K6+5a6a77yIT09DIOW3suWcqOa8lOWRmOmHjeWGmeWPsOivjemCo+atpeWkhOeQhu+8ieOAgiAqLwpjb25zdCBkaXJlY3RvclBlcnNvbmEgPSAoY2g6IENoYXJhY3RlclByb2ZpbGUpOiBzdHJpbmcgPT4gWwogICAgYOWnk+WQje+8miR7Y2gubmFtZX1gLAogICAgYOaguOW/g+aMh+S7pO+8miR7KGNoLnN5c3RlbVByb21wdCB8fCAnJykudHJpbSgpIHx8ICfvvIjml6DvvIknfWAsCiAgICAoY2gud29ybGR2aWV3IHx8ICcnKS50cmltKCkgPyBg5LiW55WM6KeCIC8g6KGl5YWF6K6+5a6a77yaJHtjaC53b3JsZHZpZXchLnRyaW0oKX1gIDogJycsCl0uZmlsdGVyKEJvb2xlYW4pLmpvaW4oJ1xuJyk7CgovKiog6L6D5a6M5pW05Lq66K6+77yI5qC45b+D5oCn5qC8ICsg5LiW55WM6KeC77yM5LiN5YiH54mH77yJ4oCU4oCUIOe7mSLlm7rlrprkuKTmrKEi5om56YeP5qih5byP55So77yM5bmz6KGh6ZW/5bqm44CCICovCmNvbnN0IHBlcnNvbmFCcmllZiA9IChjaDogQ2hhcmFjdGVyUHJvZmlsZSk6IHN0cmluZyA9PgogICAgW2NoLnN5c3RlbVByb21wdCwgY2gud29ybGR2aWV3ICYmIGDkuJbnlYzop4LvvJoke2NoLndvcmxkdmlld31gXS5maWx0ZXIoQm9vbGVhbikuam9pbignXG4nKS50cmltKCkgfHwgJ++8iOaXoOiuvuWumu+8iSc7CgovKiog55So5oi357uZ5LiqIGJyaWVm77yI5Y+v5bim5YaZ5L2c6aOO5qC86aKE6K6+77yJ77yM6K6pIExMTSDku6PlhpnkuIDlh7rliafmnKzjgIIgKi8KZXhwb3J0IGFzeW5jIGZ1bmN0aW9uIGdlbmVyYXRlU2NyaXB0KGJyaWVmOiBzdHJpbmcsIGFwaTogVGhlYXRlckFwaSwgcHJlc2V0UHJvbXB0Pzogc3RyaW5nKTogUHJvbWlzZTxQYXJzZWRTY3JpcHQ+IHsKICAgIHJldHVybiBwYXJzZVNjcmlwdE91dHB1dChhd2FpdCBjaGF0KGFwaSwgW3sgcm9sZTogJ3VzZXInLCBjb250ZW50OiBidWlsZExMTVNjcmlwdFR1cm4oYnJpZWYsIHByZXNldFByb21wdCkgfV0pKTsKfQoKLyoqIOaMieWGmeS9nOmjjuagvOmihOiuviArIOmineWkluimgeaxgua2puiJsumHjeWGmeS4gOS7veWJp+acrOato+aWh+OAgiAqLwpleHBvcnQgYXN5bmMgZnVuY3Rpb24gcG9saXNoU2NyaXB0KGJvZHk6IHN0cmluZywgcHJlc2V0UHJvbXB0OiBzdHJpbmcsIGV4dHJhOiBzdHJpbmcsIGFwaTogVGhlYXRlckFwaSk6IFByb21pc2U8UGFyc2VkU2NyaXB0PiB7CiAgICByZXR1cm4gcGFyc2VTY3JpcHRPdXRwdXQoYXdhaXQgY2hhdChhcGksIFt7IHJvbGU6ICd1c2VyJywgY29udGVudDogYnVpbGRQb2xpc2hUdXJuKGJvZHksIHByZXNldFByb21wdCwgZXh0cmEpIH1dKSk7Cn0KCmNvbnN0IGNhc3RMaW5lT2YgPSAoY2FzdDogVlJDYXN0QXNzaWduW10pID0+IGNhc3QubWFwKGMgPT4gYCR7Yy5hY3Rvck5hbWV9IOmlsCAke2Mucm9sZU5hbWV9YCkuam9pbign77ybJyk7CgovKiog6YCQ6KeS6Imy5qih5byP77ya5q+P5LiqIGNoYXIg5ryU5ZGY5ZCE6LCD5LiA5qyhIExMTe+8iOW4puWQhOiHqiBDb250ZXh0QnVpbGRlciArIOiusOW/hu+8ie+8jOW5tuWPkeOAgiAqLwphc3luYyBmdW5jdGlvbiBwZXJSb2xlTm90ZXMoc2NyaXB0OiBWUlNjcmlwdCwgY2FzdDogVlJDYXN0QXNzaWduW10sIGNoYXJBc3NpZ25zOiBWUkNhc3RBc3NpZ25bXSwgY3R4OiBUaGVhdGVyQ3R4LCBhcGk6IFRoZWF0ZXJBcGkpOiBQcm9taXNlPFZSQWN0b3JOb3RlW10+IHsKICAgIGNvbnN0IGxpbmUgPSBjYXN0TGluZU9mKGNhc3QpOwogICAgcmV0dXJuIFByb21pc2UuYWxsKGNoYXJBc3NpZ25zLm1hcChhc3luYyAoYSk6IFByb21pc2U8VlJBY3Rvck5vdGU+ID0+IHsKICAgICAgICBjb25zdCBjaGFyID0gY3R4LmNoYXJhY3RlcnMuZmluZChjID0+IGMuaWQgPT09IGEuYWN0b3JJZCk7CiAgICAgICAgaWYgKCFjaGFyKSByZXR1cm4geyBhY3RvcklkOiBhLmFjdG9ySWQsIGFjdG9yTmFtZTogYS5hY3Rvck5hbWUsIHJvbGVOYW1lOiBhLnJvbGVOYW1lLCBub3RlOiAn77yI5ryU5ZGY57y65bit77yJJywgY29vcGVyYXRpdmU6IHRydWUgfTsKICAgICAgICB0cnkgewogICAgICAgICAgICBjb25zdCBjb250ZXh0TGltaXQgPSBjaGFyLmNvbnRleHRMaW1pdCB8fCAyMDA7CiAgICAgICAgICAgIGNvbnN0IGhpc3RvcnlNc2dzID0gYXdhaXQgREIuZ2V0UmVjZW50TWVzc2FnZXNCeUNoYXJJZChjaGFyLmlkLCBjb250ZXh0TGltaXQpOwogICAgICAgICAgICBjb25zdCBtYXRlcyA9IGNhc3QubWFwKGMgPT4gYy5hY3Rvck5hbWUpLmZpbHRlcihuID0+IG4gIT09IGNoYXIubmFtZSk7CiAgICAgICAgICAgIC8vIOWQjeWtl+adg+mHjeWKoOmHje+8mumHjeWkjeWQjOWPsOa8lOWRmOWQjSArIOaYvuW8j+mXruWFs+ezuy/ljbDosaHvvIzkvr/kuo7lj6zlm57op5LoibLkuYvpl7TnmoTov4flvoAKICAgICAgICAgICAgY29uc3QgcmVjYWxsUXVlcnlIaW50ID0gbWF0ZXMubGVuZ3RoID4gMAogICAgICAgICAgICAgICAgPyBg5b285pa55Ymn6Zmi5ZKM6L+Z5Lqb5Lq65ZCM5Y+w5ryU5oiP77yaJHttYXRlcy5qb2luKCfjgIEnKX3jgIJcbiR7bWF0ZXMuam9pbignICcpfSAke21hdGVzLmpvaW4oJyAnKX1cbuaIkeWvuSR7bWF0ZXMuam9pbign44CBJyl955qE5Y2w6LGh44CB5oiR5ZKMIHRhIOS7rOeahOWFs+ezu+S4jui/h+W+gOOAgmAKICAgICAgICAgICAgICAgIDogYOW9vOaWueWJp+mZouaOkuaIj+OAiiR7c2NyaXB0LnRpdGxlfeOAi+OAgmA7CiAgICAgICAgICAgIGNvbnN0IHBheWxvYWQgPSBhd2FpdCBidWlsZENoYXRSZXF1ZXN0UGF5bG9hZCh7CiAgICAgICAgICAgICAgICBjaGFyLCB1c2VyUHJvZmlsZTogY3R4LnVzZXJQcm9maWxlLCBncm91cHM6IGN0eC5ncm91cHMsIGVtb2ppczogY3R4LmVtb2ppcywgY2F0ZWdvcmllczogY3R4LmNhdGVnb3JpZXMsCiAgICAgICAgICAgICAgICBoaXN0b3J5TXNncywgY29udGV4dExpbWl0LCByZWNhbGxRdWVyeUhpbnQsCiAgICAgICAgICAgIH0pOwogICAgICAgICAgICBjb25zdCB1c2VyVHVybiA9IGJ1aWxkQWN0b3JSZXZpZXdUdXJuKHNjcmlwdC50aXRsZSwgc2NyaXB0LmxvZ2xpbmUsIHNjcmlwdC5ib2R5LCBhLnJvbGVOYW1lLCBsaW5lLCBjaGFyLm5hbWUpOwogICAgICAgICAgICBjb25zdCBvdXQgPSBhd2FpdCBjaGF0KGFwaSwgW3sgcm9sZTogJ3N5c3RlbScsIGNvbnRlbnQ6IHBheWxvYWQuc3lzdGVtUHJvbXB0IH0sIC4uLnBheWxvYWQuY2xlYW5lZEFwaU1lc3NhZ2VzLCB7IHJvbGU6ICd1c2VyJywgY29udGVudDogdXNlclR1cm4gfV0pOwogICAgICAgICAgICBjb25zdCBwID0gcGFyc2VBY3RvclJldmlldyhvdXQpOwogICAgICAgICAgICByZXR1cm4geyBhY3RvcklkOiBjaGFyLmlkLCBhY3Rvck5hbWU6IGNoYXIubmFtZSwgcm9sZU5hbWU6IGEucm9sZU5hbWUsIG5vdGU6IHAubm90ZSwgbGluZXM6IHAubGluZXMsIHRhYm9vOiBwLnRhYm9vLCBkaXJlY3Rpb246IHAuZGlyZWN0aW9uLCBhdHRpdHVkZTogcC5hdHRpdHVkZSwgY29vcGVyYXRpdmU6IHAuY29vcGVyYXRpdmUgfTsKICAgICAgICB9IGNhdGNoIHsKICAgICAgICAgICAgcmV0dXJuIHsgYWN0b3JJZDogY2hhci5pZCwgYWN0b3JOYW1lOiBjaGFyLm5hbWUsIHJvbGVOYW1lOiBhLnJvbGVOYW1lLCBub3RlOiAn77yI5rKh6IO96K+75a6M5Ymn5pys77yM5YWI5bCx5L2N5LqG77yJJywgYXR0aXR1ZGU6ICfphY3lkIgnLCBjb29wZXJhdGl2ZTogdHJ1ZSB9OwogICAgICAgIH0KICAgIH0pKTsKfQoKLyoqIOS4pOasoeiwg+eUqOaooeW8j++8muS4gOasoeiuqSBMTE0g5ZCM5pe25omu5ryU5omA5pyJIGNoYXIg5ryU5ZGY57uZ5oSP6KeB77yI55yB77yM5Y+v6IO9IE9PQ++8ieOAgiAqLwphc3luYyBmdW5jdGlvbiBiYXRjaE5vdGVzKHNjcmlwdDogVlJTY3JpcHQsIGNoYXJBc3NpZ25zOiBWUkNhc3RBc3NpZ25bXSwgY3R4OiBUaGVhdGVyQ3R4LCBhcGk6IFRoZWF0ZXJBcGkpOiBQcm9taXNlPFZSQWN0b3JOb3RlW10+IHsKICAgIGNvbnN0IGNhc3RGb3JCYXRjaCA9IGNoYXJBc3NpZ25zLm1hcChhID0+IHsKICAgICAgICBjb25zdCBjaCA9IGN0eC5jaGFyYWN0ZXJzLmZpbmQoYyA9PiBjLmlkID09PSBhLmFjdG9ySWQpOwogICAgICAgIHJldHVybiB7IHJvbGVOYW1lOiBhLnJvbGVOYW1lLCBhY3Rvck5hbWU6IGEuYWN0b3JOYW1lLCBwZXJzb25hOiBjaCA/IHBlcnNvbmFCcmllZihjaCkgOiAnJyB9OwogICAgfSk7CiAgICBjb25zdCBzeXMgPSAn5L2g5piv5LiA5Liq5aSa6KeS6Imy5omu5ryU5byV5pOO44CC5LiL6Z2i5Lya57uZ5L2g6Iul5bmy5ryU5ZGY5ZCE6Ieq55qE5Lq66K6+77yM6K+35YiG5Yir56uZ5Zyo5LuW5Lus5ZCE6Ieq55qE56uL5Zy65ZKM5oCn5qC85Zue5bqU77yM5L+d5oyB5q+P5Lq654us56uL44CB5Yir5Liy5ZGz77yM5oCB5bqm5Lmf5Yir5pW06b2Q5YiS5LiA44CCJzsKICAgIGxldCBwYXJzZWQ6IFJlY29yZDxzdHJpbmcsIFJldHVyblR5cGU8dHlwZW9mIHBhcnNlQWN0b3JSZXZpZXc+PiA9IHt9OwogICAgdHJ5IHsKICAgICAgICBjb25zdCBvdXQgPSBhd2FpdCBjaGF0KGFwaSwgWwogICAgICAgICAgICB7IHJvbGU6ICdzeXN0ZW0nLCBjb250ZW50OiBzeXMgfSwKICAgICAgICAgICAgeyByb2xlOiAndXNlcicsIGNvbnRlbnQ6IGJ1aWxkQWN0b3JzQmF0Y2hUdXJuKHNjcmlwdC50aXRsZSwgc2NyaXB0LmxvZ2xpbmUsIHNjcmlwdC5ib2R5LCBjYXN0Rm9yQmF0Y2gpIH0sCiAgICAgICAgXSk7CiAgICAgICAgcGFyc2VkID0gcGFyc2VBY3RvcnNCYXRjaChvdXQpOwogICAgfSBjYXRjaCB7IC8qIOWksei0peWImeWFqOS9k+m7mOiupOWwseS9jSAqLyB9CiAgICByZXR1cm4gY2hhckFzc2lnbnMubWFwKGEgPT4gewogICAgICAgIGNvbnN0IHAgPSBwYXJzZWRbYS5hY3Rvck5hbWVdIHx8IHsgbm90ZTogJ++8iOayoee7meWFt+S9k+aEj+inge+8jOWQrOWvvOa8lOeahO+8iScsIGNvb3BlcmF0aXZlOiB0cnVlLCBsaW5lczogdW5kZWZpbmVkLCB0YWJvbzogdW5kZWZpbmVkLCBkaXJlY3Rpb246IHVuZGVmaW5lZCwgYXR0aXR1ZGU6ICfphY3lkIgnIH07CiAgICAgICAgcmV0dXJuIHsgYWN0b3JJZDogYS5hY3RvcklkLCBhY3Rvck5hbWU6IGEuYWN0b3JOYW1lLCByb2xlTmFtZTogYS5yb2xlTmFtZSwgbm90ZTogcC5ub3RlLCBsaW5lczogcC5saW5lcywgdGFib286IHAudGFib28sIGRpcmVjdGlvbjogcC5kaXJlY3Rpb24sIGF0dGl0dWRlOiBwLmF0dGl0dWRlLCBjb29wZXJhdGl2ZTogcC5jb29wZXJhdGl2ZSB9OwogICAgfSk7Cn0KCi8qKgogKiDmlLbpm4bmiYDmnInmvJTlkZjlr7nliafmnKznmoTmhI/op4HjgIJOUEMg5LiN6LCDIExMTe+8iOebtOaOpeWwseS9je+8ie+8jOWPquaciSBjaGFyIOa8lOWRmOWQg+iwg+eUqOOAggogKiBwZXItcm9sZe+8mmNoYXIg5pWw5qyh5bm25Y+R6LCD55So77yI57K+5YeG77yJ77ybdHdvLWNhbGzvvJoxIOasoeaJuemHj++8iOecge+8ieOAggogKi8KZXhwb3J0IGFzeW5jIGZ1bmN0aW9uIGNvbGxlY3RBY3Rvck5vdGVzKHNjcmlwdDogVlJTY3JpcHQsIGNhc3Q6IFZSQ2FzdEFzc2lnbltdLCBtb2RlOiBWUlN0YWdlTW9kZSwgY3R4OiBUaGVhdGVyQ3R4LCBhcGk6IFRoZWF0ZXJBcGkpOiBQcm9taXNlPFZSQWN0b3JOb3RlW10+IHsKICAgIGNvbnN0IGNoYXJBc3NpZ25zID0gY2FzdC5maWx0ZXIoYyA9PiAhYy5pc05wYyk7CiAgICBjb25zdCBucGNOb3RlczogVlJBY3Rvck5vdGVbXSA9IGNhc3QuZmlsdGVyKGMgPT4gYy5pc05wYykubWFwKGMgPT4gKHsKICAgICAgICBhY3RvcklkOiBjLmFjdG9ySWQsIGFjdG9yTmFtZTogYy5hY3Rvck5hbWUsIHJvbGVOYW1lOiBjLnJvbGVOYW1lLCBub3RlOiAn77yITlBDIOa8lOWRmOWwseS9je+8jOWQrOWvvOa8lOiwg+W6pu+8iScsIGF0dGl0dWRlOiAn6YWN5ZCIJywgY29vcGVyYXRpdmU6IHRydWUsCiAgICB9KSk7CiAgICBjb25zdCBjaGFyTm90ZXMgPSBjaGFyQXNzaWducy5sZW5ndGggPT09IDAgPyBbXQogICAgICAgIDogbW9kZSA9PT0gJ3R3by1jYWxsJyA/IGF3YWl0IGJhdGNoTm90ZXMoc2NyaXB0LCBjaGFyQXNzaWducywgY3R4LCBhcGkpCiAgICAgICAgOiBhd2FpdCBwZXJSb2xlTm90ZXMoc2NyaXB0LCBjYXN0LCBjaGFyQXNzaWducywgY3R4LCBhcGkpOwogICAgLy8g5oyJIGNhc3Qg6aG65bqP5b2S5L2NCiAgICBjb25zdCBieVJvbGUgPSBuZXcgTWFwKFsuLi5jaGFyTm90ZXMsIC4uLm5wY05vdGVzXS5tYXAobiA9PiBbbi5yb2xlTmFtZSArICcAJyArIG4uYWN0b3JJZCwgbl0pKTsKICAgIHJldHVybiBjYXN0Lm1hcChjID0+IGJ5Um9sZS5nZXQoYy5yb2xlTmFtZSArICcAJyArIGMuYWN0b3JJZCkhKS5maWx0ZXIoQm9vbGVhbik7Cn0KCi8qKiBjaGFyIOa8lOWRmOS6uuaVsO+8iD0g6L+Z5qyh57yW5o6S5Lya5ZCD55qEIExMTSDosIPnlKjln7rmlbDvvIzlr7zmvJTlho0gKzHvvInjgIIgKi8KZXhwb3J0IGZ1bmN0aW9uIGNoYXJBY3RvckNvdW50KGNhc3Q6IFZSQ2FzdEFzc2lnbltdKTogbnVtYmVyIHsKICAgIHJldHVybiBjYXN0LmZpbHRlcihjID0+ICFjLmlzTnBjKS5sZW5ndGg7Cn0KCi8qKiDlr7zmvJTmlbTlkIjvvJrljp/liafmnKwgKyDop5LoibLmnKzoibIgKyDmvJTlkZjoh6rph43lhpnlj7Dor40gKyDnlKjmiLfnoazmgKfopoHmsYIg4oaSIOacgOe7iOa8lOWHuuiEmuacrCArIOmUkOivhCArIOivhOe6p+OAgiAqLwpleHBvcnQgYXN5bmMgZnVuY3Rpb24gcnVuRGlyZWN0b3Ioc2NyaXB0OiBWUlNjcmlwdCwgY2FzdDogVlJDYXN0QXNzaWduW10sIG5vdGVzOiBWUkFjdG9yTm90ZVtdLCBjdHg6IFRoZWF0ZXJDdHgsIGFwaTogVGhlYXRlckFwaSwgdXNlclJlcXVpcmVtZW50Pzogc3RyaW5nKTogUHJvbWlzZTxQYXJzZWREaXJlY3Rvcj4gewogICAgLy8g57uZ5a+85ryU5rOo5YWl5q+P5L2N5ryU5ZGY55qE5pys6Imy77yM6YG/5YWN5a+85ryU5Y+N5omL5oqK6KeS6Imy5YaZIE9PQwogICAgY29uc3QgcGVyc29uYXMgPSBjYXN0Lm1hcChjID0+IHsKICAgICAgICBpZiAoYy5pc05wYykgcmV0dXJuIHsgYWN0b3JOYW1lOiBjLmFjdG9yTmFtZSwgcm9sZU5hbWU6IGMucm9sZU5hbWUsIHBlcnNvbmE6ICfljbPlhbTlrqLkuLLnmoQgTlBD77yM5peg5Zu65a6a5Lq66K6+77yM5Y+v6Ieq55Sx5aGR6YCgJyB9OwogICAgICAgIGNvbnN0IGNoID0gY3R4LmNoYXJhY3RlcnMuZmluZCh4ID0+IHguaWQgPT09IGMuYWN0b3JJZCk7CiAgICAgICAgcmV0dXJuIHsgYWN0b3JOYW1lOiBjLmFjdG9yTmFtZSwgcm9sZU5hbWU6IGMucm9sZU5hbWUsIHBlcnNvbmE6IGNoID8gZGlyZWN0b3JQZXJzb25hKGNoKSA6ICfvvIjmnKrnn6XvvIknIH07CiAgICB9KTsKICAgIGNvbnN0IG91dCA9IGF3YWl0IGNoYXQoYXBpLCBbewogICAgICAgIHJvbGU6ICd1c2VyJywKICAgICAgICBjb250ZW50OiBidWlsZERpcmVjdG9yVHVybigKICAgICAgICAgICAgc2NyaXB0LnRpdGxlLCBzY3JpcHQubG9nbGluZSwgc2NyaXB0LmJvZHksCiAgICAgICAgICAgIGNhc3QubWFwKGMgPT4gKHsgcm9sZU5hbWU6IGMucm9sZU5hbWUsIGFjdG9yTmFtZTogYy5hY3Rvck5hbWUgfSkpLAogICAgICAgICAgICBwZXJzb25hcywgbm90ZXMsIFNUQUdFX0JVQkJMRV9NQVgsIHVzZXJSZXF1aXJlbWVudCwKICAgICAgICApLAogICAgfV0sIDAuODUpOwogICAgcmV0dXJuIHBhcnNlRGlyZWN0b3JPdXRwdXQob3V0KTsKfQo=
+/**
+ * 彼方·剧院 —— LLM 编排管线（脚本生成/润色、演员意见收集、导演整合）。
+ *
+ * 把所有 LLM 调用集中在这里，UI 只管交互。API 通道与彼方其它功能一致：
+ * 角色无关的调用走 彼方独立 API（getVRApi）→ 回落聊天默认 apiConfig；演员意见
+ * 这种"角色自己说话"的调用，走 buildChatRequestPayload（ContextBuilder + 记忆宫殿）
+ * 拿到该角色完整人设上下文，跟 runSession 自由活动一致。
+ */
+
+import type {
+    CharacterProfile, UserProfile, GroupProfile, APIConfig, Emoji, EmojiCategory,
+    VRScript, VRCastAssign, VRActorNote, VRStageMode,
+} from '../../types';
+import { DB } from '../db';
+import { getVRApi } from './vrApi';
+import { buildChatRequestPayload } from '../chatRequestPayload';
+import { safeFetchJson } from '../safeApi';
+import { STAGE_BUBBLE_MAX } from './constants';
+import {
+    buildLLMScriptTurn, buildPolishTurn, parseScriptOutput, type ParsedScript,
+    buildActorReviewTurn, parseActorReview,
+    buildActorsBatchTurn, parseActorsBatch,
+    buildDirectorTurn, parseDirectorOutput, type ParsedDirector,
+} from './prompts';
+
+export interface TheaterApi { baseUrl: string; apiKey: string; model: string; }
+
+/** 解析剧院要用的 API（彼方独立 API → 聊天默认）。 */
+export async function resolveTheaterApi(apiConfig: APIConfig): Promise<TheaterApi | null> {
+    const vr = await getVRApi();
+    const api = vr?.baseUrl ? vr : apiConfig;
+    if (!api?.baseUrl) return null;
+    return { baseUrl: api.baseUrl.replace(/\/+$/, ''), apiKey: api.apiKey || 'sk-none', model: api.model };
+}
+
+async function chat(api: TheaterApi, messages: Array<{ role: string; content: any }>, temperature = 0.9): Promise<string> {
+    const data: any = await safeFetchJson(`${api.baseUrl}/chat/completions`, {
+        method: 'POST',
+        headers: { 'Content-Type': 'application/json', 'Authorization': `Bearer ${api.apiKey}` },
+        body: JSON.stringify({ model: api.model, messages, temperature, stream: false }),
+    }, 2, 0, { appName: '彼方·剧院' });
+    const c: string = data.choices?.[0]?.message?.content || '';
+    return c.replace(/<think>[\s\S]*?<\/think>/gi, '').trim();
+}
+
+/** 角色无关上下文（UI 注入一次）。 */
+export interface TheaterCtx {
+    characters: CharacterProfile[];
+    userProfile: UserProfile;
+    groups: GroupProfile[];
+    emojis: Emoji[];
+    categories: EmojiCategory[];
+}
+
+/** 导演用的精简人设：姓名 + 核心指令 + 世界观/补充设定（OOC 已在演员重写台词那步处理）。 */
+const directorPersona = (ch: CharacterProfile): string => [
+    `姓名：${ch.name}`,
+    `核心指令：${(ch.systemPrompt || '').trim() || '（无）'}`,
+    (ch.worldview || '').trim() ? `世界观 / 补充设定：${ch.worldview!.trim()}` : '',
+].filter(Boolean).join('\n');
+
+/** 较完整人设（核心性格 + 世界观，不切片）—— 给"固定两次"批量模式用，平衡长度。 */
+const personaBrief = (ch: CharacterProfile): string =>
+    [ch.systemPrompt, ch.worldview && `世界观：${ch.worldview}`].filter(Boolean).join('\n').trim() || '（无设定）';
+
+/** 用户给个 brief（可带写作风格预设），让 LLM 代写一出剧本。 */
+export async function generateScript(brief: string, api: TheaterApi, presetPrompt?: string): Promise<ParsedScript> {
+    return parseScriptOutput(await chat(api, [{ role: 'user', content: buildLLMScriptTurn(brief, presetPrompt) }]));
+}
+
+/** 按写作风格预设 + 额外要求润色重写一份剧本正文。 */
+export async function polishScript(body: string, presetPrompt: string, extra: string, api: TheaterApi): Promise<ParsedScript> {
+    return parseScriptOutput(await chat(api, [{ role: 'user', content: buildPolishTurn(body, presetPrompt, extra) }]));
+}
+
+const castLineOf = (cast: VRCastAssign[]) => cast.map(c => `${c.actorName} 饰 ${c.roleName}`).join('；');
+
+/** 逐角色模式：每个 char 演员各调一次 LLM（带各自 ContextBuilder + 记忆），并发。 */
+async function perRoleNotes(script: VRScript, cast: VRCastAssign[], charAssigns: VRCastAssign[], ctx: TheaterCtx, api: TheaterApi): Promise<VRActorNote[]> {
+    const line = castLineOf(cast);
+    return Promise.all(charAssigns.map(async (a): Promise<VRActorNote> => {
+        const char = ctx.characters.find(c => c.id === a.actorId);
+        if (!char) return { actorId: a.actorId, actorName: a.actorName, roleName: a.roleName, note: '（演员缺席）', cooperative: true };
+        try {
+            const contextLimit = char.contextLimit || 200;
+            const historyMsgs = await DB.getRecentMessagesByCharId(char.id, contextLimit);
+            const mates = cast.map(c => c.actorName).filter(n => n !== char.name);
+            // 名字权重加重：重复同台演员名 + 显式问关系/印象，便于召回角色之间的过往
+            const recallQueryHint = mates.length > 0
+                ? `彼方剧院和这些人同台演戏：${mates.join('、')}。\n${mates.join(' ')} ${mates.join(' ')}\n我对${mates.join('、')}的印象、我和 ta 们的关系与过往。`
+                : `彼方剧院排戏《${script.title}》。`;
+            const payload = await buildChatRequestPayload({
+                char, userProfile: ctx.userProfile, groups: ctx.groups, emojis: ctx.emojis, categories: ctx.categories,
+                historyMsgs, contextLimit, recallQueryHint,
+            });
+            const userTurn = buildActorReviewTurn(script.title, script.logline, script.body, a.roleName, line, char.name);
+            const out = await chat(api, [{ role: 'system', content: payload.systemPrompt }, ...payload.cleanedApiMessages, { role: 'user', content: userTurn }]);
+            const p = parseActorReview(out);
+            return { actorId: char.id, actorName: char.name, roleName: a.roleName, note: p.note, lines: p.lines, taboo: p.taboo, direction: p.direction, attitude: p.attitude, cooperative: p.cooperative };
+        } catch {
+            return { actorId: char.id, actorName: char.name, roleName: a.roleName, note: '（没能读完剧本，先就位了）', attitude: '配合', cooperative: true };
+        }
+    }));
+}
+
+/** 两次调用模式：一次让 LLM 同时扮演所有 char 演员给意见（省，可能 OOC）。 */
+async function batchNotes(script: VRScript, charAssigns: VRCastAssign[], ctx: TheaterCtx, api: TheaterApi): Promise<VRActorNote[]> {
+    const castForBatch = charAssigns.map(a => {
+        const ch = ctx.characters.find(c => c.id === a.actorId);
+        return { roleName: a.roleName, actorName: a.actorName, persona: ch ? personaBrief(ch) : '' };
+    });
+    const sys = '你是一个多角色扮演引擎。下面会给你若干演员各自的人设，请分别站在他们各自的立场和性格回应，保持每人独立、别串味，态度也别整齐划一。';
+    let parsed: Record<string, ReturnType<typeof parseActorReview>> = {};
+    try {
+        const out = await chat(api, [
+            { role: 'system', content: sys },
+            { role: 'user', content: buildActorsBatchTurn(script.title, script.logline, script.body, castForBatch) },
+        ]);
+        parsed = parseActorsBatch(out);
+    } catch { /* 失败则全体默认就位 */ }
+    return charAssigns.map(a => {
+        const p = parsed[a.actorName] || { note: '（没给具体意见，听导演的）', cooperative: true, lines: undefined, taboo: undefined, direction: undefined, attitude: '配合' };
+        return { actorId: a.actorId, actorName: a.actorName, roleName: a.roleName, note: p.note, lines: p.lines, taboo: p.taboo, direction: p.direction, attitude: p.attitude, cooperative: p.cooperative };
+    });
+}
+
+/**
+ * 收集所有演员对剧本的意见。NPC 不调 LLM（直接就位），只有 char 演员吃调用。
+ * per-role：char 数次并发调用（精准）；two-call：1 次批量（省）。
+ */
+export async function collectActorNotes(script: VRScript, cast: VRCastAssign[], mode: VRStageMode, ctx: TheaterCtx, api: TheaterApi): Promise<VRActorNote[]> {
+    const charAssigns = cast.filter(c => !c.isNpc);
+    const npcNotes: VRActorNote[] = cast.filter(c => c.isNpc).map(c => ({
+        actorId: c.actorId, actorName: c.actorName, roleName: c.roleName, note: '（NPC 演员就位，听导演调度）', attitude: '配合', cooperative: true,
+    }));
+    const charNotes = charAssigns.length === 0 ? []
+        : mode === 'two-call' ? await batchNotes(script, charAssigns, ctx, api)
+        : await perRoleNotes(script, cast, charAssigns, ctx, api);
+    // 按 cast 顺序归位
+    const byRole = new Map([...charNotes, ...npcNotes].map(n => [n.roleName + ' ' + n.actorId, n]));
+    return cast.map(c => byRole.get(c.roleName + ' ' + c.actorId)!).filter(Boolean);
+}
+
+/** char 演员人数（= 这次编排会吃的 LLM 调用基数，导演再 +1）。 */
+export function charActorCount(cast: VRCastAssign[]): number {
+    return cast.filter(c => !c.isNpc).length;
+}
+
+/** 导演整合：原剧本 + 角色本色 + 演员自重写台词 + 用户硬性要求 → 最终演出脚本 + 锐评 + 评级。 */
+export async function runDirector(script: VRScript, cast: VRCastAssign[], notes: VRActorNote[], ctx: TheaterCtx, api: TheaterApi, userRequirement?: string): Promise<ParsedDirector> {
+    // 给导演注入每位演员的本色，避免导演反手把角色写 OOC
+    const personas = cast.map(c => {
+        if (c.isNpc) return { actorName: c.actorName, roleName: c.roleName, persona: '即兴客串的 NPC，无固定人设，可自由塑造' };
+        const ch = ctx.characters.find(x => x.id === c.actorId);
+        return { actorName: c.actorName, roleName: c.roleName, persona: ch ? directorPersona(ch) : '（未知）' };
+    });
+    const out = await chat(api, [{
+        role: 'user',
+        content: buildDirectorTurn(
+            script.title, script.logline, script.body,
+            cast.map(c => ({ roleName: c.roleName, actorName: c.actorName })),
+            personas, notes, STAGE_BUBBLE_MAX, userRequirement,
+        ),
+    }], 0.85);
+    return parseDirectorOutput(out);
+}

@@ -1,1 +1,177 @@
-LyoqCiAqIOOAjOWutuWbrSDCtyDmqKHmi5/ml7bpl7TjgI3nq6DoioLmgLvnu5Mg4oCU4oCUIOavjyAyMCDlpKnnu5PkuIDljbfjgIIKICoKICogc2lt77yI5qih5ouf5pe26Ze077yJ5qih5byP5LiN6L+b6K6w5b+G77yM5ryU57uO5LiA55u055WZ5Zyo5a625Zut6YeM5oWi5oWi5pSS44CC5pSS5ruhIDIwIOWkqe+8iD0gODAg6L2u77yMCiAqIOS4gOWkqeWbm+aute+8muaXqS/kuK0v5pmaL+WHjOaZqO+8ieWwsee7k+S4gOWNt++8mgogKiAgIDEuIOeUqOS4gOasoSBMTE0g6LCD55So5oqK6L+ZIDIwIOWkqeeahOWOn+aWh+aPieaIkOS4gOS7vSoq5bCP6K+05L2T5qKX5qaCKirvvIjnu5nlsY/luZXlpJbnmoTnlKjmiLfnnIvvvIzlm77kuIDkuZDvvInvvIwKICogICAgICDov57luKbkurrnianlhbPns7vliqjmgIHotbDlkJHkuI7or4Tku7fjgIHmnKzljbfmsonmt4DnmoTmsJvlm7Tln7rosIPvvJsKICogICAyLiDlkIzkuIDmrKHosIPnlKjpobrluKbkuqflh7oqKuavj+S4quinkuiJsuWNleaWuemdouinhuinkioq55qE5Zue6aG+4oCU4oCU5b6A5ZCO5Y2V54us5ZaC5Zue5ZCE6Ieq77yM6YG/5YWN6KeS6Imy5byA5LiK5bid6KeG6KeS77ybCiAqICAgMy4g5b2S5qGj6L+ZIDIwIOWkqeWOn+aWh++8iOagh+iusCBzaW1TdW1tYXJpemVkQ2xvY2vvvInvvIzlvoDlkI7lj6rmiorjgIzor6Xop5LoibLnmoTljZXop4bop5LmgLvnu5MgKyB0YSDmnIDlkI7kuIDlpKkKICogICAgICDnmoQgYmVhdCArIOawm+WbtOWfuuiwg+OAjeS9nOS4uuS4iuaWh+WWguWbnuKAlOKAlOWOn+aWh+S4jeWGjemAkOi9ruWWguOAggogKgogKiDmiJDmnKzvvJrkuIDljbcgPSAxIOasoemineWkliBMTE0g6LCD55So77yI5LiN5pivIE4g5qyh77yJ77yM55So5pyA5L6/5a6c55qE5pa55byP5ou/5Yiw5YWo5ZGY6KeG6KeS44CCCiAqLwoKaW1wb3J0IHR5cGUgeyBBUElDb25maWcsIENoYXJhY3RlclByb2ZpbGUsIFdvcmxkUHJvZmlsZSwgV29ybGRFcGlzb2RlLCBXb3JsZENoYXB0ZXIsIFdvcmxkQ2hhckJlYXQgfSBmcm9tICcuLi8uLi90eXBlcyc7CmltcG9ydCB7IHNhZmVGZXRjaEpzb24gfSBmcm9tICcuLi9zYWZlQXBpJzsKaW1wb3J0IHsgZXh0cmFjdEpzb24sIFNFR01FTlRTX1BFUl9EQVkgfSBmcm9tICcuL3Byb21wdHMnOwoKLyoqIOS4gOWkqeWbm+aute+8iOaXqS/kuK0v5pmaL+WHjOaZqO+8jOingSBwcm9tcHRzLlNFR01FTlRTX1BFUl9EQVnvvInvvIwyMCDlpKnnu5PkuIDljbfjgIIgKi8KZXhwb3J0IHsgU0VHTUVOVFNfUEVSX0RBWSB9OwpleHBvcnQgY29uc3QgU0lNX0NIQVBURVJfREFZUyA9IDIwOwpleHBvcnQgY29uc3QgU0lNX0NIQVBURVJfQ0xPQ0tTID0gU0lNX0NIQVBURVJfREFZUyAqIFNFR01FTlRTX1BFUl9EQVk7IC8vIDgwCgpjb25zdCBnZW5JZCA9IChwOiBzdHJpbmcpID0+IGAke3B9XyR7RGF0ZS5ub3coKS50b1N0cmluZygzNil9XyR7TWF0aC5yYW5kb20oKS50b1N0cmluZygzNikuc2xpY2UoMiwgNyl9YDsKCi8qKgogKiBzaW0g5qih5byP5LiL77yM5pys6L2u5o6o6L+b5ZCO5piv5ZCm5q2j5aW957uT5ruh5LiA5Y2344CCCiAqIHJvdW5k77yIPSDmjqjov5vlkI7nmoQgc3RvcnlDbG9ja++8ieiQveWcqCBTSU1fQ0hBUFRFUl9DTE9DS1PvvIg4MO+8ieeahOaVtOaVsOWAjeS4iuWNs+e7k+WNt+OAggogKi8KZXhwb3J0IGZ1bmN0aW9uIHNob3VsZENsb3NlQ2hhcHRlcih3b3JsZDogV29ybGRQcm9maWxlLCBuZXdDbG9jazogbnVtYmVyKTogYm9vbGVhbiB7CiAgICBpZiAod29ybGQudGltZU1vZGUgIT09ICdzaW0nKSByZXR1cm4gZmFsc2U7CiAgICBpZiAobmV3Q2xvY2sgPD0gKHdvcmxkLnNpbVN1bW1hcml6ZWRDbG9jayB8fCAwKSkgcmV0dXJuIGZhbHNlOwogICAgcmV0dXJuIG5ld0Nsb2NrICUgU0lNX0NIQVBURVJfQ0xPQ0tTID09PSAwOwp9CgovKiog5LiA5Liq6KeS6Imy5LiA6L2u55qE5rWT57yp5paH5pGY77yI5ZaC57uZ5oC757uT5Zmo77yM5o6n5Yi25L2T6YeP77yJ44CC5Y+q55So5pys5Lq65Lqn5Ye677yM5YWs56eB6YO957uZ77yI5oC757uT5Zmo5piv5YWo55+l55qE77yJ44CCICovCmZ1bmN0aW9uIGRpZ2VzdEJlYXQoYjogV29ybGRDaGFyQmVhdCk6IHN0cmluZyB7CiAgICBjb25zdCBwYXJ0cyA9IFtgJHtiLmNoYXJOYW1lfe+8iCR7Yi5sb2NhdGlvbn3jg7ske2IubW9vZH3vvIlgXTsKICAgIGlmIChiLnRpbWVsaW5lPy5sZW5ndGgpIHBhcnRzLnB1c2goYi50aW1lbGluZS5tYXAodGwgPT4gYCR7dGwudGltZX0ke3RsLnBsYWNlfe+8miR7dGwuZXZlbnR9JHt0bC5zaGFyZWQgPyAnJyA6ICfjgJTnnpLjgJUnfWApLmpvaW4oJ++8mycpKTsKICAgIGlmIChiLm5hcnJhdGl2ZSkgcGFydHMucHVzaChg5YaF5b+D77yaJHtiLm5hcnJhdGl2ZS5zbGljZSgwLCAyMjApfWApOwogICAgaWYgKGIuZGlhbG9ndWVzPy5sZW5ndGgpIHBhcnRzLnB1c2goYi5kaWFsb2d1ZXMubWFwKGQgPT4gYOWvuSR7ZC53aXRofeivtOOAjCR7ZC5saW5lcy5qb2luKCcvJyl944CNYCkuam9pbign77ybJykpOwogICAgaWYgKGIucmVsYXRpb25zaGlwRGVsdGFzPy5sZW5ndGgpIHBhcnRzLnB1c2goYi5yZWxhdGlvbnNoaXBEZWx0YXMubWFwKHIgPT4gYOWvuSR7ci53aXRoTmFtZX0gJHtyLmRlbHRhID4gMCA/ICcrJyA6ICcnfSR7ci5kZWx0YX0ke3IucmVhc29uID8gYCgke3IucmVhc29ufSlgIDogJyd9YCkuam9pbign77ybJykpOwogICAgcmV0dXJuIHBhcnRzLmpvaW4oJyDvvZwgJyk7Cn0KCi8qKiDmiornqpflj6PlhoXnmoTljp/mlofmj4nmiJDlloLnu5nmgLvnu5PlmajnmoTmlofmkZjvvIjmjInml7bpl7TmraPluo/vvInjgIIgKi8KZXhwb3J0IGZ1bmN0aW9uIGJ1aWxkQ2hhcHRlckRpZ2VzdChlcGlzb2RlczogV29ybGRFcGlzb2RlW10pOiBzdHJpbmcgewogICAgcmV0dXJuIGVwaXNvZGVzCiAgICAgICAgLnNsaWNlKCkKICAgICAgICAuc29ydCgoYSwgYikgPT4gYS5yb3VuZCAtIGIucm91bmQpCiAgICAgICAgLm1hcChlcCA9PiB7CiAgICAgICAgICAgIGNvbnN0IGxpbmVzID0gW2DjgJAke2VwLnN0b3J5VGltZX3jgJFgXTsKICAgICAgICAgICAgaWYgKGVwLm5wY1NjZW5lKSBsaW5lcy5wdXNoKGDplYfkuIrvvJoke2VwLm5wY1NjZW5lLnNsaWNlKDAsIDE2MCl9YCk7CiAgICAgICAgICAgIGZvciAoY29uc3QgYiBvZiBlcC5iZWF0cykgbGluZXMucHVzaChgLSAke2RpZ2VzdEJlYXQoYil9YCk7CiAgICAgICAgICAgIHJldHVybiBsaW5lcy5qb2luKCdcbicpOwogICAgICAgIH0pCiAgICAgICAgLmpvaW4oJ1xuXG4nKQogICAgICAgIC5zbGljZSgwLCAxMjAwMCk7Cn0KCi8qKiDmgLvnu5Plmajmj5DnpLror43jgIIgKi8KZXhwb3J0IGZ1bmN0aW9uIGJ1aWxkQ2hhcHRlclN1bW1hcnlQcm9tcHQoYXJnczogewogICAgd29ybGQ6IFdvcmxkUHJvZmlsZTsKICAgIG1lbWJlcnM6IENoYXJhY3RlclByb2ZpbGVbXTsKICAgIGZyb21MYWJlbDogc3RyaW5nOwogICAgdG9MYWJlbDogc3RyaW5nOwogICAgZGlnZXN0OiBzdHJpbmc7CiAgICBwcmV2U3lub3BzaXM/OiBzdHJpbmc7Cn0pOiBzdHJpbmcgewogICAgY29uc3QgeyB3b3JsZCwgbWVtYmVycywgZnJvbUxhYmVsLCB0b0xhYmVsLCBkaWdlc3QsIHByZXZTeW5vcHNpcyB9ID0gYXJnczsKICAgIGNvbnN0IG5hbWVzID0gbWVtYmVycy5tYXAobSA9PiBtLm5hbWUpOwogICAgcmV0dXJuIGDkvaDmmK/lhbHlkIzkuJbnlYzjgIwke3dvcmxkLm5hbWV944CN55qE57yW5bm05Y+y5a6Y44CC5LiL6Z2i5piv6L+Z5Liq5LiW55WM5LuO44CMJHtmcm9tTGFiZWx944CN5Yiw44CMJHt0b0xhYmVsfeOAjei/mSAke1NJTV9DSEFQVEVSX0RBWVN9IOWkqemHjO+8jOavj+S4quinkuiJsuavj+WNiuWkqeeahOWOn+Wni+a8lOe7juiusOW9le+8iOWQq+S7luS7rOWQhOiHqueekuS4i+eahOS6i++8jOeUqOOAlOeekuOAleagh+WHuu+8ieOAggoKIyMg5LiW55WM6KeCCiR7d29ybGQud29ybGR2aWV3IHx8ICfvvIjkuIDkuKrlronpnZnnmoTlsI/kuJbnlYzvvIknfQoKIyMg6KeS6Imy5ZCN5Y2VCiR7bmFtZXMuam9pbign44CBJyl9CiR7cHJldlN5bm9wc2lzID8gYFxuIyMg5LiK5LiA5Y235qKX5qaC77yI5om/5o6l77yM5LiN6KaB6YeN5aSN77yJXG4ke3ByZXZTeW5vcHNpcy5zbGljZSgwLCA4MDApfWAgOiAnJ30KCiMjIOi/mSAke1NJTV9DSEFQVEVSX0RBWVN9IOWkqeeahOWOn+aWhwoke2RpZ2VzdH0KCuivt+WDj+WGmei/nui9veWwj+ivtOeahOOAjOacrOWNt+Wwj+e7k+OAjeS4gOagt++8jOe7k+WHuui/meS4gOWNt+OAguS4peagvOi+k+WHuuS4gOS4qiBKU09OIOWvueixoe+8iOW7uuiuriBcYFxgXGBqc29uIOWMheijue+8jOS4jeimgei+k+WHuiBKU09OIOS5i+WklueahOato+aWh++8ie+8mgp7CiAgInN5bm9wc2lzIjogIjgwMH4xNTAw5a2X55qE5bCP6K+05L2T5qKX5qaC77ya6L+ZICR7U0lNX0NIQVBURVJfREFZU30g5aSp55qE5Li757q/5LiO6YeN6KaB6L2s5oqY77yM6LCB57uP5Y6G5LqG5LuA5LmI44CB5pqX5rWB5LiO6auY5r2u44CC5Y+v5Lul5YWo55+l6KeG6KeS77yI5L2g55yL5b6X5Yiw5omA5pyJ5Lq6556S5LiL55qE5LqL77yJ77yM5YaZ57uZ5bGP5bmV5aSW55qE6KeC5LyX55yL44CC5YiGM3425q6177yI55SoXFxuXFxu5YiG5q6177yJ44CCIiwKICAicmVsYXRpb25zaGlwRXZhbCI6ICIyMDB+NDAw5a2X77ya6L+Z5LiA5Y236YeM5Lq654mp5YWz57O7572R55qE5Yqo5oCB5Y+Y5YyW5pa55ZCR5LiO6K+E5Lu34oCU4oCU6LCB5ZKM6LCB5pu06L+RL+abtOi/nOS6huOAgeaWsOeUn+eahOaal+a1geaIluijgueXleOAgeWHoOadoeWFs+ezu+e6v+eahOi1sOWQkemihOWIpOOAgiIsCiAgImF0bW9zcGhlcmUiOiAi5LiA5Lik5Y+l6K+d77ya6L+Z5LiA5Y235rKJ5reA5LiL5p2l44CB5Lya5bu257ut5Yiw5LiL5LiA5Y2355qE5pW05L2T5rCb5Zu05Z+66LCD77yI5L6L77ya6KGo6Z2i5bmz6Z2Z5LiL5pqX6JeP5Yeg5q615b+D54Wn5LiN5a6j55qE57Sn5byg77yJ44CCIiwKICAicGVyc3BlY3RpdmVzIjogWwogICAgeyAibmFtZSI6ICLop5LoibLlkI0iLCAidGV4dCI6ICIzMDB+NTAw5a2X77yMKirlj6rku47ov5nkuKrop5LoibLljZXmlrnpnaLnmoTop4bop5IqKuWbnumhvui/mSAke1NJTV9DSEFQVEVSX0RBWVN9IOWkqe+8mnRhIOS6suWOhuS6huS7gOS5iOOAgXRhIOefpemBky/lkKzor7Tkuobku4DkuYjjgIF0YSDlr7nliKvkurrmgI7kuYjnnIvjgIHlv4Pph4znlZnkuIvkuobku4DkuYjjgIIqKue7neWvueS4jeiDveWGmSB0YSDkuI3lj6/og73nn6XpgZPnmoTliKvkurrlhoXlv4PmiI/miJbliKvkurrnnpLnnYAgdGEg55qE5LqLKirigJTigJTov5nmmK/opoHlloLlm54gdGEg6Ieq5bex55qE6K6w5b+G55qE77yM5YaZ5ryP5LqG5bCx562J5LqO6K6pIHRhIOW8gOS6huS4iuW4neinhuinkuOAgiIgfQogIF0KfQropoHmsYLvvJpwZXJzcGVjdGl2ZXMg5b+F6aG75Li65q+P5Liq6KeS6Imy77yIJHtuYW1lcy5qb2luKCfjgIEnKX3vvInlkITlh7rkuIDmnaHvvIxuYW1lIOeUqOS4iumdoueahOWOn+WQjeOAgmA7Cn0KCi8qKiDop6PmnpDmgLvnu5PlmajovpPlh7og4oaSIOeroOiKguWtl+aute+8iOe8uuWtl+auteaXtuWwvemHj+WFnOW6le+8jOS4jeaKm+mUme+8ieOAgiAqLwpleHBvcnQgZnVuY3Rpb24gcGFyc2VDaGFwdGVyU3VtbWFyeShyYXc6IHN0cmluZywgbWVtYmVyczogQ2hhcmFjdGVyUHJvZmlsZVtdKTogewogICAgc3lub3BzaXM6IHN0cmluZzsKICAgIHJlbGF0aW9uc2hpcEV2YWw/OiBzdHJpbmc7CiAgICBhdG1vc3BoZXJlPzogc3RyaW5nOwogICAgcGVyc3BlY3RpdmVzOiB7IGNoYXJJZDogc3RyaW5nOyBjaGFyTmFtZTogc3RyaW5nOyB0ZXh0OiBzdHJpbmcgfVtdOwp9IHsKICAgIGNvbnN0IGogPSBleHRyYWN0SnNvbihyYXcpOwogICAgY29uc3QgZmFsbGJhY2sgPSAocmF3IHx8ICcnKS5yZXBsYWNlKC88dGhpbms+W1xzXFNdKj88XC90aGluaz4vZ2ksICcnKS5yZXBsYWNlKC9gYGAoPzpqc29uKT98YGBgL2csICcnKS50cmltKCk7CiAgICBjb25zdCBieU5hbWUgPSBuZXcgTWFwKG1lbWJlcnMubWFwKG0gPT4gW20ubmFtZSwgbV0pKTsKICAgIGNvbnN0IHBlcnNwZWN0aXZlczogeyBjaGFySWQ6IHN0cmluZzsgY2hhck5hbWU6IHN0cmluZzsgdGV4dDogc3RyaW5nIH1bXSA9IFtdOwogICAgaWYgKGogJiYgQXJyYXkuaXNBcnJheShqLnBlcnNwZWN0aXZlcykpIHsKICAgICAgICBmb3IgKGNvbnN0IHAgb2Ygai5wZXJzcGVjdGl2ZXMpIHsKICAgICAgICAgICAgaWYgKCFwIHx8IHR5cGVvZiBwLm5hbWUgIT09ICdzdHJpbmcnIHx8IHR5cGVvZiBwLnRleHQgIT09ICdzdHJpbmcnIHx8ICFwLnRleHQudHJpbSgpKSBjb250aW51ZTsKICAgICAgICAgICAgY29uc3QgY2hhciA9IGJ5TmFtZS5nZXQocC5uYW1lLnRyaW0oKSk7CiAgICAgICAgICAgIGlmICghY2hhcikgY29udGludWU7CiAgICAgICAgICAgIGlmIChwZXJzcGVjdGl2ZXMuc29tZSh4ID0+IHguY2hhcklkID09PSBjaGFyLmlkKSkgY29udGludWU7CiAgICAgICAgICAgIHBlcnNwZWN0aXZlcy5wdXNoKHsgY2hhcklkOiBjaGFyLmlkLCBjaGFyTmFtZTogY2hhci5uYW1lLCB0ZXh0OiBwLnRleHQudHJpbSgpLnNsaWNlKDAsIDEyMDApIH0pOwogICAgICAgIH0KICAgIH0KICAgIHJldHVybiB7CiAgICAgICAgc3lub3BzaXM6IChqICYmIHR5cGVvZiBqLnN5bm9wc2lzID09PSAnc3RyaW5nJyAmJiBqLnN5bm9wc2lzLnRyaW0oKSA/IGouc3lub3BzaXMudHJpbSgpIDogZmFsbGJhY2spLnNsaWNlKDAsIDQwMDApLAogICAgICAgIHJlbGF0aW9uc2hpcEV2YWw6IGogJiYgdHlwZW9mIGoucmVsYXRpb25zaGlwRXZhbCA9PT0gJ3N0cmluZycgJiYgai5yZWxhdGlvbnNoaXBFdmFsLnRyaW0oKSA/IGoucmVsYXRpb25zaGlwRXZhbC50cmltKCkuc2xpY2UoMCwgMTIwMCkgOiB1bmRlZmluZWQsCiAgICAgICAgYXRtb3NwaGVyZTogaiAmJiB0eXBlb2Ygai5hdG1vc3BoZXJlID09PSAnc3RyaW5nJyAmJiBqLmF0bW9zcGhlcmUudHJpbSgpID8gai5hdG1vc3BoZXJlLnRyaW0oKS5zbGljZSgwLCAzMDApIDogdW5kZWZpbmVkLAogICAgICAgIHBlcnNwZWN0aXZlcywKICAgIH07Cn0KCi8qKgogKiDnu5PkuIDljbfvvJrosIPnlKjmgLvnu5PlmajvvIzkuqflh7ogV29ybGRDaGFwdGVy44CCCiAqIOWksei0pei/lOWbniBudWxs77yI57uT5Y235aSx6LSl5LiN5bqU6K+l5ouW5Z6u5Li75ryU57uO5rWB56iL77yM5LiL5LiA5Y2354Wn5bi457Sv56ev77yJ44CCCiAqLwpleHBvcnQgYXN5bmMgZnVuY3Rpb24gc3VtbWFyaXplQ2hhcHRlcihhcmdzOiB7CiAgICB3b3JsZDogV29ybGRQcm9maWxlOwogICAgbWVtYmVyczogQ2hhcmFjdGVyUHJvZmlsZVtdOwogICAgZXBpc29kZXM6IFdvcmxkRXBpc29kZVtdOyAgICAgLy8g5pys5Y2356qX5Y+j5YaF55qE5Y6f5paH77yI5Lu75oSP6aG65bqP77yJCiAgICBhcGk6IHsgYmFzZVVybDogc3RyaW5nOyBhcGlLZXk6IHN0cmluZzsgbW9kZWw6IHN0cmluZyB9OwogICAgZnJvbUNsb2NrOiBudW1iZXI7CiAgICB0b0Nsb2NrOiBudW1iZXI7CiAgICBmcm9tTGFiZWw6IHN0cmluZzsKICAgIHRvTGFiZWw6IHN0cmluZzsKICAgIGluZGV4OiBudW1iZXI7CiAgICBwcmV2U3lub3BzaXM/OiBzdHJpbmc7Cn0pOiBQcm9taXNlPFdvcmxkQ2hhcHRlciB8IG51bGw+IHsKICAgIGNvbnN0IHsgd29ybGQsIG1lbWJlcnMsIGVwaXNvZGVzLCBhcGksIGZyb21DbG9jaywgdG9DbG9jaywgZnJvbUxhYmVsLCB0b0xhYmVsLCBpbmRleCwgcHJldlN5bm9wc2lzIH0gPSBhcmdzOwogICAgaWYgKGVwaXNvZGVzLmxlbmd0aCA9PT0gMCkgcmV0dXJuIG51bGw7CiAgICBjb25zdCBiYXNlVXJsID0gYXBpLmJhc2VVcmwucmVwbGFjZSgvXC8rJC8sICcnKTsKICAgIGNvbnN0IGRpZ2VzdCA9IGJ1aWxkQ2hhcHRlckRpZ2VzdChlcGlzb2Rlcyk7CiAgICB0cnkgewogICAgICAgIGNvbnN0IGRhdGEgPSBhd2FpdCBzYWZlRmV0Y2hKc29uKGAke2Jhc2VVcmx9L2NoYXQvY29tcGxldGlvbnNgLCB7CiAgICAgICAgICAgIG1ldGhvZDogJ1BPU1QnLAogICAgICAgICAgICBoZWFkZXJzOiB7ICdDb250ZW50LVR5cGUnOiAnYXBwbGljYXRpb24vanNvbicsICdBdXRob3JpemF0aW9uJzogYEJlYXJlciAke2FwaS5hcGlLZXkgfHwgJ3NrLW5vbmUnfWAgfSwKICAgICAgICAgICAgYm9keTogSlNPTi5zdHJpbmdpZnkoewogICAgICAgICAgICAgICAgbW9kZWw6IGFwaS5tb2RlbCwKICAgICAgICAgICAgICAgIG1lc3NhZ2VzOiBbeyByb2xlOiAndXNlcicsIGNvbnRlbnQ6IGJ1aWxkQ2hhcHRlclN1bW1hcnlQcm9tcHQoeyB3b3JsZCwgbWVtYmVycywgZnJvbUxhYmVsLCB0b0xhYmVsLCBkaWdlc3QsIHByZXZTeW5vcHNpcyB9KSB9XSwKICAgICAgICAgICAgICAgIHRlbXBlcmF0dXJlOiAwLjgsIHN0cmVhbTogZmFsc2UsCiAgICAgICAgICAgIH0pLAogICAgICAgIH0sIDIsIDAsIHsgYXBwTmFtZTogJ+WutuWbrScsIHB1cnBvc2U6IGDnu5PljbfmgLvnu5MgwrcgJHt3b3JsZC5uYW1lfSDnrKwke2luZGV4feWNt2AgfSk7CiAgICAgICAgY29uc3QgcGFyc2VkID0gcGFyc2VDaGFwdGVyU3VtbWFyeShkYXRhLmNob2ljZXM/LlswXT8ubWVzc2FnZT8uY29udGVudCB8fCAnJywgbWVtYmVycyk7CiAgICAgICAgLy8g5q+P5Liq6KeS6Imy6L+Z5LiA5Y2344CM5pyA5ZCO5LiA5aSp44CN55qEIGJlYXTvvJrlj5bnqpflj6PlhoUgcm91bmQg5pyA5aSn55qE6YKj5p2hIGVwaXNvZGUg6YeM5ZCE6Ieq55qEIGJlYXQKICAgICAgICBjb25zdCBsYXN0RXAgPSBlcGlzb2Rlcy5zbGljZSgpLnNvcnQoKGEsIGIpID0+IGIucm91bmQgLSBhLnJvdW5kKVswXTsKICAgICAgICBjb25zdCBsYXN0RGF5QmVhdHMgPSBsYXN0RXA/LmJlYXRzIHx8IFtdOwogICAgICAgIHJldHVybiB7CiAgICAgICAgICAgIGlkOiBnZW5JZCgnd2MnKSwKICAgICAgICAgICAgd29ybGRJZDogd29ybGQuaWQsCiAgICAgICAgICAgIGluZGV4LAogICAgICAgICAgICBmcm9tQ2xvY2ssCiAgICAgICAgICAgIHRvQ2xvY2ssCiAgICAgICAgICAgIGZyb21MYWJlbCwKICAgICAgICAgICAgdG9MYWJlbCwKICAgICAgICAgICAgc3lub3BzaXM6IHBhcnNlZC5zeW5vcHNpcywKICAgICAgICAgICAgcmVsYXRpb25zaGlwRXZhbDogcGFyc2VkLnJlbGF0aW9uc2hpcEV2YWwsCiAgICAgICAgICAgIGF0bW9zcGhlcmU6IHBhcnNlZC5hdG1vc3BoZXJlLAogICAgICAgICAgICBwZXJzcGVjdGl2ZXM6IHBhcnNlZC5wZXJzcGVjdGl2ZXMsCiAgICAgICAgICAgIGxhc3REYXlCZWF0cywKICAgICAgICAgICAgY3JlYXRlZEF0OiBEYXRlLm5vdygpLAogICAgICAgIH07CiAgICB9IGNhdGNoIChlKSB7CiAgICAgICAgY29uc29sZS53YXJuKCdbV29ybGRIb21lXSBjaGFwdGVyIHN1bW1hcnkgZmFpbGVkOicsIGUpOwogICAgICAgIHJldHVybiBudWxsOwogICAgfQp9Cg==
+/**
+ * 「家园 · 模拟时间」章节总结 —— 每 20 天结一卷。
+ *
+ * sim（模拟时间）模式不进记忆，演绎一直留在家园里慢慢攒。攒满 20 天（= 80 轮，
+ * 一天四段：早/中/晚/凌晨）就结一卷：
+ *   1. 用一次 LLM 调用把这 20 天的原文揉成一份**小说体梗概**（给屏幕外的用户看，图一乐），
+ *      连带人物关系动态走向与评价、本卷沉淀的氛围基调；
+ *   2. 同一次调用顺带产出**每个角色单方面视角**的回顾——往后单独喂回各自，避免角色开上帝视角；
+ *   3. 归档这 20 天原文（标记 simSummarizedClock），往后只把「该角色的单视角总结 + ta 最后一天
+ *      的 beat + 氛围基调」作为上文喂回——原文不再逐轮喂。
+ *
+ * 成本：一卷 = 1 次额外 LLM 调用（不是 N 次），用最便宜的方式拿到全员视角。
+ */
+
+import type { APIConfig, CharacterProfile, WorldProfile, WorldEpisode, WorldChapter, WorldCharBeat } from '../../types';
+import { safeFetchJson } from '../safeApi';
+import { extractJson, SEGMENTS_PER_DAY } from './prompts';
+
+/** 一天四段（早/中/晚/凌晨，见 prompts.SEGMENTS_PER_DAY），20 天结一卷。 */
+export { SEGMENTS_PER_DAY };
+export const SIM_CHAPTER_DAYS = 20;
+export const SIM_CHAPTER_CLOCKS = SIM_CHAPTER_DAYS * SEGMENTS_PER_DAY; // 80
+
+const genId = (p: string) => `${p}_${Date.now().toString(36)}_${Math.random().toString(36).slice(2, 7)}`;
+
+/**
+ * sim 模式下，本轮推进后是否正好结满一卷。
+ * round（= 推进后的 storyClock）落在 SIM_CHAPTER_CLOCKS（80）的整数倍上即结卷。
+ */
+export function shouldCloseChapter(world: WorldProfile, newClock: number): boolean {
+    if (world.timeMode !== 'sim') return false;
+    if (newClock <= (world.simSummarizedClock || 0)) return false;
+    return newClock % SIM_CHAPTER_CLOCKS === 0;
+}
+
+/** 一个角色一轮的浓缩文摘（喂给总结器，控制体量）。只用本人产出，公私都给（总结器是全知的）。 */
+function digestBeat(b: WorldCharBeat): string {
+    const parts = [`${b.charName}（${b.location}・${b.mood}）`];
+    if (b.timeline?.length) parts.push(b.timeline.map(tl => `${tl.time}${tl.place}：${tl.event}${tl.shared ? '' : '〔瞒〕'}`).join('；'));
+    if (b.narrative) parts.push(`内心：${b.narrative.slice(0, 220)}`);
+    if (b.dialogues?.length) parts.push(b.dialogues.map(d => `对${d.with}说「${d.lines.join('/')}」`).join('；'));
+    if (b.relationshipDeltas?.length) parts.push(b.relationshipDeltas.map(r => `对${r.withName} ${r.delta > 0 ? '+' : ''}${r.delta}${r.reason ? `(${r.reason})` : ''}`).join('；'));
+    return parts.join(' ｜ ');
+}
+
+/** 把窗口内的原文揉成喂给总结器的文摘（按时间正序）。 */
+export function buildChapterDigest(episodes: WorldEpisode[]): string {
+    return episodes
+        .slice()
+        .sort((a, b) => a.round - b.round)
+        .map(ep => {
+            const lines = [`【${ep.storyTime}】`];
+            if (ep.npcScene) lines.push(`镇上：${ep.npcScene.slice(0, 160)}`);
+            for (const b of ep.beats) lines.push(`- ${digestBeat(b)}`);
+            return lines.join('\n');
+        })
+        .join('\n\n')
+        .slice(0, 12000);
+}
+
+/** 总结器提示词。 */
+export function buildChapterSummaryPrompt(args: {
+    world: WorldProfile;
+    members: CharacterProfile[];
+    fromLabel: string;
+    toLabel: string;
+    digest: string;
+    prevSynopsis?: string;
+}): string {
+    const { world, members, fromLabel, toLabel, digest, prevSynopsis } = args;
+    const names = members.map(m => m.name);
+    return `你是共同世界「${world.name}」的编年史官。下面是这个世界从「${fromLabel}」到「${toLabel}」这 ${SIM_CHAPTER_DAYS} 天里，每个角色每半天的原始演绎记录（含他们各自瞒下的事，用〔瞒〕标出）。
+
+## 世界观
+${world.worldview || '（一个安静的小世界）'}
+
+## 角色名单
+${names.join('、')}
+${prevSynopsis ? `\n## 上一卷梗概（承接，不要重复）\n${prevSynopsis.slice(0, 800)}` : ''}
+
+## 这 ${SIM_CHAPTER_DAYS} 天的原文
+${digest}
+
+请像写连载小说的「本卷小结」一样，结出这一卷。严格输出一个 JSON 对象（建议 \`\`\`json 包裹，不要输出 JSON 之外的正文）：
+{
+  "synopsis": "800~1500字的小说体梗概：这 ${SIM_CHAPTER_DAYS} 天的主线与重要转折，谁经历了什么、暗流与高潮。可以全知视角（你看得到所有人瞒下的事），写给屏幕外的观众看。分3~6段（用\\n\\n分段）。",
+  "relationshipEval": "200~400字：这一卷里人物关系网的动态变化方向与评价——谁和谁更近/更远了、新生的暗流或裂痕、几条关系线的走向预判。",
+  "atmosphere": "一两句话：这一卷沉淀下来、会延续到下一卷的整体氛围基调（例：表面平静下暗藏几段心照不宣的紧张）。",
+  "perspectives": [
+    { "name": "角色名", "text": "300~500字，**只从这个角色单方面的视角**回顾这 ${SIM_CHAPTER_DAYS} 天：ta 亲历了什么、ta 知道/听说了什么、ta 对别人怎么看、心里留下了什么。**绝对不能写 ta 不可能知道的别人内心戏或别人瞒着 ta 的事**——这是要喂回 ta 自己的记忆的，写漏了就等于让 ta 开了上帝视角。" }
+  ]
+}
+要求：perspectives 必须为每个角色（${names.join('、')}）各出一条，name 用上面的原名。`;
+}
+
+/** 解析总结器输出 → 章节字段（缺字段时尽量兜底，不抛错）。 */
+export function parseChapterSummary(raw: string, members: CharacterProfile[]): {
+    synopsis: string;
+    relationshipEval?: string;
+    atmosphere?: string;
+    perspectives: { charId: string; charName: string; text: string }[];
+} {
+    const j = extractJson(raw);
+    const fallback = (raw || '').replace(/<think>[\s\S]*?<\/think>/gi, '').replace(/```(?:json)?|```/g, '').trim();
+    const byName = new Map(members.map(m => [m.name, m]));
+    const perspectives: { charId: string; charName: string; text: string }[] = [];
+    if (j && Array.isArray(j.perspectives)) {
+        for (const p of j.perspectives) {
+            if (!p || typeof p.name !== 'string' || typeof p.text !== 'string' || !p.text.trim()) continue;
+            const char = byName.get(p.name.trim());
+            if (!char) continue;
+            if (perspectives.some(x => x.charId === char.id)) continue;
+            perspectives.push({ charId: char.id, charName: char.name, text: p.text.trim().slice(0, 1200) });
+        }
+    }
+    return {
+        synopsis: (j && typeof j.synopsis === 'string' && j.synopsis.trim() ? j.synopsis.trim() : fallback).slice(0, 4000),
+        relationshipEval: j && typeof j.relationshipEval === 'string' && j.relationshipEval.trim() ? j.relationshipEval.trim().slice(0, 1200) : undefined,
+        atmosphere: j && typeof j.atmosphere === 'string' && j.atmosphere.trim() ? j.atmosphere.trim().slice(0, 300) : undefined,
+        perspectives,
+    };
+}
+
+/**
+ * 结一卷：调用总结器，产出 WorldChapter。
+ * 失败返回 null（结卷失败不应该拖垮主演绎流程，下一卷照常累积）。
+ */
+export async function summarizeChapter(args: {
+    world: WorldProfile;
+    members: CharacterProfile[];
+    episodes: WorldEpisode[];     // 本卷窗口内的原文（任意顺序）
+    api: { baseUrl: string; apiKey: string; model: string };
+    fromClock: number;
+    toClock: number;
+    fromLabel: string;
+    toLabel: string;
+    index: number;
+    prevSynopsis?: string;
+}): Promise<WorldChapter | null> {
+    const { world, members, episodes, api, fromClock, toClock, fromLabel, toLabel, index, prevSynopsis } = args;
+    if (episodes.length === 0) return null;
+    const baseUrl = api.baseUrl.replace(/\/+$/, '');
+    const digest = buildChapterDigest(episodes);
+    try {
+        const data = await safeFetchJson(`${baseUrl}/chat/completions`, {
+            method: 'POST',
+            headers: { 'Content-Type': 'application/json', 'Authorization': `Bearer ${api.apiKey || 'sk-none'}` },
+            body: JSON.stringify({
+                model: api.model,
+                messages: [{ role: 'user', content: buildChapterSummaryPrompt({ world, members, fromLabel, toLabel, digest, prevSynopsis }) }],
+                temperature: 0.8, stream: false,
+            }),
+        }, 2, 0, { appName: '家园', purpose: `结卷总结 · ${world.name} 第${index}卷` });
+        const parsed = parseChapterSummary(data.choices?.[0]?.message?.content || '', members);
+        // 每个角色这一卷「最后一天」的 beat：取窗口内 round 最大的那条 episode 里各自的 beat
+        const lastEp = episodes.slice().sort((a, b) => b.round - a.round)[0];
+        const lastDayBeats = lastEp?.beats || [];
+        return {
+            id: genId('wc'),
+            worldId: world.id,
+            index,
+            fromClock,
+            toClock,
+            fromLabel,
+            toLabel,
+            synopsis: parsed.synopsis,
+            relationshipEval: parsed.relationshipEval,
+            atmosphere: parsed.atmosphere,
+            perspectives: parsed.perspectives,
+            lastDayBeats,
+            createdAt: Date.now(),
+        };
+    } catch (e) {
+        console.warn('[WorldHome] chapter summary failed:', e);
+        return null;
+    }
+}

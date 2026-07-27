@@ -1,1 +1,266 @@
-LyoqCiAqIFByb2FjdGl2ZSBQdXNoIEFjY2VsZXJhdG9yIOKAlCBDbG91ZGZsYXJlIFdvcmtlciBlbnRyeSBwb2ludC4KICoKICogVHdvIHJlc3BvbnNpYmlsaXRpZXM6CiAqICAgMS4gSFRUUCBBUEkgZm9yIGNsaWVudHMgKGJyb3dzZXIpIHRvIHJlZ2lzdGVyL3VucmVnaXN0ZXIvaGVhcnRiZWF0LgogKiAgIDIuIFNjaGVkdWxlZCAoY3JvbikgaGFuZGxlciB0aGF0IHNjYW5zIEQxIGZvciBkdWUgc2NoZWR1bGVzIHdob3NlIGNsaWVudHMKICogICAgICBhcmUgc3RpbGwgImFsaXZlIiAocmVjZW50IGhlYXJ0YmVhdCkgYW5kIHNlbmRzIGEgbWluaW1hbCB3YWtlLXVwIHB1c2gKICogICAgICAocGF5bG9hZCA9IHt0eXBlOidwcm9hY3RpdmUtd2FrZScsIGNoYXJJZH0pLgogKgogKiBXb3JrZXIgbmV2ZXIgdG91Y2hlcyBjaGF0IGNvbnRlbnQuIEFsbCBBSSBnZW5lcmF0aW9uIGhhcHBlbnMgb24gdGhlIGJyb3dzZXIKICogbWFpbiB0aHJlYWQgYWZ0ZXIgdGhlIFNXIHJlY2VpdmVzIHRoZSB3YWtlLXVwIHB1c2guCiAqLwoKaW1wb3J0IHsgcHJlcGFyZVZhcGlkLCBzZW5kUHVzaCwgdHlwZSBWYXBpZENvbnRleHQsIHR5cGUgUHVzaFN1YnNjcmlwdGlvbiB9IGZyb20gJy4vd2VicHVzaCc7CgppbnRlcmZhY2UgRW52IHsKICBEQjogRDFEYXRhYmFzZTsKICBWQVBJRF9QVUJMSUNfS0VZOiBzdHJpbmc7ICAgICAvLyBzZXQgdmlhIGB3cmFuZ2xlciBzZWNyZXQgcHV0YAogIFZBUElEX1BSSVZBVEVfS0VZOiBzdHJpbmc7ICAgIC8vIHNldCB2aWEgYHdyYW5nbGVyIHNlY3JldCBwdXRgCiAgVkFQSURfU1VCSkVDVDogc3RyaW5nOwogIENMSUVOVF9UT0tFTjogc3RyaW5nOyAgICAgICAgIC8vIHNoYXJlZCBzZWNyZXQgKG9wdGlvbmFsOyBlbXB0eSA9IG5vIGNoZWNrKQogIEhFQVJUQkVBVF9XSU5ET1dfTVM6IHN0cmluZzsKfQoKaW50ZXJmYWNlIFNjaGVkdWxlUm93IHsKICBlbmRwb2ludDogc3RyaW5nOwogIGNoYXJfaWQ6IHN0cmluZzsKICBwMjU2ZGg6IHN0cmluZzsKICBhdXRoOiBzdHJpbmc7CiAgaW50ZXJ2YWxfbXM6IG51bWJlcjsKICBuZXh0X2ZpcmVfYXQ6IG51bWJlcjsKICBsYXN0X2hlYXJ0YmVhdDogbnVtYmVyOwogIGNyZWF0ZWRfYXQ6IG51bWJlcjsKfQoKLy8gLS0tLS0tLS0tLSBoZWxwZXJzIC0tLS0tLS0tLS0KZnVuY3Rpb24ganNvbihkYXRhOiB1bmtub3duLCBzdGF0dXMgPSAyMDApOiBSZXNwb25zZSB7CiAgcmV0dXJuIG5ldyBSZXNwb25zZShKU09OLnN0cmluZ2lmeShkYXRhKSwgewogICAgc3RhdHVzLAogICAgaGVhZGVyczogewogICAgICAnQ29udGVudC1UeXBlJzogJ2FwcGxpY2F0aW9uL2pzb24nLAogICAgICAnQWNjZXNzLUNvbnRyb2wtQWxsb3ctT3JpZ2luJzogJyonLAogICAgICAnQWNjZXNzLUNvbnRyb2wtQWxsb3ctSGVhZGVycyc6ICdDb250ZW50LVR5cGUsIFgtQ2xpZW50LVRva2VuJywKICAgICAgJ0FjY2Vzcy1Db250cm9sLUFsbG93LU1ldGhvZHMnOiAnR0VULCBQT1NULCBERUxFVEUsIE9QVElPTlMnLAogICAgfSwKICB9KTsKfQoKZnVuY3Rpb24gY2hlY2tUb2tlbihyZXE6IFJlcXVlc3QsIGVudjogRW52KTogUmVzcG9uc2UgfCBudWxsIHsKICBpZiAoIWVudi5DTElFTlRfVE9LRU4pIHJldHVybiBudWxsOwogIGNvbnN0IGdvdCA9IHJlcS5oZWFkZXJzLmdldCgnWC1DbGllbnQtVG9rZW4nKTsKICBpZiAoZ290ICE9PSBlbnYuQ0xJRU5UX1RPS0VOKSByZXR1cm4ganNvbih7IGVycm9yOiAndW5hdXRob3JpemVkJyB9LCA0MDEpOwogIHJldHVybiBudWxsOwp9Cgphc3luYyBmdW5jdGlvbiByZWFkSnNvbjxUID0gdW5rbm93bj4ocmVxOiBSZXF1ZXN0KTogUHJvbWlzZTxUIHwgbnVsbD4gewogIHRyeSB7IHJldHVybiBhd2FpdCByZXEuanNvbigpIGFzIFQ7IH0gY2F0Y2ggeyByZXR1cm4gbnVsbDsgfQp9CgpsZXQgY2FjaGVkVmFwaWQ6IFZhcGlkQ29udGV4dCB8IG51bGwgPSBudWxsOwphc3luYyBmdW5jdGlvbiBnZXRWYXBpZChlbnY6IEVudik6IFByb21pc2U8VmFwaWRDb250ZXh0PiB7CiAgaWYgKGNhY2hlZFZhcGlkKSByZXR1cm4gY2FjaGVkVmFwaWQ7CiAgY2FjaGVkVmFwaWQgPSBhd2FpdCBwcmVwYXJlVmFwaWQoZW52LlZBUElEX1BVQkxJQ19LRVksIGVudi5WQVBJRF9QUklWQVRFX0tFWSwgZW52LlZBUElEX1NVQkpFQ1QpOwogIHJldHVybiBjYWNoZWRWYXBpZDsKfQoKLy8gLS0tLS0tLS0tLSBIVFRQIC0tLS0tLS0tLS0KYXN5bmMgZnVuY3Rpb24gaGFuZGxlU3Vic2NyaWJlKHJlcTogUmVxdWVzdCwgZW52OiBFbnYpOiBQcm9taXNlPFJlc3BvbnNlPiB7CiAgY29uc3QgYm9keSA9IGF3YWl0IHJlYWRKc29uPHsKICAgIHN1YnNjcmlwdGlvbj86IHsgZW5kcG9pbnQ/OiBzdHJpbmc7IGtleXM/OiB7IHAyNTZkaD86IHN0cmluZzsgYXV0aD86IHN0cmluZyB9IH07CiAgICBjaGFySWQ/OiBzdHJpbmc7CiAgICBpbnRlcnZhbE1zPzogbnVtYmVyOwogIH0+KHJlcSk7CiAgaWYgKCFib2R5KSByZXR1cm4ganNvbih7IGVycm9yOiAnaW52YWxpZCBqc29uJyB9LCA0MDApOwoKICBjb25zdCBlbmRwb2ludCA9IGJvZHkuc3Vic2NyaXB0aW9uPy5lbmRwb2ludDsKICBjb25zdCBwMjU2ZGggPSBib2R5LnN1YnNjcmlwdGlvbj8ua2V5cz8ucDI1NmRoOwogIGNvbnN0IGF1dGggPSBib2R5LnN1YnNjcmlwdGlvbj8ua2V5cz8uYXV0aDsKICBjb25zdCBjaGFySWQgPSBib2R5LmNoYXJJZDsKICBjb25zdCBpbnRlcnZhbE1zID0gYm9keS5pbnRlcnZhbE1zOwoKICBpZiAoIWVuZHBvaW50IHx8ICFwMjU2ZGggfHwgIWF1dGggfHwgIWNoYXJJZCB8fCAhaW50ZXJ2YWxNcyB8fCBpbnRlcnZhbE1zIDwgNjBfMDAwKSB7CiAgICByZXR1cm4ganNvbih7IGVycm9yOiAnbWlzc2luZyBvciBpbnZhbGlkIGZpZWxkcycgfSwgNDAwKTsKICB9CgogIGNvbnN0IG5vdyA9IERhdGUubm93KCk7CiAgY29uc3QgbmV4dEZpcmVBdCA9IG5vdyArIGludGVydmFsTXM7CgogIGF3YWl0IGVudi5EQi5wcmVwYXJlKGAKICAgIElOU0VSVCBJTlRPIHNjaGVkdWxlcyAoZW5kcG9pbnQsIGNoYXJfaWQsIHAyNTZkaCwgYXV0aCwgaW50ZXJ2YWxfbXMsIG5leHRfZmlyZV9hdCwgbGFzdF9oZWFydGJlYXQsIGNyZWF0ZWRfYXQpCiAgICBWQUxVRVMgKD8xLCA/MiwgPzMsID80LCA/NSwgPzYsID83LCA/OCkKICAgIE9OIENPTkZMSUNUKGVuZHBvaW50LCBjaGFyX2lkKSBETyBVUERBVEUgU0VUCiAgICAgIHAyNTZkaCA9IGV4Y2x1ZGVkLnAyNTZkaCwKICAgICAgYXV0aCA9IGV4Y2x1ZGVkLmF1dGgsCiAgICAgIGludGVydmFsX21zID0gZXhjbHVkZWQuaW50ZXJ2YWxfbXMsCiAgICAgIG5leHRfZmlyZV9hdCA9IGV4Y2x1ZGVkLm5leHRfZmlyZV9hdCwKICAgICAgbGFzdF9oZWFydGJlYXQgPSBleGNsdWRlZC5sYXN0X2hlYXJ0YmVhdAogIGApLmJpbmQoZW5kcG9pbnQsIGNoYXJJZCwgcDI1NmRoLCBhdXRoLCBpbnRlcnZhbE1zLCBuZXh0RmlyZUF0LCBub3csIG5vdykucnVuKCk7CgogIHJldHVybiBqc29uKHsgb2s6IHRydWUsIG5leHRGaXJlQXQgfSk7Cn0KCmFzeW5jIGZ1bmN0aW9uIGhhbmRsZVVuc3Vic2NyaWJlKHJlcTogUmVxdWVzdCwgZW52OiBFbnYpOiBQcm9taXNlPFJlc3BvbnNlPiB7CiAgY29uc3QgYm9keSA9IGF3YWl0IHJlYWRKc29uPHsgZW5kcG9pbnQ/OiBzdHJpbmc7IGNoYXJJZD86IHN0cmluZyB9PihyZXEpOwogIGlmICghYm9keT8uZW5kcG9pbnQpIHJldHVybiBqc29uKHsgZXJyb3I6ICdlbmRwb2ludCByZXF1aXJlZCcgfSwgNDAwKTsKCiAgaWYgKGJvZHkuY2hhcklkKSB7CiAgICBhd2FpdCBlbnYuREIucHJlcGFyZShgREVMRVRFIEZST00gc2NoZWR1bGVzIFdIRVJFIGVuZHBvaW50ID0gPzEgQU5EIGNoYXJfaWQgPSA/MmApCiAgICAgIC5iaW5kKGJvZHkuZW5kcG9pbnQsIGJvZHkuY2hhcklkKS5ydW4oKTsKICB9IGVsc2UgewogICAgYXdhaXQgZW52LkRCLnByZXBhcmUoYERFTEVURSBGUk9NIHNjaGVkdWxlcyBXSEVSRSBlbmRwb2ludCA9ID8xYCkuYmluZChib2R5LmVuZHBvaW50KS5ydW4oKTsKICB9CiAgcmV0dXJuIGpzb24oeyBvazogdHJ1ZSB9KTsKfQoKYXN5bmMgZnVuY3Rpb24gaGFuZGxlSGVhcnRiZWF0KHJlcTogUmVxdWVzdCwgZW52OiBFbnYpOiBQcm9taXNlPFJlc3BvbnNlPiB7CiAgY29uc3QgYm9keSA9IGF3YWl0IHJlYWRKc29uPHsgZW5kcG9pbnQ/OiBzdHJpbmcgfT4ocmVxKTsKICBpZiAoIWJvZHk/LmVuZHBvaW50KSByZXR1cm4ganNvbih7IGVycm9yOiAnZW5kcG9pbnQgcmVxdWlyZWQnIH0sIDQwMCk7CiAgY29uc3Qgbm93ID0gRGF0ZS5ub3coKTsKICBhd2FpdCBlbnYuREIucHJlcGFyZShgVVBEQVRFIHNjaGVkdWxlcyBTRVQgbGFzdF9oZWFydGJlYXQgPSA/MSBXSEVSRSBlbmRwb2ludCA9ID8yYCkKICAgIC5iaW5kKG5vdywgYm9keS5lbmRwb2ludCkucnVuKCk7CiAgcmV0dXJuIGpzb24oeyBvazogdHJ1ZSwgbm93IH0pOwp9Cgphc3luYyBmdW5jdGlvbiBoYW5kbGVTdGF0dXMocmVxOiBSZXF1ZXN0LCBlbnY6IEVudik6IFByb21pc2U8UmVzcG9uc2U+IHsKICBjb25zdCBlbmRwb2ludCA9IG5ldyBVUkwocmVxLnVybCkuc2VhcmNoUGFyYW1zLmdldCgnZW5kcG9pbnQnKTsKICBpZiAoIWVuZHBvaW50KSByZXR1cm4ganNvbih7IGVycm9yOiAnZW5kcG9pbnQgcmVxdWlyZWQnIH0sIDQwMCk7CiAgY29uc3QgcmVzID0gYXdhaXQgZW52LkRCLnByZXBhcmUoCiAgICBgU0VMRUNUIGNoYXJfaWQsIGludGVydmFsX21zLCBuZXh0X2ZpcmVfYXQsIGxhc3RfaGVhcnRiZWF0IEZST00gc2NoZWR1bGVzIFdIRVJFIGVuZHBvaW50ID0gPzFgCiAgKS5iaW5kKGVuZHBvaW50KS5hbGw8U2NoZWR1bGVSb3c+KCk7CiAgcmV0dXJuIGpzb24oeyBvazogdHJ1ZSwgc2NoZWR1bGVzOiByZXMucmVzdWx0cyB9KTsKfQoKLyoqCiAqIE1hbnVhbGx5IGZpcmUgYSB0ZXN0IHB1c2ggYXQgb25lIHN1YnNjcmlwdGlvbi4gIFVzZWQgYnkgdGhlIGluLWFwcAogKiBkaWFnbm9zdGljIHBhbmVsIHRvIHZlcmlmeSB0aGUgZnVsbCBkZWxpdmVyeSBjaGFpbiAoV29ya2VyIOKGkiBQdXNoIFNlcnZpY2UKICog4oaSIFNXKSB3aXRob3V0IHdhaXRpbmcgZm9yIHRoZSBjcm9uIHRpY2suICBQdWxscyBrZXlzIGZyb20gRDEgYnkgZW5kcG9pbnQKICogc28gdGhlIGNsaWVudCBvbmx5IGhhcyB0byBzZW5kIHRoZSBlbmRwb2ludCBVUkwuCiAqLwphc3luYyBmdW5jdGlvbiBoYW5kbGVUZXN0KHJlcTogUmVxdWVzdCwgZW52OiBFbnYpOiBQcm9taXNlPFJlc3BvbnNlPiB7CiAgY29uc3QgYm9keSA9IGF3YWl0IHJlYWRKc29uPHsgZW5kcG9pbnQ/OiBzdHJpbmcgfT4ocmVxKTsKICBpZiAoIWJvZHk/LmVuZHBvaW50KSByZXR1cm4ganNvbih7IGVycm9yOiAnZW5kcG9pbnQgcmVxdWlyZWQnIH0sIDQwMCk7CgogIGNvbnN0IHJvdyA9IGF3YWl0IGVudi5EQi5wcmVwYXJlKAogICAgYFNFTEVDVCBlbmRwb2ludCwgcDI1NmRoLCBhdXRoIEZST00gc2NoZWR1bGVzIFdIRVJFIGVuZHBvaW50ID0gPzEgTElNSVQgMWAKICApLmJpbmQoYm9keS5lbmRwb2ludCkuZmlyc3Q8eyBlbmRwb2ludDogc3RyaW5nOyBwMjU2ZGg6IHN0cmluZzsgYXV0aDogc3RyaW5nIH0+KCk7CiAgaWYgKCFyb3cpIHJldHVybiBqc29uKHsgZXJyb3I6ICdzdWJzY3JpcHRpb24gbm90IGZvdW5kIOKAlCBvcGVuIHRoZSBhcHAgb25jZSB3aXRoIHB1c2ggZW5hYmxlZCwgdGhlbiByZXRyeScgfSwgNDA0KTsKCiAgY29uc3QgdmFwaWQgPSBhd2FpdCBnZXRWYXBpZChlbnYpOwogIGNvbnN0IHBheWxvYWQgPSBKU09OLnN0cmluZ2lmeSh7IHR5cGU6ICdwcm9hY3RpdmUtdGVzdCcsIHQ6IERhdGUubm93KCkgfSk7CiAgdHJ5IHsKICAgIGNvbnN0IHJlc3VsdCA9IGF3YWl0IHNlbmRQdXNoKHZhcGlkLCByb3csIHBheWxvYWQpOwogICAgaWYgKHJlc3VsdC5nb25lKSB7CiAgICAgIGF3YWl0IGVudi5EQi5wcmVwYXJlKGBERUxFVEUgRlJPTSBzY2hlZHVsZXMgV0hFUkUgZW5kcG9pbnQgPSA/MWApLmJpbmQocm93LmVuZHBvaW50KS5ydW4oKTsKICAgICAgcmV0dXJuIGpzb24oeyBvazogZmFsc2UsIHN0YXR1czogcmVzdWx0LnN0YXR1cywgcmVhc29uOiAnc3Vic2NyaXB0aW9uIGV4cGlyZWQgYW5kIHdhcyByZW1vdmVkJyB9LCA0MTApOwogICAgfQogICAgcmV0dXJuIGpzb24oeyBvazogcmVzdWx0Lm9rLCBzdGF0dXM6IHJlc3VsdC5zdGF0dXMsIGJvZHk6IHJlc3VsdC5yZXNwb25zZVRleHQgfHwgJycgfSk7CiAgfSBjYXRjaCAoZSkgewogICAgcmV0dXJuIGpzb24oeyBvazogZmFsc2UsIGVycm9yOiBTdHJpbmcoKGUgYXMgRXJyb3IpPy5tZXNzYWdlIHx8IGUpIH0sIDUwMCk7CiAgfQp9CgovLyAtLS0tLS0tLS0tIGNyb24gLS0tLS0tLS0tLQphc3luYyBmdW5jdGlvbiBydW5TY2hlZHVsZWRTd2VlcChlbnY6IEVudik6IFByb21pc2U8eyBmaXJlZDogbnVtYmVyOyBkcm9wcGVkOiBudW1iZXIgfT4gewogIGNvbnN0IG5vdyA9IERhdGUubm93KCk7CiAgY29uc3QgaGJXaW5kb3cgPSBwYXJzZUludChlbnYuSEVBUlRCRUFUX1dJTkRPV19NUyB8fCAnMzAwMDAwJywgMTApIHx8IDMwMF8wMDA7CiAgY29uc3QgY3V0b2ZmID0gbm93IC0gaGJXaW5kb3c7CgogIC8vIFB1bGwgZHVlICsgYWxpdmUgcm93cy4gIENhcCBhdCA1MDAvcnVuIHNvIHRoZSBjcm9uIHN0YXlzIHdpdGhpbiBDUFUgYnVkZ2V0LgogIGNvbnN0IGR1ZSA9IGF3YWl0IGVudi5EQi5wcmVwYXJlKGAKICAgIFNFTEVDVCBlbmRwb2ludCwgY2hhcl9pZCwgcDI1NmRoLCBhdXRoLCBpbnRlcnZhbF9tcywgbmV4dF9maXJlX2F0LCBsYXN0X2hlYXJ0YmVhdCwgY3JlYXRlZF9hdAogICAgRlJPTSBzY2hlZHVsZXMKICAgIFdIRVJFIG5leHRfZmlyZV9hdCA8PSA/MSBBTkQgbGFzdF9oZWFydGJlYXQgPj0gPzIKICAgIE9SREVSIEJZIG5leHRfZmlyZV9hdCBBU0MKICAgIExJTUlUIDUwMAogIGApLmJpbmQobm93LCBjdXRvZmYpLmFsbDxTY2hlZHVsZVJvdz4oKTsKCiAgaWYgKCFkdWUucmVzdWx0cyB8fCBkdWUucmVzdWx0cy5sZW5ndGggPT09IDApIHsKICAgIHJldHVybiB7IGZpcmVkOiAwLCBkcm9wcGVkOiAwIH07CiAgfQoKICBjb25zdCB2YXBpZCA9IGF3YWl0IGdldFZhcGlkKGVudik7CiAgbGV0IGZpcmVkID0gMDsKICBsZXQgZHJvcHBlZCA9IDA7CgogIGZvciAoY29uc3Qgcm93IG9mIGR1ZS5yZXN1bHRzKSB7CiAgICBjb25zdCBwYXlsb2FkID0gSlNPTi5zdHJpbmdpZnkoeyB0eXBlOiAncHJvYWN0aXZlLXdha2UnLCBjaGFySWQ6IHJvdy5jaGFyX2lkLCB0OiBub3cgfSk7CiAgICB0cnkgewogICAgICBjb25zdCByZXN1bHQgPSBhd2FpdCBzZW5kUHVzaCgKICAgICAgICB2YXBpZCwKICAgICAgICB7IGVuZHBvaW50OiByb3cuZW5kcG9pbnQsIHAyNTZkaDogcm93LnAyNTZkaCwgYXV0aDogcm93LmF1dGggfSwKICAgICAgICBwYXlsb2FkLAogICAgICApOwogICAgICBpZiAocmVzdWx0LmdvbmUpIHsKICAgICAgICAvLyBEZWFkIHN1YnNjcmlwdGlvbiDigJQgZGVsZXRlIGFsbCBvZiB0aGlzIGVuZHBvaW50J3Mgcm93cy4KICAgICAgICBhd2FpdCBlbnYuREIucHJlcGFyZShgREVMRVRFIEZST00gc2NoZWR1bGVzIFdIRVJFIGVuZHBvaW50ID0gPzFgKS5iaW5kKHJvdy5lbmRwb2ludCkucnVuKCk7CiAgICAgICAgZHJvcHBlZCsrOwogICAgICAgIGNvbnRpbnVlOwogICAgICB9CiAgICAgIGlmICghcmVzdWx0Lm9rKSB7CiAgICAgICAgY29uc29sZS53YXJuKGBbY3Jvbl0gcHVzaCBmYWlsZWQgc3RhdHVzPSR7cmVzdWx0LnN0YXR1c30gY2hhcj0ke3Jvdy5jaGFyX2lkfSBib2R5PSR7cmVzdWx0LnJlc3BvbnNlVGV4dCB8fCAnJ31gKTsKICAgICAgICAvLyBOb24tcGVybWFuZW50IGZhaWx1cmU6IHN0aWxsIGFkdmFuY2UgbmV4dF9maXJlX2F0IHNvIHdlIGRvbid0IHBpbGUgdXAuCiAgICAgIH0KICAgICAgLy8gQWR2YW5jZSBuZXh0X2ZpcmVfYXQg4oCUIGNvbXB1dGUgYXMgIm5leHQgc2xvdCBhZnRlciBub3ciIHNvIGxvbmcgb2ZmbGluZQogICAgICAvLyBnYXBzIGNvbGxhcHNlIHRvIG9uZSBjYXRjaC11cCBmaXJlLCBub3QgZG96ZW5zLgogICAgICBsZXQgbmV4dCA9IHJvdy5uZXh0X2ZpcmVfYXQgKyByb3cuaW50ZXJ2YWxfbXM7CiAgICAgIGlmIChuZXh0IDw9IG5vdykgbmV4dCA9IG5vdyArIHJvdy5pbnRlcnZhbF9tczsKICAgICAgYXdhaXQgZW52LkRCLnByZXBhcmUoYFVQREFURSBzY2hlZHVsZXMgU0VUIG5leHRfZmlyZV9hdCA9ID8xIFdIRVJFIGVuZHBvaW50ID0gPzIgQU5EIGNoYXJfaWQgPSA/M2ApCiAgICAgICAgLmJpbmQobmV4dCwgcm93LmVuZHBvaW50LCByb3cuY2hhcl9pZCkucnVuKCk7CiAgICAgIGZpcmVkKys7CiAgICB9IGNhdGNoIChlKSB7CiAgICAgIGNvbnNvbGUuZXJyb3IoJ1tjcm9uXSBwdXNoIGVycm9yJywgZSwgcm93LmNoYXJfaWQpOwogICAgfQogIH0KCiAgcmV0dXJuIHsgZmlyZWQsIGRyb3BwZWQgfTsKfQoKLy8gLS0tLS0tLS0tLSBtYWluIC0tLS0tLS0tLS0KZXhwb3J0IGRlZmF1bHQgewogIGFzeW5jIGZldGNoKHJlcTogUmVxdWVzdCwgZW52OiBFbnYpOiBQcm9taXNlPFJlc3BvbnNlPiB7CiAgICBpZiAocmVxLm1ldGhvZCA9PT0gJ09QVElPTlMnKSB7CiAgICAgIHJldHVybiBuZXcgUmVzcG9uc2UobnVsbCwgewogICAgICAgIGhlYWRlcnM6IHsKICAgICAgICAgICdBY2Nlc3MtQ29udHJvbC1BbGxvdy1PcmlnaW4nOiAnKicsCiAgICAgICAgICAnQWNjZXNzLUNvbnRyb2wtQWxsb3ctSGVhZGVycyc6ICdDb250ZW50LVR5cGUsIFgtQ2xpZW50LVRva2VuJywKICAgICAgICAgICdBY2Nlc3MtQ29udHJvbC1BbGxvdy1NZXRob2RzJzogJ0dFVCwgUE9TVCwgREVMRVRFLCBPUFRJT05TJywKICAgICAgICAgICdBY2Nlc3MtQ29udHJvbC1NYXgtQWdlJzogJzg2NDAwJywKICAgICAgICB9LAogICAgICB9KTsKICAgIH0KCiAgICBjb25zdCB1cmwgPSBuZXcgVVJMKHJlcS51cmwpOwoKICAgIC8vIFB1YmxpYyBrZXkgZW5kcG9pbnQg4oCUIG5vIGF1dGggcmVxdWlyZWQgc28gY2xpZW50cyBjYW4gZmV0Y2ggaXQgb24gZmlyc3QgdXNlLgogICAgaWYgKHVybC5wYXRobmFtZSA9PT0gJy92YXBpZC1wdWJsaWMta2V5JyAmJiByZXEubWV0aG9kID09PSAnR0VUJykgewogICAgICByZXR1cm4ganNvbih7IHB1YmxpY0tleTogZW52LlZBUElEX1BVQkxJQ19LRVkgfHwgJycgfSk7CiAgICB9CgogICAgLy8gTGl2ZW5lc3MgY2hlY2suCiAgICBpZiAodXJsLnBhdGhuYW1lID09PSAnL2hlYWx0aCcgJiYgcmVxLm1ldGhvZCA9PT0gJ0dFVCcpIHsKICAgICAgcmV0dXJuIGpzb24oeyBvazogdHJ1ZSB9KTsKICAgIH0KCiAgICAvLyBBbGwgb3RoZXIgcm91dGVzIHJlcXVpcmUgdGhlIHNoYXJlZCB0b2tlbiBpZiBjb25maWd1cmVkLgogICAgY29uc3QgdG9rZW5FcnIgPSBjaGVja1Rva2VuKHJlcSwgZW52KTsKICAgIGlmICh0b2tlbkVycikgcmV0dXJuIHRva2VuRXJyOwoKICAgIGlmICh1cmwucGF0aG5hbWUgPT09ICcvc3Vic2NyaWJlJyAmJiByZXEubWV0aG9kID09PSAnUE9TVCcpIHJldHVybiBoYW5kbGVTdWJzY3JpYmUocmVxLCBlbnYpOwogICAgaWYgKHVybC5wYXRobmFtZSA9PT0gJy91bnN1YnNjcmliZScgJiYgcmVxLm1ldGhvZCA9PT0gJ1BPU1QnKSByZXR1cm4gaGFuZGxlVW5zdWJzY3JpYmUocmVxLCBlbnYpOwogICAgaWYgKHVybC5wYXRobmFtZSA9PT0gJy9oZWFydGJlYXQnICYmIHJlcS5tZXRob2QgPT09ICdQT1NUJykgcmV0dXJuIGhhbmRsZUhlYXJ0YmVhdChyZXEsIGVudik7CiAgICBpZiAodXJsLnBhdGhuYW1lID09PSAnL3N0YXR1cycgJiYgcmVxLm1ldGhvZCA9PT0gJ0dFVCcpIHJldHVybiBoYW5kbGVTdGF0dXMocmVxLCBlbnYpOwogICAgaWYgKHVybC5wYXRobmFtZSA9PT0gJy90ZXN0JyAmJiByZXEubWV0aG9kID09PSAnUE9TVCcpIHJldHVybiBoYW5kbGVUZXN0KHJlcSwgZW52KTsKCiAgICByZXR1cm4ganNvbih7IGVycm9yOiAnbm90IGZvdW5kJyB9LCA0MDQpOwogIH0sCgogIGFzeW5jIHNjaGVkdWxlZChfZXZlbnQ6IFNjaGVkdWxlZEV2ZW50LCBlbnY6IEVudiwgY3R4OiBFeGVjdXRpb25Db250ZXh0KTogUHJvbWlzZTx2b2lkPiB7CiAgICBjdHgud2FpdFVudGlsKChhc3luYyAoKSA9PiB7CiAgICAgIGNvbnN0IHJlc3VsdCA9IGF3YWl0IHJ1blNjaGVkdWxlZFN3ZWVwKGVudik7CiAgICAgIGlmIChyZXN1bHQuZmlyZWQgfHwgcmVzdWx0LmRyb3BwZWQpIHsKICAgICAgICBjb25zb2xlLmxvZyhgW2Nyb25dIGZpcmVkPSR7cmVzdWx0LmZpcmVkfSBkcm9wcGVkPSR7cmVzdWx0LmRyb3BwZWR9YCk7CiAgICAgIH0KICAgIH0pKCkpOwogIH0sCn07Cg==
+/**
+ * Proactive Push Accelerator — Cloudflare Worker entry point.
+ *
+ * Two responsibilities:
+ *   1. HTTP API for clients (browser) to register/unregister/heartbeat.
+ *   2. Scheduled (cron) handler that scans D1 for due schedules whose clients
+ *      are still "alive" (recent heartbeat) and sends a minimal wake-up push
+ *      (payload = {type:'proactive-wake', charId}).
+ *
+ * Worker never touches chat content. All AI generation happens on the browser
+ * main thread after the SW receives the wake-up push.
+ */
+
+import { prepareVapid, sendPush, type VapidContext, type PushSubscription } from './webpush';
+
+interface Env {
+  DB: D1Database;
+  VAPID_PUBLIC_KEY: string;     // set via `wrangler secret put`
+  VAPID_PRIVATE_KEY: string;    // set via `wrangler secret put`
+  VAPID_SUBJECT: string;
+  CLIENT_TOKEN: string;         // shared secret (optional; empty = no check)
+  HEARTBEAT_WINDOW_MS: string;
+}
+
+interface ScheduleRow {
+  endpoint: string;
+  char_id: string;
+  p256dh: string;
+  auth: string;
+  interval_ms: number;
+  next_fire_at: number;
+  last_heartbeat: number;
+  created_at: number;
+}
+
+// ---------- helpers ----------
+function json(data: unknown, status = 200): Response {
+  return new Response(JSON.stringify(data), {
+    status,
+    headers: {
+      'Content-Type': 'application/json',
+      'Access-Control-Allow-Origin': '*',
+      'Access-Control-Allow-Headers': 'Content-Type, X-Client-Token',
+      'Access-Control-Allow-Methods': 'GET, POST, DELETE, OPTIONS',
+    },
+  });
+}
+
+function checkToken(req: Request, env: Env): Response | null {
+  if (!env.CLIENT_TOKEN) return null;
+  const got = req.headers.get('X-Client-Token');
+  if (got !== env.CLIENT_TOKEN) return json({ error: 'unauthorized' }, 401);
+  return null;
+}
+
+async function readJson<T = unknown>(req: Request): Promise<T | null> {
+  try { return await req.json() as T; } catch { return null; }
+}
+
+let cachedVapid: VapidContext | null = null;
+async function getVapid(env: Env): Promise<VapidContext> {
+  if (cachedVapid) return cachedVapid;
+  cachedVapid = await prepareVapid(env.VAPID_PUBLIC_KEY, env.VAPID_PRIVATE_KEY, env.VAPID_SUBJECT);
+  return cachedVapid;
+}
+
+// ---------- HTTP ----------
+async function handleSubscribe(req: Request, env: Env): Promise<Response> {
+  const body = await readJson<{
+    subscription?: { endpoint?: string; keys?: { p256dh?: string; auth?: string } };
+    charId?: string;
+    intervalMs?: number;
+  }>(req);
+  if (!body) return json({ error: 'invalid json' }, 400);
+
+  const endpoint = body.subscription?.endpoint;
+  const p256dh = body.subscription?.keys?.p256dh;
+  const auth = body.subscription?.keys?.auth;
+  const charId = body.charId;
+  const intervalMs = body.intervalMs;
+
+  if (!endpoint || !p256dh || !auth || !charId || !intervalMs || intervalMs < 60_000) {
+    return json({ error: 'missing or invalid fields' }, 400);
+  }
+
+  const now = Date.now();
+  const nextFireAt = now + intervalMs;
+
+  await env.DB.prepare(`
+    INSERT INTO schedules (endpoint, char_id, p256dh, auth, interval_ms, next_fire_at, last_heartbeat, created_at)
+    VALUES (?1, ?2, ?3, ?4, ?5, ?6, ?7, ?8)
+    ON CONFLICT(endpoint, char_id) DO UPDATE SET
+      p256dh = excluded.p256dh,
+      auth = excluded.auth,
+      interval_ms = excluded.interval_ms,
+      next_fire_at = excluded.next_fire_at,
+      last_heartbeat = excluded.last_heartbeat
+  `).bind(endpoint, charId, p256dh, auth, intervalMs, nextFireAt, now, now).run();
+
+  return json({ ok: true, nextFireAt });
+}
+
+async function handleUnsubscribe(req: Request, env: Env): Promise<Response> {
+  const body = await readJson<{ endpoint?: string; charId?: string }>(req);
+  if (!body?.endpoint) return json({ error: 'endpoint required' }, 400);
+
+  if (body.charId) {
+    await env.DB.prepare(`DELETE FROM schedules WHERE endpoint = ?1 AND char_id = ?2`)
+      .bind(body.endpoint, body.charId).run();
+  } else {
+    await env.DB.prepare(`DELETE FROM schedules WHERE endpoint = ?1`).bind(body.endpoint).run();
+  }
+  return json({ ok: true });
+}
+
+async function handleHeartbeat(req: Request, env: Env): Promise<Response> {
+  const body = await readJson<{ endpoint?: string }>(req);
+  if (!body?.endpoint) return json({ error: 'endpoint required' }, 400);
+  const now = Date.now();
+  await env.DB.prepare(`UPDATE schedules SET last_heartbeat = ?1 WHERE endpoint = ?2`)
+    .bind(now, body.endpoint).run();
+  return json({ ok: true, now });
+}
+
+async function handleStatus(req: Request, env: Env): Promise<Response> {
+  const endpoint = new URL(req.url).searchParams.get('endpoint');
+  if (!endpoint) return json({ error: 'endpoint required' }, 400);
+  const res = await env.DB.prepare(
+    `SELECT char_id, interval_ms, next_fire_at, last_heartbeat FROM schedules WHERE endpoint = ?1`
+  ).bind(endpoint).all<ScheduleRow>();
+  return json({ ok: true, schedules: res.results });
+}
+
+/**
+ * Manually fire a test push at one subscription.  Used by the in-app
+ * diagnostic panel to verify the full delivery chain (Worker → Push Service
+ * → SW) without waiting for the cron tick.  Pulls keys from D1 by endpoint
+ * so the client only has to send the endpoint URL.
+ */
+async function handleTest(req: Request, env: Env): Promise<Response> {
+  const body = await readJson<{ endpoint?: string }>(req);
+  if (!body?.endpoint) return json({ error: 'endpoint required' }, 400);
+
+  const row = await env.DB.prepare(
+    `SELECT endpoint, p256dh, auth FROM schedules WHERE endpoint = ?1 LIMIT 1`
+  ).bind(body.endpoint).first<{ endpoint: string; p256dh: string; auth: string }>();
+  if (!row) return json({ error: 'subscription not found — open the app once with push enabled, then retry' }, 404);
+
+  const vapid = await getVapid(env);
+  const payload = JSON.stringify({ type: 'proactive-test', t: Date.now() });
+  try {
+    const result = await sendPush(vapid, row, payload);
+    if (result.gone) {
+      await env.DB.prepare(`DELETE FROM schedules WHERE endpoint = ?1`).bind(row.endpoint).run();
+      return json({ ok: false, status: result.status, reason: 'subscription expired and was removed' }, 410);
+    }
+    return json({ ok: result.ok, status: result.status, body: result.responseText || '' });
+  } catch (e) {
+    return json({ ok: false, error: String((e as Error)?.message || e) }, 500);
+  }
+}
+
+// ---------- cron ----------
+async function runScheduledSweep(env: Env): Promise<{ fired: number; dropped: number }> {
+  const now = Date.now();
+  const hbWindow = parseInt(env.HEARTBEAT_WINDOW_MS || '300000', 10) || 300_000;
+  const cutoff = now - hbWindow;
+
+  // Pull due + alive rows.  Cap at 500/run so the cron stays within CPU budget.
+  const due = await env.DB.prepare(`
+    SELECT endpoint, char_id, p256dh, auth, interval_ms, next_fire_at, last_heartbeat, created_at
+    FROM schedules
+    WHERE next_fire_at <= ?1 AND last_heartbeat >= ?2
+    ORDER BY next_fire_at ASC
+    LIMIT 500
+  `).bind(now, cutoff).all<ScheduleRow>();
+
+  if (!due.results || due.results.length === 0) {
+    return { fired: 0, dropped: 0 };
+  }
+
+  const vapid = await getVapid(env);
+  let fired = 0;
+  let dropped = 0;
+
+  for (const row of due.results) {
+    const payload = JSON.stringify({ type: 'proactive-wake', charId: row.char_id, t: now });
+    try {
+      const result = await sendPush(
+        vapid,
+        { endpoint: row.endpoint, p256dh: row.p256dh, auth: row.auth },
+        payload,
+      );
+      if (result.gone) {
+        // Dead subscription — delete all of this endpoint's rows.
+        await env.DB.prepare(`DELETE FROM schedules WHERE endpoint = ?1`).bind(row.endpoint).run();
+        dropped++;
+        continue;
+      }
+      if (!result.ok) {
+        console.warn(`[cron] push failed status=${result.status} char=${row.char_id} body=${result.responseText || ''}`);
+        // Non-permanent failure: still advance next_fire_at so we don't pile up.
+      }
+      // Advance next_fire_at — compute as "next slot after now" so long offline
+      // gaps collapse to one catch-up fire, not dozens.
+      let next = row.next_fire_at + row.interval_ms;
+      if (next <= now) next = now + row.interval_ms;
+      await env.DB.prepare(`UPDATE schedules SET next_fire_at = ?1 WHERE endpoint = ?2 AND char_id = ?3`)
+        .bind(next, row.endpoint, row.char_id).run();
+      fired++;
+    } catch (e) {
+      console.error('[cron] push error', e, row.char_id);
+    }
+  }
+
+  return { fired, dropped };
+}
+
+// ---------- main ----------
+export default {
+  async fetch(req: Request, env: Env): Promise<Response> {
+    if (req.method === 'OPTIONS') {
+      return new Response(null, {
+        headers: {
+          'Access-Control-Allow-Origin': '*',
+          'Access-Control-Allow-Headers': 'Content-Type, X-Client-Token',
+          'Access-Control-Allow-Methods': 'GET, POST, DELETE, OPTIONS',
+          'Access-Control-Max-Age': '86400',
+        },
+      });
+    }
+
+    const url = new URL(req.url);
+
+    // Public key endpoint — no auth required so clients can fetch it on first use.
+    if (url.pathname === '/vapid-public-key' && req.method === 'GET') {
+      return json({ publicKey: env.VAPID_PUBLIC_KEY || '' });
+    }
+
+    // Liveness check.
+    if (url.pathname === '/health' && req.method === 'GET') {
+      return json({ ok: true });
+    }
+
+    // All other routes require the shared token if configured.
+    const tokenErr = checkToken(req, env);
+    if (tokenErr) return tokenErr;
+
+    if (url.pathname === '/subscribe' && req.method === 'POST') return handleSubscribe(req, env);
+    if (url.pathname === '/unsubscribe' && req.method === 'POST') return handleUnsubscribe(req, env);
+    if (url.pathname === '/heartbeat' && req.method === 'POST') return handleHeartbeat(req, env);
+    if (url.pathname === '/status' && req.method === 'GET') return handleStatus(req, env);
+    if (url.pathname === '/test' && req.method === 'POST') return handleTest(req, env);
+
+    return json({ error: 'not found' }, 404);
+  },
+
+  async scheduled(_event: ScheduledEvent, env: Env, ctx: ExecutionContext): Promise<void> {
+    ctx.waitUntil((async () => {
+      const result = await runScheduledSweep(env);
+      if (result.fired || result.dropped) {
+        console.log(`[cron] fired=${result.fired} dropped=${result.dropped}`);
+      }
+    })());
+  },
+};

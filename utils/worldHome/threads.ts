@@ -1,1 +1,189 @@
-LyoqCiAqIOS4lueVjOWGhea2iOaBr+e6v+eoi++8iOengeiBiiArIOS4lueVjOe+pOiBiu+8ieeahOe7tOaKpOmAu+i+keOAggogKgogKiDov5nmmK8i5omL5py65piv55yf5omL5py6IueahOaguOW/g++8mua2iOaBr+aMgeS5heWcqCB3b3JsZC50aHJlYWRzIOmHjOOAgei3qOinkuiJsui3qOi9ruS8oOmAkuKAlOKAlAogKiBBIOWFiOa8lOe7juaXtuWPkeWHuueahOengeiBii/nvqTogYoqKueri+WIuyoq6JC957q/56iL77yM5ZCM5LiA6L2u6YeM5ZCO5ryU57uO55qEIEIg5p6E5bu65LiK5LiL5paH5pe2CiAqIOWwseiDveaUtuWIsOW5tuWbnuW6lO+8m+S4i+S4gOi9riBBIOWPiOiDveeci+WIsCBCIOeahOWbnuWkjeOAgk5QQyDkuZ/og73lnKjnvqTph4zlhpLms6HjgIIKICovCmltcG9ydCB0eXBlIHsgV29ybGRQcm9maWxlLCBXb3JsZFRocmVhZCwgV29ybGRDaGF0TWVzc2FnZSwgV29ybGRDaGFyQmVhdCB9IGZyb20gJy4uLy4uL3R5cGVzJzsKCmV4cG9ydCBjb25zdCBHUk9VUF9USFJFQURfSUQgPSAnZ3JvdXBfbWFpbic7Ci8qKiDmr4/mnaHnur/nqIvmiKrnlZnnmoTmtojmga/mlbDvvIjmiYvmnLogVUkg5Y+v5a6M5pW057+76ZiF77ybcHJvbXB0IOWPquWPluWwvumDqOS4gOWwj+aute+8iSAqLwpleHBvcnQgY29uc3QgVEhSRUFEX0NBUCA9IDEyMDsKCmNvbnN0IGdlbklkID0gKHA6IHN0cmluZykgPT4gYCR7cH1fJHtEYXRlLm5vdygpLnRvU3RyaW5nKDM2KX1fJHtNYXRoLnJhbmRvbSgpLnRvU3RyaW5nKDM2KS5zbGljZSgyLCA3KX1gOwoKZXhwb3J0IGZ1bmN0aW9uIGRtVGhyZWFkSWQoYTogc3RyaW5nLCBiOiBzdHJpbmcpOiBzdHJpbmcgewogICAgY29uc3QgW3gsIHldID0gW2EsIGJdLnNvcnQoKTsKICAgIHJldHVybiBgZG1fJHt4fV8ke3l9YDsKfQoKLyoqIOehruS/nSB0aHJlYWRzIOaVsOe7hOWtmOWcqOS4lOWMheWQq+S4lueVjOe+pOiBiu+8iOaIkOWRmOWQjeWNlei3n+maj+acgOaWsOmFjee9ru+8ieOAguWOn+WcsOS/ruaUueW5tui/lOWbnuOAgiAqLwpleHBvcnQgZnVuY3Rpb24gZW5zdXJlVGhyZWFkcyh3b3JsZDogV29ybGRQcm9maWxlKTogV29ybGRUaHJlYWRbXSB7CiAgICBpZiAoIXdvcmxkLnRocmVhZHMpIHdvcmxkLnRocmVhZHMgPSBbXTsKICAgIGxldCBncm91cCA9IHdvcmxkLnRocmVhZHMuZmluZCh0ID0+IHQuaWQgPT09IEdST1VQX1RIUkVBRF9JRCk7CiAgICBpZiAoIWdyb3VwKSB7CiAgICAgICAgZ3JvdXAgPSB7IGlkOiBHUk9VUF9USFJFQURfSUQsIGtpbmQ6ICdncm91cCcsIG5hbWU6IGAke3dvcmxkLm5hbWV9wrflpKflrrbnmoTnvqRgLCBtZW1iZXJJZHM6IFsuLi53b3JsZC5tZW1iZXJJZHNdLCBtZXNzYWdlczogW10gfTsKICAgICAgICB3b3JsZC50aHJlYWRzLnB1c2goZ3JvdXApOwogICAgfSBlbHNlIHsKICAgICAgICBncm91cC5tZW1iZXJJZHMgPSBbLi4ud29ybGQubWVtYmVySWRzXTsKICAgICAgICBncm91cC5uYW1lID0gZ3JvdXAubmFtZSB8fCBgJHt3b3JsZC5uYW1lfcK35aSn5a6255qE576kYDsKICAgIH0KICAgIHJldHVybiB3b3JsZC50aHJlYWRzOwp9CgpmdW5jdGlvbiBwdXNoTXNnKHRocmVhZDogV29ybGRUaHJlYWQsIG1zZzogV29ybGRDaGF0TWVzc2FnZSkgewogICAgdGhyZWFkLm1lc3NhZ2VzLnB1c2gobXNnKTsKICAgIGlmICh0aHJlYWQubWVzc2FnZXMubGVuZ3RoID4gVEhSRUFEX0NBUCkgdGhyZWFkLm1lc3NhZ2VzID0gdGhyZWFkLm1lc3NhZ2VzLnNsaWNlKC1USFJFQURfQ0FQKTsKfQoKLyoqIOWOu+mHjeW9kuS4gOWMlu+8muWOu+aOieaJgOacieepuueZveWGjeavlO+8jOmBv+WFjeOAjOWQjOS4gOWPpeWPquW3ruaNouihjC/nqbrmoLzjgI3mvI/liKTjgIIgKi8KY29uc3Qgbm9ybUxpbmUgPSAoczogc3RyaW5nKTogc3RyaW5nID0+IHMucmVwbGFjZSgvXHMrL2csICcnKS50cmltKCk7CgovKioKICog5ZCM5LiA5Y+R6YCB6ICF5Zyo6L+RIHdpbmRvdyDmnaHph4zmmK/lkKblt7Llj5Hov4fkuIDmqKHkuIDmoLfnmoTlhoXlrrnjgIIKICog55So5p2l5oyh5L2P5qih5Z6L5YG25bCU5oqK5LiK5LiA6L2u55qE56eB6IGKL+e+pOiBiuWOn+agt+WGjeWGkuS4gOmBjeKAlOKAlOWQjOS4gOWPpeWcqOS4jeWQjOaXtumXtOWPjeWkjeWIt+Wxj+OAggogKiDnqbrnmb3lhoXlrrnkuZ/liKTkuLrjgIzph43lpI3jgI3nm7TmjqXkuKLlvIPjgIIKICovCmV4cG9ydCBmdW5jdGlvbiBpc0R1cGxpY2F0ZUxpbmUodGhyZWFkOiBXb3JsZFRocmVhZCwgZnJvbUlkOiBzdHJpbmcsIHRleHQ6IHN0cmluZywgd2luZG93ID0gNjApOiBib29sZWFuIHsKICAgIGNvbnN0IG4gPSBub3JtTGluZSh0ZXh0KTsKICAgIGlmICghbikgcmV0dXJuIHRydWU7CiAgICBjb25zdCBzdGFydCA9IE1hdGgubWF4KDAsIHRocmVhZC5tZXNzYWdlcy5sZW5ndGggLSB3aW5kb3cpOwogICAgZm9yIChsZXQgaSA9IHRocmVhZC5tZXNzYWdlcy5sZW5ndGggLSAxOyBpID49IHN0YXJ0OyBpLS0pIHsKICAgICAgICBjb25zdCBtID0gdGhyZWFkLm1lc3NhZ2VzW2ldOwogICAgICAgIGlmIChtLmZyb21JZCA9PT0gZnJvbUlkICYmIG5vcm1MaW5lKG0udGV4dCkgPT09IG4pIHJldHVybiB0cnVlOwogICAgfQogICAgcmV0dXJuIGZhbHNlOwp9CgovKioKICog5oqK5LiA5Liq6KeS6ImyIGJlYXQg6YeM55qE5omL5py65raI5oGv6JC96L+b57q/56iL77yIZG0g4oaSIOengeiBiue6v+eoi++8m2dyb3VwIOKGkiDkuJbnlYznvqTogYrvvInjgIIKICog5Zyo5q+P5Liq6KeS6Imy5ryU57uO5a6M5ZCO56uL5Yi76LCD55So4oCU4oCU6ZO+5byP5ZCO57ut6KeS6Imy5omN6IO95Zyo5ZCM5LiA6L2u6YeM5pS25Yiw44CCCiAqLwpleHBvcnQgZnVuY3Rpb24gYXBwbHlCZWF0VG9UaHJlYWRzKAogICAgd29ybGQ6IFdvcmxkUHJvZmlsZSwKICAgIGJlYXQ6IFdvcmxkQ2hhckJlYXQsCiAgICBtZW1iZXJzOiB7IGlkOiBzdHJpbmc7IG5hbWU6IHN0cmluZyB9W10sCiAgICByb3VuZDogbnVtYmVyLAogICAgc3RvcnlUaW1lOiBzdHJpbmcsCik6IHZvaWQgewogICAgY29uc3QgdGhyZWFkcyA9IGVuc3VyZVRocmVhZHMod29ybGQpOwogICAgLy8gZG0g5a+56LGh5Y+v5Lul5piv5oiQ5ZGY77yM5Lmf5Y+v5Lul5pivIE5QQ++8iOinkuiJsue7memVh+S4iueahOS6uuWPkeengeS/oe+8iQogICAgY29uc3QgaWRPZiA9IChuYW1lOiBzdHJpbmcpID0+IG1lbWJlcnMuZmluZChtID0+IG0ubmFtZSA9PT0gbmFtZSk/LmlkIHx8IHdvcmxkLm5wY3MuZmluZChuID0+IG4ubmFtZSA9PT0gbmFtZSk/LmlkOwogICAgY29uc3Qgbm93ID0gRGF0ZS5ub3coKTsKCiAgICBmb3IgKGNvbnN0IGRtIG9mIGJlYXQucGhvbmU/LmRtcyB8fCBbXSkgewogICAgICAgIGNvbnN0IG90aGVySWQgPSBpZE9mKGRtLnRvKTsKICAgICAgICBpZiAoIW90aGVySWQgfHwgb3RoZXJJZCA9PT0gYmVhdC5jaGFySWQpIGNvbnRpbnVlOwogICAgICAgIGNvbnN0IHRpZCA9IGRtVGhyZWFkSWQoYmVhdC5jaGFySWQsIG90aGVySWQpOwogICAgICAgIGxldCB0aHJlYWQgPSB0aHJlYWRzLmZpbmQodCA9PiB0LmlkID09PSB0aWQpOwogICAgICAgIGlmICghdGhyZWFkKSB7CiAgICAgICAgICAgIHRocmVhZCA9IHsgaWQ6IHRpZCwga2luZDogJ2RtJywgbWVtYmVySWRzOiBbYmVhdC5jaGFySWQsIG90aGVySWRdLCBtZXNzYWdlczogW10gfTsKICAgICAgICAgICAgdGhyZWFkcy5wdXNoKHRocmVhZCk7CiAgICAgICAgfQogICAgICAgIGZvciAoY29uc3QgbGluZSBvZiBkbS5saW5lcykgewogICAgICAgICAgICBpZiAoaXNEdXBsaWNhdGVMaW5lKHRocmVhZCwgYmVhdC5jaGFySWQsIGxpbmUpKSBjb250aW51ZTsKICAgICAgICAgICAgcHVzaE1zZyh0aHJlYWQsIHsgaWQ6IGdlbklkKCd3bScpLCBmcm9tSWQ6IGJlYXQuY2hhcklkLCBmcm9tTmFtZTogYmVhdC5jaGFyTmFtZSwgdGV4dDogbGluZSwgcm91bmQsIHN0b3J5VGltZSwgdGltZXN0YW1wOiBub3cgfSk7CiAgICAgICAgfQogICAgfQoKICAgIGNvbnN0IGdyb3VwTGluZXMgPSBiZWF0LnBob25lPy5ncm91cCB8fCBbXTsKICAgIGlmIChncm91cExpbmVzLmxlbmd0aCA+IDApIHsKICAgICAgICBjb25zdCBncm91cCA9IHRocmVhZHMuZmluZCh0ID0+IHQuaWQgPT09IEdST1VQX1RIUkVBRF9JRCkhOwogICAgICAgIGZvciAoY29uc3QgbGluZSBvZiBncm91cExpbmVzKSB7CiAgICAgICAgICAgIGlmIChpc0R1cGxpY2F0ZUxpbmUoZ3JvdXAsIGJlYXQuY2hhcklkLCBsaW5lKSkgY29udGludWU7CiAgICAgICAgICAgIHB1c2hNc2coZ3JvdXAsIHsgaWQ6IGdlbklkKCd3bScpLCBmcm9tSWQ6IGJlYXQuY2hhcklkLCBmcm9tTmFtZTogYmVhdC5jaGFyTmFtZSwgdGV4dDogbGluZSwgcm91bmQsIHN0b3J5VGltZSwgdGltZXN0YW1wOiBub3cgfSk7CiAgICAgICAgfQogICAgfQp9CgovKiogTlBDIOWcqOS4lueVjOe+pOiBiumHjOWGkuazoe+8iOS4lueVjOW8leaTjuS4gOasoeiwg+eUqOS6p+WHuu+8jOaXoOiusOW/hu+8jOe6r+eDn+eBq+awlO+8ieOAgiAqLwpleHBvcnQgZnVuY3Rpb24gYXBwbHlOcGNHcm91cExpbmVzKAogICAgd29ybGQ6IFdvcmxkUHJvZmlsZSwKICAgIGxpbmVzOiB7IG5hbWU6IHN0cmluZzsgbGluZTogc3RyaW5nIH1bXSwKICAgIHJvdW5kOiBudW1iZXIsCiAgICBzdG9yeVRpbWU6IHN0cmluZywKKTogdm9pZCB7CiAgICBpZiAobGluZXMubGVuZ3RoID09PSAwKSByZXR1cm47CiAgICBjb25zdCB0aHJlYWRzID0gZW5zdXJlVGhyZWFkcyh3b3JsZCk7CiAgICBjb25zdCBncm91cCA9IHRocmVhZHMuZmluZCh0ID0+IHQuaWQgPT09IEdST1VQX1RIUkVBRF9JRCkhOwogICAgY29uc3Qgbm93ID0gRGF0ZS5ub3coKTsKICAgIGZvciAoY29uc3QgbCBvZiBsaW5lcykgewogICAgICAgIGNvbnN0IG5wYyA9IHdvcmxkLm5wY3MuZmluZChuID0+IG4ubmFtZSA9PT0gbC5uYW1lKTsKICAgICAgICBpZiAoIW5wYykgY29udGludWU7IC8vIOWPquaUtuecn+WunuWtmOWcqOeahCBOUEMg55qE5Y+R6KiACiAgICAgICAgaWYgKGlzRHVwbGljYXRlTGluZShncm91cCwgbnBjLmlkLCBsLmxpbmUpKSBjb250aW51ZTsKICAgICAgICBwdXNoTXNnKGdyb3VwLCB7IGlkOiBnZW5JZCgnd20nKSwgZnJvbUlkOiBucGMuaWQsIGZyb21OYW1lOiBucGMubmFtZSwgdGV4dDogbC5saW5lLCByb3VuZCwgc3RvcnlUaW1lLCB0aW1lc3RhbXA6IG5vdyB9KTsKICAgIH0KfQoKLyoqIE5QQyDlm57lpI3miJDlkZjnmoTnp4Hkv6HvvIjkuJbnlYzlvJXmk47kuIDmrKHosIPnlKjnu5/kuIDkuqflh7rvvInjgIJmcm9tPU5QQyDlkI3vvIx0bz3miJDlkZjlkI3jgIIgKi8KZXhwb3J0IGZ1bmN0aW9uIGFwcGx5TnBjRG1zKAogICAgd29ybGQ6IFdvcmxkUHJvZmlsZSwKICAgIGRtczogeyBmcm9tOiBzdHJpbmc7IHRvOiBzdHJpbmc7IGxpbmVzOiBzdHJpbmdbXSB9W10sCiAgICBtZW1iZXJzOiB7IGlkOiBzdHJpbmc7IG5hbWU6IHN0cmluZyB9W10sCiAgICByb3VuZDogbnVtYmVyLAogICAgc3RvcnlUaW1lOiBzdHJpbmcsCik6IHZvaWQgewogICAgaWYgKCFkbXMgfHwgZG1zLmxlbmd0aCA9PT0gMCkgcmV0dXJuOwogICAgY29uc3QgdGhyZWFkcyA9IGVuc3VyZVRocmVhZHMod29ybGQpOwogICAgY29uc3Qgbm93ID0gRGF0ZS5ub3coKTsKICAgIGZvciAoY29uc3QgZG0gb2YgZG1zKSB7CiAgICAgICAgY29uc3QgbnBjID0gd29ybGQubnBjcy5maW5kKG4gPT4gbi5uYW1lID09PSBkbS5mcm9tKTsKICAgICAgICBjb25zdCBtZW1iZXIgPSBtZW1iZXJzLmZpbmQobSA9PiBtLm5hbWUgPT09IGRtLnRvKTsKICAgICAgICBpZiAoIW5wYyB8fCAhbWVtYmVyIHx8ICFBcnJheS5pc0FycmF5KGRtLmxpbmVzKSkgY29udGludWU7CiAgICAgICAgY29uc3QgdGlkID0gZG1UaHJlYWRJZChucGMuaWQsIG1lbWJlci5pZCk7CiAgICAgICAgbGV0IHRocmVhZCA9IHRocmVhZHMuZmluZCh0ID0+IHQuaWQgPT09IHRpZCk7CiAgICAgICAgaWYgKCF0aHJlYWQpIHsKICAgICAgICAgICAgdGhyZWFkID0geyBpZDogdGlkLCBraW5kOiAnZG0nLCBtZW1iZXJJZHM6IFtucGMuaWQsIG1lbWJlci5pZF0sIG1lc3NhZ2VzOiBbXSB9OwogICAgICAgICAgICB0aHJlYWRzLnB1c2godGhyZWFkKTsKICAgICAgICB9CiAgICAgICAgZm9yIChjb25zdCBsaW5lIG9mIGRtLmxpbmVzKSB7CiAgICAgICAgICAgIGlmICghbGluZSkgY29udGludWU7CiAgICAgICAgICAgIGlmIChpc0R1cGxpY2F0ZUxpbmUodGhyZWFkLCBucGMuaWQsIGxpbmUpKSBjb250aW51ZTsKICAgICAgICAgICAgcHVzaE1zZyh0aHJlYWQsIHsgaWQ6IGdlbklkKCd3bScpLCBmcm9tSWQ6IG5wYy5pZCwgZnJvbU5hbWU6IG5wYy5uYW1lLCB0ZXh0OiBsaW5lLCByb3VuZCwgc3RvcnlUaW1lLCB0aW1lc3RhbXA6IG5vdyB9KTsKICAgICAgICB9CiAgICB9Cn0KCi8qKgogKiBOUEMg55qE56eB5L+h5pS25Lu2566x77ya5oiQ5ZGY5Y+R57uZ5ZCEIE5QQ+OAgeS9hiBOUEMg6L+Y5rKh5Zue77yI5pyA5ZCO5LiA5p2h5LiN5piv6K+lIE5QQyDlj5HnmoTvvInnmoTnp4HogYrnur/nqIvjgIIKICog5L6b5LiW55WM5byV5pOO5Y+C6ICD77yM6K6pIE5QQyDov5nkuIDova7lm57lpI3jgIIKICovCmV4cG9ydCBmdW5jdGlvbiBucGNJbmJveGVzKHdvcmxkOiBXb3JsZFByb2ZpbGUpOiB7IG5wY05hbWU6IHN0cmluZzsgbWVtYmVyTmFtZTogc3RyaW5nOyByZWNlbnQ6IHN0cmluZyB9W10gewogICAgY29uc3Qgb3V0OiB7IG5wY05hbWU6IHN0cmluZzsgbWVtYmVyTmFtZTogc3RyaW5nOyByZWNlbnQ6IHN0cmluZyB9W10gPSBbXTsKICAgIGNvbnN0IG5wY0lkcyA9IG5ldyBNYXAod29ybGQubnBjcy5tYXAobiA9PiBbbi5pZCwgbi5uYW1lXSkpOwogICAgZm9yIChjb25zdCB0IG9mIHdvcmxkLnRocmVhZHMgfHwgW10pIHsKICAgICAgICBpZiAodC5raW5kICE9PSAnZG0nIHx8IHQubWVzc2FnZXMubGVuZ3RoID09PSAwKSBjb250aW51ZTsKICAgICAgICBjb25zdCBucGNJZCA9IHQubWVtYmVySWRzLmZpbmQoaWQgPT4gbnBjSWRzLmhhcyhpZCkpOwogICAgICAgIGNvbnN0IG1lbWJlcklkID0gdC5tZW1iZXJJZHMuZmluZChpZCA9PiAhbnBjSWRzLmhhcyhpZCkpOwogICAgICAgIGlmICghbnBjSWQgfHwgIW1lbWJlcklkKSBjb250aW51ZTsKICAgICAgICBjb25zdCBsYXN0ID0gdC5tZXNzYWdlc1t0Lm1lc3NhZ2VzLmxlbmd0aCAtIDFdOwogICAgICAgIGlmIChsYXN0LmZyb21JZCA9PT0gbnBjSWQpIGNvbnRpbnVlOyAvLyBOUEMg5bey5Zue6L+H77yM6Lez6L+HCiAgICAgICAgY29uc3QgcmVjZW50ID0gdC5tZXNzYWdlcy5zbGljZSgtNikubWFwKG0gPT4gYCR7bS5mcm9tTmFtZX3vvJoke20udGV4dH1gKS5qb2luKCdcbicpOwogICAgICAgIG91dC5wdXNoKHsgbnBjTmFtZTogbnBjSWRzLmdldChucGNJZCkhLCBtZW1iZXJOYW1lOiB0Lm1lc3NhZ2VzLmZpbmQobSA9PiBtLmZyb21JZCA9PT0gbWVtYmVySWQpPy5mcm9tTmFtZSB8fCAnJywgcmVjZW50IH0pOwogICAgfQogICAgcmV0dXJuIG91dDsKfQoKLyoqIOWPluS4juafkOaIkOWRmOebuOWFs+eahCBkbSDnur/nqIvvvIjmiYvmnLogVUkgLyBwcm9tcHQg5YWx55So77yJ44CCICovCmV4cG9ydCBmdW5jdGlvbiBkbVRocmVhZHNPZih3b3JsZDogV29ybGRQcm9maWxlLCBjaGFySWQ6IHN0cmluZyk6IFdvcmxkVGhyZWFkW10gewogICAgcmV0dXJuICh3b3JsZC50aHJlYWRzIHx8IFtdKS5maWx0ZXIodCA9PiB0LmtpbmQgPT09ICdkbScgJiYgdC5tZW1iZXJJZHMuaW5jbHVkZXMoY2hhcklkKSAmJiB0Lm1lc3NhZ2VzLmxlbmd0aCA+IDApOwp9CgpleHBvcnQgZnVuY3Rpb24gZ3JvdXBUaHJlYWRPZih3b3JsZDogV29ybGRQcm9maWxlKTogV29ybGRUaHJlYWQgfCBudWxsIHsKICAgIHJldHVybiAod29ybGQudGhyZWFkcyB8fCBbXSkuZmluZCh0ID0+IHQuaWQgPT09IEdST1VQX1RIUkVBRF9JRCkgfHwgbnVsbDsKfQoKLyoqCiAqIOaKiue6v+eoi+agvOW8j+WMlui/myBwcm9tcHTvvIjlsL7pg6ggbGltaXQg5p2h77yJ44CCCiAqIGN1cnJlbnRSb3VuZCDnmoTmtojmga/moIfjgJDliJrliJrjgJHigJTigJTpgJrluLjmmK/lkIzkuIDova7ph4zlhYjmvJTnu47nmoTkurrliJrlj5HmnaXnmoTvvIzmj5DphpLmqKHlnovov5nmmK/mlrDmtojmga/jgIIKICovCmV4cG9ydCBmdW5jdGlvbiBmb3JtYXRUaHJlYWRGb3JQcm9tcHQodGhyZWFkOiBXb3JsZFRocmVhZCwgc2VsZklkOiBzdHJpbmcsIGxpbWl0OiBudW1iZXIsIGN1cnJlbnRSb3VuZDogbnVtYmVyKTogc3RyaW5nIHsKICAgIGNvbnN0IG1zZ3MgPSB0aHJlYWQubWVzc2FnZXMuc2xpY2UoLWxpbWl0KTsKICAgIGlmIChtc2dzLmxlbmd0aCA9PT0gMCkgcmV0dXJuICfvvIjov5jmsqHmnInmtojmga/vvIknOwogICAgcmV0dXJuIG1zZ3MubWFwKG0gPT4gewogICAgICAgIGNvbnN0IHdobyA9IG0uZnJvbUlkID09PSBzZWxmSWQgPyAn5L2gJyA6IG0uZnJvbU5hbWU7CiAgICAgICAgY29uc3QgdGFnID0gbS5yb3VuZCA9PT0gY3VycmVudFJvdW5kID8gJ+OAkOWImuWImuOAkScgOiBgWyR7bS5zdG9yeVRpbWV9XWA7CiAgICAgICAgcmV0dXJuIGAke3RhZ30gJHt3aG9977yaJHttLnRleHR9YDsKICAgIH0pLmpvaW4oJ1xuJyk7Cn0K
+/**
+ * 世界内消息线程（私聊 + 世界群聊）的维护逻辑。
+ *
+ * 这是"手机是真手机"的核心：消息持久在 world.threads 里、跨角色跨轮传递——
+ * A 先演绎时发出的私聊/群聊**立刻**落线程，同一轮里后演绎的 B 构建上下文时
+ * 就能收到并回应；下一轮 A 又能看到 B 的回复。NPC 也能在群里冒泡。
+ */
+import type { WorldProfile, WorldThread, WorldChatMessage, WorldCharBeat } from '../../types';
+
+export const GROUP_THREAD_ID = 'group_main';
+/** 每条线程截留的消息数（手机 UI 可完整翻阅；prompt 只取尾部一小段） */
+export const THREAD_CAP = 120;
+
+const genId = (p: string) => `${p}_${Date.now().toString(36)}_${Math.random().toString(36).slice(2, 7)}`;
+
+export function dmThreadId(a: string, b: string): string {
+    const [x, y] = [a, b].sort();
+    return `dm_${x}_${y}`;
+}
+
+/** 确保 threads 数组存在且包含世界群聊（成员名单跟随最新配置）。原地修改并返回。 */
+export function ensureThreads(world: WorldProfile): WorldThread[] {
+    if (!world.threads) world.threads = [];
+    let group = world.threads.find(t => t.id === GROUP_THREAD_ID);
+    if (!group) {
+        group = { id: GROUP_THREAD_ID, kind: 'group', name: `${world.name}·大家的群`, memberIds: [...world.memberIds], messages: [] };
+        world.threads.push(group);
+    } else {
+        group.memberIds = [...world.memberIds];
+        group.name = group.name || `${world.name}·大家的群`;
+    }
+    return world.threads;
+}
+
+function pushMsg(thread: WorldThread, msg: WorldChatMessage) {
+    thread.messages.push(msg);
+    if (thread.messages.length > THREAD_CAP) thread.messages = thread.messages.slice(-THREAD_CAP);
+}
+
+/** 去重归一化：去掉所有空白再比，避免「同一句只差换行/空格」漏判。 */
+const normLine = (s: string): string => s.replace(/\s+/g, '').trim();
+
+/**
+ * 同一发送者在近 window 条里是否已发过一模一样的内容。
+ * 用来挡住模型偶尔把上一轮的私聊/群聊原样再冒一遍——同一句在不同时间反复刷屏。
+ * 空白内容也判为「重复」直接丢弃。
+ */
+export function isDuplicateLine(thread: WorldThread, fromId: string, text: string, window = 60): boolean {
+    const n = normLine(text);
+    if (!n) return true;
+    const start = Math.max(0, thread.messages.length - window);
+    for (let i = thread.messages.length - 1; i >= start; i--) {
+        const m = thread.messages[i];
+        if (m.fromId === fromId && normLine(m.text) === n) return true;
+    }
+    return false;
+}
+
+/**
+ * 把一个角色 beat 里的手机消息落进线程（dm → 私聊线程；group → 世界群聊）。
+ * 在每个角色演绎完后立刻调用——链式后续角色才能在同一轮里收到。
+ */
+export function applyBeatToThreads(
+    world: WorldProfile,
+    beat: WorldCharBeat,
+    members: { id: string; name: string }[],
+    round: number,
+    storyTime: string,
+): void {
+    const threads = ensureThreads(world);
+    // dm 对象可以是成员，也可以是 NPC（角色给镇上的人发私信）
+    const idOf = (name: string) => members.find(m => m.name === name)?.id || world.npcs.find(n => n.name === name)?.id;
+    const now = Date.now();
+
+    for (const dm of beat.phone?.dms || []) {
+        const otherId = idOf(dm.to);
+        if (!otherId || otherId === beat.charId) continue;
+        const tid = dmThreadId(beat.charId, otherId);
+        let thread = threads.find(t => t.id === tid);
+        if (!thread) {
+            thread = { id: tid, kind: 'dm', memberIds: [beat.charId, otherId], messages: [] };
+            threads.push(thread);
+        }
+        for (const line of dm.lines) {
+            if (isDuplicateLine(thread, beat.charId, line)) continue;
+            pushMsg(thread, { id: genId('wm'), fromId: beat.charId, fromName: beat.charName, text: line, round, storyTime, timestamp: now });
+        }
+    }
+
+    const groupLines = beat.phone?.group || [];
+    if (groupLines.length > 0) {
+        const group = threads.find(t => t.id === GROUP_THREAD_ID)!;
+        for (const line of groupLines) {
+            if (isDuplicateLine(group, beat.charId, line)) continue;
+            pushMsg(group, { id: genId('wm'), fromId: beat.charId, fromName: beat.charName, text: line, round, storyTime, timestamp: now });
+        }
+    }
+}
+
+/** NPC 在世界群聊里冒泡（世界引擎一次调用产出，无记忆，纯烟火气）。 */
+export function applyNpcGroupLines(
+    world: WorldProfile,
+    lines: { name: string; line: string }[],
+    round: number,
+    storyTime: string,
+): void {
+    if (lines.length === 0) return;
+    const threads = ensureThreads(world);
+    const group = threads.find(t => t.id === GROUP_THREAD_ID)!;
+    const now = Date.now();
+    for (const l of lines) {
+        const npc = world.npcs.find(n => n.name === l.name);
+        if (!npc) continue; // 只收真实存在的 NPC 的发言
+        if (isDuplicateLine(group, npc.id, l.line)) continue;
+        pushMsg(group, { id: genId('wm'), fromId: npc.id, fromName: npc.name, text: l.line, round, storyTime, timestamp: now });
+    }
+}
+
+/** NPC 回复成员的私信（世界引擎一次调用统一产出）。from=NPC 名，to=成员名。 */
+export function applyNpcDms(
+    world: WorldProfile,
+    dms: { from: string; to: string; lines: string[] }[],
+    members: { id: string; name: string }[],
+    round: number,
+    storyTime: string,
+): void {
+    if (!dms || dms.length === 0) return;
+    const threads = ensureThreads(world);
+    const now = Date.now();
+    for (const dm of dms) {
+        const npc = world.npcs.find(n => n.name === dm.from);
+        const member = members.find(m => m.name === dm.to);
+        if (!npc || !member || !Array.isArray(dm.lines)) continue;
+        const tid = dmThreadId(npc.id, member.id);
+        let thread = threads.find(t => t.id === tid);
+        if (!thread) {
+            thread = { id: tid, kind: 'dm', memberIds: [npc.id, member.id], messages: [] };
+            threads.push(thread);
+        }
+        for (const line of dm.lines) {
+            if (!line) continue;
+            if (isDuplicateLine(thread, npc.id, line)) continue;
+            pushMsg(thread, { id: genId('wm'), fromId: npc.id, fromName: npc.name, text: line, round, storyTime, timestamp: now });
+        }
+    }
+}
+
+/**
+ * NPC 的私信收件箱：成员发给各 NPC、但 NPC 还没回（最后一条不是该 NPC 发的）的私聊线程。
+ * 供世界引擎参考，让 NPC 这一轮回复。
+ */
+export function npcInboxes(world: WorldProfile): { npcName: string; memberName: string; recent: string }[] {
+    const out: { npcName: string; memberName: string; recent: string }[] = [];
+    const npcIds = new Map(world.npcs.map(n => [n.id, n.name]));
+    for (const t of world.threads || []) {
+        if (t.kind !== 'dm' || t.messages.length === 0) continue;
+        const npcId = t.memberIds.find(id => npcIds.has(id));
+        const memberId = t.memberIds.find(id => !npcIds.has(id));
+        if (!npcId || !memberId) continue;
+        const last = t.messages[t.messages.length - 1];
+        if (last.fromId === npcId) continue; // NPC 已回过，跳过
+        const recent = t.messages.slice(-6).map(m => `${m.fromName}：${m.text}`).join('\n');
+        out.push({ npcName: npcIds.get(npcId)!, memberName: t.messages.find(m => m.fromId === memberId)?.fromName || '', recent });
+    }
+    return out;
+}
+
+/** 取与某成员相关的 dm 线程（手机 UI / prompt 共用）。 */
+export function dmThreadsOf(world: WorldProfile, charId: string): WorldThread[] {
+    return (world.threads || []).filter(t => t.kind === 'dm' && t.memberIds.includes(charId) && t.messages.length > 0);
+}
+
+export function groupThreadOf(world: WorldProfile): WorldThread | null {
+    return (world.threads || []).find(t => t.id === GROUP_THREAD_ID) || null;
+}
+
+/**
+ * 把线程格式化进 prompt（尾部 limit 条）。
+ * currentRound 的消息标【刚刚】——通常是同一轮里先演绎的人刚发来的，提醒模型这是新消息。
+ */
+export function formatThreadForPrompt(thread: WorldThread, selfId: string, limit: number, currentRound: number): string {
+    const msgs = thread.messages.slice(-limit);
+    if (msgs.length === 0) return '（还没有消息）';
+    return msgs.map(m => {
+        const who = m.fromId === selfId ? '你' : m.fromName;
+        const tag = m.round === currentRound ? '【刚刚】' : `[${m.storyTime}]`;
+        return `${tag} ${who}：${m.text}`;
+    }).join('\n');
+}

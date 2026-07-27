@@ -1,1 +1,217 @@
-LyoqCiAqIE1pbmltYWwgV2ViIFB1c2ggc2VuZGVyIGZvciBDbG91ZGZsYXJlIFdvcmtlcnMuCiAqCiAqIEltcGxlbWVudHMgVkFQSUQgKFJGQyA4MjkyKSArIGFlczEyOGdjbSBjb250ZW50IGVuY29kaW5nIChSRkMgODE4OC84MjkxKQogKiB1c2luZyBXZWIgQ3J5cHRvIG9ubHkuIE5vIGV4dGVybmFsIGRlcGVuZGVuY2llcyBzbyB3ZSBzdGF5IG9uIHRoZSBDRgogKiBXb3JrZXJzIGZyZWUgdGllciB3aXRob3V0IHB1bGxpbmcgTm9kZSBwb2x5ZmlsbHMuCiAqCiAqIFVzYWdlOgogKiAgIGNvbnN0IHZhcGlkID0gYXdhaXQgcHJlcGFyZVZhcGlkKFBVQkxJQ19CNjRVLCBQUklWQVRFX0I2NFUsIFNVQkpFQ1QpOwogKiAgIGF3YWl0IHNlbmRQdXNoKHZhcGlkLCB7IGVuZHBvaW50LCBwMjU2ZGgsIGF1dGggfSwganNvblBheWxvYWQpOwogKgogKiBJZiB0aGUgcHVzaCBzZXJ2aWNlIHJldHVybnMgNDA0LzQxMCB0aGUgc3Vic2NyaXB0aW9uIGlzIGRlYWQg4oCUIGNhbGxlcgogKiBzaG91bGQgZGVsZXRlIGl0IGZyb20gdGhlIERCLgogKi8KCi8vIC0tLS0tLS0tLS0gYmFzZTY0dXJsIC0tLS0tLS0tLS0KY29uc3QgQjY0X0NIQVJTID0gJ0FCQ0RFRkdISUpLTE1OT1BRUlNUVVZXWFlaYWJjZGVmZ2hpamtsbW5vcHFyc3R1dnd4eXowMTIzNDU2Nzg5LV8nOwoKZXhwb3J0IGZ1bmN0aW9uIGI2NHVFbmNvZGUoYnVmOiBBcnJheUJ1ZmZlciB8IFVpbnQ4QXJyYXkpOiBzdHJpbmcgewogIGNvbnN0IGJ5dGVzID0gYnVmIGluc3RhbmNlb2YgVWludDhBcnJheSA/IGJ1ZiA6IG5ldyBVaW50OEFycmF5KGJ1Zik7CiAgbGV0IG91dCA9ICcnOwogIGxldCBpID0gMDsKICBmb3IgKDsgaSArIDIgPCBieXRlcy5sZW5ndGg7IGkgKz0gMykgewogICAgY29uc3QgbiA9IChieXRlc1tpXSA8PCAxNikgfCAoYnl0ZXNbaSArIDFdIDw8IDgpIHwgYnl0ZXNbaSArIDJdOwogICAgb3V0ICs9IEI2NF9DSEFSU1sobiA+PiAxOCkgJiA2M10gKyBCNjRfQ0hBUlNbKG4gPj4gMTIpICYgNjNdICsgQjY0X0NIQVJTWyhuID4+IDYpICYgNjNdICsgQjY0X0NIQVJTW24gJiA2M107CiAgfQogIGlmIChpIDwgYnl0ZXMubGVuZ3RoKSB7CiAgICBjb25zdCBuID0gKGJ5dGVzW2ldIDw8IDE2KSB8ICgoYnl0ZXNbaSArIDFdIHx8IDApIDw8IDgpOwogICAgb3V0ICs9IEI2NF9DSEFSU1sobiA+PiAxOCkgJiA2M10gKyBCNjRfQ0hBUlNbKG4gPj4gMTIpICYgNjNdOwogICAgaWYgKGkgKyAxIDwgYnl0ZXMubGVuZ3RoKSBvdXQgKz0gQjY0X0NIQVJTWyhuID4+IDYpICYgNjNdOwogIH0KICByZXR1cm4gb3V0Owp9CgpleHBvcnQgZnVuY3Rpb24gYjY0dURlY29kZShzOiBzdHJpbmcpOiBVaW50OEFycmF5IHsKICBjb25zdCBjbGVhbiA9IHMucmVwbGFjZSgvLS9nLCAnKycpLnJlcGxhY2UoL18vZywgJy8nKTsKICBjb25zdCBwYWRkZWQgPSBjbGVhbiArICc9Jy5yZXBlYXQoKDQgLSAoY2xlYW4ubGVuZ3RoICUgNCkpICUgNCk7CiAgY29uc3QgYmluID0gYXRvYihwYWRkZWQpOwogIGNvbnN0IG91dCA9IG5ldyBVaW50OEFycmF5KGJpbi5sZW5ndGgpOwogIGZvciAobGV0IGkgPSAwOyBpIDwgYmluLmxlbmd0aDsgaSsrKSBvdXRbaV0gPSBiaW4uY2hhckNvZGVBdChpKTsKICByZXR1cm4gb3V0Owp9CgpmdW5jdGlvbiBjb25jYXRCeXRlcyguLi5wYXJ0czogVWludDhBcnJheVtdKTogVWludDhBcnJheSB7CiAgY29uc3QgbGVuID0gcGFydHMucmVkdWNlKChuLCBwKSA9PiBuICsgcC5sZW5ndGgsIDApOwogIGNvbnN0IG91dCA9IG5ldyBVaW50OEFycmF5KGxlbik7CiAgbGV0IG9mZiA9IDA7CiAgZm9yIChjb25zdCBwIG9mIHBhcnRzKSB7IG91dC5zZXQocCwgb2ZmKTsgb2ZmICs9IHAubGVuZ3RoOyB9CiAgcmV0dXJuIG91dDsKfQoKLy8gLS0tLS0tLS0tLSBWQVBJRCAtLS0tLS0tLS0tCmV4cG9ydCBpbnRlcmZhY2UgVmFwaWRDb250ZXh0IHsKICBwdWJsaWNLZXlCNjR1OiBzdHJpbmc7CiAgc2lnbmluZ0tleTogQ3J5cHRvS2V5OwogIHN1YmplY3Q6IHN0cmluZzsKfQoKZXhwb3J0IGFzeW5jIGZ1bmN0aW9uIHByZXBhcmVWYXBpZChwdWJsaWNLZXlCNjR1OiBzdHJpbmcsIHByaXZhdGVLZXlCNjR1OiBzdHJpbmcsIHN1YmplY3Q6IHN0cmluZyk6IFByb21pc2U8VmFwaWRDb250ZXh0PiB7CiAgY29uc3QgcHViID0gYjY0dURlY29kZShwdWJsaWNLZXlCNjR1KTsgICAgICAvLyA2NSBieXRlcyB1bmNvbXByZXNzZWQgKDB4MDQgfHwgWCB8fCBZKQogIGNvbnN0IHByaXYgPSBiNjR1RGVjb2RlKHByaXZhdGVLZXlCNjR1KTsgICAgLy8gMzIgYnl0ZXMKICBpZiAocHViLmxlbmd0aCAhPT0gNjUgfHwgcHViWzBdICE9PSAweDA0KSB0aHJvdyBuZXcgRXJyb3IoJ1ZBUElEIHB1YmxpYyBrZXkgbXVzdCBiZSA2NS1ieXRlIHVuY29tcHJlc3NlZCBQLTI1NiBwb2ludCcpOwogIGlmIChwcml2Lmxlbmd0aCAhPT0gMzIpIHRocm93IG5ldyBFcnJvcignVkFQSUQgcHJpdmF0ZSBrZXkgbXVzdCBiZSAzMiBieXRlcycpOwoKICBjb25zdCBzaWduaW5nS2V5ID0gYXdhaXQgY3J5cHRvLnN1YnRsZS5pbXBvcnRLZXkoCiAgICAnandrJywKICAgIHsKICAgICAga3R5OiAnRUMnLAogICAgICBjcnY6ICdQLTI1NicsCiAgICAgIHg6IGI2NHVFbmNvZGUocHViLnNsaWNlKDEsIDMzKSksCiAgICAgIHk6IGI2NHVFbmNvZGUocHViLnNsaWNlKDMzLCA2NSkpLAogICAgICBkOiBiNjR1RW5jb2RlKHByaXYpLAogICAgICBleHQ6IGZhbHNlLAogICAgfSwKICAgIHsgbmFtZTogJ0VDRFNBJywgbmFtZWRDdXJ2ZTogJ1AtMjU2JyB9LAogICAgZmFsc2UsCiAgICBbJ3NpZ24nXSwKICApOwogIHJldHVybiB7IHB1YmxpY0tleUI2NHUsIHNpZ25pbmdLZXksIHN1YmplY3QgfTsKfQoKYXN5bmMgZnVuY3Rpb24gYnVpbGRWYXBpZEp3dChhdWRpZW5jZTogc3RyaW5nLCB2YXBpZDogVmFwaWRDb250ZXh0KTogUHJvbWlzZTxzdHJpbmc+IHsKICBjb25zdCBoZWFkZXIgPSB7IHR5cDogJ0pXVCcsIGFsZzogJ0VTMjU2JyB9OwogIGNvbnN0IGNsYWltID0gewogICAgYXVkOiBhdWRpZW5jZSwKICAgIGV4cDogTWF0aC5mbG9vcihEYXRlLm5vdygpIC8gMTAwMCkgKyAxMiAqIDM2MDAsIC8vIG1heCAyNGggcGVyIHNwZWM7IDEyaCBpcyBzYWZlCiAgICBzdWI6IHZhcGlkLnN1YmplY3QsCiAgfTsKICBjb25zdCB1bnNpZ25lZCA9IGI2NHVFbmNvZGUobmV3IFRleHRFbmNvZGVyKCkuZW5jb2RlKEpTT04uc3RyaW5naWZ5KGhlYWRlcikpKSArICcuJyArCiAgICAgICAgICAgICAgICAgICBiNjR1RW5jb2RlKG5ldyBUZXh0RW5jb2RlcigpLmVuY29kZShKU09OLnN0cmluZ2lmeShjbGFpbSkpKTsKICBjb25zdCBzaWcgPSBhd2FpdCBjcnlwdG8uc3VidGxlLnNpZ24oCiAgICB7IG5hbWU6ICdFQ0RTQScsIGhhc2g6ICdTSEEtMjU2JyB9LAogICAgdmFwaWQuc2lnbmluZ0tleSwKICAgIG5ldyBUZXh0RW5jb2RlcigpLmVuY29kZSh1bnNpZ25lZCksCiAgKTsKICByZXR1cm4gdW5zaWduZWQgKyAnLicgKyBiNjR1RW5jb2RlKG5ldyBVaW50OEFycmF5KHNpZykpOwp9CgovLyAtLS0tLS0tLS0tIEhLREYgLS0tLS0tLS0tLQphc3luYyBmdW5jdGlvbiBoa2RmKGlrbTogVWludDhBcnJheSwgc2FsdDogVWludDhBcnJheSwgaW5mbzogVWludDhBcnJheSwgbGVuZ3RoQnl0ZXM6IG51bWJlcik6IFByb21pc2U8VWludDhBcnJheT4gewogIGNvbnN0IGtleSA9IGF3YWl0IGNyeXB0by5zdWJ0bGUuaW1wb3J0S2V5KCdyYXcnLCBpa20sIHsgbmFtZTogJ0hLREYnIH0sIGZhbHNlLCBbJ2Rlcml2ZUJpdHMnXSk7CiAgY29uc3QgYml0cyA9IGF3YWl0IGNyeXB0by5zdWJ0bGUuZGVyaXZlQml0cygKICAgIHsgbmFtZTogJ0hLREYnLCBoYXNoOiAnU0hBLTI1NicsIHNhbHQsIGluZm8gfSwKICAgIGtleSwKICAgIGxlbmd0aEJ5dGVzICogOCwKICApOwogIHJldHVybiBuZXcgVWludDhBcnJheShiaXRzKTsKfQoKLy8gLS0tLS0tLS0tLSBhZXMxMjhnY20gY29udGVudCBlbmNvZGluZyAoUkZDIDgxODggKyBSRkMgODI5MSkgLS0tLS0tLS0tLQphc3luYyBmdW5jdGlvbiBlbmNyeXB0QWVzMTI4R2NtKHBheWxvYWQ6IFVpbnQ4QXJyYXksIGNsaWVudFAyNTZkaDogVWludDhBcnJheSwgY2xpZW50QXV0aDogVWludDhBcnJheSk6IFByb21pc2U8VWludDhBcnJheT4gewogIC8vIDEuIEVwaGVtZXJhbCBFQ0RIIGtleSBwYWlyIG9uIFdvcmtlciBzaWRlCiAgY29uc3QgZXBoZW1lcmFsID0gYXdhaXQgY3J5cHRvLnN1YnRsZS5nZW5lcmF0ZUtleSgKICAgIHsgbmFtZTogJ0VDREgnLCBuYW1lZEN1cnZlOiAnUC0yNTYnIH0sCiAgICB0cnVlLAogICAgWydkZXJpdmVCaXRzJ10sCiAgKSBhcyBDcnlwdG9LZXlQYWlyOwogIGNvbnN0IGVwaGVtZXJhbFB1YlJhdyA9IG5ldyBVaW50OEFycmF5KGF3YWl0IGNyeXB0by5zdWJ0bGUuZXhwb3J0S2V5KCdyYXcnLCBlcGhlbWVyYWwucHVibGljS2V5KSk7CgogIC8vIDIuIENsaWVudCBwdWJsaWMga2V5CiAgY29uc3QgY2xpZW50UHViS2V5ID0gYXdhaXQgY3J5cHRvLnN1YnRsZS5pbXBvcnRLZXkoCiAgICAncmF3JywKICAgIGNsaWVudFAyNTZkaCwKICAgIHsgbmFtZTogJ0VDREgnLCBuYW1lZEN1cnZlOiAnUC0yNTYnIH0sCiAgICBmYWxzZSwKICAgIFtdLAogICk7CgogIC8vIDMuIEVDREggc2hhcmVkIHNlY3JldAogIGNvbnN0IGlrbSA9IG5ldyBVaW50OEFycmF5KGF3YWl0IGNyeXB0by5zdWJ0bGUuZGVyaXZlQml0cygKICAgIHsgbmFtZTogJ0VDREgnLCBwdWJsaWM6IGNsaWVudFB1YktleSB9LAogICAgZXBoZW1lcmFsLnByaXZhdGVLZXksCiAgICAyNTYsCiAgKSk7CgogIC8vIDQuIFBSSyA9IEhLREYoaWttLCBzYWx0PWF1dGgsIGluZm89IldlYlB1c2g6IGluZm9cMCIgfHwgY2xpZW50UHViIHx8IGVwaGVtZXJhbFB1YikgIOKGkiAzMiBieXRlcwogIGNvbnN0IHByayA9IGF3YWl0IGhrZGYoCiAgICBpa20sCiAgICBjbGllbnRBdXRoLAogICAgY29uY2F0Qnl0ZXMobmV3IFRleHRFbmNvZGVyKCkuZW5jb2RlKCdXZWJQdXNoOiBpbmZvXDAnKSwgY2xpZW50UDI1NmRoLCBlcGhlbWVyYWxQdWJSYXcpLAogICAgMzIsCiAgKTsKCiAgLy8gNS4gUmFuZG9tIDE2LWJ5dGUgc2FsdCBmb3IgQ0VLL25vbmNlIGRlcml2YXRpb24KICBjb25zdCBzYWx0ID0gY3J5cHRvLmdldFJhbmRvbVZhbHVlcyhuZXcgVWludDhBcnJheSgxNikpOwoKICAvLyA2LiBDb250ZW50IEVuY3J5cHRpb24gS2V5ICsgbm9uY2UKICBjb25zdCBjZWsgPSBhd2FpdCBoa2RmKHByaywgc2FsdCwgbmV3IFRleHRFbmNvZGVyKCkuZW5jb2RlKCdDb250ZW50LUVuY29kaW5nOiBhZXMxMjhnY21cMCcpLCAxNik7CiAgY29uc3Qgbm9uY2UgPSBhd2FpdCBoa2RmKHByaywgc2FsdCwgbmV3IFRleHRFbmNvZGVyKCkuZW5jb2RlKCdDb250ZW50LUVuY29kaW5nOiBub25jZVwwJyksIDEyKTsKCiAgLy8gNy4gUGFkIOKAlCBzaW5nbGUtcmVjb3JkIHB1c2g6IHBheWxvYWQgfHwgMHgwMiAoZW5kLW9mLXN0cmVhbSBkZWxpbWl0ZXIpCiAgY29uc3QgcGFkZGVkID0gbmV3IFVpbnQ4QXJyYXkocGF5bG9hZC5sZW5ndGggKyAxKTsKICBwYWRkZWQuc2V0KHBheWxvYWQsIDApOwogIHBhZGRlZFtwYXlsb2FkLmxlbmd0aF0gPSAweDAyOwoKICAvLyA4LiBBRVMtR0NNIGVuY3J5cHQKICBjb25zdCBjZWtLZXkgPSBhd2FpdCBjcnlwdG8uc3VidGxlLmltcG9ydEtleSgncmF3JywgY2VrLCB7IG5hbWU6ICdBRVMtR0NNJyB9LCBmYWxzZSwgWydlbmNyeXB0J10pOwogIGNvbnN0IGNpcGhlcnRleHQgPSBuZXcgVWludDhBcnJheShhd2FpdCBjcnlwdG8uc3VidGxlLmVuY3J5cHQoeyBuYW1lOiAnQUVTLUdDTScsIGl2OiBub25jZSB9LCBjZWtLZXksIHBhZGRlZCkpOwoKICAvLyA5LiBIZWFkZXI6IHNhbHQoMTYpIHx8IHJzKDQgQkUpIHx8IGtleUlkLWxlbigxKSB8fCBrZXlJZChlcGhlbWVyYWxQdWIgNjUpCiAgY29uc3QgcnMgPSA0MDk2OwogIGNvbnN0IGhlYWRlciA9IG5ldyBVaW50OEFycmF5KDE2ICsgNCArIDEgKyA2NSk7CiAgaGVhZGVyLnNldChzYWx0LCAwKTsKICBjb25zdCBkdiA9IG5ldyBEYXRhVmlldyhoZWFkZXIuYnVmZmVyKTsKICBkdi5zZXRVaW50MzIoMTYsIHJzLCBmYWxzZSk7CiAgaGVhZGVyWzIwXSA9IDY1OwogIGhlYWRlci5zZXQoZXBoZW1lcmFsUHViUmF3LCAyMSk7CgogIHJldHVybiBjb25jYXRCeXRlcyhoZWFkZXIsIGNpcGhlcnRleHQpOwp9CgovLyAtLS0tLS0tLS0tIHNlbmRQdXNoIC0tLS0tLS0tLS0KZXhwb3J0IGludGVyZmFjZSBQdXNoU3Vic2NyaXB0aW9uIHsKICBlbmRwb2ludDogc3RyaW5nOwogIHAyNTZkaDogc3RyaW5nOyAgIC8vIGJhc2U2NHVybAogIGF1dGg6IHN0cmluZzsgICAgIC8vIGJhc2U2NHVybAp9CgpleHBvcnQgaW50ZXJmYWNlIFB1c2hSZXN1bHQgewogIHN0YXR1czogbnVtYmVyOwogIG9rOiBib29sZWFuOwogIC8qKiB0cnVlIHdoZW4gdGhlIHN1YnNjcmlwdGlvbiBpcyBwZXJtYW5lbnRseSBkZWFkICg0MTAvNDA0KSDigJQgY2FsbGVyIHNob3VsZCBkZWxldGUgaXQuICovCiAgZ29uZTogYm9vbGVhbjsKICByZXNwb25zZVRleHQ/OiBzdHJpbmc7Cn0KCmV4cG9ydCBhc3luYyBmdW5jdGlvbiBzZW5kUHVzaCh2YXBpZDogVmFwaWRDb250ZXh0LCBzdWI6IFB1c2hTdWJzY3JpcHRpb24sIHBheWxvYWQ6IFVpbnQ4QXJyYXkgfCBzdHJpbmcpOiBQcm9taXNlPFB1c2hSZXN1bHQ+IHsKICBjb25zdCBieXRlcyA9IHR5cGVvZiBwYXlsb2FkID09PSAnc3RyaW5nJyA/IG5ldyBUZXh0RW5jb2RlcigpLmVuY29kZShwYXlsb2FkKSA6IHBheWxvYWQ7CiAgY29uc3QgdXJsID0gbmV3IFVSTChzdWIuZW5kcG9pbnQpOwogIGNvbnN0IGF1ZGllbmNlID0gdXJsLm9yaWdpbjsKCiAgY29uc3Qgand0ID0gYXdhaXQgYnVpbGRWYXBpZEp3dChhdWRpZW5jZSwgdmFwaWQpOwogIGNvbnN0IGVuY3J5cHRlZCA9IGF3YWl0IGVuY3J5cHRBZXMxMjhHY20oCiAgICBieXRlcywKICAgIGI2NHVEZWNvZGUoc3ViLnAyNTZkaCksCiAgICBiNjR1RGVjb2RlKHN1Yi5hdXRoKSwKICApOwoKICBjb25zdCByZXMgPSBhd2FpdCBmZXRjaChzdWIuZW5kcG9pbnQsIHsKICAgIG1ldGhvZDogJ1BPU1QnLAogICAgaGVhZGVyczogewogICAgICAnQ29udGVudC1UeXBlJzogJ2FwcGxpY2F0aW9uL29jdGV0LXN0cmVhbScsCiAgICAgICdDb250ZW50LUVuY29kaW5nJzogJ2FlczEyOGdjbScsCiAgICAgICdUVEwnOiAnNjAnLCAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgIC8vIDYwcyDigJQgdGhlc2UgYXJlICJ3YWtlIHVwIiBwaW5ncywgc3RhbGUgb25lcyBhcmUgdXNlbGVzcwogICAgICAnVXJnZW5jeSc6ICdoaWdoJywKICAgICAgJ0F1dGhvcml6YXRpb24nOiBgdmFwaWQgdD0ke2p3dH0sIGs9JHt2YXBpZC5wdWJsaWNLZXlCNjR1fWAsCiAgICB9LAogICAgYm9keTogZW5jcnlwdGVkLAogIH0pOwoKICBjb25zdCBnb25lID0gcmVzLnN0YXR1cyA9PT0gNDA0IHx8IHJlcy5zdGF0dXMgPT09IDQxMDsKICBsZXQgcmVzcG9uc2VUZXh0OiBzdHJpbmcgfCB1bmRlZmluZWQ7CiAgaWYgKCFyZXMub2sgJiYgIWdvbmUpIHsKICAgIHRyeSB7IHJlc3BvbnNlVGV4dCA9IGF3YWl0IHJlcy50ZXh0KCk7IH0gY2F0Y2ggeyAvKiBpZ25vcmUgKi8gfQogIH0KICByZXR1cm4geyBzdGF0dXM6IHJlcy5zdGF0dXMsIG9rOiByZXMub2ssIGdvbmUsIHJlc3BvbnNlVGV4dCB9Owp9Cg==
+/**
+ * Minimal Web Push sender for Cloudflare Workers.
+ *
+ * Implements VAPID (RFC 8292) + aes128gcm content encoding (RFC 8188/8291)
+ * using Web Crypto only. No external dependencies so we stay on the CF
+ * Workers free tier without pulling Node polyfills.
+ *
+ * Usage:
+ *   const vapid = await prepareVapid(PUBLIC_B64U, PRIVATE_B64U, SUBJECT);
+ *   await sendPush(vapid, { endpoint, p256dh, auth }, jsonPayload);
+ *
+ * If the push service returns 404/410 the subscription is dead — caller
+ * should delete it from the DB.
+ */
+
+// ---------- base64url ----------
+const B64_CHARS = 'ABCDEFGHIJKLMNOPQRSTUVWXYZabcdefghijklmnopqrstuvwxyz0123456789-_';
+
+export function b64uEncode(buf: ArrayBuffer | Uint8Array): string {
+  const bytes = buf instanceof Uint8Array ? buf : new Uint8Array(buf);
+  let out = '';
+  let i = 0;
+  for (; i + 2 < bytes.length; i += 3) {
+    const n = (bytes[i] << 16) | (bytes[i + 1] << 8) | bytes[i + 2];
+    out += B64_CHARS[(n >> 18) & 63] + B64_CHARS[(n >> 12) & 63] + B64_CHARS[(n >> 6) & 63] + B64_CHARS[n & 63];
+  }
+  if (i < bytes.length) {
+    const n = (bytes[i] << 16) | ((bytes[i + 1] || 0) << 8);
+    out += B64_CHARS[(n >> 18) & 63] + B64_CHARS[(n >> 12) & 63];
+    if (i + 1 < bytes.length) out += B64_CHARS[(n >> 6) & 63];
+  }
+  return out;
+}
+
+export function b64uDecode(s: string): Uint8Array {
+  const clean = s.replace(/-/g, '+').replace(/_/g, '/');
+  const padded = clean + '='.repeat((4 - (clean.length % 4)) % 4);
+  const bin = atob(padded);
+  const out = new Uint8Array(bin.length);
+  for (let i = 0; i < bin.length; i++) out[i] = bin.charCodeAt(i);
+  return out;
+}
+
+function concatBytes(...parts: Uint8Array[]): Uint8Array {
+  const len = parts.reduce((n, p) => n + p.length, 0);
+  const out = new Uint8Array(len);
+  let off = 0;
+  for (const p of parts) { out.set(p, off); off += p.length; }
+  return out;
+}
+
+// ---------- VAPID ----------
+export interface VapidContext {
+  publicKeyB64u: string;
+  signingKey: CryptoKey;
+  subject: string;
+}
+
+export async function prepareVapid(publicKeyB64u: string, privateKeyB64u: string, subject: string): Promise<VapidContext> {
+  const pub = b64uDecode(publicKeyB64u);      // 65 bytes uncompressed (0x04 || X || Y)
+  const priv = b64uDecode(privateKeyB64u);    // 32 bytes
+  if (pub.length !== 65 || pub[0] !== 0x04) throw new Error('VAPID public key must be 65-byte uncompressed P-256 point');
+  if (priv.length !== 32) throw new Error('VAPID private key must be 32 bytes');
+
+  const signingKey = await crypto.subtle.importKey(
+    'jwk',
+    {
+      kty: 'EC',
+      crv: 'P-256',
+      x: b64uEncode(pub.slice(1, 33)),
+      y: b64uEncode(pub.slice(33, 65)),
+      d: b64uEncode(priv),
+      ext: false,
+    },
+    { name: 'ECDSA', namedCurve: 'P-256' },
+    false,
+    ['sign'],
+  );
+  return { publicKeyB64u, signingKey, subject };
+}
+
+async function buildVapidJwt(audience: string, vapid: VapidContext): Promise<string> {
+  const header = { typ: 'JWT', alg: 'ES256' };
+  const claim = {
+    aud: audience,
+    exp: Math.floor(Date.now() / 1000) + 12 * 3600, // max 24h per spec; 12h is safe
+    sub: vapid.subject,
+  };
+  const unsigned = b64uEncode(new TextEncoder().encode(JSON.stringify(header))) + '.' +
+                   b64uEncode(new TextEncoder().encode(JSON.stringify(claim)));
+  const sig = await crypto.subtle.sign(
+    { name: 'ECDSA', hash: 'SHA-256' },
+    vapid.signingKey,
+    new TextEncoder().encode(unsigned),
+  );
+  return unsigned + '.' + b64uEncode(new Uint8Array(sig));
+}
+
+// ---------- HKDF ----------
+async function hkdf(ikm: Uint8Array, salt: Uint8Array, info: Uint8Array, lengthBytes: number): Promise<Uint8Array> {
+  const key = await crypto.subtle.importKey('raw', ikm, { name: 'HKDF' }, false, ['deriveBits']);
+  const bits = await crypto.subtle.deriveBits(
+    { name: 'HKDF', hash: 'SHA-256', salt, info },
+    key,
+    lengthBytes * 8,
+  );
+  return new Uint8Array(bits);
+}
+
+// ---------- aes128gcm content encoding (RFC 8188 + RFC 8291) ----------
+async function encryptAes128Gcm(payload: Uint8Array, clientP256dh: Uint8Array, clientAuth: Uint8Array): Promise<Uint8Array> {
+  // 1. Ephemeral ECDH key pair on Worker side
+  const ephemeral = await crypto.subtle.generateKey(
+    { name: 'ECDH', namedCurve: 'P-256' },
+    true,
+    ['deriveBits'],
+  ) as CryptoKeyPair;
+  const ephemeralPubRaw = new Uint8Array(await crypto.subtle.exportKey('raw', ephemeral.publicKey));
+
+  // 2. Client public key
+  const clientPubKey = await crypto.subtle.importKey(
+    'raw',
+    clientP256dh,
+    { name: 'ECDH', namedCurve: 'P-256' },
+    false,
+    [],
+  );
+
+  // 3. ECDH shared secret
+  const ikm = new Uint8Array(await crypto.subtle.deriveBits(
+    { name: 'ECDH', public: clientPubKey },
+    ephemeral.privateKey,
+    256,
+  ));
+
+  // 4. PRK = HKDF(ikm, salt=auth, info="WebPush: info\0" || clientPub || ephemeralPub)  → 32 bytes
+  const prk = await hkdf(
+    ikm,
+    clientAuth,
+    concatBytes(new TextEncoder().encode('WebPush: info\0'), clientP256dh, ephemeralPubRaw),
+    32,
+  );
+
+  // 5. Random 16-byte salt for CEK/nonce derivation
+  const salt = crypto.getRandomValues(new Uint8Array(16));
+
+  // 6. Content Encryption Key + nonce
+  const cek = await hkdf(prk, salt, new TextEncoder().encode('Content-Encoding: aes128gcm\0'), 16);
+  const nonce = await hkdf(prk, salt, new TextEncoder().encode('Content-Encoding: nonce\0'), 12);
+
+  // 7. Pad — single-record push: payload || 0x02 (end-of-stream delimiter)
+  const padded = new Uint8Array(payload.length + 1);
+  padded.set(payload, 0);
+  padded[payload.length] = 0x02;
+
+  // 8. AES-GCM encrypt
+  const cekKey = await crypto.subtle.importKey('raw', cek, { name: 'AES-GCM' }, false, ['encrypt']);
+  const ciphertext = new Uint8Array(await crypto.subtle.encrypt({ name: 'AES-GCM', iv: nonce }, cekKey, padded));
+
+  // 9. Header: salt(16) || rs(4 BE) || keyId-len(1) || keyId(ephemeralPub 65)
+  const rs = 4096;
+  const header = new Uint8Array(16 + 4 + 1 + 65);
+  header.set(salt, 0);
+  const dv = new DataView(header.buffer);
+  dv.setUint32(16, rs, false);
+  header[20] = 65;
+  header.set(ephemeralPubRaw, 21);
+
+  return concatBytes(header, ciphertext);
+}
+
+// ---------- sendPush ----------
+export interface PushSubscription {
+  endpoint: string;
+  p256dh: string;   // base64url
+  auth: string;     // base64url
+}
+
+export interface PushResult {
+  status: number;
+  ok: boolean;
+  /** true when the subscription is permanently dead (410/404) — caller should delete it. */
+  gone: boolean;
+  responseText?: string;
+}
+
+export async function sendPush(vapid: VapidContext, sub: PushSubscription, payload: Uint8Array | string): Promise<PushResult> {
+  const bytes = typeof payload === 'string' ? new TextEncoder().encode(payload) : payload;
+  const url = new URL(sub.endpoint);
+  const audience = url.origin;
+
+  const jwt = await buildVapidJwt(audience, vapid);
+  const encrypted = await encryptAes128Gcm(
+    bytes,
+    b64uDecode(sub.p256dh),
+    b64uDecode(sub.auth),
+  );
+
+  const res = await fetch(sub.endpoint, {
+    method: 'POST',
+    headers: {
+      'Content-Type': 'application/octet-stream',
+      'Content-Encoding': 'aes128gcm',
+      'TTL': '60',                                 // 60s — these are "wake up" pings, stale ones are useless
+      'Urgency': 'high',
+      'Authorization': `vapid t=${jwt}, k=${vapid.publicKeyB64u}`,
+    },
+    body: encrypted,
+  });
+
+  const gone = res.status === 404 || res.status === 410;
+  let responseText: string | undefined;
+  if (!res.ok && !gone) {
+    try { responseText = await res.text(); } catch { /* ignore */ }
+  }
+  return { status: res.status, ok: res.ok, gone, responseText };
+}

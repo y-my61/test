@@ -1,1 +1,122 @@
-aW1wb3J0IFJlYWN0LCB7IHVzZVN0YXRlIH0gZnJvbSAncmVhY3QnOwppbXBvcnQgeyBnZXRDdXJyZW50UG9zaXRpb25TbWFydCB9IGZyb20gJy4uLy4uL3V0aWxzL2dlbyc7CgovKioKICog55Ge5bm45a6a5L2N6YCJ5oupICjngrki55Ge5LiA5p2vIuaXtuW8ueWHuikKICoKICogcXVlcnlTaG9wTGlzdCAvIGNyZWF0ZU9yZGVyIOeahOe7j+e6rOW6puW/heWhq+OAgua1j+iniOWZqC/lrrnlmajmipPliLDnmoQgR1BTIOW4uOW4uOaYr+acuuaIv+S9jee9rgogKiAo5a6e5rWL5ou/5Yiw5paw5Yqg5Z2hKSwg5omA5Lul6L+Z6YeM6K6p55So5oi35pi+5byP6YCJ5Z+O5biCIC8g55So5a6a5L2NIC8g5omL6L6TLCDmiorlr7nnmoTlnZDmoIfkuqTnu5nop5LoibLjgIIKICovCgpjb25zdCBDSVRJRVM6IEFycmF5PHsgbmFtZTogc3RyaW5nOyBsbmc6IG51bWJlcjsgbGF0OiBudW1iZXI7IG5vdGU/OiBzdHJpbmcgfT4gPSBbCiAgICB7IG5hbWU6ICfljJfkuqzCt0FJ54K55Y2V5rWL6K+V5bqXJywgbG5nOiAxMTYuMzkyNDM1LCBsYXQ6IDM5Ljk4MjM3Niwgbm90ZTogJ+aWh+aho+ekuuS+i+mXqOW6lywg5rWL6K+V6aaW6YCJJyB9LAogICAgeyBuYW1lOiAn5YyX5LqsJywgbG5nOiAxMTYuNDA3LCBsYXQ6IDM5LjkwNCB9LAogICAgeyBuYW1lOiAn5LiK5rW3JywgbG5nOiAxMjEuNDczLCBsYXQ6IDMxLjIzMCB9LAogICAgeyBuYW1lOiAn5bm/5beeJywgbG5nOiAxMTMuMjY0LCBsYXQ6IDIzLjEyOSB9LAogICAgeyBuYW1lOiAn5rex5ZyzJywgbG5nOiAxMTQuMDU3LCBsYXQ6IDIyLjU0MyB9LAogICAgeyBuYW1lOiAn5p2t5beeJywgbG5nOiAxMjAuMTU1LCBsYXQ6IDMwLjI3NCB9LAogICAgeyBuYW1lOiAn5oiQ6YO9JywgbG5nOiAxMDQuMDY2LCBsYXQ6IDMwLjU3MiB9LAogICAgeyBuYW1lOiAn5Y2X5LqsJywgbG5nOiAxMTguNzk3LCBsYXQ6IDMyLjA2MCB9LAogICAgeyBuYW1lOiAn5q2m5rGJJywgbG5nOiAxMTQuMzA1LCBsYXQ6IDMwLjU5MyB9LApdOwoKY29uc3QgTHVja2luTG9jYXRpb25Nb2RhbDogUmVhY3QuRkM8ewogICAgb3BlbjogYm9vbGVhbjsKICAgIG9uQ2xvc2U6ICgpID0+IHZvaWQ7CiAgICBvblBpY2s6IChsbmc6IG51bWJlciwgbGF0OiBudW1iZXIsIGNpdHlOYW1lPzogc3RyaW5nKSA9PiB2b2lkOwp9PiA9ICh7IG9wZW4sIG9uQ2xvc2UsIG9uUGljayB9KSA9PiB7CiAgICBjb25zdCBbbG9jYXRpbmcsIHNldExvY2F0aW5nXSA9IHVzZVN0YXRlKGZhbHNlKTsKICAgIGNvbnN0IFtlcnIsIHNldEVycl0gPSB1c2VTdGF0ZTxzdHJpbmcgfCBudWxsPihudWxsKTsKICAgIGNvbnN0IFtsbmcsIHNldExuZ10gPSB1c2VTdGF0ZSgnJyk7CiAgICBjb25zdCBbbGF0LCBzZXRMYXRdID0gdXNlU3RhdGUoJycpOwogICAgY29uc3QgW2dlbywgc2V0R2VvXSA9IHVzZVN0YXRlPHsgbG5nOiBudW1iZXI7IGxhdDogbnVtYmVyOyBhY2M6IG51bWJlciB9IHwgbnVsbD4obnVsbCk7CgogICAgaWYgKCFvcGVuKSByZXR1cm4gbnVsbDsKCiAgICBjb25zdCB1c2VHZW8gPSBhc3luYyAoKSA9PiB7CiAgICAgICAgc2V0TG9jYXRpbmcodHJ1ZSk7IHNldEVycihudWxsKTsgc2V0R2VvKG51bGwpOwogICAgICAgIHRyeSB7CiAgICAgICAgICAgIGNvbnN0IHIgPSBhd2FpdCBnZXRDdXJyZW50UG9zaXRpb25TbWFydCgpOyAvLyDljp/nlJ/otbAgQ2FwYWNpdG9yIOaPkuS7tijlvLnmnYPpmZApLCDmtY/op4jlmajotbAgbmF2aWdhdG9yCiAgICAgICAgICAgIHNldEdlbyh7IGxuZzogci5sb25naXR1ZGUsIGxhdDogci5sYXRpdHVkZSwgYWNjOiByLmFjY3VyYWN5IH0pOwogICAgICAgIH0gY2F0Y2ggKGU6IGFueSkgewogICAgICAgICAgICBzZXRFcnIoZT8ubWVzc2FnZSB8fCAn5a6a5L2N5aSx6LSlLCDnm7TmjqXpgInln47luILkuZ/ooYwnKTsKICAgICAgICB9IGZpbmFsbHkgewogICAgICAgICAgICBzZXRMb2NhdGluZyhmYWxzZSk7CiAgICAgICAgfQogICAgfTsKCiAgICBjb25zdCBzdWJtaXRNYW51YWwgPSAoKSA9PiB7CiAgICAgICAgY29uc3QgYSA9IHBhcnNlRmxvYXQobG5nKSwgYiA9IHBhcnNlRmxvYXQobGF0KTsKICAgICAgICBpZiAoIWlzRmluaXRlKGEpIHx8ICFpc0Zpbml0ZShiKSkgeyBzZXRFcnIoJ+e7j+e6rOW6puagvOW8j+S4jeWvuScpOyByZXR1cm47IH0KICAgICAgICBvblBpY2soYSwgYiwgJ+iHquWumuS5ieWdkOaghycpOwogICAgfTsKCiAgICByZXR1cm4gKAogICAgICAgIDxkaXYgY2xhc3NOYW1lPSJmaXhlZCBpbnNldC0wIHotWzcwXSBiZy1ibGFjay80MCBmbGV4IGl0ZW1zLWNlbnRlciBqdXN0aWZ5LWNlbnRlciBwLTQiIG9uQ2xpY2s9e29uQ2xvc2V9PgogICAgICAgICAgICA8ZGl2IGNsYXNzTmFtZT0iYmctZ3JhZGllbnQtdG8tYiBmcm9tLVsjRkFGN0YwXSB0by1bI0YzRUZFNl0gdy1mdWxsIHNtOm1heC13LXNtIHJvdW5kZWQtMnhsIG92ZXJmbG93LWhpZGRlbiBzaGFkb3ctMnhsIGZsZXggZmxleC1jb2wiIHN0eWxlPXt7IG1heEhlaWdodDogJ2NhbGMoMTAwZHZoIC0gdmFyKC0tc2FmZS10b3AsIDBweCkgLSB2YXIoLS1zYWZlLWJvdHRvbSwgMHB4KSAtIDJyZW0pJyB9fSBvbkNsaWNrPXtlID0+IGUuc3RvcFByb3BhZ2F0aW9uKCl9PgogICAgICAgICAgICAgICAgPGRpdiBjbGFzc05hbWU9ImZsZXggaXRlbXMtY2VudGVyIGp1c3RpZnktYmV0d2VlbiBweC00IHB5LTMgYmctZ3JhZGllbnQtdG8tciBmcm9tLVsjMEIxRjNBXSB0by1bIzFFNEQ4Q10gcm91bmRlZC10LTJ4bCI+CiAgICAgICAgICAgICAgICAgICAgPGRpdiBjbGFzc05hbWU9ImZsZXggaXRlbXMtY2VudGVyIGdhcC0yIj4KICAgICAgICAgICAgICAgICAgICAgICAgPHNwYW4gY2xhc3NOYW1lPSJ0ZXh0LXhsIj7wn6aMPC9zcGFuPgogICAgICAgICAgICAgICAgICAgICAgICA8ZGl2PgogICAgICAgICAgICAgICAgICAgICAgICAgICAgPGRpdiBjbGFzc05hbWU9InRleHQtWzEzcHhdIGZvbnQtYm9sZCB0ZXh0LXdoaXRlIj7nkZ7kuIDmna8gwrcg5L2g5Zyo5ZOq5YS/77yfPC9kaXY+CiAgICAgICAgICAgICAgICAgICAgICAgICAgICA8ZGl2IGNsYXNzTmFtZT0idGV4dC1bOXB4XSB0ZXh0LXdoaXRlLzcwIj7nkZ7lubjmjInkvY3nva7mn6Xpl6jlupcsIOmAieS4quWfjuW4guiuqSB0YSDluK7kvaDngrk8L2Rpdj4KICAgICAgICAgICAgICAgICAgICAgICAgPC9kaXY+CiAgICAgICAgICAgICAgICAgICAgPC9kaXY+CiAgICAgICAgICAgICAgICAgICAgPGJ1dHRvbiBvbkNsaWNrPXtvbkNsb3NlfSBjbGFzc05hbWU9InctOCBoLTggcm91bmRlZC1mdWxsIGJnLXdoaXRlLzIwIGZsZXggaXRlbXMtY2VudGVyIGp1c3RpZnktY2VudGVyIHRleHQtd2hpdGUgYWN0aXZlOnNjYWxlLTkwIj7inJU8L2J1dHRvbj4KICAgICAgICAgICAgICAgIDwvZGl2PgoKICAgICAgICAgICAgICAgIDxkaXYgY2xhc3NOYW1lPSJmbGV4LTEgb3ZlcmZsb3cteS1hdXRvIHAtMyBzcGFjZS15LTMiPgogICAgICAgICAgICAgICAgICAgIDxidXR0b24gb25DbGljaz17dXNlR2VvfSBkaXNhYmxlZD17bG9jYXRpbmd9CiAgICAgICAgICAgICAgICAgICAgICAgIGNsYXNzTmFtZT0idy1mdWxsIHAtMyByb3VuZGVkLXhsIGJnLXdoaXRlIGJvcmRlciBib3JkZXItWyNFNkRGQ0ZdIHRleHQtWzEzcHhdIGZvbnQtYm9sZCB0ZXh0LVsjMEIxRjNBXSBhY3RpdmU6c2NhbGUtWzAuOThdIGRpc2FibGVkOm9wYWNpdHktNjAiPgogICAgICAgICAgICAgICAgICAgICAgICB7bG9jYXRpbmcgPyAn5a6a5L2N5Lit4oCmJyA6ICfwn5OhIOeUqOaIkeeahOWumuS9jSd9CiAgICAgICAgICAgICAgICAgICAgICAgIDxzcGFuIGNsYXNzTmFtZT0iYmxvY2sgdGV4dC1bMTBweF0gZm9udC1ub3JtYWwgdGV4dC1zbGF0ZS00MDAgbXQtMC41Ij7lvIDkuobmiYvmnLrnsr7noa7lrprkvY3otbAgR1BTLCDmoq/lrZDkuI3lvbHlk407IOWFs+S6huS8mumAgOWbniBJUCDlrprkvY0sIOWPr+iDveiiq+air+WtkOW4puWBjzwvc3Bhbj4KICAgICAgICAgICAgICAgICAgICA8L2J1dHRvbj4KCiAgICAgICAgICAgICAgICAgICAge2VyciAmJiA8ZGl2IGNsYXNzTmFtZT0idGV4dC1bMTFweF0gdGV4dC1yZWQtNjAwIGJnLXJlZC01MCByb3VuZGVkLWxnIHAtMiI+e2Vycn08L2Rpdj59CgogICAgICAgICAgICAgICAgICAgIHtnZW8gJiYgKCgpID0+IHsKICAgICAgICAgICAgICAgICAgICAgICAgY29uc3QgYWNjS20gPSBnZW8uYWNjIC8gMTAwMDsKICAgICAgICAgICAgICAgICAgICAgICAgY29uc3QgcG9vciA9IGdlby5hY2MgPiAyMDAwOyAvLyA+MmttIOWfuuacrOaYryBJUC9XaUZpIOWFnOW6lSAo5Y+v6IO96KKr5qKv5a2Q5bim5YGPKQogICAgICAgICAgICAgICAgICAgICAgICByZXR1cm4gKAogICAgICAgICAgICAgICAgICAgICAgICAgICAgPGRpdiBjbGFzc05hbWU9e2Byb3VuZGVkLXhsIHAtMi41IGJvcmRlciAke3Bvb3IgPyAnYmctYW1iZXItNTAgYm9yZGVyLWFtYmVyLTIwMCcgOiAnYmctZW1lcmFsZC01MCBib3JkZXItZW1lcmFsZC0yMDAnfWB9PgogICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgIDxkaXYgY2xhc3NOYW1lPSJ0ZXh0LVsxMXB4XSBmb250LWJvbGQgdGV4dC1zbGF0ZS03MDAiPgogICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICB7cG9vciA/ICfimqDvuI8g5a6a5L2N57K+5bqm6L6D5L2OJyA6ICfinIUg5a6a5L2N5oiQ5YqfJ30gwrcg57K+5bqmIMKxe2dlby5hY2MgPj0gMTAwMCA/IGAke2FjY0ttLnRvRml4ZWQoMSl9a21gIDogYCR7TWF0aC5yb3VuZChnZW8uYWNjKX1tYH0KICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICA8L2Rpdj4KICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICA8ZGl2IGNsYXNzTmFtZT0idGV4dC1bMTBweF0gdGV4dC1zbGF0ZS01MDAgZm9udC1tb25vIG10LTAuNSI+e2dlby5sYXQudG9GaXhlZCg1KX0sIHtnZW8ubG5nLnRvRml4ZWQoNSl9PC9kaXY+CiAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAge3Bvb3IgJiYgPGRpdiBjbGFzc05hbWU9InRleHQtWzEwcHhdIHRleHQtYW1iZXItNzAwIG10LTEgbGVhZGluZy1zbnVnIj7ov5nlpJrljYrmmK8gSVAg5a6a5L2NICjlj6/og73ooqvmoq/lrZDluKblgY8p44CC6KaB5LmI5byA5omL5py657K+56Gu5a6a5L2N6YeN6K+VLCDopoHkuYjnm7TmjqXpgInkuIvpnaLln47luILjgII8L2Rpdj59CiAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgPGJ1dHRvbiBvbkNsaWNrPXsoKSA9PiBvblBpY2soZ2VvLmxuZywgZ2VvLmxhdCwgcG9vciA/ICfmiJHnmoTlrprkvY0o57KX55WlKScgOiAn5oiR55qE5a6a5L2NJyl9CiAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgIGNsYXNzTmFtZT0ibXQtMS41IHctZnVsbCBweS0xLjUgYmctWyMwQjFGM0FdIHRleHQtd2hpdGUgdGV4dC1bMTJweF0gZm9udC1ib2xkIHJvdW5kZWQtbGcgYWN0aXZlOnNjYWxlLTk1Ij4KICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAg5bCx55So6L+Z5Liq5a6a5L2NCiAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgPC9idXR0b24+CiAgICAgICAgICAgICAgICAgICAgICAgICAgICA8L2Rpdj4KICAgICAgICAgICAgICAgICAgICAgICAgKTsKICAgICAgICAgICAgICAgICAgICB9KSgpfQoKICAgICAgICAgICAgICAgICAgICA8ZGl2PgogICAgICAgICAgICAgICAgICAgICAgICA8ZGl2IGNsYXNzTmFtZT0idGV4dC1bMTFweF0gZm9udC1ib2xkIHRleHQtWyMwQjFGM0FdLzYwIG1iLTEuNSI+6YCJ5Z+O5biCPC9kaXY+CiAgICAgICAgICAgICAgICAgICAgICAgIDxkaXYgY2xhc3NOYW1lPSJncmlkIGdyaWQtY29scy0yIGdhcC0yIj4KICAgICAgICAgICAgICAgICAgICAgICAgICAgIHtDSVRJRVMubWFwKChjKSA9PiAoCiAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgPGJ1dHRvbiBrZXk9e2MubmFtZX0gb25DbGljaz17KCkgPT4gb25QaWNrKGMubG5nLCBjLmxhdCwgYy5uYW1lKX0KICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgY2xhc3NOYW1lPSJwLTIgcm91bmRlZC14bCBiZy13aGl0ZSBib3JkZXIgYm9yZGVyLVsjRTZERkNGXSB0ZXh0LWxlZnQgYWN0aXZlOnNjYWxlLTk1IGFjdGl2ZTpiZy1bI0ZBRjdGMF0iPgogICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICA8ZGl2IGNsYXNzTmFtZT0idGV4dC1bMTJweF0gZm9udC1ib2xkIHRleHQtWyMxNjM4NkZdIj57Yy5uYW1lfTwvZGl2PgogICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICB7Yy5ub3RlICYmIDxkaXYgY2xhc3NOYW1lPSJ0ZXh0LVs5cHhdIHRleHQtWyNCODg2MEJdIj57Yy5ub3RlfTwvZGl2Pn0KICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICA8L2J1dHRvbj4KICAgICAgICAgICAgICAgICAgICAgICAgICAgICkpfQogICAgICAgICAgICAgICAgICAgICAgICA8L2Rpdj4KICAgICAgICAgICAgICAgICAgICA8L2Rpdj4KCiAgICAgICAgICAgICAgICAgICAgPGRldGFpbHMgY2xhc3NOYW1lPSJ0ZXh0LVsxMXB4XSB0ZXh0LXNsYXRlLTUwMCI+CiAgICAgICAgICAgICAgICAgICAgICAgIDxzdW1tYXJ5IGNsYXNzTmFtZT0iY3Vyc29yLXBvaW50ZXIgdGV4dC1bIzE2Mzg2Rl0iPuaJi+WKqOi+k+WFpee7j+e6rOW6pjwvc3VtbWFyeT4KICAgICAgICAgICAgICAgICAgICAgICAgPGRpdiBjbGFzc05hbWU9ImZsZXggZ2FwLTIgbXQtMiI+CiAgICAgICAgICAgICAgICAgICAgICAgICAgICA8aW5wdXQgdmFsdWU9e2xuZ30gb25DaGFuZ2U9e2UgPT4gc2V0TG5nKGUudGFyZ2V0LnZhbHVlKX0gcGxhY2Vob2xkZXI9Iue7j+W6piBsbmciIGNsYXNzTmFtZT0iZmxleC0xIGJnLXdoaXRlIGJvcmRlciBib3JkZXItWyNFNkRGQ0ZdIHJvdW5kZWQtbGcgcHgtMiBweS0xLjUgdGV4dC1bMTJweF0iIC8+CiAgICAgICAgICAgICAgICAgICAgICAgICAgICA8aW5wdXQgdmFsdWU9e2xhdH0gb25DaGFuZ2U9e2UgPT4gc2V0TGF0KGUudGFyZ2V0LnZhbHVlKX0gcGxhY2Vob2xkZXI9Iue6rOW6piBsYXQiIGNsYXNzTmFtZT0iZmxleC0xIGJnLXdoaXRlIGJvcmRlciBib3JkZXItWyNFNkRGQ0ZdIHJvdW5kZWQtbGcgcHgtMiBweS0xLjUgdGV4dC1bMTJweF0iIC8+CiAgICAgICAgICAgICAgICAgICAgICAgICAgICA8YnV0dG9uIG9uQ2xpY2s9e3N1Ym1pdE1hbnVhbH0gY2xhc3NOYW1lPSJweC0zIGJnLVsjMEIxRjNBXSB0ZXh0LXdoaXRlIHJvdW5kZWQtbGcgdGV4dC1bMTJweF0gZm9udC1ib2xkIGFjdGl2ZTpzY2FsZS05NSI+55SoPC9idXR0b24+CiAgICAgICAgICAgICAgICAgICAgICAgIDwvZGl2PgogICAgICAgICAgICAgICAgICAgIDwvZGV0YWlscz4KICAgICAgICAgICAgICAgIDwvZGl2PgogICAgICAgICAgICA8L2Rpdj4KICAgICAgICA8L2Rpdj4KICAgICk7Cn07CgpleHBvcnQgZGVmYXVsdCBMdWNraW5Mb2NhdGlvbk1vZGFsOwo=
+import React, { useState } from 'react';
+import { getCurrentPositionSmart } from '../../utils/geo';
+
+/**
+ * 瑞幸定位选择 (点"瑞一杯"时弹出)
+ *
+ * queryShopList / createOrder 的经纬度必填。浏览器/容器抓到的 GPS 常常是机房位置
+ * (实测拿到新加坡), 所以这里让用户显式选城市 / 用定位 / 手输, 把对的坐标交给角色。
+ */
+
+const CITIES: Array<{ name: string; lng: number; lat: number; note?: string }> = [
+    { name: '北京·AI点单测试店', lng: 116.392435, lat: 39.982376, note: '文档示例门店, 测试首选' },
+    { name: '北京', lng: 116.407, lat: 39.904 },
+    { name: '上海', lng: 121.473, lat: 31.230 },
+    { name: '广州', lng: 113.264, lat: 23.129 },
+    { name: '深圳', lng: 114.057, lat: 22.543 },
+    { name: '杭州', lng: 120.155, lat: 30.274 },
+    { name: '成都', lng: 104.066, lat: 30.572 },
+    { name: '南京', lng: 118.797, lat: 32.060 },
+    { name: '武汉', lng: 114.305, lat: 30.593 },
+];
+
+const LuckinLocationModal: React.FC<{
+    open: boolean;
+    onClose: () => void;
+    onPick: (lng: number, lat: number, cityName?: string) => void;
+}> = ({ open, onClose, onPick }) => {
+    const [locating, setLocating] = useState(false);
+    const [err, setErr] = useState<string | null>(null);
+    const [lng, setLng] = useState('');
+    const [lat, setLat] = useState('');
+    const [geo, setGeo] = useState<{ lng: number; lat: number; acc: number } | null>(null);
+
+    if (!open) return null;
+
+    const useGeo = async () => {
+        setLocating(true); setErr(null); setGeo(null);
+        try {
+            const r = await getCurrentPositionSmart(); // 原生走 Capacitor 插件(弹权限), 浏览器走 navigator
+            setGeo({ lng: r.longitude, lat: r.latitude, acc: r.accuracy });
+        } catch (e: any) {
+            setErr(e?.message || '定位失败, 直接选城市也行');
+        } finally {
+            setLocating(false);
+        }
+    };
+
+    const submitManual = () => {
+        const a = parseFloat(lng), b = parseFloat(lat);
+        if (!isFinite(a) || !isFinite(b)) { setErr('经纬度格式不对'); return; }
+        onPick(a, b, '自定义坐标');
+    };
+
+    return (
+        <div className="fixed inset-0 z-[70] bg-black/40 flex items-center justify-center p-4" onClick={onClose}>
+            <div className="bg-gradient-to-b from-[#FAF7F0] to-[#F3EFE6] w-full sm:max-w-sm rounded-2xl overflow-hidden shadow-2xl flex flex-col" style={{ maxHeight: 'calc(100dvh - var(--safe-top, 0px) - var(--safe-bottom, 0px) - 2rem)' }} onClick={e => e.stopPropagation()}>
+                <div className="flex items-center justify-between px-4 py-3 bg-gradient-to-r from-[#0B1F3A] to-[#1E4D8C] rounded-t-2xl">
+                    <div className="flex items-center gap-2">
+                        <span className="text-xl">🦌</span>
+                        <div>
+                            <div className="text-[13px] font-bold text-white">瑞一杯 · 你在哪儿？</div>
+                            <div className="text-[9px] text-white/70">瑞幸按位置查门店, 选个城市让 ta 帮你点</div>
+                        </div>
+                    </div>
+                    <button onClick={onClose} className="w-8 h-8 rounded-full bg-white/20 flex items-center justify-center text-white active:scale-90">✕</button>
+                </div>
+
+                <div className="flex-1 overflow-y-auto p-3 space-y-3">
+                    <button onClick={useGeo} disabled={locating}
+                        className="w-full p-3 rounded-xl bg-white border border-[#E6DFCF] text-[13px] font-bold text-[#0B1F3A] active:scale-[0.98] disabled:opacity-60">
+                        {locating ? '定位中…' : '📡 用我的定位'}
+                        <span className="block text-[10px] font-normal text-slate-400 mt-0.5">开了手机精确定位走 GPS, 梯子不影响; 关了会退回 IP 定位, 可能被梯子带偏</span>
+                    </button>
+
+                    {err && <div className="text-[11px] text-red-600 bg-red-50 rounded-lg p-2">{err}</div>}
+
+                    {geo && (() => {
+                        const accKm = geo.acc / 1000;
+                        const poor = geo.acc > 2000; // >2km 基本是 IP/WiFi 兜底 (可能被梯子带偏)
+                        return (
+                            <div className={`rounded-xl p-2.5 border ${poor ? 'bg-amber-50 border-amber-200' : 'bg-emerald-50 border-emerald-200'}`}>
+                                <div className="text-[11px] font-bold text-slate-700">
+                                    {poor ? '⚠️ 定位精度较低' : '✅ 定位成功'} · 精度 ±{geo.acc >= 1000 ? `${accKm.toFixed(1)}km` : `${Math.round(geo.acc)}m`}
+                                </div>
+                                <div className="text-[10px] text-slate-500 font-mono mt-0.5">{geo.lat.toFixed(5)}, {geo.lng.toFixed(5)}</div>
+                                {poor && <div className="text-[10px] text-amber-700 mt-1 leading-snug">这多半是 IP 定位 (可能被梯子带偏)。要么开手机精确定位重试, 要么直接选下面城市。</div>}
+                                <button onClick={() => onPick(geo.lng, geo.lat, poor ? '我的定位(粗略)' : '我的定位')}
+                                    className="mt-1.5 w-full py-1.5 bg-[#0B1F3A] text-white text-[12px] font-bold rounded-lg active:scale-95">
+                                    就用这个定位
+                                </button>
+                            </div>
+                        );
+                    })()}
+
+                    <div>
+                        <div className="text-[11px] font-bold text-[#0B1F3A]/60 mb-1.5">选城市</div>
+                        <div className="grid grid-cols-2 gap-2">
+                            {CITIES.map((c) => (
+                                <button key={c.name} onClick={() => onPick(c.lng, c.lat, c.name)}
+                                    className="p-2 rounded-xl bg-white border border-[#E6DFCF] text-left active:scale-95 active:bg-[#FAF7F0]">
+                                    <div className="text-[12px] font-bold text-[#16386F]">{c.name}</div>
+                                    {c.note && <div className="text-[9px] text-[#B8860B]">{c.note}</div>}
+                                </button>
+                            ))}
+                        </div>
+                    </div>
+
+                    <details className="text-[11px] text-slate-500">
+                        <summary className="cursor-pointer text-[#16386F]">手动输入经纬度</summary>
+                        <div className="flex gap-2 mt-2">
+                            <input value={lng} onChange={e => setLng(e.target.value)} placeholder="经度 lng" className="flex-1 bg-white border border-[#E6DFCF] rounded-lg px-2 py-1.5 text-[12px]" />
+                            <input value={lat} onChange={e => setLat(e.target.value)} placeholder="纬度 lat" className="flex-1 bg-white border border-[#E6DFCF] rounded-lg px-2 py-1.5 text-[12px]" />
+                            <button onClick={submitManual} className="px-3 bg-[#0B1F3A] text-white rounded-lg text-[12px] font-bold active:scale-95">用</button>
+                        </div>
+                    </details>
+                </div>
+            </div>
+        </div>
+    );
+};
+
+export default LuckinLocationModal;

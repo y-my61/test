@@ -1,1 +1,225 @@
-LyoqCiAqIEFjdGlvblBhbmVsIOKAlCDooYzliqjpnaLmnb8gKHJldHJvIGRpYWxvZyBib3ggc3R5bGUpCiAqLwoKaW1wb3J0IFJlYWN0LCB7IHVzZVN0YXRlIH0gZnJvbSAncmVhY3QnOwppbXBvcnQgeyBMaWZlU2ltU3RhdGUsIFNpbUV2ZW50VHlwZSB9IGZyb20gJy4uLy4uL3R5cGVzJzsKaW1wb3J0IHsKICAgIE1hc2tIYXBweSwgVXNlclBsdXMsIExpZ2h0bmluZywgQ2hlY2tDaXJjbGUsCn0gZnJvbSAnQHBob3NwaG9yLWljb25zL3JlYWN0JzsKaW1wb3J0IHsgTlBDQXZhdGFyLCBJY29uRmlnaHQsIEljb25QYXJ0eSwgSWNvblJvbWFuY2UsIEljb25Hb3NzaXAsIEljb25SaXZhbHJ5LCBJY29uQWxsaWFuY2UgfSBmcm9tICcuLi8uLi91dGlscy9zdHlsZWRJY29ucyc7Cgpjb25zdCBFVkVOVF9UWVBFUzogeyB0eXBlOiBTaW1FdmVudFR5cGU7IGxhYmVsOiBzdHJpbmc7IEljb246IFJlYWN0LkZDPHsgc2l6ZT86IG51bWJlciB9PiB9W10gPSBbCiAgICB7IHR5cGU6ICdmaWdodCcsIGxhYmVsOiAn5ZC15p62JywgSWNvbjogSWNvbkZpZ2h0IH0sCiAgICB7IHR5cGU6ICdwYXJ0eScsIGxhYmVsOiAn6IGU6LCKJywgSWNvbjogSWNvblBhcnR5IH0sCiAgICB7IHR5cGU6ICdyb21hbmNlJywgbGFiZWw6ICfmmqfmmKcnLCBJY29uOiBJY29uUm9tYW5jZSB9LAogICAgeyB0eXBlOiAnZ29zc2lwJywgbGFiZWw6ICfor7Tpl7Lor50nLCBJY29uOiBJY29uR29zc2lwIH0sCiAgICB7IHR5cGU6ICdyaXZhbHJ5JywgbGFiZWw6ICfnq57kuoknLCBJY29uOiBJY29uUml2YWxyeSB9LAogICAgeyB0eXBlOiAnYWxsaWFuY2UnLCBsYWJlbDogJ+e7k+ebnycsIEljb246IEljb25BbGxpYW5jZSB9LApdOwoKY29uc3QgTlBDX1BFUlNPTkFMSVRZX09QVElPTlMgPSBbCiAgICAn56S+54mbJywn56S+5oGQJywn5Y23546LJywn5pG46bG8Jywn5paH6Z2SJywn6K+d6aKY5aWz546LJywn6IGM5Zy657K+6IuxJywn5pqW55S3L+aaluWlsycsCiAgICAn5Y+b6YCGJywn57K+6Ie0Jywn54us56uLJywn6Ieq5oGLJywn5L2b57O7Jywn54Sm6JmRJywn5YWr5Y2mJywn6auY5Ya3Jywn5LiK6L+bJywKICAgICfmnInlk4HlkbMnLCfmtojmga/ngbXpgJonLCfnm67moIfmmI7noa4nLCfng63lv4MnLCfogIHlpb3kuronLCfkuI3mjInluLjnkIblh7rniYwnLCflpJbosozljY/kvJonLApdOwoKY29uc3QgTlBDX1NUWUxFX09QVElPTlMgPSBbJ0EnLCdCJywnQycsJ0QnLCdFJywnRicsJ0cnLCdIJywnSScsJ0onLCdLJywnTCcsJ00nLCdOJywnTycsJ1AnLCdRJywnUicsJ1MnLCdUJywnVScsJ1YnLCdXJywnWCcsJ1knXTsKCmV4cG9ydCBpbnRlcmZhY2UgU3RpckFjdGlvbiB7CiAgICBldmVudFR5cGU6IFNpbUV2ZW50VHlwZTsKICAgIGludm9sdmVkTnBjSWRzOiBzdHJpbmdbXTsKICAgIGV2ZW50RGVzYzogc3RyaW5nOwogICAgd29ybGRTdG9yeT86IGJvb2xlYW47Cn0KCmV4cG9ydCBpbnRlcmZhY2UgQWRkTnBjQWN0aW9uIHsKICAgIG5hbWU6IHN0cmluZzsKICAgIGVtb2ppOiBzdHJpbmc7CiAgICBwZXJzb25hbGl0aWVzOiBzdHJpbmdbXTsKICAgIGZhbWlseUlkOiBzdHJpbmc7Cn0KCmNvbnN0IEFjdGlvblBhbmVsOiBSZWFjdC5GQzx7CiAgICBnYW1lU3RhdGU6IExpZmVTaW1TdGF0ZTsKICAgIG1vZGU6ICdzdGlyJyB8ICdhZGQnOwogICAgb25TdGlyOiAoYWN0aW9uOiBTdGlyQWN0aW9uKSA9PiB2b2lkOwogICAgb25BZGQ6IChhY3Rpb246IEFkZE5wY0FjdGlvbikgPT4gdm9pZDsKICAgIG9uQ2xvc2U6ICgpID0+IHZvaWQ7Cn0+ID0gKHsgZ2FtZVN0YXRlLCBtb2RlLCBvblN0aXIsIG9uQWRkLCBvbkNsb3NlIH0pID0+IHsKCiAgICBjb25zdCBbZXZlbnRUeXBlLCBzZXRFdmVudFR5cGVdID0gdXNlU3RhdGU8U2ltRXZlbnRUeXBlPignZmlnaHQnKTsKICAgIGNvbnN0IFtldmVudERlc2MsIHNldEV2ZW50RGVzY10gPSB1c2VTdGF0ZSgnJyk7CiAgICBjb25zdCBbbnBjTmFtZSwgc2V0TnBjTmFtZV0gPSB1c2VTdGF0ZSgnJyk7CiAgICBjb25zdCBbbnBjRW1vamksIHNldE5wY0Vtb2ppXSA9IHVzZVN0YXRlKE5QQ19TVFlMRV9PUFRJT05TWzBdKTsKICAgIGNvbnN0IFtwZXJzb25hbGl0aWVzLCBzZXRQZXJzb25hbGl0aWVzXSA9IHVzZVN0YXRlPHN0cmluZ1tdPihbXSk7CiAgICBjb25zdCBbZmFtaWx5SWQsIHNldEZhbWlseUlkXSA9IHVzZVN0YXRlKCcnKTsKCiAgICBjb25zdCBoYW5kbGVTdGlyID0gKCkgPT4gewogICAgICAgIGNvbnN0IHNodWZmbGVkTnBjcyA9IFsuLi5nYW1lU3RhdGUubnBjc10uc29ydCgoKSA9PiBNYXRoLnJhbmRvbSgpIC0gMC41KTsKICAgICAgICBjb25zdCBhdXRvQ291bnQgPSBNYXRoLm1pbihzaHVmZmxlZE5wY3MubGVuZ3RoLCBNYXRoLmZsb29yKE1hdGgucmFuZG9tKCkgKiAyKSArIDIpOwogICAgICAgIGNvbnN0IGF1dG9JbnZvbHZlZCA9IHNodWZmbGVkTnBjcy5zbGljZSgwLCBhdXRvQ291bnQpLm1hcChuID0+IG4uaWQpOwogICAgICAgIG9uU3Rpcih7CiAgICAgICAgICAgIGV2ZW50VHlwZSwKICAgICAgICAgICAgaW52b2x2ZWROcGNJZHM6IGF1dG9JbnZvbHZlZCwKICAgICAgICAgICAgZXZlbnREZXNjOiBldmVudERlc2MgfHwgYCR7RVZFTlRfVFlQRVMuZmluZChlID0+IGUudHlwZSA9PT0gZXZlbnRUeXBlKT8ubGFiZWx95LqL5Lu2YCwKICAgICAgICAgICAgd29ybGRTdG9yeTogdHJ1ZSwKICAgICAgICB9KTsKICAgIH07CgogICAgY29uc3QgaGFuZGxlQWRkID0gKCkgPT4gewogICAgICAgIGlmICghZmFtaWx5SWQgfHwgIW5wY05hbWUudHJpbSgpIHx8IHBlcnNvbmFsaXRpZXMubGVuZ3RoID09PSAwKSB7CiAgICAgICAgICAgIGFsZXJ0KCfor7floavlhpnlkI3lrZfjgIHpgInmi6nmgKfmoLzjgIHlubbpgInmi6nlhaXkvY/lhazlr5PvvIEnKTsgcmV0dXJuOwogICAgICAgIH0KICAgICAgICBvbkFkZCh7IG5hbWU6IG5wY05hbWUudHJpbSgpLCBlbW9qaTogbnBjRW1vamksIHBlcnNvbmFsaXRpZXMsIGZhbWlseUlkIH0pOwogICAgfTsKCiAgICByZXR1cm4gKAogICAgICAgIDxkaXYgY2xhc3NOYW1lPSJhYnNvbHV0ZSBpbnNldC0wIHotNDAgZmxleCBpdGVtcy1lbmQganVzdGlmeS1jZW50ZXIiCiAgICAgICAgICAgIHN0eWxlPXt7IGJhY2tncm91bmQ6ICdyZ2JhKDAsMCwwLDAuMyknIH19CiAgICAgICAgICAgIG9uQ2xpY2s9e2UgPT4geyBpZiAoZS50YXJnZXQgPT09IGUuY3VycmVudFRhcmdldCkgb25DbG9zZSgpOyB9fT4KICAgICAgICAgICAgPGRpdiBjbGFzc05hbWU9InJldHJvLXdpbmRvdyB3LWZ1bGwgbXgtMiBtYi0yIiBzdHlsZT17ewogICAgICAgICAgICAgICAgbWF4SGVpZ2h0OiAnNzB2aCcsIGRpc3BsYXk6ICdmbGV4JywgZmxleERpcmVjdGlvbjogJ2NvbHVtbicsCiAgICAgICAgICAgICAgICBib3hTaGFkb3c6ICc0cHggNHB4IDBweCByZ2JhKDAsMCwwLDAuMiksIGluc2V0IDAgMCAwIDFweCByZ2JhKDI1NSwyNTUsMjU1LDAuNSknLAogICAgICAgICAgICB9fT4KICAgICAgICAgICAgICAgIHsvKiBUaXRsZWJhciAqL30KICAgICAgICAgICAgICAgIDxkaXYgY2xhc3NOYW1lPSJyZXRyby10aXRsZWJhciI+CiAgICAgICAgICAgICAgICAgICAgPHNwYW4gY2xhc3NOYW1lPSJmbGV4IGl0ZW1zLWNlbnRlciBnYXAtMSI+CiAgICAgICAgICAgICAgICAgICAgICAgIHttb2RlID09PSAnc3RpcicKICAgICAgICAgICAgICAgICAgICAgICAgICAgID8gPD48TWFza0hhcHB5IHNpemU9ezExfSB3ZWlnaHQ9ImJvbGQiIC8+IOaQheWxgCDigJQg5Yi26YCgRHJhbWE8Lz4KICAgICAgICAgICAgICAgICAgICAgICAgICAgIDogPD48VXNlclBsdXMgc2l6ZT17MTF9IHdlaWdodD0iYm9sZCIgLz4g5paw6YK75bGFIOKAlCDmkKzlhaU8Lz59CiAgICAgICAgICAgICAgICAgICAgPC9zcGFuPgogICAgICAgICAgICAgICAgICAgIDxzcGFuIGNsYXNzTmFtZT0icmV0cm8tZG90cyI+CiAgICAgICAgICAgICAgICAgICAgICAgIDxzcGFuIGNsYXNzTmFtZT0icmV0cm8tZG90IiBzdHlsZT17eyBiYWNrZ3JvdW5kOiAnI2Y4NzE3MScgfX0gb25DbGljaz17b25DbG9zZX0+w5c8L3NwYW4+CiAgICAgICAgICAgICAgICAgICAgPC9zcGFuPgogICAgICAgICAgICAgICAgPC9kaXY+CgogICAgICAgICAgICAgICAgey8qIENvbnRlbnQgKi99CiAgICAgICAgICAgICAgICA8ZGl2IGNsYXNzTmFtZT0ib3ZlcmZsb3cteS1hdXRvIG92ZXJmbG93LXgtaGlkZGVuIG5vLXNjcm9sbGJhciBmbGV4LTEiIHN0eWxlPXt7IHBhZGRpbmc6IDEwLCBtaW5XaWR0aDogMCB9fT4KCiAgICAgICAgICAgICAgICAgICAge21vZGUgPT09ICdzdGlyJyAmJiAoCiAgICAgICAgICAgICAgICAgICAgICAgIDxkaXYgY2xhc3NOYW1lPSJzcGFjZS15LTIuNSI+CiAgICAgICAgICAgICAgICAgICAgICAgICAgICA8ZGl2IGNsYXNzTmFtZT0icmV0cm8taW5zZXQiIHN0eWxlPXt7IHBhZGRpbmc6ICc1cHggOHB4JyB9fT4KICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICA8cCBzdHlsZT17eyBmb250U2l6ZTogOSwgY29sb3I6ICcjOGI2YmI4JywgbGluZUhlaWdodDogMS41IH19PgogICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICDpgInmi6nmkIXlsYDmlrnlvI/vvIzns7vnu5/lsIboh6rliqjljbflhaXnm7jlhbNOUEMKICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICA8L3A+CiAgICAgICAgICAgICAgICAgICAgICAgICAgICA8L2Rpdj4KCiAgICAgICAgICAgICAgICAgICAgICAgICAgICA8cCBzdHlsZT17eyBmb250U2l6ZTogMTAsIGZvbnRXZWlnaHQ6IDcwMCwgY29sb3I6ICcjNjY2JyB9fT7mkIXlsYDmlrnlvI88L3A+CiAgICAgICAgICAgICAgICAgICAgICAgICAgICA8ZGl2IGNsYXNzTmFtZT0iZ3JpZCBncmlkLWNvbHMtMyBnYXAtMSI+CiAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAge0VWRU5UX1RZUEVTLm1hcChldCA9PiAoCiAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgIDxidXR0b24ga2V5PXtldC50eXBlfSBvbkNsaWNrPXsoKSA9PiBzZXRFdmVudFR5cGUoZXQudHlwZSl9CiAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICBjbGFzc05hbWU9InJldHJvLWJ0biBmbGV4IGl0ZW1zLWNlbnRlciBqdXN0aWZ5LWNlbnRlciBnYXAtMSIKICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgIHN0eWxlPXt7CiAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgcGFkZGluZzogJzVweCA0cHgnLCBmb250U2l6ZTogMTAsCiAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgLi4uKGV2ZW50VHlwZSA9PT0gZXQudHlwZSA/IHsKICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgYmFja2dyb3VuZDogJ2xpbmVhci1ncmFkaWVudCgxODBkZWcsICNhNTk0ZDAsICM4YjdiYjgpJywKICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgY29sb3I6ICd3aGl0ZScsIGJvcmRlckNvbG9yOiAnIzhiN2JiOCcsCiAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgfSA6IHt9KSwKICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgIH19PgogICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgPGV0Lkljb24gc2l6ZT17MTJ9IC8+IHtldC5sYWJlbH0KICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgPC9idXR0b24+CiAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgKSl9CiAgICAgICAgICAgICAgICAgICAgICAgICAgICA8L2Rpdj4KCiAgICAgICAgICAgICAgICAgICAgICAgICAgICA8aW5wdXQgdmFsdWU9e2V2ZW50RGVzY30gb25DaGFuZ2U9e2UgPT4gc2V0RXZlbnREZXNjKGUudGFyZ2V0LnZhbHVlKX0KICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICBwbGFjZWhvbGRlcj0i5o+P6L+w5Ymn5oOF77yI5Y+v6YCJ77yJIgogICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgIHN0eWxlPXt7CiAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgIHdpZHRoOiAnMTAwJScsIHBhZGRpbmc6ICc1cHggOHB4JywgZm9udFNpemU6IDEwLAogICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICBiYWNrZ3JvdW5kOiAnd2hpdGUnLCBib3JkZXI6ICcycHggc29saWQgcmdiYSgwLDAsMCwwLjE1KScsCiAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgIGJvcmRlclJhZGl1czogNCwgb3V0bGluZTogJ25vbmUnLCBjb2xvcjogJyMzMzMnLAogICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICBib3hTaGFkb3c6ICdpbnNldCAxcHggMXB4IDNweCByZ2JhKDAsMCwwLDAuMDgpJywKICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICB9fSAvPgoKICAgICAgICAgICAgICAgICAgICAgICAgICAgIDxidXR0b24gb25DbGljaz17aGFuZGxlU3Rpcn0KICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICBjbGFzc05hbWU9InJldHJvLWJ0biByZXRyby1idG4tcHJpbWFyeSB3LWZ1bGwgZmxleCBpdGVtcy1jZW50ZXIganVzdGlmeS1jZW50ZXIgZ2FwLTEiCiAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgc3R5bGU9e3sgcGFkZGluZzogJzdweCAxMnB4JyB9fT4KICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICA8TGlnaHRuaW5nIHNpemU9ezEyfSB3ZWlnaHQ9ImJvbGQiIC8+IOaQheWKqOS4lueVjO+8gQogICAgICAgICAgICAgICAgICAgICAgICAgICAgPC9idXR0b24+CiAgICAgICAgICAgICAgICAgICAgICAgIDwvZGl2PgogICAgICAgICAgICAgICAgICAgICl9CgogICAgICAgICAgICAgICAgICAgIHttb2RlID09PSAnYWRkJyAmJiAoCiAgICAgICAgICAgICAgICAgICAgICAgIDxkaXYgY2xhc3NOYW1lPSJzcGFjZS15LTIiPgogICAgICAgICAgICAgICAgICAgICAgICAgICAgPHAgc3R5bGU9e3sgZm9udFNpemU6IDEwLCBmb250V2VpZ2h0OiA3MDAsIGNvbG9yOiAnIzY2NicgfX0+5ZCN5a2XPC9wPgogICAgICAgICAgICAgICAgICAgICAgICAgICAgPGlucHV0IHZhbHVlPXtucGNOYW1lfSBvbkNoYW5nZT17ZSA9PiBzZXROcGNOYW1lKGUudGFyZ2V0LnZhbHVlKX0KICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICBwbGFjZWhvbGRlcj0i57uZVEHlj5bkuKrlkI3lrZciCiAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgc3R5bGU9e3sKICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgd2lkdGg6ICcxMDAlJywgcGFkZGluZzogJzVweCA4cHgnLCBmb250U2l6ZTogMTAsCiAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgIGJhY2tncm91bmQ6ICd3aGl0ZScsIGJvcmRlcjogJzJweCBzb2xpZCByZ2JhKDAsMCwwLDAuMTUpJywKICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgYm9yZGVyUmFkaXVzOiA0LCBvdXRsaW5lOiAnbm9uZScsIGNvbG9yOiAnIzMzMycsCiAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgIGJveFNoYWRvdzogJ2luc2V0IDFweCAxcHggM3B4IHJnYmEoMCwwLDAsMC4wOCknLAogICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgIH19IC8+CgogICAgICAgICAgICAgICAgICAgICAgICAgICAgPHAgc3R5bGU9e3sgZm9udFNpemU6IDEwLCBmb250V2VpZ2h0OiA3MDAsIGNvbG9yOiAnIzY2NicgfX0+5aS05YOP6aOO5qC8PC9wPgogICAgICAgICAgICAgICAgICAgICAgICAgICAgPGRpdiBjbGFzc05hbWU9ImZsZXggZmxleC13cmFwIGdhcC0xIj4KICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICB7TlBDX1NUWUxFX09QVElPTlMubWFwKGUgPT4gKAogICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICA8YnV0dG9uIGtleT17ZX0gb25DbGljaz17KCkgPT4gc2V0TnBjRW1vamkoZSl9CiAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICBzdHlsZT17ewogICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgIGJvcmRlclJhZGl1czogNCwgb3ZlcmZsb3c6ICdoaWRkZW4nLCBwYWRkaW5nOiAyLAogICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgIGJvcmRlcjogbnBjRW1vamkgPT09IGUgPyAnMnB4IHNvbGlkICM4YjdiYjgnIDogJzJweCBzb2xpZCB0cmFuc3BhcmVudCcsCiAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgYmFja2dyb3VuZDogbnBjRW1vamkgPT09IGUgPyAncmdiYSgxMzksMTIzLDE4NCwwLjE1KScgOiAndHJhbnNwYXJlbnQnLAogICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgfX0+CiAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICA8TlBDQXZhdGFyIG5hbWU9e2UgKyAobnBjTmFtZSB8fCAnTlBDJyl9IHNpemU9ezIyfSBjbGFzc05hbWU9InJvdW5kZWQiIC8+CiAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgIDwvYnV0dG9uPgogICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICkpfQogICAgICAgICAgICAgICAgICAgICAgICAgICAgPC9kaXY+CgogICAgICAgICAgICAgICAgICAgICAgICAgICAgPHAgc3R5bGU9e3sgZm9udFNpemU6IDEwLCBmb250V2VpZ2h0OiA3MDAsIGNvbG9yOiAnIzY2NicgfX0+5oCn5qC877yI6Iez5bCR6YCJMeS4qu+8iTwvcD4KICAgICAgICAgICAgICAgICAgICAgICAgICAgIDxkaXYgY2xhc3NOYW1lPSJmbGV4IGZsZXgtd3JhcCBnYXAtMSI+CiAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAge05QQ19QRVJTT05BTElUWV9PUFRJT05TLm1hcChwID0+IHsKICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgY29uc3Qgc2VsID0gcGVyc29uYWxpdGllcy5pbmNsdWRlcyhwKTsKICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgcmV0dXJuICgKICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgIDxidXR0b24ga2V5PXtwfSBvbkNsaWNrPXsoKSA9PiBzZXRQZXJzb25hbGl0aWVzKAogICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgIHNlbCA/IHBlcnNvbmFsaXRpZXMuZmlsdGVyKHggPT4geCAhPT0gcCkgOiBbLi4ucGVyc29uYWxpdGllcywgcF0KICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICl9IGNsYXNzTmFtZT0icmV0cm8tYnRuIiBzdHlsZT17ewogICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgIHBhZGRpbmc6ICcycHggOHB4JywgZm9udFNpemU6IDksCiAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgLi4uKHNlbCA/IHsKICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgYmFja2dyb3VuZDogJ2xpbmVhci1ncmFkaWVudCgxODBkZWcsICNhNTk0ZDAsICM4YjdiYjgpJywKICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgY29sb3I6ICd3aGl0ZScsIGJvcmRlckNvbG9yOiAnIzhiN2JiOCcsCiAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgfSA6IHt9KSwKICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgIH19PgogICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgIHtwfQogICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgPC9idXR0b24+CiAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICk7CiAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgfSl9CiAgICAgICAgICAgICAgICAgICAgICAgICAgICA8L2Rpdj4KCiAgICAgICAgICAgICAgICAgICAgICAgICAgICA8cCBzdHlsZT17eyBmb250U2l6ZTogMTAsIGZvbnRXZWlnaHQ6IDcwMCwgY29sb3I6ICcjNjY2JyB9fT7lhaXkvY/lhazlr5M8L3A+CiAgICAgICAgICAgICAgICAgICAgICAgICAgICA8ZGl2IGNsYXNzTmFtZT0iZ3JpZCBncmlkLWNvbHMtMiBnYXAtMSI+CiAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAge2dhbWVTdGF0ZS5mYW1pbGllcy5tYXAoZiA9PiAoCiAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgIDxidXR0b24ga2V5PXtmLmlkfSBvbkNsaWNrPXsoKSA9PiBzZXRGYW1pbHlJZChmLmlkKX0KICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgIGNsYXNzTmFtZT0icmV0cm8tYnRuIGZsZXggaXRlbXMtY2VudGVyIGp1c3RpZnktY2VudGVyIGdhcC0xIgogICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgc3R5bGU9e3sKICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICBwYWRkaW5nOiAnNHB4IDZweCcsIGZvbnRTaXplOiAxMCwKICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAuLi4oZmFtaWx5SWQgPT09IGYuaWQgPyB7CiAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgIGJhY2tncm91bmQ6ICdsaW5lYXItZ3JhZGllbnQoMTgwZGVnLCAjYTU5NGQwLCAjOGI3YmI4KScsCiAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgIGNvbG9yOiAnd2hpdGUnLCBib3JkZXJDb2xvcjogJyM4YjdiYjgnLAogICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgIH0gOiB7fSksCiAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICB9fT4KICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgIDxOUENBdmF0YXIgbmFtZT17Zi5uYW1lfSBzaXplPXsxMn0gY2xhc3NOYW1lPSJyb3VuZGVkLXNtIiAvPiB7Zi5uYW1lfQogICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICA8L2J1dHRvbj4KICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICApKX0KICAgICAgICAgICAgICAgICAgICAgICAgICAgIDwvZGl2PgoKICAgICAgICAgICAgICAgICAgICAgICAgICAgIDxidXR0b24gb25DbGljaz17aGFuZGxlQWRkfQogICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgIGNsYXNzTmFtZT0icmV0cm8tYnRuIHJldHJvLWJ0bi1wcmltYXJ5IHctZnVsbCBmbGV4IGl0ZW1zLWNlbnRlciBqdXN0aWZ5LWNlbnRlciBnYXAtMSIKICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICBzdHlsZT17eyBwYWRkaW5nOiAnN3B4IDEycHgnLCBtYXJnaW5Ub3A6IDQsIGJhY2tncm91bmQ6ICdsaW5lYXItZ3JhZGllbnQoMTgwZGVnLCAjN2JhZGM0LCAjNWI4ZmE4KScsIGJvcmRlckNvbG9yOiAnIzViOGZhOCcgfX0+CiAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgPENoZWNrQ2lyY2xlIHNpemU9ezEyfSB3ZWlnaHQ9ImJvbGQiIC8+IOWFpeS9jwogICAgICAgICAgICAgICAgICAgICAgICAgICAgPC9idXR0b24+CiAgICAgICAgICAgICAgICAgICAgICAgIDwvZGl2PgogICAgICAgICAgICAgICAgICAgICl9CiAgICAgICAgICAgICAgICA8L2Rpdj4KCiAgICAgICAgICAgICAgICB7LyogQ2xvc2UgYnV0dG9uICovfQogICAgICAgICAgICAgICAgPGRpdiBzdHlsZT17eyBwYWRkaW5nOiAnNnB4IDEwcHgnLCBib3JkZXJUb3A6ICcxcHggc29saWQgcmdiYSgwLDAsMCwwLjA4KScgfX0+CiAgICAgICAgICAgICAgICAgICAgPGJ1dHRvbiBvbkNsaWNrPXtvbkNsb3NlfSBjbGFzc05hbWU9InJldHJvLWJ0biB3LWZ1bGwiIHN0eWxlPXt7IHBhZGRpbmc6ICc1cHggMTJweCcgfX0+CiAgICAgICAgICAgICAgICAgICAgICAgIOWFs+mXrQogICAgICAgICAgICAgICAgICAgIDwvYnV0dG9uPgogICAgICAgICAgICAgICAgPC9kaXY+CiAgICAgICAgICAgIDwvZGl2PgogICAgICAgIDwvZGl2PgogICAgKTsKfTsKCmV4cG9ydCBkZWZhdWx0IEFjdGlvblBhbmVsOwo=
+/**
+ * ActionPanel — 行动面板 (retro dialog box style)
+ */
+
+import React, { useState } from 'react';
+import { LifeSimState, SimEventType } from '../../types';
+import {
+    MaskHappy, UserPlus, Lightning, CheckCircle,
+} from '@phosphor-icons/react';
+import { NPCAvatar, IconFight, IconParty, IconRomance, IconGossip, IconRivalry, IconAlliance } from '../../utils/styledIcons';
+
+const EVENT_TYPES: { type: SimEventType; label: string; Icon: React.FC<{ size?: number }> }[] = [
+    { type: 'fight', label: '吵架', Icon: IconFight },
+    { type: 'party', label: '联谊', Icon: IconParty },
+    { type: 'romance', label: '暧昧', Icon: IconRomance },
+    { type: 'gossip', label: '说闲话', Icon: IconGossip },
+    { type: 'rivalry', label: '竞争', Icon: IconRivalry },
+    { type: 'alliance', label: '结盟', Icon: IconAlliance },
+];
+
+const NPC_PERSONALITY_OPTIONS = [
+    '社牛','社恐','卷王','摸鱼','文青','话题女王','职场精英','暖男/暖女',
+    '叛逆','精致','独立','自恋','佛系','焦虑','八卦','高冷','上进',
+    '有品味','消息灵通','目标明确','热心','老好人','不按常理出牌','外貌协会',
+];
+
+const NPC_STYLE_OPTIONS = ['A','B','C','D','E','F','G','H','I','J','K','L','M','N','O','P','Q','R','S','T','U','V','W','X','Y'];
+
+export interface StirAction {
+    eventType: SimEventType;
+    involvedNpcIds: string[];
+    eventDesc: string;
+    worldStory?: boolean;
+}
+
+export interface AddNpcAction {
+    name: string;
+    emoji: string;
+    personalities: string[];
+    familyId: string;
+}
+
+const ActionPanel: React.FC<{
+    gameState: LifeSimState;
+    mode: 'stir' | 'add';
+    onStir: (action: StirAction) => void;
+    onAdd: (action: AddNpcAction) => void;
+    onClose: () => void;
+}> = ({ gameState, mode, onStir, onAdd, onClose }) => {
+
+    const [eventType, setEventType] = useState<SimEventType>('fight');
+    const [eventDesc, setEventDesc] = useState('');
+    const [npcName, setNpcName] = useState('');
+    const [npcEmoji, setNpcEmoji] = useState(NPC_STYLE_OPTIONS[0]);
+    const [personalities, setPersonalities] = useState<string[]>([]);
+    const [familyId, setFamilyId] = useState('');
+
+    const handleStir = () => {
+        const shuffledNpcs = [...gameState.npcs].sort(() => Math.random() - 0.5);
+        const autoCount = Math.min(shuffledNpcs.length, Math.floor(Math.random() * 2) + 2);
+        const autoInvolved = shuffledNpcs.slice(0, autoCount).map(n => n.id);
+        onStir({
+            eventType,
+            involvedNpcIds: autoInvolved,
+            eventDesc: eventDesc || `${EVENT_TYPES.find(e => e.type === eventType)?.label}事件`,
+            worldStory: true,
+        });
+    };
+
+    const handleAdd = () => {
+        if (!familyId || !npcName.trim() || personalities.length === 0) {
+            alert('请填写名字、选择性格、并选择入住公寓！'); return;
+        }
+        onAdd({ name: npcName.trim(), emoji: npcEmoji, personalities, familyId });
+    };
+
+    return (
+        <div className="absolute inset-0 z-40 flex items-end justify-center"
+            style={{ background: 'rgba(0,0,0,0.3)' }}
+            onClick={e => { if (e.target === e.currentTarget) onClose(); }}>
+            <div className="retro-window w-full mx-2 mb-2" style={{
+                maxHeight: '70vh', display: 'flex', flexDirection: 'column',
+                boxShadow: '4px 4px 0px rgba(0,0,0,0.2), inset 0 0 0 1px rgba(255,255,255,0.5)',
+            }}>
+                {/* Titlebar */}
+                <div className="retro-titlebar">
+                    <span className="flex items-center gap-1">
+                        {mode === 'stir'
+                            ? <><MaskHappy size={11} weight="bold" /> 搅局 — 制造Drama</>
+                            : <><UserPlus size={11} weight="bold" /> 新邻居 — 搬入</>}
+                    </span>
+                    <span className="retro-dots">
+                        <span className="retro-dot" style={{ background: '#f87171' }} onClick={onClose}>×</span>
+                    </span>
+                </div>
+
+                {/* Content */}
+                <div className="overflow-y-auto overflow-x-hidden no-scrollbar flex-1" style={{ padding: 10, minWidth: 0 }}>
+
+                    {mode === 'stir' && (
+                        <div className="space-y-2.5">
+                            <div className="retro-inset" style={{ padding: '5px 8px' }}>
+                                <p style={{ fontSize: 9, color: '#8b6bb8', lineHeight: 1.5 }}>
+                                    选择搅局方式，系统将自动卷入相关NPC
+                                </p>
+                            </div>
+
+                            <p style={{ fontSize: 10, fontWeight: 700, color: '#666' }}>搅局方式</p>
+                            <div className="grid grid-cols-3 gap-1">
+                                {EVENT_TYPES.map(et => (
+                                    <button key={et.type} onClick={() => setEventType(et.type)}
+                                        className="retro-btn flex items-center justify-center gap-1"
+                                        style={{
+                                            padding: '5px 4px', fontSize: 10,
+                                            ...(eventType === et.type ? {
+                                                background: 'linear-gradient(180deg, #a594d0, #8b7bb8)',
+                                                color: 'white', borderColor: '#8b7bb8',
+                                            } : {}),
+                                        }}>
+                                        <et.Icon size={12} /> {et.label}
+                                    </button>
+                                ))}
+                            </div>
+
+                            <input value={eventDesc} onChange={e => setEventDesc(e.target.value)}
+                                placeholder="描述剧情（可选）"
+                                style={{
+                                    width: '100%', padding: '5px 8px', fontSize: 10,
+                                    background: 'white', border: '2px solid rgba(0,0,0,0.15)',
+                                    borderRadius: 4, outline: 'none', color: '#333',
+                                    boxShadow: 'inset 1px 1px 3px rgba(0,0,0,0.08)',
+                                }} />
+
+                            <button onClick={handleStir}
+                                className="retro-btn retro-btn-primary w-full flex items-center justify-center gap-1"
+                                style={{ padding: '7px 12px' }}>
+                                <Lightning size={12} weight="bold" /> 搅动世界！
+                            </button>
+                        </div>
+                    )}
+
+                    {mode === 'add' && (
+                        <div className="space-y-2">
+                            <p style={{ fontSize: 10, fontWeight: 700, color: '#666' }}>名字</p>
+                            <input value={npcName} onChange={e => setNpcName(e.target.value)}
+                                placeholder="给TA取个名字"
+                                style={{
+                                    width: '100%', padding: '5px 8px', fontSize: 10,
+                                    background: 'white', border: '2px solid rgba(0,0,0,0.15)',
+                                    borderRadius: 4, outline: 'none', color: '#333',
+                                    boxShadow: 'inset 1px 1px 3px rgba(0,0,0,0.08)',
+                                }} />
+
+                            <p style={{ fontSize: 10, fontWeight: 700, color: '#666' }}>头像风格</p>
+                            <div className="flex flex-wrap gap-1">
+                                {NPC_STYLE_OPTIONS.map(e => (
+                                    <button key={e} onClick={() => setNpcEmoji(e)}
+                                        style={{
+                                            borderRadius: 4, overflow: 'hidden', padding: 2,
+                                            border: npcEmoji === e ? '2px solid #8b7bb8' : '2px solid transparent',
+                                            background: npcEmoji === e ? 'rgba(139,123,184,0.15)' : 'transparent',
+                                        }}>
+                                        <NPCAvatar name={e + (npcName || 'NPC')} size={22} className="rounded" />
+                                    </button>
+                                ))}
+                            </div>
+
+                            <p style={{ fontSize: 10, fontWeight: 700, color: '#666' }}>性格（至少选1个）</p>
+                            <div className="flex flex-wrap gap-1">
+                                {NPC_PERSONALITY_OPTIONS.map(p => {
+                                    const sel = personalities.includes(p);
+                                    return (
+                                        <button key={p} onClick={() => setPersonalities(
+                                            sel ? personalities.filter(x => x !== p) : [...personalities, p]
+                                        )} className="retro-btn" style={{
+                                            padding: '2px 8px', fontSize: 9,
+                                            ...(sel ? {
+                                                background: 'linear-gradient(180deg, #a594d0, #8b7bb8)',
+                                                color: 'white', borderColor: '#8b7bb8',
+                                            } : {}),
+                                        }}>
+                                            {p}
+                                        </button>
+                                    );
+                                })}
+                            </div>
+
+                            <p style={{ fontSize: 10, fontWeight: 700, color: '#666' }}>入住公寓</p>
+                            <div className="grid grid-cols-2 gap-1">
+                                {gameState.families.map(f => (
+                                    <button key={f.id} onClick={() => setFamilyId(f.id)}
+                                        className="retro-btn flex items-center justify-center gap-1"
+                                        style={{
+                                            padding: '4px 6px', fontSize: 10,
+                                            ...(familyId === f.id ? {
+                                                background: 'linear-gradient(180deg, #a594d0, #8b7bb8)',
+                                                color: 'white', borderColor: '#8b7bb8',
+                                            } : {}),
+                                        }}>
+                                        <NPCAvatar name={f.name} size={12} className="rounded-sm" /> {f.name}
+                                    </button>
+                                ))}
+                            </div>
+
+                            <button onClick={handleAdd}
+                                className="retro-btn retro-btn-primary w-full flex items-center justify-center gap-1"
+                                style={{ padding: '7px 12px', marginTop: 4, background: 'linear-gradient(180deg, #7badc4, #5b8fa8)', borderColor: '#5b8fa8' }}>
+                                <CheckCircle size={12} weight="bold" /> 入住
+                            </button>
+                        </div>
+                    )}
+                </div>
+
+                {/* Close button */}
+                <div style={{ padding: '6px 10px', borderTop: '1px solid rgba(0,0,0,0.08)' }}>
+                    <button onClick={onClose} className="retro-btn w-full" style={{ padding: '5px 12px' }}>
+                        关闭
+                    </button>
+                </div>
+            </div>
+        </div>
+    );
+};
+
+export default ActionPanel;

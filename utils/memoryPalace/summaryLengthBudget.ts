@@ -1,1 +1,20 @@
-LyoqCiAqIOaVtOWQiOWbnuW/humVv+W6puWFnOW6le+8iOe6r+mAu+i+ke+8jOaXoOWklumDqOS+nei1lu+8jOS+v+S6juWNlea1i++8ieOAggogKgogKiBjb250ZW50IOi2hei/h+ehrOS4iumZkOaXtu+8mgogKiAgIDEuIOWFiOeUqCByZWNvbXByZXNzIOiuqeaooeWei+S6jOasoeWOi+e8qe+8m+WOi+WIsOehrOS4iumZkOWGheWwsemHh+eUqO+8iOS4jeS4ouS/oeaBr+OAgeaXoOOAjOKApuKApuOAje+8ieOAggogKiAgIDIuIOS6jOasoeWOi+e8qeWksei0pSAvIOWOi+WujOS7jei2hSDihpIg5Y+W5pu055+t55qE6YKj5Lu95YGa5Z+65bqV77yM56Gs5oiq5patICvjgIzigKbigKbjgI3kv53or4Hnu53lr7nmnInnlYzjgIIKICoKICogcmVjb21wcmVzcyDnlLHosIPnlKjmlrnms6jlhaXvvIjnnJ/lrp7ot6/lvoTmmK8gTExNIOiwg+eUqO+8ie+8jOWNlea1i+aXtuaNouaIkOWBh+WunueOsOWNs+WPr+S4jeeisOe9kee7nOOAggogKi8KZXhwb3J0IGFzeW5jIGZ1bmN0aW9uIGVuZm9yY2VTdW1tYXJ5TGVuZ3RoQnVkZ2V0KAogICAgY29udGVudDogc3RyaW5nLAogICAgcmVjb21wcmVzczogKHRleHQ6IHN0cmluZykgPT4gUHJvbWlzZTxzdHJpbmcgfCBudWxsPiwKICAgIGhhcmRNYXhDaGFyczogbnVtYmVyLAopOiBQcm9taXNlPHN0cmluZz4gewogICAgaWYgKGNvbnRlbnQubGVuZ3RoIDw9IGhhcmRNYXhDaGFycykgcmV0dXJuIGNvbnRlbnQ7CiAgICBjb25zdCByZWNvbXByZXNzZWQgPSBhd2FpdCByZWNvbXByZXNzKGNvbnRlbnQpOwogICAgaWYgKHJlY29tcHJlc3NlZCAmJiByZWNvbXByZXNzZWQubGVuZ3RoIDw9IGhhcmRNYXhDaGFycykgcmV0dXJuIHJlY29tcHJlc3NlZDsKICAgIGNvbnN0IGJhc2UgPSByZWNvbXByZXNzZWQgJiYgcmVjb21wcmVzc2VkLmxlbmd0aCA8IGNvbnRlbnQubGVuZ3RoID8gcmVjb21wcmVzc2VkIDogY29udGVudDsKICAgIHJldHVybiBiYXNlLnNsaWNlKDAsIGhhcmRNYXhDaGFycykgKyAn4oCm4oCmJzsKfQo=
+/**
+ * 整合回忆长度兜底（纯逻辑，无外部依赖，便于单测）。
+ *
+ * content 超过硬上限时：
+ *   1. 先用 recompress 让模型二次压缩；压到硬上限内就采用（不丢信息、无「……」）。
+ *   2. 二次压缩失败 / 压完仍超 → 取更短的那份做基底，硬截断 +「……」保证绝对有界。
+ *
+ * recompress 由调用方注入（真实路径是 LLM 调用），单测时换成假实现即可不碰网络。
+ */
+export async function enforceSummaryLengthBudget(
+    content: string,
+    recompress: (text: string) => Promise<string | null>,
+    hardMaxChars: number,
+): Promise<string> {
+    if (content.length <= hardMaxChars) return content;
+    const recompressed = await recompress(content);
+    if (recompressed && recompressed.length <= hardMaxChars) return recompressed;
+    const base = recompressed && recompressed.length < content.length ? recompressed : content;
+    return base.slice(0, hardMaxChars) + '……';
+}

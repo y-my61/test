@@ -1,1 +1,24 @@
-Ly8g5rCU5rOh5Li76aKY6Kej5p6QIOKAlOKAlCDku44gYXBwcy9DaGF0LnRzeCDmir3lh7rnmoTlhbHkuqvpgLvovpHvvIjnp4HogYov576k6IGK5YWx55So77yJ44CCCi8vIHByZXNldHMg5L2c5Y+C5pWw5Lyg5YWl77yM6YG/5YWNIHV0aWxzIOKGkiBjb21wb25lbnRzIOWPjeWQkeS+nei1luOAggppbXBvcnQgeyBDaGF0VGhlbWUgfSBmcm9tICcuLi8uLi90eXBlcyc7CgovKioKICog5oyJ5Li76aKYIGlkIOino+aekOWHuuWujOaVtCBDaGF0VGhlbWXvvJpjdXN0b20g5LyY5YWIIOKGkiBwcmVzZXQg4oaSIGRlZmF1bHQg5YWc5bqV77ybCiAqIGxlZ2FjeS/lr7zlhaXkuLvpopjlj6/og73nvLogdXNlciDmiJYgYWkg5L6n77yI55u05o6l55So5Lya6K6pIE1lc3NhZ2VJdGVtIOivuwogKiBzdHlsZUNvbmZpZy5ib3JkZXJSYWRpdXMg5bSp5o6J77yJ77yM55SoIGRlZmF1bHQg5a+55bqU5L6n6KGl5YWo44CCCiAqLwpleHBvcnQgZnVuY3Rpb24gcmVzb2x2ZUNoYXRUaGVtZSgKICAgIHRoZW1lSWQ6IHN0cmluZyB8IHVuZGVmaW5lZCwKICAgIGN1c3RvbVRoZW1lczogQ2hhdFRoZW1lW10sCiAgICBwcmVzZXRzOiBSZWNvcmQ8c3RyaW5nLCBDaGF0VGhlbWU+LAogICAgZmFsbGJhY2tJZDogc3RyaW5nID0gJ2RlZmF1bHQnLAopOiBDaGF0VGhlbWUgewogICAgY29uc3QgZmFsbGJhY2sgPSBwcmVzZXRzW2ZhbGxiYWNrSWRdOwogICAgY29uc3QgaWQgPSB0aGVtZUlkIHx8IGZhbGxiYWNrSWQ7CiAgICBjb25zdCBmb3VuZCA9IGN1c3RvbVRoZW1lcy5maW5kKHQgPT4gdC5pZCA9PT0gaWQpIHx8IHByZXNldHNbaWRdIHx8IGZhbGxiYWNrOwogICAgcmV0dXJuIHsKICAgICAgICAuLi5mb3VuZCwKICAgICAgICB1c2VyOiB7IC4uLmZhbGxiYWNrLnVzZXIsIC4uLihmb3VuZC51c2VyIHx8IHt9KSB9LAogICAgICAgIGFpOiB7IC4uLmZhbGxiYWNrLmFpLCAuLi4oZm91bmQuYWkgfHwge30pIH0sCiAgICB9Owp9Cg==
+// 气泡主题解析 —— 从 apps/Chat.tsx 抽出的共享逻辑（私聊/群聊共用）。
+// presets 作参数传入，避免 utils → components 反向依赖。
+import { ChatTheme } from '../../types';
+
+/**
+ * 按主题 id 解析出完整 ChatTheme：custom 优先 → preset → default 兜底；
+ * legacy/导入主题可能缺 user 或 ai 侧（直接用会让 MessageItem 读
+ * styleConfig.borderRadius 崩掉），用 default 对应侧补全。
+ */
+export function resolveChatTheme(
+    themeId: string | undefined,
+    customThemes: ChatTheme[],
+    presets: Record<string, ChatTheme>,
+    fallbackId: string = 'default',
+): ChatTheme {
+    const fallback = presets[fallbackId];
+    const id = themeId || fallbackId;
+    const found = customThemes.find(t => t.id === id) || presets[id] || fallback;
+    return {
+        ...found,
+        user: { ...fallback.user, ...(found.user || {}) },
+        ai: { ...fallback.ai, ...(found.ai || {}) },
+    };
+}

@@ -1,1 +1,60 @@
-aW1wb3J0IHR5cGUgeyBNZXNzYWdlIH0gZnJvbSAnLi4vLi4vdHlwZXMnOwoKZXhwb3J0IGludGVyZmFjZSBSYW5nZVNlYXJjaEVudHJ5IHsKICAgIG1lc3NhZ2U6IE1lc3NhZ2U7CiAgICBzZWFyY2hUZXh0OiBzdHJpbmc7Cn0KCi8qKgogKiDml6XmnJ/mkJzntKLlhYHorrjnlKjmiLfmjInop4bop4nkuaDmg6/nnIHnlaXliY3lr7zpm7bvvJoKICogYDYvMjJgIOWPr+S7peWRveS4reeVjOmdouaYvuekuueahCBgMjAyNi8wNi8yMmDjgIIKICovCmV4cG9ydCBmdW5jdGlvbiBub3JtYWxpemVSYW5nZVNlYXJjaFRleHQodmFsdWU6IHN0cmluZyk6IHN0cmluZyB7CiAgICByZXR1cm4gdmFsdWUKICAgICAgICAudHJpbSgpCiAgICAgICAgLnRvTG93ZXJDYXNlKCkKICAgICAgICAucmVwbGFjZSgvKF58Wy4vLV0pMCsoPz1cZCkvZywgJyQxJykKICAgICAgICAucmVwbGFjZSgvXHMrL2csICcgJyk7Cn0KCi8qKiDpooTlhYjnlJ/miJDlsI/lhpnlhoXlrrnlkozml6XmnJ/ntKLlvJXvvIzpgb/lhY3nlKjmiLfmr4/ovpPlhaXkuIDkuKrlrZfnrKbpg73ph43mlrDmoLzlvI/ljJblhajpg6jml7bpl7TmiLPjgIIgKi8KZXhwb3J0IGZ1bmN0aW9uIGJ1aWxkUmFuZ2VTZWFyY2hFbnRyaWVzKAogICAgbWVzc2FnZXM6IE1lc3NhZ2VbXSwKICAgIGZvcm1hdFRpbWVzdGFtcDogKHRpbWVzdGFtcDogbnVtYmVyKSA9PiBzdHJpbmcsCik6IFJhbmdlU2VhcmNoRW50cnlbXSB7CiAgICByZXR1cm4gbWVzc2FnZXMubWFwKG1lc3NhZ2UgPT4gKHsKICAgICAgICBtZXNzYWdlLAogICAgICAgIHNlYXJjaFRleHQ6IG5vcm1hbGl6ZVJhbmdlU2VhcmNoVGV4dCgKICAgICAgICAgICAgYCR7dHlwZW9mIG1lc3NhZ2UuY29udGVudCA9PT0gJ3N0cmluZycgPyBtZXNzYWdlLmNvbnRlbnQgOiAnJ30gJHtmb3JtYXRUaW1lc3RhbXAobWVzc2FnZS50aW1lc3RhbXApfWAsCiAgICAgICAgKSwKICAgIH0pKTsKfQoKZXhwb3J0IGZ1bmN0aW9uIGZpbHRlclJhbmdlU2VhcmNoRW50cmllcyhlbnRyaWVzOiBSYW5nZVNlYXJjaEVudHJ5W10sIHF1ZXJ5OiBzdHJpbmcpOiBNZXNzYWdlW10gewogICAgY29uc3Qgbm9ybWFsaXplZFF1ZXJ5ID0gbm9ybWFsaXplUmFuZ2VTZWFyY2hUZXh0KHF1ZXJ5KTsKICAgIGlmICghbm9ybWFsaXplZFF1ZXJ5KSByZXR1cm4gZW50cmllcy5tYXAoZW50cnkgPT4gZW50cnkubWVzc2FnZSk7CiAgICByZXR1cm4gZW50cmllcwogICAgICAgIC5maWx0ZXIoZW50cnkgPT4gZW50cnkuc2VhcmNoVGV4dC5pbmNsdWRlcyhub3JtYWxpemVkUXVlcnkpKQogICAgICAgIC5tYXAoZW50cnkgPT4gZW50cnkubWVzc2FnZSk7Cn0KCi8qKiDmoIfnrb7lv6Dlrp7lj43mmKDnlKjmiLfngrnlh7vnmoTnq6/ngrnop5LoibLvvIzkuI3mjInmtojmga/lhYjlkI7mk4Xoh6rkupLmjaLigJzotbfngrkv57uI54K54oCd44CCICovCmV4cG9ydCBmdW5jdGlvbiBnZXRSYW5nZUVuZHBvaW50TGFiZWwoCiAgICBtZXNzYWdlSWQ6IG51bWJlciwKICAgIHN0YXJ0SWQ6IG51bWJlciB8IG51bGwsCiAgICBlbmRJZDogbnVtYmVyIHwgbnVsbCwKKTogJycgfCAn6LW354K5JyB8ICfnu4jngrknIHwgJ+i1t+eCuSAvIOe7iOeCuScgewogICAgY29uc3QgaXNTdGFydCA9IG1lc3NhZ2VJZCA9PT0gc3RhcnRJZDsKICAgIGNvbnN0IGlzRW5kID0gbWVzc2FnZUlkID09PSBlbmRJZDsKICAgIGlmIChpc1N0YXJ0ICYmIGlzRW5kKSByZXR1cm4gJ+i1t+eCuSAvIOe7iOeCuSc7CiAgICBpZiAoaXNTdGFydCkgcmV0dXJuICfotbfngrknOwogICAgaWYgKGlzRW5kKSByZXR1cm4gJ+e7iOeCuSc7CiAgICByZXR1cm4gJyc7Cn0KCmV4cG9ydCBmdW5jdGlvbiBnZXRSYW5nZVNlbGVjdGlvbkhpbnQoc3RhcnRJZDogbnVtYmVyIHwgbnVsbCwgZW5kSWQ6IG51bWJlciB8IG51bGwsIHNlbGVjdGVkQ291bnQ6IG51bWJlcik6IHN0cmluZyB7CiAgICBpZiAoc3RhcnRJZCAhPSBudWxsICYmIGVuZElkICE9IG51bGwpIHJldHVybiBg5bey6YCJICR7c2VsZWN0ZWRDb3VudH0g5p2hYDsKICAgIGlmIChzdGFydElkICE9IG51bGwpIHJldHVybiAn5bey6YCJ6LW354K577yM6K+35YaN54K557uI54K5JzsKICAgIGlmIChlbmRJZCAhPSBudWxsKSByZXR1cm4gJ+W3sumAiee7iOeCue+8jOivt+WGjeeCuei1t+eCuSc7CiAgICByZXR1cm4gJ+acqumAieaLqSc7Cn0K
+import type { Message } from '../../types';
+
+export interface RangeSearchEntry {
+    message: Message;
+    searchText: string;
+}
+
+/**
+ * 日期搜索允许用户按视觉习惯省略前导零：
+ * `6/22` 可以命中界面显示的 `2026/06/22`。
+ */
+export function normalizeRangeSearchText(value: string): string {
+    return value
+        .trim()
+        .toLowerCase()
+        .replace(/(^|[./-])0+(?=\d)/g, '$1')
+        .replace(/\s+/g, ' ');
+}
+
+/** 预先生成小写内容和日期索引，避免用户每输入一个字符都重新格式化全部时间戳。 */
+export function buildRangeSearchEntries(
+    messages: Message[],
+    formatTimestamp: (timestamp: number) => string,
+): RangeSearchEntry[] {
+    return messages.map(message => ({
+        message,
+        searchText: normalizeRangeSearchText(
+            `${typeof message.content === 'string' ? message.content : ''} ${formatTimestamp(message.timestamp)}`,
+        ),
+    }));
+}
+
+export function filterRangeSearchEntries(entries: RangeSearchEntry[], query: string): Message[] {
+    const normalizedQuery = normalizeRangeSearchText(query);
+    if (!normalizedQuery) return entries.map(entry => entry.message);
+    return entries
+        .filter(entry => entry.searchText.includes(normalizedQuery))
+        .map(entry => entry.message);
+}
+
+/** 标签忠实反映用户点击的端点角色，不按消息先后擅自互换“起点/终点”。 */
+export function getRangeEndpointLabel(
+    messageId: number,
+    startId: number | null,
+    endId: number | null,
+): '' | '起点' | '终点' | '起点 / 终点' {
+    const isStart = messageId === startId;
+    const isEnd = messageId === endId;
+    if (isStart && isEnd) return '起点 / 终点';
+    if (isStart) return '起点';
+    if (isEnd) return '终点';
+    return '';
+}
+
+export function getRangeSelectionHint(startId: number | null, endId: number | null, selectedCount: number): string {
+    if (startId != null && endId != null) return `已选 ${selectedCount} 条`;
+    if (startId != null) return '已选起点，请再点终点';
+    if (endId != null) return '已选终点，请再点起点';
+    return '未选择';
+}

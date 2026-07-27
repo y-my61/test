@@ -1,1 +1,241 @@
-LyoqCiAqIE5QQ0dyaWQgLSBjaXR5IHJlc2lkZW50cwogKi8KCmltcG9ydCBSZWFjdCwgeyB1c2VSZWYsIHVzZVN0YXRlIH0gZnJvbSAncmVhY3QnOwppbXBvcnQgeyBMaWZlU2ltU3RhdGUsIFNpbU5QQyB9IGZyb20gJy4uLy4uL3R5cGVzJzsKaW1wb3J0IHsgZ2V0TW9vZExhYmVsLCBnZXRQcm9mZXNzaW9uSW5mbywgZ2V0R2VuZGVyTGFiZWwgfSBmcm9tICcuLi8uLi91dGlscy9saWZlU2ltRW5naW5lJzsKaW1wb3J0IHsgTlBDQXZhdGFyLCBJY29uRmxhbWUsIEljb25DcnVzaCB9IGZyb20gJy4uLy4uL3V0aWxzL3N0eWxlZEljb25zJzsKCmNvbnN0IE1PT0RfQ09MT1JTID0gKG5vcm06IG51bWJlcikgPT4KICAgIG5vcm0gPiA2MCA/ICcjNWI5YjZiJyA6IG5vcm0gPiAzMCA/ICcjYjg5ODQwJyA6ICcjYjg1MDUwJzsKCmNvbnN0IExPTkdfUFJFU1NfTVMgPSA0MjA7Cgpjb25zdCBOUENDYXJkOiBSZWFjdC5GQzx7CiAgICBucGM6IFNpbU5QQzsKICAgIGdhbWVTdGF0ZTogTGlmZVNpbVN0YXRlOwogICAgb25Mb25nUHJlc3NOcGM/OiAobnBjOiBTaW1OUEMpID0+IHZvaWQ7Cn0+ID0gKHsgbnBjLCBnYW1lU3RhdGUsIG9uTG9uZ1ByZXNzTnBjIH0pID0+IHsKICAgIGNvbnN0IFtleHBhbmRlZCwgc2V0RXhwYW5kZWRdID0gdXNlU3RhdGUoZmFsc2UpOwogICAgY29uc3QgcHJlc3NUaW1lciA9IHVzZVJlZjxSZXR1cm5UeXBlPHR5cGVvZiBzZXRUaW1lb3V0PiB8IG51bGw+KG51bGwpOwogICAgY29uc3QgZGlkTG9uZ1ByZXNzID0gdXNlUmVmKGZhbHNlKTsKICAgIGNvbnN0IHByb2ZJbmZvID0gZ2V0UHJvZmVzc2lvbkluZm8obnBjLnByb2Zlc3Npb24gPz8gJ2ZyZWVsYW5jZXInKTsKICAgIGNvbnN0IG1vb2QgPSBucGMubW9vZDsKICAgIGNvbnN0IHsgbGFiZWw6IG1vb2RMYWJlbCB9ID0gZ2V0TW9vZExhYmVsKG1vb2QpOwogICAgY29uc3QgZmFtaWx5ID0gZ2FtZVN0YXRlLmZhbWlsaWVzLmZpbmQoZiA9PiBmLmlkID09PSBucGMuZmFtaWx5SWQpOwogICAgY29uc3QgbW9vZE5vcm0gPSAobW9vZCArIDEwMCkgLyAyOwogICAgY29uc3QgZ3J1ZGdlcyA9IG5wYy5ncnVkZ2VzID8/IFtdOwogICAgY29uc3QgY3J1c2hlcyA9IG5wYy5jcnVzaGVzID8/IFtdOwogICAgY29uc3QgZ2VuZGVyU3ltYm9sID0gZ2V0R2VuZGVyTGFiZWwobnBjLmdlbmRlcik7CgogICAgY29uc3QgY2xlYXJQcmVzcyA9ICgpID0+IHsKICAgICAgICBpZiAocHJlc3NUaW1lci5jdXJyZW50KSB7CiAgICAgICAgICAgIGNsZWFyVGltZW91dChwcmVzc1RpbWVyLmN1cnJlbnQpOwogICAgICAgICAgICBwcmVzc1RpbWVyLmN1cnJlbnQgPSBudWxsOwogICAgICAgIH0KICAgIH07CgogICAgY29uc3QgaGFuZGxlUHJlc3NTdGFydCA9ICgpID0+IHsKICAgICAgICBjbGVhclByZXNzKCk7CiAgICAgICAgZGlkTG9uZ1ByZXNzLmN1cnJlbnQgPSBmYWxzZTsKICAgICAgICBpZiAoIW9uTG9uZ1ByZXNzTnBjKSByZXR1cm47CiAgICAgICAgcHJlc3NUaW1lci5jdXJyZW50ID0gc2V0VGltZW91dCgoKSA9PiB7CiAgICAgICAgICAgIGRpZExvbmdQcmVzcy5jdXJyZW50ID0gdHJ1ZTsKICAgICAgICAgICAgb25Mb25nUHJlc3NOcGMobnBjKTsKICAgICAgICB9LCBMT05HX1BSRVNTX01TKTsKICAgIH07CgogICAgY29uc3QgaGFuZGxlQ2xpY2sgPSAoKSA9PiB7CiAgICAgICAgaWYgKGRpZExvbmdQcmVzcy5jdXJyZW50KSB7CiAgICAgICAgICAgIGRpZExvbmdQcmVzcy5jdXJyZW50ID0gZmFsc2U7CiAgICAgICAgICAgIHJldHVybjsKICAgICAgICB9CiAgICAgICAgc2V0RXhwYW5kZWQodmFsdWUgPT4gIXZhbHVlKTsKICAgIH07CgogICAgcmV0dXJuICgKICAgICAgICA8ZGl2CiAgICAgICAgICAgIGNsYXNzTmFtZT0icmV0cm8td2luZG93IGN1cnNvci1wb2ludGVyIgogICAgICAgICAgICBzdHlsZT17eyBtYXJnaW5Cb3R0b206IDAgfX0KICAgICAgICAgICAgb25DbGljaz17aGFuZGxlQ2xpY2t9CiAgICAgICAgICAgIG9uQ29udGV4dE1lbnU9e2V2ZW50ID0+IHsKICAgICAgICAgICAgICAgIGV2ZW50LnByZXZlbnREZWZhdWx0KCk7CiAgICAgICAgICAgICAgICBvbkxvbmdQcmVzc05wYz8uKG5wYyk7CiAgICAgICAgICAgIH19CiAgICAgICAgICAgIG9uVG91Y2hTdGFydD17aGFuZGxlUHJlc3NTdGFydH0KICAgICAgICAgICAgb25Ub3VjaEVuZD17Y2xlYXJQcmVzc30KICAgICAgICAgICAgb25Ub3VjaENhbmNlbD17Y2xlYXJQcmVzc30KICAgICAgICAgICAgb25Nb3VzZURvd249e2hhbmRsZVByZXNzU3RhcnR9CiAgICAgICAgICAgIG9uTW91c2VVcD17Y2xlYXJQcmVzc30KICAgICAgICAgICAgb25Nb3VzZUxlYXZlPXtjbGVhclByZXNzfQogICAgICAgID4KICAgICAgICAgICAgPGRpdiBjbGFzc05hbWU9InJldHJvLXRpdGxlYmFyIiBzdHlsZT17eyBwYWRkaW5nOiAnMnB4IDZweCcsIGZvbnRTaXplOiA5IH19PgogICAgICAgICAgICAgICAgPHNwYW4gY2xhc3NOYW1lPSJ0cnVuY2F0ZSI+e25wYy5uYW1lfXtnZW5kZXJTeW1ib2wgPyBgICR7Z2VuZGVyU3ltYm9sfWAgOiAnJ308L3NwYW4+CiAgICAgICAgICAgICAgICA8c3BhbiBzdHlsZT17eyBmb250U2l6ZTogOCwgb3BhY2l0eTogMC43IH19PntleHBhbmRlZCA/ICfilrInIDogJ+KWvCd9PC9zcGFuPgogICAgICAgICAgICA8L2Rpdj4KCiAgICAgICAgICAgIDxkaXYgc3R5bGU9e3sgcGFkZGluZzogJzZweCA4cHgnIH19PgogICAgICAgICAgICAgICAgPGRpdiBjbGFzc05hbWU9ImZsZXggaXRlbXMtY2VudGVyIGdhcC0yIj4KICAgICAgICAgICAgICAgICAgICA8ZGl2CiAgICAgICAgICAgICAgICAgICAgICAgIGNsYXNzTmFtZT0iZmxleC1zaHJpbmstMCIKICAgICAgICAgICAgICAgICAgICAgICAgc3R5bGU9e3sKICAgICAgICAgICAgICAgICAgICAgICAgICAgIHdpZHRoOiAyOCwKICAgICAgICAgICAgICAgICAgICAgICAgICAgIGhlaWdodDogMjgsCiAgICAgICAgICAgICAgICAgICAgICAgICAgICBib3JkZXJSYWRpdXM6IDQsCiAgICAgICAgICAgICAgICAgICAgICAgICAgICBib3JkZXI6IGAxcHggc29saWQgJHtwcm9mSW5mby5jb2xvcn00MGAsCiAgICAgICAgICAgICAgICAgICAgICAgICAgICBvdmVyZmxvdzogJ2hpZGRlbicsCiAgICAgICAgICAgICAgICAgICAgICAgIH19CiAgICAgICAgICAgICAgICAgICAgPgogICAgICAgICAgICAgICAgICAgICAgICA8TlBDQXZhdGFyIG5hbWU9e25wYy5uYW1lfSBzaXplPXsyOH0gY2xhc3NOYW1lPSJyb3VuZGVkIiAvPgogICAgICAgICAgICAgICAgICAgIDwvZGl2PgogICAgICAgICAgICAgICAgICAgIDxkaXYgY2xhc3NOYW1lPSJmbGV4LTEgbWluLXctMCI+CiAgICAgICAgICAgICAgICAgICAgICAgIDxkaXYgY2xhc3NOYW1lPSJmbGV4IGl0ZW1zLWNlbnRlciBnYXAtMSI+CiAgICAgICAgICAgICAgICAgICAgICAgICAgICA8c3BhbgogICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgIHN0eWxlPXt7CiAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgIGZvbnRTaXplOiA5LAogICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICBmb250V2VpZ2h0OiA2MDAsCiAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgIGNvbG9yOiBwcm9mSW5mby5jb2xvciwKICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgYmFja2dyb3VuZDogYCR7cHJvZkluZm8uY29sb3J9MTVgLAogICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICBwYWRkaW5nOiAnMCA0cHgnLAogICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICBib3JkZXJSYWRpdXM6IDIsCiAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgIGJvcmRlcjogYDFweCBzb2xpZCAke3Byb2ZJbmZvLmNvbG9yfTI1YCwKICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICB9fQogICAgICAgICAgICAgICAgICAgICAgICAgICAgPgogICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgIHtwcm9mSW5mby56aH0KICAgICAgICAgICAgICAgICAgICAgICAgICAgIDwvc3Bhbj4KICAgICAgICAgICAgICAgICAgICAgICAgICAgIHtmYW1pbHkgJiYgKAogICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgIDxzcGFuIHN0eWxlPXt7IGZvbnRTaXplOiA4LCBjb2xvcjogJyM4ODgnLCBmb250V2VpZ2h0OiA1MDAgfX0+CiAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgIHtmYW1pbHkubmFtZX0KICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICA8L3NwYW4+CiAgICAgICAgICAgICAgICAgICAgICAgICAgICApfQogICAgICAgICAgICAgICAgICAgICAgICA8L2Rpdj4KICAgICAgICAgICAgICAgICAgICAgICAgPGRpdiBjbGFzc05hbWU9ImZsZXggaXRlbXMtY2VudGVyIGdhcC0xIG10LTEiPgogICAgICAgICAgICAgICAgICAgICAgICAgICAgPGRpdgogICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgIGNsYXNzTmFtZT0iZmxleC0xIGgtMS41IHJvdW5kZWQtc20gb3ZlcmZsb3ctaGlkZGVuIgogICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgIHN0eWxlPXt7CiAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgIGJhY2tncm91bmQ6ICdyZ2JhKDAsMCwwLDAuMDYpJywKICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgYm9yZGVyOiAnMXB4IHNvbGlkIHJnYmEoMCwwLDAsMC4wOCknLAogICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgIH19CiAgICAgICAgICAgICAgICAgICAgICAgICAgICA+CiAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgPGRpdgogICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICBjbGFzc05hbWU9ImgtZnVsbCByb3VuZGVkLXNtIHRyYW5zaXRpb24tYWxsIGR1cmF0aW9uLTUwMCIKICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgc3R5bGU9e3sKICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgIHdpZHRoOiBgJHttb29kTm9ybX0lYCwKICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgIGJhY2tncm91bmQ6IE1PT0RfQ09MT1JTKG1vb2ROb3JtKSwKICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgfX0KICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAvPgogICAgICAgICAgICAgICAgICAgICAgICAgICAgPC9kaXY+CiAgICAgICAgICAgICAgICAgICAgICAgICAgICA8c3BhbiBzdHlsZT17eyBmb250U2l6ZTogOCwgY29sb3I6IE1PT0RfQ09MT1JTKG1vb2ROb3JtKSwgZm9udFdlaWdodDogNjAwIH19Pnttb29kTGFiZWx9PC9zcGFuPgogICAgICAgICAgICAgICAgICAgICAgICA8L2Rpdj4KICAgICAgICAgICAgICAgICAgICA8L2Rpdj4KICAgICAgICAgICAgICAgIDwvZGl2PgoKICAgICAgICAgICAgICAgIDxkaXYgY2xhc3NOYW1lPSJmbGV4IGZsZXgtd3JhcCBnYXAtMC41IG10LTEuNSI+CiAgICAgICAgICAgICAgICAgICAge25wYy5wZXJzb25hbGl0eS5zbGljZSgwLCAzKS5tYXAoaXRlbSA9PiAoCiAgICAgICAgICAgICAgICAgICAgICAgIDxzcGFuIGtleT17aXRlbX0gY2xhc3NOYW1lPSJyZXRyby10YWciPntpdGVtfTwvc3Bhbj4KICAgICAgICAgICAgICAgICAgICApKX0KICAgICAgICAgICAgICAgIDwvZGl2PgoKICAgICAgICAgICAgICAgIHsoZ3J1ZGdlcy5sZW5ndGggPiAwIHx8IGNydXNoZXMubGVuZ3RoID4gMCkgJiYgKAogICAgICAgICAgICAgICAgICAgIDxkaXYgY2xhc3NOYW1lPSJmbGV4IGdhcC0xIG10LTEgZmxleC13cmFwIj4KICAgICAgICAgICAgICAgICAgICAgICAge2dydWRnZXMubWFwKGdpZCA9PiB7CiAgICAgICAgICAgICAgICAgICAgICAgICAgICBjb25zdCB0YXJnZXQgPSBnYW1lU3RhdGUubnBjcy5maW5kKG4gPT4gbi5pZCA9PT0gZ2lkKTsKICAgICAgICAgICAgICAgICAgICAgICAgICAgIHJldHVybiB0YXJnZXQgPyAoCiAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgPHNwYW4KICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAga2V5PXtgZy0ke2dpZH1gfQogICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICBzdHlsZT17ewogICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgZm9udFNpemU6IDgsCiAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICBmb250V2VpZ2h0OiA2MDAsCiAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICBiYWNrZ3JvdW5kOiAncmdiYSgyMDAsNjAsNjAsMC4xKScsCiAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICBjb2xvcjogJyNiODUwNTAnLAogICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgYm9yZGVyOiAnMXB4IHNvbGlkIHJnYmEoMjAwLDYwLDYwLDAuMiknLAogICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgYm9yZGVyUmFkaXVzOiAzLAogICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgcGFkZGluZzogJzAgNHB4JywKICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgIGRpc3BsYXk6ICdpbmxpbmUtZmxleCcsCiAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICBhbGlnbkl0ZW1zOiAnY2VudGVyJywKICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgIGdhcDogMiwKICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgfX0KICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICA+CiAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgIDxJY29uRmxhbWUgc2l6ZT17N30gLz57dGFyZ2V0Lm5hbWV9CiAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgPC9zcGFuPgogICAgICAgICAgICAgICAgICAgICAgICAgICAgKSA6IG51bGw7CiAgICAgICAgICAgICAgICAgICAgICAgIH0pfQogICAgICAgICAgICAgICAgICAgICAgICB7Y3J1c2hlcy5tYXAoY2lkID0+IHsKICAgICAgICAgICAgICAgICAgICAgICAgICAgIGNvbnN0IHRhcmdldCA9IGdhbWVTdGF0ZS5ucGNzLmZpbmQobiA9PiBuLmlkID09PSBjaWQpOwogICAgICAgICAgICAgICAgICAgICAgICAgICAgcmV0dXJuIHRhcmdldCA/ICgKICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICA8c3BhbgogICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICBrZXk9e2BjLSR7Y2lkfWB9CiAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgIHN0eWxlPXt7CiAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICBmb250U2l6ZTogOCwKICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgIGZvbnRXZWlnaHQ6IDYwMCwKICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgIGJhY2tncm91bmQ6ICdyZ2JhKDIwMCwxMDAsMTUwLDAuMSknLAogICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgY29sb3I6ICcjYzA2MDkwJywKICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgIGJvcmRlcjogJzFweCBzb2xpZCByZ2JhKDIwMCwxMDAsMTUwLDAuMiknLAogICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgYm9yZGVyUmFkaXVzOiAzLAogICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgcGFkZGluZzogJzAgNHB4JywKICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgIGRpc3BsYXk6ICdpbmxpbmUtZmxleCcsCiAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICBhbGlnbkl0ZW1zOiAnY2VudGVyJywKICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgIGdhcDogMiwKICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgfX0KICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICA+CiAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgIDxJY29uQ3J1c2ggc2l6ZT17N30gLz57dGFyZ2V0Lm5hbWV9CiAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgPC9zcGFuPgogICAgICAgICAgICAgICAgICAgICAgICAgICAgKSA6IG51bGw7CiAgICAgICAgICAgICAgICAgICAgICAgIH0pfQogICAgICAgICAgICAgICAgICAgIDwvZGl2PgogICAgICAgICAgICAgICAgKX0KCiAgICAgICAgICAgICAgICB7ZXhwYW5kZWQgJiYgKAogICAgICAgICAgICAgICAgICAgIDxkaXYKICAgICAgICAgICAgICAgICAgICAgICAgc3R5bGU9e3sKICAgICAgICAgICAgICAgICAgICAgICAgICAgIG1hcmdpblRvcDogNiwKICAgICAgICAgICAgICAgICAgICAgICAgICAgIHBhZGRpbmdUb3A6IDYsCiAgICAgICAgICAgICAgICAgICAgICAgICAgICBib3JkZXJUb3A6ICcxcHggZGFzaGVkIHJnYmEoMCwwLDAsMC4xKScsCiAgICAgICAgICAgICAgICAgICAgICAgIH19CiAgICAgICAgICAgICAgICAgICAgPgogICAgICAgICAgICAgICAgICAgICAgICB7bnBjLmJpbyAmJiAoCiAgICAgICAgICAgICAgICAgICAgICAgICAgICA8cCBzdHlsZT17eyBmb250U2l6ZTogOSwgY29sb3I6ICcjNjY2JywgbGluZUhlaWdodDogMS41LCBtYXJnaW5Cb3R0b206IDQgfX0+e25wYy5iaW99PC9wPgogICAgICAgICAgICAgICAgICAgICAgICApfQogICAgICAgICAgICAgICAgICAgICAgICB7bnBjLmJhY2tzdG9yeSAmJiAoCiAgICAgICAgICAgICAgICAgICAgICAgICAgICA8ZGl2IGNsYXNzTmFtZT0icmV0cm8taW5zZXQiIHN0eWxlPXt7IHBhZGRpbmc6ICc0cHggNnB4JywgbWFyZ2luVG9wOiA0IH19PgogICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgIDxwIHN0eWxlPXt7IGZvbnRTaXplOiA4LCBjb2xvcjogJyM4ODgnLCBmb250V2VpZ2h0OiA2MDAsIG1hcmdpbkJvdHRvbTogMiB9fT7og4zmma/mlYXkuos8L3A+CiAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgPHAgc3R5bGU9e3sgZm9udFNpemU6IDksIGNvbG9yOiAnIzU1NScsIGxpbmVIZWlnaHQ6IDEuNSB9fT57bnBjLmJhY2tzdG9yeX08L3A+CiAgICAgICAgICAgICAgICAgICAgICAgICAgICA8L2Rpdj4KICAgICAgICAgICAgICAgICAgICAgICAgKX0KICAgICAgICAgICAgICAgICAgICA8L2Rpdj4KICAgICAgICAgICAgICAgICl9CiAgICAgICAgICAgIDwvZGl2PgogICAgICAgIDwvZGl2PgogICAgKTsKfTsKCmNvbnN0IE5QQ0dyaWQ6IFJlYWN0LkZDPHsKICAgIGdhbWVTdGF0ZTogTGlmZVNpbVN0YXRlOwogICAgb25Mb25nUHJlc3NOcGM/OiAobnBjOiBTaW1OUEMpID0+IHZvaWQ7Cn0+ID0gKHsgZ2FtZVN0YXRlLCBvbkxvbmdQcmVzc05wYyB9KSA9PiB7CiAgICBjb25zdCBhbGxOcGNzID0gZ2FtZVN0YXRlLm5wY3M7CgogICAgaWYgKGFsbE5wY3MubGVuZ3RoID09PSAwKSB7CiAgICAgICAgcmV0dXJuICgKICAgICAgICAgICAgPGRpdiBjbGFzc05hbWU9ImZsZXggaXRlbXMtY2VudGVyIGp1c3RpZnktY2VudGVyIHAtOCIgc3R5bGU9e3sgY29sb3I6ICcjOTk5JywgZm9udFNpemU6IDEyIH19PgogICAgICAgICAgICAgICAg6L+Y5rKh5pyJ5bGF5rCR5YWl5L2PCiAgICAgICAgICAgIDwvZGl2PgogICAgICAgICk7CiAgICB9CgogICAgcmV0dXJuICgKICAgICAgICA8ZGl2IHN0eWxlPXt7IHBhZGRpbmc6IDYgfX0+CiAgICAgICAgICAgIDxkaXYgY2xhc3NOYW1lPSJyZXRyby1pbnNldCIgc3R5bGU9e3sgcGFkZGluZzogJzRweCA2cHgnLCBtYXJnaW5Cb3R0b206IDYgfX0+CiAgICAgICAgICAgICAgICA8cCBzdHlsZT17eyBmb250U2l6ZTogOSwgY29sb3I6ICcjN2E3NDg4JyB9fT7mj5DnpLrvvJrngrnkuIDkuIvlsZXlvIDlsYXmsJHmlYXkuovvvIzplb/mjInlj6/ku6XmlLnov5nlsYDnmoTop5LoibLorr7lrprjgII8L3A+CiAgICAgICAgICAgIDwvZGl2PgogICAgICAgICAgICA8ZGl2IGNsYXNzTmFtZT0iZ3JpZCBncmlkLWNvbHMtMiBnYXAtMS41Ij4KICAgICAgICAgICAgICAgIHthbGxOcGNzLm1hcChucGMgPT4gKAogICAgICAgICAgICAgICAgICAgIDxOUENDYXJkIGtleT17bnBjLmlkfSBucGM9e25wY30gZ2FtZVN0YXRlPXtnYW1lU3RhdGV9IG9uTG9uZ1ByZXNzTnBjPXtvbkxvbmdQcmVzc05wY30gLz4KICAgICAgICAgICAgICAgICkpfQogICAgICAgICAgICA8L2Rpdj4KICAgICAgICA8L2Rpdj4KICAgICk7Cn07CgpleHBvcnQgZGVmYXVsdCBOUENHcmlkOwo=
+/**
+ * NPCGrid - city residents
+ */
+
+import React, { useRef, useState } from 'react';
+import { LifeSimState, SimNPC } from '../../types';
+import { getMoodLabel, getProfessionInfo, getGenderLabel } from '../../utils/lifeSimEngine';
+import { NPCAvatar, IconFlame, IconCrush } from '../../utils/styledIcons';
+
+const MOOD_COLORS = (norm: number) =>
+    norm > 60 ? '#5b9b6b' : norm > 30 ? '#b89840' : '#b85050';
+
+const LONG_PRESS_MS = 420;
+
+const NPCCard: React.FC<{
+    npc: SimNPC;
+    gameState: LifeSimState;
+    onLongPressNpc?: (npc: SimNPC) => void;
+}> = ({ npc, gameState, onLongPressNpc }) => {
+    const [expanded, setExpanded] = useState(false);
+    const pressTimer = useRef<ReturnType<typeof setTimeout> | null>(null);
+    const didLongPress = useRef(false);
+    const profInfo = getProfessionInfo(npc.profession ?? 'freelancer');
+    const mood = npc.mood;
+    const { label: moodLabel } = getMoodLabel(mood);
+    const family = gameState.families.find(f => f.id === npc.familyId);
+    const moodNorm = (mood + 100) / 2;
+    const grudges = npc.grudges ?? [];
+    const crushes = npc.crushes ?? [];
+    const genderSymbol = getGenderLabel(npc.gender);
+
+    const clearPress = () => {
+        if (pressTimer.current) {
+            clearTimeout(pressTimer.current);
+            pressTimer.current = null;
+        }
+    };
+
+    const handlePressStart = () => {
+        clearPress();
+        didLongPress.current = false;
+        if (!onLongPressNpc) return;
+        pressTimer.current = setTimeout(() => {
+            didLongPress.current = true;
+            onLongPressNpc(npc);
+        }, LONG_PRESS_MS);
+    };
+
+    const handleClick = () => {
+        if (didLongPress.current) {
+            didLongPress.current = false;
+            return;
+        }
+        setExpanded(value => !value);
+    };
+
+    return (
+        <div
+            className="retro-window cursor-pointer"
+            style={{ marginBottom: 0 }}
+            onClick={handleClick}
+            onContextMenu={event => {
+                event.preventDefault();
+                onLongPressNpc?.(npc);
+            }}
+            onTouchStart={handlePressStart}
+            onTouchEnd={clearPress}
+            onTouchCancel={clearPress}
+            onMouseDown={handlePressStart}
+            onMouseUp={clearPress}
+            onMouseLeave={clearPress}
+        >
+            <div className="retro-titlebar" style={{ padding: '2px 6px', fontSize: 9 }}>
+                <span className="truncate">{npc.name}{genderSymbol ? ` ${genderSymbol}` : ''}</span>
+                <span style={{ fontSize: 8, opacity: 0.7 }}>{expanded ? '▲' : '▼'}</span>
+            </div>
+
+            <div style={{ padding: '6px 8px' }}>
+                <div className="flex items-center gap-2">
+                    <div
+                        className="flex-shrink-0"
+                        style={{
+                            width: 28,
+                            height: 28,
+                            borderRadius: 4,
+                            border: `1px solid ${profInfo.color}40`,
+                            overflow: 'hidden',
+                        }}
+                    >
+                        <NPCAvatar name={npc.name} size={28} className="rounded" />
+                    </div>
+                    <div className="flex-1 min-w-0">
+                        <div className="flex items-center gap-1">
+                            <span
+                                style={{
+                                    fontSize: 9,
+                                    fontWeight: 600,
+                                    color: profInfo.color,
+                                    background: `${profInfo.color}15`,
+                                    padding: '0 4px',
+                                    borderRadius: 2,
+                                    border: `1px solid ${profInfo.color}25`,
+                                }}
+                            >
+                                {profInfo.zh}
+                            </span>
+                            {family && (
+                                <span style={{ fontSize: 8, color: '#888', fontWeight: 500 }}>
+                                    {family.name}
+                                </span>
+                            )}
+                        </div>
+                        <div className="flex items-center gap-1 mt-1">
+                            <div
+                                className="flex-1 h-1.5 rounded-sm overflow-hidden"
+                                style={{
+                                    background: 'rgba(0,0,0,0.06)',
+                                    border: '1px solid rgba(0,0,0,0.08)',
+                                }}
+                            >
+                                <div
+                                    className="h-full rounded-sm transition-all duration-500"
+                                    style={{
+                                        width: `${moodNorm}%`,
+                                        background: MOOD_COLORS(moodNorm),
+                                    }}
+                                />
+                            </div>
+                            <span style={{ fontSize: 8, color: MOOD_COLORS(moodNorm), fontWeight: 600 }}>{moodLabel}</span>
+                        </div>
+                    </div>
+                </div>
+
+                <div className="flex flex-wrap gap-0.5 mt-1.5">
+                    {npc.personality.slice(0, 3).map(item => (
+                        <span key={item} className="retro-tag">{item}</span>
+                    ))}
+                </div>
+
+                {(grudges.length > 0 || crushes.length > 0) && (
+                    <div className="flex gap-1 mt-1 flex-wrap">
+                        {grudges.map(gid => {
+                            const target = gameState.npcs.find(n => n.id === gid);
+                            return target ? (
+                                <span
+                                    key={`g-${gid}`}
+                                    style={{
+                                        fontSize: 8,
+                                        fontWeight: 600,
+                                        background: 'rgba(200,60,60,0.1)',
+                                        color: '#b85050',
+                                        border: '1px solid rgba(200,60,60,0.2)',
+                                        borderRadius: 3,
+                                        padding: '0 4px',
+                                        display: 'inline-flex',
+                                        alignItems: 'center',
+                                        gap: 2,
+                                    }}
+                                >
+                                    <IconFlame size={7} />{target.name}
+                                </span>
+                            ) : null;
+                        })}
+                        {crushes.map(cid => {
+                            const target = gameState.npcs.find(n => n.id === cid);
+                            return target ? (
+                                <span
+                                    key={`c-${cid}`}
+                                    style={{
+                                        fontSize: 8,
+                                        fontWeight: 600,
+                                        background: 'rgba(200,100,150,0.1)',
+                                        color: '#c06090',
+                                        border: '1px solid rgba(200,100,150,0.2)',
+                                        borderRadius: 3,
+                                        padding: '0 4px',
+                                        display: 'inline-flex',
+                                        alignItems: 'center',
+                                        gap: 2,
+                                    }}
+                                >
+                                    <IconCrush size={7} />{target.name}
+                                </span>
+                            ) : null;
+                        })}
+                    </div>
+                )}
+
+                {expanded && (
+                    <div
+                        style={{
+                            marginTop: 6,
+                            paddingTop: 6,
+                            borderTop: '1px dashed rgba(0,0,0,0.1)',
+                        }}
+                    >
+                        {npc.bio && (
+                            <p style={{ fontSize: 9, color: '#666', lineHeight: 1.5, marginBottom: 4 }}>{npc.bio}</p>
+                        )}
+                        {npc.backstory && (
+                            <div className="retro-inset" style={{ padding: '4px 6px', marginTop: 4 }}>
+                                <p style={{ fontSize: 8, color: '#888', fontWeight: 600, marginBottom: 2 }}>背景故事</p>
+                                <p style={{ fontSize: 9, color: '#555', lineHeight: 1.5 }}>{npc.backstory}</p>
+                            </div>
+                        )}
+                    </div>
+                )}
+            </div>
+        </div>
+    );
+};
+
+const NPCGrid: React.FC<{
+    gameState: LifeSimState;
+    onLongPressNpc?: (npc: SimNPC) => void;
+}> = ({ gameState, onLongPressNpc }) => {
+    const allNpcs = gameState.npcs;
+
+    if (allNpcs.length === 0) {
+        return (
+            <div className="flex items-center justify-center p-8" style={{ color: '#999', fontSize: 12 }}>
+                还没有居民入住
+            </div>
+        );
+    }
+
+    return (
+        <div style={{ padding: 6 }}>
+            <div className="retro-inset" style={{ padding: '4px 6px', marginBottom: 6 }}>
+                <p style={{ fontSize: 9, color: '#7a7488' }}>提示：点一下展开居民故事，长按可以改这局的角色设定。</p>
+            </div>
+            <div className="grid grid-cols-2 gap-1.5">
+                {allNpcs.map(npc => (
+                    <NPCCard key={npc.id} npc={npc} gameState={gameState} onLongPressNpc={onLongPressNpc} />
+                ))}
+            </div>
+        </div>
+    );
+};
+
+export default NPCGrid;

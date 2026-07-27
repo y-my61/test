@@ -1,1 +1,238 @@
-LyoqCiAqIE1lbW9yeSBQYWxhY2Ug4oCUIOa3t+WQiOaQnOe0oiArIOaIv+mXtOivhOWIhgogKgogKiA4NSUg5ZCR6YePICsgMTUlIEJNMjUg6J6N5ZCI77yM54S25ZCO5oyJ5oi/6Ze054m55oCn6LCD5pW06K+E5YiG44CCCiAqLwoKaW1wb3J0IHR5cGUgeyBFbWJlZGRpbmdDb25maWcsIE1lbW9yeU5vZGUsIE1lbW9yeVJvb20sIE1lbW9yeVZlY3RvciwgU2NvcmVkTWVtb3J5LCBSZW1vdGVWZWN0b3JDb25maWcgfSBmcm9tICcuL3R5cGVzJzsKaW1wb3J0IHsgTWVtb3J5Tm9kZURCIH0gZnJvbSAnLi9kYic7CmltcG9ydCB7IGdldEVtYmVkZGluZyB9IGZyb20gJy4vZW1iZWRkaW5nJzsKaW1wb3J0IHsgdmVjdG9yU2VhcmNoIH0gZnJvbSAnLi92ZWN0b3JTZWFyY2gnOwppbXBvcnQgeyBibTI1U2VhcmNoLCBibTI1U2VhcmNoSW5kZXhlZCwgYm0yNVNlYXJjaER1YWxSdW4gfSBmcm9tICcuL2JtMjUnOwppbXBvcnQgeyBibTI1SW5kZXggfSBmcm9tICcuL2JtMjVJbmRleCc7CmltcG9ydCB7IGNhbGN1bGF0ZUVmZmVjdGl2ZUltcG9ydGFuY2UgfSBmcm9tICcuL2NvbnNvbGlkYXRpb24nOwoKLy8g4pSA4pSA4pSAIEJNMjUg54Gw5bqm5byA5YWzIOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgAovLwovLyBsb2NhbFN0b3JhZ2UgJ2JtMjVfbW9kZSfvvJoKLy8gICDmnKrorr7nva4gLyAnbmFpdmUnICDihpIg5py057Sg5YWo6YeP5omr5o+P77yI6buY6K6k77yM6KGM5Li65LiO5pS56YCg5YmN5LiA6Ie077yJCi8vICAgJ2luZGV4ZWQnICAgICAgICAg4oaSIOWAkuaOkue0ouW8leeJiO+8iE8oUcOXcG9zdGluZ3Mp77yM6ZyAIGVuc3VyZUJ1aWx077yJCi8vICAgJ2R1YWwnICAgICAgICAgICAg4oaSIOWPjOi3keagoemqjO+8mui3keS4pOeJiOWvueavlCB0b3AgS++8jOi/lOWbnuactOe0oOeJiOe7k+aenAovLwovLyDngbDluqbot6/lvoTvvJrpu5jorqQgbmFpdmUg4oaSIOW8gOWPkS/ngbDluqYgZHVhbCDihpIg6aqM6K+B5pegIG1pc21hdGNoIOWIhyBpbmRleGVkIOKGkgovLyDkuIDkuKTkuKrniYjmnKzlkajmnJ/lkI7liKDpmaTmnLTntKDniYjjgIIKdHlwZSBCTTI1TW9kZSA9ICduYWl2ZScgfCAnaW5kZXhlZCcgfCAnZHVhbCc7CmZ1bmN0aW9uIGdldEJNMjVNb2RlKCk6IEJNMjVNb2RlIHsKICAgIHRyeSB7CiAgICAgICAgY29uc3QgdiA9IGxvY2FsU3RvcmFnZS5nZXRJdGVtKCdibTI1X21vZGUnKTsKICAgICAgICBpZiAodiA9PT0gJ2luZGV4ZWQnIHx8IHYgPT09ICdkdWFsJykgcmV0dXJuIHY7CiAgICB9IGNhdGNoIHsgLyogU1NSIC8g6ZqQ56eB5qih5byPICovIH0KICAgIHJldHVybiAnbmFpdmUnOwp9CgovLyDilIDilIDilIAg5oi/6Ze06K+E5YiG5p2D6YeNIOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgAoKaW50ZXJmYWNlIFJvb21XZWlnaHRzIHsKICAgIHNpbWlsYXJpdHk6IG51bWJlcjsKICAgIHJlY2VuY3k6IG51bWJlcjsKICAgIGltcG9ydGFuY2U6IG51bWJlcjsKfQoKY29uc3QgUk9PTV9XRUlHSFRTOiBSZWNvcmQ8TWVtb3J5Um9vbSwgUm9vbVdlaWdodHM+ID0gewogICAgbGl2aW5nX3Jvb206IHsgc2ltaWxhcml0eTogMC41MCwgcmVjZW5jeTogMC4zMCwgaW1wb3J0YW5jZTogMC4yMCB9LAogICAgYmVkcm9vbTogICAgIHsgc2ltaWxhcml0eTogMC42MCwgcmVjZW5jeTogMC4xMCwgaW1wb3J0YW5jZTogMC4zMCB9LAogICAgc3R1ZHk6ICAgICAgIHsgc2ltaWxhcml0eTogMC41NSwgcmVjZW5jeTogMC4xNSwgaW1wb3J0YW5jZTogMC4zMCB9LAogICAgdXNlcl9yb29tOiAgIHsgc2ltaWxhcml0eTogMC41NSwgcmVjZW5jeTogMC4xNSwgaW1wb3J0YW5jZTogMC4zMCB9LAogICAgc2VsZl9yb29tOiAgIHsgc2ltaWxhcml0eTogMC41NSwgcmVjZW5jeTogMC4xNSwgaW1wb3J0YW5jZTogMC4zMCB9LAogICAgYXR0aWM6ICAgICAgIHsgc2ltaWxhcml0eTogMC43MCwgcmVjZW5jeTogMC4wMCwgaW1wb3J0YW5jZTogMC4zMCB9LAogICAgd2luZG93c2lsbDogIHsgc2ltaWxhcml0eTogMC41NSwgcmVjZW5jeTogMC4xNSwgaW1wb3J0YW5jZTogMC4zMCB9LAp9OwoKY29uc3QgVkVDVE9SX1dFSUdIVCA9IDAuODU7CmNvbnN0IEJNMjVfV0VJR0hUID0gMC4xNTsKY29uc3QgUkVDRU5DWV9ERUNBWSA9IDAuOTk5OyAvLyBwZXIgaG91cgoKLy8g4pSA4pSA4pSAIOeGn+aCieW6puWKoOaIkO+8iGFjY2Vzc0NvdW5077yJ4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSACi8vCi8vIOiuvuiuoeWOn+WIme+8mkFJIOS4jeivpeWDj+S6uuS4gOagt+iHqueEtumBl+W/mO+8iOmBl+W/mOWcqOS6p+WTgemHjOaYryBidWfvvInvvIwKLy8g5omA5LulIGFjY2Vzc0NvdW50IOS4jeeUqOadpSLkv53miqTorrDlv4bkuI3oobDlh48i77yM6ICM5piv55So5p2l57uZ5bi46KKr5oOz6LW355qECi8vIOivnemimOS4gOS4qui9u+W6pua1rueOsOWKoOaIkOKAlOKAlOi2iueGn+eahOivnemimOi2iuWuueaYk+iiq+aDs+i1t+adpeOAggovLwovLyDlhazlvI/vvJpmYW1pbGlhcml0eSA9IG1pbigxLCAobWF4KDAsIGFjY2Vzc0NvdW50IC0gMSkpXjAuMyAvIDQpCi8vICAgLSBjb3VudD0wLzEgKOS7juacquiiq+ajgOe0ouWIsCkg4oaSIDAKLy8gICAtIGNvdW50PTMgIOKGkiAgMC4zMQovLyAgIC0gY291bnQ9MTAg4oaSICAwLjQ4Ci8vICAgLSBjb3VudD0xMDAg4oaSIDEuMO+8iOWwgemhtu+8iQovLwovLyDmnIDnu4jliqDmiJDvvJpmaW5hbFNjb3JlICs9IEZBTUlMSUFSSVRZX1dFSUdIVCAqIGZhbWlsaWFyaXR5Ci8vIOadg+mHjSAwLjA1IOKAlOKAlCDotrPlpJ/orqnnhp/mgonor53popjlhpLlpLTvvIzkuI3kvJrljovov4cgc2ltaWxhcml0eSAvIGltcG9ydGFuY2XjgIIKY29uc3QgRkFNSUxJQVJJVFlfV0VJR0hUID0gMC4wNTsKCmZ1bmN0aW9uIGZhbWlsaWFyaXR5Qm9udXMoYWNjZXNzQ291bnQ6IG51bWJlcik6IG51bWJlciB7CiAgICBjb25zdCBuID0gTWF0aC5tYXgoMCwgKGFjY2Vzc0NvdW50IHx8IDApIC0gMSk7CiAgICBpZiAobiA9PT0gMCkgcmV0dXJuIDA7CiAgICByZXR1cm4gTWF0aC5taW4oMSwgTWF0aC5wb3cobiwgMC4zKSAvIDQpOwp9CgovLyDilIDilIDilIAg5re35ZCI5pCc57SiIOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgAoKLyoqCiAqIOWQjOasoSByZXRyaWV2ZSDlhoUgSyDot68gaHlicmlkU2VhcmNoIOWFseS6q+eahOmihOWPluaVsOaNruOAggogKiDnlLEgcGlwZWxpbmUg5Zyo5Y+R6LW35bm26KGM5pCc57Si5YmN5LiA5qyh5oCn5Y+W5aW977yM6YG/5YWNIEsg5YCN55qECiAqIEVtYmVkZGluZyBBUEkg6LCD55So5ZKMIEsg5YCN55qE5YWo6YePIElEQiDmiavooajjgIIKICovCmV4cG9ydCBpbnRlcmZhY2UgSHlicmlkU2VhcmNoUHJlZmV0Y2ggewogICAgLyoqIOW3sue7j+WQkemHj+WMluWlveeahCBxdWVyeSDigJQg6Lez6L+H5pys6Lev55qEIGdldEVtYmVkZGluZyDosIPnlKggKi8KICAgIHF1ZXJ5VmVjdG9yPzogRmxvYXQzMkFycmF5OwogICAgLyoqIOinkuiJsuWFqOmHjyBNZW1vcnlOb2Rl77yI5ZCrIGFyY2hpdmVkIC8g5pyqIGVtYmVkZGVk77yM55SxIGh5YnJpZFNlYXJjaCDlhoXpg6jov4fmu6TvvIkgKi8KICAgIGFsbE5vZGVzPzogTWVtb3J5Tm9kZVtdOwogICAgLyoqIOinkuiJsuWFqOmHjyBNZW1vcnlWZWN0b3LvvJvku4XnlKjkuo7mnKzlnLDlkJHph4/ot6/lvoTvvIzov5znqIvot6/lvoTkuI3mtojotLkgKi8KICAgIGFsbFZlY3RvcnM/OiBNZW1vcnlWZWN0b3JbXTsKfQoKLyoqCiAqIOa3t+WQiOaQnOe0ou+8muWQkemHjyArIEJNMjUgKyDmiL/pl7Tor4TliIYKICoKICogQHBhcmFtIHF1ZXJ5IOafpeivouaWh+acrO+8iOmAmuW4uOS4uuacgOi/kSAzIOadoea2iOaBr+aLvOaOpe+8iQogKiBAcGFyYW0gY2hhcklkIOinkuiJsiBJRAogKiBAcGFyYW0gZW1iZWRkaW5nQ29uZmlnIEVtYmVkZGluZyDphY3nva4KICogQHBhcmFtIHRvcEsg5pyA57uI6L+U5Zue5pWw6YePCiAqLwpleHBvcnQgYXN5bmMgZnVuY3Rpb24gaHlicmlkU2VhcmNoKAogICAgcXVlcnk6IHN0cmluZywKICAgIGNoYXJJZDogc3RyaW5nLAogICAgZW1iZWRkaW5nQ29uZmlnOiBFbWJlZGRpbmdDb25maWcsCiAgICB0b3BLOiBudW1iZXIgPSAxNSwKICAgIHJlbW90ZVZlY3RvckNvbmZpZz86IFJlbW90ZVZlY3RvckNvbmZpZywKICAgIHByZWZldGNoPzogSHlicmlkU2VhcmNoUHJlZmV0Y2gsCik6IFByb21pc2U8U2NvcmVkTWVtb3J5W10+IHsKICAgIC8vIDEuIOWQkemHj+WMluafpeivou+8iOS8mOWFiOeUqCBwaXBlbGluZSDpooTlj5blpb3nmoTvvIznnIHmjokgSyDmrKEgQVBJIOiwg+eUqO+8iQogICAgY29uc3QgcXVlcnlWZWN0b3IgPSBwcmVmZXRjaD8ucXVlcnlWZWN0b3IgPz8gYXdhaXQgZ2V0RW1iZWRkaW5nKHF1ZXJ5LCBlbWJlZGRpbmdDb25maWcpOwoKICAgIC8vIDIuIOWQkemHj+aQnOe0ou+8iOi/nOeoi+S8mOWFiO+8jOacrOWcsOWFnOW6le+8iQogICAgLy8KICAgIC8vIOWOhuWPsuaVmeiure+8muabvue7j+aKiui/meS4quWAmemAieaxoOS7jiAzMCDmianliLAgNjAg6K+V5Zu+5pS+5aSn5ZCM5Li76aKY5Y+s5Zue5bm/5bqm77yMCiAgICAvLyDnu5Pmnpzlj43ogIzlj5jlt67igJTigJRzaW0gMC4zNS0wLjQ1IOeahCLms5vmg4XmhJ/pq5ggaW1wIuiusOW/huiiq+aUvui/m+adpe+8jAogICAgLy8g5Zyo5oi/6Ze06K+E5YiG77yIc2ltIOadg+mHjSA1NSXjgIFpbXAvcmVjZW5jeSDlkIjorqEgNDUl77yJ6YeM5Yet5YCfIGltcCDlkowKICAgIC8vIHJlY2VuY3kg5Y+N6LaF5LqGIHNpbSDmm7Tnsr7lh4bkvYYgaW1wX2VmZiDlgY/kvY7nmoTor53popjnm67moIforrDlv4bvvIjlpoIi5aSW5YWsIgogICAgLy8g6JC95ZyoIHN0dWR5IOaIv+mXtO+8jGltcCDoobDlh4/ov4fvvInjgIIKICAgIC8vIOe7k+iuuu+8muWAmemAieaxoOS4jeW6lOS9nOS4uuWPrOWbnuW5v+W6pueahOaXi+mSruOAgueyvuWHhuW6pumdoCBwZXItbWVzc2FnZSDlpJrot6/mkJwKICAgIC8vICsgaW1wIGZsb29yIOWcqCBwaXBlbGluZSDlsYLop6PlhrPvvIzlgJnpgInmsaAgMzAg5bey6Laz5aSf44CCCiAgICBjb25zdCB2ZWN0b3JSZXN1bHRzID0gYXdhaXQgdmVjdG9yU2VhcmNoKHF1ZXJ5VmVjdG9yLCBjaGFySWQsIDAuMywgMzAsIHJlbW90ZVZlY3RvckNvbmZpZywgcHJlZmV0Y2g/LmFsbFZlY3RvcnMpOwoKICAgIC8vIDMuIEJNMjUg5pCc57Si77yI5o6S6ZmkIGFyY2hpdmVkIOiKgueCuSDigJTigJQg5a6D5Lus5bey6KKr5Y6L5YWlIEV2ZW50Qm94IHN1bW1hcnnvvIkKICAgIGNvbnN0IGFsbE5vZGVzID0gcHJlZmV0Y2g/LmFsbE5vZGVzID8/IGF3YWl0IE1lbW9yeU5vZGVEQi5nZXRCeUNoYXJJZChjaGFySWQpOwogICAgY29uc3Qgc2VhcmNoYWJsZU5vZGVzID0gYWxsTm9kZXMuZmlsdGVyKG4gPT4gbi5lbWJlZGRlZCAmJiAhbi5hcmNoaXZlZCk7CgogICAgLy8g5YCS5o6S57Si5byV5oyJIuWFqOmHj+iKgueCuSLmnoTlu7rvvIjlkKsgYXJjaGl2ZWQgLyDmnKogZW1iZWRkZWTvvInvvIx1bmFyY2hpdmUg5ZCO56uL5Y2z5Y+v5pCc77yMCiAgICAvLyDlrp7pmYXov4fmu6TkuqTnu5kgYm0yNVNlYXJjaEluZGV4ZWQg55SoIHNlYXJjaGFibGVOb2RlcyDnmoQgaWQg6ZuG5YGa55m95ZCN5Y2V44CCCiAgICAvLyBlbnN1cmVCdWlsdCDlt7LlrZjlnKjliJnnp5Lov5TjgIIKICAgIGNvbnN0IGJtMjVNb2RlID0gZ2V0Qk0yNU1vZGUoKTsKICAgIGlmIChibTI1TW9kZSAhPT0gJ25haXZlJykgewogICAgICAgIGJtMjVJbmRleC5lbnN1cmVCdWlsdChjaGFySWQsIGFsbE5vZGVzKTsKICAgIH0KICAgIGNvbnN0IGJtMjVSZXN1bHRzID0KICAgICAgICBibTI1TW9kZSA9PT0gJ2luZGV4ZWQnID8gYm0yNVNlYXJjaEluZGV4ZWQocXVlcnksIHNlYXJjaGFibGVOb2RlcywgMzApIDoKICAgICAgICBibTI1TW9kZSA9PT0gJ2R1YWwnICAgID8gYm0yNVNlYXJjaER1YWxSdW4ocXVlcnksIHNlYXJjaGFibGVOb2RlcywgMzApIDoKICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgYm0yNVNlYXJjaChxdWVyeSwgc2VhcmNoYWJsZU5vZGVzLCAzMCk7CgogICAgLy8gM2IuIOacrOWcsOiKgueCuee0ouW8le+8mueUqOS6juWwhuS6keerr+i/lOWbnueahOi9u+mHjyBub2RlIOihpeWFqOS4uuWujOaVtCBub2RlCiAgICAvLyAgICAg77yIYWxsTm9kZXMg5bey5Zyo5YaF5a2Y5Lit77yM6Zu26aKd5aSW5byA6ZSA77yJCiAgICBjb25zdCBsb2NhbE5vZGVNYXAgPSBuZXcgTWFwKGFsbE5vZGVzLm1hcChuID0+IFtuLmlkLCBuXSkpOwoKICAgIC8vIDQuIOiejeWQiO+8muaehOW7uiBub2RlSWQg4oaSIHNjb3JlcyDmmKDlsIQKICAgIGNvbnN0IHNjb3JlTWFwID0gbmV3IE1hcDxzdHJpbmcsIHsKICAgICAgICBub2RlOiBNZW1vcnlOb2RlOwogICAgICAgIHZlY3RvclNpbTogbnVtYmVyOwogICAgICAgIGJtMjVTY29yZTogbnVtYmVyOwogICAgfT4oKTsKCiAgICAvLyDlvZLkuIDljJYgQk0yNSDliIbmlbDliLAgMC0xCiAgICBjb25zdCBtYXhCbTI1ID0gYm0yNVJlc3VsdHMubGVuZ3RoID4gMCA/IGJtMjVSZXN1bHRzWzBdLnNjb3JlIDogMTsKCiAgICBmb3IgKGNvbnN0IHZyIG9mIHZlY3RvclJlc3VsdHMpIHsKICAgICAgICAvLyDkvJjlhYjkvb/nlKjmnKzlnLDlrozmlbQgbm9kZe+8iOWQqyBldmVudEJveElkIC8gYXJjaGl2ZWQg562J5pyA5paw54q25oCB77yJCiAgICAgICAgY29uc3QgZnVsbE5vZGUgPSBsb2NhbE5vZGVNYXAuZ2V0KHZyLm5vZGUuaWQpIHx8IHZyLm5vZGU7CiAgICAgICAgLy8g5LqM5qyh5L+d6Zmp77ya5pys5Zyw5oCB5pi+56S6IGFyY2hpdmVkIOKGkiDot7Pov4fvvIjov5znqIvliJrooqsgYXJjaGl2ZSDkvYYgUlBDIOacquWPiuaXtuWPjeaYoOeahOaDheWGte+8iQogICAgICAgIGlmIChmdWxsTm9kZS5hcmNoaXZlZCkgY29udGludWU7CiAgICAgICAgc2NvcmVNYXAuc2V0KHZyLm5vZGUuaWQsIHsKICAgICAgICAgICAgbm9kZTogZnVsbE5vZGUsCiAgICAgICAgICAgIHZlY3RvclNpbTogdnIuc2ltaWxhcml0eSwKICAgICAgICAgICAgYm0yNVNjb3JlOiAwLAogICAgICAgIH0pOwogICAgfQoKICAgIGZvciAoY29uc3QgYnIgb2YgYm0yNVJlc3VsdHMpIHsKICAgICAgICBjb25zdCBub3JtYWxpemVkID0gbWF4Qm0yNSA+IDAgPyBici5zY29yZSAvIG1heEJtMjUgOiAwOwogICAgICAgIGNvbnN0IGV4aXN0aW5nID0gc2NvcmVNYXAuZ2V0KGJyLm5vZGUuaWQpOwogICAgICAgIGlmIChleGlzdGluZykgewogICAgICAgICAgICBleGlzdGluZy5ibTI1U2NvcmUgPSBub3JtYWxpemVkOwogICAgICAgIH0gZWxzZSB7CiAgICAgICAgICAgIHNjb3JlTWFwLnNldChici5ub2RlLmlkLCB7CiAgICAgICAgICAgICAgICBub2RlOiBici5ub2RlLAogICAgICAgICAgICAgICAgdmVjdG9yU2ltOiAwLAogICAgICAgICAgICAgICAgYm0yNVNjb3JlOiBub3JtYWxpemVkLAogICAgICAgICAgICB9KTsKICAgICAgICB9CiAgICB9CgogICAgLy8gNS4g6K6h566X5re35ZCI5YiG5pWwICsg5oi/6Ze06K+E5YiGCiAgICBjb25zdCBub3cgPSBEYXRlLm5vdygpOwogICAgY29uc3QgcmVzdWx0czogU2NvcmVkTWVtb3J5W10gPSBbXTsKCiAgICBmb3IgKGNvbnN0IFssIGVudHJ5XSBvZiBzY29yZU1hcCkgewogICAgICAgIGNvbnN0IHsgbm9kZSwgdmVjdG9yU2ltLCBibTI1U2NvcmUgfSA9IGVudHJ5OwoKICAgICAgICAvLyDmt7flkIjnm7jkvLzluqYKICAgICAgICBjb25zdCBoeWJyaWRTaW0gPSBWRUNUT1JfV0VJR0hUICogdmVjdG9yU2ltICsgQk0yNV9XRUlHSFQgKiBibTI1U2NvcmU7CgogICAgICAgIC8vIOaWsOi/keW6pu+8iOaMh+aVsOihsOWHj++8iQogICAgICAgIGNvbnN0IGhvdXJzQWdvID0gKG5vdyAtIG5vZGUubGFzdEFjY2Vzc2VkQXQpIC8gKDEwMDAgKiA2MCAqIDYwKTsKICAgICAgICBjb25zdCByZWNlbmN5ID0gTWF0aC5wb3coUkVDRU5DWV9ERUNBWSwgaG91cnNBZ28pOwoKICAgICAgICAvLyDmnInmlYjph43opoHmgKfvvIjlvZLkuIDljJbliLAgMC0x77yJCiAgICAgICAgY29uc3QgZWZmZWN0aXZlSW1wID0gY2FsY3VsYXRlRWZmZWN0aXZlSW1wb3J0YW5jZShub2RlLCBub3cpIC8gMTA7CgogICAgICAgIC8vIOaIv+mXtOadg+mHjQogICAgICAgIGNvbnN0IHdlaWdodHMgPSBST09NX1dFSUdIVFNbbm9kZS5yb29tXTsKCiAgICAgICAgLy8g6ICB6K6w5b+GIHJlY2VuY3kg5Zue5pS277yI5omA5pyJ5pyJIHJlY2VuY3kg5p2D6YeN55qE5oi/6Ze077yJ77yaCiAgICAgICAgLy8gICByZWNlbmN5ID0gUkVDRU5DWV9ERUNBWV5ob3Vyc0Fnb++8jOe6piAxMDAg5aSp5ZCO5Lya6ZmN5YiwIDAuMSDku6XkuIvvvIzlho3lvoDlkI4KICAgICAgICAvLyAgIOi/meS4quS/oeWPt+WvueaOkuW6j+WHoOS5juaXoOi0oeeMruOAguS9huaIv+mXtOadg+mHjemHjCByZWNlbmN5IOS7vemineayoeW9kumbtu+8iGxpdmluZ19yb29tIDAuMzDjgIEKICAgICAgICAvLyAgIHN0dWR5L3VzZXJfcm9vbS9zZWxmX3Jvb20vd2luZG93c2lsbCAwLjE144CBYmVkcm9vbSAwLjEw77yJ77yM6L+Z6YOo5YiG5p2D6YeNCiAgICAgICAgLy8gICDnrYnkuo7nmb3pgIHigJTigJTlkIzkuIDmnaHorrDlv4Ygc2ltL2ltcCDlho3pq5jkuZ/ooqvlsJHnrpfkuIDmiKrjgIIKICAgICAgICAvLwogICAgICAgIC8vICAg6KeE5YiZ77ya5Lu75oSP5oi/6Ze0IHJlY2VuY3kgPCAwLjEg5pe277yM5oqKIHJlY2VuY3kg55qE5p2D6YeN5bmz5Z2H5YiG6YWN57uZIHNpbWlsYXJpdHkKICAgICAgICAvLyAgIOWSjCBpbXBvcnRhbmNl77yI5ZCEICt3ZWlnaHRzLnJlY2VuY3kvMu+8ie+8jHJlY2VuY3kg5p2D6YeN5b2S6Zu244CC6L+Z5p2h6KeE5YiZ5a+5IGF0dGljCiAgICAgICAgLy8gICDlpKnnhLbml6DlvbHlk43vvIjlroMgcmVjZW5jeSDmnYPph43mnKzmnaXlsLHmmK8gMO+8ie+8jOWvueWFtuWug+aIv+mXtOetieS6jiLml6forrDlv4bml7bmiornmb3pgIHnmoQKICAgICAgICAvLyAgIOadg+mHjei/mOe7mSBzaW0vaW1wIu+8jOiuqeaXp+iAjOeyvuWHhueahOiusOW/huS4jeiiq+ihsOWHj+WQg+aOieOAggogICAgICAgIGxldCBzaW1XID0gd2VpZ2h0cy5zaW1pbGFyaXR5OwogICAgICAgIGxldCByZWNXID0gd2VpZ2h0cy5yZWNlbmN5OwogICAgICAgIGxldCBpbXBXID0gd2VpZ2h0cy5pbXBvcnRhbmNlOwogICAgICAgIGlmICh3ZWlnaHRzLnJlY2VuY3kgPiAwICYmIHJlY2VuY3kgPCAwLjEpIHsKICAgICAgICAgICAgY29uc3QgcmVkaXN0cmlidXRlID0gd2VpZ2h0cy5yZWNlbmN5IC8gMjsKICAgICAgICAgICAgc2ltVyArPSByZWRpc3RyaWJ1dGU7CiAgICAgICAgICAgIGltcFcgKz0gcmVkaXN0cmlidXRlOwogICAgICAgICAgICByZWNXID0gMDsKICAgICAgICB9CgogICAgICAgIGNvbnN0IGJhc2VTY29yZSA9IHNpbVcgKiBoeWJyaWRTaW0gKyByZWNXICogcmVjZW5jeSArIGltcFcgKiBlZmZlY3RpdmVJbXA7CgogICAgICAgIC8vIOeGn+aCieW6puWKoOaIkO+8iOi9u+adg+mHje+8jOmYsuatouW4uOiBiuivnemimOayieW6le+8iQogICAgICAgIGNvbnN0IGZhbWlsaWFyaXR5ID0gZmFtaWxpYXJpdHlCb251cyhub2RlLmFjY2Vzc0NvdW50KTsKICAgICAgICBjb25zdCByb29tU2NvcmUgPSBiYXNlU2NvcmUgKyBGQU1JTElBUklUWV9XRUlHSFQgKiBmYW1pbGlhcml0eTsKCiAgICAgICAgcmVzdWx0cy5wdXNoKHsKICAgICAgICAgICAgbm9kZSwKICAgICAgICAgICAgZmluYWxTY29yZTogcm9vbVNjb3JlLAogICAgICAgICAgICBzaW1pbGFyaXR5OiB2ZWN0b3JTaW0sCiAgICAgICAgICAgIGJtMjVTY29yZSwKICAgICAgICAgICAgcm9vbVNjb3JlLAogICAgICAgIH0pOwogICAgfQoKICAgIC8vIDYuIOaMiSBmaW5hbFNjb3JlIOmZjeW6jwogICAgcmVzdWx0cy5zb3J0KChhLCBiKSA9PiBiLmZpbmFsU2NvcmUgLSBhLmZpbmFsU2NvcmUpOwoKICAgIHJldHVybiByZXN1bHRzLnNsaWNlKDAsIHRvcEspOwp9Cg==
+/**
+ * Memory Palace — 混合搜索 + 房间评分
+ *
+ * 85% 向量 + 15% BM25 融合，然后按房间特性调整评分。
+ */
+
+import type { EmbeddingConfig, MemoryNode, MemoryRoom, MemoryVector, ScoredMemory, RemoteVectorConfig } from './types';
+import { MemoryNodeDB } from './db';
+import { getEmbedding } from './embedding';
+import { vectorSearch } from './vectorSearch';
+import { bm25Search, bm25SearchIndexed, bm25SearchDualRun } from './bm25';
+import { bm25Index } from './bm25Index';
+import { calculateEffectiveImportance } from './consolidation';
+
+// ─── BM25 灰度开关 ────────────────────────────────────
+//
+// localStorage 'bm25_mode'：
+//   未设置 / 'naive'  → 朴素全量扫描（默认，行为与改造前一致）
+//   'indexed'         → 倒排索引版（O(Q×postings)，需 ensureBuilt）
+//   'dual'            → 双跑校验：跑两版对比 top K，返回朴素版结果
+//
+// 灰度路径：默认 naive → 开发/灰度 dual → 验证无 mismatch 切 indexed →
+// 一两个版本周期后删除朴素版。
+type BM25Mode = 'naive' | 'indexed' | 'dual';
+function getBM25Mode(): BM25Mode {
+    try {
+        const v = localStorage.getItem('bm25_mode');
+        if (v === 'indexed' || v === 'dual') return v;
+    } catch { /* SSR / 隐私模式 */ }
+    return 'naive';
+}
+
+// ─── 房间评分权重 ─────────────────────────────────────
+
+interface RoomWeights {
+    similarity: number;
+    recency: number;
+    importance: number;
+}
+
+const ROOM_WEIGHTS: Record<MemoryRoom, RoomWeights> = {
+    living_room: { similarity: 0.50, recency: 0.30, importance: 0.20 },
+    bedroom:     { similarity: 0.60, recency: 0.10, importance: 0.30 },
+    study:       { similarity: 0.55, recency: 0.15, importance: 0.30 },
+    user_room:   { similarity: 0.55, recency: 0.15, importance: 0.30 },
+    self_room:   { similarity: 0.55, recency: 0.15, importance: 0.30 },
+    attic:       { similarity: 0.70, recency: 0.00, importance: 0.30 },
+    windowsill:  { similarity: 0.55, recency: 0.15, importance: 0.30 },
+};
+
+const VECTOR_WEIGHT = 0.85;
+const BM25_WEIGHT = 0.15;
+const RECENCY_DECAY = 0.999; // per hour
+
+// ─── 熟悉度加成（accessCount）──────────────────────
+//
+// 设计原则：AI 不该像人一样自然遗忘（遗忘在产品里是 bug），
+// 所以 accessCount 不用来"保护记忆不衰减"，而是用来给常被想起的
+// 话题一个轻度浮现加成——越熟的话题越容易被想起来。
+//
+// 公式：familiarity = min(1, (max(0, accessCount - 1))^0.3 / 4)
+//   - count=0/1 (从未被检索到) → 0
+//   - count=3  →  0.31
+//   - count=10 →  0.48
+//   - count=100 → 1.0（封顶）
+//
+// 最终加成：finalScore += FAMILIARITY_WEIGHT * familiarity
+// 权重 0.05 —— 足够让熟悉话题冒头，不会压过 similarity / importance。
+const FAMILIARITY_WEIGHT = 0.05;
+
+function familiarityBonus(accessCount: number): number {
+    const n = Math.max(0, (accessCount || 0) - 1);
+    if (n === 0) return 0;
+    return Math.min(1, Math.pow(n, 0.3) / 4);
+}
+
+// ─── 混合搜索 ─────────────────────────────────────────
+
+/**
+ * 同次 retrieve 内 K 路 hybridSearch 共享的预取数据。
+ * 由 pipeline 在发起并行搜索前一次性取好，避免 K 倍的
+ * Embedding API 调用和 K 倍的全量 IDB 扫表。
+ */
+export interface HybridSearchPrefetch {
+    /** 已经向量化好的 query — 跳过本路的 getEmbedding 调用 */
+    queryVector?: Float32Array;
+    /** 角色全量 MemoryNode（含 archived / 未 embedded，由 hybridSearch 内部过滤） */
+    allNodes?: MemoryNode[];
+    /** 角色全量 MemoryVector；仅用于本地向量路径，远程路径不消费 */
+    allVectors?: MemoryVector[];
+}
+
+/**
+ * 混合搜索：向量 + BM25 + 房间评分
+ *
+ * @param query 查询文本（通常为最近 3 条消息拼接）
+ * @param charId 角色 ID
+ * @param embeddingConfig Embedding 配置
+ * @param topK 最终返回数量
+ */
+export async function hybridSearch(
+    query: string,
+    charId: string,
+    embeddingConfig: EmbeddingConfig,
+    topK: number = 15,
+    remoteVectorConfig?: RemoteVectorConfig,
+    prefetch?: HybridSearchPrefetch,
+): Promise<ScoredMemory[]> {
+    // 1. 向量化查询（优先用 pipeline 预取好的，省掉 K 次 API 调用）
+    const queryVector = prefetch?.queryVector ?? await getEmbedding(query, embeddingConfig);
+
+    // 2. 向量搜索（远程优先，本地兜底）
+    //
+    // 历史教训：曾经把这个候选池从 30 扩到 60 试图放大同主题召回广度，
+    // 结果反而变差——sim 0.35-0.45 的"泛情感高 imp"记忆被放进来，
+    // 在房间评分（sim 权重 55%、imp/recency 合计 45%）里凭借 imp 和
+    // recency 反超了 sim 更精准但 imp_eff 偏低的话题目标记忆（如"外公"
+    // 落在 study 房间，imp 衰减过）。
+    // 结论：候选池不应作为召回广度的旋钮。精准度靠 per-message 多路搜
+    // + imp floor 在 pipeline 层解决，候选池 30 已足够。
+    const vectorResults = await vectorSearch(queryVector, charId, 0.3, 30, remoteVectorConfig, prefetch?.allVectors);
+
+    // 3. BM25 搜索（排除 archived 节点 —— 它们已被压入 EventBox summary）
+    const allNodes = prefetch?.allNodes ?? await MemoryNodeDB.getByCharId(charId);
+    const searchableNodes = allNodes.filter(n => n.embedded && !n.archived);
+
+    // 倒排索引按"全量节点"构建（含 archived / 未 embedded），unarchive 后立即可搜，
+    // 实际过滤交给 bm25SearchIndexed 用 searchableNodes 的 id 集做白名单。
+    // ensureBuilt 已存在则秒返。
+    const bm25Mode = getBM25Mode();
+    if (bm25Mode !== 'naive') {
+        bm25Index.ensureBuilt(charId, allNodes);
+    }
+    const bm25Results =
+        bm25Mode === 'indexed' ? bm25SearchIndexed(query, searchableNodes, 30) :
+        bm25Mode === 'dual'    ? bm25SearchDualRun(query, searchableNodes, 30) :
+                                 bm25Search(query, searchableNodes, 30);
+
+    // 3b. 本地节点索引：用于将云端返回的轻量 node 补全为完整 node
+    //     （allNodes 已在内存中，零额外开销）
+    const localNodeMap = new Map(allNodes.map(n => [n.id, n]));
+
+    // 4. 融合：构建 nodeId → scores 映射
+    const scoreMap = new Map<string, {
+        node: MemoryNode;
+        vectorSim: number;
+        bm25Score: number;
+    }>();
+
+    // 归一化 BM25 分数到 0-1
+    const maxBm25 = bm25Results.length > 0 ? bm25Results[0].score : 1;
+
+    for (const vr of vectorResults) {
+        // 优先使用本地完整 node（含 eventBoxId / archived 等最新状态）
+        const fullNode = localNodeMap.get(vr.node.id) || vr.node;
+        // 二次保险：本地态显示 archived → 跳过（远程刚被 archive 但 RPC 未及时反映的情况）
+        if (fullNode.archived) continue;
+        scoreMap.set(vr.node.id, {
+            node: fullNode,
+            vectorSim: vr.similarity,
+            bm25Score: 0,
+        });
+    }
+
+    for (const br of bm25Results) {
+        const normalized = maxBm25 > 0 ? br.score / maxBm25 : 0;
+        const existing = scoreMap.get(br.node.id);
+        if (existing) {
+            existing.bm25Score = normalized;
+        } else {
+            scoreMap.set(br.node.id, {
+                node: br.node,
+                vectorSim: 0,
+                bm25Score: normalized,
+            });
+        }
+    }
+
+    // 5. 计算混合分数 + 房间评分
+    const now = Date.now();
+    const results: ScoredMemory[] = [];
+
+    for (const [, entry] of scoreMap) {
+        const { node, vectorSim, bm25Score } = entry;
+
+        // 混合相似度
+        const hybridSim = VECTOR_WEIGHT * vectorSim + BM25_WEIGHT * bm25Score;
+
+        // 新近度（指数衰减）
+        const hoursAgo = (now - node.lastAccessedAt) / (1000 * 60 * 60);
+        const recency = Math.pow(RECENCY_DECAY, hoursAgo);
+
+        // 有效重要性（归一化到 0-1）
+        const effectiveImp = calculateEffectiveImportance(node, now) / 10;
+
+        // 房间权重
+        const weights = ROOM_WEIGHTS[node.room];
+
+        // 老记忆 recency 回收（所有有 recency 权重的房间）：
+        //   recency = RECENCY_DECAY^hoursAgo，约 100 天后会降到 0.1 以下，再往后
+        //   这个信号对排序几乎无贡献。但房间权重里 recency 份额没归零（living_room 0.30、
+        //   study/user_room/self_room/windowsill 0.15、bedroom 0.10），这部分权重
+        //   等于白送——同一条记忆 sim/imp 再高也被少算一截。
+        //
+        //   规则：任意房间 recency < 0.1 时，把 recency 的权重平均分配给 similarity
+        //   和 importance（各 +weights.recency/2），recency 权重归零。这条规则对 attic
+        //   天然无影响（它 recency 权重本来就是 0），对其它房间等于"旧记忆时把白送的
+        //   权重还给 sim/imp"，让旧而精准的记忆不被衰减吃掉。
+        let simW = weights.similarity;
+        let recW = weights.recency;
+        let impW = weights.importance;
+        if (weights.recency > 0 && recency < 0.1) {
+            const redistribute = weights.recency / 2;
+            simW += redistribute;
+            impW += redistribute;
+            recW = 0;
+        }
+
+        const baseScore = simW * hybridSim + recW * recency + impW * effectiveImp;
+
+        // 熟悉度加成（轻权重，防止常聊话题沉底）
+        const familiarity = familiarityBonus(node.accessCount);
+        const roomScore = baseScore + FAMILIARITY_WEIGHT * familiarity;
+
+        results.push({
+            node,
+            finalScore: roomScore,
+            similarity: vectorSim,
+            bm25Score,
+            roomScore,
+        });
+    }
+
+    // 6. 按 finalScore 降序
+    results.sort((a, b) => b.finalScore - a.finalScore);
+
+    return results.slice(0, topK);
+}

@@ -1,1 +1,23 @@
-LyoqCiAqIOW9vOaWuSBjaGliaSDnq4vnu5jop6PmnpDvvIjljZXkuIDmnaXmupDvvInvvJp2clN0YXRlLmNoaWJpIOKGkiBkYXRlIOearuiCpC9zcHJpdGVzIOKGkiDlpLTlg4/lhZzlupXjgIIKICogVlJXb3JsZEFwcCDnmoTmiL/pl7Tnq5nkvY3jgIHliafpmaLnmoTmvJTlh7rlm57mlL7lhbHnlKjov5nlpZfpgLvovpHjgIIKICovCmltcG9ydCB0eXBlIHsgQ2hhcmFjdGVyUHJvZmlsZSB9IGZyb20gJy4uLy4uL3R5cGVzJzsKCmV4cG9ydCBpbnRlcmZhY2UgQ2hpYmlEaXNwbGF5IHsKICAgIGltZzogc3RyaW5nOwogICAgc2NhbGU6IG51bWJlcjsKICAgIG9mZnNldFk6IG51bWJlcjsKICAgIGZsaXA6IGJvb2xlYW47CiAgICAvKiog5piv5ZCm6LWw5LqG5YWc5bqV77yI5rKh5LiT5bGeIGNoaWJp77yJICovCiAgICBpc0ZhbGxiYWNrOiBib29sZWFuOwp9CgpleHBvcnQgY29uc3QgZ2V0Q2hpYmkgPSAoY2hhcjogQ2hhcmFjdGVyUHJvZmlsZSk6IENoaWJpRGlzcGxheSA9PiB7CiAgICBjb25zdCBjID0gY2hhci52clN0YXRlPy5jaGliaTsKICAgIGlmIChjPy5pbWcpIHJldHVybiB7IGltZzogYy5pbWcsIHNjYWxlOiBjLnNjYWxlID8/IDEsIG9mZnNldFk6IGMub2Zmc2V0WSA/PyAwLCBmbGlwOiAhIWMuZmxpcCwgaXNGYWxsYmFjazogZmFsc2UgfTsKICAgIGNvbnN0IHNwcml0ZXMgPSAoY2hhci5hY3RpdmVTa2luU2V0SWQgJiYgY2hhci5kYXRlU2tpblNldHM/LmZpbmQocyA9PiBzLmlkID09PSBjaGFyLmFjdGl2ZVNraW5TZXRJZCk/LnNwcml0ZXMpCiAgICAgICAgfHwgY2hhci5zcHJpdGVzIHx8IHt9OwogICAgY29uc3QgZmIgPSBzcHJpdGVzWydoYXBweSddIHx8IHNwcml0ZXNbJ25vcm1hbCddIHx8IHNwcml0ZXNbJ3NtaWxlJ10gfHwgY2hhci5hdmF0YXIgfHwgJyc7CiAgICByZXR1cm4geyBpbWc6IGZiLCBzY2FsZTogMSwgb2Zmc2V0WTogMCwgZmxpcDogZmFsc2UsIGlzRmFsbGJhY2s6IHRydWUgfTsKfTsK
+/**
+ * 彼方 chibi 立绘解析（单一来源）：vrState.chibi → date 皮肤/sprites → 头像兜底。
+ * VRWorldApp 的房间站位、剧院的演出回放共用这套逻辑。
+ */
+import type { CharacterProfile } from '../../types';
+
+export interface ChibiDisplay {
+    img: string;
+    scale: number;
+    offsetY: number;
+    flip: boolean;
+    /** 是否走了兜底（没专属 chibi） */
+    isFallback: boolean;
+}
+
+export const getChibi = (char: CharacterProfile): ChibiDisplay => {
+    const c = char.vrState?.chibi;
+    if (c?.img) return { img: c.img, scale: c.scale ?? 1, offsetY: c.offsetY ?? 0, flip: !!c.flip, isFallback: false };
+    const sprites = (char.activeSkinSetId && char.dateSkinSets?.find(s => s.id === char.activeSkinSetId)?.sprites)
+        || char.sprites || {};
+    const fb = sprites['happy'] || sprites['normal'] || sprites['smile'] || char.avatar || '';
+    return { img: fb, scale: 1, offsetY: 0, flip: false, isFallback: true };
+};

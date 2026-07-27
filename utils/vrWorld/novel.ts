@@ -1,1 +1,213 @@
-LyoqCiAqIOOAjOW9vOaWueOAjeWwj+ivtOW3peWFtyDigJTigJQg5YiH5Z2X44CB6ZiF6K+756qX5Y+j44CB5Lmm562+5o6o6L+b44CB5om55rOo57uE57uH44CCCiAqLwoKaW1wb3J0IHsgVlJXb3JsZE5vdmVsLCBWUk5vdmVsU2VnbWVudCwgVlJOb3ZlbEFubm90YXRpb24gfSBmcm9tICcuLi8uLi90eXBlcyc7CmltcG9ydCB7IFZSX1NFR01FTlRfVEFSR0VUX0NIQVJTLCBWUl9OT1ZFTF9GRUVEX0NIQVJTIH0gZnJvbSAnLi9jb25zdGFudHMnOwoKY29uc3QgZ2VuSWQgPSAocHJlZml4OiBzdHJpbmcpID0+CiAgICBgJHtwcmVmaXh9XyR7RGF0ZS5ub3coKS50b1N0cmluZygzNil9XyR7TWF0aC5yYW5kb20oKS50b1N0cmluZygzNikuc2xpY2UoMiwgOCl9YDsKCi8qKgogKiDmiormlbTmnKzlsI/or7Tljp/mlofliIfmiJDpmIXor7vljZXlhYPjgILmjInmrrXokL3vvIjnqbrooYwv5o2i6KGM77yJ6IGa5ZCI5YiwIH7nm67moIflrZfmlbDvvIwKICog5bC96YeP5LiN5YiH5pat6Ieq54S25q6177yb6LaF6ZW/6Ieq54S25q615oyJ5a2X5pWw56Gs5YiH44CCCiAqLwpleHBvcnQgZnVuY3Rpb24gY2h1bmtOb3ZlbFRleHQocmF3OiBzdHJpbmcsIHRhcmdldCA9IFZSX1NFR01FTlRfVEFSR0VUX0NIQVJTKTogVlJOb3ZlbFNlZ21lbnRbXSB7CiAgICBjb25zdCBub3JtYWxpemVkID0gcmF3LnJlcGxhY2UoL1xyXG4vZywgJ1xuJykucmVwbGFjZSgvXG57Myx9L2csICdcblxuJykudHJpbSgpOwogICAgaWYgKCFub3JtYWxpemVkKSByZXR1cm4gW107CgogICAgLy8g5YWI5oyJ6Ieq54S25q615ouGCiAgICBjb25zdCBwYXJhZ3JhcGhzID0gbm9ybWFsaXplZAogICAgICAgIC5zcGxpdCgvXG5ccypcbnxcbi8pCiAgICAgICAgLm1hcChwID0+IHAudHJpbSgpKQogICAgICAgIC5maWx0ZXIoQm9vbGVhbik7CgogICAgY29uc3Qgc2VnbWVudHM6IFZSTm92ZWxTZWdtZW50W10gPSBbXTsKICAgIGxldCBidWZmZXIgPSAnJzsKCiAgICBjb25zdCBmbHVzaCA9ICgpID0+IHsKICAgICAgICBjb25zdCB0ZXh0ID0gYnVmZmVyLnRyaW0oKTsKICAgICAgICBpZiAodGV4dCkgewogICAgICAgICAgICBzZWdtZW50cy5wdXNoKHsgaWR4OiBzZWdtZW50cy5sZW5ndGgsIHRleHQsIGNoYXJzOiB0ZXh0Lmxlbmd0aCB9KTsKICAgICAgICB9CiAgICAgICAgYnVmZmVyID0gJyc7CiAgICB9OwoKICAgIGZvciAoY29uc3QgcGFyYSBvZiBwYXJhZ3JhcGhzKSB7CiAgICAgICAgLy8g6LaF6ZW/6Ieq54S25q6177ya56Gs5YiHCiAgICAgICAgaWYgKHBhcmEubGVuZ3RoID4gdGFyZ2V0ICogMikgewogICAgICAgICAgICBmbHVzaCgpOwogICAgICAgICAgICBmb3IgKGxldCBpID0gMDsgaSA8IHBhcmEubGVuZ3RoOyBpICs9IHRhcmdldCkgewogICAgICAgICAgICAgICAgY29uc3QgcGllY2UgPSBwYXJhLnNsaWNlKGksIGkgKyB0YXJnZXQpOwogICAgICAgICAgICAgICAgc2VnbWVudHMucHVzaCh7IGlkeDogc2VnbWVudHMubGVuZ3RoLCB0ZXh0OiBwaWVjZSwgY2hhcnM6IHBpZWNlLmxlbmd0aCB9KTsKICAgICAgICAgICAgfQogICAgICAgICAgICBjb250aW51ZTsKICAgICAgICB9CiAgICAgICAgaWYgKChidWZmZXIubGVuZ3RoICsgcGFyYS5sZW5ndGgpID4gdGFyZ2V0ICYmIGJ1ZmZlci5sZW5ndGggPiAwKSB7CiAgICAgICAgICAgIGZsdXNoKCk7CiAgICAgICAgfQogICAgICAgIGJ1ZmZlciA9IGJ1ZmZlciA/IGAke2J1ZmZlcn1cbiR7cGFyYX1gIDogcGFyYTsKICAgIH0KICAgIGZsdXNoKCk7CgogICAgcmV0dXJuIHNlZ21lbnRzOwp9CgovKiog5LuO5Y6f5paH5paw5bu65LiA5pys5bCP6K+044CCICovCmV4cG9ydCBmdW5jdGlvbiBidWlsZE5vdmVsKHRpdGxlOiBzdHJpbmcsIHJhdzogc3RyaW5nLCBvcHRzPzogeyBhdXRob3I/OiBzdHJpbmc7IHN1bW1hcnk/OiBzdHJpbmcgfSk6IFZSV29ybGROb3ZlbCB7CiAgICBjb25zdCBzZWdtZW50cyA9IGNodW5rTm92ZWxUZXh0KHJhdyk7CiAgICBjb25zdCB0b3RhbENoYXJzID0gc2VnbWVudHMucmVkdWNlKChzLCBzZWcpID0+IHMgKyBzZWcuY2hhcnMsIDApOwogICAgY29uc3Qgbm93ID0gRGF0ZS5ub3coKTsKICAgIHJldHVybiB7CiAgICAgICAgaWQ6IGdlbklkKCd2cm5vdmVsJyksCiAgICAgICAgdGl0bGU6IHRpdGxlLnRyaW0oKSB8fCAn5peg6aKYJywKICAgICAgICBhdXRob3I6IG9wdHM/LmF1dGhvcj8udHJpbSgpIHx8IHVuZGVmaW5lZCwKICAgICAgICBzdW1tYXJ5OiBvcHRzPy5zdW1tYXJ5Py50cmltKCkgfHwgdW5kZWZpbmVkLAogICAgICAgIHNlZ21lbnRzLAogICAgICAgIHRvdGFsQ2hhcnMsCiAgICAgICAgY3JlYXRlZEF0OiBub3csCiAgICAgICAgdXBkYXRlZEF0OiBub3csCiAgICB9Owp9CgovKioKICog5byC5q2l5YiH5Z2X77ya5aSn5paH5Lu277yI5pWwIE1CIOWwj+ivtO+8ieS4k+eUqOOAguWIhuaJueiuqeWHuuS4u+e6v+eoi++8jOmBv+WFjeS4gOasoeaAp+WQjOatpeWIh+Wdl+WGuyBVSeOAggogKiBvblByb2dyZXNzIOWbnuiwgyAwfjEg6L+b5bqm44CCCiAqLwpleHBvcnQgYXN5bmMgZnVuY3Rpb24gY2h1bmtOb3ZlbFRleHRBc3luYygKICAgIHJhdzogc3RyaW5nLAogICAgdGFyZ2V0ID0gVlJfU0VHTUVOVF9UQVJHRVRfQ0hBUlMsCiAgICBvblByb2dyZXNzPzogKHJhdGlvOiBudW1iZXIpID0+IHZvaWQsCik6IFByb21pc2U8VlJOb3ZlbFNlZ21lbnRbXT4gewogICAgY29uc3Qgbm9ybWFsaXplZCA9IHJhdy5yZXBsYWNlKC9cclxuL2csICdcbicpLnJlcGxhY2UoL1xuezMsfS9nLCAnXG5cbicpLnRyaW0oKTsKICAgIGlmICghbm9ybWFsaXplZCkgcmV0dXJuIFtdOwogICAgY29uc3QgcGFyYWdyYXBocyA9IG5vcm1hbGl6ZWQuc3BsaXQoL1xuXHMqXG58XG4vKTsKICAgIGNvbnN0IHRvdGFsID0gcGFyYWdyYXBocy5sZW5ndGg7CgogICAgY29uc3Qgc2VnbWVudHM6IFZSTm92ZWxTZWdtZW50W10gPSBbXTsKICAgIGxldCBidWZmZXIgPSAnJzsKICAgIGNvbnN0IGZsdXNoID0gKCkgPT4gewogICAgICAgIGNvbnN0IHRleHQgPSBidWZmZXIudHJpbSgpOwogICAgICAgIGlmICh0ZXh0KSBzZWdtZW50cy5wdXNoKHsgaWR4OiBzZWdtZW50cy5sZW5ndGgsIHRleHQsIGNoYXJzOiB0ZXh0Lmxlbmd0aCB9KTsKICAgICAgICBidWZmZXIgPSAnJzsKICAgIH07CgogICAgZm9yIChsZXQgaSA9IDA7IGkgPCB0b3RhbDsgaSsrKSB7CiAgICAgICAgY29uc3QgcGFyYSA9IHBhcmFncmFwaHNbaV0udHJpbSgpOwogICAgICAgIGlmIChwYXJhKSB7CiAgICAgICAgICAgIGlmIChwYXJhLmxlbmd0aCA+IHRhcmdldCAqIDIpIHsKICAgICAgICAgICAgICAgIGZsdXNoKCk7CiAgICAgICAgICAgICAgICBmb3IgKGxldCBqID0gMDsgaiA8IHBhcmEubGVuZ3RoOyBqICs9IHRhcmdldCkgewogICAgICAgICAgICAgICAgICAgIGNvbnN0IHBpZWNlID0gcGFyYS5zbGljZShqLCBqICsgdGFyZ2V0KTsKICAgICAgICAgICAgICAgICAgICBzZWdtZW50cy5wdXNoKHsgaWR4OiBzZWdtZW50cy5sZW5ndGgsIHRleHQ6IHBpZWNlLCBjaGFyczogcGllY2UubGVuZ3RoIH0pOwogICAgICAgICAgICAgICAgfQogICAgICAgICAgICB9IGVsc2UgewogICAgICAgICAgICAgICAgaWYgKChidWZmZXIubGVuZ3RoICsgcGFyYS5sZW5ndGgpID4gdGFyZ2V0ICYmIGJ1ZmZlci5sZW5ndGggPiAwKSBmbHVzaCgpOwogICAgICAgICAgICAgICAgYnVmZmVyID0gYnVmZmVyID8gYCR7YnVmZmVyfVxuJHtwYXJhfWAgOiBwYXJhOwogICAgICAgICAgICB9CiAgICAgICAgfQogICAgICAgIC8vIOavjyA0MDAwIOauteiuqeWHuuS4gOasoeS4u+e6v+eoi+W5tuS4iuaKpei/m+W6pgogICAgICAgIGlmIChpICUgNDAwMCA9PT0gMCkgewogICAgICAgICAgICBvblByb2dyZXNzPy4oaSAvIHRvdGFsKTsKICAgICAgICAgICAgYXdhaXQgbmV3IFByb21pc2U8dm9pZD4ociA9PiBzZXRUaW1lb3V0KHIpKTsKICAgICAgICB9CiAgICB9CiAgICBmbHVzaCgpOwogICAgb25Qcm9ncmVzcz8uKDEpOwogICAgcmV0dXJuIHNlZ21lbnRzOwp9CgovKiog5byC5q2l54mIIGJ1aWxkTm92ZWwg4oCU4oCUIOWkp+aWh+S7tueUqO+8jOmBv+WFjeS4u+e6v+eoi+WNoemhv+OAgiAqLwpleHBvcnQgYXN5bmMgZnVuY3Rpb24gYnVpbGROb3ZlbEFzeW5jKAogICAgdGl0bGU6IHN0cmluZywKICAgIHJhdzogc3RyaW5nLAogICAgb3B0cz86IHsgYXV0aG9yPzogc3RyaW5nOyBzdW1tYXJ5Pzogc3RyaW5nOyBvblByb2dyZXNzPzogKHJhdGlvOiBudW1iZXIpID0+IHZvaWQgfSwKKTogUHJvbWlzZTxWUldvcmxkTm92ZWw+IHsKICAgIGNvbnN0IHNlZ21lbnRzID0gYXdhaXQgY2h1bmtOb3ZlbFRleHRBc3luYyhyYXcsIFZSX1NFR01FTlRfVEFSR0VUX0NIQVJTLCBvcHRzPy5vblByb2dyZXNzKTsKICAgIGNvbnN0IHRvdGFsQ2hhcnMgPSBzZWdtZW50cy5yZWR1Y2UoKHMsIHNlZykgPT4gcyArIHNlZy5jaGFycywgMCk7CiAgICBjb25zdCBub3cgPSBEYXRlLm5vdygpOwogICAgcmV0dXJuIHsKICAgICAgICBpZDogZ2VuSWQoJ3Zybm92ZWwnKSwKICAgICAgICB0aXRsZTogdGl0bGUudHJpbSgpIHx8ICfml6DpopgnLAogICAgICAgIGF1dGhvcjogb3B0cz8uYXV0aG9yPy50cmltKCkgfHwgdW5kZWZpbmVkLAogICAgICAgIHN1bW1hcnk6IG9wdHM/LnN1bW1hcnk/LnRyaW0oKSB8fCB1bmRlZmluZWQsCiAgICAgICAgc2VnbWVudHMsCiAgICAgICAgdG90YWxDaGFycywKICAgICAgICBjcmVhdGVkQXQ6IG5vdywKICAgICAgICB1cGRhdGVkQXQ6IG5vdywKICAgIH07Cn0KCmV4cG9ydCBpbnRlcmZhY2UgUmVhZGluZ1dpbmRvdyB7CiAgICAvKiog6LW35aeLIHNlZ21lbnQg57Si5byV77yI5ZCr77yJICovCiAgICBmcm9tOiBudW1iZXI7CiAgICAvKiog57uT5p2fIHNlZ21lbnQg57Si5byV77yI5LiN5ZCr77yJICovCiAgICB0bzogbnVtYmVyOwogICAgc2VnbWVudHM6IFZSTm92ZWxTZWdtZW50W107CiAgICAvKiog5piv5ZCm5bey6K+75Yiw5YWo5Lmm5pyr5bC+ICovCiAgICByZWFjaGVkRW5kOiBib29sZWFuOwp9CgovKioKICog5LuO5Lmm562+5aSE5Y+W5LiA5Liq6ZiF6K+756qX5Y+j77ya57Sv6K6h5Y6f5paH5a2X5pWw55u05Yiw5o6l6L+R6aKE566X77yI5ZCr5bey5pyJ5om55rOo55qE5byA6ZSA55Sx6LCD55So5pa55Y+m566X77yJ44CCCiAqIOiHs+Wwkee7meS4gOS4qiBzZWdtZW5077yM6YG/5YWN6aKE566X5aSq5bCP5Y2h5q2744CCCiAqLwpleHBvcnQgZnVuY3Rpb24gZ2V0UmVhZGluZ1dpbmRvdygKICAgIG5vdmVsOiBWUldvcmxkTm92ZWwsCiAgICBib29rbWFyazogbnVtYmVyLAogICAgYnVkZ2V0Q2hhcnMgPSBWUl9OT1ZFTF9GRUVEX0NIQVJTLAopOiBSZWFkaW5nV2luZG93IHsKICAgIGNvbnN0IGZyb20gPSBNYXRoLm1heCgwLCBNYXRoLm1pbihib29rbWFyaywgbm92ZWwuc2VnbWVudHMubGVuZ3RoKSk7CiAgICBsZXQgdXNlZCA9IDA7CiAgICBsZXQgdG8gPSBmcm9tOwogICAgd2hpbGUgKHRvIDwgbm92ZWwuc2VnbWVudHMubGVuZ3RoKSB7CiAgICAgICAgY29uc3Qgc2VnID0gbm92ZWwuc2VnbWVudHNbdG9dOwogICAgICAgIGlmICh0byA+IGZyb20gJiYgdXNlZCArIHNlZy5jaGFycyA+IGJ1ZGdldENoYXJzKSBicmVhazsKICAgICAgICB1c2VkICs9IHNlZy5jaGFyczsKICAgICAgICB0byArPSAxOwogICAgfQogICAgcmV0dXJuIHsKICAgICAgICBmcm9tLAogICAgICAgIHRvLAogICAgICAgIHNlZ21lbnRzOiBub3ZlbC5zZWdtZW50cy5zbGljZShmcm9tLCB0byksCiAgICAgICAgcmVhY2hlZEVuZDogdG8gPj0gbm92ZWwuc2VnbWVudHMubGVuZ3RoLAogICAgfTsKfQoKLyoqIOaWsOW7uuS4gOadoeaJueazqOOAgiAqLwpleHBvcnQgZnVuY3Rpb24gYnVpbGRBbm5vdGF0aW9uKGlucHV0OiB7CiAgICBub3ZlbElkOiBzdHJpbmc7CiAgICBzZWdJZHg6IG51bWJlcjsKICAgIGF1dGhvcklkOiBzdHJpbmc7CiAgICBhdXRob3JOYW1lOiBzdHJpbmc7CiAgICBjb250ZW50OiBzdHJpbmc7CiAgICB0YXJnZXRBbm5vdGF0aW9uSWQ/OiBzdHJpbmc7Cn0pOiBWUk5vdmVsQW5ub3RhdGlvbiB7CiAgICByZXR1cm4gewogICAgICAgIGlkOiBnZW5JZCgndnJhbm4nKSwKICAgICAgICBub3ZlbElkOiBpbnB1dC5ub3ZlbElkLAogICAgICAgIHNlZ0lkeDogaW5wdXQuc2VnSWR4LAogICAgICAgIGF1dGhvcklkOiBpbnB1dC5hdXRob3JJZCwKICAgICAgICBhdXRob3JOYW1lOiBpbnB1dC5hdXRob3JOYW1lLAogICAgICAgIGNvbnRlbnQ6IGlucHV0LmNvbnRlbnQudHJpbSgpLAogICAgICAgIHRhcmdldEFubm90YXRpb25JZDogaW5wdXQudGFyZ2V0QW5ub3RhdGlvbklkLAogICAgICAgIGNyZWF0ZWRBdDogRGF0ZS5ub3coKSwKICAgIH07Cn0KCi8qKiDmiormibnms6jmjInmrrXokL3ntKLlvJXlvZLnu4TvvIzkvr/kuo7muLLmn5PkuI7lloIgcHJvbXB044CCICovCmV4cG9ydCBmdW5jdGlvbiBncm91cEFubm90YXRpb25zQnlTZWcoYW5ub3RhdGlvbnM6IFZSTm92ZWxBbm5vdGF0aW9uW10pOiBNYXA8bnVtYmVyLCBWUk5vdmVsQW5ub3RhdGlvbltdPiB7CiAgICBjb25zdCBtYXAgPSBuZXcgTWFwPG51bWJlciwgVlJOb3ZlbEFubm90YXRpb25bXT4oKTsKICAgIGZvciAoY29uc3QgYSBvZiBhbm5vdGF0aW9ucykgewogICAgICAgIGNvbnN0IGFyciA9IG1hcC5nZXQoYS5zZWdJZHgpIHx8IFtdOwogICAgICAgIGFyci5wdXNoKGEpOwogICAgICAgIG1hcC5zZXQoYS5zZWdJZHgsIGFycik7CiAgICB9CiAgICBmb3IgKGNvbnN0IGFyciBvZiBtYXAudmFsdWVzKCkpIGFyci5zb3J0KCh4LCB5KSA9PiB4LmNyZWF0ZWRBdCAtIHkuY3JlYXRlZEF0KTsKICAgIHJldHVybiBtYXA7Cn0KCi8qKiDor7vlj5bmn5Dop5LoibLlr7nmn5DmnKzkuabnmoTkuabnrb7vvIjpu5jorqQgMO+8ieOAgiAqLwpleHBvcnQgZnVuY3Rpb24gZ2V0Qm9va21hcmsoYm9va21hcmtzOiBSZWNvcmQ8c3RyaW5nLCBudW1iZXI+IHwgdW5kZWZpbmVkLCBub3ZlbElkOiBzdHJpbmcpOiBudW1iZXIgewogICAgcmV0dXJuIGJvb2ttYXJrcz8uW25vdmVsSWRdID8/IDA7Cn0K
+/**
+ * 「彼方」小说工具 —— 切块、阅读窗口、书签推进、批注组织。
+ */
+
+import { VRWorldNovel, VRNovelSegment, VRNovelAnnotation } from '../../types';
+import { VR_SEGMENT_TARGET_CHARS, VR_NOVEL_FEED_CHARS } from './constants';
+
+const genId = (prefix: string) =>
+    `${prefix}_${Date.now().toString(36)}_${Math.random().toString(36).slice(2, 8)}`;
+
+/**
+ * 把整本小说原文切成阅读单元。按段落（空行/换行）聚合到 ~目标字数，
+ * 尽量不切断自然段；超长自然段按字数硬切。
+ */
+export function chunkNovelText(raw: string, target = VR_SEGMENT_TARGET_CHARS): VRNovelSegment[] {
+    const normalized = raw.replace(/\r\n/g, '\n').replace(/\n{3,}/g, '\n\n').trim();
+    if (!normalized) return [];
+
+    // 先按自然段拆
+    const paragraphs = normalized
+        .split(/\n\s*\n|\n/)
+        .map(p => p.trim())
+        .filter(Boolean);
+
+    const segments: VRNovelSegment[] = [];
+    let buffer = '';
+
+    const flush = () => {
+        const text = buffer.trim();
+        if (text) {
+            segments.push({ idx: segments.length, text, chars: text.length });
+        }
+        buffer = '';
+    };
+
+    for (const para of paragraphs) {
+        // 超长自然段：硬切
+        if (para.length > target * 2) {
+            flush();
+            for (let i = 0; i < para.length; i += target) {
+                const piece = para.slice(i, i + target);
+                segments.push({ idx: segments.length, text: piece, chars: piece.length });
+            }
+            continue;
+        }
+        if ((buffer.length + para.length) > target && buffer.length > 0) {
+            flush();
+        }
+        buffer = buffer ? `${buffer}\n${para}` : para;
+    }
+    flush();
+
+    return segments;
+}
+
+/** 从原文新建一本小说。 */
+export function buildNovel(title: string, raw: string, opts?: { author?: string; summary?: string }): VRWorldNovel {
+    const segments = chunkNovelText(raw);
+    const totalChars = segments.reduce((s, seg) => s + seg.chars, 0);
+    const now = Date.now();
+    return {
+        id: genId('vrnovel'),
+        title: title.trim() || '无题',
+        author: opts?.author?.trim() || undefined,
+        summary: opts?.summary?.trim() || undefined,
+        segments,
+        totalChars,
+        createdAt: now,
+        updatedAt: now,
+    };
+}
+
+/**
+ * 异步切块：大文件（数 MB 小说）专用。分批让出主线程，避免一次性同步切块冻 UI。
+ * onProgress 回调 0~1 进度。
+ */
+export async function chunkNovelTextAsync(
+    raw: string,
+    target = VR_SEGMENT_TARGET_CHARS,
+    onProgress?: (ratio: number) => void,
+): Promise<VRNovelSegment[]> {
+    const normalized = raw.replace(/\r\n/g, '\n').replace(/\n{3,}/g, '\n\n').trim();
+    if (!normalized) return [];
+    const paragraphs = normalized.split(/\n\s*\n|\n/);
+    const total = paragraphs.length;
+
+    const segments: VRNovelSegment[] = [];
+    let buffer = '';
+    const flush = () => {
+        const text = buffer.trim();
+        if (text) segments.push({ idx: segments.length, text, chars: text.length });
+        buffer = '';
+    };
+
+    for (let i = 0; i < total; i++) {
+        const para = paragraphs[i].trim();
+        if (para) {
+            if (para.length > target * 2) {
+                flush();
+                for (let j = 0; j < para.length; j += target) {
+                    const piece = para.slice(j, j + target);
+                    segments.push({ idx: segments.length, text: piece, chars: piece.length });
+                }
+            } else {
+                if ((buffer.length + para.length) > target && buffer.length > 0) flush();
+                buffer = buffer ? `${buffer}\n${para}` : para;
+            }
+        }
+        // 每 4000 段让出一次主线程并上报进度
+        if (i % 4000 === 0) {
+            onProgress?.(i / total);
+            await new Promise<void>(r => setTimeout(r));
+        }
+    }
+    flush();
+    onProgress?.(1);
+    return segments;
+}
+
+/** 异步版 buildNovel —— 大文件用，避免主线程卡顿。 */
+export async function buildNovelAsync(
+    title: string,
+    raw: string,
+    opts?: { author?: string; summary?: string; onProgress?: (ratio: number) => void },
+): Promise<VRWorldNovel> {
+    const segments = await chunkNovelTextAsync(raw, VR_SEGMENT_TARGET_CHARS, opts?.onProgress);
+    const totalChars = segments.reduce((s, seg) => s + seg.chars, 0);
+    const now = Date.now();
+    return {
+        id: genId('vrnovel'),
+        title: title.trim() || '无题',
+        author: opts?.author?.trim() || undefined,
+        summary: opts?.summary?.trim() || undefined,
+        segments,
+        totalChars,
+        createdAt: now,
+        updatedAt: now,
+    };
+}
+
+export interface ReadingWindow {
+    /** 起始 segment 索引（含） */
+    from: number;
+    /** 结束 segment 索引（不含） */
+    to: number;
+    segments: VRNovelSegment[];
+    /** 是否已读到全书末尾 */
+    reachedEnd: boolean;
+}
+
+/**
+ * 从书签处取一个阅读窗口：累计原文字数直到接近预算（含已有批注的开销由调用方另算）。
+ * 至少给一个 segment，避免预算太小卡死。
+ */
+export function getReadingWindow(
+    novel: VRWorldNovel,
+    bookmark: number,
+    budgetChars = VR_NOVEL_FEED_CHARS,
+): ReadingWindow {
+    const from = Math.max(0, Math.min(bookmark, novel.segments.length));
+    let used = 0;
+    let to = from;
+    while (to < novel.segments.length) {
+        const seg = novel.segments[to];
+        if (to > from && used + seg.chars > budgetChars) break;
+        used += seg.chars;
+        to += 1;
+    }
+    return {
+        from,
+        to,
+        segments: novel.segments.slice(from, to),
+        reachedEnd: to >= novel.segments.length,
+    };
+}
+
+/** 新建一条批注。 */
+export function buildAnnotation(input: {
+    novelId: string;
+    segIdx: number;
+    authorId: string;
+    authorName: string;
+    content: string;
+    targetAnnotationId?: string;
+}): VRNovelAnnotation {
+    return {
+        id: genId('vrann'),
+        novelId: input.novelId,
+        segIdx: input.segIdx,
+        authorId: input.authorId,
+        authorName: input.authorName,
+        content: input.content.trim(),
+        targetAnnotationId: input.targetAnnotationId,
+        createdAt: Date.now(),
+    };
+}
+
+/** 把批注按段落索引归组，便于渲染与喂 prompt。 */
+export function groupAnnotationsBySeg(annotations: VRNovelAnnotation[]): Map<number, VRNovelAnnotation[]> {
+    const map = new Map<number, VRNovelAnnotation[]>();
+    for (const a of annotations) {
+        const arr = map.get(a.segIdx) || [];
+        arr.push(a);
+        map.set(a.segIdx, arr);
+    }
+    for (const arr of map.values()) arr.sort((x, y) => x.createdAt - y.createdAt);
+    return map;
+}
+
+/** 读取某角色对某本书的书签（默认 0）。 */
+export function getBookmark(bookmarks: Record<string, number> | undefined, novelId: string): number {
+    return bookmarks?.[novelId] ?? 0;
+}

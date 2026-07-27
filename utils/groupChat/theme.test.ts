@@ -1,1 +1,39 @@
-aW1wb3J0IHsgZGVzY3JpYmUsIGl0LCBleHBlY3QgfSBmcm9tICd2aXRlc3QnOwppbXBvcnQgeyByZXNvbHZlQ2hhdFRoZW1lIH0gZnJvbSAnLi90aGVtZSc7CmltcG9ydCB7IENoYXRUaGVtZSB9IGZyb20gJy4uLy4uL3R5cGVzJzsKCmNvbnN0IHByZXNldHM6IFJlY29yZDxzdHJpbmcsIENoYXRUaGVtZT4gPSB7CiAgICBkZWZhdWx0OiB7CiAgICAgICAgaWQ6ICdkZWZhdWx0JywgbmFtZTogJ+m7mOiupCcsIHR5cGU6ICdwcmVzZXQnLAogICAgICAgIHVzZXI6IHsgdGV4dENvbG9yOiAnI2ZmZicsIGJhY2tncm91bmRDb2xvcjogJyMxMTEnLCBib3JkZXJSYWRpdXM6IDE4LCBvcGFjaXR5OiAxIH0sCiAgICAgICAgYWk6IHsgdGV4dENvbG9yOiAnIzAwMCcsIGJhY2tncm91bmRDb2xvcjogJyNlZWUnLCBib3JkZXJSYWRpdXM6IDE4LCBvcGFjaXR5OiAxIH0sCiAgICB9LAogICAgZHJlYW06IHsKICAgICAgICBpZDogJ2RyZWFtJywgbmFtZTogJ+aipuWigycsIHR5cGU6ICdwcmVzZXQnLAogICAgICAgIHVzZXI6IHsgdGV4dENvbG9yOiAnI2ZmZicsIGJhY2tncm91bmRDb2xvcjogJyNmMGYnLCBib3JkZXJSYWRpdXM6IDIwLCBvcGFjaXR5OiAxIH0sCiAgICAgICAgYWk6IHsgdGV4dENvbG9yOiAnIzMzMycsIGJhY2tncm91bmRDb2xvcjogJyNmZGYnLCBib3JkZXJSYWRpdXM6IDIwLCBvcGFjaXR5OiAxIH0sCiAgICB9LAp9OwoKZGVzY3JpYmUoJ3Jlc29sdmVDaGF0VGhlbWUnLCAoKSA9PiB7CiAgICBpdCgn5pyq55+lIGlkIC8gdW5kZWZpbmVkIOWbnuiQvSBkZWZhdWx0JywgKCkgPT4gewogICAgICAgIGV4cGVjdChyZXNvbHZlQ2hhdFRoZW1lKCdub3BlJywgW10sIHByZXNldHMpLmlkKS50b0JlKCdkZWZhdWx0Jyk7CiAgICAgICAgZXhwZWN0KHJlc29sdmVDaGF0VGhlbWUodW5kZWZpbmVkLCBbXSwgcHJlc2V0cykuaWQpLnRvQmUoJ2RlZmF1bHQnKTsKICAgIH0pOwoKICAgIGl0KCdwcmVzZXQg5ZG95LitJywgKCkgPT4gewogICAgICAgIGV4cGVjdChyZXNvbHZlQ2hhdFRoZW1lKCdkcmVhbScsIFtdLCBwcmVzZXRzKS51c2VyLmJhY2tncm91bmRDb2xvcikudG9CZSgnI2YwZicpOwogICAgfSk7CgogICAgaXQoJ2N1c3RvbSDlkIwgaWQg6KaG55uWIHByZXNldCcsICgpID0+IHsKICAgICAgICBjb25zdCBjdXN0b20gPSB7IC4uLnByZXNldHMuZHJlYW0sIGlkOiAnZHJlYW0nLCBuYW1lOiAnRElZ5qKm5aKDJywgdHlwZTogJ2N1c3RvbScgYXMgY29uc3QgfTsKICAgICAgICBleHBlY3QocmVzb2x2ZUNoYXRUaGVtZSgnZHJlYW0nLCBbY3VzdG9tXSwgcHJlc2V0cykubmFtZSkudG9CZSgnRElZ5qKm5aKDJyk7CiAgICB9KTsKCiAgICBpdCgnbGVnYWN5IOS4u+mimOe8uiB1c2VyL2FpIOS+p+aXtueUqCBkZWZhdWx0IOihpeWFqO+8iOS4jeeCuCBzdHlsZUNvbmZpZyDor7vlj5bvvIknLCAoKSA9PiB7CiAgICAgICAgY29uc3QgYnJva2VuID0geyBpZDogJ29sZCcsIG5hbWU6ICfml6cnLCB0eXBlOiAnY3VzdG9tJyB9IGFzIHVua25vd24gYXMgQ2hhdFRoZW1lOwogICAgICAgIGNvbnN0IHJlc29sdmVkID0gcmVzb2x2ZUNoYXRUaGVtZSgnb2xkJywgW2Jyb2tlbl0sIHByZXNldHMpOwogICAgICAgIGV4cGVjdChyZXNvbHZlZC51c2VyLmJvcmRlclJhZGl1cykudG9CZSgxOCk7CiAgICAgICAgZXhwZWN0KHJlc29sdmVkLmFpLmJhY2tncm91bmRDb2xvcikudG9CZSgnI2VlZScpOwogICAgfSk7Cn0pOwo=
+import { describe, it, expect } from 'vitest';
+import { resolveChatTheme } from './theme';
+import { ChatTheme } from '../../types';
+
+const presets: Record<string, ChatTheme> = {
+    default: {
+        id: 'default', name: '默认', type: 'preset',
+        user: { textColor: '#fff', backgroundColor: '#111', borderRadius: 18, opacity: 1 },
+        ai: { textColor: '#000', backgroundColor: '#eee', borderRadius: 18, opacity: 1 },
+    },
+    dream: {
+        id: 'dream', name: '梦境', type: 'preset',
+        user: { textColor: '#fff', backgroundColor: '#f0f', borderRadius: 20, opacity: 1 },
+        ai: { textColor: '#333', backgroundColor: '#fdf', borderRadius: 20, opacity: 1 },
+    },
+};
+
+describe('resolveChatTheme', () => {
+    it('未知 id / undefined 回落 default', () => {
+        expect(resolveChatTheme('nope', [], presets).id).toBe('default');
+        expect(resolveChatTheme(undefined, [], presets).id).toBe('default');
+    });
+
+    it('preset 命中', () => {
+        expect(resolveChatTheme('dream', [], presets).user.backgroundColor).toBe('#f0f');
+    });
+
+    it('custom 同 id 覆盖 preset', () => {
+        const custom = { ...presets.dream, id: 'dream', name: 'DIY梦境', type: 'custom' as const };
+        expect(resolveChatTheme('dream', [custom], presets).name).toBe('DIY梦境');
+    });
+
+    it('legacy 主题缺 user/ai 侧时用 default 补全（不炸 styleConfig 读取）', () => {
+        const broken = { id: 'old', name: '旧', type: 'custom' } as unknown as ChatTheme;
+        const resolved = resolveChatTheme('old', [broken], presets);
+        expect(resolved.user.borderRadius).toBe(18);
+        expect(resolved.ai.backgroundColor).toBe('#eee');
+    });
+});

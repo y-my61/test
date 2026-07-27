@@ -1,1 +1,41 @@
-aW1wb3J0IHsgZGVzY3JpYmUsIGl0LCBleHBlY3QgfSBmcm9tICd2aXRlc3QnOwppbXBvcnQgeyBidWlsZEdyb3VwSGlzdG9yeUJsb2NrLCBHUk9VUF9ISVNUT1JZX0dBUF9USFJFU0hPTERfTVMgfSBmcm9tICcuL3Byb21wdHMnOwppbXBvcnQgdHlwZSB7IE1lc3NhZ2UsIENoYXJhY3RlclByb2ZpbGUgfSBmcm9tICcuLi8uLi90eXBlcyc7Cgpjb25zdCBjaGFyID0gKGlkOiBzdHJpbmcsIG5hbWU6IHN0cmluZyk6IENoYXJhY3RlclByb2ZpbGUgPT4gKHsgaWQsIG5hbWUgfSBhcyBDaGFyYWN0ZXJQcm9maWxlKTsKCmNvbnN0IG1zZyA9IChpZDogbnVtYmVyLCByb2xlOiBNZXNzYWdlWydyb2xlJ10sIGNvbnRlbnQ6IHN0cmluZywgdGltZXN0YW1wOiBudW1iZXIsIGNoYXJJZCA9ICcnKTogTWVzc2FnZSA9PgogICAgKHsgaWQsIHJvbGUsIHR5cGU6ICd0ZXh0JywgY29udGVudCwgdGltZXN0YW1wLCBjaGFySWQgfSBhcyBNZXNzYWdlKTsKCmRlc2NyaWJlKCdidWlsZEdyb3VwSGlzdG9yeUJsb2NrIOaXtumXtOi3s+WPmOWIhumalOihjCcsICgpID0+IHsKICAgIGNvbnN0IGNoYXJzID0gW2NoYXIoJ2MxJywgJ+Wwj+WkjycpXTsKICAgIGNvbnN0IGJhc2UgPSBEYXRlLlVUQygyMDI2LCA2LCAxLCAxMiwgMCwgMCk7CgogICAgaXQoJ+ebuOmCu+a2iOaBr+malOW+l+S5heaXtuaPkuS4gOadoSLpmpTkuobnuqYgTiDlpKki55qE5YiG6ZqU6KGMJywgKCkgPT4gewogICAgICAgIGNvbnN0IG1zZ3M6IE1lc3NhZ2VbXSA9IFsKICAgICAgICAgICAgbXNnKDEsICdhc3Npc3RhbnQnLCAn5Zyo5ZCXJywgYmFzZSwgJ2MxJyksCiAgICAgICAgICAgIC8vIDMg5aSp5ZCO55So5oi35Zue5p2l5Y+R5LiA5Y+lCiAgICAgICAgICAgIG1zZygyLCAndXNlcicsICfmiJHlm57mnaXkuoYnLCBiYXNlICsgMyAqIDI0ICogNjAgKiA2MCAqIDEwMDApLAogICAgICAgIF07CiAgICAgICAgY29uc3QgeyB0ZXh0IH0gPSBidWlsZEdyb3VwSGlzdG9yeUJsb2NrKG1zZ3MsIGNoYXJzLCBbXSwgJ+eUqOaItycpOwogICAgICAgIGV4cGVjdCh0ZXh0KS50b0NvbnRhaW4oJ+e6piAzIOWkqScpOwogICAgICAgIGV4cGVjdCh0ZXh0KS50b0NvbnRhaW4oJ+S4remXtOe+pOmHjOayoeS6uuivtOivnScpOwogICAgICAgIC8vIOWIhumalOihjOW6lOWkueWcqOS4pOadoea2iOaBr+S5i+mXtAogICAgICAgIGV4cGVjdCh0ZXh0LmluZGV4T2YoJ+Wwj+Wkjzog5Zyo5ZCXJykpLnRvQmVMZXNzVGhhbih0ZXh0LmluZGV4T2YoJ+e6piAzIOWkqScpKTsKICAgICAgICBleHBlY3QodGV4dC5pbmRleE9mKCfnuqYgMyDlpKknKSkudG9CZUxlc3NUaGFuKHRleHQuaW5kZXhPZign55So5oi3OiDmiJHlm57mnaXkuoYnKSk7CiAgICB9KTsKCiAgICBpdCgn6Ze06ZqU5Zyo6ZiI5YC85Lul5YaF5LiN5o+S5YiG6ZqU6KGMJywgKCkgPT4gewogICAgICAgIGNvbnN0IG1zZ3M6IE1lc3NhZ2VbXSA9IFsKICAgICAgICAgICAgbXNnKDEsICdhc3Npc3RhbnQnLCAn5pepJywgYmFzZSwgJ2MxJyksCiAgICAgICAgICAgIG1zZygyLCAndXNlcicsICfml6nlkYAnLCBiYXNlICsgNjAgKiAxMDAwKSwKICAgICAgICBdOwogICAgICAgIGNvbnN0IHsgdGV4dCB9ID0gYnVpbGRHcm91cEhpc3RvcnlCbG9jayhtc2dzLCBjaGFycywgW10sICfnlKjmiLcnKTsKICAgICAgICBleHBlY3QodGV4dCkubm90LnRvQ29udGFpbign5Lit6Ze0576k6YeM5rKh5Lq66K+06K+dJyk7CiAgICAgICAgZXhwZWN0KHRleHQpLnRvQmUoJ+Wwj+Wkjzog5pepXG7nlKjmiLc6IOaXqeWRgCcpOwogICAgfSk7CgogICAgaXQoJ+mYiOWAvOW4uOmHj+S4uiAzIOWwj+aXticsICgpID0+IHsKICAgICAgICBleHBlY3QoR1JPVVBfSElTVE9SWV9HQVBfVEhSRVNIT0xEX01TKS50b0JlKDMgKiA2MCAqIDYwICogMTAwMCk7CiAgICB9KTsKfSk7Cg==
+import { describe, it, expect } from 'vitest';
+import { buildGroupHistoryBlock, GROUP_HISTORY_GAP_THRESHOLD_MS } from './prompts';
+import type { Message, CharacterProfile } from '../../types';
+
+const char = (id: string, name: string): CharacterProfile => ({ id, name } as CharacterProfile);
+
+const msg = (id: number, role: Message['role'], content: string, timestamp: number, charId = ''): Message =>
+    ({ id, role, type: 'text', content, timestamp, charId } as Message);
+
+describe('buildGroupHistoryBlock 时间跳变分隔行', () => {
+    const chars = [char('c1', '小夏')];
+    const base = Date.UTC(2026, 6, 1, 12, 0, 0);
+
+    it('相邻消息隔得久时插一条"隔了约 N 天"的分隔行', () => {
+        const msgs: Message[] = [
+            msg(1, 'assistant', '在吗', base, 'c1'),
+            // 3 天后用户回来发一句
+            msg(2, 'user', '我回来了', base + 3 * 24 * 60 * 60 * 1000),
+        ];
+        const { text } = buildGroupHistoryBlock(msgs, chars, [], '用户');
+        expect(text).toContain('约 3 天');
+        expect(text).toContain('中间群里没人说话');
+        // 分隔行应夹在两条消息之间
+        expect(text.indexOf('小夏: 在吗')).toBeLessThan(text.indexOf('约 3 天'));
+        expect(text.indexOf('约 3 天')).toBeLessThan(text.indexOf('用户: 我回来了'));
+    });
+
+    it('间隔在阈值以内不插分隔行', () => {
+        const msgs: Message[] = [
+            msg(1, 'assistant', '早', base, 'c1'),
+            msg(2, 'user', '早呀', base + 60 * 1000),
+        ];
+        const { text } = buildGroupHistoryBlock(msgs, chars, [], '用户');
+        expect(text).not.toContain('中间群里没人说话');
+        expect(text).toBe('小夏: 早\n用户: 早呀');
+    });
+
+    it('阈值常量为 3 小时', () => {
+        expect(GROUP_HISTORY_GAP_THRESHOLD_MS).toBe(3 * 60 * 60 * 1000);
+    });
+});

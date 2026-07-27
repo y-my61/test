@@ -1,1 +1,173 @@
-LyoqCiAqIE1lbW9yeSBQYWxhY2Ug4oCUIOWQkemHj+WMliArIOWtmOWCqCArIOWOu+mHjQogKgogKiDlsIbmj5Dlj5blh7rnmoQgTWVtb3J5Tm9kZSDmibnph4/lkJHph4/ljJbvvIwKICog5LiO5bey5pyJ5ZCR6YeP5YGa5Y676YeN77yI5L2Z5bymID4gMC45IOi3s+i/h++8ie+8jAogKiDnhLblkI7lrZjlhaUgbWVtb3J5X25vZGVzIOWSjCBtZW1vcnlfdmVjdG9yc+OAggogKi8KCmltcG9ydCB0eXBlIHsgRW1iZWRkaW5nQ29uZmlnLCBNZW1vcnlOb2RlLCBNZW1vcnlWZWN0b3IsIFJlbW90ZVZlY3RvckNvbmZpZyB9IGZyb20gJy4vdHlwZXMnOwppbXBvcnQgeyBNZW1vcnlOb2RlREIsIE1lbW9yeVZlY3RvckRCLCBlbnN1cmVGbG9hdDMyIH0gZnJvbSAnLi9kYic7CmltcG9ydCB7IGdldEVtYmVkZGluZ3MsIGNvc2luZVNpbWlsYXJpdHkgfSBmcm9tICcuL2VtYmVkZGluZyc7CmltcG9ydCB7IHVwc2VydFZlY3RvciBhcyByZW1vdGVVcHNlcnQgfSBmcm9tICcuL3N1cGFiYXNlVmVjdG9yJzsKCmNvbnN0IERFRFVQX1RIUkVTSE9MRCA9IDAuOTsKCi8qKgogKiDlkJHph4/ljJblubblrZjlgqjorrDlv4boioLngrkKICoKICog5rWB56iL77yaCiAqIDEuIOaJuemHj+WQkemHj+WMliBub2RlcyDnmoQgY29udGVudAogKiAyLiDkuI7lt7LmnInlkJHph4/lgZrljrvph43vvIhjb3NpbmUgPiAwLjkg55qE6Lez6L+H77yJCiAqIDMuIOS/neWtmCBNZW1vcnlOb2RlIChlbWJlZGRlZD10cnVlKSArIE1lbW9yeVZlY3RvcgogKgogKiBza2lwRGVkdXAg5L+d55WZ57uZ6YKj5LqbIuWFpeWPo+WwseS/neivgeS4jeS8mumHjSLnmoTot6/lvoTnlKjvvIjmr5TlpoIgRXZlbnRCb3gg5Y6L57yp5ZCO5YaZ5ZueCiAqIHN1bW1hcnkg6IqC54K5IOKAlOKAlCBzdW1tYXJ5IOaYryBMTE0g5paw5ZCI5oiQ55qE5ZSv5LiA57uT5p6c77yM5LiN5Lya5ZKM5bey5pyJ6K6w5b+G5pKe77yJ44CCCiAqIOi/geenu+i3r+W+hCoq5LiN6KaBKirkvKAgc2tpcERlZHVwIOKAlOKAlCDor63kuYnljrvph43og73mjKHmjokgc3ViLWJhdGNoIOS5i+mXtOWvueWQjOS4gOS7tuS6i+eahAogKiDph43lpI3mj5Dlj5bvvIjmr5TlpoIiNy0xMiDlj7fmn5DlpKnlm57lv4botbcgMyDlj7fpgqPku7bkuosi77yJ44CCCiAqLwpleHBvcnQgYXN5bmMgZnVuY3Rpb24gdmVjdG9yaXplQW5kU3RvcmUoCiAgICBub2RlczogTWVtb3J5Tm9kZVtdLAogICAgZW1iZWRkaW5nQ29uZmlnOiBFbWJlZGRpbmdDb25maWcsCiAgICByZW1vdGVWZWN0b3JDb25maWc/OiBSZW1vdGVWZWN0b3JDb25maWcsCiAgICBvcHRpb25zOiB7IHNraXBEZWR1cD86IGJvb2xlYW4gfSA9IHt9LAopOiBQcm9taXNlPHsgc3RvcmVkOiBudW1iZXI7IHNraXBwZWQ6IG51bWJlciB9PiB7CiAgICBpZiAobm9kZXMubGVuZ3RoID09PSAwKSByZXR1cm4geyBzdG9yZWQ6IDAsIHNraXBwZWQ6IDAgfTsKCiAgICAvLyAxLiDmibnph4/lkJHph4/ljJYKICAgIGNvbnN0IHRleHRzID0gbm9kZXMubWFwKG4gPT4gbi5jb250ZW50KTsKICAgIGNvbnN0IHZlY3RvcnMgPSBhd2FpdCBnZXRFbWJlZGRpbmdzKHRleHRzLCBlbWJlZGRpbmdDb25maWcpOwoKICAgIC8vIDIuIOWKoOi9veW3suacieWQkemHj+eUqOS6juWOu+mHje+8iEV2ZW50Qm94IHN1bW1hcnkgLyDov4Hnp7vnrYnlnLrmma/ot7Pov4fvvIkKICAgIGNvbnN0IGNoYXJJZCA9IG5vZGVzWzBdLmNoYXJJZDsKICAgIGNvbnN0IGV4aXN0aW5nVmVjdG9ycyA9IG9wdGlvbnMuc2tpcERlZHVwID8gW10gOiBhd2FpdCBNZW1vcnlWZWN0b3JEQi5nZXRBbGxCeUNoYXJJZChjaGFySWQpOwoKICAgIGxldCBzdG9yZWQgPSAwOwogICAgbGV0IHNraXBwZWQgPSAwOwoKICAgIGZvciAobGV0IGkgPSAwOyBpIDwgbm9kZXMubGVuZ3RoOyBpKyspIHsKICAgICAgICBjb25zdCBub2RlID0gbm9kZXNbaV07CiAgICAgICAgY29uc3QgdmVjdG9yID0gdmVjdG9yc1tpXTsKCiAgICAgICAgLy8g5Y676YeN5qOA5p+lIOKAlCBlbnN1cmVGbG9hdDMyIOWFvOWuueS4ieenjeWtmOWCqOW9ouaAge+8iG51bWJlcltdIC8gRmxvYXQzMkFycmF5CiAgICAgICAgLy8gLyBVaW50OEFycmF577yJ77yM5ZCM5pe25L+d5oqkIGNvc2luZVNpbWlsYXJpdHkg5LiN6KKrIFVpbnQ4QXJyYXkg6K+v6K+75a2X6IqC5b2T5pWw44CCCiAgICAgICAgY29uc3QgcXVlcnlGMzIgPSBlbnN1cmVGbG9hdDMyKHZlY3Rvcik7CiAgICAgICAgY29uc3QgaXNEdXBsaWNhdGUgPSAhb3B0aW9ucy5za2lwRGVkdXAgJiYgZXhpc3RpbmdWZWN0b3JzLnNvbWUoCiAgICAgICAgICAgIGV2ID0+IGNvc2luZVNpbWlsYXJpdHkocXVlcnlGMzIsIGVuc3VyZUZsb2F0MzIoZXYudmVjdG9yKSkgPiBERURVUF9USFJFU0hPTEQKICAgICAgICApOwoKICAgICAgICBpZiAoaXNEdXBsaWNhdGUpIHsKICAgICAgICAgICAgY29uc29sZS5sb2coYOKZu++4jyBbVmVjdG9yU3RvcmVdIFNraXBwaW5nIGR1cGxpY2F0ZSBtZW1vcnk6ICIke25vZGUuY29udGVudC5zbGljZSgwLCAzMCl9Li4uImApOwogICAgICAgICAgICBza2lwcGVkKys7CiAgICAgICAgICAgIGNvbnRpbnVlOwogICAgICAgIH0KCiAgICAgICAgLy8gMy4g5L+d5a2YCiAgICAgICAgbm9kZS5lbWJlZGRlZCA9IHRydWU7CiAgICAgICAgYXdhaXQgTWVtb3J5Tm9kZURCLnNhdmUobm9kZSk7CgogICAgICAgIGNvbnN0IG1lbW9yeVZlY3RvcjogTWVtb3J5VmVjdG9yID0gewogICAgICAgICAgICBtZW1vcnlJZDogbm9kZS5pZCwKICAgICAgICAgICAgY2hhcklkOiBub2RlLmNoYXJJZCwKICAgICAgICAgICAgdmVjdG9yLAogICAgICAgICAgICBkaW1lbnNpb25zOiBlbWJlZGRpbmdDb25maWcuZGltZW5zaW9ucywKICAgICAgICAgICAgbW9kZWw6IGVtYmVkZGluZ0NvbmZpZy5tb2RlbCwKICAgICAgICB9OwogICAgICAgIGF3YWl0IE1lbW9yeVZlY3RvckRCLnNhdmUobWVtb3J5VmVjdG9yKTsKCiAgICAgICAgLy8g5ZCM5q2l5YaZ5YWl6L+c56iL77yIZmlyZS1hbmQtZm9yZ2V077yM5LiN6Zi75aGe5pys5Zyw5rWB56iL77yJCiAgICAgICAgaWYgKHJlbW90ZVZlY3RvckNvbmZpZz8uZW5hYmxlZCAmJiByZW1vdGVWZWN0b3JDb25maWcuaW5pdGlhbGl6ZWQpIHsKICAgICAgICAgICAgcmVtb3RlVXBzZXJ0KHJlbW90ZVZlY3RvckNvbmZpZywgbm9kZS5pZCwgbm9kZS5jaGFySWQsIHZlY3Rvciwgbm9kZSwgZW1iZWRkaW5nQ29uZmlnLmRpbWVuc2lvbnMsIGVtYmVkZGluZ0NvbmZpZy5tb2RlbCkuY2F0Y2goKCkgPT4ge30pOwogICAgICAgIH0KCiAgICAgICAgLy8g5bCG5paw5ZCR6YeP5Lmf5Yqg5YWl5bey5pyJ5YiX6KGo77yM5ZCO57ut5Y676YeN5pe25Y+v5Lul5qOA5rWL5ZCM5om55qyh5YaF55qE6YeN5aSNCiAgICAgICAgZXhpc3RpbmdWZWN0b3JzLnB1c2gobWVtb3J5VmVjdG9yKTsKCiAgICAgICAgc3RvcmVkKys7CiAgICB9CgogICAgY29uc29sZS5sb2coYOKchSBbVmVjdG9yU3RvcmVdIFN0b3JlZCAke3N0b3JlZH0sIHNraXBwZWQgJHtza2lwcGVkfSBkdXBsaWNhdGVzYCk7CiAgICByZXR1cm4geyBzdG9yZWQsIHNraXBwZWQgfTsKfQoKLyoqCiAqIOW9kuS4gOWMluaooeWei+WQje+8jOeUqOS6juOAjOaYr+WQpuWQjOS4gOS4quW6leWxguaooeWei+OAjeeahOavlOWvueOAggogKgogKiDljrvmjonorqHotLnmoaPkvY3liY3nvIAgYFByby9g77yI56GF5Z+65rWB5Yqo55qE5LuY6LS554us5Y2g566X5Yqb5qGj77yM5bqV5bGC5p2D6YeN5LiO5YWN6LS554mICiAqIOWujOWFqOebuOWQjO+8mmBQcm8vQkFBSS9iZ2UtbTNgIOS4jiBgQkFBSS9iZ2UtbTNgIOaYr+WQjOS4gOS4qiBiZ2UtbTPvvInjgIIKICoKICog6L+Z5qC356GF5Z+6IGBQcm8vQkFBSS9iZ2UtbTNgIOKGkiDngavlsbEgYEJBQUkvYmdlLW0zYCDov5nnsbvjgIzlkIzkuIDlvIDmupDmqKHlnovjgIEKICog5LuF5o2i5pyN5Yqh5ZWGL+aho+S9jeOAjeeahOWIh+aNouS4jeS8muinpuWPkeaXoOiwk+mHjeW7uu+8iOWQkemHj+epuumXtOS4gOiHtO+8ieOAggogKi8KZnVuY3Rpb24gbm9ybWFsaXplTW9kZWxOYW1lKG1vZGVsOiBzdHJpbmcpOiBzdHJpbmcgewogICAgcmV0dXJuIG1vZGVsCiAgICAgICAgLnJlcGxhY2UoL15Qcm9cLy9pLCAnJykgICAvLyDnoYXln7rku5jotLnmoaPliY3nvIAKICAgICAgICAudHJpbSgpCiAgICAgICAgLnRvTG93ZXJDYXNlKCk7Cn0KCi8qKgogKiDmo4DmtYvlvZPliY0gZW1iZWRkaW5nIOaooeWei+aYr+WQpuS4juW3suacieWQkemHj+eahOaooeWei+S4gOiHtOOAggogKiDlpoLmnpzkuI3kuIDoh7TvvIzor7TmmI7nlKjmiLfmjaLkuobmqKHlnovvvIzpnIDopoHph43mlrDlkJHph4/ljJbjgIIKICoKICog5rOo5oSP77ya5Y+q5q+U5a+544CM5qih5Z6L5pys5L2T44CN77yMYFByby9CQUFJL2JnZS1tM2Ag5LiOIGBCQUFJL2JnZS1tM2Ag6KeG5Li65ZCM5LiA5Liq5qih5Z6L77yMCiAqIOi3qOacjeWKoeWVhuWIh+aNouWQjOS4gOW8gOa6kOaooeWei++8iOWmguehheWfuiDihpIg54Gr5bGx55qEIGJnZS1tM++8ieS4jeS8muinpuWPkeaXoOiwk+mHjeW7uuOAggogKgogKiBAcmV0dXJucyAnbWF0Y2gnIHwgJ21pc21hdGNoJyB8ICdlbXB0eScgKOaXoOW3suacieWQkemHjykKICovCmV4cG9ydCBhc3luYyBmdW5jdGlvbiBjaGVja01vZGVsQ29uc2lzdGVuY3koCiAgICBjaGFySWQ6IHN0cmluZywKICAgIGN1cnJlbnRNb2RlbDogc3RyaW5nLAopOiBQcm9taXNlPCdtYXRjaCcgfCAnbWlzbWF0Y2gnIHwgJ2VtcHR5Jz4gewogICAgY29uc3QgZXhpc3RpbmcgPSBhd2FpdCBNZW1vcnlWZWN0b3JEQi5nZXRBbGxCeUNoYXJJZChjaGFySWQpOwogICAgaWYgKGV4aXN0aW5nLmxlbmd0aCA9PT0gMCkgcmV0dXJuICdlbXB0eSc7CgogICAgLy8g5Y+W56ys5LiA5p2h5pyJIG1vZGVsIOWtl+auteeahOWQkemHj+WBmuavlOWvue+8iOaXp+aVsOaNruWPr+iDveayoeaciSBtb2RlbCDlrZfmrrXvvIkKICAgIGNvbnN0IHNhbXBsZSA9IGV4aXN0aW5nLmZpbmQodiA9PiB2Lm1vZGVsKTsKICAgIGlmICghc2FtcGxlKSByZXR1cm4gJ21hdGNoJzsgLy8g5pen5pWw5o2u5pegIG1vZGVsIOWtl+aute+8jOS4jeinpuWPkemHjeW7uu+8jOWFvOWuuei/h+a4oQoKICAgIHJldHVybiBub3JtYWxpemVNb2RlbE5hbWUoc2FtcGxlLm1vZGVsISkgPT09IG5vcm1hbGl6ZU1vZGVsTmFtZShjdXJyZW50TW9kZWwpCiAgICAgICAgPyAnbWF0Y2gnCiAgICAgICAgOiAnbWlzbWF0Y2gnOwp9CgovKioKICog6YeN5paw5ZCR6YeP5YyW77ya55So5paw5qih5Z6L6YeN5pawIGVtYmVkZGluZyDmiYDmnInlt7LmnInorrDlv4bjgIIKICog5L+d55WZIE1lbW9yeU5vZGUg5LiN5Yqo77yM5Y+q5pu/5o2iIE1lbW9yeVZlY3RvcuOAggogKi8KZXhwb3J0IGFzeW5jIGZ1bmN0aW9uIHJlYnVpbGRBbGxWZWN0b3JzKAogICAgY2hhcklkOiBzdHJpbmcsCiAgICBlbWJlZGRpbmdDb25maWc6IEVtYmVkZGluZ0NvbmZpZywKICAgIHJlbW90ZVZlY3RvckNvbmZpZz86IFJlbW90ZVZlY3RvckNvbmZpZywKKTogUHJvbWlzZTx7IHJlYnVpbHQ6IG51bWJlciB9PiB7CiAgICBjb25zdCBub2RlcyA9IGF3YWl0IE1lbW9yeU5vZGVEQi5nZXRCeUNoYXJJZChjaGFySWQpOwogICAgY29uc3QgZW1iZWRkZWROb2RlcyA9IG5vZGVzLmZpbHRlcihuID0+IG4uZW1iZWRkZWQpOwoKICAgIGlmIChlbWJlZGRlZE5vZGVzLmxlbmd0aCA9PT0gMCkgcmV0dXJuIHsgcmVidWlsdDogMCB9OwoKICAgIGNvbnNvbGUubG9nKGDwn5SEIFtWZWN0b3JTdG9yZV0g5byA5aeL6YeN5bu6ICR7ZW1iZWRkZWROb2Rlcy5sZW5ndGh9IOadoeWQkemHj++8iCR7ZW1iZWRkaW5nQ29uZmlnLm1vZGVsfe+8iS4uLmApOwoKICAgIC8vIOaJuemHjyBlbWJlZGRpbmcKICAgIGNvbnN0IHRleHRzID0gZW1iZWRkZWROb2Rlcy5tYXAobiA9PiBuLmNvbnRlbnQpOwogICAgY29uc3QgdmVjdG9ycyA9IGF3YWl0IGdldEVtYmVkZGluZ3ModGV4dHMsIGVtYmVkZGluZ0NvbmZpZyk7CgogICAgLy8g6YCQ5p2h5pu/5o2iCiAgICBmb3IgKGxldCBpID0gMDsgaSA8IGVtYmVkZGVkTm9kZXMubGVuZ3RoOyBpKyspIHsKICAgICAgICBjb25zdCBtdjogTWVtb3J5VmVjdG9yID0gewogICAgICAgICAgICBtZW1vcnlJZDogZW1iZWRkZWROb2Rlc1tpXS5pZCwKICAgICAgICAgICAgY2hhcklkLAogICAgICAgICAgICB2ZWN0b3I6IHZlY3RvcnNbaV0sCiAgICAgICAgICAgIGRpbWVuc2lvbnM6IGVtYmVkZGluZ0NvbmZpZy5kaW1lbnNpb25zLAogICAgICAgICAgICBtb2RlbDogZW1iZWRkaW5nQ29uZmlnLm1vZGVsLAogICAgICAgIH07CiAgICAgICAgYXdhaXQgTWVtb3J5VmVjdG9yREIuc2F2ZShtdik7CgogICAgICAgIC8vIOWQjOatpeWIsOi/nOeoiwogICAgICAgIGlmIChyZW1vdGVWZWN0b3JDb25maWc/LmVuYWJsZWQgJiYgcmVtb3RlVmVjdG9yQ29uZmlnLmluaXRpYWxpemVkKSB7CiAgICAgICAgICAgIHJlbW90ZVVwc2VydChyZW1vdGVWZWN0b3JDb25maWcsIGVtYmVkZGVkTm9kZXNbaV0uaWQsIGNoYXJJZCwgdmVjdG9yc1tpXSwgZW1iZWRkZWROb2Rlc1tpXSwgZW1iZWRkaW5nQ29uZmlnLmRpbWVuc2lvbnMsIGVtYmVkZGluZ0NvbmZpZy5tb2RlbCkuY2F0Y2goKCkgPT4ge30pOwogICAgICAgIH0KICAgIH0KCiAgICBjb25zb2xlLmxvZyhg4pyFIFtWZWN0b3JTdG9yZV0g6YeN5bu65a6M5oiQ77yaJHtlbWJlZGRlZE5vZGVzLmxlbmd0aH0g5p2h5ZCR6YeP5bey5pu05paw5Li6ICR7ZW1iZWRkaW5nQ29uZmlnLm1vZGVsfWApOwogICAgcmV0dXJuIHsgcmVidWlsdDogZW1iZWRkZWROb2Rlcy5sZW5ndGggfTsKfQo=
+/**
+ * Memory Palace — 向量化 + 存储 + 去重
+ *
+ * 将提取出的 MemoryNode 批量向量化，
+ * 与已有向量做去重（余弦 > 0.9 跳过），
+ * 然后存入 memory_nodes 和 memory_vectors。
+ */
+
+import type { EmbeddingConfig, MemoryNode, MemoryVector, RemoteVectorConfig } from './types';
+import { MemoryNodeDB, MemoryVectorDB, ensureFloat32 } from './db';
+import { getEmbeddings, cosineSimilarity } from './embedding';
+import { upsertVector as remoteUpsert } from './supabaseVector';
+
+const DEDUP_THRESHOLD = 0.9;
+
+/**
+ * 向量化并存储记忆节点
+ *
+ * 流程：
+ * 1. 批量向量化 nodes 的 content
+ * 2. 与已有向量做去重（cosine > 0.9 的跳过）
+ * 3. 保存 MemoryNode (embedded=true) + MemoryVector
+ *
+ * skipDedup 保留给那些"入口就保证不会重"的路径用（比如 EventBox 压缩后写回
+ * summary 节点 —— summary 是 LLM 新合成的唯一结果，不会和已有记忆撞）。
+ * 迁移路径**不要**传 skipDedup —— 语义去重能挡掉 sub-batch 之间对同一件事的
+ * 重复提取（比如"7-12 号某天回忆起 3 号那件事"）。
+ */
+export async function vectorizeAndStore(
+    nodes: MemoryNode[],
+    embeddingConfig: EmbeddingConfig,
+    remoteVectorConfig?: RemoteVectorConfig,
+    options: { skipDedup?: boolean } = {},
+): Promise<{ stored: number; skipped: number }> {
+    if (nodes.length === 0) return { stored: 0, skipped: 0 };
+
+    // 1. 批量向量化
+    const texts = nodes.map(n => n.content);
+    const vectors = await getEmbeddings(texts, embeddingConfig);
+
+    // 2. 加载已有向量用于去重（EventBox summary / 迁移等场景跳过）
+    const charId = nodes[0].charId;
+    const existingVectors = options.skipDedup ? [] : await MemoryVectorDB.getAllByCharId(charId);
+
+    let stored = 0;
+    let skipped = 0;
+
+    for (let i = 0; i < nodes.length; i++) {
+        const node = nodes[i];
+        const vector = vectors[i];
+
+        // 去重检查 — ensureFloat32 兼容三种存储形态（number[] / Float32Array
+        // / Uint8Array），同时保护 cosineSimilarity 不被 Uint8Array 误读字节当数。
+        const queryF32 = ensureFloat32(vector);
+        const isDuplicate = !options.skipDedup && existingVectors.some(
+            ev => cosineSimilarity(queryF32, ensureFloat32(ev.vector)) > DEDUP_THRESHOLD
+        );
+
+        if (isDuplicate) {
+            console.log(`♻️ [VectorStore] Skipping duplicate memory: "${node.content.slice(0, 30)}..."`);
+            skipped++;
+            continue;
+        }
+
+        // 3. 保存
+        node.embedded = true;
+        await MemoryNodeDB.save(node);
+
+        const memoryVector: MemoryVector = {
+            memoryId: node.id,
+            charId: node.charId,
+            vector,
+            dimensions: embeddingConfig.dimensions,
+            model: embeddingConfig.model,
+        };
+        await MemoryVectorDB.save(memoryVector);
+
+        // 同步写入远程（fire-and-forget，不阻塞本地流程）
+        if (remoteVectorConfig?.enabled && remoteVectorConfig.initialized) {
+            remoteUpsert(remoteVectorConfig, node.id, node.charId, vector, node, embeddingConfig.dimensions, embeddingConfig.model).catch(() => {});
+        }
+
+        // 将新向量也加入已有列表，后续去重时可以检测同批次内的重复
+        existingVectors.push(memoryVector);
+
+        stored++;
+    }
+
+    console.log(`✅ [VectorStore] Stored ${stored}, skipped ${skipped} duplicates`);
+    return { stored, skipped };
+}
+
+/**
+ * 归一化模型名，用于「是否同一个底层模型」的比对。
+ *
+ * 去掉计费档位前缀 `Pro/`（硅基流动的付费独占算力档，底层权重与免费版
+ * 完全相同：`Pro/BAAI/bge-m3` 与 `BAAI/bge-m3` 是同一个 bge-m3）。
+ *
+ * 这样硅基 `Pro/BAAI/bge-m3` → 火山 `BAAI/bge-m3` 这类「同一开源模型、
+ * 仅换服务商/档位」的切换不会触发无谓重建（向量空间一致）。
+ */
+function normalizeModelName(model: string): string {
+    return model
+        .replace(/^Pro\//i, '')   // 硅基付费档前缀
+        .trim()
+        .toLowerCase();
+}
+
+/**
+ * 检测当前 embedding 模型是否与已有向量的模型一致。
+ * 如果不一致，说明用户换了模型，需要重新向量化。
+ *
+ * 注意：只比对「模型本体」，`Pro/BAAI/bge-m3` 与 `BAAI/bge-m3` 视为同一个模型，
+ * 跨服务商切换同一开源模型（如硅基 → 火山的 bge-m3）不会触发无谓重建。
+ *
+ * @returns 'match' | 'mismatch' | 'empty' (无已有向量)
+ */
+export async function checkModelConsistency(
+    charId: string,
+    currentModel: string,
+): Promise<'match' | 'mismatch' | 'empty'> {
+    const existing = await MemoryVectorDB.getAllByCharId(charId);
+    if (existing.length === 0) return 'empty';
+
+    // 取第一条有 model 字段的向量做比对（旧数据可能没有 model 字段）
+    const sample = existing.find(v => v.model);
+    if (!sample) return 'match'; // 旧数据无 model 字段，不触发重建，兼容过渡
+
+    return normalizeModelName(sample.model!) === normalizeModelName(currentModel)
+        ? 'match'
+        : 'mismatch';
+}
+
+/**
+ * 重新向量化：用新模型重新 embedding 所有已有记忆。
+ * 保留 MemoryNode 不动，只替换 MemoryVector。
+ */
+export async function rebuildAllVectors(
+    charId: string,
+    embeddingConfig: EmbeddingConfig,
+    remoteVectorConfig?: RemoteVectorConfig,
+): Promise<{ rebuilt: number }> {
+    const nodes = await MemoryNodeDB.getByCharId(charId);
+    const embeddedNodes = nodes.filter(n => n.embedded);
+
+    if (embeddedNodes.length === 0) return { rebuilt: 0 };
+
+    console.log(`🔄 [VectorStore] 开始重建 ${embeddedNodes.length} 条向量（${embeddingConfig.model}）...`);
+
+    // 批量 embedding
+    const texts = embeddedNodes.map(n => n.content);
+    const vectors = await getEmbeddings(texts, embeddingConfig);
+
+    // 逐条替换
+    for (let i = 0; i < embeddedNodes.length; i++) {
+        const mv: MemoryVector = {
+            memoryId: embeddedNodes[i].id,
+            charId,
+            vector: vectors[i],
+            dimensions: embeddingConfig.dimensions,
+            model: embeddingConfig.model,
+        };
+        await MemoryVectorDB.save(mv);
+
+        // 同步到远程
+        if (remoteVectorConfig?.enabled && remoteVectorConfig.initialized) {
+            remoteUpsert(remoteVectorConfig, embeddedNodes[i].id, charId, vectors[i], embeddedNodes[i], embeddingConfig.dimensions, embeddingConfig.model).catch(() => {});
+        }
+    }
+
+    console.log(`✅ [VectorStore] 重建完成：${embeddedNodes.length} 条向量已更新为 ${embeddingConfig.model}`);
+    return { rebuilt: embeddedNodes.length };
+}

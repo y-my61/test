@@ -1,1 +1,122 @@
-LyoqCiAqIOWwj+ivtCB0eHQg6Kej56CBIOKAlOKAlCDkuI3og73lhpnmrbsgVVRGLTjvvIzkuZ/kuI3og70gVVRGLTgg5aSx6LSl5bCx5LiA5b6L5b2T5Lit5paHIEdCMTgwMzDjgIIKICog5pel5paH5bCP6K+05bi46KeBIFNoaWZ0X0pJUyAvIEVVQy1KUO+8jOiiqyBHQjE4MDMwIOino+eggeWZqCLlsIblsLEi6Kej5Ye65p2l5bCx5piv5LiA5aCG5Lmx56CB44CCCiAqCiAqIOetlueVpe+8mgogKiAgIDEuIOWFiOeciyBCT03vvIhVVEYtOCAvIFVURi0xNiBMRSAvIFVURi0xNiBCRe+8ieKAlOKAlCDml6DmrafkuYnvvIznm7TmjqXlrpoKICogICAyLiDnlKggZmF0YWwg5qih5byP6K+VIFVURi0477yb6IO96L+H5bCx5pivIFVURi04CiAqICAgMy4g5ZCm5YiZ5Zyo5YCZ6YCJ57yW56CB77yIR0IxODAzMCAvIFNoaWZ0X0pJUyAvIEVVQy1KUCAvIEJpZzXvvInph4zmjIki5paH5pys6LSo6YePIuaJk+WIhuaMkeacgOS8mAogKiAgIDQuIOWFnOW6lSBVVEYtOCDlrr3mnb7mqKHlvI8KICoKICog5Lmf5pSv5oyB5omL5Yqo5oyH5a6a57yW56CB77yIZm9yY2Vk77yJ77ya6Ieq5Yqo6K+G5Yir5Yik6ZSZ5pe277yMVUkg5Y+v5Lul6K6p55So5oi35by65Yi25o2i5LiA5Liq44CCCiAqLwoKZXhwb3J0IGludGVyZmFjZSBEZWNvZGVSZXN1bHQgewogICAgdGV4dDogc3RyaW5nOwogICAgZW5jb2Rpbmc6IHN0cmluZzsKfQoKLyoqIOiHquWKqOivhuWIq+aXtuWPguS4juivhOWIhueahOWAmemAiee8lueggeOAgkdCMTgwMzAg5pS+5pyA5YmNIOKAlOKAlCDlkIzliIbml7bkvJjlhYjvvIjkuK3mlofmmK/kuLvlnLrmma/vvInjgIIgKi8KY29uc3QgQ0FORElEQVRFUyA9IFsnZ2IxODAzMCcsICdzaGlmdF9qaXMnLCAnZXVjLWpwJywgJ2JpZzUnXSBhcyBjb25zdDsKCi8qKiDor4bliKvlj6rlj5bliY3oi6XlubLlrZfoioLlgZrmoLfmnKzvvIzpgb/lhY3lpKfmlofku7bvvIjmlbAgTULvvInlj43lpI3lhajph4/op6PnoIHmi5bmhaLkuIrkvKDjgIIgKi8KY29uc3QgU0FNUExFX0JZVEVTID0gMjU2ICogMTAyNDsKCmZ1bmN0aW9uIHRyeURlY29kZShidWY6IEFycmF5QnVmZmVyLCBlbmM6IHN0cmluZyk6IHN0cmluZyB8IG51bGwgewogICAgdHJ5IHsKICAgICAgICByZXR1cm4gbmV3IFRleHREZWNvZGVyKGVuYykuZGVjb2RlKGJ1Zik7CiAgICB9IGNhdGNoIHsKICAgICAgICAvLyDlvJXmk47kuI3orqTor4bov5nkuKrnvJbnoIEgbGFiZWwKICAgICAgICByZXR1cm4gbnVsbDsKICAgIH0KfQoKLyoqCiAqIOe7meS4gOauteino+eggee7k+aenOaJk+WIhu+8mui2iuWDjyLmraPluLjkurrnsbvmlofmnKwi5YiG6LaK6auY44CCCiAqIOaguOW/g++8mueUqOmUmee8lueggeS8muWkp+mHj+S6p+eUn+abv+aNouespiBVK0ZGRkTjgIHnp4HnlKjljLrlrZfnrKbjgIHljYrop5LniYflgYflkI3kubHnoIHvvJsKICog55So5a+557yW56CB5YiZ5piv6L+e54mH55qE5rGJ5a2XIC8g5YGH5ZCNIC8gQVNDSUnjgIIKICovCmZ1bmN0aW9uIHNjb3JlVGV4dChzOiBzdHJpbmcpOiBudW1iZXIgewogICAgbGV0IHNjb3JlID0gMDsKICAgIGZvciAobGV0IGkgPSAwOyBpIDwgcy5sZW5ndGg7IGkrKykgewogICAgICAgIGNvbnN0IGMgPSBzLmNoYXJDb2RlQXQoaSk7CiAgICAgICAgaWYgKGMgPT09IDB4RkZGRCkgeyBzY29yZSAtPSAxMDA7IGNvbnRpbnVlOyB9ICAgICAgICAgICAgICAvLyDop6PnoIHlpLHotKXnmoTmm7/mjaLnrKbvvJrlvLrmg6nnvZoKICAgICAgICBpZiAoYyA+PSAweDMwNDAgJiYgYyA8PSAweDMwRkYpIHsgc2NvcmUgKz0gNDsgY29udGludWU7IH0gIC8vIOW5sy/niYflgYflkI3vvJrlvLrml6Xmlofkv6Hlj7cKICAgICAgICBpZiAoYyA+PSAweDRFMDAgJiYgYyA8PSAweDlGRkYpIHsgc2NvcmUgKz0gMTsgY29udGludWU7IH0gIC8vIENKSyDmsYnlrZcKICAgICAgICBpZiAoYyA+PSAweDMwMDAgJiYgYyA8PSAweDMwM0YpIHsgc2NvcmUgKz0gMTsgY29udGludWU7IH0gIC8vIENKSyDmoIfngrnvvIjlkKvlhajop5LnqbrmoLzvvIkKICAgICAgICBpZiAoYyA+PSAweEZGMDEgJiYgYyA8PSAweEZGNUUpIHsgc2NvcmUgKz0gMTsgY29udGludWU7IH0gIC8vIOWFqOinkiBBU0NJSQogICAgICAgIGlmIChjID49IDB4RkY2MSAmJiBjIDw9IDB4RkY5RikgeyBzY29yZSAtPSAxOyBjb250aW51ZTsgfSAgLy8g5Y2K6KeS54mH5YGH5ZCN77ya5Lmx56CB6auY5Y+R5Yy677yM5Y6L5LiA5Y6LCiAgICAgICAgaWYgKGMgPT09IDB4MDkgfHwgYyA9PT0gMHgwQSB8fCBjID09PSAweDBEKSB7IHNjb3JlICs9IDE7IGNvbnRpbnVlOyB9IC8vIOWItuihqC/mjaLooYwKICAgICAgICBpZiAoYyA+PSAweDIwICYmIGMgPD0gMHg3RSkgeyBzY29yZSArPSAxOyBjb250aW51ZTsgfSAgICAgIC8vIEFTQ0lJIOWPr+ingeWtl+espgogICAgICAgIGlmIChjID49IDB4RTAwMCAmJiBjIDw9IDB4RjhGRikgeyBzY29yZSAtPSAyMDsgY29udGludWU7IH0gLy8g56eB55So5Yy677ya5Yeg5LmO5LiA5a6a5piv5Lmx56CBCiAgICAgICAgaWYgKGMgPCAweDIwKSB7IHNjb3JlIC09IDU7IGNvbnRpbnVlOyB9ICAgICAgICAgICAgICAgICAgICAvLyDlhbblroPmjqfliLbnrKYKICAgICAgICBzY29yZSAtPSAwLjM7ICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAvLyDlhbbkvZnnlJ/lg7vnrKblj7fvvJrovbvlvq7lh4/liIYKICAgIH0KICAgIHJldHVybiBzY29yZTsKfQoKLyoqIOWcqOWAmemAiee8lueggemHjOaMieaWh+acrOi0qOmHj+aMkeS4gOS4quOAgkdCMTgwMzAg5ZCM5YiG5LyY5YWI77yI5pWw57uE6aG65bqPICsg5Lil5qC85aSn5LqO77yJ44CCICovCmZ1bmN0aW9uIGRldGVjdEVuY29kaW5nKGJ1ZjogQXJyYXlCdWZmZXIpOiBzdHJpbmcgewogICAgY29uc3Qgc2FtcGxlID0gYnVmLmJ5dGVMZW5ndGggPiBTQU1QTEVfQllURVMgPyBidWYuc2xpY2UoMCwgU0FNUExFX0JZVEVTKSA6IGJ1ZjsKICAgIGxldCBiZXN0ID0gJ2diMTgwMzAnOwogICAgbGV0IGJlc3RTY29yZSA9IC1JbmZpbml0eTsKICAgIGZvciAoY29uc3QgZW5jIG9mIENBTkRJREFURVMpIHsKICAgICAgICBjb25zdCB0ID0gdHJ5RGVjb2RlKHNhbXBsZSwgZW5jKTsKICAgICAgICBpZiAodCA9PSBudWxsKSBjb250aW51ZTsKICAgICAgICBjb25zdCBzYyA9IHNjb3JlVGV4dCh0KTsKICAgICAgICBpZiAoc2MgPiBiZXN0U2NvcmUpIHsKICAgICAgICAgICAgYmVzdFNjb3JlID0gc2M7CiAgICAgICAgICAgIGJlc3QgPSBlbmM7CiAgICAgICAgfQogICAgfQogICAgcmV0dXJuIGJlc3Q7Cn0KCi8qKgogKiDop6PnoIHlrZfoioLmtYHkuLrmlofmnKzjgIIKICogQHBhcmFtIGJ1ZiAgICDljp/lp4vlrZfoioIKICogQHBhcmFtIGZvcmNlZCDmiYvliqjmjIflrprnvJbnoIHvvIjlpoIgJ3V0Zi04JyAvICdzaGlmdF9qaXMn77yJ44CC5Lyg5LqG5bCx55u05o6l55So77yM6K+G5Yir5aSx6LSl5YaN5Zue6YCA6Ieq5Yqo44CCCiAqLwpleHBvcnQgZnVuY3Rpb24gZGVjb2RlQnl0ZXMoYnVmOiBBcnJheUJ1ZmZlciwgZm9yY2VkPzogc3RyaW5nKTogRGVjb2RlUmVzdWx0IHsKICAgIGNvbnN0IGJ5dGVzID0gbmV3IFVpbnQ4QXJyYXkoYnVmKTsKCiAgICAvLyDmiYvliqjmjIflrprvvJrkvJjlhYjmjInnlKjmiLfpgInnmoTmnaUKICAgIGlmIChmb3JjZWQpIHsKICAgICAgICBjb25zdCB0ID0gdHJ5RGVjb2RlKGJ1ZiwgZm9yY2VkKTsKICAgICAgICBpZiAodCAhPSBudWxsKSByZXR1cm4geyB0ZXh0OiB0LCBlbmNvZGluZzogZm9yY2VkIH07CiAgICAgICAgLy8g5pys5byV5pOO5LiN6K6k6K+G6L+Z5LiqIGxhYmVsIOKGkiDokL3liLDkuIvpnaLnmoToh6rliqjor4bliKsKICAgIH0KCiAgICAvLyBCT03vvIjml6DmrafkuYnvvIkKICAgIGlmIChieXRlcy5sZW5ndGggPj0gMyAmJiBieXRlc1swXSA9PT0gMHhFRiAmJiBieXRlc1sxXSA9PT0gMHhCQiAmJiBieXRlc1syXSA9PT0gMHhCRikgewogICAgICAgIHJldHVybiB7IHRleHQ6IG5ldyBUZXh0RGVjb2RlcigndXRmLTgnKS5kZWNvZGUoYnVmKSwgZW5jb2Rpbmc6ICd1dGYtOCcgfTsKICAgIH0KICAgIGlmIChieXRlcy5sZW5ndGggPj0gMiAmJiBieXRlc1swXSA9PT0gMHhGRiAmJiBieXRlc1sxXSA9PT0gMHhGRSkgewogICAgICAgIHJldHVybiB7IHRleHQ6IG5ldyBUZXh0RGVjb2RlcigndXRmLTE2bGUnKS5kZWNvZGUoYnVmKSwgZW5jb2Rpbmc6ICd1dGYtMTZsZScgfTsKICAgIH0KICAgIGlmIChieXRlcy5sZW5ndGggPj0gMiAmJiBieXRlc1swXSA9PT0gMHhGRSAmJiBieXRlc1sxXSA9PT0gMHhGRikgewogICAgICAgIHJldHVybiB7IHRleHQ6IG5ldyBUZXh0RGVjb2RlcigndXRmLTE2YmUnKS5kZWNvZGUoYnVmKSwgZW5jb2Rpbmc6ICd1dGYtMTZiZScgfTsKICAgIH0KCiAgICAvLyDkuKXmoLwgVVRGLTjvvJrpnZ7ms5XlrZfoioLluo/liJfkvJrmipvplJkg4oaSIOivtOaYjuS4jeaYryBVVEYtOAogICAgdHJ5IHsKICAgICAgICBjb25zdCB0ID0gbmV3IFRleHREZWNvZGVyKCd1dGYtOCcsIHsgZmF0YWw6IHRydWUgfSkuZGVjb2RlKGJ1Zik7CiAgICAgICAgcmV0dXJuIHsgdGV4dDogdCwgZW5jb2Rpbmc6ICd1dGYtOCcgfTsKICAgIH0gY2F0Y2ggewogICAgICAgIC8qIG5vdCB1dGYtOCAqLwogICAgfQoKICAgIC8vIOmdniBVVEYtOO+8muWcqOWAmemAiee8lueggemHjOaMkeaWh+acrOi0qOmHj+acgOmrmOeahO+8iOWMuuWIhuS4reaWhyBHQjE4MDMwIC8g5pel5paHIFNoaWZ0X0pJU8K3RVVDLUpQIC8g57mB5L2TIEJpZzXvvIkKICAgIGNvbnN0IGVuYyA9IGRldGVjdEVuY29kaW5nKGJ1Zik7CiAgICBjb25zdCB0ID0gdHJ5RGVjb2RlKGJ1ZiwgZW5jKTsKICAgIGlmICh0ICE9IG51bGwpIHJldHVybiB7IHRleHQ6IHQsIGVuY29kaW5nOiBlbmMgfTsKCiAgICAvLyDlhZzlupXvvJrlrr3mnb4gVVRGLTgKICAgIHJldHVybiB7IHRleHQ6IG5ldyBUZXh0RGVjb2RlcigndXRmLTgnKS5kZWNvZGUoYnVmKSwgZW5jb2Rpbmc6ICd1dGYtOD8nIH07Cn0KCi8qKiDnm7TmjqXop6PnoIHkuIDkuKogRmlsZe+8iOivuyBBcnJheUJ1ZmZlciArIOivhuWIq+e8luegge+8ieOAgiAqLwpleHBvcnQgYXN5bmMgZnVuY3Rpb24gZGVjb2RlVGV4dEZpbGUoZmlsZTogRmlsZSwgZm9yY2VkPzogc3RyaW5nKTogUHJvbWlzZTxEZWNvZGVSZXN1bHQ+IHsKICAgIGNvbnN0IGJ1ZiA9IGF3YWl0IGZpbGUuYXJyYXlCdWZmZXIoKTsKICAgIHJldHVybiBkZWNvZGVCeXRlcyhidWYsIGZvcmNlZCk7Cn0K
+/**
+ * 小说 txt 解码 —— 不能写死 UTF-8，也不能 UTF-8 失败就一律当中文 GB18030。
+ * 日文小说常见 Shift_JIS / EUC-JP，被 GB18030 解码器"将就"解出来就是一堆乱码。
+ *
+ * 策略：
+ *   1. 先看 BOM（UTF-8 / UTF-16 LE / UTF-16 BE）—— 无歧义，直接定
+ *   2. 用 fatal 模式试 UTF-8；能过就是 UTF-8
+ *   3. 否则在候选编码（GB18030 / Shift_JIS / EUC-JP / Big5）里按"文本质量"打分挑最优
+ *   4. 兜底 UTF-8 宽松模式
+ *
+ * 也支持手动指定编码（forced）：自动识别判错时，UI 可以让用户强制换一个。
+ */
+
+export interface DecodeResult {
+    text: string;
+    encoding: string;
+}
+
+/** 自动识别时参与评分的候选编码。GB18030 放最前 —— 同分时优先（中文是主场景）。 */
+const CANDIDATES = ['gb18030', 'shift_jis', 'euc-jp', 'big5'] as const;
+
+/** 识别只取前若干字节做样本，避免大文件（数 MB）反复全量解码拖慢上传。 */
+const SAMPLE_BYTES = 256 * 1024;
+
+function tryDecode(buf: ArrayBuffer, enc: string): string | null {
+    try {
+        return new TextDecoder(enc).decode(buf);
+    } catch {
+        // 引擎不认识这个编码 label
+        return null;
+    }
+}
+
+/**
+ * 给一段解码结果打分：越像"正常人类文本"分越高。
+ * 核心：用错编码会大量产生替换符 U+FFFD、私用区字符、半角片假名乱码；
+ * 用对编码则是连片的汉字 / 假名 / ASCII。
+ */
+function scoreText(s: string): number {
+    let score = 0;
+    for (let i = 0; i < s.length; i++) {
+        const c = s.charCodeAt(i);
+        if (c === 0xFFFD) { score -= 100; continue; }              // 解码失败的替换符：强惩罚
+        if (c >= 0x3040 && c <= 0x30FF) { score += 4; continue; }  // 平/片假名：强日文信号
+        if (c >= 0x4E00 && c <= 0x9FFF) { score += 1; continue; }  // CJK 汉字
+        if (c >= 0x3000 && c <= 0x303F) { score += 1; continue; }  // CJK 标点（含全角空格）
+        if (c >= 0xFF01 && c <= 0xFF5E) { score += 1; continue; }  // 全角 ASCII
+        if (c >= 0xFF61 && c <= 0xFF9F) { score -= 1; continue; }  // 半角片假名：乱码高发区，压一压
+        if (c === 0x09 || c === 0x0A || c === 0x0D) { score += 1; continue; } // 制表/换行
+        if (c >= 0x20 && c <= 0x7E) { score += 1; continue; }      // ASCII 可见字符
+        if (c >= 0xE000 && c <= 0xF8FF) { score -= 20; continue; } // 私用区：几乎一定是乱码
+        if (c < 0x20) { score -= 5; continue; }                    // 其它控制符
+        score -= 0.3;                                               // 其余生僻符号：轻微减分
+    }
+    return score;
+}
+
+/** 在候选编码里按文本质量挑一个。GB18030 同分优先（数组顺序 + 严格大于）。 */
+function detectEncoding(buf: ArrayBuffer): string {
+    const sample = buf.byteLength > SAMPLE_BYTES ? buf.slice(0, SAMPLE_BYTES) : buf;
+    let best = 'gb18030';
+    let bestScore = -Infinity;
+    for (const enc of CANDIDATES) {
+        const t = tryDecode(sample, enc);
+        if (t == null) continue;
+        const sc = scoreText(t);
+        if (sc > bestScore) {
+            bestScore = sc;
+            best = enc;
+        }
+    }
+    return best;
+}
+
+/**
+ * 解码字节流为文本。
+ * @param buf    原始字节
+ * @param forced 手动指定编码（如 'utf-8' / 'shift_jis'）。传了就直接用，识别失败再回退自动。
+ */
+export function decodeBytes(buf: ArrayBuffer, forced?: string): DecodeResult {
+    const bytes = new Uint8Array(buf);
+
+    // 手动指定：优先按用户选的来
+    if (forced) {
+        const t = tryDecode(buf, forced);
+        if (t != null) return { text: t, encoding: forced };
+        // 本引擎不认识这个 label → 落到下面的自动识别
+    }
+
+    // BOM（无歧义）
+    if (bytes.length >= 3 && bytes[0] === 0xEF && bytes[1] === 0xBB && bytes[2] === 0xBF) {
+        return { text: new TextDecoder('utf-8').decode(buf), encoding: 'utf-8' };
+    }
+    if (bytes.length >= 2 && bytes[0] === 0xFF && bytes[1] === 0xFE) {
+        return { text: new TextDecoder('utf-16le').decode(buf), encoding: 'utf-16le' };
+    }
+    if (bytes.length >= 2 && bytes[0] === 0xFE && bytes[1] === 0xFF) {
+        return { text: new TextDecoder('utf-16be').decode(buf), encoding: 'utf-16be' };
+    }
+
+    // 严格 UTF-8：非法字节序列会抛错 → 说明不是 UTF-8
+    try {
+        const t = new TextDecoder('utf-8', { fatal: true }).decode(buf);
+        return { text: t, encoding: 'utf-8' };
+    } catch {
+        /* not utf-8 */
+    }
+
+    // 非 UTF-8：在候选编码里挑文本质量最高的（区分中文 GB18030 / 日文 Shift_JIS·EUC-JP / 繁体 Big5）
+    const enc = detectEncoding(buf);
+    const t = tryDecode(buf, enc);
+    if (t != null) return { text: t, encoding: enc };
+
+    // 兜底：宽松 UTF-8
+    return { text: new TextDecoder('utf-8').decode(buf), encoding: 'utf-8?' };
+}
+
+/** 直接解码一个 File（读 ArrayBuffer + 识别编码）。 */
+export async function decodeTextFile(file: File, forced?: string): Promise<DecodeResult> {
+    const buf = await file.arrayBuffer();
+    return decodeBytes(buf, forced);
+}

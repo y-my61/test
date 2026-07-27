@@ -1,1 +1,92 @@
-Ly8g6KeS6Imy6Ieq5a6a5LmJ5pe25Yy677yI5byC5Zu95oGLIC8g6KeS6Imy6Lqr5aSE5byC5Zu9562J5Zy65pmv77yJ44CCCi8vIOS4juOAjOaXtumXtOaEn+efpeW8uuWMluOAjeWujOWFqOeLrOeri++8muaXtumXtOaEn+efpeeuoeOAjOi3neemu+S4iuasoeiBiuWkqeWkmuS5heOAjeeahOaPkOekuuivje+8jAovLyDov5nph4znrqHjgIzop5LoibLmtLvlnKjlk6rkuKrml7bljLrjgI3igJTigJTlvIDlkK/lkI7vvIzms6jlhaXnu5nor6Xop5LoibLnmoTjgIzlvZPliY3ml7bpl7QgLyDmtojmga/ml7bpl7TmiLMgLwovLyDlpJzpl7TliKTmlq3jgI3pg73mjInov5nkuKrml7bljLrmipjnrpfvvIzorqkgdGEg55yf55qE5rS75Zyo6Ieq5bex55qE5pys5Zyw5pe26Ze06YeM44CC5Lik6ICF5Y+v5Lu75oSP57uE5ZCI44CCCgppbXBvcnQgeyBDaGFyYWN0ZXJQcm9maWxlIH0gZnJvbSAnLi4vdHlwZXMnOwoKLyoqIOW4uOeUqOaXtuWMuua4heWNle+8iOWPi+WlveS4reaWh+agh+etvu+8ieOAgueUqCBJQU5BIGlk77yM6Ieq5Yqo5aSE55CG5aSP5Luk5pe244CCICovCmV4cG9ydCBjb25zdCBDT01NT05fVElNRVpPTkVTOiB7IGlkOiBzdHJpbmc7IGxhYmVsOiBzdHJpbmcgfVtdID0gWwogICAgeyBpZDogJ0FzaWEvU2hhbmdoYWknLCBsYWJlbDogJ+WMl+S6rCAvIOS4iua1tyAoVVRDKzgpJyB9LAogICAgeyBpZDogJ0FzaWEvVG9reW8nLCBsYWJlbDogJ+S4nOS6rCAvIOmmluWwlCAoVVRDKzkpJyB9LAogICAgeyBpZDogJ0FzaWEvQmFuZ2tvaycsIGxhYmVsOiAn5pu86LC3IC8g5rKz5YaFIChVVEMrNyknIH0sCiAgICB7IGlkOiAnQXNpYS9Lb2xrYXRhJywgbGFiZWw6ICfljbDluqYgKFVUQys1OjMwKScgfSwKICAgIHsgaWQ6ICdBc2lhL0R1YmFpJywgbGFiZWw6ICfov6rmi5wgKFVUQys0KScgfSwKICAgIHsgaWQ6ICdFdXJvcGUvTW9zY293JywgbGFiZWw6ICfojqvmlq/np5EgKFVUQyszKScgfSwKICAgIHsgaWQ6ICdFdXJvcGUvUGFyaXMnLCBsYWJlbDogJ+W3tOm7jiAvIOafj+aelyAvIOe9l+mprCAoVVRDKzEvKzIpJyB9LAogICAgeyBpZDogJ0V1cm9wZS9Mb25kb24nLCBsYWJlbDogJ+S8puaVpiAoVVRDKzAvKzEpJyB9LAogICAgeyBpZDogJ0FtZXJpY2EvU2FvX1BhdWxvJywgbGFiZWw6ICflnKPkv53nvZcgKFVUQy0zKScgfSwKICAgIHsgaWQ6ICdBbWVyaWNhL05ld19Zb3JrJywgbGFiZWw6ICfnur3nuqYgLyDlpJrkvKblpJogKFVUQy01Ly00KScgfSwKICAgIHsgaWQ6ICdBbWVyaWNhL0NoaWNhZ28nLCBsYWJlbDogJ+iKneWKoOWTpSAoVVRDLTYvLTUpJyB9LAogICAgeyBpZDogJ0FtZXJpY2EvRGVudmVyJywgbGFiZWw6ICfkuLnkvZsgKFVUQy03Ly02KScgfSwKICAgIHsgaWQ6ICdBbWVyaWNhL0xvc19BbmdlbGVzJywgbGFiZWw6ICfmtJvmnYnnn7YgLyDopb/pm4Xlm74gKFVUQy04Ly03KScgfSwKICAgIHsgaWQ6ICdBdXN0cmFsaWEvU3lkbmV5JywgbGFiZWw6ICfmgonlsLwgKFVUQysxMC8rMTEpJyB9LAogICAgeyBpZDogJ1BhY2lmaWMvQXVja2xhbmQnLCBsYWJlbDogJ+WlpeWFi+WFsCAoVVRDKzEyLysxMyknIH0sCl07CgovKiog5Y+W6KeS6Imy5b2T5YmN55Sf5pWI55qE5pe25Yy6IGlk77yb5pyq5byA5ZCv6Ieq5a6a5LmJ5pe25Yy65pe26L+U5ZueIHVuZGVmaW5lZO+8iD0g6Lef6ZqP5pys5py677yJ44CCICovCmV4cG9ydCBjb25zdCByZXNvbHZlQ2hhclRpbWVab25lID0gKAogICAgY2hhcj86IFBpY2s8Q2hhcmFjdGVyUHJvZmlsZSwgJ2N1c3RvbVRpbWV6b25lRW5hYmxlZCcgfCAnY3VzdG9tVGltZXpvbmUnPiB8IG51bGwsCik6IHN0cmluZyB8IHVuZGVmaW5lZCA9PgogICAgY2hhcj8uY3VzdG9tVGltZXpvbmVFbmFibGVkICYmIGNoYXIuY3VzdG9tVGltZXpvbmUgPyBjaGFyLmN1c3RvbVRpbWV6b25lIDogdW5kZWZpbmVkOwoKLyoqIOaXtuWMuiBpZCDihpIg5Y+L5aW95qCH562+77yb5LiN5Zyo5riF5Y2V6YeM5bCx5Y6f5qC36L+U5ZueIGlk44CCICovCmV4cG9ydCBjb25zdCB0ekxhYmVsID0gKHR6OiBzdHJpbmcpOiBzdHJpbmcgPT4KICAgIENPTU1PTl9USU1FWk9ORVMuZmluZCh0ID0+IHQuaWQgPT09IHR6KT8ubGFiZWwgfHwgdHo7CgovKioKICog6L+U5Zue5LiA5Liq44CM5pys5ZywIGdldHRlcu+8iGdldEhvdXJzL2dldE1pbnV0ZXMvZ2V0RGF5L2dldEZ1bGxZZWFy4oCm77yJ6K+75Ye65p2l5q2j5aW95pivIGB0emAKICog5b2T5Zyw5aKZ5LiK5pe26Ze044CN55qEIERhdGXjgIJ0eiDkuLrnqbrmiJbpnZ7ms5Xml7bvvIzljp/moLfov5Tlm54gYmFzZe+8iOacrOacuuaXtumXtO+8ieOAggogKiDov5nmoLfmiYDmnInnjrDmnInnlKggbmV3IERhdGUoKS5nZXRIb3VycygpIOS5i+exu+ivu+WPlueahOS7o+eggemDveS4jeeUqOaUueivu+WPluaWueW8j++8jOWPquaNouS4gOS4i+i/meS4qua6kOOAggogKi8KZXhwb3J0IGNvbnN0IG5vd0luVGltZVpvbmUgPSAodHo/OiBzdHJpbmcsIGJhc2U6IERhdGUgPSBuZXcgRGF0ZSgpKTogRGF0ZSA9PiB7CiAgICBpZiAoIXR6KSByZXR1cm4gYmFzZTsKICAgIHRyeSB7CiAgICAgICAgY29uc3QgcGFydHMgPSBuZXcgSW50bC5EYXRlVGltZUZvcm1hdCgnZW4tVVMnLCB7CiAgICAgICAgICAgIHRpbWVab25lOiB0eiwKICAgICAgICAgICAgeWVhcjogJ251bWVyaWMnLCBtb250aDogJzItZGlnaXQnLCBkYXk6ICcyLWRpZ2l0JywKICAgICAgICAgICAgaG91cjogJzItZGlnaXQnLCBtaW51dGU6ICcyLWRpZ2l0Jywgc2Vjb25kOiAnMi1kaWdpdCcsIGhvdXIxMjogZmFsc2UsCiAgICAgICAgfSkuZm9ybWF0VG9QYXJ0cyhiYXNlKTsKICAgICAgICBjb25zdCBtYXA6IFJlY29yZDxzdHJpbmcsIHN0cmluZz4gPSB7fTsKICAgICAgICBmb3IgKGNvbnN0IHAgb2YgcGFydHMpIG1hcFtwLnR5cGVdID0gcC52YWx1ZTsKICAgICAgICBsZXQgaG91ciA9IHBhcnNlSW50KG1hcC5ob3VyLCAxMCk7CiAgICAgICAgaWYgKGhvdXIgPT09IDI0KSBob3VyID0gMDsgLy8g5p+Q5Lqb546v5aKDIDI0OjAwIOihqOekuuWNiOWknAogICAgICAgIHJldHVybiBuZXcgRGF0ZSgKICAgICAgICAgICAgcGFyc2VJbnQobWFwLnllYXIsIDEwKSwgcGFyc2VJbnQobWFwLm1vbnRoLCAxMCkgLSAxLCBwYXJzZUludChtYXAuZGF5LCAxMCksCiAgICAgICAgICAgIGhvdXIsIHBhcnNlSW50KG1hcC5taW51dGUsIDEwKSwgcGFyc2VJbnQobWFwLnNlY29uZCwgMTApLAogICAgICAgICk7CiAgICB9IGNhdGNoIHsKICAgICAgICByZXR1cm4gYmFzZTsKICAgIH0KfTsKCi8qKiDmiormn5DkuKrml7bpl7TmiLPmipjnrpfmiJAgYHR6YCDlvZPlnLDlopnkuIrml7bpl7Tlr7nlupTnmoTml7bpl7TmiLPvvIjnlKjkuo7ljoblj7Lmtojmga/ml7bpl7TmiLPmmL7npLrvvInjgIIgKi8KZXhwb3J0IGNvbnN0IHRzSW5UaW1lWm9uZSA9ICh0czogbnVtYmVyLCB0ej86IHN0cmluZyk6IG51bWJlciA9PgogICAgdHogPyBub3dJblRpbWVab25lKHR6LCBuZXcgRGF0ZSh0cykpLmdldFRpbWUoKSA6IHRzOwoKLyoqIOazqOWFpeiBiuWkqSBwcm9tcHQg55qE5pe25beu5o+Q56S677yI5byC5Zu95oGL5qC45b+D77yJ44CCdHog5Li656m65pe26L+U5Zue56m65Liy44CCICovCmV4cG9ydCBjb25zdCB0ekF3YXJlbmVzc05vdGUgPSAodHo/OiBzdHJpbmcpOiBzdHJpbmcgPT4gewogICAgaWYgKCF0eikgcmV0dXJuICcnOwogICAgcmV0dXJuIGBcbuKPsyDms6jmhI/vvJrkvaDouqvlpITjgIwke3R6TGFiZWwodHopfeOAjeaXtuWMuu+8jOS4iumdoueahOOAjOW9k+WJjeaXtumXtOOAjeaYr+S9oOmCo+i+ueeahOacrOWcsOaXtumXtOOAgmAKICAgICAgICArIGDlr7nmlrnvvIjnlKjmiLfvvInlj6/og73lnKjkuI3lkIznmoTml7bljLrvvIzkvaDku6zkuYvpl7TlrZjlnKjml7blt67igJTigJTogYrlpKnml7bmiorov5nngrnogIPomZHov5vljrtgCiAgICAgICAgKyBg77yI5q+U5aaC5L2g6L+Z6L655bey5piv5rex5aSc6KaB552h5LqG77yM5a+55pa56YKj6L655Lmf6K645omN5LiL5Y2I77yJ44CCXG5gOwp9OwoKLyoqCiAqIOOAjOi3neemu+S4iuasoeS6kuWKqOWkmuS5heOAjee7n+S4gOWPo+W+hO+8iOS+myBidWlsZENvcmVDb250ZXh0IOazqOWFpe+8jOafpeaJi+acui/kurrpmYXlhbPns7vnrYnml6DlhoXogZTmtojmga/mtYHnmoQKICog6Lev5b6E5YWx55So5ZCM5LiA5Lu95o6q6L6e77yM5pu/5Luj5ZCEIEFwcCDlkITlhpnkuIDku73nmoQgZ2V0VGltZUdhcEhpbnTvvInjgIIKICog57qv5pe26ZW/77yM5LiO5pe25Yy65peg5YWz77yI6Ze06ZqU5piv57ud5a+55beu5YC877yJ44CCbGFzdFRzIOS4uuepuui/lOWbnuepuuS4suOAggogKiDogYrlpKnlhoXogZTpgqPku73vvIhDaGF0UHJvbXB0cy5nZXRUaW1lR2FwSGludO+8ieWIu+aEj+S/neeVme+8muWug+i0tOWcqOacgOWQjuS4gOadoea2iOaBr+WQjuOAgeW4pua3seWknOWIpOaWre+8jOS9jee9ruivreS5ieabtOWlveOAggogKi8KZXhwb3J0IGNvbnN0IGludGVyYWN0aW9uR2FwTm90ZSA9IChsYXN0VHM/OiBudW1iZXIsIG5vd1RzOiBudW1iZXIgPSBEYXRlLm5vdygpKTogc3RyaW5nID0+IHsKICAgIGlmICghbGFzdFRzKSByZXR1cm4gJyc7CiAgICBjb25zdCBkaWZmTXMgPSBub3dUcyAtIGxhc3RUczsKICAgIGlmIChkaWZmTXMgPCAwKSByZXR1cm4gJyc7CiAgICBjb25zdCBtaW5zID0gTWF0aC5mbG9vcihkaWZmTXMgLyA2MDAwMCk7CiAgICBjb25zdCBob3VycyA9IE1hdGguZmxvb3IoZGlmZk1zIC8gMzYwMDAwMCk7CiAgICBjb25zdCBkYXlzID0gTWF0aC5mbG9vcihob3VycyAvIDI0KTsKICAgIGlmIChtaW5zIDwgNSkgcmV0dXJuIGDijJsg5L2g5ZKM5a+55pa55Yia5Yia6L+Y5Zyo6IGU57O744CCXG5gOwogICAgY29uc3Qgc3BhbiA9IG1pbnMgPCA2MCA/IGAke21pbnN9IOWIhumSn2AgOiBob3VycyA8IDI0ID8gYCR7aG91cnN9IOWwj+aXtmAgOiBgJHtkYXlzfSDlpKlgOwogICAgY29uc3QgZmVlbCA9IGRheXMgPj0gMSA/ICflt7Lnu4/mnInkuIDpmLXlrZDmsqHogZTns7vkuoYnIDogJ+S4jeS5heWJjeWImuiBlOezu+i/hyc7CiAgICByZXR1cm4gYOKMmyDot53nprvkvaDlkozlr7nmlrnkuIrmrKHogZTns7vvvIzlt7Lnu4/ov4fljrsgJHtzcGFufe+8iCR7ZmVlbH3vvInigJTigJTor7fmiorov5nnp43kvZPmhJ/oh6rnhLbluKblhaXlvZPkuIvnmoTnirbmgIHkuI7lv4Pmg4XjgIJcbmA7Cn07Cg==
+// 角色自定义时区（异国恋 / 角色身处异国等场景）。
+// 与「时间感知强化」完全独立：时间感知管「距离上次聊天多久」的提示词，
+// 这里管「角色活在哪个时区」——开启后，注入给该角色的「当前时间 / 消息时间戳 /
+// 夜间判断」都按这个时区折算，让 ta 真的活在自己的本地时间里。两者可任意组合。
+
+import { CharacterProfile } from '../types';
+
+/** 常用时区清单（友好中文标签）。用 IANA id，自动处理夏令时。 */
+export const COMMON_TIMEZONES: { id: string; label: string }[] = [
+    { id: 'Asia/Shanghai', label: '北京 / 上海 (UTC+8)' },
+    { id: 'Asia/Tokyo', label: '东京 / 首尔 (UTC+9)' },
+    { id: 'Asia/Bangkok', label: '曼谷 / 河内 (UTC+7)' },
+    { id: 'Asia/Kolkata', label: '印度 (UTC+5:30)' },
+    { id: 'Asia/Dubai', label: '迪拜 (UTC+4)' },
+    { id: 'Europe/Moscow', label: '莫斯科 (UTC+3)' },
+    { id: 'Europe/Paris', label: '巴黎 / 柏林 / 罗马 (UTC+1/+2)' },
+    { id: 'Europe/London', label: '伦敦 (UTC+0/+1)' },
+    { id: 'America/Sao_Paulo', label: '圣保罗 (UTC-3)' },
+    { id: 'America/New_York', label: '纽约 / 多伦多 (UTC-5/-4)' },
+    { id: 'America/Chicago', label: '芝加哥 (UTC-6/-5)' },
+    { id: 'America/Denver', label: '丹佛 (UTC-7/-6)' },
+    { id: 'America/Los_Angeles', label: '洛杉矶 / 西雅图 (UTC-8/-7)' },
+    { id: 'Australia/Sydney', label: '悉尼 (UTC+10/+11)' },
+    { id: 'Pacific/Auckland', label: '奥克兰 (UTC+12/+13)' },
+];
+
+/** 取角色当前生效的时区 id；未开启自定义时区时返回 undefined（= 跟随本机）。 */
+export const resolveCharTimeZone = (
+    char?: Pick<CharacterProfile, 'customTimezoneEnabled' | 'customTimezone'> | null,
+): string | undefined =>
+    char?.customTimezoneEnabled && char.customTimezone ? char.customTimezone : undefined;
+
+/** 时区 id → 友好标签；不在清单里就原样返回 id。 */
+export const tzLabel = (tz: string): string =>
+    COMMON_TIMEZONES.find(t => t.id === tz)?.label || tz;
+
+/**
+ * 返回一个「本地 getter（getHours/getMinutes/getDay/getFullYear…）读出来正好是 `tz`
+ * 当地墙上时间」的 Date。tz 为空或非法时，原样返回 base（本机时间）。
+ * 这样所有现有用 new Date().getHours() 之类读取的代码都不用改读取方式，只换一下这个源。
+ */
+export const nowInTimeZone = (tz?: string, base: Date = new Date()): Date => {
+    if (!tz) return base;
+    try {
+        const parts = new Intl.DateTimeFormat('en-US', {
+            timeZone: tz,
+            year: 'numeric', month: '2-digit', day: '2-digit',
+            hour: '2-digit', minute: '2-digit', second: '2-digit', hour12: false,
+        }).formatToParts(base);
+        const map: Record<string, string> = {};
+        for (const p of parts) map[p.type] = p.value;
+        let hour = parseInt(map.hour, 10);
+        if (hour === 24) hour = 0; // 某些环境 24:00 表示午夜
+        return new Date(
+            parseInt(map.year, 10), parseInt(map.month, 10) - 1, parseInt(map.day, 10),
+            hour, parseInt(map.minute, 10), parseInt(map.second, 10),
+        );
+    } catch {
+        return base;
+    }
+};
+
+/** 把某个时间戳折算成 `tz` 当地墙上时间对应的时间戳（用于历史消息时间戳显示）。 */
+export const tsInTimeZone = (ts: number, tz?: string): number =>
+    tz ? nowInTimeZone(tz, new Date(ts)).getTime() : ts;
+
+/** 注入聊天 prompt 的时差提示（异国恋核心）。tz 为空时返回空串。 */
+export const tzAwarenessNote = (tz?: string): string => {
+    if (!tz) return '';
+    return `\n⏳ 注意：你身处「${tzLabel(tz)}」时区，上面的「当前时间」是你那边的本地时间。`
+        + `对方（用户）可能在不同的时区，你们之间存在时差——聊天时把这点考虑进去`
+        + `（比如你这边已是深夜要睡了，对方那边也许才下午）。\n`;
+};
+
+/**
+ * 「距离上次互动多久」统一口径（供 buildCoreContext 注入，查手机/人际关系等无内联消息流的
+ * 路径共用同一份措辞，替代各 App 各写一份的 getTimeGapHint）。
+ * 纯时长，与时区无关（间隔是绝对差值）。lastTs 为空返回空串。
+ * 聊天内联那份（ChatPrompts.getTimeGapHint）刻意保留：它贴在最后一条消息后、带深夜判断，位置语义更好。
+ */
+export const interactionGapNote = (lastTs?: number, nowTs: number = Date.now()): string => {
+    if (!lastTs) return '';
+    const diffMs = nowTs - lastTs;
+    if (diffMs < 0) return '';
+    const mins = Math.floor(diffMs / 60000);
+    const hours = Math.floor(diffMs / 3600000);
+    const days = Math.floor(hours / 24);
+    if (mins < 5) return `⌛ 你和对方刚刚还在联系。\n`;
+    const span = mins < 60 ? `${mins} 分钟` : hours < 24 ? `${hours} 小时` : `${days} 天`;
+    const feel = days >= 1 ? '已经有一阵子没联系了' : '不久前刚联系过';
+    return `⌛ 距离你和对方上次联系，已经过去 ${span}（${feel}）——请把这种体感自然带入当下的状态与心情。\n`;
+};

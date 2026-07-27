@@ -1,1 +1,94 @@
-LyoqCiAqIFNoYXJlZCBWQVBJRCBjcmVkZW50aWFscyBzdG9yZS4KICoKICogQm90aCBJbnN0YW50IFB1c2ggKHV0aWxzL2luc3RhbnRQdXNoQ2xpZW50LnRzKSBhbmQgUHJvYWN0aXZlIFB1c2gKICogKHV0aWxzL3Byb2FjdGl2ZVB1c2hDb25maWcudHMpIHJlYWQgVkFQSUQgZnJvbSBoZXJlIHNvIHRoZXkgZG9uJ3QgZmlnaHQKICogb3ZlciB0aGUgc2luZ2xlIHBlci1vcmlnaW4gcHVzaE1hbmFnZXIuc3Vic2NyaXB0aW9uIOKAlCBzYW1lIFZBUElEIOKGkiBubwogKiB1bnN1YnNjcmliZS1hbmQtcmVidWlsZCBjaHVybi4KICoKICogUHJpdmF0ZSBrZXkgaXMgaW50ZW50aW9uYWxseSBwZXJzaXN0ZWQgdG9vOiB0aGUgdXNlciBoYXMgdG8gcGFzdGUgaXQKICogaW50byB0aGVpciBDbG91ZGZsYXJlIFdvcmtlciBlbnYsIGFuZCByZS1kaXNwbGF5aW5nIGl0IGxhdGVyIGlzIG11Y2gKICogZWFzaWVyIHRoYW4gcmVnZW5lcmF0aW5nICsgcmUtZGVwbG95aW5nLiBsb2NhbFN0b3JhZ2UgYWxyZWFkeSBob2xkcwogKiBBUEkga2V5cyAvIGNsaWVudCB0b2tlbnMsIG9uZSBtb3JlIHNlY3JldCBvZiBjb21wYXJhYmxlIHNlbnNpdGl2aXR5CiAqIGRvZXMgbm90IGNoYW5nZSB0aGUgdGhyZWF0IG1vZGVsLgogKgogKiBEZWZhdWx0IHZhbHVlcyBhcmUgZW1wdHkgYnkgZGVzaWduIOKAlCB0aGVyZSBpcyBubyBoYXJkY29kZWQgZmFsbGJhY2suCiAqIFRoZSB1c2VyIG11c3QgZ2VuZXJhdGUgKG9yIHBhc3RlKSB0aGVpciBvd24gVkFQSUQga2V5IHBhaXIgdmlhIHRoZQogKiBJbnN0YW50IFB1c2ggc2V0dGluZ3MgbW9kYWwsIHRoZW4gbWlycm9yIGl0IGludG8gdGhlIFdvcmtlciBlbnYuCiAqLwoKY29uc3QgUFVTSF9WQVBJRF9LRVkgPSAncHVzaF92YXBpZF92MSc7CmNvbnN0IExFR0FDWV9JTlNUQU5UX0tFWSA9ICdpbnN0YW50X3B1c2hfY29uZmlnX3YxJzsKCmV4cG9ydCBpbnRlcmZhY2UgUHVzaFZhcGlkIHsKICB2YXBpZFB1YmxpY0tleTogc3RyaW5nOwogIHZhcGlkUHJpdmF0ZUtleTogc3RyaW5nOwogIHZhcGlkRW1haWw/OiBzdHJpbmc7CiAgdXBkYXRlZEF0PzogbnVtYmVyOwp9Cgpjb25zdCBFTVBUWTogUHVzaFZhcGlkID0gewogIHZhcGlkUHVibGljS2V5OiAnJywKICB2YXBpZFByaXZhdGVLZXk6ICcnLAp9OwoKbGV0IG1pZ3JhdGVkID0gZmFsc2U7CgovLyBPbmUtc2hvdCBtaWdyYXRpb246IHRoZSBwcmV2aW91cyBJbnN0YW50IFB1c2ggY29uZmlnIHN0b3JlZCB2YXBpZFB1YmxpY0tleQovLyBpbmxpbmUuIENvcHkgaXQgYWNyb3NzIG9uIGZpcnN0IHJlYWQgc28gZXhpc3RpbmcgdXNlcnMgZG9uJ3QgbG9zZSB0aGVpcgovLyBzdWJzY3JpcHRpb24uIFByaXZhdGUga2V5IHdhcyBuZXZlciBwZXJzaXN0ZWQgYmVmb3JlIOKAlCB1c2VyIGhhcyB0bwovLyByZS1lbnRlciAvIHJlZ2VuZXJhdGUgdG8gcm91bmQtdHJpcCBpdCBiYWNrLgpmdW5jdGlvbiBtaWdyYXRlRnJvbUluc3RhbnRDb25maWdJZk5lZWRlZCgpOiB2b2lkIHsKICBpZiAobWlncmF0ZWQpIHJldHVybjsKICBtaWdyYXRlZCA9IHRydWU7CiAgaWYgKHR5cGVvZiBsb2NhbFN0b3JhZ2UgPT09ICd1bmRlZmluZWQnKSByZXR1cm47CiAgdHJ5IHsKICAgIGlmIChsb2NhbFN0b3JhZ2UuZ2V0SXRlbShQVVNIX1ZBUElEX0tFWSkpIHJldHVybjsKICAgIGNvbnN0IGxlZ2FjeSA9IGxvY2FsU3RvcmFnZS5nZXRJdGVtKExFR0FDWV9JTlNUQU5UX0tFWSk7CiAgICBpZiAoIWxlZ2FjeSkgcmV0dXJuOwogICAgY29uc3QgcGFyc2VkID0gSlNPTi5wYXJzZShsZWdhY3kpIGFzIHsgdmFwaWRQdWJsaWNLZXk/OiBzdHJpbmcgfTsKICAgIGNvbnN0IHB1YiA9IChwYXJzZWQ/LnZhcGlkUHVibGljS2V5IHx8ICcnKS50cmltKCk7CiAgICBpZiAoIXB1YikgcmV0dXJuOwogICAgY29uc3QgbmV4dDogUHVzaFZhcGlkID0gewogICAgICB2YXBpZFB1YmxpY0tleTogcHViLAogICAgICB2YXBpZFByaXZhdGVLZXk6ICcnLAogICAgICB1cGRhdGVkQXQ6IERhdGUubm93KCksCiAgICB9OwogICAgbG9jYWxTdG9yYWdlLnNldEl0ZW0oUFVTSF9WQVBJRF9LRVksIEpTT04uc3RyaW5naWZ5KG5leHQpKTsKICB9IGNhdGNoIHsgLyogaWdub3JlICovIH0KfQoKZXhwb3J0IGZ1bmN0aW9uIGxvYWRQdXNoVmFwaWQoKTogUHVzaFZhcGlkIHsKICBpZiAodHlwZW9mIGxvY2FsU3RvcmFnZSA9PT0gJ3VuZGVmaW5lZCcpIHJldHVybiB7IC4uLkVNUFRZIH07CiAgdHJ5IHsKICAgIG1pZ3JhdGVGcm9tSW5zdGFudENvbmZpZ0lmTmVlZGVkKCk7CiAgICBjb25zdCByYXcgPSBsb2NhbFN0b3JhZ2UuZ2V0SXRlbShQVVNIX1ZBUElEX0tFWSk7CiAgICBpZiAocmF3KSByZXR1cm4geyAuLi5FTVBUWSwgLi4uKEpTT04ucGFyc2UocmF3KSBhcyBQYXJ0aWFsPFB1c2hWYXBpZD4pIH07CiAgfSBjYXRjaCB7IC8qIGlnbm9yZSAqLyB9CiAgcmV0dXJuIHsgLi4uRU1QVFkgfTsKfQoKZXhwb3J0IGZ1bmN0aW9uIHNhdmVQdXNoVmFwaWQodjogUHVzaFZhcGlkKTogdm9pZCB7CiAgaWYgKHR5cGVvZiBsb2NhbFN0b3JhZ2UgPT09ICd1bmRlZmluZWQnKSByZXR1cm47CiAgdHJ5IHsKICAgIGNvbnN0IG5leHQ6IFB1c2hWYXBpZCA9IHsKICAgICAgdmFwaWRQdWJsaWNLZXk6IHYudmFwaWRQdWJsaWNLZXkudHJpbSgpLAogICAgICB2YXBpZFByaXZhdGVLZXk6IHYudmFwaWRQcml2YXRlS2V5LnRyaW0oKSwKICAgICAgdmFwaWRFbWFpbDogdi52YXBpZEVtYWlsPy50cmltKCkgfHwgdW5kZWZpbmVkLAogICAgICB1cGRhdGVkQXQ6IERhdGUubm93KCksCiAgICB9OwogICAgbG9jYWxTdG9yYWdlLnNldEl0ZW0oUFVTSF9WQVBJRF9LRVksIEpTT04uc3RyaW5naWZ5KG5leHQpKTsKICB9IGNhdGNoIHsgLyogaWdub3JlICovIH0KfQoKZXhwb3J0IGZ1bmN0aW9uIGNsZWFyUHVzaFZhcGlkKCk6IHZvaWQgewogIGlmICh0eXBlb2YgbG9jYWxTdG9yYWdlID09PSAndW5kZWZpbmVkJykgcmV0dXJuOwogIHRyeSB7IGxvY2FsU3RvcmFnZS5yZW1vdmVJdGVtKFBVU0hfVkFQSURfS0VZKTsgfSBjYXRjaCB7IC8qIGlnbm9yZSAqLyB9Cn0KCmV4cG9ydCBmdW5jdGlvbiBpc1B1c2hWYXBpZFJlYWR5KHY/OiBQdXNoVmFwaWQpOiBib29sZWFuIHsKICBjb25zdCB4ID0gdiA/PyBsb2FkUHVzaFZhcGlkKCk7CiAgLy8gVkFQSUQgcHVibGljIGtleXMgYXJlIDY1IHJhdyBieXRlcyDihpIgODcgYmFzZTY0dXJsIGNoYXJzLiA+NjAgaXMgYSBsb29zZQogIC8vIHNhbml0eSBjaGVjayB0aGF0IGNhdGNoZXMgImVtcHR5IiwgIkJBS251WSIgcGFydGlhbCBwYXN0ZSwgZXRjLgogIHJldHVybiB4LnZhcGlkUHVibGljS2V5Lmxlbmd0aCA+IDYwOwp9Cg==
+/**
+ * Shared VAPID credentials store.
+ *
+ * Both Instant Push (utils/instantPushClient.ts) and Proactive Push
+ * (utils/proactivePushConfig.ts) read VAPID from here so they don't fight
+ * over the single per-origin pushManager.subscription — same VAPID → no
+ * unsubscribe-and-rebuild churn.
+ *
+ * Private key is intentionally persisted too: the user has to paste it
+ * into their Cloudflare Worker env, and re-displaying it later is much
+ * easier than regenerating + re-deploying. localStorage already holds
+ * API keys / client tokens, one more secret of comparable sensitivity
+ * does not change the threat model.
+ *
+ * Default values are empty by design — there is no hardcoded fallback.
+ * The user must generate (or paste) their own VAPID key pair via the
+ * Instant Push settings modal, then mirror it into the Worker env.
+ */
+
+const PUSH_VAPID_KEY = 'push_vapid_v1';
+const LEGACY_INSTANT_KEY = 'instant_push_config_v1';
+
+export interface PushVapid {
+  vapidPublicKey: string;
+  vapidPrivateKey: string;
+  vapidEmail?: string;
+  updatedAt?: number;
+}
+
+const EMPTY: PushVapid = {
+  vapidPublicKey: '',
+  vapidPrivateKey: '',
+};
+
+let migrated = false;
+
+// One-shot migration: the previous Instant Push config stored vapidPublicKey
+// inline. Copy it across on first read so existing users don't lose their
+// subscription. Private key was never persisted before — user has to
+// re-enter / regenerate to round-trip it back.
+function migrateFromInstantConfigIfNeeded(): void {
+  if (migrated) return;
+  migrated = true;
+  if (typeof localStorage === 'undefined') return;
+  try {
+    if (localStorage.getItem(PUSH_VAPID_KEY)) return;
+    const legacy = localStorage.getItem(LEGACY_INSTANT_KEY);
+    if (!legacy) return;
+    const parsed = JSON.parse(legacy) as { vapidPublicKey?: string };
+    const pub = (parsed?.vapidPublicKey || '').trim();
+    if (!pub) return;
+    const next: PushVapid = {
+      vapidPublicKey: pub,
+      vapidPrivateKey: '',
+      updatedAt: Date.now(),
+    };
+    localStorage.setItem(PUSH_VAPID_KEY, JSON.stringify(next));
+  } catch { /* ignore */ }
+}
+
+export function loadPushVapid(): PushVapid {
+  if (typeof localStorage === 'undefined') return { ...EMPTY };
+  try {
+    migrateFromInstantConfigIfNeeded();
+    const raw = localStorage.getItem(PUSH_VAPID_KEY);
+    if (raw) return { ...EMPTY, ...(JSON.parse(raw) as Partial<PushVapid>) };
+  } catch { /* ignore */ }
+  return { ...EMPTY };
+}
+
+export function savePushVapid(v: PushVapid): void {
+  if (typeof localStorage === 'undefined') return;
+  try {
+    const next: PushVapid = {
+      vapidPublicKey: v.vapidPublicKey.trim(),
+      vapidPrivateKey: v.vapidPrivateKey.trim(),
+      vapidEmail: v.vapidEmail?.trim() || undefined,
+      updatedAt: Date.now(),
+    };
+    localStorage.setItem(PUSH_VAPID_KEY, JSON.stringify(next));
+  } catch { /* ignore */ }
+}
+
+export function clearPushVapid(): void {
+  if (typeof localStorage === 'undefined') return;
+  try { localStorage.removeItem(PUSH_VAPID_KEY); } catch { /* ignore */ }
+}
+
+export function isPushVapidReady(v?: PushVapid): boolean {
+  const x = v ?? loadPushVapid();
+  // VAPID public keys are 65 raw bytes → 87 base64url chars. >60 is a loose
+  // sanity check that catches "empty", "BAKnuY" partial paste, etc.
+  return x.vapidPublicKey.length > 60;
+}

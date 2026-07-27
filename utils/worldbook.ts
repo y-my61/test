@@ -1,1 +1,342 @@
-aW1wb3J0IHR5cGUgewogICAgTW91bnRlZFdvcmxkYm9vaywKICAgIFdvcmxkYm9vaywKICAgIFdvcmxkYm9va0RlcHRoUm9sZSwKICAgIFdvcmxkYm9va1Bvc2l0aW9uLAogICAgV29ybGRib29rU2VsZWN0aXZlTG9naWMsCn0gZnJvbSAnLi4vdHlwZXMnOwoKZXhwb3J0IHR5cGUgV29ybGRib29rTGlrZSA9IFdvcmxkYm9vayB8IE1vdW50ZWRXb3JsZGJvb2s7CgpleHBvcnQgaW50ZXJmYWNlIFdvcmxkYm9va1NjYW5NZXNzYWdlIHsKICAgIHJvbGU/OiBzdHJpbmc7CiAgICBjb250ZW50OiB1bmtub3duOwp9CgpleHBvcnQgaW50ZXJmYWNlIFJlc29sdmVkV29ybGRib29rRW50cnkgewogICAgYm9vazogV29ybGRib29rTGlrZTsKICAgIGNvbnRlbnQ6IHN0cmluZzsKICAgIHBvc2l0aW9uOiBXb3JsZGJvb2tQb3NpdGlvbjsKICAgIG9yZGVyOiBudW1iZXI7Cn0KCmV4cG9ydCBpbnRlcmZhY2UgV29ybGRib29rU3lzdGVtU2VjdGlvbnMgewogICAgYmVmb3JlQ2hhcmFjdGVyOiBSZXNvbHZlZFdvcmxkYm9va0VudHJ5W107CiAgICBhZnRlckNoYXJhY3RlcjogUmVzb2x2ZWRXb3JsZGJvb2tFbnRyeVtdOwogICAgYXV0aG9yc05vdGVUb3A6IFJlc29sdmVkV29ybGRib29rRW50cnlbXTsKICAgIGF1dGhvcnNOb3RlQm90dG9tOiBSZXNvbHZlZFdvcmxkYm9va0VudHJ5W107CiAgICBhdERlcHRoOiBSZXNvbHZlZFdvcmxkYm9va0VudHJ5W107CiAgICBiZWZvcmVFeGFtcGxlczogUmVzb2x2ZWRXb3JsZGJvb2tFbnRyeVtdOwogICAgYWZ0ZXJFeGFtcGxlczogUmVzb2x2ZWRXb3JsZGJvb2tFbnRyeVtdOwp9CgpleHBvcnQgY29uc3QgV09STERCT09LX1BPU0lUSU9OX0xBQkVMUzogUmVjb3JkPFdvcmxkYm9va1Bvc2l0aW9uLCBzdHJpbmc+ID0gewogICAgMDogJ+inkuiJsuiuvuWumuWJjScsCiAgICAxOiAn6KeS6Imy6K6+5a6a5ZCOJywKICAgIDI6ICfkvZzogIXms6jph4rpobbpg6gnLAogICAgMzogJ+S9nOiAheazqOmHiuW6lemDqCcsCiAgICA0OiAn6IGK5aSp6K6w5b2V5oyH5a6a5rex5bqmJywKICAgIDU6ICfnpLrkvovmtojmga/liY0nLAogICAgNjogJ+ekuuS+i+a2iOaBr+WQjicsCn07CgpleHBvcnQgY29uc3QgV09STERCT09LX1BPU0lUSU9OX0RFU0NSSVBUSU9OUzogUmVjb3JkPFdvcmxkYm9va1Bvc2l0aW9uLCBzdHJpbmc+ID0gewogICAgMDogJ+mAguWQiOaUvuWFqOWxgOinhOWImeOAgeWfuuehgOiDjOaZr++8m+S8muWHuueOsOWcqOinkuiJsui6q+S7veS4juaAp+agvOiuvuWumuS5i+WJjeOAgicsCiAgICAxOiAn6YCC5ZCI5LiA6Iis5LiW55WM6KeC44CB5Lq654mp5LiO5Zyw54K56K6+5a6a77yb6L+Z5piv5pen54mI5LiW55WM5Lmm5LiA55u05L2/55So55qE6buY6K6k5L2N572u44CCJywKICAgIDI6ICfpgILlkIjmlL7lhpnkvZzmlrnlkJHjgIHor63msJTmiJboioLlpY/opoHmsYLvvJvkvY3kuo7kvZzogIXms6jph4rlhoXlrrnpobbpg6jjgIInLAogICAgMzogJ+mAguWQiOaUvuS9nOiAheazqOmHiuWQjueahOihpeWFheS4juW8uuiwg++8m+avlOmhtumDqOWGheWuueabtOmdoOWQjuOAgicsCiAgICA0OiAn6YCC5ZCI5Li05pe254q25oCB44CB6L+R5pyf5LqL5Lu25oiW5by65o+Q6YaS77yb5oyJ5rex5bqm5ZKM6KeS6Imy5o+S5YWl6IGK5aSp6K6w5b2V44CCJywKICAgIDU6ICfpgILlkIjmlL7pmIXor7vnpLrkvovlr7nor53liY3pnIDopoHlhYjnn6XpgZPnmoTor7TmmI7jgIInLAogICAgNjogJ+mAguWQiOaUvuekuuS+i+Wvueivnee7k+adn+WQjueahOihpeWFheivtOaYjuOAgicsCn07CgpleHBvcnQgY29uc3QgV09STERCT09LX1JPTEVfTEFCRUxTOiBSZWNvcmQ8V29ybGRib29rRGVwdGhSb2xlLCBzdHJpbmc+ID0gewogICAgMDogJ1N5c3RlbScsCiAgICAxOiAnVXNlcicsCiAgICAyOiAnQXNzaXN0YW50JywKfTsKCmNvbnN0IGNsYW1wID0gKHZhbHVlOiB1bmtub3duLCBtaW46IG51bWJlciwgbWF4OiBudW1iZXIsIGZhbGxiYWNrOiBudW1iZXIpOiBudW1iZXIgPT4gewogICAgY29uc3QgcGFyc2VkID0gTnVtYmVyKHZhbHVlKTsKICAgIHJldHVybiBOdW1iZXIuaXNGaW5pdGUocGFyc2VkKSA/IE1hdGgubWluKG1heCwgTWF0aC5tYXgobWluLCBwYXJzZWQpKSA6IGZhbGxiYWNrOwp9OwoKY29uc3QgYXNTdHJpbmdBcnJheSA9ICh2YWx1ZTogdW5rbm93bik6IHN0cmluZ1tdID0+IHsKICAgIGlmICghQXJyYXkuaXNBcnJheSh2YWx1ZSkpIHJldHVybiBbXTsKICAgIHJldHVybiB2YWx1ZS5tYXAoaXRlbSA9PiBTdHJpbmcoaXRlbSkudHJpbSgpKS5maWx0ZXIoQm9vbGVhbik7Cn07CgpleHBvcnQgY29uc3Qgc3BsaXRXb3JsZGJvb2tLZXl3b3JkcyA9ICh2YWx1ZTogc3RyaW5nKTogc3RyaW5nW10gPT4gKAogICAgdmFsdWUuc3BsaXQoL1ss77yMXG5dLykubWFwKGl0ZW0gPT4gaXRlbS50cmltKCkpLmZpbHRlcihCb29sZWFuKQopOwoKZXhwb3J0IGNvbnN0IHRvTW91bnRlZFdvcmxkYm9vayA9IChib29rOiBXb3JsZGJvb2spOiBNb3VudGVkV29ybGRib29rID0+ICh7CiAgICBpZDogYm9vay5pZCwKICAgIHRpdGxlOiBib29rLnRpdGxlLAogICAgY29udGVudDogYm9vay5jb250ZW50LAogICAgY2F0ZWdvcnk6IGJvb2suY2F0ZWdvcnksCiAgICBrZXk6IGJvb2sua2V5ID8gWy4uLmJvb2sua2V5XSA6IHVuZGVmaW5lZCwKICAgIGtleXNlY29uZGFyeTogYm9vay5rZXlzZWNvbmRhcnkgPyBbLi4uYm9vay5rZXlzZWNvbmRhcnldIDogdW5kZWZpbmVkLAogICAgY29uc3RhbnQ6IGJvb2suY29uc3RhbnQsCiAgICBzZWxlY3RpdmU6IGJvb2suc2VsZWN0aXZlLAogICAgc2VsZWN0aXZlTG9naWM6IGJvb2suc2VsZWN0aXZlTG9naWMsCiAgICBvcmRlcjogYm9vay5vcmRlciwKICAgIHBvc2l0aW9uOiBib29rLnBvc2l0aW9uLAogICAgZGlzYWJsZTogYm9vay5kaXNhYmxlLAogICAgcHJvYmFiaWxpdHk6IGJvb2sucHJvYmFiaWxpdHksCiAgICB1c2VQcm9iYWJpbGl0eTogYm9vay51c2VQcm9iYWJpbGl0eSwKICAgIGRlcHRoOiBib29rLmRlcHRoLAogICAgcm9sZTogYm9vay5yb2xlLAogICAgc2NhbkRlcHRoOiBib29rLnNjYW5EZXB0aCwKICAgIGNhc2VTZW5zaXRpdmU6IGJvb2suY2FzZVNlbnNpdGl2ZSwKICAgIG1hdGNoV2hvbGVXb3JkczogYm9vay5tYXRjaFdob2xlV29yZHMsCiAgICBzb3VyY2VVaWQ6IGJvb2suc291cmNlVWlkLAp9KTsKCmNvbnN0IGVzY2FwZVJlZ0V4cCA9ICh2YWx1ZTogc3RyaW5nKTogc3RyaW5nID0+IHZhbHVlLnJlcGxhY2UoL1suKis/XiR7fSgpfFtcXVxcXS9nLCAnXFwkJicpOwoKY29uc3Qga2V5d29yZE1hdGNoZXMgPSAoCiAgICB0ZXh0OiBzdHJpbmcsCiAgICBrZXl3b3JkOiBzdHJpbmcsCiAgICBjYXNlU2Vuc2l0aXZlOiBib29sZWFuLAogICAgd2hvbGVXb3JkczogYm9vbGVhbiwKKTogYm9vbGVhbiA9PiB7CiAgICBpZiAoIWtleXdvcmQpIHJldHVybiBmYWxzZTsKICAgIGlmICghd2hvbGVXb3JkcykgewogICAgICAgIHJldHVybiBjYXNlU2Vuc2l0aXZlCiAgICAgICAgICAgID8gdGV4dC5pbmNsdWRlcyhrZXl3b3JkKQogICAgICAgICAgICA6IHRleHQudG9Mb2NhbGVMb3dlckNhc2UoKS5pbmNsdWRlcyhrZXl3b3JkLnRvTG9jYWxlTG93ZXJDYXNlKCkpOwogICAgfQogICAgY29uc3QgZmxhZ3MgPSBjYXNlU2Vuc2l0aXZlID8gJ3UnIDogJ2l1JzsKICAgIGNvbnN0IGVzY2FwZWQgPSBlc2NhcGVSZWdFeHAoa2V5d29yZCk7CiAgICByZXR1cm4gbmV3IFJlZ0V4cChgKF58W15cXHB7TH1cXHB7Tn1fXSkke2VzY2FwZWR9KD89JHxbXlxccHtMfVxccHtOfV9dKWAsIGZsYWdzKS50ZXN0KHRleHQpOwp9OwoKY29uc3QgbWVzc2FnZVRleHQgPSAobWVzc2FnZTogV29ybGRib29rU2Nhbk1lc3NhZ2UpOiBzdHJpbmcgPT4gewogICAgaWYgKHR5cGVvZiBtZXNzYWdlLmNvbnRlbnQgPT09ICdzdHJpbmcnKSByZXR1cm4gbWVzc2FnZS5jb250ZW50OwogICAgaWYgKEFycmF5LmlzQXJyYXkobWVzc2FnZS5jb250ZW50KSkgewogICAgICAgIHJldHVybiBtZXNzYWdlLmNvbnRlbnQKICAgICAgICAgICAgLm1hcChwYXJ0ID0+ICh0eXBlb2YgcGFydCA9PT0gJ3N0cmluZycgPyBwYXJ0IDogKHBhcnQgYXMgYW55KT8udGV4dCB8fCAnJykpCiAgICAgICAgICAgIC5maWx0ZXIoQm9vbGVhbikKICAgICAgICAgICAgLmpvaW4oJ1xuJyk7CiAgICB9CiAgICByZXR1cm4gJyc7Cn07Cgpjb25zdCBzY2FuVGV4dEZvckJvb2sgPSAoYm9vazogV29ybGRib29rTGlrZSwgbWVzc2FnZXM6IFdvcmxkYm9va1NjYW5NZXNzYWdlW10pOiBzdHJpbmcgPT4gewogICAgY29uc3QgZGVwdGggPSBNYXRoLm1heCgwLCBNYXRoLmZsb29yKGJvb2suc2NhbkRlcHRoID8/IDQpKTsKICAgIGlmIChkZXB0aCA9PT0gMCkgcmV0dXJuICcnOwogICAgcmV0dXJuIG1lc3NhZ2VzLnNsaWNlKC1kZXB0aCkubWFwKG1lc3NhZ2VUZXh0KS5maWx0ZXIoQm9vbGVhbikuam9pbignXG4nKTsKfTsKCmNvbnN0IHNlY29uZGFyeUNvbmRpdGlvblBhc3NlcyA9ICgKICAgIGJvb2s6IFdvcmxkYm9va0xpa2UsCiAgICB0ZXh0OiBzdHJpbmcsCiAgICBjYXNlU2Vuc2l0aXZlOiBib29sZWFuLAogICAgd2hvbGVXb3JkczogYm9vbGVhbiwKKTogYm9vbGVhbiA9PiB7CiAgICBpZiAoIWJvb2suc2VsZWN0aXZlKSByZXR1cm4gdHJ1ZTsKICAgIGNvbnN0IHNlY29uZGFyeSA9IGJvb2sua2V5c2Vjb25kYXJ5IHx8IFtdOwogICAgaWYgKHNlY29uZGFyeS5sZW5ndGggPT09IDApIHJldHVybiB0cnVlOwogICAgY29uc3QgbWF0Y2hlcyA9IHNlY29uZGFyeS5tYXAoa2V5ID0+IGtleXdvcmRNYXRjaGVzKHRleHQsIGtleSwgY2FzZVNlbnNpdGl2ZSwgd2hvbGVXb3JkcykpOwogICAgY29uc3QgbG9naWM6IFdvcmxkYm9va1NlbGVjdGl2ZUxvZ2ljID0gYm9vay5zZWxlY3RpdmVMb2dpYyA/PyAwOwogICAgaWYgKGxvZ2ljID09PSAxKSByZXR1cm4gIW1hdGNoZXMuZXZlcnkoQm9vbGVhbik7CiAgICBpZiAobG9naWMgPT09IDIpIHJldHVybiAhbWF0Y2hlcy5zb21lKEJvb2xlYW4pOwogICAgaWYgKGxvZ2ljID09PSAzKSByZXR1cm4gbWF0Y2hlcy5ldmVyeShCb29sZWFuKTsKICAgIHJldHVybiBtYXRjaGVzLnNvbWUoQm9vbGVhbik7Cn07CgpleHBvcnQgY29uc3QgaXNXb3JsZGJvb2tFbnRyeUFjdGl2ZSA9ICgKICAgIGJvb2s6IFdvcmxkYm9va0xpa2UsCiAgICBtZXNzYWdlczogV29ybGRib29rU2Nhbk1lc3NhZ2VbXSA9IFtdLAopOiBib29sZWFuID0+IHsKICAgIGlmIChib29rLmRpc2FibGUpIHJldHVybiBmYWxzZTsKCiAgICBjb25zdCBwcmltYXJ5ID0gYm9vay5rZXkgfHwgW107CiAgICBjb25zdCBpc0NvbnN0YW50ID0gYm9vay5jb25zdGFudCA/PyBwcmltYXJ5Lmxlbmd0aCA9PT0gMDsKICAgIGNvbnN0IHRleHQgPSBzY2FuVGV4dEZvckJvb2soYm9vaywgbWVzc2FnZXMpOwogICAgY29uc3QgY2FzZVNlbnNpdGl2ZSA9IGJvb2suY2FzZVNlbnNpdGl2ZSA9PT0gdHJ1ZTsKICAgIGNvbnN0IHdob2xlV29yZHMgPSBib29rLm1hdGNoV2hvbGVXb3JkcyA9PT0gdHJ1ZTsKCiAgICBpZiAoIWlzQ29uc3RhbnQpIHsKICAgICAgICBpZiAocHJpbWFyeS5sZW5ndGggPT09IDApIHJldHVybiBmYWxzZTsKICAgICAgICBpZiAoIXByaW1hcnkuc29tZShrZXkgPT4ga2V5d29yZE1hdGNoZXModGV4dCwga2V5LCBjYXNlU2Vuc2l0aXZlLCB3aG9sZVdvcmRzKSkpIHJldHVybiBmYWxzZTsKICAgICAgICBpZiAoIXNlY29uZGFyeUNvbmRpdGlvblBhc3Nlcyhib29rLCB0ZXh0LCBjYXNlU2Vuc2l0aXZlLCB3aG9sZVdvcmRzKSkgcmV0dXJuIGZhbHNlOwogICAgfQoKICAgIGlmIChib29rLnVzZVByb2JhYmlsaXR5KSB7CiAgICAgICAgY29uc3QgcHJvYmFiaWxpdHkgPSBjbGFtcChib29rLnByb2JhYmlsaXR5LCAwLCAxMDAsIDEwMCk7CiAgICAgICAgaWYgKHByb2JhYmlsaXR5IDw9IDApIHJldHVybiBmYWxzZTsKICAgICAgICBpZiAocHJvYmFiaWxpdHkgPCAxMDAgJiYgTWF0aC5yYW5kb20oKSAqIDEwMCA+PSBwcm9iYWJpbGl0eSkgcmV0dXJuIGZhbHNlOwogICAgfQoKICAgIHJldHVybiB0cnVlOwp9OwoKZXhwb3J0IGNvbnN0IGV4cGFuZFdvcmxkYm9va01hY3JvcyA9IChjb250ZW50OiBzdHJpbmcsIGNoYXJOYW1lOiBzdHJpbmcsIHVzZXJOYW1lOiBzdHJpbmcpOiBzdHJpbmcgPT4gewogICAgbGV0IGV4cGFuZGVkID0gY29udGVudDsKICAgIGlmIChjaGFyTmFtZSkgZXhwYW5kZWQgPSBleHBhbmRlZC5yZXBsYWNlKC97e1xzKmNoYXJccyp9fS9naSwgY2hhck5hbWUpOwogICAgaWYgKHVzZXJOYW1lKSBleHBhbmRlZCA9IGV4cGFuZGVkLnJlcGxhY2UoL3t7XHMqdXNlclxzKn19L2dpLCB1c2VyTmFtZSk7CiAgICByZXR1cm4gZXhwYW5kZWQ7Cn07CgpleHBvcnQgY29uc3QgcmVzb2x2ZVdvcmxkYm9va0VudHJpZXMgPSAoCiAgICBib29rczogV29ybGRib29rTGlrZVtdID0gW10sCiAgICBtZXNzYWdlczogV29ybGRib29rU2Nhbk1lc3NhZ2VbXSA9IFtdLAogICAgY2hhck5hbWUgPSAnJywKICAgIHVzZXJOYW1lID0gJycsCik6IFJlc29sdmVkV29ybGRib29rRW50cnlbXSA9PiBib29rcwogICAgLmZpbHRlcihib29rID0+IGlzV29ybGRib29rRW50cnlBY3RpdmUoYm9vaywgbWVzc2FnZXMpKQogICAgLm1hcChib29rID0+ICh7CiAgICAgICAgYm9vaywKICAgICAgICBjb250ZW50OiBleHBhbmRXb3JsZGJvb2tNYWNyb3MoYm9vay5jb250ZW50IHx8ICcnLCBjaGFyTmFtZSwgdXNlck5hbWUpLAogICAgICAgIHBvc2l0aW9uOiBib29rLnBvc2l0aW9uID8/IDEsCiAgICAgICAgb3JkZXI6IE51bWJlci5pc0Zpbml0ZShib29rLm9yZGVyKSA/IE51bWJlcihib29rLm9yZGVyKSA6IDEwMCwKICAgIH0pKQogICAgLmZpbHRlcihlbnRyeSA9PiBlbnRyeS5jb250ZW50LnRyaW0oKSkKICAgIC5zb3J0KChhLCBiKSA9PiBhLm9yZGVyIC0gYi5vcmRlcik7CgpleHBvcnQgY29uc3Qgc3BsaXRXb3JsZGJvb2tTZWN0aW9ucyA9IChlbnRyaWVzOiBSZXNvbHZlZFdvcmxkYm9va0VudHJ5W10pOiBXb3JsZGJvb2tTeXN0ZW1TZWN0aW9ucyA9PiAoewogICAgYmVmb3JlQ2hhcmFjdGVyOiBlbnRyaWVzLmZpbHRlcihlbnRyeSA9PiBlbnRyeS5wb3NpdGlvbiA9PT0gMCksCiAgICBhZnRlckNoYXJhY3RlcjogZW50cmllcy5maWx0ZXIoZW50cnkgPT4gZW50cnkucG9zaXRpb24gPT09IDEpLAogICAgYXV0aG9yc05vdGVUb3A6IGVudHJpZXMuZmlsdGVyKGVudHJ5ID0+IGVudHJ5LnBvc2l0aW9uID09PSAyKSwKICAgIGF1dGhvcnNOb3RlQm90dG9tOiBlbnRyaWVzLmZpbHRlcihlbnRyeSA9PiBlbnRyeS5wb3NpdGlvbiA9PT0gMyksCiAgICBhdERlcHRoOiBlbnRyaWVzLmZpbHRlcihlbnRyeSA9PiBlbnRyeS5wb3NpdGlvbiA9PT0gNCksCiAgICBiZWZvcmVFeGFtcGxlczogZW50cmllcy5maWx0ZXIoZW50cnkgPT4gZW50cnkucG9zaXRpb24gPT09IDUpLAogICAgYWZ0ZXJFeGFtcGxlczogZW50cmllcy5maWx0ZXIoZW50cnkgPT4gZW50cnkucG9zaXRpb24gPT09IDYpLAp9KTsKCmV4cG9ydCBjb25zdCBmb3JtYXRXb3JsZGJvb2tTZWN0aW9uID0gKAogICAgZW50cmllczogUmVzb2x2ZWRXb3JsZGJvb2tFbnRyeVtdLAogICAgaGVhZGluZzogc3RyaW5nLAopOiBzdHJpbmcgPT4gewogICAgaWYgKGVudHJpZXMubGVuZ3RoID09PSAwKSByZXR1cm4gJyc7CiAgICBsZXQgb3V0cHV0ID0gYCMjIyAke2hlYWRpbmd9XG5gOwogICAgbGV0IGxhc3RMZWdhY3lDYXRlZ29yeSA9ICcnOwogICAgZm9yIChjb25zdCBlbnRyeSBvZiBlbnRyaWVzKSB7CiAgICAgICAgLy8gU2lsbHlUYXZlcm4gY29tbWVudHMgYXJlIGVkaXRvci1vbmx5IGFuZCBhcmUgbm90IHBhcnQgb2YgdGhlIHByb21wdC4KICAgICAgICBpZiAoZW50cnkuYm9vay5zb3VyY2VVaWQgPT09IHVuZGVmaW5lZCkgewogICAgICAgICAgICBjb25zdCBjYXRlZ29yeSA9IGVudHJ5LmJvb2suY2F0ZWdvcnkgfHwgJ+mAmueUqOiuvuWumiAoR2VuZXJhbCknOwogICAgICAgICAgICBpZiAoY2F0ZWdvcnkgIT09IGxhc3RMZWdhY3lDYXRlZ29yeSkgewogICAgICAgICAgICAgICAgb3V0cHV0ICs9IGAjIyMjIFske2NhdGVnb3J5fV1cbmA7CiAgICAgICAgICAgICAgICBsYXN0TGVnYWN5Q2F0ZWdvcnkgPSBjYXRlZ29yeTsKICAgICAgICAgICAgfQogICAgICAgICAgICBvdXRwdXQgKz0gYCoqVGl0bGU6ICR7ZW50cnkuYm9vay50aXRsZX0qKlxuYDsKICAgICAgICB9CiAgICAgICAgb3V0cHV0ICs9IGAke2VudHJ5LmNvbnRlbnQudHJpbSgpfVxuLS0tXG5gOwogICAgfQogICAgcmV0dXJuIGAke291dHB1dH1cbmA7Cn07CgpleHBvcnQgY29uc3QgaW5qZWN0V29ybGRib29rRGVwdGhFbnRyaWVzID0gPFQgZXh0ZW5kcyBXb3JsZGJvb2tTY2FuTWVzc2FnZT4oCiAgICBtZXNzYWdlczogVFtdLAogICAgZW50cmllczogUmVzb2x2ZWRXb3JsZGJvb2tFbnRyeVtdLAopOiBBcnJheTxUIHwgeyByb2xlOiBzdHJpbmc7IGNvbnRlbnQ6IHN0cmluZyB9PiA9PiB7CiAgICBpZiAoZW50cmllcy5sZW5ndGggPT09IDApIHJldHVybiBbLi4ubWVzc2FnZXNdOwogICAgY29uc3QgYnVja2V0cyA9IG5ldyBNYXA8bnVtYmVyLCBSZXNvbHZlZFdvcmxkYm9va0VudHJ5W10+KCk7CiAgICBmb3IgKGNvbnN0IGVudHJ5IG9mIGVudHJpZXMpIHsKICAgICAgICBjb25zdCBkZXB0aCA9IE1hdGgubWF4KDAsIE1hdGguZmxvb3IoZW50cnkuYm9vay5kZXB0aCA/PyA0KSk7CiAgICAgICAgY29uc3QgaW5kZXggPSBNYXRoLm1heCgwLCBtZXNzYWdlcy5sZW5ndGggLSBkZXB0aCk7CiAgICAgICAgY29uc3QgYnVja2V0ID0gYnVja2V0cy5nZXQoaW5kZXgpIHx8IFtdOwogICAgICAgIGJ1Y2tldC5wdXNoKGVudHJ5KTsKICAgICAgICBidWNrZXRzLnNldChpbmRleCwgYnVja2V0KTsKICAgIH0KCiAgICBjb25zdCByZXN1bHQ6IEFycmF5PFQgfCB7IHJvbGU6IHN0cmluZzsgY29udGVudDogc3RyaW5nIH0+ID0gW107CiAgICBmb3IgKGxldCBpbmRleCA9IDA7IGluZGV4IDw9IG1lc3NhZ2VzLmxlbmd0aDsgaW5kZXggKz0gMSkgewogICAgICAgIGNvbnN0IGJ1Y2tldCA9IGJ1Y2tldHMuZ2V0KGluZGV4KSB8fCBbXTsKICAgICAgICBmb3IgKGNvbnN0IGVudHJ5IG9mIGJ1Y2tldCkgewogICAgICAgICAgICBjb25zdCByb2xlVmFsdWUgPSBlbnRyeS5ib29rLnJvbGUgPz8gMDsKICAgICAgICAgICAgY29uc3Qgcm9sZSA9IHJvbGVWYWx1ZSA9PT0gMSA/ICd1c2VyJyA6IHJvbGVWYWx1ZSA9PT0gMiA/ICdhc3Npc3RhbnQnIDogJ3N5c3RlbSc7CiAgICAgICAgICAgIHJlc3VsdC5wdXNoKHsgcm9sZSwgY29udGVudDogZW50cnkuY29udGVudC50cmltKCkgfSk7CiAgICAgICAgfQogICAgICAgIGlmIChpbmRleCA8IG1lc3NhZ2VzLmxlbmd0aCkgcmVzdWx0LnB1c2gobWVzc2FnZXNbaW5kZXhdKTsKICAgIH0KICAgIHJldHVybiByZXN1bHQ7Cn07CgpleHBvcnQgY29uc3Qgc2VyaWFsaXplU3RhbmRhcmRXb3JsZGJvb2sgPSAoYm9va3M6IFdvcmxkYm9va0xpa2VbXSk6IHN0cmluZyA9PiB7CiAgICBjb25zdCB1c2VkVWlkcyA9IG5ldyBTZXQ8bnVtYmVyPigpOwogICAgY29uc3QgZW50cmllczogUmVjb3JkPHN0cmluZywgUmVjb3JkPHN0cmluZywgdW5rbm93bj4+ID0ge307CgogICAgYm9va3MuZm9yRWFjaCgoYm9vaywgaW5kZXgpID0+IHsKICAgICAgICBsZXQgdWlkID0gTnVtYmVyLmlzRmluaXRlKGJvb2suc291cmNlVWlkKSA/IE51bWJlcihib29rLnNvdXJjZVVpZCkgOiBpbmRleDsKICAgICAgICB3aGlsZSAodXNlZFVpZHMuaGFzKHVpZCkpIHVpZCArPSAxOwogICAgICAgIHVzZWRVaWRzLmFkZCh1aWQpOwoKICAgICAgICBjb25zdCBwcmltYXJ5ID0gYm9vay5rZXkgfHwgW107CiAgICAgICAgY29uc3Qgc2Vjb25kYXJ5ID0gYm9vay5rZXlzZWNvbmRhcnkgfHwgW107CiAgICAgICAgY29uc3QgcG9zaXRpb24gPSBib29rLnBvc2l0aW9uID8/IDE7CiAgICAgICAgZW50cmllc1tTdHJpbmcoaW5kZXgpXSA9IHsKICAgICAgICAgICAgdWlkLAogICAgICAgICAgICBrZXk6IFsuLi5wcmltYXJ5XSwKICAgICAgICAgICAga2V5c2Vjb25kYXJ5OiBbLi4uc2Vjb25kYXJ5XSwKICAgICAgICAgICAgY29tbWVudDogYm9vay50aXRsZSwKICAgICAgICAgICAgY29udGVudDogYm9vay5jb250ZW50LAogICAgICAgICAgICBjb25zdGFudDogYm9vay5jb25zdGFudCA/PyBwcmltYXJ5Lmxlbmd0aCA9PT0gMCwKICAgICAgICAgICAgc2VsZWN0aXZlOiBib29rLnNlbGVjdGl2ZSA/PyBzZWNvbmRhcnkubGVuZ3RoID4gMCwKICAgICAgICAgICAgc2VsZWN0aXZlTG9naWM6IGJvb2suc2VsZWN0aXZlTG9naWMgPz8gMCwKICAgICAgICAgICAgb3JkZXI6IGJvb2sub3JkZXIgPz8gMTAwLAogICAgICAgICAgICBwb3NpdGlvbiwKICAgICAgICAgICAgZGlzYWJsZTogYm9vay5kaXNhYmxlID09PSB0cnVlLAogICAgICAgICAgICBwcm9iYWJpbGl0eTogYm9vay5wcm9iYWJpbGl0eSA/PyAxMDAsCiAgICAgICAgICAgIHVzZVByb2JhYmlsaXR5OiBib29rLnVzZVByb2JhYmlsaXR5ID09PSB0cnVlLAogICAgICAgICAgICBkZXB0aDogYm9vay5kZXB0aCA/PyA0LAogICAgICAgICAgICByb2xlOiBwb3NpdGlvbiA9PT0gNCA/IChib29rLnJvbGUgPz8gMCkgOiBudWxsLAogICAgICAgICAgICBzY2FuRGVwdGg6IGJvb2suc2NhbkRlcHRoID8/IG51bGwsCiAgICAgICAgICAgIGNhc2VTZW5zaXRpdmU6IGJvb2suY2FzZVNlbnNpdGl2ZSA/PyBudWxsLAogICAgICAgICAgICBtYXRjaFdob2xlV29yZHM6IGJvb2subWF0Y2hXaG9sZVdvcmRzID8/IG51bGwsCiAgICAgICAgICAgIGRpc3BsYXlJbmRleDogaW5kZXgsCiAgICAgICAgfTsKICAgIH0pOwoKICAgIHJldHVybiBKU09OLnN0cmluZ2lmeSh7IGVudHJpZXMgfSwgbnVsbCwgMik7Cn07CgpleHBvcnQgY29uc3QgcGFyc2VTdGFuZGFyZFdvcmxkYm9vayA9ICgKICAgIHJhd1RleHQ6IHN0cmluZywKICAgIGNhdGVnb3J5OiBzdHJpbmcsCiAgICBub3cgPSBEYXRlLm5vdygpLAopOiBXb3JsZGJvb2tbXSA9PiB7CiAgICBjb25zdCBwYXJzZWQgPSBKU09OLnBhcnNlKHJhd1RleHQpOwogICAgaWYgKCFwYXJzZWQgfHwgdHlwZW9mIHBhcnNlZCAhPT0gJ29iamVjdCcgfHwgIXBhcnNlZC5lbnRyaWVzIHx8IHR5cGVvZiBwYXJzZWQuZW50cmllcyAhPT0gJ29iamVjdCcpIHsKICAgICAgICB0aHJvdyBuZXcgRXJyb3IoJ+S4jeaYr+WPl+aUr+aMgeeahOagh+WHhuS4lueVjOS5puaWh+S7tu+8mue8uuWwkSBlbnRyaWVzJyk7CiAgICB9CiAgICBjb25zdCByYXdFbnRyaWVzID0gQXJyYXkuaXNBcnJheShwYXJzZWQuZW50cmllcykKICAgICAgICA/IHBhcnNlZC5lbnRyaWVzCiAgICAgICAgOiBPYmplY3QudmFsdWVzKHBhcnNlZC5lbnRyaWVzKTsKCiAgICBjb25zdCBib29rcyA9IHJhd0VudHJpZXMuZmxhdE1hcCgodmFsdWU6IGFueSwgaW5kZXg6IG51bWJlcik6IFdvcmxkYm9va1tdID0+IHsKICAgICAgICBpZiAoIXZhbHVlIHx8IHR5cGVvZiB2YWx1ZSAhPT0gJ29iamVjdCcgfHwgdHlwZW9mIHZhbHVlLmNvbnRlbnQgIT09ICdzdHJpbmcnKSByZXR1cm4gW107CiAgICAgICAgY29uc3QgdWlkID0gTnVtYmVyLmlzRmluaXRlKE51bWJlcih2YWx1ZS51aWQpKSA/IE51bWJlcih2YWx1ZS51aWQpIDogaW5kZXg7CiAgICAgICAgY29uc3QgcG9zaXRpb24gPSBjbGFtcCh2YWx1ZS5wb3NpdGlvbiwgMCwgNiwgMSkgYXMgV29ybGRib29rUG9zaXRpb247CiAgICAgICAgY29uc3QgcmF3Um9sZSA9IHZhbHVlLnJvbGUgPT0gbnVsbCA/IG51bGwgOiBjbGFtcCh2YWx1ZS5yb2xlLCAwLCAyLCAwKSBhcyBXb3JsZGJvb2tEZXB0aFJvbGU7CiAgICAgICAgcmV0dXJuIFt7CiAgICAgICAgICAgIGlkOiBgd2ItJHtub3d9LSR7aW5kZXh9LSR7TWF0aC5yYW5kb20oKS50b1N0cmluZygzNikuc2xpY2UoMiwgOCl9YCwKICAgICAgICAgICAgdGl0bGU6IFN0cmluZyh2YWx1ZS5jb21tZW50IHx8IHZhbHVlLm5hbWUgfHwgYOadoeebriAke3VpZCArIDF9YCksCiAgICAgICAgICAgIGNvbnRlbnQ6IHZhbHVlLmNvbnRlbnQsCiAgICAgICAgICAgIGNhdGVnb3J5LAogICAgICAgICAgICBjcmVhdGVkQXQ6IG5vdywKICAgICAgICAgICAgdXBkYXRlZEF0OiBub3csCiAgICAgICAgICAgIGtleTogYXNTdHJpbmdBcnJheSh2YWx1ZS5rZXkpLAogICAgICAgICAgICBrZXlzZWNvbmRhcnk6IGFzU3RyaW5nQXJyYXkodmFsdWUua2V5c2Vjb25kYXJ5KSwKICAgICAgICAgICAgY29uc3RhbnQ6IHZhbHVlLmNvbnN0YW50ID09PSB0cnVlLAogICAgICAgICAgICBzZWxlY3RpdmU6IHZhbHVlLnNlbGVjdGl2ZSA9PT0gdHJ1ZSwKICAgICAgICAgICAgc2VsZWN0aXZlTG9naWM6IGNsYW1wKHZhbHVlLnNlbGVjdGl2ZUxvZ2ljLCAwLCAzLCAwKSBhcyBXb3JsZGJvb2tTZWxlY3RpdmVMb2dpYywKICAgICAgICAgICAgb3JkZXI6IE51bWJlci5pc0Zpbml0ZShOdW1iZXIodmFsdWUub3JkZXIpKSA/IE51bWJlcih2YWx1ZS5vcmRlcikgOiAxMDAsCiAgICAgICAgICAgIHBvc2l0aW9uLAogICAgICAgICAgICBkaXNhYmxlOiB2YWx1ZS5kaXNhYmxlID09PSB0cnVlLAogICAgICAgICAgICBwcm9iYWJpbGl0eTogY2xhbXAodmFsdWUucHJvYmFiaWxpdHksIDAsIDEwMCwgMTAwKSwKICAgICAgICAgICAgdXNlUHJvYmFiaWxpdHk6IHZhbHVlLnVzZVByb2JhYmlsaXR5ID09PSB0cnVlLAogICAgICAgICAgICBkZXB0aDogTWF0aC5tYXgoMCwgTWF0aC5mbG9vcihjbGFtcCh2YWx1ZS5kZXB0aCwgMCwgOTk5LCA0KSkpLAogICAgICAgICAgICByb2xlOiByYXdSb2xlLAogICAgICAgICAgICBzY2FuRGVwdGg6IHZhbHVlLnNjYW5EZXB0aCA9PSBudWxsID8gbnVsbCA6IE1hdGgubWF4KDAsIE1hdGguZmxvb3IoY2xhbXAodmFsdWUuc2NhbkRlcHRoLCAwLCA5OTksIDQpKSksCiAgICAgICAgICAgIGNhc2VTZW5zaXRpdmU6IHZhbHVlLmNhc2VTZW5zaXRpdmUgPT0gbnVsbCA/IG51bGwgOiB2YWx1ZS5jYXNlU2Vuc2l0aXZlID09PSB0cnVlLAogICAgICAgICAgICBtYXRjaFdob2xlV29yZHM6IHZhbHVlLm1hdGNoV2hvbGVXb3JkcyA9PSBudWxsID8gbnVsbCA6IHZhbHVlLm1hdGNoV2hvbGVXb3JkcyA9PT0gdHJ1ZSwKICAgICAgICAgICAgc291cmNlVWlkOiB1aWQsCiAgICAgICAgfV07CiAgICB9KTsKCiAgICBpZiAoYm9va3MubGVuZ3RoID09PSAwKSB0aHJvdyBuZXcgRXJyb3IoJ+S4lueVjOS5pumHjOayoeacieWPr+WvvOWFpeeahOacieaViOadoeebricpOwogICAgcmV0dXJuIGJvb2tzOwp9Owo=
+import type {
+    MountedWorldbook,
+    Worldbook,
+    WorldbookDepthRole,
+    WorldbookPosition,
+    WorldbookSelectiveLogic,
+} from '../types';
+
+export type WorldbookLike = Worldbook | MountedWorldbook;
+
+export interface WorldbookScanMessage {
+    role?: string;
+    content: unknown;
+}
+
+export interface ResolvedWorldbookEntry {
+    book: WorldbookLike;
+    content: string;
+    position: WorldbookPosition;
+    order: number;
+}
+
+export interface WorldbookSystemSections {
+    beforeCharacter: ResolvedWorldbookEntry[];
+    afterCharacter: ResolvedWorldbookEntry[];
+    authorsNoteTop: ResolvedWorldbookEntry[];
+    authorsNoteBottom: ResolvedWorldbookEntry[];
+    atDepth: ResolvedWorldbookEntry[];
+    beforeExamples: ResolvedWorldbookEntry[];
+    afterExamples: ResolvedWorldbookEntry[];
+}
+
+export const WORLDBOOK_POSITION_LABELS: Record<WorldbookPosition, string> = {
+    0: '角色设定前',
+    1: '角色设定后',
+    2: '作者注释顶部',
+    3: '作者注释底部',
+    4: '聊天记录指定深度',
+    5: '示例消息前',
+    6: '示例消息后',
+};
+
+export const WORLDBOOK_POSITION_DESCRIPTIONS: Record<WorldbookPosition, string> = {
+    0: '适合放全局规则、基础背景；会出现在角色身份与性格设定之前。',
+    1: '适合一般世界观、人物与地点设定；这是旧版世界书一直使用的默认位置。',
+    2: '适合放写作方向、语气或节奏要求；位于作者注释内容顶部。',
+    3: '适合放作者注释后的补充与强调；比顶部内容更靠后。',
+    4: '适合临时状态、近期事件或强提醒；按深度和角色插入聊天记录。',
+    5: '适合放阅读示例对话前需要先知道的说明。',
+    6: '适合放示例对话结束后的补充说明。',
+};
+
+export const WORLDBOOK_ROLE_LABELS: Record<WorldbookDepthRole, string> = {
+    0: 'System',
+    1: 'User',
+    2: 'Assistant',
+};
+
+const clamp = (value: unknown, min: number, max: number, fallback: number): number => {
+    const parsed = Number(value);
+    return Number.isFinite(parsed) ? Math.min(max, Math.max(min, parsed)) : fallback;
+};
+
+const asStringArray = (value: unknown): string[] => {
+    if (!Array.isArray(value)) return [];
+    return value.map(item => String(item).trim()).filter(Boolean);
+};
+
+export const splitWorldbookKeywords = (value: string): string[] => (
+    value.split(/[,，\n]/).map(item => item.trim()).filter(Boolean)
+);
+
+export const toMountedWorldbook = (book: Worldbook): MountedWorldbook => ({
+    id: book.id,
+    title: book.title,
+    content: book.content,
+    category: book.category,
+    key: book.key ? [...book.key] : undefined,
+    keysecondary: book.keysecondary ? [...book.keysecondary] : undefined,
+    constant: book.constant,
+    selective: book.selective,
+    selectiveLogic: book.selectiveLogic,
+    order: book.order,
+    position: book.position,
+    disable: book.disable,
+    probability: book.probability,
+    useProbability: book.useProbability,
+    depth: book.depth,
+    role: book.role,
+    scanDepth: book.scanDepth,
+    caseSensitive: book.caseSensitive,
+    matchWholeWords: book.matchWholeWords,
+    sourceUid: book.sourceUid,
+});
+
+const escapeRegExp = (value: string): string => value.replace(/[.*+?^${}()|[\]\\]/g, '\\$&');
+
+const keywordMatches = (
+    text: string,
+    keyword: string,
+    caseSensitive: boolean,
+    wholeWords: boolean,
+): boolean => {
+    if (!keyword) return false;
+    if (!wholeWords) {
+        return caseSensitive
+            ? text.includes(keyword)
+            : text.toLocaleLowerCase().includes(keyword.toLocaleLowerCase());
+    }
+    const flags = caseSensitive ? 'u' : 'iu';
+    const escaped = escapeRegExp(keyword);
+    return new RegExp(`(^|[^\\p{L}\\p{N}_])${escaped}(?=$|[^\\p{L}\\p{N}_])`, flags).test(text);
+};
+
+const messageText = (message: WorldbookScanMessage): string => {
+    if (typeof message.content === 'string') return message.content;
+    if (Array.isArray(message.content)) {
+        return message.content
+            .map(part => (typeof part === 'string' ? part : (part as any)?.text || ''))
+            .filter(Boolean)
+            .join('\n');
+    }
+    return '';
+};
+
+const scanTextForBook = (book: WorldbookLike, messages: WorldbookScanMessage[]): string => {
+    const depth = Math.max(0, Math.floor(book.scanDepth ?? 4));
+    if (depth === 0) return '';
+    return messages.slice(-depth).map(messageText).filter(Boolean).join('\n');
+};
+
+const secondaryConditionPasses = (
+    book: WorldbookLike,
+    text: string,
+    caseSensitive: boolean,
+    wholeWords: boolean,
+): boolean => {
+    if (!book.selective) return true;
+    const secondary = book.keysecondary || [];
+    if (secondary.length === 0) return true;
+    const matches = secondary.map(key => keywordMatches(text, key, caseSensitive, wholeWords));
+    const logic: WorldbookSelectiveLogic = book.selectiveLogic ?? 0;
+    if (logic === 1) return !matches.every(Boolean);
+    if (logic === 2) return !matches.some(Boolean);
+    if (logic === 3) return matches.every(Boolean);
+    return matches.some(Boolean);
+};
+
+export const isWorldbookEntryActive = (
+    book: WorldbookLike,
+    messages: WorldbookScanMessage[] = [],
+): boolean => {
+    if (book.disable) return false;
+
+    const primary = book.key || [];
+    const isConstant = book.constant ?? primary.length === 0;
+    const text = scanTextForBook(book, messages);
+    const caseSensitive = book.caseSensitive === true;
+    const wholeWords = book.matchWholeWords === true;
+
+    if (!isConstant) {
+        if (primary.length === 0) return false;
+        if (!primary.some(key => keywordMatches(text, key, caseSensitive, wholeWords))) return false;
+        if (!secondaryConditionPasses(book, text, caseSensitive, wholeWords)) return false;
+    }
+
+    if (book.useProbability) {
+        const probability = clamp(book.probability, 0, 100, 100);
+        if (probability <= 0) return false;
+        if (probability < 100 && Math.random() * 100 >= probability) return false;
+    }
+
+    return true;
+};
+
+export const expandWorldbookMacros = (content: string, charName: string, userName: string): string => {
+    let expanded = content;
+    if (charName) expanded = expanded.replace(/{{\s*char\s*}}/gi, charName);
+    if (userName) expanded = expanded.replace(/{{\s*user\s*}}/gi, userName);
+    return expanded;
+};
+
+export const resolveWorldbookEntries = (
+    books: WorldbookLike[] = [],
+    messages: WorldbookScanMessage[] = [],
+    charName = '',
+    userName = '',
+): ResolvedWorldbookEntry[] => books
+    .filter(book => isWorldbookEntryActive(book, messages))
+    .map(book => ({
+        book,
+        content: expandWorldbookMacros(book.content || '', charName, userName),
+        position: book.position ?? 1,
+        order: Number.isFinite(book.order) ? Number(book.order) : 100,
+    }))
+    .filter(entry => entry.content.trim())
+    .sort((a, b) => a.order - b.order);
+
+export const splitWorldbookSections = (entries: ResolvedWorldbookEntry[]): WorldbookSystemSections => ({
+    beforeCharacter: entries.filter(entry => entry.position === 0),
+    afterCharacter: entries.filter(entry => entry.position === 1),
+    authorsNoteTop: entries.filter(entry => entry.position === 2),
+    authorsNoteBottom: entries.filter(entry => entry.position === 3),
+    atDepth: entries.filter(entry => entry.position === 4),
+    beforeExamples: entries.filter(entry => entry.position === 5),
+    afterExamples: entries.filter(entry => entry.position === 6),
+});
+
+export const formatWorldbookSection = (
+    entries: ResolvedWorldbookEntry[],
+    heading: string,
+): string => {
+    if (entries.length === 0) return '';
+    let output = `### ${heading}\n`;
+    let lastLegacyCategory = '';
+    for (const entry of entries) {
+        // SillyTavern comments are editor-only and are not part of the prompt.
+        if (entry.book.sourceUid === undefined) {
+            const category = entry.book.category || '通用设定 (General)';
+            if (category !== lastLegacyCategory) {
+                output += `#### [${category}]\n`;
+                lastLegacyCategory = category;
+            }
+            output += `**Title: ${entry.book.title}**\n`;
+        }
+        output += `${entry.content.trim()}\n---\n`;
+    }
+    return `${output}\n`;
+};
+
+export const injectWorldbookDepthEntries = <T extends WorldbookScanMessage>(
+    messages: T[],
+    entries: ResolvedWorldbookEntry[],
+): Array<T | { role: string; content: string }> => {
+    if (entries.length === 0) return [...messages];
+    const buckets = new Map<number, ResolvedWorldbookEntry[]>();
+    for (const entry of entries) {
+        const depth = Math.max(0, Math.floor(entry.book.depth ?? 4));
+        const index = Math.max(0, messages.length - depth);
+        const bucket = buckets.get(index) || [];
+        bucket.push(entry);
+        buckets.set(index, bucket);
+    }
+
+    const result: Array<T | { role: string; content: string }> = [];
+    for (let index = 0; index <= messages.length; index += 1) {
+        const bucket = buckets.get(index) || [];
+        for (const entry of bucket) {
+            const roleValue = entry.book.role ?? 0;
+            const role = roleValue === 1 ? 'user' : roleValue === 2 ? 'assistant' : 'system';
+            result.push({ role, content: entry.content.trim() });
+        }
+        if (index < messages.length) result.push(messages[index]);
+    }
+    return result;
+};
+
+export const serializeStandardWorldbook = (books: WorldbookLike[]): string => {
+    const usedUids = new Set<number>();
+    const entries: Record<string, Record<string, unknown>> = {};
+
+    books.forEach((book, index) => {
+        let uid = Number.isFinite(book.sourceUid) ? Number(book.sourceUid) : index;
+        while (usedUids.has(uid)) uid += 1;
+        usedUids.add(uid);
+
+        const primary = book.key || [];
+        const secondary = book.keysecondary || [];
+        const position = book.position ?? 1;
+        entries[String(index)] = {
+            uid,
+            key: [...primary],
+            keysecondary: [...secondary],
+            comment: book.title,
+            content: book.content,
+            constant: book.constant ?? primary.length === 0,
+            selective: book.selective ?? secondary.length > 0,
+            selectiveLogic: book.selectiveLogic ?? 0,
+            order: book.order ?? 100,
+            position,
+            disable: book.disable === true,
+            probability: book.probability ?? 100,
+            useProbability: book.useProbability === true,
+            depth: book.depth ?? 4,
+            role: position === 4 ? (book.role ?? 0) : null,
+            scanDepth: book.scanDepth ?? null,
+            caseSensitive: book.caseSensitive ?? null,
+            matchWholeWords: book.matchWholeWords ?? null,
+            displayIndex: index,
+        };
+    });
+
+    return JSON.stringify({ entries }, null, 2);
+};
+
+export const parseStandardWorldbook = (
+    rawText: string,
+    category: string,
+    now = Date.now(),
+): Worldbook[] => {
+    const parsed = JSON.parse(rawText);
+    if (!parsed || typeof parsed !== 'object' || !parsed.entries || typeof parsed.entries !== 'object') {
+        throw new Error('不是受支持的标准世界书文件：缺少 entries');
+    }
+    const rawEntries = Array.isArray(parsed.entries)
+        ? parsed.entries
+        : Object.values(parsed.entries);
+
+    const books = rawEntries.flatMap((value: any, index: number): Worldbook[] => {
+        if (!value || typeof value !== 'object' || typeof value.content !== 'string') return [];
+        const uid = Number.isFinite(Number(value.uid)) ? Number(value.uid) : index;
+        const position = clamp(value.position, 0, 6, 1) as WorldbookPosition;
+        const rawRole = value.role == null ? null : clamp(value.role, 0, 2, 0) as WorldbookDepthRole;
+        return [{
+            id: `wb-${now}-${index}-${Math.random().toString(36).slice(2, 8)}`,
+            title: String(value.comment || value.name || `条目 ${uid + 1}`),
+            content: value.content,
+            category,
+            createdAt: now,
+            updatedAt: now,
+            key: asStringArray(value.key),
+            keysecondary: asStringArray(value.keysecondary),
+            constant: value.constant === true,
+            selective: value.selective === true,
+            selectiveLogic: clamp(value.selectiveLogic, 0, 3, 0) as WorldbookSelectiveLogic,
+            order: Number.isFinite(Number(value.order)) ? Number(value.order) : 100,
+            position,
+            disable: value.disable === true,
+            probability: clamp(value.probability, 0, 100, 100),
+            useProbability: value.useProbability === true,
+            depth: Math.max(0, Math.floor(clamp(value.depth, 0, 999, 4))),
+            role: rawRole,
+            scanDepth: value.scanDepth == null ? null : Math.max(0, Math.floor(clamp(value.scanDepth, 0, 999, 4))),
+            caseSensitive: value.caseSensitive == null ? null : value.caseSensitive === true,
+            matchWholeWords: value.matchWholeWords == null ? null : value.matchWholeWords === true,
+            sourceUid: uid,
+        }];
+    });
+
+    if (books.length === 0) throw new Error('世界书里没有可导入的有效条目');
+    return books;
+};

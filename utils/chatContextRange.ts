@@ -1,1 +1,163 @@
-aW1wb3J0IHR5cGUgeyBDaGFyYWN0ZXJQcm9maWxlLCBNZXNzYWdlIH0gZnJvbSAnLi4vdHlwZXMnOwppbXBvcnQgeyBEQiB9IGZyb20gJy4vZGInOwoKZXhwb3J0IGNvbnN0IENPTlRFWFRfUkFOR0VfUE9MSUNZX1ZFUlNJT04gPSAxOwpleHBvcnQgY29uc3QgREVGQVVMVF9NQU5VQUxfQ09OVEVYVF9MSU1JVCA9IDUwMDsKZXhwb3J0IGNvbnN0IE1JTl9NQU5VQUxfQ09OVEVYVF9MSU1JVCA9IDIwOwpleHBvcnQgY29uc3QgTUFYX01BTlVBTF9DT05URVhUX0xJTUlUID0gNTAwMDsKCmV4cG9ydCB0eXBlIENvbnRleHRSYW5nZU1vZGUgPSAnYWRhcHRpdmUnIHwgJ21hbnVhbCc7CgpleHBvcnQgaW50ZXJmYWNlIENvbnRleHRSYW5nZVNuYXBzaG90IHsKICAgIG1vZGU6IENvbnRleHRSYW5nZU1vZGU7CiAgICBod206IG51bWJlcjsKICAgIG1heFJhbmdlU3RhcnRNZXNzYWdlSWQ/OiBudW1iZXI7CiAgICBlZmZlY3RpdmVTdGFydE1lc3NhZ2VJZD86IG51bWJlcjsKICAgIHVzZXJTdGFydE1lc3NhZ2VJZD86IG51bWJlcjsKICAgIHVzZXJCcmVha3BvaW50RXhwaXJlZDogYm9vbGVhbjsKICAgIG1lc3NhZ2VzOiBNZXNzYWdlW107Cn0KCmV4cG9ydCBpbnRlcmZhY2UgQ2hhcmFjdGVyQ29udGV4dFJhbmdlTWlncmF0aW9uIHsKICAgIGNoYXJhY3RlcjogQ2hhcmFjdGVyUHJvZmlsZTsKICAgIG1pZ3JhdGVkOiBib29sZWFuOwogICAgcmVzZXRBdXRvQ29udGV4dDogYm9vbGVhbjsKfQoKY29uc3QgcG9zaXRpdmVNZXNzYWdlSWQgPSAodmFsdWU6IHVua25vd24pOiBudW1iZXIgfCB1bmRlZmluZWQgPT4KICAgIHR5cGVvZiB2YWx1ZSA9PT0gJ251bWJlcicgJiYgTnVtYmVyLmlzRmluaXRlKHZhbHVlKSAmJiB2YWx1ZSA+IDAKICAgICAgICA/IE1hdGguZmxvb3IodmFsdWUpCiAgICAgICAgOiB1bmRlZmluZWQ7CgpleHBvcnQgY29uc3QgY2xhbXBNYW51YWxDb250ZXh0TGltaXQgPSAodmFsdWU6IHVua25vd24pOiBudW1iZXIgPT4gewogICAgY29uc3QgcGFyc2VkID0gdHlwZW9mIHZhbHVlID09PSAnbnVtYmVyJyAmJiBOdW1iZXIuaXNGaW5pdGUodmFsdWUpCiAgICAgICAgPyBNYXRoLmZsb29yKHZhbHVlKQogICAgICAgIDogREVGQVVMVF9NQU5VQUxfQ09OVEVYVF9MSU1JVDsKICAgIHJldHVybiBNYXRoLm1heChNSU5fTUFOVUFMX0NPTlRFWFRfTElNSVQsIE1hdGgubWluKE1BWF9NQU5VQUxfQ09OVEVYVF9MSU1JVCwgcGFyc2VkKSk7Cn07CgovKioKICog5YWo6Ieq5Yqo6K6w5b+G5Y+q5Zyo5pi+5byPIGFkYXB0aXZlIOaXtuaOpeeuoeiMg+WbtOOAguWFs+mXreWFqOiHquWKqOWQjuWNs+S+v+aXp+aVsOaNruaui+eVmSBhZGFwdGl2Ze+8jAogKiDkuZ/mjIkgbWFudWFsIOWkhOeQhu+8jOmBv+WFjeS4gOS4quW3sue7j+S4jeWtmOWcqOeahOiHquWKqOaooeW8j+e7p+e7remZkOWItueUqOaIt+OAggogKi8KZXhwb3J0IGNvbnN0IHJlc29sdmVDb250ZXh0UmFuZ2VNb2RlID0gKGNoYXI6IENoYXJhY3RlclByb2ZpbGUpOiBDb250ZXh0UmFuZ2VNb2RlID0+CiAgICBjaGFyLmF1dG9BcmNoaXZlRW5hYmxlZCAmJiBjaGFyLmNvbnRleHRSYW5nZU1vZGUgPT09ICdhZGFwdGl2ZScKICAgICAgICA/ICdhZGFwdGl2ZScKICAgICAgICA6ICdtYW51YWwnOwoKZXhwb3J0IGNvbnN0IGdldE1lbW9yeVBhbGFjZUhpZ2hXYXRlck1hcmtGb3JDb250ZXh0ID0gKGNoYXJJZDogc3RyaW5nKTogbnVtYmVyID0+IHsKICAgIHRyeSB7CiAgICAgICAgY29uc3QgdmFsdWUgPSBwYXJzZUludChsb2NhbFN0b3JhZ2UuZ2V0SXRlbShgbXBfbGFzdE1zZ0lkXyR7Y2hhcklkfWApIHx8ICcwJywgMTApOwogICAgICAgIHJldHVybiBOdW1iZXIuaXNGaW5pdGUodmFsdWUpICYmIHZhbHVlID4gMCA/IHZhbHVlIDogMDsKICAgIH0gY2F0Y2ggewogICAgICAgIHJldHVybiAwOwogICAgfQp9OwoKLyoqCiAqIOS4gOasoeaAp+i/geenu+aXp+inkuiJsu+8mgogKiAtIOW3suW8gOWFqOiHquWKqOiusOW/hu+8muaXoOiuuuaXp+aLieadhuaYr+WQpuS4uiA1MDAw77yM6YO95Zue5YiwIGFkYXB0aXZlICsg6buY6K6kIDUwMO+8mwogKiAtIOacquW8gOWFqOiHquWKqO+8muS/neeVmeaXp+aLieadhu+8jOW5tuaKiuaXp+eJiOaJi+WKqOaWreeCuei/geaIkOeUqOaIt+aWreeCueOAggogKgogKiBoaWRlQmVmb3JlTWVzc2FnZUlkIOS7jeS/neeVmee7meaXp+W9kuaho+WGhemDqOS9v+eUqO+8jOS9huaWsOeJiCBwcm9tcHQg5LiN5YaN5oqK5a6D5b2T55So5oi36IyD5Zu044CCCiAqLwpleHBvcnQgY29uc3QgbWlncmF0ZUNoYXJhY3RlckNvbnRleHRSYW5nZSA9ICgKICAgIGNoYXI6IENoYXJhY3RlclByb2ZpbGUsCik6IENoYXJhY3RlckNvbnRleHRSYW5nZU1pZ3JhdGlvbiA9PiB7CiAgICBpZiAoKGNoYXIuY29udGV4dFJhbmdlUG9saWN5VmVyc2lvbiB8fCAwKSA+PSBDT05URVhUX1JBTkdFX1BPTElDWV9WRVJTSU9OKSB7CiAgICAgICAgcmV0dXJuIHsgY2hhcmFjdGVyOiBjaGFyLCBtaWdyYXRlZDogZmFsc2UsIHJlc2V0QXV0b0NvbnRleHQ6IGZhbHNlIH07CiAgICB9CgogICAgY29uc3QgcmVzZXRBdXRvQ29udGV4dCA9ICEhY2hhci5hdXRvQXJjaGl2ZUVuYWJsZWQ7CiAgICBjb25zdCBuZXh0OiBDaGFyYWN0ZXJQcm9maWxlID0gewogICAgICAgIC4uLmNoYXIsCiAgICAgICAgY29udGV4dFJhbmdlUG9saWN5VmVyc2lvbjogQ09OVEVYVF9SQU5HRV9QT0xJQ1lfVkVSU0lPTiwKICAgICAgICBjb250ZXh0UmFuZ2VNb2RlOiByZXNldEF1dG9Db250ZXh0ID8gJ2FkYXB0aXZlJyA6ICdtYW51YWwnLAogICAgICAgIGNvbnRleHRMaW1pdDogcmVzZXRBdXRvQ29udGV4dAogICAgICAgICAgICA/IERFRkFVTFRfTUFOVUFMX0NPTlRFWFRfTElNSVQKICAgICAgICAgICAgOiBjbGFtcE1hbnVhbENvbnRleHRMaW1pdChjaGFyLmNvbnRleHRMaW1pdCksCiAgICAgICAgY29udGV4dFVzZXJTdGFydE1lc3NhZ2VJZDogcmVzZXRBdXRvQ29udGV4dAogICAgICAgICAgICA/IHVuZGVmaW5lZAogICAgICAgICAgICA6IHBvc2l0aXZlTWVzc2FnZUlkKGNoYXIuaGlkZUJlZm9yZU1lc3NhZ2VJZCksCiAgICB9OwoKICAgIHJldHVybiB7IGNoYXJhY3RlcjogbmV4dCwgbWlncmF0ZWQ6IHRydWUsIHJlc2V0QXV0b0NvbnRleHQgfTsKfTsKCmNvbnN0IGNocm9ub2xvZ2ljYWxQcml2YXRlTWVzc2FnZXMgPSAobWVzc2FnZXM6IE1lc3NhZ2VbXSk6IE1lc3NhZ2VbXSA9PgogICAgbWVzc2FnZXMKICAgICAgICAuZmlsdGVyKG1lc3NhZ2UgPT4gIW1lc3NhZ2UuZ3JvdXBJZCkKICAgICAgICAuc2xpY2UoKQogICAgICAgIC5zb3J0KChhLCBiKSA9PiBhLmlkIC0gYi5pZCk7CgovKioKICog57qv6L6555WM6K6h566X44CC5pa55ZCR5LiN5Y+Y5byP77yITWVzc2FnZS5pZCDotorlpKfotormlrDvvInvvJoKICogLSDmnIDlpKfojIPlm7TotbfngrnotorlpKfvvIzlj6/or7vojIPlm7TotorlsI/vvJsKICogLSDnlKjmiLfmlq3ngrnlj6rog70gPj0g5pyA5aSn6IyD5Zu06LW354K577ybCiAqIC0g5pyA57uI6LW354K55rC46L+c5Y+W5Lik6ICF5Lit5pu05aSn55qEIGlk77yM57ud5LiN5Lya6LaK6L+H5pyA5aSn6IyD5Zu05ZCR5pen5raI5oGv5omp5byg44CCCiAqLwpleHBvcnQgY29uc3QgY29tcHV0ZUNvbnRleHRSYW5nZVNuYXBzaG90ID0gKAogICAgc291cmNlTWVzc2FnZXM6IE1lc3NhZ2VbXSwKICAgIGNoYXI6IENoYXJhY3RlclByb2ZpbGUsCiAgICBod206IG51bWJlciwKKTogQ29udGV4dFJhbmdlU25hcHNob3QgPT4gewogICAgY29uc3QgYWxsTWVzc2FnZXMgPSBjaHJvbm9sb2dpY2FsUHJpdmF0ZU1lc3NhZ2VzKHNvdXJjZU1lc3NhZ2VzKTsKICAgIGNvbnN0IG1vZGUgPSByZXNvbHZlQ29udGV4dFJhbmdlTW9kZShjaGFyKTsKICAgIGNvbnN0IG1heFJhbmdlTWVzc2FnZXMgPSBtb2RlID09PSAnYWRhcHRpdmUnCiAgICAgICAgPyBhbGxNZXNzYWdlcy5maWx0ZXIobWVzc2FnZSA9PiBtZXNzYWdlLmlkID4gaHdtKQogICAgICAgIDogYWxsTWVzc2FnZXMuc2xpY2UoLWNsYW1wTWFudWFsQ29udGV4dExpbWl0KGNoYXIuY29udGV4dExpbWl0KSk7CgogICAgY29uc3QgbWF4UmFuZ2VTdGFydE1lc3NhZ2VJZCA9IG1heFJhbmdlTWVzc2FnZXNbMF0/LmlkOwogICAgY29uc3QgbGF0ZXN0TWVzc2FnZUlkID0gbWF4UmFuZ2VNZXNzYWdlc1ttYXhSYW5nZU1lc3NhZ2VzLmxlbmd0aCAtIDFdPy5pZDsKICAgIGNvbnN0IHJlcXVlc3RlZFVzZXJTdGFydCA9IHBvc2l0aXZlTWVzc2FnZUlkKGNoYXIuY29udGV4dFVzZXJTdGFydE1lc3NhZ2VJZCk7CiAgICBjb25zdCByZXF1ZXN0ZWRNZXNzYWdlU3RpbGxFeGlzdHMgPSByZXF1ZXN0ZWRVc2VyU3RhcnQgPT09IHVuZGVmaW5lZAogICAgICAgIHx8IG1heFJhbmdlTWVzc2FnZXMuc29tZShtZXNzYWdlID0+IG1lc3NhZ2UuaWQgPT09IHJlcXVlc3RlZFVzZXJTdGFydCk7CiAgICBjb25zdCB1c2VyQnJlYWtwb2ludEV4cGlyZWQgPSAhIXJlcXVlc3RlZFVzZXJTdGFydCAmJiAoCiAgICAgICAgbWF4UmFuZ2VTdGFydE1lc3NhZ2VJZCA9PT0gdW5kZWZpbmVkCiAgICAgICAgfHwgbGF0ZXN0TWVzc2FnZUlkID09PSB1bmRlZmluZWQKICAgICAgICB8fCByZXF1ZXN0ZWRVc2VyU3RhcnQgPCBtYXhSYW5nZVN0YXJ0TWVzc2FnZUlkCiAgICAgICAgfHwgcmVxdWVzdGVkVXNlclN0YXJ0ID4gbGF0ZXN0TWVzc2FnZUlkCiAgICAgICAgfHwgIXJlcXVlc3RlZE1lc3NhZ2VTdGlsbEV4aXN0cwogICAgKTsKICAgIGNvbnN0IHVzZXJTdGFydE1lc3NhZ2VJZCA9IHVzZXJCcmVha3BvaW50RXhwaXJlZCA/IHVuZGVmaW5lZCA6IHJlcXVlc3RlZFVzZXJTdGFydDsKICAgIGNvbnN0IGVmZmVjdGl2ZVN0YXJ0TWVzc2FnZUlkID0gbWF4UmFuZ2VTdGFydE1lc3NhZ2VJZCA9PT0gdW5kZWZpbmVkCiAgICAgICAgPyB1bmRlZmluZWQKICAgICAgICA6IE1hdGgubWF4KG1heFJhbmdlU3RhcnRNZXNzYWdlSWQsIHVzZXJTdGFydE1lc3NhZ2VJZCB8fCBtYXhSYW5nZVN0YXJ0TWVzc2FnZUlkKTsKICAgIGNvbnN0IG1lc3NhZ2VzID0gZWZmZWN0aXZlU3RhcnRNZXNzYWdlSWQgPT09IHVuZGVmaW5lZAogICAgICAgID8gW10KICAgICAgICA6IG1heFJhbmdlTWVzc2FnZXMuZmlsdGVyKG1lc3NhZ2UgPT4gbWVzc2FnZS5pZCA+PSBlZmZlY3RpdmVTdGFydE1lc3NhZ2VJZCk7CgogICAgcmV0dXJuIHsKICAgICAgICBtb2RlLAogICAgICAgIGh3bSwKICAgICAgICBtYXhSYW5nZVN0YXJ0TWVzc2FnZUlkLAogICAgICAgIGVmZmVjdGl2ZVN0YXJ0TWVzc2FnZUlkLAogICAgICAgIHVzZXJTdGFydE1lc3NhZ2VJZCwKICAgICAgICB1c2VyQnJlYWtwb2ludEV4cGlyZWQsCiAgICAgICAgbWVzc2FnZXMsCiAgICB9Owp9OwoKLyoqCiAqIEFJIOS4iuS4i+aWh+ivu+WPlu+8mgogKiAtIGFkYXB0aXZlIOivu+WPluawtOS9jee6v+WQjueahOWujOaVtOWOn+aWh++8mwogKiAtIG1hbnVhbCDlv73nlaXmsLTkvY3nur/vvIzor7vlj5blrozmlbTlupPmnIDov5EgTiDmnaHvvJsKICogLSDpmo/lkI7lho3nlKjnlKjmiLfmlq3ngrnmlLbnqoTjgIIKICovCmV4cG9ydCBjb25zdCBsb2FkQ2hhcmFjdGVyQ29udGV4dFJhbmdlID0gYXN5bmMgKAogICAgY2hhcjogQ2hhcmFjdGVyUHJvZmlsZSwKKTogUHJvbWlzZTxDb250ZXh0UmFuZ2VTbmFwc2hvdD4gPT4gewogICAgY29uc3QgaHdtID0gZ2V0TWVtb3J5UGFsYWNlSGlnaFdhdGVyTWFya0ZvckNvbnRleHQoY2hhci5pZCk7CiAgICBjb25zdCBtb2RlID0gcmVzb2x2ZUNvbnRleHRSYW5nZU1vZGUoY2hhcik7CiAgICBjb25zdCBzb3VyY2VNZXNzYWdlcyA9IG1vZGUgPT09ICdhZGFwdGl2ZScKICAgICAgICA/IChhd2FpdCBEQi5nZXRNZXNzYWdlc0Zyb21JZChjaGFyLmlkLCBod20gKyAxKSkubWVzc2FnZXMKICAgICAgICA6IGF3YWl0IERCLmdldFJlY2VudE1lc3NhZ2VzQnlDaGFySWQoCiAgICAgICAgICAgIGNoYXIuaWQsCiAgICAgICAgICAgIGNsYW1wTWFudWFsQ29udGV4dExpbWl0KGNoYXIuY29udGV4dExpbWl0KSwKICAgICAgICAgICAgdHJ1ZSwKICAgICAgICApOwogICAgcmV0dXJuIGNvbXB1dGVDb250ZXh0UmFuZ2VTbmFwc2hvdChzb3VyY2VNZXNzYWdlcywgY2hhciwgaHdtKTsKfTsKCmV4cG9ydCBjb25zdCBjb3VudE1lc3NhZ2VzRnJvbSA9IChtZXNzYWdlczogTWVzc2FnZVtdLCBtZXNzYWdlSWQ6IG51bWJlcik6IG51bWJlciA9PgogICAgY2hyb25vbG9naWNhbFByaXZhdGVNZXNzYWdlcyhtZXNzYWdlcykuZmlsdGVyKG1lc3NhZ2UgPT4gbWVzc2FnZS5pZCA+PSBtZXNzYWdlSWQpLmxlbmd0aDsK
+import type { CharacterProfile, Message } from '../types';
+import { DB } from './db';
+
+export const CONTEXT_RANGE_POLICY_VERSION = 1;
+export const DEFAULT_MANUAL_CONTEXT_LIMIT = 500;
+export const MIN_MANUAL_CONTEXT_LIMIT = 20;
+export const MAX_MANUAL_CONTEXT_LIMIT = 5000;
+
+export type ContextRangeMode = 'adaptive' | 'manual';
+
+export interface ContextRangeSnapshot {
+    mode: ContextRangeMode;
+    hwm: number;
+    maxRangeStartMessageId?: number;
+    effectiveStartMessageId?: number;
+    userStartMessageId?: number;
+    userBreakpointExpired: boolean;
+    messages: Message[];
+}
+
+export interface CharacterContextRangeMigration {
+    character: CharacterProfile;
+    migrated: boolean;
+    resetAutoContext: boolean;
+}
+
+const positiveMessageId = (value: unknown): number | undefined =>
+    typeof value === 'number' && Number.isFinite(value) && value > 0
+        ? Math.floor(value)
+        : undefined;
+
+export const clampManualContextLimit = (value: unknown): number => {
+    const parsed = typeof value === 'number' && Number.isFinite(value)
+        ? Math.floor(value)
+        : DEFAULT_MANUAL_CONTEXT_LIMIT;
+    return Math.max(MIN_MANUAL_CONTEXT_LIMIT, Math.min(MAX_MANUAL_CONTEXT_LIMIT, parsed));
+};
+
+/**
+ * 全自动记忆只在显式 adaptive 时接管范围。关闭全自动后即便旧数据残留 adaptive，
+ * 也按 manual 处理，避免一个已经不存在的自动模式继续限制用户。
+ */
+export const resolveContextRangeMode = (char: CharacterProfile): ContextRangeMode =>
+    char.autoArchiveEnabled && char.contextRangeMode === 'adaptive'
+        ? 'adaptive'
+        : 'manual';
+
+export const getMemoryPalaceHighWaterMarkForContext = (charId: string): number => {
+    try {
+        const value = parseInt(localStorage.getItem(`mp_lastMsgId_${charId}`) || '0', 10);
+        return Number.isFinite(value) && value > 0 ? value : 0;
+    } catch {
+        return 0;
+    }
+};
+
+/**
+ * 一次性迁移旧角色：
+ * - 已开全自动记忆：无论旧拉杆是否为 5000，都回到 adaptive + 默认 500；
+ * - 未开全自动：保留旧拉杆，并把旧版手动断点迁成用户断点。
+ *
+ * hideBeforeMessageId 仍保留给旧归档内部使用，但新版 prompt 不再把它当用户范围。
+ */
+export const migrateCharacterContextRange = (
+    char: CharacterProfile,
+): CharacterContextRangeMigration => {
+    if ((char.contextRangePolicyVersion || 0) >= CONTEXT_RANGE_POLICY_VERSION) {
+        return { character: char, migrated: false, resetAutoContext: false };
+    }
+
+    const resetAutoContext = !!char.autoArchiveEnabled;
+    const next: CharacterProfile = {
+        ...char,
+        contextRangePolicyVersion: CONTEXT_RANGE_POLICY_VERSION,
+        contextRangeMode: resetAutoContext ? 'adaptive' : 'manual',
+        contextLimit: resetAutoContext
+            ? DEFAULT_MANUAL_CONTEXT_LIMIT
+            : clampManualContextLimit(char.contextLimit),
+        contextUserStartMessageId: resetAutoContext
+            ? undefined
+            : positiveMessageId(char.hideBeforeMessageId),
+    };
+
+    return { character: next, migrated: true, resetAutoContext };
+};
+
+const chronologicalPrivateMessages = (messages: Message[]): Message[] =>
+    messages
+        .filter(message => !message.groupId)
+        .slice()
+        .sort((a, b) => a.id - b.id);
+
+/**
+ * 纯边界计算。方向不变式（Message.id 越大越新）：
+ * - 最大范围起点越大，可读范围越小；
+ * - 用户断点只能 >= 最大范围起点；
+ * - 最终起点永远取两者中更大的 id，绝不会越过最大范围向旧消息扩张。
+ */
+export const computeContextRangeSnapshot = (
+    sourceMessages: Message[],
+    char: CharacterProfile,
+    hwm: number,
+): ContextRangeSnapshot => {
+    const allMessages = chronologicalPrivateMessages(sourceMessages);
+    const mode = resolveContextRangeMode(char);
+    const maxRangeMessages = mode === 'adaptive'
+        ? allMessages.filter(message => message.id > hwm)
+        : allMessages.slice(-clampManualContextLimit(char.contextLimit));
+
+    const maxRangeStartMessageId = maxRangeMessages[0]?.id;
+    const latestMessageId = maxRangeMessages[maxRangeMessages.length - 1]?.id;
+    const requestedUserStart = positiveMessageId(char.contextUserStartMessageId);
+    const requestedMessageStillExists = requestedUserStart === undefined
+        || maxRangeMessages.some(message => message.id === requestedUserStart);
+    const userBreakpointExpired = !!requestedUserStart && (
+        maxRangeStartMessageId === undefined
+        || latestMessageId === undefined
+        || requestedUserStart < maxRangeStartMessageId
+        || requestedUserStart > latestMessageId
+        || !requestedMessageStillExists
+    );
+    const userStartMessageId = userBreakpointExpired ? undefined : requestedUserStart;
+    const effectiveStartMessageId = maxRangeStartMessageId === undefined
+        ? undefined
+        : Math.max(maxRangeStartMessageId, userStartMessageId || maxRangeStartMessageId);
+    const messages = effectiveStartMessageId === undefined
+        ? []
+        : maxRangeMessages.filter(message => message.id >= effectiveStartMessageId);
+
+    return {
+        mode,
+        hwm,
+        maxRangeStartMessageId,
+        effectiveStartMessageId,
+        userStartMessageId,
+        userBreakpointExpired,
+        messages,
+    };
+};
+
+/**
+ * AI 上下文读取：
+ * - adaptive 读取水位线后的完整原文；
+ * - manual 忽略水位线，读取完整库最近 N 条；
+ * - 随后再用用户断点收窄。
+ */
+export const loadCharacterContextRange = async (
+    char: CharacterProfile,
+): Promise<ContextRangeSnapshot> => {
+    const hwm = getMemoryPalaceHighWaterMarkForContext(char.id);
+    const mode = resolveContextRangeMode(char);
+    const sourceMessages = mode === 'adaptive'
+        ? (await DB.getMessagesFromId(char.id, hwm + 1)).messages
+        : await DB.getRecentMessagesByCharId(
+            char.id,
+            clampManualContextLimit(char.contextLimit),
+            true,
+        );
+    return computeContextRangeSnapshot(sourceMessages, char, hwm);
+};
+
+export const countMessagesFrom = (messages: Message[], messageId: number): number =>
+    chronologicalPrivateMessages(messages).filter(message => message.id >= messageId).length;

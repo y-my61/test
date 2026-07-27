@@ -1,1 +1,438 @@
-LyoqCiAqIOWFqOWxgOaCrOa1riBNaW5pIOaSreaUvuWZqAogKiDku4XlnKgg6Z2eIE11c2ljIC8g6Z2eIExhdW5jaGVyIOW6lOeUqOmHjCDmmL7npLrvvIzooajnpLrjgIzlkI7lj7DmraPlnKjmlL7mrYzjgI3jgIIKICogTGF1bmNoZXIg6aG16K6p5L2N57uZ5bey5pyJ55qEIERvY2vvvIxNdXNpYyDpobXorqnkvY3nu5npobXpnaLlhoXoh6rluKbnmoQgTWluaVBsYXllcuOAggogKgogKiDpu5jorqTmipjlj6DvvJrlj6rmmL7npLrkuIDkuKrluKblsIHpnaLnmoTlsI/lnIbnkIPvvIzngrnlvIDmiY3lsZXlvIDlrozmlbTmjqfliLbmnaHvvJsKICog5bCP55CD5Y+v5ouW5Yqo44CB5Y+v6ZW/5oyJ6ZqQ6JeP77yb5YiH5Yiw5paw5q2M5pe25Lya6Ieq5Yqo5YaN5Ye6546w44CCCiAqLwppbXBvcnQgUmVhY3QsIHsgdXNlU3RhdGUsIHVzZVJlZiwgdXNlRWZmZWN0LCB1c2VDYWxsYmFjayB9IGZyb20gJ3JlYWN0JzsKaW1wb3J0IHsgUGxheSwgUGF1c2UsIFNraXBGb3J3YXJkLCBTa2lwQmFjaywgQ2FyZXREb3duLCBYIH0gZnJvbSAnQHBob3NwaG9yLWljb25zL3JlYWN0JzsKaW1wb3J0IHsgdXNlT1MgfSBmcm9tICcuLi8uLi9jb250ZXh0L09TQ29udGV4dCc7CmltcG9ydCB7IHVzZU11c2ljIH0gZnJvbSAnLi4vLi4vY29udGV4dC9NdXNpY0NvbnRleHQnOwppbXBvcnQgeyBBcHBJRCB9IGZyb20gJy4uLy4uL3R5cGVzJzsKaW1wb3J0IHsgaXNJT1NTdGFuZGFsb25lV2ViQXBwLCByZWFkU2FmZUFyZWFJbnNldHMgfSBmcm9tICcuLi8uLi91dGlscy9pb3NTdGFuZGFsb25lJzsKaW1wb3J0IHsKICBjbGFtcEJ1YmJsZVBvcywKICBjbGFtcEV4cGFuZGVkQm90dG9tLAogIHJlc29sdmVJbnNldHMsCiAgcmVzb2x2ZVNhZmVUb3BJbnNldCwKfSBmcm9tICcuLi8uLi91dGlscy9mbG9hdGluZ0JhbGxCb3VuZHMnOwoKY29uc3QgU1RPUkFHRV9LRVkgPSAnZ2xvYmFsTWluaVBsYXllci5idWJibGVQb3MudjEnOwpjb25zdCBISURERU5fS0VZID0gJ2dsb2JhbE1pbmlQbGF5ZXIuaGlkZGVuLnYxJzsKY29uc3QgRVhQQU5ERURfQk9UVE9NX0tFWSA9ICdnbG9iYWxNaW5pUGxheWVyLmV4cGFuZGVkQm90dG9tLnYxJzsKY29uc3QgRFJBR19USFJFU0hPTEQgPSA0OyAvLyDlg4/ntKDvvJrotoXov4fov5nkuKrkvY3np7vnrpfmi5bliqjvvIzkuI3op6blj5Hngrnlh7sKCnR5cGUgUG9zID0geyB4OiBudW1iZXI7IHk6IG51bWJlciB9IHwgbnVsbDsKCmNvbnN0IHJlYWRQb3MgPSAoKTogUG9zID0+IHsKICB0cnkgewogICAgY29uc3QgcmF3ID0gbG9jYWxTdG9yYWdlLmdldEl0ZW0oU1RPUkFHRV9LRVkpOwogICAgaWYgKCFyYXcpIHJldHVybiBudWxsOwogICAgY29uc3QgcCA9IEpTT04ucGFyc2UocmF3KTsKICAgIGlmICh0eXBlb2YgcD8ueCA9PT0gJ251bWJlcicgJiYgdHlwZW9mIHA/LnkgPT09ICdudW1iZXInKSByZXR1cm4gcDsKICB9IGNhdGNoIHt9CiAgcmV0dXJuIG51bGw7Cn07Cgpjb25zdCByZWFkRXhwYW5kZWRCb3R0b20gPSAoKTogbnVtYmVyIHwgbnVsbCA9PiB7CiAgdHJ5IHsKICAgIGNvbnN0IHJhdyA9IGxvY2FsU3RvcmFnZS5nZXRJdGVtKEVYUEFOREVEX0JPVFRPTV9LRVkpOwogICAgaWYgKCFyYXcpIHJldHVybiBudWxsOwogICAgY29uc3QgbiA9IHBhcnNlRmxvYXQocmF3KTsKICAgIHJldHVybiBOdW1iZXIuaXNGaW5pdGUobikgPyBuIDogbnVsbDsKICB9IGNhdGNoIHsgcmV0dXJuIG51bGw7IH0KfTsKCmNvbnN0IHBhcnNlUHggPSAodmFsdWU6IHN0cmluZyk6IG51bWJlciA9PiB7CiAgY29uc3QgcGFyc2VkID0gcGFyc2VGbG9hdCh2YWx1ZSk7CiAgcmV0dXJuIE51bWJlci5pc0Zpbml0ZShwYXJzZWQpID8gcGFyc2VkIDogMDsKfTsKCmNvbnN0IHJlYWRTYWZlVG9wSW5zZXQgPSAoKTogbnVtYmVyID0+IHsKICBpZiAodHlwZW9mIHdpbmRvdyA9PT0gJ3VuZGVmaW5lZCcgfHwgdHlwZW9mIGRvY3VtZW50ID09PSAndW5kZWZpbmVkJykgcmV0dXJuIDA7CgogIC8vIOS8mOWFiOWkjeeUqCBpb3NTdGFuZGFsb25lLnRzIOWGmeWIsCA6cm9vdCDnmoTlgLzvvJppT1Mgc3RhbmRhbG9uZSDlhrflkK/liqjml7YgcmF3IGVudi9wcm9iZQogIC8vIOWPr+iDveWFiOe7mSAw77yM5L2GIC0tc3RhbmRhbG9uZS1zYWZlLWFyZWEtdG9wIOW3sue7j+aciSA0NHB4IOWFnOW6leOAggogIGNvbnN0IHN0YW5kYWxvbmVTYWZlVG9wID0gcGFyc2VQeCgKICAgIHdpbmRvdy5nZXRDb21wdXRlZFN0eWxlKGRvY3VtZW50LmRvY3VtZW50RWxlbWVudCkuZ2V0UHJvcGVydHlWYWx1ZSgnLS1zdGFuZGFsb25lLXNhZmUtYXJlYS10b3AnKSwKICApOwogIGlmIChzdGFuZGFsb25lU2FmZVRvcCA+IDApIHJldHVybiBzdGFuZGFsb25lU2FmZVRvcDsKCiAgcmV0dXJuIHJlc29sdmVTYWZlVG9wSW5zZXQoewogICAgc3RhbmRhbG9uZVNhZmVUb3AsCiAgICBwcm9iZWRTYWZlVG9wOiByZWFkU2FmZUFyZWFJbnNldHMoKS50b3AgfHwgMCwKICAgIGlzSU9TU3RhbmRhbG9uZTogaXNJT1NTdGFuZGFsb25lV2ViQXBwKCksCiAgfSk7Cn07CgovLyDmiorniLblrrnlmajvvIhQaG9uZVNoZWxsIOWkluWjs++8ieeahCBwYWRkaW5nIOS4juWuieWFqOWMuuWQiOaIkOeQg+imgeiuqeWHuueahOmrmOW6puOAggovLyDlj6rlnKjmr4/mrKHmi5bmi73miYvlir/lvIDlp4vvvIhwb2ludGVyZG93bu+8ieaXtuiwg+S4gOasoeW5tue8k+WtmOi/myBkcmFnU3RhdGXvvJoKLy8gc2FmZS1hcmVhIOivu+WPluWPr+iDveinpuWPkeagt+W8j+iuoeeulyAvIOaOoumSiOivu+WPlu+8jOaUvui/m+mrmOmikSBwb2ludGVybW92ZSDkvJrmipbjgIIKY29uc3QgY29tcHV0ZUluc2V0cyA9IChwYXJlbnQ6IEhUTUxFbGVtZW50KTogeyBpbnNldFRvcDogbnVtYmVyOyBpbnNldEJvdHRvbTogbnVtYmVyIH0gPT4gewogIGNvbnN0IGNzID0gd2luZG93LmdldENvbXB1dGVkU3R5bGUocGFyZW50KTsKICByZXR1cm4gcmVzb2x2ZUluc2V0cyh7CiAgICBwYWRUb3A6IHBhcnNlRmxvYXQoY3MucGFkZGluZ1RvcCkgfHwgMCwKICAgIHBhZEJvdHRvbTogcGFyc2VGbG9hdChjcy5wYWRkaW5nQm90dG9tKSB8fCAwLAogICAgc2FmZVRvcDogcmVhZFNhZmVUb3BJbnNldCgpLAogIH0pOwp9OwoKY29uc3QgR2xvYmFsTWluaVBsYXllcjogUmVhY3QuRkMgPSAoKSA9PiB7CiAgY29uc3QgeyBhY3RpdmVBcHAgfSA9IHVzZU9TKCk7CiAgY29uc3QgeyBjdXJyZW50LCBwbGF5aW5nLCB0b2dnbGVQbGF5LCBuZXh0U29uZywgcHJldlNvbmcsIHByb2dyZXNzLCBkdXJhdGlvbiB9ID0gdXNlTXVzaWMoKTsKCiAgY29uc3QgW2V4cGFuZGVkLCBzZXRFeHBhbmRlZF0gPSB1c2VTdGF0ZShmYWxzZSk7IC8vIOm7mOiupOaKmOWPoAogIGNvbnN0IFtwb3MsIHNldFBvc10gPSB1c2VTdGF0ZTxQb3M+KCgpID0+IHJlYWRQb3MoKSk7IC8vIG51bGwgPSDpu5jorqTlj7PkuIsKICBjb25zdCBbZXhwYW5kZWRCb3R0b20sIHNldEV4cGFuZGVkQm90dG9tXSA9IHVzZVN0YXRlPG51bWJlciB8IG51bGw+KCgpID0+IHJlYWRFeHBhbmRlZEJvdHRvbSgpKTsgLy8g5bGV5byA5oCB6Led5bqV6YOo5YOP57SgCiAgY29uc3QgW2hpZGRlbiwgc2V0SGlkZGVuXSA9IHVzZVN0YXRlPGJvb2xlYW4+KCgpID0+IHsKICAgIHRyeSB7IHJldHVybiBzZXNzaW9uU3RvcmFnZS5nZXRJdGVtKEhJRERFTl9LRVkpID09PSAnMSc7IH0gY2F0Y2ggeyByZXR1cm4gZmFsc2U7IH0KICB9KTsKCiAgY29uc3QgZXhwYW5kZWRSZWYgPSB1c2VSZWY8SFRNTERpdkVsZW1lbnQgfCBudWxsPihudWxsKTsKICBjb25zdCBleHBhbmRlZERyYWdTdGF0ZSA9IHVzZVJlZjx7CiAgICBzdGFydFk6IG51bWJlcjsKICAgIHN0YXJ0Qm90dG9tOiBudW1iZXI7CiAgICBwYXJlbnRIOiBudW1iZXI7CiAgICBzZWxmSDogbnVtYmVyOwogICAgaW5zZXRUb3A6IG51bWJlcjsKICAgIGluc2V0Qm90dG9tOiBudW1iZXI7CiAgICBtb3ZlZDogYm9vbGVhbjsKICAgIHBvaW50ZXJJZDogbnVtYmVyOwogIH0gfCBudWxsPihudWxsKTsKCiAgY29uc3Qgd3JhcFJlZiA9IHVzZVJlZjxIVE1MRGl2RWxlbWVudCB8IG51bGw+KG51bGwpOwogIGNvbnN0IGRyYWdTdGF0ZSA9IHVzZVJlZjx7CiAgICBzdGFydFg6IG51bWJlcjsgc3RhcnRZOiBudW1iZXI7CiAgICBvZmZYOiBudW1iZXI7IG9mZlk6IG51bWJlcjsKICAgIHBhcmVudFc6IG51bWJlcjsgcGFyZW50SDogbnVtYmVyOwogICAgaW5zZXRUb3A6IG51bWJlcjsgaW5zZXRCb3R0b206IG51bWJlcjsKICAgIG1vdmVkOiBib29sZWFuOwogICAgcG9pbnRlcklkOiBudW1iZXIgfCBudWxsOwogIH0gfCBudWxsPihudWxsKTsKICBjb25zdCBsb25nUHJlc3NUaW1lciA9IHVzZVJlZjxudW1iZXIgfCBudWxsPihudWxsKTsKCiAgLy8g5Y+q5pyJ55So5oi355yf5q2jIumHjeaWsOaMieS4i+aSreaUviLvvIhwbGF5aW5nIOS7jiBmYWxzZSDihpIgdHJ1Ze+8ieaJjeiHquWKqOWPlua2iOmakOiXj+OAggogIC8vIOS7hemdoCBjdXJyZW50LmlkIOWIpOaWreS8muiuqee7hOS7tuavj+asoeaMgui9ve+8iOavlOWmguaJk+W8gOiBiuWkqSBBcHDvvInlsLHmiorkuIrkuIDpppbmrYwi5aSN5rS7IuaYvuekuuWHuuadpeKAlOKAlAogIC8vIOWNs+S9v+eUqOaIt+S4iuasoeW3sue7j+aJi+WKqOWFs+aOieS6hueQg+OAgeW5tuS4lOW9k+S4i+W5tuayoeacieWcqOWQrOatjOOAggogIC8vIHJlZiDliJ3lp4vljJbkuLrlvZPliY0gcGxheWluZyDlgLzvvJrpgb/lhY3mjILovb3nnqzpl7Tooqvor6/liKTkuLogZmFsc2XihpJ0cnVlIOi3s+WPmOOAggogIGNvbnN0IHByZXZQbGF5aW5nUmVmID0gdXNlUmVmKHBsYXlpbmcpOwogIC8vIOacrOasoeS8muivneaYr+WQpuecn+ato+aSreaUvui/h+OAguWGt+WQr+WKqC/ph43mlrDov5vlhaXpobnnm67ml7bvvIxNdXNpY0NvbnRleHQg5Lya5LuOIGxvY2FsU3RvcmFnZQogIC8vIOaBouWkjSBxdWV1ZStpZHjvvIjkuo7mmK8gY3VycmVudCDpnZ7nqbrvvInvvIzkvYbmlrDlu7rnmoQgPGF1ZGlvPiDlsJrmnKrmkq3mlL7vvIhwbGF5aW5nPWZhbHNl77yJ44CCCiAgLy8g6L+Z56eNIuaBouWkjeWHuuadpeS9huayoeWcqOaUviLnmoTmmoLlgZzmgIHkuI3lupTor6XlvLnlh7rmgqzmta7nkIPigJTigJTlj6rmnInnnJ/mraPmkq3mlL7ov4fkuYvlkI7vvIwKICAvLyDkvJror53lhoXnmoTmiYvliqjmmoLlgZzmiY3kv53nlZnmmL7npLrjgIIKICBjb25zdCBbZXZlclBsYXllZCwgc2V0RXZlclBsYXllZF0gPSB1c2VTdGF0ZShwbGF5aW5nKTsKICB1c2VFZmZlY3QoKCkgPT4gewogICAgaWYgKHBsYXlpbmcpIHsKICAgICAgc2V0RXZlclBsYXllZCh0cnVlKTsKICAgICAgaWYgKCFwcmV2UGxheWluZ1JlZi5jdXJyZW50KSB7CiAgICAgICAgc2V0SGlkZGVuKGZhbHNlKTsKICAgICAgICB0cnkgeyBzZXNzaW9uU3RvcmFnZS5yZW1vdmVJdGVtKEhJRERFTl9LRVkpOyB9IGNhdGNoIHt9CiAgICAgIH0KICAgIH0KICAgIHByZXZQbGF5aW5nUmVmLmN1cnJlbnQgPSBwbGF5aW5nOwogIH0sIFtwbGF5aW5nXSk7CgogIC8vIOaMgeS5heWMluS9jee9rgogIHVzZUVmZmVjdCgoKSA9PiB7CiAgICBpZiAoIXBvcykgcmV0dXJuOwogICAgdHJ5IHsgbG9jYWxTdG9yYWdlLnNldEl0ZW0oU1RPUkFHRV9LRVksIEpTT04uc3RyaW5naWZ5KHBvcykpOyB9IGNhdGNoIHt9CiAgfSwgW3Bvc10pOwoKICB1c2VFZmZlY3QoKCkgPT4gewogICAgaWYgKGV4cGFuZGVkQm90dG9tID09IG51bGwpIHJldHVybjsKICAgIHRyeSB7IGxvY2FsU3RvcmFnZS5zZXRJdGVtKEVYUEFOREVEX0JPVFRPTV9LRVksIFN0cmluZyhleHBhbmRlZEJvdHRvbSkpOyB9IGNhdGNoIHt9CiAgfSwgW2V4cGFuZGVkQm90dG9tXSk7CgogIC8vIOWxleW8gOaAge+8muaLluaKiuaJi+WeguebtOaLluWKqO+8m+eCueWHu+WImeaUtui1twogIGNvbnN0IG9uRXhwYW5kZWRIYW5kbGVEb3duID0gdXNlQ2FsbGJhY2soKGU6IFJlYWN0LlBvaW50ZXJFdmVudDxIVE1MRGl2RWxlbWVudD4pID0+IHsKICAgIGNvbnN0IGVsID0gZXhwYW5kZWRSZWYuY3VycmVudDsKICAgIGlmICghZWwpIHJldHVybjsKICAgIGNvbnN0IHBhcmVudCA9IGVsLnBhcmVudEVsZW1lbnQgYXMgSFRNTEVsZW1lbnQgfCBudWxsOwogICAgaWYgKCFwYXJlbnQpIHJldHVybjsKICAgIGNvbnN0IHBhcmVudFJlY3QgPSBwYXJlbnQuZ2V0Qm91bmRpbmdDbGllbnRSZWN0KCk7CiAgICBjb25zdCBzZWxmUmVjdCA9IGVsLmdldEJvdW5kaW5nQ2xpZW50UmVjdCgpOwogICAgY29uc3QgY3VycmVudEJvdHRvbSA9IHBhcmVudFJlY3QuYm90dG9tIC0gc2VsZlJlY3QuYm90dG9tOwogICAgY29uc3QgeyBpbnNldFRvcCwgaW5zZXRCb3R0b20gfSA9IGNvbXB1dGVJbnNldHMocGFyZW50KTsKICAgIGV4cGFuZGVkRHJhZ1N0YXRlLmN1cnJlbnQgPSB7CiAgICAgIHN0YXJ0WTogZS5jbGllbnRZLAogICAgICBzdGFydEJvdHRvbTogY3VycmVudEJvdHRvbSwKICAgICAgcGFyZW50SDogcGFyZW50UmVjdC5oZWlnaHQsCiAgICAgIHNlbGZIOiBzZWxmUmVjdC5oZWlnaHQsCiAgICAgIGluc2V0VG9wLAogICAgICBpbnNldEJvdHRvbSwKICAgICAgbW92ZWQ6IGZhbHNlLAogICAgICBwb2ludGVySWQ6IGUucG9pbnRlcklkLAogICAgfTsKICAgIHRyeSB7IChlLmN1cnJlbnRUYXJnZXQgYXMgYW55KS5zZXRQb2ludGVyQ2FwdHVyZT8uKGUucG9pbnRlcklkKTsgfSBjYXRjaCB7fQogIH0sIFtdKTsKCiAgY29uc3Qgb25FeHBhbmRlZEhhbmRsZU1vdmUgPSB1c2VDYWxsYmFjaygoZTogUmVhY3QuUG9pbnRlckV2ZW50PEhUTUxEaXZFbGVtZW50PikgPT4gewogICAgY29uc3QgZHMgPSBleHBhbmRlZERyYWdTdGF0ZS5jdXJyZW50OwogICAgaWYgKCFkcykgcmV0dXJuOwogICAgY29uc3QgZHkgPSBlLmNsaWVudFkgLSBkcy5zdGFydFk7CiAgICBpZiAoIWRzLm1vdmVkICYmIE1hdGguYWJzKGR5KSA+IERSQUdfVEhSRVNIT0xEKSBkcy5tb3ZlZCA9IHRydWU7CiAgICBpZiAoIWRzLm1vdmVkKSByZXR1cm47CiAgICBjb25zdCBuZXh0Qm90dG9tID0gY2xhbXBFeHBhbmRlZEJvdHRvbShkcy5zdGFydEJvdHRvbSAtIGR5LCB7CiAgICAgIHBhcmVudEg6IGRzLnBhcmVudEgsCiAgICAgIHNlbGZIOiBkcy5zZWxmSCwKICAgICAgaW5zZXRUb3A6IGRzLmluc2V0VG9wLAogICAgICBpbnNldEJvdHRvbTogZHMuaW5zZXRCb3R0b20sCiAgICB9KTsKICAgIHNldEV4cGFuZGVkQm90dG9tKG5leHRCb3R0b20pOwogIH0sIFtdKTsKCiAgY29uc3Qgb25FeHBhbmRlZEhhbmRsZVVwID0gdXNlQ2FsbGJhY2soKGU6IFJlYWN0LlBvaW50ZXJFdmVudDxIVE1MRGl2RWxlbWVudD4pID0+IHsKICAgIGNvbnN0IGRzID0gZXhwYW5kZWREcmFnU3RhdGUuY3VycmVudDsKICAgIGV4cGFuZGVkRHJhZ1N0YXRlLmN1cnJlbnQgPSBudWxsOwogICAgdHJ5IHsgKGUuY3VycmVudFRhcmdldCBhcyBhbnkpLnJlbGVhc2VQb2ludGVyQ2FwdHVyZT8uKGUucG9pbnRlcklkKTsgfSBjYXRjaCB7fQogICAgaWYgKGRzICYmICFkcy5tb3ZlZCkgewogICAgICAvLyDlvZPkvZwi5pS26LW35Yiw5bCP55CDIgogICAgICBzZXRFeHBhbmRlZChmYWxzZSk7CiAgICB9CiAgfSwgW10pOwoKICBjb25zdCBoaWRlID0gdXNlQ2FsbGJhY2soKCkgPT4gewogICAgc2V0SGlkZGVuKHRydWUpOwogICAgc2V0RXhwYW5kZWQoZmFsc2UpOwogICAgdHJ5IHsgc2Vzc2lvblN0b3JhZ2Uuc2V0SXRlbShISURERU5fS0VZLCAnMScpOyB9IGNhdGNoIHt9CiAgfSwgW10pOwoKICBjb25zdCBvblBvaW50ZXJEb3duID0gdXNlQ2FsbGJhY2soKGU6IFJlYWN0LlBvaW50ZXJFdmVudDxIVE1MQnV0dG9uRWxlbWVudD4pID0+IHsKICAgIGNvbnN0IGVsID0gd3JhcFJlZi5jdXJyZW50OwogICAgaWYgKCFlbCkgcmV0dXJuOwogICAgY29uc3QgcGFyZW50ID0gZWwucGFyZW50RWxlbWVudCBhcyBIVE1MRWxlbWVudCB8IG51bGw7CiAgICBpZiAoIXBhcmVudCkgcmV0dXJuOwogICAgY29uc3QgcGFyZW50UmVjdCA9IHBhcmVudC5nZXRCb3VuZGluZ0NsaWVudFJlY3QoKTsKICAgIGNvbnN0IGJ1YmJsZVJlY3QgPSBlbC5nZXRCb3VuZGluZ0NsaWVudFJlY3QoKTsKICAgIGNvbnN0IHsgaW5zZXRUb3AsIGluc2V0Qm90dG9tIH0gPSBjb21wdXRlSW5zZXRzKHBhcmVudCk7CgogICAgZHJhZ1N0YXRlLmN1cnJlbnQgPSB7CiAgICAgIHN0YXJ0WDogZS5jbGllbnRYLAogICAgICBzdGFydFk6IGUuY2xpZW50WSwKICAgICAgb2ZmWDogZS5jbGllbnRYIC0gYnViYmxlUmVjdC5sZWZ0LAogICAgICBvZmZZOiBlLmNsaWVudFkgLSBidWJibGVSZWN0LnRvcCwKICAgICAgcGFyZW50VzogcGFyZW50UmVjdC53aWR0aCwKICAgICAgcGFyZW50SDogcGFyZW50UmVjdC5oZWlnaHQsCiAgICAgIGluc2V0VG9wLAogICAgICBpbnNldEJvdHRvbSwKICAgICAgbW92ZWQ6IGZhbHNlLAogICAgICBwb2ludGVySWQ6IGUucG9pbnRlcklkLAogICAgfTsKCiAgICAvLyDplb/mjInpmpDol48KICAgIGlmIChsb25nUHJlc3NUaW1lci5jdXJyZW50KSB3aW5kb3cuY2xlYXJUaW1lb3V0KGxvbmdQcmVzc1RpbWVyLmN1cnJlbnQpOwogICAgbG9uZ1ByZXNzVGltZXIuY3VycmVudCA9IHdpbmRvdy5zZXRUaW1lb3V0KCgpID0+IHsKICAgICAgaWYgKGRyYWdTdGF0ZS5jdXJyZW50ICYmICFkcmFnU3RhdGUuY3VycmVudC5tb3ZlZCkgewogICAgICAgIGhpZGUoKTsKICAgICAgICBkcmFnU3RhdGUuY3VycmVudCA9IG51bGw7CiAgICAgIH0KICAgIH0sIDYwMCk7CgogICAgdHJ5IHsgKGUuY3VycmVudFRhcmdldCBhcyBhbnkpLnNldFBvaW50ZXJDYXB0dXJlPy4oZS5wb2ludGVySWQpOyB9IGNhdGNoIHt9CiAgfSwgW2hpZGVdKTsKCiAgY29uc3Qgb25Qb2ludGVyTW92ZSA9IHVzZUNhbGxiYWNrKChlOiBSZWFjdC5Qb2ludGVyRXZlbnQ8SFRNTEJ1dHRvbkVsZW1lbnQ+KSA9PiB7CiAgICBjb25zdCBkcyA9IGRyYWdTdGF0ZS5jdXJyZW50OwogICAgY29uc3QgZWwgPSB3cmFwUmVmLmN1cnJlbnQ7CiAgICBpZiAoIWRzIHx8ICFlbCkgcmV0dXJuOwogICAgY29uc3QgZHggPSBlLmNsaWVudFggLSBkcy5zdGFydFg7CiAgICBjb25zdCBkeSA9IGUuY2xpZW50WSAtIGRzLnN0YXJ0WTsKICAgIGlmICghZHMubW92ZWQgJiYgTWF0aC5oeXBvdChkeCwgZHkpID4gRFJBR19USFJFU0hPTEQpIHsKICAgICAgZHMubW92ZWQgPSB0cnVlOwogICAgICBpZiAobG9uZ1ByZXNzVGltZXIuY3VycmVudCkgewogICAgICAgIHdpbmRvdy5jbGVhclRpbWVvdXQobG9uZ1ByZXNzVGltZXIuY3VycmVudCk7CiAgICAgICAgbG9uZ1ByZXNzVGltZXIuY3VycmVudCA9IG51bGw7CiAgICAgIH0KICAgIH0KICAgIGlmICghZHMubW92ZWQpIHJldHVybjsKCiAgICBjb25zdCBwYXJlbnQgPSBlbC5wYXJlbnRFbGVtZW50IGFzIEhUTUxFbGVtZW50IHwgbnVsbDsKICAgIGlmICghcGFyZW50KSByZXR1cm47CiAgICBjb25zdCBwYXJlbnRSZWN0ID0gcGFyZW50LmdldEJvdW5kaW5nQ2xpZW50UmVjdCgpOwogICAgY29uc3QgbmV4dCA9IGNsYW1wQnViYmxlUG9zKAogICAgICBlLmNsaWVudFggLSBwYXJlbnRSZWN0LmxlZnQgLSBkcy5vZmZYLAogICAgICBlLmNsaWVudFkgLSBwYXJlbnRSZWN0LnRvcCAtIGRzLm9mZlksCiAgICAgIHsKICAgICAgICBwYXJlbnRXOiBkcy5wYXJlbnRXLAogICAgICAgIHBhcmVudEg6IGRzLnBhcmVudEgsCiAgICAgICAgaW5zZXRUb3A6IGRzLmluc2V0VG9wLAogICAgICAgIGluc2V0Qm90dG9tOiBkcy5pbnNldEJvdHRvbSwKICAgICAgfSwKICAgICk7CiAgICBzZXRQb3MobmV4dCk7CiAgfSwgW10pOwoKICBjb25zdCBlbmREcmFnID0gdXNlQ2FsbGJhY2soKGU6IFJlYWN0LlBvaW50ZXJFdmVudDxIVE1MQnV0dG9uRWxlbWVudD4pID0+IHsKICAgIGNvbnN0IGRzID0gZHJhZ1N0YXRlLmN1cnJlbnQ7CiAgICBpZiAobG9uZ1ByZXNzVGltZXIuY3VycmVudCkgewogICAgICB3aW5kb3cuY2xlYXJUaW1lb3V0KGxvbmdQcmVzc1RpbWVyLmN1cnJlbnQpOwogICAgICBsb25nUHJlc3NUaW1lci5jdXJyZW50ID0gbnVsbDsKICAgIH0KICAgIGlmIChkcyAmJiAhZHMubW92ZWQpIHsKICAgICAgLy8g566X5L2c54K55Ye7IOKGkiDlsZXlvIAKICAgICAgc2V0RXhwYW5kZWQodHJ1ZSk7CiAgICB9CiAgICBkcmFnU3RhdGUuY3VycmVudCA9IG51bGw7CiAgICB0cnkgeyAoZS5jdXJyZW50VGFyZ2V0IGFzIGFueSkucmVsZWFzZVBvaW50ZXJDYXB0dXJlPy4oZS5wb2ludGVySWQpOyB9IGNhdGNoIHt9CiAgfSwgW10pOwoKICBpZiAoIWN1cnJlbnQpIHJldHVybiBudWxsOwogIC8vIOmHjeaWsOi/m+WFpemhueebruaXtumfs+S5kOaYr+aaguWBnOeahO+8iOS7juacquecn+ato+aSreaUvui/h+acrOasoeS8muivne+8ieKGkiDkuI3mmL7npLrmgqzmta7nkIMKICBpZiAoIWV2ZXJQbGF5ZWQgJiYgIXBsYXlpbmcpIHJldHVybiBudWxsOwogIGlmIChhY3RpdmVBcHAgPT09IEFwcElELk11c2ljKSByZXR1cm4gbnVsbDsKICBpZiAoYWN0aXZlQXBwID09PSBBcHBJRC5MYXVuY2hlcikgcmV0dXJuIG51bGw7IC8vIExhdW5jaGVyIOeahCBkb2NrIOWkn+eUqOS6hgogIGlmIChhY3RpdmVBcHAgPT09IEFwcElELkNhbGwpIHJldHVybiBudWxsOyAgICAgLy8g6YCa6K+d5Lit5LiN5omT5omwCiAgaWYgKGhpZGRlbikgcmV0dXJuIG51bGw7CgogIGNvbnN0IHBjdCA9IGR1cmF0aW9uID4gMCA/IChwcm9ncmVzcyAvIGR1cmF0aW9uKSAqIDEwMCA6IDA7CgogIC8vIOaKmOWPoOaAge+8muWwj+WchueQg++8iOWPr+aLluWKqOOAgemVv+aMiemakOiXj+OAgeWNleWHu+WxleW8gO+8iQogIGlmICghZXhwYW5kZWQpIHsKICAgIGNvbnN0IHBvc2l0aW9uYWw6IFJlYWN0LkNTU1Byb3BlcnRpZXMgPSBwb3MKICAgICAgPyB7IGxlZnQ6IHBvcy54LCB0b3A6IHBvcy55IH0KICAgICAgOiB7IHJpZ2h0OiAxMiwgYm90dG9tOiAxMiB9OwogICAgcmV0dXJuICgKICAgICAgPGRpdgogICAgICAgIHJlZj17d3JhcFJlZn0KICAgICAgICBjbGFzc05hbWU9ImFic29sdXRlIHotWzU1XSBwb2ludGVyLWV2ZW50cy1ub25lIgogICAgICAgIHN0eWxlPXtwb3NpdGlvbmFsfQogICAgICA+CiAgICAgICAgPGJ1dHRvbgogICAgICAgICAgb25Qb2ludGVyRG93bj17b25Qb2ludGVyRG93bn0KICAgICAgICAgIG9uUG9pbnRlck1vdmU9e29uUG9pbnRlck1vdmV9CiAgICAgICAgICBvblBvaW50ZXJVcD17ZW5kRHJhZ30KICAgICAgICAgIG9uUG9pbnRlckNhbmNlbD17ZW5kRHJhZ30KICAgICAgICAgIG9uQ29udGV4dE1lbnU9eyhlKSA9PiBlLnByZXZlbnREZWZhdWx0KCl9CiAgICAgICAgICBjbGFzc05hbWU9InBvaW50ZXItZXZlbnRzLWF1dG8gcmVsYXRpdmUgdy0xMCBoLTEwIHJvdW5kZWQtZnVsbCBvdmVyZmxvdy1oaWRkZW4gYWN0aXZlOnNjYWxlLTk1IHRyYW5zaXRpb24tdHJhbnNmb3JtIHRvdWNoLW5vbmUgc2VsZWN0LW5vbmUiCiAgICAgICAgICBzdHlsZT17ewogICAgICAgICAgICBib3hTaGFkb3c6ICcwIDZweCAxOHB4IHJnYmEoMCwwLDAsMC4zNSknLAogICAgICAgICAgICBib3JkZXI6ICcxcHggc29saWQgcmdiYSgyNTUsMjU1LDI1NSwwLjI1KScsCiAgICAgICAgICB9fQogICAgICAgICAgYXJpYS1sYWJlbD0i6Z+z5LmQ5pKt5pS+5Zmo77yI54K55Ye75bGV5byA77yM5ouW5Yqo56e75L2N77yM6ZW/5oyJ6ZqQ6JeP77yJIgogICAgICAgICAgdGl0bGU9IueCueWHu+WxleW8gCDCtyDmi5bliqjnp7vkvY0gwrcg6ZW/5oyJ6ZqQ6JePIgogICAgICAgID4KICAgICAgICAgIDxpbWcKICAgICAgICAgICAgc3JjPXtjdXJyZW50LmFsYnVtUGljfQogICAgICAgICAgICBhbHQ9IiIKICAgICAgICAgICAgZHJhZ2dhYmxlPXtmYWxzZX0KICAgICAgICAgICAgY2xhc3NOYW1lPSJ3LWZ1bGwgaC1mdWxsIG9iamVjdC1jb3ZlciBwb2ludGVyLWV2ZW50cy1ub25lIgogICAgICAgICAgLz4KICAgICAgICAgIHsvKiDmkq3mlL4v5pqC5YGc5bCP5oyH56S6ICovfQogICAgICAgICAgPGRpdgogICAgICAgICAgICBjbGFzc05hbWU9ImFic29sdXRlIGluc2V0LTAgZmxleCBpdGVtcy1jZW50ZXIganVzdGlmeS1jZW50ZXIgcG9pbnRlci1ldmVudHMtbm9uZSIKICAgICAgICAgICAgc3R5bGU9e3sgYmFja2dyb3VuZDogJ3JnYmEoMCwwLDAsMC4yNSknIH19CiAgICAgICAgICA+CiAgICAgICAgICAgIHtwbGF5aW5nCiAgICAgICAgICAgICAgPyA8UGF1c2Ugc2l6ZT17MTR9IHdlaWdodD0iZmlsbCIgY29sb3I9IiNmZmYiIC8+CiAgICAgICAgICAgICAgOiA8UGxheSBzaXplPXsxNH0gd2VpZ2h0PSJmaWxsIiBjb2xvcj0iI2ZmZiIgLz59CiAgICAgICAgICA8L2Rpdj4KICAgICAgICAgIHsvKiDov5vluqbnu4bmnaEgKi99CiAgICAgICAgICA8ZGl2IGNsYXNzTmFtZT0iYWJzb2x1dGUgbGVmdC0wIGJvdHRvbS0wIHctZnVsbCBoLVsycHhdIGJnLXdoaXRlLzIwIHBvaW50ZXItZXZlbnRzLW5vbmUiPgogICAgICAgICAgICA8ZGl2CiAgICAgICAgICAgICAgY2xhc3NOYW1lPSJoLWZ1bGwgYmctZ3JhZGllbnQtdG8tciBmcm9tLXNreS00MDAgdG8taW5kaWdvLTQwMCB0cmFuc2l0aW9uLWFsbCBkdXJhdGlvbi0xNTAiCiAgICAgICAgICAgICAgc3R5bGU9e3sgd2lkdGg6IGAke3BjdH0lYCB9fQogICAgICAgICAgICAvPgogICAgICAgICAgPC9kaXY+CiAgICAgICAgPC9idXR0b24+CiAgICAgIDwvZGl2PgogICAgKTsKICB9CgogIC8vIOWxleW8gOaAge+8muWOn+adpeeahOWujOaVtCBNaW5pIOaSreaUvuWZqAogIC8vIOWIu+aEj+S4jee7meWkluWxgiB3cmFwcGVyIOe7kSBvbkNsaWNrIOKAlOKAlCDlnKjliKvnmoQgQXBwIOmHjOeCueWug+S4jeW6lOivpei3s+WIsCBNdXNpYyBBcHAKICAvLyDvvIjkvJrmiornlKjmiLfmraPlnKjlgZrnmoTkuovmg4XlvITkuKLvvInvvIzlj6rmnInph4zpnaLnmoTmjInpkq7nlJ/mlYjjgIIKICByZXR1cm4gKAogICAgPGRpdgogICAgICByZWY9e2V4cGFuZGVkUmVmfQogICAgICBjbGFzc05hbWU9ImFic29sdXRlIGxlZnQtMyByaWdodC0zIHotWzU1XSBwb2ludGVyLWV2ZW50cy1ub25lIgogICAgICBzdHlsZT17eyBib3R0b206IGV4cGFuZGVkQm90dG9tICE9IG51bGwgPyBleHBhbmRlZEJvdHRvbSA6IDEyIH19CiAgICA+CiAgICAgIDxkaXYKICAgICAgICBjbGFzc05hbWU9InBvaW50ZXItZXZlbnRzLWF1dG8gZmxleCBpdGVtcy1jZW50ZXIgZ2FwLTIuNSByb3VuZGVkLTJ4bCBwbC0xLjUgcHItMi41IHB5LTIgcmVsYXRpdmUgb3ZlcmZsb3ctaGlkZGVuIGFuaW1hdGUtZmFkZS1pbiIKICAgICAgICBzdHlsZT17ewogICAgICAgICAgYmFja2dyb3VuZDogJ3JnYmEoMjAsIDI0LCAzNSwgMC42NSknLAogICAgICAgICAgYmFja2Ryb3BGaWx0ZXI6ICdibHVyKDI0cHgpIHNhdHVyYXRlKDEuNiknLAogICAgICAgICAgV2Via2l0QmFja2Ryb3BGaWx0ZXI6ICdibHVyKDI0cHgpIHNhdHVyYXRlKDEuNiknLAogICAgICAgICAgYm9yZGVyOiAnMXB4IHNvbGlkIHJnYmEoMjU1LDI1NSwyNTUsMC4xNSknLAogICAgICAgICAgYm94U2hhZG93OiAnMCA4cHggMzJweCByZ2JhKDAsMCwwLDAuMzUpJywKICAgICAgICB9fQogICAgICA+CiAgICAgICAgey8qIOaLluWKqOaKiuaJiyDigJQg5Z6C55u05ouW5Yqo5pW05Liq5p2h77yb54K55Ye75YiZ5pS26LW3ICovfQogICAgICAgIDxkaXYKICAgICAgICAgIG9uUG9pbnRlckRvd249e29uRXhwYW5kZWRIYW5kbGVEb3dufQogICAgICAgICAgb25Qb2ludGVyTW92ZT17b25FeHBhbmRlZEhhbmRsZU1vdmV9CiAgICAgICAgICBvblBvaW50ZXJVcD17b25FeHBhbmRlZEhhbmRsZVVwfQogICAgICAgICAgb25Qb2ludGVyQ2FuY2VsPXtvbkV4cGFuZGVkSGFuZGxlVXB9CiAgICAgICAgICBjbGFzc05hbWU9InNocmluay0wIGZsZXggaXRlbXMtY2VudGVyIGp1c3RpZnktY2VudGVyIHB4LTEgY3Vyc29yLWdyYWIgYWN0aXZlOmN1cnNvci1ncmFiYmluZyB0b3VjaC1ub25lIHNlbGVjdC1ub25lIgogICAgICAgICAgc3R5bGU9e3sgYWxpZ25TZWxmOiAnc3RyZXRjaCcgfX0KICAgICAgICAgIGFyaWEtbGFiZWw9IuaLluWKqOiwg+aVtOS9jee9ru+8iOeCueWHu+aUtui1t++8iSIKICAgICAgICAgIHRpdGxlPSLkuIrkuIvmi5bliqggwrcg54K55Ye75pS26LW3IgogICAgICAgID4KICAgICAgICAgIDxkaXYgY2xhc3NOYW1lPSJ3LTEgaC03IHJvdW5kZWQtZnVsbCIgc3R5bGU9e3sgYmFja2dyb3VuZDogJ3JnYmEoMjU1LDI1NSwyNTUsMC4yNSknIH19IC8+CiAgICAgICAgPC9kaXY+CiAgICAgICAgey8qIOWwgemdoiAqL30KICAgICAgICA8aW1nCiAgICAgICAgICBzcmM9e2N1cnJlbnQuYWxidW1QaWN9CiAgICAgICAgICBhbHQ9IiIKICAgICAgICAgIGNsYXNzTmFtZT0idy05IGgtOSByb3VuZGVkLWxnIG9iamVjdC1jb3ZlciBzaHJpbmstMCIKICAgICAgICAgIHN0eWxlPXt7IGJvcmRlcjogJzFweCBzb2xpZCByZ2JhKDI1NSwyNTUsMjU1LDAuMiknIH19CiAgICAgICAgLz4KCiAgICAgICAgey8qIOaWh+WtlyAqL30KICAgICAgICA8ZGl2IGNsYXNzTmFtZT0iZmxleC0xIG1pbi13LTAgdGV4dC1sZWZ0Ij4KICAgICAgICAgIDxkaXYgY2xhc3NOYW1lPSJ0ZXh0LVsxMXB4XSBmb250LW1lZGl1bSB0cnVuY2F0ZSB0ZXh0LXdoaXRlIj57Y3VycmVudC5uYW1lfTwvZGl2PgogICAgICAgICAgPGRpdiBjbGFzc05hbWU9InRleHQtWzlweF0gdHJ1bmNhdGUgdGV4dC13aGl0ZS82MCI+e2N1cnJlbnQuYXJ0aXN0c308L2Rpdj4KICAgICAgICA8L2Rpdj4KCiAgICAgICAgey8qIOaOp+WItiAqL30KICAgICAgICA8ZGl2IGNsYXNzTmFtZT0iZmxleCBpdGVtcy1jZW50ZXIgZ2FwLTAuNSBzaHJpbmstMCI+CiAgICAgICAgICA8YnV0dG9uCiAgICAgICAgICAgIG9uQ2xpY2s9eyhlKSA9PiB7IGUuc3RvcFByb3BhZ2F0aW9uKCk7IHByZXZTb25nKCk7IH19CiAgICAgICAgICAgIGNsYXNzTmFtZT0icC0xLjUgcm91bmRlZC1mdWxsIHRleHQtd2hpdGUvODAgYWN0aXZlOnNjYWxlLTk1IHRyYW5zaXRpb24tdHJhbnNmb3JtIgogICAgICAgICAgPgogICAgICAgICAgICA8U2tpcEJhY2sgc2l6ZT17MTR9IHdlaWdodD0iZmlsbCIgLz4KICAgICAgICAgIDwvYnV0dG9uPgogICAgICAgICAgPGJ1dHRvbgogICAgICAgICAgICBvbkNsaWNrPXsoZSkgPT4geyBlLnN0b3BQcm9wYWdhdGlvbigpOyB0b2dnbGVQbGF5KCk7IH19CiAgICAgICAgICAgIGNsYXNzTmFtZT0icC0xLjUgcm91bmRlZC1mdWxsIHRleHQtd2hpdGUgYWN0aXZlOnNjYWxlLTk1IHRyYW5zaXRpb24tdHJhbnNmb3JtIgogICAgICAgICAgICBzdHlsZT17eyBiYWNrZ3JvdW5kOiAncmdiYSgyNTUsMjU1LDI1NSwwLjE1KScgfX0KICAgICAgICAgID4KICAgICAgICAgICAge3BsYXlpbmcgPyA8UGF1c2Ugc2l6ZT17MTR9IHdlaWdodD0iZmlsbCIgLz4gOiA8UGxheSBzaXplPXsxNH0gd2VpZ2h0PSJmaWxsIiAvPn0KICAgICAgICAgIDwvYnV0dG9uPgogICAgICAgICAgPGJ1dHRvbgogICAgICAgICAgICBvbkNsaWNrPXsoZSkgPT4geyBlLnN0b3BQcm9wYWdhdGlvbigpOyBuZXh0U29uZygpOyB9fQogICAgICAgICAgICBjbGFzc05hbWU9InAtMS41IHJvdW5kZWQtZnVsbCB0ZXh0LXdoaXRlLzgwIGFjdGl2ZTpzY2FsZS05NSB0cmFuc2l0aW9uLXRyYW5zZm9ybSIKICAgICAgICAgID4KICAgICAgICAgICAgPFNraXBGb3J3YXJkIHNpemU9ezE0fSB3ZWlnaHQ9ImZpbGwiIC8+CiAgICAgICAgICA8L2J1dHRvbj4KICAgICAgICAgIHsvKiDmipjlj6DmjInpkq4gKi99CiAgICAgICAgICA8YnV0dG9uCiAgICAgICAgICAgIG9uQ2xpY2s9eyhlKSA9PiB7IGUuc3RvcFByb3BhZ2F0aW9uKCk7IHNldEV4cGFuZGVkKGZhbHNlKTsgfX0KICAgICAgICAgICAgY2xhc3NOYW1lPSJwLTEuNSByb3VuZGVkLWZ1bGwgdGV4dC13aGl0ZS83MCBhY3RpdmU6c2NhbGUtOTUgdHJhbnNpdGlvbi10cmFuc2Zvcm0gbWwtMC41IgogICAgICAgICAgICBhcmlhLWxhYmVsPSLmlLbotbfmkq3mlL7lmagiCiAgICAgICAgICAgIHRpdGxlPSLmlLbotbfmiJDlsI/nkIMiCiAgICAgICAgICA+CiAgICAgICAgICAgIDxDYXJldERvd24gc2l6ZT17MTR9IHdlaWdodD0iYm9sZCIgLz4KICAgICAgICAgIDwvYnV0dG9uPgogICAgICAgICAgey8qIOmakOiXj+aMiemSriAqL30KICAgICAgICAgIDxidXR0b24KICAgICAgICAgICAgb25DbGljaz17KGUpID0+IHsgZS5zdG9wUHJvcGFnYXRpb24oKTsgaGlkZSgpOyB9fQogICAgICAgICAgICBjbGFzc05hbWU9InAtMS41IHJvdW5kZWQtZnVsbCB0ZXh0LXdoaXRlLzcwIGFjdGl2ZTpzY2FsZS05NSB0cmFuc2l0aW9uLXRyYW5zZm9ybSIKICAgICAgICAgICAgYXJpYS1sYWJlbD0i6ZqQ6JeP5pKt5pS+5Zmo77yI5YiH5Yiw5LiL5LiA6aaW5pe25Lya5YaN5Ye6546w77yJIgogICAgICAgICAgICB0aXRsZT0i6ZqQ6JeP77yI5LiL5LiA6aaW5Lya5YaN5Ye6546w77yJIgogICAgICAgICAgPgogICAgICAgICAgICA8WCBzaXplPXsxNH0gd2VpZ2h0PSJib2xkIiAvPgogICAgICAgICAgPC9idXR0b24+CiAgICAgICAgPC9kaXY+CgogICAgICAgIHsvKiDlupXpg6jnu4bov5vluqbmnaEgKi99CiAgICAgICAgPGRpdiBjbGFzc05hbWU9ImFic29sdXRlIGxlZnQtMCBib3R0b20tMCBoLVsycHhdIGJnLWdyYWRpZW50LXRvLXIgZnJvbS1za3ktNDAwIHRvLWluZGlnby00MDAgdHJhbnNpdGlvbi1hbGwgZHVyYXRpb24tMTUwIgogICAgICAgICAgc3R5bGU9e3sgd2lkdGg6IGAke3BjdH0lYCB9fSAvPgogICAgICA8L2Rpdj4KICAgIDwvZGl2PgogICk7Cn07CgpleHBvcnQgZGVmYXVsdCBHbG9iYWxNaW5pUGxheWVyOwo=
+/**
+ * 全局悬浮 Mini 播放器
+ * 仅在 非 Music / 非 Launcher 应用里 显示，表示「后台正在放歌」。
+ * Launcher 页让位给已有的 Dock，Music 页让位给页面内自带的 MiniPlayer。
+ *
+ * 默认折叠：只显示一个带封面的小圆球，点开才展开完整控制条；
+ * 小球可拖动、可长按隐藏；切到新歌时会自动再出现。
+ */
+import React, { useState, useRef, useEffect, useCallback } from 'react';
+import { Play, Pause, SkipForward, SkipBack, CaretDown, X } from '@phosphor-icons/react';
+import { useOS } from '../../context/OSContext';
+import { useMusic } from '../../context/MusicContext';
+import { AppID } from '../../types';
+import { isIOSStandaloneWebApp, readSafeAreaInsets } from '../../utils/iosStandalone';
+import {
+  clampBubblePos,
+  clampExpandedBottom,
+  resolveInsets,
+  resolveSafeTopInset,
+} from '../../utils/floatingBallBounds';
+
+const STORAGE_KEY = 'globalMiniPlayer.bubblePos.v1';
+const HIDDEN_KEY = 'globalMiniPlayer.hidden.v1';
+const EXPANDED_BOTTOM_KEY = 'globalMiniPlayer.expandedBottom.v1';
+const DRAG_THRESHOLD = 4; // 像素：超过这个位移算拖动，不触发点击
+
+type Pos = { x: number; y: number } | null;
+
+const readPos = (): Pos => {
+  try {
+    const raw = localStorage.getItem(STORAGE_KEY);
+    if (!raw) return null;
+    const p = JSON.parse(raw);
+    if (typeof p?.x === 'number' && typeof p?.y === 'number') return p;
+  } catch {}
+  return null;
+};
+
+const readExpandedBottom = (): number | null => {
+  try {
+    const raw = localStorage.getItem(EXPANDED_BOTTOM_KEY);
+    if (!raw) return null;
+    const n = parseFloat(raw);
+    return Number.isFinite(n) ? n : null;
+  } catch { return null; }
+};
+
+const parsePx = (value: string): number => {
+  const parsed = parseFloat(value);
+  return Number.isFinite(parsed) ? parsed : 0;
+};
+
+const readSafeTopInset = (): number => {
+  if (typeof window === 'undefined' || typeof document === 'undefined') return 0;
+
+  // 优先复用 iosStandalone.ts 写到 :root 的值：iOS standalone 冷启动时 raw env/probe
+  // 可能先给 0，但 --standalone-safe-area-top 已经有 44px 兜底。
+  const standaloneSafeTop = parsePx(
+    window.getComputedStyle(document.documentElement).getPropertyValue('--standalone-safe-area-top'),
+  );
+  if (standaloneSafeTop > 0) return standaloneSafeTop;
+
+  return resolveSafeTopInset({
+    standaloneSafeTop,
+    probedSafeTop: readSafeAreaInsets().top || 0,
+    isIOSStandalone: isIOSStandaloneWebApp(),
+  });
+};
+
+// 把父容器（PhoneShell 外壳）的 padding 与安全区合成球要让出的高度。
+// 只在每次拖拽手势开始（pointerdown）时调一次并缓存进 dragState：
+// safe-area 读取可能触发样式计算 / 探针读取，放进高频 pointermove 会抖。
+const computeInsets = (parent: HTMLElement): { insetTop: number; insetBottom: number } => {
+  const cs = window.getComputedStyle(parent);
+  return resolveInsets({
+    padTop: parseFloat(cs.paddingTop) || 0,
+    padBottom: parseFloat(cs.paddingBottom) || 0,
+    safeTop: readSafeTopInset(),
+  });
+};
+
+const GlobalMiniPlayer: React.FC = () => {
+  const { activeApp } = useOS();
+  const { current, playing, togglePlay, nextSong, prevSong, progress, duration } = useMusic();
+
+  const [expanded, setExpanded] = useState(false); // 默认折叠
+  const [pos, setPos] = useState<Pos>(() => readPos()); // null = 默认右下
+  const [expandedBottom, setExpandedBottom] = useState<number | null>(() => readExpandedBottom()); // 展开态距底部像素
+  const [hidden, setHidden] = useState<boolean>(() => {
+    try { return sessionStorage.getItem(HIDDEN_KEY) === '1'; } catch { return false; }
+  });
+
+  const expandedRef = useRef<HTMLDivElement | null>(null);
+  const expandedDragState = useRef<{
+    startY: number;
+    startBottom: number;
+    parentH: number;
+    selfH: number;
+    insetTop: number;
+    insetBottom: number;
+    moved: boolean;
+    pointerId: number;
+  } | null>(null);
+
+  const wrapRef = useRef<HTMLDivElement | null>(null);
+  const dragState = useRef<{
+    startX: number; startY: number;
+    offX: number; offY: number;
+    parentW: number; parentH: number;
+    insetTop: number; insetBottom: number;
+    moved: boolean;
+    pointerId: number | null;
+  } | null>(null);
+  const longPressTimer = useRef<number | null>(null);
+
+  // 只有用户真正"重新按下播放"（playing 从 false → true）才自动取消隐藏。
+  // 仅靠 current.id 判断会让组件每次挂载（比如打开聊天 App）就把上一首歌"复活"显示出来——
+  // 即使用户上次已经手动关掉了球、并且当下并没有在听歌。
+  // ref 初始化为当前 playing 值：避免挂载瞬间被误判为 false→true 跳变。
+  const prevPlayingRef = useRef(playing);
+  // 本次会话是否真正播放过。冷启动/重新进入项目时，MusicContext 会从 localStorage
+  // 恢复 queue+idx（于是 current 非空），但新建的 <audio> 尚未播放（playing=false）。
+  // 这种"恢复出来但没在放"的暂停态不应该弹出悬浮球——只有真正播放过之后，
+  // 会话内的手动暂停才保留显示。
+  const [everPlayed, setEverPlayed] = useState(playing);
+  useEffect(() => {
+    if (playing) {
+      setEverPlayed(true);
+      if (!prevPlayingRef.current) {
+        setHidden(false);
+        try { sessionStorage.removeItem(HIDDEN_KEY); } catch {}
+      }
+    }
+    prevPlayingRef.current = playing;
+  }, [playing]);
+
+  // 持久化位置
+  useEffect(() => {
+    if (!pos) return;
+    try { localStorage.setItem(STORAGE_KEY, JSON.stringify(pos)); } catch {}
+  }, [pos]);
+
+  useEffect(() => {
+    if (expandedBottom == null) return;
+    try { localStorage.setItem(EXPANDED_BOTTOM_KEY, String(expandedBottom)); } catch {}
+  }, [expandedBottom]);
+
+  // 展开态：拖把手垂直拖动；点击则收起
+  const onExpandedHandleDown = useCallback((e: React.PointerEvent<HTMLDivElement>) => {
+    const el = expandedRef.current;
+    if (!el) return;
+    const parent = el.parentElement as HTMLElement | null;
+    if (!parent) return;
+    const parentRect = parent.getBoundingClientRect();
+    const selfRect = el.getBoundingClientRect();
+    const currentBottom = parentRect.bottom - selfRect.bottom;
+    const { insetTop, insetBottom } = computeInsets(parent);
+    expandedDragState.current = {
+      startY: e.clientY,
+      startBottom: currentBottom,
+      parentH: parentRect.height,
+      selfH: selfRect.height,
+      insetTop,
+      insetBottom,
+      moved: false,
+      pointerId: e.pointerId,
+    };
+    try { (e.currentTarget as any).setPointerCapture?.(e.pointerId); } catch {}
+  }, []);
+
+  const onExpandedHandleMove = useCallback((e: React.PointerEvent<HTMLDivElement>) => {
+    const ds = expandedDragState.current;
+    if (!ds) return;
+    const dy = e.clientY - ds.startY;
+    if (!ds.moved && Math.abs(dy) > DRAG_THRESHOLD) ds.moved = true;
+    if (!ds.moved) return;
+    const nextBottom = clampExpandedBottom(ds.startBottom - dy, {
+      parentH: ds.parentH,
+      selfH: ds.selfH,
+      insetTop: ds.insetTop,
+      insetBottom: ds.insetBottom,
+    });
+    setExpandedBottom(nextBottom);
+  }, []);
+
+  const onExpandedHandleUp = useCallback((e: React.PointerEvent<HTMLDivElement>) => {
+    const ds = expandedDragState.current;
+    expandedDragState.current = null;
+    try { (e.currentTarget as any).releasePointerCapture?.(e.pointerId); } catch {}
+    if (ds && !ds.moved) {
+      // 当作"收起到小球"
+      setExpanded(false);
+    }
+  }, []);
+
+  const hide = useCallback(() => {
+    setHidden(true);
+    setExpanded(false);
+    try { sessionStorage.setItem(HIDDEN_KEY, '1'); } catch {}
+  }, []);
+
+  const onPointerDown = useCallback((e: React.PointerEvent<HTMLButtonElement>) => {
+    const el = wrapRef.current;
+    if (!el) return;
+    const parent = el.parentElement as HTMLElement | null;
+    if (!parent) return;
+    const parentRect = parent.getBoundingClientRect();
+    const bubbleRect = el.getBoundingClientRect();
+    const { insetTop, insetBottom } = computeInsets(parent);
+
+    dragState.current = {
+      startX: e.clientX,
+      startY: e.clientY,
+      offX: e.clientX - bubbleRect.left,
+      offY: e.clientY - bubbleRect.top,
+      parentW: parentRect.width,
+      parentH: parentRect.height,
+      insetTop,
+      insetBottom,
+      moved: false,
+      pointerId: e.pointerId,
+    };
+
+    // 长按隐藏
+    if (longPressTimer.current) window.clearTimeout(longPressTimer.current);
+    longPressTimer.current = window.setTimeout(() => {
+      if (dragState.current && !dragState.current.moved) {
+        hide();
+        dragState.current = null;
+      }
+    }, 600);
+
+    try { (e.currentTarget as any).setPointerCapture?.(e.pointerId); } catch {}
+  }, [hide]);
+
+  const onPointerMove = useCallback((e: React.PointerEvent<HTMLButtonElement>) => {
+    const ds = dragState.current;
+    const el = wrapRef.current;
+    if (!ds || !el) return;
+    const dx = e.clientX - ds.startX;
+    const dy = e.clientY - ds.startY;
+    if (!ds.moved && Math.hypot(dx, dy) > DRAG_THRESHOLD) {
+      ds.moved = true;
+      if (longPressTimer.current) {
+        window.clearTimeout(longPressTimer.current);
+        longPressTimer.current = null;
+      }
+    }
+    if (!ds.moved) return;
+
+    const parent = el.parentElement as HTMLElement | null;
+    if (!parent) return;
+    const parentRect = parent.getBoundingClientRect();
+    const next = clampBubblePos(
+      e.clientX - parentRect.left - ds.offX,
+      e.clientY - parentRect.top - ds.offY,
+      {
+        parentW: ds.parentW,
+        parentH: ds.parentH,
+        insetTop: ds.insetTop,
+        insetBottom: ds.insetBottom,
+      },
+    );
+    setPos(next);
+  }, []);
+
+  const endDrag = useCallback((e: React.PointerEvent<HTMLButtonElement>) => {
+    const ds = dragState.current;
+    if (longPressTimer.current) {
+      window.clearTimeout(longPressTimer.current);
+      longPressTimer.current = null;
+    }
+    if (ds && !ds.moved) {
+      // 算作点击 → 展开
+      setExpanded(true);
+    }
+    dragState.current = null;
+    try { (e.currentTarget as any).releasePointerCapture?.(e.pointerId); } catch {}
+  }, []);
+
+  if (!current) return null;
+  // 重新进入项目时音乐是暂停的（从未真正播放过本次会话）→ 不显示悬浮球
+  if (!everPlayed && !playing) return null;
+  if (activeApp === AppID.Music) return null;
+  if (activeApp === AppID.Launcher) return null; // Launcher 的 dock 够用了
+  if (activeApp === AppID.Call) return null;     // 通话中不打扰
+  if (hidden) return null;
+
+  const pct = duration > 0 ? (progress / duration) * 100 : 0;
+
+  // 折叠态：小圆球（可拖动、长按隐藏、单击展开）
+  if (!expanded) {
+    const positional: React.CSSProperties = pos
+      ? { left: pos.x, top: pos.y }
+      : { right: 12, bottom: 12 };
+    return (
+      <div
+        ref={wrapRef}
+        className="absolute z-[55] pointer-events-none"
+        style={positional}
+      >
+        <button
+          onPointerDown={onPointerDown}
+          onPointerMove={onPointerMove}
+          onPointerUp={endDrag}
+          onPointerCancel={endDrag}
+          onContextMenu={(e) => e.preventDefault()}
+          className="pointer-events-auto relative w-10 h-10 rounded-full overflow-hidden active:scale-95 transition-transform touch-none select-none"
+          style={{
+            boxShadow: '0 6px 18px rgba(0,0,0,0.35)',
+            border: '1px solid rgba(255,255,255,0.25)',
+          }}
+          aria-label="音乐播放器（点击展开，拖动移位，长按隐藏）"
+          title="点击展开 · 拖动移位 · 长按隐藏"
+        >
+          <img
+            src={current.albumPic}
+            alt=""
+            draggable={false}
+            className="w-full h-full object-cover pointer-events-none"
+          />
+          {/* 播放/暂停小指示 */}
+          <div
+            className="absolute inset-0 flex items-center justify-center pointer-events-none"
+            style={{ background: 'rgba(0,0,0,0.25)' }}
+          >
+            {playing
+              ? <Pause size={14} weight="fill" color="#fff" />
+              : <Play size={14} weight="fill" color="#fff" />}
+          </div>
+          {/* 进度细条 */}
+          <div className="absolute left-0 bottom-0 w-full h-[2px] bg-white/20 pointer-events-none">
+            <div
+              className="h-full bg-gradient-to-r from-sky-400 to-indigo-400 transition-all duration-150"
+              style={{ width: `${pct}%` }}
+            />
+          </div>
+        </button>
+      </div>
+    );
+  }
+
+  // 展开态：原来的完整 Mini 播放器
+  // 刻意不给外层 wrapper 绑 onClick —— 在别的 App 里点它不应该跳到 Music App
+  // （会把用户正在做的事情弄丢），只有里面的按钮生效。
+  return (
+    <div
+      ref={expandedRef}
+      className="absolute left-3 right-3 z-[55] pointer-events-none"
+      style={{ bottom: expandedBottom != null ? expandedBottom : 12 }}
+    >
+      <div
+        className="pointer-events-auto flex items-center gap-2.5 rounded-2xl pl-1.5 pr-2.5 py-2 relative overflow-hidden animate-fade-in"
+        style={{
+          background: 'rgba(20, 24, 35, 0.65)',
+          backdropFilter: 'blur(24px) saturate(1.6)',
+          WebkitBackdropFilter: 'blur(24px) saturate(1.6)',
+          border: '1px solid rgba(255,255,255,0.15)',
+          boxShadow: '0 8px 32px rgba(0,0,0,0.35)',
+        }}
+      >
+        {/* 拖动把手 — 垂直拖动整个条；点击则收起 */}
+        <div
+          onPointerDown={onExpandedHandleDown}
+          onPointerMove={onExpandedHandleMove}
+          onPointerUp={onExpandedHandleUp}
+          onPointerCancel={onExpandedHandleUp}
+          className="shrink-0 flex items-center justify-center px-1 cursor-grab active:cursor-grabbing touch-none select-none"
+          style={{ alignSelf: 'stretch' }}
+          aria-label="拖动调整位置（点击收起）"
+          title="上下拖动 · 点击收起"
+        >
+          <div className="w-1 h-7 rounded-full" style={{ background: 'rgba(255,255,255,0.25)' }} />
+        </div>
+        {/* 封面 */}
+        <img
+          src={current.albumPic}
+          alt=""
+          className="w-9 h-9 rounded-lg object-cover shrink-0"
+          style={{ border: '1px solid rgba(255,255,255,0.2)' }}
+        />
+
+        {/* 文字 */}
+        <div className="flex-1 min-w-0 text-left">
+          <div className="text-[11px] font-medium truncate text-white">{current.name}</div>
+          <div className="text-[9px] truncate text-white/60">{current.artists}</div>
+        </div>
+
+        {/* 控制 */}
+        <div className="flex items-center gap-0.5 shrink-0">
+          <button
+            onClick={(e) => { e.stopPropagation(); prevSong(); }}
+            className="p-1.5 rounded-full text-white/80 active:scale-95 transition-transform"
+          >
+            <SkipBack size={14} weight="fill" />
+          </button>
+          <button
+            onClick={(e) => { e.stopPropagation(); togglePlay(); }}
+            className="p-1.5 rounded-full text-white active:scale-95 transition-transform"
+            style={{ background: 'rgba(255,255,255,0.15)' }}
+          >
+            {playing ? <Pause size={14} weight="fill" /> : <Play size={14} weight="fill" />}
+          </button>
+          <button
+            onClick={(e) => { e.stopPropagation(); nextSong(); }}
+            className="p-1.5 rounded-full text-white/80 active:scale-95 transition-transform"
+          >
+            <SkipForward size={14} weight="fill" />
+          </button>
+          {/* 折叠按钮 */}
+          <button
+            onClick={(e) => { e.stopPropagation(); setExpanded(false); }}
+            className="p-1.5 rounded-full text-white/70 active:scale-95 transition-transform ml-0.5"
+            aria-label="收起播放器"
+            title="收起成小球"
+          >
+            <CaretDown size={14} weight="bold" />
+          </button>
+          {/* 隐藏按钮 */}
+          <button
+            onClick={(e) => { e.stopPropagation(); hide(); }}
+            className="p-1.5 rounded-full text-white/70 active:scale-95 transition-transform"
+            aria-label="隐藏播放器（切到下一首时会再出现）"
+            title="隐藏（下一首会再出现）"
+          >
+            <X size={14} weight="bold" />
+          </button>
+        </div>
+
+        {/* 底部细进度条 */}
+        <div className="absolute left-0 bottom-0 h-[2px] bg-gradient-to-r from-sky-400 to-indigo-400 transition-all duration-150"
+          style={{ width: `${pct}%` }} />
+      </div>
+    </div>
+  );
+};
+
+export default GlobalMiniPlayer;

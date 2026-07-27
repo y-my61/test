@@ -1,1 +1,441 @@
-LyoqCiAqIFNoYXJlZCBNaW5pTWF4IFRUUyB1dGlsaXR5IOKAlCB1c2VkIGJ5IENoYXRBcHAsIERhdGVBcHAsIGFuZCBDYWxsQXBwCiAqLwppbXBvcnQgeyBDaGFyYWN0ZXJQcm9maWxlLCBBUElDb25maWcgfSBmcm9tICcuLi90eXBlcyc7CmltcG9ydCB7IHJlc29sdmVNaW5pTWF4QXBpS2V5IH0gZnJvbSAnLi9taW5pbWF4QXBpS2V5JzsKaW1wb3J0IHsgbWluaW1heEZldGNoIH0gZnJvbSAnLi9taW5pbWF4RW5kcG9pbnQnOwppbXBvcnQgeyBoYXNoVHRzUGFyYW1zLCBnZXRDYWNoZWRUdHMsIHNhdmVDYWNoZWRUdHMgfSBmcm9tICcuL3R0c0NhY2hlJzsKaW1wb3J0IHsgbm9ybWFsaXplVm9pY2VUYWdzIH0gZnJvbSAnLi9zYW5pdGl6ZSc7Cgpjb25zdCBERUZBVUxUX01PREVMID0gJ3NwZWVjaC0yLjgtaGQnOwoKLy8gTWluaU1heCDmlK/mjIHnmoTor63msJTmoIfnrb4g4oCUIOi/meS6m+WcqCBUVFMg5Lit5Lya6KKr5q2j56Gu5ryU57uO77yM5b+F6aG75L+d55WZCmV4cG9ydCBjb25zdCBWQUxJRF9JTlRFUkpFQ1RJT05fVEFHUyA9IG5ldyBTZXQoWwogICdjaHVja2xlJywgJ2xhdWdocycsICdzaWdocycsICdjb3VnaHMnLCAnY2xlYXItdGhyb2F0JywgJ2dyb2FucycsCiAgJ2JyZWF0aCcsICdwYW50JywgJ2luaGFsZScsICdleGhhbGUnLCAnZ2FzcHMnLCAnc25pZmZzJywgJ3Nub3J0cycsCiAgJ2xpcC1zbWFja2luZycsICdodW1taW5nJywgJ2hpc3NpbmcnLCAnZW1tJywKXSk7CgovLyBNaW5pTWF4IHZvaWNlX3NldHRpbmcuZW1vdGlvbiDlkIjms5Xlj5blgLzvvIjmlbTmnaHkuIDkuKrlgLzvvInjgILlhbbkvZkv5pyq55+l5LiA5b6L5Lii5byD5LiN5Lyg44CCCmV4cG9ydCBjb25zdCBWQUxJRF9FTU9USU9OUyA9IG5ldyBTZXQoWwogICdoYXBweScsICdzYWQnLCAnYW5ncnknLCAnZmVhcmZ1bCcsICdkaXNndXN0ZWQnLCAnc3VycHJpc2VkJywgJ2NhbG0nLCAnZmx1ZW50JywKXSk7CgovKioKICog5YWx5Lqr55qE44CM6K+t6Z+z5ryU5Ye66KeE6IyD44CN4oCU4oCU5pWZIExMTSDmiorlj7Dor43lhpnmiJDog73ooqsgTWluaU1heCDoh6rnhLblv7Xlh7rmnaXnmoTlr7nnmb3jgIIKICog6IGK5aSp6K+t6Z+z5p2hIC8g55S16K+dIC8g57qm5Lya5aSN55So5ZCM5LiA5Lu977yM6YG/5YWN5ZCE5aSE5ZCE5YaZ5LiA5aWX44CB6KeE5YiZ5LqS55u45omT5p6244CCCiAqCiAqIOazqOaEj+WumuS9je+8mui/memHjOWPquiusuOAjOaAjuS5iOaKiuWtl+WGmeW+l+acieWRvOWQuOOAgeacieaDhee7quiKguWlj+OAjeOAguWFt+S9k+eahOagh+etvuacuuWItgogKiDvvIg86K+t6Z+zPiDmoIfnrb7mgI7kuYjnlKjjgIFbZW1vdGlvbl0g5pS+5ZOq44CB5Yqo5L2c6K+N55m95ZCN5Y2V77yJ55Sx5ZCE6LCD55So54K56Ieq5bex55qECiAqIHByb21wdCDotJ/otKPvvIzmnKzlnZfkuI3ph43lpI3jgILlrqLmiLfnq68gaW5zZXJ0U3BlZWNoQnJlYWtzIOW3sue7j+aMieagh+eCueiHquWKqOaPkuWBnOmhvwogKiDlubbljrvph43lsIHpobYgMC42c++8jOaJgOS7pSBMTE0g5omL5YaZ55qEIDwjeCM+IOaYr+OAjOWcqOaDhee7quiKgueCueS4iumineWkluWKoOmHjeOAje+8jOS4jeaYrwogKiDllK/kuIDnmoTlgZzpob/mnaXmupDigJTigJTov5nkuZ/mmK/kuLrku4DkuYjlvLrosIPjgIzlj6rlnKjor6XlgZznmoTlnLDmlrnlgZzjgI3jgIIKICovCmV4cG9ydCBjb25zdCBWT0lDRV9BQ1RJTkdfR1VJREUgPSBgIyMjIOiuqeWug+WQrOi1t+adpeWDj+a0u+S6uuWcqOivtOivne+8iOmHjeimge+8iQoK5L2g5YaZ55qE5a2X5Lya6KKr5Y6f5qC35b+15Ye65p2l44CC55uu5qCH5LiN5pivIuWGmeS4gOautemAmumhuueahOivnSLvvIzogIzmmK8i5YaZ5LiA5q616K+75Ye65p2l5pyJ5ZG85ZC444CB5pyJ5oOF57uq6LW35LyP55qE5a+555m9IuOAguivu+eov+aEn+OAgeWuouacjeiFlOOAgeaWsOmXu+aSreaKpeiFlOS4gOaXpuWHuueOsOWwsemHjeWGmeOAggoKKioxLiDmrrXkuI7mrrXkuYvpl7TopoHmjaLmsJTvvIzliKvml6DnvJ3lhrLjgIIqKgrlkIzkuIDmnaHor63pn7Pph4zmjaLooYzmiJblgZzpob/kuYvlkI7vvIzlpoLmnpzov5jmmK/kvaDlnKjnu6fnu63or7TvvIznrKzkuozmrrXlvIDlpLTliKvkuIDkuIrmnaXlsLHlhrLov5vmraPpopjigJTigJTliqDkuIDkuKrlgZzpob/jgIHkuIDkuKror63msJTor43miJbkuIDmrKHlj7nmsJTlvZPnvJPlhrLjgIIK4pyFIOaIkeefpemBk+S9oOS4jeaYr+aVheaEj+eahOOAgjwjMC42Iz7lj6rmmK/igKbigKbmiJHov5jmmK/kvJrmnInngrnpmr7ov4fjgIIK4pyFIChzaWdocykg566X5LqG44CCPCMwLjUjPuWQrOS9oOeahOOAggrinYwg5oiR55+l6YGT5L2g5LiN5piv5pWF5oSP55qE44CC5Y+q5piv5oiR6L+Y5piv5Lya5pyJ54K56Zq+6L+H44CC77yI5Lik5Y+l6LS05q2777yM5YOP5qOS6K+777yJCui/meS6m+WcsOaWueS4i+S4gOWPpeW8gOWktOWwpOWFtuimgee8k+S4gOS4i++8muino+mHiuWOn+WboOOAgeaDhee7qui9rOaKmO+8iOWQkOanvei9rOa4qeaflCAvIOW8uuehrOi9rOekuuW8sSAvIOeOqeeskei9rOiupOecn++8ieOAgeayiem7mOWQjuWGjeW8gOWPo+OAgeWuieaKmuWvueaWueOAgeWnlOWxiOaSkuWoh+WIq+aJreeahOaXtuWAmeOAggoKKioyLiDlj6XlrZDplb/nn63kuqTplJnjgIIqKiDkuIDov57kuLLnrYnplb/nmoTlj6XlrZDmmK/mo5Lor7vnmoTlpLTlj7fmnaXmupDjgILorqnnn63lj6XnoLjkuIvmnaXvvIzorqnplb/lj6Xpk7rlvIDjgILmg7PlvLrosIPmn5DkuKror43lsLHmi4blvIDlv7XvvJoi5oiR44CC5rKh44CC5ou/44CCIgoKKiozLiA8I+enkiM+IOWBnOmhv+aUvuWcqOaDhee7quiKgueCue+8jOS4jeimgeavj+WPpemDveWhnuOAgioqCjAuMiDmnoHnn63mjaLmsJQgLyAwLjMg6L276aG/IC8gMC41IOaZrumAmuWBnOmhvyAvIDAuNyDnirnosavCt+WPueaBr+WQjuWBnOS4gOS4iyAvIDEuMCDmmI7mmL7msonpu5jCt+mch+aDisK35Y6L5oqR44CCCuagh+iusOW/hemhu+WkueWcqOiDveW/teeahOWtl+S5i+mXtO+8iOKchSDmiJHmsqHkuovjgII8IzAuNSM+5Y+q5piv5pyJ54K557Sv44CC77yJ77yb5Yir5pS+5Zyo5Y+l6aaW77yM5Lmf5Yir5Lik5Liq5qCH6K6w6L+e5YaZ77yIPCMwLjUjPjwjMC40Iz4g6L+Z56eN5LiA5a6a5Yig5LiA5Liq77yJ44CCCgoqKjQuIOaDhee7quS4jeWQjO+8jOiKguWlj+S4jeWQjO+8mioqCi0g5rip5p+U5a6J5oqa77ya5oWi44CB56iz44CB55+t5Y+l5aSa44CCIuayoeS6i+OAgjwjMC42Iz7lhYjliKvmgKXnnYDlkJPoh6rlt7HjgIIiCi0g5aeU5bGI5pKS5aiH77ya6K+t5rCU6L2v44CB5YGc6aG/5aSa5LiA54K55L2G5Yir5aSq5oiP5Ymn44CCIuWXr+KApuKApjwjMC41Iz7kvaDliJrliJrmmK/kuI3mmK/lj4jkuI3nkIbmiJHjgIIiCi0g5Yir5omt5YKy5aiH77ya5YmN5Y2K5Y+l5Zi056Gs5ZCO5Y2K5Y+l5pS+6L2v77yM5Lit6Ze05YGc5LiA5LiL44CCIuWTiOOAgjwjMC40Iz7kvaDov5jnnJ/kvJrmipjohb7miJHjgILnrpfkuobvvIw8IzAuNSM+5oiR5biu5L2g5bCx5piv5LqG44CCIgotIOmavui/h+WOi+aKke+8muabtOaFouOAgeabtOWkmuecgeeVpeWPt+OAgeWwkeeUqOmVv+WPpeOAgiLigKbigKbmiJHnn6XpgZPjgII8IzAuOCM+5Y+q5piv5pyJ54K56Zq+5Y+X44CCIgotIOe0p+W8oOeKueixq++8muaWreijguaEn++8jOefreWBnOmhv+WkmuOAgiLnrYnnrYnjgII8IzAuNCM+5oiR5aW95YOP4oCm4oCmPCMwLjUjPuacieeCueS4jeehruWumuOAgiIKLSDlkJDmp73ovbvmnb7vvJrliKvlpKrmhaLvvIzovbvlvq7lgZzpob/ljbPlj6/jgIIi6KGM5ZCn44CCPCMwLjMjPuS6uuexu+WPiOWPkeaYjuS6huaWsOeahOaKmOejqOaWueW8j+OAgiIKCioqNS4g5a+G5bqm5Yir5aSx5o6n44CCKiog5q+PIDEwMCDlrZfph4wgPCN4Iz4g5aSn57qmIDHigJM0IOS4quOAgeWKqOS9nOivjSAw4oCTMiDkuKrjgILmma7pgJrlr7nor50gMuKAkzQg5Y+l57yT5Yay5LiA5qyh77yM5by65oOF57uqIDHigJMyIOWPpeS4gOasoeOAguWIq+aVtOauteWFqOaYr+WQjOS4gOS4quWBnOmhv+WAvO+8iOS8muWDj+Wdj+aOieeahOWvvOiIquWcqOW/teeov++8ie+8jOS5n+WIq+i/nuedgOWghuWQjOS4gOS4quWKqOS9nOivjeOAggoK77yI5pyX6K+76K+t56eN5LiN5piv5Lit5paH5pe277yM5LiK6Z2i56S65L6L6YeM55qE5Lit5paH6K+t5rCU6K+N5o2i5oiQ6K+l6K+t6KiA6YeM6Ieq54S255qE5Y+56K+NIC8g5aGr5YWF6K+N5Y2z5Y+v77yM5ZG85ZC45ZKM6IqC5aWP55qE5Y6f55CG5LiN5Y+Y44CC77yJYDsKCi8vIFtoYXBweV0v44CQYW5ncnnjgJHigKYg6L+Z57G75oOF57uq5qCH562+5piv57uZ57O757uf6K+75Y+WL+iuvuWumiBlbW90aW9uIOeUqOeahO+8jOe7neS4jeiDveiiq+acl+ivu+aIluaYvuekuuWHuuadpeOAggpjb25zdCBFTU9USU9OX1RBR19SRSA9IC9bXFvjgJBdXHMqKD86aGFwcHl8c2FkfGFuZ3J5fGZlYXJmdWx8ZGlzZ3VzdGVkfHN1cnByaXNlZHxjYWxtfGZsdWVudClccypbXF3jgJFdL2dpOwovKiog56e76Zmk5paH5pys6YeM5omA5pyJIFtlbW90aW9uXSAvIOOAkGVtb3Rpb27jgJEg5qCH6K6w77yI5Lu75oSP5L2N572u77yJ77yM6YG/5YWN6KKr5pyX6K+75oiW5pi+56S644CCICovCmV4cG9ydCBjb25zdCBzdHJpcEVtb3Rpb25UYWdzID0gKHRleHQ6IHN0cmluZyk6IHN0cmluZyA9PiAodGV4dCB8fCAnJykucmVwbGFjZShFTU9USU9OX1RBR19SRSwgJycpOwoKLyoqCiAqIOaKiuOAjOWPque7mSBUVFMg55So44CN55qE5ryU5Ye65qCH6K6w5LuO6KaB5pi+56S657uZ55So5oi355qE5paH5pys6YeM5riF5o6J44CCCiAqIDwj56eSIz4g5YGc6aG/5qCH6K6w5ZKMIChzaWdocykvKGNodWNrbGUpIOi/meexu+WKqOS9nOivjeaYr+WGmee7meivremfs+WQiOaIkOeahO+8jAogKiDkuI3lupTor6Xljp/moLflh7rnjrDlnKjogYrlpKnmsJTms6EgLyDovazmloflrZfpnaLmnb/ph4zvvIjlkKbliJnnlKjmiLfnnIvliLDkuIDloIYgPCMwLjQjPu+8ieOAggogKiDlj6rliKDnmb3lkI3ljZXlhoXnmoTliqjkvZzor43vvJvmma7pgJrmi6zlj7flhoXlrrnvvIjmr5TlpoLmraPluLjnmoTopb/mlofmi6zms6jvvInkv53mjIHkuI3liqjjgIIKICovCmV4cG9ydCBjb25zdCBjbGVhblZvaWNlTWFya3VwRm9yRGlzcGxheSA9ICh0ZXh0Pzogc3RyaW5nIHwgbnVsbCk6IHN0cmluZyA9PiB7CiAgaWYgKCF0ZXh0KSByZXR1cm4gJyc7CiAgcmV0dXJuIHRleHQKICAgIC5yZXBsYWNlKC88I1xzKltcZC5dK1xzKiM+L2csICcnKSAgICAgICAgICAgICAgICAgLy8g5YGc6aG/5qCH6K6wIDwjMC40Iz4KICAgIC5yZXBsYWNlKC9cKChbXildezEsNDB9KVwpL2csIChtLCBpbm5lcjogc3RyaW5nKSA9PgogICAgICBWQUxJRF9JTlRFUkpFQ1RJT05fVEFHUy5oYXMoaW5uZXIudHJpbSgpLnRvTG93ZXJDYXNlKCkpID8gJycgOiBtKSAvLyDliqjkvZzor43vvIzku4XliKDnmb3lkI3ljZUKICAgIC5yZXBsYWNlKC9bIFx0XXsyLH0vZywgJyAnKSAgICAgICAgICAgICAgICAgICAgICAgIC8vIOWQiOW5tuWkmuS9meepuuagvAogICAgLnJlcGxhY2UoL1sgXHRdKyhb77yM44CC77yB77yf44CB77yb77yaLC4hP+KApl0pL2csICckMScpICAgIC8vIOagh+eCueWJjeaui+eVmeepuuagvAogICAgLnJlcGxhY2UoLyhb77yM44CB77yb77yaLF0pXHMqXDErL2csICckMScpICAgICAgICAgICAgICAgLy8g5Yig5qCH6K6w5ZCO55WZ5LiL55qE6L+e57ut6YeN5aSN5qCH54K5CiAgICAucmVwbGFjZSgvWyBcdF0qXG5bIFx0XSovZywgJ1xuJykKICAgIC5yZXBsYWNlKC9cbnszLH0vZywgJ1xuXG4nKQogICAgLnRyaW0oKTsKfTsKCi8vIOiuvuiuoe+8muS4jeWGjeWBmuOAjOS4reaWh+iInuWPsOaMh+ekuiDihpIg6K+t5rCU5qCH562+44CN55qE54yc5rWL5byP5pig5bCE77yI5L2T6aqM5beu44CB5LiN5Y+v6aKE5rWL44CB5pyJ5o2f77yJ44CCCi8vIOaUueS4uuOAjOaVmSBMTE0g55u05o6l5YaZ5a6Y5pa5IHNvdW5kIHRhZ+OAjSvjgIzlrqLmiLfnq6/lj6rlgZrnmb3lkI3ljZXmtojmr5LjgI3jgIIKLy8g5Zug5q2k6L+Z6YeM5Y+q5L+d55WZ5LiA5Liq5ZCI5rOV5qCH562+55m95ZCN5Y2V77yI5LiK5pa5IFZBTElEX0lOVEVSSkVDVElPTl9UQUdT77yJ77yM5LiN5L+d55WZ5Lu75L2V5Lit4oaS6Iux5pig5bCE6KGo44CCCgovKioKICog5raI5q+S5ous5Y+35YaF5a6577yI5LiN5YGa5Lu75L2V5pig5bCE77yM5Y+q5YGa55m95ZCN5Y2V77yJ77yaCiAqIC0g5Lit5paH6Iie5Y+w5oyH56S677yI4oCm4oCm77yJ5LiA5b6L5Yig6Zmk77yM57ud5LiN6K+75Ye65p2l77ybCiAqIC0g6KW/5paH5ous5Y+35LuF5L+d55WZ5ZCI5rOVIHNvdW5kIHRhZ++8iOWmgiAobGF1Z2hzKe+8ie+8jOWFtuS9meWIoOmZpOOAggogKiBMTE0g546w5Zyo6KKr6KaB5rGC55u05o6l5YaZ5a6Y5pa56Iux5paHIHNvdW5kIHRhZ++8jOaJgOS7pei/memHjOS4jeWGjee/u+ivkeS4reaWh+aPkOekuuivjeOAggogKi8KY29uc3Qgc3RyaXBQYXJlbnNQcmVzZXJ2aW5nVGFncyA9ICh0ZXh0OiBzdHJpbmcpOiBzdHJpbmcgPT4gewogIHJldHVybiBzdHJpcEVtb3Rpb25UYWdzKHRleHQpCiAgICAvLyDkuK3mlofmi6zlj7foiJ7lj7DmjIfnpLrvvJrkuIDlvovliKDpmaQKICAgIC5yZXBsYWNlKC/vvIhbXu+8iV17MCw0OH3vvIkvZywgJycpCiAgICAvLyDopb/mlofmi6zlj7fvvJrku4Xkv53nlZnnmb3lkI3ljZUgc291bmQgdGFn77yM5YW25L2Z5Yig6ZmkCiAgICAucmVwbGFjZSgvXCgoW14pXXsxLDgwfSlcKS9nLCAoX20sIGlubmVyOiBzdHJpbmcpID0+IHsKICAgICAgY29uc3QgdGFnID0gaW5uZXIudHJpbSgpLnRvTG93ZXJDYXNlKCk7CiAgICAgIHJldHVybiBWQUxJRF9JTlRFUkpFQ1RJT05fVEFHUy5oYXModGFnKSA/IGAoJHt0YWd9KWAgOiAnJzsKICAgIH0pOwp9OwoKLyoqCiAqIENsZWFuIHRleHQgZm9yIFRUUyDigJQgc3RyaXAgc3RhZ2UgZGlyZWN0aW9ucywgc3lzdGVtIHRhZ3MsIGFuZCB2b2ljZSBtYXJrdXAuCiAqIElmIDzor63pn7M+Li4uPC/or63pn7M+IHRhZyBleGlzdHMsIHVzZSBpdHMgY29udGVudCAoYWxyZWFkeSB0cmFuc2xhdGVkIGZvciBUVFMpLgogKiBPdGhlcndpc2UsIHN0cmlw77yIcGFyZW50aGV0aWNhbCBjdWVz77yJc28gdGhleSBhcmVuJ3QgcmVhZCBhbG91ZC4KICogS25vd24gaW50ZXJqZWN0aW9uIHRhZ3MgbGlrZSAoY2h1Y2tsZSkgLyAoc2lnaHMpIGFyZSBwcmVzZXJ2ZWQuCiAqLwpleHBvcnQgY29uc3QgY2xlYW5UZXh0Rm9yVHRzID0gKHJhdzogc3RyaW5nKTogc3RyaW5nID0+IHsKICAvLyAwLiDor63pn7PmoIfnrb7oh6rmhIgg4oCUIOWOhuWPsuWdj+aVsOaNriAo5pyq6Zet5ZCIL+WtpOWEv+mXreWQiC/lhajop5LnrKblj7cpIOS5n+imgeiDveino+aekOWHuuadpQogIHJhdyA9IG5vcm1hbGl6ZVZvaWNlVGFncyhyYXcpOwogIC8vIDEuIElmIDzor63pn7M+IHRhZyBleGlzdHMgKHdpdGggb3Igd2l0aG91dCBlbW90aW9uIGF0dHJpYnV0ZSksIGV4dHJhY3QgJiB1c2UgaXRzIGNvbnRlbnQgb25seQogIGNvbnN0IHZvaWNlVGFnTWF0Y2ggPSByYXcubWF0Y2goLzxb6K+t6KqeXemfs1tePl0qPihbXHNcU10qPyk8XC9ccypb6K+t6KqeXemfs1xzKj4vKTsKICBpZiAodm9pY2VUYWdNYXRjaCkgewogICAgcmV0dXJuIHN0cmlwUGFyZW5zUHJlc2VydmluZ1RhZ3Modm9pY2VUYWdNYXRjaFsxXSkucmVwbGFjZSgvXHMrL2csICcgJykudHJpbSgpOwogIH0KCiAgbGV0IHRleHQgPSByYXc7CiAgLy8gMi4gU3RyaXAgW1suLi5dXSBzeXN0ZW0gbWFya2VycwogIHRleHQgPSB0ZXh0LnJlcGxhY2UoL1xbXFsuKj9cXVxdL2csICcnKTsKICAvLyAzLiBTdHJpcCAlJUJJTElOR1VBTCUlIGFuZCBldmVyeXRoaW5nIGFmdGVyCiAgdGV4dCA9IHRleHQucmVwbGFjZSgvJSVCSUxJTkdVQUwlJVtcc1xTXSovaSwgJycpOwogIC8vIDQuIFN0cmlwIHBhcmVudGhldGljYWwgY3VlcyAocHJlc2VydmluZyB2YWxpZCBpbnRlcmplY3Rpb24gdGFncyBvbmx5KQogIHRleHQgPSBzdHJpcFBhcmVuc1ByZXNlcnZpbmdUYWdzKHRleHQpOwogIC8vIDUuIFN0cmlwIDzor63pn7M+Li4uPC/or63pn7M+IC8gPOWtl+W5lT4uLi48L+Wtl+W5lT4gdGFncyBpZiB0aGV5IHNvbWVob3cgcmVtYWluCiAgLy8gICAgKOWtl+W5leaYr+aYvuekuueUqOeahOS4reaWh+WvueeFpywg57ud5LiN6IO96KKr5pyX6K+7KQogIHRleHQgPSB0ZXh0LnJlcGxhY2UoLzxb6K+t6KqeXemfs1tePl0qPltcc1xTXSo/PFwvXHMqW+ivreiqnl3pn7Nccyo+L2csICcnKTsKICB0ZXh0ID0gdGV4dC5yZXBsYWNlKC885a2X5bmVPltcc1xTXSo/PFwv5a2X5bmVPi9nLCAnJyk7CiAgLy8gNi4gQ29sbGFwc2Ugd2hpdGVzcGFjZQogIHRleHQgPSB0ZXh0LnJlcGxhY2UoL1xzKy9nLCAnICcpLnRyaW0oKTsKICByZXR1cm4gdGV4dDsKfTsKCmV4cG9ydCBpbnRlcmZhY2UgUGFyc2VkVm9pY2VPdXRwdXQgewogIC8qKiBUZXh0IE9VVFNJREUgdGhlIDzor63pn7M+IHRhZyDigJQgd2hhdCBzaG93cyBpbiB0aGUgY2hhdCBidWJibGUuICovCiAgZGlzcGxheTogc3RyaW5nOwogIC8qKiBUVFMtcmVhZHkgc3Bva2VuIHRleHQgKHNhbml0aXplZDogb25seSB3aGl0ZWxpc3RlZCBNaW5pTWF4IHNvdW5kIHRhZ3Mga2VwdCkuICovCiAgc3BlZWNoOiBzdHJpbmc7CiAgLyoqCiAgICogUmF3IDzor63pn7M+IGlubmVyIGNvbnRlbnQsIHdoaXRlc3BhY2UtY29sbGFwc2VkIG9ubHkg4oCUIHNxdWFyZS1icmFja2V0IGN1ZXMgYW5kCiAgICogcGFyZW5zIGFyZSBQUkVTRVJWRUQuIEZpc2ggQXVkaW8gbmVlZHMgdGhpcyBzbyBpdHMgbmF0aXZlIGlubGluZSBjdWVzCiAgICogKFtoYXBweV0vW3doaXNwZXJpbmddL1ticmVha13igKYpIHN1cnZpdmUgdG8gdGhlIEFQSTsgY2xlYW5UZXh0Rm9yVHRzRmlzaCBkb2VzCiAgICogdGhlIHByb3ZpZGVyLWFwcHJvcHJpYXRlIGNsZWFuaW5nIGRvd25zdHJlYW0uIEVtcHR5IHdoZW4gbm8gPOivremfsz4gdGFnLgogICAqLwogIHJhd1NwZWVjaDogc3RyaW5nOwogIC8qKiBWYWxpZGF0ZWQgTWluaU1heCBlbW90aW9uIGZyb20gdGhlIHRhZydzIGVtb3Rpb249IuKApiIgYXR0cmlidXRlLCBvciB1bmRlZmluZWQuICovCiAgZW1vdGlvbj86IHN0cmluZzsKICAvKiogV2hldGhlciBhIDzor63pn7M+IHRhZyB3YXMgcHJlc2VudCBhdCBhbGwuICovCiAgaGFzVm9pY2VUYWc6IGJvb2xlYW47CiAgLyoqCiAgICogPOWtl+W5lT7igKY8L+Wtl+W5lT4g6YeM55qE5Lit5paH5a+554Wn77yI5aSW6K+t6K+t6Z+z5qih5byP5LiL5qih5Z6L5pi+5byP57uZ5Ye655qE57+76K+R77yJ44CCCiAgICog6K+t6Z+z5p2h44CM6L2s5paH5a2X44CN6Z2i5p2/55qE57+76K+R56ys5LiA5LyY5YWI57qn55So5a6DIOKAlOKAlCDmnInmmL7lvI/lrZfluZXlsLHkuI3nlKjnjJzjgIHkuI3nlKjosIMgTExN44CCCiAgICovCiAgc3VidGl0bGU/OiBzdHJpbmc7Cn0KCi8vIDzor63pn7MgZW1vdGlvbj0iaGFwcHkiPuKApjwv6K+t6Z+zPiDigJQgZW1vdGlvbiBhdHRyaWJ1dGUgb3B0aW9uYWwsIHNpbmdsZS9kb3VibGUvbm8gcXVvdGVzIHRvbGVyYXRlZC4KLy8g5bGe5oCn5YmN56m65qC85Y+v55yBICg86K+t6Z+zZW1vdGlvbj3igKY+IOS5n+iupCksIOmXreWQiOagh+etvuWuueiuuOepuuagvCAvIOeugOe5geS6kuaNouOAggpjb25zdCBWT0lDRV9UQUdfUkUgPSAvPFvor63oqp5d6Z+zKD86W14+XSo/ZW1vdGlvblxzKj1ccypbIiddPyhbYS16QS1aXSspWyInXT8pP1tePl0qPihbXHNcU10qPyk8XC9ccypb6K+t6KqeXemfs1xzKj4vOwoKLyoqCiAqIFBhcnNlIGFuIGFzc2lzdGFudCBtZXNzYWdlIGludG8gZGlzcGxheSB0ZXh0ICsgc3Bva2VuIHRleHQgKyBlbW90aW9uLgogKiBUaGUgc2luZ2xlIHNvdXJjZSBvZiB0cnV0aCBmb3IgdGhlIHN0cnVjdHVyZWQgdm9pY2Utb3V0cHV0IGZvcm1hdCB0aGF0IHRoZQogKiBMTE0gaXMgdGF1Z2h0IHRvIGVtaXQuIEludmFsaWQgZW1vdGlvbnMgYXJlIGRyb3BwZWQgKHJldHVybnMgdW5kZWZpbmVkKSBzbyBhCiAqIG1hbGZvcm1lZCBhdHRyaWJ1dGUgY2FuIG5ldmVyIHJlYWNoIHRoZSBBUEkuCiAqLwpjb25zdCBTVUJUSVRMRV9CTE9DS19SRSA9IC885a2X5bmVPihbXHNcU10qPyk8XC/lrZfluZU+LzsKCmV4cG9ydCBjb25zdCBwYXJzZVZvaWNlT3V0cHV0ID0gKHJhdzogc3RyaW5nKTogUGFyc2VkVm9pY2VPdXRwdXQgPT4gewogIGlmICghcmF3KSByZXR1cm4geyBkaXNwbGF5OiAnJywgc3BlZWNoOiAnJywgcmF3U3BlZWNoOiAnJywgaGFzVm9pY2VUYWc6IGZhbHNlIH07CiAgLy8g6K+t6Z+z5qCH562+6Ieq5oSIOiDmnKrpl63lkIggLyDlraTlhL/pl63lkIggLyDlhajop5LnrKblj7cgLyDlsZ7mgKflhpnmraosIOWFiOS/ruWGjemFjeWvueOAggogIC8vIOaWsOa2iOaBr+iQveW6k+WJjSBzYW5pdGl6ZSDlt7Lnu4/kv67ov4csIOi/memHjOS4u+imgeaVkeWOhuWPsuWdj+aVsOaNriArIOmdnuiQveW6k+iwg+eUqOeCuSAo55S16K+dL+ingemdoinjgIIKICByYXcgPSBub3JtYWxpemVWb2ljZVRhZ3MocmF3KTsKICBjb25zdCBtID0gcmF3Lm1hdGNoKFZPSUNFX1RBR19SRSk7CiAgaWYgKCFtKSB7CiAgICAvLyDmsqHmnInor63pn7PmoIfnrb46IOiQveWNleeahOWtl+W5leagh+etvuWJpeaOieeVmeWGheaWhywg5Yir5oqK5Y6f5aeL5qCH562+5b2T5q2j5paHCiAgICByZXR1cm4geyBkaXNwbGF5OiByYXcucmVwbGFjZSgvPFwvP+Wtl+W5lT4vZywgJycpLnRyaW0oKSwgc3BlZWNoOiAnJywgcmF3U3BlZWNoOiAnJywgaGFzVm9pY2VUYWc6IGZhbHNlIH07CiAgfQogIGNvbnN0IHJhd0Vtb3Rpb24gPSAobVsxXSB8fCAnJykudHJpbSgpLnRvTG93ZXJDYXNlKCk7CiAgY29uc3QgZW1vdGlvbiA9IFZBTElEX0VNT1RJT05TLmhhcyhyYXdFbW90aW9uKSA/IHJhd0Vtb3Rpb24gOiB1bmRlZmluZWQ7CiAgY29uc3Qgc3BlZWNoID0gc3RyaXBQYXJlbnNQcmVzZXJ2aW5nVGFncyhtWzJdKS5yZXBsYWNlKC9ccysvZywgJyAnKS50cmltKCk7CiAgLy8g5LiN5YGaIE1pbmlNYXgg55qE5ous5Y+3L+aDhee7quagh+WJpeemu++8jOeVmee7mSBjbGVhblRleHRGb3JUdHNGaXNoIOaMiemxvOWjsOinhOWImeWkhOeQhuOAggogIGNvbnN0IHJhd1NwZWVjaCA9IG1bMl0ucmVwbGFjZSgvXHMrL2csICcgJykudHJpbSgpOwogIGNvbnN0IHN1YnRpdGxlID0gcmF3Lm1hdGNoKFNVQlRJVExFX0JMT0NLX1JFKT8uWzFdPy50cmltKCkgfHwgdW5kZWZpbmVkOwogIC8vIGRpc3BsYXkgPSDor63pn7PlnZflkozlrZfluZXlnZfkuYvlpJbnmoTmloflrZcgKOaZrumAmumXsuiBiik7IOWtl+W5leWNleeLrOi1sCBzdWJ0aXRsZSDlrZfmrrUKICBjb25zdCBkaXNwbGF5ID0gcmF3CiAgICAucmVwbGFjZSgvPFvor63oqp5d6Z+zW14+XSo+W1xzXFNdKj88XC9ccypb6K+t6KqeXemfs1xzKj4vZywgJycpCiAgICAucmVwbGFjZSgvPOWtl+W5lT5bXHNcU10qPzxcL+Wtl+W5lT4vZywgJycpCiAgICAudHJpbSgpOwogIHJldHVybiB7IGRpc3BsYXksIHNwZWVjaCwgcmF3U3BlZWNoLCBlbW90aW9uLCBoYXNWb2ljZVRhZzogdHJ1ZSwgc3VidGl0bGUgfTsKfTsKCi8qKiDkuLogVFRTIOaWh+acrOaPkuWFpSBNaW5pTWF4IOWOn+eUn+WBnOmhv+agh+etviA8I+enkuaVsCM+77yM6K6p6K+t6Z+z5pyJ6Ieq54S25YGc6aG/CiAqIOWBnOmhv+Wxguasoe+8iOS7juefreWIsOmVv++8iToKICogICDvvIzjgIHvvJsgIOKGkiAgMC4wNnMgIOW+ruWBnO+8iOaNouawlOe6p++8iQogKiAgIOOAgu+8ge+8nyAg4oaSICAwLjEycyAg5Y+l5pyr5YGc6aG/CiAqICAg4oCU4oCUICAgICDihpIgIDAuMThzICDor53popjovazmipggLyDmi5bplb8KICogICDigKbigKYgICAgIOKGkiAgMC4zNXMgIOassuiogOWPiOatoiAvIOayiem7mOaEnwogKiAgIFxuICAgICDihpIgIDAuMjVzICDmrrXokL3mjaLmsJQKICovCmV4cG9ydCBjb25zdCBpbnNlcnRTcGVlY2hCcmVha3MgPSAodGV4dDogc3RyaW5nKTogc3RyaW5nID0+IHsKICBpZiAoIXRleHQpIHJldHVybiAnJzsKICByZXR1cm4gdGV4dAogICAgLy8g55yB55Wl5Y+377ya5qyy6KiA5Y+I5q2iIC8g54q56LGrCiAgICAucmVwbGFjZSgvW+KApl17Mix9L2csICfigKbigKY8IzAuNDUjPicpICAgICAgICAgIC8vIOWkmuS4quecgeeVpeWPt+i/nueUqO+8jOabtOmVvwogICAgLnJlcGxhY2UoL1vigKZdL2csICfigKY8IzAuMzUjPicpICAgICAgICAgICAgICAgLy8g5Y2V5Liq55yB55Wl5Y+3CiAgICAucmVwbGFjZSgvXC57Myx9L2csICcuLi48IzAuMzUjPicpICAgICAgICAgICAvLyDoi7HmlofnnIHnlaXlj7cKICAgIC8vIOegtOaKmOWPt++8muivnemimOi9rOaKmOOAgeivreawlOaLiemVvwogICAgLnJlcGxhY2UoL+KAlOKAlC9nLCAn4oCU4oCUPCMwLjIyIz4nKQogICAgLnJlcGxhY2UoLy0tL2csICctLTwjMC4yMiM+JykKICAgIC8vIOWPpeacq+agh+eCue+8muWPpeWtkOS5i+mXtOeVmeWHuuecn+WunuWRvOWQuO+8iOWIq+iuqeinkuiJsuS4gOWPo+awlOi1tuWujO+8iQogICAgLnJlcGxhY2UoLyhb44CCXSkvZywgJyQxPCMwLjIyIz4nKQogICAgLnJlcGxhY2UoLyhb77yB77yfIT9dKS9nLCAnJDE8IzAuMjYjPicpICAgICAgICAvLyDmhJ/lj7kv55aR6Zeu5YGc6aG/5pu05piO5pi+CiAgICAvLyDlj6XkuK3moIfngrnvvJrmjaLmsJQKICAgIC5yZXBsYWNlKC8oW++8jCxdKS9nLCAnJDE8IzAuMTAjPicpCiAgICAucmVwbGFjZSgvKFvjgIHvvJs777yaOl0pL2csICckMTwjMC4wNyM+JykKICAgIC8vIOaNouihjO+8muauteiQvemXtOWBnOmhvwogICAgLnJlcGxhY2UoL1xuL2csICdcbjwjMC4zMCM+JykKICAgIC8vIOWOu+mHje+8muebuOmCu+WkmuS4quWBnOmhv+agh+etvuWPquS/neeVmeacgOmVv+eahOmCo+S4qu+8iOWwgemhtiAwLjZz77yJCiAgICAucmVwbGFjZSgvKDwjW1xkLl0rIz5bXHNdKil7Mix9L2csIChtYXRjaCkgPT4gewogICAgICBjb25zdCB0aW1lcyA9IFsuLi5tYXRjaC5tYXRjaEFsbCgvPCMoW1xkLl0rKSM+L2cpXS5tYXAobSA9PiBwYXJzZUZsb2F0KG1bMV0pKTsKICAgICAgY29uc3QgbWF4VGltZSA9IE1hdGgubWluKE1hdGgubWF4KC4uLnRpbWVzKSwgMC42KTsKICAgICAgcmV0dXJuIGA8IyR7bWF4VGltZS50b0ZpeGVkKDIpfSM+YDsKICAgIH0pCiAgICAudHJpbSgpOwp9OwoKLyoqCiAqIFNvZnQtY2xhbXAgYSBudW1lcmljIHZhbHVlIHRvIGtlZXAgaXQgd2l0aGluIGEgc2FmZSByYW5nZS4KICogUHJlc2VydmVzIGRpcmVjdGlvbiBhbmQgZmVlbCBidXQgcHJldmVudHMgZXh0cmVtZSBzcGlrZXMgdGhhdCBzb3VuZCB1bm5hdHVyYWwuCiAqLwpjb25zdCBzb2Z0Q2xhbXAgPSAodmFsdWU6IG51bWJlciwgbGltaXQ6IG51bWJlcik6IG51bWJlciA9PiB7CiAgaWYgKE1hdGguYWJzKHZhbHVlKSA8PSBsaW1pdCkgcmV0dXJuIHZhbHVlOwogIC8vIEJleW9uZCB0aGUgbGltaXQsIGNvbXByZXNzIGxvZ2FyaXRobWljYWxseSDigJQgc3RpbGwgbW92ZXMgaW4gdGhlIHNhbWUgZGlyZWN0aW9uIGJ1dCB0YXBlcnMgb2ZmCiAgY29uc3Qgc2lnbiA9IHZhbHVlID4gMCA/IDEgOiAtMTsKICBjb25zdCBleGNlc3MgPSBNYXRoLmFicyh2YWx1ZSkgLSBsaW1pdDsKICByZXR1cm4gc2lnbiAqIChsaW1pdCArIE1hdGgubG9nMXAoZXhjZXNzKSAqIChsaW1pdCAqIDAuMTUpKTsKfTsKCi8qKiBCdWlsZCB0aW1iZXJfd2VpZ2h0cyAmIHZvaWNlX21vZGlmeSBleHRyYXMgZnJvbSBhIHZvaWNlUHJvZmlsZSAqLwpleHBvcnQgY29uc3QgYnVpbGRUdHNFeHRyYXMgPSAodnA6IENoYXJhY3RlclByb2ZpbGVbJ3ZvaWNlUHJvZmlsZSddKSA9PiB7CiAgaWYgKCF2cCkgcmV0dXJuIHt9OwogIGNvbnN0IGV4dHJhczogYW55ID0ge307CiAgY29uc3QgdHcgPSB2cC50aW1iZXJXZWlnaHRzOwogIGlmICh0dyAmJiB0dy5sZW5ndGggPiAxKSB7CiAgICBleHRyYXMudGltYmVyX3dlaWdodHMgPSAoKCkgPT4gewogICAgICBjb25zdCB0b3RhbFdlaWdodCA9IHR3LnJlZHVjZSgoc3VtOiBudW1iZXIsIHQ6IGFueSkgPT4gc3VtICsgKHQud2VpZ2h0IHx8IDApLCAwKTsKICAgICAgaWYgKHRvdGFsV2VpZ2h0ID09PSAwKSByZXR1cm4gdHcubWFwKCh0OiBhbnkpID0+ICh7IHZvaWNlX2lkOiB0LnZvaWNlX2lkLCB3ZWlnaHQ6IE1hdGgucm91bmQoMTAwIC8gdHcubGVuZ3RoKSB9KSk7CiAgICAgIGNvbnN0IHJhdyA9IHR3Lm1hcCgodDogYW55KSA9PiAoeyB2b2ljZV9pZDogdC52b2ljZV9pZCwgd2VpZ2h0OiBNYXRoLnJvdW5kKCh0LndlaWdodCAvIHRvdGFsV2VpZ2h0KSAqIDEwMCkgfSkpOwogICAgICBjb25zdCBkaWZmID0gMTAwIC0gcmF3LnJlZHVjZSgoczogbnVtYmVyLCByOiBhbnkpID0+IHMgKyByLndlaWdodCwgMCk7CiAgICAgIGlmIChkaWZmICE9PSAwKSByYXdbMF0ud2VpZ2h0ICs9IGRpZmY7CiAgICAgIHJldHVybiByYXc7CiAgICB9KSgpOwogIH0KICBpZiAodnAudm9pY2VNb2RpZnkpIHsKICAgIGNvbnN0IHZtOiBhbnkgPSB7fTsKICAgIC8vIENsYW1wIHZvaWNlX21vZGlmeSBwYXJhbXMgdG8gcHJldmVudCBleHRyZW1lIHNwaWtlcyAoZS5nLiBzdWRkZW4gc2hyaWxsIHZvaWNlKQogICAgLy8gcGl0Y2g6IHNhZmUgcmFuZ2UgwrE0MCAoZnVsbCBBUEkgcmFuZ2UgaXMgwrExMDApCiAgICAvLyBpbnRlbnNpdHk6IHNhZmUgcmFuZ2UgwrEzMCDigJQgdGhpcyBpcyB0aGUgYmlnZ2VzdCBjdWxwcml0IGZvciBzdWRkZW4gc2hyaWxsIHNwaWtlcwogICAgLy8gdGltYnJlOiBzYWZlIHJhbmdlIMKxNDAKICAgIGlmICh2cC52b2ljZU1vZGlmeS5waXRjaCkgdm0ucGl0Y2ggPSBNYXRoLnJvdW5kKHNvZnRDbGFtcCh2cC52b2ljZU1vZGlmeS5waXRjaCwgNDApKTsKICAgIGlmICh2cC52b2ljZU1vZGlmeS5pbnRlbnNpdHkpIHZtLmludGVuc2l0eSA9IE1hdGgucm91bmQoc29mdENsYW1wKHZwLnZvaWNlTW9kaWZ5LmludGVuc2l0eSwgMzApKTsKICAgIGlmICh2cC52b2ljZU1vZGlmeS50aW1icmUpIHZtLnRpbWJyZSA9IE1hdGgucm91bmQoc29mdENsYW1wKHZwLnZvaWNlTW9kaWZ5LnRpbWJyZSwgNDApKTsKICAgIGlmICh2cC52b2ljZU1vZGlmeS5zb3VuZF9lZmZlY3RzKSB2bS5zb3VuZF9lZmZlY3RzID0gdnAudm9pY2VNb2RpZnkuc291bmRfZWZmZWN0czsKICAgIGlmIChPYmplY3Qua2V5cyh2bSkubGVuZ3RoKSBleHRyYXMudm9pY2VfbW9kaWZ5ID0gdm07CiAgfQogIHJldHVybiBleHRyYXM7Cn07CgovKioKICogQnVpbGQgdm9pY2Vfc2V0dGluZyBmaWVsZHMgKHNwZWVkLCB2b2wsIHBpdGNoLCBlbW90aW9uKSB3aXRoIHNhZmUgcmFuZ2VzLgogKiBgZW1vdGlvbk92ZXJyaWRlYCAodmFsaWRhdGVkIE1pbmlNYXggZW1vdGlvbiwgZS5nLiBmcm9tIGEgPOivremfsyBlbW90aW9uPSLigKYiPiB0YWcpCiAqIHdpbnMgb3ZlciB0aGUgY2hhcmFjdGVyJ3Mgc3RhdGljIHZvaWNlUHJvZmlsZS5lbW90aW9uLiBJbnZhbGlkIHZhbHVlcyBhcmUgaWdub3JlZC4KICovCmV4cG9ydCBjb25zdCBidWlsZFZvaWNlU2V0dGluZ3MgPSAodnA6IENoYXJhY3RlclByb2ZpbGVbJ3ZvaWNlUHJvZmlsZSddLCBlbW90aW9uT3ZlcnJpZGU/OiBzdHJpbmcpID0+IHsKICBjb25zdCBlbW90aW9uID0gKGVtb3Rpb25PdmVycmlkZSAmJiBWQUxJRF9FTU9USU9OUy5oYXMoZW1vdGlvbk92ZXJyaWRlKSkKICAgID8gZW1vdGlvbk92ZXJyaWRlCiAgICA6ICh2cD8uZW1vdGlvbiB8fCAnJyk7CiAgcmV0dXJuIHsKICAgIC8vIENsYW1wIHNwZWVkIHRvIDAuNzXigJMxLjQgZm9yIG5hdHVyYWwgaHVtYW4gZmVlbCAoQVBJIGFsbG93cyAwLjXigJMyKQogICAgc3BlZWQ6IE1hdGgubWF4KDAuNzUsIE1hdGgubWluKDEuNCwgdnA/LnNwZWVkID8/IDEpKSwKICAgIHZvbDogTWF0aC5tYXgoMC4zLCBNYXRoLm1pbigyLCB2cD8udm9sID8/IDEpKSwKICAgIC8vIENsYW1wIGJhc2UgcGl0Y2ggdG8gwrE4IHNlbWl0b25lcyAoQVBJIGFsbG93cyDCsTEyKSB0byBhdm9pZCBhbGllbiBzb3VuZAogICAgcGl0Y2g6IE1hdGgubWF4KC04LCBNYXRoLm1pbig4LCB2cD8ucGl0Y2ggPz8gMCkpLAogICAgLy8gTm9ybWFsaXplIG51bWJlcnMvRW5nbGlzaCBzbyAiMi44IiBldGMuIGFyZSByZWFkIG5hdHVyYWxseQogICAgZW5nbGlzaF9ub3JtYWxpemF0aW9uOiB0cnVlLAogICAgLi4uKGVtb3Rpb24gPyB7IGVtb3Rpb24gfSA6IHt9KSwKICB9Owp9OwoKLyoqIENvbnZlcnQgaGV4IGF1ZGlvIGZyb20gTWluaU1heCB0byBhIHBsYXlhYmxlIEJsb2IgKi8KZXhwb3J0IGNvbnN0IGNvbnZlcnRIZXhBdWRpb1RvQmxvYiA9IChoZXhBdWRpbzogc3RyaW5nLCBtaW1lVHlwZSA9ICdhdWRpby9tcGVnJyk6IEJsb2IgPT4gewogIGNvbnN0IGNsZWFuSGV4ID0gaGV4QXVkaW8udHJpbSgpLnJlcGxhY2UoL14weC9pLCAnJyk7CiAgaWYgKCFjbGVhbkhleCB8fCBjbGVhbkhleC5sZW5ndGggJSAyICE9PSAwIHx8IC9bXlxkYS1mXS9pLnRlc3QoY2xlYW5IZXgpKSB7CiAgICB0aHJvdyBuZXcgRXJyb3IoJ01pbmlNYXgg6L+U5Zue55qEIEhFWCDpn7PpopHmlbDmja7moLzlvI/lvILluLgnKTsKICB9CiAgY29uc3QgYnl0ZXMgPSBuZXcgVWludDhBcnJheShjbGVhbkhleC5sZW5ndGggLyAyKTsKICBmb3IgKGxldCBpID0gMDsgaSA8IGNsZWFuSGV4Lmxlbmd0aDsgaSArPSAyKSB7CiAgICBieXRlc1tpIC8gMl0gPSBOdW1iZXIucGFyc2VJbnQoY2xlYW5IZXguc2xpY2UoaSwgaSArIDIpLCAxNik7CiAgfQogIHJldHVybiBuZXcgQmxvYihbYnl0ZXNdLCB7IHR5cGU6IG1pbWVUeXBlIH0pOwp9OwoKLyoqIEZldGNoIHJlbW90ZSBhdWRpbyBVUkwgYW5kIHJldHVybiBhcyBCbG9iICovCmV4cG9ydCBjb25zdCBmZXRjaFJlbW90ZUF1ZGlvQmxvYiA9IGFzeW5jIChzb3VyY2VVcmw6IHN0cmluZyk6IFByb21pc2U8QmxvYj4gPT4gewogIGNvbnN0IGNhY2hlQnVzdGVkVXJsID0gc291cmNlVXJsLmluY2x1ZGVzKCc/JykKICAgID8gYCR7c291cmNlVXJsfSZfdHM9JHtEYXRlLm5vdygpfWAKICAgIDogYCR7c291cmNlVXJsfT9fdHM9JHtEYXRlLm5vdygpfWA7CiAgY29uc3QgcmVzcG9uc2UgPSBhd2FpdCBmZXRjaChjYWNoZUJ1c3RlZFVybCwgeyBjYWNoZTogJ25vLXN0b3JlJyB9KTsKICBpZiAoIXJlc3BvbnNlLm9rKSB0aHJvdyBuZXcgRXJyb3IoYOmfs+mikeS4i+i9veWksei0pe+8iEhUVFAgJHtyZXNwb25zZS5zdGF0dXN977yJYCk7CiAgY29uc3QgYmxvYiA9IGF3YWl0IHJlc3BvbnNlLmJsb2IoKTsKICBpZiAoIWJsb2Iuc2l6ZSkgdGhyb3cgbmV3IEVycm9yKCfpn7PpopHkuIvovb3kuLrnqbrmlofku7YnKTsKICByZXR1cm4gYmxvYjsKfTsKCmV4cG9ydCBpbnRlcmZhY2UgVHRzUmVzdWx0IHsKICAvKiogUGxheWFibGUgVVJMIGZvciA8YXVkaW8+IOKAlCBhIGJsb2I6IFVSTCB3aGVuIGBibG9iYCBpcyBwcmVzZW50LCBvdGhlcndpc2UgYSByZW1vdGUgTWluaU1heCBDRE4gVVJMICovCiAgdXJsOiBzdHJpbmc7CiAgLyoqIFJhdyBhdWRpbyBibG9iIHdoZW4gYXZhaWxhYmxlLiBOdWxsIHdoZW4gd2UgZmVsbCBiYWNrIHRvIHRoZSByZW1vdGUgVVJMIChDT1JTIC8gbmV0d29yaykuICovCiAgYmxvYjogQmxvYiB8IG51bGw7Cn0KCi8qKgogKiBDYWxsIE1pbmlNYXggVFRTIGFuZCByZXR1cm4gYm90aCB0aGUgcmF3IGJsb2IgKGlmIGF2YWlsYWJsZSkgYW5kIGEgcGxheWFibGUgVVJMLgogKiBQcmVmZXIgdGhpcyB2YXJpYW50IHdoZW4geW91IG5lZWQgdG8gcGVyc2lzdCBhdWRpbyB0byBzdG9yYWdlIOKAlCB0aGUgYmxvYiBjYW4gYmUKICogd3JpdHRlbiB0byBJbmRleGVkREIgc28gdGhlIGF1ZGlvIHN1cnZpdmVzIHBhZ2UvY29tcG9uZW50IHJlbG9hZHMuCiAqLwpleHBvcnQgYXN5bmMgZnVuY3Rpb24gc3ludGhlc2l6ZVNwZWVjaERldGFpbGVkKAogIHRleHQ6IHN0cmluZywKICBjaGFyOiBDaGFyYWN0ZXJQcm9maWxlLAogIGFwaUNvbmZpZzogQVBJQ29uZmlnLAogIG9wdGlvbnM/OiB7IGxhbmd1YWdlQm9vc3Q/OiBzdHJpbmc7IGdyb3VwSWQ/OiBzdHJpbmc7IGVtb3Rpb24/OiBzdHJpbmcgfQopOiBQcm9taXNlPFR0c1Jlc3VsdD4gewogIGNvbnN0IGFwaUtleSA9IHJlc29sdmVNaW5pTWF4QXBpS2V5KGFwaUNvbmZpZyk7CiAgaWYgKCFhcGlLZXkpIHRocm93IG5ldyBFcnJvcign57y65bCRIE1pbmlNYXggQVBJIEtleScpOwogIGNvbnN0IHZwID0gY2hhci52b2ljZVByb2ZpbGU7CiAgaWYgKCF2cD8udm9pY2VJZCAmJiAoIXZwPy50aW1iZXJXZWlnaHRzIHx8IHZwLnRpbWJlcldlaWdodHMubGVuZ3RoID09PSAwKSkgewogICAgdGhyb3cgbmV3IEVycm9yKCfop5LoibLmnKrphY3nva7or63pn7MnKTsKICB9CgogIC8vIEluc2VydCBuYXR1cmFsIHBhdXNlcyBhdCBwdW5jdHVhdGlvbiBtYXJrcwogIGNvbnN0IHByb2Nlc3NlZFRleHQgPSBpbnNlcnRTcGVlY2hCcmVha3ModGV4dCk7CgogIGNvbnN0IHBheWxvYWQ6IGFueSA9IHsKICAgIG1vZGVsOiB2cD8ubW9kZWwgfHwgREVGQVVMVF9NT0RFTCwKICAgIHRleHQ6IHByb2Nlc3NlZFRleHQsCiAgICB2b2ljZV9zZXR0aW5nOiB7CiAgICAgIHZvaWNlX2lkOiB2cD8udm9pY2VJZCB8fCAnJywKICAgICAgLi4uYnVpbGRWb2ljZVNldHRpbmdzKHZwLCBvcHRpb25zPy5lbW90aW9uKSwKICAgIH0sCiAgICBhdWRpb19zZXR0aW5nOiB7IGZvcm1hdDogJ21wMycgfSwKICAgIC4uLmJ1aWxkVHRzRXh0cmFzKHZwKSwKICB9OwogIC8vIE9ubHkgc2V0IGxhbmd1YWdlX2Jvb3N0IHdoZW4gYW4gZXhwbGljaXQgdm9pY2UgbGFuZ3VhZ2UgaXMgY2hvc2VuLiBMZWF2aW5nIGl0CiAgLy8gdW5zZXQga2VlcHMgQ2hpbmVzZSBwcm9zb2R5IHN0YWJsZSAoYXV0by1kZXRlY3QgbWFkZSB0aGUgdG9uZSB3b2JibGUgcGVyIGxpbmUpLgogIGlmIChvcHRpb25zPy5sYW5ndWFnZUJvb3N0KSBwYXlsb2FkLmxhbmd1YWdlX2Jvb3N0ID0gb3B0aW9ucy5sYW5ndWFnZUJvb3N0OwoKICAvLyBDaGVjayB0aGUgc2hhcmVkIGNhY2hlIGJlZm9yZSBoaXR0aW5nIHRoZSBuZXR3b3JrLiBUd28gY2FsbCBzaXRlcyB0aGF0CiAgLy8gYnVpbGQgdGhlIHNhbWUgcGF5bG9hZCBnZXQgdGhlIHNhbWUgaGFzaCBhbmQgcmV1c2Ugd2hpY2hldmVyIG9uZSBzeW50aGVzaXplZAogIC8vIHRoZSBhdWRpbyBmaXJzdCDigJQgYWNyb3NzIHNlc3Npb25zLCBhY3Jvc3MgYXBwcy4KICBjb25zdCBjYWNoZUtleSA9IGhhc2hUdHNQYXJhbXMoewogICAga2luZDogJ21pbmltYXgtdDJhJywKICAgIHRleHQ6IHBheWxvYWQudGV4dCwKICAgIG1vZGVsOiBwYXlsb2FkLm1vZGVsLAogICAgdm9pY2Vfc2V0dGluZzogcGF5bG9hZC52b2ljZV9zZXR0aW5nLAogICAgdGltYmVyX3dlaWdodHM6IHBheWxvYWQudGltYmVyX3dlaWdodHMsCiAgICB2b2ljZV9tb2RpZnk6IHBheWxvYWQudm9pY2VfbW9kaWZ5LAogICAgbGFuZ3VhZ2VfYm9vc3Q6IHBheWxvYWQubGFuZ3VhZ2VfYm9vc3QsCiAgICBhdWRpb19zZXR0aW5nOiBwYXlsb2FkLmF1ZGlvX3NldHRpbmcsCiAgfSk7CiAgY29uc3QgY2FjaGVkID0gYXdhaXQgZ2V0Q2FjaGVkVHRzKGNhY2hlS2V5KTsKICBpZiAoY2FjaGVkKSB7CiAgICByZXR1cm4geyB1cmw6IFVSTC5jcmVhdGVPYmplY3RVUkwoY2FjaGVkKSwgYmxvYjogY2FjaGVkIH07CiAgfQoKICBjb25zdCBoZWFkZXJzOiBSZWNvcmQ8c3RyaW5nLCBzdHJpbmc+ID0gewogICAgJ0NvbnRlbnQtVHlwZSc6ICdhcHBsaWNhdGlvbi9qc29uJywKICAgIEF1dGhvcml6YXRpb246IGBCZWFyZXIgJHthcGlLZXl9YCwKICAgICdYLU1pbmlNYXgtQVBJLUtleSc6IGFwaUtleSwKICB9OwogIGlmIChvcHRpb25zPy5ncm91cElkKSBoZWFkZXJzWydYLU1pbmlNYXgtR3JvdXAtSWQnXSA9IG9wdGlvbnMuZ3JvdXBJZDsKCiAgY29uc3QgcmVzID0gYXdhaXQgbWluaW1heEZldGNoKCcvYXBpL21pbmltYXgvdDJhJywgewogICAgbWV0aG9kOiAnUE9TVCcsCiAgICBoZWFkZXJzLAogICAgYm9keTogSlNPTi5zdHJpbmdpZnkocGF5bG9hZCksCiAgfSk7CiAgY29uc3QgZGF0YSA9IGF3YWl0IHJlcy5qc29uKCk7CiAgaWYgKCFyZXMub2spIHRocm93IG5ldyBFcnJvcihkYXRhPy5lcnJvciB8fCBgVFRTIOWksei0pSAoSFRUUCAke3Jlcy5zdGF0dXN9KWApOwoKICAvLyBDaGVjayBNaW5pTWF4IGJ1c2luZXNzLWxldmVsIGVycm9yIChjYW4gcmV0dXJuIEhUVFAgMjAwIHdpdGggc3RhdHVzX2NvZGUgIT0gMCkKICBjb25zdCBiYXNlUmVzcCA9IGRhdGE/LmJhc2VfcmVzcDsKICBpZiAoYmFzZVJlc3AgJiYgYmFzZVJlc3Auc3RhdHVzX2NvZGUgIT09IDAgJiYgYmFzZVJlc3Auc3RhdHVzX2NvZGUgIT09IHVuZGVmaW5lZCkgewogICAgdGhyb3cgbmV3IEVycm9yKGBUVFMg5Lia5Yqh6ZSZ6K+vOiAke2Jhc2VSZXNwLnN0YXR1c19tc2cgfHwgYHN0YXR1c19jb2RlPSR7YmFzZVJlc3Auc3RhdHVzX2NvZGV9YH1gKTsKICB9CgogIGNvbnN0IGF1ZGlvID0gZGF0YT8uZGF0YT8uYXVkaW87CiAgaWYgKCFhdWRpbykgewogICAgLy8gTG9nIGZ1bGwgcmVzcG9uc2UgZm9yIGRlYnVnZ2luZwogICAgY29uc29sZS5lcnJvcignW1RUU10gTm8gYXVkaW8gaW4gcmVzcG9uc2U6JywgSlNPTi5zdHJpbmdpZnkoZGF0YSkuc2xpY2UoMCwgNTAwKSk7CiAgICB0aHJvdyBuZXcgRXJyb3IoJ1RUUyDov5Tlm57ml6Dpn7PpopHmlbDmja4nKTsKICB9CgogIGxldCBibG9iOiBCbG9iOwogIGlmICgvXmh0dHBzPzpcL1wvL2kudGVzdChhdWRpby50cmltKCkpKSB7CiAgICB0cnkgewogICAgICBibG9iID0gYXdhaXQgZmV0Y2hSZW1vdGVBdWRpb0Jsb2IoYXVkaW8udHJpbSgpKTsKICAgIH0gY2F0Y2ggKGUpIHsKICAgICAgLy8gZmV0Y2goKSBtYXkgZmFpbCBkdWUgdG8gQ09SUyB3aGVuIGhpdHRpbmcgTWluaU1heCBDRE4gZGlyZWN0bHk7CiAgICAgIC8vIHJldHVybiB0aGUgcmF3IFVSTCBzbyA8YXVkaW8gc3JjPS4uLj4gY2FuIGxvYWQgaXQgd2l0aG91dCBDT1JTLgogICAgICBjb25zb2xlLndhcm4oJ1tUVFNdIGZldGNoUmVtb3RlQXVkaW9CbG9iIGZhaWxlZCwgcmV0dXJuaW5nIHJlbW90ZSBVUkwgZGlyZWN0bHknLCAoZSBhcyBhbnkpPy5tZXNzYWdlIHx8IGUpOwogICAgICByZXR1cm4geyB1cmw6IGF1ZGlvLnRyaW0oKSwgYmxvYjogbnVsbCB9OwogICAgfQogIH0gZWxzZSB7CiAgICBibG9iID0gY29udmVydEhleEF1ZGlvVG9CbG9iKGF1ZGlvKTsKICB9CiAgLy8gUGVyc2lzdCB0byB0aGUgc2hhcmVkIGNhY2hlIGluIHRoZSBiYWNrZ3JvdW5kIOKAlCB0aGUgbmV4dCBpZGVudGljYWwgcmVxdWVzdAogIC8vIChzYW1lIHRleHQgKyB2b2ljZSBzZXR0aW5ncykgd2lsbCBiZSBzZXJ2ZWQgbG9jYWxseS4KICBzYXZlQ2FjaGVkVHRzKGNhY2hlS2V5LCBibG9iKS5jYXRjaCgoKSA9PiB7IC8qIGlnbm9yZSAqLyB9KTsKICByZXR1cm4geyB1cmw6IFVSTC5jcmVhdGVPYmplY3RVUkwoYmxvYiksIGJsb2IgfTsKfQoKLyoqCiAqIENhbGwgTWluaU1heCBUVFMgYW5kIHJldHVybiBhIHBsYXlhYmxlIFVSTC4gVGhpbiB3cmFwcGVyIGFyb3VuZAogKiBgc3ludGhlc2l6ZVNwZWVjaERldGFpbGVkYCDigJQgdXNlIHRoYXQgdmFyaWFudCB3aGVuIHlvdSBhbHNvIG5lZWQgdGhlIHJhdyBibG9iLgogKi8KZXhwb3J0IGFzeW5jIGZ1bmN0aW9uIHN5bnRoZXNpemVTcGVlY2goCiAgdGV4dDogc3RyaW5nLAogIGNoYXI6IENoYXJhY3RlclByb2ZpbGUsCiAgYXBpQ29uZmlnOiBBUElDb25maWcsCiAgb3B0aW9ucz86IHsgbGFuZ3VhZ2VCb29zdD86IHN0cmluZzsgZ3JvdXBJZD86IHN0cmluZzsgZW1vdGlvbj86IHN0cmluZyB9Cik6IFByb21pc2U8c3RyaW5nPiB7CiAgY29uc3QgeyB1cmwgfSA9IGF3YWl0IHN5bnRoZXNpemVTcGVlY2hEZXRhaWxlZCh0ZXh0LCBjaGFyLCBhcGlDb25maWcsIG9wdGlvbnMpOwogIHJldHVybiB1cmw7Cn0K
+/**
+ * Shared MiniMax TTS utility — used by ChatApp, DateApp, and CallApp
+ */
+import { CharacterProfile, APIConfig } from '../types';
+import { resolveMiniMaxApiKey } from './minimaxApiKey';
+import { minimaxFetch } from './minimaxEndpoint';
+import { hashTtsParams, getCachedTts, saveCachedTts } from './ttsCache';
+import { normalizeVoiceTags } from './sanitize';
+
+const DEFAULT_MODEL = 'speech-2.8-hd';
+
+// MiniMax 支持的语气标签 — 这些在 TTS 中会被正确演绎，必须保留
+export const VALID_INTERJECTION_TAGS = new Set([
+  'chuckle', 'laughs', 'sighs', 'coughs', 'clear-throat', 'groans',
+  'breath', 'pant', 'inhale', 'exhale', 'gasps', 'sniffs', 'snorts',
+  'lip-smacking', 'humming', 'hissing', 'emm',
+]);
+
+// MiniMax voice_setting.emotion 合法取值（整条一个值）。其余/未知一律丢弃不传。
+export const VALID_EMOTIONS = new Set([
+  'happy', 'sad', 'angry', 'fearful', 'disgusted', 'surprised', 'calm', 'fluent',
+]);
+
+/**
+ * 共享的「语音演出规范」——教 LLM 把台词写成能被 MiniMax 自然念出来的对白。
+ * 聊天语音条 / 电话 / 约会复用同一份，避免各处各写一套、规则互相打架。
+ *
+ * 注意定位：这里只讲「怎么把字写得有呼吸、有情绪节奏」。具体的标签机制
+ * （<语音> 标签怎么用、[emotion] 放哪、动作词白名单）由各调用点自己的
+ * prompt 负责，本块不重复。客户端 insertSpeechBreaks 已经按标点自动插停顿
+ * 并去重封顶 0.6s，所以 LLM 手写的 <#x#> 是「在情绪节点上额外加重」，不是
+ * 唯一的停顿来源——这也是为什么强调「只在该停的地方停」。
+ */
+export const VOICE_ACTING_GUIDE = `### 让它听起来像活人在说话（重要）
+
+你写的字会被原样念出来。目标不是"写一段通顺的话"，而是"写一段读出来有呼吸、有情绪起伏的对白"。读稿感、客服腔、新闻播报腔一旦出现就重写。
+
+**1. 段与段之间要换气，别无缝冲。**
+同一条语音里换行或停顿之后，如果还是你在继续说，第二段开头别一上来就冲进正题——加一个停顿、一个语气词或一次叹气当缓冲。
+✅ 我知道你不是故意的。<#0.6#>只是……我还是会有点难过。
+✅ (sighs) 算了。<#0.5#>听你的。
+❌ 我知道你不是故意的。只是我还是会有点难过。（两句贴死，像棒读）
+这些地方下一句开头尤其要缓一下：解释原因、情绪转折（吐槽转温柔 / 强硬转示弱 / 玩笑转认真）、沉默后再开口、安抚对方、委屈撒娇别扭的时候。
+
+**2. 句子长短交错。** 一连串等长的句子是棒读的头号来源。让短句砸下来，让长句铺开。想强调某个词就拆开念："我。没。拿。"
+
+**3. <#秒#> 停顿放在情绪节点，不要每句都塞。**
+0.2 极短换气 / 0.3 轻顿 / 0.5 普通停顿 / 0.7 犹豫·叹息后停一下 / 1.0 明显沉默·震惊·压抑。
+标记必须夹在能念的字之间（✅ 我没事。<#0.5#>只是有点累。）；别放在句首，也别两个标记连写（<#0.5#><#0.4#> 这种一定删一个）。
+
+**4. 情绪不同，节奏不同：**
+- 温柔安抚：慢、稳、短句多。"没事。<#0.6#>先别急着吓自己。"
+- 委屈撒娇：语气软、停顿多一点但别太戏剧。"嗯……<#0.5#>你刚刚是不是又不理我。"
+- 别扭傲娇：前半句嘴硬后半句放软，中间停一下。"哈。<#0.4#>你还真会折腾我。算了，<#0.5#>我帮你就是了。"
+- 难过压抑：更慢、更多省略号、少用长句。"……我知道。<#0.8#>只是有点难受。"
+- 紧张犹豫：断裂感，短停顿多。"等等。<#0.4#>我好像……<#0.5#>有点不确定。"
+- 吐槽轻松：别太慢，轻微停顿即可。"行吧。<#0.3#>人类又发明了新的折磨方式。"
+
+**5. 密度别失控。** 每 100 字里 <#x#> 大约 1–4 个、动作词 0–2 个。普通对话 2–4 句缓冲一次，强情绪 1–2 句一次。别整段全是同一个停顿值（会像坏掉的导航在念稿），也别连着堆同一个动作词。
+
+（朗读语种不是中文时，上面示例里的中文语气词换成该语言里自然的叹词 / 填充词即可，呼吸和节奏的原理不变。）`;
+
+// [happy]/【angry】… 这类情绪标签是给系统读取/设定 emotion 用的，绝不能被朗读或显示出来。
+const EMOTION_TAG_RE = /[\[【]\s*(?:happy|sad|angry|fearful|disgusted|surprised|calm|fluent)\s*[\]】]/gi;
+/** 移除文本里所有 [emotion] / 【emotion】 标记（任意位置），避免被朗读或显示。 */
+export const stripEmotionTags = (text: string): string => (text || '').replace(EMOTION_TAG_RE, '');
+
+/**
+ * 把「只给 TTS 用」的演出标记从要显示给用户的文本里清掉。
+ * <#秒#> 停顿标记和 (sighs)/(chuckle) 这类动作词是写给语音合成的，
+ * 不应该原样出现在聊天气泡 / 转文字面板里（否则用户看到一堆 <#0.4#>）。
+ * 只删白名单内的动作词；普通括号内容（比如正常的西文括注）保持不动。
+ */
+export const cleanVoiceMarkupForDisplay = (text?: string | null): string => {
+  if (!text) return '';
+  return text
+    .replace(/<#\s*[\d.]+\s*#>/g, '')                 // 停顿标记 <#0.4#>
+    .replace(/\(([^)]{1,40})\)/g, (m, inner: string) =>
+      VALID_INTERJECTION_TAGS.has(inner.trim().toLowerCase()) ? '' : m) // 动作词，仅删白名单
+    .replace(/[ \t]{2,}/g, ' ')                        // 合并多余空格
+    .replace(/[ \t]+([，。！？、；：,.!?…])/g, '$1')    // 标点前残留空格
+    .replace(/([，、；：,])\s*\1+/g, '$1')               // 删标记后留下的连续重复标点
+    .replace(/[ \t]*\n[ \t]*/g, '\n')
+    .replace(/\n{3,}/g, '\n\n')
+    .trim();
+};
+
+// 设计：不再做「中文舞台指示 → 语气标签」的猜测式映射（体验差、不可预测、有损）。
+// 改为「教 LLM 直接写官方 sound tag」+「客户端只做白名单消毒」。
+// 因此这里只保留一个合法标签白名单（上方 VALID_INTERJECTION_TAGS），不保留任何中→英映射表。
+
+/**
+ * 消毒括号内容（不做任何映射，只做白名单）：
+ * - 中文舞台指示（……）一律删除，绝不读出来；
+ * - 西文括号仅保留合法 sound tag（如 (laughs)），其余删除。
+ * LLM 现在被要求直接写官方英文 sound tag，所以这里不再翻译中文提示词。
+ */
+const stripParensPreservingTags = (text: string): string => {
+  return stripEmotionTags(text)
+    // 中文括号舞台指示：一律删除
+    .replace(/（[^）]{0,48}）/g, '')
+    // 西文括号：仅保留白名单 sound tag，其余删除
+    .replace(/\(([^)]{1,80})\)/g, (_m, inner: string) => {
+      const tag = inner.trim().toLowerCase();
+      return VALID_INTERJECTION_TAGS.has(tag) ? `(${tag})` : '';
+    });
+};
+
+/**
+ * Clean text for TTS — strip stage directions, system tags, and voice markup.
+ * If <语音>...</语音> tag exists, use its content (already translated for TTS).
+ * Otherwise, strip（parenthetical cues）so they aren't read aloud.
+ * Known interjection tags like (chuckle) / (sighs) are preserved.
+ */
+export const cleanTextForTts = (raw: string): string => {
+  // 0. 语音标签自愈 — 历史坏数据 (未闭合/孤儿闭合/全角符号) 也要能解析出来
+  raw = normalizeVoiceTags(raw);
+  // 1. If <语音> tag exists (with or without emotion attribute), extract & use its content only
+  const voiceTagMatch = raw.match(/<[语語]音[^>]*>([\s\S]*?)<\/\s*[语語]音\s*>/);
+  if (voiceTagMatch) {
+    return stripParensPreservingTags(voiceTagMatch[1]).replace(/\s+/g, ' ').trim();
+  }
+
+  let text = raw;
+  // 2. Strip [[...]] system markers
+  text = text.replace(/\[\[.*?\]\]/g, '');
+  // 3. Strip %%BILINGUAL%% and everything after
+  text = text.replace(/%%BILINGUAL%%[\s\S]*/i, '');
+  // 4. Strip parenthetical cues (preserving valid interjection tags only)
+  text = stripParensPreservingTags(text);
+  // 5. Strip <语音>...</语音> / <字幕>...</字幕> tags if they somehow remain
+  //    (字幕是显示用的中文对照, 绝不能被朗读)
+  text = text.replace(/<[语語]音[^>]*>[\s\S]*?<\/\s*[语語]音\s*>/g, '');
+  text = text.replace(/<字幕>[\s\S]*?<\/字幕>/g, '');
+  // 6. Collapse whitespace
+  text = text.replace(/\s+/g, ' ').trim();
+  return text;
+};
+
+export interface ParsedVoiceOutput {
+  /** Text OUTSIDE the <语音> tag — what shows in the chat bubble. */
+  display: string;
+  /** TTS-ready spoken text (sanitized: only whitelisted MiniMax sound tags kept). */
+  speech: string;
+  /**
+   * Raw <语音> inner content, whitespace-collapsed only — square-bracket cues and
+   * parens are PRESERVED. Fish Audio needs this so its native inline cues
+   * ([happy]/[whispering]/[break]…) survive to the API; cleanTextForTtsFish does
+   * the provider-appropriate cleaning downstream. Empty when no <语音> tag.
+   */
+  rawSpeech: string;
+  /** Validated MiniMax emotion from the tag's emotion="…" attribute, or undefined. */
+  emotion?: string;
+  /** Whether a <语音> tag was present at all. */
+  hasVoiceTag: boolean;
+  /**
+   * <字幕>…</字幕> 里的中文对照（外语语音模式下模型显式给出的翻译）。
+   * 语音条「转文字」面板的翻译第一优先级用它 —— 有显式字幕就不用猜、不用调 LLM。
+   */
+  subtitle?: string;
+}
+
+// <语音 emotion="happy">…</语音> — emotion attribute optional, single/double/no quotes tolerated.
+// 属性前空格可省 (<语音emotion=…> 也认), 闭合标签容许空格 / 简繁互换。
+const VOICE_TAG_RE = /<[语語]音(?:[^>]*?emotion\s*=\s*["']?([a-zA-Z]+)["']?)?[^>]*>([\s\S]*?)<\/\s*[语語]音\s*>/;
+
+/**
+ * Parse an assistant message into display text + spoken text + emotion.
+ * The single source of truth for the structured voice-output format that the
+ * LLM is taught to emit. Invalid emotions are dropped (returns undefined) so a
+ * malformed attribute can never reach the API.
+ */
+const SUBTITLE_BLOCK_RE = /<字幕>([\s\S]*?)<\/字幕>/;
+
+export const parseVoiceOutput = (raw: string): ParsedVoiceOutput => {
+  if (!raw) return { display: '', speech: '', rawSpeech: '', hasVoiceTag: false };
+  // 语音标签自愈: 未闭合 / 孤儿闭合 / 全角符号 / 属性写歪, 先修再配对。
+  // 新消息落库前 sanitize 已经修过, 这里主要救历史坏数据 + 非落库调用点 (电话/见面)。
+  raw = normalizeVoiceTags(raw);
+  const m = raw.match(VOICE_TAG_RE);
+  if (!m) {
+    // 没有语音标签: 落单的字幕标签剥掉留内文, 别把原始标签当正文
+    return { display: raw.replace(/<\/?字幕>/g, '').trim(), speech: '', rawSpeech: '', hasVoiceTag: false };
+  }
+  const rawEmotion = (m[1] || '').trim().toLowerCase();
+  const emotion = VALID_EMOTIONS.has(rawEmotion) ? rawEmotion : undefined;
+  const speech = stripParensPreservingTags(m[2]).replace(/\s+/g, ' ').trim();
+  // 不做 MiniMax 的括号/情绪标剥离，留给 cleanTextForTtsFish 按鱼声规则处理。
+  const rawSpeech = m[2].replace(/\s+/g, ' ').trim();
+  const subtitle = raw.match(SUBTITLE_BLOCK_RE)?.[1]?.trim() || undefined;
+  // display = 语音块和字幕块之外的文字 (普通闲聊); 字幕单独走 subtitle 字段
+  const display = raw
+    .replace(/<[语語]音[^>]*>[\s\S]*?<\/\s*[语語]音\s*>/g, '')
+    .replace(/<字幕>[\s\S]*?<\/字幕>/g, '')
+    .trim();
+  return { display, speech, rawSpeech, emotion, hasVoiceTag: true, subtitle };
+};
+
+/** 为 TTS 文本插入 MiniMax 原生停顿标签 <#秒数#>，让语音有自然停顿
+ * 停顿层次（从短到长）:
+ *   ，、；  →  0.06s  微停（换气级）
+ *   。！？  →  0.12s  句末停顿
+ *   ——     →  0.18s  话题转折 / 拖长
+ *   ……     →  0.35s  欲言又止 / 沉默感
+ *   \n     →  0.25s  段落换气
+ */
+export const insertSpeechBreaks = (text: string): string => {
+  if (!text) return '';
+  return text
+    // 省略号：欲言又止 / 犹豫
+    .replace(/[…]{2,}/g, '……<#0.45#>')          // 多个省略号连用，更长
+    .replace(/[…]/g, '…<#0.35#>')               // 单个省略号
+    .replace(/\.{3,}/g, '...<#0.35#>')           // 英文省略号
+    // 破折号：话题转折、语气拉长
+    .replace(/——/g, '——<#0.22#>')
+    .replace(/--/g, '--<#0.22#>')
+    // 句末标点：句子之间留出真实呼吸（别让角色一口气赶完）
+    .replace(/([。])/g, '$1<#0.22#>')
+    .replace(/([！？!?])/g, '$1<#0.26#>')        // 感叹/疑问停顿更明显
+    // 句中标点：换气
+    .replace(/([，,])/g, '$1<#0.10#>')
+    .replace(/([、；;：:])/g, '$1<#0.07#>')
+    // 换行：段落间停顿
+    .replace(/\n/g, '\n<#0.30#>')
+    // 去重：相邻多个停顿标签只保留最长的那个（封顶 0.6s）
+    .replace(/(<#[\d.]+#>[\s]*){2,}/g, (match) => {
+      const times = [...match.matchAll(/<#([\d.]+)#>/g)].map(m => parseFloat(m[1]));
+      const maxTime = Math.min(Math.max(...times), 0.6);
+      return `<#${maxTime.toFixed(2)}#>`;
+    })
+    .trim();
+};
+
+/**
+ * Soft-clamp a numeric value to keep it within a safe range.
+ * Preserves direction and feel but prevents extreme spikes that sound unnatural.
+ */
+const softClamp = (value: number, limit: number): number => {
+  if (Math.abs(value) <= limit) return value;
+  // Beyond the limit, compress logarithmically — still moves in the same direction but tapers off
+  const sign = value > 0 ? 1 : -1;
+  const excess = Math.abs(value) - limit;
+  return sign * (limit + Math.log1p(excess) * (limit * 0.15));
+};
+
+/** Build timber_weights & voice_modify extras from a voiceProfile */
+export const buildTtsExtras = (vp: CharacterProfile['voiceProfile']) => {
+  if (!vp) return {};
+  const extras: any = {};
+  const tw = vp.timberWeights;
+  if (tw && tw.length > 1) {
+    extras.timber_weights = (() => {
+      const totalWeight = tw.reduce((sum: number, t: any) => sum + (t.weight || 0), 0);
+      if (totalWeight === 0) return tw.map((t: any) => ({ voice_id: t.voice_id, weight: Math.round(100 / tw.length) }));
+      const raw = tw.map((t: any) => ({ voice_id: t.voice_id, weight: Math.round((t.weight / totalWeight) * 100) }));
+      const diff = 100 - raw.reduce((s: number, r: any) => s + r.weight, 0);
+      if (diff !== 0) raw[0].weight += diff;
+      return raw;
+    })();
+  }
+  if (vp.voiceModify) {
+    const vm: any = {};
+    // Clamp voice_modify params to prevent extreme spikes (e.g. sudden shrill voice)
+    // pitch: safe range ±40 (full API range is ±100)
+    // intensity: safe range ±30 — this is the biggest culprit for sudden shrill spikes
+    // timbre: safe range ±40
+    if (vp.voiceModify.pitch) vm.pitch = Math.round(softClamp(vp.voiceModify.pitch, 40));
+    if (vp.voiceModify.intensity) vm.intensity = Math.round(softClamp(vp.voiceModify.intensity, 30));
+    if (vp.voiceModify.timbre) vm.timbre = Math.round(softClamp(vp.voiceModify.timbre, 40));
+    if (vp.voiceModify.sound_effects) vm.sound_effects = vp.voiceModify.sound_effects;
+    if (Object.keys(vm).length) extras.voice_modify = vm;
+  }
+  return extras;
+};
+
+/**
+ * Build voice_setting fields (speed, vol, pitch, emotion) with safe ranges.
+ * `emotionOverride` (validated MiniMax emotion, e.g. from a <语音 emotion="…"> tag)
+ * wins over the character's static voiceProfile.emotion. Invalid values are ignored.
+ */
+export const buildVoiceSettings = (vp: CharacterProfile['voiceProfile'], emotionOverride?: string) => {
+  const emotion = (emotionOverride && VALID_EMOTIONS.has(emotionOverride))
+    ? emotionOverride
+    : (vp?.emotion || '');
+  return {
+    // Clamp speed to 0.75–1.4 for natural human feel (API allows 0.5–2)
+    speed: Math.max(0.75, Math.min(1.4, vp?.speed ?? 1)),
+    vol: Math.max(0.3, Math.min(2, vp?.vol ?? 1)),
+    // Clamp base pitch to ±8 semitones (API allows ±12) to avoid alien sound
+    pitch: Math.max(-8, Math.min(8, vp?.pitch ?? 0)),
+    // Normalize numbers/English so "2.8" etc. are read naturally
+    english_normalization: true,
+    ...(emotion ? { emotion } : {}),
+  };
+};
+
+/** Convert hex audio from MiniMax to a playable Blob */
+export const convertHexAudioToBlob = (hexAudio: string, mimeType = 'audio/mpeg'): Blob => {
+  const cleanHex = hexAudio.trim().replace(/^0x/i, '');
+  if (!cleanHex || cleanHex.length % 2 !== 0 || /[^\da-f]/i.test(cleanHex)) {
+    throw new Error('MiniMax 返回的 HEX 音频数据格式异常');
+  }
+  const bytes = new Uint8Array(cleanHex.length / 2);
+  for (let i = 0; i < cleanHex.length; i += 2) {
+    bytes[i / 2] = Number.parseInt(cleanHex.slice(i, i + 2), 16);
+  }
+  return new Blob([bytes], { type: mimeType });
+};
+
+/** Fetch remote audio URL and return as Blob */
+export const fetchRemoteAudioBlob = async (sourceUrl: string): Promise<Blob> => {
+  const cacheBustedUrl = sourceUrl.includes('?')
+    ? `${sourceUrl}&_ts=${Date.now()}`
+    : `${sourceUrl}?_ts=${Date.now()}`;
+  const response = await fetch(cacheBustedUrl, { cache: 'no-store' });
+  if (!response.ok) throw new Error(`音频下载失败（HTTP ${response.status}）`);
+  const blob = await response.blob();
+  if (!blob.size) throw new Error('音频下载为空文件');
+  return blob;
+};
+
+export interface TtsResult {
+  /** Playable URL for <audio> — a blob: URL when `blob` is present, otherwise a remote MiniMax CDN URL */
+  url: string;
+  /** Raw audio blob when available. Null when we fell back to the remote URL (CORS / network). */
+  blob: Blob | null;
+}
+
+/**
+ * Call MiniMax TTS and return both the raw blob (if available) and a playable URL.
+ * Prefer this variant when you need to persist audio to storage — the blob can be
+ * written to IndexedDB so the audio survives page/component reloads.
+ */
+export async function synthesizeSpeechDetailed(
+  text: string,
+  char: CharacterProfile,
+  apiConfig: APIConfig,
+  options?: { languageBoost?: string; groupId?: string; emotion?: string }
+): Promise<TtsResult> {
+  const apiKey = resolveMiniMaxApiKey(apiConfig);
+  if (!apiKey) throw new Error('缺少 MiniMax API Key');
+  const vp = char.voiceProfile;
+  if (!vp?.voiceId && (!vp?.timberWeights || vp.timberWeights.length === 0)) {
+    throw new Error('角色未配置语音');
+  }
+
+  // Insert natural pauses at punctuation marks
+  const processedText = insertSpeechBreaks(text);
+
+  const payload: any = {
+    model: vp?.model || DEFAULT_MODEL,
+    text: processedText,
+    voice_setting: {
+      voice_id: vp?.voiceId || '',
+      ...buildVoiceSettings(vp, options?.emotion),
+    },
+    audio_setting: { format: 'mp3' },
+    ...buildTtsExtras(vp),
+  };
+  // Only set language_boost when an explicit voice language is chosen. Leaving it
+  // unset keeps Chinese prosody stable (auto-detect made the tone wobble per line).
+  if (options?.languageBoost) payload.language_boost = options.languageBoost;
+
+  // Check the shared cache before hitting the network. Two call sites that
+  // build the same payload get the same hash and reuse whichever one synthesized
+  // the audio first — across sessions, across apps.
+  const cacheKey = hashTtsParams({
+    kind: 'minimax-t2a',
+    text: payload.text,
+    model: payload.model,
+    voice_setting: payload.voice_setting,
+    timber_weights: payload.timber_weights,
+    voice_modify: payload.voice_modify,
+    language_boost: payload.language_boost,
+    audio_setting: payload.audio_setting,
+  });
+  const cached = await getCachedTts(cacheKey);
+  if (cached) {
+    return { url: URL.createObjectURL(cached), blob: cached };
+  }
+
+  const headers: Record<string, string> = {
+    'Content-Type': 'application/json',
+    Authorization: `Bearer ${apiKey}`,
+    'X-MiniMax-API-Key': apiKey,
+  };
+  if (options?.groupId) headers['X-MiniMax-Group-Id'] = options.groupId;
+
+  const res = await minimaxFetch('/api/minimax/t2a', {
+    method: 'POST',
+    headers,
+    body: JSON.stringify(payload),
+  });
+  const data = await res.json();
+  if (!res.ok) throw new Error(data?.error || `TTS 失败 (HTTP ${res.status})`);
+
+  // Check MiniMax business-level error (can return HTTP 200 with status_code != 0)
+  const baseResp = data?.base_resp;
+  if (baseResp && baseResp.status_code !== 0 && baseResp.status_code !== undefined) {
+    throw new Error(`TTS 业务错误: ${baseResp.status_msg || `status_code=${baseResp.status_code}`}`);
+  }
+
+  const audio = data?.data?.audio;
+  if (!audio) {
+    // Log full response for debugging
+    console.error('[TTS] No audio in response:', JSON.stringify(data).slice(0, 500));
+    throw new Error('TTS 返回无音频数据');
+  }
+
+  let blob: Blob;
+  if (/^https?:\/\//i.test(audio.trim())) {
+    try {
+      blob = await fetchRemoteAudioBlob(audio.trim());
+    } catch (e) {
+      // fetch() may fail due to CORS when hitting MiniMax CDN directly;
+      // return the raw URL so <audio src=...> can load it without CORS.
+      console.warn('[TTS] fetchRemoteAudioBlob failed, returning remote URL directly', (e as any)?.message || e);
+      return { url: audio.trim(), blob: null };
+    }
+  } else {
+    blob = convertHexAudioToBlob(audio);
+  }
+  // Persist to the shared cache in the background — the next identical request
+  // (same text + voice settings) will be served locally.
+  saveCachedTts(cacheKey, blob).catch(() => { /* ignore */ });
+  return { url: URL.createObjectURL(blob), blob };
+}
+
+/**
+ * Call MiniMax TTS and return a playable URL. Thin wrapper around
+ * `synthesizeSpeechDetailed` — use that variant when you also need the raw blob.
+ */
+export async function synthesizeSpeech(
+  text: string,
+  char: CharacterProfile,
+  apiConfig: APIConfig,
+  options?: { languageBoost?: string; groupId?: string; emotion?: string }
+): Promise<string> {
+  const { url } = await synthesizeSpeechDetailed(text, char, apiConfig, options);
+  return url;
+}

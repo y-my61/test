@@ -1,1 +1,86 @@
-aW1wb3J0IHsgQ2FwYWNpdG9yIH0gZnJvbSAnQGNhcGFjaXRvci9jb3JlJzsKaW1wb3J0IHsgRmlsZXN5c3RlbSwgRGlyZWN0b3J5LCBFbmNvZGluZyB9IGZyb20gJ0BjYXBhY2l0b3IvZmlsZXN5c3RlbSc7CmltcG9ydCB7IFNoYXJlIH0gZnJvbSAnQGNhcGFjaXRvci9zaGFyZSc7CgpleHBvcnQgaW50ZXJmYWNlIFNoYXJlT3JEb3dubG9hZE9wdGlvbnMgewogICAgLyoqIOaWh+S7tuaWh+acrOWGheWuue+8iOebruWJjeWvvOWHuumDveaYr+aWh+acrO+8jOWmgiBKU09OIC8gdHh077yJ44CCICovCiAgICBjb250ZW50OiBzdHJpbmc7CiAgICAvKiog5bim5omp5bGV5ZCN55qE5paH5Lu25ZCN77yM5aaCIGB3b3JsZGJvb2suanNvbmDjgIIgKi8KICAgIGZpbGVOYW1lOiBzdHJpbmc7CiAgICAvKiogTUlNRSDnsbvlnovvvIzpu5jorqQgYGFwcGxpY2F0aW9uL2pzb25g44CCICovCiAgICBtaW1lVHlwZT86IHN0cmluZzsKICAgIC8qKiDns7vnu58gLyBXZWIg5YiG5Lqr6Z2i5p2/5qCH6aKY77yM6buY6K6k5Y+W5paH5Lu25ZCN44CCICovCiAgICBzaGFyZVRpdGxlPzogc3RyaW5nOwp9CgovKioKICog5by65Yi25ouJ6LW35YiG5Lqr55qE5paH5Lu25a+85Ye677ya5Y6f55Sf77yIQ2FwYWNpdG9yIFNoYXJl77yJ4oaSIFdlYiBTaGFyZSBBUEkg4oaSIOa1j+iniOWZqOS4i+i9veWFnOW6leOAggogKgogKiBTdWxseU9TIOW4uOiiq+WMheaIkOenu+WKqOerryBXZWJWaWV3IC8g5Y6f55Sf5aOz77yM6L+Z57G7546v5aKD6YeMIGA8YSBkb3dubG9hZD5gIOW+gOW+gOS4jeinpuWPkeS7u+S9leS4nOilv++8jAogKiDnm7TmjqXkuIvovb3kvJrjgIzngrnkuobmsqHlj43lupQgPSDlr7zkuI3lh7rmnaXjgI3jgILmiYDku6XlhYjlsJ3or5XosIPotbfns7vnu58gLyDmtY/op4jlmajnmoTliIbkuqvpnaLmnb/miormlofku7bpgIHlh7rljrvvvIwKICog5Y+q5pyJ5Zyo5pei5rKh5pyJ5Y6f55Sf5YiG5Lqr44CB5Lmf5rKh5pyJIFdlYiBTaGFyZSDog73lipvml7bvvIzmiY3pgIDlm57liLDmtY/op4jlmajkuIvovb3jgIIKICoKICog5LiOIGFwcHMvQ2hhcmFjdGVyLnRzeCDnmoTop5LoibLljaHlr7zlh7rkv53mjIHkuIDoh7TnmoTkuInnuqflhZzlupXnrZbnlaXjgIIKICoKICogQHJldHVybnMgYCdzaGFyZWQnYCDlt7LosIPotbfliIbkuqvpnaLmnb/vvJtgJ2Rvd25sb2FkZWQnYCDotbDkuobmtY/op4jlmajkuIvovb3lhZzlupXjgIIKICovCmV4cG9ydCBhc3luYyBmdW5jdGlvbiBzaGFyZU9yRG93bmxvYWRGaWxlKG9wdGlvbnM6IFNoYXJlT3JEb3dubG9hZE9wdGlvbnMpOiBQcm9taXNlPCdzaGFyZWQnIHwgJ2Rvd25sb2FkZWQnPiB7CiAgICBjb25zdCB7IGNvbnRlbnQsIGZpbGVOYW1lLCBtaW1lVHlwZSA9ICdhcHBsaWNhdGlvbi9qc29uJywgc2hhcmVUaXRsZSA9IGZpbGVOYW1lIH0gPSBvcHRpb25zOwoKICAgIC8vIDEpIOWOn+eUn+W5s+WPsO+8muWGmee8k+WtmCDihpIg5Y+WIFVSSSDihpIg6LCD6LW357O757uf5YiG5Lqr6Z2i5p2/44CCCiAgICBpZiAoQ2FwYWNpdG9yLmlzTmF0aXZlUGxhdGZvcm0oKSkgewogICAgICAgIHRyeSB7CiAgICAgICAgICAgIGF3YWl0IEZpbGVzeXN0ZW0ud3JpdGVGaWxlKHsKICAgICAgICAgICAgICAgIHBhdGg6IGZpbGVOYW1lLAogICAgICAgICAgICAgICAgZGF0YTogY29udGVudCwKICAgICAgICAgICAgICAgIGRpcmVjdG9yeTogRGlyZWN0b3J5LkNhY2hlLAogICAgICAgICAgICAgICAgZW5jb2Rpbmc6IEVuY29kaW5nLlVURjgsCiAgICAgICAgICAgIH0pOwogICAgICAgICAgICBjb25zdCB1cmlSZXN1bHQgPSBhd2FpdCBGaWxlc3lzdGVtLmdldFVyaSh7CiAgICAgICAgICAgICAgICBkaXJlY3Rvcnk6IERpcmVjdG9yeS5DYWNoZSwKICAgICAgICAgICAgICAgIHBhdGg6IGZpbGVOYW1lLAogICAgICAgICAgICB9KTsKICAgICAgICAgICAgYXdhaXQgU2hhcmUuc2hhcmUoewogICAgICAgICAgICAgICAgdGl0bGU6IHNoYXJlVGl0bGUsCiAgICAgICAgICAgICAgICBmaWxlczogW3VyaVJlc3VsdC51cmldLAogICAgICAgICAgICB9KTsKICAgICAgICAgICAgcmV0dXJuICdzaGFyZWQnOwogICAgICAgIH0gY2F0Y2ggKGUpIHsKICAgICAgICAgICAgLy8g5Y6f55Sf5YiG5Lqr5aSx6LSlIOKGkiDokL3liLAgV2ViIOWIhuS6qyAvIOS4i+i9veWFnOW6leOAggogICAgICAgICAgICBjb25zb2xlLmVycm9yKCdOYXRpdmUgRXhwb3J0IEVycm9yJywgZSk7CiAgICAgICAgfQogICAgfQoKICAgIC8vIDIpIFdlYiBTaGFyZSBBUEnvvIjnp7vliqjnq6/mtY/op4jlmaggLyDmlK/mjIHnmoQgV2ViVmlld++8ieOAggogICAgdHJ5IHsKICAgICAgICBjb25zdCBmaWxlID0gbmV3IEZpbGUoW2NvbnRlbnRdLCBmaWxlTmFtZSwgeyB0eXBlOiBtaW1lVHlwZSB9KTsKICAgICAgICBjb25zdCBjYW5TaGFyZUZpbGUgPSB0eXBlb2YgbmF2aWdhdG9yICE9PSAndW5kZWZpbmVkJwogICAgICAgICAgICAmJiB0eXBlb2YgbmF2aWdhdG9yLnNoYXJlID09PSAnZnVuY3Rpb24nCiAgICAgICAgICAgICYmICh0eXBlb2YgbmF2aWdhdG9yLmNhblNoYXJlICE9PSAnZnVuY3Rpb24nIHx8IG5hdmlnYXRvci5jYW5TaGFyZSh7IGZpbGVzOiBbZmlsZV0gfSkpOwoKICAgICAgICBpZiAoY2FuU2hhcmVGaWxlKSB7CiAgICAgICAgICAgIGF3YWl0IG5hdmlnYXRvci5zaGFyZSh7CiAgICAgICAgICAgICAgICB0aXRsZTogc2hhcmVUaXRsZSwKICAgICAgICAgICAgICAgIGZpbGVzOiBbZmlsZV0sCiAgICAgICAgICAgIH0pOwogICAgICAgICAgICByZXR1cm4gJ3NoYXJlZCc7CiAgICAgICAgfQogICAgfSBjYXRjaCAoZTogYW55KSB7CiAgICAgICAgLy8g55So5oi35Y+W5raI77yIQWJvcnRFcnJvcu+8ieS4juS4jeaUr+aMgeeahOaDheWGtemDvee7p+e7rei1sOS4i+i9veWFnOW6le+8jOS/neivgeS4gOWumuiDveaLv+WIsOaWh+S7tuOAggogICAgICAgIGlmIChlPy5uYW1lICE9PSAnQWJvcnRFcnJvcicpIHsKICAgICAgICAgICAgY29uc29sZS5lcnJvcignV2ViIFNoYXJlIEV4cG9ydCBFcnJvcicsIGUpOwogICAgICAgIH0KICAgIH0KCiAgICAvLyAzKSDmtY/op4jlmajkuIvovb3lhZzlupXjgIIKICAgIGNvbnN0IGJsb2IgPSBuZXcgQmxvYihbY29udGVudF0sIHsgdHlwZTogbWltZVR5cGUgfSk7CiAgICBjb25zdCB1cmwgPSBVUkwuY3JlYXRlT2JqZWN0VVJMKGJsb2IpOwogICAgY29uc3QgYW5jaG9yID0gZG9jdW1lbnQuY3JlYXRlRWxlbWVudCgnYScpOwogICAgYW5jaG9yLmhyZWYgPSB1cmw7CiAgICBhbmNob3IuZG93bmxvYWQgPSBmaWxlTmFtZTsKICAgIGRvY3VtZW50LmJvZHkuYXBwZW5kQ2hpbGQoYW5jaG9yKTsKICAgIGFuY2hvci5jbGljaygpOwogICAgYW5jaG9yLnJlbW92ZSgpOwogICAgVVJMLnJldm9rZU9iamVjdFVSTCh1cmwpOwogICAgcmV0dXJuICdkb3dubG9hZGVkJzsKfQo=
+import { Capacitor } from '@capacitor/core';
+import { Filesystem, Directory, Encoding } from '@capacitor/filesystem';
+import { Share } from '@capacitor/share';
+
+export interface ShareOrDownloadOptions {
+    /** 文件文本内容（目前导出都是文本，如 JSON / txt）。 */
+    content: string;
+    /** 带扩展名的文件名，如 `worldbook.json`。 */
+    fileName: string;
+    /** MIME 类型，默认 `application/json`。 */
+    mimeType?: string;
+    /** 系统 / Web 分享面板标题，默认取文件名。 */
+    shareTitle?: string;
+}
+
+/**
+ * 强制拉起分享的文件导出：原生（Capacitor Share）→ Web Share API → 浏览器下载兜底。
+ *
+ * SullyOS 常被包成移动端 WebView / 原生壳，这类环境里 `<a download>` 往往不触发任何东西，
+ * 直接下载会「点了没反应 = 导不出来」。所以先尝试调起系统 / 浏览器的分享面板把文件送出去，
+ * 只有在既没有原生分享、也没有 Web Share 能力时，才退回到浏览器下载。
+ *
+ * 与 apps/Character.tsx 的角色卡导出保持一致的三级兜底策略。
+ *
+ * @returns `'shared'` 已调起分享面板；`'downloaded'` 走了浏览器下载兜底。
+ */
+export async function shareOrDownloadFile(options: ShareOrDownloadOptions): Promise<'shared' | 'downloaded'> {
+    const { content, fileName, mimeType = 'application/json', shareTitle = fileName } = options;
+
+    // 1) 原生平台：写缓存 → 取 URI → 调起系统分享面板。
+    if (Capacitor.isNativePlatform()) {
+        try {
+            await Filesystem.writeFile({
+                path: fileName,
+                data: content,
+                directory: Directory.Cache,
+                encoding: Encoding.UTF8,
+            });
+            const uriResult = await Filesystem.getUri({
+                directory: Directory.Cache,
+                path: fileName,
+            });
+            await Share.share({
+                title: shareTitle,
+                files: [uriResult.uri],
+            });
+            return 'shared';
+        } catch (e) {
+            // 原生分享失败 → 落到 Web 分享 / 下载兜底。
+            console.error('Native Export Error', e);
+        }
+    }
+
+    // 2) Web Share API（移动端浏览器 / 支持的 WebView）。
+    try {
+        const file = new File([content], fileName, { type: mimeType });
+        const canShareFile = typeof navigator !== 'undefined'
+            && typeof navigator.share === 'function'
+            && (typeof navigator.canShare !== 'function' || navigator.canShare({ files: [file] }));
+
+        if (canShareFile) {
+            await navigator.share({
+                title: shareTitle,
+                files: [file],
+            });
+            return 'shared';
+        }
+    } catch (e: any) {
+        // 用户取消（AbortError）与不支持的情况都继续走下载兜底，保证一定能拿到文件。
+        if (e?.name !== 'AbortError') {
+            console.error('Web Share Export Error', e);
+        }
+    }
+
+    // 3) 浏览器下载兜底。
+    const blob = new Blob([content], { type: mimeType });
+    const url = URL.createObjectURL(blob);
+    const anchor = document.createElement('a');
+    anchor.href = url;
+    anchor.download = fileName;
+    document.body.appendChild(anchor);
+    anchor.click();
+    anchor.remove();
+    URL.revokeObjectURL(url);
+    return 'downloaded';
+}

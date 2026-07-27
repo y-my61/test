@@ -1,1 +1,19 @@
-77u/aW1wb3J0IHsgZ2V0UmVpU2VydmVyLCBoYW5kbGVyUmVzdWx0VG9SZXNwb25zZSwgaW50ZXJuYWxFcnJvclJlc3BvbnNlLCBtZXRob2ROb3RBbGxvd2VkLCBwcmVmbGlnaHRSZXNwb25zZSwgcmVhZFJlcXVlc3RCb2R5LCB0b0hlYWRlck9iamVjdCB9IGZyb20gJy4vX3NoYXJlZC9yZWknOwoKZXhwb3J0IGRlZmF1bHQgYXN5bmMgKHJlcTogUmVxdWVzdCkgPT4gewogIGlmIChyZXEubWV0aG9kID09PSAnT1BUSU9OUycpIHsKICAgIHJldHVybiBwcmVmbGlnaHRSZXNwb25zZSgnUE9TVCcpOwogIH0KCiAgaWYgKHJlcS5tZXRob2QgIT09ICdQT1NUJykgewogICAgcmV0dXJuIG1ldGhvZE5vdEFsbG93ZWQoJ1BPU1QnKTsKICB9CgogIHRyeSB7CiAgICBjb25zdCByZWkgPSBhd2FpdCBnZXRSZWlTZXJ2ZXIocmVxKTsKICAgIGNvbnN0IHJlc3VsdCA9IGF3YWl0IHJlaS5oYW5kbGVycy5pbml0VGVuYW50LlBPU1QodG9IZWFkZXJPYmplY3QocmVxKSwgYXdhaXQgcmVhZFJlcXVlc3RCb2R5KHJlcSkpOwogICAgcmV0dXJuIGhhbmRsZXJSZXN1bHRUb1Jlc3BvbnNlKHJlc3VsdCk7CiAgfSBjYXRjaCAoZXJyb3IpIHsKICAgIHJldHVybiBpbnRlcm5hbEVycm9yUmVzcG9uc2UoZXJyb3IpOwogIH0KfTsK
+﻿import { getReiServer, handlerResultToResponse, internalErrorResponse, methodNotAllowed, preflightResponse, readRequestBody, toHeaderObject } from './_shared/rei';
+
+export default async (req: Request) => {
+  if (req.method === 'OPTIONS') {
+    return preflightResponse('POST');
+  }
+
+  if (req.method !== 'POST') {
+    return methodNotAllowed('POST');
+  }
+
+  try {
+    const rei = await getReiServer(req);
+    const result = await rei.handlers.initTenant.POST(toHeaderObject(req), await readRequestBody(req));
+    return handlerResultToResponse(result);
+  } catch (error) {
+    return internalErrorResponse(error);
+  }
+};

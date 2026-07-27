@@ -1,1 +1,320 @@
-Ly8gdjIg5aSH5Lu95qC85byP77ya5YiG54mH6K+75YaZ55qE57qv6YC76L6R77yM5Yi75oSP5LiN56KwIFJlYWN0IC8gRE9NIC8gQ2FwYWNpdG9y77yM5Y+q5L6d6LWW5LiA5Liq5pyA5bCP55qECi8vIHppcCDor7vlhpnmjqXlj6PvvIzlpb3lnKggbm9kZSDmtYvor5Xnjq/looPph4zmi7/nnJ8ganN6aXAg5Y2V5rWL5b6A6L+U44CCCi8vCi8vIOiuvuiuoeS4u+e6v++8iOingSBub3Rlcy9iYWNrdXAtc3RyZWFtaW5nLXJlZmFjdG9yLXBsYW4ubWTvvInvvJoKLy8gICDlr7zlh7rnq6/lhYjmjIkgdjEg6ICB6YC76L6R5oqK5omA5pyJ5pWw5o2u5pSS6L+b5LiA5LiqIGJhY2t1cERhdGEg5a+56LGh77yI6KeS6ImyL+a2iOaBry/ljZXkvosv6K6+572u4oCm4oCm77yMCi8vICAg54m55q6K5YiG5pSv5LiA5a2X5LiN5pS577yJ77yb6L+Z6YeM5Y+q6LSf6LSj44CM5o2i5LiA56eN5a2Y5rOV44CN4oCU4oCU5oqK5YW25Lit55qE5pWw57uE5a2X5q615YiG54mH5YaZ6L+bCi8vICAgc3RvcmVzLzxmaWVsZD4uTk5OLmpzb27vvIzlhbbkvZnpnZ7mlbDnu4TlrZfmrrXvvIjkuLvpopgv6K6+572uL+WNleS+i+Wvueixoeetie+8ieaVtOi/myBtZXRhZGF0YS5qc29u77yMCi8vICAg5pS25bC+5YaZ5LiA5Lu9IG1hbmlmZXN0Lmpzb24g5b2T5a+85YWl5aWR57qm44CCCi8vICAg5a+85YWl56uv6K+7IG1hbmlmZXN077yM5oqK5ZCE54mH5ou85Zue44CM5LiOIHYxIOWujOWFqOebuOWQjOeahCBkYXRhIOWvueixoeOAje+8jOWGjeWWgue7meWOn+WwgeS4jeWKqOeahAovLyAgIGltcG9ydEZ1bGxEYXRh4oCU4oCU6L+Y5Y6f6K+t5LmJ77yIY2xlYXItYW5kLWFkZCAvIG1lcmdlIC8g5Y2V5L6LIC8gbWVkaWFfb25seSDooaXkuIHigKbigKbvvInlhajpg6gKLy8gICDnlZnlnKggaW1wb3J0RnVsbERhdGEg6YeM77yM6L+Z6YeM5LiN6YeN5YaZ77yM5omA5Lul5LiN5Lya5Ye6546w44CM5Lik5aWX6K+t5LmJ5b285q2k5ryC56e744CN44CCCi8vCi8vIOS4uuS7gOS5iOWNleaguSBkYXRhLmpzb24g5Lya5bSp77ya5a+55Y2V5Liq6LaF5aSn5pWw57uE5oiW5pW05YyF5YGaIEpTT04uc3RyaW5naWZ577yM5paH5pys6ZW/5bqm6YC86L+RIEpTCi8vIOWNleWtl+espuS4siB+NTEyTe+8iDJeMjnvvInkuIrpmZDkvJrnoa7lrprmgKfmipsgUmFuZ2VFcnJvcuOAguWIhueJh+WQjuavj+eJh+Wtl+espuS4sumVv+W6puacieeVjO+8jOawuOS4jeinpuS4iumZkOOAggoKZXhwb3J0IGNvbnN0IEJBQ0tVUF9GT1JNQVRfVkVSU0lPTiA9IDI7CgovKiog5YiG54mH6ZiI5YC844CC5rOo5oSP6L+Z6YeM55qE44CMTGVu44CN6YeP55qE5pivIEpTIOWtl+espuS4sumVv+W6pu+8iFVURi0xNiDnoIHlhYPmlbDvvInvvIzmraPmmK8gUmFuZ2VFcnJvciDnm6/nmoTpgqPkuKrph4/vvIwKICogIOS4jeaYryBVVEYtOCDlrZfoioLmlbDigJTigJTnlKjlroPlvZPpmIjlgLzliJrlpb3lrojkvY/jgIzljZXmoLnlrZfnrKbkuLLliKvpgLzov5EgNTEyTeOAjeOAgiAqLwpleHBvcnQgaW50ZXJmYWNlIFNoYXJkTGltaXRzIHsKICAgIC8qKiDljZXniYflrZfnrKbkuLLplb/luqbova/kuIrpmZDvvJrmlJLliLDov5nkuKrplb/luqblsLEgZmx1c2gg5LiA54mHICovCiAgICBtYXhMZW46IG51bWJlcjsKICAgIC8qKiDljZXniYfmnaHmlbDova/kuIrpmZDvvJrmlJLliLDov5nkuYjlpJrmnaHlsLEgZmx1c2gg5LiA54mH77yI6Ziy6LaF5aSa5bCP6K6w5b2V5oyk6L+b5LiA54mH77yJICovCiAgICBtYXhJdGVtczogbnVtYmVyOwogICAgLyoqIOWNleadoeiusOW9leW6j+WIl+WMluehrOS4iumZkO+8muWNleadoeWwsei2heWugyDihpIg5bmy5YeA5oql6ZSZ5Lit5q2i5a+85Ye677yM57ud5LiN6YCA5ZueIFJhbmdlRXJyb3IgKi8KICAgIGhhcmRNYXhMZW46IG51bWJlcjsKfQoKZXhwb3J0IGNvbnN0IERFRkFVTFRfU0hBUkRfTElNSVRTOiBTaGFyZExpbWl0cyA9IHsKICAgIG1heExlbjogMzIgKiAxMDI0ICogMTAyNCwgICAgICAgIC8vIDMyTSDnoIHlhYPvvIzov5zkvY7kuo4gfjUxMk0g5LiK6ZmQCiAgICBtYXhJdGVtczogNTAwMCwKICAgIGhhcmRNYXhMZW46IDI1NiAqIDEwMjQgKiAxMDI0LCAgIC8vIDI1Nk0g56CB5YWDCn07CgovKiog5ZCR6YePIGJpbiDnmoTntKLlvJXpobnvvJrmr4/mnaHlkJHph4/lnKggbWVtb3J5X3ZlY3RvcnMuYmluIOmHjOeahOS9jee9riArIOmHjeW7uuaJgOmcgOWFg+aVsOaNriAqLwpleHBvcnQgaW50ZXJmYWNlIFZlY3RvckluZGV4RW50cnkgewogICAgbWVtb3J5SWQ6IHN0cmluZzsKICAgIGNoYXJJZDogc3RyaW5nOwogICAgZGltZW5zaW9uczogbnVtYmVyOwogICAgbW9kZWw/OiBzdHJpbmc7CiAgICBieXRlT2Zmc2V0OiBudW1iZXI7CiAgICBieXRlTGVuZ3RoOiBudW1iZXI7Cn0KCmV4cG9ydCBpbnRlcmZhY2UgQmFja3VwTWFuaWZlc3QgewogICAgZm9ybWF0VmVyc2lvbjogbnVtYmVyOwogICAgbW9kZT86IHN0cmluZzsKICAgIGNyZWF0ZWRBdD86IG51bWJlcjsKICAgIC8qKiBrZXkgPSBiYWNrdXBEYXRhIOWtl+auteWQje+8iOWmgiBtZXNzYWdlcyAvIGdhbGxlcnlJbWFnZXMgLyBtZW1vcnlOb2Rlc++8ie+8jHZhbHVlID0g5YiG54mH5pWwICsg5oC75p2h5pWwICovCiAgICBzdG9yZXM6IFJlY29yZDxzdHJpbmcsIHsgcGFydHM6IG51bWJlcjsgY291bnQ6IG51bWJlciB9PjsKICAgIC8qKiDlkJHph4/otbDkuozov5vliLbml4Hot6/vvIhtZW1vcnlfdmVjdG9ycy5iaW4gKyAuaW5kZXguanNvbu+8ie+8jOS4jei/myBzdG9yZXPjgILml6DlkJHph4/ml7bnnIHnlaXjgIIgKi8KICAgIHZlY3RvcnM/OiB7IGNvdW50OiBudW1iZXI7IGJ5dGVMZW5ndGg6IG51bWJlciB9OwogICAgYXNzZXRDb3VudD86IG51bWJlcjsKfQoKLyoqIOWGmeerr++8muW+gCB6aXAg6YeM5aGe5paH5pys5paH5Lu277yM5oiW5LqM6L+b5Yi277yIVWludDhBcnJhee+8ieaWh+S7tuOAguS6jOi/m+WItuebtOWGme+8jOe7neS4jee7jyBiYXNlNjQg5aSn5a2X56ym5Liy44CCICovCmV4cG9ydCBpbnRlcmZhY2UgWmlwRmlsZVdyaXRlciB7CiAgICBmaWxlKG5hbWU6IHN0cmluZywgZGF0YTogc3RyaW5nIHwgVWludDhBcnJheSwgb3B0aW9ucz86IHsgYmFzZTY0PzogYm9vbGVhbiB9KTogdm9pZDsKfQoKLyoqIOivu+err++8muaMieWQjeWPluaWh+S7tu+8jOiDveaMieexu+WeiyBhc3luYyDlh7rmlofmnKzmiJblrZfoioLvvJvlj5bkuI3liLDov5Tlm54gbnVsbCAqLwpleHBvcnQgaW50ZXJmYWNlIFppcEZpbGVSZWFkZXIgewogICAgZmlsZShuYW1lOiBzdHJpbmcpOiB7CiAgICAgICAgYXN5bmModHlwZTogJ3N0cmluZycpOiBQcm9taXNlPHN0cmluZz47CiAgICAgICAgYXN5bmModHlwZTogJ3VpbnQ4YXJyYXknKTogUHJvbWlzZTxVaW50OEFycmF5PjsKICAgIH0gfCBudWxsOwp9CgovKiog5ZCR6YePIGJpbiAvIGluZGV4IOWcqCB6aXAg6YeM55qE5Zu65a6a5paH5Lu25ZCNICovCmV4cG9ydCBjb25zdCBWRUNUT1JfQklOX0ZJTEUgPSAnc3RvcmVzL21lbW9yeV92ZWN0b3JzLmJpbic7CmV4cG9ydCBjb25zdCBWRUNUT1JfSU5ERVhfRklMRSA9ICdzdG9yZXMvbWVtb3J5X3ZlY3RvcnMuaW5kZXguanNvbic7CgovKiog5YiG54mH5paH5Lu25ZCN77yac3RvcmVzLzxmaWVsZD4uTk5OLmpzb27jgILlhpnor7vkuKTnq6/nlKjlkIzkuIDkuKrlhazlvI/vvIzpnaDmlbDlrZfkuIvmoIflr7npvZDvvIzkuI3pnaDmlofku7blkI3lrZflhbjluo/jgIIgKi8KZXhwb3J0IGZ1bmN0aW9uIHNoYXJkRmlsZU5hbWUoZmllbGQ6IHN0cmluZywgaW5kZXg6IG51bWJlcik6IHN0cmluZyB7CiAgICByZXR1cm4gYHN0b3Jlcy8ke2ZpZWxkfS4ke1N0cmluZyhpbmRleCkucGFkU3RhcnQoMywgJzAnKX0uanNvbmA7Cn0KCmV4cG9ydCBpbnRlcmZhY2UgV3JpdGVWMk9wdGlvbnMgewogICAgbW9kZT86IHN0cmluZzsKICAgIGNyZWF0ZWRBdD86IG51bWJlcjsKICAgIGFzc2V0Q291bnQ/OiBudW1iZXI7CiAgICBsaW1pdHM/OiBTaGFyZExpbWl0czsKICAgIC8qKiBSZWFjdCDnq6/kvKAgYCgpID0+IG5ldyBQcm9taXNlKHIgPT4gc2V0VGltZW91dChyLCAwKSlgIOiuqeWHuuS4u+e6v+eoi++8m+a1i+ivleerr+WPr+S4jeS8oCAqLwogICAgb25ZaWVsZD86ICgpID0+IFByb21pc2U8dm9pZD47CiAgICAvKiog5ZCR6YeP5LqM6L+b5Yi25peB6Lev77ya6LCD55So5pa577yIT1NDb250ZXh077yJ5bey5oqKIG1lbW9yeV92ZWN0b3JzIOW9kuS4gOWMluaLvOaIkCBiaW4gKyBpbmRleCDml7bkvKDov5vmnaXjgIIKICAgICAqICDlhpnov5sgbWVtb3J5X3ZlY3RvcnMuYmlu77yI5LqM6L+b5Yi255u05YaZ77yJKyAuaW5kZXguanNvbu+8jOW5tuWcqCBtYW5pZmVzdC52ZWN0b3JzIOiusCBjb3VudC9ieXRlTGVuZ3Ro44CCCiAgICAgKiAg5Lyg5LqG6L+Z5Liq5bCx5LiN6KaB5YaN5oqKIG1lbW9yeVZlY3RvcnMg5pS+6L+bIGJhY2t1cERhdGHvvIjlkKbliJnkvJrooqvlvZPmma7pgJrmlbDnu4Tlj4jliIbniYfkuIDpgY3vvInjgIIgKi8KICAgIHZlY3RvcnM/OiB7IGJpbjogVWludDhBcnJheTsgaW5kZXg6IFZlY3RvckluZGV4RW50cnlbXSB9Owp9CgovKioKICog5oqK5bey5pSS5aW955qEIGJhY2t1cERhdGEg5YaZ5oiQIHYyIOWIhueJh+W4g+WxgO+8jOi/lOWbniBtYW5pZmVzdOOAggogKgogKiDkvJrjgIzmtojotLnjgI1iYWNrdXBEYXRh77ya5pWw57uE5a2X5q615YaZ5a6M5Y2z5oqK6K+l5a2X5q61572uIHVuZGVmaW5lZCDph4rmlL7lvJXnlKjvvIzmlrnkvr/lpKfmlbDnu4TlsL3ml6nooqsgR0PjgIIKICog6LCD55So5pa55LiN5bqU5Zyo6LCD55So5ZCO5YaN6K+7IGJhY2t1cERhdGHjgIIKICovCmV4cG9ydCBhc3luYyBmdW5jdGlvbiB3cml0ZVYyQmFja3VwKAogICAgemlwOiBaaXBGaWxlV3JpdGVyLAogICAgYmFja3VwRGF0YTogUmVjb3JkPHN0cmluZywgYW55PiwKICAgIG9wdGlvbnM6IFdyaXRlVjJPcHRpb25zID0ge30sCik6IFByb21pc2U8QmFja3VwTWFuaWZlc3Q+IHsKICAgIGNvbnN0IGxpbWl0cyA9IG9wdGlvbnMubGltaXRzIHx8IERFRkFVTFRfU0hBUkRfTElNSVRTOwogICAgY29uc3Qgb25ZaWVsZCA9IG9wdGlvbnMub25ZaWVsZDsKICAgIGNvbnN0IG1hbmlmZXN0U3RvcmVzOiBSZWNvcmQ8c3RyaW5nLCB7IHBhcnRzOiBudW1iZXI7IGNvdW50OiBudW1iZXIgfT4gPSB7fTsKCiAgICBjb25zdCBzaGFyZEFycmF5RmllbGQgPSBhc3luYyAoZmllbGQ6IHN0cmluZywgYXJyOiBhbnlbXSkgPT4gewogICAgICAgIGxldCBidWY6IHN0cmluZ1tdID0gW107CiAgICAgICAgbGV0IGJ1ZkxlbiA9IDA7CiAgICAgICAgbGV0IHBhcnRzID0gMDsKICAgICAgICBsZXQgd3JpdHRlbkNvdW50ID0gMDsgLy8g5a6e6ZmF5YaZ6L+b5YiG54mH55qE5p2h5pWw77ya5Y+v6IO9IDwgYXJyLmxlbmd0aO+8iOS4i+mdouS8mui3s+i/h+W6j+WIl+WMluaIkCB1bmRlZmluZWQg55qE56m65rSe77yJCiAgICAgICAgY29uc3QgZmx1c2ggPSAoKSA9PiB7CiAgICAgICAgICAgIGlmIChidWYubGVuZ3RoID09PSAwKSByZXR1cm47CiAgICAgICAgICAgIHppcC5maWxlKHNoYXJkRmlsZU5hbWUoZmllbGQsIHBhcnRzKSwgJ1snICsgYnVmLmpvaW4oJywnKSArICddJyk7CiAgICAgICAgICAgIHBhcnRzKys7CiAgICAgICAgICAgIGJ1ZiA9IFtdOwogICAgICAgICAgICBidWZMZW4gPSAwOwogICAgICAgIH07CiAgICAgICAgZm9yIChsZXQgaSA9IDA7IGkgPCBhcnIubGVuZ3RoOyBpKyspIHsKICAgICAgICAgICAgbGV0IHM6IHN0cmluZzsKICAgICAgICAgICAgdHJ5IHsKICAgICAgICAgICAgICAgIHMgPSBKU09OLnN0cmluZ2lmeShhcnJbaV0pOwogICAgICAgICAgICB9IGNhdGNoIChlOiBhbnkpIHsKICAgICAgICAgICAgICAgIHRocm93IG5ldyBFcnJvcihg5aSH5Lu95bqP5YiX5YyW5aSx6LSl77yIJHtmaWVsZH0g56ysICR7aX0g5p2h77yJ77yaJHtlPy5tZXNzYWdlIHx8IGV9YCk7CiAgICAgICAgICAgIH0KICAgICAgICAgICAgLy8gSlNPTi5zdHJpbmdpZnkodW5kZWZpbmVkKSA9PT0gdW5kZWZpbmVk77yb6Lez6L+H56m65rSe77yIcHV0SXRlbXMg6YeK5pS+5ZCO55qE5Y2g5L2N562J5LiN5Lya6L+b6L+Z6YeM77yMCiAgICAgICAgICAgIC8vIOS9hiBiYWNrdXBEYXRhIOeahOeogOeWj+aVsOe7hOS/nemZqei1t+ingei3s+i/h++8ie+8jOS/neaMgeS4jiB2MeOAjEpTT04g5Lii5byDIHVuZGVmaW5lZOOAjeS4gOiHtOOAggogICAgICAgICAgICBpZiAocyA9PT0gdW5kZWZpbmVkKSBjb250aW51ZTsKICAgICAgICAgICAgaWYgKHMubGVuZ3RoID4gbGltaXRzLmhhcmRNYXhMZW4pIHsKICAgICAgICAgICAgICAgIHRocm93IG5ldyBFcnJvcigKICAgICAgICAgICAgICAgICAgICBg5aSH5Lu95Lit5pyJ5Y2V5p2h6K6w5b2V6L+H5aSn77yIJHtmaWVsZH3vvIznuqYgJHtNYXRoLnJvdW5kKHMubGVuZ3RoIC8gMTA0ODU3Nil9TSDlrZfnrKbvvInvvIxgICsKICAgICAgICAgICAgICAgICAgICBg6LaF5Ye65a6J5YWo5LiK6ZmQ77yM5bey5Lit5q2i5a+85Ye65Lul5YWN55Sf5oiQ5o2f5Z2P55qE5aSH5Lu95YyF44CCYCwKICAgICAgICAgICAgICAgICk7CiAgICAgICAgICAgIH0KICAgICAgICAgICAgLy8g5Y2V5p2h5bCx6LaF6L2v5LiK6ZmQ77ya5YWI5oqK5bey5pSS55qEIGZsdXNoIOaOie+8jOiuqei/meadoeeLrOWNoOS4gOeJh++8iEZpbmRpbmcgNe+8iQogICAgICAgICAgICBpZiAocy5sZW5ndGggPj0gbGltaXRzLm1heExlbiAmJiBidWYubGVuZ3RoID4gMCkgZmx1c2goKTsKICAgICAgICAgICAgYnVmLnB1c2gocyk7CiAgICAgICAgICAgIGJ1ZkxlbiArPSBzLmxlbmd0aDsKICAgICAgICAgICAgd3JpdHRlbkNvdW50Kys7CiAgICAgICAgICAgIGlmIChidWZMZW4gPj0gbGltaXRzLm1heExlbiB8fCBidWYubGVuZ3RoID49IGxpbWl0cy5tYXhJdGVtcykgewogICAgICAgICAgICAgICAgZmx1c2goKTsKICAgICAgICAgICAgICAgIGlmIChvbllpZWxkKSBhd2FpdCBvbllpZWxkKCk7CiAgICAgICAgICAgIH0KICAgICAgICB9CiAgICAgICAgZmx1c2goKTsKICAgICAgICAvLyBjb3VudCDnlKjjgIzlrp7pmYXlhpnlhaXmnaHmlbDjgI3ogIzpnZ4gYXJyLmxlbmd0aO+8muS4iumdoui3s+i/h+S6huW6j+WIl+WMluaIkCB1bmRlZmluZWQg55qE56m65rSe77yM6Iul5LuN5oyJCiAgICAgICAgLy8gYXJyLmxlbmd0aCDorrDvvIzlr7zlhaXnq6/jgIzmi7zlh7rmnaHmlbAgPT09IGNvdW5044CN6Ieq5rS95qCh6aqM5Lya5a+55LiA5Liq5pys5p2l5ZCI5rOV55qE5aSH5Lu96K+v5Yik5o2f5Z2PIGFib3J044CCCiAgICAgICAgbWFuaWZlc3RTdG9yZXNbZmllbGRdID0geyBwYXJ0cywgY291bnQ6IHdyaXR0ZW5Db3VudCB9OwogICAgfTsKCiAgICAvLyDkuIDpgY3miasgYmFja3VwRGF0Ye+8muaVsOe7hOWtl+auteWIhueJh++8iOWGmeWujOmHiuaUvu+8ie+8jOWFtuS9memdnuaVsOe7hOWtl+autei/myBtZXRhZGF0YeOAggogICAgY29uc3QgbWV0YUZpZWxkczogUmVjb3JkPHN0cmluZywgYW55PiA9IHt9OwogICAgZm9yIChjb25zdCBrZXkgb2YgT2JqZWN0LmtleXMoYmFja3VwRGF0YSkpIHsKICAgICAgICBjb25zdCB2YWx1ZSA9IGJhY2t1cERhdGFba2V5XTsKICAgICAgICBpZiAoQXJyYXkuaXNBcnJheSh2YWx1ZSkpIHsKICAgICAgICAgICAgYXdhaXQgc2hhcmRBcnJheUZpZWxkKGtleSwgdmFsdWUpOwogICAgICAgICAgICBiYWNrdXBEYXRhW2tleV0gPSB1bmRlZmluZWQ7IC8vIOmHiuaUvuW8leeUqO+8jOW3suiQvSB6aXAKICAgICAgICB9IGVsc2UgewogICAgICAgICAgICBtZXRhRmllbGRzW2tleV0gPSB2YWx1ZTsKICAgICAgICB9CiAgICB9CgogICAgemlwLmZpbGUoJ21ldGFkYXRhLmpzb24nLCBKU09OLnN0cmluZ2lmeShtZXRhRmllbGRzKSk7CgogICAgLy8g5ZCR6YeP5LqM6L+b5Yi25peB6Lev77yaYmluIOebtOWGmSBVaW50OEFycmF577yI5LiN57uPIGJhc2U2NO+8jGJpbiDlpJrlpKfpg73kuI3kvJrmkp7lrZfnrKbkuLLkuIrpmZDvvInvvIwKICAgIC8vIGluZGV4IOaYr+WwjyBKU09O44CCbWFuaWZlc3QudmVjdG9ycyDorrAgY291bnQvYnl0ZUxlbmd0aCDkvpvlr7zlhaXnq6/moKHpqozjgIIKICAgIGxldCB2ZWN0b3JzTWV0YTogeyBjb3VudDogbnVtYmVyOyBieXRlTGVuZ3RoOiBudW1iZXIgfSB8IHVuZGVmaW5lZDsKICAgIGlmIChvcHRpb25zLnZlY3RvcnMpIHsKICAgICAgICB6aXAuZmlsZShWRUNUT1JfQklOX0ZJTEUsIG9wdGlvbnMudmVjdG9ycy5iaW4pOwogICAgICAgIHppcC5maWxlKFZFQ1RPUl9JTkRFWF9GSUxFLCBKU09OLnN0cmluZ2lmeShvcHRpb25zLnZlY3RvcnMuaW5kZXgpKTsKICAgICAgICB2ZWN0b3JzTWV0YSA9IHsgY291bnQ6IG9wdGlvbnMudmVjdG9ycy5pbmRleC5sZW5ndGgsIGJ5dGVMZW5ndGg6IG9wdGlvbnMudmVjdG9ycy5iaW4uYnl0ZUxlbmd0aCB9OwogICAgfQoKICAgIGNvbnN0IG1hbmlmZXN0OiBCYWNrdXBNYW5pZmVzdCA9IHsKICAgICAgICBmb3JtYXRWZXJzaW9uOiBCQUNLVVBfRk9STUFUX1ZFUlNJT04sCiAgICAgICAgbW9kZTogb3B0aW9ucy5tb2RlLAogICAgICAgIGNyZWF0ZWRBdDogb3B0aW9ucy5jcmVhdGVkQXQsCiAgICAgICAgc3RvcmVzOiBtYW5pZmVzdFN0b3JlcywKICAgICAgICB2ZWN0b3JzOiB2ZWN0b3JzTWV0YSwKICAgICAgICBhc3NldENvdW50OiBvcHRpb25zLmFzc2V0Q291bnQsCiAgICB9OwogICAgemlwLmZpbGUoJ21hbmlmZXN0Lmpzb24nLCBKU09OLnN0cmluZ2lmeShtYW5pZmVzdCkpOwogICAgcmV0dXJuIG1hbmlmZXN0Owp9CgpleHBvcnQgaW50ZXJmYWNlIEFzc2VtYmxlVjJPcHRpb25zIHsKICAgIC8qKiBSZWFjdCDnq6/kvKDorqnlh7rkuLvnur/nqIvnmoTlh73mlbDvvJvmtYvor5Xnq6/lj6/kuI3kvKAgKi8KICAgIG9uWWllbGQ/OiAoKSA9PiBQcm9taXNlPHZvaWQ+OwogICAgLyoqIOi/m+W6puWbnuiwg++8muW9k+WJjeWtl+auteOAgeW3suWkhOeQhuWtl+auteW6j+WPt+OAgeWtl+auteaAu+aVsCAqLwogICAgb25TaGFyZFByb2dyZXNzPzogKGZpZWxkOiBzdHJpbmcsIGZpZWxkSW5kZXg6IG51bWJlciwgZmllbGRUb3RhbDogbnVtYmVyKSA9PiB2b2lkOwp9CgovKioKICog6K+7IHYyIOWkh+S7ve+8jOaKiuWQhOWIhueJh+aLvOWbnuOAjOS4jiB2MSDlrozlhajnm7jlkIznmoQgZGF0YSDlr7nosaHjgI3jgIIKICoKICog5YWo56iL5Y+q6K+7IHppcOOAgee7hOijheWGheWtmOWvueixoe+8jOS4jeeisOaVsOaNruW6k+KAlOKAlOaJgOS7peS7u+S9leagoemqjOS4jei/h+ebtOaOpeaKm+mUmeaXtu+8jERCIOS4gOWtl+acquWKqO+8jAogKiDosIPnlKjmlrnlupTlnKjosIPnlKggaW1wb3J0RnVsbERhdGEg5LmL5YmN5YWIIGF3YWl0IOacrOWHveaVsOOAggogKgogKiDmoKHpqozkuInmoaPvvIjpg73lnKjlhpnlupPliY3vvInvvJrikaAgZm9ybWF0VmVyc2lvbiDkuKXmoLznrYnkuo4gMu+8m+KRoSBtYW5pZmVzdCDlo7DmmI7nmoTmr4/kuKrliIbniYfmlofku7bpg73lnKgKICog77yI57y65YiZIGFib3J077yJ77yb4pGiIOavj+Wtl+autee7hOijheWQjuadoeaVsCA9PT0gbWFuaWZlc3QgY291bnTjgIHmr4/niYflv4XpobvmmK/mlbDnu4TvvIjmipPmiJHku6zoh6rlt7Hlr7zlh7rnmoQgYnVn77yMCiAqIOS4jeaYr+mYsueUqOaIt+evoeaUue+8ieOAgue0oOadkOaWh+S7tiBhc3NldHMvKiDkuI3ov5vov5npgZPnoazovrnnlYzigJTigJTnvLrlm77nu7TmjIEgd2Fybitza2lw77yI57y65Zu+5Y+q5Y+v6IO95p2l6IeqCiAqIOevoeaUue+8jOecn+S4ouS6huS5n+aXoOS7juaBouWkje+8jOS4uuWug+aLkue7neaVtOS4quWvvOWFpeayoeaEj+S5ie+8ieOAggogKi8KZXhwb3J0IGFzeW5jIGZ1bmN0aW9uIGFzc2VtYmxlVjJCYWNrdXAoCiAgICB6aXA6IFppcEZpbGVSZWFkZXIsCiAgICBtYW5pZmVzdDogQmFja3VwTWFuaWZlc3QsCiAgICBvcHRpb25zOiBBc3NlbWJsZVYyT3B0aW9ucyA9IHt9LAopOiBQcm9taXNlPFJlY29yZDxzdHJpbmcsIGFueT4+IHsKICAgIGlmICghbWFuaWZlc3QgfHwgdHlwZW9mIG1hbmlmZXN0ICE9PSAnb2JqZWN0JykgewogICAgICAgIHRocm93IG5ldyBFcnJvcign5o2f5Z2P55qE5aSH5Lu95YyF77yabWFuaWZlc3QuanNvbiDml6Dms5Xop6PmnpDjgIInKTsKICAgIH0KICAgIGlmIChtYW5pZmVzdC5mb3JtYXRWZXJzaW9uICE9PSBCQUNLVVBfRk9STUFUX1ZFUlNJT04pIHsKICAgICAgICB0aHJvdyBuZXcgRXJyb3IoCiAgICAgICAgICAgIGDkuI3mlK/mjIHnmoTlpIfku73moLzlvI/niYjmnKzvvJoke21hbmlmZXN0LmZvcm1hdFZlcnNpb25977yI5pys54mI5pys5Y+q6IO95a+85YWlIGZvcm1hdFZlcnNpb24gYCArCiAgICAgICAgICAgIGAke0JBQ0tVUF9GT1JNQVRfVkVSU0lPTn0g55qE5aSH5Lu977yJ77yM5bey5Lit5q2i5a+85YWl77yI5pWw5o2u5pyq5pS55Yqo77yJ44CCYCwKICAgICAgICApOwogICAgfQoKICAgIGNvbnN0IG1ldGFGaWxlID0gemlwLmZpbGUoJ21ldGFkYXRhLmpzb24nKTsKICAgIGlmICghbWV0YUZpbGUpIHRocm93IG5ldyBFcnJvcign5o2f5Z2P55qE5aSH5Lu95YyF77ya5pyJIG1hbmlmZXN0IOS9hue8uiBtZXRhZGF0YS5qc29u77yM5bey5Lit5q2i5a+85YWl77yI5pWw5o2u5pyq5pS55Yqo77yJ44CCJyk7CiAgICBsZXQgZGF0YTogUmVjb3JkPHN0cmluZywgYW55PjsKICAgIHRyeSB7CiAgICAgICAgZGF0YSA9IEpTT04ucGFyc2UoYXdhaXQgbWV0YUZpbGUuYXN5bmMoJ3N0cmluZycpKTsKICAgIH0gY2F0Y2ggewogICAgICAgIHRocm93IG5ldyBFcnJvcign5o2f5Z2P55qE5aSH5Lu95YyF77yabWV0YWRhdGEuanNvbiDop6PmnpDlpLHotKXvvIzlt7LkuK3mraLlr7zlhaXvvIjmlbDmja7mnKrmlLnliqjvvInjgIInKTsKICAgIH0KCiAgICBjb25zdCBzdG9yZXMgPSBtYW5pZmVzdC5zdG9yZXMgfHwge307CiAgICBjb25zdCBmaWVsZHMgPSBPYmplY3Qua2V5cyhzdG9yZXMpOwoKICAgIC8vIOWFiOS4gOmBjeagoemqjOaJgOacieWjsOaYjueahOWIhueJh+aWh+S7tumDveWcqO+8iOe8uuWImSBhYm9ydO+8jOatpOaXtui/mOayoeaLvOS7u+S9leaVsOaNruOAgURCIOacquWKqO+8iQogICAgZm9yIChjb25zdCBmaWVsZCBvZiBmaWVsZHMpIHsKICAgICAgICBjb25zdCB7IHBhcnRzIH0gPSBzdG9yZXNbZmllbGRdOwogICAgICAgIGZvciAobGV0IHAgPSAwOyBwIDwgcGFydHM7IHArKykgewogICAgICAgICAgICBjb25zdCBuYW1lID0gc2hhcmRGaWxlTmFtZShmaWVsZCwgcCk7CiAgICAgICAgICAgIGlmICghemlwLmZpbGUobmFtZSkpIHsKICAgICAgICAgICAgICAgIHRocm93IG5ldyBFcnJvcihg5o2f5Z2P55qE5aSH5Lu95YyF77yabWFuaWZlc3Qg5aOw5piO5LqGICR7bmFtZX0g5L2GIHppcCDph4zmsqHmnInvvIzlt7LkuK3mraLlr7zlhaXvvIjmlbDmja7mnKrmlLnliqjvvInjgIJgKTsKICAgICAgICAgICAgfQogICAgICAgIH0KICAgIH0KCiAgICAvLyDpgJDlrZfmrrXpgJDniYfmi7zlm57lrozmlbTmlbDnu4TvvJtwYXJzZSDlrozkuIDniYfljbPph4rmlL7or6XniYflrZfnrKbkuLLvvJvnu4Too4XlkI7mnaHmlbDlv4XpobvnrYnkuo4gbWFuaWZlc3QgY291bnQKICAgIGZvciAobGV0IGZpID0gMDsgZmkgPCBmaWVsZHMubGVuZ3RoOyBmaSsrKSB7CiAgICAgICAgY29uc3QgZmllbGQgPSBmaWVsZHNbZmldOwogICAgICAgIGNvbnN0IHsgcGFydHMsIGNvdW50IH0gPSBzdG9yZXNbZmllbGRdOwogICAgICAgIGNvbnN0IGFycjogYW55W10gPSBbXTsKICAgICAgICBmb3IgKGxldCBwID0gMDsgcCA8IHBhcnRzOyBwKyspIHsKICAgICAgICAgICAgY29uc3QgbmFtZSA9IHNoYXJkRmlsZU5hbWUoZmllbGQsIHApOwogICAgICAgICAgICBsZXQgc3RyID0gYXdhaXQgemlwLmZpbGUobmFtZSkhLmFzeW5jKCdzdHJpbmcnKTsKICAgICAgICAgICAgbGV0IGNodW5rOiBhbnk7CiAgICAgICAgICAgIHRyeSB7CiAgICAgICAgICAgICAgICBjaHVuayA9IEpTT04ucGFyc2Uoc3RyKTsKICAgICAgICAgICAgfSBjYXRjaCB7CiAgICAgICAgICAgICAgICB0aHJvdyBuZXcgRXJyb3IoYOaNn+Wdj+eahOWkh+S7veWMhe+8miR7bmFtZX0g6Kej5p6Q5aSx6LSl77yM5bey5Lit5q2i5a+85YWl77yI5pWw5o2u5pyq5pS55Yqo77yJ44CCYCk7CiAgICAgICAgICAgIH0KICAgICAgICAgICAgc3RyID0gJyc7IC8vIOmHiuaUvuivpeeJh+Wtl+espuS4sgogICAgICAgICAgICBpZiAoIUFycmF5LmlzQXJyYXkoY2h1bmspKSB7CiAgICAgICAgICAgICAgICB0aHJvdyBuZXcgRXJyb3IoYOaNn+Wdj+eahOWkh+S7veWMhe+8miR7bmFtZX0g5LiN5piv5pWw57uE77yM5bey5Lit5q2i5a+85YWl77yI5pWw5o2u5pyq5pS55Yqo77yJ44CCYCk7CiAgICAgICAgICAgIH0KICAgICAgICAgICAgZm9yIChjb25zdCBpdGVtIG9mIGNodW5rKSBhcnIucHVzaChpdGVtKTsKICAgICAgICAgICAgaWYgKG9wdGlvbnMub25ZaWVsZCkgYXdhaXQgb3B0aW9ucy5vbllpZWxkKCk7CiAgICAgICAgfQogICAgICAgIGlmIChhcnIubGVuZ3RoICE9PSBjb3VudCkgewogICAgICAgICAgICB0aHJvdyBuZXcgRXJyb3IoCiAgICAgICAgICAgICAgICBg5o2f5Z2P55qE5aSH5Lu95YyF77yaJHtmaWVsZH0g5a6e6ZmF5ou85Ye6ICR7YXJyLmxlbmd0aH0g5p2h44CBbWFuaWZlc3Qg5aOw5piOICR7Y291bnR9IOadoe+8jOWvueS4jeS4iu+8jGAgKwogICAgICAgICAgICAgICAgYOW3suS4reatouWvvOWFpe+8iOaVsOaNruacquaUueWKqO+8ieOAgmAsCiAgICAgICAgICAgICk7CiAgICAgICAgfQogICAgICAgIGRhdGFbZmllbGRdID0gYXJyOwogICAgICAgIG9wdGlvbnMub25TaGFyZFByb2dyZXNzPy4oZmllbGQsIGZpLCBmaWVsZHMubGVuZ3RoKTsKICAgIH0KCiAgICAvLyDlkJHph4/kuozov5vliLbml4Hot6/vvJrku44gYmluICsgaW5kZXgg6YeN5bu6IE1lbW9yeVZlY3Rvcltd77yM5aGe6L+bIGRhdGEubWVtb3J5VmVjdG9yc++8jAogICAgLy8g6Lef5YW25a6DIHN0b3JlIOS4gOagt+i1sOmCo+S4gOasoSBpbXBvcnRGdWxsRGF0Ye+8iGNsZWFyLW9uY2XvvInvvIzkuI3otbAgc2F2ZU1hbnkg5peB6Lev44CCCiAgICBpZiAobWFuaWZlc3QudmVjdG9ycykgewogICAgICAgIGNvbnN0IGlkeEZpbGUgPSB6aXAuZmlsZShWRUNUT1JfSU5ERVhfRklMRSk7CiAgICAgICAgY29uc3QgYmluRmlsZSA9IHppcC5maWxlKFZFQ1RPUl9CSU5fRklMRSk7CiAgICAgICAgaWYgKCFpZHhGaWxlIHx8ICFiaW5GaWxlKSB7CiAgICAgICAgICAgIHRocm93IG5ldyBFcnJvcign5o2f5Z2P55qE5aSH5Lu95YyF77yabWFuaWZlc3Qg5aOw5piO5LqG5ZCR6YeP5L2G57y6IGluZGV4L2JpbiDmlofku7bvvIzlt7LkuK3mraLlr7zlhaXvvIjmlbDmja7mnKrmlLnliqjvvInjgIInKTsKICAgICAgICB9CiAgICAgICAgbGV0IGluZGV4OiBWZWN0b3JJbmRleEVudHJ5W107CiAgICAgICAgdHJ5IHsKICAgICAgICAgICAgaW5kZXggPSBKU09OLnBhcnNlKGF3YWl0IGlkeEZpbGUuYXN5bmMoJ3N0cmluZycpKTsKICAgICAgICB9IGNhdGNoIHsKICAgICAgICAgICAgdGhyb3cgbmV3IEVycm9yKCfmjZ/lnY/nmoTlpIfku73ljIXvvJptZW1vcnlfdmVjdG9ycy5pbmRleC5qc29uIOino+aekOWksei0pe+8jOW3suS4reatouWvvOWFpe+8iOaVsOaNruacquaUueWKqO+8ieOAgicpOwogICAgICAgIH0KICAgICAgICBjb25zdCBiaW4gPSBhd2FpdCBiaW5GaWxlLmFzeW5jKCd1aW50OGFycmF5Jyk7CiAgICAgICAgaWYgKCFBcnJheS5pc0FycmF5KGluZGV4KSB8fCBpbmRleC5sZW5ndGggIT09IG1hbmlmZXN0LnZlY3RvcnMuY291bnQpIHsKICAgICAgICAgICAgdGhyb3cgbmV3IEVycm9yKCfmjZ/lnY/nmoTlpIfku73ljIXvvJrlkJHph4/mnaHmlbDkuI4gbWFuaWZlc3Qg5LiN56ym77yM5bey5Lit5q2i5a+85YWl77yI5pWw5o2u5pyq5pS55Yqo77yJ44CCJyk7CiAgICAgICAgfQogICAgICAgIGlmIChiaW4uYnl0ZUxlbmd0aCAhPT0gbWFuaWZlc3QudmVjdG9ycy5ieXRlTGVuZ3RoKSB7CiAgICAgICAgICAgIHRocm93IG5ldyBFcnJvcign5o2f5Z2P55qE5aSH5Lu95YyF77ya5ZCR6YePIGJpbiDlrZfoioLmlbDkuI4gbWFuaWZlc3Qg5LiN56ym77yM5bey5Lit5q2i5a+85YWl77yI5pWw5o2u5pyq5pS55Yqo77yJ44CCJyk7CiAgICAgICAgfQogICAgICAgIGNvbnN0IG9rSW50ID0gKG46IHVua25vd24pOiBuIGlzIG51bWJlciA9PiBOdW1iZXIuaXNTYWZlSW50ZWdlcihuKSAmJiAobiBhcyBudW1iZXIpID49IDA7CiAgICAgICAgY29uc3QgdmVjdG9ycyA9IGluZGV4Lm1hcCgoZSkgPT4gewogICAgICAgICAgICAvLyDlgY/np7sv6ZW/5bqmL+e7tOW6puW/hemhu+aYr+mdnui0n+WuieWFqOaVtOaVsO+8jOS4lOWtl+iKguWMuumXtOiQveWcqCBiaW4g5YaF44CC5bCR5LqG6L+Z6YGT5qCh6aqM77yM5Z2PIGJ5dGVPZmZzZXQKICAgICAgICAgICAgLy8g5Lya6KKrIFVpbnQ4QXJyYXkuc2xpY2UoKSDpkrPliLbmiJDnqbov5oiq5pat55qE5a2X6IqC77yI5LiN5oql6ZSZ77yJ77yM57uE6KOF54Wn5qC36L+H77yMaW1wb3J0RnVsbERhdGEg5riF5penCiAgICAgICAgICAgIC8vIOWtmOaWsCDihpIg5pys6K+lIGFib3J0IOeahOaNn+Wdj+WPmOaIkOS4ouaVsOaNruOAgui/memHjOaKiuWug+aMoeWcqOWGmeW6k+WJje+8iOS5n+mhuuW4puaKk+iHquWutiBvZmZzZXQg566X6ZSZ55qEIGJ1Z++8ieOAggogICAgICAgICAgICBpZiAoIW9rSW50KGUuYnl0ZU9mZnNldCkgfHwgIW9rSW50KGUuYnl0ZUxlbmd0aCkgfHwgIW9rSW50KGUuZGltZW5zaW9ucykpIHsKICAgICAgICAgICAgICAgIHRocm93IG5ldyBFcnJvcihg5o2f5Z2P55qE5aSH5Lu95YyF77ya5ZCR6YePICR7ZS5tZW1vcnlJZH0g55qE5YGP56e7L+mVv+W6pi/nu7TluqbpnZ7ms5XvvIzlt7LkuK3mraLlr7zlhaXvvIjmlbDmja7mnKrmlLnliqjvvInjgIJgKTsKICAgICAgICAgICAgfQogICAgICAgICAgICBpZiAoZS5ieXRlTGVuZ3RoICE9PSBlLmRpbWVuc2lvbnMgKiA0KSB7CiAgICAgICAgICAgICAgICB0aHJvdyBuZXcgRXJyb3IoYOaNn+Wdj+eahOWkh+S7veWMhe+8muWQkemHjyAke2UubWVtb3J5SWR9IOeahOWtl+iKguaVsOS4jue7tOW6puWvueS4jeS4iu+8jOW3suS4reatouWvvOWFpe+8iOaVsOaNruacquaUueWKqO+8ieOAgmApOwogICAgICAgICAgICB9CiAgICAgICAgICAgIGlmIChlLmJ5dGVPZmZzZXQgKyBlLmJ5dGVMZW5ndGggPiBiaW4uYnl0ZUxlbmd0aCkgewogICAgICAgICAgICAgICAgdGhyb3cgbmV3IEVycm9yKGDmjZ/lnY/nmoTlpIfku73ljIXvvJrlkJHph48gJHtlLm1lbW9yeUlkfSDnmoTlrZfoioLljLrpl7Totorov4cgYmluIOacq+Wwvu+8jOW3suS4reatouWvvOWFpe+8iOaVsOaNruacquaUueWKqO+8ieOAgmApOwogICAgICAgICAgICB9CiAgICAgICAgICAgIC8vIHNsaWNlIOWIh+WHuueLrOeriyBidWZmZXLvvIjkuI3mmK8gc3ViYXJyYXkg6KeG5Zu+77yJ77ya5ZCm5YiZIEluZGV4ZWREQiDnu5PmnoTljJblhYvpmobkvJrmiormlbTmoLkgYmluCiAgICAgICAgICAgIC8vIOe7meavj+adoeWQkemHj+WQhOWkjeWItuS4gOmBjeOAgmltcG9ydEZ1bGxEYXRhIOeahCBtZW1vcnlfdmVjdG9ycyDmrrXlr7kgVWludDhBcnJheSDlvaLmgIHljp/moLflrZjjgIIKICAgICAgICAgICAgY29uc3QgdmVjdG9yID0gYmluLnNsaWNlKGUuYnl0ZU9mZnNldCwgZS5ieXRlT2Zmc2V0ICsgZS5ieXRlTGVuZ3RoKTsKICAgICAgICAgICAgaWYgKHZlY3Rvci5ieXRlTGVuZ3RoICE9PSBlLmJ5dGVMZW5ndGgpIHsKICAgICAgICAgICAgICAgIHRocm93IG5ldyBFcnJvcihg5o2f5Z2P55qE5aSH5Lu95YyF77ya5ZCR6YePICR7ZS5tZW1vcnlJZH0g5YiH54mH6ZW/5bqm5byC5bi477yM5bey5Lit5q2i5a+85YWl77yI5pWw5o2u5pyq5pS55Yqo77yJ44CCYCk7CiAgICAgICAgICAgIH0KICAgICAgICAgICAgcmV0dXJuIHsgbWVtb3J5SWQ6IGUubWVtb3J5SWQsIGNoYXJJZDogZS5jaGFySWQsIGRpbWVuc2lvbnM6IGUuZGltZW5zaW9ucywgbW9kZWw6IGUubW9kZWwsIHZlY3RvciB9OwogICAgICAgIH0pOwogICAgICAgIGRhdGEubWVtb3J5VmVjdG9ycyA9IHZlY3RvcnM7CiAgICAgICAgb3B0aW9ucy5vblNoYXJkUHJvZ3Jlc3M/LignbWVtb3J5VmVjdG9ycycsIGZpZWxkcy5sZW5ndGgsIGZpZWxkcy5sZW5ndGggKyAxKTsKICAgIH0KCiAgICByZXR1cm4gZGF0YTsKfQo=
+// v2 备份格式：分片读写的纯逻辑，刻意不碰 React / DOM / Capacitor，只依赖一个最小的
+// zip 读写接口，好在 node 测试环境里拿真 jszip 单测往返。
+//
+// 设计主线（见 notes/backup-streaming-refactor-plan.md）：
+//   导出端先按 v1 老逻辑把所有数据攒进一个 backupData 对象（角色/消息/单例/设置……，
+//   特殊分支一字不改）；这里只负责「换一种存法」——把其中的数组字段分片写进
+//   stores/<field>.NNN.json，其余非数组字段（主题/设置/单例对象等）整进 metadata.json，
+//   收尾写一份 manifest.json 当导入契约。
+//   导入端读 manifest，把各片拼回「与 v1 完全相同的 data 对象」，再喂给原封不动的
+//   importFullData——还原语义（clear-and-add / merge / 单例 / media_only 补丁……）全部
+//   留在 importFullData 里，这里不重写，所以不会出现「两套语义彼此漂移」。
+//
+// 为什么单根 data.json 会崩：对单个超大数组或整包做 JSON.stringify，文本长度逼近 JS
+// 单字符串 ~512M（2^29）上限会确定性抛 RangeError。分片后每片字符串长度有界，永不触上限。
+
+export const BACKUP_FORMAT_VERSION = 2;
+
+/** 分片阈值。注意这里的「Len」量的是 JS 字符串长度（UTF-16 码元数），正是 RangeError 盯的那个量，
+ *  不是 UTF-8 字节数——用它当阈值刚好守住「单根字符串别逼近 512M」。 */
+export interface ShardLimits {
+    /** 单片字符串长度软上限：攒到这个长度就 flush 一片 */
+    maxLen: number;
+    /** 单片条数软上限：攒到这么多条就 flush 一片（防超多小记录挤进一片） */
+    maxItems: number;
+    /** 单条记录序列化硬上限：单条就超它 → 干净报错中止导出，绝不退回 RangeError */
+    hardMaxLen: number;
+}
+
+export const DEFAULT_SHARD_LIMITS: ShardLimits = {
+    maxLen: 32 * 1024 * 1024,        // 32M 码元，远低于 ~512M 上限
+    maxItems: 5000,
+    hardMaxLen: 256 * 1024 * 1024,   // 256M 码元
+};
+
+/** 向量 bin 的索引项：每条向量在 memory_vectors.bin 里的位置 + 重建所需元数据 */
+export interface VectorIndexEntry {
+    memoryId: string;
+    charId: string;
+    dimensions: number;
+    model?: string;
+    byteOffset: number;
+    byteLength: number;
+}
+
+export interface BackupManifest {
+    formatVersion: number;
+    mode?: string;
+    createdAt?: number;
+    /** key = backupData 字段名（如 messages / galleryImages / memoryNodes），value = 分片数 + 总条数 */
+    stores: Record<string, { parts: number; count: number }>;
+    /** 向量走二进制旁路（memory_vectors.bin + .index.json），不进 stores。无向量时省略。 */
+    vectors?: { count: number; byteLength: number };
+    assetCount?: number;
+}
+
+/** 写端：往 zip 里塞文本文件，或二进制（Uint8Array）文件。二进制直写，绝不经 base64 大字符串。 */
+export interface ZipFileWriter {
+    file(name: string, data: string | Uint8Array, options?: { base64?: boolean }): void;
+}
+
+/** 读端：按名取文件，能按类型 async 出文本或字节；取不到返回 null */
+export interface ZipFileReader {
+    file(name: string): {
+        async(type: 'string'): Promise<string>;
+        async(type: 'uint8array'): Promise<Uint8Array>;
+    } | null;
+}
+
+/** 向量 bin / index 在 zip 里的固定文件名 */
+export const VECTOR_BIN_FILE = 'stores/memory_vectors.bin';
+export const VECTOR_INDEX_FILE = 'stores/memory_vectors.index.json';
+
+/** 分片文件名：stores/<field>.NNN.json。写读两端用同一个公式，靠数字下标对齐，不靠文件名字典序。 */
+export function shardFileName(field: string, index: number): string {
+    return `stores/${field}.${String(index).padStart(3, '0')}.json`;
+}
+
+export interface WriteV2Options {
+    mode?: string;
+    createdAt?: number;
+    assetCount?: number;
+    limits?: ShardLimits;
+    /** React 端传 `() => new Promise(r => setTimeout(r, 0))` 让出主线程；测试端可不传 */
+    onYield?: () => Promise<void>;
+    /** 向量二进制旁路：调用方（OSContext）已把 memory_vectors 归一化拼成 bin + index 时传进来。
+     *  写进 memory_vectors.bin（二进制直写）+ .index.json，并在 manifest.vectors 记 count/byteLength。
+     *  传了这个就不要再把 memoryVectors 放进 backupData（否则会被当普通数组又分片一遍）。 */
+    vectors?: { bin: Uint8Array; index: VectorIndexEntry[] };
+}
+
+/**
+ * 把已攒好的 backupData 写成 v2 分片布局，返回 manifest。
+ *
+ * 会「消费」backupData：数组字段写完即把该字段置 undefined 释放引用，方便大数组尽早被 GC。
+ * 调用方不应在调用后再读 backupData。
+ */
+export async function writeV2Backup(
+    zip: ZipFileWriter,
+    backupData: Record<string, any>,
+    options: WriteV2Options = {},
+): Promise<BackupManifest> {
+    const limits = options.limits || DEFAULT_SHARD_LIMITS;
+    const onYield = options.onYield;
+    const manifestStores: Record<string, { parts: number; count: number }> = {};
+
+    const shardArrayField = async (field: string, arr: any[]) => {
+        let buf: string[] = [];
+        let bufLen = 0;
+        let parts = 0;
+        let writtenCount = 0; // 实际写进分片的条数：可能 < arr.length（下面会跳过序列化成 undefined 的空洞）
+        const flush = () => {
+            if (buf.length === 0) return;
+            zip.file(shardFileName(field, parts), '[' + buf.join(',') + ']');
+            parts++;
+            buf = [];
+            bufLen = 0;
+        };
+        for (let i = 0; i < arr.length; i++) {
+            let s: string;
+            try {
+                s = JSON.stringify(arr[i]);
+            } catch (e: any) {
+                throw new Error(`备份序列化失败（${field} 第 ${i} 条）：${e?.message || e}`);
+            }
+            // JSON.stringify(undefined) === undefined；跳过空洞（putItems 释放后的占位等不会进这里，
+            // 但 backupData 的稀疏数组保险起见跳过），保持与 v1「JSON 丢弃 undefined」一致。
+            if (s === undefined) continue;
+            if (s.length > limits.hardMaxLen) {
+                throw new Error(
+                    `备份中有单条记录过大（${field}，约 ${Math.round(s.length / 1048576)}M 字符），` +
+                    `超出安全上限，已中止导出以免生成损坏的备份包。`,
+                );
+            }
+            // 单条就超软上限：先把已攒的 flush 掉，让这条独占一片（Finding 5）
+            if (s.length >= limits.maxLen && buf.length > 0) flush();
+            buf.push(s);
+            bufLen += s.length;
+            writtenCount++;
+            if (bufLen >= limits.maxLen || buf.length >= limits.maxItems) {
+                flush();
+                if (onYield) await onYield();
+            }
+        }
+        flush();
+        // count 用「实际写入条数」而非 arr.length：上面跳过了序列化成 undefined 的空洞，若仍按
+        // arr.length 记，导入端「拼出条数 === count」自洽校验会对一个本来合法的备份误判损坏 abort。
+        manifestStores[field] = { parts, count: writtenCount };
+    };
+
+    // 一遍扫 backupData：数组字段分片（写完释放），其余非数组字段进 metadata。
+    const metaFields: Record<string, any> = {};
+    for (const key of Object.keys(backupData)) {
+        const value = backupData[key];
+        if (Array.isArray(value)) {
+            await shardArrayField(key, value);
+            backupData[key] = undefined; // 释放引用，已落 zip
+        } else {
+            metaFields[key] = value;
+        }
+    }
+
+    zip.file('metadata.json', JSON.stringify(metaFields));
+
+    // 向量二进制旁路：bin 直写 Uint8Array（不经 base64，bin 多大都不会撞字符串上限），
+    // index 是小 JSON。manifest.vectors 记 count/byteLength 供导入端校验。
+    let vectorsMeta: { count: number; byteLength: number } | undefined;
+    if (options.vectors) {
+        zip.file(VECTOR_BIN_FILE, options.vectors.bin);
+        zip.file(VECTOR_INDEX_FILE, JSON.stringify(options.vectors.index));
+        vectorsMeta = { count: options.vectors.index.length, byteLength: options.vectors.bin.byteLength };
+    }
+
+    const manifest: BackupManifest = {
+        formatVersion: BACKUP_FORMAT_VERSION,
+        mode: options.mode,
+        createdAt: options.createdAt,
+        stores: manifestStores,
+        vectors: vectorsMeta,
+        assetCount: options.assetCount,
+    };
+    zip.file('manifest.json', JSON.stringify(manifest));
+    return manifest;
+}
+
+export interface AssembleV2Options {
+    /** React 端传让出主线程的函数；测试端可不传 */
+    onYield?: () => Promise<void>;
+    /** 进度回调：当前字段、已处理字段序号、字段总数 */
+    onShardProgress?: (field: string, fieldIndex: number, fieldTotal: number) => void;
+}
+
+/**
+ * 读 v2 备份，把各分片拼回「与 v1 完全相同的 data 对象」。
+ *
+ * 全程只读 zip、组装内存对象，不碰数据库——所以任何校验不过直接抛错时，DB 一字未动，
+ * 调用方应在调用 importFullData 之前先 await 本函数。
+ *
+ * 校验三档（都在写库前）：① formatVersion 严格等于 2；② manifest 声明的每个分片文件都在
+ * （缺则 abort）；③ 每字段组装后条数 === manifest count、每片必须是数组（抓我们自己导出的 bug，
+ * 不是防用户篡改）。素材文件 assets/* 不进这道硬边界——缺图维持 warn+skip（缺图只可能来自
+ * 篡改，真丢了也无从恢复，为它拒绝整个导入没意义）。
+ */
+export async function assembleV2Backup(
+    zip: ZipFileReader,
+    manifest: BackupManifest,
+    options: AssembleV2Options = {},
+): Promise<Record<string, any>> {
+    if (!manifest || typeof manifest !== 'object') {
+        throw new Error('损坏的备份包：manifest.json 无法解析。');
+    }
+    if (manifest.formatVersion !== BACKUP_FORMAT_VERSION) {
+        throw new Error(
+            `不支持的备份格式版本：${manifest.formatVersion}（本版本只能导入 formatVersion ` +
+            `${BACKUP_FORMAT_VERSION} 的备份），已中止导入（数据未改动）。`,
+        );
+    }
+
+    const metaFile = zip.file('metadata.json');
+    if (!metaFile) throw new Error('损坏的备份包：有 manifest 但缺 metadata.json，已中止导入（数据未改动）。');
+    let data: Record<string, any>;
+    try {
+        data = JSON.parse(await metaFile.async('string'));
+    } catch {
+        throw new Error('损坏的备份包：metadata.json 解析失败，已中止导入（数据未改动）。');
+    }
+
+    const stores = manifest.stores || {};
+    const fields = Object.keys(stores);
+
+    // 先一遍校验所有声明的分片文件都在（缺则 abort，此时还没拼任何数据、DB 未动）
+    for (const field of fields) {
+        const { parts } = stores[field];
+        for (let p = 0; p < parts; p++) {
+            const name = shardFileName(field, p);
+            if (!zip.file(name)) {
+                throw new Error(`损坏的备份包：manifest 声明了 ${name} 但 zip 里没有，已中止导入（数据未改动）。`);
+            }
+        }
+    }
+
+    // 逐字段逐片拼回完整数组；parse 完一片即释放该片字符串；组装后条数必须等于 manifest count
+    for (let fi = 0; fi < fields.length; fi++) {
+        const field = fields[fi];
+        const { parts, count } = stores[field];
+        const arr: any[] = [];
+        for (let p = 0; p < parts; p++) {
+            const name = shardFileName(field, p);
+            let str = await zip.file(name)!.async('string');
+            let chunk: any;
+            try {
+                chunk = JSON.parse(str);
+            } catch {
+                throw new Error(`损坏的备份包：${name} 解析失败，已中止导入（数据未改动）。`);
+            }
+            str = ''; // 释放该片字符串
+            if (!Array.isArray(chunk)) {
+                throw new Error(`损坏的备份包：${name} 不是数组，已中止导入（数据未改动）。`);
+            }
+            for (const item of chunk) arr.push(item);
+            if (options.onYield) await options.onYield();
+        }
+        if (arr.length !== count) {
+            throw new Error(
+                `损坏的备份包：${field} 实际拼出 ${arr.length} 条、manifest 声明 ${count} 条，对不上，` +
+                `已中止导入（数据未改动）。`,
+            );
+        }
+        data[field] = arr;
+        options.onShardProgress?.(field, fi, fields.length);
+    }
+
+    // 向量二进制旁路：从 bin + index 重建 MemoryVector[]，塞进 data.memoryVectors，
+    // 跟其它 store 一样走那一次 importFullData（clear-once），不走 saveMany 旁路。
+    if (manifest.vectors) {
+        const idxFile = zip.file(VECTOR_INDEX_FILE);
+        const binFile = zip.file(VECTOR_BIN_FILE);
+        if (!idxFile || !binFile) {
+            throw new Error('损坏的备份包：manifest 声明了向量但缺 index/bin 文件，已中止导入（数据未改动）。');
+        }
+        let index: VectorIndexEntry[];
+        try {
+            index = JSON.parse(await idxFile.async('string'));
+        } catch {
+            throw new Error('损坏的备份包：memory_vectors.index.json 解析失败，已中止导入（数据未改动）。');
+        }
+        const bin = await binFile.async('uint8array');
+        if (!Array.isArray(index) || index.length !== manifest.vectors.count) {
+            throw new Error('损坏的备份包：向量条数与 manifest 不符，已中止导入（数据未改动）。');
+        }
+        if (bin.byteLength !== manifest.vectors.byteLength) {
+            throw new Error('损坏的备份包：向量 bin 字节数与 manifest 不符，已中止导入（数据未改动）。');
+        }
+        const okInt = (n: unknown): n is number => Number.isSafeInteger(n) && (n as number) >= 0;
+        const vectors = index.map((e) => {
+            // 偏移/长度/维度必须是非负安全整数，且字节区间落在 bin 内。少了这道校验，坏 byteOffset
+            // 会被 Uint8Array.slice() 钳制成空/截断的字节（不报错），组装照样过，importFullData 清旧
+            // 存新 → 本该 abort 的损坏变成丢数据。这里把它挡在写库前（也顺带抓自家 offset 算错的 bug）。
+            if (!okInt(e.byteOffset) || !okInt(e.byteLength) || !okInt(e.dimensions)) {
+                throw new Error(`损坏的备份包：向量 ${e.memoryId} 的偏移/长度/维度非法，已中止导入（数据未改动）。`);
+            }
+            if (e.byteLength !== e.dimensions * 4) {
+                throw new Error(`损坏的备份包：向量 ${e.memoryId} 的字节数与维度对不上，已中止导入（数据未改动）。`);
+            }
+            if (e.byteOffset + e.byteLength > bin.byteLength) {
+                throw new Error(`损坏的备份包：向量 ${e.memoryId} 的字节区间越过 bin 末尾，已中止导入（数据未改动）。`);
+            }
+            // slice 切出独立 buffer（不是 subarray 视图）：否则 IndexedDB 结构化克隆会把整根 bin
+            // 给每条向量各复制一遍。importFullData 的 memory_vectors 段对 Uint8Array 形态原样存。
+            const vector = bin.slice(e.byteOffset, e.byteOffset + e.byteLength);
+            if (vector.byteLength !== e.byteLength) {
+                throw new Error(`损坏的备份包：向量 ${e.memoryId} 切片长度异常，已中止导入（数据未改动）。`);
+            }
+            return { memoryId: e.memoryId, charId: e.charId, dimensions: e.dimensions, model: e.model, vector };
+        });
+        data.memoryVectors = vectors;
+        options.onShardProgress?.('memoryVectors', fields.length, fields.length + 1);
+    }
+
+    return data;
+}

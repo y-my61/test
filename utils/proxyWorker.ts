@@ -1,1 +1,104 @@
-LyoqCiAqIOS4u+S7o+eQhiBXb3JrZXIg5Zyw5Z2AIOKAlOKAlCDkuK3lv4PphY3nva7vvIjljZXkuIDlj6/kv6HmupDvvIkKICoKICogU3VsbHlPUyDkuIDnpajogZTnvZHog73lipvpg73pgJrov4flkIzkuIDkuKogQ2xvdWRmbGFyZSBXb3JrZXIg5Luj55CG6L2s5Y+R77yM5rqQ56CB5YWo5ZyoCiAqIGB3b3JrZXIvaW5kZXguanNg77yI5Y2V5paH5Lu277yM5Y+v5LiA6ZSu5pCs5Yiw6Ieq5bex55qEIENsb3VkZmxhcmUg6LSm5Y+377yJ44CC5raJ5Y+K77yaCiAqICAgLSDogZTnvZHmkJzntKIgLyDlrp7ml7bmlrDpl7vng63mppzvvIhCcmF2Ze+8iSAgICAgICDihpIgL3NlYXJjaCAvbmV3cwogKiAgIC0gV2ViREFWIOS6keWkh+S7veS7o+eQhiAgICAgICAgICAgICAgICAgICAgICAg4oaSIC93ZWJkYXYKICogICAtIEdpdEh1YiDkupHlpIfku73ku6PnkIbvvIhHRlcg5LiL6LWw5Luj55CG77yJICAgICAgIOKGkiAvZ2l0aHViCiAqICAgLSBOb3Rpb24g6ZuG5oiQICAgICAgICAgICAgICAgICAgICAgICAgICAgICDihpIgL25vdGlvbi8qCiAqICAgLSDpo57kuablpJrnu7TooajmoLzpm4bmiJAgICAgICAgICAgICAgICAgICAgICAgICDihpIgL2ZlaXNodS8qCiAqICAgLSDpuqblvZPlirMgLyDnkZ7lubgg54K55Y2VIE1DUCAgICAgICAgICAgICAgICAgICDihpIgL21jcC9tY2QgL21jcC9sdWNraW4KICoKICog6buY6K6k5oyH5ZCR5L2c6ICF6YOo572y55qE5YWs5YWx5a6e5L6L44CC5aaC5p6c5L2c6ICF5ZOq5aSp5LiN5YaN57u05oqk44CB5oiW5L2g5oOz5a6M5YWo6Ieq5omY566h77yMCiAqIOaKiuiHquW3semDqOe9sueahCB3b3JrZXIg5Zyw5Z2A5aGr6L+b44CM6K6+572uIOKGkiDnvZHnu5zku6PnkIYgKFdvcmtlcinjgI3ljbPlj6/vvIwKICog5Lul5LiK5YWo6YOo6IO95Yqb5Lya6Ieq5Yqo5YiH5Yiw5L2g55qE5a6e5L6L77yM5peg6ZyA5pS55Lu75L2V5Luj56CB44CCCiAqCiAqIOazqOaEj++8mue9keaYk+S6kemfs+S5kO+8iE11c2ljQ29udGV4dO+8ieWSjOWwj+e6ouS5piBMaXRlIOWQhOiHquWcqOiHquW3seeahCBBcHAgLyDorr7nva7ph4zmnIkKICog54us56uL55qEIHdvcmtlciDlnLDlnYDovpPlhaXmoYbvvIzotbDlkIToh6rnmoTmjIHkuYXljJbvvIzkuI3lj5fov5nph4zlvbHlk43jgIIKICovCgpleHBvcnQgY29uc3QgREVGQVVMVF9QUk9YWV9XT1JLRVIgPSAnaHR0cHM6Ly9zdWxseW1lb3cuY2N3dS5jYyc7Cgpjb25zdCBMU19LRVkgPSAnc3VsbHlfcHJveHlfd29ya2VyX3VybF92MSc7CgovLyDlt7Lmrbsv5byD55So55qE5Y6G5Y+y5YWs5YWx5a6e5L6L5Z+f5ZCN44CC6ICB55So5oi3IGxvY2FsU3RvcmFnZSDph4zlpoLmnpzov5jlrZjnnYDov5nkupvvvIwKLy8g6K+75Ye65p2l5pe26Ieq5Yqo5b2T5oiQIueUqOeahOaYr+m7mOiupCLvvIzlm57okL3liLAgREVGQVVMVF9QUk9YWV9XT1JLRVLvvIjkuI4KLy8gTXVzaWNDb250ZXh0IOeahOi/geenu+mAu+i+keS4gOiHtO+8mumDveaMh+WQkeWQjOS4gOS4qiB3b3JrZXLvvIzooYzkuLrnm7jlkIzvvInjgIIKLy8gICAtIHN1bGx5LW4ucWVnajU2Ny53b3JrZXJzLmRldu+8muacgOaXqeeahCB3b3JrZXJzLmRldiDpu5jorqTln5/lkI3vvIjlm73lhoXotoXml7bvvIkKLy8gICAtIHN1bGx5bWVvdy5jY3d1MjEzLmNj77ya5pen5YWs5YWx6Ieq5a6a5LmJ5Z+f5ZCN77yM5rOo5YaM5bey6L+H5pyf44CBRE5TIOaXoOazleino+aekO+8iDIwMjYtMDcg6LW377yJCmNvbnN0IFNUQUxFX0hPU1RTID0gWy9zdWxseS1uXC5xZWdqNTY3XC53b3JrZXJzXC5kZXYvaSwgL3N1bGx5bWVvd1wuY2N3dTIxM1wuY2MvaV07Cgpjb25zdCBub3JtYWxpemUgPSAodXJsOiBzdHJpbmcpOiBzdHJpbmcgPT4gdXJsLnRyaW0oKS5yZXBsYWNlKC9cLyskLywgJycpOwoKLyoqCiAqIOivu+WPluW9k+WJjeeUn+aViOeahOS4u+S7o+eQhiB3b3JrZXIg5Zyw5Z2A77yI5bey5Y675bC+5pac5p2g77yJ44CC5oeS6K+7IGxvY2FsU3RvcmFnZe+8jAogKiDnlKjmiLflnKjorr7nva7ph4zmlLnlrozjgIHmlrDlj5HotbfnmoTor7fmsYLnq4vliLvnlJ/mlYjvvIzml6DpnIDliLfmlrDpobXpnaLjgIIKICovCmV4cG9ydCBjb25zdCBnZXRQcm94eVdvcmtlclVybCA9ICgpOiBzdHJpbmcgPT4gewogIHRyeSB7CiAgICBjb25zdCByYXcgPSBsb2NhbFN0b3JhZ2UuZ2V0SXRlbShMU19LRVkpOwogICAgaWYgKCFyYXcpIHJldHVybiBERUZBVUxUX1BST1hZX1dPUktFUjsKICAgIGNvbnN0IHVybCA9IG5vcm1hbGl6ZShyYXcpOwogICAgaWYgKCEvXmh0dHBzPzpcL1wvL2kudGVzdCh1cmwpKSByZXR1cm4gREVGQVVMVF9QUk9YWV9XT1JLRVI7CiAgICBpZiAoU1RBTEVfSE9TVFMuc29tZSgocmUpID0+IHJlLnRlc3QodXJsKSkpIHJldHVybiBERUZBVUxUX1BST1hZX1dPUktFUjsKICAgIHJldHVybiB1cmw7CiAgfSBjYXRjaCB7CiAgICByZXR1cm4gREVGQVVMVF9QUk9YWV9XT1JLRVI7CiAgfQp9OwoKLyoqCiAqIOWGmeWFpeiHquWumuS5iSB3b3JrZXIg5Zyw5Z2A44CC5Lyg56m644CB5oiW5Lyg55qE5bCx5piv6buY6K6k5Zyw5Z2AIOKGkiDmuIXmjonmnKzlnLDlrZjlgqjvvIjlm57liLDpu5jorqTvvInjgIIKICog6Z2e5rOV5Zyw5Z2A77yI5LiN5LulIGh0dHAocyk6Ly8g5byA5aS077yJ55u05o6l5b+955Wl77yM55Sx6LCD55So5pa56LSf6LSj5qCh6aqM5o+Q56S644CCCiAqIOWGmeWFpeaIkOWKn+WQjuW5v+aSreS4gOS4quiHquWumuS5ieS6i+S7tu+8jOiuqSLlkK/liqjml7blv6vnhafphY3nva4i55qE5raI6LS56ICF77yI5aaC6Z+z5LmQ5pKt5pS+5Zmo77yJ6IO95a6e5pe26Lef6ZqP44CCCiAqLwpleHBvcnQgY29uc3Qgc2V0UHJveHlXb3JrZXJVcmwgPSAodXJsOiBzdHJpbmcpOiB2b2lkID0+IHsKICB0cnkgewogICAgY29uc3QgdHJpbW1lZCA9IG5vcm1hbGl6ZSh1cmwgfHwgJycpOwogICAgaWYgKCF0cmltbWVkIHx8IHRyaW1tZWQgPT09IERFRkFVTFRfUFJPWFlfV09SS0VSKSB7CiAgICAgIGxvY2FsU3RvcmFnZS5yZW1vdmVJdGVtKExTX0tFWSk7CiAgICAgIG5vdGlmeVByb3h5V29ya2VyQ2hhbmdlZCgpOwogICAgICByZXR1cm47CiAgICB9CiAgICBpZiAoIS9eaHR0cHM/OlwvXC8vaS50ZXN0KHRyaW1tZWQpKSByZXR1cm47CiAgICBsb2NhbFN0b3JhZ2Uuc2V0SXRlbShMU19LRVksIHRyaW1tZWQpOwogICAgbm90aWZ5UHJveHlXb3JrZXJDaGFuZ2VkKCk7CiAgfSBjYXRjaCB7CiAgICAvKiBsb2NhbFN0b3JhZ2Ug5LiN5Y+v55So5bCx5b2T6buY6K6k5aSE55CGICovCiAgfQp9OwoKLyoqCiAqIOS4reW/gyBXb3JrZXIg5Zyw5Z2A5Y+Y5pu05LqL5Lu244CC5ZCM5LiA5qCH562+6aG15YaF5pS5IGxvY2FsU3RvcmFnZSDkuI3kvJrop6blj5Hljp/nlJ8gJ3N0b3JhZ2UnIOS6i+S7tu+8jAogKiDmiYDku6XnlKjov5nkuKroh6rlrprkuYnkuovku7bpgJrnn6XpgqPkupsi5Y+q5Zyo5oyC6L295pe26K+75LiA5qyh6YWN572uIueahOaooeWdl++8iOebruWJjeaYr+mfs+S5kOaSreaUvuWZqO+8ieWunuaXtuWIt+aWsOOAggogKi8KZXhwb3J0IGNvbnN0IFBST1hZX1dPUktFUl9DSEFOR0VEX0VWRU5UID0gJ3N1bGx5OnByb3h5LXdvcmtlci1jaGFuZ2VkJzsKY29uc3Qgbm90aWZ5UHJveHlXb3JrZXJDaGFuZ2VkID0gKCk6IHZvaWQgPT4gewogIHRyeSB7CiAgICBpZiAodHlwZW9mIHdpbmRvdyAhPT0gJ3VuZGVmaW5lZCcgJiYgdHlwZW9mIHdpbmRvdy5kaXNwYXRjaEV2ZW50ID09PSAnZnVuY3Rpb24nKSB7CiAgICAgIHdpbmRvdy5kaXNwYXRjaEV2ZW50KG5ldyBFdmVudChQUk9YWV9XT1JLRVJfQ0hBTkdFRF9FVkVOVCkpOwogICAgfQogIH0gY2F0Y2ggewogICAgLyog6Z2e5rWP6KeI5Zmo546v5aKD77yI5rWL6K+VIC8gU1NS77yJ5b+955WlICovCiAgfQp9OwoKLyoqIOW9k+WJjeaYr+WQpuWcqOeUqOiHquWumuS5ie+8iOmdnum7mOiupO+8iXdvcmtlcuOAgueUqOS6juiuvue9rumhteaPkOekuuaWh+ahiOOAgiAqLwpleHBvcnQgY29uc3QgaXNDdXN0b21Qcm94eVdvcmtlciA9ICgpOiBib29sZWFuID0+IGdldFByb3h5V29ya2VyVXJsKCkgIT09IERFRkFVTFRfUFJPWFlfV09SS0VSOwoKLyoqCiAqIOaKiuaMh+WQkeW3suatu+WOhuWPsuWunuS+i+eahCB1cmwg5pS55YaZ5Yiw5b2T5YmN55Sf5pWI55qEIHdvcmtlcu+8iOS/neeVmei3r+W+hOWSjCBxdWVyee+8ie+8mwogKiDlhbbkvZnlnLDlnYDljp/moLfov5Tlm57jgILnu5npn7PkuZDmkq3mlL7lmaggLyDlsI/nuqLkuabnrYnjgIzni6znq4vmjIHkuYXljJYgd29ya2VyIOWcsOWdgOOAjeeahAogKiDmqKHlnZflgZrlrZjph4/ov4Hnp7vnlKjigJTigJTlroPku6zlkIToh6rlrZjnmoTlnLDlnYDkuI3otbDkuIrpnaLnmoQgTFNfS0VZ77yM5b6X5Zyo6Ieq5bex55qE6K+75Y+W5bGC6LCD6L+Z5Liq44CCCiAqLwpleHBvcnQgY29uc3QgcmV3cml0ZVN0YWxlV29ya2VyVXJsID0gKHVybDogc3RyaW5nKTogc3RyaW5nID0+IHsKICBpZiAodHlwZW9mIHVybCAhPT0gJ3N0cmluZycgfHwgIXVybCB8fCAhU1RBTEVfSE9TVFMuc29tZSgocmUpID0+IHJlLnRlc3QodXJsKSkpIHJldHVybiB1cmw7CiAgY29uc3QgYmFzZSA9IGdldFByb3h5V29ya2VyVXJsKCk7CiAgdHJ5IHsKICAgIGNvbnN0IHUgPSBuZXcgVVJMKHVybCk7CiAgICByZXR1cm4gYCR7YmFzZX0ke3UucGF0aG5hbWUgPT09ICcvJyA/ICcnIDogdS5wYXRobmFtZX0ke3Uuc2VhcmNofWA7CiAgfSBjYXRjaCB7CiAgICByZXR1cm4gYmFzZTsKICB9Cn07Cg==
+/**
+ * 主代理 Worker 地址 —— 中心配置（单一可信源）
+ *
+ * SullyOS 一票联网能力都通过同一个 Cloudflare Worker 代理转发，源码全在
+ * `worker/index.js`（单文件，可一键搬到自己的 Cloudflare 账号）。涉及：
+ *   - 联网搜索 / 实时新闻热榜（Brave）       → /search /news
+ *   - WebDAV 云备份代理                       → /webdav
+ *   - GitHub 云备份代理（GFW 下走代理）       → /github
+ *   - Notion 集成                             → /notion/*
+ *   - 飞书多维表格集成                        → /feishu/*
+ *   - 麦当劳 / 瑞幸 点单 MCP                   → /mcp/mcd /mcp/luckin
+ *
+ * 默认指向作者部署的公共实例。如果作者哪天不再维护、或你想完全自托管，
+ * 把自己部署的 worker 地址填进「设置 → 网络代理 (Worker)」即可，
+ * 以上全部能力会自动切到你的实例，无需改任何代码。
+ *
+ * 注意：网易云音乐（MusicContext）和小红书 Lite 各自在自己的 App / 设置里有
+ * 独立的 worker 地址输入框，走各自的持久化，不受这里影响。
+ */
+
+export const DEFAULT_PROXY_WORKER = 'https://sullymeow.ccwu.cc';
+
+const LS_KEY = 'sully_proxy_worker_url_v1';
+
+// 已死/弃用的历史公共实例域名。老用户 localStorage 里如果还存着这些，
+// 读出来时自动当成"用的是默认"，回落到 DEFAULT_PROXY_WORKER（与
+// MusicContext 的迁移逻辑一致：都指向同一个 worker，行为相同）。
+//   - sully-n.qegj567.workers.dev：最早的 workers.dev 默认域名（国内超时）
+//   - sullymeow.ccwu213.cc：旧公共自定义域名，注册已过期、DNS 无法解析（2026-07 起）
+const STALE_HOSTS = [/sully-n\.qegj567\.workers\.dev/i, /sullymeow\.ccwu213\.cc/i];
+
+const normalize = (url: string): string => url.trim().replace(/\/+$/, '');
+
+/**
+ * 读取当前生效的主代理 worker 地址（已去尾斜杠）。懒读 localStorage，
+ * 用户在设置里改完、新发起的请求立刻生效，无需刷新页面。
+ */
+export const getProxyWorkerUrl = (): string => {
+  try {
+    const raw = localStorage.getItem(LS_KEY);
+    if (!raw) return DEFAULT_PROXY_WORKER;
+    const url = normalize(raw);
+    if (!/^https?:\/\//i.test(url)) return DEFAULT_PROXY_WORKER;
+    if (STALE_HOSTS.some((re) => re.test(url))) return DEFAULT_PROXY_WORKER;
+    return url;
+  } catch {
+    return DEFAULT_PROXY_WORKER;
+  }
+};
+
+/**
+ * 写入自定义 worker 地址。传空、或传的就是默认地址 → 清掉本地存储（回到默认）。
+ * 非法地址（不以 http(s):// 开头）直接忽略，由调用方负责校验提示。
+ * 写入成功后广播一个自定义事件，让"启动时快照配置"的消费者（如音乐播放器）能实时跟随。
+ */
+export const setProxyWorkerUrl = (url: string): void => {
+  try {
+    const trimmed = normalize(url || '');
+    if (!trimmed || trimmed === DEFAULT_PROXY_WORKER) {
+      localStorage.removeItem(LS_KEY);
+      notifyProxyWorkerChanged();
+      return;
+    }
+    if (!/^https?:\/\//i.test(trimmed)) return;
+    localStorage.setItem(LS_KEY, trimmed);
+    notifyProxyWorkerChanged();
+  } catch {
+    /* localStorage 不可用就当默认处理 */
+  }
+};
+
+/**
+ * 中心 Worker 地址变更事件。同一标签页内改 localStorage 不会触发原生 'storage' 事件，
+ * 所以用这个自定义事件通知那些"只在挂载时读一次配置"的模块（目前是音乐播放器）实时刷新。
+ */
+export const PROXY_WORKER_CHANGED_EVENT = 'sully:proxy-worker-changed';
+const notifyProxyWorkerChanged = (): void => {
+  try {
+    if (typeof window !== 'undefined' && typeof window.dispatchEvent === 'function') {
+      window.dispatchEvent(new Event(PROXY_WORKER_CHANGED_EVENT));
+    }
+  } catch {
+    /* 非浏览器环境（测试 / SSR）忽略 */
+  }
+};
+
+/** 当前是否在用自定义（非默认）worker。用于设置页提示文案。 */
+export const isCustomProxyWorker = (): boolean => getProxyWorkerUrl() !== DEFAULT_PROXY_WORKER;
+
+/**
+ * 把指向已死历史实例的 url 改写到当前生效的 worker（保留路径和 query）；
+ * 其余地址原样返回。给音乐播放器 / 小红书等「独立持久化 worker 地址」的
+ * 模块做存量迁移用——它们各自存的地址不走上面的 LS_KEY，得在自己的读取层调这个。
+ */
+export const rewriteStaleWorkerUrl = (url: string): string => {
+  if (typeof url !== 'string' || !url || !STALE_HOSTS.some((re) => re.test(url))) return url;
+  const base = getProxyWorkerUrl();
+  try {
+    const u = new URL(url);
+    return `${base}${u.pathname === '/' ? '' : u.pathname}${u.search}`;
+  } catch {
+    return base;
+  }
+};

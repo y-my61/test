@@ -1,1 +1,164 @@
-CmV4cG9ydCBjb25zdCBwcm9jZXNzSW1hZ2UgPSAoZmlsZTogRmlsZSwgb3B0aW9ucz86IHsgbWF4V2lkdGg/OiBudW1iZXIsIHF1YWxpdHk/OiBudW1iZXIsIGZvcmNlSnBlZz86IGJvb2xlYW4sIHNraXBDb21wcmVzc2lvbj86IGJvb2xlYW4gfSk6IFByb21pc2U8c3RyaW5nPiA9PiB7CiAgICByZXR1cm4gbmV3IFByb21pc2UoKHJlc29sdmUsIHJlamVjdCkgPT4gewogICAgICAgIC8vIOeugOWNlemqjOivgQogICAgICAgIGlmICghZmlsZS50eXBlLnN0YXJ0c1dpdGgoJ2ltYWdlLycpKSB7CiAgICAgICAgICAgIHJlamVjdChuZXcgRXJyb3IoJ+ivt+S4iuS8oOWbvueJh+aWh+S7ticpKTsKICAgICAgICAgICAgcmV0dXJuOwogICAgICAgIH0KCiAgICAgICAgLy8gMS4g5aaC5p6c5byA5ZCv5LqGIHNraXBDb21wcmVzc2lvbiAo55So5LqO5aOB57q4562JKe+8jOebtOaOpeivu+WPluWOn+aWh+S7tui/lOWbnu+8jOS4jee7j+i/h0NhbnZhc+mHjee7mAogICAgICAgIGlmIChvcHRpb25zPy5za2lwQ29tcHJlc3Npb24pIHsKICAgICAgICAgICAgY29uc3QgcmVhZGVyID0gbmV3IEZpbGVSZWFkZXIoKTsKICAgICAgICAgICAgcmVhZGVyLnJlYWRBc0RhdGFVUkwoZmlsZSk7CiAgICAgICAgICAgIHJlYWRlci5vbmxvYWQgPSAoZSkgPT4gcmVzb2x2ZShlLnRhcmdldD8ucmVzdWx0IGFzIHN0cmluZyk7CiAgICAgICAgICAgIHJlYWRlci5vbmVycm9yID0gKGUpID0+IHJlamVjdChuZXcgRXJyb3IoJ+aWh+S7tuivu+WPluWksei0pScpKTsKICAgICAgICAgICAgcmV0dXJuOwogICAgICAgIH0KCiAgICAgICAgLy8gR0lGIOS4jeWOi+e8qeebtOaOpeivu+WPlu+8iOaUvuWuvemZkOWItuiHsyA1ME1C77yJCiAgICAgICAgaWYgKGZpbGUudHlwZSA9PT0gJ2ltYWdlL2dpZicpIHsKICAgICAgICAgICAgaWYgKGZpbGUuc2l6ZSA+IDUwICogMTAyNCAqIDEwMjQpIHsKICAgICAgICAgICAgICAgIHJlamVjdChuZXcgRXJyb3IoJ0dJRiDlm77niYfov4flpKcoPjUwTUIp77yM5Y+v6IO95a+86Ie05bqU55So5bSp5rqDJykpOwogICAgICAgICAgICAgICAgcmV0dXJuOwogICAgICAgICAgICB9CiAgICAgICAgICAgIGNvbnN0IHJlYWRlciA9IG5ldyBGaWxlUmVhZGVyKCk7CiAgICAgICAgICAgIHJlYWRlci5yZWFkQXNEYXRhVVJMKGZpbGUpOwogICAgICAgICAgICByZWFkZXIub25sb2FkID0gKGUpID0+IHJlc29sdmUoZS50YXJnZXQ/LnJlc3VsdCBhcyBzdHJpbmcpOwogICAgICAgICAgICByZWFkZXIub25lcnJvciA9IChlKSA9PiByZWplY3QoZSk7CiAgICAgICAgICAgIHJldHVybjsKICAgICAgICB9CgogICAgICAgIGNvbnN0IHJlYWRlciA9IG5ldyBGaWxlUmVhZGVyKCk7CiAgICAgICAgcmVhZGVyLnJlYWRBc0RhdGFVUkwoZmlsZSk7CiAgICAgICAgcmVhZGVyLm9ubG9hZCA9IChldmVudCkgPT4gewogICAgICAgICAgICBjb25zdCBpbWcgPSBuZXcgSW1hZ2UoKTsKICAgICAgICAgICAgaW1nLnNyYyA9IGV2ZW50LnRhcmdldD8ucmVzdWx0IGFzIHN0cmluZzsKICAgICAgICAgICAgaW1nLm9ubG9hZCA9ICgpID0+IHsKICAgICAgICAgICAgICAgIC8vIOWOi+e8qemAu+i+kQogICAgICAgICAgICAgICAgLy8g6buY6K6kIDEyMDAgKOmrmOeUu+i0qCnvvIzlpoLmnpzkvKDlhaUgb3B0aW9ucyDliJnkvb/nlKjkvKDlhaXlgLwgKOWmgiBDaGF0IOS4reS8oCA2MDApCiAgICAgICAgICAgICAgICBjb25zdCBNQVhfV0lEVEggPSBvcHRpb25zPy5tYXhXaWR0aCB8fCAxMjAwOyAKICAgICAgICAgICAgICAgIGNvbnN0IE1BWF9IRUlHSFQgPSBNQVhfV0lEVEg7IC8vIOS/neaMgeavlOS+i+mZkOWItgogICAgICAgICAgICAgICAgCiAgICAgICAgICAgICAgICBsZXQgd2lkdGggPSBpbWcud2lkdGg7CiAgICAgICAgICAgICAgICBsZXQgaGVpZ2h0ID0gaW1nLmhlaWdodDsKCiAgICAgICAgICAgICAgICBpZiAod2lkdGggPiBoZWlnaHQpIHsKICAgICAgICAgICAgICAgICAgICBpZiAod2lkdGggPiBNQVhfV0lEVEgpIHsKICAgICAgICAgICAgICAgICAgICAgICAgaGVpZ2h0ICo9IE1BWF9XSURUSCAvIHdpZHRoOwogICAgICAgICAgICAgICAgICAgICAgICB3aWR0aCA9IE1BWF9XSURUSDsKICAgICAgICAgICAgICAgICAgICB9CiAgICAgICAgICAgICAgICB9IGVsc2UgewogICAgICAgICAgICAgICAgICAgIGlmIChoZWlnaHQgPiBNQVhfSEVJR0hUKSB7CiAgICAgICAgICAgICAgICAgICAgICAgIHdpZHRoICo9IE1BWF9IRUlHSFQgLyBoZWlnaHQ7CiAgICAgICAgICAgICAgICAgICAgICAgIGhlaWdodCA9IE1BWF9IRUlHSFQ7CiAgICAgICAgICAgICAgICAgICAgfQogICAgICAgICAgICAgICAgfQoKICAgICAgICAgICAgICAgIGNvbnN0IGNhbnZhcyA9IGRvY3VtZW50LmNyZWF0ZUVsZW1lbnQoJ2NhbnZhcycpOwogICAgICAgICAgICAgICAgY2FudmFzLndpZHRoID0gd2lkdGg7CiAgICAgICAgICAgICAgICBjYW52YXMuaGVpZ2h0ID0gaGVpZ2h0OwogICAgICAgICAgICAgICAgY29uc3QgY3R4ID0gY2FudmFzLmdldENvbnRleHQoJzJkJyk7CiAgICAgICAgICAgICAgICBpZiAoIWN0eCkgewogICAgICAgICAgICAgICAgICAgIHJlamVjdChuZXcgRXJyb3IoJ0NhbnZhcyBjb250ZXh0IGVycm9yJykpOwogICAgICAgICAgICAgICAgICAgIHJldHVybjsKICAgICAgICAgICAgICAgIH0KICAgICAgICAgICAgICAgIAogICAgICAgICAgICAgICAgLy8g5riF56m655S75biDICjkv53or4HpgI/mmI4pCiAgICAgICAgICAgICAgICBjdHguY2xlYXJSZWN0KDAsIDAsIHdpZHRoLCBoZWlnaHQpOwogICAgICAgICAgICAgICAgY3R4LmRyYXdJbWFnZShpbWcsIDAsIDAsIHdpZHRoLCBoZWlnaHQpOwogICAgICAgICAgICAgICAgCiAgICAgICAgICAgICAgICAvLyDmmbrog73moLzlvI/pgInmi6k6IAogICAgICAgICAgICAgICAgLy8gMS4g5aaC5p6cIGZvcmNlSnBlZyDkuLogdHJ1ZSAo5aaC6IGK5aSp5Y+R6YCB5Zu+Ke+8jOW8uuWItui9rCBKUEVHIOS7peiKguecgeS9k+enrwogICAgICAgICAgICAgICAgLy8gMi4g5ZCm5YiZ5aaC5p6c5Y6f5Zu+5pivIFBORy9XZWJQ77yM5L+d5oyB5qC85byP5Lul5L+d55WZ6YCP5piO6YCa6YGTICjlpoLnq4vnu5jjgIHotLTnurgpCiAgICAgICAgICAgICAgICAvLyAzLiDpu5jorqQgSlBFRwogICAgICAgICAgICAgICAgbGV0IG1pbWVUeXBlID0gJ2ltYWdlL2pwZWcnOwogICAgICAgICAgICAgICAgaWYgKCFvcHRpb25zPy5mb3JjZUpwZWcgJiYgKGZpbGUudHlwZSA9PT0gJ2ltYWdlL3BuZycgfHwgZmlsZS50eXBlID09PSAnaW1hZ2Uvd2VicCcpKSB7CiAgICAgICAgICAgICAgICAgICAgbWltZVR5cGUgPSBmaWxlLnR5cGU7CiAgICAgICAgICAgICAgICB9CiAgICAgICAgICAgICAgICAKICAgICAgICAgICAgICAgIC8vIOi0qOmHj+aOp+WItjog6buY6K6kIDAuODXvvIzkvKDlhaXlgLzkvJjlhYgKICAgICAgICAgICAgICAgIGNvbnN0IHF1YWxpdHkgPSBvcHRpb25zPy5xdWFsaXR5IHx8IDAuODU7CiAgICAgICAgICAgICAgICAKICAgICAgICAgICAgICAgIGNvbnN0IGRhdGFVcmwgPSBjYW52YXMudG9EYXRhVVJMKG1pbWVUeXBlLCBxdWFsaXR5KTsKICAgICAgICAgICAgICAgIHJlc29sdmUoZGF0YVVybCk7CiAgICAgICAgICAgIH07CiAgICAgICAgICAgIGltZy5vbmVycm9yID0gKGVycikgPT4gcmVqZWN0KG5ldyBFcnJvcign5Zu+54mH5Yqg6L295aSx6LSlJykpOwogICAgICAgIH07CiAgICAgICAgcmVhZGVyLm9uZXJyb3IgPSAoZXJyKSA9PiByZWplY3QobmV3IEVycm9yKCfmlofku7bor7vlj5blpLHotKUnKSk7CiAgICB9KTsKfTsKCi8qKgogKiDkuI4gcHJvY2Vzc0ltYWdlIOWQjOasvuWOi+e8qemAu+i+ke+8jOS9huS6p+WHuiBCbG9iIOiAjOmdniBiYXNlNjQgZGF0YSBVUkwg4oCU4oCUIOS+m+aUueWtmCBCbG9iIOeahAogKiDlnLrmma/vvIjlo4HnurjjgIHlsI/lsYvnrYnvvIzop4EgdXRpbHMvYmxvYlJlZi50c++8ieS9v+eUqO+8jOecgeaOieS4gOasoSBiYXNlNjQg57yW56CBICsg5bi46am75YaF5a2Y44CCCiAqIEdJRiAvIHNraXBDb21wcmVzc2lvbiDnm7TmjqXov5Tlm57ljp/mlofku7bvvIhGaWxlIOacrOi6q+WNsyBCbG9i77yM5LiN57uPIENhbnZhcyDph43nu5jvvInjgIIKICovCmV4cG9ydCBjb25zdCBwcm9jZXNzSW1hZ2VUb0Jsb2IgPSAoZmlsZTogRmlsZSwgb3B0aW9ucz86IHsgbWF4V2lkdGg/OiBudW1iZXIsIHF1YWxpdHk/OiBudW1iZXIsIGZvcmNlSnBlZz86IGJvb2xlYW4sIHNraXBDb21wcmVzc2lvbj86IGJvb2xlYW4gfSk6IFByb21pc2U8QmxvYj4gPT4gewogICAgcmV0dXJuIG5ldyBQcm9taXNlKChyZXNvbHZlLCByZWplY3QpID0+IHsKICAgICAgICBpZiAoIWZpbGUudHlwZS5zdGFydHNXaXRoKCdpbWFnZS8nKSkgewogICAgICAgICAgICByZWplY3QobmV3IEVycm9yKCfor7fkuIrkvKDlm77niYfmlofku7YnKSk7CiAgICAgICAgICAgIHJldHVybjsKICAgICAgICB9CgogICAgICAgIC8vIOWjgee6uOetie+8muS4jemHjee7mO+8jOWOn+aWh+S7tuWNs+e7k+aenO+8iEZpbGUg57un5om/6IeqIEJsb2LvvInjgIIKICAgICAgICBpZiAob3B0aW9ucz8uc2tpcENvbXByZXNzaW9uKSB7CiAgICAgICAgICAgIHJlc29sdmUoZmlsZSk7CiAgICAgICAgICAgIHJldHVybjsKICAgICAgICB9CgogICAgICAgIC8vIEdJRiDkuI3ljovnvKnnm7TmjqXnlKjljp/mlofku7bvvIjmlL7lrr3pmZDliLboh7MgNTBNQu+8ieOAggogICAgICAgIGlmIChmaWxlLnR5cGUgPT09ICdpbWFnZS9naWYnKSB7CiAgICAgICAgICAgIGlmIChmaWxlLnNpemUgPiA1MCAqIDEwMjQgKiAxMDI0KSB7CiAgICAgICAgICAgICAgICByZWplY3QobmV3IEVycm9yKCdHSUYg5Zu+54mH6L+H5aSnKD41ME1CKe+8jOWPr+iDveWvvOiHtOW6lOeUqOW0qea6gycpKTsKICAgICAgICAgICAgICAgIHJldHVybjsKICAgICAgICAgICAgfQogICAgICAgICAgICByZXNvbHZlKGZpbGUpOwogICAgICAgICAgICByZXR1cm47CiAgICAgICAgfQoKICAgICAgICBjb25zdCByZWFkZXIgPSBuZXcgRmlsZVJlYWRlcigpOwogICAgICAgIHJlYWRlci5yZWFkQXNEYXRhVVJMKGZpbGUpOwogICAgICAgIHJlYWRlci5vbmxvYWQgPSAoZXZlbnQpID0+IHsKICAgICAgICAgICAgY29uc3QgaW1nID0gbmV3IEltYWdlKCk7CiAgICAgICAgICAgIGltZy5zcmMgPSBldmVudC50YXJnZXQ/LnJlc3VsdCBhcyBzdHJpbmc7CiAgICAgICAgICAgIGltZy5vbmxvYWQgPSAoKSA9PiB7CiAgICAgICAgICAgICAgICBjb25zdCBNQVhfV0lEVEggPSBvcHRpb25zPy5tYXhXaWR0aCB8fCAxMjAwOwogICAgICAgICAgICAgICAgY29uc3QgTUFYX0hFSUdIVCA9IE1BWF9XSURUSDsKCiAgICAgICAgICAgICAgICBsZXQgd2lkdGggPSBpbWcud2lkdGg7CiAgICAgICAgICAgICAgICBsZXQgaGVpZ2h0ID0gaW1nLmhlaWdodDsKICAgICAgICAgICAgICAgIGlmICh3aWR0aCA+IGhlaWdodCkgewogICAgICAgICAgICAgICAgICAgIGlmICh3aWR0aCA+IE1BWF9XSURUSCkgeyBoZWlnaHQgKj0gTUFYX1dJRFRIIC8gd2lkdGg7IHdpZHRoID0gTUFYX1dJRFRIOyB9CiAgICAgICAgICAgICAgICB9IGVsc2UgewogICAgICAgICAgICAgICAgICAgIGlmIChoZWlnaHQgPiBNQVhfSEVJR0hUKSB7IHdpZHRoICo9IE1BWF9IRUlHSFQgLyBoZWlnaHQ7IGhlaWdodCA9IE1BWF9IRUlHSFQ7IH0KICAgICAgICAgICAgICAgIH0KCiAgICAgICAgICAgICAgICBjb25zdCBjYW52YXMgPSBkb2N1bWVudC5jcmVhdGVFbGVtZW50KCdjYW52YXMnKTsKICAgICAgICAgICAgICAgIGNhbnZhcy53aWR0aCA9IHdpZHRoOwogICAgICAgICAgICAgICAgY2FudmFzLmhlaWdodCA9IGhlaWdodDsKICAgICAgICAgICAgICAgIGNvbnN0IGN0eCA9IGNhbnZhcy5nZXRDb250ZXh0KCcyZCcpOwogICAgICAgICAgICAgICAgaWYgKCFjdHgpIHsgcmVqZWN0KG5ldyBFcnJvcignQ2FudmFzIGNvbnRleHQgZXJyb3InKSk7IHJldHVybjsgfQogICAgICAgICAgICAgICAgY3R4LmNsZWFyUmVjdCgwLCAwLCB3aWR0aCwgaGVpZ2h0KTsKICAgICAgICAgICAgICAgIGN0eC5kcmF3SW1hZ2UoaW1nLCAwLCAwLCB3aWR0aCwgaGVpZ2h0KTsKCiAgICAgICAgICAgICAgICBsZXQgbWltZVR5cGUgPSAnaW1hZ2UvanBlZyc7CiAgICAgICAgICAgICAgICBpZiAoIW9wdGlvbnM/LmZvcmNlSnBlZyAmJiAoZmlsZS50eXBlID09PSAnaW1hZ2UvcG5nJyB8fCBmaWxlLnR5cGUgPT09ICdpbWFnZS93ZWJwJykpIHsKICAgICAgICAgICAgICAgICAgICBtaW1lVHlwZSA9IGZpbGUudHlwZTsKICAgICAgICAgICAgICAgIH0KICAgICAgICAgICAgICAgIGNvbnN0IHF1YWxpdHkgPSBvcHRpb25zPy5xdWFsaXR5IHx8IDAuODU7CgogICAgICAgICAgICAgICAgY2FudmFzLnRvQmxvYigKICAgICAgICAgICAgICAgICAgICAoYmxvYikgPT4gewogICAgICAgICAgICAgICAgICAgICAgICBpZiAoYmxvYikgcmVzb2x2ZShibG9iKTsKICAgICAgICAgICAgICAgICAgICAgICAgZWxzZSByZWplY3QobmV3IEVycm9yKCflm77niYfljovnvKnlpLHotKUnKSk7CiAgICAgICAgICAgICAgICAgICAgfSwKICAgICAgICAgICAgICAgICAgICBtaW1lVHlwZSwKICAgICAgICAgICAgICAgICAgICBxdWFsaXR5CiAgICAgICAgICAgICAgICApOwogICAgICAgICAgICB9OwogICAgICAgICAgICBpbWcub25lcnJvciA9ICgpID0+IHJlamVjdChuZXcgRXJyb3IoJ+WbvueJh+WKoOi9veWksei0pScpKTsKICAgICAgICB9OwogICAgICAgIHJlYWRlci5vbmVycm9yID0gKCkgPT4gcmVqZWN0KG5ldyBFcnJvcign5paH5Lu26K+75Y+W5aSx6LSlJykpOwogICAgfSk7Cn07Cg==
+
+export const processImage = (file: File, options?: { maxWidth?: number, quality?: number, forceJpeg?: boolean, skipCompression?: boolean }): Promise<string> => {
+    return new Promise((resolve, reject) => {
+        // 简单验证
+        if (!file.type.startsWith('image/')) {
+            reject(new Error('请上传图片文件'));
+            return;
+        }
+
+        // 1. 如果开启了 skipCompression (用于壁纸等)，直接读取原文件返回，不经过Canvas重绘
+        if (options?.skipCompression) {
+            const reader = new FileReader();
+            reader.readAsDataURL(file);
+            reader.onload = (e) => resolve(e.target?.result as string);
+            reader.onerror = (e) => reject(new Error('文件读取失败'));
+            return;
+        }
+
+        // GIF 不压缩直接读取（放宽限制至 50MB）
+        if (file.type === 'image/gif') {
+            if (file.size > 50 * 1024 * 1024) {
+                reject(new Error('GIF 图片过大(>50MB)，可能导致应用崩溃'));
+                return;
+            }
+            const reader = new FileReader();
+            reader.readAsDataURL(file);
+            reader.onload = (e) => resolve(e.target?.result as string);
+            reader.onerror = (e) => reject(e);
+            return;
+        }
+
+        const reader = new FileReader();
+        reader.readAsDataURL(file);
+        reader.onload = (event) => {
+            const img = new Image();
+            img.src = event.target?.result as string;
+            img.onload = () => {
+                // 压缩逻辑
+                // 默认 1200 (高画质)，如果传入 options 则使用传入值 (如 Chat 中传 600)
+                const MAX_WIDTH = options?.maxWidth || 1200; 
+                const MAX_HEIGHT = MAX_WIDTH; // 保持比例限制
+                
+                let width = img.width;
+                let height = img.height;
+
+                if (width > height) {
+                    if (width > MAX_WIDTH) {
+                        height *= MAX_WIDTH / width;
+                        width = MAX_WIDTH;
+                    }
+                } else {
+                    if (height > MAX_HEIGHT) {
+                        width *= MAX_HEIGHT / height;
+                        height = MAX_HEIGHT;
+                    }
+                }
+
+                const canvas = document.createElement('canvas');
+                canvas.width = width;
+                canvas.height = height;
+                const ctx = canvas.getContext('2d');
+                if (!ctx) {
+                    reject(new Error('Canvas context error'));
+                    return;
+                }
+                
+                // 清空画布 (保证透明)
+                ctx.clearRect(0, 0, width, height);
+                ctx.drawImage(img, 0, 0, width, height);
+                
+                // 智能格式选择: 
+                // 1. 如果 forceJpeg 为 true (如聊天发送图)，强制转 JPEG 以节省体积
+                // 2. 否则如果原图是 PNG/WebP，保持格式以保留透明通道 (如立绘、贴纸)
+                // 3. 默认 JPEG
+                let mimeType = 'image/jpeg';
+                if (!options?.forceJpeg && (file.type === 'image/png' || file.type === 'image/webp')) {
+                    mimeType = file.type;
+                }
+                
+                // 质量控制: 默认 0.85，传入值优先
+                const quality = options?.quality || 0.85;
+                
+                const dataUrl = canvas.toDataURL(mimeType, quality);
+                resolve(dataUrl);
+            };
+            img.onerror = (err) => reject(new Error('图片加载失败'));
+        };
+        reader.onerror = (err) => reject(new Error('文件读取失败'));
+    });
+};
+
+/**
+ * 与 processImage 同款压缩逻辑，但产出 Blob 而非 base64 data URL —— 供改存 Blob 的
+ * 场景（壁纸、小屋等，见 utils/blobRef.ts）使用，省掉一次 base64 编码 + 常驻内存。
+ * GIF / skipCompression 直接返回原文件（File 本身即 Blob，不经 Canvas 重绘）。
+ */
+export const processImageToBlob = (file: File, options?: { maxWidth?: number, quality?: number, forceJpeg?: boolean, skipCompression?: boolean }): Promise<Blob> => {
+    return new Promise((resolve, reject) => {
+        if (!file.type.startsWith('image/')) {
+            reject(new Error('请上传图片文件'));
+            return;
+        }
+
+        // 壁纸等：不重绘，原文件即结果（File 继承自 Blob）。
+        if (options?.skipCompression) {
+            resolve(file);
+            return;
+        }
+
+        // GIF 不压缩直接用原文件（放宽限制至 50MB）。
+        if (file.type === 'image/gif') {
+            if (file.size > 50 * 1024 * 1024) {
+                reject(new Error('GIF 图片过大(>50MB)，可能导致应用崩溃'));
+                return;
+            }
+            resolve(file);
+            return;
+        }
+
+        const reader = new FileReader();
+        reader.readAsDataURL(file);
+        reader.onload = (event) => {
+            const img = new Image();
+            img.src = event.target?.result as string;
+            img.onload = () => {
+                const MAX_WIDTH = options?.maxWidth || 1200;
+                const MAX_HEIGHT = MAX_WIDTH;
+
+                let width = img.width;
+                let height = img.height;
+                if (width > height) {
+                    if (width > MAX_WIDTH) { height *= MAX_WIDTH / width; width = MAX_WIDTH; }
+                } else {
+                    if (height > MAX_HEIGHT) { width *= MAX_HEIGHT / height; height = MAX_HEIGHT; }
+                }
+
+                const canvas = document.createElement('canvas');
+                canvas.width = width;
+                canvas.height = height;
+                const ctx = canvas.getContext('2d');
+                if (!ctx) { reject(new Error('Canvas context error')); return; }
+                ctx.clearRect(0, 0, width, height);
+                ctx.drawImage(img, 0, 0, width, height);
+
+                let mimeType = 'image/jpeg';
+                if (!options?.forceJpeg && (file.type === 'image/png' || file.type === 'image/webp')) {
+                    mimeType = file.type;
+                }
+                const quality = options?.quality || 0.85;
+
+                canvas.toBlob(
+                    (blob) => {
+                        if (blob) resolve(blob);
+                        else reject(new Error('图片压缩失败'));
+                    },
+                    mimeType,
+                    quality
+                );
+            };
+            img.onerror = () => reject(new Error('图片加载失败'));
+        };
+        reader.onerror = () => reject(new Error('文件读取失败'));
+    });
+};

@@ -1,1 +1,112 @@
-LyoqCiAqIENoYXIg6Z+z5LmQIMK3IFNjaGVkdWxlIOi/kOihjOaXtiAo57qv5ZCM5q2l54mIKQogKgogKiDorr7orqHnm67moIfvvJrnu5kgY2hhciDkuIDkuKoi5q2k5Yi76IOM5pmv6Z+zIuWFg+aVsOaNru+8jOiuqeWug+iDveWcqOiBiuWkqSAvIOaLnOiuv+mhtemHjOaEn+efpeOAggogKiDmlYXmhI8gKirkuI0qKiDmi4nmrYzor43jgIHkuI3lgZrov5vluqbmmKDlsIQg4oCU4oCUIGNoYXIg5L2c5Li65Y+Z5LqL5Li75L2T5aSp54S255+l6YGTIuiHquW3seWcqOWQrOS7gOS5iCLvvIwKICog5LiN6ZyA6KaBIGFwcCDmqKHmi5/niannkIbmkq3mlL7ov5vluqbnu5nlroPnnIvjgIIKICoKICog5Zug5q2k6L+Z5Liq5qih5Z2X5piv57qv5ZCM5q2l55qE77ya57uZ5a6aIGNoYXIgKyBzY2hlZHVsZSArIG5vd++8jOebtOaOpei/lOWbnuS4gOS7vSBDaGFyQ3VycmVudExpc3RlbmluZyDmiJYgbnVsbOOAggogKiDlj6/ku6XlnKjku7vmhI/kvY3nva7vvIhjaGF0IOmAgeS/oeWJjeOAgeaLnOiuv+mhtea4suafk+aXtu+8ieiHqueUseiwg+eUqO+8jOmbtue9kee7nOaIkOacrOOAggogKi8KCmltcG9ydCB7IENoYXJhY3RlclByb2ZpbGUsIENoYXJDdXJyZW50TGlzdGVuaW5nLCBDaGFyUGxheWxpc3RTb25nLCBEYWlseVNjaGVkdWxlLCBTY2hlZHVsZVNsb3QgfSBmcm9tICcuLi90eXBlcyc7CmltcG9ydCB7IGdldExvY2FsRGF0ZUtleSB9IGZyb20gJy4vbG9jYWxEYXRlJzsKCmNvbnN0IExJU1RFTklOR19LRVlXT1JEUyA9IFsKICAgICflkKzmrYwnLCAn5ZCs6Z+z5LmQJywgJ+aItOiAs+acuicsICfmiLTkuIrogLPmnLonLCAn5oi0552A6ICz5py6JywgJ+iAs+acuicsCiAgICAn5b6q546vJywgJ+WNleabsuW+queOrycsICfmkq3mlL4nLCAn6ICz55WUJywgJ+iAs+aXgScsCiAgICAn5pKt5pS+5YiX6KGoJywgJ+atjOWNlScsICflia/mrYwnLCAn5YmN5aWPJywKICAgICdsaXN0ZW5pbmcnLCAnbXVzaWMnLCAnc29uZycsICdwbGF5bGlzdCcsICd2aW55bCcsICdoZWFkcGhvbmUnLCAn8J+OtScsICfwn462JywgJ/CfjqcnLApdOwoKY29uc3QgTUFYX1NBTVBMRURfU09OR1MgPSAyMDsKCi8qKiDov5Tlm57lvZPliY3ml7bpl7TlsZ7kuo7lk6rkuIDkuKogc2xvdCAqLwpleHBvcnQgY29uc3QgZ2V0Q3VycmVudFNsb3QgPSAoc2NoZWR1bGU6IERhaWx5U2NoZWR1bGUgfCBudWxsLCBhdDogRGF0ZSA9IG5ldyBEYXRlKCkpOiBTY2hlZHVsZVNsb3QgfCBudWxsID0+IHsKICAgIGlmICghc2NoZWR1bGU/LnNsb3RzPy5sZW5ndGgpIHJldHVybiBudWxsOwogICAgY29uc3Qgbm93TWluID0gYXQuZ2V0SG91cnMoKSAqIDYwICsgYXQuZ2V0TWludXRlcygpOwogICAgZm9yIChsZXQgaSA9IHNjaGVkdWxlLnNsb3RzLmxlbmd0aCAtIDE7IGkgPj0gMDsgaS0tKSB7CiAgICAgICAgY29uc3QgW2gsIG1dID0gc2NoZWR1bGUuc2xvdHNbaV0uc3RhcnRUaW1lLnNwbGl0KCc6JykubWFwKE51bWJlcik7CiAgICAgICAgaWYgKCFpc0Zpbml0ZShoKSB8fCAhaXNGaW5pdGUobSkpIGNvbnRpbnVlOwogICAgICAgIGlmIChub3dNaW4gPj0gaCAqIDYwICsgbSkgcmV0dXJuIHNjaGVkdWxlLnNsb3RzW2ldOwogICAgfQogICAgcmV0dXJuIG51bGw7Cn07CgovKiog5Yik5patIHNsb3Qg5piv5ZCm5pqX56S6IuWcqOWQrOatjCIgKi8KZXhwb3J0IGNvbnN0IHNsb3RJc0xpc3RlbmluZyA9IChzbG90OiBTY2hlZHVsZVNsb3QgfCBudWxsKTogYm9vbGVhbiA9PiB7CiAgICBpZiAoIXNsb3QpIHJldHVybiBmYWxzZTsKICAgIGNvbnN0IGJsb2IgPSBgJHtzbG90LmFjdGl2aXR5IHx8ICcnfSAke3Nsb3QuZGVzY3JpcHRpb24gfHwgJyd9ICR7c2xvdC5pbm5lclRob3VnaHQgfHwgJyd9ICR7c2xvdC5lbW9qaSB8fCAnJ31gLnRvTG93ZXJDYXNlKCk7CiAgICByZXR1cm4gTElTVEVOSU5HX0tFWVdPUkRTLnNvbWUoa3cgPT4gYmxvYi5pbmNsdWRlcyhrdy50b0xvd2VyQ2FzZSgpKSk7Cn07CgovKiogc2xvdC5zdGFydFRpbWUgIjA4OjAwIiDihpIg5LuK5pelIERhdGUgKi8KY29uc3Qgc2xvdFN0YXJ0VG9EYXRlID0gKHNsb3Q6IFNjaGVkdWxlU2xvdCwgYmFzZURhdGU6IERhdGUpOiBEYXRlID0+IHsKICAgIGNvbnN0IFtoLCBtXSA9IHNsb3Quc3RhcnRUaW1lLnNwbGl0KCc6JykubWFwKE51bWJlcik7CiAgICBjb25zdCBkID0gbmV3IERhdGUoYmFzZURhdGUpOwogICAgZC5zZXRIb3VycyhoIHx8IDAsIG0gfHwgMCwgMCwgMCk7CiAgICByZXR1cm4gZDsKfTsKCi8qKgogKiDln7rkuo4gKHRvZGF5ICsgc2xvdC5zdGFydFRpbWUgKyBjaGFySWQpIOenjeWtkOS7jiBjaGFyIOatjOWNlemHjOeos+WumuaKveS4gOmmluOAggogKiDlkIzkuIAgc2xvdCDmnJ/pl7TmsLjov5zmmK/lkIzkuIDpppbmrYzvvIzkuI3kvJrot7PjgIIKICovCmNvbnN0IHBpY2tTb25nRm9yU2xvdCA9ICgKICAgIGNoYXI6IENoYXJhY3RlclByb2ZpbGUsCiAgICBzbG90OiBTY2hlZHVsZVNsb3QsCiAgICB0b2RheTogc3RyaW5nLAopOiBDaGFyUGxheWxpc3RTb25nIHwgbnVsbCA9PiB7CiAgICBjb25zdCBwID0gY2hhci5tdXNpY1Byb2ZpbGU7CiAgICBpZiAoIXApIHJldHVybiBudWxsOwoKICAgIGNvbnN0IHBvb2w6IENoYXJQbGF5bGlzdFNvbmdbXSA9IFtdOwogICAgY29uc3Qgc2VlbiA9IG5ldyBTZXQ8bnVtYmVyPigpOwogICAgZm9yIChjb25zdCBwbCBvZiBwLnBsYXlsaXN0cykgewogICAgICAgIGZvciAoY29uc3QgcyBvZiBwbC5zb25ncykgewogICAgICAgICAgICBpZiAoc2Vlbi5oYXMocy5pZCkpIGNvbnRpbnVlOwogICAgICAgICAgICBzZWVuLmFkZChzLmlkKTsKICAgICAgICAgICAgcG9vbC5wdXNoKHMpOwogICAgICAgICAgICBpZiAocG9vbC5sZW5ndGggPj0gTUFYX1NBTVBMRURfU09OR1MpIGJyZWFrOwogICAgICAgIH0KICAgICAgICBpZiAocG9vbC5sZW5ndGggPj0gTUFYX1NBTVBMRURfU09OR1MpIGJyZWFrOwogICAgfQogICAgaWYgKHBvb2wubGVuZ3RoID09PSAwKSByZXR1cm4gbnVsbDsKCiAgICBjb25zdCBzZWVkU3RyID0gYCR7dG9kYXl9LSR7c2xvdC5zdGFydFRpbWV9LSR7Y2hhci5pZH1gOwogICAgbGV0IGggPSAwOwogICAgZm9yIChjb25zdCBjaCBvZiBzZWVkU3RyKSBoID0gKGggKiAzMSArIGNoLmNoYXJDb2RlQXQoMCkpID4+PiAwOwogICAgcmV0dXJuIHBvb2xbaCAlIHBvb2wubGVuZ3RoXTsKfTsKCi8qKgogKiDorqHnrpcgY2hhciDmraTliLvor6Ui5Zyo5ZCsIueahOatjO+8iOe6r+WQjOatpe+8jOaXoOe9kee7nO+8ieOAggogKiAtIHNsb3Qg5LiN5ZCr5ZCs5q2M5YWz6ZSu6K+NIOKGkiDov5Tlm54gbnVsbAogKiAtIGNoYXIg5rKh5pyJ5q2M5Y2V5oiW5q2M5Y2V5YWo5Li656m6IOKGkiDov5Tlm54gbnVsbAogKgogKiDosIPnlKjmlrnlj6/ku6Xnm7TmjqXmiornu5PmnpzmjILliLAgY2hhci5tdXNpY1Byb2ZpbGUuY3VycmVudExpc3RlbmluZyAoVUkg5bGV56S6Ke+8jAogKiDmiJblj6rkuLTml7bnlKjkuo4gcHJvbXB0IOazqOWFpe+8jOS4jeW/heaMgeS5heWMluOAggogKi8KZXhwb3J0IGZ1bmN0aW9uIGNvbXB1dGVDdXJyZW50TGlzdGVuaW5nKAogICAgY2hhcjogQ2hhcmFjdGVyUHJvZmlsZSwKICAgIHNjaGVkdWxlOiBEYWlseVNjaGVkdWxlIHwgbnVsbCwKICAgIG5vdzogRGF0ZSA9IG5ldyBEYXRlKCksCik6IENoYXJDdXJyZW50TGlzdGVuaW5nIHwgbnVsbCB7CiAgICBpZiAoIWNoYXIubXVzaWNQcm9maWxlKSByZXR1cm4gbnVsbDsKCiAgICBjb25zdCBzbG90ID0gZ2V0Q3VycmVudFNsb3Qoc2NoZWR1bGUsIG5vdyk7CiAgICBpZiAoIXNsb3QgfHwgIXNsb3RJc0xpc3RlbmluZyhzbG90KSkgcmV0dXJuIG51bGw7CgogICAgY29uc3QgdG9kYXkgPSBnZXRMb2NhbERhdGVLZXkobm93KTsKICAgIGNvbnN0IHNvbmcgPSBwaWNrU29uZ0ZvclNsb3QoY2hhciwgc2xvdCwgdG9kYXkpOwogICAgaWYgKCFzb25nKSByZXR1cm4gbnVsbDsKCiAgICByZXR1cm4gewogICAgICAgIHNvbmdJZDogc29uZy5pZCwKICAgICAgICBzb25nTmFtZTogc29uZy5uYW1lLAogICAgICAgIGFydGlzdHM6IHNvbmcuYXJ0aXN0cywKICAgICAgICBhbGJ1bVBpYzogc29uZy5hbGJ1bVBpYywKICAgICAgICB2aWJlOiBzbG90LmlubmVyVGhvdWdodCB8fCBzbG90LmRlc2NyaXB0aW9uIHx8IHVuZGVmaW5lZCwKICAgICAgICBzdGFydGVkQXQ6IHNsb3RTdGFydFRvRGF0ZShzbG90LCBub3cpLmdldFRpbWUoKSwKICAgIH07Cn0K
+/**
+ * Char 音乐 · Schedule 运行时 (纯同步版)
+ *
+ * 设计目标：给 char 一个"此刻背景音"元数据，让它能在聊天 / 拜访页里感知。
+ * 故意 **不** 拉歌词、不做进度映射 —— char 作为叙事主体天然知道"自己在听什么"，
+ * 不需要 app 模拟物理播放进度给它看。
+ *
+ * 因此这个模块是纯同步的：给定 char + schedule + now，直接返回一份 CharCurrentListening 或 null。
+ * 可以在任意位置（chat 送信前、拜访页渲染时）自由调用，零网络成本。
+ */
+
+import { CharacterProfile, CharCurrentListening, CharPlaylistSong, DailySchedule, ScheduleSlot } from '../types';
+import { getLocalDateKey } from './localDate';
+
+const LISTENING_KEYWORDS = [
+    '听歌', '听音乐', '戴耳机', '戴上耳机', '戴着耳机', '耳机',
+    '循环', '单曲循环', '播放', '耳畔', '耳旁',
+    '播放列表', '歌单', '副歌', '前奏',
+    'listening', 'music', 'song', 'playlist', 'vinyl', 'headphone', '🎵', '🎶', '🎧',
+];
+
+const MAX_SAMPLED_SONGS = 20;
+
+/** 返回当前时间属于哪一个 slot */
+export const getCurrentSlot = (schedule: DailySchedule | null, at: Date = new Date()): ScheduleSlot | null => {
+    if (!schedule?.slots?.length) return null;
+    const nowMin = at.getHours() * 60 + at.getMinutes();
+    for (let i = schedule.slots.length - 1; i >= 0; i--) {
+        const [h, m] = schedule.slots[i].startTime.split(':').map(Number);
+        if (!isFinite(h) || !isFinite(m)) continue;
+        if (nowMin >= h * 60 + m) return schedule.slots[i];
+    }
+    return null;
+};
+
+/** 判断 slot 是否暗示"在听歌" */
+export const slotIsListening = (slot: ScheduleSlot | null): boolean => {
+    if (!slot) return false;
+    const blob = `${slot.activity || ''} ${slot.description || ''} ${slot.innerThought || ''} ${slot.emoji || ''}`.toLowerCase();
+    return LISTENING_KEYWORDS.some(kw => blob.includes(kw.toLowerCase()));
+};
+
+/** slot.startTime "08:00" → 今日 Date */
+const slotStartToDate = (slot: ScheduleSlot, baseDate: Date): Date => {
+    const [h, m] = slot.startTime.split(':').map(Number);
+    const d = new Date(baseDate);
+    d.setHours(h || 0, m || 0, 0, 0);
+    return d;
+};
+
+/**
+ * 基于 (today + slot.startTime + charId) 种子从 char 歌单里稳定抽一首。
+ * 同一 slot 期间永远是同一首歌，不会跳。
+ */
+const pickSongForSlot = (
+    char: CharacterProfile,
+    slot: ScheduleSlot,
+    today: string,
+): CharPlaylistSong | null => {
+    const p = char.musicProfile;
+    if (!p) return null;
+
+    const pool: CharPlaylistSong[] = [];
+    const seen = new Set<number>();
+    for (const pl of p.playlists) {
+        for (const s of pl.songs) {
+            if (seen.has(s.id)) continue;
+            seen.add(s.id);
+            pool.push(s);
+            if (pool.length >= MAX_SAMPLED_SONGS) break;
+        }
+        if (pool.length >= MAX_SAMPLED_SONGS) break;
+    }
+    if (pool.length === 0) return null;
+
+    const seedStr = `${today}-${slot.startTime}-${char.id}`;
+    let h = 0;
+    for (const ch of seedStr) h = (h * 31 + ch.charCodeAt(0)) >>> 0;
+    return pool[h % pool.length];
+};
+
+/**
+ * 计算 char 此刻该"在听"的歌（纯同步，无网络）。
+ * - slot 不含听歌关键词 → 返回 null
+ * - char 没有歌单或歌单全为空 → 返回 null
+ *
+ * 调用方可以直接把结果挂到 char.musicProfile.currentListening (UI 展示)，
+ * 或只临时用于 prompt 注入，不必持久化。
+ */
+export function computeCurrentListening(
+    char: CharacterProfile,
+    schedule: DailySchedule | null,
+    now: Date = new Date(),
+): CharCurrentListening | null {
+    if (!char.musicProfile) return null;
+
+    const slot = getCurrentSlot(schedule, now);
+    if (!slot || !slotIsListening(slot)) return null;
+
+    const today = getLocalDateKey(now);
+    const song = pickSongForSlot(char, slot, today);
+    if (!song) return null;
+
+    return {
+        songId: song.id,
+        songName: song.name,
+        artists: song.artists,
+        albumPic: song.albumPic,
+        vibe: slot.innerThought || slot.description || undefined,
+        startedAt: slotStartToDate(slot, now).getTime(),
+    };
+}

@@ -1,1 +1,47 @@
-W2J1aWxkXQogIGZ1bmN0aW9ucyA9ICJuZXRsaWZ5L2Z1bmN0aW9ucyIKICBwdWJsaXNoID0gImRpc3QiCgpbZnVuY3Rpb25zXQogIG5vZGVfYnVuZGxlciA9ICJlc2J1aWxkIgoKW1tyZWRpcmVjdHNdXQogIGZyb20gPSAiL2FwaS92MS9pbml0LXRlbmFudCIKICB0byA9ICIvLm5ldGxpZnkvZnVuY3Rpb25zL2luaXQtdGVuYW50IgogIHN0YXR1cyA9IDIwMAoKW1tyZWRpcmVjdHNdXQogIGZyb20gPSAiL2FwaS92MS9nZXQtdXNlci1rZXkiCiAgdG8gPSAiLy5uZXRsaWZ5L2Z1bmN0aW9ucy9nZXQtdXNlci1rZXkiCiAgc3RhdHVzID0gMjAwCgpbW3JlZGlyZWN0c11dCiAgZnJvbSA9ICIvYXBpL3YxL3NjaGVkdWxlLW1lc3NhZ2UiCiAgdG8gPSAiLy5uZXRsaWZ5L2Z1bmN0aW9ucy9zY2hlZHVsZS1tZXNzYWdlIgogIHN0YXR1cyA9IDIwMAoKW1tyZWRpcmVjdHNdXQogIGZyb20gPSAiL2FwaS92MS91cGRhdGUtbWVzc2FnZSIKICB0byA9ICIvLm5ldGxpZnkvZnVuY3Rpb25zL3VwZGF0ZS1tZXNzYWdlIgogIHN0YXR1cyA9IDIwMAoKW1tyZWRpcmVjdHNdXQogIGZyb20gPSAiL2FwaS92MS9jYW5jZWwtbWVzc2FnZSIKICB0byA9ICIvLm5ldGxpZnkvZnVuY3Rpb25zL2NhbmNlbC1tZXNzYWdlIgogIHN0YXR1cyA9IDIwMAoKW1tyZWRpcmVjdHNdXQogIGZyb20gPSAiL2FwaS92MS9tZXNzYWdlcyIKICB0byA9ICIvLm5ldGxpZnkvZnVuY3Rpb25zL21lc3NhZ2VzIgogIHN0YXR1cyA9IDIwMAoKW1tyZWRpcmVjdHNdXQogIGZyb20gPSAiL2FwaS92MS9zZW5kLW5vdGlmaWNhdGlvbnMiCiAgdG8gPSAiLy5uZXRsaWZ5L2Z1bmN0aW9ucy9zZW5kLW5vdGlmaWNhdGlvbnMiCiAgc3RhdHVzID0gMjAwCgpbW2hlYWRlcnNdXQogIGZvciA9ICIvYXNzZXRzLyoiCgogIFtoZWFkZXJzLnZhbHVlc10KICAgIFNlcnZpY2UtV29ya2VyLUFsbG93ZWQgPSAiLyIK
+[build]
+  functions = "netlify/functions"
+  publish = "dist"
+
+[functions]
+  node_bundler = "esbuild"
+
+[[redirects]]
+  from = "/api/v1/init-tenant"
+  to = "/.netlify/functions/init-tenant"
+  status = 200
+
+[[redirects]]
+  from = "/api/v1/get-user-key"
+  to = "/.netlify/functions/get-user-key"
+  status = 200
+
+[[redirects]]
+  from = "/api/v1/schedule-message"
+  to = "/.netlify/functions/schedule-message"
+  status = 200
+
+[[redirects]]
+  from = "/api/v1/update-message"
+  to = "/.netlify/functions/update-message"
+  status = 200
+
+[[redirects]]
+  from = "/api/v1/cancel-message"
+  to = "/.netlify/functions/cancel-message"
+  status = 200
+
+[[redirects]]
+  from = "/api/v1/messages"
+  to = "/.netlify/functions/messages"
+  status = 200
+
+[[redirects]]
+  from = "/api/v1/send-notifications"
+  to = "/.netlify/functions/send-notifications"
+  status = 200
+
+[[headers]]
+  for = "/assets/*"
+
+  [headers.values]
+    Service-Worker-Allowed = "/"

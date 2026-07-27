@@ -1,1 +1,8 @@
-cGFja2FnZXM6CiAgLSAiLiIKICAtICJ3b3JrZXIvKiIKCmFsbG93QnVpbGRzOgogIGVzYnVpbGQ6IHRydWUKICBzaGFycDogdHJ1ZQogIHdvcmtlcmQ6IHRydWUK
+packages:
+  - "."
+  - "worker/*"
+
+allowBuilds:
+  esbuild: true
+  sharp: true
+  workerd: true

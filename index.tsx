@@ -1,1 +1,39 @@
-aW1wb3J0IFJlYWN0IGZyb20gJ3JlYWN0JzsKaW1wb3J0IFJlYWN0RE9NIGZyb20gJ3JlYWN0LWRvbS9jbGllbnQnOwppbXBvcnQgQXBwIGZyb20gJy4vQXBwJzsKaW1wb3J0IHsgaW5zdGFsbFRyYW5zbGF0ZUNyYXNoR3VhcmQgfSBmcm9tICcuL3V0aWxzL3RyYW5zbGF0ZUNyYXNoR3VhcmQnOwppbXBvcnQgeyBBY3RpdmVNc2dSdW50aW1lIH0gZnJvbSAnLi91dGlscy9hY3RpdmVNc2dSdW50aW1lJzsKaW1wb3J0IHsgS2VlcEFsaXZlIH0gZnJvbSAnLi91dGlscy9rZWVwQWxpdmUnOwppbXBvcnQgeyBQcm9hY3RpdmVDaGF0IH0gZnJvbSAnLi91dGlscy9wcm9hY3RpdmVDaGF0JzsKaW1wb3J0IHsgVlJTY2hlZHVsZXIgfSBmcm9tICcuL3V0aWxzL3ZyV29ybGQvc2NoZWR1bGVyJzsKaW1wb3J0IHsgaW5zdGFsbElPU1N0YW5kYWxvbmVXb3JrYXJvdW5kIH0gZnJvbSAnLi91dGlscy9pb3NTdGFuZGFsb25lJzsKaW1wb3J0IHsgaW5zdGFsbFdha2VMaXN0ZW5lciB9IGZyb20gJy4vdXRpbHMvcHJvYWN0aXZlUHVzaENvbmZpZyc7CgovLyBSZWdpc3RlciB0aGUga2VlcC1hbGl2ZSBTZXJ2aWNlIFdvcmtlciBlYXJseSBzbyBpdCdzIHJlYWR5IGJlZm9yZSBhbnkgQUkgY2FsbHMKS2VlcEFsaXZlLmluaXQoKS50aGVuKCgpID0+IHsKICAvLyBSZXN1bWUgYW55IGFjdGl2ZSBwcm9hY3RpdmUgc2NoZWR1bGUgYWZ0ZXIgU1cgaXMgcmVhZHkKICBQcm9hY3RpdmVDaGF0LnJlc3VtZSgpOwogIC8vIFJlc3VtZSDjgIzlvbzmlrnjgI0gYXV0b25vbW91cy1sb2dpbiBzY2hlZHVsZXMKICBWUlNjaGVkdWxlci5yZXN1bWUoKTsKICB2b2lkIEFjdGl2ZU1zZ1J1bnRpbWUuaW5pdCgpOwogIC8vIFJlY29yZCBldmVyeSB3YWtlIHRoZSBTVyByZXBvcnRzIHNvIHRoZSBkaWFnbm9zdGljIHBhbmVsIGNhbiBzaG93ICJsYXN0IHJlY2VpdmVkIi4KICBpbnN0YWxsV2FrZUxpc3RlbmVyKCk7Cn0pOwoKaW5zdGFsbElPU1N0YW5kYWxvbmVXb3JrYXJvdW5kKCk7CgovLyDmtY/op4jlmajoh6rliqjnv7vor5EgKENocm9tZS9FZGdlIOetiSkg5Lya5pS55YqoIFJlYWN0IOaJmOeuoeeahCBET03vvIzlr7zoh7QgcmVjb25jaWxlIOaXtgovLyBpbnNlcnRCZWZvcmUvcmVtb3ZlQ2hpbGQg5oqbIE5vdEZvdW5kRXJyb3Ig55m95bGP44CC5oyC6L295YmN5YWI5omT5oqk5qCP44CC6K+m6KeB6K+lIHV0aWwg5rOo6YeK44CCCmluc3RhbGxUcmFuc2xhdGVDcmFzaEd1YXJkKCk7Cgpjb25zdCByb290RWxlbWVudCA9IGRvY3VtZW50LmdldEVsZW1lbnRCeUlkKCdyb290Jyk7CmlmICghcm9vdEVsZW1lbnQpIHsKICB0aHJvdyBuZXcgRXJyb3IoIkNvdWxkIG5vdCBmaW5kIHJvb3QgZWxlbWVudCB0byBtb3VudCB0byIpOwp9Cgpjb25zdCByb290ID0gUmVhY3RET00uY3JlYXRlUm9vdChyb290RWxlbWVudCk7CnJvb3QucmVuZGVyKAogIDxSZWFjdC5TdHJpY3RNb2RlPgogICAgPEFwcCAvPgogIDwvUmVhY3QuU3RyaWN0TW9kZT4KKTsK
+import React from 'react';
+import ReactDOM from 'react-dom/client';
+import App from './App';
+import { installTranslateCrashGuard } from './utils/translateCrashGuard';
+import { ActiveMsgRuntime } from './utils/activeMsgRuntime';
+import { KeepAlive } from './utils/keepAlive';
+import { ProactiveChat } from './utils/proactiveChat';
+import { VRScheduler } from './utils/vrWorld/scheduler';
+import { installIOSStandaloneWorkaround } from './utils/iosStandalone';
+import { installWakeListener } from './utils/proactivePushConfig';
+
+// Register the keep-alive Service Worker early so it's ready before any AI calls
+KeepAlive.init().then(() => {
+  // Resume any active proactive schedule after SW is ready
+  ProactiveChat.resume();
+  // Resume 「彼方」 autonomous-login schedules
+  VRScheduler.resume();
+  void ActiveMsgRuntime.init();
+  // Record every wake the SW reports so the diagnostic panel can show "last received".
+  installWakeListener();
+});
+
+installIOSStandaloneWorkaround();
+
+// 浏览器自动翻译 (Chrome/Edge 等) 会改动 React 托管的 DOM，导致 reconcile 时
+// insertBefore/removeChild 抛 NotFoundError 白屏。挂载前先打护栏。详见该 util 注释。
+installTranslateCrashGuard();
+
+const rootElement = document.getElementById('root');
+if (!rootElement) {
+  throw new Error("Could not find root element to mount to");
+}
+
+const root = ReactDOM.createRoot(rootElement);
+root.render(
+  <React.StrictMode>
+    <App />
+  </React.StrictMode>
+);

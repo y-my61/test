@@ -1,1 +1,56 @@
-ewogICJuYW1lIjogImFldGhlcm9zLXNpbXVsYXRvciIsCiAgInZlcnNpb24iOiAiMS4wLjAiLAogICJ0eXBlIjogIm1vZHVsZSIsCiAgImxpY2Vuc2UiOiAiU0VFIExJQ0VOU0UgSU4gTElDRU5TRSIsCiAgInNjcmlwdHMiOiB7CiAgICAiZGV2IjogInZpdGUiLAogICAgImJ1aWxkIjogInBucG0gcnVuIGJ1aWxkOndvcmtlcnMgJiYgdml0ZSBidWlsZCIsCiAgICAicHJldmlldyI6ICJ2aXRlIHByZXZpZXciLAogICAgImNhcDpzeW5jIjogImNhcCBzeW5jIiwKICAgICJjYXA6YW5kcm9pZCI6ICJjYXAgb3BlbiBhbmRyb2lkIiwKICAgICJidWlsZDp3b3JrZXJzIjogIm5vZGUgc2NyaXB0cy9idWlsZC13b3JrZXJzLm1qcyIsCiAgICAidGVzdCI6ICJ2aXRlc3QiLAogICAgInRlc3Q6cnVuIjogInZpdGVzdCBydW4iCiAgfSwKICAiZGVwZW5kZW5jaWVzIjogewogICAgIkBjYXBhY2l0b3ItY29tbXVuaXR5L3NwZWVjaC1yZWNvZ25pdGlvbiI6ICJeNi4wLjEiLAogICAgIkBjYXBhY2l0b3IvYW5kcm9pZCI6ICJeNi4wLjAiLAogICAgIkBjYXBhY2l0b3IvYXBwIjogIl42LjAuMCIsCiAgICAiQGNhcGFjaXRvci9jb3JlIjogIl42LjAuMCIsCiAgICAiQGNhcGFjaXRvci9maWxlc3lzdGVtIjogIl42LjAuMCIsCiAgICAiQGNhcGFjaXRvci9nZW9sb2NhdGlvbiI6ICJeNi4xLjEiLAogICAgIkBjYXBhY2l0b3Iva2V5Ym9hcmQiOiAiXjYuMC4wIiwKICAgICJAY2FwYWNpdG9yL2xvY2FsLW5vdGlmaWNhdGlvbnMiOiAiXjYuMC4wIiwKICAgICJAY2FwYWNpdG9yL3NoYXJlIjogIl42LjAuMCIsCiAgICAiQGNhcGFjaXRvci9zdGF0dXMtYmFyIjogIl42LjAuMCIsCiAgICAiQG5lb25kYXRhYmFzZS9zZXJ2ZXJsZXNzIjogIl4xLjAuMiIsCiAgICAiQG5ldGxpZnkvYmxvYnMiOiAiXjEwLjcuNCIsCiAgICAiQG5ldGxpZnkvZnVuY3Rpb25zIjogIl41LjEuNSIsCiAgICAiQHBob3NwaG9yLWljb25zL3JlYWN0IjogIl4yLjEuMTAiLAogICAgIkByZWktc3RhbmRhcmQvYW1zZy1jbGllbnQiOiAiMi43LjAiLAogICAgIkByZWktc3RhbmRhcmQvYW1zZy1pbnN0YW50IjogIjAuOS4xIiwKICAgICJAcmVpLXN0YW5kYXJkL2Ftc2ctc2VydmVyIjogIjIuNS4xIiwKICAgICJAcmVpLXN0YW5kYXJkL2Ftc2ctc2hhcmVkIjogIjAuMi4wIiwKICAgICJAcmVpLXN0YW5kYXJkL2Ftc2ctc3ciOiAiMi4zLjEiLAogICAgImFnLXBzZCI6ICJeMzEuMC4yIiwKICAgICJqc3ppcCI6ICJeMy4xMC4xIiwKICAgICJwZyI6ICJeOC4yMC4wIiwKICAgICJxcmNvZGUiOiAiXjEuNS40IiwKICAgICJyZWFjdCI6ICJeMTguMi4wIiwKICAgICJyZWFjdC1kb20iOiAiXjE4LjIuMCIsCiAgICAid2ViLXB1c2giOiAiXjMuNi43IgogIH0sCiAgImRldkRlcGVuZGVuY2llcyI6IHsKICAgICJAY2FwYWNpdG9yL2NsaSI6ICJeNi4wLjAiLAogICAgIkB0eXBlcy9xcmNvZGUiOiAiXjEuNS42IiwKICAgICJAdHlwZXMvcmVhY3QiOiAiXjE4LjIuNDMiLAogICAgIkB0eXBlcy9yZWFjdC1kb20iOiAiXjE4LjIuMTciLAogICAgIkB2aXRlanMvcGx1Z2luLXJlYWN0IjogIl40LjIuMSIsCiAgICAiZXNidWlsZCI6ICJeMC4yMS41IiwKICAgICJmYWtlLWluZGV4ZWRkYiI6ICJeNi4yLjUiLAogICAgInR5cGVzY3JpcHQiOiAiXjUuMy4zIiwKICAgICJ2aXRlIjogIl41LjAuMTAiLAogICAgInZpdGVzdCI6ICJeMi4xLjkiCiAgfQp9Cg==
+{
+  "name": "aetheros-simulator",
+  "version": "1.0.0",
+  "type": "module",
+  "license": "SEE LICENSE IN LICENSE",
+  "scripts": {
+    "dev": "vite",
+    "build": "pnpm run build:workers && vite build",
+    "preview": "vite preview",
+    "cap:sync": "cap sync",
+    "cap:android": "cap open android",
+    "build:workers": "node scripts/build-workers.mjs",
+    "test": "vitest",
+    "test:run": "vitest run"
+  },
+  "dependencies": {
+    "@capacitor-community/speech-recognition": "^6.0.1",
+    "@capacitor/android": "^6.0.0",
+    "@capacitor/app": "^6.0.0",
+    "@capacitor/core": "^6.0.0",
+    "@capacitor/filesystem": "^6.0.0",
+    "@capacitor/geolocation": "^6.1.1",
+    "@capacitor/keyboard": "^6.0.0",
+    "@capacitor/local-notifications": "^6.0.0",
+    "@capacitor/share": "^6.0.0",
+    "@capacitor/status-bar": "^6.0.0",
+    "@neondatabase/serverless": "^1.0.2",
+    "@netlify/blobs": "^10.7.4",
+    "@netlify/functions": "^5.1.5",
+    "@phosphor-icons/react": "^2.1.10",
+    "@rei-standard/amsg-client": "2.7.0",
+    "@rei-standard/amsg-instant": "0.9.1",
+    "@rei-standard/amsg-server": "2.5.1",
+    "@rei-standard/amsg-shared": "0.2.0",
+    "@rei-standard/amsg-sw": "2.3.1",
+    "ag-psd": "^31.0.2",
+    "jszip": "^3.10.1",
+    "pg": "^8.20.0",
+    "qrcode": "^1.5.4",
+    "react": "^18.2.0",
+    "react-dom": "^18.2.0",
+    "web-push": "^3.6.7"
+  },
+  "devDependencies": {
+    "@capacitor/cli": "^6.0.0",
+    "@types/qrcode": "^1.5.6",
+    "@types/react": "^18.2.43",
+    "@types/react-dom": "^18.2.17",
+    "@vitejs/plugin-react": "^4.2.1",
+    "esbuild": "^0.21.5",
+    "fake-indexeddb": "^6.2.5",
+    "typescript": "^5.3.3",
+    "vite": "^5.0.10",
+    "vitest": "^2.1.9"
+  }
+}

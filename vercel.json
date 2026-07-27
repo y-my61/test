@@ -1,1 +1,10 @@
-ewogICJidWlsZENvbW1hbmQiOiAidml0ZSBidWlsZCIsCiAgIm91dHB1dERpcmVjdG9yeSI6ICJkaXN0IiwKICAicmV3cml0ZXMiOiBbCiAgICB7CiAgICAgICJzb3VyY2UiOiAiLygoPyFhcGkvfC4qXFwuLiopLiopIiwKICAgICAgImRlc3RpbmF0aW9uIjogIi9pbmRleC5odG1sIgogICAgfQogIF0KfQo=
+{
+  "buildCommand": "vite build",
+  "outputDirectory": "dist",
+  "rewrites": [
+    {
+      "source": "/((?!api/|.*\\..*).*)",
+      "destination": "/index.html"
+    }
+  ]
+}

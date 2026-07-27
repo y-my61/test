@@ -1,1 +1,23 @@
-LyoqCiAqIHZpdGVzdCDlhajlsYAgc2V0dXAg4oCUIOS4uiBOb2RlIOeOr+Wig+ihpem9kOa1j+iniOWZqCBBUEkuCiAqICAtIGZha2UtaW5kZXhlZGRiL2F1dG86IOaKiiBpbmRleGVkREIgLyBJREJLZXlSYW5nZSDnrYnmjILliLAgZ2xvYmFsVGhpcywKICogICAg6K6pIGFjdGl2ZU1zZ1N0b3JlLnRzIOWcqCBOb2RlIOmHjOiDveebtOaOpei3kS4KICogIC0gbG9jYWxTdG9yYWdlIHN0dWI6IGluc3RhbnRQdXNoQ2xpZW50LnRzIOWcqOaooeWdl+WKoOi9veaXtuS4jeivuyBsb2NhbFN0b3JhZ2UsCiAqICAgIOS9hui/kOihjOaXtuiwgyBsb2FkSW5zdGFudENvbmZpZygpIOS8muivuywg57uZ5pyA566A5piTIGluLW1lbW9yeSDlrp7njrAuCiAqLwoKaW1wb3J0ICdmYWtlLWluZGV4ZWRkYi9hdXRvJzsKCmNsYXNzIE1lbVN0b3JhZ2UgewogIHByaXZhdGUgc3RvcmUgPSBuZXcgTWFwPHN0cmluZywgc3RyaW5nPigpOwogIGdldEl0ZW0oazogc3RyaW5nKSB7IHJldHVybiB0aGlzLnN0b3JlLmhhcyhrKSA/IHRoaXMuc3RvcmUuZ2V0KGspISA6IG51bGw7IH0KICBzZXRJdGVtKGs6IHN0cmluZywgdjogc3RyaW5nKSB7IHRoaXMuc3RvcmUuc2V0KGssIFN0cmluZyh2KSk7IH0KICByZW1vdmVJdGVtKGs6IHN0cmluZykgeyB0aGlzLnN0b3JlLmRlbGV0ZShrKTsgfQogIGNsZWFyKCkgeyB0aGlzLnN0b3JlLmNsZWFyKCk7IH0KICBrZXkoaTogbnVtYmVyKSB7IHJldHVybiBBcnJheS5mcm9tKHRoaXMuc3RvcmUua2V5cygpKVtpXSA/PyBudWxsOyB9CiAgZ2V0IGxlbmd0aCgpIHsgcmV0dXJuIHRoaXMuc3RvcmUuc2l6ZTsgfQp9CgppZiAodHlwZW9mIChnbG9iYWxUaGlzIGFzIGFueSkubG9jYWxTdG9yYWdlID09PSAndW5kZWZpbmVkJykgewogIChnbG9iYWxUaGlzIGFzIGFueSkubG9jYWxTdG9yYWdlID0gbmV3IE1lbVN0b3JhZ2UoKTsKfQo=
+/**
+ * vitest 全局 setup — 为 Node 环境补齐浏览器 API.
+ *  - fake-indexeddb/auto: 把 indexedDB / IDBKeyRange 等挂到 globalThis,
+ *    让 activeMsgStore.ts 在 Node 里能直接跑.
+ *  - localStorage stub: instantPushClient.ts 在模块加载时不读 localStorage,
+ *    但运行时调 loadInstantConfig() 会读, 给最简易 in-memory 实现.
+ */
+
+import 'fake-indexeddb/auto';
+
+class MemStorage {
+  private store = new Map<string, string>();
+  getItem(k: string) { return this.store.has(k) ? this.store.get(k)! : null; }
+  setItem(k: string, v: string) { this.store.set(k, String(v)); }
+  removeItem(k: string) { this.store.delete(k); }
+  clear() { this.store.clear(); }
+  key(i: number) { return Array.from(this.store.keys())[i] ?? null; }
+  get length() { return this.store.size; }
+}
+
+if (typeof (globalThis as any).localStorage === 'undefined') {
+  (globalThis as any).localStorage = new MemStorage();
+}

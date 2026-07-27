@@ -1,1 +1,141 @@
-aW1wb3J0IHsgZGVmaW5lQ29uZmlnIH0gZnJvbSAndml0ZSc7CmltcG9ydCByZWFjdCBmcm9tICdAdml0ZWpzL3BsdWdpbi1yZWFjdCc7CmltcG9ydCB7IGV4ZWNTeW5jIH0gZnJvbSAnbm9kZTpjaGlsZF9wcm9jZXNzJzsKaW1wb3J0IHsgYmFrZVZvaWNlTWlkZGxld2FyZSB9IGZyb20gJy4vc2VydmVyL2Jha2Utdm9pY2UtbWlkZGxld2FyZSc7CgovLyDmnoTlu7rml7bmipMgZ2l0IOWIhuaUryArIHNob3J0IGNvbW1pdO+8jOazqOWFpeWIsCBCdWlsZEJhZGdlIOaYvuekuuOAggovLyDpnZ4gZ2l0IOeOr+Wig++8iOWuueWZqOOAgXRhcmJhbGwg6YOo572y77yJ6YCA5YyW5oiQICd1bmtub3duJ++8jOS4jeW9seWTjeaehOW7uuOAggovLwovLyDmmL7npLrop4TliJnvvJoKLy8gICAtIOm7mOiupOWcqCBtYWluIC8gbWFzdGVyIOS4iumakOiXj++8iOinhuS4uuato+W8j+WPkeW4g++8ie+8jOWFtuS7luWIhuaUr+aYvuekugovLyAgIC0gQ0kgZGV0YWNoZWQgSEVBRCDkvJjlhYjor7sgR0lUSFVCX1JFRl9OQU1FIC8gVkVSQ0VMX0dJVF9DT01NSVRfUkVGIC8gQ0ZfUEFHRVNfQlJBTkNIIC8gQlJBTkNIKE5ldGxpZnkpCi8vICAgLSBWSVRFX0hJREVfQlVJTERfQkFER0U9MSDlvLrliLbpmpDol4/vvIjopobnm5bpu5jorqTvvIkKLy8gICAtIFZJVEVfU0hPV19CVUlMRF9CQURHRT0xIOW8uuWItuaYvuekuu+8iOWcqCBtYXN0ZXIg5pys5Zyw6LCD6K+V55So77yJCmNvbnN0IFJFTEVBU0VfQlJBTkNIRVMgPSBuZXcgU2V0KFsnbWFpbicsICdtYXN0ZXInXSk7CgpmdW5jdGlvbiByZWFkQnJhbmNoKCk6IHN0cmluZyB7CiAgaWYgKHByb2Nlc3MuZW52LkdJVEhVQl9SRUZfTkFNRSkgcmV0dXJuIHByb2Nlc3MuZW52LkdJVEhVQl9SRUZfTkFNRTsKICBpZiAocHJvY2Vzcy5lbnYuVkVSQ0VMX0dJVF9DT01NSVRfUkVGKSByZXR1cm4gcHJvY2Vzcy5lbnYuVkVSQ0VMX0dJVF9DT01NSVRfUkVGOwogIGlmIChwcm9jZXNzLmVudi5DRl9QQUdFU19CUkFOQ0gpIHJldHVybiBwcm9jZXNzLmVudi5DRl9QQUdFU19CUkFOQ0g7CiAgaWYgKHByb2Nlc3MuZW52LkJSQU5DSCkgcmV0dXJuIHByb2Nlc3MuZW52LkJSQU5DSDsKICB0cnkgewogICAgcmV0dXJuIGV4ZWNTeW5jKCdnaXQgcmV2LXBhcnNlIC0tYWJicmV2LXJlZiBIRUFEJywgeyBzdGRpbzogWydpZ25vcmUnLCAncGlwZScsICdpZ25vcmUnXSB9KS50b1N0cmluZygpLnRyaW0oKTsKICB9IGNhdGNoIHsKICAgIHJldHVybiAndW5rbm93bic7CiAgfQp9CmZ1bmN0aW9uIHJlYWRDb21taXQoKTogc3RyaW5nIHsKICBpZiAocHJvY2Vzcy5lbnYuR0lUSFVCX1NIQSkgcmV0dXJuIHByb2Nlc3MuZW52LkdJVEhVQl9TSEEuc2xpY2UoMCwgNyk7CiAgaWYgKHByb2Nlc3MuZW52LlZFUkNFTF9HSVRfQ09NTUlUX1NIQSkgcmV0dXJuIHByb2Nlc3MuZW52LlZFUkNFTF9HSVRfQ09NTUlUX1NIQS5zbGljZSgwLCA3KTsKICBpZiAocHJvY2Vzcy5lbnYuQ0ZfUEFHRVNfQ09NTUlUX1NIQSkgcmV0dXJuIHByb2Nlc3MuZW52LkNGX1BBR0VTX0NPTU1JVF9TSEEuc2xpY2UoMCwgNyk7CiAgaWYgKHByb2Nlc3MuZW52LkNPTU1JVF9SRUYpIHJldHVybiBwcm9jZXNzLmVudi5DT01NSVRfUkVGLnNsaWNlKDAsIDcpOwogIHRyeSB7CiAgICByZXR1cm4gZXhlY1N5bmMoJ2dpdCByZXYtcGFyc2UgLS1zaG9ydCBIRUFEJywgeyBzdGRpbzogWydpZ25vcmUnLCAncGlwZScsICdpZ25vcmUnXSB9KS50b1N0cmluZygpLnRyaW0oKTsKICB9IGNhdGNoIHsKICAgIHJldHVybiAndW5rbm93bic7CiAgfQp9Cgpjb25zdCBnaXRJbmZvID0geyBicmFuY2g6IHJlYWRCcmFuY2goKSwgY29tbWl0OiByZWFkQ29tbWl0KCkgfTsKY29uc3QgaXNSZWxlYXNlQnJhbmNoID0gUkVMRUFTRV9CUkFOQ0hFUy5oYXMoZ2l0SW5mby5icmFuY2gpOwpsZXQgc2hvd0J1aWxkQmFkZ2UgPSAhaXNSZWxlYXNlQnJhbmNoOwppZiAocHJvY2Vzcy5lbnYuVklURV9ISURFX0JVSUxEX0JBREdFID09PSAnMScpIHNob3dCdWlsZEJhZGdlID0gZmFsc2U7CmlmIChwcm9jZXNzLmVudi5WSVRFX1NIT1dfQlVJTERfQkFER0UgPT09ICcxJykgc2hvd0J1aWxkQmFkZ2UgPSB0cnVlOwoKZXhwb3J0IGRlZmF1bHQgZGVmaW5lQ29uZmlnKHsKICBwbHVnaW5zOiBbCiAgICByZWFjdCgpLAogICAgewogICAgICBuYW1lOiAnYmFrZS12b2ljZS1taWRkbGV3YXJlJywKICAgICAgY29uZmlndXJlU2VydmVyKHNlcnZlcikgewogICAgICAgIHNlcnZlci5taWRkbGV3YXJlcy51c2UoJy9hcGkvbWluaW1heC9iYWtlLXZvaWNlJywgYmFrZVZvaWNlTWlkZGxld2FyZSk7CiAgICAgIH0sCiAgICB9LAogIF0sCiAgZGVmaW5lOiB7CiAgICBfX0JVSUxEX0JSQU5DSF9fOiBKU09OLnN0cmluZ2lmeShnaXRJbmZvLmJyYW5jaCksCiAgICBfX0JVSUxEX0NPTU1JVF9fOiBKU09OLnN0cmluZ2lmeShnaXRJbmZvLmNvbW1pdCksCiAgICBfX0JVSUxEX0JBREdFX1ZJU0lCTEVfXzogSlNPTi5zdHJpbmdpZnkoc2hvd0J1aWxkQmFkZ2UpLAogIH0sCiAgLy8gR2l0SHViIFBhZ2VzIOWPkeW4g+aXtuS9v+eUqOebuOWvuei3r+W+hO+8jOmBv+WFjeS7k+W6k+WtkOi3r+W+hOWvvOiHtOi1hOa6kCA0MDQKICBiYXNlOiBwcm9jZXNzLmVudi5HSVRIVUJfUEFHRVMgPyAnLi8nIDogJy8nLAogIGVzYnVpbGQ6IHsKICAgIC8vIOWPquWJpSBkZWJ1Z2dlcu+8jOS/neeVmSBjb25zb2xlLiog4oCU4oCUIOmDqOe9suWQjuaMiSBGMTIg5LuN6IO955yL5Yiw6L+Q6KGM5pe25pel5b+X77yM5pa55L6/5o6S5p+l44CCCiAgICBkcm9wOiBbJ2RlYnVnZ2VyJ10sCiAgfSwKICBzZXJ2ZXI6IHsKICAgIHByb3h5OiB7CiAgICAgICcvYXBpL21pbmltYXgvdDJhJzogewogICAgICAgIHRhcmdldDogJ2h0dHBzOi8vYXBpLm1pbmltYXhpLmNvbScsCiAgICAgICAgY2hhbmdlT3JpZ2luOiB0cnVlLAogICAgICAgIHNlY3VyZTogdHJ1ZSwKICAgICAgICByZXdyaXRlOiAoKSA9PiAnL3YxL3QyYV92MicsCiAgICAgICAgLy8gUm91dGUgdG8g5Zu95pyNIC8g5rW35aSWIGJhc2VkIG9uIFgtTWluaU1heC1SZWdpb24gaGVhZGVyIHNlbnQgYnkgdGhlIGNsaWVudC4KICAgICAgICByb3V0ZXI6IChyZXEpID0+IHsKICAgICAgICAgIGNvbnN0IHJlZ2lvbiA9IFN0cmluZyhyZXEuaGVhZGVyc1sneC1taW5pbWF4LXJlZ2lvbiddIHx8ICcnKS50b0xvd2VyQ2FzZSgpOwogICAgICAgICAgcmV0dXJuIHJlZ2lvbiA9PT0gJ292ZXJzZWFzJyA/ICdodHRwczovL2FwaS5taW5pbWF4LmlvJyA6ICdodHRwczovL2FwaS5taW5pbWF4aS5jb20nOwogICAgICAgIH0sCiAgICAgIH0sCiAgICAgICcvYXBpL21pbmltYXgvZ2V0LXZvaWNlJzogewogICAgICAgIHRhcmdldDogJ2h0dHBzOi8vYXBpLm1pbmltYXhpLmNvbScsCiAgICAgICAgY2hhbmdlT3JpZ2luOiB0cnVlLAogICAgICAgIHNlY3VyZTogdHJ1ZSwKICAgICAgICByZXdyaXRlOiAoKSA9PiAnL3YxL2dldF92b2ljZScsCiAgICAgICAgcm91dGVyOiAocmVxKSA9PiB7CiAgICAgICAgICBjb25zdCByZWdpb24gPSBTdHJpbmcocmVxLmhlYWRlcnNbJ3gtbWluaW1heC1yZWdpb24nXSB8fCAnJykudG9Mb3dlckNhc2UoKTsKICAgICAgICAgIHJldHVybiByZWdpb24gPT09ICdvdmVyc2VhcycgPyAnaHR0cHM6Ly9hcGkubWluaW1heC5pbycgOiAnaHR0cHM6Ly9hcGkubWluaW1heGkuY29tJzsKICAgICAgICB9LAogICAgICB9LAogICAgICAnL2FwaS9taW5pbWF4L211c2ljJzogewogICAgICAgIHRhcmdldDogJ2h0dHBzOi8vYXBpLm1pbmltYXhpLmNvbScsCiAgICAgICAgY2hhbmdlT3JpZ2luOiB0cnVlLAogICAgICAgIHNlY3VyZTogdHJ1ZSwKICAgICAgICByZXdyaXRlOiAoKSA9PiAnL3YxL211c2ljX2dlbmVyYXRpb24nLAogICAgICAgIHJvdXRlcjogKHJlcSkgPT4gewogICAgICAgICAgY29uc3QgcmVnaW9uID0gU3RyaW5nKHJlcS5oZWFkZXJzWyd4LW1pbmltYXgtcmVnaW9uJ10gfHwgJycpLnRvTG93ZXJDYXNlKCk7CiAgICAgICAgICByZXR1cm4gcmVnaW9uID09PSAnb3ZlcnNlYXMnID8gJ2h0dHBzOi8vYXBpLm1pbmltYXguaW8nIDogJ2h0dHBzOi8vYXBpLm1pbmltYXhpLmNvbSc7CiAgICAgICAgfSwKICAgICAgfSwKICAgICAgLy8g6bG85aOwIEZpc2ggQXVkaW8gVFRT77ya6L2s5Y+R5YiwIGh0dHBzOi8vYXBpLmZpc2guYXVkaW8vdjEvdHRz77yI6L+U5Zue5LqM6L+b5Yi26Z+z6aKR77yJCiAgICAgICcvYXBpL2Zpc2hhdWRpby90dHMnOiB7CiAgICAgICAgdGFyZ2V0OiAnaHR0cHM6Ly9hcGkuZmlzaC5hdWRpbycsCiAgICAgICAgY2hhbmdlT3JpZ2luOiB0cnVlLAogICAgICAgIHNlY3VyZTogdHJ1ZSwKICAgICAgICByZXdyaXRlOiAoKSA9PiAnL3YxL3R0cycsCiAgICAgIH0sCiAgICB9CiAgfSwKICBidWlsZDogewogICAgb3V0RGlyOiAnZGlzdCcsCiAgICBhc3NldHNEaXI6ICdhc3NldHMnLAogICAgY2h1bmtTaXplV2FybmluZ0xpbWl0OiAyMDAwLAogICAgcm9sbHVwT3B0aW9uczogewogICAgICAvLyDlhbPplK7kv67lpI3vvJrlsIbov5nkupvljIXmjpLpmaTlnKjmiZPljIXkuYvlpJbvvIzorqnmtY/op4jlmajpgJrov4cgaW5kZXguaHRtbCDnmoQgaW1wb3J0bWFwIOWKoOi9vQogICAgICBleHRlcm5hbDogWydwZGZqcy1kaXN0JywgJ2thdGV4J10sCiAgICAgIG9ud2Fybih3YXJuaW5nLCBkZWZhdWx0SGFuZGxlcikgewogICAgICAgIC8vIOaKkeWItuWKqOaAgeWvvOWFpeS4jumdmeaAgeWvvOWFpea3t+WQiOeahOaXoOWus+itpuWRigogICAgICAgIGlmICh3YXJuaW5nLm1lc3NhZ2U/LmluY2x1ZGVzKCdkeW5hbWljIGltcG9ydCB3aWxsIG5vdCBtb3ZlIG1vZHVsZSBpbnRvIGFub3RoZXIgY2h1bmsnKSkgcmV0dXJuOwogICAgICAgIGRlZmF1bHRIYW5kbGVyKHdhcm5pbmcpOwogICAgICB9LAogICAgICBvdXRwdXQ6IHsKICAgICAgICBtYW51YWxDaHVua3MoaWQpIHsKICAgICAgICAgIGlmIChpZC5pbmNsdWRlcygnbm9kZV9tb2R1bGVzJykpIHsKICAgICAgICAgICAgaWYgKGlkLmluY2x1ZGVzKCdyZWFjdCcpIHx8IGlkLmluY2x1ZGVzKCdyZWFjdC1kb20nKSB8fCBpZC5pbmNsdWRlcygnc2NoZWR1bGVyJykpIHsKICAgICAgICAgICAgICByZXR1cm4gJ3ZlbmRvci1yZWFjdCc7CiAgICAgICAgICAgIH0KICAgICAgICAgICAgaWYgKGlkLmluY2x1ZGVzKCdAcGhvc3Bob3ItaWNvbnMnKSkgewogICAgICAgICAgICAgIHJldHVybiAndmVuZG9yLWljb25zJzsKICAgICAgICAgICAgfQogICAgICAgICAgICBpZiAoaWQuaW5jbHVkZXMoJ0BjYXBhY2l0b3InKSkgewogICAgICAgICAgICAgIHJldHVybiAndmVuZG9yLWNhcGFjaXRvcic7CiAgICAgICAgICAgIH0KICAgICAgICAgICAgcmV0dXJuICd2ZW5kb3InOwogICAgICAgICAgfQogICAgICAgICAgaWYgKGlkLmluY2x1ZGVzKCd1dGlscy9tZW1vcnlQYWxhY2UnKSkgewogICAgICAgICAgICByZXR1cm4gJ21lbW9yeS1wYWxhY2UnOwogICAgICAgICAgfQogICAgICAgIH0KICAgICAgfQogICAgfQogIH0KfSk7Cg==
+import { defineConfig } from 'vite';
+import react from '@vitejs/plugin-react';
+import { execSync } from 'node:child_process';
+import { bakeVoiceMiddleware } from './server/bake-voice-middleware';
+
+// 构建时抓 git 分支 + short commit，注入到 BuildBadge 显示。
+// 非 git 环境（容器、tarball 部署）退化成 'unknown'，不影响构建。
+//
+// 显示规则：
+//   - 默认在 main / master 上隐藏（视为正式发布），其他分支显示
+//   - CI detached HEAD 优先读 GITHUB_REF_NAME / VERCEL_GIT_COMMIT_REF / CF_PAGES_BRANCH / BRANCH(Netlify)
+//   - VITE_HIDE_BUILD_BADGE=1 强制隐藏（覆盖默认）
+//   - VITE_SHOW_BUILD_BADGE=1 强制显示（在 master 本地调试用）
+const RELEASE_BRANCHES = new Set(['main', 'master']);
+
+function readBranch(): string {
+  if (process.env.GITHUB_REF_NAME) return process.env.GITHUB_REF_NAME;
+  if (process.env.VERCEL_GIT_COMMIT_REF) return process.env.VERCEL_GIT_COMMIT_REF;
+  if (process.env.CF_PAGES_BRANCH) return process.env.CF_PAGES_BRANCH;
+  if (process.env.BRANCH) return process.env.BRANCH;
+  try {
+    return execSync('git rev-parse --abbrev-ref HEAD', { stdio: ['ignore', 'pipe', 'ignore'] }).toString().trim();
+  } catch {
+    return 'unknown';
+  }
+}
+function readCommit(): string {
+  if (process.env.GITHUB_SHA) return process.env.GITHUB_SHA.slice(0, 7);
+  if (process.env.VERCEL_GIT_COMMIT_SHA) return process.env.VERCEL_GIT_COMMIT_SHA.slice(0, 7);
+  if (process.env.CF_PAGES_COMMIT_SHA) return process.env.CF_PAGES_COMMIT_SHA.slice(0, 7);
+  if (process.env.COMMIT_REF) return process.env.COMMIT_REF.slice(0, 7);
+  try {
+    return execSync('git rev-parse --short HEAD', { stdio: ['ignore', 'pipe', 'ignore'] }).toString().trim();
+  } catch {
+    return 'unknown';
+  }
+}
+
+const gitInfo = { branch: readBranch(), commit: readCommit() };
+const isReleaseBranch = RELEASE_BRANCHES.has(gitInfo.branch);
+let showBuildBadge = !isReleaseBranch;
+if (process.env.VITE_HIDE_BUILD_BADGE === '1') showBuildBadge = false;
+if (process.env.VITE_SHOW_BUILD_BADGE === '1') showBuildBadge = true;
+
+export default defineConfig({
+  plugins: [
+    react(),
+    {
+      name: 'bake-voice-middleware',
+      configureServer(server) {
+        server.middlewares.use('/api/minimax/bake-voice', bakeVoiceMiddleware);
+      },
+    },
+  ],
+  define: {
+    __BUILD_BRANCH__: JSON.stringify(gitInfo.branch),
+    __BUILD_COMMIT__: JSON.stringify(gitInfo.commit),
+    __BUILD_BADGE_VISIBLE__: JSON.stringify(showBuildBadge),
+  },
+  // GitHub Pages 发布时使用相对路径，避免仓库子路径导致资源 404
+  base: process.env.GITHUB_PAGES ? './' : '/',
+  esbuild: {
+    // 只剥 debugger，保留 console.* —— 部署后按 F12 仍能看到运行时日志，方便排查。
+    drop: ['debugger'],
+  },
+  server: {
+    proxy: {
+      '/api/minimax/t2a': {
+        target: 'https://api.minimaxi.com',
+        changeOrigin: true,
+        secure: true,
+        rewrite: () => '/v1/t2a_v2',
+        // Route to 国服 / 海外 based on X-MiniMax-Region header sent by the client.
+        router: (req) => {
+          const region = String(req.headers['x-minimax-region'] || '').toLowerCase();
+          return region === 'overseas' ? 'https://api.minimax.io' : 'https://api.minimaxi.com';
+        },
+      },
+      '/api/minimax/get-voice': {
+        target: 'https://api.minimaxi.com',
+        changeOrigin: true,
+        secure: true,
+        rewrite: () => '/v1/get_voice',
+        router: (req) => {
+          const region = String(req.headers['x-minimax-region'] || '').toLowerCase();
+          return region === 'overseas' ? 'https://api.minimax.io' : 'https://api.minimaxi.com';
+        },
+      },
+      '/api/minimax/music': {
+        target: 'https://api.minimaxi.com',
+        changeOrigin: true,
+        secure: true,
+        rewrite: () => '/v1/music_generation',
+        router: (req) => {
+          const region = String(req.headers['x-minimax-region'] || '').toLowerCase();
+          return region === 'overseas' ? 'https://api.minimax.io' : 'https://api.minimaxi.com';
+        },
+      },
+      // 鱼声 Fish Audio TTS：转发到 https://api.fish.audio/v1/tts（返回二进制音频）
+      '/api/fishaudio/tts': {
+        target: 'https://api.fish.audio',
+        changeOrigin: true,
+        secure: true,
+        rewrite: () => '/v1/tts',
+      },
+    }
+  },
+  build: {
+    outDir: 'dist',
+    assetsDir: 'assets',
+    chunkSizeWarningLimit: 2000,
+    rollupOptions: {
+      // 关键修复：将这些包排除在打包之外，让浏览器通过 index.html 的 importmap 加载
+      external: ['pdfjs-dist', 'katex'],
+      onwarn(warning, defaultHandler) {
+        // 抑制动态导入与静态导入混合的无害警告
+        if (warning.message?.includes('dynamic import will not move module into another chunk')) return;
+        defaultHandler(warning);
+      },
+      output: {
+        manualChunks(id) {
+          if (id.includes('node_modules')) {
+            if (id.includes('react') || id.includes('react-dom') || id.includes('scheduler')) {
+              return 'vendor-react';
+            }
+            if (id.includes('@phosphor-icons')) {
+              return 'vendor-icons';
+            }
+            if (id.includes('@capacitor')) {
+              return 'vendor-capacitor';
+            }
+            return 'vendor';
+          }
+          if (id.includes('utils/memoryPalace')) {
+            return 'memory-palace';
+          }
+        }
+      }
+    }
+  }
+});

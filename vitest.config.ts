@@ -1,1 +1,14 @@
-aW1wb3J0IHsgZGVmaW5lQ29uZmlnIH0gZnJvbSAndml0ZXN0L2NvbmZpZyc7CgpleHBvcnQgZGVmYXVsdCBkZWZpbmVDb25maWcoewogIHRlc3Q6IHsKICAgIGVudmlyb25tZW50OiAnbm9kZScsCiAgICBzZXR1cEZpbGVzOiBbJy4vdGVzdC1zZXR1cC50cyddLAogICAgaW5jbHVkZTogWwogICAgICAndXRpbHMvKiovKi50ZXN0LnRzJywKICAgICAgJ3dvcmtlci8qKi8qLnRlc3QudHMnLAogICAgXSwKICAgIC8vIOaOkumZpCBSZWFjdCDnu4Tku7YgLyDmtY/op4jlmajpm4bmiJDmtYsgKOayoeijhSBqc2RvbSkKICAgIGV4Y2x1ZGU6IFsnbm9kZV9tb2R1bGVzJywgJyoqL25vZGVfbW9kdWxlcy8qKicsICcud29ya3RyZWVzJywgJ2Rpc3QnXSwKICB9LAp9KTsK
+import { defineConfig } from 'vitest/config';
+
+export default defineConfig({
+  test: {
+    environment: 'node',
+    setupFiles: ['./test-setup.ts'],
+    include: [
+      'utils/**/*.test.ts',
+      'worker/**/*.test.ts',
+    ],
+    // 排除 React 组件 / 浏览器集成测 (没装 jsdom)
+    exclude: ['node_modules', '**/node_modules/**', '.worktrees', 'dist'],
+  },
+});

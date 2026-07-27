@@ -1,1 +1,5 @@
-Ly8vIDxyZWZlcmVuY2UgdHlwZXM9InZpdGUvY2xpZW50IiAvPgoKZGVjbGFyZSBjb25zdCBfX0JVSUxEX0JSQU5DSF9fOiBzdHJpbmc7CmRlY2xhcmUgY29uc3QgX19CVUlMRF9DT01NSVRfXzogc3RyaW5nOwpkZWNsYXJlIGNvbnN0IF9fQlVJTERfQkFER0VfVklTSUJMRV9fOiBib29sZWFuOwo=
+/// <reference types="vite/client" />
+
+declare const __BUILD_BRANCH__: string;
+declare const __BUILD_COMMIT__: string;
+declare const __BUILD_BADGE_VISIBLE__: boolean;

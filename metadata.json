@@ -1,1 +1,5 @@
-ewogICJuYW1lIjogIkNISUtFTkFUVEFDSyIsCiAgImRlc2NyaXB0aW9uIjogIkEgaGlnaC1maWRlbGl0eSwgbG9jYWwtZmlyc3QgdmlydHVhbCBwaG9uZSBPUyBzaW11bGF0b3IgZGVzaWduZWQgZm9yIGltbWVyc2l2ZSByb2xlcGxheSBhbmQgQUkgaW50ZXJhY3Rpb24uIiwKICAicmVxdWVzdEZyYW1lUGVybWlzc2lvbnMiOiBbXQp9
+{
+  "name": "CHIKENATTACK",
+  "description": "A high-fidelity, local-first virtual phone OS simulator designed for immersive roleplay and AI interaction.",
+  "requestFramePermissions": []
+}

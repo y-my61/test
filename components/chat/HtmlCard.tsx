@@ -1,1 +1,62 @@
-aW1wb3J0IFJlYWN0IGZyb20gJ3JlYWN0JzsKCi8qKgogKiBIVE1MIOWNoeeJh+a4suafk++8iOengeiBiiBNZXNzYWdlSXRlbSDkuI7nvqTogYogR3JvdXBNZXNzYWdlSXRlbSDlhbHnlKjvvInjgIIKICog5rKZ55uSIGlmcmFtZe+8muemgeeUqOiEmuacrCAvIOihqOWNleaPkOS6pCAvIOW8ueeql++8jOmBv+WFjeS7u+aEjyBIVE1MIOi2iuadg+iuv+mXrueItumhtemdouOAggogKiBzcmNEb2Mg55So5LiA5Liq5YWo5a695Lit5b+D5YyW55qEIHdyYXBwZXIsIOiuqSAyNzBweCDnmoTljaHniYflnKggaWZyYW1lIOmHjOWxheS4reOAgeiDjOaZr+mAj+aYjuOAggogKiBib2R5Piog5by65Yi25riF5o6J5pyA5aSW5bGC5YWD57Sg55qEIGJveC1zaGFkb3cvZmlsdGVyOiDmqKHlnovnu4/luLjnu5nljaHniYflpJblsYLliqDmn5TlkozpmLTlvbEsCiAqIOS9hiBpZnJhbWUg5Y+q5q+U5Y2h54mH5a695LiA54K5ICsg5aSW5bGCIG92ZXJmbG93LWhpZGRlbiwg6Zi05b2x5Lya6KKr6KOB5oiQ5LiA5ZyIIuiLpemakOiLpeeOsOeahAogKiDlgYfovrnmoYYi6LS05Zyo5Y2h54mH5ZGo5Zu0IOKAlOKAlCDogYrlpKnph4zljaHniYfnuqblrprmmK/nm7TmjqXotLTlnKjogYrlpKnog4zmma/kuIrjgIHml6Dog4zmma/ml6DovrnmoYYsCiAqIOi/memHjOWcqOa4suafk+err+WFnOW6lSAo5a+55bey6JC95bqT55qE5pen5Y2h54mH5ZCM5qC355Sf5pWIKSwg5o+Q56S66K+N56uv5ZCM5q2l5LiN5YaN5pWZ5qih5Z6L5Yqg5aSW5bGC6Zi05b2x44CCCiAqLwpjb25zdCBIdG1sQ2FyZDogUmVhY3QuRkM8eyBodG1sOiBzdHJpbmcgfT4gPSAoeyBodG1sIH0pID0+IHsKICAgIGNvbnN0IHNyY0RvYyA9IGA8IURPQ1RZUEUgaHRtbD48aHRtbD48aGVhZD48bWV0YSBjaGFyc2V0PSJ1dGYtOCI+PG1ldGEgbmFtZT0idmlld3BvcnQiIGNvbnRlbnQ9IndpZHRoPWRldmljZS13aWR0aCxpbml0aWFsLXNjYWxlPTEiPjxzdHlsZT5odG1sLGJvZHl7bWFyZ2luOjA7cGFkZGluZzowO2JhY2tncm91bmQ6dHJhbnNwYXJlbnQ7Zm9udC1mYW1pbHk6LWFwcGxlLXN5c3RlbSxCbGlua01hY1N5c3RlbUZvbnQsJ1NlZ29lIFVJJyxzYW5zLXNlcmlmO2NvbG9yOiMzMzQxNTU7fWJvZHl7ZGlzcGxheTpmbGV4O2p1c3RpZnktY29udGVudDpjZW50ZXI7cGFkZGluZzowO30qe2JveC1zaXppbmc6Ym9yZGVyLWJveDt9aW1ne21heC13aWR0aDoxMDAlO31ib2R5Pip7Ym94LXNoYWRvdzpub25lIWltcG9ydGFudDtmaWx0ZXI6bm9uZSFpbXBvcnRhbnQ7fTwvc3R5bGU+PC9oZWFkPjxib2R5PiR7aHRtbH08L2JvZHk+PC9odG1sPmA7CiAgICByZXR1cm4gKAogICAgICAgIDxkaXYgY2xhc3NOYW1lPSJyb3VuZGVkLVsxOHB4XSBvdmVyZmxvdy1oaWRkZW4gYmctdHJhbnNwYXJlbnQgbWF4LXctWzI4MHB4XSI+CiAgICAgICAgICAgIDxpZnJhbWUKICAgICAgICAgICAgICAgIHRpdGxlPSJodG1sLWNhcmQiCiAgICAgICAgICAgICAgICBzcmNEb2M9e3NyY0RvY30KICAgICAgICAgICAgICAgIC8vIGFsbG93LXNhbWUtb3JpZ2luOiDorqnniLbpobXpnaLog73or7sgY29udGVudERvY3VtZW50IOiHquWKqOiwg+mrmOW6pgogICAgICAgICAgICAgICAgLy8g5pWF5oSP5LiN57uZIGFsbG93LXNjcmlwdHMgLyBhbGxvdy1mb3JtcyAvIGFsbG93LXBvcHVwcyDigJQKICAgICAgICAgICAgICAgIC8vIEFJIOi+k+WHuumHjOeahCA8c2NyaXB0PiDkuI3kvJrmiafooYwsIOihqOWNlSAvIOW8ueeqlyAvIOmhtuWxgui3s+i9rCDkuZ/pg73ooqvmi6bjgIIKICAgICAgICAgICAgICAgIHNhbmRib3g9ImFsbG93LXNhbWUtb3JpZ2luIgogICAgICAgICAgICAgICAgcmVmZXJyZXJQb2xpY3k9Im5vLXJlZmVycmVyIgogICAgICAgICAgICAgICAgY2xhc3NOYW1lPSJibG9jayB3LVsyODBweF0gbWluLWgtWzEyMHB4XSBib3JkZXItMCBiZy10cmFuc3BhcmVudCIKICAgICAgICAgICAgICAgIHN0eWxlPXt7IGhlaWdodDogMjAwIH19CiAgICAgICAgICAgICAgICBvbkxvYWQ9eyhlKSA9PiB7CiAgICAgICAgICAgICAgICAgICAgdHJ5IHsKICAgICAgICAgICAgICAgICAgICAgICAgY29uc3QgZiA9IGUuY3VycmVudFRhcmdldCBhcyBIVE1MSUZyYW1lRWxlbWVudCAmIHsgX19odG1sQ2FyZFJPPzogUmVzaXplT2JzZXJ2ZXIgfTsKICAgICAgICAgICAgICAgICAgICAgICAgY29uc3QgZG9jID0gZi5jb250ZW50RG9jdW1lbnQ7CiAgICAgICAgICAgICAgICAgICAgICAgIGlmICghZG9jIHx8ICFkb2MuYm9keSkgcmV0dXJuOwogICAgICAgICAgICAgICAgICAgICAgICAvLyDph4/lhoXlrrnnnJ/lrp7pq5jluqblubbmioogaWZyYW1lIOiwg+aIkOetiemrmO+8jOmBv+WFjeWGhemDqOa7muWKqOOAggogICAgICAgICAgICAgICAgICAgICAgICAvLyDkuIrpmZDmlL7lrr3liLAgMjQwMO+8jOi2s+Wkn+mVv+WNoeeJh+WujOaVtOWxleW8gO+8m+ecn+ato+i2hemVv+eahOaJjeS8muWFnOW6lea7muWKqOOAggogICAgICAgICAgICAgICAgICAgICAgICBjb25zdCBmaXQgPSAoKSA9PiB7CiAgICAgICAgICAgICAgICAgICAgICAgICAgICB0cnkgewogICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgIGNvbnN0IHJvb3QgPSBkb2MuZG9jdW1lbnRFbGVtZW50OwogICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgIGNvbnN0IGJvZHkgPSBkb2MuYm9keTsKICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICBjb25zdCBuYXR1cmFsID0gTWF0aC5tYXgoCiAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgIGJvZHkuc2Nyb2xsSGVpZ2h0LCBib2R5Lm9mZnNldEhlaWdodCwKICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgcm9vdCA/IHJvb3Quc2Nyb2xsSGVpZ2h0IDogMCwKICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICApOwogICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgIGNvbnN0IGggPSBNYXRoLm1pbigyNDAwLCBNYXRoLm1heCg2MCwgbmF0dXJhbCArIDQpKTsKICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICBmLnN0eWxlLmhlaWdodCA9IGggKyAncHgnOwogICAgICAgICAgICAgICAgICAgICAgICAgICAgfSBjYXRjaCB7IC8qIOWQjOa6kOivu+S4jeWIsOaXtumdmem7mCAqLyB9CiAgICAgICAgICAgICAgICAgICAgICAgIH07CiAgICAgICAgICAgICAgICAgICAgICAgIGZpdCgpOwogICAgICAgICAgICAgICAgICAgICAgICAvLyDkuqTkupLljaHniYfvvIg6Y2hlY2tlZCDlsZXlvIAgLyDmipjlj6DvvInjgIHliqjnlLvjgIHlrZfkvZPmmZrliLDpg73kvJrmlLnlj5jpq5jluqbvvIwKICAgICAgICAgICAgICAgICAgICAgICAgLy8g55SoIFJlc2l6ZU9ic2VydmVyIOaMgee7rei3n+maj++8jOiuqemrmOW6puWni+e7iOiHqumAguW6lOiAjOS4jeaYr+WPqumHj+S4gOasoeOAggogICAgICAgICAgICAgICAgICAgICAgICBmLl9faHRtbENhcmRSTz8uZGlzY29ubmVjdCgpOwogICAgICAgICAgICAgICAgICAgICAgICBpZiAodHlwZW9mIFJlc2l6ZU9ic2VydmVyICE9PSAndW5kZWZpbmVkJykgewogICAgICAgICAgICAgICAgICAgICAgICAgICAgY29uc3Qgcm8gPSBuZXcgUmVzaXplT2JzZXJ2ZXIoKCkgPT4gZml0KCkpOwogICAgICAgICAgICAgICAgICAgICAgICAgICAgcm8ub2JzZXJ2ZShkb2MuYm9keSk7CiAgICAgICAgICAgICAgICAgICAgICAgICAgICBpZiAoZG9jLmRvY3VtZW50RWxlbWVudCkgcm8ub2JzZXJ2ZShkb2MuZG9jdW1lbnRFbGVtZW50KTsKICAgICAgICAgICAgICAgICAgICAgICAgICAgIGYuX19odG1sQ2FyZFJPID0gcm87CiAgICAgICAgICAgICAgICAgICAgICAgIH0KICAgICAgICAgICAgICAgICAgICB9IGNhdGNoIHsgLyog5ZCM5rqQ5Lmf6K+75LiN5Yiw5pe26Z2Z6buYICovIH0KICAgICAgICAgICAgICAgIH19CiAgICAgICAgICAgIC8+CiAgICAgICAgPC9kaXY+CiAgICApOwp9OwoKZXhwb3J0IGRlZmF1bHQgSHRtbENhcmQ7Cg==
+import React from 'react';
+
+/**
+ * HTML 卡片渲染（私聊 MessageItem 与群聊 GroupMessageItem 共用）。
+ * 沙盒 iframe：禁用脚本 / 表单提交 / 弹窗，避免任意 HTML 越权访问父页面。
+ * srcDoc 用一个全宽中心化的 wrapper, 让 270px 的卡片在 iframe 里居中、背景透明。
+ * body>* 强制清掉最外层元素的 box-shadow/filter: 模型经常给卡片外层加柔和阴影,
+ * 但 iframe 只比卡片宽一点 + 外层 overflow-hidden, 阴影会被裁成一圈"若隐若现的
+ * 假边框"贴在卡片周围 —— 聊天里卡片约定是直接贴在聊天背景上、无背景无边框,
+ * 这里在渲染端兜底 (对已落库的旧卡片同样生效), 提示词端同步不再教模型加外层阴影。
+ */
+const HtmlCard: React.FC<{ html: string }> = ({ html }) => {
+    const srcDoc = `<!DOCTYPE html><html><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><style>html,body{margin:0;padding:0;background:transparent;font-family:-apple-system,BlinkMacSystemFont,'Segoe UI',sans-serif;color:#334155;}body{display:flex;justify-content:center;padding:0;}*{box-sizing:border-box;}img{max-width:100%;}body>*{box-shadow:none!important;filter:none!important;}</style></head><body>${html}</body></html>`;
+    return (
+        <div className="rounded-[18px] overflow-hidden bg-transparent max-w-[280px]">
+            <iframe
+                title="html-card"
+                srcDoc={srcDoc}
+                // allow-same-origin: 让父页面能读 contentDocument 自动调高度
+                // 故意不给 allow-scripts / allow-forms / allow-popups —
+                // AI 输出里的 <script> 不会执行, 表单 / 弹窗 / 顶层跳转 也都被拦。
+                sandbox="allow-same-origin"
+                referrerPolicy="no-referrer"
+                className="block w-[280px] min-h-[120px] border-0 bg-transparent"
+                style={{ height: 200 }}
+                onLoad={(e) => {
+                    try {
+                        const f = e.currentTarget as HTMLIFrameElement & { __htmlCardRO?: ResizeObserver };
+                        const doc = f.contentDocument;
+                        if (!doc || !doc.body) return;
+                        // 量内容真实高度并把 iframe 调成等高，避免内部滚动。
+                        // 上限放宽到 2400，足够长卡片完整展开；真正超长的才会兜底滚动。
+                        const fit = () => {
+                            try {
+                                const root = doc.documentElement;
+                                const body = doc.body;
+                                const natural = Math.max(
+                                    body.scrollHeight, body.offsetHeight,
+                                    root ? root.scrollHeight : 0,
+                                );
+                                const h = Math.min(2400, Math.max(60, natural + 4));
+                                f.style.height = h + 'px';
+                            } catch { /* 同源读不到时静默 */ }
+                        };
+                        fit();
+                        // 交互卡片（:checked 展开 / 折叠）、动画、字体晚到都会改变高度，
+                        // 用 ResizeObserver 持续跟随，让高度始终自适应而不是只量一次。
+                        f.__htmlCardRO?.disconnect();
+                        if (typeof ResizeObserver !== 'undefined') {
+                            const ro = new ResizeObserver(() => fit());
+                            ro.observe(doc.body);
+                            if (doc.documentElement) ro.observe(doc.documentElement);
+                            f.__htmlCardRO = ro;
+                        }
+                    } catch { /* 同源也读不到时静默 */ }
+                }}
+            />
+        </div>
+    );
+};
+
+export default HtmlCard;

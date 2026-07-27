@@ -1,1 +1,70 @@
-LyoqCiAqIOmHh+agt+WPguaVsOWFvOWuueWxggogKgogKiDog4zmma/vvJrpg6jliIbovoPmlrDnmoTmqKHlnovlt7Lnu4/lup/lvIPkuoYgdGVtcGVyYXR1cmUgLyB0b3BfcCAvIHRvcF9rIOmHh+agt+WPguaVsO+8jOivt+axgumHjOW4puS4igogKiDlsLHnm7TmjqUgNDAw44CC5YW45Z6L5oql6ZSZ77yIT3BlblJvdXRlciDpgI/kvKAgQXp1cmUvQW50aHJvcGlj77yJ77yaCiAqICAgeyJ0eXBlIjoiaW52YWxpZF9yZXF1ZXN0X2Vycm9yIiwibWVzc2FnZSI6InRlbXBlcmF0dXJlIGlzIGRlcHJlY2F0ZWQgZm9yIHRoaXMgbW9kZWwuIn0KICoKICog5bey55+l5Lya5Zug5q2kIDQwMCDnmoTmqKHlnovvvJoKICogICAtIENsYXVkZe+8mk9wdXMgNC43IC8gNC4477yI5Y+K5Lul5LiK77yJ44CBU29ubmV0IDXvvIjlj4rku6XkuIrvvInjgIFGYWJsZSA1IC8gTXl0aG9zIDUKICogICAtIE9wZW5BSe+8mmdwdC01IOezuwogKiAgIO+8iG8xL28zL280IOetieaOqOeQhuaooeWei+S5n+WPquaOpeWPl+m7mOiupCB0ZW1wZXJhdHVyZe+8jOmdoOS4i+mdouesrCAyIOWxguWFnOW6leimhueblu+8iQogKgogKiDlhbPplK7ngrnvvJpPcGVuUm91dGVyIOS8muaKiiBgYW50aHJvcGljL2NsYXVkZS1vcHVzLTQuOGAg6Lev55Sx5YiwIEF6dXJlIC8gQW50aHJvcGlj77yMCiAqIOi/meS6myBwcm92aWRlciDlkIzmoLfmi5LmlLYgdGVtcGVyYXR1cmXvvIzmiYDku6XjgIzmjaIgQVBJIC8g5o2iIE9S44CN6YO95rKh55So4oCU4oCU5qC55Zug5pivKirmqKHlnovmnKzouqsKICog5LiN5pS26L+Z5Liq5Y+C5pWwKirvvIzot58ga2V544CB5LiK5paH6ZW/5bqm44CB5qC85byP6YO95peg5YWz44CCCiAqCiAqIOWFvOWuueetlueVpe+8iOWcqCBmZXRjaCDnu5/kuIDlh7rlj6PlgZrvvIzopobnm5blhajpg6ggL2NoYXQvY29tcGxldGlvbnMg6LCD55So54K577yJ77yaCiAqICAgMSkg5Y+R6YCB5YmN77ya6K+G5Yir5Yiw5Lya5bqf5byD6YeH5qC35Y+C5pWw55qE5qih5Z6L77yM5Li75Yqo5pGY5o6JIHRlbXBlcmF0dXJlL3RvcF9wL3RvcF9r77ybCiAqICAgMikg5pS25YiwIDQwMCDkuJTmiqXmlofngrnlkI3ph4fmoLflj4LmlbDjgIxkZXByZWNhdGVkIC8gbm90IHN1cHBvcnRlZOOAjeaXtu+8jOaRmOaOieWQjumHjeivleS4gOasoeOAggogKiDnrKwgMiDlsYLmmK/lhZzlupXvvJrljbPkvr/mqKHlnovlkI3msqHooqvnrKwgMSDlsYLmuIXljZXopobnm5bvvIzkuZ/og73oh6rmhIjjgIIKICovCgpjb25zdCBTQU1QTElOR19LRVlTID0gWyd0ZW1wZXJhdHVyZScsICd0b3BfcCcsICd0b3BfayddIGFzIGNvbnN0OwoKLyoqCiAqIOivpeaooeWei+aYr+WQpuW3suW6n+W8g+mHh+agt+WPguaVsO+8iOW4puS4iuS8miA0MDDvvInjgIIKICogbW9kZWwg5Li656m6IC8g6Z2e5a2X56ym5LiyIC8g5pyq55+l5pe26L+U5ZueIGZhbHNlIOKAlOKAlCDpu5jorqTkv53mjIHljp/moLfvvIzkuI3or6/kvKTku43pnIDopoEgdGVtcGVyYXR1cmUg55qE5qih5Z6L44CCCiAqLwpleHBvcnQgZnVuY3Rpb24gbW9kZWxSZWplY3RzU2FtcGxpbmdQYXJhbXMobW9kZWw6IHVua25vd24pOiBib29sZWFuIHsKICAgIGlmICh0eXBlb2YgbW9kZWwgIT09ICdzdHJpbmcnIHx8ICFtb2RlbCkgcmV0dXJuIGZhbHNlOwogICAgY29uc3QgbSA9IG1vZGVsLnRvTG93ZXJDYXNlKCk7CgogICAgLy8gQ2xhdWRlIOezu++8mueJiOacrOWPt+mHjOeahOWIhumalOespuWPr+iDveaYryAuIOaIliAt77yIY2xhdWRlLW9wdXMtNC44IC8gY2xhdWRlLW9wdXMtNC04IOmDveacie+8iQogICAgaWYgKC9vcHVzWy0uXHNdPzRbLS5cc10/KDd8OHw5KVxiLy50ZXN0KG0pKSByZXR1cm4gdHJ1ZTsgICAvLyBPcHVzIDQuNyAvIDQuOCAvIDQuOQogICAgaWYgKC9vcHVzWy0uXHNdPyg/Ols1LTldfFxkXGQpXGIvLnRlc3QobSkpIHJldHVybiB0cnVlOyAgICAvLyBPcHVzIDUg5Y+K5Lul5LiKCiAgICBpZiAoL3Nvbm5ldFstLlxzXT8oPzpbNS05XXxcZFxkKVxiLy50ZXN0KG0pKSByZXR1cm4gdHJ1ZTsgIC8vIFNvbm5ldCA1IOWPiuS7peS4igogICAgaWYgKC9cYig/OmZhYmxlfG15dGhvcylbLS5cc10/XGQvLnRlc3QobSkpIHJldHVybiB0cnVlOyAgICAvLyBGYWJsZSAvIE15dGhvcwoKICAgIC8vIE9wZW5BSSBncHQtNSDns7vvvIhncHQtNSAvIGdwdC01LW1pbmkgLyBncHQ1IOetie+8iQogICAgaWYgKC9cYmdwdC0/NS8udGVzdChtKSkgcmV0dXJuIHRydWU7CgogICAgcmV0dXJuIGZhbHNlOwp9CgovKioKICog5LuO6K+35rGC5L2T6YeM5pGY5o6J6YeH5qC35Y+C5pWw77yI5bCx5Zyw5L+u5pS577yJ77yb6L+U5Zue5piv5ZCm55yf55qE5Yig5o6J5LqG5Lic6KW/44CCCiAqLwpleHBvcnQgZnVuY3Rpb24gc3RyaXBTYW1wbGluZ1BhcmFtcyhib2R5OiBSZWNvcmQ8c3RyaW5nLCBhbnk+KTogYm9vbGVhbiB7CiAgICBpZiAoIWJvZHkgfHwgdHlwZW9mIGJvZHkgIT09ICdvYmplY3QnKSByZXR1cm4gZmFsc2U7CiAgICBsZXQgY2hhbmdlZCA9IGZhbHNlOwogICAgZm9yIChjb25zdCBrIG9mIFNBTVBMSU5HX0tFWVMpIHsKICAgICAgICBpZiAoayBpbiBib2R5ICYmIGJvZHlba10gIT09IHVuZGVmaW5lZCkgewogICAgICAgICAgICBkZWxldGUgYm9keVtrXTsKICAgICAgICAgICAgY2hhbmdlZCA9IHRydWU7CiAgICAgICAgfQogICAgfQogICAgcmV0dXJuIGNoYW5nZWQ7Cn0KCi8qKgogKiA0MDAg5oql5paH5piv5ZCm5Zyo5oqx5oCo6YeH5qC35Y+C5pWw77yIdGVtcGVyYXR1cmUgLyB0b3BfcCAvIHRvcF9rIOiiq+W6n+W8gyAvIOS4jeaUr+aMge+8ieOAggogKiDnlKjmnaXlhrPlrpropoHkuI3opoHmkZjmjonph4fmoLflj4LmlbDph43or5XkuIDmrKHjgIIKICovCmV4cG9ydCBmdW5jdGlvbiBpc1NhbXBsaW5nUGFyYW1FcnJvcihyZXNwb25zZVRleHQ6IHN0cmluZyk6IGJvb2xlYW4gewogICAgaWYgKCFyZXNwb25zZVRleHQpIHJldHVybiBmYWxzZTsKICAgIGNvbnN0IHQgPSByZXNwb25zZVRleHQudG9Mb3dlckNhc2UoKTsKICAgIGNvbnN0IG1lbnRpb25zUGFyYW0gPSAvdGVtcGVyYXR1cmV8dG9wX3B8dG9wX2svLnRlc3QodCk7CiAgICBjb25zdCBtZW50aW9uc1JlamVjdCA9IC9kZXByZWNhdHxub3Qgc3VwcG9ydGVkfHVuc3VwcG9ydGVkfG5vIGxvbmdlciBzdXBwb3J0ZWR8bm90IGFsbG93ZWR8aXNuJz90IHN1cHBvcnRlZHxub3QgcGVybWl0dGVkfHVuZXhwZWN0ZWQvLnRlc3QodCk7CiAgICByZXR1cm4gbWVudGlvbnNQYXJhbSAmJiBtZW50aW9uc1JlamVjdDsKfQo=
+/**
+ * 采样参数兼容层
+ *
+ * 背景：部分较新的模型已经废弃了 temperature / top_p / top_k 采样参数，请求里带上
+ * 就直接 400。典型报错（OpenRouter 透传 Azure/Anthropic）：
+ *   {"type":"invalid_request_error","message":"temperature is deprecated for this model."}
+ *
+ * 已知会因此 400 的模型：
+ *   - Claude：Opus 4.7 / 4.8（及以上）、Sonnet 5（及以上）、Fable 5 / Mythos 5
+ *   - OpenAI：gpt-5 系
+ *   （o1/o3/o4 等推理模型也只接受默认 temperature，靠下面第 2 层兜底覆盖）
+ *
+ * 关键点：OpenRouter 会把 `anthropic/claude-opus-4.8` 路由到 Azure / Anthropic，
+ * 这些 provider 同样拒收 temperature，所以「换 API / 换 OR」都没用——根因是**模型本身
+ * 不收这个参数**，跟 key、上文长度、格式都无关。
+ *
+ * 兼容策略（在 fetch 统一出口做，覆盖全部 /chat/completions 调用点）：
+ *   1) 发送前：识别到会废弃采样参数的模型，主动摘掉 temperature/top_p/top_k；
+ *   2) 收到 400 且报文点名采样参数「deprecated / not supported」时，摘掉后重试一次。
+ * 第 2 层是兜底：即便模型名没被第 1 层清单覆盖，也能自愈。
+ */
+
+const SAMPLING_KEYS = ['temperature', 'top_p', 'top_k'] as const;
+
+/**
+ * 该模型是否已废弃采样参数（带上会 400）。
+ * model 为空 / 非字符串 / 未知时返回 false —— 默认保持原样，不误伤仍需要 temperature 的模型。
+ */
+export function modelRejectsSamplingParams(model: unknown): boolean {
+    if (typeof model !== 'string' || !model) return false;
+    const m = model.toLowerCase();
+
+    // Claude 系：版本号里的分隔符可能是 . 或 -（claude-opus-4.8 / claude-opus-4-8 都有）
+    if (/opus[-.\s]?4[-.\s]?(7|8|9)\b/.test(m)) return true;   // Opus 4.7 / 4.8 / 4.9
+    if (/opus[-.\s]?(?:[5-9]|\d\d)\b/.test(m)) return true;    // Opus 5 及以上
+    if (/sonnet[-.\s]?(?:[5-9]|\d\d)\b/.test(m)) return true;  // Sonnet 5 及以上
+    if (/\b(?:fable|mythos)[-.\s]?\d/.test(m)) return true;    // Fable / Mythos
+
+    // OpenAI gpt-5 系（gpt-5 / gpt-5-mini / gpt5 等）
+    if (/\bgpt-?5/.test(m)) return true;
+
+    return false;
+}
+
+/**
+ * 从请求体里摘掉采样参数（就地修改）；返回是否真的删掉了东西。
+ */
+export function stripSamplingParams(body: Record<string, any>): boolean {
+    if (!body || typeof body !== 'object') return false;
+    let changed = false;
+    for (const k of SAMPLING_KEYS) {
+        if (k in body && body[k] !== undefined) {
+            delete body[k];
+            changed = true;
+        }
+    }
+    return changed;
+}
+
+/**
+ * 400 报文是否在抱怨采样参数（temperature / top_p / top_k 被废弃 / 不支持）。
+ * 用来决定要不要摘掉采样参数重试一次。
+ */
+export function isSamplingParamError(responseText: string): boolean {
+    if (!responseText) return false;
+    const t = responseText.toLowerCase();
+    const mentionsParam = /temperature|top_p|top_k/.test(t);
+    const mentionsReject = /deprecat|not supported|unsupported|no longer supported|not allowed|isn'?t supported|not permitted|unexpected/.test(t);
+    return mentionsParam && mentionsReject;
+}

@@ -1,1 +1,40 @@
-aW1wb3J0IFJlYWN0IGZyb20gJ3JlYWN0JzsKaW1wb3J0IHsgdXNlT1MgfSBmcm9tICcuLi8uLi9jb250ZXh0L09TQ29udGV4dCc7CmltcG9ydCB7IEFwcElEIH0gZnJvbSAnLi4vLi4vdHlwZXMnOwppbXBvcnQgeyB1c2VEcmVhbVNpbSwgZHJlYW1TaW1TdG9yZSB9IGZyb20gJy4uLy4uL3V0aWxzL2RyZWFtU2ltU3RvcmUnOwppbXBvcnQgeyBNb29uU3RhcnMsIENhcmV0UmlnaHQgfSBmcm9tICdAcGhvc3Bob3ItaWNvbnMvcmVhY3QnOwoKLy8g5YWo5bGA44CM5qKm5aKD44CN55Sf5oiQ5oyH56S65p2hIOKAlOKAlCDmjILlnKggUGhvbmVTaGVsbO+8jOmaj+WkhOWPr+inge+8jOeCueWHu+a3semTvuWbnuWIsOmCo+WcuuaipuOAggpjb25zdCBEcmVhbVNpbUluZGljYXRvcjogUmVhY3QuRkMgPSAoKSA9PiB7CiAgICBjb25zdCBzaW0gPSB1c2VEcmVhbVNpbSgpOwogICAgY29uc3QgeyBvcGVuQXBwIH0gPSB1c2VPUygpOwoKICAgIGlmIChzaW0uc3RhdHVzICE9PSAnbG9hZGluZycgJiYgc2ltLnN0YXR1cyAhPT0gJ3JlYWR5JykgcmV0dXJuIG51bGw7CgogICAgY29uc3Qgb25UYXAgPSAoKSA9PiB7CiAgICAgICAgZHJlYW1TaW1TdG9yZS5yZXF1ZXN0T3BlbigpOwogICAgICAgIG9wZW5BcHAoQXBwSUQuUm9vbSk7CiAgICB9OwoKICAgIGNvbnN0IHJlYWR5ID0gc2ltLnN0YXR1cyA9PT0gJ3JlYWR5JzsKICAgIHJldHVybiAoCiAgICAgICAgLy8g5pS+5ZyoIFBlcnNvbmFTaW0g5oyH56S65p2h5LiL5pa55LiA54K577yM6YG/5YWN5Y+g5Zyo5LiA6LW377yIdG9wLTEyIHZzIHRvcC0yNO+8iQogICAgICAgIDxkaXYgY2xhc3NOYW1lPSJhYnNvbHV0ZSB0b3AtMjQgbGVmdC0wIHctZnVsbCBmbGV4IGp1c3RpZnktY2VudGVyIHB4LTQgei1bNjVdIHBvaW50ZXItZXZlbnRzLW5vbmUiPgogICAgICAgICAgICA8YnV0dG9uIG9uQ2xpY2s9e29uVGFwfQogICAgICAgICAgICAgICAgY2xhc3NOYW1lPXtgcG9pbnRlci1ldmVudHMtYXV0byBmbGV4IGl0ZW1zLWNlbnRlciBnYXAtMi41IHJvdW5kZWQtZnVsbCBhY3RpdmU6c2NhbGUtOTUgdHJhbnNpdGlvbiBzaGFkb3ctWzBfOHB4XzMwcHhfcmdiYSgwLDAsMCwwLjUpXSBib3JkZXIgJHtyZWFkeSA/ICdhbmltYXRlLW5vdGlmLXBvcCBweC01IHB5LTMnIDogJ2FuaW1hdGUtZmFkZS1pbiBweC00IHB5LTIuNSd9YH0KICAgICAgICAgICAgICAgIHN0eWxlPXtyZWFkeQogICAgICAgICAgICAgICAgICAgID8geyBiYWNrZ3JvdW5kOiAnbGluZWFyLWdyYWRpZW50KDEyMGRlZywgcmdiYSgyMDUsMjE0LDI1NSwwLjk3KSwgcmdiYSgxNTAsMTYwLDIzNSwwLjk0KSknLCBib3JkZXJDb2xvcjogJ3JnYmEoMjA1LDIxNCwyNTUsMC41KScgfQogICAgICAgICAgICAgICAgICAgIDogeyBiYWNrZ3JvdW5kOiAncmdiYSgyMiwyNCw0NiwwLjk0KScsIGJvcmRlckNvbG9yOiAncmdiYSgyMDUsMjE0LDI1NSwwLjMpJyB9fT4KICAgICAgICAgICAgICAgIHtyZWFkeQogICAgICAgICAgICAgICAgICAgID8gPE1vb25TdGFycyBzaXplPXsxNn0gd2VpZ2h0PSJmaWxsIiBjbGFzc05hbWU9InRleHQtWyMxNTEyMWNdIiAvPgogICAgICAgICAgICAgICAgICAgIDogPHNwYW4gY2xhc3NOYW1lPSJ3LTMuNSBoLTMuNSBib3JkZXItMiBib3JkZXItWyNjZGQ2ZmZdLzQwIGJvcmRlci10LVsjY2RkNmZmXSByb3VuZGVkLWZ1bGwgYW5pbWF0ZS1zcGluIiAvPn0KICAgICAgICAgICAgICAgIDxzcGFuIGNsYXNzTmFtZT17YHRleHQtWzEycHhdIGZvbnQtc2VtaWJvbGQgJHtyZWFkeSA/ICd0ZXh0LVsjMTUxMjFjXScgOiAndGV4dC13aGl0ZS84NSd9YH0+CiAgICAgICAgICAgICAgICAgICAge3JlYWR5ID8gJ+aipuW3suaIkOW9oiDCtyDov5vlhaUnIDogYOaipuato+WcqOaIkOW9oiR7c2ltLmNoYXJOYW1lID8gJyDCtyAnICsgc2ltLmNoYXJOYW1lIDogJyd9YH0KICAgICAgICAgICAgICAgIDwvc3Bhbj4KICAgICAgICAgICAgICAgIHtyZWFkeSAmJiA8Q2FyZXRSaWdodCBzaXplPXsxM30gd2VpZ2h0PSJib2xkIiBjbGFzc05hbWU9InRleHQtWyMxNTEyMWNdLzgwIiAvPn0KICAgICAgICAgICAgPC9idXR0b24+CiAgICAgICAgPC9kaXY+CiAgICApOwp9OwoKZXhwb3J0IGRlZmF1bHQgRHJlYW1TaW1JbmRpY2F0b3I7Cg==
+import React from 'react';
+import { useOS } from '../../context/OSContext';
+import { AppID } from '../../types';
+import { useDreamSim, dreamSimStore } from '../../utils/dreamSimStore';
+import { MoonStars, CaretRight } from '@phosphor-icons/react';
+
+// 全局「梦境」生成指示条 —— 挂在 PhoneShell，随处可见，点击深链回到那场梦。
+const DreamSimIndicator: React.FC = () => {
+    const sim = useDreamSim();
+    const { openApp } = useOS();
+
+    if (sim.status !== 'loading' && sim.status !== 'ready') return null;
+
+    const onTap = () => {
+        dreamSimStore.requestOpen();
+        openApp(AppID.Room);
+    };
+
+    const ready = sim.status === 'ready';
+    return (
+        // 放在 PersonaSim 指示条下方一点，避免叠在一起（top-12 vs top-24）
+        <div className="absolute top-24 left-0 w-full flex justify-center px-4 z-[65] pointer-events-none">
+            <button onClick={onTap}
+                className={`pointer-events-auto flex items-center gap-2.5 rounded-full active:scale-95 transition shadow-[0_8px_30px_rgba(0,0,0,0.5)] border ${ready ? 'animate-notif-pop px-5 py-3' : 'animate-fade-in px-4 py-2.5'}`}
+                style={ready
+                    ? { background: 'linear-gradient(120deg, rgba(205,214,255,0.97), rgba(150,160,235,0.94))', borderColor: 'rgba(205,214,255,0.5)' }
+                    : { background: 'rgba(22,24,46,0.94)', borderColor: 'rgba(205,214,255,0.3)' }}>
+                {ready
+                    ? <MoonStars size={16} weight="fill" className="text-[#15121c]" />
+                    : <span className="w-3.5 h-3.5 border-2 border-[#cdd6ff]/40 border-t-[#cdd6ff] rounded-full animate-spin" />}
+                <span className={`text-[12px] font-semibold ${ready ? 'text-[#15121c]' : 'text-white/85'}`}>
+                    {ready ? '梦已成形 · 进入' : `梦正在成形${sim.charName ? ' · ' + sim.charName : ''}`}
+                </span>
+                {ready && <CaretRight size={13} weight="bold" className="text-[#15121c]/80" />}
+            </button>
+        </div>
+    );
+};
+
+export default DreamSimIndicator;

@@ -1,1 +1,101 @@
-aW1wb3J0IFJlYWN0IGZyb20gJ3JlYWN0JzsKaW1wb3J0IHsgV2FybmluZ0NpcmNsZSwgWCB9IGZyb20gJ0BwaG9zcGhvci1pY29ucy9yZWFjdCc7Cgpjb25zdCBSZXNldENpdHlEaWFsb2c6IFJlYWN0LkZDPHsKICAgIHBhcnRpY2lwYW50Q291bnQ6IG51bWJlcjsKICAgIG1haW5QbG90Q291bnQ6IG51bWJlcjsKICAgIHByb2Nlc3Npbmc6IGJvb2xlYW47CiAgICBvbkNhbmNlbDogKCkgPT4gdm9pZDsKICAgIG9uQXJjaGl2ZUFuZFJlc2V0OiAoKSA9PiB2b2lkOwogICAgb25EaXJlY3RSZXNldDogKCkgPT4gdm9pZDsKfT4gPSAoeyBwYXJ0aWNpcGFudENvdW50LCBtYWluUGxvdENvdW50LCBwcm9jZXNzaW5nLCBvbkNhbmNlbCwgb25BcmNoaXZlQW5kUmVzZXQsIG9uRGlyZWN0UmVzZXQgfSkgPT4gewogICAgcmV0dXJuICgKICAgICAgICA8ZGl2CiAgICAgICAgICAgIGNsYXNzTmFtZT0iYWJzb2x1dGUgaW5zZXQtMCB6LTUwIGZsZXggaXRlbXMtY2VudGVyIGp1c3RpZnktY2VudGVyIHB4LTQiCiAgICAgICAgICAgIHN0eWxlPXt7IGJhY2tncm91bmQ6ICdyZ2JhKDAsMCwwLDAuMzUpJyB9fQogICAgICAgICAgICBvbkNsaWNrPXtldmVudCA9PiB7IGlmIChldmVudC50YXJnZXQgPT09IGV2ZW50LmN1cnJlbnRUYXJnZXQgJiYgIXByb2Nlc3NpbmcpIG9uQ2FuY2VsKCk7IH19CiAgICAgICAgPgogICAgICAgICAgICA8ZGl2CiAgICAgICAgICAgICAgICBjbGFzc05hbWU9InJldHJvLXdpbmRvdyB3LWZ1bGwiCiAgICAgICAgICAgICAgICBzdHlsZT17ewogICAgICAgICAgICAgICAgICAgIG1heFdpZHRoOiAzNDAsCiAgICAgICAgICAgICAgICAgICAgYm94U2hhZG93OiAnNHB4IDRweCAwIHJnYmEoMCwwLDAsMC4yKSwgaW5zZXQgMCAwIDAgMXB4IHJnYmEoMjU1LDI1NSwyNTUsMC41KScsCiAgICAgICAgICAgICAgICB9fQogICAgICAgICAgICA+CiAgICAgICAgICAgICAgICA8ZGl2IGNsYXNzTmFtZT0icmV0cm8tdGl0bGViYXIiPgogICAgICAgICAgICAgICAgICAgIDxzcGFuIGNsYXNzTmFtZT0iZmxleCBpdGVtcy1jZW50ZXIgZ2FwLTEiPgogICAgICAgICAgICAgICAgICAgICAgICA8V2FybmluZ0NpcmNsZSBzaXplPXsxMX0gd2VpZ2h0PSJmaWxsIiAvPiByZXNldC1jaXR5LmV4ZQogICAgICAgICAgICAgICAgICAgIDwvc3Bhbj4KICAgICAgICAgICAgICAgICAgICB7IXByb2Nlc3NpbmcgJiYgKAogICAgICAgICAgICAgICAgICAgICAgICA8YnV0dG9uCiAgICAgICAgICAgICAgICAgICAgICAgICAgICBvbkNsaWNrPXtvbkNhbmNlbH0KICAgICAgICAgICAgICAgICAgICAgICAgICAgIHN0eWxlPXt7CiAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgZGlzcGxheTogJ2lubGluZS1mbGV4JywKICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICBhbGlnbkl0ZW1zOiAnY2VudGVyJywKICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICBqdXN0aWZ5Q29udGVudDogJ2NlbnRlcicsCiAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgd2lkdGg6IDE4LAogICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgIGhlaWdodDogMTgsCiAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgYm9yZGVyUmFkaXVzOiAzLAogICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgIGJhY2tncm91bmQ6ICdyZ2JhKDI1NSwyNTUsMjU1LDAuMTUpJywKICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICBib3JkZXI6ICcxcHggc29saWQgcmdiYSgyNTUsMjU1LDI1NSwwLjI1KScsCiAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgY29sb3I6ICd3aGl0ZScsCiAgICAgICAgICAgICAgICAgICAgICAgICAgICB9fQogICAgICAgICAgICAgICAgICAgICAgICA+CiAgICAgICAgICAgICAgICAgICAgICAgICAgICA8WCBzaXplPXsxMH0gd2VpZ2h0PSJib2xkIiAvPgogICAgICAgICAgICAgICAgICAgICAgICA8L2J1dHRvbj4KICAgICAgICAgICAgICAgICAgICApfQogICAgICAgICAgICAgICAgPC9kaXY+CgogICAgICAgICAgICAgICAgPGRpdiBzdHlsZT17eyBwYWRkaW5nOiAxMiB9fT4KICAgICAgICAgICAgICAgICAgICA8cCBzdHlsZT17eyBmb250U2l6ZTogMTIsIGZvbnRXZWlnaHQ6IDcwMCwgY29sb3I6ICcjNGQ0NzVjJywgbGluZUhlaWdodDogMS41IH19PgogICAgICAgICAgICAgICAgICAgICAgICDmmK/lkKbnu5PmnZ/ov5nlnLrmuLjmiI/vvIzlubbnlJ/miJDlsI/nu5PvvJ8KICAgICAgICAgICAgICAgICAgICA8L3A+CiAgICAgICAgICAgICAgICAgICAgPHAgc3R5bGU9e3sgZm9udFNpemU6IDEwLCBjb2xvcjogJyM3ZDc3OGEnLCBsaW5lSGVpZ2h0OiAxLjYsIG1hcmdpblRvcDogNiB9fT4KICAgICAgICAgICAgICAgICAgICAgICAg5b2T5YmN5Y+C5LiO6KeS6ImyIHtwYXJ0aWNpcGFudENvdW50fSDkuKrvvIzlt7LorrDlvZXkuLvnur8ge21haW5QbG90Q291bnR9IOadoeOAggogICAgICAgICAgICAgICAgICAgIDwvcD4KCiAgICAgICAgICAgICAgICAgICAgPGRpdiBjbGFzc05hbWU9InJldHJvLWluc2V0IiBzdHlsZT17eyBwYWRkaW5nOiAnN3B4IDlweCcsIG1hcmdpblRvcDogOCB9fT4KICAgICAgICAgICAgICAgICAgICAgICAgPHAgc3R5bGU9e3sgZm9udFNpemU6IDksIGNvbG9yOiAnIzdkNzQ2ZCcsIGxpbmVIZWlnaHQ6IDEuNiB9fT4KICAgICAgICAgICAgICAgICAgICAgICAgICAgIOKAnOehruWumuKAnSDkvJrmiorov5nlsYDjgIrpg73luILkurrnlJ/jgIvmtZPnvKnmiJDkuIDlvKDlg4/ntKDpo47nu5PnrpflsI/ljaHniYfvvIzlubblj5HpgIHliLDlj4LkuI7op5LoibLnmoTogYrlpKnorrDlvZXph4zjgIIKICAgICAgICAgICAgICAgICAgICAgICAgPC9wPgogICAgICAgICAgICAgICAgICAgIDwvZGl2PgogICAgICAgICAgICAgICAgPC9kaXY+CgogICAgICAgICAgICAgICAgPGRpdiBzdHlsZT17eyBwYWRkaW5nOiAnMCAxMnB4IDEycHgnIH19IGNsYXNzTmFtZT0ic3BhY2UteS0yIj4KICAgICAgICAgICAgICAgICAgICA8YnV0dG9uCiAgICAgICAgICAgICAgICAgICAgICAgIG9uQ2xpY2s9e29uQ2FuY2VsfQogICAgICAgICAgICAgICAgICAgICAgICBkaXNhYmxlZD17cHJvY2Vzc2luZ30KICAgICAgICAgICAgICAgICAgICAgICAgY2xhc3NOYW1lPSJyZXRyby1idG4gdy1mdWxsIgogICAgICAgICAgICAgICAgICAgICAgICBzdHlsZT17eyBwYWRkaW5nOiAnN3B4IDEycHgnLCBvcGFjaXR5OiBwcm9jZXNzaW5nID8gMC42IDogMSB9fQogICAgICAgICAgICAgICAgICAgID4KICAgICAgICAgICAgICAgICAgICAgICAg5Y+W5raICiAgICAgICAgICAgICAgICAgICAgPC9idXR0b24+CiAgICAgICAgICAgICAgICAgICAgPGJ1dHRvbgogICAgICAgICAgICAgICAgICAgICAgICBvbkNsaWNrPXtvbkFyY2hpdmVBbmRSZXNldH0KICAgICAgICAgICAgICAgICAgICAgICAgZGlzYWJsZWQ9e3Byb2Nlc3Npbmd9CiAgICAgICAgICAgICAgICAgICAgICAgIGNsYXNzTmFtZT0icmV0cm8tYnRuIHJldHJvLWJ0bi1wcmltYXJ5IHctZnVsbCIKICAgICAgICAgICAgICAgICAgICAgICAgc3R5bGU9e3sgcGFkZGluZzogJzdweCAxMnB4Jywgb3BhY2l0eTogcHJvY2Vzc2luZyA/IDAuNiA6IDEgfX0KICAgICAgICAgICAgICAgICAgICA+CiAgICAgICAgICAgICAgICAgICAgICAgIHtwcm9jZXNzaW5nID8gJ+ato+WcqOeUn+aIkOWwj+e7ky4uLicgOiAn56Gu5a6aJ30KICAgICAgICAgICAgICAgICAgICA8L2J1dHRvbj4KICAgICAgICAgICAgICAgICAgICA8YnV0dG9uCiAgICAgICAgICAgICAgICAgICAgICAgIG9uQ2xpY2s9e29uRGlyZWN0UmVzZXR9CiAgICAgICAgICAgICAgICAgICAgICAgIGRpc2FibGVkPXtwcm9jZXNzaW5nfQogICAgICAgICAgICAgICAgICAgICAgICBjbGFzc05hbWU9InJldHJvLWJ0biB3LWZ1bGwiCiAgICAgICAgICAgICAgICAgICAgICAgIHN0eWxlPXt7CiAgICAgICAgICAgICAgICAgICAgICAgICAgICBwYWRkaW5nOiAnN3B4IDEycHgnLAogICAgICAgICAgICAgICAgICAgICAgICAgICAgYmFja2dyb3VuZDogJ2xpbmVhci1ncmFkaWVudCgxODBkZWcsICNlOGQ4ZDgsICNkM2I2YjYpJywKICAgICAgICAgICAgICAgICAgICAgICAgICAgIGJvcmRlckNvbG9yOiAnI2I3ODU4NScsCiAgICAgICAgICAgICAgICAgICAgICAgICAgICBjb2xvcjogJyM3YjRhNGEnLAogICAgICAgICAgICAgICAgICAgICAgICAgICAgb3BhY2l0eTogcHJvY2Vzc2luZyA/IDAuNiA6IDEsCiAgICAgICAgICAgICAgICAgICAgICAgIH19CiAgICAgICAgICAgICAgICAgICAgPgogICAgICAgICAgICAgICAgICAgICAgICDnm7TmjqXnu5PmnZ/muLjmiI8KICAgICAgICAgICAgICAgICAgICA8L2J1dHRvbj4KICAgICAgICAgICAgICAgIDwvZGl2PgogICAgICAgICAgICA8L2Rpdj4KICAgICAgICA8L2Rpdj4KICAgICk7Cn07CgpleHBvcnQgZGVmYXVsdCBSZXNldENpdHlEaWFsb2c7Cg==
+import React from 'react';
+import { WarningCircle, X } from '@phosphor-icons/react';
+
+const ResetCityDialog: React.FC<{
+    participantCount: number;
+    mainPlotCount: number;
+    processing: boolean;
+    onCancel: () => void;
+    onArchiveAndReset: () => void;
+    onDirectReset: () => void;
+}> = ({ participantCount, mainPlotCount, processing, onCancel, onArchiveAndReset, onDirectReset }) => {
+    return (
+        <div
+            className="absolute inset-0 z-50 flex items-center justify-center px-4"
+            style={{ background: 'rgba(0,0,0,0.35)' }}
+            onClick={event => { if (event.target === event.currentTarget && !processing) onCancel(); }}
+        >
+            <div
+                className="retro-window w-full"
+                style={{
+                    maxWidth: 340,
+                    boxShadow: '4px 4px 0 rgba(0,0,0,0.2), inset 0 0 0 1px rgba(255,255,255,0.5)',
+                }}
+            >
+                <div className="retro-titlebar">
+                    <span className="flex items-center gap-1">
+                        <WarningCircle size={11} weight="fill" /> reset-city.exe
+                    </span>
+                    {!processing && (
+                        <button
+                            onClick={onCancel}
+                            style={{
+                                display: 'inline-flex',
+                                alignItems: 'center',
+                                justifyContent: 'center',
+                                width: 18,
+                                height: 18,
+                                borderRadius: 3,
+                                background: 'rgba(255,255,255,0.15)',
+                                border: '1px solid rgba(255,255,255,0.25)',
+                                color: 'white',
+                            }}
+                        >
+                            <X size={10} weight="bold" />
+                        </button>
+                    )}
+                </div>
+
+                <div style={{ padding: 12 }}>
+                    <p style={{ fontSize: 12, fontWeight: 700, color: '#4d475c', lineHeight: 1.5 }}>
+                        是否结束这场游戏，并生成小结？
+                    </p>
+                    <p style={{ fontSize: 10, color: '#7d778a', lineHeight: 1.6, marginTop: 6 }}>
+                        当前参与角色 {participantCount} 个，已记录主线 {mainPlotCount} 条。
+                    </p>
+
+                    <div className="retro-inset" style={{ padding: '7px 9px', marginTop: 8 }}>
+                        <p style={{ fontSize: 9, color: '#7d746d', lineHeight: 1.6 }}>
+                            “确定” 会把这局《都市人生》浓缩成一张像素风结算小卡片，并发送到参与角色的聊天记录里。
+                        </p>
+                    </div>
+                </div>
+
+                <div style={{ padding: '0 12px 12px' }} className="space-y-2">
+                    <button
+                        onClick={onCancel}
+                        disabled={processing}
+                        className="retro-btn w-full"
+                        style={{ padding: '7px 12px', opacity: processing ? 0.6 : 1 }}
+                    >
+                        取消
+                    </button>
+                    <button
+                        onClick={onArchiveAndReset}
+                        disabled={processing}
+                        className="retro-btn retro-btn-primary w-full"
+                        style={{ padding: '7px 12px', opacity: processing ? 0.6 : 1 }}
+                    >
+                        {processing ? '正在生成小结...' : '确定'}
+                    </button>
+                    <button
+                        onClick={onDirectReset}
+                        disabled={processing}
+                        className="retro-btn w-full"
+                        style={{
+                            padding: '7px 12px',
+                            background: 'linear-gradient(180deg, #e8d8d8, #d3b6b6)',
+                            borderColor: '#b78585',
+                            color: '#7b4a4a',
+                            opacity: processing ? 0.6 : 1,
+                        }}
+                    >
+                        直接结束游戏
+                    </button>
+                </div>
+            </div>
+        </div>
+    );
+};
+
+export default ResetCityDialog;

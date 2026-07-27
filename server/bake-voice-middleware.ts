@@ -1,1 +1,178 @@
-aW1wb3J0IHR5cGUgeyBJbmNvbWluZ01lc3NhZ2UsIFNlcnZlclJlc3BvbnNlIH0gZnJvbSAnaHR0cCc7Cgpjb25zdCBET01FU1RJQ19CQVNFID0gJ2h0dHBzOi8vYXBpLm1pbmltYXhpLmNvbSc7CmNvbnN0IE9WRVJTRUFTX0JBU0UgPSAnaHR0cHM6Ly9hcGkubWluaW1heC5pbyc7Cgp0eXBlIE1pbmltYXhVcmxzID0geyB0MmE6IHN0cmluZzsgdXBsb2FkOiBzdHJpbmc7IGNsb25lOiBzdHJpbmcgfTsKCmNvbnN0IHJlc29sdmVNaW5pbWF4VXJscyA9IChyZXE6IEluY29taW5nTWVzc2FnZSwgYm9keVJlZ2lvbjogdW5rbm93bik6IE1pbmltYXhVcmxzID0+IHsKICBjb25zdCBib2R5UiA9IHR5cGVvZiBib2R5UmVnaW9uID09PSAnc3RyaW5nJyA/IGJvZHlSZWdpb24udHJpbSgpLnRvTG93ZXJDYXNlKCkgOiAnJzsKICBjb25zdCBoZWFkZXJSYXcgPSByZXEuaGVhZGVyc1sneC1taW5pbWF4LXJlZ2lvbiddOwogIGNvbnN0IGhlYWRlclIgPSB0eXBlb2YgaGVhZGVyUmF3ID09PSAnc3RyaW5nJyA/IGhlYWRlclJhdy50cmltKCkudG9Mb3dlckNhc2UoKSA6ICcnOwogIGNvbnN0IGVudlIgPSB0eXBlb2YgcHJvY2Vzcy5lbnYuTUlOSU1BWF9SRUdJT04gPT09ICdzdHJpbmcnCiAgICA/IHByb2Nlc3MuZW52Lk1JTklNQVhfUkVHSU9OLnRyaW0oKS50b0xvd2VyQ2FzZSgpCiAgICA6ICcnOwogIGNvbnN0IHJlZ2lvbiA9IGJvZHlSIHx8IGhlYWRlclIgfHwgZW52UjsKICBjb25zdCBiYXNlID0gcmVnaW9uID09PSAnb3ZlcnNlYXMnID8gT1ZFUlNFQVNfQkFTRSA6IERPTUVTVElDX0JBU0U7CiAgcmV0dXJuIHsKICAgIHQyYTogYCR7YmFzZX0vdjEvdDJhX3YyYCwKICAgIHVwbG9hZDogYCR7YmFzZX0vdjEvZmlsZXMvdXBsb2FkYCwKICAgIGNsb25lOiBgJHtiYXNlfS92MS92b2ljZV9jbG9uZWAsCiAgfTsKfTsKCmNvbnN0IENMT05FX1NPVVJDRV9URVhUID0gJ+WcqOS4gOS4qumYs+WFieaYjuWqmueahOaXqeaZqO+8jOWwj+m4n+WcqOaeneWktOasouW/q+WcsOatjOWUse+8jOW+rumjjui9u+i9u+aLgui/h+iEuOW6nu+8jOW4puadpeS6huiKseacteeahOiKrOiKs+OAgui/nOWkhOeahOWxseWzpuWcqOiWhOmbvuS4reiLpemakOiLpeeOsO+8jOWum+WmguS4gOW5heawtOWiqOeUu+OAguS6uuS7rOa8q+atpeWcqOael+iNq+Wwj+mBk+S4iu+8jOS6q+WPl+edgOi/memavuW+l+eahOWugemdmeaXtuWFieOAguWtqeWtkOS7rOWcqOiNieWcsOS4iuWllOi3keWsieaIj++8jOeskeWjsOWbnuiNoeWcqOepuuawlOS4re+8jOiuqeS6uuaEn+WIsOaXoOavlOa4qeaaluWSjOW5uOemj+OAgic7CgpmdW5jdGlvbiByZWFkQm9keShyZXE6IEluY29taW5nTWVzc2FnZSk6IFByb21pc2U8c3RyaW5nPiB7CiAgcmV0dXJuIG5ldyBQcm9taXNlKChyZXNvbHZlLCByZWplY3QpID0+IHsKICAgIGNvbnN0IGNodW5rczogQnVmZmVyW10gPSBbXTsKICAgIHJlcS5vbignZGF0YScsIChjaHVuazogQnVmZmVyKSA9PiBjaHVua3MucHVzaChjaHVuaykpOwogICAgcmVxLm9uKCdlbmQnLCAoKSA9PiByZXNvbHZlKEJ1ZmZlci5jb25jYXQoY2h1bmtzKS50b1N0cmluZygndXRmLTgnKSkpOwogICAgcmVxLm9uKCdlcnJvcicsIHJlamVjdCk7CiAgfSk7Cn0KCi8qKgogKiBWaXRlIGRldiBtaWRkbGV3YXJlOiBQT1NUIC9hcGkvbWluaW1heC9iYWtlLXZvaWNlCiAqCiAqIDEuIFN5bnRoZXNpemVzIGEgbG9uZyBhdWRpbyBzYW1wbGUgdXNpbmcgVDJBIHdpdGggdXNlcidzIHRpbWJlcl93ZWlnaHRzCiAqIDIuIFVwbG9hZHMgdGhlIGF1ZGlvIHRvIE1pbmlNYXggL3YxL2ZpbGVzL3VwbG9hZAogKiAzLiBDYWxscyAvdjEvdm9pY2VfY2xvbmUgdG8gY3JlYXRlIGEgcGVybWFuZW50IHZvaWNlX2lkCiAqLwpleHBvcnQgYXN5bmMgZnVuY3Rpb24gYmFrZVZvaWNlTWlkZGxld2FyZShyZXE6IEluY29taW5nTWVzc2FnZSwgcmVzOiBTZXJ2ZXJSZXNwb25zZSkgewogIHJlcy5zZXRIZWFkZXIoJ0FjY2Vzcy1Db250cm9sLUFsbG93LU9yaWdpbicsICcqJyk7CiAgcmVzLnNldEhlYWRlcignQWNjZXNzLUNvbnRyb2wtQWxsb3ctTWV0aG9kcycsICdQT1NULE9QVElPTlMnKTsKICByZXMuc2V0SGVhZGVyKCdBY2Nlc3MtQ29udHJvbC1BbGxvdy1IZWFkZXJzJywgJ0NvbnRlbnQtVHlwZSxYLU1pbmlNYXgtUmVnaW9uJyk7CgogIGlmIChyZXEubWV0aG9kID09PSAnT1BUSU9OUycpIHsKICAgIHJlcy5zdGF0dXNDb2RlID0gMjA0OwogICAgcmVzLmVuZCgpOwogICAgcmV0dXJuOwogIH0KCiAgaWYgKHJlcS5tZXRob2QgIT09ICdQT1NUJykgewogICAgcmVzLnN0YXR1c0NvZGUgPSA0MDU7CiAgICByZXMuZW5kKEpTT04uc3RyaW5naWZ5KHsgZXJyb3I6ICdNZXRob2QgTm90IEFsbG93ZWQnIH0pKTsKICAgIHJldHVybjsKICB9CgogIHRyeSB7CiAgICBjb25zdCBib2R5ID0gSlNPTi5wYXJzZShhd2FpdCByZWFkQm9keShyZXEpKTsKICAgIGNvbnN0IHsgYXBpS2V5LCB2b2ljZUlkLCBtb2RlbCwgdHRzUGF5bG9hZCwgZ3JvdXBJZCwgcmVnaW9uIH0gPSBib2R5OwoKICAgIGlmICghYXBpS2V5KSB0aHJvdyBuZXcgRXJyb3IoJ01pc3NpbmcgYXBpS2V5Jyk7CiAgICBpZiAoIXZvaWNlSWQpIHRocm93IG5ldyBFcnJvcignTWlzc2luZyB2b2ljZUlkJyk7CiAgICBpZiAoIXR0c1BheWxvYWQpIHRocm93IG5ldyBFcnJvcignTWlzc2luZyB0dHNQYXlsb2FkJyk7CgogICAgY29uc3QgdXJscyA9IHJlc29sdmVNaW5pbWF4VXJscyhyZXEsIHJlZ2lvbik7CgogICAgLy8gU3RlcCAxOiBTeW50aGVzaXplIGxvbmcgYXVkaW8gd2l0aCB0aW1iZXJfd2VpZ2h0cwogICAgY29uc3QgdDJhQm9keSA9IHsKICAgICAgLi4udHRzUGF5bG9hZCwKICAgICAgdGV4dDogQ0xPTkVfU09VUkNFX1RFWFQsCiAgICAgIHN0cmVhbTogZmFsc2UsCiAgICAgIG91dHB1dF9mb3JtYXQ6ICd1cmwnLAogICAgICBhdWRpb19zZXR0aW5nOiB7IGZvcm1hdDogJ21wMycsIHNhbXBsZV9yYXRlOiAzMjAwMCwgYml0cmF0ZTogMTI4MDAwLCBjaGFubmVsOiAxIH0sCiAgICB9OwogICAgaWYgKGdyb3VwSWQpIHQyYUJvZHkuZ3JvdXBfaWQgPSBncm91cElkOwoKICAgIGNvbnNvbGUubG9nKCdbYmFrZS12b2ljZV0gc3RlcCAxOiBzeW50aGVzaXppbmcgbG9uZyBhdWRpbyBzYW1wbGUuLi4nLCB7IHRhcmdldDogdXJscy50MmEgfSk7CiAgICBjb25zdCB0MmFSZXMgPSBhd2FpdCBmZXRjaCh1cmxzLnQyYSwgewogICAgICBtZXRob2Q6ICdQT1NUJywKICAgICAgaGVhZGVyczogewogICAgICAgICdDb250ZW50LVR5cGUnOiAnYXBwbGljYXRpb24vanNvbicsCiAgICAgICAgQXV0aG9yaXphdGlvbjogYEJlYXJlciAke2FwaUtleX1gLAogICAgICB9LAogICAgICBib2R5OiBKU09OLnN0cmluZ2lmeSh0MmFCb2R5KSwKICAgIH0pOwogICAgY29uc3QgdDJhRGF0YSA9IGF3YWl0IHQyYVJlcy5qc29uKCkgYXMgYW55OwogICAgY29uc3QgdDJhU3RhdHVzID0gdDJhRGF0YT8uYmFzZV9yZXNwPy5zdGF0dXNfY29kZTsKICAgIGlmICh0eXBlb2YgdDJhU3RhdHVzID09PSAnbnVtYmVyJyAmJiB0MmFTdGF0dXMgIT09IDApIHsKICAgICAgdGhyb3cgbmV3IEVycm9yKGBUMkEgZmFpbGVkOiAke3QyYURhdGE/LmJhc2VfcmVzcD8uc3RhdHVzX21zZyB8fCAndW5rbm93bid9YCk7CiAgICB9CiAgICBjb25zdCBhdWRpb1JhdyA9IHQyYURhdGE/LmRhdGE/LmF1ZGlvOwogICAgaWYgKCFhdWRpb1JhdyB8fCB0eXBlb2YgYXVkaW9SYXcgIT09ICdzdHJpbmcnKSB7CiAgICAgIHRocm93IG5ldyBFcnJvcignVDJBIHJldHVybmVkIG5vIGF1ZGlvJyk7CiAgICB9CgogICAgbGV0IGF1ZGlvQnVmZmVyOiBCdWZmZXI7CiAgICBpZiAoL15odHRwcz86XC9cLy9pLnRlc3QoYXVkaW9SYXcudHJpbSgpKSkgewogICAgICBjb25zdCBhdWRpb1JlcyA9IGF3YWl0IGZldGNoKGF1ZGlvUmF3LnRyaW0oKSk7CiAgICAgIGlmICghYXVkaW9SZXMub2spIHRocm93IG5ldyBFcnJvcihgQXVkaW8gZG93bmxvYWQgZmFpbGVkOiBIVFRQICR7YXVkaW9SZXMuc3RhdHVzfWApOwogICAgICBhdWRpb0J1ZmZlciA9IEJ1ZmZlci5mcm9tKGF3YWl0IGF1ZGlvUmVzLmFycmF5QnVmZmVyKCkpOwogICAgfSBlbHNlIHsKICAgICAgY29uc3QgY2xlYW5IZXggPSBhdWRpb1Jhdy50cmltKCkucmVwbGFjZSgvXjB4L2ksICcnKTsKICAgICAgYXVkaW9CdWZmZXIgPSBCdWZmZXIuZnJvbShjbGVhbkhleCwgJ2hleCcpOwogICAgfQogICAgY29uc29sZS5sb2coYFtiYWtlLXZvaWNlXSBzdGVwIDEgZG9uZTogJHthdWRpb0J1ZmZlci5sZW5ndGh9IGJ5dGVzYCk7CgogICAgLy8gU3RlcCAyOiBVcGxvYWQgYXVkaW8gZm9yIGNsb25pbmcKICAgIGNvbnN0IGJvdW5kYXJ5ID0gYC0tLS1CYWtlVm9pY2Uke0RhdGUubm93KCl9YDsKICAgIGNvbnN0IHBhcnRzOiBCdWZmZXJbXSA9IFtdOwogICAgcGFydHMucHVzaChCdWZmZXIuZnJvbSgKICAgICAgYC0tJHtib3VuZGFyeX1cclxuQ29udGVudC1EaXNwb3NpdGlvbjogZm9ybS1kYXRhOyBuYW1lPSJmaWxlIjsgZmlsZW5hbWU9InZvaWNlX3NhbXBsZS5tcDMiXHJcbkNvbnRlbnQtVHlwZTogYXVkaW8vbXBlZ1xyXG5cclxuYAogICAgKSk7CiAgICBwYXJ0cy5wdXNoKGF1ZGlvQnVmZmVyKTsKICAgIHBhcnRzLnB1c2goQnVmZmVyLmZyb20oJ1xyXG4nKSk7CiAgICBwYXJ0cy5wdXNoKEJ1ZmZlci5mcm9tKAogICAgICBgLS0ke2JvdW5kYXJ5fVxyXG5Db250ZW50LURpc3Bvc2l0aW9uOiBmb3JtLWRhdGE7IG5hbWU9InB1cnBvc2UiXHJcblxyXG52b2ljZV9jbG9uZVxyXG5gCiAgICApKTsKICAgIHBhcnRzLnB1c2goQnVmZmVyLmZyb20oYC0tJHtib3VuZGFyeX0tLVxyXG5gKSk7CiAgICBjb25zdCBtdWx0aXBhcnRCb2R5ID0gQnVmZmVyLmNvbmNhdChwYXJ0cyk7CgogICAgY29uc29sZS5sb2coJ1tiYWtlLXZvaWNlXSBzdGVwIDI6IHVwbG9hZGluZyBhdWRpbyBmb3IgY2xvbmluZy4uLicpOwogICAgY29uc3QgdXBsb2FkUmVzID0gYXdhaXQgZmV0Y2godXJscy51cGxvYWQsIHsKICAgICAgbWV0aG9kOiAnUE9TVCcsCiAgICAgIGhlYWRlcnM6IHsKICAgICAgICBBdXRob3JpemF0aW9uOiBgQmVhcmVyICR7YXBpS2V5fWAsCiAgICAgICAgJ0NvbnRlbnQtVHlwZSc6IGBtdWx0aXBhcnQvZm9ybS1kYXRhOyBib3VuZGFyeT0ke2JvdW5kYXJ5fWAsCiAgICAgIH0sCiAgICAgIGJvZHk6IG11bHRpcGFydEJvZHksCiAgICB9KTsKICAgIGNvbnN0IHVwbG9hZERhdGEgPSBhd2FpdCB1cGxvYWRSZXMuanNvbigpIGFzIGFueTsKICAgIGNvbnN0IGZpbGVJZCA9IHVwbG9hZERhdGE/LmZpbGU/LmZpbGVfaWQ7CiAgICBpZiAoIWZpbGVJZCkgewogICAgICBjb25zdCBtc2cgPSB1cGxvYWREYXRhPy5iYXNlX3Jlc3A/LnN0YXR1c19tc2cgfHwgSlNPTi5zdHJpbmdpZnkodXBsb2FkRGF0YSk7CiAgICAgIHRocm93IG5ldyBFcnJvcihgVXBsb2FkIGZhaWxlZDogJHttc2d9YCk7CiAgICB9CiAgICBjb25zb2xlLmxvZyhgW2Jha2Utdm9pY2VdIHN0ZXAgMiBkb25lOiBmaWxlX2lkPSR7ZmlsZUlkfWApOwoKICAgIC8vIFN0ZXAgMzogQ2xvbmUgdm9pY2UKICAgIGNvbnNvbGUubG9nKCdbYmFrZS12b2ljZV0gc3RlcCAzOiBjbG9uaW5nIHZvaWNlLi4uJyk7CiAgICBjb25zdCBjbG9uZVJlcyA9IGF3YWl0IGZldGNoKHVybHMuY2xvbmUsIHsKICAgICAgbWV0aG9kOiAnUE9TVCcsCiAgICAgIGhlYWRlcnM6IHsKICAgICAgICAnQ29udGVudC1UeXBlJzogJ2FwcGxpY2F0aW9uL2pzb24nLAogICAgICAgIEF1dGhvcml6YXRpb246IGBCZWFyZXIgJHthcGlLZXl9YCwKICAgICAgfSwKICAgICAgYm9keTogSlNPTi5zdHJpbmdpZnkoewogICAgICAgIGZpbGVfaWQ6IGZpbGVJZCwKICAgICAgICB2b2ljZV9pZDogdm9pY2VJZCwKICAgICAgICBtb2RlbDogbW9kZWwgfHwgJ3NwZWVjaC0yLjgtaGQnLAogICAgICAgIHRleHQ6ICfkvaDlpb3vvIzov5nmmK/lm7rlrprlkI7nmoTlo7Dpn7PvvIzlkKzlkKznnIvmlYjmnpzmgI7kuYjmoLfvvJ8nLAogICAgICAgIG5lZWRfbm9pc2VfcmVkdWN0aW9uOiBmYWxzZSwKICAgICAgICBuZWVkX3ZvbHVtbl9ub3JtYWxpemF0aW9uOiB0cnVlLAogICAgICB9KSwKICAgIH0pOwogICAgY29uc3QgY2xvbmVEYXRhID0gYXdhaXQgY2xvbmVSZXMuanNvbigpIGFzIGFueTsKICAgIGNvbnN0IGNsb25lU3RhdHVzID0gY2xvbmVEYXRhPy5iYXNlX3Jlc3A/LnN0YXR1c19jb2RlOwogICAgaWYgKHR5cGVvZiBjbG9uZVN0YXR1cyA9PT0gJ251bWJlcicgJiYgY2xvbmVTdGF0dXMgIT09IDApIHsKICAgICAgdGhyb3cgbmV3IEVycm9yKGBDbG9uZSBmYWlsZWQ6ICR7Y2xvbmVEYXRhPy5iYXNlX3Jlc3A/LnN0YXR1c19tc2cgfHwgSlNPTi5zdHJpbmdpZnkoY2xvbmVEYXRhKX1gKTsKICAgIH0KICAgIGNvbnNvbGUubG9nKGBbYmFrZS12b2ljZV0gc3RlcCAzIGRvbmU6IHZvaWNlX2lkPSR7dm9pY2VJZH1gKTsKCiAgICByZXMuc3RhdHVzQ29kZSA9IDIwMDsKICAgIHJlcy5zZXRIZWFkZXIoJ0NvbnRlbnQtVHlwZScsICdhcHBsaWNhdGlvbi9qc29uJyk7CiAgICByZXMuZW5kKEpTT04uc3RyaW5naWZ5KHsKICAgICAgc3VjY2VzczogdHJ1ZSwKICAgICAgZmlsZV9pZDogZmlsZUlkLAogICAgICB2b2ljZV9pZDogdm9pY2VJZCwKICAgICAgY2xvbmVfZGF0YTogY2xvbmVEYXRhLAogICAgfSkpOwogIH0gY2F0Y2ggKGVycjogYW55KSB7CiAgICBjb25zb2xlLmVycm9yKCdbYmFrZS12b2ljZV0gZXJyb3I6JywgZXJyPy5tZXNzYWdlKTsKICAgIHJlcy5zdGF0dXNDb2RlID0gNTAwOwogICAgcmVzLnNldEhlYWRlcignQ29udGVudC1UeXBlJywgJ2FwcGxpY2F0aW9uL2pzb24nKTsKICAgIHJlcy5lbmQoSlNPTi5zdHJpbmdpZnkoeyBlcnJvcjogZXJyPy5tZXNzYWdlIHx8ICdiYWtlLXZvaWNlIGZhaWxlZCcgfSkpOwogIH0KfQo=
+import type { IncomingMessage, ServerResponse } from 'http';
+
+const DOMESTIC_BASE = 'https://api.minimaxi.com';
+const OVERSEAS_BASE = 'https://api.minimax.io';
+
+type MinimaxUrls = { t2a: string; upload: string; clone: string };
+
+const resolveMinimaxUrls = (req: IncomingMessage, bodyRegion: unknown): MinimaxUrls => {
+  const bodyR = typeof bodyRegion === 'string' ? bodyRegion.trim().toLowerCase() : '';
+  const headerRaw = req.headers['x-minimax-region'];
+  const headerR = typeof headerRaw === 'string' ? headerRaw.trim().toLowerCase() : '';
+  const envR = typeof process.env.MINIMAX_REGION === 'string'
+    ? process.env.MINIMAX_REGION.trim().toLowerCase()
+    : '';
+  const region = bodyR || headerR || envR;
+  const base = region === 'overseas' ? OVERSEAS_BASE : DOMESTIC_BASE;
+  return {
+    t2a: `${base}/v1/t2a_v2`,
+    upload: `${base}/v1/files/upload`,
+    clone: `${base}/v1/voice_clone`,
+  };
+};
+
+const CLONE_SOURCE_TEXT = '在一个阳光明媚的早晨，小鸟在枝头欢快地歌唱，微风轻轻拂过脸庞，带来了花朵的芬芳。远处的山峦在薄雾中若隐若现，宛如一幅水墨画。人们漫步在林荫小道上，享受着这难得的宁静时光。孩子们在草地上奔跑嬉戏，笑声回荡在空气中，让人感到无比温暖和幸福。';
+
+function readBody(req: IncomingMessage): Promise<string> {
+  return new Promise((resolve, reject) => {
+    const chunks: Buffer[] = [];
+    req.on('data', (chunk: Buffer) => chunks.push(chunk));
+    req.on('end', () => resolve(Buffer.concat(chunks).toString('utf-8')));
+    req.on('error', reject);
+  });
+}
+
+/**
+ * Vite dev middleware: POST /api/minimax/bake-voice
+ *
+ * 1. Synthesizes a long audio sample using T2A with user's timber_weights
+ * 2. Uploads the audio to MiniMax /v1/files/upload
+ * 3. Calls /v1/voice_clone to create a permanent voice_id
+ */
+export async function bakeVoiceMiddleware(req: IncomingMessage, res: ServerResponse) {
+  res.setHeader('Access-Control-Allow-Origin', '*');
+  res.setHeader('Access-Control-Allow-Methods', 'POST,OPTIONS');
+  res.setHeader('Access-Control-Allow-Headers', 'Content-Type,X-MiniMax-Region');
+
+  if (req.method === 'OPTIONS') {
+    res.statusCode = 204;
+    res.end();
+    return;
+  }
+
+  if (req.method !== 'POST') {
+    res.statusCode = 405;
+    res.end(JSON.stringify({ error: 'Method Not Allowed' }));
+    return;
+  }
+
+  try {
+    const body = JSON.parse(await readBody(req));
+    const { apiKey, voiceId, model, ttsPayload, groupId, region } = body;
+
+    if (!apiKey) throw new Error('Missing apiKey');
+    if (!voiceId) throw new Error('Missing voiceId');
+    if (!ttsPayload) throw new Error('Missing ttsPayload');
+
+    const urls = resolveMinimaxUrls(req, region);
+
+    // Step 1: Synthesize long audio with timber_weights
+    const t2aBody = {
+      ...ttsPayload,
+      text: CLONE_SOURCE_TEXT,
+      stream: false,
+      output_format: 'url',
+      audio_setting: { format: 'mp3', sample_rate: 32000, bitrate: 128000, channel: 1 },
+    };
+    if (groupId) t2aBody.group_id = groupId;
+
+    console.log('[bake-voice] step 1: synthesizing long audio sample...', { target: urls.t2a });
+    const t2aRes = await fetch(urls.t2a, {
+      method: 'POST',
+      headers: {
+        'Content-Type': 'application/json',
+        Authorization: `Bearer ${apiKey}`,
+      },
+      body: JSON.stringify(t2aBody),
+    });
+    const t2aData = await t2aRes.json() as any;
+    const t2aStatus = t2aData?.base_resp?.status_code;
+    if (typeof t2aStatus === 'number' && t2aStatus !== 0) {
+      throw new Error(`T2A failed: ${t2aData?.base_resp?.status_msg || 'unknown'}`);
+    }
+    const audioRaw = t2aData?.data?.audio;
+    if (!audioRaw || typeof audioRaw !== 'string') {
+      throw new Error('T2A returned no audio');
+    }
+
+    let audioBuffer: Buffer;
+    if (/^https?:\/\//i.test(audioRaw.trim())) {
+      const audioRes = await fetch(audioRaw.trim());
+      if (!audioRes.ok) throw new Error(`Audio download failed: HTTP ${audioRes.status}`);
+      audioBuffer = Buffer.from(await audioRes.arrayBuffer());
+    } else {
+      const cleanHex = audioRaw.trim().replace(/^0x/i, '');
+      audioBuffer = Buffer.from(cleanHex, 'hex');
+    }
+    console.log(`[bake-voice] step 1 done: ${audioBuffer.length} bytes`);
+
+    // Step 2: Upload audio for cloning
+    const boundary = `----BakeVoice${Date.now()}`;
+    const parts: Buffer[] = [];
+    parts.push(Buffer.from(
+      `--${boundary}\r\nContent-Disposition: form-data; name="file"; filename="voice_sample.mp3"\r\nContent-Type: audio/mpeg\r\n\r\n`
+    ));
+    parts.push(audioBuffer);
+    parts.push(Buffer.from('\r\n'));
+    parts.push(Buffer.from(
+      `--${boundary}\r\nContent-Disposition: form-data; name="purpose"\r\n\r\nvoice_clone\r\n`
+    ));
+    parts.push(Buffer.from(`--${boundary}--\r\n`));
+    const multipartBody = Buffer.concat(parts);
+
+    console.log('[bake-voice] step 2: uploading audio for cloning...');
+    const uploadRes = await fetch(urls.upload, {
+      method: 'POST',
+      headers: {
+        Authorization: `Bearer ${apiKey}`,
+        'Content-Type': `multipart/form-data; boundary=${boundary}`,
+      },
+      body: multipartBody,
+    });
+    const uploadData = await uploadRes.json() as any;
+    const fileId = uploadData?.file?.file_id;
+    if (!fileId) {
+      const msg = uploadData?.base_resp?.status_msg || JSON.stringify(uploadData);
+      throw new Error(`Upload failed: ${msg}`);
+    }
+    console.log(`[bake-voice] step 2 done: file_id=${fileId}`);
+
+    // Step 3: Clone voice
+    console.log('[bake-voice] step 3: cloning voice...');
+    const cloneRes = await fetch(urls.clone, {
+      method: 'POST',
+      headers: {
+        'Content-Type': 'application/json',
+        Authorization: `Bearer ${apiKey}`,
+      },
+      body: JSON.stringify({
+        file_id: fileId,
+        voice_id: voiceId,
+        model: model || 'speech-2.8-hd',
+        text: '你好，这是固定后的声音，听听看效果怎么样？',
+        need_noise_reduction: false,
+        need_volumn_normalization: true,
+      }),
+    });
+    const cloneData = await cloneRes.json() as any;
+    const cloneStatus = cloneData?.base_resp?.status_code;
+    if (typeof cloneStatus === 'number' && cloneStatus !== 0) {
+      throw new Error(`Clone failed: ${cloneData?.base_resp?.status_msg || JSON.stringify(cloneData)}`);
+    }
+    console.log(`[bake-voice] step 3 done: voice_id=${voiceId}`);
+
+    res.statusCode = 200;
+    res.setHeader('Content-Type', 'application/json');
+    res.end(JSON.stringify({
+      success: true,
+      file_id: fileId,
+      voice_id: voiceId,
+      clone_data: cloneData,
+    }));
+  } catch (err: any) {
+    console.error('[bake-voice] error:', err?.message);
+    res.statusCode = 500;
+    res.setHeader('Content-Type', 'application/json');
+    res.end(JSON.stringify({ error: err?.message || 'bake-voice failed' }));
+  }
+}

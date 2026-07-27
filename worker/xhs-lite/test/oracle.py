@@ -1,1 +1,98 @@
-IyEvdXNyL2Jpbi9lbnYgcHl0aG9uMwoiIiIKRGV0ZXJtaW5pc3RpYyByZWZlcmVuY2Ugb3JhY2xlIGZvciB0aGUgeGhzaG93IHNpZ25pbmcgYWxnb3JpdGhtLgoKSXQgcGF0Y2hlcyBBTEwgcmFuZG9tbmVzcyB0byBmaXhlZCB2YWx1ZXMgc28gdGhlIG91dHB1dCBpcyByZXByb2R1Y2libGUsIHRoZW4KZW1pdHMgYSBzZXQgb2YgdGVzdCB2ZWN0b3JzIGFzIEpTT04uIFRoZSBKYXZhU2NyaXB0IHBvcnQgKHNyYy9zaWduLmpzKSBpcyBydW4Kd2l0aCB0aGUgc2FtZSBmaXhlZCByYW5kb21uZXNzIGFuZCBtdXN0IHByb2R1Y2UgYnl0ZS1pZGVudGljYWwgb3V0cHV0LgoKVXNhZ2U6CiAgICBQWVRIT05QQVRIPS90bXAveGhzaG93L3NyYyBweXRob24zIG9yYWNsZS5weSA+IHZlY3RvcnMuanNvbgoiIiIKaW1wb3J0IGpzb24KaW1wb3J0IHJhbmRvbQoKIyAtLS0gRm9yY2UgZXZlcnkgcmFuZG9tIGRyYXcgdG8gaXRzIG1pbmltdW0gc28gcmVzdWx0cyBhcmUgcmVwcm9kdWNpYmxlLiAtLS0tLQojIGJ1aWxkX3BheWxvYWRfYXJyYXkgZHJhd3MsIGluIG9yZGVyOgojICAgZ2VuZXJhdGVfcmFuZG9tX2ludCgpICAgICAgICAgICAgLT4gcmFuZGludCgwLCAweEZGRkZGRkZGKSAgID0+IDAKIyAgIGdlbmVyYXRlX3JhbmRvbV9ieXRlX2luX3JhbmdlKCkgIC0+IHJhbmRpbnQoMTAsIDUwKSAgICAgICAgICA9PiAxMCAgKHRpbWUgb2Zmc2V0KQojICAgZ2VuZXJhdGVfcmFuZG9tX2J5dGVfaW5fcmFuZ2UoKSAgLT4gcmFuZGludCgxNSwgNTApICAgICAgICAgID0+IDE1ICAoc2VxdWVuY2UpCiMgICBnZW5lcmF0ZV9yYW5kb21fYnl0ZV9pbl9yYW5nZSgpICAtPiByYW5kaW50KDEwMDAsIDEyMDApICAgICAgPT4gMTAwMCh3aW5kb3cgcHJvcHMpCnJhbmRvbS5yYW5kaW50ID0gbGFtYmRhIGEsIGI6IGEgICMgbm9xYTogRTczMQoKZnJvbSB4aHNob3cgaW1wb3J0IFhoc2hvdyAgIyBub3FhOiBFNDAyCgpjbGllbnQgPSBYaHNob3coKQoKRklYRURfVFMgPSAxNzY0ODk2NjM2LjA4MSAgIyBzZWNvbmRzOyAtPiB4LXQgMTc2NDg5NjYzNjA4MQpBMSA9ICIxOThhYmNkZWYwMTIzNDU2Nzg5ZGVhZGJlZWYwMDExMjIzMzQ0NTU2Njc3IgoKdmVjdG9ycyA9IFtdCgoKZGVmIGFkZChuYW1lLCB2YWx1ZSk6CiAgICB2ZWN0b3JzLmFwcGVuZCh7Im5hbWUiOiBuYW1lLCAidmFsdWUiOiB2YWx1ZX0pCgoKIyAxKSB4LXMgZm9yIGEgR0VUIHdpdGggcGFyYW1zCmFkZCgieHNfZ2V0X2ZlZWQiLCBjbGllbnQuc2lnbl94cygKICAgICJHRVQiLCAiL2FwaS9zbnMvd2ViL3YxL2ZlZWQiLCBBMSwgcGF5bG9hZD17Im51bSI6ICIzMCIsICJpbWFnZV9mb3JtYXRzIjogImpwZyx3ZWJwLGF2aWYifSwKICAgIHRpbWVzdGFtcD1GSVhFRF9UUywKKSkKCiMgMikgeC1zIGZvciBhIEdFVCB3aXRoIG5vIHBhcmFtcwphZGQoInhzX2dldF9ub3BhcmFtcyIsIGNsaWVudC5zaWduX3hzKAogICAgIkdFVCIsICIvYXBpL3Nucy93ZWIvdjIvdXNlci9tZSIsIEExLCBwYXlsb2FkPU5vbmUsIHRpbWVzdGFtcD1GSVhFRF9UUywKKSkKCiMgMykgeC1zIGZvciBhIFBPU1Qgd2l0aCBhIEpTT04gYm9keSAoaG9tZWZlZWQpCmFkZCgieHNfcG9zdF9ob21lZmVlZCIsIGNsaWVudC5zaWduX3hzKAogICAgIlBPU1QiLCAiL2FwaS9zbnMvd2ViL3YxL2hvbWVmZWVkIiwgQTEsCiAgICBwYXlsb2FkPXsiY3Vyc29yX3Njb3JlIjogIiIsICJudW0iOiAyMCwgInJlZnJlc2hfdHlwZSI6IDEsICJub3RlX2luZGV4IjogMCwgImNhdGVnb3J5IjogImhvbWVmZWVkX3JlY29tbWVuZCJ9LAogICAgdGltZXN0YW1wPUZJWEVEX1RTLAopKQoKIyA0KSB4LXMgZm9yIGEgUE9TVCB3aXRoIHVuaWNvZGUgYm9keSAoY29tbWVudCkKYWRkKCJ4c19wb3N0X2NvbW1lbnQiLCBjbGllbnQuc2lnbl94cygKICAgICJQT1NUIiwgIi9hcGkvc25zL3dlYi92MS9jb21tZW50L3Bvc3QiLCBBMSwKICAgIHBheWxvYWQ9eyJub3RlX2lkIjogImFiYzEyMyIsICJjb250ZW50IjogIuS9oOWlveS4lueVjCBoZWxsbyIsICJhdF91c2VycyI6IFtdfSwKICAgIHRpbWVzdGFtcD1GSVhFRF9UUywKKSkKCiMgLS0tIHgtcy1jb21tb24gZGV0ZXJtaW5pc3RpYyBjb3JlIC0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLQpmcm9tIHhoc2hvdy5jb25maWcgaW1wb3J0IENyeXB0b0NvbmZpZyAgICAgICAgICAjIG5vcWE6IEU0MDIKZnJvbSB4aHNob3cuY29yZS5jcmMzMl9lbmNyeXB0IGltcG9ydCBDUkMzMiAgICAgIyBub3FhOiBFNDAyCmZyb20geGhzaG93LmdlbmVyYXRvcnMuZmluZ2VycHJpbnQgaW1wb3J0IEZpbmdlcnByaW50R2VuZXJhdG9yICAjIG5vcWE6IEU0MDIKZnJvbSB4aHNob3cudXRpbHMuZW5jb2RlciBpbXBvcnQgQmFzZTY0RW5jb2RlciAgIyBub3FhOiBFNDAyCgpjZmcgPSBDcnlwdG9Db25maWcoKQplbmMgPSBCYXNlNjRFbmNvZGVyKGNmZykKCiMgZW5jb2RlKCkgb2YgYSBmaXhlZCBzdHJpbmcgKGN1c3RvbS1iYXNlNjQgb2YgdXRmLTgpCmFkZCgiZW5jb2RlX2FzY2lpIiwgZW5jLmVuY29kZSgiaGVsbG8gd29ybGQgMTIzIikpCmFkZCgiZW5jb2RlX3VuaWNvZGUiLCBlbmMuZW5jb2RlKCd7Ing1Ijoi5L2g5aW9IiwieDgiOiJhL2IrYz0ifScpKQoKIyBjcmMzMl9qc19pbnQgKHNpZ25lZCkgb2YgYSBmaXhlZCBzdHJpbmcKYWRkKCJjcmMzMl9oZWxsbyIsIENSQzMyLmNyYzMyX2pzX2ludCgiaGVsbG8gd29ybGQiKSkKYWRkKCJjcmMzMl91bmljb2RlIiwgQ1JDMzIuY3JjMzJfanNfaW50KCLkvaDlpb1hYmMiKSkKCiMgZ2VuZXJhdGVfYjEgb2YgYSBGSVhFRCBmaW5nZXJwcmludCBkaWN0IChSQzQgKyBjdXN0b20tYmFzZTY0KQpmcCA9IHtmInh7aX0iOiAiMCIgZm9yIGkgaW4gcmFuZ2UoMSwgOTApfQpmcC51cGRhdGUoewogICAgIngzMyI6ICIwIiwgIngzNCI6ICIxIiwgIngzNSI6ICIyIiwgIngzNiI6ICIzIiwgIngzNyI6ICJhfGJ8YyIsICJ4MzgiOiAiZHxlIiwKICAgICJ4MzkiOiAwLCAieDQyIjogIjMuNC40IiwgIng0MyI6ICJkZWFkYmVlZmNhZmViYWJlIiwgIng0NCI6ICIxNzY0ODk2NjM2MDgxIiwKICAgICJ4NDUiOiAiX19TRUNfXyIsICJ4NDYiOiAiZmFsc2UiLCAieDQ4IjogIiIsICJ4NDkiOiAie2xpc3Q6W10sdHlwZTp9IiwKICAgICJ4NTAiOiAiIiwgIng1MSI6ICIiLCAieDUyIjogIiIsICJ4ODIiOiAiXzB4MTdhMnxfMHgxOTU0IiwKfSkKZnBnID0gRmluZ2VycHJpbnRHZW5lcmF0b3IoY2ZnKQphZGQoImIxX2ZpeGVkX2ZwIiwgZnBnLmdlbmVyYXRlX2IxKGZwKSkKCiMgZnVsbCB4LXMtY29tbW9uIHdpdGggYSBGSVhFRCBjb29raWUgKyBGSVhFRCBmcC9iMSAocGF0Y2ggZ2VuZXJhdGUgdG8gZml4ZWQgZnApCmZwZ19wYXRjaGVkID0gRmluZ2VycHJpbnRHZW5lcmF0b3IoY2ZnKQpmcGdfcGF0Y2hlZC5nZW5lcmF0ZSA9IGxhbWJkYSBjb29raWVzLCB1c2VyX2FnZW50OiBmcCAgIyB0eXBlOiBpZ25vcmUKZnJvbSB4aHNob3cuY29yZS5jb21tb25fc2lnbiBpbXBvcnQgWHNDb21tb25TaWduZXIgICMgbm9xYTogRTQwMgpzaWduZXIgPSBYc0NvbW1vblNpZ25lcihjZmcpCnNpZ25lci5fZnBfZ2VuZXJhdG9yID0gZnBnX3BhdGNoZWQKYWRkKCJ4c2NvbW1vbl9maXhlZCIsIHNpZ25lci5zaWduKHsiYTEiOiBBMSwgIndlYl9zZXNzaW9uIjogIjA0MDA2OXh5eiJ9KSkKCnByaW50KGpzb24uZHVtcHModmVjdG9ycywgZW5zdXJlX2FzY2lpPUZhbHNlLCBpbmRlbnQ9MikpCg==
+#!/usr/bin/env python3
+"""
+Deterministic reference oracle for the xhshow signing algorithm.
+
+It patches ALL randomness to fixed values so the output is reproducible, then
+emits a set of test vectors as JSON. The JavaScript port (src/sign.js) is run
+with the same fixed randomness and must produce byte-identical output.
+
+Usage:
+    PYTHONPATH=/tmp/xhshow/src python3 oracle.py > vectors.json
+"""
+import json
+import random
+
+# --- Force every random draw to its minimum so results are reproducible. -----
+# build_payload_array draws, in order:
+#   generate_random_int()            -> randint(0, 0xFFFFFFFF)   => 0
+#   generate_random_byte_in_range()  -> randint(10, 50)          => 10  (time offset)
+#   generate_random_byte_in_range()  -> randint(15, 50)          => 15  (sequence)
+#   generate_random_byte_in_range()  -> randint(1000, 1200)      => 1000(window props)
+random.randint = lambda a, b: a  # noqa: E731
+
+from xhshow import Xhshow  # noqa: E402
+
+client = Xhshow()
+
+FIXED_TS = 1764896636.081  # seconds; -> x-t 1764896636081
+A1 = "198abcdef0123456789deadbeef0011223344556677"
+
+vectors = []
+
+
+def add(name, value):
+    vectors.append({"name": name, "value": value})
+
+
+# 1) x-s for a GET with params
+add("xs_get_feed", client.sign_xs(
+    "GET", "/api/sns/web/v1/feed", A1, payload={"num": "30", "image_formats": "jpg,webp,avif"},
+    timestamp=FIXED_TS,
+))
+
+# 2) x-s for a GET with no params
+add("xs_get_noparams", client.sign_xs(
+    "GET", "/api/sns/web/v2/user/me", A1, payload=None, timestamp=FIXED_TS,
+))
+
+# 3) x-s for a POST with a JSON body (homefeed)
+add("xs_post_homefeed", client.sign_xs(
+    "POST", "/api/sns/web/v1/homefeed", A1,
+    payload={"cursor_score": "", "num": 20, "refresh_type": 1, "note_index": 0, "category": "homefeed_recommend"},
+    timestamp=FIXED_TS,
+))
+
+# 4) x-s for a POST with unicode body (comment)
+add("xs_post_comment", client.sign_xs(
+    "POST", "/api/sns/web/v1/comment/post", A1,
+    payload={"note_id": "abc123", "content": "你好世界 hello", "at_users": []},
+    timestamp=FIXED_TS,
+))
+
+# --- x-s-common deterministic core ------------------------------------------
+from xhshow.config import CryptoConfig          # noqa: E402
+from xhshow.core.crc32_encrypt import CRC32     # noqa: E402
+from xhshow.generators.fingerprint import FingerprintGenerator  # noqa: E402
+from xhshow.utils.encoder import Base64Encoder  # noqa: E402
+
+cfg = CryptoConfig()
+enc = Base64Encoder(cfg)
+
+# encode() of a fixed string (custom-base64 of utf-8)
+add("encode_ascii", enc.encode("hello world 123"))
+add("encode_unicode", enc.encode('{"x5":"你好","x8":"a/b+c="}'))
+
+# crc32_js_int (signed) of a fixed string
+add("crc32_hello", CRC32.crc32_js_int("hello world"))
+add("crc32_unicode", CRC32.crc32_js_int("你好abc"))
+
+# generate_b1 of a FIXED fingerprint dict (RC4 + custom-base64)
+fp = {f"x{i}": "0" for i in range(1, 90)}
+fp.update({
+    "x33": "0", "x34": "1", "x35": "2", "x36": "3", "x37": "a|b|c", "x38": "d|e",
+    "x39": 0, "x42": "3.4.4", "x43": "deadbeefcafebabe", "x44": "1764896636081",
+    "x45": "__SEC__", "x46": "false", "x48": "", "x49": "{list:[],type:}",
+    "x50": "", "x51": "", "x52": "", "x82": "_0x17a2|_0x1954",
+})
+fpg = FingerprintGenerator(cfg)
+add("b1_fixed_fp", fpg.generate_b1(fp))
+
+# full x-s-common with a FIXED cookie + FIXED fp/b1 (patch generate to fixed fp)
+fpg_patched = FingerprintGenerator(cfg)
+fpg_patched.generate = lambda cookies, user_agent: fp  # type: ignore
+from xhshow.core.common_sign import XsCommonSigner  # noqa: E402
+signer = XsCommonSigner(cfg)
+signer._fp_generator = fpg_patched
+add("xscommon_fixed", signer.sign({"a1": A1, "web_session": "040069xyz"}))
+
+print(json.dumps(vectors, ensure_ascii=False, indent=2))

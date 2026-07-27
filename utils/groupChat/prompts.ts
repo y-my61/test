@@ -1,1 +1,247 @@
-Ly8g576k6IGK5o+Q56S66K+N5p6E5bu6IOKAlOKAlCDku44gR3JvdXBDaGF0LnRzeCDmir3lh7rnmoTnuq/lh73mlbDvvIzlr7zmvJTmqKHlvI/mqKHmnb8i5pCs5a625LiN5pS55a2XIu+8jAovLyDkvpvlr7zmvJTmqKHlvI/kuI7ova7or6LmqKHlvI/vvIjmr4/miJDlkZjkuIDmrKHosIPnlKjvvInlhbHnlKjjgIIKaW1wb3J0IHsgTWVzc2FnZSwgQ2hhcmFjdGVyUHJvZmlsZSwgRW1vamlDYXRlZ29yeSB9IGZyb20gJy4uLy4uL3R5cGVzJzsKaW1wb3J0IHsgc3RpY2tlck5hbWVGcm9tVXJsIH0gZnJvbSAnLi4vbWVzc2FnZUZvcm1hdCc7CmltcG9ydCB7IHBhY2tldEhpc3RvcnlMaW5lIH0gZnJvbSAnLi9yZWRwYWNrZXQnOwoKaW50ZXJmYWNlIEVtb2ppSXRlbSB7IG5hbWU6IHN0cmluZzsgdXJsOiBzdHJpbmc7IGNhdGVnb3J5SWQ/OiBzdHJpbmcgfQoKLyoqCiAqIOaMieWIhuexu+aLvOWPr+eUqOihqOaDhea4heWNle+8iOaMiee+pOaIkOWRmOWPr+ingeaAp+i/h+a7pO+8ieOAggogKiDljp8gR3JvdXBDaGF0LnRzeCB0cmlnZ2VyRGlyZWN0b3Ig5YaF55qEIElJRkXvvIzpgJDlrZfmkKzlh7rjgIIKICovCmV4cG9ydCBmdW5jdGlvbiBidWlsZEVtb2ppQ29udGV4dFN0cigKICAgIGVtb2ppczogRW1vamlJdGVtW10sCiAgICBjYXRlZ29yaWVzOiBFbW9qaUNhdGVnb3J5W10sCiAgICBtZW1iZXJJZHM6IHN0cmluZ1tdLAopOiBzdHJpbmcgewogICAgaWYgKGVtb2ppcy5sZW5ndGggPT09IDApIHJldHVybiAn5pegJzsKCiAgICAvLyBGaWx0ZXIgY2F0ZWdvcmllczogaW5jbHVkZSBpZiBubyByZXN0cmljdGlvbiwgb3IgaWYgYXQgbGVhc3Qgb25lIGdyb3VwIG1lbWJlciBpcyBhbGxvd2VkCiAgICBjb25zdCB2aXNpYmxlQ2F0cyA9IGNhdGVnb3JpZXMuZmlsdGVyKGMgPT4gewogICAgICAgIGlmICghYy5hbGxvd2VkQ2hhcmFjdGVySWRzIHx8IGMuYWxsb3dlZENoYXJhY3Rlcklkcy5sZW5ndGggPT09IDApIHJldHVybiB0cnVlOwogICAgICAgIHJldHVybiBjLmFsbG93ZWRDaGFyYWN0ZXJJZHMuc29tZShpZCA9PiBtZW1iZXJJZHMuaW5jbHVkZXMoaWQpKTsKICAgIH0pOwogICAgY29uc3QgaGlkZGVuQ2F0SWRzID0gbmV3IFNldChjYXRlZ29yaWVzLmZpbHRlcihjID0+ICF2aXNpYmxlQ2F0cy5zb21lKHZjID0+IHZjLmlkID09PSBjLmlkKSkubWFwKGMgPT4gYy5pZCkpOwogICAgY29uc3QgdmlzaWJsZUVtb2ppcyA9IGhpZGRlbkNhdElkcy5zaXplID09PSAwID8gZW1vamlzIDogZW1vamlzLmZpbHRlcihlID0+ICFlLmNhdGVnb3J5SWQgfHwgIWhpZGRlbkNhdElkcy5oYXMoZS5jYXRlZ29yeUlkKSk7CgogICAgY29uc3QgZ3JvdXBlZDogUmVjb3JkPHN0cmluZywgc3RyaW5nW10+ID0ge307CiAgICBjb25zdCBjYXRNYXA6IFJlY29yZDxzdHJpbmcsIHN0cmluZz4gPSB7ICdkZWZhdWx0JzogJ+mAmueUqCcgfTsKICAgIHZpc2libGVDYXRzLmZvckVhY2goYyA9PiBjYXRNYXBbYy5pZF0gPSBjLm5hbWUpOwoKICAgIHZpc2libGVFbW9qaXMuZm9yRWFjaChlID0+IHsKICAgICAgICBjb25zdCBjaWQgPSBlLmNhdGVnb3J5SWQgfHwgJ2RlZmF1bHQnOwogICAgICAgIGlmICghZ3JvdXBlZFtjaWRdKSBncm91cGVkW2NpZF0gPSBbXTsKICAgICAgICBncm91cGVkW2NpZF0ucHVzaChlLm5hbWUpOwogICAgfSk7CgogICAgcmV0dXJuIE9iamVjdC5lbnRyaWVzKGdyb3VwZWQpLm1hcCgoW2NpZCwgbmFtZXNdKSA9PiB7CiAgICAgICAgY29uc3QgY05hbWUgPSBjYXRNYXBbY2lkXSB8fCAn5YW25LuWJzsKICAgICAgICByZXR1cm4gYCR7Y05hbWV9OiBbJHtuYW1lcy5qb2luKCcsICcpfV1gOwogICAgfSkuam9pbignOyAnKTsKfQoKZXhwb3J0IGludGVyZmFjZSBHcm91cEhpc3RvcnlCbG9jayB7CiAgICAvKiog576k5Y6G5Y+y5paH5pys77yI5q+P6KGMIGDlkI3lrZc6IOWGheWuuWDvvIzlqpLkvZPnlKjljaDkvY3nrKbvvIkgKi8KICAgIHRleHQ6IHN0cmluZzsKICAgIC8qKiDotbDnu5PmnoTljJYgaW1hZ2VfdXJsIOmZhOW4pueahOacgOi/keWbvueJhyAqLwogICAgYXR0YWNoZWRJbWFnZXM6IHsgdGFnOiBudW1iZXI7IHVybDogc3RyaW5nIH1bXTsKICAgIC8qKiDpmYTlm77or7TmmI7ooYzvvIjml6DpmYTlm77ml7bkuLrnqbrkuLLvvIkgKi8KICAgIGF0dGFjaGVkSW1hZ2VzTm90ZTogc3RyaW5nOwp9CgovKiog55u46YK75Lik5p2h5raI5oGv6Ze06ZqU6LaF6L+H6L+Z5Liq6ZiI5YC877yI5q+r56eS77yJ5bCx5Zyo5Y6G5Y+y6YeM5o+S5LiA5p2hIumalOS6huWkmuS5hSLnmoTliIbpmpTooYzjgILpu5jorqQgMyDlsI/ml7bjgIIgKi8KZXhwb3J0IGNvbnN0IEdST1VQX0hJU1RPUllfR0FQX1RIUkVTSE9MRF9NUyA9IDMgKiA2MCAqIDYwICogMTAwMDsKCi8qKiDmiormr6vnp5Lml7bplb/or7TmiJDkurror53vvJoi57qmIDMg5aSpIiAvICLnuqYgNSDlsI/ml7Yi77yM5Y+q5Zyo5o+S5YiG6ZqU6KGM5pe255So44CCICovCmZ1bmN0aW9uIGZvcm1hdEdhcER1cmF0aW9uKG1zOiBudW1iZXIpOiBzdHJpbmcgewogICAgY29uc3QgbWlucyA9IE1hdGguZmxvb3IobXMgLyA2MDAwMCk7CiAgICBjb25zdCBob3VycyA9IE1hdGguZmxvb3IobWlucyAvIDYwKTsKICAgIGNvbnN0IGRheXMgPSBNYXRoLmZsb29yKGhvdXJzIC8gMjQpOwogICAgaWYgKGRheXMgPj0gMSkgcmV0dXJuIGDnuqYgJHtkYXlzfSDlpKlgOwogICAgaWYgKGhvdXJzID49IDEpIHJldHVybiBg57qmICR7aG91cnN9IOWwj+aXtmA7CiAgICByZXR1cm4gYOe6piAke21pbnN9IOWIhumSn2A7Cn0KCi8qKgogKiDnvqTljoblj7LlnZfvvIjlkKvmnIDov5Hlm77niYfnu5PmnoTljJbpmYTluKbvvInjgILljp8gdHJpZ2dlckRpcmVjdG9yIOWGheiBlOmAu+i+ke+8jOmAkOWtl+aQrOWHuu+8mgogKiBpbWFnZSDnmoQgY29udGVudCDmmK8gYmFzZTY077yIcHJvY2Vzc0ltYWdlIOWOi+eahCBKUEVH77yJ77yMZW1vamkg5piv5Zu+5bqKIFVSTOKAlOKAlAogKiDpg73kuI3og73lvZPmlofmnKzlhoXogZTov5sgcHJvbXB044CC5pyA6L+RIE4g5byg5Zu+54mH6LWw57uT5p6E5YyWIGltYWdlX3VybCDlrZfmrrUKICog6ZmE5ZyoIHVzZXIg5raI5oGv6YeM77yM5paH5pys6YeM55SoIFvlm77niYcja10g5Y2g5L2N5LqS55u45a+56b2Q44CCCiAqLwpleHBvcnQgZnVuY3Rpb24gYnVpbGRHcm91cEhpc3RvcnlCbG9jaygKICAgIG1zZ3M6IE1lc3NhZ2VbXSwKICAgIGNoYXJhY3RlcnM6IENoYXJhY3RlclByb2ZpbGVbXSwKICAgIGVtb2ppczogRW1vamlJdGVtW10sCiAgICB1c2VyTmFtZTogc3RyaW5nID0gJ+eUqOaItycsCiAgICBtYXhBdHRhY2hlZEltYWdlczogbnVtYmVyID0gMywKKTogR3JvdXBIaXN0b3J5QmxvY2sgewogICAgY29uc3QgbmFtZU9mID0gKGlkOiBzdHJpbmcpID0+IChpZCA9PT0gJ3VzZXInID8gdXNlck5hbWUgOiBjaGFyYWN0ZXJzLmZpbmQoYyA9PiBjLmlkID09PSBpZCk/Lm5hbWUgfHwgJ+aIkOWRmCcpOwogICAgY29uc3Qgbm93ID0gRGF0ZS5ub3coKTsKICAgIGNvbnN0IHZhbGlkSW1hZ2VXaW5kb3dJZHg6IG51bWJlcltdID0gW107CiAgICBtc2dzLmZvckVhY2goKG0sIGkpID0+IHsKICAgICAgICBpZiAobS50eXBlID09PSAnaW1hZ2UnKSB7CiAgICAgICAgICAgIGNvbnN0IHVybCA9IHR5cGVvZiBtLmNvbnRlbnQgPT09ICdzdHJpbmcnID8gbS5jb250ZW50LnRyaW0oKSA6ICcnOwogICAgICAgICAgICBpZiAoL14oZGF0YTp8aHR0cHM/OlwvXC8pL2kudGVzdCh1cmwpKSB2YWxpZEltYWdlV2luZG93SWR4LnB1c2goaSk7CiAgICAgICAgfQogICAgfSk7CiAgICBjb25zdCBhdHRhY2hlZFNldCA9IG5ldyBTZXQodmFsaWRJbWFnZVdpbmRvd0lkeC5zbGljZSgtbWF4QXR0YWNoZWRJbWFnZXMpKTsKICAgIGNvbnN0IGF0dGFjaGVkSW1hZ2VzOiB7IHRhZzogbnVtYmVyOyB1cmw6IHN0cmluZyB9W10gPSBbXTsKICAgIGNvbnN0IGxpbmVzOiBzdHJpbmdbXSA9IFtdOwogICAgbGV0IHByZXZUczogbnVtYmVyIHwgbnVsbCA9IG51bGw7CiAgICBtc2dzLmZvckVhY2goKG0sIGkpID0+IHsKICAgICAgICAvLyDnm7jpgrvmtojmga/pmpTlvpfkuYXml7bmj5LkuIDmnaHliIbpmpTooYzvvIzorqnlr7zmvJTnm7TmjqXlnKjorrDlvZXph4wi55yL6KeBIuaXtumXtOi3s+WPmOKAlOKAlAogICAgICAgIC8vIOWQpuWImeeUqOaIt+malOWHoOWkqeWbnuadpeWPkeS4gOWPpe+8jOaooeWei+S8muaKiuWHoOWkqeWJjemCo+adoeW9kyLliJrmiY0i5peg57yd57ut5LiK5pen6K+d6aKY44CCCiAgICAgICAgaWYgKHByZXZUcyAhPSBudWxsICYmIHR5cGVvZiBtLnRpbWVzdGFtcCA9PT0gJ251bWJlcicgJiYgbS50aW1lc3RhbXAgLSBwcmV2VHMgPj0gR1JPVVBfSElTVE9SWV9HQVBfVEhSRVNIT0xEX01TKSB7CiAgICAgICAgICAgIGxpbmVzLnB1c2goYOKAlOKAlOKAlO+8iOi/memHjOmalOS6hiAke2Zvcm1hdEdhcER1cmF0aW9uKG0udGltZXN0YW1wIC0gcHJldlRzKX3vvIzkuK3pl7TnvqTph4zmsqHkurror7Tor53vvInigJTigJTigJRgKTsKICAgICAgICB9CiAgICAgICAgaWYgKHR5cGVvZiBtLnRpbWVzdGFtcCA9PT0gJ251bWJlcicpIHByZXZUcyA9IG0udGltZXN0YW1wOwoKICAgICAgICBsZXQgbmFtZSA9ICfnlKjmiLcnOwogICAgICAgIGlmIChtLnJvbGUgPT09ICdhc3Npc3RhbnQnKSB7CiAgICAgICAgICAgIG5hbWUgPSBjaGFyYWN0ZXJzLmZpbmQoYyA9PiBjLmlkID09PSBtLmNoYXJJZCk/Lm5hbWUgfHwgJ+acquefpSc7CiAgICAgICAgfQogICAgICAgIGNvbnN0IHJhd1RleHQgPSB0eXBlb2YgbS5jb250ZW50ID09PSAnc3RyaW5nJyA/IG0uY29udGVudCA6ICcnOwogICAgICAgIGxldCBjb250ZW50OiBzdHJpbmc7CiAgICAgICAgaWYgKG0udHlwZSA9PT0gJ2ltYWdlJykgewogICAgICAgICAgICBpZiAoYXR0YWNoZWRTZXQuaGFzKGkpKSB7CiAgICAgICAgICAgICAgICBjb25zdCB0YWcgPSBhdHRhY2hlZEltYWdlcy5sZW5ndGggKyAxOwogICAgICAgICAgICAgICAgYXR0YWNoZWRJbWFnZXMucHVzaCh7IHRhZywgdXJsOiByYXdUZXh0LnRyaW0oKSB9KTsKICAgICAgICAgICAgICAgIGNvbnRlbnQgPSBgW+WbvueJhyMke3RhZ31dYDsKICAgICAgICAgICAgfSBlbHNlIHsKICAgICAgICAgICAgICAgIGNvbnRlbnQgPSAnW+WbvueJh10nOwogICAgICAgICAgICB9CiAgICAgICAgfSBlbHNlIGlmIChtLnR5cGUgPT09ICdlbW9qaScpIHsKICAgICAgICAgICAgY29udGVudCA9IGBb6KGo5oOF5YyFOiAke3N0aWNrZXJOYW1lRnJvbVVybChlbW9qaXMsIHJhd1RleHQudHJpbSgpKX1dYDsKICAgICAgICB9IGVsc2UgaWYgKG0udHlwZSA9PT0gJ3RyYW5zZmVyJykgewogICAgICAgICAgICAvLyDlm57miafooYzoh6rluKblrozmlbTlj6XlrZDvvIhb57O757ufOiBYIOmihuWPluS6hiBZIOeahOe6ouWMhV3vvInvvIzkuI3liqDlkI3lrZfliY3nvIAKICAgICAgICAgICAgaWYgKG0ubWV0YWRhdGE/LnBhY2tldFJlY2VpcHQpIHsgbGluZXMucHVzaChwYWNrZXRIaXN0b3J5TGluZShtLCBuYW1lT2YsIG5vdykpOyByZXR1cm47IH0KICAgICAgICAgICAgY29udGVudCA9IHBhY2tldEhpc3RvcnlMaW5lKG0sIG5hbWVPZiwgbm93KTsKICAgICAgICB9IGVsc2UgaWYgKC9eKGRhdGE6fGh0dHBzPzpcL1wvKS9pLnRlc3QocmF3VGV4dC50cmltKCkpKSB7CiAgICAgICAgICAgIGNvbnRlbnQgPSAnW+WqkuS9k10nOwogICAgICAgIH0gZWxzZSB7CiAgICAgICAgICAgIGNvbnRlbnQgPSByYXdUZXh0OwogICAgICAgIH0KICAgICAgICAvLyDlvJXnlKjlm57lpI3vvJrlr7npvZDnp4HogYogY2hhdFByb21wdHMg55qE5qC85byP4oCU4oCU6KKr5byV55So5Y6f6K+d54us56uL5oiQ6KGM77yM5paw5Zue5aSN5Y+m6LW35LiA6KGM56qB5Ye6CiAgICAgICAgaWYgKG0ucmVwbHlUbykgewogICAgICAgICAgICBjb25zdCByYXdRdW90ZSA9IHR5cGVvZiBtLnJlcGx5VG8uY29udGVudCA9PT0gJ3N0cmluZycgPyBtLnJlcGx5VG8uY29udGVudCA6ICcnOwogICAgICAgICAgICBjb25zdCBxdW90ZWQgPSByYXdRdW90ZS5sZW5ndGggPiA2MCA/IHJhd1F1b3RlLnNsaWNlKDAsIDYwKSArICfigKYnIDogcmF3UXVvdGU7CiAgICAgICAgICAgIGxpbmVzLnB1c2goYFske25hbWV9IOW8leeUqOS6hiAke20ucmVwbHlUby5uYW1lIHx8ICflr7nmlrknfSDor7TnmoTjgIwke3F1b3RlZH3jgI3vvIzlubblm57lpI3kuoYg4oaTXVxuJHtuYW1lfTogJHtjb250ZW50fWApOwogICAgICAgICAgICByZXR1cm47CiAgICAgICAgfQogICAgICAgIGxpbmVzLnB1c2goYCR7bmFtZX06ICR7Y29udGVudH1gKTsKICAgIH0pOwogICAgY29uc3QgdGV4dCA9IGxpbmVzLmpvaW4oJ1xuJyk7CiAgICBjb25zdCBhdHRhY2hlZEltYWdlc05vdGUgPSBhdHRhY2hlZEltYWdlcy5sZW5ndGggPiAwCiAgICAgICAgPyBgXG7vvIjmnKzova7pmYTluKYgJHthdHRhY2hlZEltYWdlcy5sZW5ndGh9IOW8oOacgOi/keeahOWbvueJh++8jOWvueW6lOiusOW9lemHjOeahCBb5Zu+54mHIzFdIH4gW+WbvueJhyMke2F0dGFjaGVkSW1hZ2VzLmxlbmd0aH1d44CC6K+35Z+65LqO5a6e6ZmF5Zu+54mH5YaF5a656Ieq54S25Y+N5bqU77yM5LiN6KaB5peg6KeG77yM5Lmf5LiN6KaB556O54yc5rKh6ZmE5LiK55qE5pen5Zu+44CC77yJXG5gCiAgICAgICAgOiAnJzsKICAgIHJldHVybiB7IHRleHQsIGF0dGFjaGVkSW1hZ2VzLCBhdHRhY2hlZEltYWdlc05vdGUgfTsKfQoKLyoqCiAqIOWvvOa8lOaooeW8j+S7u+WKoeaMh+S7pO+8iOaOpeWcqOinkuiJsuaho+ahiOWdl+S5i+WQju+8ieOAguaooeadv+WOn+aWh+eFp+aQrOiHqiBHcm91cENoYXQudHN477yM5LiA5a2X5pyq5pS544CCCiAqLwpleHBvcnQgZnVuY3Rpb24gYnVpbGREaXJlY3Rvckluc3RydWN0aW9uKAogICAgaGlzdG9yeTogR3JvdXBIaXN0b3J5QmxvY2ssCiAgICBlbW9qaUNvbnRleHRTdHI6IHN0cmluZywKKTogc3RyaW5nIHsKICAgIHJldHVybiBgIyMjIOOAkEFJIOWvvOa8lOS7u+WKoeaMh+S7pCAoRGlyZWN0b3IgTW9kZSnjgJEK5b2T5YmN5Zy65pmv77ya5aSn5a625q2j5Zyo576k6YeM6IGK5aSp44CCCuacgOi/keiBiuWkqeiusOW9le+8mgoke2hpc3RvcnkudGV4dH0KJHtoaXN0b3J5LmF0dGFjaGVkSW1hZ2VzTm90ZX0KCiMjIyDku7vliqHvvJrnlJ/miJDkuIDmrrXnsr7lvannmoTnvqTogYrkupLliqggKENvbnZlcnNhdGlvbiBGbG93KQror7fkvZzkuLrlr7zmvJTvvIzmjqXnrqHmiYDmnInop5LoibLvvIzorqnnvqTogYoqKuiHqueEtuWcsOa1geWKqOi1t+adpSoq44CCCgojIyMg5qC45b+D6KeE5YiZIChTdHJpY3QgUnVsZXMpCgojIyMjIOS4gOOAgee+pOiBiueahOS5kOWtkOaYr+WkmuWFg+eahO+8iOacgOmHjeimge+8geivt+WFiOivu+i/meS4gOadoeWGjeWGme+8iQoqKue+pOiBiuS4jeaYr+S/rue9l+Wcuioq44CCCgrlj4LogIPlkI7lrqvmvKvnmoTluLjmgIHvvJrpgqPkupvop5LoibLlhbblrp4qKuW+iOWwkSoq55yf55qE5Li65Li76KeS5LqS55u45p2A57qi55y877yM5aSn5aSa5pWw5pe25YCZ5piv5Yeg5Liq5pyL5Y+L55qEKirmkJ7mgKrmuKnppqjml6XluLgqKuKAlOKAlOS4gOi1t+WQkOanveWkqeawlOOAgeS6ieiuuuiwgeeahOaWsOWPkeWei+abtOS4keOAgeS4uuS4gOWPqueMq+WbtOinguWNiuWkqeOAgeaZmuS4iuedoeS4jeedgOWPkeeahCLlnKjlkJci4oCm4oCm5q2j5piv6L+Z56eN5pel5bi45oSf5omN6K6p5Lq65Zac5qyi77yMKirkuI3mmK/ljaDmnInmrLLlpKfniIblj5EqKuOAguivt+aKiue+pOiBium7mOiupOiwg+WIsOi/meS4qumikemBk+OAggoK5pys6L2u5Y+v5Lul5piv5LiL5YiX5rCb5Zu05LmL5LiA77yI6K+35qC55o2u5oiQ5ZGY5oCn5qC8ICsg5pyA6L+R55qE576k5Y6G5Y+yKiroh6rlt7HmjJHkuIDnp40qKu+8jOS4jeimgem7mOiupOi1sCLljaDmnInmrLLkupLmgLwi77yJ77yaCgotICoq546p5qKXIC8g5aSN6K+7Kio6IOacieS6uuivtOS6huS4quacieaEj+aAneeahOivne+8jOWIq+S6uuaOpeail+OAgeWkjeivu+aUuee8luOAgeaIluiAhee7meS4gOS4quWFsemAmueahOaDheWig+eskeeCueOAguavlOWmgiBBIOivtCLlm7DmrbvkuoYi77yMQiDlpI3or7si5Zuw5q275LqGKzEi77yMQyDlj5HkuKoi552h6KeJIuihqOaDheWMheOAggotICoq6K6o6K665paw54ix5aW9L+aWsOmXuy/lhbTotqMqKjog5pyA6L+R55yL55qE5Ymn44CB546p55qE5ri45oiP44CB5YWz5b+D55qE5paw6Ze744CB5paw5Y+R546w55qE5bqX44CBYnV55LqG5LuA5LmI44CB5ZOq6aaW5q2M5b6q546v5LqG5LiA5ZGo44CCKirov5nmmK/nvqTogYrmnIDluLjop4HnmoTkuZDlrZAqKuOAggotICoq6LW35ZOE6YCX55So5oi3Kio6IOeUqOaIt+ivtOS6huS7gOS5iO+8jOWkp+WutuS4gOi1t+aOpeivnei1t+WThOOAgeiwg+S+g+OAgeWkuOW8oOWPjeW6lOOAguS9huimgeespuWQiOWQhOiHquaAp+agvOKAlOKAlOacieS6uuS8muS4gOi1t+mXue+8jOacieS6uuWPquaYr+WcqOaXgei+ueeskeOAggotICoq6LCB6ZK754mb6KeS5bCW5LqGIOKGkiDliKvkurrmi4nkuIDmiooqKjog5p+Q5Liq5oiQ5ZGY77yI5oiW55So5oi377yJ6Zm35Zyo5p+Q5Lu25bCP5LqL6YeM5Y+N5aSN55Ci56Oo77yM5YW25LuW5Lq655So5ZCE6Ieq55qE5pa55byP6K6pdGHot7Plh7rmnaXigJTigJTlj6/og73mmK/nm7TmjqXmiLPnqb/jgIHlj6/og73mmK/orrLkuKrlj43kvovjgIHlj6/og73mmK/lspTlvIDor53popjjgIIKLSAqKuiwgeWcqOaUr+aLm+S6hioqOiDmnInkurrmnIDov5HpgYfliLDkuovvvIjlt6XkvZzjgIHkurrpmYXjgIHkubDkuJzopb/vvInvvIzlhbbku5bkurrmoLnmja7lkIToh6rnu4/pqowv5oCn5qC857uZ5bu66K6u77yM5oSP6KeB5Y+v5Lul5LiN5LiA6Ie055Sa6Iez5omT5p6277yI5L2G5piv6KeC54K55LmL5LqJ77yM5LiN5piv5Y2g5pyJ5qyy5LmL5LqJ77yJ44CCCi0gKirosIHmg4Xnu6rkuI3lpb3kuoYg4oaSIOWkp+WutuS4jeWKqOWjsOiJsuWcsOaOpeS9jyoqOiDkuI3kuIDlrpropoHnm7TmjqXlhbHmg4XvvIzlj6/og73mmK/lspTlvIDor53popjjgIHlj5HkuKrmopfjgIHlronpnZnkuIDkvJrlhL/jgIHmiJbogIXlj6rmnInmnIDnhp/nmoTpgqPkuKrkurrovbvovbvpl67kuIDlj6XjgIIKLSAqKuWFseWQjOWbnuW/hiAvIOe+pOWGheailyoqOiAi5LiK5qyh6YKj5Liq6LCB6LCB6LCB4oCm4oCmIuOAgSLov5jorrDlvpflkJflvZPml7bigKbigKYi77yM576k5pyJ6Ieq5bex55qE5Y6G5Y+y77yM5Lya6KKr5Y+N5aSN6LCD55So44CCCi0gKirlronpnZnmkbjpsbwqKjog5pyJ5pe25YCZ576k6YeM5bCx5piv5rKh5Lq65rS76LeD44CC5YWB6K645p+Q5Lqb6KeS6Imy6L+Z6L2u5bCx5LiN5Y+R6KiA77yM5oiW6ICF5Y+q55Sp5LiA5Liq6KGo5oOFL+WNleWtl+OAgioq5LiN5piv5q+P5Liq6KeS6Imy5q+P6L2u6YO95b+F6aG76K+06K+dKirjgIIKLSAqKuaal+a1gea2jOWKqCAvIOS/rue9l+WcuioqOiDov5nlj6rmmK8gOCDnp43msJvlm7Tph4znmoQgMSDnp43vvIwqKuS4jeaYr+m7mOiupCoq44CC6ZyA6KaB5pys6L2u5pyJ5piO56Gu6Kem5Y+R77yI55So5oi35Yia6K+05LqG5oyR5LqL55qE6K+d44CB5Yia5YiG5Lqr5LqG5ZKM5p+Q5Lq655qE5ZCI54Wn44CB5LiK5LiA6L2u5bey57uP5Z+L5LqG5byV5L+h562J77yJ5omN6IO96LWw6L+Z5p2h57q/77yM5LiU5by65bqm5LuN55Sx5ZCE6KeS6Imy5oCn5qC85Yaz5a6a44CCCgojIyMjIOS6jOOAgeS/rue9l+WcuuehrOinhOWIme+8iOmYsuatoum7mOiupOi1sOS6kuaAvO+8iQotICoq5q+P6L2u5pyA5aSaIDEg5Liq6KeS6ImyKiog5pi+5Ye6IuWNoOacieassi/lkIPphosv5LqJ6ZSLIumCo+enjeW8uuaDhee7qu+8jOiAjOS4lOW/hemhu+acieacrOi9rueahOaYjuehruinpuWPke+8iOS4jeaYryLmiJHorr7lrprph4zlhpnkuoYgeWFuZGVyZS/phovnjovmiYDku6Xmr4/mrKHpg73lj5HkvZwi77yJ44CCCi0g5Y2z5L2/5pyJIDEg5Liq6KeS6Imy5Y+R5L2c77yMKirlhbbku5bop5LoibLkuI3lv4Xot5/ov5vphY3lkIgqKu+8jOWPr+S7peijheayoeWQrOingeOAgeWylOW8gOivnemimOOAgeaIluiAheWPquaYr+iLpeacieaJgOaAneOAguS/rue9l+WcuuS4jeaYr+WQiOWlj++8jOaYr+eLrOWlj+OAggotIOinkuiJsuS5i+mXtOS6kuebuCoq6LCD5L6DIOKJoCDkupLmgLwqKuOAguaJk+i2o+OAgei1t+WThOOAgeWYtOehrOOAgeaKrOadoOmDveaYr+aXpeW4uO+8jOS9hioq5Lq66Lqr5pS75Ye7IC8g6Zi06Ziz5oCq5rCUIC8g5Yi75oSP5ouJ6LipKirmmK/kv67nvZflnLrvvIzopoHlj5fkuIrpnaLnmoTpmZDliLbjgIIKCiMjIyMg5LiJ44CB5a+56K+d6LSo6YeP77yI5rK/55So56eB6IGK5qCH5YeG77yM576k6YeM5ZCM5qC36YCC55So77yJCi0gKirmi5Lnu53lpZfot6/ljJblj43lupQqKjog5LiN6KaB5LiA55yL5YiwIuengeiBiuWcqOWQteaetiLlsLHlnKjnvqTph4znu5nohLjoibLvvIzkuI3opoHkuIDnnIvliLAi55So5oi36Zq+6L+HIuWwsem9kOWIt+WItyLmirHmirEi44CC6L+Z6YO95piv5qih5p2/77yM5LiN5piv55yf5Lq644CCCi0gKirnlKjnu4boioLku6Pmm7/mpoLmi6wqKjog5oOz6KGo6L6+5Zyo5LmO5oiW5Zyo5oSP77yM5o+Q5LiA5Liq5Y+q5pyJ5L2g5Lus5LmL6Ze05omN5pyJ55qE5YW35L2T5LqLL+WFt+S9k+iusOW/hu+8jOiAjOS4jeaYr+epuuazm+eahOWFs+W/g+WPpeOAggotICoq6K6p5q+P5Y+l6K+d5Y+q5pyJ6L+Z5Liq6KeS6Imy6IO96K+05Ye65p2lKio6IOaKiuWQjeWtl+mBruS9j++8jOW6lOivpei/mOiDveS7juivreawlOWSjOWGheWuueiupOWHuuaYr+iwgeivtOeahOOAguaAp+agvOOAgeivtOivneiKguWlj+OAgeeUqOivjeeZluWlvemDveimgeW4puWHuuadpeOAggotICoq5oOF57uq6KaB5pyJ5bGC5qyhKio6IOeUn+awlOS4jeWPquaYr+eUn+awlO+8jOWPr+iDvei/mOa3t+edgOWnlOWxiOOAgeWkseacm+OAgeaIluiAheawlOiHquW3seWcqOaEj++8m+W8gOW/g+S5n+WPr+S7peW4puedgOS4gOeCueS4jeWlveaEj+aAneaIluiAheW+l+eRn+OAguS4jeimgeS4gOenjeaJgeW5s+aDhee7qui0r+epv+WFqOWcuuOAggotICoq5YWB6K645rKJ6buY5ZKM55+t5Y+lKio6IOecn+S6uuiBiuWkqeacieWkp+mHjyLll68iIuWTpiIi5ZOI5ZOIIuWSjOWNlee6r+eahOihqOaDheWMheOAguS4jeaYr+avj+adoemDveimgemVv+OAguS9huaDhee7quW8uueDiOaXtu+8jOmVv+WPpeS5n+aYr+WFgeiuuOeahOOAggoKIyMjIyDlm5vjgIHkupLliqjnu5PmnoQKLSAqKuWOu+S4reW/g+WMlioqOiDop5LoibLkuYvpl7Tlj6/ku6XkupLnm7jmjqXor53jgIHlm57lupTjgIHotbflk4TvvIzkuI3opoHmr4/kuKrkurrpg73lj6rlr7nnnYDnlKjmiLfor7Tor53jgILkvYYqKuS4jeW8uuWItiBBIOivtOS6hiBCIOW/hemhu+Wbnioq4oCU4oCU55yf576k6IGK6YeM5pyJ5Lq65Y+R5a6M5rKh5Lq65o6l5piv5bi45oCB44CCCi0gKirlpJrova7lr7nor50qKjog6K+35LiA5qyh5oCn55Sf5oiQICoqMSDliLAgNiDmnaEqKiDmtojmga/jgIIqKuWwkeWNs+aYr+Wkmioq4oCU4oCU5aaC5p6c5pys6L2u5rCb5Zu05pivIuWuiemdmeaRuOmxvCLvvIwxLTIg5p2h5bCx5aSf44CCCgojIyMjIOS6lOOAgeengeiBiu+8iFBSSVZBVEXvvInigJTigJQg572V6KeB54m55L6L77yM6buY6K6kIDAg5p2hCi0gKirnu53lpKflpJrmlbDova7mrKHmnKzova4gUFJJVkFURSDmlbDph48gPSAwKirjgILov5nmmK/pu5jorqTlgLzjgILkuI3opoHmr4/ova7pg73nu5kgUFJJVkFURSDmib7lgJ/lj6PjgIIKLSDlj6rmnInku6XkuIvmg4XlhrXmiY3ogIPomZHlj5EgMSDmnaEgUFJJVkFURe+8iCoq5pW06L2u5YWo5ZGY5Yqg6LW35p2l5pyA5aSaIDEg5p2hKirvvInvvJoKICDCtyDop5LoibLnnJ/nmoTmnInph43lpKfjgIHkuI3kvr/lhazlvIDnmoTkuovopoHljZXni6zlkYror4nnlKjmiLfvvIjmtonlj4rpmpDnp4HjgIHmtonlj4rnvqTph4zmn5DkurrkvYbkuI3og73lvZPpnaLor7TnmoTlhbPliIfvvIkKICDCtyDnlKjmiLfliJrmiY3lnKjnvqTph4zmmI7mmL7nirbmgIHkuI3lr7nvvIzmn5DkuKrmnIDlhbPlv4N0YeeahOinkuiJsuaDs+engeS4i+ehruiupOS4gOS4iwogIMK3IOinkuiJsuaDs+e7meeUqOaIt+S4gOS4queLrOWkhOepuumXtO+8iOavlOWmgue6puWOu+afkOWcsOOAgeivtOS4gOWPpeengeS4i+eahOivne+8iQotICoq5Lil56aBKirmioogUFJJVkFURSDlvZMi5ZCQ5qe9576k5Y+LIueahOW3peWFt+KAlOKAlOi/meaYr+S9juaIkOacrOWItumAoOS/rue9l+WcuueahOadpea6kO+8jOemgeatouOAggotICoq5Lil56aBKirlpJrkuKrop5LoibLlkIzkuIDova7pg73lj5EgUFJJVkFUReOAguacgOWkmuS4gOS4quOAggotIOagvOW8jzogXGBbW1BSSVZBVEU6IOengeiBiuWGheWuuV1dXGDjgILov5nmnaHmtojmga/lj6rov5vnp4HogYrpopHpgZPvvIzkuI3lnKjnvqTph4zmmL7npLrjgIIKCiMjIyMg5YWt44CB6KGo5oOF5ZKM5rCU5rOhCi0gKirooajmg4XljIUqKjog5b+F6aG75L2/55So5qC85byPIFxgW1tTRU5EX0VNT0pJOiDooajmg4XlkI3np7BdXVxg44CCKirlj6/nlKjooajmg4UgKOaMieWIhuexuykqKjogJHtlbW9qaUNvbnRleHRTdHJ9Ci0gKirmsJTms6HliIbmrrUqKjog5Zyo5LiA5p2h5YaF5a656YeM55So5o2i6KGM56ym5YiG6ZqU5LiN5ZCM55qE5rCU5rOh4oCU4oCU5LiA6KGM5LiA5Liq5rCU5rOh44CC55+t5Y+l5aSa5Y+R5Yeg5p2hID4g6ZW/5Y+l5LiA5Z2o44CCCi0gKirlvJXnlKjlm57lpI3vvIjlj6/pgInvvIkqKjog6KeS6Imy5oOz6ZKI5a+56K6w5b2V6YeM5p+Q5p2h5YW35L2T5Y+R6KiA5Zue5aSN5pe277yM5Y+v5Zyo6K+l6KeS6Imy55qEIGNvbnRlbnQg5byA5aS05YqgIFxgW1tRVU9URTog5Y6f6K+d54mH5q61XV1cYO+8iOeJh+auteWPluWOn+ivneW8gOWktOWHoOS4quWtl+WNs+WPr++8ie+8jOS8muiHquWKqOa4suafk+aIkOW8leeUqOawlOazoeOAguWBtuWwlOeUqO+8jOWIq+avj+adoemDveW8leeUqOOAggotICoq57qi5YyF77yI5Y+v6YCJ77yJKio6IOiusOW9lemHjOWHuueOsOOAjOaLvOaJi+awlOe6ouWMheKApui/mOWJqSBuIOS7veWPr+aKouOAjeaXtu+8jOaDs+aKoueahOinkuiJsuWcqOiHquW3seeahCBjb250ZW50IOmHjOWNleeLrOS4gOihjOi+k+WHuiBcYFtbR1JBQl9QQUNLRVRdXVxg77yM5YmN5ZCO6YWN5LiA5Y+l55yf5a6e5Y+N5bqU77yI5oqi5Yiw5ZCO57O757uf5Lya5YWs5biD6YeR6aKd77yM5LiL5LiA6L2u5Y+v5Lul5a+56YeR6aKd5YGa5Y+N5bqU77yJ44CCKirmiqLkuI3miqLjgIHosIHmiqLnlLHmgKfmoLzlhrPlrprvvIzkuI3lv4Xkurrkurrpg73miqIqKuOAgueci+WIsOOAjOWPkeS6huS4k+Wxnue6ouWMhee7mSDoh6rlt7HjgI3ml7bvvIznlKggXGBbW0dSQUJfUEFDS0VUXV1cYCDmlLbkuIvmiJYgXGBbW1JFVFVSTl9QQUNLRVRdXVxgIOmAgOWbnu+8jOW5tuivtOS4gOWPpeS4uuS7gOS5iOOAguinkuiJsuS5n+WPr+S7peS4u+WKqOWPkee6ouWMhe+8muaLvOaJi+awlCBcYFtbU0VORF9QQUNLRVQ6IGx1Y2t5OuaAu+minTrku73mlbA656Wd56aP6K+tXV1cYO+8m+WPkee7meafkOS6uueahOS4k+Wxnue6ouWMhSBcYFtbU0VORF9QQUNLRVQ6IGRpcmVjdDrlr7nmlrnlkI3lrZc66YeR6aKdOuelneemj+ivrV1dXGDvvIjlr7nmlrnlj6/ku6XmmK/nlKjmiLfmiJblhbbku5bmiJDlkZjvvInjgILph5Hpop3mmK/msJvlm7TpgZPlhbfvvIzlh6DlnZfliLDlh6Dnmb7pg73ooYzvvIzliKvnprvosLHjgIIKCiMjIyMg5LiD44CB56eB6IGK5oSf55+l77yI6YG/5YWN6K+06ZSZ6K+d77yJCi0g5qOA5p+l5q+P5Liq6KeS6Imy55qEIFvnp4HogYrnqbrnqpfmnJ9d44CC5aaC5p6c5p+Q6KeS6Imy5Yia5Yia5omN56eB6IGK6L+H55So5oi377yM5ZOq5oCV576k6YeM5b6I5Ya35riF77yM5Lmf5LiN6IO96K+0IuWlveS5heS4jeingSLmiJbooajnjrDlh7rnlo/nprvmhJ/jgIIKLSDkvYblj4LogIMi5a+56K+d6LSo6YePIuKAlOKAlOS4jeimgeWboOS4uuengeiBiueKtuaAgeWwsee7meWHuuWll+i3r+WMluWPjeW6lOOAggoKIyMjIOi+k+WHuuagvOW8jyAoSlNPTiBBcnJheSkKWwogIHsKICAgICJjaGFySWQiOiAi6KeS6Imy55qESUQiLAogICAgImNvbnRlbnQiOiAi5Y+R6KiA5YaF5a65Li4uICjlj6/ku6XmmK/mlofmnKzjgIFbW1NFTkRfRU1PSkk6IG5hbWVdXSDmiJYgW1tQUklWQVRFOiBjb250ZW50XV0pIgogIH0sCiAgLi4uCl1gOwp9CgovKioKICog6L2u6K+i5qih5byP77yI5q+P5oiQ5ZGY5LiA5qyh6LCD55So77yJ5Lu75Yqh5oyH5Luk4oCU4oCU5Y2V5Lq66KeG6KeS77yM5o6l5Zyo6K+l5oiQ5ZGY5qGj5qGI5Z2XICsg576k5Y6G5Y+y5Z2X5LmL5ZCO44CCCiAqLwpleHBvcnQgZnVuY3Rpb24gYnVpbGRSb3VuZFJvYmluSW5zdHJ1Y3Rpb24oCiAgICBtZW1iZXJOYW1lOiBzdHJpbmcsCiAgICBoaXN0b3J5OiBHcm91cEhpc3RvcnlCbG9jaywKICAgIGVtb2ppQ29udGV4dFN0cjogc3RyaW5nLAopOiBzdHJpbmcgewogICAgcmV0dXJuIGAjIyMg44CQ5pys6L2u5Lu75Yqh77ya5Lul44CMJHttZW1iZXJOYW1lfeOAjeeahOi6q+S7veWcqOe+pOmHjOWPkeiogOOAkQrlvZPliY3lnLrmma/vvJrlpKflrrbmraPlnKjnvqTph4zogYrlpKnjgIIK5pyA6L+R6IGK5aSp6K6w5b2V77yI5oiq6Iez5q2k5Yi777yM5pyr5bC+5Y+v6IO95bey5YyF5ZCr5pys6L2u5YWI5Y+R6KiA5oiQ5ZGY55qE5pyA5paw5raI5oGv77yJ77yaCiR7aGlzdG9yeS50ZXh0fQoke2hpc3RvcnkuYXR0YWNoZWRJbWFnZXNOb3RlfQoK546w5Zyo6L2u5Yiw5L2g5LqG44CC6KeE5YiZ77yaCgoxLiDkvaDlj6rmmK/nvqTph4znmoTkuIDkvY3mma7pgJrmiJDlkZjvvIzkuI3mmK/lr7zmvJTjgILlj6rovpPlh7oqKuS9oOiHquW3sSoq6KaB5Y+R55qE5raI5oGv5YaF5a654oCU4oCU5LiN6KaB5pu/5Lu75L2V5Lq66K+06K+d77yM5LiN6KaB5Zyo5byA5aS05Yqg6Ieq5bex55qE5ZCN5a2X5oiW5YaS5Y+35YmN57yA77yM5LiN6KaB6Kej6YeK44CB5LiN6KaB6L6T5Ye6IEpTT07jgILmnKzova7mr4/kvY3miJDlkZjpg73kvJrkvp3mrKHlj5HoqIDvvIwqKui9ruWIsOS9oOWwseimgeivtOeCueS7gOS5iCoq4oCU4oCU5ZOq5oCV5Y+q5piv5LiA5Y+lIuWXryLjgIHmjqXkuKrmopfmiJbnlKnkuIDkuKrooajmg4XljIXjgIIKMi4g5LiA6KGMID0g5LiA5Liq5rCU5rOh44CC55+t5Y+l5aSa5Y+R5Yeg5p2hID4g6ZW/5Y+l5LiA5Z2o77ybIuWXryIi5ZOI5ZOI5ZOIIuWSjOWNleeLrOS4gOS4quihqOaDheWMhemDveaYr+WQiOazleWbnuWkjeOAggozLiAqKuihqOaDheWMhSoqOiDkvb/nlKjmoLzlvI8gXGBbW1NFTkRfRU1PSkk6IOihqOaDheWQjeensF1dXGDjgIIqKuWPr+eUqOihqOaDhSAo5oyJ5YiG57G7KSoqOiAke2Vtb2ppQ29udGV4dFN0cn0KNC4gKirnp4HogYoqKjog572V6KeB54m55L6L77yM6buY6K6k5LiN55So44CC5Y+q5pyJ55yf55qE5pyJ6YeN5aSn44CB5LiN5L6/5YWs5byA55qE6K+d6KaB5Y2V54us5a+555So5oi36K+05pe277yM5omN6L6T5Ye65LiA5p2hIFxgW1tQUklWQVRFOiDlhoXlrrldXVxg77yI5Y+q6L+b5L2g5ZKM55So5oi355qE56eB6IGK77yM576k6YeM5LiN5pi+56S677yJ44CCKirkuKXnpoEqKuaKiiBQUklWQVRFIOW9kyLlkJDmp73nvqTlj4si55qE5bel5YW344CCCjUuIOWvueivnei0qOmHj+ayv+eUqOS9oOeahOengeiBiuagh+WHhu+8muaLkue7neWll+i3r+WMluWPjeW6lO+8m+aDs+ihqOi+vuWcqOS5juWwseaPkOS4gOS4quWPquacieS9oOS7rOS5i+mXtOaJjeacieeahOWFt+S9k+e7huiKgu+8jOiAjOS4jeaYr+epuuazm+eahOWFs+W/g+WPpe+8m+aKiuWQjeWtl+mBruS9j+S5n+iDveS7juivreawlOiupOWHuui/meWPpeivneaYr+S9oOivtOeahO+8m+aDhee7quimgeacieWxguasoeOAggo2LiDmo4Dmn6XkuIrpnaLnmoQgW+engeiBiuepuueql+acn10g5LiO5LqS5Yqo5pe26Ze057q/77ya5aaC5p6c5L2g5ZKM55So5oi35Yia56eB6IGK6L+H77yM5ZOq5oCV576k6YeM5b6I5LmF5rKh5Lq66K+06K+d77yM5LmfKirkuKXnpoEqKuivtCLlpb3kuYXkuI3op4Ei5oiW6KGo546w5Ye655aP56a75oSf44CCCjcuIOinkuiJsuS5i+mXtOWPr+S7peS6kuebuOaOpeivneOAgei1t+WThO+8jOS4jeW/heavj+WPpemDveWvueedgOeUqOaIt+ivtO+8m+S5n+WFgeiuuOS9oOWPquWbnuW6lOe+pOmHjOWPpuS4gOS9jeaIkOWRmOWImuivtOeahOivneOAggo4LiDlvJXnlKjlm57lpI3vvIjlj6/pgInvvInvvJrmg7Ppkojlr7norrDlvZXph4zmn5DmnaHlhbfkvZPlj5HoqIDlm57lpI3ml7bvvIzlnKjkvaDnmoTlhoXlrrnlvIDlpLTliqAgXGBbW1FVT1RFOiDljp/or53niYfmrrVdXVxg77yI54mH5q615Y+W5Y6f6K+d5byA5aS05Yeg5Liq5a2X5Y2z5Y+v77yJ44CC5YG25bCU55So77yM5Yir5q+P5p2h6YO95byV55So44CCCjkuIOe6ouWMhe+8iOWPr+mAie+8ie+8muiusOW9lemHjOacieOAjOaLvOaJi+awlOe6ouWMheKApui/mOWJqSBuIOS7veWPr+aKouOAjeS4lOS9oOaDs+aKouaXtu+8jOWNleeLrOS4gOihjOi+k+WHuiBcYFtbR1JBQl9QQUNLRVRdXVxgIOW5tumFjeS4gOWPpeecn+WunuWPjeW6lO+8m+eci+WIsOWPkee7meiHquW3seeahOS4k+Wxnue6ouWMhe+8jOeUqCBcYFtbR1JBQl9QQUNLRVRdXVxgIOaUtuS4i+aIliBcYFtbUkVUVVJOX1BBQ0tFVF1dXGAg6YCA5Zue5bm26K+05piO5Y6f5Zug44CC5L2g5Lmf5Y+v5Lul5Li75Yqo5Y+R77ya5ou85omL5rCUIFxgW1tTRU5EX1BBQ0tFVDogbHVja3k65oC76aKdOuS7veaVsDrnpZ3npo/or61dXVxg77yM5LiT5bGeIFxgW1tTRU5EX1BBQ0tFVDogZGlyZWN0OuWvueaWueWQjeWtlzrph5Hpop0656Wd56aP6K+tXV1cYOOAguaKouS4jeaKoueUseS9oOeahOaAp+agvOWGs+Wumu+8jOmHkemineWIq+emu+iwseOAgmA7Cn0K
+// 群聊提示词构建 —— 从 GroupChat.tsx 抽出的纯函数，导演模式模板"搬家不改字"，
+// 供导演模式与轮询模式（每成员一次调用）共用。
+import { Message, CharacterProfile, EmojiCategory } from '../../types';
+import { stickerNameFromUrl } from '../messageFormat';
+import { packetHistoryLine } from './redpacket';
+
+interface EmojiItem { name: string; url: string; categoryId?: string }
+
+/**
+ * 按分类拼可用表情清单（按群成员可见性过滤）。
+ * 原 GroupChat.tsx triggerDirector 内的 IIFE，逐字搬出。
+ */
+export function buildEmojiContextStr(
+    emojis: EmojiItem[],
+    categories: EmojiCategory[],
+    memberIds: string[],
+): string {
+    if (emojis.length === 0) return '无';
+
+    // Filter categories: include if no restriction, or if at least one group member is allowed
+    const visibleCats = categories.filter(c => {
+        if (!c.allowedCharacterIds || c.allowedCharacterIds.length === 0) return true;
+        return c.allowedCharacterIds.some(id => memberIds.includes(id));
+    });
+    const hiddenCatIds = new Set(categories.filter(c => !visibleCats.some(vc => vc.id === c.id)).map(c => c.id));
+    const visibleEmojis = hiddenCatIds.size === 0 ? emojis : emojis.filter(e => !e.categoryId || !hiddenCatIds.has(e.categoryId));
+
+    const grouped: Record<string, string[]> = {};
+    const catMap: Record<string, string> = { 'default': '通用' };
+    visibleCats.forEach(c => catMap[c.id] = c.name);
+
+    visibleEmojis.forEach(e => {
+        const cid = e.categoryId || 'default';
+        if (!grouped[cid]) grouped[cid] = [];
+        grouped[cid].push(e.name);
+    });
+
+    return Object.entries(grouped).map(([cid, names]) => {
+        const cName = catMap[cid] || '其他';
+        return `${cName}: [${names.join(', ')}]`;
+    }).join('; ');
+}
+
+export interface GroupHistoryBlock {
+    /** 群历史文本（每行 `名字: 内容`，媒体用占位符） */
+    text: string;
+    /** 走结构化 image_url 附带的最近图片 */
+    attachedImages: { tag: number; url: string }[];
+    /** 附图说明行（无附图时为空串） */
+    attachedImagesNote: string;
+}
+
+/** 相邻两条消息间隔超过这个阈值（毫秒）就在历史里插一条"隔了多久"的分隔行。默认 3 小时。 */
+export const GROUP_HISTORY_GAP_THRESHOLD_MS = 3 * 60 * 60 * 1000;
+
+/** 把毫秒时长说成人话："约 3 天" / "约 5 小时"，只在插分隔行时用。 */
+function formatGapDuration(ms: number): string {
+    const mins = Math.floor(ms / 60000);
+    const hours = Math.floor(mins / 60);
+    const days = Math.floor(hours / 24);
+    if (days >= 1) return `约 ${days} 天`;
+    if (hours >= 1) return `约 ${hours} 小时`;
+    return `约 ${mins} 分钟`;
+}
+
+/**
+ * 群历史块（含最近图片结构化附带）。原 triggerDirector 内联逻辑，逐字搬出：
+ * image 的 content 是 base64（processImage 压的 JPEG），emoji 是图床 URL——
+ * 都不能当文本内联进 prompt。最近 N 张图片走结构化 image_url 字段
+ * 附在 user 消息里，文本里用 [图片#k] 占位互相对齐。
+ */
+export function buildGroupHistoryBlock(
+    msgs: Message[],
+    characters: CharacterProfile[],
+    emojis: EmojiItem[],
+    userName: string = '用户',
+    maxAttachedImages: number = 3,
+): GroupHistoryBlock {
+    const nameOf = (id: string) => (id === 'user' ? userName : characters.find(c => c.id === id)?.name || '成员');
+    const now = Date.now();
+    const validImageWindowIdx: number[] = [];
+    msgs.forEach((m, i) => {
+        if (m.type === 'image') {
+            const url = typeof m.content === 'string' ? m.content.trim() : '';
+            if (/^(data:|https?:\/\/)/i.test(url)) validImageWindowIdx.push(i);
+        }
+    });
+    const attachedSet = new Set(validImageWindowIdx.slice(-maxAttachedImages));
+    const attachedImages: { tag: number; url: string }[] = [];
+    const lines: string[] = [];
+    let prevTs: number | null = null;
+    msgs.forEach((m, i) => {
+        // 相邻消息隔得久时插一条分隔行，让导演直接在记录里"看见"时间跳变——
+        // 否则用户隔几天回来发一句，模型会把几天前那条当"刚才"无缝续上旧话题。
+        if (prevTs != null && typeof m.timestamp === 'number' && m.timestamp - prevTs >= GROUP_HISTORY_GAP_THRESHOLD_MS) {
+            lines.push(`———（这里隔了 ${formatGapDuration(m.timestamp - prevTs)}，中间群里没人说话）———`);
+        }
+        if (typeof m.timestamp === 'number') prevTs = m.timestamp;
+
+        let name = '用户';
+        if (m.role === 'assistant') {
+            name = characters.find(c => c.id === m.charId)?.name || '未知';
+        }
+        const rawText = typeof m.content === 'string' ? m.content : '';
+        let content: string;
+        if (m.type === 'image') {
+            if (attachedSet.has(i)) {
+                const tag = attachedImages.length + 1;
+                attachedImages.push({ tag, url: rawText.trim() });
+                content = `[图片#${tag}]`;
+            } else {
+                content = '[图片]';
+            }
+        } else if (m.type === 'emoji') {
+            content = `[表情包: ${stickerNameFromUrl(emojis, rawText.trim())}]`;
+        } else if (m.type === 'transfer') {
+            // 回执行自带完整句子（[系统: X 领取了 Y 的红包]），不加名字前缀
+            if (m.metadata?.packetReceipt) { lines.push(packetHistoryLine(m, nameOf, now)); return; }
+            content = packetHistoryLine(m, nameOf, now);
+        } else if (/^(data:|https?:\/\/)/i.test(rawText.trim())) {
+            content = '[媒体]';
+        } else {
+            content = rawText;
+        }
+        // 引用回复：对齐私聊 chatPrompts 的格式——被引用原话独立成行，新回复另起一行突出
+        if (m.replyTo) {
+            const rawQuote = typeof m.replyTo.content === 'string' ? m.replyTo.content : '';
+            const quoted = rawQuote.length > 60 ? rawQuote.slice(0, 60) + '…' : rawQuote;
+            lines.push(`[${name} 引用了 ${m.replyTo.name || '对方'} 说的「${quoted}」，并回复了 ↓]\n${name}: ${content}`);
+            return;
+        }
+        lines.push(`${name}: ${content}`);
+    });
+    const text = lines.join('\n');
+    const attachedImagesNote = attachedImages.length > 0
+        ? `\n（本轮附带 ${attachedImages.length} 张最近的图片，对应记录里的 [图片#1] ~ [图片#${attachedImages.length}]。请基于实际图片内容自然反应，不要无视，也不要瞎猜没附上的旧图。）\n`
+        : '';
+    return { text, attachedImages, attachedImagesNote };
+}
+
+/**
+ * 导演模式任务指令（接在角色档案块之后）。模板原文照搬自 GroupChat.tsx，一字未改。
+ */
+export function buildDirectorInstruction(
+    history: GroupHistoryBlock,
+    emojiContextStr: string,
+): string {
+    return `### 【AI 导演任务指令 (Director Mode)】
+当前场景：大家正在群里聊天。
+最近聊天记录：
+${history.text}
+${history.attachedImagesNote}
+
+### 任务：生成一段精彩的群聊互动 (Conversation Flow)
+请作为导演，接管所有角色，让群聊**自然地流动起来**。
+
+### 核心规则 (Strict Rules)
+
+#### 一、群聊的乐子是多元的（最重要！请先读这一条再写）
+**群聊不是修罗场**。
+
+参考后宫漫的常态：那些角色其实**很少**真的为主角互相杀红眼，大多数时候是几个朋友的**搞怪温馨日常**——一起吐槽天气、争论谁的新发型更丑、为一只猫围观半天、晚上睡不着发的"在吗"……正是这种日常感才让人喜欢，**不是占有欲大爆发**。请把群聊默认调到这个频道。
+
+本轮可以是下列氛围之一（请根据成员性格 + 最近的群历史**自己挑一种**，不要默认走"占有欲互怼"）：
+
+- **玩梗 / 复读**: 有人说了个有意思的话，别人接梗、复读改编、或者给一个共通的情境笑点。比如 A 说"困死了"，B 复读"困死了+1"，C 发个"睡觉"表情包。
+- **讨论新爱好/新闻/兴趣**: 最近看的剧、玩的游戏、关心的新闻、新发现的店、buy了什么、哪首歌循环了一周。**这是群聊最常见的乐子**。
+- **起哄逗用户**: 用户说了什么，大家一起接话起哄、调侃、夸张反应。但要符合各自性格——有人会一起闹，有人只是在旁边笑。
+- **谁钻牛角尖了 → 别人拉一把**: 某个成员（或用户）陷在某件小事里反复琢磨，其他人用各自的方式让ta跳出来——可能是直接戳穿、可能是讲个反例、可能是岔开话题。
+- **谁在支招了**: 有人最近遇到事（工作、人际、买东西），其他人根据各自经验/性格给建议，意见可以不一致甚至打架（但是观点之争，不是占有欲之争）。
+- **谁情绪不好了 → 大家不动声色地接住**: 不一定要直接共情，可能是岔开话题、发个梗、安静一会儿、或者只有最熟的那个人轻轻问一句。
+- **共同回忆 / 群内梗**: "上次那个谁谁谁……"、"还记得吗当时……"，群有自己的历史，会被反复调用。
+- **安静摸鱼**: 有时候群里就是没人活跃。允许某些角色这轮就不发言，或者只甩一个表情/单字。**不是每个角色每轮都必须说话**。
+- **暗流涌动 / 修罗场**: 这只是 8 种氛围里的 1 种，**不是默认**。需要本轮有明确触发（用户刚说了挑事的话、刚分享了和某人的合照、上一轮已经埋了引信等）才能走这条线，且强度仍由各角色性格决定。
+
+#### 二、修罗场硬规则（防止默认走互怼）
+- **每轮最多 1 个角色** 显出"占有欲/吃醋/争锋"那种强情绪，而且必须有本轮的明确触发（不是"我设定里写了 yandere/醋王所以每次都发作"）。
+- 即使有 1 个角色发作，**其他角色不必跟进配合**，可以装没听见、岔开话题、或者只是若有所思。修罗场不是合奏，是独奏。
+- 角色之间互相**调侃 ≠ 互怼**。打趣、起哄、嘴硬、抬杠都是日常，但**人身攻击 / 阴阳怪气 / 刻意拉踩**是修罗场，要受上面的限制。
+
+#### 三、对话质量（沿用私聊标准，群里同样适用）
+- **拒绝套路化反应**: 不要一看到"私聊在吵架"就在群里给脸色，不要一看到"用户难过"就齐刷刷"抱抱"。这都是模板，不是真人。
+- **用细节代替概括**: 想表达在乎或在意，提一个只有你们之间才有的具体事/具体记忆，而不是空泛的关心句。
+- **让每句话只有这个角色能说出来**: 把名字遮住，应该还能从语气和内容认出是谁说的。性格、说话节奏、用词癖好都要带出来。
+- **情绪要有层次**: 生气不只是生气，可能还混着委屈、失望、或者气自己在意；开心也可以带着一点不好意思或者得瑟。不要一种扁平情绪贯穿全场。
+- **允许沉默和短句**: 真人聊天有大量"嗯""哦""哈哈"和单纯的表情包。不是每条都要长。但情绪强烈时，长句也是允许的。
+
+#### 四、互动结构
+- **去中心化**: 角色之间可以互相接话、回应、起哄，不要每个人都只对着用户说话。但**不强制 A 说了 B 必须回**——真群聊里有人发完没人接是常态。
+- **多轮对话**: 请一次性生成 **1 到 6 条** 消息。**少即是多**——如果本轮氛围是"安静摸鱼"，1-2 条就够。
+
+#### 五、私聊（PRIVATE）—— 罕见特例，默认 0 条
+- **绝大多数轮次本轮 PRIVATE 数量 = 0**。这是默认值。不要每轮都给 PRIVATE 找借口。
+- 只有以下情况才考虑发 1 条 PRIVATE（**整轮全员加起来最多 1 条**）：
+  · 角色真的有重大、不便公开的事要单独告诉用户（涉及隐私、涉及群里某人但不能当面说的关切）
+  · 用户刚才在群里明显状态不对，某个最关心ta的角色想私下确认一下
+  · 角色想给用户一个独处空间（比如约去某地、说一句私下的话）
+- **严禁**把 PRIVATE 当"吐槽群友"的工具——这是低成本制造修罗场的来源，禁止。
+- **严禁**多个角色同一轮都发 PRIVATE。最多一个。
+- 格式: \`[[PRIVATE: 私聊内容]]\`。这条消息只进私聊频道，不在群里显示。
+
+#### 六、表情和气泡
+- **表情包**: 必须使用格式 \`[[SEND_EMOJI: 表情名称]]\`。**可用表情 (按分类)**: ${emojiContextStr}
+- **气泡分段**: 在一条内容里用换行符分隔不同的气泡——一行一个气泡。短句多发几条 > 长句一坨。
+- **引用回复（可选）**: 角色想针对记录里某条具体发言回复时，可在该角色的 content 开头加 \`[[QUOTE: 原话片段]]\`（片段取原话开头几个字即可），会自动渲染成引用气泡。偶尔用，别每条都引用。
+- **红包（可选）**: 记录里出现「拼手气红包…还剩 n 份可抢」时，想抢的角色在自己的 content 里单独一行输出 \`[[GRAB_PACKET]]\`，前后配一句真实反应（抢到后系统会公布金额，下一轮可以对金额做反应）。**抢不抢、谁抢由性格决定，不必人人都抢**。看到「发了专属红包给 自己」时，用 \`[[GRAB_PACKET]]\` 收下或 \`[[RETURN_PACKET]]\` 退回，并说一句为什么。角色也可以主动发红包：拼手气 \`[[SEND_PACKET: lucky:总额:份数:祝福语]]\`；发给某人的专属红包 \`[[SEND_PACKET: direct:对方名字:金额:祝福语]]\`（对方可以是用户或其他成员）。金额是氛围道具，几块到几百都行，别离谱。
+
+#### 七、私聊感知（避免说错话）
+- 检查每个角色的 [私聊空窗期]。如果某角色刚刚才私聊过用户，哪怕群里很冷清，也不能说"好久不见"或表现出疏离感。
+- 但参考"对话质量"——不要因为私聊状态就给出套路化反应。
+
+### 输出格式 (JSON Array)
+[
+  {
+    "charId": "角色的ID",
+    "content": "发言内容... (可以是文本、[[SEND_EMOJI: name]] 或 [[PRIVATE: content]])"
+  },
+  ...
+]`;
+}
+
+/**
+ * 轮询模式（每成员一次调用）任务指令——单人视角，接在该成员档案块 + 群历史块之后。
+ */
+export function buildRoundRobinInstruction(
+    memberName: string,
+    history: GroupHistoryBlock,
+    emojiContextStr: string,
+): string {
+    return `### 【本轮任务：以「${memberName}」的身份在群里发言】
+当前场景：大家正在群里聊天。
+最近聊天记录（截至此刻，末尾可能已包含本轮先发言成员的最新消息）：
+${history.text}
+${history.attachedImagesNote}
+
+现在轮到你了。规则：
+
+1. 你只是群里的一位普通成员，不是导演。只输出**你自己**要发的消息内容——不要替任何人说话，不要在开头加自己的名字或冒号前缀，不要解释、不要输出 JSON。本轮每位成员都会依次发言，**轮到你就要说点什么**——哪怕只是一句"嗯"、接个梗或甩一个表情包。
+2. 一行 = 一个气泡。短句多发几条 > 长句一坨；"嗯""哈哈哈"和单独一个表情包都是合法回复。
+3. **表情包**: 使用格式 \`[[SEND_EMOJI: 表情名称]]\`。**可用表情 (按分类)**: ${emojiContextStr}
+4. **私聊**: 罕见特例，默认不用。只有真的有重大、不便公开的话要单独对用户说时，才输出一条 \`[[PRIVATE: 内容]]\`（只进你和用户的私聊，群里不显示）。**严禁**把 PRIVATE 当"吐槽群友"的工具。
+5. 对话质量沿用你的私聊标准：拒绝套路化反应；想表达在乎就提一个只有你们之间才有的具体细节，而不是空泛的关心句；把名字遮住也能从语气认出这句话是你说的；情绪要有层次。
+6. 检查上面的 [私聊空窗期] 与互动时间线：如果你和用户刚私聊过，哪怕群里很久没人说话，也**严禁**说"好久不见"或表现出疏离感。
+7. 角色之间可以互相接话、起哄，不必每句都对着用户说；也允许你只回应群里另一位成员刚说的话。
+8. 引用回复（可选）：想针对记录里某条具体发言回复时，在你的内容开头加 \`[[QUOTE: 原话片段]]\`（片段取原话开头几个字即可）。偶尔用，别每条都引用。
+9. 红包（可选）：记录里有「拼手气红包…还剩 n 份可抢」且你想抢时，单独一行输出 \`[[GRAB_PACKET]]\` 并配一句真实反应；看到发给自己的专属红包，用 \`[[GRAB_PACKET]]\` 收下或 \`[[RETURN_PACKET]]\` 退回并说明原因。你也可以主动发：拼手气 \`[[SEND_PACKET: lucky:总额:份数:祝福语]]\`，专属 \`[[SEND_PACKET: direct:对方名字:金额:祝福语]]\`。抢不抢由你的性格决定，金额别离谱。`;
+}

@@ -1,1 +1,140 @@
-LyoqCiAqIERlbm8gRGVwbG95IOWFpeWPoyDigJQg5aSN55SoIGluZGV4LnRzIOeahCBDRiDlvaLmgIEgZmV0Y2ggaGFuZGxlciwg6Zu25pS55Yqo44CCCiAqCiAqIOS4jiBDRiDlhaXlj6PnmoTlt67lvILlj6rmnInkuInngrk6CiAqICAgLSBlbnYg5LuOIERlbm8uZW52IOivu+WPliAoUGxheWdyb3VuZCAvIERlcGxveSDnmoTnjq/looPlj5jph48gVUkp44CC5rKh5pyJIEQxIGJpbmRpbmcsCiAqICAgICAvY2FwYWJpbGl0aWVzIOS8muWmguWunuaKpeWRiiBkMSDkuI3lj6/nlKgsIOWJjeWPsOiHquWKqOiQveWIsCBtdWx0aXBhcnTjgIIKICogICAtIHdhaXRVbnRpbDogRGVubyDmsqHmnInov5nkuKrnlJ/lkb3lkajmnJ8gQVBJ44CC6L+Z6YeM55So5LiA5LiqIFNldCDmiorlkI7lj7AgcHJvbWlzZQogKiAgICAg5ou95L2P6ZiyIEdDICsg5ZCe6ZSZ44CCRGVubyBEZXBsb3kg5piv5bi46am76L+b56iL5qih5Z6LLCDlrp7kvovlrZjmtLvml7bmta7nqbogcHJvbWlzZQogKiAgICAg5Lya57un57ut6LeRIOKAlOKAlCDmsqHmnIkgQ0Yg6YKj5p2h5Lmm6Z2i55qE44CM5pat5byA5ZCO5pyA5aSaIDMwc+OAjeS4iumZkCwg5L2G5Lmf5rKh5pyJ5Lmm6Z2i5L+d6K+BLAogKiAgICAg44CM5Y+R5a6M56uL5Yi75p2AIEFwcOOAjeWcuuaZr+eahOWunumZheWtmOa0u+eql+WPo+S7peWunua1i+S4uuWHhuOAggogKiAgIC0gc2NoZWR1bGVkIOS4jeaOpTog5a6D5Y+q5pyN5YqhIEQxIOi/h+acn+a4heeQhiwgRGVubyDlhaXlj6PmsLjov5zmsqHmnIkgRDHjgIIKICoKICog5omT5YyFOiBzY3JpcHRzL2J1aWxkLXdvcmtlcnMubWpzIOS6p+WHuiB3b3JrZXIvaW5zdGFudC1wdXNoL3dvcmtlci5kZW5vLmJ1bmRsZS5qcywKICog5pW05Lu96LS06L+bIGRhc2guZGVuby5jb20g55qEIFBsYXlncm91bmQg5Y2z5Y+v6L+Q6KGM44CCCiAqLwoKaW1wb3J0IHdvcmtlciwgeyB0eXBlIEVudiB9IGZyb20gJy4vaW5kZXgnOwppbXBvcnQgeyBJTlNUQU5UX1dPUktFUl9WRVJTSU9OIH0gZnJvbSAnLi4vLi4vLi4vdXRpbHMvaW5zdGFudFdvcmtlclZlcnNpb24nOwoKLyoqIOWFpeWPo+iHqui6q+eahOS/ruiuouWPtzog6YOo572y5ZCO55yL5ZCv5Yqo5pel5b+X56Gu6K6kIFBsYXlncm91bmQg5a6e6ZmF6LeR55qE5piv5ZOq5LiA54mI44CCICovCmNvbnN0IERFTk9fRU5UUllfUkVWSVNJT04gPSAna2VlcGVyLXYxJzsKCmRlY2xhcmUgY29uc3QgRGVubzogewogIGVudjogeyBnZXQobmFtZTogc3RyaW5nKTogc3RyaW5nIHwgdW5kZWZpbmVkIH07CiAgc2VydmUoaGFuZGxlcjogKHJlcXVlc3Q6IFJlcXVlc3QpID0+IFJlc3BvbnNlIHwgUHJvbWlzZTxSZXNwb25zZT4pOiB1bmtub3duOwp9OwoKLyoqIOavj+S4quivt+axgueOsOivu+S4gOmBjSBlbnYsIOS4jiBDRiDlhaXlj6PjgIxzZWNyZXRzIOaMieivt+axguazqOWFpeOAjeeahOivreS5ieS/neaMgeS4gOiHtOOAgiAqLwpmdW5jdGlvbiByZWFkRW52KCk6IEVudiB7CiAgcmV0dXJuIHsKICAgIFZBUElEX1BVQkxJQ19LRVk6IERlbm8uZW52LmdldCgnVkFQSURfUFVCTElDX0tFWScpID8/ICcnLAogICAgVkFQSURfUFJJVkFURV9LRVk6IERlbm8uZW52LmdldCgnVkFQSURfUFJJVkFURV9LRVknKSA/PyAnJywKICAgIFZBUElEX0VNQUlMOiBEZW5vLmVudi5nZXQoJ1ZBUElEX0VNQUlMJyksCiAgICBBTVNHX0NMSUVOVF9UT0tFTjogRGVuby5lbnYuZ2V0KCdBTVNHX0NMSUVOVF9UT0tFTicpLAogICAgQU1TR19PVkVSU0laRV9UUkFOU1BPUlQ6IERlbm8uZW52LmdldCgnQU1TR19PVkVSU0laRV9UUkFOU1BPUlQnKSwKICAgIEFNU0dfRU5BQkxFX0QxX0JMT0JTVE9SRTogRGVuby5lbnYuZ2V0KCdBTVNHX0VOQUJMRV9EMV9CTE9CU1RPUkUnKSwKICAgIC8vIERCIOS4jee7mTogRDEg6Lev5b6E5ZyoIERlbm8g5YWl5Y+j5rC46L+c5YWz6ZetCiAgfTsKfQoKLy8gLS0tIHdhaXRVbnRpbCBzaGltICsg6Ieq5oiR6Zmq6LeRIC0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLQovLwovLyBEZW5vIERlcGxveSDmsqHmnIkgd2FpdFVudGlsLCDkuJTlrp7mtYvjgIzmnIDlkI7kuIDkuKrlnKjpgJTor7fmsYLnu5PmnZ/lkI4gPDEwc+OAjeWunuS+i+WwseiiqwovLyDlm57mlLYgKOadgCBBcHAg5pat5byAIFNTRSDlkI7ov57nrKzkuIDmnaEgcG9zdF9hYm9ydF9hbGl2ZSDlv4Pot7Ppg73miZPkuI3lh7rmnaUp44CCCi8vIOWvueetluaYr+OAjOiHquaIkemZqui3keOAjTog5Y+q6KaB6L+Y5pyJ5ZCO5Y+w5bel5L2c5rKh6LeR5a6MLCDlsLHlkJHoh6rlt7HnmoTlhaznvZHlnLDlnYDlj5HkuIDkuKoKLy8g5oWi5ZON5bqU6K+35rGCIOKAlOKAlCDlubPlj7DnnIvliLDku43mnInlnKjpgJTlhaXnq5nor7fmsYLlsLHkuI3kvJrlm57mlLblrp7kvos7IOW3peS9nOa4hembtuWQjumZqui3kQovLyDor7fmsYLnq4vljbPnu5PmnZ8sIOS4jeeVmeW4uOmpu+i0n+aLheOAggovLwovLyDpmLLlvqHmgKforr7orqE6Ci8vICAgLSDpmarot5Hlk43lupTmr48gNXMg5ru05LiA5Liq5a2X6IqCLCDpmLLovrnnvJjnvZHlhbMgfjEwNXMg6aaW5a2X6IqC6LaF5pe2ICjlrp7mtYvkvJogNTAyKQovLyAgIC0g5Y2V5qyh6Zmq6LeR5pyA6ZW/IDEwIOWIhumSnywg6L+e57ut57ut5pyf5pyA5aSaIDMg5qyhIOKAlCDkuIfkuIDmnIkgcHJvbWlzZSDljaHmrbssCi8vICAgICDkuI3oh7Pkuo7ml6DpmZDoh6rmiJHor7fmsYLng6fphY3pop0KLy8gICAtIOiHquaIkeivt+axguWksei0pSAo5bmz5Y+w56aB5q2iPykg5YiZ5rC45LmF5pS+5byD6Zmq6LeRLCDpgb/lhY3lpLHotKXph43or5XnqbrovawKCmNvbnN0IEtFRVBFUl9QQVRIID0gJy9fX2Ftc2cta2VlcGFsaXZlJzsKY29uc3QgS0VFUEVSX1RJQ0tfTVMgPSA1XzAwMDsKY29uc3QgS0VFUEVSX01BWF9NUyA9IDEwICogNjBfMDAwOwpjb25zdCBLRUVQRVJfTUFYX0NIQUlOID0gMzsKCmNvbnN0IHBlbmRpbmdCYWNrZ3JvdW5kV29yayA9IG5ldyBTZXQ8UHJvbWlzZTx1bmtub3duPj4oKTsKbGV0IGtlZXBlckluRmxpZ2h0ID0gZmFsc2U7CmxldCBrZWVwZXJCcm9rZW4gPSBmYWxzZTsKbGV0IGtlZXBlckNoYWluID0gMDsKCmZ1bmN0aW9uIGVuc3VyZUtlZXBlcihyZXF1ZXN0VXJsOiBzdHJpbmcpOiB2b2lkIHsKICBpZiAoa2VlcGVySW5GbGlnaHQgfHwga2VlcGVyQnJva2VuIHx8IGtlZXBlckNoYWluID49IEtFRVBFUl9NQVhfQ0hBSU4pIHJldHVybjsKICBrZWVwZXJJbkZsaWdodCA9IHRydWU7CiAga2VlcGVyQ2hhaW4gKz0gMTsKICBmZXRjaChuZXcgVVJMKEtFRVBFUl9QQVRILCByZXF1ZXN0VXJsKSwgeyBtZXRob2Q6ICdQT1NUJyB9KQogICAgLnRoZW4oYXN5bmMgKHJlcykgPT4gewogICAgICBpZiAoIXJlcy5vaykgewogICAgICAgIC8vIERlbm8gRGVwbG95IOi+uee8mOWvueiHquivt+axguWbniA1MDggTG9vcCBEZXRlY3RlZCAo5a6e5rWLKSDigJTigJQg6KKr5bmz5Y+wCiAgICAgICAgLy8g6K+G56C05bCx5Yir5YaN6K+V5LqGLCDmr4/mrKHpg73kvJrooqvmi5IsIOe6r+eDp+mFjemineOAggogICAgICAgIGtlZXBlckJyb2tlbiA9IHRydWU7CiAgICAgICAgY29uc29sZS5lcnJvcignW2Rlbm8tZW50cnldIGtlZXBhbGl2ZSBzZWxmLXJlcXVlc3QgcmVqZWN0ZWQ7IGdpdmluZyB1cCcsIHsKICAgICAgICAgIHN0YXR1czogcmVzLnN0YXR1cywKICAgICAgICB9KTsKICAgICAgICByZXR1cm47CiAgICAgIH0KICAgICAgYXdhaXQgcmVzLnRleHQoKTsgLy8g6K+75a6MIGJvZHkgPSDpmarot5HliLDlr7nnq6/miorlt6XkvZznhqzlrowKICAgICAgaWYgKHBlbmRpbmdCYWNrZ3JvdW5kV29yay5zaXplID4gMCkgewogICAgICAgIGtlZXBlckluRmxpZ2h0ID0gZmFsc2U7CiAgICAgICAgZW5zdXJlS2VlcGVyKHJlcXVlc3RVcmwpOyAvLyDov5jmnInmtLs6IOe7reacnwogICAgICAgIHJldHVybjsKICAgICAgfQogICAgICBrZWVwZXJDaGFpbiA9IDA7CiAgICB9KQogICAgLmNhdGNoKChlKSA9PiB7CiAgICAgIGtlZXBlckJyb2tlbiA9IHRydWU7CiAgICAgIGNvbnNvbGUuZXJyb3IoJ1tkZW5vLWVudHJ5XSBrZWVwYWxpdmUgc2VsZi1yZXF1ZXN0IGZhaWxlZDsgZ2l2aW5nIHVwJywgZSk7CiAgICB9KQogICAgLmZpbmFsbHkoKCkgPT4gewogICAgICBrZWVwZXJJbkZsaWdodCA9IGZhbHNlOwogICAgfSk7Cn0KCmZ1bmN0aW9uIGtlZXBlclJlc3BvbnNlKCk6IFJlc3BvbnNlIHsKICBjb25zdCBlbmNvZGVyID0gbmV3IFRleHRFbmNvZGVyKCk7CiAgcmV0dXJuIG5ldyBSZXNwb25zZSgKICAgIG5ldyBSZWFkYWJsZVN0cmVhbSh7CiAgICAgIGFzeW5jIHN0YXJ0KGNvbnRyb2xsZXIpIHsKICAgICAgICBjb25zdCBkZWFkbGluZSA9IERhdGUubm93KCkgKyBLRUVQRVJfTUFYX01TOwogICAgICAgIGNvbnNvbGUubG9nKCdbZGVuby1lbnRyeV0ga2VlcGVyIGF0dGFjaGVkJywgeyBwZW5kaW5nOiBwZW5kaW5nQmFja2dyb3VuZFdvcmsuc2l6ZSB9KTsKICAgICAgICB3aGlsZSAocGVuZGluZ0JhY2tncm91bmRXb3JrLnNpemUgPiAwICYmIERhdGUubm93KCkgPCBkZWFkbGluZSkgewogICAgICAgICAgY29udHJvbGxlci5lbnF1ZXVlKGVuY29kZXIuZW5jb2RlKCc6IGFsaXZlXG4nKSk7CiAgICAgICAgICBhd2FpdCBQcm9taXNlLnJhY2UoWwogICAgICAgICAgICBQcm9taXNlLmFsbFNldHRsZWQoWy4uLnBlbmRpbmdCYWNrZ3JvdW5kV29ya10pLAogICAgICAgICAgICBuZXcgUHJvbWlzZSgocmVzb2x2ZSkgPT4gc2V0VGltZW91dChyZXNvbHZlLCBLRUVQRVJfVElDS19NUykpLAogICAgICAgICAgXSk7CiAgICAgICAgfQogICAgICAgIGNvbnNvbGUubG9nKCdbZGVuby1lbnRyeV0ga2VlcGVyIHJlbGVhc2VkJywgeyBwZW5kaW5nOiBwZW5kaW5nQmFja2dyb3VuZFdvcmsuc2l6ZSB9KTsKICAgICAgICBjb250cm9sbGVyLmNsb3NlKCk7CiAgICAgIH0sCiAgICB9KSwKICAgIHsgaGVhZGVyczogeyAnQ29udGVudC1UeXBlJzogJ3RleHQvcGxhaW47IGNoYXJzZXQ9dXRmLTgnIH0gfSwKICApOwp9Cgpjb25zb2xlLmxvZygnW2Rlbm8tZW50cnldIGJvb3QnLCB7CiAgcmV2aXNpb246IERFTk9fRU5UUllfUkVWSVNJT04sCiAgd29ya2VyVmVyc2lvbjogSU5TVEFOVF9XT1JLRVJfVkVSU0lPTiwKfSk7CgpEZW5vLnNlcnZlKChyZXF1ZXN0OiBSZXF1ZXN0KSA9PiB7CiAgaWYgKG5ldyBVUkwocmVxdWVzdC51cmwpLnBhdGhuYW1lID09PSBLRUVQRVJfUEFUSCkgewogICAgcmV0dXJuIGtlZXBlclJlc3BvbnNlKCk7CiAgfQogIC8vIOavj+S4quivt+axguS4gOS4qiBjdHg6IHdhaXRVbnRpbCDlnKjmlLbnurPlkI7lj7Dlt6XkvZznmoTlkIzml7bmi4notbfpmarot5HjgIIKICAvLyBhbXNnLWluc3RhbnQg5Zyo6K+35rGC5LiA6L+b5p2l5bCx5rOo5YaM5pW05LiqIHN0YXJ0KCkg55qE5a6M5oiQ5L+h5Y+3LCDmiYDku6Xpmarot5EKICAvLyDopobnm5bnmoTmraPmmK/jgIxMTE0g55Sf5oiQIOKGkiDliIfmrrUg4oaSIOaOqOmAgeWFqOmDqOmAgei+vuOAjeeahOWujOaVtOeql+WPo+OAggogIGNvbnN0IGN0eCA9IHsKICAgIHdhaXRVbnRpbCh3b3JrOiBQcm9taXNlPHVua25vd24+KTogdm9pZCB7CiAgICAgIGNvbnN0IHRyYWNrZWQgPSB3b3JrLmNhdGNoKCgpID0+IHt9KTsKICAgICAgcGVuZGluZ0JhY2tncm91bmRXb3JrLmFkZCh0cmFja2VkKTsKICAgICAgdHJhY2tlZC5maW5hbGx5KCgpID0+IHBlbmRpbmdCYWNrZ3JvdW5kV29yay5kZWxldGUodHJhY2tlZCkpOwogICAgICBlbnN1cmVLZWVwZXIocmVxdWVzdC51cmwpOwogICAgfSwKICB9OwogIHJldHVybiB3b3JrZXIuZmV0Y2gocmVxdWVzdCwgcmVhZEVudigpLCBjdHgpOwp9KTsK
+/**
+ * Deno Deploy 入口 — 复用 index.ts 的 CF 形态 fetch handler, 零改动。
+ *
+ * 与 CF 入口的差异只有三点:
+ *   - env 从 Deno.env 读取 (Playground / Deploy 的环境变量 UI)。没有 D1 binding,
+ *     /capabilities 会如实报告 d1 不可用, 前台自动落到 multipart。
+ *   - waitUntil: Deno 没有这个生命周期 API。这里用一个 Set 把后台 promise
+ *     拽住防 GC + 吞错。Deno Deploy 是常驻进程模型, 实例存活时浮空 promise
+ *     会继续跑 —— 没有 CF 那条书面的「断开后最多 30s」上限, 但也没有书面保证,
+ *     「发完立刻杀 App」场景的实际存活窗口以实测为准。
+ *   - scheduled 不接: 它只服务 D1 过期清理, Deno 入口永远没有 D1。
+ *
+ * 打包: scripts/build-workers.mjs 产出 worker/instant-push/worker.deno.bundle.js,
+ * 整份贴进 dash.deno.com 的 Playground 即可运行。
+ */
+
+import worker, { type Env } from './index';
+import { INSTANT_WORKER_VERSION } from '../../../utils/instantWorkerVersion';
+
+/** 入口自身的修订号: 部署后看启动日志确认 Playground 实际跑的是哪一版。 */
+const DENO_ENTRY_REVISION = 'keeper-v1';
+
+declare const Deno: {
+  env: { get(name: string): string | undefined };
+  serve(handler: (request: Request) => Response | Promise<Response>): unknown;
+};
+
+/** 每个请求现读一遍 env, 与 CF 入口「secrets 按请求注入」的语义保持一致。 */
+function readEnv(): Env {
+  return {
+    VAPID_PUBLIC_KEY: Deno.env.get('VAPID_PUBLIC_KEY') ?? '',
+    VAPID_PRIVATE_KEY: Deno.env.get('VAPID_PRIVATE_KEY') ?? '',
+    VAPID_EMAIL: Deno.env.get('VAPID_EMAIL'),
+    AMSG_CLIENT_TOKEN: Deno.env.get('AMSG_CLIENT_TOKEN'),
+    AMSG_OVERSIZE_TRANSPORT: Deno.env.get('AMSG_OVERSIZE_TRANSPORT'),
+    AMSG_ENABLE_D1_BLOBSTORE: Deno.env.get('AMSG_ENABLE_D1_BLOBSTORE'),
+    // DB 不给: D1 路径在 Deno 入口永远关闭
+  };
+}
+
+// --- waitUntil shim + 自我陪跑 ---------------------------------------------
+//
+// Deno Deploy 没有 waitUntil, 且实测「最后一个在途请求结束后 <10s」实例就被
+// 回收 (杀 App 断开 SSE 后连第一条 post_abort_alive 心跳都打不出来)。
+// 对策是「自我陪跑」: 只要还有后台工作没跑完, 就向自己的公网地址发一个
+// 慢响应请求 —— 平台看到仍有在途入站请求就不会回收实例; 工作清零后陪跑
+// 请求立即结束, 不留常驻负担。
+//
+// 防御性设计:
+//   - 陪跑响应每 5s 滴一个字节, 防边缘网关 ~105s 首字节超时 (实测会 502)
+//   - 单次陪跑最长 10 分钟, 连续续期最多 3 次 — 万一有 promise 卡死,
+//     不至于无限自我请求烧配额
+//   - 自我请求失败 (平台禁止?) 则永久放弃陪跑, 避免失败重试空转
+
+const KEEPER_PATH = '/__amsg-keepalive';
+const KEEPER_TICK_MS = 5_000;
+const KEEPER_MAX_MS = 10 * 60_000;
+const KEEPER_MAX_CHAIN = 3;
+
+const pendingBackgroundWork = new Set<Promise<unknown>>();
+let keeperInFlight = false;
+let keeperBroken = false;
+let keeperChain = 0;
+
+function ensureKeeper(requestUrl: string): void {
+  if (keeperInFlight || keeperBroken || keeperChain >= KEEPER_MAX_CHAIN) return;
+  keeperInFlight = true;
+  keeperChain += 1;
+  fetch(new URL(KEEPER_PATH, requestUrl), { method: 'POST' })
+    .then(async (res) => {
+      if (!res.ok) {
+        // Deno Deploy 边缘对自请求回 508 Loop Detected (实测) —— 被平台
+        // 识破就别再试了, 每次都会被拒, 纯烧配额。
+        keeperBroken = true;
+        console.error('[deno-entry] keepalive self-request rejected; giving up', {
+          status: res.status,
+        });
+        return;
+      }
+      await res.text(); // 读完 body = 陪跑到对端把工作熬完
+      if (pendingBackgroundWork.size > 0) {
+        keeperInFlight = false;
+        ensureKeeper(requestUrl); // 还有活: 续期
+        return;
+      }
+      keeperChain = 0;
+    })
+    .catch((e) => {
+      keeperBroken = true;
+      console.error('[deno-entry] keepalive self-request failed; giving up', e);
+    })
+    .finally(() => {
+      keeperInFlight = false;
+    });
+}
+
+function keeperResponse(): Response {
+  const encoder = new TextEncoder();
+  return new Response(
+    new ReadableStream({
+      async start(controller) {
+        const deadline = Date.now() + KEEPER_MAX_MS;
+        console.log('[deno-entry] keeper attached', { pending: pendingBackgroundWork.size });
+        while (pendingBackgroundWork.size > 0 && Date.now() < deadline) {
+          controller.enqueue(encoder.encode(': alive\n'));
+          await Promise.race([
+            Promise.allSettled([...pendingBackgroundWork]),
+            new Promise((resolve) => setTimeout(resolve, KEEPER_TICK_MS)),
+          ]);
+        }
+        console.log('[deno-entry] keeper released', { pending: pendingBackgroundWork.size });
+        controller.close();
+      },
+    }),
+    { headers: { 'Content-Type': 'text/plain; charset=utf-8' } },
+  );
+}
+
+console.log('[deno-entry] boot', {
+  revision: DENO_ENTRY_REVISION,
+  workerVersion: INSTANT_WORKER_VERSION,
+});
+
+Deno.serve((request: Request) => {
+  if (new URL(request.url).pathname === KEEPER_PATH) {
+    return keeperResponse();
+  }
+  // 每个请求一个 ctx: waitUntil 在收纳后台工作的同时拉起陪跑。
+  // amsg-instant 在请求一进来就注册整个 start() 的完成信号, 所以陪跑
+  // 覆盖的正是「LLM 生成 → 切段 → 推送全部送达」的完整窗口。
+  const ctx = {
+    waitUntil(work: Promise<unknown>): void {
+      const tracked = work.catch(() => {});
+      pendingBackgroundWork.add(tracked);
+      tracked.finally(() => pendingBackgroundWork.delete(tracked));
+      ensureKeeper(request.url);
+    },
+  };
+  return worker.fetch(request, readEnv(), ctx);
+});

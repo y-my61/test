@@ -1,1 +1,194 @@
-LyoqCiAqIOW9vOaWueiZmuaLn+mCruWxgCDCtyDlrqLmiLfnq68gQVBJCiAqCiAqIOWvueaOpeOAkOaJgOacieeUqOaIt+WFseeUqOOAkeeahOWQjuerr++8iOm7mOiupCBodHRwczovL25vaXIyLmNjLmNkL3Bv77yJ44CCCiAqIOWMv+WQje+8muacrOWcsOS4gOS4qumaj+acuiBkZXZpY2VJZO+8jOaXoOeZu+W9leaXoCBQSUnjgIIKICovCgpjb25zdCBERUZBVUxUX0JBU0UgPSAnaHR0cHM6Ly9ub2lyMi5jYy5jZC9wbyc7CmNvbnN0IEJBU0VfS0VZID0gJ3ZyX3BvX2Jhc2UnOwpjb25zdCBERVZJQ0VfS0VZID0gJ3ZyX3BvX2RldmljZSc7CgovKiog5Y2V5bCB5q2j5paH5a2X5pWw5LiK6ZmQ77yI5oyJ5a2X56ym77yaMSDmsYnlrZcv5qCH54K5ID0gMSDlrZfvvInjgIJVSSDovpPlhaXmoYblj6/nlKjlroPlgZrpmZDliLbmj5DnpLrjgIIgKi8KZXhwb3J0IGNvbnN0IE1BWF9MRVRURVJfQ0hBUlMgPSA0MDA7Ci8qKiDmjInlrZfnrKbmiKrmlq3liLDkuIrpmZDvvIjlhZzlupXvvJvlkI7nq6/kuZ/kvJrlho3miKrkuIDmrKHvvIkgKi8KY29uc3QgY2xpcENvbnRlbnQgPSAoczogc3RyaW5nKTogc3RyaW5nID0+IFsuLi4ocyB8fCAnJyldLnNsaWNlKDAsIE1BWF9MRVRURVJfQ0hBUlMpLmpvaW4oJycpOwoKZXhwb3J0IGNvbnN0IGdldFBvc3RPZmZpY2VCYXNlID0gKCk6IHN0cmluZyA9PiB7CiAgICB0cnkgeyByZXR1cm4gKGxvY2FsU3RvcmFnZS5nZXRJdGVtKEJBU0VfS0VZKSB8fCBERUZBVUxUX0JBU0UpLnJlcGxhY2UoL1wvKyQvLCAnJyk7IH0KICAgIGNhdGNoIHsgcmV0dXJuIERFRkFVTFRfQkFTRTsgfQp9OwpleHBvcnQgY29uc3Qgc2V0UG9zdE9mZmljZUJhc2UgPSAodXJsOiBzdHJpbmcpID0+IHsKICAgIHRyeSB7IHVybC50cmltKCkgPyBsb2NhbFN0b3JhZ2Uuc2V0SXRlbShCQVNFX0tFWSwgdXJsLnRyaW0oKSkgOiBsb2NhbFN0b3JhZ2UucmVtb3ZlSXRlbShCQVNFX0tFWSk7IH0gY2F0Y2ggeyAvKiBpZ25vcmUgKi8gfQp9OwoKZXhwb3J0IGNvbnN0IGdldERldmljZUlkID0gKCk6IHN0cmluZyA9PiB7CiAgICB0cnkgewogICAgICAgIGxldCBpZCA9IGxvY2FsU3RvcmFnZS5nZXRJdGVtKERFVklDRV9LRVkpOwogICAgICAgIGlmICghaWQpIHsKICAgICAgICAgICAgaWQgPSAoZ2xvYmFsVGhpcy5jcnlwdG8/LnJhbmRvbVVVSUQ/LigpIHx8IGBkZXYtJHtEYXRlLm5vdygpfS0ke01hdGgucmFuZG9tKCkudG9TdHJpbmcoMzYpLnNsaWNlKDIpfWApOwogICAgICAgICAgICBsb2NhbFN0b3JhZ2Uuc2V0SXRlbShERVZJQ0VfS0VZLCBpZCk7CiAgICAgICAgfQogICAgICAgIHJldHVybiBpZDsKICAgIH0gY2F0Y2ggewogICAgICAgIHJldHVybiAnZGV2LWFub255bW91cyc7CiAgICB9Cn07CgovKioKICog56yU5ZCN6ams6LWb5YWL77ya5a+E5L+hL+WbnuS/oeaXtuaKiuecn+WunuinkuiJsuWQjeaNouaIkOS4gOS4queos+WumueahOWMv+WQjeeslOWQjeOAggogKiDlkIzlkI0g4oaSIOWQjOeslOWQje+8iOS+v+S6juWkmuasoeW+gOadpeeahOi/nue7reaEn++8ie+8jOS9huWciOWtkOmHjOeahOS6uueci+S4jeWHuuaYr+iwgeOAggogKi8KY29uc3QgUEVOX1BPT0wgPSBbCiAgICAn5bGx6ZuAJywgJ+a4oeWPoycsICflpJzoiKroiLknLCAn5YyX57qs5Lul5YyXJywgJ+iLlOeXlScsICflgZzmkYbnmoTpkp8nLCAn5pyq5a+E5Ye6JywgJ+i/nOa0i+adpeS/oScsCiAgICAn5ou+5YWJJywgJ+aip+ahkOW3t+WPoycsICfljYHkuIDmnIgnLCAn5pen6Ii556WoJywgJ+iWhOmbvicsICfkv6HlpKnnv4EnLCAn56m655O2JywgJ+mAhuaXhScsCiAgICAn5qqQ5LiL6ZuoJywgJ+aXoOS6uuWymycsICflm57lo7AnLCAn6I2J5Z6bJywgJ+acq+ePrei9picsICfmva7msZDooagnLCAn6J2J6JyVJywgJ+aYn+Wbvui+ueinkicsCl07CmV4cG9ydCBmdW5jdGlvbiBtYXNrUGVuKG5hbWU6IHN0cmluZyk6IHN0cmluZyB7CiAgICBjb25zdCBuID0gKG5hbWUgfHwgJycpLnRyaW0oKTsKICAgIGlmICghbikgcmV0dXJuICfljL/lkI3ml4XkuronOwogICAgbGV0IGggPSAwOwogICAgZm9yIChsZXQgaSA9IDA7IGkgPCBuLmxlbmd0aDsgaSsrKSBoID0gKGggKiAzMSArIG4uY2hhckNvZGVBdChpKSkgPj4+IDA7CiAgICByZXR1cm4gUEVOX1BPT0xbaCAlIFBFTl9QT09MLmxlbmd0aF07Cn0KCmV4cG9ydCBpbnRlcmZhY2UgUmVtb3RlTGV0dGVyIHsKICAgIGlkOiBzdHJpbmc7IHBlbjogc3RyaW5nOyBjb250ZW50OiBzdHJpbmc7IGNyZWF0ZWRfYXQ6IG51bWJlcjsKICAgIGxpa2VzPzogbnVtYmVyOyBkaXNsaWtlcz86IG51bWJlcjsgdmlld3M/OiBudW1iZXI7IHJlcGx5X2NvdW50PzogbnVtYmVyOwp9CmV4cG9ydCBpbnRlcmZhY2UgUmVtb3RlUmVwbHkgeyBpZDogc3RyaW5nOyBsZXR0ZXJfaWQ6IHN0cmluZzsgcGVuOiBzdHJpbmc7IGNvbnRlbnQ6IHN0cmluZzsgY3JlYXRlZF9hdDogbnVtYmVyOyB9Ci8qKiDmiJHlr4Tlh7rnmoTkv6HnmoTng63luqbnu5/orqHvvIjotZ4v6LipL+a1j+iniOmHjy/lm57kv6HmlbDvvInjgIIgKi8KZXhwb3J0IGludGVyZmFjZSBSZW1vdGVMZXR0ZXJTdGF0IHsgaWQ6IHN0cmluZzsgbGlrZXM6IG51bWJlcjsgZGlzbGlrZXM6IG51bWJlcjsgdmlld3M6IG51bWJlcjsgcmVwbHlfY291bnQ6IG51bWJlcjsgY3JlYXRlZF9hdDogbnVtYmVyOyB9CmV4cG9ydCBpbnRlcmZhY2UgUmVtb3RlQWRtaW5MZXR0ZXIgeyBpZDogc3RyaW5nOyBwZW46IHN0cmluZzsgY29udGVudDogc3RyaW5nOyBsYW5nPzogc3RyaW5nOyBjcmVhdGVkX2F0OiBudW1iZXI7IHJlcGx5X2NvdW50OiBudW1iZXI7IGxpa2VzOiBudW1iZXI7IGRpc2xpa2VzOiBudW1iZXI7IHZpZXdzOiBudW1iZXI7IH0KCmFzeW5jIGZ1bmN0aW9uIGNhbGw8VD4ocGF0aDogc3RyaW5nLCBvcHRzOiBSZXF1ZXN0SW5pdCAmIHsgcXVlcnk/OiBSZWNvcmQ8c3RyaW5nLCBzdHJpbmc+IH0gPSB7fSk6IFByb21pc2U8VD4gewogICAgY29uc3QgYmFzZSA9IGdldFBvc3RPZmZpY2VCYXNlKCk7CiAgICBjb25zdCBxcyA9IG9wdHMucXVlcnkgPyAnPycgKyBuZXcgVVJMU2VhcmNoUGFyYW1zKG9wdHMucXVlcnkpLnRvU3RyaW5nKCkgOiAnJzsKICAgIGNvbnN0IHJlcyA9IGF3YWl0IGZldGNoKGAke2Jhc2V9JHtwYXRofSR7cXN9YCwgewogICAgICAgIG1ldGhvZDogb3B0cy5tZXRob2QgfHwgJ0dFVCcsCiAgICAgICAgaGVhZGVyczogeyAuLi4ob3B0cy5ib2R5ID8geyAnQ29udGVudC1UeXBlJzogJ2FwcGxpY2F0aW9uL2pzb24nIH0gOiB7fSksIC4uLihvcHRzLmhlYWRlcnMgYXMgUmVjb3JkPHN0cmluZywgc3RyaW5nPiB8fCB7fSkgfSwKICAgICAgICBib2R5OiBvcHRzLmJvZHksCiAgICB9KTsKICAgIGNvbnN0IGRhdGEgPSBhd2FpdCByZXMuanNvbigpLmNhdGNoKCgpID0+ICh7fSkpOwogICAgaWYgKCFyZXMub2sgfHwgKGRhdGEgJiYgZGF0YS5vayA9PT0gZmFsc2UpKSB7CiAgICAgICAgdGhyb3cgbmV3IEVycm9yKChkYXRhICYmIGRhdGEuZXJyb3IpIHx8IGBIVFRQICR7cmVzLnN0YXR1c31gKTsKICAgIH0KICAgIHJldHVybiBkYXRhIGFzIFQ7Cn0KCmV4cG9ydCBjb25zdCBQb3N0T2ZmaWNlID0gewogICAgYXN5bmMgaGVhbHRoKCk6IFByb21pc2U8Ym9vbGVhbj4gewogICAgICAgIHRyeSB7IGNvbnN0IHIgPSBhd2FpdCBjYWxsPHsgb2s6IGJvb2xlYW4gfT4oJy9oZWFsdGgnKTsgcmV0dXJuICEhci5vazsgfSBjYXRjaCB7IHJldHVybiBmYWxzZTsgfQogICAgfSwKCiAgICAvKiog5LiK5Lyg5b6F5a+E5Ye655qE5L+h77yM6L+U5Zue5pyN5Yqh56uv5YiG6YWN55qEIGlkIOWIl+ihqO+8iOeslOWQjeiHquWKqOmprOi1m+WFi++8iSAqLwogICAgYXN5bmMgdXBsb2FkTGV0dGVycyhsZXR0ZXJzOiB7IHBlbjogc3RyaW5nOyBjb250ZW50OiBzdHJpbmc7IGxhbmc/OiBzdHJpbmcgfVtdKTogUHJvbWlzZTxzdHJpbmdbXT4gewogICAgICAgIGNvbnN0IG1hc2tlZCA9IGxldHRlcnMubWFwKGwgPT4gKHsgLi4ubCwgcGVuOiBtYXNrUGVuKGwucGVuKSwgY29udGVudDogY2xpcENvbnRlbnQobC5jb250ZW50KSB9KSk7CiAgICAgICAgY29uc3QgciA9IGF3YWl0IGNhbGw8eyBpZHM6IHN0cmluZ1tdIH0+KCcvbGV0dGVycycsIHsgbWV0aG9kOiAnUE9TVCcsIGJvZHk6IEpTT04uc3RyaW5naWZ5KHsgZGV2aWNlOiBnZXREZXZpY2VJZCgpLCBsZXR0ZXJzOiBtYXNrZWQgfSkgfSk7CiAgICAgICAgcmV0dXJuIHIuaWRzIHx8IFtdOwogICAgfSwKCiAgICAvKiog6ZqP5py65oq95Yir5Lq655qE44CB6L+Y6IO95Zue55qE5L+hICovCiAgICBhc3luYyBmZXRjaEluYm94KGxpbWl0ID0gNSk6IFByb21pc2U8UmVtb3RlTGV0dGVyW10+IHsKICAgICAgICBjb25zdCByID0gYXdhaXQgY2FsbDx7IGxldHRlcnM6IFJlbW90ZUxldHRlcltdIH0+KCcvaW5ib3gnLCB7IHF1ZXJ5OiB7IGRldmljZTogZ2V0RGV2aWNlSWQoKSwgbGltaXQ6IFN0cmluZyhsaW1pdCkgfSB9KTsKICAgICAgICByZXR1cm4gci5sZXR0ZXJzIHx8IFtdOwogICAgfSwKCiAgICAvKiog5LiK5Lyg5Zue5L+h77yI56yU5ZCN6Ieq5Yqo6ams6LWb5YWL77yJICovCiAgICBhc3luYyB1cGxvYWRSZXBsaWVzKHJlcGxpZXM6IHsgbGV0dGVySWQ6IHN0cmluZzsgcGVuOiBzdHJpbmc7IGNvbnRlbnQ6IHN0cmluZyB9W10pOiBQcm9taXNlPG51bWJlcj4gewogICAgICAgIGNvbnN0IG1hc2tlZCA9IHJlcGxpZXMubWFwKHJwID0+ICh7IC4uLnJwLCBwZW46IG1hc2tQZW4ocnAucGVuKSwgY29udGVudDogY2xpcENvbnRlbnQocnAuY29udGVudCkgfSkpOwogICAgICAgIGNvbnN0IHIgPSBhd2FpdCBjYWxsPHsgYWNjZXB0ZWQ6IG51bWJlciB9PignL3JlcGxpZXMnLCB7IG1ldGhvZDogJ1BPU1QnLCBib2R5OiBKU09OLnN0cmluZ2lmeSh7IGRldmljZTogZ2V0RGV2aWNlSWQoKSwgcmVwbGllczogbWFza2VkIH0pIH0pOwogICAgICAgIHJldHVybiByLmFjY2VwdGVkIHx8IDA7CiAgICB9LAoKICAgIC8qKiDlj5blm57mjILlnKgi5oiR5a+E5Ye655qE5L+hIuS4iueahOWbnuWkjSAqLwogICAgYXN5bmMgZmV0Y2hSZXBsaWVzKCk6IFByb21pc2U8UmVtb3RlUmVwbHlbXT4gewogICAgICAgIGNvbnN0IHIgPSBhd2FpdCBjYWxsPHsgcmVwbGllczogUmVtb3RlUmVwbHlbXSB9PignL3JlcGxpZXMnLCB7IHF1ZXJ5OiB7IGRldmljZTogZ2V0RGV2aWNlSWQoKSB9IH0pOwogICAgICAgIHJldHVybiByLnJlcGxpZXMgfHwgW107CiAgICB9LAoKICAgIC8qKiDlj5blm54i5oiR5a+E5Ye655qE5L+hIueahOi1ni/ouKkv5rWP6KeI6YeP562J54Ot5bqm77yI5LiOIGZldGNoUmVwbGllcyDlkIzkuIDmjqXlj6PvvIzmjInpnIDlj5bnlKjvvIkgKi8KICAgIGFzeW5jIGZldGNoTXlTdGF0cygpOiBQcm9taXNlPFJlbW90ZUxldHRlclN0YXRbXT4gewogICAgICAgIGNvbnN0IHIgPSBhd2FpdCBjYWxsPHsgbGV0dGVyczogUmVtb3RlTGV0dGVyU3RhdFtdIH0+KCcvcmVwbGllcycsIHsgcXVlcnk6IHsgZGV2aWNlOiBnZXREZXZpY2VJZCgpIH0gfSk7CiAgICAgICAgcmV0dXJuIHIubGV0dGVycyB8fCBbXTsKICAgIH0sCgogICAgLyoqIOeCuei1nigxKSAvIOeCuei4qT3kuL7miqUoLTEpIC8g5pKk6ZSAKDAp44CC6L+U5Zue5pyA5paw6K6h5pWw77yb5L+h6Iul5bey6KKr5Yig5YiZIGRlbGV0ZWQ9dHJ1ZSAqLwogICAgYXN5bmMgdm90ZShsZXR0ZXJJZDogc3RyaW5nLCB2b3RlOiAxIHwgLTEgfCAwKTogUHJvbWlzZTx7IGxpa2VzOiBudW1iZXI7IGRpc2xpa2VzOiBudW1iZXI7IGRlbGV0ZWQ/OiBib29sZWFuIH0+IHsKICAgICAgICBjb25zdCByID0gYXdhaXQgY2FsbDx7IGxpa2VzPzogbnVtYmVyOyBkaXNsaWtlcz86IG51bWJlcjsgZGVsZXRlZD86IGJvb2xlYW4gfT4oJy92b3RlJywgewogICAgICAgICAgICBtZXRob2Q6ICdQT1NUJywgYm9keTogSlNPTi5zdHJpbmdpZnkoeyBkZXZpY2U6IGdldERldmljZUlkKCksIGxldHRlcklkLCB2b3RlIH0pLAogICAgICAgIH0pOwogICAgICAgIHJldHVybiB7IGxpa2VzOiByLmxpa2VzID8/IDAsIGRpc2xpa2VzOiByLmRpc2xpa2VzID8/IDAsIGRlbGV0ZWQ6IHIuZGVsZXRlZCB9OwogICAgfSwKCiAgICAvKiog5Y6f5L2c6ICF55WZ5qGj5ZCO6YeK5pS+77yI5ZCO56uv5Yig6Zmk5L+hK+WbnuWkje+8iSAqLwogICAgYXN5bmMgcmVsZWFzZShsZXR0ZXJJZHM6IHN0cmluZ1tdKTogUHJvbWlzZTx2b2lkPiB7CiAgICAgICAgaWYgKGxldHRlcklkcy5sZW5ndGggPT09IDApIHJldHVybjsKICAgICAgICBhd2FpdCBjYWxsKCcvcmVsZWFzZScsIHsgbWV0aG9kOiAnUE9TVCcsIGJvZHk6IEpTT04uc3RyaW5naWZ5KHsgZGV2aWNlOiBnZXREZXZpY2VJZCgpLCBsZXR0ZXJJZHMgfSkgfSk7CiAgICB9LAoKICAgIC8qKiBb566h55CGXSDliJflh7rlkI7nq6/lhajpg6jkv6Hku7bvvIjmjInouKnmlbDjgIHml7bpl7TlgJLluo/vvInjgIJ0b2tlbiDotbAgQmVhcmVyIOWktO+8jOS4jei/myBVUkzjgIIgKi8KICAgIGFzeW5jIGFkbWluTGlzdCh0b2tlbjogc3RyaW5nLCBsaW1pdCA9IDIwMCk6IFByb21pc2U8UmVtb3RlQWRtaW5MZXR0ZXJbXT4gewogICAgICAgIGNvbnN0IHIgPSBhd2FpdCBjYWxsPHsgbGV0dGVyczogUmVtb3RlQWRtaW5MZXR0ZXJbXSB9PignL2FkbWluL2xpc3QnLCB7CiAgICAgICAgICAgIHF1ZXJ5OiB7IGxpbWl0OiBTdHJpbmcobGltaXQpIH0sIGhlYWRlcnM6IHsgQXV0aG9yaXphdGlvbjogYEJlYXJlciAke3Rva2VufWAgfSwKICAgICAgICB9KTsKICAgICAgICByZXR1cm4gci5sZXR0ZXJzIHx8IFtdOwogICAgfSwKCiAgICAvKiogW+euoeeQhl0g5Yig6Zmk5oyH5a6a5L+h5Lu277yI5q+P5om54omkMTAw77yJ44CCICovCiAgICBhc3luYyBhZG1pbkRlbGV0ZSh0b2tlbjogc3RyaW5nLCBsZXR0ZXJJZHM6IHN0cmluZ1tdKTogUHJvbWlzZTxudW1iZXI+IHsKICAgICAgICBpZiAobGV0dGVySWRzLmxlbmd0aCA9PT0gMCkgcmV0dXJuIDA7CiAgICAgICAgY29uc3QgciA9IGF3YWl0IGNhbGw8eyBkZWxldGVkOiBudW1iZXIgfT4oJy9hZG1pbi9kZWxldGUnLCB7CiAgICAgICAgICAgIG1ldGhvZDogJ1BPU1QnLCBoZWFkZXJzOiB7IEF1dGhvcml6YXRpb246IGBCZWFyZXIgJHt0b2tlbn1gIH0sCiAgICAgICAgICAgIGJvZHk6IEpTT04uc3RyaW5naWZ5KHsgbGV0dGVySWRzOiBsZXR0ZXJJZHMuc2xpY2UoMCwgMTAwKSB9KSwKICAgICAgICB9KTsKICAgICAgICByZXR1cm4gci5kZWxldGVkIHx8IDA7CiAgICB9LAp9OwoKLy8g4pSA4pSAIOWkh+S7veeUqO+8muaKiumCruWxgOeahOacrOacuumFjee9rumaj+OAjOiuvue9riDihpIg5a+85Ye6L+WvvOWFpeWkh+S7veOAjeS4gOi1t+W4pui1sCDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIAKLy8g5bim55qE5piv44CQ6Lqr5Lu9IGRldmljZUlk44CR77yI5Yaz5a6aIuaIkeWvhOWHuueahOS/oSLnmoTlvZLlsZ7vvInlkozjgJDlkI7nq6/lnLDlnYDjgJHvvJsKLy8gYWRtaW4gdG9rZW4g5piv5ZCO56uv566h55CG5Yet6K+B77yM5pWF5oSP5LiN5YaZ6L+b5Y+v6KKr5YiG5Lqr55qE5aSH5Lu96YeM77yM6YG/5YWN5rOE6Zyy44CCCmV4cG9ydCBmdW5jdGlvbiBleHBvcnRQb3N0T2ZmaWNlTG9jYWwoKTogUmVjb3JkPHN0cmluZywgc3RyaW5nPiB8IHVuZGVmaW5lZCB7CiAgICB0cnkgewogICAgICAgIGNvbnN0IG91dDogUmVjb3JkPHN0cmluZywgc3RyaW5nPiA9IHt9OwogICAgICAgIGNvbnN0IGRldiA9IGxvY2FsU3RvcmFnZS5nZXRJdGVtKERFVklDRV9LRVkpOyBpZiAoZGV2KSBvdXRbREVWSUNFX0tFWV0gPSBkZXY7CiAgICAgICAgY29uc3QgYmFzZSA9IGxvY2FsU3RvcmFnZS5nZXRJdGVtKEJBU0VfS0VZKTsgaWYgKGJhc2UpIG91dFtCQVNFX0tFWV0gPSBiYXNlOwogICAgICAgIHJldHVybiBPYmplY3Qua2V5cyhvdXQpLmxlbmd0aCA/IG91dCA6IHVuZGVmaW5lZDsKICAgIH0gY2F0Y2ggeyByZXR1cm4gdW5kZWZpbmVkOyB9Cn0KZXhwb3J0IGZ1bmN0aW9uIGltcG9ydFBvc3RPZmZpY2VMb2NhbChkYXRhOiBSZWNvcmQ8c3RyaW5nLCBzdHJpbmc+IHwgbnVsbCB8IHVuZGVmaW5lZCk6IHZvaWQgewogICAgaWYgKCFkYXRhIHx8IHR5cGVvZiBkYXRhICE9PSAnb2JqZWN0JykgcmV0dXJuOwogICAgdHJ5IHsKICAgICAgICBpZiAodHlwZW9mIGRhdGFbREVWSUNFX0tFWV0gPT09ICdzdHJpbmcnICYmIGRhdGFbREVWSUNFX0tFWV0pIGxvY2FsU3RvcmFnZS5zZXRJdGVtKERFVklDRV9LRVksIGRhdGFbREVWSUNFX0tFWV0pOwogICAgICAgIGlmICh0eXBlb2YgZGF0YVtCQVNFX0tFWV0gPT09ICdzdHJpbmcnKSB7CiAgICAgICAgICAgIGlmIChkYXRhW0JBU0VfS0VZXSkgbG9jYWxTdG9yYWdlLnNldEl0ZW0oQkFTRV9LRVksIGRhdGFbQkFTRV9LRVldKTsgZWxzZSBsb2NhbFN0b3JhZ2UucmVtb3ZlSXRlbShCQVNFX0tFWSk7CiAgICAgICAgfQogICAgfSBjYXRjaCB7IC8qIGlnbm9yZSAqLyB9Cn0KCi8vIOKUgOKUgCDnrqHnkIblkZggdG9rZW7vvJrmnKzlnLDnlZnlrZjvvIzlhY3lvpfmr4/mrKHph43ovpPvvIjku4XlrZjlnKjmnKzmnLogbG9jYWxTdG9yYWdl77yJ4pSA4pSA4pSA4pSA4pSA4pSACmNvbnN0IEFETUlOX1RPS0VOX0tFWSA9ICd2cl9wb19hZG1pbl90b2tlbic7CmV4cG9ydCBjb25zdCBnZXRBZG1pblRva2VuID0gKCk6IHN0cmluZyA9PiB7IHRyeSB7IHJldHVybiBsb2NhbFN0b3JhZ2UuZ2V0SXRlbShBRE1JTl9UT0tFTl9LRVkpIHx8ICcnOyB9IGNhdGNoIHsgcmV0dXJuICcnOyB9IH07CmV4cG9ydCBjb25zdCBzZXRBZG1pblRva2VuID0gKHQ6IHN0cmluZykgPT4geyB0cnkgeyB0LnRyaW0oKSA/IGxvY2FsU3RvcmFnZS5zZXRJdGVtKEFETUlOX1RPS0VOX0tFWSwgdC50cmltKCkpIDogbG9jYWxTdG9yYWdlLnJlbW92ZUl0ZW0oQURNSU5fVE9LRU5fS0VZKTsgfSBjYXRjaCB7IC8qIGlnbm9yZSAqLyB9IH07CgovLyDilIDilIAg6Lqr5Lu95a+85Ye6IC8g5a+85YWl77ya5o2i6K6+5aSH5oiW5riF5pWw5o2u5ZCO5om+5Zue44CM5oiR55qE5L+h44CN5LiO6LSj5Lu7IOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgApjb25zdCBJRF9QUkVGSVggPSAnc3VsbHlwbyc7CmNvbnN0IGlkQ2hlY2tzdW0gPSAoczogc3RyaW5nKTogc3RyaW5nID0+IHsKICAgIGxldCBoID0gMDsKICAgIGZvciAobGV0IGkgPSAwOyBpIDwgcy5sZW5ndGg7IGkrKykgaCA9IChoICogMzEgKyBzLmNoYXJDb2RlQXQoaSkpID4+PiAwOwogICAgcmV0dXJuIGgudG9TdHJpbmcoMzYpLnNsaWNlKDAsIDQpLnBhZFN0YXJ0KDQsICcwJyk7Cn07Ci8qKiDlr7zlh7rlvZPliY3ouqvku73noIHvvIjluKbmoKHpqozkvY3vvInvvIzlj6/mioTliLDliKvlpITlr7zlhaXjgIIgKi8KZXhwb3J0IGZ1bmN0aW9uIGV4cG9ydElkZW50aXR5KCk6IHN0cmluZyB7CiAgICBjb25zdCBpZCA9IGdldERldmljZUlkKCk7CiAgICByZXR1cm4gYCR7SURfUFJFRklYfS4ke2lkfS4ke2lkQ2hlY2tzdW0oaWQpfWA7Cn0KLyoqIOWvvOWFpei6q+S7veegge+8muagoemqjOmAmui/h+WImeabv+aNouacrOWcsCBkZXZpY2VJZO+8jOi/lOWbnuaYr+WQpuaIkOWKn+OAgiAqLwpleHBvcnQgZnVuY3Rpb24gaW1wb3J0SWRlbnRpdHkoY29kZTogc3RyaW5nKTogYm9vbGVhbiB7CiAgICBjb25zdCBwYXJ0cyA9IChjb2RlIHx8ICcnKS50cmltKCkuc3BsaXQoJy4nKTsKICAgIGlmIChwYXJ0cy5sZW5ndGggIT09IDMgfHwgcGFydHNbMF0gIT09IElEX1BSRUZJWCkgcmV0dXJuIGZhbHNlOwogICAgY29uc3QgWywgaWQsIHN1bV0gPSBwYXJ0czsKICAgIGlmICghaWQgfHwgaWRDaGVja3N1bShpZCkgIT09IHN1bSkgcmV0dXJuIGZhbHNlOwogICAgdHJ5IHsgbG9jYWxTdG9yYWdlLnNldEl0ZW0oREVWSUNFX0tFWSwgaWQpOyByZXR1cm4gdHJ1ZTsgfSBjYXRjaCB7IHJldHVybiBmYWxzZTsgfQp9Cg==
+/**
+ * 彼方虚拟邮局 · 客户端 API
+ *
+ * 对接【所有用户共用】的后端（默认 https://noir2.cc.cd/po）。
+ * 匿名：本地一个随机 deviceId，无登录无 PII。
+ */
+
+const DEFAULT_BASE = 'https://noir2.cc.cd/po';
+const BASE_KEY = 'vr_po_base';
+const DEVICE_KEY = 'vr_po_device';
+
+/** 单封正文字数上限（按字符：1 汉字/标点 = 1 字）。UI 输入框可用它做限制提示。 */
+export const MAX_LETTER_CHARS = 400;
+/** 按字符截断到上限（兜底；后端也会再截一次） */
+const clipContent = (s: string): string => [...(s || '')].slice(0, MAX_LETTER_CHARS).join('');
+
+export const getPostOfficeBase = (): string => {
+    try { return (localStorage.getItem(BASE_KEY) || DEFAULT_BASE).replace(/\/+$/, ''); }
+    catch { return DEFAULT_BASE; }
+};
+export const setPostOfficeBase = (url: string) => {
+    try { url.trim() ? localStorage.setItem(BASE_KEY, url.trim()) : localStorage.removeItem(BASE_KEY); } catch { /* ignore */ }
+};
+
+export const getDeviceId = (): string => {
+    try {
+        let id = localStorage.getItem(DEVICE_KEY);
+        if (!id) {
+            id = (globalThis.crypto?.randomUUID?.() || `dev-${Date.now()}-${Math.random().toString(36).slice(2)}`);
+            localStorage.setItem(DEVICE_KEY, id);
+        }
+        return id;
+    } catch {
+        return 'dev-anonymous';
+    }
+};
+
+/**
+ * 笔名马赛克：寄信/回信时把真实角色名换成一个稳定的匿名笔名。
+ * 同名 → 同笔名（便于多次往来的连续感），但圈子里的人看不出是谁。
+ */
+const PEN_POOL = [
+    '山雀', '渡口', '夜航船', '北纬以北', '苔痕', '停摆的钟', '未寄出', '远洋来信',
+    '拾光', '梧桐巷口', '十一月', '旧船票', '薄雾', '信天翁', '空瓶', '逆旅',
+    '檐下雨', '无人岛', '回声', '草垛', '末班车', '潮汐表', '蝉蜕', '星图边角',
+];
+export function maskPen(name: string): string {
+    const n = (name || '').trim();
+    if (!n) return '匿名旅人';
+    let h = 0;
+    for (let i = 0; i < n.length; i++) h = (h * 31 + n.charCodeAt(i)) >>> 0;
+    return PEN_POOL[h % PEN_POOL.length];
+}
+
+export interface RemoteLetter {
+    id: string; pen: string; content: string; created_at: number;
+    likes?: number; dislikes?: number; views?: number; reply_count?: number;
+}
+export interface RemoteReply { id: string; letter_id: string; pen: string; content: string; created_at: number; }
+/** 我寄出的信的热度统计（赞/踩/浏览量/回信数）。 */
+export interface RemoteLetterStat { id: string; likes: number; dislikes: number; views: number; reply_count: number; created_at: number; }
+export interface RemoteAdminLetter { id: string; pen: string; content: string; lang?: string; created_at: number; reply_count: number; likes: number; dislikes: number; views: number; }
+
+async function call<T>(path: string, opts: RequestInit & { query?: Record<string, string> } = {}): Promise<T> {
+    const base = getPostOfficeBase();
+    const qs = opts.query ? '?' + new URLSearchParams(opts.query).toString() : '';
+    const res = await fetch(`${base}${path}${qs}`, {
+        method: opts.method || 'GET',
+        headers: { ...(opts.body ? { 'Content-Type': 'application/json' } : {}), ...(opts.headers as Record<string, string> || {}) },
+        body: opts.body,
+    });
+    const data = await res.json().catch(() => ({}));
+    if (!res.ok || (data && data.ok === false)) {
+        throw new Error((data && data.error) || `HTTP ${res.status}`);
+    }
+    return data as T;
+}
+
+export const PostOffice = {
+    async health(): Promise<boolean> {
+        try { const r = await call<{ ok: boolean }>('/health'); return !!r.ok; } catch { return false; }
+    },
+
+    /** 上传待寄出的信，返回服务端分配的 id 列表（笔名自动马赛克） */
+    async uploadLetters(letters: { pen: string; content: string; lang?: string }[]): Promise<string[]> {
+        const masked = letters.map(l => ({ ...l, pen: maskPen(l.pen), content: clipContent(l.content) }));
+        const r = await call<{ ids: string[] }>('/letters', { method: 'POST', body: JSON.stringify({ device: getDeviceId(), letters: masked }) });
+        return r.ids || [];
+    },
+
+    /** 随机抽别人的、还能回的信 */
+    async fetchInbox(limit = 5): Promise<RemoteLetter[]> {
+        const r = await call<{ letters: RemoteLetter[] }>('/inbox', { query: { device: getDeviceId(), limit: String(limit) } });
+        return r.letters || [];
+    },
+
+    /** 上传回信（笔名自动马赛克） */
+    async uploadReplies(replies: { letterId: string; pen: string; content: string }[]): Promise<number> {
+        const masked = replies.map(rp => ({ ...rp, pen: maskPen(rp.pen), content: clipContent(rp.content) }));
+        const r = await call<{ accepted: number }>('/replies', { method: 'POST', body: JSON.stringify({ device: getDeviceId(), replies: masked }) });
+        return r.accepted || 0;
+    },
+
+    /** 取回挂在"我寄出的信"上的回复 */
+    async fetchReplies(): Promise<RemoteReply[]> {
+        const r = await call<{ replies: RemoteReply[] }>('/replies', { query: { device: getDeviceId() } });
+        return r.replies || [];
+    },
+
+    /** 取回"我寄出的信"的赞/踩/浏览量等热度（与 fetchReplies 同一接口，按需取用） */
+    async fetchMyStats(): Promise<RemoteLetterStat[]> {
+        const r = await call<{ letters: RemoteLetterStat[] }>('/replies', { query: { device: getDeviceId() } });
+        return r.letters || [];
+    },
+
+    /** 点赞(1) / 点踩=举报(-1) / 撤销(0)。返回最新计数；信若已被删则 deleted=true */
+    async vote(letterId: string, vote: 1 | -1 | 0): Promise<{ likes: number; dislikes: number; deleted?: boolean }> {
+        const r = await call<{ likes?: number; dislikes?: number; deleted?: boolean }>('/vote', {
+            method: 'POST', body: JSON.stringify({ device: getDeviceId(), letterId, vote }),
+        });
+        return { likes: r.likes ?? 0, dislikes: r.dislikes ?? 0, deleted: r.deleted };
+    },
+
+    /** 原作者留档后释放（后端删除信+回复） */
+    async release(letterIds: string[]): Promise<void> {
+        if (letterIds.length === 0) return;
+        await call('/release', { method: 'POST', body: JSON.stringify({ device: getDeviceId(), letterIds }) });
+    },
+
+    /** [管理] 列出后端全部信件（按踩数、时间倒序）。token 走 Bearer 头，不进 URL。 */
+    async adminList(token: string, limit = 200): Promise<RemoteAdminLetter[]> {
+        const r = await call<{ letters: RemoteAdminLetter[] }>('/admin/list', {
+            query: { limit: String(limit) }, headers: { Authorization: `Bearer ${token}` },
+        });
+        return r.letters || [];
+    },
+
+    /** [管理] 删除指定信件（每批≤100）。 */
+    async adminDelete(token: string, letterIds: string[]): Promise<number> {
+        if (letterIds.length === 0) return 0;
+        const r = await call<{ deleted: number }>('/admin/delete', {
+            method: 'POST', headers: { Authorization: `Bearer ${token}` },
+            body: JSON.stringify({ letterIds: letterIds.slice(0, 100) }),
+        });
+        return r.deleted || 0;
+    },
+};
+
+// ── 备份用：把邮局的本机配置随「设置 → 导出/导入备份」一起带走 ──────────
+// 带的是【身份 deviceId】（决定"我寄出的信"的归属）和【后端地址】；
+// admin token 是后端管理凭证，故意不写进可被分享的备份里，避免泄露。
+export function exportPostOfficeLocal(): Record<string, string> | undefined {
+    try {
+        const out: Record<string, string> = {};
+        const dev = localStorage.getItem(DEVICE_KEY); if (dev) out[DEVICE_KEY] = dev;
+        const base = localStorage.getItem(BASE_KEY); if (base) out[BASE_KEY] = base;
+        return Object.keys(out).length ? out : undefined;
+    } catch { return undefined; }
+}
+export function importPostOfficeLocal(data: Record<string, string> | null | undefined): void {
+    if (!data || typeof data !== 'object') return;
+    try {
+        if (typeof data[DEVICE_KEY] === 'string' && data[DEVICE_KEY]) localStorage.setItem(DEVICE_KEY, data[DEVICE_KEY]);
+        if (typeof data[BASE_KEY] === 'string') {
+            if (data[BASE_KEY]) localStorage.setItem(BASE_KEY, data[BASE_KEY]); else localStorage.removeItem(BASE_KEY);
+        }
+    } catch { /* ignore */ }
+}
+
+// ── 管理员 token：本地留存，免得每次重输（仅存在本机 localStorage）──────
+const ADMIN_TOKEN_KEY = 'vr_po_admin_token';
+export const getAdminToken = (): string => { try { return localStorage.getItem(ADMIN_TOKEN_KEY) || ''; } catch { return ''; } };
+export const setAdminToken = (t: string) => { try { t.trim() ? localStorage.setItem(ADMIN_TOKEN_KEY, t.trim()) : localStorage.removeItem(ADMIN_TOKEN_KEY); } catch { /* ignore */ } };
+
+// ── 身份导出 / 导入：换设备或清数据后找回「我的信」与责任 ──────────────
+const ID_PREFIX = 'sullypo';
+const idChecksum = (s: string): string => {
+    let h = 0;
+    for (let i = 0; i < s.length; i++) h = (h * 31 + s.charCodeAt(i)) >>> 0;
+    return h.toString(36).slice(0, 4).padStart(4, '0');
+};
+/** 导出当前身份码（带校验位），可抄到别处导入。 */
+export function exportIdentity(): string {
+    const id = getDeviceId();
+    return `${ID_PREFIX}.${id}.${idChecksum(id)}`;
+}
+/** 导入身份码：校验通过则替换本地 deviceId，返回是否成功。 */
+export function importIdentity(code: string): boolean {
+    const parts = (code || '').trim().split('.');
+    if (parts.length !== 3 || parts[0] !== ID_PREFIX) return false;
+    const [, id, sum] = parts;
+    if (!id || idChecksum(id) !== sum) return false;
+    try { localStorage.setItem(DEVICE_KEY, id); return true; } catch { return false; }
+}

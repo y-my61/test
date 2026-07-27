@@ -1,1 +1,64 @@
-LyoqCiAqIOOAjOW9vOaWueOAjeeLrOeriyBBUEkg6YWN572uICsg6LCD55So6K6w5b2V44CC5a2Y5LqOIEluZGV4ZWREQu+8iHZyX3NldHRpbmdzIHN0b3Jl77yJ77yMCiAqIOmaj+aVsOaNruWvvOWHui/lpIfku73kuIDotbfotbDvvIzkuI3lho3kvp3otZYgbG9jYWxTdG9yYWdl44CCCiAqCiAqIOW9vOaWueeahOinkuiJsuS8muiHquS4u+OAgemikee5geWcsOeZu+WFpeinpuWPkSBMTE0g6LCD55So77yM5q+U6L6D6LS5IEFQSe+8jOaJgOS7peWFgeiuuOeUqOaIt+WNleeLrAogKiDmjIflrprkuIDku70gQVBJ77yI5LiO6IGK5aSpIEFwcCDlhbHnlKjlkIzkuIDmibnlt7Lkv53lrZjnmoTpooTorr4gb3NfYXBpX3ByZXNldHPvvIzkvYbpgInmi6nni6znq4vvvInjgIIKICog5LiN6K6+5YiZ5Zue6YCA6IGK5aSp6buY6K6kIGFwaUNvbmZpZ+OAguWQjOaXtuiusOW9leavj+asoeiwg+eUqO+8jOaWueS+v+Wvuei0puOAggogKi8KaW1wb3J0IHR5cGUgeyBBUElDb25maWcgfSBmcm9tICcuLi8uLi90eXBlcyc7CmltcG9ydCB7IERCIH0gZnJvbSAnLi4vZGInOwoKZXhwb3J0IGludGVyZmFjZSBWUkFwaUNhbGwgewogICAgdHM6IG51bWJlcjsKICAgIGNoYXJOYW1lPzogc3RyaW5nOwogICAgcm9vbT86IHN0cmluZzsKICAgIG1vZGVsPzogc3RyaW5nOwogICAgYmFzZVVybD86IHN0cmluZzsKICAgIG9rOiBib29sZWFuOwogICAgbXM6IG51bWJlcjsKICAgIGVycm9yPzogc3RyaW5nOwp9CgovLyDml6fniYjmnKzmm77miormlbDmja7mlL7lnKggbG9jYWxTdG9yYWdl77yM6L+Z6YeM5YGa5LiA5qyh5oCn6L+B56e75YiwIEluZGV4ZWREQuOAggpjb25zdCBPTERfQVBJX0tFWSA9ICd2cl93b3JsZF9hcGknOwpjb25zdCBPTERfTE9HX0tFWSA9ICd2cl93b3JsZF9hcGlfbG9nJzsKbGV0IG1pZ3JhdGVkID0gZmFsc2U7CmFzeW5jIGZ1bmN0aW9uIG1pZ3JhdGVPbmNlKCk6IFByb21pc2U8dm9pZD4gewogICAgaWYgKG1pZ3JhdGVkKSByZXR1cm47CiAgICBtaWdyYXRlZCA9IHRydWU7CiAgICB0cnkgewogICAgICAgIGNvbnN0IG9sZEFwaSA9IGxvY2FsU3RvcmFnZS5nZXRJdGVtKE9MRF9BUElfS0VZKTsKICAgICAgICBpZiAob2xkQXBpKSB7IGF3YWl0IERCLnNhdmVWUkFwaUNvbmZpZyhKU09OLnBhcnNlKG9sZEFwaSkpOyBsb2NhbFN0b3JhZ2UucmVtb3ZlSXRlbShPTERfQVBJX0tFWSk7IH0KICAgICAgICBjb25zdCBvbGRMb2cgPSBsb2NhbFN0b3JhZ2UuZ2V0SXRlbShPTERfTE9HX0tFWSk7CiAgICAgICAgaWYgKG9sZExvZykgeyBhd2FpdCBEQi5zZXRWUkFwaUxvZyhKU09OLnBhcnNlKG9sZExvZykpOyBsb2NhbFN0b3JhZ2UucmVtb3ZlSXRlbShPTERfTE9HX0tFWSk7IH0KICAgIH0gY2F0Y2ggeyAvKiBpZ25vcmUgKi8gfQp9CgovKiog5b285pa554us56uLIEFQSe+8m251bGwgPSDot5/pmo/ogYrlpKnpu5jorqTjgIIgKi8KZXhwb3J0IGFzeW5jIGZ1bmN0aW9uIGdldFZSQXBpKCk6IFByb21pc2U8QVBJQ29uZmlnIHwgbnVsbD4gewogICAgYXdhaXQgbWlncmF0ZU9uY2UoKTsKICAgIHJldHVybiAoYXdhaXQgREIuZ2V0VlJBcGlDb25maWcoKSkgYXMgQVBJQ29uZmlnIHwgbnVsbDsKfQoKZXhwb3J0IGFzeW5jIGZ1bmN0aW9uIHNldFZSQXBpKGNmZzogQVBJQ29uZmlnIHwgbnVsbCk6IFByb21pc2U8dm9pZD4gewogICAgYXdhaXQgREIuc2F2ZVZSQXBpQ29uZmlnKGNmZyA/PyBudWxsKTsKICAgIHRyeSB7IHdpbmRvdy5kaXNwYXRjaEV2ZW50KG5ldyBDdXN0b21FdmVudCgndnItYXBpLWNoYW5nZWQnKSk7IH0gY2F0Y2ggeyAvKiBpZ25vcmUgKi8gfQp9CgpleHBvcnQgYXN5bmMgZnVuY3Rpb24gZ2V0VlJBcGlMb2coKTogUHJvbWlzZTxWUkFwaUNhbGxbXT4gewogICAgYXdhaXQgbWlncmF0ZU9uY2UoKTsKICAgIHJldHVybiAoYXdhaXQgREIuZ2V0VlJBcGlMb2coKSkgYXMgVlJBcGlDYWxsW107Cn0KCmV4cG9ydCBhc3luYyBmdW5jdGlvbiBsb2dWUkFwaUNhbGwoZW50cnk6IFZSQXBpQ2FsbCk6IFByb21pc2U8dm9pZD4gewogICAgdHJ5IHsKICAgICAgICBhd2FpdCBEQi5hcHBlbmRWUkFwaUxvZyhlbnRyeSk7CiAgICAgICAgd2luZG93LmRpc3BhdGNoRXZlbnQobmV3IEN1c3RvbUV2ZW50KCd2ci1hcGktbG9nJykpOwogICAgfSBjYXRjaCB7IC8qIGlnbm9yZSAqLyB9Cn0KCmV4cG9ydCBhc3luYyBmdW5jdGlvbiBjbGVhclZSQXBpTG9nKCk6IFByb21pc2U8dm9pZD4gewogICAgYXdhaXQgREIuY2xlYXJWUkFwaUxvZygpOwogICAgdHJ5IHsgd2luZG93LmRpc3BhdGNoRXZlbnQobmV3IEN1c3RvbUV2ZW50KCd2ci1hcGktbG9nJykpOyB9IGNhdGNoIHsgLyogaWdub3JlICovIH0KfQo=
+/**
+ * 「彼方」独立 API 配置 + 调用记录。存于 IndexedDB（vr_settings store），
+ * 随数据导出/备份一起走，不再依赖 localStorage。
+ *
+ * 彼方的角色会自主、频繁地登入触发 LLM 调用，比较费 API，所以允许用户单独
+ * 指定一份 API（与聊天 App 共用同一批已保存的预设 os_api_presets，但选择独立）。
+ * 不设则回退聊天默认 apiConfig。同时记录每次调用，方便对账。
+ */
+import type { APIConfig } from '../../types';
+import { DB } from '../db';
+
+export interface VRApiCall {
+    ts: number;
+    charName?: string;
+    room?: string;
+    model?: string;
+    baseUrl?: string;
+    ok: boolean;
+    ms: number;
+    error?: string;
+}
+
+// 旧版本曾把数据放在 localStorage，这里做一次性迁移到 IndexedDB。
+const OLD_API_KEY = 'vr_world_api';
+const OLD_LOG_KEY = 'vr_world_api_log';
+let migrated = false;
+async function migrateOnce(): Promise<void> {
+    if (migrated) return;
+    migrated = true;
+    try {
+        const oldApi = localStorage.getItem(OLD_API_KEY);
+        if (oldApi) { await DB.saveVRApiConfig(JSON.parse(oldApi)); localStorage.removeItem(OLD_API_KEY); }
+        const oldLog = localStorage.getItem(OLD_LOG_KEY);
+        if (oldLog) { await DB.setVRApiLog(JSON.parse(oldLog)); localStorage.removeItem(OLD_LOG_KEY); }
+    } catch { /* ignore */ }
+}
+
+/** 彼方独立 API；null = 跟随聊天默认。 */
+export async function getVRApi(): Promise<APIConfig | null> {
+    await migrateOnce();
+    return (await DB.getVRApiConfig()) as APIConfig | null;
+}
+
+export async function setVRApi(cfg: APIConfig | null): Promise<void> {
+    await DB.saveVRApiConfig(cfg ?? null);
+    try { window.dispatchEvent(new CustomEvent('vr-api-changed')); } catch { /* ignore */ }
+}
+
+export async function getVRApiLog(): Promise<VRApiCall[]> {
+    await migrateOnce();
+    return (await DB.getVRApiLog()) as VRApiCall[];
+}
+
+export async function logVRApiCall(entry: VRApiCall): Promise<void> {
+    try {
+        await DB.appendVRApiLog(entry);
+        window.dispatchEvent(new CustomEvent('vr-api-log'));
+    } catch { /* ignore */ }
+}
+
+export async function clearVRApiLog(): Promise<void> {
+    await DB.clearVRApiLog();
+    try { window.dispatchEvent(new CustomEvent('vr-api-log')); } catch { /* ignore */ }
+}

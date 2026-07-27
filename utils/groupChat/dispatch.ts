@@ -1,1 +1,306 @@
-Ly8g576k6IGK5Yqo5L2c5rS+5Y+RIOKAlOKAlCDku44gR3JvdXBDaGF0LnRzeCB0cmlnZ2VyRGlyZWN0b3Ig5oq95Ye655qE5omn6KGM5bGC77yIUFJJVkFURSDkvqfkv6HpgZPjgIEKLy8g6KGo5oOF5YyF44CB5rCU5rOh5YiG5q6144CB5omT5a2X5bu26L+f77yJ77yM5a+85ryU5qih5byP5LiO6L2u6K+i5qih5byP5YWx55So44CCCmltcG9ydCB7IERCIH0gZnJvbSAnLi4vZGInOwppbXBvcnQgeyBDaGFyYWN0ZXJQcm9maWxlLCBFbW9qaUNhdGVnb3J5LCBNZXNzYWdlLCBUb2FzdCB9IGZyb20gJy4uLy4uL3R5cGVzJzsKaW1wb3J0IHsgRGlyZWN0b3JBY3Rpb24gfSBmcm9tICcuL3BhcnNlJzsKaW1wb3J0IHsKICAgIEdyb3VwUGFja2V0TWV0YSwKICAgIFBhY2tldFJlY2VpcHRNZXRhLAogICAgUGFja2V0Q29tbWFuZCwKICAgIENsYWltUmVzdWx0LAogICAgY2xhaW1QYWNrZXQsCiAgICBlZmZlY3RpdmVQYWNrZXRTdGF0dXMsCiAgICBleHRyYWN0UGFja2V0Q29tbWFuZHMsCiAgICBtYWtlUGFja2V0TWV0YSwKfSBmcm9tICcuL3JlZHBhY2tldCc7CmltcG9ydCB7IGV4dHJhY3RIdG1sQmxvY2tzIH0gZnJvbSAnLi4vaHRtbFByb21wdCc7CgppbnRlcmZhY2UgRW1vamlJdGVtIHsgbmFtZTogc3RyaW5nOyB1cmw6IHN0cmluZzsgY2F0ZWdvcnlJZD86IHN0cmluZyB9CgpleHBvcnQgaW50ZXJmYWNlIERpc3BhdGNoQ29udGV4dCB7CiAgICBncm91cElkOiBzdHJpbmc7CiAgICAvKiog576k5oiQ5ZGYIGlkIOWIl+ihqOKAlOKAlGNoYXJJZCDkuI3lnKjlhbbkuK3nmoTliqjkvZznm7TmjqXkuKLlvIMgKi8KICAgIG1lbWJlcklkczogc3RyaW5nW107CiAgICBjaGFyYWN0ZXJzOiBDaGFyYWN0ZXJQcm9maWxlW107CiAgICBlbW9qaXM6IEVtb2ppSXRlbVtdOwogICAgY2F0ZWdvcmllczogRW1vamlDYXRlZ29yeVtdOwogICAgLyoqIOavj+adoeawlOazoeiQveW6k+WQjuWIt+aWsCBVSe+8iEdyb3VwQ2hhdCDnmoQgcmVmcmVzaE1lc3NhZ2Vz77yJICovCiAgICByZWZyZXNoOiAoKSA9PiBQcm9taXNlPHVua25vd24+OwogICAgYWRkVG9hc3Q6IChtZXNzYWdlOiBzdHJpbmcsIHR5cGU/OiBUb2FzdFsndHlwZSddKSA9PiB2b2lkOwogICAgLyoqIOS4remAlOWPlua2iO+8muavj+asoeW7tui/ny/okL3lupPliY3mo4Dmn6XvvIxhYm9ydGVkIOWQjuaPkOWJjei/lOWbniAqLwogICAgc2lnbmFsPzogQWJvcnRTaWduYWw7CiAgICAvKiogW1tRVU9URTog5Y6f6K+d54mH5q61XV0g6Kej5p6Q77ya5oyJ54mH5q615om+6KKr5byV55So5raI5oGv77yM5om+5LiN5Yiw6L+U5ZueIHVuZGVmaW5lZO+8iOagh+iusOmdmem7mOWJpemZpO+8iSAqLwogICAgcmVzb2x2ZVF1b3RlPzogKHNuaXBwZXQ6IHN0cmluZykgPT4geyBpZDogbnVtYmVyOyBjb250ZW50OiBzdHJpbmc7IG5hbWU6IHN0cmluZyB9IHwgdW5kZWZpbmVkOwogICAgLyoqIOeUqOaIt+aYvuekuuWQjeKAlOKAlOe6ouWMheebruagh+ino+aekO+8iGRpcmVjdDrnlKjmiLflkI3vvInkuI7lm57miaflkb3lkI3nlKggKi8KICAgIHVzZXJOYW1lOiBzdHJpbmc7CiAgICAvKiog576kIEhUTUwg5qih5Z2X5qih5byP5byA5ZCv5pe26Kej5p6QIFtodG1sXSDlnZfkuLogaHRtbF9jYXJkIOa2iOaBryAqLwogICAgaHRtbE1vZGU/OiBib29sZWFuOwp9CgovKioKICog6YCQ5p2h5omn6KGM5oiQ5ZGY5Yqo5L2c77ya6Kej5p6QIFtbUFJJVkFURTpdXSDov5vnp4HogYrpopHpgZPjgIFbW1NFTkRfRU1PSkk6XV0g5Y+R6KGo5oOF44CBCiAqIOWJqeS9meaWh+acrOaMieaNouihjOWIhuawlOazoeW4puaJk+Wtl+W7tui/n+iQveW6k+OAgumAu+i+kemAkOWtl+aQrOiHqiB0cmlnZ2VyRGlyZWN0b3LvvIwKICog5LuF5oqKIGBzZXRNZXNzYWdlcyhhd2FpdCBEQi5nZXRHcm91cE1lc3NhZ2VzKC4uLikpYCDmjaLmiJAgY3R4LnJlZnJlc2goKeOAgeWKoCBzaWduYWwg5qOA5p+l44CCCiAqLwpleHBvcnQgYXN5bmMgZnVuY3Rpb24gZGlzcGF0Y2hNZW1iZXJBY3Rpb25zKGFjdGlvbnM6IERpcmVjdG9yQWN0aW9uW10sIGN0eDogRGlzcGF0Y2hDb250ZXh0KTogUHJvbWlzZTx2b2lkPiB7CiAgICBjb25zdCB7IGdyb3VwSWQsIG1lbWJlcklkcywgY2hhcmFjdGVycywgZW1vamlzLCBjYXRlZ29yaWVzLCByZWZyZXNoLCBhZGRUb2FzdCwgc2lnbmFsLCByZXNvbHZlUXVvdGUgfSA9IGN0eDsKCiAgICBmb3IgKGNvbnN0IGFjdGlvbiBvZiBhY3Rpb25zKSB7CiAgICAgICAgaWYgKHNpZ25hbD8uYWJvcnRlZCkgcmV0dXJuOwogICAgICAgIGNvbnN0IHRhcmdldElkID0gbWVtYmVySWRzLmZpbmQoaWQgPT4gaWQgPT09IGFjdGlvbi5jaGFySWQpOwogICAgICAgIGlmICghdGFyZ2V0SWQpIGNvbnRpbnVlOwogICAgICAgIGNvbnN0IGNoYXJOYW1lID0gY2hhcmFjdGVycy5maW5kKGMgPT4gYy5pZCA9PT0gdGFyZ2V0SWQpPy5uYW1lIHx8ICfmiJDlkZgnOwoKICAgICAgICAvLyAwLiBDaGVjayBmb3IgUHJpdmF0ZSBNZXNzYWdlIENvbW1hbmQgKFJlZ2V4IHVwZGF0ZWQgZm9yIHJvYnVzdG5lc3MpCiAgICAgICAgbGV0IHB1YmxpY0NvbnRlbnQgPSBhY3Rpb24uY29udGVudDsKICAgICAgICBjb25zdCBwcml2YXRlTWF0Y2hlczogUmVnRXhwRXhlY0FycmF5W10gPSBbXTsKICAgICAgICAvLyBIYW5kbGUgbXVsdGlwbGUgcHJpdmF0ZSBtZXNzYWdlcyBpbiBvbmUgYmxvY2sgb3IgbWl4ZWQgY29udGVudAogICAgICAgIGNvbnN0IHByaXZhdGVSZWdleCA9IC9cW1xbUFJJVkFURVxzKls677yaXVxzKihbXHNcU10qPylcXVxdL2c7CiAgICAgICAgbGV0IG1hdGNoOwogICAgICAgIHdoaWxlICgobWF0Y2ggPSBwcml2YXRlUmVnZXguZXhlYyhwdWJsaWNDb250ZW50KSkgIT09IG51bGwpIHsKICAgICAgICAgICAgcHJpdmF0ZU1hdGNoZXMucHVzaChtYXRjaCk7CiAgICAgICAgfQoKICAgICAgICBpZiAocHJpdmF0ZU1hdGNoZXMubGVuZ3RoID4gMCkgewogICAgICAgICAgICBmb3IgKGNvbnN0IG0gb2YgcHJpdmF0ZU1hdGNoZXMpIHsKICAgICAgICAgICAgICAgIGNvbnN0IHByaXZhdGVDb250ZW50ID0gbVsxXS50cmltKCk7CiAgICAgICAgICAgICAgICBpZiAocHJpdmF0ZUNvbnRlbnQpIHsKICAgICAgICAgICAgICAgICAgICAvLyBTYXZlIHRvIHByaXZhdGUgY2hhdCAobm8gZ3JvdXBJZCkKICAgICAgICAgICAgICAgICAgICBhd2FpdCBEQi5zYXZlTWVzc2FnZSh7CiAgICAgICAgICAgICAgICAgICAgICAgIGNoYXJJZDogdGFyZ2V0SWQsCiAgICAgICAgICAgICAgICAgICAgICAgIHJvbGU6ICdhc3Npc3RhbnQnLAogICAgICAgICAgICAgICAgICAgICAgICB0eXBlOiAndGV4dCcsCiAgICAgICAgICAgICAgICAgICAgICAgIGNvbnRlbnQ6IHByaXZhdGVDb250ZW50CiAgICAgICAgICAgICAgICAgICAgfSk7CiAgICAgICAgICAgICAgICAgICAgYWRkVG9hc3QoYCR7Y2hhck5hbWV9IOaChOaChOWvueS9oOivtDogJHtwcml2YXRlQ29udGVudC5zdWJzdHJpbmcoMCwgMTUpfS4uLmAsICdpbmZvJyk7CiAgICAgICAgICAgICAgICB9CiAgICAgICAgICAgICAgICAvLyBTdHJpcCB0aGUgcHJpdmF0ZSBjb21tYW5kIGZyb20gdGhlIHB1YmxpYyBjb250ZW50CiAgICAgICAgICAgICAgICBwdWJsaWNDb250ZW50ID0gcHVibGljQ29udGVudC5yZXBsYWNlKG1bMF0sICcnKTsKICAgICAgICAgICAgfQogICAgICAgICAgICBwdWJsaWNDb250ZW50ID0gcHVibGljQ29udGVudC50cmltKCk7CgogICAgICAgICAgICAvLyBJZiBjb250ZW50IGlzIGVtcHR5IGFmdGVyIHN0cmlwcGluZyAocHVyZSBwcml2YXRlIG1lc3NhZ2UpLCBza2lwIHB1YmxpYyByZW5kZXJpbmcKICAgICAgICAgICAgaWYgKCFwdWJsaWNDb250ZW50KSBjb250aW51ZTsKICAgICAgICB9CgogICAgICAgIC8vIDAuNSBbW1FVT1RFOiDljp/or53niYfmrrVdXe+8mkFJIOaDs+mSiOWvueafkOadoeWFt+S9k+WPkeiogOWbnuWkjeOAguS4pOWxguWuuemUmeeyvuelnuKAlOKAlAogICAgICAgIC8vIOWMuemFjeS4jeWIsOebruagh+Wwsemdmem7mOWJpemZpOagh+iusO+8jOe7neS4jeWboOW8leeUqOWksei0peS4ouato+aWhwogICAgICAgIGxldCBxdW90ZVJlcGx5VG86IHsgaWQ6IG51bWJlcjsgY29udGVudDogc3RyaW5nOyBuYW1lOiBzdHJpbmcgfSB8IHVuZGVmaW5lZDsKICAgICAgICBjb25zdCBxdW90ZU1hdGNoID0gcHVibGljQ29udGVudC5tYXRjaCgvXFtcW1xzKlFVT1RFXHMqWzrvvJpdXHMqKFtcc1xTXSo/KVxdXF0vaSk7CiAgICAgICAgaWYgKHF1b3RlTWF0Y2gpIHsKICAgICAgICAgICAgcHVibGljQ29udGVudCA9IHB1YmxpY0NvbnRlbnQucmVwbGFjZShxdW90ZU1hdGNoWzBdLCAnJykudHJpbSgpOwogICAgICAgICAgICBxdW90ZVJlcGx5VG8gPSByZXNvbHZlUXVvdGU/LihxdW90ZU1hdGNoWzFdLnRyaW0oKSk7CiAgICAgICAgfQoKICAgICAgICAvLyAwLjcg57qi5YyF5ZG95Luk77yaW1tHUkFCX1BBQ0tFVF1dIC8gW1tSRVRVUk5fUEFDS0VUXV0gLyBbW1NFTkRfUEFDS0VUOiDigKZdXeOAggogICAgICAgIC8vIOaJvuS4jeWIsOmAgueUqOWMhSAvIOebruagh+WQjeino+aekOWksei0pSDihpIg6Z2Z6buY5Yml5qCH6K6w5L+d5q2j5paHCiAgICAgICAgY29uc3QgcGFja2V0RXh0cmFjdCA9IGV4dHJhY3RQYWNrZXRDb21tYW5kcyhwdWJsaWNDb250ZW50KTsKICAgICAgICBwdWJsaWNDb250ZW50ID0gcGFja2V0RXh0cmFjdC50ZXh0OwogICAgICAgIGZvciAoY29uc3QgY21kIG9mIHBhY2tldEV4dHJhY3QuY29tbWFuZHMpIHsKICAgICAgICAgICAgaWYgKHNpZ25hbD8uYWJvcnRlZCkgcmV0dXJuOwogICAgICAgICAgICBhd2FpdCBleGVjdXRlUGFja2V0Q29tbWFuZChjbWQsIHRhcmdldElkLCBjaGFyTmFtZSwgY3R4KTsKICAgICAgICB9CgogICAgICAgIGlmICghcHVibGljQ29udGVudCkgY29udGludWU7CgogICAgICAgIC8vIDEuIENoZWNrIGZvciBFbW9qaSBDb21tYW5kcyAoaGFuZGxlIG11bHRpcGxlIGVtb2ppcykKICAgICAgICAvLyBGaWx0ZXIgZW1vamlzIGJ5IGNoYXJhY3RlciB2aXNpYmlsaXR5IHRvIHByZXZlbnQgdXNpbmcgaGlkZGVuIGVtb2ppIHBhY2tzCiAgICAgICAgY29uc3QgY2hhclZpc2libGVFbW9qaXMgPSAoKCkgPT4gewogICAgICAgICAgICBjb25zdCB2aXNpYmxlQ2F0cyA9IGNhdGVnb3JpZXMuZmlsdGVyKGMgPT4gewogICAgICAgICAgICAgICAgaWYgKCFjLmFsbG93ZWRDaGFyYWN0ZXJJZHMgfHwgYy5hbGxvd2VkQ2hhcmFjdGVySWRzLmxlbmd0aCA9PT0gMCkgcmV0dXJuIHRydWU7CiAgICAgICAgICAgICAgICByZXR1cm4gYy5hbGxvd2VkQ2hhcmFjdGVySWRzLmluY2x1ZGVzKHRhcmdldElkKTsKICAgICAgICAgICAgfSk7CiAgICAgICAgICAgIGNvbnN0IGhpZGRlbkNhdElkcyA9IG5ldyBTZXQoY2F0ZWdvcmllcy5maWx0ZXIoYyA9PiAhdmlzaWJsZUNhdHMuc29tZSh2YyA9PiB2Yy5pZCA9PT0gYy5pZCkpLm1hcChjID0+IGMuaWQpKTsKICAgICAgICAgICAgaWYgKGhpZGRlbkNhdElkcy5zaXplID09PSAwKSByZXR1cm4gZW1vamlzOwogICAgICAgICAgICByZXR1cm4gZW1vamlzLmZpbHRlcihlID0+ICFlLmNhdGVnb3J5SWQgfHwgIWhpZGRlbkNhdElkcy5oYXMoZS5jYXRlZ29yeUlkKSk7CiAgICAgICAgfSkoKTsKICAgICAgICBjb25zdCBlbW9qaVJlZ2V4ID0gL1xbXFtTRU5EX0VNT0pJOlxzKiguKj8pXF1cXS9nOwogICAgICAgIGxldCBlbW9qaU1hdGNoOwogICAgICAgIHdoaWxlICgoZW1vamlNYXRjaCA9IGVtb2ppUmVnZXguZXhlYyhwdWJsaWNDb250ZW50KSkgIT09IG51bGwpIHsKICAgICAgICAgICAgaWYgKHNpZ25hbD8uYWJvcnRlZCkgcmV0dXJuOwogICAgICAgICAgICBjb25zdCBlbW9qaU5hbWUgPSBlbW9qaU1hdGNoWzFdLnRyaW0oKTsKICAgICAgICAgICAgY29uc3QgZm91bmRFbW9qaSA9IGNoYXJWaXNpYmxlRW1vamlzLmZpbmQoZSA9PiBlLm5hbWUgPT09IGVtb2ppTmFtZSk7CiAgICAgICAgICAgIGlmIChmb3VuZEVtb2ppKSB7CiAgICAgICAgICAgICAgICBhd2FpdCBEQi5zYXZlTWVzc2FnZSh7CiAgICAgICAgICAgICAgICAgICAgY2hhcklkOiB0YXJnZXRJZCwKICAgICAgICAgICAgICAgICAgICBncm91cElkLAogICAgICAgICAgICAgICAgICAgIHJvbGU6ICdhc3Npc3RhbnQnLAogICAgICAgICAgICAgICAgICAgIHR5cGU6ICdlbW9qaScsCiAgICAgICAgICAgICAgICAgICAgY29udGVudDogZm91bmRFbW9qaS51cmwKICAgICAgICAgICAgICAgIH0pOwogICAgICAgICAgICAgICAgYXdhaXQgcmVmcmVzaCgpOwogICAgICAgICAgICAgICAgYXdhaXQgbmV3IFByb21pc2UociA9PiBzZXRUaW1lb3V0KHIsIDgwMCkpOyAvLyBEZWxheSBhZnRlciBlbW9qaQogICAgICAgICAgICB9CiAgICAgICAgfQoKICAgICAgICAvLyAxLjUgSFRNTCDljaHniYfvvIjnvqQgSFRNTCDmqKHlvI/lvIDlkK/ml7bvvInvvJpbaHRtbF0uLi5bL2h0bWxdIOWdl+aKveaIkCBodG1sX2NhcmQg5raI5oGv77yMCiAgICAgICAgLy8g5Ymp5L2Z5paH5pys57un57ut6LWw5YiG5rCU5rOh77yI5a2X5q615a+56b2Q56eB6IGKIGFwcGx5QXNzaXN0YW50UG9zdFByb2Nlc3Npbmcg55qE6JC95bqT5qC85byP77yJCiAgICAgICAgbGV0IGNvbnRlbnRGb3JUZXh0ID0gcHVibGljQ29udGVudDsKICAgICAgICBpZiAoY3R4Lmh0bWxNb2RlICYmIC9cW2h0bWxcXS9pLnRlc3QoY29udGVudEZvclRleHQpKSB7CiAgICAgICAgICAgIGNvbnN0IHsgYmxvY2tzLCBjbGVhbmVkQ29udGVudCB9ID0gZXh0cmFjdEh0bWxCbG9ja3MoY29udGVudEZvclRleHQpOwogICAgICAgICAgICBjb250ZW50Rm9yVGV4dCA9IGNsZWFuZWRDb250ZW50OwogICAgICAgICAgICBmb3IgKGNvbnN0IGJsb2NrIG9mIGJsb2NrcykgewogICAgICAgICAgICAgICAgaWYgKHNpZ25hbD8uYWJvcnRlZCkgcmV0dXJuOwogICAgICAgICAgICAgICAgYXdhaXQgREIuc2F2ZU1lc3NhZ2UoewogICAgICAgICAgICAgICAgICAgIGNoYXJJZDogdGFyZ2V0SWQsCiAgICAgICAgICAgICAgICAgICAgZ3JvdXBJZCwKICAgICAgICAgICAgICAgICAgICByb2xlOiAnYXNzaXN0YW50JywKICAgICAgICAgICAgICAgICAgICB0eXBlOiAnaHRtbF9jYXJkJywKICAgICAgICAgICAgICAgICAgICBjb250ZW50OiBgW0hUTUzljaHniYddICR7YmxvY2sudGV4dFByZXZpZXd9YCwKICAgICAgICAgICAgICAgICAgICBtZXRhZGF0YTogeyBodG1sU291cmNlOiBibG9jay5odG1sLCBodG1sVGV4dFByZXZpZXc6IGJsb2NrLnRleHRQcmV2aWV3IH0sCiAgICAgICAgICAgICAgICB9KTsKICAgICAgICAgICAgICAgIGF3YWl0IHJlZnJlc2goKTsKICAgICAgICAgICAgICAgIGF3YWl0IG5ldyBQcm9taXNlKHIgPT4gc2V0VGltZW91dChyLCAzMDApKTsKICAgICAgICAgICAgfQogICAgICAgIH0KCiAgICAgICAgLy8gMi4gVGV4dCBTcGxpdHRpbmcgKFN0YW5kYXJkIENoYXQgTG9naWMpCiAgICAgICAgLy8gUmVtb3ZlIHRoZSBlbW9qaSB0YWcgaWYgaXQgd2FzIHByb2Nlc3NlZCwgb3IganVzdCBjbGVhbiB1cAogICAgICAgIGNvbnN0IHRleHRDb250ZW50ID0gY29udGVudEZvclRleHQucmVwbGFjZSgvXFtcW1NFTkRfRU1PSkk6Lio/XF1cXS9nLCAnJykudHJpbSgpOwoKICAgICAgICBpZiAodGV4dENvbnRlbnQpIHsKICAgICAgICAgICAgLy8gUHJpbWFyeTogc3BsaXQgb24gbGluZSBicmVha3MKICAgICAgICAgICAgbGV0IGNodW5rcyA9IHRleHRDb250ZW50LnNwbGl0KC8oPzpcclxufFxyfFxufFx1MjAyOHxcdTIwMjkpKy8pCiAgICAgICAgICAgICAgICAubWFwKGMgPT4gYy50cmltKCkpCiAgICAgICAgICAgICAgICAuZmlsdGVyKGMgPT4gYy5sZW5ndGggPiAwKTsKCiAgICAgICAgICAgIC8vIEZhbGxiYWNrOiBzcGxpdCBvbiBzcGFjZXMgYmV0d2VlbiBDSksgY2hhcmFjdGVycyAo5Lit5paH6YeM56m65qC8PUFJ5oOz5o2i6KGMKQogICAgICAgICAgICBpZiAoY2h1bmtzLmxlbmd0aCA8PSAxICYmIHRleHRDb250ZW50LnRyaW0oKS5sZW5ndGggPiA1MCkgewogICAgICAgICAgICAgICAgLy8gTm8gbG9va2JlaGluZCAoPzw9KTogaU9TIFNhZmFyaSA8MTYuNCBKU0MgZG9lc24ndCBzdXBwb3J0IGl0OyBvbGQKICAgICAgICAgICAgICAgIC8vIGRldmljZXMgdGhyb3cgImludmFsaWQgZ3JvdXAgc3BlY2lmaWVyIG5hbWUiIGF0IG5ldyBSZWdFeHAuIENhcHR1cmUgdGhlCiAgICAgICAgICAgICAgICAvLyBsZWZ0IGNoYXIgKGZ1bGwgcHVuY3Qgc2V0KSArIHplcm8td2lkdGggbG9va2FoZWFkIG9uIHRoZSByaWdodCAoSGFuIG9ubHkpLAogICAgICAgICAgICAgICAgLy8gbWFyayBzcGxpdCBwb2ludHMgd2l0aCBceDAxLCByZXN0b3JlIGxlZnQgY2hhciB2aWEgJDEuIExlZnQvcmlnaHQgc2V0cwogICAgICAgICAgICAgICAgLy8gZGlmZmVyLCBzbyB0aGV5IGNhbid0IGJlIG1lcmdlZC4gQnl0ZS1lcXVpdmFsZW50IChzZWUgbG9va2JlaGluZEZyZWUudGVzdC50cykuCiAgICAgICAgICAgICAgICBjb25zdCBTUExJVCA9IFN0cmluZy5mcm9tQ2hhckNvZGUoMSk7CiAgICAgICAgICAgICAgICBjaHVua3MgPSB0ZXh0Q29udGVudAogICAgICAgICAgICAgICAgICAgIC5yZXBsYWNlKC8oW1x1NGUwMC1cdTlmZmZcdTM0MDAtXHU0ZGJmXHUzMDAwLVx1MzAzZlx1ZmYwMC1cdWZmZWZcdTIwMDAtXHUyMDZmXHUyZTgwLVx1MmVmZlx1MzAwMS1cdTMwMDNcdTIwMTgtXHUyMDFmXHUzMDBhLVx1MzAwZlx1ZmYwMS1cdWZmMGZcdWZmMWEtXHVmZjIwXSlccysoPz1bXHU0ZTAwLVx1OWZmZlx1MzQwMC1cdTRkYmZdKS9nLCBgJDEke1NQTElUfWApCiAgICAgICAgICAgICAgICAgICAgLnNwbGl0KFNQTElUKQogICAgICAgICAgICAgICAgICAgIC5tYXAoYyA9PiBjLnRyaW0oKSkKICAgICAgICAgICAgICAgICAgICAuZmlsdGVyKGMgPT4gYy5sZW5ndGggPiAwKTsKICAgICAgICAgICAgfQoKICAgICAgICAgICAgaWYgKGNodW5rcy5sZW5ndGggPT09IDApIGNodW5rcy5wdXNoKHRleHRDb250ZW50KTsgLy8gRmFsbGJhY2sKCiAgICAgICAgICAgIGZvciAoY29uc3QgY2h1bmsgb2YgY2h1bmtzKSB7CiAgICAgICAgICAgICAgICBpZiAoc2lnbmFsPy5hYm9ydGVkKSByZXR1cm47CiAgICAgICAgICAgICAgICAvLyBUeXBpbmcgZGVsYXkKICAgICAgICAgICAgICAgIGNvbnN0IGRlbGF5ID0gTWF0aC5tYXgoNTAwLCBjaHVuay5sZW5ndGggKiA1MCArIE1hdGgucmFuZG9tKCkgKiAyMDApOwogICAgICAgICAgICAgICAgYXdhaXQgbmV3IFByb21pc2UociA9PiBzZXRUaW1lb3V0KHIsIGRlbGF5KSk7CiAgICAgICAgICAgICAgICBpZiAoc2lnbmFsPy5hYm9ydGVkKSByZXR1cm47CgogICAgICAgICAgICAgICAgYXdhaXQgREIuc2F2ZU1lc3NhZ2UoewogICAgICAgICAgICAgICAgICAgIGNoYXJJZDogdGFyZ2V0SWQsCiAgICAgICAgICAgICAgICAgICAgZ3JvdXBJZCwKICAgICAgICAgICAgICAgICAgICByb2xlOiAnYXNzaXN0YW50JywKICAgICAgICAgICAgICAgICAgICB0eXBlOiAndGV4dCcsCiAgICAgICAgICAgICAgICAgICAgY29udGVudDogY2h1bmssCiAgICAgICAgICAgICAgICAgICAgLy8g5byV55So5Y+q5oyC56ys5LiA5p2h5paH5a2X5rCU5rOhCiAgICAgICAgICAgICAgICAgICAgLi4uKHF1b3RlUmVwbHlUbyA/IHsgcmVwbHlUbzogcXVvdGVSZXBseVRvIH0gOiB7fSksCiAgICAgICAgICAgICAgICB9KTsKICAgICAgICAgICAgICAgIHF1b3RlUmVwbHlUbyA9IHVuZGVmaW5lZDsKICAgICAgICAgICAgICAgIGF3YWl0IHJlZnJlc2goKTsKICAgICAgICAgICAgfQogICAgICAgIH0KICAgIH0KfQoKLyoqIOe6ouWMheebruagh+WQjSDihpIgY2xhaW1hbnRJZO+8mueyvuehruaIkOWRmOWQjSDihpIg5qih57OKIOKGkiDnlKjmiLfvvJvlpLHotKUgdW5kZWZpbmVk77yI6LCD55So5pa55Lii5ZG95Luk5L+d5q2j5paH77yJICovCmZ1bmN0aW9uIHJlc29sdmVQYWNrZXRUYXJnZXQobmFtZTogc3RyaW5nLCBjdHg6IERpc3BhdGNoQ29udGV4dCk6IHN0cmluZyB8IHVuZGVmaW5lZCB7CiAgICBjb25zdCBuID0gbmFtZS50cmltKCk7CiAgICBpZiAoIW4pIHJldHVybiB1bmRlZmluZWQ7CiAgICBpZiAobiA9PT0gY3R4LnVzZXJOYW1lIHx8IG4gPT09ICfnlKjmiLcnKSByZXR1cm4gJ3VzZXInOwogICAgY29uc3QgbWVtYmVycyA9IGN0eC5jaGFyYWN0ZXJzLmZpbHRlcihjID0+IGN0eC5tZW1iZXJJZHMuaW5jbHVkZXMoYy5pZCkpOwogICAgY29uc3QgZXhhY3QgPSBtZW1iZXJzLmZpbmQoYyA9PiBjLm5hbWUgPT09IG4pOwogICAgaWYgKGV4YWN0KSByZXR1cm4gZXhhY3QuaWQ7CiAgICBjb25zdCBmdXp6eSA9IG1lbWJlcnMuZmluZChjID0+IGMubmFtZS5pbmNsdWRlcyhuKSB8fCBuLmluY2x1ZGVzKGMubmFtZSkpOwogICAgaWYgKGZ1enp5KSByZXR1cm4gZnV6enkuaWQ7CiAgICBpZiAoY3R4LnVzZXJOYW1lICYmIChjdHgudXNlck5hbWUuaW5jbHVkZXMobikgfHwgbi5pbmNsdWRlcyhjdHgudXNlck5hbWUpKSkgcmV0dXJuICd1c2VyJzsKICAgIHJldHVybiB1bmRlZmluZWQ7Cn0KCi8qKgogKiDmiafooYzop5LoibLnmoTnuqLljIXlkb3ku6TjgIIKICogLSBzZW5k77ya5Y+R5paw57qi5YyF77yIZGlyZWN0IOebruagh+ino+aekOWksei0peWImeS4ouW8g+WRveS7pO+8iQogKiAtIGdyYWIvcmV0dXJu77ya5LuO5paw5Yiw5pen5om+6YCC55So5YyF77yI5Y+R57uZ6Ieq5bex55qEIGRpcmVjdCDkvJjlhYjvvIzlhbbmrKHlj6/miqLnmoQgbHVja3nvvInvvIwKICogICDpgJrov4cgdXBkYXRlTWVzc2FnZU1ldGFkYXRhIOS6i+WKoeWGhemHjei3kSBjbGFpbVBhY2tldCDpmLLlubblj5Hlj4zlhpnvvIwKICogICDmiJDlip/lkI7okL3lm57miafmtojmga/jgILku7vkvZXlpLHotKXpg73pnZnpu5jov5Tlm57vvIjmraPmloflt7LlnKjosIPnlKjmlrnkv53kvY/vvInjgIIKICovCmFzeW5jIGZ1bmN0aW9uIGV4ZWN1dGVQYWNrZXRDb21tYW5kKAogICAgY21kOiBQYWNrZXRDb21tYW5kLAogICAgYWN0b3JJZDogc3RyaW5nLAogICAgYWN0b3JOYW1lOiBzdHJpbmcsCiAgICBjdHg6IERpc3BhdGNoQ29udGV4dCwKKTogUHJvbWlzZTx2b2lkPiB7CiAgICBjb25zdCB7IGdyb3VwSWQsIGNoYXJhY3RlcnMsIHVzZXJOYW1lLCByZWZyZXNoIH0gPSBjdHg7CiAgICBjb25zdCBuYW1lT2YgPSAoaWQ6IHN0cmluZykgPT4gKGlkID09PSAndXNlcicgPyB1c2VyTmFtZSA6IGNoYXJhY3RlcnMuZmluZChjID0+IGMuaWQgPT09IGlkKT8ubmFtZSB8fCAn5oiQ5ZGYJyk7CgogICAgaWYgKGNtZC5raW5kID09PSAnc2VuZCcpIHsKICAgICAgICBpZiAoIWNtZC5zZW5kKSByZXR1cm47CiAgICAgICAgbGV0IHBhY2tldFRhcmdldElkOiBzdHJpbmcgfCB1bmRlZmluZWQ7CiAgICAgICAgaWYgKGNtZC5zZW5kLnBhY2tldFR5cGUgPT09ICdkaXJlY3QnKSB7CiAgICAgICAgICAgIHBhY2tldFRhcmdldElkID0gcmVzb2x2ZVBhY2tldFRhcmdldChjbWQuc2VuZC50YXJnZXROYW1lIHx8ICcnLCBjdHgpOwogICAgICAgICAgICBpZiAoIXBhY2tldFRhcmdldElkKSByZXR1cm47IC8vIOWQjeWtl+ino+aekOS4jeWHuuadpe+8jOS4jeiQveWNiuaIkOWTgee6ouWMhQogICAgICAgIH0KICAgICAgICBjb25zdCBtZXRhID0gbWFrZVBhY2tldE1ldGEoewogICAgICAgICAgICBwYWNrZXRUeXBlOiBjbWQuc2VuZC5wYWNrZXRUeXBlLAogICAgICAgICAgICB0b3RhbEFtb3VudDogY21kLnNlbmQudG90YWxBbW91bnQsCiAgICAgICAgICAgIHNoYXJlczogY21kLnNlbmQuc2hhcmVzLAogICAgICAgICAgICB0YXJnZXRJZDogcGFja2V0VGFyZ2V0SWQsCiAgICAgICAgICAgIG5vdGU6IGNtZC5zZW5kLm5vdGUsCiAgICAgICAgICAgIG5vdzogRGF0ZS5ub3coKSwKICAgICAgICB9KTsKICAgICAgICBhd2FpdCBEQi5zYXZlTWVzc2FnZSh7IGNoYXJJZDogYWN0b3JJZCwgZ3JvdXBJZCwgcm9sZTogJ2Fzc2lzdGFudCcsIHR5cGU6ICd0cmFuc2ZlcicsIGNvbnRlbnQ6ICdb57qi5YyFXScsIG1ldGFkYXRhOiBtZXRhIH0pOwogICAgICAgIGF3YWl0IHJlZnJlc2goKTsKICAgICAgICByZXR1cm47CiAgICB9CgogICAgLy8gZ3JhYiAvIHJldHVybgogICAgY29uc3QgbXNncyA9IGF3YWl0IERCLmdldEdyb3VwTWVzc2FnZXMoZ3JvdXBJZCk7CiAgICBjb25zdCBub3cgPSBEYXRlLm5vdygpOwogICAgY29uc3QgcGFja2V0cyA9IG1zZ3MuZmlsdGVyKG0gPT4gbS50eXBlID09PSAndHJhbnNmZXInICYmIChtLm1ldGFkYXRhIGFzIEdyb3VwUGFja2V0TWV0YSB8IHVuZGVmaW5lZCk/LnBhY2tldCk7CiAgICBjb25zdCBuZXdlc3RGaXJzdCA9IFsuLi5wYWNrZXRzXS5yZXZlcnNlKCk7CiAgICAvLyDlj5Hnu5noh6rlt7HnmoQgZGlyZWN0IOS8mOWFiO+8m+WFtuasoe+8iOS7hSBncmFi77yJ6L+Y5rKh5oqi6L+H55qEIGx1Y2t5CiAgICBjb25zdCBkaXJlY3RUYXJnZXRlZCA9IG5ld2VzdEZpcnN0LmZpbmQobSA9PiB7CiAgICAgICAgY29uc3QgbWV0YSA9IG0ubWV0YWRhdGEgYXMgR3JvdXBQYWNrZXRNZXRhOwogICAgICAgIHJldHVybiBtZXRhLnBhY2tldFR5cGUgPT09ICdkaXJlY3QnICYmIG1ldGEudGFyZ2V0SWQgPT09IGFjdG9ySWQgJiYgZWZmZWN0aXZlUGFja2V0U3RhdHVzKG1ldGEsIG5vdykgPT09ICdwZW5kaW5nJzsKICAgIH0pOwogICAgY29uc3QgbHVja3lPcGVuID0gY21kLmtpbmQgPT09ICdncmFiJwogICAgICAgID8gbmV3ZXN0Rmlyc3QuZmluZChtID0+IHsKICAgICAgICAgICAgY29uc3QgbWV0YSA9IG0ubWV0YWRhdGEgYXMgR3JvdXBQYWNrZXRNZXRhOwogICAgICAgICAgICByZXR1cm4gbWV0YS5wYWNrZXRUeXBlID09PSAnbHVja3knCiAgICAgICAgICAgICAgICAmJiBlZmZlY3RpdmVQYWNrZXRTdGF0dXMobWV0YSwgbm93KSA9PT0gJ3BlbmRpbmcnCiAgICAgICAgICAgICAgICAmJiAhbWV0YS5jbGFpbXMuc29tZShjID0+IGMuY2xhaW1hbnRJZCA9PT0gYWN0b3JJZCk7CiAgICAgICAgfSkKICAgICAgICA6IHVuZGVmaW5lZDsKICAgIGNvbnN0IHRhcmdldE1zZzogTWVzc2FnZSB8IHVuZGVmaW5lZCA9IGRpcmVjdFRhcmdldGVkIHx8IGx1Y2t5T3BlbjsKICAgIGlmICghdGFyZ2V0TXNnKSByZXR1cm47CgogICAgY29uc3QgYWN0aW9uID0gY21kLmtpbmQgPT09ICdyZXR1cm4nID8gJ3JldHVybicgOiAnY2xhaW0nOwogICAgLy8gYGFzIENsYWltUmVzdWx0YCDkv53kvY/ogZTlkIjnsbvlnovvvJrotYvlgLzlj5HnlJ/lnKjlm57osIPph4zvvIxUUyDmtYHliIbmnpDov73kuI3liLDvvIwKICAgIC8vIOS4jSBjYXN0IOS8muaKiiBvdXRjb21lIOeqhOWMluaIkCB7b2s6ZmFsc2V9IOWIhuaUr+WvvOiHtOS4i+aWuSAuYWN0aW9uIOaKpSBuZXZlcgogICAgbGV0IG91dGNvbWUgPSB7IG9rOiBmYWxzZSwgcmVhc29uOiAnbm90X3BlbmRpbmcnIH0gYXMgQ2xhaW1SZXN1bHQ7CiAgICBhd2FpdCBEQi51cGRhdGVNZXNzYWdlTWV0YWRhdGEodGFyZ2V0TXNnLmlkLCAocHJldikgPT4gewogICAgICAgIC8vIHVwZGF0ZXIg5YaF6YeN6LeR54q25oCB5py677ya5Lul5bqT5YaF5pyA5pawIGNsYWltcyDliKTph43vvIzpmLLmraLkuI7nlKjmiLfngrnjgIzmiqLjgI3lubblj5Hlj4zlhpkKICAgICAgICBvdXRjb21lID0gY2xhaW1QYWNrZXQocHJldiBhcyBHcm91cFBhY2tldE1ldGEsIGFjdG9ySWQsIG5vdywgYWN0aW9uKTsKICAgICAgICByZXR1cm4gb3V0Y29tZS5vayA/IG91dGNvbWUubWV0YSA6IHByZXY7CiAgICB9KS5jYXRjaCgoKSA9PiB7IC8qIOa2iOaBr+iiq+WIoOetieKAlOKAlOmdmem7mCAqLyB9KTsKICAgIGlmICghb3V0Y29tZS5vaykgcmV0dXJuOwoKICAgIGNvbnN0IHNlbmRlck5hbWUgPSB0YXJnZXRNc2cucm9sZSA9PT0gJ3VzZXInID8gdXNlck5hbWUgOiBuYW1lT2YodGFyZ2V0TXNnLmNoYXJJZCk7CiAgICBjb25zdCByZWNlaXB0OiBQYWNrZXRSZWNlaXB0TWV0YSA9IHsKICAgICAgICBwYWNrZXRSZWNlaXB0OiBvdXRjb21lLmFjdGlvbiwKICAgICAgICByZWY6IHRhcmdldE1zZy5pZCwKICAgICAgICBhbW91bnQ6IG91dGNvbWUuYWN0aW9uID09PSAnY2xhaW1lZCcgPyBvdXRjb21lLmFtb3VudCA6IHVuZGVmaW5lZCwKICAgICAgICBjbGFpbWFudE5hbWU6IGFjdG9yTmFtZSwKICAgICAgICBzZW5kZXJOYW1lLAogICAgfTsKICAgIGF3YWl0IERCLnNhdmVNZXNzYWdlKHsKICAgICAgICBjaGFySWQ6IGFjdG9ySWQsCiAgICAgICAgZ3JvdXBJZCwKICAgICAgICByb2xlOiAnYXNzaXN0YW50JywKICAgICAgICB0eXBlOiAndHJhbnNmZXInLAogICAgICAgIGNvbnRlbnQ6IG91dGNvbWUuYWN0aW9uID09PSAnY2xhaW1lZCcgPyAnW+mihuWPlue6ouWMhV0nIDogJ1vpgIDlm57nuqLljIVdJywKICAgICAgICBtZXRhZGF0YTogcmVjZWlwdCwKICAgIH0pOwogICAgYXdhaXQgcmVmcmVzaCgpOwp9Cg==
+// 群聊动作派发 —— 从 GroupChat.tsx triggerDirector 抽出的执行层（PRIVATE 侧信道、
+// 表情包、气泡分段、打字延迟），导演模式与轮询模式共用。
+import { DB } from '../db';
+import { CharacterProfile, EmojiCategory, Message, Toast } from '../../types';
+import { DirectorAction } from './parse';
+import {
+    GroupPacketMeta,
+    PacketReceiptMeta,
+    PacketCommand,
+    ClaimResult,
+    claimPacket,
+    effectivePacketStatus,
+    extractPacketCommands,
+    makePacketMeta,
+} from './redpacket';
+import { extractHtmlBlocks } from '../htmlPrompt';
+
+interface EmojiItem { name: string; url: string; categoryId?: string }
+
+export interface DispatchContext {
+    groupId: string;
+    /** 群成员 id 列表——charId 不在其中的动作直接丢弃 */
+    memberIds: string[];
+    characters: CharacterProfile[];
+    emojis: EmojiItem[];
+    categories: EmojiCategory[];
+    /** 每条气泡落库后刷新 UI（GroupChat 的 refreshMessages） */
+    refresh: () => Promise<unknown>;
+    addToast: (message: string, type?: Toast['type']) => void;
+    /** 中途取消：每次延迟/落库前检查，aborted 后提前返回 */
+    signal?: AbortSignal;
+    /** [[QUOTE: 原话片段]] 解析：按片段找被引用消息，找不到返回 undefined（标记静默剥除） */
+    resolveQuote?: (snippet: string) => { id: number; content: string; name: string } | undefined;
+    /** 用户显示名——红包目标解析（direct:用户名）与回执命名用 */
+    userName: string;
+    /** 群 HTML 模块模式开启时解析 [html] 块为 html_card 消息 */
+    htmlMode?: boolean;
+}
+
+/**
+ * 逐条执行成员动作：解析 [[PRIVATE:]] 进私聊频道、[[SEND_EMOJI:]] 发表情、
+ * 剩余文本按换行分气泡带打字延迟落库。逻辑逐字搬自 triggerDirector，
+ * 仅把 `setMessages(await DB.getGroupMessages(...))` 换成 ctx.refresh()、加 signal 检查。
+ */
+export async function dispatchMemberActions(actions: DirectorAction[], ctx: DispatchContext): Promise<void> {
+    const { groupId, memberIds, characters, emojis, categories, refresh, addToast, signal, resolveQuote } = ctx;
+
+    for (const action of actions) {
+        if (signal?.aborted) return;
+        const targetId = memberIds.find(id => id === action.charId);
+        if (!targetId) continue;
+        const charName = characters.find(c => c.id === targetId)?.name || '成员';
+
+        // 0. Check for Private Message Command (Regex updated for robustness)
+        let publicContent = action.content;
+        const privateMatches: RegExpExecArray[] = [];
+        // Handle multiple private messages in one block or mixed content
+        const privateRegex = /\[\[PRIVATE\s*[:：]\s*([\s\S]*?)\]\]/g;
+        let match;
+        while ((match = privateRegex.exec(publicContent)) !== null) {
+            privateMatches.push(match);
+        }
+
+        if (privateMatches.length > 0) {
+            for (const m of privateMatches) {
+                const privateContent = m[1].trim();
+                if (privateContent) {
+                    // Save to private chat (no groupId)
+                    await DB.saveMessage({
+                        charId: targetId,
+                        role: 'assistant',
+                        type: 'text',
+                        content: privateContent
+                    });
+                    addToast(`${charName} 悄悄对你说: ${privateContent.substring(0, 15)}...`, 'info');
+                }
+                // Strip the private command from the public content
+                publicContent = publicContent.replace(m[0], '');
+            }
+            publicContent = publicContent.trim();
+
+            // If content is empty after stripping (pure private message), skip public rendering
+            if (!publicContent) continue;
+        }
+
+        // 0.5 [[QUOTE: 原话片段]]：AI 想针对某条具体发言回复。两层容错精神——
+        // 匹配不到目标就静默剥除标记，绝不因引用失败丢正文
+        let quoteReplyTo: { id: number; content: string; name: string } | undefined;
+        const quoteMatch = publicContent.match(/\[\[\s*QUOTE\s*[:：]\s*([\s\S]*?)\]\]/i);
+        if (quoteMatch) {
+            publicContent = publicContent.replace(quoteMatch[0], '').trim();
+            quoteReplyTo = resolveQuote?.(quoteMatch[1].trim());
+        }
+
+        // 0.7 红包命令：[[GRAB_PACKET]] / [[RETURN_PACKET]] / [[SEND_PACKET: …]]。
+        // 找不到适用包 / 目标名解析失败 → 静默剥标记保正文
+        const packetExtract = extractPacketCommands(publicContent);
+        publicContent = packetExtract.text;
+        for (const cmd of packetExtract.commands) {
+            if (signal?.aborted) return;
+            await executePacketCommand(cmd, targetId, charName, ctx);
+        }
+
+        if (!publicContent) continue;
+
+        // 1. Check for Emoji Commands (handle multiple emojis)
+        // Filter emojis by character visibility to prevent using hidden emoji packs
+        const charVisibleEmojis = (() => {
+            const visibleCats = categories.filter(c => {
+                if (!c.allowedCharacterIds || c.allowedCharacterIds.length === 0) return true;
+                return c.allowedCharacterIds.includes(targetId);
+            });
+            const hiddenCatIds = new Set(categories.filter(c => !visibleCats.some(vc => vc.id === c.id)).map(c => c.id));
+            if (hiddenCatIds.size === 0) return emojis;
+            return emojis.filter(e => !e.categoryId || !hiddenCatIds.has(e.categoryId));
+        })();
+        const emojiRegex = /\[\[SEND_EMOJI:\s*(.*?)\]\]/g;
+        let emojiMatch;
+        while ((emojiMatch = emojiRegex.exec(publicContent)) !== null) {
+            if (signal?.aborted) return;
+            const emojiName = emojiMatch[1].trim();
+            const foundEmoji = charVisibleEmojis.find(e => e.name === emojiName);
+            if (foundEmoji) {
+                await DB.saveMessage({
+                    charId: targetId,
+                    groupId,
+                    role: 'assistant',
+                    type: 'emoji',
+                    content: foundEmoji.url
+                });
+                await refresh();
+                await new Promise(r => setTimeout(r, 800)); // Delay after emoji
+            }
+        }
+
+        // 1.5 HTML 卡片（群 HTML 模式开启时）：[html]...[/html] 块抽成 html_card 消息，
+        // 剩余文本继续走分气泡（字段对齐私聊 applyAssistantPostProcessing 的落库格式）
+        let contentForText = publicContent;
+        if (ctx.htmlMode && /\[html\]/i.test(contentForText)) {
+            const { blocks, cleanedContent } = extractHtmlBlocks(contentForText);
+            contentForText = cleanedContent;
+            for (const block of blocks) {
+                if (signal?.aborted) return;
+                await DB.saveMessage({
+                    charId: targetId,
+                    groupId,
+                    role: 'assistant',
+                    type: 'html_card',
+                    content: `[HTML卡片] ${block.textPreview}`,
+                    metadata: { htmlSource: block.html, htmlTextPreview: block.textPreview },
+                });
+                await refresh();
+                await new Promise(r => setTimeout(r, 300));
+            }
+        }
+
+        // 2. Text Splitting (Standard Chat Logic)
+        // Remove the emoji tag if it was processed, or just clean up
+        const textContent = contentForText.replace(/\[\[SEND_EMOJI:.*?\]\]/g, '').trim();
+
+        if (textContent) {
+            // Primary: split on line breaks
+            let chunks = textContent.split(/(?:\r\n|\r|\n|\u2028|\u2029)+/)
+                .map(c => c.trim())
+                .filter(c => c.length > 0);
+
+            // Fallback: split on spaces between CJK characters (中文里空格=AI想换行)
+            if (chunks.length <= 1 && textContent.trim().length > 50) {
+                // No lookbehind (?<=): iOS Safari <16.4 JSC doesn't support it; old
+                // devices throw "invalid group specifier name" at new RegExp. Capture the
+                // left char (full punct set) + zero-width lookahead on the right (Han only),
+                // mark split points with \x01, restore left char via $1. Left/right sets
+                // differ, so they can't be merged. Byte-equivalent (see lookbehindFree.test.ts).
+                const SPLIT = String.fromCharCode(1);
+                chunks = textContent
+                    .replace(/([\u4e00-\u9fff\u3400-\u4dbf\u3000-\u303f\uff00-\uffef\u2000-\u206f\u2e80-\u2eff\u3001-\u3003\u2018-\u201f\u300a-\u300f\uff01-\uff0f\uff1a-\uff20])\s+(?=[\u4e00-\u9fff\u3400-\u4dbf])/g, `$1${SPLIT}`)
+                    .split(SPLIT)
+                    .map(c => c.trim())
+                    .filter(c => c.length > 0);
+            }
+
+            if (chunks.length === 0) chunks.push(textContent); // Fallback
+
+            for (const chunk of chunks) {
+                if (signal?.aborted) return;
+                // Typing delay
+                const delay = Math.max(500, chunk.length * 50 + Math.random() * 200);
+                await new Promise(r => setTimeout(r, delay));
+                if (signal?.aborted) return;
+
+                await DB.saveMessage({
+                    charId: targetId,
+                    groupId,
+                    role: 'assistant',
+                    type: 'text',
+                    content: chunk,
+                    // 引用只挂第一条文字气泡
+                    ...(quoteReplyTo ? { replyTo: quoteReplyTo } : {}),
+                });
+                quoteReplyTo = undefined;
+                await refresh();
+            }
+        }
+    }
+}
+
+/** 红包目标名 → claimantId：精确成员名 → 模糊 → 用户；失败 undefined（调用方丢命令保正文） */
+function resolvePacketTarget(name: string, ctx: DispatchContext): string | undefined {
+    const n = name.trim();
+    if (!n) return undefined;
+    if (n === ctx.userName || n === '用户') return 'user';
+    const members = ctx.characters.filter(c => ctx.memberIds.includes(c.id));
+    const exact = members.find(c => c.name === n);
+    if (exact) return exact.id;
+    const fuzzy = members.find(c => c.name.includes(n) || n.includes(c.name));
+    if (fuzzy) return fuzzy.id;
+    if (ctx.userName && (ctx.userName.includes(n) || n.includes(ctx.userName))) return 'user';
+    return undefined;
+}
+
+/**
+ * 执行角色的红包命令。
+ * - send：发新红包（direct 目标解析失败则丢弃命令）
+ * - grab/return：从新到旧找适用包（发给自己的 direct 优先，其次可抢的 lucky），
+ *   通过 updateMessageMetadata 事务内重跑 claimPacket 防并发双写，
+ *   成功后落回执消息。任何失败都静默返回（正文已在调用方保住）。
+ */
+async function executePacketCommand(
+    cmd: PacketCommand,
+    actorId: string,
+    actorName: string,
+    ctx: DispatchContext,
+): Promise<void> {
+    const { groupId, characters, userName, refresh } = ctx;
+    const nameOf = (id: string) => (id === 'user' ? userName : characters.find(c => c.id === id)?.name || '成员');
+
+    if (cmd.kind === 'send') {
+        if (!cmd.send) return;
+        let packetTargetId: string | undefined;
+        if (cmd.send.packetType === 'direct') {
+            packetTargetId = resolvePacketTarget(cmd.send.targetName || '', ctx);
+            if (!packetTargetId) return; // 名字解析不出来，不落半成品红包
+        }
+        const meta = makePacketMeta({
+            packetType: cmd.send.packetType,
+            totalAmount: cmd.send.totalAmount,
+            shares: cmd.send.shares,
+            targetId: packetTargetId,
+            note: cmd.send.note,
+            now: Date.now(),
+        });
+        await DB.saveMessage({ charId: actorId, groupId, role: 'assistant', type: 'transfer', content: '[红包]', metadata: meta });
+        await refresh();
+        return;
+    }
+
+    // grab / return
+    const msgs = await DB.getGroupMessages(groupId);
+    const now = Date.now();
+    const packets = msgs.filter(m => m.type === 'transfer' && (m.metadata as GroupPacketMeta | undefined)?.packet);
+    const newestFirst = [...packets].reverse();
+    // 发给自己的 direct 优先；其次（仅 grab）还没抢过的 lucky
+    const directTargeted = newestFirst.find(m => {
+        const meta = m.metadata as GroupPacketMeta;
+        return meta.packetType === 'direct' && meta.targetId === actorId && effectivePacketStatus(meta, now) === 'pending';
+    });
+    const luckyOpen = cmd.kind === 'grab'
+        ? newestFirst.find(m => {
+            const meta = m.metadata as GroupPacketMeta;
+            return meta.packetType === 'lucky'
+                && effectivePacketStatus(meta, now) === 'pending'
+                && !meta.claims.some(c => c.claimantId === actorId);
+        })
+        : undefined;
+    const targetMsg: Message | undefined = directTargeted || luckyOpen;
+    if (!targetMsg) return;
+
+    const action = cmd.kind === 'return' ? 'return' : 'claim';
+    // `as ClaimResult` 保住联合类型：赋值发生在回调里，TS 流分析追不到，
+    // 不 cast 会把 outcome 窄化成 {ok:false} 分支导致下方 .action 报 never
+    let outcome = { ok: false, reason: 'not_pending' } as ClaimResult;
+    await DB.updateMessageMetadata(targetMsg.id, (prev) => {
+        // updater 内重跑状态机：以库内最新 claims 判重，防止与用户点「抢」并发双写
+        outcome = claimPacket(prev as GroupPacketMeta, actorId, now, action);
+        return outcome.ok ? outcome.meta : prev;
+    }).catch(() => { /* 消息被删等——静默 */ });
+    if (!outcome.ok) return;
+
+    const senderName = targetMsg.role === 'user' ? userName : nameOf(targetMsg.charId);
+    const receipt: PacketReceiptMeta = {
+        packetReceipt: outcome.action,
+        ref: targetMsg.id,
+        amount: outcome.action === 'claimed' ? outcome.amount : undefined,
+        claimantName: actorName,
+        senderName,
+    };
+    await DB.saveMessage({
+        charId: actorId,
+        groupId,
+        role: 'assistant',
+        type: 'transfer',
+        content: outcome.action === 'claimed' ? '[领取红包]' : '[退回红包]',
+        metadata: receipt,
+    });
+    await refresh();
+}

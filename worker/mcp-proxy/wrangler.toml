@@ -1,1 +1,7 @@
-bmFtZSA9ICJzdWxseW9zLW1jcC1wcm94eSIKbWFpbiA9ICJ3b3JrZXIuanMiCmNvbXBhdGliaWxpdHlfZGF0ZSA9ICIyMDI1LTAxLTAxIgoKIyDlj6/pgInvvJrpmLLnmb3lq5blr4bpkqXjgILpg6jnvbLlkI7miafooYwKIyAgIHdyYW5nbGVyIHNlY3JldCBwdXQgUFJPWFlfS0VZCiMg54S25ZCO5ZyoIFN1bGx5T1Mg6K6+572u55qE44CM5Luj55CG5a+G6ZKl44CN6YeM5aGr5ZCM5LiA5Liq5YC844CCCg==
+name = "sullyos-mcp-proxy"
+main = "worker.js"
+compatibility_date = "2025-01-01"
+
+# 可选：防白嫖密钥。部署后执行
+#   wrangler secret put PROXY_KEY
+# 然后在 SullyOS 设置的「代理密钥」里填同一个值。

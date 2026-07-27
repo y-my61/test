@@ -1,1 +1,288 @@
-LyoqCiAqIOe9keaYk+S6keeZu+W9lemdouadvwogKiAtIOaJq+eggeeZu+W9lSAoL2xvZ2luL3FyL2tleSDihpIgL2xvZ2luL3FyL2NyZWF0ZSDihpIgL2xvZ2luL3FyL2NoZWNrIOi9ruivoikKICogLSDmiYvmnLrpqozor4HnoIHnmbvlvZUgKC9jYXB0Y2hhL3NlbnQg4oaSIC9sb2dpbi9jZWxscGhvbmUpCiAqIC0g5omL5Yqo57KY6LS0IE1VU0lDX1UgQ29va2llCiAqLwppbXBvcnQgUmVhY3QsIHsgdXNlQ2FsbGJhY2ssIHVzZUVmZmVjdCwgdXNlUmVmLCB1c2VTdGF0ZSB9IGZyb20gJ3JlYWN0JzsKaW1wb3J0IHsgdXNlT1MgfSBmcm9tICcuLi8uLi9jb250ZXh0L09TQ29udGV4dCc7CmltcG9ydCB7IHVzZU11c2ljLCBtdXNpY0FwaSB9IGZyb20gJy4uLy4uL2NvbnRleHQvTXVzaWNDb250ZXh0JzsKaW1wb3J0IHsgQywgU3BhcmtsZSwgTWl6dUhlYWRlciwgQm9rZWhCZyB9IGZyb20gJy4vTXVzaWNVSSc7Cgp0eXBlIE1vZGUgPSAncXInIHwgJ3Bob25lJyB8ICdtYW51YWwnOwoKaW50ZXJmYWNlIFByb3BzIHsKICBvbkJhY2s6ICgpID0+IHZvaWQ7CiAgb25Mb2dnZWRJbjogKGNvb2tpZTogc3RyaW5nKSA9PiB2b2lkOwp9Cgpjb25zdCBOZXRlYXNlTG9naW5QYW5lbDogUmVhY3QuRkM8UHJvcHM+ID0gKHsgb25CYWNrLCBvbkxvZ2dlZEluIH0pID0+IHsKICBjb25zdCB7IGFkZFRvYXN0IH0gPSB1c2VPUygpOwogIGNvbnN0IHsgY2ZnIH0gPSB1c2VNdXNpYygpOwoKICBjb25zdCBbbW9kZSwgc2V0TW9kZV0gPSB1c2VTdGF0ZTxNb2RlPigncXInKTsKCiAgLyog4pSA4pSAIOaJq+eggSDilIDilIAgKi8KICBjb25zdCBbcXJLZXksIHNldFFyS2V5XSA9IHVzZVN0YXRlKCcnKTsKICBjb25zdCBbcXJJbWcsIHNldFFySW1nXSA9IHVzZVN0YXRlKCcnKTsKICBjb25zdCBbcXJTdGF0dXMsIHNldFFyU3RhdHVzXSA9IHVzZVN0YXRlPCdpZGxlJyB8ICd3YWl0aW5nJyB8ICdzY2FubmVkJyB8ICdleHBpcmVkJyB8ICdkb25lJz4oJ2lkbGUnKTsKICBjb25zdCBwb2xsUmVmID0gdXNlUmVmPG51bWJlciB8IG51bGw+KG51bGwpOwoKICBjb25zdCBzdG9wUG9sbCA9ICgpID0+IHsKICAgIGlmIChwb2xsUmVmLmN1cnJlbnQpIHsgY2xlYXJJbnRlcnZhbChwb2xsUmVmLmN1cnJlbnQpOyBwb2xsUmVmLmN1cnJlbnQgPSBudWxsOyB9CiAgfTsKCiAgY29uc3Qgc3RhcnRRciA9IHVzZUNhbGxiYWNrKGFzeW5jICgpID0+IHsKICAgIHN0b3BQb2xsKCk7CiAgICBzZXRRclN0YXR1cygnd2FpdGluZycpOwogICAgc2V0UXJJbWcoJycpOwogICAgdHJ5IHsKICAgICAgY29uc3Qga2V5UmVzID0gYXdhaXQgbXVzaWNBcGkubG9naW5RcktleShjZmcpOwogICAgICBjb25zdCBrZXkgPSBrZXlSZXM/LmRhdGE/LnVuaWtleSB8fCBrZXlSZXM/LnVuaWtleTsKICAgICAgaWYgKCFrZXkpIHRocm93IG5ldyBFcnJvcign5peg5rOV6I635Y+WIGtleScpOwogICAgICBzZXRRcktleShrZXkpOwogICAgICBjb25zdCBjcmVhdGVSZXMgPSBhd2FpdCBtdXNpY0FwaS5sb2dpblFyQ3JlYXRlKGNmZywga2V5KTsKICAgICAgY29uc3QgaW1nID0gY3JlYXRlUmVzPy5kYXRhPy5xcmltZyB8fCBjcmVhdGVSZXM/LnFyaW1nOwogICAgICBpZiAoIWltZykgdGhyb3cgbmV3IEVycm9yKCfml6Dms5XnlJ/miJDkuoznu7TnoIEnKTsKICAgICAgc2V0UXJJbWcoaW1nKTsKCiAgICAgIHBvbGxSZWYuY3VycmVudCA9IHdpbmRvdy5zZXRJbnRlcnZhbChhc3luYyAoKSA9PiB7CiAgICAgICAgdHJ5IHsKICAgICAgICAgIGNvbnN0IHIgPSBhd2FpdCBtdXNpY0FwaS5sb2dpblFyQ2hlY2soY2ZnLCBrZXkpOwogICAgICAgICAgY29uc3QgY29kZSA9IHI/LmNvZGU7CiAgICAgICAgICBpZiAoY29kZSA9PT0gODAwKSB7IHNldFFyU3RhdHVzKCdleHBpcmVkJyk7IHN0b3BQb2xsKCk7IH0KICAgICAgICAgIGVsc2UgaWYgKGNvZGUgPT09IDgwMSkgeyBzZXRRclN0YXR1cygnd2FpdGluZycpOyB9CiAgICAgICAgICBlbHNlIGlmIChjb2RlID09PSA4MDIpIHsgc2V0UXJTdGF0dXMoJ3NjYW5uZWQnKTsgfQogICAgICAgICAgZWxzZSBpZiAoY29kZSA9PT0gODAzKSB7CiAgICAgICAgICAgIHN0b3BQb2xsKCk7CiAgICAgICAgICAgIHNldFFyU3RhdHVzKCdkb25lJyk7CiAgICAgICAgICAgIGNvbnN0IGNvb2tpZTogc3RyaW5nID0gcj8uY29va2llIHx8ICcnOwogICAgICAgICAgICBjb25zdCBtID0gY29va2llLm1hdGNoKC9NVVNJQ19VPShbXjtdKykvaSk7CiAgICAgICAgICAgIGNvbnN0IG11c2ljVSA9IG0gPyBtWzFdIDogJyc7CiAgICAgICAgICAgIGlmICghbXVzaWNVKSB7CiAgICAgICAgICAgICAgYWRkVG9hc3QoJ+eZu+W9leS/oeaBr+ayoeaLv+WFqO+8jOivt+mHjeivleOAgicsICdlcnJvcicpOwogICAgICAgICAgICAgIHJldHVybjsKICAgICAgICAgICAgfQogICAgICAgICAgICBvbkxvZ2dlZEluKGBNVVNJQ19VPSR7bXVzaWNVfWApOwogICAgICAgICAgfQogICAgICAgIH0gY2F0Y2ggeyAvKiB0cmFuc2llbnQg4oCUIOS4i+asoeWGjeivlSAqLyB9CiAgICAgIH0sIDI1MDApOwogICAgfSBjYXRjaCAoZTogYW55KSB7CiAgICAgIHNldFFyU3RhdHVzKCdpZGxlJyk7CiAgICAgIGFkZFRvYXN0KGDmiavnoIHlpLHotKXvvJoke2UubWVzc2FnZX1gLCAnZXJyb3InKTsKICAgIH0KICB9LCBbY2ZnLCBhZGRUb2FzdCwgb25Mb2dnZWRJbl0pOwoKICB1c2VFZmZlY3QoKCkgPT4gewogICAgaWYgKG1vZGUgPT09ICdxcicgJiYgcXJTdGF0dXMgPT09ICdpZGxlJykgc3RhcnRRcigpOwogICAgcmV0dXJuICgpID0+IHsgc3RvcFBvbGwoKTsgfTsKICAgIC8vIGVzbGludC1kaXNhYmxlLW5leHQtbGluZSByZWFjdC1ob29rcy9leGhhdXN0aXZlLWRlcHMKICB9LCBbbW9kZV0pOwoKICAvKiDilIDilIAg5omL5py65Y+3IOKUgOKUgCAqLwogIGNvbnN0IFtwaG9uZSwgc2V0UGhvbmVdID0gdXNlU3RhdGUoJycpOwogIGNvbnN0IFtjYXB0Y2hhLCBzZXRDYXB0Y2hhXSA9IHVzZVN0YXRlKCcnKTsKICBjb25zdCBbc2VuZGluZywgc2V0U2VuZGluZ10gPSB1c2VTdGF0ZShmYWxzZSk7CiAgY29uc3QgW2Nvb2xkb3duLCBzZXRDb29sZG93bl0gPSB1c2VTdGF0ZSgwKTsKICBjb25zdCBbbG9nZ2luZ0luLCBzZXRMb2dnaW5nSW5dID0gdXNlU3RhdGUoZmFsc2UpOwoKICB1c2VFZmZlY3QoKCkgPT4gewogICAgaWYgKGNvb2xkb3duIDw9IDApIHJldHVybjsKICAgIGNvbnN0IHQgPSB3aW5kb3cuc2V0VGltZW91dCgoKSA9PiBzZXRDb29sZG93bihjID0+IGMgLSAxKSwgMTAwMCk7CiAgICByZXR1cm4gKCkgPT4gY2xlYXJUaW1lb3V0KHQpOwogIH0sIFtjb29sZG93bl0pOwoKICBjb25zdCBzZW5kQ2FwdGNoYSA9IHVzZUNhbGxiYWNrKGFzeW5jICgpID0+IHsKICAgIGlmICghL15cZHsxMX0kLy50ZXN0KHBob25lKSkgeyBhZGRUb2FzdCgn6K+36L6T5YWlIDExIOS9jeaJi+acuuWPtycsICdlcnJvcicpOyByZXR1cm47IH0KICAgIHNldFNlbmRpbmcodHJ1ZSk7CiAgICB0cnkgewogICAgICBjb25zdCByID0gYXdhaXQgbXVzaWNBcGkuY2FwdGNoYVNlbnQoY2ZnLCBwaG9uZSk7CiAgICAgIGlmIChyPy5jb2RlID09PSAyMDAgfHwgcj8uZGF0YSA9PT0gdHJ1ZSkgewogICAgICAgIGFkZFRvYXN0KCfpqozor4HnoIHlt7Llj5HpgIEnLCAnc3VjY2VzcycpOwogICAgICAgIHNldENvb2xkb3duKDYwKTsKICAgICAgfSBlbHNlIHsKICAgICAgICBhZGRUb2FzdChyPy5tZXNzYWdlIHx8ICflj5HpgIHlpLHotKUnLCAnZXJyb3InKTsKICAgICAgfQogICAgfSBjYXRjaCAoZTogYW55KSB7CiAgICAgIGFkZFRvYXN0KGDlj5HpgIHlpLHotKXvvJoke2UubWVzc2FnZX1gLCAnZXJyb3InKTsKICAgIH0gZmluYWxseSB7CiAgICAgIHNldFNlbmRpbmcoZmFsc2UpOwogICAgfQogIH0sIFtwaG9uZSwgY2ZnLCBhZGRUb2FzdF0pOwoKICBjb25zdCBkb0xvZ2luID0gdXNlQ2FsbGJhY2soYXN5bmMgKCkgPT4gewogICAgaWYgKCFwaG9uZSB8fCAhY2FwdGNoYSkgeyBhZGRUb2FzdCgn5omL5py65Y+35ZKM6aqM6K+B56CB6YO96KaB5aGrJywgJ2Vycm9yJyk7IHJldHVybjsgfQogICAgc2V0TG9nZ2luZ0luKHRydWUpOwogICAgdHJ5IHsKICAgICAgY29uc3QgciA9IGF3YWl0IG11c2ljQXBpLmxvZ2luQ2VsbHBob25lKGNmZywgcGhvbmUsIGNhcHRjaGEpOwogICAgICBpZiAocj8uY29kZSAhPT0gMjAwKSB7CiAgICAgICAgYWRkVG9hc3Qocj8ubWVzc2FnZSB8fCByPy5tc2cgfHwgJ+eZu+W9leWksei0pScsICdlcnJvcicpOwogICAgICAgIHJldHVybjsKICAgICAgfQogICAgICBjb25zdCBjb29raWU6IHN0cmluZyA9IHI/LmNvb2tpZSB8fCAnJzsKICAgICAgY29uc3QgbSA9IGNvb2tpZS5tYXRjaCgvTVVTSUNfVT0oW147XSspL2kpOwogICAgICBjb25zdCBtdXNpY1UgPSBtID8gbVsxXSA6ICcnOwogICAgICBpZiAoIW11c2ljVSkgewogICAgICAgIGFkZFRvYXN0KCfnmbvlvZXkv6Hmga/msqHmi7/lhajvvIzor7fph43or5XjgIInLCAnZXJyb3InKTsKICAgICAgICByZXR1cm47CiAgICAgIH0KICAgICAgb25Mb2dnZWRJbihgTVVTSUNfVT0ke211c2ljVX1gKTsKICAgIH0gY2F0Y2ggKGU6IGFueSkgewogICAgICBhZGRUb2FzdChg55m75b2V5aSx6LSl77yaJHtlLm1lc3NhZ2V9YCwgJ2Vycm9yJyk7CiAgICB9IGZpbmFsbHkgewogICAgICBzZXRMb2dnaW5nSW4oZmFsc2UpOwogICAgfQogIH0sIFtwaG9uZSwgY2FwdGNoYSwgY2ZnLCBhZGRUb2FzdCwgb25Mb2dnZWRJbl0pOwoKICAvKiDilIDilIAg5omL5YqoIENvb2tpZSDilIDilIAgKi8KICBjb25zdCBbbWFudWFsQ29va2llLCBzZXRNYW51YWxDb29raWVdID0gdXNlU3RhdGUoJycpOwoKICBjb25zdCBzdGF0dXNUZXh0OiBSZWNvcmQ8c3RyaW5nLCBzdHJpbmc+ID0gewogICAgaWRsZTogJ+WHhuWkh+S4rS4uLicsIHdhaXRpbmc6ICfor7fnlKjnvZHmmJPkupEgQXBwIOaJq+aPj+S4iuaWueS6jOe7tOeggScsCiAgICBzY2FubmVkOiAn5bey5omr5o+P77yM6K+35Zyo5omL5py65LiK56Gu6K6kJywgZXhwaXJlZDogJ+S6jOe7tOeggeW3sui/h+acn++8jOivt+WIt+aWsCcsCiAgICBkb25lOiAn55m75b2V5LitLi4uJywKICB9OwoKICByZXR1cm4gKAogICAgPGRpdiBjbGFzc05hbWU9ImZsZXggZmxleC1jb2wgaC1mdWxsIHJlbGF0aXZlIgogICAgICBzdHlsZT17eyBiYWNrZ3JvdW5kOiBgbGluZWFyLWdyYWRpZW50KDE4MGRlZywgI2ZmZmZmZiAwJSwgJHtDLmJnfSA1MCUsICR7Qy5iZ0RlZXB9IDEwMCUpYCB9fT4KICAgICAgPEJva2VoQmcgLz4KICAgICAgPE1penVIZWFkZXIgdGl0bGU9IueZu+W9lee9keaYk+S6kSIgb25CYWNrPXtvbkJhY2t9IC8+CgogICAgICB7LyogTW9kZSBzd2l0Y2hlciAqL30KICAgICAgPGRpdiBjbGFzc05hbWU9Im14LTQgbXQtMyBmbGV4IGl0ZW1zLWNlbnRlciBnYXAtMSBzaGl6dWt1LWdsYXNzIHJvdW5kZWQtZnVsbCBwLTEgcmVsYXRpdmUgei0xMCI+CiAgICAgICAgeyhbCiAgICAgICAgICB7IGs6ICdxcicgYXMgY29uc3QsIGxhYmVsOiAn5omr56CBJyB9LAogICAgICAgICAgeyBrOiAncGhvbmUnIGFzIGNvbnN0LCBsYWJlbDogJ+aJi+acuuWPtycgfSwKICAgICAgICAgIHsgazogJ21hbnVhbCcgYXMgY29uc3QsIGxhYmVsOiAnQ29va2llJyB9LAogICAgICAgIF0pLm1hcCh0ID0+ICgKICAgICAgICAgIDxidXR0b24ga2V5PXt0Lmt9IG9uQ2xpY2s9eygpID0+IHNldE1vZGUodC5rKX0KICAgICAgICAgICAgY2xhc3NOYW1lPSJmbGV4LTEgcHktMS41IHJvdW5kZWQtZnVsbCB0ZXh0LVsxMXB4XSB0cmFja2luZy13aWRlciB0cmFuc2l0aW9uLWFsbCIKICAgICAgICAgICAgc3R5bGU9e3sKICAgICAgICAgICAgICBiYWNrZ3JvdW5kOiBtb2RlID09PSB0LmsgPyBgbGluZWFyLWdyYWRpZW50KDEzNWRlZywgJHtDLnByaW1hcnl9LCAke0MuYWNjZW50fSlgIDogJ3RyYW5zcGFyZW50JywKICAgICAgICAgICAgICBjb2xvcjogbW9kZSA9PT0gdC5rID8gJ3doaXRlJyA6IEMubXV0ZWQsCiAgICAgICAgICAgIH19PgogICAgICAgICAgICB7dC5sYWJlbH0KICAgICAgICAgIDwvYnV0dG9uPgogICAgICAgICkpfQogICAgICA8L2Rpdj4KCiAgICAgIDxkaXYgY2xhc3NOYW1lPSJmbGV4LTEgb3ZlcmZsb3cteS1hdXRvIHB4LTQgcHktNCByZWxhdGl2ZSB6LTEwIHNoaXp1a3Utc2Nyb2xsYmFyIj4KICAgICAgICB7Lyog4pSA4pSAIOaJq+eggSDilIDilIAgKi99CiAgICAgICAge21vZGUgPT09ICdxcicgJiYgKAogICAgICAgICAgPGRpdiBjbGFzc05hbWU9ImZsZXggZmxleC1jb2wgaXRlbXMtY2VudGVyIj4KICAgICAgICAgICAgPGRpdiBjbGFzc05hbWU9InJlbGF0aXZlIHJvdW5kZWQtM3hsIHAtNCBzaGl6dWt1LWdsYXNzLXN0cm9uZyIKICAgICAgICAgICAgICBzdHlsZT17eyBib3hTaGFkb3c6IGAwIDhweCA0MHB4ICR7Qy5nbG93fTIwYCB9fT4KICAgICAgICAgICAgICB7cXJJbWcgPyAoCiAgICAgICAgICAgICAgICA8aW1nIHNyYz17cXJJbWd9IGFsdD0icXIiIGNsYXNzTmFtZT0idy00OCBoLTQ4IHJvdW5kZWQteGwiIC8+CiAgICAgICAgICAgICAgKSA6ICgKICAgICAgICAgICAgICAgIDxkaXYgY2xhc3NOYW1lPSJ3LTQ4IGgtNDggcm91bmRlZC14bCBmbGV4IGl0ZW1zLWNlbnRlciBqdXN0aWZ5LWNlbnRlciIKICAgICAgICAgICAgICAgICAgc3R5bGU9e3sgYmFja2dyb3VuZDogQy5nbGFzcyB9fT4KICAgICAgICAgICAgICAgICAgPHNwYW4gY2xhc3NOYW1lPSJ3LTUgaC01IGJvcmRlci0yIHJvdW5kZWQtZnVsbCBhbmltYXRlLXNwaW4iCiAgICAgICAgICAgICAgICAgICAgc3R5bGU9e3sgYm9yZGVyQ29sb3I6IGAke0MuZmFpbnR9NDBgLCBib3JkZXJUb3BDb2xvcjogQy5wcmltYXJ5IH19IC8+CiAgICAgICAgICAgICAgICA8L2Rpdj4KICAgICAgICAgICAgICApfQogICAgICAgICAgICAgIDxkaXYgY2xhc3NOYW1lPSJhYnNvbHV0ZSAtdG9wLTEgLXJpZ2h0LTEiPjxTcGFya2xlIHNpemU9ezEyfSBjb2xvcj17Qy5nbG93fSBkZWxheT17MH0gLz48L2Rpdj4KICAgICAgICAgICAgICA8ZGl2IGNsYXNzTmFtZT0iYWJzb2x1dGUgLWJvdHRvbS0xIC1sZWZ0LTEiPjxTcGFya2xlIHNpemU9ezEwfSBjb2xvcj17Qy5zYWt1cmF9IGRlbGF5PXswLjd9IC8+PC9kaXY+CiAgICAgICAgICAgIDwvZGl2PgogICAgICAgICAgICA8ZGl2IGNsYXNzTmFtZT0ibXQtNCB0ZXh0LWNlbnRlciI+CiAgICAgICAgICAgICAgPGRpdiBjbGFzc05hbWU9InRleHQtWzExcHhdIHRyYWNraW5nLXdpZGUiIHN0eWxlPXt7IGNvbG9yOiBDLnByaW1hcnkgfX0+CiAgICAgICAgICAgICAgICB7c3RhdHVzVGV4dFtxclN0YXR1c119CiAgICAgICAgICAgICAgPC9kaXY+CiAgICAgICAgICAgICAge3FyU3RhdHVzID09PSAnZXhwaXJlZCcgJiYgKAogICAgICAgICAgICAgICAgPGJ1dHRvbiBvbkNsaWNrPXtzdGFydFFyfQogICAgICAgICAgICAgICAgICBjbGFzc05hbWU9Im10LTMgcHgtNCBweS0xLjUgcm91bmRlZC1mdWxsIHRleHQtWzEwcHhdIHRleHQtd2hpdGUiCiAgICAgICAgICAgICAgICAgIHN0eWxlPXt7IGJhY2tncm91bmQ6IGBsaW5lYXItZ3JhZGllbnQoMTM1ZGVnLCAke0MucHJpbWFyeX0sICR7Qy5hY2NlbnR9KWAgfX0+CiAgICAgICAgICAgICAgICAgIOWIt+aWsOS6jOe7tOeggQogICAgICAgICAgICAgICAgPC9idXR0b24+CiAgICAgICAgICAgICAgKX0KICAgICAgICAgICAgICA8ZGl2IGNsYXNzTmFtZT0idGV4dC1bOXB4XSBtdC0yIGl0YWxpYyBtYXgtdy1bMjIwcHhdIG14LWF1dG8iIHN0eWxlPXt7IGNvbG9yOiBDLmZhaW50IH19PgogICAgICAgICAgICAgICAg5omT5byA572R5piT5LqRIEFwcCDihpIg5oiR55qEIOKGkiDlj7PkuIrop5LmiavkuIDmiasKICAgICAgICAgICAgICA8L2Rpdj4KICAgICAgICAgICAgPC9kaXY+CiAgICAgICAgICA8L2Rpdj4KICAgICAgICApfQoKICAgICAgICB7Lyog4pSA4pSAIOaJi+acuuWPtyDilIDilIAgKi99CiAgICAgICAge21vZGUgPT09ICdwaG9uZScgJiYgKAogICAgICAgICAgPGRpdiBjbGFzc05hbWU9InNwYWNlLXktMyBtYXgtdy1bMzIwcHhdIG14LWF1dG8iPgogICAgICAgICAgICA8ZGl2IGNsYXNzTmFtZT0icm91bmRlZC0yeGwgcC0zIHNoaXp1a3UtZ2xhc3MiPgogICAgICAgICAgICAgIDxkaXYgY2xhc3NOYW1lPSJ0ZXh0LVsxMHB4XSBtYi0xLjUgdHJhY2tpbmctd2lkZXIiIHN0eWxlPXt7IGNvbG9yOiBDLm11dGVkIH19PuaJi+acuuWPtyAo5LuF5Lit5Zu9KTwvZGl2PgogICAgICAgICAgICAgIDxpbnB1dAogICAgICAgICAgICAgICAgY2xhc3NOYW1lPSJ3LWZ1bGwgcm91bmRlZC14bCBweC0zIHB5LTIgb3V0bGluZS1ub25lIHRleHQtc20gc2hpenVrdS1nbGFzcyIKICAgICAgICAgICAgICAgIHN0eWxlPXt7IGNvbG9yOiBDLnRleHQgfX0KICAgICAgICAgICAgICAgIHBsYWNlaG9sZGVyPSIxMzgwMDEzODAwMCIKICAgICAgICAgICAgICAgIHZhbHVlPXtwaG9uZX0gb25DaGFuZ2U9e2UgPT4gc2V0UGhvbmUoZS50YXJnZXQudmFsdWUucmVwbGFjZSgvXEQvZywgJycpLnNsaWNlKDAsIDExKSl9CiAgICAgICAgICAgICAgICBpbnB1dE1vZGU9Im51bWVyaWMiCiAgICAgICAgICAgICAgLz4KICAgICAgICAgICAgPC9kaXY+CiAgICAgICAgICAgIDxkaXYgY2xhc3NOYW1lPSJyb3VuZGVkLTJ4bCBwLTMgc2hpenVrdS1nbGFzcyI+CiAgICAgICAgICAgICAgPGRpdiBjbGFzc05hbWU9InRleHQtWzEwcHhdIG1iLTEuNSB0cmFja2luZy13aWRlciBmbGV4IGp1c3RpZnktYmV0d2VlbiIgc3R5bGU9e3sgY29sb3I6IEMubXV0ZWQgfX0+CiAgICAgICAgICAgICAgICA8c3Bhbj7pqozor4HnoIE8L3NwYW4+CiAgICAgICAgICAgICAgICA8YnV0dG9uCiAgICAgICAgICAgICAgICAgIG9uQ2xpY2s9e3NlbmRDYXB0Y2hhfQogICAgICAgICAgICAgICAgICBkaXNhYmxlZD17c2VuZGluZyB8fCBjb29sZG93biA+IDB9CiAgICAgICAgICAgICAgICAgIGNsYXNzTmFtZT0idGV4dC1bMTBweF0gZGlzYWJsZWQ6b3BhY2l0eS00MCIKICAgICAgICAgICAgICAgICAgc3R5bGU9e3sgY29sb3I6IEMuYWNjZW50IH19CiAgICAgICAgICAgICAgICA+CiAgICAgICAgICAgICAgICAgIHtzZW5kaW5nID8gJ+WPkemAgeS4rS4uLicgOiBjb29sZG93biA+IDAgPyBgJHtjb29sZG93bn1zIOWQjumHjeWPkWAgOiAn6I635Y+W6aqM6K+B56CBJ30KICAgICAgICAgICAgICAgIDwvYnV0dG9uPgogICAgICAgICAgICAgIDwvZGl2PgogICAgICAgICAgICAgIDxpbnB1dAogICAgICAgICAgICAgICAgY2xhc3NOYW1lPSJ3LWZ1bGwgcm91bmRlZC14bCBweC0zIHB5LTIgb3V0bGluZS1ub25lIHRleHQtc20gc2hpenVrdS1nbGFzcyB0cmFja2luZy13aWRlc3QiCiAgICAgICAgICAgICAgICBzdHlsZT17eyBjb2xvcjogQy50ZXh0IH19CiAgICAgICAgICAgICAgICBwbGFjZWhvbGRlcj0iNiDkvY3pqozor4HnoIEiCiAgICAgICAgICAgICAgICB2YWx1ZT17Y2FwdGNoYX0gb25DaGFuZ2U9e2UgPT4gc2V0Q2FwdGNoYShlLnRhcmdldC52YWx1ZS5yZXBsYWNlKC9cRC9nLCAnJykuc2xpY2UoMCwgNikpfQogICAgICAgICAgICAgICAgaW5wdXRNb2RlPSJudW1lcmljIgogICAgICAgICAgICAgIC8+CiAgICAgICAgICAgIDwvZGl2PgogICAgICAgICAgICA8YnV0dG9uCiAgICAgICAgICAgICAgb25DbGljaz17ZG9Mb2dpbn0KICAgICAgICAgICAgICBkaXNhYmxlZD17bG9nZ2luZ0lufQogICAgICAgICAgICAgIGNsYXNzTmFtZT0idy1mdWxsIHB5LTMgcm91bmRlZC0yeGwgdGV4dC1zbSB0ZXh0LXdoaXRlIHRyYWNraW5nLXdpZGVyIHJlbGF0aXZlIG92ZXJmbG93LWhpZGRlbiBkaXNhYmxlZDpvcGFjaXR5LTYwIgogICAgICAgICAgICAgIHN0eWxlPXt7IGJhY2tncm91bmQ6IGBsaW5lYXItZ3JhZGllbnQoMTM1ZGVnLCAke0MucHJpbWFyeX0sICR7Qy5hY2NlbnR9KWAsIGJveFNoYWRvdzogYDAgM3B4IDE4cHggJHtDLmdsb3d9MzBgIH19CiAgICAgICAgICAgID4KICAgICAgICAgICAgICA8c3BhbiBjbGFzc05hbWU9InJlbGF0aXZlIHotMTAiPntsb2dnaW5nSW4gPyAn55m75b2V5LitLi4uJyA6ICfnmbvlvZUnfTwvc3Bhbj4KICAgICAgICAgICAgPC9idXR0b24+CiAgICAgICAgICAgIDxkaXYgY2xhc3NOYW1lPSJ0ZXh0LVs5cHhdIHRleHQtY2VudGVyIGl0YWxpYyIgc3R5bGU9e3sgY29sb3I6IEMuZmFpbnQgfX0+CiAgICAgICAgICAgICAg6LSm5Y+35a+G56CB55m75b2V6LWw5ZCM5LiA5Liq5o6l5Y+j77yM5oqK5a+G56CB5aGr5Zyo6aqM6K+B56CB5L2N572u5Lmf5Y+v5Lul77yI5bCR5pWw6ICB6LSm5Y+377yJCiAgICAgICAgICAgIDwvZGl2PgogICAgICAgICAgPC9kaXY+CiAgICAgICAgKX0KCiAgICAgICAgey8qIOKUgOKUgCDmiYvliqggQ29va2llIOKUgOKUgCAqL30KICAgICAgICB7bW9kZSA9PT0gJ21hbnVhbCcgJiYgKAogICAgICAgICAgPGRpdiBjbGFzc05hbWU9InNwYWNlLXktMyBtYXgtdy1bMzIwcHhdIG14LWF1dG8iPgogICAgICAgICAgICA8ZGl2IGNsYXNzTmFtZT0icm91bmRlZC0yeGwgcC0zIHNoaXp1a3UtZ2xhc3MiPgogICAgICAgICAgICAgIDxkaXYgY2xhc3NOYW1lPSJ0ZXh0LVsxMHB4XSBtYi0xLjUgdHJhY2tpbmctd2lkZXIiIHN0eWxlPXt7IGNvbG9yOiBDLm11dGVkIH19Pk1VU0lDX1UgQ29va2llPC9kaXY+CiAgICAgICAgICAgICAgPHRleHRhcmVhCiAgICAgICAgICAgICAgICBjbGFzc05hbWU9InctZnVsbCByb3VuZGVkLXhsIHB4LTMgcHktMiBvdXRsaW5lLW5vbmUgdGV4dC1bMTBweF0gc2hpenVrdS1nbGFzcyIKICAgICAgICAgICAgICAgIHJvd3M9ezR9CiAgICAgICAgICAgICAgICBzdHlsZT17eyBjb2xvcjogQy50ZXh0LCBmb250RmFtaWx5OiAnbW9ub3NwYWNlJywgcmVzaXplOiAnbm9uZScgfX0KICAgICAgICAgICAgICAgIHBsYWNlaG9sZGVyPSJNVVNJQ19VPXh4eC4uLiDmiJbnm7TmjqXnspjotLQgY29va2llIOWAvCIKICAgICAgICAgICAgICAgIHZhbHVlPXttYW51YWxDb29raWV9CiAgICAgICAgICAgICAgICBvbkNoYW5nZT17ZSA9PiBzZXRNYW51YWxDb29raWUoZS50YXJnZXQudmFsdWUpfQogICAgICAgICAgICAgIC8+CiAgICAgICAgICAgICAgPGRpdiBjbGFzc05hbWU9InRleHQtWzlweF0gbXQtMS41IGl0YWxpYyIgc3R5bGU9e3sgY29sb3I6IEMuZmFpbnQgfX0+CiAgICAgICAgICAgICAgICBtdXNpYy4xNjMuY29tIOeZu+W9lSDihpIgRjEyIOKGkiBBcHBsaWNhdGlvbiDihpIgQ29va2llcyDihpIg5aSN5Yi2IE1VU0lDX1UKICAgICAgICAgICAgICA8L2Rpdj4KICAgICAgICAgICAgPC9kaXY+CiAgICAgICAgICAgIDxidXR0b24KICAgICAgICAgICAgICBvbkNsaWNrPXsoKSA9PiB7CiAgICAgICAgICAgICAgICBjb25zdCB2ID0gbWFudWFsQ29va2llLnRyaW0oKTsgaWYgKCF2KSByZXR1cm47CiAgICAgICAgICAgICAgICBjb25zdCBmaW5hbCA9IHYudG9VcHBlckNhc2UoKS5zdGFydHNXaXRoKCdNVVNJQ19VPScpID8gdiA6IGBNVVNJQ19VPSR7dn1gOwogICAgICAgICAgICAgICAgb25Mb2dnZWRJbihmaW5hbCk7CiAgICAgICAgICAgICAgfX0KICAgICAgICAgICAgICBjbGFzc05hbWU9InctZnVsbCBweS0zIHJvdW5kZWQtMnhsIHRleHQtc20gdGV4dC13aGl0ZSIKICAgICAgICAgICAgICBzdHlsZT17eyBiYWNrZ3JvdW5kOiBgbGluZWFyLWdyYWRpZW50KDEzNWRlZywgJHtDLnByaW1hcnl9LCAke0MuYWNjZW50fSlgLCBib3hTaGFkb3c6IGAwIDNweCAxOHB4ICR7Qy5nbG93fTMwYCB9fQogICAgICAgICAgICA+CiAgICAgICAgICAgICAg5L+d5a2Y5bm255m75b2VCiAgICAgICAgICAgIDwvYnV0dG9uPgogICAgICAgICAgPC9kaXY+CiAgICAgICAgKX0KICAgICAgPC9kaXY+CiAgICA8L2Rpdj4KICApOwp9OwoKZXhwb3J0IGRlZmF1bHQgTmV0ZWFzZUxvZ2luUGFuZWw7Cg==
+/**
+ * 网易云登录面板
+ * - 扫码登录 (/login/qr/key → /login/qr/create → /login/qr/check 轮询)
+ * - 手机验证码登录 (/captcha/sent → /login/cellphone)
+ * - 手动粘贴 MUSIC_U Cookie
+ */
+import React, { useCallback, useEffect, useRef, useState } from 'react';
+import { useOS } from '../../context/OSContext';
+import { useMusic, musicApi } from '../../context/MusicContext';
+import { C, Sparkle, MizuHeader, BokehBg } from './MusicUI';
+
+type Mode = 'qr' | 'phone' | 'manual';
+
+interface Props {
+  onBack: () => void;
+  onLoggedIn: (cookie: string) => void;
+}
+
+const NeteaseLoginPanel: React.FC<Props> = ({ onBack, onLoggedIn }) => {
+  const { addToast } = useOS();
+  const { cfg } = useMusic();
+
+  const [mode, setMode] = useState<Mode>('qr');
+
+  /* ── 扫码 ── */
+  const [qrKey, setQrKey] = useState('');
+  const [qrImg, setQrImg] = useState('');
+  const [qrStatus, setQrStatus] = useState<'idle' | 'waiting' | 'scanned' | 'expired' | 'done'>('idle');
+  const pollRef = useRef<number | null>(null);
+
+  const stopPoll = () => {
+    if (pollRef.current) { clearInterval(pollRef.current); pollRef.current = null; }
+  };
+
+  const startQr = useCallback(async () => {
+    stopPoll();
+    setQrStatus('waiting');
+    setQrImg('');
+    try {
+      const keyRes = await musicApi.loginQrKey(cfg);
+      const key = keyRes?.data?.unikey || keyRes?.unikey;
+      if (!key) throw new Error('无法获取 key');
+      setQrKey(key);
+      const createRes = await musicApi.loginQrCreate(cfg, key);
+      const img = createRes?.data?.qrimg || createRes?.qrimg;
+      if (!img) throw new Error('无法生成二维码');
+      setQrImg(img);
+
+      pollRef.current = window.setInterval(async () => {
+        try {
+          const r = await musicApi.loginQrCheck(cfg, key);
+          const code = r?.code;
+          if (code === 800) { setQrStatus('expired'); stopPoll(); }
+          else if (code === 801) { setQrStatus('waiting'); }
+          else if (code === 802) { setQrStatus('scanned'); }
+          else if (code === 803) {
+            stopPoll();
+            setQrStatus('done');
+            const cookie: string = r?.cookie || '';
+            const m = cookie.match(/MUSIC_U=([^;]+)/i);
+            const musicU = m ? m[1] : '';
+            if (!musicU) {
+              addToast('登录信息没拿全，请重试。', 'error');
+              return;
+            }
+            onLoggedIn(`MUSIC_U=${musicU}`);
+          }
+        } catch { /* transient — 下次再试 */ }
+      }, 2500);
+    } catch (e: any) {
+      setQrStatus('idle');
+      addToast(`扫码失败：${e.message}`, 'error');
+    }
+  }, [cfg, addToast, onLoggedIn]);
+
+  useEffect(() => {
+    if (mode === 'qr' && qrStatus === 'idle') startQr();
+    return () => { stopPoll(); };
+    // eslint-disable-next-line react-hooks/exhaustive-deps
+  }, [mode]);
+
+  /* ── 手机号 ── */
+  const [phone, setPhone] = useState('');
+  const [captcha, setCaptcha] = useState('');
+  const [sending, setSending] = useState(false);
+  const [cooldown, setCooldown] = useState(0);
+  const [loggingIn, setLoggingIn] = useState(false);
+
+  useEffect(() => {
+    if (cooldown <= 0) return;
+    const t = window.setTimeout(() => setCooldown(c => c - 1), 1000);
+    return () => clearTimeout(t);
+  }, [cooldown]);
+
+  const sendCaptcha = useCallback(async () => {
+    if (!/^\d{11}$/.test(phone)) { addToast('请输入 11 位手机号', 'error'); return; }
+    setSending(true);
+    try {
+      const r = await musicApi.captchaSent(cfg, phone);
+      if (r?.code === 200 || r?.data === true) {
+        addToast('验证码已发送', 'success');
+        setCooldown(60);
+      } else {
+        addToast(r?.message || '发送失败', 'error');
+      }
+    } catch (e: any) {
+      addToast(`发送失败：${e.message}`, 'error');
+    } finally {
+      setSending(false);
+    }
+  }, [phone, cfg, addToast]);
+
+  const doLogin = useCallback(async () => {
+    if (!phone || !captcha) { addToast('手机号和验证码都要填', 'error'); return; }
+    setLoggingIn(true);
+    try {
+      const r = await musicApi.loginCellphone(cfg, phone, captcha);
+      if (r?.code !== 200) {
+        addToast(r?.message || r?.msg || '登录失败', 'error');
+        return;
+      }
+      const cookie: string = r?.cookie || '';
+      const m = cookie.match(/MUSIC_U=([^;]+)/i);
+      const musicU = m ? m[1] : '';
+      if (!musicU) {
+        addToast('登录信息没拿全，请重试。', 'error');
+        return;
+      }
+      onLoggedIn(`MUSIC_U=${musicU}`);
+    } catch (e: any) {
+      addToast(`登录失败：${e.message}`, 'error');
+    } finally {
+      setLoggingIn(false);
+    }
+  }, [phone, captcha, cfg, addToast, onLoggedIn]);
+
+  /* ── 手动 Cookie ── */
+  const [manualCookie, setManualCookie] = useState('');
+
+  const statusText: Record<string, string> = {
+    idle: '准备中...', waiting: '请用网易云 App 扫描上方二维码',
+    scanned: '已扫描，请在手机上确认', expired: '二维码已过期，请刷新',
+    done: '登录中...',
+  };
+
+  return (
+    <div className="flex flex-col h-full relative"
+      style={{ background: `linear-gradient(180deg, #ffffff 0%, ${C.bg} 50%, ${C.bgDeep} 100%)` }}>
+      <BokehBg />
+      <MizuHeader title="登录网易云" onBack={onBack} />
+
+      {/* Mode switcher */}
+      <div className="mx-4 mt-3 flex items-center gap-1 shizuku-glass rounded-full p-1 relative z-10">
+        {([
+          { k: 'qr' as const, label: '扫码' },
+          { k: 'phone' as const, label: '手机号' },
+          { k: 'manual' as const, label: 'Cookie' },
+        ]).map(t => (
+          <button key={t.k} onClick={() => setMode(t.k)}
+            className="flex-1 py-1.5 rounded-full text-[11px] tracking-wider transition-all"
+            style={{
+              background: mode === t.k ? `linear-gradient(135deg, ${C.primary}, ${C.accent})` : 'transparent',
+              color: mode === t.k ? 'white' : C.muted,
+            }}>
+            {t.label}
+          </button>
+        ))}
+      </div>
+
+      <div className="flex-1 overflow-y-auto px-4 py-4 relative z-10 shizuku-scrollbar">
+        {/* ── 扫码 ── */}
+        {mode === 'qr' && (
+          <div className="flex flex-col items-center">
+            <div className="relative rounded-3xl p-4 shizuku-glass-strong"
+              style={{ boxShadow: `0 8px 40px ${C.glow}20` }}>
+              {qrImg ? (
+                <img src={qrImg} alt="qr" className="w-48 h-48 rounded-xl" />
+              ) : (
+                <div className="w-48 h-48 rounded-xl flex items-center justify-center"
+                  style={{ background: C.glass }}>
+                  <span className="w-5 h-5 border-2 rounded-full animate-spin"
+                    style={{ borderColor: `${C.faint}40`, borderTopColor: C.primary }} />
+                </div>
+              )}
+              <div className="absolute -top-1 -right-1"><Sparkle size={12} color={C.glow} delay={0} /></div>
+              <div className="absolute -bottom-1 -left-1"><Sparkle size={10} color={C.sakura} delay={0.7} /></div>
+            </div>
+            <div className="mt-4 text-center">
+              <div className="text-[11px] tracking-wide" style={{ color: C.primary }}>
+                {statusText[qrStatus]}
+              </div>
+              {qrStatus === 'expired' && (
+                <button onClick={startQr}
+                  className="mt-3 px-4 py-1.5 rounded-full text-[10px] text-white"
+                  style={{ background: `linear-gradient(135deg, ${C.primary}, ${C.accent})` }}>
+                  刷新二维码
+                </button>
+              )}
+              <div className="text-[9px] mt-2 italic max-w-[220px] mx-auto" style={{ color: C.faint }}>
+                打开网易云 App → 我的 → 右上角扫一扫
+              </div>
+            </div>
+          </div>
+        )}
+
+        {/* ── 手机号 ── */}
+        {mode === 'phone' && (
+          <div className="space-y-3 max-w-[320px] mx-auto">
+            <div className="rounded-2xl p-3 shizuku-glass">
+              <div className="text-[10px] mb-1.5 tracking-wider" style={{ color: C.muted }}>手机号 (仅中国)</div>
+              <input
+                className="w-full rounded-xl px-3 py-2 outline-none text-sm shizuku-glass"
+                style={{ color: C.text }}
+                placeholder="13800138000"
+                value={phone} onChange={e => setPhone(e.target.value.replace(/\D/g, '').slice(0, 11))}
+                inputMode="numeric"
+              />
+            </div>
+            <div className="rounded-2xl p-3 shizuku-glass">
+              <div className="text-[10px] mb-1.5 tracking-wider flex justify-between" style={{ color: C.muted }}>
+                <span>验证码</span>
+                <button
+                  onClick={sendCaptcha}
+                  disabled={sending || cooldown > 0}
+                  className="text-[10px] disabled:opacity-40"
+                  style={{ color: C.accent }}
+                >
+                  {sending ? '发送中...' : cooldown > 0 ? `${cooldown}s 后重发` : '获取验证码'}
+                </button>
+              </div>
+              <input
+                className="w-full rounded-xl px-3 py-2 outline-none text-sm shizuku-glass tracking-widest"
+                style={{ color: C.text }}
+                placeholder="6 位验证码"
+                value={captcha} onChange={e => setCaptcha(e.target.value.replace(/\D/g, '').slice(0, 6))}
+                inputMode="numeric"
+              />
+            </div>
+            <button
+              onClick={doLogin}
+              disabled={loggingIn}
+              className="w-full py-3 rounded-2xl text-sm text-white tracking-wider relative overflow-hidden disabled:opacity-60"
+              style={{ background: `linear-gradient(135deg, ${C.primary}, ${C.accent})`, boxShadow: `0 3px 18px ${C.glow}30` }}
+            >
+              <span className="relative z-10">{loggingIn ? '登录中...' : '登录'}</span>
+            </button>
+            <div className="text-[9px] text-center italic" style={{ color: C.faint }}>
+              账号密码登录走同一个接口，把密码填在验证码位置也可以（少数老账号）
+            </div>
+          </div>
+        )}
+
+        {/* ── 手动 Cookie ── */}
+        {mode === 'manual' && (
+          <div className="space-y-3 max-w-[320px] mx-auto">
+            <div className="rounded-2xl p-3 shizuku-glass">
+              <div className="text-[10px] mb-1.5 tracking-wider" style={{ color: C.muted }}>MUSIC_U Cookie</div>
+              <textarea
+                className="w-full rounded-xl px-3 py-2 outline-none text-[10px] shizuku-glass"
+                rows={4}
+                style={{ color: C.text, fontFamily: 'monospace', resize: 'none' }}
+                placeholder="MUSIC_U=xxx... 或直接粘贴 cookie 值"
+                value={manualCookie}
+                onChange={e => setManualCookie(e.target.value)}
+              />
+              <div className="text-[9px] mt-1.5 italic" style={{ color: C.faint }}>
+                music.163.com 登录 → F12 → Application → Cookies → 复制 MUSIC_U
+              </div>
+            </div>
+            <button
+              onClick={() => {
+                const v = manualCookie.trim(); if (!v) return;
+                const final = v.toUpperCase().startsWith('MUSIC_U=') ? v : `MUSIC_U=${v}`;
+                onLoggedIn(final);
+              }}
+              className="w-full py-3 rounded-2xl text-sm text-white"
+              style={{ background: `linear-gradient(135deg, ${C.primary}, ${C.accent})`, boxShadow: `0 3px 18px ${C.glow}30` }}
+            >
+              保存并登录
+            </button>
+          </div>
+        )}
+      </div>
+    </div>
+  );
+};
+
+export default NeteaseLoginPanel;

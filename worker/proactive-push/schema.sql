@@ -1,1 +1,19 @@
-LS0gUHJvYWN0aXZlIFB1c2ggQWNjZWxlcmF0b3Ig4oCUIEQxIHNjaGVtYQotLQotLSDkuIDlvKDooajlpJ/nlKjjgIJlbmRwb2ludCArIGNoYXJfaWQg5L2c5Li66IGU5ZCI5Li76ZSu77ya5LiA5Liq5rWP6KeI5Zmo6K6i6ZiF5a+55aSaCi0tIOS4quinkuiJsueLrOeri+iwg+W6pu+8jOS6kuS4jeW9seWTjeOAggoKQ1JFQVRFIFRBQkxFIElGIE5PVCBFWElTVFMgc2NoZWR1bGVzICgKICBlbmRwb2ludCAgICAgICAgVEVYVCAgICBOT1QgTlVMTCwKICBjaGFyX2lkICAgICAgICAgVEVYVCAgICBOT1QgTlVMTCwKICBwMjU2ZGggICAgICAgICAgVEVYVCAgICBOT1QgTlVMTCwKICBhdXRoICAgICAgICAgICAgVEVYVCAgICBOT1QgTlVMTCwKICBpbnRlcnZhbF9tcyAgICAgSU5URUdFUiBOT1QgTlVMTCwKICBuZXh0X2ZpcmVfYXQgICAgSU5URUdFUiBOT1QgTlVMTCwgICAgLS0gZXBvY2ggbXPvvIzkuIvmrKHlupTlvZPlj5Egd2FrZSBwdXNoIOeahOaXtumXtAogIGxhc3RfaGVhcnRiZWF0ICBJTlRFR0VSIE5PVCBOVUxMLCAgICAtLSBlcG9jaCBtc++8jOWuouaIt+err+acgOi/keS4gOasoSBoZWFydGJlYXQKICBjcmVhdGVkX2F0ICAgICAgSU5URUdFUiBOT1QgTlVMTCwKICBQUklNQVJZIEtFWSAoZW5kcG9pbnQsIGNoYXJfaWQpCik7CgotLSBjcm9uIOavj+asoemDveaMiSBuZXh0X2ZpcmVfYXQg5omr77yM5Y2V5YiX57Si5byV6Laz5aSf44CCCkNSRUFURSBJTkRFWCBJRiBOT1QgRVhJU1RTIGlkeF9zY2hlZHVsZXNfbmV4dF9maXJlIE9OIHNjaGVkdWxlcyhuZXh0X2ZpcmVfYXQpOwo=
+-- Proactive Push Accelerator — D1 schema
+--
+-- 一张表够用。endpoint + char_id 作为联合主键：一个浏览器订阅对多
+-- 个角色独立调度，互不影响。
+
+CREATE TABLE IF NOT EXISTS schedules (
+  endpoint        TEXT    NOT NULL,
+  char_id         TEXT    NOT NULL,
+  p256dh          TEXT    NOT NULL,
+  auth            TEXT    NOT NULL,
+  interval_ms     INTEGER NOT NULL,
+  next_fire_at    INTEGER NOT NULL,    -- epoch ms，下次应当发 wake push 的时间
+  last_heartbeat  INTEGER NOT NULL,    -- epoch ms，客户端最近一次 heartbeat
+  created_at      INTEGER NOT NULL,
+  PRIMARY KEY (endpoint, char_id)
+);
+
+-- cron 每次都按 next_fire_at 扫，单列索引足够。
+CREATE INDEX IF NOT EXISTS idx_schedules_next_fire ON schedules(next_fire_at);

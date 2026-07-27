@@ -1,1 +1,373 @@
-LyoqCiAqIFBpeGVsIEhvbWUg4oCUIOWDj+e0oOWutuWbreS4u+WFpeWPowogKgogKiDnrqHnkIY05Liq5a2Q6KeG5Zu+77ya5L+v556w5Zyw5Zu+44CB5Y2V5oi/6Ze057yW6L6R44CB6LWE5Lqn55Sf5oiQ5Zmo44CB6LWE5Lqn5LuT5bqTCiAqIOWkhOeQhui1hOS6p+abv+aNoi/mt7vliqDmtYHnqIsKICovCgppbXBvcnQgUmVhY3QsIHsgdXNlU3RhdGUsIHVzZUVmZmVjdCwgdXNlQ2FsbGJhY2ssIHVzZVJlZiB9IGZyb20gJ3JlYWN0JzsKaW1wb3J0IHsgdXNlT1MgfSBmcm9tICcuLi8uLi9jb250ZXh0L09TQ29udGV4dCc7CmltcG9ydCB0eXBlIHsgUGl4ZWxIb21lU3RhdGUsIFBpeGVsSG9tZVZpZXdNb2RlLCBQaXhlbEFzc2V0LCBQbGFjZWRGdXJuaXR1cmUgfSBmcm9tICcuL3R5cGVzJzsKaW1wb3J0IHR5cGUgeyBNZW1vcnlSb29tIH0gZnJvbSAnLi4vLi4vdXRpbHMvbWVtb3J5UGFsYWNlL3R5cGVzJzsKaW1wb3J0IHsgZ2V0T3JDcmVhdGVIb21lU3RhdGUsIFBpeGVsTGF5b3V0REIsIFBpeGVsQXNzZXREQiB9IGZyb20gJy4vcGl4ZWxIb21lRGInOwppbXBvcnQgeyBST09NX01FVEEgfSBmcm9tICcuL3Jvb21UZW1wbGF0ZXMnOwppbXBvcnQgeyBkb3dubG9hZFByZXNldCwgaW1wb3J0UHJlc2V0LCByZWFkRmlsZUFzVGV4dCB9IGZyb20gJy4vcHJlc2V0TWFuYWdlcic7CmltcG9ydCBQaXhlbEhvbWVNYXAgZnJvbSAnLi9QaXhlbEhvbWVNYXAnOwppbXBvcnQgUGl4ZWxSb29tRWRpdG9yIGZyb20gJy4vUGl4ZWxSb29tRWRpdG9yJzsKaW1wb3J0IFBpeGVsQXNzZXRHZW5lcmF0b3IgZnJvbSAnLi9QaXhlbEFzc2V0R2VuZXJhdG9yJzsKaW1wb3J0IEFzc2V0TGlicmFyeSBmcm9tICcuL0Fzc2V0TGlicmFyeSc7CmltcG9ydCBQaXhlbENoYXJFZGl0b3IgZnJvbSAnLi9QaXhlbENoYXJFZGl0b3InOwppbXBvcnQgTWVtb3J5RGl2ZU1vZGUgZnJvbSAnLi9NZW1vcnlEaXZlTW9kZSc7CmltcG9ydCB0eXBlIHsgRGl2ZVJlc3VsdCB9IGZyb20gJy4vbWVtb3J5RGl2ZVR5cGVzJzsKaW1wb3J0IHR5cGUgeyBQaXhlbENoYXJDb25maWcgfSBmcm9tICcuL3BpeGVsQ2hhckdlbmVyYXRvcic7CmltcG9ydCB7IGVuc3VyZVBpeGVsQ2hhciB9IGZyb20gJy4vcGl4ZWxDaGFyR2VuZXJhdG9yJzsKaW1wb3J0IHsgREIgfSBmcm9tICcuLi8uLi91dGlscy9kYic7CgovLyDlhoXnva7op5LoibLnmoTpu5jorqTlg4/ntKDlvaLosaHvvIjnlKjmiLfmnKroh6rlrprkuYnml7bkvb/nlKjvvIkKY29uc3QgUElYRUxfQ0hBUl9CQVNFID0gKChpbXBvcnQubWV0YSBhcyBhbnkpLmVudj8uQkFTRV9VUkwgPz8gJy8nKSArICdwaXhlbC1jaGFyLyc7CmNvbnN0IERFRkFVTFRfQ0hBUl9TUFJJVEVTOiBSZWNvcmQ8c3RyaW5nLCBzdHJpbmc+ID0gewogICdwcmVzZXQtc3VsbHktdjInOiBgJHtQSVhFTF9DSEFSX0JBU0V9c3VsbHkucG5nYCwKfTsKCmludGVyZmFjZSBQcm9wcyB7CiAgY2hhcklkOiBzdHJpbmc7CiAgY2hhck5hbWU6IHN0cmluZzsKICBjaGFyQXZhdGFyPzogc3RyaW5nOwogIHVzZXJOYW1lOiBzdHJpbmc7CiAgb25CYWNrOiAoKSA9PiB2b2lkOwp9Cgpjb25zdCBQaXhlbEhvbWVWaWV3OiBSZWFjdC5GQzxQcm9wcz4gPSAoeyBjaGFySWQsIGNoYXJOYW1lLCBjaGFyQXZhdGFyLCB1c2VyTmFtZSwgb25CYWNrIH0pID0+IHsKICBjb25zdCB7IGFkZFRvYXN0LCBhcGlDb25maWcsIGNoYXJhY3RlcnMsIHVzZXJQcm9maWxlLCByZW1vdGVWZWN0b3JDb25maWcgfSA9IHVzZU9TKCk7CiAgY29uc3QgY2hhciA9IGNoYXJhY3RlcnMuZmluZChjID0+IGMuaWQgPT09IGNoYXJJZCk7CiAgY29uc3QgW3ZpZXdNb2RlLCBzZXRWaWV3TW9kZV0gPSB1c2VTdGF0ZTxQaXhlbEhvbWVWaWV3TW9kZT4oJ21hcCcpOwogIGNvbnN0IFtob21lU3RhdGUsIHNldEhvbWVTdGF0ZV0gPSB1c2VTdGF0ZTxQaXhlbEhvbWVTdGF0ZSB8IG51bGw+KG51bGwpOwogIGNvbnN0IFthc3NldHMsIHNldEFzc2V0c10gPSB1c2VTdGF0ZTxQaXhlbEFzc2V0W10+KFtdKTsKICBjb25zdCBbc2VsZWN0ZWRSb29tLCBzZXRTZWxlY3RlZFJvb21dID0gdXNlU3RhdGU8TWVtb3J5Um9vbT4oJ2xpdmluZ19yb29tJyk7CiAgY29uc3QgW2xvYWRpbmcsIHNldExvYWRpbmddID0gdXNlU3RhdGUodHJ1ZSk7CgogIC8vIOi1hOS6p+aTjeS9nOS4iuS4i+aWh++8mgogIC8vIC0gbnVsbDog5LuF5rWP6KeI5LuT5bqTCiAgLy8gLSAnX19hZGRfXyc6IOa3u+WKoOaWsOWutuWFt+WIsOaIv+mXtAogIC8vIC0gJ3Nsb3RfeHh4Jzog5pu/5o2i5p+Q5Liq5bey5pyJ5a625YW3CiAgLy8g5YOP57Sg5bCP5Lq677ya6KeS6ImyIOWSjCDnlKjmiLfoh6rlt7Eg5ZCE5a2Y5LiA5Lu9CiAgY29uc3QgW3BpeGVsQ2hhckNvbmZpZywgc2V0UGl4ZWxDaGFyQ29uZmlnXSA9IHVzZVN0YXRlPFBpeGVsQ2hhckNvbmZpZyB8IG51bGw+KG51bGwpOwogIGNvbnN0IFtwaXhlbENoYXJTcHJpdGUsIHNldFBpeGVsQ2hhclNwcml0ZV0gPSB1c2VTdGF0ZTxzdHJpbmcgfCBudWxsPihudWxsKTsKICBjb25zdCBbcGl4ZWxVc2VyQ29uZmlnLCBzZXRQaXhlbFVzZXJDb25maWddID0gdXNlU3RhdGU8UGl4ZWxDaGFyQ29uZmlnIHwgbnVsbD4obnVsbCk7CiAgY29uc3QgW3BpeGVsVXNlclNwcml0ZSwgc2V0UGl4ZWxVc2VyU3ByaXRlXSA9IHVzZVN0YXRlPHN0cmluZyB8IG51bGw+KG51bGwpOwogIC8qKiDmiZPlvIDmjY/kurrnlYzpnaLml7bnvJbovpHnmoTmmK8i6KeS6ImyIui/mOaYryLnlKjmiLfoh6rlt7EiICovCiAgY29uc3QgW2VkaXRvclRhcmdldCwgc2V0RWRpdG9yVGFyZ2V0XSA9IHVzZVN0YXRlPCdjaGFyJyB8ICd1c2VyJz4oJ2NoYXInKTsKICBjb25zdCBbbGFzdERpdmVSZXN1bHQsIHNldExhc3REaXZlUmVzdWx0XSA9IHVzZVN0YXRlPERpdmVSZXN1bHQgfCBudWxsPihudWxsKTsKCiAgY29uc3QgcGVuZGluZ1Nsb3RSZWYgPSB1c2VSZWY8c3RyaW5nIHwgbnVsbD4obnVsbCk7CiAgY29uc3QgaW1wb3J0SW5wdXRSZWYgPSB1c2VSZWY8SFRNTElucHV0RWxlbWVudD4obnVsbCk7CgogIHVzZUVmZmVjdCgoKSA9PiB7CiAgICBsZXQgY2FuY2VsbGVkID0gZmFsc2U7CiAgICAoYXN5bmMgKCkgPT4gewogICAgICBzZXRMb2FkaW5nKHRydWUpOwogICAgICB0cnkgewogICAgICAgIGNvbnN0IFtzdGF0ZSwgYWxsQXNzZXRzLCBzYXZlZENoYXIsIHNhdmVkVXNlciwgc2F2ZWRUaGVtZV0gPSBhd2FpdCBQcm9taXNlLmFsbChbCiAgICAgICAgICBnZXRPckNyZWF0ZUhvbWVTdGF0ZShjaGFySWQpLAogICAgICAgICAgUGl4ZWxBc3NldERCLmdldEFsbCgpLAogICAgICAgICAgREIuZ2V0QXNzZXQoYHBpeGVsX2NoYXJfJHtjaGFySWR9YCksCiAgICAgICAgICAvLyDnlKjmiLfoh6rlt7HnmoTlg4/ntKDlsI/kurrmmK/lhajlsYDnmoTvvIzmiYDmnInop5LoibIv5oi/6Ze05YWx5LqrCiAgICAgICAgICBEQi5nZXRBc3NldChgcGl4ZWxfY2hhcl91c2VyYCksCiAgICAgICAgICAvLyDlrrblm63kuLvpopjoibLmjInop5LoibLkv53lrZgKICAgICAgICAgIERCLmdldEFzc2V0KGBwaXhlbF9ob21lX3RoZW1lXyR7Y2hhcklkfWApLAogICAgICAgIF0pOwogICAgICAgIGlmICghY2FuY2VsbGVkKSB7CiAgICAgICAgICBpZiAoc2F2ZWRUaGVtZSkgewogICAgICAgICAgICB0cnkgeyBzdGF0ZS50aGVtZSA9IEpTT04ucGFyc2Uoc2F2ZWRUaGVtZSk7IH0gY2F0Y2gge30KICAgICAgICAgIH0KICAgICAgICAgIHNldEhvbWVTdGF0ZShzdGF0ZSk7CiAgICAgICAgICBzZXRBc3NldHMoYWxsQXNzZXRzKTsKICAgICAgICAgIGlmIChzYXZlZENoYXIpIHsKICAgICAgICAgICAgY29uc3QgY2ZnID0gSlNPTi5wYXJzZShzYXZlZENoYXIpIGFzIFBpeGVsQ2hhckNvbmZpZzsKICAgICAgICAgICAgc2V0UGl4ZWxDaGFyQ29uZmlnKGNmZyk7CiAgICAgICAgICAgIGVuc3VyZVBpeGVsQ2hhcihjZmcpLnRoZW4odXJpID0+IHsgaWYgKCFjYW5jZWxsZWQpIHNldFBpeGVsQ2hhclNwcml0ZSh1cmkpOyB9KS5jYXRjaCgoKSA9PiB7fSk7CiAgICAgICAgICB9IGVsc2UgewogICAgICAgICAgICAvLyDmnKrkv53lrZjov4cg4oaSIOWwneivleWKoOi9veWGhee9rum7mOiupOWDj+e0oOW9ouixoe+8iOWmgiBTdWxsee+8iQogICAgICAgICAgICBjb25zdCBkZWZhdWx0U3ByaXRlID0gREVGQVVMVF9DSEFSX1NQUklURVNbY2hhcklkXTsKICAgICAgICAgICAgaWYgKGRlZmF1bHRTcHJpdGUpIHNldFBpeGVsQ2hhclNwcml0ZShkZWZhdWx0U3ByaXRlKTsKICAgICAgICAgIH0KICAgICAgICAgIGlmIChzYXZlZFVzZXIpIHsKICAgICAgICAgICAgY29uc3QgY2ZnID0gSlNPTi5wYXJzZShzYXZlZFVzZXIpIGFzIFBpeGVsQ2hhckNvbmZpZzsKICAgICAgICAgICAgc2V0UGl4ZWxVc2VyQ29uZmlnKGNmZyk7CiAgICAgICAgICAgIGVuc3VyZVBpeGVsQ2hhcihjZmcpLnRoZW4odXJpID0+IHsgaWYgKCFjYW5jZWxsZWQpIHNldFBpeGVsVXNlclNwcml0ZSh1cmkpOyB9KS5jYXRjaCgoKSA9PiB7fSk7CiAgICAgICAgICB9CiAgICAgICAgfQogICAgICB9IGNhdGNoIChlcnIpIHsKICAgICAgICBjb25zb2xlLmVycm9yKCfinYwgW1BpeGVsSG9tZV0gRmFpbGVkIHRvIGxvYWQ6JywgZXJyKTsKICAgICAgICBhZGRUb2FzdD8uKCfliqDovb3lg4/ntKDlrrblm63lpLHotKUnLCAnZXJyb3InKTsKICAgICAgfSBmaW5hbGx5IHsgaWYgKCFjYW5jZWxsZWQpIHNldExvYWRpbmcoZmFsc2UpOyB9CiAgICB9KSgpOwogICAgcmV0dXJuICgpID0+IHsgY2FuY2VsbGVkID0gdHJ1ZTsgfTsKICB9LCBbY2hhcklkXSk7CgogIC8vIOS/neWtmOWDj+e0oOWwj+S6uu+8iOaMiSBlZGl0b3JUYXJnZXQg5YiG5Yir5a2Y5Yiw6KeS6ImyL+eUqOaItyBrZXnvvIkKICBjb25zdCBoYW5kbGVTYXZlQ2hhciA9IHVzZUNhbGxiYWNrKGFzeW5jIChjZmc6IFBpeGVsQ2hhckNvbmZpZywgaW1hZ2VVcmk6IHN0cmluZykgPT4gewogICAgdHJ5IHsKICAgICAgaWYgKGVkaXRvclRhcmdldCA9PT0gJ3VzZXInKSB7CiAgICAgICAgYXdhaXQgREIuc2F2ZUFzc2V0KGBwaXhlbF9jaGFyX3VzZXJgLCBKU09OLnN0cmluZ2lmeShjZmcpKTsKICAgICAgICBzZXRQaXhlbFVzZXJDb25maWcoY2ZnKTsKICAgICAgICBzZXRQaXhlbFVzZXJTcHJpdGUoaW1hZ2VVcmkpOwogICAgICAgIGFkZFRvYXN0Py4oJ+S9oOeahOWDj+e0oOW9ouixoeW3suS/neWtmCcsICdzdWNjZXNzJyk7CiAgICAgIH0gZWxzZSB7CiAgICAgICAgYXdhaXQgREIuc2F2ZUFzc2V0KGBwaXhlbF9jaGFyXyR7Y2hhcklkfWAsIEpTT04uc3RyaW5naWZ5KGNmZykpOwogICAgICAgIHNldFBpeGVsQ2hhckNvbmZpZyhjZmcpOwogICAgICAgIHNldFBpeGVsQ2hhclNwcml0ZShpbWFnZVVyaSk7CiAgICAgICAgYWRkVG9hc3Q/LihgJHtjaGFyTmFtZX3nmoTlg4/ntKDlvaLosaHlt7Lkv53lrZhgLCAnc3VjY2VzcycpOwogICAgICB9CiAgICB9IGNhdGNoIChlcnIpIHsKICAgICAgLy8g5YaZ5bqT5aSx6LSl77yI5aSa5Li65a2Y5YKo6YWN6aKd5LiN6Laz77yJ5aaC5a6e5oql6ZSZ77yM5Yir6K6p55So5oi35Lul5Li65a2Y5LiK5LqG44CB5LiL5qyh6L+b5p2l5b2i6LGh5Y+I5rKh5LqGCiAgICAgIGNvbnNvbGUuZXJyb3IoJ+KdjCBbUGl4ZWxIb21lXSDlg4/ntKDlvaLosaHkv53lrZjlpLHotKU6JywgZXJyKTsKICAgICAgYWRkVG9hc3Q/Lign5YOP57Sg5b2i6LGh5L+d5a2Y5aSx6LSl77yM5Y+v6IO95piv5a2Y5YKo56m66Ze05LiN6LazJywgJ2Vycm9yJyk7CiAgICAgIHJldHVybjsKICAgIH0KICAgIHNldFZpZXdNb2RlKCdtYXAnKTsKICB9LCBbY2hhcklkLCBjaGFyTmFtZSwgZWRpdG9yVGFyZ2V0LCBhZGRUb2FzdF0pOwoKICAvKioKICAgKiDov5vlhaXmvZzooYzmqKHlvI/liY3lhYjmo4Dmn6XvvJrnlKjmiLcv6KeS6Imy5piv5ZCm6L+Y55So552A6buY6K6k5b2i6LGh77yfCiAgICog55So55qE5piv6buY6K6k5b2i6LGh5bCx55u05o6l6Lez5Yiw5o2P5Lq655WM6Z2i4oCU4oCU5Lik5Liq5Lq66YO95rKh5YOP57Sg5YyW55qE6K+d5r2c6KGM5qih5byP6YeM5Ye6546w55qE5pivCiAgICog6buY6K6k57u/5bCP5Lq6IC8g57Sr5bCP5Lq677yM55yL6LW35p2l5Lik5Liq5Lq66YO95piv6Lev5Lq655Sy44CC5YWI6K6p55So5oi36LW356CB5oqKIuS9oOiHquW3sSLmjY/lpb3vvIwKICAgKiDpobrkvr/mj5DnpLrkuIDkuIsgVEEg5Lmf5Y+v5Lul5o2P44CCCiAgICovCiAgY29uc3QgaGFuZGxlRW50ZXJEaXZlID0gdXNlQ2FsbGJhY2soKCkgPT4gewogICAgaWYgKCFwaXhlbFVzZXJDb25maWcpIHsKICAgICAgYWRkVG9hc3Q/Lign5YWI5o2P5LiA5LiL5L2g6Ieq5bex55qE5YOP57Sg5b2i6LGh77yM5YaN5LiA6LW35r2c5YWlVEHnmoTlhoXlv4MnLCAnaW5mbycpOwogICAgICBzZXRFZGl0b3JUYXJnZXQoJ3VzZXInKTsKICAgICAgc2V0Vmlld01vZGUoJ2NoYXJFZGl0b3InKTsKICAgICAgcmV0dXJuOwogICAgfQogICAgaWYgKCFwaXhlbENoYXJDb25maWcpIHsKICAgICAgYWRkVG9hc3Q/Lihg5YaN57uZJHtjaGFyTmFtZX3kuZ/mjY/kuIDkuKrlg4/ntKDlvaLosaHlkKfvvIzkuI3nhLZUQeS8muS7pem7mOiupOW9ouixoeWHuueOsGAsICdpbmZvJyk7CiAgICAgIHNldEVkaXRvclRhcmdldCgnY2hhcicpOwogICAgICBzZXRWaWV3TW9kZSgnY2hhckVkaXRvcicpOwogICAgICByZXR1cm47CiAgICB9CiAgICBzZXRWaWV3TW9kZSgnZGl2ZScpOwogIH0sIFtwaXhlbFVzZXJDb25maWcsIHBpeGVsQ2hhckNvbmZpZywgY2hhck5hbWUsIGFkZFRvYXN0XSk7CgogIC8vIOiusOW/hua9nOihjOe7k+adn+WbnuiwgwogIGNvbnN0IGhhbmRsZURpdmVFeGl0ID0gdXNlQ2FsbGJhY2soKHJlc3VsdDogRGl2ZVJlc3VsdCB8IG51bGwpID0+IHsKICAgIHNldFZpZXdNb2RlKCdtYXAnKTsKICAgIGlmIChyZXN1bHQpIHsKICAgICAgc2V0TGFzdERpdmVSZXN1bHQocmVzdWx0KTsKICAgICAgY29uc3QgcHJpbWFyeUJ1ZmYgPSByZXN1bHQuYnVmZnNbMF07CiAgICAgIGlmIChwcmltYXJ5QnVmZikgewogICAgICAgIGFkZFRvYXN0Py4oYOiusOW/hua9nOihjOe7k+adn++8geiOt+W+l+OAjCR7cHJpbWFyeUJ1ZmYubGFiZWx944CNKyR7cHJpbWFyeUJ1ZmYudmFsdWV9YCwgJ3N1Y2Nlc3MnKTsKICAgICAgfQogICAgfQogIH0sIFthZGRUb2FzdF0pOwoKICBjb25zdCBoYW5kbGVFbnRlclJvb20gPSB1c2VDYWxsYmFjaygocm9vbUlkOiBNZW1vcnlSb29tKSA9PiB7CiAgICBzZXRTZWxlY3RlZFJvb20ocm9vbUlkKTsgc2V0Vmlld01vZGUoJ3Jvb20nKTsKICB9LCBbXSk7CgogIGNvbnN0IGhhbmRsZVJvb21VcGRhdGUgPSB1c2VDYWxsYmFjayhhc3luYyAoKSA9PiB7CiAgICBzZXRIb21lU3RhdGUoYXdhaXQgZ2V0T3JDcmVhdGVIb21lU3RhdGUoY2hhcklkKSk7CiAgfSwgW2NoYXJJZF0pOwoKICAvLyDlr7zlh7rpooTorr4KICBjb25zdCBoYW5kbGVFeHBvcnQgPSB1c2VDYWxsYmFjayhhc3luYyAoKSA9PiB7CiAgICBpZiAoIWhvbWVTdGF0ZSkgcmV0dXJuOwogICAgY29uc3QgbmFtZSA9IGNoYXJOYW1lICsgJ+eahOWutic7CiAgICBhd2FpdCBkb3dubG9hZFByZXNldChob21lU3RhdGUsIGFzc2V0cywgbmFtZSwgdXNlck5hbWUpOwogICAgYWRkVG9hc3Q/Lign6aKE6K6+5bey5a+85Ye6JywgJ3N1Y2Nlc3MnKTsKICB9LCBbaG9tZVN0YXRlLCBhc3NldHMsIGNoYXJOYW1lLCB1c2VyTmFtZSwgYWRkVG9hc3RdKTsKCiAgLy8g5a+85YWl6aKE6K6+CiAgY29uc3QgaGFuZGxlSW1wb3J0RmlsZSA9IHVzZUNhbGxiYWNrKGFzeW5jIChmaWxlOiBGaWxlKSA9PiB7CiAgICB0cnkgewogICAgICBjb25zdCBqc29uID0gYXdhaXQgcmVhZEZpbGVBc1RleHQoZmlsZSk7CiAgICAgIGNvbnN0IHJlc3VsdCA9IGF3YWl0IGltcG9ydFByZXNldChqc29uLCBjaGFySWQpOwogICAgICBpZiAocmVzdWx0LnN1Y2Nlc3MpIHsKICAgICAgICBhd2FpdCBoYW5kbGVSb29tVXBkYXRlKCk7CiAgICAgICAgY29uc3QgYWxsQXNzZXRzID0gYXdhaXQgUGl4ZWxBc3NldERCLmdldEFsbCgpOwogICAgICAgIHNldEFzc2V0cyhhbGxBc3NldHMpOwogICAgICAgIGFkZFRvYXN0Py4oYOWvvOWFpeaIkOWKn++8gSR7cmVzdWx0LnJvb21zSW1wb3J0ZWR95Liq5oi/6Ze077yMJHtyZXN1bHQuYXNzZXRzSW1wb3J0ZWR95Liq5paw6LWE5LqnYCwgJ3N1Y2Nlc3MnKTsKICAgICAgfSBlbHNlIHsKICAgICAgICBhZGRUb2FzdD8uKHJlc3VsdC5lcnJvciB8fCAn5a+85YWl5aSx6LSlJywgJ2Vycm9yJyk7CiAgICAgIH0KICAgIH0gY2F0Y2ggKGVycjogYW55KSB7CiAgICAgIGFkZFRvYXN0Py4oJ+WvvOWFpeWksei0pTogJyArIGVyci5tZXNzYWdlLCAnZXJyb3InKTsKICAgIH0KICB9LCBbY2hhcklkLCBoYW5kbGVSb29tVXBkYXRlLCBhZGRUb2FzdF0pOwoKICBjb25zdCBoYW5kbGVBc3NldHNDaGFuZ2VkID0gdXNlQ2FsbGJhY2soYXN5bmMgKCkgPT4gewogICAgc2V0QXNzZXRzKGF3YWl0IFBpeGVsQXNzZXREQi5nZXRBbGwoKSk7CiAgfSwgW10pOwoKICBjb25zdCBoYW5kbGVPcGVuTGlicmFyeSA9IHVzZUNhbGxiYWNrKChzbG90SWQ6IHN0cmluZyB8IG51bGwpID0+IHsKICAgIHBlbmRpbmdTbG90UmVmLmN1cnJlbnQgPSBzbG90SWQ7CiAgICBzZXRWaWV3TW9kZSgnbGlicmFyeScpOwogIH0sIFtdKTsKCiAgLy8g5LuO5LuT5bqT6YCJ5oup6LWE5LqnCiAgY29uc3QgaGFuZGxlU2VsZWN0QXNzZXQgPSB1c2VDYWxsYmFjayhhc3luYyAoYXNzZXRJZDogc3RyaW5nKSA9PiB7CiAgICBjb25zdCBzbG90SWQgPSBwZW5kaW5nU2xvdFJlZi5jdXJyZW50OwogICAgaWYgKCFob21lU3RhdGUpIHsgc2V0Vmlld01vZGUoJ3Jvb20nKTsgcmV0dXJuOyB9CgogICAgY29uc3Qgcm9vbUxheW91dCA9IGhvbWVTdGF0ZS5yb29tcy5maW5kKHIgPT4gci5yb29tSWQgPT09IHNlbGVjdGVkUm9vbSk7CiAgICBpZiAoIXJvb21MYXlvdXQpIHsgc2V0Vmlld01vZGUoJ3Jvb20nKTsgcmV0dXJuOyB9CgogICAgaWYgKHNsb3RJZCA9PT0gJ19fYWRkX18nKSB7CiAgICAgIC8vIOiHqueUsea3u+WKoOaWsOWutuWFtwogICAgICBjb25zdCBuZXdGOiBQbGFjZWRGdXJuaXR1cmUgPSB7CiAgICAgICAgc2xvdElkOiBgdXNlcl8ke0RhdGUubm93KCl9XyR7TWF0aC5yYW5kb20oKS50b1N0cmluZygzNikuc2xpY2UoMiwgNil9YCwKICAgICAgICBhc3NldElkLCB4OiA1MCwgeTogNjAsIHNjYWxlOiAxLCByb3RhdGlvbjogMCwKICAgICAgICBwbGFjZWRCeTogJ3VzZXInLCBpc0RlZmF1bHQ6IGZhbHNlLAogICAgICB9OwogICAgICBjb25zdCB1cGRhdGVkID0gewogICAgICAgIC4uLnJvb21MYXlvdXQsCiAgICAgICAgZnVybml0dXJlOiBbLi4ucm9vbUxheW91dC5mdXJuaXR1cmUsIG5ld0ZdLAogICAgICAgIGxhc3RVcGRhdGVkQXQ6IERhdGUubm93KCksCiAgICAgICAgbGFzdERlY29yYXRlZEJ5OiAndXNlcicgYXMgY29uc3QsCiAgICAgIH07CiAgICAgIGF3YWl0IFBpeGVsTGF5b3V0REIuc2F2ZSh1cGRhdGVkKTsKICAgICAgYXdhaXQgaGFuZGxlUm9vbVVwZGF0ZSgpOwogICAgICBhZGRUb2FzdD8uKCflrrblhbflt7LmlL7nva4nLCAnc3VjY2VzcycpOwogICAgfSBlbHNlIGlmIChzbG90SWQpIHsKICAgICAgLy8g5pu/5o2i5bey5pyJ5a625YW355qE57Sg5p2QCiAgICAgIGNvbnN0IHVwZGF0ZWRGdXJuaXR1cmUgPSByb29tTGF5b3V0LmZ1cm5pdHVyZS5tYXAoZiA9PgogICAgICAgIGYuc2xvdElkID09PSBzbG90SWQgPyB7IC4uLmYsIGFzc2V0SWQsIHBsYWNlZEJ5OiAndXNlcicgYXMgY29uc3QgfSA6IGYKICAgICAgKTsKICAgICAgYXdhaXQgUGl4ZWxMYXlvdXREQi5zYXZlKHsKICAgICAgICAuLi5yb29tTGF5b3V0LCBmdXJuaXR1cmU6IHVwZGF0ZWRGdXJuaXR1cmUsCiAgICAgICAgbGFzdFVwZGF0ZWRBdDogRGF0ZS5ub3coKSwgbGFzdERlY29yYXRlZEJ5OiAndXNlcicgYXMgY29uc3QsCiAgICAgIH0pOwogICAgICBhd2FpdCBoYW5kbGVSb29tVXBkYXRlKCk7CiAgICAgIGFkZFRvYXN0Py4oJ+WutuWFt+W3suabv+aNoicsICdzdWNjZXNzJyk7CiAgICB9CgogICAgcGVuZGluZ1Nsb3RSZWYuY3VycmVudCA9IG51bGw7CiAgICBzZXRWaWV3TW9kZSgncm9vbScpOwogIH0sIFtob21lU3RhdGUsIHNlbGVjdGVkUm9vbSwgaGFuZGxlUm9vbVVwZGF0ZSwgYWRkVG9hc3RdKTsKCiAgaWYgKGxvYWRpbmcpIHsKICAgIHJldHVybiAoCiAgICAgIDxkaXYgY2xhc3NOYW1lPSJoLWZ1bGwgdy1mdWxsIGZsZXggaXRlbXMtY2VudGVyIGp1c3RpZnktY2VudGVyIGJnLXNsYXRlLTkwMCI+CiAgICAgICAgPGRpdiBjbGFzc05hbWU9InRleHQtY2VudGVyIHNwYWNlLXktMyI+CiAgICAgICAgICA8ZGl2IGNsYXNzTmFtZT0idGV4dC00eGwgYW5pbWF0ZS1wdWxzZSI+8J+PoDwvZGl2PgogICAgICAgICAgPHAgY2xhc3NOYW1lPSJ0ZXh0LXNsYXRlLTQwMCB0ZXh0LXNtIGZvbnQtbGlnaHQiPuato+WcqOaJk+W8gHtjaGFyTmFtZX3nmoTlg4/ntKDlrrblm60uLi48L3A+CiAgICAgICAgPC9kaXY+CiAgICAgIDwvZGl2PgogICAgKTsKICB9CiAgaWYgKCFob21lU3RhdGUpIHJldHVybiBudWxsOwoKICBjb25zdCBnZXRSb29tRGlzcGxheU5hbWUgPSAocm9vbUlkOiBNZW1vcnlSb29tKSA9PgogICAgcm9vbUlkID09PSAndXNlcl9yb29tJyA/IGAke3VzZXJOYW1lfeeahOaIv2AgOiBST09NX01FVEFbcm9vbUlkXS5uYW1lOwoKICByZXR1cm4gKAogICAgPGRpdiBjbGFzc05hbWU9ImgtZnVsbCB3LWZ1bGwgZmxleCBmbGV4LWNvbCBiZy1zbGF0ZS05MDAgb3ZlcmZsb3ctaGlkZGVuIj4KICAgICAgey8qIOmhtumDqOWvvOiIqu+8iOa9nOihjOaooeW8j+S4i+makOiXj++8jOeUsSBNZW1vcnlEaXZlTW9kZSDoh6rluKblpLTpg6jvvIkgKi99CiAgICAgIHt2aWV3TW9kZSAhPT0gJ2RpdmUnICYmIDxkaXYKICAgICAgICBjbGFzc05hbWU9InNocmluay0wIGZsZXggaXRlbXMtY2VudGVyIGp1c3RpZnktYmV0d2VlbiBweC00IHBiLTMgYmctc2xhdGUtODAwLzgwIGJhY2tkcm9wLWJsdXItc20gYm9yZGVyLWIgYm9yZGVyLXNsYXRlLTcwMC81MCIKICAgICAgICBzdHlsZT17eyBwYWRkaW5nVG9wOiAnbWF4KDNyZW0sIHZhcigtLXNhZmUtdG9wLCAwcHgpKScgfX0KICAgICAgPgogICAgICAgIDxidXR0b24KICAgICAgICAgIG9uQ2xpY2s9eygpID0+IHsKICAgICAgICAgICAgaWYgKHZpZXdNb2RlID09PSAnbWFwJykgeyBvbkJhY2soKTsgcmV0dXJuOyB9CiAgICAgICAgICAgIC8vIOS7k+W6k+iLpeaYr+S7juaIv+mXtOS4rSLmt7vliqAv5pu/5o2i5a625YW3Iui/m+WFpeeahO+8jOW6lOWbnuWIsOaIv+mXtO+8m+WFtuWug++8iOWFqOWxgOS7k+W6ky/lt6XlnYov5o2P5Lq6L+WNleaIv+mXtOe8lui+ke+8ieS4gOW+i+WbnuWcsOWbvgogICAgICAgICAgICBpZiAodmlld01vZGUgPT09ICdsaWJyYXJ5JyAmJiBwZW5kaW5nU2xvdFJlZi5jdXJyZW50KSB7CiAgICAgICAgICAgICAgcGVuZGluZ1Nsb3RSZWYuY3VycmVudCA9IG51bGw7CiAgICAgICAgICAgICAgc2V0Vmlld01vZGUoJ3Jvb20nKTsKICAgICAgICAgICAgICByZXR1cm47CiAgICAgICAgICAgIH0KICAgICAgICAgICAgcGVuZGluZ1Nsb3RSZWYuY3VycmVudCA9IG51bGw7CiAgICAgICAgICAgIHNldFZpZXdNb2RlKCdtYXAnKTsKICAgICAgICAgIH19CiAgICAgICAgICBjbGFzc05hbWU9InAtMiAtbWwtMiByb3VuZGVkLWZ1bGwgaG92ZXI6Ymctc2xhdGUtNzAwIGFjdGl2ZTpzY2FsZS05MCB0cmFuc2l0aW9uLWFsbCI+CiAgICAgICAgICA8c3ZnIHhtbG5zPSJodHRwOi8vd3d3LnczLm9yZy8yMDAwL3N2ZyIgZmlsbD0ibm9uZSIgdmlld0JveD0iMCAwIDI0IDI0IiBzdHJva2VXaWR0aD17Mn0gc3Ryb2tlPSJjdXJyZW50Q29sb3IiIGNsYXNzTmFtZT0idy01IGgtNSB0ZXh0LXNsYXRlLTMwMCI+CiAgICAgICAgICAgIDxwYXRoIHN0cm9rZUxpbmVjYXA9InJvdW5kIiBzdHJva2VMaW5lam9pbj0icm91bmQiIGQ9Ik0xNS43NSAxOS41IDguMjUgMTJsNy41LTcuNSIgLz4KICAgICAgICAgIDwvc3ZnPgogICAgICAgIDwvYnV0dG9uPgogICAgICAgIDxzcGFuIGNsYXNzTmFtZT0iZm9udC1ib2xkIHRleHQtc2xhdGUtMjAwIHRleHQtc20gdHJhY2tpbmctd2lkZSI+CiAgICAgICAgICB7dmlld01vZGUgPT09ICdtYXAnICYmIGAke2NoYXJOYW1lfeeahOWutmB9CiAgICAgICAgICB7dmlld01vZGUgPT09ICdyb29tJyAmJiBnZXRSb29tRGlzcGxheU5hbWUoc2VsZWN0ZWRSb29tKX0KICAgICAgICAgIHt2aWV3TW9kZSA9PT0gJ2dlbmVyYXRvcicgJiYgJ+WDj+e0oOW3peWdiid9CiAgICAgICAgICB7dmlld01vZGUgPT09ICdsaWJyYXJ5JyAmJiAocGVuZGluZ1Nsb3RSZWYuY3VycmVudCA9PT0gJ19fYWRkX18nID8gJ+mAieaLqeimgeaUvue9rueahOWutuWFtycgOiBwZW5kaW5nU2xvdFJlZi5jdXJyZW50ID8gJ+mAieaLqeabv+aNoue0oOadkCcgOiAn5LuT5bqTIC8g5bel5Z2KJyl9CiAgICAgICAgICB7dmlld01vZGUgPT09ICdjaGFyRWRpdG9yJyAmJiAoZWRpdG9yVGFyZ2V0ID09PSAndXNlcicgPyAn5o2P5oiR6Ieq5bexJyA6IGDmjY8ke2NoYXJOYW1lfWApfQogICAgICAgIDwvc3Bhbj4KICAgICAgICA8ZGl2IGNsYXNzTmFtZT0idy04IiAvPgogICAgICA8L2Rpdj59CgogICAgICB7Lyog5Li75YaF5a655Yy6ICovfQogICAgICA8ZGl2IGNsYXNzTmFtZT0iZmxleC0xIG92ZXJmbG93LWhpZGRlbiByZWxhdGl2ZSI+CiAgICAgICAge3ZpZXdNb2RlID09PSAnbWFwJyAmJiAoCiAgICAgICAgICA8UGl4ZWxIb21lTWFwIGhvbWVTdGF0ZT17aG9tZVN0YXRlfSBhc3NldHM9e2Fzc2V0c30KICAgICAgICAgICAgY2hhclNwcml0ZT17cGl4ZWxDaGFyU3ByaXRlIHx8IGNoYXJBdmF0YXJ9IHVzZXJOYW1lPXt1c2VyTmFtZX0gb25FbnRlclJvb209e2hhbmRsZUVudGVyUm9vbX0KICAgICAgICAgICAgb25VcGRhdGVUaGVtZT17YXN5bmMgdGhlbWUgPT4gewogICAgICAgICAgICAgIHNldEhvbWVTdGF0ZShwcmV2ID0+IHByZXYgPyB7IC4uLnByZXYsIHRoZW1lIH0gOiBwcmV2KTsKICAgICAgICAgICAgICB0cnkgeyBhd2FpdCBEQi5zYXZlQXNzZXQoYHBpeGVsX2hvbWVfdGhlbWVfJHtjaGFySWR9YCwgSlNPTi5zdHJpbmdpZnkodGhlbWUpKTsgfSBjYXRjaCB7fQogICAgICAgICAgICB9fSAvPgogICAgICAgICl9CiAgICAgICAge3ZpZXdNb2RlID09PSAncm9vbScgJiYgKAogICAgICAgICAgPFBpeGVsUm9vbUVkaXRvciBjaGFySWQ9e2NoYXJJZH0gY2hhck5hbWU9e2NoYXJOYW1lfQogICAgICAgICAgICBjaGFyU3ByaXRlPXtwaXhlbENoYXJTcHJpdGUgfHwgY2hhckF2YXRhcn0gdXNlck5hbWU9e3VzZXJOYW1lfQogICAgICAgICAgICByb29tSWQ9e3NlbGVjdGVkUm9vbX0gbGF5b3V0PXtob21lU3RhdGUucm9vbXMuZmluZChyID0+IHIucm9vbUlkID09PSBzZWxlY3RlZFJvb20pIX0KICAgICAgICAgICAgYXNzZXRzPXthc3NldHN9IG9uVXBkYXRlPXtoYW5kbGVSb29tVXBkYXRlfSBvbk9wZW5MaWJyYXJ5PXtoYW5kbGVPcGVuTGlicmFyeX0gLz4KICAgICAgICApfQogICAgICAgIHt2aWV3TW9kZSA9PT0gJ2NoYXJFZGl0b3InICYmICgKICAgICAgICAgIDxQaXhlbENoYXJFZGl0b3IKICAgICAgICAgICAga2V5PXtlZGl0b3JUYXJnZXR9CiAgICAgICAgICAgIHRhcmdldD17ZWRpdG9yVGFyZ2V0fQogICAgICAgICAgICB0YXJnZXRMYWJlbD17ZWRpdG9yVGFyZ2V0ID09PSAndXNlcicgPyAn5L2g6Ieq5bexJyA6IGNoYXJOYW1lfQogICAgICAgICAgICBpbml0aWFsPXtlZGl0b3JUYXJnZXQgPT09ICd1c2VyJyA/IHBpeGVsVXNlckNvbmZpZyA6IHBpeGVsQ2hhckNvbmZpZ30KICAgICAgICAgICAgb25TYXZlPXtoYW5kbGVTYXZlQ2hhcn0KICAgICAgICAgICAgb25DYW5jZWw9eygpID0+IHNldFZpZXdNb2RlKCdtYXAnKX0KICAgICAgICAgIC8+CiAgICAgICAgKX0KICAgICAgICB7dmlld01vZGUgPT09ICdnZW5lcmF0b3InICYmICgKICAgICAgICAgIDxQaXhlbEFzc2V0R2VuZXJhdG9yIG9uR2VuZXJhdGVkPXtoYW5kbGVBc3NldHNDaGFuZ2VkfSAvPgogICAgICAgICl9CiAgICAgICAge3ZpZXdNb2RlID09PSAnbGlicmFyeScgJiYgKAogICAgICAgICAgPEFzc2V0TGlicmFyeSBhc3NldHM9e2Fzc2V0c30gb25DaGFuZ2VkPXtoYW5kbGVBc3NldHNDaGFuZ2VkfQogICAgICAgICAgICBvblNlbGVjdEFzc2V0PXtoYW5kbGVTZWxlY3RBc3NldH0gaXNTZWxlY3Rpbmc9eyEhcGVuZGluZ1Nsb3RSZWYuY3VycmVudH0gLz4KICAgICAgICApfQogICAgICAgIHt2aWV3TW9kZSA9PT0gJ2RpdmUnICYmIGhvbWVTdGF0ZSAmJiBjaGFyICYmICgKICAgICAgICAgIDxNZW1vcnlEaXZlTW9kZQogICAgICAgICAgICBjaGFySWQ9e2NoYXJJZH0gY2hhck5hbWU9e2NoYXJOYW1lfQogICAgICAgICAgICBjaGFyUHJvZmlsZT17Y2hhcn0KICAgICAgICAgICAgdXNlclByb2ZpbGU9e3VzZXJQcm9maWxlfQogICAgICAgICAgICBjaGFyU3ByaXRlPXtwaXhlbENoYXJTcHJpdGUgfHwgY2hhckF2YXRhcn0KICAgICAgICAgICAgcGxheWVyU3ByaXRlPXtwaXhlbFVzZXJTcHJpdGUgfHwgdW5kZWZpbmVkfQogICAgICAgICAgICB1c2VyTmFtZT17dXNlck5hbWV9CiAgICAgICAgICAgIGhvbWVTdGF0ZT17aG9tZVN0YXRlfSBhc3NldHM9e2Fzc2V0c30KICAgICAgICAgICAgYXBpQ29uZmlnPXthcGlDb25maWd9CiAgICAgICAgICAgIHJlbW90ZVZlY3RvckNvbmZpZz17cmVtb3RlVmVjdG9yQ29uZmlnfQogICAgICAgICAgICBvbkV4aXQ9e2hhbmRsZURpdmVFeGl0fQogICAgICAgICAgLz4KICAgICAgICApfQogICAgICA8L2Rpdj4KCiAgICAgIHsvKiDlupXpg6jlt6XlhbfmoI8gKi99CiAgICAgIHt2aWV3TW9kZSA9PT0gJ21hcCcgJiYgKAogICAgICAgIDxkaXYgY2xhc3NOYW1lPSJzaHJpbmstMCBiZy1zbGF0ZS04MDAvOTAgYmFja2Ryb3AtYmx1ci1zbSBib3JkZXItdCBib3JkZXItc2xhdGUtNzAwLzUwIiBzdHlsZT17eyBwYWRkaW5nQm90dG9tOiAndmFyKC0tc2FmZS1ib3R0b20sIDBweCknIH19PgogICAgICAgICAgPGRpdiBjbGFzc05hbWU9ImZsZXggaXRlbXMtY2VudGVyIGp1c3RpZnktYXJvdW5kIHB4LTQgcHktMiI+CiAgICAgICAgICAgIDxCb3R0b21UYWIgbGFiZWw9IuWutuWbrSIgYWN0aXZlIG9uQ2xpY2s9eygpID0+IHNldFZpZXdNb2RlKCdtYXAnKX0gLz4KICAgICAgICAgICAgPEJvdHRvbVRhYiBsYWJlbD0i8J+MgOa9nOihjCIgb25DbGljaz17aGFuZGxlRW50ZXJEaXZlfSAvPgogICAgICAgICAgICA8Qm90dG9tVGFiIGxhYmVsPSLku5PlupMv5bel5Z2KIiBvbkNsaWNrPXsoKSA9PiB7IHBlbmRpbmdTbG90UmVmLmN1cnJlbnQgPSBudWxsOyBzZXRWaWV3TW9kZSgnbGlicmFyeScpOyB9fSAvPgogICAgICAgICAgICA8Qm90dG9tVGFiIGxhYmVsPSLlr7zlh7oiIG9uQ2xpY2s9e2hhbmRsZUV4cG9ydH0gLz4KICAgICAgICAgICAgPEJvdHRvbVRhYiBsYWJlbD0i5o2PVEEiIG9uQ2xpY2s9eygpID0+IHsgc2V0RWRpdG9yVGFyZ2V0KCdjaGFyJyk7IHNldFZpZXdNb2RlKCdjaGFyRWRpdG9yJyk7IH19IC8+CiAgICAgICAgICAgIDxCb3R0b21UYWIgbGFiZWw9IuaNj+aIkSIgb25DbGljaz17KCkgPT4geyBzZXRFZGl0b3JUYXJnZXQoJ3VzZXInKTsgc2V0Vmlld01vZGUoJ2NoYXJFZGl0b3InKTsgfX0gLz4KICAgICAgICAgICAgPEJvdHRvbVRhYiBsYWJlbD0i5a+85YWlIiBvbkNsaWNrPXsoKSA9PiBpbXBvcnRJbnB1dFJlZi5jdXJyZW50Py5jbGljaygpfSAvPgogICAgICAgICAgPC9kaXY+CiAgICAgICAgICA8aW5wdXQgcmVmPXtpbXBvcnRJbnB1dFJlZn0gdHlwZT0iZmlsZSIgYWNjZXB0PSIuanNvbiIgY2xhc3NOYW1lPSJoaWRkZW4iCiAgICAgICAgICAgIG9uQ2hhbmdlPXtlID0+IHsgaWYgKGUudGFyZ2V0LmZpbGVzPy5bMF0pIHsgaGFuZGxlSW1wb3J0RmlsZShlLnRhcmdldC5maWxlc1swXSk7IGUudGFyZ2V0LnZhbHVlID0gJyc7IH0gfX0gLz4KICAgICAgICA8L2Rpdj4KICAgICAgKX0KICAgIDwvZGl2PgogICk7Cn07Cgpjb25zdCBCb3R0b21UYWI6IFJlYWN0LkZDPHsgbGFiZWw6IHN0cmluZzsgYWN0aXZlPzogYm9vbGVhbjsgb25DbGljazogKCkgPT4gdm9pZCB9PiA9ICh7IGxhYmVsLCBhY3RpdmUsIG9uQ2xpY2sgfSkgPT4gKAogIDxidXR0b24gb25DbGljaz17b25DbGlja30gY2xhc3NOYW1lPXtgcHgtMyBweS0yIHJvdW5kZWQteGwgdGV4dC1bMTBweF0gZm9udC1ib2xkIHRyYW5zaXRpb24tYWxsIGFjdGl2ZTpzY2FsZS05MCAke2FjdGl2ZSA/ICd0ZXh0LWFtYmVyLTQwMCBiZy1hbWJlci01MDAvMTAnIDogJ3RleHQtc2xhdGUtNDAwIGhvdmVyOnRleHQtc2xhdGUtMjAwJ31gfT4KICAgIHtsYWJlbH0KICA8L2J1dHRvbj4KKTsKCmV4cG9ydCBkZWZhdWx0IFBpeGVsSG9tZVZpZXc7Cg==
+/**
+ * Pixel Home — 像素家园主入口
+ *
+ * 管理4个子视图：俯瞰地图、单房间编辑、资产生成器、资产仓库
+ * 处理资产替换/添加流程
+ */
+
+import React, { useState, useEffect, useCallback, useRef } from 'react';
+import { useOS } from '../../context/OSContext';
+import type { PixelHomeState, PixelHomeViewMode, PixelAsset, PlacedFurniture } from './types';
+import type { MemoryRoom } from '../../utils/memoryPalace/types';
+import { getOrCreateHomeState, PixelLayoutDB, PixelAssetDB } from './pixelHomeDb';
+import { ROOM_META } from './roomTemplates';
+import { downloadPreset, importPreset, readFileAsText } from './presetManager';
+import PixelHomeMap from './PixelHomeMap';
+import PixelRoomEditor from './PixelRoomEditor';
+import PixelAssetGenerator from './PixelAssetGenerator';
+import AssetLibrary from './AssetLibrary';
+import PixelCharEditor from './PixelCharEditor';
+import MemoryDiveMode from './MemoryDiveMode';
+import type { DiveResult } from './memoryDiveTypes';
+import type { PixelCharConfig } from './pixelCharGenerator';
+import { ensurePixelChar } from './pixelCharGenerator';
+import { DB } from '../../utils/db';
+
+// 内置角色的默认像素形象（用户未自定义时使用）
+const PIXEL_CHAR_BASE = ((import.meta as any).env?.BASE_URL ?? '/') + 'pixel-char/';
+const DEFAULT_CHAR_SPRITES: Record<string, string> = {
+  'preset-sully-v2': `${PIXEL_CHAR_BASE}sully.png`,
+};
+
+interface Props {
+  charId: string;
+  charName: string;
+  charAvatar?: string;
+  userName: string;
+  onBack: () => void;
+}
+
+const PixelHomeView: React.FC<Props> = ({ charId, charName, charAvatar, userName, onBack }) => {
+  const { addToast, apiConfig, characters, userProfile, remoteVectorConfig } = useOS();
+  const char = characters.find(c => c.id === charId);
+  const [viewMode, setViewMode] = useState<PixelHomeViewMode>('map');
+  const [homeState, setHomeState] = useState<PixelHomeState | null>(null);
+  const [assets, setAssets] = useState<PixelAsset[]>([]);
+  const [selectedRoom, setSelectedRoom] = useState<MemoryRoom>('living_room');
+  const [loading, setLoading] = useState(true);
+
+  // 资产操作上下文：
+  // - null: 仅浏览仓库
+  // - '__add__': 添加新家具到房间
+  // - 'slot_xxx': 替换某个已有家具
+  // 像素小人：角色 和 用户自己 各存一份
+  const [pixelCharConfig, setPixelCharConfig] = useState<PixelCharConfig | null>(null);
+  const [pixelCharSprite, setPixelCharSprite] = useState<string | null>(null);
+  const [pixelUserConfig, setPixelUserConfig] = useState<PixelCharConfig | null>(null);
+  const [pixelUserSprite, setPixelUserSprite] = useState<string | null>(null);
+  /** 打开捏人界面时编辑的是"角色"还是"用户自己" */
+  const [editorTarget, setEditorTarget] = useState<'char' | 'user'>('char');
+  const [lastDiveResult, setLastDiveResult] = useState<DiveResult | null>(null);
+
+  const pendingSlotRef = useRef<string | null>(null);
+  const importInputRef = useRef<HTMLInputElement>(null);
+
+  useEffect(() => {
+    let cancelled = false;
+    (async () => {
+      setLoading(true);
+      try {
+        const [state, allAssets, savedChar, savedUser, savedTheme] = await Promise.all([
+          getOrCreateHomeState(charId),
+          PixelAssetDB.getAll(),
+          DB.getAsset(`pixel_char_${charId}`),
+          // 用户自己的像素小人是全局的，所有角色/房间共享
+          DB.getAsset(`pixel_char_user`),
+          // 家园主题色按角色保存
+          DB.getAsset(`pixel_home_theme_${charId}`),
+        ]);
+        if (!cancelled) {
+          if (savedTheme) {
+            try { state.theme = JSON.parse(savedTheme); } catch {}
+          }
+          setHomeState(state);
+          setAssets(allAssets);
+          if (savedChar) {
+            const cfg = JSON.parse(savedChar) as PixelCharConfig;
+            setPixelCharConfig(cfg);
+            ensurePixelChar(cfg).then(uri => { if (!cancelled) setPixelCharSprite(uri); }).catch(() => {});
+          } else {
+            // 未保存过 → 尝试加载内置默认像素形象（如 Sully）
+            const defaultSprite = DEFAULT_CHAR_SPRITES[charId];
+            if (defaultSprite) setPixelCharSprite(defaultSprite);
+          }
+          if (savedUser) {
+            const cfg = JSON.parse(savedUser) as PixelCharConfig;
+            setPixelUserConfig(cfg);
+            ensurePixelChar(cfg).then(uri => { if (!cancelled) setPixelUserSprite(uri); }).catch(() => {});
+          }
+        }
+      } catch (err) {
+        console.error('❌ [PixelHome] Failed to load:', err);
+        addToast?.('加载像素家园失败', 'error');
+      } finally { if (!cancelled) setLoading(false); }
+    })();
+    return () => { cancelled = true; };
+  }, [charId]);
+
+  // 保存像素小人（按 editorTarget 分别存到角色/用户 key）
+  const handleSaveChar = useCallback(async (cfg: PixelCharConfig, imageUri: string) => {
+    try {
+      if (editorTarget === 'user') {
+        await DB.saveAsset(`pixel_char_user`, JSON.stringify(cfg));
+        setPixelUserConfig(cfg);
+        setPixelUserSprite(imageUri);
+        addToast?.('你的像素形象已保存', 'success');
+      } else {
+        await DB.saveAsset(`pixel_char_${charId}`, JSON.stringify(cfg));
+        setPixelCharConfig(cfg);
+        setPixelCharSprite(imageUri);
+        addToast?.(`${charName}的像素形象已保存`, 'success');
+      }
+    } catch (err) {
+      // 写库失败（多为存储配额不足）如实报错，别让用户以为存上了、下次进来形象又没了
+      console.error('❌ [PixelHome] 像素形象保存失败:', err);
+      addToast?.('像素形象保存失败，可能是存储空间不足', 'error');
+      return;
+    }
+    setViewMode('map');
+  }, [charId, charName, editorTarget, addToast]);
+
+  /**
+   * 进入潜行模式前先检查：用户/角色是否还用着默认形象？
+   * 用的是默认形象就直接跳到捏人界面——两个人都没像素化的话潜行模式里出现的是
+   * 默认绿小人 / 紫小人，看起来两个人都是路人甲。先让用户起码把"你自己"捏好，
+   * 顺便提示一下 TA 也可以捏。
+   */
+  const handleEnterDive = useCallback(() => {
+    if (!pixelUserConfig) {
+      addToast?.('先捏一下你自己的像素形象，再一起潜入TA的内心', 'info');
+      setEditorTarget('user');
+      setViewMode('charEditor');
+      return;
+    }
+    if (!pixelCharConfig) {
+      addToast?.(`再给${charName}也捏一个像素形象吧，不然TA会以默认形象出现`, 'info');
+      setEditorTarget('char');
+      setViewMode('charEditor');
+      return;
+    }
+    setViewMode('dive');
+  }, [pixelUserConfig, pixelCharConfig, charName, addToast]);
+
+  // 记忆潜行结束回调
+  const handleDiveExit = useCallback((result: DiveResult | null) => {
+    setViewMode('map');
+    if (result) {
+      setLastDiveResult(result);
+      const primaryBuff = result.buffs[0];
+      if (primaryBuff) {
+        addToast?.(`记忆潜行结束！获得「${primaryBuff.label}」+${primaryBuff.value}`, 'success');
+      }
+    }
+  }, [addToast]);
+
+  const handleEnterRoom = useCallback((roomId: MemoryRoom) => {
+    setSelectedRoom(roomId); setViewMode('room');
+  }, []);
+
+  const handleRoomUpdate = useCallback(async () => {
+    setHomeState(await getOrCreateHomeState(charId));
+  }, [charId]);
+
+  // 导出预设
+  const handleExport = useCallback(async () => {
+    if (!homeState) return;
+    const name = charName + '的家';
+    await downloadPreset(homeState, assets, name, userName);
+    addToast?.('预设已导出', 'success');
+  }, [homeState, assets, charName, userName, addToast]);
+
+  // 导入预设
+  const handleImportFile = useCallback(async (file: File) => {
+    try {
+      const json = await readFileAsText(file);
+      const result = await importPreset(json, charId);
+      if (result.success) {
+        await handleRoomUpdate();
+        const allAssets = await PixelAssetDB.getAll();
+        setAssets(allAssets);
+        addToast?.(`导入成功！${result.roomsImported}个房间，${result.assetsImported}个新资产`, 'success');
+      } else {
+        addToast?.(result.error || '导入失败', 'error');
+      }
+    } catch (err: any) {
+      addToast?.('导入失败: ' + err.message, 'error');
+    }
+  }, [charId, handleRoomUpdate, addToast]);
+
+  const handleAssetsChanged = useCallback(async () => {
+    setAssets(await PixelAssetDB.getAll());
+  }, []);
+
+  const handleOpenLibrary = useCallback((slotId: string | null) => {
+    pendingSlotRef.current = slotId;
+    setViewMode('library');
+  }, []);
+
+  // 从仓库选择资产
+  const handleSelectAsset = useCallback(async (assetId: string) => {
+    const slotId = pendingSlotRef.current;
+    if (!homeState) { setViewMode('room'); return; }
+
+    const roomLayout = homeState.rooms.find(r => r.roomId === selectedRoom);
+    if (!roomLayout) { setViewMode('room'); return; }
+
+    if (slotId === '__add__') {
+      // 自由添加新家具
+      const newF: PlacedFurniture = {
+        slotId: `user_${Date.now()}_${Math.random().toString(36).slice(2, 6)}`,
+        assetId, x: 50, y: 60, scale: 1, rotation: 0,
+        placedBy: 'user', isDefault: false,
+      };
+      const updated = {
+        ...roomLayout,
+        furniture: [...roomLayout.furniture, newF],
+        lastUpdatedAt: Date.now(),
+        lastDecoratedBy: 'user' as const,
+      };
+      await PixelLayoutDB.save(updated);
+      await handleRoomUpdate();
+      addToast?.('家具已放置', 'success');
+    } else if (slotId) {
+      // 替换已有家具的素材
+      const updatedFurniture = roomLayout.furniture.map(f =>
+        f.slotId === slotId ? { ...f, assetId, placedBy: 'user' as const } : f
+      );
+      await PixelLayoutDB.save({
+        ...roomLayout, furniture: updatedFurniture,
+        lastUpdatedAt: Date.now(), lastDecoratedBy: 'user' as const,
+      });
+      await handleRoomUpdate();
+      addToast?.('家具已替换', 'success');
+    }
+
+    pendingSlotRef.current = null;
+    setViewMode('room');
+  }, [homeState, selectedRoom, handleRoomUpdate, addToast]);
+
+  if (loading) {
+    return (
+      <div className="h-full w-full flex items-center justify-center bg-slate-900">
+        <div className="text-center space-y-3">
+          <div className="text-4xl animate-pulse">🏠</div>
+          <p className="text-slate-400 text-sm font-light">正在打开{charName}的像素家园...</p>
+        </div>
+      </div>
+    );
+  }
+  if (!homeState) return null;
+
+  const getRoomDisplayName = (roomId: MemoryRoom) =>
+    roomId === 'user_room' ? `${userName}的房` : ROOM_META[roomId].name;
+
+  return (
+    <div className="h-full w-full flex flex-col bg-slate-900 overflow-hidden">
+      {/* 顶部导航（潜行模式下隐藏，由 MemoryDiveMode 自带头部） */}
+      {viewMode !== 'dive' && <div
+        className="shrink-0 flex items-center justify-between px-4 pb-3 bg-slate-800/80 backdrop-blur-sm border-b border-slate-700/50"
+        style={{ paddingTop: 'max(3rem, var(--safe-top, 0px))' }}
+      >
+        <button
+          onClick={() => {
+            if (viewMode === 'map') { onBack(); return; }
+            // 仓库若是从房间中"添加/替换家具"进入的，应回到房间；其它（全局仓库/工坊/捏人/单房间编辑）一律回地图
+            if (viewMode === 'library' && pendingSlotRef.current) {
+              pendingSlotRef.current = null;
+              setViewMode('room');
+              return;
+            }
+            pendingSlotRef.current = null;
+            setViewMode('map');
+          }}
+          className="p-2 -ml-2 rounded-full hover:bg-slate-700 active:scale-90 transition-all">
+          <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" strokeWidth={2} stroke="currentColor" className="w-5 h-5 text-slate-300">
+            <path strokeLinecap="round" strokeLinejoin="round" d="M15.75 19.5 8.25 12l7.5-7.5" />
+          </svg>
+        </button>
+        <span className="font-bold text-slate-200 text-sm tracking-wide">
+          {viewMode === 'map' && `${charName}的家`}
+          {viewMode === 'room' && getRoomDisplayName(selectedRoom)}
+          {viewMode === 'generator' && '像素工坊'}
+          {viewMode === 'library' && (pendingSlotRef.current === '__add__' ? '选择要放置的家具' : pendingSlotRef.current ? '选择替换素材' : '仓库 / 工坊')}
+          {viewMode === 'charEditor' && (editorTarget === 'user' ? '捏我自己' : `捏${charName}`)}
+        </span>
+        <div className="w-8" />
+      </div>}
+
+      {/* 主内容区 */}
+      <div className="flex-1 overflow-hidden relative">
+        {viewMode === 'map' && (
+          <PixelHomeMap homeState={homeState} assets={assets}
+            charSprite={pixelCharSprite || charAvatar} userName={userName} onEnterRoom={handleEnterRoom}
+            onUpdateTheme={async theme => {
+              setHomeState(prev => prev ? { ...prev, theme } : prev);
+              try { await DB.saveAsset(`pixel_home_theme_${charId}`, JSON.stringify(theme)); } catch {}
+            }} />
+        )}
+        {viewMode === 'room' && (
+          <PixelRoomEditor charId={charId} charName={charName}
+            charSprite={pixelCharSprite || charAvatar} userName={userName}
+            roomId={selectedRoom} layout={homeState.rooms.find(r => r.roomId === selectedRoom)!}
+            assets={assets} onUpdate={handleRoomUpdate} onOpenLibrary={handleOpenLibrary} />
+        )}
+        {viewMode === 'charEditor' && (
+          <PixelCharEditor
+            key={editorTarget}
+            target={editorTarget}
+            targetLabel={editorTarget === 'user' ? '你自己' : charName}
+            initial={editorTarget === 'user' ? pixelUserConfig : pixelCharConfig}
+            onSave={handleSaveChar}
+            onCancel={() => setViewMode('map')}
+          />
+        )}
+        {viewMode === 'generator' && (
+          <PixelAssetGenerator onGenerated={handleAssetsChanged} />
+        )}
+        {viewMode === 'library' && (
+          <AssetLibrary assets={assets} onChanged={handleAssetsChanged}
+            onSelectAsset={handleSelectAsset} isSelecting={!!pendingSlotRef.current} />
+        )}
+        {viewMode === 'dive' && homeState && char && (
+          <MemoryDiveMode
+            charId={charId} charName={charName}
+            charProfile={char}
+            userProfile={userProfile}
+            charSprite={pixelCharSprite || charAvatar}
+            playerSprite={pixelUserSprite || undefined}
+            userName={userName}
+            homeState={homeState} assets={assets}
+            apiConfig={apiConfig}
+            remoteVectorConfig={remoteVectorConfig}
+            onExit={handleDiveExit}
+          />
+        )}
+      </div>
+
+      {/* 底部工具栏 */}
+      {viewMode === 'map' && (
+        <div className="shrink-0 bg-slate-800/90 backdrop-blur-sm border-t border-slate-700/50" style={{ paddingBottom: 'var(--safe-bottom, 0px)' }}>
+          <div className="flex items-center justify-around px-4 py-2">
+            <BottomTab label="家园" active onClick={() => setViewMode('map')} />
+            <BottomTab label="🌀潜行" onClick={handleEnterDive} />
+            <BottomTab label="仓库/工坊" onClick={() => { pendingSlotRef.current = null; setViewMode('library'); }} />
+            <BottomTab label="导出" onClick={handleExport} />
+            <BottomTab label="捏TA" onClick={() => { setEditorTarget('char'); setViewMode('charEditor'); }} />
+            <BottomTab label="捏我" onClick={() => { setEditorTarget('user'); setViewMode('charEditor'); }} />
+            <BottomTab label="导入" onClick={() => importInputRef.current?.click()} />
+          </div>
+          <input ref={importInputRef} type="file" accept=".json" className="hidden"
+            onChange={e => { if (e.target.files?.[0]) { handleImportFile(e.target.files[0]); e.target.value = ''; } }} />
+        </div>
+      )}
+    </div>
+  );
+};
+
+const BottomTab: React.FC<{ label: string; active?: boolean; onClick: () => void }> = ({ label, active, onClick }) => (
+  <button onClick={onClick} className={`px-3 py-2 rounded-xl text-[10px] font-bold transition-all active:scale-90 ${active ? 'text-amber-400 bg-amber-500/10' : 'text-slate-400 hover:text-slate-200'}`}>
+    {label}
+  </button>
+);
+
+export default PixelHomeView;

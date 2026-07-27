@@ -1,1 +1,378 @@
-LyoqCiAqIFBpeGVsIEhvbWUg4oCUIOm7mOiupOWutuWFt+WDj+e0oOa4suafk+WZqAogKgogKiDkuLrmr4/kuKrmp73kvY3nlJ/miJDpu5jorqTnmoTlg4/ntKDpo47moLzlrrblhbflm77moIfvvIhDYW52YXMg55Sf5oiQ77yJ44CCCiAqIOeUqOaIt+WPr+S7peeUqOiHquWumuS5iei1hOS6p+abv+aNoui/meS6m+m7mOiupOWbvuOAggogKi8KCmltcG9ydCB0eXBlIHsgTWVtb3J5Um9vbSB9IGZyb20gJy4uLy4uL3V0aWxzL21lbW9yeVBhbGFjZS90eXBlcyc7CgovLyDnvJPlrZjnlJ/miJDnmoTpu5jorqTlrrblhbflm74KY29uc3QgX2NhY2hlOiBNYXA8c3RyaW5nLCBzdHJpbmc+ID0gbmV3IE1hcCgpOwoKLy8g6LCD6Imy5p2/CmNvbnN0IFBBTCA9IHsKICB3b29kOiAgICAgICcjOGI2OTE0JywKICB3b29kRGFyazogICcjNWM0YTFlJywKICB3b29kTGlnaHQ6ICcjYzRhMzVhJywKICBmYWJyaWM6ICAgICcjNjM2NmYxJywKICBmYWJyaWNEYXJrOicjNDMzOGNhJywKICB3aGl0ZTogICAgICcjZjhmYWZjJywKICBjcmVhbTogICAgICcjZmVmM2M3JywKICBncmF5OiAgICAgICcjOTRhM2I4JywKICBncmF5RGFyazogICcjNDc1NTY5JywKICBnbGFzczogICAgICcjOTNjNWZkJywKICBncmVlbjogICAgICcjNGFkZTgwJywKICBncmVlbkRhcms6ICcjMTZhMzRhJywKICBwaW5rOiAgICAgICcjZjQ3MmI2JywKICBnb2xkOiAgICAgICcjZmJiZjI0JywKICByZWQ6ICAgICAgICcjZWY0NDQ0JywKICBibGFjazogICAgICcjMWUyOTNiJywKICBwYXBlcjogICAgICcjZmVmY2U4JywKICBtZXRhbDogICAgICcjOWNhM2FmJywKICBydXN0OiAgICAgICcjYjQ1MzA5JywKICBjb2J3ZWI6ICAgICcjZDFkNWRiJywKICBtaXJyb3I6ICAgICcjYmZkYmZlJywKICBwdXJwbGU6ICAgICcjYTc4YmZhJywKICBjeWFuOiAgICAgICcjMjJkM2VlJywKfTsKCi8qKgogKiDojrflj5bpu5jorqTlrrblhbflg4/ntKDlm77nmoQgZGF0YSBVUknjgIIKICog5q+P5Liq5oi/6Ze055qE5q+P5Liq5qe95L2N5pyJ54us54m555qE5YOP57Sg5bCP5Zu+5qCH44CCCiAqLwpleHBvcnQgZnVuY3Rpb24gZGVmYXVsdEZ1cm5pdHVyZVBpeGVsU3JjKHJvb21JZDogTWVtb3J5Um9vbSwgc2xvdElkOiBzdHJpbmcpOiBzdHJpbmcgewogIGNvbnN0IGtleSA9IGAke3Jvb21JZH1fJHtzbG90SWR9YDsKICBpZiAoX2NhY2hlLmhhcyhrZXkpKSByZXR1cm4gX2NhY2hlLmdldChrZXkpITsKCiAgY29uc3QgU0laRSA9IDE2OyAvLyDljp/lp4vlg4/ntKDlsLrlr7gKICBjb25zdCBTQ0FMRSA9IDQ7IC8vIOWxleekuuaUvuWkp+WAjeaVsAogIGNvbnN0IGNhbnZhcyA9IGRvY3VtZW50LmNyZWF0ZUVsZW1lbnQoJ2NhbnZhcycpOwogIGNhbnZhcy53aWR0aCA9IFNJWkUgKiBTQ0FMRTsKICBjYW52YXMuaGVpZ2h0ID0gU0laRSAqIFNDQUxFOwogIGNvbnN0IGN0eCA9IGNhbnZhcy5nZXRDb250ZXh0KCcyZCcpITsKICBjdHguaW1hZ2VTbW9vdGhpbmdFbmFibGVkID0gZmFsc2U7CgogIC8vIOWFiOeUu+WIsOWwjyBjYW52YXMg5YaN5pS+5aSnCiAgY29uc3Qgc21hbGwgPSBkb2N1bWVudC5jcmVhdGVFbGVtZW50KCdjYW52YXMnKTsKICBzbWFsbC53aWR0aCA9IFNJWkU7CiAgc21hbGwuaGVpZ2h0ID0gU0laRTsKICBjb25zdCBzQ3R4ID0gc21hbGwuZ2V0Q29udGV4dCgnMmQnKSE7CgogIGRyYXdEZWZhdWx0RnVybml0dXJlKHNDdHgsIHJvb21JZCwgc2xvdElkLCBTSVpFKTsKCiAgY3R4LmRyYXdJbWFnZShzbWFsbCwgMCwgMCwgY2FudmFzLndpZHRoLCBjYW52YXMuaGVpZ2h0KTsKICBjb25zdCBkYXRhVXJpID0gY2FudmFzLnRvRGF0YVVSTCgnaW1hZ2UvcG5nJyk7CiAgX2NhY2hlLnNldChrZXksIGRhdGFVcmkpOwogIHJldHVybiBkYXRhVXJpOwp9CgpmdW5jdGlvbiBweChjdHg6IENhbnZhc1JlbmRlcmluZ0NvbnRleHQyRCwgeDogbnVtYmVyLCB5OiBudW1iZXIsIGNvbG9yOiBzdHJpbmcpIHsKICBjdHguZmlsbFN0eWxlID0gY29sb3I7CiAgY3R4LmZpbGxSZWN0KHgsIHksIDEsIDEpOwp9CgpmdW5jdGlvbiByZWN0KGN0eDogQ2FudmFzUmVuZGVyaW5nQ29udGV4dDJELCB4OiBudW1iZXIsIHk6IG51bWJlciwgdzogbnVtYmVyLCBoOiBudW1iZXIsIGNvbG9yOiBzdHJpbmcpIHsKICBjdHguZmlsbFN0eWxlID0gY29sb3I7CiAgY3R4LmZpbGxSZWN0KHgsIHksIHcsIGgpOwp9CgpmdW5jdGlvbiBkcmF3RGVmYXVsdEZ1cm5pdHVyZShjdHg6IENhbnZhc1JlbmRlcmluZ0NvbnRleHQyRCwgcm9vbUlkOiBNZW1vcnlSb29tLCBzbG90SWQ6IHN0cmluZywgc2l6ZTogbnVtYmVyKSB7CiAgLy8g5riF56m6CiAgY3R4LmNsZWFyUmVjdCgwLCAwLCBzaXplLCBzaXplKTsKCiAgc3dpdGNoIChgJHtyb29tSWR9OiR7c2xvdElkfWApIHsKICAgIC8vIOKUgOKUgOKUgCDlrqLljoUg4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSACiAgICBjYXNlICdsaXZpbmdfcm9vbTpzb2ZhJzoKICAgICAgcmVjdChjdHgsIDIsIDgsIDEyLCA1LCBQQUwuZmFicmljKTsKICAgICAgcmVjdChjdHgsIDEsIDksIDEsIDQsIFBBTC5mYWJyaWNEYXJrKTsKICAgICAgcmVjdChjdHgsIDE0LCA5LCAxLCA0LCBQQUwuZmFicmljRGFyayk7CiAgICAgIHJlY3QoY3R4LCAzLCA3LCAxMCwgMiwgUEFMLmZhYnJpYyk7CiAgICAgIHJlY3QoY3R4LCA0LCAxMywgMiwgMiwgUEFMLndvb2REYXJrKTsgLy8gbGVncwogICAgICByZWN0KGN0eCwgMTAsIDEzLCAyLCAyLCBQQUwud29vZERhcmspOwogICAgICBicmVhazsKICAgIGNhc2UgJ2xpdmluZ19yb29tOnR2JzoKICAgICAgcmVjdChjdHgsIDMsIDMsIDEwLCA4LCBQQUwuYmxhY2spOwogICAgICByZWN0KGN0eCwgNCwgNCwgOCwgNiwgUEFMLmdsYXNzKTsKICAgICAgcmVjdChjdHgsIDcsIDExLCAyLCAyLCBQQUwuZ3JheURhcmspOwogICAgICByZWN0KGN0eCwgNSwgMTMsIDYsIDEsIFBBTC5ncmF5KTsKICAgICAgYnJlYWs7CiAgICBjYXNlICdsaXZpbmdfcm9vbTpjb2ZmZWVfdGFibGUnOgogICAgICByZWN0KGN0eCwgMywgOCwgMTAsIDIsIFBBTC53b29kKTsKICAgICAgcmVjdChjdHgsIDMsIDcsIDEwLCAxLCBQQUwud29vZExpZ2h0KTsKICAgICAgcmVjdChjdHgsIDQsIDEwLCAxLCA0LCBQQUwud29vZERhcmspOwogICAgICByZWN0KGN0eCwgMTEsIDEwLCAxLCA0LCBQQUwud29vZERhcmspOwogICAgICBicmVhazsKICAgIGNhc2UgJ2xpdmluZ19yb29tOnJ1Zyc6CiAgICAgIHJlY3QoY3R4LCAyLCAxMCwgMTIsIDQsIFBBTC5jcmVhbSk7CiAgICAgIHJlY3QoY3R4LCAzLCAxMSwgMTAsIDIsIFBBTC5waW5rKTsKICAgICAgcmVjdChjdHgsIDIsIDEwLCAxMiwgMSwgUEFMLmdvbGQpOwogICAgICByZWN0KGN0eCwgMiwgMTMsIDEyLCAxLCBQQUwuZ29sZCk7CiAgICAgIGJyZWFrOwogICAgY2FzZSAnbGl2aW5nX3Jvb206Y2xvY2snOgogICAgICByZWN0KGN0eCwgNSwgMiwgNiwgNiwgUEFMLndvb2QpOwogICAgICByZWN0KGN0eCwgNiwgMywgNCwgNCwgUEFMLndoaXRlKTsKICAgICAgcHgoY3R4LCA4LCA0LCBQQUwuYmxhY2spOyAvLyAxMgogICAgICBweChjdHgsIDgsIDYsIFBBTC5ibGFjayk7IC8vIDYKICAgICAgcHgoY3R4LCA3LCA1LCBQQUwucmVkKTsgICAvLyBoYW5kCiAgICAgIHB4KGN0eCwgOCwgNSwgUEFMLnJlZCk7CiAgICAgIGJyZWFrOwoKICAgIC8vIOKUgOKUgOKUgCDljaflrqQg4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSACiAgICBjYXNlICdiZWRyb29tOmJlZCc6CiAgICAgIHJlY3QoY3R4LCAxLCA3LCAxNCwgNywgUEFMLmZhYnJpYyk7CiAgICAgIHJlY3QoY3R4LCAyLCA1LCAxMiwgMywgUEFMLndoaXRlKTsgLy8gcGlsbG93CiAgICAgIHJlY3QoY3R4LCAxLCA2LCAxLCA4LCBQQUwud29vZERhcmspOwogICAgICByZWN0KGN0eCwgMTQsIDYsIDEsIDgsIFBBTC53b29kRGFyayk7CiAgICAgIHJlY3QoY3R4LCAxLCAxNCwgMTQsIDEsIFBBTC53b29kRGFyayk7CiAgICAgIGJyZWFrOwogICAgY2FzZSAnYmVkcm9vbTpuaWdodHN0YW5kJzoKICAgICAgcmVjdChjdHgsIDQsIDYsIDgsIDgsIFBBTC53b29kKTsKICAgICAgcmVjdChjdHgsIDUsIDcsIDYsIDMsIFBBTC53b29kRGFyayk7CiAgICAgIHJlY3QoY3R4LCA1LCAxMSwgNiwgMiwgUEFMLndvb2REYXJrKTsKICAgICAgcmVjdChjdHgsIDQsIDE0LCAyLCAxLCBQQUwud29vZERhcmspOwogICAgICByZWN0KGN0eCwgMTAsIDE0LCAyLCAxLCBQQUwud29vZERhcmspOwogICAgICBicmVhazsKICAgIGNhc2UgJ2JlZHJvb206bGFtcCc6CiAgICAgIHJlY3QoY3R4LCA2LCAzLCA0LCA1LCBQQUwuZ29sZCk7CiAgICAgIHJlY3QoY3R4LCA1LCAyLCA2LCAyLCBQQUwuZ29sZCk7CiAgICAgIHJlY3QoY3R4LCA3LCA4LCAyLCA1LCBQQUwuZ3JheSk7CiAgICAgIHJlY3QoY3R4LCA2LCAxMywgNCwgMSwgUEFMLmdyYXlEYXJrKTsKICAgICAgYnJlYWs7CiAgICBjYXNlICdiZWRyb29tOmN1cnRhaW4nOgogICAgICByZWN0KGN0eCwgMSwgMSwgNCwgMTQsIFBBTC5mYWJyaWMpOwogICAgICByZWN0KGN0eCwgMTEsIDEsIDQsIDE0LCBQQUwuZmFicmljKTsKICAgICAgcmVjdChjdHgsIDEsIDEsIDE0LCAxLCBQQUwud29vZERhcmspOwogICAgICByZWN0KGN0eCwgNSwgMiwgNiwgMTIsIFBBTC5nbGFzcyk7IC8vIHdpbmRvdwogICAgICBicmVhazsKICAgIGNhc2UgJ2JlZHJvb206ZnJhbWUnOgogICAgICByZWN0KGN0eCwgMywgMywgMTAsIDEwLCBQQUwud29vZCk7CiAgICAgIHJlY3QoY3R4LCA0LCA0LCA4LCA4LCBQQUwud2hpdGUpOwogICAgICByZWN0KGN0eCwgNSwgNSwgNiwgNiwgUEFMLnBpbmspOwogICAgICBweChjdHgsIDcsIDcsIFBBTC5yZWQpOwogICAgICBweChjdHgsIDgsIDgsIFBBTC5yZWQpOwogICAgICBicmVhazsKCiAgICAvLyDilIDilIDilIAg5Lmm5oi/IOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgAogICAgY2FzZSAnc3R1ZHk6ZGVzayc6CiAgICAgIHJlY3QoY3R4LCAxLCA3LCAxNCwgMiwgUEFMLndvb2QpOwogICAgICByZWN0KGN0eCwgMSwgNiwgMTQsIDEsIFBBTC53b29kTGlnaHQpOwogICAgICByZWN0KGN0eCwgMiwgOSwgMiwgNSwgUEFMLndvb2REYXJrKTsKICAgICAgcmVjdChjdHgsIDEyLCA5LCAyLCA1LCBQQUwud29vZERhcmspOwogICAgICBicmVhazsKICAgIGNhc2UgJ3N0dWR5OmJvb2tzaGVsZic6CiAgICAgIHJlY3QoY3R4LCAyLCAxLCAxMiwgMTQsIFBBTC53b29kKTsKICAgICAgcmVjdChjdHgsIDMsIDIsIDQsIDMsIFBBTC5yZWQpOwogICAgICByZWN0KGN0eCwgNywgMiwgMywgMywgUEFMLmZhYnJpYyk7CiAgICAgIHJlY3QoY3R4LCAxMCwgMiwgMywgMywgUEFMLmdyZWVuKTsKICAgICAgcmVjdChjdHgsIDMsIDYsIDMsIDMsIFBBTC5nb2xkKTsKICAgICAgcmVjdChjdHgsIDYsIDYsIDQsIDMsIFBBTC5jeWFuKTsKICAgICAgcmVjdChjdHgsIDEwLCA2LCAzLCAzLCBQQUwucHVycGxlKTsKICAgICAgcmVjdChjdHgsIDMsIDEwLCAxMCwgNCwgUEFMLndvb2REYXJrKTsKICAgICAgYnJlYWs7CiAgICBjYXNlICdzdHVkeTp3aGl0ZWJvYXJkJzoKICAgICAgcmVjdChjdHgsIDIsIDIsIDEyLCAxMCwgUEFMLndoaXRlKTsKICAgICAgcmVjdChjdHgsIDEsIDEsIDE0LCAxLCBQQUwuZ3JheSk7CiAgICAgIHJlY3QoY3R4LCAxLCAxMiwgMTQsIDEsIFBBTC5ncmF5KTsKICAgICAgcmVjdChjdHgsIDEsIDEsIDEsIDEyLCBQQUwuZ3JheSk7CiAgICAgIHJlY3QoY3R4LCAxNCwgMSwgMSwgMTIsIFBBTC5ncmF5KTsKICAgICAgcHgoY3R4LCA0LCA1LCBQQUwucmVkKTsKICAgICAgcHgoY3R4LCA1LCA1LCBQQUwucmVkKTsKICAgICAgcHgoY3R4LCA4LCA3LCBQQUwuZmFicmljKTsKICAgICAgYnJlYWs7CiAgICBjYXNlICdzdHVkeTpwZW5faG9sZGVyJzoKICAgICAgcmVjdChjdHgsIDUsIDcsIDYsIDcsIFBBTC5ncmF5KTsKICAgICAgcmVjdChjdHgsIDUsIDcsIDYsIDEsIFBBTC5ncmF5RGFyayk7CiAgICAgIHB4KGN0eCwgNiwgNCwgUEFMLnJlZCk7CiAgICAgIHB4KGN0eCwgNiwgNSwgUEFMLnJlZCk7CiAgICAgIHB4KGN0eCwgNiwgNiwgUEFMLnJlZCk7CiAgICAgIHB4KGN0eCwgOCwgMywgUEFMLmZhYnJpYyk7CiAgICAgIHB4KGN0eCwgOCwgNCwgUEFMLmZhYnJpYyk7CiAgICAgIHB4KGN0eCwgOCwgNSwgUEFMLmZhYnJpYyk7CiAgICAgIHB4KGN0eCwgOCwgNiwgUEFMLmZhYnJpYyk7CiAgICAgIHB4KGN0eCwgMTAsIDUsIFBBTC5ncmVlbik7CiAgICAgIHB4KGN0eCwgMTAsIDYsIFBBTC5ncmVlbik7CiAgICAgIGJyZWFrOwogICAgY2FzZSAnc3R1ZHk6Z2xvYmUnOgogICAgICByZWN0KGN0eCwgNSwgMywgNiwgNiwgUEFMLmdsYXNzKTsKICAgICAgcmVjdChjdHgsIDYsIDQsIDQsIDQsIFBBTC5ncmVlbik7CiAgICAgIHJlY3QoY3R4LCA3LCA5LCAyLCAzLCBQQUwuZ3JheSk7CiAgICAgIHJlY3QoY3R4LCA1LCAxMiwgNiwgMSwgUEFMLmdyYXlEYXJrKTsKICAgICAgYnJlYWs7CgogICAgLy8g4pSA4pSA4pSAIOmYgealvCDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIAKICAgIGNhc2UgJ2F0dGljOmNoZXN0JzoKICAgICAgcmVjdChjdHgsIDIsIDcsIDEyLCA3LCBQQUwud29vZERhcmspOwogICAgICByZWN0KGN0eCwgMiwgNywgMTIsIDIsIFBBTC5ydXN0KTsKICAgICAgcmVjdChjdHgsIDcsIDksIDIsIDIsIFBBTC5nb2xkKTsKICAgICAgYnJlYWs7CiAgICBjYXNlICdhdHRpYzpjb2J3ZWInOgogICAgICBweChjdHgsIDEsIDEsIFBBTC5jb2J3ZWIpOwogICAgICBweChjdHgsIDIsIDIsIFBBTC5jb2J3ZWIpOwogICAgICBweChjdHgsIDMsIDMsIFBBTC5jb2J3ZWIpOwogICAgICBweChjdHgsIDQsIDQsIFBBTC5jb2J3ZWIpOwogICAgICBweChjdHgsIDIsIDEsIFBBTC5jb2J3ZWIpOwogICAgICBweChjdHgsIDMsIDEsIFBBTC5jb2J3ZWIpOwogICAgICBweChjdHgsIDEsIDIsIFBBTC5jb2J3ZWIpOwogICAgICBweChjdHgsIDEsIDMsIFBBTC5jb2J3ZWIpOwogICAgICBweChjdHgsIDUsIDMsIFBBTC5jb2J3ZWIpOwogICAgICBweChjdHgsIDMsIDUsIFBBTC5jb2J3ZWIpOwogICAgICBicmVhazsKICAgIGNhc2UgJ2F0dGljOm1pcnJvcic6CiAgICAgIHJlY3QoY3R4LCA0LCAyLCA4LCAxMSwgUEFMLndvb2REYXJrKTsKICAgICAgcmVjdChjdHgsIDUsIDMsIDYsIDksIFBBTC5taXJyb3IpOwogICAgICByZWN0KGN0eCwgNiwgNSwgNCwgNSwgUEFMLmdsYXNzKTsKICAgICAgLy8gZHVzdCBwYXJ0aWNsZXMKICAgICAgcHgoY3R4LCA1LCA0LCBQQUwuY29id2ViKTsKICAgICAgcHgoY3R4LCA5LCA2LCBQQUwuY29id2ViKTsKICAgICAgYnJlYWs7CiAgICBjYXNlICdhdHRpYzp3aW5kb3cnOgogICAgICByZWN0KGN0eCwgMywgMSwgMTAsIDgsIFBBTC53b29kRGFyayk7CiAgICAgIHJlY3QoY3R4LCA0LCAyLCA4LCA2LCBQQUwuZ2xhc3MpOwogICAgICByZWN0KGN0eCwgOCwgMiwgMSwgNiwgUEFMLndvb2REYXJrKTsKICAgICAgcmVjdChjdHgsIDQsIDUsIDgsIDEsIFBBTC53b29kRGFyayk7CiAgICAgIC8vIGxpZ2h0IHJheXMKICAgICAgcHgoY3R4LCA2LCAxMCwgUEFMLmdvbGQpOwogICAgICBweChjdHgsIDcsIDExLCBQQUwuZ29sZCk7CiAgICAgIHB4KGN0eCwgOCwgMTIsIFBBTC5nb2xkKTsKICAgICAgYnJlYWs7CiAgICBjYXNlICdhdHRpYzptdXNpY19ib3gnOgogICAgICByZWN0KGN0eCwgNCwgOCwgOCwgNiwgUEFMLnJ1c3QpOwogICAgICByZWN0KGN0eCwgNCwgNywgOCwgMiwgUEFMLndvb2QpOwogICAgICByZWN0KGN0eCwgNywgNSwgMiwgMywgUEFMLmdvbGQpOwogICAgICBweChjdHgsIDcsIDQsIFBBTC5nb2xkKTsKICAgICAgYnJlYWs7CgogICAgLy8g4pSA4pSA4pSAIOS4quS6uuaIv+mXtCDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIAKICAgIGNhc2UgJ3NlbGZfcm9vbTp2YW5pdHknOgogICAgICByZWN0KGN0eCwgMywgNywgMTAsIDcsIFBBTC53b29kKTsKICAgICAgcmVjdChjdHgsIDQsIDIsIDgsIDYsIFBBTC5taXJyb3IpOwogICAgICByZWN0KGN0eCwgNSwgMywgNiwgNCwgUEFMLmdsYXNzKTsKICAgICAgcmVjdChjdHgsIDQsIDgsIDMsIDIsIFBBTC53b29kRGFyayk7IC8vIGRyYXdlcgogICAgICByZWN0KGN0eCwgOSwgOCwgMywgMiwgUEFMLndvb2REYXJrKTsKICAgICAgYnJlYWs7CiAgICBjYXNlICdzZWxmX3Jvb206ZGlhcnknOgogICAgICByZWN0KGN0eCwgNCwgNSwgOCwgOSwgUEFMLnB1cnBsZSk7CiAgICAgIHJlY3QoY3R4LCA1LCA2LCA2LCA3LCBQQUwucGFwZXIpOwogICAgICByZWN0KGN0eCwgNCwgNSwgMSwgOSwgUEFMLmZhYnJpY0RhcmspOwogICAgICBweChjdHgsIDYsIDgsIFBBTC5ibGFjayk7CiAgICAgIHB4KGN0eCwgNywgOCwgUEFMLmJsYWNrKTsKICAgICAgcHgoY3R4LCA4LCA4LCBQQUwuYmxhY2spOwogICAgICBicmVhazsKICAgIGNhc2UgJ3NlbGZfcm9vbTp0cm9waHknOgogICAgICByZWN0KGN0eCwgNiwgMywgNCwgMywgUEFMLmdvbGQpOwogICAgICByZWN0KGN0eCwgNSwgMiwgNiwgMSwgUEFMLmdvbGQpOwogICAgICByZWN0KGN0eCwgNywgNiwgMiwgNCwgUEFMLmdvbGQpOwogICAgICByZWN0KGN0eCwgNSwgMTAsIDYsIDIsIFBBTC53b29kRGFyayk7CiAgICAgIGJyZWFrOwogICAgY2FzZSAnc2VsZl9yb29tOnBvc3Rlcic6CiAgICAgIHJlY3QoY3R4LCAyLCAyLCAxMiwgMTEsIFBBTC53aGl0ZSk7CiAgICAgIHJlY3QoY3R4LCAzLCAzLCAxMCwgOSwgUEFMLmNyZWFtKTsKICAgICAgcmVjdChjdHgsIDUsIDUsIDYsIDUsIFBBTC5yZWQpOwogICAgICBweChjdHgsIDcsIDYsIFBBTC53aGl0ZSk7CiAgICAgIHB4KGN0eCwgOCwgNywgUEFMLndoaXRlKTsKICAgICAgYnJlYWs7CiAgICBjYXNlICdzZWxmX3Jvb206cGV0X2JlZCc6CiAgICAgIHJlY3QoY3R4LCAzLCA5LCAxMCwgNSwgUEFMLmZhYnJpYyk7CiAgICAgIHJlY3QoY3R4LCAyLCA4LCAxMiwgMiwgUEFMLmZhYnJpY0RhcmspOwogICAgICByZWN0KGN0eCwgNSwgMTAsIDQsIDMsIFBBTC5jcmVhbSk7IC8vIGN1c2hpb24KICAgICAgYnJlYWs7CgogICAgLy8g4pSA4pSA4pSAIOeUqOaIt+aIvyDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIAKICAgIGNhc2UgJ3VzZXJfcm9vbTpndWVzdF9iZWQnOgogICAgICByZWN0KGN0eCwgMSwgOCwgMTQsIDYsIFBBTC5ncmVlbik7CiAgICAgIHJlY3QoY3R4LCAyLCA2LCAxMiwgMywgUEFMLndoaXRlKTsKICAgICAgcmVjdChjdHgsIDEsIDcsIDEsIDcsIFBBTC53b29kRGFyayk7CiAgICAgIHJlY3QoY3R4LCAxNCwgNywgMSwgNywgUEFMLndvb2REYXJrKTsKICAgICAgYnJlYWs7CiAgICBjYXNlICd1c2VyX3Jvb206cGhvdG9fd2FsbCc6CiAgICAgIHJlY3QoY3R4LCAyLCAyLCA1LCA0LCBQQUwud29vZCk7CiAgICAgIHJlY3QoY3R4LCAzLCAzLCAzLCAyLCBQQUwuZ2xhc3MpOwogICAgICByZWN0KGN0eCwgOSwgMywgNSwgNSwgUEFMLndvb2QpOwogICAgICByZWN0KGN0eCwgMTAsIDQsIDMsIDMsIFBBTC5waW5rKTsKICAgICAgcmVjdChjdHgsIDQsIDgsIDQsIDQsIFBBTC53b29kKTsKICAgICAgcmVjdChjdHgsIDUsIDksIDIsIDIsIFBBTC5jcmVhbSk7CiAgICAgIGJyZWFrOwogICAgY2FzZSAndXNlcl9yb29tOmdpZnRfc2hlbGYnOgogICAgICByZWN0KGN0eCwgMiwgMywgMTIsIDExLCBQQUwud29vZCk7CiAgICAgIHJlY3QoY3R4LCAzLCA0LCA0LCAzLCBQQUwucmVkKTsKICAgICAgcmVjdChjdHgsIDQsIDMsIDIsIDEsIFBBTC5nb2xkKTsgLy8gcmliYm9uCiAgICAgIHJlY3QoY3R4LCA5LCA1LCAzLCAzLCBQQUwuZmFicmljKTsKICAgICAgcmVjdChjdHgsIDMsIDksIDMsIDQsIFBBTC5ncmVlbik7CiAgICAgIGJyZWFrOwogICAgY2FzZSAndXNlcl9yb29tOmxldHRlcl9ib3gnOgogICAgICByZWN0KGN0eCwgNCwgNSwgOCwgOCwgUEFMLndvb2QpOwogICAgICByZWN0KGN0eCwgNSwgNiwgNiwgMywgUEFMLnBhcGVyKTsKICAgICAgcmVjdChjdHgsIDYsIDEwLCA0LCAyLCBQQUwud29vZERhcmspOwogICAgICBweChjdHgsIDgsIDQsIFBBTC5yZWQpOyAvLyBmbGFnCiAgICAgIHB4KGN0eCwgOCwgNSwgUEFMLmdyYXkpOwogICAgICBicmVhazsKICAgIGNhc2UgJ3VzZXJfcm9vbTp3ZWxjb21lX21hdCc6CiAgICAgIHJlY3QoY3R4LCAyLCAxMCwgMTIsIDQsIFBBTC5ncmVlbik7CiAgICAgIHJlY3QoY3R4LCAzLCAxMSwgMTAsIDIsIFBBTC5ncmVlbkRhcmspOwogICAgICByZWN0KGN0eCwgMiwgMTAsIDEyLCAxLCBQQUwuY3JlYW0pOwogICAgICByZWN0KGN0eCwgMiwgMTMsIDEyLCAxLCBQQUwuY3JlYW0pOwogICAgICBicmVhazsKCiAgICAvLyDilIDilIDilIAg56qX5Y+wL+mcsuWPsCDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIAKICAgIGNhc2UgJ3dpbmRvd3NpbGw6Zmxvd2VyX3BvdCc6CiAgICAgIHJlY3QoY3R4LCA1LCA5LCA2LCA1LCBQQUwucnVzdCk7CiAgICAgIHJlY3QoY3R4LCA0LCA4LCA4LCAyLCBQQUwucnVzdCk7CiAgICAgIHJlY3QoY3R4LCA2LCA1LCAyLCA0LCBQQUwuZ3JlZW4pOwogICAgICByZWN0KGN0eCwgOCwgNCwgMiwgNSwgUEFMLmdyZWVuKTsKICAgICAgcHgoY3R4LCA2LCA0LCBQQUwucGluayk7CiAgICAgIHB4KGN0eCwgOSwgMywgUEFMLnJlZCk7CiAgICAgIGJyZWFrOwogICAgY2FzZSAnd2luZG93c2lsbDp3aW5kX2NoaW1lJzoKICAgICAgcmVjdChjdHgsIDcsIDEsIDIsIDEsIFBBTC5ncmF5KTsKICAgICAgcHgoY3R4LCA1LCAzLCBQQUwuY3lhbik7CiAgICAgIHB4KGN0eCwgNSwgNCwgUEFMLmN5YW4pOwogICAgICBweChjdHgsIDUsIDUsIFBBTC5jeWFuKTsKICAgICAgcHgoY3R4LCA4LCAzLCBQQUwuZ2xhc3MpOwogICAgICBweChjdHgsIDgsIDQsIFBBTC5nbGFzcyk7CiAgICAgIHB4KGN0eCwgOCwgNSwgUEFMLmdsYXNzKTsKICAgICAgcHgoY3R4LCA4LCA2LCBQQUwuZ2xhc3MpOwogICAgICBweChjdHgsIDExLCAzLCBQQUwucHVycGxlKTsKICAgICAgcHgoY3R4LCAxMSwgNCwgUEFMLnB1cnBsZSk7CiAgICAgIHB4KGN0eCwgNiwgMiwgUEFMLmdyYXkpOwogICAgICBweChjdHgsIDcsIDIsIFBBTC5ncmF5KTsKICAgICAgcHgoY3R4LCA4LCAyLCBQQUwuZ3JheSk7CiAgICAgIHB4KGN0eCwgOSwgMiwgUEFMLmdyYXkpOwogICAgICBweChjdHgsIDEwLCAyLCBQQUwuZ3JheSk7CiAgICAgIGJyZWFrOwogICAgY2FzZSAnd2luZG93c2lsbDp0ZWxlc2NvcGUnOgogICAgICByZWN0KGN0eCwgOSwgMywgMywgMiwgUEFMLmdyYXlEYXJrKTsKICAgICAgcmVjdChjdHgsIDYsIDUsIDUsIDIsIFBBTC5ncmF5KTsKICAgICAgcmVjdChjdHgsIDUsIDcsIDIsIDYsIFBBTC53b29kRGFyayk7CiAgICAgIHJlY3QoY3R4LCA5LCA3LCAyLCA2LCBQQUwud29vZERhcmspOwogICAgICByZWN0KGN0eCwgMTAsIDIsIDIsIDIsIFBBTC5nbGFzcyk7CiAgICAgIGJyZWFrOwogICAgY2FzZSAnd2luZG93c2lsbDpzZWVkX2JveCc6CiAgICAgIHJlY3QoY3R4LCAzLCA4LCAxMCwgNiwgUEFMLndvb2QpOwogICAgICByZWN0KGN0eCwgMywgOCwgMTAsIDEsIFBBTC53b29kTGlnaHQpOwogICAgICByZWN0KGN0eCwgNSwgMTAsIDIsIDIsIFBBTC5ncmVlbik7CiAgICAgIHJlY3QoY3R4LCA4LCA5LCAyLCAyLCBQQUwuZ3JlZW5EYXJrKTsKICAgICAgcHgoY3R4LCAxMCwgMTAsIFBBTC5nb2xkKTsKICAgICAgYnJlYWs7CiAgICBjYXNlICd3aW5kb3dzaWxsOmxhbnRlcm4nOgogICAgICByZWN0KGN0eCwgNiwgMiwgNCwgMiwgUEFMLmdyYXkpOwogICAgICByZWN0KGN0eCwgNSwgNCwgNiwgOCwgUEFMLnJlZCk7CiAgICAgIHJlY3QoY3R4LCA2LCA1LCA0LCA2LCBQQUwuZ29sZCk7CiAgICAgIHJlY3QoY3R4LCA1LCAxMiwgNiwgMSwgUEFMLmdyYXkpOwogICAgICBweChjdHgsIDcsIDEsIFBBTC5ncmF5KTsKICAgICAgcHgoY3R4LCA4LCAxLCBQQUwuZ3JheSk7CiAgICAgIGJyZWFrOwoKICAgIGRlZmF1bHQ6CiAgICAgIC8vIOmAmueUqOWNoOS9jQogICAgICByZWN0KGN0eCwgNCwgNCwgOCwgOCwgUEFMLmdyYXkpOwogICAgICByZWN0KGN0eCwgNSwgNSwgNiwgNiwgUEFMLmNvYndlYik7CiAgICAgIGJyZWFrOwogIH0KfQoKLyoqIOeUn+aIkOaIv+mXtOe8qeeVpeWbvu+8iOS+m+S/r+eesOWcsOWbvuS9v+eUqO+8iSAqLwpleHBvcnQgZnVuY3Rpb24gZ2VuZXJhdGVSb29tUGl4ZWxUaHVtYm5haWwoX3Jvb21JZDogTWVtb3J5Um9vbSk6IHN0cmluZyB7CiAgLy8gVE9ETzog55Sf5oiQ5YyF5ZCr5bey5pS+572u5a625YW355qE5oi/6Ze05a6M5pW057yp55Wl5Zu+CiAgcmV0dXJuICcnOwp9Cg==
+/**
+ * Pixel Home — 默认家具像素渲染器
+ *
+ * 为每个槽位生成默认的像素风格家具图标（Canvas 生成）。
+ * 用户可以用自定义资产替换这些默认图。
+ */
+
+import type { MemoryRoom } from '../../utils/memoryPalace/types';
+
+// 缓存生成的默认家具图
+const _cache: Map<string, string> = new Map();
+
+// 调色板
+const PAL = {
+  wood:      '#8b6914',
+  woodDark:  '#5c4a1e',
+  woodLight: '#c4a35a',
+  fabric:    '#6366f1',
+  fabricDark:'#4338ca',
+  white:     '#f8fafc',
+  cream:     '#fef3c7',
+  gray:      '#94a3b8',
+  grayDark:  '#475569',
+  glass:     '#93c5fd',
+  green:     '#4ade80',
+  greenDark: '#16a34a',
+  pink:      '#f472b6',
+  gold:      '#fbbf24',
+  red:       '#ef4444',
+  black:     '#1e293b',
+  paper:     '#fefce8',
+  metal:     '#9ca3af',
+  rust:      '#b45309',
+  cobweb:    '#d1d5db',
+  mirror:    '#bfdbfe',
+  purple:    '#a78bfa',
+  cyan:      '#22d3ee',
+};
+
+/**
+ * 获取默认家具像素图的 data URI。
+ * 每个房间的每个槽位有独特的像素小图标。
+ */
+export function defaultFurniturePixelSrc(roomId: MemoryRoom, slotId: string): string {
+  const key = `${roomId}_${slotId}`;
+  if (_cache.has(key)) return _cache.get(key)!;
+
+  const SIZE = 16; // 原始像素尺寸
+  const SCALE = 4; // 展示放大倍数
+  const canvas = document.createElement('canvas');
+  canvas.width = SIZE * SCALE;
+  canvas.height = SIZE * SCALE;
+  const ctx = canvas.getContext('2d')!;
+  ctx.imageSmoothingEnabled = false;
+
+  // 先画到小 canvas 再放大
+  const small = document.createElement('canvas');
+  small.width = SIZE;
+  small.height = SIZE;
+  const sCtx = small.getContext('2d')!;
+
+  drawDefaultFurniture(sCtx, roomId, slotId, SIZE);
+
+  ctx.drawImage(small, 0, 0, canvas.width, canvas.height);
+  const dataUri = canvas.toDataURL('image/png');
+  _cache.set(key, dataUri);
+  return dataUri;
+}
+
+function px(ctx: CanvasRenderingContext2D, x: number, y: number, color: string) {
+  ctx.fillStyle = color;
+  ctx.fillRect(x, y, 1, 1);
+}
+
+function rect(ctx: CanvasRenderingContext2D, x: number, y: number, w: number, h: number, color: string) {
+  ctx.fillStyle = color;
+  ctx.fillRect(x, y, w, h);
+}
+
+function drawDefaultFurniture(ctx: CanvasRenderingContext2D, roomId: MemoryRoom, slotId: string, size: number) {
+  // 清空
+  ctx.clearRect(0, 0, size, size);
+
+  switch (`${roomId}:${slotId}`) {
+    // ─── 客厅 ─────────────────────────────
+    case 'living_room:sofa':
+      rect(ctx, 2, 8, 12, 5, PAL.fabric);
+      rect(ctx, 1, 9, 1, 4, PAL.fabricDark);
+      rect(ctx, 14, 9, 1, 4, PAL.fabricDark);
+      rect(ctx, 3, 7, 10, 2, PAL.fabric);
+      rect(ctx, 4, 13, 2, 2, PAL.woodDark); // legs
+      rect(ctx, 10, 13, 2, 2, PAL.woodDark);
+      break;
+    case 'living_room:tv':
+      rect(ctx, 3, 3, 10, 8, PAL.black);
+      rect(ctx, 4, 4, 8, 6, PAL.glass);
+      rect(ctx, 7, 11, 2, 2, PAL.grayDark);
+      rect(ctx, 5, 13, 6, 1, PAL.gray);
+      break;
+    case 'living_room:coffee_table':
+      rect(ctx, 3, 8, 10, 2, PAL.wood);
+      rect(ctx, 3, 7, 10, 1, PAL.woodLight);
+      rect(ctx, 4, 10, 1, 4, PAL.woodDark);
+      rect(ctx, 11, 10, 1, 4, PAL.woodDark);
+      break;
+    case 'living_room:rug':
+      rect(ctx, 2, 10, 12, 4, PAL.cream);
+      rect(ctx, 3, 11, 10, 2, PAL.pink);
+      rect(ctx, 2, 10, 12, 1, PAL.gold);
+      rect(ctx, 2, 13, 12, 1, PAL.gold);
+      break;
+    case 'living_room:clock':
+      rect(ctx, 5, 2, 6, 6, PAL.wood);
+      rect(ctx, 6, 3, 4, 4, PAL.white);
+      px(ctx, 8, 4, PAL.black); // 12
+      px(ctx, 8, 6, PAL.black); // 6
+      px(ctx, 7, 5, PAL.red);   // hand
+      px(ctx, 8, 5, PAL.red);
+      break;
+
+    // ─── 卧室 ─────────────────────────────
+    case 'bedroom:bed':
+      rect(ctx, 1, 7, 14, 7, PAL.fabric);
+      rect(ctx, 2, 5, 12, 3, PAL.white); // pillow
+      rect(ctx, 1, 6, 1, 8, PAL.woodDark);
+      rect(ctx, 14, 6, 1, 8, PAL.woodDark);
+      rect(ctx, 1, 14, 14, 1, PAL.woodDark);
+      break;
+    case 'bedroom:nightstand':
+      rect(ctx, 4, 6, 8, 8, PAL.wood);
+      rect(ctx, 5, 7, 6, 3, PAL.woodDark);
+      rect(ctx, 5, 11, 6, 2, PAL.woodDark);
+      rect(ctx, 4, 14, 2, 1, PAL.woodDark);
+      rect(ctx, 10, 14, 2, 1, PAL.woodDark);
+      break;
+    case 'bedroom:lamp':
+      rect(ctx, 6, 3, 4, 5, PAL.gold);
+      rect(ctx, 5, 2, 6, 2, PAL.gold);
+      rect(ctx, 7, 8, 2, 5, PAL.gray);
+      rect(ctx, 6, 13, 4, 1, PAL.grayDark);
+      break;
+    case 'bedroom:curtain':
+      rect(ctx, 1, 1, 4, 14, PAL.fabric);
+      rect(ctx, 11, 1, 4, 14, PAL.fabric);
+      rect(ctx, 1, 1, 14, 1, PAL.woodDark);
+      rect(ctx, 5, 2, 6, 12, PAL.glass); // window
+      break;
+    case 'bedroom:frame':
+      rect(ctx, 3, 3, 10, 10, PAL.wood);
+      rect(ctx, 4, 4, 8, 8, PAL.white);
+      rect(ctx, 5, 5, 6, 6, PAL.pink);
+      px(ctx, 7, 7, PAL.red);
+      px(ctx, 8, 8, PAL.red);
+      break;
+
+    // ─── 书房 ─────────────────────────────
+    case 'study:desk':
+      rect(ctx, 1, 7, 14, 2, PAL.wood);
+      rect(ctx, 1, 6, 14, 1, PAL.woodLight);
+      rect(ctx, 2, 9, 2, 5, PAL.woodDark);
+      rect(ctx, 12, 9, 2, 5, PAL.woodDark);
+      break;
+    case 'study:bookshelf':
+      rect(ctx, 2, 1, 12, 14, PAL.wood);
+      rect(ctx, 3, 2, 4, 3, PAL.red);
+      rect(ctx, 7, 2, 3, 3, PAL.fabric);
+      rect(ctx, 10, 2, 3, 3, PAL.green);
+      rect(ctx, 3, 6, 3, 3, PAL.gold);
+      rect(ctx, 6, 6, 4, 3, PAL.cyan);
+      rect(ctx, 10, 6, 3, 3, PAL.purple);
+      rect(ctx, 3, 10, 10, 4, PAL.woodDark);
+      break;
+    case 'study:whiteboard':
+      rect(ctx, 2, 2, 12, 10, PAL.white);
+      rect(ctx, 1, 1, 14, 1, PAL.gray);
+      rect(ctx, 1, 12, 14, 1, PAL.gray);
+      rect(ctx, 1, 1, 1, 12, PAL.gray);
+      rect(ctx, 14, 1, 1, 12, PAL.gray);
+      px(ctx, 4, 5, PAL.red);
+      px(ctx, 5, 5, PAL.red);
+      px(ctx, 8, 7, PAL.fabric);
+      break;
+    case 'study:pen_holder':
+      rect(ctx, 5, 7, 6, 7, PAL.gray);
+      rect(ctx, 5, 7, 6, 1, PAL.grayDark);
+      px(ctx, 6, 4, PAL.red);
+      px(ctx, 6, 5, PAL.red);
+      px(ctx, 6, 6, PAL.red);
+      px(ctx, 8, 3, PAL.fabric);
+      px(ctx, 8, 4, PAL.fabric);
+      px(ctx, 8, 5, PAL.fabric);
+      px(ctx, 8, 6, PAL.fabric);
+      px(ctx, 10, 5, PAL.green);
+      px(ctx, 10, 6, PAL.green);
+      break;
+    case 'study:globe':
+      rect(ctx, 5, 3, 6, 6, PAL.glass);
+      rect(ctx, 6, 4, 4, 4, PAL.green);
+      rect(ctx, 7, 9, 2, 3, PAL.gray);
+      rect(ctx, 5, 12, 6, 1, PAL.grayDark);
+      break;
+
+    // ─── 阁楼 ─────────────────────────────
+    case 'attic:chest':
+      rect(ctx, 2, 7, 12, 7, PAL.woodDark);
+      rect(ctx, 2, 7, 12, 2, PAL.rust);
+      rect(ctx, 7, 9, 2, 2, PAL.gold);
+      break;
+    case 'attic:cobweb':
+      px(ctx, 1, 1, PAL.cobweb);
+      px(ctx, 2, 2, PAL.cobweb);
+      px(ctx, 3, 3, PAL.cobweb);
+      px(ctx, 4, 4, PAL.cobweb);
+      px(ctx, 2, 1, PAL.cobweb);
+      px(ctx, 3, 1, PAL.cobweb);
+      px(ctx, 1, 2, PAL.cobweb);
+      px(ctx, 1, 3, PAL.cobweb);
+      px(ctx, 5, 3, PAL.cobweb);
+      px(ctx, 3, 5, PAL.cobweb);
+      break;
+    case 'attic:mirror':
+      rect(ctx, 4, 2, 8, 11, PAL.woodDark);
+      rect(ctx, 5, 3, 6, 9, PAL.mirror);
+      rect(ctx, 6, 5, 4, 5, PAL.glass);
+      // dust particles
+      px(ctx, 5, 4, PAL.cobweb);
+      px(ctx, 9, 6, PAL.cobweb);
+      break;
+    case 'attic:window':
+      rect(ctx, 3, 1, 10, 8, PAL.woodDark);
+      rect(ctx, 4, 2, 8, 6, PAL.glass);
+      rect(ctx, 8, 2, 1, 6, PAL.woodDark);
+      rect(ctx, 4, 5, 8, 1, PAL.woodDark);
+      // light rays
+      px(ctx, 6, 10, PAL.gold);
+      px(ctx, 7, 11, PAL.gold);
+      px(ctx, 8, 12, PAL.gold);
+      break;
+    case 'attic:music_box':
+      rect(ctx, 4, 8, 8, 6, PAL.rust);
+      rect(ctx, 4, 7, 8, 2, PAL.wood);
+      rect(ctx, 7, 5, 2, 3, PAL.gold);
+      px(ctx, 7, 4, PAL.gold);
+      break;
+
+    // ─── 个人房间 ─────────────────────────
+    case 'self_room:vanity':
+      rect(ctx, 3, 7, 10, 7, PAL.wood);
+      rect(ctx, 4, 2, 8, 6, PAL.mirror);
+      rect(ctx, 5, 3, 6, 4, PAL.glass);
+      rect(ctx, 4, 8, 3, 2, PAL.woodDark); // drawer
+      rect(ctx, 9, 8, 3, 2, PAL.woodDark);
+      break;
+    case 'self_room:diary':
+      rect(ctx, 4, 5, 8, 9, PAL.purple);
+      rect(ctx, 5, 6, 6, 7, PAL.paper);
+      rect(ctx, 4, 5, 1, 9, PAL.fabricDark);
+      px(ctx, 6, 8, PAL.black);
+      px(ctx, 7, 8, PAL.black);
+      px(ctx, 8, 8, PAL.black);
+      break;
+    case 'self_room:trophy':
+      rect(ctx, 6, 3, 4, 3, PAL.gold);
+      rect(ctx, 5, 2, 6, 1, PAL.gold);
+      rect(ctx, 7, 6, 2, 4, PAL.gold);
+      rect(ctx, 5, 10, 6, 2, PAL.woodDark);
+      break;
+    case 'self_room:poster':
+      rect(ctx, 2, 2, 12, 11, PAL.white);
+      rect(ctx, 3, 3, 10, 9, PAL.cream);
+      rect(ctx, 5, 5, 6, 5, PAL.red);
+      px(ctx, 7, 6, PAL.white);
+      px(ctx, 8, 7, PAL.white);
+      break;
+    case 'self_room:pet_bed':
+      rect(ctx, 3, 9, 10, 5, PAL.fabric);
+      rect(ctx, 2, 8, 12, 2, PAL.fabricDark);
+      rect(ctx, 5, 10, 4, 3, PAL.cream); // cushion
+      break;
+
+    // ─── 用户房 ──────────────────────────
+    case 'user_room:guest_bed':
+      rect(ctx, 1, 8, 14, 6, PAL.green);
+      rect(ctx, 2, 6, 12, 3, PAL.white);
+      rect(ctx, 1, 7, 1, 7, PAL.woodDark);
+      rect(ctx, 14, 7, 1, 7, PAL.woodDark);
+      break;
+    case 'user_room:photo_wall':
+      rect(ctx, 2, 2, 5, 4, PAL.wood);
+      rect(ctx, 3, 3, 3, 2, PAL.glass);
+      rect(ctx, 9, 3, 5, 5, PAL.wood);
+      rect(ctx, 10, 4, 3, 3, PAL.pink);
+      rect(ctx, 4, 8, 4, 4, PAL.wood);
+      rect(ctx, 5, 9, 2, 2, PAL.cream);
+      break;
+    case 'user_room:gift_shelf':
+      rect(ctx, 2, 3, 12, 11, PAL.wood);
+      rect(ctx, 3, 4, 4, 3, PAL.red);
+      rect(ctx, 4, 3, 2, 1, PAL.gold); // ribbon
+      rect(ctx, 9, 5, 3, 3, PAL.fabric);
+      rect(ctx, 3, 9, 3, 4, PAL.green);
+      break;
+    case 'user_room:letter_box':
+      rect(ctx, 4, 5, 8, 8, PAL.wood);
+      rect(ctx, 5, 6, 6, 3, PAL.paper);
+      rect(ctx, 6, 10, 4, 2, PAL.woodDark);
+      px(ctx, 8, 4, PAL.red); // flag
+      px(ctx, 8, 5, PAL.gray);
+      break;
+    case 'user_room:welcome_mat':
+      rect(ctx, 2, 10, 12, 4, PAL.green);
+      rect(ctx, 3, 11, 10, 2, PAL.greenDark);
+      rect(ctx, 2, 10, 12, 1, PAL.cream);
+      rect(ctx, 2, 13, 12, 1, PAL.cream);
+      break;
+
+    // ─── 窗台/露台 ────────────────────────
+    case 'windowsill:flower_pot':
+      rect(ctx, 5, 9, 6, 5, PAL.rust);
+      rect(ctx, 4, 8, 8, 2, PAL.rust);
+      rect(ctx, 6, 5, 2, 4, PAL.green);
+      rect(ctx, 8, 4, 2, 5, PAL.green);
+      px(ctx, 6, 4, PAL.pink);
+      px(ctx, 9, 3, PAL.red);
+      break;
+    case 'windowsill:wind_chime':
+      rect(ctx, 7, 1, 2, 1, PAL.gray);
+      px(ctx, 5, 3, PAL.cyan);
+      px(ctx, 5, 4, PAL.cyan);
+      px(ctx, 5, 5, PAL.cyan);
+      px(ctx, 8, 3, PAL.glass);
+      px(ctx, 8, 4, PAL.glass);
+      px(ctx, 8, 5, PAL.glass);
+      px(ctx, 8, 6, PAL.glass);
+      px(ctx, 11, 3, PAL.purple);
+      px(ctx, 11, 4, PAL.purple);
+      px(ctx, 6, 2, PAL.gray);
+      px(ctx, 7, 2, PAL.gray);
+      px(ctx, 8, 2, PAL.gray);
+      px(ctx, 9, 2, PAL.gray);
+      px(ctx, 10, 2, PAL.gray);
+      break;
+    case 'windowsill:telescope':
+      rect(ctx, 9, 3, 3, 2, PAL.grayDark);
+      rect(ctx, 6, 5, 5, 2, PAL.gray);
+      rect(ctx, 5, 7, 2, 6, PAL.woodDark);
+      rect(ctx, 9, 7, 2, 6, PAL.woodDark);
+      rect(ctx, 10, 2, 2, 2, PAL.glass);
+      break;
+    case 'windowsill:seed_box':
+      rect(ctx, 3, 8, 10, 6, PAL.wood);
+      rect(ctx, 3, 8, 10, 1, PAL.woodLight);
+      rect(ctx, 5, 10, 2, 2, PAL.green);
+      rect(ctx, 8, 9, 2, 2, PAL.greenDark);
+      px(ctx, 10, 10, PAL.gold);
+      break;
+    case 'windowsill:lantern':
+      rect(ctx, 6, 2, 4, 2, PAL.gray);
+      rect(ctx, 5, 4, 6, 8, PAL.red);
+      rect(ctx, 6, 5, 4, 6, PAL.gold);
+      rect(ctx, 5, 12, 6, 1, PAL.gray);
+      px(ctx, 7, 1, PAL.gray);
+      px(ctx, 8, 1, PAL.gray);
+      break;
+
+    default:
+      // 通用占位
+      rect(ctx, 4, 4, 8, 8, PAL.gray);
+      rect(ctx, 5, 5, 6, 6, PAL.cobweb);
+      break;
+  }
+}
+
+/** 生成房间缩略图（供俯瞰地图使用） */
+export function generateRoomPixelThumbnail(_roomId: MemoryRoom): string {
+  // TODO: 生成包含已放置家具的房间完整缩略图
+  return '';
+}

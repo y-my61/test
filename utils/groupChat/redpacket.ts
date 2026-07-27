@@ -1,1 +1,224 @@
-Ly8g576k6IGK57qi5YyFIDIuMCDigJTigJQgc2NoZW1hIC8g6aKG5Y+W54q25oCB5py6IC8g5ou85omL5rCU5YiG6YWNIC8g5oyH5Luk6Kej5p6QIC8gcHJvbXB0IOW6j+WIl+WMluOAggovLyDnuq/lh73mlbDjgIHml6Dlia/kvZznlKjvvIjml7bpl7TkuI7pmo/mnLrmlbDnlLHosIPnlKjmlrnms6jlhaXvvInvvIzkvr/kuo4gdml0ZXN0IOebtOa1i+OAggovLyDph5Hpop3mmK/nuq/oo4XppbDvvIjkuI7np4HogYrovazotKbkuIDoh7TvvInvvIzkuI3mjqXpk7booYzkvZnpop3jgIIKaW1wb3J0IHsgTWVzc2FnZSB9IGZyb20gJy4uLy4uL3R5cGVzJzsKCmV4cG9ydCB0eXBlIFBhY2tldFN0YXR1cyA9ICdwZW5kaW5nJyB8ICdkb25lJyB8ICdyZXR1cm5lZCcgfCAnZXhwaXJlZCc7CgpleHBvcnQgaW50ZXJmYWNlIFBhY2tldENsYWltIHsKICAgIC8qKiAndXNlcicg5oiW5oiQ5ZGYIGNoYXJJZCAqLwogICAgY2xhaW1hbnRJZDogc3RyaW5nOwogICAgYW1vdW50OiBudW1iZXI7CiAgICBhdDogbnVtYmVyOwp9CgovKiog5oyC5ZyoIHR5cGU6J3RyYW5zZmVyJyDmtojmga8gbWV0YWRhdGEg5LiK77ybYHBhY2tldDogdHJ1ZWAg5Yik5Yir5paw54mI57qi5YyFIHZzIOaXp+aVsOaNriAqLwpleHBvcnQgaW50ZXJmYWNlIEdyb3VwUGFja2V0TWV0YSB7CiAgICBwYWNrZXQ6IHRydWU7CiAgICBwYWNrZXRUeXBlOiAnZGlyZWN0JyB8ICdsdWNreSc7CiAgICAvKiog57qv6KOF6aWw6YeR6aKd77yM5Lik5L2N5bCP5pWwICovCiAgICB0b3RhbEFtb3VudDogbnVtYmVyOwogICAgLyoqIGRpcmVjdCDmgZLkuLogMSAqLwogICAgc2hhcmVzOiBudW1iZXI7CiAgICAvKiog5LuFIGRpcmVjdO+8mmNoYXJJZCDmiJYgJ3VzZXInICovCiAgICB0YXJnZXRJZD86IHN0cmluZzsKICAgIG5vdGU/OiBzdHJpbmc7CiAgICBjbGFpbXM6IFBhY2tldENsYWltW107CiAgICBzdGF0dXM6IFBhY2tldFN0YXR1czsKICAgIC8qKiDlj5Hlh7ogKyAyNGjvvIzmh5LliKTlrprvvIjmuLLmn5Mv6aKG5Y+W5pe25Yik77yM5peg5a6a5pe25Zmo77yJICovCiAgICBleHBpcmVzQXQ6IG51bWJlcjsKICAgIHJlc29sdmVkQXQ/OiBudW1iZXI7Cn0KCi8qKiDpooblj5Yv6YCA5Zue5Zue5omn77yI54us56uLIHRyYW5zZmVyIOa2iOaBr++8jOWvuem9kOengeiBiiByZWNlaXB0IOaooeW8j++8iSAqLwpleHBvcnQgaW50ZXJmYWNlIFBhY2tldFJlY2VpcHRNZXRhIHsKICAgIHBhY2tldFJlY2VpcHQ6ICdjbGFpbWVkJyB8ICdyZXR1cm5lZCc7CiAgICAvKiog5Y6f57qi5YyF5raI5oGvIGlkICovCiAgICByZWY6IG51bWJlcjsKICAgIGFtb3VudD86IG51bWJlcjsKICAgIGNsYWltYW50TmFtZTogc3RyaW5nOwogICAgc2VuZGVyTmFtZTogc3RyaW5nOwp9CgpleHBvcnQgY29uc3QgUEFDS0VUX0VYUElSWV9NUyA9IDI0ICogNjAgKiA2MCAqIDEwMDA7CmV4cG9ydCBjb25zdCBERUZBVUxUX1BBQ0tFVF9OT1RFID0gJ+aBreWWnOWPkei0oic7Cgpjb25zdCByb3VuZDIgPSAobjogbnVtYmVyKSA9PiBNYXRoLnJvdW5kKG4gKiAxMDApIC8gMTAwOwoKZXhwb3J0IGZ1bmN0aW9uIG1ha2VQYWNrZXRNZXRhKG9wdHM6IHsKICAgIHBhY2tldFR5cGU6ICdkaXJlY3QnIHwgJ2x1Y2t5JzsKICAgIHRvdGFsQW1vdW50OiBudW1iZXI7CiAgICBzaGFyZXM/OiBudW1iZXI7CiAgICB0YXJnZXRJZD86IHN0cmluZzsKICAgIG5vdGU/OiBzdHJpbmc7CiAgICBub3c6IG51bWJlcjsKfSk6IEdyb3VwUGFja2V0TWV0YSB7CiAgICByZXR1cm4gewogICAgICAgIHBhY2tldDogdHJ1ZSwKICAgICAgICBwYWNrZXRUeXBlOiBvcHRzLnBhY2tldFR5cGUsCiAgICAgICAgdG90YWxBbW91bnQ6IHJvdW5kMihvcHRzLnRvdGFsQW1vdW50KSwKICAgICAgICBzaGFyZXM6IG9wdHMucGFja2V0VHlwZSA9PT0gJ2RpcmVjdCcgPyAxIDogTWF0aC5tYXgoMSwgTWF0aC5mbG9vcihvcHRzLnNoYXJlcyA/PyAxKSksCiAgICAgICAgdGFyZ2V0SWQ6IG9wdHMucGFja2V0VHlwZSA9PT0gJ2RpcmVjdCcgPyBvcHRzLnRhcmdldElkIDogdW5kZWZpbmVkLAogICAgICAgIG5vdGU6IG9wdHMubm90ZT8udHJpbSgpIHx8IERFRkFVTFRfUEFDS0VUX05PVEUsCiAgICAgICAgY2xhaW1zOiBbXSwKICAgICAgICBzdGF0dXM6ICdwZW5kaW5nJywKICAgICAgICBleHBpcmVzQXQ6IG9wdHMubm93ICsgUEFDS0VUX0VYUElSWV9NUywKICAgIH07Cn0KCi8qKgogKiDmi7zmiYvmsJTpmo/mnLrph5Hpop3igJTigJTkuozlgI3lnYflgLzms5XvvJrmr4/ku73mnJ/mnJsgPSDliankvZnlnYflgLzvvIzkuIrpmZAgMiDlgI3lnYflgLzjgIIKICog5L+d6K+B5q+P5Lu9IOKJpSAwLjAxIOS4lOe7meWQjumdouavj+S7veeVmei2syAwLjAx77yb5pyA5ZCO5LiA5Lu9ID0g5YWo6YOo5L2Z6aKd77yI5oC75ZKM5a6I5oGS77yJ44CCCiAqLwpleHBvcnQgZnVuY3Rpb24gZHJhd0x1Y2t5QW1vdW50KHJlbWFpbmluZzogbnVtYmVyLCByZW1haW5pbmdTaGFyZXM6IG51bWJlciwgcmFuZDogKCkgPT4gbnVtYmVyID0gTWF0aC5yYW5kb20pOiBudW1iZXIgewogICAgaWYgKHJlbWFpbmluZ1NoYXJlcyA8PSAxKSByZXR1cm4gcm91bmQyKHJlbWFpbmluZyk7CiAgICBjb25zdCBtYXggPSByZW1haW5pbmcgLSAwLjAxICogKHJlbWFpbmluZ1NoYXJlcyAtIDEpOwogICAgY29uc3QgcmF3ID0gcm91bmQyKHJhbmQoKSAqIChyZW1haW5pbmcgLyByZW1haW5pbmdTaGFyZXMpICogMik7CiAgICByZXR1cm4gTWF0aC5taW4oTWF0aC5tYXgocmF3LCAwLjAxKSwgcm91bmQyKG1heCkpOwp9CgpleHBvcnQgdHlwZSBDbGFpbVJlc3VsdCA9CiAgICB8IHsgb2s6IHRydWU7IG1ldGE6IEdyb3VwUGFja2V0TWV0YTsgYW1vdW50OiBudW1iZXI7IGFjdGlvbjogJ2NsYWltZWQnIHwgJ3JldHVybmVkJyB9CiAgICB8IHsgb2s6IGZhbHNlOyByZWFzb246ICdleHBpcmVkJyB8ICdhbHJlYWR5X2NsYWltZWQnIHwgJ25vdF90YXJnZXQnIHwgJ3NvbGRfb3V0JyB8ICdub3RfcGVuZGluZycgfTsKCi8qKgogKiDpooblj5bnirbmgIHmnLrvvIjkuI3kv67mlLnlhaXlj4LvvIzov5Tlm57mlrAgbWV0Ye+8ie+8mgogKiAtIGx1Y2t577ya576k5YaF5Lu75L2V5Lq65Y+v5oqi77yI5ZCr5Y+R5YyF5Lq677yM5b6u5L+h5ZCM5qy+77yJ77yM6YeN5aSN5oqi5ouS57ud77yM6aKG5ruh6L2sIGRvbmUKICogLSBkaXJlY3TvvJrku4UgdGFyZ2V0SWQg5Y+v5pS277yIYWN0aW9uICdjbGFpbSfvvInmiJbpgIDvvIhhY3Rpb24gJ3JldHVybifvvIkKICogLSBwZW5kaW5nIOS4lOi/h+acnyDihpIg5ouS57ud77yI6L+U5ZueIGV4cGlyZWTvvIznlLHosIPnlKjmlrnlhrPlrprmmK/lkKbokL0gZXhwaXJlZCDmgIHvvIkKICovCmV4cG9ydCBmdW5jdGlvbiBjbGFpbVBhY2tldCgKICAgIG1ldGE6IEdyb3VwUGFja2V0TWV0YSwKICAgIGNsYWltYW50SWQ6IHN0cmluZywKICAgIG5vdzogbnVtYmVyLAogICAgYWN0aW9uOiAnY2xhaW0nIHwgJ3JldHVybicgPSAnY2xhaW0nLAogICAgcmFuZDogKCkgPT4gbnVtYmVyID0gTWF0aC5yYW5kb20sCik6IENsYWltUmVzdWx0IHsKICAgIGlmIChtZXRhLnN0YXR1cyAhPT0gJ3BlbmRpbmcnKSB7CiAgICAgICAgcmV0dXJuIHsgb2s6IGZhbHNlLCByZWFzb246IG1ldGEuc3RhdHVzID09PSAnZG9uZScgPyAnc29sZF9vdXQnIDogJ25vdF9wZW5kaW5nJyB9OwogICAgfQogICAgaWYgKG5vdyA+IG1ldGEuZXhwaXJlc0F0KSByZXR1cm4geyBvazogZmFsc2UsIHJlYXNvbjogJ2V4cGlyZWQnIH07CgogICAgaWYgKG1ldGEucGFja2V0VHlwZSA9PT0gJ2RpcmVjdCcpIHsKICAgICAgICBpZiAobWV0YS50YXJnZXRJZCAhPT0gY2xhaW1hbnRJZCkgcmV0dXJuIHsgb2s6IGZhbHNlLCByZWFzb246ICdub3RfdGFyZ2V0JyB9OwogICAgICAgIGlmIChhY3Rpb24gPT09ICdyZXR1cm4nKSB7CiAgICAgICAgICAgIHJldHVybiB7IG9rOiB0cnVlLCBhY3Rpb246ICdyZXR1cm5lZCcsIGFtb3VudDogbWV0YS50b3RhbEFtb3VudCwgbWV0YTogeyAuLi5tZXRhLCBzdGF0dXM6ICdyZXR1cm5lZCcsIHJlc29sdmVkQXQ6IG5vdyB9IH07CiAgICAgICAgfQogICAgICAgIGNvbnN0IGNsYWltOiBQYWNrZXRDbGFpbSA9IHsgY2xhaW1hbnRJZCwgYW1vdW50OiBtZXRhLnRvdGFsQW1vdW50LCBhdDogbm93IH07CiAgICAgICAgcmV0dXJuIHsgb2s6IHRydWUsIGFjdGlvbjogJ2NsYWltZWQnLCBhbW91bnQ6IG1ldGEudG90YWxBbW91bnQsIG1ldGE6IHsgLi4ubWV0YSwgY2xhaW1zOiBbY2xhaW1dLCBzdGF0dXM6ICdkb25lJywgcmVzb2x2ZWRBdDogbm93IH0gfTsKICAgIH0KCiAgICAvLyBsdWNreQogICAgaWYgKGFjdGlvbiA9PT0gJ3JldHVybicpIHJldHVybiB7IG9rOiBmYWxzZSwgcmVhc29uOiAnbm90X3RhcmdldCcgfTsgLy8g5ou85omL5rCU5LiN6IO96YCACiAgICBpZiAobWV0YS5jbGFpbXMuc29tZShjID0+IGMuY2xhaW1hbnRJZCA9PT0gY2xhaW1hbnRJZCkpIHJldHVybiB7IG9rOiBmYWxzZSwgcmVhc29uOiAnYWxyZWFkeV9jbGFpbWVkJyB9OwogICAgaWYgKG1ldGEuY2xhaW1zLmxlbmd0aCA+PSBtZXRhLnNoYXJlcykgcmV0dXJuIHsgb2s6IGZhbHNlLCByZWFzb246ICdzb2xkX291dCcgfTsKCiAgICBjb25zdCBjbGFpbWVkU3VtID0gcm91bmQyKG1ldGEuY2xhaW1zLnJlZHVjZSgocywgYykgPT4gcyArIGMuYW1vdW50LCAwKSk7CiAgICBjb25zdCByZW1haW5pbmcgPSByb3VuZDIobWV0YS50b3RhbEFtb3VudCAtIGNsYWltZWRTdW0pOwogICAgY29uc3QgcmVtYWluaW5nU2hhcmVzID0gbWV0YS5zaGFyZXMgLSBtZXRhLmNsYWltcy5sZW5ndGg7CiAgICBjb25zdCBhbW91bnQgPSBkcmF3THVja3lBbW91bnQocmVtYWluaW5nLCByZW1haW5pbmdTaGFyZXMsIHJhbmQpOwogICAgY29uc3QgY2xhaW1zID0gWy4uLm1ldGEuY2xhaW1zLCB7IGNsYWltYW50SWQsIGFtb3VudCwgYXQ6IG5vdyB9XTsKICAgIGNvbnN0IGRvbmUgPSBjbGFpbXMubGVuZ3RoID49IG1ldGEuc2hhcmVzOwogICAgcmV0dXJuIHsKICAgICAgICBvazogdHJ1ZSwKICAgICAgICBhY3Rpb246ICdjbGFpbWVkJywKICAgICAgICBhbW91bnQsCiAgICAgICAgbWV0YTogeyAuLi5tZXRhLCBjbGFpbXMsIHN0YXR1czogZG9uZSA/ICdkb25lJyA6ICdwZW5kaW5nJywgLi4uKGRvbmUgPyB7IHJlc29sdmVkQXQ6IG5vdyB9IDoge30pIH0sCiAgICB9Owp9CgovKiog5riy5p+TL+mihuWPluaXtueahOaHkui/h+acn+WIpOWumiAqLwpleHBvcnQgZnVuY3Rpb24gZWZmZWN0aXZlUGFja2V0U3RhdHVzKG1ldGE6IEdyb3VwUGFja2V0TWV0YSwgbm93OiBudW1iZXIpOiBQYWNrZXRTdGF0dXMgewogICAgaWYgKG1ldGEuc3RhdHVzID09PSAncGVuZGluZycgJiYgbm93ID4gbWV0YS5leHBpcmVzQXQpIHJldHVybiAnZXhwaXJlZCc7CiAgICByZXR1cm4gbWV0YS5zdGF0dXM7Cn0KCi8vIOKUgOKUgOKUgCDmjIfku6Top6PmnpDvvIjkuKTlsYLlrrnplJnvvJrlnY/lgLzpnZnpu5jkuKLlvIPvvIznu53kuI3lvbHlk43mraPmlofvvIkg4pSA4pSA4pSACgpleHBvcnQgaW50ZXJmYWNlIFBhY2tldENvbW1hbmQgewogICAga2luZDogJ2dyYWInIHwgJ3JldHVybicgfCAnc2VuZCc7CiAgICAvKiog5LuFIHNlbmQgKi8KICAgIHNlbmQ/OiB7IHBhY2tldFR5cGU6ICdkaXJlY3QnIHwgJ2x1Y2t5JzsgdG90YWxBbW91bnQ6IG51bWJlcjsgc2hhcmVzOiBudW1iZXI7IHRhcmdldE5hbWU/OiBzdHJpbmc7IG5vdGU/OiBzdHJpbmcgfTsKfQoKLyoqCiAqIOino+aekCBbW1NFTkRfUEFDS0VUOiAuLi5dXSDnmoTovb3ojbfvvJoKICogICBsdWNreTrmgLvpop065Lu95pWwKDrnpZ3npo/or60pICAvICBkaXJlY3Q655uu5qCH5ZCNOumHkeminSg656Wd56aP6K+tKQogKiDmjInlhagv5Y2K6KeS5YaS5Y+35YiH5YmNIDMg5q6177yM5YW25L2Z5ZCI5bm25Li656Wd56aP6K+t77yI56Wd56aP6K+t6YeM55qE5YaS5Y+35LiN54K477yJ44CCCiAqIOmHkeminemdnuazlSAvIOS7veaVsCA8IDEgLyDnm67moIflkI3kuLrnqbog4oaSIG51bGzjgIIKICovCmV4cG9ydCBmdW5jdGlvbiBwYXJzZVNlbmRQYWNrZXRQYXlsb2FkKHBheWxvYWQ6IHN0cmluZyk6IFBhY2tldENvbW1hbmRbJ3NlbmQnXSB8IG51bGwgewogICAgY29uc3QgcGFydHMgPSBTdHJpbmcocGF5bG9hZCA/PyAnJykuc3BsaXQoL1s677yaXS8pOwogICAgaWYgKHBhcnRzLmxlbmd0aCA8IDMpIHJldHVybiBudWxsOwogICAgY29uc3Qga2luZCA9IHBhcnRzWzBdLnRyaW0oKS50b0xvd2VyQ2FzZSgpOwogICAgaWYgKGtpbmQgPT09ICdsdWNreScpIHsKICAgICAgICBjb25zdCB0b3RhbEFtb3VudCA9IHBhcnNlRmxvYXQocGFydHNbMV0pOwogICAgICAgIGNvbnN0IHNoYXJlcyA9IHBhcnNlSW50KHBhcnRzWzJdLCAxMCk7CiAgICAgICAgaWYgKCFOdW1iZXIuaXNGaW5pdGUodG90YWxBbW91bnQpIHx8IHRvdGFsQW1vdW50IDw9IDApIHJldHVybiBudWxsOwogICAgICAgIGlmICghTnVtYmVyLmlzRmluaXRlKHNoYXJlcykgfHwgc2hhcmVzIDwgMSkgcmV0dXJuIG51bGw7CiAgICAgICAgY29uc3Qgbm90ZSA9IHBhcnRzLnNsaWNlKDMpLmpvaW4oJzonKS50cmltKCkgfHwgdW5kZWZpbmVkOwogICAgICAgIHJldHVybiB7IHBhY2tldFR5cGU6ICdsdWNreScsIHRvdGFsQW1vdW50OiByb3VuZDIodG90YWxBbW91bnQpLCBzaGFyZXM6IE1hdGguZmxvb3Ioc2hhcmVzKSwgbm90ZSB9OwogICAgfQogICAgaWYgKGtpbmQgPT09ICdkaXJlY3QnKSB7CiAgICAgICAgY29uc3QgdGFyZ2V0TmFtZSA9IHBhcnRzWzFdLnRyaW0oKTsKICAgICAgICBjb25zdCB0b3RhbEFtb3VudCA9IHBhcnNlRmxvYXQocGFydHNbMl0pOwogICAgICAgIGlmICghdGFyZ2V0TmFtZSkgcmV0dXJuIG51bGw7CiAgICAgICAgaWYgKCFOdW1iZXIuaXNGaW5pdGUodG90YWxBbW91bnQpIHx8IHRvdGFsQW1vdW50IDw9IDApIHJldHVybiBudWxsOwogICAgICAgIGNvbnN0IG5vdGUgPSBwYXJ0cy5zbGljZSgzKS5qb2luKCc6JykudHJpbSgpIHx8IHVuZGVmaW5lZDsKICAgICAgICByZXR1cm4geyBwYWNrZXRUeXBlOiAnZGlyZWN0JywgdG90YWxBbW91bnQ6IHJvdW5kMih0b3RhbEFtb3VudCksIHNoYXJlczogMSwgdGFyZ2V0TmFtZSwgbm90ZSB9OwogICAgfQogICAgcmV0dXJuIG51bGw7Cn0KCi8qKgogKiDku47op5LoibLovpPlh7rph4zmiqDnuqLljIXlkb3ku6TvvIzov5Tlm57liaXlh4DlkI7nmoTmraPmlocgKyDlkb3ku6TliJfooajjgIIKICog5peg5rOV6Kej5p6Q55qEIFNFTkRfUEFDS0VUIOS5n+S8muiiq+WJpeaOie+8iOS/neato+aWh++8ie+8jOWPquaYr+S4jeS6p+eUn+WRveS7pOOAggogKi8KZXhwb3J0IGZ1bmN0aW9uIGV4dHJhY3RQYWNrZXRDb21tYW5kcyhjb250ZW50OiBzdHJpbmcpOiB7IHRleHQ6IHN0cmluZzsgY29tbWFuZHM6IFBhY2tldENvbW1hbmRbXSB9IHsKICAgIGNvbnN0IGNvbW1hbmRzOiBQYWNrZXRDb21tYW5kW10gPSBbXTsKICAgIGxldCB0ZXh0ID0gU3RyaW5nKGNvbnRlbnQgPz8gJycpOwoKICAgIHRleHQgPSB0ZXh0LnJlcGxhY2UoL1xbXFtccypHUkFCX1BBQ0tFVFxzKlxdXF0vZ2ksICgpID0+IHsgY29tbWFuZHMucHVzaCh7IGtpbmQ6ICdncmFiJyB9KTsgcmV0dXJuICcnOyB9KTsKICAgIHRleHQgPSB0ZXh0LnJlcGxhY2UoL1xbXFtccypSRVRVUk5fUEFDS0VUXHMqXF1cXS9naSwgKCkgPT4geyBjb21tYW5kcy5wdXNoKHsga2luZDogJ3JldHVybicgfSk7IHJldHVybiAnJzsgfSk7CiAgICB0ZXh0ID0gdGV4dC5yZXBsYWNlKC9cW1xbXHMqU0VORF9QQUNLRVRccypbOu+8ml1ccyooW1xzXFNdKj8pXF1cXS9naSwgKF9tLCBwYXlsb2FkKSA9PiB7CiAgICAgICAgY29uc3Qgc2VuZCA9IHBhcnNlU2VuZFBhY2tldFBheWxvYWQocGF5bG9hZCk7CiAgICAgICAgaWYgKHNlbmQpIGNvbW1hbmRzLnB1c2goeyBraW5kOiAnc2VuZCcsIHNlbmQgfSk7CiAgICAgICAgcmV0dXJuICcnOwogICAgfSk7CgogICAgcmV0dXJuIHsgdGV4dDogdGV4dC50cmltKCksIGNvbW1hbmRzIH07Cn0KCi8vIOKUgOKUgOKUgCBwcm9tcHQg5bqP5YiX5YyWIOKUgOKUgOKUgAoKY29uc3QgZm10QW1vdW50ID0gKG46IG51bWJlcikgPT4gKE51bWJlci5pc0ludGVnZXIobikgPyBTdHJpbmcobikgOiBuLnRvRml4ZWQoMikpOwoKLyoqCiAqIOe+pOWOhuWPsumHjOS4gOadoSB0cmFuc2ZlciDmtojmga/nmoTmlofmnKzooYzvvIjkuI3lkKsgYOWQjeWtlzogYCDliY3nvIDvvIzosIPnlKjmlrnmi7zvvInjgIIKICog5pen5pWw5o2u77yI5pegIHBhY2tldCDliKTliKvvvInmsr/nlKggYFvlj5HnuqLljIU6IFhdYOOAggogKi8KZXhwb3J0IGZ1bmN0aW9uIHBhY2tldEhpc3RvcnlMaW5lKG1zZzogTWVzc2FnZSwgbmFtZU9mOiAoY2xhaW1hbnRJZDogc3RyaW5nKSA9PiBzdHJpbmcsIG5vdzogbnVtYmVyKTogc3RyaW5nIHsKICAgIGNvbnN0IG1ldGEgPSBtc2cubWV0YWRhdGEgYXMgUGFydGlhbDxHcm91cFBhY2tldE1ldGEgJiBQYWNrZXRSZWNlaXB0TWV0YT4gfCB1bmRlZmluZWQ7CiAgICBpZiAobWV0YT8ucGFja2V0UmVjZWlwdCkgewogICAgICAgIHJldHVybiBtZXRhLnBhY2tldFJlY2VpcHQgPT09ICdjbGFpbWVkJwogICAgICAgICAgICA/IGBb57O757ufOiAke21ldGEuY2xhaW1hbnROYW1lfSDpooblj5bkuoYgJHttZXRhLnNlbmRlck5hbWV9IOeahOe6ouWMhSR7bWV0YS5hbW91bnQgIT0gbnVsbCA/IGAgJHtmbXRBbW91bnQobWV0YS5hbW91bnQpfWAgOiAnJ31dYAogICAgICAgICAgICA6IGBb57O757ufOiAke21ldGEuY2xhaW1hbnROYW1lfSDpgIDlm57kuoYgJHttZXRhLnNlbmRlck5hbWV9IOeahOS4k+Wxnue6ouWMhV1gOwogICAgfQogICAgaWYgKCFtZXRhPy5wYWNrZXQpIHJldHVybiBgW+WPkee6ouWMhTogJHttZXRhPy5hbW91bnQgPz8gJyd9XWA7CgogICAgY29uc3QgbSA9IG1ldGEgYXMgR3JvdXBQYWNrZXRNZXRhOwogICAgY29uc3Qgc3RhdHVzID0gZWZmZWN0aXZlUGFja2V0U3RhdHVzKG0sIG5vdyk7CiAgICBpZiAobS5wYWNrZXRUeXBlID09PSAnZGlyZWN0JykgewogICAgICAgIGNvbnN0IHRhcmdldCA9IG5hbWVPZihtLnRhcmdldElkIHx8ICcnKTsKICAgICAgICBjb25zdCB0YWlsID0gc3RhdHVzID09PSAnZG9uZScgPyBgJHt0YXJnZXR95bey5pS25LiLYAogICAgICAgICAgICA6IHN0YXR1cyA9PT0gJ3JldHVybmVkJyA/IGAke3RhcmdldH3lt7LpgIDlm55gCiAgICAgICAgICAgIDogc3RhdHVzID09PSAnZXhwaXJlZCcgPyAn5bey6L+H5pyfJwogICAgICAgICAgICA6IGDlvoUke3RhcmdldH3mlLbkuIvmiJbpgIDlm55gOwogICAgICAgIHJldHVybiBgW+WPkeS6huS4k+Wxnue6ouWMhee7mSAke3RhcmdldH3vvJrph5Hpop0ke2ZtdEFtb3VudChtLnRvdGFsQW1vdW50KX3vvIzjgIwke20ubm90ZX3jgI3vvIgke3RhaWx977yJXWA7CiAgICB9CiAgICBjb25zdCBjbGFpbWVkID0gbS5jbGFpbXMubWFwKGMgPT4gYCR7bmFtZU9mKGMuY2xhaW1hbnRJZCl9IOaKouWIsCR7Zm10QW1vdW50KGMuYW1vdW50KX1gKS5qb2luKCfjgIEnKTsKICAgIGNvbnN0IHRhaWwgPSBzdGF0dXMgPT09ICdkb25lJyA/ICflt7LooqvpooblrownCiAgICAgICAgOiBzdGF0dXMgPT09ICdleHBpcmVkJyA/ICflt7Lov4fmnJ8nCiAgICAgICAgOiBg6L+Y5YmpJHttLnNoYXJlcyAtIG0uY2xhaW1zLmxlbmd0aH3ku73lj6/miqJgOwogICAgcmV0dXJuIGBb5Y+R5LqG5ou85omL5rCU57qi5YyF77ya5oC76aKdJHtmbXRBbW91bnQobS50b3RhbEFtb3VudCl977yM5YWxJHttLnNoYXJlc33ku73vvIzjgIwke20ubm90ZX3jgI0ke20uY2xhaW1zLmxlbmd0aCA+IDAgPyBg77yM5bey6aKGJHttLmNsYWltcy5sZW5ndGh95Lu977yIJHtjbGFpbWVkfe+8iWAgOiAnJ33vvIwke3RhaWx9XWA7Cn0K
+// 群聊红包 2.0 —— schema / 领取状态机 / 拼手气分配 / 指令解析 / prompt 序列化。
+// 纯函数、无副作用（时间与随机数由调用方注入），便于 vitest 直测。
+// 金额是纯装饰（与私聊转账一致），不接银行余额。
+import { Message } from '../../types';
+
+export type PacketStatus = 'pending' | 'done' | 'returned' | 'expired';
+
+export interface PacketClaim {
+    /** 'user' 或成员 charId */
+    claimantId: string;
+    amount: number;
+    at: number;
+}
+
+/** 挂在 type:'transfer' 消息 metadata 上；`packet: true` 判别新版红包 vs 旧数据 */
+export interface GroupPacketMeta {
+    packet: true;
+    packetType: 'direct' | 'lucky';
+    /** 纯装饰金额，两位小数 */
+    totalAmount: number;
+    /** direct 恒为 1 */
+    shares: number;
+    /** 仅 direct：charId 或 'user' */
+    targetId?: string;
+    note?: string;
+    claims: PacketClaim[];
+    status: PacketStatus;
+    /** 发出 + 24h，懒判定（渲染/领取时判，无定时器） */
+    expiresAt: number;
+    resolvedAt?: number;
+}
+
+/** 领取/退回回执（独立 transfer 消息，对齐私聊 receipt 模式） */
+export interface PacketReceiptMeta {
+    packetReceipt: 'claimed' | 'returned';
+    /** 原红包消息 id */
+    ref: number;
+    amount?: number;
+    claimantName: string;
+    senderName: string;
+}
+
+export const PACKET_EXPIRY_MS = 24 * 60 * 60 * 1000;
+export const DEFAULT_PACKET_NOTE = '恭喜发财';
+
+const round2 = (n: number) => Math.round(n * 100) / 100;
+
+export function makePacketMeta(opts: {
+    packetType: 'direct' | 'lucky';
+    totalAmount: number;
+    shares?: number;
+    targetId?: string;
+    note?: string;
+    now: number;
+}): GroupPacketMeta {
+    return {
+        packet: true,
+        packetType: opts.packetType,
+        totalAmount: round2(opts.totalAmount),
+        shares: opts.packetType === 'direct' ? 1 : Math.max(1, Math.floor(opts.shares ?? 1)),
+        targetId: opts.packetType === 'direct' ? opts.targetId : undefined,
+        note: opts.note?.trim() || DEFAULT_PACKET_NOTE,
+        claims: [],
+        status: 'pending',
+        expiresAt: opts.now + PACKET_EXPIRY_MS,
+    };
+}
+
+/**
+ * 拼手气随机金额——二倍均值法：每份期望 = 剩余均值，上限 2 倍均值。
+ * 保证每份 ≥ 0.01 且给后面每份留足 0.01；最后一份 = 全部余额（总和守恒）。
+ */
+export function drawLuckyAmount(remaining: number, remainingShares: number, rand: () => number = Math.random): number {
+    if (remainingShares <= 1) return round2(remaining);
+    const max = remaining - 0.01 * (remainingShares - 1);
+    const raw = round2(rand() * (remaining / remainingShares) * 2);
+    return Math.min(Math.max(raw, 0.01), round2(max));
+}
+
+export type ClaimResult =
+    | { ok: true; meta: GroupPacketMeta; amount: number; action: 'claimed' | 'returned' }
+    | { ok: false; reason: 'expired' | 'already_claimed' | 'not_target' | 'sold_out' | 'not_pending' };
+
+/**
+ * 领取状态机（不修改入参，返回新 meta）：
+ * - lucky：群内任何人可抢（含发包人，微信同款），重复抢拒绝，领满转 done
+ * - direct：仅 targetId 可收（action 'claim'）或退（action 'return'）
+ * - pending 且过期 → 拒绝（返回 expired，由调用方决定是否落 expired 态）
+ */
+export function claimPacket(
+    meta: GroupPacketMeta,
+    claimantId: string,
+    now: number,
+    action: 'claim' | 'return' = 'claim',
+    rand: () => number = Math.random,
+): ClaimResult {
+    if (meta.status !== 'pending') {
+        return { ok: false, reason: meta.status === 'done' ? 'sold_out' : 'not_pending' };
+    }
+    if (now > meta.expiresAt) return { ok: false, reason: 'expired' };
+
+    if (meta.packetType === 'direct') {
+        if (meta.targetId !== claimantId) return { ok: false, reason: 'not_target' };
+        if (action === 'return') {
+            return { ok: true, action: 'returned', amount: meta.totalAmount, meta: { ...meta, status: 'returned', resolvedAt: now } };
+        }
+        const claim: PacketClaim = { claimantId, amount: meta.totalAmount, at: now };
+        return { ok: true, action: 'claimed', amount: meta.totalAmount, meta: { ...meta, claims: [claim], status: 'done', resolvedAt: now } };
+    }
+
+    // lucky
+    if (action === 'return') return { ok: false, reason: 'not_target' }; // 拼手气不能退
+    if (meta.claims.some(c => c.claimantId === claimantId)) return { ok: false, reason: 'already_claimed' };
+    if (meta.claims.length >= meta.shares) return { ok: false, reason: 'sold_out' };
+
+    const claimedSum = round2(meta.claims.reduce((s, c) => s + c.amount, 0));
+    const remaining = round2(meta.totalAmount - claimedSum);
+    const remainingShares = meta.shares - meta.claims.length;
+    const amount = drawLuckyAmount(remaining, remainingShares, rand);
+    const claims = [...meta.claims, { claimantId, amount, at: now }];
+    const done = claims.length >= meta.shares;
+    return {
+        ok: true,
+        action: 'claimed',
+        amount,
+        meta: { ...meta, claims, status: done ? 'done' : 'pending', ...(done ? { resolvedAt: now } : {}) },
+    };
+}
+
+/** 渲染/领取时的懒过期判定 */
+export function effectivePacketStatus(meta: GroupPacketMeta, now: number): PacketStatus {
+    if (meta.status === 'pending' && now > meta.expiresAt) return 'expired';
+    return meta.status;
+}
+
+// ─── 指令解析（两层容错：坏值静默丢弃，绝不影响正文） ───
+
+export interface PacketCommand {
+    kind: 'grab' | 'return' | 'send';
+    /** 仅 send */
+    send?: { packetType: 'direct' | 'lucky'; totalAmount: number; shares: number; targetName?: string; note?: string };
+}
+
+/**
+ * 解析 [[SEND_PACKET: ...]] 的载荷：
+ *   lucky:总额:份数(:祝福语)  /  direct:目标名:金额(:祝福语)
+ * 按全/半角冒号切前 3 段，其余合并为祝福语（祝福语里的冒号不炸）。
+ * 金额非法 / 份数 < 1 / 目标名为空 → null。
+ */
+export function parseSendPacketPayload(payload: string): PacketCommand['send'] | null {
+    const parts = String(payload ?? '').split(/[:：]/);
+    if (parts.length < 3) return null;
+    const kind = parts[0].trim().toLowerCase();
+    if (kind === 'lucky') {
+        const totalAmount = parseFloat(parts[1]);
+        const shares = parseInt(parts[2], 10);
+        if (!Number.isFinite(totalAmount) || totalAmount <= 0) return null;
+        if (!Number.isFinite(shares) || shares < 1) return null;
+        const note = parts.slice(3).join(':').trim() || undefined;
+        return { packetType: 'lucky', totalAmount: round2(totalAmount), shares: Math.floor(shares), note };
+    }
+    if (kind === 'direct') {
+        const targetName = parts[1].trim();
+        const totalAmount = parseFloat(parts[2]);
+        if (!targetName) return null;
+        if (!Number.isFinite(totalAmount) || totalAmount <= 0) return null;
+        const note = parts.slice(3).join(':').trim() || undefined;
+        return { packetType: 'direct', totalAmount: round2(totalAmount), shares: 1, targetName, note };
+    }
+    return null;
+}
+
+/**
+ * 从角色输出里抠红包命令，返回剥净后的正文 + 命令列表。
+ * 无法解析的 SEND_PACKET 也会被剥掉（保正文），只是不产生命令。
+ */
+export function extractPacketCommands(content: string): { text: string; commands: PacketCommand[] } {
+    const commands: PacketCommand[] = [];
+    let text = String(content ?? '');
+
+    text = text.replace(/\[\[\s*GRAB_PACKET\s*\]\]/gi, () => { commands.push({ kind: 'grab' }); return ''; });
+    text = text.replace(/\[\[\s*RETURN_PACKET\s*\]\]/gi, () => { commands.push({ kind: 'return' }); return ''; });
+    text = text.replace(/\[\[\s*SEND_PACKET\s*[:：]\s*([\s\S]*?)\]\]/gi, (_m, payload) => {
+        const send = parseSendPacketPayload(payload);
+        if (send) commands.push({ kind: 'send', send });
+        return '';
+    });
+
+    return { text: text.trim(), commands };
+}
+
+// ─── prompt 序列化 ───
+
+const fmtAmount = (n: number) => (Number.isInteger(n) ? String(n) : n.toFixed(2));
+
+/**
+ * 群历史里一条 transfer 消息的文本行（不含 `名字: ` 前缀，调用方拼）。
+ * 旧数据（无 packet 判别）沿用 `[发红包: X]`。
+ */
+export function packetHistoryLine(msg: Message, nameOf: (claimantId: string) => string, now: number): string {
+    const meta = msg.metadata as Partial<GroupPacketMeta & PacketReceiptMeta> | undefined;
+    if (meta?.packetReceipt) {
+        return meta.packetReceipt === 'claimed'
+            ? `[系统: ${meta.claimantName} 领取了 ${meta.senderName} 的红包${meta.amount != null ? ` ${fmtAmount(meta.amount)}` : ''}]`
+            : `[系统: ${meta.claimantName} 退回了 ${meta.senderName} 的专属红包]`;
+    }
+    if (!meta?.packet) return `[发红包: ${meta?.amount ?? ''}]`;
+
+    const m = meta as GroupPacketMeta;
+    const status = effectivePacketStatus(m, now);
+    if (m.packetType === 'direct') {
+        const target = nameOf(m.targetId || '');
+        const tail = status === 'done' ? `${target}已收下`
+            : status === 'returned' ? `${target}已退回`
+            : status === 'expired' ? '已过期'
+            : `待${target}收下或退回`;
+        return `[发了专属红包给 ${target}：金额${fmtAmount(m.totalAmount)}，「${m.note}」（${tail}）]`;
+    }
+    const claimed = m.claims.map(c => `${nameOf(c.claimantId)} 抢到${fmtAmount(c.amount)}`).join('、');
+    const tail = status === 'done' ? '已被领完'
+        : status === 'expired' ? '已过期'
+        : `还剩${m.shares - m.claims.length}份可抢`;
+    return `[发了拼手气红包：总额${fmtAmount(m.totalAmount)}，共${m.shares}份，「${m.note}」${m.claims.length > 0 ? `，已领${m.claims.length}份（${claimed}）` : ''}，${tail}]`;
+}

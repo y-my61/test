@@ -1,1 +1,230 @@
-aW1wb3J0IHsgZGVzY3JpYmUsIGl0LCBleHBlY3QgfSBmcm9tICd2aXRlc3QnOwppbXBvcnQgeyBNZW1vcnlOb2RlREIsIE1lbW9yeVZlY3RvckRCLCBFdmVudEJveERCLCBBbnRpY2lwYXRpb25EQiwgUm9vbVBsYXRlREIsIHBsYXRlSWQgfSBmcm9tICcuL2RiJzsKaW1wb3J0IHsgZXhwb3J0TWVtb3J5UGFsYWNlLCBpbXBvcnRNZW1vcnlQYWxhY2UsIGlzTWVtb3J5UGFsYWNlRXhwb3J0RmlsZSB9IGZyb20gJy4vZXhwb3J0JzsKaW1wb3J0IHR5cGUgeyBNZW1vcnlOb2RlLCBFdmVudEJveCwgQW50aWNpcGF0aW9uLCBNZW1vcnlWZWN0b3IsIFJvb21QbGF0ZSB9IGZyb20gJy4vdHlwZXMnOwppbXBvcnQgeyBQTEFURV9FTlRSWV9DQVBTIH0gZnJvbSAnLi90eXBlcyc7CgovLyBmYWtlLWluZGV4ZWRkYiDlt7LpgJrov4cgdGVzdC1zZXR1cC50cyDms6jlhaXjgIIKLy8g6L+Z57uE55So5L6L6ZSB5L2P6K6w5b+G5a6r5q6/44CM5a+85Ye6IOKGkiDlr7zlhaXjgI3lvoDov5TvvJrlhoXlrrnjgIHlkJHph4/jgIHku6Xlj4rkuovku7bnm5LihpToioLngrnnmoTlhoXpg6jlvJXnlKgKLy8g5b+F6aG75Zyo6YeN5pig5bCEIElEIOWQjuS+neeEtuiHqua0veOAggoKZnVuY3Rpb24gbWFrZU5vZGUoaWQ6IHN0cmluZywgY2hhcklkOiBzdHJpbmcsIG92ZXI6IFBhcnRpYWw8TWVtb3J5Tm9kZT4gPSB7fSk6IE1lbW9yeU5vZGUgewogICAgcmV0dXJuIHsKICAgICAgICBpZCwgY2hhcklkLAogICAgICAgIGNvbnRlbnQ6IGDorrDlv4YgJHtpZH1gLAogICAgICAgIHJvb206ICdsaXZpbmdfcm9vbScsCiAgICAgICAgdGFnczogWyd0MScsICd0MiddLAogICAgICAgIGltcG9ydGFuY2U6IDUsCiAgICAgICAgbW9vZDogJ2hhcHB5JywKICAgICAgICBlbWJlZGRlZDogZmFsc2UsCiAgICAgICAgY3JlYXRlZEF0OiAxMDAwLAogICAgICAgIGxhc3RBY2Nlc3NlZEF0OiAxMDAwLAogICAgICAgIGFjY2Vzc0NvdW50OiAwLAogICAgICAgIC4uLm92ZXIsCiAgICB9Owp9Cgphc3luYyBmdW5jdGlvbiBzZWVkQ2hhcihjaGFySWQ6IHN0cmluZykgewogICAgLy8g5Lik5p2h6IqC54K5ICsg5LiA5Liq5oqK5a6D5Lus6KOF5Zyo5LiA6LW355qE5LqL5Lu255uS77yIbjEg5pivIHN1bW1hcnnvvIxuMiDmmK8gbGl2ZSDmiJDlkZjvvIkKICAgIGNvbnN0IG4xID0gbWFrZU5vZGUoJ24xJywgY2hhcklkLCB7IGVtYmVkZGVkOiB0cnVlLCBjb250ZW50OiAn5pW05ZCI5Zue5b+GJywgaXNCb3hTdW1tYXJ5OiB0cnVlIH0pOwogICAgY29uc3QgbjIgPSBtYWtlTm9kZSgnbjInLCBjaGFySWQsIHsgZXZlbnRCb3hJZDogJ2JveDEnLCBzb3VyY2VJZDogJ24xJyB9KTsKICAgIGF3YWl0IE1lbW9yeU5vZGVEQi5zYXZlTWFueShbbjEsIG4yXSk7CgogICAgLy8gbjEg5bim5ZCR6YeP77yIZW1iZWRkZWQ9dHJ1Ze+8iQogICAgY29uc3QgdmVjOiBNZW1vcnlWZWN0b3IgPSB7CiAgICAgICAgbWVtb3J5SWQ6ICduMScsIGNoYXJJZCwKICAgICAgICB2ZWN0b3I6IG5ldyBGbG9hdDMyQXJyYXkoWzAuMSwgMC4yLCAwLjMsIDAuNF0pLAogICAgICAgIGRpbWVuc2lvbnM6IDQsIG1vZGVsOiAndGVzdC1lbWJlZCcsCiAgICB9OwogICAgYXdhaXQgTWVtb3J5VmVjdG9yREIuc2F2ZSh2ZWMpOwoKICAgIGNvbnN0IGJveDogRXZlbnRCb3ggPSB7CiAgICAgICAgaWQ6ICdib3gxJywgY2hhcklkLCBuYW1lOiAn5LiA5qyh5Ye65ri4JywgdGFnczogWyd0cmlwJ10sCiAgICAgICAgc3VtbWFyeU5vZGVJZDogJ24xJywgbGl2ZU1lbW9yeUlkczogWyduMiddLCBhcmNoaXZlZE1lbW9yeUlkczogW10sCiAgICAgICAgY29tcHJlc3Npb25Db3VudDogMSwgY3JlYXRlZEF0OiAxMDAwLCB1cGRhdGVkQXQ6IDIwMDAsIGxhc3RDb21wcmVzc2VkQXQ6IDIwMDAsCiAgICB9OwogICAgYXdhaXQgRXZlbnRCb3hEQi5zYXZlKGJveCk7CgogICAgY29uc3QgYW50OiBBbnRpY2lwYXRpb24gPSB7CiAgICAgICAgaWQ6ICdhbnQxJywgY2hhcklkLCBjb250ZW50OiAn5oOz5YaN5Y675LiA5qyhJywgc3RhdHVzOiAnYWN0aXZlJywKICAgICAgICBjcmVhdGVkQXQ6IDEwMDAsIGFuY2hvcmVkQXQ6IG51bGwsIHJlc29sdmVkQXQ6IG51bGwsCiAgICB9OwogICAgYXdhaXQgQW50aWNpcGF0aW9uREIuc2F2ZShhbnQpOwp9CgpkZXNjcmliZSgn6K6w5b+G5a6r5q6/5a+85Ye6IC8g5a+85YWlJywgKCkgPT4gewogICAgaXQoJ+W4puWQkemHj+WvvOWHuuWQjuWGjeWvvOWFpeWIsOaWsOinkuiJsu+8muWGheWuueOAgeWQkemHj+OAgeS6i+S7tuebkuW8leeUqOmDveiHqua0vScsIGFzeW5jICgpID0+IHsKICAgICAgICBjb25zdCBzcmMgPSAnY2hhcl9zcmNfMSc7CiAgICAgICAgYXdhaXQgc2VlZENoYXIoc3JjKTsKCiAgICAgICAgY29uc3QgZmlsZSA9IGF3YWl0IGV4cG9ydE1lbW9yeVBhbGFjZShbeyBpZDogc3JjLCBuYW1lOiAn57Ov57Gz5py6JyB9XSwgeyBpbmNsdWRlVmVjdG9yczogdHJ1ZSB9KTsKICAgICAgICBleHBlY3QoaXNNZW1vcnlQYWxhY2VFeHBvcnRGaWxlKGZpbGUpKS50b0JlKHRydWUpOwogICAgICAgIGV4cGVjdChmaWxlLmluY2x1ZGVWZWN0b3JzKS50b0JlKHRydWUpOwogICAgICAgIGV4cGVjdChmaWxlLmNoYXJhY3RlcnNbMF0uY291bnRzKS50b01hdGNoT2JqZWN0KHsgbm9kZXM6IDIsIGV2ZW50Qm94ZXM6IDEsIGFudGljaXBhdGlvbnM6IDEsIHZlY3RvcnM6IDEgfSk7CiAgICAgICAgLy8g5a+85Ye66IqC54K55bim5Lq657G75Y+v6K+75oi/6Ze05ZCNCiAgICAgICAgZXhwZWN0KChmaWxlLmNoYXJhY3RlcnNbMF0ubm9kZXNbMF0gYXMgYW55KS5yb29tTGFiZWwpLnRvQmVUcnV0aHkoKTsKCiAgICAgICAgY29uc3QgZHN0ID0gJ2NoYXJfZHN0XzEnOwogICAgICAgIGNvbnN0IHJlc3VsdCA9IGF3YWl0IGltcG9ydE1lbW9yeVBhbGFjZShmaWxlLCBkc3QpOwogICAgICAgIGV4cGVjdChyZXN1bHQpLnRvTWF0Y2hPYmplY3QoeyBub2RlczogMiwgZXZlbnRCb3hlczogMSwgYW50aWNpcGF0aW9uczogMSwgdmVjdG9yczogMSB9KTsKCiAgICAgICAgY29uc3Qgbm9kZXMgPSBhd2FpdCBNZW1vcnlOb2RlREIuZ2V0QnlDaGFySWQoZHN0KTsKICAgICAgICBleHBlY3Qobm9kZXMpLnRvSGF2ZUxlbmd0aCgyKTsKICAgICAgICAvLyBJRCDlhajpg6jph43nlJ/miJDvvIjkuI3lho3mmK8gbjEvbjLvvInvvIzkuJQgY2hhcklkIOaUueaMguWIsOebruagh+inkuiJsgogICAgICAgIGV4cGVjdChub2Rlcy5ldmVyeShuID0+IG4uaWQgIT09ICduMScgJiYgbi5pZCAhPT0gJ24yJykpLnRvQmUodHJ1ZSk7CiAgICAgICAgZXhwZWN0KG5vZGVzLmV2ZXJ5KG4gPT4gbi5jaGFySWQgPT09IGRzdCkpLnRvQmUodHJ1ZSk7CiAgICAgICAgLy8gcm9vbUxhYmVsIOi/meenjeWvvOWHuumZhOWKoOWtl+auteS4jeW6lOiQveW6kwogICAgICAgIGV4cGVjdChub2Rlcy5ldmVyeShuID0+ICEoJ3Jvb21MYWJlbCcgaW4gbikpKS50b0JlKHRydWUpOwoKICAgICAgICBjb25zdCBib3hlcyA9IGF3YWl0IEV2ZW50Qm94REIuZ2V0QnlDaGFySWQoZHN0KTsKICAgICAgICBleHBlY3QoYm94ZXMpLnRvSGF2ZUxlbmd0aCgxKTsKICAgICAgICBjb25zdCBib3ggPSBib3hlc1swXTsKICAgICAgICAvLyDkuovku7bnm5LnmoQgc3VtbWFyeSAvIGxpdmUg5byV55So5oyH5ZCR55qE5piv5a+85YWl5ZCO5paw55Sf5oiQ55qE6IqC54K5IElE77yM5LiU56Gu5a6e5a2Y5ZyoCiAgICAgICAgY29uc3QgaWRzID0gbmV3IFNldChub2Rlcy5tYXAobiA9PiBuLmlkKSk7CiAgICAgICAgZXhwZWN0KGJveC5zdW1tYXJ5Tm9kZUlkICYmIGlkcy5oYXMoYm94LnN1bW1hcnlOb2RlSWQpKS50b0JlKHRydWUpOwogICAgICAgIGV4cGVjdChib3gubGl2ZU1lbW9yeUlkcy5ldmVyeShpZCA9PiBpZHMuaGFzKGlkKSkpLnRvQmUodHJ1ZSk7CiAgICAgICAgLy8g6IqC54K55Y+N5ZCR5oyH5Zue5paw55uSCiAgICAgICAgY29uc3Qgc3VtbWFyeU5vZGUgPSBub2Rlcy5maW5kKG4gPT4gbi5pZCA9PT0gYm94LnN1bW1hcnlOb2RlSWQpITsKICAgICAgICBjb25zdCBsaXZlTm9kZSA9IG5vZGVzLmZpbmQobiA9PiBuLmlkID09PSBib3gubGl2ZU1lbW9yeUlkc1swXSkhOwogICAgICAgIGV4cGVjdChsaXZlTm9kZS5ldmVudEJveElkKS50b0JlKGJveC5pZCk7CiAgICAgICAgLy8gc291cmNlSWQg5Lmf5oyJ5pig5bCE6YeN5YaZ5YiwIHN1bW1hcnkg6IqC54K5CiAgICAgICAgZXhwZWN0KGxpdmVOb2RlLnNvdXJjZUlkKS50b0JlKHN1bW1hcnlOb2RlLmlkKTsKCiAgICAgICAgLy8g5ZCR6YeP6ZqPIHN1bW1hcnkg6IqC54K55LiA6LW36L+B56e744CB5pS55oyC55uu5qCH6KeS6Imy44CB5YaF5a655LiN5Y+YCiAgICAgICAgY29uc3QgdmVjcyA9IGF3YWl0IE1lbW9yeVZlY3RvckRCLmdldEFsbEJ5Q2hhcklkKGRzdCk7CiAgICAgICAgZXhwZWN0KHZlY3MpLnRvSGF2ZUxlbmd0aCgxKTsKICAgICAgICBleHBlY3QodmVjc1swXS5tZW1vcnlJZCkudG9CZShzdW1tYXJ5Tm9kZS5pZCk7CiAgICAgICAgZXhwZWN0KEFycmF5LmZyb20odmVjc1swXS52ZWN0b3IgYXMgRmxvYXQzMkFycmF5KSkudG9FcXVhbChbCiAgICAgICAgICAgIGV4cGVjdC5jbG9zZVRvKDAuMSwgNSksIGV4cGVjdC5jbG9zZVRvKDAuMiwgNSksIGV4cGVjdC5jbG9zZVRvKDAuMywgNSksIGV4cGVjdC5jbG9zZVRvKDAuNCwgNSksCiAgICAgICAgXSk7CiAgICAgICAgLy8g5bim5ZCR6YeP55qE6IqC54K5IGVtYmVkZGVkPXRydWXvvIzlj6bkuIDmnaHmnKrluKblkJHph4/nmoQgZW1iZWRkZWQ9ZmFsc2UKICAgICAgICBleHBlY3Qoc3VtbWFyeU5vZGUuZW1iZWRkZWQpLnRvQmUodHJ1ZSk7CiAgICAgICAgZXhwZWN0KGxpdmVOb2RlLmVtYmVkZGVkKS50b0JlKGZhbHNlKTsKICAgIH0pOwoKICAgIGl0KCfkuI3luKblkJHph4/lr7zlh7rvvJp2ZWN0b3JzIOWtl+auteecgeeVpe+8jOWvvOWFpeWQjuiKgueCuSBlbWJlZGRlZD1mYWxzZScsIGFzeW5jICgpID0+IHsKICAgICAgICBjb25zdCBzcmMgPSAnY2hhcl9zcmNfMic7CiAgICAgICAgYXdhaXQgc2VlZENoYXIoc3JjKTsKCiAgICAgICAgY29uc3QgZmlsZSA9IGF3YWl0IGV4cG9ydE1lbW9yeVBhbGFjZShbeyBpZDogc3JjLCBuYW1lOiAn57Ov57Gz5py6JyB9XSwgeyBpbmNsdWRlVmVjdG9yczogZmFsc2UgfSk7CiAgICAgICAgZXhwZWN0KGZpbGUuaW5jbHVkZVZlY3RvcnMpLnRvQmUoZmFsc2UpOwogICAgICAgIGV4cGVjdChmaWxlLmNoYXJhY3RlcnNbMF0udmVjdG9ycykudG9CZVVuZGVmaW5lZCgpOwogICAgICAgIGV4cGVjdChmaWxlLmNoYXJhY3RlcnNbMF0uY291bnRzLnZlY3RvcnMpLnRvQmUoMCk7CgogICAgICAgIGNvbnN0IGRzdCA9ICdjaGFyX2RzdF8yJzsKICAgICAgICBjb25zdCByZXN1bHQgPSBhd2FpdCBpbXBvcnRNZW1vcnlQYWxhY2UoZmlsZSwgZHN0KTsKICAgICAgICBleHBlY3QocmVzdWx0LnZlY3RvcnMpLnRvQmUoMCk7CgogICAgICAgIGNvbnN0IG5vZGVzID0gYXdhaXQgTWVtb3J5Tm9kZURCLmdldEJ5Q2hhcklkKGRzdCk7CiAgICAgICAgZXhwZWN0KG5vZGVzLmV2ZXJ5KG4gPT4gbi5lbWJlZGRlZCA9PT0gZmFsc2UpKS50b0JlKHRydWUpOwogICAgICAgIGNvbnN0IHZlY3MgPSBhd2FpdCBNZW1vcnlWZWN0b3JEQi5nZXRBbGxCeUNoYXJJZChkc3QpOwogICAgICAgIGV4cGVjdCh2ZWNzKS50b0hhdmVMZW5ndGgoMCk7CiAgICB9KTsKCiAgICBpdCgn5ZCM5LiA5paH5Lu25a+85YWl5Lik5qyh5b6X5Yiw5Lik5Lu954us56uL5Ymv5pys77yM5LiN5LqS55u46KaG55uWJywgYXN5bmMgKCkgPT4gewogICAgICAgIGNvbnN0IHNyYyA9ICdjaGFyX3NyY18zJzsKICAgICAgICBhd2FpdCBzZWVkQ2hhcihzcmMpOwogICAgICAgIGNvbnN0IGZpbGUgPSBhd2FpdCBleHBvcnRNZW1vcnlQYWxhY2UoW3sgaWQ6IHNyYywgbmFtZTogJ+ezr+exs+acuicgfV0sIHsgaW5jbHVkZVZlY3RvcnM6IHRydWUgfSk7CgogICAgICAgIGNvbnN0IGRzdCA9ICdjaGFyX2RzdF8zJzsKICAgICAgICBhd2FpdCBpbXBvcnRNZW1vcnlQYWxhY2UoZmlsZSwgZHN0KTsKICAgICAgICBhd2FpdCBpbXBvcnRNZW1vcnlQYWxhY2UoZmlsZSwgZHN0KTsKCiAgICAgICAgY29uc3Qgbm9kZXMgPSBhd2FpdCBNZW1vcnlOb2RlREIuZ2V0QnlDaGFySWQoZHN0KTsKICAgICAgICBleHBlY3Qobm9kZXMpLnRvSGF2ZUxlbmd0aCg0KTsKICAgICAgICBjb25zdCBib3hlcyA9IGF3YWl0IEV2ZW50Qm94REIuZ2V0QnlDaGFySWQoZHN0KTsKICAgICAgICBleHBlY3QoYm94ZXMpLnRvSGF2ZUxlbmd0aCgyKTsKICAgICAgICAvLyDkuKTkuKrnm5LlrZDnmoTmiJDlkZjpm4blkIjkupLkuI3nm7jkuqTvvIjlkIToh6rmjIflkJHoh6rlt7HpgqPmibnmlrDoioLngrnvvIkKICAgICAgICBjb25zdCBbYjAsIGIxXSA9IGJveGVzOwogICAgICAgIGNvbnN0IG1lbWJlcnMgPSAoYjogdHlwZW9mIGIwKSA9PiBbYi5zdW1tYXJ5Tm9kZUlkLCAuLi5iLmxpdmVNZW1vcnlJZHNdLmZpbHRlcihCb29sZWFuKSBhcyBzdHJpbmdbXTsKICAgICAgICBjb25zdCBvdmVybGFwID0gbWVtYmVycyhiMCkuZmlsdGVyKGlkID0+IG1lbWJlcnMoYjEpLmluY2x1ZGVzKGlkKSk7CiAgICAgICAgZXhwZWN0KG92ZXJsYXApLnRvSGF2ZUxlbmd0aCgwKTsKICAgIH0pOwoKICAgIGl0KCfmiL/pl7Tpl6jniYzpmo/lr7zlh7rotbDjgIHlr7zlhaXmjInlkIjlubbor63kuYnlubblhaXnm67moIfop5LoibLvvIjljrvph40gKyDlrrnph4/kuIrpmZAgKyDph43nlJ/miJDmnaHnm64gSUTvvIknLCBhc3luYyAoKSA9PiB7CiAgICAgICAgY29uc3Qgc3JjID0gJ2NoYXJfc3JjX3BsYXRlJzsKICAgICAgICBhd2FpdCBzZWVkQ2hhcihzcmMpOwogICAgICAgIGNvbnN0IHNyY1BsYXRlOiBSb29tUGxhdGUgPSB7CiAgICAgICAgICAgIGlkOiBwbGF0ZUlkKHNyYywgJ3VzZXJfcm9vbScpLCBjaGFySWQ6IHNyYywgcm9vbTogJ3VzZXJfcm9vbScsCiAgICAgICAgICAgIGVudHJpZXM6IFsKICAgICAgICAgICAgICAgIHsgaWQ6ICdwZV9hJywgdGV4dDogJ+eItuavjeemu+W8gu+8jOWSjOeUt+WPi+WQjOWxhScsIHRhZzogJ+WutuW6rScsIGZpcnN0TGVhcm5lZEF0OiA1MDAsIHVwZGF0ZWRBdDogOTAwLCBzb3VyY2VDb3VudDogMyB9LAogICAgICAgICAgICAgICAgeyBpZDogJ3BlX2InLCB0ZXh0OiAn5YGa6K6+6K6h55u45YWz55qE5bel5L2cJywgdGFnOiAn5bel5L2cJywgZmlyc3RMZWFybmVkQXQ6IDYwMCwgdXBkYXRlZEF0OiA5MDAsIHNvdXJjZUNvdW50OiAxIH0sCiAgICAgICAgICAgIF0sCiAgICAgICAgICAgIHVwZGF0ZWRBdDogOTAwLCB2ZXJzaW9uOiAyLAogICAgICAgIH07CiAgICAgICAgYXdhaXQgUm9vbVBsYXRlREIuc2F2ZShzcmNQbGF0ZSk7CgogICAgICAgIGNvbnN0IGZpbGUgPSBhd2FpdCBleHBvcnRNZW1vcnlQYWxhY2UoW3sgaWQ6IHNyYywgbmFtZTogJ+ezr+exs+acuicgfV0sIHsgaW5jbHVkZVZlY3RvcnM6IGZhbHNlIH0pOwogICAgICAgIGV4cGVjdChmaWxlLmNoYXJhY3RlcnNbMF0uY291bnRzLnJvb21QbGF0ZUVudHJpZXMpLnRvQmUoMik7CiAgICAgICAgZXhwZWN0KGZpbGUuY2hhcmFjdGVyc1swXS5yb29tUGxhdGVzKS50b0hhdmVMZW5ndGgoMSk7CgogICAgICAgIC8vIOebruagh+inkuiJsuW3suacieS4gOWdl+mXqOeJjO+8muS4gOadoeS4juWvvOWFpemHjeWkjeOAgeS4gOadoeeLrOaciQogICAgICAgIGNvbnN0IGRzdCA9ICdjaGFyX2RzdF9wbGF0ZSc7CiAgICAgICAgYXdhaXQgUm9vbVBsYXRlREIuc2F2ZSh7CiAgICAgICAgICAgIGlkOiBwbGF0ZUlkKGRzdCwgJ3VzZXJfcm9vbScpLCBjaGFySWQ6IGRzdCwgcm9vbTogJ3VzZXJfcm9vbScsCiAgICAgICAgICAgIGVudHJpZXM6IFsKICAgICAgICAgICAgICAgIHsgaWQ6ICdwZV94JywgdGV4dDogJ+eItuavjeemu+W8gu+8jOWSjOeUt+WPi+WQjOWxhScsIHRhZzogJ+WutuW6rScsIGZpcnN0TGVhcm5lZEF0OiAxMDAsIHVwZGF0ZWRBdDogMTAwLCBzb3VyY2VDb3VudDogNSB9LAogICAgICAgICAgICAgICAgeyBpZDogJ3BlX3knLCB0ZXh0OiAn5YW75LqG5Lik5Y+q54yrJywgZmlyc3RMZWFybmVkQXQ6IDIwMCwgdXBkYXRlZEF0OiAyMDAsIHNvdXJjZUNvdW50OiAyIH0sCiAgICAgICAgICAgIF0sCiAgICAgICAgICAgIHVwZGF0ZWRBdDogMjAwLCB2ZXJzaW9uOiAxLAogICAgICAgIH0pOwoKICAgICAgICBjb25zdCByZXN1bHQgPSBhd2FpdCBpbXBvcnRNZW1vcnlQYWxhY2UoZmlsZSwgZHN0KTsKICAgICAgICBleHBlY3QocmVzdWx0LnJvb21QbGF0ZUVudHJpZXMpLnRvQmUoMSk7IC8vIOWPquaciSLlt6XkvZwi6YKj5p2h5piv5paw55qECgogICAgICAgIGNvbnN0IG1lcmdlZCA9IChhd2FpdCBSb29tUGxhdGVEQi5nZXQoZHN0LCAndXNlcl9yb29tJykpITsKICAgICAgICBleHBlY3QobWVyZ2VkLmVudHJpZXMpLnRvSGF2ZUxlbmd0aCgzKTsKICAgICAgICBleHBlY3QobWVyZ2VkLmVudHJpZXMubGVuZ3RoKS50b0JlTGVzc1RoYW5PckVxdWFsKFBMQVRFX0VOVFJZX0NBUFMudXNlcl9yb29tKTsKICAgICAgICAvLyDljp/mnInmnaHnm67ljp/moLfkv53nlZnvvIjph43lpI3mlofmnKzmsqHooqvlr7zlhaXopobnm5bvvIxzb3VyY2VDb3VudCDov5jmmK/nm67moIfkvqfnmoQgNe+8iQogICAgICAgIGNvbnN0IGR1cCA9IG1lcmdlZC5lbnRyaWVzLmZpbmQoZSA9PiBlLnRleHQgPT09ICfniLbmr43nprvlvILvvIzlkoznlLflj4vlkIzlsYUnKSE7CiAgICAgICAgZXhwZWN0KGR1cC5pZCkudG9CZSgncGVfeCcpOwogICAgICAgIGV4cGVjdChkdXAuc291cmNlQ291bnQpLnRvQmUoNSk7CiAgICAgICAgLy8g5paw5bm25YWl55qE5p2h55uu6YeN55Sf5oiQ5LqGIElE77yM5L2GIGZpcnN0TGVhcm5lZEF0L3NvdXJjZUNvdW50L3RhZyDljp/moLfluKbov4fmnaUKICAgICAgICBjb25zdCBhZGRlZCA9IG1lcmdlZC5lbnRyaWVzLmZpbmQoZSA9PiBlLnRleHQgPT09ICflgZrorr7orqHnm7jlhbPnmoTlt6XkvZwnKSE7CiAgICAgICAgZXhwZWN0KGFkZGVkLmlkKS5ub3QudG9CZSgncGVfYicpOwogICAgICAgIGV4cGVjdChhZGRlZC5maXJzdExlYXJuZWRBdCkudG9CZSg2MDApOwogICAgICAgIGV4cGVjdChhZGRlZC50YWcpLnRvQmUoJ+W3peS9nCcpOwogICAgfSk7CgogICAgaXQoJ+aXp+eJiOWvvOWHuuaWh+S7tu+8iOaXoCByb29tUGxhdGVzIOWtl+aute+8ieWvvOWFpeS4jeaKpemUmScsIGFzeW5jICgpID0+IHsKICAgICAgICBjb25zdCBzcmMgPSAnY2hhcl9zcmNfbGVnYWN5JzsKICAgICAgICBhd2FpdCBzZWVkQ2hhcihzcmMpOwogICAgICAgIGNvbnN0IGZpbGUgPSBhd2FpdCBleHBvcnRNZW1vcnlQYWxhY2UoW3sgaWQ6IHNyYywgbmFtZTogJ+ezr+exs+acuicgfV0sIHsgaW5jbHVkZVZlY3RvcnM6IGZhbHNlIH0pOwogICAgICAgIGRlbGV0ZSAoZmlsZS5jaGFyYWN0ZXJzWzBdIGFzIGFueSkucm9vbVBsYXRlczsgLy8g5qih5ouf5pen5paH5Lu2CiAgICAgICAgY29uc3QgcmVzdWx0ID0gYXdhaXQgaW1wb3J0TWVtb3J5UGFsYWNlKGZpbGUsICdjaGFyX2RzdF9sZWdhY3knKTsKICAgICAgICBleHBlY3QocmVzdWx0LnJvb21QbGF0ZUVudHJpZXMpLnRvQmUoMCk7CiAgICAgICAgZXhwZWN0KHJlc3VsdC5ub2RlcykudG9CZSgyKTsKICAgIH0pOwoKICAgIGl0KCfpnZ7ms5Xmlofku7booqsgaXNNZW1vcnlQYWxhY2VFeHBvcnRGaWxlIOaLkue7ne+8jGltcG9ydE1lbW9yeVBhbGFjZSDmipvplJknLCBhc3luYyAoKSA9PiB7CiAgICAgICAgZXhwZWN0KGlzTWVtb3J5UGFsYWNlRXhwb3J0RmlsZSh7IGZvbzogJ2JhcicgfSkpLnRvQmUoZmFsc2UpOwogICAgICAgIGV4cGVjdChpc01lbW9yeVBhbGFjZUV4cG9ydEZpbGUobnVsbCkpLnRvQmUoZmFsc2UpOwogICAgICAgIGF3YWl0IGV4cGVjdChpbXBvcnRNZW1vcnlQYWxhY2UoeyB0eXBlOiAnbm9wZScgfSBhcyBhbnksICd3aGF0ZXZlcicpKS5yZWplY3RzLnRvVGhyb3coKTsKICAgIH0pOwp9KTsKCmRlc2NyaWJlKCfnqpflj7DmnJ/nm7zkurrlt6XnuqDplJknLCAoKSA9PiB7CiAgICBpdCgn5Y+v5L+u5pS55q2j5paH5bm25Yig6Zmk77yM5LiN5b2x5ZON5pyf55u855qE55Sf5ZG95ZGo5pyf5a2X5q61JywgYXN5bmMgKCkgPT4gewogICAgICAgIGNvbnN0IGFudDogQW50aWNpcGF0aW9uID0gewogICAgICAgICAgICBpZDogJ2FudF9jcnVkXzEnLAogICAgICAgICAgICBjaGFySWQ6ICdjaGFyX2FudF9jcnVkJywKICAgICAgICAgICAgY29udGVudDogJ+WOn+adpeeahOacn+ebvCcsCiAgICAgICAgICAgIHN0YXR1czogJ2FuY2hvcicsCiAgICAgICAgICAgIGNyZWF0ZWRBdDogMTAwMCwKICAgICAgICAgICAgYW5jaG9yZWRBdDogMjAwMCwKICAgICAgICAgICAgcmVzb2x2ZWRBdDogbnVsbCwKICAgICAgICB9OwogICAgICAgIGF3YWl0IEFudGljaXBhdGlvbkRCLnNhdmUoYW50KTsKICAgICAgICBhd2FpdCBBbnRpY2lwYXRpb25EQi5zYXZlKHsgLi4uYW50LCBjb250ZW50OiAn5L+u5pS55ZCO55qE5pyf55u8JyB9KTsKCiAgICAgICAgZXhwZWN0KGF3YWl0IEFudGljaXBhdGlvbkRCLmdldEJ5SWQoYW50LmlkKSkudG9NYXRjaE9iamVjdCh7CiAgICAgICAgICAgIGNvbnRlbnQ6ICfkv67mlLnlkI7nmoTmnJ/nm7wnLAogICAgICAgICAgICBzdGF0dXM6ICdhbmNob3InLAogICAgICAgICAgICBjcmVhdGVkQXQ6IDEwMDAsCiAgICAgICAgICAgIGFuY2hvcmVkQXQ6IDIwMDAsCiAgICAgICAgfSk7CgogICAgICAgIGF3YWl0IEFudGljaXBhdGlvbkRCLmRlbGV0ZShhbnQuaWQpOwogICAgICAgIGV4cGVjdChhd2FpdCBBbnRpY2lwYXRpb25EQi5nZXRCeUlkKGFudC5pZCkpLnRvQmVVbmRlZmluZWQoKTsKICAgIH0pOwp9KTsK
+import { describe, it, expect } from 'vitest';
+import { MemoryNodeDB, MemoryVectorDB, EventBoxDB, AnticipationDB, RoomPlateDB, plateId } from './db';
+import { exportMemoryPalace, importMemoryPalace, isMemoryPalaceExportFile } from './export';
+import type { MemoryNode, EventBox, Anticipation, MemoryVector, RoomPlate } from './types';
+import { PLATE_ENTRY_CAPS } from './types';
+
+// fake-indexeddb 已通过 test-setup.ts 注入。
+// 这组用例锁住记忆宫殿「导出 → 导入」往返：内容、向量、以及事件盒↔节点的内部引用
+// 必须在重映射 ID 后依然自洽。
+
+function makeNode(id: string, charId: string, over: Partial<MemoryNode> = {}): MemoryNode {
+    return {
+        id, charId,
+        content: `记忆 ${id}`,
+        room: 'living_room',
+        tags: ['t1', 't2'],
+        importance: 5,
+        mood: 'happy',
+        embedded: false,
+        createdAt: 1000,
+        lastAccessedAt: 1000,
+        accessCount: 0,
+        ...over,
+    };
+}
+
+async function seedChar(charId: string) {
+    // 两条节点 + 一个把它们装在一起的事件盒（n1 是 summary，n2 是 live 成员）
+    const n1 = makeNode('n1', charId, { embedded: true, content: '整合回忆', isBoxSummary: true });
+    const n2 = makeNode('n2', charId, { eventBoxId: 'box1', sourceId: 'n1' });
+    await MemoryNodeDB.saveMany([n1, n2]);
+
+    // n1 带向量（embedded=true）
+    const vec: MemoryVector = {
+        memoryId: 'n1', charId,
+        vector: new Float32Array([0.1, 0.2, 0.3, 0.4]),
+        dimensions: 4, model: 'test-embed',
+    };
+    await MemoryVectorDB.save(vec);
+
+    const box: EventBox = {
+        id: 'box1', charId, name: '一次出游', tags: ['trip'],
+        summaryNodeId: 'n1', liveMemoryIds: ['n2'], archivedMemoryIds: [],
+        compressionCount: 1, createdAt: 1000, updatedAt: 2000, lastCompressedAt: 2000,
+    };
+    await EventBoxDB.save(box);
+
+    const ant: Anticipation = {
+        id: 'ant1', charId, content: '想再去一次', status: 'active',
+        createdAt: 1000, anchoredAt: null, resolvedAt: null,
+    };
+    await AnticipationDB.save(ant);
+}
+
+describe('记忆宫殿导出 / 导入', () => {
+    it('带向量导出后再导入到新角色：内容、向量、事件盒引用都自洽', async () => {
+        const src = 'char_src_1';
+        await seedChar(src);
+
+        const file = await exportMemoryPalace([{ id: src, name: '糯米机' }], { includeVectors: true });
+        expect(isMemoryPalaceExportFile(file)).toBe(true);
+        expect(file.includeVectors).toBe(true);
+        expect(file.characters[0].counts).toMatchObject({ nodes: 2, eventBoxes: 1, anticipations: 1, vectors: 1 });
+        // 导出节点带人类可读房间名
+        expect((file.characters[0].nodes[0] as any).roomLabel).toBeTruthy();
+
+        const dst = 'char_dst_1';
+        const result = await importMemoryPalace(file, dst);
+        expect(result).toMatchObject({ nodes: 2, eventBoxes: 1, anticipations: 1, vectors: 1 });
+
+        const nodes = await MemoryNodeDB.getByCharId(dst);
+        expect(nodes).toHaveLength(2);
+        // ID 全部重生成（不再是 n1/n2），且 charId 改挂到目标角色
+        expect(nodes.every(n => n.id !== 'n1' && n.id !== 'n2')).toBe(true);
+        expect(nodes.every(n => n.charId === dst)).toBe(true);
+        // roomLabel 这种导出附加字段不应落库
+        expect(nodes.every(n => !('roomLabel' in n))).toBe(true);
+
+        const boxes = await EventBoxDB.getByCharId(dst);
+        expect(boxes).toHaveLength(1);
+        const box = boxes[0];
+        // 事件盒的 summary / live 引用指向的是导入后新生成的节点 ID，且确实存在
+        const ids = new Set(nodes.map(n => n.id));
+        expect(box.summaryNodeId && ids.has(box.summaryNodeId)).toBe(true);
+        expect(box.liveMemoryIds.every(id => ids.has(id))).toBe(true);
+        // 节点反向指回新盒
+        const summaryNode = nodes.find(n => n.id === box.summaryNodeId)!;
+        const liveNode = nodes.find(n => n.id === box.liveMemoryIds[0])!;
+        expect(liveNode.eventBoxId).toBe(box.id);
+        // sourceId 也按映射重写到 summary 节点
+        expect(liveNode.sourceId).toBe(summaryNode.id);
+
+        // 向量随 summary 节点一起迁移、改挂目标角色、内容不变
+        const vecs = await MemoryVectorDB.getAllByCharId(dst);
+        expect(vecs).toHaveLength(1);
+        expect(vecs[0].memoryId).toBe(summaryNode.id);
+        expect(Array.from(vecs[0].vector as Float32Array)).toEqual([
+            expect.closeTo(0.1, 5), expect.closeTo(0.2, 5), expect.closeTo(0.3, 5), expect.closeTo(0.4, 5),
+        ]);
+        // 带向量的节点 embedded=true，另一条未带向量的 embedded=false
+        expect(summaryNode.embedded).toBe(true);
+        expect(liveNode.embedded).toBe(false);
+    });
+
+    it('不带向量导出：vectors 字段省略，导入后节点 embedded=false', async () => {
+        const src = 'char_src_2';
+        await seedChar(src);
+
+        const file = await exportMemoryPalace([{ id: src, name: '糯米机' }], { includeVectors: false });
+        expect(file.includeVectors).toBe(false);
+        expect(file.characters[0].vectors).toBeUndefined();
+        expect(file.characters[0].counts.vectors).toBe(0);
+
+        const dst = 'char_dst_2';
+        const result = await importMemoryPalace(file, dst);
+        expect(result.vectors).toBe(0);
+
+        const nodes = await MemoryNodeDB.getByCharId(dst);
+        expect(nodes.every(n => n.embedded === false)).toBe(true);
+        const vecs = await MemoryVectorDB.getAllByCharId(dst);
+        expect(vecs).toHaveLength(0);
+    });
+
+    it('同一文件导入两次得到两份独立副本，不互相覆盖', async () => {
+        const src = 'char_src_3';
+        await seedChar(src);
+        const file = await exportMemoryPalace([{ id: src, name: '糯米机' }], { includeVectors: true });
+
+        const dst = 'char_dst_3';
+        await importMemoryPalace(file, dst);
+        await importMemoryPalace(file, dst);
+
+        const nodes = await MemoryNodeDB.getByCharId(dst);
+        expect(nodes).toHaveLength(4);
+        const boxes = await EventBoxDB.getByCharId(dst);
+        expect(boxes).toHaveLength(2);
+        // 两个盒子的成员集合互不相交（各自指向自己那批新节点）
+        const [b0, b1] = boxes;
+        const members = (b: typeof b0) => [b.summaryNodeId, ...b.liveMemoryIds].filter(Boolean) as string[];
+        const overlap = members(b0).filter(id => members(b1).includes(id));
+        expect(overlap).toHaveLength(0);
+    });
+
+    it('房间门牌随导出走、导入按合并语义并入目标角色（去重 + 容量上限 + 重生成条目 ID）', async () => {
+        const src = 'char_src_plate';
+        await seedChar(src);
+        const srcPlate: RoomPlate = {
+            id: plateId(src, 'user_room'), charId: src, room: 'user_room',
+            entries: [
+                { id: 'pe_a', text: '父母离异，和男友同居', tag: '家庭', firstLearnedAt: 500, updatedAt: 900, sourceCount: 3 },
+                { id: 'pe_b', text: '做设计相关的工作', tag: '工作', firstLearnedAt: 600, updatedAt: 900, sourceCount: 1 },
+            ],
+            updatedAt: 900, version: 2,
+        };
+        await RoomPlateDB.save(srcPlate);
+
+        const file = await exportMemoryPalace([{ id: src, name: '糯米机' }], { includeVectors: false });
+        expect(file.characters[0].counts.roomPlateEntries).toBe(2);
+        expect(file.characters[0].roomPlates).toHaveLength(1);
+
+        // 目标角色已有一块门牌：一条与导入重复、一条独有
+        const dst = 'char_dst_plate';
+        await RoomPlateDB.save({
+            id: plateId(dst, 'user_room'), charId: dst, room: 'user_room',
+            entries: [
+                { id: 'pe_x', text: '父母离异，和男友同居', tag: '家庭', firstLearnedAt: 100, updatedAt: 100, sourceCount: 5 },
+                { id: 'pe_y', text: '养了两只猫', firstLearnedAt: 200, updatedAt: 200, sourceCount: 2 },
+            ],
+            updatedAt: 200, version: 1,
+        });
+
+        const result = await importMemoryPalace(file, dst);
+        expect(result.roomPlateEntries).toBe(1); // 只有"工作"那条是新的
+
+        const merged = (await RoomPlateDB.get(dst, 'user_room'))!;
+        expect(merged.entries).toHaveLength(3);
+        expect(merged.entries.length).toBeLessThanOrEqual(PLATE_ENTRY_CAPS.user_room);
+        // 原有条目原样保留（重复文本没被导入覆盖，sourceCount 还是目标侧的 5）
+        const dup = merged.entries.find(e => e.text === '父母离异，和男友同居')!;
+        expect(dup.id).toBe('pe_x');
+        expect(dup.sourceCount).toBe(5);
+        // 新并入的条目重生成了 ID，但 firstLearnedAt/sourceCount/tag 原样带过来
+        const added = merged.entries.find(e => e.text === '做设计相关的工作')!;
+        expect(added.id).not.toBe('pe_b');
+        expect(added.firstLearnedAt).toBe(600);
+        expect(added.tag).toBe('工作');
+    });
+
+    it('旧版导出文件（无 roomPlates 字段）导入不报错', async () => {
+        const src = 'char_src_legacy';
+        await seedChar(src);
+        const file = await exportMemoryPalace([{ id: src, name: '糯米机' }], { includeVectors: false });
+        delete (file.characters[0] as any).roomPlates; // 模拟旧文件
+        const result = await importMemoryPalace(file, 'char_dst_legacy');
+        expect(result.roomPlateEntries).toBe(0);
+        expect(result.nodes).toBe(2);
+    });
+
+    it('非法文件被 isMemoryPalaceExportFile 拒绝，importMemoryPalace 抛错', async () => {
+        expect(isMemoryPalaceExportFile({ foo: 'bar' })).toBe(false);
+        expect(isMemoryPalaceExportFile(null)).toBe(false);
+        await expect(importMemoryPalace({ type: 'nope' } as any, 'whatever')).rejects.toThrow();
+    });
+});
+
+describe('窗台期盼人工纠错', () => {
+    it('可修改正文并删除，不影响期盼的生命周期字段', async () => {
+        const ant: Anticipation = {
+            id: 'ant_crud_1',
+            charId: 'char_ant_crud',
+            content: '原来的期盼',
+            status: 'anchor',
+            createdAt: 1000,
+            anchoredAt: 2000,
+            resolvedAt: null,
+        };
+        await AnticipationDB.save(ant);
+        await AnticipationDB.save({ ...ant, content: '修改后的期盼' });
+
+        expect(await AnticipationDB.getById(ant.id)).toMatchObject({
+            content: '修改后的期盼',
+            status: 'anchor',
+            createdAt: 1000,
+            anchoredAt: 2000,
+        });
+
+        await AnticipationDB.delete(ant.id);
+        expect(await AnticipationDB.getById(ant.id)).toBeUndefined();
+    });
+});

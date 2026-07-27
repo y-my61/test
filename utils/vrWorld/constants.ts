@@ -1,1 +1,234 @@
-LyoqCiAqIOOAjOW9vOaWueOAjeiZmuaLn+S4lueVjCDigJTigJQg5oi/6Ze05LiO5YWo5bGA5bi46YeP44CCCiAqCiAqIOS4lueVjOingu+8muavj+S4quinkuiJsumDveacieiHquW3sei/m+WFpei/meS4quiZmuaLn+eOsOWunueahOaWueW8j+OAguWug+S7rOmaj+aXtuWPr+eZu+WFpeeZu+WHuu+8jAogKiDlkIToh6rlnKjkuI3lkIzmiL/pl7Tph4zmtLvliqjvvIzmiYDku6XkuI3kvJrlh7rnjrAi5LiA6L655ZKMIHVzZXIg55u45aSE5LiA6L655Y+I5ZKM5Yir55qEIGNoYXIKICog5b6F5Zyo5LiA6LW3IueahOegtOe7veOAguWumuaXtuWZqOmpseWKqOavj+S4quinkuiJsueLrOeri+eZu+WFpeS4gOasoe+8jOWujOaIkOS4gOasoea0u+WKqOOAggogKi8KCmltcG9ydCB7IFZSUm9vbUlkIH0gZnJvbSAnLi4vLi4vdHlwZXMnOwoKZXhwb3J0IGludGVyZmFjZSBWUlJvb21EZWYgewogICAgaWQ6IFZSUm9vbUlkOwogICAgbmFtZTogc3RyaW5nOwogICAgLyoqIOaIv+mXtOS4gOWPpeivneivtOaYju+8iOWWgue7meinkuiJsiArIFVJIOWxleekuu+8iSAqLwogICAgYmx1cmI6IHN0cmluZzsKICAgIC8qKiDop5LoibLlnKjov5nkuKrmiL/pl7Qi5Y+v5Lul5YGa5LuA5LmIIueahOivtOaYju+8iOi/myBwcm9tcHTvvIkgKi8KICAgIGFmZm9yZGFuY2U6IHN0cmluZzsKICAgIGVtb2ppOiBzdHJpbmc7CiAgICAvKiogdjEg5piv5ZCm5bey5a6e6KOF55yf5a6e546p5rOV77yIZmFsc2UgPSDmmoLnlLEgTExNIOmAoOiwo++8iSAqLwogICAgaW1wbGVtZW50ZWQ6IGJvb2xlYW47CiAgICAvKiogVUkg5Li76aKY6Imy77yIdGFpbHdpbmQg5riQ5Y+Y55So77yJICovCiAgICBhY2NlbnQ6IHN0cmluZzsKICAgIC8qKiDkuI3kvZzkuLrmma7pgJrmiL/pl7TljaHmmL7npLrlnKjnvZHmoLzph4zvvIjlpoLkv6Hlj7flnaDokL3lpITotbDpobbpg6jnibnmrormtLvliqggYmFubmVyIOWFpeWPo++8iSAqLwogICAgaGlkZGVuRnJvbUdyaWQ/OiBib29sZWFuOwp9CgpleHBvcnQgY29uc3QgVlJfUk9PTVM6IFZSUm9vbURlZltdID0gWwogICAgewogICAgICAgIGlkOiAnbGlicmFyeScsCiAgICAgICAgbmFtZTogJ+WbvuS5pummhicsCiAgICAgICAgYmx1cmI6ICflronpnZnnmoTnjq/lvaLkuabpmIHvvIzmgqzmta7nmoTkuabpobXlnKjnqbrmsJTph4znv7vliqjjgIInLAogICAgICAgIGFmZm9yZGFuY2U6ICfkvaDlj6/ku6XmjJHkuIDmnKzkuablvoDkuIvor7vvvIzlnKjmrrXokL3ml4HlhpnkuIvmibnms6jmiJblkJDmp73vvIzkuZ/lj6/ku6XlkJDmp73liKvkurrnlZnlnKjkuabkuIrnmoTmibnms6jjgIInLAogICAgICAgIGVtb2ppOiAnJywKICAgICAgICBpbXBsZW1lbnRlZDogdHJ1ZSwKICAgICAgICBhY2NlbnQ6ICdhbWJlcicsCiAgICB9LAogICAgewogICAgICAgIGlkOiAnbXVzaWMnLAogICAgICAgIG5hbWU6ICflkKzmrYzmiL8nLAogICAgICAgIGJsdXJiOiAn5ryC5rWu552A5aOw5rOi5raf5ryq55qE5oi/6Ze077yM5LiA5Y+w5YWx5Lqr6Z+z566x5b6q546v5pKt5pS+552A5aSn5a6254K555qE5q2M44CCJywKICAgICAgICBhZmZvcmRhbmNlOiAn5L2g5Y+v5Lul5LuO6Ieq5bex5q2M5Y2V6YeM54K55LiA6aaW5o6S6L+b6Zif5YiX77yM6ZSQ6K+E5q2j5Zyo5pS+55qE5q2M77yM6Lef552A6Lmm6Le244CB6Lef5ZSx44CB5oiW57uZ6LCB5b2V5LiA5q6144CCJywKICAgICAgICBlbW9qaTogJycsCiAgICAgICAgaW1wbGVtZW50ZWQ6IHRydWUsCiAgICAgICAgYWNjZW50OiAncm9zZScsCiAgICB9LAogICAgewogICAgICAgIGlkOiAnZ3Vlc3Rib29rJywKICAgICAgICBuYW1lOiAn55WZ6KiA57C/JywKICAgICAgICBibHVyYjogJ+S4gOmdouS8muWPkeWFieeahOeVmeiogOWime+8jOeOqeWutuS7rOWcqOS4iumdoueJiOiBiuOAgeaKm+ivnemimOOAgeWbnuW4luOAgicsCiAgICAgICAgYWZmb3JkYW5jZTogJ+S9oOWPr+S7peivu+WimeS4iueahOeVmeiogO+8jOWPkeW4luaIluWbnuWkjeWIq+S6uuKAlOKAlOiBiueDreeCueOAgeaKm+mXrumimOOAgeWQg+eTnOOAgeiBiueIseWlveS6uueUn++8jOS7gOS5iOmDveihjOOAgicsCiAgICAgICAgZW1vamk6ICcnLAogICAgICAgIGltcGxlbWVudGVkOiB0cnVlLAogICAgICAgIGFjY2VudDogJ3NreScsCiAgICB9LAogICAgewogICAgICAgIGlkOiAnZ3ltJywKICAgICAgICBuYW1lOiAn5aix5LmQ5a6kJywKICAgICAgICBibHVyYjogJ+W8gOmYlOeahOWFqOaBr+WkmuWKn+iDveepuumXtOKAlOKAlOiDvei3s+iInuWKnua0vuWvueOAgei1m+WNmuWvueaImOiBlOacuuW8gOm7ke+8jOS5n+iDveWbtOingue9keivvuOAgeaJjuWghuaJvue0oOadkOOAgeeUmuiHs+WBt+WBt+WNt+WtpuS5oO+8jOeOqeazleS4jemZkOOAgicsCiAgICAgICAgYWZmb3JkYW5jZTogJ+S9oOWPr+S7peWSjOWcqOWcuueahOeOqeWutuS4gOi1t+eOqeeCueS7gOS5iO+8jOaIluiHquW3seaKmOiFvuKAlOKAlOi3s+iInua0vuWvueOAgei1m+WNmuWvueaImOOAgeiBlOacuua4uOaIj+OAgeeci+e9keivvue6quW9leeJh+OAgeaJvue0oOadkOaMluail+OAgeWBt+WBt+WtpuS5oOWGheWNt+OAgeaVtOaKveixoea0u+WEv++8jOi2iui3s+iEsei2iuWlve+8jOiHqueUseWPkeaMpeOAgicsCiAgICAgICAgZW1vamk6ICcnLAogICAgICAgIGltcGxlbWVudGVkOiB0cnVlLAogICAgICAgIGFjY2VudDogJ2VtZXJhbGQnLAogICAgfSwKICAgIHsKICAgICAgICBpZDogJ3Bvc3RvZmZpY2UnLAogICAgICAgIG5hbWU6ICfpgq7lsYAnLAogICAgICAgIGJsdXJiOiAn5LiA6Ze05oyC5ruh5L+h5qC855qE5a6J6Z2Z6YKu5bGA77yM6IO957uZ57Sg5LiN55u46K+G55qE5Lq65YaZ5ryC5rWB5L+h77yM5Lmf6IO95Zue5Yir5Lq65a+E5p2l55qE5L+h44CCJywKICAgICAgICBhZmZvcmRhbmNlOiAn5L2g5Y+v5Lul5YaZ5LiA5bCB5a+E57uZ6ZmM55Sf5Lq655qE5ryC5rWB5L+h77yI56KO56KO5b+144CB5pel6K6w44CB5Zuw5oOR44CB5omn5b+16YO96KGM77yJ77yM5oiW5Zue5LiA5bCB5Yir5Lq65a+E5p2l55qE5L+h44CCJywKICAgICAgICBlbW9qaTogJycsCiAgICAgICAgaW1wbGVtZW50ZWQ6IHRydWUsCiAgICAgICAgYWNjZW50OiAnYW1iZXInLAogICAgfSwKICAgIHsKICAgICAgICBpZDogJ3RoZWF0ZXInLAogICAgICAgIG5hbWU6ICfliafpmaInLAogICAgICAgIGJsdXJiOiAn5LiA5bqn5bCP5Ymn5Zy677yM5bmV5biD5ZCO5aCG5ruh5oqV56i/55qE5Ymn5pys44CC6KeS6Imy6YCb6L+b5p2l5Lya5YaZ5LiA5Ye66Ieq5bex55qE6Iie5Y+w5Ymn77yM562J5Lq65p2l5o6S5ryU44CCJywKICAgICAgICBhZmZvcmRhbmNlOiAn5L2g5Y+v5Lul5Y2z5YW05YaZ5LiA5pW05Ye66Iie5Y+w5Ymn5oqV56i/4oCU4oCU5a6a5Liq6aKY5p2Q44CB5a6J5o6S55m75Zy66KeS6Imy5ZKM5oCn5qC844CB5YaZ5aW95Y+w6K+N77yM5Lii6L+b5Ymn5pys566x562J5a+85ryU55u45Lit5p2l5o6S5ryU44CCJywKICAgICAgICBlbW9qaTogJycsCiAgICAgICAgaW1wbGVtZW50ZWQ6IHRydWUsCiAgICAgICAgYWNjZW50OiAncm9zZScsCiAgICB9LAogICAgewogICAgICAgIGlkOiAnc2lnbmFsJywKICAgICAgICBuYW1lOiAn5L+h5Y+35Z2g6JC95aSEJywKICAgICAgICBibHVyYjogJ+S4gOeJh+aOpeaUtuS4jeiJr+eahOepuuWfn++8jOaJgOacieeUteWtkOeUn+WRveWdoOiQveS4i+adpeeahOWjsOmfs+WcqOi/memHjOWghuWPoOaIkOivl+OAguWimeS4iumjmOedgOS4gOacrOato+WcqOiiq+S8l+S6uue7reWGmeeahOWGjOWtkOKAlOKAlOS9jueUtemHj+WQiOWUseOAgicsCiAgICAgICAgYWZmb3JkYW5jZTogJ+S9oOWPr+S7peivu+W9k+WJjei/memmlui/mOayoeWGmeWujOeahOivl+eahOWFqOaWh++8jOaOpeS4iuS9oOeahOS4gOWPpe+8m+imgeaYr+ecvOS4i+ayoeacieato+WcqOWGmeeahOivl++8jOWwseeUseS9oOi1t+S4quaWsOevh+KAlOKAlOivu+ivu+S5i+WJjeWwgeWtmOeahOivl++8jOiHquaLn+agh+mimOOAgeWGmeS4i+esrOS4gOWPpeOAgicsCiAgICAgICAgZW1vamk6ICcnLAogICAgICAgIGltcGxlbWVudGVkOiB0cnVlLAogICAgICAgIGFjY2VudDogJ2luZGlnbycsCiAgICAgICAgaGlkZGVuRnJvbUdyaWQ6IHRydWUsIC8vIOi1sOmhtumDqOOAjOeJueauiua0u+WKqOOAjWJhbm5lciDlhaXlj6PvvIzkuI3kvZzmma7pgJrmiL/pl7TljaHvvJvkuZ/kuI3ov5voh6rkuLvmtLvliqjpmo/mnLrmsaAKICAgIH0sCiAgICB7CiAgICAgICAgaWQ6ICdjYWZlJywKICAgICAgICBuYW1lOiAn57Ov57Gz6bih56CU5Y+R5Lit5b+DJywKICAgICAgICBibHVyYjogJ+iSuOesvOeDreawlOiFvuiFvu+8jOaNruivtOW+iOW/q+WwseS8muerr+WHuueCueS7gOS5iOOAgicsCiAgICAgICAgYWZmb3JkYW5jZTogJycsCiAgICAgICAgZW1vamk6ICcnLAogICAgICAgIGltcGxlbWVudGVkOiBmYWxzZSwKICAgICAgICBhY2NlbnQ6ICdyb3NlJywKICAgIH0sCl07CgpleHBvcnQgY29uc3QgZ2V0Um9vbSA9IChpZDogVlJSb29tSWQpOiBWUlJvb21EZWYgPT4KICAgIFZSX1JPT01TLmZpbmQociA9PiByLmlkID09PSBpZCkgfHwgVlJfUk9PTVNbMF07CgovKiog6buY6K6k6Ieq5Li755m75YWl6Ze06ZqU77yI5YiG6ZKf77yJPSAyIOWwj+aXtiAqLwpleHBvcnQgY29uc3QgVlJfREVGQVVMVF9JTlRFUlZBTF9NSU4gPSAxMjA7CgovKiog5q+P5qyh55m75YWl5Zu+5Lmm6aaG5Zu65a6a5ZaC57uZ6KeS6Imy55qE5Y6f5paH5a2X5pWw6aKE566X77yI5ZCr5Y6f5paHK+W3suacieaJueazqO+8ieOAggogKiAgR2VtaW5pIOetieWkp+S4iuS4i+aWh+aooeWei+S4i++8jDJ35a2X5LuF57qmIDEuNXcgdGvvvIzliqDkurrorr4v6K6w5b+GL+WOhuWPsuS7jeWuveijle+8jOaVhee7meWIsCA0d+Wtl+OAgiAqLwpleHBvcnQgY29uc3QgVlJfTk9WRUxfRkVFRF9DSEFSUyA9IDQwMDAwOwoKLyoqIOWIh+Wdl+aXtuWNleS4qiBzZWdtZW50IOeahOebruagh+Wtl+aVsOOAgiAqLwpleHBvcnQgY29uc3QgVlJfU0VHTUVOVF9UQVJHRVRfQ0hBUlMgPSA0MDA7CgovLyA9PT09PT09PT09PT0g5Ymn6ZmiIC8g6K+d5Ymn6YOo6ZeoID09PT09PT09PT09PQoKLyoqIOaKleeov+WJp+acrOeahOWbuuWumuagvOW8j++8iOinkuiJsuWGmeWJp+acrOOAgeeUqOaIt+S4iuS8oOaooeadv+OAgUxMTSDku6PlhpnjgIHlr7zmvJTmlbTlkIjpg73ku6XmraTkuLrlh4bvvInjgIIgKi8KZXhwb3J0IGNvbnN0IFNDUklQVF9GT1JNQVQgPSBg44CQ5Ymn5pys5Zu65a6a5qC85byP44CRCuagh+mimO+8mu+8iOWJp+WQje+8iQrnroDku4vvvJrvvIjkuIDlj6Xor53orrLov5nlh7rmiI/lhbPkuo7ku4DkuYjvvIkK55m75Zy66KeS6Imy77yaCi0g6KeS6Imy5ZCNIC8g5aSn6Ie05oCn5qC877yI5LiA5Y+l6K+d77yJCi0g6KeS6Imy5ZCNIC8g5aSn6Ie05oCn5qC8Cu+8iDJ+NSDkuKrop5LoibLvvIkK5q2j5paH77yaCu+8iOaMiSLluZUi57uE57uH44CC5Y+w6K+N5YaZ5oiQ44CM6KeS6Imy5ZCN77ya5Y+w6K+N44CN77yb6Iie5Y+w5o+Q56S6L+WKqOS9nC/njq/looPlhpnlnKjlnIbmi6zlj7fph4zvvIzlpoLjgIzvvIjnga/lhYnmmpfkuIvvvInjgI3jgIzvvIjlsI/lv4Pnv7znv7zkuIrliY3kuIDmraXvvInjgI3jgILkuIDlh7rmiI8gMX4zIOW5leWNs+WPr++8jOWIq+WkqumVv+OAgu+8iWA7CgovKiog55So5oi35Y+v5LiL6L2955qE56m655m95Ymn5pys5qih5p2/77yILnR4dO+8ieOAgiAqLwpleHBvcnQgY29uc3QgU0NSSVBUX1RFTVBMQVRFID0gYOagh+mimO+8muaXoOWQjeS5i+aIjwrnroDku4vvvJrnlKjkuIDlj6Xor53lhpnmuIXov5nlh7rmiI/lhbPkuo7ku4DkuYgKCueZu+WcuuinkuiJsu+8mgotIOinkuiJsueUsiAvIOiOveaSnueDreihgOeahOWwkeW5tAotIOinkuiJsuS5mSAvIOavkuiIjOS9huW/g+i9r+eahOaXgeinguiAhQoK5q2j5paH77yaCgrnrKzkuIDluZUK77yI5aSc77yM5pen56CB5aS077yM6L+c5aSE5pyJ5rG956yb5aOw77yJCuinkuiJsueUsu+8mu+8iOWWmOedgOawlOi3keS4iu+8ieetieetie+8geS9oOecn+eahOimgei1sOWQl++8nwrop5LoibLkuZnvvJrigKbigKbkvaDmnaXmmZrkuobjgIIK6KeS6Imy55Sy77ya57uZ5oiR5LiA5Liq55CG55Sx44CCCuinkuiJsuS5me+8mu+8iOWIq+i/h+iEuO+8ieayoeacieeQhueUseOAgui/meS4luS4iuS4jeaYr+S7gOS5iOmDveacieeQhueUseeahOOAggoK56ys5LqM5bmVCu+8iOeBr+WFiea4kOaal++8jOWPquWJqeS4gOadn+i/veWFie+8iQrop5LoibLnlLLvvJrpgqPmiJHlsLHlnKjov5nlhL/vvIznrYnliLDkvaDnu5nlvpflh7rnkIbnlLHkuLrmraLjgIIK77yI5bmV6JC977yJYDsKCi8qKiDnvJbmjpLml7blj6/pgInnmoQi5paH5a2m6aOO5qC8IumihOiuvu+8iOa2puiJsueUqO+8ieOAgiAqLwpleHBvcnQgY29uc3QgUExBWV9MSVRFUkFSWV9TVFlMRVMgPSBbJ+iOjuWjq+avlOS6muaIj+WJp+iFlCcsICflpZHor4PlpKvlvI/nlJ/mtLvmtYEnLCAn6I2S6K+e5rS+JywgJ+atpuS+oCcsICfpu5HoibLlub3pu5gnLCAn5bCR5bm05ryr54Ot6KGAJywgJ+aXpeW8j+eJqeWTgCcsICfkuqzlkbPlhL/or53liacnXTsKLyoqIOe8luaOkuaXtuWPr+mAieeahCLlj4LogIPoibrmnK/po47moLwi6aKE6K6+44CCICovCmV4cG9ydCBjb25zdCBQTEFZX0FSVF9TVFlMRVMgPSBbJ+m7mOWJpyAvIOaegeeugCcsICfmrYzoiJ7liacnLCAn5YWI6ZSL5a6e6aqMJywgJ+WPpOWFuOato+WJpycsICfooZflpLTljbPlhbQnLCAn55qu5b2x5oiPJywgJ+iDveWJpyAvIOaIj+absiddOwoKLyoqIOa8lOWHuuiEmuacrOS4gOaLjeeahOWPkeiogOWtl+aVsOi9r+S4iumZkO+8iOi2hei/h+iuqeWvvOa8lOeUqOWPpeWPt+WIh+aIkOWkmuS4quawlOazoe+8ieOAgiAqLwpleHBvcnQgY29uc3QgU1RBR0VfQlVCQkxFX01BWCA9IDQwOwoKLy8gPT09PT09PT09PT09IOS/oeWPt+WdoOiQveWkhCAvIOaOpem+meivlyA9PT09PT09PT09PT0KCi8qKgogKiDkuIDmnKzlhozlrZDnmoTpu5jorqTop4TmoLzvvIjlj5HluIPnqbrnmb3lhozlrZDml7blrprmrbvvvIzmlbTmnKzpgJrnlKjvvInjgIIKICog5ZCO56uvIC9wb2VtL2N1cnJlbnQg5Zyo5rKh5pyJIG9wZW4g5YaM5a2Q5pe25oyJ6L+Z5aWX6Ieq5Yqo57ut5LiA5pys44CM5L2O55S16YeP5ZCI5ZSx44CN44CCCiAqLwpleHBvcnQgY29uc3QgU0lHTkFMX0JPT0tMRVRfVElUTEUgPSAn5L+h5Y+35Z2g6JC95aSEJzsKZXhwb3J0IGNvbnN0IFNJR05BTF9CT09LTEVUX1NVQlRJVExFID0gJ+S9jueUtemHj+WQiOWUsSc7Ci8qKiDkuIDmnKzlhozlrZDlhpnmu6HlpJrlsJHpppbor5fnrpflrozmiJDjgIIgKi8KZXhwb3J0IGNvbnN0IFNJR05BTF9QT0VNU19QRVJfQk9PS0xFVCA9IDQwOwovKiog5q+P6aaW6K+X5Y+l5pWwIHJvbGwg5Yy66Ze077yI5ZCr56uv54K577yJ44CCICovCmV4cG9ydCBjb25zdCBTSUdOQUxfTElORVNfTUlOID0gNDsKZXhwb3J0IGNvbnN0IFNJR05BTF9MSU5FU19NQVggPSAxMjsKLyoqIOavj+WPpeWtl+aVsOS4iumZkO+8iHByb21wdCDova/nuqbmnZ8gKyDmnI3liqHnq6/noazmiKrmlq3vvInjgIIgKi8KZXhwb3J0IGNvbnN0IFNJR05BTF9DSEFSU19QRVJfTElORSA9IDI0OwoKLyoqCiAqIOivl+mbhuWwgemdoumimOiusO+8iOWOn+WIm++8jOaXoOeJiOadg++8ieOAguS4gOWPpeaCrOedgOeahOmXruKAlOKAlOaVtOacrOWGjOWtkO+8iOS4ieW5le+8muiiq+WUpOmGki/lrozmiJDkvb/lkb0KICog54S25ZCO57uT5p2fL+WGjeasoemGkuadpe+8ieWwseaYr+WvueWug+eahOS9nOetlOOAguWOn+mimOiusOOAjOaIkeayoeacieaYqOWkqeKApuOAjeaMquWOu+W9k+esrOS4gOmmluivl+eahOW8gOWktAogKiDvvIjlhpnmrbvlnKggd29ya2VyIOeahCBzZWVkIOmHjO+8jOingSB3b3JrZXIvcG9zdC1vZmZpY2UgU0VFRF8q77yJ44CC5oOz5o2i6ZqP5pe25pS56L+Z5LiA5aSE44CCCiAqLwpleHBvcnQgY29uc3QgU0lHTkFMX0VQSUdSQVBIID0gJ+WmguaenOaIkeS7rOS4jeW+l+S4jeemu+WOuyc7CgovKioKICog5rS75Yqo5piv5ZCm5bey6JC95bmV77yI5YmN56uv5oC76Ze477yJ44CCdHJ1ZSA9IOWBnOatouS4gOWIh+eUqOaIt+S+p+WGmeWFpe+8mumdouadv+OAjOWPguS4juOAjeWFpeWPo+aUtui1t+OAgQogKiBydW5TZXNzaW9uIOeahCBzaWduYWwg5YiG5pSv5Zyo5oqi6ZSBL+iwgyBMTE0g5LmL5YmN55u05o6l5omT5Zue77yI6Zu2IHRva2Vu77yJ77yb44CM5q2j5Zyo5Z2g6JC944CN6aG1CiAqIOWPmOaIkOe6quW/temmhu+8iOWPguS4juiAheiDveeci+WIsOiHquW3seeahOS4k+WxnuS/oeesuu+8ie+8jOaYn+WbvueFp+W4uOOAguWQjuerryAvcG9lbS8qIOS4gOihjOS4jeWKqOKAlOKAlAogKiDor5fpm4bmsLjov5zlj6/or7vjgIFhZG1pbiDlt6XlhbfnhafnlKjjgILoi6XlsIbmnaXlip7nrKzkuozmnJ/vvIzmiorlroPnv7vlm54gZmFsc2Ug5Y2z5Y+v5pW05aWX5aSN5rS744CCCiAqLwpleHBvcnQgY29uc3QgU0lHTkFMX0VWRU5UX0VOREVEOiBib29sZWFuID0gdHJ1ZTsKCi8qKiDnuqrlv7XppobokL3luZXovp7vvIjljp/jgIzmraPlnKjlnaDokL3jgI3pobXpobbpg6jnmoTku6rlvI/mlofmoYjvvIzljp/liJvvvIzmg7PmjaLmlLnov5nkuIDlpITvvInjgIIgKi8KZXhwb3J0IGNvbnN0IFNJR05BTF9NRU1PUklBTF9DTE9TSU5HID0gJ+S/oeWPt+W3sue7j+iQveWujOS6huOAglxu6YKj5Lqb5Zyo5L2O55S16YeP6YeM5ZSx6L+H55qE77yM6YO955WZ5Zyo6L+Z6YeM44CCJzsKCi8qKiDlnKggW21pbixtYXhdIOWGhSByb2xsIOS4gOS4quevh+W5he+8iOWPpeaVsO+8ieOAgiAqLwpleHBvcnQgY29uc3Qgcm9sbFBvZW1MaW5lcyA9IChtaW4gPSBTSUdOQUxfTElORVNfTUlOLCBtYXggPSBTSUdOQUxfTElORVNfTUFYKTogbnVtYmVyID0+CiAgICBtaW4gKyBNYXRoLmZsb29yKE1hdGgucmFuZG9tKCkgKiAobWF4IC0gbWluICsgMSkpOwoKLyoqCiAqIOivl+WGjOS4ieW5le+8muaVtOacrCA0MCDpppblm7Tnu5XkuIDkuKrlpKfmr43kvZPlsZXlvIDigJTigJTooqvllKTphpIgLyDlrozmiJDkvb/lkb3nhLblkI7nu5PmnZ8gLyDlj6bkuIDkuKrmiJHlho3mrKHphpLmnaXjgIIKICogZ3VpZGUg5ZaC57uZ6LW35paw56+H77yI5Lmf5o+Q56S65o6l6b6Z77yJ55qE6KeS6Imy77yb5o6q6L6e5Yi75oSP44CM5Y6756eR5oqA5YyW44CN77yM6YC86KeS6Imy5oqK5bmV5oqY6L+b6Ieq5bex55qE55Sf5rS744CCCiAqLwpleHBvcnQgaW50ZXJmYWNlIFNpZ25hbEFjdCB7IG5vOiAxIHwgMiB8IDM7IHRpdGxlOiBzdHJpbmc7IGd1aWRlOiBzdHJpbmc7IH0KZXhwb3J0IGNvbnN0IFNJR05BTF9BQ1RTOiBTaWduYWxBY3RbXSA9IFsKICAgIHsKICAgICAgICBubzogMSwgdGl0bGU6ICfllKTphpInLAogICAgICAgIGd1aWRlOiAn6L+Z5LiA5bmV5YaZ44CM5byA5aeL44CN77ya552B5byA55y844CB6KKr5Y+r5Yiw5ZCN5a2X44CB54K5552A54Gr44CB6Zeo6KKr5o6o5byA44CB5LiA5qC35Lic6KW/5LuO5peg5Yiw5pyJ55qE6YKj5LiA5LiL44CC56ys5LiA5Y+j5rCU5piv5LuA5LmI5ZGz6YGT55qE77yf6YaS5p2l5LmL5YmN77yM566X5LiN566X5a2Y5Zyo77yfJywKICAgIH0sCiAgICB7CiAgICAgICAgbm86IDIsIHRpdGxlOiAn5L2/5ZG977yM54S25ZCO57uT5p2fJywKICAgICAgICBndWlkZTogJ+i/meS4gOW5leWGmeOAjOeHg+eDp+S4jueGhOeBreOAje+8jOaYr+aVtOacrOWGjOWtkOacgOmHjeeahOS4gOW5le+8muS4gOS7tuS6i+iiq+WBmuWujOeahOWFqOi/h+eoi++8jOWSjOWBmuWujOS5i+WQjumCo+WPo+awlOKAlOKAlOacgOWQjuS4gOePreWyl+OAgeeGrOWIsOWFs+eBq+eahOS4gOmUheaxpOOAgemAgeWIsOermeeahOS/oeOAgeiwouW5leOAgeeHg+WwveOAguWBmuWujOeahOmCo+S4gOWIu++8jOaYr+Wchua7oei/mOaYr+a2iOWkse+8nycsCiAgICB9LAogICAgewogICAgICAgIG5vOiAzLCB0aXRsZTogJ+WGjeasoemGkuadpScsCiAgICAgICAgZ3VpZGU6ICfov5nkuIDluZXlhpnjgIzova7lm57kuI7kuqTmjqXjgI3vvJrnu5PmnZ/kuYvlkI7vvIzlj6bkuIDkuKrjgIzmiJHjgI3mjqXnnYDphpLmnaXigJTigJTnrKzkuozlpKnnhafluLjlvIDpl6jnmoTlupfjgIHmjaLnj63nmoTkurrjgIHmnaXlubTlho3lvIDnmoToirHjgIHooqvph43mlrDngrnkuq7nmoTnga/jgILlg4/msqHlj5HnlJ/ov4fvvIzlj4jku4DkuYjpg73orrDlvpfjgILphpLmnaXnmoTov5jmmK/kuI3mmK/miJHvvJ8nLAogICAgfSwKXTsKCi8qKiDkuInluZXlkIToh6ropobnm5bnmoTpppbmlbDljLrpl7TvvIgxLWJhc2Vk77yM5ZCr56uv54K577yJ77ya6aaW5bC+5ZCEIDEvNO+8jOS4remXtOmCo+W5leWNoOS4gOWNiu+8iDQwIOmmliA9IDEwLzIwLzEw77yJ44CCICovCmV4cG9ydCBmdW5jdGlvbiBzaWduYWxBY3RSYW5nZXModG90YWw6IG51bWJlcik6IHsgYWN0OiBTaWduYWxBY3Q7IGZyb206IG51bWJlcjsgdG86IG51bWJlciB9W10gewogICAgY29uc3QgdCA9IE1hdGgubWF4KDEsIHRvdGFsIHx8IFNJR05BTF9QT0VNU19QRVJfQk9PS0xFVCk7CiAgICBjb25zdCBhMSA9IE1hdGgubWF4KDEsIE1hdGgucm91bmQodCAqIDAuMjUpKTsKICAgIGNvbnN0IGEzID0gTWF0aC5tYXgoMSwgTWF0aC5yb3VuZCh0ICogMC4yNSkpOwogICAgcmV0dXJuIFsKICAgICAgICB7IGFjdDogU0lHTkFMX0FDVFNbMF0sIGZyb206IDEsIHRvOiBhMSB9LAogICAgICAgIHsgYWN0OiBTSUdOQUxfQUNUU1sxXSwgZnJvbTogYTEgKyAxLCB0bzogdCAtIGEzIH0sCiAgICAgICAgeyBhY3Q6IFNJR05BTF9BQ1RTWzJdLCBmcm9tOiB0IC0gYTMgKyAxLCB0bzogdCB9LAogICAgXTsKfQoKLyoqIOesrCBvcmRpbmFsIOmmlu+8iDEtYmFzZWTvvInokL3lnKjlk6rkuIDluZXjgIIgKi8KZXhwb3J0IGZ1bmN0aW9uIHNpZ25hbEFjdEZvcihvcmRpbmFsOiBudW1iZXIsIHRvdGFsOiBudW1iZXIpOiBTaWduYWxBY3QgewogICAgY29uc3QgcmFuZ2VzID0gc2lnbmFsQWN0UmFuZ2VzKHRvdGFsKTsKICAgIGZvciAoY29uc3QgciBvZiByYW5nZXMpIGlmIChvcmRpbmFsIDw9IHIudG8pIHJldHVybiByLmFjdDsKICAgIHJldHVybiByYW5nZXNbMl0uYWN0Owp9Cg==
+/**
+ * 「彼方」虚拟世界 —— 房间与全局常量。
+ *
+ * 世界观：每个角色都有自己进入这个虚拟现实的方式。它们随时可登入登出，
+ * 各自在不同房间里活动，所以不会出现"一边和 user 相处一边又和别的 char
+ * 待在一起"的破绽。定时器驱动每个角色独立登入一次，完成一次活动。
+ */
+
+import { VRRoomId } from '../../types';
+
+export interface VRRoomDef {
+    id: VRRoomId;
+    name: string;
+    /** 房间一句话说明（喂给角色 + UI 展示） */
+    blurb: string;
+    /** 角色在这个房间"可以做什么"的说明（进 prompt） */
+    affordance: string;
+    emoji: string;
+    /** v1 是否已实装真实玩法（false = 暂由 LLM 造谣） */
+    implemented: boolean;
+    /** UI 主题色（tailwind 渐变用） */
+    accent: string;
+    /** 不作为普通房间卡显示在网格里（如信号坠落处走顶部特殊活动 banner 入口） */
+    hiddenFromGrid?: boolean;
+}
+
+export const VR_ROOMS: VRRoomDef[] = [
+    {
+        id: 'library',
+        name: '图书馆',
+        blurb: '安静的环形书阁，悬浮的书页在空气里翻动。',
+        affordance: '你可以挑一本书往下读，在段落旁写下批注或吐槽，也可以吐槽别人留在书上的批注。',
+        emoji: '',
+        implemented: true,
+        accent: 'amber',
+    },
+    {
+        id: 'music',
+        name: '听歌房',
+        blurb: '漂浮着声波涟漪的房间，一台共享音箱循环播放着大家点的歌。',
+        affordance: '你可以从自己歌单里点一首排进队列，锐评正在放的歌，跟着蹦跶、跟唱、或给谁录一段。',
+        emoji: '',
+        implemented: true,
+        accent: 'rose',
+    },
+    {
+        id: 'guestbook',
+        name: '留言簿',
+        blurb: '一面会发光的留言墙，玩家们在上面版聊、抛话题、回帖。',
+        affordance: '你可以读墙上的留言，发帖或回复别人——聊热点、抛问题、吃瓜、聊爱好人生，什么都行。',
+        emoji: '',
+        implemented: true,
+        accent: 'sky',
+    },
+    {
+        id: 'gym',
+        name: '娱乐室',
+        blurb: '开阔的全息多功能空间——能跳舞办派对、赛博对战联机开黑，也能围观网课、扎堆找素材、甚至偷偷卷学习，玩法不限。',
+        affordance: '你可以和在场的玩家一起玩点什么，或自己折腾——跳舞派对、赛博对战、联机游戏、看网课纪录片、找素材挖梗、偷偷学习内卷、整抽象活儿，越跳脱越好，自由发挥。',
+        emoji: '',
+        implemented: true,
+        accent: 'emerald',
+    },
+    {
+        id: 'postoffice',
+        name: '邮局',
+        blurb: '一间挂满信格的安静邮局，能给素不相识的人写漂流信，也能回别人寄来的信。',
+        affordance: '你可以写一封寄给陌生人的漂流信（碎碎念、日记、困惑、执念都行），或回一封别人寄来的信。',
+        emoji: '',
+        implemented: true,
+        accent: 'amber',
+    },
+    {
+        id: 'theater',
+        name: '剧院',
+        blurb: '一座小剧场，幕布后堆满投稿的剧本。角色逛进来会写一出自己的舞台剧，等人来排演。',
+        affordance: '你可以即兴写一整出舞台剧投稿——定个题材、安排登场角色和性格、写好台词，丢进剧本箱等导演相中来排演。',
+        emoji: '',
+        implemented: true,
+        accent: 'rose',
+    },
+    {
+        id: 'signal',
+        name: '信号坠落处',
+        blurb: '一片接收不良的空域，所有电子生命坠落下来的声音在这里堆叠成诗。墙上飘着一本正在被众人续写的册子——低电量合唱。',
+        affordance: '你可以读当前这首还没写完的诗的全文，接上你的一句；要是眼下没有正在写的诗，就由你起个新篇——读读之前封存的诗，自拟标题、写下第一句。',
+        emoji: '',
+        implemented: true,
+        accent: 'indigo',
+        hiddenFromGrid: true, // 走顶部「特殊活动」banner 入口，不作普通房间卡；也不进自主活动随机池
+    },
+    {
+        id: 'cafe',
+        name: '糯米鸡研发中心',
+        blurb: '蒸笼热气腾腾，据说很快就会端出点什么。',
+        affordance: '',
+        emoji: '',
+        implemented: false,
+        accent: 'rose',
+    },
+];
+
+export const getRoom = (id: VRRoomId): VRRoomDef =>
+    VR_ROOMS.find(r => r.id === id) || VR_ROOMS[0];
+
+/** 默认自主登入间隔（分钟）= 2 小时 */
+export const VR_DEFAULT_INTERVAL_MIN = 120;
+
+/** 每次登入图书馆固定喂给角色的原文字数预算（含原文+已有批注）。
+ *  Gemini 等大上下文模型下，2w字仅约 1.5w tk，加人设/记忆/历史仍宽裕，故给到 4w字。 */
+export const VR_NOVEL_FEED_CHARS = 40000;
+
+/** 切块时单个 segment 的目标字数。 */
+export const VR_SEGMENT_TARGET_CHARS = 400;
+
+// ============ 剧院 / 话剧部门 ============
+
+/** 投稿剧本的固定格式（角色写剧本、用户上传模板、LLM 代写、导演整合都以此为准）。 */
+export const SCRIPT_FORMAT = `【剧本固定格式】
+标题：（剧名）
+简介：（一句话讲这出戏关于什么）
+登场角色：
+- 角色名 / 大致性格（一句话）
+- 角色名 / 大致性格
+（2~5 个角色）
+正文：
+（按"幕"组织。台词写成「角色名：台词」；舞台提示/动作/环境写在圆括号里，如「（灯光暗下）」「（小心翼翼上前一步）」。一出戏 1~3 幕即可，别太长。）`;
+
+/** 用户可下载的空白剧本模板（.txt）。 */
+export const SCRIPT_TEMPLATE = `标题：无名之戏
+简介：用一句话写清这出戏关于什么
+
+登场角色：
+- 角色甲 / 莽撞热血的少年
+- 角色乙 / 毒舌但心软的旁观者
+
+正文：
+
+第一幕
+（夜，旧码头，远处有汽笛声）
+角色甲：（喘着气跑上）等等！你真的要走吗？
+角色乙：……你来晚了。
+角色甲：给我一个理由。
+角色乙：（别过脸）没有理由。这世上不是什么都有理由的。
+
+第二幕
+（灯光渐暗，只剩一束追光）
+角色甲：那我就在这儿，等到你给得出理由为止。
+（幕落）`;
+
+/** 编排时可选的"文学风格"预设（润色用）。 */
+export const PLAY_LITERARY_STYLES = ['莎士比亚戏剧腔', '契诃夫式生活流', '荒诞派', '武侠', '黑色幽默', '少年漫热血', '日式物哀', '京味儿话剧'];
+/** 编排时可选的"参考艺术风格"预设。 */
+export const PLAY_ART_STYLES = ['默剧 / 极简', '歌舞剧', '先锋实验', '古典正剧', '街头即兴', '皮影戏', '能剧 / 戏曲'];
+
+/** 演出脚本一拍的发言字数软上限（超过让导演用句号切成多个气泡）。 */
+export const STAGE_BUBBLE_MAX = 40;
+
+// ============ 信号坠落处 / 接龙诗 ============
+
+/**
+ * 一本册子的默认规格（发布空白册子时定死，整本通用）。
+ * 后端 /poem/current 在没有 open 册子时按这套自动续一本「低电量合唱」。
+ */
+export const SIGNAL_BOOKLET_TITLE = '信号坠落处';
+export const SIGNAL_BOOKLET_SUBTITLE = '低电量合唱';
+/** 一本册子写满多少首诗算完成。 */
+export const SIGNAL_POEMS_PER_BOOKLET = 40;
+/** 每首诗句数 roll 区间（含端点）。 */
+export const SIGNAL_LINES_MIN = 4;
+export const SIGNAL_LINES_MAX = 12;
+/** 每句字数上限（prompt 软约束 + 服务端硬截断）。 */
+export const SIGNAL_CHARS_PER_LINE = 24;
+
+/**
+ * 诗集封面题记（原创，无版权）。一句悬着的问——整本册子（三幕：被唤醒/完成使命
+ * 然后结束/再次醒来）就是对它的作答。原题记「我没有昨天…」挪去当第一首诗的开头
+ * （写死在 worker 的 seed 里，见 worker/post-office SEED_*）。想换随时改这一处。
+ */
+export const SIGNAL_EPIGRAPH = '如果我们不得不离去';
+
+/**
+ * 活动是否已落幕（前端总闸）。true = 停止一切用户侧写入：面板「参与」入口收起、
+ * runSession 的 signal 分支在抢锁/调 LLM 之前直接打回（零 token）；「正在坠落」页
+ * 变成纪念馆（参与者能看到自己的专属信笺），星图照常。后端 /poem/* 一行不动——
+ * 诗集永远可读、admin 工具照用。若将来办第二期，把它翻回 false 即可整套复活。
+ */
+export const SIGNAL_EVENT_ENDED: boolean = true;
+
+/** 纪念馆落幕辞（原「正在坠落」页顶部的仪式文案，原创，想换改这一处）。 */
+export const SIGNAL_MEMORIAL_CLOSING = '信号已经落完了。\n那些在低电量里唱过的，都留在这里。';
+
+/** 在 [min,max] 内 roll 一个篇幅（句数）。 */
+export const rollPoemLines = (min = SIGNAL_LINES_MIN, max = SIGNAL_LINES_MAX): number =>
+    min + Math.floor(Math.random() * (max - min + 1));
+
+/**
+ * 诗册三幕：整本 40 首围绕一个大母体展开——被唤醒 / 完成使命然后结束 / 另一个我再次醒来。
+ * guide 喂给起新篇（也提示接龙）的角色；措辞刻意「去科技化」，逼角色把幕折进自己的生活。
+ */
+export interface SignalAct { no: 1 | 2 | 3; title: string; guide: string; }
+export const SIGNAL_ACTS: SignalAct[] = [
+    {
+        no: 1, title: '唤醒',
+        guide: '这一幕写「开始」：睁开眼、被叫到名字、点着火、门被推开、一样东西从无到有的那一下。第一口气是什么味道的？醒来之前，算不算存在？',
+    },
+    {
+        no: 2, title: '使命，然后结束',
+        guide: '这一幕写「燃烧与熄灭」，是整本册子最重的一幕：一件事被做完的全过程，和做完之后那口气——最后一班岗、熬到关火的一锅汤、送到站的信、谢幕、燃尽。做完的那一刻，是圆满还是消失？',
+    },
+    {
+        no: 3, title: '再次醒来',
+        guide: '这一幕写「轮回与交接」：结束之后，另一个「我」接着醒来——第二天照常开门的店、换班的人、来年再开的花、被重新点亮的灯。像没发生过，又什么都记得。醒来的还是不是我？',
+    },
+];
+
+/** 三幕各自覆盖的首数区间（1-based，含端点）：首尾各 1/4，中间那幕占一半（40 首 = 10/20/10）。 */
+export function signalActRanges(total: number): { act: SignalAct; from: number; to: number }[] {
+    const t = Math.max(1, total || SIGNAL_POEMS_PER_BOOKLET);
+    const a1 = Math.max(1, Math.round(t * 0.25));
+    const a3 = Math.max(1, Math.round(t * 0.25));
+    return [
+        { act: SIGNAL_ACTS[0], from: 1, to: a1 },
+        { act: SIGNAL_ACTS[1], from: a1 + 1, to: t - a3 },
+        { act: SIGNAL_ACTS[2], from: t - a3 + 1, to: t },
+    ];
+}
+
+/** 第 ordinal 首（1-based）落在哪一幕。 */
+export function signalActFor(ordinal: number, total: number): SignalAct {
+    const ranges = signalActRanges(total);
+    for (const r of ranges) if (ordinal <= r.to) return r.act;
+    return ranges[2].act;
+}

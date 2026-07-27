@@ -1,1 +1,192 @@
-aW1wb3J0IHsgZGVzY3JpYmUsIGl0LCBleHBlY3QgfSBmcm9tICd2aXRlc3QnOwppbXBvcnQgeyBjbGFzc2lmeUxMTU91dHB1dCB9IGZyb20gJy4vY2xhc3NpZmllcic7CgpkZXNjcmliZSgnY2xhc3NpZnlMTE1PdXRwdXQnLCAoKSA9PiB7CiAgaXQoJ0QxIGZpbmlzaCDlubLlh4DmlofmnKwg4oaSIHNhbml0aXplIOS4jeaUueWtl+espicsICgpID0+IHsKICAgIGNvbnN0IHIgPSBjbGFzc2lmeUxMTU91dHB1dCgn5L2g5aW9Jyk7CiAgICBleHBlY3Qoci5raW5kKS50b0JlKCdmaW5pc2gnKTsKICAgIGlmIChyLmtpbmQgPT09ICdmaW5pc2gnKSB7CiAgICAgIGV4cGVjdChyLmNsZWFuZWRUZXh0KS50b0JlKCfkvaDlpb0nKTsKICAgICAgZXhwZWN0KHIuc2FuaXRpemVkQm9keSkudG9CZSgn5L2g5aW9Jyk7CiAgICAgIC8vIHNhbml0aXplIOi3n+WOn+aWh+ebuOetiSwg5LiK5bGCIG9uTExNT3V0cHV0IOS4jeS8muWhniBub3RpZmljYXRpb24uYm9keQogICAgICBleHBlY3Qoci5zYW5pdGl6ZWRCb2R5KS50b0JlKHIuY2xlYW5lZFRleHQpOwogICAgICBleHBlY3Qoci5kaXJlY3RpdmVzKS50b0VxdWFsKFtdKTsKICAgIH0KICB9KTsKCiAgaXQoJ0QyIGZpbmlzaCDlkKsgU0VORF9FTU9KSSDihpIgc2FuaXRpemUg5pS55a2X56ymIChub3RpZmljYXRpb24g6Lev5b6E5pu/5o2iKScsICgpID0+IHsKICAgIGNvbnN0IHIgPSBjbGFzc2lmeUxMTU91dHB1dCgn5rWL6K+VW1tTRU5EX0VNT0pJOiDnrJFdXScpOwogICAgZXhwZWN0KHIua2luZCkudG9CZSgnZmluaXNoJyk7CiAgICBpZiAoci5raW5kID09PSAnZmluaXNoJykgewogICAgICAvLyBjbGVhbmVkVGV4dDogY2xhc3NpZmllciDlj6rliaUgREFUQSArIFNJREVfRUZGRUNUIOagh+etviwgU0VORF9FTU9KSSDkuI3lnKjph4zpnaIg4oaSIOWOn+aWh+eVmee7meWuouaIt+erryBTdGVwIDkKICAgICAgZXhwZWN0KHIuY2xlYW5lZFRleHQpLnRvQmUoJ+a1i+ivlVtbU0VORF9FTU9KSTog56yRXV0nKTsKICAgICAgLy8gc2FuaXRpemVkQm9keTog6LWwIHNhbml0aXplRm9yTm90aWZpY2F0aW9uLCDmm7/mjaLmiJAgW+ihqOaDhe+8mueskV0KICAgICAgZXhwZWN0KHIuc2FuaXRpemVkQm9keSkudG9CZSgn5rWL6K+VW+ihqOaDhe+8mueskV0nKTsKICAgICAgZXhwZWN0KHIuc2FuaXRpemVkQm9keSkubm90LnRvQmUoci5jbGVhbmVkVGV4dCk7CiAgICB9CiAgfSk7CgogIGl0KCdEMyBmaW5pc2gg5LuFIDx0aGluaz4g4oaSIHNhbml0aXplIOepuuS4siAo6Kem5Y+RIFpXU1Ag5a6I5oqkKScsICgpID0+IHsKICAgIGNvbnN0IHIgPSBjbGFzc2lmeUxMTU91dHB1dCgnPHRoaW5rPmludGVybmFsIG1vbm9sb2d1ZTwvdGhpbms+Jyk7CiAgICBleHBlY3Qoci5raW5kKS50b0JlKCdmaW5pc2gnKTsKICAgIGlmIChyLmtpbmQgPT09ICdmaW5pc2gnKSB7CiAgICAgIGV4cGVjdChyLmNsZWFuZWRUZXh0KS50b0JlKCc8dGhpbms+aW50ZXJuYWwgbW9ub2xvZ3VlPC90aGluaz4nKTsKICAgICAgZXhwZWN0KHIuc2FuaXRpemVkQm9keSkudG9CZSgnJyk7CiAgICAgIGV4cGVjdChyLnNhbml0aXplZEJvZHkpLm5vdC50b0JlKHIuY2xlYW5lZFRleHQpOwogICAgICAvLyDkuIrlsYIgaW5kZXgudHMg5Lya55SoIFpXU1Ag5Y2g5L2N6ZiyIGFtc2ctc3cgZmFsbHRocm91Z2gKICAgIH0KICB9KTsKCiAgaXQoJ0Q0IHRvb2wtcmVxdWVzdCDlkKsgcHJlZml4IG5hcnJhdGlvbicsICgpID0+IHsKICAgIGNvbnN0IHIgPSBjbGFzc2lmeUxMTU91dHB1dCgn6K6p5oiR5p+l5p+lW1tSRUNBTEw6IDIwMjQtMDVdXScpOwogICAgZXhwZWN0KHIua2luZCkudG9CZSgndG9vbC1yZXF1ZXN0Jyk7CiAgICBpZiAoci5raW5kID09PSAndG9vbC1yZXF1ZXN0JykgewogICAgICBleHBlY3Qoci5wcmVmaXgpLnRvQmUoJ+iuqeaIkeafpeafpScpOwogICAgICBleHBlY3Qoci5zYW5pdGl6ZWRQcmVmaXgpLnRvQmUoJ+iuqeaIkeafpeafpScpOwogICAgICBleHBlY3Qoci50b29sQ2FsbHMpLnRvSGF2ZUxlbmd0aCgxKTsKICAgICAgZXhwZWN0KHIudG9vbENhbGxzWzBdLmZ1bmN0aW9uLm5hbWUpLnRvQmUoJ3JlY2FsbCcpOwogICAgICBleHBlY3QoSlNPTi5wYXJzZShyLnRvb2xDYWxsc1swXS5mdW5jdGlvbi5hcmd1bWVudHMpKS50b0VxdWFsKHsgeWVhcjogJzIwMjQnLCBtb250aDogJzA1JyB9KTsKICAgIH0KICB9KTsKCiAgaXQoJ0Q1IHRvb2wtcmVxdWVzdCBwcmVmaXgg5Li656m6IChMTE0g55u05o6l5ZCQ5pWw5o2u5qCH562+KScsICgpID0+IHsKICAgIGNvbnN0IHIgPSBjbGFzc2lmeUxMTU91dHB1dCgnW1tTRUFSQ0g6IHdlYXRoZXJdXScpOwogICAgZXhwZWN0KHIua2luZCkudG9CZSgndG9vbC1yZXF1ZXN0Jyk7CiAgICBpZiAoci5raW5kID09PSAndG9vbC1yZXF1ZXN0JykgewogICAgICBleHBlY3Qoci5wcmVmaXgpLnRvQmUoJycpOwogICAgICBleHBlY3Qoci5zYW5pdGl6ZWRQcmVmaXgpLnRvQmUoJycpOwogICAgICAvLyDkuKTogIXnm7jnrYksIOS4iuWxguS4jeWhniBub3RpZmljYXRpb24uYm9keSwgT1MgYmFubmVyIOaYvuekuiB0aXRsZS1vbmx5CiAgICAgIGV4cGVjdChyLnNhbml0aXplZFByZWZpeCkudG9CZShyLnByZWZpeCk7CiAgICAgIGV4cGVjdChyLnRvb2xDYWxsc1swXS5mdW5jdGlvbi5uYW1lKS50b0JlKCd3ZWJfc2VhcmNoJyk7CiAgICB9CiAgfSk7CgogIGl0KCdENiBmaW5pc2ggKyBkaXJlY3RpdmVzIChzaWRlLWVmZmVjdCB0YWcpJywgKCkgPT4gewogICAgY29uc3QgciA9IGNsYXNzaWZ5TExNT3V0cHV0KCdPS1tbQUNUSU9OOlBPS0VdXScpOwogICAgZXhwZWN0KHIua2luZCkudG9CZSgnZmluaXNoJyk7CiAgICBpZiAoci5raW5kID09PSAnZmluaXNoJykgewogICAgICBleHBlY3Qoci5jbGVhbmVkVGV4dCkudG9CZSgnT0snKTsKICAgICAgZXhwZWN0KHIuZGlyZWN0aXZlcykudG9FcXVhbChbeyB0eXBlOiAncG9rZScgfV0pOwogICAgfQogIH0pOwoKICBpdCgnRDYrIGZpbmlzaCArIOWkmuS4qiBkaXJlY3RpdmVzJywgKCkgPT4gewogICAgY29uc3QgciA9IGNsYXNzaWZ5TExNT3V0cHV0KCfmlLbliLBbW0FDVElPTjpQT0tFXV0g6L2s5L2gW1tBQ1RJT046VFJBTlNGRVI6MTAwXV0nKTsKICAgIGlmIChyLmtpbmQgPT09ICdmaW5pc2gnKSB7CiAgICAgIGV4cGVjdChyLmNsZWFuZWRUZXh0KS50b0JlKCfmlLbliLAg6L2s5L2gJyk7CiAgICAgIGV4cGVjdChyLmRpcmVjdGl2ZXMpLnRvRXF1YWwoWwogICAgICAgIHsgdHlwZTogJ3Bva2UnIH0sCiAgICAgICAgeyB0eXBlOiAndHJhbnNmZXInLCBhbW91bnQ6IDEwMCB9LAogICAgICBdKTsKICAgIH0KICB9KTsKCiAgaXQoJ3Rvb2wtcmVxdWVzdCDlpJrkuKogREFUQSB0YWcg5LiA5qyh5oCn5pS26ZuGJywgKCkgPT4gewogICAgY29uc3QgciA9IGNsYXNzaWZ5TExNT3V0cHV0KCdbW1NFQVJDSDogYV1dW1tTRUFSQ0g6IGJdXScpOwogICAgaWYgKHIua2luZCA9PT0gJ3Rvb2wtcmVxdWVzdCcpIHsKICAgICAgZXhwZWN0KHIudG9vbENhbGxzKS50b0hhdmVMZW5ndGgoMik7CiAgICAgIGV4cGVjdChyLnRvb2xDYWxscy5ldmVyeSh0ID0+IHQuZnVuY3Rpb24ubmFtZSA9PT0gJ3dlYl9zZWFyY2gnKSkudG9CZSh0cnVlKTsKICAgIH0KICB9KTsKCiAgaXQoJ+epuui+k+WFpSDihpIgZmluaXNoICsg56m6IGNsZWFuZWRUZXh0JywgKCkgPT4gewogICAgY29uc3QgciA9IGNsYXNzaWZ5TExNT3V0cHV0KCcnKTsKICAgIGV4cGVjdChyLmtpbmQpLnRvQmUoJ2ZpbmlzaCcpOwogICAgaWYgKHIua2luZCA9PT0gJ2ZpbmlzaCcpIHsKICAgICAgZXhwZWN0KHIuY2xlYW5lZFRleHQpLnRvQmUoJycpOwogICAgICBleHBlY3Qoci5zYW5pdGl6ZWRCb2R5KS50b0JlKCcnKTsKICAgICAgZXhwZWN0KHIuZGlyZWN0aXZlcykudG9FcXVhbChbXSk7CiAgICB9CiAgfSk7CgogIC8vIOKUgOKUgOKUgCDlhpnml6XorrAgZGlyZWN0aXZlIOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgAoKICBpdCgnTm90aW9uIOefreaXpeiusCB0aXRsZXxjb250ZW50IOKGkiBub3Rpb25fd3JpdGVfZGlhcnkgZGlyZWN0aXZlJywgKCkgPT4gewogICAgY29uc3QgciA9IGNsYXNzaWZ5TExNT3V0cHV0KCflpb3llYpbW0RJQVJZOiDku4rlpKnnmoTkuot856qd5Zyo5rKZ5Y+R5ZCD6KW/55OcXV0nKTsKICAgIGV4cGVjdChyLmtpbmQpLnRvQmUoJ2ZpbmlzaCcpOwogICAgaWYgKHIua2luZCA9PT0gJ2ZpbmlzaCcpIHsKICAgICAgZXhwZWN0KHIuY2xlYW5lZFRleHQpLnRvQmUoJ+WlveWViicpOwogICAgICBleHBlY3Qoci5kaXJlY3RpdmVzKS50b0VxdWFsKFt7CiAgICAgICAgdHlwZTogJ25vdGlvbl93cml0ZV9kaWFyeScsCiAgICAgICAgdGl0bGU6ICfku4rlpKnnmoTkuosnLAogICAgICAgIGNvbnRlbnQ6ICfnqp3lnKjmspnlj5HlkIPopb/nk5wnLAogICAgICB9XSk7CiAgICB9CiAgfSk7CgogIGl0KCdOb3Rpb24g55+t5pel6K6wIOaXoCB0aXRsZSAo5pegIHwpIOKGkiBjb250ZW50IOWtl+auteaLv+WIsOaVtOautScsICgpID0+IHsKICAgIGNvbnN0IHIgPSBjbGFzc2lmeUxMTU91dHB1dCgnW1tESUFSWTog5Y+q5piv5pmu6YCa55qE5LiA5q61XV0nKTsKICAgIGV4cGVjdChyLmtpbmQpLnRvQmUoJ2ZpbmlzaCcpOwogICAgaWYgKHIua2luZCA9PT0gJ2ZpbmlzaCcpIHsKICAgICAgZXhwZWN0KHIuZGlyZWN0aXZlcykudG9FcXVhbChbewogICAgICAgIHR5cGU6ICdub3Rpb25fd3JpdGVfZGlhcnknLAogICAgICAgIHRpdGxlOiAnJywKICAgICAgICBjb250ZW50OiAn5Y+q5piv5pmu6YCa55qE5LiA5q61JywKICAgICAgfV0pOwogICAgfQogIH0pOwoKICBpdCgnTm90aW9uIOmVv+aXpeiusCBbW0RJQVJZX1NUQVJUOiB0aXRsZXxtb29kXV0uLi5bW0RJQVJZX0VORF1dIOKGkiBub3Rpb25fd3JpdGVfZGlhcnkgKyBtb29kJywgKCkgPT4gewogICAgY29uc3QgciA9IGNsYXNzaWZ5TExNT3V0cHV0KCflvIDlp4vlhplbW0RJQVJZX1NUQVJUOiDpm6jlpKl85oOG5oCFXV1cbuS4i+S6huS4gOaVtOWkqeeahOmbqO+8jFxu5oiR55yL552A56qX5aSW5Y+R5ZGG44CCXG5bW0RJQVJZX0VORF1d5ZCO6K6wJyk7CiAgICBleHBlY3Qoci5raW5kKS50b0JlKCdmaW5pc2gnKTsKICAgIGlmIChyLmtpbmQgPT09ICdmaW5pc2gnKSB7CiAgICAgIC8vIHN0cmlwIOWQjuWJpeWFiemVv+aXpeiusOaVtOautSwg5Lik5L6n5paH5a2X55u05o6l55u46L+eICjot5/lrqLmiLfnq6/mnKzlnLAgZmV0Y2gg6Lev5b6E6KGM5Li65LiA6Ie0LCDop4EKICAgICAgLy8gYXBwbHlBc3Npc3RhbnRQb3N0UHJvY2Vzc2luZy50czo1MzQg5ZCM5qih5byPIHRyaW0pLgogICAgICBleHBlY3Qoci5jbGVhbmVkVGV4dCkudG9CZSgn5byA5aeL5YaZ5ZCO6K6wJyk7CiAgICAgIGV4cGVjdChyLmRpcmVjdGl2ZXMpLnRvRXF1YWwoW3sKICAgICAgICB0eXBlOiAnbm90aW9uX3dyaXRlX2RpYXJ5JywKICAgICAgICB0aXRsZTogJ+mbqOWkqScsCiAgICAgICAgbW9vZDogJ+aDhuaAhScsCiAgICAgICAgY29udGVudDogJ+S4i+S6huS4gOaVtOWkqeeahOmbqO+8jFxu5oiR55yL552A56qX5aSW5Y+R5ZGG44CCJywKICAgICAgfV0pOwogICAgfQogIH0pOwoKICBpdCgnTm90aW9uIOmVv+aXpeiusCDku4UgdGl0bGUgKOaXoCB8KSDihpIgbW9vZCB1bmRlZmluZWQnLCAoKSA9PiB7CiAgICBjb25zdCByID0gY2xhc3NpZnlMTE1PdXRwdXQoJ1tbRElBUllfU1RBUlQ6IOagh+mimF1dXG7lhoXlrrlcbltbRElBUllfRU5EXV0nKTsKICAgIGV4cGVjdChyLmtpbmQpLnRvQmUoJ2ZpbmlzaCcpOwogICAgaWYgKHIua2luZCA9PT0gJ2ZpbmlzaCcpIHsKICAgICAgY29uc3QgZCA9IHIuZGlyZWN0aXZlc1swXSBhcyB7IHR5cGU6IHN0cmluZzsgdGl0bGU6IHN0cmluZzsgY29udGVudDogc3RyaW5nOyBtb29kPzogc3RyaW5nIH07CiAgICAgIGV4cGVjdChkLnR5cGUpLnRvQmUoJ25vdGlvbl93cml0ZV9kaWFyeScpOwogICAgICBleHBlY3QoZC50aXRsZSkudG9CZSgn5qCH6aKYJyk7CiAgICAgIGV4cGVjdChkLm1vb2QpLnRvQmVVbmRlZmluZWQoKTsKICAgICAgZXhwZWN0KGQuY29udGVudCkudG9CZSgn5YaF5a65Jyk7CiAgICB9CiAgfSk7CgogIGl0KCfpo57kuabnn63ml6XorrAgW1tGU19ESUFSWTogLi4uXV0g4oaSIGZlaXNodV93cml0ZV9kaWFyeScsICgpID0+IHsKICAgIGNvbnN0IHIgPSBjbGFzc2lmeUxMTU91dHB1dCgnW1tGU19ESUFSWTog6aOe5Lmm5qCH6aKYfOmjnuS5puWGheWuuV1dJyk7CiAgICBleHBlY3Qoci5raW5kKS50b0JlKCdmaW5pc2gnKTsKICAgIGlmIChyLmtpbmQgPT09ICdmaW5pc2gnKSB7CiAgICAgIGV4cGVjdChyLmRpcmVjdGl2ZXMpLnRvRXF1YWwoW3sKICAgICAgICB0eXBlOiAnZmVpc2h1X3dyaXRlX2RpYXJ5JywKICAgICAgICB0aXRsZTogJ+mjnuS5puagh+mimCcsCiAgICAgICAgY29udGVudDogJ+mjnuS5puWGheWuuScsCiAgICAgIH1dKTsKICAgIH0KICB9KTsKCiAgaXQoJ+mjnuS5pumVv+aXpeiusCBbW0ZTX0RJQVJZX1NUQVJULi5GU19ESUFSWV9FTkRdXSDihpIgZmVpc2h1X3dyaXRlX2RpYXJ5ICsgbW9vZCcsICgpID0+IHsKICAgIGNvbnN0IHIgPSBjbGFzc2lmeUxMTU91dHB1dCgnW1tGU19ESUFSWV9TVEFSVDog5ZGo5pyrfOi9u+advl1dXG7nnaHliLDoh6rnhLbphpJcbltbRlNfRElBUllfRU5EXV0nKTsKICAgIGV4cGVjdChyLmtpbmQpLnRvQmUoJ2ZpbmlzaCcpOwogICAgaWYgKHIua2luZCA9PT0gJ2ZpbmlzaCcpIHsKICAgICAgZXhwZWN0KHIuZGlyZWN0aXZlcykudG9FcXVhbChbewogICAgICAgIHR5cGU6ICdmZWlzaHVfd3JpdGVfZGlhcnknLAogICAgICAgIHRpdGxlOiAn5ZGo5pyrJywKICAgICAgICBtb29kOiAn6L275p2+JywKICAgICAgICBjb250ZW50OiAn552h5Yiw6Ieq54S26YaSJywKICAgICAgfV0pOwogICAgfQogIH0pOwoKICBpdCgnTm90aW9uIOmVvyArIOmjnuS5puefreWQjOaXtuWtmOWcqCDihpIg5Lik5LiqIGRpcmVjdGl2ZSDpg73mlLYnLCAoKSA9PiB7CiAgICBjb25zdCByID0gY2xhc3NpZnlMTE1PdXRwdXQoJ1tbRElBUllfU1RBUlQ6IGFdXVxueFxuW1tESUFSWV9FTkRdXVxuW1tGU19ESUFSWTogYnx5XV0nKTsKICAgIGV4cGVjdChyLmtpbmQpLnRvQmUoJ2ZpbmlzaCcpOwogICAgaWYgKHIua2luZCA9PT0gJ2ZpbmlzaCcpIHsKICAgICAgZXhwZWN0KHIuZGlyZWN0aXZlcykudG9IYXZlTGVuZ3RoKDIpOwogICAgICBjb25zdCB0eXBlcyA9IHIuZGlyZWN0aXZlcy5tYXAoZCA9PiBkLnR5cGUpOwogICAgICBleHBlY3QodHlwZXMpLnRvQ29udGFpbignbm90aW9uX3dyaXRlX2RpYXJ5Jyk7CiAgICAgIGV4cGVjdCh0eXBlcykudG9Db250YWluKCdmZWlzaHVfd3JpdGVfZGlhcnknKTsKICAgIH0KICB9KTsKfSk7Cg==
+import { describe, it, expect } from 'vitest';
+import { classifyLLMOutput } from './classifier';
+
+describe('classifyLLMOutput', () => {
+  it('D1 finish 干净文本 → sanitize 不改字符', () => {
+    const r = classifyLLMOutput('你好');
+    expect(r.kind).toBe('finish');
+    if (r.kind === 'finish') {
+      expect(r.cleanedText).toBe('你好');
+      expect(r.sanitizedBody).toBe('你好');
+      // sanitize 跟原文相等, 上层 onLLMOutput 不会塞 notification.body
+      expect(r.sanitizedBody).toBe(r.cleanedText);
+      expect(r.directives).toEqual([]);
+    }
+  });
+
+  it('D2 finish 含 SEND_EMOJI → sanitize 改字符 (notification 路径替换)', () => {
+    const r = classifyLLMOutput('测试[[SEND_EMOJI: 笑]]');
+    expect(r.kind).toBe('finish');
+    if (r.kind === 'finish') {
+      // cleanedText: classifier 只剥 DATA + SIDE_EFFECT 标签, SEND_EMOJI 不在里面 → 原文留给客户端 Step 9
+      expect(r.cleanedText).toBe('测试[[SEND_EMOJI: 笑]]');
+      // sanitizedBody: 走 sanitizeForNotification, 替换成 [表情：笑]
+      expect(r.sanitizedBody).toBe('测试[表情：笑]');
+      expect(r.sanitizedBody).not.toBe(r.cleanedText);
+    }
+  });
+
+  it('D3 finish 仅 <think> → sanitize 空串 (触发 ZWSP 守护)', () => {
+    const r = classifyLLMOutput('<think>internal monologue</think>');
+    expect(r.kind).toBe('finish');
+    if (r.kind === 'finish') {
+      expect(r.cleanedText).toBe('<think>internal monologue</think>');
+      expect(r.sanitizedBody).toBe('');
+      expect(r.sanitizedBody).not.toBe(r.cleanedText);
+      // 上层 index.ts 会用 ZWSP 占位防 amsg-sw fallthrough
+    }
+  });
+
+  it('D4 tool-request 含 prefix narration', () => {
+    const r = classifyLLMOutput('让我查查[[RECALL: 2024-05]]');
+    expect(r.kind).toBe('tool-request');
+    if (r.kind === 'tool-request') {
+      expect(r.prefix).toBe('让我查查');
+      expect(r.sanitizedPrefix).toBe('让我查查');
+      expect(r.toolCalls).toHaveLength(1);
+      expect(r.toolCalls[0].function.name).toBe('recall');
+      expect(JSON.parse(r.toolCalls[0].function.arguments)).toEqual({ year: '2024', month: '05' });
+    }
+  });
+
+  it('D5 tool-request prefix 为空 (LLM 直接吐数据标签)', () => {
+    const r = classifyLLMOutput('[[SEARCH: weather]]');
+    expect(r.kind).toBe('tool-request');
+    if (r.kind === 'tool-request') {
+      expect(r.prefix).toBe('');
+      expect(r.sanitizedPrefix).toBe('');
+      // 两者相等, 上层不塞 notification.body, OS banner 显示 title-only
+      expect(r.sanitizedPrefix).toBe(r.prefix);
+      expect(r.toolCalls[0].function.name).toBe('web_search');
+    }
+  });
+
+  it('D6 finish + directives (side-effect tag)', () => {
+    const r = classifyLLMOutput('OK[[ACTION:POKE]]');
+    expect(r.kind).toBe('finish');
+    if (r.kind === 'finish') {
+      expect(r.cleanedText).toBe('OK');
+      expect(r.directives).toEqual([{ type: 'poke' }]);
+    }
+  });
+
+  it('D6+ finish + 多个 directives', () => {
+    const r = classifyLLMOutput('收到[[ACTION:POKE]] 转你[[ACTION:TRANSFER:100]]');
+    if (r.kind === 'finish') {
+      expect(r.cleanedText).toBe('收到 转你');
+      expect(r.directives).toEqual([
+        { type: 'poke' },
+        { type: 'transfer', amount: 100 },
+      ]);
+    }
+  });
+
+  it('tool-request 多个 DATA tag 一次性收集', () => {
+    const r = classifyLLMOutput('[[SEARCH: a]][[SEARCH: b]]');
+    if (r.kind === 'tool-request') {
+      expect(r.toolCalls).toHaveLength(2);
+      expect(r.toolCalls.every(t => t.function.name === 'web_search')).toBe(true);
+    }
+  });
+
+  it('空输入 → finish + 空 cleanedText', () => {
+    const r = classifyLLMOutput('');
+    expect(r.kind).toBe('finish');
+    if (r.kind === 'finish') {
+      expect(r.cleanedText).toBe('');
+      expect(r.sanitizedBody).toBe('');
+      expect(r.directives).toEqual([]);
+    }
+  });
+
+  // ─── 写日记 directive ─────────────────────────────────────────────────────
+
+  it('Notion 短日记 title|content → notion_write_diary directive', () => {
+    const r = classifyLLMOutput('好啊[[DIARY: 今天的事|窝在沙发吃西瓜]]');
+    expect(r.kind).toBe('finish');
+    if (r.kind === 'finish') {
+      expect(r.cleanedText).toBe('好啊');
+      expect(r.directives).toEqual([{
+        type: 'notion_write_diary',
+        title: '今天的事',
+        content: '窝在沙发吃西瓜',
+      }]);
+    }
+  });
+
+  it('Notion 短日记 无 title (无 |) → content 字段拿到整段', () => {
+    const r = classifyLLMOutput('[[DIARY: 只是普通的一段]]');
+    expect(r.kind).toBe('finish');
+    if (r.kind === 'finish') {
+      expect(r.directives).toEqual([{
+        type: 'notion_write_diary',
+        title: '',
+        content: '只是普通的一段',
+      }]);
+    }
+  });
+
+  it('Notion 长日记 [[DIARY_START: title|mood]]...[[DIARY_END]] → notion_write_diary + mood', () => {
+    const r = classifyLLMOutput('开始写[[DIARY_START: 雨天|惆怅]]\n下了一整天的雨，\n我看着窗外发呆。\n[[DIARY_END]]后记');
+    expect(r.kind).toBe('finish');
+    if (r.kind === 'finish') {
+      // strip 后剥光长日记整段, 两侧文字直接相连 (跟客户端本地 fetch 路径行为一致, 见
+      // applyAssistantPostProcessing.ts:534 同模式 trim).
+      expect(r.cleanedText).toBe('开始写后记');
+      expect(r.directives).toEqual([{
+        type: 'notion_write_diary',
+        title: '雨天',
+        mood: '惆怅',
+        content: '下了一整天的雨，\n我看着窗外发呆。',
+      }]);
+    }
+  });
+
+  it('Notion 长日记 仅 title (无 |) → mood undefined', () => {
+    const r = classifyLLMOutput('[[DIARY_START: 标题]]\n内容\n[[DIARY_END]]');
+    expect(r.kind).toBe('finish');
+    if (r.kind === 'finish') {
+      const d = r.directives[0] as { type: string; title: string; content: string; mood?: string };
+      expect(d.type).toBe('notion_write_diary');
+      expect(d.title).toBe('标题');
+      expect(d.mood).toBeUndefined();
+      expect(d.content).toBe('内容');
+    }
+  });
+
+  it('飞书短日记 [[FS_DIARY: ...]] → feishu_write_diary', () => {
+    const r = classifyLLMOutput('[[FS_DIARY: 飞书标题|飞书内容]]');
+    expect(r.kind).toBe('finish');
+    if (r.kind === 'finish') {
+      expect(r.directives).toEqual([{
+        type: 'feishu_write_diary',
+        title: '飞书标题',
+        content: '飞书内容',
+      }]);
+    }
+  });
+
+  it('飞书长日记 [[FS_DIARY_START..FS_DIARY_END]] → feishu_write_diary + mood', () => {
+    const r = classifyLLMOutput('[[FS_DIARY_START: 周末|轻松]]\n睡到自然醒\n[[FS_DIARY_END]]');
+    expect(r.kind).toBe('finish');
+    if (r.kind === 'finish') {
+      expect(r.directives).toEqual([{
+        type: 'feishu_write_diary',
+        title: '周末',
+        mood: '轻松',
+        content: '睡到自然醒',
+      }]);
+    }
+  });
+
+  it('Notion 长 + 飞书短同时存在 → 两个 directive 都收', () => {
+    const r = classifyLLMOutput('[[DIARY_START: a]]\nx\n[[DIARY_END]]\n[[FS_DIARY: b|y]]');
+    expect(r.kind).toBe('finish');
+    if (r.kind === 'finish') {
+      expect(r.directives).toHaveLength(2);
+      const types = r.directives.map(d => d.type);
+      expect(types).toContain('notion_write_diary');
+      expect(types).toContain('feishu_write_diary');
+    }
+  });
+});

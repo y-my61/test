@@ -1,1 +1,22 @@
-LS0gSW5zdGFudCBQdXNoIFdvcmtlciDigJQgRDEgc2NoZW1hIGZvciBCbG9iU3RvcmUgKG9wdGlvbmFsIGJ1dCByZWNvbW1lbmRlZCkKLS0KLS0g6buY6K6k5LiN6ZyA6KaB5omL5Yqo5omn6KGM5pys5paH5Lu277yaV29ya2VyIOS8muWcqCBEMSBCbG9iU3RvcmUg5ZCv55So5pe26Ieq5YqoCi0tIENSRUFURSBUQUJMRSBJRiBOT1QgRVhJU1RTIC8gQ1JFQVRFIElOREVYIElGIE5PVCBFWElTVFPjgIIKLS0g6L+Z5Liq5paH5Lu25Li76KaB55WZ57uZ5oOz5o+Q5YmN5bu66KGo44CB5oiW5o6S5p+lIEQxIOeKtuaAgeeahOS6uuOAggotLQotLSDlj6/pgInmiYvliqjpg6jnvbLmlrnms5U6Ci0tICAgd3JhbmdsZXIgZDEgY3JlYXRlIGluc3RhbnQtYmxvYi1kYiAgICAgICAgIyDmi7/liLAgZGF0YWJhc2VfaWQKLS0gICB3cmFuZ2xlciBkMSBleGVjdXRlIGluc3RhbnQtYmxvYi1kYiAtLWZpbGUgc2NoZW1hLnNxbAotLSAgIOaKiiBkYXRhYmFzZV9pZCDloavliLAgd29ya2VyL2luc3RhbnQtcHVzaC93cmFuZ2xlci50b21sIOeahCBbW2QxX2RhdGFiYXNlc11dIOmHjAotLQotLSDkuI3pg6jnvbIgRDEg5Lmf6IO96LeR77ya5aSnIHBheWxvYWQg6buY6K6k6LWwIF9tdWx0aXBhcnQg5YiG54mH5Lyg6L6T44CCCi0tIOWQr+eUqCBEMSDlkI7vvIzov4fmnJ8gYmxvYiByb3cg5Lya55SxIFdvcmtlciDlnKjor7fmsYLnu4/ov4fml7blrprmnJ/muIXnkIbjgIIKCkNSRUFURSBUQUJMRSBJRiBOT1QgRVhJU1RTIGFtc2dfdHJhbnNpZW50X2Jsb2JzICgKICBrZXkgICAgICAgIFRFWFQgICAgUFJJTUFSWSBLRVksCiAgYm9keSAgICAgICBURVhUICAgIE5PVCBOVUxMLAogIGV4cGlyZXNfYXQgSU5URUdFUiBOT1QgTlVMTCAgLS0gbXMgZXBvY2gKKTsKCkNSRUFURSBJTkRFWCBJRiBOT1QgRVhJU1RTIGlkeF9hbXNnX2Jsb2JzX2V4cGlyZXMKICBPTiBhbXNnX3RyYW5zaWVudF9ibG9icyhleHBpcmVzX2F0KTsK
+-- Instant Push Worker — D1 schema for BlobStore (optional but recommended)
+--
+-- 默认不需要手动执行本文件：Worker 会在 D1 BlobStore 启用时自动
+-- CREATE TABLE IF NOT EXISTS / CREATE INDEX IF NOT EXISTS。
+-- 这个文件主要留给想提前建表、或排查 D1 状态的人。
+--
+-- 可选手动部署方法:
+--   wrangler d1 create instant-blob-db        # 拿到 database_id
+--   wrangler d1 execute instant-blob-db --file schema.sql
+--   把 database_id 填到 worker/instant-push/wrangler.toml 的 [[d1_databases]] 里
+--
+-- 不部署 D1 也能跑：大 payload 默认走 _multipart 分片传输。
+-- 启用 D1 后，过期 blob row 会由 Worker 在请求经过时定期清理。
+
+CREATE TABLE IF NOT EXISTS amsg_transient_blobs (
+  key        TEXT    PRIMARY KEY,
+  body       TEXT    NOT NULL,
+  expires_at INTEGER NOT NULL  -- ms epoch
+);
+
+CREATE INDEX IF NOT EXISTS idx_amsg_blobs_expires
+  ON amsg_transient_blobs(expires_at);

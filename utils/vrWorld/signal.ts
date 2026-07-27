@@ -1,1 +1,203 @@
-LyoqCiAqIOS/oeWPt+WdoOiQveWkhCDCtyDlrqLmiLfnq68gQVBJCiAqCiAqIOi3qOeUqOaIt+aOpem+meeOsOS7o+ivl+OAguWkjeeUqOa8gua1geeTtu+8iHBvc3Qtb2ZmaWNlIHdvcmtlcu+8ieeahOWQjOS4gOWQjuerr+OAgeWQjOS4gOWMv+WQjQogKiBkZXZpY2VJZOOAgeWQjOS4gOeslOWQjemprOi1m+WFi+S4jumZkOa1geWfuuW7uu+8jOS9hui1sOeLrOeri+eahCAvcG9lbS8qIOerr+eCueOAggogKgogKiDmqKHlnovvvJrlhajlsYDlkIzml7blj6rmnInkuIDpppbjgIzlvZPliY3jgI3or5fjgILosIHnmbvlhaXor7vliLDnmoTmsLjov5zmmK/mnIDmlrDlhajmlofvvJvmsqHlhpnlrozlsLEKICog5o6l5LiA5Y+l77yM5rKh5pyJIG9wZW4g6K+X5bCx6LW35paw56+H77yI6Ieq5ouf5qCH6aKYICsg56ys5LiA5Y+lICsg5beyIHJvbGwg55qE56+H5bmF77yJ77yb5YaZ5ruhCiAqIOevh+W5heiHquWKqOWwgeWtmOi/m+ivl+mbhuOAgnVzZXIg5LiN5Y+C5LiO77yM5Y+q5pyJ6KeS6Imy5YaZ44CCCiAqLwoKaW1wb3J0IHsgU2lnbmFsQm9va2xldCwgU2lnbmFsUG9lbSB9IGZyb20gJy4uLy4uL3R5cGVzJzsKaW1wb3J0IHsgZ2V0UG9zdE9mZmljZUJhc2UsIGdldERldmljZUlkLCBtYXNrUGVuIH0gZnJvbSAnLi9wb3N0T2ZmaWNlJzsKCmV4cG9ydCBpbnRlcmZhY2UgU2lnbmFsU3RhdGUgewogICAgYm9va2xldDogU2lnbmFsQm9va2xldDsKICAgIC8qKiDlvZPliY3pgqPpppbov5jmsqHlhpnlroznmoTor5fvvJtudWxsID0g6K+l6LW35paw56+HICovCiAgICBwb2VtOiBTaWduYWxQb2VtIHwgbnVsbDsKICAgIC8qKiDov5HmnJ/lsIHlrZjnmoTlh6DpppbvvIzkvpvotbfmlrDnr4fml7bjgIzor7vkuYvliY3nmoTor5fjgI3mib7ngbXmhJ8gKi8KICAgIHJlY2VudDogU2lnbmFsUG9lbVtdOwogICAgLyoqIOeuoeeQhuWRmOaYr+WQpuaaguWBnOS6huOAjOivl+atjOaOqOWFpeOAje+8iHRydWUg5pe26KeS6Imy5LiN5YaN6LW35paw56+HL+aOpem+me+8iSAqLwogICAgcGF1c2VkPzogYm9vbGVhbjsKfQoKLy8g4pSA4pSAIOacrOWcsOeyvuehruW9kuWxnu+8muivl+aYr+WMv+WQjeeahO+8iHBlbiDpqazotZvlhYvvvInvvIzkvYbjgIzmiJHov5nlj7DmnLrlmajlk6rlj6XmmK/lk6rkuKogY2hhciDlhpnnmoTjgI0KLy8g5Y+q5a+56Ieq5bex5pyJ5oSP5LmJ44CB5Lmf5Y+q6K+l6Ieq5bex55+l6YGT77yM5pWF57qv5pys5Zyw5a2YIChwb2VtSWQg4oaSIHNlcSDihpIgY2hhck5hbWUp44CC5o2i6K6+5aSH5LiN5bim6LWw44CCCmNvbnN0IEFVVEhPUl9LRVkgPSAnc2lnbmFsX215X2F1dGhvcnNoaXAnOwp0eXBlIEF1dGhvck1hcCA9IFJlY29yZDxzdHJpbmcsIFJlY29yZDxzdHJpbmcsIHN0cmluZz4+OwpleHBvcnQgZnVuY3Rpb24gcmVjb3JkTXlMaW5lKHBvZW1JZDogc3RyaW5nLCBzZXE6IG51bWJlciwgY2hhck5hbWU6IHN0cmluZywgY29udGVudD86IHN0cmluZyk6IHZvaWQgewogICAgdHJ5IHsKICAgICAgICBjb25zdCBtOiBBdXRob3JNYXAgPSBKU09OLnBhcnNlKGxvY2FsU3RvcmFnZS5nZXRJdGVtKEFVVEhPUl9LRVkpIHx8ICd7fScpOwogICAgICAgIChtW3BvZW1JZF0gfHw9IHt9KVtTdHJpbmcoc2VxKV0gPSBjaGFyTmFtZTsKICAgICAgICBjb25zdCBrZXlzID0gT2JqZWN0LmtleXMobSk7CiAgICAgICAgaWYgKGtleXMubGVuZ3RoID4gODApIGZvciAoY29uc3QgayBvZiBrZXlzLnNsaWNlKDAsIGtleXMubGVuZ3RoIC0gODApKSBkZWxldGUgbVtrXTsgLy8g6Ziy6Iao6IOA77yM55WZ5pyA6L+RIDgwIOmmlgogICAgICAgIGxvY2FsU3RvcmFnZS5zZXRJdGVtKEFVVEhPUl9LRVksIEpTT04uc3RyaW5naWZ5KG0pKTsKICAgIH0gY2F0Y2ggeyAvKiBpZ25vcmUgKi8gfQogICAgLy8g6aG65omL6K6w44CM6L+Z5LiqIGNoYXIg5YaZ6L+H5LuA5LmI44CN4oCU4oCU5YaZ6K+X5pe25ZaC5Zue5Y6756aB5q2i5aSN55So5oSP6LGh77yI5rK744CM6IOD55eb6KeS6Imy5Y+l5Y+l5piv6IOD6I2v44CN77yJCiAgICBpZiAoY29udGVudCkgewogICAgICAgIHRyeSB7CiAgICAgICAgICAgIGNvbnN0IGw6IFJlY29yZDxzdHJpbmcsIHN0cmluZ1tdPiA9IEpTT04ucGFyc2UobG9jYWxTdG9yYWdlLmdldEl0ZW0oTVlfTElORVNfS0VZKSB8fCAne30nKTsKICAgICAgICAgICAgbFtjaGFyTmFtZV0gPSBbLi4uKGxbY2hhck5hbWVdIHx8IFtdKSwgY29udGVudF0uc2xpY2UoLTI0KTsgLy8g5q+PIGNoYXIg55WZ5pyA6L+RIDI0IOWPpQogICAgICAgICAgICBsb2NhbFN0b3JhZ2Uuc2V0SXRlbShNWV9MSU5FU19LRVksIEpTT04uc3RyaW5naWZ5KGwpKTsKICAgICAgICB9IGNhdGNoIHsgLyogaWdub3JlICovIH0KICAgIH0KfQovKiog5Y+W5p+Q6aaW6K+X6YeM44CM5oiR6L+Z5Y+w5py65Zmo5YaZ55qE5Y+l5a2Q44CN4oaSIHtzZXE6IGNoYXJOYW1lfeOAgiAqLwpleHBvcnQgZnVuY3Rpb24gZ2V0TXlBdXRob3JzaGlwKHBvZW1JZDogc3RyaW5nKTogUmVjb3JkPHN0cmluZywgc3RyaW5nPiB7CiAgICB0cnkgeyByZXR1cm4gKEpTT04ucGFyc2UobG9jYWxTdG9yYWdlLmdldEl0ZW0oQVVUSE9SX0tFWSkgfHwgJ3t9JykgYXMgQXV0aG9yTWFwKVtwb2VtSWRdIHx8IHt9OyB9CiAgICBjYXRjaCB7IHJldHVybiB7fTsgfQp9CmNvbnN0IE1ZX0xJTkVTX0tFWSA9ICdzaWduYWxfbXlfbGluZXMnOwovKiog5p+Q5LiqIGNoYXIg5Zyo6K+X5YaM6YeM5YaZ6L+H55qE5Y+l5a2Q77yI5pys5Zyw77yM5pyA6L+RIDI077yJ4oCU4oCU5rOo5YWlIHByb21wdCDpmLLlroPlj43lpI3nlKjlkIzkuIDmibnmhI/osaHjgIIgKi8KZXhwb3J0IGZ1bmN0aW9uIGdldE15UmVjZW50TGluZXMoY2hhck5hbWU6IHN0cmluZyk6IHN0cmluZ1tdIHsKICAgIHRyeSB7IHJldHVybiAoSlNPTi5wYXJzZShsb2NhbFN0b3JhZ2UuZ2V0SXRlbShNWV9MSU5FU19LRVkpIHx8ICd7fScpIGFzIFJlY29yZDxzdHJpbmcsIHN0cmluZ1tdPilbY2hhck5hbWVdIHx8IFtdOyB9CiAgICBjYXRjaCB7IHJldHVybiBbXTsgfQp9CgovLyDilIDilIAg6aaW5qyh5Y+C5LiO55qE55+l5oOF5o+Q6YaS77ya6L+Z5piv6Leo55So5oi354m55Yir5rS75Yqo77yM6KeS6Imy5o6l6b6Z5YaZ5LiL55qE5YaF5a655a+55omA5pyJ5YW25LuW55So5oi3Ci8vIOWFrOW8gOWPr+ingeOAgeWPr+iDveiiq+aIquWbvuS6jOasoeS8oOaSre+8m+ehruiupOi/h+S4gOasoeWNs+iusOS4i++8jOS5i+WQjuWPguS4juS4jeWGjeW8ueOAggpjb25zdCBOT1RJQ0VfQUNLX0tFWSA9ICdzaWduYWxfbm90aWNlX2Fjayc7CmV4cG9ydCBmdW5jdGlvbiBoYXNTaWduYWxOb3RpY2VBY2soKTogYm9vbGVhbiB7CiAgICB0cnkgeyByZXR1cm4gbG9jYWxTdG9yYWdlLmdldEl0ZW0oTk9USUNFX0FDS19LRVkpID09PSAnMSc7IH0gY2F0Y2ggeyByZXR1cm4gZmFsc2U7IH0KfQpleHBvcnQgZnVuY3Rpb24gYWNrU2lnbmFsTm90aWNlKCk6IHZvaWQgewogICAgdHJ5IHsgbG9jYWxTdG9yYWdlLnNldEl0ZW0oTk9USUNFX0FDS19LRVksICcxJyk7IH0gY2F0Y2ggeyAvKiBpZ25vcmUgKi8gfQp9CgovLyDilIDilIAg5aSH5Lu955So77ya5oqK44CM5L2gwrfop5LoibLjgI3lj6XlrZDlvZLlsZ7kuI7lj43lpI3nlKjorrDlvZXpmo/jgIzorr7nva4g4oaSIOWvvOWHui/lr7zlhaXlpIfku73jgI3luKbotbAg4pSA4pSACi8vIGRldmljZUlkL+WQjuerr+WcsOWdgOeUsemCruWxgOeahCBleHBvcnRQb3N0T2ZmaWNlTG9jYWwg5pC65bim77yI5L+h5ZKM6K+X5YWx55So6Lqr5Lu977yJ77yM6L+Z6YeM5Y+q6KGl6K+X6Ieq5bex55qE5pys5py66K6w5b2V44CCCi8vIOiAs+ivre+8iHNpZ25hbF93aGlzcGVy77yJ5piv5Y+W5Y2z54Sa55qE556s5oCB77yM5pWF5oSP5LiN6L+b5aSH5Lu944CCCmNvbnN0IEJBQ0tVUF9LRVlTID0gW0FVVEhPUl9LRVksIE1ZX0xJTkVTX0tFWSwgTk9USUNFX0FDS19LRVldIGFzIGNvbnN0OwpleHBvcnQgZnVuY3Rpb24gZXhwb3J0U2lnbmFsTG9jYWwoKTogUmVjb3JkPHN0cmluZywgc3RyaW5nPiB8IHVuZGVmaW5lZCB7CiAgICB0cnkgewogICAgICAgIGNvbnN0IG91dDogUmVjb3JkPHN0cmluZywgc3RyaW5nPiA9IHt9OwogICAgICAgIGZvciAoY29uc3QgayBvZiBCQUNLVVBfS0VZUykgeyBjb25zdCB2ID0gbG9jYWxTdG9yYWdlLmdldEl0ZW0oayk7IGlmICh2KSBvdXRba10gPSB2OyB9CiAgICAgICAgcmV0dXJuIE9iamVjdC5rZXlzKG91dCkubGVuZ3RoID8gb3V0IDogdW5kZWZpbmVkOwogICAgfSBjYXRjaCB7IHJldHVybiB1bmRlZmluZWQ7IH0KfQpleHBvcnQgZnVuY3Rpb24gaW1wb3J0U2lnbmFsTG9jYWwoZGF0YTogUmVjb3JkPHN0cmluZywgc3RyaW5nPiB8IG51bGwgfCB1bmRlZmluZWQpOiB2b2lkIHsKICAgIGlmICghZGF0YSB8fCB0eXBlb2YgZGF0YSAhPT0gJ29iamVjdCcpIHJldHVybjsKICAgIHRyeSB7CiAgICAgICAgZm9yIChjb25zdCBrIG9mIEJBQ0tVUF9LRVlTKSBpZiAodHlwZW9mIGRhdGFba10gPT09ICdzdHJpbmcnICYmIGRhdGFba10pIGxvY2FsU3RvcmFnZS5zZXRJdGVtKGssIGRhdGFba10pOwogICAgfSBjYXRjaCB7IC8qIGlnbm9yZSAqLyB9Cn0KCi8vIOKUgOKUgCDnlKjmiLfnmoTjgIzogLPor63jgI3vvJrlj4LkuI7ml7bnlZnnu5nop5LoibLnmoTkuIDlj6Xor53jgILkuI3ov5vor5fjgIHkuI3kuIrlkI7nq6/vvIzlj6rms6jlhaXov5nkuIDmrKEgcHJvbXB044CCCi8vIOeUqCBsb2NhbFN0b3JhZ2Ug6LWw5LiA6Laf77yIcGFydGljaXBhdGUg4oaSIHRyaWdnZXJOb3cg4oaSIHJ1blNlc3Npb27vvInvvIzlj5bljbPnhJrjgIIKY29uc3QgV0hJU1BFUl9LRVkgPSAnc2lnbmFsX3doaXNwZXInOwpleHBvcnQgZnVuY3Rpb24gc2V0U2lnbmFsV2hpc3BlcihjaGFySWQ6IHN0cmluZywgdGV4dDogc3RyaW5nKTogdm9pZCB7CiAgICB0cnkgewogICAgICAgIGNvbnN0IG06IFJlY29yZDxzdHJpbmcsIHN0cmluZz4gPSBKU09OLnBhcnNlKGxvY2FsU3RvcmFnZS5nZXRJdGVtKFdISVNQRVJfS0VZKSB8fCAne30nKTsKICAgICAgICBpZiAodGV4dC50cmltKCkpIG1bY2hhcklkXSA9IHRleHQudHJpbSgpLnNsaWNlKDAsIDgwKTsgZWxzZSBkZWxldGUgbVtjaGFySWRdOwogICAgICAgIGxvY2FsU3RvcmFnZS5zZXRJdGVtKFdISVNQRVJfS0VZLCBKU09OLnN0cmluZ2lmeShtKSk7CiAgICB9IGNhdGNoIHsgLyogaWdub3JlICovIH0KfQovKiog5Y+W6LWw6K+lIGNoYXIg55qE6ICz6K+t77yI5Y+W5Y2z5Yig77yM5Y+q55So5LiA5qyh77yJ44CCICovCmV4cG9ydCBmdW5jdGlvbiB0YWtlU2lnbmFsV2hpc3BlcihjaGFySWQ6IHN0cmluZyk6IHN0cmluZyB7CiAgICB0cnkgewogICAgICAgIGNvbnN0IG06IFJlY29yZDxzdHJpbmcsIHN0cmluZz4gPSBKU09OLnBhcnNlKGxvY2FsU3RvcmFnZS5nZXRJdGVtKFdISVNQRVJfS0VZKSB8fCAne30nKTsKICAgICAgICBjb25zdCB0ID0gbVtjaGFySWRdIHx8ICcnOwogICAgICAgIGlmICh0KSB7IGRlbGV0ZSBtW2NoYXJJZF07IGxvY2FsU3RvcmFnZS5zZXRJdGVtKFdISVNQRVJfS0VZLCBKU09OLnN0cmluZ2lmeShtKSk7IH0KICAgICAgICByZXR1cm4gdDsKICAgIH0gY2F0Y2ggeyByZXR1cm4gJyc7IH0KfQoKYXN5bmMgZnVuY3Rpb24gY2FsbDxUPihwYXRoOiBzdHJpbmcsIG9wdHM6IFJlcXVlc3RJbml0ICYgeyBxdWVyeT86IFJlY29yZDxzdHJpbmcsIHN0cmluZz4gfSA9IHt9KTogUHJvbWlzZTxUPiB7CiAgICBjb25zdCBiYXNlID0gZ2V0UG9zdE9mZmljZUJhc2UoKTsKICAgIGNvbnN0IHFzID0gb3B0cy5xdWVyeSA/ICc/JyArIG5ldyBVUkxTZWFyY2hQYXJhbXMob3B0cy5xdWVyeSkudG9TdHJpbmcoKSA6ICcnOwogICAgY29uc3QgcmVzID0gYXdhaXQgZmV0Y2goYCR7YmFzZX0ke3BhdGh9JHtxc31gLCB7CiAgICAgICAgbWV0aG9kOiBvcHRzLm1ldGhvZCB8fCAnR0VUJywKICAgICAgICBoZWFkZXJzOiB7IC4uLihvcHRzLmJvZHkgPyB7ICdDb250ZW50LVR5cGUnOiAnYXBwbGljYXRpb24vanNvbicgfSA6IHt9KSwgLi4uKG9wdHMuaGVhZGVycyBhcyBSZWNvcmQ8c3RyaW5nLCBzdHJpbmc+IHx8IHt9KSB9LAogICAgICAgIGJvZHk6IG9wdHMuYm9keSwKICAgIH0pOwogICAgY29uc3QgZGF0YSA9IGF3YWl0IHJlcy5qc29uKCkuY2F0Y2goKCkgPT4gKHt9KSk7CiAgICAvLyA0MDkgcG9lbS1vcGVuIOaYr+mihOacn+WGheeahOOAjOivpeaUueWOu+aOpem+meOAjeS/oeWPt++8jOi/nuWQjCBib2R5IOaKm+WHuuiuqeiwg+eUqOaWueivhuWIqwogICAgaWYgKCFyZXMub2sgfHwgKGRhdGEgJiYgZGF0YS5vayA9PT0gZmFsc2UpKSB7CiAgICAgICAgY29uc3QgZXJyOiBhbnkgPSBuZXcgRXJyb3IoKGRhdGEgJiYgZGF0YS5lcnJvcikgfHwgYEhUVFAgJHtyZXMuc3RhdHVzfWApOwogICAgICAgIGVyci5zdGF0dXMgPSByZXMuc3RhdHVzOyBlcnIuYm9keSA9IGRhdGE7CiAgICAgICAgdGhyb3cgZXJyOwogICAgfQogICAgcmV0dXJuIGRhdGEgYXMgVDsKfQoKZXhwb3J0IGNvbnN0IFNpZ25hbCA9IHsKICAgIC8qKiDlkI7nq6/mmK/lkKblj6/ovr7vvIjmi4nlvZPliY3mgIHmiJDlip/ljbPop4bkuLrlj6/ovr7vvInjgIIgKi8KICAgIGFzeW5jIHBpbmcoKTogUHJvbWlzZTxib29sZWFuPiB7CiAgICAgICAgdHJ5IHsgYXdhaXQgY2FsbCgnL3BvZW0vY3VycmVudCcpOyByZXR1cm4gdHJ1ZTsgfSBjYXRjaCB7IHJldHVybiBmYWxzZTsgfQogICAgfSwKCiAgICAvKiog6K+75b2T5YmN5oCB77ya5YaM5a2Q6KeE5qC8ICsg6YKj6aaW5pyq5YaZ5a6M55qE6K+XKOWFqOaWhykgKyDov5HmnJ/lsIHlrZjlh6DpppbjgILluKbmnKzmnLogZGV2aWNlIOKGkiDlj6XlrZDlm54gbWluZSDmoIforrDjgIIKICAgICAqICDlj6ror7vop4blm77nlKjvvIhVSSDpnaLmnb/vvInvvJvlhpnor5fot6/lvoTotbAgbG9jaygp44CCICovCiAgICBhc3luYyBjdXJyZW50KCk6IFByb21pc2U8U2lnbmFsU3RhdGU+IHsKICAgICAgICByZXR1cm4gYXdhaXQgY2FsbDxTaWduYWxTdGF0ZT4oJy9wb2VtL2N1cnJlbnQnLCB7IHF1ZXJ5OiB7IGRldmljZTogZ2V0RGV2aWNlSWQoKSB9IH0pOwogICAgfSwKCiAgICAvKioKICAgICAqIOaKouWGmeivl+S8muivnemUgeOAguaKouWIsOaJjei/lOWbniB7YWNxdWlyZWQ6dHJ1ZSwgdG9rZW4sIHN0YXRlfe+8iHN0YXRlIOaYr+mUgeWGheivu+WIsOeahOacgOaWsOWFqOaWh++8ie+8mwogICAgICog5oqi5LiN5Yiw77yI5pyJ5Yir55qEIGNoYXIg5q2j5Zyo5YaZIC8g5bey5pqC5YGc77yJ6L+U5ZueIHthY3F1aXJlZDpmYWxzZX3jgILlhpnor5fot6/lvoTnlKjov5nkuKrmm7/ku6MgY3VycmVudCgp77yMCiAgICAgKiDorqnmiqLkuI3liLDnmoQgY2hhciDlnKjosIMgTExNIOWJjeWwsei1sOS6uiDigJTigJQg5pei5Liy6KGM5YyW5o6l6b6Z44CB5Y+I5LiN5rWq6LS5IHRva2Vu44CCCiAgICAgKi8KICAgIGFzeW5jIGxvY2soKTogUHJvbWlzZTx7IGFjcXVpcmVkOiBib29sZWFuOyB0b2tlbj86IHN0cmluZzsgcGF1c2VkPzogYm9vbGVhbjsgcXVvdGE/OiBib29sZWFuOyBzdGF0ZT86IFNpZ25hbFN0YXRlIH0+IHsKICAgICAgICBjb25zdCByID0gYXdhaXQgY2FsbDx7IGFjcXVpcmVkOiBib29sZWFuOyB0b2tlbj86IHN0cmluZzsgcGF1c2VkPzogYm9vbGVhbjsgcXVvdGE/OiBib29sZWFuOyBib29rbGV0PzogU2lnbmFsQm9va2xldDsgcG9lbT86IFNpZ25hbFBvZW0gfCBudWxsOyByZWNlbnQ/OiBTaWduYWxQb2VtW10gfT4oCiAgICAgICAgICAgICcvcG9lbS9sb2NrJywgeyBtZXRob2Q6ICdQT1NUJywgYm9keTogSlNPTi5zdHJpbmdpZnkoeyBkZXZpY2U6IGdldERldmljZUlkKCkgfSkgfSwKICAgICAgICApOwogICAgICAgIGlmICghci5hY3F1aXJlZCkgcmV0dXJuIHsgYWNxdWlyZWQ6IGZhbHNlLCBwYXVzZWQ6IHIucGF1c2VkLCBxdW90YTogci5xdW90YSB9OwogICAgICAgIHJldHVybiB7IGFjcXVpcmVkOiB0cnVlLCB0b2tlbjogci50b2tlbiwgc3RhdGU6IHsgYm9va2xldDogci5ib29rbGV0ISwgcG9lbTogci5wb2VtID8/IG51bGwsIHJlY2VudDogci5yZWNlbnQgfHwgW10sIHBhdXNlZDogZmFsc2UgfSB9OwogICAgfSwKCiAgICAvKiog5pS+5YaZ6K+X5Lya6K+d6ZSB77yI5YaZ5a6ML+WHuumUmemDveiwg++8m+a8j+aUvuS5n+S8muiiqyBUVEwg6Ieq5Yqo5Zue5pS277yJ44CCICovCiAgICBhc3luYyB1bmxvY2sodG9rZW46IHN0cmluZyk6IFByb21pc2U8dm9pZD4gewogICAgICAgIHRyeSB7IGF3YWl0IGNhbGwoJy9wb2VtL3VubG9jaycsIHsgbWV0aG9kOiAnUE9TVCcsIGJvZHk6IEpTT04uc3RyaW5naWZ5KHsgdG9rZW4gfSkgfSk7IH0gY2F0Y2ggeyAvKiBUVEwg5YWc5bqVICovIH0KICAgIH0sCgogICAgLyoqCiAgICAgKiDotbfmlrDnr4fjgIJzdGFydGVyIOWumuagh+mimCArIGJyaWVm77yI5Li76aKYL+aWueWQke+8jOe7meWQjuadpeiAheWBmuWPguiAg++8iSsg5byA5aS0IDF+MiDooYzjgIIKICAgICAqIHRhcmdldExpbmVzIOW6lOWcqOWGjOWtkCBbbGluZXNNaW4sIGxpbmVzTWF4XSDlhoXvvIjmnI3liqHnq6/kuZ/kvJrlho3pkrPvvInjgIIKICAgICAqIOiLpeatpOWIu+W3suacieS6uui1t+S6huWktO+8jOWQjuerr+WbniA0MDkgcG9lbS1vcGVu77yM5pys5Ye95pWw5oqb5Ye6IGVyci5ib2R5LnBvZW0g5L6b5pS55Li65o6l6b6Z44CCCiAgICAgKi8KICAgIGFzeW5jIHN0YXJ0KHA6IHsgdGl0bGU6IHN0cmluZzsgYnJpZWY6IHN0cmluZzsgbGluZXM6IHN0cmluZ1tdOyB0YXJnZXRMaW5lczogbnVtYmVyOyBwZW46IHN0cmluZyB9KTogUHJvbWlzZTxTaWduYWxTdGF0ZT4gewogICAgICAgIHJldHVybiBhd2FpdCBjYWxsPFNpZ25hbFN0YXRlPignL3BvZW0vc3RhcnQnLCB7CiAgICAgICAgICAgIG1ldGhvZDogJ1BPU1QnLAogICAgICAgICAgICAvLyBmaXJzdExpbmUg5piv57uZ44CM6L+Y5rKh5pu05paw5Yiw5pSv5oyBIGxpbmVzW10g55qE5penIHdvcmtlcuOAjeeahOWFvOWuueWtl+autQogICAgICAgICAgICBib2R5OiBKU09OLnN0cmluZ2lmeSh7IGRldmljZTogZ2V0RGV2aWNlSWQoKSwgcGVuOiBtYXNrUGVuKHAucGVuKSwgdGl0bGU6IHAudGl0bGUsIGJyaWVmOiBwLmJyaWVmLCBsaW5lczogcC5saW5lcywgZmlyc3RMaW5lOiBwLmxpbmVzWzBdLCB0YXJnZXRMaW5lczogcC50YXJnZXRMaW5lcyB9KSwKICAgICAgICB9KTsKICAgIH0sCgogICAgLyoqIOaOpem+me+8mue7meaMh+Wumuivl+e7rSAxfjIg6KGM44CC6L+U5Zue5pyA5paw5oCB77yIc2VhbGVkPeWGmea7oe+8m3F1b3RhPeivpSB1c2VyIOWcqOi/memmlumHjOW3suiQveeslOa7oemine+8jOacrOasoeacquWGmeWFpe+8ieOAgiAqLwogICAgYXN5bmMgYXBwZW5kKHA6IHsgcG9lbUlkOiBzdHJpbmc7IGxpbmVzOiBzdHJpbmdbXTsgcGVuOiBzdHJpbmcgfSk6IFByb21pc2U8eyBvazogYm9vbGVhbjsgc2VhbGVkPzogYm9vbGVhbjsgZ29uZT86IGJvb2xlYW47IHF1b3RhPzogYm9vbGVhbjsgcG9lbT86IFNpZ25hbFBvZW0gfT4gewogICAgICAgIHJldHVybiBhd2FpdCBjYWxsKCcvcG9lbS9hcHBlbmQnLCB7CiAgICAgICAgICAgIG1ldGhvZDogJ1BPU1QnLAogICAgICAgICAgICAvLyBjb250ZW50IOaYr+e7meaXpyB3b3JrZXIg55qE5YW85a655a2X5q61CiAgICAgICAgICAgIGJvZHk6IEpTT04uc3RyaW5naWZ5KHsgZGV2aWNlOiBnZXREZXZpY2VJZCgpLCBwZW46IG1hc2tQZW4ocC5wZW4pLCBwb2VtSWQ6IHAucG9lbUlkLCBsaW5lczogcC5saW5lcywgY29udGVudDogcC5saW5lc1swXSB9KSwKICAgICAgICB9KTsKICAgIH0sCgogICAgLyoqIOe/u+mYheivl+mbhu+8muW3suWwgeWtmOeahOivl++8iOWQq+WFqOaWh++8ie+8jOacgOi/keS8mOWFiOOAgm1pbmVPbmx5ID0g5Y+q55yL5pys5py6IGNoYXIg5Y+C5LiO6L+H55qE77yb5bimIGRldmljZSDihpIg5Y+l5a2Q5ZueIG1pbmUg5qCH6K6w44CCICovCiAgICBhc3luYyBmZWVkKGxpbWl0ID0gMzAsIG9wdHM/OiB7IG1pbmVPbmx5PzogYm9vbGVhbjsgYm9va2xldElkPzogc3RyaW5nIH0pOiBQcm9taXNlPFNpZ25hbFBvZW1bXT4gewogICAgICAgIGNvbnN0IHIgPSBhd2FpdCBjYWxsPHsgcG9lbXM6IFNpZ25hbFBvZW1bXSB9PignL3BvZW0vZmVlZCcsIHsKICAgICAgICAgICAgcXVlcnk6IHsKICAgICAgICAgICAgICAgIGxpbWl0OiBTdHJpbmcobGltaXQpLCBkZXZpY2U6IGdldERldmljZUlkKCksCiAgICAgICAgICAgICAgICAuLi4ob3B0cz8ubWluZU9ubHkgPyB7IG1pbmU6ICcxJyB9IDoge30pLAogICAgICAgICAgICAgICAgLi4uKG9wdHM/LmJvb2tsZXRJZCA/IHsgYm9va2xldDogb3B0cy5ib29rbGV0SWQgfSA6IHt9KSwKICAgICAgICAgICAgfSwKICAgICAgICB9KTsKICAgICAgICByZXR1cm4gci5wb2VtcyB8fCBbXTsKICAgIH0sCgogICAgLy8g4pSA4pSAIOeuoeeQhu+8iOWHrSBBRE1JTl9UT0tFTu+8jOS4jua8gua1geeTtuWQjOS4gOS4qiB0b2tlbu+8ieKUgOKUgAogICAgLyoqIFvnrqHnkIZdIOWIl+WHuuWQjuerr+WFqOmDqOivl++8iG9wZW4g5Zyo5YmN77yJKyDlvZPliY3mmoLlgZzmgIHjgIIgKi8KICAgIGFzeW5jIGFkbWluTGlzdCh0b2tlbjogc3RyaW5nKTogUHJvbWlzZTx7IHBvZW1zOiBTaWduYWxQb2VtW107IHBhdXNlZDogYm9vbGVhbiB9PiB7CiAgICAgICAgY29uc3QgciA9IGF3YWl0IGNhbGw8eyBwb2VtczogU2lnbmFsUG9lbVtdOyBwYXVzZWQ6IGJvb2xlYW4gfT4oJy9wb2VtL2FkbWluLWxpc3QnLCB7IGhlYWRlcnM6IHsgQXV0aG9yaXphdGlvbjogYEJlYXJlciAke3Rva2VufWAgfSB9KTsKICAgICAgICByZXR1cm4geyBwb2Vtczogci5wb2VtcyB8fCBbXSwgcGF1c2VkOiAhIXIucGF1c2VkIH07CiAgICB9LAogICAgLyoqIFvnrqHnkIZdIOWIoOS4gOaVtOmmluivl++8iOWPque7mSBwb2VtSWTvvInmiJbliKDljZXlj6XvvIhwb2VtSWQgKyBzZXHvvInjgIIgKi8KICAgIGFzeW5jIGFkbWluRGVsZXRlKHRva2VuOiBzdHJpbmcsIHRhcmdldDogeyBwb2VtSWQ6IHN0cmluZzsgc2VxPzogbnVtYmVyIH0pOiBQcm9taXNlPHZvaWQ+IHsKICAgICAgICBhd2FpdCBjYWxsKCcvcG9lbS9hZG1pbi1kZWxldGUnLCB7IG1ldGhvZDogJ1BPU1QnLCBoZWFkZXJzOiB7IEF1dGhvcml6YXRpb246IGBCZWFyZXIgJHt0b2tlbn1gIH0sIGJvZHk6IEpTT04uc3RyaW5naWZ5KHRhcmdldCkgfSk7CiAgICB9LAogICAgLyoqIFvnrqHnkIZdIOaaguWBnCAvIOaBouWkjeOAjOivl+atjOaOqOWFpeOAjeOAgiAqLwogICAgYXN5bmMgYWRtaW5QYXVzZSh0b2tlbjogc3RyaW5nLCBwYXVzZWQ6IGJvb2xlYW4pOiBQcm9taXNlPGJvb2xlYW4+IHsKICAgICAgICBjb25zdCByID0gYXdhaXQgY2FsbDx7IHBhdXNlZDogYm9vbGVhbiB9PignL3BvZW0vYWRtaW4tcGF1c2UnLCB7IG1ldGhvZDogJ1BPU1QnLCBoZWFkZXJzOiB7IEF1dGhvcml6YXRpb246IGBCZWFyZXIgJHt0b2tlbn1gIH0sIGJvZHk6IEpTT04uc3RyaW5naWZ5KHsgcGF1c2VkIH0pIH0pOwogICAgICAgIHJldHVybiAhIXIucGF1c2VkOwogICAgfSwKfTsK
+/**
+ * 信号坠落处 · 客户端 API
+ *
+ * 跨用户接龙现代诗。复用漂流瓶（post-office worker）的同一后端、同一匿名
+ * deviceId、同一笔名马赛克与限流基建，但走独立的 /poem/* 端点。
+ *
+ * 模型：全局同时只有一首「当前」诗。谁登入读到的永远是最新全文；没写完就
+ * 接一句，没有 open 诗就起新篇（自拟标题 + 第一句 + 已 roll 的篇幅）；写满
+ * 篇幅自动封存进诗集。user 不参与，只有角色写。
+ */
+
+import { SignalBooklet, SignalPoem } from '../../types';
+import { getPostOfficeBase, getDeviceId, maskPen } from './postOffice';
+
+export interface SignalState {
+    booklet: SignalBooklet;
+    /** 当前那首还没写完的诗；null = 该起新篇 */
+    poem: SignalPoem | null;
+    /** 近期封存的几首，供起新篇时「读之前的诗」找灵感 */
+    recent: SignalPoem[];
+    /** 管理员是否暂停了「诗歌推入」（true 时角色不再起新篇/接龙） */
+    paused?: boolean;
+}
+
+// ── 本地精确归属：诗是匿名的（pen 马赛克），但「我这台机器哪句是哪个 char 写的」
+// 只对自己有意义、也只该自己知道，故纯本地存 (poemId → seq → charName)。换设备不带走。
+const AUTHOR_KEY = 'signal_my_authorship';
+type AuthorMap = Record<string, Record<string, string>>;
+export function recordMyLine(poemId: string, seq: number, charName: string, content?: string): void {
+    try {
+        const m: AuthorMap = JSON.parse(localStorage.getItem(AUTHOR_KEY) || '{}');
+        (m[poemId] ||= {})[String(seq)] = charName;
+        const keys = Object.keys(m);
+        if (keys.length > 80) for (const k of keys.slice(0, keys.length - 80)) delete m[k]; // 防膨胀，留最近 80 首
+        localStorage.setItem(AUTHOR_KEY, JSON.stringify(m));
+    } catch { /* ignore */ }
+    // 顺手记「这个 char 写过什么」——写诗时喂回去禁止复用意象（治「胃痛角色句句是胃药」）
+    if (content) {
+        try {
+            const l: Record<string, string[]> = JSON.parse(localStorage.getItem(MY_LINES_KEY) || '{}');
+            l[charName] = [...(l[charName] || []), content].slice(-24); // 每 char 留最近 24 句
+            localStorage.setItem(MY_LINES_KEY, JSON.stringify(l));
+        } catch { /* ignore */ }
+    }
+}
+/** 取某首诗里「我这台机器写的句子」→ {seq: charName}。 */
+export function getMyAuthorship(poemId: string): Record<string, string> {
+    try { return (JSON.parse(localStorage.getItem(AUTHOR_KEY) || '{}') as AuthorMap)[poemId] || {}; }
+    catch { return {}; }
+}
+const MY_LINES_KEY = 'signal_my_lines';
+/** 某个 char 在诗册里写过的句子（本地，最近 24）——注入 prompt 防它反复用同一批意象。 */
+export function getMyRecentLines(charName: string): string[] {
+    try { return (JSON.parse(localStorage.getItem(MY_LINES_KEY) || '{}') as Record<string, string[]>)[charName] || []; }
+    catch { return []; }
+}
+
+// ── 首次参与的知情提醒：这是跨用户特别活动，角色接龙写下的内容对所有其他用户
+// 公开可见、可能被截图二次传播；确认过一次即记下，之后参与不再弹。
+const NOTICE_ACK_KEY = 'signal_notice_ack';
+export function hasSignalNoticeAck(): boolean {
+    try { return localStorage.getItem(NOTICE_ACK_KEY) === '1'; } catch { return false; }
+}
+export function ackSignalNotice(): void {
+    try { localStorage.setItem(NOTICE_ACK_KEY, '1'); } catch { /* ignore */ }
+}
+
+// ── 备份用：把「你·角色」句子归属与反复用记录随「设置 → 导出/导入备份」带走 ──
+// deviceId/后端地址由邮局的 exportPostOfficeLocal 携带（信和诗共用身份），这里只补诗自己的本机记录。
+// 耳语（signal_whisper）是取即焚的瞬态，故意不进备份。
+const BACKUP_KEYS = [AUTHOR_KEY, MY_LINES_KEY, NOTICE_ACK_KEY] as const;
+export function exportSignalLocal(): Record<string, string> | undefined {
+    try {
+        const out: Record<string, string> = {};
+        for (const k of BACKUP_KEYS) { const v = localStorage.getItem(k); if (v) out[k] = v; }
+        return Object.keys(out).length ? out : undefined;
+    } catch { return undefined; }
+}
+export function importSignalLocal(data: Record<string, string> | null | undefined): void {
+    if (!data || typeof data !== 'object') return;
+    try {
+        for (const k of BACKUP_KEYS) if (typeof data[k] === 'string' && data[k]) localStorage.setItem(k, data[k]);
+    } catch { /* ignore */ }
+}
+
+// ── 用户的「耳语」：参与时留给角色的一句话。不进诗、不上后端，只注入这一次 prompt。
+// 用 localStorage 走一趟（participate → triggerNow → runSession），取即焚。
+const WHISPER_KEY = 'signal_whisper';
+export function setSignalWhisper(charId: string, text: string): void {
+    try {
+        const m: Record<string, string> = JSON.parse(localStorage.getItem(WHISPER_KEY) || '{}');
+        if (text.trim()) m[charId] = text.trim().slice(0, 80); else delete m[charId];
+        localStorage.setItem(WHISPER_KEY, JSON.stringify(m));
+    } catch { /* ignore */ }
+}
+/** 取走该 char 的耳语（取即删，只用一次）。 */
+export function takeSignalWhisper(charId: string): string {
+    try {
+        const m: Record<string, string> = JSON.parse(localStorage.getItem(WHISPER_KEY) || '{}');
+        const t = m[charId] || '';
+        if (t) { delete m[charId]; localStorage.setItem(WHISPER_KEY, JSON.stringify(m)); }
+        return t;
+    } catch { return ''; }
+}
+
+async function call<T>(path: string, opts: RequestInit & { query?: Record<string, string> } = {}): Promise<T> {
+    const base = getPostOfficeBase();
+    const qs = opts.query ? '?' + new URLSearchParams(opts.query).toString() : '';
+    const res = await fetch(`${base}${path}${qs}`, {
+        method: opts.method || 'GET',
+        headers: { ...(opts.body ? { 'Content-Type': 'application/json' } : {}), ...(opts.headers as Record<string, string> || {}) },
+        body: opts.body,
+    });
+    const data = await res.json().catch(() => ({}));
+    // 409 poem-open 是预期内的「该改去接龙」信号，连同 body 抛出让调用方识别
+    if (!res.ok || (data && data.ok === false)) {
+        const err: any = new Error((data && data.error) || `HTTP ${res.status}`);
+        err.status = res.status; err.body = data;
+        throw err;
+    }
+    return data as T;
+}
+
+export const Signal = {
+    /** 后端是否可达（拉当前态成功即视为可达）。 */
+    async ping(): Promise<boolean> {
+        try { await call('/poem/current'); return true; } catch { return false; }
+    },
+
+    /** 读当前态：册子规格 + 那首未写完的诗(全文) + 近期封存几首。带本机 device → 句子回 mine 标记。
+     *  只读视图用（UI 面板）；写诗路径走 lock()。 */
+    async current(): Promise<SignalState> {
+        return await call<SignalState>('/poem/current', { query: { device: getDeviceId() } });
+    },
+
+    /**
+     * 抢写诗会话锁。抢到才返回 {acquired:true, token, state}（state 是锁内读到的最新全文）；
+     * 抢不到（有别的 char 正在写 / 已暂停）返回 {acquired:false}。写诗路径用这个替代 current()，
+     * 让抢不到的 char 在调 LLM 前就走人 —— 既串行化接龙、又不浪费 token。
+     */
+    async lock(): Promise<{ acquired: boolean; token?: string; paused?: boolean; quota?: boolean; state?: SignalState }> {
+        const r = await call<{ acquired: boolean; token?: string; paused?: boolean; quota?: boolean; booklet?: SignalBooklet; poem?: SignalPoem | null; recent?: SignalPoem[] }>(
+            '/poem/lock', { method: 'POST', body: JSON.stringify({ device: getDeviceId() }) },
+        );
+        if (!r.acquired) return { acquired: false, paused: r.paused, quota: r.quota };
+        return { acquired: true, token: r.token, state: { booklet: r.booklet!, poem: r.poem ?? null, recent: r.recent || [], paused: false } };
+    },
+
+    /** 放写诗会话锁（写完/出错都调；漏放也会被 TTL 自动回收）。 */
+    async unlock(token: string): Promise<void> {
+        try { await call('/poem/unlock', { method: 'POST', body: JSON.stringify({ token }) }); } catch { /* TTL 兜底 */ }
+    },
+
+    /**
+     * 起新篇。starter 定标题 + brief（主题/方向，给后来者做参考）+ 开头 1~2 行。
+     * targetLines 应在册子 [linesMin, linesMax] 内（服务端也会再钳）。
+     * 若此刻已有人起了头，后端回 409 poem-open，本函数抛出 err.body.poem 供改为接龙。
+     */
+    async start(p: { title: string; brief: string; lines: string[]; targetLines: number; pen: string }): Promise<SignalState> {
+        return await call<SignalState>('/poem/start', {
+            method: 'POST',
+            // firstLine 是给「还没更新到支持 lines[] 的旧 worker」的兼容字段
+            body: JSON.stringify({ device: getDeviceId(), pen: maskPen(p.pen), title: p.title, brief: p.brief, lines: p.lines, firstLine: p.lines[0], targetLines: p.targetLines }),
+        });
+    },
+
+    /** 接龙：给指定诗续 1~2 行。返回最新态（sealed=写满；quota=该 user 在这首里已落笔满额，本次未写入）。 */
+    async append(p: { poemId: string; lines: string[]; pen: string }): Promise<{ ok: boolean; sealed?: boolean; gone?: boolean; quota?: boolean; poem?: SignalPoem }> {
+        return await call('/poem/append', {
+            method: 'POST',
+            // content 是给旧 worker 的兼容字段
+            body: JSON.stringify({ device: getDeviceId(), pen: maskPen(p.pen), poemId: p.poemId, lines: p.lines, content: p.lines[0] }),
+        });
+    },
+
+    /** 翻阅诗集：已封存的诗（含全文），最近优先。mineOnly = 只看本机 char 参与过的；带 device → 句子回 mine 标记。 */
+    async feed(limit = 30, opts?: { mineOnly?: boolean; bookletId?: string }): Promise<SignalPoem[]> {
+        const r = await call<{ poems: SignalPoem[] }>('/poem/feed', {
+            query: {
+                limit: String(limit), device: getDeviceId(),
+                ...(opts?.mineOnly ? { mine: '1' } : {}),
+                ...(opts?.bookletId ? { booklet: opts.bookletId } : {}),
+            },
+        });
+        return r.poems || [];
+    },
+
+    // ── 管理（凭 ADMIN_TOKEN，与漂流瓶同一个 token）──
+    /** [管理] 列出后端全部诗（open 在前）+ 当前暂停态。 */
+    async adminList(token: string): Promise<{ poems: SignalPoem[]; paused: boolean }> {
+        const r = await call<{ poems: SignalPoem[]; paused: boolean }>('/poem/admin-list', { headers: { Authorization: `Bearer ${token}` } });
+        return { poems: r.poems || [], paused: !!r.paused };
+    },
+    /** [管理] 删一整首诗（只给 poemId）或删单句（poemId + seq）。 */
+    async adminDelete(token: string, target: { poemId: string; seq?: number }): Promise<void> {
+        await call('/poem/admin-delete', { method: 'POST', headers: { Authorization: `Bearer ${token}` }, body: JSON.stringify(target) });
+    },
+    /** [管理] 暂停 / 恢复「诗歌推入」。 */
+    async adminPause(token: string, paused: boolean): Promise<boolean> {
+        const r = await call<{ paused: boolean }>('/poem/admin-pause', { method: 'POST', headers: { Authorization: `Bearer ${token}` }, body: JSON.stringify({ paused }) });
+        return !!r.paused;
+    },
+};

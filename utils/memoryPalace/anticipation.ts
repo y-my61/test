@@ -1,1 +1,120 @@
-LyoqCiAqIE1lbW9yeSBQYWxhY2Ug4oCUIOacn+ebvOeUn+WRveWRqOacnyAoQW50aWNpcGF0aW9uIExpZmVjeWNsZSkKICoKICog56qX5Y+w5LiK55qE5pyf55u857uP5Y6G5Lul5LiL54q25oCB5rWB6L2s77yaCiAqIC0gYWN0aXZlIOKGkiA3IOWkqeWQjuWPmOaIkCBhbmNob3LvvIjkurrnlJ/plJrngrnvvIkKICogLSBmdWxmaWxsZWQg4oaSIOi9rOWMluS4uuWNp+WupOeahOa4qeaaluiusOW/hgogKiAtIGRpc2FwcG9pbnRlZCDihpIg5rKJ5YWl6ZiB5qW85oiQ5Li65pyq6Kej5b+D57uTCiAqLwoKaW1wb3J0IHR5cGUgeyBBbnRpY2lwYXRpb24sIE1lbW9yeU5vZGUgfSBmcm9tICcuL3R5cGVzJzsKaW1wb3J0IHsgQW50aWNpcGF0aW9uREIsIE1lbW9yeU5vZGVEQiB9IGZyb20gJy4vZGInOwoKY29uc3QgQU5DSE9SX1RIUkVTSE9MRF9NUyA9IDcgKiAyNCAqIDYwICogNjAgKiAxMDAwOyAvLyA3IOWkqQoKZnVuY3Rpb24gZ2VuZXJhdGVJZCgpOiBzdHJpbmcgewogICAgcmV0dXJuIGBtbl8ke0RhdGUubm93KCl9XyR7TWF0aC5yYW5kb20oKS50b1N0cmluZygzNikuc2xpY2UoMiwgOCl9YDsKfQoKLyoqCiAqIOWkhOeQhuacn+ebvOeUn+WRveWRqOacnwogKgogKiDlrprmnJ/osIPnlKjvvIjlu7rorq7mr4/mrKHogYrlpKnlkI7miJbmr4/lsI/ml7bosIPnlKjkuIDmrKHvvIkKICogLSBhY3RpdmUg5LiUIGFnZSA+IDcg5aSpIOKGkiDlj5jkuLogYW5jaG9yCiAqLwpleHBvcnQgYXN5bmMgZnVuY3Rpb24gcHJvY2Vzc0FudGljaXBhdGlvbkxpZmVjeWNsZShjaGFySWQ6IHN0cmluZyk6IFByb21pc2U8dm9pZD4gewogICAgY29uc3Qgbm93ID0gRGF0ZS5ub3coKTsKICAgIGNvbnN0IGFjdGl2ZUFudHMgPSBhd2FpdCBBbnRpY2lwYXRpb25EQi5nZXRCeVN0YXR1cyhjaGFySWQsICdhY3RpdmUnKTsKCiAgICBmb3IgKGNvbnN0IGFudCBvZiBhY3RpdmVBbnRzKSB7CiAgICAgICAgaWYgKG5vdyAtIGFudC5jcmVhdGVkQXQgPj0gQU5DSE9SX1RIUkVTSE9MRF9NUykgewogICAgICAgICAgICBhbnQuc3RhdHVzID0gJ2FuY2hvcic7CiAgICAgICAgICAgIGFudC5hbmNob3JlZEF0ID0gbm93OwogICAgICAgICAgICBhd2FpdCBBbnRpY2lwYXRpb25EQi5zYXZlKGFudCk7CiAgICAgICAgICAgIGNvbnNvbGUubG9nKGDwn5SSIFtBbnRpY2lwYXRpb25dIEFuY2hvcmVkOiAiJHthbnQuY29udGVudC5zbGljZSgwLCAzMCl9Li4uImApOwogICAgICAgIH0KICAgIH0KfQoKLyoqCiAqIOagh+iusOacn+ebvOS4uuW3suWunueOsCDihpIg6L2s5YyW5Li65Y2n5a6k5rip5pqW6K6w5b+GCiAqLwpleHBvcnQgYXN5bmMgZnVuY3Rpb24gZnVsZmlsbEFudGljaXBhdGlvbihpZDogc3RyaW5nKTogUHJvbWlzZTx2b2lkPiB7CiAgICBjb25zdCBhbnQgPSBhd2FpdCBBbnRpY2lwYXRpb25EQi5nZXRCeUlkKGlkKTsKICAgIGlmICghYW50KSByZXR1cm47CgogICAgYW50LnN0YXR1cyA9ICdmdWxmaWxsZWQnOwogICAgYW50LnJlc29sdmVkQXQgPSBEYXRlLm5vdygpOwogICAgYXdhaXQgQW50aWNpcGF0aW9uREIuc2F2ZShhbnQpOwoKICAgIC8vIOWIm+W7uuS4gOadoea4qeaalueahOWNp+WupOiusOW/hgogICAgY29uc3Qgd2FybU1lbW9yeTogTWVtb3J5Tm9kZSA9IHsKICAgICAgICBpZDogZ2VuZXJhdGVJZCgpLAogICAgICAgIGNoYXJJZDogYW50LmNoYXJJZCwKICAgICAgICBjb250ZW50OiBg5oiR5pu+57uP5pyf55u855qE5LqL5oOF5a6e546w5LqG77yaJHthbnQuY29udGVudH1gLAogICAgICAgIHJvb206ICdiZWRyb29tJywKICAgICAgICB0YWdzOiBbJ+acn+ebvOWunueOsCcsICfmuKnmmpYnXSwKICAgICAgICBpbXBvcnRhbmNlOiA3LAogICAgICAgIG1vb2Q6ICdncmF0ZWZ1bCcsCiAgICAgICAgZW1iZWRkZWQ6IGZhbHNlLCAvLyDnrYnlkI7nu63lkJHph4/ljJYKICAgICAgICBib3hJZDogJycsCiAgICAgICAgYm94VG9waWM6ICfmnJ/nm7zlrp7njrAnLAogICAgICAgIGNyZWF0ZWRBdDogRGF0ZS5ub3coKSwKICAgICAgICBsYXN0QWNjZXNzZWRBdDogRGF0ZS5ub3coKSwKICAgICAgICBhY2Nlc3NDb3VudDogMCwKICAgIH07CgogICAgYXdhaXQgTWVtb3J5Tm9kZURCLnNhdmUod2FybU1lbW9yeSk7CiAgICBjb25zb2xlLmxvZyhg4pyoIFtBbnRpY2lwYXRpb25dIEZ1bGZpbGxlZCDihpIgYmVkcm9vbTogIiR7YW50LmNvbnRlbnQuc2xpY2UoMCwgMzApfS4uLiJgKTsKfQoKLyoqCiAqIOagh+iusOacn+ebvOS4uuiQveepuiDihpIg5rKJ5YWl6ZiB5qW8CiAqLwpleHBvcnQgYXN5bmMgZnVuY3Rpb24gZGlzYXBwb2ludEFudGljaXBhdGlvbihpZDogc3RyaW5nKTogUHJvbWlzZTx2b2lkPiB7CiAgICBjb25zdCBhbnQgPSBhd2FpdCBBbnRpY2lwYXRpb25EQi5nZXRCeUlkKGlkKTsKICAgIGlmICghYW50KSByZXR1cm47CgogICAgYW50LnN0YXR1cyA9ICdkaXNhcHBvaW50ZWQnOwogICAgYW50LnJlc29sdmVkQXQgPSBEYXRlLm5vdygpOwogICAgYXdhaXQgQW50aWNpcGF0aW9uREIuc2F2ZShhbnQpOwoKICAgIC8vIOWIm+W7uuS4gOadoemYgealvOiusOW/hu+8iOacquino+W/g+e7k++8iQogICAgY29uc3QgaGVhcnRrbm90OiBNZW1vcnlOb2RlID0gewogICAgICAgIGlkOiBnZW5lcmF0ZUlkKCksCiAgICAgICAgY2hhcklkOiBhbnQuY2hhcklkLAogICAgICAgIGNvbnRlbnQ6IGDmiJHmm77nu4/mnJ/nm7zkvYbmnIDnu4jokL3nqbrkuobvvJoke2FudC5jb250ZW50fWAsCiAgICAgICAgcm9vbTogJ2F0dGljJywKICAgICAgICB0YWdzOiBbJ+acn+ebvOiQveepuicsICfpgZfmhr4nXSwKICAgICAgICBpbXBvcnRhbmNlOiA2LAogICAgICAgIG1vb2Q6ICdzYWQnLAogICAgICAgIGVtYmVkZGVkOiBmYWxzZSwKICAgICAgICBib3hJZDogJycsCiAgICAgICAgYm94VG9waWM6ICfmnJ/nm7zokL3nqbonLAogICAgICAgIGNyZWF0ZWRBdDogRGF0ZS5ub3coKSwKICAgICAgICBsYXN0QWNjZXNzZWRBdDogRGF0ZS5ub3coKSwKICAgICAgICBhY2Nlc3NDb3VudDogMCwKICAgIH07CgogICAgYXdhaXQgTWVtb3J5Tm9kZURCLnNhdmUoaGVhcnRrbm90KTsKICAgIGNvbnNvbGUubG9nKGDwn5KUIFtBbnRpY2lwYXRpb25dIERpc2FwcG9pbnRlZCDihpIgYXR0aWM6ICIke2FudC5jb250ZW50LnNsaWNlKDAsIDMwKX0uLi4iYCk7Cn0KCi8qKgogKiDliJvlu7rmlrDmnJ/nm7wKICovCmV4cG9ydCBhc3luYyBmdW5jdGlvbiBjcmVhdGVBbnRpY2lwYXRpb24oY2hhcklkOiBzdHJpbmcsIGNvbnRlbnQ6IHN0cmluZyk6IFByb21pc2U8QW50aWNpcGF0aW9uPiB7CiAgICBjb25zdCBhbnQ6IEFudGljaXBhdGlvbiA9IHsKICAgICAgICBpZDogYGFudF8ke0RhdGUubm93KCl9XyR7TWF0aC5yYW5kb20oKS50b1N0cmluZygzNikuc2xpY2UoMiwgOCl9YCwKICAgICAgICBjaGFySWQsCiAgICAgICAgY29udGVudCwKICAgICAgICBzdGF0dXM6ICdhY3RpdmUnLAogICAgICAgIGNyZWF0ZWRBdDogRGF0ZS5ub3coKSwKICAgICAgICBhbmNob3JlZEF0OiBudWxsLAogICAgICAgIHJlc29sdmVkQXQ6IG51bGwsCiAgICB9OwoKICAgIGF3YWl0IEFudGljaXBhdGlvbkRCLnNhdmUoYW50KTsKICAgIGNvbnNvbGUubG9nKGDwn4yfIFtBbnRpY2lwYXRpb25dIENyZWF0ZWQ6ICIke2NvbnRlbnQuc2xpY2UoMCwgMzApfS4uLiJgKTsKICAgIHJldHVybiBhbnQ7Cn0K
+/**
+ * Memory Palace — 期盼生命周期 (Anticipation Lifecycle)
+ *
+ * 窗台上的期盼经历以下状态流转：
+ * - active → 7 天后变成 anchor（人生锚点）
+ * - fulfilled → 转化为卧室的温暖记忆
+ * - disappointed → 沉入阁楼成为未解心结
+ */
+
+import type { Anticipation, MemoryNode } from './types';
+import { AnticipationDB, MemoryNodeDB } from './db';
+
+const ANCHOR_THRESHOLD_MS = 7 * 24 * 60 * 60 * 1000; // 7 天
+
+function generateId(): string {
+    return `mn_${Date.now()}_${Math.random().toString(36).slice(2, 8)}`;
+}
+
+/**
+ * 处理期盼生命周期
+ *
+ * 定期调用（建议每次聊天后或每小时调用一次）
+ * - active 且 age > 7 天 → 变为 anchor
+ */
+export async function processAnticipationLifecycle(charId: string): Promise<void> {
+    const now = Date.now();
+    const activeAnts = await AnticipationDB.getByStatus(charId, 'active');
+
+    for (const ant of activeAnts) {
+        if (now - ant.createdAt >= ANCHOR_THRESHOLD_MS) {
+            ant.status = 'anchor';
+            ant.anchoredAt = now;
+            await AnticipationDB.save(ant);
+            console.log(`🔒 [Anticipation] Anchored: "${ant.content.slice(0, 30)}..."`);
+        }
+    }
+}
+
+/**
+ * 标记期盼为已实现 → 转化为卧室温暖记忆
+ */
+export async function fulfillAnticipation(id: string): Promise<void> {
+    const ant = await AnticipationDB.getById(id);
+    if (!ant) return;
+
+    ant.status = 'fulfilled';
+    ant.resolvedAt = Date.now();
+    await AnticipationDB.save(ant);
+
+    // 创建一条温暖的卧室记忆
+    const warmMemory: MemoryNode = {
+        id: generateId(),
+        charId: ant.charId,
+        content: `我曾经期盼的事情实现了：${ant.content}`,
+        room: 'bedroom',
+        tags: ['期盼实现', '温暖'],
+        importance: 7,
+        mood: 'grateful',
+        embedded: false, // 等后续向量化
+        boxId: '',
+        boxTopic: '期盼实现',
+        createdAt: Date.now(),
+        lastAccessedAt: Date.now(),
+        accessCount: 0,
+    };
+
+    await MemoryNodeDB.save(warmMemory);
+    console.log(`✨ [Anticipation] Fulfilled → bedroom: "${ant.content.slice(0, 30)}..."`);
+}
+
+/**
+ * 标记期盼为落空 → 沉入阁楼
+ */
+export async function disappointAnticipation(id: string): Promise<void> {
+    const ant = await AnticipationDB.getById(id);
+    if (!ant) return;
+
+    ant.status = 'disappointed';
+    ant.resolvedAt = Date.now();
+    await AnticipationDB.save(ant);
+
+    // 创建一条阁楼记忆（未解心结）
+    const heartknot: MemoryNode = {
+        id: generateId(),
+        charId: ant.charId,
+        content: `我曾经期盼但最终落空了：${ant.content}`,
+        room: 'attic',
+        tags: ['期盼落空', '遗憾'],
+        importance: 6,
+        mood: 'sad',
+        embedded: false,
+        boxId: '',
+        boxTopic: '期盼落空',
+        createdAt: Date.now(),
+        lastAccessedAt: Date.now(),
+        accessCount: 0,
+    };
+
+    await MemoryNodeDB.save(heartknot);
+    console.log(`💔 [Anticipation] Disappointed → attic: "${ant.content.slice(0, 30)}..."`);
+}
+
+/**
+ * 创建新期盼
+ */
+export async function createAnticipation(charId: string, content: string): Promise<Anticipation> {
+    const ant: Anticipation = {
+        id: `ant_${Date.now()}_${Math.random().toString(36).slice(2, 8)}`,
+        charId,
+        content,
+        status: 'active',
+        createdAt: Date.now(),
+        anchoredAt: null,
+        resolvedAt: null,
+    };
+
+    await AnticipationDB.save(ant);
+    console.log(`🌟 [Anticipation] Created: "${content.slice(0, 30)}..."`);
+    return ant;
+}

@@ -1,1 +1,86 @@
-LyoqCiAqIE1lbW9yeSBQYWxhY2UgKOiusOW/huWuq+auvykg4oCUIOe7n+S4gOWvvOWHugogKi8KCi8vIOexu+WeiwpleHBvcnQgdHlwZSB7CiAgICBNZW1vcnlSb29tLCBSb29tQ29uZmlnLCBNZW1vcnlOb2RlLCBNZW1vcnlWZWN0b3IsCiAgICBMaW5rVHlwZSwgTWVtb3J5TGluaywgQm94U3RhdHVzLCBUb3BpY0JveCwgVG9waWNDb250aW51aXR5LAogICAgQW50aWNpcGF0aW9uU3RhdHVzLCBBbnRpY2lwYXRpb24sIE1lbW9yeUJhdGNoLAogICAgUGVyc29uYWxpdHlTdHlsZSwgRW1iZWRkaW5nQ29uZmlnLCBTY29yZWRNZW1vcnksIFJlbW90ZVZlY3RvckNvbmZpZywKICAgIEV2ZW50Qm94LCBQbGF0ZVJvb20sIFBsYXRlRW50cnksIFJvb21QbGF0ZSwKICAgIERpZ2VzdFJlcG9ydCwgRGlnZXN0UmVwb3J0U2VjdGlvbiwKfSBmcm9tICcuL3R5cGVzJzsKCmV4cG9ydCB7IFJPT01fQ09ORklHUywgUk9PTV9MQUJFTFMsIGdldFJvb21MYWJlbCwgUEVSU09OQUxJVFlfV0VJR0hUUywgRVZFTlRfQk9YX0NPTVBSRVNTSU9OX1RIUkVTSE9MRCwgUExBVEVfUk9PTVMsIFBMQVRFX1RJVExFUywgUExBVEVfRU5UUllfQ0FQUyB9IGZyb20gJy4vdHlwZXMnOwoKLy8g5pWw5o2u5bqTCmV4cG9ydCB7IE1lbW9yeU5vZGVEQiwgTWVtb3J5VmVjdG9yREIsIE1lbW9yeUxpbmtEQiwgTWVtb3J5QmF0Y2hEQiwgVG9waWNCb3hEQiwgQW50aWNpcGF0aW9uREIsIEV2ZW50Qm94REIsIFJvb21QbGF0ZURCLCBEaWdlc3RSZXBvcnREQiB9IGZyb20gJy4vZGInOwoKLy8gRW1iZWRkaW5nCmV4cG9ydCB7IGdldEVtYmVkZGluZywgZ2V0RW1iZWRkaW5ncywgY29zaW5lU2ltaWxhcml0eSB9IGZyb20gJy4vZW1iZWRkaW5nJzsKCi8vIFJlcmFua++8iGNyb3NzLWVuY29kZXIg5LqM5qyh5o6S5bqP77yM5L2c5Li65Li75Y+s5Zue55qE54us56uL5aKe5by66YCa6YGT77yJCmV4cG9ydCB7IHJlcmFua0RvY3VtZW50cyB9IGZyb20gJy4vcmVyYW5rJzsKZXhwb3J0IHR5cGUgeyBSZXJhbmtBcGlDb25maWcsIFJlcmFua1Jlc3VsdCB9IGZyb20gJy4vcmVyYW5rJzsKCi8vIOi+k+WFpeeuoee6vwpleHBvcnQgeyBleHRyYWN0TWVtb3JpZXNGcm9tQnVmZmVyIH0gZnJvbSAnLi9leHRyYWN0aW9uJzsKZXhwb3J0IHsgdmVjdG9yaXplQW5kU3RvcmUsIGNoZWNrTW9kZWxDb25zaXN0ZW5jeSwgcmVidWlsZEFsbFZlY3RvcnMgfSBmcm9tICcuL3ZlY3RvclN0b3JlJzsKCi8vIOiupOefpei/h+eoiwpleHBvcnQgeyBydW5Db25zb2xpZGF0aW9uLCBjYWxjdWxhdGVFZmZlY3RpdmVJbXBvcnRhbmNlLCBzaG91bGRQcm9tb3RlIH0gZnJvbSAnLi9jb25zb2xpZGF0aW9uJzsKZXhwb3J0IHsgYnVpbGRMaW5rcywgc3RyZW5ndGhlbkNvQWN0aXZhdGVkIH0gZnJvbSAnLi9saW5rcyc7CgovLyDovpPlh7rnrqHnur8KZXhwb3J0IHsgdmVjdG9yU2VhcmNoIH0gZnJvbSAnLi92ZWN0b3JTZWFyY2gnOwpleHBvcnQgeyBibTI1U2VhcmNoLCB0b2tlbml6ZSB9IGZyb20gJy4vYm0yNSc7CmV4cG9ydCB7IGh5YnJpZFNlYXJjaCB9IGZyb20gJy4vaHlicmlkU2VhcmNoJzsKZXhwb3J0IHsgc3ByZWFkQWN0aXZhdGlvbiB9IGZyb20gJy4vYWN0aXZhdGlvbic7CmV4cG9ydCB7IGFwcGx5UHJpbWluZywgY2hlY2tSdW1pbmF0aW9uIH0gZnJvbSAnLi9wcmltaW5nJzsKZXhwb3J0IHsgZXhwYW5kQW5kRm9ybWF0IH0gZnJvbSAnLi9mb3JtYXR0ZXInOwoKLy8g6ZuG5oiQCmV4cG9ydCB0eXBlIHsgTGlnaHRMTE1Db25maWcsIFBpcGVsaW5lUmVzdWx0LCBEaWFyeUluZ2VzdFJlc3VsdCB9IGZyb20gJy4vcGlwZWxpbmUnOwpleHBvcnQgeyByZXRyaWV2ZU1lbW9yaWVzLCBpbmplY3RNZW1vcnlQYWxhY2UsIHByb2Nlc3NOZXdNZXNzYWdlcywgZ2V0TWVtb3J5UGFsYWNlSGlnaFdhdGVyTWFyaywgaW5nZXN0RGlhcnlUb1BhbGFjZSB9IGZyb20gJy4vcGlwZWxpbmUnOwoKLy8g5pyf55u8CmV4cG9ydCB7CiAgICBwcm9jZXNzQW50aWNpcGF0aW9uTGlmZWN5Y2xlLCBmdWxmaWxsQW50aWNpcGF0aW9uLAogICAgZGlzYXBwb2ludEFudGljaXBhdGlvbiwgY3JlYXRlQW50aWNpcGF0aW9uLAp9IGZyb20gJy4vYW50aWNpcGF0aW9uJzsKCi8vIOiupOefpea2iOWMlgpleHBvcnQgeyBydW5Db2duaXRpdmVEaWdlc3Rpb24sIGluY3JlbWVudERpZ2VzdFJvdW5kLCBnZXREaWdlc3RSb3VuZENvdW50LCBnZXRMYXN0RGlnZXN0VHMsIGRldGVjdFBlcnNvbmFsaXR5U3R5bGUgfSBmcm9tICcuL2RpZ2VzdGlvbic7CmV4cG9ydCB0eXBlIHsgRGlnZXN0UmVzdWx0IH0gZnJvbSAnLi9kaWdlc3Rpb24nOwoKLy8g6L+B56e7CmV4cG9ydCB7IG1pZ3JhdGVPbGRNZW1vcmllcywgZ2V0QXZhaWxhYmxlTW9udGhzLCBnZXRBdmFpbGFibGVDaHVua3MgfSBmcm9tICcuL21pZ3JhdGlvbic7CmV4cG9ydCB0eXBlIHsgTWlncmF0aW9uUHJvZ3Jlc3MgfSBmcm9tICcuL21pZ3JhdGlvbic7CgovLyBFdmVudEJveO+8iOS6i+S7tuebku+8muabv+S7o+aXp+eahCBib3hJZCDmibnmrKHnm5LvvIkKZXhwb3J0IHsKICAgIGJpbmRNZW1vcmllc0ludG9FdmVudEJveCwgbWFudWFsbHlCaW5kTWVtb3JpZXMsCiAgICByZW1vdmVNZW1vcnlGcm9tQm94LCByZXZpdmVBcmNoaXZlZE1lbW9yeSwKICAgIHVuYmluZEFsbExpdmVNZW1vcmllcywKfSBmcm9tICcuL2V2ZW50Qm94JzsKZXhwb3J0IHsKICAgIG1heWJlQ29tcHJlc3NFdmVudEJveGVzLCBjb21wcmVzc0FsbEVsaWdpYmxlQm94ZXMsCn0gZnJvbSAnLi9ldmVudEJveENvbXByZXNzaW9uJzsKCi8vIOaIv+mXtOmXqOeJjO+8iOaDheaZr+KGkuivreS5ieWbuuWMluWxgu+8iQpleHBvcnQgewogICAgY29uc29saWRhdGVBbGxQbGF0ZXMsIHVwZGF0ZVBsYXRlRnJvbUJveFN1bW1hcnksCiAgICBidWlsZFJvb21QbGF0ZXNJbmplY3Rpb24sIGZvcm1hdFJvb21QbGF0ZXNTZWN0aW9uLCBpc1BsYXRlUm9vbSwKICAgIGJvb3RzdHJhcFBsYXRlc0Zyb21IaXN0b3J5LCBhcmVQbGF0ZXNFbXB0eSwKICAgIGlzUGxhdGVCb290c3RyYXBEb25lLCBtYXJrUGxhdGVCb290c3RyYXBEb25lLAogICAgZ2V0Qm9vdHN0cmFwUmVzdW1lLCBzZXRCb290c3RyYXBSZXN1bWUsIGNsZWFyQm9vdHN0cmFwUmVzdW1lLAp9IGZyb20gJy4vcm9vbVBsYXRlcyc7CgovLyDkuIDplK7muIXnqbrvvIjmnKzlnLAgKyDkupHnq6/vvIkKZXhwb3J0IHsgd2lwZUFsbE1lbW9yeVBhbGFjZSB9IGZyb20gJy4vd2lwZSc7CmV4cG9ydCB0eXBlIHsgV2lwZVJlc3VsdCB9IGZyb20gJy4vd2lwZSc7CgovLyDlr7zlh7ogLyDlr7zlhaXvvIjmjqXlhaXlpJbnva7orrDlv4blupPjgIHot6jorr7lpIfov4Hnp7vnlKjvvIkKZXhwb3J0IHsgZXhwb3J0TWVtb3J5UGFsYWNlLCBpbXBvcnRNZW1vcnlQYWxhY2UsIGlzTWVtb3J5UGFsYWNlRXhwb3J0RmlsZSB9IGZyb20gJy4vZXhwb3J0JzsKZXhwb3J0IHR5cGUgeyBNZW1vcnlQYWxhY2VFeHBvcnRGaWxlLCBDaGFyYWN0ZXJNZW1vcnlQYWxhY2VFeHBvcnQsIEV4cG9ydGVkVmVjdG9yLCBJbXBvcnRSZXN1bHQgfSBmcm9tICcuL2V4cG9ydCc7Cg==
+/**
+ * Memory Palace (记忆宫殿) — 统一导出
+ */
+
+// 类型
+export type {
+    MemoryRoom, RoomConfig, MemoryNode, MemoryVector,
+    LinkType, MemoryLink, BoxStatus, TopicBox, TopicContinuity,
+    AnticipationStatus, Anticipation, MemoryBatch,
+    PersonalityStyle, EmbeddingConfig, ScoredMemory, RemoteVectorConfig,
+    EventBox, PlateRoom, PlateEntry, RoomPlate,
+    DigestReport, DigestReportSection,
+} from './types';
+
+export { ROOM_CONFIGS, ROOM_LABELS, getRoomLabel, PERSONALITY_WEIGHTS, EVENT_BOX_COMPRESSION_THRESHOLD, PLATE_ROOMS, PLATE_TITLES, PLATE_ENTRY_CAPS } from './types';
+
+// 数据库
+export { MemoryNodeDB, MemoryVectorDB, MemoryLinkDB, MemoryBatchDB, TopicBoxDB, AnticipationDB, EventBoxDB, RoomPlateDB, DigestReportDB } from './db';
+
+// Embedding
+export { getEmbedding, getEmbeddings, cosineSimilarity } from './embedding';
+
+// Rerank（cross-encoder 二次排序，作为主召回的独立增强通道）
+export { rerankDocuments } from './rerank';
+export type { RerankApiConfig, RerankResult } from './rerank';
+
+// 输入管线
+export { extractMemoriesFromBuffer } from './extraction';
+export { vectorizeAndStore, checkModelConsistency, rebuildAllVectors } from './vectorStore';
+
+// 认知过程
+export { runConsolidation, calculateEffectiveImportance, shouldPromote } from './consolidation';
+export { buildLinks, strengthenCoActivated } from './links';
+
+// 输出管线
+export { vectorSearch } from './vectorSearch';
+export { bm25Search, tokenize } from './bm25';
+export { hybridSearch } from './hybridSearch';
+export { spreadActivation } from './activation';
+export { applyPriming, checkRumination } from './priming';
+export { expandAndFormat } from './formatter';
+
+// 集成
+export type { LightLLMConfig, PipelineResult, DiaryIngestResult } from './pipeline';
+export { retrieveMemories, injectMemoryPalace, processNewMessages, getMemoryPalaceHighWaterMark, ingestDiaryToPalace } from './pipeline';
+
+// 期盼
+export {
+    processAnticipationLifecycle, fulfillAnticipation,
+    disappointAnticipation, createAnticipation,
+} from './anticipation';
+
+// 认知消化
+export { runCognitiveDigestion, incrementDigestRound, getDigestRoundCount, getLastDigestTs, detectPersonalityStyle } from './digestion';
+export type { DigestResult } from './digestion';
+
+// 迁移
+export { migrateOldMemories, getAvailableMonths, getAvailableChunks } from './migration';
+export type { MigrationProgress } from './migration';
+
+// EventBox（事件盒：替代旧的 boxId 批次盒）
+export {
+    bindMemoriesIntoEventBox, manuallyBindMemories,
+    removeMemoryFromBox, reviveArchivedMemory,
+    unbindAllLiveMemories,
+} from './eventBox';
+export {
+    maybeCompressEventBoxes, compressAllEligibleBoxes,
+} from './eventBoxCompression';
+
+// 房间门牌（情景→语义固化层）
+export {
+    consolidateAllPlates, updatePlateFromBoxSummary,
+    buildRoomPlatesInjection, formatRoomPlatesSection, isPlateRoom,
+    bootstrapPlatesFromHistory, arePlatesEmpty,
+    isPlateBootstrapDone, markPlateBootstrapDone,
+    getBootstrapResume, setBootstrapResume, clearBootstrapResume,
+} from './roomPlates';
+
+// 一键清空（本地 + 云端）
+export { wipeAllMemoryPalace } from './wipe';
+export type { WipeResult } from './wipe';
+
+// 导出 / 导入（接入外置记忆库、跨设备迁移用）
+export { exportMemoryPalace, importMemoryPalace, isMemoryPalaceExportFile } from './export';
+export type { MemoryPalaceExportFile, CharacterMemoryPalaceExport, ExportedVector, ImportResult } from './export';

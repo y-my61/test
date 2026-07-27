@@ -1,1 +1,77 @@
-LyoqCiAqIE1lbW9yeSBQYWxhY2Ug4oCUIOWQkemHj+aQnOe0oiBXZWIgV29ya2VyCiAqCiAqIOWwhiBjb3NpbmUgc2ltaWxhcml0eSDnmoTmmrTlipvorqHnrpfmkKzliLAgV29ya2VyIOe6v+eoi++8jAogKiDpgb/lhY3pmLvloZ7kuLvnur/nqIsgVUnjgIIKICoKICog6YCa5L+h5Y2P6K6u77yI5pSv5oyB5bm25Y+R5aSa6Lev5aSN55So77yJ77yaCiAqICAg5Li757q/56iLIOKGkiBXb3JrZXI6ICB7IHJlcXVlc3RJZCwgcXVlcnlWZWN0b3IsIHZlY3RvcnMsIHRocmVzaG9sZCwgdG9wSyB9CiAqICAgV29ya2VyIOKGkiDkuLvnur/nqIs6ICB7IHJlcXVlc3RJZCwgcmVzdWx0cyB9CiAqICAg5Li757q/56iL5oyJIHJlcXVlc3RJZCDliIblj5Hlk43lupTvvIzpgb/lhY3lubblj5EgcG9zdE1lc3NhZ2Ug5pe2IG9ubWVzc2FnZSDooqvlkI7kuIDkuKropobnm5bjgIIKICovCgpzZWxmLm9ubWVzc2FnZSA9IChlOiBNZXNzYWdlRXZlbnQpID0+IHsKICAgIGNvbnN0IHsgcmVxdWVzdElkLCBxdWVyeVZlY3RvciwgdmVjdG9ycywgdGhyZXNob2xkLCB0b3BLIH0gPSBlLmRhdGEgYXMgewogICAgICAgIHJlcXVlc3RJZDogbnVtYmVyOwogICAgICAgIHF1ZXJ5VmVjdG9yOiBudW1iZXJbXSB8IEZsb2F0MzJBcnJheTsKICAgICAgICB2ZWN0b3JzOiB7IG1lbW9yeUlkOiBzdHJpbmc7IHZlY3RvcjogbnVtYmVyW10gfCBGbG9hdDMyQXJyYXkgfVtdOwogICAgICAgIHRocmVzaG9sZDogbnVtYmVyOwogICAgICAgIHRvcEs6IG51bWJlcjsKICAgIH07CgogICAgY29uc3QgcXYgPSBxdWVyeVZlY3RvciBpbnN0YW5jZW9mIEZsb2F0MzJBcnJheSA/IHF1ZXJ5VmVjdG9yIDogbmV3IEZsb2F0MzJBcnJheShxdWVyeVZlY3Rvcik7CiAgICBjb25zdCBxTGVuID0gcXYubGVuZ3RoOwoKICAgIC8vIFByZS1jb21wdXRlIHF1ZXJ5IG5vcm0KICAgIGxldCBxTm9ybSA9IDA7CiAgICBmb3IgKGxldCBpID0gMDsgaSA8IHFMZW47IGkrKykgcU5vcm0gKz0gcXZbaV0gKiBxdltpXTsKICAgIHFOb3JtID0gTWF0aC5zcXJ0KHFOb3JtKTsKCiAgICBpZiAocU5vcm0gPT09IDApIHsKICAgICAgICAoc2VsZiBhcyBhbnkpLnBvc3RNZXNzYWdlKHsgcmVxdWVzdElkLCByZXN1bHRzOiBbXSB9KTsKICAgICAgICByZXR1cm47CiAgICB9CgogICAgY29uc3Qgc2NvcmVkOiB7IG1lbW9yeUlkOiBzdHJpbmc7IHNpbWlsYXJpdHk6IG51bWJlciB9W10gPSBbXTsKCiAgICAvLyBEZWNvZGUgYW55IG9mIChGbG9hdDMyQXJyYXkgLyBVaW50OEFycmF5IG9mIGZsb2F0MzIgYnl0ZXMgLyBudW1iZXJbXSkgaW50bwogICAgLy8gYSBGbG9hdDMyQXJyYXkuIFdvcmtlciBjYW4ndCBpbXBvcnQgc2hhcmVkIHV0aWxzIHdpdGhvdXQgYSBidWlsZCBzdGVwLCBzbwogICAgLy8gdGhpcyBpcyBpbmxpbmVkLgogICAgY29uc3QgZGVjb2RlID0gKHY6IGFueSk6IEZsb2F0MzJBcnJheSA9PiB7CiAgICAgICAgaWYgKHYgaW5zdGFuY2VvZiBGbG9hdDMyQXJyYXkpIHJldHVybiB2OwogICAgICAgIGlmICh2IGluc3RhbmNlb2YgVWludDhBcnJheSkgcmV0dXJuIG5ldyBGbG9hdDMyQXJyYXkodi5idWZmZXIsIHYuYnl0ZU9mZnNldCwgdi5ieXRlTGVuZ3RoID4+PiAyKTsKICAgICAgICByZXR1cm4gbmV3IEZsb2F0MzJBcnJheSh2KTsKICAgIH07CgogICAgZm9yIChjb25zdCBlbnRyeSBvZiB2ZWN0b3JzKSB7CiAgICAgICAgY29uc3QgYnYgPSBkZWNvZGUoZW50cnkudmVjdG9yKTsKCiAgICAgICAgLy8gSW5saW5lIGNvc2luZSBzaW1pbGFyaXR5IHdpdGggbG9vcCB1bnJvbGxpbmcKICAgICAgICBsZXQgZG90ID0gMCwgYk5vcm0gPSAwOwogICAgICAgIGNvbnN0IGxpbWl0ID0gcUxlbiAtIChxTGVuICUgNCk7CiAgICAgICAgbGV0IGkgPSAwOwogICAgICAgIGZvciAoOyBpIDwgbGltaXQ7IGkgKz0gNCkgewogICAgICAgICAgICBjb25zdCBhMCA9IHF2W2ldLCBhMSA9IHF2W2krMV0sIGEyID0gcXZbaSsyXSwgYTMgPSBxdltpKzNdOwogICAgICAgICAgICBjb25zdCBiMCA9IGJ2W2ldLCBiMSA9IGJ2W2krMV0sIGIyID0gYnZbaSsyXSwgYjMgPSBidltpKzNdOwogICAgICAgICAgICBkb3QgKz0gYTAqYjAgKyBhMSpiMSArIGEyKmIyICsgYTMqYjM7CiAgICAgICAgICAgIGJOb3JtICs9IGIwKmIwICsgYjEqYjEgKyBiMipiMiArIGIzKmIzOwogICAgICAgIH0KICAgICAgICBmb3IgKDsgaSA8IHFMZW47IGkrKykgewogICAgICAgICAgICBkb3QgKz0gcXZbaV0gKiBidltpXTsKICAgICAgICAgICAgYk5vcm0gKz0gYnZbaV0gKiBidltpXTsKICAgICAgICB9CgogICAgICAgIGNvbnN0IGRlbm9tID0gcU5vcm0gKiBNYXRoLnNxcnQoYk5vcm0pOwogICAgICAgIGlmIChkZW5vbSA9PT0gMCkgY29udGludWU7CgogICAgICAgIGNvbnN0IHNpbSA9IGRvdCAvIGRlbm9tOwogICAgICAgIGlmIChzaW0gPj0gdGhyZXNob2xkKSB7CiAgICAgICAgICAgIHNjb3JlZC5wdXNoKHsgbWVtb3J5SWQ6IGVudHJ5Lm1lbW9yeUlkLCBzaW1pbGFyaXR5OiBzaW0gfSk7CiAgICAgICAgfQogICAgfQoKICAgIC8vIFBhcnRpYWwgc29ydDogb25seSBuZWVkIHRvcEssIHVzZSBzZWxlY3Rpb24gZm9yIGVmZmljaWVuY3kKICAgIHNjb3JlZC5zb3J0KChhLCBiKSA9PiBiLnNpbWlsYXJpdHkgLSBhLnNpbWlsYXJpdHkpOwoKICAgIChzZWxmIGFzIGFueSkucG9zdE1lc3NhZ2UoeyByZXF1ZXN0SWQsIHJlc3VsdHM6IHNjb3JlZC5zbGljZSgwLCB0b3BLKSB9KTsKfTsK
+/**
+ * Memory Palace — 向量搜索 Web Worker
+ *
+ * 将 cosine similarity 的暴力计算搬到 Worker 线程，
+ * 避免阻塞主线程 UI。
+ *
+ * 通信协议（支持并发多路复用）：
+ *   主线程 → Worker:  { requestId, queryVector, vectors, threshold, topK }
+ *   Worker → 主线程:  { requestId, results }
+ *   主线程按 requestId 分发响应，避免并发 postMessage 时 onmessage 被后一个覆盖。
+ */
+
+self.onmessage = (e: MessageEvent) => {
+    const { requestId, queryVector, vectors, threshold, topK } = e.data as {
+        requestId: number;
+        queryVector: number[] | Float32Array;
+        vectors: { memoryId: string; vector: number[] | Float32Array }[];
+        threshold: number;
+        topK: number;
+    };
+
+    const qv = queryVector instanceof Float32Array ? queryVector : new Float32Array(queryVector);
+    const qLen = qv.length;
+
+    // Pre-compute query norm
+    let qNorm = 0;
+    for (let i = 0; i < qLen; i++) qNorm += qv[i] * qv[i];
+    qNorm = Math.sqrt(qNorm);
+
+    if (qNorm === 0) {
+        (self as any).postMessage({ requestId, results: [] });
+        return;
+    }
+
+    const scored: { memoryId: string; similarity: number }[] = [];
+
+    // Decode any of (Float32Array / Uint8Array of float32 bytes / number[]) into
+    // a Float32Array. Worker can't import shared utils without a build step, so
+    // this is inlined.
+    const decode = (v: any): Float32Array => {
+        if (v instanceof Float32Array) return v;
+        if (v instanceof Uint8Array) return new Float32Array(v.buffer, v.byteOffset, v.byteLength >>> 2);
+        return new Float32Array(v);
+    };
+
+    for (const entry of vectors) {
+        const bv = decode(entry.vector);
+
+        // Inline cosine similarity with loop unrolling
+        let dot = 0, bNorm = 0;
+        const limit = qLen - (qLen % 4);
+        let i = 0;
+        for (; i < limit; i += 4) {
+            const a0 = qv[i], a1 = qv[i+1], a2 = qv[i+2], a3 = qv[i+3];
+            const b0 = bv[i], b1 = bv[i+1], b2 = bv[i+2], b3 = bv[i+3];
+            dot += a0*b0 + a1*b1 + a2*b2 + a3*b3;
+            bNorm += b0*b0 + b1*b1 + b2*b2 + b3*b3;
+        }
+        for (; i < qLen; i++) {
+            dot += qv[i] * bv[i];
+            bNorm += bv[i] * bv[i];
+        }
+
+        const denom = qNorm * Math.sqrt(bNorm);
+        if (denom === 0) continue;
+
+        const sim = dot / denom;
+        if (sim >= threshold) {
+            scored.push({ memoryId: entry.memoryId, similarity: sim });
+        }
+    }
+
+    // Partial sort: only need topK, use selection for efficiency
+    scored.sort((a, b) => b.similarity - a.similarity);
+
+    (self as any).postMessage({ requestId, results: scored.slice(0, topK) });
+};

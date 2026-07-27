@@ -1,1 +1,23 @@
-ZXhwb3J0IGNvbnN0IFRSQU5TTEFUSU9OX0xBTkdfUFJFU0VUUyA9IFsn5Lit5paHJywgJ0VuZ2xpc2gnLCAn5pel5pys6KqeJywgJ+2VnOq1reyWtCcsICdGcmFuw6dhaXMnLCAnRXNwYcOxb2wnXTsKCmV4cG9ydCBjb25zdCBUUkFOU0xBVElPTl9MQU5HX01BWF9MRU5HVEggPSA0MDsKCi8qKgogKiBDdXN0b20gbGFuZ3VhZ2UgbGFiZWxzIGFyZSBpbnRlcnBvbGF0ZWQgaW50byB0aGUgYmlsaW5ndWFsIHN5c3RlbSBwcm9tcHQuCiAqIEtlZXAgdGhlbSBhcyBzaG9ydCBsYWJlbHMsIG5vdCBtYXJrdXAgb3IgcHJvbXB0IGZyYWdtZW50cy4KICovCmV4cG9ydCBmdW5jdGlvbiBub3JtYWxpemVUcmFuc2xhdGlvbkxhbmdMYWJlbChpbnB1dDogc3RyaW5nIHwgbnVsbCB8IHVuZGVmaW5lZCk6IHN0cmluZyB7CiAgcmV0dXJuIFN0cmluZyhpbnB1dCA/PyAnJykKICAgIC5yZXBsYWNlKC88W14+XSo+L2csICcgJykKICAgIC5yZXBsYWNlKC9bXHUwMDAwLVx1MDAxRlx1MDA3Rl0vZywgJyAnKQogICAgLnJlcGxhY2UoL1s8Pnt9XFtcXWAiJ1xcfCMkJV4qXS9nLCAnJykKICAgIC5yZXBsYWNlKC9bO++8mzrvvJohP++8ge+8n+OAgl0vZywgJycpCiAgICAucmVwbGFjZSgvXHMrL2csICcgJykKICAgIC50cmltKCkKICAgIC5zbGljZSgwLCBUUkFOU0xBVElPTl9MQU5HX01BWF9MRU5HVEgpCiAgICAudHJpbSgpOwp9CgpleHBvcnQgZnVuY3Rpb24gaXNUcmFuc2xhdGlvbkxhbmdQcmVzZXQobGFuZzogc3RyaW5nIHwgbnVsbCB8IHVuZGVmaW5lZCk6IGJvb2xlYW4gewogIHJldHVybiAhIWxhbmcgJiYgVFJBTlNMQVRJT05fTEFOR19QUkVTRVRTLmluY2x1ZGVzKGxhbmcpOwp9Cg==
+export const TRANSLATION_LANG_PRESETS = ['中文', 'English', '日本語', '한국어', 'Français', 'Español'];
+
+export const TRANSLATION_LANG_MAX_LENGTH = 40;
+
+/**
+ * Custom language labels are interpolated into the bilingual system prompt.
+ * Keep them as short labels, not markup or prompt fragments.
+ */
+export function normalizeTranslationLangLabel(input: string | null | undefined): string {
+  return String(input ?? '')
+    .replace(/<[^>]*>/g, ' ')
+    .replace(/[\u0000-\u001F\u007F]/g, ' ')
+    .replace(/[<>{}\[\]`"'\\|#$%^*]/g, '')
+    .replace(/[;；:：!?！？。]/g, '')
+    .replace(/\s+/g, ' ')
+    .trim()
+    .slice(0, TRANSLATION_LANG_MAX_LENGTH)
+    .trim();
+}
+
+export function isTranslationLangPreset(lang: string | null | undefined): boolean {
+  return !!lang && TRANSLATION_LANG_PRESETS.includes(lang);
+}

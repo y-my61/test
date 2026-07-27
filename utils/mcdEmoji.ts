@@ -1,1 +1,44 @@
-LyoqCiAqIOm6puW9k+WKs+WVhuWTgeWQjSDihpIg5aSnIGVtb2ppIOaYoOWwhAogKiBNQ1Ag5LiK5ri45LiN6L+U5Zu+LCDnlKjlhbPplK7or43ljLnphY3nu5nmr4/mnaHoj5zljZXotLTkuIDkuKrlg4/moLfnmoTlm77moIcsIOavlCDwn42UIOmAmuadgOWlveeci+OAggogKiDpobrluo/mlY/mhJ86IOi2iuWFt+S9k+eahOWFs+mUruivjei2iuW+gOWJjeOAggogKi8KCmNvbnN0IFJVTEVTOiBBcnJheTxbUmVnRXhwLCBzdHJpbmddPiA9IFsKICAgIC8vIOaXqemkkAogICAgWy/puqbmu6HliIZ85biV5bC85bC8fOadvumlvC9pLCAn8J+lniddLAogICAgWy/njKrmn7N854Gr6IW/fOWfueagueaJki9pLCAn8J+lkyddLAogICAgLy8g5Li76aOf57G7CiAgICBbL+mzlemxvHzmt7Hmtbfpsbx86bG85p+zL2ksICfwn5CfJ10sCiAgICBbL+m4oee/hS9pLCAn8J+NlyddLAogICAgWy/puKHohb986bih5Z2XfOm4oeadoS9pLCAn8J+NlyddLAogICAgWy/puKHnsbPoirF86bqm5LmQ6bihL2ksICfwn42/J10sCiAgICBbL+axieWgoXzniZvloKF85a6J5qC85pavfOadv+eDp3zpuqbovqN85Y+M5bGCfOaxiXzloKEoPyHmu6EpL2ksICfwn42UJ10sCiAgICAvLyDphY3ppJAKICAgIFsv5Lit6JavfOWkp+iWr3zlsI/olq986JavKD8h54mHKS9pLCAn8J+NnyddLAogICAgWy/njonnsbPmna98546J57GzL2ksICfwn4y9J10sCiAgICBbL+aymeaLiS9pLCAn8J+llyddLAogICAgWy/mtL586Iu55p6c5rS+fOmmmeiKi+a0vnzoj6DokJ3mtL4vaSwgJ/CfpacnXSwKICAgIC8vIOeUnOWTgS/lsI/lkIMKICAgIFsv6bqm5peL6aOOfOWco+S7o3zlhrDmt4fmt4t855Sc562SL2ksICfwn42mJ10sCiAgICBbL+W3p+WFi+WKm3zmnLHlj6TlipsvaSwgJ/CfjasnXSwKICAgIFsv6I2J6I6TL2ksICfwn42TJ10sCiAgICBbL+iPoOiQnS9pLCAn8J+NjSddLAogICAgWy/mm7LlpYd85aWl5Yip5aWlfOmlvOW5si9pLCAn8J+NqiddLAogICAgLy8g6aWu5paZCiAgICBbL+WSluWVoXzmi7/pk4F8576O5byPfOWNoeW4g+Wlh+ivunzmkanljaEvaSwgJ+KYlSddLAogICAgWy/ojLZ85aW26Iy2fOafoOaqrOiMti9pLCAn8J+niyddLAogICAgWy/lj6/kuZB86Zuq56KnfOiKrOi+vnzmsb3msLR85Y+v5Y+vfOeZvuS6iy9pLCAn8J+lpCddLAogICAgWy/mnpzmsYF85qmZ5rGBfOiLueaenOaxgS9pLCAn8J+ngyddLAogICAgWy/niZvlpbZ86YW45aW2L2ksICfwn6WbJ10sCiAgICAvLyDlpZfppJAgKOWFnOW6leWJjeacgOWQjuS4gOmBkywg5aWX6aSQ5aSa5Y2K5ZCr5rGJ5aChKQogICAgWy/lpZfppJB86LaF5YC8fOWFqOWutuahtnzlj4zkurovaSwgJ/CfjbEnXSwKXTsKCmV4cG9ydCBjb25zdCBtY2RJdGVtRW1vamkgPSAobmFtZT86IHN0cmluZyk6IHN0cmluZyA9PiB7CiAgICBpZiAoIW5hbWUpIHJldHVybiAn8J+Nve+4jyc7CiAgICBmb3IgKGNvbnN0IFtyZSwgZW1dIG9mIFJVTEVTKSB7CiAgICAgICAgaWYgKHJlLnRlc3QobmFtZSkpIHJldHVybiBlbTsKICAgIH0KICAgIHJldHVybiAn8J+Nve+4jyc7Cn07Cg==
+/**
+ * 麦当劳商品名 → 大 emoji 映射
+ * MCP 上游不返图, 用关键词匹配给每条菜单贴一个像样的图标, 比 🍔 通杀好看。
+ * 顺序敏感: 越具体的关键词越往前。
+ */
+
+const RULES: Array<[RegExp, string]> = [
+    // 早餐
+    [/麦满分|帕尼尼|松饼/i, '🥞'],
+    [/猪柳|火腿|培根扒/i, '🥓'],
+    // 主食类
+    [/鳕鱼|深海鱼|鱼柳/i, '🐟'],
+    [/鸡翅/i, '🍗'],
+    [/鸡腿|鸡块|鸡条/i, '🍗'],
+    [/鸡米花|麦乐鸡/i, '🍿'],
+    [/汉堡|牛堡|安格斯|板烧|麦辣|双层|汉|堡(?!满)/i, '🍔'],
+    // 配餐
+    [/中薯|大薯|小薯|薯(?!片)/i, '🍟'],
+    [/玉米杯|玉米/i, '🌽'],
+    [/沙拉/i, '🥗'],
+    [/派|苹果派|香芋派|菠萝派/i, '🥧'],
+    // 甜品/小吃
+    [/麦旋风|圣代|冰淇淋|甜筒/i, '🍦'],
+    [/巧克力|朱古力/i, '🍫'],
+    [/草莓/i, '🍓'],
+    [/菠萝/i, '🍍'],
+    [/曲奇|奥利奥|饼干/i, '🍪'],
+    // 饮料
+    [/咖啡|拿铁|美式|卡布奇诺|摩卡/i, '☕'],
+    [/茶|奶茶|柠檬茶/i, '🧋'],
+    [/可乐|雪碧|芬达|汽水|可可|百事/i, '🥤'],
+    [/果汁|橙汁|苹果汁/i, '🧃'],
+    [/牛奶|酸奶/i, '🥛'],
+    // 套餐 (兜底前最后一道, 套餐多半含汉堡)
+    [/套餐|超值|全家桶|双人/i, '🍱'],
+];
+
+export const mcdItemEmoji = (name?: string): string => {
+    if (!name) return '🍽️';
+    for (const [re, em] of RULES) {
+        if (re.test(name)) return em;
+    }
+    return '🍽️';
+};

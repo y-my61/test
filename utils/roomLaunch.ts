@@ -1,1 +1,33 @@
-LyoqCiAqIOOAjOi/m+Wwj+Wxi+aEj+WbvuOAjei9u+mHjyBzdG9yZe+8iG1vZHVsZS1sZXZlbO+8jOaXoCBSZWFjdCDkvp3otZbvvInjgIIKICoKICogb3BlbkFwcChBcHBJRC5Sb29tKSDlj6rog73miZPlvIDlsI/lsYsgQXBw44CB5peg5rOV5oyH5a6a6L+b5ZOq5Liq5YiG5Yy6IC8g5piv5ZCm55u05o6l5byA5qKm5aKD44CCCiAqIOahjOmdouS4u+mimO+8iFRhbWFnb3RjaGlIb21l77yJ55qE5LiW55WM5YyW5YWl5Y+j77yI5a625Zut6Zeo44CB5YOP57Sg55S16KeG44CB5bqK5aS05qKm5aKD4oCm77yJ6ZyA6KaBCiAqIOOAjOaJk+W8gOWwj+WxiyBBcHAg5bm26JC95Yiw5oyH5a6aIHRhYiAvIOaMh+WumuinkuiJsiAvIOebtOaOpeW8gOaipuWig+OAjeKAlOKAlOeUqOi/meS4qiBzdG9yZSDkvKDmhI/lm77vvJoKICog6LCD55So5pa55YWIIHJlcXVlc3QoLi4uKSDlho0gb3BlbkFwcChSb29tKe+8jFJvb21BcHAg5oyC6L295pe2IGNvbnN1bWUoKSDkuIDmrKHlubblupTnlKjjgIIKICovCgpleHBvcnQgaW50ZXJmYWNlIFJvb21MYXVuY2hJbnRlbnQgewogICAgY2hhcklkPzogc3RyaW5nOwogICAgdGFiPzogJ3Jvb20nIHwgJ3dvcmxkSG9tZScgfCAncGl4ZWxIb21lJzsKICAgIC8qKiDov5vor6Xop5LoibLmiL/pl7TlkI7nm7TmjqXmiZPlvIDmoqblooPmvJTlh7ogKi8KICAgIG9wZW5EcmVhbT86IGJvb2xlYW47Cn0KCmxldCBwZW5kaW5nOiBSb29tTGF1bmNoSW50ZW50IHwgbnVsbCA9IG51bGw7CgpleHBvcnQgY29uc3Qgcm9vbUxhdW5jaCA9IHsKICAgIHJlcXVlc3QoaW50ZW50OiBSb29tTGF1bmNoSW50ZW50KTogdm9pZCB7CiAgICAgICAgcGVuZGluZyA9IGludGVudDsKICAgIH0sCiAgICAvKiog5Y+q6K+777yM5LiN5riF56m64oCU4oCU5L6bIHVzZVN0YXRlIOaDsOaAp+WIneWni+WMluaKiummluW4p+Wwsea4suafk+aIkOebruagh+inhuWbvu+8iOmBv+WFjemXquS4gOS4iyBzZWxlY3TvvInjgIIgKi8KICAgIHBlZWsoKTogUm9vbUxhdW5jaEludGVudCB8IG51bGwgewogICAgICAgIHJldHVybiBwZW5kaW5nOwogICAgfSwKICAgIC8qKiDlj5blh7rlubbmuIXnqbrvvIjlj6rlupTnlKjkuIDmrKHvvIzpgb/lhY3kuIvmrKHov5vlsI/lsYvov5jmrovnlZnml6fmhI/lm77vvInjgIIgKi8KICAgIGNvbnN1bWUoKTogUm9vbUxhdW5jaEludGVudCB8IG51bGwgewogICAgICAgIGNvbnN0IHYgPSBwZW5kaW5nOwogICAgICAgIHBlbmRpbmcgPSBudWxsOwogICAgICAgIHJldHVybiB2OwogICAgfSwKfTsK
+/**
+ * 「进小屋意图」轻量 store（module-level，无 React 依赖）。
+ *
+ * openApp(AppID.Room) 只能打开小屋 App、无法指定进哪个分区 / 是否直接开梦境。
+ * 桌面主题（TamagotchiHome）的世界化入口（家园门、像素电视、床头梦境…）需要
+ * 「打开小屋 App 并落到指定 tab / 指定角色 / 直接开梦境」——用这个 store 传意图：
+ * 调用方先 request(...) 再 openApp(Room)，RoomApp 挂载时 consume() 一次并应用。
+ */
+
+export interface RoomLaunchIntent {
+    charId?: string;
+    tab?: 'room' | 'worldHome' | 'pixelHome';
+    /** 进该角色房间后直接打开梦境演出 */
+    openDream?: boolean;
+}
+
+let pending: RoomLaunchIntent | null = null;
+
+export const roomLaunch = {
+    request(intent: RoomLaunchIntent): void {
+        pending = intent;
+    },
+    /** 只读，不清空——供 useState 惰性初始化把首帧就渲染成目标视图（避免闪一下 select）。 */
+    peek(): RoomLaunchIntent | null {
+        return pending;
+    },
+    /** 取出并清空（只应用一次，避免下次进小屋还残留旧意图）。 */
+    consume(): RoomLaunchIntent | null {
+        const v = pending;
+        pending = null;
+        return v;
+    },
+};

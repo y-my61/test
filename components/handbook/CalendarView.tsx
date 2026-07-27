@@ -1,1 +1,237 @@
-LyoqCiAqIOaciOWOhuinhuWbvijpgJrnlKjln7rnsbspCiAqCiAqIOaJgOaciSBUcmFja2VyIHNlY3Rpb24g6YO955So6L+Z5Liq57uE5Lu2OgogKiAtIDfDlzYg5pyI5Y6G5qC85a2QLOWRqOS4gC/lkajml6XlvIDlpLTmjIkgcmVnaW9uIOmFjee9rijov5nph4zmjInlkajml6Xotbcs56ym5ZCI5Lit5paH5Lmg5oOvKQogKiAtIOmhtumDqDrlpKflj7fmnIjku73lkI0gKyDkuIrkuIvmnIjliIfmjaIgKyDku4rml6Xot7Plm54KICogLSDmr4/moLw65pel5Y+3ICsg55SxIGNhbGxlciDmj5DkvpvnmoQgcmVuZGVyQ2VsbCDlh73mlbAo55S7IGVudHJ5IOagh+iusC9lbW9qaS/oibLlnZfnrYkpCiAqIC0g54K55Ye75qC85a2QIOKGkiDosIMgb25DZWxsVGFwKGRhdGUpICznlLEgY2FsbGVyIOWGs+WumuaYryBzaGVldCDov5jmmK/liKvnmoQKICogLSDmlK/mjIEgaGlnaGxpZ2h0RGF0ZSjnlKjkvZwi5LuK5pelIuWchuWciCkKICovCgppbXBvcnQgUmVhY3QgZnJvbSAncmVhY3QnOwppbXBvcnQgeyBQQVBFUl9UT05FUywgQ1VURV9TVEFDSywgRElTUExBWV9TVEFDSywgTU9OT19TVEFDSyB9IGZyb20gJy4vcGFwZXInOwppbXBvcnQgeyBDYXJldExlZnQsIENhcmV0UmlnaHQsIEFycm93Q291bnRlckNsb2Nrd2lzZSB9IGZyb20gJ0BwaG9zcGhvci1pY29ucy9yZWFjdCc7Cgpjb25zdCBXRUVLX0xBQkVMUyA9IFsn5pelJywgJ+S4gCcsICfkuownLCAn5LiJJywgJ+WbmycsICfkupQnLCAn5YWtJ107CmNvbnN0IE1PTlRIX0xBQkVMUyA9IFsnSmFudWFyeScsJ0ZlYnJ1YXJ5JywnTWFyY2gnLCdBcHJpbCcsJ01heScsJ0p1bmUnLCdKdWx5JywnQXVndXN0JywnU2VwdGVtYmVyJywnT2N0b2JlcicsJ05vdmVtYmVyJywnRGVjZW1iZXInXTsKCmZ1bmN0aW9uIHBhZDIobjogbnVtYmVyKTogc3RyaW5nIHsgcmV0dXJuIFN0cmluZyhuKS5wYWRTdGFydCgyLCAnMCcpOyB9CmZ1bmN0aW9uIGRhdGVLZXkoeTogbnVtYmVyLCBtOiBudW1iZXIsIGQ6IG51bWJlcik6IHN0cmluZyB7CiAgICByZXR1cm4gYCR7eX0tJHtwYWQyKG0gKyAxKX0tJHtwYWQyKGQpfWA7Cn0KZnVuY3Rpb24gZGF5c0luTW9udGgoeTogbnVtYmVyLCBtOiBudW1iZXIpOiBudW1iZXIgewogICAgcmV0dXJuIG5ldyBEYXRlKHksIG0gKyAxLCAwKS5nZXREYXRlKCk7Cn0KCmludGVyZmFjZSBDYWxlbmRhclZpZXdQcm9wcyB7CiAgICAvKiog6buY6K6k5pi+56S655qE5pyI5Lu977yIWVlZWS1NTSDku7vmhI/ml6XnmoQgZGF0ZSDlrZfnrKbkuLLvvIkgKi8KICAgIGluaXRpYWxEYXRlPzogc3RyaW5nOwogICAgLyoqIOmrmOS6rueahOaXpeacnyjpgJrluLggPSDku4rlpKkpICovCiAgICBoaWdobGlnaHREYXRlPzogc3RyaW5nOwogICAgLyoqIOa4suafk+WNleWFg+agvOWGheWuuSjml6Xlj7fkuIvmlrkpO+i/lOWbniBudWxsIOS4jeeUuyAqLwogICAgcmVuZGVyQ2VsbD86IChkYXRlOiBzdHJpbmcpID0+IFJlYWN0LlJlYWN0Tm9kZTsKICAgIC8qKiDngrnlh7vmoLzlrZDop6blj5EgKi8KICAgIG9uQ2VsbFRhcD86IChkYXRlOiBzdHJpbmcpID0+IHZvaWQ7CiAgICAvKiog5Li76aKY6Imy77yI5qCH6K6wL+ijhemlsOeUqO+8ie+8jOm7mOiupOaoseeyiSAqLwogICAgYWNjZW50Q29sb3I/OiBzdHJpbmc7CiAgICAvKiog6aG26YOo5qCH6aKYKOm7mOiupOaYvuekuuiLseaWh+aciOS7vSks5Y+v5Lul5LygIHRyYWNrZXIg5ZCN5a6a5Yi2ICovCiAgICB0aXRsZT86IFJlYWN0LlJlYWN0Tm9kZTsKfQoKY29uc3QgQ2FsZW5kYXJWaWV3OiBSZWFjdC5GQzxDYWxlbmRhclZpZXdQcm9wcz4gPSAoewogICAgaW5pdGlhbERhdGUsIGhpZ2hsaWdodERhdGUsCiAgICByZW5kZXJDZWxsLCBvbkNlbGxUYXAsCiAgICBhY2NlbnRDb2xvciA9IFBBUEVSX1RPTkVTLmFjY2VudFJvc2UsCiAgICB0aXRsZSwKfSkgPT4gewogICAgLy8g54q25oCBOuW9k+WJjeaYvuekuueahCLln7rlh4bml6XmnJ8iKOeUqOS6juWGs+WumuWTquS4quaciCkKICAgIGNvbnN0IGluaXQgPSAoKCkgPT4gewogICAgICAgIGlmIChpbml0aWFsRGF0ZSkgewogICAgICAgICAgICBjb25zdCBbeSwgbSwgZF0gPSBpbml0aWFsRGF0ZS5zcGxpdCgnLScpLm1hcChOdW1iZXIpOwogICAgICAgICAgICByZXR1cm4gbmV3IERhdGUoeSwgbSAtIDEsIGQpOwogICAgICAgIH0KICAgICAgICByZXR1cm4gbmV3IERhdGUoKTsKICAgIH0pKCk7CiAgICBjb25zdCBbY3Vyc29yLCBzZXRDdXJzb3JdID0gUmVhY3QudXNlU3RhdGU8RGF0ZT4oaW5pdCk7CiAgICBjb25zdCB5ZWFyID0gY3Vyc29yLmdldEZ1bGxZZWFyKCk7CiAgICBjb25zdCBtb250aCA9IGN1cnNvci5nZXRNb250aCgpOwogICAgY29uc3QgZmlyc3REYXkgPSBuZXcgRGF0ZSh5ZWFyLCBtb250aCwgMSkuZ2V0RGF5KCk7ICAgIC8vIDB+NgogICAgY29uc3QgdG90YWxEYXlzID0gZGF5c0luTW9udGgoeWVhciwgbW9udGgpOwoKICAgIGNvbnN0IHRvZGF5ID0gKCgpID0+IHsKICAgICAgICBjb25zdCBkID0gbmV3IERhdGUoKTsKICAgICAgICByZXR1cm4gZGF0ZUtleShkLmdldEZ1bGxZZWFyKCksIGQuZ2V0TW9udGgoKSwgZC5nZXREYXRlKCkpOwogICAgfSkoKTsKCiAgICAvLyA2IOihjCDDlyA3IOWIlyA9IDQyIOS4quagvOWtkAogICAgY29uc3QgY2VsbHM6ICh7IGRhdGU6IHN0cmluZzsgZGF5OiBudW1iZXI7IHRoaXNNb250aDogYm9vbGVhbiB9KVtdID0gW107CiAgICAvLyDkuIrmnIjlsL7lt7QKICAgIGlmIChmaXJzdERheSA+IDApIHsKICAgICAgICBjb25zdCBwcmV2VG90YWwgPSBkYXlzSW5Nb250aCh5ZWFyLCBtb250aCAtIDEpOwogICAgICAgIGZvciAobGV0IGkgPSBmaXJzdERheSAtIDE7IGkgPj0gMDsgaS0tKSB7CiAgICAgICAgICAgIGNvbnN0IGQgPSBwcmV2VG90YWwgLSBpOwogICAgICAgICAgICBjb25zdCBbcHksIHBtXSA9IG1vbnRoID09PSAwID8gW3llYXIgLSAxLCAxMV0gOiBbeWVhciwgbW9udGggLSAxXTsKICAgICAgICAgICAgY2VsbHMucHVzaCh7IGRhdGU6IGRhdGVLZXkocHksIHBtLCBkKSwgZGF5OiBkLCB0aGlzTW9udGg6IGZhbHNlIH0pOwogICAgICAgIH0KICAgIH0KICAgIC8vIOacrOaciAogICAgZm9yIChsZXQgZCA9IDE7IGQgPD0gdG90YWxEYXlzOyBkKyspIHsKICAgICAgICBjZWxscy5wdXNoKHsgZGF0ZTogZGF0ZUtleSh5ZWFyLCBtb250aCwgZCksIGRheTogZCwgdGhpc01vbnRoOiB0cnVlIH0pOwogICAgfQogICAgLy8g5LiL5pyI5aS0CiAgICB3aGlsZSAoY2VsbHMubGVuZ3RoIDwgNDIpIHsKICAgICAgICBjb25zdCBvZmZzZXQgPSBjZWxscy5sZW5ndGggLSBmaXJzdERheSAtIHRvdGFsRGF5cyArIDE7CiAgICAgICAgY29uc3QgW255LCBubV0gPSBtb250aCA9PT0gMTEgPyBbeWVhciArIDEsIDBdIDogW3llYXIsIG1vbnRoICsgMV07CiAgICAgICAgY2VsbHMucHVzaCh7IGRhdGU6IGRhdGVLZXkobnksIG5tLCBvZmZzZXQpLCBkYXk6IG9mZnNldCwgdGhpc01vbnRoOiBmYWxzZSB9KTsKICAgIH0KCiAgICBjb25zdCBnb1ByZXZNb250aCA9ICgpID0+IHsKICAgICAgICBzZXRDdXJzb3IobmV3IERhdGUoeWVhciwgbW9udGggLSAxLCAxKSk7CiAgICB9OwogICAgY29uc3QgZ29OZXh0TW9udGggPSAoKSA9PiB7CiAgICAgICAgc2V0Q3Vyc29yKG5ldyBEYXRlKHllYXIsIG1vbnRoICsgMSwgMSkpOwogICAgfTsKICAgIGNvbnN0IGdvVG9kYXkgPSAoKSA9PiB7CiAgICAgICAgY29uc3QgdCA9IG5ldyBEYXRlKCk7CiAgICAgICAgc2V0Q3Vyc29yKG5ldyBEYXRlKHQuZ2V0RnVsbFllYXIoKSwgdC5nZXRNb250aCgpLCAxKSk7CiAgICB9OwoKICAgIHJldHVybiAoCiAgICAgICAgPGRpdiBjbGFzc05hbWU9InB4LTQgcHQtMiBwYi00Ij4KICAgICAgICAgICAgey8qIOaciOS7veagh+mimOadoSAqL30KICAgICAgICAgICAgPGRpdiBjbGFzc05hbWU9ImZsZXggaXRlbXMtY2VudGVyIGp1c3RpZnktYmV0d2VlbiBtYi0zIj4KICAgICAgICAgICAgICAgIDxidXR0b24KICAgICAgICAgICAgICAgICAgICBvbkNsaWNrPXtnb1ByZXZNb250aH0KICAgICAgICAgICAgICAgICAgICBjbGFzc05hbWU9InctOCBoLTggZmxleCBpdGVtcy1jZW50ZXIganVzdGlmeS1jZW50ZXIgcm91bmRlZC1mdWxsIGFjdGl2ZTpzY2FsZS05NSB0cmFuc2l0aW9uIgogICAgICAgICAgICAgICAgICAgIHN0eWxlPXt7IGJhY2tncm91bmQ6ICdyZ2JhKDI1MywyNDYsMjMxLDAuNyknLCBjb2xvcjogUEFQRVJfVE9ORVMuaW5rIH19CiAgICAgICAgICAgICAgICAgICAgYXJpYS1sYWJlbD0i5LiK5LiA5pyIIgogICAgICAgICAgICAgICAgPgogICAgICAgICAgICAgICAgICAgIDxDYXJldExlZnQgY2xhc3NOYW1lPSJ3LTMuNSBoLTMuNSIgd2VpZ2h0PSJib2xkIiAvPgogICAgICAgICAgICAgICAgPC9idXR0b24+CiAgICAgICAgICAgICAgICA8ZGl2IGNsYXNzTmFtZT0idGV4dC1jZW50ZXIiPgogICAgICAgICAgICAgICAgICAgIDxkaXYKICAgICAgICAgICAgICAgICAgICAgICAgc3R5bGU9e3sKICAgICAgICAgICAgICAgICAgICAgICAgICAgIC4uLk1PTk9fU1RBQ0ssCiAgICAgICAgICAgICAgICAgICAgICAgICAgICBmb250U2l6ZTogMTAsCiAgICAgICAgICAgICAgICAgICAgICAgICAgICBsZXR0ZXJTcGFjaW5nOiAnMC40ZW0nLAogICAgICAgICAgICAgICAgICAgICAgICAgICAgY29sb3I6IFBBUEVSX1RPTkVTLmlua1NvZnQsCiAgICAgICAgICAgICAgICAgICAgICAgIH19CiAgICAgICAgICAgICAgICAgICAgPgogICAgICAgICAgICAgICAgICAgICAgICB7TU9OVEhfTEFCRUxTW21vbnRoXS50b1VwcGVyQ2FzZSgpfQogICAgICAgICAgICAgICAgICAgIDwvZGl2PgogICAgICAgICAgICAgICAgICAgIDxkaXYKICAgICAgICAgICAgICAgICAgICAgICAgc3R5bGU9e3sKICAgICAgICAgICAgICAgICAgICAgICAgICAgIC4uLkRJU1BMQVlfU1RBQ0ssCiAgICAgICAgICAgICAgICAgICAgICAgICAgICBmb250U2l6ZTogMjgsCiAgICAgICAgICAgICAgICAgICAgICAgICAgICBsaW5lSGVpZ2h0OiAxLAogICAgICAgICAgICAgICAgICAgICAgICAgICAgY29sb3I6IFBBUEVSX1RPTkVTLmluaywKICAgICAgICAgICAgICAgICAgICAgICAgICAgIG1hcmdpblRvcDogMiwKICAgICAgICAgICAgICAgICAgICAgICAgICAgIGxldHRlclNwYWNpbmc6ICctMC4wMWVtJywKICAgICAgICAgICAgICAgICAgICAgICAgfX0KICAgICAgICAgICAgICAgICAgICA+CiAgICAgICAgICAgICAgICAgICAgICAgIHt5ZWFyfTxzcGFuIGNsYXNzTmFtZT0ibXgtMSIgc3R5bGU9e3sgY29sb3I6IGFjY2VudENvbG9yIH19PsK3PC9zcGFuPntwYWQyKG1vbnRoICsgMSl9CiAgICAgICAgICAgICAgICAgICAgPC9kaXY+CiAgICAgICAgICAgICAgICAgICAge3RpdGxlICYmICgKICAgICAgICAgICAgICAgICAgICAgICAgPGRpdiBjbGFzc05hbWU9InRleHQtWzExcHhdIG10LTEiIHN0eWxlPXt7IC4uLkNVVEVfU1RBQ0ssIGNvbG9yOiBQQVBFUl9UT05FUy5pbmtTb2Z0IH19PgogICAgICAgICAgICAgICAgICAgICAgICAgICAge3RpdGxlfQogICAgICAgICAgICAgICAgICAgICAgICA8L2Rpdj4KICAgICAgICAgICAgICAgICAgICApfQogICAgICAgICAgICAgICAgPC9kaXY+CiAgICAgICAgICAgICAgICA8ZGl2IGNsYXNzTmFtZT0iZmxleCBnYXAtMSI+CiAgICAgICAgICAgICAgICAgICAgPGJ1dHRvbgogICAgICAgICAgICAgICAgICAgICAgICBvbkNsaWNrPXtnb1RvZGF5fQogICAgICAgICAgICAgICAgICAgICAgICBjbGFzc05hbWU9InctOCBoLTggZmxleCBpdGVtcy1jZW50ZXIganVzdGlmeS1jZW50ZXIgcm91bmRlZC1mdWxsIGFjdGl2ZTpzY2FsZS05NSB0cmFuc2l0aW9uIgogICAgICAgICAgICAgICAgICAgICAgICBzdHlsZT17eyBiYWNrZ3JvdW5kOiAncmdiYSgyNTMsMjQ2LDIzMSwwLjcpJywgY29sb3I6IFBBUEVSX1RPTkVTLmluayB9fQogICAgICAgICAgICAgICAgICAgICAgICBhcmlhLWxhYmVsPSLlm57liLDku4rlpKkiCiAgICAgICAgICAgICAgICAgICAgICAgIHRpdGxlPSLlm57liLDku4rlpKkiCiAgICAgICAgICAgICAgICAgICAgPgogICAgICAgICAgICAgICAgICAgICAgICA8QXJyb3dDb3VudGVyQ2xvY2t3aXNlIGNsYXNzTmFtZT0idy0zLjUgaC0zLjUiIHdlaWdodD0iYm9sZCIgLz4KICAgICAgICAgICAgICAgICAgICA8L2J1dHRvbj4KICAgICAgICAgICAgICAgICAgICA8YnV0dG9uCiAgICAgICAgICAgICAgICAgICAgICAgIG9uQ2xpY2s9e2dvTmV4dE1vbnRofQogICAgICAgICAgICAgICAgICAgICAgICBjbGFzc05hbWU9InctOCBoLTggZmxleCBpdGVtcy1jZW50ZXIganVzdGlmeS1jZW50ZXIgcm91bmRlZC1mdWxsIGFjdGl2ZTpzY2FsZS05NSB0cmFuc2l0aW9uIgogICAgICAgICAgICAgICAgICAgICAgICBzdHlsZT17eyBiYWNrZ3JvdW5kOiAncmdiYSgyNTMsMjQ2LDIzMSwwLjcpJywgY29sb3I6IFBBUEVSX1RPTkVTLmluayB9fQogICAgICAgICAgICAgICAgICAgICAgICBhcmlhLWxhYmVsPSLkuIvkuIDmnIgiCiAgICAgICAgICAgICAgICAgICAgPgogICAgICAgICAgICAgICAgICAgICAgICA8Q2FyZXRSaWdodCBjbGFzc05hbWU9InctMy41IGgtMy41IiB3ZWlnaHQ9ImJvbGQiIC8+CiAgICAgICAgICAgICAgICAgICAgPC9idXR0b24+CiAgICAgICAgICAgICAgICA8L2Rpdj4KICAgICAgICAgICAgPC9kaXY+CgogICAgICAgICAgICB7Lyog5ZGo5qCH562+5p2hICovfQogICAgICAgICAgICA8ZGl2IGNsYXNzTmFtZT0iZ3JpZCBncmlkLWNvbHMtNyBnYXAtMSBtYi0xIj4KICAgICAgICAgICAgICAgIHtXRUVLX0xBQkVMUy5tYXAoKHcsIGkpID0+ICgKICAgICAgICAgICAgICAgICAgICA8ZGl2CiAgICAgICAgICAgICAgICAgICAgICAgIGtleT17aX0KICAgICAgICAgICAgICAgICAgICAgICAgY2xhc3NOYW1lPSJ0ZXh0LWNlbnRlciB0ZXh0LVsxMHB4XSBweS0xIHRyYWNraW5nLXdpZGVzdCIKICAgICAgICAgICAgICAgICAgICAgICAgc3R5bGU9e3sKICAgICAgICAgICAgICAgICAgICAgICAgICAgIC4uLkNVVEVfU1RBQ0ssCiAgICAgICAgICAgICAgICAgICAgICAgICAgICBjb2xvcjogaSA9PT0gMCB8fCBpID09PSA2ID8gYWNjZW50Q29sb3IgOiBQQVBFUl9UT05FUy5pbmtTb2Z0LAogICAgICAgICAgICAgICAgICAgICAgICB9fQogICAgICAgICAgICAgICAgICAgID4KICAgICAgICAgICAgICAgICAgICAgICAge3d9CiAgICAgICAgICAgICAgICAgICAgPC9kaXY+CiAgICAgICAgICAgICAgICApKX0KICAgICAgICAgICAgPC9kaXY+CgogICAgICAgICAgICB7Lyog5pyI5Y6G5qC8ICovfQogICAgICAgICAgICA8ZGl2CiAgICAgICAgICAgICAgICBjbGFzc05hbWU9ImdyaWQgZ3JpZC1jb2xzLTcgZ2FwLTEgcm91bmRlZC14bCBwLTIiCiAgICAgICAgICAgICAgICBzdHlsZT17ewogICAgICAgICAgICAgICAgICAgIGJhY2tncm91bmQ6ICdyZ2JhKDI1MywyNDYsMjMxLDAuNSknLAogICAgICAgICAgICAgICAgICAgIGJvcmRlcjogYDFweCBzb2xpZCAke1BBUEVSX1RPTkVTLnNwaW5lfWAsCiAgICAgICAgICAgICAgICAgICAgYm94U2hhZG93OiAnaW5zZXQgMCAxcHggMnB4IHJnYmEoMTIyLDkwLDExNCwwLjA2KScsCiAgICAgICAgICAgICAgICB9fQogICAgICAgICAgICA+CiAgICAgICAgICAgICAgICB7Y2VsbHMubWFwKChjZWxsLCBpZHgpID0+IHsKICAgICAgICAgICAgICAgICAgICBjb25zdCBpc1RvZGF5ID0gY2VsbC5kYXRlID09PSB0b2RheTsKICAgICAgICAgICAgICAgICAgICBjb25zdCBpc0hpZ2hsaWdodGVkID0gY2VsbC5kYXRlID09PSBoaWdobGlnaHREYXRlOwogICAgICAgICAgICAgICAgICAgIGNvbnN0IGNlbGxDb250ZW50ID0gcmVuZGVyQ2VsbD8uKGNlbGwuZGF0ZSk7CiAgICAgICAgICAgICAgICAgICAgcmV0dXJuICgKICAgICAgICAgICAgICAgICAgICAgICAgPGJ1dHRvbgogICAgICAgICAgICAgICAgICAgICAgICAgICAga2V5PXtpZHh9CiAgICAgICAgICAgICAgICAgICAgICAgICAgICBvbkNsaWNrPXsoKSA9PiBvbkNlbGxUYXA/LihjZWxsLmRhdGUpfQogICAgICAgICAgICAgICAgICAgICAgICAgICAgZGlzYWJsZWQ9eyFvbkNlbGxUYXB9CiAgICAgICAgICAgICAgICAgICAgICAgICAgICBjbGFzc05hbWU9InJlbGF0aXZlIGFzcGVjdC1zcXVhcmUgcm91bmRlZC1tZCBmbGV4IGZsZXgtY29sIGl0ZW1zLWNlbnRlciBqdXN0aWZ5LXN0YXJ0IHB5LTEgYWN0aXZlOnNjYWxlLTk1IHRyYW5zaXRpb24iCiAgICAgICAgICAgICAgICAgICAgICAgICAgICBzdHlsZT17ewogICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgIGJhY2tncm91bmQ6IGlzSGlnaGxpZ2h0ZWQKICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgPyBgJHthY2NlbnRDb2xvcn0zM2AKICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgOiBpc1RvZGF5CiAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICA/ICdyZ2JhKDI1NSwyNTUsMjU1LDAuNiknCiAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICA6ICd0cmFuc3BhcmVudCcsCiAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgb3BhY2l0eTogY2VsbC50aGlzTW9udGggPyAxIDogMC4zLAogICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgIGJvcmRlcjogaXNUb2RheSA/IGAxLjVweCBzb2xpZCAke2FjY2VudENvbG9yfWAgOiAnMXB4IHNvbGlkIHRyYW5zcGFyZW50JywKICAgICAgICAgICAgICAgICAgICAgICAgICAgIH19CiAgICAgICAgICAgICAgICAgICAgICAgID4KICAgICAgICAgICAgICAgICAgICAgICAgICAgIDxzcGFuCiAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgc3R5bGU9e3sKICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgLi4uRElTUExBWV9TVEFDSywKICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgZm9udFNpemU6IDEyLAogICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICBjb2xvcjogY2VsbC50aGlzTW9udGggPyBQQVBFUl9UT05FUy5pbmsgOiBQQVBFUl9UT05FUy5pbmtGYWludCwKICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgbGluZUhlaWdodDogMS4xLAogICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgIH19CiAgICAgICAgICAgICAgICAgICAgICAgICAgICA+CiAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAge2NlbGwuZGF5fQogICAgICAgICAgICAgICAgICAgICAgICAgICAgPC9zcGFuPgogICAgICAgICAgICAgICAgICAgICAgICAgICAgey8qIGNhbGxlciDmuLLmn5PljLooZW1vamkgLyDoibLlnZcgLyDmlbDlrZfigKbigKYpICovfQogICAgICAgICAgICAgICAgICAgICAgICAgICAgPHNwYW4gY2xhc3NOYW1lPSJmbGV4LTEgZmxleCBpdGVtcy1jZW50ZXIganVzdGlmeS1jZW50ZXIgcHQtMC41IGxlYWRpbmctbm9uZSI+CiAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAge2NlbGwudGhpc01vbnRoID8gY2VsbENvbnRlbnQgOiBudWxsfQogICAgICAgICAgICAgICAgICAgICAgICAgICAgPC9zcGFuPgogICAgICAgICAgICAgICAgICAgICAgICA8L2J1dHRvbj4KICAgICAgICAgICAgICAgICAgICApOwogICAgICAgICAgICAgICAgfSl9CiAgICAgICAgICAgIDwvZGl2PgoKICAgICAgICAgICAgey8qIOW6lemDqOWwj+aPkOekuiAqL30KICAgICAgICAgICAgPGRpdgogICAgICAgICAgICAgICAgY2xhc3NOYW1lPSJ0ZXh0LVsxMHB4XSB0ZXh0LWNlbnRlciBtdC0zIGl0YWxpYyIKICAgICAgICAgICAgICAgIHN0eWxlPXt7IC4uLkNVVEVfU1RBQ0ssIGNvbG9yOiBQQVBFUl9UT05FUy5pbmtGYWludCB9fQogICAgICAgICAgICA+CiAgICAgICAgICAgICAgICDngrnlk6rlpKkgwrcg5YaZ5ZOq5aSpIOKZoQogICAgICAgICAgICA8L2Rpdj4KICAgICAgICA8L2Rpdj4KICAgICk7Cn07CgpleHBvcnQgZGVmYXVsdCBDYWxlbmRhclZpZXc7Cg==
+/**
+ * 月历视图(通用基类)
+ *
+ * 所有 Tracker section 都用这个组件:
+ * - 7×6 月历格子,周一/周日开头按 region 配置(这里按周日起,符合中文习惯)
+ * - 顶部:大号月份名 + 上下月切换 + 今日跳回
+ * - 每格:日号 + 由 caller 提供的 renderCell 函数(画 entry 标记/emoji/色块等)
+ * - 点击格子 → 调 onCellTap(date) ,由 caller 决定是 sheet 还是别的
+ * - 支持 highlightDate(用作"今日"圆圈)
+ */
+
+import React from 'react';
+import { PAPER_TONES, CUTE_STACK, DISPLAY_STACK, MONO_STACK } from './paper';
+import { CaretLeft, CaretRight, ArrowCounterClockwise } from '@phosphor-icons/react';
+
+const WEEK_LABELS = ['日', '一', '二', '三', '四', '五', '六'];
+const MONTH_LABELS = ['January','February','March','April','May','June','July','August','September','October','November','December'];
+
+function pad2(n: number): string { return String(n).padStart(2, '0'); }
+function dateKey(y: number, m: number, d: number): string {
+    return `${y}-${pad2(m + 1)}-${pad2(d)}`;
+}
+function daysInMonth(y: number, m: number): number {
+    return new Date(y, m + 1, 0).getDate();
+}
+
+interface CalendarViewProps {
+    /** 默认显示的月份（YYYY-MM 任意日的 date 字符串） */
+    initialDate?: string;
+    /** 高亮的日期(通常 = 今天) */
+    highlightDate?: string;
+    /** 渲染单元格内容(日号下方);返回 null 不画 */
+    renderCell?: (date: string) => React.ReactNode;
+    /** 点击格子触发 */
+    onCellTap?: (date: string) => void;
+    /** 主题色（标记/装饰用），默认樱粉 */
+    accentColor?: string;
+    /** 顶部标题(默认显示英文月份),可以传 tracker 名定制 */
+    title?: React.ReactNode;
+}
+
+const CalendarView: React.FC<CalendarViewProps> = ({
+    initialDate, highlightDate,
+    renderCell, onCellTap,
+    accentColor = PAPER_TONES.accentRose,
+    title,
+}) => {
+    // 状态:当前显示的"基准日期"(用于决定哪个月)
+    const init = (() => {
+        if (initialDate) {
+            const [y, m, d] = initialDate.split('-').map(Number);
+            return new Date(y, m - 1, d);
+        }
+        return new Date();
+    })();
+    const [cursor, setCursor] = React.useState<Date>(init);
+    const year = cursor.getFullYear();
+    const month = cursor.getMonth();
+    const firstDay = new Date(year, month, 1).getDay();    // 0~6
+    const totalDays = daysInMonth(year, month);
+
+    const today = (() => {
+        const d = new Date();
+        return dateKey(d.getFullYear(), d.getMonth(), d.getDate());
+    })();
+
+    // 6 行 × 7 列 = 42 个格子
+    const cells: ({ date: string; day: number; thisMonth: boolean })[] = [];
+    // 上月尾巴
+    if (firstDay > 0) {
+        const prevTotal = daysInMonth(year, month - 1);
+        for (let i = firstDay - 1; i >= 0; i--) {
+            const d = prevTotal - i;
+            const [py, pm] = month === 0 ? [year - 1, 11] : [year, month - 1];
+            cells.push({ date: dateKey(py, pm, d), day: d, thisMonth: false });
+        }
+    }
+    // 本月
+    for (let d = 1; d <= totalDays; d++) {
+        cells.push({ date: dateKey(year, month, d), day: d, thisMonth: true });
+    }
+    // 下月头
+    while (cells.length < 42) {
+        const offset = cells.length - firstDay - totalDays + 1;
+        const [ny, nm] = month === 11 ? [year + 1, 0] : [year, month + 1];
+        cells.push({ date: dateKey(ny, nm, offset), day: offset, thisMonth: false });
+    }
+
+    const goPrevMonth = () => {
+        setCursor(new Date(year, month - 1, 1));
+    };
+    const goNextMonth = () => {
+        setCursor(new Date(year, month + 1, 1));
+    };
+    const goToday = () => {
+        const t = new Date();
+        setCursor(new Date(t.getFullYear(), t.getMonth(), 1));
+    };
+
+    return (
+        <div className="px-4 pt-2 pb-4">
+            {/* 月份标题条 */}
+            <div className="flex items-center justify-between mb-3">
+                <button
+                    onClick={goPrevMonth}
+                    className="w-8 h-8 flex items-center justify-center rounded-full active:scale-95 transition"
+                    style={{ background: 'rgba(253,246,231,0.7)', color: PAPER_TONES.ink }}
+                    aria-label="上一月"
+                >
+                    <CaretLeft className="w-3.5 h-3.5" weight="bold" />
+                </button>
+                <div className="text-center">
+                    <div
+                        style={{
+                            ...MONO_STACK,
+                            fontSize: 10,
+                            letterSpacing: '0.4em',
+                            color: PAPER_TONES.inkSoft,
+                        }}
+                    >
+                        {MONTH_LABELS[month].toUpperCase()}
+                    </div>
+                    <div
+                        style={{
+                            ...DISPLAY_STACK,
+                            fontSize: 28,
+                            lineHeight: 1,
+                            color: PAPER_TONES.ink,
+                            marginTop: 2,
+                            letterSpacing: '-0.01em',
+                        }}
+                    >
+                        {year}<span className="mx-1" style={{ color: accentColor }}>·</span>{pad2(month + 1)}
+                    </div>
+                    {title && (
+                        <div className="text-[11px] mt-1" style={{ ...CUTE_STACK, color: PAPER_TONES.inkSoft }}>
+                            {title}
+                        </div>
+                    )}
+                </div>
+                <div className="flex gap-1">
+                    <button
+                        onClick={goToday}
+                        className="w-8 h-8 flex items-center justify-center rounded-full active:scale-95 transition"
+                        style={{ background: 'rgba(253,246,231,0.7)', color: PAPER_TONES.ink }}
+                        aria-label="回到今天"
+                        title="回到今天"
+                    >
+                        <ArrowCounterClockwise className="w-3.5 h-3.5" weight="bold" />
+                    </button>
+                    <button
+                        onClick={goNextMonth}
+                        className="w-8 h-8 flex items-center justify-center rounded-full active:scale-95 transition"
+                        style={{ background: 'rgba(253,246,231,0.7)', color: PAPER_TONES.ink }}
+                        aria-label="下一月"
+                    >
+                        <CaretRight className="w-3.5 h-3.5" weight="bold" />
+                    </button>
+                </div>
+            </div>
+
+            {/* 周标签条 */}
+            <div className="grid grid-cols-7 gap-1 mb-1">
+                {WEEK_LABELS.map((w, i) => (
+                    <div
+                        key={i}
+                        className="text-center text-[10px] py-1 tracking-widest"
+                        style={{
+                            ...CUTE_STACK,
+                            color: i === 0 || i === 6 ? accentColor : PAPER_TONES.inkSoft,
+                        }}
+                    >
+                        {w}
+                    </div>
+                ))}
+            </div>
+
+            {/* 月历格 */}
+            <div
+                className="grid grid-cols-7 gap-1 rounded-xl p-2"
+                style={{
+                    background: 'rgba(253,246,231,0.5)',
+                    border: `1px solid ${PAPER_TONES.spine}`,
+                    boxShadow: 'inset 0 1px 2px rgba(122,90,114,0.06)',
+                }}
+            >
+                {cells.map((cell, idx) => {
+                    const isToday = cell.date === today;
+                    const isHighlighted = cell.date === highlightDate;
+                    const cellContent = renderCell?.(cell.date);
+                    return (
+                        <button
+                            key={idx}
+                            onClick={() => onCellTap?.(cell.date)}
+                            disabled={!onCellTap}
+                            className="relative aspect-square rounded-md flex flex-col items-center justify-start py-1 active:scale-95 transition"
+                            style={{
+                                background: isHighlighted
+                                    ? `${accentColor}33`
+                                    : isToday
+                                        ? 'rgba(255,255,255,0.6)'
+                                        : 'transparent',
+                                opacity: cell.thisMonth ? 1 : 0.3,
+                                border: isToday ? `1.5px solid ${accentColor}` : '1px solid transparent',
+                            }}
+                        >
+                            <span
+                                style={{
+                                    ...DISPLAY_STACK,
+                                    fontSize: 12,
+                                    color: cell.thisMonth ? PAPER_TONES.ink : PAPER_TONES.inkFaint,
+                                    lineHeight: 1.1,
+                                }}
+                            >
+                                {cell.day}
+                            </span>
+                            {/* caller 渲染区(emoji / 色块 / 数字……) */}
+                            <span className="flex-1 flex items-center justify-center pt-0.5 leading-none">
+                                {cell.thisMonth ? cellContent : null}
+                            </span>
+                        </button>
+                    );
+                })}
+            </div>
+
+            {/* 底部小提示 */}
+            <div
+                className="text-[10px] text-center mt-3 italic"
+                style={{ ...CUTE_STACK, color: PAPER_TONES.inkFaint }}
+            >
+                点哪天 · 写哪天 ♡
+            </div>
+        </div>
+    );
+};
+
+export default CalendarView;

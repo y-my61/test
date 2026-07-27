@@ -1,1 +1,285 @@
-LyoqCiAqIOWDj+e0oOWMluW8leaTjiDigJQgQ2FudmFzIOWbvueJh+KGkuWDj+e0oOi9rOaNouaguOW/g+eul+azlQogKgogKiDnuq8gQ2FudmFzIEFQSe+8jOaXoOWklumDqOS+nei1luOAggogKiAtIHBpeGVsaXplSW1hZ2U6IOe8qeaUviArIOiwg+iJsuadv+mHj+WMliArIOi9ruW7k+eUn+aIkAogKiAtIHJlbW92ZUJhY2tncm91bmQ6IOWbm+inkiBmbG9vZCBmaWxsIOiDjOaZr+WOu+mZpAogKiAtIGF1dG9TcGxpdDog6L+e6YCa5Z+f5YiG5p6Q77yM5YiG5Ymy5ZCI5bm255qE5b2i54q2CiAqLwoKLy8g4pSA4pSA4pSAIOWDj+e0oOWMluS4u+WHveaVsCDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIAKCmV4cG9ydCBpbnRlcmZhY2UgUGl4ZWxpemVSZXN1bHQgewogIGltYWdlRGF0YTogSW1hZ2VEYXRhOwogIHdpZHRoOiBudW1iZXI7CiAgaGVpZ2h0OiBudW1iZXI7Cn0KCi8qKgogKiDlsIblm77niYflg4/ntKDljJbjgIIKICogQHBhcmFtIHNvdXJjZSDljp/lp4vlm77niYcgSW1hZ2VEYXRhCiAqIEBwYXJhbSB0YXJnZXRTaXplIOebruagh+WDj+e0oOWwuuWvuO+8iOi+g+mVv+i+ue+8iQogKiBAcGFyYW0gcGFsZXR0ZSDlj6/pgInosIPoibLmnb8gKGhleCDmlbDnu4Qp77yM5aaC5p6c5o+Q5L6b5YiZ6YeP5YyW5Yiw6K+l6LCD6Imy5p2/CiAqLwpleHBvcnQgZnVuY3Rpb24gcGl4ZWxpemVJbWFnZSgKICBzb3VyY2U6IEltYWdlRGF0YSwKICB0YXJnZXRTaXplOiBudW1iZXIsCiAgcGFsZXR0ZT86IHN0cmluZ1tdLAopOiBQaXhlbGl6ZVJlc3VsdCB7CiAgY29uc3QgeyB3aWR0aDogc3JjVywgaGVpZ2h0OiBzcmNIIH0gPSBzb3VyY2U7CgogIC8vIOiuoeeul+etieavlOe8qeaUvuWQjueahOWwuuWvuAogIGNvbnN0IHJhdGlvID0gc3JjVyAvIHNyY0g7CiAgbGV0IGRzdFc6IG51bWJlciwgZHN0SDogbnVtYmVyOwogIGlmIChyYXRpbyA+PSAxKSB7CiAgICBkc3RXID0gdGFyZ2V0U2l6ZTsKICAgIGRzdEggPSBNYXRoLm1heCgxLCBNYXRoLnJvdW5kKHRhcmdldFNpemUgLyByYXRpbykpOwogIH0gZWxzZSB7CiAgICBkc3RIID0gdGFyZ2V0U2l6ZTsKICAgIGRzdFcgPSBNYXRoLm1heCgxLCBNYXRoLnJvdW5kKHRhcmdldFNpemUgKiByYXRpbykpOwogIH0KCiAgLy8gMS4g57yp5pS+77yIbmVhcmVzdCBuZWlnaGJvciDpgJrov4flj5bmoLfvvIkKICBjb25zdCByZXN1bHQgPSBuZXcgSW1hZ2VEYXRhKGRzdFcsIGRzdEgpOwoKICBmb3IgKGxldCBkeSA9IDA7IGR5IDwgZHN0SDsgZHkrKykgewogICAgZm9yIChsZXQgZHggPSAwOyBkeCA8IGRzdFc7IGR4KyspIHsKICAgICAgLy8g5a+55bqU5Y6f5Zu+5Yy65Z+f55qE5Lit5b+D54K5CiAgICAgIGNvbnN0IHN4ID0gTWF0aC5mbG9vcigoZHggKyAwLjUpICogc3JjVyAvIGRzdFcpOwogICAgICBjb25zdCBzeSA9IE1hdGguZmxvb3IoKGR5ICsgMC41KSAqIHNyY0ggLyBkc3RIKTsKICAgICAgY29uc3Qgc3JjSWR4ID0gKHN5ICogc3JjVyArIHN4KSAqIDQ7CiAgICAgIGNvbnN0IGRzdElkeCA9IChkeSAqIGRzdFcgKyBkeCkgKiA0OwoKICAgICAgbGV0IHIgPSBzb3VyY2UuZGF0YVtzcmNJZHhdOwogICAgICBsZXQgZyA9IHNvdXJjZS5kYXRhW3NyY0lkeCArIDFdOwogICAgICBsZXQgYiA9IHNvdXJjZS5kYXRhW3NyY0lkeCArIDJdOwogICAgICBsZXQgYSA9IHNvdXJjZS5kYXRhW3NyY0lkeCArIDNdOwoKICAgICAgLy8gMi4g6LCD6Imy5p2/6YeP5YyWCiAgICAgIGlmIChwYWxldHRlICYmIHBhbGV0dGUubGVuZ3RoID4gMCAmJiBhID4gMjApIHsKICAgICAgICBjb25zdCBuZWFyZXN0ID0gZmluZE5lYXJlc3RDb2xvcihyLCBnLCBiLCBwYWxldHRlKTsKICAgICAgICByID0gbmVhcmVzdFswXTsKICAgICAgICBnID0gbmVhcmVzdFsxXTsKICAgICAgICBiID0gbmVhcmVzdFsyXTsKICAgICAgfQoKICAgICAgcmVzdWx0LmRhdGFbZHN0SWR4XSA9IHI7CiAgICAgIHJlc3VsdC5kYXRhW2RzdElkeCArIDFdID0gZzsKICAgICAgcmVzdWx0LmRhdGFbZHN0SWR4ICsgMl0gPSBiOwogICAgICByZXN1bHQuZGF0YVtkc3RJZHggKyAzXSA9IGE7CiAgICB9CiAgfQoKICAvLyAzLiDnlJ/miJDova7lu5Pnur8KICBhZGRPdXRsaW5lKHJlc3VsdCwgZHN0VywgZHN0SCk7CgogIHJldHVybiB7IGltYWdlRGF0YTogcmVzdWx0LCB3aWR0aDogZHN0VywgaGVpZ2h0OiBkc3RIIH07Cn0KCi8vIOKUgOKUgOKUgCDog4zmma/ljrvpmaQg4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSACgovKioKICog5LuO5Zub6KeSIGZsb29kIGZpbGwg5Y676Zmk55u45Ly86IOM5pmv6Imy44CCCiAqIEBwYXJhbSBzb3VyY2Ug5Y6f5aeLIEltYWdlRGF0Ye+8iOS8muiiq+S/ruaUue+8iQogKiBAcGFyYW0gdGhyZXNob2xkIOminOiJsuW3ruW8gumYiOWAvCAoMC0yNTUp77yM6buY6K6kIDMwCiAqLwpleHBvcnQgZnVuY3Rpb24gcmVtb3ZlQmFja2dyb3VuZChzb3VyY2U6IEltYWdlRGF0YSwgdGhyZXNob2xkID0gMzApOiBJbWFnZURhdGEgewogIGNvbnN0IHsgd2lkdGgsIGhlaWdodCwgZGF0YSB9ID0gc291cmNlOwogIGNvbnN0IHJlc3VsdCA9IG5ldyBJbWFnZURhdGEobmV3IFVpbnQ4Q2xhbXBlZEFycmF5KGRhdGEpLCB3aWR0aCwgaGVpZ2h0KTsKICBjb25zdCB2aXNpdGVkID0gbmV3IFVpbnQ4QXJyYXkod2lkdGggKiBoZWlnaHQpOwoKICAvLyDku47lm5vkuKrop5Llj5bmoLfog4zmma/oibIKICBjb25zdCBjb3JuZXJzID0gWwogICAgWzAsIDBdLAogICAgW3dpZHRoIC0gMSwgMF0sCiAgICBbMCwgaGVpZ2h0IC0gMV0sCiAgICBbd2lkdGggLSAxLCBoZWlnaHQgLSAxXSwKICBdOwoKICAvLyDlj5blm5vop5LpopzoibLnmoTlubPlnYflgLzkvZzkuLrog4zmma/lj4LogIPoibIKICBsZXQgYmdSID0gMCwgYmdHID0gMCwgYmdCID0gMCwgY291bnQgPSAwOwogIGZvciAoY29uc3QgW2N4LCBjeV0gb2YgY29ybmVycykgewogICAgY29uc3QgaWR4ID0gKGN5ICogd2lkdGggKyBjeCkgKiA0OwogICAgaWYgKGRhdGFbaWR4ICsgM10gPiAxMjgpIHsgLy8g5LiN566X5bey57uP6YCP5piO55qE6KeSCiAgICAgIGJnUiArPSBkYXRhW2lkeF07CiAgICAgIGJnRyArPSBkYXRhW2lkeCArIDFdOwogICAgICBiZ0IgKz0gZGF0YVtpZHggKyAyXTsKICAgICAgY291bnQrKzsKICAgIH0KICB9CiAgaWYgKGNvdW50ID09PSAwKSByZXR1cm4gcmVzdWx0OyAvLyDlm5vop5Lpg73pgI/mmI7vvIzml6DpnIDlpITnkIYKICBiZ1IgPSBNYXRoLnJvdW5kKGJnUiAvIGNvdW50KTsKICBiZ0cgPSBNYXRoLnJvdW5kKGJnRyAvIGNvdW50KTsKICBiZ0IgPSBNYXRoLnJvdW5kKGJnQiAvIGNvdW50KTsKCiAgLy8gQkZTIGZsb29kIGZpbGwg5LuO5Zub6KeS5byA5aeLCiAgY29uc3QgcXVldWU6IG51bWJlcltdID0gW107CiAgZm9yIChjb25zdCBbY3gsIGN5XSBvZiBjb3JuZXJzKSB7CiAgICBjb25zdCBpZHggPSBjeSAqIHdpZHRoICsgY3g7CiAgICBpZiAoIXZpc2l0ZWRbaWR4XSkgewogICAgICBxdWV1ZS5wdXNoKGlkeCk7CiAgICAgIHZpc2l0ZWRbaWR4XSA9IDE7CiAgICB9CiAgfQoKICB3aGlsZSAocXVldWUubGVuZ3RoID4gMCkgewogICAgY29uc3QgcG9zID0gcXVldWUuc2hpZnQoKSE7CiAgICBjb25zdCBweCA9IHBvcyAlIHdpZHRoOwogICAgY29uc3QgcHkgPSBNYXRoLmZsb29yKHBvcyAvIHdpZHRoKTsKICAgIGNvbnN0IGRhdGFJZHggPSBwb3MgKiA0OwoKICAgIGNvbnN0IHIgPSByZXN1bHQuZGF0YVtkYXRhSWR4XTsKICAgIGNvbnN0IGcgPSByZXN1bHQuZGF0YVtkYXRhSWR4ICsgMV07CiAgICBjb25zdCBiID0gcmVzdWx0LmRhdGFbZGF0YUlkeCArIDJdOwoKICAgIC8vIOWIpOaWreaYr+WQpuaYr+iDjOaZr+iJsgogICAgY29uc3QgZGlzdCA9IE1hdGguc3FydCgociAtIGJnUikgKiogMiArIChnIC0gYmdHKSAqKiAyICsgKGIgLSBiZ0IpICoqIDIpOwogICAgaWYgKGRpc3QgPD0gdGhyZXNob2xkKSB7CiAgICAgIC8vIOagh+iusOS4uumAj+aYjgogICAgICByZXN1bHQuZGF0YVtkYXRhSWR4ICsgM10gPSAwOwoKICAgICAgLy8g5omp5bGV5Yiw55u46YK75YOP57SgCiAgICAgIGNvbnN0IG5laWdoYm9ycyA9IFsKICAgICAgICBbcHggLSAxLCBweV0sIFtweCArIDEsIHB5XSwKICAgICAgICBbcHgsIHB5IC0gMV0sIFtweCwgcHkgKyAxXSwKICAgICAgXTsKICAgICAgZm9yIChjb25zdCBbbngsIG55XSBvZiBuZWlnaGJvcnMpIHsKICAgICAgICBpZiAobnggPj0gMCAmJiBueCA8IHdpZHRoICYmIG55ID49IDAgJiYgbnkgPCBoZWlnaHQpIHsKICAgICAgICAgIGNvbnN0IG5JZHggPSBueSAqIHdpZHRoICsgbng7CiAgICAgICAgICBpZiAoIXZpc2l0ZWRbbklkeF0pIHsKICAgICAgICAgICAgdmlzaXRlZFtuSWR4XSA9IDE7CiAgICAgICAgICAgIHF1ZXVlLnB1c2gobklkeCk7CiAgICAgICAgICB9CiAgICAgICAgfQogICAgICB9CiAgICB9CiAgfQoKICByZXR1cm4gcmVzdWx0Owp9CgovLyDilIDilIDilIAg6L+e6YCa5Z+f5YiG5YmyIOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgAoKLyoqCiAqIOWIhuWJsuWQiOW5tueahOW9oueKtu+8jOi/lOWbnuavj+S4queLrOeri+W9oueKtueahOi+ueeVjOahhuOAggogKi8KZXhwb3J0IGZ1bmN0aW9uIGF1dG9TcGxpdChzb3VyY2U6IEltYWdlRGF0YSk6IHsgeDogbnVtYmVyOyB5OiBudW1iZXI7IHc6IG51bWJlcjsgaDogbnVtYmVyIH1bXSB7CiAgY29uc3QgeyB3aWR0aCwgaGVpZ2h0LCBkYXRhIH0gPSBzb3VyY2U7CiAgY29uc3QgbGFiZWxzID0gbmV3IEludDMyQXJyYXkod2lkdGggKiBoZWlnaHQpOwogIGxldCBuZXh0TGFiZWwgPSAxOwogIGNvbnN0IGJveGVzOiBNYXA8bnVtYmVyLCB7IG1pblg6IG51bWJlcjsgbWluWTogbnVtYmVyOyBtYXhYOiBudW1iZXI7IG1heFk6IG51bWJlciB9PiA9IG5ldyBNYXAoKTsKCiAgZm9yIChsZXQgeSA9IDA7IHkgPCBoZWlnaHQ7IHkrKykgewogICAgZm9yIChsZXQgeCA9IDA7IHggPCB3aWR0aDsgeCsrKSB7CiAgICAgIGNvbnN0IGlkeCA9IHkgKiB3aWR0aCArIHg7CiAgICAgIGNvbnN0IGEgPSBkYXRhW2lkeCAqIDQgKyAzXTsKICAgICAgaWYgKGEgPCAyMCB8fCBsYWJlbHNbaWR4XSAhPT0gMCkgY29udGludWU7CgogICAgICAvLyBCRlMg5qCH6K6w6L+e6YCa5Z+fCiAgICAgIGNvbnN0IGxhYmVsID0gbmV4dExhYmVsKys7CiAgICAgIGNvbnN0IHF1ZXVlID0gW2lkeF07CiAgICAgIGxhYmVsc1tpZHhdID0gbGFiZWw7CiAgICAgIGxldCBtaW5YID0geCwgbWluWSA9IHksIG1heFggPSB4LCBtYXhZID0geTsKCiAgICAgIHdoaWxlIChxdWV1ZS5sZW5ndGggPiAwKSB7CiAgICAgICAgY29uc3QgcG9zID0gcXVldWUuc2hpZnQoKSE7CiAgICAgICAgY29uc3QgcHggPSBwb3MgJSB3aWR0aDsKICAgICAgICBjb25zdCBweSA9IE1hdGguZmxvb3IocG9zIC8gd2lkdGgpOwogICAgICAgIG1pblggPSBNYXRoLm1pbihtaW5YLCBweCk7CiAgICAgICAgbWluWSA9IE1hdGgubWluKG1pblksIHB5KTsKICAgICAgICBtYXhYID0gTWF0aC5tYXgobWF4WCwgcHgpOwogICAgICAgIG1heFkgPSBNYXRoLm1heChtYXhZLCBweSk7CgogICAgICAgIGNvbnN0IG5laWdoYm9ycyA9IFsKICAgICAgICAgIFtweCAtIDEsIHB5XSwgW3B4ICsgMSwgcHldLAogICAgICAgICAgW3B4LCBweSAtIDFdLCBbcHgsIHB5ICsgMV0sCiAgICAgICAgXTsKICAgICAgICBmb3IgKGNvbnN0IFtueCwgbnldIG9mIG5laWdoYm9ycykgewogICAgICAgICAgaWYgKG54ID49IDAgJiYgbnggPCB3aWR0aCAmJiBueSA+PSAwICYmIG55IDwgaGVpZ2h0KSB7CiAgICAgICAgICAgIGNvbnN0IG5JZHggPSBueSAqIHdpZHRoICsgbng7CiAgICAgICAgICAgIGlmIChsYWJlbHNbbklkeF0gPT09IDAgJiYgZGF0YVtuSWR4ICogNCArIDNdID49IDIwKSB7CiAgICAgICAgICAgICAgbGFiZWxzW25JZHhdID0gbGFiZWw7CiAgICAgICAgICAgICAgcXVldWUucHVzaChuSWR4KTsKICAgICAgICAgICAgfQogICAgICAgICAgfQogICAgICAgIH0KICAgICAgfQoKICAgICAgYm94ZXMuc2V0KGxhYmVsLCB7IG1pblgsIG1pblksIG1heFgsIG1heFkgfSk7CiAgICB9CiAgfQoKICAvLyDov4fmu6TmjonlpKrlsI/nmoTnoo7niYfvvIjpnaLnp68gPCDmgLvpnaLnp6/nmoQgMSXvvIkKICBjb25zdCB0b3RhbEFyZWEgPSB3aWR0aCAqIGhlaWdodDsKICByZXR1cm4gQXJyYXkuZnJvbShib3hlcy52YWx1ZXMoKSkKICAgIC5tYXAoYiA9PiAoeyB4OiBiLm1pblgsIHk6IGIubWluWSwgdzogYi5tYXhYIC0gYi5taW5YICsgMSwgaDogYi5tYXhZIC0gYi5taW5ZICsgMSB9KSkKICAgIC5maWx0ZXIoYiA9PiBiLncgKiBiLmggPj0gdG90YWxBcmVhICogMC4wMSk7Cn0KCi8vIOKUgOKUgOKUgCDovoXliqnlh73mlbAg4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSACgovKiog5Zyo6Z2e6YCP5piO5YOP57Sg6L6557yY5re75YqgIDFweCDpu5HoibLova7lu5MgKi8KZnVuY3Rpb24gYWRkT3V0bGluZShpbWFnZURhdGE6IEltYWdlRGF0YSwgd2lkdGg6IG51bWJlciwgaGVpZ2h0OiBudW1iZXIpOiB2b2lkIHsKICBjb25zdCB7IGRhdGEgfSA9IGltYWdlRGF0YTsKICBjb25zdCBvdXRsaW5lQ29sb3IgPSBbMzAsIDMwLCAzMCwgMjU1XTsgLy8g5rex54Gw6L2u5buTCgogIC8vIOWFiOagh+iusOmcgOimgea3u+WKoOi9ruW7k+eahOS9jee9rgogIGNvbnN0IG91dGxpbmVQb3NpdGlvbnM6IG51bWJlcltdID0gW107CgogIGZvciAobGV0IHkgPSAwOyB5IDwgaGVpZ2h0OyB5KyspIHsKICAgIGZvciAobGV0IHggPSAwOyB4IDwgd2lkdGg7IHgrKykgewogICAgICBjb25zdCBpZHggPSAoeSAqIHdpZHRoICsgeCkgKiA0OwogICAgICBpZiAoZGF0YVtpZHggKyAzXSA8IDIwKSB7CiAgICAgICAgLy8g5b2T5YmN5YOP57Sg5piv6YCP5piO55qE77yM5qOA5p+l5piv5ZCm55u46YK76Z2e6YCP5piO5YOP57SgCiAgICAgICAgY29uc3QgbmVpZ2hib3JzID0gWwogICAgICAgICAgW3ggLSAxLCB5XSwgW3ggKyAxLCB5XSwKICAgICAgICAgIFt4LCB5IC0gMV0sIFt4LCB5ICsgMV0sCiAgICAgICAgXTsKICAgICAgICBmb3IgKGNvbnN0IFtueCwgbnldIG9mIG5laWdoYm9ycykgewogICAgICAgICAgaWYgKG54ID49IDAgJiYgbnggPCB3aWR0aCAmJiBueSA+PSAwICYmIG55IDwgaGVpZ2h0KSB7CiAgICAgICAgICAgIGNvbnN0IG5JZHggPSAobnkgKiB3aWR0aCArIG54KSAqIDQ7CiAgICAgICAgICAgIGlmIChkYXRhW25JZHggKyAzXSA+PSAyMCkgewogICAgICAgICAgICAgIG91dGxpbmVQb3NpdGlvbnMucHVzaChpZHgpOwogICAgICAgICAgICAgIGJyZWFrOwogICAgICAgICAgICB9CiAgICAgICAgICB9CiAgICAgICAgfQogICAgICB9CiAgICB9CiAgfQoKICAvLyDlupTnlKjova7lu5MKICBmb3IgKGNvbnN0IGlkeCBvZiBvdXRsaW5lUG9zaXRpb25zKSB7CiAgICBkYXRhW2lkeF0gPSBvdXRsaW5lQ29sb3JbMF07CiAgICBkYXRhW2lkeCArIDFdID0gb3V0bGluZUNvbG9yWzFdOwogICAgZGF0YVtpZHggKyAyXSA9IG91dGxpbmVDb2xvclsyXTsKICAgIGRhdGFbaWR4ICsgM10gPSBvdXRsaW5lQ29sb3JbM107CiAgfQp9CgovKiog5bCGIGhleCDpopzoibLovazkuLogW3IsIGcsIGJdICovCmZ1bmN0aW9uIGhleFRvUmdiKGhleDogc3RyaW5nKTogW251bWJlciwgbnVtYmVyLCBudW1iZXJdIHsKICBjb25zdCBoID0gaGV4LnJlcGxhY2UoJyMnLCAnJyk7CiAgcmV0dXJuIFsKICAgIHBhcnNlSW50KGguc3Vic3RyaW5nKDAsIDIpLCAxNiksCiAgICBwYXJzZUludChoLnN1YnN0cmluZygyLCA0KSwgMTYpLAogICAgcGFyc2VJbnQoaC5zdWJzdHJpbmcoNCwgNiksIDE2KSwKICBdOwp9CgovKiog5om+5Yiw6LCD6Imy5p2/5Lit5pyA5o6l6L+R55qE6aKc6ImyICovCmZ1bmN0aW9uIGZpbmROZWFyZXN0Q29sb3IocjogbnVtYmVyLCBnOiBudW1iZXIsIGI6IG51bWJlciwgcGFsZXR0ZTogc3RyaW5nW10pOiBbbnVtYmVyLCBudW1iZXIsIG51bWJlcl0gewogIGxldCBtaW5EaXN0ID0gSW5maW5pdHk7CiAgbGV0IG5lYXJlc3Q6IFtudW1iZXIsIG51bWJlciwgbnVtYmVyXSA9IFtyLCBnLCBiXTsKCiAgZm9yIChjb25zdCBoZXggb2YgcGFsZXR0ZSkgewogICAgY29uc3QgW3ByLCBwZywgcGJdID0gaGV4VG9SZ2IoaGV4KTsKICAgIGNvbnN0IGRpc3QgPSAociAtIHByKSAqKiAyICsgKGcgLSBwZykgKiogMiArIChiIC0gcGIpICoqIDI7CiAgICBpZiAoZGlzdCA8IG1pbkRpc3QpIHsKICAgICAgbWluRGlzdCA9IGRpc3Q7CiAgICAgIG5lYXJlc3QgPSBbcHIsIHBnLCBwYl07CiAgICB9CiAgfQoKICByZXR1cm4gbmVhcmVzdDsKfQo=
+/**
+ * 像素化引擎 — Canvas 图片→像素转换核心算法
+ *
+ * 纯 Canvas API，无外部依赖。
+ * - pixelizeImage: 缩放 + 调色板量化 + 轮廓生成
+ * - removeBackground: 四角 flood fill 背景去除
+ * - autoSplit: 连通域分析，分割合并的形状
+ */
+
+// ─── 像素化主函数 ────────────────────────────────────
+
+export interface PixelizeResult {
+  imageData: ImageData;
+  width: number;
+  height: number;
+}
+
+/**
+ * 将图片像素化。
+ * @param source 原始图片 ImageData
+ * @param targetSize 目标像素尺寸（较长边）
+ * @param palette 可选调色板 (hex 数组)，如果提供则量化到该调色板
+ */
+export function pixelizeImage(
+  source: ImageData,
+  targetSize: number,
+  palette?: string[],
+): PixelizeResult {
+  const { width: srcW, height: srcH } = source;
+
+  // 计算等比缩放后的尺寸
+  const ratio = srcW / srcH;
+  let dstW: number, dstH: number;
+  if (ratio >= 1) {
+    dstW = targetSize;
+    dstH = Math.max(1, Math.round(targetSize / ratio));
+  } else {
+    dstH = targetSize;
+    dstW = Math.max(1, Math.round(targetSize * ratio));
+  }
+
+  // 1. 缩放（nearest neighbor 通过取样）
+  const result = new ImageData(dstW, dstH);
+
+  for (let dy = 0; dy < dstH; dy++) {
+    for (let dx = 0; dx < dstW; dx++) {
+      // 对应原图区域的中心点
+      const sx = Math.floor((dx + 0.5) * srcW / dstW);
+      const sy = Math.floor((dy + 0.5) * srcH / dstH);
+      const srcIdx = (sy * srcW + sx) * 4;
+      const dstIdx = (dy * dstW + dx) * 4;
+
+      let r = source.data[srcIdx];
+      let g = source.data[srcIdx + 1];
+      let b = source.data[srcIdx + 2];
+      let a = source.data[srcIdx + 3];
+
+      // 2. 调色板量化
+      if (palette && palette.length > 0 && a > 20) {
+        const nearest = findNearestColor(r, g, b, palette);
+        r = nearest[0];
+        g = nearest[1];
+        b = nearest[2];
+      }
+
+      result.data[dstIdx] = r;
+      result.data[dstIdx + 1] = g;
+      result.data[dstIdx + 2] = b;
+      result.data[dstIdx + 3] = a;
+    }
+  }
+
+  // 3. 生成轮廓线
+  addOutline(result, dstW, dstH);
+
+  return { imageData: result, width: dstW, height: dstH };
+}
+
+// ─── 背景去除 ────────────────────────────────────────
+
+/**
+ * 从四角 flood fill 去除相似背景色。
+ * @param source 原始 ImageData（会被修改）
+ * @param threshold 颜色差异阈值 (0-255)，默认 30
+ */
+export function removeBackground(source: ImageData, threshold = 30): ImageData {
+  const { width, height, data } = source;
+  const result = new ImageData(new Uint8ClampedArray(data), width, height);
+  const visited = new Uint8Array(width * height);
+
+  // 从四个角取样背景色
+  const corners = [
+    [0, 0],
+    [width - 1, 0],
+    [0, height - 1],
+    [width - 1, height - 1],
+  ];
+
+  // 取四角颜色的平均值作为背景参考色
+  let bgR = 0, bgG = 0, bgB = 0, count = 0;
+  for (const [cx, cy] of corners) {
+    const idx = (cy * width + cx) * 4;
+    if (data[idx + 3] > 128) { // 不算已经透明的角
+      bgR += data[idx];
+      bgG += data[idx + 1];
+      bgB += data[idx + 2];
+      count++;
+    }
+  }
+  if (count === 0) return result; // 四角都透明，无需处理
+  bgR = Math.round(bgR / count);
+  bgG = Math.round(bgG / count);
+  bgB = Math.round(bgB / count);
+
+  // BFS flood fill 从四角开始
+  const queue: number[] = [];
+  for (const [cx, cy] of corners) {
+    const idx = cy * width + cx;
+    if (!visited[idx]) {
+      queue.push(idx);
+      visited[idx] = 1;
+    }
+  }
+
+  while (queue.length > 0) {
+    const pos = queue.shift()!;
+    const px = pos % width;
+    const py = Math.floor(pos / width);
+    const dataIdx = pos * 4;
+
+    const r = result.data[dataIdx];
+    const g = result.data[dataIdx + 1];
+    const b = result.data[dataIdx + 2];
+
+    // 判断是否是背景色
+    const dist = Math.sqrt((r - bgR) ** 2 + (g - bgG) ** 2 + (b - bgB) ** 2);
+    if (dist <= threshold) {
+      // 标记为透明
+      result.data[dataIdx + 3] = 0;
+
+      // 扩展到相邻像素
+      const neighbors = [
+        [px - 1, py], [px + 1, py],
+        [px, py - 1], [px, py + 1],
+      ];
+      for (const [nx, ny] of neighbors) {
+        if (nx >= 0 && nx < width && ny >= 0 && ny < height) {
+          const nIdx = ny * width + nx;
+          if (!visited[nIdx]) {
+            visited[nIdx] = 1;
+            queue.push(nIdx);
+          }
+        }
+      }
+    }
+  }
+
+  return result;
+}
+
+// ─── 连通域分割 ──────────────────────────────────────
+
+/**
+ * 分割合并的形状，返回每个独立形状的边界框。
+ */
+export function autoSplit(source: ImageData): { x: number; y: number; w: number; h: number }[] {
+  const { width, height, data } = source;
+  const labels = new Int32Array(width * height);
+  let nextLabel = 1;
+  const boxes: Map<number, { minX: number; minY: number; maxX: number; maxY: number }> = new Map();
+
+  for (let y = 0; y < height; y++) {
+    for (let x = 0; x < width; x++) {
+      const idx = y * width + x;
+      const a = data[idx * 4 + 3];
+      if (a < 20 || labels[idx] !== 0) continue;
+
+      // BFS 标记连通域
+      const label = nextLabel++;
+      const queue = [idx];
+      labels[idx] = label;
+      let minX = x, minY = y, maxX = x, maxY = y;
+
+      while (queue.length > 0) {
+        const pos = queue.shift()!;
+        const px = pos % width;
+        const py = Math.floor(pos / width);
+        minX = Math.min(minX, px);
+        minY = Math.min(minY, py);
+        maxX = Math.max(maxX, px);
+        maxY = Math.max(maxY, py);
+
+        const neighbors = [
+          [px - 1, py], [px + 1, py],
+          [px, py - 1], [px, py + 1],
+        ];
+        for (const [nx, ny] of neighbors) {
+          if (nx >= 0 && nx < width && ny >= 0 && ny < height) {
+            const nIdx = ny * width + nx;
+            if (labels[nIdx] === 0 && data[nIdx * 4 + 3] >= 20) {
+              labels[nIdx] = label;
+              queue.push(nIdx);
+            }
+          }
+        }
+      }
+
+      boxes.set(label, { minX, minY, maxX, maxY });
+    }
+  }
+
+  // 过滤掉太小的碎片（面积 < 总面积的 1%）
+  const totalArea = width * height;
+  return Array.from(boxes.values())
+    .map(b => ({ x: b.minX, y: b.minY, w: b.maxX - b.minX + 1, h: b.maxY - b.minY + 1 }))
+    .filter(b => b.w * b.h >= totalArea * 0.01);
+}
+
+// ─── 辅助函数 ────────────────────────────────────────
+
+/** 在非透明像素边缘添加 1px 黑色轮廓 */
+function addOutline(imageData: ImageData, width: number, height: number): void {
+  const { data } = imageData;
+  const outlineColor = [30, 30, 30, 255]; // 深灰轮廓
+
+  // 先标记需要添加轮廓的位置
+  const outlinePositions: number[] = [];
+
+  for (let y = 0; y < height; y++) {
+    for (let x = 0; x < width; x++) {
+      const idx = (y * width + x) * 4;
+      if (data[idx + 3] < 20) {
+        // 当前像素是透明的，检查是否相邻非透明像素
+        const neighbors = [
+          [x - 1, y], [x + 1, y],
+          [x, y - 1], [x, y + 1],
+        ];
+        for (const [nx, ny] of neighbors) {
+          if (nx >= 0 && nx < width && ny >= 0 && ny < height) {
+            const nIdx = (ny * width + nx) * 4;
+            if (data[nIdx + 3] >= 20) {
+              outlinePositions.push(idx);
+              break;
+            }
+          }
+        }
+      }
+    }
+  }
+
+  // 应用轮廓
+  for (const idx of outlinePositions) {
+    data[idx] = outlineColor[0];
+    data[idx + 1] = outlineColor[1];
+    data[idx + 2] = outlineColor[2];
+    data[idx + 3] = outlineColor[3];
+  }
+}
+
+/** 将 hex 颜色转为 [r, g, b] */
+function hexToRgb(hex: string): [number, number, number] {
+  const h = hex.replace('#', '');
+  return [
+    parseInt(h.substring(0, 2), 16),
+    parseInt(h.substring(2, 4), 16),
+    parseInt(h.substring(4, 6), 16),
+  ];
+}
+
+/** 找到调色板中最接近的颜色 */
+function findNearestColor(r: number, g: number, b: number, palette: string[]): [number, number, number] {
+  let minDist = Infinity;
+  let nearest: [number, number, number] = [r, g, b];
+
+  for (const hex of palette) {
+    const [pr, pg, pb] = hexToRgb(hex);
+    const dist = (r - pr) ** 2 + (g - pg) ** 2 + (b - pb) ** 2;
+    if (dist < minDist) {
+      minDist = dist;
+      nearest = [pr, pg, pb];
+    }
+  }
+
+  return nearest;
+}

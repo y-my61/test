@@ -1,1 +1,163 @@
-aW1wb3J0IHsgZGVzY3JpYmUsIGl0LCBleHBlY3QsIGJlZm9yZUVhY2gsIGFmdGVyRWFjaCwgdmkgfSBmcm9tICd2aXRlc3QnOwppbXBvcnQgewogICAgaXNWaWRlb1NoYXJlVXJsLAogICAgZm9ybWF0U3RhdENvdW50LAogICAgcGFyc2VWaWRlb1NoYXJlVXJsLAogICAgZ2V0VmlkZW9QYXJzZUtleSwKICAgIHNldFZpZGVvUGFyc2VLZXksCn0gZnJvbSAnLi92aWRlb1BhcnNlcic7CgovLyBhcGl6ZXJvIGZsYXQ9MSDnmoTnnJ/lrp7lk43lupTnu5PmnoTvvIhC56uZ5qC35L6L77yM5a6e5rWL5oqT5Zue5p2l55qE5a2X5q616KOB5Ymq54mI77yJ44CCCmNvbnN0IGJpbGlSZXNwb25zZSA9IHsKICAgIGNvZGU6IDAsCiAgICBtc2c6ICfmiJDlip8nLAogICAgZGF0YTogewogICAgICAgIHBsYXRmb3JtOiAnYmlsaWJpbGknLAogICAgICAgIHR5cGU6ICfop4bpopEnLAogICAgICAgIHRpdGxlOiAn44CQ5a6Y5pa5IE1W44CRTmV2ZXIgR29ubmEgR2l2ZSBZb3UgVXAgLSBSaWNrIEFzdGxleScsCiAgICAgICAgdmlkZW9fdXJsOiAnaHR0cHM6Ly91cG9zLXN6LmJpbGl2aWRlby5jb20veHh4Lm1wNCcsCiAgICAgICAgY292ZXJfdXJsOiAnaHR0cDovL2kxLmhkc2xiLmNvbS9iZnMvYXJjaGl2ZS9jb3Zlci5qcGcnLAogICAgICAgIGF1ZGlvX3VybDogJycsCiAgICAgICAgaW1hZ2VsaXN0OiBbXSwKICAgICAgICBzb3VyY2U6IHsKICAgICAgICAgICAgcGxhdGZvcm06ICdiaWxpYmlsaScsCiAgICAgICAgICAgIHBsYXRmb3JtX2xhYmVsOiAn5ZOU5ZOp5ZOU5ZOpJywKICAgICAgICAgICAgb3JpZ2luYWxfdXJsOiAnaHR0cHM6Ly93d3cuYmlsaWJpbGkuY29tL3ZpZGVvL0JWMUdKNDExeDdoNycsCiAgICAgICAgICAgIGF1dGhvcl9uYW1lOiAn57Si5bC86Z+z5LmQ5Lit5Zu9JywKICAgICAgICB9LAogICAgICAgIHN0YXRzOiB7CiAgICAgICAgICAgIGF1dGhvcl9uYW1lOiAn57Si5bC86Z+z5LmQ5Lit5Zu9JywKICAgICAgICAgICAgYXV0aG9yX2F2YXRhcjogJ2h0dHBzOi8vaTIuaGRzbGIuY29tL2Jmcy9mYWNlL2F2YXRhci5qcGcnLAogICAgICAgICAgICBsaWtlX2NvdW50OiAyNzc3MjQ5LAogICAgICAgICAgICBjb21tZW50X2NvdW50OiAyMTQ1MjUsCiAgICAgICAgICAgIHNoYXJlX2NvdW50OiA0NjAzMzUsCiAgICAgICAgICAgIHBsYXlfY291bnQ6IDEwMDg3NjU2MCwKICAgICAgICAgICAgY29sbGVjdF9jb3VudDogMTQ2MDA2OCwKICAgICAgICAgICAgcHVibGlzaF90aW1lOiAnMjAyMC0wMS0wMSAwNzo0MzoyMycsCiAgICAgICAgfSwKICAgICAgICB2aWRlb19saXN0OiBbXSwKICAgIH0sCiAgICByZXF1ZXN0X2lkOiAndGVzdCcsCn07Cgpjb25zdCBtb2NrRmV0Y2ggPSAoYm9keTogYW55LCBzdGF0dXMgPSAyMDApID0+IHsKICAgIGNvbnN0IGZuID0gdmkuZm4oYXN5bmMgKC4uLl9hcmdzOiBhbnlbXSkgPT4gKHsKICAgICAgICBvazogc3RhdHVzID49IDIwMCAmJiBzdGF0dXMgPCAzMDAsCiAgICAgICAgc3RhdHVzLAogICAgICAgIHRleHQ6IGFzeW5jICgpID0+IEpTT04uc3RyaW5naWZ5KGJvZHkpLAogICAgfSkpOwogICAgdmkuc3R1Ykdsb2JhbCgnZmV0Y2gnLCBmbik7CiAgICByZXR1cm4gZm47Cn07CgpiZWZvcmVFYWNoKCgpID0+IHsKICAgIGxvY2FsU3RvcmFnZS5yZW1vdmVJdGVtKCdzdWxseV92aWRlb19wYXJzZV9rZXlfdjEnKTsKfSk7CgphZnRlckVhY2goKCkgPT4gewogICAgdmkudW5zdHViQWxsR2xvYmFscygpOwp9KTsKCmRlc2NyaWJlKCdpc1ZpZGVvU2hhcmVVcmwnLCAoKSA9PiB7CiAgICBpdCgn6K+G5Yir5Li75rWB6KeG6aKR5bmz5Y+w6ZO+5o6l77yI5ZCr55+t6ZO+5ZKM5a2Q5Z+f77yJJywgKCkgPT4gewogICAgICAgIGV4cGVjdChpc1ZpZGVvU2hhcmVVcmwoJ2h0dHBzOi8vdi5kb3V5aW4uY29tL2lSTkJobzZ1LycpKS50b0JlKHRydWUpOwogICAgICAgIGV4cGVjdChpc1ZpZGVvU2hhcmVVcmwoJ2h0dHBzOi8vd3d3LmRvdXlpbi5jb20vdmlkZW8vNzIzMTIzMTIzMTIzMTIzMTIzMScpKS50b0JlKHRydWUpOwogICAgICAgIGV4cGVjdChpc1ZpZGVvU2hhcmVVcmwoJ2h0dHBzOi8vYjIzLnR2L2FiYzEyMycpKS50b0JlKHRydWUpOwogICAgICAgIGV4cGVjdChpc1ZpZGVvU2hhcmVVcmwoJ2h0dHBzOi8vd3d3LmJpbGliaWxpLmNvbS92aWRlby9CVjFHSjQxMXg3aDcnKSkudG9CZSh0cnVlKTsKICAgICAgICBleHBlY3QoaXNWaWRlb1NoYXJlVXJsKCdodHRwczovL3Yua3VhaXNob3UuY29tL3h5eicpKS50b0JlKHRydWUpOwogICAgICAgIGV4cGVjdChpc1ZpZGVvU2hhcmVVcmwoJ2h0dHBzOi8veW91dHUuYmUvZFF3NHc5V2dYY1EnKSkudG9CZSh0cnVlKTsKICAgICAgICBleHBlY3QoaXNWaWRlb1NoYXJlVXJsKCdodHRwczovL3guY29tL3VzZXIvc3RhdHVzLzEyMycpKS50b0JlKHRydWUpOwogICAgfSk7CgogICAgaXQoJ+aZrumAmue9kemhtSAvIOWwj+e6ouS5piAvIOmdnuazlei+k+WFpeS4jeWRveS4rScsICgpID0+IHsKICAgICAgICBleHBlY3QoaXNWaWRlb1NoYXJlVXJsKCdodHRwczovL2V4YW1wbGUuY29tL2FydGljbGUnKSkudG9CZShmYWxzZSk7CiAgICAgICAgZXhwZWN0KGlzVmlkZW9TaGFyZVVybCgnaHR0cHM6Ly93d3cueGlhb2hvbmdzaHUuY29tL2V4cGxvcmUvYWJjJykpLnRvQmUoZmFsc2UpOyAvLyBYSFMg6LWw5LiT6Zeo5Y2h54mH6Lev5b6ECiAgICAgICAgZXhwZWN0KGlzVmlkZW9TaGFyZVVybCgnaHR0cHM6Ly94aHNsaW5rLmNvbS9hYmMnKSkudG9CZShmYWxzZSk7CiAgICAgICAgZXhwZWN0KGlzVmlkZW9TaGFyZVVybCgnaHR0cDovL3hoc2xpbmsuY24vby9hYmMnKSkudG9CZShmYWxzZSk7CiAgICAgICAgZXhwZWN0KGlzVmlkZW9TaGFyZVVybCgnbm90IGEgdXJsJykpLnRvQmUoZmFsc2UpOwogICAgICAgIGV4cGVjdChpc1ZpZGVvU2hhcmVVcmwoJycpKS50b0JlKGZhbHNlKTsKICAgICAgICAvLyDln5/lkI3lkI7nvIDkuI3og73ooqvliY3nvIDku7/lhpIKICAgICAgICBleHBlY3QoaXNWaWRlb1NoYXJlVXJsKCdodHRwczovL2Zha2Vkb3V5aW4uY29tL3YvMScpKS50b0JlKGZhbHNlKTsKICAgICAgICBleHBlY3QoaXNWaWRlb1NoYXJlVXJsKCdodHRwczovL2RvdXlpbi5jb20uZXZpbC5jb20vdi8xJykpLnRvQmUoZmFsc2UpOwogICAgfSk7Cn0pOwoKZGVzY3JpYmUoJ2Zvcm1hdFN0YXRDb3VudCcsICgpID0+IHsKICAgIGl0KCfkuIcgLyDkur/nvKnlhpnvvIzljrvmjokgLjAg5bC+5be0JywgKCkgPT4gewogICAgICAgIGV4cGVjdChmb3JtYXRTdGF0Q291bnQoMjc3NzI0OSkpLnRvQmUoJzI3Ny435LiHJyk7CiAgICAgICAgZXhwZWN0KGZvcm1hdFN0YXRDb3VudCgxMDA4NzY1NjApKS50b0JlKCcx5Lq/Jyk7CiAgICAgICAgZXhwZWN0KGZvcm1hdFN0YXRDb3VudCg5OTk5KSkudG9CZSgnOTk5OScpOwogICAgICAgIGV4cGVjdChmb3JtYXRTdGF0Q291bnQoMTAwMDApKS50b0JlKCcx5LiHJyk7CiAgICB9KTsKCiAgICBpdCgnMCAvIOi0n+aVsCAvIOmdnuazleWAvOi/lOWbnuepuuS4sicsICgpID0+IHsKICAgICAgICBleHBlY3QoZm9ybWF0U3RhdENvdW50KDApKS50b0JlKCcnKTsKICAgICAgICBleHBlY3QoZm9ybWF0U3RhdENvdW50KC01KSkudG9CZSgnJyk7CiAgICAgICAgZXhwZWN0KGZvcm1hdFN0YXRDb3VudCh1bmRlZmluZWQpKS50b0JlKCcnKTsKICAgICAgICBleHBlY3QoZm9ybWF0U3RhdENvdW50KE5hTikpLnRvQmUoJycpOwogICAgfSk7Cn0pOwoKZGVzY3JpYmUoJ3BhcnNlVmlkZW9TaGFyZVVybCcsICgpID0+IHsKICAgIGl0KCdmbGF0PTEg5ZON5bqU5pig5bCE5oiQIEV4dHJhY3RlZFdlYnBhZ2XvvIjlkKsgdmlkZW8g6ZmE5Yqg5a2X5q6177yJJywgYXN5bmMgKCkgPT4gewogICAgICAgIG1vY2tGZXRjaChiaWxpUmVzcG9uc2UpOwogICAgICAgIGNvbnN0IHdwID0gYXdhaXQgcGFyc2VWaWRlb1NoYXJlVXJsKCdodHRwczovL2IyMy50di9hYmMxMjMnKTsKICAgICAgICBleHBlY3Qod3AudGl0bGUpLnRvQmUoJ+OAkOWumOaWuSBNVuOAkU5ldmVyIEdvbm5hIEdpdmUgWW91IFVwIC0gUmljayBBc3RsZXknKTsKICAgICAgICBleHBlY3Qod3AuZmluYWxVcmwpLnRvQmUoJ2h0dHBzOi8vd3d3LmJpbGliaWxpLmNvbS92aWRlby9CVjFHSjQxMXg3aDcnKTsKICAgICAgICBleHBlY3Qod3Auc2l0ZU5hbWUpLnRvQmUoJ+WTlOWTqeWTlOWTqScpOwogICAgICAgIGV4cGVjdCh3cC5pbWFnZSkudG9CZSgnaHR0cDovL2kxLmhkc2xiLmNvbS9iZnMvYXJjaGl2ZS9jb3Zlci5qcGcnKTsKICAgICAgICBleHBlY3Qod3AuY29udGVudCkudG9CZSgnJyk7CiAgICAgICAgZXhwZWN0KHdwLnZpZGVvKS50b01hdGNoT2JqZWN0KHsKICAgICAgICAgICAgcGxhdGZvcm06ICdiaWxpYmlsaScsCiAgICAgICAgICAgIHBsYXRmb3JtTGFiZWw6ICflk5Tlk6nlk5Tlk6knLAogICAgICAgICAgICBjb250ZW50VHlwZTogJ3ZpZGVvJywKICAgICAgICAgICAgYXV0aG9yTmFtZTogJ+e0ouWwvOmfs+S5kOS4reWbvScsCiAgICAgICAgICAgIHBsYXlDb3VudDogMTAwODc2NTYwLAogICAgICAgICAgICBsaWtlQ291bnQ6IDI3NzcyNDksCiAgICAgICAgICAgIHB1Ymxpc2hUaW1lOiAnMjAyMC0wMS0wMSAwNzo0MzoyMycsCiAgICAgICAgfSk7CiAgICB9KTsKCiAgICBpdCgn5Zu+6ZuG77yIdHlwZT3lm77niYcgKyBpbWFnZWxpc3TvvInihpIgY29udGVudFR5cGUgaW1hZ2UgKyDlvKDmlbAgKyDpppblm77lhZzlupXlsIHpnaInLCBhc3luYyAoKSA9PiB7CiAgICAgICAgbW9ja0ZldGNoKHsKICAgICAgICAgICAgY29kZTogMCwKICAgICAgICAgICAgZGF0YTogewogICAgICAgICAgICAgICAgcGxhdGZvcm06ICdkb3V5aW4nLCB0eXBlOiAn5Zu+54mHJywgdGl0bGU6ICfkuZ3lrqvmoLwnLCB2aWRlb191cmw6ICcnLCBjb3Zlcl91cmw6ICcnLAogICAgICAgICAgICAgICAgaW1hZ2VsaXN0OiBbJ2h0dHBzOi8vcDEuZXhhbXBsZS5jb20vMS5qcGcnLCAnaHR0cHM6Ly9wMS5leGFtcGxlLmNvbS8yLmpwZyddLAogICAgICAgICAgICAgICAgc291cmNlOiB7IHBsYXRmb3JtX2xhYmVsOiAn5oqW6Z+zJywgb3JpZ2luYWxfdXJsOiAnaHR0cHM6Ly93d3cuZG91eWluLmNvbS9ub3RlLzEnIH0sCiAgICAgICAgICAgICAgICBzdGF0czoge30sCiAgICAgICAgICAgIH0sCiAgICAgICAgfSk7CiAgICAgICAgY29uc3Qgd3AgPSBhd2FpdCBwYXJzZVZpZGVvU2hhcmVVcmwoJ2h0dHBzOi8vdi5kb3V5aW4uY29tL3h5ei8nKTsKICAgICAgICBleHBlY3Qod3AudmlkZW8/LmNvbnRlbnRUeXBlKS50b0JlKCdpbWFnZScpOwogICAgICAgIGV4cGVjdCh3cC52aWRlbz8uaW1hZ2VDb3VudCkudG9CZSgyKTsKICAgICAgICBleHBlY3Qod3AuaW1hZ2UpLnRvQmUoJ2h0dHBzOi8vcDEuZXhhbXBsZS5jb20vMS5qcGcnKTsKICAgIH0pOwoKICAgIGl0KCfkuJrliqHplJnor6/noIHnv7vmiJDkurror53lubbmipvplJnvvIg0MDMwIOmFjemineiAl+Wwve+8iScsIGFzeW5jICgpID0+IHsKICAgICAgICBtb2NrRmV0Y2goeyBjb2RlOiA0MDMwLCBtc2c6ICdkYWlseSBxdW90YSBleGNlZWRlZCcgfSk7CiAgICAgICAgYXdhaXQgZXhwZWN0KHBhcnNlVmlkZW9TaGFyZVVybCgnaHR0cHM6Ly9iMjMudHYvYWJjJykpLnJlamVjdHMudG9UaHJvdygv6YWN6aKd5bey6ICX5bC9Lyk7CiAgICB9KTsKCiAgICBpdCgn5pyq55+l6ZSZ6K+v56CB5Zue6JC9IEFQSSDoh6rluKYgbXNnJywgYXN5bmMgKCkgPT4gewogICAgICAgIG1vY2tGZXRjaCh7IGNvZGU6IDk5OTksIG1zZzogJ+Wlh+aAqueahOaWsOmUmeivrycgfSk7CiAgICAgICAgYXdhaXQgZXhwZWN0KHBhcnNlVmlkZW9TaGFyZVVybCgnaHR0cHM6Ly9iMjMudHYvYWJjJykpLnJlamVjdHMudG9UaHJvdygn5aWH5oCq55qE5paw6ZSZ6K+vJyk7CiAgICB9KTsKCiAgICBpdCgn56m65aOz57uT5p6c77yI5peg5qCH6aKY5peg6KeG6aKR5peg5Zu+77yJ5oqb6ZSZ77yM6K6p6LCD55So5pa56ZmN57qn6YCa55So5oqT5Y+WJywgYXN5bmMgKCkgPT4gewogICAgICAgIG1vY2tGZXRjaCh7IGNvZGU6IDAsIGRhdGE6IHsgcGxhdGZvcm06ICd3ZWlibycsIHRpdGxlOiAnJywgdmlkZW9fdXJsOiAnJywgaW1hZ2VsaXN0OiBbXSB9IH0pOwogICAgICAgIGF3YWl0IGV4cGVjdChwYXJzZVZpZGVvU2hhcmVVcmwoJ2h0dHBzOi8vd2VpYm8uY29tLzEyMycpKS5yZWplY3RzLnRvVGhyb3coJ+ino+aekOe7k+aenOS4uuepuicpOwogICAgfSk7CgogICAgaXQoJ2xvY2FsU3RvcmFnZSDph4znmoQga2V5IOS8muW4pui/m+ivt+axguWPguaVsCcsIGFzeW5jICgpID0+IHsKICAgICAgICBzZXRWaWRlb1BhcnNlS2V5KCcgIG15LXRlc3Qta2V5ICAnKTsKICAgICAgICBleHBlY3QoZ2V0VmlkZW9QYXJzZUtleSgpKS50b0JlKCdteS10ZXN0LWtleScpOwogICAgICAgIGNvbnN0IGZuID0gbW9ja0ZldGNoKGJpbGlSZXNwb25zZSk7CiAgICAgICAgYXdhaXQgcGFyc2VWaWRlb1NoYXJlVXJsKCdodHRwczovL2IyMy50di9hYmMxMjMnKTsKICAgICAgICBjb25zdCBjYWxsZWRVcmwgPSBTdHJpbmcoZm4ubW9jay5jYWxsc1swXVswXSk7CiAgICAgICAgZXhwZWN0KGNhbGxlZFVybCkudG9Db250YWluKCdrZXk9bXktdGVzdC1rZXknKTsKICAgICAgICBleHBlY3QoY2FsbGVkVXJsKS50b0NvbnRhaW4oJ2ZsYXQ9MScpOwogICAgICAgIHNldFZpZGVvUGFyc2VLZXkoJycpOwogICAgICAgIGV4cGVjdChnZXRWaWRlb1BhcnNlS2V5KCkpLnRvTWF0Y2goL15za19saXZlXy8pOyAvLyDmuIXnqbrlkI7lm57okL3lhoXnva7pu5jorqQga2V5CiAgICB9KTsKfSk7Cg==
+import { describe, it, expect, beforeEach, afterEach, vi } from 'vitest';
+import {
+    isVideoShareUrl,
+    formatStatCount,
+    parseVideoShareUrl,
+    getVideoParseKey,
+    setVideoParseKey,
+} from './videoParser';
+
+// apizero flat=1 的真实响应结构（B站样例，实测抓回来的字段裁剪版）。
+const biliResponse = {
+    code: 0,
+    msg: '成功',
+    data: {
+        platform: 'bilibili',
+        type: '视频',
+        title: '【官方 MV】Never Gonna Give You Up - Rick Astley',
+        video_url: 'https://upos-sz.bilivideo.com/xxx.mp4',
+        cover_url: 'http://i1.hdslb.com/bfs/archive/cover.jpg',
+        audio_url: '',
+        imagelist: [],
+        source: {
+            platform: 'bilibili',
+            platform_label: '哔哩哔哩',
+            original_url: 'https://www.bilibili.com/video/BV1GJ411x7h7',
+            author_name: '索尼音乐中国',
+        },
+        stats: {
+            author_name: '索尼音乐中国',
+            author_avatar: 'https://i2.hdslb.com/bfs/face/avatar.jpg',
+            like_count: 2777249,
+            comment_count: 214525,
+            share_count: 460335,
+            play_count: 100876560,
+            collect_count: 1460068,
+            publish_time: '2020-01-01 07:43:23',
+        },
+        video_list: [],
+    },
+    request_id: 'test',
+};
+
+const mockFetch = (body: any, status = 200) => {
+    const fn = vi.fn(async (..._args: any[]) => ({
+        ok: status >= 200 && status < 300,
+        status,
+        text: async () => JSON.stringify(body),
+    }));
+    vi.stubGlobal('fetch', fn);
+    return fn;
+};
+
+beforeEach(() => {
+    localStorage.removeItem('sully_video_parse_key_v1');
+});
+
+afterEach(() => {
+    vi.unstubAllGlobals();
+});
+
+describe('isVideoShareUrl', () => {
+    it('识别主流视频平台链接（含短链和子域）', () => {
+        expect(isVideoShareUrl('https://v.douyin.com/iRNBho6u/')).toBe(true);
+        expect(isVideoShareUrl('https://www.douyin.com/video/7231231231231231231')).toBe(true);
+        expect(isVideoShareUrl('https://b23.tv/abc123')).toBe(true);
+        expect(isVideoShareUrl('https://www.bilibili.com/video/BV1GJ411x7h7')).toBe(true);
+        expect(isVideoShareUrl('https://v.kuaishou.com/xyz')).toBe(true);
+        expect(isVideoShareUrl('https://youtu.be/dQw4w9WgXcQ')).toBe(true);
+        expect(isVideoShareUrl('https://x.com/user/status/123')).toBe(true);
+    });
+
+    it('普通网页 / 小红书 / 非法输入不命中', () => {
+        expect(isVideoShareUrl('https://example.com/article')).toBe(false);
+        expect(isVideoShareUrl('https://www.xiaohongshu.com/explore/abc')).toBe(false); // XHS 走专门卡片路径
+        expect(isVideoShareUrl('https://xhslink.com/abc')).toBe(false);
+        expect(isVideoShareUrl('http://xhslink.cn/o/abc')).toBe(false);
+        expect(isVideoShareUrl('not a url')).toBe(false);
+        expect(isVideoShareUrl('')).toBe(false);
+        // 域名后缀不能被前缀仿冒
+        expect(isVideoShareUrl('https://fakedouyin.com/v/1')).toBe(false);
+        expect(isVideoShareUrl('https://douyin.com.evil.com/v/1')).toBe(false);
+    });
+});
+
+describe('formatStatCount', () => {
+    it('万 / 亿缩写，去掉 .0 尾巴', () => {
+        expect(formatStatCount(2777249)).toBe('277.7万');
+        expect(formatStatCount(100876560)).toBe('1亿');
+        expect(formatStatCount(9999)).toBe('9999');
+        expect(formatStatCount(10000)).toBe('1万');
+    });
+
+    it('0 / 负数 / 非法值返回空串', () => {
+        expect(formatStatCount(0)).toBe('');
+        expect(formatStatCount(-5)).toBe('');
+        expect(formatStatCount(undefined)).toBe('');
+        expect(formatStatCount(NaN)).toBe('');
+    });
+});
+
+describe('parseVideoShareUrl', () => {
+    it('flat=1 响应映射成 ExtractedWebpage（含 video 附加字段）', async () => {
+        mockFetch(biliResponse);
+        const wp = await parseVideoShareUrl('https://b23.tv/abc123');
+        expect(wp.title).toBe('【官方 MV】Never Gonna Give You Up - Rick Astley');
+        expect(wp.finalUrl).toBe('https://www.bilibili.com/video/BV1GJ411x7h7');
+        expect(wp.siteName).toBe('哔哩哔哩');
+        expect(wp.image).toBe('http://i1.hdslb.com/bfs/archive/cover.jpg');
+        expect(wp.content).toBe('');
+        expect(wp.video).toMatchObject({
+            platform: 'bilibili',
+            platformLabel: '哔哩哔哩',
+            contentType: 'video',
+            authorName: '索尼音乐中国',
+            playCount: 100876560,
+            likeCount: 2777249,
+            publishTime: '2020-01-01 07:43:23',
+        });
+    });
+
+    it('图集（type=图片 + imagelist）→ contentType image + 张数 + 首图兜底封面', async () => {
+        mockFetch({
+            code: 0,
+            data: {
+                platform: 'douyin', type: '图片', title: '九宫格', video_url: '', cover_url: '',
+                imagelist: ['https://p1.example.com/1.jpg', 'https://p1.example.com/2.jpg'],
+                source: { platform_label: '抖音', original_url: 'https://www.douyin.com/note/1' },
+                stats: {},
+            },
+        });
+        const wp = await parseVideoShareUrl('https://v.douyin.com/xyz/');
+        expect(wp.video?.contentType).toBe('image');
+        expect(wp.video?.imageCount).toBe(2);
+        expect(wp.image).toBe('https://p1.example.com/1.jpg');
+    });
+
+    it('业务错误码翻成人话并抛错（4030 配额耗尽）', async () => {
+        mockFetch({ code: 4030, msg: 'daily quota exceeded' });
+        await expect(parseVideoShareUrl('https://b23.tv/abc')).rejects.toThrow(/配额已耗尽/);
+    });
+
+    it('未知错误码回落 API 自带 msg', async () => {
+        mockFetch({ code: 9999, msg: '奇怪的新错误' });
+        await expect(parseVideoShareUrl('https://b23.tv/abc')).rejects.toThrow('奇怪的新错误');
+    });
+
+    it('空壳结果（无标题无视频无图）抛错，让调用方降级通用抓取', async () => {
+        mockFetch({ code: 0, data: { platform: 'weibo', title: '', video_url: '', imagelist: [] } });
+        await expect(parseVideoShareUrl('https://weibo.com/123')).rejects.toThrow('解析结果为空');
+    });
+
+    it('localStorage 里的 key 会带进请求参数', async () => {
+        setVideoParseKey('  my-test-key  ');
+        expect(getVideoParseKey()).toBe('my-test-key');
+        const fn = mockFetch(biliResponse);
+        await parseVideoShareUrl('https://b23.tv/abc123');
+        const calledUrl = String(fn.mock.calls[0][0]);
+        expect(calledUrl).toContain('key=my-test-key');
+        expect(calledUrl).toContain('flat=1');
+        setVideoParseKey('');
+        expect(getVideoParseKey()).toMatch(/^sk_live_/); // 清空后回落内置默认 key
+    });
+});

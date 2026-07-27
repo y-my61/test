@@ -1,1 +1,31 @@
-aW1wb3J0IHsgZGVzY3JpYmUsIGl0LCBleHBlY3QgfSBmcm9tICd2aXRlc3QnOwppbXBvcnQgeyBEQiB9IGZyb20gJy4vZGInOwoKLy8g6K6w5b+G5a6r5q6/5rC05L2N57q/6Ieq5oSI77ya5rWP6KeI5Zmo5riF5o6JIEluZGV4ZWREQu+8iOa2iOaBr+iHquWiniBpZCDlvZLpm7bph43orqHvvInkvYYgbG9jYWxTdG9yYWdlCi8vIOW5uOWtmOaXtu+8jOaui+eVmeeahCBtcF9sYXN0TXNnSWRfIOmrmOawtOS9jeS8muaKiuivpeinkuiJsuaJgOacieaWsOa2iOaBr++8iOWQq+WImuWPkeeahOmCo+adoe+8ieS7jgovLyBod20g6L+H5ruk6K+75Y+W6YeM5oyh5o6JIOKAlOKAlCDor7fmsYLlj6rliakgc3lzdGVtIOa2iOaBr+OAgeS4iua4uCA0MDDjgILkuI3lj5jlvI/vvJrlkIjms5XmsLTkvY3mmK/mn5DmnaEKLy8g5pei5pyJ5raI5oGv55qEIGlk77yM5paw5raI5oGv55qE6Ieq5aKeIGlkIOW/heeEtuWkp+S6juWug++8m+WHuueOsOaWsCBpZCDiiaQg5rC05L2N5Y2z6K+B5piO5rC05L2N5aSx5pWI44CCCmRlc2NyaWJlKCdzYXZlTWVzc2FnZSDorrDlv4blrqvmrr/msLTkvY3nur/oh6rmhIgnLCAoKSA9PiB7CiAgICBpdCgn5q6L55WZ6auY5rC05L2NIOKJpSDmlrDmtojmga8gaWQg4oaSIOiQveW6k+aXtuiHquWKqOenu+mZpO+8jOivpea2iOaBr+iDveiiq+m7mOiupOivu+WPluWIsCcsIGFzeW5jICgpID0+IHsKICAgICAgICBsb2NhbFN0b3JhZ2Uuc2V0SXRlbSgnbXBfbGFzdE1zZ0lkX2NoYXItc3RhbGUnLCAnOTk5OTknKTsKICAgICAgICBjb25zdCBpZCA9IGF3YWl0IERCLnNhdmVNZXNzYWdlKHsgY2hhcklkOiAnY2hhci1zdGFsZScsIHJvbGU6ICd1c2VyJywgdHlwZTogJ3RleHQnLCBjb250ZW50OiAn5L2g5aW9JyB9IGFzIGFueSk7CiAgICAgICAgZXhwZWN0KGlkKS50b0JlTGVzc1RoYW4oOTk5OTkpOwogICAgICAgIGV4cGVjdChsb2NhbFN0b3JhZ2UuZ2V0SXRlbSgnbXBfbGFzdE1zZ0lkX2NoYXItc3RhbGUnKSkudG9CZU51bGwoKTsKICAgICAgICAvLyDmsLTkvY3muIXmjonlkI7vvIzpu5jorqTvvIhod20g6L+H5ruk77yJ6K+75Y+W6KaB6IO955yL5Yiw6L+Z5p2h5raI5oGvIOKAlOKAlCDkuYvliY0gNDAwIOeahOagueWboOWwseaYr+i/memHjOivu+WHuuepuuaVsOe7hAogICAgICAgIGNvbnN0IG1zZ3MgPSBhd2FpdCBEQi5nZXRSZWNlbnRNZXNzYWdlc0J5Q2hhcklkKCdjaGFyLXN0YWxlJywgMTApOwogICAgICAgIGV4cGVjdChtc2dzLm1hcChtID0+IG0uY29udGVudCkpLnRvQ29udGFpbign5L2g5aW9Jyk7CiAgICB9KTsKCiAgICBpdCgn5q2j5bi45rC05L2N77yI5bCP5LqO5paw5raI5oGvIGlk77yJ5Y6f5qC35L+d55WZJywgYXN5bmMgKCkgPT4gewogICAgICAgIGxvY2FsU3RvcmFnZS5zZXRJdGVtKCdtcF9sYXN0TXNnSWRfY2hhci1vaycsICcxJyk7CiAgICAgICAgY29uc3QgaWQgPSBhd2FpdCBEQi5zYXZlTWVzc2FnZSh7IGNoYXJJZDogJ2NoYXItb2snLCByb2xlOiAndXNlcicsIHR5cGU6ICd0ZXh0JywgY29udGVudDogJ2hpJyB9IGFzIGFueSk7CiAgICAgICAgZXhwZWN0KGlkKS50b0JlR3JlYXRlclRoYW4oMSk7CiAgICAgICAgZXhwZWN0KGxvY2FsU3RvcmFnZS5nZXRJdGVtKCdtcF9sYXN0TXNnSWRfY2hhci1vaycpKS50b0JlKCcxJyk7CiAgICB9KTsKCiAgICBpdCgn576k6IGK5raI5oGv5ZCM5pe25qCh6aqM5bm25riF55CG5aSx5pWI55qE576k5rC05L2N6ZSuJywgYXN5bmMgKCkgPT4gewogICAgICAgIGxvY2FsU3RvcmFnZS5zZXRJdGVtKCdtcF9sYXN0TXNnSWRfZ3JvdXBfZzEnLCAnOTk5OTknKTsKICAgICAgICBhd2FpdCBEQi5zYXZlTWVzc2FnZSh7IGNoYXJJZDogJ2NoYXIteCcsIGdyb3VwSWQ6ICdnMScsIHJvbGU6ICd1c2VyJywgdHlwZTogJ3RleHQnLCBjb250ZW50OiAnZycgfSBhcyBhbnkpOwogICAgICAgIGV4cGVjdChsb2NhbFN0b3JhZ2UuZ2V0SXRlbSgnbXBfbGFzdE1zZ0lkX2dyb3VwX2cxJykpLnRvQmVOdWxsKCk7CiAgICB9KTsKfSk7Cg==
+import { describe, it, expect } from 'vitest';
+import { DB } from './db';
+
+// 记忆宫殿水位线自愈：浏览器清掉 IndexedDB（消息自增 id 归零重计）但 localStorage
+// 幸存时，残留的 mp_lastMsgId_ 高水位会把该角色所有新消息（含刚发的那条）从
+// hwm 过滤读取里挡掉 —— 请求只剩 system 消息、上游 400。不变式：合法水位是某条
+// 既有消息的 id，新消息的自增 id 必然大于它；出现新 id ≤ 水位即证明水位失效。
+describe('saveMessage 记忆宫殿水位线自愈', () => {
+    it('残留高水位 ≥ 新消息 id → 落库时自动移除，该消息能被默认读取到', async () => {
+        localStorage.setItem('mp_lastMsgId_char-stale', '99999');
+        const id = await DB.saveMessage({ charId: 'char-stale', role: 'user', type: 'text', content: '你好' } as any);
+        expect(id).toBeLessThan(99999);
+        expect(localStorage.getItem('mp_lastMsgId_char-stale')).toBeNull();
+        // 水位清掉后，默认（hwm 过滤）读取要能看到这条消息 —— 之前 400 的根因就是这里读出空数组
+        const msgs = await DB.getRecentMessagesByCharId('char-stale', 10);
+        expect(msgs.map(m => m.content)).toContain('你好');
+    });
+
+    it('正常水位（小于新消息 id）原样保留', async () => {
+        localStorage.setItem('mp_lastMsgId_char-ok', '1');
+        const id = await DB.saveMessage({ charId: 'char-ok', role: 'user', type: 'text', content: 'hi' } as any);
+        expect(id).toBeGreaterThan(1);
+        expect(localStorage.getItem('mp_lastMsgId_char-ok')).toBe('1');
+    });
+
+    it('群聊消息同时校验并清理失效的群水位键', async () => {
+        localStorage.setItem('mp_lastMsgId_group_g1', '99999');
+        await DB.saveMessage({ charId: 'char-x', groupId: 'g1', role: 'user', type: 'text', content: 'g' } as any);
+        expect(localStorage.getItem('mp_lastMsgId_group_g1')).toBeNull();
+    });
+});

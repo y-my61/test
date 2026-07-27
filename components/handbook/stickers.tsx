@@ -1,1 +1,318 @@
-LyoqCiAqIOijhemlsOi0tOe6uOW6k++8iFNWRyBpbmxpbmUs6Zu25Zu+54mH5L6d6LWW77yJCiAqCiAqIOiuvuiuoe+8muavj+S4qui0tOe6uOaYr+S4gOS4queLrOeriyBSZWFjdCDnu4Tku7bvvIzkvKAgc2l6ZS9jb2xvciDljbPlj6/mlLnlsLrlr7jjgIIKICog6L+Y5o+Q5L6b5LiA5LiqIDxTY2F0dGVyZWRTdGlja2VycyBzZWVkPS4uLiAvPiDnlKggcGFnZSBpZCDkvZznp43lrZDnqLPlrprmlaPluIMKICog5Yeg5p6a5bCP6LS057q45Yiw5a655Zmo5Zub6KeS77yI5LiN5Lya6ZqP5riy5p+T5oqW5Yqo77yJ44CCCiAqLwoKaW1wb3J0IFJlYWN0IGZyb20gJ3JlYWN0JzsKaW1wb3J0IHsgc2VlZEZsb2F0LCBQQVBFUl9UT05FUyB9IGZyb20gJy4vcGFwZXInOwoKLy8g4pSA4pSA4pSAIOWNleS4qui0tOe6uOe7hOS7tiDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIAKCmV4cG9ydCBjb25zdCBIZWFydFN0aWNrZXI6IFJlYWN0LkZDPHsgc2l6ZT86IG51bWJlcjsgY29sb3I/OiBzdHJpbmc7IHNwYXJrbGU/OiBib29sZWFuIH0+ID0gKHsKICAgIHNpemUgPSAyMCwgY29sb3IgPSBQQVBFUl9UT05FUy5hY2NlbnRCbHVzaCwgc3BhcmtsZSA9IHRydWUsCn0pID0+ICgKICAgIDxzdmcgdmlld0JveD0iMCAwIDI0IDI0IiB3aWR0aD17c2l6ZX0gaGVpZ2h0PXtzaXplfT4KICAgICAgICA8cGF0aAogICAgICAgICAgICBkPSJNMTIgMjEgQyA3IDE2IDIgMTIgMiA3LjUgYTQuNSA0LjUgMCAwIDEgOSAtMSBhNC41IDQuNSAwIDAgMSA5IDEgQyAyMiAxMiAxNyAxNiAxMiAyMSB6IgogICAgICAgICAgICBmaWxsPXtjb2xvcn0KICAgICAgICAgICAgc3Ryb2tlPSJyZ2JhKDI1NSwyNTUsMjU1LDAuNykiCiAgICAgICAgICAgIHN0cm9rZVdpZHRoPSIxIgogICAgICAgIC8+CiAgICAgICAge3NwYXJrbGUgJiYgKAogICAgICAgICAgICA8ZWxsaXBzZSBjeD0iOSIgY3k9IjgiIHJ4PSIxLjQiIHJ5PSIyLjIiIGZpbGw9InJnYmEoMjU1LDI1NSwyNTUsMC44NSkiIHRyYW5zZm9ybT0icm90YXRlKC0yNSA5IDgpIiAvPgogICAgICAgICl9CiAgICA8L3N2Zz4KKTsKCmV4cG9ydCBjb25zdCBTdGFyU3RpY2tlcjogUmVhY3QuRkM8eyBzaXplPzogbnVtYmVyOyBjb2xvcj86IHN0cmluZyB9PiA9ICh7CiAgICBzaXplID0gMTgsIGNvbG9yID0gUEFQRVJfVE9ORVMuYWNjZW50TGVtb24sCn0pID0+ICgKICAgIDxzdmcgdmlld0JveD0iMCAwIDI0IDI0IiB3aWR0aD17c2l6ZX0gaGVpZ2h0PXtzaXplfT4KICAgICAgICB7LyogNC1wb2ludCBzcGFya2xlICovfQogICAgICAgIDxwYXRoCiAgICAgICAgICAgIGQ9Ik0gMTIgMiBMIDEzLjUgMTAuNSBMIDIyIDEyIEwgMTMuNSAxMy41IEwgMTIgMjIgTCAxMC41IDEzLjUgTCAyIDEyIEwgMTAuNSAxMC41IFoiCiAgICAgICAgICAgIGZpbGw9e2NvbG9yfQogICAgICAgICAgICBzdHJva2U9InJnYmEoMjU1LDI1NSwyNTUsMC42KSIKICAgICAgICAgICAgc3Ryb2tlV2lkdGg9IjAuNiIKICAgICAgICAvPgogICAgPC9zdmc+Cik7CgpleHBvcnQgY29uc3QgUGF3U3RpY2tlcjogUmVhY3QuRkM8eyBzaXplPzogbnVtYmVyOyBjb2xvcj86IHN0cmluZyB9PiA9ICh7CiAgICBzaXplID0gMjIsIGNvbG9yID0gUEFQRVJfVE9ORVMuYWNjZW50Um9zZSwKfSkgPT4gKAogICAgPHN2ZyB2aWV3Qm94PSIwIDAgMjQgMjQiIHdpZHRoPXtzaXplfSBoZWlnaHQ9e3NpemV9PgogICAgICAgIHsvKiA0IHRvZXMgKi99CiAgICAgICAgPGVsbGlwc2UgY3g9IjYiIGN5PSI5IiByeD0iMi4yIiByeT0iMi44IiBmaWxsPXtjb2xvcn0gLz4KICAgICAgICA8ZWxsaXBzZSBjeD0iMTEiIGN5PSI2IiByeD0iMi4yIiByeT0iMi44IiBmaWxsPXtjb2xvcn0gLz4KICAgICAgICA8ZWxsaXBzZSBjeD0iMTYiIGN5PSI2IiByeD0iMi4yIiByeT0iMi44IiBmaWxsPXtjb2xvcn0gLz4KICAgICAgICA8ZWxsaXBzZSBjeD0iMjAiIGN5PSI5IiByeD0iMi4yIiByeT0iMi44IiBmaWxsPXtjb2xvcn0gLz4KICAgICAgICB7LyogaGVlbCBwYWQgKi99CiAgICAgICAgPHBhdGgKICAgICAgICAgICAgZD0iTSA3IDE3IFEgNyAxMyAxMyAxMyBRIDE5IDEzIDE5IDE3IFEgMTkgMjEgMTMgMjEgUSA3IDIxIDcgMTcgWiIKICAgICAgICAgICAgZmlsbD17Y29sb3J9CiAgICAgICAgLz4KICAgIDwvc3ZnPgopOwoKZXhwb3J0IGNvbnN0IEJvd1N0aWNrZXI6IFJlYWN0LkZDPHsgc2l6ZT86IG51bWJlcjsgY29sb3I/OiBzdHJpbmcgfT4gPSAoewogICAgc2l6ZSA9IDI2LCBjb2xvciA9IFBBUEVSX1RPTkVTLmFjY2VudFJvc2UsCn0pID0+ICgKICAgIDxzdmcgdmlld0JveD0iMCAwIDMyIDI0IiB3aWR0aD17c2l6ZX0gaGVpZ2h0PXtzaXplICogMjQgLyAzMn0+CiAgICAgICAgey8qIGxlZnQgbG9vcCAqL30KICAgICAgICA8cGF0aCBkPSJNIDE2IDEyIFEgNiA0IDQgOCBRIDIgMTQgNiAxOCBRIDEwIDIwIDE2IDEyIFoiIGZpbGw9e2NvbG9yfSBzdHJva2U9InJnYmEoMjU1LDI1NSwyNTUsMC41KSIgc3Ryb2tlV2lkdGg9IjAuNiIgLz4KICAgICAgICB7LyogcmlnaHQgbG9vcCAqL30KICAgICAgICA8cGF0aCBkPSJNIDE2IDEyIFEgMjYgNCAyOCA4IFEgMzAgMTQgMjYgMTggUSAyMiAyMCAxNiAxMiBaIiBmaWxsPXtjb2xvcn0gc3Ryb2tlPSJyZ2JhKDI1NSwyNTUsMjU1LDAuNSkiIHN0cm9rZVdpZHRoPSIwLjYiIC8+CiAgICAgICAgey8qIGNlbnRlciBrbm90ICovfQogICAgICAgIDxlbGxpcHNlIGN4PSIxNiIgY3k9IjEyIiByeD0iMyIgcnk9IjQiIGZpbGw9e2NvbG9yfSBzdHJva2U9InJnYmEoMjU1LDI1NSwyNTUsMC42KSIgc3Ryb2tlV2lkdGg9IjAuNiIgLz4KICAgICAgICA8ZWxsaXBzZSBjeD0iMTUiIGN5PSIxMSIgcng9IjAuOCIgcnk9IjEuMiIgZmlsbD0icmdiYSgyNTUsMjU1LDI1NSwwLjYpIiAvPgogICAgPC9zdmc+Cik7CgpleHBvcnQgY29uc3QgUGFwZXJDbGlwOiBSZWFjdC5GQzx7IHNpemU/OiBudW1iZXI7IGNvbG9yPzogc3RyaW5nOyByb3RhdGU/OiBudW1iZXIgfT4gPSAoewogICAgc2l6ZSA9IDI4LCBjb2xvciA9ICcjYzhkMmRjJywgcm90YXRlID0gLTMwLAp9KSA9PiAoCiAgICA8c3ZnCiAgICAgICAgdmlld0JveD0iMCAwIDI0IDMyIgogICAgICAgIHdpZHRoPXtzaXplICogMjQgLyAzMn0KICAgICAgICBoZWlnaHQ9e3NpemV9CiAgICAgICAgc3R5bGU9e3sgdHJhbnNmb3JtOiBgcm90YXRlKCR7cm90YXRlfWRlZylgIH19CiAgICA+CiAgICAgICAgPHBhdGgKICAgICAgICAgICAgZD0iTSA4IDQgUSA0IDQgNCA4IEwgNCAyNiBRIDQgMzAgOCAzMCBRIDEyIDMwIDEyIDI2IEwgMTIgOCBRIDEyIDYgMTQgNiBRIDE2IDYgMTYgOCBMIDE2IDI0IFEgMTYgMjQgMTcgMjQgTCAxNyA4IFEgMTcgNSAxNCA1IFEgMTEgNSAxMSA4IEwgMTEgMjYgUSAxMSAyOSA4IDI5IFEgNSAyOSA1IDI2IEwgNSA4IFEgNSA1IDggNSBRIDExIDUgMTEgNSIKICAgICAgICAgICAgZmlsbD0ibm9uZSIKICAgICAgICAgICAgc3Ryb2tlPXtjb2xvcn0KICAgICAgICAgICAgc3Ryb2tlV2lkdGg9IjEuNCIKICAgICAgICAgICAgc3Ryb2tlTGluZWNhcD0icm91bmQiCiAgICAgICAgLz4KICAgIDwvc3ZnPgopOwoKZXhwb3J0IGNvbnN0IFNwYXJrbGVEb3Q6IFJlYWN0LkZDPHsgc2l6ZT86IG51bWJlcjsgY29sb3I/OiBzdHJpbmcgfT4gPSAoewogICAgc2l6ZSA9IDE0LCBjb2xvciA9IFBBUEVSX1RPTkVTLmFjY2VudExlbW9uLAp9KSA9PiAoCiAgICA8c3ZnIHZpZXdCb3g9IjAgMCAyNCAyNCIgd2lkdGg9e3NpemV9IGhlaWdodD17c2l6ZX0+CiAgICAgICAgPHBhdGgKICAgICAgICAgICAgZD0iTSAxMiA0IEwgMTMgMTEgTCAyMCAxMiBMIDEzIDEzIEwgMTIgMjAgTCAxMSAxMyBMIDQgMTIgTCAxMSAxMSBaIgogICAgICAgICAgICBmaWxsPXtjb2xvcn0KICAgICAgICAvPgogICAgPC9zdmc+Cik7CgpleHBvcnQgY29uc3QgUmliYm9uOiBSZWFjdC5GQzx7IHNpemU/OiBudW1iZXI7IGNvbG9yPzogc3RyaW5nIH0+ID0gKHsKICAgIHNpemUgPSAyNCwgY29sb3IgPSBQQVBFUl9UT05FUy5hY2NlbnRCbHVlLAp9KSA9PiAoCiAgICA8c3ZnIHZpZXdCb3g9IjAgMCAyNCAzMiIgd2lkdGg9e3NpemUgKiAyNCAvIDMyfSBoZWlnaHQ9e3NpemV9PgogICAgICAgIDxwYXRoCiAgICAgICAgICAgIGQ9Ik0gNCAwIEwgMjAgMCBMIDIwIDI4IEwgMTIgMjIgTCA0IDI4IFoiCiAgICAgICAgICAgIGZpbGw9e2NvbG9yfQogICAgICAgICAgICBzdHJva2U9InJnYmEoMjU1LDI1NSwyNTUsMC41KSIKICAgICAgICAgICAgc3Ryb2tlV2lkdGg9IjAuNiIKICAgICAgICAvPgogICAgICAgIDxwYXRoIGQ9Ik0gNCAwIEwgMjAgMCBMIDIwIDQgTCA0IDQgWiIgZmlsbD0icmdiYSgyNTUsMjU1LDI1NSwwLjI1KSIgLz4KICAgIDwvc3ZnPgopOwoKZXhwb3J0IGNvbnN0IENsb3VkOiBSZWFjdC5GQzx7IHNpemU/OiBudW1iZXI7IGNvbG9yPzogc3RyaW5nIH0+ID0gKHsKICAgIHNpemUgPSAzMCwgY29sb3IgPSAnI2U2ZjBmNycsCn0pID0+ICgKICAgIDxzdmcgdmlld0JveD0iMCAwIDQwIDI0IiB3aWR0aD17c2l6ZX0gaGVpZ2h0PXtzaXplICogMjQgLyA0MH0+CiAgICAgICAgPGVsbGlwc2UgY3g9IjEwIiBjeT0iMTYiIHJ4PSI5IiByeT0iNyIgZmlsbD17Y29sb3J9IC8+CiAgICAgICAgPGVsbGlwc2UgY3g9IjIyIiBjeT0iMTIiIHJ4PSIxMSIgcnk9IjkiIGZpbGw9e2NvbG9yfSAvPgogICAgICAgIDxlbGxpcHNlIGN4PSIzMiIgY3k9IjE2IiByeD0iNyIgcnk9IjYiIGZpbGw9e2NvbG9yfSAvPgogICAgPC9zdmc+Cik7CgpleHBvcnQgY29uc3QgVGlja2V0U3R1YjogUmVhY3QuRkM8eyBzaXplPzogbnVtYmVyOyBjb2xvcj86IHN0cmluZzsgbGFiZWw/OiBzdHJpbmcgfT4gPSAoewogICAgc2l6ZSA9IDM2LCBjb2xvciA9IFBBUEVSX1RPTkVTLmFjY2VudExlbW9uLCBsYWJlbCA9ICdUSUNLRVQnLAp9KSA9PiAoCiAgICA8c3ZnIHZpZXdCb3g9IjAgMCA2MCAyNCIgd2lkdGg9e3NpemV9IGhlaWdodD17c2l6ZSAqIDI0IC8gNjB9PgogICAgICAgIDxwYXRoCiAgICAgICAgICAgIGQ9Ik0gNCA0IEwgNTYgNCBMIDU2IDggYSAyIDIgMCAwIDEgMCA0IEwgNTYgMTYgYSAyIDIgMCAwIDEgMCA0IEwgNTYgMjAgTCA0IDIwIEwgNCAxNiBhIDIgMiAwIDAgMCAwIC00IEwgNCA4IGEgMiAyIDAgMCAwIDAgLTQgWiIKICAgICAgICAgICAgZmlsbD17Y29sb3J9CiAgICAgICAgICAgIHN0cm9rZT0icmdiYSgwLDAsMCwwLjEpIgogICAgICAgICAgICBzdHJva2VXaWR0aD0iMC41IgogICAgICAgIC8+CiAgICAgICAgPHRleHQgeD0iMzAiIHk9IjE1LjUiIHRleHRBbmNob3I9Im1pZGRsZSIgZmlsbD0icmdiYSgwLDAsMCwwLjQpIiBmb250U2l6ZT0iNiIgZm9udFdlaWdodD0iYm9sZCI+CiAgICAgICAgICAgIHtsYWJlbH0KICAgICAgICA8L3RleHQ+CiAgICA8L3N2Zz4KKTsKCi8vIOKUgOKUgOKUgCDmlaPluIPotLTnurjvvIjpobXop5Loo4XppbDvvInilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIAKLy8g55SoIHNlZWQg5Yaz5a6aOgovLyAgLSDlk6rlh6DkuKrotLTnurjlh7rnjrAKLy8gIC0g5q+P5Liq55qE5L2N572u77yIdG9wL3JpZ2h0ICsg5Lqb6K645YGP56e777yJCi8vICAtIOaXi+i9rOinkuW6pgpjb25zdCBTVElDS0VSX1BPT0w6IEFycmF5PFJlYWN0LkZDPGFueT4+ID0gWwogICAgSGVhcnRTdGlja2VyLCBTdGFyU3RpY2tlciwgUGF3U3RpY2tlciwgQm93U3RpY2tlciwgU3BhcmtsZURvdCwgU3BhcmtsZURvdCwgSGVhcnRTdGlja2VyLCBTdGFyU3RpY2tlciwKXTsKCmV4cG9ydCBjb25zdCBTY2F0dGVyZWRTdGlja2VyczogUmVhY3QuRkM8ewogICAgc2VlZDogc3RyaW5nOwogICAgY291bnQ/OiBudW1iZXI7CiAgICAvKiog5pWj5biD6IyD5Zu055u45a+554i25a655Zmo55qE55m+5YiG5q+UICovCiAgICB6b25lPzogJ2Nvcm5lcnMnIHwgJ3RvcCcgfCAnZWRnZXMnIHwgJ2FsbCc7Cn0+ID0gKHsgc2VlZCwgY291bnQgPSAzLCB6b25lID0gJ2Nvcm5lcnMnIH0pID0+IHsKICAgIGNvbnN0IGl0ZW1zOiB7IENvbXA6IFJlYWN0LkZDPGFueT47IHRvcDogc3RyaW5nOyBsZWZ0OiBzdHJpbmc7IHJvdGF0ZTogbnVtYmVyOyBrZXk6IG51bWJlciB9W10gPSBbXTsKICAgIGZvciAobGV0IGkgPSAwOyBpIDwgY291bnQ7IGkrKykgewogICAgICAgIGNvbnN0IGNvbXBJZHggPSBNYXRoLmZsb29yKHNlZWRGbG9hdChzZWVkLCBpICogNyArIDEpICogU1RJQ0tFUl9QT09MLmxlbmd0aCk7CiAgICAgICAgY29uc3QgQ29tcCA9IFNUSUNLRVJfUE9PTFtjb21wSWR4XTsKICAgICAgICBjb25zdCBhID0gc2VlZEZsb2F0KHNlZWQsIGkgKiA3ICsgMik7CiAgICAgICAgY29uc3QgYiA9IHNlZWRGbG9hdChzZWVkLCBpICogNyArIDMpOwoKICAgICAgICBsZXQgdG9wOiBudW1iZXIsIGxlZnQ6IG51bWJlcjsKICAgICAgICBpZiAoem9uZSA9PT0gJ2Nvcm5lcnMnKSB7CiAgICAgICAgICAgIC8vIOWbm+inkumaj+acugogICAgICAgICAgICBjb25zdCBjb3JuZXIgPSBNYXRoLmZsb29yKHNlZWRGbG9hdChzZWVkLCBpICogNyArIDQpICogNCk7CiAgICAgICAgICAgIGNvbnN0IGl4ID0gY29ybmVyICUgMjsgICAgICAgLy8gMD1sZWZ0LCAxPXJpZ2h0CiAgICAgICAgICAgIGNvbnN0IGl5ID0gTWF0aC5mbG9vcihjb3JuZXIgLyAyKTsgLy8gMD10b3AsIDE9Ym90dG9tCiAgICAgICAgICAgIHRvcCAgPSBpeSA9PT0gMCA/IC04ICsgYSAqIDE0IDogODggKyBhICogODsKICAgICAgICAgICAgbGVmdCA9IGl4ID09PSAwID8gLTggKyBiICogMTQgOiA4OCArIGIgKiA4OwogICAgICAgIH0gZWxzZSBpZiAoem9uZSA9PT0gJ3RvcCcpIHsKICAgICAgICAgICAgdG9wICA9IC0xMCArIGEgKiAxNDsKICAgICAgICAgICAgbGVmdCA9IDggKyBiICogODA7CiAgICAgICAgfSBlbHNlIGlmICh6b25lID09PSAnZWRnZXMnKSB7CiAgICAgICAgICAgIGNvbnN0IHNpZGUgPSBNYXRoLmZsb29yKHNlZWRGbG9hdChzZWVkLCBpICogNyArIDQpICogNCk7CiAgICAgICAgICAgIGlmIChzaWRlID09PSAwKSB7IHRvcCA9IC04ICsgYSAqIDY7IGxlZnQgPSA4ICsgYiAqIDgwOyB9CiAgICAgICAgICAgIGVsc2UgaWYgKHNpZGUgPT09IDEpIHsgdG9wID0gOTIgKyBhICogNjsgbGVmdCA9IDggKyBiICogODA7IH0KICAgICAgICAgICAgZWxzZSBpZiAoc2lkZSA9PT0gMikgeyB0b3AgPSA4ICsgYiAqIDgwOyBsZWZ0ID0gLTggKyBhICogNjsgfQogICAgICAgICAgICBlbHNlIHsgdG9wID0gOCArIGIgKiA4MDsgbGVmdCA9IDkyICsgYSAqIDY7IH0KICAgICAgICB9IGVsc2UgewogICAgICAgICAgICB0b3AgPSBhICogMTAwOwogICAgICAgICAgICBsZWZ0ID0gYiAqIDEwMDsKICAgICAgICB9CgogICAgICAgIGNvbnN0IHJvdGF0ZSA9IChzZWVkRmxvYXQoc2VlZCwgaSAqIDcgKyA1KSAtIDAuNSkgKiA2MDsKICAgICAgICBpdGVtcy5wdXNoKHsgQ29tcCwgdG9wOiBgJHt0b3B9JWAsIGxlZnQ6IGAke2xlZnR9JWAsIHJvdGF0ZSwga2V5OiBpIH0pOwogICAgfQogICAgcmV0dXJuICgKICAgICAgICA8ZGl2IGNsYXNzTmFtZT0iYWJzb2x1dGUgaW5zZXQtMCBwb2ludGVyLWV2ZW50cy1ub25lIiBhcmlhLWhpZGRlbj4KICAgICAgICAgICAge2l0ZW1zLm1hcCgoeyBDb21wLCB0b3AsIGxlZnQsIHJvdGF0ZSwga2V5IH0pID0+ICgKICAgICAgICAgICAgICAgIDxkaXYga2V5PXtrZXl9IHN0eWxlPXt7IHBvc2l0aW9uOiAnYWJzb2x1dGUnLCB0b3AsIGxlZnQsIHRyYW5zZm9ybTogYHJvdGF0ZSgke3JvdGF0ZX1kZWcpYCB9fT4KICAgICAgICAgICAgICAgICAgICA8Q29tcCAvPgogICAgICAgICAgICAgICAgPC9kaXY+CiAgICAgICAgICAgICkpfQogICAgICAgIDwvZGl2PgogICAgKTsKfTsKCi8vIOKUgOKUgOKUgCDlr7nor53msJTms6HvvIjnoo7niYfloavlhYXnlKjvvInilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIAKLy8g55So5rOV77ya5ZyoIHBhZ2Ug5LmL6Ze05oiW6KeS6JC95pWj5LiA5Lik5Liq77yM5Yi26YCgIuinkuiJsuWYgOWSlSLnmoQgY29sbGFnZSDmhJ8KZXhwb3J0IGNvbnN0IERpYWxvZ3VlQnViYmxlOiBSZWFjdC5GQzx7CiAgICB0ZXh0OiBzdHJpbmc7CiAgICBjb2xvcj86IHN0cmluZzsKICAgIHRleHRDb2xvcj86IHN0cmluZzsKICAgIGRpcmVjdGlvbj86ICdsZWZ0JyB8ICdyaWdodCc7CiAgICBzaXplPzogJ3NtJyB8ICdtZCc7Cn0+ID0gKHsgdGV4dCwgY29sb3IgPSAnI2ZmZicsIHRleHRDb2xvciA9IFBBUEVSX1RPTkVTLmluaywgZGlyZWN0aW9uID0gJ2xlZnQnLCBzaXplID0gJ3NtJyB9KSA9PiB7CiAgICBjb25zdCBwYWRkaW5nID0gc2l6ZSA9PT0gJ3NtJyA/ICdweC0yLjUgcHktMScgOiAncHgtMyBweS0xLjUnOwogICAgY29uc3QgZm9udFNpemUgPSBzaXplID09PSAnc20nID8gMTEgOiAxMjsKICAgIHJldHVybiAoCiAgICAgICAgPGRpdgogICAgICAgICAgICBjbGFzc05hbWU9e2ByZWxhdGl2ZSBpbmxpbmUtYmxvY2sgJHtwYWRkaW5nfSByb3VuZGVkLTJ4bGB9CiAgICAgICAgICAgIHN0eWxlPXt7CiAgICAgICAgICAgICAgICBiYWNrZ3JvdW5kOiBjb2xvciwKICAgICAgICAgICAgICAgIGNvbG9yOiB0ZXh0Q29sb3IsCiAgICAgICAgICAgICAgICBmb250U2l6ZSwKICAgICAgICAgICAgICAgIGZvbnRXZWlnaHQ6IDcwMCwKICAgICAgICAgICAgICAgIGJveFNoYWRvdzogJzAgMnB4IDRweCByZ2JhKDEyMiw5MCwxMTQsMC4xNSknLAogICAgICAgICAgICAgICAgYm9yZGVyOiAnMXB4IHNvbGlkIHJnYmEoMjU1LDI1NSwyNTUsMC42KScsCiAgICAgICAgICAgIH19CiAgICAgICAgPgogICAgICAgICAgICB7dGV4dH0KICAgICAgICAgICAgey8qIOawlOazoeWwvuW3tCAqL30KICAgICAgICAgICAgPHNwYW4KICAgICAgICAgICAgICAgIGNsYXNzTmFtZT0iYWJzb2x1dGUiCiAgICAgICAgICAgICAgICBzdHlsZT17ewogICAgICAgICAgICAgICAgICAgIFtkaXJlY3Rpb24gPT09ICdsZWZ0JyA/ICdsZWZ0JyA6ICdyaWdodCddOiA4LAogICAgICAgICAgICAgICAgICAgIGJvdHRvbTogLTUsCiAgICAgICAgICAgICAgICAgICAgd2lkdGg6IDAsCiAgICAgICAgICAgICAgICAgICAgaGVpZ2h0OiAwLAogICAgICAgICAgICAgICAgICAgIGJvcmRlckxlZnQ6ICc1cHggc29saWQgdHJhbnNwYXJlbnQnLAogICAgICAgICAgICAgICAgICAgIGJvcmRlclJpZ2h0OiAnNXB4IHNvbGlkIHRyYW5zcGFyZW50JywKICAgICAgICAgICAgICAgICAgICBib3JkZXJUb3A6IGA2cHggc29saWQgJHtjb2xvcn1gLAogICAgICAgICAgICAgICAgfX0KICAgICAgICAgICAgICAgIGFyaWEtaGlkZGVuCiAgICAgICAgICAgIC8+CiAgICAgICAgPC9kaXY+CiAgICApOwp9OwoKLy8g5LiA5Lqb6aKE6K6+55qE6JCM57O75bCP6K+NLOWcqCBkYXkg6KeG5Zu+6YeM6ZqP5py66YCJ55SoCmV4cG9ydCBjb25zdCBLQVdBSUlfSU5URVJKRUNUSU9OUyA9IFsKICAgICfjgYvjgo/jgYTjgYTigKYnLCAn5LuK5pel44KC4pmhJywgJ+OBhuOBvuOBhCEnLCAn44GQ44GF4oCmJywgJ+OBmeOBjeOBoycsICfjgojjgZfjgaMnLAogICAgJ+WYv+WYvycsICflk4d+JywgJ+WujOS6huWujOS6hicsICfoipzmuZYnLCAn5Zi75Zi7JywgJ+WPrn4nLCAnKO+9pc+J772lKScsCiAgICAnypXigKLhtKXigKLKlCcsICfimIUg4piFIOKYhScsICfimaEg4pmhJywgJy4uLicsICc/JywKXTsKCi8vIOWcqOWuueWZqOi+uee8mOiHqueUseaVo+W4gyLnoo7niYfloavlhYUi5bGC77yI5a+56K+d5rCU5rOhICsg5bCP6LS057q4ICsg5Zue5b2i6ZKI77yJCi8vIOeUqOWcqCBkYXkgdmlldyDph4zorqkgcGFnZSDkuYvpl7TkuI3nqbrojaEKZXhwb3J0IGNvbnN0IFNjYXR0ZXJGaWxsZXJzOiBSZWFjdC5GQzx7CiAgICBzZWVkOiBzdHJpbmc7CiAgICBjb3VudD86IG51bWJlcjsKfT4gPSAoeyBzZWVkLCBjb3VudCA9IDQgfSkgPT4gewogICAgY29uc3QgaXRlbXM6IFJlYWN0LlJlYWN0Tm9kZVtdID0gW107CiAgICBjb25zdCBjb2xvcnMgPSBbCiAgICAgICAgUEFQRVJfVE9ORVMuYWNjZW50Um9zZSwgUEFQRVJfVE9ORVMuYWNjZW50Qmx1ZSwgUEFQRVJfVE9ORVMuYWNjZW50TWludCwKICAgICAgICBQQVBFUl9UT05FUy5hY2NlbnRMZW1vbiwgUEFQRVJfVE9ORVMuYWNjZW50TGF2ZW5kZXIsCiAgICBdOwogICAgZm9yIChsZXQgaSA9IDA7IGkgPCBjb3VudDsgaSsrKSB7CiAgICAgICAgY29uc3QgdG9wID0gc2VlZEZsb2F0KHNlZWQsIGkgKiAxMSArIDEpICogMTAwOwogICAgICAgIGNvbnN0IGlzTGVmdCA9IGkgJSAyID09PSAwOwogICAgICAgIGNvbnN0IGxlZnQgPSBpc0xlZnQgPyAtMiArIHNlZWRGbG9hdChzZWVkLCBpICogMTEgKyAyKSAqIDYgOiA4OCArIHNlZWRGbG9hdChzZWVkLCBpICogMTEgKyAyKSAqIDg7CiAgICAgICAgY29uc3Qgcm90YXRlID0gKHNlZWRGbG9hdChzZWVkLCBpICogMTEgKyAzKSAtIDAuNSkgKiAzMDsKICAgICAgICBjb25zdCBraW5kID0gTWF0aC5mbG9vcihzZWVkRmxvYXQoc2VlZCwgaSAqIDExICsgNCkgKiA0KTsKCiAgICAgICAgbGV0IG5vZGU6IFJlYWN0LlJlYWN0Tm9kZTsKICAgICAgICBpZiAoa2luZCA9PT0gMCkgewogICAgICAgICAgICBjb25zdCB0eHQgPSBLQVdBSUlfSU5URVJKRUNUSU9OU1tNYXRoLmZsb29yKHNlZWRGbG9hdChzZWVkLCBpICogMTEgKyA1KSAqIEtBV0FJSV9JTlRFUkpFQ1RJT05TLmxlbmd0aCldOwogICAgICAgICAgICBjb25zdCBjb2xvciA9IGNvbG9yc1tNYXRoLmZsb29yKHNlZWRGbG9hdChzZWVkLCBpICogMTEgKyA2KSAqIGNvbG9ycy5sZW5ndGgpXTsKICAgICAgICAgICAgbm9kZSA9IDxEaWFsb2d1ZUJ1YmJsZSB0ZXh0PXt0eHR9IGNvbG9yPXtjb2xvcn0gZGlyZWN0aW9uPXtpc0xlZnQgPyAnbGVmdCcgOiAncmlnaHQnfSAvPjsKICAgICAgICB9IGVsc2UgaWYgKGtpbmQgPT09IDEpIHsKICAgICAgICAgICAgbm9kZSA9IDxIZWFydFN0aWNrZXIgc2l6ZT17MTh9IC8+OwogICAgICAgIH0gZWxzZSBpZiAoa2luZCA9PT0gMikgewogICAgICAgICAgICBub2RlID0gPFN0YXJTdGlja2VyIHNpemU9ezE2fSAvPjsKICAgICAgICB9IGVsc2UgewogICAgICAgICAgICBub2RlID0gPFNwYXJrbGVEb3Qgc2l6ZT17MTJ9IC8+OwogICAgICAgIH0KCiAgICAgICAgaXRlbXMucHVzaCgKICAgICAgICAgICAgPGRpdgogICAgICAgICAgICAgICAga2V5PXtpfQogICAgICAgICAgICAgICAgc3R5bGU9e3sKICAgICAgICAgICAgICAgICAgICBwb3NpdGlvbjogJ2Fic29sdXRlJywKICAgICAgICAgICAgICAgICAgICB0b3A6IGAke3RvcH0lYCwKICAgICAgICAgICAgICAgICAgICBsZWZ0OiBgJHtsZWZ0fSVgLAogICAgICAgICAgICAgICAgICAgIHRyYW5zZm9ybTogYHJvdGF0ZSgke3JvdGF0ZX1kZWcpYCwKICAgICAgICAgICAgICAgICAgICBwb2ludGVyRXZlbnRzOiAnbm9uZScsCiAgICAgICAgICAgICAgICB9fQogICAgICAgICAgICA+CiAgICAgICAgICAgICAgICB7bm9kZX0KICAgICAgICAgICAgPC9kaXY+CiAgICAgICAgKTsKICAgIH0KICAgIHJldHVybiA8PntpdGVtc308Lz47Cn07CgovLyDilIDilIDilIAg6JW+5Lid6L6577yI6aG155yJIC8g6aG16ISa6KOF6aWw77yJ4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSACmV4cG9ydCBjb25zdCBMYWNlRWRnZTogUmVhY3QuRkM8eyBjb2xvcj86IHN0cmluZzsgZmxpcD86IGJvb2xlYW4gfT4gPSAoewogICAgY29sb3IgPSAnI2ZiYjhjOCcsIGZsaXAgPSBmYWxzZSwKfSkgPT4gKAogICAgPHN2ZwogICAgICAgIHZpZXdCb3g9IjAgMCAxMDAgOCIKICAgICAgICBwcmVzZXJ2ZUFzcGVjdFJhdGlvPSJub25lIgogICAgICAgIGNsYXNzTmFtZT0idy1mdWxsIgogICAgICAgIHN0eWxlPXt7IGhlaWdodDogOCwgdHJhbnNmb3JtOiBmbGlwID8gJ3NjYWxlWSgtMSknIDogdW5kZWZpbmVkIH19CiAgICAgICAgYXJpYS1oaWRkZW4KICAgID4KICAgICAgICA8cGF0aAogICAgICAgICAgICBkPSJNIDAgMCBRIDUgOCAxMCAwIFEgMTUgOCAyMCAwIFEgMjUgOCAzMCAwIFEgMzUgOCA0MCAwIFEgNDUgOCA1MCAwIFEgNTUgOCA2MCAwIFEgNjUgOCA3MCAwIFEgNzUgOCA4MCAwIFEgODUgOCA5MCAwIFEgOTUgOCAxMDAgMCBMIDEwMCA4IEwgMCA4IFoiCiAgICAgICAgICAgIGZpbGw9e2NvbG9yfQogICAgICAgICAgICBvcGFjaXR5PSIwLjU1IgogICAgICAgIC8+CiAgICA8L3N2Zz4KKTsK
+/**
+ * 装饰贴纸库（SVG inline,零图片依赖）
+ *
+ * 设计：每个贴纸是一个独立 React 组件，传 size/color 即可改尺寸。
+ * 还提供一个 <ScatteredStickers seed=... /> 用 page id 作种子稳定散布
+ * 几枚小贴纸到容器四角（不会随渲染抖动）。
+ */
+
+import React from 'react';
+import { seedFloat, PAPER_TONES } from './paper';
+
+// ─── 单个贴纸组件 ────────────────────────────────────
+
+export const HeartSticker: React.FC<{ size?: number; color?: string; sparkle?: boolean }> = ({
+    size = 20, color = PAPER_TONES.accentBlush, sparkle = true,
+}) => (
+    <svg viewBox="0 0 24 24" width={size} height={size}>
+        <path
+            d="M12 21 C 7 16 2 12 2 7.5 a4.5 4.5 0 0 1 9 -1 a4.5 4.5 0 0 1 9 1 C 22 12 17 16 12 21 z"
+            fill={color}
+            stroke="rgba(255,255,255,0.7)"
+            strokeWidth="1"
+        />
+        {sparkle && (
+            <ellipse cx="9" cy="8" rx="1.4" ry="2.2" fill="rgba(255,255,255,0.85)" transform="rotate(-25 9 8)" />
+        )}
+    </svg>
+);
+
+export const StarSticker: React.FC<{ size?: number; color?: string }> = ({
+    size = 18, color = PAPER_TONES.accentLemon,
+}) => (
+    <svg viewBox="0 0 24 24" width={size} height={size}>
+        {/* 4-point sparkle */}
+        <path
+            d="M 12 2 L 13.5 10.5 L 22 12 L 13.5 13.5 L 12 22 L 10.5 13.5 L 2 12 L 10.5 10.5 Z"
+            fill={color}
+            stroke="rgba(255,255,255,0.6)"
+            strokeWidth="0.6"
+        />
+    </svg>
+);
+
+export const PawSticker: React.FC<{ size?: number; color?: string }> = ({
+    size = 22, color = PAPER_TONES.accentRose,
+}) => (
+    <svg viewBox="0 0 24 24" width={size} height={size}>
+        {/* 4 toes */}
+        <ellipse cx="6" cy="9" rx="2.2" ry="2.8" fill={color} />
+        <ellipse cx="11" cy="6" rx="2.2" ry="2.8" fill={color} />
+        <ellipse cx="16" cy="6" rx="2.2" ry="2.8" fill={color} />
+        <ellipse cx="20" cy="9" rx="2.2" ry="2.8" fill={color} />
+        {/* heel pad */}
+        <path
+            d="M 7 17 Q 7 13 13 13 Q 19 13 19 17 Q 19 21 13 21 Q 7 21 7 17 Z"
+            fill={color}
+        />
+    </svg>
+);
+
+export const BowSticker: React.FC<{ size?: number; color?: string }> = ({
+    size = 26, color = PAPER_TONES.accentRose,
+}) => (
+    <svg viewBox="0 0 32 24" width={size} height={size * 24 / 32}>
+        {/* left loop */}
+        <path d="M 16 12 Q 6 4 4 8 Q 2 14 6 18 Q 10 20 16 12 Z" fill={color} stroke="rgba(255,255,255,0.5)" strokeWidth="0.6" />
+        {/* right loop */}
+        <path d="M 16 12 Q 26 4 28 8 Q 30 14 26 18 Q 22 20 16 12 Z" fill={color} stroke="rgba(255,255,255,0.5)" strokeWidth="0.6" />
+        {/* center knot */}
+        <ellipse cx="16" cy="12" rx="3" ry="4" fill={color} stroke="rgba(255,255,255,0.6)" strokeWidth="0.6" />
+        <ellipse cx="15" cy="11" rx="0.8" ry="1.2" fill="rgba(255,255,255,0.6)" />
+    </svg>
+);
+
+export const PaperClip: React.FC<{ size?: number; color?: string; rotate?: number }> = ({
+    size = 28, color = '#c8d2dc', rotate = -30,
+}) => (
+    <svg
+        viewBox="0 0 24 32"
+        width={size * 24 / 32}
+        height={size}
+        style={{ transform: `rotate(${rotate}deg)` }}
+    >
+        <path
+            d="M 8 4 Q 4 4 4 8 L 4 26 Q 4 30 8 30 Q 12 30 12 26 L 12 8 Q 12 6 14 6 Q 16 6 16 8 L 16 24 Q 16 24 17 24 L 17 8 Q 17 5 14 5 Q 11 5 11 8 L 11 26 Q 11 29 8 29 Q 5 29 5 26 L 5 8 Q 5 5 8 5 Q 11 5 11 5"
+            fill="none"
+            stroke={color}
+            strokeWidth="1.4"
+            strokeLinecap="round"
+        />
+    </svg>
+);
+
+export const SparkleDot: React.FC<{ size?: number; color?: string }> = ({
+    size = 14, color = PAPER_TONES.accentLemon,
+}) => (
+    <svg viewBox="0 0 24 24" width={size} height={size}>
+        <path
+            d="M 12 4 L 13 11 L 20 12 L 13 13 L 12 20 L 11 13 L 4 12 L 11 11 Z"
+            fill={color}
+        />
+    </svg>
+);
+
+export const Ribbon: React.FC<{ size?: number; color?: string }> = ({
+    size = 24, color = PAPER_TONES.accentBlue,
+}) => (
+    <svg viewBox="0 0 24 32" width={size * 24 / 32} height={size}>
+        <path
+            d="M 4 0 L 20 0 L 20 28 L 12 22 L 4 28 Z"
+            fill={color}
+            stroke="rgba(255,255,255,0.5)"
+            strokeWidth="0.6"
+        />
+        <path d="M 4 0 L 20 0 L 20 4 L 4 4 Z" fill="rgba(255,255,255,0.25)" />
+    </svg>
+);
+
+export const Cloud: React.FC<{ size?: number; color?: string }> = ({
+    size = 30, color = '#e6f0f7',
+}) => (
+    <svg viewBox="0 0 40 24" width={size} height={size * 24 / 40}>
+        <ellipse cx="10" cy="16" rx="9" ry="7" fill={color} />
+        <ellipse cx="22" cy="12" rx="11" ry="9" fill={color} />
+        <ellipse cx="32" cy="16" rx="7" ry="6" fill={color} />
+    </svg>
+);
+
+export const TicketStub: React.FC<{ size?: number; color?: string; label?: string }> = ({
+    size = 36, color = PAPER_TONES.accentLemon, label = 'TICKET',
+}) => (
+    <svg viewBox="0 0 60 24" width={size} height={size * 24 / 60}>
+        <path
+            d="M 4 4 L 56 4 L 56 8 a 2 2 0 0 1 0 4 L 56 16 a 2 2 0 0 1 0 4 L 56 20 L 4 20 L 4 16 a 2 2 0 0 0 0 -4 L 4 8 a 2 2 0 0 0 0 -4 Z"
+            fill={color}
+            stroke="rgba(0,0,0,0.1)"
+            strokeWidth="0.5"
+        />
+        <text x="30" y="15.5" textAnchor="middle" fill="rgba(0,0,0,0.4)" fontSize="6" fontWeight="bold">
+            {label}
+        </text>
+    </svg>
+);
+
+// ─── 散布贴纸（页角装饰）─────────────────────────────
+// 用 seed 决定:
+//  - 哪几个贴纸出现
+//  - 每个的位置（top/right + 些许偏移）
+//  - 旋转角度
+const STICKER_POOL: Array<React.FC<any>> = [
+    HeartSticker, StarSticker, PawSticker, BowSticker, SparkleDot, SparkleDot, HeartSticker, StarSticker,
+];
+
+export const ScatteredStickers: React.FC<{
+    seed: string;
+    count?: number;
+    /** 散布范围相对父容器的百分比 */
+    zone?: 'corners' | 'top' | 'edges' | 'all';
+}> = ({ seed, count = 3, zone = 'corners' }) => {
+    const items: { Comp: React.FC<any>; top: string; left: string; rotate: number; key: number }[] = [];
+    for (let i = 0; i < count; i++) {
+        const compIdx = Math.floor(seedFloat(seed, i * 7 + 1) * STICKER_POOL.length);
+        const Comp = STICKER_POOL[compIdx];
+        const a = seedFloat(seed, i * 7 + 2);
+        const b = seedFloat(seed, i * 7 + 3);
+
+        let top: number, left: number;
+        if (zone === 'corners') {
+            // 四角随机
+            const corner = Math.floor(seedFloat(seed, i * 7 + 4) * 4);
+            const ix = corner % 2;       // 0=left, 1=right
+            const iy = Math.floor(corner / 2); // 0=top, 1=bottom
+            top  = iy === 0 ? -8 + a * 14 : 88 + a * 8;
+            left = ix === 0 ? -8 + b * 14 : 88 + b * 8;
+        } else if (zone === 'top') {
+            top  = -10 + a * 14;
+            left = 8 + b * 80;
+        } else if (zone === 'edges') {
+            const side = Math.floor(seedFloat(seed, i * 7 + 4) * 4);
+            if (side === 0) { top = -8 + a * 6; left = 8 + b * 80; }
+            else if (side === 1) { top = 92 + a * 6; left = 8 + b * 80; }
+            else if (side === 2) { top = 8 + b * 80; left = -8 + a * 6; }
+            else { top = 8 + b * 80; left = 92 + a * 6; }
+        } else {
+            top = a * 100;
+            left = b * 100;
+        }
+
+        const rotate = (seedFloat(seed, i * 7 + 5) - 0.5) * 60;
+        items.push({ Comp, top: `${top}%`, left: `${left}%`, rotate, key: i });
+    }
+    return (
+        <div className="absolute inset-0 pointer-events-none" aria-hidden>
+            {items.map(({ Comp, top, left, rotate, key }) => (
+                <div key={key} style={{ position: 'absolute', top, left, transform: `rotate(${rotate}deg)` }}>
+                    <Comp />
+                </div>
+            ))}
+        </div>
+    );
+};
+
+// ─── 对话气泡（碎片填充用）─────────────────────────
+// 用法：在 page 之间或角落散一两个，制造"角色嘀咕"的 collage 感
+export const DialogueBubble: React.FC<{
+    text: string;
+    color?: string;
+    textColor?: string;
+    direction?: 'left' | 'right';
+    size?: 'sm' | 'md';
+}> = ({ text, color = '#fff', textColor = PAPER_TONES.ink, direction = 'left', size = 'sm' }) => {
+    const padding = size === 'sm' ? 'px-2.5 py-1' : 'px-3 py-1.5';
+    const fontSize = size === 'sm' ? 11 : 12;
+    return (
+        <div
+            className={`relative inline-block ${padding} rounded-2xl`}
+            style={{
+                background: color,
+                color: textColor,
+                fontSize,
+                fontWeight: 700,
+                boxShadow: '0 2px 4px rgba(122,90,114,0.15)',
+                border: '1px solid rgba(255,255,255,0.6)',
+            }}
+        >
+            {text}
+            {/* 气泡尾巴 */}
+            <span
+                className="absolute"
+                style={{
+                    [direction === 'left' ? 'left' : 'right']: 8,
+                    bottom: -5,
+                    width: 0,
+                    height: 0,
+                    borderLeft: '5px solid transparent',
+                    borderRight: '5px solid transparent',
+                    borderTop: `6px solid ${color}`,
+                }}
+                aria-hidden
+            />
+        </div>
+    );
+};
+
+// 一些预设的萌系小词,在 day 视图里随机选用
+export const KAWAII_INTERJECTIONS = [
+    'かわいい…', '今日も♡', 'うまい!', 'ぐぅ…', 'すきっ', 'よしっ',
+    '嘿嘿', '哇~', '完了完了', '芜湖', '嘻嘻', '叮~', '(･ω･)',
+    'ʕ•ᴥ•ʔ', '★ ★ ★', '♡ ♡', '...', '?',
+];
+
+// 在容器边缘自由散布"碎片填充"层（对话气泡 + 小贴纸 + 回形针）
+// 用在 day view 里让 page 之间不空荡
+export const ScatterFillers: React.FC<{
+    seed: string;
+    count?: number;
+}> = ({ seed, count = 4 }) => {
+    const items: React.ReactNode[] = [];
+    const colors = [
+        PAPER_TONES.accentRose, PAPER_TONES.accentBlue, PAPER_TONES.accentMint,
+        PAPER_TONES.accentLemon, PAPER_TONES.accentLavender,
+    ];
+    for (let i = 0; i < count; i++) {
+        const top = seedFloat(seed, i * 11 + 1) * 100;
+        const isLeft = i % 2 === 0;
+        const left = isLeft ? -2 + seedFloat(seed, i * 11 + 2) * 6 : 88 + seedFloat(seed, i * 11 + 2) * 8;
+        const rotate = (seedFloat(seed, i * 11 + 3) - 0.5) * 30;
+        const kind = Math.floor(seedFloat(seed, i * 11 + 4) * 4);
+
+        let node: React.ReactNode;
+        if (kind === 0) {
+            const txt = KAWAII_INTERJECTIONS[Math.floor(seedFloat(seed, i * 11 + 5) * KAWAII_INTERJECTIONS.length)];
+            const color = colors[Math.floor(seedFloat(seed, i * 11 + 6) * colors.length)];
+            node = <DialogueBubble text={txt} color={color} direction={isLeft ? 'left' : 'right'} />;
+        } else if (kind === 1) {
+            node = <HeartSticker size={18} />;
+        } else if (kind === 2) {
+            node = <StarSticker size={16} />;
+        } else {
+            node = <SparkleDot size={12} />;
+        }
+
+        items.push(
+            <div
+                key={i}
+                style={{
+                    position: 'absolute',
+                    top: `${top}%`,
+                    left: `${left}%`,
+                    transform: `rotate(${rotate}deg)`,
+                    pointerEvents: 'none',
+                }}
+            >
+                {node}
+            </div>
+        );
+    }
+    return <>{items}</>;
+};
+
+// ─── 蕾丝边（页眉 / 页脚装饰）───────────────────────
+export const LaceEdge: React.FC<{ color?: string; flip?: boolean }> = ({
+    color = '#fbb8c8', flip = false,
+}) => (
+    <svg
+        viewBox="0 0 100 8"
+        preserveAspectRatio="none"
+        className="w-full"
+        style={{ height: 8, transform: flip ? 'scaleY(-1)' : undefined }}
+        aria-hidden
+    >
+        <path
+            d="M 0 0 Q 5 8 10 0 Q 15 8 20 0 Q 25 8 30 0 Q 35 8 40 0 Q 45 8 50 0 Q 55 8 60 0 Q 65 8 70 0 Q 75 8 80 0 Q 85 8 90 0 Q 95 8 100 0 L 100 8 L 0 8 Z"
+            fill={color}
+            opacity="0.55"
+        />
+    </svg>
+);

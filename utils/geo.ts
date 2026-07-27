@@ -1,1 +1,59 @@
-aW1wb3J0IHsgQ2FwYWNpdG9yIH0gZnJvbSAnQGNhcGFjaXRvci9jb3JlJzsKCi8qKgogKiDot6jnq6/lj5blrprkvY06IOWOn+eUnyAoQ2FwYWNpdG9yKSDkvJjlhYjnlKggQGNhcGFjaXRvci9nZW9sb2NhdGlvbiDmj5Lku7YgKOS8muW8ueWOn+eUn+adg+mZkOeUs+ivtyksCiAqIOaPkuS7tuWPluWdkOagh+Wksei0peaXtuWbnumAgOWIsCBXZWJWaWV3IOeahCBuYXZpZ2F0b3IuZ2VvbG9jYXRpb247IOa1j+iniOWZqOebtOaOpei1sCBuYXZpZ2F0b3LjgIIKICoKICog5Li65LuA5LmI6L+Z5LmI57uVOgogKiAtIOaPkuS7tueahCByZXF1ZXN0UGVybWlzc2lvbnMg6LWw55qE5piv5qCH5YeGIEFuZHJvaWQg6L+Q6KGM5pe25p2D6ZmQICjkuI3kvp3otZYgR01TKSwg55So5a6D5by55p2D6ZmQ5qGG5pyA56iz44CCCiAqIC0g5L2G5a6Y5pa5IEBjYXBhY2l0b3IvZ2VvbG9jYXRpb24g5Y+W5Z2Q5qCH5bqV5bGC55SoIEdvb2dsZSBQbGF5IFNlcnZpY2VzIOeahCBGdXNlZCBMb2NhdGlvbiBQcm92aWRlciwKICogICDorr7lpIfmsqHmnIkgR01TICjlm73kuqcgUk9NIC8g57qv5YeA57O757ufIC8g5Y676LC35q2M5py65Z6LKSDkvJrmipsgIkdvb2dsZSBQbGF5IHNlcnZpY2VzIHVuYXZhaWxhYmxlIuOAggogKiAgIOi/meenjeaDheWGteWbnumAgOWIsCBuYXZpZ2F0b3IuZ2VvbG9jYXRpb24g4oCU4oCUIOWug+WcqCBDYXBhY2l0b3IgV2ViVmlldyDph4zotbDns7vnu58gTG9jYXRpb25NYW5hZ2VyLAogKiAgIOS4jeeisCBHTVMsIOato+aYr+ayoeiwt+atjOeahOacuuWZqOS4gOebtOiDveeUqOeahOmCo+adoei3r+OAggogKiAtIOWPpuWkljog5Y6f55Sf6L+Y6ZyA5ZyoIEFuZHJvaWRNYW5pZmVzdCDph4zlo7DmmI4gQUNDRVNTX0ZJTkVfTE9DQVRJT04gLyBBQ0NFU1NfQ09BUlNFX0xPQ0FUSU9OLAogKiAgIGlPUyDpnIDlnKggSW5mby5wbGlzdCDliqAgTlNMb2NhdGlvbldoZW5JblVzZVVzYWdlRGVzY3JpcHRpb27jgIIKICovCmV4cG9ydCBpbnRlcmZhY2UgR2VvUmVzdWx0IHsgbG9uZ2l0dWRlOiBudW1iZXI7IGxhdGl0dWRlOiBudW1iZXI7IGFjY3VyYWN5OiBudW1iZXI7IH0KCmNvbnN0IGdldFBvc2l0aW9uVmlhTmF2aWdhdG9yID0gKCk6IFByb21pc2U8R2VvUmVzdWx0PiA9PiB7CiAgICBpZiAodHlwZW9mIG5hdmlnYXRvciA9PT0gJ3VuZGVmaW5lZCcgfHwgIW5hdmlnYXRvci5nZW9sb2NhdGlvbikgewogICAgICAgIHRocm93IG5ldyBFcnJvcign5b2T5YmN546v5aKD5LiN5pSv5oyB5a6a5L2NLCDor7fpgInln47luILmiJbmiYvovpPlnZDmoIcnKTsKICAgIH0KICAgIHJldHVybiBuZXcgUHJvbWlzZTxHZW9SZXN1bHQ+KChyZXNvbHZlLCByZWplY3QpID0+IHsKICAgICAgICBuYXZpZ2F0b3IuZ2VvbG9jYXRpb24uZ2V0Q3VycmVudFBvc2l0aW9uKAogICAgICAgICAgICAocG9zKSA9PiByZXNvbHZlKHsgbG9uZ2l0dWRlOiBwb3MuY29vcmRzLmxvbmdpdHVkZSwgbGF0aXR1ZGU6IHBvcy5jb29yZHMubGF0aXR1ZGUsIGFjY3VyYWN5OiBwb3MuY29vcmRzLmFjY3VyYWN5ID8/IDk5OTk5IH0pLAogICAgICAgICAgICAoZXJyKSA9PiByZWplY3QobmV3IEVycm9yKGVyci5tZXNzYWdlIHx8ICflrprkvY3lpLHotKUnKSksCiAgICAgICAgICAgIHsgZW5hYmxlSGlnaEFjY3VyYWN5OiB0cnVlLCB0aW1lb3V0OiA4MDAwLCBtYXhpbXVtQWdlOiAwIH0KICAgICAgICApOwogICAgfSk7Cn07CgpleHBvcnQgY29uc3QgZ2V0Q3VycmVudFBvc2l0aW9uU21hcnQgPSBhc3luYyAoKTogUHJvbWlzZTxHZW9SZXN1bHQ+ID0+IHsKICAgIC8vIOWOn+eUnzog5YWI55So5o+S5Lu25by55p2D6ZmQLCDlj5blnZDmoIflpLHotKXlho3lm57pgIAgbmF2aWdhdG9yCiAgICBpZiAoQ2FwYWNpdG9yLmlzTmF0aXZlUGxhdGZvcm0oKSkgewogICAgICAgIGNvbnN0IHsgR2VvbG9jYXRpb24gfSA9IGF3YWl0IGltcG9ydCgnQGNhcGFjaXRvci9nZW9sb2NhdGlvbicpOwogICAgICAgIHRyeSB7CiAgICAgICAgICAgIGNvbnN0IHBlcm0gPSBhd2FpdCBHZW9sb2NhdGlvbi5jaGVja1Blcm1pc3Npb25zKCk7CiAgICAgICAgICAgIGlmIChwZXJtLmxvY2F0aW9uICE9PSAnZ3JhbnRlZCcgJiYgcGVybS5jb2Fyc2VMb2NhdGlvbiAhPT0gJ2dyYW50ZWQnKSB7CiAgICAgICAgICAgICAgICBjb25zdCByZXEgPSBhd2FpdCBHZW9sb2NhdGlvbi5yZXF1ZXN0UGVybWlzc2lvbnMoeyBwZXJtaXNzaW9uczogWydsb2NhdGlvbicsICdjb2Fyc2VMb2NhdGlvbiddIGFzIGFueSB9KTsKICAgICAgICAgICAgICAgIGlmIChyZXEubG9jYXRpb24gIT09ICdncmFudGVkJyAmJiAocmVxIGFzIGFueSkuY29hcnNlTG9jYXRpb24gIT09ICdncmFudGVkJykgewogICAgICAgICAgICAgICAgICAgIHRocm93IG5ldyBFcnJvcign5a6a5L2N5p2D6ZmQ6KKr5ouS57ud44CC6K+35YiwIOezu+e7n+iuvue9riDihpIg5bqU55SoIOKGkiDmnYPpmZAg6YeM5YWB6K645a6a5L2NLCDmiJbnm7TmjqXpgInln47luILjgIInKTsKICAgICAgICAgICAgICAgIH0KICAgICAgICAgICAgfQogICAgICAgIH0gY2F0Y2ggKGU6IGFueSkgewogICAgICAgICAgICAvLyBjaGVja1Blcm1pc3Npb25zL3JlcXVlc3RQZXJtaXNzaW9ucyDlnKjkuKrliKvmnLrlnovkvJrmipssIOS4jemYu+Whniwg55u05o6l5bCd6K+V5Y+W5L2N572uCiAgICAgICAgICAgIGNvbnNvbGUud2FybignW2dlb10g5p2D6ZmQ5qOA5p+l5byC5bi4LCDnu6fnu63lsJ3or5Xlj5bkvY3nva46JywgZT8ubWVzc2FnZSB8fCBlKTsKICAgICAgICB9CiAgICAgICAgdHJ5IHsKICAgICAgICAgICAgY29uc3QgcG9zID0gYXdhaXQgR2VvbG9jYXRpb24uZ2V0Q3VycmVudFBvc2l0aW9uKHsgZW5hYmxlSGlnaEFjY3VyYWN5OiB0cnVlLCB0aW1lb3V0OiAxMDAwMCwgbWF4aW11bUFnZTogMCB9KTsKICAgICAgICAgICAgcmV0dXJuIHsgbG9uZ2l0dWRlOiBwb3MuY29vcmRzLmxvbmdpdHVkZSwgbGF0aXR1ZGU6IHBvcy5jb29yZHMubGF0aXR1ZGUsIGFjY3VyYWN5OiBwb3MuY29vcmRzLmFjY3VyYWN5ID8/IDk5OTk5IH07CiAgICAgICAgfSBjYXRjaCAoZTogYW55KSB7CiAgICAgICAgICAgIC8vIOayoSBHTVMg55qE5py65Zmo5o+S5Lu25Y+W5Z2Q5qCH5Lya5oqbICJHb29nbGUgUGxheSBzZXJ2aWNlcyB1bmF2YWlsYWJsZSIg4oCU4oCUIOWbnumAgCBXZWJWaWV3IOWumuS9jSAo6LWw57O757ufIExvY2F0aW9uTWFuYWdlcikKICAgICAgICAgICAgY29uc29sZS53YXJuKCdbZ2VvXSBDYXBhY2l0b3Ig5o+S5Lu25Y+W5L2N572u5aSx6LSlLCDlm57pgIAgbmF2aWdhdG9yLmdlb2xvY2F0aW9uOicsIGU/Lm1lc3NhZ2UgfHwgZSk7CiAgICAgICAgICAgIHJldHVybiBnZXRQb3NpdGlvblZpYU5hdmlnYXRvcigpOwogICAgICAgIH0KICAgIH0KCiAgICAvLyDmtY/op4jlmag6IG5hdmlnYXRvci5nZW9sb2NhdGlvbgogICAgcmV0dXJuIGdldFBvc2l0aW9uVmlhTmF2aWdhdG9yKCk7Cn07Cg==
+import { Capacitor } from '@capacitor/core';
+
+/**
+ * 跨端取定位: 原生 (Capacitor) 优先用 @capacitor/geolocation 插件 (会弹原生权限申请),
+ * 插件取坐标失败时回退到 WebView 的 navigator.geolocation; 浏览器直接走 navigator。
+ *
+ * 为什么这么绕:
+ * - 插件的 requestPermissions 走的是标准 Android 运行时权限 (不依赖 GMS), 用它弹权限框最稳。
+ * - 但官方 @capacitor/geolocation 取坐标底层用 Google Play Services 的 Fused Location Provider,
+ *   设备没有 GMS (国产 ROM / 纯净系统 / 去谷歌机型) 会抛 "Google Play services unavailable"。
+ *   这种情况回退到 navigator.geolocation —— 它在 Capacitor WebView 里走系统 LocationManager,
+ *   不碰 GMS, 正是没谷歌的机器一直能用的那条路。
+ * - 另外: 原生还需在 AndroidManifest 里声明 ACCESS_FINE_LOCATION / ACCESS_COARSE_LOCATION,
+ *   iOS 需在 Info.plist 加 NSLocationWhenInUseUsageDescription。
+ */
+export interface GeoResult { longitude: number; latitude: number; accuracy: number; }
+
+const getPositionViaNavigator = (): Promise<GeoResult> => {
+    if (typeof navigator === 'undefined' || !navigator.geolocation) {
+        throw new Error('当前环境不支持定位, 请选城市或手输坐标');
+    }
+    return new Promise<GeoResult>((resolve, reject) => {
+        navigator.geolocation.getCurrentPosition(
+            (pos) => resolve({ longitude: pos.coords.longitude, latitude: pos.coords.latitude, accuracy: pos.coords.accuracy ?? 99999 }),
+            (err) => reject(new Error(err.message || '定位失败')),
+            { enableHighAccuracy: true, timeout: 8000, maximumAge: 0 }
+        );
+    });
+};
+
+export const getCurrentPositionSmart = async (): Promise<GeoResult> => {
+    // 原生: 先用插件弹权限, 取坐标失败再回退 navigator
+    if (Capacitor.isNativePlatform()) {
+        const { Geolocation } = await import('@capacitor/geolocation');
+        try {
+            const perm = await Geolocation.checkPermissions();
+            if (perm.location !== 'granted' && perm.coarseLocation !== 'granted') {
+                const req = await Geolocation.requestPermissions({ permissions: ['location', 'coarseLocation'] as any });
+                if (req.location !== 'granted' && (req as any).coarseLocation !== 'granted') {
+                    throw new Error('定位权限被拒绝。请到 系统设置 → 应用 → 权限 里允许定位, 或直接选城市。');
+                }
+            }
+        } catch (e: any) {
+            // checkPermissions/requestPermissions 在个别机型会抛, 不阻塞, 直接尝试取位置
+            console.warn('[geo] 权限检查异常, 继续尝试取位置:', e?.message || e);
+        }
+        try {
+            const pos = await Geolocation.getCurrentPosition({ enableHighAccuracy: true, timeout: 10000, maximumAge: 0 });
+            return { longitude: pos.coords.longitude, latitude: pos.coords.latitude, accuracy: pos.coords.accuracy ?? 99999 };
+        } catch (e: any) {
+            // 没 GMS 的机器插件取坐标会抛 "Google Play services unavailable" —— 回退 WebView 定位 (走系统 LocationManager)
+            console.warn('[geo] Capacitor 插件取位置失败, 回退 navigator.geolocation:', e?.message || e);
+            return getPositionViaNavigator();
+        }
+    }
+
+    // 浏览器: navigator.geolocation
+    return getPositionViaNavigator();
+};

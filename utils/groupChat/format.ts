@@ -1,1 +1,19 @@
-aW1wb3J0IHsgTWVzc2FnZSB9IGZyb20gJy4uLy4uL3R5cGVzJzsKCi8qKgogKiDnvqTogYrml6Xlv5fooYzph4zkuIDmnaHmtojmga/nmoTmlofmnKzooajnpLrigJTigJTpnZ7mlofmnKznsbvlnovnlKjljaDkvY3nrKbjgIIKICogaW1hZ2Ug55qEIGNvbnRlbnQg5pivIGJhc2U2NO+8iHByb2Nlc3NJbWFnZSDljovnmoQgSlBFR++8ieOAgWVtb2ppIOaYr+WbvuW6iiBVUkzvvIwKICog6YO95LiN6IO95YaF6IGU6L+bIHByb21wdO+8mmJhc2U2NCDkvJrmiorkuIrkuIvmlofmkpHniIbvvIxVUkwg5piv57qv5Zmq5aOw44CCCiAqLwpleHBvcnQgZnVuY3Rpb24gbWVzc2FnZUxvZ1RleHQobTogTWVzc2FnZSwgc3RpY2tlck5hbWU/OiAodXJsOiBzdHJpbmcpID0+IHN0cmluZyk6IHN0cmluZyB7CiAgICBjb25zdCByYXdUZXh0ID0gdHlwZW9mIG0uY29udGVudCA9PT0gJ3N0cmluZycgPyBtLmNvbnRlbnQgOiAnJzsKICAgIGlmIChtLnR5cGUgPT09ICdpbWFnZScpIHJldHVybiAnW+WbvueJh10nOwogICAgaWYgKG0udHlwZSA9PT0gJ2Vtb2ppJykgcmV0dXJuIGBb6KGo5oOF5YyFOiAke3N0aWNrZXJOYW1lID8gc3RpY2tlck5hbWUocmF3VGV4dC50cmltKCkpIDogJ+ihqOaDhSd9XWA7CiAgICBpZiAobS50eXBlID09PSAndHJhbnNmZXInKSB7CiAgICAgICAgaWYgKG0ubWV0YWRhdGE/LnBhY2tldFJlY2VpcHQpIHJldHVybiBtLm1ldGFkYXRhLnBhY2tldFJlY2VpcHQgPT09ICdjbGFpbWVkJyA/ICdb6aKG5Y+W57qi5YyFXScgOiAnW+mAgOWbnue6ouWMhV0nOwogICAgICAgIGlmIChtLm1ldGFkYXRhPy5wYWNrZXQpIHJldHVybiBgW+WPkee6ouWMhTogJHttLm1ldGFkYXRhLnRvdGFsQW1vdW50fV1gOwogICAgICAgIHJldHVybiBgW+WPkee6ouWMhTogJHttLm1ldGFkYXRhPy5hbW91bnQgPz8gJyd9XWA7CiAgICB9CiAgICBpZiAoL14oZGF0YTp8aHR0cHM/OlwvXC8pL2kudGVzdChyYXdUZXh0LnRyaW0oKSkpIHJldHVybiAnW+WqkuS9k10nOwogICAgcmV0dXJuIHJhd1RleHQ7Cn0K
+import { Message } from '../../types';
+
+/**
+ * 群聊日志行里一条消息的文本表示——非文本类型用占位符。
+ * image 的 content 是 base64（processImage 压的 JPEG）、emoji 是图床 URL，
+ * 都不能内联进 prompt：base64 会把上下文撑爆，URL 是纯噪声。
+ */
+export function messageLogText(m: Message, stickerName?: (url: string) => string): string {
+    const rawText = typeof m.content === 'string' ? m.content : '';
+    if (m.type === 'image') return '[图片]';
+    if (m.type === 'emoji') return `[表情包: ${stickerName ? stickerName(rawText.trim()) : '表情'}]`;
+    if (m.type === 'transfer') {
+        if (m.metadata?.packetReceipt) return m.metadata.packetReceipt === 'claimed' ? '[领取红包]' : '[退回红包]';
+        if (m.metadata?.packet) return `[发红包: ${m.metadata.totalAmount}]`;
+        return `[发红包: ${m.metadata?.amount ?? ''}]`;
+    }
+    if (/^(data:|https?:\/\/)/i.test(rawText.trim())) return '[媒体]';
+    return rawText;
+}

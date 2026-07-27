@@ -1,1 +1,68 @@
-aW1wb3J0IHsgZGVzY3JpYmUsIGl0LCBleHBlY3QgfSBmcm9tICd2aXRlc3QnOwppbXBvcnQgeyBDb250ZXh0QnVpbGRlciB9IGZyb20gJy4vY29udGV4dCc7CgovLyDplIHkvY/jgIznqLPlrpov5piT5Y+Y5YiG5bGC44CN5ouG5YiG55qE5a6I5oGS5oCnOgovLyAgIGJ1aWxkQ29yZUNvbnRleHQoZGVmZXJWb2xhdGlsZSkgKyBidWlsZFZvbGF0aWxlQ29yZVN0YXRlIO+8nSDljp8gYnVpbGRDb3JlQ29udGV4dCDnmoTlhajpg6jkv6Hmga/jgIIKLy8g5LiJ5Z2X5piT5Y+Y5YaF5a6577yI5YiG6ZKf57qn5pe26Ze0IC8g6K6w5b+G5a6r5q6/5Y+s5ZueIC8g5oOF57uqIGJ1ZmbvvInlv4XpobvkuJTlj6rog73lh7rnjrDlnKggdm9sYXRpbGUg5L6nIOKAlOKAlAovLyDlh7rnjrDlnKggc3RhYmxlIOS+p+S8muaJk+aWreS4rei9rOeahCBwcm9tcHQg5YmN57yA57yT5a2Y77yIVFRGVCDkvJjljJblpLHmlYjvvInvvJvkuKTkvqfpg73msqHmnInliJnmmK/kv6Hmga/kuKLlpLHjgIIKCmNvbnN0IG1ha2VDaGFyID0gKCkgPT4gKHsKICAgIGlkOiAnYzEnLAogICAgbmFtZTogJ+a1i+ivleinkuiJsicsCiAgICBzeXN0ZW1Qcm9tcHQ6ICfkvaDmmK/mtYvor5Xop5LoibLjgIInLAogICAgdGltZUF3YXJlbmVzc0VuYWJsZWQ6IHRydWUsCiAgICBtZW1vcnlQYWxhY2VFbmFibGVkOiB0cnVlLAogICAgbWVtb3J5UGFsYWNlSW5qZWN0aW9uOiAnIyMjIOiusOW/huWuq+auv+WPrOWbnlxuLSDjgJDlj6zlm57niYfmrrXjgJHkuIrlkajkuIDotbfnnIvkuobmtYHmmJ/pm6gnLAogICAgc2NoZWR1bGVGZWF0dXJlRW5hYmxlZDogdHJ1ZSwKICAgIGVtb3Rpb25Db25maWc6IHsgZW5hYmxlZDogdHJ1ZSB9LAogICAgYnVmZkluamVjdGlvbjogJyMjIyBb5b2T5YmN5oOF57uq5bqV6ImyXVxu44CQ5rWL6K+VYnVmZuOAkeeUnOicnOeahOacn+W+hSDlvLrluqY6IOKXj+KXj+KXj+KXi+KXiycsCiAgICBhY3RpdmVCdWZmczogW10sCn0gYXMgYW55KTsKCmNvbnN0IHVzZXIgPSB7IG5hbWU6ICfmtYvor5XnlKjmiLcnLCBiaW86ICcnIH0gYXMgYW55OwoKZGVzY3JpYmUoJ2J1aWxkQ29yZUNvbnRleHQgZGVmZXJWb2xhdGlsZSDliIblsYInLCAoKSA9PiB7CiAgICBpdCgn6buY6K6k77yI5LiN5LygIGxheW91dO+8ie+8muaXtumXtC/lj6zlm54vYnVmZiDpg73lnKggY29yZSDph4zvvIzooYzkuLrkuI7ml6fniYjkuIDoh7QnLCAoKSA9PiB7CiAgICAgICAgY29uc3QgY29yZSA9IENvbnRleHRCdWlsZGVyLmJ1aWxkQ29yZUNvbnRleHQobWFrZUNoYXIoKSwgdXNlciwgdHJ1ZSk7CiAgICAgICAgZXhwZWN0KGNvcmUpLnRvQ29udGFpbignIyMjIOW9k+WJjeaXtumXtCAoTm93KScpOwogICAgICAgIGV4cGVjdChjb3JlKS50b0NvbnRhaW4oJ+OAkOWPrOWbnueJh+auteOAkScpOwogICAgICAgIGV4cGVjdChjb3JlKS50b0NvbnRhaW4oJ+OAkOa1i+ivlWJ1ZmbjgJEnKTsKICAgIH0pOwoKICAgIGl0KCdkZWZlclZvbGF0aWxl77ya5LiJ5Z2X5piT5Y+Y5YaF5a655LuOIGNvcmUg56e76ZmkJywgKCkgPT4gewogICAgICAgIGNvbnN0IGNvcmUgPSBDb250ZXh0QnVpbGRlci5idWlsZENvcmVDb250ZXh0KG1ha2VDaGFyKCksIHVzZXIsIHRydWUsIHVuZGVmaW5lZCwgdW5kZWZpbmVkLCB1bmRlZmluZWQsIHsgZGVmZXJWb2xhdGlsZTogdHJ1ZSB9KTsKICAgICAgICBleHBlY3QoY29yZSkubm90LnRvQ29udGFpbignIyMjIOW9k+WJjeaXtumXtCAoTm93KScpOwogICAgICAgIGV4cGVjdChjb3JlKS5ub3QudG9Db250YWluKCfjgJDlj6zlm57niYfmrrXjgJEnKTsKICAgICAgICBleHBlY3QoY29yZSkubm90LnRvQ29udGFpbign44CQ5rWL6K+VYnVmZuOAkScpOwogICAgICAgIC8vIOeos+WumuWGheWuueS7jeWcqAogICAgICAgIGV4cGVjdChjb3JlKS50b0NvbnRhaW4oJ+S9oOaYr+a1i+ivleinkuiJsuOAgicpOwogICAgICAgIGV4cGVjdChjb3JlKS50b0NvbnRhaW4oJyMjIyDorrDlv4bns7vnu58gKE1lbW9yeSBCYW5rKScpOwogICAgfSk7CgogICAgaXQoJ2J1aWxkVm9sYXRpbGVDb3JlU3RhdGUg5oGw5aW96KGl6b2Q5LiJ5Z2X77yM6aG65bqP5Li6IOaXtumXtOKGkuWPrOWbnuKGkmJ1ZmYnLCAoKSA9PiB7CiAgICAgICAgY29uc3Qgdm9sYXRpbGUgPSBDb250ZXh0QnVpbGRlci5idWlsZFZvbGF0aWxlQ29yZVN0YXRlKG1ha2VDaGFyKCksIHsgaW5jbHVkZURldGFpbGVkTWVtb3JpZXM6IHRydWUgfSk7CiAgICAgICAgY29uc3QgaVRpbWUgPSB2b2xhdGlsZS5pbmRleE9mKCcjIyMg5b2T5YmN5pe26Ze0IChOb3cpJyk7CiAgICAgICAgY29uc3QgaVBhbGFjZSA9IHZvbGF0aWxlLmluZGV4T2YoJ+OAkOWPrOWbnueJh+auteOAkScpOwogICAgICAgIGNvbnN0IGlCdWZmID0gdm9sYXRpbGUuaW5kZXhPZign44CQ5rWL6K+VYnVmZuOAkScpOwogICAgICAgIGV4cGVjdChpVGltZSkudG9CZUdyZWF0ZXJUaGFuT3JFcXVhbCgwKTsKICAgICAgICBleHBlY3QoaVBhbGFjZSkudG9CZUdyZWF0ZXJUaGFuKGlUaW1lKTsKICAgICAgICBleHBlY3QoaUJ1ZmYpLnRvQmVHcmVhdGVyVGhhbihpUGFsYWNlKTsKICAgIH0pOwoKICAgIGl0KCflkITlvIDlhbPlhbPpl63ml7Ygdm9sYXRpbGUg5a+55bqU5Z2X5Lmf5LiN6L6T5Ye677yI5LiO5pen54mI5YaF6IGU5Yik5a6a5LiA6Ie077yJJywgKCkgPT4gewogICAgICAgIGNvbnN0IGNoYXIgPSBtYWtlQ2hhcigpOwogICAgICAgIGNoYXIudGltZUF3YXJlbmVzc0VuYWJsZWQgPSBmYWxzZTsKICAgICAgICBjaGFyLm1lbW9yeVBhbGFjZUVuYWJsZWQgPSBmYWxzZTsgICAgIC8vIOWuq+auv+aAu+W8gOWFs+WFsyDihpIg5q6L55WZIGluamVjdGlvbiDkuI3lvpfms6jlhaUKICAgICAgICBjaGFyLmVtb3Rpb25Db25maWcgPSB7IGVuYWJsZWQ6IGZhbHNlIH07CiAgICAgICAgY29uc3Qgdm9sYXRpbGUgPSBDb250ZXh0QnVpbGRlci5idWlsZFZvbGF0aWxlQ29yZVN0YXRlKGNoYXIsIHsgaW5jbHVkZURldGFpbGVkTWVtb3JpZXM6IHRydWUgfSk7CiAgICAgICAgZXhwZWN0KHZvbGF0aWxlKS5ub3QudG9Db250YWluKCcjIyMg5b2T5YmN5pe26Ze0IChOb3cpJyk7CiAgICAgICAgZXhwZWN0KHZvbGF0aWxlKS5ub3QudG9Db250YWluKCfjgJDlj6zlm57niYfmrrXjgJEnKTsKICAgICAgICBleHBlY3Qodm9sYXRpbGUpLm5vdC50b0NvbnRhaW4oJ+OAkOa1i+ivlWJ1ZmbjgJEnKTsKICAgIH0pOwoKICAgIGl0KCdpbmNsdWRlRGV0YWlsZWRNZW1vcmllcz1mYWxzZSDml7Ygdm9sYXRpbGUg5LiN5ZCr5a6r5q6/5Y+s5Zue77yI5a+56b2Q5pen54mIIDViIOWIpOWumu+8iScsICgpID0+IHsKICAgICAgICBjb25zdCB2b2xhdGlsZSA9IENvbnRleHRCdWlsZGVyLmJ1aWxkVm9sYXRpbGVDb3JlU3RhdGUobWFrZUNoYXIoKSwgeyBpbmNsdWRlRGV0YWlsZWRNZW1vcmllczogZmFsc2UgfSk7CiAgICAgICAgZXhwZWN0KHZvbGF0aWxlKS5ub3QudG9Db250YWluKCfjgJDlj6zlm57niYfmrrXjgJEnKTsKICAgICAgICBleHBlY3Qodm9sYXRpbGUpLnRvQ29udGFpbignIyMjIOW9k+WJjeaXtumXtCAoTm93KScpOwogICAgfSk7Cn0pOwo=
+import { describe, it, expect } from 'vitest';
+import { ContextBuilder } from './context';
+
+// 锁住「稳定/易变分层」拆分的守恒性:
+//   buildCoreContext(deferVolatile) + buildVolatileCoreState ＝ 原 buildCoreContext 的全部信息。
+// 三块易变内容（分钟级时间 / 记忆宫殿召回 / 情绪 buff）必须且只能出现在 volatile 侧 ——
+// 出现在 stable 侧会打断中转的 prompt 前缀缓存（TTFT 优化失效）；两侧都没有则是信息丢失。
+
+const makeChar = () => ({
+    id: 'c1',
+    name: '测试角色',
+    systemPrompt: '你是测试角色。',
+    timeAwarenessEnabled: true,
+    memoryPalaceEnabled: true,
+    memoryPalaceInjection: '### 记忆宫殿召回\n- 【召回片段】上周一起看了流星雨',
+    scheduleFeatureEnabled: true,
+    emotionConfig: { enabled: true },
+    buffInjection: '### [当前情绪底色]\n【测试buff】甜蜜的期待 强度: ●●●○○',
+    activeBuffs: [],
+} as any);
+
+const user = { name: '测试用户', bio: '' } as any;
+
+describe('buildCoreContext deferVolatile 分层', () => {
+    it('默认（不传 layout）：时间/召回/buff 都在 core 里，行为与旧版一致', () => {
+        const core = ContextBuilder.buildCoreContext(makeChar(), user, true);
+        expect(core).toContain('### 当前时间 (Now)');
+        expect(core).toContain('【召回片段】');
+        expect(core).toContain('【测试buff】');
+    });
+
+    it('deferVolatile：三块易变内容从 core 移除', () => {
+        const core = ContextBuilder.buildCoreContext(makeChar(), user, true, undefined, undefined, undefined, { deferVolatile: true });
+        expect(core).not.toContain('### 当前时间 (Now)');
+        expect(core).not.toContain('【召回片段】');
+        expect(core).not.toContain('【测试buff】');
+        // 稳定内容仍在
+        expect(core).toContain('你是测试角色。');
+        expect(core).toContain('### 记忆系统 (Memory Bank)');
+    });
+
+    it('buildVolatileCoreState 恰好补齐三块，顺序为 时间→召回→buff', () => {
+        const volatile = ContextBuilder.buildVolatileCoreState(makeChar(), { includeDetailedMemories: true });
+        const iTime = volatile.indexOf('### 当前时间 (Now)');
+        const iPalace = volatile.indexOf('【召回片段】');
+        const iBuff = volatile.indexOf('【测试buff】');
+        expect(iTime).toBeGreaterThanOrEqual(0);
+        expect(iPalace).toBeGreaterThan(iTime);
+        expect(iBuff).toBeGreaterThan(iPalace);
+    });
+
+    it('各开关关闭时 volatile 对应块也不输出（与旧版内联判定一致）', () => {
+        const char = makeChar();
+        char.timeAwarenessEnabled = false;
+        char.memoryPalaceEnabled = false;     // 宫殿总开关关 → 残留 injection 不得注入
+        char.emotionConfig = { enabled: false };
+        const volatile = ContextBuilder.buildVolatileCoreState(char, { includeDetailedMemories: true });
+        expect(volatile).not.toContain('### 当前时间 (Now)');
+        expect(volatile).not.toContain('【召回片段】');
+        expect(volatile).not.toContain('【测试buff】');
+    });
+
+    it('includeDetailedMemories=false 时 volatile 不含宫殿召回（对齐旧版 5b 判定）', () => {
+        const volatile = ContextBuilder.buildVolatileCoreState(makeChar(), { includeDetailedMemories: false });
+        expect(volatile).not.toContain('【召回片段】');
+        expect(volatile).toContain('### 当前时间 (Now)');
+    });
+});

@@ -1,1 +1,124 @@
-aW1wb3J0IHsgZGVzY3JpYmUsIGl0LCBleHBlY3QgfSBmcm9tICd2aXRlc3QnOwppbXBvcnQgeyBidWlsZENoYXRGaW5lVHVuZUNzcywgbWVyZ2VDaGF0RmluZVR1bmUsIENIQVRfRklORV9UVU5FX0tFWVMgfSBmcm9tICcuL2NoYXRGaW5lVHVuZUNzcyc7CgovLyDogYrlpKnnu4boioLlvq7osIMgQ1NTIOeUn+aIkOWZqO+8muWFqOm7mOiupOmbtui+k+WHuu+8m+WQhOaXi+mSrueUn+aIkOeahOmAieaLqeWZqOS4juekvuWMuuW3sumqjOivgeeJiOacrOS4gOiHtOOAggoKZGVzY3JpYmUoJ2J1aWxkQ2hhdEZpbmVUdW5lQ3NzJywgKCkgPT4gewogICAgaXQoJ+WFqOm7mOiupCDihpIg56m65Liy77yI5LiN5rOo5YWl5Lu75L2VIHN0eWxl77yJJywgKCkgPT4gewogICAgICAgIGV4cGVjdChidWlsZENoYXRGaW5lVHVuZUNzcyh7fSkpLnRvQmUoJycpOwogICAgICAgIGV4cGVjdChidWlsZENoYXRGaW5lVHVuZUNzcyh7IGNoYXRBdmF0YXJWaXNpYmlsaXR5OiAnYm90aCcsIGNoYXRBdmF0YXJBbGlnbjogJ2JvdHRvbScsIGNoYXRBdmF0YXJPZmZzZXRZOiAwLCBjaGF0QnViYmxlRm9udFNpemU6IDAsIGNoYXRCdWJibGVMaW5lSGVpZ2h0OiAwLCBjaGF0QnViYmxlSW5kZW50OiAwIH0pKS50b0JlKCcnKTsKICAgIH0pOwoKICAgIGl0KCfpmpDol4/op5LoibLkvqflpLTlg4/lj6rlvbHlk40ganVzdGlmeS1zdGFydO+8m+i0tOi+ueWPquaUtumakOiXj+S+p+epuuS9jScsICgpID0+IHsKICAgICAgICBjb25zdCBjc3MgPSBidWlsZENoYXRGaW5lVHVuZUNzcyh7IGNoYXRBdmF0YXJWaXNpYmlsaXR5OiAnaGlkZV9haScsIGNoYXRTbmFwVG9FZGdlOiB0cnVlIH0pOwogICAgICAgIGV4cGVjdChjc3MpLnRvQ29udGFpbignLmdyb3VwLmp1c3RpZnktc3RhcnQgPiBbY2xhc3N+PSJhYnNvbHV0ZSJdW2NsYXNzfj0iei0wIl0geyBkaXNwbGF5OiBub25lJyk7CiAgICAgICAgZXhwZWN0KGNzcykubm90LnRvQ29udGFpbignLmdyb3VwLmp1c3RpZnktZW5kID4gW2NsYXNzfj0iYWJzb2x1dGUiXVtjbGFzc349InotMCJdIHsgZGlzcGxheTogbm9uZScpOwogICAgICAgIGV4cGVjdChjc3MpLnRvQ29udGFpbignLm1sLTEyOm5vdCguc3VsbHktaHRtbC13cmFwKSB7IG1hcmdpbi1sZWZ0OiAwICFpbXBvcnRhbnQ7IH0nKTsKICAgICAgICBleHBlY3QoY3NzKS5ub3QudG9Db250YWluKCdtYXJnaW4tcmlnaHQ6IDAnKTsKICAgIH0pOwoKICAgIGl0KCflv4PosaHljaHniYfpkonlm57pu5jorqTkvY3nva7vvJrotLTovrnooaUgNDhweOOAgee8qei/m+ihpSA0OC1pbmRlbnTjgIHmsqHliqjkuI3lh7rop4TliJknLCAoKSA9PiB7CiAgICAgICAgY29uc3Qgc25hcENzcyA9IGJ1aWxkQ2hhdEZpbmVUdW5lQ3NzKHsgY2hhdEF2YXRhclZpc2liaWxpdHk6ICdoaWRlX2FpJywgY2hhdFNuYXBUb0VkZ2U6IHRydWUgfSk7CiAgICAgICAgZXhwZWN0KHNuYXBDc3MpLnRvQ29udGFpbignLnN1bGx5LXBzeWNoZSB7IG1hcmdpbi1sZWZ0OiA0OHB4ICFpbXBvcnRhbnQ7IH0nKTsKICAgICAgICBjb25zdCBpbmRlbnRDc3MgPSBidWlsZENoYXRGaW5lVHVuZUNzcyh7IGNoYXRCdWJibGVJbmRlbnQ6IDYwIH0pOwogICAgICAgIGV4cGVjdChpbmRlbnRDc3MpLnRvQ29udGFpbignLnN1bGx5LXBzeWNoZSB7IG1hcmdpbi1sZWZ0OiAtMTJweCAhaW1wb3J0YW50OyB9Jyk7CiAgICAgICAgLy8g6LS06L655Y+q5L2c55So5LqO55So5oi35L6n5pe277yMQUkg5YyF6KOF5bGC5Y+q5Y+X57yp6L+b5b2x5ZONIOKGkiDmjInnvKnov5vooaUKICAgICAgICBjb25zdCBtaXhlZENzcyA9IGJ1aWxkQ2hhdEZpbmVUdW5lQ3NzKHsgY2hhdEF2YXRhclZpc2liaWxpdHk6ICdoaWRlX3VzZXInLCBjaGF0U25hcFRvRWRnZTogdHJ1ZSwgY2hhdEJ1YmJsZUluZGVudDogMjggfSk7CiAgICAgICAgZXhwZWN0KG1peGVkQ3NzKS50b0NvbnRhaW4oJy5zdWxseS1wc3ljaGUgeyBtYXJnaW4tbGVmdDogMjBweCAhaW1wb3J0YW50OyB9Jyk7CiAgICAgICAgLy8g5YyF6KOF5bGC5rKh5Yqo77yI5Y+q5pS55a2X5Y+3L+Wvuem9kO+8ieKGkiDkuI3lh7rlv4PosaHop4TliJkKICAgICAgICBleHBlY3QoYnVpbGRDaGF0RmluZVR1bmVDc3MoeyBjaGF0QnViYmxlRm9udFNpemU6IDE0LCBjaGF0QXZhdGFyQWxpZ246ICd0b3AnIH0pKS5ub3QudG9Db250YWluKCdzdWxseS1wc3ljaGUnKTsKICAgIH0pOwoKICAgIGl0KCfotLTovrkv57yp6L+b55qE6YCJ5oup5Zmo6YO9IDpub3QoKSDnu5XlvIAgSFRNTCDljaHniYfljIXoo4XvvIjljaHniYfkuI3pmo/nvo7ljJbmjKrnqp3vvIknLCAoKSA9PiB7CiAgICAgICAgY29uc3QgY3NzID0gYnVpbGRDaGF0RmluZVR1bmVDc3MoeyBjaGF0QXZhdGFyVmlzaWJpbGl0eTogJ2hpZGVfYm90aCcsIGNoYXRTbmFwVG9FZGdlOiB0cnVlLCBjaGF0QnViYmxlSW5kZW50OiA2MCB9KTsKICAgICAgICBjb25zdCB3cmFwUnVsZXMgPSBjc3Muc3BsaXQoJ1xuJykuZmlsdGVyKGxpbmUgPT4gbGluZS5pbmNsdWRlcygnLm1sLTEyJykgfHwgbGluZS5pbmNsdWRlcygnLm1yLTEyJykpOwogICAgICAgIGV4cGVjdCh3cmFwUnVsZXMubGVuZ3RoKS50b0JlR3JlYXRlclRoYW4oMCk7CiAgICAgICAgZm9yIChjb25zdCBydWxlIG9mIHdyYXBSdWxlcykgZXhwZWN0KHJ1bGUpLnRvQ29udGFpbignOm5vdCguc3VsbHktaHRtbC13cmFwKScpOwogICAgfSk7CgogICAgaXQoJ+mhtumDqOWvuem9kCArIOWeguebtOW+ruiwgycsICgpID0+IHsKICAgICAgICBjb25zdCBjc3MgPSBidWlsZENoYXRGaW5lVHVuZUNzcyh7IGNoYXRBdmF0YXJBbGlnbjogJ3RvcCcsIGNoYXRBdmF0YXJPZmZzZXRZOiAtOCB9KTsKICAgICAgICBleHBlY3QoY3NzKS50b0NvbnRhaW4oJ2JvdHRvbTogYXV0byAhaW1wb3J0YW50OyB0b3A6IC0wLjVyZW0gIWltcG9ydGFudDsnKTsKICAgICAgICBleHBlY3QoY3NzKS50b0NvbnRhaW4oJ3RyYW5zbGF0ZVkoLThweCknKTsKICAgIH0pOwoKICAgIGl0KCflnoLnm7TlsYXkuK3miorlgY/np7vlubbov5sgY2FsY++8iHRyYW5zZm9ybSDkuI3kupLnm7jopobnm5bvvIknLCAoKSA9PiB7CiAgICAgICAgY29uc3QgY3NzID0gYnVpbGRDaGF0RmluZVR1bmVDc3MoeyBjaGF0QXZhdGFyQWxpZ246ICdjZW50ZXInLCBjaGF0QXZhdGFyT2Zmc2V0WTogNCB9KTsKICAgICAgICBleHBlY3QoY3NzKS50b0NvbnRhaW4oJ3RyYW5zbGF0ZVkoY2FsYygtNTAlICsgNHB4KSknKTsKICAgIH0pOwoKICAgIGl0KCflrZflj7cv6KGM6Led6LWw56S+5Yy654mI5Zub5bGC6YCJ5oup5Zmo77yM5YaF6IGU5YWD57SgIGluaGVyaXQnLCAoKSA9PiB7CiAgICAgICAgY29uc3QgY3NzID0gYnVpbGRDaGF0RmluZVR1bmVDc3MoeyBjaGF0QnViYmxlRm9udFNpemU6IDE0LCBjaGF0QnViYmxlTGluZUhlaWdodDogMS41IH0pOwogICAgICAgIGV4cGVjdChjc3MpLnRvQ29udGFpbignLnN1bGx5LWJ1YmJsZS1haSA+IGRpdltjbGFzc349InNlbGVjdC10ZXh0Il0nKTsKICAgICAgICBleHBlY3QoY3NzKS50b0NvbnRhaW4oJ2ZvbnQtc2l6ZTogMTRweCAhaW1wb3J0YW50OycpOwogICAgICAgIGV4cGVjdChjc3MpLnRvQ29udGFpbignbGluZS1oZWlnaHQ6IDEuNSAhaW1wb3J0YW50OycpOwogICAgICAgIGV4cGVjdChjc3MpLnRvQ29udGFpbignZm9udC1zaXplOiBpbmhlcml0ICFpbXBvcnRhbnQ7Jyk7CiAgICAgICAgZXhwZWN0KGNzcykudG9Db250YWluKCdbY2xhc3MqPSJ0ZXh0LVsxM3B4XSJdJyk7CiAgICB9KTsKCiAgICBpdCgn5ZCI5bm257uT5p6c55u05o6l5Y+v5ZaC57uZIGJ1aWxkQ2hhdEZpbmVUdW5lQ3Nz77yI6KeS6Imy6KaG55uW5ZCO5oyJ6KaG55uW5YC85Ye6IENTU++8iScsICgpID0+IHsKICAgICAgICBjb25zdCBjc3MgPSBidWlsZENoYXRGaW5lVHVuZUNzcyhtZXJnZUNoYXRGaW5lVHVuZSgKICAgICAgICAgICAgeyBjaGF0QnViYmxlRm9udFNpemU6IDE0IH0sCiAgICAgICAgICAgIHsgZW5hYmxlZDogdHJ1ZSwgY2hhdEJ1YmJsZUZvbnRTaXplOiAxNiB9LAogICAgICAgICkpOwogICAgICAgIGV4cGVjdChjc3MpLnRvQ29udGFpbignZm9udC1zaXplOiAxNnB4ICFpbXBvcnRhbnQ7Jyk7CiAgICAgICAgZXhwZWN0KGNzcykubm90LnRvQ29udGFpbignZm9udC1zaXplOiAxNHB4Jyk7CiAgICB9KTsKCiAgICBpdCgn5rCU5rOh57yp6L+b5a+55Lik5L6n55Sf5pWI77yb6LS06L655L6n6K6p5L2NJywgKCkgPT4gewogICAgICAgIGNvbnN0IGNzcyA9IGJ1aWxkQ2hhdEZpbmVUdW5lQ3NzKHsgY2hhdEJ1YmJsZUluZGVudDogNjAgfSk7CiAgICAgICAgZXhwZWN0KGNzcykudG9Db250YWluKCdtYXJnaW4tbGVmdDogNjBweCAhaW1wb3J0YW50OycpOwogICAgICAgIGV4cGVjdChjc3MpLnRvQ29udGFpbignbWFyZ2luLXJpZ2h0OiA2MHB4ICFpbXBvcnRhbnQ7Jyk7CiAgICAgICAgY29uc3Qgc25hcENzcyA9IGJ1aWxkQ2hhdEZpbmVUdW5lQ3NzKHsgY2hhdEJ1YmJsZUluZGVudDogNjAsIGNoYXRBdmF0YXJWaXNpYmlsaXR5OiAnaGlkZV9haScsIGNoYXRTbmFwVG9FZGdlOiB0cnVlIH0pOwogICAgICAgIGV4cGVjdChzbmFwQ3NzKS50b0NvbnRhaW4oJ21hcmdpbi1sZWZ0OiAwICFpbXBvcnRhbnQ7Jyk7CiAgICAgICAgZXhwZWN0KHNuYXBDc3MpLm5vdC50b0NvbnRhaW4oJ21hcmdpbi1sZWZ0OiA2MHB4Jyk7CiAgICAgICAgZXhwZWN0KHNuYXBDc3MpLnRvQ29udGFpbignbWFyZ2luLXJpZ2h0OiA2MHB4ICFpbXBvcnRhbnQ7Jyk7CiAgICB9KTsKfSk7CgovLyDjgIzlhajlsYDmiZPlupXvvIzop5LoibLlj6/opobnm5bjgI3lkIjlubbop4TliJnvvJplbmFibGVkIOaJjeeUn+aViO+8m+eUn+aViOaXtuW3suWumuS5ieWtl+autemAkOS4quimhueblu+8jOacquWumuS5iei3n+maj+WFqOWxgOOAggoKZGVzY3JpYmUoJ21lcmdlQ2hhdEZpbmVUdW5lJywgKCkgPT4gewogICAgY29uc3QgZ2xvYmFsID0geyBjaGF0QXZhdGFyVmlzaWJpbGl0eTogJ2hpZGVfYWknLCBjaGF0QnViYmxlRm9udFNpemU6IDE0LCBjaGF0QnViYmxlSW5kZW50OiA2MCwgY2hhdFNuYXBUb0VkZ2U6IHRydWUgfSBhcyBjb25zdDsKCiAgICBpdCgn5peg6KaG55uWIC8gZW5hYmxlZCDnvLrnnIHmiJYgZmFsc2Ug4oaSIOWujOWFqOi3n+maj+WFqOWxgO+8iOiuvuS6huWtl+auteS5n+S4jeeUn+aViO+8iScsICgpID0+IHsKICAgICAgICBleHBlY3QobWVyZ2VDaGF0RmluZVR1bmUoZ2xvYmFsKSkudG9FcXVhbChnbG9iYWwpOwogICAgICAgIGV4cGVjdChtZXJnZUNoYXRGaW5lVHVuZShnbG9iYWwsIG51bGwpKS50b0VxdWFsKGdsb2JhbCk7CiAgICAgICAgZXhwZWN0KG1lcmdlQ2hhdEZpbmVUdW5lKGdsb2JhbCwgeyBjaGF0QnViYmxlRm9udFNpemU6IDE2IH0pKS50b0VxdWFsKGdsb2JhbCk7CiAgICAgICAgZXhwZWN0KG1lcmdlQ2hhdEZpbmVUdW5lKGdsb2JhbCwgeyBlbmFibGVkOiBmYWxzZSwgY2hhdEJ1YmJsZUZvbnRTaXplOiAxNiB9KSkudG9FcXVhbChnbG9iYWwpOwogICAgfSk7CgogICAgaXQoJ2VuYWJsZWQ9dHJ1ZSDihpIg5bey5a6a5LmJ5a2X5q616YCQ5Liq6KaG55uW77yM5pyq5a6a5LmJ5a2X5q616Lef6ZqP5YWo5bGAJywgKCkgPT4gewogICAgICAgIGNvbnN0IG1lcmdlZCA9IG1lcmdlQ2hhdEZpbmVUdW5lKGdsb2JhbCwgeyBlbmFibGVkOiB0cnVlLCBjaGF0QnViYmxlRm9udFNpemU6IDE2LCBjaGF0QXZhdGFyQWxpZ246ICd0b3AnIH0pOwogICAgICAgIGV4cGVjdChtZXJnZWQpLnRvRXF1YWwoeyAuLi5nbG9iYWwsIGNoYXRCdWJibGVGb250U2l6ZTogMTYsIGNoYXRBdmF0YXJBbGlnbjogJ3RvcCcgfSk7CiAgICB9KTsKCiAgICBpdCgn5pi+5byP6buY6K6k5YC877yIMCAvIGJvdGggLyBmYWxzZe+8ieS5n+eul+imhuebluKAlOKAlOinkuiJsuWPr+aKiuafkOmhueWOi+Wbnum7mOiupCcsICgpID0+IHsKICAgICAgICBjb25zdCBtZXJnZWQgPSBtZXJnZUNoYXRGaW5lVHVuZShnbG9iYWwsIHsgZW5hYmxlZDogdHJ1ZSwgY2hhdEJ1YmJsZUZvbnRTaXplOiAwLCBjaGF0QXZhdGFyVmlzaWJpbGl0eTogJ2JvdGgnLCBjaGF0U25hcFRvRWRnZTogZmFsc2UgfSk7CiAgICAgICAgZXhwZWN0KG1lcmdlZC5jaGF0QnViYmxlRm9udFNpemUpLnRvQmUoMCk7CiAgICAgICAgZXhwZWN0KG1lcmdlZC5jaGF0QXZhdGFyVmlzaWJpbGl0eSkudG9CZSgnYm90aCcpOwogICAgICAgIGV4cGVjdChtZXJnZWQuY2hhdFNuYXBUb0VkZ2UpLnRvQmUoZmFsc2UpOwogICAgICAgIGV4cGVjdChtZXJnZWQuY2hhdEJ1YmJsZUluZGVudCkudG9CZSg2MCk7IC8vIOacquimhueblueahOWtl+auteS7jei3n+WFqOWxgAogICAgfSk7CgogICAgaXQoJ+i/lOWbnua1heaLt+i0neS4lOWPquWQq+W+ruiwg+Wtl+aute+8jOS4jeWkueW4piBlbmFibGVkIC8g5YW25LuW5Li76aKY6ZSuJywgKCkgPT4gewogICAgICAgIGNvbnN0IG1lcmdlZCA9IG1lcmdlQ2hhdEZpbmVUdW5lKHsgLi4uZ2xvYmFsLCBjaGF0QnViYmxlU3R5bGU6ICdmbGF0JyB9IGFzIGFueSwgeyBlbmFibGVkOiB0cnVlIH0pOwogICAgICAgIGV4cGVjdChtZXJnZWQpLm5vdC50b0JlKGdsb2JhbCk7CiAgICAgICAgZXhwZWN0KG1lcmdlZCkubm90LnRvSGF2ZVByb3BlcnR5KCdlbmFibGVkJyk7CiAgICAgICAgZXhwZWN0KG1lcmdlZCkubm90LnRvSGF2ZVByb3BlcnR5KCdjaGF0QnViYmxlU3R5bGUnKTsKICAgICAgICBmb3IgKGNvbnN0IGtleSBvZiBPYmplY3Qua2V5cyhtZXJnZWQpKSBleHBlY3QoQ0hBVF9GSU5FX1RVTkVfS0VZUykudG9Db250YWluKGtleSk7CiAgICB9KTsKCiAgICBpdCgn5YWo5bGA5LiO6KaG55uW6YO95Li656m6IOKGkiDnqbrlr7nosaHvvIhidWlsZENoYXRGaW5lVHVuZUNzcyDlvpfpm7bovpPlh7rvvIknLCAoKSA9PiB7CiAgICAgICAgY29uc3QgbWVyZ2VkID0gbWVyZ2VDaGF0RmluZVR1bmUoe30sIHsgZW5hYmxlZDogdHJ1ZSB9KTsKICAgICAgICBleHBlY3QobWVyZ2VkKS50b0VxdWFsKHt9KTsKICAgICAgICBleHBlY3QoYnVpbGRDaGF0RmluZVR1bmVDc3MobWVyZ2VkKSkudG9CZSgnJyk7CiAgICB9KTsKCiAgICBpdCgnY2hhdE1vZHVsZUFsaWduIOWPguS4juWQiOW5tuS9huS4jeeUn+aIkCBDU1PvvIjnu48gTWVzc2FnZUl0ZW0g5biD5bGA5bGe5oCn55Sf5pWI77yM57y655yBPeWxheS4re+8iScsICgpID0+IHsKICAgICAgICBjb25zdCBtZXJnZWQgPSBtZXJnZUNoYXRGaW5lVHVuZSh7IGNoYXRNb2R1bGVBbGlnbjogJ2NlbnRlcicgfSwgeyBlbmFibGVkOiB0cnVlLCBjaGF0TW9kdWxlQWxpZ246ICdhbmNob3InIH0pOwogICAgICAgIGV4cGVjdChtZXJnZWQuY2hhdE1vZHVsZUFsaWduKS50b0JlKCdhbmNob3InKTsKICAgICAgICBleHBlY3QoYnVpbGRDaGF0RmluZVR1bmVDc3MoeyBjaGF0TW9kdWxlQWxpZ246ICdjZW50ZXInIH0pKS50b0JlKCcnKTsKICAgICAgICBleHBlY3QoYnVpbGRDaGF0RmluZVR1bmVDc3MoeyBjaGF0TW9kdWxlQWxpZ246ICdhbmNob3InIH0pKS50b0JlKCcnKTsKICAgIH0pOwp9KTsK
+import { describe, it, expect } from 'vitest';
+import { buildChatFineTuneCss, mergeChatFineTune, CHAT_FINE_TUNE_KEYS } from './chatFineTuneCss';
+
+// 聊天细节微调 CSS 生成器：全默认零输出；各旋钮生成的选择器与社区已验证版本一致。
+
+describe('buildChatFineTuneCss', () => {
+    it('全默认 → 空串（不注入任何 style）', () => {
+        expect(buildChatFineTuneCss({})).toBe('');
+        expect(buildChatFineTuneCss({ chatAvatarVisibility: 'both', chatAvatarAlign: 'bottom', chatAvatarOffsetY: 0, chatBubbleFontSize: 0, chatBubbleLineHeight: 0, chatBubbleIndent: 0 })).toBe('');
+    });
+
+    it('隐藏角色侧头像只影响 justify-start；贴边只收隐藏侧空位', () => {
+        const css = buildChatFineTuneCss({ chatAvatarVisibility: 'hide_ai', chatSnapToEdge: true });
+        expect(css).toContain('.group.justify-start > [class~="absolute"][class~="z-0"] { display: none');
+        expect(css).not.toContain('.group.justify-end > [class~="absolute"][class~="z-0"] { display: none');
+        expect(css).toContain('.ml-12:not(.sully-html-wrap) { margin-left: 0 !important; }');
+        expect(css).not.toContain('margin-right: 0');
+    });
+
+    it('心象卡片钉回默认位置：贴边补 48px、缩进补 48-indent、没动不出规则', () => {
+        const snapCss = buildChatFineTuneCss({ chatAvatarVisibility: 'hide_ai', chatSnapToEdge: true });
+        expect(snapCss).toContain('.sully-psyche { margin-left: 48px !important; }');
+        const indentCss = buildChatFineTuneCss({ chatBubbleIndent: 60 });
+        expect(indentCss).toContain('.sully-psyche { margin-left: -12px !important; }');
+        // 贴边只作用于用户侧时，AI 包装层只受缩进影响 → 按缩进补
+        const mixedCss = buildChatFineTuneCss({ chatAvatarVisibility: 'hide_user', chatSnapToEdge: true, chatBubbleIndent: 28 });
+        expect(mixedCss).toContain('.sully-psyche { margin-left: 20px !important; }');
+        // 包装层没动（只改字号/对齐）→ 不出心象规则
+        expect(buildChatFineTuneCss({ chatBubbleFontSize: 14, chatAvatarAlign: 'top' })).not.toContain('sully-psyche');
+    });
+
+    it('贴边/缩进的选择器都 :not() 绕开 HTML 卡片包装（卡片不随美化挪窝）', () => {
+        const css = buildChatFineTuneCss({ chatAvatarVisibility: 'hide_both', chatSnapToEdge: true, chatBubbleIndent: 60 });
+        const wrapRules = css.split('\n').filter(line => line.includes('.ml-12') || line.includes('.mr-12'));
+        expect(wrapRules.length).toBeGreaterThan(0);
+        for (const rule of wrapRules) expect(rule).toContain(':not(.sully-html-wrap)');
+    });
+
+    it('顶部对齐 + 垂直微调', () => {
+        const css = buildChatFineTuneCss({ chatAvatarAlign: 'top', chatAvatarOffsetY: -8 });
+        expect(css).toContain('bottom: auto !important; top: -0.5rem !important;');
+        expect(css).toContain('translateY(-8px)');
+    });
+
+    it('垂直居中把偏移并进 calc（transform 不互相覆盖）', () => {
+        const css = buildChatFineTuneCss({ chatAvatarAlign: 'center', chatAvatarOffsetY: 4 });
+        expect(css).toContain('translateY(calc(-50% + 4px))');
+    });
+
+    it('字号/行距走社区版四层选择器，内联元素 inherit', () => {
+        const css = buildChatFineTuneCss({ chatBubbleFontSize: 14, chatBubbleLineHeight: 1.5 });
+        expect(css).toContain('.sully-bubble-ai > div[class~="select-text"]');
+        expect(css).toContain('font-size: 14px !important;');
+        expect(css).toContain('line-height: 1.5 !important;');
+        expect(css).toContain('font-size: inherit !important;');
+        expect(css).toContain('[class*="text-[13px]"]');
+    });
+
+    it('合并结果直接可喂给 buildChatFineTuneCss（角色覆盖后按覆盖值出 CSS）', () => {
+        const css = buildChatFineTuneCss(mergeChatFineTune(
+            { chatBubbleFontSize: 14 },
+            { enabled: true, chatBubbleFontSize: 16 },
+        ));
+        expect(css).toContain('font-size: 16px !important;');
+        expect(css).not.toContain('font-size: 14px');
+    });
+
+    it('气泡缩进对两侧生效；贴边侧让位', () => {
+        const css = buildChatFineTuneCss({ chatBubbleIndent: 60 });
+        expect(css).toContain('margin-left: 60px !important;');
+        expect(css).toContain('margin-right: 60px !important;');
+        const snapCss = buildChatFineTuneCss({ chatBubbleIndent: 60, chatAvatarVisibility: 'hide_ai', chatSnapToEdge: true });
+        expect(snapCss).toContain('margin-left: 0 !important;');
+        expect(snapCss).not.toContain('margin-left: 60px');
+        expect(snapCss).toContain('margin-right: 60px !important;');
+    });
+});
+
+// 「全局打底，角色可覆盖」合并规则：enabled 才生效；生效时已定义字段逐个覆盖，未定义跟随全局。
+
+describe('mergeChatFineTune', () => {
+    const global = { chatAvatarVisibility: 'hide_ai', chatBubbleFontSize: 14, chatBubbleIndent: 60, chatSnapToEdge: true } as const;
+
+    it('无覆盖 / enabled 缺省或 false → 完全跟随全局（设了字段也不生效）', () => {
+        expect(mergeChatFineTune(global)).toEqual(global);
+        expect(mergeChatFineTune(global, null)).toEqual(global);
+        expect(mergeChatFineTune(global, { chatBubbleFontSize: 16 })).toEqual(global);
+        expect(mergeChatFineTune(global, { enabled: false, chatBubbleFontSize: 16 })).toEqual(global);
+    });
+
+    it('enabled=true → 已定义字段逐个覆盖，未定义字段跟随全局', () => {
+        const merged = mergeChatFineTune(global, { enabled: true, chatBubbleFontSize: 16, chatAvatarAlign: 'top' });
+        expect(merged).toEqual({ ...global, chatBubbleFontSize: 16, chatAvatarAlign: 'top' });
+    });
+
+    it('显式默认值（0 / both / false）也算覆盖——角色可把某项压回默认', () => {
+        const merged = mergeChatFineTune(global, { enabled: true, chatBubbleFontSize: 0, chatAvatarVisibility: 'both', chatSnapToEdge: false });
+        expect(merged.chatBubbleFontSize).toBe(0);
+        expect(merged.chatAvatarVisibility).toBe('both');
+        expect(merged.chatSnapToEdge).toBe(false);
+        expect(merged.chatBubbleIndent).toBe(60); // 未覆盖的字段仍跟全局
+    });
+
+    it('返回浅拷贝且只含微调字段，不夹带 enabled / 其他主题键', () => {
+        const merged = mergeChatFineTune({ ...global, chatBubbleStyle: 'flat' } as any, { enabled: true });
+        expect(merged).not.toBe(global);
+        expect(merged).not.toHaveProperty('enabled');
+        expect(merged).not.toHaveProperty('chatBubbleStyle');
+        for (const key of Object.keys(merged)) expect(CHAT_FINE_TUNE_KEYS).toContain(key);
+    });
+
+    it('全局与覆盖都为空 → 空对象（buildChatFineTuneCss 得零输出）', () => {
+        const merged = mergeChatFineTune({}, { enabled: true });
+        expect(merged).toEqual({});
+        expect(buildChatFineTuneCss(merged)).toBe('');
+    });
+
+    it('chatModuleAlign 参与合并但不生成 CSS（经 MessageItem 布局属性生效，缺省=居中）', () => {
+        const merged = mergeChatFineTune({ chatModuleAlign: 'center' }, { enabled: true, chatModuleAlign: 'anchor' });
+        expect(merged.chatModuleAlign).toBe('anchor');
+        expect(buildChatFineTuneCss({ chatModuleAlign: 'center' })).toBe('');
+        expect(buildChatFineTuneCss({ chatModuleAlign: 'anchor' })).toBe('');
+    });
+});

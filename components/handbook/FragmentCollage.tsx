@@ -1,1 +1,396 @@
-LyoqCiAqIOeijueJh+aLvOi0tCjnq6/mraPniYgg4oCUIOmbheiHtOaXpeiusOacrOmjjikKICoKICog6K6+6K6h5Y6f5YiZKHVzZXIg5Y+N6aaI5a+56b2QKToKICogLSDljaHniYcqKuerr+ato+S4jeatqioqKHJvdGF0ZT0wKSzkuI3ph43lj6As57uf5LiA6Ze06LedCiAqIC0g5LiN5YaNIuW3puWPs+S5sei3syIs5Yeg5LmO5bGF5LitLOWPquWFgeiuuOWwj+WwuuWvuOWNoeeJh+i9u+W+ruWBj+W3pi/lj7MKICogLSA2IOenjeearuiCpOS/neeVmSjlsLrlr7gv6aKc6ImyL+adkOi0qCDlpJrmoLfmgKfov5jlnKgpLOS9huaRhuS9jeS4gOiHtCDihpIg5YOP5pyJ56ep5bqP55qE5pel6K6wCiAqIC0g6KOF6aWw54mp5LuOIuWOi+WcqOWNoeeJh+S4iiLmjKrliLAi5Y2h54mH5LmL6Ze05ZKM5Lik5L6n55qE55WZ55m9IizkuI3noLTlnY/ljaHniYfmnKzouqsKICogLSDmrrXpl7Too4XppbDku43mnIkod2FzaGkg5pW05p2hIC8g5b+D5LiyIC8gc3BhcmtsZXMpLOS9huWPquWcqCBmcmFnbWVudCDkuYvpl7TmlL4KICoKICog6KeG6KeJ5Y+C6ICDOiBMT1ZFJkRFRVBTUEFDRSDntKvosIPml6XorrDpobUgKyDpm4Xoh7TmlLbmja7po44KICovCgppbXBvcnQgUmVhY3QgZnJvbSAncmVhY3QnOwppbXBvcnQgeyBIYW5kYm9va0ZyYWdtZW50IH0gZnJvbSAnLi4vLi4vdHlwZXMnOwppbXBvcnQgewogICAgUEFQRVJfVE9ORVMsIFNFUklGX1NUQUNLLCBDVVRFX1NUQUNLLCBXYXNoaVRhcGUsCiAgICBzZWVkUmFuZ2UsIHNlZWRGbG9hdCwKfSBmcm9tICcuL3BhcGVyJzsKaW1wb3J0IHsKICAgIEhlYXJ0U3RpY2tlciwgU3RhclN0aWNrZXIsIFNwYXJrbGVEb3QsCn0gZnJvbSAnLi9zdGlja2Vycyc7CgovLyDilIDilIDilIAg5Y2h54mH55qu6IKkIOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgAp0eXBlIFNraW5LaW5kID0gJ3N0aWNreScgfCAncG9sYXJvaWQnIHwgJ3JpcHBlZCcgfCAnc3RpY2tlcicgfCAnd2FzaGlfY2FyZCcgfCAnaGFuZG5vdGUnOwoKY29uc3QgU1RJQ0tZX1BBTEVUVEVTID0gWwogICAgeyBiZzogJyNmNWVlZjcnLCBib3JkZXI6ICcjZDZjOGU4JywgYWNjZW50OiAnI2E5OGVjNCcgfSwgIC8vIOiWsOiho+iNiSjmlL7nrKzkuIAs6aKR546H6auYKQogICAgeyBiZzogJyNlZWY0ZjknLCBib3JkZXI6ICcjYjlkM2UwJywgYWNjZW50OiAnIzdlYTdiZScgfSwgIC8vIOmbvuiTnQogICAgeyBiZzogJyNmZmYwZjUnLCBib3JkZXI6ICcjZmJiOGM4JywgYWNjZW50OiAnI2YyOWRiMCcgfSwgIC8vIOaoseeyiQogICAgeyBiZzogJyNmMGZhZjUnLCBib3JkZXI6ICcjYmZlMWNmJywgYWNjZW50OiAnIzg4YzVhOCcgfSwgIC8vIOiWhOiNtwogICAgeyBiZzogJyNmZWY5ZTAnLCBib3JkZXI6ICcjZjVlMjk1JywgYWNjZW50OiAnI2Q2Yjg1YScgfSwgIC8vIOicnApdOwoKY29uc3QgSEFORE5PVEVfUEFMRVRURVMgPSBbCiAgICB7IGJnOiAnI2Y1ZWVmNycsIHRpbnQ6ICcjODg3MGE4JyB9LAogICAgeyBiZzogJyNlZWY0ZjknLCB0aW50OiAnIzVhN2E4ZScgfSwKICAgIHsgYmc6ICcjZmZmYWYyJywgdGludDogJyNhODdhOGEnIH0sCiAgICB7IGJnOiAnI2ZkZjllYicsIHRpbnQ6ICcjYTg5MDQ4JyB9LApdOwoKZnVuY3Rpb24gcGlja1NraW4oaWQ6IHN0cmluZyk6IFNraW5LaW5kIHsKICAgIGNvbnN0IHNraW5zOiBTa2luS2luZFtdID0gWwogICAgICAgICdzdGlja3knLCAnc3RpY2t5JywgJ3N0aWNreScsCiAgICAgICAgJ3BvbGFyb2lkJywKICAgICAgICAnd2FzaGlfY2FyZCcsICd3YXNoaV9jYXJkJywKICAgICAgICAncmlwcGVkJywKICAgICAgICAnc3RpY2tlcicsCiAgICAgICAgJ2hhbmRub3RlJywKICAgIF07CiAgICByZXR1cm4gc2tpbnNbTWF0aC5mbG9vcihzZWVkRmxvYXQoaWQsIDkwMDEpICogc2tpbnMubGVuZ3RoKV07Cn0KCmZ1bmN0aW9uIHBpY2tTaXplKHRleHQ6IHN0cmluZyk6ICd4cycgfCAnc20nIHwgJ21kJyB8ICdsZycgewogICAgY29uc3QgbGVuID0gdGV4dC5sZW5ndGg7CiAgICBpZiAobGVuIDwgMjIpIHJldHVybiAneHMnOwogICAgaWYgKGxlbiA8IDQyKSByZXR1cm4gJ3NtJzsKICAgIGlmIChsZW4gPCA3NSkgcmV0dXJuICdtZCc7CiAgICByZXR1cm4gJ2xnJzsKfQoKY29uc3QgU0laRV9UT19XSURUSDogUmVjb3JkPCd4cycgfCAnc20nIHwgJ21kJyB8ICdsZycsIFtudW1iZXIsIG51bWJlcl0+ID0gewogICAgeHM6IFs1MCwgNzBdLAogICAgc206IFs2MiwgODBdLAogICAgbWQ6IFs3NiwgOTBdLAogICAgbGc6IFs4NiwgOTZdLAp9OwoKLy8g4pSA4pSA4pSAIOWNleS4qiBmcmFnbWVudCDnmoTljaHniYfmuLLmn5Mo56uv5q2jLOaXoOaXi+i9rCkg4pSA4pSA4pSA4pSA4pSACmNvbnN0IEZyYWdtZW50Q2FyZDogUmVhY3QuRkM8ewogICAgZnJhZ21lbnQ6IEhhbmRib29rRnJhZ21lbnQ7CiAgICBza2luOiBTa2luS2luZDsKfT4gPSAoeyBmcmFnbWVudCwgc2tpbiB9KSA9PiB7CiAgICBjb25zdCB7IGlkLCB0ZXh0LCB0aW1lIH0gPSBmcmFnbWVudDsKICAgIGNvbnN0IHN0aWNreUlkeCA9IE1hdGguZmxvb3Ioc2VlZEZsb2F0KGlkLCAxMykgKiBTVElDS1lfUEFMRVRURVMubGVuZ3RoKTsKICAgIGNvbnN0IHN0aWNreUNvbG9yID0gU1RJQ0tZX1BBTEVUVEVTW3N0aWNreUlkeF07CgogICAgY29uc3QgdGltZUJhZGdlID0gdGltZSAmJiAoCiAgICAgICAgPGRpdgogICAgICAgICAgICBjbGFzc05hbWU9ImlubGluZS1ibG9jayBweC0yIHB5LTAuNSBtYi0xLjUgcm91bmRlZC1mdWxsIgogICAgICAgICAgICBzdHlsZT17ewogICAgICAgICAgICAgICAgLi4uQ1VURV9TVEFDSywKICAgICAgICAgICAgICAgIGZvbnRTaXplOiA5LjUsCiAgICAgICAgICAgICAgICBsZXR0ZXJTcGFjaW5nOiAnMC4xZW0nLAogICAgICAgICAgICAgICAgY29sb3I6IHN0aWNreUNvbG9yLmFjY2VudCwKICAgICAgICAgICAgICAgIGJhY2tncm91bmQ6ICdyZ2JhKDI1NSwyNTUsMjU1LDAuNyknLAogICAgICAgICAgICAgICAgYm9yZGVyOiBgMXB4IHNvbGlkICR7c3RpY2t5Q29sb3IuYm9yZGVyfWAsCiAgICAgICAgICAgIH19CiAgICAgICAgPgogICAgICAgICAgICDil4Yge3RpbWV9CiAgICAgICAgPC9kaXY+CiAgICApOwoKICAgIGNvbnN0IHRleHRTdHlsZTogUmVhY3QuQ1NTUHJvcGVydGllcyA9IHsKICAgICAgICAuLi5TRVJJRl9TVEFDSywKICAgICAgICBmb250U2l6ZTogMTMuNSwKICAgICAgICBsaW5lSGVpZ2h0OiAnMjNweCcsCiAgICAgICAgY29sb3I6IFBBUEVSX1RPTkVTLmluaywKICAgICAgICBtYXJnaW46IDAsCiAgICB9OwoKICAgIGlmIChza2luID09PSAnc3RpY2t5JykgewogICAgICAgIHJldHVybiAoCiAgICAgICAgICAgIDxkaXYKICAgICAgICAgICAgICAgIGNsYXNzTmFtZT0icHgtMy41IHB5LTMgcm91bmRlZC1sZyIKICAgICAgICAgICAgICAgIHN0eWxlPXt7CiAgICAgICAgICAgICAgICAgICAgYmFja2dyb3VuZDogc3RpY2t5Q29sb3IuYmcsCiAgICAgICAgICAgICAgICAgICAgYm9yZGVyOiBgMXB4IHNvbGlkICR7c3RpY2t5Q29sb3IuYm9yZGVyfWAsCiAgICAgICAgICAgICAgICAgICAgYm94U2hhZG93OiAnMCAxcHggMnB4IHJnYmEoMTIyLDkwLDExNCwwLjA2KSwgMCA0cHggMTBweCAtOHB4IHJnYmEoMTIyLDkwLDExNCwwLjE2KScsCiAgICAgICAgICAgICAgICB9fQogICAgICAgICAgICA+CiAgICAgICAgICAgICAgICB7dGltZUJhZGdlfQogICAgICAgICAgICAgICAgPHAgY2xhc3NOYW1lPSJ3aGl0ZXNwYWNlLXByZS13cmFwIGJyZWFrLXdvcmRzIiBzdHlsZT17dGV4dFN0eWxlfT57dGV4dH08L3A+CiAgICAgICAgICAgIDwvZGl2PgogICAgICAgICk7CiAgICB9CgogICAgaWYgKHNraW4gPT09ICdwb2xhcm9pZCcpIHsKICAgICAgICBjb25zdCBibG9ja0hlaWdodCA9IDM2OwogICAgICAgIHJldHVybiAoCiAgICAgICAgICAgIDxkaXYKICAgICAgICAgICAgICAgIGNsYXNzTmFtZT0icm91bmRlZC1zbSIKICAgICAgICAgICAgICAgIHN0eWxlPXt7CiAgICAgICAgICAgICAgICAgICAgYmFja2dyb3VuZDogJyNmZmYnLAogICAgICAgICAgICAgICAgICAgIHBhZGRpbmc6ICc4cHggMTBweCAxMnB4IDEwcHgnLAogICAgICAgICAgICAgICAgICAgIGJveFNoYWRvdzogJzAgMXB4IDNweCByZ2JhKDEyMiw5MCwxMTQsMC4xKSwgMCA2cHggMTRweCAtOHB4IHJnYmEoMTIyLDkwLDExNCwwLjIpJywKICAgICAgICAgICAgICAgIH19CiAgICAgICAgICAgID4KICAgICAgICAgICAgICAgIDxkaXYKICAgICAgICAgICAgICAgICAgICBzdHlsZT17ewogICAgICAgICAgICAgICAgICAgICAgICBoZWlnaHQ6IGJsb2NrSGVpZ2h0LAogICAgICAgICAgICAgICAgICAgICAgICBib3JkZXJSYWRpdXM6IDIsCiAgICAgICAgICAgICAgICAgICAgICAgIGJhY2tncm91bmQ6IGBsaW5lYXItZ3JhZGllbnQoMTM1ZGVnLCAke3N0aWNreUNvbG9yLmJnfSAwJSwgJHtzdGlja3lDb2xvci5ib3JkZXJ9IDEwMCUpYCwKICAgICAgICAgICAgICAgICAgICAgICAgbWFyZ2luQm90dG9tOiA4LAogICAgICAgICAgICAgICAgICAgICAgICBwb3NpdGlvbjogJ3JlbGF0aXZlJywKICAgICAgICAgICAgICAgICAgICB9fQogICAgICAgICAgICAgICAgPgogICAgICAgICAgICAgICAgICAgIHt0aW1lICYmICgKICAgICAgICAgICAgICAgICAgICAgICAgPHNwYW4KICAgICAgICAgICAgICAgICAgICAgICAgICAgIGNsYXNzTmFtZT0iYWJzb2x1dGUgdG9wLTEgbGVmdC0yIHB4LTEuNSBweS0wIHJvdW5kZWQgdGV4dC1bOXB4XSIKICAgICAgICAgICAgICAgICAgICAgICAgICAgIHN0eWxlPXt7CiAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgLi4uQ1VURV9TVEFDSywKICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICBiYWNrZ3JvdW5kOiAncmdiYSgyNTUsMjU1LDI1NSwwLjg1KScsCiAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgY29sb3I6IHN0aWNreUNvbG9yLmFjY2VudCwKICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICBsZXR0ZXJTcGFjaW5nOiAnMC4xZW0nLAogICAgICAgICAgICAgICAgICAgICAgICAgICAgfX0KICAgICAgICAgICAgICAgICAgICAgICAgPgogICAgICAgICAgICAgICAgICAgICAgICAgICAg4peGIHt0aW1lfQogICAgICAgICAgICAgICAgICAgICAgICA8L3NwYW4+CiAgICAgICAgICAgICAgICAgICAgKX0KICAgICAgICAgICAgICAgIDwvZGl2PgogICAgICAgICAgICAgICAgPHAgY2xhc3NOYW1lPSJ3aGl0ZXNwYWNlLXByZS13cmFwIGJyZWFrLXdvcmRzIiBzdHlsZT17dGV4dFN0eWxlfT57dGV4dH08L3A+CiAgICAgICAgICAgIDwvZGl2PgogICAgICAgICk7CiAgICB9CgogICAgaWYgKHNraW4gPT09ICdyaXBwZWQnKSB7CiAgICAgICAgcmV0dXJuICgKICAgICAgICAgICAgPGRpdiBjbGFzc05hbWU9InJlbGF0aXZlIj4KICAgICAgICAgICAgICAgIDxaaWd6YWdFZGdlIGNvbG9yPSIjZmZmIiBmbGlwPXtmYWxzZX0gLz4KICAgICAgICAgICAgICAgIDxkaXYKICAgICAgICAgICAgICAgICAgICBjbGFzc05hbWU9InB4LTMuNSBweS0zIgogICAgICAgICAgICAgICAgICAgIHN0eWxlPXt7CiAgICAgICAgICAgICAgICAgICAgICAgIGJhY2tncm91bmQ6ICcjZmZmJywKICAgICAgICAgICAgICAgICAgICAgICAgYmFja2dyb3VuZEltYWdlOiBgcmVwZWF0aW5nLWxpbmVhci1ncmFkaWVudCh0cmFuc3BhcmVudCwgdHJhbnNwYXJlbnQgMjJweCwgJHtzdGlja3lDb2xvci5ib3JkZXJ9NTUgMjJweCwgJHtzdGlja3lDb2xvci5ib3JkZXJ9NTUgMjNweClgLAogICAgICAgICAgICAgICAgICAgICAgICBib3hTaGFkb3c6ICcwIDFweCAycHggcmdiYSgxMjIsOTAsMTE0LDAuMDgpJywKICAgICAgICAgICAgICAgICAgICB9fQogICAgICAgICAgICAgICAgPgogICAgICAgICAgICAgICAgICAgIHt0aW1lQmFkZ2V9CiAgICAgICAgICAgICAgICAgICAgPHAgY2xhc3NOYW1lPSJ3aGl0ZXNwYWNlLXByZS13cmFwIGJyZWFrLXdvcmRzIiBzdHlsZT17dGV4dFN0eWxlfT57dGV4dH08L3A+CiAgICAgICAgICAgICAgICA8L2Rpdj4KICAgICAgICAgICAgICAgIDxaaWd6YWdFZGdlIGNvbG9yPSIjZmZmIiBmbGlwPXt0cnVlfSAvPgogICAgICAgICAgICA8L2Rpdj4KICAgICAgICApOwogICAgfQoKICAgIGlmIChza2luID09PSAnc3RpY2tlcicpIHsKICAgICAgICByZXR1cm4gKAogICAgICAgICAgICA8ZGl2CiAgICAgICAgICAgICAgICBjbGFzc05hbWU9InB4LTMuNSBweS0yLjUiCiAgICAgICAgICAgICAgICBzdHlsZT17ewogICAgICAgICAgICAgICAgICAgIGJhY2tncm91bmQ6ICdyZ2JhKDI1NSwyNTUsMjU1LDAuNSknLAogICAgICAgICAgICAgICAgICAgIGJvcmRlcjogYDEuNXB4IGRhc2hlZCAke3N0aWNreUNvbG9yLmFjY2VudH1gLAogICAgICAgICAgICAgICAgICAgIGJvcmRlclJhZGl1czogMTQsCiAgICAgICAgICAgICAgICAgICAgYmFja2Ryb3BGaWx0ZXI6ICdibHVyKDJweCknLAogICAgICAgICAgICAgICAgfX0KICAgICAgICAgICAgPgogICAgICAgICAgICAgICAge3RpbWUgJiYgKAogICAgICAgICAgICAgICAgICAgIDxzcGFuCiAgICAgICAgICAgICAgICAgICAgICAgIGNsYXNzTmFtZT0iaW5saW5lLWJsb2NrIG1iLTEgdGV4dC1bOS41cHhdIHRyYWNraW5nLXdpZGVzdCIKICAgICAgICAgICAgICAgICAgICAgICAgc3R5bGU9e3sgLi4uQ1VURV9TVEFDSywgY29sb3I6IHN0aWNreUNvbG9yLmFjY2VudCB9fQogICAgICAgICAgICAgICAgICAgID4KICAgICAgICAgICAgICAgICAgICAgICAg4peGIHt0aW1lfQogICAgICAgICAgICAgICAgICAgIDwvc3Bhbj4KICAgICAgICAgICAgICAgICl9CiAgICAgICAgICAgICAgICA8cCBjbGFzc05hbWU9IndoaXRlc3BhY2UtcHJlLXdyYXAgYnJlYWstd29yZHMiIHN0eWxlPXt0ZXh0U3R5bGV9Pnt0ZXh0fTwvcD4KICAgICAgICAgICAgPC9kaXY+CiAgICAgICAgKTsKICAgIH0KCiAgICBpZiAoc2tpbiA9PT0gJ3dhc2hpX2NhcmQnKSB7CiAgICAgICAgY29uc3QgdGFwZUNvbG9yczogQXJyYXk8J3Jvc2UnIHwgJ21pbnQnIHwgJ2xlbW9uJyB8ICdibHVlJyB8ICdsYXZlbmRlcic+ID0gWydsYXZlbmRlcicsJ2JsdWUnLCdyb3NlJywnbWludCcsJ2xlbW9uJ107CiAgICAgICAgY29uc3QgdGFwZUNvbG9yID0gdGFwZUNvbG9yc1tNYXRoLmZsb29yKHNlZWRGbG9hdChpZCwgMTcpICogdGFwZUNvbG9ycy5sZW5ndGgpXTsKICAgICAgICByZXR1cm4gKAogICAgICAgICAgICA8ZGl2CiAgICAgICAgICAgICAgICBjbGFzc05hbWU9InJlbGF0aXZlIHB0LTUgcGItMyBweC0zLjUgcm91bmRlZC1zbSIKICAgICAgICAgICAgICAgIHN0eWxlPXt7CiAgICAgICAgICAgICAgICAgICAgYmFja2dyb3VuZDogJyNmZmYnLAogICAgICAgICAgICAgICAgICAgIGJveFNoYWRvdzogJzAgMXB4IDNweCByZ2JhKDEyMiw5MCwxMTQsMC4wOCksIDAgNHB4IDEwcHggLThweCByZ2JhKDEyMiw5MCwxMTQsMC4xNiknLAogICAgICAgICAgICAgICAgfX0KICAgICAgICAgICAgPgogICAgICAgICAgICAgICAgPGRpdiBjbGFzc05hbWU9ImFic29sdXRlIC10b3AtMS41IGxlZnQtMyByaWdodC0zIGgtMyBwb2ludGVyLWV2ZW50cy1ub25lIj4KICAgICAgICAgICAgICAgICAgICA8ZGl2CiAgICAgICAgICAgICAgICAgICAgICAgIHN0eWxlPXt7CiAgICAgICAgICAgICAgICAgICAgICAgICAgICBoZWlnaHQ6ICcxMDAlJywKICAgICAgICAgICAgICAgICAgICAgICAgICAgIGJhY2tncm91bmQ6IGByZXBlYXRpbmctbGluZWFyLWdyYWRpZW50KDEzNWRlZywgJHtzdGlja3lDb2xvci5iZ30gMCA4cHgsICR7c3RpY2t5Q29sb3IuYm9yZGVyfWNjIDhweCAxNHB4KWAsCiAgICAgICAgICAgICAgICAgICAgICAgICAgICBjbGlwUGF0aDogJ3BvbHlnb24oMiUgMCwgOTklIDYlLCAxMDAlIDEwMCUsIDAgOTUlKScsCiAgICAgICAgICAgICAgICAgICAgICAgICAgICBib3hTaGFkb3c6ICcwIDFweCAycHggcmdiYSgwLDAsMCwwLjA1KScsCiAgICAgICAgICAgICAgICAgICAgICAgIH19CiAgICAgICAgICAgICAgICAgICAgLz4KICAgICAgICAgICAgICAgIDwvZGl2PgogICAgICAgICAgICAgICAge3RpbWVCYWRnZX0KICAgICAgICAgICAgICAgIDxwIGNsYXNzTmFtZT0id2hpdGVzcGFjZS1wcmUtd3JhcCBicmVhay13b3JkcyIgc3R5bGU9e3RleHRTdHlsZX0+e3RleHR9PC9wPgogICAgICAgICAgICA8L2Rpdj4KICAgICAgICApOwogICAgfQoKICAgIGlmIChza2luID09PSAnaGFuZG5vdGUnKSB7CiAgICAgICAgY29uc3QgcGFsSWR4ID0gTWF0aC5mbG9vcihzZWVkRmxvYXQoaWQsIDE5KSAqIEhBTkROT1RFX1BBTEVUVEVTLmxlbmd0aCk7CiAgICAgICAgY29uc3QgcGFsID0gSEFORE5PVEVfUEFMRVRURVNbcGFsSWR4XTsKICAgICAgICByZXR1cm4gKAogICAgICAgICAgICA8ZGl2CiAgICAgICAgICAgICAgICBjbGFzc05hbWU9InB4LTMuNSBweS0zIgogICAgICAgICAgICAgICAgc3R5bGU9e3sKICAgICAgICAgICAgICAgICAgICBiYWNrZ3JvdW5kOiBwYWwuYmcsCiAgICAgICAgICAgICAgICAgICAgYm9yZGVyOiBgMXB4IHNvbGlkICR7cGFsLnRpbnR9MzNgLAogICAgICAgICAgICAgICAgICAgIGJvcmRlclJhZGl1czogNiwKICAgICAgICAgICAgICAgICAgICBib3hTaGFkb3c6ICcwIDFweCAycHggcmdiYSgwLDAsMCwwLjA0KScsCiAgICAgICAgICAgICAgICB9fQogICAgICAgICAgICA+CiAgICAgICAgICAgICAgICB7dGltZSAmJiAoCiAgICAgICAgICAgICAgICAgICAgPHNwYW4KICAgICAgICAgICAgICAgICAgICAgICAgY2xhc3NOYW1lPSJpbmxpbmUtYmxvY2sgbWItMS41IHRleHQtWzkuNXB4XSB0cmFja2luZy13aWRlc3QgaXRhbGljIgogICAgICAgICAgICAgICAgICAgICAgICBzdHlsZT17eyAuLi5DVVRFX1NUQUNLLCBjb2xvcjogcGFsLnRpbnQgfX0KICAgICAgICAgICAgICAgICAgICA+CiAgICAgICAgICAgICAgICAgICAgICAgIOKXhiB7dGltZX0KICAgICAgICAgICAgICAgICAgICA8L3NwYW4+CiAgICAgICAgICAgICAgICApfQogICAgICAgICAgICAgICAgPHAKICAgICAgICAgICAgICAgICAgICBjbGFzc05hbWU9IndoaXRlc3BhY2UtcHJlLXdyYXAgYnJlYWstd29yZHMiCiAgICAgICAgICAgICAgICAgICAgc3R5bGU9e3sKICAgICAgICAgICAgICAgICAgICAgICAgLi4uU0VSSUZfU1RBQ0ssCiAgICAgICAgICAgICAgICAgICAgICAgIGZvbnRTaXplOiAxMy41LAogICAgICAgICAgICAgICAgICAgICAgICBsaW5lSGVpZ2h0OiAnMjNweCcsCiAgICAgICAgICAgICAgICAgICAgICAgIGNvbG9yOiBwYWwudGludCwKICAgICAgICAgICAgICAgICAgICAgICAgbWFyZ2luOiAwLAogICAgICAgICAgICAgICAgICAgICAgICBmb250U3R5bGU6ICdpdGFsaWMnLAogICAgICAgICAgICAgICAgICAgIH19CiAgICAgICAgICAgICAgICA+CiAgICAgICAgICAgICAgICAgICAge3RleHR9CiAgICAgICAgICAgICAgICA8L3A+CiAgICAgICAgICAgIDwvZGl2PgogICAgICAgICk7CiAgICB9CgogICAgcmV0dXJuIG51bGw7Cn07CgovLyDilIDilIDilIAgemlnemFnIOaSlei+uSDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIAKY29uc3QgWmlnemFnRWRnZTogUmVhY3QuRkM8eyBjb2xvcjogc3RyaW5nOyBmbGlwOiBib29sZWFuIH0+ID0gKHsgY29sb3IsIGZsaXAgfSkgPT4gKAogICAgPHN2ZwogICAgICAgIHZpZXdCb3g9IjAgMCAxMDAgNiIgcHJlc2VydmVBc3BlY3RSYXRpbz0ibm9uZSIKICAgICAgICBzdHlsZT17eyB3aWR0aDogJzEwMCUnLCBoZWlnaHQ6IDUsIGRpc3BsYXk6ICdibG9jaycsIHRyYW5zZm9ybTogZmxpcCA/ICdzY2FsZVkoLTEpJyA6IHVuZGVmaW5lZCB9fQogICAgICAgIGFyaWEtaGlkZGVuCiAgICA+CiAgICAgICAgPHBvbHlnb24KICAgICAgICAgICAgcG9pbnRzPSIwLDYgNCwwIDgsNiAxMiwwIDE2LDYgMjAsMCAyNCw2IDI4LDAgMzIsNiAzNiwwIDQwLDYgNDQsMCA0OCw2IDUyLDAgNTYsNiA2MCwwIDY0LDYgNjgsMCA3Miw2IDc2LDAgODAsNiA4NCwwIDg4LDYgOTIsMCA5Niw2IDEwMCwwIDEwMCw2IgogICAgICAgICAgICBmaWxsPXtjb2xvcn0KICAgICAgICAvPgogICAgPC9zdmc+Cik7CgovLyDilIDilIDilIAg5q616Ze06KOF6aWwKOerr+ato+eJiCDigJQg5bGF5LitIC8g5LiA6Ie0KSDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIAKdHlwZSBEZWNvS2luZCA9ICdzcGFya2xlcycgfCAnaGVhcnRzdHJpcCcgfCAnd2FzaGlfdGhpbicgfCAnZG90bGluZScgfCAnc3Rhcl9jaGFpbic7Cgpjb25zdCBJbnRlcmxlYXZlRGVjbzogUmVhY3QuRkM8eyBraW5kOiBEZWNvS2luZDsgc2VlZDogc3RyaW5nIH0+ID0gKHsga2luZCwgc2VlZCB9KSA9PiB7CiAgICBpZiAoa2luZCA9PT0gJ3NwYXJrbGVzJykgewogICAgICAgIHJldHVybiAoCiAgICAgICAgICAgIDxkaXYgY2xhc3NOYW1lPSJmbGV4IGl0ZW1zLWNlbnRlciBqdXN0aWZ5LWNlbnRlciBnYXAtMyBteS0yIj4KICAgICAgICAgICAgICAgIDxTcGFya2xlRG90IHNpemU9ezl9IGNvbG9yPXtQQVBFUl9UT05FUy5hY2NlbnRMYXZlbmRlcn0gLz4KICAgICAgICAgICAgICAgIDxTdGFyU3RpY2tlciBzaXplPXsxMX0gY29sb3I9e1BBUEVSX1RPTkVTLmFjY2VudExlbW9ufSAvPgogICAgICAgICAgICAgICAgPFNwYXJrbGVEb3Qgc2l6ZT17OX0gY29sb3I9e1BBUEVSX1RPTkVTLmFjY2VudEJsdWV9IC8+CiAgICAgICAgICAgIDwvZGl2PgogICAgICAgICk7CiAgICB9CiAgICBpZiAoa2luZCA9PT0gJ2hlYXJ0c3RyaXAnKSB7CiAgICAgICAgY29uc3QgY291bnQgPSA1OwogICAgICAgIHJldHVybiAoCiAgICAgICAgICAgIDxkaXYgY2xhc3NOYW1lPSJmbGV4IGl0ZW1zLWNlbnRlciBqdXN0aWZ5LWNlbnRlciBnYXAtMS41IG15LTEiPgogICAgICAgICAgICAgICAge0FycmF5LmZyb20oeyBsZW5ndGg6IGNvdW50IH0pLm1hcCgoXywgaSkgPT4gKAogICAgICAgICAgICAgICAgICAgIDxIZWFydFN0aWNrZXIKICAgICAgICAgICAgICAgICAgICAgICAga2V5PXtpfQogICAgICAgICAgICAgICAgICAgICAgICBzaXplPXs4ICsgKGkgPT09IDIgPyA0IDogMCl9IC8qIOS4reW/g+eojeWkpyAqLwogICAgICAgICAgICAgICAgICAgICAgICBzcGFya2xlPXtmYWxzZX0KICAgICAgICAgICAgICAgICAgICAgICAgY29sb3I9e2kgJSAyID09PSAwID8gUEFQRVJfVE9ORVMuYWNjZW50Qmx1c2ggOiBQQVBFUl9UT05FUy5hY2NlbnRSb3NlfQogICAgICAgICAgICAgICAgICAgIC8+CiAgICAgICAgICAgICAgICApKX0KICAgICAgICAgICAgPC9kaXY+CiAgICAgICAgKTsKICAgIH0KICAgIGlmIChraW5kID09PSAnd2FzaGlfdGhpbicpIHsKICAgICAgICBjb25zdCB0YXBlczogQXJyYXk8J3Jvc2UnIHwgJ21pbnQnIHwgJ2xlbW9uJyB8ICdibHVlJyB8ICdsYXZlbmRlcic+ID0gWydsYXZlbmRlcicsJ2JsdWUnLCdyb3NlJ107CiAgICAgICAgY29uc3QgYyA9IHRhcGVzW01hdGguZmxvb3Ioc2VlZEZsb2F0KHNlZWQsIDEpICogdGFwZXMubGVuZ3RoKV07CiAgICAgICAgcmV0dXJuICgKICAgICAgICAgICAgPGRpdiBjbGFzc05hbWU9ImZsZXgganVzdGlmeS1jZW50ZXIgbXktMiI+CiAgICAgICAgICAgICAgICA8ZGl2IHN0eWxlPXt7IHdpZHRoOiAnNDAlJyB9fT4KICAgICAgICAgICAgICAgICAgICA8V2FzaGlUYXBlIGNvbG9yPXtjfSBwYXR0ZXJuPSJkb3QiIHJvdGF0ZT17MH0+CiAgICAgICAgICAgICAgICAgICAgICAgIHsnIMK3IMK3IMK3ICd9CiAgICAgICAgICAgICAgICAgICAgPC9XYXNoaVRhcGU+CiAgICAgICAgICAgICAgICA8L2Rpdj4KICAgICAgICAgICAgPC9kaXY+CiAgICAgICAgKTsKICAgIH0KICAgIGlmIChraW5kID09PSAnZG90bGluZScpIHsKICAgICAgICByZXR1cm4gKAogICAgICAgICAgICA8ZGl2IGNsYXNzTmFtZT0iZmxleCBpdGVtcy1jZW50ZXIganVzdGlmeS1jZW50ZXIgZ2FwLTEgbXktMiBweC04IiBhcmlhLWhpZGRlbj4KICAgICAgICAgICAgICAgIDxkaXYgc3R5bGU9e3sgZmxleDogMSwgaGVpZ2h0OiAxLCBiYWNrZ3JvdW5kOiBQQVBFUl9UT05FUy5zcGluZSwgb3BhY2l0eTogMC41IH19IC8+CiAgICAgICAgICAgICAgICA8U3BhcmtsZURvdCBzaXplPXs4fSBjb2xvcj17UEFQRVJfVE9ORVMuYWNjZW50TGF2ZW5kZXJ9IC8+CiAgICAgICAgICAgICAgICA8ZGl2IHN0eWxlPXt7IGZsZXg6IDEsIGhlaWdodDogMSwgYmFja2dyb3VuZDogUEFQRVJfVE9ORVMuc3BpbmUsIG9wYWNpdHk6IDAuNSB9fSAvPgogICAgICAgICAgICA8L2Rpdj4KICAgICAgICApOwogICAgfQogICAgaWYgKGtpbmQgPT09ICdzdGFyX2NoYWluJykgewogICAgICAgIHJldHVybiAoCiAgICAgICAgICAgIDxkaXYgY2xhc3NOYW1lPSJmbGV4IGl0ZW1zLWNlbnRlciBqdXN0aWZ5LWNlbnRlciBnYXAtMiBteS0xLjUiPgogICAgICAgICAgICAgICAgPHNwYW4gc3R5bGU9e3sgY29sb3I6IFBBUEVSX1RPTkVTLmFjY2VudExhdmVuZGVyLCBmb250U2l6ZTogMTAgfX0+4pymPC9zcGFuPgogICAgICAgICAgICAgICAgPHNwYW4gc3R5bGU9e3sgY29sb3I6IFBBUEVSX1RPTkVTLmFjY2VudEJsdWUsIGZvbnRTaXplOiA4IH19PsK3PC9zcGFuPgogICAgICAgICAgICAgICAgPHNwYW4gc3R5bGU9e3sgY29sb3I6IFBBUEVSX1RPTkVTLmFjY2VudExlbW9uLCBmb250U2l6ZTogMTIgfX0+4pymPC9zcGFuPgogICAgICAgICAgICAgICAgPHNwYW4gc3R5bGU9e3sgY29sb3I6IFBBUEVSX1RPTkVTLmFjY2VudEJsdWUsIGZvbnRTaXplOiA4IH19PsK3PC9zcGFuPgogICAgICAgICAgICAgICAgPHNwYW4gc3R5bGU9e3sgY29sb3I6IFBBUEVSX1RPTkVTLmFjY2VudExhdmVuZGVyLCBmb250U2l6ZTogMTAgfX0+4pymPC9zcGFuPgogICAgICAgICAgICA8L2Rpdj4KICAgICAgICApOwogICAgfQogICAgcmV0dXJuIG51bGw7Cn07CgovLyDilIDilIDilIAg5Li757uE5Lu2IOKAlCDnq6/mraPluIPlsYAg4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSACmNvbnN0IEZyYWdtZW50Q29sbGFnZTogUmVhY3QuRkM8ewogICAgZnJhZ21lbnRzOiBIYW5kYm9va0ZyYWdtZW50W107CiAgICBjb21wYWN0PzogYm9vbGVhbjsKfT4gPSAoeyBmcmFnbWVudHMsIGNvbXBhY3Q6IF9jb21wYWN0ID0gZmFsc2UgfSkgPT4gewogICAgaWYgKCFmcmFnbWVudHMgfHwgZnJhZ21lbnRzLmxlbmd0aCA9PT0gMCkgcmV0dXJuIG51bGw7CgogICAgcmV0dXJuICgKICAgICAgICA8ZGl2IGNsYXNzTmFtZT0icmVsYXRpdmUgcHQtMiBwYi0yIGZsZXggZmxleC1jb2wgaXRlbXMtY2VudGVyIj4KICAgICAgICAgICAge2ZyYWdtZW50cy5tYXAoKGYsIGkpID0+IHsKICAgICAgICAgICAgICAgIGNvbnN0IHNraW4gPSBwaWNrU2tpbihmLmlkKTsKICAgICAgICAgICAgICAgIGNvbnN0IHNpemUgPSBwaWNrU2l6ZShmLnRleHQpOwogICAgICAgICAgICAgICAgY29uc3QgW3dNaW4sIHdNYXhdID0gU0laRV9UT19XSURUSFtzaXplXTsKICAgICAgICAgICAgICAgIGNvbnN0IHdpZHRoUGN0ID0gc2VlZFJhbmdlKGYuaWQsIDIxLCB3TWluLCB3TWF4KTsKCiAgICAgICAgICAgICAgICAvLyDnq6/mraM65Yeg5LmO5bGF5LitLOWwj+WwuuWvuOWFgeiuuOW+ruWBj+W3pi/lj7MowrEzJSkKICAgICAgICAgICAgICAgIC8vIOWkp+WwuuWvuOWbuuWumuWxheS4rQogICAgICAgICAgICAgICAgY29uc3QgaXNXaWRlID0gd2lkdGhQY3QgPiA4MDsKICAgICAgICAgICAgICAgIGNvbnN0IG9mZnNldFggPSBpc1dpZGUgPyAwIDogKHNlZWRGbG9hdChmLmlkLCAyMikgLSAwLjUpICogNjsgLy8gwrEzJQoKICAgICAgICAgICAgICAgIC8vIOautemXtOijhemlsDrmr48gfjIg54mH5o+S5LiA5qyhLOijhemlsOWcqCBmcmFnbWVudCDkuYvpl7Qo5LiN5Zyo5Y2h54mH5LiKKQogICAgICAgICAgICAgICAgY29uc3QgaW5zZXJ0RGVjb0JlZm9yZSA9IGkgPiAwICYmIChpICUgMiA9PT0gMCkgJiYgc2VlZEZsb2F0KGYuaWQsIDI3KSA+IDAuNDU7CiAgICAgICAgICAgICAgICBjb25zdCBkZWNvS2luZHM6IERlY29LaW5kW10gPSBbJ3NwYXJrbGVzJywgJ2hlYXJ0c3RyaXAnLCAnd2FzaGlfdGhpbicsICdkb3RsaW5lJywgJ3N0YXJfY2hhaW4nXTsKICAgICAgICAgICAgICAgIGNvbnN0IGRlY29LaW5kID0gZGVjb0tpbmRzW01hdGguZmxvb3Ioc2VlZEZsb2F0KGYuaWQsIDI4KSAqIGRlY29LaW5kcy5sZW5ndGgpXTsKCiAgICAgICAgICAgICAgICByZXR1cm4gKAogICAgICAgICAgICAgICAgICAgIDxSZWFjdC5GcmFnbWVudCBrZXk9e2YuaWR9PgogICAgICAgICAgICAgICAgICAgICAgICB7aW5zZXJ0RGVjb0JlZm9yZSAmJiAoCiAgICAgICAgICAgICAgICAgICAgICAgICAgICA8ZGl2IHN0eWxlPXt7IHdpZHRoOiAnMTAwJScgfX0+CiAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgPEludGVybGVhdmVEZWNvIGtpbmQ9e2RlY29LaW5kfSBzZWVkPXtmLmlkICsgJzpkZWNvJ30gLz4KICAgICAgICAgICAgICAgICAgICAgICAgICAgIDwvZGl2PgogICAgICAgICAgICAgICAgICAgICAgICApfQogICAgICAgICAgICAgICAgICAgICAgICA8ZGl2CiAgICAgICAgICAgICAgICAgICAgICAgICAgICBzdHlsZT17ewogICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgIHBvc2l0aW9uOiAncmVsYXRpdmUnLAogICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgIHdpZHRoOiBgJHt3aWR0aFBjdH0lYCwKICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICBtYXJnaW5MZWZ0OiBgJHtvZmZzZXRYfSVgLAogICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgIG1hcmdpblRvcDogaSA9PT0gMCA/IDYgOiAxNCwKICAgICAgICAgICAgICAgICAgICAgICAgICAgIH19CiAgICAgICAgICAgICAgICAgICAgICAgID4KICAgICAgICAgICAgICAgICAgICAgICAgICAgIDxGcmFnbWVudENhcmQgZnJhZ21lbnQ9e2Z9IHNraW49e3NraW59IC8+CiAgICAgICAgICAgICAgICAgICAgICAgIDwvZGl2PgogICAgICAgICAgICAgICAgICAgIDwvUmVhY3QuRnJhZ21lbnQ+CiAgICAgICAgICAgICAgICApOwogICAgICAgICAgICB9KX0KICAgICAgICA8L2Rpdj4KICAgICk7Cn07CgpleHBvcnQgZGVmYXVsdCBGcmFnbWVudENvbGxhZ2U7Cg==
+/**
+ * 碎片拼贴(端正版 — 雅致日记本风)
+ *
+ * 设计原则(user 反馈对齐):
+ * - 卡片**端正不歪**(rotate=0),不重叠,统一间距
+ * - 不再"左右乱跳",几乎居中,只允许小尺寸卡片轻微偏左/右
+ * - 6 种皮肤保留(尺寸/颜色/材质 多样性还在),但摆位一致 → 像有秩序的日记
+ * - 装饰物从"压在卡片上"挪到"卡片之间和两侧的留白",不破坏卡片本身
+ * - 段间装饰仍有(washi 整条 / 心串 / sparkles),但只在 fragment 之间放
+ *
+ * 视觉参考: LOVE&DEEPSPACE 紫调日记页 + 雅致收据风
+ */
+
+import React from 'react';
+import { HandbookFragment } from '../../types';
+import {
+    PAPER_TONES, SERIF_STACK, CUTE_STACK, WashiTape,
+    seedRange, seedFloat,
+} from './paper';
+import {
+    HeartSticker, StarSticker, SparkleDot,
+} from './stickers';
+
+// ─── 卡片皮肤 ───────────────────────────────────
+type SkinKind = 'sticky' | 'polaroid' | 'ripped' | 'sticker' | 'washi_card' | 'handnote';
+
+const STICKY_PALETTES = [
+    { bg: '#f5eef7', border: '#d6c8e8', accent: '#a98ec4' },  // 薰衣草(放第一,频率高)
+    { bg: '#eef4f9', border: '#b9d3e0', accent: '#7ea7be' },  // 雾蓝
+    { bg: '#fff0f5', border: '#fbb8c8', accent: '#f29db0' },  // 樱粉
+    { bg: '#f0faf5', border: '#bfe1cf', accent: '#88c5a8' },  // 薄荷
+    { bg: '#fef9e0', border: '#f5e295', accent: '#d6b85a' },  // 蜜
+];
+
+const HANDNOTE_PALETTES = [
+    { bg: '#f5eef7', tint: '#8870a8' },
+    { bg: '#eef4f9', tint: '#5a7a8e' },
+    { bg: '#fffaf2', tint: '#a87a8a' },
+    { bg: '#fdf9eb', tint: '#a89048' },
+];
+
+function pickSkin(id: string): SkinKind {
+    const skins: SkinKind[] = [
+        'sticky', 'sticky', 'sticky',
+        'polaroid',
+        'washi_card', 'washi_card',
+        'ripped',
+        'sticker',
+        'handnote',
+    ];
+    return skins[Math.floor(seedFloat(id, 9001) * skins.length)];
+}
+
+function pickSize(text: string): 'xs' | 'sm' | 'md' | 'lg' {
+    const len = text.length;
+    if (len < 22) return 'xs';
+    if (len < 42) return 'sm';
+    if (len < 75) return 'md';
+    return 'lg';
+}
+
+const SIZE_TO_WIDTH: Record<'xs' | 'sm' | 'md' | 'lg', [number, number]> = {
+    xs: [50, 70],
+    sm: [62, 80],
+    md: [76, 90],
+    lg: [86, 96],
+};
+
+// ─── 单个 fragment 的卡片渲染(端正,无旋转) ─────
+const FragmentCard: React.FC<{
+    fragment: HandbookFragment;
+    skin: SkinKind;
+}> = ({ fragment, skin }) => {
+    const { id, text, time } = fragment;
+    const stickyIdx = Math.floor(seedFloat(id, 13) * STICKY_PALETTES.length);
+    const stickyColor = STICKY_PALETTES[stickyIdx];
+
+    const timeBadge = time && (
+        <div
+            className="inline-block px-2 py-0.5 mb-1.5 rounded-full"
+            style={{
+                ...CUTE_STACK,
+                fontSize: 9.5,
+                letterSpacing: '0.1em',
+                color: stickyColor.accent,
+                background: 'rgba(255,255,255,0.7)',
+                border: `1px solid ${stickyColor.border}`,
+            }}
+        >
+            ◆ {time}
+        </div>
+    );
+
+    const textStyle: React.CSSProperties = {
+        ...SERIF_STACK,
+        fontSize: 13.5,
+        lineHeight: '23px',
+        color: PAPER_TONES.ink,
+        margin: 0,
+    };
+
+    if (skin === 'sticky') {
+        return (
+            <div
+                className="px-3.5 py-3 rounded-lg"
+                style={{
+                    background: stickyColor.bg,
+                    border: `1px solid ${stickyColor.border}`,
+                    boxShadow: '0 1px 2px rgba(122,90,114,0.06), 0 4px 10px -8px rgba(122,90,114,0.16)',
+                }}
+            >
+                {timeBadge}
+                <p className="whitespace-pre-wrap break-words" style={textStyle}>{text}</p>
+            </div>
+        );
+    }
+
+    if (skin === 'polaroid') {
+        const blockHeight = 36;
+        return (
+            <div
+                className="rounded-sm"
+                style={{
+                    background: '#fff',
+                    padding: '8px 10px 12px 10px',
+                    boxShadow: '0 1px 3px rgba(122,90,114,0.1), 0 6px 14px -8px rgba(122,90,114,0.2)',
+                }}
+            >
+                <div
+                    style={{
+                        height: blockHeight,
+                        borderRadius: 2,
+                        background: `linear-gradient(135deg, ${stickyColor.bg} 0%, ${stickyColor.border} 100%)`,
+                        marginBottom: 8,
+                        position: 'relative',
+                    }}
+                >
+                    {time && (
+                        <span
+                            className="absolute top-1 left-2 px-1.5 py-0 rounded text-[9px]"
+                            style={{
+                                ...CUTE_STACK,
+                                background: 'rgba(255,255,255,0.85)',
+                                color: stickyColor.accent,
+                                letterSpacing: '0.1em',
+                            }}
+                        >
+                            ◆ {time}
+                        </span>
+                    )}
+                </div>
+                <p className="whitespace-pre-wrap break-words" style={textStyle}>{text}</p>
+            </div>
+        );
+    }
+
+    if (skin === 'ripped') {
+        return (
+            <div className="relative">
+                <ZigzagEdge color="#fff" flip={false} />
+                <div
+                    className="px-3.5 py-3"
+                    style={{
+                        background: '#fff',
+                        backgroundImage: `repeating-linear-gradient(transparent, transparent 22px, ${stickyColor.border}55 22px, ${stickyColor.border}55 23px)`,
+                        boxShadow: '0 1px 2px rgba(122,90,114,0.08)',
+                    }}
+                >
+                    {timeBadge}
+                    <p className="whitespace-pre-wrap break-words" style={textStyle}>{text}</p>
+                </div>
+                <ZigzagEdge color="#fff" flip={true} />
+            </div>
+        );
+    }
+
+    if (skin === 'sticker') {
+        return (
+            <div
+                className="px-3.5 py-2.5"
+                style={{
+                    background: 'rgba(255,255,255,0.5)',
+                    border: `1.5px dashed ${stickyColor.accent}`,
+                    borderRadius: 14,
+                    backdropFilter: 'blur(2px)',
+                }}
+            >
+                {time && (
+                    <span
+                        className="inline-block mb-1 text-[9.5px] tracking-widest"
+                        style={{ ...CUTE_STACK, color: stickyColor.accent }}
+                    >
+                        ◆ {time}
+                    </span>
+                )}
+                <p className="whitespace-pre-wrap break-words" style={textStyle}>{text}</p>
+            </div>
+        );
+    }
+
+    if (skin === 'washi_card') {
+        const tapeColors: Array<'rose' | 'mint' | 'lemon' | 'blue' | 'lavender'> = ['lavender','blue','rose','mint','lemon'];
+        const tapeColor = tapeColors[Math.floor(seedFloat(id, 17) * tapeColors.length)];
+        return (
+            <div
+                className="relative pt-5 pb-3 px-3.5 rounded-sm"
+                style={{
+                    background: '#fff',
+                    boxShadow: '0 1px 3px rgba(122,90,114,0.08), 0 4px 10px -8px rgba(122,90,114,0.16)',
+                }}
+            >
+                <div className="absolute -top-1.5 left-3 right-3 h-3 pointer-events-none">
+                    <div
+                        style={{
+                            height: '100%',
+                            background: `repeating-linear-gradient(135deg, ${stickyColor.bg} 0 8px, ${stickyColor.border}cc 8px 14px)`,
+                            clipPath: 'polygon(2% 0, 99% 6%, 100% 100%, 0 95%)',
+                            boxShadow: '0 1px 2px rgba(0,0,0,0.05)',
+                        }}
+                    />
+                </div>
+                {timeBadge}
+                <p className="whitespace-pre-wrap break-words" style={textStyle}>{text}</p>
+            </div>
+        );
+    }
+
+    if (skin === 'handnote') {
+        const palIdx = Math.floor(seedFloat(id, 19) * HANDNOTE_PALETTES.length);
+        const pal = HANDNOTE_PALETTES[palIdx];
+        return (
+            <div
+                className="px-3.5 py-3"
+                style={{
+                    background: pal.bg,
+                    border: `1px solid ${pal.tint}33`,
+                    borderRadius: 6,
+                    boxShadow: '0 1px 2px rgba(0,0,0,0.04)',
+                }}
+            >
+                {time && (
+                    <span
+                        className="inline-block mb-1.5 text-[9.5px] tracking-widest italic"
+                        style={{ ...CUTE_STACK, color: pal.tint }}
+                    >
+                        ◆ {time}
+                    </span>
+                )}
+                <p
+                    className="whitespace-pre-wrap break-words"
+                    style={{
+                        ...SERIF_STACK,
+                        fontSize: 13.5,
+                        lineHeight: '23px',
+                        color: pal.tint,
+                        margin: 0,
+                        fontStyle: 'italic',
+                    }}
+                >
+                    {text}
+                </p>
+            </div>
+        );
+    }
+
+    return null;
+};
+
+// ─── zigzag 撕边 ─────────────────────────────────
+const ZigzagEdge: React.FC<{ color: string; flip: boolean }> = ({ color, flip }) => (
+    <svg
+        viewBox="0 0 100 6" preserveAspectRatio="none"
+        style={{ width: '100%', height: 5, display: 'block', transform: flip ? 'scaleY(-1)' : undefined }}
+        aria-hidden
+    >
+        <polygon
+            points="0,6 4,0 8,6 12,0 16,6 20,0 24,6 28,0 32,6 36,0 40,6 44,0 48,6 52,0 56,6 60,0 64,6 68,0 72,6 76,0 80,6 84,0 88,6 92,0 96,6 100,0 100,6"
+            fill={color}
+        />
+    </svg>
+);
+
+// ─── 段间装饰(端正版 — 居中 / 一致) ───────────
+type DecoKind = 'sparkles' | 'heartstrip' | 'washi_thin' | 'dotline' | 'star_chain';
+
+const InterleaveDeco: React.FC<{ kind: DecoKind; seed: string }> = ({ kind, seed }) => {
+    if (kind === 'sparkles') {
+        return (
+            <div className="flex items-center justify-center gap-3 my-2">
+                <SparkleDot size={9} color={PAPER_TONES.accentLavender} />
+                <StarSticker size={11} color={PAPER_TONES.accentLemon} />
+                <SparkleDot size={9} color={PAPER_TONES.accentBlue} />
+            </div>
+        );
+    }
+    if (kind === 'heartstrip') {
+        const count = 5;
+        return (
+            <div className="flex items-center justify-center gap-1.5 my-1">
+                {Array.from({ length: count }).map((_, i) => (
+                    <HeartSticker
+                        key={i}
+                        size={8 + (i === 2 ? 4 : 0)} /* 中心稍大 */
+                        sparkle={false}
+                        color={i % 2 === 0 ? PAPER_TONES.accentBlush : PAPER_TONES.accentRose}
+                    />
+                ))}
+            </div>
+        );
+    }
+    if (kind === 'washi_thin') {
+        const tapes: Array<'rose' | 'mint' | 'lemon' | 'blue' | 'lavender'> = ['lavender','blue','rose'];
+        const c = tapes[Math.floor(seedFloat(seed, 1) * tapes.length)];
+        return (
+            <div className="flex justify-center my-2">
+                <div style={{ width: '40%' }}>
+                    <WashiTape color={c} pattern="dot" rotate={0}>
+                        {' · · · '}
+                    </WashiTape>
+                </div>
+            </div>
+        );
+    }
+    if (kind === 'dotline') {
+        return (
+            <div className="flex items-center justify-center gap-1 my-2 px-8" aria-hidden>
+                <div style={{ flex: 1, height: 1, background: PAPER_TONES.spine, opacity: 0.5 }} />
+                <SparkleDot size={8} color={PAPER_TONES.accentLavender} />
+                <div style={{ flex: 1, height: 1, background: PAPER_TONES.spine, opacity: 0.5 }} />
+            </div>
+        );
+    }
+    if (kind === 'star_chain') {
+        return (
+            <div className="flex items-center justify-center gap-2 my-1.5">
+                <span style={{ color: PAPER_TONES.accentLavender, fontSize: 10 }}>✦</span>
+                <span style={{ color: PAPER_TONES.accentBlue, fontSize: 8 }}>·</span>
+                <span style={{ color: PAPER_TONES.accentLemon, fontSize: 12 }}>✦</span>
+                <span style={{ color: PAPER_TONES.accentBlue, fontSize: 8 }}>·</span>
+                <span style={{ color: PAPER_TONES.accentLavender, fontSize: 10 }}>✦</span>
+            </div>
+        );
+    }
+    return null;
+};
+
+// ─── 主组件 — 端正布局 ───────────────────────────
+const FragmentCollage: React.FC<{
+    fragments: HandbookFragment[];
+    compact?: boolean;
+}> = ({ fragments, compact: _compact = false }) => {
+    if (!fragments || fragments.length === 0) return null;
+
+    return (
+        <div className="relative pt-2 pb-2 flex flex-col items-center">
+            {fragments.map((f, i) => {
+                const skin = pickSkin(f.id);
+                const size = pickSize(f.text);
+                const [wMin, wMax] = SIZE_TO_WIDTH[size];
+                const widthPct = seedRange(f.id, 21, wMin, wMax);
+
+                // 端正:几乎居中,小尺寸允许微偏左/右(±3%)
+                // 大尺寸固定居中
+                const isWide = widthPct > 80;
+                const offsetX = isWide ? 0 : (seedFloat(f.id, 22) - 0.5) * 6; // ±3%
+
+                // 段间装饰:每 ~2 片插一次,装饰在 fragment 之间(不在卡片上)
+                const insertDecoBefore = i > 0 && (i % 2 === 0) && seedFloat(f.id, 27) > 0.45;
+                const decoKinds: DecoKind[] = ['sparkles', 'heartstrip', 'washi_thin', 'dotline', 'star_chain'];
+                const decoKind = decoKinds[Math.floor(seedFloat(f.id, 28) * decoKinds.length)];
+
+                return (
+                    <React.Fragment key={f.id}>
+                        {insertDecoBefore && (
+                            <div style={{ width: '100%' }}>
+                                <InterleaveDeco kind={decoKind} seed={f.id + ':deco'} />
+                            </div>
+                        )}
+                        <div
+                            style={{
+                                position: 'relative',
+                                width: `${widthPct}%`,
+                                marginLeft: `${offsetX}%`,
+                                marginTop: i === 0 ? 6 : 14,
+                            }}
+                        >
+                            <FragmentCard fragment={f} skin={skin} />
+                        </div>
+                    </React.Fragment>
+                );
+            })}
+        </div>
+    );
+};
+
+export default FragmentCollage;

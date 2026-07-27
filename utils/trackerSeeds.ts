@@ -1,1 +1,163 @@
-LyoqCiAqIFRyYWNrZXIg5YaF572u5qih5p2/ICsg6aaW5qyh5ZCv5Yqo56eN5a2QCiAqCiAqIOiuvuiuoToKICogLSDns7vnu5/mj5DkvpsgNiDkuKrluLjnlKjmqKHmnb8sdXNlciDlj6/ku6Ui5ZCv55SoIuWug+S7rCjliJvlu7rkuIDku73lsZ7kuo7oh6rlt7HnmoTlia/mnKwpCiAqIC0g56ys5LiA5qyh6L+bIFRyYWNrZXIg5Yy65Lya6Ieq5Yqo56eNIuW/g+aDhSLkvZzkuLrnpLrojIMs5YW25LuW5qih5p2/5b6FIHVzZXIg5Li75Yqo5ZCv55SoCiAqIC0g5ZCv55SoID0g5oqK5qih5p2/5aSN5Yi25oiQIFRyYWNrZXIg5YaZ6L+bIERCLOS7juatpOi3n+ezu+e7n+aooeadv+ino+iApih1c2VyIOWPr+maj+aEj+aUueWtl+autSkKICovCgppbXBvcnQgeyBUcmFja2VyLCBUcmFja2VyRmllbGQgfSBmcm9tICcuLi90eXBlcyc7CmltcG9ydCB7IERCIH0gZnJvbSAnLi9kYic7CgovLyDilIDilIDilIAg5a2X5q615qih5p2/6L6F5YqpIOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgApjb25zdCBmID0gKAogICAga2V5OiBzdHJpbmcsCiAgICBsYWJlbDogc3RyaW5nLAogICAga2luZDogVHJhY2tlckZpZWxkWydraW5kJ10sCiAgICBleHRyYTogUGFydGlhbDxUcmFja2VyRmllbGQ+ID0ge30sCik6IFRyYWNrZXJGaWVsZCA9PiAoeyBrZXksIGxhYmVsLCBraW5kLCAuLi5leHRyYSB9KTsKCi8vIOKUgOKUgOKUgCA2IOS4quWGhee9riBUcmFja2VyIOaooeadvyDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIAKZXhwb3J0IGludGVyZmFjZSBUcmFja2VyVGVtcGxhdGUgewogICAgLyoqIOeUqOS9nOenjeWtkCBpZCDnmoTliY3nvIAgKi8KICAgIHRlbXBsYXRlSWQ6IHN0cmluZzsKICAgIG5hbWU6IHN0cmluZzsKICAgIGljb246IHN0cmluZzsKICAgIGNvbG9yOiBzdHJpbmc7CiAgICBzY2hlbWE6IFRyYWNrZXJGaWVsZFtdOwogICAgY2VsbFJlbmRlckZpZWxkOiBzdHJpbmc7CiAgICBibHVyYjogc3RyaW5nOyAgICAgICAgICAvLyDkuIDlj6Xor53ku4vnu40s5Yib5bu66Z2i5p2/6YeM5bGV56S6Cn0KCmV4cG9ydCBjb25zdCBUUkFDS0VSX1RFTVBMQVRFUzogVHJhY2tlclRlbXBsYXRlW10gPSBbCiAgICB7CiAgICAgICAgdGVtcGxhdGVJZDogJ21vb2QnLAogICAgICAgIG5hbWU6ICflv4Pmg4UnLAogICAgICAgIGljb246ICfwn4y4JywKICAgICAgICBjb2xvcjogJyNmYmI4YzgnLAogICAgICAgIGNlbGxSZW5kZXJGaWVsZDogJ3JhdGluZycsCiAgICAgICAgYmx1cmI6ICfku4rlpKnnmoTlv4Pmg4XmiZPlh6DliIYs6aG65omL6K6w5LiA5Y+lJywKICAgICAgICBzY2hlbWE6IFsKICAgICAgICAgICAgZigncmF0aW5nJywgJ+W/g+aDhScsICdyYXRpbmcnLCB7CiAgICAgICAgICAgICAgICByZXF1aXJlZDogdHJ1ZSwgbWluOiAxLCBtYXg6IDUsCiAgICAgICAgICAgICAgICBjaG9pY2VzOiBbCiAgICAgICAgICAgICAgICAgICAgeyB2YWx1ZTogJzEnLCBsYWJlbDogJ+W+iOeznycsIGVtb2ppOiAn8J+YoycgfSwKICAgICAgICAgICAgICAgICAgICB7IHZhbHVlOiAnMicsIGxhYmVsOiAn5L2O6JC9JywgZW1vamk6ICfwn5iUJyB9LAogICAgICAgICAgICAgICAgICAgIHsgdmFsdWU6ICczJywgbGFiZWw6ICfkuIDoiKwnLCBlbW9qaTogJ/CfmJAnIH0sCiAgICAgICAgICAgICAgICAgICAgeyB2YWx1ZTogJzQnLCBsYWJlbDogJ+S4jemUmScsIGVtb2ppOiAn8J+ZgicgfSwKICAgICAgICAgICAgICAgICAgICB7IHZhbHVlOiAnNScsIGxhYmVsOiAn5b6I5aW9JywgZW1vamk6ICfwn5iKJyB9LAogICAgICAgICAgICAgICAgXSwKICAgICAgICAgICAgfSksCiAgICAgICAgICAgIGYoJ25vdGUnLCAn5LiA5Y+l6K+dJywgJ3RleHQnLCB7IHBsYWNlaG9sZGVyOiAn5LuK5aSp55qE5YWz6ZSu6K+N4oCm4oCmJyB9KSwKICAgICAgICBdLAogICAgfSwKICAgIHsKICAgICAgICB0ZW1wbGF0ZUlkOiAnY3ljbGUnLAogICAgICAgIG5hbWU6ICfnu4/mnJ8nLAogICAgICAgIGljb246ICfwn4y3JywKICAgICAgICBjb2xvcjogJyNmMjlkYjAnLAogICAgICAgIGNlbGxSZW5kZXJGaWVsZDogJ2Zsb3cnLAogICAgICAgIGJsdXJiOiAn6K6w5b2V5byA5aeLL+e7k+adnyArIOa1gemHjyzoh6rliqjnrpflkajmnJ8nLAogICAgICAgIHNjaGVtYTogWwogICAgICAgICAgICBmKCdmbG93JywgJ+a1gemHjycsICdvcHRpb25zJywgewogICAgICAgICAgICAgICAgcmVxdWlyZWQ6IHRydWUsCiAgICAgICAgICAgICAgICBjaG9pY2VzOiBbCiAgICAgICAgICAgICAgICAgICAgeyB2YWx1ZTogJ3N0YXJ0JywgIGxhYmVsOiAn5byA5aeLJywgIGVtb2ppOiAn8J+MtycgfSwKICAgICAgICAgICAgICAgICAgICB7IHZhbHVlOiAnaGVhdnknLCAgbGFiZWw6ICfph4/lpJonLCAgZW1vamk6ICfwn4y5JyB9LAogICAgICAgICAgICAgICAgICAgIHsgdmFsdWU6ICdtZWRpdW0nLCBsYWJlbDogJ+S4reetiScsICBlbW9qaTogJ/CfjLgnIH0sCiAgICAgICAgICAgICAgICAgICAgeyB2YWx1ZTogJ2xpZ2h0JywgIGxhYmVsOiAn6YeP5bCRJywgIGVtb2ppOiAn8J+MvCcgfSwKICAgICAgICAgICAgICAgICAgICB7IHZhbHVlOiAnZW5kJywgICAgbGFiZWw6ICfnu5PmnZ8nLCAgZW1vamk6ICfwn42DJyB9LAogICAgICAgICAgICAgICAgXSwKICAgICAgICAgICAgfSksCiAgICAgICAgICAgIGYoJ2NyYW1wJywgJ+S4jeiIkuacjT8nLCAnYm9vbGVhbicpLAogICAgICAgICAgICBmKCdub3RlJywgJ+Wkh+azqCcsICd0ZXh0JyksCiAgICAgICAgXSwKICAgIH0sCiAgICB7CiAgICAgICAgdGVtcGxhdGVJZDogJ2Zvb2QnLAogICAgICAgIG5hbWU6ICfku4rml6Xppa7po58nLAogICAgICAgIGljb246ICfwn42wJywKICAgICAgICBjb2xvcjogJyNmNWUyOTUnLAogICAgICAgIGNlbGxSZW5kZXJGaWVsZDogJ21lYWwnLAogICAgICAgIGJsdXJiOiAn6ZqP5omL5ouNICsg5LiA5Y+l6K+dLOS4jeiuoeeul+eDremHjycsCiAgICAgICAgc2NoZW1hOiBbCiAgICAgICAgICAgIGYoJ3Bob3RvJywgJ+eFp+eJhycsICdwaG90bycpLAogICAgICAgICAgICBmKCdtZWFsJywgJ+WQg+S6huWVpScsICd0ZXh0JywgeyByZXF1aXJlZDogdHJ1ZSwgcGxhY2Vob2xkZXI6ICfkuIDlj6Xor53lsLHlpb0nIH0pLAogICAgICAgIF0sCiAgICB9LAogICAgewogICAgICAgIHRlbXBsYXRlSWQ6ICd3YXRlcicsCiAgICAgICAgbmFtZTogJ+WWneawtCcsCiAgICAgICAgaWNvbjogJ/CfkqcnLAogICAgICAgIGNvbG9yOiAnI2I5ZDNlMCcsCiAgICAgICAgY2VsbFJlbmRlckZpZWxkOiAnY3VwcycsCiAgICAgICAgYmx1cmI6ICfku4rlpKnllp3kuoblh6Dmna/msLQnLAogICAgICAgIHNjaGVtYTogWwogICAgICAgICAgICBmKCdjdXBzJywgJ+adr+aVsCcsICdudW1iZXInLCB7IHJlcXVpcmVkOiB0cnVlLCB1bml0OiAn5p2vJywgbWluOiAwLCBtYXg6IDIwIH0pLAogICAgICAgIF0sCiAgICB9LAogICAgewogICAgICAgIHRlbXBsYXRlSWQ6ICd3ZWlnaHQnLAogICAgICAgIG5hbWU6ICfkvZPph40nLAogICAgICAgIGljb246ICfwn6q2JywKICAgICAgICBjb2xvcjogJyNiZmUxY2YnLAogICAgICAgIGNlbGxSZW5kZXJGaWVsZDogJ2tnJywKICAgICAgICBibHVyYjogJ+iusOS4gOS4i+S7iuWkqeeahOaVsOWtlyzlkI7nu63nlLvmipjnur8nLAogICAgICAgIHNjaGVtYTogWwogICAgICAgICAgICBmKCdrZycsICfkvZPph40nLCAnbnVtYmVyJywgeyByZXF1aXJlZDogdHJ1ZSwgdW5pdDogJ2tnJywgbWluOiAwLCBtYXg6IDk5OSB9KSwKICAgICAgICAgICAgZignbm90ZScsICflpIfms6gnLCAndGV4dCcsIHsgcGxhY2Vob2xkZXI6ICfkuIDlj6Xor53or7Tor7Q/JyB9KSwKICAgICAgICBdLAogICAgfSwKICAgIHsKICAgICAgICB0ZW1wbGF0ZUlkOiAnc3ltcHRvbScsCiAgICAgICAgbmFtZTogJ+S7iuWkqeacieayoeacieS4jeiIkuacjScsCiAgICAgICAgaWNvbjogJ/CfpJInLAogICAgICAgIGNvbG9yOiAnI2Q2YzhlOCcsCiAgICAgICAgY2VsbFJlbmRlckZpZWxkOiAnaGFzJywKICAgICAgICBibHVyYjogJ+mAmueUqOeXh+eKtuaJk+WNoSzlj6/mlLnlkI3mjaLlrZfmrrUnLAogICAgICAgIHNjaGVtYTogWwogICAgICAgICAgICBmKCdoYXMnLCAn5pyJ5LiN6IiS5pyNPycsICdib29sZWFuJywgeyByZXF1aXJlZDogdHJ1ZSB9KSwKICAgICAgICAgICAgZignd2hhdCcsICflk6rph4wnLCAndGV4dCcsIHsgcGxhY2Vob2xkZXI6ICflpLTnl5sgLyDogprlrZDnl5sgLyDigKbigKYnIH0pLAogICAgICAgICAgICBmKCdzZXZlcml0eScsICfkuKXph43nqIvluqYnLCAncmF0aW5nJywgewogICAgICAgICAgICAgICAgbWluOiAxLCBtYXg6IDUsCiAgICAgICAgICAgICAgICBjaG9pY2VzOiBbCiAgICAgICAgICAgICAgICAgICAgeyB2YWx1ZTogJzEnLCBsYWJlbDogJ+i9uycsIGVtb2ppOiAnwrcnIH0sCiAgICAgICAgICAgICAgICAgICAgeyB2YWx1ZTogJzInLCBsYWJlbDogJ+WwjycsIGVtb2ppOiAn4pemJyB9LAogICAgICAgICAgICAgICAgICAgIHsgdmFsdWU6ICczJywgbGFiZWw6ICfkuK0nLCBlbW9qaTogJ+KXkCcgfSwKICAgICAgICAgICAgICAgICAgICB7IHZhbHVlOiAnNCcsIGxhYmVsOiAn6YeNJywgZW1vamk6ICfil48nIH0sCiAgICAgICAgICAgICAgICAgICAgeyB2YWx1ZTogJzUnLCBsYWJlbDogJ+WJp+eDiCcsIGVtb2ppOiAn4pqhJyB9LAogICAgICAgICAgICAgICAgXSwKICAgICAgICAgICAgfSksCiAgICAgICAgXSwKICAgIH0sCl07CgovLyDmiormqKHmnb/lrp7kvovljJbmiJDkuIDkuKrlhbfkvZMgVHJhY2tlcijlhpnov5sgREIg55qE5b2i5oCBKQpleHBvcnQgZnVuY3Rpb24gaW5zdGFudGlhdGVUZW1wbGF0ZSh0cGw6IFRyYWNrZXJUZW1wbGF0ZSwgc29ydE9yZGVyOiBudW1iZXIgPSAwKTogVHJhY2tlciB7CiAgICBjb25zdCBub3cgPSBEYXRlLm5vdygpOwogICAgcmV0dXJuIHsKICAgICAgICBpZDogYHRyYWNrZXItJHt0cGwudGVtcGxhdGVJZH0tJHtub3d9YCwKICAgICAgICBuYW1lOiB0cGwubmFtZSwKICAgICAgICBpY29uOiB0cGwuaWNvbiwKICAgICAgICBjb2xvcjogdHBsLmNvbG9yLAogICAgICAgIHNjaGVtYTogdHBsLnNjaGVtYSwKICAgICAgICBjZWxsUmVuZGVyRmllbGQ6IHRwbC5jZWxsUmVuZGVyRmllbGQsCiAgICAgICAgaXNCdWlsdGluOiB0cnVlLAogICAgICAgIHNvcnRPcmRlciwKICAgICAgICBjcmVhdGVkQXQ6IG5vdywKICAgICAgICB1cGRhdGVkQXQ6IG5vdywKICAgIH07Cn0KCi8qKgogKiDpppbmrKHov5sgVHJhY2tlciDljLrml7bosIPnlKg6CiAqIC0g5aaC5p6cIERCIOmHjOWujOWFqOayoeaciSB0cmFja2VyIOKGkiDnp43kuIDkuKoi5b+D5oOFIuS9nOS4uuekuuiMgwogKiAtIOW3sue7j+acieS7u+S9lSB0cmFja2VyIOKGkiDkuI3liqgo5bCK6YeN55So5oi35bey5pyJ5pWw5o2uLOWNs+S+vyB0YSDlt7Lnu4/miorlv4Pmg4XliKDkuoYpCiAqLwpleHBvcnQgYXN5bmMgZnVuY3Rpb24gZW5zdXJlU2VlZFRyYWNrZXJzKCk6IFByb21pc2U8dm9pZD4gewogICAgY29uc3QgYWxsID0gYXdhaXQgREIuZ2V0QWxsVHJhY2tlcnMoKTsKICAgIGlmIChhbGwubGVuZ3RoID4gMCkgcmV0dXJuOwogICAgY29uc3QgbW9vZFRwbCA9IFRSQUNLRVJfVEVNUExBVEVTLmZpbmQodCA9PiB0LnRlbXBsYXRlSWQgPT09ICdtb29kJykhOwogICAgYXdhaXQgREIuc2F2ZVRyYWNrZXIoaW5zdGFudGlhdGVUZW1wbGF0ZShtb29kVHBsLCAwKSk7Cn0K
+/**
+ * Tracker 内置模板 + 首次启动种子
+ *
+ * 设计:
+ * - 系统提供 6 个常用模板,user 可以"启用"它们(创建一份属于自己的副本)
+ * - 第一次进 Tracker 区会自动种"心情"作为示范,其他模板待 user 主动启用
+ * - 启用 = 把模板复制成 Tracker 写进 DB,从此跟系统模板解耦(user 可随意改字段)
+ */
+
+import { Tracker, TrackerField } from '../types';
+import { DB } from './db';
+
+// ─── 字段模板辅助 ────────────────────────────────
+const f = (
+    key: string,
+    label: string,
+    kind: TrackerField['kind'],
+    extra: Partial<TrackerField> = {},
+): TrackerField => ({ key, label, kind, ...extra });
+
+// ─── 6 个内置 Tracker 模板 ─────────────────────────
+export interface TrackerTemplate {
+    /** 用作种子 id 的前缀 */
+    templateId: string;
+    name: string;
+    icon: string;
+    color: string;
+    schema: TrackerField[];
+    cellRenderField: string;
+    blurb: string;          // 一句话介绍,创建面板里展示
+}
+
+export const TRACKER_TEMPLATES: TrackerTemplate[] = [
+    {
+        templateId: 'mood',
+        name: '心情',
+        icon: '🌸',
+        color: '#fbb8c8',
+        cellRenderField: 'rating',
+        blurb: '今天的心情打几分,顺手记一句',
+        schema: [
+            f('rating', '心情', 'rating', {
+                required: true, min: 1, max: 5,
+                choices: [
+                    { value: '1', label: '很糟', emoji: '😣' },
+                    { value: '2', label: '低落', emoji: '😔' },
+                    { value: '3', label: '一般', emoji: '😐' },
+                    { value: '4', label: '不错', emoji: '🙂' },
+                    { value: '5', label: '很好', emoji: '😊' },
+                ],
+            }),
+            f('note', '一句话', 'text', { placeholder: '今天的关键词……' }),
+        ],
+    },
+    {
+        templateId: 'cycle',
+        name: '经期',
+        icon: '🌷',
+        color: '#f29db0',
+        cellRenderField: 'flow',
+        blurb: '记录开始/结束 + 流量,自动算周期',
+        schema: [
+            f('flow', '流量', 'options', {
+                required: true,
+                choices: [
+                    { value: 'start',  label: '开始',  emoji: '🌷' },
+                    { value: 'heavy',  label: '量多',  emoji: '🌹' },
+                    { value: 'medium', label: '中等',  emoji: '🌸' },
+                    { value: 'light',  label: '量少',  emoji: '🌼' },
+                    { value: 'end',    label: '结束',  emoji: '🍃' },
+                ],
+            }),
+            f('cramp', '不舒服?', 'boolean'),
+            f('note', '备注', 'text'),
+        ],
+    },
+    {
+        templateId: 'food',
+        name: '今日饮食',
+        icon: '🍰',
+        color: '#f5e295',
+        cellRenderField: 'meal',
+        blurb: '随手拍 + 一句话,不计算热量',
+        schema: [
+            f('photo', '照片', 'photo'),
+            f('meal', '吃了啥', 'text', { required: true, placeholder: '一句话就好' }),
+        ],
+    },
+    {
+        templateId: 'water',
+        name: '喝水',
+        icon: '💧',
+        color: '#b9d3e0',
+        cellRenderField: 'cups',
+        blurb: '今天喝了几杯水',
+        schema: [
+            f('cups', '杯数', 'number', { required: true, unit: '杯', min: 0, max: 20 }),
+        ],
+    },
+    {
+        templateId: 'weight',
+        name: '体重',
+        icon: '🪶',
+        color: '#bfe1cf',
+        cellRenderField: 'kg',
+        blurb: '记一下今天的数字,后续画折线',
+        schema: [
+            f('kg', '体重', 'number', { required: true, unit: 'kg', min: 0, max: 999 }),
+            f('note', '备注', 'text', { placeholder: '一句话说说?' }),
+        ],
+    },
+    {
+        templateId: 'symptom',
+        name: '今天有没有不舒服',
+        icon: '🤒',
+        color: '#d6c8e8',
+        cellRenderField: 'has',
+        blurb: '通用症状打卡,可改名换字段',
+        schema: [
+            f('has', '有不舒服?', 'boolean', { required: true }),
+            f('what', '哪里', 'text', { placeholder: '头痛 / 肚子痛 / ……' }),
+            f('severity', '严重程度', 'rating', {
+                min: 1, max: 5,
+                choices: [
+                    { value: '1', label: '轻', emoji: '·' },
+                    { value: '2', label: '小', emoji: '◦' },
+                    { value: '3', label: '中', emoji: '◐' },
+                    { value: '4', label: '重', emoji: '●' },
+                    { value: '5', label: '剧烈', emoji: '⚡' },
+                ],
+            }),
+        ],
+    },
+];
+
+// 把模板实例化成一个具体 Tracker(写进 DB 的形态)
+export function instantiateTemplate(tpl: TrackerTemplate, sortOrder: number = 0): Tracker {
+    const now = Date.now();
+    return {
+        id: `tracker-${tpl.templateId}-${now}`,
+        name: tpl.name,
+        icon: tpl.icon,
+        color: tpl.color,
+        schema: tpl.schema,
+        cellRenderField: tpl.cellRenderField,
+        isBuiltin: true,
+        sortOrder,
+        createdAt: now,
+        updatedAt: now,
+    };
+}
+
+/**
+ * 首次进 Tracker 区时调用:
+ * - 如果 DB 里完全没有 tracker → 种一个"心情"作为示范
+ * - 已经有任何 tracker → 不动(尊重用户已有数据,即便 ta 已经把心情删了)
+ */
+export async function ensureSeedTrackers(): Promise<void> {
+    const all = await DB.getAllTrackers();
+    if (all.length > 0) return;
+    const moodTpl = TRACKER_TEMPLATES.find(t => t.templateId === 'mood')!;
+    await DB.saveTracker(instantiateTemplate(moodTpl, 0));
+}

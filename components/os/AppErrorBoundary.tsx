@@ -1,1 +1,214 @@
-aW1wb3J0IFJlYWN0LCB7IENvbXBvbmVudCwgRXJyb3JJbmZvIH0gZnJvbSAncmVhY3QnOwppbXBvcnQgeyBpc0NodW5rTG9hZEVycm9yLCB0cnlBdXRvUmVsb2FkRm9yQ2h1bmtFcnJvciB9IGZyb20gJy4uLy4uL3V0aWxzL2NodW5rTG9hZFJlY292ZXJ5JzsKCmNvbnN0IEVSUk9SX0NPUFlfTEFCRUwgPSAnXHU1OTBkXHU1MjM2XHU2MmE1XHU5NTE5XHU0ZmUxXHU2MDZmJzsKY29uc3QgRVJST1JfQ09QSUVEX0xBQkVMID0gJ1x1NWRmMlx1NTkwZFx1NTIzNic7CmNvbnN0IEVSUk9SX01BTlVBTF9DT1BZX0xBQkVMID0gJ1x1OGJmN1x1NjI0Ylx1NTJhOFx1NTkwZFx1NTIzNic7CmNvbnN0IEVSUk9SX1BST01QVF9MQUJFTCA9ICdcdThiZjdcdTYyNGJcdTUyYThcdTU5MGRcdTUyMzZcdTYyYTVcdTk1MTlcdTRmZTFcdTYwNmYnOwpjb25zdCBFUlJPUl9USVRMRSA9ICdcdTVlOTRcdTc1MjhcdThmZDBcdTg4NGNcdTk1MTlcdThiZWYnOwpjb25zdCBFUlJPUl9SRVRVUk5fTEFCRUwgPSAnXHU4ZmQ0XHU1NmRlXHU2ODRjXHU5NzYyJzsKY29uc3QgQ0hVTktfRVJST1JfVElUTEUgPSAnXHU4ZDQ0XHU2ZTkwXHU1MmEwXHU4ZjdkXHU1OTMxXHU4ZDI1JzsKY29uc3QgQ0hVTktfRVJST1JfSElOVCA9ICdcdTVlOTRcdTc1MjhcdTdlYzRcdTRlZjZcdTZjYTFcdTY3MDlcdTUyYTBcdThmN2RcdTYyMTBcdTUyOWZcdWZmMGNcdTkwMWFcdTVlMzhcdTY2MmZcdTcyNDhcdTY3MmNcdTUyMWFcdTY2ZjRcdTY1YjBcdTYyMTZcdTdmNTFcdTdlZGNcdTc3YWNcdTY1YWRcdTViZmNcdTgxZjRcdTc2ODRcdWZmMGNcdTUyMzdcdTY1YjBcdTRlMDBcdTZiMjFcdTUzNzNcdTUzZWZcdTYwNjJcdTU5MGRcdTMwMDInOwpjb25zdCBDSFVOS19FUlJPUl9SRUxPQURJTkcgPSAnXHU2YjYzXHU1NzI4XHU4MWVhXHU1MmE4XHU1MjM3XHU2NWIwXHU2MDYyXHU1OTBkXHUyMDI2JzsKY29uc3QgQ0hVTktfRVJST1JfUkVMT0FEX0xBQkVMID0gJ1x1NTIzN1x1NjViMFx1OTFjZFx1OGJkNSc7Cgp0eXBlIEFwcEVycm9yQm91bmRhcnlQcm9wcyA9IHsKICAgIGNoaWxkcmVuOiBSZWFjdC5SZWFjdE5vZGU7CiAgICBvbkNsb3NlQXBwOiAoKSA9PiB2b2lkOwogICAgcmVzZXRLZXk6IHN0cmluZzsKfTsKCnR5cGUgQXBwRXJyb3JCb3VuZGFyeVN0YXRlID0gewogICAgaGFzRXJyb3I6IGJvb2xlYW47CiAgICBlcnJvcjogRXJyb3IgfCBudWxsOwogICAgY29weUxhYmVsOiBzdHJpbmc7CiAgICAvKiog5oeS5Yqg6L29IGNodW5rIOWksei0pSAoaU9TIFNhZmFyaSAiSW1wb3J0aW5nIGEgbW9kdWxlIHNjcmlwdCBmYWlsZWQuIiDnrYkpIOKAlCDotbDliLfmlrDmgaLlpI0gVUkgKi8KICAgIGlzQ2h1bmtFcnJvcjogYm9vbGVhbjsKICAgIC8qKiDlt7Llj5Hotbfoh6rliqjmlbTpobXliLfmlrAsIOmhtemdouWNs+WwhumHjei9vSAqLwogICAgYXV0b1JlbG9hZGluZzogYm9vbGVhbjsKfTsKCmNsYXNzIEFwcEVycm9yQm91bmRhcnkgZXh0ZW5kcyBDb21wb25lbnQ8QXBwRXJyb3JCb3VuZGFyeVByb3BzLCBBcHBFcnJvckJvdW5kYXJ5U3RhdGU+IHsKICAgIHByaXZhdGUgY29weUxhYmVsVGltZXI6IG51bWJlciB8IG51bGwgPSBudWxsOwoKICAgIGNvbnN0cnVjdG9yKHByb3BzOiBBcHBFcnJvckJvdW5kYXJ5UHJvcHMpIHsKICAgICAgICBzdXBlcihwcm9wcyk7CiAgICAgICAgdGhpcy5zdGF0ZSA9IHsKICAgICAgICAgICAgaGFzRXJyb3I6IGZhbHNlLAogICAgICAgICAgICBlcnJvcjogbnVsbCwKICAgICAgICAgICAgY29weUxhYmVsOiBFUlJPUl9DT1BZX0xBQkVMLAogICAgICAgICAgICBpc0NodW5rRXJyb3I6IGZhbHNlLAogICAgICAgICAgICBhdXRvUmVsb2FkaW5nOiBmYWxzZSwKICAgICAgICB9OwogICAgfQoKICAgIHN0YXRpYyBnZXREZXJpdmVkU3RhdGVGcm9tRXJyb3IoZXJyb3I6IEVycm9yKTogUGFydGlhbDxBcHBFcnJvckJvdW5kYXJ5U3RhdGU+IHsKICAgICAgICByZXR1cm4geyBoYXNFcnJvcjogdHJ1ZSwgZXJyb3IsIGlzQ2h1bmtFcnJvcjogaXNDaHVua0xvYWRFcnJvcihlcnJvcikgfTsKICAgIH0KCiAgICBjb21wb25lbnREaWRDYXRjaChlcnJvcjogRXJyb3IsIGVycm9ySW5mbzogRXJyb3JJbmZvKSB7CiAgICAgICAgY29uc29sZS5lcnJvcignQXBwIENyYXNoOicsIGVycm9yLCBlcnJvckluZm8pOwogICAgICAgIC8vIGNodW5rIOWKoOi9veWksei0pTogU2FmYXJpIOS8muaKiuWksei0pee8k+WtmOi/m+aooeWdl+ihqCwg5ZCM5LiAIFVSTCDmnKzpobXlhoXph43or5Xlv4XlpLHotKUsCiAgICAgICAgLy8g5Y+q5pyJ5pW06aG1IHJlbG9hZCDog73mgaLlpI0g4oCUIOiHquWKqOWIt+S4gOasoSAo5Ya35Y205pyf5YaF6L+U5ZueIGZhbHNlLCDnlZnnu5nmiYvliqjmjInpkq4p44CCCiAgICAgICAgaWYgKGlzQ2h1bmtMb2FkRXJyb3IoZXJyb3IpICYmIHRyeUF1dG9SZWxvYWRGb3JDaHVua0Vycm9yKCkpIHsKICAgICAgICAgICAgdGhpcy5zZXRTdGF0ZSh7IGF1dG9SZWxvYWRpbmc6IHRydWUgfSk7CiAgICAgICAgfQogICAgfQoKICAgIGNvbXBvbmVudERpZFVwZGF0ZShwcmV2UHJvcHM6IEFwcEVycm9yQm91bmRhcnlQcm9wcykgewogICAgICAgIGlmIChwcmV2UHJvcHMucmVzZXRLZXkgIT09IHRoaXMucHJvcHMucmVzZXRLZXkgJiYgdGhpcy5zdGF0ZS5oYXNFcnJvcikgewogICAgICAgICAgICB0aGlzLnNldFN0YXRlKHsKICAgICAgICAgICAgICAgIGhhc0Vycm9yOiBmYWxzZSwKICAgICAgICAgICAgICAgIGVycm9yOiBudWxsLAogICAgICAgICAgICAgICAgY29weUxhYmVsOiBFUlJPUl9DT1BZX0xBQkVMLAogICAgICAgICAgICAgICAgaXNDaHVua0Vycm9yOiBmYWxzZSwKICAgICAgICAgICAgICAgIGF1dG9SZWxvYWRpbmc6IGZhbHNlLAogICAgICAgICAgICB9KTsKICAgICAgICB9CiAgICB9CgogICAgY29tcG9uZW50V2lsbFVubW91bnQoKSB7CiAgICAgICAgaWYgKHRoaXMuY29weUxhYmVsVGltZXIpIHsKICAgICAgICAgICAgd2luZG93LmNsZWFyVGltZW91dCh0aGlzLmNvcHlMYWJlbFRpbWVyKTsKICAgICAgICB9CiAgICB9CgogICAgcHJpdmF0ZSB1cGRhdGVDb3B5TGFiZWwgPSAobGFiZWw6IHN0cmluZykgPT4gewogICAgICAgIGlmICh0aGlzLmNvcHlMYWJlbFRpbWVyKSB7CiAgICAgICAgICAgIHdpbmRvdy5jbGVhclRpbWVvdXQodGhpcy5jb3B5TGFiZWxUaW1lcik7CiAgICAgICAgfQoKICAgICAgICB0aGlzLnNldFN0YXRlKHsgY29weUxhYmVsOiBsYWJlbCB9KTsKICAgICAgICB0aGlzLmNvcHlMYWJlbFRpbWVyID0gd2luZG93LnNldFRpbWVvdXQoKCkgPT4gewogICAgICAgICAgICB0aGlzLnNldFN0YXRlKHsgY29weUxhYmVsOiBFUlJPUl9DT1BZX0xBQkVMIH0pOwogICAgICAgICAgICB0aGlzLmNvcHlMYWJlbFRpbWVyID0gbnVsbDsKICAgICAgICB9LCAxODAwKTsKICAgIH07CgogICAgcHJpdmF0ZSBoYW5kbGVDb3B5ID0gYXN5bmMgKCkgPT4gewogICAgICAgIGNvbnN0IGVyclRleHQgPSB0aGlzLnN0YXRlLmVycm9yPy5zdGFjayB8fCB0aGlzLnN0YXRlLmVycm9yPy5tZXNzYWdlIHx8ICdVbmtub3duIEVycm9yJzsKCiAgICAgICAgdHJ5IHsKICAgICAgICAgICAgaWYgKG5hdmlnYXRvci5jbGlwYm9hcmQ/LndyaXRlVGV4dCkgewogICAgICAgICAgICAgICAgYXdhaXQgbmF2aWdhdG9yLmNsaXBib2FyZC53cml0ZVRleHQoZXJyVGV4dCk7CiAgICAgICAgICAgICAgICB0aGlzLnVwZGF0ZUNvcHlMYWJlbChFUlJPUl9DT1BJRURfTEFCRUwpOwogICAgICAgICAgICAgICAgcmV0dXJuOwogICAgICAgICAgICB9CiAgICAgICAgfSBjYXRjaCB7CiAgICAgICAgICAgIC8vIEZhbGwgYmFjayB0byB0aGUgaGlkZGVuIHRleHRhcmVhIHBhdGggYmVsb3cuCiAgICAgICAgfQoKICAgICAgICB0cnkgewogICAgICAgICAgICBjb25zdCB0ZXh0YXJlYSA9IGRvY3VtZW50LmNyZWF0ZUVsZW1lbnQoJ3RleHRhcmVhJyk7CiAgICAgICAgICAgIHRleHRhcmVhLnZhbHVlID0gZXJyVGV4dDsKICAgICAgICAgICAgdGV4dGFyZWEuc2V0QXR0cmlidXRlKCdyZWFkb25seScsICd0cnVlJyk7CiAgICAgICAgICAgIHRleHRhcmVhLnN0eWxlLnBvc2l0aW9uID0gJ2ZpeGVkJzsKICAgICAgICAgICAgdGV4dGFyZWEuc3R5bGUub3BhY2l0eSA9ICcwJzsKICAgICAgICAgICAgdGV4dGFyZWEuc3R5bGUucG9pbnRlckV2ZW50cyA9ICdub25lJzsKICAgICAgICAgICAgZG9jdW1lbnQuYm9keS5hcHBlbmRDaGlsZCh0ZXh0YXJlYSk7CiAgICAgICAgICAgIHRleHRhcmVhLmZvY3VzKCk7CiAgICAgICAgICAgIHRleHRhcmVhLnNlbGVjdCgpOwogICAgICAgICAgICBjb25zdCBjb3BpZWQgPSBkb2N1bWVudC5leGVjQ29tbWFuZCgnY29weScpOwogICAgICAgICAgICBkb2N1bWVudC5ib2R5LnJlbW92ZUNoaWxkKHRleHRhcmVhKTsKCiAgICAgICAgICAgIGlmIChjb3BpZWQpIHsKICAgICAgICAgICAgICAgIHRoaXMudXBkYXRlQ29weUxhYmVsKEVSUk9SX0NPUElFRF9MQUJFTCk7CiAgICAgICAgICAgICAgICByZXR1cm47CiAgICAgICAgICAgIH0KICAgICAgICB9IGNhdGNoIHsKICAgICAgICAgICAgLy8gRmFsbCBiYWNrIHRvIG1hbnVhbCBjb3B5IHByb21wdC4KICAgICAgICB9CgogICAgICAgIHdpbmRvdy5wcm9tcHQoRVJST1JfUFJPTVBUX0xBQkVMLCBlcnJUZXh0KTsKICAgICAgICB0aGlzLnVwZGF0ZUNvcHlMYWJlbChFUlJPUl9NQU5VQUxfQ09QWV9MQUJFTCk7CiAgICB9OwoKICAgIHByaXZhdGUgaGFuZGxlQ2xvc2UgPSAoKSA9PiB7CiAgICAgICAgdGhpcy5zZXRTdGF0ZSh7CiAgICAgICAgICAgIGhhc0Vycm9yOiBmYWxzZSwKICAgICAgICAgICAgZXJyb3I6IG51bGwsCiAgICAgICAgICAgIGNvcHlMYWJlbDogRVJST1JfQ09QWV9MQUJFTCwKICAgICAgICAgICAgaXNDaHVua0Vycm9yOiBmYWxzZSwKICAgICAgICAgICAgYXV0b1JlbG9hZGluZzogZmFsc2UsCiAgICAgICAgfSk7CiAgICAgICAgdGhpcy5wcm9wcy5vbkNsb3NlQXBwKCk7CiAgICB9OwoKICAgIHByaXZhdGUgaGFuZGxlUmVsb2FkID0gKCkgPT4gewogICAgICAgIHdpbmRvdy5sb2NhdGlvbi5yZWxvYWQoKTsKICAgIH07CgogICAgcmVuZGVyKCkgewogICAgICAgIGlmICghdGhpcy5zdGF0ZS5oYXNFcnJvcikgewogICAgICAgICAgICByZXR1cm4gdGhpcy5wcm9wcy5jaGlsZHJlbjsKICAgICAgICB9CgogICAgICAgIGlmICh0aGlzLnN0YXRlLmlzQ2h1bmtFcnJvcikgewogICAgICAgICAgICByZXR1cm4gKAogICAgICAgICAgICAgICAgPGRpdiBjbGFzc05hbWU9InJlbGF0aXZlIGlzb2xhdGUgei1bMTIwXSB3LWZ1bGwgaC1mdWxsIGZsZXggZmxleC1jb2wgaXRlbXMtY2VudGVyIGp1c3RpZnktY2VudGVyIGJnLXNsYXRlLTkwMC85NSB0ZXh0LXdoaXRlIHAtNiB0ZXh0LWNlbnRlciBzcGFjZS15LTQgcG9pbnRlci1ldmVudHMtYXV0byI+CiAgICAgICAgICAgICAgICAgICAgPGltZwogICAgICAgICAgICAgICAgICAgICAgICBzcmM9Imh0dHBzOi8vY2RuanMuY2xvdWRmbGFyZS5jb20vYWpheC9saWJzL3R3ZW1vamkvMTQuMC4yLzcyeDcyLzFmNjM1LnBuZyIKICAgICAgICAgICAgICAgICAgICAgICAgYWx0PSJlcnJvciIKICAgICAgICAgICAgICAgICAgICAgICAgY2xhc3NOYW1lPSJ3LTEwIGgtMTAiCiAgICAgICAgICAgICAgICAgICAgLz4KICAgICAgICAgICAgICAgICAgICA8aDIgY2xhc3NOYW1lPSJ0ZXh0LWxnIGZvbnQtYm9sZCI+e0NIVU5LX0VSUk9SX1RJVExFfTwvaDI+CiAgICAgICAgICAgICAgICAgICAgPHAgY2xhc3NOYW1lPSJ0ZXh0LXhzIHRleHQtc2xhdGUtMzAwIG1heC13LXhzIGxlYWRpbmctcmVsYXhlZCI+CiAgICAgICAgICAgICAgICAgICAgICAgIHtDSFVOS19FUlJPUl9ISU5UfQogICAgICAgICAgICAgICAgICAgIDwvcD4KICAgICAgICAgICAgICAgICAgICB7dGhpcy5zdGF0ZS5hdXRvUmVsb2FkaW5nID8gKAogICAgICAgICAgICAgICAgICAgICAgICA8cCBjbGFzc05hbWU9InRleHQtc20gZm9udC1ib2xkIHRleHQtc2xhdGUtMjAwIj57Q0hVTktfRVJST1JfUkVMT0FESU5HfTwvcD4KICAgICAgICAgICAgICAgICAgICApIDogKAogICAgICAgICAgICAgICAgICAgICAgICA8ZGl2IGNsYXNzTmFtZT0iZmxleCBmbGV4LWNvbCBnYXAtMyB3LWZ1bGwgbWF4LXcteHMiPgogICAgICAgICAgICAgICAgICAgICAgICAgICAgPGJ1dHRvbgogICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgIHR5cGU9ImJ1dHRvbiIKICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICBvbkNsaWNrPXt0aGlzLmhhbmRsZVJlbG9hZH0KICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICBjbGFzc05hbWU9InctZnVsbCBweC02IHB5LTMgYmctcmVkLTYwMCByb3VuZGVkLWZ1bGwgZm9udC1ib2xkIHRleHQtc20gc2hhZG93LWxnIGFjdGl2ZTpzY2FsZS05NSB0cmFuc2l0aW9uLXRyYW5zZm9ybSIKICAgICAgICAgICAgICAgICAgICAgICAgICAgID4KICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICB7Q0hVTktfRVJST1JfUkVMT0FEX0xBQkVMfQogICAgICAgICAgICAgICAgICAgICAgICAgICAgPC9idXR0b24+CiAgICAgICAgICAgICAgICAgICAgICAgICAgICA8YnV0dG9uCiAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgdHlwZT0iYnV0dG9uIgogICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgIG9uQ2xpY2s9e3RoaXMuaGFuZGxlQ2xvc2V9CiAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgY2xhc3NOYW1lPSJ3LWZ1bGwgcHgtNCBweS0yIGJnLXNsYXRlLTcwMCByb3VuZGVkLWZ1bGwgdGV4dC14cyBmb250LWJvbGQgYWN0aXZlOnNjYWxlLTk1IHRyYW5zaXRpb24tdHJhbnNmb3JtIgogICAgICAgICAgICAgICAgICAgICAgICAgICAgPgogICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgIHtFUlJPUl9SRVRVUk5fTEFCRUx9CiAgICAgICAgICAgICAgICAgICAgICAgICAgICA8L2J1dHRvbj4KICAgICAgICAgICAgICAgICAgICAgICAgPC9kaXY+CiAgICAgICAgICAgICAgICAgICAgKX0KICAgICAgICAgICAgICAgIDwvZGl2PgogICAgICAgICAgICApOwogICAgICAgIH0KCiAgICAgICAgcmV0dXJuICgKICAgICAgICAgICAgPGRpdiBjbGFzc05hbWU9InJlbGF0aXZlIGlzb2xhdGUgei1bMTIwXSB3LWZ1bGwgaC1mdWxsIGZsZXggZmxleC1jb2wgaXRlbXMtY2VudGVyIGp1c3RpZnktY2VudGVyIGJnLXNsYXRlLTkwMC85NSB0ZXh0LXdoaXRlIHAtNiB0ZXh0LWNlbnRlciBzcGFjZS15LTQgcG9pbnRlci1ldmVudHMtYXV0byI+CiAgICAgICAgICAgICAgICA8aW1nCiAgICAgICAgICAgICAgICAgICAgc3JjPSJodHRwczovL2NkbmpzLmNsb3VkZmxhcmUuY29tL2FqYXgvbGlicy90d2Vtb2ppLzE0LjAuMi83Mng3Mi8xZjYzNS5wbmciCiAgICAgICAgICAgICAgICAgICAgYWx0PSJlcnJvciIKICAgICAgICAgICAgICAgICAgICBjbGFzc05hbWU9InctMTAgaC0xMCIKICAgICAgICAgICAgICAgIC8+CiAgICAgICAgICAgICAgICA8aDIgY2xhc3NOYW1lPSJ0ZXh0LWxnIGZvbnQtYm9sZCI+e0VSUk9SX1RJVExFfTwvaDI+CiAgICAgICAgICAgICAgICA8cCBjbGFzc05hbWU9InRleHQteHMgdGV4dC1zbGF0ZS0zMDAgZm9udC1tb25vIGJnLWJsYWNrLzMwIHAtMyByb3VuZGVkLTJ4bCBtYXgtdy1mdWxsIG92ZXJmbG93LWF1dG8gbWF4LWgtNDAgc2VsZWN0LXRleHQgYnJlYWstYWxsIHdoaXRlc3BhY2UtcHJlLXdyYXAiPgogICAgICAgICAgICAgICAgICAgIHt0aGlzLnN0YXRlLmVycm9yPy5tZXNzYWdlIHx8ICdVbmtub3duIEVycm9yJ30KICAgICAgICAgICAgICAgIDwvcD4KICAgICAgICAgICAgICAgIDxkaXYgY2xhc3NOYW1lPSJmbGV4IGZsZXgtY29sIGdhcC0zIHctZnVsbCBtYXgtdy14cyI+CiAgICAgICAgICAgICAgICAgICAgPGJ1dHRvbgogICAgICAgICAgICAgICAgICAgICAgICB0eXBlPSJidXR0b24iCiAgICAgICAgICAgICAgICAgICAgICAgIG9uQ2xpY2s9e3RoaXMuaGFuZGxlQ29weX0KICAgICAgICAgICAgICAgICAgICAgICAgY2xhc3NOYW1lPSJ3LWZ1bGwgcHgtNCBweS0yIGJnLXNsYXRlLTcwMCByb3VuZGVkLWZ1bGwgdGV4dC14cyBmb250LWJvbGQgYWN0aXZlOnNjYWxlLTk1IHRyYW5zaXRpb24tdHJhbnNmb3JtIgogICAgICAgICAgICAgICAgICAgID4KICAgICAgICAgICAgICAgICAgICAgICAge3RoaXMuc3RhdGUuY29weUxhYmVsfQogICAgICAgICAgICAgICAgICAgIDwvYnV0dG9uPgogICAgICAgICAgICAgICAgICAgIDxidXR0b24KICAgICAgICAgICAgICAgICAgICAgICAgdHlwZT0iYnV0dG9uIgogICAgICAgICAgICAgICAgICAgICAgICBvbkNsaWNrPXt0aGlzLmhhbmRsZUNsb3NlfQogICAgICAgICAgICAgICAgICAgICAgICBjbGFzc05hbWU9InctZnVsbCBweC02IHB5LTMgYmctcmVkLTYwMCByb3VuZGVkLWZ1bGwgZm9udC1ib2xkIHRleHQtc20gc2hhZG93LWxnIGFjdGl2ZTpzY2FsZS05NSB0cmFuc2l0aW9uLXRyYW5zZm9ybSIKICAgICAgICAgICAgICAgICAgICA+CiAgICAgICAgICAgICAgICAgICAgICAgIHtFUlJPUl9SRVRVUk5fTEFCRUx9CiAgICAgICAgICAgICAgICAgICAgPC9idXR0b24+CiAgICAgICAgICAgICAgICA8L2Rpdj4KICAgICAgICAgICAgPC9kaXY+CiAgICAgICAgKTsKICAgIH0KfQoKZXhwb3J0IGRlZmF1bHQgQXBwRXJyb3JCb3VuZGFyeTsK
+import React, { Component, ErrorInfo } from 'react';
+import { isChunkLoadError, tryAutoReloadForChunkError } from '../../utils/chunkLoadRecovery';
+
+const ERROR_COPY_LABEL = '\u590d\u5236\u62a5\u9519\u4fe1\u606f';
+const ERROR_COPIED_LABEL = '\u5df2\u590d\u5236';
+const ERROR_MANUAL_COPY_LABEL = '\u8bf7\u624b\u52a8\u590d\u5236';
+const ERROR_PROMPT_LABEL = '\u8bf7\u624b\u52a8\u590d\u5236\u62a5\u9519\u4fe1\u606f';
+const ERROR_TITLE = '\u5e94\u7528\u8fd0\u884c\u9519\u8bef';
+const ERROR_RETURN_LABEL = '\u8fd4\u56de\u684c\u9762';
+const CHUNK_ERROR_TITLE = '\u8d44\u6e90\u52a0\u8f7d\u5931\u8d25';
+const CHUNK_ERROR_HINT = '\u5e94\u7528\u7ec4\u4ef6\u6ca1\u6709\u52a0\u8f7d\u6210\u529f\uff0c\u901a\u5e38\u662f\u7248\u672c\u521a\u66f4\u65b0\u6216\u7f51\u7edc\u77ac\u65ad\u5bfc\u81f4\u7684\uff0c\u5237\u65b0\u4e00\u6b21\u5373\u53ef\u6062\u590d\u3002';
+const CHUNK_ERROR_RELOADING = '\u6b63\u5728\u81ea\u52a8\u5237\u65b0\u6062\u590d\u2026';
+const CHUNK_ERROR_RELOAD_LABEL = '\u5237\u65b0\u91cd\u8bd5';
+
+type AppErrorBoundaryProps = {
+    children: React.ReactNode;
+    onCloseApp: () => void;
+    resetKey: string;
+};
+
+type AppErrorBoundaryState = {
+    hasError: boolean;
+    error: Error | null;
+    copyLabel: string;
+    /** 懒加载 chunk 失败 (iOS Safari "Importing a module script failed." 等) — 走刷新恢复 UI */
+    isChunkError: boolean;
+    /** 已发起自动整页刷新, 页面即将重载 */
+    autoReloading: boolean;
+};
+
+class AppErrorBoundary extends Component<AppErrorBoundaryProps, AppErrorBoundaryState> {
+    private copyLabelTimer: number | null = null;
+
+    constructor(props: AppErrorBoundaryProps) {
+        super(props);
+        this.state = {
+            hasError: false,
+            error: null,
+            copyLabel: ERROR_COPY_LABEL,
+            isChunkError: false,
+            autoReloading: false,
+        };
+    }
+
+    static getDerivedStateFromError(error: Error): Partial<AppErrorBoundaryState> {
+        return { hasError: true, error, isChunkError: isChunkLoadError(error) };
+    }
+
+    componentDidCatch(error: Error, errorInfo: ErrorInfo) {
+        console.error('App Crash:', error, errorInfo);
+        // chunk 加载失败: Safari 会把失败缓存进模块表, 同一 URL 本页内重试必失败,
+        // 只有整页 reload 能恢复 — 自动刷一次 (冷却期内返回 false, 留给手动按钮)。
+        if (isChunkLoadError(error) && tryAutoReloadForChunkError()) {
+            this.setState({ autoReloading: true });
+        }
+    }
+
+    componentDidUpdate(prevProps: AppErrorBoundaryProps) {
+        if (prevProps.resetKey !== this.props.resetKey && this.state.hasError) {
+            this.setState({
+                hasError: false,
+                error: null,
+                copyLabel: ERROR_COPY_LABEL,
+                isChunkError: false,
+                autoReloading: false,
+            });
+        }
+    }
+
+    componentWillUnmount() {
+        if (this.copyLabelTimer) {
+            window.clearTimeout(this.copyLabelTimer);
+        }
+    }
+
+    private updateCopyLabel = (label: string) => {
+        if (this.copyLabelTimer) {
+            window.clearTimeout(this.copyLabelTimer);
+        }
+
+        this.setState({ copyLabel: label });
+        this.copyLabelTimer = window.setTimeout(() => {
+            this.setState({ copyLabel: ERROR_COPY_LABEL });
+            this.copyLabelTimer = null;
+        }, 1800);
+    };
+
+    private handleCopy = async () => {
+        const errText = this.state.error?.stack || this.state.error?.message || 'Unknown Error';
+
+        try {
+            if (navigator.clipboard?.writeText) {
+                await navigator.clipboard.writeText(errText);
+                this.updateCopyLabel(ERROR_COPIED_LABEL);
+                return;
+            }
+        } catch {
+            // Fall back to the hidden textarea path below.
+        }
+
+        try {
+            const textarea = document.createElement('textarea');
+            textarea.value = errText;
+            textarea.setAttribute('readonly', 'true');
+            textarea.style.position = 'fixed';
+            textarea.style.opacity = '0';
+            textarea.style.pointerEvents = 'none';
+            document.body.appendChild(textarea);
+            textarea.focus();
+            textarea.select();
+            const copied = document.execCommand('copy');
+            document.body.removeChild(textarea);
+
+            if (copied) {
+                this.updateCopyLabel(ERROR_COPIED_LABEL);
+                return;
+            }
+        } catch {
+            // Fall back to manual copy prompt.
+        }
+
+        window.prompt(ERROR_PROMPT_LABEL, errText);
+        this.updateCopyLabel(ERROR_MANUAL_COPY_LABEL);
+    };
+
+    private handleClose = () => {
+        this.setState({
+            hasError: false,
+            error: null,
+            copyLabel: ERROR_COPY_LABEL,
+            isChunkError: false,
+            autoReloading: false,
+        });
+        this.props.onCloseApp();
+    };
+
+    private handleReload = () => {
+        window.location.reload();
+    };
+
+    render() {
+        if (!this.state.hasError) {
+            return this.props.children;
+        }
+
+        if (this.state.isChunkError) {
+            return (
+                <div className="relative isolate z-[120] w-full h-full flex flex-col items-center justify-center bg-slate-900/95 text-white p-6 text-center space-y-4 pointer-events-auto">
+                    <img
+                        src="https://cdnjs.cloudflare.com/ajax/libs/twemoji/14.0.2/72x72/1f635.png"
+                        alt="error"
+                        className="w-10 h-10"
+                    />
+                    <h2 className="text-lg font-bold">{CHUNK_ERROR_TITLE}</h2>
+                    <p className="text-xs text-slate-300 max-w-xs leading-relaxed">
+                        {CHUNK_ERROR_HINT}
+                    </p>
+                    {this.state.autoReloading ? (
+                        <p className="text-sm font-bold text-slate-200">{CHUNK_ERROR_RELOADING}</p>
+                    ) : (
+                        <div className="flex flex-col gap-3 w-full max-w-xs">
+                            <button
+                                type="button"
+                                onClick={this.handleReload}
+                                className="w-full px-6 py-3 bg-red-600 rounded-full font-bold text-sm shadow-lg active:scale-95 transition-transform"
+                            >
+                                {CHUNK_ERROR_RELOAD_LABEL}
+                            </button>
+                            <button
+                                type="button"
+                                onClick={this.handleClose}
+                                className="w-full px-4 py-2 bg-slate-700 rounded-full text-xs font-bold active:scale-95 transition-transform"
+                            >
+                                {ERROR_RETURN_LABEL}
+                            </button>
+                        </div>
+                    )}
+                </div>
+            );
+        }
+
+        return (
+            <div className="relative isolate z-[120] w-full h-full flex flex-col items-center justify-center bg-slate-900/95 text-white p-6 text-center space-y-4 pointer-events-auto">
+                <img
+                    src="https://cdnjs.cloudflare.com/ajax/libs/twemoji/14.0.2/72x72/1f635.png"
+                    alt="error"
+                    className="w-10 h-10"
+                />
+                <h2 className="text-lg font-bold">{ERROR_TITLE}</h2>
+                <p className="text-xs text-slate-300 font-mono bg-black/30 p-3 rounded-2xl max-w-full overflow-auto max-h-40 select-text break-all whitespace-pre-wrap">
+                    {this.state.error?.message || 'Unknown Error'}
+                </p>
+                <div className="flex flex-col gap-3 w-full max-w-xs">
+                    <button
+                        type="button"
+                        onClick={this.handleCopy}
+                        className="w-full px-4 py-2 bg-slate-700 rounded-full text-xs font-bold active:scale-95 transition-transform"
+                    >
+                        {this.state.copyLabel}
+                    </button>
+                    <button
+                        type="button"
+                        onClick={this.handleClose}
+                        className="w-full px-6 py-3 bg-red-600 rounded-full font-bold text-sm shadow-lg active:scale-95 transition-transform"
+                    >
+                        {ERROR_RETURN_LABEL}
+                    </button>
+                </div>
+            </div>
+        );
+    }
+}
+
+export default AppErrorBoundary;

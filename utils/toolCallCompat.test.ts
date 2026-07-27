@@ -1,1 +1,32 @@
-aW1wb3J0IHsgZGVzY3JpYmUsIGV4cGVjdCwgaXQgfSBmcm9tICd2aXRlc3QnOwppbXBvcnQgeyBidWlsZFRvb2xSZXN1bHRNZXNzYWdlLCBub3JtYWxpemVUb29sQ2FsbHNGb3JDb21wYXQgfSBmcm9tICcuL3Rvb2xDYWxsQ29tcGF0JzsKCmRlc2NyaWJlKCd0b29sIGNhbGwgY29tcGF0aWJpbGl0eScsICgpID0+IHsKICAgIGl0KCfkuLogR2VtaW5pIOeahOepuuiwg+eUqCBJRCDnlJ/miJDnqLPlrpogSUTvvIzlubbmiorlt6XlhbflkI3mlL7lm57nu5Pmnpzmtojmga8nLCAoKSA9PiB7CiAgICAgICAgY29uc3QgY2FsbHMgPSBub3JtYWxpemVUb29sQ2FsbHNGb3JDb21wYXQoW3sKICAgICAgICAgICAgaWQ6ICcnLAogICAgICAgICAgICB0eXBlOiAnZnVuY3Rpb24nLAogICAgICAgICAgICBmdW5jdGlvbjogeyBuYW1lOiAnbG92ZXJfY29ubmVjdCcsIGFyZ3VtZW50czogJ3t9JyB9LAogICAgICAgIH1dLCAnbWNwXzAnKTsKCiAgICAgICAgZXhwZWN0KGNhbGxzWzBdLmlkKS50b0JlKCdjYWxsX21jcF8wX2xvdmVyX2Nvbm5lY3RfMCcpOwoKICAgICAgICBjb25zdCByZXN1bHQgPSBidWlsZFRvb2xSZXN1bHRNZXNzYWdlKGNhbGxzWzBdLCAneyJvayI6dHJ1ZX0nKTsKICAgICAgICBleHBlY3QocmVzdWx0KS50b0VxdWFsKHsKICAgICAgICAgICAgcm9sZTogJ3Rvb2wnLAogICAgICAgICAgICBuYW1lOiAnbG92ZXJfY29ubmVjdCcsCiAgICAgICAgICAgIHRvb2xfY2FsbF9pZDogY2FsbHNbMF0uaWQsCiAgICAgICAgICAgIGNvbnRlbnQ6ICd7Im9rIjp0cnVlfScsCiAgICAgICAgfSk7CiAgICB9KTsKCiAgICBpdCgn5L+d55WZ5pyJ5pWI6LCD55SoIElE77yM5bm26YG/5YWN5bm26KGM6LCD55So5Ye6546w6YeN5aSNIElEJywgKCkgPT4gewogICAgICAgIGNvbnN0IGNhbGxzID0gbm9ybWFsaXplVG9vbENhbGxzRm9yQ29tcGF0KFsKICAgICAgICAgICAgeyBpZDogJ2NhbGwtMScsIGZ1bmN0aW9uOiB7IG5hbWU6ICdmaXJzdF90b29sJywgYXJndW1lbnRzOiAne30nIH0gfSwKICAgICAgICAgICAgeyBpZDogJ2NhbGwtMScsIGZ1bmN0aW9uOiB7IG5hbWU6ICdzZWNvbmRfdG9vbCcsIGFyZ3VtZW50czogJ3t9JyB9IH0sCiAgICAgICAgXSwgJ21jcF8xJyk7CgogICAgICAgIGV4cGVjdChjYWxsc1swXS5pZCkudG9CZSgnY2FsbC0xJyk7CiAgICAgICAgZXhwZWN0KGNhbGxzWzFdLmlkKS50b0JlKCdjYWxsX21jcF8xX3NlY29uZF90b29sXzEnKTsKICAgIH0pOwp9KTsK
+import { describe, expect, it } from 'vitest';
+import { buildToolResultMessage, normalizeToolCallsForCompat } from './toolCallCompat';
+
+describe('tool call compatibility', () => {
+    it('为 Gemini 的空调用 ID 生成稳定 ID，并把工具名放回结果消息', () => {
+        const calls = normalizeToolCallsForCompat([{
+            id: '',
+            type: 'function',
+            function: { name: 'lover_connect', arguments: '{}' },
+        }], 'mcp_0');
+
+        expect(calls[0].id).toBe('call_mcp_0_lover_connect_0');
+
+        const result = buildToolResultMessage(calls[0], '{"ok":true}');
+        expect(result).toEqual({
+            role: 'tool',
+            name: 'lover_connect',
+            tool_call_id: calls[0].id,
+            content: '{"ok":true}',
+        });
+    });
+
+    it('保留有效调用 ID，并避免并行调用出现重复 ID', () => {
+        const calls = normalizeToolCallsForCompat([
+            { id: 'call-1', function: { name: 'first_tool', arguments: '{}' } },
+            { id: 'call-1', function: { name: 'second_tool', arguments: '{}' } },
+        ], 'mcp_1');
+
+        expect(calls[0].id).toBe('call-1');
+        expect(calls[1].id).toBe('call_mcp_1_second_tool_1');
+    });
+});

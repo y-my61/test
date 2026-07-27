@@ -1,1 +1,133 @@
-LyoqCiAqIOiwg+iJsuadv+aPkOWPliDigJQgTWVkaWFuIEN1dCDoibLlvanph4/ljJYKICoKICog57qvIEpTIOWunueOsO+8jOaXoOWklumDqOS+nei1luOAggogKiAtIGV4dHJhY3RQYWxldHRlOiDku44gSW1hZ2VEYXRhIOaPkOWPliBOIOiJsuiwg+iJsuadvwogKiAtIGFwcGx5UGFsZXR0ZTog5bCG5Zu+54mH6YeN5pig5bCE5Yiw5oyH5a6a6LCD6Imy5p2/CiAqLwoKLy8g4pSA4pSA4pSAIE1lZGlhbiBDdXQg6LCD6Imy5p2/5o+Q5Y+WIOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgAoKLyoqCiAqIOS7juWbvueJh+S4reaPkOWPliBOIOiJsuiwg+iJsuadv+OAggogKiBAcGFyYW0gaW1hZ2VEYXRhIOWbvueJh+aVsOaNrgogKiBAcGFyYW0gY29sb3JDb3VudCDnm67moIfpopzoibLmlbAgKDQtMTYpCiAqIEByZXR1cm5zIGhleCDpopzoibLmlbDnu4QKICovCmV4cG9ydCBmdW5jdGlvbiBleHRyYWN0UGFsZXR0ZShpbWFnZURhdGE6IEltYWdlRGF0YSwgY29sb3JDb3VudDogbnVtYmVyKTogc3RyaW5nW10gewogIGNvbnN0IHsgZGF0YSwgd2lkdGgsIGhlaWdodCB9ID0gaW1hZ2VEYXRhOwogIGNvbnN0IHBpeGVsczogW251bWJlciwgbnVtYmVyLCBudW1iZXJdW10gPSBbXTsKCiAgLy8g5pS26ZuG5omA5pyJ6Z2e6YCP5piO5YOP57SgCiAgZm9yIChsZXQgaSA9IDA7IGkgPCBkYXRhLmxlbmd0aDsgaSArPSA0KSB7CiAgICBpZiAoZGF0YVtpICsgM10gPCAyMCkgY29udGludWU7IC8vIOi3s+i/h+mAj+aYjgogICAgcGl4ZWxzLnB1c2goW2RhdGFbaV0sIGRhdGFbaSArIDFdLCBkYXRhW2kgKyAyXV0pOwogIH0KCiAgaWYgKHBpeGVscy5sZW5ndGggPT09IDApIHJldHVybiBbJyM4MDgwODAnXTsKCiAgLy8gTWVkaWFuIEN1dAogIGNvbnN0IGJ1Y2tldHMgPSBtZWRpYW5DdXQocGl4ZWxzLCBjb2xvckNvdW50KTsKCiAgLy8g5q+P5LiqIGJ1Y2tldCDlj5blubPlnYfoibIKICByZXR1cm4gYnVja2V0cy5tYXAoYnVja2V0ID0+IHsKICAgIGxldCByID0gMCwgZyA9IDAsIGIgPSAwOwogICAgZm9yIChjb25zdCBbcHIsIHBnLCBwYl0gb2YgYnVja2V0KSB7CiAgICAgIHIgKz0gcHI7IGcgKz0gcGc7IGIgKz0gcGI7CiAgICB9CiAgICBjb25zdCBuID0gYnVja2V0Lmxlbmd0aDsKICAgIHJldHVybiByZ2JUb0hleChNYXRoLnJvdW5kKHIgLyBuKSwgTWF0aC5yb3VuZChnIC8gbiksIE1hdGgucm91bmQoYiAvIG4pKTsKICB9KTsKfQoKLyoqCiAqIE1lZGlhbiBDdXQg6YCS5b2S5YiG5Ymy44CCCiAqLwpmdW5jdGlvbiBtZWRpYW5DdXQoCiAgcGl4ZWxzOiBbbnVtYmVyLCBudW1iZXIsIG51bWJlcl1bXSwKICB0YXJnZXRDb3VudDogbnVtYmVyLAopOiBbbnVtYmVyLCBudW1iZXIsIG51bWJlcl1bXVtdIHsKICBpZiAodGFyZ2V0Q291bnQgPD0gMSB8fCBwaXhlbHMubGVuZ3RoIDw9IDEpIHJldHVybiBbcGl4ZWxzXTsKCiAgLy8g5om+5YiwIFJHQiDkuK0gcmFuZ2Ug5pyA5aSn55qE6YCa6YGTCiAgbGV0IG1pblIgPSAyNTUsIG1heFIgPSAwLCBtaW5HID0gMjU1LCBtYXhHID0gMCwgbWluQiA9IDI1NSwgbWF4QiA9IDA7CiAgZm9yIChjb25zdCBbciwgZywgYl0gb2YgcGl4ZWxzKSB7CiAgICBpZiAociA8IG1pblIpIG1pblIgPSByOyBpZiAociA+IG1heFIpIG1heFIgPSByOwogICAgaWYgKGcgPCBtaW5HKSBtaW5HID0gZzsgaWYgKGcgPiBtYXhHKSBtYXhHID0gZzsKICAgIGlmIChiIDwgbWluQikgbWluQiA9IGI7IGlmIChiID4gbWF4QikgbWF4QiA9IGI7CiAgfQoKICBjb25zdCByYW5nZVIgPSBtYXhSIC0gbWluUjsKICBjb25zdCByYW5nZUcgPSBtYXhHIC0gbWluRzsKICBjb25zdCByYW5nZUIgPSBtYXhCIC0gbWluQjsKCiAgLy8g5oyJ5pyA5aSnIHJhbmdlIOeahOmAmumBk+aOkuW6jwogIGxldCBjaGFubmVsOiAwIHwgMSB8IDI7CiAgaWYgKHJhbmdlUiA+PSByYW5nZUcgJiYgcmFuZ2VSID49IHJhbmdlQikgY2hhbm5lbCA9IDA7CiAgZWxzZSBpZiAocmFuZ2VHID49IHJhbmdlUiAmJiByYW5nZUcgPj0gcmFuZ2VCKSBjaGFubmVsID0gMTsKICBlbHNlIGNoYW5uZWwgPSAyOwoKICBwaXhlbHMuc29ydCgoYSwgYikgPT4gYVtjaGFubmVsXSAtIGJbY2hhbm5lbF0pOwoKICAvLyDku47kuK3kvY3mlbDliIfliIYKICBjb25zdCBtaWQgPSBNYXRoLmZsb29yKHBpeGVscy5sZW5ndGggLyAyKTsKICBjb25zdCBsZWZ0ID0gcGl4ZWxzLnNsaWNlKDAsIG1pZCk7CiAgY29uc3QgcmlnaHQgPSBwaXhlbHMuc2xpY2UobWlkKTsKCiAgLy8g6YCS5b2S77ya5bmz5Z2H5YiG6YWN55uu5qCH6aKc6Imy5pWwCiAgY29uc3QgbGVmdENvdW50ID0gTWF0aC5mbG9vcih0YXJnZXRDb3VudCAvIDIpOwogIGNvbnN0IHJpZ2h0Q291bnQgPSB0YXJnZXRDb3VudCAtIGxlZnRDb3VudDsKCiAgcmV0dXJuIFsKICAgIC4uLm1lZGlhbkN1dChsZWZ0LCBsZWZ0Q291bnQpLAogICAgLi4ubWVkaWFuQ3V0KHJpZ2h0LCByaWdodENvdW50KSwKICBdOwp9CgovLyDilIDilIDilIAg6LCD6Imy5p2/5bqU55SoIOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgAoKLyoqCiAqIOWwhuWbvueJh+eahOavj+S4quWDj+e0oOmHjeaYoOWwhOWIsOacgOi/keeahOiwg+iJsuadv+minOiJsuOAggogKiBAcGFyYW0gaW1hZ2VEYXRhIOWOn+Wni+WbvueJh+aVsOaNru+8iOS8muiiq+S/ruaUue+8iQogKiBAcGFyYW0gcGFsZXR0ZSBoZXgg6LCD6Imy5p2/CiAqLwpleHBvcnQgZnVuY3Rpb24gYXBwbHlQYWxldHRlKGltYWdlRGF0YTogSW1hZ2VEYXRhLCBwYWxldHRlOiBzdHJpbmdbXSk6IHZvaWQgewogIGNvbnN0IHsgZGF0YSB9ID0gaW1hZ2VEYXRhOwogIGNvbnN0IHBhbGV0dGVSZ2IgPSBwYWxldHRlLm1hcChoZXhUb1JnYik7CgogIGZvciAobGV0IGkgPSAwOyBpIDwgZGF0YS5sZW5ndGg7IGkgKz0gNCkgewogICAgaWYgKGRhdGFbaSArIDNdIDwgMjApIGNvbnRpbnVlOyAvLyDot7Pov4fpgI/mmI4KCiAgICBjb25zdCByID0gZGF0YVtpXSwgZyA9IGRhdGFbaSArIDFdLCBiID0gZGF0YVtpICsgMl07CiAgICBsZXQgbWluRGlzdCA9IEluZmluaXR5OwogICAgbGV0IGJlc3RJZHggPSAwOwoKICAgIGZvciAobGV0IGogPSAwOyBqIDwgcGFsZXR0ZVJnYi5sZW5ndGg7IGorKykgewogICAgICBjb25zdCBbcHIsIHBnLCBwYl0gPSBwYWxldHRlUmdiW2pdOwogICAgICBjb25zdCBkaXN0ID0gKHIgLSBwcikgKiogMiArIChnIC0gcGcpICoqIDIgKyAoYiAtIHBiKSAqKiAyOwogICAgICBpZiAoZGlzdCA8IG1pbkRpc3QpIHsKICAgICAgICBtaW5EaXN0ID0gZGlzdDsKICAgICAgICBiZXN0SWR4ID0gajsKICAgICAgfQogICAgfQoKICAgIGRhdGFbaV0gPSBwYWxldHRlUmdiW2Jlc3RJZHhdWzBdOwogICAgZGF0YVtpICsgMV0gPSBwYWxldHRlUmdiW2Jlc3RJZHhdWzFdOwogICAgZGF0YVtpICsgMl0gPSBwYWxldHRlUmdiW2Jlc3RJZHhdWzJdOwogIH0KfQoKLy8g4pSA4pSA4pSAIOi+heWKqSDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIAKCmZ1bmN0aW9uIGhleFRvUmdiKGhleDogc3RyaW5nKTogW251bWJlciwgbnVtYmVyLCBudW1iZXJdIHsKICBjb25zdCBoID0gaGV4LnJlcGxhY2UoJyMnLCAnJyk7CiAgcmV0dXJuIFsKICAgIHBhcnNlSW50KGguc3Vic3RyaW5nKDAsIDIpLCAxNiksCiAgICBwYXJzZUludChoLnN1YnN0cmluZygyLCA0KSwgMTYpLAogICAgcGFyc2VJbnQoaC5zdWJzdHJpbmcoNCwgNiksIDE2KSwKICBdOwp9CgpmdW5jdGlvbiByZ2JUb0hleChyOiBudW1iZXIsIGc6IG51bWJlciwgYjogbnVtYmVyKTogc3RyaW5nIHsKICByZXR1cm4gJyMnICsgW3IsIGcsIGJdLm1hcChjID0+IGMudG9TdHJpbmcoMTYpLnBhZFN0YXJ0KDIsICcwJykpLmpvaW4oJycpOwp9Cg==
+/**
+ * 调色板提取 — Median Cut 色彩量化
+ *
+ * 纯 JS 实现，无外部依赖。
+ * - extractPalette: 从 ImageData 提取 N 色调色板
+ * - applyPalette: 将图片重映射到指定调色板
+ */
+
+// ─── Median Cut 调色板提取 ───────────────────────────
+
+/**
+ * 从图片中提取 N 色调色板。
+ * @param imageData 图片数据
+ * @param colorCount 目标颜色数 (4-16)
+ * @returns hex 颜色数组
+ */
+export function extractPalette(imageData: ImageData, colorCount: number): string[] {
+  const { data, width, height } = imageData;
+  const pixels: [number, number, number][] = [];
+
+  // 收集所有非透明像素
+  for (let i = 0; i < data.length; i += 4) {
+    if (data[i + 3] < 20) continue; // 跳过透明
+    pixels.push([data[i], data[i + 1], data[i + 2]]);
+  }
+
+  if (pixels.length === 0) return ['#808080'];
+
+  // Median Cut
+  const buckets = medianCut(pixels, colorCount);
+
+  // 每个 bucket 取平均色
+  return buckets.map(bucket => {
+    let r = 0, g = 0, b = 0;
+    for (const [pr, pg, pb] of bucket) {
+      r += pr; g += pg; b += pb;
+    }
+    const n = bucket.length;
+    return rgbToHex(Math.round(r / n), Math.round(g / n), Math.round(b / n));
+  });
+}
+
+/**
+ * Median Cut 递归分割。
+ */
+function medianCut(
+  pixels: [number, number, number][],
+  targetCount: number,
+): [number, number, number][][] {
+  if (targetCount <= 1 || pixels.length <= 1) return [pixels];
+
+  // 找到 RGB 中 range 最大的通道
+  let minR = 255, maxR = 0, minG = 255, maxG = 0, minB = 255, maxB = 0;
+  for (const [r, g, b] of pixels) {
+    if (r < minR) minR = r; if (r > maxR) maxR = r;
+    if (g < minG) minG = g; if (g > maxG) maxG = g;
+    if (b < minB) minB = b; if (b > maxB) maxB = b;
+  }
+
+  const rangeR = maxR - minR;
+  const rangeG = maxG - minG;
+  const rangeB = maxB - minB;
+
+  // 按最大 range 的通道排序
+  let channel: 0 | 1 | 2;
+  if (rangeR >= rangeG && rangeR >= rangeB) channel = 0;
+  else if (rangeG >= rangeR && rangeG >= rangeB) channel = 1;
+  else channel = 2;
+
+  pixels.sort((a, b) => a[channel] - b[channel]);
+
+  // 从中位数切分
+  const mid = Math.floor(pixels.length / 2);
+  const left = pixels.slice(0, mid);
+  const right = pixels.slice(mid);
+
+  // 递归：平均分配目标颜色数
+  const leftCount = Math.floor(targetCount / 2);
+  const rightCount = targetCount - leftCount;
+
+  return [
+    ...medianCut(left, leftCount),
+    ...medianCut(right, rightCount),
+  ];
+}
+
+// ─── 调色板应用 ──────────────────────────────────────
+
+/**
+ * 将图片的每个像素重映射到最近的调色板颜色。
+ * @param imageData 原始图片数据（会被修改）
+ * @param palette hex 调色板
+ */
+export function applyPalette(imageData: ImageData, palette: string[]): void {
+  const { data } = imageData;
+  const paletteRgb = palette.map(hexToRgb);
+
+  for (let i = 0; i < data.length; i += 4) {
+    if (data[i + 3] < 20) continue; // 跳过透明
+
+    const r = data[i], g = data[i + 1], b = data[i + 2];
+    let minDist = Infinity;
+    let bestIdx = 0;
+
+    for (let j = 0; j < paletteRgb.length; j++) {
+      const [pr, pg, pb] = paletteRgb[j];
+      const dist = (r - pr) ** 2 + (g - pg) ** 2 + (b - pb) ** 2;
+      if (dist < minDist) {
+        minDist = dist;
+        bestIdx = j;
+      }
+    }
+
+    data[i] = paletteRgb[bestIdx][0];
+    data[i + 1] = paletteRgb[bestIdx][1];
+    data[i + 2] = paletteRgb[bestIdx][2];
+  }
+}
+
+// ─── 辅助 ────────────────────────────────────────────
+
+function hexToRgb(hex: string): [number, number, number] {
+  const h = hex.replace('#', '');
+  return [
+    parseInt(h.substring(0, 2), 16),
+    parseInt(h.substring(2, 4), 16),
+    parseInt(h.substring(4, 6), 16),
+  ];
+}
+
+function rgbToHex(r: number, g: number, b: number): string {
+  return '#' + [r, g, b].map(c => c.toString(16).padStart(2, '0')).join('');
+}

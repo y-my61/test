@@ -1,1 +1,125 @@
-LyoqCiAqIFBpeGVsIEhvbWUg4oCUIDfkuKrmiL/pl7TnmoTlm7rlrprmp73kvY3lrprkuYkKICoKICog5q+P5Liq5oi/6Ze0NeS4quWutuWFt+anveS9je+8jOaYoOWwhOWIsOiusOW/huWuq+auv+eahOiupOefpeWKn+iDveOAggogKiDmp73kvY3mlbDph4/lkozliIbnsbvlm7rlrprvvIzkvYbkvY3nva7lj6/nlLHnlKjmiLcv6KeS6Imy6LCD5pW044CCCiAqLwoKaW1wb3J0IHR5cGUgeyBSb29tU2xvdERlZiB9IGZyb20gJy4vdHlwZXMnOwppbXBvcnQgdHlwZSB7IE1lbW9yeVJvb20gfSBmcm9tICcuLi8uLi91dGlscy9tZW1vcnlQYWxhY2UvdHlwZXMnOwoKZXhwb3J0IGNvbnN0IFJPT01fU0xPVFM6IFJlY29yZDxNZW1vcnlSb29tLCBSb29tU2xvdERlZltdPiA9IHsKICAvLyDilIDilIDilIAg5a6i5Y6FIOKGkiBoaXBwb2NhbXB1c++8jOaXpeW4uOmXsuiBiiDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIAKICBsaXZpbmdfcm9vbTogWwogICAgeyBpZDogJ3NvZmEnLCAgICAgICAgIG5hbWU6ICfmspnlj5EnLCAgIGNhdGVnb3J5OiAn6L+R5pyf6K+d6aKYJywgICByZXF1aXJlZDogdHJ1ZSwgIGRlZmF1bHRYOiAyNSwgZGVmYXVsdFk6IDYwLCBkZWZhdWx0U2NhbGU6IDEuNCB9LAogICAgeyBpZDogJ3R2JywgICAgICAgICAgIG5hbWU6ICfnlLXop4YnLCAgIGNhdGVnb3J5OiAn5YWx5Lqr5L2T6aqMJywgICByZXF1aXJlZDogZmFsc2UsIGRlZmF1bHRYOiA3NSwgZGVmYXVsdFk6IDM1LCBkZWZhdWx0U2NhbGU6IDEuMiB9LAogICAgeyBpZDogJ2NvZmZlZV90YWJsZScsIG5hbWU6ICfojLblh6AnLCAgIGNhdGVnb3J5OiAn56KO54mH6K6w5b+GJywgICByZXF1aXJlZDogZmFsc2UsIGRlZmF1bHRYOiA0MCwgZGVmYXVsdFk6IDY1LCBkZWZhdWx0U2NhbGU6IDEuMCB9LAogICAgeyBpZDogJ3J1ZycsICAgICAgICAgIG5hbWU6ICflnLDmr68nLCAgIGNhdGVnb3J5OiAn5rCb5Zu05Z+66LCDJywgICByZXF1aXJlZDogZmFsc2UsIGRlZmF1bHRYOiA1MCwgZGVmYXVsdFk6IDc1LCBkZWZhdWx0U2NhbGU6IDEuNiB9LAogICAgeyBpZDogJ2Nsb2NrJywgICAgICAgIG5hbWU6ICfmjILpkp8nLCAgIGNhdGVnb3J5OiAn5pe26Ze05oSf55+lJywgICByZXF1aXJlZDogZmFsc2UsIGRlZmF1bHRYOiA4NSwgZGVmYXVsdFk6IDI1LCBkZWZhdWx0U2NhbGU6IDAuOCB9LAogIF0sCgogIC8vIOKUgOKUgOKUgCDljaflrqQg4oaSIG5lb2NvcnRleO+8jOS6suWvhuaDheaEnyDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIAKICBiZWRyb29tOiBbCiAgICB7IGlkOiAnYmVkJywgICAgICAgIG5hbWU6ICfluoonLCAgICAgY2F0ZWdvcnk6ICfmoLjlv4PorrDlv4blrrnlmagnLCByZXF1aXJlZDogdHJ1ZSwgIGRlZmF1bHRYOiA2MCwgZGVmYXVsdFk6IDU1LCBkZWZhdWx0U2NhbGU6IDEuOCB9LAogICAgeyBpZDogJ25pZ2h0c3RhbmQnLCBuYW1lOiAn5bqK5aS05p+cJywgY2F0ZWdvcnk6ICfph43opoHkuovku7YnLCAgICAgcmVxdWlyZWQ6IGZhbHNlLCBkZWZhdWx0WDogODUsIGRlZmF1bHRZOiA1NSwgZGVmYXVsdFNjYWxlOiAwLjkgfSwKICAgIHsgaWQ6ICdsYW1wJywgICAgICAgbmFtZTogJ+WPsOeBrycsICAgY2F0ZWdvcnk6ICfmg4Xnu6rlvLrluqYnLCAgICAgcmVxdWlyZWQ6IGZhbHNlLCBkZWZhdWx0WDogODgsIGRlZmF1bHRZOiA0NSwgZGVmYXVsdFNjYWxlOiAwLjcgfSwKICAgIHsgaWQ6ICdjdXJ0YWluJywgICAgbmFtZTogJ+eql+W4mCcsICAgY2F0ZWdvcnk6ICfpmpDnp4HlsYInLCAgICAgICByZXF1aXJlZDogZmFsc2UsIGRlZmF1bHRYOiAxNSwgZGVmYXVsdFk6IDI1LCBkZWZhdWx0U2NhbGU6IDEuNSB9LAogICAgeyBpZDogJ2ZyYW1lJywgICAgICBuYW1lOiAn55u45qGGJywgICBjYXRlZ29yeTogJ+WFs+mUruWFs+ezu+eJh+autScsIHJlcXVpcmVkOiBmYWxzZSwgZGVmYXVsdFg6IDM1LCBkZWZhdWx0WTogMjUsIGRlZmF1bHRTY2FsZTogMC44IH0sCiAgXSwKCiAgLy8g4pSA4pSA4pSAIOS5puaIvyDihpIgcHJlZnJvbnRhbCBjb3J0ZXjvvIzlt6XkvZwv5oqA6IO9IOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgAogIHN0dWR5OiBbCiAgICB7IGlkOiAnZGVzaycsICAgICAgIG5hbWU6ICfkuabmoYwnLCAgIGNhdGVnb3J5OiAn5b2T5YmN5Lu75YqhJywgICByZXF1aXJlZDogdHJ1ZSwgIGRlZmF1bHRYOiA1MCwgZGVmYXVsdFk6IDU1LCBkZWZhdWx0U2NhbGU6IDEuNCB9LAogICAgeyBpZDogJ2Jvb2tzaGVsZicsICBuYW1lOiAn5Lmm5p62JywgICBjYXRlZ29yeTogJ+efpeivhuenr+e0rycsICAgcmVxdWlyZWQ6IGZhbHNlLCBkZWZhdWx0WDogMTUsIGRlZmF1bHRZOiAzNSwgZGVmYXVsdFNjYWxlOiAxLjYgfSwKICAgIHsgaWQ6ICd3aGl0ZWJvYXJkJywgbmFtZTogJ+eZveadvycsICAgY2F0ZWdvcnk6ICforqHliJLmjqjnkIYnLCAgIHJlcXVpcmVkOiBmYWxzZSwgZGVmYXVsdFg6IDgwLCBkZWZhdWx0WTogMzAsIGRlZmF1bHRTY2FsZTogMS4zIH0sCiAgICB7IGlkOiAncGVuX2hvbGRlcicsIG5hbWU6ICfnrJTnrZInLCAgIGNhdGVnb3J5OiAn5bel5YW35oqA6IO9JywgICByZXF1aXJlZDogZmFsc2UsIGRlZmF1bHRYOiA1NSwgZGVmYXVsdFk6IDQ4LCBkZWZhdWx0U2NhbGU6IDAuNiB9LAogICAgeyBpZDogJ2dsb2JlJywgICAgICBuYW1lOiAn5Zyw55CD5LuqJywgY2F0ZWdvcnk6ICflhbTotqPmjqLntKInLCAgIHJlcXVpcmVkOiBmYWxzZSwgZGVmYXVsdFg6IDg1LCBkZWZhdWx0WTogNjAsIGRlZmF1bHRTY2FsZTogMC45IH0sCiAgXSwKCiAgLy8g4pSA4pSA4pSAIOmYgealvCDihpIgYW15Z2RhbGHvvIzmnKrmtojljJbliJvkvKQg4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSACiAgYXR0aWM6IFsKICAgIHsgaWQ6ICdjaGVzdCcsICAgICBuYW1lOiAn5pen566x5a2QJywgICBjYXRlZ29yeTogJ+WwgeWtmOiusOW/hicsICAgcmVxdWlyZWQ6IHRydWUsICBkZWZhdWx0WDogMzAsIGRlZmF1bHRZOiA2MCwgZGVmYXVsdFNjYWxlOiAxLjMgfSwKICAgIHsgaWQ6ICdjb2J3ZWInLCAgICBuYW1lOiAn6Jub572RJywgICAgIGNhdGVnb3J5OiAn6YGX5b+Y56iL5bqmJywgICByZXF1aXJlZDogZmFsc2UsIGRlZmF1bHRYOiAxNSwgZGVmYXVsdFk6IDIwLCBkZWZhdWx0U2NhbGU6IDEuMCB9LAogICAgeyBpZDogJ21pcnJvcicsICAgIG5hbWU6ICfokL3ngbDplZzlrZAnLCBjYXRlZ29yeTogJ+iHquaIkeWuoeinhicsICAgcmVxdWlyZWQ6IGZhbHNlLCBkZWZhdWx0WDogNzUsIGRlZmF1bHRZOiAzNSwgZGVmYXVsdFNjYWxlOiAxLjIgfSwKICAgIHsgaWQ6ICd3aW5kb3cnLCAgICBuYW1lOiAn5aSp56qXJywgICAgIGNhdGVnb3J5OiAn5biM5pyb57yd6ZqZJywgICByZXF1aXJlZDogZmFsc2UsIGRlZmF1bHRYOiA1MCwgZGVmYXVsdFk6IDE1LCBkZWZhdWx0U2NhbGU6IDEuNCB9LAogICAgeyBpZDogJ211c2ljX2JveCcsIG5hbWU6ICflhavpn7Pnm5InLCAgIGNhdGVnb3J5OiAn6Kem5Y+R54mH5q61JywgICByZXF1aXJlZDogZmFsc2UsIGRlZmF1bHRYOiA2NSwgZGVmYXVsdFk6IDY1LCBkZWZhdWx0U2NhbGU6IDAuNyB9LAogIF0sCgogIC8vIOKUgOKUgOKUgCDkuKrkurrmiL/pl7Qg4oaSIGRlZmF1bHQgbW9kZSBuZXR3b3Jr77yM6Lqr5Lu9IOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgAogIHNlbGZfcm9vbTogWwogICAgeyBpZDogJ3Zhbml0eScsICAgbmFtZTogJ+ais+WmhuWPsCcsIGNhdGVnb3J5OiAn6Ieq5oiR5b2i6LGhJywgICByZXF1aXJlZDogdHJ1ZSwgIGRlZmF1bHRYOiAyNSwgZGVmYXVsdFk6IDUwLCBkZWZhdWx0U2NhbGU6IDEuMyB9LAogICAgeyBpZDogJ2RpYXJ5JywgICAgbmFtZTogJ+aXpeiusOacrCcsIGNhdGVnb3J5OiAn5YaF5b+D54us55m9JywgICByZXF1aXJlZDogZmFsc2UsIGRlZmF1bHRYOiA1MCwgZGVmYXVsdFk6IDYwLCBkZWZhdWx0U2NhbGU6IDAuOCB9LAogICAgeyBpZDogJ3Ryb3BoeScsICAgbmFtZTogJ+Wlluadr+aeticsIGNhdGVnb3J5OiAn5oiQ5bCx5oSfJywgICAgIHJlcXVpcmVkOiBmYWxzZSwgZGVmYXVsdFg6IDgwLCBkZWZhdWx0WTogNDAsIGRlZmF1bHRTY2FsZTogMS4xIH0sCiAgICB7IGlkOiAncG9zdGVyJywgICBuYW1lOiAn5rW35oqlJywgICBjYXRlZ29yeTogJ+S7t+WAvOingicsICAgICByZXF1aXJlZDogZmFsc2UsIGRlZmF1bHRYOiAxNSwgZGVmYXVsdFk6IDI1LCBkZWZhdWx0U2NhbGU6IDEuNCB9LAogICAgeyBpZDogJ3BldF9iZWQnLCAgbmFtZTogJ+WuoOeJqeeqnScsIGNhdGVnb3J5OiAn5oOF5oSf5a+E5omYJywgICByZXF1aXJlZDogZmFsc2UsIGRlZmF1bHRYOiA3MCwgZGVmYXVsdFk6IDcwLCBkZWZhdWx0U2NhbGU6IDAuOSB9LAogIF0sCgogIC8vIOKUgOKUgOKUgCDnlKjmiLfmiL8g4oaSIFRQSu+8jOeUqOaIt+S/oeaBryDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIAKICB1c2VyX3Jvb206IFsKICAgIHsgaWQ6ICdndWVzdF9iZWQnLCAgbmFtZTogJ+WuouW6iicsICAgY2F0ZWdvcnk6ICfnlKjmiLfljbDosaEnLCAgIHJlcXVpcmVkOiB0cnVlLCAgZGVmYXVsdFg6IDU1LCBkZWZhdWx0WTogNTUsIGRlZmF1bHRTY2FsZTogMS42IH0sCiAgICB7IGlkOiAncGhvdG9fd2FsbCcsIG5hbWU6ICfnhafniYflopknLCBjYXRlZ29yeTogJ+WFseWQjOWbnuW/hicsICAgcmVxdWlyZWQ6IGZhbHNlLCBkZWZhdWx0WDogMjAsIGRlZmF1bHRZOiAyNSwgZGVmYXVsdFNjYWxlOiAxLjUgfSwKICAgIHsgaWQ6ICdnaWZ0X3NoZWxmJywgbmFtZTogJ+ekvOeJqeaeticsIGNhdGVnb3J5OiAn5LqS6LWg54mp5ZOBJywgICByZXF1aXJlZDogZmFsc2UsIGRlZmF1bHRYOiA4MCwgZGVmYXVsdFk6IDM1LCBkZWZhdWx0U2NhbGU6IDEuMiB9LAogICAgeyBpZDogJ2xldHRlcl9ib3gnLCBuYW1lOiAn5L+h566xJywgICBjYXRlZ29yeTogJ+mHjeimgeWvueivnScsICAgcmVxdWlyZWQ6IGZhbHNlLCBkZWZhdWx0WDogODUsIGRlZmF1bHRZOiA2MCwgZGVmYXVsdFNjYWxlOiAwLjggfSwKICAgIHsgaWQ6ICd3ZWxjb21lX21hdCcsbmFtZTogJ+mXqOWeqycsICAgY2F0ZWdvcnk6ICflhbPns7vmuKnluqYnLCAgIHJlcXVpcmVkOiBmYWxzZSwgZGVmYXVsdFg6IDUwLCBkZWZhdWx0WTogODUsIGRlZmF1bHRTY2FsZTogMS4wIH0sCiAgXSwKCiAgLy8g4pSA4pSA4pSAIOeql+WPsC/pnLLlj7Ag4oaSIGRvcGFtaW5l77yM5pyf55u8IOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgAogIHdpbmRvd3NpbGw6IFsKICAgIHsgaWQ6ICdmbG93ZXJfcG90JywgbmFtZTogJ+iKseebhicsICAgY2F0ZWdvcnk6ICfmiJDplb/kuK3nmoTmnJ/nm7wnLCByZXF1aXJlZDogdHJ1ZSwgIGRlZmF1bHRYOiAzMCwgZGVmYXVsdFk6IDU1LCBkZWZhdWx0U2NhbGU6IDAuOSB9LAogICAgeyBpZDogJ3dpbmRfY2hpbWUnLCBuYW1lOiAn6aOO6ZODJywgICBjYXRlZ29yeTogJ+WunueOsOeahOaEv+acmycsICAgcmVxdWlyZWQ6IGZhbHNlLCBkZWZhdWx0WDogNTAsIGRlZmF1bHRZOiAyMCwgZGVmYXVsdFNjYWxlOiAwLjggfSwKICAgIHsgaWQ6ICd0ZWxlc2NvcGUnLCAgbmFtZTogJ+acm+i/nOmVnCcsIGNhdGVnb3J5OiAn6L+c5pyf55uu5qCHJywgICAgIHJlcXVpcmVkOiBmYWxzZSwgZGVmYXVsdFg6IDc1LCBkZWZhdWx0WTogNDUsIGRlZmF1bHRTY2FsZTogMS4yIH0sCiAgICB7IGlkOiAnc2VlZF9ib3gnLCAgIG5hbWU6ICfnp43lrZDnm5InLCBjYXRlZ29yeTogJ+aWsOiQjOiKvScsICAgICAgIHJlcXVpcmVkOiBmYWxzZSwgZGVmYXVsdFg6IDIwLCBkZWZhdWx0WTogNjUsIGRlZmF1bHRTY2FsZTogMC43IH0sCiAgICB7IGlkOiAnbGFudGVybicsICAgIG5hbWU6ICfnga/nrLwnLCAgIGNhdGVnb3J5OiAn6ZSa5a6a5b+D5oS/JywgICAgIHJlcXVpcmVkOiBmYWxzZSwgZGVmYXVsdFg6IDg1LCBkZWZhdWx0WTogMzAsIGRlZmF1bHRTY2FsZTogMC45IH0sCiAgXSwKfTsKCi8vIOKUgOKUgOKUgCDmiL/pl7TlhYPkv6Hmga8g4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSACgpleHBvcnQgY29uc3QgUk9PTV9NRVRBOiBSZWNvcmQ8TWVtb3J5Um9vbSwgeyBuYW1lOiBzdHJpbmc7IGVtb2ppOiBzdHJpbmc7IGNvbG9yOiBzdHJpbmc7IGRlc2NyaXB0aW9uOiBzdHJpbmcgfT4gPSB7CiAgbGl2aW5nX3Jvb206IHsgbmFtZTogJ+WuouWOhScsICAgICBlbW9qaTogJ/Cfm4vvuI8nLCBjb2xvcjogJyNmNTllMGInLCBkZXNjcmlwdGlvbjogJ+aXpeW4uOmXsuiBiuS4jui/keacn+iusOW/hicgfSwKICBiZWRyb29tOiAgICAgeyBuYW1lOiAn5Y2n5a6kJywgICAgIGVtb2ppOiAn8J+bj++4jycsIGNvbG9yOiAnIzhiNWNmNicsIGRlc2NyaXB0aW9uOiAn5Lqy5a+G5oOF5oSf5LiO5qC45b+D6K6w5b+GJyB9LAogIHN0dWR5OiAgICAgICB7IG5hbWU6ICfkuabmiL8nLCAgICAgZW1vamk6ICfwn5OaJywgY29sb3I6ICcjM2I4MmY2JywgZGVzY3JpcHRpb246ICfnn6Xor4bnp6/ntK/kuI7mioDog73miJDplb8nIH0sCiAgYXR0aWM6ICAgICAgIHsgbmFtZTogJ+mYgealvCcsICAgICBlbW9qaTogJ/CflbjvuI8nLCBjb2xvcjogJyM2YjcyODAnLCBkZXNjcmlwdGlvbjogJ+acqua2iOWMlueahOWbsOaDkeS4juWIm+S8pCcgfSwKICBzZWxmX3Jvb206ICAgeyBuYW1lOiAn5Liq5Lq65oi/6Ze0JywgZW1vamk6ICfwn6qeJywgY29sb3I6ICcjZWM0ODk5JywgZGVzY3JpcHRpb246ICfoh6rmiJHorqTlkIzkuI7ouqvku73mjqLntKInIH0sCiAgdXNlcl9yb29tOiAgIHsgbmFtZTogJ+eUqOaIt+aIvycsICAgZW1vamk6ICfwn46BJywgY29sb3I6ICcjMTBiOTgxJywgZGVzY3JpcHRpb246ICflhbPkuo7kvaDnmoTkuIDliIforrDlv4YnIH0sCiAgd2luZG93c2lsbDogIHsgbmFtZTogJ+mcsuWPsCcsICAgICBlbW9qaTogJ/CfjLEnLCBjb2xvcjogJyMwNmI2ZDQnLCBkZXNjcmlwdGlvbjogJ+acn+ebvOOAgeaEv+acm+S4juacquadpScgfSwKfTsKCi8qKgogKiDmiL/pl7TmmL7npLrlkI3jgIJ1c2VyX3Jvb20g5Zyo5pyJ55So5oi35ZCN5pe25pi+56S65Li644CMe+eUqOaIt+WQjX3nmoTmiL/jgI3vvIzlhbbkvZnmiL/pl7Tov5Tlm57pnZnmgIHlkI3jgIIKICog5Y2V5LiA5p2l5rqQ77yM5L6b5Zyw5Zu+IC8g57yW6L6R5ZmoIC8g5r2c6KGM5qih5byPIC8gZGl2ZSBwcm9tcHQg57uf5LiA6LCD55So44CCCiAqLwpleHBvcnQgZnVuY3Rpb24gcm9vbURpc3BsYXlOYW1lKHJvb206IE1lbW9yeVJvb20sIHVzZXJOYW1lPzogc3RyaW5nKTogc3RyaW5nIHsKICBpZiAocm9vbSA9PT0gJ3VzZXJfcm9vbScgJiYgdXNlck5hbWUpIHJldHVybiBgJHt1c2VyTmFtZX3nmoTmiL9gOwogIHJldHVybiBST09NX01FVEFbcm9vbV0ubmFtZTsKfQoKLy8g4pSA4pSA4pSAIOm7mOiupOWimeWjgS/lnLDmnb/popzoibIg4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSACgpleHBvcnQgY29uc3QgREVGQVVMVF9ST09NX0NPTE9SUzogUmVjb3JkPE1lbW9yeVJvb20sIHsgd2FsbDogc3RyaW5nOyBmbG9vcjogc3RyaW5nIH0+ID0gewogIGxpdmluZ19yb29tOiB7IHdhbGw6ICcjZmVmM2M3JywgZmxvb3I6ICcjZDZiODhhJyB9LAogIGJlZHJvb206ICAgICB7IHdhbGw6ICcjZWRlOWZlJywgZmxvb3I6ICcjYzRiNWEwJyB9LAogIHN0dWR5OiAgICAgICB7IHdhbGw6ICcjZGJlYWZlJywgZmxvb3I6ICcjOGI3MzU1JyB9LAogIGF0dGljOiAgICAgICB7IHdhbGw6ICcjNGI1NTYzJywgZmxvb3I6ICcjMzc0MTUxJyB9LAogIHNlbGZfcm9vbTogICB7IHdhbGw6ICcjZmNlN2YzJywgZmxvb3I6ICcjZDRhOGMwJyB9LAogIHVzZXJfcm9vbTogICB7IHdhbGw6ICcjZDFmYWU1JywgZmxvb3I6ICcjYThjNGIwJyB9LAogIHdpbmRvd3NpbGw6ICB7IHdhbGw6ICcjY2ZmYWZlJywgZmxvb3I6ICcjOTJhODljJyB9LAp9OwoKLy8g4pSA4pSA4pSAIOaJgOacieaIv+mXtCBJRCDliJfooajvvIjkv53mjIHmuLLmn5Ppobrluo/vvInilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIAKCmV4cG9ydCBjb25zdCBBTExfUk9PTVM6IE1lbW9yeVJvb21bXSA9IFsKICAnbGl2aW5nX3Jvb20nLCAnYmVkcm9vbScsICdzdHVkeScsICdhdHRpYycsICdzZWxmX3Jvb20nLCAndXNlcl9yb29tJywgJ3dpbmRvd3NpbGwnLApdOwoKLy8g4pSA4pSA4pSAIOaIv+mXtOWwuuWvuO+8iOagvOWtkOaVsO+8jOS/r+eesOWbvivnvJbovpHlmajlhbHnlKjvvInilIDilIDilIDilIDilIDilIDilIDilIDilIAKCmV4cG9ydCBjb25zdCBST09NX1NJWkVTOiBSZWNvcmQ8TWVtb3J5Um9vbSwgeyB3OiBudW1iZXI7IGg6IG51bWJlciB9PiA9IHsKICBhdHRpYzogICAgICAgeyB3OiA0LCBoOiA0IH0sCiAgYmVkcm9vbTogICAgIHsgdzogNSwgaDogNSB9LAogIHN0dWR5OiAgICAgICB7IHc6IDUsIGg6IDUgfSwKICBsaXZpbmdfcm9vbTogeyB3OiAxMCwgaDogNiB9LAogIHNlbGZfcm9vbTogICB7IHc6IDUsIGg6IDQgfSwKICB1c2VyX3Jvb206ICAgeyB3OiA1LCBoOiA0IH0sCiAgd2luZG93c2lsbDogIHsgdzogMTAsIGg6IDMgfSwKfTsK
+/**
+ * Pixel Home — 7个房间的固定槽位定义
+ *
+ * 每个房间5个家具槽位，映射到记忆宫殿的认知功能。
+ * 槽位数量和分类固定，但位置可由用户/角色调整。
+ */
+
+import type { RoomSlotDef } from './types';
+import type { MemoryRoom } from '../../utils/memoryPalace/types';
+
+export const ROOM_SLOTS: Record<MemoryRoom, RoomSlotDef[]> = {
+  // ─── 客厅 → hippocampus，日常闲聊 ─────────────────
+  living_room: [
+    { id: 'sofa',         name: '沙发',   category: '近期话题',   required: true,  defaultX: 25, defaultY: 60, defaultScale: 1.4 },
+    { id: 'tv',           name: '电视',   category: '共享体验',   required: false, defaultX: 75, defaultY: 35, defaultScale: 1.2 },
+    { id: 'coffee_table', name: '茶几',   category: '碎片记忆',   required: false, defaultX: 40, defaultY: 65, defaultScale: 1.0 },
+    { id: 'rug',          name: '地毯',   category: '氛围基调',   required: false, defaultX: 50, defaultY: 75, defaultScale: 1.6 },
+    { id: 'clock',        name: '挂钟',   category: '时间感知',   required: false, defaultX: 85, defaultY: 25, defaultScale: 0.8 },
+  ],
+
+  // ─── 卧室 → neocortex，亲密情感 ───────────────────
+  bedroom: [
+    { id: 'bed',        name: '床',     category: '核心记忆容器', required: true,  defaultX: 60, defaultY: 55, defaultScale: 1.8 },
+    { id: 'nightstand', name: '床头柜', category: '重要事件',     required: false, defaultX: 85, defaultY: 55, defaultScale: 0.9 },
+    { id: 'lamp',       name: '台灯',   category: '情绪强度',     required: false, defaultX: 88, defaultY: 45, defaultScale: 0.7 },
+    { id: 'curtain',    name: '窗帘',   category: '隐私层',       required: false, defaultX: 15, defaultY: 25, defaultScale: 1.5 },
+    { id: 'frame',      name: '相框',   category: '关键关系片段', required: false, defaultX: 35, defaultY: 25, defaultScale: 0.8 },
+  ],
+
+  // ─── 书房 → prefrontal cortex，工作/技能 ──────────
+  study: [
+    { id: 'desk',       name: '书桌',   category: '当前任务',   required: true,  defaultX: 50, defaultY: 55, defaultScale: 1.4 },
+    { id: 'bookshelf',  name: '书架',   category: '知识积累',   required: false, defaultX: 15, defaultY: 35, defaultScale: 1.6 },
+    { id: 'whiteboard', name: '白板',   category: '计划推理',   required: false, defaultX: 80, defaultY: 30, defaultScale: 1.3 },
+    { id: 'pen_holder', name: '笔筒',   category: '工具技能',   required: false, defaultX: 55, defaultY: 48, defaultScale: 0.6 },
+    { id: 'globe',      name: '地球仪', category: '兴趣探索',   required: false, defaultX: 85, defaultY: 60, defaultScale: 0.9 },
+  ],
+
+  // ─── 阁楼 → amygdala，未消化创伤 ─────────────────
+  attic: [
+    { id: 'chest',     name: '旧箱子',   category: '封存记忆',   required: true,  defaultX: 30, defaultY: 60, defaultScale: 1.3 },
+    { id: 'cobweb',    name: '蛛网',     category: '遗忘程度',   required: false, defaultX: 15, defaultY: 20, defaultScale: 1.0 },
+    { id: 'mirror',    name: '落灰镜子', category: '自我审视',   required: false, defaultX: 75, defaultY: 35, defaultScale: 1.2 },
+    { id: 'window',    name: '天窗',     category: '希望缝隙',   required: false, defaultX: 50, defaultY: 15, defaultScale: 1.4 },
+    { id: 'music_box', name: '八音盒',   category: '触发片段',   required: false, defaultX: 65, defaultY: 65, defaultScale: 0.7 },
+  ],
+
+  // ─── 个人房间 → default mode network，身份 ────────
+  self_room: [
+    { id: 'vanity',   name: '梳妆台', category: '自我形象',   required: true,  defaultX: 25, defaultY: 50, defaultScale: 1.3 },
+    { id: 'diary',    name: '日记本', category: '内心独白',   required: false, defaultX: 50, defaultY: 60, defaultScale: 0.8 },
+    { id: 'trophy',   name: '奖杯架', category: '成就感',     required: false, defaultX: 80, defaultY: 40, defaultScale: 1.1 },
+    { id: 'poster',   name: '海报',   category: '价值观',     required: false, defaultX: 15, defaultY: 25, defaultScale: 1.4 },
+    { id: 'pet_bed',  name: '宠物窝', category: '情感寄托',   required: false, defaultX: 70, defaultY: 70, defaultScale: 0.9 },
+  ],
+
+  // ─── 用户房 → TPJ，用户信息 ───────────────────────
+  user_room: [
+    { id: 'guest_bed',  name: '客床',   category: '用户印象',   required: true,  defaultX: 55, defaultY: 55, defaultScale: 1.6 },
+    { id: 'photo_wall', name: '照片墙', category: '共同回忆',   required: false, defaultX: 20, defaultY: 25, defaultScale: 1.5 },
+    { id: 'gift_shelf', name: '礼物架', category: '互赠物品',   required: false, defaultX: 80, defaultY: 35, defaultScale: 1.2 },
+    { id: 'letter_box', name: '信箱',   category: '重要对话',   required: false, defaultX: 85, defaultY: 60, defaultScale: 0.8 },
+    { id: 'welcome_mat',name: '门垫',   category: '关系温度',   required: false, defaultX: 50, defaultY: 85, defaultScale: 1.0 },
+  ],
+
+  // ─── 窗台/露台 → dopamine，期盼 ──────────────────
+  windowsill: [
+    { id: 'flower_pot', name: '花盆',   category: '成长中的期盼', required: true,  defaultX: 30, defaultY: 55, defaultScale: 0.9 },
+    { id: 'wind_chime', name: '风铃',   category: '实现的愿望',   required: false, defaultX: 50, defaultY: 20, defaultScale: 0.8 },
+    { id: 'telescope',  name: '望远镜', category: '远期目标',     required: false, defaultX: 75, defaultY: 45, defaultScale: 1.2 },
+    { id: 'seed_box',   name: '种子盒', category: '新萌芽',       required: false, defaultX: 20, defaultY: 65, defaultScale: 0.7 },
+    { id: 'lantern',    name: '灯笼',   category: '锚定心愿',     required: false, defaultX: 85, defaultY: 30, defaultScale: 0.9 },
+  ],
+};
+
+// ─── 房间元信息 ─────────────────────────────────────
+
+export const ROOM_META: Record<MemoryRoom, { name: string; emoji: string; color: string; description: string }> = {
+  living_room: { name: '客厅',     emoji: '🛋️', color: '#f59e0b', description: '日常闲聊与近期记忆' },
+  bedroom:     { name: '卧室',     emoji: '🛏️', color: '#8b5cf6', description: '亲密情感与核心记忆' },
+  study:       { name: '书房',     emoji: '📚', color: '#3b82f6', description: '知识积累与技能成长' },
+  attic:       { name: '阁楼',     emoji: '🕸️', color: '#6b7280', description: '未消化的困惑与创伤' },
+  self_room:   { name: '个人房间', emoji: '🪞', color: '#ec4899', description: '自我认同与身份探索' },
+  user_room:   { name: '用户房',   emoji: '🎁', color: '#10b981', description: '关于你的一切记忆' },
+  windowsill:  { name: '露台',     emoji: '🌱', color: '#06b6d4', description: '期盼、愿望与未来' },
+};
+
+/**
+ * 房间显示名。user_room 在有用户名时显示为「{用户名}的房」，其余房间返回静态名。
+ * 单一来源，供地图 / 编辑器 / 潜行模式 / dive prompt 统一调用。
+ */
+export function roomDisplayName(room: MemoryRoom, userName?: string): string {
+  if (room === 'user_room' && userName) return `${userName}的房`;
+  return ROOM_META[room].name;
+}
+
+// ─── 默认墙壁/地板颜色 ─────────────────────────────
+
+export const DEFAULT_ROOM_COLORS: Record<MemoryRoom, { wall: string; floor: string }> = {
+  living_room: { wall: '#fef3c7', floor: '#d6b88a' },
+  bedroom:     { wall: '#ede9fe', floor: '#c4b5a0' },
+  study:       { wall: '#dbeafe', floor: '#8b7355' },
+  attic:       { wall: '#4b5563', floor: '#374151' },
+  self_room:   { wall: '#fce7f3', floor: '#d4a8c0' },
+  user_room:   { wall: '#d1fae5', floor: '#a8c4b0' },
+  windowsill:  { wall: '#cffafe', floor: '#92a89c' },
+};
+
+// ─── 所有房间 ID 列表（保持渲染顺序）─────────────
+
+export const ALL_ROOMS: MemoryRoom[] = [
+  'living_room', 'bedroom', 'study', 'attic', 'self_room', 'user_room', 'windowsill',
+];
+
+// ─── 房间尺寸（格子数，俯瞰图+编辑器共用）─────────
+
+export const ROOM_SIZES: Record<MemoryRoom, { w: number; h: number }> = {
+  attic:       { w: 4, h: 4 },
+  bedroom:     { w: 5, h: 5 },
+  study:       { w: 5, h: 5 },
+  living_room: { w: 10, h: 6 },
+  self_room:   { w: 5, h: 4 },
+  user_room:   { w: 5, h: 4 },
+  windowsill:  { w: 10, h: 3 },
+};

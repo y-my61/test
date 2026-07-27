@@ -1,1 +1,150 @@
-aW1wb3J0IHsgZGVzY3JpYmUsIGl0LCBleHBlY3QsIHZpIH0gZnJvbSAndml0ZXN0JzsKaW1wb3J0IHsgQWN0aXZlTXNnU3RvcmUgfSBmcm9tICcuL2FjdGl2ZU1zZ1N0b3JlJzsKaW1wb3J0IHR5cGUgeyBJbnN0YW50UHVzaFJlYXNvbmluZ0J1ZmZlckVudHJ5IH0gZnJvbSAnLi4vdHlwZXMnOwoKLy8gZmFrZS1pbmRleGVkZGIg5bey6YCa6L+HIHRlc3Qtc2V0dXAudHMg6Ieq5Yqo5rOo5YWlLiBhY3RpdmVNc2dTdG9yZS5vcGVuREIg5q+P5qyhCi8vIOiwg+mDveaWsOW8gOi/nuaOpeS4lOS4jeWFsywg6Leo5rWL6K+VIGRlbGV0ZURhdGFiYXNlIOS8muiiqyBibG9jayDigJQg5pS555So5q+P5LiqIGNhc2Ug5ZSv5LiACi8vIHNlc3Npb25JZCDpmpTnprsgKOeUn+S6p+S7o+eggeacrOadpeWwseaMiSBzZXNzaW9uSWQga2V5aW5nIOeahCwg5peg5Ymv5L2c55SoKS4KCmxldCBfc2lkID0gMDsKY29uc3QgdW5pcXVlU2lkID0gKGxhYmVsOiBzdHJpbmcpID0+IGAke2xhYmVsfS0keysrX3NpZH0tJHtEYXRlLm5vdygpfWA7CgovLyDnm7TmjqUgcHV0IOiAgeagvOW8jyByZWNvcmQgKOe7lei/hyBBY3RpdmVNc2dTdG9yZS5zYXZlUmVhc29uaW5nIOi3r+W+hCwKLy8g5qih5oufIFNXIOKJpDEuNS4yIOWGmei/h+eahOaJgeW5s+W9ouaAgSkuCmFzeW5jIGZ1bmN0aW9uIHJhd1B1dFJlYXNvbmluZyhyZWNvcmQ6IEluc3RhbnRQdXNoUmVhc29uaW5nQnVmZmVyRW50cnkpOiBQcm9taXNlPHZvaWQ+IHsKICBjb25zdCBkYiA9IGF3YWl0IG5ldyBQcm9taXNlPElEQkRhdGFiYXNlPigocmVzb2x2ZSwgcmVqZWN0KSA9PiB7CiAgICBjb25zdCByID0gaW5kZXhlZERCLm9wZW4oJ0FjdGl2ZU1zZycsIDIpOwogICAgci5vbnVwZ3JhZGVuZWVkZWQgPSAoKSA9PiB7CiAgICAgIGNvbnN0IGQgPSByLnJlc3VsdDsKICAgICAgaWYgKCFkLm9iamVjdFN0b3JlTmFtZXMuY29udGFpbnMoJ3JlYXNvbmluZ19idWZmZXInKSkgewogICAgICAgIGQuY3JlYXRlT2JqZWN0U3RvcmUoJ3JlYXNvbmluZ19idWZmZXInLCB7IGtleVBhdGg6ICdzZXNzaW9uSWQnIH0pOwogICAgICB9CiAgICAgIGlmICghZC5vYmplY3RTdG9yZU5hbWVzLmNvbnRhaW5zKCdrdicpKSBkLmNyZWF0ZU9iamVjdFN0b3JlKCdrdicsIHsga2V5UGF0aDogJ2lkJyB9KTsKICAgICAgaWYgKCFkLm9iamVjdFN0b3JlTmFtZXMuY29udGFpbnMoJ2luYm94JykpIGQuY3JlYXRlT2JqZWN0U3RvcmUoJ2luYm94JywgeyBrZXlQYXRoOiAnbWVzc2FnZUlkJyB9KTsKICAgICAgaWYgKCFkLm9iamVjdFN0b3JlTmFtZXMuY29udGFpbnMoJ291dGJvdW5kX3Nlc3Npb25zJykpIGQuY3JlYXRlT2JqZWN0U3RvcmUoJ291dGJvdW5kX3Nlc3Npb25zJywgeyBrZXlQYXRoOiAnc2Vzc2lvbklkJyB9KTsKICAgICAgaWYgKCFkLm9iamVjdFN0b3JlTmFtZXMuY29udGFpbnMoJ3BlbmRpbmdfdG9vbF9jYWxscycpKSBkLmNyZWF0ZU9iamVjdFN0b3JlKCdwZW5kaW5nX3Rvb2xfY2FsbHMnLCB7IGtleVBhdGg6ICdzZXNzaW9uSWQnIH0pOwogICAgfTsKICAgIHIub25zdWNjZXNzID0gKCkgPT4gcmVzb2x2ZShyLnJlc3VsdCk7CiAgICByLm9uZXJyb3IgPSAoKSA9PiByZWplY3Qoci5lcnJvcik7CiAgfSk7CiAgYXdhaXQgbmV3IFByb21pc2U8dm9pZD4oKHJlc29sdmUsIHJlamVjdCkgPT4gewogICAgY29uc3QgdHggPSBkYi50cmFuc2FjdGlvbigncmVhc29uaW5nX2J1ZmZlcicsICdyZWFkd3JpdGUnKTsKICAgIHR4Lm9iamVjdFN0b3JlKCdyZWFzb25pbmdfYnVmZmVyJykucHV0KHJlY29yZCk7CiAgICB0eC5vbmNvbXBsZXRlID0gKCkgPT4gcmVzb2x2ZSgpOwogICAgdHgub25lcnJvciA9ICgpID0+IHJlamVjdCh0eC5lcnJvcik7CiAgfSk7CiAgZGIuY2xvc2UoKTsKfQoKZGVzY3JpYmUoJ0FjdGl2ZU1zZ1N0b3JlIHJlYXNvbmluZyBjaHVua2luZycsICgpID0+IHsKICBpdCgnRzEgc2F2ZVJlYXNvbmluZyArIGNsYWltUmVhc29uaW5nIOWNlSBjaHVuaycsIGFzeW5jICgpID0+IHsKICAgIGNvbnN0IHNpZCA9IHVuaXF1ZVNpZCgnZzEnKTsKICAgIGF3YWl0IEFjdGl2ZU1zZ1N0b3JlLnNhdmVSZWFzb25pbmcoewogICAgICBzZXNzaW9uSWQ6IHNpZCwKICAgICAgY2hhcklkOiAnYzEnLAogICAgICBjaHVua3M6IFt7IG1lc3NhZ2VJbmRleDogMSwgY2h1bmtJbmRleDogMSwgcmVhc29uaW5nQ29udGVudDogJ0EnIH1dLAogICAgICByZWNlaXZlZEF0OiBEYXRlLm5vdygpLAogICAgfSk7CiAgICBjb25zdCByID0gYXdhaXQgQWN0aXZlTXNnU3RvcmUuY2xhaW1SZWFzb25pbmcoc2lkKTsKICAgIGV4cGVjdChyKS5ub3QudG9CZU51bGwoKTsKICAgIGV4cGVjdChyPy5yZWFzb25pbmdDb250ZW50KS50b0JlKCdBJyk7CiAgfSk7CgogIGl0KCdHNSBjbGFpbVJlYXNvbmluZyDlpJogY2h1bmsg5oyJIChtZXNzYWdlSW5kZXgsIGNodW5rSW5kZXgpIOaOkuW6j+aLvOaOpScsIGFzeW5jICgpID0+IHsKICAgIGNvbnN0IHNpZCA9IHVuaXF1ZVNpZCgnZzUnKTsKICAgIGF3YWl0IEFjdGl2ZU1zZ1N0b3JlLnNhdmVSZWFzb25pbmcoewogICAgICBzZXNzaW9uSWQ6IHNpZCwKICAgICAgY2hhcklkOiAnYzEnLAogICAgICBjaHVua3M6IFsKICAgICAgICB7IG1lc3NhZ2VJbmRleDogMiwgY2h1bmtJbmRleDogMSwgcmVhc29uaW5nQ29udGVudDogJ1gnIH0sCiAgICAgICAgeyBtZXNzYWdlSW5kZXg6IDEsIGNodW5rSW5kZXg6IDIsIHJlYXNvbmluZ0NvbnRlbnQ6ICdCJyB9LAogICAgICAgIHsgbWVzc2FnZUluZGV4OiAxLCBjaHVua0luZGV4OiAxLCByZWFzb25pbmdDb250ZW50OiAnQScgfSwKICAgICAgXSwKICAgICAgcmVjZWl2ZWRBdDogRGF0ZS5ub3coKSwKICAgIH0pOwogICAgY29uc3QgciA9IGF3YWl0IEFjdGl2ZU1zZ1N0b3JlLmNsYWltUmVhc29uaW5nKHNpZCk7CiAgICBleHBlY3Qocj8ucmVhc29uaW5nQ29udGVudCkudG9CZSgnQUJYJyk7IC8vIHNvcnQ6ICgxLDEpPUEsICgxLDIpPUIsICgyLDEpPVgKICB9KTsKCiAgaXQoJ0c2IGNsYWltIOWQjiBzdG9yZSDooqvliKAgKOWQjue7rSBjbGFpbSDov5QgbnVsbCknLCBhc3luYyAoKSA9PiB7CiAgICBjb25zdCBzaWQgPSB1bmlxdWVTaWQoJ2c2Jyk7CiAgICBhd2FpdCBBY3RpdmVNc2dTdG9yZS5zYXZlUmVhc29uaW5nKHsKICAgICAgc2Vzc2lvbklkOiBzaWQsCiAgICAgIGNoYXJJZDogJ2MxJywKICAgICAgY2h1bmtzOiBbeyBtZXNzYWdlSW5kZXg6IDEsIGNodW5rSW5kZXg6IDEsIHJlYXNvbmluZ0NvbnRlbnQ6ICdBJyB9XSwKICAgICAgcmVjZWl2ZWRBdDogRGF0ZS5ub3coKSwKICAgIH0pOwogICAgYXdhaXQgQWN0aXZlTXNnU3RvcmUuY2xhaW1SZWFzb25pbmcoc2lkKTsKICAgIGNvbnN0IHNlY29uZCA9IGF3YWl0IEFjdGl2ZU1zZ1N0b3JlLmNsYWltUmVhc29uaW5nKHNpZCk7CiAgICBleHBlY3Qoc2Vjb25kKS50b0JlTnVsbCgpOwogIH0pOwoKICBpdCgnRzcgbGVnYWN5IOaJgeW5syByb3cg5YW85a65ICjmsqEgY2h1bmtzIOWtl+autSknLCBhc3luYyAoKSA9PiB7CiAgICBjb25zdCBzaWQgPSB1bmlxdWVTaWQoJ2c3Jyk7CiAgICBhd2FpdCByYXdQdXRSZWFzb25pbmcoewogICAgICBzZXNzaW9uSWQ6IHNpZCwKICAgICAgY2hhcklkOiAnYzEnLAogICAgICByZWFzb25pbmdDb250ZW50OiAnT0xEX0NPTlRFTlQnLAogICAgICByZWNlaXZlZEF0OiBEYXRlLm5vdygpLAogICAgfSBhcyBJbnN0YW50UHVzaFJlYXNvbmluZ0J1ZmZlckVudHJ5KTsKCiAgICBjb25zdCByID0gYXdhaXQgQWN0aXZlTXNnU3RvcmUuY2xhaW1SZWFzb25pbmcoc2lkKTsKICAgIGV4cGVjdChyPy5yZWFzb25pbmdDb250ZW50KS50b0JlKCdPTERfQ09OVEVOVCcpOwogIH0pOwoKICBpdCgnY2xhaW0g5LiN5a2Y5Zyo55qEIHNlc3Npb25JZCDov5QgbnVsbCcsIGFzeW5jICgpID0+IHsKICAgIGNvbnN0IHNpZCA9IHVuaXF1ZVNpZCgnbWlzc2luZycpOwogICAgZXhwZWN0KGF3YWl0IEFjdGl2ZU1zZ1N0b3JlLmNsYWltUmVhc29uaW5nKHNpZCkpLnRvQmVOdWxsKCk7CiAgfSk7CgogIGl0KCdjbGVhclJlYXNvbmluZyDliKDpmaQgYnVmZmVyIGVudHJ5JywgYXN5bmMgKCkgPT4gewogICAgY29uc3Qgc2lkID0gdW5pcXVlU2lkKCdjbGVhcicpOwogICAgYXdhaXQgQWN0aXZlTXNnU3RvcmUuc2F2ZVJlYXNvbmluZyh7CiAgICAgIHNlc3Npb25JZDogc2lkLAogICAgICBjaGFySWQ6ICdjMScsCiAgICAgIGNodW5rczogW3sgbWVzc2FnZUluZGV4OiAxLCBjaHVua0luZGV4OiAxLCByZWFzb25pbmdDb250ZW50OiAnQScgfV0sCiAgICAgIHJlY2VpdmVkQXQ6IERhdGUubm93KCksCiAgICB9KTsKICAgIGF3YWl0IEFjdGl2ZU1zZ1N0b3JlLmNsZWFyUmVhc29uaW5nKHNpZCk7CiAgICBleHBlY3QoYXdhaXQgQWN0aXZlTXNnU3RvcmUuY2xhaW1SZWFzb25pbmcoc2lkKSkudG9CZU51bGwoKTsKICB9KTsKCiAgaXQoJ2NsZWFyUmVhc29uaW5nIOepuiBzZXNzaW9uSWQg6Z2Z6buYIG5vLW9wJywgYXN5bmMgKCkgPT4gewogICAgYXdhaXQgZXhwZWN0KEFjdGl2ZU1zZ1N0b3JlLmNsZWFyUmVhc29uaW5nKCcnKSkucmVzb2x2ZXMudG9CZVVuZGVmaW5lZCgpOwogIH0pOwoKICBpdCgn6L+e5o6l5aSN55SoOiDljZXkvovlu7rnq4vlkI7lkI7nu63mk43kvZzkuI3lho3mlrDlvIAgaW5kZXhlZERCIOi/nuaOpScsIGFzeW5jICgpID0+IHsKICAgIC8vIOWFiOi3keS4gOasoeehruS/neWNleS+i+W3suW7uueriyAo5YmN6Z2i55qE55So5L6L5aSa5Y2K5bey57uP5bu656uLLCDov5nph4zluYLnrYkp44CCCiAgICBhd2FpdCBBY3RpdmVNc2dTdG9yZS5nZXRHbG9iYWxDb25maWcoKTsKICAgIGNvbnN0IG9wZW5TcHkgPSB2aS5zcHlPbihpbmRleGVkREIsICdvcGVuJyk7CiAgICB0cnkgewogICAgICBhd2FpdCBBY3RpdmVNc2dTdG9yZS5nZXRHbG9iYWxDb25maWcoKTsKICAgICAgYXdhaXQgQWN0aXZlTXNnU3RvcmUubGlzdEluYm94TWVzc2FnZXMoKTsKICAgICAgYXdhaXQgQWN0aXZlTXNnU3RvcmUuY29uc3VtZUluYm94TWVzc2FnZXMoKTsKICAgICAgLy8g5L+u5aSN5YmNOiAzIOS4quaTjeS9nCA9IDMg5qyhIG9wZW7jgILkv67lpI3lkI46IOWkjeeUqOWNleS+iywgMCDmrKHjgIIKICAgICAgZXhwZWN0KG9wZW5TcHkpLm5vdC50b0hhdmVCZWVuQ2FsbGVkKCk7CiAgICB9IGZpbmFsbHkgewogICAgICBvcGVuU3B5Lm1vY2tSZXN0b3JlKCk7CiAgICB9CiAgfSk7CgogIGl0KCflpJogc2Vzc2lvbklkIOS6kuebuOmalOemuycsIGFzeW5jICgpID0+IHsKICAgIGNvbnN0IGEgPSB1bmlxdWVTaWQoJ2lzby1hJyk7CiAgICBjb25zdCBiID0gdW5pcXVlU2lkKCdpc28tYicpOwogICAgYXdhaXQgQWN0aXZlTXNnU3RvcmUuc2F2ZVJlYXNvbmluZyh7CiAgICAgIHNlc3Npb25JZDogYSwKICAgICAgY2hhcklkOiAnYzEnLAogICAgICBjaHVua3M6IFt7IG1lc3NhZ2VJbmRleDogMSwgY2h1bmtJbmRleDogMSwgcmVhc29uaW5nQ29udGVudDogJ0EnIH1dLAogICAgICByZWNlaXZlZEF0OiBEYXRlLm5vdygpLAogICAgfSk7CiAgICBhd2FpdCBBY3RpdmVNc2dTdG9yZS5zYXZlUmVhc29uaW5nKHsKICAgICAgc2Vzc2lvbklkOiBiLAogICAgICBjaGFySWQ6ICdjMicsCiAgICAgIGNodW5rczogW3sgbWVzc2FnZUluZGV4OiAxLCBjaHVua0luZGV4OiAxLCByZWFzb25pbmdDb250ZW50OiAnQicgfV0sCiAgICAgIHJlY2VpdmVkQXQ6IERhdGUubm93KCksCiAgICB9KTsKICAgIGF3YWl0IEFjdGl2ZU1zZ1N0b3JlLmNsZWFyUmVhc29uaW5nKGEpOwogICAgZXhwZWN0KGF3YWl0IEFjdGl2ZU1zZ1N0b3JlLmNsYWltUmVhc29uaW5nKGEpKS50b0JlTnVsbCgpOwogICAgZXhwZWN0KChhd2FpdCBBY3RpdmVNc2dTdG9yZS5jbGFpbVJlYXNvbmluZyhiKSk/LnJlYXNvbmluZ0NvbnRlbnQpLnRvQmUoJ0InKTsKICB9KTsKfSk7Cg==
+import { describe, it, expect, vi } from 'vitest';
+import { ActiveMsgStore } from './activeMsgStore';
+import type { InstantPushReasoningBufferEntry } from '../types';
+
+// fake-indexeddb 已通过 test-setup.ts 自动注入. activeMsgStore.openDB 每次
+// 调都新开连接且不关, 跨测试 deleteDatabase 会被 block — 改用每个 case 唯一
+// sessionId 隔离 (生产代码本来就按 sessionId keying 的, 无副作用).
+
+let _sid = 0;
+const uniqueSid = (label: string) => `${label}-${++_sid}-${Date.now()}`;
+
+// 直接 put 老格式 record (绕过 ActiveMsgStore.saveReasoning 路径,
+// 模拟 SW ≤1.5.2 写过的扁平形态).
+async function rawPutReasoning(record: InstantPushReasoningBufferEntry): Promise<void> {
+  const db = await new Promise<IDBDatabase>((resolve, reject) => {
+    const r = indexedDB.open('ActiveMsg', 2);
+    r.onupgradeneeded = () => {
+      const d = r.result;
+      if (!d.objectStoreNames.contains('reasoning_buffer')) {
+        d.createObjectStore('reasoning_buffer', { keyPath: 'sessionId' });
+      }
+      if (!d.objectStoreNames.contains('kv')) d.createObjectStore('kv', { keyPath: 'id' });
+      if (!d.objectStoreNames.contains('inbox')) d.createObjectStore('inbox', { keyPath: 'messageId' });
+      if (!d.objectStoreNames.contains('outbound_sessions')) d.createObjectStore('outbound_sessions', { keyPath: 'sessionId' });
+      if (!d.objectStoreNames.contains('pending_tool_calls')) d.createObjectStore('pending_tool_calls', { keyPath: 'sessionId' });
+    };
+    r.onsuccess = () => resolve(r.result);
+    r.onerror = () => reject(r.error);
+  });
+  await new Promise<void>((resolve, reject) => {
+    const tx = db.transaction('reasoning_buffer', 'readwrite');
+    tx.objectStore('reasoning_buffer').put(record);
+    tx.oncomplete = () => resolve();
+    tx.onerror = () => reject(tx.error);
+  });
+  db.close();
+}
+
+describe('ActiveMsgStore reasoning chunking', () => {
+  it('G1 saveReasoning + claimReasoning 单 chunk', async () => {
+    const sid = uniqueSid('g1');
+    await ActiveMsgStore.saveReasoning({
+      sessionId: sid,
+      charId: 'c1',
+      chunks: [{ messageIndex: 1, chunkIndex: 1, reasoningContent: 'A' }],
+      receivedAt: Date.now(),
+    });
+    const r = await ActiveMsgStore.claimReasoning(sid);
+    expect(r).not.toBeNull();
+    expect(r?.reasoningContent).toBe('A');
+  });
+
+  it('G5 claimReasoning 多 chunk 按 (messageIndex, chunkIndex) 排序拼接', async () => {
+    const sid = uniqueSid('g5');
+    await ActiveMsgStore.saveReasoning({
+      sessionId: sid,
+      charId: 'c1',
+      chunks: [
+        { messageIndex: 2, chunkIndex: 1, reasoningContent: 'X' },
+        { messageIndex: 1, chunkIndex: 2, reasoningContent: 'B' },
+        { messageIndex: 1, chunkIndex: 1, reasoningContent: 'A' },
+      ],
+      receivedAt: Date.now(),
+    });
+    const r = await ActiveMsgStore.claimReasoning(sid);
+    expect(r?.reasoningContent).toBe('ABX'); // sort: (1,1)=A, (1,2)=B, (2,1)=X
+  });
+
+  it('G6 claim 后 store 被删 (后续 claim 返 null)', async () => {
+    const sid = uniqueSid('g6');
+    await ActiveMsgStore.saveReasoning({
+      sessionId: sid,
+      charId: 'c1',
+      chunks: [{ messageIndex: 1, chunkIndex: 1, reasoningContent: 'A' }],
+      receivedAt: Date.now(),
+    });
+    await ActiveMsgStore.claimReasoning(sid);
+    const second = await ActiveMsgStore.claimReasoning(sid);
+    expect(second).toBeNull();
+  });
+
+  it('G7 legacy 扁平 row 兼容 (没 chunks 字段)', async () => {
+    const sid = uniqueSid('g7');
+    await rawPutReasoning({
+      sessionId: sid,
+      charId: 'c1',
+      reasoningContent: 'OLD_CONTENT',
+      receivedAt: Date.now(),
+    } as InstantPushReasoningBufferEntry);
+
+    const r = await ActiveMsgStore.claimReasoning(sid);
+    expect(r?.reasoningContent).toBe('OLD_CONTENT');
+  });
+
+  it('claim 不存在的 sessionId 返 null', async () => {
+    const sid = uniqueSid('missing');
+    expect(await ActiveMsgStore.claimReasoning(sid)).toBeNull();
+  });
+
+  it('clearReasoning 删除 buffer entry', async () => {
+    const sid = uniqueSid('clear');
+    await ActiveMsgStore.saveReasoning({
+      sessionId: sid,
+      charId: 'c1',
+      chunks: [{ messageIndex: 1, chunkIndex: 1, reasoningContent: 'A' }],
+      receivedAt: Date.now(),
+    });
+    await ActiveMsgStore.clearReasoning(sid);
+    expect(await ActiveMsgStore.claimReasoning(sid)).toBeNull();
+  });
+
+  it('clearReasoning 空 sessionId 静默 no-op', async () => {
+    await expect(ActiveMsgStore.clearReasoning('')).resolves.toBeUndefined();
+  });
+
+  it('连接复用: 单例建立后后续操作不再新开 indexedDB 连接', async () => {
+    // 先跑一次确保单例已建立 (前面的用例多半已经建立, 这里幂等)。
+    await ActiveMsgStore.getGlobalConfig();
+    const openSpy = vi.spyOn(indexedDB, 'open');
+    try {
+      await ActiveMsgStore.getGlobalConfig();
+      await ActiveMsgStore.listInboxMessages();
+      await ActiveMsgStore.consumeInboxMessages();
+      // 修复前: 3 个操作 = 3 次 open。修复后: 复用单例, 0 次。
+      expect(openSpy).not.toHaveBeenCalled();
+    } finally {
+      openSpy.mockRestore();
+    }
+  });
+
+  it('多 sessionId 互相隔离', async () => {
+    const a = uniqueSid('iso-a');
+    const b = uniqueSid('iso-b');
+    await ActiveMsgStore.saveReasoning({
+      sessionId: a,
+      charId: 'c1',
+      chunks: [{ messageIndex: 1, chunkIndex: 1, reasoningContent: 'A' }],
+      receivedAt: Date.now(),
+    });
+    await ActiveMsgStore.saveReasoning({
+      sessionId: b,
+      charId: 'c2',
+      chunks: [{ messageIndex: 1, chunkIndex: 1, reasoningContent: 'B' }],
+      receivedAt: Date.now(),
+    });
+    await ActiveMsgStore.clearReasoning(a);
+    expect(await ActiveMsgStore.claimReasoning(a)).toBeNull();
+    expect((await ActiveMsgStore.claimReasoning(b))?.reasoningContent).toBe('B');
+  });
+});

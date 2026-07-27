@@ -1,1 +1,70 @@
-LyoqCiAqIOWbnuW9kua1i+ivle+8mumxvOWjsCAvIOivremAn+ebuOWFs+iuvue9rue7j+OAjOWvvOWHuiDihpIg5a+85YWl44CN5piv5ZCm5a6M5pW06L+Y5Y6f44CCCiAqIOimhuebluS4ieS4quaWsOWtl+aute+8mgogKiAgLSBhcGlDb25maWcudHRzUHJvdmlkZXIgLyBmaXNoQXVkaW9BcGlLZXkgLyBmaXNoQXVkaW9Nb2RlbO+8iOWFqOWxgO+8iQogKiAgLSB2b2ljZVByb2ZpbGUuZmlzaFJlZmVyZW5jZUlkIC8gZmlzaE1vZGVsIC8gc3BlZWTvvIjmr4/op5LoibLvvIkKICoKICog5oCd6Lev77yaYXBpQ29uZmlnIOi1sOeahOaYr+OAjOaVtOWvueixoeWvvOWHuiArIOWQiOW5tuWvvOWFpe+8iHVwZGF0ZUFwaUNvbmZpZ++8ieOAje+8jOinkuiJsui1sOeahOaYrwogKiDjgIzmlbQgc3RvcmUg5a+85Ye6ICsgREIuaW1wb3J0RnVsbERhdGEg6L+Y5Y6f44CN44CC6L+Z6YeM5YiG5Yir55So55yf5a6eIERCIOW+gOi/lCArIOWQiOW5tumAu+i+keaWreiogOOAggogKi8KaW1wb3J0IHsgZGVzY3JpYmUsIGl0LCBleHBlY3QgfSBmcm9tICd2aXRlc3QnOwppbXBvcnQgeyBEQiB9IGZyb20gJy4vZGInOwppbXBvcnQgdHlwZSB7IEFQSUNvbmZpZyB9IGZyb20gJy4uL3R5cGVzJzsKCmRlc2NyaWJlKCfpsbzlo7AgLyDor63pgJ/orr7nva4g5a+85Ye64oaS5a+85YWlIHJvdW5kLXRyaXAnLCAoKSA9PiB7CiAgaXQoJ+inkuiJsiB2b2ljZVByb2ZpbGUg55qEIGZpc2hSZWZlcmVuY2VJZCAvIGZpc2hNb2RlbCAvIHNwZWVkIOe7j+ecn+WuniBEQiDlr7zlhaXov5jljp8nLCBhc3luYyAoKSA9PiB7CiAgICBjb25zdCBjaGFyOiBhbnkgPSB7CiAgICAgIGlkOiAndGVzdC1maXNoLWNoYXInLAogICAgICBuYW1lOiAn5rWL6K+V6KeS6ImyJywKICAgICAgdm9pY2VQcm9maWxlOiB7CiAgICAgICAgcHJvdmlkZXI6ICdtaW5pbWF4JywKICAgICAgICB2b2ljZUlkOiAnbW0tdm9pY2UtMScsICAgICAgICAgIC8vIOaXp+Wtl+aute+8jOehruiupOS4jeiiq+W9seWTjQogICAgICAgIGZpc2hSZWZlcmVuY2VJZDogJzdmOTJmOGFmYjhlYzQzYmY4MTQyOWNjMWM5MTk5Y2IxJywKICAgICAgICBmaXNoTW9kZWw6ICdzMi1wcm8nLAogICAgICAgIHNwZWVkOiAwLjg1LAogICAgICB9LAogICAgfTsKCiAgICAvLyDmqKHmi5/lr7zlhaXvvJpEQi5pbXBvcnRGdWxsRGF0YSDkvJrmuIXnqbrlubblhpnlhaUgY2hhcmFjdGVycyBzdG9yZe+8iOS4jiBPU0NvbnRleHQg5a+85YWl5ZCM6Lev5b6E77yJCiAgICBhd2FpdCBEQi5pbXBvcnRGdWxsRGF0YSh7IGNoYXJhY3RlcnM6IFtjaGFyXSB9IGFzIGFueSk7CgogICAgY29uc3QgYWxsID0gYXdhaXQgREIuZ2V0QWxsQ2hhcmFjdGVycygpOwogICAgY29uc3QgZ290ID0gYWxsLmZpbmQoKGMpID0+IGMuaWQgPT09ICd0ZXN0LWZpc2gtY2hhcicpOwogICAgZXhwZWN0KGdvdCkudG9CZVRydXRoeSgpOwogICAgZXhwZWN0KGdvdCEudm9pY2VQcm9maWxlPy5maXNoUmVmZXJlbmNlSWQpLnRvQmUoJzdmOTJmOGFmYjhlYzQzYmY4MTQyOWNjMWM5MTk5Y2IxJyk7CiAgICBleHBlY3QoZ290IS52b2ljZVByb2ZpbGU/LmZpc2hNb2RlbCkudG9CZSgnczItcHJvJyk7CiAgICBleHBlY3QoZ290IS52b2ljZVByb2ZpbGU/LnNwZWVkKS50b0JlKDAuODUpOwogICAgZXhwZWN0KGdvdCEudm9pY2VQcm9maWxlPy52b2ljZUlkKS50b0JlKCdtbS12b2ljZS0xJyk7IC8vIOaXp+Wtl+auteS4gOW5tuS/neeVmQogIH0pOwoKICBpdCgnYXBpQ29uZmlnIOeahCB0dHNQcm92aWRlciAvIGZpc2hBdWRpb0FwaUtleSAvIGZpc2hBdWRpb01vZGVsIOe7jyDlr7zlh7rihpLluo/liJfljJbihpLlkIjlubblr7zlhaUg6L+Y5Y6fJywgKCkgPT4gewogICAgLy8g5a+85Ye677yaT1NDb250ZXh0IOaKiuaVtOS4qiBhcGlDb25maWcg5a+56LGh5aGe6L+bIGJhY2t1cERhdGHvvIjml6DlrZfmrrXnmb3lkI3ljZXvvIkKICAgIGNvbnN0IGV4cG9ydGVkOiBBUElDb25maWcgPSB7CiAgICAgIGJhc2VVcmw6ICdodHRwczovL2FwaS5leGFtcGxlLmNvbScsCiAgICAgIGFwaUtleTogJ2xsbS1rZXknLAogICAgICBtb2RlbDogJ2dwdC00by1taW5pJywKICAgICAgbWluaW1heEFwaUtleTogJ21tLWtleScsCiAgICAgIHR0c1Byb3ZpZGVyOiAnZmlzaGF1ZGlvJywKICAgICAgZmlzaEF1ZGlvQXBpS2V5OiAnZmlzaC1rZXktYWJjJywKICAgICAgZmlzaEF1ZGlvTW9kZWw6ICdzMi4xLXBybycsCiAgICB9OwogICAgLy8g5YaZ55uYIC8g6K+755uY55qEIEpTT04g5b6A6L+UCiAgICBjb25zdCBiYWNrdXAgPSBKU09OLnBhcnNlKEpTT04uc3RyaW5naWZ5KHsgYXBpQ29uZmlnOiBleHBvcnRlZCB9KSk7CgogICAgLy8g5a+85YWl77yadXBkYXRlQXBpQ29uZmlnKGRhdGEuYXBpQ29uZmlnKSA9PT0geyAuLi7njrDmnIksIC4uLuWvvOWFpSB977yIT1NDb250ZXh0LnRzeDoyMDU177yJCiAgICBjb25zdCBjdXJyZW50ID0geyBiYXNlVXJsOiAnJywgYXBpS2V5OiAnJywgbW9kZWw6ICdncHQtNG8tbWluaScgfSBhcyBBUElDb25maWc7CiAgICBjb25zdCBtZXJnZWQgPSB7IC4uLmN1cnJlbnQsIC4uLmJhY2t1cC5hcGlDb25maWcgfSBhcyBBUElDb25maWc7CgogICAgZXhwZWN0KG1lcmdlZC50dHNQcm92aWRlcikudG9CZSgnZmlzaGF1ZGlvJyk7CiAgICBleHBlY3QobWVyZ2VkLmZpc2hBdWRpb0FwaUtleSkudG9CZSgnZmlzaC1rZXktYWJjJyk7CiAgICBleHBlY3QobWVyZ2VkLmZpc2hBdWRpb01vZGVsKS50b0JlKCdzMi4xLXBybycpOwogICAgZXhwZWN0KG1lcmdlZC5taW5pbWF4QXBpS2V5KS50b0JlKCdtbS1rZXknKTsgLy8g5pen5a2X5q615Lmf5ZyoCgogICAgLy8gbG9jYWxTdG9yYWdlIOaMgeS5heWMluW+gOi/lO+8iHVwZGF0ZUFwaUNvbmZpZyDkvJogc2V0SXRlbSgnb3NfYXBpX2NvbmZpZycsIC4uLinvvIkKICAgIGxvY2FsU3RvcmFnZS5zZXRJdGVtKCdvc19hcGlfY29uZmlnJywgSlNPTi5zdHJpbmdpZnkobWVyZ2VkKSk7CiAgICBjb25zdCByZWxvYWRlZCA9IEpTT04ucGFyc2UobG9jYWxTdG9yYWdlLmdldEl0ZW0oJ29zX2FwaV9jb25maWcnKSEpOwogICAgZXhwZWN0KHJlbG9hZGVkLmZpc2hBdWRpb0FwaUtleSkudG9CZSgnZmlzaC1rZXktYWJjJyk7CiAgICBleHBlY3QocmVsb2FkZWQudHRzUHJvdmlkZXIpLnRvQmUoJ2Zpc2hhdWRpbycpOwogICAgZXhwZWN0KHJlbG9hZGVkLmZpc2hBdWRpb01vZGVsKS50b0JlKCdzMi4xLXBybycpOwogIH0pOwp9KTsK
+/**
+ * 回归测试：鱼声 / 语速相关设置经「导出 → 导入」是否完整还原。
+ * 覆盖三个新字段：
+ *  - apiConfig.ttsProvider / fishAudioApiKey / fishAudioModel（全局）
+ *  - voiceProfile.fishReferenceId / fishModel / speed（每角色）
+ *
+ * 思路：apiConfig 走的是「整对象导出 + 合并导入（updateApiConfig）」，角色走的是
+ * 「整 store 导出 + DB.importFullData 还原」。这里分别用真实 DB 往返 + 合并逻辑断言。
+ */
+import { describe, it, expect } from 'vitest';
+import { DB } from './db';
+import type { APIConfig } from '../types';
+
+describe('鱼声 / 语速设置 导出→导入 round-trip', () => {
+  it('角色 voiceProfile 的 fishReferenceId / fishModel / speed 经真实 DB 导入还原', async () => {
+    const char: any = {
+      id: 'test-fish-char',
+      name: '测试角色',
+      voiceProfile: {
+        provider: 'minimax',
+        voiceId: 'mm-voice-1',          // 旧字段，确认不被影响
+        fishReferenceId: '7f92f8afb8ec43bf81429cc1c9199cb1',
+        fishModel: 's2-pro',
+        speed: 0.85,
+      },
+    };
+
+    // 模拟导入：DB.importFullData 会清空并写入 characters store（与 OSContext 导入同路径）
+    await DB.importFullData({ characters: [char] } as any);
+
+    const all = await DB.getAllCharacters();
+    const got = all.find((c) => c.id === 'test-fish-char');
+    expect(got).toBeTruthy();
+    expect(got!.voiceProfile?.fishReferenceId).toBe('7f92f8afb8ec43bf81429cc1c9199cb1');
+    expect(got!.voiceProfile?.fishModel).toBe('s2-pro');
+    expect(got!.voiceProfile?.speed).toBe(0.85);
+    expect(got!.voiceProfile?.voiceId).toBe('mm-voice-1'); // 旧字段一并保留
+  });
+
+  it('apiConfig 的 ttsProvider / fishAudioApiKey / fishAudioModel 经 导出→序列化→合并导入 还原', () => {
+    // 导出：OSContext 把整个 apiConfig 对象塞进 backupData（无字段白名单）
+    const exported: APIConfig = {
+      baseUrl: 'https://api.example.com',
+      apiKey: 'llm-key',
+      model: 'gpt-4o-mini',
+      minimaxApiKey: 'mm-key',
+      ttsProvider: 'fishaudio',
+      fishAudioApiKey: 'fish-key-abc',
+      fishAudioModel: 's2.1-pro',
+    };
+    // 写盘 / 读盘的 JSON 往返
+    const backup = JSON.parse(JSON.stringify({ apiConfig: exported }));
+
+    // 导入：updateApiConfig(data.apiConfig) === { ...现有, ...导入 }（OSContext.tsx:2055）
+    const current = { baseUrl: '', apiKey: '', model: 'gpt-4o-mini' } as APIConfig;
+    const merged = { ...current, ...backup.apiConfig } as APIConfig;
+
+    expect(merged.ttsProvider).toBe('fishaudio');
+    expect(merged.fishAudioApiKey).toBe('fish-key-abc');
+    expect(merged.fishAudioModel).toBe('s2.1-pro');
+    expect(merged.minimaxApiKey).toBe('mm-key'); // 旧字段也在
+
+    // localStorage 持久化往返（updateApiConfig 会 setItem('os_api_config', ...)）
+    localStorage.setItem('os_api_config', JSON.stringify(merged));
+    const reloaded = JSON.parse(localStorage.getItem('os_api_config')!);
+    expect(reloaded.fishAudioApiKey).toBe('fish-key-abc');
+    expect(reloaded.ttsProvider).toBe('fishaudio');
+    expect(reloaded.fishAudioModel).toBe('s2.1-pro');
+  });
+});

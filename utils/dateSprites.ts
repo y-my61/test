@@ -1,1 +1,26 @@
-Ly8g6KeB6Z2i5qih5byP77yIRGF0ZUFwcO+8ieeri+e7mOWFnOW6lemAieaLqeOAggovLwovLyDog4zmma/vvJpjaGFyLnNwcml0ZXMg5piv5Liq5re36KOF6KKL4oCU4oCU6Zmk5LqG6KeB6Z2i5oOF57uq56uL57uY77yIbm9ybWFsL2hhcHB5L+KApi/oh6rlrprkuYnvvInvvIzov5joo4XnnYAKLy8g5bCP5bCP56qd55qE5oi/6Ze056uL57uYIHNwcml0ZXNbJ2NoaWJpJ13jgII3LjEwIOabtOaWsOWQju+8jOWwj+Wwj+eqneS4iuS8oCAvIFFR5o2P5Lq65bel5Z2K5YaZ5YWl55qEIGNoaWJpCi8vIOaYryBgYmxvYnJlZjo8aWQ+YCDku6TniYzvvIjop4EgdXRpbHMvYmxvYlJlZi50c++8ie+8jOS4jeiDveebtOaOpeW9kyA8aW1nIHNyYz4g55So44CCCi8vIOiAgeeahOWFnOW6leWGmeazlSBgT2JqZWN0LnZhbHVlcyhzcHJpdGVzKVswXWAg5Lya5Zyo5aS05YOP5LmL5YmN5o2e5Yiw5a6DIOKGkiDmsqHkvKDop4HpnaLnq4vnu5jjgIEKLy8g5LiA55u06Z2g5aS05YOP5pi+56S655qE6KeS6Imy77yM6KeB6Z2i5qih5byP55u05o6l6KOC5Zu+44CCCi8vCi8vIOi/memHjOe7n+S4gOWFnOW6lemhuuW6j++8mm5vcm1hbC9kZWZhdWx0IOKGkiDop4HpnaLmg4Xnu6rplK4g4oaSIOWFtuWug+WPr+ebtOaOpea4suafk+eahCBzcHJpdGUKLy8g77yI6Lez6L+HIGNoaWJpIOmUruS4juS4gOWIhyBibG9icmVmIOS7pOeJjO+8ieKGkiDlpLTlg4/jgIIKaW1wb3J0IHsgaXNCbG9iUmVmIH0gZnJvbSAnLi9ibG9iUmVmJzsKCmV4cG9ydCBmdW5jdGlvbiBwaWNrRGF0ZUZhbGxiYWNrU3ByaXRlKAogICAgc3ByaXRlczogUmVjb3JkPHN0cmluZywgc3RyaW5nPiB8IHVuZGVmaW5lZCB8IG51bGwsCiAgICBkYXRlRW1vdGlvbktleXM6IHN0cmluZ1tdLAogICAgYXZhdGFyPzogc3RyaW5nLAopOiBzdHJpbmcgfCB1bmRlZmluZWQgewogICAgY29uc3QgcyA9IHNwcml0ZXMgfHwge307CiAgICBjb25zdCBkaXJlY3QgPSBzWydub3JtYWwnXSB8fCBzWydkZWZhdWx0J107CiAgICBpZiAoZGlyZWN0ICYmICFpc0Jsb2JSZWYoZGlyZWN0KSkgcmV0dXJuIGRpcmVjdDsKICAgIGNvbnN0IGVtb0tleSA9IGRhdGVFbW90aW9uS2V5cy5maW5kKGsgPT4gc1trXSAmJiAhaXNCbG9iUmVmKHNba10pKTsKICAgIGlmIChlbW9LZXkpIHJldHVybiBzW2Vtb0tleV07CiAgICBjb25zdCBzdHJheSA9IE9iamVjdC5lbnRyaWVzKHMpLmZpbmQoKFtrLCB2XSkgPT4gdiAmJiBrICE9PSAnY2hpYmknICYmICFpc0Jsb2JSZWYodikpOwogICAgaWYgKHN0cmF5KSByZXR1cm4gc3RyYXlbMV07CiAgICByZXR1cm4gYXZhdGFyOwp9Cg==
+// 见面模式（DateApp）立绘兜底选择。
+//
+// 背景：char.sprites 是个混装袋——除了见面情绪立绘（normal/happy/…/自定义），还装着
+// 小小窝的房间立绘 sprites['chibi']。7.10 更新后，小小窝上传 / QQ捏人工坊写入的 chibi
+// 是 `blobref:<id>` 令牌（见 utils/blobRef.ts），不能直接当 <img src> 用。
+// 老的兜底写法 `Object.values(sprites)[0]` 会在头像之前捞到它 → 没传见面立绘、
+// 一直靠头像显示的角色，见面模式直接裂图。
+//
+// 这里统一兜底顺序：normal/default → 见面情绪键 → 其它可直接渲染的 sprite
+// （跳过 chibi 键与一切 blobref 令牌）→ 头像。
+import { isBlobRef } from './blobRef';
+
+export function pickDateFallbackSprite(
+    sprites: Record<string, string> | undefined | null,
+    dateEmotionKeys: string[],
+    avatar?: string,
+): string | undefined {
+    const s = sprites || {};
+    const direct = s['normal'] || s['default'];
+    if (direct && !isBlobRef(direct)) return direct;
+    const emoKey = dateEmotionKeys.find(k => s[k] && !isBlobRef(s[k]));
+    if (emoKey) return s[emoKey];
+    const stray = Object.entries(s).find(([k, v]) => v && k !== 'chibi' && !isBlobRef(v));
+    if (stray) return stray[1];
+    return avatar;
+}

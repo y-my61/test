@@ -1,1 +1,302 @@
-LyoqCiAqIOaJi+i0puinhuinieWOn+ivre+8muezluaenOiJsuiwg+iJsuadvyArIOijheiuoueOryArIOWkmuenjeiDtuW4piArIOaLjeeri+W+lyArIOWFqOaBr+a4kOWPmAogKgogKiDlhajpg6jnlKggVGFpbHdpbmQgY2xhc3MgKyBpbmxpbmUgc3R5bGUgKyBTVkcg5a6e546w77yM6Zu26aKd5aSW5L6d6LWW44CCCiAqLwoKaW1wb3J0IFJlYWN0IGZyb20gJ3JlYWN0JzsKCi8vIOKUgOKUgOKUgCDns5bmnpzosIPoibLmnb/vvIjlpbbmsrnnsokgLyDnsonpm77ok50gLyDoloTojbcgLyDng6vpk7bvvInilIDilIDilIDilIDilIDilIDilIDilIAKZXhwb3J0IGNvbnN0IFBBUEVSX1RPTkVTID0gewogICAgLy8g5Li757q45byg77ya5aW25rK56Imy5YGP57KJCiAgICBwYXBlcjogICAgICAnI2ZmZjhmYicsCiAgICBwYXBlcldhcm06ICAnI2ZmZjBmNScsCiAgICBwYXBlckNvb2w6ICAnI2YxZjZmYScsCiAgICBwYXBlck1pbnQ6ICAnI2YwZmFmNScsCgogICAgLy8g5bCB6Z2iIC8g5by66LCD77yI5pu/5o2i5Y6f5p2l55qE54mb55qu77yJCiAgICBjb3ZlcjogICAgICAnI2Y4YzdkNCcsICAgICAvLyDmqLHoirHnsonlsIEKICAgIGNvdmVyRGFyazogICcjZTlhOGJiJywKICAgIHNwaW5lOiAgICAgICcjZGNjN2Q1JywgICAgIC8vIOijheiuoue6vy/moIfnrb7lupUKCiAgICAvLyDmloflrZfvvJrnqI3lvq7lgY/ntKvnmoTmt7HoibLvvIzkuI3nlKjnuq/pu5HjgIHkuI3nlKjmo5UKICAgIGluazogICAgICAgICcjM2QyZjNkJywKICAgIGlua1NvZnQ6ICAgICcjN2E1YTcyJywKICAgIGlua0ZhaW50OiAgICcjYTg5MmEzJywKCiAgICAvLyDlkITnp40gYWNjZW5077yI6LS057q4IC8g6IO25bimIC8gdGFi77yJCiAgICBhY2NlbnRSb3NlOiAgICcjZmJiOGM4JywgIC8vIOaoseiKseeyiQogICAgYWNjZW50Qmx1c2g6ICAnI2YyOWRiMCcsICAvLyDnjqvnkbDnsokKICAgIGFjY2VudEJsdWU6ICAgJyNiOWQzZTAnLCAgLy8g57KJ6Zu+6JOdCiAgICBhY2NlbnRTa3k6ICAgICcjOWRjMWQ1JywgIC8vIOWkqeepuuiTnQogICAgYWNjZW50TWludDogICAnI2JmZTFjZicsICAvLyDoloTojbcKICAgIGFjY2VudExlbW9uOiAgJyNmNWUyOTUnLCAgLy8g6Jyc6buECiAgICBhY2NlbnRMYXZlbmRlcjogJyNkNmM4ZTgnLCAvLyDolrDooaPojYkKICAgIGFjY2VudFNpbHZlcjogJyNkZGU1ZWQnLCAgLy8g54Or6ZO2CiAgICBhY2NlbnRHb2xkOiAgICcjZjBkMjdhJywgIC8vIOeDq+mHkQp9OwoKLy8g4pSA4pSA4pSAIOWtl+S9k+WghuagiCDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIAKLy8gU0VSSUbvvJrml6XmnJ8v5qCH6aKYL+mhteecieeUqOihrOe6vwpleHBvcnQgY29uc3QgU0VSSUZfU1RBQ0s6IFJlYWN0LkNTU1Byb3BlcnRpZXMgPSB7CiAgICBmb250RmFtaWx5OiAnIk5vdG8gU2VyaWYgU0MiLCAiU29uZ3RpIFNDIiwgIlNvdXJjZSBIYW4gU2VyaWYgU0MiLCAiU1RTb25nIiwgIlNUWmhvbmdzb25nIiwgc2VyaWYnLAp9OwovLyBDVVRF77ya5Y+v54ix5ZyG5ram5a2X5L2T77yI5qCH6K+tL+ijhemlsOaWh+Wtl+eUqO+8iQpleHBvcnQgY29uc3QgQ1VURV9TVEFDSzogUmVhY3QuQ1NTUHJvcGVydGllcyA9IHsKICAgIGZvbnRGYW1pbHk6ICciWW91U2hlQmlhb1RpSGVpIiwgIk1hb2tlbiBUYW5neXVhbiIsICJaQ09PTCBLdWFpTGUiLCAiTm90byBTYW5zIFNDIiwgIlBpbmdGYW5nIFNDIiwgIkhpcmFnaW5vIFNhbnMgR0IiLCBzeXN0ZW0tdWksIHNhbnMtc2VyaWYnLAp9OwovLyBESVNQTEFZ77ya5p2C5b+X5oSf6KGs57q/5aSn5qCH6aKY77yISGVsbG8sICAvIOS4u+agh+ivre+8iQpleHBvcnQgY29uc3QgRElTUExBWV9TVEFDSzogUmVhY3QuQ1NTUHJvcGVydGllcyA9IHsKICAgIGZvbnRGYW1pbHk6ICciRE0gU2VyaWYgRGlzcGxheSIsICJOb3RvIFNlcmlmIFNDIiwgIlNvbmd0aSBTQyIsIHNlcmlmJywKfTsKLy8gU0NSSVBU77ya5omL5YaZ6Iqx5L2T77yI5pyI5Lu96Iqx5a2XIC8g5aSp5rCU5bCP6K+N77yJCmV4cG9ydCBjb25zdCBTQ1JJUFRfU1RBQ0s6IFJlYWN0LkNTU1Byb3BlcnRpZXMgPSB7CiAgICBmb250RmFtaWx5OiAnIkNhdmVhdCIsICJOb3RvIFNlcmlmIFNDIiwgY3Vyc2l2ZScsCn07Ci8vIEhBTkRXUklUVEVO77ya5Lit6Iux5re35ZCI5omL5YaZ5L2TKGJhcmUg56yU6K6wIC8g5omL6LSm5raC6bim55SoKQpleHBvcnQgY29uc3QgSEFORFdSSVRURU5fU1RBQ0s6IFJlYWN0LkNTU1Byb3BlcnRpZXMgPSB7CiAgICBmb250RmFtaWx5OiAnIkNhdmVhdCIsICJNYSBTaGFuIFpoZW5nIiwgIkxvbmcgQ2FuZyIsICJaQ09PTCBLdWFpTGUiLCAiTm90byBTZXJpZiBTQyIsIGN1cnNpdmUnLAp9OwovLyBCUlVTSO+8mueyl+S4gOS6m+eahOaJi+WGmeS4reaWhyjmoIfpopjmtoLpuKbmhJ8pCmV4cG9ydCBjb25zdCBCUlVTSF9TVEFDSzogUmVhY3QuQ1NTUHJvcGVydGllcyA9IHsKICAgIGZvbnRGYW1pbHk6ICciTWEgU2hhbiBaaGVuZyIsICJaQ09PTCBLdWFpTGUiLCAiQ2F2ZWF0IiwgIk5vdG8gU2VyaWYgU0MiLCBzZXJpZicsCn07Ci8vIEpQ77ya5ZKM6aOO5piO5pyd77yI5a2j56+A44Gu5omL5bizIOWJr+agh+mimO+8iQpleHBvcnQgY29uc3QgSlBfU1RBQ0s6IFJlYWN0LkNTU1Byb3BlcnRpZXMgPSB7CiAgICBmb250RmFtaWx5OiAnIlNoaXBwb3JpIE1pbmNobyIsICJIaXJhZ2lubyBNaW5jaG8gUHJvTiIsICJOb3RvIFNlcmlmIFNDIiwgIll1IE1pbmNobyIsIHNlcmlmJywKfTsKLy8gTU9OT++8muWkjeWPpOacuuaisOWtl++8iERBVEUgLyBWT0wg5qCH562+77yJCmV4cG9ydCBjb25zdCBNT05PX1NUQUNLOiBSZWFjdC5DU1NQcm9wZXJ0aWVzID0gewogICAgZm9udEZhbWlseTogJyJDb3VyaWVyIFByaW1lIiwgIkNvdXJpZXIgTmV3IiwgIlNGTW9uby1SZWd1bGFyIiwgbW9ub3NwYWNlJywKfTsKCi8vIOKUgOKUgOKUgCDlhajmga8gLyDmuJDlj5ggaGVscGVy77yI5bCB6Z2i44CB5Lid5bim44CBc2hpbW1lciDnlKjvvInilIDilIDilIDilIDilIAKZXhwb3J0IGNvbnN0IEhPTE9fR1JBRElFTlQgPQogICAgJ2xpbmVhci1ncmFkaWVudCgxMzVkZWcsICNmZmUyZWMgMCUsICNlMmVhZmYgMjUlLCAjZTJmZmYwIDUwJSwgI2ZmZjhkNiA3NSUsICNmZmUyZWMgMTAwJSknOwpleHBvcnQgY29uc3QgSE9MT19HUkFESUVOVF9TT0ZUID0KICAgICdsaW5lYXItZ3JhZGllbnQoMTM1ZGVnLCByZ2JhKDI1NSwyMjYsMjM2LDAuNikgMCUsIHJnYmEoMjI2LDIzNCwyNTUsMC42KSA1MCUsIHJnYmEoMjU1LDI0OCwyMTQsMC42KSAxMDAlKSc7CgovLyDilIDilIDilIAg57q45byg5Zu+5qGI77yI5q+P6aG16IOM5pmv77yJ4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSACmV4cG9ydCB0eXBlIFBhcGVyS2luZCA9ICdwbGFpbicgfCAnbGluZWQnIHwgJ2dyaWQnIHwgJ2RvdCcgfCAnY3JlYW0nIHwgJ21pbnQnIHwgJ3Jvc2UnIHwgJ3NreScgfCAnc2FnZSc7CgpleHBvcnQgY29uc3QgUEFQRVJTOiBSZWNvcmQ8UGFwZXJLaW5kLCB7IGJnOiBzdHJpbmc7IHN0eWxlPzogUmVhY3QuQ1NTUHJvcGVydGllcyB9PiA9IHsKICAgIHBsYWluOiB7IGJnOiBQQVBFUl9UT05FUy5wYXBlciB9LAogICAgbGluZWQ6IHsKICAgICAgICBiZzogUEFQRVJfVE9ORVMucGFwZXIsCiAgICAgICAgc3R5bGU6IHsgYmFja2dyb3VuZEltYWdlOiAncmVwZWF0aW5nLWxpbmVhci1ncmFkaWVudCh0cmFuc3BhcmVudCwgdHJhbnNwYXJlbnQgMjVweCwgcmdiYSgyNDIsMTU3LDE3NiwwLjIyKSAyNXB4LCByZ2JhKDI0MiwxNTcsMTc2LDAuMjIpIDI2cHgpJyB9LAogICAgfSwKICAgIGdyaWQ6IHsKICAgICAgICBiZzogUEFQRVJfVE9ORVMucGFwZXIsCiAgICAgICAgc3R5bGU6IHsgYmFja2dyb3VuZEltYWdlOiAnbGluZWFyLWdyYWRpZW50KHJnYmEoMTg1LDIxMSwyMjQsMC4xOCkgMXB4LCB0cmFuc3BhcmVudCAxcHgpLCBsaW5lYXItZ3JhZGllbnQoOTBkZWcsIHJnYmEoMTg1LDIxMSwyMjQsMC4xOCkgMXB4LCB0cmFuc3BhcmVudCAxcHgpJywgYmFja2dyb3VuZFNpemU6ICcyMnB4IDIycHgnIH0sCiAgICB9LAogICAgZG90OiB7CiAgICAgICAgYmc6IFBBUEVSX1RPTkVTLnBhcGVyV2FybSwKICAgICAgICBzdHlsZTogeyBiYWNrZ3JvdW5kSW1hZ2U6ICdyYWRpYWwtZ3JhZGllbnQocmdiYSgyNDIsMTU3LDE3NiwwLjM1KSAxLjRweCwgdHJhbnNwYXJlbnQgMS40cHgpJywgYmFja2dyb3VuZFNpemU6ICcyMHB4IDIwcHgnIH0sCiAgICB9LAogICAgY3JlYW06IHsgYmc6IFBBUEVSX1RPTkVTLnBhcGVyV2FybSB9LAogICAgbWludDogIHsgYmc6IFBBUEVSX1RPTkVTLnBhcGVyTWludCB9LAogICAgcm9zZTogIHsgYmc6ICcjZmZlOGVlJyB9LAogICAgc2t5OiAgIHsgYmc6ICcjZTZmMGY3JyB9LAogICAgLy8gbGVnYWN5IOWFvOWuue+8iOWIq+WkhOWPr+iDveS8oCAnc2FnZSfvvIkKICAgIHNhZ2U6ICB7IGJnOiBQQVBFUl9UT05FUy5wYXBlck1pbnQgfSwKfTsKCi8vIOKUgOKUgOKUgCDoo4XorqLnjq/liJfvvIjlt6bkvqfnqb/lrZQgKyDng6vpk7bph5HlsZ7njq/vvInilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIAKZXhwb3J0IGNvbnN0IEJpbmRlclJpbmdzOiBSZWFjdC5GQzx7IGNvdW50PzogbnVtYmVyOyB0b25lPzogJ3NpbHZlcicgfCAnZ29sZCcgfCAncGluaycgfT4gPSAoewogICAgY291bnQgPSA3LCB0b25lID0gJ3NpbHZlcicsCn0pID0+IHsKICAgIGNvbnN0IGMgPSB0b25lID09PSAnZ29sZCcKICAgICAgICA/IHsgcmluZzogJyNlOWM5N2MnLCBoaWdobGlnaHQ6ICcjZmZmNWQ0Jywgc2hhZG93OiAnI2E4N2EzZCcgfQogICAgICAgIDogdG9uZSA9PT0gJ3BpbmsnCiAgICAgICAgPyB7IHJpbmc6ICcjZjBiOGM4JywgaGlnaGxpZ2h0OiAnI2ZmZThlZScsIHNoYWRvdzogJyNiODc4OTAnIH0KICAgICAgICA6IHsgcmluZzogJyNjOGQyZGMnLCBoaWdobGlnaHQ6ICcjZjVmYWZkJywgc2hhZG93OiAnIzdhODY5NCcgfTsKICAgIGNvbnN0IGhvbGVDb2xvciA9ICcjM2QyZjNkJzsKICAgIHJldHVybiAoCiAgICAgICAgPGRpdgogICAgICAgICAgICBjbGFzc05hbWU9ImFic29sdXRlIGxlZnQtMCB0b3AtMCBib3R0b20tMCB3LTcgZmxleCBmbGV4LWNvbCBpdGVtcy1jZW50ZXIganVzdGlmeS1hcm91bmQgcHktMyBwb2ludGVyLWV2ZW50cy1ub25lIgogICAgICAgICAgICBhcmlhLWhpZGRlbgogICAgICAgID4KICAgICAgICAgICAge0FycmF5LmZyb20oeyBsZW5ndGg6IGNvdW50IH0pLm1hcCgoXywgaSkgPT4gKAogICAgICAgICAgICAgICAgPHN2ZyBrZXk9e2l9IHZpZXdCb3g9IjAgMCAyNCAyNCIgY2xhc3NOYW1lPSJ3LTUgaC01Ij4KICAgICAgICAgICAgICAgICAgICA8ZWxsaXBzZSBjeD0iMTIiIGN5PSIxMy40IiByeD0iNy41IiByeT0iMi4yIiBmaWxsPSJyZ2JhKDAsMCwwLDAuMTYpIiAvPgogICAgICAgICAgICAgICAgICAgIDxjaXJjbGUgY3g9IjEyIiBjeT0iMTIiIHI9IjYiIGZpbGw9e2hvbGVDb2xvcn0gb3BhY2l0eT0iMC45IiAvPgogICAgICAgICAgICAgICAgICAgIDxjaXJjbGUgY3g9IjEyIiBjeT0iMTIiIHI9IjYiIGZpbGw9Im5vbmUiIHN0cm9rZT17Yy5yaW5nfSBzdHJva2VXaWR0aD0iMi40IiAvPgogICAgICAgICAgICAgICAgICAgIHsvKiDpq5jlhYnlvKcgKi99CiAgICAgICAgICAgICAgICAgICAgPHBhdGggZD0iTSA3LjUgOSBBIDYgNiAwIDAgMSAxMi41IDUuOCIgZmlsbD0ibm9uZSIgc3Ryb2tlPXtjLmhpZ2hsaWdodH0gc3Ryb2tlV2lkdGg9IjEuMiIgc3Ryb2tlTGluZWNhcD0icm91bmQiIC8+CiAgICAgICAgICAgICAgICAgICAgey8qIOmYtOW9seW8pyAqL30KICAgICAgICAgICAgICAgICAgICA8cGF0aCBkPSJNIDE2IDE0IEEgNiA2IDAgMCAxIDEyIDE4IiBmaWxsPSJub25lIiBzdHJva2U9e2Muc2hhZG93fSBzdHJva2VXaWR0aD0iMC44IiBzdHJva2VMaW5lY2FwPSJyb3VuZCIgb3BhY2l0eT0iMC42IiAvPgogICAgICAgICAgICAgICAgPC9zdmc+CiAgICAgICAgICAgICkpfQogICAgICAgIDwvZGl2PgogICAgKTsKfTsKCi8vIOKUgOKUgOKUgCBXYXNoaSDog7bluKbvvJrlpJrnp43lm77moYjlj5jkvZMg4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSACnR5cGUgVGFwZUNvbG9yID0gJ3Jvc2UnIHwgJ2JsdXNoJyB8ICdibHVlJyB8ICdza3knIHwgJ21pbnQnIHwgJ2xlbW9uJyB8ICdsYXZlbmRlcicgfCAnY3JlYW0nIHwgJ3NpbHZlcic7CnR5cGUgVGFwZVBhdHRlcm4gPSAnc3RyaXBlJyB8ICdoZWFydCcgfCAnc3RhcicgfCAnZG90JyB8ICdsYWNlJyB8ICdwbGFpbic7CgpleHBvcnQgY29uc3QgV2FzaGlUYXBlOiBSZWFjdC5GQzx7CiAgICBjb2xvcj86IFRhcGVDb2xvcjsKICAgIHBhdHRlcm4/OiBUYXBlUGF0dGVybjsKICAgIGNoaWxkcmVuPzogUmVhY3QuUmVhY3ROb2RlOwogICAgY2xhc3NOYW1lPzogc3RyaW5nOwogICAgcm90YXRlPzogbnVtYmVyOwogICAgc3R5bGU/OiBSZWFjdC5DU1NQcm9wZXJ0aWVzOwp9PiA9ICh7IGNvbG9yID0gJ3Jvc2UnLCBwYXR0ZXJuID0gJ3N0cmlwZScsIGNoaWxkcmVuLCBjbGFzc05hbWUgPSAnJywgcm90YXRlID0gLTEuNSwgc3R5bGUgfSkgPT4gewogICAgY29uc3QgcGFsZXR0ZTogUmVjb3JkPFRhcGVDb2xvciwgeyBiYXNlOiBzdHJpbmc7IGFjY2VudDogc3RyaW5nOyB0ZXh0OiBzdHJpbmcgfT4gPSB7CiAgICAgICAgcm9zZTogICAgIHsgYmFzZTogJyNmYmI4YzgnLCBhY2NlbnQ6ICdyZ2JhKDI1NSwyNTUsMjU1LDAuNDUpJywgdGV4dDogJyM3YTM4NDUnIH0sCiAgICAgICAgYmx1c2g6ICAgIHsgYmFzZTogJyNmMjlkYjAnLCBhY2NlbnQ6ICdyZ2JhKDI1NSwyNTUsMjU1LDAuNCknLCAgdGV4dDogJyM2YTI1MzUnIH0sCiAgICAgICAgYmx1ZTogICAgIHsgYmFzZTogJyNiOWQzZTAnLCBhY2NlbnQ6ICdyZ2JhKDI1NSwyNTUsMjU1LDAuNCknLCAgdGV4dDogJyMzMjQ2NTEnIH0sCiAgICAgICAgc2t5OiAgICAgIHsgYmFzZTogJyM5ZGMxZDUnLCBhY2NlbnQ6ICdyZ2JhKDI1NSwyNTUsMjU1LDAuNCknLCAgdGV4dDogJyMxZjM4NDUnIH0sCiAgICAgICAgbWludDogICAgIHsgYmFzZTogJyNiZmUxY2YnLCBhY2NlbnQ6ICdyZ2JhKDI1NSwyNTUsMjU1LDAuNCknLCAgdGV4dDogJyMyNjRhMzYnIH0sCiAgICAgICAgbGVtb246ICAgIHsgYmFzZTogJyNmNWUyOTUnLCBhY2NlbnQ6ICdyZ2JhKDI1NSwyNTUsMjU1LDAuNCknLCAgdGV4dDogJyM1YTQ4MTgnIH0sCiAgICAgICAgbGF2ZW5kZXI6IHsgYmFzZTogJyNkNmM4ZTgnLCBhY2NlbnQ6ICdyZ2JhKDI1NSwyNTUsMjU1LDAuNDUpJywgdGV4dDogJyMzYTJjNTAnIH0sCiAgICAgICAgY3JlYW06ICAgIHsgYmFzZTogJyNmYmU5ZDAnLCBhY2NlbnQ6ICdyZ2JhKDI1NSwyNTUsMjU1LDAuNSknLCAgdGV4dDogJyM1YTQ4MjUnIH0sCiAgICAgICAgc2lsdmVyOiAgIHsgYmFzZTogJyNkZGU1ZWQnLCBhY2NlbnQ6ICdyZ2JhKDI1NSwyNTUsMjU1LDAuNiknLCAgdGV4dDogJyMzZDRhNTUnIH0sCiAgICB9OwogICAgY29uc3QgcCA9IHBhbGV0dGVbY29sb3JdOwoKICAgIC8vIOagueaNriBwYXR0ZXJuIOeUn+aIkCBiYWNrZ3JvdW5kCiAgICBsZXQgYmc6IHN0cmluZzsKICAgIGxldCBiZ1NpemU6IHN0cmluZyB8IHVuZGVmaW5lZDsKICAgIHN3aXRjaCAocGF0dGVybikgewogICAgICAgIGNhc2UgJ2hlYXJ0JzogewogICAgICAgICAgICAvLyDnlKggU1ZHIGRhdGEgVVJJIOW1jOWFpeWwj+W/g+W/gwogICAgICAgICAgICBjb25zdCBzdmcgPSBlbmNvZGVVUklDb21wb25lbnQoCiAgICAgICAgICAgICAgICBgPHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCAxNiAxNiI+PHBhdGggZD0iTTggMTMuNSBMMiA3LjUgYTMgMyAwIDAgMSA2LTMgYTMgMyAwIDAgMSA2IDMgeiIgZmlsbD0iJHtwLmFjY2VudH0iLz48L3N2Zz5gCiAgICAgICAgICAgICk7CiAgICAgICAgICAgIGJnID0gYCR7cC5iYXNlfSB1cmwoImRhdGE6aW1hZ2Uvc3ZnK3htbCwke3N2Z30iKWA7CiAgICAgICAgICAgIGJnU2l6ZSA9ICcxNHB4IDE0cHgnOwogICAgICAgICAgICBicmVhazsKICAgICAgICB9CiAgICAgICAgY2FzZSAnc3Rhcic6IHsKICAgICAgICAgICAgY29uc3Qgc3ZnID0gZW5jb2RlVVJJQ29tcG9uZW50KAogICAgICAgICAgICAgICAgYDxzdmcgeG1sbnM9Imh0dHA6Ly93d3cudzMub3JnLzIwMDAvc3ZnIiB2aWV3Qm94PSIwIDAgMTYgMTYiPjxwYXRoIGQ9Ik04IDEgTDkuNSA2IEwxNC41IDYgTDEwLjUgOSBMMTIgMTQgTDggMTEgTDQgMTQgTDUuNSA5IEwxLjUgNiBMNi41IDYgWiIgZmlsbD0iJHtwLmFjY2VudH0iLz48L3N2Zz5gCiAgICAgICAgICAgICk7CiAgICAgICAgICAgIGJnID0gYCR7cC5iYXNlfSB1cmwoImRhdGE6aW1hZ2Uvc3ZnK3htbCwke3N2Z30iKWA7CiAgICAgICAgICAgIGJnU2l6ZSA9ICcxNHB4IDE0cHgnOwogICAgICAgICAgICBicmVhazsKICAgICAgICB9CiAgICAgICAgY2FzZSAnZG90JzoKICAgICAgICAgICAgYmcgPSBgJHtwLmJhc2V9IHJhZGlhbC1ncmFkaWVudCgke3AuYWNjZW50fSAxLjVweCwgdHJhbnNwYXJlbnQgMS41cHgpYDsKICAgICAgICAgICAgYmdTaXplID0gJzhweCA4cHgnOwogICAgICAgICAgICBicmVhazsKICAgICAgICBjYXNlICdsYWNlJzoKICAgICAgICAgICAgYmcgPSBgJHtwLmJhc2V9IHJhZGlhbC1ncmFkaWVudChjaXJjbGUgYXQgNTAlIDEwMCUsICR7cC5hY2NlbnR9IDRweCwgdHJhbnNwYXJlbnQgNXB4KWA7CiAgICAgICAgICAgIGJnU2l6ZSA9ICcxMHB4IDEwcHgnOwogICAgICAgICAgICBicmVhazsKICAgICAgICBjYXNlICdwbGFpbic6CiAgICAgICAgICAgIGJnID0gcC5iYXNlOwogICAgICAgICAgICBicmVhazsKICAgICAgICBjYXNlICdzdHJpcGUnOgogICAgICAgIGRlZmF1bHQ6CiAgICAgICAgICAgIGJnID0gYHJlcGVhdGluZy1saW5lYXItZ3JhZGllbnQoMTM1ZGVnLCAke3AuYmFzZX0gMCA4cHgsICR7cC5hY2NlbnR9IDhweCAxMnB4LCAke3AuYmFzZX0gMTJweCAyMHB4KWA7CiAgICAgICAgICAgIGJyZWFrOwogICAgfQoKICAgIHJldHVybiAoCiAgICAgICAgPHNwYW4KICAgICAgICAgICAgY2xhc3NOYW1lPXtgaW5saW5lLWJsb2NrIHB4LTMgcHktMSB0ZXh0LVsxMXB4XSBmb250LWJvbGQgdHJhY2tpbmctd2lkZXIgcmVsYXRpdmUgJHtjbGFzc05hbWV9YH0KICAgICAgICAgICAgc3R5bGU9e3sKICAgICAgICAgICAgICAgIGJhY2tncm91bmQ6IGJnLAogICAgICAgICAgICAgICAgYmFja2dyb3VuZFNpemU6IGJnU2l6ZSwKICAgICAgICAgICAgICAgIGNvbG9yOiBwLnRleHQsCiAgICAgICAgICAgICAgICB0cmFuc2Zvcm06IGByb3RhdGUoJHtyb3RhdGV9ZGVnKWAsCiAgICAgICAgICAgICAgICBib3hTaGFkb3c6ICcwIDFweCAzcHggcmdiYSgwLDAsMCwwLjEpJywKICAgICAgICAgICAgICAgIGNsaXBQYXRoOiAncG9seWdvbigyJSAwLCAxMDAlIDUlLCA5OSUgMTAwJSwgMCA5NSUpJywKICAgICAgICAgICAgICAgIC4uLkNVVEVfU1RBQ0ssCiAgICAgICAgICAgICAgICAuLi5zdHlsZSwKICAgICAgICAgICAgfX0KICAgICAgICA+CiAgICAgICAgICAgIHtjaGlsZHJlbn0KICAgICAgICA8L3NwYW4+CiAgICApOwp9OwoKLy8g4pSA4pSA4pSAIOe6uOeahOi+uee8mOmYtOW9sSDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIAKZXhwb3J0IGNvbnN0IFBBUEVSX1NIQURPVzogUmVhY3QuQ1NTUHJvcGVydGllcyA9IHsKICAgIGJveFNoYWRvdzogJzAgMXB4IDNweCByZ2JhKDEyMiw5MCwxMTQsMC4xKSwgMCA4cHggMThweCAtOHB4IHJnYmEoMTIyLDkwLDExNCwwLjE4KSwgMCAwIDAgMXB4IHJnYmEoMjIwLDE5OSwyMTMsMC40KSBpbnNldCcsCn07CgovLyDmi43nq4vlvpfnm7jniYfnmb3ovrkgKyDpmLTlvbHvvIhjaGFyYWN0ZXJfbGlmZSDnlKjvvIkKZXhwb3J0IGNvbnN0IFBPTEFST0lEX1NIQURPVzogUmVhY3QuQ1NTUHJvcGVydGllcyA9IHsKICAgIGJveFNoYWRvdzogJzAgMnB4IDRweCByZ2JhKDEyMiw5MCwxMTQsMC4xMiksIDAgMTBweCAyMHB4IC04cHggcmdiYSgxMjIsOTAsMTE0LDAuMiknLAogICAgYmFja2dyb3VuZDogJyNmZmZmZmYnLAogICAgcGFkZGluZzogJzEwcHggMTBweCAzNnB4IDEwcHgnLCAvLyDlupXovrnmm7Tlrr3nlZnnrJTorrDkvY0KICAgIGJvcmRlclJhZGl1czogNCwKfTsKCi8vIOKUgOKUgOKUgCDlgL7mlpznp43lrZAg4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSACmV4cG9ydCBjb25zdCBUSUxUX0FOR0xFUyA9IFstMi40LCAtMS4yLCAwLjYsIDEuOCwgLTEuNiwgMS4yLCAtMC40LCAyLjBdOwpleHBvcnQgZnVuY3Rpb24gdGlsdEZvcihzZWVkOiBzdHJpbmcpOiBudW1iZXIgewogICAgbGV0IGggPSAwOwogICAgZm9yIChsZXQgaSA9IDA7IGkgPCBzZWVkLmxlbmd0aDsgaSsrKSBoID0gKGggKiAzMSArIHNlZWQuY2hhckNvZGVBdChpKSkgfCAwOwogICAgcmV0dXJuIFRJTFRfQU5HTEVTW01hdGguYWJzKGgpICUgVElMVF9BTkdMRVMubGVuZ3RoXTsKfQovLyDnlKggc2VlZCDlj5YgMH4xIOS5i+mXtOeahOS8qumaj+acuuaVsO+8iOi0tOe6uOWumuS9jeeUqO+8iQovLwovLyBGTlYtMWEgKyDmnKvmrrUgeG9yc2hpZnQgYXZhbGFuY2hlIOKAlOKAlCDlr7nnm7jkvLzliY3nvIDlrZfnrKbkuLIoZWcgImZyYWctMTczNS0wIiwKLy8gImZyYWctMTczNS0xIinkuZ/og73lrozlhajmiZPmlaPjgILku6XliY3nlKjljZXlsYIgWE9SLOWJjee8gOebuOWQjOaXtuWHoOS5juS4jeWIhuaVoywKLy8g5a+86Ie0IHBpY2tTa2luL3BpY2tTaXplIOWHoOS5juWPqui/lOWbnuS4gOS4quWAvCzmiYDmnInniYfmrrXplb/kuIDmoLfjgIIKZXhwb3J0IGZ1bmN0aW9uIHNlZWRGbG9hdChzZWVkOiBzdHJpbmcsIHNhbHQ6IG51bWJlciA9IDApOiBudW1iZXIgewogICAgLy8gRk5WLTFhIDMyLWJpdAogICAgbGV0IGggPSAoKHNhbHQgfCAwKSArIDB4ODExYzlkYzUpID4+PiAwOwogICAgZm9yIChsZXQgaSA9IDA7IGkgPCBzZWVkLmxlbmd0aDsgaSsrKSB7CiAgICAgICAgaCBePSBzZWVkLmNoYXJDb2RlQXQoaSk7CiAgICAgICAgaCA9IE1hdGguaW11bChoLCAweDAxMDAwMTkzKSA+Pj4gMDsKICAgIH0KICAgIC8vIOacq+autSBhdmFsYW5jaGUoeG9yc2hpZnQgKyBtdWx0aXBseSArIHhvcnNoaWZ0KSzorqnnm7jkvLzovpPlhaXkuZ/og73lrozlhajmiZPmlaMKICAgIGggXj0gaCA+Pj4gMTM7CiAgICBoID0gTWF0aC5pbXVsKGgsIDB4NWJkMWU5OTUpID4+PiAwOwogICAgaCBePSBoID4+PiAxNTsKICAgIHJldHVybiAoaCA+Pj4gMCkgLyAweDEwMDAwMDAwMDsKfQovLyDnlKggc2VlZCDlj5YgW21pbiwgbWF4XSDljLrpl7TlhoXnmoTkvKrpmo/mnLrmlbAKZXhwb3J0IGZ1bmN0aW9uIHNlZWRSYW5nZShzZWVkOiBzdHJpbmcsIHNhbHQ6IG51bWJlciwgbWluOiBudW1iZXIsIG1heDogbnVtYmVyKTogbnVtYmVyIHsKICAgIHJldHVybiBtaW4gKyBzZWVkRmxvYXQoc2VlZCwgc2FsdCkgKiAobWF4IC0gbWluKTsKfQovLyDnlKggc2VlZCDlj5YgwrFyYW5nZSDlsYXkuK3nmoTkvKrpmo/mnLrmlbDvvIjnlKjkuo4gwrHml4vovazjgIHCseWBj+enu++8iQpleHBvcnQgZnVuY3Rpb24gc2VlZENlbnRlcmVkKHNlZWQ6IHN0cmluZywgc2FsdDogbnVtYmVyLCByYW5nZTogbnVtYmVyKTogbnVtYmVyIHsKICAgIHJldHVybiAoc2VlZEZsb2F0KHNlZWQsIHNhbHQpIC0gMC41KSAqIDIgKiByYW5nZTsKfQoKLy8g4pSA4pSA4pSAIOS4reaWh+aYn+acnyArIOaXpeacn+agvOW8j+WMliBoZWxwZXJzIOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgApleHBvcnQgY29uc3QgZGF5T2ZXZWVrWmggPSAoZGF0ZTogc3RyaW5nKTogc3RyaW5nID0+IHsKICAgIGNvbnN0IGQgPSBuZXcgRGF0ZShkYXRlLnJlcGxhY2UoLy0vZywgJy8nKSk7CiAgICByZXR1cm4gWyfml6UnLCAn5LiAJywgJ+S6jCcsICfkuIknLCAn5ZubJywgJ+S6lCcsICflha0nXVtkLmdldERheSgpXTsKfTsKZXhwb3J0IGNvbnN0IGRheU9mV2Vla0VuID0gKGRhdGU6IHN0cmluZyk6IHN0cmluZyA9PiB7CiAgICBjb25zdCBkID0gbmV3IERhdGUoZGF0ZS5yZXBsYWNlKC8tL2csICcvJykpOwogICAgcmV0dXJuIFsnU1VOJywnTU9OJywnVFVFJywnV0VEJywnVEhVJywnRlJJJywnU0FUJ11bZC5nZXREYXkoKV07Cn07CmV4cG9ydCBjb25zdCBtb250aEVuID0gKGRhdGU6IHN0cmluZyk6IHN0cmluZyA9PiB7CiAgICBjb25zdCBkID0gbmV3IERhdGUoZGF0ZS5yZXBsYWNlKC8tL2csICcvJykpOwogICAgcmV0dXJuIFsnSkFOJywnRkVCJywnTUFSJywnQVBSJywnTUFZJywnSlVOJywnSlVMJywnQVVHJywnU0VQJywnT0NUJywnTk9WJywnREVDJ11bZC5nZXRNb250aCgpXTsKfTsKZXhwb3J0IGNvbnN0IG1vbnRoRnVsbEVuID0gKGRhdGU6IHN0cmluZyk6IHN0cmluZyA9PiB7CiAgICBjb25zdCBkID0gbmV3IERhdGUoZGF0ZS5yZXBsYWNlKC8tL2csICcvJykpOwogICAgcmV0dXJuIFsnSmFudWFyeScsJ0ZlYnJ1YXJ5JywnTWFyY2gnLCdBcHJpbCcsJ01heScsJ0p1bmUnLCdKdWx5JywnQXVndXN0JywnU2VwdGVtYmVyJywnT2N0b2JlcicsJ05vdmVtYmVyJywnRGVjZW1iZXInXVtkLmdldE1vbnRoKCldOwp9OwpleHBvcnQgY29uc3QgZGF5TnVtID0gKGRhdGU6IHN0cmluZyk6IHN0cmluZyA9PiBkYXRlLnNwbGl0KCctJylbMl07CmV4cG9ydCBjb25zdCB5ZWFyTnVtID0gKGRhdGU6IHN0cmluZyk6IHN0cmluZyA9PiBkYXRlLnNwbGl0KCctJylbMF07CgovLyDilIDilIDilIAg5Zub5a2jIC8g5Y235Y+3IGhlbHBlcnPvvIjmnYLlv5fmhJ/lsIHpnaLnlKjvvInilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIAKZXhwb3J0IHR5cGUgU2Vhc29uS2V5ID0gJ3NwcmluZycgfCAnc3VtbWVyJyB8ICdhdXR1bW4nIHwgJ3dpbnRlcic7CmV4cG9ydCBjb25zdCBzZWFzb25PZiA9IChkYXRlOiBzdHJpbmcpOiBTZWFzb25LZXkgPT4gewogICAgY29uc3QgbSA9IHBhcnNlSW50KGRhdGUuc3BsaXQoJy0nKVsxXSwgMTApOwogICAgaWYgKG0gPj0gMyAmJiBtIDw9IDUpICByZXR1cm4gJ3NwcmluZyc7CiAgICBpZiAobSA+PSA2ICYmIG0gPD0gOCkgIHJldHVybiAnc3VtbWVyJzsKICAgIGlmIChtID49IDkgJiYgbSA8PSAxMSkgcmV0dXJuICdhdXR1bW4nOwogICAgcmV0dXJuICd3aW50ZXInOwp9OwpleHBvcnQgY29uc3Qgc2Vhc29uTGFiZWwgPSAoczogU2Vhc29uS2V5KTogeyBlbjogc3RyaW5nOyBqcDogc3RyaW5nOyBlbW9qaTogc3RyaW5nIH0gPT4gewogICAgcmV0dXJuIHMgPT09ICdzcHJpbmcnID8geyBlbjogJ1NQUklORyBJU1NVRScsIGpwOiAn5pilJywgZW1vamk6ICfinL8nIH0KICAgICAgICA6ICBzID09PSAnc3VtbWVyJyA/IHsgZW46ICdTVU1NRVIgSVNTVUUnLCBqcDogJ+WkjycsIGVtb2ppOiAn4piAJyB9CiAgICAgICAgOiAgcyA9PT0gJ2F1dHVtbicgPyB7IGVuOiAnQVVUVU1OIElTU1VFJywganA6ICfnp4snLCBlbW9qaTogJ+KcpicgfQogICAgICAgIDogICAgICAgICAgICAgICAgICAgeyBlbjogJ1dJTlRFUiBJU1NVRScsIGpwOiAn5YasJywgZW1vamk6ICfinYQnIH07Cn07Ci8vIOWNt+WPtyA9IOW5tOS7veeahOacgOWQjuS4pOS9je+8iDIwMjYg4oaSICJWT0wuIDI2Iu+8iQpleHBvcnQgY29uc3Qgdm9sTnVtID0gKGRhdGU6IHN0cmluZyk6IHN0cmluZyA9PiB7CiAgICBjb25zdCB5ID0gZGF0ZS5zcGxpdCgnLScpWzBdOwogICAgcmV0dXJuIGBWT0wuICR7eS5zbGljZSgtMil9YDsKfTsK
+/**
+ * 手账视觉原语：糖果色调色板 + 装订环 + 多种胶带 + 拍立得 + 全息渐变
+ *
+ * 全部用 Tailwind class + inline style + SVG 实现，零额外依赖。
+ */
+
+import React from 'react';
+
+// ─── 糖果调色板（奶油粉 / 粉雾蓝 / 薄荷 / 烫银）────────
+export const PAPER_TONES = {
+    // 主纸张：奶油色偏粉
+    paper:      '#fff8fb',
+    paperWarm:  '#fff0f5',
+    paperCool:  '#f1f6fa',
+    paperMint:  '#f0faf5',
+
+    // 封面 / 强调（替换原来的牛皮）
+    cover:      '#f8c7d4',     // 樱花粉封
+    coverDark:  '#e9a8bb',
+    spine:      '#dcc7d5',     // 装订线/标签底
+
+    // 文字：稍微偏紫的深色，不用纯黑、不用棕
+    ink:        '#3d2f3d',
+    inkSoft:    '#7a5a72',
+    inkFaint:   '#a892a3',
+
+    // 各种 accent（贴纸 / 胶带 / tab）
+    accentRose:   '#fbb8c8',  // 樱花粉
+    accentBlush:  '#f29db0',  // 玫瑰粉
+    accentBlue:   '#b9d3e0',  // 粉雾蓝
+    accentSky:    '#9dc1d5',  // 天空蓝
+    accentMint:   '#bfe1cf',  // 薄荷
+    accentLemon:  '#f5e295',  // 蜜黄
+    accentLavender: '#d6c8e8', // 薰衣草
+    accentSilver: '#dde5ed',  // 烫银
+    accentGold:   '#f0d27a',  // 烫金
+};
+
+// ─── 字体堆栈 ─────────────────────────────────────────
+// SERIF：日期/标题/页眉用衬线
+export const SERIF_STACK: React.CSSProperties = {
+    fontFamily: '"Noto Serif SC", "Songti SC", "Source Han Serif SC", "STSong", "STZhongsong", serif',
+};
+// CUTE：可爱圆润字体（标语/装饰文字用）
+export const CUTE_STACK: React.CSSProperties = {
+    fontFamily: '"YouSheBiaoTiHei", "Maoken Tangyuan", "ZCOOL KuaiLe", "Noto Sans SC", "PingFang SC", "Hiragino Sans GB", system-ui, sans-serif',
+};
+// DISPLAY：杂志感衬线大标题（Hello,  / 主标语）
+export const DISPLAY_STACK: React.CSSProperties = {
+    fontFamily: '"DM Serif Display", "Noto Serif SC", "Songti SC", serif',
+};
+// SCRIPT：手写花体（月份花字 / 天气小词）
+export const SCRIPT_STACK: React.CSSProperties = {
+    fontFamily: '"Caveat", "Noto Serif SC", cursive',
+};
+// HANDWRITTEN：中英混合手写体(bare 笔记 / 手账涂鸦用)
+export const HANDWRITTEN_STACK: React.CSSProperties = {
+    fontFamily: '"Caveat", "Ma Shan Zheng", "Long Cang", "ZCOOL KuaiLe", "Noto Serif SC", cursive',
+};
+// BRUSH：粗一些的手写中文(标题涂鸦感)
+export const BRUSH_STACK: React.CSSProperties = {
+    fontFamily: '"Ma Shan Zheng", "ZCOOL KuaiLe", "Caveat", "Noto Serif SC", serif',
+};
+// JP：和风明朝（季節の手帳 副标题）
+export const JP_STACK: React.CSSProperties = {
+    fontFamily: '"Shippori Mincho", "Hiragino Mincho ProN", "Noto Serif SC", "Yu Mincho", serif',
+};
+// MONO：复古机械字（DATE / VOL 标签）
+export const MONO_STACK: React.CSSProperties = {
+    fontFamily: '"Courier Prime", "Courier New", "SFMono-Regular", monospace',
+};
+
+// ─── 全息 / 渐变 helper（封面、丝带、shimmer 用）─────
+export const HOLO_GRADIENT =
+    'linear-gradient(135deg, #ffe2ec 0%, #e2eaff 25%, #e2fff0 50%, #fff8d6 75%, #ffe2ec 100%)';
+export const HOLO_GRADIENT_SOFT =
+    'linear-gradient(135deg, rgba(255,226,236,0.6) 0%, rgba(226,234,255,0.6) 50%, rgba(255,248,214,0.6) 100%)';
+
+// ─── 纸张图案（每页背景）─────────────────────────────
+export type PaperKind = 'plain' | 'lined' | 'grid' | 'dot' | 'cream' | 'mint' | 'rose' | 'sky' | 'sage';
+
+export const PAPERS: Record<PaperKind, { bg: string; style?: React.CSSProperties }> = {
+    plain: { bg: PAPER_TONES.paper },
+    lined: {
+        bg: PAPER_TONES.paper,
+        style: { backgroundImage: 'repeating-linear-gradient(transparent, transparent 25px, rgba(242,157,176,0.22) 25px, rgba(242,157,176,0.22) 26px)' },
+    },
+    grid: {
+        bg: PAPER_TONES.paper,
+        style: { backgroundImage: 'linear-gradient(rgba(185,211,224,0.18) 1px, transparent 1px), linear-gradient(90deg, rgba(185,211,224,0.18) 1px, transparent 1px)', backgroundSize: '22px 22px' },
+    },
+    dot: {
+        bg: PAPER_TONES.paperWarm,
+        style: { backgroundImage: 'radial-gradient(rgba(242,157,176,0.35) 1.4px, transparent 1.4px)', backgroundSize: '20px 20px' },
+    },
+    cream: { bg: PAPER_TONES.paperWarm },
+    mint:  { bg: PAPER_TONES.paperMint },
+    rose:  { bg: '#ffe8ee' },
+    sky:   { bg: '#e6f0f7' },
+    // legacy 兼容（别处可能传 'sage'）
+    sage:  { bg: PAPER_TONES.paperMint },
+};
+
+// ─── 装订环列（左侧穿孔 + 烫银金属环）─────────────────
+export const BinderRings: React.FC<{ count?: number; tone?: 'silver' | 'gold' | 'pink' }> = ({
+    count = 7, tone = 'silver',
+}) => {
+    const c = tone === 'gold'
+        ? { ring: '#e9c97c', highlight: '#fff5d4', shadow: '#a87a3d' }
+        : tone === 'pink'
+        ? { ring: '#f0b8c8', highlight: '#ffe8ee', shadow: '#b87890' }
+        : { ring: '#c8d2dc', highlight: '#f5fafd', shadow: '#7a8694' };
+    const holeColor = '#3d2f3d';
+    return (
+        <div
+            className="absolute left-0 top-0 bottom-0 w-7 flex flex-col items-center justify-around py-3 pointer-events-none"
+            aria-hidden
+        >
+            {Array.from({ length: count }).map((_, i) => (
+                <svg key={i} viewBox="0 0 24 24" className="w-5 h-5">
+                    <ellipse cx="12" cy="13.4" rx="7.5" ry="2.2" fill="rgba(0,0,0,0.16)" />
+                    <circle cx="12" cy="12" r="6" fill={holeColor} opacity="0.9" />
+                    <circle cx="12" cy="12" r="6" fill="none" stroke={c.ring} strokeWidth="2.4" />
+                    {/* 高光弧 */}
+                    <path d="M 7.5 9 A 6 6 0 0 1 12.5 5.8" fill="none" stroke={c.highlight} strokeWidth="1.2" strokeLinecap="round" />
+                    {/* 阴影弧 */}
+                    <path d="M 16 14 A 6 6 0 0 1 12 18" fill="none" stroke={c.shadow} strokeWidth="0.8" strokeLinecap="round" opacity="0.6" />
+                </svg>
+            ))}
+        </div>
+    );
+};
+
+// ─── Washi 胶带：多种图案变体 ─────────────────────────
+type TapeColor = 'rose' | 'blush' | 'blue' | 'sky' | 'mint' | 'lemon' | 'lavender' | 'cream' | 'silver';
+type TapePattern = 'stripe' | 'heart' | 'star' | 'dot' | 'lace' | 'plain';
+
+export const WashiTape: React.FC<{
+    color?: TapeColor;
+    pattern?: TapePattern;
+    children?: React.ReactNode;
+    className?: string;
+    rotate?: number;
+    style?: React.CSSProperties;
+}> = ({ color = 'rose', pattern = 'stripe', children, className = '', rotate = -1.5, style }) => {
+    const palette: Record<TapeColor, { base: string; accent: string; text: string }> = {
+        rose:     { base: '#fbb8c8', accent: 'rgba(255,255,255,0.45)', text: '#7a3845' },
+        blush:    { base: '#f29db0', accent: 'rgba(255,255,255,0.4)',  text: '#6a2535' },
+        blue:     { base: '#b9d3e0', accent: 'rgba(255,255,255,0.4)',  text: '#324651' },
+        sky:      { base: '#9dc1d5', accent: 'rgba(255,255,255,0.4)',  text: '#1f3845' },
+        mint:     { base: '#bfe1cf', accent: 'rgba(255,255,255,0.4)',  text: '#264a36' },
+        lemon:    { base: '#f5e295', accent: 'rgba(255,255,255,0.4)',  text: '#5a4818' },
+        lavender: { base: '#d6c8e8', accent: 'rgba(255,255,255,0.45)', text: '#3a2c50' },
+        cream:    { base: '#fbe9d0', accent: 'rgba(255,255,255,0.5)',  text: '#5a4825' },
+        silver:   { base: '#dde5ed', accent: 'rgba(255,255,255,0.6)',  text: '#3d4a55' },
+    };
+    const p = palette[color];
+
+    // 根据 pattern 生成 background
+    let bg: string;
+    let bgSize: string | undefined;
+    switch (pattern) {
+        case 'heart': {
+            // 用 SVG data URI 嵌入小心心
+            const svg = encodeURIComponent(
+                `<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 16 16"><path d="M8 13.5 L2 7.5 a3 3 0 0 1 6-3 a3 3 0 0 1 6 3 z" fill="${p.accent}"/></svg>`
+            );
+            bg = `${p.base} url("data:image/svg+xml,${svg}")`;
+            bgSize = '14px 14px';
+            break;
+        }
+        case 'star': {
+            const svg = encodeURIComponent(
+                `<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 16 16"><path d="M8 1 L9.5 6 L14.5 6 L10.5 9 L12 14 L8 11 L4 14 L5.5 9 L1.5 6 L6.5 6 Z" fill="${p.accent}"/></svg>`
+            );
+            bg = `${p.base} url("data:image/svg+xml,${svg}")`;
+            bgSize = '14px 14px';
+            break;
+        }
+        case 'dot':
+            bg = `${p.base} radial-gradient(${p.accent} 1.5px, transparent 1.5px)`;
+            bgSize = '8px 8px';
+            break;
+        case 'lace':
+            bg = `${p.base} radial-gradient(circle at 50% 100%, ${p.accent} 4px, transparent 5px)`;
+            bgSize = '10px 10px';
+            break;
+        case 'plain':
+            bg = p.base;
+            break;
+        case 'stripe':
+        default:
+            bg = `repeating-linear-gradient(135deg, ${p.base} 0 8px, ${p.accent} 8px 12px, ${p.base} 12px 20px)`;
+            break;
+    }
+
+    return (
+        <span
+            className={`inline-block px-3 py-1 text-[11px] font-bold tracking-wider relative ${className}`}
+            style={{
+                background: bg,
+                backgroundSize: bgSize,
+                color: p.text,
+                transform: `rotate(${rotate}deg)`,
+                boxShadow: '0 1px 3px rgba(0,0,0,0.1)',
+                clipPath: 'polygon(2% 0, 100% 5%, 99% 100%, 0 95%)',
+                ...CUTE_STACK,
+                ...style,
+            }}
+        >
+            {children}
+        </span>
+    );
+};
+
+// ─── 纸的边缘阴影 ─────────────────────────────────────
+export const PAPER_SHADOW: React.CSSProperties = {
+    boxShadow: '0 1px 3px rgba(122,90,114,0.1), 0 8px 18px -8px rgba(122,90,114,0.18), 0 0 0 1px rgba(220,199,213,0.4) inset',
+};
+
+// 拍立得相片白边 + 阴影（character_life 用）
+export const POLAROID_SHADOW: React.CSSProperties = {
+    boxShadow: '0 2px 4px rgba(122,90,114,0.12), 0 10px 20px -8px rgba(122,90,114,0.2)',
+    background: '#ffffff',
+    padding: '10px 10px 36px 10px', // 底边更宽留笔记位
+    borderRadius: 4,
+};
+
+// ─── 倾斜种子 ────────────────────────────────────────
+export const TILT_ANGLES = [-2.4, -1.2, 0.6, 1.8, -1.6, 1.2, -0.4, 2.0];
+export function tiltFor(seed: string): number {
+    let h = 0;
+    for (let i = 0; i < seed.length; i++) h = (h * 31 + seed.charCodeAt(i)) | 0;
+    return TILT_ANGLES[Math.abs(h) % TILT_ANGLES.length];
+}
+// 用 seed 取 0~1 之间的伪随机数（贴纸定位用）
+//
+// FNV-1a + 末段 xorshift avalanche —— 对相似前缀字符串(eg "frag-1735-0",
+// "frag-1735-1")也能完全打散。以前用单层 XOR,前缀相同时几乎不分散,
+// 导致 pickSkin/pickSize 几乎只返回一个值,所有片段长一样。
+export function seedFloat(seed: string, salt: number = 0): number {
+    // FNV-1a 32-bit
+    let h = ((salt | 0) + 0x811c9dc5) >>> 0;
+    for (let i = 0; i < seed.length; i++) {
+        h ^= seed.charCodeAt(i);
+        h = Math.imul(h, 0x01000193) >>> 0;
+    }
+    // 末段 avalanche(xorshift + multiply + xorshift),让相似输入也能完全打散
+    h ^= h >>> 13;
+    h = Math.imul(h, 0x5bd1e995) >>> 0;
+    h ^= h >>> 15;
+    return (h >>> 0) / 0x100000000;
+}
+// 用 seed 取 [min, max] 区间内的伪随机数
+export function seedRange(seed: string, salt: number, min: number, max: number): number {
+    return min + seedFloat(seed, salt) * (max - min);
+}
+// 用 seed 取 ±range 居中的伪随机数（用于 ±旋转、±偏移）
+export function seedCentered(seed: string, salt: number, range: number): number {
+    return (seedFloat(seed, salt) - 0.5) * 2 * range;
+}
+
+// ─── 中文星期 + 日期格式化 helpers ────────────────────
+export const dayOfWeekZh = (date: string): string => {
+    const d = new Date(date.replace(/-/g, '/'));
+    return ['日', '一', '二', '三', '四', '五', '六'][d.getDay()];
+};
+export const dayOfWeekEn = (date: string): string => {
+    const d = new Date(date.replace(/-/g, '/'));
+    return ['SUN','MON','TUE','WED','THU','FRI','SAT'][d.getDay()];
+};
+export const monthEn = (date: string): string => {
+    const d = new Date(date.replace(/-/g, '/'));
+    return ['JAN','FEB','MAR','APR','MAY','JUN','JUL','AUG','SEP','OCT','NOV','DEC'][d.getMonth()];
+};
+export const monthFullEn = (date: string): string => {
+    const d = new Date(date.replace(/-/g, '/'));
+    return ['January','February','March','April','May','June','July','August','September','October','November','December'][d.getMonth()];
+};
+export const dayNum = (date: string): string => date.split('-')[2];
+export const yearNum = (date: string): string => date.split('-')[0];
+
+// ─── 四季 / 卷号 helpers（杂志感封面用）─────────────────
+export type SeasonKey = 'spring' | 'summer' | 'autumn' | 'winter';
+export const seasonOf = (date: string): SeasonKey => {
+    const m = parseInt(date.split('-')[1], 10);
+    if (m >= 3 && m <= 5)  return 'spring';
+    if (m >= 6 && m <= 8)  return 'summer';
+    if (m >= 9 && m <= 11) return 'autumn';
+    return 'winter';
+};
+export const seasonLabel = (s: SeasonKey): { en: string; jp: string; emoji: string } => {
+    return s === 'spring' ? { en: 'SPRING ISSUE', jp: '春', emoji: '✿' }
+        :  s === 'summer' ? { en: 'SUMMER ISSUE', jp: '夏', emoji: '☀' }
+        :  s === 'autumn' ? { en: 'AUTUMN ISSUE', jp: '秋', emoji: '✦' }
+        :                   { en: 'WINTER ISSUE', jp: '冬', emoji: '❄' };
+};
+// 卷号 = 年份的最后两位（2026 → "VOL. 26"）
+export const volNum = (date: string): string => {
+    const y = date.split('-')[0];
+    return `VOL. ${y.slice(-2)}`;
+};

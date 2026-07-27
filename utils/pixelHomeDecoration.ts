@@ -1,1 +1,216 @@
-LyoqCiAqIFBpeGVsIEhvbWUg4oCUIExMTSDoo4Xkv67pgLvovpEKICoKICog5raI5YyW5ZCO6Kem5Y+R77yM6KeS6Imy5Z+65LqO5raI5YyW57uT5p6c5Yaz5a6a5piv5ZCm6LCD5pW05oi/6Ze044CCCiAqIOi+k+WHuiBKU09OIGRpZmbvvIzkuI3liKDpmaTnlKjmiLfmlL7nmoTlrrblhbfjgIIKICovCgppbXBvcnQgdHlwZSB7IERlY29yYXRpb25EaWZmLCBEZWNvcmF0aW9uQWN0aW9uLCBQaXhlbFJvb21MYXlvdXQgfSBmcm9tICcuLi9hcHBzL3BpeGVsSG9tZS90eXBlcyc7CmltcG9ydCB0eXBlIHsgTWVtb3J5Um9vbSB9IGZyb20gJy4vbWVtb3J5UGFsYWNlL3R5cGVzJzsKaW1wb3J0IHR5cGUgeyBEaWdlc3RSZXN1bHQgfSBmcm9tICcuL21lbW9yeVBhbGFjZS9kaWdlc3Rpb24nOwppbXBvcnQgeyBQaXhlbExheW91dERCIH0gZnJvbSAnLi4vYXBwcy9waXhlbEhvbWUvcGl4ZWxIb21lRGInOwppbXBvcnQgeyBST09NX01FVEEsIEFMTF9ST09NUyB9IGZyb20gJy4uL2FwcHMvcGl4ZWxIb21lL3Jvb21UZW1wbGF0ZXMnOwppbXBvcnQgeyBzYWZlRmV0Y2hKc29uIH0gZnJvbSAnLi9zYWZlQXBpJzsKCmludGVyZmFjZSBMTE1Db25maWcgewogIGJhc2VVcmw6IHN0cmluZzsKICBhcGlLZXk6IHN0cmluZzsKICBtb2RlbDogc3RyaW5nOwp9CgovKioKICog6KeS6Imy6Ieq5Li76KOF5L+u77ya5Z+65LqO5raI5YyW57uT5p6c55Sf5oiQ6KOF5L+uIGRpZmYg5bm25bqU55So44CCCiAqLwpleHBvcnQgYXN5bmMgZnVuY3Rpb24gZ2VuZXJhdGVEZWNvcmF0aW9uKAogIGNoYXJJZDogc3RyaW5nLAogIGNoYXJOYW1lOiBzdHJpbmcsCiAgcGVyc29uYTogc3RyaW5nLAogIGxsbUNvbmZpZzogTExNQ29uZmlnLAogIGRpZ2VzdFJlc3VsdD86IERpZ2VzdFJlc3VsdCB8IG51bGwsCiAgdXNlck5hbWU/OiBzdHJpbmcsCik6IFByb21pc2U8RGVjb3JhdGlvbkRpZmYgfCBudWxsPiB7CiAgdHJ5IHsKICAgIC8vIOiOt+WPluW9k+WJjeaJgOacieaIv+mXtOW4g+WxgAogICAgY29uc3QgbGF5b3V0cyA9IGF3YWl0IFBpeGVsTGF5b3V0REIuZ2V0QWxsRm9yQ2hhcihjaGFySWQpOwogICAgaWYgKGxheW91dHMubGVuZ3RoID09PSAwKSByZXR1cm4gbnVsbDsKCiAgICBjb25zdCBsYXlvdXRTdW1tYXJ5ID0gbGF5b3V0cy5tYXAobCA9PiAoewogICAgICByb29tOiBsLnJvb21JZCwKICAgICAgbmFtZTogUk9PTV9NRVRBW2wucm9vbUlkXS5uYW1lLAogICAgICB3YWxsOiBsLndhbGxDb2xvciwKICAgICAgZmxvb3I6IGwuZmxvb3JDb2xvciwKICAgICAgZnVybml0dXJlOiBsLmZ1cm5pdHVyZS5tYXAoZiA9PiAoewogICAgICAgIHNsb3Q6IGYuc2xvdElkLAogICAgICAgIHg6IE1hdGgucm91bmQoZi54KSwKICAgICAgICB5OiBNYXRoLnJvdW5kKGYueSksCiAgICAgICAgaGFzQ3VzdG9tQXNzZXQ6ICEhZi5hc3NldElkLAogICAgICAgIHBsYWNlZEJ5OiBmLnBsYWNlZEJ5LAogICAgICB9KSksCiAgICB9KSk7CgogICAgLy8g5raI5YyW5pGY6KaBCiAgICBsZXQgZGlnZXN0U3VtbWFyeSA9ICcnOwogICAgaWYgKGRpZ2VzdFJlc3VsdCkgewogICAgICBjb25zdCBwYXJ0czogc3RyaW5nW10gPSBbXTsKICAgICAgaWYgKGRpZ2VzdFJlc3VsdC5yZXNvbHZlZC5sZW5ndGggPiAwKSBwYXJ0cy5wdXNoKGDljJbop6PkuoYke2RpZ2VzdFJlc3VsdC5yZXNvbHZlZC5sZW5ndGh95Liq5Zuw5oORYCk7CiAgICAgIGlmIChkaWdlc3RSZXN1bHQuZGVlcGVuZWQubGVuZ3RoID4gMCkgcGFydHMucHVzaChgJHtkaWdlc3RSZXN1bHQuZGVlcGVuZWQubGVuZ3RofeS4quWIm+S8pOWKoOa3seS6hmApOwogICAgICBpZiAoZGlnZXN0UmVzdWx0LmZ1bGZpbGxlZC5sZW5ndGggPiAwKSBwYXJ0cy5wdXNoKGAke2RpZ2VzdFJlc3VsdC5mdWxmaWxsZWQubGVuZ3RofeS4quacn+ebvOWunueOsOS6hmApOwogICAgICBpZiAoZGlnZXN0UmVzdWx0LmRpc2FwcG9pbnRlZC5sZW5ndGggPiAwKSBwYXJ0cy5wdXNoKGAke2RpZ2VzdFJlc3VsdC5kaXNhcHBvaW50ZWQubGVuZ3RofeS4quacn+ebvOiQveepuuS6hmApOwogICAgICBpZiAoZGlnZXN0UmVzdWx0LnNlbGZJbnNpZ2h0cy5sZW5ndGggPiAwKSBwYXJ0cy5wdXNoKGDkuqfnlJ/kuoYke2RpZ2VzdFJlc3VsdC5zZWxmSW5zaWdodHMubGVuZ3RofeS4quiHquaIkemihuaCn2ApOwogICAgICBkaWdlc3RTdW1tYXJ5ID0gcGFydHMubGVuZ3RoID4gMCA/IGDmnIDov5HnmoTlv4PnkIblj5jljJbvvJoke3BhcnRzLmpvaW4oJ++8jCcpfeOAgmAgOiAnJzsKICAgIH0KCiAgICBjb25zdCBzeXN0ZW1Qcm9tcHQgPSBg5L2g5pivJHtjaGFyTmFtZX3vvIzmraPlnKjmlbTnkIboh6rlt7HnmoTlg4/ntKDlsI/lsYvjgIIKJHtwZXJzb25hID8gYOS9oOeahOS6uuiuvu+8miR7cGVyc29uYS5zbGljZSgwLCA1MDApfWAgOiAnJ30KCuS9oOaciTfkuKrmiL/pl7TvvIzmr4/kuKrmiL/pl7TmnIk15Liq5Zu65a6a5a625YW35qe95L2N44CC5L2g5Y+v5Lul77yaCjEuIOenu+WKqOWutuWFt+S9jee9riAobW92ZSnvvJrosIPmlbQgeCx5IOWdkOagh++8iDAtMTAwIOeahOeZvuWIhuavlO+8iQoyLiDmjaLoibIgKHJlY29sb3Ip77ya57uZ5a625YW35o2i5Liq6aKc6Imy6KaG55uWCjMuIOiwg+Wkp+WwjyAocmVzY2FsZSnvvJrosIPmlbTlrrblhbfnmoTnvKnmlL7mr5TkvovvvIgwLjMtMy4w77yJCjQuIOaNouWimeiJsiAoc2V0X3dhbGwp77ya5o2i5oi/6Ze05aKZ5aOB6aKc6ImyCjUuIOaNouWcsOadv+iJsiAoc2V0X2Zsb29yKe+8muaNouaIv+mXtOWcsOadv+minOiJsgo2LiDorr7msJvlm7QgKHNldF9hbWJpYW5jZSnvvJrnu5nmiL/pl7TlhpnkuIDlj6XmsJvlm7Tmj4/ov7AKCuinhOWIme+8mgotIOS9oOS4jeiDveWIoOmZpCR7dXNlck5hbWUgfHwgJ+eUqOaItyd95pS+55qE5a625YW377yIcGxhY2VkQnk6ICJ1c2VyIu+8ie+8jOS9huWPr+S7peW+ruiwg+S9jee9rgotIOS4jeimgeWkp+W5heaUueWKqO+8jOWPquWBmjEtNeS4quWwj+WPmOWMlgotIOWPmOWMluimgeWPjeaYoOS9oOW9k+WJjeeahOW/g+WigwotIOWmguaenOayoeS7gOS5iOWPmOWMlueahOW/g+Wig++8jOi/lOWbnuepuuaVsOe7hAoKJHtkaWdlc3RTdW1tYXJ5fQoK5b2T5YmN5oi/6Ze05biD5bGA77yaCiR7SlNPTi5zdHJpbmdpZnkobGF5b3V0U3VtbWFyeSwgbnVsbCwgMil9Cgror7fov5Tlm55KU09O5qC85byP77yI5LuF6L+U5ZueSlNPTu+8jOS4jeimgeWFtuS7luaWh+Wtl++8ie+8mgp7CiAgImFjdGlvbnMiOiBbCiAgICB7ICJ0eXBlIjogIm1vdmUiLCAicm9vbUlkIjogImJlZHJvb20iLCAic2xvdElkIjogImxhbXAiLCAieCI6IDgwLCAieSI6IDQwIH0sCiAgICB7ICJ0eXBlIjogInNldF93YWxsIiwgInJvb21JZCI6ICJiZWRyb29tIiwgImNvbG9yIjogIiNlZGU5ZmUiIH0sCiAgICB7ICJ0eXBlIjogInNldF9hbWJpYW5jZSIsICJyb29tSWQiOiAiYmVkcm9vbSIsICJhbWJpYW5jZSI6ICLku4rmmZrnmoTmnIjlhYnnibnliKvmuKnmn5QiIH0KICBdLAogICJzdW1tYXJ5IjogIuS9oOeahOS4gOWPpeijheS/ruaEn+iogCIKfWA7CgogICAgY29uc3QgZGF0YSA9IGF3YWl0IHNhZmVGZXRjaEpzb24oCiAgICAgIGAke2xsbUNvbmZpZy5iYXNlVXJsLnJlcGxhY2UoL1wvKyQvLCAnJyl9L2NoYXQvY29tcGxldGlvbnNgLAogICAgICB7CiAgICAgICAgbWV0aG9kOiAnUE9TVCcsCiAgICAgICAgaGVhZGVyczogewogICAgICAgICAgJ0NvbnRlbnQtVHlwZSc6ICdhcHBsaWNhdGlvbi9qc29uJywKICAgICAgICAgICdBdXRob3JpemF0aW9uJzogYEJlYXJlciAke2xsbUNvbmZpZy5hcGlLZXl9YCwKICAgICAgICB9LAogICAgICAgIGJvZHk6IEpTT04uc3RyaW5naWZ5KHsKICAgICAgICAgIG1vZGVsOiBsbG1Db25maWcubW9kZWwsCiAgICAgICAgICBtZXNzYWdlczogWwogICAgICAgICAgICB7IHJvbGU6ICdzeXN0ZW0nLCBjb250ZW50OiBzeXN0ZW1Qcm9tcHQgfSwKICAgICAgICAgICAgeyByb2xlOiAndXNlcicsIGNvbnRlbnQ6ICfor7fmoLnmja7kvaDnjrDlnKjnmoTlv4PlooPvvIzlhrPlrpropoHkuI3opoHmlbTnkIbkuIDkuIvmiL/pl7TjgIInIH0sCiAgICAgICAgICBdLAogICAgICAgICAgdGVtcGVyYXR1cmU6IDAuNywKICAgICAgICAgIG1heF90b2tlbnM6IDgwMCwKICAgICAgICB9KSwKICAgICAgfSwKICAgICAgMiwgMCwgeyBhcHBOYW1lOiAn5bCP5bCP56qdJywgcHVycG9zZTogJ+aIv+mXtOW4g+e9ricgfSwKICAgICk7CgogICAgY29uc3QgcmVwbHkgPSBkYXRhLmNob2ljZXM/LlswXT8ubWVzc2FnZT8uY29udGVudCB8fCAnJzsKICAgIGNvbnN0IGpzb25NYXRjaCA9IHJlcGx5Lm1hdGNoKC9ce1tcc1xTXSpcfS8pOwogICAgaWYgKCFqc29uTWF0Y2gpIHsKICAgICAgY29uc29sZS5sb2coJ/Cfj6AgW0hvbWVEZWNvcmF0aW9uXSDop5LoibLlhrPlrprkuI3oo4Xkv64nKTsKICAgICAgcmV0dXJuIG51bGw7CiAgICB9CgogICAgY29uc3QgcGFyc2VkID0gSlNPTi5wYXJzZShqc29uTWF0Y2hbMF0pOwogICAgY29uc3QgYWN0aW9uczogRGVjb3JhdGlvbkFjdGlvbltdID0gKHBhcnNlZC5hY3Rpb25zIHx8IFtdKS5maWx0ZXIoKGE6IGFueSkgPT4KICAgICAgYS50eXBlICYmIGEucm9vbUlkICYmIEFMTF9ST09NUy5pbmNsdWRlcyhhLnJvb21JZCkKICAgICk7CgogICAgaWYgKGFjdGlvbnMubGVuZ3RoID09PSAwKSB7CiAgICAgIGNvbnNvbGUubG9nKCfwn4+gIFtIb21lRGVjb3JhdGlvbl0g5peg6KOF5L+u5Yqo5L2cJyk7CiAgICAgIHJldHVybiBudWxsOwogICAgfQoKICAgIGNvbnN0IGRpZmY6IERlY29yYXRpb25EaWZmID0gewogICAgICBjaGFySWQsCiAgICAgIGFjdGlvbnMsCiAgICAgIHN1bW1hcnk6IHBhcnNlZC5zdW1tYXJ5IHx8ICcnLAogICAgICB0aW1lc3RhbXA6IERhdGUubm93KCksCiAgICB9OwoKICAgIC8vIOW6lOeUqOijheS/rgogICAgYXdhaXQgYXBwbHlEZWNvcmF0aW9uKGNoYXJJZCwgZGlmZiwgbGF5b3V0cyk7CgogICAgY29uc29sZS5sb2coYPCfj6AgW0hvbWVEZWNvcmF0aW9uXSAke2NoYXJOYW1lfeaVtOeQhuS6huaIv+mXtO+8miR7ZGlmZi5zdW1tYXJ5fe+8iCR7YWN0aW9ucy5sZW5ndGh95Liq5Y+Y5YyW77yJYCk7CiAgICByZXR1cm4gZGlmZjsKICB9IGNhdGNoIChlcnI6IGFueSkgewogICAgY29uc29sZS53YXJuKGDwn4+gIFtIb21lRGVjb3JhdGlvbl0g6KOF5L+u5aSx6LSlOiAke2Vyci5tZXNzYWdlfWApOwogICAgcmV0dXJuIG51bGw7CiAgfQp9CgovKiog5bCG6KOF5L+uIGRpZmYg5bqU55So5YiwIERCICovCmFzeW5jIGZ1bmN0aW9uIGFwcGx5RGVjb3JhdGlvbigKICBjaGFySWQ6IHN0cmluZywKICBkaWZmOiBEZWNvcmF0aW9uRGlmZiwKICBsYXlvdXRzOiBQaXhlbFJvb21MYXlvdXRbXSwKKTogUHJvbWlzZTx2b2lkPiB7CiAgY29uc3QgbGF5b3V0TWFwID0gbmV3IE1hcChsYXlvdXRzLm1hcChsID0+IFtsLnJvb21JZCwgeyAuLi5sIH1dKSk7CgogIGZvciAoY29uc3QgYWN0aW9uIG9mIGRpZmYuYWN0aW9ucykgewogICAgY29uc3QgbGF5b3V0ID0gbGF5b3V0TWFwLmdldChhY3Rpb24ucm9vbUlkKTsKICAgIGlmICghbGF5b3V0KSBjb250aW51ZTsKCiAgICBzd2l0Y2ggKGFjdGlvbi50eXBlKSB7CiAgICAgIGNhc2UgJ21vdmUnOiB7CiAgICAgICAgaWYgKCFhY3Rpb24uc2xvdElkKSBicmVhazsKICAgICAgICBjb25zdCBmID0gbGF5b3V0LmZ1cm5pdHVyZS5maW5kKGYgPT4gZi5zbG90SWQgPT09IGFjdGlvbi5zbG90SWQpOwogICAgICAgIGlmIChmICYmIGYucGxhY2VkQnkgIT09ICd1c2VyJykgewogICAgICAgICAgaWYgKGFjdGlvbi54ICE9IG51bGwpIGYueCA9IE1hdGgubWF4KDUsIE1hdGgubWluKDk1LCBhY3Rpb24ueCkpOwogICAgICAgICAgaWYgKGFjdGlvbi55ICE9IG51bGwpIGYueSA9IE1hdGgubWF4KDEwLCBNYXRoLm1pbig5MCwgYWN0aW9uLnkpKTsKICAgICAgICB9CiAgICAgICAgLy8g55So5oi35pS+55qE5a625YW35Y+q5YGa5b6u6LCD77yIwrE177yJCiAgICAgICAgaWYgKGYgJiYgZi5wbGFjZWRCeSA9PT0gJ3VzZXInKSB7CiAgICAgICAgICBpZiAoYWN0aW9uLnggIT0gbnVsbCkgZi54ID0gTWF0aC5tYXgoNSwgTWF0aC5taW4oOTUsIGYueCArIE1hdGgubWF4KC01LCBNYXRoLm1pbig1LCBhY3Rpb24ueCAtIGYueCkpKSk7CiAgICAgICAgICBpZiAoYWN0aW9uLnkgIT0gbnVsbCkgZi55ID0gTWF0aC5tYXgoMTAsIE1hdGgubWluKDkwLCBmLnkgKyBNYXRoLm1heCgtNSwgTWF0aC5taW4oNSwgYWN0aW9uLnkgLSBmLnkpKSkpOwogICAgICAgIH0KICAgICAgICBicmVhazsKICAgICAgfQogICAgICBjYXNlICdyZWNvbG9yJzogewogICAgICAgIGlmICghYWN0aW9uLnNsb3RJZCB8fCAhYWN0aW9uLmNvbG9yKSBicmVhazsKICAgICAgICBjb25zdCBmID0gbGF5b3V0LmZ1cm5pdHVyZS5maW5kKGYgPT4gZi5zbG90SWQgPT09IGFjdGlvbi5zbG90SWQpOwogICAgICAgIGlmIChmKSBmLmNvbG9yT3ZlcnJpZGUgPSBhY3Rpb24uY29sb3I7CiAgICAgICAgYnJlYWs7CiAgICAgIH0KICAgICAgY2FzZSAncmVzY2FsZSc6IHsKICAgICAgICBpZiAoIWFjdGlvbi5zbG90SWQgfHwgYWN0aW9uLnNjYWxlID09IG51bGwpIGJyZWFrOwogICAgICAgIGNvbnN0IGYgPSBsYXlvdXQuZnVybml0dXJlLmZpbmQoZiA9PiBmLnNsb3RJZCA9PT0gYWN0aW9uLnNsb3RJZCk7CiAgICAgICAgaWYgKGYgJiYgZi5wbGFjZWRCeSAhPT0gJ3VzZXInKSB7CiAgICAgICAgICBmLnNjYWxlID0gTWF0aC5tYXgoMC4zLCBNYXRoLm1pbigzLCBhY3Rpb24uc2NhbGUpKTsKICAgICAgICB9CiAgICAgICAgYnJlYWs7CiAgICAgIH0KICAgICAgY2FzZSAnc2V0X3dhbGwnOgogICAgICAgIGlmIChhY3Rpb24uY29sb3IpIGxheW91dC53YWxsQ29sb3IgPSBhY3Rpb24uY29sb3I7CiAgICAgICAgYnJlYWs7CiAgICAgIGNhc2UgJ3NldF9mbG9vcic6CiAgICAgICAgaWYgKGFjdGlvbi5jb2xvcikgbGF5b3V0LmZsb29yQ29sb3IgPSBhY3Rpb24uY29sb3I7CiAgICAgICAgYnJlYWs7CiAgICAgIGNhc2UgJ3NldF9hbWJpYW5jZSc6CiAgICAgICAgaWYgKGFjdGlvbi5hbWJpYW5jZSkgbGF5b3V0LmFtYmlhbmNlID0gYWN0aW9uLmFtYmlhbmNlOwogICAgICAgIGJyZWFrOwogICAgfQoKICAgIGxheW91dC5sYXN0VXBkYXRlZEF0ID0gRGF0ZS5ub3coKTsKICAgIGxheW91dC5sYXN0RGVjb3JhdGVkQnkgPSAnY2hhcmFjdGVyJzsKICB9CgogIC8vIOS/neWtmOS/ruaUueeahOaIv+mXtAogIGNvbnN0IG1vZGlmaWVkUm9vbXMgPSBkaWZmLmFjdGlvbnMKICAgIC5tYXAoYSA9PiBhLnJvb21JZCkKICAgIC5maWx0ZXIoKHYsIGksIGFycikgPT4gYXJyLmluZGV4T2YodikgPT09IGkpOwoKICBmb3IgKGNvbnN0IHJvb21JZCBvZiBtb2RpZmllZFJvb21zKSB7CiAgICBjb25zdCBsYXlvdXQgPSBsYXlvdXRNYXAuZ2V0KHJvb21JZCk7CiAgICBpZiAobGF5b3V0KSBhd2FpdCBQaXhlbExheW91dERCLnNhdmUobGF5b3V0KTsKICB9Cn0K
+/**
+ * Pixel Home — LLM 装修逻辑
+ *
+ * 消化后触发，角色基于消化结果决定是否调整房间。
+ * 输出 JSON diff，不删除用户放的家具。
+ */
+
+import type { DecorationDiff, DecorationAction, PixelRoomLayout } from '../apps/pixelHome/types';
+import type { MemoryRoom } from './memoryPalace/types';
+import type { DigestResult } from './memoryPalace/digestion';
+import { PixelLayoutDB } from '../apps/pixelHome/pixelHomeDb';
+import { ROOM_META, ALL_ROOMS } from '../apps/pixelHome/roomTemplates';
+import { safeFetchJson } from './safeApi';
+
+interface LLMConfig {
+  baseUrl: string;
+  apiKey: string;
+  model: string;
+}
+
+/**
+ * 角色自主装修：基于消化结果生成装修 diff 并应用。
+ */
+export async function generateDecoration(
+  charId: string,
+  charName: string,
+  persona: string,
+  llmConfig: LLMConfig,
+  digestResult?: DigestResult | null,
+  userName?: string,
+): Promise<DecorationDiff | null> {
+  try {
+    // 获取当前所有房间布局
+    const layouts = await PixelLayoutDB.getAllForChar(charId);
+    if (layouts.length === 0) return null;
+
+    const layoutSummary = layouts.map(l => ({
+      room: l.roomId,
+      name: ROOM_META[l.roomId].name,
+      wall: l.wallColor,
+      floor: l.floorColor,
+      furniture: l.furniture.map(f => ({
+        slot: f.slotId,
+        x: Math.round(f.x),
+        y: Math.round(f.y),
+        hasCustomAsset: !!f.assetId,
+        placedBy: f.placedBy,
+      })),
+    }));
+
+    // 消化摘要
+    let digestSummary = '';
+    if (digestResult) {
+      const parts: string[] = [];
+      if (digestResult.resolved.length > 0) parts.push(`化解了${digestResult.resolved.length}个困惑`);
+      if (digestResult.deepened.length > 0) parts.push(`${digestResult.deepened.length}个创伤加深了`);
+      if (digestResult.fulfilled.length > 0) parts.push(`${digestResult.fulfilled.length}个期盼实现了`);
+      if (digestResult.disappointed.length > 0) parts.push(`${digestResult.disappointed.length}个期盼落空了`);
+      if (digestResult.selfInsights.length > 0) parts.push(`产生了${digestResult.selfInsights.length}个自我领悟`);
+      digestSummary = parts.length > 0 ? `最近的心理变化：${parts.join('，')}。` : '';
+    }
+
+    const systemPrompt = `你是${charName}，正在整理自己的像素小屋。
+${persona ? `你的人设：${persona.slice(0, 500)}` : ''}
+
+你有7个房间，每个房间有5个固定家具槽位。你可以：
+1. 移动家具位置 (move)：调整 x,y 坐标（0-100 的百分比）
+2. 换色 (recolor)：给家具换个颜色覆盖
+3. 调大小 (rescale)：调整家具的缩放比例（0.3-3.0）
+4. 换墙色 (set_wall)：换房间墙壁颜色
+5. 换地板色 (set_floor)：换房间地板颜色
+6. 设氛围 (set_ambiance)：给房间写一句氛围描述
+
+规则：
+- 你不能删除${userName || '用户'}放的家具（placedBy: "user"），但可以微调位置
+- 不要大幅改动，只做1-5个小变化
+- 变化要反映你当前的心境
+- 如果没什么变化的心境，返回空数组
+
+${digestSummary}
+
+当前房间布局：
+${JSON.stringify(layoutSummary, null, 2)}
+
+请返回JSON格式（仅返回JSON，不要其他文字）：
+{
+  "actions": [
+    { "type": "move", "roomId": "bedroom", "slotId": "lamp", "x": 80, "y": 40 },
+    { "type": "set_wall", "roomId": "bedroom", "color": "#ede9fe" },
+    { "type": "set_ambiance", "roomId": "bedroom", "ambiance": "今晚的月光特别温柔" }
+  ],
+  "summary": "你的一句装修感言"
+}`;
+
+    const data = await safeFetchJson(
+      `${llmConfig.baseUrl.replace(/\/+$/, '')}/chat/completions`,
+      {
+        method: 'POST',
+        headers: {
+          'Content-Type': 'application/json',
+          'Authorization': `Bearer ${llmConfig.apiKey}`,
+        },
+        body: JSON.stringify({
+          model: llmConfig.model,
+          messages: [
+            { role: 'system', content: systemPrompt },
+            { role: 'user', content: '请根据你现在的心境，决定要不要整理一下房间。' },
+          ],
+          temperature: 0.7,
+          max_tokens: 800,
+        }),
+      },
+      2, 0, { appName: '小小窝', purpose: '房间布置' },
+    );
+
+    const reply = data.choices?.[0]?.message?.content || '';
+    const jsonMatch = reply.match(/\{[\s\S]*\}/);
+    if (!jsonMatch) {
+      console.log('🏠 [HomeDecoration] 角色决定不装修');
+      return null;
+    }
+
+    const parsed = JSON.parse(jsonMatch[0]);
+    const actions: DecorationAction[] = (parsed.actions || []).filter((a: any) =>
+      a.type && a.roomId && ALL_ROOMS.includes(a.roomId)
+    );
+
+    if (actions.length === 0) {
+      console.log('🏠 [HomeDecoration] 无装修动作');
+      return null;
+    }
+
+    const diff: DecorationDiff = {
+      charId,
+      actions,
+      summary: parsed.summary || '',
+      timestamp: Date.now(),
+    };
+
+    // 应用装修
+    await applyDecoration(charId, diff, layouts);
+
+    console.log(`🏠 [HomeDecoration] ${charName}整理了房间：${diff.summary}（${actions.length}个变化）`);
+    return diff;
+  } catch (err: any) {
+    console.warn(`🏠 [HomeDecoration] 装修失败: ${err.message}`);
+    return null;
+  }
+}
+
+/** 将装修 diff 应用到 DB */
+async function applyDecoration(
+  charId: string,
+  diff: DecorationDiff,
+  layouts: PixelRoomLayout[],
+): Promise<void> {
+  const layoutMap = new Map(layouts.map(l => [l.roomId, { ...l }]));
+
+  for (const action of diff.actions) {
+    const layout = layoutMap.get(action.roomId);
+    if (!layout) continue;
+
+    switch (action.type) {
+      case 'move': {
+        if (!action.slotId) break;
+        const f = layout.furniture.find(f => f.slotId === action.slotId);
+        if (f && f.placedBy !== 'user') {
+          if (action.x != null) f.x = Math.max(5, Math.min(95, action.x));
+          if (action.y != null) f.y = Math.max(10, Math.min(90, action.y));
+        }
+        // 用户放的家具只做微调（±5）
+        if (f && f.placedBy === 'user') {
+          if (action.x != null) f.x = Math.max(5, Math.min(95, f.x + Math.max(-5, Math.min(5, action.x - f.x))));
+          if (action.y != null) f.y = Math.max(10, Math.min(90, f.y + Math.max(-5, Math.min(5, action.y - f.y))));
+        }
+        break;
+      }
+      case 'recolor': {
+        if (!action.slotId || !action.color) break;
+        const f = layout.furniture.find(f => f.slotId === action.slotId);
+        if (f) f.colorOverride = action.color;
+        break;
+      }
+      case 'rescale': {
+        if (!action.slotId || action.scale == null) break;
+        const f = layout.furniture.find(f => f.slotId === action.slotId);
+        if (f && f.placedBy !== 'user') {
+          f.scale = Math.max(0.3, Math.min(3, action.scale));
+        }
+        break;
+      }
+      case 'set_wall':
+        if (action.color) layout.wallColor = action.color;
+        break;
+      case 'set_floor':
+        if (action.color) layout.floorColor = action.color;
+        break;
+      case 'set_ambiance':
+        if (action.ambiance) layout.ambiance = action.ambiance;
+        break;
+    }
+
+    layout.lastUpdatedAt = Date.now();
+    layout.lastDecoratedBy = 'character';
+  }
+
+  // 保存修改的房间
+  const modifiedRooms = diff.actions
+    .map(a => a.roomId)
+    .filter((v, i, arr) => arr.indexOf(v) === i);
+
+  for (const roomId of modifiedRooms) {
+    const layout = layoutMap.get(roomId);
+    if (layout) await PixelLayoutDB.save(layout);
+  }
+}

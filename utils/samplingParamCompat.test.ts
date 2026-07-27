@@ -1,1 +1,73 @@
-aW1wb3J0IHsgZGVzY3JpYmUsIGl0LCBleHBlY3QgfSBmcm9tICd2aXRlc3QnOwppbXBvcnQgeyBtb2RlbFJlamVjdHNTYW1wbGluZ1BhcmFtcywgc3RyaXBTYW1wbGluZ1BhcmFtcywgaXNTYW1wbGluZ1BhcmFtRXJyb3IgfSBmcm9tICcuL3NhbXBsaW5nUGFyYW1Db21wYXQnOwoKZGVzY3JpYmUoJ21vZGVsUmVqZWN0c1NhbXBsaW5nUGFyYW1zJywgKCkgPT4gewogICAgaXQoJ+ivhuWIq+S8muW6n+W8g+mHh+agt+WPguaVsOeahOaooeWei++8iOW4puS4iiB0ZW1wZXJhdHVyZSDkvJogNDAw77yJJywgKCkgPT4gewogICAgICAgIGNvbnN0IHJlamVjdCA9IFsKICAgICAgICAgICAgJ2FudGhyb3BpYy9jbGF1ZGUtb3B1cy00LjgnLAogICAgICAgICAgICAnY2xhdWRlLW9wdXMtNC04JywKICAgICAgICAgICAgJ2NsYXVkZS1vcHVzLTQuNycsCiAgICAgICAgICAgICdhbnRocm9waWMvY2xhdWRlLW9wdXMtNC03JywKICAgICAgICAgICAgJ2NsYXVkZS1zb25uZXQtNScsCiAgICAgICAgICAgICdhbnRocm9waWMvY2xhdWRlLXNvbm5ldC01JywKICAgICAgICAgICAgJ2NsYXVkZS1mYWJsZS01JywKICAgICAgICAgICAgJ2NsYXVkZS1teXRob3MtNScsCiAgICAgICAgICAgICdvcGVuYWkvZ3B0LTUnLAogICAgICAgICAgICAnZ3B0LTUtbWluaScsCiAgICAgICAgICAgICdjbGF1ZGUtb3B1cy00LTgtZmFzdCcsCiAgICAgICAgXTsKICAgICAgICBmb3IgKGNvbnN0IG0gb2YgcmVqZWN0KSB7CiAgICAgICAgICAgIGV4cGVjdChtb2RlbFJlamVjdHNTYW1wbGluZ1BhcmFtcyhtKSwgbSkudG9CZSh0cnVlKTsKICAgICAgICB9CiAgICB9KTsKCiAgICBpdCgn5a+55LuN5o6l5Y+XIHRlbXBlcmF0dXJlIOeahOaooeWei+i/lOWbniBmYWxzZe+8iOS4jeivr+S8pO+8iScsICgpID0+IHsKICAgICAgICBjb25zdCBrZWVwID0gWwogICAgICAgICAgICAnY2xhdWRlLW9wdXMtNC02JywKICAgICAgICAgICAgJ2FudGhyb3BpYy9jbGF1ZGUtb3B1cy00LjYnLAogICAgICAgICAgICAnY2xhdWRlLW9wdXMtNC01JywKICAgICAgICAgICAgJ2NsYXVkZS1zb25uZXQtNC02JywKICAgICAgICAgICAgJ2NsYXVkZS1zb25uZXQtNC01JywKICAgICAgICAgICAgJ2NsYXVkZS1oYWlrdS00LTUnLAogICAgICAgICAgICAnZ3B0LTRvJywKICAgICAgICAgICAgJ2dwdC00LXR1cmJvJywKICAgICAgICAgICAgJ2RlZXBzZWVrLWNoYXQnLAogICAgICAgICAgICAnZ2VtaW5pLTIuMC1mbGFzaCcsCiAgICAgICAgICAgICcnLAogICAgICAgICAgICB1bmRlZmluZWQsCiAgICAgICAgICAgIG51bGwsCiAgICAgICAgXTsKICAgICAgICBmb3IgKGNvbnN0IG0gb2Yga2VlcCkgewogICAgICAgICAgICBleHBlY3QobW9kZWxSZWplY3RzU2FtcGxpbmdQYXJhbXMobSBhcyBhbnkpLCBTdHJpbmcobSkpLnRvQmUoZmFsc2UpOwogICAgICAgIH0KICAgIH0pOwp9KTsKCmRlc2NyaWJlKCdzdHJpcFNhbXBsaW5nUGFyYW1zJywgKCkgPT4gewogICAgaXQoJ+aRmOaOiSB0ZW1wZXJhdHVyZS90b3BfcC90b3BfayDlubbmiqXlkYrmnInmlLnliqgnLCAoKSA9PiB7CiAgICAgICAgY29uc3QgYm9keTogYW55ID0geyBtb2RlbDogJ3gnLCBtZXNzYWdlczogW10sIHRlbXBlcmF0dXJlOiAwLjg1LCB0b3BfcDogMC45LCB0b3BfazogNDAsIG1heF90b2tlbnM6IDEwMCB9OwogICAgICAgIGV4cGVjdChzdHJpcFNhbXBsaW5nUGFyYW1zKGJvZHkpKS50b0JlKHRydWUpOwogICAgICAgIGV4cGVjdCgndGVtcGVyYXR1cmUnIGluIGJvZHkpLnRvQmUoZmFsc2UpOwogICAgICAgIGV4cGVjdCgndG9wX3AnIGluIGJvZHkpLnRvQmUoZmFsc2UpOwogICAgICAgIGV4cGVjdCgndG9wX2snIGluIGJvZHkpLnRvQmUoZmFsc2UpOwogICAgICAgIGV4cGVjdChib2R5Lm1heF90b2tlbnMpLnRvQmUoMTAwKTsgLy8g5YW25a6D5a2X5q615L+d55WZCiAgICB9KTsKCiAgICBpdCgn5rKh5pyJ6YeH5qC35Y+C5pWw5pe26L+U5ZueIGZhbHNlJywgKCkgPT4gewogICAgICAgIGV4cGVjdChzdHJpcFNhbXBsaW5nUGFyYW1zKHsgbW9kZWw6ICd4JywgbWVzc2FnZXM6IFtdIH0pKS50b0JlKGZhbHNlKTsKICAgIH0pOwp9KTsKCmRlc2NyaWJlKCdpc1NhbXBsaW5nUGFyYW1FcnJvcicsICgpID0+IHsKICAgIGl0KCflkb3kuK0gcHJvdmlkZXIg55qEIHRlbXBlcmF0dXJlIOW6n+W8g+aKpeaWhycsICgpID0+IHsKICAgICAgICBleHBlY3QoaXNTYW1wbGluZ1BhcmFtRXJyb3IoJ3RlbXBlcmF0dXJlIGlzIGRlcHJlY2F0ZWQgZm9yIHRoaXMgbW9kZWwuJykpLnRvQmUodHJ1ZSk7CiAgICAgICAgZXhwZWN0KGlzU2FtcGxpbmdQYXJhbUVycm9yKCd7ImVycm9yIjp7Im1lc3NhZ2UiOiJ0ZW1wZXJhdHVyZSBpcyBub3Qgc3VwcG9ydGVkIn19JykpLnRvQmUodHJ1ZSk7CiAgICAgICAgZXhwZWN0KGlzU2FtcGxpbmdQYXJhbUVycm9yKCd0b3BfcCBpcyBubyBsb25nZXIgc3VwcG9ydGVkIG9uIHRoaXMgbW9kZWwnKSkudG9CZSh0cnVlKTsKICAgIH0pOwoKICAgIGl0KCflr7nml6DlhbMgNDAwIOaKpeaWh+S4jeivr+WIpCcsICgpID0+IHsKICAgICAgICBleHBlY3QoaXNTYW1wbGluZ1BhcmFtRXJyb3IoJ3Byb21wdCBpcyB0b28gbG9uZzogMTA0OTQnKSkudG9CZShmYWxzZSk7CiAgICAgICAgZXhwZWN0KGlzU2FtcGxpbmdQYXJhbUVycm9yKCdpbnZhbGlkIGFwaSBrZXknKSkudG9CZShmYWxzZSk7CiAgICAgICAgZXhwZWN0KGlzU2FtcGxpbmdQYXJhbUVycm9yKCcnKSkudG9CZShmYWxzZSk7CiAgICB9KTsKfSk7Cg==
+import { describe, it, expect } from 'vitest';
+import { modelRejectsSamplingParams, stripSamplingParams, isSamplingParamError } from './samplingParamCompat';
+
+describe('modelRejectsSamplingParams', () => {
+    it('识别会废弃采样参数的模型（带上 temperature 会 400）', () => {
+        const reject = [
+            'anthropic/claude-opus-4.8',
+            'claude-opus-4-8',
+            'claude-opus-4.7',
+            'anthropic/claude-opus-4-7',
+            'claude-sonnet-5',
+            'anthropic/claude-sonnet-5',
+            'claude-fable-5',
+            'claude-mythos-5',
+            'openai/gpt-5',
+            'gpt-5-mini',
+            'claude-opus-4-8-fast',
+        ];
+        for (const m of reject) {
+            expect(modelRejectsSamplingParams(m), m).toBe(true);
+        }
+    });
+
+    it('对仍接受 temperature 的模型返回 false（不误伤）', () => {
+        const keep = [
+            'claude-opus-4-6',
+            'anthropic/claude-opus-4.6',
+            'claude-opus-4-5',
+            'claude-sonnet-4-6',
+            'claude-sonnet-4-5',
+            'claude-haiku-4-5',
+            'gpt-4o',
+            'gpt-4-turbo',
+            'deepseek-chat',
+            'gemini-2.0-flash',
+            '',
+            undefined,
+            null,
+        ];
+        for (const m of keep) {
+            expect(modelRejectsSamplingParams(m as any), String(m)).toBe(false);
+        }
+    });
+});
+
+describe('stripSamplingParams', () => {
+    it('摘掉 temperature/top_p/top_k 并报告有改动', () => {
+        const body: any = { model: 'x', messages: [], temperature: 0.85, top_p: 0.9, top_k: 40, max_tokens: 100 };
+        expect(stripSamplingParams(body)).toBe(true);
+        expect('temperature' in body).toBe(false);
+        expect('top_p' in body).toBe(false);
+        expect('top_k' in body).toBe(false);
+        expect(body.max_tokens).toBe(100); // 其它字段保留
+    });
+
+    it('没有采样参数时返回 false', () => {
+        expect(stripSamplingParams({ model: 'x', messages: [] })).toBe(false);
+    });
+});
+
+describe('isSamplingParamError', () => {
+    it('命中 provider 的 temperature 废弃报文', () => {
+        expect(isSamplingParamError('temperature is deprecated for this model.')).toBe(true);
+        expect(isSamplingParamError('{"error":{"message":"temperature is not supported"}}')).toBe(true);
+        expect(isSamplingParamError('top_p is no longer supported on this model')).toBe(true);
+    });
+
+    it('对无关 400 报文不误判', () => {
+        expect(isSamplingParamError('prompt is too long: 10494')).toBe(false);
+        expect(isSamplingParamError('invalid api key')).toBe(false);
+        expect(isSamplingParamError('')).toBe(false);
+    });
+});

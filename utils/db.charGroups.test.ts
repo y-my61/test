@@ -1,1 +1,43 @@
-aW1wb3J0IHsgZGVzY3JpYmUsIGl0LCBleHBlY3QgfSBmcm9tICd2aXRlc3QnOwppbXBvcnQgeyBEQiB9IGZyb20gJy4vZGInOwppbXBvcnQgdHlwZSB7IENoYXJhY3RlclByb2ZpbGUsIENoYXJhY3Rlckdyb3VwIH0gZnJvbSAnLi4vdHlwZXMnOwoKLy8g6KeS6Imy5YiG57uE55qE5a+85Ye6L+WvvOWFpSByb3VuZC10cmlw77yaCi8vIOWIhue7hOWumuS5ieWtmOeLrOeriyBzdG9yZe+8iGNoYXJhY3Rlcl9ncm91cHPvvInvvIzop5LoibLlj6rluKYgZ3JvdXBJZCDmjIfpkojigJTigJQKLy8g5Lik6L655b+F6aG75ZCM6L+b6YCA77yM5ryP5o6J5Lu75L2V5LiA6L656YO95Lya6K6p5a+85YWl56uv5YWo5ZGY5Zue6JC944CM5pyq5YiG57uE44CN44CCCmRlc2NyaWJlKCfop5LoibLliIbnu4QgKGNoYXJhY3Rlcl9ncm91cHMgKyBncm91cElkKSDlr7zlh7ov5a+85YWlIHJvdW5kLXRyaXAnLCAoKSA9PiB7CiAgaXQoJ2V4cG9ydEZ1bGxEYXRhIOKGkiBKU09OIOKGkiBpbXBvcnRGdWxsRGF0YSDlkI7liIbnu4TlrprkuYnkuI7op5LoibIgZ3JvdXBJZCDpg73lnKgnLCBhc3luYyAoKSA9PiB7CiAgICBjb25zdCBncm91cDogQ2hhcmFjdGVyR3JvdXAgPSB7IGlkOiAnY2dyb3VwLXJ0LTEnLCBuYW1lOiAn5rWL6K+V5YiG57uEJywgY3JlYXRlZEF0OiAxNzE4OTAwMDAwMDAwIH07CiAgICBjb25zdCBjaGFyID0gewogICAgICBpZDogJ2Nncm91cC1ydC1jaGFyJywKICAgICAgbmFtZTogJ+Wwj+e7hOWRmCcsCiAgICAgIGF2YXRhcjogJycsCiAgICAgIGRlc2NyaXB0aW9uOiAnJywKICAgICAgc3lzdGVtUHJvbXB0OiAnJywKICAgICAgbWVtb3JpZXM6IFtdLAogICAgICBncm91cElkOiAnY2dyb3VwLXJ0LTEnLAogICAgfSBhcyB1bmtub3duIGFzIENoYXJhY3RlclByb2ZpbGU7CgogICAgYXdhaXQgREIuc2F2ZUNoYXJhY3Rlckdyb3VwKGdyb3VwKTsKICAgIGF3YWl0IERCLnNhdmVDaGFyYWN0ZXIoY2hhcik7CgogICAgLy8gMSkg5a+85Ye6ICsg5qih5ouf5YaZ5paH5Lu2L+ivu+aWh+S7tgogICAgY29uc3QgZXhwb3J0ZWQgPSBhd2FpdCBEQi5leHBvcnRGdWxsRGF0YSgpOwogICAgY29uc3Qgb25EaXNrID0gSlNPTi5wYXJzZShKU09OLnN0cmluZ2lmeShleHBvcnRlZCkpOwoKICAgIC8vIOWvvOWHuueJqemHjOW/hemhu+WQjOaXtuW4puedgOWIhue7hOWumuS5ieWSjOinkuiJsueahCBncm91cElkCiAgICBleHBlY3QoKG9uRGlzay5jaGFyYWN0ZXJHcm91cHMgYXMgQ2hhcmFjdGVyR3JvdXBbXSkuZmluZChnID0+IGcuaWQgPT09ICdjZ3JvdXAtcnQtMScpPy5uYW1lKS50b0JlKCfmtYvor5XliIbnu4QnKTsKICAgIGV4cGVjdCgob25EaXNrLmNoYXJhY3RlcnMgYXMgQ2hhcmFjdGVyUHJvZmlsZVtdKS5maW5kKGMgPT4gYy5pZCA9PT0gJ2Nncm91cC1ydC1jaGFyJyk/Lmdyb3VwSWQpLnRvQmUoJ2Nncm91cC1ydC0xJyk7CgogICAgLy8gMikg5riF5o6J5pys5Zyw5YaN5a+85YWl77yI5qih5ouf5o2i6K6+5aSH77ya5YiG57uE6KKr5Yig44CB6KeS6ImyIGdyb3VwSWQg6KKr5riF77yJCiAgICBhd2FpdCBEQi5kZWxldGVDaGFyYWN0ZXJHcm91cCgnY2dyb3VwLXJ0LTEnKTsKICAgIGF3YWl0IERCLnNhdmVDaGFyYWN0ZXIoeyAuLi5jaGFyLCBncm91cElkOiB1bmRlZmluZWQgfSBhcyBhbnkpOwogICAgYXdhaXQgREIuaW1wb3J0RnVsbERhdGEob25EaXNrIGFzIGFueSwge30pOwoKICAgIC8vIDMpIOWvvOWFpeWQjuWIhue7hOWumuS5ieS4juaMh+mSiOmDveW6lOaBouWkjQogICAgY29uc3QgZ3JvdXBzID0gYXdhaXQgREIuZ2V0Q2hhcmFjdGVyR3JvdXBzKCk7CiAgICBleHBlY3QoZ3JvdXBzLmZpbmQoZyA9PiBnLmlkID09PSAnY2dyb3VwLXJ0LTEnKT8ubmFtZSkudG9CZSgn5rWL6K+V5YiG57uEJyk7CiAgICBjb25zdCByZXN0b3JlZCA9IChhd2FpdCBEQi5nZXRBbGxDaGFyYWN0ZXJzKCkpLmZpbmQoYyA9PiBjLmlkID09PSAnY2dyb3VwLXJ0LWNoYXInKTsKICAgIGV4cGVjdChyZXN0b3JlZD8uZ3JvdXBJZCkudG9CZSgnY2dyb3VwLXJ0LTEnKTsKICB9KTsKfSk7Cg==
+import { describe, it, expect } from 'vitest';
+import { DB } from './db';
+import type { CharacterProfile, CharacterGroup } from '../types';
+
+// 角色分组的导出/导入 round-trip：
+// 分组定义存独立 store（character_groups），角色只带 groupId 指针——
+// 两边必须同进退，漏掉任何一边都会让导入端全员回落「未分组」。
+describe('角色分组 (character_groups + groupId) 导出/导入 round-trip', () => {
+  it('exportFullData → JSON → importFullData 后分组定义与角色 groupId 都在', async () => {
+    const group: CharacterGroup = { id: 'cgroup-rt-1', name: '测试分组', createdAt: 1718900000000 };
+    const char = {
+      id: 'cgroup-rt-char',
+      name: '小组员',
+      avatar: '',
+      description: '',
+      systemPrompt: '',
+      memories: [],
+      groupId: 'cgroup-rt-1',
+    } as unknown as CharacterProfile;
+
+    await DB.saveCharacterGroup(group);
+    await DB.saveCharacter(char);
+
+    // 1) 导出 + 模拟写文件/读文件
+    const exported = await DB.exportFullData();
+    const onDisk = JSON.parse(JSON.stringify(exported));
+
+    // 导出物里必须同时带着分组定义和角色的 groupId
+    expect((onDisk.characterGroups as CharacterGroup[]).find(g => g.id === 'cgroup-rt-1')?.name).toBe('测试分组');
+    expect((onDisk.characters as CharacterProfile[]).find(c => c.id === 'cgroup-rt-char')?.groupId).toBe('cgroup-rt-1');
+
+    // 2) 清掉本地再导入（模拟换设备：分组被删、角色 groupId 被清）
+    await DB.deleteCharacterGroup('cgroup-rt-1');
+    await DB.saveCharacter({ ...char, groupId: undefined } as any);
+    await DB.importFullData(onDisk as any, {});
+
+    // 3) 导入后分组定义与指针都应恢复
+    const groups = await DB.getCharacterGroups();
+    expect(groups.find(g => g.id === 'cgroup-rt-1')?.name).toBe('测试分组');
+    const restored = (await DB.getAllCharacters()).find(c => c.id === 'cgroup-rt-char');
+    expect(restored?.groupId).toBe('cgroup-rt-1');
+  });
+});

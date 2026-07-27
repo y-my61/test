@@ -1,1 +1,101 @@
-aW1wb3J0IHsgYmVmb3JlRWFjaCwgZGVzY3JpYmUsIGV4cGVjdCwgaXQgfSBmcm9tICd2aXRlc3QnOwppbXBvcnQgewogIERFRkFVTFRfUFJPWFlfV09SS0VSLAogIGdldFByb3h5V29ya2VyVXJsLAogIHNldFByb3h5V29ya2VyVXJsLAogIGlzQ3VzdG9tUHJveHlXb3JrZXIsCiAgcmV3cml0ZVN0YWxlV29ya2VyVXJsLAp9IGZyb20gJy4vcHJveHlXb3JrZXInOwoKY29uc3QgTFNfS0VZID0gJ3N1bGx5X3Byb3h5X3dvcmtlcl91cmxfdjEnOwoKZGVzY3JpYmUoJ3Byb3h5V29ya2VyIOS4reW/g+mFjee9ricsICgpID0+IHsKICBiZWZvcmVFYWNoKCgpID0+IHsKICAgIGxvY2FsU3RvcmFnZS5jbGVhcigpOwogIH0pOwoKICBpdCgn5rKh6K6+6L+H5pe26L+U5Zue6buY6K6k5Zyw5Z2AJywgKCkgPT4gewogICAgZXhwZWN0KGdldFByb3h5V29ya2VyVXJsKCkpLnRvQmUoREVGQVVMVF9QUk9YWV9XT1JLRVIpOwogICAgZXhwZWN0KGlzQ3VzdG9tUHJveHlXb3JrZXIoKSkudG9CZShmYWxzZSk7CiAgfSk7CgogIGl0KCforr7kuoboh6rlrprkuYnlnLDlnYDlkI7or7vlvpfliLDvvIzkuJTmoIforrDkuLroh6rlrprkuYknLCAoKSA9PiB7CiAgICBzZXRQcm94eVdvcmtlclVybCgnaHR0cHM6Ly9teS13b3JrZXIuZXhhbXBsZS5jb20nKTsKICAgIGV4cGVjdChnZXRQcm94eVdvcmtlclVybCgpKS50b0JlKCdodHRwczovL215LXdvcmtlci5leGFtcGxlLmNvbScpOwogICAgZXhwZWN0KGlzQ3VzdG9tUHJveHlXb3JrZXIoKSkudG9CZSh0cnVlKTsKICB9KTsKCiAgaXQoJ+WOu+aOiemmluWwvuepuuagvOWSjOe7k+WwvuaWnOadoCcsICgpID0+IHsKICAgIHNldFByb3h5V29ya2VyVXJsKCcgIGh0dHBzOi8vbXktd29ya2VyLmV4YW1wbGUuY29tLy8vICAnKTsKICAgIGV4cGVjdChnZXRQcm94eVdvcmtlclVybCgpKS50b0JlKCdodHRwczovL215LXdvcmtlci5leGFtcGxlLmNvbScpOwogIH0pOwoKICBpdCgn5aGr55qE5bCx5piv6buY6K6k5Zyw5Z2AIOKGkiDmuIXnqbrlrZjlgqjvvIzlm57okL3pu5jorqQnLCAoKSA9PiB7CiAgICBzZXRQcm94eVdvcmtlclVybCgnaHR0cHM6Ly9teS13b3JrZXIuZXhhbXBsZS5jb20nKTsKICAgIGV4cGVjdChpc0N1c3RvbVByb3h5V29ya2VyKCkpLnRvQmUodHJ1ZSk7CiAgICBzZXRQcm94eVdvcmtlclVybChERUZBVUxUX1BST1hZX1dPUktFUik7CiAgICBleHBlY3QobG9jYWxTdG9yYWdlLmdldEl0ZW0oTFNfS0VZKSkudG9CZU51bGwoKTsKICAgIGV4cGVjdChnZXRQcm94eVdvcmtlclVybCgpKS50b0JlKERFRkFVTFRfUFJPWFlfV09SS0VSKTsKICB9KTsKCiAgaXQoJ+S8oOepuuWtl+espuS4siDihpIg5riF56m65a2Y5YKo77yM5Zue6JC96buY6K6kJywgKCkgPT4gewogICAgc2V0UHJveHlXb3JrZXJVcmwoJ2h0dHBzOi8vbXktd29ya2VyLmV4YW1wbGUuY29tJyk7CiAgICBzZXRQcm94eVdvcmtlclVybCgnJyk7CiAgICBleHBlY3QobG9jYWxTdG9yYWdlLmdldEl0ZW0oTFNfS0VZKSkudG9CZU51bGwoKTsKICAgIGV4cGVjdChnZXRQcm94eVdvcmtlclVybCgpKS50b0JlKERFRkFVTFRfUFJPWFlfV09SS0VSKTsKICB9KTsKCiAgaXQoJ+mdnuazleWcsOWdgO+8iOS4jeW4piBodHRwL2h0dHBz77yJ4oaSIOS4jeWGmeWFpScsICgpID0+IHsKICAgIHNldFByb3h5V29ya2VyVXJsKCdteS13b3JrZXIuZXhhbXBsZS5jb20nKTsgLy8g57y65Y2P6K6uCiAgICBleHBlY3QobG9jYWxTdG9yYWdlLmdldEl0ZW0oTFNfS0VZKSkudG9CZU51bGwoKTsKICAgIGV4cGVjdChnZXRQcm94eVdvcmtlclVybCgpKS50b0JlKERFRkFVTFRfUFJPWFlfV09SS0VSKTsKICB9KTsKCiAgaXQoJ+WtmOmHj+mHjOWmguaenOaYr+iEj+aVsOaNru+8iOmdniBodHRw77yJ4oaSIOivu+WPluaXtuWbnuiQvem7mOiupCcsICgpID0+IHsKICAgIGxvY2FsU3RvcmFnZS5zZXRJdGVtKExTX0tFWSwgJ2phdmFzY3JpcHQ6YWxlcnQoMSknKTsKICAgIGV4cGVjdChnZXRQcm94eVdvcmtlclVybCgpKS50b0JlKERFRkFVTFRfUFJPWFlfV09SS0VSKTsKICB9KTsKCiAgaXQoJ+aXp+eahCAqLndvcmtlcnMuZGV2IOm7mOiupOWfn+WQjSDihpIg6K+75Y+W5pe26L+B56e75Zue6buY6K6kJywgKCkgPT4gewogICAgbG9jYWxTdG9yYWdlLnNldEl0ZW0oTFNfS0VZLCAnaHR0cHM6Ly9zdWxseS1uLnFlZ2o1Njcud29ya2Vycy5kZXYnKTsKICAgIGV4cGVjdChnZXRQcm94eVdvcmtlclVybCgpKS50b0JlKERFRkFVTFRfUFJPWFlfV09SS0VSKTsKICB9KTsKCiAgaXQoJ2h0dHDvvIjpnZ4gaHR0cHPvvInnmoToh6rlrprkuYnlnLDlnYDkuZ/mjqXlj5cnLCAoKSA9PiB7CiAgICBzZXRQcm94eVdvcmtlclVybCgnaHR0cDovL2xvY2FsaG9zdDo4Nzg3Jyk7CiAgICBleHBlY3QoZ2V0UHJveHlXb3JrZXJVcmwoKSkudG9CZSgnaHR0cDovL2xvY2FsaG9zdDo4Nzg3Jyk7CiAgfSk7CgogIGl0KCflt7Lov4fmnJ/nmoQgc3VsbHltZW93LmNjd3UyMTMuY2Mg4oaSIOivu+WPluaXtui/geenu+Wbnum7mOiupCcsICgpID0+IHsKICAgIGxvY2FsU3RvcmFnZS5zZXRJdGVtKExTX0tFWSwgJ2h0dHBzOi8vc3VsbHltZW93LmNjd3UyMTMuY2MnKTsKICAgIGV4cGVjdChnZXRQcm94eVdvcmtlclVybCgpKS50b0JlKERFRkFVTFRfUFJPWFlfV09SS0VSKTsKICB9KTsKfSk7CgovLyDlt7LmrbvnmoTljoblj7LlhazlhbHlrp7kvovln5/lkI3lv4Xpobvooqvov4HliLDlvZPliY0gd29ya2Vy77yM5ZCm5YiZ54us56uL5oyB5LmF5YyW55qE5a2Y6YeP6YWN572uCi8vIO+8iOmfs+S5kOaSreaUvuWZqCAvIOWwj+e6ouS5piBzZXJ2ZXJVcmzvvInkvJrkuIDnm7TmiZMgRE5TIOino+aekOWksei0peeahOWcsOWdgApkZXNjcmliZSgncmV3cml0ZVN0YWxlV29ya2VyVXJsJywgKCkgPT4gewogIGJlZm9yZUVhY2goKCkgPT4gewogICAgbG9jYWxTdG9yYWdlLmNsZWFyKCk7CiAgfSk7CgogIGl0KCfov4Hnp7vlt7Lov4fmnJ/nmoQgc3VsbHltZW93LmNjd3UyMTMuY2PvvIzkv53nlZnot6/lvoQnLCAoKSA9PiB7CiAgICBleHBlY3QocmV3cml0ZVN0YWxlV29ya2VyVXJsKCdodHRwczovL3N1bGx5bWVvdy5jY3d1MjEzLmNjJykpLnRvQmUoREVGQVVMVF9QUk9YWV9XT1JLRVIpOwogICAgZXhwZWN0KHJld3JpdGVTdGFsZVdvcmtlclVybCgnaHR0cHM6Ly9zdWxseW1lb3cuY2N3dTIxMy5jYy9hcGknKSkudG9CZShgJHtERUZBVUxUX1BST1hZX1dPUktFUn0vYXBpYCk7CiAgfSk7CgogIGl0KCfov4Hnp7vmnIDml6nnmoQgd29ya2Vycy5kZXYg6buY6K6k5Z+f5ZCNJywgKCkgPT4gewogICAgZXhwZWN0KHJld3JpdGVTdGFsZVdvcmtlclVybCgnaHR0cHM6Ly9zdWxseS1uLnFlZ2o1Njcud29ya2Vycy5kZXYvYXBpJykpLnRvQmUoYCR7REVGQVVMVF9QUk9YWV9XT1JLRVJ9L2FwaWApOwogIH0pOwoKICBpdCgn5Lit5b+D6YWN5LqG6Ieq6YOo572yIHdvcmtlciDml7bvvIzmrbvln5/lkI3ot5/nnYDov4HliLDoh6rpg6jnvbLlnLDlnYAnLCAoKSA9PiB7CiAgICBzZXRQcm94eVdvcmtlclVybCgnaHR0cHM6Ly9teS1vd24uZXhhbXBsZS5jb20nKTsKICAgIGV4cGVjdChyZXdyaXRlU3RhbGVXb3JrZXJVcmwoJ2h0dHBzOi8vc3VsbHltZW93LmNjd3UyMTMuY2MvYXBpJykpLnRvQmUoJ2h0dHBzOi8vbXktb3duLmV4YW1wbGUuY29tL2FwaScpOwogIH0pOwoKICBpdCgn5rS75Zyw5Z2AIC8g55So5oi36Ieq6YOo572y5Zyw5Z2AIC8g56m65YC85Y6f5qC35L+d55WZJywgKCkgPT4gewogICAgZXhwZWN0KHJld3JpdGVTdGFsZVdvcmtlclVybChERUZBVUxUX1BST1hZX1dPUktFUikpLnRvQmUoREVGQVVMVF9QUk9YWV9XT1JLRVIpOwogICAgZXhwZWN0KHJld3JpdGVTdGFsZVdvcmtlclVybCgnaHR0cHM6Ly9teS1vd24uZXhhbXBsZS5jb20vYXBpJykpLnRvQmUoJ2h0dHBzOi8vbXktb3duLmV4YW1wbGUuY29tL2FwaScpOwogICAgZXhwZWN0KHJld3JpdGVTdGFsZVdvcmtlclVybCgnJykpLnRvQmUoJycpOwogIH0pOwp9KTsK
+import { beforeEach, describe, expect, it } from 'vitest';
+import {
+  DEFAULT_PROXY_WORKER,
+  getProxyWorkerUrl,
+  setProxyWorkerUrl,
+  isCustomProxyWorker,
+  rewriteStaleWorkerUrl,
+} from './proxyWorker';
+
+const LS_KEY = 'sully_proxy_worker_url_v1';
+
+describe('proxyWorker 中心配置', () => {
+  beforeEach(() => {
+    localStorage.clear();
+  });
+
+  it('没设过时返回默认地址', () => {
+    expect(getProxyWorkerUrl()).toBe(DEFAULT_PROXY_WORKER);
+    expect(isCustomProxyWorker()).toBe(false);
+  });
+
+  it('设了自定义地址后读得到，且标记为自定义', () => {
+    setProxyWorkerUrl('https://my-worker.example.com');
+    expect(getProxyWorkerUrl()).toBe('https://my-worker.example.com');
+    expect(isCustomProxyWorker()).toBe(true);
+  });
+
+  it('去掉首尾空格和结尾斜杠', () => {
+    setProxyWorkerUrl('  https://my-worker.example.com///  ');
+    expect(getProxyWorkerUrl()).toBe('https://my-worker.example.com');
+  });
+
+  it('填的就是默认地址 → 清空存储，回落默认', () => {
+    setProxyWorkerUrl('https://my-worker.example.com');
+    expect(isCustomProxyWorker()).toBe(true);
+    setProxyWorkerUrl(DEFAULT_PROXY_WORKER);
+    expect(localStorage.getItem(LS_KEY)).toBeNull();
+    expect(getProxyWorkerUrl()).toBe(DEFAULT_PROXY_WORKER);
+  });
+
+  it('传空字符串 → 清空存储，回落默认', () => {
+    setProxyWorkerUrl('https://my-worker.example.com');
+    setProxyWorkerUrl('');
+    expect(localStorage.getItem(LS_KEY)).toBeNull();
+    expect(getProxyWorkerUrl()).toBe(DEFAULT_PROXY_WORKER);
+  });
+
+  it('非法地址（不带 http/https）→ 不写入', () => {
+    setProxyWorkerUrl('my-worker.example.com'); // 缺协议
+    expect(localStorage.getItem(LS_KEY)).toBeNull();
+    expect(getProxyWorkerUrl()).toBe(DEFAULT_PROXY_WORKER);
+  });
+
+  it('存量里如果是脏数据（非 http）→ 读取时回落默认', () => {
+    localStorage.setItem(LS_KEY, 'javascript:alert(1)');
+    expect(getProxyWorkerUrl()).toBe(DEFAULT_PROXY_WORKER);
+  });
+
+  it('旧的 *.workers.dev 默认域名 → 读取时迁移回默认', () => {
+    localStorage.setItem(LS_KEY, 'https://sully-n.qegj567.workers.dev');
+    expect(getProxyWorkerUrl()).toBe(DEFAULT_PROXY_WORKER);
+  });
+
+  it('http（非 https）的自定义地址也接受', () => {
+    setProxyWorkerUrl('http://localhost:8787');
+    expect(getProxyWorkerUrl()).toBe('http://localhost:8787');
+  });
+
+  it('已过期的 sullymeow.ccwu213.cc → 读取时迁移回默认', () => {
+    localStorage.setItem(LS_KEY, 'https://sullymeow.ccwu213.cc');
+    expect(getProxyWorkerUrl()).toBe(DEFAULT_PROXY_WORKER);
+  });
+});
+
+// 已死的历史公共实例域名必须被迁到当前 worker，否则独立持久化的存量配置
+// （音乐播放器 / 小红书 serverUrl）会一直打 DNS 解析失败的地址
+describe('rewriteStaleWorkerUrl', () => {
+  beforeEach(() => {
+    localStorage.clear();
+  });
+
+  it('迁移已过期的 sullymeow.ccwu213.cc，保留路径', () => {
+    expect(rewriteStaleWorkerUrl('https://sullymeow.ccwu213.cc')).toBe(DEFAULT_PROXY_WORKER);
+    expect(rewriteStaleWorkerUrl('https://sullymeow.ccwu213.cc/api')).toBe(`${DEFAULT_PROXY_WORKER}/api`);
+  });
+
+  it('迁移最早的 workers.dev 默认域名', () => {
+    expect(rewriteStaleWorkerUrl('https://sully-n.qegj567.workers.dev/api')).toBe(`${DEFAULT_PROXY_WORKER}/api`);
+  });
+
+  it('中心配了自部署 worker 时，死域名跟着迁到自部署地址', () => {
+    setProxyWorkerUrl('https://my-own.example.com');
+    expect(rewriteStaleWorkerUrl('https://sullymeow.ccwu213.cc/api')).toBe('https://my-own.example.com/api');
+  });
+
+  it('活地址 / 用户自部署地址 / 空值原样保留', () => {
+    expect(rewriteStaleWorkerUrl(DEFAULT_PROXY_WORKER)).toBe(DEFAULT_PROXY_WORKER);
+    expect(rewriteStaleWorkerUrl('https://my-own.example.com/api')).toBe('https://my-own.example.com/api');
+    expect(rewriteStaleWorkerUrl('')).toBe('');
+  });
+});

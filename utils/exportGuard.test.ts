@@ -1,1 +1,95 @@
-aW1wb3J0IHsgZGVzY3JpYmUsIGl0LCBleHBlY3QgfSBmcm9tICd2aXRlc3QnOwppbXBvcnQgeyBzY2FuUGxhaW50ZXh0U2VjcmV0cywgYXNzZXNzRXhwb3J0LCBjb25maXJtRXhwb3J0U2FmZXR5IH0gZnJvbSAnLi9leHBvcnRHdWFyZCc7CgpkZXNjcmliZSgnc2NhblBsYWludGV4dFNlY3JldHMnLCAoKSA9PiB7CiAgaXQoJ+aPquWHuuW1jOWll+eahOaYjuaWhyBhcGlLZXknLCAoKSA9PiB7CiAgICBjb25zdCBoaXRzID0gc2NhblBsYWludGV4dFNlY3JldHMoewogICAgICBuYW1lOiAn6KeS6ImyJywKICAgICAgZW1vdGlvbkNvbmZpZzogeyBlbmFibGVkOiB0cnVlLCBhcGk6IHsgYmFzZVVybDogJ2h0dHBzOi8veCcsIGFwaUtleTogJ3NrLUFCQ0QxMjM0RUZHSDU2NzhJSktMJywgbW9kZWw6ICdnJyB9IH0sCiAgICB9KTsKICAgIGV4cGVjdChoaXRzLmxlbmd0aCkudG9CZUdyZWF0ZXJUaGFuKDApOwogICAgZXhwZWN0KGhpdHMuc29tZShoID0+IGgucGF0aCA9PT0gJ2Vtb3Rpb25Db25maWcuYXBpLmFwaUtleScpKS50b0JlKHRydWUpOwogICAgLy8g5omT56CB77ya5LiN5Zue5pi+5a6M5pW05a+G6ZKlCiAgICBleHBlY3QoaGl0cy5ldmVyeShoID0+ICFoLm1hc2tlZC5pbmNsdWRlcygnc2stQUJDRDEyMzRFRkdINTY3OElKS0wnKSkpLnRvQmUodHJ1ZSk7CiAgfSk7CgogIGl0KCfmjInlgLzkuZ/og73mj6rlh7rvvIjlrZfmrrXlkI3ml6DovpzkvYblgLzlg4/lr4bpkqXvvIknLCAoKSA9PiB7CiAgICBjb25zdCBoaXRzID0gc2NhblBsYWludGV4dFNlY3JldHMoeyBub3RlOiAnbXkgdG9rZW4gaXMgc2stWlpaWjk5OTlZWVlZODg4OFhYWFggb2snIH0pOwogICAgZXhwZWN0KGhpdHMuc29tZShoID0+IGgucGF0aCA9PT0gJ25vdGUnKSkudG9CZSh0cnVlKTsKICB9KTsKCiAgaXQoJ+S4jeivr+aKpeato+aWhyAvIOWbvueJhyBkYXRhVVJMIC8g5pmu6YCaIFVSTCcsICgpID0+IHsKICAgIGNvbnN0IGhpdHMgPSBzY2FuUGxhaW50ZXh0U2VjcmV0cyh7CiAgICAgIHN5c3RlbVByb21wdDogJ+i/meaYr+S4gOauteW+iOmVv+W+iOmVv+eahOezu+e7n+aPkOekuuivjScucmVwZWF0KDEwKSwKICAgICAgYXZhdGFyOiAnZGF0YTppbWFnZS9wbmc7YmFzZTY0LEFBQUFCQkJCQ0NDQ0RERERFRUVFRkZGRjAwMDAxMTExMjIyMjMzMzMnLAogICAgICBiYXNlVXJsOiAnaHR0cHM6Ly9hcGkuZXhhbXBsZS5jb20vdjEvY2hhdC9jb21wbGV0aW9ucycsCiAgICB9KTsKICAgIGV4cGVjdChoaXRzLmxlbmd0aCkudG9CZSgwKTsKICB9KTsKCiAgaXQoJ+S4jeaKiuivremfs+aooeWeiyBJRCDor6/miqXmiJDmmI7mloflr4bpkqUnLCAoKSA9PiB7CiAgICBjb25zdCBoaXRzID0gc2NhblBsYWludGV4dFNlY3JldHMoewogICAgICB2b2ljZVByb2ZpbGU6IHsKICAgICAgICB2b2ljZUlkOiAnc3BlZWNoLTAyLXR1cmJvLTI0MDUwMScsCiAgICAgICAgZmlzaFJlZmVyZW5jZUlkOiAnMzUyMzBlYzIwZDliZWJiMjIxNWE1MGE1ZTUzY2YxMTInLAogICAgICB9LAogICAgfSk7CiAgICBleHBlY3QoaGl0cykudG9FcXVhbChbXSk7CiAgfSk7CgogIGl0KCfku43kvJrmo4Dlh7rmnKrnn6XlrZfmrrXph4znmoQgMzIg5L2N6ZW/5a+G6ZKl54q25a2X56ym5LiyJywgKCkgPT4gewogICAgY29uc3QgaGl0cyA9IHNjYW5QbGFpbnRleHRTZWNyZXRzKHsKICAgICAgb3BhcXVlVmFsdWU6ICczNTIzMGVjMjBkOWJlYmIyMjE1YTUwYTVlNTNjZjExMicsCiAgICB9KTsKICAgIGV4cGVjdChoaXRzLnNvbWUoaCA9PiBoLnBhdGggPT09ICdvcGFxdWVWYWx1ZScpKS50b0JlKHRydWUpOwogIH0pOwoKICBpdCgn5bmy5YeA5a+56LGh6L+U5Zue56m6JywgKCkgPT4gewogICAgZXhwZWN0KHNjYW5QbGFpbnRleHRTZWNyZXRzKHsgbmFtZTogJ3gnLCB3b3JsZHZpZXc6ICd3JyB9KSkudG9FcXVhbChbXSk7CiAgfSk7CgogIGl0KCflvqrnjq/lvJXnlKjkuI3mrbvlvqrnjq8nLCAoKSA9PiB7CiAgICBjb25zdCBhOiBhbnkgPSB7IG5hbWU6ICd4JyB9OyBhLnNlbGYgPSBhOwogICAgZXhwZWN0KCgpID0+IHNjYW5QbGFpbnRleHRTZWNyZXRzKGEpKS5ub3QudG9UaHJvdygpOwogIH0pOwp9KTsKCmRlc2NyaWJlKCdhc3Nlc3NFeHBvcnQnLCAoKSA9PiB7CiAgY29uc3QgZGlydHkgPSB7IGVtb3Rpb25Db25maWc6IHsgYXBpOiB7IGFwaUtleTogJ3NrLUFBQUExMTExQkJCQjIyMjJDQ0NDJyB9IH0gfTsKCiAgaXQoJ+WuieWFqOWGheWuuSDihpIgc2FmZSArIOWPr+WIhuS6q+aWh+ahiCcsICgpID0+IHsKICAgIGNvbnN0IGEgPSBhc3Nlc3NFeHBvcnQoeyBuYW1lOiAneCcgfSk7CiAgICBleHBlY3QoYS5sZXZlbCkudG9CZSgnc2FmZScpOwogICAgZXhwZWN0KGEubWVzc2FnZSkudG9CZSgn6K+l5a+85Ye65YaF5a655a6J5YWo77yM5Y+v5Lul55So5LqO5YiG5LqrJyk7CiAgfSk7CgogIGl0KCflpIfku73lkKvlr4bpkqXvvIjpooTmnJ/lhoXvvInihpIgY29udGFpbnMtc2VjcmV0ICsg5Yir5Y+R57uZ5Lu75L2V5Lq6JywgKCkgPT4gewogICAgY29uc3QgYSA9IGFzc2Vzc0V4cG9ydChkaXJ0eSwgeyBleHBlY3RTZWNyZXRzOiB0cnVlIH0pOwogICAgZXhwZWN0KGEubGV2ZWwpLnRvQmUoJ2NvbnRhaW5zLXNlY3JldCcpOwogICAgZXhwZWN0KGEubWVzc2FnZSkudG9CZSgn6K+l5a+85Ye65pWw5o2u5YyF5ZCr5LqG5piO5paH5a+G6ZKl77yM6K+35LiN6KaB5Y+R6YCB57uZ5Lu75L2V5Lq6Jyk7CiAgfSk7CgogIGl0KCfliIbkuqvnsbvnq5/lkKvlr4bpkqXvvIjkuI3or6Xlh7rnjrDvvInihpIgdW5leHBlY3RlZC1zZWNyZXQgKyDmiKrlm77lj5HkvZzogIUnLCAoKSA9PiB7CiAgICBjb25zdCBhID0gYXNzZXNzRXhwb3J0KGRpcnR5KTsKICAgIGV4cGVjdChhLmxldmVsKS50b0JlKCd1bmV4cGVjdGVkLXNlY3JldCcpOwogICAgZXhwZWN0KGEubWVzc2FnZSkudG9Db250YWluKCfor7fmiKrlm77lubblj5HpgIHnu5nkvZzogIUnKTsKICAgIGV4cGVjdChhLm1lc3NhZ2UpLnRvQ29udGFpbignZW1vdGlvbkNvbmZpZy5hcGkuYXBpS2V5Jyk7CiAgfSk7Cn0pOwoKZGVzY3JpYmUoJ2NvbmZpcm1FeHBvcnRTYWZldHknLCAoKSA9PiB7CiAgaXQoJ3NhZmUg55u05o6l5pS+6KGM77yM5LiN5omT5patJywgYXN5bmMgKCkgPT4gewogICAgY29uc3Qgb2sgPSBhd2FpdCBjb25maXJtRXhwb3J0U2FmZXR5KHsgbmFtZTogJ3gnIH0pOwogICAgZXhwZWN0KG9rKS50b0JlKHRydWUpOwogIH0pOwoKICBpdCgn5qOA5Ye65a+G6ZKl5pe25oqK5o+Q56S65Lqk57uZIGNvbmZpcm1JbXBs77yM6L+U5Zue5YW257uT5p6cJywgYXN5bmMgKCkgPT4gewogICAgbGV0IHNlZW4gPSAnJzsKICAgIGNvbnN0IG9rID0gYXdhaXQgY29uZmlybUV4cG9ydFNhZmV0eSgKICAgICAgeyBhcGk6IHsgYXBpS2V5OiAnc2stQUFBQTExMTFCQkJCMjIyMkNDQ0MnIH0gfSwKICAgICAgeyBjb25maXJtSW1wbDogKGEpID0+IHsgc2VlbiA9IGEubWVzc2FnZTsgcmV0dXJuIGZhbHNlOyB9IH0sCiAgICApOwogICAgZXhwZWN0KG9rKS50b0JlKGZhbHNlKTsKICAgIGV4cGVjdChzZWVuKS50b0NvbnRhaW4oJ+ivt+aIquWbvuW5tuWPkemAgee7meS9nOiAhScpOwogIH0pOwp9KTsK
+import { describe, it, expect } from 'vitest';
+import { scanPlaintextSecrets, assessExport, confirmExportSafety } from './exportGuard';
+
+describe('scanPlaintextSecrets', () => {
+  it('揪出嵌套的明文 apiKey', () => {
+    const hits = scanPlaintextSecrets({
+      name: '角色',
+      emotionConfig: { enabled: true, api: { baseUrl: 'https://x', apiKey: 'sk-ABCD1234EFGH5678IJKL', model: 'g' } },
+    });
+    expect(hits.length).toBeGreaterThan(0);
+    expect(hits.some(h => h.path === 'emotionConfig.api.apiKey')).toBe(true);
+    // 打码：不回显完整密钥
+    expect(hits.every(h => !h.masked.includes('sk-ABCD1234EFGH5678IJKL'))).toBe(true);
+  });
+
+  it('按值也能揪出（字段名无辜但值像密钥）', () => {
+    const hits = scanPlaintextSecrets({ note: 'my token is sk-ZZZZ9999YYYY8888XXXX ok' });
+    expect(hits.some(h => h.path === 'note')).toBe(true);
+  });
+
+  it('不误报正文 / 图片 dataURL / 普通 URL', () => {
+    const hits = scanPlaintextSecrets({
+      systemPrompt: '这是一段很长很长的系统提示词'.repeat(10),
+      avatar: 'data:image/png;base64,AAAABBBBCCCCDDDDEEEEFFFF0000111122223333',
+      baseUrl: 'https://api.example.com/v1/chat/completions',
+    });
+    expect(hits.length).toBe(0);
+  });
+
+  it('不把语音模型 ID 误报成明文密钥', () => {
+    const hits = scanPlaintextSecrets({
+      voiceProfile: {
+        voiceId: 'speech-02-turbo-240501',
+        fishReferenceId: '35230ec20d9bebb2215a50a5e53cf112',
+      },
+    });
+    expect(hits).toEqual([]);
+  });
+
+  it('仍会检出未知字段里的 32 位长密钥状字符串', () => {
+    const hits = scanPlaintextSecrets({
+      opaqueValue: '35230ec20d9bebb2215a50a5e53cf112',
+    });
+    expect(hits.some(h => h.path === 'opaqueValue')).toBe(true);
+  });
+
+  it('干净对象返回空', () => {
+    expect(scanPlaintextSecrets({ name: 'x', worldview: 'w' })).toEqual([]);
+  });
+
+  it('循环引用不死循环', () => {
+    const a: any = { name: 'x' }; a.self = a;
+    expect(() => scanPlaintextSecrets(a)).not.toThrow();
+  });
+});
+
+describe('assessExport', () => {
+  const dirty = { emotionConfig: { api: { apiKey: 'sk-AAAA1111BBBB2222CCCC' } } };
+
+  it('安全内容 → safe + 可分享文案', () => {
+    const a = assessExport({ name: 'x' });
+    expect(a.level).toBe('safe');
+    expect(a.message).toBe('该导出内容安全，可以用于分享');
+  });
+
+  it('备份含密钥（预期内）→ contains-secret + 别发给任何人', () => {
+    const a = assessExport(dirty, { expectSecrets: true });
+    expect(a.level).toBe('contains-secret');
+    expect(a.message).toBe('该导出数据包含了明文密钥，请不要发送给任何人');
+  });
+
+  it('分享类竟含密钥（不该出现）→ unexpected-secret + 截图发作者', () => {
+    const a = assessExport(dirty);
+    expect(a.level).toBe('unexpected-secret');
+    expect(a.message).toContain('请截图并发送给作者');
+    expect(a.message).toContain('emotionConfig.api.apiKey');
+  });
+});
+
+describe('confirmExportSafety', () => {
+  it('safe 直接放行，不打断', async () => {
+    const ok = await confirmExportSafety({ name: 'x' });
+    expect(ok).toBe(true);
+  });
+
+  it('检出密钥时把提示交给 confirmImpl，返回其结果', async () => {
+    let seen = '';
+    const ok = await confirmExportSafety(
+      { api: { apiKey: 'sk-AAAA1111BBBB2222CCCC' } },
+      { confirmImpl: (a) => { seen = a.message; return false; } },
+    );
+    expect(ok).toBe(false);
+    expect(seen).toContain('请截图并发送给作者');
+  });
+});

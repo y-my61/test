@@ -1,1 +1,247 @@
-LyoqCiAqIGZ1cm5pdHVyZUljb25zIOKAlCBTVkcg5a625YW35Zu+5qCHIERhdGEgVVJJCiAqCiAqIOWwhuaJi+e7mOmjjuagvOeahCBTVkcg5a625YW35Zu+5qCH57yW56CB5Li6IGRhdGEgVVJJ77yMCiAqIOS+myBSb29tQXBwIOetiemcgOimgSBpbWFnZSBVUkwg55qE5Zy65pmv5L2/55So44CCCiAqIOavlCBUd2Vtb2ppIOabtOeyvuiHtOOAgeabtOacieiuvuiuoeaEn+OAggogKi8KCmZ1bmN0aW9uIHN2Z1RvRGF0YVVyaShzdmc6IHN0cmluZyk6IHN0cmluZyB7CiAgICByZXR1cm4gJ2RhdGE6aW1hZ2Uvc3ZnK3htbCwnICsgZW5jb2RlVVJJQ29tcG9uZW50KHN2Zy50cmltKCkpOwp9CgovLyDilIDilIAg5a625YW3IFNWRyDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIAKCmNvbnN0IGJlZFN2ZyA9IGA8c3ZnIHhtbG5zPSJodHRwOi8vd3d3LnczLm9yZy8yMDAwL3N2ZyIgd2lkdGg9IjcyIiBoZWlnaHQ9IjcyIiB2aWV3Qm94PSIwIDAgNzIgNzIiIGZpbGw9Im5vbmUiPgogIDxkZWZzPgogICAgPGxpbmVhckdyYWRpZW50IGlkPSJiMSIgeDE9IjYiIHkxPSIzOCIgeDI9IjY2IiB5Mj0iNTYiPjxzdG9wIHN0b3AtY29sb3I9IiM4MThjZjgiLz48c3RvcCBvZmZzZXQ9IjEiIHN0b3AtY29sb3I9IiM2MzY2ZjEiLz48L2xpbmVhckdyYWRpZW50PgogICAgPGxpbmVhckdyYWRpZW50IGlkPSJiMiIgeDE9IjgiIHkxPSIyNiIgeDI9IjY0IiB5Mj0iNDAiPjxzdG9wIHN0b3AtY29sb3I9IiNjN2QyZmUiLz48c3RvcCBvZmZzZXQ9IjEiIHN0b3AtY29sb3I9IiNhNWI0ZmMiLz48L2xpbmVhckdyYWRpZW50PgogIDwvZGVmcz4KICA8cmVjdCB4PSI2IiB5PSIzOCIgd2lkdGg9IjYwIiBoZWlnaHQ9IjE4IiByeD0iNCIgZmlsbD0idXJsKCNiMSkiLz4KICA8cmVjdCB4PSI4IiB5PSIyNiIgd2lkdGg9IjU2IiBoZWlnaHQ9IjE0IiByeD0iMyIgZmlsbD0idXJsKCNiMikiLz4KICA8cmVjdCB4PSIxMCIgeT0iMzAiIHdpZHRoPSIxOCIgaGVpZ2h0PSI4IiByeD0iMiIgZmlsbD0iI2UwZTdmZiIgb3BhY2l0eT0iMC44Ii8+CiAgPHJlY3QgeD0iNiIgeT0iNTYiIHdpZHRoPSI3IiBoZWlnaHQ9IjciIHJ4PSIxLjUiIGZpbGw9IiM0ZjQ2ZTUiLz4KICA8cmVjdCB4PSI1OSIgeT0iNTYiIHdpZHRoPSI3IiBoZWlnaHQ9IjciIHJ4PSIxLjUiIGZpbGw9IiM0ZjQ2ZTUiLz4KICA8cmVjdCB4PSI4IiB5PSIzOCIgd2lkdGg9IjU2IiBoZWlnaHQ9IjIiIGZpbGw9IndoaXRlIiBvcGFjaXR5PSIwLjEiLz4KPC9zdmc+YDsKCmNvbnN0IHNvZmFTdmcgPSBgPHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSI3MiIgaGVpZ2h0PSI3MiIgdmlld0JveD0iMCAwIDcyIDcyIiBmaWxsPSJub25lIj4KICA8ZGVmcz4KICAgIDxsaW5lYXJHcmFkaWVudCBpZD0iczEiIHgxPSI5IiB5MT0iMzAiIHgyPSI2MyIgeTI9IjUyIj48c3RvcCBzdG9wLWNvbG9yPSIjYzRiNWZkIi8+PHN0b3Agb2Zmc2V0PSIxIiBzdG9wLWNvbG9yPSIjOGI1Y2Y2Ii8+PC9saW5lYXJHcmFkaWVudD4KICA8L2RlZnM+CiAgPHJlY3QgeD0iOSIgeT0iMzAiIHdpZHRoPSI1NCIgaGVpZ2h0PSIyMiIgcng9IjYiIGZpbGw9InVybCgjczEpIi8+CiAgPHJlY3QgeD0iNCIgeT0iMjYiIHdpZHRoPSIxNCIgaGVpZ2h0PSIzMCIgcng9IjUiIGZpbGw9IiNhNzhiZmEiLz4KICA8cmVjdCB4PSI1NCIgeT0iMjYiIHdpZHRoPSIxNCIgaGVpZ2h0PSIzMCIgcng9IjUiIGZpbGw9IiNhNzhiZmEiLz4KICA8cmVjdCB4PSIxNSIgeT0iMzQiIHdpZHRoPSI0MiIgaGVpZ2h0PSI2IiByeD0iMiIgZmlsbD0iI2UwZTdmZiIgb3BhY2l0eT0iMC4zNSIvPgogIDxyZWN0IHg9IjkiIHk9IjU2IiB3aWR0aD0iNyIgaGVpZ2h0PSI3IiByeD0iMS41IiBmaWxsPSIjNmQyOGQ5Ii8+CiAgPHJlY3QgeD0iNTYiIHk9IjU2IiB3aWR0aD0iNyIgaGVpZ2h0PSI3IiByeD0iMS41IiBmaWxsPSIjNmQyOGQ5Ii8+Cjwvc3ZnPmA7Cgpjb25zdCBjaGFpclN2ZyA9IGA8c3ZnIHhtbG5zPSJodHRwOi8vd3d3LnczLm9yZy8yMDAwL3N2ZyIgd2lkdGg9IjcyIiBoZWlnaHQ9IjcyIiB2aWV3Qm94PSIwIDAgNzIgNzIiIGZpbGw9Im5vbmUiPgogIDxkZWZzPgogICAgPGxpbmVhckdyYWRpZW50IGlkPSJjaDEiIHgxPSIxOCIgeTE9IjgiIHgyPSI1NCIgeTI9IjQwIj48c3RvcCBzdG9wLWNvbG9yPSIjZDk3NzA2Ii8+PHN0b3Agb2Zmc2V0PSIxIiBzdG9wLWNvbG9yPSIjOTI0MDBlIi8+PC9saW5lYXJHcmFkaWVudD4KICA8L2RlZnM+CiAgPHJlY3QgeD0iMTgiIHk9IjgiIHdpZHRoPSIzNiIgaGVpZ2h0PSIzMCIgcng9IjQiIGZpbGw9InVybCgjY2gxKSIvPgogIDxyZWN0IHg9IjIwIiB5PSIzOCIgd2lkdGg9IjMyIiBoZWlnaHQ9IjgiIHJ4PSIyIiBmaWxsPSIjOTI0MDBlIi8+CiAgPHJlY3QgeD0iMjAiIHk9IjQ2IiB3aWR0aD0iNSIgaGVpZ2h0PSIxOCIgcng9IjEiIGZpbGw9IiM3ODM1MGYiLz4KICA8cmVjdCB4PSI0NyIgeT0iNDYiIHdpZHRoPSI1IiBoZWlnaHQ9IjE4IiByeD0iMSIgZmlsbD0iIzc4MzUwZiIvPgogIDxyZWN0IHg9IjE4IiB5PSI4IiB3aWR0aD0iMzYiIGhlaWdodD0iMyIgZmlsbD0id2hpdGUiIG9wYWNpdHk9IjAuMSIvPgo8L3N2Zz5gOwoKY29uc3QgdG9pbGV0U3ZnID0gYDxzdmcgeG1sbnM9Imh0dHA6Ly93d3cudzMub3JnLzIwMDAvc3ZnIiB3aWR0aD0iNzIiIGhlaWdodD0iNzIiIHZpZXdCb3g9IjAgMCA3MiA3MiIgZmlsbD0ibm9uZSI+CiAgPGRlZnM+CiAgICA8bGluZWFyR3JhZGllbnQgaWQ9InQxIiB4MT0iMTQiIHkxPSIyOCIgeDI9IjU4IiB5Mj0iNTgiPjxzdG9wIHN0b3AtY29sb3I9IiNmMWY1ZjkiLz48c3RvcCBvZmZzZXQ9IjEiIHN0b3AtY29sb3I9IiNjYmQ1ZTEiLz48L2xpbmVhckdyYWRpZW50PgogICAgPGxpbmVhckdyYWRpZW50IGlkPSJ0MiIgeDE9IjIyIiB5MT0iMTIiIHgyPSI1MCIgeTI9IjQ0Ij48c3RvcCBzdG9wLWNvbG9yPSIjZTJlOGYwIi8+PHN0b3Agb2Zmc2V0PSIxIiBzdG9wLWNvbG9yPSIjOTRhM2I4Ii8+PC9saW5lYXJHcmFkaWVudD4KICA8L2RlZnM+CiAgPGVsbGlwc2UgY3g9IjM2IiBjeT0iNDQiIHJ4PSIyMCIgcnk9IjE0IiBmaWxsPSJ1cmwoI3QxKSIvPgogIDxyZWN0IHg9IjIyIiB5PSIxMiIgd2lkdGg9IjI4IiBoZWlnaHQ9IjMyIiByeD0iNSIgZmlsbD0idXJsKCN0MikiLz4KICA8cmVjdCB4PSIyNiIgeT0iMTYiIHdpZHRoPSIyMCIgaGVpZ2h0PSIxMCIgcng9IjIiIGZpbGw9IiNmMWY1ZjkiIG9wYWNpdHk9IjAuNSIvPgogIDxyZWN0IHg9IjMxIiB5PSI2IiB3aWR0aD0iMTAiIGhlaWdodD0iOCIgcng9IjIiIGZpbGw9IiM5NGEzYjgiLz4KPC9zdmc+YDsKCmNvbnN0IGJhdGh0dWJTdmcgPSBgPHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSI3MiIgaGVpZ2h0PSI3MiIgdmlld0JveD0iMCAwIDcyIDcyIiBmaWxsPSJub25lIj4KICA8ZGVmcz4KICAgIDxsaW5lYXJHcmFkaWVudCBpZD0iYnQxIiB4MT0iOCIgeTE9IjMyIiB4Mj0iNjQiIHkyPSI2MCI+PHN0b3Agc3RvcC1jb2xvcj0iI2YxZjVmOSIvPjxzdG9wIG9mZnNldD0iMSIgc3RvcC1jb2xvcj0iIzk0YTNiOCIvPjwvbGluZWFyR3JhZGllbnQ+CiAgPC9kZWZzPgogIDxyZWN0IHg9IjQiIHk9IjI2IiB3aWR0aD0iNjQiIGhlaWdodD0iNyIgcng9IjIiIGZpbGw9IiNlMmU4ZjAiLz4KICA8cGF0aCBkPSJNOCAzM3YxOGMwIDQgNCA4IDggOGg0MGM0IDAgOC00IDgtOFYzM3oiIGZpbGw9InVybCgjYnQxKSIvPgogIDxyZWN0IHg9IjgiIHk9IjEyIiB3aWR0aD0iNyIgaGVpZ2h0PSIxNiIgcng9IjIiIGZpbGw9IiM5NGEzYjgiLz4KICA8Y2lyY2xlIGN4PSIxMiIgY3k9IjEyIiByPSI0IiBmaWxsPSIjNjQ3NDhiIi8+CiAgPGVsbGlwc2UgY3g9IjM2IiBjeT0iMjkiIHJ4PSIyNCIgcnk9IjMiIGZpbGw9IiNiZmRiZmUiIG9wYWNpdHk9IjAuNSIvPgo8L3N2Zz5gOwoKY29uc3QgcGxhbnRTdmcgPSBgPHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSI3MiIgaGVpZ2h0PSI3MiIgdmlld0JveD0iMCAwIDcyIDcyIiBmaWxsPSJub25lIj4KICA8ZGVmcz4KICAgIDxyYWRpYWxHcmFkaWVudCBpZD0icDEiPjxzdG9wIHN0b3AtY29sb3I9IiM4NmVmYWMiLz48c3RvcCBvZmZzZXQ9IjEiIHN0b3AtY29sb3I9IiMxNmEzNGEiLz48L3JhZGlhbEdyYWRpZW50PgogICAgPGxpbmVhckdyYWRpZW50IGlkPSJwMiIgeDE9IjIyIiB5MT0iNDgiIHgyPSI1MCIgeTI9IjY1Ij48c3RvcCBzdG9wLWNvbG9yPSIjZDk3NzA2Ii8+PHN0b3Agb2Zmc2V0PSIxIiBzdG9wLWNvbG9yPSIjOTI0MDBlIi8+PC9saW5lYXJHcmFkaWVudD4KICA8L2RlZnM+CiAgPGVsbGlwc2UgY3g9IjM2IiBjeT0iMjIiIHJ4PSIxOCIgcnk9IjE2IiBmaWxsPSJ1cmwoI3AxKSIvPgogIDxlbGxpcHNlIGN4PSIyNiIgY3k9IjE4IiByeD0iOSIgcnk9IjkiIGZpbGw9IiM0YWRlODAiIG9wYWNpdHk9IjAuNyIvPgogIDxlbGxpcHNlIGN4PSI0NiIgY3k9IjIwIiByeD0iOCIgcnk9IjgiIGZpbGw9IiMyMmM1NWUiIG9wYWNpdHk9IjAuNiIvPgogIDxyZWN0IHg9IjMzIiB5PSIzNCIgd2lkdGg9IjYiIGhlaWdodD0iMTAiIHJ4PSIxIiBmaWxsPSIjOTI0MDBlIi8+CiAgPHBhdGggZD0iTTIyIDQ4aDI4bC00IDE2aC0yMHoiIGZpbGw9InVybCgjcDIpIi8+Cjwvc3ZnPmA7Cgpjb25zdCBjb21wdXRlclN2ZyA9IGA8c3ZnIHhtbG5zPSJodHRwOi8vd3d3LnczLm9yZy8yMDAwL3N2ZyIgd2lkdGg9IjcyIiBoZWlnaHQ9IjcyIiB2aWV3Qm94PSIwIDAgNzIgNzIiIGZpbGw9Im5vbmUiPgogIDxkZWZzPgogICAgPGxpbmVhckdyYWRpZW50IGlkPSJjMSIgeDE9IjgiIHkxPSI4IiB4Mj0iNjQiIHkyPSI0NCI+PHN0b3Agc3RvcC1jb2xvcj0iIzk0YTNiOCIvPjxzdG9wIG9mZnNldD0iMSIgc3RvcC1jb2xvcj0iIzY0NzQ4YiIvPjwvbGluZWFyR3JhZGllbnQ+CiAgPC9kZWZzPgogIDxyZWN0IHg9IjgiIHk9IjgiIHdpZHRoPSI1NiIgaGVpZ2h0PSIzNiIgcng9IjQiIGZpbGw9InVybCgjYzEpIiBzdHJva2U9IiM0NzU1NjkiIHN0cm9rZS13aWR0aD0iMiIvPgogIDxyZWN0IHg9IjEyIiB5PSIxMiIgd2lkdGg9IjQ4IiBoZWlnaHQ9IjI4IiByeD0iMiIgZmlsbD0iIzFlMjkzYiIvPgogIDxyZWN0IHg9IjE2IiB5PSIxNiIgd2lkdGg9IjE0IiBoZWlnaHQ9IjciIHJ4PSIxIiBmaWxsPSIjMzhiZGY4IiBvcGFjaXR5PSIwLjciLz4KICA8cmVjdCB4PSIxNiIgeT0iMjYiIHdpZHRoPSIyNCIgaGVpZ2h0PSIyIiByeD0iMSIgZmlsbD0iIzk0YTNiOCIgb3BhY2l0eT0iMC40Ii8+CiAgPHJlY3QgeD0iMTYiIHk9IjMwIiB3aWR0aD0iMTYiIGhlaWdodD0iMiIgcng9IjEiIGZpbGw9IiM5NGEzYjgiIG9wYWNpdHk9IjAuMyIvPgogIDxyZWN0IHg9IjI4IiB5PSI0NCIgd2lkdGg9IjE2IiBoZWlnaHQ9IjUiIGZpbGw9IiM2NDc0OGIiLz4KICA8cmVjdCB4PSIyMCIgeT0iNDkiIHdpZHRoPSIzMiIgaGVpZ2h0PSI1IiByeD0iMiIgZmlsbD0iIzk0YTNiOCIvPgo8L3N2Zz5gOwoKY29uc3QgZ2FtZXBhZFN2ZyA9IGA8c3ZnIHhtbG5zPSJodHRwOi8vd3d3LnczLm9yZy8yMDAwL3N2ZyIgd2lkdGg9IjcyIiBoZWlnaHQ9IjcyIiB2aWV3Qm94PSIwIDAgNzIgNzIiIGZpbGw9Im5vbmUiPgogIDxkZWZzPgogICAgPGxpbmVhckdyYWRpZW50IGlkPSJnMSIgeDE9IjEyIiB5MT0iMTgiIHgyPSI2MCIgeTI9IjU2Ij48c3RvcCBzdG9wLWNvbG9yPSIjYTViNGZjIi8+PHN0b3Agb2Zmc2V0PSIxIiBzdG9wLWNvbG9yPSIjNjM2NmYxIi8+PC9saW5lYXJHcmFkaWVudD4KICA8L2RlZnM+CiAgPHBhdGggZD0iTTEyIDI2YzAtNSAzLTggOC04aDMyYzUgMCA4IDMgOCA4djEwYzAgOS00IDE4LTEyIDIwSDI0Yy04LTItMTItMTEtMTItMjB6IiBmaWxsPSJ1cmwoI2cxKSIvPgogIDxyZWN0IHg9IjIyIiB5PSIyNiIgd2lkdGg9IjMiIGhlaWdodD0iMTIiIHJ4PSIxIiBmaWxsPSIjMWUxYjRiIi8+CiAgPHJlY3QgeD0iMTgiIHk9IjMwIiB3aWR0aD0iMTEiIGhlaWdodD0iMyIgcng9IjEiIGZpbGw9IiMxZTFiNGIiLz4KICA8Y2lyY2xlIGN4PSI1MCIgY3k9IjI2IiByPSIzIiBmaWxsPSIjZWY0NDQ0Ii8+CiAgPGNpcmNsZSBjeD0iNDYiIGN5PSIzMiIgcj0iMyIgZmlsbD0iIzNiODJmNiIvPgogIDxyZWN0IHg9IjMyIiB5PSIzNCIgd2lkdGg9IjgiIGhlaWdodD0iMyIgcng9IjEuNSIgZmlsbD0iIzFlMWI0YiIgb3BhY2l0eT0iMC41Ii8+Cjwvc3ZnPmA7Cgpjb25zdCBndWl0YXJTdmcgPSBgPHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSI3MiIgaGVpZ2h0PSI3MiIgdmlld0JveD0iMCAwIDcyIDcyIiBmaWxsPSJub25lIj4KICA8ZGVmcz4KICAgIDxsaW5lYXJHcmFkaWVudCBpZD0iZ3QxIiB4MT0iMzMiIHkxPSI0IiB4Mj0iMzkiIHkyPSIzNiI+PHN0b3Agc3RvcC1jb2xvcj0iIzkyNDAwZSIvPjxzdG9wIG9mZnNldD0iMSIgc3RvcC1jb2xvcj0iIzc4MzUwZiIvPjwvbGluZWFyR3JhZGllbnQ+CiAgICA8bGluZWFyR3JhZGllbnQgaWQ9Imd0MiIgeDE9IjIwIiB5MT0iMzAiIHgyPSI1MiIgeTI9IjY4Ij48c3RvcCBzdG9wLWNvbG9yPSIjZDk3NzA2Ii8+PHN0b3Agb2Zmc2V0PSIxIiBzdG9wLWNvbG9yPSIjOTI0MDBlIi8+PC9saW5lYXJHcmFkaWVudD4KICA8L2RlZnM+CiAgPHJlY3QgeD0iMzMiIHk9IjQiIHdpZHRoPSI2IiBoZWlnaHQ9IjMyIiByeD0iMiIgZmlsbD0idXJsKCNndDEpIi8+CiAgPGVsbGlwc2UgY3g9IjM2IiBjeT0iNTAiIHJ4PSIxNiIgcnk9IjE4IiBmaWxsPSJ1cmwoI2d0MikiLz4KICA8ZWxsaXBzZSBjeD0iMzYiIGN5PSI1MCIgcng9IjkiIHJ5PSIxMSIgZmlsbD0iIzQ1MWEwMyIgb3BhY2l0eT0iMC41Ii8+CiAgPGNpcmNsZSBjeD0iMzYiIGN5PSI1MCIgcj0iMy41IiBmaWxsPSIjMWMxOTE3Ii8+CiAgPHJlY3QgeD0iMzQiIHk9IjEyIiB3aWR0aD0iNCIgaGVpZ2h0PSIyIiBmaWxsPSIjZmJiZjI0IiByeD0iMC41Ii8+CiAgPHJlY3QgeD0iMzQiIHk9IjE2IiB3aWR0aD0iNCIgaGVpZ2h0PSIyIiBmaWxsPSIjZmJiZjI0IiByeD0iMC41Ii8+CiAgPHJlY3QgeD0iMzQiIHk9IjIwIiB3aWR0aD0iNCIgaGVpZ2h0PSIyIiBmaWxsPSIjZmJiZjI0IiByeD0iMC41Ii8+Cjwvc3ZnPmA7Cgpjb25zdCBwYWludGluZ1N2ZyA9IGA8c3ZnIHhtbG5zPSJodHRwOi8vd3d3LnczLm9yZy8yMDAwL3N2ZyIgd2lkdGg9IjcyIiBoZWlnaHQ9IjcyIiB2aWV3Qm94PSIwIDAgNzIgNzIiIGZpbGw9Im5vbmUiPgogIDxkZWZzPgogICAgPGxpbmVhckdyYWRpZW50IGlkPSJwdDEiIHgxPSIxMCIgeTE9IjE0IiB4Mj0iNjIiIHkyPSI1NiI+PHN0b3Agc3RvcC1jb2xvcj0iIzdkZDNmYyIvPjxzdG9wIG9mZnNldD0iMSIgc3RvcC1jb2xvcj0iIzM4YmRmOCIvPjwvbGluZWFyR3JhZGllbnQ+CiAgPC9kZWZzPgogIDxyZWN0IHg9IjYiIHk9IjEwIiB3aWR0aD0iNjAiIGhlaWdodD0iNTAiIHJ4PSIyIiBmaWxsPSIjOTI0MDBlIiBzdHJva2U9IiM3ODM1MGYiIHN0cm9rZS13aWR0aD0iMyIvPgogIDxyZWN0IHg9IjEwIiB5PSIxNCIgd2lkdGg9IjUyIiBoZWlnaHQ9IjQyIiByeD0iMSIgZmlsbD0idXJsKCNwdDEpIi8+CiAgPGNpcmNsZSBjeD0iMjQiIGN5PSIzMCIgcj0iNyIgZmlsbD0iI2ZiYmYyNCIgb3BhY2l0eT0iMC44Ii8+CiAgPHBhdGggZD0iTTEwIDQ0bDE0LTEyIDkgNyAxMi0xNCAxNyAxOXYxMkgxMHoiIGZpbGw9IiMxNmEzNGEiIG9wYWNpdHk9IjAuNiIvPgogIDxwYXRoIGQ9Ik0xMCA1MGwxNC04IDkgNSAxMi0xMCAxNyAxMnY3SDEweiIgZmlsbD0iIzE1ODAzZCIgb3BhY2l0eT0iMC41Ii8+Cjwvc3ZnPmA7Cgpjb25zdCBib29rc1N2ZyA9IGA8c3ZnIHhtbG5zPSJodHRwOi8vd3d3LnczLm9yZy8yMDAwL3N2ZyIgd2lkdGg9IjcyIiBoZWlnaHQ9IjcyIiB2aWV3Qm94PSIwIDAgNzIgNzIiIGZpbGw9Im5vbmUiPgogIDxyZWN0IHg9IjEyIiB5PSI0NCIgd2lkdGg9IjQ4IiBoZWlnaHQ9IjkiIHJ4PSIxIiBmaWxsPSIjM2I4MmY2Ii8+CiAgPHJlY3QgeD0iMTQiIHk9IjMzIiB3aWR0aD0iNDQiIGhlaWdodD0iOSIgcng9IjEiIGZpbGw9IiNlZjQ0NDQiLz4KICA8cmVjdCB4PSIxMCIgeT0iMjIiIHdpZHRoPSI1MiIgaGVpZ2h0PSI5IiByeD0iMSIgZmlsbD0iIzIyYzU1ZSIvPgogIDxyZWN0IHg9IjE2IiB5PSIxMSIgd2lkdGg9IjQwIiBoZWlnaHQ9IjkiIHJ4PSIxIiBmaWxsPSIjZjU5ZTBiIi8+CiAgPHJlY3QgeD0iMTIiIHk9IjQ0IiB3aWR0aD0iNDgiIGhlaWdodD0iMiIgZmlsbD0id2hpdGUiIG9wYWNpdHk9IjAuMTUiLz4KICA8cmVjdCB4PSIxNCIgeT0iMzMiIHdpZHRoPSI0NCIgaGVpZ2h0PSIyIiBmaWxsPSJ3aGl0ZSIgb3BhY2l0eT0iMC4xNSIvPgogIDxyZWN0IHg9IjEwIiB5PSIyMiIgd2lkdGg9IjUyIiBoZWlnaHQ9IjIiIGZpbGw9IndoaXRlIiBvcGFjaXR5PSIwLjE1Ii8+CiAgPHJlY3QgeD0iMTYiIHk9IjExIiB3aWR0aD0iNDAiIGhlaWdodD0iMiIgZmlsbD0id2hpdGUiIG9wYWNpdHk9IjAuMTUiLz4KICA8cmVjdCB4PSI4IiB5PSI1MyIgd2lkdGg9IjU2IiBoZWlnaHQ9IjUiIHJ4PSIxIiBmaWxsPSIjNjQ3NDhiIi8+Cjwvc3ZnPmA7Cgpjb25zdCBsYW1wU3ZnID0gYDxzdmcgeG1sbnM9Imh0dHA6Ly93d3cudzMub3JnLzIwMDAvc3ZnIiB3aWR0aD0iNzIiIGhlaWdodD0iNzIiIHZpZXdCb3g9IjAgMCA3MiA3MiIgZmlsbD0ibm9uZSI+CiAgPGRlZnM+CiAgICA8bGluZWFyR3JhZGllbnQgaWQ9ImwxIiB4MT0iMTgiIHkxPSI4IiB4Mj0iNTQiIHkyPSIzMiI+PHN0b3Agc3RvcC1jb2xvcj0iI2ZlZjNjNyIvPjxzdG9wIG9mZnNldD0iMSIgc3RvcC1jb2xvcj0iI2ZkZTY4YSIvPjwvbGluZWFyR3JhZGllbnQ+CiAgPC9kZWZzPgogIDxyZWN0IHg9IjMyIiB5PSIzMCIgd2lkdGg9IjgiIGhlaWdodD0iMjQiIHJ4PSIyIiBmaWxsPSIjOTRhM2I4Ii8+CiAgPGVsbGlwc2UgY3g9IjM2IiBjeT0iNTgiIHJ4PSIxNCIgcnk9IjUiIGZpbGw9IiM2NDc0OGIiLz4KICA8cGF0aCBkPSJNMTggMzBoMzZsLTctMjJIMjV6IiBmaWxsPSJ1cmwoI2wxKSIvPgogIDxlbGxpcHNlIGN4PSIzNiIgY3k9IjEyIiByeD0iNSIgcnk9IjMiIGZpbGw9IiNmZWYzYzciLz4KICA8Y2lyY2xlIGN4PSIzNiIgY3k9IjIwIiByPSIzIiBmaWxsPSIjZmJiZjI0IiBvcGFjaXR5PSIwLjgiLz4KPC9zdmc+YDsKCmNvbnN0IHRyYXNoU3ZnID0gYDxzdmcgeG1sbnM9Imh0dHA6Ly93d3cudzMub3JnLzIwMDAvc3ZnIiB3aWR0aD0iNzIiIGhlaWdodD0iNzIiIHZpZXdCb3g9IjAgMCA3MiA3MiIgZmlsbD0ibm9uZSI+CiAgPGRlZnM+CiAgICA8bGluZWFyR3JhZGllbnQgaWQ9InRyMSIgeDE9IjE4IiB5MT0iMTgiIHgyPSI1NCIgeTI9IjU4Ij48c3RvcCBzdG9wLWNvbG9yPSIjOTRhM2I4Ii8+PHN0b3Agb2Zmc2V0PSIxIiBzdG9wLWNvbG9yPSIjNjQ3NDhiIi8+PC9saW5lYXJHcmFkaWVudD4KICA8L2RlZnM+CiAgPHJlY3QgeD0iMTgiIHk9IjE4IiB3aWR0aD0iMzYiIGhlaWdodD0iNDAiIHJ4PSIzIiBmaWxsPSJ1cmwoI3RyMSkiLz4KICA8cmVjdCB4PSIxNCIgeT0iMTIiIHdpZHRoPSI0NCIgaGVpZ2h0PSI3IiByeD0iMiIgZmlsbD0iIzk0YTNiOCIvPgogIDxyZWN0IHg9IjI5IiB5PSI2IiB3aWR0aD0iMTQiIGhlaWdodD0iOCIgcng9IjIiIGZpbGw9IiM2NDc0OGIiLz4KICA8cmVjdCB4PSIyNCIgeT0iMjQiIHdpZHRoPSIzIiBoZWlnaHQ9IjI4IiByeD0iMSIgZmlsbD0iIzQ3NTU2OSIgb3BhY2l0eT0iMC41Ii8+CiAgPHJlY3QgeD0iMzQiIHk9IjI0IiB3aWR0aD0iMyIgaGVpZ2h0PSIyOCIgcng9IjEiIGZpbGw9IiM0NzU1NjkiIG9wYWNpdHk9IjAuNSIvPgogIDxyZWN0IHg9IjQ0IiB5PSIyNCIgd2lkdGg9IjMiIGhlaWdodD0iMjgiIHJ4PSIxIiBmaWxsPSIjNDc1NTY5IiBvcGFjaXR5PSIwLjUiLz4KPC9zdmc+YDsKCmNvbnN0IGNvZmZlZVN2ZyA9IGA8c3ZnIHhtbG5zPSJodHRwOi8vd3d3LnczLm9yZy8yMDAwL3N2ZyIgd2lkdGg9IjcyIiBoZWlnaHQ9IjcyIiB2aWV3Qm94PSIwIDAgNzIgNzIiIGZpbGw9Im5vbmUiPgogIDxkZWZzPgogICAgPGxpbmVhckdyYWRpZW50IGlkPSJjZjEiIHgxPSIxNCIgeTE9IjI2IiB4Mj0iNTAiIHkyPSI2MiI+PHN0b3Agc3RvcC1jb2xvcj0iIzc4MzUwZiIvPjxzdG9wIG9mZnNldD0iMSIgc3RvcC1jb2xvcj0iIzQ1MWEwMyIvPjwvbGluZWFyR3JhZGllbnQ+CiAgPC9kZWZzPgogIDxwYXRoIGQ9Ik0xNCAyNmgzNnYyOGMwIDUtNCA4LTggOEgyMmMtNSAwLTgtMy04LTh6IiBmaWxsPSJ1cmwoI2NmMSkiLz4KICA8cGF0aCBkPSJNNTAgMzBoN2MzIDAgNiAyIDYgNnMtMyA2LTYgNmgtNyIgc3Ryb2tlPSIjOTRhM2I4IiBzdHJva2Utd2lkdGg9IjMiIGZpbGw9Im5vbmUiLz4KICA8cmVjdCB4PSIxNCIgeT0iMjIiIHdpZHRoPSIzNiIgaGVpZ2h0PSI2IiByeD0iMiIgZmlsbD0iI2UyZThmMCIvPgogIDxwYXRoIGQ9Ik0yMiAxNGMwLTQgMi03IDItN00zMiAxMmMwLTQgMi03IDItN000MiAxNGMwLTQgMi03IDItNyIgc3Ryb2tlPSIjOTRhM2I4IiBzdHJva2Utd2lkdGg9IjIiIHN0cm9rZS1saW5lY2FwPSJyb3VuZCIgb3BhY2l0eT0iMC41Ii8+Cjwvc3ZnPmA7Cgpjb25zdCBjYWtlU3ZnID0gYDxzdmcgeG1sbnM9Imh0dHA6Ly93d3cudzMub3JnLzIwMDAvc3ZnIiB3aWR0aD0iNzIiIGhlaWdodD0iNzIiIHZpZXdCb3g9IjAgMCA3MiA3MiIgZmlsbD0ibm9uZSI+CiAgPGRlZnM+CiAgICA8bGluZWFyR3JhZGllbnQgaWQ9ImNrMSIgeDE9IjEwIiB5MT0iMzQiIHgyPSI2MiIgeTI9IjU4Ij48c3RvcCBzdG9wLWNvbG9yPSIjZmVjZGQzIi8+PHN0b3Agb2Zmc2V0PSIxIiBzdG9wLWNvbG9yPSIjZjQzZjVlIi8+PC9saW5lYXJHcmFkaWVudD4KICAgIDxsaW5lYXJHcmFkaWVudCBpZD0iY2syIiB4MT0iMTQiIHkxPSIyNiIgeDI9IjU4IiB5Mj0iMzgiPjxzdG9wIHN0b3AtY29sb3I9IiNmZWYzYzciLz48c3RvcCBvZmZzZXQ9IjEiIHN0b3AtY29sb3I9IiNmZGU2OGEiLz48L2xpbmVhckdyYWRpZW50PgogIDwvZGVmcz4KICA8cmVjdCB4PSIxMCIgeT0iMzQiIHdpZHRoPSI1MiIgaGVpZ2h0PSIyNCIgcng9IjUiIGZpbGw9InVybCgjY2sxKSIvPgogIDxwYXRoIGQ9Ik0xMCAzNGg1MnY2YzAgMC03IDUtMjYgNXMtMjYtNS0yNi01eiIgZmlsbD0iI2ZkYTRhZiIvPgogIDxyZWN0IHg9IjE0IiB5PSIyNiIgd2lkdGg9IjQ0IiBoZWlnaHQ9IjEwIiByeD0iMyIgZmlsbD0idXJsKCNjazIpIi8+CiAgPHJlY3QgeD0iMzQiIHk9IjEyIiB3aWR0aD0iNCIgaGVpZ2h0PSIxNiIgcng9IjEiIGZpbGw9IiNmNTllMGIiLz4KICA8ZWxsaXBzZSBjeD0iMzYiIGN5PSIxMCIgcng9IjMuNSIgcnk9IjQuNSIgZmlsbD0iI2ZiYmYyNCIvPgogIDxwYXRoIGQ9Ik0zNiA1YzAgMCAwLTIgMC0yIiBzdHJva2U9IiNmYjkyM2MiIHN0cm9rZS13aWR0aD0iMiIgc3Ryb2tlLWxpbmVjYXA9InJvdW5kIi8+Cjwvc3ZnPmA7Cgpjb25zdCBwaXp6YVN2ZyA9IGA8c3ZnIHhtbG5zPSJodHRwOi8vd3d3LnczLm9yZy8yMDAwL3N2ZyIgd2lkdGg9IjcyIiBoZWlnaHQ9IjcyIiB2aWV3Qm94PSIwIDAgNzIgNzIiIGZpbGw9Im5vbmUiPgogIDxkZWZzPgogICAgPGxpbmVhckdyYWRpZW50IGlkPSJwejEiIHgxPSIzNiIgeTE9IjgiIHgyPSIzNiIgeTI9IjY0Ij48c3RvcCBzdG9wLWNvbG9yPSIjZDk3NzA2Ii8+PHN0b3Agb2Zmc2V0PSIxIiBzdG9wLWNvbG9yPSIjOTI0MDBlIi8+PC9saW5lYXJHcmFkaWVudD4KICAgIDxsaW5lYXJHcmFkaWVudCBpZD0icHoyIiB4MT0iMzYiIHkxPSIxNiIgeDI9IjM2IiB5Mj0iNTgiPjxzdG9wIHN0b3AtY29sb3I9IiNmZGU2OGEiLz48c3RvcCBvZmZzZXQ9IjEiIHN0b3AtY29sb3I9IiNmYmJmMjQiLz48L2xpbmVhckdyYWRpZW50PgogIDwvZGVmcz4KICA8cGF0aCBkPSJNMzYgOEw4IDY0aDU2eiIgZmlsbD0idXJsKCNwejEpIi8+CiAgPHBhdGggZD0iTTM2IDE2TDE0IDU4aDQ0eiIgZmlsbD0idXJsKCNwejIpIi8+CiAgPGNpcmNsZSBjeD0iMjgiIGN5PSI0MCIgcj0iNSIgZmlsbD0iI2RjMjYyNiIgb3BhY2l0eT0iMC44Ii8+CiAgPGNpcmNsZSBjeD0iNDIiIGN5PSI0NCIgcj0iNCIgZmlsbD0iI2RjMjYyNiIgb3BhY2l0eT0iMC44Ii8+CiAgPGNpcmNsZSBjeD0iMzQiIGN5PSI1MiIgcj0iMy41IiBmaWxsPSIjMTZhMzRhIiBvcGFjaXR5PSIwLjciLz4KPC9zdmc+YDsKCmNvbnN0IHJ1Z1N2ZyA9IGA8c3ZnIHhtbG5zPSJodHRwOi8vd3d3LnczLm9yZy8yMDAwL3N2ZyIgd2lkdGg9IjcyIiBoZWlnaHQ9IjcyIiB2aWV3Qm94PSIwIDAgNzIgNzIiIGZpbGw9Im5vbmUiPgogIDxkZWZzPgogICAgPGxpbmVhckdyYWRpZW50IGlkPSJyZzEiIHgxPSI2IiB5MT0iMjQiIHgyPSI2NiIgeTI9IjUyIj48c3RvcCBzdG9wLWNvbG9yPSIjZmRhNGFmIi8+PHN0b3Agb2Zmc2V0PSIxIiBzdG9wLWNvbG9yPSIjZjQzZjVlIi8+PC9saW5lYXJHcmFkaWVudD4KICA8L2RlZnM+CiAgPHJlY3QgeD0iNiIgeT0iMjQiIHdpZHRoPSI2MCIgaGVpZ2h0PSIyOCIgcng9IjUiIGZpbGw9InVybCgjcmcxKSIvPgogIDxyZWN0IHg9IjExIiB5PSIyOCIgd2lkdGg9IjUwIiBoZWlnaHQ9IjIwIiByeD0iMyIgZmlsbD0iI2ZmZjFmMiIgb3BhY2l0eT0iMC40Ii8+CiAgPHJlY3QgeD0iMTciIHk9IjMyIiB3aWR0aD0iMzgiIGhlaWdodD0iMTIiIHJ4PSIyIiBmaWxsPSIjYmUxMjNjIiBvcGFjaXR5PSIwLjQiLz4KICA8cmVjdCB4PSI2IiB5PSIyNCIgd2lkdGg9IjYwIiBoZWlnaHQ9IjMiIGZpbGw9IndoaXRlIiBvcGFjaXR5PSIwLjE1Ii8+CiAgPHBhdGggZD0iTTkgNTJ2NE0xNSA1MnY0TTIxIDUydjRNMjcgNTJ2NE0zMyA1MnY0TTM5IDUydjRNNDUgNTJ2NE01MSA1MnY0TTU3IDUydjRNNjMgNTJ2NCIgc3Ryb2tlPSIjZmVjZGQzIiBzdHJva2Utd2lkdGg9IjIiIHN0cm9rZS1saW5lY2FwPSJyb3VuZCIvPgo8L3N2Zz5gOwoKY29uc3Qgcm91bmRSdWdTdmcgPSBgPHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSI3MiIgaGVpZ2h0PSI3MiIgdmlld0JveD0iMCAwIDcyIDcyIiBmaWxsPSJub25lIj4KICA8ZGVmcz4KICAgIDxyYWRpYWxHcmFkaWVudCBpZD0icnIxIiBjeD0iMC41IiBjeT0iMC40NSIgcj0iMC42Ij48c3RvcCBzdG9wLWNvbG9yPSIjYTVmM2ZjIi8+PHN0b3Agb2Zmc2V0PSIxIiBzdG9wLWNvbG9yPSIjMDZiNmQ0Ii8+PC9yYWRpYWxHcmFkaWVudD4KICA8L2RlZnM+CiAgPGVsbGlwc2UgY3g9IjM2IiBjeT0iMzgiIHJ4PSIzMCIgcnk9IjE4IiBmaWxsPSJ1cmwoI3JyMSkiLz4KICA8ZWxsaXBzZSBjeD0iMzYiIGN5PSIzOCIgcng9IjIzIiByeT0iMTMuNSIgZmlsbD0ibm9uZSIgc3Ryb2tlPSIjZWNmZWZmIiBzdHJva2Utd2lkdGg9IjIiIG9wYWNpdHk9IjAuNiIvPgogIDxlbGxpcHNlIGN4PSIzNiIgY3k9IjM4IiByeD0iMTUiIHJ5PSI4LjUiIGZpbGw9Im5vbmUiIHN0cm9rZT0iIzBlNzQ5MCIgc3Ryb2tlLXdpZHRoPSIyIiBvcGFjaXR5PSIwLjQ1Ii8+CiAgPGVsbGlwc2UgY3g9IjM2IiBjeT0iMzgiIHJ4PSI3IiByeT0iNCIgZmlsbD0iI2NmZmFmZSIgb3BhY2l0eT0iMC43Ii8+Cjwvc3ZnPmA7CgovLyDilIDilIAg5a+85Ye6IERhdGEgVVJJIOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgAoKZXhwb3J0IGNvbnN0IEZVUk5JVFVSRV9JQ09OUyA9IHsKICAgIGJlZDogc3ZnVG9EYXRhVXJpKGJlZFN2ZyksCiAgICBzb2ZhOiBzdmdUb0RhdGFVcmkoc29mYVN2ZyksCiAgICBjaGFpcjogc3ZnVG9EYXRhVXJpKGNoYWlyU3ZnKSwKICAgIHRvaWxldDogc3ZnVG9EYXRhVXJpKHRvaWxldFN2ZyksCiAgICBiYXRodHViOiBzdmdUb0RhdGFVcmkoYmF0aHR1YlN2ZyksCiAgICBwbGFudDogc3ZnVG9EYXRhVXJpKHBsYW50U3ZnKSwKICAgIGNvbXB1dGVyOiBzdmdUb0RhdGFVcmkoY29tcHV0ZXJTdmcpLAogICAgZ2FtZXBhZDogc3ZnVG9EYXRhVXJpKGdhbWVwYWRTdmcpLAogICAgZ3VpdGFyOiBzdmdUb0RhdGFVcmkoZ3VpdGFyU3ZnKSwKICAgIHBhaW50aW5nOiBzdmdUb0RhdGFVcmkocGFpbnRpbmdTdmcpLAogICAgYm9va3M6IHN2Z1RvRGF0YVVyaShib29rc1N2ZyksCiAgICBsYW1wOiBzdmdUb0RhdGFVcmkobGFtcFN2ZyksCiAgICB0cmFzaDogc3ZnVG9EYXRhVXJpKHRyYXNoU3ZnKSwKICAgIGNvZmZlZTogc3ZnVG9EYXRhVXJpKGNvZmZlZVN2ZyksCiAgICBjYWtlOiBzdmdUb0RhdGFVcmkoY2FrZVN2ZyksCiAgICBwaXp6YTogc3ZnVG9EYXRhVXJpKHBpenphU3ZnKSwKICAgIHJ1Zzogc3ZnVG9EYXRhVXJpKHJ1Z1N2ZyksCiAgICByb3VuZFJ1Zzogc3ZnVG9EYXRhVXJpKHJvdW5kUnVnU3ZnKSwKfTsK
+/**
+ * furnitureIcons — SVG 家具图标 Data URI
+ *
+ * 将手绘风格的 SVG 家具图标编码为 data URI，
+ * 供 RoomApp 等需要 image URL 的场景使用。
+ * 比 Twemoji 更精致、更有设计感。
+ */
+
+function svgToDataUri(svg: string): string {
+    return 'data:image/svg+xml,' + encodeURIComponent(svg.trim());
+}
+
+// ── 家具 SVG ──────────────────────────────────
+
+const bedSvg = `<svg xmlns="http://www.w3.org/2000/svg" width="72" height="72" viewBox="0 0 72 72" fill="none">
+  <defs>
+    <linearGradient id="b1" x1="6" y1="38" x2="66" y2="56"><stop stop-color="#818cf8"/><stop offset="1" stop-color="#6366f1"/></linearGradient>
+    <linearGradient id="b2" x1="8" y1="26" x2="64" y2="40"><stop stop-color="#c7d2fe"/><stop offset="1" stop-color="#a5b4fc"/></linearGradient>
+  </defs>
+  <rect x="6" y="38" width="60" height="18" rx="4" fill="url(#b1)"/>
+  <rect x="8" y="26" width="56" height="14" rx="3" fill="url(#b2)"/>
+  <rect x="10" y="30" width="18" height="8" rx="2" fill="#e0e7ff" opacity="0.8"/>
+  <rect x="6" y="56" width="7" height="7" rx="1.5" fill="#4f46e5"/>
+  <rect x="59" y="56" width="7" height="7" rx="1.5" fill="#4f46e5"/>
+  <rect x="8" y="38" width="56" height="2" fill="white" opacity="0.1"/>
+</svg>`;
+
+const sofaSvg = `<svg xmlns="http://www.w3.org/2000/svg" width="72" height="72" viewBox="0 0 72 72" fill="none">
+  <defs>
+    <linearGradient id="s1" x1="9" y1="30" x2="63" y2="52"><stop stop-color="#c4b5fd"/><stop offset="1" stop-color="#8b5cf6"/></linearGradient>
+  </defs>
+  <rect x="9" y="30" width="54" height="22" rx="6" fill="url(#s1)"/>
+  <rect x="4" y="26" width="14" height="30" rx="5" fill="#a78bfa"/>
+  <rect x="54" y="26" width="14" height="30" rx="5" fill="#a78bfa"/>
+  <rect x="15" y="34" width="42" height="6" rx="2" fill="#e0e7ff" opacity="0.35"/>
+  <rect x="9" y="56" width="7" height="7" rx="1.5" fill="#6d28d9"/>
+  <rect x="56" y="56" width="7" height="7" rx="1.5" fill="#6d28d9"/>
+</svg>`;
+
+const chairSvg = `<svg xmlns="http://www.w3.org/2000/svg" width="72" height="72" viewBox="0 0 72 72" fill="none">
+  <defs>
+    <linearGradient id="ch1" x1="18" y1="8" x2="54" y2="40"><stop stop-color="#d97706"/><stop offset="1" stop-color="#92400e"/></linearGradient>
+  </defs>
+  <rect x="18" y="8" width="36" height="30" rx="4" fill="url(#ch1)"/>
+  <rect x="20" y="38" width="32" height="8" rx="2" fill="#92400e"/>
+  <rect x="20" y="46" width="5" height="18" rx="1" fill="#78350f"/>
+  <rect x="47" y="46" width="5" height="18" rx="1" fill="#78350f"/>
+  <rect x="18" y="8" width="36" height="3" fill="white" opacity="0.1"/>
+</svg>`;
+
+const toiletSvg = `<svg xmlns="http://www.w3.org/2000/svg" width="72" height="72" viewBox="0 0 72 72" fill="none">
+  <defs>
+    <linearGradient id="t1" x1="14" y1="28" x2="58" y2="58"><stop stop-color="#f1f5f9"/><stop offset="1" stop-color="#cbd5e1"/></linearGradient>
+    <linearGradient id="t2" x1="22" y1="12" x2="50" y2="44"><stop stop-color="#e2e8f0"/><stop offset="1" stop-color="#94a3b8"/></linearGradient>
+  </defs>
+  <ellipse cx="36" cy="44" rx="20" ry="14" fill="url(#t1)"/>
+  <rect x="22" y="12" width="28" height="32" rx="5" fill="url(#t2)"/>
+  <rect x="26" y="16" width="20" height="10" rx="2" fill="#f1f5f9" opacity="0.5"/>
+  <rect x="31" y="6" width="10" height="8" rx="2" fill="#94a3b8"/>
+</svg>`;
+
+const bathtubSvg = `<svg xmlns="http://www.w3.org/2000/svg" width="72" height="72" viewBox="0 0 72 72" fill="none">
+  <defs>
+    <linearGradient id="bt1" x1="8" y1="32" x2="64" y2="60"><stop stop-color="#f1f5f9"/><stop offset="1" stop-color="#94a3b8"/></linearGradient>
+  </defs>
+  <rect x="4" y="26" width="64" height="7" rx="2" fill="#e2e8f0"/>
+  <path d="M8 33v18c0 4 4 8 8 8h40c4 0 8-4 8-8V33z" fill="url(#bt1)"/>
+  <rect x="8" y="12" width="7" height="16" rx="2" fill="#94a3b8"/>
+  <circle cx="12" cy="12" r="4" fill="#64748b"/>
+  <ellipse cx="36" cy="29" rx="24" ry="3" fill="#bfdbfe" opacity="0.5"/>
+</svg>`;
+
+const plantSvg = `<svg xmlns="http://www.w3.org/2000/svg" width="72" height="72" viewBox="0 0 72 72" fill="none">
+  <defs>
+    <radialGradient id="p1"><stop stop-color="#86efac"/><stop offset="1" stop-color="#16a34a"/></radialGradient>
+    <linearGradient id="p2" x1="22" y1="48" x2="50" y2="65"><stop stop-color="#d97706"/><stop offset="1" stop-color="#92400e"/></linearGradient>
+  </defs>
+  <ellipse cx="36" cy="22" rx="18" ry="16" fill="url(#p1)"/>
+  <ellipse cx="26" cy="18" rx="9" ry="9" fill="#4ade80" opacity="0.7"/>
+  <ellipse cx="46" cy="20" rx="8" ry="8" fill="#22c55e" opacity="0.6"/>
+  <rect x="33" y="34" width="6" height="10" rx="1" fill="#92400e"/>
+  <path d="M22 48h28l-4 16h-20z" fill="url(#p2)"/>
+</svg>`;
+
+const computerSvg = `<svg xmlns="http://www.w3.org/2000/svg" width="72" height="72" viewBox="0 0 72 72" fill="none">
+  <defs>
+    <linearGradient id="c1" x1="8" y1="8" x2="64" y2="44"><stop stop-color="#94a3b8"/><stop offset="1" stop-color="#64748b"/></linearGradient>
+  </defs>
+  <rect x="8" y="8" width="56" height="36" rx="4" fill="url(#c1)" stroke="#475569" stroke-width="2"/>
+  <rect x="12" y="12" width="48" height="28" rx="2" fill="#1e293b"/>
+  <rect x="16" y="16" width="14" height="7" rx="1" fill="#38bdf8" opacity="0.7"/>
+  <rect x="16" y="26" width="24" height="2" rx="1" fill="#94a3b8" opacity="0.4"/>
+  <rect x="16" y="30" width="16" height="2" rx="1" fill="#94a3b8" opacity="0.3"/>
+  <rect x="28" y="44" width="16" height="5" fill="#64748b"/>
+  <rect x="20" y="49" width="32" height="5" rx="2" fill="#94a3b8"/>
+</svg>`;
+
+const gamepadSvg = `<svg xmlns="http://www.w3.org/2000/svg" width="72" height="72" viewBox="0 0 72 72" fill="none">
+  <defs>
+    <linearGradient id="g1" x1="12" y1="18" x2="60" y2="56"><stop stop-color="#a5b4fc"/><stop offset="1" stop-color="#6366f1"/></linearGradient>
+  </defs>
+  <path d="M12 26c0-5 3-8 8-8h32c5 0 8 3 8 8v10c0 9-4 18-12 20H24c-8-2-12-11-12-20z" fill="url(#g1)"/>
+  <rect x="22" y="26" width="3" height="12" rx="1" fill="#1e1b4b"/>
+  <rect x="18" y="30" width="11" height="3" rx="1" fill="#1e1b4b"/>
+  <circle cx="50" cy="26" r="3" fill="#ef4444"/>
+  <circle cx="46" cy="32" r="3" fill="#3b82f6"/>
+  <rect x="32" y="34" width="8" height="3" rx="1.5" fill="#1e1b4b" opacity="0.5"/>
+</svg>`;
+
+const guitarSvg = `<svg xmlns="http://www.w3.org/2000/svg" width="72" height="72" viewBox="0 0 72 72" fill="none">
+  <defs>
+    <linearGradient id="gt1" x1="33" y1="4" x2="39" y2="36"><stop stop-color="#92400e"/><stop offset="1" stop-color="#78350f"/></linearGradient>
+    <linearGradient id="gt2" x1="20" y1="30" x2="52" y2="68"><stop stop-color="#d97706"/><stop offset="1" stop-color="#92400e"/></linearGradient>
+  </defs>
+  <rect x="33" y="4" width="6" height="32" rx="2" fill="url(#gt1)"/>
+  <ellipse cx="36" cy="50" rx="16" ry="18" fill="url(#gt2)"/>
+  <ellipse cx="36" cy="50" rx="9" ry="11" fill="#451a03" opacity="0.5"/>
+  <circle cx="36" cy="50" r="3.5" fill="#1c1917"/>
+  <rect x="34" y="12" width="4" height="2" fill="#fbbf24" rx="0.5"/>
+  <rect x="34" y="16" width="4" height="2" fill="#fbbf24" rx="0.5"/>
+  <rect x="34" y="20" width="4" height="2" fill="#fbbf24" rx="0.5"/>
+</svg>`;
+
+const paintingSvg = `<svg xmlns="http://www.w3.org/2000/svg" width="72" height="72" viewBox="0 0 72 72" fill="none">
+  <defs>
+    <linearGradient id="pt1" x1="10" y1="14" x2="62" y2="56"><stop stop-color="#7dd3fc"/><stop offset="1" stop-color="#38bdf8"/></linearGradient>
+  </defs>
+  <rect x="6" y="10" width="60" height="50" rx="2" fill="#92400e" stroke="#78350f" stroke-width="3"/>
+  <rect x="10" y="14" width="52" height="42" rx="1" fill="url(#pt1)"/>
+  <circle cx="24" cy="30" r="7" fill="#fbbf24" opacity="0.8"/>
+  <path d="M10 44l14-12 9 7 12-14 17 19v12H10z" fill="#16a34a" opacity="0.6"/>
+  <path d="M10 50l14-8 9 5 12-10 17 12v7H10z" fill="#15803d" opacity="0.5"/>
+</svg>`;
+
+const booksSvg = `<svg xmlns="http://www.w3.org/2000/svg" width="72" height="72" viewBox="0 0 72 72" fill="none">
+  <rect x="12" y="44" width="48" height="9" rx="1" fill="#3b82f6"/>
+  <rect x="14" y="33" width="44" height="9" rx="1" fill="#ef4444"/>
+  <rect x="10" y="22" width="52" height="9" rx="1" fill="#22c55e"/>
+  <rect x="16" y="11" width="40" height="9" rx="1" fill="#f59e0b"/>
+  <rect x="12" y="44" width="48" height="2" fill="white" opacity="0.15"/>
+  <rect x="14" y="33" width="44" height="2" fill="white" opacity="0.15"/>
+  <rect x="10" y="22" width="52" height="2" fill="white" opacity="0.15"/>
+  <rect x="16" y="11" width="40" height="2" fill="white" opacity="0.15"/>
+  <rect x="8" y="53" width="56" height="5" rx="1" fill="#64748b"/>
+</svg>`;
+
+const lampSvg = `<svg xmlns="http://www.w3.org/2000/svg" width="72" height="72" viewBox="0 0 72 72" fill="none">
+  <defs>
+    <linearGradient id="l1" x1="18" y1="8" x2="54" y2="32"><stop stop-color="#fef3c7"/><stop offset="1" stop-color="#fde68a"/></linearGradient>
+  </defs>
+  <rect x="32" y="30" width="8" height="24" rx="2" fill="#94a3b8"/>
+  <ellipse cx="36" cy="58" rx="14" ry="5" fill="#64748b"/>
+  <path d="M18 30h36l-7-22H25z" fill="url(#l1)"/>
+  <ellipse cx="36" cy="12" rx="5" ry="3" fill="#fef3c7"/>
+  <circle cx="36" cy="20" r="3" fill="#fbbf24" opacity="0.8"/>
+</svg>`;
+
+const trashSvg = `<svg xmlns="http://www.w3.org/2000/svg" width="72" height="72" viewBox="0 0 72 72" fill="none">
+  <defs>
+    <linearGradient id="tr1" x1="18" y1="18" x2="54" y2="58"><stop stop-color="#94a3b8"/><stop offset="1" stop-color="#64748b"/></linearGradient>
+  </defs>
+  <rect x="18" y="18" width="36" height="40" rx="3" fill="url(#tr1)"/>
+  <rect x="14" y="12" width="44" height="7" rx="2" fill="#94a3b8"/>
+  <rect x="29" y="6" width="14" height="8" rx="2" fill="#64748b"/>
+  <rect x="24" y="24" width="3" height="28" rx="1" fill="#475569" opacity="0.5"/>
+  <rect x="34" y="24" width="3" height="28" rx="1" fill="#475569" opacity="0.5"/>
+  <rect x="44" y="24" width="3" height="28" rx="1" fill="#475569" opacity="0.5"/>
+</svg>`;
+
+const coffeeSvg = `<svg xmlns="http://www.w3.org/2000/svg" width="72" height="72" viewBox="0 0 72 72" fill="none">
+  <defs>
+    <linearGradient id="cf1" x1="14" y1="26" x2="50" y2="62"><stop stop-color="#78350f"/><stop offset="1" stop-color="#451a03"/></linearGradient>
+  </defs>
+  <path d="M14 26h36v28c0 5-4 8-8 8H22c-5 0-8-3-8-8z" fill="url(#cf1)"/>
+  <path d="M50 30h7c3 0 6 2 6 6s-3 6-6 6h-7" stroke="#94a3b8" stroke-width="3" fill="none"/>
+  <rect x="14" y="22" width="36" height="6" rx="2" fill="#e2e8f0"/>
+  <path d="M22 14c0-4 2-7 2-7M32 12c0-4 2-7 2-7M42 14c0-4 2-7 2-7" stroke="#94a3b8" stroke-width="2" stroke-linecap="round" opacity="0.5"/>
+</svg>`;
+
+const cakeSvg = `<svg xmlns="http://www.w3.org/2000/svg" width="72" height="72" viewBox="0 0 72 72" fill="none">
+  <defs>
+    <linearGradient id="ck1" x1="10" y1="34" x2="62" y2="58"><stop stop-color="#fecdd3"/><stop offset="1" stop-color="#f43f5e"/></linearGradient>
+    <linearGradient id="ck2" x1="14" y1="26" x2="58" y2="38"><stop stop-color="#fef3c7"/><stop offset="1" stop-color="#fde68a"/></linearGradient>
+  </defs>
+  <rect x="10" y="34" width="52" height="24" rx="5" fill="url(#ck1)"/>
+  <path d="M10 34h52v6c0 0-7 5-26 5s-26-5-26-5z" fill="#fda4af"/>
+  <rect x="14" y="26" width="44" height="10" rx="3" fill="url(#ck2)"/>
+  <rect x="34" y="12" width="4" height="16" rx="1" fill="#f59e0b"/>
+  <ellipse cx="36" cy="10" rx="3.5" ry="4.5" fill="#fbbf24"/>
+  <path d="M36 5c0 0 0-2 0-2" stroke="#fb923c" stroke-width="2" stroke-linecap="round"/>
+</svg>`;
+
+const pizzaSvg = `<svg xmlns="http://www.w3.org/2000/svg" width="72" height="72" viewBox="0 0 72 72" fill="none">
+  <defs>
+    <linearGradient id="pz1" x1="36" y1="8" x2="36" y2="64"><stop stop-color="#d97706"/><stop offset="1" stop-color="#92400e"/></linearGradient>
+    <linearGradient id="pz2" x1="36" y1="16" x2="36" y2="58"><stop stop-color="#fde68a"/><stop offset="1" stop-color="#fbbf24"/></linearGradient>
+  </defs>
+  <path d="M36 8L8 64h56z" fill="url(#pz1)"/>
+  <path d="M36 16L14 58h44z" fill="url(#pz2)"/>
+  <circle cx="28" cy="40" r="5" fill="#dc2626" opacity="0.8"/>
+  <circle cx="42" cy="44" r="4" fill="#dc2626" opacity="0.8"/>
+  <circle cx="34" cy="52" r="3.5" fill="#16a34a" opacity="0.7"/>
+</svg>`;
+
+const rugSvg = `<svg xmlns="http://www.w3.org/2000/svg" width="72" height="72" viewBox="0 0 72 72" fill="none">
+  <defs>
+    <linearGradient id="rg1" x1="6" y1="24" x2="66" y2="52"><stop stop-color="#fda4af"/><stop offset="1" stop-color="#f43f5e"/></linearGradient>
+  </defs>
+  <rect x="6" y="24" width="60" height="28" rx="5" fill="url(#rg1)"/>
+  <rect x="11" y="28" width="50" height="20" rx="3" fill="#fff1f2" opacity="0.4"/>
+  <rect x="17" y="32" width="38" height="12" rx="2" fill="#be123c" opacity="0.4"/>
+  <rect x="6" y="24" width="60" height="3" fill="white" opacity="0.15"/>
+  <path d="M9 52v4M15 52v4M21 52v4M27 52v4M33 52v4M39 52v4M45 52v4M51 52v4M57 52v4M63 52v4" stroke="#fecdd3" stroke-width="2" stroke-linecap="round"/>
+</svg>`;
+
+const roundRugSvg = `<svg xmlns="http://www.w3.org/2000/svg" width="72" height="72" viewBox="0 0 72 72" fill="none">
+  <defs>
+    <radialGradient id="rr1" cx="0.5" cy="0.45" r="0.6"><stop stop-color="#a5f3fc"/><stop offset="1" stop-color="#06b6d4"/></radialGradient>
+  </defs>
+  <ellipse cx="36" cy="38" rx="30" ry="18" fill="url(#rr1)"/>
+  <ellipse cx="36" cy="38" rx="23" ry="13.5" fill="none" stroke="#ecfeff" stroke-width="2" opacity="0.6"/>
+  <ellipse cx="36" cy="38" rx="15" ry="8.5" fill="none" stroke="#0e7490" stroke-width="2" opacity="0.45"/>
+  <ellipse cx="36" cy="38" rx="7" ry="4" fill="#cffafe" opacity="0.7"/>
+</svg>`;
+
+// ── 导出 Data URI ──────────────────────────────────
+
+export const FURNITURE_ICONS = {
+    bed: svgToDataUri(bedSvg),
+    sofa: svgToDataUri(sofaSvg),
+    chair: svgToDataUri(chairSvg),
+    toilet: svgToDataUri(toiletSvg),
+    bathtub: svgToDataUri(bathtubSvg),
+    plant: svgToDataUri(plantSvg),
+    computer: svgToDataUri(computerSvg),
+    gamepad: svgToDataUri(gamepadSvg),
+    guitar: svgToDataUri(guitarSvg),
+    painting: svgToDataUri(paintingSvg),
+    books: svgToDataUri(booksSvg),
+    lamp: svgToDataUri(lampSvg),
+    trash: svgToDataUri(trashSvg),
+    coffee: svgToDataUri(coffeeSvg),
+    cake: svgToDataUri(cakeSvg),
+    pizza: svgToDataUri(pizzaSvg),
+    rug: svgToDataUri(rugSvg),
+    roundRug: svgToDataUri(roundRugSvg),
+};

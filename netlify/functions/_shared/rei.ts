@@ -1,1 +1,147 @@
-77u/aW1wb3J0IHsgZ2V0U3RvcmUgfSBmcm9tICdAbmV0bGlmeS9ibG9icyc7CmltcG9ydCB7IGNyZWF0ZVJlaVNlcnZlciwgY3JlYXRlVGVuYW50VG9rZW4gfSBmcm9tICdAcmVpLXN0YW5kYXJkL2Ftc2ctc2VydmVyJzsKCnR5cGUgUmVpSGFuZGxlclJlc3VsdCA9IHsKICBzdGF0dXM6IG51bWJlcjsKICBib2R5OiBSZWNvcmQ8c3RyaW5nLCBhbnk+Owp9OwoKdHlwZSBSZWlTZXJ2ZXIgPSBBd2FpdGVkPFJldHVyblR5cGU8dHlwZW9mIGNyZWF0ZVJlaVNlcnZlcj4+OwoKY29uc3QgQUNUSVZFX01TR19OQU1FU1BBQ0UgPSAocHJvY2Vzcy5lbnYuQU1TR19CTE9CX05BTUVTUEFDRSB8fCAncmVpLXRlbmFudHMnKS50cmltKCkgfHwgJ3JlaS10ZW5hbnRzJzsKY29uc3QgQUNUSVZFX01TR19DT1JTX0FMTE9XRURfSEVBREVSUyA9IFsKICAnQXV0aG9yaXphdGlvbicsCiAgJ0NvbnRlbnQtVHlwZScsCiAgJ1gtSW5pdC1TZWNyZXQnLAogICdYLVVzZXItSWQnLAogICdYLVJlc3BvbnNlLUVuY3J5cHRlZCcsCiAgJ1gtUGF5bG9hZC1FbmNyeXB0ZWQnLAogICdYLUVuY3J5cHRpb24tVmVyc2lvbicsCl0uam9pbignLCAnKTsKY29uc3QgcmVpU2VydmVyQ2FjaGUgPSBuZXcgTWFwPHN0cmluZywgUHJvbWlzZTxSZWlTZXJ2ZXI+PigpOwoKY29uc3QgZ2V0UmVxdWlyZWRFbnYgPSAobmFtZTogc3RyaW5nKSA9PiB7CiAgY29uc3QgdmFsdWUgPSBwcm9jZXNzLmVudltuYW1lXT8udHJpbSgpOwogIGlmICghdmFsdWUpIHsKICAgIHRocm93IG5ldyBFcnJvcihgW0FjdGl2ZU1zZzJdIE1pc3NpbmcgZW52aXJvbm1lbnQgdmFyaWFibGU6ICR7bmFtZX1gKTsKICB9CiAgcmV0dXJuIHZhbHVlOwp9OwoKZXhwb3J0IGNvbnN0IHJlc29sdmVQdWJsaWNCYXNlVXJsID0gKHJlcTogUmVxdWVzdCkgPT4gewogIGNvbnN0IGV4cGxpY2l0ID0gcHJvY2Vzcy5lbnYuUFVCTElDX0JBU0VfVVJMPy50cmltKCk7CiAgaWYgKGV4cGxpY2l0KSB7CiAgICByZXR1cm4gZXhwbGljaXQucmVwbGFjZSgvXC8rJC8sICcnKTsKICB9CiAgcmV0dXJuIG5ldyBVUkwocmVxLnVybCkub3JpZ2luLnJlcGxhY2UoL1wvKyQvLCAnJyk7Cn07CgpleHBvcnQgY29uc3QgZ2V0UmVpU2VydmVyID0gYXN5bmMgKHJlcTogUmVxdWVzdCkgPT4gewogIGNvbnN0IHB1YmxpY0Jhc2VVcmwgPSByZXNvbHZlUHVibGljQmFzZVVybChyZXEpOwogIGlmICghcmVpU2VydmVyQ2FjaGUuaGFzKHB1YmxpY0Jhc2VVcmwpKSB7CiAgICByZWlTZXJ2ZXJDYWNoZS5zZXQocHVibGljQmFzZVVybCwgY3JlYXRlUmVpU2VydmVyKHsKICAgICAgdmFwaWQ6IHsKICAgICAgICBlbWFpbDogZ2V0UmVxdWlyZWRFbnYoJ1ZBUElEX0VNQUlMJyksCiAgICAgICAgcHVibGljS2V5OiBnZXRSZXF1aXJlZEVudignVklURV9BTVNHX1ZBUElEX1BVQkxJQ19LRVknKSwKICAgICAgICBwcml2YXRlS2V5OiBnZXRSZXF1aXJlZEVudignVkFQSURfUFJJVkFURV9LRVknKSwKICAgICAgfSwKICAgICAgdGVuYW50OiB7CiAgICAgICAgYmxvYk5hbWVzcGFjZTogQUNUSVZFX01TR19OQU1FU1BBQ0UsCiAgICAgICAga2VrOiBnZXRSZXF1aXJlZEVudignQU1TR19URU5BTlRfS0VLJyksCiAgICAgICAgdG9rZW5TaWduaW5nS2V5OiBnZXRSZXF1aXJlZEVudignQU1TR19UT0tFTl9TSUdOSU5HX0tFWScpLAogICAgICAgIGluaXRTZWNyZXQ6IHByb2Nlc3MuZW52LkFNU0dfSU5JVF9TRUNSRVQ/LnRyaW0oKSB8fCB1bmRlZmluZWQsCiAgICAgICAgcHVibGljQmFzZVVybCwKICAgICAgfSwKICAgIH0pKTsKICB9CgogIHJldHVybiByZWlTZXJ2ZXJDYWNoZS5nZXQocHVibGljQmFzZVVybCkhOwp9OwoKZXhwb3J0IGNvbnN0IGNyZWF0ZUNyb25Ub2tlbkZvclRlbmFudCA9ICh0ZW5hbnRJZDogc3RyaW5nKSA9PiB7CiAgcmV0dXJuIGNyZWF0ZVRlbmFudFRva2VuKHsgdGVuYW50SWQsIHR5cGU6ICdjcm9uJyB9LCBnZXRSZXF1aXJlZEVudignQU1TR19UT0tFTl9TSUdOSU5HX0tFWScpKTsKfTsKCmV4cG9ydCBjb25zdCBsaXN0VGVuYW50SWRzID0gYXN5bmMgKCkgPT4gewogIGNvbnN0IHN0b3JlID0gZ2V0U3RvcmUoQUNUSVZFX01TR19OQU1FU1BBQ0UpOwogIGNvbnN0IHsgYmxvYnMgfSA9IGF3YWl0IHN0b3JlLmxpc3QoeyBwcmVmaXg6ICd0ZW5hbnQvJyB9KTsKICByZXR1cm4gYmxvYnMKICAgIC5tYXAoKGVudHJ5KSA9PiBlbnRyeS5rZXkucmVwbGFjZSgvXnRlbmFudFwvLywgJycpLnRyaW0oKSkKICAgIC5maWx0ZXIoQm9vbGVhbik7Cn07CgpleHBvcnQgY29uc3QgdG9IZWFkZXJPYmplY3QgPSAocmVxOiBSZXF1ZXN0KSA9PiBPYmplY3QuZnJvbUVudHJpZXMocmVxLmhlYWRlcnMuZW50cmllcygpKTsKCmV4cG9ydCBjb25zdCByZWFkUmVxdWVzdEJvZHkgPSAocmVxOiBSZXF1ZXN0KSA9PiByZXEudGV4dCgpOwoKZXhwb3J0IGNvbnN0IGpzb25SZXNwb25zZSA9IChib2R5OiBSZWNvcmQ8c3RyaW5nLCBhbnk+LCBzdGF0dXMgPSAyMDAsIGhlYWRlcnM/OiBIZWFkZXJzSW5pdCkgPT4gewogIGNvbnN0IG5leHRIZWFkZXJzID0gbmV3IEhlYWRlcnMoaGVhZGVycyk7CiAgaWYgKCFuZXh0SGVhZGVycy5oYXMoJ0NvbnRlbnQtVHlwZScpKSB7CiAgICBuZXh0SGVhZGVycy5zZXQoJ0NvbnRlbnQtVHlwZScsICdhcHBsaWNhdGlvbi9qc29uOyBjaGFyc2V0PXV0Zi04Jyk7CiAgfQogIG5leHRIZWFkZXJzLnNldCgnQ2FjaGUtQ29udHJvbCcsICduby1zdG9yZScpOwogIGlmICghbmV4dEhlYWRlcnMuaGFzKCdBY2Nlc3MtQ29udHJvbC1BbGxvdy1PcmlnaW4nKSkgewogICAgbmV4dEhlYWRlcnMuc2V0KCdBY2Nlc3MtQ29udHJvbC1BbGxvdy1PcmlnaW4nLCAnKicpOwogIH0KICBpZiAoIW5leHRIZWFkZXJzLmhhcygnQWNjZXNzLUNvbnRyb2wtQWxsb3ctSGVhZGVycycpKSB7CiAgICBuZXh0SGVhZGVycy5zZXQoJ0FjY2Vzcy1Db250cm9sLUFsbG93LUhlYWRlcnMnLCBBQ1RJVkVfTVNHX0NPUlNfQUxMT1dFRF9IRUFERVJTKTsKICB9CiAgaWYgKCFuZXh0SGVhZGVycy5oYXMoJ0FjY2Vzcy1Db250cm9sLUFsbG93LU1ldGhvZHMnKSkgewogICAgbmV4dEhlYWRlcnMuc2V0KCdBY2Nlc3MtQ29udHJvbC1BbGxvdy1NZXRob2RzJywgJ0dFVCwgUE9TVCwgUFVULCBERUxFVEUsIE9QVElPTlMnKTsKICB9CiAgaWYgKCFuZXh0SGVhZGVycy5oYXMoJ0FjY2Vzcy1Db250cm9sLU1heC1BZ2UnKSkgewogICAgbmV4dEhlYWRlcnMuc2V0KCdBY2Nlc3MtQ29udHJvbC1NYXgtQWdlJywgJzg2NDAwJyk7CiAgfQogIHJldHVybiBuZXcgUmVzcG9uc2UoSlNPTi5zdHJpbmdpZnkoYm9keSksIHsgc3RhdHVzLCBoZWFkZXJzOiBuZXh0SGVhZGVycyB9KTsKfTsKCmV4cG9ydCBjb25zdCBwcmVmbGlnaHRSZXNwb25zZSA9IChhbGxvd2VkOiBzdHJpbmcpID0+IHsKICByZXR1cm4gbmV3IFJlc3BvbnNlKG51bGwsIHsKICAgIHN0YXR1czogMjA0LAogICAgaGVhZGVyczogewogICAgICAnQWNjZXNzLUNvbnRyb2wtQWxsb3ctT3JpZ2luJzogJyonLAogICAgICAnQWNjZXNzLUNvbnRyb2wtQWxsb3ctSGVhZGVycyc6IEFDVElWRV9NU0dfQ09SU19BTExPV0VEX0hFQURFUlMsCiAgICAgICdBY2Nlc3MtQ29udHJvbC1BbGxvdy1NZXRob2RzJzogYCR7YWxsb3dlZH0sIE9QVElPTlNgLAogICAgICAnQWNjZXNzLUNvbnRyb2wtTWF4LUFnZSc6ICc4NjQwMCcsCiAgICAgIEFsbG93OiBgJHthbGxvd2VkfSwgT1BUSU9OU2AsCiAgICB9LAogIH0pOwp9OwoKZXhwb3J0IGNvbnN0IGhhbmRsZXJSZXN1bHRUb1Jlc3BvbnNlID0gKHJlc3VsdDogUmVpSGFuZGxlclJlc3VsdCkgPT4gewogIHJldHVybiBqc29uUmVzcG9uc2UocmVzdWx0LmJvZHkgfHwge30sIHJlc3VsdC5zdGF0dXMgfHwgMjAwKTsKfTsKCmV4cG9ydCBjb25zdCBtZXRob2ROb3RBbGxvd2VkID0gKGFsbG93ZWQ6IHN0cmluZykgPT4gewogIHJldHVybiBqc29uUmVzcG9uc2UoewogICAgc3VjY2VzczogZmFsc2UsCiAgICBlcnJvcjogewogICAgICBjb2RlOiAnTUVUSE9EX05PVF9BTExPV0VEJywKICAgICAgbWVzc2FnZTogYE1ldGhvZCBub3QgYWxsb3dlZC4gVXNlICR7YWxsb3dlZH0uYCwKICAgIH0sCiAgfSwgNDA1LCB7CiAgICBBbGxvdzogYCR7YWxsb3dlZH0sIE9QVElPTlNgLAogICAgJ0FjY2Vzcy1Db250cm9sLUFsbG93LU1ldGhvZHMnOiBgJHthbGxvd2VkfSwgT1BUSU9OU2AsCiAgfSk7Cn07CgpleHBvcnQgY29uc3QgaW50ZXJuYWxFcnJvclJlc3BvbnNlID0gKGVycm9yOiB1bmtub3duKSA9PiB7CiAgY29uc3QgbWVzc2FnZSA9IGVycm9yIGluc3RhbmNlb2YgRXJyb3IgPyBlcnJvci5tZXNzYWdlIDogJ1Vua25vd24gZXJyb3InOwogIGNvbnNvbGUuZXJyb3IoJ1tBY3RpdmVNc2cyIEZ1bmN0aW9uXScsIG1lc3NhZ2UpOwogIHJldHVybiBqc29uUmVzcG9uc2UoewogICAgc3VjY2VzczogZmFsc2UsCiAgICBlcnJvcjogewogICAgICBjb2RlOiAnSU5URVJOQUxfRVJST1InLAogICAgICBtZXNzYWdlLAogICAgfSwKICB9LCA1MDApOwp9OwoKZXhwb3J0IGNvbnN0IGJ1aWxkQmFja2dyb3VuZEZ1bmN0aW9uVXJsID0gKHJlcTogUmVxdWVzdCwgc2VhcmNoID0gJycpID0+IHsKICBjb25zdCB1cmwgPSBuZXcgVVJMKCcvLm5ldGxpZnkvZnVuY3Rpb25zL3NlbmQtbm90aWZpY2F0aW9ucy1iYWNrZ3JvdW5kJywgcmVxLnVybCk7CiAgdXJsLnNlYXJjaCA9IHNlYXJjaDsKICByZXR1cm4gdXJsLnRvU3RyaW5nKCk7Cn07CgoKCg==
+﻿import { getStore } from '@netlify/blobs';
+import { createReiServer, createTenantToken } from '@rei-standard/amsg-server';
+
+type ReiHandlerResult = {
+  status: number;
+  body: Record<string, any>;
+};
+
+type ReiServer = Awaited<ReturnType<typeof createReiServer>>;
+
+const ACTIVE_MSG_NAMESPACE = (process.env.AMSG_BLOB_NAMESPACE || 'rei-tenants').trim() || 'rei-tenants';
+const ACTIVE_MSG_CORS_ALLOWED_HEADERS = [
+  'Authorization',
+  'Content-Type',
+  'X-Init-Secret',
+  'X-User-Id',
+  'X-Response-Encrypted',
+  'X-Payload-Encrypted',
+  'X-Encryption-Version',
+].join(', ');
+const reiServerCache = new Map<string, Promise<ReiServer>>();
+
+const getRequiredEnv = (name: string) => {
+  const value = process.env[name]?.trim();
+  if (!value) {
+    throw new Error(`[ActiveMsg2] Missing environment variable: ${name}`);
+  }
+  return value;
+};
+
+export const resolvePublicBaseUrl = (req: Request) => {
+  const explicit = process.env.PUBLIC_BASE_URL?.trim();
+  if (explicit) {
+    return explicit.replace(/\/+$/, '');
+  }
+  return new URL(req.url).origin.replace(/\/+$/, '');
+};
+
+export const getReiServer = async (req: Request) => {
+  const publicBaseUrl = resolvePublicBaseUrl(req);
+  if (!reiServerCache.has(publicBaseUrl)) {
+    reiServerCache.set(publicBaseUrl, createReiServer({
+      vapid: {
+        email: getRequiredEnv('VAPID_EMAIL'),
+        publicKey: getRequiredEnv('VITE_AMSG_VAPID_PUBLIC_KEY'),
+        privateKey: getRequiredEnv('VAPID_PRIVATE_KEY'),
+      },
+      tenant: {
+        blobNamespace: ACTIVE_MSG_NAMESPACE,
+        kek: getRequiredEnv('AMSG_TENANT_KEK'),
+        tokenSigningKey: getRequiredEnv('AMSG_TOKEN_SIGNING_KEY'),
+        initSecret: process.env.AMSG_INIT_SECRET?.trim() || undefined,
+        publicBaseUrl,
+      },
+    }));
+  }
+
+  return reiServerCache.get(publicBaseUrl)!;
+};
+
+export const createCronTokenForTenant = (tenantId: string) => {
+  return createTenantToken({ tenantId, type: 'cron' }, getRequiredEnv('AMSG_TOKEN_SIGNING_KEY'));
+};
+
+export const listTenantIds = async () => {
+  const store = getStore(ACTIVE_MSG_NAMESPACE);
+  const { blobs } = await store.list({ prefix: 'tenant/' });
+  return blobs
+    .map((entry) => entry.key.replace(/^tenant\//, '').trim())
+    .filter(Boolean);
+};
+
+export const toHeaderObject = (req: Request) => Object.fromEntries(req.headers.entries());
+
+export const readRequestBody = (req: Request) => req.text();
+
+export const jsonResponse = (body: Record<string, any>, status = 200, headers?: HeadersInit) => {
+  const nextHeaders = new Headers(headers);
+  if (!nextHeaders.has('Content-Type')) {
+    nextHeaders.set('Content-Type', 'application/json; charset=utf-8');
+  }
+  nextHeaders.set('Cache-Control', 'no-store');
+  if (!nextHeaders.has('Access-Control-Allow-Origin')) {
+    nextHeaders.set('Access-Control-Allow-Origin', '*');
+  }
+  if (!nextHeaders.has('Access-Control-Allow-Headers')) {
+    nextHeaders.set('Access-Control-Allow-Headers', ACTIVE_MSG_CORS_ALLOWED_HEADERS);
+  }
+  if (!nextHeaders.has('Access-Control-Allow-Methods')) {
+    nextHeaders.set('Access-Control-Allow-Methods', 'GET, POST, PUT, DELETE, OPTIONS');
+  }
+  if (!nextHeaders.has('Access-Control-Max-Age')) {
+    nextHeaders.set('Access-Control-Max-Age', '86400');
+  }
+  return new Response(JSON.stringify(body), { status, headers: nextHeaders });
+};
+
+export const preflightResponse = (allowed: string) => {
+  return new Response(null, {
+    status: 204,
+    headers: {
+      'Access-Control-Allow-Origin': '*',
+      'Access-Control-Allow-Headers': ACTIVE_MSG_CORS_ALLOWED_HEADERS,
+      'Access-Control-Allow-Methods': `${allowed}, OPTIONS`,
+      'Access-Control-Max-Age': '86400',
+      Allow: `${allowed}, OPTIONS`,
+    },
+  });
+};
+
+export const handlerResultToResponse = (result: ReiHandlerResult) => {
+  return jsonResponse(result.body || {}, result.status || 200);
+};
+
+export const methodNotAllowed = (allowed: string) => {
+  return jsonResponse({
+    success: false,
+    error: {
+      code: 'METHOD_NOT_ALLOWED',
+      message: `Method not allowed. Use ${allowed}.`,
+    },
+  }, 405, {
+    Allow: `${allowed}, OPTIONS`,
+    'Access-Control-Allow-Methods': `${allowed}, OPTIONS`,
+  });
+};
+
+export const internalErrorResponse = (error: unknown) => {
+  const message = error instanceof Error ? error.message : 'Unknown error';
+  console.error('[ActiveMsg2 Function]', message);
+  return jsonResponse({
+    success: false,
+    error: {
+      code: 'INTERNAL_ERROR',
+      message,
+    },
+  }, 500);
+};
+
+export const buildBackgroundFunctionUrl = (req: Request, search = '') => {
+  const url = new URL('/.netlify/functions/send-notifications-background', req.url);
+  url.search = search;
+  return url.toString();
+};
+
+
+

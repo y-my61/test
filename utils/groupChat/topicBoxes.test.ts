@@ -1,1 +1,63 @@
-aW1wb3J0IHsgZGVzY3JpYmUsIGV4cGVjdCwgaXQgfSBmcm9tICd2aXRlc3QnOwppbXBvcnQgdHlwZSB7IEdyb3VwUHJvZmlsZSwgTWVzc2FnZSB9IGZyb20gJy4uLy4uL3R5cGVzJzsKaW1wb3J0IHsKICAgIGJ1aWxkR3JvdXBUb3BpY1Byb21wdCwKICAgIGJ1aWxkR3JvdXBUb3BpY0NvbnRleHQsCiAgICBHUk9VUF9UT1BJQ19IT1RfWk9ORSwKICAgIGdyb3VwVG9waWNQZW5kaW5nQ291bnQsCiAgICBtYWtlR3JvdXBUb3BpY0JveCwKICAgIHBsYW5Hcm91cFRvcGljQmF0Y2gsCn0gZnJvbSAnLi90b3BpY0JveGVzJzsKCmNvbnN0IG1lc3NhZ2VzID0gKGNvdW50OiBudW1iZXIpOiBNZXNzYWdlW10gPT4gQXJyYXkuZnJvbSh7IGxlbmd0aDogY291bnQgfSwgKF8sIGkpID0+ICh7CiAgICBpZDogaSArIDEsCiAgICBjaGFySWQ6IGkgJSAyID8gJ2EnIDogJ3VzZXInLAogICAgZ3JvdXBJZDogJ2cxJywKICAgIHJvbGU6IGkgJSAyID8gJ2Fzc2lzdGFudCcgOiAndXNlcicsCiAgICB0eXBlOiAndGV4dCcsCiAgICBjb250ZW50OiBg5raI5oGvJHtpICsgMX1gLAogICAgdGltZXN0YW1wOiAxXzcwMF8wMDBfMDAwXzAwMCArIGksCn0pKTsKCmNvbnN0IGdyb3VwOiBHcm91cFByb2ZpbGUgPSB7IGlkOiAnZzEnLCBuYW1lOiAn5rWL6K+V576kJywgbWVtYmVyczogWydhJywgJ2InXSwgY3JlYXRlZEF0OiAxIH07CgpkZXNjcmliZSgn576k5YWs5YWx6K+d6aKY55uS5om55aSE55CGJywgKCkgPT4gewogICAgaXQoJ+Wni+e7iOS/neeVmeacgOi/kSAyMDAg5p2h77yM54Ot5Yy65Lul5YmN5ruhIDEwMCDmnaHlkI7lpITnkIbliY0gODUlJywgKCkgPT4gewogICAgICAgIGNvbnN0IGFsbCA9IG1lc3NhZ2VzKDMwMCk7CiAgICAgICAgY29uc3QgcGxhbiA9IHBsYW5Hcm91cFRvcGljQmF0Y2goYWxsLCAwLCBmYWxzZSk7CiAgICAgICAgZXhwZWN0KEdST1VQX1RPUElDX0hPVF9aT05FKS50b0JlKDIwMCk7CiAgICAgICAgZXhwZWN0KHBsYW4/LnBlbmRpbmdDb3VudCkudG9CZSgxMDApOwogICAgICAgIGV4cGVjdChwbGFuPy5tZXNzYWdlcykudG9IYXZlTGVuZ3RoKDg1KTsKICAgICAgICBleHBlY3QocGxhbj8ubWVzc2FnZXNbMF0uaWQpLnRvQmUoMSk7CiAgICAgICAgZXhwZWN0KHBsYW4/Lm1lc3NhZ2VzLmF0KC0xKT8uaWQpLnRvQmUoODUpOwogICAgfSk7CgogICAgaXQoJ+WFrOWFsea4uOagh+aOqOi/m+WQjuS4jeS8mumHjeWkjeWkhOeQhuW3sue7j+aIkOebkueahOa2iOaBrycsICgpID0+IHsKICAgICAgICBjb25zdCBhbGwgPSBtZXNzYWdlcyg0MDApOwogICAgICAgIGV4cGVjdChncm91cFRvcGljUGVuZGluZ0NvdW50KGFsbCwgMTIwKSkudG9CZSg4MCk7CiAgICAgICAgZXhwZWN0KHBsYW5Hcm91cFRvcGljQmF0Y2goYWxsLCAxMjAsIGZhbHNlKSkudG9CZU51bGwoKTsKICAgICAgICBleHBlY3QocGxhbkdyb3VwVG9waWNCYXRjaChhbGwsIDEyMCwgdHJ1ZSk/Lm1lc3NhZ2VzWzBdLmlkKS50b0JlKDEyMSk7CiAgICB9KTsKCiAgICBpdCgn6K+d6aKY55uS5LiK5LiL5paH5Y+q5YyF5ZCr5YWx5Lqr5oC757uT77yM5LiN5bGV5byA5pen5Y6f5paHJywgKCkgPT4gewogICAgICAgIGNvbnN0IGJhdGNoID0gbWVzc2FnZXMoMyk7CiAgICAgICAgY29uc3QgYm94ID0gbWFrZUdyb3VwVG9waWNCb3goZ3JvdXAsIGJhdGNoLCAn5LiA6LW36IGK5peF6KGMJywgJ0HlkoxC5ZWG6YeP5LqG5ZGo5pyr5Ye66KGM44CCJyk7CiAgICAgICAgY29uc3QgdGV4dCA9IGJ1aWxkR3JvdXBUb3BpY0NvbnRleHQoeyAuLi5ncm91cCwgdG9waWNCb3hlczogW2JveF0gfSk7CiAgICAgICAgZXhwZWN0KHRleHQpLnRvQ29udGFpbign5YWs5YWx6K+d6aKY55uSJyk7CiAgICAgICAgZXhwZWN0KHRleHQpLnRvQ29udGFpbign5LiA6LW36IGK5peF6KGMJyk7CiAgICAgICAgZXhwZWN0KHRleHQpLnRvQ29udGFpbignQeWSjELllYbph4/kuoblkajmnKvlh7rooYwnKTsKICAgICAgICBleHBlY3QodGV4dCkubm90LnRvQ29udGFpbign5raI5oGvMScpOwogICAgfSk7CgogICAgaXQoJ+WGhee9ruaAu+e7k+aPkOekuuivjeWMheWQq+WFqOS9k+aIkOWRmOivreS5iei1hOaWme+8jOS4jeS+nei1luengeiBiuW9kuaho+mjjuagvCcsICgpID0+IHsKICAgICAgICBjb25zdCBjaGFyczogYW55W10gPSBbCiAgICAgICAgICAgIHsgaWQ6ICdhJywgbmFtZTogJ0EnLCBkZXNjcmlwdGlvbjogJ+WGt+mdmScsIHN5c3RlbVByb21wdDogJ+ivtOivneeugOa0gScsIHdvcmxkdmlldzogJ+eOsOS7oycsIHdyaXRlclBlcnNvbmE6ICflhYvliLYnLCByZWZpbmVkTWVtb3JpZXM6IHsgY29yZTogJ+iupOivhkInIH0gfSwKICAgICAgICAgICAgeyBpZDogJ2InLCBuYW1lOiAnQicsIGRlc2NyaXB0aW9uOiAn5rS75rO8Jywgc3lzdGVtUHJvbXB0OiAn54ix5byA546p56yRJywgbWVtb3JpZXM6IFtdIH0sCiAgICAgICAgXTsKICAgICAgICBjb25zdCBwcm9tcHQgPSBidWlsZEdyb3VwVG9waWNQcm9tcHQoZ3JvdXAsIG1lc3NhZ2VzKDIpLCBjaGFycywgJ+eUqOaItycpOwogICAgICAgIGV4cGVjdChwcm9tcHQpLnRvQ29udGFpbign5YWo5L2T5oiQ5ZGY6LWE5paZJyk7CiAgICAgICAgZXhwZWN0KHByb21wdCkudG9Db250YWluKCfor7Tor53nroDmtIEnKTsKICAgICAgICBleHBlY3QocHJvbXB0KS50b0NvbnRhaW4oJ+eIseW8gOeOqeeskScpOwogICAgICAgIGV4cGVjdChwcm9tcHQpLnRvQ29udGFpbign5a6i6KeC6KeG6KeSJyk7CiAgICB9KTsKfSk7Cg==
+import { describe, expect, it } from 'vitest';
+import type { GroupProfile, Message } from '../../types';
+import {
+    buildGroupTopicPrompt,
+    buildGroupTopicContext,
+    GROUP_TOPIC_HOT_ZONE,
+    groupTopicPendingCount,
+    makeGroupTopicBox,
+    planGroupTopicBatch,
+} from './topicBoxes';
+
+const messages = (count: number): Message[] => Array.from({ length: count }, (_, i) => ({
+    id: i + 1,
+    charId: i % 2 ? 'a' : 'user',
+    groupId: 'g1',
+    role: i % 2 ? 'assistant' : 'user',
+    type: 'text',
+    content: `消息${i + 1}`,
+    timestamp: 1_700_000_000_000 + i,
+}));
+
+const group: GroupProfile = { id: 'g1', name: '测试群', members: ['a', 'b'], createdAt: 1 };
+
+describe('群公共话题盒批处理', () => {
+    it('始终保留最近 200 条，热区以前满 100 条后处理前 85%', () => {
+        const all = messages(300);
+        const plan = planGroupTopicBatch(all, 0, false);
+        expect(GROUP_TOPIC_HOT_ZONE).toBe(200);
+        expect(plan?.pendingCount).toBe(100);
+        expect(plan?.messages).toHaveLength(85);
+        expect(plan?.messages[0].id).toBe(1);
+        expect(plan?.messages.at(-1)?.id).toBe(85);
+    });
+
+    it('公共游标推进后不会重复处理已经成盒的消息', () => {
+        const all = messages(400);
+        expect(groupTopicPendingCount(all, 120)).toBe(80);
+        expect(planGroupTopicBatch(all, 120, false)).toBeNull();
+        expect(planGroupTopicBatch(all, 120, true)?.messages[0].id).toBe(121);
+    });
+
+    it('话题盒上下文只包含共享总结，不展开旧原文', () => {
+        const batch = messages(3);
+        const box = makeGroupTopicBox(group, batch, '一起聊旅行', 'A和B商量了周末出行。');
+        const text = buildGroupTopicContext({ ...group, topicBoxes: [box] });
+        expect(text).toContain('公共话题盒');
+        expect(text).toContain('一起聊旅行');
+        expect(text).toContain('A和B商量了周末出行');
+        expect(text).not.toContain('消息1');
+    });
+
+    it('内置总结提示词包含全体成员语义资料，不依赖私聊归档风格', () => {
+        const chars: any[] = [
+            { id: 'a', name: 'A', description: '冷静', systemPrompt: '说话简洁', worldview: '现代', writerPersona: '克制', refinedMemories: { core: '认识B' } },
+            { id: 'b', name: 'B', description: '活泼', systemPrompt: '爱开玩笑', memories: [] },
+        ];
+        const prompt = buildGroupTopicPrompt(group, messages(2), chars, '用户');
+        expect(prompt).toContain('全体成员资料');
+        expect(prompt).toContain('说话简洁');
+        expect(prompt).toContain('爱开玩笑');
+        expect(prompt).toContain('客观视角');
+    });
+});

@@ -1,1 +1,277 @@
-LyoqCiAqIE1pbmlNYXggTXVzaWMgZ2VuZXJhdGlvbiAobXVzaWMtMi42IC8gbXVzaWMtMi42LWZyZWUpLgogKgogKiBSZXVzZXMgdGhlIHNhbWUgbWluaW1heEZldGNoICsgYXBpS2V5IGluZnJhc3RydWN0dXJlIHRoYXQgVFRTIHVzZXMsIHNvCiAqIGF1dGhlbnRpY2F0aW9uIC8gcmVnaW9uIHJvdXRpbmcgLyBkZXYgcHJveHkgLyBHaXRIdWIgUGFnZXMgYnlwYXNzIGFsbCBqdXN0CiAqIHdvcmsuIFJlc3BvbnNlIHNoYXBlIG1pcnJvcnMgVFRTIOKAlCBoZXgtZW5jb2RlZCBhdWRpbyBpbiBgZGF0YS5hdWRpb2AuCiAqCiAqIFdoeSB0aGlzIG1hdHRlcnM6CiAqICAgLSBgbXVzaWMtMi42LWZyZWVgIGlzIGdlbnVpbmVseSBmcmVlIGZvciBhbnkgYWNjb3VudCBob2xkaW5nIGEgTWluaU1heCBrZXkKICogICAtIFRoZSB1c2VyIGFscmVhZHkgZmlsbGVkIHRoZWlyIE1pbmlNYXgga2V5IGZvciBUVFMsIHNvIDAtY29uZmlnIG9uYm9hcmRpbmcKICogICAtIDYwcyBvdXRwdXQgY2FwICh2cyBBQ0UtU3RlcCdzIDQgbWluKSDigJQgZmluZSBmb3Igc2hvcnQgZGVtb3MKICovCgppbXBvcnQgeyBBUElDb25maWcsIFNvbmdMaW5lLCBTb25nU2hlZXQgfSBmcm9tICcuLi90eXBlcyc7CmltcG9ydCB7IHJlc29sdmVNaW5pTWF4QXBpS2V5IH0gZnJvbSAnLi9taW5pbWF4QXBpS2V5JzsKaW1wb3J0IHsgbWluaW1heEZldGNoIH0gZnJvbSAnLi9taW5pbWF4RW5kcG9pbnQnOwppbXBvcnQgeyBjb252ZXJ0SGV4QXVkaW9Ub0Jsb2IsIGZldGNoUmVtb3RlQXVkaW9CbG9iIH0gZnJvbSAnLi9taW5pbWF4VHRzJzsKaW1wb3J0IHsgREIgfSBmcm9tICcuL2RiJzsKCi8vIOKUgOKUgCBUeXBlcyDilIDilIAKCmV4cG9ydCB0eXBlIE1pbmltYXhNdXNpY01vZGVsID0gJ211c2ljLTIuNicgfCAnbXVzaWMtMi42LWZyZWUnOwoKZXhwb3J0IGludGVyZmFjZSBNaW5pbWF4TXVzaWNJbnB1dCB7CiAgbW9kZWw6IE1pbmltYXhNdXNpY01vZGVsOwogIHByb21wdDogc3RyaW5nOyAgICAgICAgICAvLyAxLTIwMDAgY2hhcnMsIGNvbW1hLXNlcGFyYXRlZCBzdHlsZSBkZXNjcmlwdGlvbgogIGx5cmljczogc3RyaW5nOyAgICAgICAgICAvLyAxLTM1MDAgY2hhcnMsIHdpdGggW1ZlcnNlXS9bQ2hvcnVzXSBtYXJrZXJzCiAgaXNJbnN0cnVtZW50YWw/OiBib29sZWFuOwogIC8qKiBXaGVuIHRydWUgYW5kIGx5cmljcyBpcyBlbXB0eSwgTWluaU1heCBhdXRvLXdyaXRlcyBseXJpY3MgZnJvbSBwcm9tcHQuICovCiAgbHlyaWNzT3B0aW1pemVyPzogYm9vbGVhbjsKfQoKZXhwb3J0IGludGVyZmFjZSBNaW5pbWF4TXVzaWNSZXN1bHQgewogIHVybDogc3RyaW5nOwogIGJsb2I6IEJsb2I7CiAgbWltZVR5cGU6IHN0cmluZzsKICBhc3NldEtleTogc3RyaW5nOwogIGNhY2hlZDogYm9vbGVhbjsKICBkdXJhdGlvbk1zPzogbnVtYmVyOwp9CgovLyDilIDilIAgQ2FjaGUgKG1pcnJvcnMgYWNlU3RlcEFwaSAvIHR0c0NhY2hlIHN0cnVjdHVyZSkg4pSA4pSACgpmdW5jdGlvbiBjeXJiNTMoc3RyOiBzdHJpbmcsIHNlZWQgPSAwKTogc3RyaW5nIHsKICBsZXQgaDEgPSAweGRlYWRiZWVmIF4gc2VlZDsKICBsZXQgaDIgPSAweDQxYzZjZTU3IF4gc2VlZDsKICBmb3IgKGxldCBpID0gMDsgaSA8IHN0ci5sZW5ndGg7IGkrKykgewogICAgY29uc3QgY2ggPSBzdHIuY2hhckNvZGVBdChpKTsKICAgIGgxID0gTWF0aC5pbXVsKGgxIF4gY2gsIDI2NTQ0MzU3NjEpOwogICAgaDIgPSBNYXRoLmltdWwoaDIgXiBjaCwgMTU5NzMzNDY3Nyk7CiAgfQogIGgxID0gTWF0aC5pbXVsKGgxIF4gKGgxID4+PiAxNiksIDIyNDY4MjI1MDcpOwogIGgxIF49IE1hdGguaW11bChoMiBeIChoMiA+Pj4gMTMpLCAzMjY2NDg5OTA5KTsKICBoMiA9IE1hdGguaW11bChoMiBeIChoMiA+Pj4gMTYpLCAyMjQ2ODIyNTA3KTsKICBoMiBePSBNYXRoLmltdWwoaDEgXiAoaDEgPj4+IDEzKSwgMzI2NjQ4OTkwOSk7CiAgcmV0dXJuIChoMiA+Pj4gMCkudG9TdHJpbmcoMTYpLnBhZFN0YXJ0KDgsICcwJykgKyAoaDEgPj4+IDApLnRvU3RyaW5nKDE2KS5wYWRTdGFydCg4LCAnMCcpOwp9CgpmdW5jdGlvbiBzdGFibGVTdHJpbmdpZnkodmFsdWU6IGFueSk6IHN0cmluZyB7CiAgaWYgKHZhbHVlID09PSBudWxsIHx8IHZhbHVlID09PSB1bmRlZmluZWQpIHJldHVybiAnbnVsbCc7CiAgaWYgKHR5cGVvZiB2YWx1ZSAhPT0gJ29iamVjdCcpIHJldHVybiBKU09OLnN0cmluZ2lmeSh2YWx1ZSk7CiAgaWYgKEFycmF5LmlzQXJyYXkodmFsdWUpKSByZXR1cm4gJ1snICsgdmFsdWUubWFwKHN0YWJsZVN0cmluZ2lmeSkuam9pbignLCcpICsgJ10nOwogIGNvbnN0IGtleXMgPSBPYmplY3Qua2V5cyh2YWx1ZSkuc29ydCgpOwogIHJldHVybiAneycgKyBrZXlzLm1hcChrID0+IEpTT04uc3RyaW5naWZ5KGspICsgJzonICsgc3RhYmxlU3RyaW5naWZ5KHZhbHVlW2tdKSkuam9pbignLCcpICsgJ30nOwp9CgpleHBvcnQgZnVuY3Rpb24gaGFzaE1pbmltYXhNdXNpY0lucHV0cyhpbnB1dDogTWluaW1heE11c2ljSW5wdXQpOiBzdHJpbmcgewogIHJldHVybiAnbW1tdXNpY18nICsgY3lyYjUzKHN0YWJsZVN0cmluZ2lmeShpbnB1dCkpOwp9CgppbnRlcmZhY2UgQ2FjaGVFbnRyeSB7IGJsb2I6IEJsb2I7IG1pbWVUeXBlOiBzdHJpbmc7IGNyZWF0ZWRBdDogbnVtYmVyOyBsYXN0VXNlZEF0OiBudW1iZXI7IH0KCmFzeW5jIGZ1bmN0aW9uIGdldENhY2hlZChrZXk6IHN0cmluZyk6IFByb21pc2U8Q2FjaGVFbnRyeSB8IG51bGw+IHsKICB0cnkgewogICAgY29uc3QgZW50cnkgPSAoYXdhaXQgREIuZ2V0QXNzZXRSYXcoa2V5KSkgYXMgQ2FjaGVFbnRyeSB8IG51bGw7CiAgICBpZiAoIWVudHJ5IHx8ICEoZW50cnkuYmxvYiBpbnN0YW5jZW9mIEJsb2IpKSByZXR1cm4gbnVsbDsKICAgIERCLnNhdmVBc3NldFJhdyhrZXksIHsgLi4uZW50cnksIGxhc3RVc2VkQXQ6IERhdGUubm93KCkgfSkuY2F0Y2goKCkgPT4geyAvKiBpZ25vcmUgKi8gfSk7CiAgICByZXR1cm4gZW50cnk7CiAgfSBjYXRjaCB7IHJldHVybiBudWxsOyB9Cn0KCmFzeW5jIGZ1bmN0aW9uIHNhdmVDYWNoZWQoa2V5OiBzdHJpbmcsIGJsb2I6IEJsb2IsIG1pbWVUeXBlOiBzdHJpbmcpOiBQcm9taXNlPHZvaWQ+IHsKICB0cnkgewogICAgY29uc3Qgbm93ID0gRGF0ZS5ub3coKTsKICAgIGF3YWl0IERCLnNhdmVBc3NldFJhdyhrZXksIHsgYmxvYiwgbWltZVR5cGUsIGNyZWF0ZWRBdDogbm93LCBsYXN0VXNlZEF0OiBub3cgfSBhcyBDYWNoZUVudHJ5KTsKICB9IGNhdGNoIChlKSB7IGNvbnNvbGUud2FybignW01pbmlNYXggbXVzaWMgY2FjaGVdIHNhdmUgZmFpbGVkJywgZSk7IH0KfQoKLyoqIFJlYWQgcHJldmlvdXNseS1zYXZlZCBibG9iICh1c2VkIGJ5IFNvbmd3cml0aW5nIEFwcCBvbiBhcHAgcmVsb2FkKS4gKi8KZXhwb3J0IGFzeW5jIGZ1bmN0aW9uIGxvYWRNaW5pbWF4TXVzaWNCbG9iKGFzc2V0S2V5OiBzdHJpbmcpOiBQcm9taXNlPHsgYmxvYjogQmxvYjsgbWltZVR5cGU6IHN0cmluZyB9IHwgbnVsbD4gewogIGNvbnN0IGVudHJ5ID0gYXdhaXQgZ2V0Q2FjaGVkKGFzc2V0S2V5KTsKICBpZiAoIWVudHJ5KSByZXR1cm4gbnVsbDsKICByZXR1cm4geyBibG9iOiBlbnRyeS5ibG9iLCBtaW1lVHlwZTogZW50cnkubWltZVR5cGUgfTsKfQoKLy8g4pSA4pSAIEx5cmljIC8gcHJvbXB0IGZvcm1hdHRpbmcg4pSA4pSACgpjb25zdCBHRU5SRV9ISU5UUzogUmVjb3JkPHN0cmluZywgc3RyaW5nPiA9IHsKICBwb3A6ICdwb3AnLCByb2NrOiAncm9jaycsIGJhbGxhZDogJ2JhbGxhZCwgc29mdCwgZW1vdGlvbmFsJywKICByYXA6ICdyYXAsIGhpcC1ob3AnLCBmb2xrOiAnZm9saywgYWNvdXN0aWMnLAogIGVsZWN0cm9uaWM6ICdlbGVjdHJvbmljLCBlZG0sIHN5bnRoJywgamF6ejogJ2phenosIHNtb290aCcsCiAgcm5iOiAnciZiLCBzb3VsJywgZnJlZTogJycsCn07CmNvbnN0IE1PT0RfSElOVFM6IFJlY29yZDxzdHJpbmcsIHN0cmluZz4gPSB7CiAgaGFwcHk6ICd1cGJlYXQsIGJyaWdodCcsIHNhZDogJ21lbGFuY2hvbHksIHNhZCcsCiAgcm9tYW50aWM6ICdyb21hbnRpYywgdGVuZGVyJywgYW5ncnk6ICdpbnRlbnNlLCBhZ2dyZXNzaXZlJywKICBjaGlsbDogJ2NoaWxsLCBsby1maSwgcmVsYXhlZCcsIGVwaWM6ICdlcGljLCBjaW5lbWF0aWMnLAogIG5vc3RhbGdpYzogJ25vc3RhbGdpYywgdmludGFnZScsIGRyZWFteTogJ2RyZWFteSwgYW1iaWVudCcsCn07CgovKiogQnVpbGQgYSBkZWZhdWx0IHByb21wdCBzdHJpbmcgZnJvbSBhIHNvbmcncyBnZW5yZS9tb29kL2JwbS9rZXkuICovCmV4cG9ydCBmdW5jdGlvbiBidWlsZE1pbmltYXhNdXNpY1Byb21wdChzb25nOiBTb25nU2hlZXQpOiBzdHJpbmcgewogIGNvbnN0IHBhcnRzOiBzdHJpbmdbXSA9IFtdOwogIGNvbnN0IGcgPSBHRU5SRV9ISU5UU1tzb25nLmdlbnJlXTsgaWYgKGcpIHBhcnRzLnB1c2goZyk7CiAgY29uc3QgbSA9IE1PT0RfSElOVFNbc29uZy5tb29kXTsgaWYgKG0pIHBhcnRzLnB1c2gobSk7CiAgaWYgKHNvbmcuYnBtICYmIHNvbmcuYnBtID4gMCkgcGFydHMucHVzaChgJHtzb25nLmJwbX0gYnBtYCk7CiAgaWYgKHNvbmcua2V5KSBwYXJ0cy5wdXNoKHNvbmcua2V5LnRvTG93ZXJDYXNlKCkpOwogIHJldHVybiBwYXJ0cy5qb2luKCcsICcpOwp9CgovLyBNaW5pTWF4IGV4cGVjdHMgY2FwaXRhbGl6ZWQgc2VjdGlvbiBtYXJrZXJzLCBzbGlnaHRseSBkaWZmZXJlbnQgZnJvbSBBQ0UtU3RlcC4KY29uc3QgU0VDVElPTl9UQUc6IFJlY29yZDxzdHJpbmcsIHN0cmluZz4gPSB7CiAgJ2ludHJvJzogICAgICAnSW50cm8nLAogICd2ZXJzZSc6ICAgICAgJ1ZlcnNlJywKICAncHJlLWNob3J1cyc6ICdQcmUgQ2hvcnVzJywKICAnY2hvcnVzJzogICAgICdDaG9ydXMnLAogICdicmlkZ2UnOiAgICAgJ0JyaWRnZScsCiAgJ291dHJvJzogICAgICAnT3V0cm8nLAogIC8vICdmcmVlJyBoYXMgbm8gTWluaU1heC1yZWNvZ25pemVkIHRhZzsgd2UganVzdCBlbWl0IHRoZSByYXcgbGluZXMuCn07CgovKioKICogQ29udmVydCBTb25nTGluZXMgdG8gTWluaU1heC1zdHlsZSBseXJpYyBmb3JtYXQuIFNraXBzIGRyYWZ0IGxpbmVzIHNvIHRoZQogKiBhdWRpbyBtYXRjaGVzIHRoZSBib29rbGV0IHZpZXcuCiAqLwpleHBvcnQgZnVuY3Rpb24gYnVpbGRNaW5pbWF4TXVzaWNMeXJpY3MobGluZXM6IFNvbmdMaW5lW10pOiBzdHJpbmcgewogIGNvbnN0IGZpbmFsTGluZXMgPSBsaW5lcy5maWx0ZXIobCA9PiAhbC5pc0RyYWZ0KTsKICBpZiAoZmluYWxMaW5lcy5sZW5ndGggPT09IDApIHJldHVybiAnJzsKCiAgbGV0IG91dCA9ICcnOwogIGxldCBjdXJyZW50U2VjdGlvbiA9ICcnOwogIGZvciAoY29uc3QgbGluZSBvZiBmaW5hbExpbmVzKSB7CiAgICBpZiAobGluZS5zZWN0aW9uICE9PSBjdXJyZW50U2VjdGlvbikgewogICAgICBjdXJyZW50U2VjdGlvbiA9IGxpbmUuc2VjdGlvbjsKICAgICAgY29uc3QgdGFnID0gU0VDVElPTl9UQUdbY3VycmVudFNlY3Rpb25dOwogICAgICBpZiAob3V0KSBvdXQgKz0gJ1xuXG4nOwogICAgICBpZiAodGFnKSBvdXQgKz0gYFske3RhZ31dXG5gOwogICAgfQogICAgb3V0ICs9IGAke2xpbmUuY29udGVudH1cbmA7CiAgfQogIC8vIE1pbmlNYXggZG9jcyBjYXAgbHlyaWNzIGF0IDM1MDAgY2hhcnMuIExlYXZlIGEgc21hbGwgYnVmZmVyLgogIHJldHVybiBvdXQudHJpbSgpLnNsaWNlKDAsIDM0MDApOwp9CgovLyDilIDilIAgUHVibGljIEFQSSDilIDilIAKCmV4cG9ydCBpbnRlcmZhY2UgU3ludGhlc2l6ZU9wdGlvbnMgewogIHNpZ25hbD86IEFib3J0U2lnbmFsOwogIG9uU3RhdHVzPzogKHN0YXR1czogc3RyaW5nKSA9PiB2b2lkOwogIC8qKiBXaGVuIHRydWUsIHNraXAgdGhlIGNhY2hlIGxvb2t1cCBhbmQgYWx3YXlzIG1ha2UgYSBmcmVzaCBBUEkgY2FsbC4gKi8KICBmb3JjZVJlZ2VuZXJhdGU/OiBib29sZWFuOwp9CgpjbGFzcyBBYm9ydEVycm9yIGV4dGVuZHMgRXJyb3IgewogIGNvbnN0cnVjdG9yKCkgeyBzdXBlcignYWJvcnRlZCcpOyB0aGlzLm5hbWUgPSAnQWJvcnRFcnJvcic7IH0KfQoKY29uc3QgY2hlY2tBYm9ydCA9IChzaWduYWw/OiBBYm9ydFNpZ25hbCkgPT4gewogIGlmIChzaWduYWw/LmFib3J0ZWQpIHRocm93IG5ldyBBYm9ydEVycm9yKCk7Cn07Cgpjb25zdCBndWVzc01pbWVGcm9tVXJsID0gKHVybDogc3RyaW5nKTogc3RyaW5nID0+IHsKICBjb25zdCBsb3dlciA9IHVybC50b0xvd2VyQ2FzZSgpLnNwbGl0KCc/JylbMF07CiAgaWYgKGxvd2VyLmVuZHNXaXRoKCcubXAzJykpIHJldHVybiAnYXVkaW8vbXBlZyc7CiAgaWYgKGxvd2VyLmVuZHNXaXRoKCcud2F2JykpIHJldHVybiAnYXVkaW8vd2F2JzsKICBpZiAobG93ZXIuZW5kc1dpdGgoJy5mbGFjJykpIHJldHVybiAnYXVkaW8vZmxhYyc7CiAgcmV0dXJuICdhdWRpby9tcGVnJzsKfTsKCi8qKgogKiBHZW5lcmF0ZSBhIHNvbmcgdmlhIE1pbmlNYXggbXVzaWNfZ2VuZXJhdGlvbi4gVGhyb3dzIEFib3J0RXJyb3Igb24gc2lnbmFsCiAqIGFib3J0LCBvciBFcnJvciB3aXRoIGEgdXNlci1yZWFkYWJsZSBtZXNzYWdlIG9uIGFueSBmYWlsdXJlLgogKi8KZXhwb3J0IGFzeW5jIGZ1bmN0aW9uIHN5bnRoZXNpemVTb25nTWluaW1heCgKICBpbnB1dDogTWluaW1heE11c2ljSW5wdXQsCiAgYXBpQ29uZmlnOiBBUElDb25maWcsCiAgb3B0aW9uczogU3ludGhlc2l6ZU9wdGlvbnMgPSB7fSwKKTogUHJvbWlzZTxNaW5pbWF4TXVzaWNSZXN1bHQ+IHsKICBjb25zdCB7IHNpZ25hbCwgb25TdGF0dXMgfSA9IG9wdGlvbnM7CiAgY29uc3QgYXBpS2V5ID0gcmVzb2x2ZU1pbmlNYXhBcGlLZXkoYXBpQ29uZmlnKTsKICBpZiAoIWFwaUtleSkgdGhyb3cgbmV3IEVycm9yKCfor7flhYjlnKjjgIzorr7nva7jgI3ph4zloasgTWluaU1heCBBUEkgS2V5Jyk7CiAgaWYgKCFpbnB1dC5wcm9tcHQgJiYgIWlucHV0Lmx5cmljcykgdGhyb3cgbmV3IEVycm9yKCfpo47moLzmj4/ov7DlkozmrYzor43oh7PlsJHpnIDopoHkuIDkuKonKTsKCiAgY29uc3QgY2FjaGVLZXkgPSBoYXNoTWluaW1heE11c2ljSW5wdXRzKGlucHV0KTsKICBpZiAoIW9wdGlvbnMuZm9yY2VSZWdlbmVyYXRlKSB7CiAgICBjb25zdCBjYWNoZWQgPSBhd2FpdCBnZXRDYWNoZWQoY2FjaGVLZXkpOwogICAgaWYgKGNhY2hlZCkgewogICAgICBvblN0YXR1cz8uKCdjYWNoZWQnKTsKICAgICAgcmV0dXJuIHsKICAgICAgICB1cmw6IFVSTC5jcmVhdGVPYmplY3RVUkwoY2FjaGVkLmJsb2IpLAogICAgICAgIGJsb2I6IGNhY2hlZC5ibG9iLAogICAgICAgIG1pbWVUeXBlOiBjYWNoZWQubWltZVR5cGUsCiAgICAgICAgYXNzZXRLZXk6IGNhY2hlS2V5LAogICAgICAgIGNhY2hlZDogdHJ1ZSwKICAgICAgfTsKICAgIH0KICB9CgogIG9uU3RhdHVzPy4oJ3N0YXJ0aW5nJyk7CiAgY2hlY2tBYm9ydChzaWduYWwpOwoKICBjb25zdCBwYXlsb2FkOiBhbnkgPSB7CiAgICBtb2RlbDogaW5wdXQubW9kZWwsCiAgICBwcm9tcHQ6IGlucHV0LnByb21wdCwKICAgIGx5cmljczogaW5wdXQubHlyaWNzLAogICAgYXVkaW9fc2V0dGluZzogeyBzYW1wbGVfcmF0ZTogNDQxMDAsIGJpdHJhdGU6IDI1NjAwMCwgZm9ybWF0OiAnbXAzJyB9LAogIH07CiAgaWYgKGlucHV0LmlzSW5zdHJ1bWVudGFsKSBwYXlsb2FkLmlzX2luc3RydW1lbnRhbCA9IHRydWU7CiAgaWYgKGlucHV0Lmx5cmljc09wdGltaXplcikgcGF5bG9hZC5seXJpY3Nfb3B0aW1pemVyID0gdHJ1ZTsKCiAgY29uc3QgaGVhZGVyczogUmVjb3JkPHN0cmluZywgc3RyaW5nPiA9IHsKICAgICdDb250ZW50LVR5cGUnOiAnYXBwbGljYXRpb24vanNvbicsCiAgICAnQXV0aG9yaXphdGlvbic6IGBCZWFyZXIgJHthcGlLZXl9YCwKICAgICdYLU1pbmlNYXgtQVBJLUtleSc6IGFwaUtleSwKICB9OwogIGlmIChhcGlDb25maWcubWluaW1heEdyb3VwSWQpIGhlYWRlcnNbJ1gtTWluaU1heC1Hcm91cC1JZCddID0gYXBpQ29uZmlnLm1pbmltYXhHcm91cElkOwoKICBvblN0YXR1cz8uKCdwcm9jZXNzaW5nJyk7CiAgY29uc3QgcmVzID0gYXdhaXQgbWluaW1heEZldGNoKCcvYXBpL21pbmltYXgvbXVzaWMnLCB7CiAgICBtZXRob2Q6ICdQT1NUJywKICAgIGhlYWRlcnMsCiAgICBib2R5OiBKU09OLnN0cmluZ2lmeShwYXlsb2FkKSwKICB9KTsKICBjb25zdCBkYXRhID0gYXdhaXQgcmVzLmpzb24oKTsKICBpZiAoIXJlcy5vaykgewogICAgdGhyb3cgbmV3IEVycm9yKGRhdGE/LmVycm9yIHx8IGRhdGE/LmJhc2VfcmVzcD8uc3RhdHVzX21zZyB8fCBgTXVzaWMgQVBJIOWksei0pSAoSFRUUCAke3Jlcy5zdGF0dXN9KWApOwogIH0KCiAgLy8gTWluaU1heCBvZnRlbiByZXR1cm5zIEhUVFAgMjAwIHdpdGggYSBub24temVybyBiYXNlX3Jlc3Agc3RhdHVzIGZvcgogIC8vIGJ1c2luZXNzLWxldmVsIGVycm9ycyAocmF0ZSBsaW1pdCAvIHRva2VuIHBsYW4gcmVxdWlyZWQgLyBldGMuKQogIGNvbnN0IGJhc2VSZXNwID0gZGF0YT8uYmFzZV9yZXNwOwogIGlmIChiYXNlUmVzcCAmJiBiYXNlUmVzcC5zdGF0dXNfY29kZSAhPT0gMCAmJiBiYXNlUmVzcC5zdGF0dXNfY29kZSAhPT0gdW5kZWZpbmVkKSB7CiAgICB0aHJvdyBuZXcgRXJyb3IoYE1pbmlNYXgg5Lia5Yqh6ZSZ6K+vOiAke2Jhc2VSZXNwLnN0YXR1c19tc2cgfHwgYGNvZGU9JHtiYXNlUmVzcC5zdGF0dXNfY29kZX1gfWApOwogIH0KCiAgY29uc3QgYXVkaW8gPSBkYXRhPy5kYXRhPy5hdWRpbzsKICBpZiAoIWF1ZGlvKSB7CiAgICBjb25zb2xlLmVycm9yKCdbTWluaU1heCBtdXNpY10gbm8gYXVkaW8gaW4gcmVzcG9uc2U6JywgSlNPTi5zdHJpbmdpZnkoZGF0YSkuc2xpY2UoMCwgNTAwKSk7CiAgICB0aHJvdyBuZXcgRXJyb3IoJ01pbmlNYXgg5rKh6L+U5Zue6Z+z6aKR5pWw5o2uJyk7CiAgfQoKICBvblN0YXR1cz8uKCdkb3dubG9hZGluZycpOwogIGxldCBibG9iOiBCbG9iOwogIGxldCBtaW1lVHlwZSA9ICdhdWRpby9tcGVnJzsKICBpZiAodHlwZW9mIGF1ZGlvID09PSAnc3RyaW5nJyAmJiAvXmh0dHBzPzpcL1wvL2kudGVzdChhdWRpby50cmltKCkpKSB7CiAgICBibG9iID0gYXdhaXQgZmV0Y2hSZW1vdGVBdWRpb0Jsb2IoYXVkaW8udHJpbSgpKTsKICAgIG1pbWVUeXBlID0gZ3Vlc3NNaW1lRnJvbVVybChhdWRpby50cmltKCkpOwogIH0gZWxzZSBpZiAodHlwZW9mIGF1ZGlvID09PSAnc3RyaW5nJykgewogICAgYmxvYiA9IGNvbnZlcnRIZXhBdWRpb1RvQmxvYihhdWRpbyk7CiAgfSBlbHNlIHsKICAgIHRocm93IG5ldyBFcnJvcignTWluaU1heCDov5Tlm57nmoQgYXVkaW8g5a2X5q615qC85byP5byC5bi4Jyk7CiAgfQoKICBzYXZlQ2FjaGVkKGNhY2hlS2V5LCBibG9iLCBtaW1lVHlwZSkuY2F0Y2goKCkgPT4geyAvKiBpZ25vcmUgKi8gfSk7CiAgb25TdGF0dXM/LignZG9uZScpOwoKICBjb25zdCBkdXJhdGlvbk1zOiBudW1iZXIgfCB1bmRlZmluZWQgPSBkYXRhPy5leHRyYV9pbmZvPy5tdXNpY19kdXJhdGlvbjsKCiAgcmV0dXJuIHsKICAgIHVybDogVVJMLmNyZWF0ZU9iamVjdFVSTChibG9iKSwKICAgIGJsb2IsCiAgICBtaW1lVHlwZSwKICAgIGFzc2V0S2V5OiBjYWNoZUtleSwKICAgIGNhY2hlZDogZmFsc2UsCiAgICBkdXJhdGlvbk1zLAogIH07Cn0K
+/**
+ * MiniMax Music generation (music-2.6 / music-2.6-free).
+ *
+ * Reuses the same minimaxFetch + apiKey infrastructure that TTS uses, so
+ * authentication / region routing / dev proxy / GitHub Pages bypass all just
+ * work. Response shape mirrors TTS — hex-encoded audio in `data.audio`.
+ *
+ * Why this matters:
+ *   - `music-2.6-free` is genuinely free for any account holding a MiniMax key
+ *   - The user already filled their MiniMax key for TTS, so 0-config onboarding
+ *   - 60s output cap (vs ACE-Step's 4 min) — fine for short demos
+ */
+
+import { APIConfig, SongLine, SongSheet } from '../types';
+import { resolveMiniMaxApiKey } from './minimaxApiKey';
+import { minimaxFetch } from './minimaxEndpoint';
+import { convertHexAudioToBlob, fetchRemoteAudioBlob } from './minimaxTts';
+import { DB } from './db';
+
+// ── Types ──
+
+export type MinimaxMusicModel = 'music-2.6' | 'music-2.6-free';
+
+export interface MinimaxMusicInput {
+  model: MinimaxMusicModel;
+  prompt: string;          // 1-2000 chars, comma-separated style description
+  lyrics: string;          // 1-3500 chars, with [Verse]/[Chorus] markers
+  isInstrumental?: boolean;
+  /** When true and lyrics is empty, MiniMax auto-writes lyrics from prompt. */
+  lyricsOptimizer?: boolean;
+}
+
+export interface MinimaxMusicResult {
+  url: string;
+  blob: Blob;
+  mimeType: string;
+  assetKey: string;
+  cached: boolean;
+  durationMs?: number;
+}
+
+// ── Cache (mirrors aceStepApi / ttsCache structure) ──
+
+function cyrb53(str: string, seed = 0): string {
+  let h1 = 0xdeadbeef ^ seed;
+  let h2 = 0x41c6ce57 ^ seed;
+  for (let i = 0; i < str.length; i++) {
+    const ch = str.charCodeAt(i);
+    h1 = Math.imul(h1 ^ ch, 2654435761);
+    h2 = Math.imul(h2 ^ ch, 1597334677);
+  }
+  h1 = Math.imul(h1 ^ (h1 >>> 16), 2246822507);
+  h1 ^= Math.imul(h2 ^ (h2 >>> 13), 3266489909);
+  h2 = Math.imul(h2 ^ (h2 >>> 16), 2246822507);
+  h2 ^= Math.imul(h1 ^ (h1 >>> 13), 3266489909);
+  return (h2 >>> 0).toString(16).padStart(8, '0') + (h1 >>> 0).toString(16).padStart(8, '0');
+}
+
+function stableStringify(value: any): string {
+  if (value === null || value === undefined) return 'null';
+  if (typeof value !== 'object') return JSON.stringify(value);
+  if (Array.isArray(value)) return '[' + value.map(stableStringify).join(',') + ']';
+  const keys = Object.keys(value).sort();
+  return '{' + keys.map(k => JSON.stringify(k) + ':' + stableStringify(value[k])).join(',') + '}';
+}
+
+export function hashMinimaxMusicInputs(input: MinimaxMusicInput): string {
+  return 'mmmusic_' + cyrb53(stableStringify(input));
+}
+
+interface CacheEntry { blob: Blob; mimeType: string; createdAt: number; lastUsedAt: number; }
+
+async function getCached(key: string): Promise<CacheEntry | null> {
+  try {
+    const entry = (await DB.getAssetRaw(key)) as CacheEntry | null;
+    if (!entry || !(entry.blob instanceof Blob)) return null;
+    DB.saveAssetRaw(key, { ...entry, lastUsedAt: Date.now() }).catch(() => { /* ignore */ });
+    return entry;
+  } catch { return null; }
+}
+
+async function saveCached(key: string, blob: Blob, mimeType: string): Promise<void> {
+  try {
+    const now = Date.now();
+    await DB.saveAssetRaw(key, { blob, mimeType, createdAt: now, lastUsedAt: now } as CacheEntry);
+  } catch (e) { console.warn('[MiniMax music cache] save failed', e); }
+}
+
+/** Read previously-saved blob (used by Songwriting App on app reload). */
+export async function loadMinimaxMusicBlob(assetKey: string): Promise<{ blob: Blob; mimeType: string } | null> {
+  const entry = await getCached(assetKey);
+  if (!entry) return null;
+  return { blob: entry.blob, mimeType: entry.mimeType };
+}
+
+// ── Lyric / prompt formatting ──
+
+const GENRE_HINTS: Record<string, string> = {
+  pop: 'pop', rock: 'rock', ballad: 'ballad, soft, emotional',
+  rap: 'rap, hip-hop', folk: 'folk, acoustic',
+  electronic: 'electronic, edm, synth', jazz: 'jazz, smooth',
+  rnb: 'r&b, soul', free: '',
+};
+const MOOD_HINTS: Record<string, string> = {
+  happy: 'upbeat, bright', sad: 'melancholy, sad',
+  romantic: 'romantic, tender', angry: 'intense, aggressive',
+  chill: 'chill, lo-fi, relaxed', epic: 'epic, cinematic',
+  nostalgic: 'nostalgic, vintage', dreamy: 'dreamy, ambient',
+};
+
+/** Build a default prompt string from a song's genre/mood/bpm/key. */
+export function buildMinimaxMusicPrompt(song: SongSheet): string {
+  const parts: string[] = [];
+  const g = GENRE_HINTS[song.genre]; if (g) parts.push(g);
+  const m = MOOD_HINTS[song.mood]; if (m) parts.push(m);
+  if (song.bpm && song.bpm > 0) parts.push(`${song.bpm} bpm`);
+  if (song.key) parts.push(song.key.toLowerCase());
+  return parts.join(', ');
+}
+
+// MiniMax expects capitalized section markers, slightly different from ACE-Step.
+const SECTION_TAG: Record<string, string> = {
+  'intro':      'Intro',
+  'verse':      'Verse',
+  'pre-chorus': 'Pre Chorus',
+  'chorus':     'Chorus',
+  'bridge':     'Bridge',
+  'outro':      'Outro',
+  // 'free' has no MiniMax-recognized tag; we just emit the raw lines.
+};
+
+/**
+ * Convert SongLines to MiniMax-style lyric format. Skips draft lines so the
+ * audio matches the booklet view.
+ */
+export function buildMinimaxMusicLyrics(lines: SongLine[]): string {
+  const finalLines = lines.filter(l => !l.isDraft);
+  if (finalLines.length === 0) return '';
+
+  let out = '';
+  let currentSection = '';
+  for (const line of finalLines) {
+    if (line.section !== currentSection) {
+      currentSection = line.section;
+      const tag = SECTION_TAG[currentSection];
+      if (out) out += '\n\n';
+      if (tag) out += `[${tag}]\n`;
+    }
+    out += `${line.content}\n`;
+  }
+  // MiniMax docs cap lyrics at 3500 chars. Leave a small buffer.
+  return out.trim().slice(0, 3400);
+}
+
+// ── Public API ──
+
+export interface SynthesizeOptions {
+  signal?: AbortSignal;
+  onStatus?: (status: string) => void;
+  /** When true, skip the cache lookup and always make a fresh API call. */
+  forceRegenerate?: boolean;
+}
+
+class AbortError extends Error {
+  constructor() { super('aborted'); this.name = 'AbortError'; }
+}
+
+const checkAbort = (signal?: AbortSignal) => {
+  if (signal?.aborted) throw new AbortError();
+};
+
+const guessMimeFromUrl = (url: string): string => {
+  const lower = url.toLowerCase().split('?')[0];
+  if (lower.endsWith('.mp3')) return 'audio/mpeg';
+  if (lower.endsWith('.wav')) return 'audio/wav';
+  if (lower.endsWith('.flac')) return 'audio/flac';
+  return 'audio/mpeg';
+};
+
+/**
+ * Generate a song via MiniMax music_generation. Throws AbortError on signal
+ * abort, or Error with a user-readable message on any failure.
+ */
+export async function synthesizeSongMinimax(
+  input: MinimaxMusicInput,
+  apiConfig: APIConfig,
+  options: SynthesizeOptions = {},
+): Promise<MinimaxMusicResult> {
+  const { signal, onStatus } = options;
+  const apiKey = resolveMiniMaxApiKey(apiConfig);
+  if (!apiKey) throw new Error('请先在「设置」里填 MiniMax API Key');
+  if (!input.prompt && !input.lyrics) throw new Error('风格描述和歌词至少需要一个');
+
+  const cacheKey = hashMinimaxMusicInputs(input);
+  if (!options.forceRegenerate) {
+    const cached = await getCached(cacheKey);
+    if (cached) {
+      onStatus?.('cached');
+      return {
+        url: URL.createObjectURL(cached.blob),
+        blob: cached.blob,
+        mimeType: cached.mimeType,
+        assetKey: cacheKey,
+        cached: true,
+      };
+    }
+  }
+
+  onStatus?.('starting');
+  checkAbort(signal);
+
+  const payload: any = {
+    model: input.model,
+    prompt: input.prompt,
+    lyrics: input.lyrics,
+    audio_setting: { sample_rate: 44100, bitrate: 256000, format: 'mp3' },
+  };
+  if (input.isInstrumental) payload.is_instrumental = true;
+  if (input.lyricsOptimizer) payload.lyrics_optimizer = true;
+
+  const headers: Record<string, string> = {
+    'Content-Type': 'application/json',
+    'Authorization': `Bearer ${apiKey}`,
+    'X-MiniMax-API-Key': apiKey,
+  };
+  if (apiConfig.minimaxGroupId) headers['X-MiniMax-Group-Id'] = apiConfig.minimaxGroupId;
+
+  onStatus?.('processing');
+  const res = await minimaxFetch('/api/minimax/music', {
+    method: 'POST',
+    headers,
+    body: JSON.stringify(payload),
+  });
+  const data = await res.json();
+  if (!res.ok) {
+    throw new Error(data?.error || data?.base_resp?.status_msg || `Music API 失败 (HTTP ${res.status})`);
+  }
+
+  // MiniMax often returns HTTP 200 with a non-zero base_resp status for
+  // business-level errors (rate limit / token plan required / etc.)
+  const baseResp = data?.base_resp;
+  if (baseResp && baseResp.status_code !== 0 && baseResp.status_code !== undefined) {
+    throw new Error(`MiniMax 业务错误: ${baseResp.status_msg || `code=${baseResp.status_code}`}`);
+  }
+
+  const audio = data?.data?.audio;
+  if (!audio) {
+    console.error('[MiniMax music] no audio in response:', JSON.stringify(data).slice(0, 500));
+    throw new Error('MiniMax 没返回音频数据');
+  }
+
+  onStatus?.('downloading');
+  let blob: Blob;
+  let mimeType = 'audio/mpeg';
+  if (typeof audio === 'string' && /^https?:\/\//i.test(audio.trim())) {
+    blob = await fetchRemoteAudioBlob(audio.trim());
+    mimeType = guessMimeFromUrl(audio.trim());
+  } else if (typeof audio === 'string') {
+    blob = convertHexAudioToBlob(audio);
+  } else {
+    throw new Error('MiniMax 返回的 audio 字段格式异常');
+  }
+
+  saveCached(cacheKey, blob, mimeType).catch(() => { /* ignore */ });
+  onStatus?.('done');
+
+  const durationMs: number | undefined = data?.extra_info?.music_duration;
+
+  return {
+    url: URL.createObjectURL(blob),
+    blob,
+    mimeType,
+    assetKey: cacheKey,
+    cached: false,
+    durationMs,
+  };
+}

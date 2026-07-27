@@ -1,1 +1,57 @@
-LyoqCiAqIOaHkuWKoOi9vSBjaHVuayDlpLHotKXoh6rmhIgg4oCUICJJbXBvcnRpbmcgYSBtb2R1bGUgc2NyaXB0IGZhaWxlZC4iIOS4gOmUruaBouWkjQogKgogKiDop6blj5HlnLrmma8gKGlPUyBTYWZhcmkgc3RhbmRhbG9uZSBQV0Eg6auY5Y+RKToKICogIC0gUFdBIOS7juWQjuWPsOaBouWkjeeerOmXtOe9kee7nOi/nuaOpei/mOayoeaLiei1t+adpSwg5q2k5pe254K5IEFwcCDlm77moIfop6blj5HnmoTliqjmgIEgaW1wb3J0IOWksei0pTsKICogIC0g6YOo572y5pu05paw5ZCO5penIGJ1bmRsZSDov5jpqbvnlZnlnKjlhoXlrZjph4wsIOW8leeUqOeahOaXpyBoYXNoIGNodW5rIOW3suS7juacjeWKoeWZqOa2iOWksSAoNDA0KeOAggogKgogKiDlhbPplK46IFNhZmFyaSDkvJrmiooi5Yqg6L295aSx6LSlIue8k+WtmOi/m+aooeWdl+ihqCDigJQg5ZCM5LiAIFVSTCDlnKjmnKzpobXnlJ/lkb3lkajmnJ/lhoXlho0gaW1wb3J0CiAqIOebtOaOpeenkuWksei0peOAgeS4jeWGjeWPkee9kee7nOivt+axguOAguaJgOS7pSLov5Tlm57moYzpnaLlho3ngrnov5si5rC46L+c5L+u5LiN5aW9LCDlj6rmnInmlbTpobUgcmVsb2FkCiAqICjnlKjmiLfkvqfooajnjrDkuLoi5aSn6YCA6YeN6L+bIikg5omN6IO95oGi5aSN44CC6L+Z6YeM5YGa55qE5bCx5piv5oqK6L+Z5qyhIHJlbG9hZCDoh6rliqjljJbjgIIKICoKICog6Ziy5b6q546vOiBzZXNzaW9uU3RvcmFnZSDorrDlvZXkuIrmrKHoh6rliqjliLfmlrDml7bpl7QsIOWGt+WNtOacn+WGheS4jeWGjeiHquWItyAo55WZ57uZ5omL5Yqo5oyJ6ZKuKSwKICog6YG/5YWN5pyN5Yqh5Zmo55yf5oqKIGNodW5rIOW8hOS4ouaXtuaXoOmZkOWIt+aWsOOAguWkp+mAgOWQjiBzZXNzaW9uU3RvcmFnZSDoh6rnhLbmuIXnqbosIOaKpOagj+WkjeS9jeOAggogKi8KCmNvbnN0IFJFTE9BRF9NQVJLX0tFWSA9ICdzdWxseW9zX2NodW5rX3JlbG9hZF9hdCc7CmNvbnN0IFJFTE9BRF9DT09MRE9XTl9NUyA9IDYwXzAwMDsKCi8qKiDlkITmtY/op4jlmajliqjmgIEgaW1wb3J0IC8gY2h1bmsg5Yqg6L295aSx6LSl55qE5oql6ZSZ5oyH57q5IChTYWZhcmkgLyBDaHJvbWUgLyBGaXJlZm94IC8gd2VicGFjayDpo47moLwpICovCmNvbnN0IENIVU5LX0VSUk9SX1JFID0gbmV3IFJlZ0V4cCgKICAgIFsKICAgICAgICAnSW1wb3J0aW5nIGEgbW9kdWxlIHNjcmlwdCBmYWlsZWQnLCAgICAgICAgICAvLyBpT1MvbWFjT1MgU2FmYXJpCiAgICAgICAgJ0ZhaWxlZCB0byBmZXRjaCBkeW5hbWljYWxseSBpbXBvcnRlZCBtb2R1bGUnLCAvLyBDaHJvbWUKICAgICAgICAnZXJyb3IgbG9hZGluZyBkeW5hbWljYWxseSBpbXBvcnRlZCBtb2R1bGUnLCAgIC8vIEZpcmVmb3gKICAgICAgICAnRmFpbGVkIHRvIGxvYWQgbW9kdWxlIHNjcmlwdCcsICAgICAgICAgICAgICAgICAvLyBNSU1FL+e9kee7nOWxguWksei0pQogICAgICAgICdVbmFibGUgdG8gcHJlbG9hZCBDU1MnLCAgICAgICAgICAgICAgICAgICAgICAgIC8vIFZpdGUgX192aXRlUHJlbG9hZCBDU1Mg5L6d6LWW5aSx6LSlCiAgICAgICAgJ0NodW5rTG9hZEVycm9yJywKICAgICAgICAnTG9hZGluZyBjaHVuayBcXFMrIGZhaWxlZCcsCiAgICBdLmpvaW4oJ3wnKSwKICAgICdpJywKKTsKCmV4cG9ydCBjb25zdCBpc0NodW5rTG9hZEVycm9yID0gKGVycjogdW5rbm93bik6IGJvb2xlYW4gPT4gewogICAgY29uc3QgbXNnID0gZXJyIGluc3RhbmNlb2YgRXJyb3IKICAgICAgICA/IGAke2Vyci5uYW1lfTogJHtlcnIubWVzc2FnZX1gCiAgICAgICAgOiB0eXBlb2YgZXJyID09PSAnc3RyaW5nJyA/IGVyciA6ICcnOwogICAgcmV0dXJuIENIVU5LX0VSUk9SX1JFLnRlc3QobXNnKTsKfTsKCi8qKgogKiDlsJ3or5Xoh6rliqjmlbTpobXliLfmlrDmnaXmgaLlpI0gY2h1bmsg5Yqg6L295aSx6LSl44CCCiAqIOi/lOWbniB0cnVlID0g5bey5Y+R6LW35Yi35pawICjpobXpnaLljbPlsIbmtojlpLEpOyBmYWxzZSA9IOWGt+WNtOacn+WGhS/lrZjlgqjkuI3lj6/nlKgsIOiwg+eUqOaWueW6lOWxleekuuaJi+WKqOWIt+aWsOaMiemSruOAggogKi8KZXhwb3J0IGNvbnN0IHRyeUF1dG9SZWxvYWRGb3JDaHVua0Vycm9yID0gKCk6IGJvb2xlYW4gPT4gewogICAgbGV0IGFsbG93ZWQgPSBmYWxzZTsKICAgIHRyeSB7CiAgICAgICAgY29uc3QgbGFzdCA9IHBhcnNlSW50KHNlc3Npb25TdG9yYWdlLmdldEl0ZW0oUkVMT0FEX01BUktfS0VZKSB8fCAnMCcsIDEwKSB8fCAwOwogICAgICAgIGFsbG93ZWQgPSBEYXRlLm5vdygpIC0gbGFzdCA+PSBSRUxPQURfQ09PTERPV05fTVM7CiAgICAgICAgaWYgKGFsbG93ZWQpIHNlc3Npb25TdG9yYWdlLnNldEl0ZW0oUkVMT0FEX01BUktfS0VZLCBTdHJpbmcoRGF0ZS5ub3coKSkpOwogICAgfSBjYXRjaCB7CiAgICAgICAgLy8gc2Vzc2lvblN0b3JhZ2Ug5LiN5Y+v55So5pe25rKh5rOV6Ziy5Yi35paw5b6q546vIOKGkiDkuI3oh6rliqjliLcsIOi1sOaJi+WKqOaMiemSruWFnOW6lQogICAgICAgIGFsbG93ZWQgPSBmYWxzZTsKICAgIH0KICAgIGlmICghYWxsb3dlZCkgcmV0dXJuIGZhbHNlOwogICAgd2luZG93LmxvY2F0aW9uLnJlbG9hZCgpOwogICAgcmV0dXJuIHRydWU7Cn07Cg==
+/**
+ * 懒加载 chunk 失败自愈 — "Importing a module script failed." 一键恢复
+ *
+ * 触发场景 (iOS Safari standalone PWA 高发):
+ *  - PWA 从后台恢复瞬间网络连接还没拉起来, 此时点 App 图标触发的动态 import 失败;
+ *  - 部署更新后旧 bundle 还驻留在内存里, 引用的旧 hash chunk 已从服务器消失 (404)。
+ *
+ * 关键: Safari 会把"加载失败"缓存进模块表 — 同一 URL 在本页生命周期内再 import
+ * 直接秒失败、不再发网络请求。所以"返回桌面再点进"永远修不好, 只有整页 reload
+ * (用户侧表现为"大退重进") 才能恢复。这里做的就是把这次 reload 自动化。
+ *
+ * 防循环: sessionStorage 记录上次自动刷新时间, 冷却期内不再自刷 (留给手动按钮),
+ * 避免服务器真把 chunk 弄丢时无限刷新。大退后 sessionStorage 自然清空, 护栏复位。
+ */
+
+const RELOAD_MARK_KEY = 'sullyos_chunk_reload_at';
+const RELOAD_COOLDOWN_MS = 60_000;
+
+/** 各浏览器动态 import / chunk 加载失败的报错指纹 (Safari / Chrome / Firefox / webpack 风格) */
+const CHUNK_ERROR_RE = new RegExp(
+    [
+        'Importing a module script failed',          // iOS/macOS Safari
+        'Failed to fetch dynamically imported module', // Chrome
+        'error loading dynamically imported module',   // Firefox
+        'Failed to load module script',                 // MIME/网络层失败
+        'Unable to preload CSS',                        // Vite __vitePreload CSS 依赖失败
+        'ChunkLoadError',
+        'Loading chunk \\S+ failed',
+    ].join('|'),
+    'i',
+);
+
+export const isChunkLoadError = (err: unknown): boolean => {
+    const msg = err instanceof Error
+        ? `${err.name}: ${err.message}`
+        : typeof err === 'string' ? err : '';
+    return CHUNK_ERROR_RE.test(msg);
+};
+
+/**
+ * 尝试自动整页刷新来恢复 chunk 加载失败。
+ * 返回 true = 已发起刷新 (页面即将消失); false = 冷却期内/存储不可用, 调用方应展示手动刷新按钮。
+ */
+export const tryAutoReloadForChunkError = (): boolean => {
+    let allowed = false;
+    try {
+        const last = parseInt(sessionStorage.getItem(RELOAD_MARK_KEY) || '0', 10) || 0;
+        allowed = Date.now() - last >= RELOAD_COOLDOWN_MS;
+        if (allowed) sessionStorage.setItem(RELOAD_MARK_KEY, String(Date.now()));
+    } catch {
+        // sessionStorage 不可用时没法防刷新循环 → 不自动刷, 走手动按钮兜底
+        allowed = false;
+    }
+    if (!allowed) return false;
+    window.location.reload();
+    return true;
+};

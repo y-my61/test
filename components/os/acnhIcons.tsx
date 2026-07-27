@@ -1,1 +1,224 @@
-aW1wb3J0IFJlYWN0IGZyb20gJ3JlYWN0JzsKaW1wb3J0IHsgQXBwSUQgfSBmcm9tICcuLi8uLi90eXBlcyc7CgovLyDliqjmo64oTm9va1Bob25lKemjjuagvCBBcHAg5Zu+5qCHIOKAlOKAlCDloavlhYXlvI/lpJroibIgU1ZH77ya5aW25rK55bqVICsg5pqW5qOV5ZyG5aS05o+P6L65ICsg5Y2V5Liq5by66LCD6Imy44CCCi8vIOmjjuagvOWPgueFpyBhbmltYWwtaXNsYW5kLXVpIOS7k+W6k+eahCBpY29uLWNoYXQgLyBpY29uLXZhcmlhbnTvvIjlrp7lv4PlnIbop5Llh6DkvZUgKyDlj6/niLHooajmg4XvvInjgIIKLy8g5YWz6ZSu77ya5q+P5Liq5Zu+5qCH5Lyg5YWl6Ieq6Lqr5YyF5Zu055uSIGJib3jvvIxkcmF3KCkg6Ieq5Yqo57yp5pS+5bGF5Lit5Yiw57uf5LiA5YWJ5a2m5bC65a+4IOKAlOKAlCDmiYDmnInlm77moIfkuIDmoLflpKfjgIIKY29uc3QgQ1JFQU0gPSAnI0ZCRjdFQSc7CmNvbnN0IEJST1dOID0gJyM1RTQ4M0InOwoKLy8g57uf5LiA55uu5qCH77ya5oqK5Zu+5qCH5YaF5a6557yp5pS+5bm25bGF5Lit77yM5L2/5YW25pyA6ZW/6L655Y2g5ruhIHZpZXdCb3gg55qEIFRBUkdFVO+8iDEwMCDkuLrmu6HvvInjgIIKY29uc3QgVEFSR0VUID0gODA7CmNvbnN0IGRyYXcgPSAoYmJveDogW251bWJlciwgbnVtYmVyLCBudW1iZXIsIG51bWJlcl0sIGNoaWxkcmVuOiBSZWFjdC5SZWFjdE5vZGUpID0+IHsKICBjb25zdCBbeDAsIHkwLCB4MSwgeTFdID0gYmJveDsKICBjb25zdCB3ID0geDEgLSB4MCwgaCA9IHkxIC0geTA7CiAgY29uc3QgcyA9IFRBUkdFVCAvIE1hdGgubWF4KHcsIGgpOwogIGNvbnN0IHR4ID0gNTAgLSBzICogKHgwICsgdyAvIDIpOwogIGNvbnN0IHR5ID0gNTAgLSBzICogKHkwICsgaCAvIDIpOwogIHJldHVybiAoCiAgICA8c3ZnIHZpZXdCb3g9IjAgMCAxMDAgMTAwIiBjbGFzc05hbWU9InctZnVsbCBoLWZ1bGwiPgogICAgICA8ZyB0cmFuc2Zvcm09e2B0cmFuc2xhdGUoJHt0eH0gJHt0eX0pIHNjYWxlKCR7c30pYH0+e2NoaWxkcmVufTwvZz4KICAgIDwvc3ZnPgogICk7Cn07Cgpjb25zdCBsZWFmID0gZHJhdyhbMjUsIDEyLCA3NSwgODldLCA8PgogIDxwYXRoIGQ9Ik01MCAxMiBDNzYgMjMgODYgNTAgNzUgNzkgQzcxIDg5IDU4IDkzIDUwIDg5IEM0MiA5MyAyOSA4OSAyNSA3OSBDMTQgNTAgMjQgMjMgNTAgMTJaIiBmaWxsPXtDUkVBTX0gLz4KICA8cGF0aCBkPSJNNTAgMjIgVjgzIiBzdHJva2U9e0JST1dOfSBzdHJva2VXaWR0aD0iNC41IiBzdHJva2VMaW5lY2FwPSJyb3VuZCIgLz4KICA8cGF0aCBkPSJNNTAgNDIgTDY4IDMzIE01MCA1NyBMMzIgNDggTTUwIDcwIEw2NCA2MyIgc3Ryb2tlPXtCUk9XTn0gc3Ryb2tlV2lkdGg9IjQiIHN0cm9rZUxpbmVjYXA9InJvdW5kIiAvPgo8Lz4pOwoKY29uc3QgZmFjZUdseXBoID0gPD4KICA8cGF0aCBkPSJNNTAgMjIgQzU4IDE1IDY4IDE5IDY1IDI4IEM1NyAzMSA1MCAyOSA1MCAyMloiIGZpbGw9IiM3Q0MzNkIiIC8+CiAgPGNpcmNsZSBjeD0iNTAiIGN5PSI1NiIgcj0iMzAiIGZpbGw9e0NSRUFNfSAvPgogIDxjaXJjbGUgY3g9IjQwIiBjeT0iNTIiIHI9IjQuMiIgZmlsbD17QlJPV059IC8+PGNpcmNsZSBjeD0iNjAiIGN5PSI1MiIgcj0iNC4yIiBmaWxsPXtCUk9XTn0gLz4KICA8Y2lyY2xlIGN4PSIzMiIgY3k9IjYwIiByPSI0LjUiIGZpbGw9IiNGNkE4QjgiIC8+PGNpcmNsZSBjeD0iNjgiIGN5PSI2MCIgcj0iNC41IiBmaWxsPSIjRjZBOEI4IiAvPgogIDxwYXRoIGQ9Ik00MCA2NCBRNTAgNzMgNjAgNjQiIHN0cm9rZT17QlJPV059IHN0cm9rZVdpZHRoPSI0LjUiIGZpbGw9Im5vbmUiIHN0cm9rZUxpbmVjYXA9InJvdW5kIiAvPgo8Lz47CmNvbnN0IGJvb2tHbHlwaCA9IDw+CiAgPHBhdGggZD0iTTUwIDMwIEM0MiAyNCAyOCAyNCAyMSAyOCBWNzUgQzI4IDcxIDQyIDcxIDUwIDc3IEM1OCA3MSA3MiA3MSA3OSA3NSBWMjggQzcyIDI0IDU4IDI0IDUwIDMwWiIgZmlsbD17Q1JFQU19IC8+CiAgPHBhdGggZD0iTTUwIDMwIFY3NyIgc3Ryb2tlPXtCUk9XTn0gc3Ryb2tlV2lkdGg9IjMuNSIgLz4KPC8+Owpjb25zdCBjYW1HbHlwaCA9IChsZW5zOiBzdHJpbmcpID0+IDw+CiAgPHBhdGggZD0iTTM3IDMzIEw0MyAyNSBINTcgTDYzIDMzWiIgZmlsbD17Q1JFQU19IC8+CiAgPHJlY3QgeD0iMTciIHk9IjMzIiB3aWR0aD0iNjYiIGhlaWdodD0iNDYiIHJ4PSIxMSIgZmlsbD17Q1JFQU19IC8+CiAgPGNpcmNsZSBjeD0iNTAiIGN5PSI1NiIgcj0iMTQiIGZpbGw9e2xlbnN9IC8+PGNpcmNsZSBjeD0iNTAiIGN5PSI1NiIgcj0iNi41IiBmaWxsPXtDUkVBTX0gLz4KICA8Y2lyY2xlIGN4PSI3MSIgY3k9IjQ0IiByPSIzLjUiIGZpbGw9IiNGN0NENjciIC8+CjwvPjsKY29uc3QgbXVzaWNHbHlwaCA9IDw+CiAgPHJlY3QgeD0iNTYiIHk9IjIyIiB3aWR0aD0iNi41IiBoZWlnaHQ9IjQ0IiByeD0iMy4yIiBmaWxsPXtDUkVBTX0gLz4KICA8cGF0aCBkPSJNNjIgMjIgQzc0IDI0IDgwIDMxIDc3IDQyIEM3NSAzNSA2OCAzMiA2MiAzNVoiIGZpbGw9e0NSRUFNfSAvPgogIDxlbGxpcHNlIGN4PSI0OCIgY3k9IjY2IiByeD0iMTMiIHJ5PSIxMCIgZmlsbD17Q1JFQU19IHRyYW5zZm9ybT0icm90YXRlKC0xOCA0OCA2NikiIC8+CjwvPjsKY29uc3Qgc3RhckdseXBoID0gPHBhdGggZD0iTTUwIDE0IEw2MSAzOSBMODggNDEgTDY3IDYwIEw3NCA4NyBMNTAgNzIgTDI2IDg3IEwzMyA2MCBMMTIgNDEgTDM5IDM5WiIgZmlsbD17Q1JFQU19IC8+Owpjb25zdCBwYWxldHRlR2x5cGggPSA8PgogIDxwYXRoIGQ9Ik01MCAyMCBDNzMgMjAgODQgMzUgODQgNTAgQzg0IDYyIDc0IDY0IDY4IDY0IEM2MiA2NCA2MCA3MCA2NCA3NiBDNjYgODAgNjIgODQgNTQgODQgQzMwIDg0IDE2IDY4IDE2IDUwIEMxNiAzMyAzMCAyMCA1MCAyMFoiIGZpbGw9e0NSRUFNfSAvPgogIDxjaXJjbGUgY3g9IjM4IiBjeT0iNDIiIHI9IjUiIGZpbGw9IiNGQzczNkQiIC8+PGNpcmNsZSBjeD0iNTUiIGN5PSIzNiIgcj0iNSIgZmlsbD0iI0Y3Q0Q2NyIgLz48Y2lyY2xlIGN4PSI2NiIgY3k9IjQ4IiByPSI1IiBmaWxsPSIjODJENUJCIiAvPgo8Lz47Cgpjb25zdCBBQ05IX0lDT05fTUFQOiBQYXJ0aWFsPFJlY29yZDxBcHBJRCwgUmVhY3QuUmVhY3ROb2RlPj4gPSB7CiAgW0FwcElELkNoYXRdOiBkcmF3KFs5LCAyNCwgOTEsIDcyXSwgPD4KICAgIDxwYXRoIGQ9Ik0yNCAyNCBINzYgYTE1IDE1IDAgMCAxIDE1IDE1IHYxMyBhMTUgMTUgMCAwIDEgLTE1IDE1IEg1NiBsLTYgMTAgLTYgLTEwIEgyNCBhMTUgMTUgMCAwIDEgLTE1IC0xNSB2LTEzIGExNSAxNSAwIDAgMSAxNSAtMTVaIiBmaWxsPXtDUkVBTX0gLz4KICAgIDxjaXJjbGUgY3g9IjMyIiBjeT0iNDUuNSIgcj0iNiIgZmlsbD17QlJPV059IC8+PGNpcmNsZSBjeD0iNTAiIGN5PSI0NS41IiByPSI2IiBmaWxsPXtCUk9XTn0gLz48Y2lyY2xlIGN4PSI2OCIgY3k9IjQ1LjUiIHI9IjYiIGZpbGw9e0JST1dOfSAvPgogIDwvPiksCiAgW0FwcElELkNoYXJhY3Rlcl06IGRyYXcoWzIwLCAxNSwgODAsIDg2XSwgZmFjZUdseXBoKSwKICBbQXBwSUQuTGlmZVNpbV06IGRyYXcoWzIwLCAxNSwgODAsIDg2XSwgZmFjZUdseXBoKSwKICBbQXBwSUQuTWVtb3J5UGFsYWNlXTogZHJhdyhbMTQsIDE4LCA4NiwgODRdLCA8PgogICAgPHBhdGggZD0iTTUwIDE4IEw4NiA0NiBIMTQgWiIgZmlsbD17Q1JFQU19IC8+CiAgICA8cmVjdCB4PSIyNCIgeT0iNDYiIHdpZHRoPSI1MiIgaGVpZ2h0PSIzOCIgcng9IjUiIGZpbGw9e0NSRUFNfSAvPgogICAgPHJlY3QgeD0iNDIiIHk9IjYwIiB3aWR0aD0iMTYiIGhlaWdodD0iMjQiIHJ4PSIzIiBmaWxsPXtCUk9XTn0gLz4KICAgIDxyZWN0IHg9IjMwIiB5PSI1MiIgd2lkdGg9IjkiIGhlaWdodD0iOSIgcng9IjIiIGZpbGw9IiM4MkQ1QkIiIC8+PHJlY3QgeD0iNjEiIHk9IjUyIiB3aWR0aD0iOSIgaGVpZ2h0PSI5IiByeD0iMiIgZmlsbD0iIzgyRDVCQiIgLz4KICA8Lz4pLAogIFtBcHBJRC5DYWxsXTogZHJhdyhbMjMsIDIwLCA4MiwgODNdLAogICAgPHBhdGggZD0iTTMwIDIwIEMyNSAyMCAyMCAyNSAyMyAzNSBDMzAgNjAgNDIgNzMgNjcgODAgQzc3IDgzIDgyIDc4IDgyIDczIEw3MyA2MCBDNzAgNTYgNjUgNTUgNjEgNTggTDU2IDYxIEM0NyA1NiA0NCA1MyAzOSA0NCBMNDIgMzkgQzQ1IDM1IDQ0IDMwIDQwIDI3IFoiIGZpbGw9e0NSRUFNfSAvPgogICksCiAgW0FwcElELlJvb21dOiBkcmF3KFsxNiwgMjIsIDg0LCA4MF0sIDw+CiAgICA8cGF0aCBkPSJNNTAgMjIgTDg0IDgwIEgxNiBaIiBmaWxsPXtDUkVBTX0gLz4KICAgIDxwYXRoIGQ9Ik01MCA0MiBMNjggODAgSDMyIFoiIGZpbGw9e0JST1dOfSAvPgogICAgPHBhdGggZD0iTTUwIDQyIFY4MCIgc3Ryb2tlPXtDUkVBTX0gc3Ryb2tlV2lkdGg9IjMuNSIgLz4KICA8Lz4pLAogIFtBcHBJRC5DaGVja1Bob25lXTogZHJhdyhbMzEsIDE2LCA2OSwgODRdLCA8PgogICAgPHJlY3QgeD0iMzEiIHk9IjE2IiB3aWR0aD0iMzgiIGhlaWdodD0iNjgiIHJ4PSIxMSIgZmlsbD17Q1JFQU19IC8+CiAgICA8cmVjdCB4PSIzNyIgeT0iMjUiIHdpZHRoPSIyNiIgaGVpZ2h0PSI0MiIgcng9IjQiIGZpbGw9IiM4MkQ1QkIiIC8+CiAgICA8Y2lyY2xlIGN4PSI1MCIgY3k9Ijc1IiByPSIzLjYiIGZpbGw9e0JST1dOfSAvPgogIDwvPiksCiAgW0FwcElELkRhdGVdOiBkcmF3KFsxNCwgMTcsIDg2LCA4Ml0sCiAgICA8cGF0aCBkPSJNNTAgODIgQzIyIDYwIDE0IDQ2IDE0IDMzIEMxNCAyMyAyMiAxNyAzMSAxNyBDMzkgMTcgNDYgMjEgNTAgMzAgQzU0IDIxIDYxIDE3IDY5IDE3IEM3OCAxNyA4NiAyMyA4NiAzMyBDODYgNDYgNzggNjAgNTAgODJaIiBmaWxsPXtDUkVBTX0gLz4KICApLAogIFtBcHBJRC5Vc2VyXTogZHJhdyhbMjUsIDE4LCA3NSwgODJdLCA8PgogICAgPHJlY3QgeD0iMjUiIHk9IjE4IiB3aWR0aD0iNTAiIGhlaWdodD0iNjQiIHJ4PSI3IiBmaWxsPXtDUkVBTX0gLz4KICAgIDxjaXJjbGUgY3g9IjUwIiBjeT0iNDIiIHI9IjEyIiBmaWxsPSIjRjdDRDY3IiAvPgogICAgPGNpcmNsZSBjeD0iNDYiIGN5PSI0MSIgcj0iMi4yIiBmaWxsPXtCUk9XTn0gLz48Y2lyY2xlIGN4PSI1NCIgY3k9IjQxIiByPSIyLjIiIGZpbGw9e0JST1dOfSAvPgogICAgPHBhdGggZD0iTTQ1IDQ3IFE1MCA1MSA1NSA0NyIgc3Ryb2tlPXtCUk9XTn0gc3Ryb2tlV2lkdGg9IjIuNCIgZmlsbD0ibm9uZSIgc3Ryb2tlTGluZWNhcD0icm91bmQiIC8+CiAgICA8cmVjdCB4PSIzNCIgeT0iNjIiIHdpZHRoPSIzMiIgaGVpZ2h0PSI1IiByeD0iMi41IiBmaWxsPXtCUk9XTn0gLz48cmVjdCB4PSIzOCIgeT0iNzEiIHdpZHRoPSIyNCIgaGVpZ2h0PSI1IiByeD0iMi41IiBmaWxsPSIjQjdBOThDIiAvPgogIDwvPiksCiAgW0FwcElELkJhbmtdOiBkcmF3KFsyMCwgMjcsIDgwLCA4N10sIDw+CiAgICA8cGF0aCBkPSJNMzcgMzUgUTUwIDI3IDYzIDM1IEM3NyA0NiA4MCA2NyA2OSA3OSBDNjEgODcgMzkgODcgMzEgNzkgQzIwIDY3IDIzIDQ2IDM3IDM1WiIgZmlsbD17Q1JFQU19IC8+CiAgICA8cGF0aCBkPSJNNDEgMzEgTDU5IDMxIEw1NSA0MCBMNDUgNDBaIiBmaWxsPXtCUk9XTn0gLz4KICAgIDxwYXRoIGQ9Ik01MCA1MCBDNDMgNTAgMzkgNTYgMzkgNjMgSDYxIEM2MSA1NiA1NyA1MCA1MCA1MFoiIGZpbGw9IiNGN0NENjciIC8+CiAgICA8cmVjdCB4PSI0NiIgeT0iNjMiIHdpZHRoPSI4IiBoZWlnaHQ9IjMuNSIgZmlsbD17QlJPV059IC8+PGNpcmNsZSBjeD0iNTAiIGN5PSI3MCIgcj0iMyIgZmlsbD17QlJPV059IC8+CiAgPC8+KSwKICBbQXBwSUQuR3JvdXBDaGF0XTogZHJhdyhbMTcsIDMxLCA4MywgNzNdLCA8PgogICAgPGNpcmNsZSBjeD0iNjQiIGN5PSI1MiIgcj0iMTkiIGZpbGw9IiNFRkU2Q0YiIC8+PGNpcmNsZSBjeD0iMzgiIGN5PSI1MiIgcj0iMjEiIGZpbGw9e0NSRUFNfSAvPgogICAgPGNpcmNsZSBjeD0iMzEiIGN5PSI1MCIgcj0iMy40IiBmaWxsPXtCUk9XTn0gLz48Y2lyY2xlIGN4PSI0NSIgY3k9IjUwIiByPSIzLjQiIGZpbGw9e0JST1dOfSAvPgogICAgPHBhdGggZD0iTTMxIDU4IFEzOCA2NCA0NSA1OCIgc3Ryb2tlPXtCUk9XTn0gc3Ryb2tlV2lkdGg9IjMuNCIgZmlsbD0ibm9uZSIgc3Ryb2tlTGluZWNhcD0icm91bmQiIC8+CiAgPC8+KSwKICBbQXBwSUQuU29jaWFsXTogZHJhdyhbMjksIDE2LCA3MSwgODZdLCA8PgogICAgPHBhdGggZD0iTTUyIDE2IEM2MCAzMyA3NiAzOCA3MSA1OSBDNjggNzggNTggODYgNTAgODYgQzQxIDg2IDI5IDc5IDI5IDYwIEMyOSA0NyA0MCA0NSA0MiAzNCBDNDcgNDMgNDkgMzkgNTIgMTZaIiBmaWxsPXtDUkVBTX0gLz4KICAgIDxwYXRoIGQ9Ik01MSA0NiBDNTUgNTUgNjEgNTcgNTggNjcgQzU2IDc1IDUzIDc5IDUwIDc5IEM0NiA3OSA0MiA3NCA0MiA2NCBDNDIgNTcgNDcgNTUgNDggNTBaIiBmaWxsPSIjRjdDRDY3IiAvPgogIDwvPiksCiAgW0FwcElELlNldHRpbmdzXTogZHJhdyhbMjAsIDI4LCA4MCwgNzhdLCA8PgogICAgPHJlY3QgeD0iMjIiIHk9IjMzIiB3aWR0aD0iNTYiIGhlaWdodD0iNiIgcng9IjMiIGZpbGw9e0NSRUFNfSAvPjxjaXJjbGUgY3g9IjYyIiBjeT0iMzYiIHI9IjgiIGZpbGw9e0NSRUFNfSBzdHJva2U9e0JST1dOfSBzdHJva2VXaWR0aD0iMy41IiAvPgogICAgPHJlY3QgeD0iMjIiIHk9IjUwIiB3aWR0aD0iNTYiIGhlaWdodD0iNiIgcng9IjMiIGZpbGw9e0NSRUFNfSAvPjxjaXJjbGUgY3g9IjM4IiBjeT0iNTMiIHI9IjgiIGZpbGw9e0NSRUFNfSBzdHJva2U9e0JST1dOfSBzdHJva2VXaWR0aD0iMy41IiAvPgogICAgPHJlY3QgeD0iMjIiIHk9IjY3IiB3aWR0aD0iNTYiIGhlaWdodD0iNiIgcng9IjMiIGZpbGw9e0NSRUFNfSAvPjxjaXJjbGUgY3g9IjY2IiBjeT0iNzAiIHI9IjgiIGZpbGw9e0NSRUFNfSBzdHJva2U9e0JST1dOfSBzdHJva2VXaWR0aD0iMy41IiAvPgogIDwvPiksCiAgW0FwcElELkdhbGxlcnldOiBkcmF3KFsxNywgMjUsIDgzLCA3OV0sIGNhbUdseXBoKCcjODJENUJCJykpLAogIFtBcHBJRC5YaHNTdG9ja106IGRyYXcoWzE3LCAyNSwgODMsIDc5XSwgY2FtR2x5cGgoJyNGQzczNkQnKSksCiAgW0FwcElELk11c2ljXTogZHJhdyhbMzUsIDIyLCA4MCwgNzZdLCBtdXNpY0dseXBoKSwKICBbQXBwSUQuU29uZ3dyaXRpbmddOiBkcmF3KFszNSwgMjIsIDgwLCA3Nl0sIG11c2ljR2x5cGgpLAogIFtBcHBJRC5HYW1lXTogZHJhdyhbMTgsIDQwLCA4MiwgNzBdLCA8PgogICAgPHJlY3QgeD0iMTgiIHk9IjQwIiB3aWR0aD0iNjQiIGhlaWdodD0iMzAiIHJ4PSIxNSIgZmlsbD17Q1JFQU19IC8+CiAgICA8cmVjdCB4PSIzMCIgeT0iNTIiIHdpZHRoPSIxNCIgaGVpZ2h0PSI1IiByeD0iMi41IiBmaWxsPXtCUk9XTn0gLz48cmVjdCB4PSIzNC41IiB5PSI0Ny41IiB3aWR0aD0iNSIgaGVpZ2h0PSIxNCIgcng9IjIuNSIgZmlsbD17QlJPV059IC8+CiAgICA8Y2lyY2xlIGN4PSI2NCIgY3k9IjUwIiByPSI0IiBmaWxsPSIjRkM3MzZEIiAvPjxjaXJjbGUgY3g9IjcyIiBjeT0iNTgiIHI9IjQiIGZpbGw9IiM4MkQ1QkIiIC8+CiAgPC8+KSwKICBbQXBwSUQuSm91cm5hbF06IGRyYXcoWzIxLCAyNCwgNzksIDc3XSwgYm9va0dseXBoKSwKICBbQXBwSUQuTm92ZWxdOiBkcmF3KFsyMSwgMjQsIDc5LCA3N10sIGJvb2tHbHlwaCksCiAgW0FwcElELlN0dWR5XTogZHJhdyhbMjEsIDI0LCA3OSwgNzddLCBib29rR2x5cGgpLAogIFtBcHBJRC5Xb3JsZGJvb2tdOiBkcmF3KFsyMSwgMjQsIDc5LCA3N10sIGJvb2tHbHlwaCksCiAgW0FwcElELkd1aWRlYm9va106IGRyYXcoWzIxLCAyNCwgNzksIDc3XSwgYm9va0dseXBoKSwKICBbQXBwSUQuU2NoZWR1bGVdOiBkcmF3KFsyMiwgMjAsIDc4LCA4MF0sIDw+CiAgICA8cmVjdCB4PSIyMiIgeT0iMjYiIHdpZHRoPSI1NiIgaGVpZ2h0PSI1NCIgcng9IjgiIGZpbGw9e0NSRUFNfSAvPgogICAgPHJlY3QgeD0iMjIiIHk9IjI2IiB3aWR0aD0iNTYiIGhlaWdodD0iMTYiIHJ4PSI4IiBmaWxsPSIjRkM3MzZEIiAvPgogICAgPHJlY3QgeD0iMzMiIHk9IjIwIiB3aWR0aD0iNiIgaGVpZ2h0PSIxNCIgcng9IjMiIGZpbGw9e0JST1dOfSAvPjxyZWN0IHg9IjYxIiB5PSIyMCIgd2lkdGg9IjYiIGhlaWdodD0iMTQiIHJ4PSIzIiBmaWxsPXtCUk9XTn0gLz4KICAgIDxjaXJjbGUgY3g9IjM4IiBjeT0iNTYiIHI9IjQiIGZpbGw9e0JST1dOfSAvPjxjaXJjbGUgY3g9IjUyIiBjeT0iNTYiIHI9IjQiIGZpbGw9e0JST1dOfSAvPjxjaXJjbGUgY3g9IjY2IiBjeT0iNTYiIHI9IjQiIGZpbGw9IiNCN0E5OEMiIC8+CiAgICA8Y2lyY2xlIGN4PSIzOCIgY3k9IjY5IiByPSI0IiBmaWxsPSIjQjdBOThDIiAvPjxjaXJjbGUgY3g9IjUyIiBjeT0iNjkiIHI9IjQiIGZpbGw9e0JST1dOfSAvPgogIDwvPiksCiAgW0FwcElELlNwZWNpYWxNb21lbnRzXTogZHJhdyhbMTIsIDE0LCA4OCwgODddLCBzdGFyR2x5cGgpLAogIFtBcHBJRC5WUldvcmxkXTogZHJhdyhbMTIsIDE0LCA4OCwgODddLCBzdGFyR2x5cGgpLAogIFtBcHBJRC5BcHBlYXJhbmNlXTogZHJhdyhbMTYsIDIwLCA4NCwgODRdLCBwYWxldHRlR2x5cGgpLAogIFtBcHBJRC5UaGVtZU1ha2VyXTogZHJhdyhbMTYsIDIwLCA4NCwgODRdLCBwYWxldHRlR2x5cGgpLAogIFtBcHBJRC5Ib3ROZXdzXTogZHJhdyhbMjAsIDI2LCA4MCwgNzZdLCA8PgogICAgPHJlY3QgeD0iMjAiIHk9IjI2IiB3aWR0aD0iNjAiIGhlaWdodD0iNTAiIHJ4PSI2IiBmaWxsPXtDUkVBTX0gLz4KICAgIDxyZWN0IHg9IjI3IiB5PSIzNCIgd2lkdGg9IjIyIiBoZWlnaHQ9IjE2IiByeD0iMyIgZmlsbD0iI0I3QTk4QyIgLz4KICAgIDxyZWN0IHg9IjU0IiB5PSIzNCIgd2lkdGg9IjIwIiBoZWlnaHQ9IjQiIHJ4PSIyIiBmaWxsPXtCUk9XTn0gLz48cmVjdCB4PSI1NCIgeT0iNDMiIHdpZHRoPSIyMCIgaGVpZ2h0PSI0IiByeD0iMiIgZmlsbD17QlJPV059IC8+CiAgICA8cmVjdCB4PSIyNyIgeT0iNTYiIHdpZHRoPSI0NiIgaGVpZ2h0PSI0IiByeD0iMiIgZmlsbD17QlJPV059IC8+PHJlY3QgeD0iMjciIHk9IjY0IiB3aWR0aD0iMzYiIGhlaWdodD0iNCIgcng9IjIiIGZpbGw9IiNCN0E5OEMiIC8+CiAgPC8+KSwKfTsKCmV4cG9ydCBjb25zdCBnZXRBY25oSWNvbiA9IChhcHBJZDogc3RyaW5nKTogUmVhY3QuUmVhY3ROb2RlID0+CiAgQUNOSF9JQ09OX01BUFthcHBJZCBhcyBBcHBJRF0gPz8gbGVhZjsKCi8vIC0tLSDogYrlpKnjgIwr44CN6Z2i5p2/5Yqo5L2c5Zu+5qCH77yI5Yqo5qOu55Om54mH77ya5b2p6Imy5ZyG6KeS5pa55Z2XICsg5aW25rK5IGdseXBo77yJLS0tCmNvbnN0IGJhZ0dseXBoID0gPD4KICA8cGF0aCBkPSJNMzcgMzUgUTUwIDI3IDYzIDM1IEM3NyA0NiA4MCA2NyA2OSA3OSBDNjEgODcgMzkgODcgMzEgNzkgQzIwIDY3IDIzIDQ2IDM3IDM1WiIgZmlsbD17Q1JFQU19IC8+CiAgPHBhdGggZD0iTTQxIDMxIEw1OSAzMSBMNTUgNDAgTDQ1IDQwWiIgZmlsbD17QlJPV059IC8+CiAgPHBhdGggZD0iTTUwIDUwIEM0MyA1MCAzOSA1NiAzOSA2MyBINjEgQzYxIDU2IDU3IDUwIDUwIDUwWiIgZmlsbD0iI0Y3Q0Q2NyIgLz4KICA8cmVjdCB4PSI0NiIgeT0iNjMiIHdpZHRoPSI4IiBoZWlnaHQ9IjMuNSIgZmlsbD17QlJPV059IC8+PGNpcmNsZSBjeD0iNTAiIGN5PSI3MCIgcj0iMyIgZmlsbD17QlJPV059IC8+CjwvPjsKY29uc3QgY2hhdEdseXBoID0gPD4KICA8cGF0aCBkPSJNMjQgMjQgSDc2IGExNSAxNSAwIDAgMSAxNSAxNSB2MTMgYTE1IDE1IDAgMCAxIC0xNSAxNSBINTYgbC02IDEwIC02IC0xMCBIMjQgYTE1IDE1IDAgMCAxIC0xNSAtMTUgdi0xMyBhMTUgMTUgMCAwIDEgMTUgLTE1WiIgZmlsbD17Q1JFQU19IC8+CiAgPGNpcmNsZSBjeD0iMzIiIGN5PSI0NS41IiByPSI2IiBmaWxsPXtCUk9XTn0gLz48Y2lyY2xlIGN4PSI1MCIgY3k9IjQ1LjUiIHI9IjYiIGZpbGw9e0JST1dOfSAvPjxjaXJjbGUgY3g9IjY4IiBjeT0iNDUuNSIgcj0iNiIgZmlsbD17QlJPV059IC8+CjwvPjsKY29uc3QgY2FsR2x5cGggPSA8PgogIDxyZWN0IHg9IjIyIiB5PSIyNiIgd2lkdGg9IjU2IiBoZWlnaHQ9IjU0IiByeD0iOCIgZmlsbD17Q1JFQU19IC8+CiAgPHJlY3QgeD0iMjIiIHk9IjI2IiB3aWR0aD0iNTYiIGhlaWdodD0iMTYiIHJ4PSI4IiBmaWxsPSIjRkM3MzZEIiAvPgogIDxyZWN0IHg9IjMzIiB5PSIyMCIgd2lkdGg9IjYiIGhlaWdodD0iMTQiIHJ4PSIzIiBmaWxsPXtCUk9XTn0gLz48cmVjdCB4PSI2MSIgeT0iMjAiIHdpZHRoPSI2IiBoZWlnaHQ9IjE0IiByeD0iMyIgZmlsbD17QlJPV059IC8+CiAgPGNpcmNsZSBjeD0iMzgiIGN5PSI1NiIgcj0iNCIgZmlsbD17QlJPV059IC8+PGNpcmNsZSBjeD0iNTIiIGN5PSI1NiIgcj0iNCIgZmlsbD17QlJPV059IC8+PGNpcmNsZSBjeD0iNjYiIGN5PSI1NiIgcj0iNCIgZmlsbD0iI0I3QTk4QyIgLz4KPC8+Owpjb25zdCBoYW5kR2x5cGggPSA8PgogIDxjaXJjbGUgY3g9IjQ2IiBjeT0iNjIiIHI9IjIyIiBmaWxsPXtDUkVBTX0gLz4KICA8cmVjdCB4PSIzOCIgeT0iMjIiIHdpZHRoPSIxNSIgaGVpZ2h0PSI0MCIgcng9IjcuNSIgZmlsbD17Q1JFQU19IC8+CjwvPjsKY29uc3QgcmVmcmVzaEdseXBoID0gPD4KICA8cGF0aCBkPSJNMjggNTAgQTIyIDIyIDAgMSAxIDM4IDY5IiBmaWxsPSJub25lIiBzdHJva2U9e0NSRUFNfSBzdHJva2VXaWR0aD0iOCIgc3Ryb2tlTGluZWNhcD0icm91bmQiIC8+CiAgPHBhdGggZD0iTTIyIDMyIEwzNCAzMiBMMjggNDZaIiBmaWxsPXtDUkVBTX0gLz4KPC8+Owpjb25zdCBzbGlkZXJzR2x5cGggPSA8PgogIDxyZWN0IHg9IjIyIiB5PSIzMyIgd2lkdGg9IjU2IiBoZWlnaHQ9IjYiIHJ4PSIzIiBmaWxsPXtDUkVBTX0gLz48Y2lyY2xlIGN4PSI2MiIgY3k9IjM2IiByPSI4IiBmaWxsPXtDUkVBTX0gc3Ryb2tlPXtCUk9XTn0gc3Ryb2tlV2lkdGg9IjMuNSIgLz4KICA8cmVjdCB4PSIyMiIgeT0iNTAiIHdpZHRoPSI1NiIgaGVpZ2h0PSI2IiByeD0iMyIgZmlsbD17Q1JFQU19IC8+PGNpcmNsZSBjeD0iMzgiIGN5PSI1MyIgcj0iOCIgZmlsbD17Q1JFQU19IHN0cm9rZT17QlJPV059IHN0cm9rZVdpZHRoPSIzLjUiIC8+CiAgPHJlY3QgeD0iMjIiIHk9IjY3IiB3aWR0aD0iNTYiIGhlaWdodD0iNiIgcng9IjMiIGZpbGw9e0NSRUFNfSAvPjxjaXJjbGUgY3g9IjY2IiBjeT0iNzAiIHI9IjgiIGZpbGw9e0NSRUFNfSBzdHJva2U9e0JST1dOfSBzdHJva2VXaWR0aD0iMy41IiAvPgo8Lz47CmNvbnN0IGJvb2tHbHlwaDIgPSA8PgogIDxwYXRoIGQ9Ik01MCAzMCBDNDIgMjQgMjggMjQgMjEgMjggVjc1IEMyOCA3MSA0MiA3MSA1MCA3NyBDNTggNzEgNzIgNzEgNzkgNzUgVjI4IEM3MiAyNCA1OCAyNCA1MCAzMFoiIGZpbGw9e0NSRUFNfSAvPgogIDxwYXRoIGQ9Ik01MCAzMCBWNzciIHN0cm9rZT17QlJPV059IHN0cm9rZVdpZHRoPSIzLjUiIC8+CjwvPjsKCmNvbnN0IGJ1cmdlckdseXBoID0gPD4KICA8cmVjdCB4PSIyNCIgeT0iMzQiIHdpZHRoPSI1MiIgaGVpZ2h0PSIxMSIgcng9IjUuNSIgZmlsbD17Q1JFQU19IC8+CiAgPHJlY3QgeD0iMjYiIHk9IjQ3IiB3aWR0aD0iNDgiIGhlaWdodD0iNiIgcng9IjMiIGZpbGw9IiNhMDZhMzAiIC8+CiAgPHJlY3QgeD0iMjQiIHk9IjU1IiB3aWR0aD0iNTIiIGhlaWdodD0iMTEiIHJ4PSI1LjUiIGZpbGw9e0NSRUFNfSAvPgo8Lz47CmNvbnN0IGNvZGVHbHlwaCA9IDw+CiAgPHBhdGggZD0iTTQwIDM2IEwyNiA1MCBMNDAgNjQiIHN0cm9rZT17Q1JFQU19IHN0cm9rZVdpZHRoPSI3IiBmaWxsPSJub25lIiBzdHJva2VMaW5lY2FwPSJyb3VuZCIgc3Ryb2tlTGluZWpvaW49InJvdW5kIiAvPgogIDxwYXRoIGQ9Ik02MCAzNiBMNzQgNTAgTDYwIDY0IiBzdHJva2U9e0NSRUFNfSBzdHJva2VXaWR0aD0iNyIgZmlsbD0ibm9uZSIgc3Ryb2tlTGluZWNhcD0icm91bmQiIHN0cm9rZUxpbmVqb2luPSJyb3VuZCIgLz4KICA8bGluZSB4MT0iNTUiIHkxPSIzMiIgeDI9IjQ1IiB5Mj0iNjgiIHN0cm9rZT17Q1JFQU19IHN0cm9rZVdpZHRoPSI2IiBzdHJva2VMaW5lY2FwPSJyb3VuZCIgLz4KPC8+Owpjb25zdCBsZWFmR2x5cGggPSA8PgogIDxwYXRoIGQ9Ik01MCAxNCBDNzIgMjQgODAgNTAgNzAgNzYgQzY2IDg0IDU2IDg3IDUwIDg0IEM0NCA4NyAzNCA4NCAzMCA3NiBDMjAgNTAgMjggMjQgNTAgMTRaIiBmaWxsPXtDUkVBTX0gLz4KICA8cGF0aCBkPSJNNTAgMjIgVjc5IiBzdHJva2U9e0JST1dOfSBzdHJva2VXaWR0aD0iNCIgc3Ryb2tlTGluZWNhcD0icm91bmQiIC8+CiAgPHBhdGggZD0iTTUwIDQyIEw2NSAzNCBNNTAgNTYgTDM1IDQ4IiBzdHJva2U9e0JST1dOfSBzdHJva2VXaWR0aD0iMy41IiBzdHJva2VMaW5lY2FwPSJyb3VuZCIgLz4KPC8+OwoKY29uc3QgQUNUSU9OX1RJTEVTOiBSZWNvcmQ8c3RyaW5nLCB7IGNvbG9yOiBzdHJpbmc7IGJib3g6IFtudW1iZXIsIG51bWJlciwgbnVtYmVyLCBudW1iZXJdOyBnbHlwaDogUmVhY3QuUmVhY3ROb2RlIH0+ID0gewogIG1jZDogeyBjb2xvcjogJyNGN0NENjcnLCBiYm94OiBbMjQsIDM0LCA3NiwgNjZdLCBnbHlwaDogYnVyZ2VyR2x5cGggfSwKICBodG1sOiB7IGNvbG9yOiAnI0I3N0RFRScsIGJib3g6IFsyNCwgMzIsIDc0LCA2OF0sIGdseXBoOiBjb2RlR2x5cGggfSwKICB0aGlua2luZzogeyBjb2xvcjogJyM4ODlERjAnLCBiYm94OiBbMzAsIDE0LCA3MCwgODRdLCBnbHlwaDogbGVhZkdseXBoIH0sCiAgdHJhbnNmZXI6IHsgY29sb3I6ICcjRjdDRDY3JywgYmJveDogWzIwLCAyNywgODAsIDg3XSwgZ2x5cGg6IGJhZ0dseXBoIH0sCiAgcG9rZTogeyBjb2xvcjogJyNGOEE2QjInLCBiYm94OiBbMjQsIDIyLCA2OCwgODRdLCBnbHlwaDogaGFuZEdseXBoIH0sCiAgYXJjaGl2ZTogeyBjb2xvcjogJyNCNzdERUUnLCBiYm94OiBbMjEsIDI0LCA3OSwgNzddLCBnbHlwaDogYm9va0dseXBoMiB9LAogIHNldHRpbmdzOiB7IGNvbG9yOiAnIzlBODM1QScsIGJib3g6IFsyMCwgMjgsIDgwLCA3OF0sIGdseXBoOiBzbGlkZXJzR2x5cGggfSwKICBpbWFnZTogeyBjb2xvcjogJyM4MkQ1QkInLCBiYm94OiBbMTcsIDI1LCA4MywgNzldLCBnbHlwaDogY2FtR2x5cGgoJyNGQzczNkQnKSB9LAogIHJlZ2VuZXJhdGU6IHsgY29sb3I6ICcjODg5REYwJywgYmJveDogWzIyLCAyNSwgNzYsIDc3XSwgZ2x5cGg6IHJlZnJlc2hHbHlwaCB9LAogIHByb2FjdGl2ZTogeyBjb2xvcjogJyM4QUM2OEEnLCBiYm94OiBbOSwgMjQsIDkxLCA3Ml0sIGdseXBoOiBjaGF0R2x5cGggfSwKICBzY2hlZHVsZTogeyBjb2xvcjogJyNGQzczNkQnLCBiYm94OiBbMjIsIDIwLCA3OCwgODBdLCBnbHlwaDogY2FsR2x5cGggfSwKfTsKCmV4cG9ydCBjb25zdCBBY25oQWN0aW9uVGlsZTogUmVhY3QuRkM8eyBraW5kOiBzdHJpbmcgfT4gPSAoeyBraW5kIH0pID0+IHsKICBjb25zdCBhID0gQUNUSU9OX1RJTEVTW2tpbmRdOwogIGlmICghYSkgcmV0dXJuIG51bGw7CiAgcmV0dXJuICgKICAgIDxkaXYgY2xhc3NOYW1lPSJ3LTE0IGgtMTQgZmxleCBpdGVtcy1jZW50ZXIganVzdGlmeS1jZW50ZXIgb3ZlcmZsb3ctaGlkZGVuIiBzdHlsZT17eyBiYWNrZ3JvdW5kOiBhLmNvbG9yLCBib3JkZXJSYWRpdXM6ICczMCUnIH19PgogICAgICA8ZGl2IGNsYXNzTmFtZT0idy1bNjYlXSBoLVs2NiVdIj57ZHJhdyhhLmJib3gsIGEuZ2x5cGgpfTwvZGl2PgogICAgPC9kaXY+CiAgKTsKfTsK
+import React from 'react';
+import { AppID } from '../../types';
+
+// 动森(NookPhone)风格 App 图标 —— 填充式多色 SVG：奶油底 + 暖棕圆头描边 + 单个强调色。
+// 风格参照 animal-island-ui 仓库的 icon-chat / icon-variant（实心圆角几何 + 可爱表情）。
+// 关键：每个图标传入自身包围盒 bbox，draw() 自动缩放居中到统一光学尺寸 —— 所有图标一样大。
+const CREAM = '#FBF7EA';
+const BROWN = '#5E483B';
+
+// 统一目标：把图标内容缩放并居中，使其最长边占满 viewBox 的 TARGET（100 为满）。
+const TARGET = 80;
+const draw = (bbox: [number, number, number, number], children: React.ReactNode) => {
+  const [x0, y0, x1, y1] = bbox;
+  const w = x1 - x0, h = y1 - y0;
+  const s = TARGET / Math.max(w, h);
+  const tx = 50 - s * (x0 + w / 2);
+  const ty = 50 - s * (y0 + h / 2);
+  return (
+    <svg viewBox="0 0 100 100" className="w-full h-full">
+      <g transform={`translate(${tx} ${ty}) scale(${s})`}>{children}</g>
+    </svg>
+  );
+};
+
+const leaf = draw([25, 12, 75, 89], <>
+  <path d="M50 12 C76 23 86 50 75 79 C71 89 58 93 50 89 C42 93 29 89 25 79 C14 50 24 23 50 12Z" fill={CREAM} />
+  <path d="M50 22 V83" stroke={BROWN} strokeWidth="4.5" strokeLinecap="round" />
+  <path d="M50 42 L68 33 M50 57 L32 48 M50 70 L64 63" stroke={BROWN} strokeWidth="4" strokeLinecap="round" />
+</>);
+
+const faceGlyph = <>
+  <path d="M50 22 C58 15 68 19 65 28 C57 31 50 29 50 22Z" fill="#7CC36B" />
+  <circle cx="50" cy="56" r="30" fill={CREAM} />
+  <circle cx="40" cy="52" r="4.2" fill={BROWN} /><circle cx="60" cy="52" r="4.2" fill={BROWN} />
+  <circle cx="32" cy="60" r="4.5" fill="#F6A8B8" /><circle cx="68" cy="60" r="4.5" fill="#F6A8B8" />
+  <path d="M40 64 Q50 73 60 64" stroke={BROWN} strokeWidth="4.5" fill="none" strokeLinecap="round" />
+</>;
+const bookGlyph = <>
+  <path d="M50 30 C42 24 28 24 21 28 V75 C28 71 42 71 50 77 C58 71 72 71 79 75 V28 C72 24 58 24 50 30Z" fill={CREAM} />
+  <path d="M50 30 V77" stroke={BROWN} strokeWidth="3.5" />
+</>;
+const camGlyph = (lens: string) => <>
+  <path d="M37 33 L43 25 H57 L63 33Z" fill={CREAM} />
+  <rect x="17" y="33" width="66" height="46" rx="11" fill={CREAM} />
+  <circle cx="50" cy="56" r="14" fill={lens} /><circle cx="50" cy="56" r="6.5" fill={CREAM} />
+  <circle cx="71" cy="44" r="3.5" fill="#F7CD67" />
+</>;
+const musicGlyph = <>
+  <rect x="56" y="22" width="6.5" height="44" rx="3.2" fill={CREAM} />
+  <path d="M62 22 C74 24 80 31 77 42 C75 35 68 32 62 35Z" fill={CREAM} />
+  <ellipse cx="48" cy="66" rx="13" ry="10" fill={CREAM} transform="rotate(-18 48 66)" />
+</>;
+const starGlyph = <path d="M50 14 L61 39 L88 41 L67 60 L74 87 L50 72 L26 87 L33 60 L12 41 L39 39Z" fill={CREAM} />;
+const paletteGlyph = <>
+  <path d="M50 20 C73 20 84 35 84 50 C84 62 74 64 68 64 C62 64 60 70 64 76 C66 80 62 84 54 84 C30 84 16 68 16 50 C16 33 30 20 50 20Z" fill={CREAM} />
+  <circle cx="38" cy="42" r="5" fill="#FC736D" /><circle cx="55" cy="36" r="5" fill="#F7CD67" /><circle cx="66" cy="48" r="5" fill="#82D5BB" />
+</>;
+
+const ACNH_ICON_MAP: Partial<Record<AppID, React.ReactNode>> = {
+  [AppID.Chat]: draw([9, 24, 91, 72], <>
+    <path d="M24 24 H76 a15 15 0 0 1 15 15 v13 a15 15 0 0 1 -15 15 H56 l-6 10 -6 -10 H24 a15 15 0 0 1 -15 -15 v-13 a15 15 0 0 1 15 -15Z" fill={CREAM} />
+    <circle cx="32" cy="45.5" r="6" fill={BROWN} /><circle cx="50" cy="45.5" r="6" fill={BROWN} /><circle cx="68" cy="45.5" r="6" fill={BROWN} />
+  </>),
+  [AppID.Character]: draw([20, 15, 80, 86], faceGlyph),
+  [AppID.LifeSim]: draw([20, 15, 80, 86], faceGlyph),
+  [AppID.MemoryPalace]: draw([14, 18, 86, 84], <>
+    <path d="M50 18 L86 46 H14 Z" fill={CREAM} />
+    <rect x="24" y="46" width="52" height="38" rx="5" fill={CREAM} />
+    <rect x="42" y="60" width="16" height="24" rx="3" fill={BROWN} />
+    <rect x="30" y="52" width="9" height="9" rx="2" fill="#82D5BB" /><rect x="61" y="52" width="9" height="9" rx="2" fill="#82D5BB" />
+  </>),
+  [AppID.Call]: draw([23, 20, 82, 83],
+    <path d="M30 20 C25 20 20 25 23 35 C30 60 42 73 67 80 C77 83 82 78 82 73 L73 60 C70 56 65 55 61 58 L56 61 C47 56 44 53 39 44 L42 39 C45 35 44 30 40 27 Z" fill={CREAM} />
+  ),
+  [AppID.Room]: draw([16, 22, 84, 80], <>
+    <path d="M50 22 L84 80 H16 Z" fill={CREAM} />
+    <path d="M50 42 L68 80 H32 Z" fill={BROWN} />
+    <path d="M50 42 V80" stroke={CREAM} strokeWidth="3.5" />
+  </>),
+  [AppID.CheckPhone]: draw([31, 16, 69, 84], <>
+    <rect x="31" y="16" width="38" height="68" rx="11" fill={CREAM} />
+    <rect x="37" y="25" width="26" height="42" rx="4" fill="#82D5BB" />
+    <circle cx="50" cy="75" r="3.6" fill={BROWN} />
+  </>),
+  [AppID.Date]: draw([14, 17, 86, 82],
+    <path d="M50 82 C22 60 14 46 14 33 C14 23 22 17 31 17 C39 17 46 21 50 30 C54 21 61 17 69 17 C78 17 86 23 86 33 C86 46 78 60 50 82Z" fill={CREAM} />
+  ),
+  [AppID.User]: draw([25, 18, 75, 82], <>
+    <rect x="25" y="18" width="50" height="64" rx="7" fill={CREAM} />
+    <circle cx="50" cy="42" r="12" fill="#F7CD67" />
+    <circle cx="46" cy="41" r="2.2" fill={BROWN} /><circle cx="54" cy="41" r="2.2" fill={BROWN} />
+    <path d="M45 47 Q50 51 55 47" stroke={BROWN} strokeWidth="2.4" fill="none" strokeLinecap="round" />
+    <rect x="34" y="62" width="32" height="5" rx="2.5" fill={BROWN} /><rect x="38" y="71" width="24" height="5" rx="2.5" fill="#B7A98C" />
+  </>),
+  [AppID.Bank]: draw([20, 27, 80, 87], <>
+    <path d="M37 35 Q50 27 63 35 C77 46 80 67 69 79 C61 87 39 87 31 79 C20 67 23 46 37 35Z" fill={CREAM} />
+    <path d="M41 31 L59 31 L55 40 L45 40Z" fill={BROWN} />
+    <path d="M50 50 C43 50 39 56 39 63 H61 C61 56 57 50 50 50Z" fill="#F7CD67" />
+    <rect x="46" y="63" width="8" height="3.5" fill={BROWN} /><circle cx="50" cy="70" r="3" fill={BROWN} />
+  </>),
+  [AppID.GroupChat]: draw([17, 31, 83, 73], <>
+    <circle cx="64" cy="52" r="19" fill="#EFE6CF" /><circle cx="38" cy="52" r="21" fill={CREAM} />
+    <circle cx="31" cy="50" r="3.4" fill={BROWN} /><circle cx="45" cy="50" r="3.4" fill={BROWN} />
+    <path d="M31 58 Q38 64 45 58" stroke={BROWN} strokeWidth="3.4" fill="none" strokeLinecap="round" />
+  </>),
+  [AppID.Social]: draw([29, 16, 71, 86], <>
+    <path d="M52 16 C60 33 76 38 71 59 C68 78 58 86 50 86 C41 86 29 79 29 60 C29 47 40 45 42 34 C47 43 49 39 52 16Z" fill={CREAM} />
+    <path d="M51 46 C55 55 61 57 58 67 C56 75 53 79 50 79 C46 79 42 74 42 64 C42 57 47 55 48 50Z" fill="#F7CD67" />
+  </>),
+  [AppID.Settings]: draw([20, 28, 80, 78], <>
+    <rect x="22" y="33" width="56" height="6" rx="3" fill={CREAM} /><circle cx="62" cy="36" r="8" fill={CREAM} stroke={BROWN} strokeWidth="3.5" />
+    <rect x="22" y="50" width="56" height="6" rx="3" fill={CREAM} /><circle cx="38" cy="53" r="8" fill={CREAM} stroke={BROWN} strokeWidth="3.5" />
+    <rect x="22" y="67" width="56" height="6" rx="3" fill={CREAM} /><circle cx="66" cy="70" r="8" fill={CREAM} stroke={BROWN} strokeWidth="3.5" />
+  </>),
+  [AppID.Gallery]: draw([17, 25, 83, 79], camGlyph('#82D5BB')),
+  [AppID.XhsStock]: draw([17, 25, 83, 79], camGlyph('#FC736D')),
+  [AppID.Music]: draw([35, 22, 80, 76], musicGlyph),
+  [AppID.Songwriting]: draw([35, 22, 80, 76], musicGlyph),
+  [AppID.Game]: draw([18, 40, 82, 70], <>
+    <rect x="18" y="40" width="64" height="30" rx="15" fill={CREAM} />
+    <rect x="30" y="52" width="14" height="5" rx="2.5" fill={BROWN} /><rect x="34.5" y="47.5" width="5" height="14" rx="2.5" fill={BROWN} />
+    <circle cx="64" cy="50" r="4" fill="#FC736D" /><circle cx="72" cy="58" r="4" fill="#82D5BB" />
+  </>),
+  [AppID.Journal]: draw([21, 24, 79, 77], bookGlyph),
+  [AppID.Novel]: draw([21, 24, 79, 77], bookGlyph),
+  [AppID.Study]: draw([21, 24, 79, 77], bookGlyph),
+  [AppID.Worldbook]: draw([21, 24, 79, 77], bookGlyph),
+  [AppID.Guidebook]: draw([21, 24, 79, 77], bookGlyph),
+  [AppID.Schedule]: draw([22, 20, 78, 80], <>
+    <rect x="22" y="26" width="56" height="54" rx="8" fill={CREAM} />
+    <rect x="22" y="26" width="56" height="16" rx="8" fill="#FC736D" />
+    <rect x="33" y="20" width="6" height="14" rx="3" fill={BROWN} /><rect x="61" y="20" width="6" height="14" rx="3" fill={BROWN} />
+    <circle cx="38" cy="56" r="4" fill={BROWN} /><circle cx="52" cy="56" r="4" fill={BROWN} /><circle cx="66" cy="56" r="4" fill="#B7A98C" />
+    <circle cx="38" cy="69" r="4" fill="#B7A98C" /><circle cx="52" cy="69" r="4" fill={BROWN} />
+  </>),
+  [AppID.SpecialMoments]: draw([12, 14, 88, 87], starGlyph),
+  [AppID.VRWorld]: draw([12, 14, 88, 87], starGlyph),
+  [AppID.Appearance]: draw([16, 20, 84, 84], paletteGlyph),
+  [AppID.ThemeMaker]: draw([16, 20, 84, 84], paletteGlyph),
+  [AppID.HotNews]: draw([20, 26, 80, 76], <>
+    <rect x="20" y="26" width="60" height="50" rx="6" fill={CREAM} />
+    <rect x="27" y="34" width="22" height="16" rx="3" fill="#B7A98C" />
+    <rect x="54" y="34" width="20" height="4" rx="2" fill={BROWN} /><rect x="54" y="43" width="20" height="4" rx="2" fill={BROWN} />
+    <rect x="27" y="56" width="46" height="4" rx="2" fill={BROWN} /><rect x="27" y="64" width="36" height="4" rx="2" fill="#B7A98C" />
+  </>),
+};
+
+export const getAcnhIcon = (appId: string): React.ReactNode =>
+  ACNH_ICON_MAP[appId as AppID] ?? leaf;
+
+// --- 聊天「+」面板动作图标（动森瓦片：彩色圆角方块 + 奶油 glyph）---
+const bagGlyph = <>
+  <path d="M37 35 Q50 27 63 35 C77 46 80 67 69 79 C61 87 39 87 31 79 C20 67 23 46 37 35Z" fill={CREAM} />
+  <path d="M41 31 L59 31 L55 40 L45 40Z" fill={BROWN} />
+  <path d="M50 50 C43 50 39 56 39 63 H61 C61 56 57 50 50 50Z" fill="#F7CD67" />
+  <rect x="46" y="63" width="8" height="3.5" fill={BROWN} /><circle cx="50" cy="70" r="3" fill={BROWN} />
+</>;
+const chatGlyph = <>
+  <path d="M24 24 H76 a15 15 0 0 1 15 15 v13 a15 15 0 0 1 -15 15 H56 l-6 10 -6 -10 H24 a15 15 0 0 1 -15 -15 v-13 a15 15 0 0 1 15 -15Z" fill={CREAM} />
+  <circle cx="32" cy="45.5" r="6" fill={BROWN} /><circle cx="50" cy="45.5" r="6" fill={BROWN} /><circle cx="68" cy="45.5" r="6" fill={BROWN} />
+</>;
+const calGlyph = <>
+  <rect x="22" y="26" width="56" height="54" rx="8" fill={CREAM} />
+  <rect x="22" y="26" width="56" height="16" rx="8" fill="#FC736D" />
+  <rect x="33" y="20" width="6" height="14" rx="3" fill={BROWN} /><rect x="61" y="20" width="6" height="14" rx="3" fill={BROWN} />
+  <circle cx="38" cy="56" r="4" fill={BROWN} /><circle cx="52" cy="56" r="4" fill={BROWN} /><circle cx="66" cy="56" r="4" fill="#B7A98C" />
+</>;
+const handGlyph = <>
+  <circle cx="46" cy="62" r="22" fill={CREAM} />
+  <rect x="38" y="22" width="15" height="40" rx="7.5" fill={CREAM} />
+</>;
+const refreshGlyph = <>
+  <path d="M28 50 A22 22 0 1 1 38 69" fill="none" stroke={CREAM} strokeWidth="8" strokeLinecap="round" />
+  <path d="M22 32 L34 32 L28 46Z" fill={CREAM} />
+</>;
+const slidersGlyph = <>
+  <rect x="22" y="33" width="56" height="6" rx="3" fill={CREAM} /><circle cx="62" cy="36" r="8" fill={CREAM} stroke={BROWN} strokeWidth="3.5" />
+  <rect x="22" y="50" width="56" height="6" rx="3" fill={CREAM} /><circle cx="38" cy="53" r="8" fill={CREAM} stroke={BROWN} strokeWidth="3.5" />
+  <rect x="22" y="67" width="56" height="6" rx="3" fill={CREAM} /><circle cx="66" cy="70" r="8" fill={CREAM} stroke={BROWN} strokeWidth="3.5" />
+</>;
+const bookGlyph2 = <>
+  <path d="M50 30 C42 24 28 24 21 28 V75 C28 71 42 71 50 77 C58 71 72 71 79 75 V28 C72 24 58 24 50 30Z" fill={CREAM} />
+  <path d="M50 30 V77" stroke={BROWN} strokeWidth="3.5" />
+</>;
+
+const burgerGlyph = <>
+  <rect x="24" y="34" width="52" height="11" rx="5.5" fill={CREAM} />
+  <rect x="26" y="47" width="48" height="6" rx="3" fill="#a06a30" />
+  <rect x="24" y="55" width="52" height="11" rx="5.5" fill={CREAM} />
+</>;
+const codeGlyph = <>
+  <path d="M40 36 L26 50 L40 64" stroke={CREAM} strokeWidth="7" fill="none" strokeLinecap="round" strokeLinejoin="round" />
+  <path d="M60 36 L74 50 L60 64" stroke={CREAM} strokeWidth="7" fill="none" strokeLinecap="round" strokeLinejoin="round" />
+  <line x1="55" y1="32" x2="45" y2="68" stroke={CREAM} strokeWidth="6" strokeLinecap="round" />
+</>;
+const leafGlyph = <>
+  <path d="M50 14 C72 24 80 50 70 76 C66 84 56 87 50 84 C44 87 34 84 30 76 C20 50 28 24 50 14Z" fill={CREAM} />
+  <path d="M50 22 V79" stroke={BROWN} strokeWidth="4" strokeLinecap="round" />
+  <path d="M50 42 L65 34 M50 56 L35 48" stroke={BROWN} strokeWidth="3.5" strokeLinecap="round" />
+</>;
+
+const ACTION_TILES: Record<string, { color: string; bbox: [number, number, number, number]; glyph: React.ReactNode }> = {
+  mcd: { color: '#F7CD67', bbox: [24, 34, 76, 66], glyph: burgerGlyph },
+  html: { color: '#B77DEE', bbox: [24, 32, 74, 68], glyph: codeGlyph },
+  thinking: { color: '#889DF0', bbox: [30, 14, 70, 84], glyph: leafGlyph },
+  transfer: { color: '#F7CD67', bbox: [20, 27, 80, 87], glyph: bagGlyph },
+  poke: { color: '#F8A6B2', bbox: [24, 22, 68, 84], glyph: handGlyph },
+  archive: { color: '#B77DEE', bbox: [21, 24, 79, 77], glyph: bookGlyph2 },
+  settings: { color: '#9A835A', bbox: [20, 28, 80, 78], glyph: slidersGlyph },
+  image: { color: '#82D5BB', bbox: [17, 25, 83, 79], glyph: camGlyph('#FC736D') },
+  regenerate: { color: '#889DF0', bbox: [22, 25, 76, 77], glyph: refreshGlyph },
+  proactive: { color: '#8AC68A', bbox: [9, 24, 91, 72], glyph: chatGlyph },
+  schedule: { color: '#FC736D', bbox: [22, 20, 78, 80], glyph: calGlyph },
+};
+
+export const AcnhActionTile: React.FC<{ kind: string }> = ({ kind }) => {
+  const a = ACTION_TILES[kind];
+  if (!a) return null;
+  return (
+    <div className="w-14 h-14 flex items-center justify-center overflow-hidden" style={{ background: a.color, borderRadius: '30%' }}>
+      <div className="w-[66%] h-[66%]">{draw(a.bbox, a.glyph)}</div>
+    </div>
+  );
+};

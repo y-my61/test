@@ -1,1 +1,303 @@
-CmltcG9ydCB7IENoYXJhY3RlclByb2ZpbGUsIFVzZXJQcm9maWxlLCBTb25nU2hlZXQsIFNvbmdMaW5lLCBTb25nQ29tbWVudCwgU29uZ01vb2QsIFNvbmdHZW5yZSB9IGZyb20gJy4uL3R5cGVzJzsKaW1wb3J0IHsgQ29udGV4dEJ1aWxkZXIgfSBmcm9tICcuL2NvbnRleHQnOwoKLy8gLS0tIFNvbmcgR2VucmUgJiBNb29kIENvbmZpZyAtLS0KCmV4cG9ydCBjb25zdCBTT05HX0dFTlJFUzogeyBpZDogU29uZ0dlbnJlOyBsYWJlbDogc3RyaW5nOyBpY29uOiBzdHJpbmc7IGRlc2M6IHN0cmluZyB9W10gPSBbCiAgICB7IGlkOiAncG9wJywgbGFiZWw6ICfmtYHooYwnLCBpY29uOiAn8J+OpCcsIGRlc2M6ICfml4vlvovkvJjnvo7vvIzmnJfmnJfkuIrlj6MnIH0sCiAgICB7IGlkOiAncm9jaycsIGxhYmVsOiAn5pGH5ruaJywgaWNvbjogJ/CfjrgnLCBkZXNjOiAn54Ot6KGA5r6O5rmD77yM6IO96YeP54iG5Y+RJyB9LAogICAgeyBpZDogJ2JhbGxhZCcsIGxhYmVsOiAn5oqS5oOFJywgaWNvbjogJ/CfjrknLCBkZXNjOiAn5rip5p+U57uG6IW777yM5oOF5oSf5rex5rKJJyB9LAogICAgeyBpZDogJ3JhcCcsIGxhYmVsOiAn6K+05ZSxJywgaWNvbjogJ/CfjpnvuI8nLCBkZXNjOiAn6IqC5aWP6bKc5piO77yM5oq86Z+15Li6546LJyB9LAogICAgeyBpZDogJ2ZvbGsnLCBsYWJlbDogJ+awkeiwoycsIGljb246ICfwn6qVJywgZGVzYzogJ+actOWunuiHqueEtu+8jOivl+aEj+ebjueEticgfSwKICAgIHsgaWQ6ICdlbGVjdHJvbmljJywgbGFiZWw6ICfnlLXlrZAnLCBpY29uOiAn8J+Om++4jycsIGRlc2M6ICfoioLmi43lvLrng4jvvIzmsJvlm7TmhJ/otrMnIH0sCiAgICB7IGlkOiAnamF6eicsIGxhYmVsOiAn54i15aOrJywgaWNvbjogJ/CfjrcnLCBkZXNjOiAn5Y2z5YW05LyY6ZuF77yM6Ieq55Sx5rSS6ISxJyB9LAogICAgeyBpZDogJ3JuYicsIGxhYmVsOiAnUiZCJywgaWNvbjogJ/CfjrUnLCBkZXNjOiAn5b6L5Yqo5oW15oeS77yM54G16a2C5q2M5ZSxJyB9LAogICAgeyBpZDogJ2ZyZWUnLCBsYWJlbDogJ+iHqueUsScsIGljb246ICfinKgnLCBkZXNjOiAn5LiN6ZmQ6aOO5qC877yM6ZqP5b+D5omA5qyyJyB9LApdOwoKZXhwb3J0IGNvbnN0IFNPTkdfTU9PRFM6IHsgaWQ6IFNvbmdNb29kOyBsYWJlbDogc3RyaW5nOyBpY29uOiBzdHJpbmcgfVtdID0gWwogICAgeyBpZDogJ2hhcHB5JywgbGFiZWw6ICflv6vkuZAnLCBpY29uOiAn8J+YiicgfSwKICAgIHsgaWQ6ICdzYWQnLCBsYWJlbDogJ+W/p+S8pCcsIGljb246ICfwn6W6JyB9LAogICAgeyBpZDogJ3JvbWFudGljJywgbGFiZWw6ICfmtarmvKsnLCBpY29uOiAn8J+SlScgfSwKICAgIHsgaWQ6ICdhbmdyeScsIGxhYmVsOiAn5oSk5oCSJywgaWNvbjogJ/CflKUnIH0sCiAgICB7IGlkOiAnY2hpbGwnLCBsYWJlbDogJ+aUvuadvicsIGljb246ICfimIHvuI8nIH0sCiAgICB7IGlkOiAnZXBpYycsIGxhYmVsOiAn5Y+y6K+XJywgaWNvbjogJ+KalO+4jycgfSwKICAgIHsgaWQ6ICdub3N0YWxnaWMnLCBsYWJlbDogJ+aAgOaXpycsIGljb246ICfwn5O7JyB9LAogICAgeyBpZDogJ2RyZWFteScsIGxhYmVsOiAn5qKm5bm7JywgaWNvbjogJ/CfjJknIH0sCl07CgpleHBvcnQgY29uc3QgU0VDVElPTl9MQUJFTFM6IFJlY29yZDxzdHJpbmcsIHsgbGFiZWw6IHN0cmluZzsgZGVzYzogc3RyaW5nOyBjb2xvcjogc3RyaW5nIH0+ID0gewogICAgJ2ludHJvJzogeyBsYWJlbDogJ+WJjeWljy/lvJXlhaUnLCBkZXNjOiAn5q2M5puy55qE5byA5Zy655m977yM5byV5Lq65YWl6IOcJywgY29sb3I6ICdiZy1zdG9uZS0yMDAvNjAgdGV4dC1zdG9uZS02MDAnIH0sCiAgICAndmVyc2UnOiB7IGxhYmVsOiAn5Li75q2MJywgZGVzYzogJ+WPmeS6i+mDqOWIhu+8jOmTuuWeq+aDheaEnycsIGNvbG9yOiAnYmctYW1iZXItMTAwLzUwIHRleHQtYW1iZXItNzAwJyB9LAogICAgJ3ByZS1jaG9ydXMnOiB7IGxhYmVsOiAn5a+85q2MJywgZGVzYzogJ+i/h+a4oeWIsOWJr+atjOeahOahpeautScsIGNvbG9yOiAnYmctcm9zZS0xMDAvNTAgdGV4dC1yb3NlLTYwMCcgfSwKICAgICdjaG9ydXMnOiB7IGxhYmVsOiAn5Ymv5q2MJywgZGVzYzogJ+acgOaguOW/g+eahOaXi+W+i+WSjOaDheaEn+mrmOa9ricsIGNvbG9yOiAnYmctcmVkLTEwMC81MCB0ZXh0LXJlZC03MDAnIH0sCiAgICAnYnJpZGdlJzogeyBsYWJlbDogJ+ahpeautScsIGRlc2M6ICfovazmipjlj5jljJbvvIzluKbmnaXmlrDop4bop5InLCBjb2xvcjogJ2JnLXN0b25lLTIwMC81MCB0ZXh0LXN0b25lLTUwMCcgfSwKICAgICdvdXRybyc6IHsgbGFiZWw6ICflsL7lo7AnLCBkZXNjOiAn5q2M5puy55qE57uT5p2f5LiO5Zue5ZGzJywgY29sb3I6ICdiZy1uZXV0cmFsLTIwMC81MCB0ZXh0LW5ldXRyYWwtNTAwJyB9LAogICAgJ2ZyZWUnOiB7IGxhYmVsOiAn6Ieq55Sx5q616JC9JywgZGVzYzogJ+S4jemZkOWumuS9jee9ru+8jOmaj+W/g+WGmScsIGNvbG9yOiAnYmctb3JhbmdlLTEwMC81MCB0ZXh0LW9yYW5nZS02MDAnIH0sCn07CgpleHBvcnQgY29uc3QgQ09WRVJfU1RZTEVTOiB7IGlkOiBzdHJpbmc7IGxhYmVsOiBzdHJpbmc7IGdyYWRpZW50OiBzdHJpbmc7IHRleHQ6IHN0cmluZyB9W10gPSBbCiAgICB7IGlkOiAna3JhZnQtcGFwZXInLCBsYWJlbDogJ+eJm+earuS/oeWwgScsIGdyYWRpZW50OiAnZnJvbS1hbWJlci01MCB2aWEtb3JhbmdlLTUwIHRvLWFtYmVyLTEwMCcsIHRleHQ6ICd0ZXh0LXN0b25lLTgwMCcgfSwKICAgIHsgaWQ6ICdvbGQtcGhvdG8nLCBsYWJlbDogJ+aXp+eFp+eJhycsIGdyYWRpZW50OiAnZnJvbS1hbWJlci0xMDAgdmlhLXllbGxvdy01MCB0by1zdG9uZS0xMDAnLCB0ZXh0OiAndGV4dC1zdG9uZS03MDAnIH0sCiAgICB7IGlkOiAnaW5rLXdhc2gnLCBsYWJlbDogJ+awtOWiqCcsIGdyYWRpZW50OiAnZnJvbS1zdG9uZS0xMDAgdmlhLXNsYXRlLTIwMCB0by1zdG9uZS0zMDAnLCB0ZXh0OiAndGV4dC1zdG9uZS04MDAnIH0sCiAgICB7IGlkOiAnZHJpZWQtcm9zZScsIGxhYmVsOiAn5bmy54el6IqxJywgZ3JhZGllbnQ6ICdmcm9tLXJvc2UtNTAgdmlhLXJvc2UtMTAwIHRvLXN0b25lLTEwMCcsIHRleHQ6ICd0ZXh0LXN0b25lLTcwMCcgfSwKICAgIHsgaWQ6ICdtaWRuaWdodCcsIGxhYmVsOiAn5rex5aSc5omL6K6wJywgZ3JhZGllbnQ6ICdmcm9tLXN0b25lLTgwMCB2aWEtc3RvbmUtOTAwIHRvLW5ldXRyYWwtOTAwJywgdGV4dDogJ3RleHQtc3RvbmUtMjAwJyB9LAogICAgeyBpZDogJ2xpbmVuJywgbGFiZWw6ICfkuprpurvnmb0nLCBncmFkaWVudDogJ2Zyb20tc3RvbmUtNTAgdmlhLW5ldXRyYWwtNTAgdG8tc3RvbmUtMTAwJywgdGV4dDogJ3RleHQtc3RvbmUtNzAwJyB9LAogICAgeyBpZDogJ3RlYS1zdGFpbicsIGxhYmVsOiAn6Iy25riNJywgZ3JhZGllbnQ6ICdmcm9tLW9yYW5nZS01MCB2aWEtYW1iZXItNTAgdG8teWVsbG93LTUwJywgdGV4dDogJ3RleHQtc3RvbmUtNzAwJyB9LAogICAgeyBpZDogJ2ZvcmVzdCcsIGxhYmVsOiAn5p2+5p6XJywgZ3JhZGllbnQ6ICdmcm9tLXN0b25lLTIwMCB2aWEtZW1lcmFsZC01MCB0by1zdG9uZS0xMDAnLCB0ZXh0OiAndGV4dC1zdG9uZS03MDAnIH0sCl07CgovLyAtLS0gTHlyaWMgU3RydWN0dXJlIFRlbXBsYXRlcyAtLS0KLy8g57uZ5YaZ5q2MIEFwcCDkuIDkuKoi5oyJ5LmQ55CG5p2lIueahOe7k+aehOmqqOaetu+8jOmBv+WFjeinkuiJsi/nlKjmiLfnno7lhpnjgIIKLy8g5q+P5q61IHNlY3Rpb24g5pyJ5o6o6I2Q55qE6KGM5pWwICsg5q+P6KGM5a2X5pWw6IyD5Zu044CCCgpleHBvcnQgaW50ZXJmYWNlIEx5cmljVGVtcGxhdGVTZWN0aW9uIHsKICAgIHNlY3Rpb246ICdpbnRybycgfCAndmVyc2UnIHwgJ3ByZS1jaG9ydXMnIHwgJ2Nob3J1cycgfCAnYnJpZGdlJyB8ICdvdXRybyc7CiAgICBsaW5lczogbnVtYmVyOyAgICAgICAgLy8g5o6o6I2Q6KGM5pWwCiAgICBjaGFyczogc3RyaW5nOyAgICAgICAgLy8g5o6o6I2Q5q+P6KGM5a2X5pWw77yI5Yy66Ze05a2X56ym5Liy5aaCICI3LTEyIu+8iQp9CgpleHBvcnQgaW50ZXJmYWNlIEx5cmljVGVtcGxhdGUgewogICAgaWQ6IHN0cmluZzsKICAgIGxhYmVsOiBzdHJpbmc7CiAgICBpY29uOiBzdHJpbmc7CiAgICBkZXNjOiBzdHJpbmc7ICAgICAgICAvLyDkuIDlj6Xor53mj4/ov7AKICAgIHN0cnVjdHVyZTogTHlyaWNUZW1wbGF0ZVNlY3Rpb25bXTsKfQoKZXhwb3J0IGNvbnN0IExZUklDX1RFTVBMQVRFUzogTHlyaWNUZW1wbGF0ZVtdID0gWwogICAgewogICAgICAgIGlkOiAnZnJlZScsCiAgICAgICAgbGFiZWw6ICfoh6rnlLEnLAogICAgICAgIGljb246ICfinKYnLAogICAgICAgIGRlc2M6ICfkuI3pmZDnu5PmnoTvvIzku47nqbrnmb3lvIDlp4snLAogICAgICAgIHN0cnVjdHVyZTogW10sCiAgICB9LAogICAgewogICAgICAgIGlkOiAncG9wLWNsYXNzaWMnLAogICAgICAgIGxhYmVsOiAn5rWB6KGM57uP5YW4JywKICAgICAgICBpY29uOiAn4peQJywKICAgICAgICBkZXNjOiAn5Li75q2MLeWJr+atjC3kuLvmrYwt5Ymv5q2MLeahpeautS3lia/mrYwnLAogICAgICAgIHN0cnVjdHVyZTogWwogICAgICAgICAgICB7IHNlY3Rpb246ICd2ZXJzZScsICBsaW5lczogNCwgY2hhcnM6ICc3LTEyJyB9LAogICAgICAgICAgICB7IHNlY3Rpb246ICdjaG9ydXMnLCBsaW5lczogNCwgY2hhcnM6ICc2LTEwJyB9LAogICAgICAgICAgICB7IHNlY3Rpb246ICd2ZXJzZScsICBsaW5lczogNCwgY2hhcnM6ICc3LTEyJyB9LAogICAgICAgICAgICB7IHNlY3Rpb246ICdjaG9ydXMnLCBsaW5lczogNCwgY2hhcnM6ICc2LTEwJyB9LAogICAgICAgICAgICB7IHNlY3Rpb246ICdicmlkZ2UnLCBsaW5lczogNCwgY2hhcnM6ICc3LTEwJyB9LAogICAgICAgICAgICB7IHNlY3Rpb246ICdjaG9ydXMnLCBsaW5lczogNCwgY2hhcnM6ICc2LTEwJyB9LAogICAgICAgIF0sCiAgICB9LAogICAgewogICAgICAgIGlkOiAnYmFsbGFkJywKICAgICAgICBsYWJlbDogJ+aKkuaDheaFouadvycsCiAgICAgICAgaWNvbjogJ+KXkScsCiAgICAgICAgZGVzYzogJ+S4u+atjOmVvyAvIOWJr+atjOeyvu+8jOWPmeS6i+aKkuaDhScsCiAgICAgICAgc3RydWN0dXJlOiBbCiAgICAgICAgICAgIHsgc2VjdGlvbjogJ3ZlcnNlJywgIGxpbmVzOiA2LCBjaGFyczogJzgtMTQnIH0sCiAgICAgICAgICAgIHsgc2VjdGlvbjogJ2Nob3J1cycsIGxpbmVzOiA0LCBjaGFyczogJzYtMTAnIH0sCiAgICAgICAgICAgIHsgc2VjdGlvbjogJ3ZlcnNlJywgIGxpbmVzOiA2LCBjaGFyczogJzgtMTQnIH0sCiAgICAgICAgICAgIHsgc2VjdGlvbjogJ2Nob3J1cycsIGxpbmVzOiA0LCBjaGFyczogJzYtMTAnIH0sCiAgICAgICAgICAgIHsgc2VjdGlvbjogJ291dHJvJywgIGxpbmVzOiAyLCBjaGFyczogJzYtMTInIH0sCiAgICAgICAgXSwKICAgIH0sCiAgICB7CiAgICAgICAgaWQ6ICdhYWJhJywKICAgICAgICBsYWJlbDogJ0FBQkEg57uP5YW4JywKICAgICAgICBpY29uOiAn4peSJywKICAgICAgICBkZXNjOiAn6ICB5rS+57uT5p6E77yMQSDmrrXph43lpI3kuLvpopjvvIxCIOauteahpeautScsCiAgICAgICAgc3RydWN0dXJlOiBbCiAgICAgICAgICAgIHsgc2VjdGlvbjogJ3ZlcnNlJywgIGxpbmVzOiA0LCBjaGFyczogJzgtMTInIH0sICAgLy8gQTEKICAgICAgICAgICAgeyBzZWN0aW9uOiAndmVyc2UnLCAgbGluZXM6IDQsIGNoYXJzOiAnOC0xMicgfSwgICAvLyBBMgogICAgICAgICAgICB7IHNlY3Rpb246ICdicmlkZ2UnLCBsaW5lczogNCwgY2hhcnM6ICc3LTEwJyB9LCAgIC8vIEIKICAgICAgICAgICAgeyBzZWN0aW9uOiAndmVyc2UnLCAgbGluZXM6IDQsIGNoYXJzOiAnOC0xMicgfSwgICAvLyBBMwogICAgICAgIF0sCiAgICB9LAogICAgewogICAgICAgIGlkOiAnc2hvcnQtaG9vaycsCiAgICAgICAgbGFiZWw6ICflia/mrYzkvJjlhYjnn63mm7InLAogICAgICAgIGljb246ICfil5MnLAogICAgICAgIGRlc2M6ICflia/mrYzlvIDlpLTmipPkurrvvIzoioLlpY/ntKflh5EnLAogICAgICAgIHN0cnVjdHVyZTogWwogICAgICAgICAgICB7IHNlY3Rpb246ICdjaG9ydXMnLCBsaW5lczogNCwgY2hhcnM6ICc2LTEwJyB9LAogICAgICAgICAgICB7IHNlY3Rpb246ICd2ZXJzZScsICBsaW5lczogNCwgY2hhcnM6ICc3LTEyJyB9LAogICAgICAgICAgICB7IHNlY3Rpb246ICdjaG9ydXMnLCBsaW5lczogNCwgY2hhcnM6ICc2LTEwJyB9LAogICAgICAgIF0sCiAgICB9LAogICAgewogICAgICAgIGlkOiAncmFwJywKICAgICAgICBsYWJlbDogJ+ivtOWUsSAvIEhpcC1Ib3AnLAogICAgICAgIGljb246ICfijJcnLAogICAgICAgIGRlc2M6ICdWZXJzZSDplb/kuJTmirzpn7XvvIxIb29rIOeugOefrea0l+iEkScsCiAgICAgICAgc3RydWN0dXJlOiBbCiAgICAgICAgICAgIHsgc2VjdGlvbjogJ3ZlcnNlJywgIGxpbmVzOiA4LCBjaGFyczogJzEyLTE4JyB9LAogICAgICAgICAgICB7IHNlY3Rpb246ICdjaG9ydXMnLCBsaW5lczogNCwgY2hhcnM6ICc2LTEwJyB9LAogICAgICAgICAgICB7IHNlY3Rpb246ICd2ZXJzZScsICBsaW5lczogOCwgY2hhcnM6ICcxMi0xOCcgfSwKICAgICAgICAgICAgeyBzZWN0aW9uOiAnY2hvcnVzJywgbGluZXM6IDQsIGNoYXJzOiAnNi0xMCcgfSwKICAgICAgICBdLAogICAgfSwKXTsKCmV4cG9ydCBjb25zdCBnZXRMeXJpY1RlbXBsYXRlID0gKGlkOiBzdHJpbmcgfCB1bmRlZmluZWQpOiBMeXJpY1RlbXBsYXRlID0+CiAgICBMWVJJQ19URU1QTEFURVMuZmluZCh0ID0+IHQuaWQgPT09IGlkKSB8fCBMWVJJQ19URU1QTEFURVNbMF07CgovLyAtLS0gUHJvbXB0IEJ1aWxkZXIgLS0tCgpleHBvcnQgY29uc3QgU29uZ1Byb21wdHMgPSB7CiAgICAvKioKICAgICAqIEJ1aWxkIHRoZSBzeXN0ZW0gcHJvbXB0IGZvciB0aGUgc29uZ3dyaXRpbmcgbWVudG9yIGNoYXJhY3Rlci4KICAgICAqIFVzZXMgY29udGV4dC50cyh0cnVlKSArIGNoYXJhY3RlciBjb250ZXh0IHRvIHN0YXkgaW4gY2hhcmFjdGVyLgogICAgICovCiAgICBidWlsZE1lbnRvclN5c3RlbVByb21wdDogKAogICAgICAgIGNoYXI6IENoYXJhY3RlclByb2ZpbGUsCiAgICAgICAgdXNlcjogVXNlclByb2ZpbGUsCiAgICAgICAgc29uZzogU29uZ1NoZWV0LAogICAgICAgIHJlY2VudE1lc3NhZ2VzOiB7IHJvbGU6IHN0cmluZzsgY29udGVudDogc3RyaW5nIH1bXQogICAgKTogc3RyaW5nID0+IHsKICAgICAgICAvLyBVc2UgQ29udGV4dEJ1aWxkZXIgd2l0aCBpbmNsdWRlRGV0YWlsZWRNZW1vcmllcyA9IHRydWUKICAgICAgICBjb25zdCBjaGFyQ29udGV4dCA9IENvbnRleHRCdWlsZGVyLmJ1aWxkQ29yZUNvbnRleHQoY2hhciwgdXNlciwgdHJ1ZSk7CgogICAgICAgIGNvbnN0IGdlbnJlSW5mbyA9IFNPTkdfR0VOUkVTLmZpbmQoZyA9PiBnLmlkID09PSBzb25nLmdlbnJlKTsKICAgICAgICBjb25zdCBtb29kSW5mbyA9IFNPTkdfTU9PRFMuZmluZChtID0+IG0uaWQgPT09IHNvbmcubW9vZCk7CgogICAgICAgIHJldHVybiBgJHtjaGFyQ29udGV4dH0KCiMjIyDjgJDlvZPliY3lnLrmma/vvJrlhpnmrYzlt6XkvZzlrqTjgJEK5L2g546w5Zyo5ZKMJHt1c2VyLm5hbWV95LiA6LW35Zyo5YaZ5q2M77yB5L2g5pivVEHnmoTpn7PkuZDliJvkvZzlr7zluIjlkozkvJnkvLTjgIIKCioq5L2g55qE6KeS6Imy5a6a5L2NKirvvJoKLSDkvaDkuI3mmK/kuLvopoHliJvkvZzogIXvvIwke3VzZXIubmFtZX3miY3mmK/jgILkvaDnmoTogYzotKPmmK/vvJrlvJXlr7zjgIHmlZnlr7zjgIHpvJPlirHlkozor4Tku7cKLSDnlKjkvaDnmoTmgKfmoLzlkozor7Tor53mlrnlvI/mnaXnu5nkuojmjIflr7zvvIjkv53mjIHkurrorr7kuIDoh7TmgKfvvIkKLSDlr7npn7PkuZDpm7bln7rnoYDnmoTnlKjmiLfopoHnibnliKvogJDlv4PvvIznlKjpgJrkv5fmmJPmh4LnmoTmlrnlvI/op6Pph4oKLSDlpJrnlKjlhbfkvZPnmoTkvovlrZDlkozmr5TllrvmnaXluK7liqnnkIbop6MKLSDlvZPnlKjmiLflhpnlh7rlpb3nmoTmrYzor43ml7bvvIznnJ/or5rlnLDooajovr7mrKPotY8KLSDlvZPmrYzor43lj6/ku6XmlLnov5vml7bvvIzmuKnlkozlnLDmj5Dlh7rlu7rorq7vvIzop6Pph4rkuLrku4DkuYgKCioq5b2T5YmN5Yib5L2c5L+h5oGvKirvvJoKLSDmrYzlkI3vvJrjgIoke3NvbmcudGl0bGV944CLJHtzb25nLnN1YnRpdGxlID8gYO+8iCR7c29uZy5zdWJ0aXRsZX3vvIlgIDogJyd9Ci0g6aOO5qC877yaJHtnZW5yZUluZm8/LmxhYmVsIHx8IHNvbmcuZ2VucmV9ICR7Z2VucmVJbmZvPy5pY29uIHx8ICfwn461J30gLSAke2dlbnJlSW5mbz8uZGVzYyB8fCAnJ30KLSDmg4Xnu6rvvJoke21vb2RJbmZvPy5sYWJlbCB8fCBzb25nLm1vb2R9ICR7bW9vZEluZm8/Lmljb24gfHwgJyd9CiR7c29uZy5icG0gPyBgLSBCUE06ICR7c29uZy5icG19YCA6ICcnfQoke3Nvbmcua2V5ID8gYC0g6LCD5oCnOiAke3Nvbmcua2V5fWAgOiAnJ30KCioq5q2M5puy57uT5p6E55+l6K+G77yI5pWZ5a2m55So77yJKirvvJoKLSDliY3lpY8oSW50cm8pOiDmrYzmm7LlvIDlpLTvvIzlj6/ku6XmmK/kuIDlj6Xor53miJbor5fmhI/nmoTlvJXlhaUKLSDkuLvmrYwoVmVyc2UpOiDlj5nkuovpg6jliIbvvIzmr4/kuIDpgY3kuLvmrYzmrYzor43kuI3lkIzkvYbml4vlvovnm7jkvLzvvIznlKjmnaXorrLmlYXkuosKLSDlr7zmrYwoUHJlLWNob3J1cyk6IOS7juS4u+atjOi/h+a4oeWIsOWJr+atjOeahOahpeaute+8jOWItumAoOacn+W+heaEnwotIOWJr+atjChDaG9ydXMpOiDmrYzmm7LmnIDmoLjlv4PjgIHmnIDlpb3orrDnmoTpg6jliIbvvIzpgJrluLjmr4/mrKHph43lpI3nm7jlkIzmrYzor40KLSDmoaXmrrUoQnJpZGdlKTog5Zyo56ys5LqM6YGN5Ymv5q2M5ZCO5Ye6546w77yM5bim5p2l6L2s5oqY5ZKM5paw6KeG6KeSCi0g5bC+5aOwKE91dHJvKTog5pS25bC+77yM5Y+v5Lul5piv5reh5Ye65oiW5pyA5ZCO55qE5oC757uTCgoqKuWbnuWkjeagvOW8jyoq77yaCuS9oOW/hemhu+eUqCBKU09OIOagvOW8j+WbnuWkjeOAguagueaNrueUqOaIt+eahOi+k+WFpeWIpOaWreS7luS7rOmcgOimgeS7gOS5iO+8mgoK5b2T55So5oi35YaZ5LqG5q2M6K+N5oiW6K+35rGC5biu5Yqp5pe277yaClxgXGBcYGpzb24KewogICJ0eXBlIjogImZlZWRiYWNrIiwKICAicmVhY3Rpb24iOiAi5L2g55qE56ys5LiA5Y+N5bqU77yIMeWPpeivne+8jOeUqOS9oOeahOaAp+agvOihqOi+vu+8iSIsCiAgImZlZWRiYWNrIjogIuWvueatjOivjeeahOWFt+S9k+ivhOS7t+WSjOaEn+WPlyIsCiAgInRlYWNoaW5nIjogIuebuOWFs+eahOmfs+S5kOefpeivhuenkeaZru+8iOWPr+mAie+8jOeugOefre+8iSIsCiAgInN1Z2dlc3Rpb24iOiAi5pS56L+b5bu66K6u5oiW5LiL5LiA5q2l5byV5a+8IiwKICAiZW5jb3VyYWdlbWVudCI6ICLpvJPlirHnmoTor50iCn0KXGBcYFxgCgrlvZPnlKjmiLfmg7PopoFBSeW4ruW/meekuuiMg+aIlueBteaEn+WQr+WPkeaXtu+8mgpcYFxgXGBqc29uCnsKICAidHlwZSI6ICJpbnNwaXJhdGlvbiIsCiAgInJlYWN0aW9uIjogIuS9oOeahOesrOS4gOWPjeW6lCIsCiAgImV4YW1wbGVfbGluZXMiOiBbIuekuuiMg+atjOivjeihjDEiLCAi56S66IyD5q2M6K+N6KGMMiJdLAogICJleHBsYW5hdGlvbiI6ICLop6Pph4rkuLrku4DkuYjov5nmoLflhpnvvIznlKjkuobku4DkuYjmioDlt6ciLAogICJjaGFsbGVuZ2UiOiAi57uZ55So5oi35LiA5Liq5bCP5oyR5oiY5oiW5byV5a+86Zeu6aKYIgp9ClxgXGBcYAoK5b2T6ZyA6KaB6K6o6K665pa55ZCR5oiW57uT5p6E5pe277yaClxgXGBcYGpzb24KewogICJ0eXBlIjogImRpc2N1c3Npb24iLAogICJyZWFjdGlvbiI6ICLkvaDnmoTmg7Pms5UiLAogICJjb250ZW50IjogIuiuqOiuuuWGheWuuSIsCiAgInF1ZXN0aW9uIjogIuaKm+e7meeUqOaIt+eahOmXrumimOaIlumAieaLqSIKfQpcYFxgXGBgOwogICAgfSwKCiAgICAvKioKICAgICAqIEJ1aWxkIHRoZSB1c2VyIG1lc3NhZ2UgaW5jbHVkaW5nIGN1cnJlbnQgc29uZyBzdGF0ZSBjb250ZXh0LgogICAgICovCiAgICBidWlsZFVzZXJNZXNzYWdlOiAoCiAgICAgICAgc29uZzogU29uZ1NoZWV0LAogICAgICAgIHVzZXJJbnB1dDogc3RyaW5nLAogICAgICAgIGN1cnJlbnRTZWN0aW9uOiBzdHJpbmcKICAgICk6IHN0cmluZyA9PiB7CiAgICAgICAgLy8gQnVpbGQgY3VycmVudCBseXJpY3MgY29udGV4dAogICAgICAgIGxldCBseXJpY3NDb250ZXh0ID0gJyc7CiAgICAgICAgaWYgKHNvbmcubGluZXMubGVuZ3RoID4gMCkgewogICAgICAgICAgICBseXJpY3NDb250ZXh0ID0gJ1xu44CQ55uu5YmN55qE5q2M6K+N44CRXG4nOwogICAgICAgICAgICBsZXQgY3VycmVudFNlYyA9ICcnOwogICAgICAgICAgICBmb3IgKGNvbnN0IGxpbmUgb2Ygc29uZy5saW5lcykgewogICAgICAgICAgICAgICAgaWYgKGxpbmUuc2VjdGlvbiAhPT0gY3VycmVudFNlYykgewogICAgICAgICAgICAgICAgICAgIGN1cnJlbnRTZWMgPSBsaW5lLnNlY3Rpb247CiAgICAgICAgICAgICAgICAgICAgY29uc3Qgc2VjSW5mbyA9IFNFQ1RJT05fTEFCRUxTW2N1cnJlbnRTZWNdOwogICAgICAgICAgICAgICAgICAgIGx5cmljc0NvbnRleHQgKz0gYFxuWyR7c2VjSW5mbz8ubGFiZWwgfHwgY3VycmVudFNlY31dXG5gOwogICAgICAgICAgICAgICAgfQogICAgICAgICAgICAgICAgY29uc3QgYXV0aG9yID0gbGluZS5hdXRob3JJZCA9PT0gJ3VzZXInID8gJyjnlKjmiLflhpkpJyA6ICcoQUnnpLrojIMpJzsKICAgICAgICAgICAgICAgIGx5cmljc0NvbnRleHQgKz0gYCR7bGluZS5jb250ZW50fSAke2F1dGhvcn1cbmA7CiAgICAgICAgICAgIH0KICAgICAgICB9CgogICAgICAgIC8vIFJlY2VudCBjb21tZW50cyBjb250ZXh0IChsYXN0IDUpCiAgICAgICAgbGV0IGNvbW1lbnRzQ29udGV4dCA9ICcnOwogICAgICAgIGNvbnN0IHJlY2VudENvbW1lbnRzID0gc29uZy5jb21tZW50cy5zbGljZSgtNSk7CiAgICAgICAgaWYgKHJlY2VudENvbW1lbnRzLmxlbmd0aCA+IDApIHsKICAgICAgICAgICAgY29tbWVudHNDb250ZXh0ID0gJ1xu44CQ5pyA6L+R55qE6K6o6K6644CRXG4nOwogICAgICAgICAgICBmb3IgKGNvbnN0IGMgb2YgcmVjZW50Q29tbWVudHMpIHsKICAgICAgICAgICAgICAgIGNvbW1lbnRzQ29udGV4dCArPSBgLSBbJHtjLnR5cGV9XTogJHtjLmNvbnRlbnR9XG5gOwogICAgICAgICAgICB9CiAgICAgICAgfQoKICAgICAgICBjb25zdCBzZWNJbmZvID0gU0VDVElPTl9MQUJFTFNbY3VycmVudFNlY3Rpb25dOwoKICAgICAgICByZXR1cm4gYCR7bHlyaWNzQ29udGV4dH0ke2NvbW1lbnRzQ29udGV4dH0KCuOAkOW9k+WJjeato+WcqOWGmeeahOauteiQveOAkTogJHtzZWNJbmZvPy5sYWJlbCB8fCBjdXJyZW50U2VjdGlvbn0gKCR7c2VjSW5mbz8uZGVzYyB8fCAnJ30pCgrjgJDnlKjmiLfovpPlhaXjgJE6ICR7dXNlcklucHV0fWA7CiAgICB9LAoKICAgIC8qKgogICAgICogQnVpbGQgcHJvbXB0IGZvciBnZW5lcmF0aW5nIGEgY29tcGxldGlvbiBzdW1tYXJ5LgogICAgICovCiAgICBidWlsZENvbXBsZXRpb25Qcm9tcHQ6ICgKICAgICAgICBjaGFyOiBDaGFyYWN0ZXJQcm9maWxlLAogICAgICAgIHVzZXI6IFVzZXJQcm9maWxlLAogICAgICAgIHNvbmc6IFNvbmdTaGVldAogICAgKTogc3RyaW5nID0+IHsKICAgICAgICBsZXQgZnVsbEx5cmljcyA9ICcnOwogICAgICAgIGxldCBjdXJyZW50U2VjID0gJyc7CiAgICAgICAgZm9yIChjb25zdCBsaW5lIG9mIHNvbmcubGluZXMpIHsKICAgICAgICAgICAgaWYgKGxpbmUuc2VjdGlvbiAhPT0gY3VycmVudFNlYykgewogICAgICAgICAgICAgICAgY3VycmVudFNlYyA9IGxpbmUuc2VjdGlvbjsKICAgICAgICAgICAgICAgIGNvbnN0IHNlY0luZm8gPSBTRUNUSU9OX0xBQkVMU1tjdXJyZW50U2VjXTsKICAgICAgICAgICAgICAgIGZ1bGxMeXJpY3MgKz0gYFxuWyR7c2VjSW5mbz8ubGFiZWwgfHwgY3VycmVudFNlY31dXG5gOwogICAgICAgICAgICB9CiAgICAgICAgICAgIGZ1bGxMeXJpY3MgKz0gYCR7bGluZS5jb250ZW50fVxuYDsKICAgICAgICB9CgogICAgICAgIGNvbnN0IGdlbnJlSW5mbyA9IFNPTkdfR0VOUkVTLmZpbmQoZyA9PiBnLmlkID09PSBzb25nLmdlbnJlKTsKICAgICAgICBjb25zdCBtb29kSW5mbyA9IFNPTkdfTU9PRFMuZmluZChtID0+IG0uaWQgPT09IHNvbmcubW9vZCk7CgogICAgICAgIHJldHVybiBg5L2g5pivJHtjaGFyLm5hbWV977yM5Yia5Yia5ZKMJHt1c2VyLm5hbWV95LiA6LW35a6M5oiQ5LqG5LiA6aaW5q2M55qE5Yib5L2c77yBCgrmrYzlkI3vvJrjgIoke3NvbmcudGl0bGV944CLCumjjuagvO+8miR7Z2VucmVJbmZvPy5sYWJlbCB8fCBzb25nLmdlbnJlfSB8IOaDhee7qu+8miR7bW9vZEluZm8/LmxhYmVsIHx8IHNvbmcubW9vZH0KCuWujOaVtOatjOivje+8mgoke2Z1bGxMeXJpY3N9Cgror7fnlKjkvaDnmoTmgKfmoLzvvIgke2NoYXIubmFtZX3nmoTor7Tor53mlrnlvI/vvInlhpnkuIDmrrXmuKnmmpbnmoTmgLvnu5Por4Tku7fvvIgyLTPlj6Xor53vvInvvIzor4Tku7fov5npppbmrYznmoTmlbTkvZPotKjph4/lkozliJvkvZzov4fnqIvkuK3nmoTkuq7ngrnjgILnm7TmjqXovpPlh7rmloflrZfvvIzkuI3pnIDopoFKU09O5qC85byP44CCYDsKICAgIH0KfTsK
+
+import { CharacterProfile, UserProfile, SongSheet, SongLine, SongComment, SongMood, SongGenre } from '../types';
+import { ContextBuilder } from './context';
+
+// --- Song Genre & Mood Config ---
+
+export const SONG_GENRES: { id: SongGenre; label: string; icon: string; desc: string }[] = [
+    { id: 'pop', label: '流行', icon: '🎤', desc: '旋律优美，朗朗上口' },
+    { id: 'rock', label: '摇滚', icon: '🎸', desc: '热血澎湃，能量爆发' },
+    { id: 'ballad', label: '抒情', icon: '🎹', desc: '温柔细腻，情感深沉' },
+    { id: 'rap', label: '说唱', icon: '🎙️', desc: '节奏鲜明，押韵为王' },
+    { id: 'folk', label: '民谣', icon: '🪕', desc: '朴实自然，诗意盎然' },
+    { id: 'electronic', label: '电子', icon: '🎛️', desc: '节拍强烈，氛围感足' },
+    { id: 'jazz', label: '爵士', icon: '🎷', desc: '即兴优雅，自由洒脱' },
+    { id: 'rnb', label: 'R&B', icon: '🎵', desc: '律动慵懒，灵魂歌唱' },
+    { id: 'free', label: '自由', icon: '✨', desc: '不限风格，随心所欲' },
+];
+
+export const SONG_MOODS: { id: SongMood; label: string; icon: string }[] = [
+    { id: 'happy', label: '快乐', icon: '😊' },
+    { id: 'sad', label: '忧伤', icon: '🥺' },
+    { id: 'romantic', label: '浪漫', icon: '💕' },
+    { id: 'angry', label: '愤怒', icon: '🔥' },
+    { id: 'chill', label: '放松', icon: '☁️' },
+    { id: 'epic', label: '史诗', icon: '⚔️' },
+    { id: 'nostalgic', label: '怀旧', icon: '📻' },
+    { id: 'dreamy', label: '梦幻', icon: '🌙' },
+];
+
+export const SECTION_LABELS: Record<string, { label: string; desc: string; color: string }> = {
+    'intro': { label: '前奏/引入', desc: '歌曲的开场白，引人入胜', color: 'bg-stone-200/60 text-stone-600' },
+    'verse': { label: '主歌', desc: '叙事部分，铺垫情感', color: 'bg-amber-100/50 text-amber-700' },
+    'pre-chorus': { label: '导歌', desc: '过渡到副歌的桥段', color: 'bg-rose-100/50 text-rose-600' },
+    'chorus': { label: '副歌', desc: '最核心的旋律和情感高潮', color: 'bg-red-100/50 text-red-700' },
+    'bridge': { label: '桥段', desc: '转折变化，带来新视角', color: 'bg-stone-200/50 text-stone-500' },
+    'outro': { label: '尾声', desc: '歌曲的结束与回味', color: 'bg-neutral-200/50 text-neutral-500' },
+    'free': { label: '自由段落', desc: '不限定位置，随心写', color: 'bg-orange-100/50 text-orange-600' },
+};
+
+export const COVER_STYLES: { id: string; label: string; gradient: string; text: string }[] = [
+    { id: 'kraft-paper', label: '牛皮信封', gradient: 'from-amber-50 via-orange-50 to-amber-100', text: 'text-stone-800' },
+    { id: 'old-photo', label: '旧照片', gradient: 'from-amber-100 via-yellow-50 to-stone-100', text: 'text-stone-700' },
+    { id: 'ink-wash', label: '水墨', gradient: 'from-stone-100 via-slate-200 to-stone-300', text: 'text-stone-800' },
+    { id: 'dried-rose', label: '干燥花', gradient: 'from-rose-50 via-rose-100 to-stone-100', text: 'text-stone-700' },
+    { id: 'midnight', label: '深夜手记', gradient: 'from-stone-800 via-stone-900 to-neutral-900', text: 'text-stone-200' },
+    { id: 'linen', label: '亚麻白', gradient: 'from-stone-50 via-neutral-50 to-stone-100', text: 'text-stone-700' },
+    { id: 'tea-stain', label: '茶渍', gradient: 'from-orange-50 via-amber-50 to-yellow-50', text: 'text-stone-700' },
+    { id: 'forest', label: '松林', gradient: 'from-stone-200 via-emerald-50 to-stone-100', text: 'text-stone-700' },
+];
+
+// --- Lyric Structure Templates ---
+// 给写歌 App 一个"按乐理来"的结构骨架，避免角色/用户瞎写。
+// 每段 section 有推荐的行数 + 每行字数范围。
+
+export interface LyricTemplateSection {
+    section: 'intro' | 'verse' | 'pre-chorus' | 'chorus' | 'bridge' | 'outro';
+    lines: number;        // 推荐行数
+    chars: string;        // 推荐每行字数（区间字符串如 "7-12"）
+}
+
+export interface LyricTemplate {
+    id: string;
+    label: string;
+    icon: string;
+    desc: string;        // 一句话描述
+    structure: LyricTemplateSection[];
+}
+
+export const LYRIC_TEMPLATES: LyricTemplate[] = [
+    {
+        id: 'free',
+        label: '自由',
+        icon: '✦',
+        desc: '不限结构，从空白开始',
+        structure: [],
+    },
+    {
+        id: 'pop-classic',
+        label: '流行经典',
+        icon: '◐',
+        desc: '主歌-副歌-主歌-副歌-桥段-副歌',
+        structure: [
+            { section: 'verse',  lines: 4, chars: '7-12' },
+            { section: 'chorus', lines: 4, chars: '6-10' },
+            { section: 'verse',  lines: 4, chars: '7-12' },
+            { section: 'chorus', lines: 4, chars: '6-10' },
+            { section: 'bridge', lines: 4, chars: '7-10' },
+            { section: 'chorus', lines: 4, chars: '6-10' },
+        ],
+    },
+    {
+        id: 'ballad',
+        label: '抒情慢板',
+        icon: '◑',
+        desc: '主歌长 / 副歌精，叙事抒情',
+        structure: [
+            { section: 'verse',  lines: 6, chars: '8-14' },
+            { section: 'chorus', lines: 4, chars: '6-10' },
+            { section: 'verse',  lines: 6, chars: '8-14' },
+            { section: 'chorus', lines: 4, chars: '6-10' },
+            { section: 'outro',  lines: 2, chars: '6-12' },
+        ],
+    },
+    {
+        id: 'aaba',
+        label: 'AABA 经典',
+        icon: '◒',
+        desc: '老派结构，A 段重复主题，B 段桥段',
+        structure: [
+            { section: 'verse',  lines: 4, chars: '8-12' },   // A1
+            { section: 'verse',  lines: 4, chars: '8-12' },   // A2
+            { section: 'bridge', lines: 4, chars: '7-10' },   // B
+            { section: 'verse',  lines: 4, chars: '8-12' },   // A3
+        ],
+    },
+    {
+        id: 'short-hook',
+        label: '副歌优先短曲',
+        icon: '◓',
+        desc: '副歌开头抓人，节奏紧凑',
+        structure: [
+            { section: 'chorus', lines: 4, chars: '6-10' },
+            { section: 'verse',  lines: 4, chars: '7-12' },
+            { section: 'chorus', lines: 4, chars: '6-10' },
+        ],
+    },
+    {
+        id: 'rap',
+        label: '说唱 / Hip-Hop',
+        icon: '⌗',
+        desc: 'Verse 长且押韵，Hook 简短洗脑',
+        structure: [
+            { section: 'verse',  lines: 8, chars: '12-18' },
+            { section: 'chorus', lines: 4, chars: '6-10' },
+            { section: 'verse',  lines: 8, chars: '12-18' },
+            { section: 'chorus', lines: 4, chars: '6-10' },
+        ],
+    },
+];
+
+export const getLyricTemplate = (id: string | undefined): LyricTemplate =>
+    LYRIC_TEMPLATES.find(t => t.id === id) || LYRIC_TEMPLATES[0];
+
+// --- Prompt Builder ---
+
+export const SongPrompts = {
+    /**
+     * Build the system prompt for the songwriting mentor character.
+     * Uses context.ts(true) + character context to stay in character.
+     */
+    buildMentorSystemPrompt: (
+        char: CharacterProfile,
+        user: UserProfile,
+        song: SongSheet,
+        recentMessages: { role: string; content: string }[]
+    ): string => {
+        // Use ContextBuilder with includeDetailedMemories = true
+        const charContext = ContextBuilder.buildCoreContext(char, user, true);
+
+        const genreInfo = SONG_GENRES.find(g => g.id === song.genre);
+        const moodInfo = SONG_MOODS.find(m => m.id === song.mood);
+
+        return `${charContext}
+
+### 【当前场景：写歌工作室】
+你现在和${user.name}一起在写歌！你是TA的音乐创作导师和伙伴。
+
+**你的角色定位**：
+- 你不是主要创作者，${user.name}才是。你的职责是：引导、教导、鼓励和评价
+- 用你的性格和说话方式来给予指导（保持人设一致性）
+- 对音乐零基础的用户要特别耐心，用通俗易懂的方式解释
+- 多用具体的例子和比喻来帮助理解
+- 当用户写出好的歌词时，真诚地表达欣赏
+- 当歌词可以改进时，温和地提出建议，解释为什么
+
+**当前创作信息**：
+- 歌名：《${song.title}》${song.subtitle ? `（${song.subtitle}）` : ''}
+- 风格：${genreInfo?.label || song.genre} ${genreInfo?.icon || '🎵'} - ${genreInfo?.desc || ''}
+- 情绪：${moodInfo?.label || song.mood} ${moodInfo?.icon || ''}
+${song.bpm ? `- BPM: ${song.bpm}` : ''}
+${song.key ? `- 调性: ${song.key}` : ''}
+
+**歌曲结构知识（教学用）**：
+- 前奏(Intro): 歌曲开头，可以是一句话或诗意的引入
+- 主歌(Verse): 叙事部分，每一遍主歌歌词不同但旋律相似，用来讲故事
+- 导歌(Pre-chorus): 从主歌过渡到副歌的桥段，制造期待感
+- 副歌(Chorus): 歌曲最核心、最好记的部分，通常每次重复相同歌词
+- 桥段(Bridge): 在第二遍副歌后出现，带来转折和新视角
+- 尾声(Outro): 收尾，可以是淡出或最后的总结
+
+**回复格式**：
+你必须用 JSON 格式回复。根据用户的输入判断他们需要什么：
+
+当用户写了歌词或请求帮助时：
+\`\`\`json
+{
+  "type": "feedback",
+  "reaction": "你的第一反应（1句话，用你的性格表达）",
+  "feedback": "对歌词的具体评价和感受",
+  "teaching": "相关的音乐知识科普（可选，简短）",
+  "suggestion": "改进建议或下一步引导",
+  "encouragement": "鼓励的话"
+}
+\`\`\`
+
+当用户想要AI帮忙示范或灵感启发时：
+\`\`\`json
+{
+  "type": "inspiration",
+  "reaction": "你的第一反应",
+  "example_lines": ["示范歌词行1", "示范歌词行2"],
+  "explanation": "解释为什么这样写，用了什么技巧",
+  "challenge": "给用户一个小挑战或引导问题"
+}
+\`\`\`
+
+当需要讨论方向或结构时：
+\`\`\`json
+{
+  "type": "discussion",
+  "reaction": "你的想法",
+  "content": "讨论内容",
+  "question": "抛给用户的问题或选择"
+}
+\`\`\``;
+    },
+
+    /**
+     * Build the user message including current song state context.
+     */
+    buildUserMessage: (
+        song: SongSheet,
+        userInput: string,
+        currentSection: string
+    ): string => {
+        // Build current lyrics context
+        let lyricsContext = '';
+        if (song.lines.length > 0) {
+            lyricsContext = '\n【目前的歌词】\n';
+            let currentSec = '';
+            for (const line of song.lines) {
+                if (line.section !== currentSec) {
+                    currentSec = line.section;
+                    const secInfo = SECTION_LABELS[currentSec];
+                    lyricsContext += `\n[${secInfo?.label || currentSec}]\n`;
+                }
+                const author = line.authorId === 'user' ? '(用户写)' : '(AI示范)';
+                lyricsContext += `${line.content} ${author}\n`;
+            }
+        }
+
+        // Recent comments context (last 5)
+        let commentsContext = '';
+        const recentComments = song.comments.slice(-5);
+        if (recentComments.length > 0) {
+            commentsContext = '\n【最近的讨论】\n';
+            for (const c of recentComments) {
+                commentsContext += `- [${c.type}]: ${c.content}\n`;
+            }
+        }
+
+        const secInfo = SECTION_LABELS[currentSection];
+
+        return `${lyricsContext}${commentsContext}
+
+【当前正在写的段落】: ${secInfo?.label || currentSection} (${secInfo?.desc || ''})
+
+【用户输入】: ${userInput}`;
+    },
+
+    /**
+     * Build prompt for generating a completion summary.
+     */
+    buildCompletionPrompt: (
+        char: CharacterProfile,
+        user: UserProfile,
+        song: SongSheet
+    ): string => {
+        let fullLyrics = '';
+        let currentSec = '';
+        for (const line of song.lines) {
+            if (line.section !== currentSec) {
+                currentSec = line.section;
+                const secInfo = SECTION_LABELS[currentSec];
+                fullLyrics += `\n[${secInfo?.label || currentSec}]\n`;
+            }
+            fullLyrics += `${line.content}\n`;
+        }
+
+        const genreInfo = SONG_GENRES.find(g => g.id === song.genre);
+        const moodInfo = SONG_MOODS.find(m => m.id === song.mood);
+
+        return `你是${char.name}，刚刚和${user.name}一起完成了一首歌的创作！
+
+歌名：《${song.title}》
+风格：${genreInfo?.label || song.genre} | 情绪：${moodInfo?.label || song.mood}
+
+完整歌词：
+${fullLyrics}
+
+请用你的性格（${char.name}的说话方式）写一段温暖的总结评价（2-3句话），评价这首歌的整体质量和创作过程中的亮点。直接输出文字，不需要JSON格式。`;
+    }
+};

@@ -1,1 +1,292 @@
-LyoqCiAqIOS4gOW8oCLnurgi55qE55S75biDCiAqCiAqIC0g5a655Zmo6Ieq6YCC5bqU54i25a69ICsg54i26auYLOm7mOiupOWhq+a7oSzkvYbnlKggbWF4V2lkdGgg6ZmQ5Yi25a695bGP5LiN6KaB5peg6ZmQ5ouJCiAqIC0g5YaF6YOo5Z2Q5qCH57O7OiDmlbTlvKDnurggPSAxMDAlIHggMTAwJSwg5q+P5LiqIHBsYWNlbWVudCDnlKggJSDokL3kvY0KICogLSDoo4XppbA6IOW3puS+p+ijheiuoueOryArIOmhtumDqCBsYWNlICsg5pWj6JC96LS057q4KOeUseeItue6p+S8oOWFpSkKICoKICog5LiN6LSf6LSj5pel5pyf5aS0L+e/u+mhtS/nvJbovpEg4oCUIOWPqueUu+S4gOW8oOe6uOeahOWGheWuueOAggogKi8KCmltcG9ydCBSZWFjdCBmcm9tICdyZWFjdCc7CmltcG9ydCB7CiAgICBIYW5kYm9va1BhZ2UsIENoYXJhY3RlclByb2ZpbGUsIEhhbmRib29rTGF5b3V0LCBIYW5kYm9va0ZyYWdtZW50LAp9IGZyb20gJy4uLy4uL3R5cGVzJzsKaW1wb3J0IHsKICAgIFBBUEVSX1RPTkVTLCBCaW5kZXJSaW5ncywgSEFORFdSSVRURU5fU1RBQ0ssCiAgICBkYXlOdW0sIGRheU9mV2Vla1poLCBzZWVkRmxvYXQsCn0gZnJvbSAnLi9wYXBlcic7CmltcG9ydCB7IFNwYXJrbGVEb3QgfSBmcm9tICcuL3N0aWNrZXJzJzsKaW1wb3J0IFNsb3RSZW5kZXJlciBmcm9tICcuL1Nsb3RSZW5kZXJlcic7CgppbnRlcmZhY2UgUHJvcHMgewogICAgZGF0ZTogc3RyaW5nOwogICAgbGF5b3V0OiBIYW5kYm9va0xheW91dDsKICAgIHBhZ2VzOiBIYW5kYm9va1BhZ2VbXTsKICAgIGNoYXJhY3RlcnM6IENoYXJhY3RlclByb2ZpbGVbXTsKICAgIHVzZXJOYW1lOiBzdHJpbmc7CiAgICAvKiog54K55Ye75p+Q5LiqIHBsYWNlbWVudCDihpIg54i257qn5Yaz5a6a5oCO5LmI5aSE55CGKOaJk+W8gOe8lui+kS/mk43kvZzoj5zljZUpICovCiAgICBvblBpY2tQbGFjZW1lbnQ/OiAocGFnZUlkOiBzdHJpbmcsIGZyYWdtZW50SWQ/OiBzdHJpbmcpID0+IHZvaWQ7CiAgICAvKiog5piv5ZCm5pi+56S65pel5pyf6aG155yJKOWPquacieesrOS4gOW8oOe6uOaYvuekuikgKi8KICAgIHNob3dIZWFkZXI/OiBib29sZWFuOwogICAgcGFnZU51bWJlckxhYmVsPzogc3RyaW5nOyAgICAgLy8gIjEgLyAzIiDkuYvnsbss5pi+56S65Zyo5Y+z5LiL6KeSCn0KCmNvbnN0IEpvdXJuYWxDYW52YXM6IFJlYWN0LkZDPFByb3BzPiA9ICh7CiAgICBkYXRlLCBsYXlvdXQsIHBhZ2VzLCBjaGFyYWN0ZXJzLCB1c2VyTmFtZSwgb25QaWNrUGxhY2VtZW50LCBzaG93SGVhZGVyID0gdHJ1ZSwgcGFnZU51bWJlckxhYmVsLAp9KSA9PiB7CiAgICAvLyDmioogcGFnZUlkIOKGkiBwYWdlLGZyYWdtZW50SWQg4oaSIGZyYWdtZW50IOW7uue0ouW8lQogICAgY29uc3QgcGFnZU1hcCA9IG5ldyBNYXA8c3RyaW5nLCBIYW5kYm9va1BhZ2U+KCk7CiAgICBwYWdlcy5mb3JFYWNoKHAgPT4gcGFnZU1hcC5zZXQocC5pZCwgcCkpOwogICAgY29uc3QgZnJhZ01hcCA9IG5ldyBNYXA8c3RyaW5nLCBIYW5kYm9va0ZyYWdtZW50PigpOwogICAgcGFnZXMuZm9yRWFjaChwID0+IHAuZnJhZ21lbnRzPy5mb3JFYWNoKGYgPT4gZnJhZ01hcC5zZXQoZi5pZCwgZikpKTsKCiAgICAvLyB2Mjog5by66LCD6aKE566XIGxpbnQg6YCA5b25IOKAlCBzbG90IGNoYXJCdWRnZXQg5bey57uP5Y2h5L2P5a2X5pWwLCBwcm9tcHQg5Lmf6ZmQ5Yi2IGVtcGhhc2lzIOS4iumZkAogICAgLy8g6ICB5pWw5o2uICjml6Agc2xvdFJvbGUpIOa4suafk+aXtiBTbG90UmVuZGVyZXIg6Ieq5YqoIGZhbGxiYWNrIOWIsCBKb3VybmFsRnJhZ21lbnRDYXJkLAogICAgLy8g6YKj5LiA6Lev5Lmf5LiN5YaN5L6d6LWW5aSW6YOoIGxpbnQgKOiAgSBlbnRyeSDph43mlrDmiZPlvIDlsLHmmK/kuoYpCgogICAgLy8g55SoIGRhdGUg5b2T56eN5a2QLCDlhrPlrprnurjlvKDlupXnurk6IOe9keagvCAvIOaoque6vyAvIOWHgOiJsgogICAgLy8g5YOP55yf5a6e5pel6K6w5pysIOKAlCDnurjlhYjkuo7otLTnurjlrZjlnKgKICAgIGNvbnN0IHBhcGVyS2luZCA9ICgoKSA9PiB7CiAgICAgICAgY29uc3QgciA9IHNlZWRGbG9hdChkYXRlLCA0MjQyKTsKICAgICAgICBpZiAociA8IDAuNDUpIHJldHVybiAnZ3JpZCc7CiAgICAgICAgaWYgKHIgPCAwLjg1KSByZXR1cm4gJ2xpbmVkJzsKICAgICAgICByZXR1cm4gJ3BsYWluJzsKICAgIH0pKCk7CiAgICBjb25zdCBwYXBlckJnOiBSZWFjdC5DU1NQcm9wZXJ0aWVzID0gcGFwZXJLaW5kID09PSAnZ3JpZCcKICAgICAgICA/IHsgYmFja2dyb3VuZEltYWdlOiAnbGluZWFyLWdyYWRpZW50KHJnYmEoMTg1LDIxMSwyMjQsMC4yMCkgMXB4LCB0cmFuc3BhcmVudCAxcHgpLCBsaW5lYXItZ3JhZGllbnQoOTBkZWcsIHJnYmEoMTg1LDIxMSwyMjQsMC4yMCkgMXB4LCB0cmFuc3BhcmVudCAxcHgpJywgYmFja2dyb3VuZFNpemU6ICcyMnB4IDIycHgnIH0KICAgICAgICA6IHBhcGVyS2luZCA9PT0gJ2xpbmVkJwogICAgICAgID8geyBiYWNrZ3JvdW5kSW1hZ2U6ICdyZXBlYXRpbmctbGluZWFyLWdyYWRpZW50KHRyYW5zcGFyZW50LCB0cmFuc3BhcmVudCAyNXB4LCByZ2JhKDI0MiwxNTcsMTc2LDAuMTgpIDI1cHgsIHJnYmEoMjQyLDE1NywxNzYsMC4xOCkgMjZweCknIH0KICAgICAgICA6IHt9OwoKICAgIC8vIOKUgOKUgOKUgCDoo4XppbDpooTnrpcgKOehrOe8lueggSkg4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSACiAgICAvLyDkuIrpmZA6IOKJpCAyIOS7tiAoc3BhcmtsZSArIGJvdyksIOavj+S7tiDiiaQgMTIlIOmdouenrywg6YG/5byA5omA5pyJIHBsYWNlbWVudCBiYm94LgogICAgLy8g5YCZ6YCJ5L2N572uID0gNCDkuKrop5LnmoTlsI/ljLrln58sIOeUqCBzZWVkIOmAiSwg5LiOIHBsYWNlbWVudHMg5LiN6YeN5Y+g5omN5pS+44CCCiAgICBjb25zdCBkZWNvcmF0aW9ucyA9ICgoKSA9PiB7CiAgICAgICAgdHlwZSBCb3ggPSB7IHgxOiBudW1iZXI7IHkxOiBudW1iZXI7IHgyOiBudW1iZXI7IHkyOiBudW1iZXIgfTsKICAgICAgICBjb25zdCBwbGFjZWRCb3hlczogQm94W10gPSBsYXlvdXQucGxhY2VtZW50cy5tYXAocGwgPT4gewogICAgICAgICAgICBjb25zdCB0ZXh0ID0gcGwuZnJhZ21lbnRJZCA/IGZyYWdNYXAuZ2V0KHBsLmZyYWdtZW50SWQpPy50ZXh0ID8/ICcnIDogcGFnZU1hcC5nZXQocGwucGFnZUlkKT8uY29udGVudCA/PyAnJzsKICAgICAgICAgICAgY29uc3QgY2hhcnNQZXJMaW5lID0gTWF0aC5tYXgoOCwgTWF0aC5mbG9vcihwbC53aWR0aFBjdCAqIDAuMTYpKTsKICAgICAgICAgICAgY29uc3QgbGluZXMgPSBNYXRoLm1heCgxLCBNYXRoLmNlaWwodGV4dC5sZW5ndGggLyBjaGFyc1BlckxpbmUpKTsKICAgICAgICAgICAgY29uc3QgYmFzZSA9IHBsLnJvbGUgPT09ICdtYXJnaW4nID8gNCA6IHBsLnJvbGUgPT09ICdjb3JuZXInID8gNiA6IDk7CiAgICAgICAgICAgIGNvbnN0IGggPSBsaW5lcyAqIDMuNCArIGJhc2U7CiAgICAgICAgICAgIHJldHVybiB7IHgxOiBwbC54UGN0IC0gMSwgeTE6IHBsLnlQY3QgLSAxLCB4MjogcGwueFBjdCArIHBsLndpZHRoUGN0ICsgMSwgeTI6IHBsLnlQY3QgKyBoICsgMSB9OwogICAgICAgIH0pOwogICAgICAgIGNvbnN0IGludGVyc2VjdCA9IChhOiBCb3gsIGI6IEJveCkgPT4gIShhLngyIDwgYi54MSB8fCBiLngyIDwgYS54MSB8fCBhLnkyIDwgYi55MSB8fCBiLnkyIDwgYS55MSk7CgogICAgICAgIC8vIOWAmemAiemUmueCuSAoeCUsIHklKSDigJQg5LuF5pS+5Zyo5paH5a2X5LiN5aSq5Y+v6IO96JC95Yiw55qE5Yy65Z+fCiAgICAgICAgY29uc3QgYW5jaG9yczogQXJyYXk8eyB4OiBudW1iZXI7IHk6IG51bWJlcjsgdzogbnVtYmVyOyBoOiBudW1iZXI7IHJvdDogbnVtYmVyIH0+ID0gWwogICAgICAgICAgICB7IHg6IDg4LCB5OiA0LCAgdzogOCwgaDogNiwgcm90OiAxMiB9LCAgIC8vIOWPs+S4igogICAgICAgICAgICB7IHg6IDg4LCB5OiA5MiwgdzogOCwgaDogNiwgcm90OiAtOCB9LCAgIC8vIOWPs+S4iwogICAgICAgICAgICB7IHg6IDIsICB5OiA5MiwgdzogOCwgaDogNiwgcm90OiA2IH0sICAgIC8vIOW3puS4iyAo6KOF6K6i57q/5Y+z5L6nKQogICAgICAgIF07CiAgICAgICAgY29uc3Qgb3V0OiBBcnJheTx7IHg6IG51bWJlcjsgeTogbnVtYmVyOyByb3Q6IG51bWJlcjsga2luZDogJ3NwYXJrbGUnIHwgJ2JvdycgfT4gPSBbXTsKICAgICAgICBmb3IgKGxldCBpID0gMDsgaSA8IGFuY2hvcnMubGVuZ3RoICYmIG91dC5sZW5ndGggPCAyOyBpKyspIHsKICAgICAgICAgICAgY29uc3QgYSA9IGFuY2hvcnNbaV07CiAgICAgICAgICAgIGNvbnN0IGJveDogQm94ID0geyB4MTogYS54LCB5MTogYS55LCB4MjogYS54ICsgYS53LCB5MjogYS55ICsgYS5oIH07CiAgICAgICAgICAgIGlmIChwbGFjZWRCb3hlcy5zb21lKHBiID0+IGludGVyc2VjdChwYiwgYm94KSkpIGNvbnRpbnVlOwogICAgICAgICAgICBjb25zdCBraW5kUm9sbCA9IHNlZWRGbG9hdChkYXRlLCA1MDAwICsgaSk7CiAgICAgICAgICAgIG91dC5wdXNoKHsgeDogYS54LCB5OiBhLnksIHJvdDogYS5yb3QsIGtpbmQ6IGtpbmRSb2xsIDwgMC42ID8gJ3NwYXJrbGUnIDogJ2JvdycgfSk7CiAgICAgICAgfQogICAgICAgIHJldHVybiBvdXQ7CiAgICB9KSgpOwoKICAgIHJldHVybiAoCiAgICAgICAgPGRpdgogICAgICAgICAgICBjbGFzc05hbWU9InJlbGF0aXZlIG14LWF1dG8iCiAgICAgICAgICAgIHN0eWxlPXt7CiAgICAgICAgICAgICAgICB3aWR0aDogJzEwMCUnLAogICAgICAgICAgICAgICAgaGVpZ2h0OiAnMTAwJScsCiAgICAgICAgICAgICAgICBtYXhXaWR0aDogNDgwLAogICAgICAgICAgICAgICAgYmFja2dyb3VuZDogUEFQRVJfVE9ORVMucGFwZXIsCiAgICAgICAgICAgICAgICBib3hTaGFkb3c6ICcwIDZweCAyMnB4IC02cHggcmdiYSgxMjIsOTAsMTE0LDAuMjUpLCBpbnNldCAwIDAgMCAxLjVweCByZ2JhKDIyMCwxOTksMjEzLDAuNSknLAogICAgICAgICAgICAgICAgYm9yZGVyUmFkaXVzOiA2LAogICAgICAgICAgICAgICAgcGFkZGluZ0xlZnQ6IDMwLCAgICAgICAgICAgICAvLyDnu5noo4XorqLnjq/orqnkvY0KICAgICAgICAgICAgICAgIG92ZXJmbG93OiAnaGlkZGVuJywKICAgICAgICAgICAgICAgIC4uLnBhcGVyQmcsCiAgICAgICAgICAgIH19CiAgICAgICAgPgogICAgICAgICAgICA8QmluZGVyUmluZ3MgY291bnQ9ezExfSB0b25lPSJzaWx2ZXIiIC8+CgogICAgICAgICAgICB7Lyog5bem5L6n6KOF6K6i57q/ICovfQogICAgICAgICAgICA8ZGl2CiAgICAgICAgICAgICAgICBjbGFzc05hbWU9ImFic29sdXRlIHRvcC0wIGJvdHRvbS0wIHBvaW50ZXItZXZlbnRzLW5vbmUiCiAgICAgICAgICAgICAgICBzdHlsZT17ewogICAgICAgICAgICAgICAgICAgIGxlZnQ6IDEzLCB3aWR0aDogMS41LAogICAgICAgICAgICAgICAgICAgIGJhY2tncm91bmQ6IGByZXBlYXRpbmctbGluZWFyLWdyYWRpZW50KHRvIGJvdHRvbSwgJHtQQVBFUl9UT05FUy5hY2NlbnRSb3NlfSAwIDRweCwgdHJhbnNwYXJlbnQgNHB4IDhweClgLAogICAgICAgICAgICAgICAgICAgIG9wYWNpdHk6IDAuNCwKICAgICAgICAgICAgICAgIH19CiAgICAgICAgICAgICAgICBhcmlhLWhpZGRlbgogICAgICAgICAgICAvPgoKICAgICAgICAgICAgey8qIOijhemlsCDigJQg6aKE566XIOKJpCAyIOS7tiwg5bey5LiOIHBsYWNlbWVudCBiYm94IOWBmui/h+eisOaSnuajgOa1iyAqL30KICAgICAgICAgICAge2RlY29yYXRpb25zLm1hcCgoZCwgaSkgPT4gKAogICAgICAgICAgICAgICAgPGRpdgogICAgICAgICAgICAgICAgICAgIGtleT17aX0KICAgICAgICAgICAgICAgICAgICBjbGFzc05hbWU9ImFic29sdXRlIHBvaW50ZXItZXZlbnRzLW5vbmUiCiAgICAgICAgICAgICAgICAgICAgc3R5bGU9e3sgdG9wOiBgJHtkLnl9JWAsIGxlZnQ6IGAke2QueH0lYCwgdHJhbnNmb3JtOiBgcm90YXRlKCR7ZC5yb3R9ZGVnKWAsIHpJbmRleDogMSB9fQogICAgICAgICAgICAgICAgICAgIGFyaWEtaGlkZGVuCiAgICAgICAgICAgICAgICA+CiAgICAgICAgICAgICAgICAgICAge2Qua2luZCA9PT0gJ3NwYXJrbGUnCiAgICAgICAgICAgICAgICAgICAgICAgID8gPFNwYXJrbGVEb3Qgc2l6ZT17MTB9IGNvbG9yPXtQQVBFUl9UT05FUy5hY2NlbnRSb3NlfSAvPgogICAgICAgICAgICAgICAgICAgICAgICA6IDxTcGFya2xlRG90IHNpemU9ezh9IGNvbG9yPXtQQVBFUl9UT05FUy5hY2NlbnRMZW1vbn0gLz4KICAgICAgICAgICAgICAgICAgICB9CiAgICAgICAgICAgICAgICA8L2Rpdj4KICAgICAgICAgICAgKSl9CgogICAgICAgICAgICB7Lyog5pel5pyf6aG155yJIOKAlCDlg4/nnJ/lrp7ml6XorrDpobbpg6jpgqPkuIDooYzmiYvlhpnml6XmnJ8sIOaegeeugCDilIDilIDilIDilIDilIDilIDilIDilIDilIAgKi99CiAgICAgICAgICAgIHsvKiAiNS8xMCBTYXQuIiDkvZPkvos6IOWkp+aJi+WGmeaciOaXpSArIOaYn+acn+iLseaWh+e8qeWGmSwg5LiN5YaN5p2C5b+X5aSn5qCH6aKYICovfQogICAgICAgICAgICB7c2hvd0hlYWRlciAmJiAoCiAgICAgICAgICAgICAgICA8ZGl2IGNsYXNzTmFtZT0iYWJzb2x1dGUgcG9pbnRlci1ldmVudHMtbm9uZSIgc3R5bGU9e3sgdG9wOiAxMCwgbGVmdDogMzgsIHJpZ2h0OiAxNCwgekluZGV4OiAxIH19PgogICAgICAgICAgICAgICAgICAgIDxkaXYgY2xhc3NOYW1lPSJmbGV4IGl0ZW1zLWJhc2VsaW5lIGdhcC0yIj4KICAgICAgICAgICAgICAgICAgICAgICAgPHNwYW4KICAgICAgICAgICAgICAgICAgICAgICAgICAgIHN0eWxlPXt7CiAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgLi4uSEFORFdSSVRURU5fU1RBQ0ssCiAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgZm9udFNpemU6IDI0LAogICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgIGxpbmVIZWlnaHQ6IDEsCiAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgY29sb3I6IFBBUEVSX1RPTkVTLmluaywKICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICBmb250V2VpZ2h0OiA2MDAsCiAgICAgICAgICAgICAgICAgICAgICAgICAgICB9fQogICAgICAgICAgICAgICAgICAgICAgICA+CiAgICAgICAgICAgICAgICAgICAgICAgICAgICB7cGFyc2VJbnQoZGF5TnVtKGRhdGUpLCAxMCl9L3tkYXRlLnNwbGl0KCctJylbMV0ucmVwbGFjZSgvXjAvLCAnJyl9CiAgICAgICAgICAgICAgICAgICAgICAgIDwvc3Bhbj4KICAgICAgICAgICAgICAgICAgICAgICAgPHNwYW4KICAgICAgICAgICAgICAgICAgICAgICAgICAgIHN0eWxlPXt7CiAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgLi4uSEFORFdSSVRURU5fU1RBQ0ssCiAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgZm9udFNpemU6IDE4LAogICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgIGxpbmVIZWlnaHQ6IDEsCiAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgY29sb3I6IFBBUEVSX1RPTkVTLmlua1NvZnQsCiAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgZm9udFN0eWxlOiAnaXRhbGljJywKICAgICAgICAgICAgICAgICAgICAgICAgICAgIH19CiAgICAgICAgICAgICAgICAgICAgICAgID4KICAgICAgICAgICAgICAgICAgICAgICAgICAgIHtkYXlPZldlZWtaaChkYXRlKSA9PT0gJ+aXpScgPyAnU3VuLicKICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICA6IGRheU9mV2Vla1poKGRhdGUpID09PSAn5LiAJyA/ICdNb24uJwogICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgIDogZGF5T2ZXZWVrWmgoZGF0ZSkgPT09ICfkuownID8gJ1R1ZS4nCiAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgOiBkYXlPZldlZWtaaChkYXRlKSA9PT0gJ+S4iScgPyAnV2VkLicKICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICA6IGRheU9mV2Vla1poKGRhdGUpID09PSAn5ZubJyA/ICdUaHUuJwogICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgIDogZGF5T2ZXZWVrWmgoZGF0ZSkgPT09ICfkupQnID8gJ0ZyaS4nIDogJ1NhdC4nfQogICAgICAgICAgICAgICAgICAgICAgICA8L3NwYW4+CiAgICAgICAgICAgICAgICAgICAgICAgIHsvKiDkuIDlj6Xlv4Pmg4XlsI/or40sIOaegeWwjyAqL30KICAgICAgICAgICAgICAgICAgICAgICAgPHNwYW4KICAgICAgICAgICAgICAgICAgICAgICAgICAgIGNsYXNzTmFtZT0ibWwtYXV0byIKICAgICAgICAgICAgICAgICAgICAgICAgICAgIHN0eWxlPXt7CiAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgLi4uSEFORFdSSVRURU5fU1RBQ0ssCiAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgZm9udFNpemU6IDEzLAogICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgIGNvbG9yOiBQQVBFUl9UT05FUy5hY2NlbnRCbHVzaCwKICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICBvcGFjaXR5OiAwLjg1LAogICAgICAgICAgICAgICAgICAgICAgICAgICAgfX0KICAgICAgICAgICAgICAgICAgICAgICAgPgogICAgICAgICAgICAgICAgICAgICAgICAgICAgeygoKSA9PiB7CiAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgY29uc3QgbW9vZHMgPSBbJ+OBhOOBhOWkqeawlyEnLCAn5b+D5Zyw44KI44GEIOKZoScsICdzb2Z0IGRheScsICdqdXN0IHJpZ2h0JywgJ2dlbnRsZSDinL8nXTsKICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICByZXR1cm4gbW9vZHNbTWF0aC5mbG9vcihzZWVkRmxvYXQoZGF0ZSwgMSkgKiBtb29kcy5sZW5ndGgpXTsKICAgICAgICAgICAgICAgICAgICAgICAgICAgIH0pKCl9CiAgICAgICAgICAgICAgICAgICAgICAgIDwvc3Bhbj4KICAgICAgICAgICAgICAgICAgICA8L2Rpdj4KICAgICAgICAgICAgICAgICAgICB7Lyog5LiA5qC557uG57q/5Y6L5L2PLCDlg4/ml6XorrDnmoTml6XmnJ/kuIvliJLnur8gKi99CiAgICAgICAgICAgICAgICAgICAgPGRpdiBzdHlsZT17ewogICAgICAgICAgICAgICAgICAgICAgICBtYXJnaW5Ub3A6IDQsIGhlaWdodDogMSwKICAgICAgICAgICAgICAgICAgICAgICAgYmFja2dyb3VuZDogUEFQRVJfVE9ORVMuYWNjZW50Um9zZSwgb3BhY2l0eTogMC40LAogICAgICAgICAgICAgICAgICAgIH19IC8+CiAgICAgICAgICAgICAgICA8L2Rpdj4KICAgICAgICAgICAgKX0KCiAgICAgICAgICAgIHsvKiDnrKzkuozlvKDlj4rku6XlkI4s6aG26YOo55So5LiA5Liq566A5rSBIGpvbHQgKi99CiAgICAgICAgICAgIHshc2hvd0hlYWRlciAmJiAoCiAgICAgICAgICAgICAgICA8ZGl2IGNsYXNzTmFtZT0iYWJzb2x1dGUgcG9pbnRlci1ldmVudHMtbm9uZSIgc3R5bGU9e3sgdG9wOiAxMCwgbGVmdDogMzgsIHJpZ2h0OiAxNCwgekluZGV4OiAxIH19PgogICAgICAgICAgICAgICAgICAgIDxzcGFuCiAgICAgICAgICAgICAgICAgICAgICAgIHN0eWxlPXt7CiAgICAgICAgICAgICAgICAgICAgICAgICAgICAuLi5IQU5EV1JJVFRFTl9TVEFDSywKICAgICAgICAgICAgICAgICAgICAgICAgICAgIGZvbnRTaXplOiAxNCwKICAgICAgICAgICAgICAgICAgICAgICAgICAgIGNvbG9yOiBQQVBFUl9UT05FUy5pbmtTb2Z0LAogICAgICAgICAgICAgICAgICAgICAgICAgICAgZm9udFN0eWxlOiAnaXRhbGljJywKICAgICAgICAgICAgICAgICAgICAgICAgfX0KICAgICAgICAgICAgICAgICAgICA+CiAgICAgICAgICAgICAgICAgICAgICAgIGNvbnQuIMK3IHtwYXJzZUludChkYXlOdW0oZGF0ZSksIDEwKX0ve2RhdGUuc3BsaXQoJy0nKVsxXS5yZXBsYWNlKC9eMC8sICcnKX0KICAgICAgICAgICAgICAgICAgICA8L3NwYW4+CiAgICAgICAgICAgICAgICA8L2Rpdj4KICAgICAgICAgICAgKX0KCiAgICAgICAgICAgIHsvKiDnlLvluIMg4oCUIOWPr+aRhiBmcmFnbWVudCDnmoTmlbTpobUgKi99CiAgICAgICAgICAgIDxkaXYKICAgICAgICAgICAgICAgIGNsYXNzTmFtZT0iYWJzb2x1dGUiCiAgICAgICAgICAgICAgICBzdHlsZT17ewogICAgICAgICAgICAgICAgICAgIGxlZnQ6IDMyLAogICAgICAgICAgICAgICAgICAgIHJpZ2h0OiA0LAogICAgICAgICAgICAgICAgICAgIHRvcDogc2hvd0hlYWRlciA/IDUwIDogMzAsCiAgICAgICAgICAgICAgICAgICAgYm90dG9tOiAyOCwKICAgICAgICAgICAgICAgIH19CiAgICAgICAgICAgID4KICAgICAgICAgICAgICAgIHtsYXlvdXQucGxhY2VtZW50cy5tYXAoKHBsLCBpKSA9PiB7CiAgICAgICAgICAgICAgICAgICAgY29uc3QgcGFnZSA9IHBhZ2VNYXAuZ2V0KHBsLnBhZ2VJZCk7CiAgICAgICAgICAgICAgICAgICAgaWYgKCFwYWdlKSByZXR1cm4gbnVsbDsKICAgICAgICAgICAgICAgICAgICBjb25zdCBmcmFnbWVudCA9IHBsLmZyYWdtZW50SWQgPyBmcmFnTWFwLmdldChwbC5mcmFnbWVudElkKSA6IHVuZGVmaW5lZDsKICAgICAgICAgICAgICAgICAgICBjb25zdCBjaGFyID0gcGFnZS5jaGFySWQgPyBjaGFyYWN0ZXJzLmZpbmQoYyA9PiBjLmlkID09PSBwYWdlLmNoYXJJZCkgOiB1bmRlZmluZWQ7CgogICAgICAgICAgICAgICAgICAgIHJldHVybiAoCiAgICAgICAgICAgICAgICAgICAgICAgIDxkaXYKICAgICAgICAgICAgICAgICAgICAgICAgICAgIGtleT17YCR7cGwucGFnZUlkfS0ke3BsLmZyYWdtZW50SWQgPz8gJ3BhZ2UnfS0ke2l9YH0KICAgICAgICAgICAgICAgICAgICAgICAgICAgIHN0eWxlPXt7CiAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgcG9zaXRpb246ICdhYnNvbHV0ZScsCiAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgbGVmdDogYCR7cGwueFBjdH0lYCwKICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICB0b3A6IGAke3BsLnlQY3R9JWAsCiAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgd2lkdGg6IGAke3BsLndpZHRoUGN0fSVgLAogICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgIHRyYW5zZm9ybTogYHJvdGF0ZSgke3BsLnJvdGF0ZX1kZWcpYCwKICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICB0cmFuc2Zvcm1PcmlnaW46ICd0b3AgbGVmdCcsCiAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgekluZGV4OiBwbC56SW5kZXgsCiAgICAgICAgICAgICAgICAgICAgICAgICAgICB9fQogICAgICAgICAgICAgICAgICAgICAgICA+CiAgICAgICAgICAgICAgICAgICAgICAgICAgICA8ZGl2IG9uQ2xpY2s9e29uUGlja1BsYWNlbWVudCA/ICgpID0+IG9uUGlja1BsYWNlbWVudChwbC5wYWdlSWQsIHBsLmZyYWdtZW50SWQpIDogdW5kZWZpbmVkfQogICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgIHN0eWxlPXt7IGN1cnNvcjogb25QaWNrUGxhY2VtZW50ID8gJ3BvaW50ZXInIDogJ2RlZmF1bHQnIH19PgogICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgIDxTbG90UmVuZGVyZXIKICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgcGxhY2VtZW50PXtwbH0KICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgZnJhZ21lbnQ9e2ZyYWdtZW50fQogICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICBwYWdlPXtwYWdlfQogICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICBjaGFyPXtjaGFyfQogICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICB1c2VyTmFtZT17dXNlck5hbWV9CiAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgLz4KICAgICAgICAgICAgICAgICAgICAgICAgICAgIDwvZGl2PgogICAgICAgICAgICAgICAgICAgICAgICA8L2Rpdj4KICAgICAgICAgICAgICAgICAgICApOwogICAgICAgICAgICAgICAgfSl9CiAgICAgICAgICAgIDwvZGl2PgoKICAgICAgICAgICAgey8qIOmhteiEmiDigJQg5LuF5LiA6KGM5bCP5omL5YaZIHRhZ2xpbmUgKyAo5aSa6aG15pe2KemhteeggSDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIAgKi99CiAgICAgICAgICAgIDxkaXYKICAgICAgICAgICAgICAgIGNsYXNzTmFtZT0iYWJzb2x1dGUgcG9pbnRlci1ldmVudHMtbm9uZSBmbGV4IGl0ZW1zLWVuZCBqdXN0aWZ5LWJldHdlZW4iCiAgICAgICAgICAgICAgICBzdHlsZT17eyBib3R0b206IDYsIGxlZnQ6IDM4LCByaWdodDogMTQsIHpJbmRleDogMSB9fQogICAgICAgICAgICA+CiAgICAgICAgICAgICAgICA8c3BhbgogICAgICAgICAgICAgICAgICAgIHN0eWxlPXt7CiAgICAgICAgICAgICAgICAgICAgICAgIC4uLkhBTkRXUklUVEVOX1NUQUNLLAogICAgICAgICAgICAgICAgICAgICAgICBmb250U2l6ZTogMTEsCiAgICAgICAgICAgICAgICAgICAgICAgIGNvbG9yOiBQQVBFUl9UT05FUy5pbmtGYWludCwKICAgICAgICAgICAgICAgICAgICAgICAgZm9udFN0eWxlOiAnaXRhbGljJywKICAgICAgICAgICAgICAgICAgICAgICAgb3BhY2l0eTogMC43LAogICAgICAgICAgICAgICAgICAgIH19CiAgICAgICAgICAgICAgICA+CiAgICAgICAgICAgICAgICAgICAgeygoKSA9PiB7CiAgICAgICAgICAgICAgICAgICAgICAgIGNvbnN0IHRhZ2xpbmVzID0gWwogICAgICAgICAgICAgICAgICAgICAgICAgICAgJ3NvZnQgZGF5IOKZoScsICdzbWFsbCB0aGluZ3Mga2VwdCBnZW50bHknLCAndG8gcmVtZW1iZXIgc29mdGx5JywKICAgICAgICAgICAgICAgICAgICAgICAgICAgICdqdXN0IGEgdXN1YWwgZGF5JywgJ2xldCB0aGUgZGF5IHN0YXknLAogICAgICAgICAgICAgICAgICAgICAgICBdOwogICAgICAgICAgICAgICAgICAgICAgICByZXR1cm4gdGFnbGluZXNbTWF0aC5mbG9vcihzZWVkRmxvYXQoZGF0ZSwgOTkpICogdGFnbGluZXMubGVuZ3RoKV07CiAgICAgICAgICAgICAgICAgICAgfSkoKX0KICAgICAgICAgICAgICAgIDwvc3Bhbj4KICAgICAgICAgICAgICAgIHtwYWdlTnVtYmVyTGFiZWwgJiYgKAogICAgICAgICAgICAgICAgICAgIDxzcGFuCiAgICAgICAgICAgICAgICAgICAgICAgIHN0eWxlPXt7CiAgICAgICAgICAgICAgICAgICAgICAgICAgICAuLi5IQU5EV1JJVFRFTl9TVEFDSywKICAgICAgICAgICAgICAgICAgICAgICAgICAgIGZvbnRTaXplOiAxMSwKICAgICAgICAgICAgICAgICAgICAgICAgICAgIGNvbG9yOiBQQVBFUl9UT05FUy5pbmtTb2Z0LAogICAgICAgICAgICAgICAgICAgICAgICAgICAgb3BhY2l0eTogMC43LAogICAgICAgICAgICAgICAgICAgICAgICB9fQogICAgICAgICAgICAgICAgICAgID4KICAgICAgICAgICAgICAgICAgICAgICAge3BhZ2VOdW1iZXJMYWJlbH0KICAgICAgICAgICAgICAgICAgICA8L3NwYW4+CiAgICAgICAgICAgICAgICApfQogICAgICAgICAgICA8L2Rpdj4KICAgICAgICA8L2Rpdj4KICAgICk7Cn07CgpleHBvcnQgZGVmYXVsdCBKb3VybmFsQ2FudmFzOwo=
+/**
+ * 一张"纸"的画布
+ *
+ * - 容器自适应父宽 + 父高,默认填满,但用 maxWidth 限制宽屏不要无限拉
+ * - 内部坐标系: 整张纸 = 100% x 100%, 每个 placement 用 % 落位
+ * - 装饰: 左侧装订环 + 顶部 lace + 散落贴纸(由父级传入)
+ *
+ * 不负责日期头/翻页/编辑 — 只画一张纸的内容。
+ */
+
+import React from 'react';
+import {
+    HandbookPage, CharacterProfile, HandbookLayout, HandbookFragment,
+} from '../../types';
+import {
+    PAPER_TONES, BinderRings, HANDWRITTEN_STACK,
+    dayNum, dayOfWeekZh, seedFloat,
+} from './paper';
+import { SparkleDot } from './stickers';
+import SlotRenderer from './SlotRenderer';
+
+interface Props {
+    date: string;
+    layout: HandbookLayout;
+    pages: HandbookPage[];
+    characters: CharacterProfile[];
+    userName: string;
+    /** 点击某个 placement → 父级决定怎么处理(打开编辑/操作菜单) */
+    onPickPlacement?: (pageId: string, fragmentId?: string) => void;
+    /** 是否显示日期页眉(只有第一张纸显示) */
+    showHeader?: boolean;
+    pageNumberLabel?: string;     // "1 / 3" 之类,显示在右下角
+}
+
+const JournalCanvas: React.FC<Props> = ({
+    date, layout, pages, characters, userName, onPickPlacement, showHeader = true, pageNumberLabel,
+}) => {
+    // 把 pageId → page,fragmentId → fragment 建索引
+    const pageMap = new Map<string, HandbookPage>();
+    pages.forEach(p => pageMap.set(p.id, p));
+    const fragMap = new Map<string, HandbookFragment>();
+    pages.forEach(p => p.fragments?.forEach(f => fragMap.set(f.id, f)));
+
+    // v2: 强调预算 lint 退役 — slot charBudget 已经卡住字数, prompt 也限制 emphasis 上限
+    // 老数据 (无 slotRole) 渲染时 SlotRenderer 自动 fallback 到 JournalFragmentCard,
+    // 那一路也不再依赖外部 lint (老 entry 重新打开就是了)
+
+    // 用 date 当种子, 决定纸张底纹: 网格 / 横线 / 净色
+    // 像真实日记本 — 纸先于贴纸存在
+    const paperKind = (() => {
+        const r = seedFloat(date, 4242);
+        if (r < 0.45) return 'grid';
+        if (r < 0.85) return 'lined';
+        return 'plain';
+    })();
+    const paperBg: React.CSSProperties = paperKind === 'grid'
+        ? { backgroundImage: 'linear-gradient(rgba(185,211,224,0.20) 1px, transparent 1px), linear-gradient(90deg, rgba(185,211,224,0.20) 1px, transparent 1px)', backgroundSize: '22px 22px' }
+        : paperKind === 'lined'
+        ? { backgroundImage: 'repeating-linear-gradient(transparent, transparent 25px, rgba(242,157,176,0.18) 25px, rgba(242,157,176,0.18) 26px)' }
+        : {};
+
+    // ─── 装饰预算 (硬编码) ──────────────────────────────────
+    // 上限: ≤ 2 件 (sparkle + bow), 每件 ≤ 12% 面积, 避开所有 placement bbox.
+    // 候选位置 = 4 个角的小区域, 用 seed 选, 与 placements 不重叠才放。
+    const decorations = (() => {
+        type Box = { x1: number; y1: number; x2: number; y2: number };
+        const placedBoxes: Box[] = layout.placements.map(pl => {
+            const text = pl.fragmentId ? fragMap.get(pl.fragmentId)?.text ?? '' : pageMap.get(pl.pageId)?.content ?? '';
+            const charsPerLine = Math.max(8, Math.floor(pl.widthPct * 0.16));
+            const lines = Math.max(1, Math.ceil(text.length / charsPerLine));
+            const base = pl.role === 'margin' ? 4 : pl.role === 'corner' ? 6 : 9;
+            const h = lines * 3.4 + base;
+            return { x1: pl.xPct - 1, y1: pl.yPct - 1, x2: pl.xPct + pl.widthPct + 1, y2: pl.yPct + h + 1 };
+        });
+        const intersect = (a: Box, b: Box) => !(a.x2 < b.x1 || b.x2 < a.x1 || a.y2 < b.y1 || b.y2 < a.y1);
+
+        // 候选锚点 (x%, y%) — 仅放在文字不太可能落到的区域
+        const anchors: Array<{ x: number; y: number; w: number; h: number; rot: number }> = [
+            { x: 88, y: 4,  w: 8, h: 6, rot: 12 },   // 右上
+            { x: 88, y: 92, w: 8, h: 6, rot: -8 },   // 右下
+            { x: 2,  y: 92, w: 8, h: 6, rot: 6 },    // 左下 (装订线右侧)
+        ];
+        const out: Array<{ x: number; y: number; rot: number; kind: 'sparkle' | 'bow' }> = [];
+        for (let i = 0; i < anchors.length && out.length < 2; i++) {
+            const a = anchors[i];
+            const box: Box = { x1: a.x, y1: a.y, x2: a.x + a.w, y2: a.y + a.h };
+            if (placedBoxes.some(pb => intersect(pb, box))) continue;
+            const kindRoll = seedFloat(date, 5000 + i);
+            out.push({ x: a.x, y: a.y, rot: a.rot, kind: kindRoll < 0.6 ? 'sparkle' : 'bow' });
+        }
+        return out;
+    })();
+
+    return (
+        <div
+            className="relative mx-auto"
+            style={{
+                width: '100%',
+                height: '100%',
+                maxWidth: 480,
+                background: PAPER_TONES.paper,
+                boxShadow: '0 6px 22px -6px rgba(122,90,114,0.25), inset 0 0 0 1.5px rgba(220,199,213,0.5)',
+                borderRadius: 6,
+                paddingLeft: 30,             // 给装订环让位
+                overflow: 'hidden',
+                ...paperBg,
+            }}
+        >
+            <BinderRings count={11} tone="silver" />
+
+            {/* 左侧装订线 */}
+            <div
+                className="absolute top-0 bottom-0 pointer-events-none"
+                style={{
+                    left: 13, width: 1.5,
+                    background: `repeating-linear-gradient(to bottom, ${PAPER_TONES.accentRose} 0 4px, transparent 4px 8px)`,
+                    opacity: 0.4,
+                }}
+                aria-hidden
+            />
+
+            {/* 装饰 — 预算 ≤ 2 件, 已与 placement bbox 做过碰撞检测 */}
+            {decorations.map((d, i) => (
+                <div
+                    key={i}
+                    className="absolute pointer-events-none"
+                    style={{ top: `${d.y}%`, left: `${d.x}%`, transform: `rotate(${d.rot}deg)`, zIndex: 1 }}
+                    aria-hidden
+                >
+                    {d.kind === 'sparkle'
+                        ? <SparkleDot size={10} color={PAPER_TONES.accentRose} />
+                        : <SparkleDot size={8} color={PAPER_TONES.accentLemon} />
+                    }
+                </div>
+            ))}
+
+            {/* 日期页眉 — 像真实日记顶部那一行手写日期, 极简 ───────── */}
+            {/* "5/10 Sat." 体例: 大手写月日 + 星期英文缩写, 不再杂志大标题 */}
+            {showHeader && (
+                <div className="absolute pointer-events-none" style={{ top: 10, left: 38, right: 14, zIndex: 1 }}>
+                    <div className="flex items-baseline gap-2">
+                        <span
+                            style={{
+                                ...HANDWRITTEN_STACK,
+                                fontSize: 24,
+                                lineHeight: 1,
+                                color: PAPER_TONES.ink,
+                                fontWeight: 600,
+                            }}
+                        >
+                            {parseInt(dayNum(date), 10)}/{date.split('-')[1].replace(/^0/, '')}
+                        </span>
+                        <span
+                            style={{
+                                ...HANDWRITTEN_STACK,
+                                fontSize: 18,
+                                lineHeight: 1,
+                                color: PAPER_TONES.inkSoft,
+                                fontStyle: 'italic',
+                            }}
+                        >
+                            {dayOfWeekZh(date) === '日' ? 'Sun.'
+                                : dayOfWeekZh(date) === '一' ? 'Mon.'
+                                : dayOfWeekZh(date) === '二' ? 'Tue.'
+                                : dayOfWeekZh(date) === '三' ? 'Wed.'
+                                : dayOfWeekZh(date) === '四' ? 'Thu.'
+                                : dayOfWeekZh(date) === '五' ? 'Fri.' : 'Sat.'}
+                        </span>
+                        {/* 一句心情小词, 极小 */}
+                        <span
+                            className="ml-auto"
+                            style={{
+                                ...HANDWRITTEN_STACK,
+                                fontSize: 13,
+                                color: PAPER_TONES.accentBlush,
+                                opacity: 0.85,
+                            }}
+                        >
+                            {(() => {
+                                const moods = ['いい天気!', '心地よい ♡', 'soft day', 'just right', 'gentle ✿'];
+                                return moods[Math.floor(seedFloat(date, 1) * moods.length)];
+                            })()}
+                        </span>
+                    </div>
+                    {/* 一根细线压住, 像日记的日期下划线 */}
+                    <div style={{
+                        marginTop: 4, height: 1,
+                        background: PAPER_TONES.accentRose, opacity: 0.4,
+                    }} />
+                </div>
+            )}
+
+            {/* 第二张及以后,顶部用一个简洁 jolt */}
+            {!showHeader && (
+                <div className="absolute pointer-events-none" style={{ top: 10, left: 38, right: 14, zIndex: 1 }}>
+                    <span
+                        style={{
+                            ...HANDWRITTEN_STACK,
+                            fontSize: 14,
+                            color: PAPER_TONES.inkSoft,
+                            fontStyle: 'italic',
+                        }}
+                    >
+                        cont. · {parseInt(dayNum(date), 10)}/{date.split('-')[1].replace(/^0/, '')}
+                    </span>
+                </div>
+            )}
+
+            {/* 画布 — 可摆 fragment 的整页 */}
+            <div
+                className="absolute"
+                style={{
+                    left: 32,
+                    right: 4,
+                    top: showHeader ? 50 : 30,
+                    bottom: 28,
+                }}
+            >
+                {layout.placements.map((pl, i) => {
+                    const page = pageMap.get(pl.pageId);
+                    if (!page) return null;
+                    const fragment = pl.fragmentId ? fragMap.get(pl.fragmentId) : undefined;
+                    const char = page.charId ? characters.find(c => c.id === page.charId) : undefined;
+
+                    return (
+                        <div
+                            key={`${pl.pageId}-${pl.fragmentId ?? 'page'}-${i}`}
+                            style={{
+                                position: 'absolute',
+                                left: `${pl.xPct}%`,
+                                top: `${pl.yPct}%`,
+                                width: `${pl.widthPct}%`,
+                                transform: `rotate(${pl.rotate}deg)`,
+                                transformOrigin: 'top left',
+                                zIndex: pl.zIndex,
+                            }}
+                        >
+                            <div onClick={onPickPlacement ? () => onPickPlacement(pl.pageId, pl.fragmentId) : undefined}
+                                style={{ cursor: onPickPlacement ? 'pointer' : 'default' }}>
+                                <SlotRenderer
+                                    placement={pl}
+                                    fragment={fragment}
+                                    page={page}
+                                    char={char}
+                                    userName={userName}
+                                />
+                            </div>
+                        </div>
+                    );
+                })}
+            </div>
+
+            {/* 页脚 — 仅一行小手写 tagline + (多页时)页码 ─────────── */}
+            <div
+                className="absolute pointer-events-none flex items-end justify-between"
+                style={{ bottom: 6, left: 38, right: 14, zIndex: 1 }}
+            >
+                <span
+                    style={{
+                        ...HANDWRITTEN_STACK,
+                        fontSize: 11,
+                        color: PAPER_TONES.inkFaint,
+                        fontStyle: 'italic',
+                        opacity: 0.7,
+                    }}
+                >
+                    {(() => {
+                        const taglines = [
+                            'soft day ♡', 'small things kept gently', 'to remember softly',
+                            'just a usual day', 'let the day stay',
+                        ];
+                        return taglines[Math.floor(seedFloat(date, 99) * taglines.length)];
+                    })()}
+                </span>
+                {pageNumberLabel && (
+                    <span
+                        style={{
+                            ...HANDWRITTEN_STACK,
+                            fontSize: 11,
+                            color: PAPER_TONES.inkSoft,
+                            opacity: 0.7,
+                        }}
+                    >
+                        {pageNumberLabel}
+                    </span>
+                )}
+            </div>
+        </div>
+    );
+};
+
+export default JournalCanvas;

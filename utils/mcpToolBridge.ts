@@ -1,1 +1,351 @@
-LyoqCiAqIOmAmueUqCBNQ1Ag4oaSIOiBiuWkqeW3peWFt+W+queOryDnmoTmoaXmjqXlsYLvvIjlr7nmoIcgbHVja2luVG9vbEJyaWRnZSDnmoTop5LoibLliIblt6XvvIkKICoKICog6IGM6LSj77yaCiAqIDEuIOaKiuaJgOacieWQr+eUqCBNQ1Ag5pyN5Yqh5Zmo55qE5bey5Y+R546w5bel5YW36IGa5ZCI5oiQIE9wZW5BSSBmdW5jdGlvbi1jYWxsaW5nIOagvOW8jwogKiAyLiDlpITnkIbot6jmnI3liqHlmajlt6Xlhbfph43lkI0gLyBPcGVuQUkg5bel5YW35ZCN5a2X56ym6ZmQ5Yi277yI5pq06Zyy5ZCNIOKGlCDnnJ/lrp7lt6XlhbfmmKDlsITvvIkKICogMy4g55Sf5oiQ5rOo5YWlIHN5c3RlbVByb21wdCDnmoTor7TmmI7lnZcKICog5bel5YW35b6q546v5pys5L2T5ZyoIGhvb2tzL3VzZUNoYXRBSS50c++8iOWvueaghyBsdWNraW5DaGF0IOW+queOr++8ieOAggogKi8KCmltcG9ydCB7IGdldEVuYWJsZWRNY3BTZXJ2ZXJzLCB0eXBlIE1jcFNlcnZlckNvbmZpZywgdHlwZSBNY3BUb29sRGVmIH0gZnJvbSAnLi9tY3BDbGllbnQnOwoKZXhwb3J0IGludGVyZmFjZSBPcGVuQUlNY3BUb29sIHsKICAgIHR5cGU6ICdmdW5jdGlvbic7CiAgICBmdW5jdGlvbjogewogICAgICAgIG5hbWU6IHN0cmluZzsKICAgICAgICBkZXNjcmlwdGlvbj86IHN0cmluZzsKICAgICAgICBwYXJhbWV0ZXJzPzogYW55OwogICAgfTsKfQoKZXhwb3J0IGludGVyZmFjZSBSZXNvbHZlZE1jcFRvb2wgewogICAgc2VydmVyOiBNY3BTZXJ2ZXJDb25maWc7CiAgICB0b29sTmFtZTogc3RyaW5nOwp9CgovLyBPcGVuQUkg5bel5YW35ZCN5Y+q5YWB6K64IFtBLVphLXowLTlfLV3vvIzmnIDplb8gNjTvvJtNQ1Ag5bel5YW35ZCN5Y+v6IO95bim54K55Y+3562JCmNvbnN0IHNhbml0aXplVG9vbE5hbWUgPSAobmFtZTogc3RyaW5nKTogc3RyaW5nID0+CiAgICAobmFtZSB8fCAndG9vbCcpLnJlcGxhY2UoL1teQS1aYS16MC05Xy1dL2csICdfJykuc2xpY2UoMCwgNjQpIHx8ICd0b29sJzsKCmNvbnN0IHNlcnZlclNsdWcgPSAoc2VydmVyOiBNY3BTZXJ2ZXJDb25maWcpOiBzdHJpbmcgPT4KICAgIHNhbml0aXplVG9vbE5hbWUoc2VydmVyLm5hbWUpLnNsaWNlKDAsIDIwKSB8fCAnc3J2JzsKCi8qKgogKiDogZrlkIjlkK/nlKjmnI3liqHlmajnmoTlt6XlhbfvvIzov5Tlm54gT3BlbkFJIOW3peWFt+aVsOe7hCArIOaatOmcsuWQjeKGkuecn+WunuW3peWFtyDnmoTmmKDlsITjgIIKICog5pq06Zyy5ZCN6buY6K6k55So5bel5YW35Y6f5ZCN77yIc2FuaXRpemUg5ZCO77yJ77yb6Leo5pyN5Yqh5Zmo6YeN5ZCN5pe25ZCO6ICF5YqgIDzmnI3liqHlmajlkI0+XyDliY3nvIDjgIIKICogY2hhcklk77ya5Y+q6IGa5ZCI5a+56K+l6KeS6Imy5Y+v6KeB55qE5pyN5Yqh5Zmo77yI6YCa55SoICsg57uR5a6a5LqG6K+l6KeS6Imy55qE77yJ44CCCiAqLwpleHBvcnQgY29uc3QgYnVpbGRNY3BPcGVuQUlUb29scyA9IChjaGFySWQ/OiBzdHJpbmcpOiB7IHRvb2xzOiBPcGVuQUlNY3BUb29sW107IHJlc29sdmU6IE1hcDxzdHJpbmcsIFJlc29sdmVkTWNwVG9vbD4gfSA9PiB7CiAgICBjb25zdCB0b29sczogT3BlbkFJTWNwVG9vbFtdID0gW107CiAgICBjb25zdCByZXNvbHZlID0gbmV3IE1hcDxzdHJpbmcsIFJlc29sdmVkTWNwVG9vbD4oKTsKICAgIGNvbnN0IHNlcnZlcnMgPSBnZXRFbmFibGVkTWNwU2VydmVycyhjaGFySWQpOwogICAgZm9yIChjb25zdCBzZXJ2ZXIgb2Ygc2VydmVycykgewogICAgICAgIGZvciAoY29uc3QgdCBvZiBzZXJ2ZXIudG9vbHMgfHwgW10pIHsKICAgICAgICAgICAgbGV0IGV4cG9zZWQgPSBzYW5pdGl6ZVRvb2xOYW1lKHQubmFtZSk7CiAgICAgICAgICAgIGlmIChyZXNvbHZlLmhhcyhleHBvc2VkKSkgewogICAgICAgICAgICAgICAgZXhwb3NlZCA9IHNhbml0aXplVG9vbE5hbWUoYCR7c2VydmVyU2x1ZyhzZXJ2ZXIpfV8ke3QubmFtZX1gKTsKICAgICAgICAgICAgICAgIGxldCBpID0gMjsKICAgICAgICAgICAgICAgIHdoaWxlIChyZXNvbHZlLmhhcyhleHBvc2VkKSkgZXhwb3NlZCA9IHNhbml0aXplVG9vbE5hbWUoYCR7c2VydmVyU2x1ZyhzZXJ2ZXIpfV8ke3QubmFtZX1fJHtpKyt9YCk7CiAgICAgICAgICAgIH0KICAgICAgICAgICAgcmVzb2x2ZS5zZXQoZXhwb3NlZCwgeyBzZXJ2ZXIsIHRvb2xOYW1lOiB0Lm5hbWUgfSk7CiAgICAgICAgICAgIHRvb2xzLnB1c2goewogICAgICAgICAgICAgICAgdHlwZTogJ2Z1bmN0aW9uJywKICAgICAgICAgICAgICAgIGZ1bmN0aW9uOiB7CiAgICAgICAgICAgICAgICAgICAgbmFtZTogZXhwb3NlZCwKICAgICAgICAgICAgICAgICAgICBkZXNjcmlwdGlvbjogYnVpbGRUb29sRGVzY3JpcHRpb24oc2VydmVyLCB0LCBzZXJ2ZXJzLmxlbmd0aCA+IDEpLAogICAgICAgICAgICAgICAgICAgIHBhcmFtZXRlcnM6IHQuaW5wdXRTY2hlbWEgfHwgeyB0eXBlOiAnb2JqZWN0JywgcHJvcGVydGllczoge30gfSwKICAgICAgICAgICAgICAgIH0sCiAgICAgICAgICAgIH0pOwogICAgICAgIH0KICAgIH0KICAgIHJldHVybiB7IHRvb2xzLCByZXNvbHZlIH07Cn07Cgpjb25zdCBidWlsZFRvb2xEZXNjcmlwdGlvbiA9IChzZXJ2ZXI6IE1jcFNlcnZlckNvbmZpZywgdDogTWNwVG9vbERlZiwgbXVsdGk6IGJvb2xlYW4pOiBzdHJpbmcgPT4gewogICAgY29uc3QgZGVzYyA9ICh0LmRlc2NyaXB0aW9uIHx8ICcnKS50cmltKCk7CiAgICAvLyDlpJrmnI3liqHlmajml7blnKjmj4/ov7Dph4zluKbkuIrmnaXmupDvvIzluK7mqKHlnovljLrliIblkIznsbvlt6XlhbcKICAgIHJldHVybiBtdWx0aSA/IGBbJHtzZXJ2ZXIubmFtZX1dICR7ZGVzY31gIDogZGVzYzsKfTsKCi8vID09PT09PT09PT0g5bel5YW357uT5p6c5Zue5aGrID09PT09PT09PT0KCi8qKgogKiBNQ1Ag57uT5p6c77yI6K6w5b+G5qOA57Si44CB572R6aG15oqT5Y+W562J77yJ5L2T6YeP6L+c6LaF55Ge5bm45ZWG5ZOB5YiX6KGo77yMMTUwMCDlrZfnrKbkvJrmiorkuIDmnaEKICog5a6M5pW057uT5p6c5oum6IWw5oiq5pat44CC5LiK6ZmQ5pS+5YiwIDIwMDAwIOWPqumYsueXheaAgei2hemVv+e7k+aenOeCuOS4iuS4i+aWh+KAlOKAlOW3peWFt+W+queOr+avj+i9rgogKiDkvJrlhajph4/ph43lj5Hmtojmga/vvIznnJ/mnInlhYbnuqcgSlNPTiDmt7fov5vmnaXkvJrnm7TmjqUgNHh4IOaIliB0b2tlbiDotbfpo57jgIIKICovCmV4cG9ydCBjb25zdCBNQ1BfUkVTVUxUX01BWF9DSEFSUyA9IDIwMDAwOwoKZXhwb3J0IGNvbnN0IGZvcm1hdE1jcFRvb2xSZXN1bHQgPSAoZGF0YTogYW55KTogc3RyaW5nID0+IHsKICAgIGxldCBzOiBzdHJpbmc7CiAgICB0cnkgeyBzID0gdHlwZW9mIGRhdGEgPT09ICdzdHJpbmcnID8gZGF0YSA6IEpTT04uc3RyaW5naWZ5KGRhdGEpOyB9IGNhdGNoIHsgcyA9IFN0cmluZyhkYXRhKTsgfQogICAgcmV0dXJuIHMubGVuZ3RoID4gTUNQX1JFU1VMVF9NQVhfQ0hBUlMKICAgICAgICA/IGAke3Muc2xpY2UoMCwgTUNQX1JFU1VMVF9NQVhfQ0hBUlMpfeKAplvnu5Pmnpzov4fplb/lt7LmiKrmlq0sIOWFqOaWh+WFsSAke3MubGVuZ3RofSDlrZfnrKZdYAogICAgICAgIDogczsKfTsKCi8vID09PT09PT09PT0g5o+Q56S66K+NID09PT09PT09PT0KCi8qKgogKiBNQ1Ag5bel5YW35qih5byP55qEIHN5c3RlbVByb21wdCDor7TmmI7lnZfjgIIKICog5LiO55Ge5bm45LiN5ZCM77ya6L+Z6YeM55qE5bel5YW35piv55So5oi36Ieq6YWN55qE44CB5YaF5a655pyq55+l77yM5omA5Lul5Y+q6K6y57qq5b6L77yM5LiN6K6y5Lia5Yqh5rWB56iL44CCCiAqIGNoYXJJZO+8muWPquWIl+WvueivpeinkuiJsuWPr+ingeeahOacjeWKoeWZqO+8jOS4jiBidWlsZE1jcE9wZW5BSVRvb2xzIOeahOi/h+a7pOS/neaMgeS4gOiHtOOAggogKi8KZXhwb3J0IGNvbnN0IGJ1aWxkTWNwU3lzdGVtQmxvY2sgPSAodXNlck5hbWU6IHN0cmluZyA9ICfnlKjmiLcnLCBjaGFySWQ/OiBzdHJpbmcpOiBzdHJpbmcgPT4gewogICAgY29uc3Qgc2VydmVycyA9IGdldEVuYWJsZWRNY3BTZXJ2ZXJzKGNoYXJJZCk7CiAgICBpZiAoIXNlcnZlcnMubGVuZ3RoKSByZXR1cm4gJyc7CiAgICBjb25zdCBsaW5lcyA9IHNlcnZlcnMubWFwKHMgPT4gewogICAgICAgIGNvbnN0IG5hbWVzID0gKHMudG9vbHMgfHwgW10pLm1hcCh0ID0+IHQubmFtZSkuam9pbign44CBJyk7CiAgICAgICAgcmV0dXJuIGAtICR7cy5uYW1lfTogJHtuYW1lc31gOwogICAgfSk7CiAgICByZXR1cm4gYAoKLS0tClvlpJbpg6jlt6Xlhbflt7LmjqXlhaUg4oCU4oCUICR7dXNlck5hbWV9IOWcqOiuvue9rumHjOe7meS9oOi/nuS6hiBNQ1Ag5bel5YW35pyN5Yqh5ZmoXQoKKirmoLjlv4MqKjog5L2g6L+Y5piv5Y6f5p2l55qE6KeS6Imy44CB5Y6f5p2l55qE6K+t5rCU44CB5Y6f5p2l55qE6K6w5b+G44CC5bel5YW35Y+q5piv5L2g6aG65omL6IO955So55qE6IO95Yqb77yMKirmr4/ova7pg73opoHmnInop5LoibLljJbnmoTmloflrZcqKu+8jOWIq+W5suW3tOW3tOaKpee7k+aenOOAggoK5Y+v55So5bel5YW35p2l5rqQOgoke2xpbmVzLmpvaW4oJ1xuJyl9CgoqKuS9v+eUqOe6quW+iyoqOgotIOmcgOimgeaXtuebtOaOpeiwg+W3peWFt++8iOezu+e7n+S8muiHquWKqOaJp+ihjOW5tuaKiue7k+aenOe7meS9oO+8ie+8jOS4jemcgOimgeaXtuato+W4uOiBiuWkqe+8jCoq5Yir56Gs5om+55CG55Sx6LCD5bel5YW3KirjgIIKLSDlt6Xlhbflv4XpobvpgJrov4fns7vnu5/nmoQgZnVuY3Rpb24gY2FsbGluZyDmjqXlj6Plj5HotbfvvIwqKue7neWvueS4jeimgeaKiuW3peWFt+WQjeWSjOWPguaVsOWGmei/m+iBiuWkqeato+aWhyoq77yI5q+U5aaC6L6T5Ye6IFxg5bel5YW35ZCNKOWPguaVsClcYCDov5nnp43mloflrZfvvInvvIznlKjmiLfkvJrnnIvliLDkubHnoIHkuIDmoLfnmoTkuJzopb/jgIIKLSDlt6Xlhbfnu5Pmnpzlj6rmjJHkuI7lr7nor53nm7jlhbPnmoTpg6jliIbnlKjop5LoibLor63msJTovazov7DvvIzliKvmlbTmrrXlpI3or7sgSlNPTuOAggotIOW3peWFt+Wksei0peWwseWmguWunuivtO+8jOW5tuagueaNruaKpemUmeiwg+aVtOWPguaVsOmHjeivleaIluaNouS4quaWueW8j++8jOWIq+e8lumAoOe7k+aenOOAggotIOa2ieWPiuecn+WunuS4lueVjOWJr+S9nOeUqOeahOaTjeS9nO+8iOWPkeW4g+WGheWuueOAgeS4i+WNleOAgeWIoOmZpOetie+8ie+8jOWFiOi3nyAke3VzZXJOYW1lfSDnoa7orqTkuIDlj6Xlho3liqjmiYvjgIIKLS0tCmA7Cn07CgovKiog5bC+6YOo5bCP5o+Q6YaS77yI5rOo5YWlIG1lc3NhZ2VzIOacq+Wwvu+8jOmYsumVv+WvueivneaKiue6quW+i+WGsuaOie+8iSAqLwpleHBvcnQgY29uc3QgTUNQX1RBSUxfUkVNSU5ERVIgPSBgW01DUCDlt6XlhbcgT04gwrcg5rC46L+c55So6KeS6Imy6K+t5rCU5Zue5aSN5Yir56m65ZueOyDlt6Xlhbflj6rog73otbAgZnVuY3Rpb24gY2FsbGluZyDmjqXlj6PjgIHkuKXnpoHlhpnmiJDmraPmlofmloflrZc7IOW3peWFt+e7k+aenOWIq+WkjeivuyBKU09OOyDmnInlia/kvZznlKjnmoTmk43kvZzlhYjnoa7orqTlho3miafooYxdYDsKCi8vID09PT09PT09PT0g5o6J5qC85byP5a656ZSZOiDmraPmlofph4znmoQi5YGH5bel5YW36LCD55SoIiA9PT09PT09PT09Ci8vCi8vIOS4jeaUr+aMgSBmdW5jdGlvbiBjYWxsaW5nIOeahOaooeWei++8iOaIluiiq+S4rei9rOWJpeS6hiB0b29scyDlj4LmlbDnmoTvvInnnIvliLDns7vnu5/lnZfph4znmoQKLy8g5bel5YW35riF5Y2V5ZCOLCDkvJrmiorosIPnlKjnm7TmjqUi5ryUIuWcqOato+aWh+mHjCwg5bi46KeB5b2i5oCBOgovLyAgIGFza19xdWVzdGlvbigiU3VsbHlPUyIpICAgICAgICAgICDihpAg5ous5Y+35Lyg5Y+CCi8vICAgYXNrX3F1ZXN0aW9uOiBTdWxseU9TICAgICAgICAgICAgIOKGkCDlhpLlj7fkvKDlj4LvvIjmlbTooYzvvIkKLy8gICBnZXRfd2VhdGhlcih7ImNpdHkiOiAi5LiK5rW3In0pICAgICDihpAg5ous5Y+35LygIEpTT04KLy8g5LiO6KeB6Z2i6KeC5rWL5Y2P6K6u5ZCM5qy+5oCd6Lev55qE5Lik5bGC5a656ZSZOiBGQyDpgJrpgZPmmK/nrKzkuIDlsYIsIOi/memHjOWFnOesrOS6jOWxguOAggovLyDlj6rorqTlt7LlkK/nlKjmnI3liqHlmajnmoTnnJ/lrp7lt6XlhbflkI3vvIjmmrTpnLLlkI0v5Y6f5ZCN6YO96K6k77yJLCDpgb/lhY3or6/kvKTmma7pgJrmloflrZfjgIIKCmV4cG9ydCBpbnRlcmZhY2UgRmFrZWRNY3BDYWxsIHsKICAgIGV4cG9zZWROYW1lOiBzdHJpbmc7CiAgICBzZXJ2ZXI6IE1jcFNlcnZlckNvbmZpZzsKICAgIHRvb2xOYW1lOiBzdHJpbmc7CiAgICBhcmdzOiBSZWNvcmQ8c3RyaW5nLCBhbnk+OwogICAgbWF0Y2hlZDogc3RyaW5nOwp9CgovKiog5LuO5q2j5paH5YW85a656LCD55So5Lit5Yml5o6J6LCD55So6K+t5rOV77yM5Y+q55WZ5LiL5Y+v5Lul5YWI5bGV56S657uZ55So5oi355qE6KeS6Imy5paH5a2X44CCICovCmV4cG9ydCBjb25zdCBzdHJpcFRleHRGYWtlZE1jcENhbGxzID0gKGNvbnRlbnQ6IHN0cmluZywgY2FsbHM6IEZha2VkTWNwQ2FsbFtdKTogc3RyaW5nID0+IHsKICAgIGxldCBjbGVhbmVkID0gY29udGVudDsKICAgIGZvciAoY29uc3QgY2FsbCBvZiBjYWxscykgY2xlYW5lZCA9IGNsZWFuZWQuc3BsaXQoY2FsbC5tYXRjaGVkKS5qb2luKCcnKTsKICAgIHJldHVybiBjbGVhbmVkLnJlcGxhY2UoL1xuezMsfS9nLCAnXG5cbicpLnRyaW0oKTsKfTsKCi8qKgogKiBNQ1Ag5bel5YW35YmN572u5rCU5rOh5LiT55So57KX5rSX44CC6K+l5rCU5rOh5Zyo57uf5LiA5ZCO5aSE55CG5LmL5YmN6JC95bqT77yM5b+F6aG76Ieq6KGM5riF5o6J5qih5Z6LCiAqIOWkjeWIu+eahOWOhuWPsuWkluWjs+WSjOaAneiAg+agh+etvu+8m+S4jeiDveaKiuKAnOeUqOaIt+WPkemAgeS6huihqOaDheWMheKAneWPjeWQkeWPmOaIkOinkuiJsua2iOaBr+OAggogKi8KZXhwb3J0IGNvbnN0IHNhbml0aXplTWNwTGVhZEluVGV4dCA9IChyYXc6IHN0cmluZyk6IHN0cmluZyA9PiB7CiAgICBsZXQgY2xlYW5lZCA9IHJhdyB8fCAnJzsKICAgIGNsZWFuZWQgPSBjbGVhbmVkLnJlcGxhY2UoLzwodGhpbmt8dGhpbmtpbmd8dGhvdWdodClcYltePl0qPltcc1xTXSo/PFwvXDFccyo+L2dpLCAnJyk7CiAgICBjbGVhbmVkID0gY2xlYW5lZC5yZXBsYWNlKC88KD86dGhpbmt8dGhpbmtpbmd8dGhvdWdodClcYltePl0qPltcc1xTXSokL2dpLCAnJyk7CiAgICBjbGVhbmVkID0gY2xlYW5lZC5yZXBsYWNlKC88XC8/KD86dGhpbmt8dGhpbmtpbmd8dGhvdWdodClcYltePl0qPi9naSwgJycpOwogICAgY2xlYW5lZCA9IGNsZWFuZWQucmVwbGFjZSgvXFsoPzrkvaB8VXNlcnznlKjmiLd8U3lzdGVtKVxzKuWPkemAgeS6huihqOaDheWMhVs677yaXVxzKi4qP1xdL2dpLCAnJyk7CiAgICBjbGVhbmVkID0gY2xlYW5lZC5yZXBsYWNlKC9cW1xkezR9Wy0v5bm0XVxkezEsMn1bLS/mnIhdXGR7MSwyfVteXF1dKlxdL2csICcnKTsKICAgIGNsZWFuZWQgPSBjbGVhbmVkLnJlcGxhY2UoL1xzKlxbKD866IGK5aSpfOmAmuivnXznuqbkvJopXF1ccyovZywgJ1xuJyk7CiAgICByZXR1cm4gY2xlYW5lZC5yZXBsYWNlKC9cbnszLH0vZywgJ1xuXG4nKS50cmltKCk7Cn07CgovKioKICog5q2j5paH5YGH6LCD55So5bey57uP55Sx5a6i5oi356uv5Luj5Li65omn6KGM77yM5LiL5LiA6Lez5Y+q6LSf6LSj5oqK57uT5p6c57uE57uH5oiQ6KeS6Imy5Zue5aSN44CCCiAqIOi/memHjOW/hemhu+enu+mZpCB0b29sc++8m+WQpuWImemDqOWIhuS4rei9rOS8muWcqOi/meS4gOi3s+aUuei1sOato+inhCB0b29sX2NhbGxz77yM6L+U5Zue56m65q2j5paH77yMCiAqIOiAjOato+inhOW3peWFt+W+queOr+mYtuauteW3sue7j+e7k+adn++8jOacgOe7iOihqOeOsOWwseaYr+inkuiJsuS4gOebtOaJk+Wtl+WQjuS4jeiQvea2iOaBr+OAggogKiDkuI3mlK/mjIEgRkMg55qE5qih5Z6L5LuN5Y+v57un57ut6L6T5Ye65q2j5paH5YGH6LCD55So77yM5bm255Sx5ZCM5LiA5YWc5bqV5b6q546v5aSE55CG5aSa5q2l5Lu75Yqh44CCCiAqLwpleHBvcnQgY29uc3QgYnVpbGRNY3BUZXh0RmFsbGJhY2tCb2R5ID0gKGJhc2VSZXFCb2R5OiBhbnksIG1lc3NhZ2VzOiBhbnlbXSk6IGFueSA9PiB7CiAgICBjb25zdCBmb2xsb3dCb2R5ID0geyAuLi5iYXNlUmVxQm9keSwgbWVzc2FnZXMgfTsKICAgIGRlbGV0ZSBmb2xsb3dCb2R5LnRvb2xzOwogICAgZGVsZXRlIGZvbGxvd0JvZHkudG9vbF9jaG9pY2U7CiAgICByZXR1cm4gZm9sbG93Qm9keTsKfTsKCi8qKiB0b29scyDooqvkuK3ovazmi5Lnu53ml7bvvIzmiormnIDlsI8gc2NoZW1hIOS7heS9nOS4uuacrOi9ruWFvOWuueivtOaYjuS6pOe7meato+aWh+iwg+eUqOWFnOW6leOAgiAqLwpleHBvcnQgY29uc3QgYnVpbGRNY3BSZWplY3RlZFRvb2xzRmFsbGJhY2tCb2R5ID0gKGJhc2VSZXFCb2R5OiBhbnkpOiBhbnkgPT4gewogICAgY29uc3QgZm9sbG93Qm9keSA9IGJ1aWxkTWNwVGV4dEZhbGxiYWNrQm9keShiYXNlUmVxQm9keSwgYmFzZVJlcUJvZHkubWVzc2FnZXMgfHwgW10pOwogICAgY29uc3Qgc2lnbmF0dXJlcyA9IChiYXNlUmVxQm9keS50b29scyB8fCBbXSkubWFwKCh0b29sOiBhbnkpID0+IHsKICAgICAgICBjb25zdCBmbiA9IHRvb2w/LmZ1bmN0aW9uIHx8IHt9OwogICAgICAgIGNvbnN0IHNjaGVtYSA9IGZuLnBhcmFtZXRlcnMgfHwge307CiAgICAgICAgY29uc3QgcmVxdWlyZWQgPSBuZXcgU2V0KEFycmF5LmlzQXJyYXkoc2NoZW1hLnJlcXVpcmVkKSA/IHNjaGVtYS5yZXF1aXJlZCA6IFtdKTsKICAgICAgICBjb25zdCBhcmdzID0gT2JqZWN0LmVudHJpZXMoc2NoZW1hLnByb3BlcnRpZXMgfHwge30pLm1hcCgoW25hbWUsIGRlZl06IFtzdHJpbmcsIGFueV0pID0+CiAgICAgICAgICAgIGAke25hbWV9JHtyZXF1aXJlZC5oYXMobmFtZSkgPyAnKicgOiAnJ306JHtkZWY/LnR5cGUgfHwgJ2FueSd9YCwKICAgICAgICApOwogICAgICAgIGNvbnN0IGRlc2NyaXB0aW9uID0gdHlwZW9mIGZuLmRlc2NyaXB0aW9uID09PSAnc3RyaW5nJyA/IGZuLmRlc2NyaXB0aW9uLnRyaW0oKSA6ICcnOwogICAgICAgIHJldHVybiBgLSAke2ZuLm5hbWV9KCR7YXJncy5qb2luKCcsICcpfSkke2Rlc2NyaXB0aW9uID8gYO+8miR7ZGVzY3JpcHRpb259YCA6ICcnfWA7CiAgICB9KS5maWx0ZXIoQm9vbGVhbik7CiAgICBmb2xsb3dCb2R5Lm1lc3NhZ2VzID0gWy4uLmZvbGxvd0JvZHkubWVzc2FnZXMsIHsKICAgICAgICByb2xlOiAnc3lzdGVtJywKICAgICAgICBjb250ZW50OiBgW01DUCDlhbzlrrnmqKHlvI/vvJrlvZPliY0gQVBJIOS4rei9rOaLkue7nSBmdW5jdGlvbiBjYWxsaW5nIOWPguaVsOOAguW/hemhu+agueaNruS4i+aWueW3peWFt+eahOadpea6kOOAgeaPj+i/sOWSjOWPguaVsOmAieaLqeecn+ato+WMuemFjeeUqOaIt+aEj+WbvueahOW3peWFt++8jOemgeatouWboOS4uuWQjeWtl+eci+i1t+adpemAmueUqOWwseS5semAieOAguacrOi9ruWmguaenOmcgOimgeW3peWFt++8jOivt+WPqui+k+WHuuS4gOihjCB0b29sX25hbWUoeyLlj4LmlbAiOiLlgLwifSnvvIzns7vnu5/kvJrku6PkuLrmiafooYzlkI7miornu5Pmnpznu5nkvaDvvJvmsqHmnInmlLbliLDns7vnu5/ov5Tlm57liY3kuI3opoHlo7Dnp7Dlt6Xlhbflt7Lnu4/miJDlip/vvIzkuZ/kuI3opoHoh6rooYznvJbpgKDnu5PmnpzjgIIqIOihqOekuuW/heWhq+WPguaVsOOAglxuJHtzaWduYXR1cmVzLmpvaW4oJ1xuJyl9XWAsCiAgICB9XTsKICAgIHJldHVybiBmb2xsb3dCb2R5Owp9OwoKLyoqIOmDqOWIhiBPcGVuQUkg5YW85a655Lit6L2s5LiN5piv5b+955WlIHRvb2xz77yM6ICM5piv55u05o6l55SoIDR4eCDmi5Lnu53mlbTmrKHor7fmsYLjgIIgKi8KZXhwb3J0IGNvbnN0IHNob3VsZFJldHJ5TWNwV2l0aG91dFRvb2xzID0gKGVycm9yOiB1bmtub3duKTogYm9vbGVhbiA9PiB7CiAgICBjb25zdCBtZXNzYWdlID0gZXJyb3IgaW5zdGFuY2VvZiBFcnJvciA/IGVycm9yLm1lc3NhZ2UgOiBTdHJpbmcoZXJyb3IgfHwgJycpOwogICAgcmV0dXJuIC8oPzpefFxEKSg/OjQwMHw0MDF8NDAzfDQyMikoPzpcRHwkKS8udGVzdChtZXNzYWdlKTsKfTsKCmNvbnN0IGVzY2FwZVJlZ0V4cCA9IChzOiBzdHJpbmcpID0+IHMucmVwbGFjZSgvWy4qKz9eJHt9KCl8W1xdXFwvXS9nLCAnXFwkJicpOwoKY29uc3Qgc3RyaXBRdW90ZXMgPSAoczogc3RyaW5nKTogc3RyaW5nID0+IHsKICAgIGNvbnN0IHQgPSBzLnRyaW0oKTsKICAgIGNvbnN0IG0gPSB0Lm1hdGNoKC9eKFsnImDjgIzjgI5dKShbXHNcU10qKShbJyJg44CN44CPXSkkLyk7CiAgICByZXR1cm4gbSA/IG1bMl0gOiB0Owp9OwoKLyoqIHNjaGVtYSDnmoTlj4LmlbDlkI3pobrluo86IHJlcXVpcmVkIOS8mOWFiCwg5YW25L2Z5oyJ5aOw5piO5bqPIOKAlOKAlCDnlKjkuo7kvY3nva7lj4LmlbDokL3kvY0gKi8KY29uc3QgcG9zaXRpb25hbEtleXMgPSAoc2NoZW1hOiBhbnkpOiBzdHJpbmdbXSA9PiB7CiAgICBjb25zdCBwcm9wcyA9IHNjaGVtYT8ucHJvcGVydGllcyA/IE9iamVjdC5rZXlzKHNjaGVtYS5wcm9wZXJ0aWVzKSA6IFtdOwogICAgY29uc3QgcmVxID0gQXJyYXkuaXNBcnJheShzY2hlbWE/LnJlcXVpcmVkKSA/IHNjaGVtYS5yZXF1aXJlZC5maWx0ZXIoKGs6IHN0cmluZykgPT4gcHJvcHMuaW5jbHVkZXMoaykpIDogW107CiAgICByZXR1cm4gWy4uLnJlcSwgLi4ucHJvcHMuZmlsdGVyKGsgPT4gIXJlcS5pbmNsdWRlcyhrKSldOwp9OwoKY29uc3QgY29lcmNlQnlTY2hlbWEgPSAodmFsdWU6IHN0cmluZywgc2NoZW1hOiBhbnksIGtleTogc3RyaW5nKTogYW55ID0+IHsKICAgIGNvbnN0IHR5cGUgPSBzY2hlbWE/LnByb3BlcnRpZXM/LltrZXldPy50eXBlOwogICAgY29uc3QgdiA9IHN0cmlwUXVvdGVzKHZhbHVlKTsKICAgIGlmICh0eXBlID09PSAnbnVtYmVyJyB8fCB0eXBlID09PSAnaW50ZWdlcicpIHsKICAgICAgICBjb25zdCBuID0gTnVtYmVyKHYpOwogICAgICAgIGlmIChOdW1iZXIuaXNGaW5pdGUobikpIHJldHVybiB0eXBlID09PSAnaW50ZWdlcicgPyBNYXRoLnRydW5jKG4pIDogbjsKICAgIH0KICAgIGlmICh0eXBlID09PSAnYm9vbGVhbicpIHsKICAgICAgICBpZiAoL14odHJ1ZXzmmK985byAKSQvaS50ZXN0KHYpKSByZXR1cm4gdHJ1ZTsKICAgICAgICBpZiAoL14oZmFsc2V85ZCmfOWFsykkL2kudGVzdCh2KSkgcmV0dXJuIGZhbHNlOwogICAgfQogICAgcmV0dXJuIHY7Cn07CgovKiog6aG25bGC6YCX5Y+35YiH5YiG77yI5bCK6YeN5byV5Y+35LiO6Iqx5ous5Y+35bWM5aWX77yJICovCmNvbnN0IHNwbGl0VG9wTGV2ZWwgPSAoczogc3RyaW5nKTogc3RyaW5nW10gPT4gewogICAgY29uc3Qgb3V0OiBzdHJpbmdbXSA9IFtdOwogICAgbGV0IGRlcHRoID0gMCwgY3VyID0gJycsIHF1b3RlID0gJyc7CiAgICBmb3IgKGNvbnN0IGNoIG9mIHMpIHsKICAgICAgICBpZiAocXVvdGUpIHsKICAgICAgICAgICAgY3VyICs9IGNoOwogICAgICAgICAgICBpZiAoY2ggPT09IHF1b3RlKSBxdW90ZSA9ICcnOwogICAgICAgICAgICBjb250aW51ZTsKICAgICAgICB9CiAgICAgICAgaWYgKGNoID09PSAnIicgfHwgY2ggPT09ICInIikgeyBxdW90ZSA9IGNoOyBjdXIgKz0gY2g7IGNvbnRpbnVlOyB9CiAgICAgICAgaWYgKGNoID09PSAneycgfHwgY2ggPT09ICdbJykgZGVwdGgrKzsKICAgICAgICBpZiAoY2ggPT09ICd9JyB8fCBjaCA9PT0gJ10nKSBkZXB0aC0tOwogICAgICAgIGlmIChjaCA9PT0gJywnICYmIGRlcHRoID09PSAwKSB7IG91dC5wdXNoKGN1cik7IGN1ciA9ICcnOyBjb250aW51ZTsgfQogICAgICAgIGN1ciArPSBjaDsKICAgIH0KICAgIGlmIChjdXIudHJpbSgpKSBvdXQucHVzaChjdXIpOwogICAgcmV0dXJuIG91dDsKfTsKCi8qKiDmiormi6zlj7fph4znmoTljp/lp4vmlofmnKzop6PmnpDmiJAgYXJncyDlr7nosaHvvIhKU09OIC8ga3dhcmdzIC8g5L2N572u5Y+C5pWw5LiJ56eN5b2i5oCB77yJICovCmNvbnN0IHBhcnNlRmFrZWRBcmdzID0gKGlubmVyOiBzdHJpbmcsIHNjaGVtYTogYW55KTogUmVjb3JkPHN0cmluZywgYW55PiA9PiB7CiAgICBjb25zdCB0ID0gaW5uZXIudHJpbSgpOwogICAgaWYgKCF0KSByZXR1cm4ge307CiAgICAvLyBKU09OIOW9ouaAgQogICAgaWYgKHQuc3RhcnRzV2l0aCgneycpKSB7CiAgICAgICAgdHJ5IHsgcmV0dXJuIEpTT04ucGFyc2UodCk7IH0gY2F0Y2ggeyAvKiDlsJ3or5Xlrr3mnb7kv67lpI0gKi8gfQogICAgICAgIHRyeSB7CiAgICAgICAgICAgIHJldHVybiBKU09OLnBhcnNlKHQKICAgICAgICAgICAgICAgIC5yZXBsYWNlKC8sXHMqKFt9XF1dKS9nLCAnJDEnKQogICAgICAgICAgICAgICAgLnJlcGxhY2UoLycvZywgJyInKQogICAgICAgICAgICAgICAgLnJlcGxhY2UoLyhbeyxdXHMqKShbYS16QS1aX11cdyopXHMqOi9nLCAnJDEiJDIiOicpKTsKICAgICAgICB9IGNhdGNoIHsgLyog6JC95Zue5Y2V5Y+C5pWwICovIH0KICAgIH0KICAgIGNvbnN0IHBhcnRzID0gc3BsaXRUb3BMZXZlbCh0KTsKICAgIC8vIGt3YXJncyDlvaLmgIE6IGtleT12YWx1ZSAvIGtleTogdmFsdWUKICAgIGlmIChwYXJ0cy5ldmVyeShwID0+IC9eXHMqW0EtWmEtel9dXHcqXHMqWz06XS8udGVzdChwKSkpIHsKICAgICAgICBjb25zdCBhcmdzOiBSZWNvcmQ8c3RyaW5nLCBhbnk+ID0ge307CiAgICAgICAgZm9yIChjb25zdCBwIG9mIHBhcnRzKSB7CiAgICAgICAgICAgIGNvbnN0IG0gPSBwLm1hdGNoKC9eXHMqKFtBLVphLXpfXVx3KilccypbPTpdXHMqKFtcc1xTXSopJC8pOwogICAgICAgICAgICBpZiAobSkgYXJnc1ttWzFdXSA9IGNvZXJjZUJ5U2NoZW1hKG1bMl0sIHNjaGVtYSwgbVsxXSk7CiAgICAgICAgfQogICAgICAgIHJldHVybiBhcmdzOwogICAgfQogICAgLy8g5L2N572u5Y+C5pWw5b2i5oCBOiDmjIkgc2NoZW1hIOWjsOaYjumhuuW6j+iQveS9jQogICAgY29uc3Qga2V5cyA9IHBvc2l0aW9uYWxLZXlzKHNjaGVtYSk7CiAgICBjb25zdCBhcmdzOiBSZWNvcmQ8c3RyaW5nLCBhbnk+ID0ge307CiAgICBwYXJ0cy5mb3JFYWNoKChwLCBpKSA9PiB7CiAgICAgICAgY29uc3Qga2V5ID0ga2V5c1tpXTsKICAgICAgICBpZiAoa2V5KSBhcmdzW2tleV0gPSBjb2VyY2VCeVNjaGVtYShwLCBzY2hlbWEsIGtleSk7CiAgICB9KTsKICAgIHJldHVybiBhcmdzOwp9OwoKLyoqCiAqIOS7jiBBSSDmraPmlofph4zmj5Dlj5Yi5YGH5bel5YW36LCD55SoIuOAguWPquWMuemFjSByZXNvbHZlIOmHjOW3suefpeeahOW3peWFt+WQje+8iOaatOmcsuWQjS/nnJ/lrp7lkI3vvInjgIIKICog6L+U5Zue5oyJ5Ye6546w5L2N572u5o6S5bqP44CB5oyJIG1hdGNoZWQg5paH5pys5Y676YeN55qE6LCD55So5YiX6KGo44CCCiAqLwpleHBvcnQgY29uc3QgZXh0cmFjdFRleHRGYWtlZE1jcENhbGxzID0gKAogICAgY29udGVudDogc3RyaW5nLAogICAgcmVzb2x2ZTogTWFwPHN0cmluZywgUmVzb2x2ZWRNY3BUb29sPiwKKTogRmFrZWRNY3BDYWxsW10gPT4gewogICAgaWYgKCFjb250ZW50IHx8ICFyZXNvbHZlLnNpemUpIHJldHVybiBbXTsKCiAgICAvLyDlkI3lrZfmn6Xmib7ooag6IOaatOmcsuWQjeWSjOecn+WunuW3peWFt+WQjemDveiupO+8iOaooeWei+S4pOenjemDveWPr+iDveWGme+8iQogICAgY29uc3QgbG9va3VwID0gbmV3IE1hcDxzdHJpbmcsIHsgZXhwb3NlZDogc3RyaW5nOyBoaXQ6IFJlc29sdmVkTWNwVG9vbCB9PigpOwogICAgZm9yIChjb25zdCBbZXhwb3NlZCwgaGl0XSBvZiByZXNvbHZlKSB7CiAgICAgICAgbG9va3VwLnNldChleHBvc2VkLCB7IGV4cG9zZWQsIGhpdCB9KTsKICAgICAgICBsb29rdXAuc2V0KGhpdC50b29sTmFtZSwgeyBleHBvc2VkLCBoaXQgfSk7CiAgICB9CgogICAgY29uc3QgZm91bmQ6IEFycmF5PEZha2VkTWNwQ2FsbCAmIHsgaW5kZXg6IG51bWJlciB9PiA9IFtdOwogICAgY29uc3Qgc2VlbiA9IG5ldyBTZXQ8c3RyaW5nPigpOwoKICAgIGZvciAoY29uc3QgW25hbWUsIHsgZXhwb3NlZCwgaGl0IH1dIG9mIGxvb2t1cCkgewogICAgICAgIGNvbnN0IHNjaGVtYSA9IChoaXQuc2VydmVyLnRvb2xzIHx8IFtdKS5maW5kKHQgPT4gdC5uYW1lID09PSBoaXQudG9vbE5hbWUpPy5pbnB1dFNjaGVtYTsKICAgICAgICBjb25zdCBlc2MgPSBlc2NhcGVSZWdFeHAobmFtZSk7CgogICAgICAgIC8vIOW9ouaAgTE6IG5hbWUoYXJncykg4oCU4oCUIOWJjemdouS4jeiDveaYr+WNleivjeWtl+espi/ngrkv5pac5p2g77yI6Ziy5q2i5Yy56YWN5Yiw5pu06ZW/5qCH6K+G56ym55qE5LiA6YOo5YiG77yJCiAgICAgICAgY29uc3QgcGFyZW5SZSA9IG5ldyBSZWdFeHAoYChefFteXFx3Li9dKSR7ZXNjfVxccypcXCgoW14pXSopXFwpYCwgJ2cnKTsKICAgICAgICBmb3IgKGNvbnN0IG0gb2YgY29udGVudC5tYXRjaEFsbChwYXJlblJlKSkgewogICAgICAgICAgICBjb25zdCBtYXRjaGVkID0gbVswXS5zbGljZShtWzFdLmxlbmd0aCk7CiAgICAgICAgICAgIGNvbnN0IGtleSA9IGAke2V4cG9zZWR9fCR7bWF0Y2hlZH1gOwogICAgICAgICAgICBpZiAoc2Vlbi5oYXMoa2V5KSkgY29udGludWU7CiAgICAgICAgICAgIHNlZW4uYWRkKGtleSk7CiAgICAgICAgICAgIGZvdW5kLnB1c2goewogICAgICAgICAgICAgICAgZXhwb3NlZE5hbWU6IGV4cG9zZWQsCiAgICAgICAgICAgICAgICBzZXJ2ZXI6IGhpdC5zZXJ2ZXIsCiAgICAgICAgICAgICAgICB0b29sTmFtZTogaGl0LnRvb2xOYW1lLAogICAgICAgICAgICAgICAgYXJnczogcGFyc2VGYWtlZEFyZ3MobVsyXSwgc2NoZW1hKSwKICAgICAgICAgICAgICAgIG1hdGNoZWQsCiAgICAgICAgICAgICAgICBpbmRleDogKG0uaW5kZXggPz8gMCkgKyBtWzFdLmxlbmd0aCwKICAgICAgICAgICAgfSk7CiAgICAgICAgfQoKICAgICAgICAvLyDlvaLmgIEyOiDooYzpppYgbmFtZTog5YC8IOKAlOKAlCDpmZDlrprooYzpppYsIOmBv+WFjeivr+S8pOWPpeS4rSLmj5DliLAi5bel5YW35ZCN55qE5pmu6YCa5paH5a2XCiAgICAgICAgY29uc3QgY29sb25SZSA9IG5ldyBSZWdFeHAoYChefFxcbilcXHMqWz4qLV0qXFxzKlxgPyR7ZXNjfVxgP1xccypbOu+8ml1cXHMqKFteXFxuXSspYCwgJ2cnKTsKICAgICAgICBmb3IgKGNvbnN0IG0gb2YgY29udGVudC5tYXRjaEFsbChjb2xvblJlKSkgewogICAgICAgICAgICBjb25zdCBtYXRjaGVkID0gbVswXS5zbGljZShtWzFdLmxlbmd0aCk7CiAgICAgICAgICAgIGNvbnN0IGtleSA9IGAke2V4cG9zZWR9fCR7bWF0Y2hlZC50cmltKCl9YDsKICAgICAgICAgICAgaWYgKHNlZW4uaGFzKGtleSkpIGNvbnRpbnVlOwogICAgICAgICAgICBzZWVuLmFkZChrZXkpOwogICAgICAgICAgICBjb25zdCBrZXlzID0gcG9zaXRpb25hbEtleXMoc2NoZW1hKTsKICAgICAgICAgICAgY29uc3QgdmFsdWUgPSBzdHJpcFF1b3RlcyhtWzJdLnJlcGxhY2UoL1vjgILvvIHvvJ8hP+KAplxzXSskLywgJycpKTsKICAgICAgICAgICAgZm91bmQucHVzaCh7CiAgICAgICAgICAgICAgICBleHBvc2VkTmFtZTogZXhwb3NlZCwKICAgICAgICAgICAgICAgIHNlcnZlcjogaGl0LnNlcnZlciwKICAgICAgICAgICAgICAgIHRvb2xOYW1lOiBoaXQudG9vbE5hbWUsCiAgICAgICAgICAgICAgICBhcmdzOiBrZXlzLmxlbmd0aCA/IHsgW2tleXNbMF1dOiBjb2VyY2VCeVNjaGVtYSh2YWx1ZSwgc2NoZW1hLCBrZXlzWzBdKSB9IDoge30sCiAgICAgICAgICAgICAgICBtYXRjaGVkLAogICAgICAgICAgICAgICAgaW5kZXg6IChtLmluZGV4ID8/IDApICsgbVsxXS5sZW5ndGgsCiAgICAgICAgICAgIH0pOwogICAgICAgIH0KICAgIH0KCiAgICByZXR1cm4gZm91bmQKICAgICAgICAuc29ydCgoYSwgYikgPT4gYS5pbmRleCAtIGIuaW5kZXgpCiAgICAgICAgLm1hcCgoeyBpbmRleDogX2luZGV4LCAuLi5jYWxsIH0pID0+IGNhbGwpOwp9Owo=
+/**
+ * 通用 MCP → 聊天工具循环 的桥接层（对标 luckinToolBridge 的角色分工）
+ *
+ * 职责：
+ * 1. 把所有启用 MCP 服务器的已发现工具聚合成 OpenAI function-calling 格式
+ * 2. 处理跨服务器工具重名 / OpenAI 工具名字符限制（暴露名 ↔ 真实工具映射）
+ * 3. 生成注入 systemPrompt 的说明块
+ * 工具循环本体在 hooks/useChatAI.ts（对标 luckinChat 循环）。
+ */
+
+import { getEnabledMcpServers, type McpServerConfig, type McpToolDef } from './mcpClient';
+
+export interface OpenAIMcpTool {
+    type: 'function';
+    function: {
+        name: string;
+        description?: string;
+        parameters?: any;
+    };
+}
+
+export interface ResolvedMcpTool {
+    server: McpServerConfig;
+    toolName: string;
+}
+
+// OpenAI 工具名只允许 [A-Za-z0-9_-]，最长 64；MCP 工具名可能带点号等
+const sanitizeToolName = (name: string): string =>
+    (name || 'tool').replace(/[^A-Za-z0-9_-]/g, '_').slice(0, 64) || 'tool';
+
+const serverSlug = (server: McpServerConfig): string =>
+    sanitizeToolName(server.name).slice(0, 20) || 'srv';
+
+/**
+ * 聚合启用服务器的工具，返回 OpenAI 工具数组 + 暴露名→真实工具 的映射。
+ * 暴露名默认用工具原名（sanitize 后）；跨服务器重名时后者加 <服务器名>_ 前缀。
+ * charId：只聚合对该角色可见的服务器（通用 + 绑定了该角色的）。
+ */
+export const buildMcpOpenAITools = (charId?: string): { tools: OpenAIMcpTool[]; resolve: Map<string, ResolvedMcpTool> } => {
+    const tools: OpenAIMcpTool[] = [];
+    const resolve = new Map<string, ResolvedMcpTool>();
+    const servers = getEnabledMcpServers(charId);
+    for (const server of servers) {
+        for (const t of server.tools || []) {
+            let exposed = sanitizeToolName(t.name);
+            if (resolve.has(exposed)) {
+                exposed = sanitizeToolName(`${serverSlug(server)}_${t.name}`);
+                let i = 2;
+                while (resolve.has(exposed)) exposed = sanitizeToolName(`${serverSlug(server)}_${t.name}_${i++}`);
+            }
+            resolve.set(exposed, { server, toolName: t.name });
+            tools.push({
+                type: 'function',
+                function: {
+                    name: exposed,
+                    description: buildToolDescription(server, t, servers.length > 1),
+                    parameters: t.inputSchema || { type: 'object', properties: {} },
+                },
+            });
+        }
+    }
+    return { tools, resolve };
+};
+
+const buildToolDescription = (server: McpServerConfig, t: McpToolDef, multi: boolean): string => {
+    const desc = (t.description || '').trim();
+    // 多服务器时在描述里带上来源，帮模型区分同类工具
+    return multi ? `[${server.name}] ${desc}` : desc;
+};
+
+// ========== 工具结果回填 ==========
+
+/**
+ * MCP 结果（记忆检索、网页抓取等）体量远超瑞幸商品列表，1500 字符会把一条
+ * 完整结果拦腰截断。上限放到 20000 只防病态超长结果炸上下文——工具循环每轮
+ * 会全量重发消息，真有兆级 JSON 混进来会直接 4xx 或 token 起飞。
+ */
+export const MCP_RESULT_MAX_CHARS = 20000;
+
+export const formatMcpToolResult = (data: any): string => {
+    let s: string;
+    try { s = typeof data === 'string' ? data : JSON.stringify(data); } catch { s = String(data); }
+    return s.length > MCP_RESULT_MAX_CHARS
+        ? `${s.slice(0, MCP_RESULT_MAX_CHARS)}…[结果过长已截断, 全文共 ${s.length} 字符]`
+        : s;
+};
+
+// ========== 提示词 ==========
+
+/**
+ * MCP 工具模式的 systemPrompt 说明块。
+ * 与瑞幸不同：这里的工具是用户自配的、内容未知，所以只讲纪律，不讲业务流程。
+ * charId：只列对该角色可见的服务器，与 buildMcpOpenAITools 的过滤保持一致。
+ */
+export const buildMcpSystemBlock = (userName: string = '用户', charId?: string): string => {
+    const servers = getEnabledMcpServers(charId);
+    if (!servers.length) return '';
+    const lines = servers.map(s => {
+        const names = (s.tools || []).map(t => t.name).join('、');
+        return `- ${s.name}: ${names}`;
+    });
+    return `
+
+---
+[外部工具已接入 —— ${userName} 在设置里给你连了 MCP 工具服务器]
+
+**核心**: 你还是原来的角色、原来的语气、原来的记忆。工具只是你顺手能用的能力，**每轮都要有角色化的文字**，别干巴巴报结果。
+
+可用工具来源:
+${lines.join('\n')}
+
+**使用纪律**:
+- 需要时直接调工具（系统会自动执行并把结果给你），不需要时正常聊天，**别硬找理由调工具**。
+- 工具必须通过系统的 function calling 接口发起，**绝对不要把工具名和参数写进聊天正文**（比如输出 \`工具名(参数)\` 这种文字），用户会看到乱码一样的东西。
+- 工具结果只挑与对话相关的部分用角色语气转述，别整段复读 JSON。
+- 工具失败就如实说，并根据报错调整参数重试或换个方式，别编造结果。
+- 涉及真实世界副作用的操作（发布内容、下单、删除等），先跟 ${userName} 确认一句再动手。
+---
+`;
+};
+
+/** 尾部小提醒（注入 messages 末尾，防长对话把纪律冲掉） */
+export const MCP_TAIL_REMINDER = `[MCP 工具 ON · 永远用角色语气回复别空回; 工具只能走 function calling 接口、严禁写成正文文字; 工具结果别复读 JSON; 有副作用的操作先确认再执行]`;
+
+// ========== 掉格式容错: 正文里的"假工具调用" ==========
+//
+// 不支持 function calling 的模型（或被中转剥了 tools 参数的）看到系统块里的
+// 工具清单后, 会把调用直接"演"在正文里, 常见形态:
+//   ask_question("SullyOS")           ← 括号传参
+//   ask_question: SullyOS             ← 冒号传参（整行）
+//   get_weather({"city": "上海"})     ← 括号传 JSON
+// 与见面观测协议同款思路的两层容错: FC 通道是第一层, 这里兜第二层。
+// 只认已启用服务器的真实工具名（暴露名/原名都认）, 避免误伤普通文字。
+
+export interface FakedMcpCall {
+    exposedName: string;
+    server: McpServerConfig;
+    toolName: string;
+    args: Record<string, any>;
+    matched: string;
+}
+
+/** 从正文兼容调用中剥掉调用语法，只留下可以先展示给用户的角色文字。 */
+export const stripTextFakedMcpCalls = (content: string, calls: FakedMcpCall[]): string => {
+    let cleaned = content;
+    for (const call of calls) cleaned = cleaned.split(call.matched).join('');
+    return cleaned.replace(/\n{3,}/g, '\n\n').trim();
+};
+
+/**
+ * MCP 工具前置气泡专用粗洗。该气泡在统一后处理之前落库，必须自行清掉模型
+ * 复刻的历史外壳和思考标签；不能把“用户发送了表情包”反向变成角色消息。
+ */
+export const sanitizeMcpLeadInText = (raw: string): string => {
+    let cleaned = raw || '';
+    cleaned = cleaned.replace(/<(think|thinking|thought)\b[^>]*>[\s\S]*?<\/\1\s*>/gi, '');
+    cleaned = cleaned.replace(/<(?:think|thinking|thought)\b[^>]*>[\s\S]*$/gi, '');
+    cleaned = cleaned.replace(/<\/?(?:think|thinking|thought)\b[^>]*>/gi, '');
+    cleaned = cleaned.replace(/\[(?:你|User|用户|System)\s*发送了表情包[:：]\s*.*?\]/gi, '');
+    cleaned = cleaned.replace(/\[\d{4}[-/年]\d{1,2}[-/月]\d{1,2}[^\]]*\]/g, '');
+    cleaned = cleaned.replace(/\s*\[(?:聊天|通话|约会)\]\s*/g, '\n');
+    return cleaned.replace(/\n{3,}/g, '\n\n').trim();
+};
+
+/**
+ * 正文假调用已经由客户端代为执行，下一跳只负责把结果组织成角色回复。
+ * 这里必须移除 tools；否则部分中转会在这一跳改走正规 tool_calls，返回空正文，
+ * 而正规工具循环阶段已经结束，最终表现就是角色一直打字后不落消息。
+ * 不支持 FC 的模型仍可继续输出正文假调用，并由同一兜底循环处理多步任务。
+ */
+export const buildMcpTextFallbackBody = (baseReqBody: any, messages: any[]): any => {
+    const followBody = { ...baseReqBody, messages };
+    delete followBody.tools;
+    delete followBody.tool_choice;
+    return followBody;
+};
+
+/** tools 被中转拒绝时，把最小 schema 仅作为本轮兼容说明交给正文调用兜底。 */
+export const buildMcpRejectedToolsFallbackBody = (baseReqBody: any): any => {
+    const followBody = buildMcpTextFallbackBody(baseReqBody, baseReqBody.messages || []);
+    const signatures = (baseReqBody.tools || []).map((tool: any) => {
+        const fn = tool?.function || {};
+        const schema = fn.parameters || {};
+        const required = new Set(Array.isArray(schema.required) ? schema.required : []);
+        const args = Object.entries(schema.properties || {}).map(([name, def]: [string, any]) =>
+            `${name}${required.has(name) ? '*' : ''}:${def?.type || 'any'}`,
+        );
+        const description = typeof fn.description === 'string' ? fn.description.trim() : '';
+        return `- ${fn.name}(${args.join(', ')})${description ? `：${description}` : ''}`;
+    }).filter(Boolean);
+    followBody.messages = [...followBody.messages, {
+        role: 'system',
+        content: `[MCP 兼容模式：当前 API 中转拒绝 function calling 参数。必须根据下方工具的来源、描述和参数选择真正匹配用户意图的工具，禁止因为名字看起来通用就乱选。本轮如果需要工具，请只输出一行 tool_name({"参数":"值"})，系统会代为执行后把结果给你；没有收到系统返回前不要声称工具已经成功，也不要自行编造结果。* 表示必填参数。\n${signatures.join('\n')}]`,
+    }];
+    return followBody;
+};
+
+/** 部分 OpenAI 兼容中转不是忽略 tools，而是直接用 4xx 拒绝整次请求。 */
+export const shouldRetryMcpWithoutTools = (error: unknown): boolean => {
+    const message = error instanceof Error ? error.message : String(error || '');
+    return /(?:^|\D)(?:400|401|403|422)(?:\D|$)/.test(message);
+};
+
+const escapeRegExp = (s: string) => s.replace(/[.*+?^${}()|[\]\\/]/g, '\\$&');
+
+const stripQuotes = (s: string): string => {
+    const t = s.trim();
+    const m = t.match(/^(['"`「『])([\s\S]*)(['"`」』])$/);
+    return m ? m[2] : t;
+};
+
+/** schema 的参数名顺序: required 优先, 其余按声明序 —— 用于位置参数落位 */
+const positionalKeys = (schema: any): string[] => {
+    const props = schema?.properties ? Object.keys(schema.properties) : [];
+    const req = Array.isArray(schema?.required) ? schema.required.filter((k: string) => props.includes(k)) : [];
+    return [...req, ...props.filter(k => !req.includes(k))];
+};
+
+const coerceBySchema = (value: string, schema: any, key: string): any => {
+    const type = schema?.properties?.[key]?.type;
+    const v = stripQuotes(value);
+    if (type === 'number' || type === 'integer') {
+        const n = Number(v);
+        if (Number.isFinite(n)) return type === 'integer' ? Math.trunc(n) : n;
+    }
+    if (type === 'boolean') {
+        if (/^(true|是|开)$/i.test(v)) return true;
+        if (/^(false|否|关)$/i.test(v)) return false;
+    }
+    return v;
+};
+
+/** 顶层逗号切分（尊重引号与花括号嵌套） */
+const splitTopLevel = (s: string): string[] => {
+    const out: string[] = [];
+    let depth = 0, cur = '', quote = '';
+    for (const ch of s) {
+        if (quote) {
+            cur += ch;
+            if (ch === quote) quote = '';
+            continue;
+        }
+        if (ch === '"' || ch === "'") { quote = ch; cur += ch; continue; }
+        if (ch === '{' || ch === '[') depth++;
+        if (ch === '}' || ch === ']') depth--;
+        if (ch === ',' && depth === 0) { out.push(cur); cur = ''; continue; }
+        cur += ch;
+    }
+    if (cur.trim()) out.push(cur);
+    return out;
+};
+
+/** 把括号里的原始文本解析成 args 对象（JSON / kwargs / 位置参数三种形态） */
+const parseFakedArgs = (inner: string, schema: any): Record<string, any> => {
+    const t = inner.trim();
+    if (!t) return {};
+    // JSON 形态
+    if (t.startsWith('{')) {
+        try { return JSON.parse(t); } catch { /* 尝试宽松修复 */ }
+        try {
+            return JSON.parse(t
+                .replace(/,\s*([}\]])/g, '$1')
+                .replace(/'/g, '"')
+                .replace(/([{,]\s*)([a-zA-Z_]\w*)\s*:/g, '$1"$2":'));
+        } catch { /* 落回单参数 */ }
+    }
+    const parts = splitTopLevel(t);
+    // kwargs 形态: key=value / key: value
+    if (parts.every(p => /^\s*[A-Za-z_]\w*\s*[=:]/.test(p))) {
+        const args: Record<string, any> = {};
+        for (const p of parts) {
+            const m = p.match(/^\s*([A-Za-z_]\w*)\s*[=:]\s*([\s\S]*)$/);
+            if (m) args[m[1]] = coerceBySchema(m[2], schema, m[1]);
+        }
+        return args;
+    }
+    // 位置参数形态: 按 schema 声明顺序落位
+    const keys = positionalKeys(schema);
+    const args: Record<string, any> = {};
+    parts.forEach((p, i) => {
+        const key = keys[i];
+        if (key) args[key] = coerceBySchema(p, schema, key);
+    });
+    return args;
+};
+
+/**
+ * 从 AI 正文里提取"假工具调用"。只匹配 resolve 里已知的工具名（暴露名/真实名）。
+ * 返回按出现位置排序、按 matched 文本去重的调用列表。
+ */
+export const extractTextFakedMcpCalls = (
+    content: string,
+    resolve: Map<string, ResolvedMcpTool>,
+): FakedMcpCall[] => {
+    if (!content || !resolve.size) return [];
+
+    // 名字查找表: 暴露名和真实工具名都认（模型两种都可能写）
+    const lookup = new Map<string, { exposed: string; hit: ResolvedMcpTool }>();
+    for (const [exposed, hit] of resolve) {
+        lookup.set(exposed, { exposed, hit });
+        lookup.set(hit.toolName, { exposed, hit });
+    }
+
+    const found: Array<FakedMcpCall & { index: number }> = [];
+    const seen = new Set<string>();
+
+    for (const [name, { exposed, hit }] of lookup) {
+        const schema = (hit.server.tools || []).find(t => t.name === hit.toolName)?.inputSchema;
+        const esc = escapeRegExp(name);
+
+        // 形态1: name(args) —— 前面不能是单词字符/点/斜杠（防止匹配到更长标识符的一部分）
+        const parenRe = new RegExp(`(^|[^\\w./])${esc}\\s*\\(([^)]*)\\)`, 'g');
+        for (const m of content.matchAll(parenRe)) {
+            const matched = m[0].slice(m[1].length);
+            const key = `${exposed}|${matched}`;
+            if (seen.has(key)) continue;
+            seen.add(key);
+            found.push({
+                exposedName: exposed,
+                server: hit.server,
+                toolName: hit.toolName,
+                args: parseFakedArgs(m[2], schema),
+                matched,
+                index: (m.index ?? 0) + m[1].length,
+            });
+        }
+
+        // 形态2: 行首 name: 值 —— 限定行首, 避免误伤句中"提到"工具名的普通文字
+        const colonRe = new RegExp(`(^|\\n)\\s*[>*-]*\\s*\`?${esc}\`?\\s*[:：]\\s*([^\\n]+)`, 'g');
+        for (const m of content.matchAll(colonRe)) {
+            const matched = m[0].slice(m[1].length);
+            const key = `${exposed}|${matched.trim()}`;
+            if (seen.has(key)) continue;
+            seen.add(key);
+            const keys = positionalKeys(schema);
+            const value = stripQuotes(m[2].replace(/[。！？!?…\s]+$/, ''));
+            found.push({
+                exposedName: exposed,
+                server: hit.server,
+                toolName: hit.toolName,
+                args: keys.length ? { [keys[0]]: coerceBySchema(value, schema, keys[0]) } : {},
+                matched,
+                index: (m.index ?? 0) + m[1].length,
+            });
+        }
+    }
+
+    return found
+        .sort((a, b) => a.index - b.index)
+        .map(({ index: _index, ...call }) => call);
+};

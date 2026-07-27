@@ -1,1 +1,60 @@
-aW1wb3J0IHsgZGVzY3JpYmUsIGl0LCBleHBlY3QgfSBmcm9tICd2aXRlc3QnOwppbXBvcnQgeyBydW5Db2duaXRpdmVEaWdlc3Rpb24sIGluY3JlbWVudERpZ2VzdFJvdW5kLCBnZXREaWdlc3RSb3VuZENvdW50IH0gZnJvbSAnLi9kaWdlc3Rpb24nOwoKLy8gZmFrZS1pbmRleGVkZGIgKyBsb2NhbFN0b3JhZ2Ugc3R1YiDnlLEgdGVzdC1zZXR1cC50cyDms6jlhaXjgIIKLy8g5Zue5b2S5a6I5Y2r77ya5raI5YyW55qEIuaXoOadkOaWmeaXqemAgCLliIbmlK/lv4XpobvlvZLpm7bova7mlbDorqHmlbDlmajjgIIKLy8g5q2k5YmN5a6D5ryP5o6JIHJlc2V0RGlnZXN0Um91bmRzIOKGkiDorqHmlbDlmajljaHlnKgg4omlNTAg4oaSIOS5i+WQjuavj+S4gOi9ruiBiuWkqemDvemHjeinpuWPkQovLyDoh6rliqjmtojljJbvvIjmjILkuIrpl6jniYzmlbTnkIblkI4gPSDmr4/ova7lvLnmta7nqpcgKyDmr4/ova7ng6fkuIDmrKEgTExN77yJ44CCCi8vIOepuuW6k+S4iuaXqemAgOWPkeeUn+WcqOS7u+S9lSBMTE0g6LCD55So5LmL5YmN77yI5Zue5aGr5Lmf5ZugIHRvdGFsTGluZXM9MCDnm7TmjqXov5Tlm57vvInvvIzmtYvor5XkuI3norDnvZHnu5zjgIIKCmRlc2NyaWJlKCforqTnn6XmtojljJYg4oCUIOi9ruaVsOiuoeaVsOWZqCcsICgpID0+IHsKICAgIGl0KCfml6DmnZDmlpnml6npgIDliIbmlK/kuZ/lv4XpobvlvZLpm7borqHmlbDlmajvvIjpmLLmr4/ova7ph43op6blj5Hoh6rliqjmtojljJbvvIknLCBhc3luYyAoKSA9PiB7CiAgICAgICAgY29uc3QgY2hhcklkID0gJ2NoYXJfZGlnZXN0X2NvdW50ZXJfdGVzdCc7CiAgICAgICAgLy8g5qih5ouf6IGK5Yiw56ysIDUwIOi9ru+8muiuoeaVsOWZqOi+vuWIsOiHquWKqOa2iOWMlumYiOWAvAogICAgICAgIGxldCBzaG91bGREaWdlc3QgPSBmYWxzZTsKICAgICAgICBmb3IgKGxldCBpID0gMDsgaSA8IDUwOyBpKyspIHNob3VsZERpZ2VzdCA9IGluY3JlbWVudERpZ2VzdFJvdW5kKGNoYXJJZCk7CiAgICAgICAgZXhwZWN0KHNob3VsZERpZ2VzdCkudG9CZSh0cnVlKTsKICAgICAgICBleHBlY3QoZ2V0RGlnZXN0Um91bmRDb3VudChjaGFySWQpKS50b0JlKDUwKTsKCiAgICAgICAgLy8g56m65bqTIOKGkiDotbDml6npgIDliIbmlK/vvIjlnKjku7vkvZUgTExNIOiwg+eUqOS5i+WJjei/lOWbnu+8iQogICAgICAgIGNvbnN0IHJlc3VsdCA9IGF3YWl0IHJ1bkNvZ25pdGl2ZURpZ2VzdGlvbigKICAgICAgICAgICAgY2hhcklkLCAn5rWL6K+V6KeS6ImyJywgJ+S6uuiuvicsIHsgYmFzZVVybDogJ2h0dHA6Ly9pbnZhbGlkLnRlc3QnLCBhcGlLZXk6ICdrJywgbW9kZWw6ICdtJyB9LAogICAgICAgICk7CiAgICAgICAgZXhwZWN0KHJlc3VsdCkubm90LnRvQmVOdWxsKCk7CgogICAgICAgIC8vIOWFs+mUruaWreiogO+8muiuoeaVsOWZqOW9kumbtu+8jOS4i+S4gOi9riBpbmNyZW1lbnQg5ZCO5pivIDEg6ICM5LiN5pivIDUxCiAgICAgICAgZXhwZWN0KGdldERpZ2VzdFJvdW5kQ291bnQoY2hhcklkKSkudG9CZSgwKTsKICAgICAgICBleHBlY3QoaW5jcmVtZW50RGlnZXN0Um91bmQoY2hhcklkKSkudG9CZShmYWxzZSk7CiAgICB9KTsKCiAgICBpdCgn6L+b5Zy65Y2z5b2S6Zu277ya5raI5YyW5LiA5byA5aeL6K6h5pWw5Zmo5bCx5riF6Zu277yM6L+b6KGM5Lit55qE5paw6L2u5qyh6K6h5YWl5LiL5LiA5LiqNTAnLCBhc3luYyAoKSA9PiB7CiAgICAgICAgY29uc3QgY2hhcklkID0gJ2NoYXJfZGlnZXN0X2VudHJ5X3Jlc2V0JzsKICAgICAgICBmb3IgKGxldCBpID0gMDsgaSA8IDUwOyBpKyspIGluY3JlbWVudERpZ2VzdFJvdW5kKGNoYXJJZCk7CgogICAgICAgIGNvbnN0IHJ1biA9IHJ1bkNvZ25pdGl2ZURpZ2VzdGlvbigKICAgICAgICAgICAgY2hhcklkLCAn5rWL6K+V6KeS6ImyJywgJ+S6uuiuvicsIHsgYmFzZVVybDogJ2h0dHA6Ly9pbnZhbGlkLnRlc3QnLCBhcGlLZXk6ICdrJywgbW9kZWw6ICdtJyB9LAogICAgICAgICk7CiAgICAgICAgLy8g5raI5YyW5Yia5ZCv5Yqo77yI5pyqIGF3YWl0IOWujOaIkO+8ie+8jOiuoeaVsOWZqOW3sue7j+aYryAw4oCU4oCUCiAgICAgICAgLy8g6L+Z5pyf6Ze05p2l55qE5paw6IGK5aSp6L2uIGluY3JlbWVudCDliLAgMS8yLzPigKbkuI3kvJrlho3mrKHop6blj5EKICAgICAgICBleHBlY3QoZ2V0RGlnZXN0Um91bmRDb3VudChjaGFySWQpKS50b0JlKDApOwogICAgICAgIGV4cGVjdChpbmNyZW1lbnREaWdlc3RSb3VuZChjaGFySWQpKS50b0JlKGZhbHNlKTsKICAgICAgICBhd2FpdCBydW47CiAgICB9KTsKCiAgICBpdCgn5bm25Y+R6ZSB77ya5ZCM5LiA6KeS6Imy55qE56ys5LqM5Liq5raI5YyW55u05o6l6L+U5ZueIG51bGzvvIzkuI3ph43lpI3ot5EnLCBhc3luYyAoKSA9PiB7CiAgICAgICAgY29uc3QgY2hhcklkID0gJ2NoYXJfZGlnZXN0X2xvY2tfdGVzdCc7CiAgICAgICAgY29uc3QgZmlyc3QgPSBydW5Db2duaXRpdmVEaWdlc3Rpb24oCiAgICAgICAgICAgIGNoYXJJZCwgJ+a1i+ivleinkuiJsicsICfkurrorr4nLCB7IGJhc2VVcmw6ICdodHRwOi8vaW52YWxpZC50ZXN0JywgYXBpS2V5OiAnaycsIG1vZGVsOiAnbScgfSwKICAgICAgICApOwogICAgICAgIGNvbnN0IHNlY29uZCA9IGF3YWl0IHJ1bkNvZ25pdGl2ZURpZ2VzdGlvbigKICAgICAgICAgICAgY2hhcklkLCAn5rWL6K+V6KeS6ImyJywgJ+S6uuiuvicsIHsgYmFzZVVybDogJ2h0dHA6Ly9pbnZhbGlkLnRlc3QnLCBhcGlLZXk6ICdrJywgbW9kZWw6ICdtJyB9LAogICAgICAgICk7CiAgICAgICAgZXhwZWN0KHNlY29uZCkudG9CZU51bGwoKTsKICAgICAgICBleHBlY3QoYXdhaXQgZmlyc3QpLm5vdC50b0JlTnVsbCgpOwogICAgICAgIC8vIOmUgemHiuaUvuWQjuWPr+S7peWGjei3kQogICAgICAgIGNvbnN0IHRoaXJkID0gYXdhaXQgcnVuQ29nbml0aXZlRGlnZXN0aW9uKAogICAgICAgICAgICBjaGFySWQsICfmtYvor5Xop5LoibInLCAn5Lq66K6+JywgeyBiYXNlVXJsOiAnaHR0cDovL2ludmFsaWQudGVzdCcsIGFwaUtleTogJ2snLCBtb2RlbDogJ20nIH0sCiAgICAgICAgKTsKICAgICAgICBleHBlY3QodGhpcmQpLm5vdC50b0JlTnVsbCgpOwogICAgfSk7Cn0pOwo=
+import { describe, it, expect } from 'vitest';
+import { runCognitiveDigestion, incrementDigestRound, getDigestRoundCount } from './digestion';
+
+// fake-indexeddb + localStorage stub 由 test-setup.ts 注入。
+// 回归守卫：消化的"无材料早退"分支必须归零轮数计数器。
+// 此前它漏掉 resetDigestRounds → 计数器卡在 ≥50 → 之后每一轮聊天都重触发
+// 自动消化（挂上门牌整理后 = 每轮弹浮窗 + 每轮烧一次 LLM）。
+// 空库上早退发生在任何 LLM 调用之前（回填也因 totalLines=0 直接返回），测试不碰网络。
+
+describe('认知消化 — 轮数计数器', () => {
+    it('无材料早退分支也必须归零计数器（防每轮重触发自动消化）', async () => {
+        const charId = 'char_digest_counter_test';
+        // 模拟聊到第 50 轮：计数器达到自动消化阈值
+        let shouldDigest = false;
+        for (let i = 0; i < 50; i++) shouldDigest = incrementDigestRound(charId);
+        expect(shouldDigest).toBe(true);
+        expect(getDigestRoundCount(charId)).toBe(50);
+
+        // 空库 → 走早退分支（在任何 LLM 调用之前返回）
+        const result = await runCognitiveDigestion(
+            charId, '测试角色', '人设', { baseUrl: 'http://invalid.test', apiKey: 'k', model: 'm' },
+        );
+        expect(result).not.toBeNull();
+
+        // 关键断言：计数器归零，下一轮 increment 后是 1 而不是 51
+        expect(getDigestRoundCount(charId)).toBe(0);
+        expect(incrementDigestRound(charId)).toBe(false);
+    });
+
+    it('进场即归零：消化一开始计数器就清零，进行中的新轮次计入下一个50', async () => {
+        const charId = 'char_digest_entry_reset';
+        for (let i = 0; i < 50; i++) incrementDigestRound(charId);
+
+        const run = runCognitiveDigestion(
+            charId, '测试角色', '人设', { baseUrl: 'http://invalid.test', apiKey: 'k', model: 'm' },
+        );
+        // 消化刚启动（未 await 完成），计数器已经是 0——
+        // 这期间来的新聊天轮 increment 到 1/2/3…不会再次触发
+        expect(getDigestRoundCount(charId)).toBe(0);
+        expect(incrementDigestRound(charId)).toBe(false);
+        await run;
+    });
+
+    it('并发锁：同一角色的第二个消化直接返回 null，不重复跑', async () => {
+        const charId = 'char_digest_lock_test';
+        const first = runCognitiveDigestion(
+            charId, '测试角色', '人设', { baseUrl: 'http://invalid.test', apiKey: 'k', model: 'm' },
+        );
+        const second = await runCognitiveDigestion(
+            charId, '测试角色', '人设', { baseUrl: 'http://invalid.test', apiKey: 'k', model: 'm' },
+        );
+        expect(second).toBeNull();
+        expect(await first).not.toBeNull();
+        // 锁释放后可以再跑
+        const third = await runCognitiveDigestion(
+            charId, '测试角色', '人设', { baseUrl: 'http://invalid.test', apiKey: 'k', model: 'm' },
+        );
+        expect(third).not.toBeNull();
+    });
+});

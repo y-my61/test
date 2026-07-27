@@ -1,1 +1,262 @@
-aW1wb3J0IFJlYWN0LCB7IHVzZVN0YXRlLCB1c2VFZmZlY3QgfSBmcm9tICdyZWFjdCc7CmltcG9ydCB7IHVzZU9TIH0gZnJvbSAnLi4vLi4vY29udGV4dC9PU0NvbnRleHQnOwppbXBvcnQgeyBDaGFyYWN0ZXJQcm9maWxlLCBEYXRlT2JzZXJ2YXRpb24sIERhdGVPYnNlcnZlQ29uZmlnLCBEYXRlT2JzZXJ2ZVN0eWxlSWQgfSBmcm9tICcuLi8uLi90eXBlcyc7CmltcG9ydCB7IE9CU0VSVkVfRElNRU5TSU9OUyB9IGZyb20gJy4uLy4uL3V0aWxzL2RhdGVQcm9tcHRzJzsKaW1wb3J0IE9ic2VydmVIVUQsIHsgT0JTRVJWRV9TVFlMRVMgfSBmcm9tICcuL09ic2VydmVIVUQnOwoKLyoqCiAqIOingemdouiuvue9rumHjOeahOOAjOingua1i+WNj+iuriBPQlNFUlZF44CN6YWN572u5Z2X77yI6buY6K6k5oqY5Y+g77yJ77yaCiAqICAgLSDmgLvlvIDlhbMKICogICAtIEhVRCDmoLflvI/pgInmi6nvvIjlhajmga8gLyDmsLTloqggLyDpnJPombkgLyDmsLTmmbYgLyDnu4jnq6/vvInvvIzluKblrp7ml7bpooTop4gKICogICAtIOWbm+S4qum7mOiupOe7tOW6pu+8iOaXtumXtC/lnLDngrkv54q25oCBL+e7huiKgu+8ie+8muWQr+eUqOW8gOWFs+OAgUhVRCDmmL7npLrmoIfnrb7jgIHnlJ/miJDmj5DnpLoKICogICAtIOi/veWKoOiHquWumuS5iee7tOW6pu+8iOacgOWkmiA2IOS4qu+8ie+8muagh+etviArIOeUn+aIkOaPkOekuiArIOWQr+eUqCArIOWIoOmZpAogKiAgIC0g5LiA6ZSu6YeN572u77yI5qC35byPICsg5YWo6YOo5a2X5q616Ieq5a6a5LmJICsg6Ieq5a6a5LmJ57u05bqm5Zue6buY6K6k77yJCiAqCiAqIOaJgOacieaUueWKqOWNs+aXtuWGmeWbniBjaGFyLmRhdGVPYnNlcnZl77yM5LiL5LiA5p2h5Zue5aSNIC8g5LiL5qyh5riy5p+T55Sf5pWI44CCCiAqLwoKaW50ZXJmYWNlIE9ic2VydmVTZXR0aW5nc1Byb3BzIHsKICAgIGNoYXI6IENoYXJhY3RlclByb2ZpbGU7Cn0KCi8vIOmihOiniOeUqOeahOekuuS+i+ingua1i++8iOS4jeWPkeivt+axgu+8jOe6r+Wxleekuuagt+W8j++8iQpjb25zdCBTQU1QTEU6IERhdGVPYnNlcnZhdGlvbiA9IHsKICAgIHRpbWU6ICflgo3mmZrlha3ngrnov4fvvIzlpKnliJrmk6bpu5EnLAogICAgcGxhY2U6ICfkvr/liKnlupfpl6jlj6PnmoTloZHmlpnlh7PkuIonLAogICAgc3RhdGU6ICfmnInngrnnlrLmg6vvvIzkvYbop4HliLDkvaDnnLznpZ7kuq7kuobkuIDkuIsnLAogICAgZGV0YWlsOiAn5oyH5bCW5peg5oSP6K+G5Zyw5pWy552A5YWz5Lic54Wu55qE57q45p2vJywKfTsKCmNvbnN0IE1BWF9DVVNUT00gPSA2Owpjb25zdCBnZW5JZCA9ICgpID0+ICdvYnNfJyArIE1hdGgucmFuZG9tKCkudG9TdHJpbmcoMzYpLnNsaWNlKDIsIDkpOwoKdHlwZSBGaWVsZERyYWZ0ID0gUmVjb3JkPHN0cmluZywgeyBsYWJlbDogc3RyaW5nOyBoaW50OiBzdHJpbmcgfT47Cgpjb25zdCBidWlsZEZpZWxkRHJhZnQgPSAoY2hhcjogQ2hhcmFjdGVyUHJvZmlsZSk6IEZpZWxkRHJhZnQgPT4gewogICAgY29uc3QgZiA9IGNoYXIuZGF0ZU9ic2VydmU/LmZpZWxkcyB8fCB7fTsKICAgIGNvbnN0IGQ6IEZpZWxkRHJhZnQgPSB7fTsKICAgIGZvciAoY29uc3QgZGltIG9mIE9CU0VSVkVfRElNRU5TSU9OUykgZFtkaW0ua2V5XSA9IHsgbGFiZWw6IGZbZGltLmtleV0/LmxhYmVsIHx8ICcnLCBoaW50OiBmW2RpbS5rZXldPy5oaW50IHx8ICcnIH07CiAgICByZXR1cm4gZDsKfTsKY29uc3QgYnVpbGRDdXN0b21EcmFmdCA9IChjaGFyOiBDaGFyYWN0ZXJQcm9maWxlKTogRmllbGREcmFmdCA9PiB7CiAgICBjb25zdCBkOiBGaWVsZERyYWZ0ID0ge307CiAgICBmb3IgKGNvbnN0IGMgb2YgY2hhci5kYXRlT2JzZXJ2ZT8uY3VzdG9tIHx8IFtdKSBkW2MuaWRdID0geyBsYWJlbDogYy5sYWJlbCB8fCAnJywgaGludDogYy5oaW50IHx8ICcnIH07CiAgICByZXR1cm4gZDsKfTsKCmNvbnN0IE9ic2VydmVTZXR0aW5nczogUmVhY3QuRkM8T2JzZXJ2ZVNldHRpbmdzUHJvcHM+ID0gKHsgY2hhciB9KSA9PiB7CiAgICBjb25zdCB7IHVwZGF0ZUNoYXJhY3RlciwgYWRkVG9hc3QgfSA9IHVzZU9TKCk7CiAgICBjb25zdCBlbmFibGVkID0gISFjaGFyLmRhdGVPYnNlcnZlPy5lbmFibGVkOwogICAgY29uc3Qgc3R5bGUgPSBjaGFyLmRhdGVPYnNlcnZlPy5zdHlsZSB8fCAnaG9sb2dyYW0nOwogICAgY29uc3QgZmllbGRzID0gY2hhci5kYXRlT2JzZXJ2ZT8uZmllbGRzIHx8IHt9OwogICAgY29uc3QgY3VzdG9tcyA9IGNoYXIuZGF0ZU9ic2VydmU/LmN1c3RvbSB8fCBbXTsKCiAgICBjb25zdCBbb3Blbiwgc2V0T3Blbl0gPSB1c2VTdGF0ZShmYWxzZSk7IC8vIOm7mOiupOaKmOWPoAogICAgY29uc3QgW2RyYWZ0LCBzZXREcmFmdF0gPSB1c2VTdGF0ZTxGaWVsZERyYWZ0PigoKSA9PiBidWlsZEZpZWxkRHJhZnQoY2hhcikpOwogICAgY29uc3QgW2N1c3RvbURyYWZ0LCBzZXRDdXN0b21EcmFmdF0gPSB1c2VTdGF0ZTxGaWVsZERyYWZ0PigoKSA9PiBidWlsZEN1c3RvbURyYWZ0KGNoYXIpKTsKICAgIHVzZUVmZmVjdCgoKSA9PiB7IHNldERyYWZ0KGJ1aWxkRmllbGREcmFmdChjaGFyKSk7IHNldEN1c3RvbURyYWZ0KGJ1aWxkQ3VzdG9tRHJhZnQoY2hhcikpOyB9LCBbY2hhci5pZF0pOwoKICAgIGNvbnN0IHBhdGNoT2JzZXJ2ZSA9IChwYXRjaDogUGFydGlhbDxEYXRlT2JzZXJ2ZUNvbmZpZz4pID0+CiAgICAgICAgdXBkYXRlQ2hhcmFjdGVyKGNoYXIuaWQsIHsgZGF0ZU9ic2VydmU6IHsgLi4uY2hhci5kYXRlT2JzZXJ2ZSwgLi4ucGF0Y2ggfSB9KTsKCiAgICAvLyDigJTigJQg6buY6K6k57u05bqmIOKAlOKAlAogICAgY29uc3QgcGF0Y2hGaWVsZCA9IChrZXk6IGtleW9mIERhdGVPYnNlcnZhdGlvbiwgcGFydGlhbDogUmVjb3JkPHN0cmluZywgdW5rbm93bj4pID0+CiAgICAgICAgcGF0Y2hPYnNlcnZlKHsgZmllbGRzOiB7IC4uLmZpZWxkcywgW2tleV06IHsgLi4uKGZpZWxkc1trZXldIHx8IHt9KSwgLi4ucGFydGlhbCB9IH0gfSk7CiAgICBjb25zdCBjb21taXRGaWVsZCA9IChrZXk6IGtleW9mIERhdGVPYnNlcnZhdGlvbiwgd2hpY2g6ICdsYWJlbCcgfCAnaGludCcpID0+IHsKICAgICAgICBjb25zdCB2ID0gKGRyYWZ0W2tleV0/Llt3aGljaF0gfHwgJycpLnRyaW0oKTsKICAgICAgICBpZiAodiA9PT0gKGZpZWxkc1trZXldPy5bd2hpY2hdIHx8ICcnKSkgcmV0dXJuOwogICAgICAgIHBhdGNoRmllbGQoa2V5LCB7IFt3aGljaF06IHYgfHwgdW5kZWZpbmVkIH0pOwogICAgfTsKCiAgICAvLyDigJTigJQg6Ieq5a6a5LmJ57u05bqmIOKAlOKAlAogICAgY29uc3QgYWRkQ3VzdG9tID0gKCkgPT4gewogICAgICAgIGlmIChjdXN0b21zLmxlbmd0aCA+PSBNQVhfQ1VTVE9NKSB7IGFkZFRvYXN0KGDmnIDlpJogJHtNQVhfQ1VTVE9NfSDkuKroh6rlrprkuYnnu7TluqZgLCAnaW5mbycpOyByZXR1cm47IH0KICAgICAgICBjb25zdCBpZCA9IGdlbklkKCk7CiAgICAgICAgcGF0Y2hPYnNlcnZlKHsgY3VzdG9tOiBbLi4uY3VzdG9tcywgeyBpZCwgbGFiZWw6ICcnLCBoaW50OiAnJywgZW5hYmxlZDogdHJ1ZSB9XSB9KTsKICAgICAgICBzZXRDdXN0b21EcmFmdChkID0+ICh7IC4uLmQsIFtpZF06IHsgbGFiZWw6ICcnLCBoaW50OiAnJyB9IH0pKTsKICAgIH07CiAgICBjb25zdCBkZWxDdXN0b20gPSAoaWQ6IHN0cmluZykgPT4gcGF0Y2hPYnNlcnZlKHsgY3VzdG9tOiBjdXN0b21zLmZpbHRlcihjID0+IGMuaWQgIT09IGlkKSB9KTsKICAgIGNvbnN0IHRvZ2dsZUN1c3RvbSA9IChpZDogc3RyaW5nLCBvbjogYm9vbGVhbikgPT4gcGF0Y2hPYnNlcnZlKHsgY3VzdG9tOiBjdXN0b21zLm1hcChjID0+IGMuaWQgPT09IGlkID8geyAuLi5jLCBlbmFibGVkOiBvbiB9IDogYykgfSk7CiAgICBjb25zdCBjb21taXRDdXN0b20gPSAoaWQ6IHN0cmluZywgd2hpY2g6ICdsYWJlbCcgfCAnaGludCcpID0+IHsKICAgICAgICBjb25zdCBjdXIgPSBjdXN0b21zLmZpbmQoYyA9PiBjLmlkID09PSBpZCk7CiAgICAgICAgaWYgKCFjdXIpIHJldHVybjsKICAgICAgICBjb25zdCB2ID0gKGN1c3RvbURyYWZ0W2lkXT8uW3doaWNoXSB8fCAnJykudHJpbSgpOwogICAgICAgIGlmICh2ID09PSAoY3VyW3doaWNoXSB8fCAnJykpIHJldHVybjsKICAgICAgICBwYXRjaE9ic2VydmUoeyBjdXN0b206IGN1c3RvbXMubWFwKGMgPT4gYy5pZCA9PT0gaWQgPyB7IC4uLmMsIFt3aGljaF06IHdoaWNoID09PSAnbGFiZWwnID8gdiA6ICh2IHx8IHVuZGVmaW5lZCkgfSA6IGMpIH0pOwogICAgfTsKCiAgICBjb25zdCByZXNldEFsbCA9ICgpID0+IHsKICAgICAgICB1cGRhdGVDaGFyYWN0ZXIoY2hhci5pZCwgeyBkYXRlT2JzZXJ2ZTogeyBlbmFibGVkOiBjaGFyLmRhdGVPYnNlcnZlPy5lbmFibGVkLCBzdHlsZTogdW5kZWZpbmVkLCBmaWVsZHM6IHVuZGVmaW5lZCwgY3VzdG9tOiB1bmRlZmluZWQgfSB9KTsKICAgICAgICBzZXREcmFmdChidWlsZEZpZWxkRHJhZnQoeyAuLi5jaGFyLCBkYXRlT2JzZXJ2ZTogeyBlbmFibGVkIH0gfSkpOwogICAgICAgIHNldEN1c3RvbURyYWZ0KHt9KTsKICAgICAgICBhZGRUb2FzdCgn6KeC5rWL5qC35byP5LiO5o+Q56S66K+N5bey6YeN572u5Li66buY6K6kJywgJ3N1Y2Nlc3MnKTsKICAgIH07CgogICAgLy8g6aKE6KeI77ya6buY6K6k5Zub57u055So56S65L6L5paH5qGI77yM6Ieq5a6a5LmJ57u05bqm5aGe5Y2g5L2N5YaF5a6577yM6K6p5qC35byP6aKE6KeI5Lmf6IO955yL5Yiw6L+95Yqg55qE5qC85a2QCiAgICBjb25zdCBwcmV2aWV3T2JzOiBEYXRlT2JzZXJ2YXRpb24gPSB7CiAgICAgICAgLi4uU0FNUExFLAogICAgICAgIGV4dHJhOiBPYmplY3QuZnJvbUVudHJpZXMoCiAgICAgICAgICAgIGN1c3RvbXMuZmlsdGVyKGMgPT4gYy5lbmFibGVkICE9PSBmYWxzZSAmJiAoYy5sYWJlbCB8fCAnJykudHJpbSgpKS5tYXAoYyA9PiBbYy5pZCwgJ+atpOWkhOaYvuekuueUn+aIkOeahOWGheWuuSddKSwKICAgICAgICApLAogICAgfTsKCiAgICByZXR1cm4gKAogICAgICAgIDxzZWN0aW9uIGNsYXNzTmFtZT0iYmctd2hpdGUgcm91bmRlZC0yeGwgYm9yZGVyIGJvcmRlci1zbGF0ZS0xMDAgc2hhZG93LXNtIG92ZXJmbG93LWhpZGRlbiI+CiAgICAgICAgICAgIDxkaXYgY2xhc3NOYW1lPSJmbGV4IGl0ZW1zLWNlbnRlciBqdXN0aWZ5LWJldHdlZW4gZ2FwLTIgcHgtNCBweS0zLjUiPgogICAgICAgICAgICAgICAgPGJ1dHRvbiBvbkNsaWNrPXsoKSA9PiBzZXRPcGVuKG8gPT4gIW8pfSBjbGFzc05hbWU9ImZsZXggaXRlbXMtY2VudGVyIGdhcC0xLjUgbWluLXctMCB0ZXh0LWxlZnQgYWN0aXZlOm9wYWNpdHktNzAiPgogICAgICAgICAgICAgICAgICAgIDxzdmcgeG1sbnM9Imh0dHA6Ly93d3cudzMub3JnLzIwMDAvc3ZnIiB2aWV3Qm94PSIwIDAgMjAgMjAiIGZpbGw9ImN1cnJlbnRDb2xvciIgY2xhc3NOYW1lPXtgdy0zLjUgaC0zLjUgdGV4dC1zbGF0ZS0zMDAgdHJhbnNpdGlvbi10cmFuc2Zvcm0gc2hyaW5rLTAgJHtvcGVuID8gJ3JvdGF0ZS0xODAnIDogJyd9YH0+PHBhdGggZmlsbFJ1bGU9ImV2ZW5vZGQiIGQ9Ik01LjIzIDcuMjFhLjc1Ljc1IDAgMCAxIDEuMDYuMDJMMTAgMTEuMTY4bDMuNzEtMy45MzhhLjc1Ljc1IDAgMSAxIDEuMDggMS4wNGwtNC4yNSA0LjVhLjc1Ljc1IDAgMCAxLTEuMDggMGwtNC4yNS00LjVhLjc1Ljc1IDAgMCAxIC4wMi0xLjA2WiIgY2xpcFJ1bGU9ImV2ZW5vZGQiIC8+PC9zdmc+CiAgICAgICAgICAgICAgICAgICAgPGRpdiBjbGFzc05hbWU9Im1pbi13LTAiPgogICAgICAgICAgICAgICAgICAgICAgICA8aDMgY2xhc3NOYW1lPSJ0ZXh0LXhzIGZvbnQtYm9sZCB0ZXh0LXNsYXRlLTQwMCB1cHBlcmNhc2UiPuingua1i+WNj+iuriDCtyBPQlNFUlZFPC9oMz4KICAgICAgICAgICAgICAgICAgICAgICAgPHAgY2xhc3NOYW1lPSJ0ZXh0LVsxMXB4XSB0ZXh0LXNsYXRlLTQwMCBtdC0wLjUgbGVhZGluZy1yZWxheGVkIHRydW5jYXRlIj7mr4/mnaHlm57lpI3pmYTkuIoge2NoYXIubmFtZX0g5q2k5Yi755qE54q25oCB77yM5riy5p+T5oiQ5Y+v54us56uL5p+l55yL55qE6KeC5rWL6Z2i5p2/44CCe2VuYWJsZWQgPyAn5bey5byA5ZCv44CCJyA6ICflt7LlhbPpl63jgIInfTwvcD4KICAgICAgICAgICAgICAgICAgICA8L2Rpdj4KICAgICAgICAgICAgICAgIDwvYnV0dG9uPgogICAgICAgICAgICAgICAgPGJ1dHRvbgogICAgICAgICAgICAgICAgICAgIG9uQ2xpY2s9eygpID0+IHBhdGNoT2JzZXJ2ZSh7IGVuYWJsZWQ6ICFlbmFibGVkIH0pfQogICAgICAgICAgICAgICAgICAgIGNsYXNzTmFtZT17YHctMTIgaC03IHJvdW5kZWQtZnVsbCB0cmFuc2l0aW9uLWNvbG9ycyByZWxhdGl2ZSBzaHJpbmstMCAke2VuYWJsZWQgPyAnYmctcHJpbWFyeScgOiAnYmctc2xhdGUtMjAwJ31gfQogICAgICAgICAgICAgICAgPgogICAgICAgICAgICAgICAgICAgIDxkaXYgY2xhc3NOYW1lPXtgYWJzb2x1dGUgdG9wLTAuNSB3LTYgaC02IGJnLXdoaXRlIHJvdW5kZWQtZnVsbCBzaGFkb3ctbWQgdHJhbnNpdGlvbi10cmFuc2Zvcm0gJHtlbmFibGVkID8gJ3RyYW5zbGF0ZS14LTUnIDogJ3RyYW5zbGF0ZS14LTAuNSd9YH0+PC9kaXY+CiAgICAgICAgICAgICAgICA8L2J1dHRvbj4KICAgICAgICAgICAgPC9kaXY+CgogICAgICAgICAgICB7b3BlbiAmJiAoCiAgICAgICAgICAgICAgICAhZW5hYmxlZCA/ICgKICAgICAgICAgICAgICAgICAgICA8cCBjbGFzc05hbWU9InB4LTQgcGItNCAtbXQtMSB0ZXh0LVsxMXB4XSB0ZXh0LXNsYXRlLTQwMCI+5YWI5omT5byA5Y+z5LiK6KeS5byA5YWz77yM5Y2z5Y+v6YCJ5oup6Z2i5p2/5qC35byP44CB6Ieq5a6a5LmJ5q+P5qC855Sf5oiQ5LuA5LmI44CB6L+95Yqg6KeC5a+f57u05bqm44CCPC9wPgogICAgICAgICAgICAgICAgKSA6ICgKICAgICAgICAgICAgICAgIDxkaXYgY2xhc3NOYW1lPSJweC00IHBiLTQgc3BhY2UteS00Ij4KICAgICAgICAgICAgICAgICAgICB7Lyog4pSA4pSAIOagt+W8j+mAieaLqSDilIDilIAgKi99CiAgICAgICAgICAgICAgICAgICAgPGRpdj4KICAgICAgICAgICAgICAgICAgICAgICAgPGRpdiBjbGFzc05hbWU9ImZsZXggaXRlbXMtY2VudGVyIGp1c3RpZnktYmV0d2VlbiBtYi0yIj4KICAgICAgICAgICAgICAgICAgICAgICAgICAgIDxoNCBjbGFzc05hbWU9InRleHQtWzExcHhdIGZvbnQtYm9sZCB0ZXh0LXNsYXRlLTUwMCI+6Z2i5p2/5qC35byPPC9oND4KICAgICAgICAgICAgICAgICAgICAgICAgICAgIDxidXR0b24gb25DbGljaz17cmVzZXRBbGx9IGNsYXNzTmFtZT0idGV4dC1bMTBweF0gZm9udC1ib2xkIHRleHQtcHJpbWFyeS84MCBob3Zlcjp0ZXh0LXByaW1hcnkgcHgtMiBweS0wLjUgcm91bmRlZC1mdWxsIGJnLXByaW1hcnkvNSBhY3RpdmU6c2NhbGUtOTUgdHJhbnNpdGlvbi10cmFuc2Zvcm0iPuS4gOmUrumHjee9rjwvYnV0dG9uPgogICAgICAgICAgICAgICAgICAgICAgICA8L2Rpdj4KICAgICAgICAgICAgICAgICAgICAgICAgPGRpdiBjbGFzc05hbWU9ImdyaWQgZ3JpZC1jb2xzLTUgZ2FwLTEuNSI+CiAgICAgICAgICAgICAgICAgICAgICAgICAgICB7T0JTRVJWRV9TVFlMRVMubWFwKHMgPT4gKAogICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgIDxidXR0b24KICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAga2V5PXtzLmlkfQogICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICBvbkNsaWNrPXsoKSA9PiBwYXRjaE9ic2VydmUoeyBzdHlsZTogcy5pZCBhcyBEYXRlT2JzZXJ2ZVN0eWxlSWQgfSl9CiAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgIHRpdGxlPXtzLmRlc2N9CiAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgIGNsYXNzTmFtZT17YGZsZXggZmxleC1jb2wgaXRlbXMtY2VudGVyIGdhcC0xIHB5LTIgcm91bmRlZC14bCBib3JkZXIgdHJhbnNpdGlvbi1hbGwgYWN0aXZlOnNjYWxlLTk1ICR7c3R5bGUgPT09IHMuaWQgPyAnYm9yZGVyLXByaW1hcnkgYmctcHJpbWFyeS81IHJpbmctMSByaW5nLXByaW1hcnkvMzAnIDogJ2JvcmRlci1zbGF0ZS0yMDAgaG92ZXI6Ym9yZGVyLXNsYXRlLTMwMCd9YH0KICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICA+CiAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgIDxzcGFuIGNsYXNzTmFtZT0idy03IGgtNyByb3VuZGVkLWxnIHNoYWRvdy1pbm5lciIgc3R5bGU9e3sgYmFja2dyb3VuZDogcy5zd2F0Y2ggfX0gLz4KICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgPHNwYW4gY2xhc3NOYW1lPXtgdGV4dC1bMTBweF0gZm9udC1ib2xkICR7c3R5bGUgPT09IHMuaWQgPyAndGV4dC1wcmltYXJ5JyA6ICd0ZXh0LXNsYXRlLTUwMCd9YH0+e3MubmFtZX08L3NwYW4+CiAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgPC9idXR0b24+CiAgICAgICAgICAgICAgICAgICAgICAgICAgICApKX0KICAgICAgICAgICAgICAgICAgICAgICAgPC9kaXY+CiAgICAgICAgICAgICAgICAgICAgICAgIDxwIGNsYXNzTmFtZT0idGV4dC1bMTBweF0gdGV4dC1zbGF0ZS00MDAgbXQtMS41IGxlYWRpbmctc251ZyI+e09CU0VSVkVfU1RZTEVTLmZpbmQocyA9PiBzLmlkID09PSBzdHlsZSk/LmRlc2N9PC9wPgogICAgICAgICAgICAgICAgICAgIDwvZGl2PgoKICAgICAgICAgICAgICAgICAgICB7Lyog4pSA4pSAIOWunuaXtumihOiniCDilIDilIAgKi99CiAgICAgICAgICAgICAgICAgICAgPGRpdj4KICAgICAgICAgICAgICAgICAgICAgICAgPGg0IGNsYXNzTmFtZT0idGV4dC1bMTFweF0gZm9udC1ib2xkIHRleHQtc2xhdGUtNTAwIG1iLTIiPumihOiniDwvaDQ+CiAgICAgICAgICAgICAgICAgICAgICAgIDxkaXYgY2xhc3NOYW1lPSJyb3VuZGVkLXhsIHAtNCBmbGV4IGp1c3RpZnktY2VudGVyIiBzdHlsZT17eyBiYWNrZ3JvdW5kOiBzdHlsZSA9PT0gJ2luaycgPyAnI2U5ZTBjZCcgOiAncmFkaWFsLWdyYWRpZW50KGNpcmNsZSBhdCAzMCUgMjAlLCAjMWUyNDMzLCAjMGEwZDE2KScgfX0+CiAgICAgICAgICAgICAgICAgICAgICAgICAgICA8ZGl2IGNsYXNzTmFtZT0idy1mdWxsIG1heC13LVsyNjBweF0iPgogICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgIDxPYnNlcnZlSFVEIG9ic2VydmF0aW9uPXtwcmV2aWV3T2JzfSB2YXJpYW50PSJjYXJkIiBjaGFyTmFtZT17Y2hhci5uYW1lfSBjb25maWc9e2NoYXIuZGF0ZU9ic2VydmV9IC8+CiAgICAgICAgICAgICAgICAgICAgICAgICAgICA8L2Rpdj4KICAgICAgICAgICAgICAgICAgICAgICAgPC9kaXY+CiAgICAgICAgICAgICAgICAgICAgPC9kaXY+CgogICAgICAgICAgICAgICAgICAgIHsvKiDilIDilIAg5q+P5Liq57u05bqm55qE5o+Q56S66K+N5LiO5qCH562+6Ieq5a6a5LmJIOKUgOKUgCAqL30KICAgICAgICAgICAgICAgICAgICA8ZGl2PgogICAgICAgICAgICAgICAgICAgICAgICA8aDQgY2xhc3NOYW1lPSJ0ZXh0LVsxMXB4XSBmb250LWJvbGQgdGV4dC1zbGF0ZS01MDAgbWItMSI+5q+P5Liq6YOo5YiG55Sf5oiQ5LuA5LmI77yI6Ieq5a6a5LmJ5o+Q56S66K+N77yJPC9oND4KICAgICAgICAgICAgICAgICAgICAgICAgPHAgY2xhc3NOYW1lPSJ0ZXh0LVsxMHB4XSB0ZXh0LXNsYXRlLTQwMCBtYi0yLjUgbGVhZGluZy1zbnVnIj7jgIzmmL7npLrmoIfnrb7jgI3lj6rmlLnpnaLmnb/kuIrnmoTlrZfmoLfvvJvjgIznlJ/miJDmj5DnpLrjgI3lhrPlrprov5nkuIDmoLzorqkgQUkg5YaZ5LuA5LmI44CC55WZ56m65Y2z55So6buY6K6k44CC5YWz5o6J55qE57u05bqm5LiN5Lya55Sf5oiQ44CB6Z2i5p2/5LiK5Lmf5LiN5pi+56S644CCPC9wPgogICAgICAgICAgICAgICAgICAgICAgICA8ZGl2IGNsYXNzTmFtZT0ic3BhY2UteS0yLjUiPgogICAgICAgICAgICAgICAgICAgICAgICAgICAge09CU0VSVkVfRElNRU5TSU9OUy5tYXAoZGltID0+IHsKICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICBjb25zdCBvbiA9IGZpZWxkc1tkaW0ua2V5XT8uZW5hYmxlZCAhPT0gZmFsc2U7CiAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgY29uc3QgZGVmSGludCA9IGRpbS5oaW50LnJlcGxhY2UoL1x7bmFtZVx9L2csIGNoYXIubmFtZSk7CiAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgcmV0dXJuICgKICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgPGRpdiBrZXk9e2RpbS5rZXl9IGNsYXNzTmFtZT17YHJvdW5kZWQteGwgYm9yZGVyIHAtMi41IHRyYW5zaXRpb24tb3BhY2l0eSAke29uID8gJ2JvcmRlci1zbGF0ZS0yMDAgYmctc2xhdGUtNTAvNjAnIDogJ2JvcmRlci1zbGF0ZS0xMDAgYmctc2xhdGUtNTAvMzAgb3BhY2l0eS02MCd9YH0+CiAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICA8ZGl2IGNsYXNzTmFtZT0iZmxleCBpdGVtcy1jZW50ZXIganVzdGlmeS1iZXR3ZWVuIG1iLTIiPgogICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgIDxzcGFuIGNsYXNzTmFtZT0idGV4dC1bMTFweF0gZm9udC1ib2xkIHRleHQtc2xhdGUtNjAwIGZsZXggaXRlbXMtY2VudGVyIGdhcC0xLjUiPjxzcGFuIGNsYXNzTmFtZT0idGV4dC1zbGF0ZS00MDAiPntkaW0uZ2x5cGh9PC9zcGFuPntkaW0ubGFiZWx9PC9zcGFuPgogICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgIDxidXR0b24KICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgb25DbGljaz17KCkgPT4gcGF0Y2hGaWVsZChkaW0ua2V5LCB7IGVuYWJsZWQ6ICFvbiB9KX0KICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgY2xhc3NOYW1lPXtgdy05IGgtNSByb3VuZGVkLWZ1bGwgdHJhbnNpdGlvbi1jb2xvcnMgcmVsYXRpdmUgc2hyaW5rLTAgJHtvbiA/ICdiZy1wcmltYXJ5JyA6ICdiZy1zbGF0ZS0zMDAnfWB9CiAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgPgogICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICA8ZGl2IGNsYXNzTmFtZT17YGFic29sdXRlIHRvcC0wLjUgdy00IGgtNCBiZy13aGl0ZSByb3VuZGVkLWZ1bGwgc2hhZG93IHRyYW5zaXRpb24tdHJhbnNmb3JtICR7b24gPyAndHJhbnNsYXRlLXgtNCcgOiAndHJhbnNsYXRlLXgtMC41J31gfT48L2Rpdj4KICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICA8L2J1dHRvbj4KICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgIDwvZGl2PgogICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAge29uICYmICgKICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICA8ZGl2IGNsYXNzTmFtZT0ic3BhY2UteS0xLjUiPgogICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICA8aW5wdXQKICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgIHZhbHVlPXtkcmFmdFtkaW0ua2V5XT8ubGFiZWwgfHwgJyd9CiAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICBvbkNoYW5nZT17ZSA9PiBzZXREcmFmdChkID0+ICh7IC4uLmQsIFtkaW0ua2V5XTogeyAuLi5kW2RpbS5rZXldLCBsYWJlbDogZS50YXJnZXQudmFsdWUgfSB9KSl9CiAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICBvbkJsdXI9eygpID0+IGNvbW1pdEZpZWxkKGRpbS5rZXksICdsYWJlbCcpfQogICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgcGxhY2Vob2xkZXI9e2DmmL7npLrmoIfnrb7vvIjpu5jorqTjgIwke2RpbS5sYWJlbH3jgI3vvIlgfQogICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgY2xhc3NOYW1lPSJ3LWZ1bGwgdGV4dC1bMTJweF0gcHgtMi41IHB5LTEuNSByb3VuZGVkLWxnIGJvcmRlciBib3JkZXItc2xhdGUtMjAwIGZvY3VzOmJvcmRlci1wcmltYXJ5IGZvY3VzOm91dGxpbmUtbm9uZSBiZy13aGl0ZSIKICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgLz4KICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgPHRleHRhcmVhCiAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICB2YWx1ZT17ZHJhZnRbZGltLmtleV0/LmhpbnQgfHwgJyd9CiAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICBvbkNoYW5nZT17ZSA9PiBzZXREcmFmdChkID0+ICh7IC4uLmQsIFtkaW0ua2V5XTogeyAuLi5kW2RpbS5rZXldLCBoaW50OiBlLnRhcmdldC52YWx1ZSB9IH0pKX0KICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgIG9uQmx1cj17KCkgPT4gY29tbWl0RmllbGQoZGltLmtleSwgJ2hpbnQnKX0KICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgIHBsYWNlaG9sZGVyPXtg55Sf5oiQ5o+Q56S677yI6buY6K6k77yaJHtkZWZIaW50fe+8iWB9CiAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICByb3dzPXsyfQogICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgY2xhc3NOYW1lPSJ3LWZ1bGwgdGV4dC1bMTJweF0gcHgtMi41IHB5LTEuNSByb3VuZGVkLWxnIGJvcmRlciBib3JkZXItc2xhdGUtMjAwIGZvY3VzOmJvcmRlci1wcmltYXJ5IGZvY3VzOm91dGxpbmUtbm9uZSBiZy13aGl0ZSBsZWFkaW5nLXJlbGF4ZWQgcmVzaXplLW5vbmUiCiAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgIC8+CiAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgPC9kaXY+CiAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICApfQogICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICA8L2Rpdj4KICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICApOwogICAgICAgICAgICAgICAgICAgICAgICAgICAgfSl9CiAgICAgICAgICAgICAgICAgICAgICAgIDwvZGl2PgogICAgICAgICAgICAgICAgICAgIDwvZGl2PgoKICAgICAgICAgICAgICAgICAgICB7Lyog4pSA4pSAIOi/veWKoOiHquWumuS5iee7tOW6piDilIDilIAgKi99CiAgICAgICAgICAgICAgICAgICAgPGRpdj4KICAgICAgICAgICAgICAgICAgICAgICAgPGRpdiBjbGFzc05hbWU9ImZsZXggaXRlbXMtY2VudGVyIGp1c3RpZnktYmV0d2VlbiBtYi0xIj4KICAgICAgICAgICAgICAgICAgICAgICAgICAgIDxoNCBjbGFzc05hbWU9InRleHQtWzExcHhdIGZvbnQtYm9sZCB0ZXh0LXNsYXRlLTUwMCI+6L+95Yqg57u05bqmPC9oND4KICAgICAgICAgICAgICAgICAgICAgICAgICAgIDxidXR0b24KICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICBvbkNsaWNrPXthZGRDdXN0b219CiAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgZGlzYWJsZWQ9e2N1c3RvbXMubGVuZ3RoID49IE1BWF9DVVNUT019CiAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgY2xhc3NOYW1lPSJ0ZXh0LVsxMHB4XSBmb250LWJvbGQgdGV4dC1wcmltYXJ5IHB4LTIuNSBweS0xIHJvdW5kZWQtZnVsbCBiZy1wcmltYXJ5LzUgaG92ZXI6YmctcHJpbWFyeS8xMCBkaXNhYmxlZDpvcGFjaXR5LTQwIGFjdGl2ZTpzY2FsZS05NSB0cmFuc2l0aW9uLWFsbCIKICAgICAgICAgICAgICAgICAgICAgICAgICAgID4rIOa3u+WKoO+8iHtjdXN0b21zLmxlbmd0aH0ve01BWF9DVVNUT01977yJPC9idXR0b24+CiAgICAgICAgICAgICAgICAgICAgICAgIDwvZGl2PgogICAgICAgICAgICAgICAgICAgICAgICA8cCBjbGFzc05hbWU9InRleHQtWzEwcHhdIHRleHQtc2xhdGUtNDAwIG1iLTIuNSBsZWFkaW5nLXNudWciPuWcqOWbm+S4qum7mOiupOe7tOW6puS5i+Wklu+8jOiHquW3seW8gOinguWvn+mhue+8iOWmguOAjOepv+edgOOAjeOAjOWkqeawlOOAjeOAjOWSjOS9oOeahOi3neemu+OAje+8ieOAguagh+etvuWQjOaXtueUqOS6jiBBSSDovpPlh7rkuI7pnaLmnb/mmL7npLrjgII8L3A+CiAgICAgICAgICAgICAgICAgICAgICAgIHtjdXN0b21zLmxlbmd0aCA9PT0gMCA/ICgKICAgICAgICAgICAgICAgICAgICAgICAgICAgIDxkaXYgY2xhc3NOYW1lPSJ0ZXh0LVsxMXB4XSB0ZXh0LXNsYXRlLTMwMCB0ZXh0LWNlbnRlciBweS0zIGJvcmRlciBib3JkZXItZGFzaGVkIGJvcmRlci1zbGF0ZS0yMDAgcm91bmRlZC14bCI+6L+Y5rKh5pyJ6Ieq5a6a5LmJ57u05bqm77yM54K544CMKyDmt7vliqDjgI3lvIDkuIDmoLw8L2Rpdj4KICAgICAgICAgICAgICAgICAgICAgICAgKSA6ICgKICAgICAgICAgICAgICAgICAgICAgICAgICAgIDxkaXYgY2xhc3NOYW1lPSJzcGFjZS15LTIuNSI+CiAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAge2N1c3RvbXMubWFwKGMgPT4gewogICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICBjb25zdCBvbiA9IGMuZW5hYmxlZCAhPT0gZmFsc2U7CiAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgIHJldHVybiAoCiAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICA8ZGl2IGtleT17Yy5pZH0gY2xhc3NOYW1lPXtgcm91bmRlZC14bCBib3JkZXIgcC0yLjUgdHJhbnNpdGlvbi1vcGFjaXR5ICR7b24gPyAnYm9yZGVyLXNsYXRlLTIwMCBiZy1zbGF0ZS01MC82MCcgOiAnYm9yZGVyLXNsYXRlLTEwMCBiZy1zbGF0ZS01MC8zMCBvcGFjaXR5LTYwJ31gfT4KICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICA8ZGl2IGNsYXNzTmFtZT0iZmxleCBpdGVtcy1jZW50ZXIgZ2FwLTIgbWItMiI+CiAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgIDxpbnB1dAogICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgdmFsdWU9e2N1c3RvbURyYWZ0W2MuaWRdPy5sYWJlbCB8fCAnJ30KICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgIG9uQ2hhbmdlPXtlID0+IHNldEN1c3RvbURyYWZ0KGQgPT4gKHsgLi4uZCwgW2MuaWRdOiB7IC4uLmRbYy5pZF0sIGxhYmVsOiBlLnRhcmdldC52YWx1ZSB9IH0pKX0KICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgIG9uQmx1cj17KCkgPT4gY29tbWl0Q3VzdG9tKGMuaWQsICdsYWJlbCcpfQogICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgcGxhY2Vob2xkZXI9Iue7tOW6puWQje+8iOWmgiDnqb/nnYAgLyDlpKnmsJTvvIkiCiAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICBjbGFzc05hbWU9ImZsZXgtMSBtaW4tdy0wIHRleHQtWzEycHhdIGZvbnQtYm9sZCBweC0yLjUgcHktMS41IHJvdW5kZWQtbGcgYm9yZGVyIGJvcmRlci1zbGF0ZS0yMDAgZm9jdXM6Ym9yZGVyLXByaW1hcnkgZm9jdXM6b3V0bGluZS1ub25lIGJnLXdoaXRlIgogICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAvPgogICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICA8YnV0dG9uCiAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICBvbkNsaWNrPXsoKSA9PiB0b2dnbGVDdXN0b20oYy5pZCwgIW9uKX0KICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgIGNsYXNzTmFtZT17YHctOSBoLTUgcm91bmRlZC1mdWxsIHRyYW5zaXRpb24tY29sb3JzIHJlbGF0aXZlIHNocmluay0wICR7b24gPyAnYmctcHJpbWFyeScgOiAnYmctc2xhdGUtMzAwJ31gfQogICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICA+CiAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICA8ZGl2IGNsYXNzTmFtZT17YGFic29sdXRlIHRvcC0wLjUgdy00IGgtNCBiZy13aGl0ZSByb3VuZGVkLWZ1bGwgc2hhZG93IHRyYW5zaXRpb24tdHJhbnNmb3JtICR7b24gPyAndHJhbnNsYXRlLXgtNCcgOiAndHJhbnNsYXRlLXgtMC41J31gfT48L2Rpdj4KICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgPC9idXR0b24+CiAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgIDxidXR0b24gb25DbGljaz17KCkgPT4gZGVsQ3VzdG9tKGMuaWQpfSB0aXRsZT0i5Yig6ZmkIiBjbGFzc05hbWU9InRleHQtc2xhdGUtMzAwIGhvdmVyOnRleHQtcmVkLTQwMCB0cmFuc2l0aW9uLWNvbG9ycyBzaHJpbmstMCBwLTAuNSI+CiAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICA8c3ZnIHhtbG5zPSJodHRwOi8vd3d3LnczLm9yZy8yMDAwL3N2ZyIgZmlsbD0ibm9uZSIgdmlld0JveD0iMCAwIDI0IDI0IiBzdHJva2VXaWR0aD17Mn0gc3Ryb2tlPSJjdXJyZW50Q29sb3IiIGNsYXNzTmFtZT0idy00IGgtNCI+PHBhdGggc3Ryb2tlTGluZWNhcD0icm91bmQiIHN0cm9rZUxpbmVqb2luPSJyb3VuZCIgZD0iTTYgMTggMTggNk02IDZsMTIgMTIiIC8+PC9zdmc+CiAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgIDwvYnV0dG9uPgogICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgIDwvZGl2PgogICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgIHtvbiAmJiAoCiAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgIDx0ZXh0YXJlYQogICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgdmFsdWU9e2N1c3RvbURyYWZ0W2MuaWRdPy5oaW50IHx8ICcnfQogICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgb25DaGFuZ2U9e2UgPT4gc2V0Q3VzdG9tRHJhZnQoZCA9PiAoeyAuLi5kLCBbYy5pZF06IHsgLi4uZFtjLmlkXSwgaGludDogZS50YXJnZXQudmFsdWUgfSB9KSl9CiAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICBvbkJsdXI9eygpID0+IGNvbW1pdEN1c3RvbShjLmlkLCAnaGludCcpfQogICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgcGxhY2Vob2xkZXI9IueUn+aIkOaPkOekuu+8mui/meS4gOagvOiuqSBBSSDlhpnku4DkuYjvvIjnlZnnqbrnu5nkuKrpgJrnlKjpu5jorqTvvIkiCiAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICByb3dzPXsyfQogICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgY2xhc3NOYW1lPSJ3LWZ1bGwgdGV4dC1bMTJweF0gcHgtMi41IHB5LTEuNSByb3VuZGVkLWxnIGJvcmRlciBib3JkZXItc2xhdGUtMjAwIGZvY3VzOmJvcmRlci1wcmltYXJ5IGZvY3VzOm91dGxpbmUtbm9uZSBiZy13aGl0ZSBsZWFkaW5nLXJlbGF4ZWQgcmVzaXplLW5vbmUiCiAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgIC8+CiAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgKX0KICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgIDwvZGl2PgogICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICApOwogICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgIH0pfQogICAgICAgICAgICAgICAgICAgICAgICAgICAgPC9kaXY+CiAgICAgICAgICAgICAgICAgICAgICAgICl9CiAgICAgICAgICAgICAgICAgICAgPC9kaXY+CiAgICAgICAgICAgICAgICA8L2Rpdj4KICAgICAgICAgICAgICAgICkKICAgICAgICAgICAgKX0KICAgICAgICA8L3NlY3Rpb24+CiAgICApOwp9OwoKZXhwb3J0IGRlZmF1bHQgT2JzZXJ2ZVNldHRpbmdzOwo=
+import React, { useState, useEffect } from 'react';
+import { useOS } from '../../context/OSContext';
+import { CharacterProfile, DateObservation, DateObserveConfig, DateObserveStyleId } from '../../types';
+import { OBSERVE_DIMENSIONS } from '../../utils/datePrompts';
+import ObserveHUD, { OBSERVE_STYLES } from './ObserveHUD';
+
+/**
+ * 见面设置里的「观测协议 OBSERVE」配置块（默认折叠）：
+ *   - 总开关
+ *   - HUD 样式选择（全息 / 水墨 / 霓虹 / 水晶 / 终端），带实时预览
+ *   - 四个默认维度（时间/地点/状态/细节）：启用开关、HUD 显示标签、生成提示
+ *   - 追加自定义维度（最多 6 个）：标签 + 生成提示 + 启用 + 删除
+ *   - 一键重置（样式 + 全部字段自定义 + 自定义维度回默认）
+ *
+ * 所有改动即时写回 char.dateObserve，下一条回复 / 下次渲染生效。
+ */
+
+interface ObserveSettingsProps {
+    char: CharacterProfile;
+}
+
+// 预览用的示例观测（不发请求，纯展示样式）
+const SAMPLE: DateObservation = {
+    time: '傍晚六点过，天刚擦黑',
+    place: '便利店门口的塑料凳上',
+    state: '有点疲惫，但见到你眼神亮了一下',
+    detail: '指尖无意识地敲着关东煮的纸杯',
+};
+
+const MAX_CUSTOM = 6;
+const genId = () => 'obs_' + Math.random().toString(36).slice(2, 9);
+
+type FieldDraft = Record<string, { label: string; hint: string }>;
+
+const buildFieldDraft = (char: CharacterProfile): FieldDraft => {
+    const f = char.dateObserve?.fields || {};
+    const d: FieldDraft = {};
+    for (const dim of OBSERVE_DIMENSIONS) d[dim.key] = { label: f[dim.key]?.label || '', hint: f[dim.key]?.hint || '' };
+    return d;
+};
+const buildCustomDraft = (char: CharacterProfile): FieldDraft => {
+    const d: FieldDraft = {};
+    for (const c of char.dateObserve?.custom || []) d[c.id] = { label: c.label || '', hint: c.hint || '' };
+    return d;
+};
+
+const ObserveSettings: React.FC<ObserveSettingsProps> = ({ char }) => {
+    const { updateCharacter, addToast } = useOS();
+    const enabled = !!char.dateObserve?.enabled;
+    const style = char.dateObserve?.style || 'hologram';
+    const fields = char.dateObserve?.fields || {};
+    const customs = char.dateObserve?.custom || [];
+
+    const [open, setOpen] = useState(false); // 默认折叠
+    const [draft, setDraft] = useState<FieldDraft>(() => buildFieldDraft(char));
+    const [customDraft, setCustomDraft] = useState<FieldDraft>(() => buildCustomDraft(char));
+    useEffect(() => { setDraft(buildFieldDraft(char)); setCustomDraft(buildCustomDraft(char)); }, [char.id]);
+
+    const patchObserve = (patch: Partial<DateObserveConfig>) =>
+        updateCharacter(char.id, { dateObserve: { ...char.dateObserve, ...patch } });
+
+    // —— 默认维度 ——
+    const patchField = (key: keyof DateObservation, partial: Record<string, unknown>) =>
+        patchObserve({ fields: { ...fields, [key]: { ...(fields[key] || {}), ...partial } } });
+    const commitField = (key: keyof DateObservation, which: 'label' | 'hint') => {
+        const v = (draft[key]?.[which] || '').trim();
+        if (v === (fields[key]?.[which] || '')) return;
+        patchField(key, { [which]: v || undefined });
+    };
+
+    // —— 自定义维度 ——
+    const addCustom = () => {
+        if (customs.length >= MAX_CUSTOM) { addToast(`最多 ${MAX_CUSTOM} 个自定义维度`, 'info'); return; }
+        const id = genId();
+        patchObserve({ custom: [...customs, { id, label: '', hint: '', enabled: true }] });
+        setCustomDraft(d => ({ ...d, [id]: { label: '', hint: '' } }));
+    };
+    const delCustom = (id: string) => patchObserve({ custom: customs.filter(c => c.id !== id) });
+    const toggleCustom = (id: string, on: boolean) => patchObserve({ custom: customs.map(c => c.id === id ? { ...c, enabled: on } : c) });
+    const commitCustom = (id: string, which: 'label' | 'hint') => {
+        const cur = customs.find(c => c.id === id);
+        if (!cur) return;
+        const v = (customDraft[id]?.[which] || '').trim();
+        if (v === (cur[which] || '')) return;
+        patchObserve({ custom: customs.map(c => c.id === id ? { ...c, [which]: which === 'label' ? v : (v || undefined) } : c) });
+    };
+
+    const resetAll = () => {
+        updateCharacter(char.id, { dateObserve: { enabled: char.dateObserve?.enabled, style: undefined, fields: undefined, custom: undefined } });
+        setDraft(buildFieldDraft({ ...char, dateObserve: { enabled } }));
+        setCustomDraft({});
+        addToast('观测样式与提示词已重置为默认', 'success');
+    };
+
+    // 预览：默认四维用示例文案，自定义维度塞占位内容，让样式预览也能看到追加的格子
+    const previewObs: DateObservation = {
+        ...SAMPLE,
+        extra: Object.fromEntries(
+            customs.filter(c => c.enabled !== false && (c.label || '').trim()).map(c => [c.id, '此处显示生成的内容']),
+        ),
+    };
+
+    return (
+        <section className="bg-white rounded-2xl border border-slate-100 shadow-sm overflow-hidden">
+            <div className="flex items-center justify-between gap-2 px-4 py-3.5">
+                <button onClick={() => setOpen(o => !o)} className="flex items-center gap-1.5 min-w-0 text-left active:opacity-70">
+                    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 20" fill="currentColor" className={`w-3.5 h-3.5 text-slate-300 transition-transform shrink-0 ${open ? 'rotate-180' : ''}`}><path fillRule="evenodd" d="M5.23 7.21a.75.75 0 0 1 1.06.02L10 11.168l3.71-3.938a.75.75 0 1 1 1.08 1.04l-4.25 4.5a.75.75 0 0 1-1.08 0l-4.25-4.5a.75.75 0 0 1 .02-1.06Z" clipRule="evenodd" /></svg>
+                    <div className="min-w-0">
+                        <h3 className="text-xs font-bold text-slate-400 uppercase">观测协议 · OBSERVE</h3>
+                        <p className="text-[11px] text-slate-400 mt-0.5 leading-relaxed truncate">每条回复附上 {char.name} 此刻的状态，渲染成可独立查看的观测面板。{enabled ? '已开启。' : '已关闭。'}</p>
+                    </div>
+                </button>
+                <button
+                    onClick={() => patchObserve({ enabled: !enabled })}
+                    className={`w-12 h-7 rounded-full transition-colors relative shrink-0 ${enabled ? 'bg-primary' : 'bg-slate-200'}`}
+                >
+                    <div className={`absolute top-0.5 w-6 h-6 bg-white rounded-full shadow-md transition-transform ${enabled ? 'translate-x-5' : 'translate-x-0.5'}`}></div>
+                </button>
+            </div>
+
+            {open && (
+                !enabled ? (
+                    <p className="px-4 pb-4 -mt-1 text-[11px] text-slate-400">先打开右上角开关，即可选择面板样式、自定义每格生成什么、追加观察维度。</p>
+                ) : (
+                <div className="px-4 pb-4 space-y-4">
+                    {/* ── 样式选择 ── */}
+                    <div>
+                        <div className="flex items-center justify-between mb-2">
+                            <h4 className="text-[11px] font-bold text-slate-500">面板样式</h4>
+                            <button onClick={resetAll} className="text-[10px] font-bold text-primary/80 hover:text-primary px-2 py-0.5 rounded-full bg-primary/5 active:scale-95 transition-transform">一键重置</button>
+                        </div>
+                        <div className="grid grid-cols-5 gap-1.5">
+                            {OBSERVE_STYLES.map(s => (
+                                <button
+                                    key={s.id}
+                                    onClick={() => patchObserve({ style: s.id as DateObserveStyleId })}
+                                    title={s.desc}
+                                    className={`flex flex-col items-center gap-1 py-2 rounded-xl border transition-all active:scale-95 ${style === s.id ? 'border-primary bg-primary/5 ring-1 ring-primary/30' : 'border-slate-200 hover:border-slate-300'}`}
+                                >
+                                    <span className="w-7 h-7 rounded-lg shadow-inner" style={{ background: s.swatch }} />
+                                    <span className={`text-[10px] font-bold ${style === s.id ? 'text-primary' : 'text-slate-500'}`}>{s.name}</span>
+                                </button>
+                            ))}
+                        </div>
+                        <p className="text-[10px] text-slate-400 mt-1.5 leading-snug">{OBSERVE_STYLES.find(s => s.id === style)?.desc}</p>
+                    </div>
+
+                    {/* ── 实时预览 ── */}
+                    <div>
+                        <h4 className="text-[11px] font-bold text-slate-500 mb-2">预览</h4>
+                        <div className="rounded-xl p-4 flex justify-center" style={{ background: style === 'ink' ? '#e9e0cd' : 'radial-gradient(circle at 30% 20%, #1e2433, #0a0d16)' }}>
+                            <div className="w-full max-w-[260px]">
+                                <ObserveHUD observation={previewObs} variant="card" charName={char.name} config={char.dateObserve} />
+                            </div>
+                        </div>
+                    </div>
+
+                    {/* ── 每个维度的提示词与标签自定义 ── */}
+                    <div>
+                        <h4 className="text-[11px] font-bold text-slate-500 mb-1">每个部分生成什么（自定义提示词）</h4>
+                        <p className="text-[10px] text-slate-400 mb-2.5 leading-snug">「显示标签」只改面板上的字样；「生成提示」决定这一格让 AI 写什么。留空即用默认。关掉的维度不会生成、面板上也不显示。</p>
+                        <div className="space-y-2.5">
+                            {OBSERVE_DIMENSIONS.map(dim => {
+                                const on = fields[dim.key]?.enabled !== false;
+                                const defHint = dim.hint.replace(/\{name\}/g, char.name);
+                                return (
+                                    <div key={dim.key} className={`rounded-xl border p-2.5 transition-opacity ${on ? 'border-slate-200 bg-slate-50/60' : 'border-slate-100 bg-slate-50/30 opacity-60'}`}>
+                                        <div className="flex items-center justify-between mb-2">
+                                            <span className="text-[11px] font-bold text-slate-600 flex items-center gap-1.5"><span className="text-slate-400">{dim.glyph}</span>{dim.label}</span>
+                                            <button
+                                                onClick={() => patchField(dim.key, { enabled: !on })}
+                                                className={`w-9 h-5 rounded-full transition-colors relative shrink-0 ${on ? 'bg-primary' : 'bg-slate-300'}`}
+                                            >
+                                                <div className={`absolute top-0.5 w-4 h-4 bg-white rounded-full shadow transition-transform ${on ? 'translate-x-4' : 'translate-x-0.5'}`}></div>
+                                            </button>
+                                        </div>
+                                        {on && (
+                                            <div className="space-y-1.5">
+                                                <input
+                                                    value={draft[dim.key]?.label || ''}
+                                                    onChange={e => setDraft(d => ({ ...d, [dim.key]: { ...d[dim.key], label: e.target.value } }))}
+                                                    onBlur={() => commitField(dim.key, 'label')}
+                                                    placeholder={`显示标签（默认「${dim.label}」）`}
+                                                    className="w-full text-[12px] px-2.5 py-1.5 rounded-lg border border-slate-200 focus:border-primary focus:outline-none bg-white"
+                                                />
+                                                <textarea
+                                                    value={draft[dim.key]?.hint || ''}
+                                                    onChange={e => setDraft(d => ({ ...d, [dim.key]: { ...d[dim.key], hint: e.target.value } }))}
+                                                    onBlur={() => commitField(dim.key, 'hint')}
+                                                    placeholder={`生成提示（默认：${defHint}）`}
+                                                    rows={2}
+                                                    className="w-full text-[12px] px-2.5 py-1.5 rounded-lg border border-slate-200 focus:border-primary focus:outline-none bg-white leading-relaxed resize-none"
+                                                />
+                                            </div>
+                                        )}
+                                    </div>
+                                );
+                            })}
+                        </div>
+                    </div>
+
+                    {/* ── 追加自定义维度 ── */}
+                    <div>
+                        <div className="flex items-center justify-between mb-1">
+                            <h4 className="text-[11px] font-bold text-slate-500">追加维度</h4>
+                            <button
+                                onClick={addCustom}
+                                disabled={customs.length >= MAX_CUSTOM}
+                                className="text-[10px] font-bold text-primary px-2.5 py-1 rounded-full bg-primary/5 hover:bg-primary/10 disabled:opacity-40 active:scale-95 transition-all"
+                            >+ 添加（{customs.length}/{MAX_CUSTOM}）</button>
+                        </div>
+                        <p className="text-[10px] text-slate-400 mb-2.5 leading-snug">在四个默认维度之外，自己开观察项（如「穿着」「天气」「和你的距离」）。标签同时用于 AI 输出与面板显示。</p>
+                        {customs.length === 0 ? (
+                            <div className="text-[11px] text-slate-300 text-center py-3 border border-dashed border-slate-200 rounded-xl">还没有自定义维度，点「+ 添加」开一格</div>
+                        ) : (
+                            <div className="space-y-2.5">
+                                {customs.map(c => {
+                                    const on = c.enabled !== false;
+                                    return (
+                                        <div key={c.id} className={`rounded-xl border p-2.5 transition-opacity ${on ? 'border-slate-200 bg-slate-50/60' : 'border-slate-100 bg-slate-50/30 opacity-60'}`}>
+                                            <div className="flex items-center gap-2 mb-2">
+                                                <input
+                                                    value={customDraft[c.id]?.label || ''}
+                                                    onChange={e => setCustomDraft(d => ({ ...d, [c.id]: { ...d[c.id], label: e.target.value } }))}
+                                                    onBlur={() => commitCustom(c.id, 'label')}
+                                                    placeholder="维度名（如 穿着 / 天气）"
+                                                    className="flex-1 min-w-0 text-[12px] font-bold px-2.5 py-1.5 rounded-lg border border-slate-200 focus:border-primary focus:outline-none bg-white"
+                                                />
+                                                <button
+                                                    onClick={() => toggleCustom(c.id, !on)}
+                                                    className={`w-9 h-5 rounded-full transition-colors relative shrink-0 ${on ? 'bg-primary' : 'bg-slate-300'}`}
+                                                >
+                                                    <div className={`absolute top-0.5 w-4 h-4 bg-white rounded-full shadow transition-transform ${on ? 'translate-x-4' : 'translate-x-0.5'}`}></div>
+                                                </button>
+                                                <button onClick={() => delCustom(c.id)} title="删除" className="text-slate-300 hover:text-red-400 transition-colors shrink-0 p-0.5">
+                                                    <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" strokeWidth={2} stroke="currentColor" className="w-4 h-4"><path strokeLinecap="round" strokeLinejoin="round" d="M6 18 18 6M6 6l12 12" /></svg>
+                                                </button>
+                                            </div>
+                                            {on && (
+                                                <textarea
+                                                    value={customDraft[c.id]?.hint || ''}
+                                                    onChange={e => setCustomDraft(d => ({ ...d, [c.id]: { ...d[c.id], hint: e.target.value } }))}
+                                                    onBlur={() => commitCustom(c.id, 'hint')}
+                                                    placeholder="生成提示：这一格让 AI 写什么（留空给个通用默认）"
+                                                    rows={2}
+                                                    className="w-full text-[12px] px-2.5 py-1.5 rounded-lg border border-slate-200 focus:border-primary focus:outline-none bg-white leading-relaxed resize-none"
+                                                />
+                                            )}
+                                        </div>
+                                    );
+                                })}
+                            </div>
+                        )}
+                    </div>
+                </div>
+                )
+            )}
+        </section>
+    );
+};
+
+export default ObserveSettings;

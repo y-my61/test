@@ -1,1 +1,156 @@
-Ly8g5o2P5Lq65Zmo44CM5YaF572u57Sg5p2Q5YyF44CN5a+85Ye677yI566h55CG5ZGY55So77yJ44CCCi8vCi8vIOiDjOaZr++8muaNj+S6uuWZqOacrOS9kyBjaGFyYWN0ZXJfY3JlYXRvci5odG1sIOmHjOeahOWGhee9rumDqOS7tuWOhuadpeaYryBiYXNlNjQg5YaF6IGU5ZyoIFBBUlRTIOaVsOe7hO+8jAovLyDmlbTkuKogSFRNTCDlm6DmraTooqvmkpHliLAgfjEuNk1C77yIOTUlIOaYryBiYXNlNjTvvInvvIzmr4/kuKrnlKjmiLfpppbmrKHpg73opoHkuIvov5nkuIDlnajvvJvlho3lvoDph4zliqAgUFNECi8vIOe0oOadkOWPquS8muabtOWkp+OAguecgeazle+8muWGhee9rumDqOS7tuaUueaIkOW8leeUqOS6jOi/m+WItiBQTkcg5paH5Lu277yIc3JjIOWGmeaIkOebuOWvuei3r+W+hO+8ie+8jEhUTUwg5Y+q55WZ5LiA5Lu9Ci8vIOi3r+W+hOa4heWNleOAglBORyDmr5QgYmFzZTY0IOWwjyB+MjUlIOS4lOa1j+iniOWZqOmAkOW8oOe8k+WtmOOAggovLwovLyDov5nkuKrmqKHlnZfmiorjgIzkuIDmibnpg6jku7bvvIhQU0Qg6Kej5p6Q57uT5p6cIC8g5bey5a2Y6Ieq5a6a5LmJ6YOo5Lu277yJ44CN5omT5oiQ5LiA5Liq5Y+v5o+Q5Lqk55qE57Sg5p2Q5YyFIFpJUO+8mgovLyAgIHBhcnRzL21hbmlmZXN0Lmpzb24gICAgICAg4oCU4oCUIOa4heWNle+8iHNyYy9zaGFkb3dTcmMg5bey5YaZ5oiQIHBhcnRzLzxpZD4ucG5nIOebuOWvuei3r+W+hO+8iQovLyAgIHBhcnRzLzxpZD4ucG5nICAgICAgICAgICAg4oCU4oCUIOmDqOS7tuWbvu+8iOS6jOi/m+WItu+8iQovLyAgIHBhcnRzLzxpZD5fc2hhZG93LnBuZyAgICAg4oCU4oCUIOaKleW9seWxgu+8iOaXp+aVsOaNruWPr+iDveacie+8jOaWsOWvvOWFpeS4jeWGjeS6p+WHuu+8iQovLyAgIFJFQURNRS50eHQgICAgICAgICAgICAgICAg4oCU4oCUIOaAjuS5iOiQveWcsOaIkOWGhee9rue0oOadkOeahOivtOaYjgovLyDnrqHnkIblkZjmiormlbTkuKogcGFydHMvIOS4oui/myBwdWJsaWMvbGlrZTUyMC8g5Y2z5Y+v4oCU4oCUY2hhcmFjdGVyX2NyZWF0b3IuaHRtbCDlkK/liqjml7bkvJogZmV0Y2gKLy8gcGFydHMvbWFuaWZlc3QuanNvbiDoh6rliqjlkIjlubbov5sgUEFSVFPvvIzml6DpnIDmiYvmlLkgSFRNTOOAggoKZXhwb3J0IGludGVyZmFjZSBCdWlsdGluUGFja0l0ZW0gewogICAgY2F0ZWdvcnlLZXk6IHN0cmluZyB8IG51bGw7CiAgICBuYW1lOiBzdHJpbmc7CiAgICAvKiog6YOo5Lu25Zu+77yaZGF0YTppbWFnZS8uLi4gYmFzZTY0IOS8muiiq+aKveaIkCBQTkcg5paH5Lu277ybaHR0cChzKSBVUkwg5Y6f5qC35YaZ6L+b5riF5Y2V5LiN6JC95paH5Lu244CCICovCiAgICBzcmM6IHN0cmluZzsKICAgIC8qKiDmipXlvbHlsYLvvIzlkIwgc3JjIOinhOWImeOAgiAqLwogICAgc2hhZG93U3JjPzogc3RyaW5nOwogICAgdGludGFibGU/OiBib29sZWFuOwp9CgpleHBvcnQgaW50ZXJmYWNlIEJ1aWx0aW5QYWNrTWFuaWZlc3RFbnRyeSB7CiAgICBjYXRlZ29yeUtleTogc3RyaW5nOwogICAgaWQ6IHN0cmluZzsKICAgIG5hbWU6IHN0cmluZzsKICAgIHNyYzogc3RyaW5nOwogICAgdGludGFibGU6IGJvb2xlYW47CiAgICBzaGFkb3dTcmM/OiBzdHJpbmc7Cn0KCmV4cG9ydCBpbnRlcmZhY2UgQnVpbHRpblBhY2tGaWxlIHsKICAgIC8qKiB6aXAg5YaF6Lev5b6E77yM5aaCIHBhcnRzL2Zyb250aGFpcl9saXVoYWkucG5nICovCiAgICBwYXRoOiBzdHJpbmc7CiAgICAvKiog5LuFIGJhc2U2NCDotJ/ovb3vvIjkuI3lkKsgZGF0YTog5YmN57yA77yJ77yM5L6bIEpTWmlwIHsgYmFzZTY0OnRydWUgfSDlhpnlhaUgKi8KICAgIGJhc2U2NDogc3RyaW5nOwp9CgpleHBvcnQgaW50ZXJmYWNlIEJ1aWx0aW5QYWNrUGxhbiB7CiAgICBtYW5pZmVzdDogQnVpbHRpblBhY2tNYW5pZmVzdEVudHJ5W107CiAgICBmaWxlczogQnVpbHRpblBhY2tGaWxlW107CiAgICAvKiog5rKh57G755uu6KKr6Lez6L+H55qE6YOo5Lu25pWwICovCiAgICBza2lwcGVkOiBudW1iZXI7Cn0KCi8qKiBkYXRhOlVSTCDihpIg5LuFIGJhc2U2NCDotJ/ovb3vvJvpnZ4gYmFzZTY0IGRhdGEgVVJMIOi/lOWbniBudWxs44CCICovCmNvbnN0IGRhdGFVcmxQYXlsb2FkID0gKHY6IHN0cmluZyk6IHN0cmluZyB8IG51bGwgPT4gewogICAgaWYgKCF2LnN0YXJ0c1dpdGgoJ2RhdGE6JykpIHJldHVybiBudWxsOwogICAgY29uc3QgY29tbWEgPSB2LmluZGV4T2YoJywnKTsKICAgIGlmIChjb21tYSA8IDApIHJldHVybiBudWxsOwogICAgaWYgKCEvO2Jhc2U2NC9pLnRlc3Qodi5zbGljZSgwLCBjb21tYSkpKSByZXR1cm4gbnVsbDsKICAgIHJldHVybiB2LnNsaWNlKGNvbW1hICsgMSk7Cn07CgovKiog5paH5Lu25ZCN5a6J5YWo5YyW77ya5L+d55WZ5a2X5q+N5pWw5a2XIC8g5Lit5paHIC8g6L+e5a2X56ym77yM5YW25L2Z5oqY5oiQ5LiL5YiS57q/77yb56m65YiZ5Zue6JC9ICdwYXJ0J+OAgiAqLwpleHBvcnQgY29uc3Qgc2FmZVBhcnRTbHVnID0gKHM6IHN0cmluZyk6IHN0cmluZyA9PgogICAgKHMgfHwgJycpLnJlcGxhY2UoL1teXHfkuIAt6b6lLV0rL2csICdfJykucmVwbGFjZSgvXl8rfF8rJC9nLCAnJykgfHwgJ3BhcnQnOwoKLyoqCiAqIOe6r+WHveaVsO+8muaKiuS4gOaJuemDqOS7tuinhOWIkuaIkOOAjOa4heWNlSArIOW+heWGmeaWh+S7tuOAjeOAguS4jeeisCB6aXAgLyBET03vvIzkvr/kuo7ljZXmtYvjgIIKICogIMK3IOavj+S4qumDqOS7tueUn+aIkOeos+WumuWUr+S4gCBpZO+8iGNhdGVnb3J5S2V5X+WQjeWtl++8jOmHjeWQjeiHquWKqCBfMi9fM+KApu+8ie+8mwogKiAgwrcgZGF0YTog5Zu+IOKGkiDokL3miJAgcGFydHMvPGlkPi5wbmfvvIzmuIXljZUgc3JjIOWGmeebuOWvuei3r+W+hO+8mwogKiAgwrcgaHR0cChzKSDlm74g4oaSIOS4jeiQveaWh+S7tu+8jOa4heWNlSBzcmMg5Y6f5qC35L+d55WZ6K+lIFVSTO+8mwogKiAgwrcg5rKh57G755uu55qE6YOo5Lu26Lez6L+H5bm26K6h5YWlIHNraXBwZWTjgIIKICovCmV4cG9ydCBmdW5jdGlvbiBwbGFuQnVpbHRpblBhcnRzUGFjayhpdGVtczogQnVpbHRpblBhY2tJdGVtW10pOiBCdWlsdGluUGFja1BsYW4gewogICAgY29uc3QgbWFuaWZlc3Q6IEJ1aWx0aW5QYWNrTWFuaWZlc3RFbnRyeVtdID0gW107CiAgICBjb25zdCBmaWxlczogQnVpbHRpblBhY2tGaWxlW10gPSBbXTsKICAgIGNvbnN0IHVzZWRJZHMgPSBuZXcgU2V0PHN0cmluZz4oKTsKICAgIGxldCBza2lwcGVkID0gMDsKCiAgICBmb3IgKGNvbnN0IGl0IG9mIGl0ZW1zKSB7CiAgICAgICAgaWYgKCFpdC5jYXRlZ29yeUtleSkgeyBza2lwcGVkKys7IGNvbnRpbnVlOyB9CiAgICAgICAgY29uc3QgYmFzZSA9IGAke2l0LmNhdGVnb3J5S2V5fV8ke3NhZmVQYXJ0U2x1ZyhpdC5uYW1lKX1gOwogICAgICAgIGxldCBpZCA9IGJhc2U7CiAgICAgICAgbGV0IG4gPSAyOwogICAgICAgIHdoaWxlICh1c2VkSWRzLmhhcyhpZCkpIGlkID0gYCR7YmFzZX1fJHtuKyt9YDsKICAgICAgICB1c2VkSWRzLmFkZChpZCk7CgogICAgICAgIGNvbnN0IGVudHJ5OiBCdWlsdGluUGFja01hbmlmZXN0RW50cnkgPSB7CiAgICAgICAgICAgIGNhdGVnb3J5S2V5OiBpdC5jYXRlZ29yeUtleSwKICAgICAgICAgICAgaWQsCiAgICAgICAgICAgIG5hbWU6IGl0Lm5hbWUgfHwgaWQsCiAgICAgICAgICAgIHRpbnRhYmxlOiAhIWl0LnRpbnRhYmxlLAogICAgICAgICAgICBzcmM6ICcnLAogICAgICAgIH07CgogICAgICAgIGNvbnN0IHNyY1BheWxvYWQgPSBkYXRhVXJsUGF5bG9hZChpdC5zcmMgfHwgJycpOwogICAgICAgIGlmIChzcmNQYXlsb2FkKSB7CiAgICAgICAgICAgIGNvbnN0IHBhdGggPSBgcGFydHMvJHtpZH0ucG5nYDsKICAgICAgICAgICAgZmlsZXMucHVzaCh7IHBhdGgsIGJhc2U2NDogc3JjUGF5bG9hZCB9KTsKICAgICAgICAgICAgZW50cnkuc3JjID0gcGF0aDsKICAgICAgICB9IGVsc2UgewogICAgICAgICAgICBlbnRyeS5zcmMgPSBpdC5zcmMgfHwgJyc7IC8vIGh0dHAocykgVVJMIOWOn+agt+S/neeVmQogICAgICAgIH0KCiAgICAgICAgaWYgKGl0LnNoYWRvd1NyYykgewogICAgICAgICAgICBjb25zdCBzaGFkb3dQYXlsb2FkID0gZGF0YVVybFBheWxvYWQoaXQuc2hhZG93U3JjKTsKICAgICAgICAgICAgaWYgKHNoYWRvd1BheWxvYWQpIHsKICAgICAgICAgICAgICAgIGNvbnN0IHBhdGggPSBgcGFydHMvJHtpZH1fc2hhZG93LnBuZ2A7CiAgICAgICAgICAgICAgICBmaWxlcy5wdXNoKHsgcGF0aCwgYmFzZTY0OiBzaGFkb3dQYXlsb2FkIH0pOwogICAgICAgICAgICAgICAgZW50cnkuc2hhZG93U3JjID0gcGF0aDsKICAgICAgICAgICAgfSBlbHNlIHsKICAgICAgICAgICAgICAgIGVudHJ5LnNoYWRvd1NyYyA9IGl0LnNoYWRvd1NyYzsKICAgICAgICAgICAgfQogICAgICAgIH0KCiAgICAgICAgbWFuaWZlc3QucHVzaChlbnRyeSk7CiAgICB9CgogICAgcmV0dXJuIHsgbWFuaWZlc3QsIGZpbGVzLCBza2lwcGVkIH07Cn0KCmNvbnN0IFJFQURNRSA9IGDmjY/kurrlmajlhoXnva7ntKDmnZDljIUKPT09PT09PT09PT09PT09PQoK6L+Z5LiqIFpJUCDmmK/jgIxQU0Qg4oaSIOWGhee9rue0oOadkOOAjeeahOS6p+eJqe+8jOeUqOadpeaKiumDqOS7tuS9nOS4uuWGhee9rue0oOadkOmaj+WMheWPkee7meaJgOacieeUqOaItwrvvIjogIzkuI3mmK/mr4/lj7Dorr7lpIflkITlrZjkuIDku70gYmFzZTY077yM5Lmf5LiN5oqKIGJhc2U2NCDloZ7ov5sgY2hhcmFjdGVyX2NyZWF0b3IuaHRtbCDmkpHlpKfkvZPnp6/vvInjgIIKCuWGheWuue+8mgogIHBhcnRzL21hbmlmZXN0Lmpzb24gICDpg6jku7bmuIXljZXvvIhzcmMg5bey5YaZ5oiQIHBhcnRzLzxpZD4ucG5nIOebuOWvuei3r+W+hO+8iQogIHBhcnRzLyoucG5nICAgICAgICAgICDpg6jku7blm77vvIjkuozov5vliLYgUE5H77yM5q+UIGJhc2U2NCDnnIEgfjI1Je+8jOa1j+iniOWZqOmAkOW8oOe8k+WtmO+8iQoK5oCO5LmI6JC95Zyw5oiQ5YaF572u57Sg5p2Q77yI5peg6ZyA5pS55Lu75L2V5Luj56CB77yB77yJ77yaCiAgMS4g6Kej5Y6L6L+Z5LiqIFpJUOOAggogIDIuIOaKiumHjOmdoueahOaVtOS4qiBwYXJ0cy8g5paH5Lu25aS577yM5pS+6L+b5LuT5bqT55qEICBwdWJsaWMvbGlrZTUyMC8gIOebruW9leS4iwogICAgIO+8iOacgOe7iOaYryAgcHVibGljL2xpa2U1MjAvcGFydHMvbWFuaWZlc3QuanNvbiAgKyAgcHVibGljL2xpa2U1MjAvcGFydHMvKi5wbmfvvInjgIIKICAgICDigJTigJQg6IulIHB1YmxpYy9saWtlNTIwL3BhcnRzLyDlt7LlrZjlnKjvvIznlKjmlrDnmoTmlbTkuKropobnm5blroPvvIjmuIXljZXmmK/lhajph4/nmoTvvInjgIIKICAzLiDmj5DkuqTjgIJjaGFyYWN0ZXJfY3JlYXRvci5odG1sIOWQr+WKqOaXtuS8muiHquWKqCBmZXRjaCBwYXJ0cy9tYW5pZmVzdC5qc29uIOWKoOi9ve+8jAogICAgIOS4jeeUqOaJi+aUueWug+eahCBQQVJUUyDmlbDnu4TjgIIKCuivtOaYju+8mgogIMK3IOa4heWNleaYr+OAjOS9oOW9k+WJjeaJgOacieiHquWumuS5iemDqOS7tuOAjeeahOWFqOmHj+W/q+eFp++8jOaJgOS7peavj+asoeWPkeW4g+eUqOaWsOWMheaVtOS9k+imhuebluWNs+WPr++8jAogICAg5LiN55So5omL5Yqo5b6A6YeM5Yqg5p2h55uu44CCCiAgwrcg5q+P5Liq6YOo5Lu2IGlkIOeUseOAjOexu+ebrl/lkI3lrZfjgI3nlJ/miJDvvIzmlLnlkI3lrZfkvJrlj5ggaWTvvJvkv53mjIHlkI3lrZfnqLPlrprvvIxkZWR1cCDmiY3nqLPjgIIKYDsKCi8qKgogKiDmiorkuIDmibnpg6jku7bmiZPmiJDlhoXnva7ntKDmnZDljIUgWklQ77yIQmxvYu+8ieOAgua1j+iniOWZqOeOr+Wig+eUqO+8iOWKqOaAgei9veWFpSBKU1ppcO+8ieOAggogKiBAcmV0dXJucyB7IGJsb2IsIHBsYW4gfSDigJTigJQgYmxvYiDkvpvkuIvovb3vvIxwbGFuLnNraXBwZWQg5L6b5o+Q56S644CCCiAqLwpleHBvcnQgYXN5bmMgZnVuY3Rpb24gYnVpbGRCdWlsdGluUGFydHNQYWNrWmlwKGl0ZW1zOiBCdWlsdGluUGFja0l0ZW1bXSk6IFByb21pc2U8eyBibG9iOiBCbG9iOyBwbGFuOiBCdWlsdGluUGFja1BsYW4gfT4gewogICAgY29uc3QgcGxhbiA9IHBsYW5CdWlsdGluUGFydHNQYWNrKGl0ZW1zKTsKICAgIGNvbnN0IEpTWmlwID0gKGF3YWl0IGltcG9ydCgnanN6aXAnKSkuZGVmYXVsdDsKICAgIGNvbnN0IHppcCA9IG5ldyBKU1ppcCgpOwogICAgZm9yIChjb25zdCBmIG9mIHBsYW4uZmlsZXMpIHsKICAgICAgICB6aXAuZmlsZShmLnBhdGgsIGYuYmFzZTY0LCB7IGJhc2U2NDogdHJ1ZSB9KTsKICAgIH0KICAgIHppcC5maWxlKCdwYXJ0cy9tYW5pZmVzdC5qc29uJywgSlNPTi5zdHJpbmdpZnkocGxhbi5tYW5pZmVzdCwgbnVsbCwgMikpOwogICAgemlwLmZpbGUoJ1JFQURNRS50eHQnLCBSRUFETUUpOwogICAgY29uc3QgYmxvYiA9IGF3YWl0IHppcC5nZW5lcmF0ZUFzeW5jKHsgdHlwZTogJ2Jsb2InLCBjb21wcmVzc2lvbjogJ0RFRkxBVEUnLCBjb21wcmVzc2lvbk9wdGlvbnM6IHsgbGV2ZWw6IDkgfSB9KTsKICAgIHJldHVybiB7IGJsb2IsIHBsYW4gfTsKfQo=
+// 捏人器「内置素材包」导出（管理员用）。
+//
+// 背景：捏人器本体 character_creator.html 里的内置部件历来是 base64 内联在 PARTS 数组，
+// 整个 HTML 因此被撑到 ~1.6MB（95% 是 base64），每个用户首次都要下这一坨；再往里加 PSD
+// 素材只会更大。省法：内置部件改成引用二进制 PNG 文件（src 写成相对路径），HTML 只留一份
+// 路径清单。PNG 比 base64 小 ~25% 且浏览器逐张缓存。
+//
+// 这个模块把「一批部件（PSD 解析结果 / 已存自定义部件）」打成一个可提交的素材包 ZIP：
+//   parts/manifest.json       —— 清单（src/shadowSrc 已写成 parts/<id>.png 相对路径）
+//   parts/<id>.png            —— 部件图（二进制）
+//   parts/<id>_shadow.png     —— 投影层（旧数据可能有，新导入不再产出）
+//   README.txt                —— 怎么落地成内置素材的说明
+// 管理员把整个 parts/ 丢进 public/like520/ 即可——character_creator.html 启动时会 fetch
+// parts/manifest.json 自动合并进 PARTS，无需手改 HTML。
+
+export interface BuiltinPackItem {
+    categoryKey: string | null;
+    name: string;
+    /** 部件图：data:image/... base64 会被抽成 PNG 文件；http(s) URL 原样写进清单不落文件。 */
+    src: string;
+    /** 投影层，同 src 规则。 */
+    shadowSrc?: string;
+    tintable?: boolean;
+}
+
+export interface BuiltinPackManifestEntry {
+    categoryKey: string;
+    id: string;
+    name: string;
+    src: string;
+    tintable: boolean;
+    shadowSrc?: string;
+}
+
+export interface BuiltinPackFile {
+    /** zip 内路径，如 parts/fronthair_liuhai.png */
+    path: string;
+    /** 仅 base64 负载（不含 data: 前缀），供 JSZip { base64:true } 写入 */
+    base64: string;
+}
+
+export interface BuiltinPackPlan {
+    manifest: BuiltinPackManifestEntry[];
+    files: BuiltinPackFile[];
+    /** 没类目被跳过的部件数 */
+    skipped: number;
+}
+
+/** data:URL → 仅 base64 负载；非 base64 data URL 返回 null。 */
+const dataUrlPayload = (v: string): string | null => {
+    if (!v.startsWith('data:')) return null;
+    const comma = v.indexOf(',');
+    if (comma < 0) return null;
+    if (!/;base64/i.test(v.slice(0, comma))) return null;
+    return v.slice(comma + 1);
+};
+
+/** 文件名安全化：保留字母数字 / 中文 / 连字符，其余折成下划线；空则回落 'part'。 */
+export const safePartSlug = (s: string): string =>
+    (s || '').replace(/[^\w一-龥-]+/g, '_').replace(/^_+|_+$/g, '') || 'part';
+
+/**
+ * 纯函数：把一批部件规划成「清单 + 待写文件」。不碰 zip / DOM，便于单测。
+ *  · 每个部件生成稳定唯一 id（categoryKey_名字，重名自动 _2/_3…）；
+ *  · data: 图 → 落成 parts/<id>.png，清单 src 写相对路径；
+ *  · http(s) 图 → 不落文件，清单 src 原样保留该 URL；
+ *  · 没类目的部件跳过并计入 skipped。
+ */
+export function planBuiltinPartsPack(items: BuiltinPackItem[]): BuiltinPackPlan {
+    const manifest: BuiltinPackManifestEntry[] = [];
+    const files: BuiltinPackFile[] = [];
+    const usedIds = new Set<string>();
+    let skipped = 0;
+
+    for (const it of items) {
+        if (!it.categoryKey) { skipped++; continue; }
+        const base = `${it.categoryKey}_${safePartSlug(it.name)}`;
+        let id = base;
+        let n = 2;
+        while (usedIds.has(id)) id = `${base}_${n++}`;
+        usedIds.add(id);
+
+        const entry: BuiltinPackManifestEntry = {
+            categoryKey: it.categoryKey,
+            id,
+            name: it.name || id,
+            tintable: !!it.tintable,
+            src: '',
+        };
+
+        const srcPayload = dataUrlPayload(it.src || '');
+        if (srcPayload) {
+            const path = `parts/${id}.png`;
+            files.push({ path, base64: srcPayload });
+            entry.src = path;
+        } else {
+            entry.src = it.src || ''; // http(s) URL 原样保留
+        }
+
+        if (it.shadowSrc) {
+            const shadowPayload = dataUrlPayload(it.shadowSrc);
+            if (shadowPayload) {
+                const path = `parts/${id}_shadow.png`;
+                files.push({ path, base64: shadowPayload });
+                entry.shadowSrc = path;
+            } else {
+                entry.shadowSrc = it.shadowSrc;
+            }
+        }
+
+        manifest.push(entry);
+    }
+
+    return { manifest, files, skipped };
+}
+
+const README = `捏人器内置素材包
+================
+
+这个 ZIP 是「PSD → 内置素材」的产物，用来把部件作为内置素材随包发给所有用户
+（而不是每台设备各存一份 base64，也不把 base64 塞进 character_creator.html 撑大体积）。
+
+内容：
+  parts/manifest.json   部件清单（src 已写成 parts/<id>.png 相对路径）
+  parts/*.png           部件图（二进制 PNG，比 base64 省 ~25%，浏览器逐张缓存）
+
+怎么落地成内置素材（无需改任何代码！）：
+  1. 解压这个 ZIP。
+  2. 把里面的整个 parts/ 文件夹，放进仓库的  public/like520/  目录下
+     （最终是  public/like520/parts/manifest.json  +  public/like520/parts/*.png）。
+     —— 若 public/like520/parts/ 已存在，用新的整个覆盖它（清单是全量的）。
+  3. 提交。character_creator.html 启动时会自动 fetch parts/manifest.json 加载，
+     不用手改它的 PARTS 数组。
+
+说明：
+  · 清单是「你当前所有自定义部件」的全量快照，所以每次发布用新包整体覆盖即可，
+    不用手动往里加条目。
+  · 每个部件 id 由「类目_名字」生成，改名字会变 id；保持名字稳定，dedup 才稳。
+`;
+
+/**
+ * 把一批部件打成内置素材包 ZIP（Blob）。浏览器环境用（动态载入 JSZip）。
+ * @returns { blob, plan } —— blob 供下载，plan.skipped 供提示。
+ */
+export async function buildBuiltinPartsPackZip(items: BuiltinPackItem[]): Promise<{ blob: Blob; plan: BuiltinPackPlan }> {
+    const plan = planBuiltinPartsPack(items);
+    const JSZip = (await import('jszip')).default;
+    const zip = new JSZip();
+    for (const f of plan.files) {
+        zip.file(f.path, f.base64, { base64: true });
+    }
+    zip.file('parts/manifest.json', JSON.stringify(plan.manifest, null, 2));
+    zip.file('README.txt', README);
+    const blob = await zip.generateAsync({ type: 'blob', compression: 'DEFLATE', compressionOptions: { level: 9 } });
+    return { blob, plan };
+}

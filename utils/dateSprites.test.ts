@@ -1,1 +1,39 @@
-aW1wb3J0IHsgZGVzY3JpYmUsIGl0LCBleHBlY3QgfSBmcm9tICd2aXRlc3QnOwppbXBvcnQgeyBwaWNrRGF0ZUZhbGxiYWNrU3ByaXRlIH0gZnJvbSAnLi9kYXRlU3ByaXRlcyc7Cgpjb25zdCBLRVlTID0gWydub3JtYWwnLCAnaGFwcHknLCAnYW5ncnknLCAnc2FkJywgJ3NoeSddOwpjb25zdCBBVkFUQVIgPSAnZGF0YTppbWFnZS9wbmc7YmFzZTY0LEFWQVRBUic7CgpkZXNjcmliZSgncGlja0RhdGVGYWxsYmFja1Nwcml0ZScsICgpID0+IHsKICAgIGl0KCfkvJjlhYggbm9ybWFsIC8gZGVmYXVsdCcsICgpID0+IHsKICAgICAgICBleHBlY3QocGlja0RhdGVGYWxsYmFja1Nwcml0ZSh7IG5vcm1hbDogJ2RhdGE6bicsIGhhcHB5OiAnZGF0YTpoJyB9LCBLRVlTLCBBVkFUQVIpKS50b0JlKCdkYXRhOm4nKTsKICAgICAgICBleHBlY3QocGlja0RhdGVGYWxsYmFja1Nwcml0ZSh7IGRlZmF1bHQ6ICdkYXRhOmQnIH0sIEtFWVMsIEFWQVRBUikpLnRvQmUoJ2RhdGE6ZCcpOwogICAgfSk7CgogICAgaXQoJ+aXoCBub3JtYWwg5pe25oyJ6KeB6Z2i5oOF57uq6ZSu5YWc5bqVJywgKCkgPT4gewogICAgICAgIGV4cGVjdChwaWNrRGF0ZUZhbGxiYWNrU3ByaXRlKHsgc2h5OiAnZGF0YTpzJyB9LCBLRVlTLCBBVkFUQVIpKS50b0JlKCdkYXRhOnMnKTsKICAgICAgICBleHBlY3QocGlja0RhdGVGYWxsYmFja1Nwcml0ZSh7IGV4Y2l0ZWQ6ICdkYXRhOmUnIH0sIFsuLi5LRVlTLCAnZXhjaXRlZCddLCBBVkFUQVIpKS50b0JlKCdkYXRhOmUnKTsKICAgIH0pOwoKICAgIGl0KCflj6rmnIkgY2hpYmnvvIhibG9icmVmIOS7pOeJjO+8ieaXtuWbnuiQveWIsOWktOWDj++8jOe7neS4jeaKiuS7pOeJjOW9kyBpbWcgc3JjJywgKCkgPT4gewogICAgICAgIGV4cGVjdChwaWNrRGF0ZUZhbGxiYWNrU3ByaXRlKHsgY2hpYmk6ICdibG9icmVmOmltZ19hYmMnIH0sIEtFWVMsIEFWQVRBUikpLnRvQmUoQVZBVEFSKTsKICAgIH0pOwoKICAgIGl0KCdjaGliaSDljbPkvb/mmK8gZGF0YVVSTCDkuZ/kuI3lvZPop4HpnaLnq4vnu5jnlKgnLCAoKSA9PiB7CiAgICAgICAgZXhwZWN0KHBpY2tEYXRlRmFsbGJhY2tTcHJpdGUoeyBjaGliaTogJ2RhdGE6aW1hZ2UvcG5nO2Jhc2U2NCxDSElCSScgfSwgS0VZUywgQVZBVEFSKSkudG9CZShBVkFUQVIpOwogICAgfSk7CgogICAgaXQoJ+mdniBjaGliaSDnmoTmnYLpobnplK7jgIHlj6/nm7TmjqXmuLLmn5PnmoTlgLzku43lj6/lhZzlupXvvIjkv53nlZnml6fooYzkuLrvvIknLCAoKSA9PiB7CiAgICAgICAgZXhwZWN0KHBpY2tEYXRlRmFsbGJhY2tTcHJpdGUoeyBsZWdhY3lfcG9zZTogJ2h0dHBzOi8vaW1nLmV4YW1wbGUvYS5wbmcnIH0sIEtFWVMsIEFWQVRBUikpLnRvQmUoJ2h0dHBzOi8vaW1nLmV4YW1wbGUvYS5wbmcnKTsKICAgIH0pOwoKICAgIGl0KCfmnYLpobnplK7kvYblgLzmmK8gYmxvYnJlZiDku6TniYwg4oaSIOi3s+i/h++8jOWbnuiQveWktOWDjycsICgpID0+IHsKICAgICAgICBleHBlY3QocGlja0RhdGVGYWxsYmFja1Nwcml0ZSh7IGxlZ2FjeV9wb3NlOiAnYmxvYnJlZjppbWdfeHl6JyB9LCBLRVlTLCBBVkFUQVIpKS50b0JlKEFWQVRBUik7CiAgICB9KTsKCiAgICBpdCgn56m6IHNwcml0ZXMgLyB1bmRlZmluZWQg4oaSIOWktOWDj++8m+i/nuWktOWDj+mDveayoeaciSDihpIgdW5kZWZpbmVkJywgKCkgPT4gewogICAgICAgIGV4cGVjdChwaWNrRGF0ZUZhbGxiYWNrU3ByaXRlKHt9LCBLRVlTLCBBVkFUQVIpKS50b0JlKEFWQVRBUik7CiAgICAgICAgZXhwZWN0KHBpY2tEYXRlRmFsbGJhY2tTcHJpdGUodW5kZWZpbmVkLCBLRVlTLCBBVkFUQVIpKS50b0JlKEFWQVRBUik7CiAgICAgICAgZXhwZWN0KHBpY2tEYXRlRmFsbGJhY2tTcHJpdGUodW5kZWZpbmVkLCBLRVlTLCB1bmRlZmluZWQpKS50b0JlVW5kZWZpbmVkKCk7CiAgICB9KTsKfSk7Cg==
+import { describe, it, expect } from 'vitest';
+import { pickDateFallbackSprite } from './dateSprites';
+
+const KEYS = ['normal', 'happy', 'angry', 'sad', 'shy'];
+const AVATAR = 'data:image/png;base64,AVATAR';
+
+describe('pickDateFallbackSprite', () => {
+    it('优先 normal / default', () => {
+        expect(pickDateFallbackSprite({ normal: 'data:n', happy: 'data:h' }, KEYS, AVATAR)).toBe('data:n');
+        expect(pickDateFallbackSprite({ default: 'data:d' }, KEYS, AVATAR)).toBe('data:d');
+    });
+
+    it('无 normal 时按见面情绪键兜底', () => {
+        expect(pickDateFallbackSprite({ shy: 'data:s' }, KEYS, AVATAR)).toBe('data:s');
+        expect(pickDateFallbackSprite({ excited: 'data:e' }, [...KEYS, 'excited'], AVATAR)).toBe('data:e');
+    });
+
+    it('只有 chibi（blobref 令牌）时回落到头像，绝不把令牌当 img src', () => {
+        expect(pickDateFallbackSprite({ chibi: 'blobref:img_abc' }, KEYS, AVATAR)).toBe(AVATAR);
+    });
+
+    it('chibi 即使是 dataURL 也不当见面立绘用', () => {
+        expect(pickDateFallbackSprite({ chibi: 'data:image/png;base64,CHIBI' }, KEYS, AVATAR)).toBe(AVATAR);
+    });
+
+    it('非 chibi 的杂项键、可直接渲染的值仍可兜底（保留旧行为）', () => {
+        expect(pickDateFallbackSprite({ legacy_pose: 'https://img.example/a.png' }, KEYS, AVATAR)).toBe('https://img.example/a.png');
+    });
+
+    it('杂项键但值是 blobref 令牌 → 跳过，回落头像', () => {
+        expect(pickDateFallbackSprite({ legacy_pose: 'blobref:img_xyz' }, KEYS, AVATAR)).toBe(AVATAR);
+    });
+
+    it('空 sprites / undefined → 头像；连头像都没有 → undefined', () => {
+        expect(pickDateFallbackSprite({}, KEYS, AVATAR)).toBe(AVATAR);
+        expect(pickDateFallbackSprite(undefined, KEYS, AVATAR)).toBe(AVATAR);
+        expect(pickDateFallbackSprite(undefined, KEYS, undefined)).toBeUndefined();
+    });
+});

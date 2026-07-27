@@ -1,1 +1,218 @@
-aW1wb3J0IHsgZGVzY3JpYmUsIGl0LCBleHBlY3QsIHZpLCBiZWZvcmVFYWNoLCBhZnRlckVhY2ggfSBmcm9tICd2aXRlc3QnOwppbXBvcnQgewogIHNlbmRJbnN0YW50UHVzaCwKICBzYXZlSW5zdGFudENvbmZpZywKICBJTlNUQU5UX1BVU0hfQ09ORklHX0tFWSwKICBwcm9iZUluc3RhbnRXb3JrZXJDYXBhYmlsaXRpZXMsCiAgcG9zdFNzZVBheWxvYWRUb1NlcnZpY2VXb3JrZXIsCiAgYnVpbGREZW5vTG9hZGVyU25pcHBldCwKfSBmcm9tICcuL2luc3RhbnRQdXNoQ2xpZW50JzsKaW1wb3J0IHR5cGUgeyBJbnN0YW50UHVzaFBheWxvYWQgfSBmcm9tICcuL2luc3RhbnRQdXNoQ2xpZW50JzsKaW1wb3J0IHsgc2F2ZVB1c2hWYXBpZCB9IGZyb20gJy4vcHVzaFZhcGlkJzsKCi8vIOa1iyBzcGxpdFBhdHRlcm4g5rOo5YWl5YiwIHJlcXVlc3QgYm9keSDlpJblsYIg4oCUIOi/meaYryBhbXNnLWluc3RhbnQgMC44LjAtbmV4dC4yCi8vIOeUqOadpeemgem7mOiupOaMieWPpeWIh+eahOWUr+S4gOato+ehruS9jee9riAo5pS+IGhvb2sg6L+U5Zue55qEIHB1c2hQYXlsb2FkIOS4iuaYryBuby1vcCkuCgpmdW5jdGlvbiBzZXR1cFZhbGlkQ29uZmlnKCk6IHZvaWQgewogIC8vIHB1c2hWYXBpZDogdmFwaWRQdWJsaWNLZXkubGVuZ3RoIOW/hemhuyA+IDYwCiAgc2F2ZVB1c2hWYXBpZCh7CiAgICB2YXBpZFB1YmxpY0tleTogJ0JJZmFrZVZhcGlkS2V5Rm9yVGVzdGluZ011c3RCZU92ZXI2MENoYXJhY3RlcnNMb25nQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBJywKICAgIHZhcGlkUHJpdmF0ZUtleTogJ3ByaXZhdGUtc3R1YicsCiAgfSk7CiAgc2F2ZUluc3RhbnRDb25maWcoewogICAgZW5hYmxlZDogdHJ1ZSwKICAgIHdvcmtlclVybDogJ2h0dHBzOi8vd29ya2VyLmV4YW1wbGUuY29tJywKICB9KTsKfQoKZnVuY3Rpb24gY2xlYXJDb25maWcoKTogdm9pZCB7CiAgdHJ5IHsKICAgIGxvY2FsU3RvcmFnZS5yZW1vdmVJdGVtKElOU1RBTlRfUFVTSF9DT05GSUdfS0VZKTsKICAgIGxvY2FsU3RvcmFnZS5yZW1vdmVJdGVtKCdwdXNoX3ZhcGlkX3YxJyk7CiAgfSBjYXRjaCB7fQp9CgpmdW5jdGlvbiBiYXNlUGF5bG9hZCgpOiBJbnN0YW50UHVzaFBheWxvYWQgewogIHJldHVybiB7CiAgICBjb250YWN0TmFtZTogJ1Rlc3RDaGFyJywKICAgIGFwaVVybDogJ2h0dHBzOi8vYXBpLmV4YW1wbGUuY29tJywKICAgIGFwaUtleTogJ2snLAogICAgcHJpbWFyeU1vZGVsOiAnbScsCiAgICBwdXNoU3Vic2NyaXB0aW9uOiB7CiAgICAgIGVuZHBvaW50OiAnaHR0cHM6Ly9wdXNoLmV4YW1wbGUuY29tL2UnLAogICAgICBrZXlzOiB7IHAyNTZkaDogJ3AnLCBhdXRoOiAnYScgfSwKICAgIH0sCiAgICBjb21wbGV0ZVByb21wdDogJ2hpJywKICB9Owp9CgpkZXNjcmliZSgnc2VuZEluc3RhbnRQdXNoIHNwbGl0UGF0dGVybiBpbmplY3Rpb24nLCAoKSA9PiB7CiAgYmVmb3JlRWFjaCgoKSA9PiB7CiAgICBjbGVhckNvbmZpZygpOwogICAgc2V0dXBWYWxpZENvbmZpZygpOwogICAgLy8g5pu/5o2i5YWo5bGAIGZldGNoIOaKkyBib2R5CiAgICBnbG9iYWwuZmV0Y2ggPSB2aS5mbigpLm1vY2tSZXNvbHZlZFZhbHVlKHsKICAgICAgb2s6IHRydWUsCiAgICAgIHN0YXR1czogMjAwLAogICAgICBzdGF0dXNUZXh0OiAnT0snLAogICAgICBoZWFkZXJzOiBuZXcgTWFwKFtbJ2NmLXJheScsICd0ZXN0J11dKSBhcyBhbnksCiAgICAgIHRleHQ6IGFzeW5jICgpID0+ICd7InN1Y2Nlc3MiOnRydWV9JywKICAgIH0gYXMgYW55KTsKICB9KTsKCiAgaXQoJzAuOCsg5LiN5YaN5rOo5YWlIHNwbGl0UGF0dGVybiwgcGF5bG9hZCDnm7TmjqUgc3RyaW5naWZ5JywgYXN5bmMgKCkgPT4gewogICAgYXdhaXQgc2VuZEluc3RhbnRQdXNoKGJhc2VQYXlsb2FkKCkpOwogICAgZXhwZWN0KGZldGNoKS50b0hhdmVCZWVuQ2FsbGVkKCk7CiAgICBjb25zdCBjYWxsQXJncyA9IHZpLm1vY2tlZChmZXRjaCkubW9jay5jYWxsc1swXTsKICAgIGNvbnN0IGluaXQgPSBjYWxsQXJnc1sxXSBhcyBSZXF1ZXN0SW5pdDsKICAgIGNvbnN0IGJvZHkgPSBKU09OLnBhcnNlKGluaXQuYm9keSBhcyBzdHJpbmcpOwogICAgLy8gYW1zZy1pbnN0YW50IDAuOCsgc3BsaXRQYXR0ZXJuIOWtl+auteiiq+acjeWKoeerr+aLkuaUtiwg5a6i5oi356uv5Lmf5LiN5YaN5bimCiAgICBleHBlY3QoYm9keS5zcGxpdFBhdHRlcm4pLnRvQmVVbmRlZmluZWQoKTsKICB9KTsKCiAgaXQoJ+m7mOiupOaKiuWkp+WMheetlueVpeWjsOaYjuS4uiBtdWx0aXBhcnQnLCBhc3luYyAoKSA9PiB7CiAgICBhd2FpdCBzZW5kSW5zdGFudFB1c2goYmFzZVBheWxvYWQoKSk7CiAgICBjb25zdCBib2R5ID0gSlNPTi5wYXJzZSh2aS5tb2NrZWQoZmV0Y2gpLm1vY2suY2FsbHNbMF1bMV0hLmJvZHkgYXMgc3RyaW5nKTsKICAgIGV4cGVjdChib2R5Lm92ZXJzaXplVHJhbnNwb3J0KS50b0JlKCdtdWx0aXBhcnQnKTsKICB9KTsKCiAgaXQoJ+W8gOWQryBEMSDlvIDlhbPml7bmiorlpKfljIXnrZbnlaXlo7DmmI7kuLogZDEnLCBhc3luYyAoKSA9PiB7CiAgICBzYXZlSW5zdGFudENvbmZpZyh7CiAgICAgIGVuYWJsZWQ6IHRydWUsCiAgICAgIHdvcmtlclVybDogJ2h0dHBzOi8vd29ya2VyLmV4YW1wbGUuY29tJywKICAgICAgdXNlRDFCbG9iU3RvcmU6IHRydWUsCiAgICAgIGQxQXZhaWxhYmxlOiB0cnVlLAogICAgICBkMUNoZWNrZWRXb3JrZXJVcmw6ICdodHRwczovL3dvcmtlci5leGFtcGxlLmNvbScsCiAgICB9KTsKICAgIGF3YWl0IHNlbmRJbnN0YW50UHVzaChiYXNlUGF5bG9hZCgpKTsKICAgIGNvbnN0IGJvZHkgPSBKU09OLnBhcnNlKHZpLm1vY2tlZChmZXRjaCkubW9jay5jYWxsc1swXVsxXSEuYm9keSBhcyBzdHJpbmcpOwogICAgZXhwZWN0KGJvZHkub3ZlcnNpemVUcmFuc3BvcnQpLnRvQmUoJ2QxJyk7CiAgfSk7CgogIGl0KCflhbbku5blrZfmrrXkuI3lj5flvbHlk40gKHZlcmlmeSBwYXlsb2FkIOW9oueKtuayoeaUuSknLCBhc3luYyAoKSA9PiB7CiAgICBhd2FpdCBzZW5kSW5zdGFudFB1c2goYmFzZVBheWxvYWQoKSk7CiAgICBjb25zdCBib2R5ID0gSlNPTi5wYXJzZSh2aS5tb2NrZWQoZmV0Y2gpLm1vY2suY2FsbHNbMF1bMV0hLmJvZHkgYXMgc3RyaW5nKTsKICAgIGV4cGVjdChib2R5LmNvbnRhY3ROYW1lKS50b0JlKCdUZXN0Q2hhcicpOwogICAgZXhwZWN0KGJvZHkuYXBpVXJsKS50b0JlKCdodHRwczovL2FwaS5leGFtcGxlLmNvbScpOwogICAgZXhwZWN0KGJvZHkuY29tcGxldGVQcm9tcHQpLnRvQmUoJ2hpJyk7CiAgICBleHBlY3QoYm9keS5wdXNoU3Vic2NyaXB0aW9uKS50b0VxdWFsKHsKICAgICAgZW5kcG9pbnQ6ICdodHRwczovL3B1c2guZXhhbXBsZS5jb20vZScsCiAgICAgIGtleXM6IHsgcDI1NmRoOiAncCcsIGF1dGg6ICdhJyB9LAogICAgfSk7CiAgfSk7Cn0pOwoKZGVzY3JpYmUoJ3Byb2JlSW5zdGFudFdvcmtlckNhcGFiaWxpdGllcycsICgpID0+IHsKICBiZWZvcmVFYWNoKCgpID0+IHsKICAgIGNsZWFyQ29uZmlnKCk7CiAgICBzZXR1cFZhbGlkQ29uZmlnKCk7CiAgfSk7CgogIGl0KCfor7vlj5Ygd29ya2VyIOi/lOWbnueahCBEMSDog73lipsnLCBhc3luYyAoKSA9PiB7CiAgICBnbG9iYWwuZmV0Y2ggPSB2aS5mbigpLm1vY2tSZXNvbHZlZFZhbHVlKHsKICAgICAgb2s6IHRydWUsCiAgICAgIHN0YXR1czogMjAwLAogICAgICBzdGF0dXNUZXh0OiAnT0snLAogICAgICB0ZXh0OiBhc3luYyAoKSA9PiBKU09OLnN0cmluZ2lmeSh7CiAgICAgICAgc3VjY2VzczogdHJ1ZSwKICAgICAgICBkYXRhOiB7CiAgICAgICAgICBtdWx0aXBhcnQ6IHsgYXZhaWxhYmxlOiB0cnVlIH0sCiAgICAgICAgICBkMTogeyBhdmFpbGFibGU6IHRydWUgfSwKICAgICAgICB9LAogICAgICB9KSwKICAgIH0gYXMgYW55KTsKCiAgICBjb25zdCByZXN1bHQgPSBhd2FpdCBwcm9iZUluc3RhbnRXb3JrZXJDYXBhYmlsaXRpZXMoKTsKICAgIGV4cGVjdChyZXN1bHQub2spLnRvQmUodHJ1ZSk7CiAgICBleHBlY3QocmVzdWx0LmQxQXZhaWxhYmxlKS50b0JlKHRydWUpOwogICAgZXhwZWN0KGZldGNoKS50b0hhdmVCZWVuQ2FsbGVkV2l0aCgKICAgICAgJ2h0dHBzOi8vd29ya2VyLmV4YW1wbGUuY29tL2NhcGFiaWxpdGllcycsCiAgICAgIGV4cGVjdC5vYmplY3RDb250YWluaW5nKHsgbWV0aG9kOiAnUE9TVCcgfSksCiAgICApOwogIH0pOwp9KTsKCi8vIHBvc3RTc2VQYXlsb2FkVG9TZXJ2aWNlV29ya2VyOiBhbXNnLXN3IDIuMy4wKyDnmoQgYWNrIOWcqOiQveW6k+Wksei0peaXtuWbniB7IG9rOnRydWUsIGJ1c2luZXNzRXJyb3IgfeOAggovLyDov5nph4znlKjmnIDlsI8gc3R1YiDmqKHmi58gU1cg5ZueIGFjaywg6ZSB5L2PIGJ1c2luZXNzRXJyb3Ig6KKr5q2j56Gu6YCP5LygICjogIzkuI3mmK/ooqvlkJ7lm57kuIDkuKrlubLlh4DnmoQgdHJ1ZSnjgIIKZGVzY3JpYmUoJ3Bvc3RTc2VQYXlsb2FkVG9TZXJ2aWNlV29ya2VyIGFjayDop6PmnpAnLCAoKSA9PiB7CiAgLy8gbm9kZSDnjq/looPmsqHmnInov5nkupvmtY/op4jlmajlhajlsYAgKOS4lCBuYXZpZ2F0b3Ig5piv5Y+q6K+7IGdldHRlciksIOeUqCB2aS5zdHViR2xvYmFsIOazqOWFpSwKICAvLyBhZnRlckVhY2gg5LiA5bm2IHVuc3R1YiDov5jljp8sIOmBv+WFjeaxoeafk+WFtuWug+eUqOS+i+OAggogIGxldCBhY2tUb1JldHVybjogYW55OwoKICBjbGFzcyBGYWtlUG9ydCB7CiAgICBvbm1lc3NhZ2U6ICgoZTogYW55KSA9PiB2b2lkKSB8IG51bGwgPSBudWxsOwogICAgcGVlcjogRmFrZVBvcnQgfCBudWxsID0gbnVsbDsKICAgIHBvc3RNZXNzYWdlKGRhdGE6IGFueSkgewogICAgICBjb25zdCBwZWVyID0gdGhpcy5wZWVyOwogICAgICBpZiAocGVlcikgUHJvbWlzZS5yZXNvbHZlKCkudGhlbigoKSA9PiBwZWVyLm9ubWVzc2FnZT8uKHsgZGF0YSB9KSk7CiAgICB9CiAgICBjbG9zZSgpIHt9CiAgfQogIGNsYXNzIEZha2VNZXNzYWdlQ2hhbm5lbCB7CiAgICBwb3J0MSA9IG5ldyBGYWtlUG9ydCgpOwogICAgcG9ydDIgPSBuZXcgRmFrZVBvcnQoKTsKICAgIGNvbnN0cnVjdG9yKCkgewogICAgICB0aGlzLnBvcnQxLnBlZXIgPSB0aGlzLnBvcnQyOwogICAgICB0aGlzLnBvcnQyLnBlZXIgPSB0aGlzLnBvcnQxOwogICAgfQogIH0KCiAgYmVmb3JlRWFjaCgoKSA9PiB7CiAgICB2aS5zdHViR2xvYmFsKCdNZXNzYWdlQ2hhbm5lbCcsIEZha2VNZXNzYWdlQ2hhbm5lbCk7CiAgICB2aS5zdHViR2xvYmFsKCd3aW5kb3cnLCB7CiAgICAgIHNldFRpbWVvdXQ6IHNldFRpbWVvdXQuYmluZChnbG9iYWxUaGlzKSwKICAgICAgY2xlYXJUaW1lb3V0OiBjbGVhclRpbWVvdXQuYmluZChnbG9iYWxUaGlzKSwKICAgIH0pOwogICAgLy8gY29udHJvbGxlciDmlLbliLDmipXpgJLlkI4sIOWcqOiiq+i9rOenu+eahCBwb3J0IChwb3J0Mikg5LiK5ZueIGFjayDigJTigJQg6Lev55Sx5YiwIGNsaWVudCDnmoQgcG9ydDEub25tZXNzYWdl44CCCiAgICB2aS5zdHViR2xvYmFsKCduYXZpZ2F0b3InLCB7CiAgICAgIHNlcnZpY2VXb3JrZXI6IHsKICAgICAgICBjb250cm9sbGVyOiB7CiAgICAgICAgICBwb3N0TWVzc2FnZTogKF9tc2c6IGFueSwgdHJhbnNmZXI6IGFueVtdKSA9PiB7CiAgICAgICAgICAgIGNvbnN0IHBvcnQyID0gdHJhbnNmZXI/LlswXSBhcyBGYWtlUG9ydDsKICAgICAgICAgICAgcG9ydDI/LnBvc3RNZXNzYWdlKGFja1RvUmV0dXJuKTsKICAgICAgICAgIH0sCiAgICAgICAgfSwKICAgICAgfSwKICAgIH0pOwogIH0pOwoKICBhZnRlckVhY2goKCkgPT4gewogICAgdmkudW5zdHViQWxsR2xvYmFscygpOwogIH0pOwoKICBpdCgn6JC95bqT5aSx6LSlOiBhY2sgb2s6dHJ1ZSArIGJ1c2luZXNzRXJyb3Ig6KKr6YCP5LygLCDkuI3ooqvlkJ7miJDlubLlh4DnmoQgdHJ1ZScsIGFzeW5jICgpID0+IHsKICAgIGFja1RvUmV0dXJuID0geyBvazogdHJ1ZSwgYnVzaW5lc3NFcnJvcjogJ2luYm94IHdyaXRlIGZhaWxlZDogUXVvdGFFeGNlZWRlZEVycm9yJyB9OwogICAgY29uc3QgcmVzID0gYXdhaXQgcG9zdFNzZVBheWxvYWRUb1NlcnZpY2VXb3JrZXIoeyBtZXNzYWdlSWQ6ICdtMScgfSk7CiAgICBleHBlY3QocmVzLm9rKS50b0JlKHRydWUpOwogICAgZXhwZWN0KHJlcy5idXNpbmVzc0Vycm9yKS50b0JlKCdpbmJveCB3cml0ZSBmYWlsZWQ6IFF1b3RhRXhjZWVkZWRFcnJvcicpOwogIH0pOwoKICBpdCgn5q2j5bi46JC95bqTOiBhY2sgb2s6dHJ1ZSDml6AgYnVzaW5lc3NFcnJvcicsIGFzeW5jICgpID0+IHsKICAgIGFja1RvUmV0dXJuID0geyBvazogdHJ1ZSB9OwogICAgY29uc3QgcmVzID0gYXdhaXQgcG9zdFNzZVBheWxvYWRUb1NlcnZpY2VXb3JrZXIoeyBtZXNzYWdlSWQ6ICdtMicgfSk7CiAgICBleHBlY3QocmVzLm9rKS50b0JlKHRydWUpOwogICAgZXhwZWN0KHJlcy5idXNpbmVzc0Vycm9yKS50b0JlVW5kZWZpbmVkKCk7CiAgfSk7CgogIGl0KCfml6AgY29udHJvbGxlciDml7bov5Tlm54geyBvazpmYWxzZSB9JywgYXN5bmMgKCkgPT4gewogICAgdmkuc3R1Ykdsb2JhbCgnbmF2aWdhdG9yJywgeyBzZXJ2aWNlV29ya2VyOiB7IGNvbnRyb2xsZXI6IG51bGwgfSB9KTsKICAgIGNvbnN0IHJlcyA9IGF3YWl0IHBvc3RTc2VQYXlsb2FkVG9TZXJ2aWNlV29ya2VyKHsgbWVzc2FnZUlkOiAnbTMnIH0pOwogICAgZXhwZWN0KHJlcy5vaykudG9CZShmYWxzZSk7CiAgICBleHBlY3QocmVzLmJ1c2luZXNzRXJyb3IpLnRvQmVVbmRlZmluZWQoKTsKICB9KTsKfSk7CgpkZXNjcmliZSgnYnVpbGREZW5vTG9hZGVyU25pcHBldCcsICgpID0+IHsKICBpdCgn55Sf5oiQ55qE54mH5q61OiBtb2R1bGUg5qCH6K6wICsgU0lURSDluLjph48gKyBmZXRjaCDmlofmnKwgKyBkYXRhOiBVUkwgaW1wb3J0JywgKCkgPT4gewogICAgY29uc3Qgc25pcHBldCA9IGJ1aWxkRGVub0xvYWRlclNuaXBwZXQoJ2h0dHBzOi8vZXhhbXBsZS5jb20vJyk7CiAgICBleHBlY3Qoc25pcHBldCkudG9Db250YWluKCdleHBvcnQge307Jyk7CiAgICBleHBlY3Qoc25pcHBldCkudG9Db250YWluKCdjb25zdCBTSVRFID0gImh0dHBzOi8vZXhhbXBsZS5jb20vIjsnKTsKICAgIGV4cGVjdChzbmlwcGV0KS50b0NvbnRhaW4oJ2ZldGNoKGAke1NJVEV9aW5zdGFudC13b3JrZXIuZGVuby5idW5kbGUuanNgLCB7IGNhY2hlOiAibm8tc3RvcmUiIH0pJyk7CiAgICBleHBlY3Qoc25pcHBldCkudG9Db250YWluKCdhd2FpdCBpbXBvcnQoYGRhdGE6YXBwbGljYXRpb24vamF2YXNjcmlwdDtjaGFyc2V0PXV0Zi04LCR7ZW5jb2RlVVJJQ29tcG9uZW50KGNvZGUpfWApOycpOwogIH0pOwoKICBpdCgnc2l0ZSDnvLrlsL7mlpzmnaDml7boh6rliqjooaXpvZAsIOmBv+WFjeaLvOWHuumUmeivryBVUkwnLCAoKSA9PiB7CiAgICBjb25zdCBzbmlwcGV0ID0gYnVpbGREZW5vTG9hZGVyU25pcHBldCgnaHR0cHM6Ly9leGFtcGxlLmNvbS9zdWxseScpOwogICAgZXhwZWN0KHNuaXBwZXQpLnRvQ29udGFpbignY29uc3QgU0lURSA9ICJodHRwczovL2V4YW1wbGUuY29tL3N1bGx5LyI7Jyk7CiAgfSk7Cn0pOwo=
+import { describe, it, expect, vi, beforeEach, afterEach } from 'vitest';
+import {
+  sendInstantPush,
+  saveInstantConfig,
+  INSTANT_PUSH_CONFIG_KEY,
+  probeInstantWorkerCapabilities,
+  postSsePayloadToServiceWorker,
+  buildDenoLoaderSnippet,
+} from './instantPushClient';
+import type { InstantPushPayload } from './instantPushClient';
+import { savePushVapid } from './pushVapid';
+
+// 测 splitPattern 注入到 request body 外层 — 这是 amsg-instant 0.8.0-next.2
+// 用来禁默认按句切的唯一正确位置 (放 hook 返回的 pushPayload 上是 no-op).
+
+function setupValidConfig(): void {
+  // pushVapid: vapidPublicKey.length 必须 > 60
+  savePushVapid({
+    vapidPublicKey: 'BIfakeVapidKeyForTestingMustBeOver60CharactersLongAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA',
+    vapidPrivateKey: 'private-stub',
+  });
+  saveInstantConfig({
+    enabled: true,
+    workerUrl: 'https://worker.example.com',
+  });
+}
+
+function clearConfig(): void {
+  try {
+    localStorage.removeItem(INSTANT_PUSH_CONFIG_KEY);
+    localStorage.removeItem('push_vapid_v1');
+  } catch {}
+}
+
+function basePayload(): InstantPushPayload {
+  return {
+    contactName: 'TestChar',
+    apiUrl: 'https://api.example.com',
+    apiKey: 'k',
+    primaryModel: 'm',
+    pushSubscription: {
+      endpoint: 'https://push.example.com/e',
+      keys: { p256dh: 'p', auth: 'a' },
+    },
+    completePrompt: 'hi',
+  };
+}
+
+describe('sendInstantPush splitPattern injection', () => {
+  beforeEach(() => {
+    clearConfig();
+    setupValidConfig();
+    // 替换全局 fetch 抓 body
+    global.fetch = vi.fn().mockResolvedValue({
+      ok: true,
+      status: 200,
+      statusText: 'OK',
+      headers: new Map([['cf-ray', 'test']]) as any,
+      text: async () => '{"success":true}',
+    } as any);
+  });
+
+  it('0.8+ 不再注入 splitPattern, payload 直接 stringify', async () => {
+    await sendInstantPush(basePayload());
+    expect(fetch).toHaveBeenCalled();
+    const callArgs = vi.mocked(fetch).mock.calls[0];
+    const init = callArgs[1] as RequestInit;
+    const body = JSON.parse(init.body as string);
+    // amsg-instant 0.8+ splitPattern 字段被服务端拒收, 客户端也不再带
+    expect(body.splitPattern).toBeUndefined();
+  });
+
+  it('默认把大包策略声明为 multipart', async () => {
+    await sendInstantPush(basePayload());
+    const body = JSON.parse(vi.mocked(fetch).mock.calls[0][1]!.body as string);
+    expect(body.oversizeTransport).toBe('multipart');
+  });
+
+  it('开启 D1 开关时把大包策略声明为 d1', async () => {
+    saveInstantConfig({
+      enabled: true,
+      workerUrl: 'https://worker.example.com',
+      useD1BlobStore: true,
+      d1Available: true,
+      d1CheckedWorkerUrl: 'https://worker.example.com',
+    });
+    await sendInstantPush(basePayload());
+    const body = JSON.parse(vi.mocked(fetch).mock.calls[0][1]!.body as string);
+    expect(body.oversizeTransport).toBe('d1');
+  });
+
+  it('其他字段不受影响 (verify payload 形状没改)', async () => {
+    await sendInstantPush(basePayload());
+    const body = JSON.parse(vi.mocked(fetch).mock.calls[0][1]!.body as string);
+    expect(body.contactName).toBe('TestChar');
+    expect(body.apiUrl).toBe('https://api.example.com');
+    expect(body.completePrompt).toBe('hi');
+    expect(body.pushSubscription).toEqual({
+      endpoint: 'https://push.example.com/e',
+      keys: { p256dh: 'p', auth: 'a' },
+    });
+  });
+});
+
+describe('probeInstantWorkerCapabilities', () => {
+  beforeEach(() => {
+    clearConfig();
+    setupValidConfig();
+  });
+
+  it('读取 worker 返回的 D1 能力', async () => {
+    global.fetch = vi.fn().mockResolvedValue({
+      ok: true,
+      status: 200,
+      statusText: 'OK',
+      text: async () => JSON.stringify({
+        success: true,
+        data: {
+          multipart: { available: true },
+          d1: { available: true },
+        },
+      }),
+    } as any);
+
+    const result = await probeInstantWorkerCapabilities();
+    expect(result.ok).toBe(true);
+    expect(result.d1Available).toBe(true);
+    expect(fetch).toHaveBeenCalledWith(
+      'https://worker.example.com/capabilities',
+      expect.objectContaining({ method: 'POST' }),
+    );
+  });
+});
+
+// postSsePayloadToServiceWorker: amsg-sw 2.3.0+ 的 ack 在落库失败时回 { ok:true, businessError }。
+// 这里用最小 stub 模拟 SW 回 ack, 锁住 businessError 被正确透传 (而不是被吞回一个干净的 true)。
+describe('postSsePayloadToServiceWorker ack 解析', () => {
+  // node 环境没有这些浏览器全局 (且 navigator 是只读 getter), 用 vi.stubGlobal 注入,
+  // afterEach 一并 unstub 还原, 避免污染其它用例。
+  let ackToReturn: any;
+
+  class FakePort {
+    onmessage: ((e: any) => void) | null = null;
+    peer: FakePort | null = null;
+    postMessage(data: any) {
+      const peer = this.peer;
+      if (peer) Promise.resolve().then(() => peer.onmessage?.({ data }));
+    }
+    close() {}
+  }
+  class FakeMessageChannel {
+    port1 = new FakePort();
+    port2 = new FakePort();
+    constructor() {
+      this.port1.peer = this.port2;
+      this.port2.peer = this.port1;
+    }
+  }
+
+  beforeEach(() => {
+    vi.stubGlobal('MessageChannel', FakeMessageChannel);
+    vi.stubGlobal('window', {
+      setTimeout: setTimeout.bind(globalThis),
+      clearTimeout: clearTimeout.bind(globalThis),
+    });
+    // controller 收到投递后, 在被转移的 port (port2) 上回 ack —— 路由到 client 的 port1.onmessage。
+    vi.stubGlobal('navigator', {
+      serviceWorker: {
+        controller: {
+          postMessage: (_msg: any, transfer: any[]) => {
+            const port2 = transfer?.[0] as FakePort;
+            port2?.postMessage(ackToReturn);
+          },
+        },
+      },
+    });
+  });
+
+  afterEach(() => {
+    vi.unstubAllGlobals();
+  });
+
+  it('落库失败: ack ok:true + businessError 被透传, 不被吞成干净的 true', async () => {
+    ackToReturn = { ok: true, businessError: 'inbox write failed: QuotaExceededError' };
+    const res = await postSsePayloadToServiceWorker({ messageId: 'm1' });
+    expect(res.ok).toBe(true);
+    expect(res.businessError).toBe('inbox write failed: QuotaExceededError');
+  });
+
+  it('正常落库: ack ok:true 无 businessError', async () => {
+    ackToReturn = { ok: true };
+    const res = await postSsePayloadToServiceWorker({ messageId: 'm2' });
+    expect(res.ok).toBe(true);
+    expect(res.businessError).toBeUndefined();
+  });
+
+  it('无 controller 时返回 { ok:false }', async () => {
+    vi.stubGlobal('navigator', { serviceWorker: { controller: null } });
+    const res = await postSsePayloadToServiceWorker({ messageId: 'm3' });
+    expect(res.ok).toBe(false);
+    expect(res.businessError).toBeUndefined();
+  });
+});
+
+describe('buildDenoLoaderSnippet', () => {
+  it('生成的片段: module 标记 + SITE 常量 + fetch 文本 + data: URL import', () => {
+    const snippet = buildDenoLoaderSnippet('https://example.com/');
+    expect(snippet).toContain('export {};');
+    expect(snippet).toContain('const SITE = "https://example.com/";');
+    expect(snippet).toContain('fetch(`${SITE}instant-worker.deno.bundle.js`, { cache: "no-store" })');
+    expect(snippet).toContain('await import(`data:application/javascript;charset=utf-8,${encodeURIComponent(code)}`);');
+  });
+
+  it('site 缺尾斜杠时自动补齐, 避免拼出错误 URL', () => {
+    const snippet = buildDenoLoaderSnippet('https://example.com/sully');
+    expect(snippet).toContain('const SITE = "https://example.com/sully/";');
+  });
+});

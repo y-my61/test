@@ -1,1 +1,57 @@
-aW1wb3J0IHsgZGVzY3JpYmUsIGl0LCBleHBlY3QgfSBmcm9tICd2aXRlc3QnOwppbXBvcnQgeyBwbGFuQnVpbHRpblBhcnRzUGFjaywgc2FmZVBhcnRTbHVnLCB0eXBlIEJ1aWx0aW5QYWNrSXRlbSB9IGZyb20gJy4vYnVpbHRpblBhcnRzUGFjayc7Cgpjb25zdCBQTkcgPSAnZGF0YTppbWFnZS9wbmc7YmFzZTY0LGlWQk9SdzBLR2dvQUFBQU5TVWhFVWdBQUFBRUFBQUFCQ0FRQUFBQzFIQXdDQUFBQUMwbEVRVlI0Mm1QOHo4QlFEd0FFaFFHQWhLbU1JUUFBQUFCSlJVNUVya0pnZ2c9PSc7CmNvbnN0IFBBWUxPQUQgPSBQTkcuc3BsaXQoJywnKVsxXTsKCmRlc2NyaWJlKCdzYWZlUGFydFNsdWcnLCAoKSA9PiB7CiAgICBpdCgn5L+d55WZ5a2X5q+N5pWw5a2XL+S4reaWhy/ov57lrZfnrKbvvIzlhbbkvZnmipjkuIvliJLnur/vvIznqbrlm57okL0gcGFydCcsICgpID0+IHsKICAgICAgICBleHBlY3Qoc2FmZVBhcnRTbHVnKCfliJjmtbcgQScpKS50b0JlKCfliJjmtbdfQScpOwogICAgICAgIGV4cGVjdChzYWZlUGFydFNsdWcoJ2EvYjpjJykpLnRvQmUoJ2FfYl9jJyk7CiAgICAgICAgZXhwZWN0KHNhZmVQYXJ0U2x1ZygnJykpLnRvQmUoJ3BhcnQnKTsKICAgICAgICBleHBlY3Qoc2FmZVBhcnRTbHVnKCcgICAnKSkudG9CZSgncGFydCcpOwogICAgfSk7Cn0pOwoKZGVzY3JpYmUoJ3BsYW5CdWlsdGluUGFydHNQYWNrJywgKCkgPT4gewogICAgaXQoJ2RhdGE6IOWbvuaKveaIkCBwYXJ0cy88aWQ+LnBuZ++8jOa4heWNlSBzcmMg5YaZ55u45a+56Lev5b6E77yb5ZCr5oqV5b2xJywgKCkgPT4gewogICAgICAgIGNvbnN0IGl0ZW1zOiBCdWlsdGluUGFja0l0ZW1bXSA9IFsKICAgICAgICAgICAgeyBjYXRlZ29yeUtleTogJ2Zyb250aGFpcicsIG5hbWU6ICfliJjmtbcnLCBzcmM6IFBORywgc2hhZG93U3JjOiBQTkcsIHRpbnRhYmxlOiB0cnVlIH0sCiAgICAgICAgXTsKICAgICAgICBjb25zdCB7IG1hbmlmZXN0LCBmaWxlcywgc2tpcHBlZCB9ID0gcGxhbkJ1aWx0aW5QYXJ0c1BhY2soaXRlbXMpOwogICAgICAgIGV4cGVjdChza2lwcGVkKS50b0JlKDApOwogICAgICAgIGV4cGVjdChtYW5pZmVzdCkudG9IYXZlTGVuZ3RoKDEpOwogICAgICAgIGV4cGVjdChtYW5pZmVzdFswXS5pZCkudG9CZSgnZnJvbnRoYWlyX+WImOa1tycpOwogICAgICAgIGV4cGVjdChtYW5pZmVzdFswXS5zcmMpLnRvQmUoJ3BhcnRzL2Zyb250aGFpcl/liJjmtbcucG5nJyk7CiAgICAgICAgZXhwZWN0KG1hbmlmZXN0WzBdLnNoYWRvd1NyYykudG9CZSgncGFydHMvZnJvbnRoYWlyX+WImOa1t19zaGFkb3cucG5nJyk7CiAgICAgICAgZXhwZWN0KG1hbmlmZXN0WzBdLnRpbnRhYmxlKS50b0JlKHRydWUpOwogICAgICAgIC8vIOS4pOS4quaWh+S7tu+8muWbviArIOaKleW9se+8jGJhc2U2NCDlj6rlkKvotJ/ovb0KICAgICAgICBleHBlY3QoZmlsZXMpLnRvSGF2ZUxlbmd0aCgyKTsKICAgICAgICBleHBlY3QoZmlsZXMuZmluZChmID0+IGYucGF0aCA9PT0gJ3BhcnRzL2Zyb250aGFpcl/liJjmtbcucG5nJykhLmJhc2U2NCkudG9CZShQQVlMT0FEKTsKICAgICAgICBleHBlY3QoZmlsZXMuZmluZChmID0+IGYucGF0aCA9PT0gJ3BhcnRzL2Zyb250aGFpcl/liJjmtbdfc2hhZG93LnBuZycpIS5iYXNlNjQpLnRvQmUoUEFZTE9BRCk7CiAgICB9KTsKCiAgICBpdCgn6YeN5ZCN6Ieq5YqoIF8yL18z77yMaWQg5LiO5paH5Lu25ZCN5ZSv5LiAJywgKCkgPT4gewogICAgICAgIGNvbnN0IGl0ZW1zOiBCdWlsdGluUGFja0l0ZW1bXSA9IFsKICAgICAgICAgICAgeyBjYXRlZ29yeUtleTogJ2V5ZXMnLCBuYW1lOiAn5aSn55y8Jywgc3JjOiBQTkcgfSwKICAgICAgICAgICAgeyBjYXRlZ29yeUtleTogJ2V5ZXMnLCBuYW1lOiAn5aSn55y8Jywgc3JjOiBQTkcgfSwKICAgICAgICAgICAgeyBjYXRlZ29yeUtleTogJ2V5ZXMnLCBuYW1lOiAn5aSn55y8Jywgc3JjOiBQTkcgfSwKICAgICAgICBdOwogICAgICAgIGNvbnN0IHsgbWFuaWZlc3QsIGZpbGVzIH0gPSBwbGFuQnVpbHRpblBhcnRzUGFjayhpdGVtcyk7CiAgICAgICAgY29uc3QgaWRzID0gbWFuaWZlc3QubWFwKG0gPT4gbS5pZCk7CiAgICAgICAgZXhwZWN0KGlkcykudG9FcXVhbChbJ2V5ZXNf5aSn55y8JywgJ2V5ZXNf5aSn55y8XzInLCAnZXllc1/lpKfnnLxfMyddKTsKICAgICAgICBleHBlY3QobmV3IFNldChmaWxlcy5tYXAoZiA9PiBmLnBhdGgpKS5zaXplKS50b0JlKDMpOyAvLyDml6Dopobnm5YKICAgIH0pOwoKICAgIGl0KCdodHRwIFVSTCDljp/moLfkv53nlZnjgIHkuI3okL3mlofku7bvvJvnvLrnsbvnm67nmoTot7Pov4cnLCAoKSA9PiB7CiAgICAgICAgY29uc3QgaXRlbXM6IEJ1aWx0aW5QYWNrSXRlbVtdID0gWwogICAgICAgICAgICB7IGNhdGVnb3J5S2V5OiAnc2tpbicsIG5hbWU6ICfov5znqIsnLCBzcmM6ICdodHRwczovL2EuY29tL3MucG5nJyB9LAogICAgICAgICAgICB7IGNhdGVnb3J5S2V5OiBudWxsLCBuYW1lOiAn5rKh57G755uuJywgc3JjOiBQTkcgfSwKICAgICAgICBdOwogICAgICAgIGNvbnN0IHsgbWFuaWZlc3QsIGZpbGVzLCBza2lwcGVkIH0gPSBwbGFuQnVpbHRpblBhcnRzUGFjayhpdGVtcyk7CiAgICAgICAgZXhwZWN0KHNraXBwZWQpLnRvQmUoMSk7CiAgICAgICAgZXhwZWN0KG1hbmlmZXN0KS50b0hhdmVMZW5ndGgoMSk7CiAgICAgICAgZXhwZWN0KG1hbmlmZXN0WzBdLnNyYykudG9CZSgnaHR0cHM6Ly9hLmNvbS9zLnBuZycpOwogICAgICAgIGV4cGVjdChmaWxlcykudG9IYXZlTGVuZ3RoKDApOwogICAgfSk7Cn0pOwo=
+import { describe, it, expect } from 'vitest';
+import { planBuiltinPartsPack, safePartSlug, type BuiltinPackItem } from './builtinPartsPack';
+
+const PNG = 'data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAQAAAC1HAwCAAAAC0lEQVR42mP8z8BQDwAEhQGAhKmMIQAAAABJRU5ErkJggg==';
+const PAYLOAD = PNG.split(',')[1];
+
+describe('safePartSlug', () => {
+    it('保留字母数字/中文/连字符，其余折下划线，空回落 part', () => {
+        expect(safePartSlug('刘海 A')).toBe('刘海_A');
+        expect(safePartSlug('a/b:c')).toBe('a_b_c');
+        expect(safePartSlug('')).toBe('part');
+        expect(safePartSlug('   ')).toBe('part');
+    });
+});
+
+describe('planBuiltinPartsPack', () => {
+    it('data: 图抽成 parts/<id>.png，清单 src 写相对路径；含投影', () => {
+        const items: BuiltinPackItem[] = [
+            { categoryKey: 'fronthair', name: '刘海', src: PNG, shadowSrc: PNG, tintable: true },
+        ];
+        const { manifest, files, skipped } = planBuiltinPartsPack(items);
+        expect(skipped).toBe(0);
+        expect(manifest).toHaveLength(1);
+        expect(manifest[0].id).toBe('fronthair_刘海');
+        expect(manifest[0].src).toBe('parts/fronthair_刘海.png');
+        expect(manifest[0].shadowSrc).toBe('parts/fronthair_刘海_shadow.png');
+        expect(manifest[0].tintable).toBe(true);
+        // 两个文件：图 + 投影，base64 只含负载
+        expect(files).toHaveLength(2);
+        expect(files.find(f => f.path === 'parts/fronthair_刘海.png')!.base64).toBe(PAYLOAD);
+        expect(files.find(f => f.path === 'parts/fronthair_刘海_shadow.png')!.base64).toBe(PAYLOAD);
+    });
+
+    it('重名自动 _2/_3，id 与文件名唯一', () => {
+        const items: BuiltinPackItem[] = [
+            { categoryKey: 'eyes', name: '大眼', src: PNG },
+            { categoryKey: 'eyes', name: '大眼', src: PNG },
+            { categoryKey: 'eyes', name: '大眼', src: PNG },
+        ];
+        const { manifest, files } = planBuiltinPartsPack(items);
+        const ids = manifest.map(m => m.id);
+        expect(ids).toEqual(['eyes_大眼', 'eyes_大眼_2', 'eyes_大眼_3']);
+        expect(new Set(files.map(f => f.path)).size).toBe(3); // 无覆盖
+    });
+
+    it('http URL 原样保留、不落文件；缺类目的跳过', () => {
+        const items: BuiltinPackItem[] = [
+            { categoryKey: 'skin', name: '远程', src: 'https://a.com/s.png' },
+            { categoryKey: null, name: '没类目', src: PNG },
+        ];
+        const { manifest, files, skipped } = planBuiltinPartsPack(items);
+        expect(skipped).toBe(1);
+        expect(manifest).toHaveLength(1);
+        expect(manifest[0].src).toBe('https://a.com/s.png');
+        expect(files).toHaveLength(0);
+    });
+});

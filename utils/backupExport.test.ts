@@ -1,1 +1,127 @@
-aW1wb3J0IHsgZGVzY3JpYmUsIGl0LCBleHBlY3QsIHZpIH0gZnJvbSAndml0ZXN0JzsKaW1wb3J0IHsgZXh0cmFjdEltYWdlc0luUGxhY2UsIGRlZXBDbG9uZUZvckV4cG9ydCwgRVhQT1JUX0NIVU5LX1NJWkUsIHNsaWNlUmFuZ2VzIH0gZnJvbSAnLi9iYWNrdXBFeHBvcnQnOwoKY29uc3QgSU1HID0gJ2RhdGE6aW1hZ2UvcG5nO2Jhc2U2NCxBQUFBJzsKCmRlc2NyaWJlKCdleHRyYWN0SW1hZ2VzSW5QbGFjZScsICgpID0+IHsKICAgIGl0KCfljp/lnLDmioogZGF0YTppbWFnZSDlrZfnrKbkuLLmjaLmiJAgcmVzb2x2ZUltYWdlIOeahOi/lOWbnuWAvO+8iOS4jeWPpui1t+S4gOajteagke+8iScsICgpID0+IHsKICAgICAgICBjb25zdCByb290ID0geyBhOiBJTUcsIG5lc3RlZDogeyBiOiBJTUcgfSwgbGlzdDogWyd4JywgSU1HXSB9OwogICAgICAgIGNvbnN0IG5lc3RlZFJlZiA9IHJvb3QubmVzdGVkOwogICAgICAgIGV4dHJhY3RJbWFnZXNJblBsYWNlKHJvb3QsICgpID0+ICdhc3NldHMvcC5wbmcnKTsKICAgICAgICBleHBlY3Qocm9vdC5hKS50b0JlKCdhc3NldHMvcC5wbmcnKTsKICAgICAgICBleHBlY3Qocm9vdC5uZXN0ZWQuYikudG9CZSgnYXNzZXRzL3AucG5nJyk7CiAgICAgICAgZXhwZWN0KHJvb3QubGlzdFsxXSkudG9CZSgnYXNzZXRzL3AucG5nJyk7CiAgICAgICAgLy8g5piv5Y6f5Zyw5pS577ya5a+56LGh5byV55So5rKh5Y+YCiAgICAgICAgZXhwZWN0KHJvb3QubmVzdGVkKS50b0JlKG5lc3RlZFJlZik7CiAgICB9KTsKCiAgICBpdCgn6Z2eIGRhdGE6aW1hZ2Ug5a2X56ym5Liy5ZKM5YW25a6D5Y6f5aeL5YC85Y6f5qC35L+d55WZJywgKCkgPT4gewogICAgICAgIGNvbnN0IHJvb3QgPSB7IGtlZXA6ICdoZWxsbycsIG46IDEsIGI6IHRydWUsIHVybDogJ2h0dHBzOi8veC95LnBuZycgfTsKICAgICAgICBleHRyYWN0SW1hZ2VzSW5QbGFjZShyb290LCAoKSA9PiAnYXNzZXRzL1NIT1VMRF9OT1RfQVBQRUFSLnBuZycpOwogICAgICAgIGV4cGVjdChyb290KS50b0VxdWFsKHsga2VlcDogJ2hlbGxvJywgbjogMSwgYjogdHJ1ZSwgdXJsOiAnaHR0cHM6Ly94L3kucG5nJyB9KTsKICAgIH0pOwoKICAgIGl0KCdyZXNvbHZlSW1hZ2Ug6L+U5Zue5Y6f5YC85pe277yI5peg5rOV5oq95Y+W55qEIGRhdGEgdXJs77yJ5a2X56ym5Liy5L+d5oyB5LiN5Y+YJywgKCkgPT4gewogICAgICAgIGNvbnN0IHJvb3QgPSB7IGE6IElNRyB9OwogICAgICAgIGV4dHJhY3RJbWFnZXNJblBsYWNlKHJvb3QsICh2KSA9PiB2KTsKICAgICAgICBleHBlY3Qocm9vdC5hKS50b0JlKElNRyk7CiAgICB9KTsKCiAgICBpdCgn5YWx5Lqr5a2Q5Zu+5Y+q5aSE55CG5LiA5qyhJywgKCkgPT4gewogICAgICAgIGNvbnN0IHNoYXJlZCA9IHsgaW1nOiBJTUcgfTsKICAgICAgICBjb25zdCByb290ID0geyBsZWZ0OiBzaGFyZWQsIHJpZ2h0OiBzaGFyZWQgfTsKICAgICAgICBjb25zdCByZXNvbHZlID0gdmkuZm4oKCkgPT4gJ2Fzc2V0cy9wLnBuZycpOwogICAgICAgIGV4dHJhY3RJbWFnZXNJblBsYWNlKHJvb3QsIHJlc29sdmUpOwogICAgICAgIC8vIHNoYXJlZC5pbWcg6L+Z5LiqIGRhdGEgdXJsIOWPquiiq+ino+aekOS4gOasoQogICAgICAgIGV4cGVjdChyZXNvbHZlKS50b0hhdmVCZWVuQ2FsbGVkVGltZXMoMSk7CiAgICAgICAgZXhwZWN0KHJvb3QubGVmdC5pbWcpLnRvQmUoJ2Fzc2V0cy9wLnBuZycpOwogICAgICAgIGV4cGVjdChyb290LnJpZ2h0KS50b0JlKHJvb3QubGVmdCk7CiAgICB9KTsKCiAgICBpdCgn6YGH5Yiw6Ieq5byV55So5b6q546v5oqb5Ye65riF5qWa55qE6ZSZ6K+vJywgKCkgPT4gewogICAgICAgIGNvbnN0IGE6IGFueSA9IHsgaW1nOiBJTUcgfTsKICAgICAgICBhLnNlbGYgPSBhOwogICAgICAgIGV4cGVjdCgoKSA9PiBleHRyYWN0SW1hZ2VzSW5QbGFjZShhLCAoKSA9PiAnYXNzZXRzL3AucG5nJykpLnRvVGhyb3coL+W+queOr+W8leeUqC8pOwogICAgfSk7CgogICAgaXQoJ+mBh+WIsOWkmue6p+W+queOr++8iGHihpJi4oaSYe+8ieS5n+aKm+mUmScsICgpID0+IHsKICAgICAgICBjb25zdCBhOiBhbnkgPSB7fTsKICAgICAgICBjb25zdCBiOiBhbnkgPSB7IGJhY2s6IGEgfTsKICAgICAgICBhLm5leHQgPSBiOwogICAgICAgIGV4cGVjdCgoKSA9PiBleHRyYWN0SW1hZ2VzSW5QbGFjZShhLCAoKSA9PiAnYXNzZXRzL3AucG5nJykpLnRvVGhyb3coL+W+queOr+W8leeUqC8pOwogICAgfSk7CgogICAgaXQoJ+agueaYr+aVsOe7hOaXtuS5n+iDvemBjeWOhicsICgpID0+IHsKICAgICAgICBjb25zdCByb290OiBhbnlbXSA9IFtJTUcsIHsgaW1nOiBJTUcgfV07CiAgICAgICAgZXh0cmFjdEltYWdlc0luUGxhY2Uocm9vdCwgKCkgPT4gJ2Fzc2V0cy9wLnBuZycpOwogICAgICAgIGV4cGVjdChyb290WzBdKS50b0JlKCdhc3NldHMvcC5wbmcnKTsKICAgICAgICBleHBlY3Qocm9vdFsxXS5pbWcpLnRvQmUoJ2Fzc2V0cy9wLnBuZycpOwogICAgfSk7CgogICAgLy8g5Zue5b2S77yaUVHmjY/kurrlt6XlnYrlvoDmlbTlkIjlr7zlh7ov5a+85YWl44CC5oq95Y+W5piv5YWo5a2X5q616YCS5b2S44CB5peg55m95ZCN5Y2V77yM5omA5Lul6KeS6Imy6YeMCiAgICAvLyDmt7Hln4vlnKggY2hpYmlTdHVkaW8gLyB2clN0YXRlLmNoaWJpIC8gc3BlY2lhbE1vbWVudFJlY29yZHMg5LiL55qEIGRhdGE6aW1hZ2Ug6YO95b+F6aG7CiAgICAvLyDooqvmir3otbDvvIjmjaLmiJAgYXNzZXRzLyrvvInjgILoi6Xml6XlkI7mnInkurrnu5nmir3lj5bliqDlrZfmrrXnmb3lkI3ljZXvvIzov5nmnaHkvJrnuqLjgIIKICAgIGl0KCfop5LoibLnmoQgY2hpYmlTdHVkaW8gLyB2clN0YXRlLmNoaWJpIC8gNTIwIOiusOW9lemHjOeahOWbvumDveS8muiiq+mAkuW9kuaKveWPlicsICgpID0+IHsKICAgICAgICBjb25zdCBjaGFyOiBhbnkgPSB7CiAgICAgICAgICAgIGlkOiAnY2hhci0xJywKICAgICAgICAgICAgYXZhdGFyOiBJTUcsCiAgICAgICAgICAgIHNwcml0ZXM6IHsgY2hpYmk6IElNRyB9LAogICAgICAgICAgICB2clN0YXRlOiB7IGNoaWJpOiB7IGltZzogSU1HLCBzdGF0ZTogeyBzZWxlY3RlZDogeyBza2luOiAnc2tpbl8xJyB9IH0gfSB9LAogICAgICAgICAgICBjaGliaVN0dWRpbzogewogICAgICAgICAgICAgICAgcm9vbTogeyBzdGF0ZTogeyBzZWxlY3RlZDogeyBmcm9udGhhaXI6ICdmXzEnIH0gfSB9LCAgICAgICAgICAvLyDnuq8gc3RhdGUg5peg5Zu+77yM5Y6f5qC35L+d55WZCiAgICAgICAgICAgICAgICBsaWtlNTIwOiB7IGltZzogSU1HLCBzdGF0ZTogeyBzZWxlY3RlZDoge30gfSB9LCAgICAgICAgICAgICAgICAvLyDlhZzlupXlpKflpLTotLQKICAgICAgICAgICAgfSwKICAgICAgICAgICAgc3BlY2lhbE1vbWVudFJlY29yZHM6IHsKICAgICAgICAgICAgICAgIGxpa2U1MjBfMjAyNjogeyBjdXN0b21EYXRhOiB7IGNoYXJDaGliaTogeyBkYXRhVXJsOiBJTUcgfSB9IH0sCiAgICAgICAgICAgIH0sCiAgICAgICAgfTsKICAgICAgICBleHRyYWN0SW1hZ2VzSW5QbGFjZShjaGFyLCAoKSA9PiAnYXNzZXRzL3AucG5nJyk7CiAgICAgICAgZXhwZWN0KGNoYXIuYXZhdGFyKS50b0JlKCdhc3NldHMvcC5wbmcnKTsKICAgICAgICBleHBlY3QoY2hhci5zcHJpdGVzLmNoaWJpKS50b0JlKCdhc3NldHMvcC5wbmcnKTsKICAgICAgICBleHBlY3QoY2hhci52clN0YXRlLmNoaWJpLmltZykudG9CZSgnYXNzZXRzL3AucG5nJyk7CiAgICAgICAgZXhwZWN0KGNoYXIuY2hpYmlTdHVkaW8ubGlrZTUyMC5pbWcpLnRvQmUoJ2Fzc2V0cy9wLnBuZycpOwogICAgICAgIGV4cGVjdChjaGFyLnNwZWNpYWxNb21lbnRSZWNvcmRzLmxpa2U1MjBfMjAyNi5jdXN0b21EYXRhLmNoYXJDaGliaS5kYXRhVXJsKS50b0JlKCdhc3NldHMvcC5wbmcnKTsKICAgICAgICAvLyBzdGF0Ze+8iOmAieS7tiBKU09O77yJ5LiN5piv5Zu+77yM5LiN5YqoCiAgICAgICAgZXhwZWN0KGNoYXIuY2hpYmlTdHVkaW8ucm9vbS5zdGF0ZS5zZWxlY3RlZC5mcm9udGhhaXIpLnRvQmUoJ2ZfMScpOwogICAgICAgIGV4cGVjdChjaGFyLnZyU3RhdGUuY2hpYmkuc3RhdGUuc2VsZWN0ZWQuc2tpbikudG9CZSgnc2tpbl8xJyk7CiAgICB9KTsKfSk7CgpkZXNjcmliZSgnZGVlcENsb25lRm9yRXhwb3J0JywgKCkgPT4gewogICAgaXQoJ+a3seaLt+i0neWQjuaUueWJr+acrOS4jeW9seWTjeWOn+WvueixoScsICgpID0+IHsKICAgICAgICBjb25zdCBzcmMgPSB7IHRoZW1lOiB7IHdhbGxwYXBlcjogSU1HLCBuZXN0ZWQ6IHsgeDogMSB9IH0gfTsKICAgICAgICBjb25zdCBjb3B5ID0gZGVlcENsb25lRm9yRXhwb3J0KHNyYyk7CiAgICAgICAgY29weS50aGVtZS53YWxscGFwZXIgPSAnY2hhbmdlZCc7CiAgICAgICAgY29weS50aGVtZS5uZXN0ZWQueCA9IDk5OTsKICAgICAgICBleHBlY3Qoc3JjLnRoZW1lLndhbGxwYXBlcikudG9CZShJTUcpOwogICAgICAgIGV4cGVjdChzcmMudGhlbWUubmVzdGVkLngpLnRvQmUoMSk7CiAgICB9KTsKfSk7CgpkZXNjcmliZSgnc2xpY2VSYW5nZXMgLyBFWFBPUlRfQ0hVTktfU0laRScsICgpID0+IHsKICAgIGl0KCflr7zlh7rliIbniYflpKflsI/og73ooqsgMyDmlbTpmaTvvIhiYXNlNjQg5ou85o6l5LiN5o+S5YWl5Lit6YCU6KGl5L2N77yJJywgKCkgPT4gewogICAgICAgIGV4cGVjdChFWFBPUlRfQ0hVTktfU0laRSAlIDMpLnRvQmUoMCk7CiAgICB9KTsKCiAgICBpdCgn5YiH5Ye655qE5Yy66Ze06L+e57ut5LiU6KaG55uW5pW05q61JywgKCkgPT4gewogICAgICAgIGNvbnN0IHJhbmdlcyA9IHNsaWNlUmFuZ2VzKDI1LCAxMCk7CiAgICAgICAgZXhwZWN0KHJhbmdlcykudG9FcXVhbChbWzAsIDEwXSwgWzEwLCAyMF0sIFsyMCwgMjVdXSk7CiAgICB9KTsKCiAgICBpdCgnMyDlrZfoioLlr7npvZDnmoTliIbniYfvvJrlkIToh6ogYmFzZTY0IOWQjummluWwvuebuOaOpe+8jOino+eggeWbnuadpeWwseaYr+WOn+Wni+Wtl+iKgicsICgpID0+IHsKICAgICAgICBjb25zdCBieXRlcyA9IG5ldyBVaW50OEFycmF5KDUwKS5tYXAoKF8sIGkpID0+IChpICogMzcpICUgMjU2KTsKICAgICAgICBjb25zdCBjb25jYXQgPSBzbGljZVJhbmdlcyhieXRlcy5sZW5ndGgsIDkpIC8vIDkgJSAzID09PSAwCiAgICAgICAgICAgIC5tYXAoKFtzLCBlXSkgPT4gQnVmZmVyLmZyb20oYnl0ZXMuc2xpY2UocywgZSkpLnRvU3RyaW5nKCdiYXNlNjQnKSkKICAgICAgICAgICAgLmpvaW4oJycpOwogICAgICAgIGNvbnN0IGRlY29kZWQgPSBuZXcgVWludDhBcnJheShCdWZmZXIuZnJvbShjb25jYXQsICdiYXNlNjQnKSk7CiAgICAgICAgZXhwZWN0KEFycmF5LmZyb20oZGVjb2RlZCkpLnRvRXF1YWwoQXJyYXkuZnJvbShieXRlcykpOwogICAgfSk7CgogICAgaXQoJ+mdniAzIOWtl+iKguWvuem9kOeahOWIhueJh+S8muWcqOS4remAlOWIhueJh+Whnui/myA9IOihpeS9je+8iOi/meWwseaYr+W/hemhu+Wvuem9kOeahOWOn+WboO+8iScsICgpID0+IHsKICAgICAgICBjb25zdCBieXRlcyA9IG5ldyBVaW50OEFycmF5KDIwKS5tYXAoKF8sIGkpID0+IGkpOwogICAgICAgIGNvbnN0IGNodW5rc0I2NCA9IHNsaWNlUmFuZ2VzKGJ5dGVzLmxlbmd0aCwgMTApIC8vIDEwICUgMyAhPT0gMAogICAgICAgICAgICAubWFwKChbcywgZV0pID0+IEJ1ZmZlci5mcm9tKGJ5dGVzLnNsaWNlKHMsIGUpKS50b1N0cmluZygnYmFzZTY0JykpOwogICAgICAgIC8vIOmdnuacq+WwvuWIhueJh+W4puS4iuS6hiAnPSfvvIzmi7zotbfmnaXlkI7mlbTkvZPlsLHml6Dms5XmraPnoa7op6PnoIEKICAgICAgICBleHBlY3QoY2h1bmtzQjY0WzBdKS50b0NvbnRhaW4oJz0nKTsKICAgIH0pOwp9KTsK
+import { describe, it, expect, vi } from 'vitest';
+import { extractImagesInPlace, deepCloneForExport, EXPORT_CHUNK_SIZE, sliceRanges } from './backupExport';
+
+const IMG = 'data:image/png;base64,AAAA';
+
+describe('extractImagesInPlace', () => {
+    it('原地把 data:image 字符串换成 resolveImage 的返回值（不另起一棵树）', () => {
+        const root = { a: IMG, nested: { b: IMG }, list: ['x', IMG] };
+        const nestedRef = root.nested;
+        extractImagesInPlace(root, () => 'assets/p.png');
+        expect(root.a).toBe('assets/p.png');
+        expect(root.nested.b).toBe('assets/p.png');
+        expect(root.list[1]).toBe('assets/p.png');
+        // 是原地改：对象引用没变
+        expect(root.nested).toBe(nestedRef);
+    });
+
+    it('非 data:image 字符串和其它原始值原样保留', () => {
+        const root = { keep: 'hello', n: 1, b: true, url: 'https://x/y.png' };
+        extractImagesInPlace(root, () => 'assets/SHOULD_NOT_APPEAR.png');
+        expect(root).toEqual({ keep: 'hello', n: 1, b: true, url: 'https://x/y.png' });
+    });
+
+    it('resolveImage 返回原值时（无法抽取的 data url）字符串保持不变', () => {
+        const root = { a: IMG };
+        extractImagesInPlace(root, (v) => v);
+        expect(root.a).toBe(IMG);
+    });
+
+    it('共享子图只处理一次', () => {
+        const shared = { img: IMG };
+        const root = { left: shared, right: shared };
+        const resolve = vi.fn(() => 'assets/p.png');
+        extractImagesInPlace(root, resolve);
+        // shared.img 这个 data url 只被解析一次
+        expect(resolve).toHaveBeenCalledTimes(1);
+        expect(root.left.img).toBe('assets/p.png');
+        expect(root.right).toBe(root.left);
+    });
+
+    it('遇到自引用循环抛出清楚的错误', () => {
+        const a: any = { img: IMG };
+        a.self = a;
+        expect(() => extractImagesInPlace(a, () => 'assets/p.png')).toThrow(/循环引用/);
+    });
+
+    it('遇到多级循环（a→b→a）也抛错', () => {
+        const a: any = {};
+        const b: any = { back: a };
+        a.next = b;
+        expect(() => extractImagesInPlace(a, () => 'assets/p.png')).toThrow(/循环引用/);
+    });
+
+    it('根是数组时也能遍历', () => {
+        const root: any[] = [IMG, { img: IMG }];
+        extractImagesInPlace(root, () => 'assets/p.png');
+        expect(root[0]).toBe('assets/p.png');
+        expect(root[1].img).toBe('assets/p.png');
+    });
+
+    // 回归：QQ捏人工坊往整合导出/导入。抽取是全字段递归、无白名单，所以角色里
+    // 深埋在 chibiStudio / vrState.chibi / specialMomentRecords 下的 data:image 都必须
+    // 被抽走（换成 assets/*）。若日后有人给抽取加字段白名单，这条会红。
+    it('角色的 chibiStudio / vrState.chibi / 520 记录里的图都会被递归抽取', () => {
+        const char: any = {
+            id: 'char-1',
+            avatar: IMG,
+            sprites: { chibi: IMG },
+            vrState: { chibi: { img: IMG, state: { selected: { skin: 'skin_1' } } } },
+            chibiStudio: {
+                room: { state: { selected: { fronthair: 'f_1' } } },          // 纯 state 无图，原样保留
+                like520: { img: IMG, state: { selected: {} } },                // 兜底大头贴
+            },
+            specialMomentRecords: {
+                like520_2026: { customData: { charChibi: { dataUrl: IMG } } },
+            },
+        };
+        extractImagesInPlace(char, () => 'assets/p.png');
+        expect(char.avatar).toBe('assets/p.png');
+        expect(char.sprites.chibi).toBe('assets/p.png');
+        expect(char.vrState.chibi.img).toBe('assets/p.png');
+        expect(char.chibiStudio.like520.img).toBe('assets/p.png');
+        expect(char.specialMomentRecords.like520_2026.customData.charChibi.dataUrl).toBe('assets/p.png');
+        // state（选件 JSON）不是图，不动
+        expect(char.chibiStudio.room.state.selected.fronthair).toBe('f_1');
+        expect(char.vrState.chibi.state.selected.skin).toBe('skin_1');
+    });
+});
+
+describe('deepCloneForExport', () => {
+    it('深拷贝后改副本不影响原对象', () => {
+        const src = { theme: { wallpaper: IMG, nested: { x: 1 } } };
+        const copy = deepCloneForExport(src);
+        copy.theme.wallpaper = 'changed';
+        copy.theme.nested.x = 999;
+        expect(src.theme.wallpaper).toBe(IMG);
+        expect(src.theme.nested.x).toBe(1);
+    });
+});
+
+describe('sliceRanges / EXPORT_CHUNK_SIZE', () => {
+    it('导出分片大小能被 3 整除（base64 拼接不插入中途补位）', () => {
+        expect(EXPORT_CHUNK_SIZE % 3).toBe(0);
+    });
+
+    it('切出的区间连续且覆盖整段', () => {
+        const ranges = sliceRanges(25, 10);
+        expect(ranges).toEqual([[0, 10], [10, 20], [20, 25]]);
+    });
+
+    it('3 字节对齐的分片：各自 base64 后首尾相接，解码回来就是原始字节', () => {
+        const bytes = new Uint8Array(50).map((_, i) => (i * 37) % 256);
+        const concat = sliceRanges(bytes.length, 9) // 9 % 3 === 0
+            .map(([s, e]) => Buffer.from(bytes.slice(s, e)).toString('base64'))
+            .join('');
+        const decoded = new Uint8Array(Buffer.from(concat, 'base64'));
+        expect(Array.from(decoded)).toEqual(Array.from(bytes));
+    });
+
+    it('非 3 字节对齐的分片会在中途分片塞进 = 补位（这就是必须对齐的原因）', () => {
+        const bytes = new Uint8Array(20).map((_, i) => i);
+        const chunksB64 = sliceRanges(bytes.length, 10) // 10 % 3 !== 0
+            .map(([s, e]) => Buffer.from(bytes.slice(s, e)).toString('base64'));
+        // 非末尾分片带上了 '='，拼起来后整体就无法正确解码
+        expect(chunksB64[0]).toContain('=');
+    });
+});

@@ -1,1 +1,237 @@
-aW1wb3J0IHsgZGVzY3JpYmUsIGl0LCBleHBlY3QgfSBmcm9tICd2aXRlc3QnOwppbXBvcnQgeyBub3JtYWxpemVWb2ljZVRhZ3MsIHNhbml0aXplSW50b1NlZ21lbnRzLCBzYW5pdGl6ZUZvckJ1YmJsZSB9IGZyb20gJy4vc2FuaXRpemUnOwppbXBvcnQgeyBDaGF0UGFyc2VyIH0gZnJvbSAnLi9jaGF0UGFyc2VyJzsKaW1wb3J0IHsgY29sbGVjdFZvaWNlQmF0Y2hTdWJ0aXRsZSwgaXNQb2lzb25lZFZvaWNlU3VidGl0bGUgfSBmcm9tICcuL3ZvaWNlU3VidGl0bGUnOwoKLy8g6K+t6Z+z5qCH562+6Ieq5oSI77ya5qih5Z6L5oqKIDzor63pn7M+IOWGmeatqueahOWQhOenjeecn+WunuW9ouaAgemDveimgeiDveS/ruWbnuinhOiMg++8jAovLyDlkKbliJkgY2h1bmtUZXh0IOWOn+WtkOWdl+S/neaKpCAvIGhhc1ZvaWNlVGFnIOmFjeWvueWFqOWkseaViCDihpIg5o6J5qC85byP44CCCmRlc2NyaWJlKCdub3JtYWxpemVWb2ljZVRhZ3MnLCAoKSA9PiB7CiAgaXQoJ+inhOiMg+i+k+WFpeWOn+agt+S/neeVmScsICgpID0+IHsKICAgIGNvbnN0IHMgPSAnPOivremfsyBlbW90aW9uPSJjYWxtIj7kvaDlpb08L+ivremfsz4nOwogICAgZXhwZWN0KG5vcm1hbGl6ZVZvaWNlVGFncyhzKSkudG9CZShzKTsKICAgIGV4cGVjdChub3JtYWxpemVWb2ljZVRhZ3MoJ+ayoeacieivremfs+agh+etvueahOaZrumAmuaWh+acrCcpKS50b0JlKCfmsqHmnInor63pn7PmoIfnrb7nmoTmma7pgJrmlofmnKwnKTsKICB9KTsKCiAgaXQoJ+acqumXreWQiOW8gOagh+etviDihpIg5pyr5bC+6KGl6Zet5ZCIJywgKCkgPT4gewogICAgZXhwZWN0KG5vcm1hbGl6ZVZvaWNlVGFncygnPOivremfsyBlbW90aW9uPSJjYWxtIj7jgYbjgpPjgIHjgZ3jga7jgb7jgb7jgIInKSkKICAgICAgLnRvQmUoJzzor63pn7MgZW1vdGlvbj0iY2FsbSI+44GG44KT44CB44Gd44Gu44G+44G+44CCPC/or63pn7M+Jyk7CiAgfSk7CgogIGl0KCfmnKrpl63lkIjnuYHkvZPplovmoIfnrb4g4oaSIOihpee5geS9k+mXreWQiCcsICgpID0+IHsKICAgIGV4cGVjdChub3JtYWxpemVWb2ljZVRhZ3MoJzzoqp7pn7M+5aSn5LiI5aSr44CCJykpLnRvQmUoJzzoqp7pn7M+5aSn5LiI5aSr44CCPC/oqp7pn7M+Jyk7CiAgfSk7CgogIGl0KCflraTlhL/pl63lkIjmoIfnrb4g4oaSIOWIoOmZpCcsICgpID0+IHsKICAgIGV4cGVjdChub3JtYWxpemVWb2ljZVRhZ3MoJ+WJjeWNiuWPpTwv6K+t6Z+zPuWQjuWNiuWPpScpKS50b0JlKCfliY3ljYrlj6XlkI7ljYrlj6UnKTsKICB9KTsKCiAgaXQoJ+W1jOWll+WkmuS9meW8gOagh+etviDihpIg5Yig6Zmk77yM5L+d5oyB5LiA5a+5JywgKCkgPT4gewogICAgZXhwZWN0KG5vcm1hbGl6ZVZvaWNlVGFncygnPOivremfsz7nrKzkuIDmrrU86K+t6Z+zPuesrOS6jOautTwv6K+t6Z+zPicpKQogICAgICAudG9CZSgnPOivremfsz7nrKzkuIDmrrXnrKzkuozmrrU8L+ivremfsz4nKTsKICB9KTsKCiAgaXQoJ+WFqOinkuWwluaLrOWPtyDihpIg5Y2K6KeSJywgKCkgPT4gewogICAgZXhwZWN0KG5vcm1hbGl6ZVZvaWNlVGFncygn77yc6K+t6Z+zIGVtb3Rpb249InNhZCLvvJ7jgZTjgoHjgpPvvJwv6K+t6Z+z77yeJykpCiAgICAgIC50b0JlKCc86K+t6Z+zIGVtb3Rpb249InNhZCI+44GU44KB44KTPC/or63pn7M+Jyk7CiAgfSk7CgogIGl0KCfpl63lkIjmoIfnrb7lhoXnqbrmoLwgLyDlhajop5LmlpzmnaAg4oaSIOinhOiMgycsICgpID0+IHsKICAgIGV4cGVjdChub3JtYWxpemVWb2ljZVRhZ3MoJzzor63pn7M+aGk8LyDor63pn7MgPicpKS50b0JlKCc86K+t6Z+zPmhpPC/or63pn7M+Jyk7CiAgICBleHBlY3Qobm9ybWFsaXplVm9pY2VUYWdzKCc86K+t6Z+zPmhpPO+8j+ivremfsz4nKSkudG9CZSgnPOivremfsz5oaTwv6K+t6Z+zPicpOwogIH0pOwoKICBpdCgn5bGe5oCn5bCR56m65qC8IC8g5YWo6KeS5byV5Y+3IC8g5YWo6KeS562J5Y+3IOKGkiDop4TojIMnLCAoKSA9PiB7CiAgICBleHBlY3Qobm9ybWFsaXplVm9pY2VUYWdzKCc86K+t6Z+zZW1vdGlvbj0iaGFwcHkiPmhpPC/or63pn7M+JykpCiAgICAgIC50b0JlKCc86K+t6Z+zIGVtb3Rpb249ImhhcHB5Ij5oaTwv6K+t6Z+zPicpOwogICAgZXhwZWN0KG5vcm1hbGl6ZVZvaWNlVGFncygnPOivremfsyBlbW90aW9uPeKAnGNhbG3igJ0+aGk8L+ivremfsz4nKSkKICAgICAgLnRvQmUoJzzor63pn7MgZW1vdGlvbj0iY2FsbSI+aGk8L+ivremfsz4nKTsKICAgIGV4cGVjdChub3JtYWxpemVWb2ljZVRhZ3MoJzzor63pn7MgZW1vdGlvbu+8nSJjYWxtIj5oaTwv6K+t6Z+zPicpKQogICAgICAudG9CZSgnPOivremfsyBlbW90aW9uPSJjYWxtIj5oaTwv6K+t6Z+zPicpOwogIH0pOwoKICBpdCgn6Ieq6Zet5ZCI56m65qCH562+IDzor63pn7MvPiDihpIg5Yig6Zmk77yM5LiN5ZCe5ZCO5paHJywgKCkgPT4gewogICAgZXhwZWN0KG5vcm1hbGl6ZVZvaWNlVGFncygnPOivremfsy8+5ZCO6Z2i55qE5q2j5paHJykpLnRvQmUoJ+WQjumdoueahOato+aWhycpOwogIH0pOwoKICBpdCgn5aSa5a+55qCH562+5L6d5qyh6YWN5a+577yM5LqS5LiN5bmy5omwJywgKCkgPT4gewogICAgY29uc3QgcyA9ICc86K+t6Z+zPuS4gDwv6K+t6Z+zPuS4remXtDzor63pn7M+5LqMPC/or63pn7M+JzsKICAgIGV4cGVjdChub3JtYWxpemVWb2ljZVRhZ3MocykpLnRvQmUocyk7CiAgfSk7CgogIC8vIOKUgOKUgOKUgCA85a2X5bmVPiDmoIfnrb7vvIjmmL7lvI/nv7vor5HmoLzlvI/vvInilIDilIDilIAKICBpdCgn6KeE6IyD55qEIOivremfsyvlrZfluZUg57uE5ZCI5Y6f5qC35L+d55WZJywgKCkgPT4gewogICAgY29uc3QgcyA9ICc86K+t6Z+zIGVtb3Rpb249ImNhbG0iPlRha2UgYSByZXN0Ljwv6K+t6Z+zPlxuPOWtl+W5lT7lpb3lpb3kvJHmga/jgII8L+Wtl+W5lT4nOwogICAgZXhwZWN0KG5vcm1hbGl6ZVZvaWNlVGFncyhzKSkudG9CZShzKTsKICB9KTsKCiAgaXQoJ+acqumXreWQiOivremfsyArIOWujOaVtOWtl+W5lSDihpIg6K+t6Z+z6Zet5ZCI5o+S5Zyo5a2X5bmV5LmL5YmN77yM5LiN5ZCe5a2X5bmVJywgKCkgPT4gewogICAgZXhwZWN0KG5vcm1hbGl6ZVZvaWNlVGFncygnPOivremfsz5UYWtlIGEgcmVzdC5cbjzlrZfluZU+5aW95aW95LyR5oGv44CCPC/lrZfluZU+JykpCiAgICAgIC50b0JlKCc86K+t6Z+zPlRha2UgYSByZXN0Ljwv6K+t6Z+zPlxuPOWtl+W5lT7lpb3lpb3kvJHmga/jgII8L+Wtl+W5lT4nKTsKICB9KTsKCiAgaXQoJ+acqumXreWQiOWtl+W5lSDihpIg5pyr5bC+6KGl6Zet5ZCI77yb5a2k5YS/5a2X5bmV6Zet5ZCIIOKGkiDliKDpmaQnLCAoKSA9PiB7CiAgICBleHBlY3Qobm9ybWFsaXplVm9pY2VUYWdzKCc86K+t6Z+zPmhpPC/or63pn7M+XG485a2X5bmVPuS9oOWlvScpKQogICAgICAudG9CZSgnPOivremfsz5oaTwv6K+t6Z+zPlxuPOWtl+W5lT7kvaDlpb08L+Wtl+W5lT4nKTsKICAgIGV4cGVjdChub3JtYWxpemVWb2ljZVRhZ3MoJ+WJjemdojwv5a2X5bmVPuWQjumdoicpKS50b0JlKCfliY3pnaLlkI7pnaInKTsKICB9KTsKCiAgaXQoJ+WFqOinkuWtl+W5leagh+etviDihpIg6KeE6IyD5YyWJywgKCkgPT4gewogICAgZXhwZWN0KG5vcm1hbGl6ZVZvaWNlVGFncygnPOivremfsz5oaTwv6K+t6Z+zPu+8nOWtl+W5le+8nuS9oOWlve+8nC/lrZfluZXvvJ4nKSkKICAgICAgLnRvQmUoJzzor63pn7M+aGk8L+ivremfsz485a2X5bmVPuS9oOWlvTwv5a2X5bmVPicpOwogIH0pOwp9KTsKCmRlc2NyaWJlKCfoh6rmhIjlkI7mlbTmnaHnrqHnur/ogZTliqgnLCAoKSA9PiB7CiAgaXQoJ3Nhbml0aXplRm9yQnViYmxlOiDmnKrpl63lkIjlpJrmrrXor63pn7Mg4oaSIOS/ruWlveWQjiBjaHVua1RleHQg5L+d5oqk5oiQ5Y2VIGNodW5rJywgKCkgPT4gewogICAgLy8g5qih5Z6L5b+Y5YaZ6Zet5ZCIICsg5YaF5a655aSa5q6177ya5L+u5aSN5YmN5L+d5oqk5q2j5YiZ6YWN5LiN5LiK77yM6K+t6Z+z5Z2X5Lya6KKr5YiH56KOCiAgICBjb25zdCByYXcgPSAnPOivremfsyBlbW90aW9uPSJjYWxtIj7nrKzkuIDmrrXjgIJcblxu56ys5LqM5q6144CCJzsKICAgIGNvbnN0IGNsZWFuZWQgPSBzYW5pdGl6ZUZvckJ1YmJsZShyYXcpOwogICAgY29uc3QgY2h1bmtzID0gQ2hhdFBhcnNlci5jaHVua1RleHQoY2xlYW5lZCk7CiAgICBleHBlY3QoY2h1bmtzKS50b0VxdWFsKFsnPOivremfsyBlbW90aW9uPSJjYWxtIj7nrKzkuIDmrrXjgIJcblxu56ys5LqM5q6144CCPC/or63pn7M+J10pOwogIH0pOwoKICBpdCgnc2FuaXRpemVJbnRvU2VnbWVudHMgKHdvcmtlcik6IOacqumXreWQiOivremfsyDihpIg5Y2VIHNlZ21lbnTvvIxiYW5uZXIg5Y+W5YaF6YOo5paH5a2XJywgKCkgPT4gewogICAgY29uc3Qgc2VncyA9IHNhbml0aXplSW50b1NlZ21lbnRzKCc86K+t6Z+zIGVtb3Rpb249InNhZCI+44GU44KB44KT44Gt44CCXG5cbuacrOW9k+OBq+OAgicpOwogICAgZXhwZWN0KHNlZ3MpLnRvRXF1YWwoWwogICAgICB7IHJhdzogJzzor63pn7MgZW1vdGlvbj0ic2FkIj7jgZTjgoHjgpPjga3jgIJcblxu5pys5b2T44Gr44CCPC/or63pn7M+Jywgc2FuaXRpemVkOiAn44GU44KB44KT44Gt44CCXG5cbuacrOW9k+OBq+OAgicgfSwKICAgIF0pOwogIH0pOwoKICBpdCgnc2FuaXRpemVJbnRvU2VnbWVudHM6IOeugOe5geS6kuaNoumXreWQiCAoPOivremfsz7igKY8L+iqnumfsz4pIOS5n+aVtOWdl+S/neaKpCcsICgpID0+IHsKICAgIGNvbnN0IHNlZ3MgPSBzYW5pdGl6ZUludG9TZWdtZW50cygnPOivremfsz5oaVxuXG50aGVyZTwv6Kqe6Z+zPicpOwogICAgZXhwZWN0KHNlZ3MpLnRvSGF2ZUxlbmd0aCgxKTsKICAgIGV4cGVjdChzZWdzWzBdLnNhbml0aXplZCkudG9CZSgnaGlcblxudGhlcmUnKTsKICB9KTsKCiAgaXQoJ3Nhbml0aXplSW50b1NlZ21lbnRzOiDor63pn7Mr5a2X5bmV57uE5ZCI5pW05Z2X5Y2VIHNlZ21lbnQsIGJhbm5lciDnlKjkuK3mloflrZfluZUnLCAoKSA9PiB7CiAgICBjb25zdCBzZWdzID0gc2FuaXRpemVJbnRvU2VnbWVudHMoJ+mXsuiBiuS4gOWPpVxuPOivremfsyBlbW90aW9uPSJjYWxtIj5UYWtlIGEgcmVzdCwgb2theT88L+ivremfsz5cbjzlrZfluZU+5aW95aW95LyR5oGv77yM5aW95ZCX77yfPC/lrZfluZU+Jyk7CiAgICBleHBlY3Qoc2VncykudG9FcXVhbChbCiAgICAgIHsgcmF3OiAn6Zey6IGK5LiA5Y+lJywgc2FuaXRpemVkOiAn6Zey6IGK5LiA5Y+lJyB9LAogICAgICB7CiAgICAgICAgcmF3OiAnPOivremfsyBlbW90aW9uPSJjYWxtIj5UYWtlIGEgcmVzdCwgb2theT88L+ivremfsz5cbjzlrZfluZU+5aW95aW95LyR5oGv77yM5aW95ZCX77yfPC/lrZfluZU+JywKICAgICAgICBzYW5pdGl6ZWQ6ICflpb3lpb3kvJHmga/vvIzlpb3lkJfvvJ8nLAogICAgICB9LAogICAgXSk7CiAgfSk7CgogIGl0KCdjaHVua1RleHQ6IOivremfsyvlrZfluZXnu4TlkIjmmK/kuIDkuKrljp/lrZAgY2h1bmssIOS4jeiiq+aNouihjOaLhuW8gCcsICgpID0+IHsKICAgIGNvbnN0IGNodW5rcyA9IENoYXRQYXJzZXIuY2h1bmtUZXh0KCfmiZPlrZfnmoTor51cbjzor63pn7M+U2xlZXAgd2VsbC5cblxuR29vZCBuaWdodC48L+ivremfsz5cbjzlrZfluZU+552h5Liq5aW96KeJ44CCXG5cbuaZmuWuieOAgjwv5a2X5bmVPlxu5Y+I5LiA5Y+lJyk7CiAgICBleHBlY3QoY2h1bmtzKS50b0VxdWFsKFsKICAgICAgJ+aJk+Wtl+eahOivnScsCiAgICAgICc86K+t6Z+zPlNsZWVwIHdlbGwuXG5cbkdvb2QgbmlnaHQuPC/or63pn7M+XG485a2X5bmVPuedoeS4quWlveinieOAglxuXG7mmZrlronjgII8L+Wtl+W5lT4nLAogICAgICAn5Y+I5LiA5Y+lJywKICAgIF0pOwogIH0pOwp9KTsKCi8vIOOAjOWkluivreivremfs+ayoee/u+ivkeOAjeS/ruWkje+8muWtl+W5leS7juWQjOaJueasoeWFhOW8n+awlOazoeebtOaOpeaUtuWbnuadpeOAggovLyDkvYblj6rmnInmqKHlnovnnJ/nmoTlrojkuoblrZfluZXlr7npvZDmoLzlvI/miY3mlLbvvIjnu5PmnoTmoKHpqozvvInvvIzlkKbliJnov5Tlm54gJycg6LWwIExMTSDnv7vor5Eg4oCU4oCUCi8vIOecn+Wunue/u+i9puaKpeWRiu+8muaooeWei+agh+etvuWkluWGmeeahOaYr+eLrOeri+mXsuiBiuefreWPpe+8jOi9rOaWh+Wtl+mdouadv+WNtOaKiuWug+S7rOW9k+e/u+ivkeWxleekuuOAggpkZXNjcmliZSgnY29sbGVjdFZvaWNlQmF0Y2hTdWJ0aXRsZScsICgpID0+IHsKICBjb25zdCBtayA9IChpZDogbnVtYmVyLCByb2xlOiAndXNlcicgfCAnYXNzaXN0YW50JywgY29udGVudDogc3RyaW5nLCB0eXBlOiAndGV4dCcgfCAnZW1vamknID0gJ3RleHQnKSA9PgogICAgKHsgaWQsIHJvbGUsIHR5cGUsIGNvbnRlbnQgfSkgYXMgYW55OwoKICBpdCgn5a+56b2Q55qE5a2X5bmV77yI5rCU5rOh5pWwID09IOivremfs+auteaVsO+8ieKGkiDmjInluo/mi7zmjqUnLCAoKSA9PiB7CiAgICBjb25zdCBtc2dzID0gWwogICAgICBtaygxLCAndXNlcicsICfkvaDlnKjlkJcnKSwKICAgICAgbWsoMiwgJ2Fzc2lzdGFudCcsICfliKvmgJXvvIzmiJHlnKjov5nph4zpmarnnYDkvaDjgIInKSwKICAgICAgbWsoMywgJ2Fzc2lzdGFudCcsICfpl63kuIrnnLznnZvlpb3lpb3kvJHmga/lkKfjgIInKSwKICAgICAgbWsoNCwgJ2Fzc2lzdGFudCcsICc86K+t6Z+zIGVtb3Rpb249ImNhbG0iPuaAluOBjOOCieOBquOBhOOBp+OAgeS/uuOBjOOBk+OBk+OBq+OBhOOCi+OAglxuXG7nm67jgpLplonjgZjjgabjgobjgaPjgY/jgorkvJHjgpPjgafjgII8L+ivremfsz4nKSwKICAgIF07CiAgICBleHBlY3QoY29sbGVjdFZvaWNlQmF0Y2hTdWJ0aXRsZShtc2dzLCA0KSkudG9CZSgn5Yir5oCV77yM5oiR5Zyo6L+Z6YeM6Zmq552A5L2g44CCXG7pl63kuIrnnLznnZvlpb3lpb3kvJHmga/lkKfjgIInKTsKICB9KTsKCiAgaXQoJ+e/u+i9puWcuuaZr+WbnuW9ku+8mumXsuiBiuefreWPpSDiiaAg5a2X5bmV77yI5rCU5rOh5pWw5a+55LiN5LiK6K+t6Z+z5q615pWw77yJ4oaSIOepuuS4sui1sCBMTE0nLCAoKSA9PiB7CiAgICAvLyDmqKHlnovmsqHlrojlrZfluZXlr7npvZDvvJo0IOadoeeLrOeri+S4reaWh+efreWPpSArIOS4gOaVtOauteiLseaWh+eLrOeZvQogICAgY29uc3QgbXNncyA9IFsKICAgICAgbWsoMSwgJ2Fzc2lzdGFudCcsICfvvJ/vvJ8nKSwKICAgICAgbWsoMiwgJ2Fzc2lzdGFudCcsICflrp3lrp3kvaDlha3ngrnljYrlsLHphpLkuoYnKSwKICAgICAgbWsoMywgJ2Fzc2lzdGFudCcsICfnrYnmiJHkuIDkuIsnKSwKICAgICAgbWsoNCwgJ2Fzc2lzdGFudCcsICfliJrnnYHnnLzll5PlrZDov5jmmK/lk5HnmoQnKSwKICAgICAgbWsoNSwgJ2Fzc2lzdGFudCcsICI86K+t6Z+zPk1vcm5pbmcsIGJhYnkuIEkganVzdCBvcGVuZWQgbXkgZXllcyBhbmQuLi4geW91IHdlcmVuJ3QgbmV4dCB0byBtZSwgc28uIFRoYXQncyBhbHJlYWR5IGFubm95aW5nLiBBbnl3YXkuIEdvb2QgbW9ybmluZy4gSSBsb3ZlIHlvdS4gQ29tZSBiYWNrIHRvIGJlZC48L+ivremfsz4iKSwKICAgIF07CiAgICBleHBlY3QoY29sbGVjdFZvaWNlQmF0Y2hTdWJ0aXRsZShtc2dzLCA1KSkudG9CZSgnJyk7CiAgfSk7CgogIGl0KCfmrrXmlbDnorDlt6fkuIDoh7TkvYbplb/luqbmgqzmroog4oaSIOepuuS4sui1sCBMTE0nLCAoKSA9PiB7CiAgICBjb25zdCBtc2dzID0gWwogICAgICBtaygxLCAnYXNzaXN0YW50JywgJ+etieaIkeS4gOS4iycpLAogICAgICBtaygyLCAnYXNzaXN0YW50JywgIjzor63pn7M+TW9ybmluZywgYmFieS4gSSBqdXN0IG9wZW5lZCBteSBleWVzIGFuZCB5b3Ugd2VyZW4ndCBuZXh0IHRvIG1lLiBUaGF0J3MgYWxyZWFkeSBhbm5veWluZy4gSSBoYWQgdGhpcyBkcmVhbSB3aGVyZSB5b3Ugd2VyZSBmZWVkaW5nIG1lIGNha2UgYW5kIHRoZW4gdG9vayBpdCBhd2F5Ljwv6K+t6Z+zPiIpLAogICAgXTsKICAgIGV4cGVjdChjb2xsZWN0Vm9pY2VCYXRjaFN1YnRpdGxlKG1zZ3MsIDIpKS50b0JlKCcnKTsKICB9KTsKCiAgaXQoJ+aJueasoei+ueeVjO+8muS4jei2iui/hyB1c2VyIOa2iOaBr+WOu+aUtuS4iuS4gOi9rueahOaWh+WtlycsICgpID0+IHsKICAgIGNvbnN0IG1zZ3MgPSBbCiAgICAgIG1rKDEsICdhc3Npc3RhbnQnLCAn5LiK5LiA6L2u6K+055qE5a6M5YWo5LiN55u45bmy55qE6K+dJyksCiAgICAgIG1rKDIsICd1c2VyJywgJ+WXrycpLAogICAgICBtaygzLCAnYXNzaXN0YW50JywgJ+i/meS4gOi9rueahOS4reaWh+Wtl+W5leWcqOi/memHjOOAgicpLAogICAgICBtayg0LCAnYXNzaXN0YW50JywgJzzor63pn7M+44GT44GT44GM5LuK5Zue44Gu5a2X5bmV44Gu44Gv44Ga44Gg44KI44CCPC/or63pn7M+JyksCiAgICBdOwogICAgZXhwZWN0KGNvbGxlY3RWb2ljZUJhdGNoU3VidGl0bGUobXNncywgNCkpLnRvQmUoJ+i/meS4gOi9rueahOS4reaWh+Wtl+W5leWcqOi/memHjOOAgicpOwogIH0pOwoKICBpdCgn5ZCM5om55qyh5pyJ56ys5LqM5p2h6K+t6Z+zIOKGkiDlvZLlsZ7lkKvns4rvvIzov5Tlm57nqbrkuLLotbAgTExNIOWFnOW6lScsICgpID0+IHsKICAgIGNvbnN0IG1zZ3MgPSBbCiAgICAgIG1rKDEsICdhc3Npc3RhbnQnLCAn5LiA5p2h5a2X5bmVJyksCiAgICAgIG1rKDIsICdhc3Npc3RhbnQnLCAnPOivremfsz7jgbLjgajjgaTjgoE8L+ivremfsz4nKSwKICAgICAgbWsoMywgJ2Fzc2lzdGFudCcsICc86K+t6Z+zPuOBteOBn+OBpOOCgTwv6K+t6Z+zPicpLAogICAgXTsKICAgIGV4cGVjdChjb2xsZWN0Vm9pY2VCYXRjaFN1YnRpdGxlKG1zZ3MsIDMpKS50b0JlKCcnKTsKICB9KTsKCiAgaXQoJ+WPjOivreawlOazoeWPquWPliAlJUJJTElOR1VBTCUlIOWJjeeahOWNiui+uScsICgpID0+IHsKICAgIGNvbnN0IG1zZ3MgPSBbCiAgICAgIG1rKDEsICdhc3Npc3RhbnQnLCAn5LuK5aSp55qE5Lit5paH5a2X5bmV44CCXG4lJUJJTElOR1VBTCUlXG50cmFuc2xhdGVkIGhhbGYnKSwKICAgICAgbWsoMiwgJ2Fzc2lzdGFudCcsICc86K+t6Z+zPuS7iuaXpeOBruWtl+W5leOBoOOCiOOAgjwv6K+t6Z+zPicpLAogICAgXTsKICAgIGV4cGVjdChjb2xsZWN0Vm9pY2VCYXRjaFN1YnRpdGxlKG1zZ3MsIDIpKS50b0JlKCfku4rlpKnnmoTkuK3mloflrZfluZXjgIInKTsKICB9KTsKCiAgaXQoJ2Vtb2ppIOawlOazoei3s+i/h++8m+e6r+ivremfs+WbnuWQiOi/lOWbnuepuuS4sicsICgpID0+IHsKICAgIGNvbnN0IG1zZ3MgPSBbCiAgICAgIG1rKDEsICdhc3Npc3RhbnQnLCAnaHR0cHM6Ly9lbW9qaS5leGFtcGxlL2EucG5nJywgJ2Vtb2ppJyksCiAgICAgIG1rKDIsICdhc3Npc3RhbnQnLCAnPOivremfsz52b2ljZSBvbmx5PC/or63pn7M+JyksCiAgICBdOwogICAgZXhwZWN0KGNvbGxlY3RWb2ljZUJhdGNoU3VidGl0bGUobXNncywgMikpLnRvQmUoJycpOwogIH0pOwoKICBpdCgn5raI5oGv5LiN5a2Y5ZyoIOKGkiDnqbrkuLInLCAoKSA9PiB7CiAgICBleHBlY3QoY29sbGVjdFZvaWNlQmF0Y2hTdWJ0aXRsZShbXSwgOTkpKS50b0JlKCcnKTsKICB9KTsKfSk7CgovLyDlrZjph4/mr5LmlbDmja7oh6rmo4DvvJrml6fniYjmnKzvvIjml6Dlr7npvZDmoKHpqozvvInmiorpl7LogYrnn63lj6XlvZPnv7vor5HmjIHkuYXljJbkuobvvIzlm57ngYzml7bopoHorqTlh7rmnaXmuIXmjokKZGVzY3JpYmUoJ2lzUG9pc29uZWRWb2ljZVN1YnRpdGxlJywgKCkgPT4gewogIGNvbnN0IG1rID0gKGlkOiBudW1iZXIsIHJvbGU6ICd1c2VyJyB8ICdhc3Npc3RhbnQnLCBjb250ZW50OiBzdHJpbmcsIHR5cGU6ICd0ZXh0JyB8ICdlbW9qaScgPSAndGV4dCcpID0+CiAgICAoeyBpZCwgcm9sZSwgdHlwZSwgY29udGVudCB9KSBhcyBhbnk7CiAgY29uc3QgbWlzZmlyZUJhdGNoID0gWwogICAgbWsoMSwgJ2Fzc2lzdGFudCcsICfvvJ/vvJ8nKSwKICAgIG1rKDIsICdhc3Npc3RhbnQnLCAn5a6d5a6d5L2g5YWt54K55Y2K5bCx6YaS5LqGJyksCiAgICBtaygzLCAnYXNzaXN0YW50JywgJ+etieaIkeS4gOS4iycpLAogICAgbWsoNCwgJ2Fzc2lzdGFudCcsICfliJrnnYHnnLzll5PlrZDov5jmmK/lk5HnmoQnKSwKICAgIG1rKDUsICdhc3Npc3RhbnQnLCAiPOivremfsz5Nb3JuaW5nLCBiYWJ5LiBJIGp1c3Qgb3BlbmVkIG15IGV5ZXMgYW5kLi4uIHlvdSB3ZXJlbid0IG5leHQgdG8gbWUuIEFueXdheS4gR29vZCBtb3JuaW5nLiBJIGxvdmUgeW91LiBDb21lIGJhY2sgdG8gYmVkLjwv6K+t6Z+zPiIpLAogIF07CgogIGl0KCflrZjnmoTlgLwgPT0g5pen6YC76L6R5Lqn54mpIOS4lCDmlrDmoKHpqozkuI3orqQg4oaSIOavkuaVsOaNricsICgpID0+IHsKICAgIGNvbnN0IGxlZ2FjeSA9ICfvvJ/vvJ9cbuWuneWuneS9oOWFreeCueWNiuWwsemGkuS6hlxu562J5oiR5LiA5LiLXG7liJrnnYHnnLzll5PlrZDov5jmmK/lk5HnmoQnOwogICAgZXhwZWN0KGlzUG9pc29uZWRWb2ljZVN1YnRpdGxlKG1pc2ZpcmVCYXRjaCwgNSwgbGVnYWN5KSkudG9CZSh0cnVlKTsKICB9KTsKCiAgaXQoJ0xMTSDnv7vor5Hlh7rmnaXnmoTmraPnu4/or5HmlofvvIjiiaAg5pen6YC76L6R5Lqn54mp77yJ4oaSIOS4jeWKqCcsICgpID0+IHsKICAgIGV4cGVjdChpc1BvaXNvbmVkVm9pY2VTdWJ0aXRsZShtaXNmaXJlQmF0Y2gsIDUsICfml6nlronlrp3otJ3vvIzmiJHliJrnnYHnnLzkvaDlsLHkuI3lnKjouqvovrnjgILmgLvkuYvml6nlronvvIzmiJHniLHkvaDvvIzlm57luorkuIrmnaXjgIInKSkudG9CZShmYWxzZSk7CiAgfSk7CgogIGl0KCflr7npvZDlrZfluZXnmoTlrZjph4/mlbDmja7vvIjmlrDmoKHpqozkuZ/orqTlj6/vvInihpIg5LiN5YqoJywgKCkgPT4gewogICAgY29uc3QgYWxpZ25lZEJhdGNoID0gWwogICAgICBtaygxLCAnYXNzaXN0YW50JywgJ+WIq+aAle+8jOaIkeWcqOi/memHjOmZquedgOS9oOOAgicpLAogICAgICBtaygyLCAnYXNzaXN0YW50JywgJ+mXreS4iuecvOedm+WlveWlveS8keaBr+WQp+OAgicpLAogICAgICBtaygzLCAnYXNzaXN0YW50JywgJzzor63pn7M+5oCW44GM44KJ44Gq44GE44Gn44CB5L+644GM44GT44GT44Gr44GE44KL44CCXG5cbuebruOCkumWieOBmOOBpuOChuOBo+OBj+OCiuS8keOCk+OBp+OAgjwv6K+t6Z+zPicpLAogICAgXTsKICAgIGV4cGVjdChpc1BvaXNvbmVkVm9pY2VTdWJ0aXRsZShhbGlnbmVkQmF0Y2gsIDMsICfliKvmgJXvvIzmiJHlnKjov5nph4zpmarnnYDkvaDjgIJcbumXreS4iuecvOedm+WlveWlveS8keaBr+WQp+OAgicpKS50b0JlKGZhbHNlKTsKICB9KTsKCiAgaXQoJ+epuue/u+ivkSDihpIg5LiN5YqoJywgKCkgPT4gewogICAgZXhwZWN0KGlzUG9pc29uZWRWb2ljZVN1YnRpdGxlKG1pc2ZpcmVCYXRjaCwgNSwgJycpKS50b0JlKGZhbHNlKTsKICB9KTsKfSk7Cg==
+import { describe, it, expect } from 'vitest';
+import { normalizeVoiceTags, sanitizeIntoSegments, sanitizeForBubble } from './sanitize';
+import { ChatParser } from './chatParser';
+import { collectVoiceBatchSubtitle, isPoisonedVoiceSubtitle } from './voiceSubtitle';
+
+// 语音标签自愈：模型把 <语音> 写歪的各种真实形态都要能修回规范，
+// 否则 chunkText 原子块保护 / hasVoiceTag 配对全失效 → 掉格式。
+describe('normalizeVoiceTags', () => {
+  it('规范输入原样保留', () => {
+    const s = '<语音 emotion="calm">你好</语音>';
+    expect(normalizeVoiceTags(s)).toBe(s);
+    expect(normalizeVoiceTags('没有语音标签的普通文本')).toBe('没有语音标签的普通文本');
+  });
+
+  it('未闭合开标签 → 末尾补闭合', () => {
+    expect(normalizeVoiceTags('<语音 emotion="calm">うん、そのまま。'))
+      .toBe('<语音 emotion="calm">うん、そのまま。</语音>');
+  });
+
+  it('未闭合繁体開标签 → 补繁体闭合', () => {
+    expect(normalizeVoiceTags('<語音>大丈夫。')).toBe('<語音>大丈夫。</語音>');
+  });
+
+  it('孤儿闭合标签 → 删除', () => {
+    expect(normalizeVoiceTags('前半句</语音>后半句')).toBe('前半句后半句');
+  });
+
+  it('嵌套多余开标签 → 删除，保持一对', () => {
+    expect(normalizeVoiceTags('<语音>第一段<语音>第二段</语音>'))
+      .toBe('<语音>第一段第二段</语音>');
+  });
+
+  it('全角尖括号 → 半角', () => {
+    expect(normalizeVoiceTags('＜语音 emotion="sad"＞ごめん＜/语音＞'))
+      .toBe('<语音 emotion="sad">ごめん</语音>');
+  });
+
+  it('闭合标签内空格 / 全角斜杠 → 规范', () => {
+    expect(normalizeVoiceTags('<语音>hi</ 语音 >')).toBe('<语音>hi</语音>');
+    expect(normalizeVoiceTags('<语音>hi<／语音>')).toBe('<语音>hi</语音>');
+  });
+
+  it('属性少空格 / 全角引号 / 全角等号 → 规范', () => {
+    expect(normalizeVoiceTags('<语音emotion="happy">hi</语音>'))
+      .toBe('<语音 emotion="happy">hi</语音>');
+    expect(normalizeVoiceTags('<语音 emotion=“calm”>hi</语音>'))
+      .toBe('<语音 emotion="calm">hi</语音>');
+    expect(normalizeVoiceTags('<语音 emotion＝"calm">hi</语音>'))
+      .toBe('<语音 emotion="calm">hi</语音>');
+  });
+
+  it('自闭合空标签 <语音/> → 删除，不吞后文', () => {
+    expect(normalizeVoiceTags('<语音/>后面的正文')).toBe('后面的正文');
+  });
+
+  it('多对标签依次配对，互不干扰', () => {
+    const s = '<语音>一</语音>中间<语音>二</语音>';
+    expect(normalizeVoiceTags(s)).toBe(s);
+  });
+
+  // ─── <字幕> 标签（显式翻译格式）───
+  it('规范的 语音+字幕 组合原样保留', () => {
+    const s = '<语音 emotion="calm">Take a rest.</语音>\n<字幕>好好休息。</字幕>';
+    expect(normalizeVoiceTags(s)).toBe(s);
+  });
+
+  it('未闭合语音 + 完整字幕 → 语音闭合插在字幕之前，不吞字幕', () => {
+    expect(normalizeVoiceTags('<语音>Take a rest.\n<字幕>好好休息。</字幕>'))
+      .toBe('<语音>Take a rest.</语音>\n<字幕>好好休息。</字幕>');
+  });
+
+  it('未闭合字幕 → 末尾补闭合；孤儿字幕闭合 → 删除', () => {
+    expect(normalizeVoiceTags('<语音>hi</语音>\n<字幕>你好'))
+      .toBe('<语音>hi</语音>\n<字幕>你好</字幕>');
+    expect(normalizeVoiceTags('前面</字幕>后面')).toBe('前面后面');
+  });
+
+  it('全角字幕标签 → 规范化', () => {
+    expect(normalizeVoiceTags('<语音>hi</语音>＜字幕＞你好＜/字幕＞'))
+      .toBe('<语音>hi</语音><字幕>你好</字幕>');
+  });
+});
+
+describe('自愈后整条管线联动', () => {
+  it('sanitizeForBubble: 未闭合多段语音 → 修好后 chunkText 保护成单 chunk', () => {
+    // 模型忘写闭合 + 内容多段：修复前保护正则配不上，语音块会被切碎
+    const raw = '<语音 emotion="calm">第一段。\n\n第二段。';
+    const cleaned = sanitizeForBubble(raw);
+    const chunks = ChatParser.chunkText(cleaned);
+    expect(chunks).toEqual(['<语音 emotion="calm">第一段。\n\n第二段。</语音>']);
+  });
+
+  it('sanitizeIntoSegments (worker): 未闭合语音 → 单 segment，banner 取内部文字', () => {
+    const segs = sanitizeIntoSegments('<语音 emotion="sad">ごめんね。\n\n本当に。');
+    expect(segs).toEqual([
+      { raw: '<语音 emotion="sad">ごめんね。\n\n本当に。</语音>', sanitized: 'ごめんね。\n\n本当に。' },
+    ]);
+  });
+
+  it('sanitizeIntoSegments: 简繁互换闭合 (<语音>…</語音>) 也整块保护', () => {
+    const segs = sanitizeIntoSegments('<语音>hi\n\nthere</語音>');
+    expect(segs).toHaveLength(1);
+    expect(segs[0].sanitized).toBe('hi\n\nthere');
+  });
+
+  it('sanitizeIntoSegments: 语音+字幕组合整块单 segment, banner 用中文字幕', () => {
+    const segs = sanitizeIntoSegments('闲聊一句\n<语音 emotion="calm">Take a rest, okay?</语音>\n<字幕>好好休息，好吗？</字幕>');
+    expect(segs).toEqual([
+      { raw: '闲聊一句', sanitized: '闲聊一句' },
+      {
+        raw: '<语音 emotion="calm">Take a rest, okay?</语音>\n<字幕>好好休息，好吗？</字幕>',
+        sanitized: '好好休息，好吗？',
+      },
+    ]);
+  });
+
+  it('chunkText: 语音+字幕组合是一个原子 chunk, 不被换行拆开', () => {
+    const chunks = ChatParser.chunkText('打字的话\n<语音>Sleep well.\n\nGood night.</语音>\n<字幕>睡个好觉。\n\n晚安。</字幕>\n又一句');
+    expect(chunks).toEqual([
+      '打字的话',
+      '<语音>Sleep well.\n\nGood night.</语音>\n<字幕>睡个好觉。\n\n晚安。</字幕>',
+      '又一句',
+    ]);
+  });
+});
+
+// 「外语语音没翻译」修复：字幕从同批次兄弟气泡直接收回来。
+// 但只有模型真的守了字幕对齐格式才收（结构校验），否则返回 '' 走 LLM 翻译 ——
+// 真实翻车报告：模型标签外写的是独立闲聊短句，转文字面板却把它们当翻译展示。
+describe('collectVoiceBatchSubtitle', () => {
+  const mk = (id: number, role: 'user' | 'assistant', content: string, type: 'text' | 'emoji' = 'text') =>
+    ({ id, role, type, content }) as any;
+
+  it('对齐的字幕（气泡数 == 语音段数）→ 按序拼接', () => {
+    const msgs = [
+      mk(1, 'user', '你在吗'),
+      mk(2, 'assistant', '别怕，我在这里陪着你。'),
+      mk(3, 'assistant', '闭上眼睛好好休息吧。'),
+      mk(4, 'assistant', '<语音 emotion="calm">怖がらないで、俺がここにいる。\n\n目を閉じてゆっくり休んで。</语音>'),
+    ];
+    expect(collectVoiceBatchSubtitle(msgs, 4)).toBe('别怕，我在这里陪着你。\n闭上眼睛好好休息吧。');
+  });
+
+  it('翻车场景回归：闲聊短句 ≠ 字幕（气泡数对不上语音段数）→ 空串走 LLM', () => {
+    // 模型没守字幕对齐：4 条独立中文短句 + 一整段英文独白
+    const msgs = [
+      mk(1, 'assistant', '？？'),
+      mk(2, 'assistant', '宝宝你六点半就醒了'),
+      mk(3, 'assistant', '等我一下'),
+      mk(4, 'assistant', '刚睁眼嗓子还是哑的'),
+      mk(5, 'assistant', "<语音>Morning, baby. I just opened my eyes and... you weren't next to me, so. That's already annoying. Anyway. Good morning. I love you. Come back to bed.</语音>"),
+    ];
+    expect(collectVoiceBatchSubtitle(msgs, 5)).toBe('');
+  });
+
+  it('段数碰巧一致但长度悬殊 → 空串走 LLM', () => {
+    const msgs = [
+      mk(1, 'assistant', '等我一下'),
+      mk(2, 'assistant', "<语音>Morning, baby. I just opened my eyes and you weren't next to me. That's already annoying. I had this dream where you were feeding me cake and then took it away.</语音>"),
+    ];
+    expect(collectVoiceBatchSubtitle(msgs, 2)).toBe('');
+  });
+
+  it('批次边界：不越过 user 消息去收上一轮的文字', () => {
+    const msgs = [
+      mk(1, 'assistant', '上一轮说的完全不相干的话'),
+      mk(2, 'user', '嗯'),
+      mk(3, 'assistant', '这一轮的中文字幕在这里。'),
+      mk(4, 'assistant', '<语音>ここが今回の字幕のはずだよ。</语音>'),
+    ];
+    expect(collectVoiceBatchSubtitle(msgs, 4)).toBe('这一轮的中文字幕在这里。');
+  });
+
+  it('同批次有第二条语音 → 归属含糊，返回空串走 LLM 兜底', () => {
+    const msgs = [
+      mk(1, 'assistant', '一条字幕'),
+      mk(2, 'assistant', '<语音>ひとつめ</语音>'),
+      mk(3, 'assistant', '<语音>ふたつめ</语音>'),
+    ];
+    expect(collectVoiceBatchSubtitle(msgs, 3)).toBe('');
+  });
+
+  it('双语气泡只取 %%BILINGUAL%% 前的半边', () => {
+    const msgs = [
+      mk(1, 'assistant', '今天的中文字幕。\n%%BILINGUAL%%\ntranslated half'),
+      mk(2, 'assistant', '<语音>今日の字幕だよ。</语音>'),
+    ];
+    expect(collectVoiceBatchSubtitle(msgs, 2)).toBe('今天的中文字幕。');
+  });
+
+  it('emoji 气泡跳过；纯语音回合返回空串', () => {
+    const msgs = [
+      mk(1, 'assistant', 'https://emoji.example/a.png', 'emoji'),
+      mk(2, 'assistant', '<语音>voice only</语音>'),
+    ];
+    expect(collectVoiceBatchSubtitle(msgs, 2)).toBe('');
+  });
+
+  it('消息不存在 → 空串', () => {
+    expect(collectVoiceBatchSubtitle([], 99)).toBe('');
+  });
+});
+
+// 存量毒数据自检：旧版本（无对齐校验）把闲聊短句当翻译持久化了，回灌时要认出来清掉
+describe('isPoisonedVoiceSubtitle', () => {
+  const mk = (id: number, role: 'user' | 'assistant', content: string, type: 'text' | 'emoji' = 'text') =>
+    ({ id, role, type, content }) as any;
+  const misfireBatch = [
+    mk(1, 'assistant', '？？'),
+    mk(2, 'assistant', '宝宝你六点半就醒了'),
+    mk(3, 'assistant', '等我一下'),
+    mk(4, 'assistant', '刚睁眼嗓子还是哑的'),
+    mk(5, 'assistant', "<语音>Morning, baby. I just opened my eyes and... you weren't next to me. Anyway. Good morning. I love you. Come back to bed.</语音>"),
+  ];
+
+  it('存的值 == 旧逻辑产物 且 新校验不认 → 毒数据', () => {
+    const legacy = '？？\n宝宝你六点半就醒了\n等我一下\n刚睁眼嗓子还是哑的';
+    expect(isPoisonedVoiceSubtitle(misfireBatch, 5, legacy)).toBe(true);
+  });
+
+  it('LLM 翻译出来的正经译文（≠ 旧逻辑产物）→ 不动', () => {
+    expect(isPoisonedVoiceSubtitle(misfireBatch, 5, '早安宝贝，我刚睁眼你就不在身边。总之早安，我爱你，回床上来。')).toBe(false);
+  });
+
+  it('对齐字幕的存量数据（新校验也认可）→ 不动', () => {
+    const alignedBatch = [
+      mk(1, 'assistant', '别怕，我在这里陪着你。'),
+      mk(2, 'assistant', '闭上眼睛好好休息吧。'),
+      mk(3, 'assistant', '<语音>怖がらないで、俺がここにいる。\n\n目を閉じてゆっくり休んで。</语音>'),
+    ];
+    expect(isPoisonedVoiceSubtitle(alignedBatch, 3, '别怕，我在这里陪着你。\n闭上眼睛好好休息吧。')).toBe(false);
+  });
+
+  it('空翻译 → 不动', () => {
+    expect(isPoisonedVoiceSubtitle(misfireBatch, 5, '')).toBe(false);
+  });
+});

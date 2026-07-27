@@ -1,1 +1,208 @@
-aW1wb3J0IFJlYWN0LCB7IHVzZUVmZmVjdCwgdXNlTWVtbywgdXNlU3RhdGUgfSBmcm9tICdyZWFjdCc7CmltcG9ydCB7IGNhbGxMdWNraW5Ub29sIH0gZnJvbSAnLi4vLi4vdXRpbHMvbHVja2luTWNwQ2xpZW50JzsKaW1wb3J0IHsgbHVja2luSXRlbUVtb2ppIH0gZnJvbSAnLi4vLi4vdXRpbHMvbHVja2luRW1vamknOwppbXBvcnQgUGF5UXIgZnJvbSAnLi4vbHVja2luL1BheVFyJzsKCi8qKgogKiDnkZ7lubjnu5PotKbljaEgKOiBiuWkqeeCueWNleaooeW8j+eahOe7iOeCuSkKICoKICog6KeS6Imy6LCD5a6MIHByZXZpZXdPcmRlciDlkI4sIOi/meW8oOWNoea4suafk+WcqOiBiuWkqemHjDoKICogIC0g5YiX5Ye66KeS6Imy6YWN5aW955qE5ZWG5ZOBICjlkKvop4TmoLwgYWRkaXRpb25EZXNjKSwg55So5oi35Y+v5LqM5qyh5pS55pWw6YePCiAqICAtIOaUuemHj+WQjuiHquWKqOmHjeaWsCBwcmV2aWV3T3JkZXIg5Yi35paw5Lu35qC8L+S8mOaDoAogKiAgLSAi5LiL5Y2V5bm25pSv5LuYIiDihpIg5YmN56uv6LCDIGNyZWF0ZU9yZGVyIOKGkiDnm7TmjqXlh7rlvq7kv6HmlK/ku5jkuoznu7TnoIEgKOaJq+eggeWNs+S7mCkKICoKICog5LiL5Y2VL+S7mOasvuWPquWcqOeUqOaIt+eCuei/meW8oOWNoeaXtuWPkeeUnywg6KeS6Imy5LiN5Lya6Ieq5bexIGNyZWF0ZU9yZGVy44CCCiAqLwoKaW50ZXJmYWNlIExpbmUgewogICAgcHJvZHVjdElkOiBudW1iZXIgfCBzdHJpbmc7CiAgICBza3VDb2RlOiBzdHJpbmc7CiAgICBuYW1lOiBzdHJpbmc7CiAgICBzcGVjPzogc3RyaW5nOyAgICAgICAgLy8gYWRkaXRpb25EZXNjLCDlpoIgIueDrSAvIOWkp+adryIKICAgIGltYWdlPzogc3RyaW5nOwogICAgdW5pdFByaWNlPzogbnVtYmVyOyAgIC8vIGVzdGltYXRlUHJpY2UKICAgIHF0eTogbnVtYmVyOwp9Cgpjb25zdCBmbXRNb25leSA9ICh2OiBhbnkpOiBzdHJpbmcgPT4gewogICAgaWYgKHYgPT0gbnVsbCkgcmV0dXJuICcnOwogICAgY29uc3QgbiA9IHR5cGVvZiB2ID09PSAnc3RyaW5nJyA/IHBhcnNlRmxvYXQodikgOiB2OwogICAgaWYgKCFpc0Zpbml0ZShuKSkgcmV0dXJuIFN0cmluZyh2KTsKICAgIHJldHVybiBgwqUke24udG9GaXhlZCgyKX1gOwp9OwoKY29uc3QgYnVpbGRMaW5lcyA9IChhcmdzOiBhbnksIHByZXZpZXc6IGFueSk6IExpbmVbXSA9PiB7CiAgICAvLyDkvJjlhYjnlKggcHJldmlld09yZGVyIOWbnuaYvueahCBwcm9kdWN0SW5mb0xpc3QgKOWQq+WQjeWtly/op4TmoLwv5Yiw5omL5Lu3KQogICAgY29uc3QgaW5mbyA9IEFycmF5LmlzQXJyYXkocHJldmlldz8ucHJvZHVjdEluZm9MaXN0KSA/IHByZXZpZXcucHJvZHVjdEluZm9MaXN0IDogbnVsbDsKICAgIGlmIChpbmZvICYmIGluZm8ubGVuZ3RoKSB7CiAgICAgICAgcmV0dXJuIGluZm8ubWFwKChwOiBhbnkpID0+ICh7CiAgICAgICAgICAgIHByb2R1Y3RJZDogcC5wcm9kdWN0SWQsCiAgICAgICAgICAgIHNrdUNvZGU6IHAuc2t1Q29kZSwKICAgICAgICAgICAgbmFtZTogcC5uYW1lIHx8ICfnkZ7lubjllYblk4EnLAogICAgICAgICAgICBzcGVjOiBwLmFkZGl0aW9uRGVzYyB8fCB1bmRlZmluZWQsCiAgICAgICAgICAgIGltYWdlOiBwLmJyZXZpYXJ5UGljVXJsIHx8IHAuYmlnUGljVXJsIHx8IHVuZGVmaW5lZCwKICAgICAgICAgICAgdW5pdFByaWNlOiB0eXBlb2YgcC5lc3RpbWF0ZVByaWNlID09PSAnbnVtYmVyJyA/IHAuZXN0aW1hdGVQcmljZSA6ICh0eXBlb2YgcC5lc3RpbWF0ZVByaWNlID09PSAnc3RyaW5nJyA/IHBhcnNlRmxvYXQocC5lc3RpbWF0ZVByaWNlKSA6IHVuZGVmaW5lZCksCiAgICAgICAgICAgIHF0eTogdHlwZW9mIHAuYW1vdW50ID09PSAnbnVtYmVyJyA/IHAuYW1vdW50IDogMSwKICAgICAgICB9KSk7CiAgICB9CiAgICAvLyDlhZzlupU6IOeUqCBwcmV2aWV3T3JkZXIg5YWl5Y+CIHByb2R1Y3RMaXN0CiAgICBjb25zdCBwbCA9IEFycmF5LmlzQXJyYXkoYXJncz8ucHJvZHVjdExpc3QpID8gYXJncy5wcm9kdWN0TGlzdCA6IFtdOwogICAgcmV0dXJuIHBsLm1hcCgocDogYW55KSA9PiAoewogICAgICAgIHByb2R1Y3RJZDogcC5wcm9kdWN0SWQsCiAgICAgICAgc2t1Q29kZTogcC5za3VDb2RlLAogICAgICAgIG5hbWU6IHAuc2t1Q29kZSB8fCAn55Ge5bm45ZWG5ZOBJywKICAgICAgICBxdHk6IHR5cGVvZiBwLmFtb3VudCA9PT0gJ251bWJlcicgPyBwLmFtb3VudCA6IDEsCiAgICB9KSk7Cn07Cgpjb25zdCBMdWNraW5DaGVja291dENhcmQ6IFJlYWN0LkZDPHsKICAgIGRlcHRJZDogbnVtYmVyIHwgc3RyaW5nOwogICAgYXJnczogYW55OyAgICAgICAgICAgIC8vIHByZXZpZXdPcmRlciDlhaXlj4Ige2RlcHRJZCwgcHJvZHVjdExpc3R9CiAgICBwcmV2aWV3OiBhbnk7ICAgICAgICAgLy8gcHJldmlld09yZGVyIOi/lOWbngogICAgbG9jPzogeyBsb25naXR1ZGU/OiBudW1iZXI7IGxhdGl0dWRlPzogbnVtYmVyIH07Cn0+ID0gKHsgZGVwdElkLCBhcmdzLCBwcmV2aWV3OiBpbml0aWFsUHJldmlldywgbG9jIH0pID0+IHsKICAgIGNvbnN0IFtsaW5lcywgc2V0TGluZXNdID0gdXNlU3RhdGU8TGluZVtdPigoKSA9PiBidWlsZExpbmVzKGFyZ3MsIGluaXRpYWxQcmV2aWV3KSk7CiAgICBjb25zdCBbcHJldmlldywgc2V0UHJldmlld10gPSB1c2VTdGF0ZTxhbnk+KGluaXRpYWxQcmV2aWV3KTsKICAgIGNvbnN0IFtjYWxjaW5nLCBzZXRDYWxjaW5nXSA9IHVzZVN0YXRlKGZhbHNlKTsKICAgIGNvbnN0IFtwYXlpbmcsIHNldFBheWluZ10gPSB1c2VTdGF0ZShmYWxzZSk7CiAgICBjb25zdCBbcGF5RXJyLCBzZXRQYXlFcnJdID0gdXNlU3RhdGU8c3RyaW5nIHwgbnVsbD4obnVsbCk7CiAgICBjb25zdCBbb3JkZXIsIHNldE9yZGVyXSA9IHVzZVN0YXRlPGFueT4obnVsbCk7CgogICAgY29uc3QgcHJvZHVjdExpc3QgPSAoKSA9PiBsaW5lcy5maWx0ZXIobCA9PiBsLnF0eSA+IDApLm1hcChsID0+ICh7IGFtb3VudDogbC5xdHksIHByb2R1Y3RJZDogbC5wcm9kdWN0SWQsIHNrdUNvZGU6IGwuc2t1Q29kZSB9KSk7CiAgICBjb25zdCBoYXNoID0gdXNlTWVtbygoKSA9PiBsaW5lcy5tYXAobCA9PiBgJHtsLnNrdUNvZGV9eCR7bC5xdHl9YCkuc29ydCgpLmpvaW4oJ3wnKSwgW2xpbmVzXSk7CiAgICBjb25zdCBmaXJzdEhhc2ggPSB1c2VNZW1vKCgpID0+IGJ1aWxkTGluZXMoYXJncywgaW5pdGlhbFByZXZpZXcpLm1hcChsID0+IGAke2wuc2t1Q29kZX14JHtsLnF0eX1gKS5zb3J0KCkuam9pbignfCcpLCBbXSk7CgogICAgLy8g5pS55LqG5pWw6YePIOKGkiDph43mlrDnrpfku7cgKOWIneWni+mCo+asoeS4jemHjeWkjeeulykKICAgIHVzZUVmZmVjdCgoKSA9PiB7CiAgICAgICAgaWYgKG9yZGVyKSByZXR1cm47ICAgICAgICAgICAgICAgICAvLyDlt7LkuIvljZUsIOmUgeWumgogICAgICAgIGlmIChoYXNoID09PSBmaXJzdEhhc2gpIHJldHVybjsgICAgLy8g5rKh5pS5LCDnlKjliJ3lp4sgcHJldmlldwogICAgICAgIGlmICghcHJvZHVjdExpc3QoKS5sZW5ndGgpIHsgc2V0UHJldmlldyhudWxsKTsgcmV0dXJuOyB9CiAgICAgICAgbGV0IGNhbmNlbGxlZCA9IGZhbHNlOwogICAgICAgIHNldENhbGNpbmcodHJ1ZSk7CiAgICAgICAgY2FsbEx1Y2tpblRvb2woJ3ByZXZpZXdPcmRlcicsIHsgZGVwdElkLCBwcm9kdWN0TGlzdDogcHJvZHVjdExpc3QoKSB9KS50aGVuKChyOiBhbnkpID0+IHsKICAgICAgICAgICAgaWYgKGNhbmNlbGxlZCkgcmV0dXJuOwogICAgICAgICAgICBpZiAoci5zdWNjZXNzKSBzZXRQcmV2aWV3KHIuZGF0YSk7CiAgICAgICAgICAgIHNldENhbGNpbmcoZmFsc2UpOwogICAgICAgIH0pLmNhdGNoKCgpID0+IHsgaWYgKCFjYW5jZWxsZWQpIHNldENhbGNpbmcoZmFsc2UpOyB9KTsKICAgICAgICByZXR1cm4gKCkgPT4geyBjYW5jZWxsZWQgPSB0cnVlOyB9OwogICAgICAgIC8vIGVzbGludC1kaXNhYmxlLW5leHQtbGluZSByZWFjdC1ob29rcy9leGhhdXN0aXZlLWRlcHMKICAgIH0sIFtoYXNoXSk7CgogICAgY29uc3QgY2hhbmdlUXR5ID0gKHNrdTogc3RyaW5nLCBkOiBudW1iZXIpID0+IHsKICAgICAgICBpZiAob3JkZXIpIHJldHVybjsKICAgICAgICBzZXRMaW5lcyhwcmV2ID0+IHByZXYubWFwKGwgPT4gbC5za3VDb2RlID09PSBza3UgPyB7IC4uLmwsIHF0eTogTWF0aC5tYXgoMCwgTWF0aC5taW4oMjAsIGwucXR5ICsgZCkpIH0gOiBsKS5maWx0ZXIobCA9PiBsLnF0eSA+IDAgfHwgZCA+IDApKTsKICAgIH07CgogICAgY29uc3QgcGF5ID0gYXN5bmMgKCkgPT4gewogICAgICAgIGlmIChwYXlpbmcgfHwgb3JkZXIpIHJldHVybjsKICAgICAgICBpZiAoIXByb2R1Y3RMaXN0KCkubGVuZ3RoKSB7IHNldFBheUVycign6LSt54mp6L2m56m65LqGJyk7IHJldHVybjsgfQogICAgICAgIHNldFBheWluZyh0cnVlKTsgc2V0UGF5RXJyKG51bGwpOwogICAgICAgIHRyeSB7CiAgICAgICAgICAgIGNvbnN0IGE6IGFueSA9IHsgZGVwdElkLCBwcm9kdWN0TGlzdDogcHJvZHVjdExpc3QoKSB9OwogICAgICAgICAgICBpZiAobG9jPy5sb25naXR1ZGUgIT0gbnVsbCkgYS5sb25naXR1ZGUgPSBsb2MubG9uZ2l0dWRlOwogICAgICAgICAgICBpZiAobG9jPy5sYXRpdHVkZSAhPSBudWxsKSBhLmxhdGl0dWRlID0gbG9jLmxhdGl0dWRlOwogICAgICAgICAgICBjb25zdCBjb3Vwb25zID0gcHJldmlldz8uY291cG9uQ29kZUxpc3Q7CiAgICAgICAgICAgIGlmIChBcnJheS5pc0FycmF5KGNvdXBvbnMpICYmIGNvdXBvbnMubGVuZ3RoKSBhLmNvdXBvbkNvZGVMaXN0ID0gY291cG9uczsKICAgICAgICAgICAgY29uc3QgciA9IGF3YWl0IGNhbGxMdWNraW5Ub29sKCdjcmVhdGVPcmRlcicsIGEpOwogICAgICAgICAgICBpZiAoIXIuc3VjY2VzcykgdGhyb3cgbmV3IEVycm9yKHIuZXJyb3IgfHwgJ+S4i+WNleWksei0pScpOwogICAgICAgICAgICBzZXRPcmRlcihyLmRhdGEpOwogICAgICAgIH0gY2F0Y2ggKGU6IGFueSkgewogICAgICAgICAgICBzZXRQYXlFcnIoZT8ubWVzc2FnZSB8fCBTdHJpbmcoZSkpOwogICAgICAgIH0gZmluYWxseSB7CiAgICAgICAgICAgIHNldFBheWluZyhmYWxzZSk7CiAgICAgICAgfQogICAgfTsKCiAgICBjb25zdCBmaW5hbFByaWNlID0gcHJldmlldz8uZGlzY291bnRQcmljZTsKICAgIGNvbnN0IG9yaWdpbmFsID0gcHJldmlldz8udG90YWxJbml0aWFsUHJpY2U7CiAgICBjb25zdCBwcml2aWxlZ2UgPSBwcmV2aWV3Py5wcml2aWxlZ2VNb25leTsKICAgIGNvbnN0IGxvY2FsVG90YWwgPSBsaW5lcy5yZWR1Y2UoKHMsIGwpID0+IHMgKyAobC51bml0UHJpY2UgfHwgMCkgKiBsLnF0eSwgMCk7CiAgICBjb25zdCBwYXlVcmwgPSBvcmRlcj8ucGF5T3JkZXJVcmw7CiAgICBjb25zdCBxclVybCA9IG9yZGVyPy5wYXlPcmRlclFyQ29kZVVybDsKICAgIGNvbnN0IG9yZGVySWQgPSBvcmRlcj8ub3JkZXJJZFN0ciB8fCBvcmRlcj8ub3JkZXJJZDsKCiAgICByZXR1cm4gKAogICAgICAgIDxkaXYgY2xhc3NOYW1lPSJ3LTcyIHJvdW5kZWQtMnhsIG92ZXJmbG93LWhpZGRlbiBib3JkZXIgYm9yZGVyLVsjRTZERkNGXSBzaGFkb3ctc20gYmctZ3JhZGllbnQtdG8tYnIgZnJvbS1bI0ZBRjdGMF0gdG8tWyNGM0VGRTZdIj4KICAgICAgICAgICAgPGRpdiBjbGFzc05hbWU9ImZsZXggaXRlbXMtY2VudGVyIGdhcC0yIHB4LTMgcHktMiBiZy1ncmFkaWVudC10by1yIGZyb20tWyMwQjFGM0FdIHRvLVsjMUU0RDhDXSI+CiAgICAgICAgICAgICAgICA8c3BhbiBjbGFzc05hbWU9InRleHQtbGciPvCfpow8L3NwYW4+CiAgICAgICAgICAgICAgICA8ZGl2IGNsYXNzTmFtZT0iZmxleC0xIG1pbi13LTAiPgogICAgICAgICAgICAgICAgICAgIDxkaXYgY2xhc3NOYW1lPSJ0ZXh0LVsxMXB4XSBmb250LWJvbGQgdGV4dC13aGl0ZSI+55Ge5bm4IMK3IOe7k+i0pjwvZGl2PgogICAgICAgICAgICAgICAgICAgIDxkaXYgY2xhc3NOYW1lPSJ0ZXh0LVs5cHhdIHRleHQtd2hpdGUvNzAiPntvcmRlciA/ICflt7LkuIvljZUsIOaJq+eggeaUr+S7mCcgOiAn56Gu6K6k5LiL5Y2V5YaF5a65LCDlj6/mlLnmlbDph48nfTwvZGl2PgogICAgICAgICAgICAgICAgPC9kaXY+CiAgICAgICAgICAgIDwvZGl2PgoKICAgICAgICAgICAgPGRpdiBjbGFzc05hbWU9InAtMyBzcGFjZS15LTIiPgogICAgICAgICAgICAgICAgey8qIOWPlumkkOmXqOW6lyAo5p2l6IeqIHByZXZpZXdPcmRlci5zaG9wSW5mbykgKi99CiAgICAgICAgICAgICAgICB7KCgpID0+IHsKICAgICAgICAgICAgICAgICAgICBjb25zdCBzaG9wID0gcHJldmlldz8uc2hvcEluZm87CiAgICAgICAgICAgICAgICAgICAgY29uc3Qgc2hvcE5hbWUgPSBzaG9wPy5kZXB0TmFtZSB8fCAoZGVwdElkICE9IG51bGwgPyBg6Zeo5bqXICR7ZGVwdElkfWAgOiB1bmRlZmluZWQpOwogICAgICAgICAgICAgICAgICAgIGlmICghc2hvcE5hbWUpIHJldHVybiBudWxsOwogICAgICAgICAgICAgICAgICAgIHJldHVybiAoCiAgICAgICAgICAgICAgICAgICAgICAgIDxkaXYgY2xhc3NOYW1lPSJiZy13aGl0ZS84MCByb3VuZGVkLWxnIGJvcmRlciBib3JkZXItWyNFRkU5RENdIHAtMiBmbGV4IGl0ZW1zLXN0YXJ0IGdhcC0xLjUiPgogICAgICAgICAgICAgICAgICAgICAgICAgICAgPHNwYW4gY2xhc3NOYW1lPSJ0ZXh0LVsxM3B4XSBzaHJpbmstMCI+8J+Pqjwvc3Bhbj4KICAgICAgICAgICAgICAgICAgICAgICAgICAgIDxkaXYgY2xhc3NOYW1lPSJtaW4tdy0wIj4KICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICA8ZGl2IGNsYXNzTmFtZT0idGV4dC1bMTJweF0gZm9udC1ib2xkIHRleHQtWyMwQjFGM0FdIHRydW5jYXRlIj57c2hvcE5hbWV9IDxzcGFuIGNsYXNzTmFtZT0idGV4dC1bOXB4XSBmb250LW5vcm1hbCB0ZXh0LXNsYXRlLTQwMCI+5Yiw5bqX6Ieq5o+QPC9zcGFuPjwvZGl2PgogICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgIHtzaG9wPy5hZGRyZXNzICYmIDxkaXYgY2xhc3NOYW1lPSJ0ZXh0LVsxMHB4XSB0ZXh0LXNsYXRlLTUwMCBsaW5lLWNsYW1wLTIgbGVhZGluZy1zbnVnIj57c2hvcC5hZGRyZXNzfTwvZGl2Pn0KICAgICAgICAgICAgICAgICAgICAgICAgICAgIDwvZGl2PgogICAgICAgICAgICAgICAgICAgICAgICA8L2Rpdj4KICAgICAgICAgICAgICAgICAgICApOwogICAgICAgICAgICAgICAgfSkoKX0KCiAgICAgICAgICAgICAgICB7Lyog5ZWG5ZOB6KGMICovfQogICAgICAgICAgICAgICAgPGRpdiBjbGFzc05hbWU9ImJnLXdoaXRlLzgwIHJvdW5kZWQtbGcgb3ZlcmZsb3ctaGlkZGVuIGJvcmRlciBib3JkZXItWyNFRkU5RENdIj4KICAgICAgICAgICAgICAgICAgICB7bGluZXMubWFwKChsKSA9PiAoCiAgICAgICAgICAgICAgICAgICAgICAgIDxkaXYga2V5PXtsLnNrdUNvZGV9IGNsYXNzTmFtZT0iZmxleCBpdGVtcy1jZW50ZXIgZ2FwLTIgcC0yIGJvcmRlci1iIGJvcmRlci1bI0Y0RUZFNF0gbGFzdDpib3JkZXItYi0wIj4KICAgICAgICAgICAgICAgICAgICAgICAgICAgIDxkaXYgY2xhc3NOYW1lPSJ3LTEwIGgtMTAgcm91bmRlZC1tZCBiZy1bI0ZBRjdGMF0gb3ZlcmZsb3ctaGlkZGVuIHNocmluay0wIGZsZXggaXRlbXMtY2VudGVyIGp1c3RpZnktY2VudGVyIj4KICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICB7bC5pbWFnZSA/IDxpbWcgc3JjPXtsLmltYWdlfSBhbHQ9IiIgY2xhc3NOYW1lPSJ3LWZ1bGwgaC1mdWxsIG9iamVjdC1jb3ZlciIgcmVmZXJyZXJQb2xpY3k9Im5vLXJlZmVycmVyIiBvbkVycm9yPXsoZTogYW55KSA9PiB7IGUudGFyZ2V0LnN0eWxlLmRpc3BsYXkgPSAnbm9uZSc7IH19IC8+IDogPHNwYW4gY2xhc3NOYW1lPSJ0ZXh0LWxnIj57bHVja2luSXRlbUVtb2ppKGwubmFtZSl9PC9zcGFuPn0KICAgICAgICAgICAgICAgICAgICAgICAgICAgIDwvZGl2PgogICAgICAgICAgICAgICAgICAgICAgICAgICAgPGRpdiBjbGFzc05hbWU9ImZsZXgtMSBtaW4tdy0wIj4KICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICA8ZGl2IGNsYXNzTmFtZT0iZm9udC1ib2xkIHRleHQtWzEycHhdIHRleHQtc2xhdGUtODAwIHRydW5jYXRlIj57bC5uYW1lfTwvZGl2PgogICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgIHtsLnNwZWMgJiYgPGRpdiBjbGFzc05hbWU9InRleHQtWzlweF0gdGV4dC1zbGF0ZS00MDAgdHJ1bmNhdGUiPntsLnNwZWN9PC9kaXY+fQogICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgIHtsLnVuaXRQcmljZSAhPSBudWxsICYmIDxkaXYgY2xhc3NOYW1lPSJ0ZXh0LVsxMHB4XSB0ZXh0LVsjMTYzODZGXSI+e2ZtdE1vbmV5KGwudW5pdFByaWNlKX08L2Rpdj59CiAgICAgICAgICAgICAgICAgICAgICAgICAgICA8L2Rpdj4KICAgICAgICAgICAgICAgICAgICAgICAgICAgIHtvcmRlciA/ICgKICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICA8ZGl2IGNsYXNzTmFtZT0idGV4dC1bMTJweF0gZm9udC1ib2xkIHRleHQtWyMxNjM4NkZdIHNocmluay0wIj7Dl3tsLnF0eX08L2Rpdj4KICAgICAgICAgICAgICAgICAgICAgICAgICAgICkgOiAoCiAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgPGRpdiBjbGFzc05hbWU9ImZsZXggaXRlbXMtY2VudGVyIGJnLXdoaXRlIGJvcmRlciBib3JkZXItWyNEREQzQkNdIHJvdW5kZWQtbWQgb3ZlcmZsb3ctaGlkZGVuIHNocmluay0wIj4KICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgPGJ1dHRvbiBvbkNsaWNrPXsoKSA9PiBjaGFuZ2VRdHkobC5za3VDb2RlLCAtMSl9IGNsYXNzTmFtZT0idy02IGgtNiBmbGV4IGl0ZW1zLWNlbnRlciBqdXN0aWZ5LWNlbnRlciB0ZXh0LVsxNHB4XSBmb250LWJvbGQgdGV4dC1bIzE2Mzg2Rl0gYWN0aXZlOmJnLVsjRjJFQ0REXSI+4oiSPC9idXR0b24+CiAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgIDxzcGFuIGNsYXNzTmFtZT0ibWluLXctWzIwcHhdIHRleHQtY2VudGVyIHRleHQtWzExcHhdIGZvbnQtYm9sZCB0ZXh0LXNsYXRlLTcwMCI+e2wucXR5fTwvc3Bhbj4KICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgPGJ1dHRvbiBvbkNsaWNrPXsoKSA9PiBjaGFuZ2VRdHkobC5za3VDb2RlLCAxKX0gY2xhc3NOYW1lPSJ3LTYgaC02IGZsZXggaXRlbXMtY2VudGVyIGp1c3RpZnktY2VudGVyIHRleHQtWzE0cHhdIGZvbnQtYm9sZCB0ZXh0LVsjMTYzODZGXSBhY3RpdmU6YmctWyNGMkVDRERdIj4rPC9idXR0b24+CiAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgPC9kaXY+CiAgICAgICAgICAgICAgICAgICAgICAgICAgICApfQogICAgICAgICAgICAgICAgICAgICAgICA8L2Rpdj4KICAgICAgICAgICAgICAgICAgICApKX0KICAgICAgICAgICAgICAgIDwvZGl2PgoKICAgICAgICAgICAgICAgIHsvKiDotLnnlKggKi99CiAgICAgICAgICAgICAgICA8ZGl2IGNsYXNzTmFtZT0ic3BhY2UteS0xIHRleHQtWzEycHhdIHRleHQtc2xhdGUtNzAwIj4KICAgICAgICAgICAgICAgICAgICB7b3JpZ2luYWwgIT0gbnVsbCAmJiA8ZGl2IGNsYXNzTmFtZT0iZmxleCBqdXN0aWZ5LWJldHdlZW4gdGV4dC1bMTBweF0gdGV4dC1zbGF0ZS00MDAiPjxzcGFuPuWVhuWTgeaAu+S7t++8iOmdouS7t++8iTwvc3Bhbj48c3Bhbj57Zm10TW9uZXkob3JpZ2luYWwpfTwvc3Bhbj48L2Rpdj59CiAgICAgICAgICAgICAgICAgICAge3ByaXZpbGVnZSAhPSBudWxsICYmIE51bWJlcihwcml2aWxlZ2UpID4gMCAmJiA8ZGl2IGNsYXNzTmFtZT0iZmxleCBqdXN0aWZ5LWJldHdlZW4gdGV4dC1lbWVyYWxkLTYwMCI+PHNwYW4+5bey5LyY5oOgPC9zcGFuPjxzcGFuPi17Zm10TW9uZXkocHJpdmlsZWdlKX08L3NwYW4+PC9kaXY+fQogICAgICAgICAgICAgICAgICAgIHtBcnJheS5pc0FycmF5KHByZXZpZXc/LmNvdXBvbkNvZGVMaXN0KSAmJiBwcmV2aWV3LmNvdXBvbkNvZGVMaXN0Lmxlbmd0aCA+IDAgJiYgPGRpdiBjbGFzc05hbWU9ImZsZXgganVzdGlmeS1iZXR3ZWVuIHRleHQtWzExcHhdIHRleHQtWyMxNjM4NkZdIj48c3Bhbj7lt7Loh6rliqjnlKjliLg8L3NwYW4+PHNwYW4+e3ByZXZpZXcuY291cG9uQ29kZUxpc3QubGVuZ3RofSDlvKA8L3NwYW4+PC9kaXY+fQogICAgICAgICAgICAgICAgICAgIDxkaXYgY2xhc3NOYW1lPSJmbGV4IGp1c3RpZnktYmV0d2VlbiBib3JkZXItdCBib3JkZXItWyNFRkU5RENdIHB0LTEiPgogICAgICAgICAgICAgICAgICAgICAgICA8c3BhbiBjbGFzc05hbWU9InRleHQtc2xhdGUtNTAwIj57Y2FsY2luZyA/ICfnrpfku7fkuK3igKYnIDogJ+WunuS7mCd9PC9zcGFuPgogICAgICAgICAgICAgICAgICAgICAgICA8c3BhbiBjbGFzc05hbWU9ImZvbnQtYm9sZCB0ZXh0LVsxNXB4XSB0ZXh0LVsjMEIxRjNBXSI+e2NhbGNpbmcgPyAn4oCmJyA6IGZtdE1vbmV5KGZpbmFsUHJpY2UgIT0gbnVsbCA/IGZpbmFsUHJpY2UgOiBsb2NhbFRvdGFsKX08L3NwYW4+CiAgICAgICAgICAgICAgICAgICAgPC9kaXY+CiAgICAgICAgICAgICAgICA8L2Rpdj4KCiAgICAgICAgICAgICAgICB7cGF5RXJyICYmIDxkaXYgY2xhc3NOYW1lPSJ0ZXh0LVsxMXB4XSB0ZXh0LXJlZC02MDAgYmctcmVkLTUwIHJvdW5kZWQtbGcgcC0yIGxlYWRpbmctcmVsYXhlZCB3aGl0ZXNwYWNlLXByZS13cmFwIGJyZWFrLWFsbCI+e3BheUVycn08L2Rpdj59CgogICAgICAgICAgICAgICAgey8qIOaUr+S7mCAvIOS6jOe7tOeggSAqL30KICAgICAgICAgICAgICAgIHtvcmRlciA/ICgKICAgICAgICAgICAgICAgICAgICA8ZGl2IGNsYXNzTmFtZT0iZmxleCBmbGV4LWNvbCBpdGVtcy1jZW50ZXIgZ2FwLTEuNSBwdC0xIj4KICAgICAgICAgICAgICAgICAgICAgICAgeyhwYXlVcmwgfHwgcXJVcmwpID8gPFBheVFyIHBheVVybD17cGF5VXJsfSBxckltYWdlVXJsPXtxclVybH0gc2l6ZT17MTUwfSAvPiA6IDxkaXYgY2xhc3NOYW1lPSJ0ZXh0LVsxMnB4XSB0ZXh0LWVtZXJhbGQtNjAwIGZvbnQtYm9sZCI+5LiL5Y2V5oiQ5YqfIPCfjok8L2Rpdj59CiAgICAgICAgICAgICAgICAgICAgICAgIHtvcmRlcklkICYmIDxkaXYgY2xhc3NOYW1lPSJ0ZXh0LVs5cHhdIHRleHQtc2xhdGUtNDAwIGZvbnQtbW9ubyI+I3tvcmRlcklkfTwvZGl2Pn0KICAgICAgICAgICAgICAgICAgICA8L2Rpdj4KICAgICAgICAgICAgICAgICkgOiAoCiAgICAgICAgICAgICAgICAgICAgPGJ1dHRvbgogICAgICAgICAgICAgICAgICAgICAgICBvbkNsaWNrPXtwYXl9CiAgICAgICAgICAgICAgICAgICAgICAgIGRpc2FibGVkPXtwYXlpbmcgfHwgY2FsY2luZyB8fCAhcHJvZHVjdExpc3QoKS5sZW5ndGh9CiAgICAgICAgICAgICAgICAgICAgICAgIGNsYXNzTmFtZT0idy1mdWxsIHB4LTMgcHktMi41IGJnLVsjMEIxRjNBXSB0ZXh0LXdoaXRlIHRleHQtWzEzcHhdIGZvbnQtYm9sZCByb3VuZGVkLXhsIGFjdGl2ZTpzY2FsZS05NSBkaXNhYmxlZDpvcGFjaXR5LTUwIj4KICAgICAgICAgICAgICAgICAgICAgICAge3BheWluZyA/ICfkuIvljZXkuK3igKYnIDogJ+S4i+WNleW5tuaUr+S7mCDihpInfQogICAgICAgICAgICAgICAgICAgIDwvYnV0dG9uPgogICAgICAgICAgICAgICAgKX0KICAgICAgICAgICAgPC9kaXY+CiAgICAgICAgPC9kaXY+CiAgICApOwp9OwoKZXhwb3J0IGRlZmF1bHQgTHVja2luQ2hlY2tvdXRDYXJkOwo=
+import React, { useEffect, useMemo, useState } from 'react';
+import { callLuckinTool } from '../../utils/luckinMcpClient';
+import { luckinItemEmoji } from '../../utils/luckinEmoji';
+import PayQr from '../luckin/PayQr';
+
+/**
+ * 瑞幸结账卡 (聊天点单模式的终点)
+ *
+ * 角色调完 previewOrder 后, 这张卡渲染在聊天里:
+ *  - 列出角色配好的商品 (含规格 additionDesc), 用户可二次改数量
+ *  - 改量后自动重新 previewOrder 刷新价格/优惠
+ *  - "下单并支付" → 前端调 createOrder → 直接出微信支付二维码 (扫码即付)
+ *
+ * 下单/付款只在用户点这张卡时发生, 角色不会自己 createOrder。
+ */
+
+interface Line {
+    productId: number | string;
+    skuCode: string;
+    name: string;
+    spec?: string;        // additionDesc, 如 "热 / 大杯"
+    image?: string;
+    unitPrice?: number;   // estimatePrice
+    qty: number;
+}
+
+const fmtMoney = (v: any): string => {
+    if (v == null) return '';
+    const n = typeof v === 'string' ? parseFloat(v) : v;
+    if (!isFinite(n)) return String(v);
+    return `¥${n.toFixed(2)}`;
+};
+
+const buildLines = (args: any, preview: any): Line[] => {
+    // 优先用 previewOrder 回显的 productInfoList (含名字/规格/到手价)
+    const info = Array.isArray(preview?.productInfoList) ? preview.productInfoList : null;
+    if (info && info.length) {
+        return info.map((p: any) => ({
+            productId: p.productId,
+            skuCode: p.skuCode,
+            name: p.name || '瑞幸商品',
+            spec: p.additionDesc || undefined,
+            image: p.breviaryPicUrl || p.bigPicUrl || undefined,
+            unitPrice: typeof p.estimatePrice === 'number' ? p.estimatePrice : (typeof p.estimatePrice === 'string' ? parseFloat(p.estimatePrice) : undefined),
+            qty: typeof p.amount === 'number' ? p.amount : 1,
+        }));
+    }
+    // 兜底: 用 previewOrder 入参 productList
+    const pl = Array.isArray(args?.productList) ? args.productList : [];
+    return pl.map((p: any) => ({
+        productId: p.productId,
+        skuCode: p.skuCode,
+        name: p.skuCode || '瑞幸商品',
+        qty: typeof p.amount === 'number' ? p.amount : 1,
+    }));
+};
+
+const LuckinCheckoutCard: React.FC<{
+    deptId: number | string;
+    args: any;            // previewOrder 入参 {deptId, productList}
+    preview: any;         // previewOrder 返回
+    loc?: { longitude?: number; latitude?: number };
+}> = ({ deptId, args, preview: initialPreview, loc }) => {
+    const [lines, setLines] = useState<Line[]>(() => buildLines(args, initialPreview));
+    const [preview, setPreview] = useState<any>(initialPreview);
+    const [calcing, setCalcing] = useState(false);
+    const [paying, setPaying] = useState(false);
+    const [payErr, setPayErr] = useState<string | null>(null);
+    const [order, setOrder] = useState<any>(null);
+
+    const productList = () => lines.filter(l => l.qty > 0).map(l => ({ amount: l.qty, productId: l.productId, skuCode: l.skuCode }));
+    const hash = useMemo(() => lines.map(l => `${l.skuCode}x${l.qty}`).sort().join('|'), [lines]);
+    const firstHash = useMemo(() => buildLines(args, initialPreview).map(l => `${l.skuCode}x${l.qty}`).sort().join('|'), []);
+
+    // 改了数量 → 重新算价 (初始那次不重复算)
+    useEffect(() => {
+        if (order) return;                 // 已下单, 锁定
+        if (hash === firstHash) return;    // 没改, 用初始 preview
+        if (!productList().length) { setPreview(null); return; }
+        let cancelled = false;
+        setCalcing(true);
+        callLuckinTool('previewOrder', { deptId, productList: productList() }).then((r: any) => {
+            if (cancelled) return;
+            if (r.success) setPreview(r.data);
+            setCalcing(false);
+        }).catch(() => { if (!cancelled) setCalcing(false); });
+        return () => { cancelled = true; };
+        // eslint-disable-next-line react-hooks/exhaustive-deps
+    }, [hash]);
+
+    const changeQty = (sku: string, d: number) => {
+        if (order) return;
+        setLines(prev => prev.map(l => l.skuCode === sku ? { ...l, qty: Math.max(0, Math.min(20, l.qty + d)) } : l).filter(l => l.qty > 0 || d > 0));
+    };
+
+    const pay = async () => {
+        if (paying || order) return;
+        if (!productList().length) { setPayErr('购物车空了'); return; }
+        setPaying(true); setPayErr(null);
+        try {
+            const a: any = { deptId, productList: productList() };
+            if (loc?.longitude != null) a.longitude = loc.longitude;
+            if (loc?.latitude != null) a.latitude = loc.latitude;
+            const coupons = preview?.couponCodeList;
+            if (Array.isArray(coupons) && coupons.length) a.couponCodeList = coupons;
+            const r = await callLuckinTool('createOrder', a);
+            if (!r.success) throw new Error(r.error || '下单失败');
+            setOrder(r.data);
+        } catch (e: any) {
+            setPayErr(e?.message || String(e));
+        } finally {
+            setPaying(false);
+        }
+    };
+
+    const finalPrice = preview?.discountPrice;
+    const original = preview?.totalInitialPrice;
+    const privilege = preview?.privilegeMoney;
+    const localTotal = lines.reduce((s, l) => s + (l.unitPrice || 0) * l.qty, 0);
+    const payUrl = order?.payOrderUrl;
+    const qrUrl = order?.payOrderQrCodeUrl;
+    const orderId = order?.orderIdStr || order?.orderId;
+
+    return (
+        <div className="w-72 rounded-2xl overflow-hidden border border-[#E6DFCF] shadow-sm bg-gradient-to-br from-[#FAF7F0] to-[#F3EFE6]">
+            <div className="flex items-center gap-2 px-3 py-2 bg-gradient-to-r from-[#0B1F3A] to-[#1E4D8C]">
+                <span className="text-lg">🦌</span>
+                <div className="flex-1 min-w-0">
+                    <div className="text-[11px] font-bold text-white">瑞幸 · 结账</div>
+                    <div className="text-[9px] text-white/70">{order ? '已下单, 扫码支付' : '确认下单内容, 可改数量'}</div>
+                </div>
+            </div>
+
+            <div className="p-3 space-y-2">
+                {/* 取餐门店 (来自 previewOrder.shopInfo) */}
+                {(() => {
+                    const shop = preview?.shopInfo;
+                    const shopName = shop?.deptName || (deptId != null ? `门店 ${deptId}` : undefined);
+                    if (!shopName) return null;
+                    return (
+                        <div className="bg-white/80 rounded-lg border border-[#EFE9DC] p-2 flex items-start gap-1.5">
+                            <span className="text-[13px] shrink-0">🏪</span>
+                            <div className="min-w-0">
+                                <div className="text-[12px] font-bold text-[#0B1F3A] truncate">{shopName} <span className="text-[9px] font-normal text-slate-400">到店自提</span></div>
+                                {shop?.address && <div className="text-[10px] text-slate-500 line-clamp-2 leading-snug">{shop.address}</div>}
+                            </div>
+                        </div>
+                    );
+                })()}
+
+                {/* 商品行 */}
+                <div className="bg-white/80 rounded-lg overflow-hidden border border-[#EFE9DC]">
+                    {lines.map((l) => (
+                        <div key={l.skuCode} className="flex items-center gap-2 p-2 border-b border-[#F4EFE4] last:border-b-0">
+                            <div className="w-10 h-10 rounded-md bg-[#FAF7F0] overflow-hidden shrink-0 flex items-center justify-center">
+                                {l.image ? <img src={l.image} alt="" className="w-full h-full object-cover" referrerPolicy="no-referrer" onError={(e: any) => { e.target.style.display = 'none'; }} /> : <span className="text-lg">{luckinItemEmoji(l.name)}</span>}
+                            </div>
+                            <div className="flex-1 min-w-0">
+                                <div className="font-bold text-[12px] text-slate-800 truncate">{l.name}</div>
+                                {l.spec && <div className="text-[9px] text-slate-400 truncate">{l.spec}</div>}
+                                {l.unitPrice != null && <div className="text-[10px] text-[#16386F]">{fmtMoney(l.unitPrice)}</div>}
+                            </div>
+                            {order ? (
+                                <div className="text-[12px] font-bold text-[#16386F] shrink-0">×{l.qty}</div>
+                            ) : (
+                                <div className="flex items-center bg-white border border-[#DDD3BC] rounded-md overflow-hidden shrink-0">
+                                    <button onClick={() => changeQty(l.skuCode, -1)} className="w-6 h-6 flex items-center justify-center text-[14px] font-bold text-[#16386F] active:bg-[#F2ECDD]">−</button>
+                                    <span className="min-w-[20px] text-center text-[11px] font-bold text-slate-700">{l.qty}</span>
+                                    <button onClick={() => changeQty(l.skuCode, 1)} className="w-6 h-6 flex items-center justify-center text-[14px] font-bold text-[#16386F] active:bg-[#F2ECDD]">+</button>
+                                </div>
+                            )}
+                        </div>
+                    ))}
+                </div>
+
+                {/* 费用 */}
+                <div className="space-y-1 text-[12px] text-slate-700">
+                    {original != null && <div className="flex justify-between text-[10px] text-slate-400"><span>商品总价（面价）</span><span>{fmtMoney(original)}</span></div>}
+                    {privilege != null && Number(privilege) > 0 && <div className="flex justify-between text-emerald-600"><span>已优惠</span><span>-{fmtMoney(privilege)}</span></div>}
+                    {Array.isArray(preview?.couponCodeList) && preview.couponCodeList.length > 0 && <div className="flex justify-between text-[11px] text-[#16386F]"><span>已自动用券</span><span>{preview.couponCodeList.length} 张</span></div>}
+                    <div className="flex justify-between border-t border-[#EFE9DC] pt-1">
+                        <span className="text-slate-500">{calcing ? '算价中…' : '实付'}</span>
+                        <span className="font-bold text-[15px] text-[#0B1F3A]">{calcing ? '…' : fmtMoney(finalPrice != null ? finalPrice : localTotal)}</span>
+                    </div>
+                </div>
+
+                {payErr && <div className="text-[11px] text-red-600 bg-red-50 rounded-lg p-2 leading-relaxed whitespace-pre-wrap break-all">{payErr}</div>}
+
+                {/* 支付 / 二维码 */}
+                {order ? (
+                    <div className="flex flex-col items-center gap-1.5 pt-1">
+                        {(payUrl || qrUrl) ? <PayQr payUrl={payUrl} qrImageUrl={qrUrl} size={150} /> : <div className="text-[12px] text-emerald-600 font-bold">下单成功 🎉</div>}
+                        {orderId && <div className="text-[9px] text-slate-400 font-mono">#{orderId}</div>}
+                    </div>
+                ) : (
+                    <button
+                        onClick={pay}
+                        disabled={paying || calcing || !productList().length}
+                        className="w-full px-3 py-2.5 bg-[#0B1F3A] text-white text-[13px] font-bold rounded-xl active:scale-95 disabled:opacity-50">
+                        {paying ? '下单中…' : '下单并支付 →'}
+                    </button>
+                )}
+            </div>
+        </div>
+    );
+};
+
+export default LuckinCheckoutCard;

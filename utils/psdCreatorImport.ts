@@ -1,1 +1,205 @@
-LyoqCiAqIOaNj+S6uuWZqCBQU0Qg5pW05om55a+85YWl77yI5byA5Y+R5qih5byP77yJ44CCCiAqCiAqIOeUu+W4iOWcqOS4gOS4qiBQU0Qg6YeM5oyJIumhtuWxguWbvuWxgue7hCA9IOS4gOS4quexu+ebru+8jOe7hOWGheavj+S4quWbvuWxgiA9IOS4gOS4qumDqOS7tiLnu4Tnu4fntKDmnZDvvIwKICog55u05o6l5oqK5pW05LiqIFBTRCDkuKLov5vmnaXvvIzlhY3ljrvpgJDlvKDlr7zlh7ogLyDph43lkb3lkI0gLyDkuIrkvKDnmoTmtYHnqIvjgILnuqblrprvvJoKICoKICogLSDnlLvluIPpobvkuI7mjY/kurrlmajntKDmnZDlkIzop4TmoLzvvIg0NzLDlzQ3MiDmraPmlrnlvaLvvJvov4flpKfkvJroh6rliqjnvKnliLAgOTQ0IOS7peWGhe+8ieOAggogKiAgIOavj+S4quWbvuWxguaMieWFtuWcqOeUu+W4g+S4iueahOS9jee9ruWvvOWHuu+8jOmUmueCueWkqeeEtuWvuem9kOOAggogKiAtICoq6aG25bGC5Zu+5bGC57uEID0g5LiA5Liq57G755uuKirvvIjlpoIi55y8552bIuaWh+S7tuWkue+8ie+8jOe7hOWQjee7meWHuuexu+ebru+8mwogKiAgICoq57uE5YaF5q+P5Liq5Zu+5bGCID0g5LiA5Liq54us56uL6YOo5Lu2KirvvIjlpoLnnLznnZvnu4Tph4wi5p2P55y8IiLlnIbnnLwiIueLkOeLuOecvCLlkITkuIDkuKrlm77lsYLvvIzlkITmiJDkuIDkuKrpg6jku7bvvInvvIwKICogICDlm77lsYLlkI0gPSDpg6jku7bmmL7npLrlkI3vvIznsbvnm67nu6fmib/miYDlnKjnu4TjgIIKICogICDnu4TlhoXoi6XmnInlrZDlm77lsYLnu4TvvIzliJnor6XlrZDnu4TnmoTlm77lsYLlkIjlubbmiJDkuIDkuKrpg6jku7bvvIjlsJHmlbDpnIDopoHlpJrlm77lsYLnmoTpg6jku7bnlKjlvpfkuIrvvInjgIIKICogLSDpobblsYLmlaPlm77lsYLvvIjkuI3lnKjnu4Tph4zvvIk9IOS4gOS4qumDqOS7tu+8jOexu+ebruS7juWug+iHquW3seeahOWQjeWtl+eMnOOAggogKiAtIOe7hOWQjSAvIOWbvuWxguWQjemHjOeahOexu+ebruWIq+WQjeaUr+aMgeS4reaWh+aIluiLseaWhyBrZXnvvIzlpoIgYOWJjeWPkWDjgIFgZWFyaGFpcmDjgIFg5ZCO5Y+RMWDjgIIKICogICDor4bliKvkuI3lh7rnsbvnm67nmoTvvIzlnKjlvIDlj5HpnaLmnb/ph4zmiYvliqjpgInjgIIKICogLSDlj6/mjaLoibLmoIforrDvvJrlkI3lrZfluKYgYCPoibJgIC8gYCN0aW50YCDlvLrliLblj6/mjaLoibLvvIzluKYgYCPljp/oibJgIC8gYCNub3RpbnRgCiAqICAg5by65Yi25LiN5Y+v5o2i6Imy77yb5LiN5qCH6K6w5pe25aS05Y+R5Zub57G7ICsg55y8552b6buY6K6k5Y+v5o2i6Imy77yM5YW25L2Z6buY6K6k5LiN5Y+v44CC6YOo5Lu255qE6Ieq6Zi05b2xL+mrmOWFiQogKiAgIOebtOaOpeeUu+WcqOWbvuWxgumHjOWNs+WPr+KAlOKAlOaNouiJsuaMieWDj+e0oOaYjuW6pumHjeS4iuiJsu+8jOaYjuaal+WFs+ezu+S8muS/neeVmeOAggogKgogKiDms6jmhI/vvJrkuI3lho3mnIki5q2j54mH5Y+g5bqVID0g5oqV5b2x5bGCIumCo+Wll++8iOeugOWMlu+8muS4gOS4quWbvuWxguWwseaYr+S4gOS4qumDqOS7tu+8jOayoeacieWNleeLrOeahOmYtOW9seWxgu+8ieOAggogKi8KCmV4cG9ydCBpbnRlcmZhY2UgUGFyc2VkUHNkUGFydCB7CiAgICAvKiog54yc5Ye65p2l55qE57G755uuIGtlee+8m+ivhuWIq+S4jeWHuuS4uiBudWxs77yM55Sx55So5oi35Zyo6Z2i5p2/6YeM5oyH5a6aICovCiAgICBjYXRlZ29yeUtleTogc3RyaW5nIHwgbnVsbDsKICAgIG5hbWU6IHN0cmluZzsKICAgIHRpbnRhYmxlOiBib29sZWFuOwogICAgLyoqIOmDqOS7tuacrOS9k++8iOmAj+aYjiBQTkcgZGF0YSBVUkzvvIznlLvluIPlsLrlr7jvvIkgKi8KICAgIHNyYzogc3RyaW5nOwogICAgLyoqIEBkZXByZWNhdGVkIOaXp+OAjOato+eJh+WPoOW6lT3mipXlvbHlsYLjgI3mnLrliLbnmoTkuqfnianvvIzmlrDlr7zlhaXkuI3lho3kuqflh7rvvJvlrZfmrrXkv53nlZnku4XkuLrkuIvmuLjnsbvlnovlhbzlrrnjgIIgKi8KICAgIHNoYWRvd1NyYz86IHN0cmluZzsKICAgIHdhcm5pbmdzOiBzdHJpbmdbXTsKfQoKZXhwb3J0IGludGVyZmFjZSBQc2RJbXBvcnRSZXN1bHQgewogICAgcGFydHM6IFBhcnNlZFBzZFBhcnRbXTsKICAgIC8qKiDlhajlsYDmj5DnpLrvvIjnlLvluIPlsLrlr7jkuI3lr7nkuYvnsbvvvIkgKi8KICAgIHdhcm5pbmdzOiBzdHJpbmdbXTsKICAgIGRvY1dpZHRoOiBudW1iZXI7CiAgICBkb2NIZWlnaHQ6IG51bWJlcjsKfQoKLyoqIOexu+ebruWIq+WQjSDihpIga2V577yI5LiOIGNoYXJhY3Rlcl9jcmVhdG9yLmh0bWwg55qEIFBBUlRTIGtleSDlr7nlupTvvIkgKi8KY29uc3QgQ0FURUdPUllfQUxJQVNFUzogW3N0cmluZywgc3RyaW5nW11dW10gPSBbCiAgICBbJ2Zyb250aGFpcicsIFsnZnJvbnRoYWlyJywgJ+WJjeWPkScsICfliY3nmbwnLCAn5YiY5rW3JywgJ+eAj+a1tyddXSwKICAgIFsnZWFyaGFpcicsIFsnZWFyaGFpcicsICfogLPlj5EnLCAn6ICz55m8JywgJ+msk+WPkScsICfprJPpq64nXV0sCiAgICBbJ2JhY2sxJywgWydiYWNrMScsICflkI7lj5ExJywgJ+W+jOeZvDEnLCAn5ZCO5Y+R5LiAJ11dLAogICAgWydiYWNrMicsIFsnYmFjazInLCAn5ZCO5Y+RMicsICflvoznmbwyJywgJ+WQjuWPkeS6jCddXSwKICAgIFsnc2tpbicsIFsnc2tpbicsICfogqToibInLCAn55qu6IKkJywgJ+i6q+S9kycsICdib2R5J11dLAogICAgWydleWVzJywgWydleWVzJywgJ+ecvOedmycsICfnnLwnXV0sCiAgICBbJ21vdXRoJywgWydtb3V0aCcsICflmLTlt7QnLCAn5Zi0J11dLAogICAgWydvdXRmaXQnLCBbJ291dGZpdCcsICfooaPmnI0nLCAn5pyN6KOFJ11dLAogICAgWydvdXRlcicsIFsnb3V0ZXInLCAn5aSW5aWXJ11dLAogICAgWydmYWNlbWFyaycsIFsnZmFjZW1hcmsnLCAn6Z2i57q5JywgJ+iEuOe6uScsICfoha7nuqInXV0sCiAgICBbJ2RlY29yJywgWydkZWNvcicsICfphY3ppbAnLCAn6aWw5ZOBJywgJ+ijhemlsCddXSwKXTsKCi8vIOS4jeW4piAj6ImyLyPljp/oibIg5qCH6K6w5pe277yM6L+Z5Lqb57G755uu6buY6K6k44CM5Y+v5o2i6Imy44CN77ya5aS05Y+R5Zub57G7ICsg55y8552b44CC5YW25L2Z6buY6K6k5LiN5Y+v5o2i6Imy44CCCmNvbnN0IERFRkFVTFRfVElOVEFCTEVfS0VZUyA9IG5ldyBTZXQoWydmcm9udGhhaXInLCAnZWFyaGFpcicsICdiYWNrMScsICdiYWNrMicsICdleWVzJ10pOwoKLyoqIOi+k+WHuuS4iumZkO+8mui2hei/h+WwseaVtOS9k+e8qeWIsCA0NzLvvIjmlbDmja7lrZggSW5kZXhlZERC77yM5Yir5aGe5Yeg5Y2D5YOP57Sg55qEIGRhdGEgVVJM77yJICovCmNvbnN0IE1BWF9PVVQgPSA5NDQ7CmNvbnN0IFRBUkdFVCA9IDQ3MjsKCi8qKiDku47nu4TlkI3op6PmnpAg57G755uuIC8g5pi+56S65ZCNIC8gdGludGFibGUg5qCH6K6wICovCmV4cG9ydCBmdW5jdGlvbiBwYXJzZUxheWVyTmFtZShyYXc6IHN0cmluZywgaGFzQ2F0ZWdvcnkgPSB0cnVlKTogeyBjYXRlZ29yeUtleTogc3RyaW5nIHwgbnVsbDsgbmFtZTogc3RyaW5nOyB0aW50YWJsZTogYm9vbGVhbiB8IG51bGwgfSB7CiAgICBsZXQgbmFtZSA9IChyYXcgfHwgJycpLnRyaW0oKTsKICAgIGxldCB0aW50YWJsZTogYm9vbGVhbiB8IG51bGwgPSBudWxsOwogICAgLy8gdGludCDmoIforrDvvIjlhajop5LkupXlj7fkuZ/orqTvvJvlhYjljLnphY3lkKblrprlvaLvvIzlhY3lvpcgI25vdGludCDooqsgdGludCDmiqLotbDvvIkKICAgIG5hbWUgPSBuYW1lLnJlcGxhY2UoL1sj77yDXVxzKijljp/oibJ8bm90aW50KS9pLCAoKSA9PiB7IHRpbnRhYmxlID0gZmFsc2U7IHJldHVybiAnJzsgfSkudHJpbSgpOwogICAgaWYgKHRpbnRhYmxlID09PSBudWxsKSB7CiAgICAgICAgbmFtZSA9IG5hbWUucmVwbGFjZSgvWyPvvINdXHMqKOiJsnx0aW50KS9pLCAoKSA9PiB7IHRpbnRhYmxlID0gdHJ1ZTsgcmV0dXJuICcnOyB9KS50cmltKCk7CiAgICB9CiAgICBpZiAoIWhhc0NhdGVnb3J5KSByZXR1cm4geyBjYXRlZ29yeUtleTogbnVsbCwgbmFtZSwgdGludGFibGUgfTsKCiAgICBjb25zdCBsb3dlciA9IG5hbWUudG9Mb3dlckNhc2UoKTsKICAgIGxldCBtYXRjaGVkOiB7IGtleTogc3RyaW5nOyBhbGlhczogc3RyaW5nIH0gfCBudWxsID0gbnVsbDsKICAgIGZvciAoY29uc3QgW2tleSwgYWxpYXNlc10gb2YgQ0FURUdPUllfQUxJQVNFUykgewogICAgICAgIGZvciAoY29uc3QgYWxpYXMgb2YgYWxpYXNlcykgewogICAgICAgICAgICBpZiAobG93ZXIuc3RhcnRzV2l0aChhbGlhcy50b0xvd2VyQ2FzZSgpKSAmJiAoIW1hdGNoZWQgfHwgYWxpYXMubGVuZ3RoID4gbWF0Y2hlZC5hbGlhcy5sZW5ndGgpKSB7CiAgICAgICAgICAgICAgICBtYXRjaGVkID0geyBrZXksIGFsaWFzIH07CiAgICAgICAgICAgIH0KICAgICAgICB9CiAgICB9CiAgICBpZiAoIW1hdGNoZWQpIHJldHVybiB7IGNhdGVnb3J5S2V5OiBudWxsLCBuYW1lLCB0aW50YWJsZSB9OwogICAgY29uc3QgcmVzdCA9IG5hbWUuc2xpY2UobWF0Y2hlZC5hbGlhcy5sZW5ndGgpLnJlcGxhY2UoL15bXHNcLV/Ct+OAgTrvvJov772cfF0rLywgJycpLnRyaW0oKTsKICAgIHJldHVybiB7IGNhdGVnb3J5S2V5OiBtYXRjaGVkLmtleSwgbmFtZTogcmVzdCB8fCBuYW1lLCB0aW50YWJsZSB9Owp9CgpmdW5jdGlvbiBtYWtlQ2FudmFzKHc6IG51bWJlciwgaDogbnVtYmVyKTogSFRNTENhbnZhc0VsZW1lbnQgewogICAgY29uc3QgYyA9IGRvY3VtZW50LmNyZWF0ZUVsZW1lbnQoJ2NhbnZhcycpOwogICAgYy53aWR0aCA9IHc7IGMuaGVpZ2h0ID0gaDsKICAgIHJldHVybiBjOwp9CgpmdW5jdGlvbiBoYXNJbmsoY2FudmFzOiBIVE1MQ2FudmFzRWxlbWVudCk6IGJvb2xlYW4gewogICAgY29uc3QgcHggPSBjYW52YXMuZ2V0Q29udGV4dCgnMmQnKSEuZ2V0SW1hZ2VEYXRhKDAsIDAsIGNhbnZhcy53aWR0aCwgY2FudmFzLmhlaWdodCkuZGF0YTsKICAgIGZvciAobGV0IGkgPSAzOyBpIDwgcHgubGVuZ3RoOyBpICs9IDQpIGlmIChweFtpXSA+IDApIHJldHVybiB0cnVlOwogICAgcmV0dXJuIGZhbHNlOwp9CgpmdW5jdGlvbiBleHBvcnREYXRhVXJsKGNhbnZhczogSFRNTENhbnZhc0VsZW1lbnQsIHNjYWxlOiBudW1iZXIpOiBzdHJpbmcgewogICAgaWYgKHNjYWxlID49IDEpIHJldHVybiBjYW52YXMudG9EYXRhVVJMKCdpbWFnZS9wbmcnKTsKICAgIGNvbnN0IG91dCA9IG1ha2VDYW52YXMoTWF0aC5yb3VuZChjYW52YXMud2lkdGggKiBzY2FsZSksIE1hdGgucm91bmQoY2FudmFzLmhlaWdodCAqIHNjYWxlKSk7CiAgICBjb25zdCBjdHggPSBvdXQuZ2V0Q29udGV4dCgnMmQnKSE7CiAgICBjdHguaW1hZ2VTbW9vdGhpbmdFbmFibGVkID0gdHJ1ZTsKICAgIGN0eC5pbWFnZVNtb290aGluZ1F1YWxpdHkgPSAnaGlnaCc7CiAgICBjdHguZHJhd0ltYWdlKGNhbnZhcywgMCwgMCwgb3V0LndpZHRoLCBvdXQuaGVpZ2h0KTsKICAgIHJldHVybiBvdXQudG9EYXRhVVJMKCdpbWFnZS9wbmcnKTsKfQoKLyoqIOa3seW6puS8mOWFiOWxleW5s+S4gOS4que7hOeahOWPtuWtkOWbvuWxgu+8iGFnLXBzZCBjaGlsZHJlbiDku47lupXliLDpobbvvIkgKi8KZnVuY3Rpb24gZmxhdHRlbkxlYXZlcyhub2RlOiBhbnksIGFjYzogYW55W10gPSBbXSk6IGFueVtdIHsKICAgIGZvciAoY29uc3QgY2hpbGQgb2Ygbm9kZS5jaGlsZHJlbiB8fCBbXSkgewogICAgICAgIGlmIChjaGlsZC5jaGlsZHJlbikgZmxhdHRlbkxlYXZlcyhjaGlsZCwgYWNjKTsKICAgICAgICBlbHNlIGlmICghY2hpbGQuaGlkZGVuKSBhY2MucHVzaChjaGlsZCk7CiAgICB9CiAgICByZXR1cm4gYWNjOwp9CgovKiog5oqK5LiA57uE5Y+25a2Q5Zu+5bGC5oyJ55S75biD5L2N572u5q2j5bi45ZCI5oiQ5Yiw5LiA5byg55S75biD77yI5LiN5pSv5oyB55qE5re35ZCI5qih5byP5oyJ5pmu6YCa5aSE55CG5bm25ZGK6K2m77yJ44CCICovCmZ1bmN0aW9uIGNvbXBvc2l0ZUxlYXZlcyhsZWF2ZXM6IGFueVtdLCBXOiBudW1iZXIsIEg6IG51bWJlciwgd2FybmluZ3M6IHN0cmluZ1tdKTogSFRNTENhbnZhc0VsZW1lbnQgewogICAgY29uc3QgY2FudmFzID0gbWFrZUNhbnZhcyhXLCBIKTsKICAgIGNvbnN0IGN0eCA9IGNhbnZhcy5nZXRDb250ZXh0KCcyZCcpITsKICAgIGZvciAoY29uc3QgbGF5ZXIgb2YgbGVhdmVzKSB7CiAgICAgICAgaWYgKCFsYXllci5jYW52YXMpIGNvbnRpbnVlOwogICAgICAgIGNvbnN0IGJtID0gbGF5ZXIuYmxlbmRNb2RlOwogICAgICAgIGlmIChibSAmJiBibSAhPT0gJ25vcm1hbCcgJiYgYm0gIT09ICdwYXNzIHRocm91Z2gnKSB7CiAgICAgICAgICAgIHdhcm5pbmdzLnB1c2goYOWbvuWxguOAjCR7bGF5ZXIubmFtZSB8fCAnPyd944CN5re35ZCI5qih5byPICR7Ym19IOS4jeaUr+aMge+8jOaMieaZrumAmuWkhOeQhmApOwogICAgICAgIH0KICAgICAgICBjdHguZ2xvYmFsQWxwaGEgPSB0eXBlb2YgbGF5ZXIub3BhY2l0eSA9PT0gJ251bWJlcicgPyBsYXllci5vcGFjaXR5IDogMTsKICAgICAgICBjdHguZHJhd0ltYWdlKGxheWVyLmNhbnZhcywgbGF5ZXIubGVmdCB8fCAwLCBsYXllci50b3AgfHwgMCk7CiAgICAgICAgY3R4Lmdsb2JhbEFscGhhID0gMTsKICAgIH0KICAgIHJldHVybiBjYW52YXM7Cn0KCmV4cG9ydCBhc3luYyBmdW5jdGlvbiBwYXJzZUNyZWF0b3JQc2QoYnVmZmVyOiBBcnJheUJ1ZmZlcik6IFByb21pc2U8UHNkSW1wb3J0UmVzdWx0PiB7CiAgICBjb25zdCB7IHJlYWRQc2QgfSA9IGF3YWl0IGltcG9ydCgnYWctcHNkJyk7CiAgICBjb25zdCBwc2QgPSByZWFkUHNkKGJ1ZmZlciwgeyBza2lwVGh1bWJuYWlsOiB0cnVlLCBza2lwQ29tcG9zaXRlSW1hZ2VEYXRhOiB0cnVlIH0pOwogICAgY29uc3QgVyA9IHBzZC53aWR0aCwgSCA9IHBzZC5oZWlnaHQ7CiAgICBjb25zdCB3YXJuaW5nczogc3RyaW5nW10gPSBbXTsKICAgIGlmIChXICE9PSBIKSB3YXJuaW5ncy5wdXNoKGDnlLvluIMgJHtXfcOXJHtIfSDkuI3mmK/mraPmlrnlvaLvvIzkvJrlkoznjrDmnInntKDmnZDvvIg0NzLDlzQ3Mu+8iemUmeS9jWApOwogICAgZWxzZSBpZiAoVyAhPT0gVEFSR0VUKSB3YXJuaW5ncy5wdXNoKGDnlLvluIMgJHtXfcOXJHtIfe+8iOeOsOaciee0oOadkOaYryA0NzLDlzQ3Mu+8jOaMieavlOS+i+e8qeaUvuWvuem9kO+8jOmUmueCueS4gOiHtOWNs+WPr++8iWApOwogICAgY29uc3Qgc2NhbGUgPSBXID4gTUFYX09VVCA/IFRBUkdFVCAvIFcgOiAxOwoKICAgIGNvbnN0IHBhcnRzOiBQYXJzZWRQc2RQYXJ0W10gPSBbXTsKICAgIC8vIOmhtuWxgue7hCA9IOexu+ebru+8m+e7hOWGheavj+S4quWbvuWxgu+8iOaIluWtkOe7hO+8iT0g5LiA5Liq6YOo5Lu244CC6aG25bGC5pWj5Zu+5bGCID0g5LiA5Liq6YOo5Lu277yI57G755uu5LuO6Ieq5bex5ZCN5a2X54yc77yJ44CCCiAgICBmb3IgKGNvbnN0IHRvcCBvZiBwc2QuY2hpbGRyZW4gfHwgW10pIHsKICAgICAgICBpZiAodG9wLmhpZGRlbikgY29udGludWU7CgogICAgICAgIGlmICh0b3AuY2hpbGRyZW4pIHsKICAgICAgICAgICAgLy8g4oCU4oCUIOmhtuWxgue7hCA9IOexu+ebriDigJTigJQKICAgICAgICAgICAgY29uc3QgZ3JvdXBQYXJzZWQgPSBwYXJzZUxheWVyTmFtZSh0b3AubmFtZSB8fCAnJyk7IC8vIOWPluexu+ebriArIOWPr+iDveeahOe7hOe6pyB0aW50CiAgICAgICAgICAgIGNvbnN0IGNhdEtleSA9IGdyb3VwUGFyc2VkLmNhdGVnb3J5S2V5OwogICAgICAgICAgICBpZiAoIWNhdEtleSkgewogICAgICAgICAgICAgICAgd2FybmluZ3MucHVzaChg57uE44CMJHt0b3AubmFtZSB8fCAnPyd944CN5rKh6K+G5Yir5Ye657G755uu77yM57uE5YaF6YOo5Lu26ZyA5Zyo6Z2i5p2/5omL5Yqo6YCJ57G755uuYCk7CiAgICAgICAgICAgIH0KICAgICAgICAgICAgbGV0IG1hZGUgPSAwOwogICAgICAgICAgICBmb3IgKGNvbnN0IGNoaWxkIG9mIHRvcC5jaGlsZHJlbikgewogICAgICAgICAgICAgICAgaWYgKGNoaWxkLmhpZGRlbikgY29udGludWU7CiAgICAgICAgICAgICAgICAvLyDlrZDnuqfvvJrlm77lsYIgPSDkuIDkuKrpg6jku7bvvJvlrZDnu4QgPSDlkIjlubblhbblm77lsYLmiJDkuIDkuKrpg6jku7YKICAgICAgICAgICAgICAgIGNvbnN0IGxlYXZlcyA9IGNoaWxkLmNoaWxkcmVuID8gZmxhdHRlbkxlYXZlcyhjaGlsZCkgOiAoY2hpbGQuY2FudmFzID8gW2NoaWxkXSA6IFtdKTsKICAgICAgICAgICAgICAgIGlmICghbGVhdmVzLmxlbmd0aCkgY29udGludWU7CiAgICAgICAgICAgICAgICBjb25zdCBwYXJ0V2FybmluZ3M6IHN0cmluZ1tdID0gW107CiAgICAgICAgICAgICAgICBjb25zdCBjYW52YXMgPSBjb21wb3NpdGVMZWF2ZXMobGVhdmVzLCBXLCBILCBwYXJ0V2FybmluZ3MpOwogICAgICAgICAgICAgICAgaWYgKCFoYXNJbmsoY2FudmFzKSkgY29udGludWU7CiAgICAgICAgICAgICAgICAvLyDpg6jku7blkI0gKyB0aW50IOadpeiHquWtkOe6p+WQje+8iOexu+ebruW3sueUsee7hOe7meWHuu+8jOaVhSBoYXNDYXRlZ29yeT1mYWxzZSDlj6rlj5blkI3lrZcv5qCH6K6w77yJCiAgICAgICAgICAgICAgICBjb25zdCBjaGlsZFBhcnNlZCA9IHBhcnNlTGF5ZXJOYW1lKGNoaWxkLm5hbWUgfHwgJycsIGZhbHNlKTsKICAgICAgICAgICAgICAgIGNvbnN0IHRpbnRhYmxlID0gY2hpbGRQYXJzZWQudGludGFibGUgIT09IG51bGwKICAgICAgICAgICAgICAgICAgICA/IGNoaWxkUGFyc2VkLnRpbnRhYmxlCiAgICAgICAgICAgICAgICAgICAgOiAoZ3JvdXBQYXJzZWQudGludGFibGUgIT09IG51bGwgPyBncm91cFBhcnNlZC50aW50YWJsZSA6IERFRkFVTFRfVElOVEFCTEVfS0VZUy5oYXMoY2F0S2V5IHx8ICcnKSk7CiAgICAgICAgICAgICAgICBwYXJ0cy5wdXNoKHsKICAgICAgICAgICAgICAgICAgICBjYXRlZ29yeUtleTogY2F0S2V5LAogICAgICAgICAgICAgICAgICAgIG5hbWU6IGNoaWxkUGFyc2VkLm5hbWUgfHwgY2hpbGQubmFtZSB8fCAnJywKICAgICAgICAgICAgICAgICAgICB0aW50YWJsZSwKICAgICAgICAgICAgICAgICAgICBzcmM6IGV4cG9ydERhdGFVcmwoY2FudmFzLCBzY2FsZSksCiAgICAgICAgICAgICAgICAgICAgd2FybmluZ3M6IHBhcnRXYXJuaW5ncywKICAgICAgICAgICAgICAgIH0pOwogICAgICAgICAgICAgICAgbWFkZSsrOwogICAgICAgICAgICB9CiAgICAgICAgICAgIGlmICghbWFkZSkgd2FybmluZ3MucHVzaChg57uE44CMJHt0b3AubmFtZSB8fCAnPyd944CN6YeM5rKh5pyJ5Y+v55So5Zu+5bGCYCk7CiAgICAgICAgfSBlbHNlIHsKICAgICAgICAgICAgLy8g4oCU4oCUIOmhtuWxguaVo+WbvuWxgiA9IOS4gOS4qumDqOS7tu+8iOexu+ebruS7juiHquW3seWQjeWtl+eMnO+8ieKAlOKAlAogICAgICAgICAgICBpZiAoIXRvcC5jYW52YXMpIGNvbnRpbnVlOwogICAgICAgICAgICBjb25zdCBwYXJ0V2FybmluZ3M6IHN0cmluZ1tdID0gW107CiAgICAgICAgICAgIGNvbnN0IGNhbnZhcyA9IGNvbXBvc2l0ZUxlYXZlcyhbdG9wXSwgVywgSCwgcGFydFdhcm5pbmdzKTsKICAgICAgICAgICAgaWYgKCFoYXNJbmsoY2FudmFzKSkgewogICAgICAgICAgICAgICAgd2FybmluZ3MucHVzaChg44CMJHt0b3AubmFtZSB8fCAnPyd944CN5piv56m65Zu+5bGC77yM6Lez6L+HYCk7CiAgICAgICAgICAgICAgICBjb250aW51ZTsKICAgICAgICAgICAgfQogICAgICAgICAgICBjb25zdCBwYXJzZWQgPSBwYXJzZUxheWVyTmFtZSh0b3AubmFtZSB8fCAnJyk7CiAgICAgICAgICAgIHBhcnRzLnB1c2goewogICAgICAgICAgICAgICAgY2F0ZWdvcnlLZXk6IHBhcnNlZC5jYXRlZ29yeUtleSwKICAgICAgICAgICAgICAgIG5hbWU6IHBhcnNlZC5uYW1lLAogICAgICAgICAgICAgICAgdGludGFibGU6IHBhcnNlZC50aW50YWJsZSAhPT0gbnVsbCA/IHBhcnNlZC50aW50YWJsZSA6IERFRkFVTFRfVElOVEFCTEVfS0VZUy5oYXMocGFyc2VkLmNhdGVnb3J5S2V5IHx8ICcnKSwKICAgICAgICAgICAgICAgIHNyYzogZXhwb3J0RGF0YVVybChjYW52YXMsIHNjYWxlKSwKICAgICAgICAgICAgICAgIHdhcm5pbmdzOiBwYXJ0V2FybmluZ3MsCiAgICAgICAgICAgIH0pOwogICAgICAgIH0KICAgIH0KCiAgICBpZiAoIXBhcnRzLmxlbmd0aCkgd2FybmluZ3MucHVzaCgn5rKh6Kej5p6Q5Ye65Lu75L2V6YOo5Lu277ya56Gu6K6k57uT5p6E5pivIumhtuWxgue7hD3nsbvnm67vvIznu4TlhoXmr4/kuKrlm77lsYI95LiA5Liq6YOo5Lu2IicpOwogICAgcmV0dXJuIHsgcGFydHMsIHdhcm5pbmdzLCBkb2NXaWR0aDogVywgZG9jSGVpZ2h0OiBIIH07Cn0K
+/**
+ * 捏人器 PSD 整批导入（开发模式）。
+ *
+ * 画师在一个 PSD 里按"顶层图层组 = 一个类目，组内每个图层 = 一个部件"组织素材，
+ * 直接把整个 PSD 丢进来，免去逐张导出 / 重命名 / 上传的流程。约定：
+ *
+ * - 画布须与捏人器素材同规格（472×472 正方形；过大会自动缩到 944 以内）。
+ *   每个图层按其在画布上的位置导出，锚点天然对齐。
+ * - **顶层图层组 = 一个类目**（如"眼睛"文件夹），组名给出类目；
+ *   **组内每个图层 = 一个独立部件**（如眼睛组里"杏眼""圆眼""狐狸眼"各一个图层，各成一个部件），
+ *   图层名 = 部件显示名，类目继承所在组。
+ *   组内若有子图层组，则该子组的图层合并成一个部件（少数需要多图层的部件用得上）。
+ * - 顶层散图层（不在组里）= 一个部件，类目从它自己的名字猜。
+ * - 组名 / 图层名里的类目别名支持中文或英文 key，如 `前发`、`earhair`、`后发1`。
+ *   识别不出类目的，在开发面板里手动选。
+ * - 可换色标记：名字带 `#色` / `#tint` 强制可换色，带 `#原色` / `#notint`
+ *   强制不可换色；不标记时头发四类 + 眼睛默认可换色，其余默认不可。部件的自阴影/高光
+ *   直接画在图层里即可——换色按像素明度重上色，明暗关系会保留。
+ *
+ * 注意：不再有"正片叠底 = 投影层"那套（简化：一个图层就是一个部件，没有单独的阴影层）。
+ */
+
+export interface ParsedPsdPart {
+    /** 猜出来的类目 key；识别不出为 null，由用户在面板里指定 */
+    categoryKey: string | null;
+    name: string;
+    tintable: boolean;
+    /** 部件本体（透明 PNG data URL，画布尺寸） */
+    src: string;
+    /** @deprecated 旧「正片叠底=投影层」机制的产物，新导入不再产出；字段保留仅为下游类型兼容。 */
+    shadowSrc?: string;
+    warnings: string[];
+}
+
+export interface PsdImportResult {
+    parts: ParsedPsdPart[];
+    /** 全局提示（画布尺寸不对之类） */
+    warnings: string[];
+    docWidth: number;
+    docHeight: number;
+}
+
+/** 类目别名 → key（与 character_creator.html 的 PARTS key 对应） */
+const CATEGORY_ALIASES: [string, string[]][] = [
+    ['fronthair', ['fronthair', '前发', '前發', '刘海', '瀏海']],
+    ['earhair', ['earhair', '耳发', '耳發', '鬓发', '鬓髮']],
+    ['back1', ['back1', '后发1', '後發1', '后发一']],
+    ['back2', ['back2', '后发2', '後發2', '后发二']],
+    ['skin', ['skin', '肤色', '皮肤', '身体', 'body']],
+    ['eyes', ['eyes', '眼睛', '眼']],
+    ['mouth', ['mouth', '嘴巴', '嘴']],
+    ['outfit', ['outfit', '衣服', '服装']],
+    ['outer', ['outer', '外套']],
+    ['facemark', ['facemark', '面纹', '脸纹', '腮红']],
+    ['decor', ['decor', '配饰', '饰品', '装饰']],
+];
+
+// 不带 #色/#原色 标记时，这些类目默认「可换色」：头发四类 + 眼睛。其余默认不可换色。
+const DEFAULT_TINTABLE_KEYS = new Set(['fronthair', 'earhair', 'back1', 'back2', 'eyes']);
+
+/** 输出上限：超过就整体缩到 472（数据存 IndexedDB，别塞几千像素的 data URL） */
+const MAX_OUT = 944;
+const TARGET = 472;
+
+/** 从组名解析 类目 / 显示名 / tintable 标记 */
+export function parseLayerName(raw: string, hasCategory = true): { categoryKey: string | null; name: string; tintable: boolean | null } {
+    let name = (raw || '').trim();
+    let tintable: boolean | null = null;
+    // tint 标记（全角井号也认；先匹配否定形，免得 #notint 被 tint 抢走）
+    name = name.replace(/[#＃]\s*(原色|notint)/i, () => { tintable = false; return ''; }).trim();
+    if (tintable === null) {
+        name = name.replace(/[#＃]\s*(色|tint)/i, () => { tintable = true; return ''; }).trim();
+    }
+    if (!hasCategory) return { categoryKey: null, name, tintable };
+
+    const lower = name.toLowerCase();
+    let matched: { key: string; alias: string } | null = null;
+    for (const [key, aliases] of CATEGORY_ALIASES) {
+        for (const alias of aliases) {
+            if (lower.startsWith(alias.toLowerCase()) && (!matched || alias.length > matched.alias.length)) {
+                matched = { key, alias };
+            }
+        }
+    }
+    if (!matched) return { categoryKey: null, name, tintable };
+    const rest = name.slice(matched.alias.length).replace(/^[\s\-_·、:：/｜|]+/, '').trim();
+    return { categoryKey: matched.key, name: rest || name, tintable };
+}
+
+function makeCanvas(w: number, h: number): HTMLCanvasElement {
+    const c = document.createElement('canvas');
+    c.width = w; c.height = h;
+    return c;
+}
+
+function hasInk(canvas: HTMLCanvasElement): boolean {
+    const px = canvas.getContext('2d')!.getImageData(0, 0, canvas.width, canvas.height).data;
+    for (let i = 3; i < px.length; i += 4) if (px[i] > 0) return true;
+    return false;
+}
+
+function exportDataUrl(canvas: HTMLCanvasElement, scale: number): string {
+    if (scale >= 1) return canvas.toDataURL('image/png');
+    const out = makeCanvas(Math.round(canvas.width * scale), Math.round(canvas.height * scale));
+    const ctx = out.getContext('2d')!;
+    ctx.imageSmoothingEnabled = true;
+    ctx.imageSmoothingQuality = 'high';
+    ctx.drawImage(canvas, 0, 0, out.width, out.height);
+    return out.toDataURL('image/png');
+}
+
+/** 深度优先展平一个组的叶子图层（ag-psd children 从底到顶） */
+function flattenLeaves(node: any, acc: any[] = []): any[] {
+    for (const child of node.children || []) {
+        if (child.children) flattenLeaves(child, acc);
+        else if (!child.hidden) acc.push(child);
+    }
+    return acc;
+}
+
+/** 把一组叶子图层按画布位置正常合成到一张画布（不支持的混合模式按普通处理并告警）。 */
+function compositeLeaves(leaves: any[], W: number, H: number, warnings: string[]): HTMLCanvasElement {
+    const canvas = makeCanvas(W, H);
+    const ctx = canvas.getContext('2d')!;
+    for (const layer of leaves) {
+        if (!layer.canvas) continue;
+        const bm = layer.blendMode;
+        if (bm && bm !== 'normal' && bm !== 'pass through') {
+            warnings.push(`图层「${layer.name || '?'}」混合模式 ${bm} 不支持，按普通处理`);
+        }
+        ctx.globalAlpha = typeof layer.opacity === 'number' ? layer.opacity : 1;
+        ctx.drawImage(layer.canvas, layer.left || 0, layer.top || 0);
+        ctx.globalAlpha = 1;
+    }
+    return canvas;
+}
+
+export async function parseCreatorPsd(buffer: ArrayBuffer): Promise<PsdImportResult> {
+    const { readPsd } = await import('ag-psd');
+    const psd = readPsd(buffer, { skipThumbnail: true, skipCompositeImageData: true });
+    const W = psd.width, H = psd.height;
+    const warnings: string[] = [];
+    if (W !== H) warnings.push(`画布 ${W}×${H} 不是正方形，会和现有素材（472×472）错位`);
+    else if (W !== TARGET) warnings.push(`画布 ${W}×${H}（现有素材是 472×472，按比例缩放对齐，锚点一致即可）`);
+    const scale = W > MAX_OUT ? TARGET / W : 1;
+
+    const parts: ParsedPsdPart[] = [];
+    // 顶层组 = 类目；组内每个图层（或子组）= 一个部件。顶层散图层 = 一个部件（类目从自己名字猜）。
+    for (const top of psd.children || []) {
+        if (top.hidden) continue;
+
+        if (top.children) {
+            // —— 顶层组 = 类目 ——
+            const groupParsed = parseLayerName(top.name || ''); // 取类目 + 可能的组级 tint
+            const catKey = groupParsed.categoryKey;
+            if (!catKey) {
+                warnings.push(`组「${top.name || '?'}」没识别出类目，组内部件需在面板手动选类目`);
+            }
+            let made = 0;
+            for (const child of top.children) {
+                if (child.hidden) continue;
+                // 子级：图层 = 一个部件；子组 = 合并其图层成一个部件
+                const leaves = child.children ? flattenLeaves(child) : (child.canvas ? [child] : []);
+                if (!leaves.length) continue;
+                const partWarnings: string[] = [];
+                const canvas = compositeLeaves(leaves, W, H, partWarnings);
+                if (!hasInk(canvas)) continue;
+                // 部件名 + tint 来自子级名（类目已由组给出，故 hasCategory=false 只取名字/标记）
+                const childParsed = parseLayerName(child.name || '', false);
+                const tintable = childParsed.tintable !== null
+                    ? childParsed.tintable
+                    : (groupParsed.tintable !== null ? groupParsed.tintable : DEFAULT_TINTABLE_KEYS.has(catKey || ''));
+                parts.push({
+                    categoryKey: catKey,
+                    name: childParsed.name || child.name || '',
+                    tintable,
+                    src: exportDataUrl(canvas, scale),
+                    warnings: partWarnings,
+                });
+                made++;
+            }
+            if (!made) warnings.push(`组「${top.name || '?'}」里没有可用图层`);
+        } else {
+            // —— 顶层散图层 = 一个部件（类目从自己名字猜）——
+            if (!top.canvas) continue;
+            const partWarnings: string[] = [];
+            const canvas = compositeLeaves([top], W, H, partWarnings);
+            if (!hasInk(canvas)) {
+                warnings.push(`「${top.name || '?'}」是空图层，跳过`);
+                continue;
+            }
+            const parsed = parseLayerName(top.name || '');
+            parts.push({
+                categoryKey: parsed.categoryKey,
+                name: parsed.name,
+                tintable: parsed.tintable !== null ? parsed.tintable : DEFAULT_TINTABLE_KEYS.has(parsed.categoryKey || ''),
+                src: exportDataUrl(canvas, scale),
+                warnings: partWarnings,
+            });
+        }
+    }
+
+    if (!parts.length) warnings.push('没解析出任何部件：确认结构是"顶层组=类目，组内每个图层=一个部件"');
+    return { parts, warnings, docWidth: W, docHeight: H };
+}

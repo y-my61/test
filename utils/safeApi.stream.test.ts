@@ -1,1 +1,216 @@
-aW1wb3J0IHsgZGVzY3JpYmUsIGl0LCBleHBlY3QsIHZpLCBhZnRlckVhY2ggfSBmcm9tICd2aXRlc3QnOwppbXBvcnQgeyBzYWZlRmV0Y2hKc29uIH0gZnJvbSAnLi9zYWZlQXBpJzsKCi8vIOmUgeS9j+a1geW8j+ivu+WPlui3r+W+hCAocmVhZEJvZHlXaXRoU3RyZWFtaW5nKSDkuI7mlbTljIXot6/lvoTnmoTooYzkuLrkuIDoh7TmgKfvvJoKLy8gIC0gU1NFIOWinumHj+ato+aWh+inpuWPkSBvbkRlbHRh77yM5pyA57uI5ou85Ye65LiO6Z2e5rWB5byP55u45ZCM57uT5p6E55qEIGNvbXBsZXRpb24g5a+56LGhCi8vICAtIHRvb2xfY2FsbHMg5YiG54mH5oyJIGluZGV4IOWQiOW5tu+8iOW3peWFt+aooeW8j+W8gCBzdHJlYW0g5LiN5Lii6LCD55So77yJCi8vICAtIOS7o+eQhuaXoOinhiBzdHJlYW06dHJ1ZSDov5Tlm57mlbTljIUgSlNPTiDml7bpnZnpu5jpgIDljJbvvIxvbkRlbHRhIOS4jeinpuWPkQoKY29uc3Qgc3NlQm9keSA9IChldmVudHM6IHN0cmluZ1tdKSA9PiBuZXcgUmVhZGFibGVTdHJlYW08VWludDhBcnJheT4oewogICAgc3RhcnQoY29udHJvbGxlcikgewogICAgICAgIGNvbnN0IGVuYyA9IG5ldyBUZXh0RW5jb2RlcigpOwogICAgICAgIGZvciAoY29uc3QgZSBvZiBldmVudHMpIGNvbnRyb2xsZXIuZW5xdWV1ZShlbmMuZW5jb2RlKGUpKTsKICAgICAgICBjb250cm9sbGVyLmNsb3NlKCk7CiAgICB9LAp9KTsKCmNvbnN0IHNzZVJlc3BvbnNlID0gKGV2ZW50czogc3RyaW5nW10pID0+IG5ldyBSZXNwb25zZShzc2VCb2R5KGV2ZW50cyksIHsKICAgIHN0YXR1czogMjAwLAogICAgaGVhZGVyczogeyAnQ29udGVudC1UeXBlJzogJ3RleHQvZXZlbnQtc3RyZWFtJyB9LAp9KTsKCmFmdGVyRWFjaCgoKSA9PiB2aS5yZXN0b3JlQWxsTW9ja3MoKSk7CgpkZXNjcmliZSgnc2FmZUZldGNoSnNvbiBzdHJlYW1pbmcnLCAoKSA9PiB7CiAgICBpdCgnU1NFIOWinumHj+inpuWPkSBvbkRlbHRhIOS4lOacgOe7iCBjb21wbGV0aW9uIOS4juaVtOWMheino+aekOS4gOiHtCcsIGFzeW5jICgpID0+IHsKICAgICAgICBjb25zdCBldmVudHMgPSBbCiAgICAgICAgICAgICdkYXRhOiB7ImlkIjoieCIsImNob2ljZXMiOlt7ImRlbHRhIjp7InJvbGUiOiJhc3Npc3RhbnQiLCJjb250ZW50Ijoi5L2g5aW9In19XX1cblxuJywKICAgICAgICAgICAgJ2RhdGE6IHsiY2hvaWNlcyI6W3siZGVsdGEiOnsiY29udGVudCI6IuWRgFxcbuWcqOW5suWYmyJ9fV19XG5cbicsCiAgICAgICAgICAgICdkYXRhOiB7ImNob2ljZXMiOlt7ImRlbHRhIjp7fSwiZmluaXNoX3JlYXNvbiI6InN0b3AifV0sInVzYWdlIjp7InRvdGFsX3Rva2VucyI6NDIsInByb21wdF90b2tlbnMiOjMwLCJjb21wbGV0aW9uX3Rva2VucyI6MTJ9fVxuXG4nLAogICAgICAgICAgICAnZGF0YTogW0RPTkVdXG4nLAogICAgICAgIF07CiAgICAgICAgdmkuc3R1Ykdsb2JhbCgnZmV0Y2gnLCB2aS5mbihhc3luYyAoKSA9PiBzc2VSZXNwb25zZShldmVudHMpKSk7CgogICAgICAgIGNvbnN0IGRlbHRhczogc3RyaW5nW10gPSBbXTsKICAgICAgICBsZXQgbGFzdEZ1bGwgPSAnJzsKICAgICAgICBjb25zdCBkYXRhID0gYXdhaXQgc2FmZUZldGNoSnNvbignaHR0cHM6Ly9hcGkudGVzdC92MS9jaGF0L2NvbXBsZXRpb25zJywgeyBtZXRob2Q6ICdQT1NUJywgYm9keTogJ3t9JyB9LCAwLCAwLCB1bmRlZmluZWQsIHsKICAgICAgICAgICAgb25EZWx0YTogKGQsIGZ1bGwpID0+IHsgZGVsdGFzLnB1c2goZCk7IGxhc3RGdWxsID0gZnVsbDsgfSwKICAgICAgICB9KTsKCiAgICAgICAgZXhwZWN0KGRlbHRhcy5qb2luKCcnKSkudG9CZSgn5L2g5aW95ZGAXG7lnKjlubLlmJsnKTsKICAgICAgICBleHBlY3QobGFzdEZ1bGwpLnRvQmUoJ+S9oOWlveWRgFxu5Zyo5bmy5ZibJyk7CiAgICAgICAgZXhwZWN0KGRhdGEuY2hvaWNlc1swXS5tZXNzYWdlLmNvbnRlbnQpLnRvQmUoJ+S9oOWlveWRgFxu5Zyo5bmy5ZibJyk7CiAgICAgICAgZXhwZWN0KGRhdGEuY2hvaWNlc1swXS5maW5pc2hfcmVhc29uKS50b0JlKCdzdG9wJyk7CiAgICAgICAgZXhwZWN0KGRhdGEudXNhZ2UudG90YWxfdG9rZW5zKS50b0JlKDQyKTsKICAgIH0pOwoKICAgIGl0KCd0b29sX2NhbGxzIOWIhueJh+aMiSBpbmRleCDlkIjlubbvvIzkuI3lm6DmtYHlvI/kuKLlpLEnLCBhc3luYyAoKSA9PiB7CiAgICAgICAgY29uc3QgZXZlbnRzID0gWwogICAgICAgICAgICAnZGF0YTogeyJjaG9pY2VzIjpbeyJkZWx0YSI6eyJ0b29sX2NhbGxzIjpbeyJpbmRleCI6MCwiaWQiOiJjYWxsXzEiLCJ0eXBlIjoiZnVuY3Rpb24iLCJmdW5jdGlvbiI6eyJuYW1lIjoicHJvcG9zZV9jYXJ0X2l0ZW1zIiwiYXJndW1lbnRzIjoie1xcIml0ZW1zXFwiIn19XX19XX1cblxuJywKICAgICAgICAgICAgJ2RhdGE6IHsiY2hvaWNlcyI6W3siZGVsdGEiOnsidG9vbF9jYWxscyI6W3siaW5kZXgiOjAsImZ1bmN0aW9uIjp7ImFyZ3VtZW50cyI6IjpbXX0ifX1dfX1dfVxuXG4nLAogICAgICAgICAgICAnZGF0YTogW0RPTkVdXG4nLAogICAgICAgIF07CiAgICAgICAgdmkuc3R1Ykdsb2JhbCgnZmV0Y2gnLCB2aS5mbihhc3luYyAoKSA9PiBzc2VSZXNwb25zZShldmVudHMpKSk7CgogICAgICAgIGNvbnN0IGRhdGEgPSBhd2FpdCBzYWZlRmV0Y2hKc29uKCdodHRwczovL2FwaS50ZXN0L3YxL2NoYXQvY29tcGxldGlvbnMnLCB7IG1ldGhvZDogJ1BPU1QnLCBib2R5OiAne30nIH0sIDAsIDAsIHVuZGVmaW5lZCwgeyBvbkRlbHRhOiAoKSA9PiB7fSB9KTsKICAgICAgICBjb25zdCB0YyA9IGRhdGEuY2hvaWNlc1swXS5tZXNzYWdlLnRvb2xfY2FsbHM7CiAgICAgICAgZXhwZWN0KHRjKS50b0hhdmVMZW5ndGgoMSk7CiAgICAgICAgZXhwZWN0KHRjWzBdLmlkKS50b0JlKCdjYWxsXzEnKTsKICAgICAgICBleHBlY3QodGNbMF0uZnVuY3Rpb24ubmFtZSkudG9CZSgncHJvcG9zZV9jYXJ0X2l0ZW1zJyk7CiAgICAgICAgZXhwZWN0KHRjWzBdLmZ1bmN0aW9uLmFyZ3VtZW50cykudG9CZSgneyJpdGVtcyI6W119Jyk7CiAgICB9KTsKCiAgICBpdCgn5Luj55CG6L+U5Zue5pW05YyFIEpTT07vvIjml6Dop4Ygc3RyZWFt77yJ5pe26YCA5YyW6Kej5p6Q77yMb25EZWx0YSDkuI3op6blj5EnLCBhc3luYyAoKSA9PiB7CiAgICAgICAgY29uc3QganNvbiA9IHsgY2hvaWNlczogW3sgbWVzc2FnZTogeyByb2xlOiAnYXNzaXN0YW50JywgY29udGVudDogJ+aVtOWMheWbnuWkjScgfSwgZmluaXNoX3JlYXNvbjogJ3N0b3AnIH1dIH07CiAgICAgICAgdmkuc3R1Ykdsb2JhbCgnZmV0Y2gnLCB2aS5mbihhc3luYyAoKSA9PiBuZXcgUmVzcG9uc2UoSlNPTi5zdHJpbmdpZnkoanNvbiksIHsKICAgICAgICAgICAgc3RhdHVzOiAyMDAsIGhlYWRlcnM6IHsgJ0NvbnRlbnQtVHlwZSc6ICdhcHBsaWNhdGlvbi9qc29uJyB9LAogICAgICAgIH0pKSk7CgogICAgICAgIGNvbnN0IGRlbHRhczogc3RyaW5nW10gPSBbXTsKICAgICAgICBjb25zdCBkYXRhID0gYXdhaXQgc2FmZUZldGNoSnNvbignaHR0cHM6Ly9hcGkudGVzdC92MS9jaGF0L2NvbXBsZXRpb25zJywgeyBtZXRob2Q6ICdQT1NUJywgYm9keTogJ3t9JyB9LCAwLCAwLCB1bmRlZmluZWQsIHsKICAgICAgICAgICAgb25EZWx0YTogKGQpID0+IHsgZGVsdGFzLnB1c2goZCk7IH0sCiAgICAgICAgfSk7CiAgICAgICAgZXhwZWN0KGRlbHRhcykudG9FcXVhbChbXSk7CiAgICAgICAgZXhwZWN0KGRhdGEuY2hvaWNlc1swXS5tZXNzYWdlLmNvbnRlbnQpLnRvQmUoJ+aVtOWMheWbnuWkjScpOwogICAgfSk7CgogICAgaXQoJ+S7o+eQhuaKiuaVtOWMhSBKU09OIOmUmeagh+S4uiBldmVudC1zdHJlYW0g5pe25LuN5oyJIEpTT04g6Kej5p6QJywgYXN5bmMgKCkgPT4gewogICAgICAgIGNvbnN0IGpzb24gPSB7IGNob2ljZXM6IFt7IG1lc3NhZ2U6IHsgcm9sZTogJ2Fzc2lzdGFudCcsIGNvbnRlbnQ6ICfplJnmoIfkvYbmnInmlYgnIH0sIGZpbmlzaF9yZWFzb246ICdzdG9wJyB9XSB9OwogICAgICAgIHZpLnN0dWJHbG9iYWwoJ2ZldGNoJywgdmkuZm4oYXN5bmMgKCkgPT4gbmV3IFJlc3BvbnNlKEpTT04uc3RyaW5naWZ5KGpzb24pLCB7CiAgICAgICAgICAgIHN0YXR1czogMjAwLCBoZWFkZXJzOiB7ICdDb250ZW50LVR5cGUnOiAndGV4dC9ldmVudC1zdHJlYW0nIH0sCiAgICAgICAgfSkpKTsKICAgICAgICBjb25zdCBkYXRhID0gYXdhaXQgc2FmZUZldGNoSnNvbignaHR0cHM6Ly9hcGkudGVzdC92MS9jaGF0L2NvbXBsZXRpb25zJywgeyBtZXRob2Q6ICdQT1NUJywgYm9keTogJ3t9JyB9LCAwLCAwKTsKICAgICAgICBleHBlY3QoZGF0YS5jaG9pY2VzWzBdLm1lc3NhZ2UuY29udGVudCkudG9CZSgn6ZSZ5qCH5L2G5pyJ5pWIJyk7CiAgICB9KTsKCiAgICBpdCgn5LiN5LygIHN0cmVhbUhvb2tzIOaXtuWvuSBTU0Ug5ZON5bqU5LuN6LWw5pW05YyF5ou85o6l77yI5pen6KGM5Li65LiN5Y+Y77yJJywgYXN5bmMgKCkgPT4gewogICAgICAgIGNvbnN0IGV2ZW50cyA9IFsKICAgICAgICAgICAgJ2RhdGE6IHsiY2hvaWNlcyI6W3siZGVsdGEiOnsiY29udGVudCI6ImEifX1dfVxuXG4nLAogICAgICAgICAgICAnZGF0YTogeyJjaG9pY2VzIjpbeyJkZWx0YSI6eyJjb250ZW50IjoiYiJ9fV19XG5cbicsCiAgICAgICAgICAgICdkYXRhOiBbRE9ORV1cbicsCiAgICAgICAgXTsKICAgICAgICB2aS5zdHViR2xvYmFsKCdmZXRjaCcsIHZpLmZuKGFzeW5jICgpID0+IHNzZVJlc3BvbnNlKGV2ZW50cykpKTsKICAgICAgICBjb25zdCBkYXRhID0gYXdhaXQgc2FmZUZldGNoSnNvbignaHR0cHM6Ly9hcGkudGVzdC92MS9jaGF0L2NvbXBsZXRpb25zJywgeyBtZXRob2Q6ICdQT1NUJywgYm9keTogJ3t9JyB9LCAwLCAwKTsKICAgICAgICBleHBlY3QoZGF0YS5jaG9pY2VzWzBdLm1lc3NhZ2UuY29udGVudCkudG9CZSgnYWInKTsKICAgIH0pOwoKICAgIGl0KCfkuI3kvKAgc3RyZWFtSG9va3Mg5pe25b+955WlIE9wZW5Sb3V0ZXIg5b+D6Lez5bm257un57ut5ou85o6lIGRhdGEnLCBhc3luYyAoKSA9PiB7CiAgICAgICAgY29uc3QgZXZlbnRzID0gWwogICAgICAgICAgICAnOiBPUEVOUk9VVEVSIFBST0NFU1NJTkdcblxuJywKICAgICAgICAgICAgJzogT1BFTlJPVVRFUiBQUk9DRVNTSU5HXG5cbicsCiAgICAgICAgICAgICdkYXRhOiB7ImNob2ljZXMiOlt7ImRlbHRhIjp7ImNvbnRlbnQiOiLljbDosaEifX1dfVxuXG4nLAogICAgICAgICAgICAnZGF0YTogeyJjaG9pY2VzIjpbeyJkZWx0YSI6eyJjb250ZW50Ijoi5a6M5oiQIn19XX1cblxuJywKICAgICAgICAgICAgJ2RhdGE6IFtET05FXVxuJywKICAgICAgICBdOwogICAgICAgIHZpLnN0dWJHbG9iYWwoJ2ZldGNoJywgdmkuZm4oYXN5bmMgKCkgPT4gc3NlUmVzcG9uc2UoZXZlbnRzKSkpOwogICAgICAgIGNvbnN0IGRhdGEgPSBhd2FpdCBzYWZlRmV0Y2hKc29uKCdodHRwczovL2FwaS50ZXN0L3YxL2NoYXQvY29tcGxldGlvbnMnLCB7IG1ldGhvZDogJ1BPU1QnLCBib2R5OiAne30nIH0sIDAsIDApOwogICAgICAgIGV4cGVjdChkYXRhLmNob2ljZXNbMF0ubWVzc2FnZS5jb250ZW50KS50b0JlKCfljbDosaHlrozmiJAnKTsKICAgIH0pOwoKICAgIGl0KCfnnJ/mtYHlvI/or7vlj5bml7bpppblnZflj6rmnIkgT3BlblJvdXRlciDlv4Pot7PkuZ/kuI3kvJror6/liKTkuLrmma7pgJrmlofmnKwnLCBhc3luYyAoKSA9PiB7CiAgICAgICAgY29uc3QgZXZlbnRzID0gWwogICAgICAgICAgICAnOiBPUEVOUk9VVEVSIFBST0NFU1NJTkdcblxuJywKICAgICAgICAgICAgJ2RhdGE6IHsiY2hvaWNlcyI6W3siZGVsdGEiOnsiY29udGVudCI6Iuato+W4uCJ9fV19XG5cbicsCiAgICAgICAgICAgICdkYXRhOiBbRE9ORV1cbicsCiAgICAgICAgXTsKICAgICAgICB2aS5zdHViR2xvYmFsKCdmZXRjaCcsIHZpLmZuKGFzeW5jICgpID0+IHNzZVJlc3BvbnNlKGV2ZW50cykpKTsKICAgICAgICBjb25zdCBkZWx0YXM6IHN0cmluZ1tdID0gW107CiAgICAgICAgY29uc3QgZGF0YSA9IGF3YWl0IHNhZmVGZXRjaEpzb24oJ2h0dHBzOi8vYXBpLnRlc3QvdjEvY2hhdC9jb21wbGV0aW9ucycsIHsgbWV0aG9kOiAnUE9TVCcsIGJvZHk6ICd7fScgfSwgMCwgMCwgdW5kZWZpbmVkLCB7CiAgICAgICAgICAgIG9uRGVsdGE6IGRlbHRhID0+IHsgZGVsdGFzLnB1c2goZGVsdGEpOyB9LAogICAgICAgIH0pOwogICAgICAgIGV4cGVjdChkZWx0YXMpLnRvRXF1YWwoWyfmraPluLgnXSk7CiAgICAgICAgZXhwZWN0KGRhdGEuY2hvaWNlc1swXS5tZXNzYWdlLmNvbnRlbnQpLnRvQmUoJ+ato+W4uCcpOwogICAgfSk7CgogICAgaXQoJ+WPquacieW/g+i3s+Wwsee7k+adn+aXtuaYjuehruaKpea1geW8j+aXoOacieaViOaVsOaNru+8jOS4jeS8qumAoOaIkOWKn+e7k+aenCcsIGFzeW5jICgpID0+IHsKICAgICAgICB2aS5zdHViR2xvYmFsKCdmZXRjaCcsIHZpLmZuKGFzeW5jICgpID0+IHNzZVJlc3BvbnNlKFsKICAgICAgICAgICAgJzogT1BFTlJPVVRFUiBQUk9DRVNTSU5HXG5cbicsCiAgICAgICAgICAgICc6IE9QRU5ST1VURVIgUFJPQ0VTU0lOR1xuXG4nLAogICAgICAgIF0pKSk7CiAgICAgICAgYXdhaXQgZXhwZWN0KAogICAgICAgICAgICBzYWZlRmV0Y2hKc29uKCdodHRwczovL2FwaS50ZXN0L3YxL2NoYXQvY29tcGxldGlvbnMnLCB7IG1ldGhvZDogJ1BPU1QnLCBib2R5OiAne30nIH0sIDAsIDApLAogICAgICAgICkucmVqZWN0cy50b1Rocm93KCdBUEnmtYHlvI/lk43lupTmnKrov5Tlm57mnInmlYjmlbDmja4nKTsKICAgIH0pOwp9KTsKCmRlc2NyaWJlKCdTU0Ug5ou86KOF5L+d55WZ5oCd6ICD6YCa6YGTIChyZWFzb25pbmdfY29udGVudCknLCAoKSA9PiB7CiAgICBpdCgnZGVsdGEucmVhc29uaW5nX2NvbnRlbnQg57Sv56ev6L+bIG1lc3NhZ2UucmVhc29uaW5nX2NvbnRlbnTvvIjmgJ3nu7Tpk77mmL7npLrkvp3otZblroPvvIknLCBhc3luYyAoKSA9PiB7CiAgICAgICAgY29uc3QgZXZlbnRzID0gWwogICAgICAgICAgICAnZGF0YTogeyJjaG9pY2VzIjpbeyJkZWx0YSI6eyJyZWFzb25pbmdfY29udGVudCI6IuWluei/meWPpeaYr+WcqCJ9fV19XG5cbicsCiAgICAgICAgICAgICdkYXRhOiB7ImNob2ljZXMiOlt7ImRlbHRhIjp7InJlYXNvbmluZ19jb250ZW50Ijoi6YCX5oiR546p4oCmIn19XX1cblxuJywKICAgICAgICAgICAgJ2RhdGE6IHsiY2hvaWNlcyI6W3siZGVsdGEiOnsiY29udGVudCI6IuWTvO+8jOeci+epv+S9oOS6hiJ9fV19XG5cbicsCiAgICAgICAgICAgICdkYXRhOiBbRE9ORV1cbicsCiAgICAgICAgXTsKICAgICAgICB2aS5zdHViR2xvYmFsKCdmZXRjaCcsIHZpLmZuKGFzeW5jICgpID0+IHNzZVJlc3BvbnNlKGV2ZW50cykpKTsKICAgICAgICBjb25zdCByZWFzb25pbmdEZWx0YXM6IHN0cmluZ1tdID0gW107CiAgICAgICAgbGV0IGZ1bGxSZWFzb25pbmcgPSAnJzsKICAgICAgICBjb25zdCBkYXRhID0gYXdhaXQgc2FmZUZldGNoSnNvbignaHR0cHM6Ly9hcGkudGVzdC92MS9jaGF0L2NvbXBsZXRpb25zJywgeyBtZXRob2Q6ICdQT1NUJywgYm9keTogJ3t9JyB9LCAwLCAwLCB1bmRlZmluZWQsIHsKICAgICAgICAgICAgb25EZWx0YTogKCkgPT4ge30sCiAgICAgICAgICAgIG9uUmVhc29uaW5nRGVsdGE6IChkZWx0YSwgZnVsbCkgPT4geyByZWFzb25pbmdEZWx0YXMucHVzaChkZWx0YSk7IGZ1bGxSZWFzb25pbmcgPSBmdWxsOyB9LAogICAgICAgIH0pOwogICAgICAgIGV4cGVjdChkYXRhLmNob2ljZXNbMF0ubWVzc2FnZS5yZWFzb25pbmdfY29udGVudCkudG9CZSgn5aW56L+Z5Y+l5piv5Zyo6YCX5oiR546p4oCmJyk7CiAgICAgICAgZXhwZWN0KGRhdGEuY2hvaWNlc1swXS5tZXNzYWdlLmNvbnRlbnQpLnRvQmUoJ+WTvO+8jOeci+epv+S9oOS6hicpOwogICAgICAgIGV4cGVjdChyZWFzb25pbmdEZWx0YXMuam9pbignJykpLnRvQmUoJ+Wluei/meWPpeaYr+WcqOmAl+aIkeeOqeKApicpOwogICAgICAgIGV4cGVjdChmdWxsUmVhc29uaW5nKS50b0JlKCflpbnov5nlj6XmmK/lnKjpgJfmiJHnjqnigKYnKTsKICAgIH0pOwoKICAgIGl0KCdPcGVuUm91dGVyIOW9ouaAgSBkZWx0YS5yZWFzb25pbmcg5ZCM5qC35L+d55WZ77yM5bm26YCa6L+H54us56uL5Zue6LCD5a6e5pe25ZCQ5Ye65oCd6ICDJywgYXN5bmMgKCkgPT4gewogICAgICAgIGNvbnN0IGV2ZW50cyA9IFsKICAgICAgICAgICAgJ2RhdGE6IHsiY2hvaWNlcyI6W3siZGVsdGEiOnsicmVhc29uaW5nIjoidGhpbmtpbmcuLi4ifX1dfVxuXG4nLAogICAgICAgICAgICAnZGF0YTogeyJjaG9pY2VzIjpbeyJkZWx0YSI6eyJjb250ZW50Ijoi5Zue5aSN5q2j5paHIn19XX1cblxuJywKICAgICAgICAgICAgJ2RhdGE6IFtET05FXVxuJywKICAgICAgICBdOwogICAgICAgIHZpLnN0dWJHbG9iYWwoJ2ZldGNoJywgdmkuZm4oYXN5bmMgKCkgPT4gc3NlUmVzcG9uc2UoZXZlbnRzKSkpOwogICAgICAgIGNvbnN0IGRlbHRhczogc3RyaW5nW10gPSBbXTsKICAgICAgICBjb25zdCByZWFzb25pbmdEZWx0YXM6IHN0cmluZ1tdID0gW107CiAgICAgICAgbGV0IGZ1bGxSZWFzb25pbmcgPSAnJzsKICAgICAgICBjb25zdCBkYXRhID0gYXdhaXQgc2FmZUZldGNoSnNvbignaHR0cHM6Ly9hcGkudGVzdC92MS9jaGF0L2NvbXBsZXRpb25zJywgeyBtZXRob2Q6ICdQT1NUJywgYm9keTogJ3t9JyB9LCAwLCAwLCB1bmRlZmluZWQsIHsKICAgICAgICAgICAgb25EZWx0YTogKGQpID0+IHsgZGVsdGFzLnB1c2goZCk7IH0sCiAgICAgICAgICAgIG9uUmVhc29uaW5nRGVsdGE6IChkLCBmdWxsKSA9PiB7IHJlYXNvbmluZ0RlbHRhcy5wdXNoKGQpOyBmdWxsUmVhc29uaW5nID0gZnVsbDsgfSwKICAgICAgICB9KTsKICAgICAgICBleHBlY3QoZGF0YS5jaG9pY2VzWzBdLm1lc3NhZ2UucmVhc29uaW5nX2NvbnRlbnQpLnRvQmUoJ3RoaW5raW5nLi4uJyk7CiAgICAgICAgZXhwZWN0KGRlbHRhcy5qb2luKCcnKSkudG9CZSgn5Zue5aSN5q2j5paHJyk7CiAgICAgICAgZXhwZWN0KHJlYXNvbmluZ0RlbHRhcy5qb2luKCcnKSkudG9CZSgndGhpbmtpbmcuLi4nKTsKICAgICAgICBleHBlY3QoZnVsbFJlYXNvbmluZykudG9CZSgndGhpbmtpbmcuLi4nKTsKICAgIH0pOwoKICAgIGl0KCfmsqHmnInmgJ3ogIPpgJrpgZPml7bkuI3kuqfnlJ/nqbrnmoQgcmVhc29uaW5nX2NvbnRlbnQg5a2X5q61JywgYXN5bmMgKCkgPT4gewogICAgICAgIGNvbnN0IGV2ZW50cyA9IFsnZGF0YTogeyJjaG9pY2VzIjpbeyJkZWx0YSI6eyJjb250ZW50Ijoi5pmu6YCa5Zue5aSNIn19XX1cblxuJywgJ2RhdGE6IFtET05FXVxuJ107CiAgICAgICAgdmkuc3R1Ykdsb2JhbCgnZmV0Y2gnLCB2aS5mbihhc3luYyAoKSA9PiBzc2VSZXNwb25zZShldmVudHMpKSk7CiAgICAgICAgY29uc3QgZGF0YSA9IGF3YWl0IHNhZmVGZXRjaEpzb24oJ2h0dHBzOi8vYXBpLnRlc3QvdjEvY2hhdC9jb21wbGV0aW9ucycsIHsgbWV0aG9kOiAnUE9TVCcsIGJvZHk6ICd7fScgfSwgMCwgMCwgdW5kZWZpbmVkLCB7IG9uRGVsdGE6ICgpID0+IHt9IH0pOwogICAgICAgIGV4cGVjdChkYXRhLmNob2ljZXNbMF0ubWVzc2FnZSkubm90LnRvSGF2ZVByb3BlcnR5KCdyZWFzb25pbmdfY29udGVudCcpOwogICAgfSk7Cn0pOwoKZGVzY3JpYmUoJ1NTRSDmgJ3ogIPpgJrpgZPnmoTmm7TlpJrlrZfmrrXlvaLnirbvvIhDbGF1ZGUg5a6Y6L2sL0NDIOa4oOmBk++8iScsICgpID0+IHsKICAgIGl0KCdkZWx0YS50aGlua2luZyDlrZfnrKbkuLLlvaLmgIHkv53nlZknLCBhc3luYyAoKSA9PiB7CiAgICAgICAgY29uc3QgZXZlbnRzID0gWwogICAgICAgICAgICAnZGF0YTogeyJjaG9pY2VzIjpbeyJkZWx0YSI6eyJ0aGlua2luZyI6IuWGheW/gyBvc+KApiJ9fV19XG5cbicsCiAgICAgICAgICAgICdkYXRhOiB7ImNob2ljZXMiOlt7ImRlbHRhIjp7ImNvbnRlbnQiOiLmraPmlocifX1dfVxuXG4nLAogICAgICAgICAgICAnZGF0YTogW0RPTkVdXG4nLAogICAgICAgIF07CiAgICAgICAgdmkuc3R1Ykdsb2JhbCgnZmV0Y2gnLCB2aS5mbihhc3luYyAoKSA9PiBzc2VSZXNwb25zZShldmVudHMpKSk7CiAgICAgICAgY29uc3QgZGF0YSA9IGF3YWl0IHNhZmVGZXRjaEpzb24oJ2h0dHBzOi8vYXBpLnRlc3QvdjEvY2hhdC9jb21wbGV0aW9ucycsIHsgbWV0aG9kOiAnUE9TVCcsIGJvZHk6ICd7fScgfSwgMCwgMCwgdW5kZWZpbmVkLCB7IG9uRGVsdGE6ICgpID0+IHt9IH0pOwogICAgICAgIGV4cGVjdChkYXRhLmNob2ljZXNbMF0ubWVzc2FnZS5yZWFzb25pbmdfY29udGVudCkudG9CZSgn5YaF5b+DIG9z4oCmJyk7CiAgICAgICAgZXhwZWN0KGRhdGEuY2hvaWNlc1swXS5tZXNzYWdlLmNvbnRlbnQpLnRvQmUoJ+ato+aWhycpOwogICAgfSk7CgogICAgaXQoJ0FudGhyb3BpYyDpgI/kvKDliIblnZcgY29udGVudO+8mnRleHQg6L+b5q2j5paH44CBdGhpbmtpbmcg6L+b5oCd6ICDJywgYXN5bmMgKCkgPT4gewogICAgICAgIGNvbnN0IGV2ZW50cyA9IFsKICAgICAgICAgICAgJ2RhdGE6IHsiY2hvaWNlcyI6W3siZGVsdGEiOnsiY29udGVudCI6W3sidHlwZSI6InRoaW5raW5nIiwidGhpbmtpbmciOiLmg7PkuIDkuIvigKYifSx7InR5cGUiOiJ0ZXh0IiwidGV4dCI6IuS9oOWlvSJ9XX19XX1cblxuJywKICAgICAgICAgICAgJ2RhdGE6IHsiY2hvaWNlcyI6W3siZGVsdGEiOnsiY29udGVudCI6W3sidHlwZSI6InRleHQiLCJ0ZXh0Ijoi5ZGAIn1dfX1dfVxuXG4nLAogICAgICAgICAgICAnZGF0YTogW0RPTkVdXG4nLAogICAgICAgIF07CiAgICAgICAgdmkuc3R1Ykdsb2JhbCgnZmV0Y2gnLCB2aS5mbihhc3luYyAoKSA9PiBzc2VSZXNwb25zZShldmVudHMpKSk7CiAgICAgICAgY29uc3QgZGVsdGFzOiBzdHJpbmdbXSA9IFtdOwogICAgICAgIGNvbnN0IHJlYXNvbmluZ0RlbHRhczogc3RyaW5nW10gPSBbXTsKICAgICAgICBjb25zdCBkYXRhID0gYXdhaXQgc2FmZUZldGNoSnNvbignaHR0cHM6Ly9hcGkudGVzdC92MS9jaGF0L2NvbXBsZXRpb25zJywgeyBtZXRob2Q6ICdQT1NUJywgYm9keTogJ3t9JyB9LCAwLCAwLCB1bmRlZmluZWQsIHsKICAgICAgICAgICAgb25EZWx0YTogKGQpID0+IHsgZGVsdGFzLnB1c2goZCk7IH0sCiAgICAgICAgICAgIG9uUmVhc29uaW5nRGVsdGE6IChkKSA9PiB7IHJlYXNvbmluZ0RlbHRhcy5wdXNoKGQpOyB9LAogICAgICAgIH0pOwogICAgICAgIGV4cGVjdChkYXRhLmNob2ljZXNbMF0ubWVzc2FnZS5jb250ZW50KS50b0JlKCfkvaDlpb3lkYAnKTsKICAgICAgICBleHBlY3QoZGF0YS5jaG9pY2VzWzBdLm1lc3NhZ2UucmVhc29uaW5nX2NvbnRlbnQpLnRvQmUoJ+aDs+S4gOS4i+KApicpOwogICAgICAgIGV4cGVjdChkZWx0YXMuam9pbignJykpLnRvQmUoJ+S9oOWlveWRgCcpOwogICAgICAgIGV4cGVjdChyZWFzb25pbmdEZWx0YXMuam9pbignJykpLnRvQmUoJ+aDs+S4gOS4i+KApicpOwogICAgfSk7Cn0pOwo=
+import { describe, it, expect, vi, afterEach } from 'vitest';
+import { safeFetchJson } from './safeApi';
+
+// 锁住流式读取路径 (readBodyWithStreaming) 与整包路径的行为一致性：
+//  - SSE 增量正文触发 onDelta，最终拼出与非流式相同结构的 completion 对象
+//  - tool_calls 分片按 index 合并（工具模式开 stream 不丢调用）
+//  - 代理无视 stream:true 返回整包 JSON 时静默退化，onDelta 不触发
+
+const sseBody = (events: string[]) => new ReadableStream<Uint8Array>({
+    start(controller) {
+        const enc = new TextEncoder();
+        for (const e of events) controller.enqueue(enc.encode(e));
+        controller.close();
+    },
+});
+
+const sseResponse = (events: string[]) => new Response(sseBody(events), {
+    status: 200,
+    headers: { 'Content-Type': 'text/event-stream' },
+});
+
+afterEach(() => vi.restoreAllMocks());
+
+describe('safeFetchJson streaming', () => {
+    it('SSE 增量触发 onDelta 且最终 completion 与整包解析一致', async () => {
+        const events = [
+            'data: {"id":"x","choices":[{"delta":{"role":"assistant","content":"你好"}}]}\n\n',
+            'data: {"choices":[{"delta":{"content":"呀\\n在干嘛"}}]}\n\n',
+            'data: {"choices":[{"delta":{},"finish_reason":"stop"}],"usage":{"total_tokens":42,"prompt_tokens":30,"completion_tokens":12}}\n\n',
+            'data: [DONE]\n',
+        ];
+        vi.stubGlobal('fetch', vi.fn(async () => sseResponse(events)));
+
+        const deltas: string[] = [];
+        let lastFull = '';
+        const data = await safeFetchJson('https://api.test/v1/chat/completions', { method: 'POST', body: '{}' }, 0, 0, undefined, {
+            onDelta: (d, full) => { deltas.push(d); lastFull = full; },
+        });
+
+        expect(deltas.join('')).toBe('你好呀\n在干嘛');
+        expect(lastFull).toBe('你好呀\n在干嘛');
+        expect(data.choices[0].message.content).toBe('你好呀\n在干嘛');
+        expect(data.choices[0].finish_reason).toBe('stop');
+        expect(data.usage.total_tokens).toBe(42);
+    });
+
+    it('tool_calls 分片按 index 合并，不因流式丢失', async () => {
+        const events = [
+            'data: {"choices":[{"delta":{"tool_calls":[{"index":0,"id":"call_1","type":"function","function":{"name":"propose_cart_items","arguments":"{\\"items\\""}}]}}]}\n\n',
+            'data: {"choices":[{"delta":{"tool_calls":[{"index":0,"function":{"arguments":":[]}"}}]}}]}\n\n',
+            'data: [DONE]\n',
+        ];
+        vi.stubGlobal('fetch', vi.fn(async () => sseResponse(events)));
+
+        const data = await safeFetchJson('https://api.test/v1/chat/completions', { method: 'POST', body: '{}' }, 0, 0, undefined, { onDelta: () => {} });
+        const tc = data.choices[0].message.tool_calls;
+        expect(tc).toHaveLength(1);
+        expect(tc[0].id).toBe('call_1');
+        expect(tc[0].function.name).toBe('propose_cart_items');
+        expect(tc[0].function.arguments).toBe('{"items":[]}');
+    });
+
+    it('代理返回整包 JSON（无视 stream）时退化解析，onDelta 不触发', async () => {
+        const json = { choices: [{ message: { role: 'assistant', content: '整包回复' }, finish_reason: 'stop' }] };
+        vi.stubGlobal('fetch', vi.fn(async () => new Response(JSON.stringify(json), {
+            status: 200, headers: { 'Content-Type': 'application/json' },
+        })));
+
+        const deltas: string[] = [];
+        const data = await safeFetchJson('https://api.test/v1/chat/completions', { method: 'POST', body: '{}' }, 0, 0, undefined, {
+            onDelta: (d) => { deltas.push(d); },
+        });
+        expect(deltas).toEqual([]);
+        expect(data.choices[0].message.content).toBe('整包回复');
+    });
+
+    it('代理把整包 JSON 错标为 event-stream 时仍按 JSON 解析', async () => {
+        const json = { choices: [{ message: { role: 'assistant', content: '错标但有效' }, finish_reason: 'stop' }] };
+        vi.stubGlobal('fetch', vi.fn(async () => new Response(JSON.stringify(json), {
+            status: 200, headers: { 'Content-Type': 'text/event-stream' },
+        })));
+        const data = await safeFetchJson('https://api.test/v1/chat/completions', { method: 'POST', body: '{}' }, 0, 0);
+        expect(data.choices[0].message.content).toBe('错标但有效');
+    });
+
+    it('不传 streamHooks 时对 SSE 响应仍走整包拼接（旧行为不变）', async () => {
+        const events = [
+            'data: {"choices":[{"delta":{"content":"a"}}]}\n\n',
+            'data: {"choices":[{"delta":{"content":"b"}}]}\n\n',
+            'data: [DONE]\n',
+        ];
+        vi.stubGlobal('fetch', vi.fn(async () => sseResponse(events)));
+        const data = await safeFetchJson('https://api.test/v1/chat/completions', { method: 'POST', body: '{}' }, 0, 0);
+        expect(data.choices[0].message.content).toBe('ab');
+    });
+
+    it('不传 streamHooks 时忽略 OpenRouter 心跳并继续拼接 data', async () => {
+        const events = [
+            ': OPENROUTER PROCESSING\n\n',
+            ': OPENROUTER PROCESSING\n\n',
+            'data: {"choices":[{"delta":{"content":"印象"}}]}\n\n',
+            'data: {"choices":[{"delta":{"content":"完成"}}]}\n\n',
+            'data: [DONE]\n',
+        ];
+        vi.stubGlobal('fetch', vi.fn(async () => sseResponse(events)));
+        const data = await safeFetchJson('https://api.test/v1/chat/completions', { method: 'POST', body: '{}' }, 0, 0);
+        expect(data.choices[0].message.content).toBe('印象完成');
+    });
+
+    it('真流式读取时首块只有 OpenRouter 心跳也不会误判为普通文本', async () => {
+        const events = [
+            ': OPENROUTER PROCESSING\n\n',
+            'data: {"choices":[{"delta":{"content":"正常"}}]}\n\n',
+            'data: [DONE]\n',
+        ];
+        vi.stubGlobal('fetch', vi.fn(async () => sseResponse(events)));
+        const deltas: string[] = [];
+        const data = await safeFetchJson('https://api.test/v1/chat/completions', { method: 'POST', body: '{}' }, 0, 0, undefined, {
+            onDelta: delta => { deltas.push(delta); },
+        });
+        expect(deltas).toEqual(['正常']);
+        expect(data.choices[0].message.content).toBe('正常');
+    });
+
+    it('只有心跳就结束时明确报流式无有效数据，不伪造成功结果', async () => {
+        vi.stubGlobal('fetch', vi.fn(async () => sseResponse([
+            ': OPENROUTER PROCESSING\n\n',
+            ': OPENROUTER PROCESSING\n\n',
+        ])));
+        await expect(
+            safeFetchJson('https://api.test/v1/chat/completions', { method: 'POST', body: '{}' }, 0, 0),
+        ).rejects.toThrow('API流式响应未返回有效数据');
+    });
+});
+
+describe('SSE 拼装保留思考通道 (reasoning_content)', () => {
+    it('delta.reasoning_content 累积进 message.reasoning_content（思维链显示依赖它）', async () => {
+        const events = [
+            'data: {"choices":[{"delta":{"reasoning_content":"她这句是在"}}]}\n\n',
+            'data: {"choices":[{"delta":{"reasoning_content":"逗我玩…"}}]}\n\n',
+            'data: {"choices":[{"delta":{"content":"哼，看穿你了"}}]}\n\n',
+            'data: [DONE]\n',
+        ];
+        vi.stubGlobal('fetch', vi.fn(async () => sseResponse(events)));
+        const reasoningDeltas: string[] = [];
+        let fullReasoning = '';
+        const data = await safeFetchJson('https://api.test/v1/chat/completions', { method: 'POST', body: '{}' }, 0, 0, undefined, {
+            onDelta: () => {},
+            onReasoningDelta: (delta, full) => { reasoningDeltas.push(delta); fullReasoning = full; },
+        });
+        expect(data.choices[0].message.reasoning_content).toBe('她这句是在逗我玩…');
+        expect(data.choices[0].message.content).toBe('哼，看穿你了');
+        expect(reasoningDeltas.join('')).toBe('她这句是在逗我玩…');
+        expect(fullReasoning).toBe('她这句是在逗我玩…');
+    });
+
+    it('OpenRouter 形态 delta.reasoning 同样保留，并通过独立回调实时吐出思考', async () => {
+        const events = [
+            'data: {"choices":[{"delta":{"reasoning":"thinking..."}}]}\n\n',
+            'data: {"choices":[{"delta":{"content":"回复正文"}}]}\n\n',
+            'data: [DONE]\n',
+        ];
+        vi.stubGlobal('fetch', vi.fn(async () => sseResponse(events)));
+        const deltas: string[] = [];
+        const reasoningDeltas: string[] = [];
+        let fullReasoning = '';
+        const data = await safeFetchJson('https://api.test/v1/chat/completions', { method: 'POST', body: '{}' }, 0, 0, undefined, {
+            onDelta: (d) => { deltas.push(d); },
+            onReasoningDelta: (d, full) => { reasoningDeltas.push(d); fullReasoning = full; },
+        });
+        expect(data.choices[0].message.reasoning_content).toBe('thinking...');
+        expect(deltas.join('')).toBe('回复正文');
+        expect(reasoningDeltas.join('')).toBe('thinking...');
+        expect(fullReasoning).toBe('thinking...');
+    });
+
+    it('没有思考通道时不产生空的 reasoning_content 字段', async () => {
+        const events = ['data: {"choices":[{"delta":{"content":"普通回复"}}]}\n\n', 'data: [DONE]\n'];
+        vi.stubGlobal('fetch', vi.fn(async () => sseResponse(events)));
+        const data = await safeFetchJson('https://api.test/v1/chat/completions', { method: 'POST', body: '{}' }, 0, 0, undefined, { onDelta: () => {} });
+        expect(data.choices[0].message).not.toHaveProperty('reasoning_content');
+    });
+});
+
+describe('SSE 思考通道的更多字段形状（Claude 官转/CC 渠道）', () => {
+    it('delta.thinking 字符串形态保留', async () => {
+        const events = [
+            'data: {"choices":[{"delta":{"thinking":"内心 os…"}}]}\n\n',
+            'data: {"choices":[{"delta":{"content":"正文"}}]}\n\n',
+            'data: [DONE]\n',
+        ];
+        vi.stubGlobal('fetch', vi.fn(async () => sseResponse(events)));
+        const data = await safeFetchJson('https://api.test/v1/chat/completions', { method: 'POST', body: '{}' }, 0, 0, undefined, { onDelta: () => {} });
+        expect(data.choices[0].message.reasoning_content).toBe('内心 os…');
+        expect(data.choices[0].message.content).toBe('正文');
+    });
+
+    it('Anthropic 透传分块 content：text 进正文、thinking 进思考', async () => {
+        const events = [
+            'data: {"choices":[{"delta":{"content":[{"type":"thinking","thinking":"想一下…"},{"type":"text","text":"你好"}]}}]}\n\n',
+            'data: {"choices":[{"delta":{"content":[{"type":"text","text":"呀"}]}}]}\n\n',
+            'data: [DONE]\n',
+        ];
+        vi.stubGlobal('fetch', vi.fn(async () => sseResponse(events)));
+        const deltas: string[] = [];
+        const reasoningDeltas: string[] = [];
+        const data = await safeFetchJson('https://api.test/v1/chat/completions', { method: 'POST', body: '{}' }, 0, 0, undefined, {
+            onDelta: (d) => { deltas.push(d); },
+            onReasoningDelta: (d) => { reasoningDeltas.push(d); },
+        });
+        expect(data.choices[0].message.content).toBe('你好呀');
+        expect(data.choices[0].message.reasoning_content).toBe('想一下…');
+        expect(deltas.join('')).toBe('你好呀');
+        expect(reasoningDeltas.join('')).toBe('想一下…');
+    });
+});

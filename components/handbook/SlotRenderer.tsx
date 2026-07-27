@@ -1,1 +1,420 @@
-LyoqCiAqIHYyIOanveS9jea4suafk+WZqCDigJQg5oyJIFNsb3RSb2xlIOWIhuWPkeWIsOS4jeWQjOinhuinieOAggogKgogKiDorr7orqE6CiAqICAtIOaXp+eJiDog5q+P5LiqIHBsYWNlbWVudCDpg73mmK8gSm91cm5hbEZyYWdtZW50Q2FyZCAo5LiA5q615q615paH5a2XKQogKiAgLSDmlrDniYg6IOavj+S4qiBzbG90Um9sZSDkuIDnp43op4bop4kgKHRvZG8g5pivIGNoZWNrbGlzdCwgZ3JhdGl0dWRlIOaYryBidWxsZXQsCiAqICAgIHRpbWVsaW5lIOaYr+aXtumXtOihqCwgbW9vZC1jYXJkIOaYr+aYn+e6p+WNoSwgcGhvdG8tY2FwdGlvbiDmmK/mi43nq4vlvpcgZXRjLikKICoKICogIC0g5LiN5Zyo6L+Z6YeM5YGa5L2N572uL+aXi+i9rCAo6YKj5pivIEpvdXJuYWxDYW52YXMg55qE5LqLKSwg5Y+q5riy5p+T5Y2h54mH5pys5L2TCiAqICAtIOWtl+WPty/nlZnnmb0g6Lef6ZqPIGlzSGVybyAvIGNoYXJCdWRnZXQKICogIC0g5aaC5p6cIGZyYWdtZW50IOayoeaciSBzbG90Um9sZSAo6ICB5pWw5o2uKSwg55u05o6l6JC95YiwIEpvdXJuYWxGcmFnbWVudENhcmQKICovCgppbXBvcnQgUmVhY3QgZnJvbSAncmVhY3QnOwppbXBvcnQgewogICAgSGFuZGJvb2tGcmFnbWVudCwgSGFuZGJvb2tQYWdlLCBDaGFyYWN0ZXJQcm9maWxlLCBMYXlvdXRQbGFjZW1lbnQsIFNsb3RSb2xlLCBTbG90UGF5bG9hZCwKfSBmcm9tICcuLi8uLi90eXBlcyc7CmltcG9ydCB7CiAgICBQQVBFUl9UT05FUywgSEFORFdSSVRURU5fU1RBQ0ssIEJSVVNIX1NUQUNLLCBTRVJJRl9TVEFDSywgc2VlZEZsb2F0LAp9IGZyb20gJy4vcGFwZXInOwppbXBvcnQgSm91cm5hbEZyYWdtZW50Q2FyZCBmcm9tICcuL0pvdXJuYWxGcmFnbWVudENhcmQnOwppbXBvcnQgSm91cm5hbFJpY2hUZXh0IGZyb20gJy4vSm91cm5hbFJpY2hUZXh0JzsKCi8vIOKUgOKUgOKUgCBza2luIHZhcmlhbnQg4oaSIOmFjeiJsiDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIAKY29uc3QgU0tJTl9QQUxFVFRFUzogUmVjb3JkPHN0cmluZywgeyBiZzogc3RyaW5nOyBib3JkZXI6IHN0cmluZzsgYWNjZW50OiBzdHJpbmc7IGluazogc3RyaW5nIH0+ID0gewogICAgbGF2ZW5kZXI6IHsgYmc6ICcjZjVlZWY3JywgYm9yZGVyOiAnI2Q2YzhlOCcsIGFjY2VudDogJyNhOThlYzQnLCBpbms6ICcjNWE0YTcyJyB9LAogICAgcm9zZTogICAgIHsgYmc6ICcjZmZmMGY1JywgYm9yZGVyOiAnI2ZiYjhjOCcsIGFjY2VudDogJyNmMjlkYjAnLCBpbms6ICcjN2EzODQ1JyB9LAogICAgbWludDogICAgIHsgYmc6ICcjZjBmYWY1JywgYm9yZGVyOiAnI2JmZTFjZicsIGFjY2VudDogJyM4OGM1YTgnLCBpbms6ICcjM2E1YTQ4JyB9LAogICAgc2t5OiAgICAgIHsgYmc6ICcjZWVmNGY5JywgYm9yZGVyOiAnI2I5ZDNlMCcsIGFjY2VudDogJyM3ZWE3YmUnLCBpbms6ICcjM2E1MzZhJyB9LAogICAgbGVtb246ICAgIHsgYmc6ICcjZmVmOWUwJywgYm9yZGVyOiAnI2Y1ZTI5NScsIGFjY2VudDogJyNkNmI4NWEnLCBpbms6ICcjNmE1NTIwJyB9LAp9OwpmdW5jdGlvbiBwYWxldHRlKHNraW5WYXJpYW50Pzogc3RyaW5nKSB7CiAgICByZXR1cm4gU0tJTl9QQUxFVFRFU1tza2luVmFyaWFudCB8fCAnJ10gfHwgU0tJTl9QQUxFVFRFUy5sYXZlbmRlcjsKfQoKLy8g4pSA4pSA4pSAIOmAmueUqDog5L2c6ICF5qCH562+IOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgApjb25zdCBBdXRob3JUYWc6IFJlYWN0LkZDPHsgbmFtZTogc3RyaW5nOyBjb2xvcj86IHN0cmluZzsgc21hbGw/OiBib29sZWFuIH0+ID0gKHsgbmFtZSwgY29sb3IsIHNtYWxsIH0pID0+ICgKICAgIDxzcGFuIHN0eWxlPXt7CiAgICAgICAgLi4uSEFORFdSSVRURU5fU1RBQ0ssCiAgICAgICAgZm9udFNpemU6IHNtYWxsID8gMTAgOiAxMiwKICAgICAgICBjb2xvcjogY29sb3IgfHwgUEFQRVJfVE9ORVMuaW5rU29mdCwKICAgICAgICBmb250V2VpZ2h0OiA2MDAsCiAgICAgICAgb3BhY2l0eTogMC44NSwKICAgIH19PgogICAgICAgIOKAlCB7bmFtZX0KICAgIDwvc3Bhbj4KKTsKCi8vIOKUgOKUgOKUgCBoZXJvLWRpYXJ5IOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgApjb25zdCBIZXJvRGlhcnlTbG90OiBSZWFjdC5GQzx7IHRleHQ6IHN0cmluZzsgYXV0aG9yTmFtZTogc3RyaW5nOyBpc0hlcm8/OiBib29sZWFuIH0+ID0gKHsgdGV4dCwgYXV0aG9yTmFtZSwgaXNIZXJvIH0pID0+ICgKICAgIDxkaXYgc3R5bGU9e3sgcGFkZGluZzogJzRweCA2cHgnIH19PgogICAgICAgIDxkaXYgY2xhc3NOYW1lPSJmbGV4IGl0ZW1zLWJhc2VsaW5lIGdhcC0xIG1iLTEiPgogICAgICAgICAgICA8c3BhbiBzdHlsZT17ewogICAgICAgICAgICAgICAgLi4uSEFORFdSSVRURU5fU1RBQ0ssCiAgICAgICAgICAgICAgICBmb250U2l6ZTogaXNIZXJvID8gMTggOiAxNSwKICAgICAgICAgICAgICAgIGNvbG9yOiBQQVBFUl9UT05FUy5pbmssCiAgICAgICAgICAgICAgICBmb250V2VpZ2h0OiA2MDAsCiAgICAgICAgICAgIH19PgogICAgICAgICAgICAgICAge2F1dGhvck5hbWV9OgogICAgICAgICAgICA8L3NwYW4+CiAgICAgICAgPC9kaXY+CiAgICAgICAgPEpvdXJuYWxSaWNoVGV4dAogICAgICAgICAgICB0ZXh0PXt0ZXh0fQogICAgICAgICAgICBmb250U2l6ZT17aXNIZXJvID8gMTcgOiAxNH0KICAgICAgICAgICAgbGluZUhlaWdodD17aXNIZXJvID8gJzI2cHgnIDogJzIycHgnfQogICAgICAgICAgICBmb250RmFtaWx5PXsnIk5vdG8gU2VyaWYgU0MiLCAiU29uZ3RpIFNDIiwgc2VyaWYnfQogICAgICAgICAgICBvcHRzPXt7CiAgICAgICAgICAgICAgICBjb2xvcjogUEFQRVJfVE9ORVMuaW5rLAogICAgICAgICAgICAgICAgYWNjZW50OiBQQVBFUl9UT05FUy5hY2NlbnRCbHVzaCwKICAgICAgICAgICAgICAgIG11dGVkOiBQQVBFUl9UT05FUy5pbmtTb2Z0LAogICAgICAgICAgICAgICAgYm9sZENvbG9yOiBQQVBFUl9UT05FUy5pbmssCiAgICAgICAgICAgICAgICBoZWFkQ29sb3I6IFBBUEVSX1RPTkVTLmluaywKICAgICAgICAgICAgfX0KICAgICAgICAvPgogICAgPC9kaXY+Cik7CgovLyDilIDilIDilIAgdGltZWxpbmUtcGxhbiDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIAKY29uc3QgVGltZWxpbmVTbG90OiBSZWFjdC5GQzx7IHBheWxvYWQ6IEV4dHJhY3Q8U2xvdFBheWxvYWQsIHsga2luZDogJ3RpbWVsaW5lJyB9PjsgYXV0aG9yTmFtZTogc3RyaW5nIH0+ID0gKHsgcGF5bG9hZCwgYXV0aG9yTmFtZSB9KSA9PiB7CiAgICBjb25zdCBwYWwgPSBwYWxldHRlKCdsYXZlbmRlcicpOwogICAgcmV0dXJuICgKICAgICAgICA8ZGl2IHN0eWxlPXt7CiAgICAgICAgICAgIGJhY2tncm91bmQ6ICdyZ2JhKDI1NSwyNTUsMjU1LDAuNCknLAogICAgICAgICAgICBib3JkZXJMZWZ0OiBgMnB4IHNvbGlkICR7cGFsLmFjY2VudH1gLAogICAgICAgICAgICBwYWRkaW5nOiAnNnB4IDhweCA2cHggMTBweCcsCiAgICAgICAgICAgIGJvcmRlclJhZGl1czogNCwKICAgICAgICB9fT4KICAgICAgICAgICAgPGRpdiBjbGFzc05hbWU9ImZsZXggaXRlbXMtYmFzZWxpbmUgZ2FwLTEgbWItMSI+CiAgICAgICAgICAgICAgICA8c3BhbiBzdHlsZT17ewogICAgICAgICAgICAgICAgICAgIC4uLkhBTkRXUklUVEVOX1NUQUNLLCBmb250U2l6ZTogMTIsIGNvbG9yOiBwYWwuYWNjZW50LCBmb250V2VpZ2h0OiA3MDAsCiAgICAgICAgICAgICAgICAgICAgbGV0dGVyU3BhY2luZzogJzAuMWVtJywKICAgICAgICAgICAgICAgIH19PgogICAgICAgICAgICAgICAgICAgIFRPREFZJ1MgUExBTgogICAgICAgICAgICAgICAgPC9zcGFuPgogICAgICAgICAgICA8L2Rpdj4KICAgICAgICAgICAgPHVsIGNsYXNzTmFtZT0ic3BhY2UteS0wLjUgbGlzdC1ub25lIG0tMCBwLTAiPgogICAgICAgICAgICAgICAge3BheWxvYWQuaXRlbXMubWFwKChpdCwgaSkgPT4gKAogICAgICAgICAgICAgICAgICAgIDxsaSBrZXk9e2l9IGNsYXNzTmFtZT0iZmxleCBpdGVtcy1iYXNlbGluZSBnYXAtMiIgc3R5bGU9e3sKICAgICAgICAgICAgICAgICAgICAgICAgLi4uSEFORFdSSVRURU5fU1RBQ0ssIGZvbnRTaXplOiAxMiwgY29sb3I6IFBBUEVSX1RPTkVTLmluaywgbGluZUhlaWdodDogMS40LAogICAgICAgICAgICAgICAgICAgIH19PgogICAgICAgICAgICAgICAgICAgICAgICA8c3BhbiBzdHlsZT17eyBtaW5XaWR0aDogMzYsIGNvbG9yOiBwYWwuYWNjZW50LCBmb250V2VpZ2h0OiA2MDAgfX0+e2l0LnRpbWV9PC9zcGFuPgogICAgICAgICAgICAgICAgICAgICAgICA8c3BhbiBjbGFzc05hbWU9ImZsZXgtMSI+e2l0LnRleHR9PC9zcGFuPgogICAgICAgICAgICAgICAgICAgICAgICB7aXQuZW1vamkgJiYgPHNwYW4+e2l0LmVtb2ppfTwvc3Bhbj59CiAgICAgICAgICAgICAgICAgICAgPC9saT4KICAgICAgICAgICAgICAgICkpfQogICAgICAgICAgICA8L3VsPgogICAgICAgICAgICA8ZGl2IGNsYXNzTmFtZT0idGV4dC1yaWdodCBtdC0xIj48QXV0aG9yVGFnIG5hbWU9e2F1dGhvck5hbWV9IHNtYWxsIC8+PC9kaXY+CiAgICAgICAgPC9kaXY+CiAgICApOwp9OwoKLy8g4pSA4pSA4pSAIHRvZG8g4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSACmNvbnN0IFRvZG9TbG90OiBSZWFjdC5GQzx7IHBheWxvYWQ6IEV4dHJhY3Q8U2xvdFBheWxvYWQsIHsga2luZDogJ3RvZG8nIH0+OyBhdXRob3JOYW1lOiBzdHJpbmcgfT4gPSAoeyBwYXlsb2FkLCBhdXRob3JOYW1lIH0pID0+IHsKICAgIGNvbnN0IHBhbCA9IHBhbGV0dGUoJ21pbnQnKTsKICAgIHJldHVybiAoCiAgICAgICAgPGRpdiBzdHlsZT17ewogICAgICAgICAgICBiYWNrZ3JvdW5kOiAncmdiYSgyNTUsMjU1LDI1NSwwLjQ1KScsCiAgICAgICAgICAgIGJvcmRlcjogYDFweCBkYXNoZWQgJHtwYWwuYm9yZGVyfWAsCiAgICAgICAgICAgIHBhZGRpbmc6ICc2cHggMTBweCcsCiAgICAgICAgICAgIGJvcmRlclJhZGl1czogNiwKICAgICAgICB9fT4KICAgICAgICAgICAgPGRpdiBjbGFzc05hbWU9ImZsZXggaXRlbXMtYmFzZWxpbmUgZ2FwLTEgbWItMSI+CiAgICAgICAgICAgICAgICA8c3BhbiBzdHlsZT17ewogICAgICAgICAgICAgICAgICAgIC4uLkhBTkRXUklUVEVOX1NUQUNLLCBmb250U2l6ZTogMTIsIGNvbG9yOiBwYWwuYWNjZW50LCBmb250V2VpZ2h0OiA3MDAsCiAgICAgICAgICAgICAgICAgICAgbGV0dGVyU3BhY2luZzogJzAuMWVtJywKICAgICAgICAgICAgICAgIH19PgogICAgICAgICAgICAgICAgICAgIFRPIERPCiAgICAgICAgICAgICAgICA8L3NwYW4+CiAgICAgICAgICAgIDwvZGl2PgogICAgICAgICAgICA8dWwgY2xhc3NOYW1lPSJzcGFjZS15LTEgbGlzdC1ub25lIG0tMCBwLTAiPgogICAgICAgICAgICAgICAge3BheWxvYWQuaXRlbXMubWFwKChpdCwgaSkgPT4gKAogICAgICAgICAgICAgICAgICAgIDxsaSBrZXk9e2l9IGNsYXNzTmFtZT0iZmxleCBpdGVtcy1zdGFydCBnYXAtMS41IiBzdHlsZT17ewogICAgICAgICAgICAgICAgICAgICAgICAuLi5IQU5EV1JJVFRFTl9TVEFDSywgZm9udFNpemU6IDEyLjUsIGNvbG9yOiBQQVBFUl9UT05FUy5pbmssIGxpbmVIZWlnaHQ6IDEuMzUsCiAgICAgICAgICAgICAgICAgICAgfX0+CiAgICAgICAgICAgICAgICAgICAgICAgIDxzcGFuIHN0eWxlPXt7CiAgICAgICAgICAgICAgICAgICAgICAgICAgICB3aWR0aDogMTEsIGhlaWdodDogMTEsIG1hcmdpblRvcDogMywKICAgICAgICAgICAgICAgICAgICAgICAgICAgIGJvcmRlcjogYDEuMnB4IHNvbGlkICR7cGFsLmFjY2VudH1gLAogICAgICAgICAgICAgICAgICAgICAgICAgICAgYm9yZGVyUmFkaXVzOiAyLAogICAgICAgICAgICAgICAgICAgICAgICAgICAgZGlzcGxheTogJ2lubGluZS1ibG9jaycsIGZsZXhTaHJpbms6IDAsCiAgICAgICAgICAgICAgICAgICAgICAgICAgICBwb3NpdGlvbjogJ3JlbGF0aXZlJywKICAgICAgICAgICAgICAgICAgICAgICAgfX0+CiAgICAgICAgICAgICAgICAgICAgICAgICAgICB7aXQuZG9uZSAmJiAoCiAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgPHNwYW4gc3R5bGU9e3sKICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgcG9zaXRpb246ICdhYnNvbHV0ZScsIHRvcDogLTMsIGxlZnQ6IDEsCiAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgIGNvbG9yOiBwYWwuYWNjZW50LCBmb250U2l6ZTogMTQsIGZvbnRXZWlnaHQ6IDcwMCwKICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgbGluZUhlaWdodDogMSwKICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICB9fT7inJM8L3NwYW4+CiAgICAgICAgICAgICAgICAgICAgICAgICAgICApfQogICAgICAgICAgICAgICAgICAgICAgICA8L3NwYW4+CiAgICAgICAgICAgICAgICAgICAgICAgIDxzcGFuIGNsYXNzTmFtZT17aXQuZG9uZSA/ICdsaW5lLXRocm91Z2ggb3BhY2l0eS02MCcgOiAnJ30+e2l0LnRleHR9PC9zcGFuPgogICAgICAgICAgICAgICAgICAgIDwvbGk+CiAgICAgICAgICAgICAgICApKX0KICAgICAgICAgICAgPC91bD4KICAgICAgICAgICAgPGRpdiBjbGFzc05hbWU9InRleHQtcmlnaHQgbXQtMSI+PEF1dGhvclRhZyBuYW1lPXthdXRob3JOYW1lfSBzbWFsbCAvPjwvZGl2PgogICAgICAgIDwvZGl2PgogICAgKTsKfTsKCi8vIOKUgOKUgOKUgCBncmF0aXR1ZGUg4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSACmNvbnN0IEdyYXRpdHVkZVNsb3Q6IFJlYWN0LkZDPHsgcGF5bG9hZDogRXh0cmFjdDxTbG90UGF5bG9hZCwgeyBraW5kOiAnZ3JhdGl0dWRlJyB9PjsgYXV0aG9yTmFtZTogc3RyaW5nIH0+ID0gKHsgcGF5bG9hZCwgYXV0aG9yTmFtZSB9KSA9PiB7CiAgICBjb25zdCBwYWwgPSBwYWxldHRlKCdyb3NlJyk7CiAgICByZXR1cm4gKAogICAgICAgIDxkaXYgc3R5bGU9e3sgcGFkZGluZzogJzRweCA2cHgnIH19PgogICAgICAgICAgICA8ZGl2IGNsYXNzTmFtZT0iZmxleCBpdGVtcy1iYXNlbGluZSBnYXAtMSBtYi0xIj4KICAgICAgICAgICAgICAgIDxzcGFuIHN0eWxlPXt7CiAgICAgICAgICAgICAgICAgICAgLi4uSEFORFdSSVRURU5fU1RBQ0ssIGZvbnRTaXplOiAxMiwgY29sb3I6IHBhbC5hY2NlbnQsIGZvbnRXZWlnaHQ6IDcwMCwKICAgICAgICAgICAgICAgICAgICBsZXR0ZXJTcGFjaW5nOiAnMC4xZW0nLAogICAgICAgICAgICAgICAgfX0+CiAgICAgICAgICAgICAgICAgICAg5LuK5pel5oSf5oGpIOKZoQogICAgICAgICAgICAgICAgPC9zcGFuPgogICAgICAgICAgICA8L2Rpdj4KICAgICAgICAgICAgPHVsIGNsYXNzTmFtZT0ic3BhY2UteS0wLjUgbGlzdC1ub25lIG0tMCBwLTAiPgogICAgICAgICAgICAgICAge3BheWxvYWQuaXRlbXMubWFwKChzLCBpKSA9PiAoCiAgICAgICAgICAgICAgICAgICAgPGxpIGtleT17aX0gY2xhc3NOYW1lPSJmbGV4IGl0ZW1zLWJhc2VsaW5lIGdhcC0xLjUiIHN0eWxlPXt7CiAgICAgICAgICAgICAgICAgICAgICAgIC4uLkhBTkRXUklUVEVOX1NUQUNLLCBmb250U2l6ZTogMTIuNSwgY29sb3I6IFBBUEVSX1RPTkVTLmluaywgbGluZUhlaWdodDogMS40LAogICAgICAgICAgICAgICAgICAgIH19PgogICAgICAgICAgICAgICAgICAgICAgICA8c3BhbiBzdHlsZT17eyBjb2xvcjogcGFsLmFjY2VudCB9fT7Ctzwvc3Bhbj4KICAgICAgICAgICAgICAgICAgICAgICAgPHNwYW4gY2xhc3NOYW1lPSJmbGV4LTEiPntzfTwvc3Bhbj4KICAgICAgICAgICAgICAgICAgICA8L2xpPgogICAgICAgICAgICAgICAgKSl9CiAgICAgICAgICAgIDwvdWw+CiAgICAgICAgICAgIDxkaXYgY2xhc3NOYW1lPSJ0ZXh0LXJpZ2h0IG10LTEiPjxBdXRob3JUYWcgbmFtZT17YXV0aG9yTmFtZX0gc21hbGwgLz48L2Rpdj4KICAgICAgICA8L2Rpdj4KICAgICk7Cn07CgovLyDilIDilIDilIAgbW9vZC1jYXJkIOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgApjb25zdCBNb29kU2xvdDogUmVhY3QuRkM8ewogICAgdGV4dDogc3RyaW5nOwogICAgcGF5bG9hZD86IEV4dHJhY3Q8U2xvdFBheWxvYWQsIHsga2luZDogJ21vb2QnIH0+OwogICAgYXV0aG9yTmFtZTogc3RyaW5nOwogICAgc2tpblZhcmlhbnQ/OiBzdHJpbmc7Cn0+ID0gKHsgdGV4dCwgcGF5bG9hZCwgYXV0aG9yTmFtZSwgc2tpblZhcmlhbnQgfSkgPT4gewogICAgY29uc3QgcGFsID0gcGFsZXR0ZShza2luVmFyaWFudCk7CiAgICBjb25zdCByYXRpbmcgPSBwYXlsb2FkPy5yYXRpbmcgPz8gMzsKICAgIHJldHVybiAoCiAgICAgICAgPGRpdiBzdHlsZT17ewogICAgICAgICAgICBiYWNrZ3JvdW5kOiBwYWwuYmcsCiAgICAgICAgICAgIGJvcmRlcjogYDFweCBzb2xpZCAke3BhbC5ib3JkZXJ9YCwKICAgICAgICAgICAgYm9yZGVyUmFkaXVzOiA4LAogICAgICAgICAgICBwYWRkaW5nOiAnNnB4IDEwcHgnLAogICAgICAgICAgICBib3hTaGFkb3c6ICcwIDFweCAycHggcmdiYSgxMjIsOTAsMTE0LDAuMDYpJywKICAgICAgICB9fT4KICAgICAgICAgICAgPGRpdiBjbGFzc05hbWU9ImZsZXggaXRlbXMtYmFzZWxpbmUganVzdGlmeS1iZXR3ZWVuIG1iLTEiPgogICAgICAgICAgICAgICAgPHNwYW4gc3R5bGU9e3sKICAgICAgICAgICAgICAgICAgICAuLi5IQU5EV1JJVFRFTl9TVEFDSywgZm9udFNpemU6IDEyLCBjb2xvcjogcGFsLmFjY2VudCwgZm9udFdlaWdodDogNzAwLAogICAgICAgICAgICAgICAgfX0+CiAgICAgICAgICAgICAgICAgICAgTW9vZCDimaEKICAgICAgICAgICAgICAgIDwvc3Bhbj4KICAgICAgICAgICAgICAgIDxzcGFuIHN0eWxlPXt7IGZvbnRTaXplOiAxMSwgY29sb3I6IHBhbC5hY2NlbnQsIGxldHRlclNwYWNpbmc6IDEgfX0+CiAgICAgICAgICAgICAgICAgICAgeyfimIUnLnJlcGVhdChyYXRpbmcpfXsn4piGJy5yZXBlYXQoNSAtIHJhdGluZyl9CiAgICAgICAgICAgICAgICA8L3NwYW4+CiAgICAgICAgICAgIDwvZGl2PgogICAgICAgICAgICB7dGV4dCAmJiAoCiAgICAgICAgICAgICAgICA8ZGl2IHN0eWxlPXt7CiAgICAgICAgICAgICAgICAgICAgLi4uSEFORFdSSVRURU5fU1RBQ0ssIGZvbnRTaXplOiAxMi41LCBjb2xvcjogcGFsLmluaywgbGluZUhlaWdodDogMS40LAogICAgICAgICAgICAgICAgfX0+CiAgICAgICAgICAgICAgICAgICAge3RleHR9CiAgICAgICAgICAgICAgICA8L2Rpdj4KICAgICAgICAgICAgKX0KICAgICAgICAgICAge3BheWxvYWQ/LnRhZyAmJiAoCiAgICAgICAgICAgICAgICA8ZGl2IHN0eWxlPXt7CiAgICAgICAgICAgICAgICAgICAgZGlzcGxheTogJ2lubGluZS1ibG9jaycsIG1hcmdpblRvcDogNCwKICAgICAgICAgICAgICAgICAgICBmb250U2l6ZTogMTAsIHBhZGRpbmc6ICcxcHggNnB4JywgYm9yZGVyUmFkaXVzOiA4LAogICAgICAgICAgICAgICAgICAgIGJhY2tncm91bmQ6IHBhbC5hY2NlbnQsIGNvbG9yOiAnI2ZmZicsCiAgICAgICAgICAgICAgICB9fT4KICAgICAgICAgICAgICAgICAgICAje3BheWxvYWQudGFnfQogICAgICAgICAgICAgICAgPC9kaXY+CiAgICAgICAgICAgICl9CiAgICAgICAgICAgIDxkaXYgY2xhc3NOYW1lPSJ0ZXh0LXJpZ2h0IG10LTEiPjxBdXRob3JUYWcgbmFtZT17YXV0aG9yTmFtZX0gY29sb3I9e3BhbC5pbmt9IHNtYWxsIC8+PC9kaXY+CiAgICAgICAgPC9kaXY+CiAgICApOwp9OwoKLy8g4pSA4pSA4pSAIHBob3RvLWNhcHRpb24g4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSACmNvbnN0IFBob3RvU2xvdDogUmVhY3QuRkM8ewogICAgcGF5bG9hZD86IEV4dHJhY3Q8U2xvdFBheWxvYWQsIHsga2luZDogJ3Bob3RvJyB9PjsKICAgIGF1dGhvck5hbWU6IHN0cmluZzsKfT4gPSAoeyBwYXlsb2FkLCBhdXRob3JOYW1lIH0pID0+IHsKICAgIGNvbnN0IGNhcHRpb24gPSBwYXlsb2FkPy5jYXB0aW9uIHx8ICcnOwogICAgY29uc3Qgc3JjID0gcGF5bG9hZD8uc3JjOwogICAgcmV0dXJuICgKICAgICAgICA8ZGl2IHN0eWxlPXt7CiAgICAgICAgICAgIGJhY2tncm91bmQ6ICcjZmZmJywKICAgICAgICAgICAgcGFkZGluZzogJzZweCA2cHggOHB4IDZweCcsCiAgICAgICAgICAgIGJvcmRlclJhZGl1czogNCwKICAgICAgICAgICAgYm94U2hhZG93OiAnMCAycHggNnB4IHJnYmEoMTIyLDkwLDExNCwwLjEyKSwgMCAxcHggMnB4IHJnYmEoMCwwLDAsMC4wNSknLAogICAgICAgICAgICB0cmFuc2Zvcm06ICdyb3RhdGUoLTEuMmRlZyknLAogICAgICAgIH19PgogICAgICAgICAgICA8ZGl2IHN0eWxlPXt7CiAgICAgICAgICAgICAgICB3aWR0aDogJzEwMCUnLCBhc3BlY3RSYXRpbzogJzQgLyAzJywKICAgICAgICAgICAgICAgIGJhY2tncm91bmQ6IHNyYyA/IGB1cmwoJHtzcmN9KSBjZW50ZXIgLyBjb3ZlcmAgOiAncmVwZWF0aW5nLWxpbmVhci1ncmFkaWVudCg0NWRlZywgI2YwZTZlZCAwIDZweCwgI2ZiZjNmNyA2cHggMTJweCknLAogICAgICAgICAgICAgICAgYm9yZGVyUmFkaXVzOiAyLAogICAgICAgICAgICAgICAgcG9zaXRpb246ICdyZWxhdGl2ZScsCiAgICAgICAgICAgIH19PgogICAgICAgICAgICAgICAgeyFzcmMgJiYgKAogICAgICAgICAgICAgICAgICAgIDxkaXYgY2xhc3NOYW1lPSJhYnNvbHV0ZSBpbnNldC0wIGZsZXggaXRlbXMtY2VudGVyIGp1c3RpZnktY2VudGVyIiBzdHlsZT17ewogICAgICAgICAgICAgICAgICAgICAgICAuLi5IQU5EV1JJVFRFTl9TVEFDSywgZm9udFNpemU6IDExLCBjb2xvcjogUEFQRVJfVE9ORVMuaW5rRmFpbnQsCiAgICAgICAgICAgICAgICAgICAgfX0+CiAgICAgICAgICAgICAgICAgICAgICAgIOi0tOS4gOW8oOS7iuaXpeeFp+eJhwogICAgICAgICAgICAgICAgICAgIDwvZGl2PgogICAgICAgICAgICAgICAgKX0KICAgICAgICAgICAgPC9kaXY+CiAgICAgICAgICAgIDxkaXYgY2xhc3NOYW1lPSJtdC0xIHRleHQtY2VudGVyIiBzdHlsZT17ewogICAgICAgICAgICAgICAgLi4uSEFORFdSSVRURU5fU1RBQ0ssIGZvbnRTaXplOiAxMSwgY29sb3I6IFBBUEVSX1RPTkVTLmluaywgbGluZUhlaWdodDogMS4zLAogICAgICAgICAgICB9fT4KICAgICAgICAgICAgICAgIHtjYXB0aW9ufQogICAgICAgICAgICA8L2Rpdj4KICAgICAgICAgICAgPGRpdiBjbGFzc05hbWU9InRleHQtY2VudGVyIiBzdHlsZT17eyBtYXJnaW5Ub3A6IDEgfX0+CiAgICAgICAgICAgICAgICA8QXV0aG9yVGFnIG5hbWU9e2F1dGhvck5hbWV9IHNtYWxsIC8+CiAgICAgICAgICAgIDwvZGl2PgogICAgICAgIDwvZGl2PgogICAgKTsKfTsKCi8vIOKUgOKUgOKUgCBzdGlja3ktcmVhY3Rpb24g4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSACmNvbnN0IFN0aWNreVJlYWN0aW9uU2xvdDogUmVhY3QuRkM8ewogICAgdGV4dDogc3RyaW5nOyBhdXRob3JOYW1lOiBzdHJpbmc7IHNraW5WYXJpYW50Pzogc3RyaW5nOwp9PiA9ICh7IHRleHQsIGF1dGhvck5hbWUsIHNraW5WYXJpYW50IH0pID0+IHsKICAgIGNvbnN0IHBhbCA9IHBhbGV0dGUoc2tpblZhcmlhbnQpOwogICAgcmV0dXJuICgKICAgICAgICA8ZGl2IHN0eWxlPXt7CiAgICAgICAgICAgIGJhY2tncm91bmQ6IHBhbC5iZywKICAgICAgICAgICAgYm9yZGVyOiBgMXB4IHNvbGlkICR7cGFsLmJvcmRlcn1gLAogICAgICAgICAgICBib3JkZXJSYWRpdXM6IDYsCiAgICAgICAgICAgIHBhZGRpbmc6ICc2cHggOXB4JywKICAgICAgICAgICAgYm94U2hhZG93OiAnMCAycHggNHB4IHJnYmEoMTIyLDkwLDExNCwwLjEpLCAwIDRweCAxMHB4IC04cHggcmdiYSgxMjIsOTAsMTE0LDAuMTgpJywKICAgICAgICAgICAgcG9zaXRpb246ICdyZWxhdGl2ZScsCiAgICAgICAgfX0+CiAgICAgICAgICAgIHsvKiDpobbpg6jlsI/og7bluKYgKi99CiAgICAgICAgICAgIDxkaXYgc3R5bGU9e3sKICAgICAgICAgICAgICAgIHBvc2l0aW9uOiAnYWJzb2x1dGUnLCB0b3A6IC00LCBsZWZ0OiAnNTAlJywKICAgICAgICAgICAgICAgIHRyYW5zZm9ybTogJ3RyYW5zbGF0ZVgoLTUwJSkgcm90YXRlKC0yZGVnKScsCiAgICAgICAgICAgICAgICB3aWR0aDogJzQwJScsIGhlaWdodDogOCwKICAgICAgICAgICAgICAgIGJhY2tncm91bmQ6IGByZXBlYXRpbmctbGluZWFyLWdyYWRpZW50KDEzNWRlZywgJHtwYWwuYWNjZW50fTgwIDAgNHB4LCB0cmFuc3BhcmVudCA0cHggN3B4KWAsCiAgICAgICAgICAgICAgICBib3JkZXJSYWRpdXM6IDEsCiAgICAgICAgICAgIH19IC8+CiAgICAgICAgICAgIDxkaXYgc3R5bGU9e3sKICAgICAgICAgICAgICAgIC4uLkhBTkRXUklUVEVOX1NUQUNLLCBmb250U2l6ZTogMTIsIGNvbG9yOiBwYWwuaW5rLCBsaW5lSGVpZ2h0OiAxLjQsIG1hcmdpblRvcDogNCwKICAgICAgICAgICAgfX0+CiAgICAgICAgICAgICAgICB7dGV4dH0KICAgICAgICAgICAgPC9kaXY+CiAgICAgICAgICAgIDxkaXYgY2xhc3NOYW1lPSJ0ZXh0LXJpZ2h0IG10LTEiPjxBdXRob3JUYWcgbmFtZT17YXV0aG9yTmFtZX0gY29sb3I9e3BhbC5hY2NlbnR9IHNtYWxsIC8+PC9kaXY+CiAgICAgICAgPC9kaXY+CiAgICApOwp9OwoKLy8g4pSA4pSA4pSAIGNvcm5lci1ub3RlIOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgApjb25zdCBDb3JuZXJOb3RlU2xvdDogUmVhY3QuRkM8eyB0ZXh0OiBzdHJpbmc7IGF1dGhvck5hbWU6IHN0cmluZzsgc2VlZDogc3RyaW5nIH0+ID0gKHsgdGV4dCwgYXV0aG9yTmFtZSwgc2VlZCB9KSA9PiB7CiAgICBjb25zdCBjb2xvcnMgPSBbJyMzZDJmM2QnLCAnI2M5NGE0YScsICcjNWE3YThlJywgJyNhOThlYzQnLCAnIzg4YTM3MCddOwogICAgY29uc3QgY29sb3IgPSBjb2xvcnNbTWF0aC5mbG9vcihzZWVkRmxvYXQoc2VlZCwgNDMyMSkgKiBjb2xvcnMubGVuZ3RoKV07CiAgICByZXR1cm4gKAogICAgICAgIDxkaXYgc3R5bGU9e3sgcGFkZGluZzogMCB9fT4KICAgICAgICAgICAgPHNwYW4gc3R5bGU9e3sKICAgICAgICAgICAgICAgIC4uLkhBTkRXUklUVEVOX1NUQUNLLAogICAgICAgICAgICAgICAgZm9udFNpemU6IDEzLCBjb2xvciwgbGluZUhlaWdodDogMS4zLAogICAgICAgICAgICAgICAgZGlzcGxheTogJ2Jsb2NrJywgd2hpdGVTcGFjZTogJ3ByZS13cmFwJywKICAgICAgICAgICAgfX0+CiAgICAgICAgICAgICAgICB7dGV4dH0KICAgICAgICAgICAgPC9zcGFuPgogICAgICAgICAgICA8c3BhbiBzdHlsZT17ewogICAgICAgICAgICAgICAgLi4uSEFORFdSSVRURU5fU1RBQ0ssIGZvbnRTaXplOiA5LjUsIGNvbG9yLCBvcGFjaXR5OiAwLjU1LAogICAgICAgICAgICAgICAgZGlzcGxheTogJ2Jsb2NrJywgdGV4dEFsaWduOiAncmlnaHQnLCBtYXJnaW5Ub3A6IDEsCiAgICAgICAgICAgIH19PgogICAgICAgICAgICAgICAg4oCUIHthdXRob3JOYW1lfQogICAgICAgICAgICA8L3NwYW4+CiAgICAgICAgPC9kaXY+CiAgICApOwp9OwoKLy8g4pSA4pSA4pSAIOi3r+eUsSDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIAKaW50ZXJmYWNlIFNsb3RSZW5kZXJlclByb3BzIHsKICAgIHBsYWNlbWVudDogTGF5b3V0UGxhY2VtZW50OwogICAgZnJhZ21lbnQ/OiBIYW5kYm9va0ZyYWdtZW50OwogICAgcGFnZTogSGFuZGJvb2tQYWdlOwogICAgY2hhcj86IENoYXJhY3RlclByb2ZpbGU7CiAgICB1c2VyTmFtZTogc3RyaW5nOwp9Cgpjb25zdCBTbG90UmVuZGVyZXI6IFJlYWN0LkZDPFNsb3RSZW5kZXJlclByb3BzPiA9ICh7IHBsYWNlbWVudCwgZnJhZ21lbnQsIHBhZ2UsIGNoYXIsIHVzZXJOYW1lIH0pID0+IHsKICAgIGNvbnN0IHNsb3RSb2xlOiBTbG90Um9sZSB8IHVuZGVmaW5lZCA9IHBsYWNlbWVudC5zbG90Um9sZSB8fCBmcmFnbWVudD8uc2xvdFJvbGU7CgogICAgLy8g6ICB5pWw5o2uIC8g5rKhIHNsb3RSb2xlIOKGkiDotbDogIEgSm91cm5hbEZyYWdtZW50Q2FyZAogICAgaWYgKCFzbG90Um9sZSkgewogICAgICAgIHJldHVybiAoCiAgICAgICAgICAgIDxKb3VybmFsRnJhZ21lbnRDYXJkCiAgICAgICAgICAgICAgICBmcmFnbWVudD17ZnJhZ21lbnR9CiAgICAgICAgICAgICAgICBwYWdlPXtwYWdlfQogICAgICAgICAgICAgICAgY2hhcj17Y2hhcn0KICAgICAgICAgICAgICAgIHJvbGU9e3BsYWNlbWVudC5yb2xlfQogICAgICAgICAgICAgICAgaXNIZXJvPXtwbGFjZW1lbnQuaXNIZXJvfQogICAgICAgICAgICAvPgogICAgICAgICk7CiAgICB9CgogICAgY29uc3QgYXV0aG9yTmFtZSA9IHBhZ2UuY2hhcklkID8gKGNoYXI/Lm5hbWUgfHwgJ+afkOinkuiJsicpIDogdXNlck5hbWU7CiAgICBjb25zdCB0ZXh0ID0gZnJhZ21lbnQ/LnRleHQgfHwgJyc7CiAgICBjb25zdCBwYXlsb2FkID0gZnJhZ21lbnQ/LnBheWxvYWQ7CiAgICBjb25zdCBza2luID0gcGxhY2VtZW50LnNraW5WYXJpYW50IHx8IChmcmFnbWVudCBhcyBhbnkpPy5za2luVmFyaWFudDsKCiAgICBzd2l0Y2ggKHNsb3RSb2xlKSB7CiAgICAgICAgY2FzZSAnaGVyby1kaWFyeSc6CiAgICAgICAgICAgIHJldHVybiA8SGVyb0RpYXJ5U2xvdCB0ZXh0PXt0ZXh0fSBhdXRob3JOYW1lPXthdXRob3JOYW1lfSBpc0hlcm89e3BsYWNlbWVudC5pc0hlcm99IC8+OwoKICAgICAgICBjYXNlICd0aW1lbGluZS1wbGFuJzoKICAgICAgICAgICAgaWYgKHBheWxvYWQ/LmtpbmQgPT09ICd0aW1lbGluZScpIHsKICAgICAgICAgICAgICAgIHJldHVybiA8VGltZWxpbmVTbG90IHBheWxvYWQ9e3BheWxvYWR9IGF1dGhvck5hbWU9e2F1dGhvck5hbWV9IC8+OwogICAgICAgICAgICB9CiAgICAgICAgICAgIHJldHVybiA8SGVyb0RpYXJ5U2xvdCB0ZXh0PXt0ZXh0fSBhdXRob3JOYW1lPXthdXRob3JOYW1lfSAvPjsKCiAgICAgICAgY2FzZSAndG9kbyc6CiAgICAgICAgICAgIGlmIChwYXlsb2FkPy5raW5kID09PSAndG9kbycpIHsKICAgICAgICAgICAgICAgIHJldHVybiA8VG9kb1Nsb3QgcGF5bG9hZD17cGF5bG9hZH0gYXV0aG9yTmFtZT17YXV0aG9yTmFtZX0gLz47CiAgICAgICAgICAgIH0KICAgICAgICAgICAgcmV0dXJuIDxIZXJvRGlhcnlTbG90IHRleHQ9e3RleHR9IGF1dGhvck5hbWU9e2F1dGhvck5hbWV9IC8+OwoKICAgICAgICBjYXNlICdncmF0aXR1ZGUnOgogICAgICAgICAgICBpZiAocGF5bG9hZD8ua2luZCA9PT0gJ2dyYXRpdHVkZScpIHsKICAgICAgICAgICAgICAgIHJldHVybiA8R3JhdGl0dWRlU2xvdCBwYXlsb2FkPXtwYXlsb2FkfSBhdXRob3JOYW1lPXthdXRob3JOYW1lfSAvPjsKICAgICAgICAgICAgfQogICAgICAgICAgICByZXR1cm4gPEhlcm9EaWFyeVNsb3QgdGV4dD17dGV4dH0gYXV0aG9yTmFtZT17YXV0aG9yTmFtZX0gLz47CgogICAgICAgIGNhc2UgJ21vb2QtY2FyZCc6CiAgICAgICAgICAgIHJldHVybiAoCiAgICAgICAgICAgICAgICA8TW9vZFNsb3QKICAgICAgICAgICAgICAgICAgICB0ZXh0PXt0ZXh0fQogICAgICAgICAgICAgICAgICAgIHBheWxvYWQ9e3BheWxvYWQ/LmtpbmQgPT09ICdtb29kJyA/IHBheWxvYWQgOiB1bmRlZmluZWR9CiAgICAgICAgICAgICAgICAgICAgYXV0aG9yTmFtZT17YXV0aG9yTmFtZX0KICAgICAgICAgICAgICAgICAgICBza2luVmFyaWFudD17c2tpbn0KICAgICAgICAgICAgICAgIC8+CiAgICAgICAgICAgICk7CgogICAgICAgIGNhc2UgJ3Bob3RvLWNhcHRpb24nOgogICAgICAgICAgICByZXR1cm4gKAogICAgICAgICAgICAgICAgPFBob3RvU2xvdAogICAgICAgICAgICAgICAgICAgIHBheWxvYWQ9e3BheWxvYWQ/LmtpbmQgPT09ICdwaG90bycgPyBwYXlsb2FkIDogeyBraW5kOiAncGhvdG8nLCBjYXB0aW9uOiB0ZXh0IH19CiAgICAgICAgICAgICAgICAgICAgYXV0aG9yTmFtZT17YXV0aG9yTmFtZX0KICAgICAgICAgICAgICAgIC8+CiAgICAgICAgICAgICk7CgogICAgICAgIGNhc2UgJ3N0aWNreS1yZWFjdGlvbic6CiAgICAgICAgICAgIHJldHVybiA8U3RpY2t5UmVhY3Rpb25TbG90IHRleHQ9e3RleHR9IGF1dGhvck5hbWU9e2F1dGhvck5hbWV9IHNraW5WYXJpYW50PXtza2lufSAvPjsKCiAgICAgICAgY2FzZSAnY29ybmVyLW5vdGUnOgogICAgICAgICAgICByZXR1cm4gPENvcm5lck5vdGVTbG90IHRleHQ9e3RleHR9IGF1dGhvck5hbWU9e2F1dGhvck5hbWV9IHNlZWQ9e2ZyYWdtZW50Py5pZCB8fCBwYWdlLmlkfSAvPjsKCiAgICAgICAgZGVmYXVsdDoKICAgICAgICAgICAgcmV0dXJuICgKICAgICAgICAgICAgICAgIDxKb3VybmFsRnJhZ21lbnRDYXJkCiAgICAgICAgICAgICAgICAgICAgZnJhZ21lbnQ9e2ZyYWdtZW50fQogICAgICAgICAgICAgICAgICAgIHBhZ2U9e3BhZ2V9CiAgICAgICAgICAgICAgICAgICAgY2hhcj17Y2hhcn0KICAgICAgICAgICAgICAgICAgICByb2xlPXtwbGFjZW1lbnQucm9sZX0KICAgICAgICAgICAgICAgICAgICBpc0hlcm89e3BsYWNlbWVudC5pc0hlcm99CiAgICAgICAgICAgICAgICAvPgogICAgICAgICAgICApOwogICAgfQp9OwoKZXhwb3J0IGRlZmF1bHQgU2xvdFJlbmRlcmVyOwo=
+/**
+ * v2 槽位渲染器 — 按 SlotRole 分发到不同视觉。
+ *
+ * 设计:
+ *  - 旧版: 每个 placement 都是 JournalFragmentCard (一段段文字)
+ *  - 新版: 每个 slotRole 一种视觉 (todo 是 checklist, gratitude 是 bullet,
+ *    timeline 是时间表, mood-card 是星级卡, photo-caption 是拍立得 etc.)
+ *
+ *  - 不在这里做位置/旋转 (那是 JournalCanvas 的事), 只渲染卡片本体
+ *  - 字号/留白 跟随 isHero / charBudget
+ *  - 如果 fragment 没有 slotRole (老数据), 直接落到 JournalFragmentCard
+ */
+
+import React from 'react';
+import {
+    HandbookFragment, HandbookPage, CharacterProfile, LayoutPlacement, SlotRole, SlotPayload,
+} from '../../types';
+import {
+    PAPER_TONES, HANDWRITTEN_STACK, BRUSH_STACK, SERIF_STACK, seedFloat,
+} from './paper';
+import JournalFragmentCard from './JournalFragmentCard';
+import JournalRichText from './JournalRichText';
+
+// ─── skin variant → 配色 ──────────────────────────────────
+const SKIN_PALETTES: Record<string, { bg: string; border: string; accent: string; ink: string }> = {
+    lavender: { bg: '#f5eef7', border: '#d6c8e8', accent: '#a98ec4', ink: '#5a4a72' },
+    rose:     { bg: '#fff0f5', border: '#fbb8c8', accent: '#f29db0', ink: '#7a3845' },
+    mint:     { bg: '#f0faf5', border: '#bfe1cf', accent: '#88c5a8', ink: '#3a5a48' },
+    sky:      { bg: '#eef4f9', border: '#b9d3e0', accent: '#7ea7be', ink: '#3a536a' },
+    lemon:    { bg: '#fef9e0', border: '#f5e295', accent: '#d6b85a', ink: '#6a5520' },
+};
+function palette(skinVariant?: string) {
+    return SKIN_PALETTES[skinVariant || ''] || SKIN_PALETTES.lavender;
+}
+
+// ─── 通用: 作者标签 ─────────────────────────────────────
+const AuthorTag: React.FC<{ name: string; color?: string; small?: boolean }> = ({ name, color, small }) => (
+    <span style={{
+        ...HANDWRITTEN_STACK,
+        fontSize: small ? 10 : 12,
+        color: color || PAPER_TONES.inkSoft,
+        fontWeight: 600,
+        opacity: 0.85,
+    }}>
+        — {name}
+    </span>
+);
+
+// ─── hero-diary ──────────────────────────────────────────
+const HeroDiarySlot: React.FC<{ text: string; authorName: string; isHero?: boolean }> = ({ text, authorName, isHero }) => (
+    <div style={{ padding: '4px 6px' }}>
+        <div className="flex items-baseline gap-1 mb-1">
+            <span style={{
+                ...HANDWRITTEN_STACK,
+                fontSize: isHero ? 18 : 15,
+                color: PAPER_TONES.ink,
+                fontWeight: 600,
+            }}>
+                {authorName}:
+            </span>
+        </div>
+        <JournalRichText
+            text={text}
+            fontSize={isHero ? 17 : 14}
+            lineHeight={isHero ? '26px' : '22px'}
+            fontFamily={'"Noto Serif SC", "Songti SC", serif'}
+            opts={{
+                color: PAPER_TONES.ink,
+                accent: PAPER_TONES.accentBlush,
+                muted: PAPER_TONES.inkSoft,
+                boldColor: PAPER_TONES.ink,
+                headColor: PAPER_TONES.ink,
+            }}
+        />
+    </div>
+);
+
+// ─── timeline-plan ───────────────────────────────────────
+const TimelineSlot: React.FC<{ payload: Extract<SlotPayload, { kind: 'timeline' }>; authorName: string }> = ({ payload, authorName }) => {
+    const pal = palette('lavender');
+    return (
+        <div style={{
+            background: 'rgba(255,255,255,0.4)',
+            borderLeft: `2px solid ${pal.accent}`,
+            padding: '6px 8px 6px 10px',
+            borderRadius: 4,
+        }}>
+            <div className="flex items-baseline gap-1 mb-1">
+                <span style={{
+                    ...HANDWRITTEN_STACK, fontSize: 12, color: pal.accent, fontWeight: 700,
+                    letterSpacing: '0.1em',
+                }}>
+                    TODAY'S PLAN
+                </span>
+            </div>
+            <ul className="space-y-0.5 list-none m-0 p-0">
+                {payload.items.map((it, i) => (
+                    <li key={i} className="flex items-baseline gap-2" style={{
+                        ...HANDWRITTEN_STACK, fontSize: 12, color: PAPER_TONES.ink, lineHeight: 1.4,
+                    }}>
+                        <span style={{ minWidth: 36, color: pal.accent, fontWeight: 600 }}>{it.time}</span>
+                        <span className="flex-1">{it.text}</span>
+                        {it.emoji && <span>{it.emoji}</span>}
+                    </li>
+                ))}
+            </ul>
+            <div className="text-right mt-1"><AuthorTag name={authorName} small /></div>
+        </div>
+    );
+};
+
+// ─── todo ────────────────────────────────────────────────
+const TodoSlot: React.FC<{ payload: Extract<SlotPayload, { kind: 'todo' }>; authorName: string }> = ({ payload, authorName }) => {
+    const pal = palette('mint');
+    return (
+        <div style={{
+            background: 'rgba(255,255,255,0.45)',
+            border: `1px dashed ${pal.border}`,
+            padding: '6px 10px',
+            borderRadius: 6,
+        }}>
+            <div className="flex items-baseline gap-1 mb-1">
+                <span style={{
+                    ...HANDWRITTEN_STACK, fontSize: 12, color: pal.accent, fontWeight: 700,
+                    letterSpacing: '0.1em',
+                }}>
+                    TO DO
+                </span>
+            </div>
+            <ul className="space-y-1 list-none m-0 p-0">
+                {payload.items.map((it, i) => (
+                    <li key={i} className="flex items-start gap-1.5" style={{
+                        ...HANDWRITTEN_STACK, fontSize: 12.5, color: PAPER_TONES.ink, lineHeight: 1.35,
+                    }}>
+                        <span style={{
+                            width: 11, height: 11, marginTop: 3,
+                            border: `1.2px solid ${pal.accent}`,
+                            borderRadius: 2,
+                            display: 'inline-block', flexShrink: 0,
+                            position: 'relative',
+                        }}>
+                            {it.done && (
+                                <span style={{
+                                    position: 'absolute', top: -3, left: 1,
+                                    color: pal.accent, fontSize: 14, fontWeight: 700,
+                                    lineHeight: 1,
+                                }}>✓</span>
+                            )}
+                        </span>
+                        <span className={it.done ? 'line-through opacity-60' : ''}>{it.text}</span>
+                    </li>
+                ))}
+            </ul>
+            <div className="text-right mt-1"><AuthorTag name={authorName} small /></div>
+        </div>
+    );
+};
+
+// ─── gratitude ───────────────────────────────────────────
+const GratitudeSlot: React.FC<{ payload: Extract<SlotPayload, { kind: 'gratitude' }>; authorName: string }> = ({ payload, authorName }) => {
+    const pal = palette('rose');
+    return (
+        <div style={{ padding: '4px 6px' }}>
+            <div className="flex items-baseline gap-1 mb-1">
+                <span style={{
+                    ...HANDWRITTEN_STACK, fontSize: 12, color: pal.accent, fontWeight: 700,
+                    letterSpacing: '0.1em',
+                }}>
+                    今日感恩 ♡
+                </span>
+            </div>
+            <ul className="space-y-0.5 list-none m-0 p-0">
+                {payload.items.map((s, i) => (
+                    <li key={i} className="flex items-baseline gap-1.5" style={{
+                        ...HANDWRITTEN_STACK, fontSize: 12.5, color: PAPER_TONES.ink, lineHeight: 1.4,
+                    }}>
+                        <span style={{ color: pal.accent }}>·</span>
+                        <span className="flex-1">{s}</span>
+                    </li>
+                ))}
+            </ul>
+            <div className="text-right mt-1"><AuthorTag name={authorName} small /></div>
+        </div>
+    );
+};
+
+// ─── mood-card ───────────────────────────────────────────
+const MoodSlot: React.FC<{
+    text: string;
+    payload?: Extract<SlotPayload, { kind: 'mood' }>;
+    authorName: string;
+    skinVariant?: string;
+}> = ({ text, payload, authorName, skinVariant }) => {
+    const pal = palette(skinVariant);
+    const rating = payload?.rating ?? 3;
+    return (
+        <div style={{
+            background: pal.bg,
+            border: `1px solid ${pal.border}`,
+            borderRadius: 8,
+            padding: '6px 10px',
+            boxShadow: '0 1px 2px rgba(122,90,114,0.06)',
+        }}>
+            <div className="flex items-baseline justify-between mb-1">
+                <span style={{
+                    ...HANDWRITTEN_STACK, fontSize: 12, color: pal.accent, fontWeight: 700,
+                }}>
+                    Mood ♡
+                </span>
+                <span style={{ fontSize: 11, color: pal.accent, letterSpacing: 1 }}>
+                    {'★'.repeat(rating)}{'☆'.repeat(5 - rating)}
+                </span>
+            </div>
+            {text && (
+                <div style={{
+                    ...HANDWRITTEN_STACK, fontSize: 12.5, color: pal.ink, lineHeight: 1.4,
+                }}>
+                    {text}
+                </div>
+            )}
+            {payload?.tag && (
+                <div style={{
+                    display: 'inline-block', marginTop: 4,
+                    fontSize: 10, padding: '1px 6px', borderRadius: 8,
+                    background: pal.accent, color: '#fff',
+                }}>
+                    #{payload.tag}
+                </div>
+            )}
+            <div className="text-right mt-1"><AuthorTag name={authorName} color={pal.ink} small /></div>
+        </div>
+    );
+};
+
+// ─── photo-caption ───────────────────────────────────────
+const PhotoSlot: React.FC<{
+    payload?: Extract<SlotPayload, { kind: 'photo' }>;
+    authorName: string;
+}> = ({ payload, authorName }) => {
+    const caption = payload?.caption || '';
+    const src = payload?.src;
+    return (
+        <div style={{
+            background: '#fff',
+            padding: '6px 6px 8px 6px',
+            borderRadius: 4,
+            boxShadow: '0 2px 6px rgba(122,90,114,0.12), 0 1px 2px rgba(0,0,0,0.05)',
+            transform: 'rotate(-1.2deg)',
+        }}>
+            <div style={{
+                width: '100%', aspectRatio: '4 / 3',
+                background: src ? `url(${src}) center / cover` : 'repeating-linear-gradient(45deg, #f0e6ed 0 6px, #fbf3f7 6px 12px)',
+                borderRadius: 2,
+                position: 'relative',
+            }}>
+                {!src && (
+                    <div className="absolute inset-0 flex items-center justify-center" style={{
+                        ...HANDWRITTEN_STACK, fontSize: 11, color: PAPER_TONES.inkFaint,
+                    }}>
+                        贴一张今日照片
+                    </div>
+                )}
+            </div>
+            <div className="mt-1 text-center" style={{
+                ...HANDWRITTEN_STACK, fontSize: 11, color: PAPER_TONES.ink, lineHeight: 1.3,
+            }}>
+                {caption}
+            </div>
+            <div className="text-center" style={{ marginTop: 1 }}>
+                <AuthorTag name={authorName} small />
+            </div>
+        </div>
+    );
+};
+
+// ─── sticky-reaction ─────────────────────────────────────
+const StickyReactionSlot: React.FC<{
+    text: string; authorName: string; skinVariant?: string;
+}> = ({ text, authorName, skinVariant }) => {
+    const pal = palette(skinVariant);
+    return (
+        <div style={{
+            background: pal.bg,
+            border: `1px solid ${pal.border}`,
+            borderRadius: 6,
+            padding: '6px 9px',
+            boxShadow: '0 2px 4px rgba(122,90,114,0.1), 0 4px 10px -8px rgba(122,90,114,0.18)',
+            position: 'relative',
+        }}>
+            {/* 顶部小胶带 */}
+            <div style={{
+                position: 'absolute', top: -4, left: '50%',
+                transform: 'translateX(-50%) rotate(-2deg)',
+                width: '40%', height: 8,
+                background: `repeating-linear-gradient(135deg, ${pal.accent}80 0 4px, transparent 4px 7px)`,
+                borderRadius: 1,
+            }} />
+            <div style={{
+                ...HANDWRITTEN_STACK, fontSize: 12, color: pal.ink, lineHeight: 1.4, marginTop: 4,
+            }}>
+                {text}
+            </div>
+            <div className="text-right mt-1"><AuthorTag name={authorName} color={pal.accent} small /></div>
+        </div>
+    );
+};
+
+// ─── corner-note ─────────────────────────────────────────
+const CornerNoteSlot: React.FC<{ text: string; authorName: string; seed: string }> = ({ text, authorName, seed }) => {
+    const colors = ['#3d2f3d', '#c94a4a', '#5a7a8e', '#a98ec4', '#88a370'];
+    const color = colors[Math.floor(seedFloat(seed, 4321) * colors.length)];
+    return (
+        <div style={{ padding: 0 }}>
+            <span style={{
+                ...HANDWRITTEN_STACK,
+                fontSize: 13, color, lineHeight: 1.3,
+                display: 'block', whiteSpace: 'pre-wrap',
+            }}>
+                {text}
+            </span>
+            <span style={{
+                ...HANDWRITTEN_STACK, fontSize: 9.5, color, opacity: 0.55,
+                display: 'block', textAlign: 'right', marginTop: 1,
+            }}>
+                — {authorName}
+            </span>
+        </div>
+    );
+};
+
+// ─── 路由 ────────────────────────────────────────────────
+interface SlotRendererProps {
+    placement: LayoutPlacement;
+    fragment?: HandbookFragment;
+    page: HandbookPage;
+    char?: CharacterProfile;
+    userName: string;
+}
+
+const SlotRenderer: React.FC<SlotRendererProps> = ({ placement, fragment, page, char, userName }) => {
+    const slotRole: SlotRole | undefined = placement.slotRole || fragment?.slotRole;
+
+    // 老数据 / 没 slotRole → 走老 JournalFragmentCard
+    if (!slotRole) {
+        return (
+            <JournalFragmentCard
+                fragment={fragment}
+                page={page}
+                char={char}
+                role={placement.role}
+                isHero={placement.isHero}
+            />
+        );
+    }
+
+    const authorName = page.charId ? (char?.name || '某角色') : userName;
+    const text = fragment?.text || '';
+    const payload = fragment?.payload;
+    const skin = placement.skinVariant || (fragment as any)?.skinVariant;
+
+    switch (slotRole) {
+        case 'hero-diary':
+            return <HeroDiarySlot text={text} authorName={authorName} isHero={placement.isHero} />;
+
+        case 'timeline-plan':
+            if (payload?.kind === 'timeline') {
+                return <TimelineSlot payload={payload} authorName={authorName} />;
+            }
+            return <HeroDiarySlot text={text} authorName={authorName} />;
+
+        case 'todo':
+            if (payload?.kind === 'todo') {
+                return <TodoSlot payload={payload} authorName={authorName} />;
+            }
+            return <HeroDiarySlot text={text} authorName={authorName} />;
+
+        case 'gratitude':
+            if (payload?.kind === 'gratitude') {
+                return <GratitudeSlot payload={payload} authorName={authorName} />;
+            }
+            return <HeroDiarySlot text={text} authorName={authorName} />;
+
+        case 'mood-card':
+            return (
+                <MoodSlot
+                    text={text}
+                    payload={payload?.kind === 'mood' ? payload : undefined}
+                    authorName={authorName}
+                    skinVariant={skin}
+                />
+            );
+
+        case 'photo-caption':
+            return (
+                <PhotoSlot
+                    payload={payload?.kind === 'photo' ? payload : { kind: 'photo', caption: text }}
+                    authorName={authorName}
+                />
+            );
+
+        case 'sticky-reaction':
+            return <StickyReactionSlot text={text} authorName={authorName} skinVariant={skin} />;
+
+        case 'corner-note':
+            return <CornerNoteSlot text={text} authorName={authorName} seed={fragment?.id || page.id} />;
+
+        default:
+            return (
+                <JournalFragmentCard
+                    fragment={fragment}
+                    page={page}
+                    char={char}
+                    role={placement.role}
+                    isHero={placement.isHero}
+                />
+            );
+    }
+};
+
+export default SlotRenderer;

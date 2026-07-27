@@ -1,1 +1,72 @@
-aW1wb3J0IHsgZGVzY3JpYmUsIGl0LCBleHBlY3QsIGJlZm9yZUVhY2ggfSBmcm9tICd2aXRlc3QnOwppbXBvcnQgeyBEQiB9IGZyb20gJy4vZGInOwppbXBvcnQgeyBNSVJST1JFRF9LRVlTLCBoZWFsTG9jYWxTdG9yYWdlTWlycm9yLCBzbmFwc2hvdExvY2FsU3RvcmFnZU1pcnJvciB9IGZyb20gJy4vbHNNaXJyb3InOwoKLy8gbG9jYWxTdG9yYWdlIOmVnOWDj++8muaooeaLnyLmtY/op4jlmajmuIXkuoYgbG9jYWxTdG9yYWdlIOS9hiBJbmRleGVkREIg5bm45a2YIueahOeUqOaIt+eOsOWcugovLyDvvIjkuLvpopjlm57liJ3lp4sgLyDnm7Lnm5LmlLbol4/lhozmuIXnqbogLyBBUEkg6YWN572u5Lii5aSx5a+86Ie044CM5pu05paw6L+Z5LiA5aSp44CN5peg5Y+N5bqU77yJ44CCCmRlc2NyaWJlKCdsb2NhbFN0b3JhZ2UgSW5kZXhlZERCIOmVnOWDjyAobHNNaXJyb3IpJywgKCkgPT4gewogICAgYmVmb3JlRWFjaChhc3luYyAoKSA9PiB7CiAgICAgICAgbG9jYWxTdG9yYWdlLmNsZWFyKCk7CiAgICAgICAgYXdhaXQgREIuc2F2ZUFzc2V0UmF3KCdsc19taXJyb3JfdjEnLCBudWxsIGFzIGFueSkuY2F0Y2goKCkgPT4ge30pOwogICAgfSk7CgogICAgaXQoJ+W/q+eFpyDihpIgbG9jYWxTdG9yYWdlIOiiq+a4hSDihpIg5Zue5aGr5oGi5aSNJywgYXN5bmMgKCkgPT4gewogICAgICAgIGxvY2FsU3RvcmFnZS5zZXRJdGVtKCdvc190aGVtZScsICd7Imh1ZSI6MzAwfScpOwogICAgICAgIGxvY2FsU3RvcmFnZS5zZXRJdGVtKCdvc19hcGlfY29uZmlnJywgJ3siYmFzZVVybCI6Imh0dHBzOi8veCIsImFwaUtleSI6InNrLTEiLCJtb2RlbCI6Im0ifScpOwogICAgICAgIGxvY2FsU3RvcmFnZS5zZXRJdGVtKCdvc19kcmVhbV9jb2xsZWN0aW9uJywgJ3sic3dlZXQiOnsiZmlyc3RBdCI6MSwiY291bnQiOjJ9fScpOwogICAgICAgIGF3YWl0IHNuYXBzaG90TG9jYWxTdG9yYWdlTWlycm9yKCk7CgogICAgICAgIGxvY2FsU3RvcmFnZS5jbGVhcigpOyAvLyDmqKHmi5/mtY/op4jlmajpqbHpgJAKCiAgICAgICAgY29uc3QgcmVzdG9yZWQgPSBhd2FpdCBoZWFsTG9jYWxTdG9yYWdlTWlycm9yKCk7CiAgICAgICAgZXhwZWN0KHJlc3RvcmVkLnNvcnQoKSkudG9FcXVhbChbJ29zX2FwaV9jb25maWcnLCAnb3NfZHJlYW1fY29sbGVjdGlvbicsICdvc190aGVtZSddKTsKICAgICAgICBleHBlY3QobG9jYWxTdG9yYWdlLmdldEl0ZW0oJ29zX3RoZW1lJykpLnRvQmUoJ3siaHVlIjozMDB9Jyk7CiAgICAgICAgZXhwZWN0KGxvY2FsU3RvcmFnZS5nZXRJdGVtKCdvc19kcmVhbV9jb2xsZWN0aW9uJykpLnRvQmUoJ3sic3dlZXQiOnsiZmlyc3RBdCI6MSwiY291bnQiOjJ9fScpOwogICAgfSk7CgogICAgaXQoJ2xvY2FsU3RvcmFnZSDlt7LmnInlgLzml7blm57loavkuI3opobnm5bvvIjnnJ/lgLzmsLjov5zmmK8gbG9jYWxTdG9yYWdl77yJJywgYXN5bmMgKCkgPT4gewogICAgICAgIGxvY2FsU3RvcmFnZS5zZXRJdGVtKCdvc190aGVtZScsICd7Imh1ZSI6MX0nKTsKICAgICAgICBhd2FpdCBzbmFwc2hvdExvY2FsU3RvcmFnZU1pcnJvcigpOwoKICAgICAgICBsb2NhbFN0b3JhZ2Uuc2V0SXRlbSgnb3NfdGhlbWUnLCAneyJodWUiOjJ9Jyk7IC8vIOeUqOaIt+S5i+WQjuWPiOaUueS6huS4u+mimAogICAgICAgIGNvbnN0IHJlc3RvcmVkID0gYXdhaXQgaGVhbExvY2FsU3RvcmFnZU1pcnJvcigpOwogICAgICAgIGV4cGVjdChyZXN0b3JlZCkudG9FcXVhbChbXSk7CiAgICAgICAgZXhwZWN0KGxvY2FsU3RvcmFnZS5nZXRJdGVtKCdvc190aGVtZScpKS50b0JlKCd7Imh1ZSI6Mn0nKTsKICAgIH0pOwoKICAgIGl0KCdyZW1vdmVJdGVtIOivreS5ie+8muaWsOW/q+eFp+S4jeWGjeWQq+W3suWIoOmZpOeahOmUru+8jOWbnuWhq+S4jeS8muWkjea0u+WugycsIGFzeW5jICgpID0+IHsKICAgICAgICBsb2NhbFN0b3JhZ2Uuc2V0SXRlbSgnc3R1ZHlfYXBpX2NvbmZpZycsICd7ImJhc2VVcmwiOiJodHRwczovL3ByaXZhdGUifScpOwogICAgICAgIGxvY2FsU3RvcmFnZS5zZXRJdGVtKCdvc190aGVtZScsICd7Imh1ZSI6OX0nKTsKICAgICAgICBhd2FpdCBzbmFwc2hvdExvY2FsU3RvcmFnZU1pcnJvcigpOwoKICAgICAgICBsb2NhbFN0b3JhZ2UucmVtb3ZlSXRlbSgnc3R1ZHlfYXBpX2NvbmZpZycpOyAvLyDnlKjmiLfngrnkuobjgIzmgaLlpI3kvb/nlKjlhajlsYAgQVBJ44CNCiAgICAgICAgYXdhaXQgc25hcHNob3RMb2NhbFN0b3JhZ2VNaXJyb3IoKTsgICAgICAgICAgLy8g6aG16Z2i6ZqQ6JePL+WumuaXtuW/q+eFp+i3n+i/mwoKICAgICAgICBsb2NhbFN0b3JhZ2UuY2xlYXIoKTsKICAgICAgICBjb25zdCByZXN0b3JlZCA9IGF3YWl0IGhlYWxMb2NhbFN0b3JhZ2VNaXJyb3IoKTsKICAgICAgICBleHBlY3QocmVzdG9yZWQpLnRvRXF1YWwoWydvc190aGVtZSddKTsKICAgICAgICBleHBlY3QobG9jYWxTdG9yYWdlLmdldEl0ZW0oJ3N0dWR5X2FwaV9jb25maWcnKSkudG9CZU51bGwoKTsKICAgIH0pOwoKICAgIGl0KCdsb2NhbFN0b3JhZ2Ug5YWo56m65pe25LiN5YaZ5b+r54Wn77yI5LiN5ou/56m66KaG55uW5pyJ5pWI6ZWc5YOP77yJJywgYXN5bmMgKCkgPT4gewogICAgICAgIGxvY2FsU3RvcmFnZS5zZXRJdGVtKCdvc190aGVtZScsICd7Imh1ZSI6N30nKTsKICAgICAgICBhd2FpdCBzbmFwc2hvdExvY2FsU3RvcmFnZU1pcnJvcigpOwoKICAgICAgICBsb2NhbFN0b3JhZ2UuY2xlYXIoKTsKICAgICAgICBhd2FpdCBzbmFwc2hvdExvY2FsU3RvcmFnZU1pcnJvcigpOyAvLyDnqbrnmoTvvIzlupTlvZPooqvlv73nlaUKCiAgICAgICAgY29uc3QgcmVzdG9yZWQgPSBhd2FpdCBoZWFsTG9jYWxTdG9yYWdlTWlycm9yKCk7CiAgICAgICAgZXhwZWN0KHJlc3RvcmVkKS50b0VxdWFsKFsnb3NfdGhlbWUnXSk7CiAgICB9KTsKCiAgICBpdCgn5rKh5pyJ6ZWc5YOP5pe25Zue5aGr6Z2Z6buY6L+U5Zue56m65pWw57uEJywgYXN5bmMgKCkgPT4gewogICAgICAgIGNvbnN0IHJlc3RvcmVkID0gYXdhaXQgaGVhbExvY2FsU3RvcmFnZU1pcnJvcigpOwogICAgICAgIGV4cGVjdChyZXN0b3JlZCkudG9FcXVhbChbXSk7CiAgICB9KTsKCiAgICBpdCgn6ZWc5YOP6ZSu5ZCN5Y2V5LiN5ZCr5aSn5L2T56ev6ZSu77yIZGF0YSBVUkkg57G75b+F6aG76LWwIGFzc2V0c++8iScsICgpID0+IHsKICAgICAgICBmb3IgKGNvbnN0IGsgb2YgTUlSUk9SRURfS0VZUykgewogICAgICAgICAgICBleHBlY3Qoaykubm90LnRvTWF0Y2goL3dhbGxwYXBlcnxmb250fHNwcml0ZXxpbWFnZXxibG9iL2kpOwogICAgICAgIH0KICAgIH0pOwp9KTsK
+import { describe, it, expect, beforeEach } from 'vitest';
+import { DB } from './db';
+import { MIRRORED_KEYS, healLocalStorageMirror, snapshotLocalStorageMirror } from './lsMirror';
+
+// localStorage 镜像：模拟"浏览器清了 localStorage 但 IndexedDB 幸存"的用户现场
+// （主题回初始 / 盲盒收藏册清空 / API 配置丢失导致「更新这一天」无反应）。
+describe('localStorage IndexedDB 镜像 (lsMirror)', () => {
+    beforeEach(async () => {
+        localStorage.clear();
+        await DB.saveAssetRaw('ls_mirror_v1', null as any).catch(() => {});
+    });
+
+    it('快照 → localStorage 被清 → 回填恢复', async () => {
+        localStorage.setItem('os_theme', '{"hue":300}');
+        localStorage.setItem('os_api_config', '{"baseUrl":"https://x","apiKey":"sk-1","model":"m"}');
+        localStorage.setItem('os_dream_collection', '{"sweet":{"firstAt":1,"count":2}}');
+        await snapshotLocalStorageMirror();
+
+        localStorage.clear(); // 模拟浏览器驱逐
+
+        const restored = await healLocalStorageMirror();
+        expect(restored.sort()).toEqual(['os_api_config', 'os_dream_collection', 'os_theme']);
+        expect(localStorage.getItem('os_theme')).toBe('{"hue":300}');
+        expect(localStorage.getItem('os_dream_collection')).toBe('{"sweet":{"firstAt":1,"count":2}}');
+    });
+
+    it('localStorage 已有值时回填不覆盖（真值永远是 localStorage）', async () => {
+        localStorage.setItem('os_theme', '{"hue":1}');
+        await snapshotLocalStorageMirror();
+
+        localStorage.setItem('os_theme', '{"hue":2}'); // 用户之后又改了主题
+        const restored = await healLocalStorageMirror();
+        expect(restored).toEqual([]);
+        expect(localStorage.getItem('os_theme')).toBe('{"hue":2}');
+    });
+
+    it('removeItem 语义：新快照不再含已删除的键，回填不会复活它', async () => {
+        localStorage.setItem('study_api_config', '{"baseUrl":"https://private"}');
+        localStorage.setItem('os_theme', '{"hue":9}');
+        await snapshotLocalStorageMirror();
+
+        localStorage.removeItem('study_api_config'); // 用户点了「恢复使用全局 API」
+        await snapshotLocalStorageMirror();          // 页面隐藏/定时快照跟进
+
+        localStorage.clear();
+        const restored = await healLocalStorageMirror();
+        expect(restored).toEqual(['os_theme']);
+        expect(localStorage.getItem('study_api_config')).toBeNull();
+    });
+
+    it('localStorage 全空时不写快照（不拿空覆盖有效镜像）', async () => {
+        localStorage.setItem('os_theme', '{"hue":7}');
+        await snapshotLocalStorageMirror();
+
+        localStorage.clear();
+        await snapshotLocalStorageMirror(); // 空的，应当被忽略
+
+        const restored = await healLocalStorageMirror();
+        expect(restored).toEqual(['os_theme']);
+    });
+
+    it('没有镜像时回填静默返回空数组', async () => {
+        const restored = await healLocalStorageMirror();
+        expect(restored).toEqual([]);
+    });
+
+    it('镜像键名单不含大体积键（data URI 类必须走 assets）', () => {
+        for (const k of MIRRORED_KEYS) {
+            expect(k).not.toMatch(/wallpaper|font|sprite|image|blob/i);
+        }
+    });
+});

@@ -1,1 +1,423 @@
-LyoqCiAqIGF1ZGlvRW5naW5lLnRzIOKAlCBXZWIgQXVkaW8gQVBJIHN5bnRoZXNpemVyIGZvciBzb25nd3JpdGluZyBhcnJhbmdlbWVudCBwbGF5YmFjay4KICogUHJvdmlkZXMgcGlhbm8sIGJhc3MsIGRydW0sIGFuZCBtZWxvZHkgbGVhZCB2b2ljZXMgd2l0aCBhY2N1cmF0ZSBzY2hlZHVsaW5nLgogKi8KCmltcG9ydCB7IENob3JkSW5mbywgTWVsb2R5Tm90ZSwgU29uZ0FycmFuZ2VtZW50IH0gZnJvbSAnLi4vdHlwZXMnOwppbXBvcnQgeyBnZXRDaG9yZEZyZXF1ZW5jaWVzLCBnZXRCYXNzRnJlcXVlbmN5IH0gZnJvbSAnLi9jaG9yZEVuZ2luZSc7CgovLyDilIDilIAgQXVkaW8gQ29udGV4dCBTaW5nbGV0b24g4pSA4pSACgpsZXQgX2N0eDogQXVkaW9Db250ZXh0IHwgbnVsbCA9IG51bGw7CmZ1bmN0aW9uIGdldEN0eCgpOiBBdWRpb0NvbnRleHQgewogICAgaWYgKCFfY3R4KSBfY3R4ID0gbmV3IEF1ZGlvQ29udGV4dCgpOwogICAgaWYgKF9jdHguc3RhdGUgPT09ICdzdXNwZW5kZWQnKSBfY3R4LnJlc3VtZSgpOwogICAgcmV0dXJuIF9jdHg7Cn0KCi8vIOKUgOKUgCBNSURJIHRvIEZyZXF1ZW5jeSDilIDilIAKCmZ1bmN0aW9uIG1pZGlUb0ZyZXEobWlkaTogbnVtYmVyKTogbnVtYmVyIHsKICAgIHJldHVybiA0NDAgKiBNYXRoLnBvdygyLCAobWlkaSAtIDY5KSAvIDEyKTsKfQoKLy8g4pSA4pSAIEFEU1IgRW52ZWxvcGUgSGVscGVyIOKUgOKUgAoKZnVuY3Rpb24gYXBwbHlFbnZlbG9wZSgKICAgIGdhaW46IEdhaW5Ob2RlLAogICAgdGltZTogbnVtYmVyLAogICAgYXR0YWNrOiBudW1iZXIsCiAgICBkZWNheTogbnVtYmVyLAogICAgc3VzdGFpbjogbnVtYmVyLAogICAgcmVsZWFzZTogbnVtYmVyLAogICAgZHVyYXRpb246IG51bWJlciwKKSB7CiAgICBjb25zdCBnID0gZ2Fpbi5nYWluOwogICAgZy5zZXRWYWx1ZUF0VGltZSgwLCB0aW1lKTsKICAgIGcubGluZWFyUmFtcFRvVmFsdWVBdFRpbWUoMSwgdGltZSArIGF0dGFjayk7CiAgICBnLmxpbmVhclJhbXBUb1ZhbHVlQXRUaW1lKHN1c3RhaW4sIHRpbWUgKyBhdHRhY2sgKyBkZWNheSk7CiAgICBnLnNldFZhbHVlQXRUaW1lKHN1c3RhaW4sIHRpbWUgKyBkdXJhdGlvbiAtIHJlbGVhc2UpOwogICAgZy5saW5lYXJSYW1wVG9WYWx1ZUF0VGltZSgwLCB0aW1lICsgZHVyYXRpb24pOwp9CgovLyDilIDilIAgUGlhbm8gVm9pY2Ug4pSA4pSACgpmdW5jdGlvbiBwbGF5UGlhbm9DaG9yZChjdHg6IEF1ZGlvQ29udGV4dCwgZGVzdDogQXVkaW9Ob2RlLCBjaG9yZDogQ2hvcmRJbmZvLCB0aW1lOiBudW1iZXIsIGR1cmF0aW9uOiBudW1iZXIsIHZvbHVtZTogbnVtYmVyKSB7CiAgICBjb25zdCBmcmVxcyA9IGdldENob3JkRnJlcXVlbmNpZXMoY2hvcmQsIDQpOwogICAgY29uc3QgcGVyTm90ZSA9IHZvbHVtZSAvIGZyZXFzLmxlbmd0aDsKCiAgICBmb3IgKGNvbnN0IGZyZXEgb2YgZnJlcXMpIHsKICAgICAgICBjb25zdCBvc2MxID0gY3R4LmNyZWF0ZU9zY2lsbGF0b3IoKTsKICAgICAgICBjb25zdCBvc2MyID0gY3R4LmNyZWF0ZU9zY2lsbGF0b3IoKTsKICAgICAgICBjb25zdCBnYWluID0gY3R4LmNyZWF0ZUdhaW4oKTsKCiAgICAgICAgb3NjMS50eXBlID0gJ3RyaWFuZ2xlJzsKICAgICAgICBvc2MxLmZyZXF1ZW5jeS5zZXRWYWx1ZUF0VGltZShmcmVxLCB0aW1lKTsKICAgICAgICBvc2MyLnR5cGUgPSAnc2luZSc7CiAgICAgICAgb3NjMi5mcmVxdWVuY3kuc2V0VmFsdWVBdFRpbWUoZnJlcSAqIDIuMDEsIHRpbWUpOyAvLyBzbGlnaHQgZGV0dW5lIGZvciB3YXJtdGgKICAgICAgICBvc2MyLmRldHVuZS5zZXRWYWx1ZUF0VGltZSgzLCB0aW1lKTsKCiAgICAgICAgb3NjMS5jb25uZWN0KGdhaW4pOwogICAgICAgIG9zYzIuY29ubmVjdChnYWluKTsKICAgICAgICBnYWluLmNvbm5lY3QoZGVzdCk7CgogICAgICAgIGFwcGx5RW52ZWxvcGUoZ2FpbiwgdGltZSwgMC4wMSwgMC4xNSwgMC4zICogcGVyTm90ZSwgMC4zLCBkdXJhdGlvbik7CgogICAgICAgIG9zYzEuc3RhcnQodGltZSk7CiAgICAgICAgb3NjMS5zdG9wKHRpbWUgKyBkdXJhdGlvbiArIDAuMSk7CiAgICAgICAgb3NjMi5zdGFydCh0aW1lKTsKICAgICAgICBvc2MyLnN0b3AodGltZSArIGR1cmF0aW9uICsgMC4xKTsKICAgIH0KfQoKLy8g4pSA4pSAIEJhc3MgVm9pY2Ug4pSA4pSACgpmdW5jdGlvbiBwbGF5QmFzcyhjdHg6IEF1ZGlvQ29udGV4dCwgZGVzdDogQXVkaW9Ob2RlLCBjaG9yZDogQ2hvcmRJbmZvLCB0aW1lOiBudW1iZXIsIGR1cmF0aW9uOiBudW1iZXIsIHZvbHVtZTogbnVtYmVyKSB7CiAgICBjb25zdCBmcmVxID0gZ2V0QmFzc0ZyZXF1ZW5jeShjaG9yZCk7CiAgICBjb25zdCBvc2MgPSBjdHguY3JlYXRlT3NjaWxsYXRvcigpOwogICAgY29uc3QgZ2FpbiA9IGN0eC5jcmVhdGVHYWluKCk7CiAgICBjb25zdCBmaWx0ZXIgPSBjdHguY3JlYXRlQmlxdWFkRmlsdGVyKCk7CgogICAgb3NjLnR5cGUgPSAnc2F3dG9vdGgnOwogICAgb3NjLmZyZXF1ZW5jeS5zZXRWYWx1ZUF0VGltZShmcmVxLCB0aW1lKTsKCiAgICBmaWx0ZXIudHlwZSA9ICdsb3dwYXNzJzsKICAgIGZpbHRlci5mcmVxdWVuY3kuc2V0VmFsdWVBdFRpbWUoMzAwLCB0aW1lKTsKICAgIGZpbHRlci5RLnNldFZhbHVlQXRUaW1lKDIsIHRpbWUpOwoKICAgIG9zYy5jb25uZWN0KGZpbHRlcik7CiAgICBmaWx0ZXIuY29ubmVjdChnYWluKTsKICAgIGdhaW4uY29ubmVjdChkZXN0KTsKCiAgICBhcHBseUVudmVsb3BlKGdhaW4sIHRpbWUsIDAuMDIsIDAuMSwgMC42ICogdm9sdW1lLCAwLjE1LCBkdXJhdGlvbik7CgogICAgb3NjLnN0YXJ0KHRpbWUpOwogICAgb3NjLnN0b3AodGltZSArIGR1cmF0aW9uICsgMC4yKTsKfQoKLy8g4pSA4pSAIE1lbG9keSBMZWFkIFZvaWNlIOKUgOKUgAovLyBSaWNoIGxlYWQgc3ludGg6IHNpbmUgKyBzYXcgKGRldHVuZWQpICsgc3VidGxlIHZpYnJhdG8gdmlhIExGTwoKZnVuY3Rpb24gcGxheU1lbG9keU5vdGUoY3R4OiBBdWRpb0NvbnRleHQsIGRlc3Q6IEF1ZGlvTm9kZSwgbWlkaTogbnVtYmVyLCB0aW1lOiBudW1iZXIsIGR1cmF0aW9uOiBudW1iZXIsIHZvbHVtZTogbnVtYmVyKSB7CiAgICBjb25zdCBmcmVxID0gbWlkaVRvRnJlcShtaWRpKTsKCiAgICAvLyBQcmltYXJ5IG9zY2lsbGF0b3Ig4oCUIHNpbmUgZm9yIHB1cml0eQogICAgY29uc3Qgb3NjMSA9IGN0eC5jcmVhdGVPc2NpbGxhdG9yKCk7CiAgICBvc2MxLnR5cGUgPSAnc2luZSc7CiAgICBvc2MxLmZyZXF1ZW5jeS5zZXRWYWx1ZUF0VGltZShmcmVxLCB0aW1lKTsKCiAgICAvLyBTZWNvbmRhcnkgb3NjaWxsYXRvciDigJQgdHJpYW5nbGUgb25lIG9jdGF2ZSB1cCwgZGV0dW5lZCBmb3Igc2hpbW1lcgogICAgY29uc3Qgb3NjMiA9IGN0eC5jcmVhdGVPc2NpbGxhdG9yKCk7CiAgICBvc2MyLnR5cGUgPSAndHJpYW5nbGUnOwogICAgb3NjMi5mcmVxdWVuY3kuc2V0VmFsdWVBdFRpbWUoZnJlcSwgdGltZSk7CiAgICBvc2MyLmRldHVuZS5zZXRWYWx1ZUF0VGltZSg3LCB0aW1lKTsgLy8gNyBjZW50cyBkZXR1bmUgZm9yIGNob3J1cyBlZmZlY3QKCiAgICAvLyBTdWJ0bGUgdmlicmF0byBMRk8KICAgIGNvbnN0IGxmbyA9IGN0eC5jcmVhdGVPc2NpbGxhdG9yKCk7CiAgICBjb25zdCBsZm9HYWluID0gY3R4LmNyZWF0ZUdhaW4oKTsKICAgIGxmby50eXBlID0gJ3NpbmUnOwogICAgbGZvLmZyZXF1ZW5jeS5zZXRWYWx1ZUF0VGltZSg1LCB0aW1lKTsgLy8gNSBIeiB2aWJyYXRvCiAgICBsZm9HYWluLmdhaW4uc2V0VmFsdWVBdFRpbWUoMCwgdGltZSk7CiAgICAvLyBWaWJyYXRvIGZhZGVzIGluIGFmdGVyIHRoZSBhdHRhY2sgcGhhc2UKICAgIGxmb0dhaW4uZ2Fpbi5saW5lYXJSYW1wVG9WYWx1ZUF0VGltZSgwLCB0aW1lICsgMC4wOCk7CiAgICBsZm9HYWluLmdhaW4ubGluZWFyUmFtcFRvVmFsdWVBdFRpbWUoMywgdGltZSArIGR1cmF0aW9uICogMC40KTsgLy8gMyBjZW50cyBkZXB0aAogICAgbGZvLmNvbm5lY3QobGZvR2Fpbik7CiAgICBsZm9HYWluLmNvbm5lY3Qob3NjMS5kZXR1bmUpOwogICAgbGZvR2Fpbi5jb25uZWN0KG9zYzIuZGV0dW5lKTsKCiAgICAvLyBHYWluIGVudmVsb3BlCiAgICBjb25zdCBnYWluID0gY3R4LmNyZWF0ZUdhaW4oKTsKCiAgICAvLyBTbGlnaHQgbG93cGFzcyBmaWx0ZXIgZm9yIHdhcm10aAogICAgY29uc3QgZmlsdGVyID0gY3R4LmNyZWF0ZUJpcXVhZEZpbHRlcigpOwogICAgZmlsdGVyLnR5cGUgPSAnbG93cGFzcyc7CiAgICBmaWx0ZXIuZnJlcXVlbmN5LnNldFZhbHVlQXRUaW1lKE1hdGgubWluKGZyZXEgKiA0LCA4MDAwKSwgdGltZSk7CiAgICBmaWx0ZXIuUS5zZXRWYWx1ZUF0VGltZSgwLjcsIHRpbWUpOwoKICAgIG9zYzEuY29ubmVjdChmaWx0ZXIpOwogICAgb3NjMi5jb25uZWN0KGZpbHRlcik7CiAgICBmaWx0ZXIuY29ubmVjdChnYWluKTsKICAgIGdhaW4uY29ubmVjdChkZXN0KTsKCiAgICAvLyBBRFNSOiBxdWljayBhdHRhY2ssIHNtb290aCBzdXN0YWluLCBnZW50bGUgcmVsZWFzZQogICAgY29uc3QgYXR0YWNrID0gMC4wMTU7CiAgICBjb25zdCBkZWNheSA9IDAuMDg7CiAgICBjb25zdCBzdXN0YWluID0gdm9sdW1lICogMC43OwogICAgY29uc3QgcmVsZWFzZSA9IE1hdGgubWluKDAuMTUsIGR1cmF0aW9uICogMC4zKTsKICAgIGFwcGx5RW52ZWxvcGUoZ2FpbiwgdGltZSwgYXR0YWNrLCBkZWNheSwgc3VzdGFpbiwgcmVsZWFzZSwgZHVyYXRpb24pOwoKICAgIGxmby5zdGFydCh0aW1lKTsKICAgIGxmby5zdG9wKHRpbWUgKyBkdXJhdGlvbiArIDAuMik7CiAgICBvc2MxLnN0YXJ0KHRpbWUpOwogICAgb3NjMS5zdG9wKHRpbWUgKyBkdXJhdGlvbiArIDAuMik7CiAgICBvc2MyLnN0YXJ0KHRpbWUpOwogICAgb3NjMi5zdG9wKHRpbWUgKyBkdXJhdGlvbiArIDAuMik7Cn0KCi8vIOKUgOKUgCBEcnVtIFZvaWNlcyDilIDilIAKCmZ1bmN0aW9uIHBsYXlLaWNrKGN0eDogQXVkaW9Db250ZXh0LCBkZXN0OiBBdWRpb05vZGUsIHRpbWU6IG51bWJlciwgdm9sdW1lOiBudW1iZXIpIHsKICAgIGNvbnN0IG9zYyA9IGN0eC5jcmVhdGVPc2NpbGxhdG9yKCk7CiAgICBjb25zdCBnYWluID0gY3R4LmNyZWF0ZUdhaW4oKTsKICAgIG9zYy50eXBlID0gJ3NpbmUnOwogICAgb3NjLmZyZXF1ZW5jeS5zZXRWYWx1ZUF0VGltZSgxNTAsIHRpbWUpOwogICAgb3NjLmZyZXF1ZW5jeS5leHBvbmVudGlhbFJhbXBUb1ZhbHVlQXRUaW1lKDQwLCB0aW1lICsgMC4xMik7CiAgICBvc2MuY29ubmVjdChnYWluKTsKICAgIGdhaW4uY29ubmVjdChkZXN0KTsKICAgIGdhaW4uZ2Fpbi5zZXRWYWx1ZUF0VGltZSh2b2x1bWUsIHRpbWUpOwogICAgZ2Fpbi5nYWluLmV4cG9uZW50aWFsUmFtcFRvVmFsdWVBdFRpbWUoMC4wMDEsIHRpbWUgKyAwLjMpOwogICAgb3NjLnN0YXJ0KHRpbWUpOwogICAgb3NjLnN0b3AodGltZSArIDAuMzUpOwp9CgpmdW5jdGlvbiBwbGF5U25hcmUoY3R4OiBBdWRpb0NvbnRleHQsIGRlc3Q6IEF1ZGlvTm9kZSwgdGltZTogbnVtYmVyLCB2b2x1bWU6IG51bWJlcikgewogICAgLy8gTm9pc2UgYnVyc3QKICAgIGNvbnN0IGJ1ZmZlclNpemUgPSBjdHguc2FtcGxlUmF0ZSAqIDAuMTsKICAgIGNvbnN0IGJ1ZmZlciA9IGN0eC5jcmVhdGVCdWZmZXIoMSwgYnVmZmVyU2l6ZSwgY3R4LnNhbXBsZVJhdGUpOwogICAgY29uc3QgZGF0YSA9IGJ1ZmZlci5nZXRDaGFubmVsRGF0YSgwKTsKICAgIGZvciAobGV0IGkgPSAwOyBpIDwgYnVmZmVyU2l6ZTsgaSsrKSBkYXRhW2ldID0gTWF0aC5yYW5kb20oKSAqIDIgLSAxOwogICAgY29uc3Qgbm9pc2UgPSBjdHguY3JlYXRlQnVmZmVyU291cmNlKCk7CiAgICBub2lzZS5idWZmZXIgPSBidWZmZXI7CgogICAgY29uc3QgZmlsdGVyID0gY3R4LmNyZWF0ZUJpcXVhZEZpbHRlcigpOwogICAgZmlsdGVyLnR5cGUgPSAnaGlnaHBhc3MnOwogICAgZmlsdGVyLmZyZXF1ZW5jeS5zZXRWYWx1ZUF0VGltZSgyMDAwLCB0aW1lKTsKCiAgICBjb25zdCBnYWluID0gY3R4LmNyZWF0ZUdhaW4oKTsKICAgIGdhaW4uZ2Fpbi5zZXRWYWx1ZUF0VGltZSh2b2x1bWUgKiAwLjcsIHRpbWUpOwogICAgZ2Fpbi5nYWluLmV4cG9uZW50aWFsUmFtcFRvVmFsdWVBdFRpbWUoMC4wMDEsIHRpbWUgKyAwLjEyKTsKCiAgICBub2lzZS5jb25uZWN0KGZpbHRlcik7CiAgICBmaWx0ZXIuY29ubmVjdChnYWluKTsKICAgIGdhaW4uY29ubmVjdChkZXN0KTsKICAgIG5vaXNlLnN0YXJ0KHRpbWUpOwogICAgbm9pc2Uuc3RvcCh0aW1lICsgMC4xNSk7CgogICAgLy8gVG9uYWwgYm9keQogICAgY29uc3Qgb3NjID0gY3R4LmNyZWF0ZU9zY2lsbGF0b3IoKTsKICAgIGNvbnN0IG9zY0dhaW4gPSBjdHguY3JlYXRlR2FpbigpOwogICAgb3NjLnR5cGUgPSAndHJpYW5nbGUnOwogICAgb3NjLmZyZXF1ZW5jeS5zZXRWYWx1ZUF0VGltZSgyMDAsIHRpbWUpOwogICAgb3NjLmNvbm5lY3Qob3NjR2Fpbik7CiAgICBvc2NHYWluLmNvbm5lY3QoZGVzdCk7CiAgICBvc2NHYWluLmdhaW4uc2V0VmFsdWVBdFRpbWUodm9sdW1lICogMC4zLCB0aW1lKTsKICAgIG9zY0dhaW4uZ2Fpbi5leHBvbmVudGlhbFJhbXBUb1ZhbHVlQXRUaW1lKDAuMDAxLCB0aW1lICsgMC4wOCk7CiAgICBvc2Muc3RhcnQodGltZSk7CiAgICBvc2Muc3RvcCh0aW1lICsgMC4xKTsKfQoKZnVuY3Rpb24gcGxheUhpaGF0KGN0eDogQXVkaW9Db250ZXh0LCBkZXN0OiBBdWRpb05vZGUsIHRpbWU6IG51bWJlciwgdm9sdW1lOiBudW1iZXIsIG9wZW46IGJvb2xlYW4gPSBmYWxzZSkgewogICAgY29uc3QgYnVmZmVyU2l6ZSA9IGN0eC5zYW1wbGVSYXRlICogKG9wZW4gPyAwLjE1IDogMC4wNCk7CiAgICBjb25zdCBidWZmZXIgPSBjdHguY3JlYXRlQnVmZmVyKDEsIGJ1ZmZlclNpemUsIGN0eC5zYW1wbGVSYXRlKTsKICAgIGNvbnN0IGRhdGEgPSBidWZmZXIuZ2V0Q2hhbm5lbERhdGEoMCk7CiAgICBmb3IgKGxldCBpID0gMDsgaSA8IGJ1ZmZlclNpemU7IGkrKykgZGF0YVtpXSA9IE1hdGgucmFuZG9tKCkgKiAyIC0gMTsKCiAgICBjb25zdCBub2lzZSA9IGN0eC5jcmVhdGVCdWZmZXJTb3VyY2UoKTsKICAgIG5vaXNlLmJ1ZmZlciA9IGJ1ZmZlcjsKCiAgICBjb25zdCBmaWx0ZXIgPSBjdHguY3JlYXRlQmlxdWFkRmlsdGVyKCk7CiAgICBmaWx0ZXIudHlwZSA9ICdoaWdocGFzcyc7CiAgICBmaWx0ZXIuZnJlcXVlbmN5LnNldFZhbHVlQXRUaW1lKDgwMDAsIHRpbWUpOwoKICAgIGNvbnN0IGdhaW4gPSBjdHguY3JlYXRlR2FpbigpOwogICAgY29uc3QgZHVyID0gb3BlbiA/IDAuMiA6IDAuMDY7CiAgICBnYWluLmdhaW4uc2V0VmFsdWVBdFRpbWUodm9sdW1lICogMC40LCB0aW1lKTsKICAgIGdhaW4uZ2Fpbi5leHBvbmVudGlhbFJhbXBUb1ZhbHVlQXRUaW1lKDAuMDAxLCB0aW1lICsgZHVyKTsKCiAgICBub2lzZS5jb25uZWN0KGZpbHRlcik7CiAgICBmaWx0ZXIuY29ubmVjdChnYWluKTsKICAgIGdhaW4uY29ubmVjdChkZXN0KTsKICAgIG5vaXNlLnN0YXJ0KHRpbWUpOwogICAgbm9pc2Uuc3RvcCh0aW1lICsgZHVyICsgMC4wNSk7Cn0KCi8vIOKUgOKUgCBEcnVtIFBhdHRlcm4gRGVmaW5pdGlvbnMg4pSA4pSACi8vIEVhY2ggcGF0dGVybiBpcyBhbiBhcnJheSBvZiA4IGVpZ2h0aC1ub3RlIHN0ZXBzIHBlciBtZWFzdXJlLgovLyBLID0ga2ljaywgUyA9IHNuYXJlLCBIID0gaGloYXQsIE8gPSBvcGVuIGhpaGF0LCAuID0gcmVzdAoKdHlwZSBEcnVtU3RlcCA9IHsga2ljaz86IGJvb2xlYW47IHNuYXJlPzogYm9vbGVhbjsgaGloYXQ/OiBib29sZWFuOyBvcGVuSGF0PzogYm9vbGVhbiB9OwoKZnVuY3Rpb24gZ2V0RHJ1bVBhdHRlcm4odHlwZTogU29uZ0FycmFuZ2VtZW50WydkcnVtUGF0dGVybiddKTogRHJ1bVN0ZXBbXSB7CiAgICBzd2l0Y2ggKHR5cGUpIHsKICAgICAgICBjYXNlICdiYXNpYyc6IHJldHVybiBbCiAgICAgICAgICAgIHsga2ljazogdHJ1ZSwgaGloYXQ6IHRydWUgfSwgeyBoaWhhdDogdHJ1ZSB9LCB7IHNuYXJlOiB0cnVlLCBoaWhhdDogdHJ1ZSB9LCB7IGhpaGF0OiB0cnVlIH0sCiAgICAgICAgICAgIHsga2ljazogdHJ1ZSwgaGloYXQ6IHRydWUgfSwgeyBoaWhhdDogdHJ1ZSB9LCB7IHNuYXJlOiB0cnVlLCBoaWhhdDogdHJ1ZSB9LCB7IGhpaGF0OiB0cnVlIH0sCiAgICAgICAgXTsKICAgICAgICBjYXNlICd1cGJlYXQnOiByZXR1cm4gWwogICAgICAgICAgICB7IGtpY2s6IHRydWUsIGhpaGF0OiB0cnVlIH0sIHsgaGloYXQ6IHRydWUgfSwgeyBzbmFyZTogdHJ1ZSwgaGloYXQ6IHRydWUgfSwgeyBraWNrOiB0cnVlLCBoaWhhdDogdHJ1ZSB9LAogICAgICAgICAgICB7IGhpaGF0OiB0cnVlIH0sIHsga2ljazogdHJ1ZSwgaGloYXQ6IHRydWUgfSwgeyBzbmFyZTogdHJ1ZSwgaGloYXQ6IHRydWUgfSwgeyBoaWhhdDogdHJ1ZSB9LAogICAgICAgIF07CiAgICAgICAgY2FzZSAnaGFsZnRpbWUnOiByZXR1cm4gWwogICAgICAgICAgICB7IGtpY2s6IHRydWUsIGhpaGF0OiB0cnVlIH0sIHsgaGloYXQ6IHRydWUgfSwgeyBoaWhhdDogdHJ1ZSB9LCB7IGhpaGF0OiB0cnVlIH0sCiAgICAgICAgICAgIHsgc25hcmU6IHRydWUsIGhpaGF0OiB0cnVlIH0sIHsgaGloYXQ6IHRydWUgfSwgeyBoaWhhdDogdHJ1ZSB9LCB7IG9wZW5IYXQ6IHRydWUgfSwKICAgICAgICBdOwogICAgICAgIGNhc2UgJ3NodWZmbGUnOiByZXR1cm4gWwogICAgICAgICAgICB7IGtpY2s6IHRydWUsIGhpaGF0OiB0cnVlIH0sIHt9LCB7IGhpaGF0OiB0cnVlIH0sIHsga2ljazogdHJ1ZSB9LAogICAgICAgICAgICB7IHNuYXJlOiB0cnVlLCBoaWhhdDogdHJ1ZSB9LCB7fSwgeyBoaWhhdDogdHJ1ZSB9LCB7fSwKICAgICAgICBdOwogICAgICAgIGRlZmF1bHQ6IHJldHVybiBnZXREcnVtUGF0dGVybignYmFzaWMnKTsKICAgIH0KfQoKLy8g4pSA4pSAIFBsYXliYWNrIEVuZ2luZSDilIDilIAKCmV4cG9ydCBpbnRlcmZhY2UgUGxheWJhY2tTdGF0ZSB7CiAgICBpc1BsYXlpbmc6IGJvb2xlYW47CiAgICBjdXJyZW50U2VjdGlvbjogbnVtYmVyOwogICAgY3VycmVudExpbmU6IG51bWJlcjsKICAgIHByb2dyZXNzOiBudW1iZXI7IC8vIDAtMQp9Cgp0eXBlIFBsYXliYWNrQ2FsbGJhY2sgPSAoc3RhdGU6IFBsYXliYWNrU3RhdGUpID0+IHZvaWQ7CgpleHBvcnQgY2xhc3MgQXJyYW5nZW1lbnRQbGF5ZXIgewogICAgcHJpdmF0ZSBzY2hlZHVsZWRTb3VyY2VzOiBBdWRpb1NjaGVkdWxlZFNvdXJjZU5vZGVbXSA9IFtdOwogICAgcHJpdmF0ZSBfaXNQbGF5aW5nID0gZmFsc2U7CiAgICBwcml2YXRlIF90aW1lcklkOiBudW1iZXIgfCBudWxsID0gbnVsbDsKICAgIHByaXZhdGUgX3N0YXJ0VGltZSA9IDA7CiAgICBwcml2YXRlIF90b3RhbER1cmF0aW9uID0gMDsKICAgIHByaXZhdGUgX2FycmFuZ2VtZW50OiBTb25nQXJyYW5nZW1lbnQgfCBudWxsID0gbnVsbDsKICAgIHByaXZhdGUgX29uVXBkYXRlOiBQbGF5YmFja0NhbGxiYWNrIHwgbnVsbCA9IG51bGw7CgogICAgZ2V0IGlzUGxheWluZygpIHsgcmV0dXJuIHRoaXMuX2lzUGxheWluZzsgfQoKICAgIC8qKiBTY2hlZHVsZSBhbmQgcGxheSB0aGUgZnVsbCBhcnJhbmdlbWVudC4gKi8KICAgIHBsYXkoYXJyYW5nZW1lbnQ6IFNvbmdBcnJhbmdlbWVudCwgb25VcGRhdGU/OiBQbGF5YmFja0NhbGxiYWNrKSB7CiAgICAgICAgdGhpcy5zdG9wKCk7CiAgICAgICAgdGhpcy5fYXJyYW5nZW1lbnQgPSBhcnJhbmdlbWVudDsKICAgICAgICB0aGlzLl9vblVwZGF0ZSA9IG9uVXBkYXRlIHx8IG51bGw7CiAgICAgICAgdGhpcy5faXNQbGF5aW5nID0gdHJ1ZTsKCiAgICAgICAgY29uc3QgY3R4ID0gZ2V0Q3R4KCk7CiAgICAgICAgY29uc3QgbWFzdGVyR2FpbiA9IGN0eC5jcmVhdGVHYWluKCk7CiAgICAgICAgbWFzdGVyR2Fpbi5nYWluLnNldFZhbHVlQXRUaW1lKDAuNywgY3R4LmN1cnJlbnRUaW1lKTsKICAgICAgICBtYXN0ZXJHYWluLmNvbm5lY3QoY3R4LmRlc3RpbmF0aW9uKTsKCiAgICAgICAgY29uc3QgYmVhdER1ciA9IDYwIC8gYXJyYW5nZW1lbnQuYnBtOyAvLyBkdXJhdGlvbiBvZiBvbmUgYmVhdCAocXVhcnRlciBub3RlKQogICAgICAgIGNvbnN0IGVpZ2h0aER1ciA9IGJlYXREdXIgLyAyOwogICAgICAgIGNvbnN0IG1lYXN1cmVEdXIgPSBiZWF0RHVyICogNDsgLy8gNC80IHRpbWUKCiAgICAgICAgbGV0IHRpbWUgPSBjdHguY3VycmVudFRpbWUgKyAwLjE7IC8vIHNtYWxsIG9mZnNldCB0byBhdm9pZCBjbGlja3MKICAgICAgICB0aGlzLl9zdGFydFRpbWUgPSB0aW1lOwogICAgICAgIHRoaXMuX3RvdGFsRHVyYXRpb24gPSAwOwoKICAgICAgICBjb25zdCBkcnVtUGF0dGVybiA9IGdldERydW1QYXR0ZXJuKGFycmFuZ2VtZW50LmRydW1QYXR0ZXJuKTsKICAgICAgICBjb25zdCBkcnVtVm9sID0gMC40OwogICAgICAgIGNvbnN0IG1lbG9keUVuYWJsZWQgPSBhcnJhbmdlbWVudC5pbnN0cnVtZW50cy5tZWxvZHkgIT09IGZhbHNlOyAvLyBkZWZhdWx0IHRydWUgZm9yIGJhY2t3YXJkIGNvbXBhdAoKICAgICAgICAvLyBDYWxjdWxhdGUgdG90YWwgbGluZSBjb3VudCBmb3IgcHJvZ3Jlc3MKICAgICAgICBjb25zdCB0b3RhbExpbmVzID0gYXJyYW5nZW1lbnQuc2VjdGlvbnMucmVkdWNlKChzdW0sIHMpID0+IHN1bSArIHMuY2hvcmRzLmxlbmd0aCwgMCk7CiAgICAgICAgbGV0IGxpbmVJbmRleCA9IDA7CgogICAgICAgIGZvciAobGV0IHNpID0gMDsgc2kgPCBhcnJhbmdlbWVudC5zZWN0aW9ucy5sZW5ndGg7IHNpKyspIHsKICAgICAgICAgICAgY29uc3Qgc2VjID0gYXJyYW5nZW1lbnQuc2VjdGlvbnNbc2ldOwogICAgICAgICAgICBmb3IgKGxldCBsaSA9IDA7IGxpIDwgc2VjLmNob3Jkcy5sZW5ndGg7IGxpKyspIHsKICAgICAgICAgICAgICAgIGNvbnN0IGNob3JkID0gc2VjLmNob3Jkc1tsaV07CgogICAgICAgICAgICAgICAgLy8gUGlhbm86IHBsYXkgY2hvcmQgYXQgc3RhcnQgb2YgbWVhc3VyZQogICAgICAgICAgICAgICAgaWYgKGFycmFuZ2VtZW50Lmluc3RydW1lbnRzLnBpYW5vKSB7CiAgICAgICAgICAgICAgICAgICAgcGxheVBpYW5vQ2hvcmQoY3R4LCBtYXN0ZXJHYWluLCBjaG9yZCwgdGltZSwgbWVhc3VyZUR1ciAqIDAuOSwgMC4zNSk7CiAgICAgICAgICAgICAgICB9CgogICAgICAgICAgICAgICAgLy8gQmFzczogcGxheSBvbiBiZWF0cyAxIGFuZCAzCiAgICAgICAgICAgICAgICBpZiAoYXJyYW5nZW1lbnQuaW5zdHJ1bWVudHMuYmFzcykgewogICAgICAgICAgICAgICAgICAgIHBsYXlCYXNzKGN0eCwgbWFzdGVyR2FpbiwgY2hvcmQsIHRpbWUsIGJlYXREdXIgKiAxLjgsIDAuNSk7CiAgICAgICAgICAgICAgICAgICAgcGxheUJhc3MoY3R4LCBtYXN0ZXJHYWluLCBjaG9yZCwgdGltZSArIGJlYXREdXIgKiAyLCBiZWF0RHVyICogMS44LCAwLjQpOwogICAgICAgICAgICAgICAgfQoKICAgICAgICAgICAgICAgIC8vIERydW1zOiA4IGVpZ2h0aC1ub3RlIHN0ZXBzIHBlciBtZWFzdXJlCiAgICAgICAgICAgICAgICBpZiAoYXJyYW5nZW1lbnQuaW5zdHJ1bWVudHMuZHJ1bXMpIHsKICAgICAgICAgICAgICAgICAgICBmb3IgKGxldCBzdGVwID0gMDsgc3RlcCA8IDg7IHN0ZXArKykgewogICAgICAgICAgICAgICAgICAgICAgICBjb25zdCB0ID0gdGltZSArIHN0ZXAgKiBlaWdodGhEdXI7CiAgICAgICAgICAgICAgICAgICAgICAgIGNvbnN0IGQgPSBkcnVtUGF0dGVybltzdGVwXTsKICAgICAgICAgICAgICAgICAgICAgICAgaWYgKGQua2ljaykgcGxheUtpY2soY3R4LCBtYXN0ZXJHYWluLCB0LCBkcnVtVm9sKTsKICAgICAgICAgICAgICAgICAgICAgICAgaWYgKGQuc25hcmUpIHBsYXlTbmFyZShjdHgsIG1hc3RlckdhaW4sIHQsIGRydW1Wb2wpOwogICAgICAgICAgICAgICAgICAgICAgICBpZiAoZC5oaWhhdCkgcGxheUhpaGF0KGN0eCwgbWFzdGVyR2FpbiwgdCwgZHJ1bVZvbCk7CiAgICAgICAgICAgICAgICAgICAgICAgIGlmIChkLm9wZW5IYXQpIHBsYXlIaWhhdChjdHgsIG1hc3RlckdhaW4sIHQsIGRydW1Wb2wsIHRydWUpOwogICAgICAgICAgICAgICAgICAgIH0KICAgICAgICAgICAgICAgIH0KCiAgICAgICAgICAgICAgICAvLyBNZWxvZHk6IHNjaGVkdWxlIGVhY2ggbm90ZSBpbiB0aGUgbWVsb2R5IGxpbmUKICAgICAgICAgICAgICAgIGlmIChtZWxvZHlFbmFibGVkICYmIHNlYy5tZWxvZGllcyAmJiBzZWMubWVsb2RpZXNbbGldKSB7CiAgICAgICAgICAgICAgICAgICAgY29uc3QgbWVsb2R5Tm90ZXM6IE1lbG9keU5vdGVbXSA9IHNlYy5tZWxvZGllc1tsaV07CiAgICAgICAgICAgICAgICAgICAgbGV0IG5vdGVUaW1lID0gdGltZTsKICAgICAgICAgICAgICAgICAgICBmb3IgKGNvbnN0IG5vdGUgb2YgbWVsb2R5Tm90ZXMpIHsKICAgICAgICAgICAgICAgICAgICAgICAgY29uc3Qgbm90ZUR1ciA9IG5vdGUuZHVyYXRpb24gKiBiZWF0RHVyOwogICAgICAgICAgICAgICAgICAgICAgICBwbGF5TWVsb2R5Tm90ZShjdHgsIG1hc3RlckdhaW4sIG5vdGUubWlkaSwgbm90ZVRpbWUsIG5vdGVEdXIgKiAwLjksIDAuNDUpOwogICAgICAgICAgICAgICAgICAgICAgICBub3RlVGltZSArPSBub3RlRHVyOwogICAgICAgICAgICAgICAgICAgIH0KICAgICAgICAgICAgICAgIH0KCiAgICAgICAgICAgICAgICB0aW1lICs9IG1lYXN1cmVEdXI7CiAgICAgICAgICAgICAgICBsaW5lSW5kZXgrKzsKICAgICAgICAgICAgfQogICAgICAgIH0KCiAgICAgICAgdGhpcy5fdG90YWxEdXJhdGlvbiA9IHRpbWUgLSB0aGlzLl9zdGFydFRpbWU7CgogICAgICAgIC8vIFByb2dyZXNzIHVwZGF0ZSB0aW1lcgogICAgICAgIGlmICh0aGlzLl9vblVwZGF0ZSkgewogICAgICAgICAgICBjb25zdCB1cGRhdGUgPSAoKSA9PiB7CiAgICAgICAgICAgICAgICBpZiAoIXRoaXMuX2lzUGxheWluZykgcmV0dXJuOwogICAgICAgICAgICAgICAgY29uc3QgZWxhcHNlZCA9IGdldEN0eCgpLmN1cnJlbnRUaW1lIC0gdGhpcy5fc3RhcnRUaW1lOwogICAgICAgICAgICAgICAgY29uc3QgcHJvZ3Jlc3MgPSBNYXRoLm1pbihlbGFwc2VkIC8gdGhpcy5fdG90YWxEdXJhdGlvbiwgMSk7CgogICAgICAgICAgICAgICAgLy8gRGV0ZXJtaW5lIGN1cnJlbnQgc2VjdGlvbi9saW5lIGZyb20gZWxhcHNlZCB0aW1lCiAgICAgICAgICAgICAgICBsZXQgYWNjVGltZSA9IDA7CiAgICAgICAgICAgICAgICBsZXQgY3VyU2VjdGlvbiA9IDA7CiAgICAgICAgICAgICAgICBsZXQgY3VyTGluZSA9IDA7CiAgICAgICAgICAgICAgICBjb25zdCBtRHVyID0gbWVhc3VyZUR1cjsKICAgICAgICAgICAgICAgIG91dGVyOgogICAgICAgICAgICAgICAgZm9yIChsZXQgc2kgPSAwOyBzaSA8IGFycmFuZ2VtZW50LnNlY3Rpb25zLmxlbmd0aDsgc2krKykgewogICAgICAgICAgICAgICAgICAgIGZvciAobGV0IGxpID0gMDsgbGkgPCBhcnJhbmdlbWVudC5zZWN0aW9uc1tzaV0uY2hvcmRzLmxlbmd0aDsgbGkrKykgewogICAgICAgICAgICAgICAgICAgICAgICBpZiAoYWNjVGltZSArIG1EdXIgPiBlbGFwc2VkKSB7CiAgICAgICAgICAgICAgICAgICAgICAgICAgICBjdXJTZWN0aW9uID0gc2k7CiAgICAgICAgICAgICAgICAgICAgICAgICAgICBjdXJMaW5lID0gbGk7CiAgICAgICAgICAgICAgICAgICAgICAgICAgICBicmVhayBvdXRlcjsKICAgICAgICAgICAgICAgICAgICAgICAgfQogICAgICAgICAgICAgICAgICAgICAgICBhY2NUaW1lICs9IG1EdXI7CiAgICAgICAgICAgICAgICAgICAgfQogICAgICAgICAgICAgICAgfQoKICAgICAgICAgICAgICAgIHRoaXMuX29uVXBkYXRlPy4oeyBpc1BsYXlpbmc6IHRydWUsIGN1cnJlbnRTZWN0aW9uOiBjdXJTZWN0aW9uLCBjdXJyZW50TGluZTogY3VyTGluZSwgcHJvZ3Jlc3MgfSk7CgogICAgICAgICAgICAgICAgaWYgKHByb2dyZXNzID49IDEpIHsKICAgICAgICAgICAgICAgICAgICB0aGlzLl9pc1BsYXlpbmcgPSBmYWxzZTsKICAgICAgICAgICAgICAgICAgICB0aGlzLl9vblVwZGF0ZT8uKHsgaXNQbGF5aW5nOiBmYWxzZSwgY3VycmVudFNlY3Rpb246IDAsIGN1cnJlbnRMaW5lOiAwLCBwcm9ncmVzczogMSB9KTsKICAgICAgICAgICAgICAgICAgICByZXR1cm47CiAgICAgICAgICAgICAgICB9CiAgICAgICAgICAgICAgICB0aGlzLl90aW1lcklkID0gd2luZG93LnJlcXVlc3RBbmltYXRpb25GcmFtZSh1cGRhdGUpOwogICAgICAgICAgICB9OwogICAgICAgICAgICB0aGlzLl90aW1lcklkID0gd2luZG93LnJlcXVlc3RBbmltYXRpb25GcmFtZSh1cGRhdGUpOwogICAgICAgIH0KCiAgICAgICAgLy8gQXV0by1zdG9wIGFmdGVyIHBsYXliYWNrIGVuZHMKICAgICAgICBzZXRUaW1lb3V0KCgpID0+IHsKICAgICAgICAgICAgaWYgKHRoaXMuX2lzUGxheWluZyAmJiB0aGlzLl9hcnJhbmdlbWVudCA9PT0gYXJyYW5nZW1lbnQpIHsKICAgICAgICAgICAgICAgIHRoaXMuc3RvcCgpOwogICAgICAgICAgICAgICAgdGhpcy5fb25VcGRhdGU/Lih7IGlzUGxheWluZzogZmFsc2UsIGN1cnJlbnRTZWN0aW9uOiAwLCBjdXJyZW50TGluZTogMCwgcHJvZ3Jlc3M6IDAgfSk7CiAgICAgICAgICAgIH0KICAgICAgICB9LCB0aGlzLl90b3RhbER1cmF0aW9uICogMTAwMCArIDUwMCk7CiAgICB9CgogICAgLyoqIFN0b3AgcGxheWJhY2sgaW1tZWRpYXRlbHkuICovCiAgICBzdG9wKCkgewogICAgICAgIHRoaXMuX2lzUGxheWluZyA9IGZhbHNlOwogICAgICAgIGlmICh0aGlzLl90aW1lcklkICE9PSBudWxsKSB7CiAgICAgICAgICAgIHdpbmRvdy5jYW5jZWxBbmltYXRpb25GcmFtZSh0aGlzLl90aW1lcklkKTsKICAgICAgICAgICAgdGhpcy5fdGltZXJJZCA9IG51bGw7CiAgICAgICAgfQogICAgICAgIC8vIENsb3NpbmcgYW5kIHJlY3JlYXRpbmcgY29udGV4dCBpcyB0aGUgY2xlYW5lc3Qgd2F5IHRvIHN0b3AgYWxsIHNjaGVkdWxlZCBhdWRpbwogICAgICAgIGlmIChfY3R4ICYmIF9jdHguc3RhdGUgIT09ICdjbG9zZWQnKSB7CiAgICAgICAgICAgIHRyeSB7IF9jdHguY2xvc2UoKTsgfSBjYXRjaCB7fQogICAgICAgIH0KICAgICAgICBfY3R4ID0gbnVsbDsKICAgIH0KfQoKLy8gU2luZ2xldG9uIHBsYXllcgpsZXQgX3BsYXllcjogQXJyYW5nZW1lbnRQbGF5ZXIgfCBudWxsID0gbnVsbDsKZXhwb3J0IGZ1bmN0aW9uIGdldFBsYXllcigpOiBBcnJhbmdlbWVudFBsYXllciB7CiAgICBpZiAoIV9wbGF5ZXIpIF9wbGF5ZXIgPSBuZXcgQXJyYW5nZW1lbnRQbGF5ZXIoKTsKICAgIHJldHVybiBfcGxheWVyOwp9Cg==
+/**
+ * audioEngine.ts — Web Audio API synthesizer for songwriting arrangement playback.
+ * Provides piano, bass, drum, and melody lead voices with accurate scheduling.
+ */
+
+import { ChordInfo, MelodyNote, SongArrangement } from '../types';
+import { getChordFrequencies, getBassFrequency } from './chordEngine';
+
+// ── Audio Context Singleton ──
+
+let _ctx: AudioContext | null = null;
+function getCtx(): AudioContext {
+    if (!_ctx) _ctx = new AudioContext();
+    if (_ctx.state === 'suspended') _ctx.resume();
+    return _ctx;
+}
+
+// ── MIDI to Frequency ──
+
+function midiToFreq(midi: number): number {
+    return 440 * Math.pow(2, (midi - 69) / 12);
+}
+
+// ── ADSR Envelope Helper ──
+
+function applyEnvelope(
+    gain: GainNode,
+    time: number,
+    attack: number,
+    decay: number,
+    sustain: number,
+    release: number,
+    duration: number,
+) {
+    const g = gain.gain;
+    g.setValueAtTime(0, time);
+    g.linearRampToValueAtTime(1, time + attack);
+    g.linearRampToValueAtTime(sustain, time + attack + decay);
+    g.setValueAtTime(sustain, time + duration - release);
+    g.linearRampToValueAtTime(0, time + duration);
+}
+
+// ── Piano Voice ──
+
+function playPianoChord(ctx: AudioContext, dest: AudioNode, chord: ChordInfo, time: number, duration: number, volume: number) {
+    const freqs = getChordFrequencies(chord, 4);
+    const perNote = volume / freqs.length;
+
+    for (const freq of freqs) {
+        const osc1 = ctx.createOscillator();
+        const osc2 = ctx.createOscillator();
+        const gain = ctx.createGain();
+
+        osc1.type = 'triangle';
+        osc1.frequency.setValueAtTime(freq, time);
+        osc2.type = 'sine';
+        osc2.frequency.setValueAtTime(freq * 2.01, time); // slight detune for warmth
+        osc2.detune.setValueAtTime(3, time);
+
+        osc1.connect(gain);
+        osc2.connect(gain);
+        gain.connect(dest);
+
+        applyEnvelope(gain, time, 0.01, 0.15, 0.3 * perNote, 0.3, duration);
+
+        osc1.start(time);
+        osc1.stop(time + duration + 0.1);
+        osc2.start(time);
+        osc2.stop(time + duration + 0.1);
+    }
+}
+
+// ── Bass Voice ──
+
+function playBass(ctx: AudioContext, dest: AudioNode, chord: ChordInfo, time: number, duration: number, volume: number) {
+    const freq = getBassFrequency(chord);
+    const osc = ctx.createOscillator();
+    const gain = ctx.createGain();
+    const filter = ctx.createBiquadFilter();
+
+    osc.type = 'sawtooth';
+    osc.frequency.setValueAtTime(freq, time);
+
+    filter.type = 'lowpass';
+    filter.frequency.setValueAtTime(300, time);
+    filter.Q.setValueAtTime(2, time);
+
+    osc.connect(filter);
+    filter.connect(gain);
+    gain.connect(dest);
+
+    applyEnvelope(gain, time, 0.02, 0.1, 0.6 * volume, 0.15, duration);
+
+    osc.start(time);
+    osc.stop(time + duration + 0.2);
+}
+
+// ── Melody Lead Voice ──
+// Rich lead synth: sine + saw (detuned) + subtle vibrato via LFO
+
+function playMelodyNote(ctx: AudioContext, dest: AudioNode, midi: number, time: number, duration: number, volume: number) {
+    const freq = midiToFreq(midi);
+
+    // Primary oscillator — sine for purity
+    const osc1 = ctx.createOscillator();
+    osc1.type = 'sine';
+    osc1.frequency.setValueAtTime(freq, time);
+
+    // Secondary oscillator — triangle one octave up, detuned for shimmer
+    const osc2 = ctx.createOscillator();
+    osc2.type = 'triangle';
+    osc2.frequency.setValueAtTime(freq, time);
+    osc2.detune.setValueAtTime(7, time); // 7 cents detune for chorus effect
+
+    // Subtle vibrato LFO
+    const lfo = ctx.createOscillator();
+    const lfoGain = ctx.createGain();
+    lfo.type = 'sine';
+    lfo.frequency.setValueAtTime(5, time); // 5 Hz vibrato
+    lfoGain.gain.setValueAtTime(0, time);
+    // Vibrato fades in after the attack phase
+    lfoGain.gain.linearRampToValueAtTime(0, time + 0.08);
+    lfoGain.gain.linearRampToValueAtTime(3, time + duration * 0.4); // 3 cents depth
+    lfo.connect(lfoGain);
+    lfoGain.connect(osc1.detune);
+    lfoGain.connect(osc2.detune);
+
+    // Gain envelope
+    const gain = ctx.createGain();
+
+    // Slight lowpass filter for warmth
+    const filter = ctx.createBiquadFilter();
+    filter.type = 'lowpass';
+    filter.frequency.setValueAtTime(Math.min(freq * 4, 8000), time);
+    filter.Q.setValueAtTime(0.7, time);
+
+    osc1.connect(filter);
+    osc2.connect(filter);
+    filter.connect(gain);
+    gain.connect(dest);
+
+    // ADSR: quick attack, smooth sustain, gentle release
+    const attack = 0.015;
+    const decay = 0.08;
+    const sustain = volume * 0.7;
+    const release = Math.min(0.15, duration * 0.3);
+    applyEnvelope(gain, time, attack, decay, sustain, release, duration);
+
+    lfo.start(time);
+    lfo.stop(time + duration + 0.2);
+    osc1.start(time);
+    osc1.stop(time + duration + 0.2);
+    osc2.start(time);
+    osc2.stop(time + duration + 0.2);
+}
+
+// ── Drum Voices ──
+
+function playKick(ctx: AudioContext, dest: AudioNode, time: number, volume: number) {
+    const osc = ctx.createOscillator();
+    const gain = ctx.createGain();
+    osc.type = 'sine';
+    osc.frequency.setValueAtTime(150, time);
+    osc.frequency.exponentialRampToValueAtTime(40, time + 0.12);
+    osc.connect(gain);
+    gain.connect(dest);
+    gain.gain.setValueAtTime(volume, time);
+    gain.gain.exponentialRampToValueAtTime(0.001, time + 0.3);
+    osc.start(time);
+    osc.stop(time + 0.35);
+}
+
+function playSnare(ctx: AudioContext, dest: AudioNode, time: number, volume: number) {
+    // Noise burst
+    const bufferSize = ctx.sampleRate * 0.1;
+    const buffer = ctx.createBuffer(1, bufferSize, ctx.sampleRate);
+    const data = buffer.getChannelData(0);
+    for (let i = 0; i < bufferSize; i++) data[i] = Math.random() * 2 - 1;
+    const noise = ctx.createBufferSource();
+    noise.buffer = buffer;
+
+    const filter = ctx.createBiquadFilter();
+    filter.type = 'highpass';
+    filter.frequency.setValueAtTime(2000, time);
+
+    const gain = ctx.createGain();
+    gain.gain.setValueAtTime(volume * 0.7, time);
+    gain.gain.exponentialRampToValueAtTime(0.001, time + 0.12);
+
+    noise.connect(filter);
+    filter.connect(gain);
+    gain.connect(dest);
+    noise.start(time);
+    noise.stop(time + 0.15);
+
+    // Tonal body
+    const osc = ctx.createOscillator();
+    const oscGain = ctx.createGain();
+    osc.type = 'triangle';
+    osc.frequency.setValueAtTime(200, time);
+    osc.connect(oscGain);
+    oscGain.connect(dest);
+    oscGain.gain.setValueAtTime(volume * 0.3, time);
+    oscGain.gain.exponentialRampToValueAtTime(0.001, time + 0.08);
+    osc.start(time);
+    osc.stop(time + 0.1);
+}
+
+function playHihat(ctx: AudioContext, dest: AudioNode, time: number, volume: number, open: boolean = false) {
+    const bufferSize = ctx.sampleRate * (open ? 0.15 : 0.04);
+    const buffer = ctx.createBuffer(1, bufferSize, ctx.sampleRate);
+    const data = buffer.getChannelData(0);
+    for (let i = 0; i < bufferSize; i++) data[i] = Math.random() * 2 - 1;
+
+    const noise = ctx.createBufferSource();
+    noise.buffer = buffer;
+
+    const filter = ctx.createBiquadFilter();
+    filter.type = 'highpass';
+    filter.frequency.setValueAtTime(8000, time);
+
+    const gain = ctx.createGain();
+    const dur = open ? 0.2 : 0.06;
+    gain.gain.setValueAtTime(volume * 0.4, time);
+    gain.gain.exponentialRampToValueAtTime(0.001, time + dur);
+
+    noise.connect(filter);
+    filter.connect(gain);
+    gain.connect(dest);
+    noise.start(time);
+    noise.stop(time + dur + 0.05);
+}
+
+// ── Drum Pattern Definitions ──
+// Each pattern is an array of 8 eighth-note steps per measure.
+// K = kick, S = snare, H = hihat, O = open hihat, . = rest
+
+type DrumStep = { kick?: boolean; snare?: boolean; hihat?: boolean; openHat?: boolean };
+
+function getDrumPattern(type: SongArrangement['drumPattern']): DrumStep[] {
+    switch (type) {
+        case 'basic': return [
+            { kick: true, hihat: true }, { hihat: true }, { snare: true, hihat: true }, { hihat: true },
+            { kick: true, hihat: true }, { hihat: true }, { snare: true, hihat: true }, { hihat: true },
+        ];
+        case 'upbeat': return [
+            { kick: true, hihat: true }, { hihat: true }, { snare: true, hihat: true }, { kick: true, hihat: true },
+            { hihat: true }, { kick: true, hihat: true }, { snare: true, hihat: true }, { hihat: true },
+        ];
+        case 'halftime': return [
+            { kick: true, hihat: true }, { hihat: true }, { hihat: true }, { hihat: true },
+            { snare: true, hihat: true }, { hihat: true }, { hihat: true }, { openHat: true },
+        ];
+        case 'shuffle': return [
+            { kick: true, hihat: true }, {}, { hihat: true }, { kick: true },
+            { snare: true, hihat: true }, {}, { hihat: true }, {},
+        ];
+        default: return getDrumPattern('basic');
+    }
+}
+
+// ── Playback Engine ──
+
+export interface PlaybackState {
+    isPlaying: boolean;
+    currentSection: number;
+    currentLine: number;
+    progress: number; // 0-1
+}
+
+type PlaybackCallback = (state: PlaybackState) => void;
+
+export class ArrangementPlayer {
+    private scheduledSources: AudioScheduledSourceNode[] = [];
+    private _isPlaying = false;
+    private _timerId: number | null = null;
+    private _startTime = 0;
+    private _totalDuration = 0;
+    private _arrangement: SongArrangement | null = null;
+    private _onUpdate: PlaybackCallback | null = null;
+
+    get isPlaying() { return this._isPlaying; }
+
+    /** Schedule and play the full arrangement. */
+    play(arrangement: SongArrangement, onUpdate?: PlaybackCallback) {
+        this.stop();
+        this._arrangement = arrangement;
+        this._onUpdate = onUpdate || null;
+        this._isPlaying = true;
+
+        const ctx = getCtx();
+        const masterGain = ctx.createGain();
+        masterGain.gain.setValueAtTime(0.7, ctx.currentTime);
+        masterGain.connect(ctx.destination);
+
+        const beatDur = 60 / arrangement.bpm; // duration of one beat (quarter note)
+        const eighthDur = beatDur / 2;
+        const measureDur = beatDur * 4; // 4/4 time
+
+        let time = ctx.currentTime + 0.1; // small offset to avoid clicks
+        this._startTime = time;
+        this._totalDuration = 0;
+
+        const drumPattern = getDrumPattern(arrangement.drumPattern);
+        const drumVol = 0.4;
+        const melodyEnabled = arrangement.instruments.melody !== false; // default true for backward compat
+
+        // Calculate total line count for progress
+        const totalLines = arrangement.sections.reduce((sum, s) => sum + s.chords.length, 0);
+        let lineIndex = 0;
+
+        for (let si = 0; si < arrangement.sections.length; si++) {
+            const sec = arrangement.sections[si];
+            for (let li = 0; li < sec.chords.length; li++) {
+                const chord = sec.chords[li];
+
+                // Piano: play chord at start of measure
+                if (arrangement.instruments.piano) {
+                    playPianoChord(ctx, masterGain, chord, time, measureDur * 0.9, 0.35);
+                }
+
+                // Bass: play on beats 1 and 3
+                if (arrangement.instruments.bass) {
+                    playBass(ctx, masterGain, chord, time, beatDur * 1.8, 0.5);
+                    playBass(ctx, masterGain, chord, time + beatDur * 2, beatDur * 1.8, 0.4);
+                }
+
+                // Drums: 8 eighth-note steps per measure
+                if (arrangement.instruments.drums) {
+                    for (let step = 0; step < 8; step++) {
+                        const t = time + step * eighthDur;
+                        const d = drumPattern[step];
+                        if (d.kick) playKick(ctx, masterGain, t, drumVol);
+                        if (d.snare) playSnare(ctx, masterGain, t, drumVol);
+                        if (d.hihat) playHihat(ctx, masterGain, t, drumVol);
+                        if (d.openHat) playHihat(ctx, masterGain, t, drumVol, true);
+                    }
+                }
+
+                // Melody: schedule each note in the melody line
+                if (melodyEnabled && sec.melodies && sec.melodies[li]) {
+                    const melodyNotes: MelodyNote[] = sec.melodies[li];
+                    let noteTime = time;
+                    for (const note of melodyNotes) {
+                        const noteDur = note.duration * beatDur;
+                        playMelodyNote(ctx, masterGain, note.midi, noteTime, noteDur * 0.9, 0.45);
+                        noteTime += noteDur;
+                    }
+                }
+
+                time += measureDur;
+                lineIndex++;
+            }
+        }
+
+        this._totalDuration = time - this._startTime;
+
+        // Progress update timer
+        if (this._onUpdate) {
+            const update = () => {
+                if (!this._isPlaying) return;
+                const elapsed = getCtx().currentTime - this._startTime;
+                const progress = Math.min(elapsed / this._totalDuration, 1);
+
+                // Determine current section/line from elapsed time
+                let accTime = 0;
+                let curSection = 0;
+                let curLine = 0;
+                const mDur = measureDur;
+                outer:
+                for (let si = 0; si < arrangement.sections.length; si++) {
+                    for (let li = 0; li < arrangement.sections[si].chords.length; li++) {
+                        if (accTime + mDur > elapsed) {
+                            curSection = si;
+                            curLine = li;
+                            break outer;
+                        }
+                        accTime += mDur;
+                    }
+                }
+
+                this._onUpdate?.({ isPlaying: true, currentSection: curSection, currentLine: curLine, progress });
+
+                if (progress >= 1) {
+                    this._isPlaying = false;
+                    this._onUpdate?.({ isPlaying: false, currentSection: 0, currentLine: 0, progress: 1 });
+                    return;
+                }
+                this._timerId = window.requestAnimationFrame(update);
+            };
+            this._timerId = window.requestAnimationFrame(update);
+        }
+
+        // Auto-stop after playback ends
+        setTimeout(() => {
+            if (this._isPlaying && this._arrangement === arrangement) {
+                this.stop();
+                this._onUpdate?.({ isPlaying: false, currentSection: 0, currentLine: 0, progress: 0 });
+            }
+        }, this._totalDuration * 1000 + 500);
+    }
+
+    /** Stop playback immediately. */
+    stop() {
+        this._isPlaying = false;
+        if (this._timerId !== null) {
+            window.cancelAnimationFrame(this._timerId);
+            this._timerId = null;
+        }
+        // Closing and recreating context is the cleanest way to stop all scheduled audio
+        if (_ctx && _ctx.state !== 'closed') {
+            try { _ctx.close(); } catch {}
+        }
+        _ctx = null;
+    }
+}
+
+// Singleton player
+let _player: ArrangementPlayer | null = null;
+export function getPlayer(): ArrangementPlayer {
+    if (!_player) _player = new ArrangementPlayer();
+    return _player;
+}

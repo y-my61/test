@@ -1,1 +1,208 @@
-aW1wb3J0IHsgZGVzY3JpYmUsIGl0LCBleHBlY3QsIGFmdGVyRWFjaCwgdmkgfSBmcm9tICd2aXRlc3QnOwppbXBvcnQgeyBkZXRlY3RGaXJzdFVybCwgZGV0ZWN0WGhzU2hvcnRVcmwsIGV4dHJhY3RYaHNTaGFyZVRpdGxlLCBpc1hoc1VybCwgZXh0cmFjdFhoc05vdGVJZCwgcGFyc2VXZWJwYWdlSHRtbCwgZXh0cmFjdFdlYnBhZ2VDb250ZW50IH0gZnJvbSAnLi93ZWJwYWdlRXh0cmFjdG9yJzsKCmRlc2NyaWJlKCdkZXRlY3RGaXJzdFVybCcsICgpID0+IHsKICBpdCgn5LuO5LiA5Y+l6K+d6YeM5o+q5Ye6IGh0dHAocykg6ZO+5o6lJywgKCkgPT4gewogICAgZXhwZWN0KGRldGVjdEZpcnN0VXJsKCfnnIvnnIvov5nkuKogaHR0cHM6Ly9leGFtcGxlLmNvbS9hcnRpY2xlIOaMuuacieaEj+aAnScpKQogICAgICAudG9CZSgnaHR0cHM6Ly9leGFtcGxlLmNvbS9hcnRpY2xlJyk7CiAgICBleHBlY3QoZGV0ZWN0Rmlyc3RVcmwoJ2h0dHA6Ly9mb28uYmFyL2JheicpKS50b0JlKCdodHRwOi8vZm9vLmJhci9iYXonKTsKICB9KTsKCiAgaXQoJ+S4reaWh+WPpeWPt+S4jei/myBVUkzvvIzoi7HmloflsL7moIfngrnooqvliaXmjoknLCAoKSA9PiB7CiAgICAvLyDkuK3mloflj6Xlj7fkuI3lnKggVVJMIOWtl+espumbhumHjCwg5q2j5YiZ5Yiw5q2k5oiq5patCiAgICBleHBlY3QoZGV0ZWN0Rmlyc3RVcmwoJ+mTvuaOpeaYryBodHRwczovL2V4YW1wbGUuY29tL3jjgILlkI7pnaLov5jmnInlrZcnKSkudG9CZSgnaHR0cHM6Ly9leGFtcGxlLmNvbS94Jyk7CiAgICAvLyDoi7Hmloflj6Xngrkv5Y+z5ous5Y+357uT5bC+6KaB6KKr5Yml5o6JCiAgICBleHBlY3QoZGV0ZWN0Rmlyc3RVcmwoJ3NlZSAoaHR0cHM6Ly9leGFtcGxlLmNvbS9hKS4nKSkudG9CZSgnaHR0cHM6Ly9leGFtcGxlLmNvbS9hJyk7CiAgfSk7CgogIGl0KCfmsqHmnInpk77mjqXml7bov5Tlm54gbnVsbCcsICgpID0+IHsKICAgIGV4cGVjdChkZXRlY3RGaXJzdFVybCgn5bCx5piv5pmu6YCa6IGK5aSp5rKh5pyJ572R5Z2AJykpLnRvQmVOdWxsKCk7CiAgICBleHBlY3QoZGV0ZWN0Rmlyc3RVcmwoJycpKS50b0JlTnVsbCgpOwogICAgZXhwZWN0KGRldGVjdEZpcnN0VXJsKCdmdHA6Ly9ub3BlLmNvbScpKS50b0JlTnVsbCgpOwogIH0pOwp9KTsKCmRlc2NyaWJlKCdpc1hoc1VybCcsICgpID0+IHsKICBpdCgn6K+G5Yir5bCP57qi5Lmm5Z+f5ZCN77yI5bey5pyJ5LiT6ZeoIE1DUCDot6/lvoTvvIznvZHpobXmipPlj5bopoHpgb/lvIDvvIknLCAoKSA9PiB7CiAgICBleHBlY3QoaXNYaHNVcmwoJ2h0dHBzOi8vd3d3LnhpYW9ob25nc2h1LmNvbS9leHBsb3JlL2FiYycpKS50b0JlKHRydWUpOwogICAgZXhwZWN0KGlzWGhzVXJsKCdodHRwczovL3hoc2xpbmsuY29tL3h4eCcpKS50b0JlKHRydWUpOwogICAgZXhwZWN0KGlzWGhzVXJsKCdodHRwOi8veGhzbGluay5jbi9vLzNoSjRhbnZlZE5sJykpLnRvQmUodHJ1ZSk7CiAgICBleHBlY3QoaXNYaHNVcmwoJ2h0dHBzOi8vd3d3LnJlZG5vdGUuY29tL2V4cGxvcmUvYWJjJykpLnRvQmUodHJ1ZSk7CiAgICBleHBlY3QoaXNYaHNVcmwoJ2h0dHBzOi8vZXhhbXBsZS5jb20nKSkudG9CZShmYWxzZSk7CiAgICBleHBlY3QoaXNYaHNVcmwoJ2h0dHBzOi8vcmVkbm90ZS5jb20uZXhhbXBsZS5jb20vZXhwbG9yZS9hYmMnKSkudG9CZShmYWxzZSk7CiAgICBleHBlY3QoaXNYaHNVcmwoJ2h0dHBzOi8vZmFrZS1yZWRub3RlLmNvbS9leHBsb3JlL2FiYycpKS50b0JlKGZhbHNlKTsKICB9KTsKfSk7CgpkZXNjcmliZSgnZGV0ZWN0WGhzU2hvcnRVcmwnLCAoKSA9PiB7CiAgaXQoJ+ivhuWIq+aJi+acuueJiCB4aHNsaW5rLmNuIOWujOaVtOWIhuS6q+aWh+ahiCcsICgpID0+IHsKICAgIGNvbnN0IHRleHQgPSAn5Yqe5YWs5a6k55qE6aKG5a+855yL552A5LiN6Iuf6KiA56yRIGh0dHA6Ly94aHNsaW5rLmNuL28vM2hKNGFudmVkTmwg5a2Y5LiL6ZO+5o6l77yM5Y6744CQ5bCP57qi5Lmm44CR6ZiF6K+75YWo5paHfic7CiAgICBleHBlY3QoZGV0ZWN0WGhzU2hvcnRVcmwodGV4dCkpLnRvQmUoJ2h0dHA6Ly94aHNsaW5rLmNuL28vM2hKNGFudmVkTmwnKTsKICB9KTsKCiAgaXQoJ+e7p+e7reWFvOWuuSB4aHNsaW5rLmNvbSDlkozkuI3luKbljY/orq7nmoTnn63pk74nLCAoKSA9PiB7CiAgICBleHBlY3QoZGV0ZWN0WGhzU2hvcnRVcmwoJ2h0dHBzOi8veGhzbGluay5jb20vYS9BYkNfMTIzLXh5JykpLnRvQmUoJ2h0dHBzOi8veGhzbGluay5jb20vYS9BYkNfMTIzLXh5Jyk7CiAgICBleHBlY3QoZGV0ZWN0WGhzU2hvcnRVcmwoJ+eci+eciyB4aHNsaW5rLmNuL28vQWJDMTIzJykpLnRvQmUoJ2h0dHBzOi8veGhzbGluay5jbi9vL0FiQzEyMycpOwogIH0pOwoKICBpdCgn5LiN5o6l5Y+X55u45Ly85oG25oSP5Z+f5ZCNJywgKCkgPT4gewogICAgZXhwZWN0KGRldGVjdFhoc1Nob3J0VXJsKCdodHRwczovL3hoc2xpbmsuY24uZXhhbXBsZS5jb20vby9BYkMxMjMnKSkudG9CZU51bGwoKTsKICAgIGV4cGVjdChkZXRlY3RYaHNTaG9ydFVybCgnaHR0cHM6Ly9mYWtlLXhoc2xpbmsuY24vby9BYkMxMjMnKSkudG9CZU51bGwoKTsKICB9KTsKfSk7CgpkZXNjcmliZSgnZXh0cmFjdFhoc1NoYXJlVGl0bGUnLCAoKSA9PiB7CiAgaXQoJ+S7juaWsOeJiOaJi+acuuWIhuS6q+aWh+ahiOeahOefremTvuWJjeaPkOWPluagh+mimO+8jOS4jeaKiuOAkOWwj+e6ouS5puOAkeW9k+agh+mimCcsICgpID0+IHsKICAgIGNvbnN0IHRleHQgPSAn5Lq65py65oGL5pWZ5Li7fiBh56S+5piv5LiN5piv6K+l57uZ5L2g5ZKM5L2g55qE5YWL6aKB5Y+R57uT5ama6K+B5Zie77yfIC4uLiBodHRwOi8veGhzbGluay5jbi9vLzN1ZE45SEdyNWlUIOaKiuaWh+acrOWkjeWItuS4i+adpe+8jOaJk+W8gOOAkOWwj+e6ouS5puOAkeWNs+WPr+afpeeci+OAgic7CiAgICBleHBlY3QoZXh0cmFjdFhoc1NoYXJlVGl0bGUodGV4dCkpCiAgICAgIC50b0JlKCfkurrmnLrmgYvmlZnkuLt+IGHnpL7mmK/kuI3mmK/or6Xnu5nkvaDlkozkvaDnmoTlhYvpooHlj5Hnu5PlqZror4HlmJ7vvJ8nKTsKICB9KTsKCiAgaXQoJ+e7p+e7reaUr+aMgeaXp+eJiOOAkOagh+mimCB8IOWwj+e6ouS5puOAkeagvOW8jycsICgpID0+IHsKICAgIGNvbnN0IHRleHQgPSAn44CQ5LuK5aSp5Lmf6KaB5aW95aW95ZCD6aWtIHwg5bCP57qi5Lmm44CRIGh0dHBzOi8veGhzbGluay5jb20vYS9BYkMxMjMnOwogICAgZXhwZWN0KGV4dHJhY3RYaHNTaGFyZVRpdGxlKHRleHQpKS50b0JlKCfku4rlpKnkuZ/opoHlpb3lpb3lkIPppa0nKTsKICB9KTsKCiAgaXQoJ+WPquacieW6lOeUqOWQjeiAjOayoeacieagh+mimOaXtui/lOWbnuepuu+8jOWFgeiuuOaOpeWPo+agh+mimOWFnOW6lScsICgpID0+IHsKICAgIGNvbnN0IHRleHQgPSAnaHR0cDovL3hoc2xpbmsuY24vby9BYkMxMjMg5omT5byA44CQ5bCP57qi5Lmm44CR5Y2z5Y+v5p+l55yLJzsKICAgIGV4cGVjdChleHRyYWN0WGhzU2hhcmVUaXRsZSh0ZXh0KSkudG9CZSgnJyk7CiAgfSk7Cn0pOwoKZGVzY3JpYmUoJ2V4dHJhY3RYaHNOb3RlSWQnLCAoKSA9PiB7CiAgY29uc3QgTk9URV9JRCA9ICc2ODU4Y2NhYTAwMDAwMDAwMTMwMTNjOTQnOwoKICBpdCgn5LuO5Zu95YaF5ZKM5paw54mIIFJlZE5vdGUg5a6M5pW06ZO+5o6l5Lit5o+Q5Y+W56yU6K6wIElEJywgKCkgPT4gewogICAgZXhwZWN0KGV4dHJhY3RYaHNOb3RlSWQoYOeci+eci+i/meS4qiBodHRwczovL3d3dy54aWFvaG9uZ3NodS5jb20vZXhwbG9yZS8ke05PVEVfSUR9P3hzZWNfdG9rZW49YWJjYCkpCiAgICAgIC50b0JlKE5PVEVfSUQpOwogICAgZXhwZWN0KGV4dHJhY3RYaHNOb3RlSWQoYOWIhuS6q+e7meS9oCBodHRwczovL3d3dy5yZWRub3RlLmNvbS9leHBsb3JlLyR7Tk9URV9JRH0/eHNlY190b2tlbj1hYmNgKSkKICAgICAgLnRvQmUoTk9URV9JRCk7CiAgICBleHBlY3QoZXh0cmFjdFhoc05vdGVJZChgd3d3LnJlZG5vdGUuY29tL2Rpc2NvdmVyeS9pdGVtLyR7Tk9URV9JRH1gKSkKICAgICAgLnRvQmUoTk9URV9JRCk7CiAgfSk7CgogIGl0KCfmlK/mjIHnn63pk77lsZXlvIDlkI7okL3liLAgcmVkbm90ZS5jb20g55qE5pyA57uI6ZO+5o6lJywgKCkgPT4gewogICAgZXhwZWN0KGV4dHJhY3RYaHNOb3RlSWQoYGh0dHBzOi8vcmVkbm90ZS5jb20vaXRlbS8ke05PVEVfSUR9P3hzZWNfc291cmNlPWFwcF9zaGFyZWApKQogICAgICAudG9CZShOT1RFX0lEKTsKICB9KTsKCiAgaXQoJ+S4jeaKiuebuOS8vOaBtuaEj+Wfn+WQjeaIlumdnueslOiusOmhtemdouivr+WIpOaIkOWwj+e6ouS5pueslOiusCcsICgpID0+IHsKICAgIGV4cGVjdChleHRyYWN0WGhzTm90ZUlkKGBodHRwczovL3JlZG5vdGUuY29tLmV4YW1wbGUuY29tL2V4cGxvcmUvJHtOT1RFX0lEfWApKS50b0JlTnVsbCgpOwogICAgZXhwZWN0KGV4dHJhY3RYaHNOb3RlSWQoYGh0dHBzOi8vZmFrZS1yZWRub3RlLmNvbS9leHBsb3JlLyR7Tk9URV9JRH1gKSkudG9CZU51bGwoKTsKICAgIGV4cGVjdChleHRyYWN0WGhzTm90ZUlkKCdodHRwczovL3d3dy5yZWRub3RlLmNvbS9leHBsb3JlJykpLnRvQmVOdWxsKCk7CiAgfSk7Cn0pOwoKZGVzY3JpYmUoJ3BhcnNlV2VicGFnZUh0bWwnLCAoKSA9PiB7CiAgLy8gbm9kZSDmtYvor5Xnjq/looPml6AgRE9NUGFyc2Vy77yM5Lya6LWw5q2j5YiZIGZhbGxiYWNr77yIaHRtbFRvVGV4dO+8ieOAguS4pOadoei3r+W+hOmDveW6lOS6p+WHuuagh+mimC/mraPmlofjgIIKICBjb25zdCBodG1sID0gYAogICAgPGh0bWw+PGhlYWQ+CiAgICAgIDx0aXRsZT7mtYvor5XmoIfpopg8L3RpdGxlPgogICAgICA8bWV0YSBuYW1lPSJkZXNjcmlwdGlvbiIgY29udGVudD0i6L+Z5piv5LiA5q61572R6aG15pGY6KaB5o+P6L+wIj4KICAgICAgPG1ldGEgcHJvcGVydHk9Im9nOnNpdGVfbmFtZSIgY29udGVudD0i5rWL6K+V56uZIj4KICAgIDwvaGVhZD48Ym9keT4KICAgICAgPG5hdj7lr7zoiKrkuI3or6Xov5vmraPmloc8L25hdj4KICAgICAgPGFydGljbGU+PHA+56ys5LiA5q615q2j5paH5YaF5a6544CCPC9wPjxwPuesrOS6jOauteato+aWh+WGheWuueOAgjwvcD48L2FydGljbGU+CiAgICAgIDxzY3JpcHQ+Y29uc29sZS5sb2coJ25vaXNlJyk8L3NjcmlwdD4KICAgIDwvYm9keT48L2h0bWw+YDsKCiAgaXQoJ+aPkOWPluWHuuato+aWh+aWh+Wtl++8iOWOu+aOiSBzY3JpcHQg5Zmq6Z+z77yJJywgKCkgPT4gewogICAgY29uc3QgciA9IHBhcnNlV2VicGFnZUh0bWwoaHRtbCwgJ2h0dHBzOi8vdGVzdC5leGFtcGxlLmNvbS9wJyk7CiAgICBleHBlY3Qoci5jb250ZW50KS50b0NvbnRhaW4oJ+esrOS4gOauteato+aWh+WGheWuuScpOwogICAgZXhwZWN0KHIuY29udGVudCkudG9Db250YWluKCfnrKzkuozmrrXmraPmloflhoXlrrknKTsKICAgIGV4cGVjdChyLmNvbnRlbnQpLm5vdC50b0NvbnRhaW4oJ2NvbnNvbGUubG9nJyk7CiAgfSk7CgogIGl0KCfmsqHmnInnq5nngrnlkI3ml7bnlKjln5/lkI3lhZzlupUnLCAoKSA9PiB7CiAgICBjb25zdCByID0gcGFyc2VXZWJwYWdlSHRtbCgnPHA+aGk8L3A+JywgJ2h0dHBzOi8vd3d3LmZvby5iYXIveCcpOwogICAgZXhwZWN0KHIuc2l0ZU5hbWUpLnRvQmUoJ2Zvby5iYXInKTsKICAgIGV4cGVjdChyLnRpdGxlKS50b0JlVHJ1dGh5KCk7CiAgfSk7CgogIGl0KCfmkZjopoHpnZ7nqbrkuJTmnInkuIrpmZAnLCAoKSA9PiB7CiAgICBjb25zdCBsb25nQm9keSA9ICc8cD4nICsgJ+WGheWuuScucmVwZWF0KDUwMCkgKyAnPC9wPic7CiAgICBjb25zdCByID0gcGFyc2VXZWJwYWdlSHRtbChsb25nQm9keSwgJ2h0dHBzOi8veC5jb20nKTsKICAgIGV4cGVjdChyLmV4Y2VycHQubGVuZ3RoKS50b0JlTGVzc1RoYW5PckVxdWFsKDE0MSk7IC8vIDE0MCArIOecgeeVpeWPtwogIH0pOwp9KTsKCmRlc2NyaWJlKCdleHRyYWN0V2VicGFnZUNvbnRlbnQg5o+Q5Y+W6ZO+6Lev77yIYXBpemVybyDkuLsg4oaSIHNmd29ya2VyL0ppbmEg6ZmN57qn77yJJywgKCkgPT4gewogIC8vIOmVv+WIsOiDvei/hyBNSU5fRVhUUkFDVF9DSEFSUyg4MCkg55qE5q2j5paH5qC35L6L44CCCiAgY29uc3QgTE9OR19CT0RZID0gJ2N1cmwg5piv5bi455So55qE5ZG95Luk6KGM5bel5YW377yM55So5p2l6K+35rGCIFdlYiDmnI3liqHlmajjgIInLnJlcGVhdCgxMCk7CgogIC8vIGFwaXplcm8gY29udGVudC1leHRyYWN0IOeahOecn+WunuWTjeW6lOe7k+aehO+8iOmYruS4gOWzsOWNmuWuouWunua1i+ijgeWJqueJiO+8ieOAggogIGNvbnN0IGFwaXplcm9PayA9IHsKICAgIGNvZGU6IDAsCiAgICBtc2c6ICfmiJDlip8nLAogICAgZGF0YTogewogICAgICB1cmw6ICdodHRwczovL3d3dy5ydWFueWlmZW5nLmNvbS9ibG9nLzIwMTkvMDkvY3VybC1yZWZlcmVuY2UuaHRtbCcsCiAgICAgIHRpdGxlOiAnY3VybCDnmoTnlKjms5XmjIfljZcnLAogICAgICBwdWJsaXNoX3RpbWU6ICcnLAogICAgICBjb250ZW50OiBMT05HX0JPRFksCiAgICAgIHdvcmRfY291bnQ6IExPTkdfQk9EWS5sZW5ndGgsCiAgICAgIHJlYWRpbmdfdGltZTogJzIg5YiG6ZKfJywKICAgICAgaW1hZ2VfY291bnQ6IDEsCiAgICAgIGltYWdlczogWydodHRwczovL3d3dy5ydWFueWlmZW5nLmNvbS9ibG9nL2ltYWdlcy9jb3Zlci5wbmcnXSwKICAgIH0sCiAgfTsKCiAgLy8g5oyJIFVSTCDliIbmtYHnmoQgZmV0Y2ggc3R1Yu+8mmFwaXplcm8g56uv54K55LiA5Lu95ZON5bqU77yMc2Z3b3JrZXIgL2ZldGNoLXdlYnBhZ2Ug5LiA5Lu95ZON5bqU44CCCiAgY29uc3Qgc3R1YkZldGNoID0gKGFwaXplcm9Cb2R5OiBhbnksIHdvcmtlckJvZHk/OiBhbnkpID0+IHsKICAgIGNvbnN0IGZuID0gdmkuZm4oYXN5bmMgKGlucHV0OiBhbnkpID0+IHsKICAgICAgY29uc3QgdGFyZ2V0ID0gU3RyaW5nKGlucHV0KTsKICAgICAgY29uc3QgYm9keSA9IHRhcmdldC5pbmNsdWRlcygnYXBpemVyby5jbicpID8gYXBpemVyb0JvZHkgOiB3b3JrZXJCb2R5OwogICAgICBpZiAoYm9keSA9PT0gdW5kZWZpbmVkKSB0aHJvdyBuZXcgRXJyb3IoYHVuZXhwZWN0ZWQgZmV0Y2g6ICR7dGFyZ2V0fWApOwogICAgICByZXR1cm4geyBvazogdHJ1ZSwgc3RhdHVzOiAyMDAsIHRleHQ6IGFzeW5jICgpID0+IEpTT04uc3RyaW5naWZ5KGJvZHkpIH07CiAgICB9KTsKICAgIHZpLnN0dWJHbG9iYWwoJ2ZldGNoJywgZm4pOwogICAgcmV0dXJuIGZuOwogIH07CgogIGFmdGVyRWFjaCgoKSA9PiB7CiAgICB2aS51bnN0dWJBbGxHbG9iYWxzKCk7CiAgfSk7CgogIGl0KCfkuLvot6/lvoTvvJphcGl6ZXJvIOaIkOWKnyDihpIg55u05o6l55So5YW257uT5p6c77yM5LiN5YaN56KwIHNmd29ya2VyJywgYXN5bmMgKCkgPT4gewogICAgY29uc3QgZm4gPSBzdHViRmV0Y2goYXBpemVyb09rKTsKICAgIGNvbnN0IHdwID0gYXdhaXQgZXh0cmFjdFdlYnBhZ2VDb250ZW50KCdodHRwczovL3d3dy5ydWFueWlmZW5nLmNvbS9ibG9nLzIwMTkvMDkvY3VybC1yZWZlcmVuY2UuaHRtbCcpOwogICAgZXhwZWN0KHdwLnRpdGxlKS50b0JlKCdjdXJsIOeahOeUqOazleaMh+WNlycpOwogICAgZXhwZWN0KHdwLmNvbnRlbnQpLnRvQmUoTE9OR19CT0RZKTsKICAgIGV4cGVjdCh3cC5zaXRlTmFtZSkudG9CZSgncnVhbnlpZmVuZy5jb20nKTsKICAgIGV4cGVjdCh3cC5pbWFnZSkudG9CZSgnaHR0cHM6Ly93d3cucnVhbnlpZmVuZy5jb20vYmxvZy9pbWFnZXMvY292ZXIucG5nJyk7CiAgICBleHBlY3Qod3AuZXhjZXJwdC5sZW5ndGgpLnRvQmVHcmVhdGVyVGhhbigwKTsKICAgIGV4cGVjdCh3cC52aWRlbykudG9CZVVuZGVmaW5lZCgpOwogICAgLy8g5Y+q6LCD5LqGIGFwaXplcm8g5LiA5qyh77yM5rKh6LWwIHdvcmtlcgogICAgZXhwZWN0KGZuKS50b0hhdmVCZWVuQ2FsbGVkVGltZXMoMSk7CiAgICBleHBlY3QoU3RyaW5nKGZuLm1vY2suY2FsbHNbMF1bMF0pKS50b0NvbnRhaW4oJ2FwaXplcm8uY24vYXBpL2NvbnRlbnQtZXh0cmFjdCcpOwogICAgZXhwZWN0KFN0cmluZyhmbi5tb2NrLmNhbGxzWzBdWzBdKSkudG9Db250YWluKCdrZXk9c2tfbGl2ZV8nKTsgLy8g5YaF572uIGtleSDluKbkuIrkuoYKICB9KTsKCiAgaXQoJ2FwaXplcm8g5Lia5Yqh5aSx6LSl77yIY29kZeKJoDDvvInihpIg6ZmN57qnIHNmd29ya2VyL0ppbmEg6ICB6ZO+6LevJywgYXN5bmMgKCkgPT4gewogICAgY29uc3QgZm4gPSBzdHViRmV0Y2goCiAgICAgIHsgY29kZTogNTAyMCwgbXNnOiAn55uu5qCH572R6aG15peg5rOV6K6/6ZeuJyB9LAogICAgICB7IHN1Y2Nlc3M6IHRydWUsIGRhdGE6IHsgbW9kZTogJ3JlYWRlcicsIHRpdGxlOiAnSmluYSDmipPliLDnmoTmoIfpopgnLCBjb250ZW50OiBMT05HX0JPRFkgfSB9LAogICAgKTsKICAgIGNvbnN0IHdwID0gYXdhaXQgZXh0cmFjdFdlYnBhZ2VDb250ZW50KCdodHRwczovL2V4YW1wbGUuY29tL2EnKTsKICAgIGV4cGVjdCh3cC50aXRsZSkudG9CZSgnSmluYSDmipPliLDnmoTmoIfpopgnKTsKICAgIGV4cGVjdCh3cC5jb250ZW50KS50b0JlKExPTkdfQk9EWSk7CiAgICBleHBlY3QoZm4pLnRvSGF2ZUJlZW5DYWxsZWRUaW1lcygyKTsgLy8gYXBpemVybyDkuIDmrKEgKyB3b3JrZXIg5LiA5qyhCiAgfSk7CgogIGl0KCdhcGl6ZXJvIOato+aWh+i/h+efre+8iFNQQSDlo7MgLyDnmbvlvZXlopkgLyDmlofmoaPnq5nvvInihpIg6ZmN57qnIEppbmEg5ou/5q2j5paH77yM5LiN5ou/5aOz5b2T5q2j5paHJywgYXN5bmMgKCkgPT4gewogICAgY29uc3QgZm4gPSBzdHViRmV0Y2goCiAgICAgIHsgY29kZTogMCwgZGF0YTogeyB0aXRsZTogJ+agh+mimCcsIGNvbnRlbnQ6ICfor7flvIDlkK8gSmF2YVNjcmlwdCcsIGltYWdlczogW10gfSB9LAogICAgICB7IHN1Y2Nlc3M6IHRydWUsIGRhdGE6IHsgbW9kZTogJ3JlYWRlcicsIHRpdGxlOiAn5riy5p+T5ZCO55qE55yf5qCH6aKYJywgY29udGVudDogTE9OR19CT0RZIH0gfSwKICAgICk7CiAgICBjb25zdCB3cCA9IGF3YWl0IGV4dHJhY3RXZWJwYWdlQ29udGVudCgnaHR0cHM6Ly9zcGEuZXhhbXBsZS5jb20vcGFnZScpOwogICAgZXhwZWN0KHdwLnRpdGxlKS50b0JlKCfmuLLmn5PlkI7nmoTnnJ/moIfpopgnKTsKICAgIGV4cGVjdChmbikudG9IYXZlQmVlbkNhbGxlZFRpbWVzKDIpOwogIH0pOwoKICBpdCgn6LaF6ZW/5q2j5paH5oiq5pat5YiwIDgwMDAg5a2X5bm25qCH6K6wIHRydW5jYXRlZCcsIGFzeW5jICgpID0+IHsKICAgIGNvbnN0IGh1Z2UgPSAneCcucmVwZWF0KDkwMDApOwogICAgc3R1YkZldGNoKHsgY29kZTogMCwgZGF0YTogeyB0aXRsZTogJ+mVv+aWhycsIGNvbnRlbnQ6IGh1Z2UsIGltYWdlczogW10gfSB9KTsKICAgIGNvbnN0IHdwID0gYXdhaXQgZXh0cmFjdFdlYnBhZ2VDb250ZW50KCdodHRwczovL2V4YW1wbGUuY29tL2xvbmcnKTsKICAgIGV4cGVjdCh3cC5jb250ZW50Lmxlbmd0aCkudG9CZSg4MDAwKTsKICAgIGV4cGVjdCh3cC50cnVuY2F0ZWQpLnRvQmUodHJ1ZSk7CiAgfSk7Cn0pOwo=
+import { describe, it, expect, afterEach, vi } from 'vitest';
+import { detectFirstUrl, detectXhsShortUrl, extractXhsShareTitle, isXhsUrl, extractXhsNoteId, parseWebpageHtml, extractWebpageContent } from './webpageExtractor';
+
+describe('detectFirstUrl', () => {
+  it('从一句话里揪出 http(s) 链接', () => {
+    expect(detectFirstUrl('看看这个 https://example.com/article 挺有意思'))
+      .toBe('https://example.com/article');
+    expect(detectFirstUrl('http://foo.bar/baz')).toBe('http://foo.bar/baz');
+  });
+
+  it('中文句号不进 URL，英文尾标点被剥掉', () => {
+    // 中文句号不在 URL 字符集里, 正则到此截断
+    expect(detectFirstUrl('链接是 https://example.com/x。后面还有字')).toBe('https://example.com/x');
+    // 英文句点/右括号结尾要被剥掉
+    expect(detectFirstUrl('see (https://example.com/a).')).toBe('https://example.com/a');
+  });
+
+  it('没有链接时返回 null', () => {
+    expect(detectFirstUrl('就是普通聊天没有网址')).toBeNull();
+    expect(detectFirstUrl('')).toBeNull();
+    expect(detectFirstUrl('ftp://nope.com')).toBeNull();
+  });
+});
+
+describe('isXhsUrl', () => {
+  it('识别小红书域名（已有专门 MCP 路径，网页抓取要避开）', () => {
+    expect(isXhsUrl('https://www.xiaohongshu.com/explore/abc')).toBe(true);
+    expect(isXhsUrl('https://xhslink.com/xxx')).toBe(true);
+    expect(isXhsUrl('http://xhslink.cn/o/3hJ4anvedNl')).toBe(true);
+    expect(isXhsUrl('https://www.rednote.com/explore/abc')).toBe(true);
+    expect(isXhsUrl('https://example.com')).toBe(false);
+    expect(isXhsUrl('https://rednote.com.example.com/explore/abc')).toBe(false);
+    expect(isXhsUrl('https://fake-rednote.com/explore/abc')).toBe(false);
+  });
+});
+
+describe('detectXhsShortUrl', () => {
+  it('识别手机版 xhslink.cn 完整分享文案', () => {
+    const text = '办公室的领导看着不苟言笑 http://xhslink.cn/o/3hJ4anvedNl 存下链接，去【小红书】阅读全文~';
+    expect(detectXhsShortUrl(text)).toBe('http://xhslink.cn/o/3hJ4anvedNl');
+  });
+
+  it('继续兼容 xhslink.com 和不带协议的短链', () => {
+    expect(detectXhsShortUrl('https://xhslink.com/a/AbC_123-xy')).toBe('https://xhslink.com/a/AbC_123-xy');
+    expect(detectXhsShortUrl('看看 xhslink.cn/o/AbC123')).toBe('https://xhslink.cn/o/AbC123');
+  });
+
+  it('不接受相似恶意域名', () => {
+    expect(detectXhsShortUrl('https://xhslink.cn.example.com/o/AbC123')).toBeNull();
+    expect(detectXhsShortUrl('https://fake-xhslink.cn/o/AbC123')).toBeNull();
+  });
+});
+
+describe('extractXhsShareTitle', () => {
+  it('从新版手机分享文案的短链前提取标题，不把【小红书】当标题', () => {
+    const text = '人机恋教主~ a社是不是该给你和你的克颁发结婚证嘞？ ... http://xhslink.cn/o/3udN9HGr5iT 把文本复制下来，打开【小红书】即可查看。';
+    expect(extractXhsShareTitle(text))
+      .toBe('人机恋教主~ a社是不是该给你和你的克颁发结婚证嘞？');
+  });
+
+  it('继续支持旧版【标题 | 小红书】格式', () => {
+    const text = '【今天也要好好吃饭 | 小红书】 https://xhslink.com/a/AbC123';
+    expect(extractXhsShareTitle(text)).toBe('今天也要好好吃饭');
+  });
+
+  it('只有应用名而没有标题时返回空，允许接口标题兜底', () => {
+    const text = 'http://xhslink.cn/o/AbC123 打开【小红书】即可查看';
+    expect(extractXhsShareTitle(text)).toBe('');
+  });
+});
+
+describe('extractXhsNoteId', () => {
+  const NOTE_ID = '6858ccaa0000000013013c94';
+
+  it('从国内和新版 RedNote 完整链接中提取笔记 ID', () => {
+    expect(extractXhsNoteId(`看看这个 https://www.xiaohongshu.com/explore/${NOTE_ID}?xsec_token=abc`))
+      .toBe(NOTE_ID);
+    expect(extractXhsNoteId(`分享给你 https://www.rednote.com/explore/${NOTE_ID}?xsec_token=abc`))
+      .toBe(NOTE_ID);
+    expect(extractXhsNoteId(`www.rednote.com/discovery/item/${NOTE_ID}`))
+      .toBe(NOTE_ID);
+  });
+
+  it('支持短链展开后落到 rednote.com 的最终链接', () => {
+    expect(extractXhsNoteId(`https://rednote.com/item/${NOTE_ID}?xsec_source=app_share`))
+      .toBe(NOTE_ID);
+  });
+
+  it('不把相似恶意域名或非笔记页面误判成小红书笔记', () => {
+    expect(extractXhsNoteId(`https://rednote.com.example.com/explore/${NOTE_ID}`)).toBeNull();
+    expect(extractXhsNoteId(`https://fake-rednote.com/explore/${NOTE_ID}`)).toBeNull();
+    expect(extractXhsNoteId('https://www.rednote.com/explore')).toBeNull();
+  });
+});
+
+describe('parseWebpageHtml', () => {
+  // node 测试环境无 DOMParser，会走正则 fallback（htmlToText）。两条路径都应产出标题/正文。
+  const html = `
+    <html><head>
+      <title>测试标题</title>
+      <meta name="description" content="这是一段网页摘要描述">
+      <meta property="og:site_name" content="测试站">
+    </head><body>
+      <nav>导航不该进正文</nav>
+      <article><p>第一段正文内容。</p><p>第二段正文内容。</p></article>
+      <script>console.log('noise')</script>
+    </body></html>`;
+
+  it('提取出正文文字（去掉 script 噪音）', () => {
+    const r = parseWebpageHtml(html, 'https://test.example.com/p');
+    expect(r.content).toContain('第一段正文内容');
+    expect(r.content).toContain('第二段正文内容');
+    expect(r.content).not.toContain('console.log');
+  });
+
+  it('没有站点名时用域名兜底', () => {
+    const r = parseWebpageHtml('<p>hi</p>', 'https://www.foo.bar/x');
+    expect(r.siteName).toBe('foo.bar');
+    expect(r.title).toBeTruthy();
+  });
+
+  it('摘要非空且有上限', () => {
+    const longBody = '<p>' + '内容'.repeat(500) + '</p>';
+    const r = parseWebpageHtml(longBody, 'https://x.com');
+    expect(r.excerpt.length).toBeLessThanOrEqual(141); // 140 + 省略号
+  });
+});
+
+describe('extractWebpageContent 提取链路（apizero 主 → sfworker/Jina 降级）', () => {
+  // 长到能过 MIN_EXTRACT_CHARS(80) 的正文样例。
+  const LONG_BODY = 'curl 是常用的命令行工具，用来请求 Web 服务器。'.repeat(10);
+
+  // apizero content-extract 的真实响应结构（阮一峰博客实测裁剪版）。
+  const apizeroOk = {
+    code: 0,
+    msg: '成功',
+    data: {
+      url: 'https://www.ruanyifeng.com/blog/2019/09/curl-reference.html',
+      title: 'curl 的用法指南',
+      publish_time: '',
+      content: LONG_BODY,
+      word_count: LONG_BODY.length,
+      reading_time: '2 分钟',
+      image_count: 1,
+      images: ['https://www.ruanyifeng.com/blog/images/cover.png'],
+    },
+  };
+
+  // 按 URL 分流的 fetch stub：apizero 端点一份响应，sfworker /fetch-webpage 一份响应。
+  const stubFetch = (apizeroBody: any, workerBody?: any) => {
+    const fn = vi.fn(async (input: any) => {
+      const target = String(input);
+      const body = target.includes('apizero.cn') ? apizeroBody : workerBody;
+      if (body === undefined) throw new Error(`unexpected fetch: ${target}`);
+      return { ok: true, status: 200, text: async () => JSON.stringify(body) };
+    });
+    vi.stubGlobal('fetch', fn);
+    return fn;
+  };
+
+  afterEach(() => {
+    vi.unstubAllGlobals();
+  });
+
+  it('主路径：apizero 成功 → 直接用其结果，不再碰 sfworker', async () => {
+    const fn = stubFetch(apizeroOk);
+    const wp = await extractWebpageContent('https://www.ruanyifeng.com/blog/2019/09/curl-reference.html');
+    expect(wp.title).toBe('curl 的用法指南');
+    expect(wp.content).toBe(LONG_BODY);
+    expect(wp.siteName).toBe('ruanyifeng.com');
+    expect(wp.image).toBe('https://www.ruanyifeng.com/blog/images/cover.png');
+    expect(wp.excerpt.length).toBeGreaterThan(0);
+    expect(wp.video).toBeUndefined();
+    // 只调了 apizero 一次，没走 worker
+    expect(fn).toHaveBeenCalledTimes(1);
+    expect(String(fn.mock.calls[0][0])).toContain('apizero.cn/api/content-extract');
+    expect(String(fn.mock.calls[0][0])).toContain('key=sk_live_'); // 内置 key 带上了
+  });
+
+  it('apizero 业务失败（code≠0）→ 降级 sfworker/Jina 老链路', async () => {
+    const fn = stubFetch(
+      { code: 5020, msg: '目标网页无法访问' },
+      { success: true, data: { mode: 'reader', title: 'Jina 抓到的标题', content: LONG_BODY } },
+    );
+    const wp = await extractWebpageContent('https://example.com/a');
+    expect(wp.title).toBe('Jina 抓到的标题');
+    expect(wp.content).toBe(LONG_BODY);
+    expect(fn).toHaveBeenCalledTimes(2); // apizero 一次 + worker 一次
+  });
+
+  it('apizero 正文过短（SPA 壳 / 登录墙 / 文档站）→ 降级 Jina 拿正文，不拿壳当正文', async () => {
+    const fn = stubFetch(
+      { code: 0, data: { title: '标题', content: '请开启 JavaScript', images: [] } },
+      { success: true, data: { mode: 'reader', title: '渲染后的真标题', content: LONG_BODY } },
+    );
+    const wp = await extractWebpageContent('https://spa.example.com/page');
+    expect(wp.title).toBe('渲染后的真标题');
+    expect(fn).toHaveBeenCalledTimes(2);
+  });
+
+  it('超长正文截断到 8000 字并标记 truncated', async () => {
+    const huge = 'x'.repeat(9000);
+    stubFetch({ code: 0, data: { title: '长文', content: huge, images: [] } });
+    const wp = await extractWebpageContent('https://example.com/long');
+    expect(wp.content.length).toBe(8000);
+    expect(wp.truncated).toBe(true);
+  });
+});

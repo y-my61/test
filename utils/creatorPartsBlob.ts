@@ -1,1 +1,54 @@
-Ly8g5o2P5Lq65Zmo77yI5b285pa5IC8gNTIwIOWFseeUqOeahCBjaGliaSDmjY/ohLjns7vnu5/vvInoh6rlrprkuYnpg6jku7bnmoQgYmFzZTY0IOKHhCBCbG9iIOahpeOAggovLwovLyDpg6jku7bvvIhDdXN0b21DcmVhdG9yUGFydC5zcmMgLyBzaGFkb3dTcmPvvInljobmnaXmmK8gYmFzZTY0IFBORyDlrZjov5sgY2NfY3VzdG9tX3BhcnRzIHN0b3Jl77yMCi8vIFBTRCDmlbTmibnlr7zlhaXkuIDmrKHog73loZ7lh6DljYHkuKrvvIzlvojlkIMgSW5kZXhlZERCIOmFjemineOAgui/memHjOaKiuOAjOWtmOWCqOOAjeaUueaIkCBCbG9i77yIYmxvYnJlZiDku6TniYzvvInvvIwKLy8g6ICM44CM5raI6LS544CN5L6n5LuN6KaBIGJhc2U2NOKAlOKAlOWboOS4uumDqOS7tuimgei3qCBpZnJhbWXvvIhjaGFyYWN0ZXJfY3JlYXRvci5odG1s77yJ55SoIHBvc3RNZXNzYWdlIOazqOWFpe+8jAovLyBpZnJhbWUg6YeM55u05o6lIGA8aW1nIHNyYz0iJHtpdC5zcmN9Ij5g44CC5omA5Lul77ya6JC95bqT6L2s5Luk54mM44CB6K+75Ye66L2s5ZueIGJhc2U2NO+8jGlmcmFtZSDlpZHnuqbkuI3liqjjgIIKLy8KLy8g5YaF572u57Sg5p2Q5LiN57uP6L+Z6YeM77ya5a6D5Lus5pivIGJhc2U2NCDlhoXltYzlnKggY2hhcmFjdGVyX2NyZWF0b3IuaHRtbCDpnZnmgIHmlofku7bph4zvvIzotbAgYnVuZGxlIC8gSFRUUAovLyDnvJPlrZjvvIzkuI3ljaAgSW5kZXhlZERC77yM5peg6ZyA5Lmf5peg5rOV6L2s44CCCgppbXBvcnQgdHlwZSB7IEN1c3RvbUNyZWF0b3JQYXJ0IH0gZnJvbSAnLi4vdHlwZXMnOwppbXBvcnQgeyBpc0Jsb2JSZWYsIG1pZ3JhdGVEYXRhVXJsVG9SZWYsIHJlc29sdmVSZWZUb0RhdGFVcmwgfSBmcm9tICcuL2Jsb2JSZWYnOwppbXBvcnQgeyBEQiB9IGZyb20gJy4vZGInOwoKLyoqIOiQveW6k+WJje+8muaKiiBiYXNlNjQg55qEIHNyYyAvIHNoYWRvd1NyYyDovazmiJAgYmxvYnJlZiDku6TniYzvvIjlt7LmmK/ku6TniYwgLyBodHRwIOeahOWOn+agt+S/neeVme+8ieOAgiAqLwpleHBvcnQgYXN5bmMgZnVuY3Rpb24gY3JlYXRvclBhcnRUb0Jsb2JSZWZzKHBhcnQ6IEN1c3RvbUNyZWF0b3JQYXJ0KTogUHJvbWlzZTxDdXN0b21DcmVhdG9yUGFydD4gewogICAgY29uc3Qgb3V0OiBDdXN0b21DcmVhdG9yUGFydCA9IHsgLi4ucGFydCB9OwogICAgaWYgKG91dC5zcmMgJiYgb3V0LnNyYy5zdGFydHNXaXRoKCdkYXRhOicpKSBvdXQuc3JjID0gYXdhaXQgbWlncmF0ZURhdGFVcmxUb1JlZihvdXQuc3JjKTsKICAgIGlmIChvdXQuc2hhZG93U3JjICYmIG91dC5zaGFkb3dTcmMuc3RhcnRzV2l0aCgnZGF0YTonKSkgb3V0LnNoYWRvd1NyYyA9IGF3YWl0IG1pZ3JhdGVEYXRhVXJsVG9SZWYob3V0LnNoYWRvd1NyYyk7CiAgICByZXR1cm4gb3V0Owp9CgovKioKICog6K+75Y+W5L6b5riy5p+TIC8g5rOo5YWlIGlmcmFtZe+8mui/lOWbniBzcmMgLyBzaGFkb3dTcmMg5bey6Kej5p6Q5oiQIGJhc2U2NCDnmoTpg6jku7bliJfooajjgIIKICog6aG65omL5oqK5LuN5pivIGJhc2U2NCDnmoTlrZjph4/pg6jku7bmg7DmgKfov4Hnp7vmiJAgQmxvYiDku6TniYzokL3lupPvvIjlrZjph4/nnIHphY3pop3vvIzlj6rot5HkuIDmrKHvvInjgIIKICovCmV4cG9ydCBhc3luYyBmdW5jdGlvbiBsb2FkQ3JlYXRvclBhcnRzRm9yUmVuZGVyKCk6IFByb21pc2U8Q3VzdG9tQ3JlYXRvclBhcnRbXT4gewogICAgY29uc3QgcGFydHMgPSBhd2FpdCBEQi5nZXRDdXN0b21DcmVhdG9yUGFydHMoKTsKICAgIGNvbnN0IG91dDogQ3VzdG9tQ3JlYXRvclBhcnRbXSA9IFtdOwogICAgZm9yIChjb25zdCBwIG9mIHBhcnRzKSB7CiAgICAgICAgbGV0IGRiU3JjID0gcC5zcmM7CiAgICAgICAgbGV0IGRiU2hhZG93ID0gcC5zaGFkb3dTcmM7CiAgICAgICAgbGV0IG1pZ3JhdGVkID0gZmFsc2U7CiAgICAgICAgLy8g5a2Y6YePIGRhdGE6IOKGkiDku6TniYzvvIjokL3lupPvvInvvIzov4Hnp7vlpLHotKXml7bkv53mjIHljp/lgLzkuI3kuKLlm74KICAgICAgICBpZiAoZGJTcmMgJiYgZGJTcmMuc3RhcnRzV2l0aCgnZGF0YTonKSkgewogICAgICAgICAgICBjb25zdCByID0gYXdhaXQgbWlncmF0ZURhdGFVcmxUb1JlZihkYlNyYyk7CiAgICAgICAgICAgIGlmIChpc0Jsb2JSZWYocikpIHsgZGJTcmMgPSByOyBtaWdyYXRlZCA9IHRydWU7IH0KICAgICAgICB9CiAgICAgICAgaWYgKGRiU2hhZG93ICYmIGRiU2hhZG93LnN0YXJ0c1dpdGgoJ2RhdGE6JykpIHsKICAgICAgICAgICAgY29uc3QgciA9IGF3YWl0IG1pZ3JhdGVEYXRhVXJsVG9SZWYoZGJTaGFkb3cpOwogICAgICAgICAgICBpZiAoaXNCbG9iUmVmKHIpKSB7IGRiU2hhZG93ID0gcjsgbWlncmF0ZWQgPSB0cnVlOyB9CiAgICAgICAgfQogICAgICAgIGlmIChtaWdyYXRlZCkgewogICAgICAgICAgICB0cnkgeyBhd2FpdCBEQi5zYXZlQ3VzdG9tQ3JlYXRvclBhcnQoeyAuLi5wLCBzcmM6IGRiU3JjLCBzaGFkb3dTcmM6IGRiU2hhZG93IH0pOyB9IGNhdGNoIHsgLyogaWdub3JlICovIH0KICAgICAgICB9CiAgICAgICAgLy8g6Kej5p6Q5oiQIGJhc2U2NCDkvpsgPGltZz4gLyBpZnJhbWUg55SoCiAgICAgICAgb3V0LnB1c2goewogICAgICAgICAgICAuLi5wLAogICAgICAgICAgICBzcmM6IGF3YWl0IHJlc29sdmVSZWZUb0RhdGFVcmwoZGJTcmMpLAogICAgICAgICAgICBzaGFkb3dTcmM6IGRiU2hhZG93ID8gYXdhaXQgcmVzb2x2ZVJlZlRvRGF0YVVybChkYlNoYWRvdykgOiB1bmRlZmluZWQsCiAgICAgICAgfSk7CiAgICB9CiAgICByZXR1cm4gb3V0Owp9Cg==
+// 捏人器（彼方 / 520 共用的 chibi 捏脸系统）自定义部件的 base64 ⇄ Blob 桥。
+//
+// 部件（CustomCreatorPart.src / shadowSrc）历来是 base64 PNG 存进 cc_custom_parts store，
+// PSD 整批导入一次能塞几十个，很吃 IndexedDB 配额。这里把「存储」改成 Blob（blobref 令牌），
+// 而「消费」侧仍要 base64——因为部件要跨 iframe（character_creator.html）用 postMessage 注入，
+// iframe 里直接 `<img src="${it.src}">`。所以：落库转令牌、读出转回 base64，iframe 契约不动。
+//
+// 内置素材不经这里：它们是 base64 内嵌在 character_creator.html 静态文件里，走 bundle / HTTP
+// 缓存，不占 IndexedDB，无需也无法转。
+
+import type { CustomCreatorPart } from '../types';
+import { isBlobRef, migrateDataUrlToRef, resolveRefToDataUrl } from './blobRef';
+import { DB } from './db';
+
+/** 落库前：把 base64 的 src / shadowSrc 转成 blobref 令牌（已是令牌 / http 的原样保留）。 */
+export async function creatorPartToBlobRefs(part: CustomCreatorPart): Promise<CustomCreatorPart> {
+    const out: CustomCreatorPart = { ...part };
+    if (out.src && out.src.startsWith('data:')) out.src = await migrateDataUrlToRef(out.src);
+    if (out.shadowSrc && out.shadowSrc.startsWith('data:')) out.shadowSrc = await migrateDataUrlToRef(out.shadowSrc);
+    return out;
+}
+
+/**
+ * 读取供渲染 / 注入 iframe：返回 src / shadowSrc 已解析成 base64 的部件列表。
+ * 顺手把仍是 base64 的存量部件惰性迁移成 Blob 令牌落库（存量省配额，只跑一次）。
+ */
+export async function loadCreatorPartsForRender(): Promise<CustomCreatorPart[]> {
+    const parts = await DB.getCustomCreatorParts();
+    const out: CustomCreatorPart[] = [];
+    for (const p of parts) {
+        let dbSrc = p.src;
+        let dbShadow = p.shadowSrc;
+        let migrated = false;
+        // 存量 data: → 令牌（落库），迁移失败时保持原值不丢图
+        if (dbSrc && dbSrc.startsWith('data:')) {
+            const r = await migrateDataUrlToRef(dbSrc);
+            if (isBlobRef(r)) { dbSrc = r; migrated = true; }
+        }
+        if (dbShadow && dbShadow.startsWith('data:')) {
+            const r = await migrateDataUrlToRef(dbShadow);
+            if (isBlobRef(r)) { dbShadow = r; migrated = true; }
+        }
+        if (migrated) {
+            try { await DB.saveCustomCreatorPart({ ...p, src: dbSrc, shadowSrc: dbShadow }); } catch { /* ignore */ }
+        }
+        // 解析成 base64 供 <img> / iframe 用
+        out.push({
+            ...p,
+            src: await resolveRefToDataUrl(dbSrc),
+            shadowSrc: dbShadow ? await resolveRefToDataUrl(dbShadow) : undefined,
+        });
+    }
+    return out;
+}

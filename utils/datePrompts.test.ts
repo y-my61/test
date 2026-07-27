@@ -1,1 +1,351 @@
-aW1wb3J0IHsgZGVzY3JpYmUsIGl0LCBleHBlY3QgfSBmcm9tICd2aXRlc3QnOwppbXBvcnQgeyBEYXRlUHJvbXB0cywgREFURV9TVFlMRV9QUkVTRVRTLCBleHRyYWN0T2JzZXJ2YXRpb24sIHN0cmlwT2JzZXJ2YXRpb24sIGhhc09ic2VydmF0aW9uLCByZXNvbHZlT2JzZXJ2ZUZpZWxkcywgT0JTRVJWRV9PUEVOLCBPQlNFUlZFX0NMT1NFIH0gZnJvbSAnLi9kYXRlUHJvbXB0cyc7CmltcG9ydCB0eXBlIHsgQ2hhcmFjdGVyUHJvZmlsZSwgVXNlclByb2ZpbGUsIE1lc3NhZ2UgfSBmcm9tICcuLi90eXBlcyc7Cgpjb25zdCBtYWtlQ2hhciA9IChvdmVycmlkZXM6IFBhcnRpYWw8Q2hhcmFjdGVyUHJvZmlsZT4gPSB7fSk6IENoYXJhY3RlclByb2ZpbGUgPT4gKHsKICAgIGlkOiAnY2hhci0xJywKICAgIG5hbWU6ICflsI/nmb0nLAogICAgYXZhdGFyOiAnJywKICAgIGRlc2NyaXB0aW9uOiAnJywKICAgIHN5c3RlbVByb21wdDogJ+S9oOaYr+Wwj+eZve+8jOS4gOS4qua4qeaflOeahOinkuiJsuOAgicsCiAgICBtZW1vcmllczogW10sCiAgICAuLi5vdmVycmlkZXMsCn0gYXMgQ2hhcmFjdGVyUHJvZmlsZSk7Cgpjb25zdCB1c2VyOiBVc2VyUHJvZmlsZSA9IHsgbmFtZTogJ+mYv+aYjicsIGJpbzogJycgfSBhcyBVc2VyUHJvZmlsZTsKCmxldCBtc2dJZCA9IDE7CmNvbnN0IG1ha2VNc2cgPSAob3ZlcnJpZGVzOiBQYXJ0aWFsPE1lc3NhZ2U+ID0ge30pOiBNZXNzYWdlID0+ICh7CiAgICBpZDogbXNnSWQrKywKICAgIGNoYXJJZDogJ2NoYXItMScsCiAgICByb2xlOiAndXNlcicsCiAgICB0eXBlOiAndGV4dCcsCiAgICBjb250ZW50OiAn5L2g5aW9JywKICAgIHRpbWVzdGFtcDogRGF0ZS5ub3coKSwKICAgIC4uLm92ZXJyaWRlcywKfSk7Cgpjb25zdCBzeXNPZiA9IChtZXNzYWdlczogQXJyYXk8eyByb2xlOiBzdHJpbmc7IGNvbnRlbnQ6IGFueSB9Pik6IHN0cmluZyA9PiB7CiAgICBjb25zdCBzeXMgPSBtZXNzYWdlcy5maW5kKG0gPT4gbS5yb2xlID09PSAnc3lzdGVtJyk7CiAgICByZXR1cm4gdHlwZW9mIHN5cz8uY29udGVudCA9PT0gJ3N0cmluZycgPyBzeXMuY29udGVudCA6ICcnOwp9OwoKZGVzY3JpYmUoJ0RhdGVQcm9tcHRzLmJ1aWxkU2Vzc2lvblBheWxvYWQnLCAoKSA9PiB7CiAgICBjb25zdCBiYXNlSW5wdXQgPSAoY2hhcjogQ2hhcmFjdGVyUHJvZmlsZSkgPT4gKHsKICAgICAgICBjaGFyLAogICAgICAgIHVzZXJQcm9maWxlOiB1c2VyLAogICAgICAgIGFsbE1zZ3M6IFttYWtlTXNnKHsgcm9sZTogJ2Fzc2lzdGFudCcsIGNvbnRlbnQ6ICdbbm9ybWFsXSDlvIDlnLrnmb0nIH0pLCBtYWtlTXNnKHsgY29udGVudDogJ+aIkeadpeS6hicgfSldLAogICAgICAgIGVtb2ppczogW10sCiAgICAgICAgdXNlclRleHQ6ICfmiJHmnaXkuoYnLAogICAgICAgIHZhcmlhbnQ6ICdzZW5kJyBhcyBjb25zdCwKICAgIH0pOwoKICAgIGl0KCfpu5jorqTms6jlhaXnlLXlvbHmhJ/po47moLzlnZfvvIzkuI3ms6jlhaXkurrnp7DlnZcnLCBhc3luYyAoKSA9PiB7CiAgICAgICAgY29uc3QgeyBtZXNzYWdlcyB9ID0gYXdhaXQgRGF0ZVByb21wdHMuYnVpbGRTZXNzaW9uUGF5bG9hZChiYXNlSW5wdXQobWFrZUNoYXIoKSkpOwogICAgICAgIGNvbnN0IHN5cyA9IHN5c09mKG1lc3NhZ2VzKTsKICAgICAgICBleHBlY3Qoc3lzKS50b0NvbnRhaW4oJ+mjjuagvO+8mueUteW9seaEnycpOwogICAgICAgIGV4cGVjdChzeXMpLnRvQ29udGFpbignVmlzdWFsIE5vdmVsIE1vZGUnKTsKICAgICAgICBleHBlY3Qoc3lzKS5ub3QudG9Db250YWluKCflj5nkuovkurrnp7AnKTsKICAgIH0pOwoKICAgIGl0KCfmjIkgZGF0ZVN0eWxlQ29uZmlnLnN0eWxlIOWIh+aNoumjjuagvOWdlycsIGFzeW5jICgpID0+IHsKICAgICAgICBmb3IgKGNvbnN0IHByZXNldCBvZiBEQVRFX1NUWUxFX1BSRVNFVFMpIHsKICAgICAgICAgICAgY29uc3QgY2hhciA9IG1ha2VDaGFyKHsgZGF0ZVN0eWxlQ29uZmlnOiB7IHN0eWxlOiBwcmVzZXQuaWQgfSB9KTsKICAgICAgICAgICAgY29uc3QgeyBtZXNzYWdlcyB9ID0gYXdhaXQgRGF0ZVByb21wdHMuYnVpbGRTZXNzaW9uUGF5bG9hZChiYXNlSW5wdXQoY2hhcikpOwogICAgICAgICAgICBleHBlY3Qoc3lzT2YobWVzc2FnZXMpKS50b0NvbnRhaW4oYOmjjuagvO+8miR7cHJlc2V0LmxhYmVsfWApOwogICAgICAgIH0KICAgIH0pOwoKICAgIGl0KCdwb3Y9dGhpcmQtbmFtZSDms6jlhaXlj4zlkI3lrZfkurrnp7Dop4TliJknLCBhc3luYyAoKSA9PiB7CiAgICAgICAgY29uc3QgY2hhciA9IG1ha2VDaGFyKHsgZGF0ZVN0eWxlQ29uZmlnOiB7IHBvdjogJ3RoaXJkLW5hbWUnIH0gfSk7CiAgICAgICAgY29uc3QgeyBtZXNzYWdlcyB9ID0gYXdhaXQgRGF0ZVByb21wdHMuYnVpbGRTZXNzaW9uUGF5bG9hZChiYXNlSW5wdXQoY2hhcikpOwogICAgICAgIGNvbnN0IHN5cyA9IHN5c09mKG1lc3NhZ2VzKTsKICAgICAgICBleHBlY3Qoc3lzKS50b0NvbnRhaW4oJ+WPmeS6i+S6uuensCcpOwogICAgICAgIGV4cGVjdChzeXMpLnRvQ29udGFpbign5bCP55m955yL5ZCR6Zi/5piOJyk7CiAgICB9KTsKCiAgICBpdCgncG92PXRoaXJkLXlvdSAvIGZpcnN0LXlvdSDms6jlhaXlr7nlupTnpLrkvosnLCBhc3luYyAoKSA9PiB7CiAgICAgICAgY29uc3QgdGhpcmRZb3UgPSBhd2FpdCBEYXRlUHJvbXB0cy5idWlsZFNlc3Npb25QYXlsb2FkKGJhc2VJbnB1dChtYWtlQ2hhcih7IGRhdGVTdHlsZUNvbmZpZzogeyBwb3Y6ICd0aGlyZC15b3UnIH0gfSkpKTsKICAgICAgICBleHBlY3Qoc3lzT2YodGhpcmRZb3UubWVzc2FnZXMpKS50b0NvbnRhaW4oJ+Wwj+eZveeci+WQkeS9oCcpOwogICAgICAgIGNvbnN0IGZpcnN0WW91ID0gYXdhaXQgRGF0ZVByb21wdHMuYnVpbGRTZXNzaW9uUGF5bG9hZChiYXNlSW5wdXQobWFrZUNoYXIoeyBkYXRlU3R5bGVDb25maWc6IHsgcG92OiAnZmlyc3QteW91JyB9IH0pKSk7CiAgICAgICAgZXhwZWN0KHN5c09mKGZpcnN0WW91Lm1lc3NhZ2VzKSkudG9Db250YWluKCfmiJHnnIvlkJHkvaAnKTsKICAgIH0pOwoKICAgIGl0KCdleHRyYSDoh6rlrprkuYnooaXlhYXljp/moLfov5vlhaXmj5DnpLror40nLCBhc3luYyAoKSA9PiB7CiAgICAgICAgY29uc3QgY2hhciA9IG1ha2VDaGFyKHsgZGF0ZVN0eWxlQ29uZmlnOiB7IGV4dHJhOiAn5LiN6KaB5YaZ5b+D55CG5rS75Yqo77yM5aSa5YaZ5a+56K+d44CCJyB9IH0pOwogICAgICAgIGNvbnN0IHsgbWVzc2FnZXMgfSA9IGF3YWl0IERhdGVQcm9tcHRzLmJ1aWxkU2Vzc2lvblBheWxvYWQoYmFzZUlucHV0KGNoYXIpKTsKICAgICAgICBjb25zdCBzeXMgPSBzeXNPZihtZXNzYWdlcyk7CiAgICAgICAgZXhwZWN0KHN5cykudG9Db250YWluKCfpop3lpJbopoHmsYInKTsKICAgICAgICBleHBlY3Qoc3lzKS50b0NvbnRhaW4oJ+S4jeimgeWGmeW/g+eQhua0u+WKqO+8jOWkmuWGmeWvueivneOAgicpOwogICAgfSk7CgogICAgaXQoJ+e7huiKgua3seaMlum7mOiupOW8gOWQr++8muaWueazleWdl+i/myBzeXN0ZW3vvIzogZrnhKbnur/ntKLov5vmnKvlsL4gbm90Ze+8m+WFs+mXreWQjuS4pOiAhemDvea2iOWksScsIGFzeW5jICgpID0+IHsKICAgICAgICBjb25zdCBvbiA9IGF3YWl0IERhdGVQcm9tcHRzLmJ1aWxkU2Vzc2lvblBheWxvYWQoYmFzZUlucHV0KG1ha2VDaGFyKCkpKTsKICAgICAgICBleHBlY3Qoc3lzT2Yob24ubWVzc2FnZXMpKS50b0NvbnRhaW4oJ+a3seaMlu+8jOWIq+Whq+WFhScpOwogICAgICAgIGV4cGVjdChvbi5tZXNzYWdlc1tvbi5tZXNzYWdlcy5sZW5ndGggLSAxXS5jb250ZW50KS50b0NvbnRhaW4oJ+acrOi9rue6v+e0oicpOwoKICAgICAgICBjb25zdCBvZmYgPSBhd2FpdCBEYXRlUHJvbXB0cy5idWlsZFNlc3Npb25QYXlsb2FkKGJhc2VJbnB1dChtYWtlQ2hhcih7IGRhdGVTdHlsZUNvbmZpZzogeyBkaWdEZWVwZXI6IGZhbHNlIH0gfSkpKTsKICAgICAgICBleHBlY3Qoc3lzT2Yob2ZmLm1lc3NhZ2VzKSkubm90LnRvQ29udGFpbign5rex5oyW77yM5Yir5aGr5YWFJyk7CiAgICAgICAgZXhwZWN0KG9mZi5tZXNzYWdlc1tvZmYubWVzc2FnZXMubGVuZ3RoIC0gMV0uY29udGVudCkubm90LnRvQ29udGFpbign5pys6L2u57q/57SiJyk7CiAgICAgICAgLy8gQ29udGV4dEJ1aWxkZXIg55qE5YWoIEFwcCDpgJrnlKjnsr7nroDniYjvvIjooajovr7lupXnur/vvInkuI3lj5cgZGlnRGVlcGVyIOW8gOWFs+W9seWTje+8jOW4uOmpuwogICAgICAgIGV4cGVjdChzeXNPZihvZmYubWVzc2FnZXMpKS50b0NvbnRhaW4oJ+ihqOi+vuW6lee6vycpOwogICAgfSk7CgogICAgaXQoJ+a2iOaBr+e7k+aehOS4uiBbc3lzdGVtLCAuLi5oaXN0b3J5LCB1c2VyXe+8jOacq+WwvuW4piBTeXN0ZW0gTm90Ze+8m3Jlcm9sbCDnmoQgbm90ZSDkuI3lkIwnLCBhc3luYyAoKSA9PiB7CiAgICAgICAgY29uc3Qgc2VuZCA9IGF3YWl0IERhdGVQcm9tcHRzLmJ1aWxkU2Vzc2lvblBheWxvYWQoYmFzZUlucHV0KG1ha2VDaGFyKCkpKTsKICAgICAgICBleHBlY3Qoc2VuZC5tZXNzYWdlc1swXS5yb2xlKS50b0JlKCdzeXN0ZW0nKTsKICAgICAgICBjb25zdCBsYXN0U2VuZCA9IHNlbmQubWVzc2FnZXNbc2VuZC5tZXNzYWdlcy5sZW5ndGggLSAxXTsKICAgICAgICBleHBlY3QobGFzdFNlbmQucm9sZSkudG9CZSgndXNlcicpOwogICAgICAgIGV4cGVjdChsYXN0U2VuZC5jb250ZW50KS50b0NvbnRhaW4oJ+aIkeadpeS6hicpOwogICAgICAgIGV4cGVjdChsYXN0U2VuZC5jb250ZW50KS50b0NvbnRhaW4oJ1N5c3RlbSBOb3RlJyk7CiAgICAgICAgZXhwZWN0KGxhc3RTZW5kLmNvbnRlbnQpLm5vdC50b0NvbnRhaW4oJ1Jlcm9sbCcpOwoKICAgICAgICBjb25zdCByZXJvbGwgPSBhd2FpdCBEYXRlUHJvbXB0cy5idWlsZFNlc3Npb25QYXlsb2FkKHsgLi4uYmFzZUlucHV0KG1ha2VDaGFyKCkpLCB2YXJpYW50OiAncmVyb2xsJyB9KTsKICAgICAgICBjb25zdCBsYXN0UmVyb2xsID0gcmVyb2xsLm1lc3NhZ2VzW3Jlcm9sbC5tZXNzYWdlcy5sZW5ndGggLSAxXTsKICAgICAgICBleHBlY3QobGFzdFJlcm9sbC5jb250ZW50KS50b0NvbnRhaW4oJ1Jlcm9sbCcpOwogICAgfSk7Cn0pOwoKZGVzY3JpYmUoJ09CU0VSVkUg6KeC5rWL5Y2P6K6uJywgKCkgPT4gewogICAgY29uc3QgYmxvY2sgPSBgJHtPQlNFUlZFX09QRU59CuaXtumXtO+9nOWCjeaZmuWFreeCuei/h++8jOWkqeWImuaTpum7kQrlnLDngrnvvZzkvr/liKnlupfpl6jlj6PnmoTloZHmlpnlh7PkuIoK54q25oCB772c5pyJ54K555ay5oOr77yM5L2G6KeB5Yiw5L2g55y856We5Lqu5LqG5LiA5LiLCue7huiKgu+9nOaMh+WwluaXoOaEj+ivhuWcsOaVsuedgOWFs+S4nOeFrueahOe6uOadrwoke09CU0VSVkVfQ0xPU0V9YDsKCiAgICBpdCgn5byA5YWz5omT5byA5pe25rOo5YWl6KeC5rWL5Z2X5o+Q56S66K+N77yM5YWz6Zet5pe25LiN5rOo5YWlJywgYXN5bmMgKCkgPT4gewogICAgICAgIGNvbnN0IG9uID0gYXdhaXQgRGF0ZVByb21wdHMuYnVpbGRTZXNzaW9uUGF5bG9hZCh7CiAgICAgICAgICAgIGNoYXI6IG1ha2VDaGFyKHsgZGF0ZU9ic2VydmU6IHsgZW5hYmxlZDogdHJ1ZSB9IH0pLAogICAgICAgICAgICB1c2VyUHJvZmlsZTogdXNlciwgYWxsTXNnczogW21ha2VNc2coeyByb2xlOiAnYXNzaXN0YW50JywgY29udGVudDogJ1tub3JtYWxdIOW8gOWcuicgfSksIG1ha2VNc2coeyBjb250ZW50OiAnaGknIH0pXSwKICAgICAgICAgICAgZW1vamlzOiBbXSwgdXNlclRleHQ6ICdoaScsIHZhcmlhbnQ6ICdzZW5kJywKICAgICAgICB9KTsKICAgICAgICBleHBlY3Qoc3lzT2Yob24ubWVzc2FnZXMpKS50b0NvbnRhaW4oJ+ingua1i+WNj+iuricpOwogICAgICAgIGV4cGVjdChzeXNPZihvbi5tZXNzYWdlcykpLnRvQ29udGFpbihPQlNFUlZFX09QRU4pOwoKICAgICAgICBjb25zdCBvZmYgPSBhd2FpdCBEYXRlUHJvbXB0cy5idWlsZFNlc3Npb25QYXlsb2FkKHsKICAgICAgICAgICAgY2hhcjogbWFrZUNoYXIoKSwKICAgICAgICAgICAgdXNlclByb2ZpbGU6IHVzZXIsIGFsbE1zZ3M6IFttYWtlTXNnKHsgcm9sZTogJ2Fzc2lzdGFudCcsIGNvbnRlbnQ6ICdbbm9ybWFsXSDlvIDlnLonIH0pLCBtYWtlTXNnKHsgY29udGVudDogJ2hpJyB9KV0sCiAgICAgICAgICAgIGVtb2ppczogW10sIHVzZXJUZXh0OiAnaGknLCB2YXJpYW50OiAnc2VuZCcsCiAgICAgICAgfSk7CiAgICAgICAgZXhwZWN0KHN5c09mKG9mZi5tZXNzYWdlcykpLm5vdC50b0NvbnRhaW4oJ+ingua1i+WNj+iuricpOwogICAgfSk7CgogICAgaXQoJ+iHquWumuS5iee7tOW6pu+8mmhpbnQg5rOo5YWl5o+Q56S66K+N77yMbGFiZWwg5Y+q5pS5IEhVRO+8iOe6v+agvOW8j+S7jeeUqOWbuuWumuS4reaWhyBrZXnvvIknLCBhc3luYyAoKSA9PiB7CiAgICAgICAgY29uc3QgeyBtZXNzYWdlcyB9ID0gYXdhaXQgRGF0ZVByb21wdHMuYnVpbGRTZXNzaW9uUGF5bG9hZCh7CiAgICAgICAgICAgIGNoYXI6IG1ha2VDaGFyKHsgZGF0ZU9ic2VydmU6IHsKICAgICAgICAgICAgICAgIGVuYWJsZWQ6IHRydWUsCiAgICAgICAgICAgICAgICBmaWVsZHM6IHsgc3RhdGU6IHsgbGFiZWw6ICflv4Pmg4XmjIfmlbAnLCBoaW50OiAn55So5LiA5Liq5rip5bqm6K+N5qaC5ous5q2k5Yi75b+D5oOFJyB9IH0sCiAgICAgICAgICAgIH0gfSksCiAgICAgICAgICAgIHVzZXJQcm9maWxlOiB1c2VyLCBhbGxNc2dzOiBbbWFrZU1zZyh7IHJvbGU6ICdhc3Npc3RhbnQnLCBjb250ZW50OiAnW25vcm1hbF0g5byA5Zy6JyB9KSwgbWFrZU1zZyh7IGNvbnRlbnQ6ICdoaScgfSldLAogICAgICAgICAgICBlbW9qaXM6IFtdLCB1c2VyVGV4dDogJ2hpJywgdmFyaWFudDogJ3NlbmQnLAogICAgICAgIH0pOwogICAgICAgIGNvbnN0IHN5cyA9IHN5c09mKG1lc3NhZ2VzKTsKICAgICAgICBleHBlY3Qoc3lzKS50b0NvbnRhaW4oJ+eUqOS4gOS4qua4qeW6puivjeamguaLrOatpOWIu+W/g+aDhScpOyAvLyDoh6rlrprkuYkgaGludCDov5vkuobmj5DnpLror40KICAgICAgICBleHBlY3Qoc3lzKS50b0NvbnRhaW4oJ+eKtuaAge+9nCcpOyAgICAgICAgICAgICAgICAgICAgLy8g57q/5qC85byP5a2X5q615ZCN5LuN5piv5Zu65a6a55qE44CM54q25oCB44CNCiAgICAgICAgZXhwZWN0KHN5cykubm90LnRvQ29udGFpbign5b+D5oOF5oyH5pWw772cJyk7ICAgICAgICAgICAgLy8g6Ieq5a6a5LmJIGxhYmVsIOS4jei/m+e6v+agvOW8j++8iOmBv+WFjeino+aekOWksemFje+8iQogICAgfSk7CgogICAgaXQoJ+emgeeUqOafkOe7tOW6puWQju+8jOaPkOekuuivjemHjOS4jeWGjeWHuueOsOivpeWtl+autScsIGFzeW5jICgpID0+IHsKICAgICAgICBjb25zdCB7IG1lc3NhZ2VzIH0gPSBhd2FpdCBEYXRlUHJvbXB0cy5idWlsZFNlc3Npb25QYXlsb2FkKHsKICAgICAgICAgICAgY2hhcjogbWFrZUNoYXIoeyBkYXRlT2JzZXJ2ZTogeyBlbmFibGVkOiB0cnVlLCBmaWVsZHM6IHsgZGV0YWlsOiB7IGVuYWJsZWQ6IGZhbHNlIH0gfSB9IH0pLAogICAgICAgICAgICB1c2VyUHJvZmlsZTogdXNlciwgYWxsTXNnczogW21ha2VNc2coeyByb2xlOiAnYXNzaXN0YW50JywgY29udGVudDogJ1tub3JtYWxdIOW8gOWcuicgfSksIG1ha2VNc2coeyBjb250ZW50OiAnaGknIH0pXSwKICAgICAgICAgICAgZW1vamlzOiBbXSwgdXNlclRleHQ6ICdoaScsIHZhcmlhbnQ6ICdzZW5kJywKICAgICAgICB9KTsKICAgICAgICBjb25zdCBzeXMgPSBzeXNPZihtZXNzYWdlcyk7CiAgICAgICAgZXhwZWN0KHN5cykudG9Db250YWluKCfop4LmtYvljY/orq4nKTsKICAgICAgICBleHBlY3Qoc3lzKS50b0NvbnRhaW4oJ+aXtumXtO+9nCcpOwogICAgICAgIGV4cGVjdChzeXMpLm5vdC50b0NvbnRhaW4oJ+e7huiKgu+9nCcpOwogICAgfSk7CgogICAgaXQoJ+Wbm+S4que7tOW6puWFqOmDqOemgeeUqOaXtuS4jeazqOWFpeingua1i+WdlycsIGFzeW5jICgpID0+IHsKICAgICAgICBjb25zdCB7IG1lc3NhZ2VzIH0gPSBhd2FpdCBEYXRlUHJvbXB0cy5idWlsZFNlc3Npb25QYXlsb2FkKHsKICAgICAgICAgICAgY2hhcjogbWFrZUNoYXIoeyBkYXRlT2JzZXJ2ZTogeyBlbmFibGVkOiB0cnVlLCBmaWVsZHM6IHsKICAgICAgICAgICAgICAgIHRpbWU6IHsgZW5hYmxlZDogZmFsc2UgfSwgcGxhY2U6IHsgZW5hYmxlZDogZmFsc2UgfSwgc3RhdGU6IHsgZW5hYmxlZDogZmFsc2UgfSwgZGV0YWlsOiB7IGVuYWJsZWQ6IGZhbHNlIH0sCiAgICAgICAgICAgIH0gfSB9KSwKICAgICAgICAgICAgdXNlclByb2ZpbGU6IHVzZXIsIGFsbE1zZ3M6IFttYWtlTXNnKHsgcm9sZTogJ2Fzc2lzdGFudCcsIGNvbnRlbnQ6ICdbbm9ybWFsXSDlvIDlnLonIH0pLCBtYWtlTXNnKHsgY29udGVudDogJ2hpJyB9KV0sCiAgICAgICAgICAgIGVtb2ppczogW10sIHVzZXJUZXh0OiAnaGknLCB2YXJpYW50OiAnc2VuZCcsCiAgICAgICAgfSk7CiAgICAgICAgZXhwZWN0KHN5c09mKG1lc3NhZ2VzKSkubm90LnRvQ29udGFpbign6KeC5rWL5Y2P6K6uJyk7CiAgICB9KTsKCiAgICBpdCgncmVzb2x2ZU9ic2VydmVGaWVsZHMg5ZCI5bm26buY6K6kK+iHquWumuS5ieW5tui/h+a7pOemgeeUqCcsICgpID0+IHsKICAgICAgICBjb25zdCBjaGFyID0gbWFrZUNoYXIoeyBuYW1lOiAn6Zi/54u4JywgZGF0ZU9ic2VydmU6IHsgZW5hYmxlZDogdHJ1ZSwgZmllbGRzOiB7CiAgICAgICAgICAgIHBsYWNlOiB7IGxhYmVsOiAn5Z2Q5qCHJyB9LCBkZXRhaWw6IHsgZW5hYmxlZDogZmFsc2UgfSwKICAgICAgICB9IH0gfSk7CiAgICAgICAgY29uc3QgZmllbGRzID0gcmVzb2x2ZU9ic2VydmVGaWVsZHMoY2hhci5kYXRlT2JzZXJ2ZSwgY2hhci5uYW1lKTsKICAgICAgICBleHBlY3QoZmllbGRzLm1hcChmID0+IGYua2V5KSkudG9FcXVhbChbJ3RpbWUnLCAncGxhY2UnLCAnc3RhdGUnXSk7IC8vIGRldGFpbCDooqvov4fmu6QKICAgICAgICBleHBlY3QoZmllbGRzLmZpbmQoZiA9PiBmLmtleSA9PT0gJ3BsYWNlJykhLmRpc3BsYXkpLnRvQmUoJ+WdkOaghycpOyAgIC8vIOiHquWumuS5ieWxleekuuagh+etvgogICAgICAgIGV4cGVjdChmaWVsZHMuZmluZChmID0+IGYua2V5ID09PSAncGxhY2UnKSEubGFiZWwpLnRvQmUoJ+WcsOeCuScpOyAgICAgLy8g57q/5qC85byP5a2X5q615ZCN5LiN5Y+YCiAgICAgICAgZXhwZWN0KGZpZWxkcy5maW5kKGYgPT4gZi5rZXkgPT09ICdwbGFjZScpIS5oaW50KS50b0NvbnRhaW4oJ+mYv+eLuCcpOyAvLyB7bmFtZX0g5bey5pu/5o2iCiAgICB9KTsKCiAgICBpdCgn6L+95Yqg6Ieq5a6a5LmJ57u05bqm77yaaGludCDov5vmj5DnpLror43jgIFsYWJlbCDov5vnur/moLzlvI/kuI7noazmgKfopoHmsYInLCBhc3luYyAoKSA9PiB7CiAgICAgICAgY29uc3QgeyBtZXNzYWdlcyB9ID0gYXdhaXQgRGF0ZVByb21wdHMuYnVpbGRTZXNzaW9uUGF5bG9hZCh7CiAgICAgICAgICAgIGNoYXI6IG1ha2VDaGFyKHsgZGF0ZU9ic2VydmU6IHsKICAgICAgICAgICAgICAgIGVuYWJsZWQ6IHRydWUsCiAgICAgICAgICAgICAgICBjdXN0b206IFt7IGlkOiAnYzEnLCBsYWJlbDogJ+epv+edgCcsIGhpbnQ6ICfku4rlpKnnqb/kuobku4DkuYjjgIHmlbTkuI3mlbTpvZAnLCBlbmFibGVkOiB0cnVlIH1dLAogICAgICAgICAgICB9IH0pLAogICAgICAgICAgICB1c2VyUHJvZmlsZTogdXNlciwgYWxsTXNnczogW21ha2VNc2coeyByb2xlOiAnYXNzaXN0YW50JywgY29udGVudDogJ1tub3JtYWxdIOW8gOWcuicgfSksIG1ha2VNc2coeyBjb250ZW50OiAnaGknIH0pXSwKICAgICAgICAgICAgZW1vamlzOiBbXSwgdXNlclRleHQ6ICdoaScsIHZhcmlhbnQ6ICdzZW5kJywKICAgICAgICB9KTsKICAgICAgICBjb25zdCBzeXMgPSBzeXNPZihtZXNzYWdlcyk7CiAgICAgICAgZXhwZWN0KHN5cykudG9Db250YWluKCfnqb/nnYDvvZwnKTsKICAgICAgICBleHBlY3Qoc3lzKS50b0NvbnRhaW4oJ+S7iuWkqeepv+S6huS7gOS5iOOAgeaVtOS4jeaVtOm9kCcpOwogICAgICAgIGV4cGVjdChzeXMpLnRvQ29udGFpbign44CM56m/552A44CNJyk7IC8vIOWHuueOsOWcqOOAjOagh+etvuW/hemhu+WOn+agt+eUqOOAjea4heWNlemHjAogICAgfSk7CgogICAgaXQoJ2V4dHJhY3RPYnNlcnZhdGlvbiDop6PmnpDoh6rlrprkuYnnu7TluqbliLAgZXh0cmHvvIjpnIDkvKAgY3VzdG9t77yJJywgKCkgPT4gewogICAgICAgIGNvbnN0IGZpZWxkcyA9IFt7IGlkOiAnYzEnLCBsYWJlbDogJ+epv+edgCcsIGVuYWJsZWQ6IHRydWUgfV07CiAgICAgICAgY29uc3QgZnVsbCA9IGAke09CU0VSVkVfT1BFTn1cbuaXtumXtO+9nOm7hOaYj1xu5Zyw54K5772c5aSp5Y+wXG7nqb/nnYDvvZzmnb7lnq7nmoTngbDoibLljavooaNcbiR7T0JTRVJWRV9DTE9TRX1cbltub3JtYWxdIOWXqOOAgmA7CiAgICAgICAgY29uc3QgeyBvYnNlcnZhdGlvbiwgcmVzdCB9ID0gZXh0cmFjdE9ic2VydmF0aW9uKGZ1bGwsIHsgY3VzdG9tOiBmaWVsZHMgfSk7CiAgICAgICAgZXhwZWN0KG9ic2VydmF0aW9uIS50aW1lKS50b0JlKCfpu4TmmI8nKTsKICAgICAgICBleHBlY3Qob2JzZXJ2YXRpb24hLmV4dHJhPy5jMSkudG9CZSgn5p2+5Z6u55qE54Gw6Imy5Y2r6KGjJyk7CiAgICAgICAgZXhwZWN0KHJlc3QpLnRvQmUoJ1tub3JtYWxdIOWXqOOAgicpOwogICAgICAgIC8vIOS4jeS8oCBjdXN0b20g5pe277yM6Ieq5a6a5LmJ6KGM5LiN5Lya6KKr6Kej5p6Q5oiQ5a2X5q6177yI55WZ5ZyoIHJlc3Qg5oiW6KKr5b+955Wl77yJCiAgICAgICAgY29uc3Qgbm9DdXN0b20gPSBleHRyYWN0T2JzZXJ2YXRpb24oZnVsbCk7CiAgICAgICAgZXhwZWN0KG5vQ3VzdG9tLm9ic2VydmF0aW9uIS5leHRyYT8uYzEpLnRvQmVVbmRlZmluZWQoKTsKICAgIH0pOwoKICAgIGl0KCflm57pgIDlsYLkuZ/og73lkIPoh6rlrprkuYnnu7TluqbvvIjlh5HlpJ8gMiDkuKrnu7TluqbvvIknLCAoKSA9PiB7CiAgICAgICAgY29uc3QgZmllbGRzID0gW3sgaWQ6ICdjMScsIGxhYmVsOiAn5aSp5rCUJywgZW5hYmxlZDogdHJ1ZSB9XTsKICAgICAgICBjb25zdCB0ID0gYOWkqeawlO+9nOS4i+edgOWwj+mbqFxu54q25oCB772c57yp552A6ISW5a2QXG5bbm9ybWFsXSDlv6vov5vmnaXjgIJgOwogICAgICAgIGNvbnN0IHsgb2JzZXJ2YXRpb24sIHJlc3QgfSA9IGV4dHJhY3RPYnNlcnZhdGlvbih0LCB7IGxlbmllbnQ6IHRydWUsIGN1c3RvbTogZmllbGRzIH0pOwogICAgICAgIGV4cGVjdChvYnNlcnZhdGlvbiEuZXh0cmE/LmMxKS50b0JlKCfkuIvnnYDlsI/pm6gnKTsKICAgICAgICBleHBlY3Qob2JzZXJ2YXRpb24hLnN0YXRlKS50b0JlKCfnvKnnnYDohJblrZAnKTsKICAgICAgICBleHBlY3QocmVzdCkudG9CZSgnW25vcm1hbF0g5b+r6L+b5p2l44CCJyk7CiAgICB9KTsKCiAgICBpdCgn56aB55SoIC8g56m65qCH562+55qE6Ieq5a6a5LmJ57u05bqm5LiN5Y+C5LiO5rOo5YWl5LiO6Kej5p6QJywgYXN5bmMgKCkgPT4gewogICAgICAgIGNvbnN0IGNoYXIgPSBtYWtlQ2hhcih7IGRhdGVPYnNlcnZlOiB7IGVuYWJsZWQ6IHRydWUsIGN1c3RvbTogWwogICAgICAgICAgICB7IGlkOiAnYzEnLCBsYWJlbDogJ+epv+edgCcsIGVuYWJsZWQ6IGZhbHNlIH0sCiAgICAgICAgICAgIHsgaWQ6ICdjMicsIGxhYmVsOiAnJywgZW5hYmxlZDogdHJ1ZSB9LAogICAgICAgIF0gfSB9KTsKICAgICAgICBjb25zdCB7IG1lc3NhZ2VzIH0gPSBhd2FpdCBEYXRlUHJvbXB0cy5idWlsZFNlc3Npb25QYXlsb2FkKHsKICAgICAgICAgICAgY2hhciwgdXNlclByb2ZpbGU6IHVzZXIsIGFsbE1zZ3M6IFttYWtlTXNnKHsgcm9sZTogJ2Fzc2lzdGFudCcsIGNvbnRlbnQ6ICdbbm9ybWFsXSDlvIDlnLonIH0pLCBtYWtlTXNnKHsgY29udGVudDogJ2hpJyB9KV0sCiAgICAgICAgICAgIGVtb2ppczogW10sIHVzZXJUZXh0OiAnaGknLCB2YXJpYW50OiAnc2VuZCcsCiAgICAgICAgfSk7CiAgICAgICAgZXhwZWN0KHN5c09mKG1lc3NhZ2VzKSkubm90LnRvQ29udGFpbign56m/552A772cJyk7CiAgICAgICAgZXhwZWN0KHJlc29sdmVPYnNlcnZlRmllbGRzKGNoYXIuZGF0ZU9ic2VydmUsIGNoYXIubmFtZSkuZmlsdGVyKGYgPT4gZi5pc0N1c3RvbSkpLnRvSGF2ZUxlbmd0aCgwKTsKICAgIH0pOwoKICAgIGl0KCdleHRyYWN0T2JzZXJ2YXRpb24g6Kej5p6Q5Zub5a2X5q615bm25Yml5Ye65q2j5paHJywgKCkgPT4gewogICAgICAgIGNvbnN0IGZ1bGwgPSBgJHtibG9ja31cbltub3JtYWxdIOaKrOecvOeci+S9oOOAglxuW2hhcHB5XSAi5L2g5p2l5ZWm44CCImA7CiAgICAgICAgY29uc3QgeyBvYnNlcnZhdGlvbiwgcmVzdCB9ID0gZXh0cmFjdE9ic2VydmF0aW9uKGZ1bGwpOwogICAgICAgIGV4cGVjdChvYnNlcnZhdGlvbikubm90LnRvQmVOdWxsKCk7CiAgICAgICAgZXhwZWN0KG9ic2VydmF0aW9uIS50aW1lKS50b0NvbnRhaW4oJ+WCjeaZmuWFreeCuScpOwogICAgICAgIGV4cGVjdChvYnNlcnZhdGlvbiEucGxhY2UpLnRvQ29udGFpbign5L6/5Yip5bqXJyk7CiAgICAgICAgZXhwZWN0KG9ic2VydmF0aW9uIS5zdGF0ZSkudG9Db250YWluKCfnlrLmg6snKTsKICAgICAgICBleHBlY3Qob2JzZXJ2YXRpb24hLmRldGFpbCkudG9Db250YWluKCfnurjmna8nKTsKICAgICAgICBleHBlY3QocmVzdCkudG9Db250YWluKCdbbm9ybWFsXSDmiqznnLznnIvkvaDjgIInKTsKICAgICAgICBleHBlY3QocmVzdCkubm90LnRvQ29udGFpbihPQlNFUlZFX09QRU4pOwogICAgICAgIGV4cGVjdChyZXN0KS5ub3QudG9Db250YWluKCfml7bpl7TvvZwnKTsKICAgIH0pOwoKICAgIGl0KCfop6PmnpDlr7nljYrop5Lnq5bnur8v6Iux5paHIGtleS/lhpLlj7flrrnplJknLCAoKSA9PiB7CiAgICAgICAgY29uc3QgYWx0ID0gYCR7T0JTRVJWRV9PUEVOfVxuVElNRTogZHVza1xucGxhY2UgfCBhIHJvb2Z0b3BcbueKtuaAge+8mmNhbG1cbkRFVEFJTO+8mmEgc2xvdyBicmVhdGhcbiR7T0JTRVJWRV9DTE9TRX1gOwogICAgICAgIGNvbnN0IHsgb2JzZXJ2YXRpb24gfSA9IGV4dHJhY3RPYnNlcnZhdGlvbihhbHQpOwogICAgICAgIGV4cGVjdChvYnNlcnZhdGlvbiEudGltZSkudG9CZSgnZHVzaycpOwogICAgICAgIGV4cGVjdChvYnNlcnZhdGlvbiEucGxhY2UpLnRvQmUoJ2Egcm9vZnRvcCcpOwogICAgICAgIGV4cGVjdChvYnNlcnZhdGlvbiEuc3RhdGUpLnRvQmUoJ2NhbG0nKTsKICAgICAgICBleHBlY3Qob2JzZXJ2YXRpb24hLmRldGFpbCkudG9CZSgnYSBzbG93IGJyZWF0aCcpOwogICAgfSk7CgogICAgaXQoJ+ayoeacieingua1i+Wdl+aXtuWOn+agt+i/lOWbnu+8jG9ic2VydmF0aW9uIOS4uiBudWxsJywgKCkgPT4gewogICAgICAgIGNvbnN0IHBsYWluID0gJ1tub3JtYWxdIOaZrumAmueahOS4gOihjOOAglxuW2hhcHB5XSAi5Zeo44CCIic7CiAgICAgICAgY29uc3QgeyBvYnNlcnZhdGlvbiwgcmVzdCB9ID0gZXh0cmFjdE9ic2VydmF0aW9uKHBsYWluKTsKICAgICAgICBleHBlY3Qob2JzZXJ2YXRpb24pLnRvQmVOdWxsKCk7CiAgICAgICAgZXhwZWN0KHJlc3QpLnRvQmUocGxhaW4pOwogICAgICAgIGV4cGVjdChoYXNPYnNlcnZhdGlvbihvYnNlcnZhdGlvbikpLnRvQmUoZmFsc2UpOwogICAgfSk7CgogICAgaXQoJ3N0cmlwT2JzZXJ2YXRpb24g5Y675Z2X5L+d5q2j5paH77ybaGFzT2JzZXJ2YXRpb24g5Yik5a6a5pyJ5pWI5oCnJywgKCkgPT4gewogICAgICAgIGV4cGVjdChzdHJpcE9ic2VydmF0aW9uKGAke2Jsb2NrfVxuW25vcm1hbF0g5q2j5paHYCkpLnRvQmUoJ1tub3JtYWxdIOato+aWhycpOwogICAgICAgIGV4cGVjdChoYXNPYnNlcnZhdGlvbih7IHRpbWU6ICfpu4TmmI8nIH0pKS50b0JlKHRydWUpOwogICAgICAgIGV4cGVjdChoYXNPYnNlcnZhdGlvbih7fSkpLnRvQmUoZmFsc2UpOwogICAgICAgIGV4cGVjdChoYXNPYnNlcnZhdGlvbihudWxsKSkudG9CZShmYWxzZSk7CiAgICB9KTsKCiAgICAvLyDilIDilIAg6bKB5qOS5oCn77ya5qih5Z6L5o6J5qC85byP5pe255qE5ZCE56eN6ZmN57qn6Lev5b6EIOKUgOKUgAogICAgZGVzY3JpYmUoJ+aOieagvOW8j+WuuemUmScsICgpID0+IHsKICAgICAgICBpdCgn5o2i5ous5Y+36aOO5qC844CQ44CRLzw+L1tdIOS7jeiDveS4peagvOaPkOWPlicsICgpID0+IHsKICAgICAgICAgICAgZm9yIChjb25zdCBbb3BlbiwgY2xvc2VdIG9mIFtbJ+OAkE9CU0VSVkXjgJEnLCAn44CQL09CU0VSVkXjgJEnXSwgWyc86KeC5rWLPicsICc8L+ingua1iz4nXSwgWydbT0JTRVJWRV0nLCAnWy9PQlNFUlZFXSddXSkgewogICAgICAgICAgICAgICAgY29uc3QgdCA9IGAke29wZW59XG7ml7bpl7TvvZzmuIXmmahcbuWcsOeCue+9nOmYs+WPsFxu54q25oCB772c5rKh552h6YaSXG7nu4boioLvvZzmj4nnnLznnZtcbiR7Y2xvc2V9XG5bbm9ybWFsXSDml6njgIJgOwogICAgICAgICAgICAgICAgY29uc3QgeyBvYnNlcnZhdGlvbiwgcmVzdCB9ID0gZXh0cmFjdE9ic2VydmF0aW9uKHQsIHsgbGVuaWVudDogdHJ1ZSB9KTsKICAgICAgICAgICAgICAgIGV4cGVjdChvYnNlcnZhdGlvbiwgYCR7b3Blbn0g5bqU6KKr6K+G5YirYCkubm90LnRvQmVOdWxsKCk7CiAgICAgICAgICAgICAgICBleHBlY3Qob2JzZXJ2YXRpb24hLnBsYWNlKS50b0JlKCfpmLPlj7AnKTsKICAgICAgICAgICAgICAgIGV4cGVjdChyZXN0KS50b0JlKCdbbm9ybWFsXSDml6njgIInKTsKICAgICAgICAgICAgfQogICAgICAgIH0pOwoKICAgICAgICBpdCgn5Lii5LqG6Zet5ZCI5a6a55WM56ym77ya6Z2g5Zue6YCA5bGC5LuO5byA5aS06L+e57ut5a2X5q616KGM6L+Y5Y6fJywgKCkgPT4gewogICAgICAgICAgICBjb25zdCB0ID0gYCR7T0JTRVJWRV9PUEVOfVxu5pe26Ze0772c5Y2I5ZCOXG7lnLDngrnvvZzml6fkuablupdcbueKtuaAge+9nOaFteaHklxu57uG6IqC772c5oyH5bCW5YiS6L+H5Lmm6ISKXG5bbm9ybWFsXSDkvaDkuZ/mnaXkuobjgIJcbltoYXBweV0gIuaJvuS7gOS5iOS5pu+8nyJgOwogICAgICAgICAgICBjb25zdCB7IG9ic2VydmF0aW9uLCByZXN0IH0gPSBleHRyYWN0T2JzZXJ2YXRpb24odCwgeyBsZW5pZW50OiB0cnVlIH0pOwogICAgICAgICAgICBleHBlY3Qob2JzZXJ2YXRpb24pLm5vdC50b0JlTnVsbCgpOwogICAgICAgICAgICBleHBlY3Qob2JzZXJ2YXRpb24hLnRpbWUpLnRvQmUoJ+WNiOWQjicpOwogICAgICAgICAgICBleHBlY3Qob2JzZXJ2YXRpb24hLmRldGFpbCkudG9CZSgn5oyH5bCW5YiS6L+H5Lmm6ISKJyk7CiAgICAgICAgICAgIGV4cGVjdChyZXN0LnN0YXJ0c1dpdGgoJ1tub3JtYWxdIOS9oOS5n+adpeS6huOAgicpKS50b0JlKHRydWUpOwogICAgICAgICAgICBleHBlY3QocmVzdCkubm90LnRvQ29udGFpbign5pe26Ze0772cJyk7CiAgICAgICAgICAgIGV4cGVjdChyZXN0KS5ub3QudG9Db250YWluKE9CU0VSVkVfT1BFTik7CiAgICAgICAgfSk7CgogICAgICAgIGl0KCflrozlhajmsqHlrprnlYznrKYgKyBtYXJrZG93biDliqDnspcgLyDliJfooajnrKYgLyDljYrop5LlhpLlj7fvvJrlm57pgIDlsYLnhafmoLflkIMnLCAoKSA9PiB7CiAgICAgICAgICAgIGNvbnN0IHQgPSBgKirml7bpl7QqKu+8mum7hOaYj1xuLSDlnLDngrk6IOWkqeWPsFxu54q25oCB772c6aOO5b6I5aSnXG7nu4boioLvvZzlpLTlj5HooqvlkLnkubFcblxuW25vcm1hbF0g5oqT5L2P5qCP5p2G44CCYDsKICAgICAgICAgICAgY29uc3QgeyBvYnNlcnZhdGlvbiwgcmVzdCB9ID0gZXh0cmFjdE9ic2VydmF0aW9uKHQsIHsgbGVuaWVudDogdHJ1ZSB9KTsKICAgICAgICAgICAgZXhwZWN0KG9ic2VydmF0aW9uKS5ub3QudG9CZU51bGwoKTsKICAgICAgICAgICAgZXhwZWN0KG9ic2VydmF0aW9uIS50aW1lKS50b0JlKCfpu4TmmI8nKTsKICAgICAgICAgICAgZXhwZWN0KG9ic2VydmF0aW9uIS5wbGFjZSkudG9CZSgn5aSp5Y+wJyk7CiAgICAgICAgICAgIGV4cGVjdChvYnNlcnZhdGlvbiEuc3RhdGUpLnRvQmUoJ+mjjuW+iOWkpycpOwogICAgICAgICAgICBleHBlY3QocmVzdCkudG9CZSgnW25vcm1hbF0g5oqT5L2P5qCP5p2G44CCJyk7CiAgICAgICAgfSk7CgogICAgICAgIGl0KCflm57pgIDlsYLmnKrlvIDlkK/vvIhsZW5pZW50PWZhbHNl77yJ5pe25LiN5by66KGM6Kej5p6Q77yM6YG/5YWN6K+v5LykJywgKCkgPT4gewogICAgICAgICAgICBjb25zdCB0ID0gYOaXtumXtO+9nOWNiOWQjlxu5Zyw54K5772c5pen5Lmm5bqXXG5bbm9ybWFsXSDmraPmlofjgIJgOwogICAgICAgICAgICBjb25zdCB7IG9ic2VydmF0aW9uLCByZXN0IH0gPSBleHRyYWN0T2JzZXJ2YXRpb24odCk7CiAgICAgICAgICAgIGV4cGVjdChvYnNlcnZhdGlvbikudG9CZU51bGwoKTsKICAgICAgICAgICAgZXhwZWN0KHJlc3QpLnRvQmUodCk7CiAgICAgICAgfSk7CgogICAgICAgIGl0KCflj6rmnIkgMSDkuKrlrZfmrrXkuI3op6blj5Hlm57pgIDvvIjpmLLmraLmraPmlofph4zlgbblj5HnmoQi54q25oCB77ya4oCmIuiiq+ivr+WQnu+8iScsICgpID0+IHsKICAgICAgICAgICAgY29uc3QgdCA9IGDnirbmgIHvvJrku5bnnIvotbfmnaXlnKjmg7Pkuovmg4Vcbltub3JtYWxdIOi1sOelnuS6huOAgmA7CiAgICAgICAgICAgIGNvbnN0IHsgb2JzZXJ2YXRpb24sIHJlc3QgfSA9IGV4dHJhY3RPYnNlcnZhdGlvbih0LCB7IGxlbmllbnQ6IHRydWUgfSk7CiAgICAgICAgICAgIGV4cGVjdChvYnNlcnZhdGlvbikudG9CZU51bGwoKTsKICAgICAgICAgICAgZXhwZWN0KHJlc3QpLnRvQmUodCk7CiAgICAgICAgfSk7CgogICAgICAgIGl0KCfmraPmlofkuK3pg6jlh7rnjrAgZmllbGQg5qC35byP55qE5peB55m95LiN6KKr5Zue6YCA5bGC5ZCe5o6J77yI5Y+q5omr5byA5aS06L+e57ut5q6177yJJywgKCkgPT4gewogICAgICAgICAgICBjb25zdCB0ID0gYFtub3JtYWxdIOWlueW8gOWPo+OAglxu5pe26Ze0772c5YW25a6e5rKh5Lq655+l6YGT546w5Zyo5Yeg54K5XG7lnLDngrnvvZzkuZ/ml6DmiYDosJNgOwogICAgICAgICAgICBjb25zdCB7IG9ic2VydmF0aW9uLCByZXN0IH0gPSBleHRyYWN0T2JzZXJ2YXRpb24odCwgeyBsZW5pZW50OiB0cnVlIH0pOwogICAgICAgICAgICBleHBlY3Qob2JzZXJ2YXRpb24pLnRvQmVOdWxsKCk7CiAgICAgICAgICAgIGV4cGVjdChyZXN0KS50b0JlKHQpOwogICAgICAgIH0pOwogICAgfSk7Cn0pOwoKZGVzY3JpYmUoJ0RhdGVQcm9tcHRzLmJ1aWxkUGVla1BheWxvYWQnLCAoKSA9PiB7CiAgICBpdCgn5o+P5YaZ6aOO5qC855+t6K+t6Lef6ZqP6aOO5qC86aKE6K6+77ybZXh0cmEg6L+95Yqg6L+b5oyH5LukJywgKCkgPT4gewogICAgICAgIGNvbnN0IGNoYXIgPSBtYWtlQ2hhcih7IGRhdGVTdHlsZUNvbmZpZzogeyBzdHlsZTogJ3BsYWluJywgZXh0cmE6ICfnjq/looPmj4/lhpnlpJrkuIDngrnjgIInIH0gfSk7CiAgICAgICAgY29uc3QgeyBtZXNzYWdlcyB9ID0gRGF0ZVByb21wdHMuYnVpbGRQZWVrUGF5bG9hZCh7CiAgICAgICAgICAgIGNoYXIsIHVzZXJQcm9maWxlOiB1c2VyLCBhbGxNc2dzOiBbbWFrZU1zZygpXSwgZW1vamlzOiBbXSwKICAgICAgICB9KTsKICAgICAgICBjb25zdCB1c2VyTXNnID0gbWVzc2FnZXNbbWVzc2FnZXMubGVuZ3RoIC0gMV0uY29udGVudCBhcyBzdHJpbmc7CiAgICAgICAgZXhwZWN0KHVzZXJNc2cpLnRvQ29udGFpbign566A5rSB55m95o+PJyk7CiAgICAgICAgZXhwZWN0KHVzZXJNc2cpLnRvQ29udGFpbign546v5aKD5o+P5YaZ5aSa5LiA54K544CCJyk7CiAgICAgICAgLy8gcGVlayDliLvmhI/kv53mjIHnrKzkuInkurrnp7Dml4Hop4LvvIzkuI3ms6jlhaUgcG92IOS6uuensOWdlwogICAgICAgIGV4cGVjdCh1c2VyTXNnKS50b0NvbnRhaW4oJ+esrOS4ieS6uuensCcpOwogICAgfSk7CgogICAgaXQoJ+WOhuWPsumHjOeahOWNoeeJh+a2iOaBr+iiq+WOi+aIkOaRmOimge+8jOWOn+WniyBIVE1ML0pTT04g5LiN6L+bIHByb21wdCcsICgpID0+IHsKICAgICAgICBjb25zdCByYXdIdG1sID0gJzxkaXYgc3R5bGU9ImNvbG9yOnJlZCI+5beo5aSn55qE5Y6f5aeLSFRNTDwvZGl2Pic7CiAgICAgICAgY29uc3QgbXNncyA9IFsKICAgICAgICAgICAgbWFrZU1zZyh7IHR5cGU6ICdodG1sX2NhcmQnIGFzIGFueSwgcm9sZTogJ2Fzc2lzdGFudCcsIGNvbnRlbnQ6IGBbSFRNTOWNoeeJh10gJHtyYXdIdG1sfWAsIG1ldGFkYXRhOiB7IGh0bWxUZXh0UHJldmlldzogJ+S4gOW8oOWNoeeJhycgfSB9KSwKICAgICAgICAgICAgbWFrZU1zZyh7IGNvbnRlbnQ6ICfnnIvliLDkuoYnIH0pLAogICAgICAgIF07CiAgICAgICAgY29uc3QgeyBtZXNzYWdlcyB9ID0gRGF0ZVByb21wdHMuYnVpbGRQZWVrUGF5bG9hZCh7CiAgICAgICAgICAgIGNoYXI6IG1ha2VDaGFyKCksIHVzZXJQcm9maWxlOiB1c2VyLCBhbGxNc2dzOiBtc2dzLCBlbW9qaXM6IFtdLAogICAgICAgIH0pOwogICAgICAgIGNvbnN0IHVzZXJNc2cgPSBtZXNzYWdlc1ttZXNzYWdlcy5sZW5ndGggLSAxXS5jb250ZW50IGFzIHN0cmluZzsKICAgICAgICBleHBlY3QodXNlck1zZykubm90LnRvQ29udGFpbihyYXdIdG1sKTsKICAgICAgICBleHBlY3QodXNlck1zZykudG9Db250YWluKCfkuIDlvKDljaHniYcnKTsKICAgIH0pOwp9KTsK
+import { describe, it, expect } from 'vitest';
+import { DatePrompts, DATE_STYLE_PRESETS, extractObservation, stripObservation, hasObservation, resolveObserveFields, OBSERVE_OPEN, OBSERVE_CLOSE } from './datePrompts';
+import type { CharacterProfile, UserProfile, Message } from '../types';
+
+const makeChar = (overrides: Partial<CharacterProfile> = {}): CharacterProfile => ({
+    id: 'char-1',
+    name: '小白',
+    avatar: '',
+    description: '',
+    systemPrompt: '你是小白，一个温柔的角色。',
+    memories: [],
+    ...overrides,
+} as CharacterProfile);
+
+const user: UserProfile = { name: '阿明', bio: '' } as UserProfile;
+
+let msgId = 1;
+const makeMsg = (overrides: Partial<Message> = {}): Message => ({
+    id: msgId++,
+    charId: 'char-1',
+    role: 'user',
+    type: 'text',
+    content: '你好',
+    timestamp: Date.now(),
+    ...overrides,
+});
+
+const sysOf = (messages: Array<{ role: string; content: any }>): string => {
+    const sys = messages.find(m => m.role === 'system');
+    return typeof sys?.content === 'string' ? sys.content : '';
+};
+
+describe('DatePrompts.buildSessionPayload', () => {
+    const baseInput = (char: CharacterProfile) => ({
+        char,
+        userProfile: user,
+        allMsgs: [makeMsg({ role: 'assistant', content: '[normal] 开场白' }), makeMsg({ content: '我来了' })],
+        emojis: [],
+        userText: '我来了',
+        variant: 'send' as const,
+    });
+
+    it('默认注入电影感风格块，不注入人称块', async () => {
+        const { messages } = await DatePrompts.buildSessionPayload(baseInput(makeChar()));
+        const sys = sysOf(messages);
+        expect(sys).toContain('风格：电影感');
+        expect(sys).toContain('Visual Novel Mode');
+        expect(sys).not.toContain('叙事人称');
+    });
+
+    it('按 dateStyleConfig.style 切换风格块', async () => {
+        for (const preset of DATE_STYLE_PRESETS) {
+            const char = makeChar({ dateStyleConfig: { style: preset.id } });
+            const { messages } = await DatePrompts.buildSessionPayload(baseInput(char));
+            expect(sysOf(messages)).toContain(`风格：${preset.label}`);
+        }
+    });
+
+    it('pov=third-name 注入双名字人称规则', async () => {
+        const char = makeChar({ dateStyleConfig: { pov: 'third-name' } });
+        const { messages } = await DatePrompts.buildSessionPayload(baseInput(char));
+        const sys = sysOf(messages);
+        expect(sys).toContain('叙事人称');
+        expect(sys).toContain('小白看向阿明');
+    });
+
+    it('pov=third-you / first-you 注入对应示例', async () => {
+        const thirdYou = await DatePrompts.buildSessionPayload(baseInput(makeChar({ dateStyleConfig: { pov: 'third-you' } })));
+        expect(sysOf(thirdYou.messages)).toContain('小白看向你');
+        const firstYou = await DatePrompts.buildSessionPayload(baseInput(makeChar({ dateStyleConfig: { pov: 'first-you' } })));
+        expect(sysOf(firstYou.messages)).toContain('我看向你');
+    });
+
+    it('extra 自定义补充原样进入提示词', async () => {
+        const char = makeChar({ dateStyleConfig: { extra: '不要写心理活动，多写对话。' } });
+        const { messages } = await DatePrompts.buildSessionPayload(baseInput(char));
+        const sys = sysOf(messages);
+        expect(sys).toContain('额外要求');
+        expect(sys).toContain('不要写心理活动，多写对话。');
+    });
+
+    it('细节深挖默认开启：方法块进 system，聚焦线索进末尾 note；关闭后两者都消失', async () => {
+        const on = await DatePrompts.buildSessionPayload(baseInput(makeChar()));
+        expect(sysOf(on.messages)).toContain('深挖，别填充');
+        expect(on.messages[on.messages.length - 1].content).toContain('本轮线索');
+
+        const off = await DatePrompts.buildSessionPayload(baseInput(makeChar({ dateStyleConfig: { digDeeper: false } })));
+        expect(sysOf(off.messages)).not.toContain('深挖，别填充');
+        expect(off.messages[off.messages.length - 1].content).not.toContain('本轮线索');
+        // ContextBuilder 的全 App 通用精简版（表达底线）不受 digDeeper 开关影响，常驻
+        expect(sysOf(off.messages)).toContain('表达底线');
+    });
+
+    it('消息结构为 [system, ...history, user]，末尾带 System Note；reroll 的 note 不同', async () => {
+        const send = await DatePrompts.buildSessionPayload(baseInput(makeChar()));
+        expect(send.messages[0].role).toBe('system');
+        const lastSend = send.messages[send.messages.length - 1];
+        expect(lastSend.role).toBe('user');
+        expect(lastSend.content).toContain('我来了');
+        expect(lastSend.content).toContain('System Note');
+        expect(lastSend.content).not.toContain('Reroll');
+
+        const reroll = await DatePrompts.buildSessionPayload({ ...baseInput(makeChar()), variant: 'reroll' });
+        const lastReroll = reroll.messages[reroll.messages.length - 1];
+        expect(lastReroll.content).toContain('Reroll');
+    });
+});
+
+describe('OBSERVE 观测协议', () => {
+    const block = `${OBSERVE_OPEN}
+时间｜傍晚六点过，天刚擦黑
+地点｜便利店门口的塑料凳上
+状态｜有点疲惫，但见到你眼神亮了一下
+细节｜指尖无意识地敲着关东煮的纸杯
+${OBSERVE_CLOSE}`;
+
+    it('开关打开时注入观测块提示词，关闭时不注入', async () => {
+        const on = await DatePrompts.buildSessionPayload({
+            char: makeChar({ dateObserve: { enabled: true } }),
+            userProfile: user, allMsgs: [makeMsg({ role: 'assistant', content: '[normal] 开场' }), makeMsg({ content: 'hi' })],
+            emojis: [], userText: 'hi', variant: 'send',
+        });
+        expect(sysOf(on.messages)).toContain('观测协议');
+        expect(sysOf(on.messages)).toContain(OBSERVE_OPEN);
+
+        const off = await DatePrompts.buildSessionPayload({
+            char: makeChar(),
+            userProfile: user, allMsgs: [makeMsg({ role: 'assistant', content: '[normal] 开场' }), makeMsg({ content: 'hi' })],
+            emojis: [], userText: 'hi', variant: 'send',
+        });
+        expect(sysOf(off.messages)).not.toContain('观测协议');
+    });
+
+    it('自定义维度：hint 注入提示词，label 只改 HUD（线格式仍用固定中文 key）', async () => {
+        const { messages } = await DatePrompts.buildSessionPayload({
+            char: makeChar({ dateObserve: {
+                enabled: true,
+                fields: { state: { label: '心情指数', hint: '用一个温度词概括此刻心情' } },
+            } }),
+            userProfile: user, allMsgs: [makeMsg({ role: 'assistant', content: '[normal] 开场' }), makeMsg({ content: 'hi' })],
+            emojis: [], userText: 'hi', variant: 'send',
+        });
+        const sys = sysOf(messages);
+        expect(sys).toContain('用一个温度词概括此刻心情'); // 自定义 hint 进了提示词
+        expect(sys).toContain('状态｜');                    // 线格式字段名仍是固定的「状态」
+        expect(sys).not.toContain('心情指数｜');            // 自定义 label 不进线格式（避免解析失配）
+    });
+
+    it('禁用某维度后，提示词里不再出现该字段', async () => {
+        const { messages } = await DatePrompts.buildSessionPayload({
+            char: makeChar({ dateObserve: { enabled: true, fields: { detail: { enabled: false } } } }),
+            userProfile: user, allMsgs: [makeMsg({ role: 'assistant', content: '[normal] 开场' }), makeMsg({ content: 'hi' })],
+            emojis: [], userText: 'hi', variant: 'send',
+        });
+        const sys = sysOf(messages);
+        expect(sys).toContain('观测协议');
+        expect(sys).toContain('时间｜');
+        expect(sys).not.toContain('细节｜');
+    });
+
+    it('四个维度全部禁用时不注入观测块', async () => {
+        const { messages } = await DatePrompts.buildSessionPayload({
+            char: makeChar({ dateObserve: { enabled: true, fields: {
+                time: { enabled: false }, place: { enabled: false }, state: { enabled: false }, detail: { enabled: false },
+            } } }),
+            userProfile: user, allMsgs: [makeMsg({ role: 'assistant', content: '[normal] 开场' }), makeMsg({ content: 'hi' })],
+            emojis: [], userText: 'hi', variant: 'send',
+        });
+        expect(sysOf(messages)).not.toContain('观测协议');
+    });
+
+    it('resolveObserveFields 合并默认+自定义并过滤禁用', () => {
+        const char = makeChar({ name: '阿狸', dateObserve: { enabled: true, fields: {
+            place: { label: '坐标' }, detail: { enabled: false },
+        } } });
+        const fields = resolveObserveFields(char.dateObserve, char.name);
+        expect(fields.map(f => f.key)).toEqual(['time', 'place', 'state']); // detail 被过滤
+        expect(fields.find(f => f.key === 'place')!.display).toBe('坐标');   // 自定义展示标签
+        expect(fields.find(f => f.key === 'place')!.label).toBe('地点');     // 线格式字段名不变
+        expect(fields.find(f => f.key === 'place')!.hint).toContain('阿狸'); // {name} 已替换
+    });
+
+    it('追加自定义维度：hint 进提示词、label 进线格式与硬性要求', async () => {
+        const { messages } = await DatePrompts.buildSessionPayload({
+            char: makeChar({ dateObserve: {
+                enabled: true,
+                custom: [{ id: 'c1', label: '穿着', hint: '今天穿了什么、整不整齐', enabled: true }],
+            } }),
+            userProfile: user, allMsgs: [makeMsg({ role: 'assistant', content: '[normal] 开场' }), makeMsg({ content: 'hi' })],
+            emojis: [], userText: 'hi', variant: 'send',
+        });
+        const sys = sysOf(messages);
+        expect(sys).toContain('穿着｜');
+        expect(sys).toContain('今天穿了什么、整不整齐');
+        expect(sys).toContain('「穿着」'); // 出现在「标签必须原样用」清单里
+    });
+
+    it('extractObservation 解析自定义维度到 extra（需传 custom）', () => {
+        const fields = [{ id: 'c1', label: '穿着', enabled: true }];
+        const full = `${OBSERVE_OPEN}\n时间｜黄昏\n地点｜天台\n穿着｜松垮的灰色卫衣\n${OBSERVE_CLOSE}\n[normal] 嗨。`;
+        const { observation, rest } = extractObservation(full, { custom: fields });
+        expect(observation!.time).toBe('黄昏');
+        expect(observation!.extra?.c1).toBe('松垮的灰色卫衣');
+        expect(rest).toBe('[normal] 嗨。');
+        // 不传 custom 时，自定义行不会被解析成字段（留在 rest 或被忽略）
+        const noCustom = extractObservation(full);
+        expect(noCustom.observation!.extra?.c1).toBeUndefined();
+    });
+
+    it('回退层也能吃自定义维度（凑够 2 个维度）', () => {
+        const fields = [{ id: 'c1', label: '天气', enabled: true }];
+        const t = `天气｜下着小雨\n状态｜缩着脖子\n[normal] 快进来。`;
+        const { observation, rest } = extractObservation(t, { lenient: true, custom: fields });
+        expect(observation!.extra?.c1).toBe('下着小雨');
+        expect(observation!.state).toBe('缩着脖子');
+        expect(rest).toBe('[normal] 快进来。');
+    });
+
+    it('禁用 / 空标签的自定义维度不参与注入与解析', async () => {
+        const char = makeChar({ dateObserve: { enabled: true, custom: [
+            { id: 'c1', label: '穿着', enabled: false },
+            { id: 'c2', label: '', enabled: true },
+        ] } });
+        const { messages } = await DatePrompts.buildSessionPayload({
+            char, userProfile: user, allMsgs: [makeMsg({ role: 'assistant', content: '[normal] 开场' }), makeMsg({ content: 'hi' })],
+            emojis: [], userText: 'hi', variant: 'send',
+        });
+        expect(sysOf(messages)).not.toContain('穿着｜');
+        expect(resolveObserveFields(char.dateObserve, char.name).filter(f => f.isCustom)).toHaveLength(0);
+    });
+
+    it('extractObservation 解析四字段并剥出正文', () => {
+        const full = `${block}\n[normal] 抬眼看你。\n[happy] "你来啦。"`;
+        const { observation, rest } = extractObservation(full);
+        expect(observation).not.toBeNull();
+        expect(observation!.time).toContain('傍晚六点');
+        expect(observation!.place).toContain('便利店');
+        expect(observation!.state).toContain('疲惫');
+        expect(observation!.detail).toContain('纸杯');
+        expect(rest).toContain('[normal] 抬眼看你。');
+        expect(rest).not.toContain(OBSERVE_OPEN);
+        expect(rest).not.toContain('时间｜');
+    });
+
+    it('解析对半角竖线/英文 key/冒号容错', () => {
+        const alt = `${OBSERVE_OPEN}\nTIME: dusk\nplace | a rooftop\n状态：calm\nDETAIL：a slow breath\n${OBSERVE_CLOSE}`;
+        const { observation } = extractObservation(alt);
+        expect(observation!.time).toBe('dusk');
+        expect(observation!.place).toBe('a rooftop');
+        expect(observation!.state).toBe('calm');
+        expect(observation!.detail).toBe('a slow breath');
+    });
+
+    it('没有观测块时原样返回，observation 为 null', () => {
+        const plain = '[normal] 普通的一行。\n[happy] "嗨。"';
+        const { observation, rest } = extractObservation(plain);
+        expect(observation).toBeNull();
+        expect(rest).toBe(plain);
+        expect(hasObservation(observation)).toBe(false);
+    });
+
+    it('stripObservation 去块保正文；hasObservation 判定有效性', () => {
+        expect(stripObservation(`${block}\n[normal] 正文`)).toBe('[normal] 正文');
+        expect(hasObservation({ time: '黄昏' })).toBe(true);
+        expect(hasObservation({})).toBe(false);
+        expect(hasObservation(null)).toBe(false);
+    });
+
+    // ── 鲁棒性：模型掉格式时的各种降级路径 ──
+    describe('掉格式容错', () => {
+        it('换括号风格【】/<>/[] 仍能严格提取', () => {
+            for (const [open, close] of [['【OBSERVE】', '【/OBSERVE】'], ['<观测>', '</观测>'], ['[OBSERVE]', '[/OBSERVE]']]) {
+                const t = `${open}\n时间｜清晨\n地点｜阳台\n状态｜没睡醒\n细节｜揉眼睛\n${close}\n[normal] 早。`;
+                const { observation, rest } = extractObservation(t, { lenient: true });
+                expect(observation, `${open} 应被识别`).not.toBeNull();
+                expect(observation!.place).toBe('阳台');
+                expect(rest).toBe('[normal] 早。');
+            }
+        });
+
+        it('丢了闭合定界符：靠回退层从开头连续字段行还原', () => {
+            const t = `${OBSERVE_OPEN}\n时间｜午后\n地点｜旧书店\n状态｜慵懒\n细节｜指尖划过书脊\n[normal] 你也来了。\n[happy] "找什么书？"`;
+            const { observation, rest } = extractObservation(t, { lenient: true });
+            expect(observation).not.toBeNull();
+            expect(observation!.time).toBe('午后');
+            expect(observation!.detail).toBe('指尖划过书脊');
+            expect(rest.startsWith('[normal] 你也来了。')).toBe(true);
+            expect(rest).not.toContain('时间｜');
+            expect(rest).not.toContain(OBSERVE_OPEN);
+        });
+
+        it('完全没定界符 + markdown 加粗 / 列表符 / 半角冒号：回退层照样吃', () => {
+            const t = `**时间**：黄昏\n- 地点: 天台\n状态｜风很大\n细节｜头发被吹乱\n\n[normal] 抓住栏杆。`;
+            const { observation, rest } = extractObservation(t, { lenient: true });
+            expect(observation).not.toBeNull();
+            expect(observation!.time).toBe('黄昏');
+            expect(observation!.place).toBe('天台');
+            expect(observation!.state).toBe('风很大');
+            expect(rest).toBe('[normal] 抓住栏杆。');
+        });
+
+        it('回退层未开启（lenient=false）时不强行解析，避免误伤', () => {
+            const t = `时间｜午后\n地点｜旧书店\n[normal] 正文。`;
+            const { observation, rest } = extractObservation(t);
+            expect(observation).toBeNull();
+            expect(rest).toBe(t);
+        });
+
+        it('只有 1 个字段不触发回退（防止正文里偶发的"状态：…"被误吞）', () => {
+            const t = `状态：他看起来在想事情\n[normal] 走神了。`;
+            const { observation, rest } = extractObservation(t, { lenient: true });
+            expect(observation).toBeNull();
+            expect(rest).toBe(t);
+        });
+
+        it('正文中部出现 field 样式的旁白不被回退层吞掉（只扫开头连续段）', () => {
+            const t = `[normal] 她开口。\n时间｜其实没人知道现在几点\n地点｜也无所谓`;
+            const { observation, rest } = extractObservation(t, { lenient: true });
+            expect(observation).toBeNull();
+            expect(rest).toBe(t);
+        });
+    });
+});
+
+describe('DatePrompts.buildPeekPayload', () => {
+    it('描写风格短语跟随风格预设；extra 追加进指令', () => {
+        const char = makeChar({ dateStyleConfig: { style: 'plain', extra: '环境描写多一点。' } });
+        const { messages } = DatePrompts.buildPeekPayload({
+            char, userProfile: user, allMsgs: [makeMsg()], emojis: [],
+        });
+        const userMsg = messages[messages.length - 1].content as string;
+        expect(userMsg).toContain('简洁白描');
+        expect(userMsg).toContain('环境描写多一点。');
+        // peek 刻意保持第三人称旁观，不注入 pov 人称块
+        expect(userMsg).toContain('第三人称');
+    });
+
+    it('历史里的卡片消息被压成摘要，原始 HTML/JSON 不进 prompt', () => {
+        const rawHtml = '<div style="color:red">巨大的原始HTML</div>';
+        const msgs = [
+            makeMsg({ type: 'html_card' as any, role: 'assistant', content: `[HTML卡片] ${rawHtml}`, metadata: { htmlTextPreview: '一张卡片' } }),
+            makeMsg({ content: '看到了' }),
+        ];
+        const { messages } = DatePrompts.buildPeekPayload({
+            char: makeChar(), userProfile: user, allMsgs: msgs, emojis: [],
+        });
+        const userMsg = messages[messages.length - 1].content as string;
+        expect(userMsg).not.toContain(rawHtml);
+        expect(userMsg).toContain('一张卡片');
+    });
+});

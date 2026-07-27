@@ -1,1 +1,29 @@
-aW1wb3J0IHsgZGVzY3JpYmUsIGl0LCBleHBlY3QgfSBmcm9tICd2aXRlc3QnOwppbXBvcnQgeyBBcHBJRCB9IGZyb20gJy4uL3R5cGVzJzsKaW1wb3J0IHsgc2hlbGxIYW5kbGVzU2FmZUFyZWEsIFNFTEZfU0FGRV9BUkVBX0FQUFMgfSBmcm9tICcuL3NhZmVBcmVhQXBwcyc7CgovLyDlt7Lov4Hnp7vmiJDoh6rnkIblronlhajljLrnmoQgQXBw77ya5aSW5aOz5LiN6K+l5YaN5pu/5a6D5YqgIHBhZGRpbmfvvIjlkKbliJnpobbpg6jlj4zph43orqnkvY3jgIHnlZnnmb3ov4flpJrvvInjgIIKLy8g6L+Z5piv5Zue5b2S5a6I5Y2r4oCU4oCU6LCB5oqK5p+Q5LiqIEFwcCDku44gU0VMRl9TQUZFX0FSRUFfQVBQUyDliKDkuobvvIzlr7nlupTmlq3oqIDnq4vliLvmjILjgIIKY29uc3QgU0VMRl9IQU5ETEVEOiBBcHBJRFtdID0gWwogICAgQXBwSUQuTGF1bmNoZXIsIEFwcElELlZSV29ybGQsIEFwcElELkNoYXQsIEFwcElELkdyb3VwQ2hhdCwgQXBwSUQuU29jaWFsLAogICAgQXBwSUQuU2V0dGluZ3MsIEFwcElELkNoYXJhY3RlciwgQXBwSUQuVGhlbWVNYWtlciwgQXBwSUQuQXBwZWFyYW5jZSwgQXBwSUQuR2FsbGVyeSwKICAgIEFwcElELkRhdGUsIEFwcElELlVzZXIsIEFwcElELkpvdXJuYWwsIEFwcElELlNjaGVkdWxlLCBBcHBJRC5Sb29tLCBBcHBJRC5DaGVja1Bob25lLAogICAgQXBwSUQuU3R1ZHksIEFwcElELkZBUSwgQXBwSUQuR2FtZSwgQXBwSUQuV29ybGRib29rLCBBcHBJRC5Ob3ZlbCwgQXBwSUQuQmFuaywKICAgIEFwcElELlhoc1N0b2NrLCBBcHBJRC5YaHNGcmVlUm9hbSwgQXBwSUQuQnJvd3NlciwgQXBwSUQuU29uZ3dyaXRpbmcsIEFwcElELk11c2ljLAogICAgQXBwSUQuQ2FsbCwgQXBwSUQuVm9pY2VEZXNpZ25lciwgQXBwSUQuR3VpZGVib29rLCBBcHBJRC5MaWZlU2ltLCBBcHBJRC5NZW1vcnlQYWxhY2UsCiAgICBBcHBJRC5IYW5kYm9vaywgQXBwSUQuUVFCcmlkZ2UsIEFwcElELkhvdE5ld3MsIEFwcElELldvcmxkSG9tZSwgQXBwSUQuQ2hhckNyZWF0b3JEZXYsCiAgICBBcHBJRC5TcGVjaWFsTW9tZW50cywKXTsKCmRlc2NyaWJlKCdzaGVsbEhhbmRsZXNTYWZlQXJlYScsICgpID0+IHsKICAgIGl0KCfmiYDmnInlt7LnmbvorrAgQXBwIOmDveiHqueQhuWuieWFqOWMuu+8jOWkluWjs+S4jeWKoCBwYWRkaW5nJywgKCkgPT4gewogICAgICAgIGZvciAoY29uc3QgYXBwSWQgb2YgU0VMRl9IQU5ETEVEKSB7CiAgICAgICAgICAgIGV4cGVjdChzaGVsbEhhbmRsZXNTYWZlQXJlYShhcHBJZCkpLnRvQmUoZmFsc2UpOwogICAgICAgIH0KICAgIH0pOwoKICAgIC8vIOWPjOWQkeS4gOiHtO+8muWQjeWNlemHjOacieeahOaWreiogOmHjOS5n+imgeacie+8jOWPjeS5i+S6pueEtu+8jOmYsuatouS7peWQjuWKoC/liKAgQXBwIOaXtua8j+abtOaWsOWFtuS4reS4gOWkhOOAggogICAgaXQoJ+iHqueQhuWQjeWNleS4juaWreiogOWIl+ihqOS4gOS4gOWvueW6lO+8iOmYsua8j+eZu+iusO+8iScsICgpID0+IHsKICAgICAgICBleHBlY3QoWy4uLlNFTEZfSEFORExFRF0uc29ydCgpKS50b0VxdWFsKFsuLi5TRUxGX1NBRkVfQVJFQV9BUFBTXS5zb3J0KCkpOwogICAgfSk7Cn0pOwo=
+import { describe, it, expect } from 'vitest';
+import { AppID } from '../types';
+import { shellHandlesSafeArea, SELF_SAFE_AREA_APPS } from './safeAreaApps';
+
+// 已迁移成自理安全区的 App：外壳不该再替它加 padding（否则顶部双重让位、留白过多）。
+// 这是回归守卫——谁把某个 App 从 SELF_SAFE_AREA_APPS 删了，对应断言立刻挂。
+const SELF_HANDLED: AppID[] = [
+    AppID.Launcher, AppID.VRWorld, AppID.Chat, AppID.GroupChat, AppID.Social,
+    AppID.Settings, AppID.Character, AppID.ThemeMaker, AppID.Appearance, AppID.Gallery,
+    AppID.Date, AppID.User, AppID.Journal, AppID.Schedule, AppID.Room, AppID.CheckPhone,
+    AppID.Study, AppID.FAQ, AppID.Game, AppID.Worldbook, AppID.Novel, AppID.Bank,
+    AppID.XhsStock, AppID.XhsFreeRoam, AppID.Browser, AppID.Songwriting, AppID.Music,
+    AppID.Call, AppID.VoiceDesigner, AppID.Guidebook, AppID.LifeSim, AppID.MemoryPalace,
+    AppID.Handbook, AppID.QQBridge, AppID.HotNews, AppID.WorldHome, AppID.CharCreatorDev,
+    AppID.SpecialMoments,
+];
+
+describe('shellHandlesSafeArea', () => {
+    it('所有已登记 App 都自理安全区，外壳不加 padding', () => {
+        for (const appId of SELF_HANDLED) {
+            expect(shellHandlesSafeArea(appId)).toBe(false);
+        }
+    });
+
+    // 双向一致：名单里有的断言里也要有，反之亦然，防止以后加/删 App 时漏更新其中一处。
+    it('自理名单与断言列表一一对应（防漏登记）', () => {
+        expect([...SELF_HANDLED].sort()).toEqual([...SELF_SAFE_AREA_APPS].sort());
+    });
+});

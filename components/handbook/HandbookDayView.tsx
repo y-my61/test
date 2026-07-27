@@ -1,1 +1,121 @@
-LyoqCiAqIOW9k+aXpeinhuWbviDigJQg5LiA5byg5Zu65a6a5q+U5L6L55qEIue6uCIKICoKICogLSDmlbTpobUgPSDkuIDlvKDnurgs55im6ZW/5q+U5L6LLOWwvemHj+mTuua7oeenu+WKqOerr+WPr+inhuWMugogKiAtIOaJgOaciSBmcmFnbWVudCh1c2VyIGRpYXJ5ICsg5ZCEIGNoYXIgbGlmZXN0cmVhbSArIHVzZXJfbm90ZSkg5pWj6JC95Zyo5ZCM5LiA5byg57q45LiKCiAqIC0g5L2N572u55SxIGNvbXBvc2VQYWdlTGF5b3V0ICjnoa7lrprmgKfniYjlvI/lvJXmk44pIOWQjOatpeeul+WHuiwg5a2Y6L+bIGVudHJ5LmxheW91dHMKICogLSDkuIDlvKDoo4XkuI3kuIsg4oaSIGVudHJ5LmxheW91dHMg5pyJ5aSa5bygLOmhtumDqOaCrOa1riBiYXIg57+76aG1CiAqLwoKaW1wb3J0IFJlYWN0LCB7IHVzZVN0YXRlLCB1c2VFZmZlY3QgfSBmcm9tICdyZWFjdCc7CmltcG9ydCB7IEhhbmRib29rRW50cnksIEhhbmRib29rUGFnZSwgQ2hhcmFjdGVyUHJvZmlsZSB9IGZyb20gJy4uLy4uL3R5cGVzJzsKaW1wb3J0IEpvdXJuYWxDYW52YXMgZnJvbSAnLi9Kb3VybmFsQ2FudmFzJzsKaW1wb3J0IEpvdXJuYWxQYWdlRWRpdG9yIGZyb20gJy4vSm91cm5hbFBhZ2VFZGl0b3InOwppbXBvcnQgeyBQQVBFUl9UT05FUywgQ1VURV9TVEFDSyB9IGZyb20gJy4vcGFwZXInOwppbXBvcnQgeyBOb3RlYm9vayB9IGZyb20gJ0BwaG9zcGhvci1pY29ucy9yZWFjdCc7CgppbnRlcmZhY2UgRGF5Vmlld1Byb3BzIHsKICAgIGRhdGU6IHN0cmluZzsKICAgIGVudHJ5OiBIYW5kYm9va0VudHJ5IHwgbnVsbDsKICAgIGNoYXJhY3RlcnM6IENoYXJhY3RlclByb2ZpbGVbXTsKICAgIHVzZXJOYW1lOiBzdHJpbmc7CiAgICBlZGl0aW5nUGFnZUlkOiBzdHJpbmcgfCBudWxsOwogICAgcmVnZW5QYWdlSWQ6IHN0cmluZyB8IG51bGw7CiAgICBvblN0YXJ0RWRpdDogKHBhZ2VJZDogc3RyaW5nKSA9PiB2b2lkOwogICAgb25TYXZlUGFnZTogKHBhZ2VJZDogc3RyaW5nLCBjb250ZW50OiBzdHJpbmcsIHBhcGVyU3R5bGU/OiBzdHJpbmcpID0+IHZvaWQ7CiAgICBvbkNhbmNlbEVkaXQ6ICgpID0+IHZvaWQ7CiAgICBvblRvZ2dsZUV4Y2x1ZGU6IChwYWdlSWQ6IHN0cmluZykgPT4gdm9pZDsKICAgIG9uRGVsZXRlUGFnZTogKHBhZ2VJZDogc3RyaW5nKSA9PiB2b2lkOwogICAgb25SZWdlbmVyYXRlTGlmZXN0cmVhbTogKHBhZ2U6IEhhbmRib29rUGFnZSkgPT4gdm9pZDsKICAgIC8qKiDnv7vpobXntKLlvJXnlLHniLbnuqfmjqfliLYo6aG26YOo5oKs5rWuIGJhciDkuZ/opoHliIcpLOmdnuWPl+aOp+aXtuWGhemDqOe7tOaKpCAqLwogICAgcGFwZXJJZHg/OiBudW1iZXI7CiAgICBvblBhcGVySWR4Q2hhbmdlPzogKGlkeDogbnVtYmVyKSA9PiB2b2lkOwp9Cgpjb25zdCBIYW5kYm9va0RheVZpZXc6IFJlYWN0LkZDPERheVZpZXdQcm9wcz4gPSAoewogICAgZGF0ZSwgZW50cnksIGNoYXJhY3RlcnMsIHVzZXJOYW1lLCBlZGl0aW5nUGFnZUlkLCByZWdlblBhZ2VJZCwKICAgIG9uU3RhcnRFZGl0LCBvblNhdmVQYWdlLCBvbkNhbmNlbEVkaXQsIG9uVG9nZ2xlRXhjbHVkZSwgb25EZWxldGVQYWdlLCBvblJlZ2VuZXJhdGVMaWZlc3RyZWFtLAogICAgcGFwZXJJZHg6IHBhcGVySWR4UHJvcCwgb25QYXBlcklkeENoYW5nZSwKfSkgPT4gewogICAgY29uc3QgYWxsUGFnZXMgPSBlbnRyeT8ucGFnZXMgfHwgW107CiAgICBjb25zdCBsYXlvdXRzID0gZW50cnk/LmxheW91dHMgfHwgW107CgogICAgY29uc3QgW2ludGVybmFsUGFwZXJJZHgsIHNldEludGVybmFsUGFwZXJJZHhdID0gdXNlU3RhdGUoMCk7CiAgICBjb25zdCBwYXBlcklkeCA9IHBhcGVySWR4UHJvcCA/PyBpbnRlcm5hbFBhcGVySWR4OwogICAgY29uc3Qgc2V0UGFwZXJJZHggPSAoaWR4OiBudW1iZXIpID0+IHsKICAgICAgICBzZXRJbnRlcm5hbFBhcGVySWR4KGlkeCk7CiAgICAgICAgb25QYXBlcklkeENoYW5nZT8uKGlkeCk7CiAgICB9OwoKICAgIC8vIGVudHJ5IC8gbGF5b3V0cyDliIfmjaIg4oaSIOWbnuWIsOesrOS4gOW8oOe6uAogICAgdXNlRWZmZWN0KCgpID0+IHsgc2V0UGFwZXJJZHgoMCk7IC8qIGVzbGludC1kaXNhYmxlLW5leHQtbGluZSAqLyB9LCBbZW50cnk/LmlkLCBsYXlvdXRzLmxlbmd0aF0pOwoKICAgIGNvbnN0IGFjdGl2ZUxheW91dCA9IGxheW91dHNbcGFwZXJJZHhdIHx8IG51bGw7CgogICAgLy8g57yW6L6R5p+Q6aG15pe2OuWPluWHuiBwYWdlCiAgICBjb25zdCBlZGl0aW5nUGFnZSA9IGVkaXRpbmdQYWdlSWQgPyBhbGxQYWdlcy5maW5kKHAgPT4gcC5pZCA9PT0gZWRpdGluZ1BhZ2VJZCkgOiBudWxsOwogICAgY29uc3QgZWRpdGluZ0NoYXIgPSBlZGl0aW5nUGFnZT8uY2hhcklkID8gY2hhcmFjdGVycy5maW5kKGMgPT4gYy5pZCA9PT0gZWRpdGluZ1BhZ2UuY2hhcklkKSA6IHVuZGVmaW5lZDsKCiAgICByZXR1cm4gKAogICAgICAgIDxkaXYKICAgICAgICAgICAgY2xhc3NOYW1lPSJmbGV4LTEgZmxleCBmbGV4LWNvbCBvdmVyZmxvdy1oaWRkZW4gcmVsYXRpdmUiCiAgICAgICAgICAgIHN0eWxlPXt7CiAgICAgICAgICAgICAgICBiYWNrZ3JvdW5kOiBgJHtQQVBFUl9UT05FUy5wYXBlcldhcm19IHJhZGlhbC1ncmFkaWVudChjaXJjbGUgYXQgMTUlIDglLCByZ2JhKDI1MSwxODQsMjAwLDAuMTYpIDAlLCB0cmFuc3BhcmVudCAzNSUpLCByYWRpYWwtZ3JhZGllbnQoY2lyY2xlIGF0IDg1JSA3MCUsIHJnYmEoMTg1LDIxMSwyMjQsMC4xNikgMCUsIHRyYW5zcGFyZW50IDM1JSlgLAogICAgICAgICAgICB9fQogICAgICAgID4KICAgICAgICAgICAgey8qIOS4u+eUu+W4g+WMuiDigJQg6Ieq6YCC5bqU5aGr5ruhLCDpobbpg6jnlZnlh7rmgqzmta4gYmFyIOeahOS9jee9riAqL30KICAgICAgICAgICAgPGRpdgogICAgICAgICAgICAgICAgY2xhc3NOYW1lPSJmbGV4LTEgcHgtMyBwYi0zIG1pbi1oLTAiCiAgICAgICAgICAgICAgICBzdHlsZT17eyBwYWRkaW5nVG9wOiAnY2FsYyhtYXgoZW52KHNhZmUtYXJlYS1pbnNldC10b3AsIDEycHgpLCAxMnB4KSArIDQwcHgpJyB9fQogICAgICAgICAgICA+CiAgICAgICAgICAgICAgICB7YWxsUGFnZXMubGVuZ3RoID09PSAwIHx8ICFhY3RpdmVMYXlvdXQgPyAoCiAgICAgICAgICAgICAgICAgICAgPEVtcHR5RGF5IC8+CiAgICAgICAgICAgICAgICApIDogKAogICAgICAgICAgICAgICAgICAgIDxKb3VybmFsQ2FudmFzCiAgICAgICAgICAgICAgICAgICAgICAgIGRhdGU9e2RhdGV9CiAgICAgICAgICAgICAgICAgICAgICAgIGxheW91dD17YWN0aXZlTGF5b3V0fQogICAgICAgICAgICAgICAgICAgICAgICBwYWdlcz17YWxsUGFnZXN9CiAgICAgICAgICAgICAgICAgICAgICAgIGNoYXJhY3RlcnM9e2NoYXJhY3RlcnN9CiAgICAgICAgICAgICAgICAgICAgICAgIHVzZXJOYW1lPXt1c2VyTmFtZX0KICAgICAgICAgICAgICAgICAgICAgICAgc2hvd0hlYWRlcj17cGFwZXJJZHggPT09IDB9CiAgICAgICAgICAgICAgICAgICAgICAgIHBhZ2VOdW1iZXJMYWJlbD17bGF5b3V0cy5sZW5ndGggPiAxID8gYCR7cGFwZXJJZHggKyAxfSAvICR7bGF5b3V0cy5sZW5ndGh9YCA6IHVuZGVmaW5lZH0KICAgICAgICAgICAgICAgICAgICAgICAgb25QaWNrUGxhY2VtZW50PXsocGFnZUlkKSA9PiBvblN0YXJ0RWRpdChwYWdlSWQpfQogICAgICAgICAgICAgICAgICAgIC8+CiAgICAgICAgICAgICAgICApfQogICAgICAgICAgICA8L2Rpdj4KCiAgICAgICAgICAgIHsvKiDljZXpobXnvJbovpHopobnm5blsYIgKi99CiAgICAgICAgICAgIHtlZGl0aW5nUGFnZSAmJiAoCiAgICAgICAgICAgICAgICA8Sm91cm5hbFBhZ2VFZGl0b3IKICAgICAgICAgICAgICAgICAgICBwYWdlPXtlZGl0aW5nUGFnZX0KICAgICAgICAgICAgICAgICAgICBjaGFyPXtlZGl0aW5nQ2hhcn0KICAgICAgICAgICAgICAgICAgICBpc1JlZ2VuZXJhdGluZz17cmVnZW5QYWdlSWQgPT09IGVkaXRpbmdQYWdlLmlkfQogICAgICAgICAgICAgICAgICAgIG9uQ2xvc2U9e29uQ2FuY2VsRWRpdH0KICAgICAgICAgICAgICAgICAgICBvblNhdmU9eyhjb250ZW50LCBwYXBlclN0eWxlKSA9PiBvblNhdmVQYWdlKGVkaXRpbmdQYWdlLmlkLCBjb250ZW50LCBwYXBlclN0eWxlKX0KICAgICAgICAgICAgICAgICAgICBvblRvZ2dsZUV4Y2x1ZGU9eygpID0+IG9uVG9nZ2xlRXhjbHVkZShlZGl0aW5nUGFnZS5pZCl9CiAgICAgICAgICAgICAgICAgICAgb25EZWxldGU9eygpID0+IHsgb25EZWxldGVQYWdlKGVkaXRpbmdQYWdlLmlkKTsgb25DYW5jZWxFZGl0KCk7IH19CiAgICAgICAgICAgICAgICAgICAgb25SZWdlbmVyYXRlPXtlZGl0aW5nUGFnZS50eXBlID09PSAnY2hhcmFjdGVyX2xpZmUnCiAgICAgICAgICAgICAgICAgICAgICAgID8gKCkgPT4gb25SZWdlbmVyYXRlTGlmZXN0cmVhbShlZGl0aW5nUGFnZSkKICAgICAgICAgICAgICAgICAgICAgICAgOiB1bmRlZmluZWR9CiAgICAgICAgICAgICAgICAvPgogICAgICAgICAgICApfQogICAgICAgIDwvZGl2PgogICAgKTsKfTsKCi8vIOKUgOKUgOKUgCDnqbrnirbmgIEg4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSACmNvbnN0IEVtcHR5RGF5OiBSZWFjdC5GQyA9ICgpID0+ICgKICAgIDxkaXYKICAgICAgICBjbGFzc05hbWU9ImgtZnVsbCB3LWZ1bGwgZmxleCBmbGV4LWNvbCBpdGVtcy1jZW50ZXIganVzdGlmeS1jZW50ZXIgdGV4dC1jZW50ZXIiCiAgICAgICAgc3R5bGU9e3sgY29sb3I6IFBBUEVSX1RPTkVTLmlua1NvZnQgfX0KICAgID4KICAgICAgICA8Tm90ZWJvb2sgY2xhc3NOYW1lPSJ3LTEyIGgtMTIgbWItMyBvcGFjaXR5LTQwIiB3ZWlnaHQ9InRoaW4iIC8+CiAgICAgICAgPGRpdiBjbGFzc05hbWU9InRleHQtWzE0cHhdIiBzdHlsZT17Q1VURV9TVEFDS30+6L+Z5LiA6aG1IMK3IOi/mOaYr+epuueZvSDimaE8L2Rpdj4KICAgICAgICA8ZGl2IGNsYXNzTmFtZT0idGV4dC1bMTFweF0gbXQtMiBvcGFjaXR5LTcwIGxlYWRpbmctcmVsYXhlZCBweC04IiBzdHlsZT17Q1VURV9TVEFDS30+CiAgICAgICAgICAgIOeCueS4i+aWueS5puetvuiuqSBBSSDmm7/kvaDlhpnkuIDku73ojYnnqL88YnIgLz4KICAgICAgICAgICAg5oiW6ICF5oyJICsg6Ieq5bex5YaZ5LiA6aG1CiAgICAgICAgPC9kaXY+CiAgICA8L2Rpdj4KKTsKCmV4cG9ydCBkZWZhdWx0IEhhbmRib29rRGF5VmlldzsK
+/**
+ * 当日视图 — 一张固定比例的"纸"
+ *
+ * - 整页 = 一张纸,瘦长比例,尽量铺满移动端可视区
+ * - 所有 fragment(user diary + 各 char lifestream + user_note) 散落在同一张纸上
+ * - 位置由 composePageLayout (确定性版式引擎) 同步算出, 存进 entry.layouts
+ * - 一张装不下 → entry.layouts 有多张,顶部悬浮 bar 翻页
+ */
+
+import React, { useState, useEffect } from 'react';
+import { HandbookEntry, HandbookPage, CharacterProfile } from '../../types';
+import JournalCanvas from './JournalCanvas';
+import JournalPageEditor from './JournalPageEditor';
+import { PAPER_TONES, CUTE_STACK } from './paper';
+import { Notebook } from '@phosphor-icons/react';
+
+interface DayViewProps {
+    date: string;
+    entry: HandbookEntry | null;
+    characters: CharacterProfile[];
+    userName: string;
+    editingPageId: string | null;
+    regenPageId: string | null;
+    onStartEdit: (pageId: string) => void;
+    onSavePage: (pageId: string, content: string, paperStyle?: string) => void;
+    onCancelEdit: () => void;
+    onToggleExclude: (pageId: string) => void;
+    onDeletePage: (pageId: string) => void;
+    onRegenerateLifestream: (page: HandbookPage) => void;
+    /** 翻页索引由父级控制(顶部悬浮 bar 也要切),非受控时内部维护 */
+    paperIdx?: number;
+    onPaperIdxChange?: (idx: number) => void;
+}
+
+const HandbookDayView: React.FC<DayViewProps> = ({
+    date, entry, characters, userName, editingPageId, regenPageId,
+    onStartEdit, onSavePage, onCancelEdit, onToggleExclude, onDeletePage, onRegenerateLifestream,
+    paperIdx: paperIdxProp, onPaperIdxChange,
+}) => {
+    const allPages = entry?.pages || [];
+    const layouts = entry?.layouts || [];
+
+    const [internalPaperIdx, setInternalPaperIdx] = useState(0);
+    const paperIdx = paperIdxProp ?? internalPaperIdx;
+    const setPaperIdx = (idx: number) => {
+        setInternalPaperIdx(idx);
+        onPaperIdxChange?.(idx);
+    };
+
+    // entry / layouts 切换 → 回到第一张纸
+    useEffect(() => { setPaperIdx(0); /* eslint-disable-next-line */ }, [entry?.id, layouts.length]);
+
+    const activeLayout = layouts[paperIdx] || null;
+
+    // 编辑某页时:取出 page
+    const editingPage = editingPageId ? allPages.find(p => p.id === editingPageId) : null;
+    const editingChar = editingPage?.charId ? characters.find(c => c.id === editingPage.charId) : undefined;
+
+    return (
+        <div
+            className="flex-1 flex flex-col overflow-hidden relative"
+            style={{
+                background: `${PAPER_TONES.paperWarm} radial-gradient(circle at 15% 8%, rgba(251,184,200,0.16) 0%, transparent 35%), radial-gradient(circle at 85% 70%, rgba(185,211,224,0.16) 0%, transparent 35%)`,
+            }}
+        >
+            {/* 主画布区 — 自适应填满, 顶部留出悬浮 bar 的位置 */}
+            <div
+                className="flex-1 px-3 pb-3 min-h-0"
+                style={{ paddingTop: 'calc(max(env(safe-area-inset-top, 12px), 12px) + 40px)' }}
+            >
+                {allPages.length === 0 || !activeLayout ? (
+                    <EmptyDay />
+                ) : (
+                    <JournalCanvas
+                        date={date}
+                        layout={activeLayout}
+                        pages={allPages}
+                        characters={characters}
+                        userName={userName}
+                        showHeader={paperIdx === 0}
+                        pageNumberLabel={layouts.length > 1 ? `${paperIdx + 1} / ${layouts.length}` : undefined}
+                        onPickPlacement={(pageId) => onStartEdit(pageId)}
+                    />
+                )}
+            </div>
+
+            {/* 单页编辑覆盖层 */}
+            {editingPage && (
+                <JournalPageEditor
+                    page={editingPage}
+                    char={editingChar}
+                    isRegenerating={regenPageId === editingPage.id}
+                    onClose={onCancelEdit}
+                    onSave={(content, paperStyle) => onSavePage(editingPage.id, content, paperStyle)}
+                    onToggleExclude={() => onToggleExclude(editingPage.id)}
+                    onDelete={() => { onDeletePage(editingPage.id); onCancelEdit(); }}
+                    onRegenerate={editingPage.type === 'character_life'
+                        ? () => onRegenerateLifestream(editingPage)
+                        : undefined}
+                />
+            )}
+        </div>
+    );
+};
+
+// ─── 空状态 ──────────────────────────────────────
+const EmptyDay: React.FC = () => (
+    <div
+        className="h-full w-full flex flex-col items-center justify-center text-center"
+        style={{ color: PAPER_TONES.inkSoft }}
+    >
+        <Notebook className="w-12 h-12 mb-3 opacity-40" weight="thin" />
+        <div className="text-[14px]" style={CUTE_STACK}>这一页 · 还是空白 ♡</div>
+        <div className="text-[11px] mt-2 opacity-70 leading-relaxed px-8" style={CUTE_STACK}>
+            点下方书签让 AI 替你写一份草稿<br />
+            或者按 + 自己写一页
+        </div>
+    </div>
+);
+
+export default HandbookDayView;

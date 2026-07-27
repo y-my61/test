@@ -1,1 +1,77 @@
-aW1wb3J0IHsgZGVzY3JpYmUsIGl0LCBleHBlY3QgfSBmcm9tICd2aXRlc3QnOwppbXBvcnQgeyBub3JtYWxpemVNZXNzYWdlQ29udGVudCB9IGZyb20gJy4vbWVzc2FnZUZvcm1hdCc7CmltcG9ydCB7IENoYXRQcm9tcHRzIH0gZnJvbSAnLi9jaGF0UHJvbXB0cyc7CgovLyDplIHkvY/jgIznrJTlj4vkvJrljoblj7Lnq6DoioLovazlj5HliLDogYrlpKnlkI7vvIzop5LoibLlnKjkuIrkuIvmlofph4zor7vlvpfliLDkuabjgI3ov5nmnaHpk77ot6/jgIIKLy8KLy8gbm92ZWxfY2FyZCDnmoQgY29udGVudCDlj6rmmK/ljaDkvY3vvIhb56yU5Y+L5Lya5bCP6K+0XeOAiuS5puWQjeOAi+KApu+8ie+8jOecn+ato+eahOeroOiKguW9kuaho+WcqAovLyBtZXRhZGF0YS5ub3ZlbCDph4zjgILkuIrkuIvmlocgLyDlvZLmoaMgLyBwYWxhY2Ug6YO96Z2gIG5vcm1hbGl6ZU1lc3NhZ2VDb250ZW50IOaKiuWugwovLyDnv7vmiJDlrozmlbTmlofmnKzigJTigJTmvI/nv7vnmoTor53op5LoibLlj6rnnIvliLDljaDkvY3nrKbvvIznrYnkuo7msqHovazlj5HjgIIKLy8g5Y+m5aSW6ZKJ5L2P5YWx5Yib6ICFIC8g6Z2e5YWx5Yib6ICF5Lik56eN6KeG6KeS55qE5o6q6L6e77ya5YWx5Yib6ICF6KaB55+l6YGTIui/meS5puacieS9oOS4gOS7vSLvvIwKLy8g5peB6KeC6ICF5LiN6IO96KKr6K+x5a+85oiQIuaIkeS5n+WGmei/hyLjgIIKCmNvbnN0IG5vdmVsTWV0YSA9IHsKICAgIG5vdmVsOiB7CiAgICAgICAgYm9va1RpdGxlOiAn6Zu+5Lit54Gv5aGUJywKICAgICAgICBzdWJ0aXRsZTogJ+esrOS4gOWNtycsCiAgICAgICAgYm9va1N1bW1hcnk6ICfkuIDluqflj6rlnKjpm77lpKnlh7rnjrDnmoTnga/loZTjgIInLAogICAgICAgIHVzZXJOYW1lOiAn5oiRJywKICAgICAgICBjb2xsYWJvcmF0b3JOYW1lczogWyflsI/nrJTlj4snLCAn6Lev5Lq65LmZJ10sCiAgICAgICAgY2hhcHRlcnM6IFsKICAgICAgICAgICAgeyBpbmRleDogMSwgc3VtbWFyeTogJ+WuiOWhlOS6uuaNoeWIsOS6huS4gOWwgeayoeaciee9suWQjeeahOS/oeOAgicgfSwKICAgICAgICAgICAgeyBpbmRleDogMywgc3VtbWFyeTogJ+S/oeeahOeslOi/ueWSjOWuiOWhlOS6uuiHquW3seeahOS4gOaooeS4gOagt+OAgicgfSwKICAgICAgICBdLAogICAgICAgIGNvdW50OiAyLAogICAgfSwKfTsKCmNvbnN0IGJhc2VNc2cgPSB7CiAgICBpZDogMSwKICAgIGNoYXJJZDogJ2MxJywKICAgIHJvbGU6ICd1c2VyJywKICAgIHR5cGU6ICdub3ZlbF9jYXJkJywKICAgIGNvbnRlbnQ6ICdb56yU5Y+L5Lya5bCP6K+0XeOAiumbvuS4reeBr+WhlOOAizIg56ug5b2S5qGjJywKICAgIHRpbWVzdGFtcDogRGF0ZS5ub3coKSwKICAgIG1ldGFkYXRhOiBub3ZlbE1ldGEsCn0gYXMgYW55OwoKZGVzY3JpYmUoJ25vcm1hbGl6ZU1lc3NhZ2VDb250ZW50IG5vdmVsX2NhcmQg6ISx5rC0JywgKCkgPT4gewogICAgaXQoJ+WFseWIm+iAheinhuinkjog5bim5Lmm5ZCNICsg5YWo6YOo56ug6IqC5oC757uTICsgIuS9oOaYr+aJp+eslOS6uuS5i+S4gCInLCAoKSA9PiB7CiAgICAgICAgY29uc3QgdGV4dCA9IG5vcm1hbGl6ZU1lc3NhZ2VDb250ZW50KGJhc2VNc2csICflsI/nrJTlj4snLCAn5oiRJyk7CiAgICAgICAgZXhwZWN0KHRleHQpLnRvQ29udGFpbign44CK6Zu+5Lit54Gv5aGU44CLJyk7CiAgICAgICAgZXhwZWN0KHRleHQpLnRvQ29udGFpbign5omn56yU5Lq65LmL5LiAJyk7CiAgICAgICAgZXhwZWN0KHRleHQpLnRvQ29udGFpbign5a6I5aGU5Lq65o2h5Yiw5LqG5LiA5bCB5rKh5pyJ572y5ZCN55qE5L+hJyk7CiAgICAgICAgZXhwZWN0KHRleHQpLnRvQ29udGFpbign56ysM+eroOaAu+e7kycpOwogICAgICAgIGV4cGVjdCh0ZXh0KS50b0NvbnRhaW4oJ+S4gOW6p+WPquWcqOmbvuWkqeWHuueOsOeahOeBr+WhlCcpOwogICAgICAgIC8vIOWFtuS7luWFseWIm+iAheS5n+imgeWHuueOsO+8iCLov5jmnInot6/kurrkuZki77yJ77yM5Yir5oqK5ZCI6JGX6ICF5YaZ5LiiCiAgICAgICAgZXhwZWN0KHRleHQpLnRvQ29udGFpbign6Lev5Lq65LmZJyk7CiAgICB9KTsKCiAgICBpdCgn6Z2e5YWx5Yib6ICF6KeG6KeSOiDmmI7noa4i5rKh5pyJ5Y+C5LiO5Yib5L2cIiwg5LiN5YaS6K6k5omn56yUJywgKCkgPT4gewogICAgICAgIGNvbnN0IHRleHQgPSBub3JtYWxpemVNZXNzYWdlQ29udGVudChiYXNlTXNnLCAn5ZyI5aSW6KeS6ImyJywgJ+aIkScpOwogICAgICAgIGV4cGVjdCh0ZXh0KS50b0NvbnRhaW4oJ+OAiumbvuS4reeBr+WhlOOAiycpOwogICAgICAgIGV4cGVjdCh0ZXh0KS50b0NvbnRhaW4oJ+ayoeacieWPguS4juWIm+S9nCcpOwogICAgICAgIGV4cGVjdCh0ZXh0KS5ub3QudG9Db250YWluKCfmiafnrJTkurrkuYvkuIAnKTsKICAgICAgICAvLyDnq6DoioLlhoXlrrnnhafmoLflj6/or7vigJTigJTliIbkuqvnmoTmhI/kuYnlsLHmmK/orqkgdGEg6K+75YiwCiAgICAgICAgZXhwZWN0KHRleHQpLnRvQ29udGFpbign5L+h55qE56yU6L+55ZKM5a6I5aGU5Lq66Ieq5bex55qE5LiA5qih5LiA5qC3Jyk7CiAgICB9KTsKCiAgICBpdCgnbWV0YWRhdGEg57y65aSx5pe25YWc5bqV5Li65Y2g5L2NLCDkuI3mipvplJknLCAoKSA9PiB7CiAgICAgICAgY29uc3QgYnJva2VuID0geyAuLi5iYXNlTXNnLCBtZXRhZGF0YToge30gfTsKICAgICAgICBleHBlY3Qobm9ybWFsaXplTWVzc2FnZUNvbnRlbnQoYnJva2VuLCAn5bCP56yU5Y+LJywgJ+aIkScpKS50b0JlKCdb56yU5Y+L5Lya5bCP6K+056ug6IqCXScpOwogICAgfSk7Cn0pOwoKZGVzY3JpYmUoJ2J1aWxkTWVzc2FnZUhpc3Rvcnkg56eB6IGK5LiK5LiL5paH6YeMIG5vdmVsX2NhcmQg5a6M5pW05Y+v6K+7JywgKCkgPT4gewogICAgaXQoJ+inkuiJsuS4iuS4i+aWh+mHjOW4puWHuueroOiKguW9kuaho+WFqOaWhywg5LiN5piv5YWJ56eD56eD55qE5Y2g5L2NICjpgIDljJbljbPmjIIpJywgKCkgPT4gewogICAgICAgIGNvbnN0IGNoYXIgPSB7IGlkOiAnYzEnLCBuYW1lOiAn5bCP56yU5Y+LJyB9IGFzIGFueTsKICAgICAgICBjb25zdCB1c2VyUHJvZmlsZSA9IHsgbmFtZTogJ+aIkScgfSBhcyBhbnk7CiAgICAgICAgY29uc3QgaGlzdG9yeSA9IFt7IC4uLmJhc2VNc2csIHRpbWVzdGFtcDogRGF0ZS5ub3coKSAtIDYwXzAwMCB9XTsKICAgICAgICBjb25zdCB7IGFwaU1lc3NhZ2VzIH0gPSBDaGF0UHJvbXB0cy5idWlsZE1lc3NhZ2VIaXN0b3J5KGhpc3RvcnksIDEwLCBjaGFyLCB1c2VyUHJvZmlsZSwgW10pOwogICAgICAgIGNvbnN0IHVzZXJNc2cgPSBhcGlNZXNzYWdlcy5maW5kKChtOiBhbnkpID0+IG0ucm9sZSA9PT0gJ3VzZXInKTsKICAgICAgICBjb25zdCBjb250ZW50ID0gdXNlck1zZyEuY29udGVudCBhcyBzdHJpbmc7CiAgICAgICAgZXhwZWN0KGNvbnRlbnQpLnRvQ29udGFpbign56yU5Y+L5LyaJyk7CiAgICAgICAgZXhwZWN0KGNvbnRlbnQpLnRvQ29udGFpbign5a6I5aGU5Lq65o2h5Yiw5LqG5LiA5bCB5rKh5pyJ572y5ZCN55qE5L+hJyk7CiAgICAgICAgZXhwZWN0KGNvbnRlbnQpLnRvQ29udGFpbign5omn56yU5Lq65LmL5LiAJyk7CiAgICB9KTsKfSk7Cg==
+import { describe, it, expect } from 'vitest';
+import { normalizeMessageContent } from './messageFormat';
+import { ChatPrompts } from './chatPrompts';
+
+// 锁住「笔友会历史章节转发到聊天后，角色在上下文里读得到书」这条链路。
+//
+// novel_card 的 content 只是占位（[笔友会小说]《书名》…），真正的章节归档在
+// metadata.novel 里。上下文 / 归档 / palace 都靠 normalizeMessageContent 把它
+// 翻成完整文本——漏翻的话角色只看到占位符，等于没转发。
+// 另外钉住共创者 / 非共创者两种视角的措辞：共创者要知道"这书有你一份"，
+// 旁观者不能被诱导成"我也写过"。
+
+const novelMeta = {
+    novel: {
+        bookTitle: '雾中灯塔',
+        subtitle: '第一卷',
+        bookSummary: '一座只在雾天出现的灯塔。',
+        userName: '我',
+        collaboratorNames: ['小笔友', '路人乙'],
+        chapters: [
+            { index: 1, summary: '守塔人捡到了一封没有署名的信。' },
+            { index: 3, summary: '信的笔迹和守塔人自己的一模一样。' },
+        ],
+        count: 2,
+    },
+};
+
+const baseMsg = {
+    id: 1,
+    charId: 'c1',
+    role: 'user',
+    type: 'novel_card',
+    content: '[笔友会小说]《雾中灯塔》2 章归档',
+    timestamp: Date.now(),
+    metadata: novelMeta,
+} as any;
+
+describe('normalizeMessageContent novel_card 脱水', () => {
+    it('共创者视角: 带书名 + 全部章节总结 + "你是执笔人之一"', () => {
+        const text = normalizeMessageContent(baseMsg, '小笔友', '我');
+        expect(text).toContain('《雾中灯塔》');
+        expect(text).toContain('执笔人之一');
+        expect(text).toContain('守塔人捡到了一封没有署名的信');
+        expect(text).toContain('第3章总结');
+        expect(text).toContain('一座只在雾天出现的灯塔');
+        // 其他共创者也要出现（"还有路人乙"），别把合著者写丢
+        expect(text).toContain('路人乙');
+    });
+
+    it('非共创者视角: 明确"没有参与创作", 不冒认执笔', () => {
+        const text = normalizeMessageContent(baseMsg, '圈外角色', '我');
+        expect(text).toContain('《雾中灯塔》');
+        expect(text).toContain('没有参与创作');
+        expect(text).not.toContain('执笔人之一');
+        // 章节内容照样可读——分享的意义就是让 ta 读到
+        expect(text).toContain('信的笔迹和守塔人自己的一模一样');
+    });
+
+    it('metadata 缺失时兜底为占位, 不抛错', () => {
+        const broken = { ...baseMsg, metadata: {} };
+        expect(normalizeMessageContent(broken, '小笔友', '我')).toBe('[笔友会小说章节]');
+    });
+});
+
+describe('buildMessageHistory 私聊上下文里 novel_card 完整可读', () => {
+    it('角色上下文里带出章节归档全文, 不是光秃秃的占位 (退化即挂)', () => {
+        const char = { id: 'c1', name: '小笔友' } as any;
+        const userProfile = { name: '我' } as any;
+        const history = [{ ...baseMsg, timestamp: Date.now() - 60_000 }];
+        const { apiMessages } = ChatPrompts.buildMessageHistory(history, 10, char, userProfile, []);
+        const userMsg = apiMessages.find((m: any) => m.role === 'user');
+        const content = userMsg!.content as string;
+        expect(content).toContain('笔友会');
+        expect(content).toContain('守塔人捡到了一封没有署名的信');
+        expect(content).toContain('执笔人之一');
+    });
+});

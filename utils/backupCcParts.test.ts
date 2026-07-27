@@ -1,1 +1,67 @@
-aW1wb3J0IHsgZGVzY3JpYmUsIGl0LCBleHBlY3QsIGJlZm9yZUVhY2ggfSBmcm9tICd2aXRlc3QnOwppbXBvcnQgeyBEQiwgb3BlbkRCIH0gZnJvbSAnLi9kYic7CgovLyDmjY/ohLjoh6rlrprkuYnpg6jku7bvvIhjY19jdXN0b21fcGFydHPvvInnmoTlpIfku73lvoDov5Tlm57lvZLjgIIKLy8KLy8g6YOo5Lu2IHNyYy9zaGFkb3dTcmMg5pivIGRhdGE6aW1hZ2XvvIxtZWRpYS9mdWxsIOWvvOWHuuaXtuS8muiiqyBleHRyYWN0SW1hZ2VzSW5QbGFjZSDmir3ov5sgemlw77yMCi8vIEpTT04g6YeM5Y+q55WZIGFzc2V0cy8qLnBuZyDot6/lvoTjgILlr7zlhaXlv4Xpobvnu48gaW1wb3J0RnVsbERhdGEg55qEIGJlZm9yZVdyaXRlIOmSqeWtkOaKiui3r+W+hOi/mOWOn+WbngovLyBiYXNlNjTjgILljoblj7IgYnVn77ya6L+Z5LiA6IqCIGNsZWFyQW5kQWRkIOaKiiByZXN0b3JlQXNzZXRzIOS8oOaIkCBmYWxzZSDihpIgYmVmb3JlV3JpdGUg5pep6YCA5LiN6L+Y5Y6f77yMCi8vIOWvvOWFpeWbnuadpemDqOS7tuWbvuijguaIkCBhc3NldHMvKi5wbmcg5q276ZO+44CC5q2k55So5L6L6ZKJ5q2744CM5a+85YWl5Lya5a+5IGNjIOmDqOS7tuiwg+eUqOi1hOS6p+i/mOWOn+OAjeOAggoKYXN5bmMgZnVuY3Rpb24gc2VlZFN0b3JlKG5hbWU6IHN0cmluZywgcmVjb3JkczogYW55W10pOiBQcm9taXNlPHZvaWQ+IHsKICAgIGNvbnN0IGRiID0gYXdhaXQgb3BlbkRCKCk7CiAgICBhd2FpdCBuZXcgUHJvbWlzZTx2b2lkPigocmVzb2x2ZSwgcmVqZWN0KSA9PiB7CiAgICAgICAgY29uc3QgdHggPSBkYi50cmFuc2FjdGlvbihuYW1lLCAncmVhZHdyaXRlJyk7CiAgICAgICAgY29uc3Qgc3RvcmUgPSB0eC5vYmplY3RTdG9yZShuYW1lKTsKICAgICAgICBzdG9yZS5jbGVhcigpOwogICAgICAgIGZvciAoY29uc3QgciBvZiByZWNvcmRzKSBzdG9yZS5wdXQocik7CiAgICAgICAgdHgub25jb21wbGV0ZSA9ICgpID0+IHJlc29sdmUoKTsKICAgICAgICB0eC5vbmVycm9yID0gKCkgPT4gcmVqZWN0KHR4LmVycm9yKTsKICAgIH0pOwp9CgpiZWZvcmVFYWNoKGFzeW5jICgpID0+IHsKICAgIGF3YWl0IHNlZWRTdG9yZSgnY2NfY3VzdG9tX3BhcnRzJywgW10pOwp9KTsKCmRlc2NyaWJlKCdjY19jdXN0b21fcGFydHMg5aSH5Lu95b6A6L+U77ya5Zu+54mH6LWE5Lqn6L+Y5Y6fJywgKCkgPT4gewogICAgaXQoJ+WvvOWFpeaXtuWvuemDqOS7tuiwg+eUqCBiZWZvcmVXcml0Ze+8iHJlc3RvcmVBc3NldHM9dHJ1Ze+8ie+8jOi3r+W+hOi/mOWOn+WbniBiYXNlNjQnLCBhc3luYyAoKSA9PiB7CiAgICAgICAgLy8g5qih5ouf5a+85Ye65ZCO55qE5b2i5oCB77yac3JjL3NoYWRvd1NyYyDlt7Looqvmir3miJAgemlwIOi3r+W+hO+8iGFzc2V0cy8qLnBuZ++8iQogICAgICAgIGNvbnN0IGJhY2t1cFBhcnRzID0gWwogICAgICAgICAgICB7IGlkOiAnZnJvbnRoYWlyX2NjXzEnLCBjYXRlZ29yeUtleTogJ2Zyb250aGFpcicsIG5hbWU6ICfkupHmnLUnLCB0aW50YWJsZTogdHJ1ZSwKICAgICAgICAgICAgICBzcmM6ICdhc3NldHMvYXNzZXRfMS5wbmcnLCBzaGFkb3dTcmM6ICdhc3NldHMvYXNzZXRfMi5wbmcnLCBjcmVhdGVkQXQ6IDEgfSwKICAgICAgICAgICAgeyBpZDogJ2RlY29yX2NjXzInLCBjYXRlZ29yeUtleTogJ2RlY29yJywgbmFtZTogJ+aYn+aYnycsIHRpbnRhYmxlOiBmYWxzZSwKICAgICAgICAgICAgICBzcmM6ICdhc3NldHMvYXNzZXRfMy5wbmcnLCBjcmVhdGVkQXQ6IDIgfSwKICAgICAgICBdOwoKICAgICAgICAvLyBiZWZvcmVXcml0ZSDmqKHmi58gcmVzdG9yZUFzc2V0c0luUGxhY2XvvJrmioogYXNzZXRzLyoucG5nIOi3r+W+hOaNouWbniBkYXRhOmltYWdl44CCCiAgICAgICAgLy8g5Y+q5pyJIHJlc3RvcmVBc3NldHM9dHJ1ZSDnmoQgc2VjdGlvbiDmiY3kvJrop6blj5HlroPigJTigJTov5nmraPmmK/lm57lvZLngrnjgIIKICAgICAgICBjb25zdCByZXN0b3JlZDogc3RyaW5nW10gPSBbXTsKICAgICAgICBjb25zdCBiZWZvcmVXcml0ZSA9IGFzeW5jIChyb290OiBhbnkpID0+IHsKICAgICAgICAgICAgY29uc3Qgd2FsayA9IChvOiBhbnkpID0+IHsKICAgICAgICAgICAgICAgIGlmICghbyB8fCB0eXBlb2YgbyAhPT0gJ29iamVjdCcpIHJldHVybjsKICAgICAgICAgICAgICAgIGZvciAoY29uc3QgayBvZiBPYmplY3Qua2V5cyhvKSkgewogICAgICAgICAgICAgICAgICAgIGNvbnN0IHYgPSBvW2tdOwogICAgICAgICAgICAgICAgICAgIGlmICh0eXBlb2YgdiA9PT0gJ3N0cmluZycgJiYgdi5zdGFydHNXaXRoKCdhc3NldHMvJykpIHsKICAgICAgICAgICAgICAgICAgICAgICAgcmVzdG9yZWQucHVzaCh2KTsKICAgICAgICAgICAgICAgICAgICAgICAgb1trXSA9IGBkYXRhOmltYWdlL3BuZztiYXNlNjQsUkVTVE9SRUQoJHt2fSlgOwogICAgICAgICAgICAgICAgICAgIH0gZWxzZSBpZiAodiAmJiB0eXBlb2YgdiA9PT0gJ29iamVjdCcpIHdhbGsodik7CiAgICAgICAgICAgICAgICB9CiAgICAgICAgICAgIH07CiAgICAgICAgICAgIHdhbGsocm9vdCk7CiAgICAgICAgfTsKCiAgICAgICAgYXdhaXQgREIuaW1wb3J0RnVsbERhdGEoeyBjdXN0b21DcmVhdG9yUGFydHM6IGJhY2t1cFBhcnRzIH0gYXMgYW55LCB7IGJlZm9yZVdyaXRlIH0gYXMgYW55KTsKCiAgICAgICAgLy8gYmVmb3JlV3JpdGUg6KKr6LCD5Yiw5LqG77yM5LiJ5byg5Zu+6Lev5b6E6YO96KKr6L+Y5Y6f77yIYnVnIOeJiOacrO+8mnJlc3RvcmVkIOS4uuepuu+8iQogICAgICAgIGV4cGVjdChyZXN0b3JlZC5zb3J0KCkpLnRvRXF1YWwoWydhc3NldHMvYXNzZXRfMS5wbmcnLCAnYXNzZXRzL2Fzc2V0XzIucG5nJywgJ2Fzc2V0cy9hc3NldF8zLnBuZyddKTsKCiAgICAgICAgLy8g6JC95bqT55qE6YOo5Lu2IHNyYy9zaGFkb3dTcmMg5bey5pivIGRhdGE6aW1hZ2XvvIzkuI3lho3mmK/mrbvpk77ot6/lvoQKICAgICAgICBjb25zdCBzdG9yZWQgPSAoYXdhaXQgREIuZ2V0UmF3U3RvcmVEYXRhKCdjY19jdXN0b21fcGFydHMnKSkuc29ydCgoYTogYW55LCBiOiBhbnkpID0+IGEuY3JlYXRlZEF0IC0gYi5jcmVhdGVkQXQpOwogICAgICAgIGV4cGVjdChzdG9yZWQpLnRvSGF2ZUxlbmd0aCgyKTsKICAgICAgICBleHBlY3Qoc3RvcmVkWzBdLnNyYykudG9Db250YWluKCdkYXRhOmltYWdlL3BuZztiYXNlNjQsUkVTVE9SRUQoYXNzZXRzL2Fzc2V0XzEucG5nKScpOwogICAgICAgIGV4cGVjdChzdG9yZWRbMF0uc2hhZG93U3JjKS50b0NvbnRhaW4oJ2RhdGE6aW1hZ2UvcG5nO2Jhc2U2NCxSRVNUT1JFRChhc3NldHMvYXNzZXRfMi5wbmcpJyk7CiAgICAgICAgZXhwZWN0KHN0b3JlZFsxXS5zcmMpLnRvQ29udGFpbignZGF0YTppbWFnZS9wbmc7YmFzZTY0LFJFU1RPUkVEKGFzc2V0cy9hc3NldF8zLnBuZyknKTsKICAgICAgICBleHBlY3Qoc3RvcmVkLnNvbWUoKHA6IGFueSkgPT4gdHlwZW9mIHAuc3JjID09PSAnc3RyaW5nJyAmJiBwLnNyYy5zdGFydHNXaXRoKCdhc3NldHMvJykpKS50b0JlKGZhbHNlKTsKICAgIH0pOwp9KTsK
+import { describe, it, expect, beforeEach } from 'vitest';
+import { DB, openDB } from './db';
+
+// 捏脸自定义部件（cc_custom_parts）的备份往返回归。
+//
+// 部件 src/shadowSrc 是 data:image，media/full 导出时会被 extractImagesInPlace 抽进 zip，
+// JSON 里只留 assets/*.png 路径。导入必须经 importFullData 的 beforeWrite 钩子把路径还原回
+// base64。历史 bug：这一节 clearAndAdd 把 restoreAssets 传成 false → beforeWrite 早退不还原，
+// 导入回来部件图裂成 assets/*.png 死链。此用例钉死「导入会对 cc 部件调用资产还原」。
+
+async function seedStore(name: string, records: any[]): Promise<void> {
+    const db = await openDB();
+    await new Promise<void>((resolve, reject) => {
+        const tx = db.transaction(name, 'readwrite');
+        const store = tx.objectStore(name);
+        store.clear();
+        for (const r of records) store.put(r);
+        tx.oncomplete = () => resolve();
+        tx.onerror = () => reject(tx.error);
+    });
+}
+
+beforeEach(async () => {
+    await seedStore('cc_custom_parts', []);
+});
+
+describe('cc_custom_parts 备份往返：图片资产还原', () => {
+    it('导入时对部件调用 beforeWrite（restoreAssets=true），路径还原回 base64', async () => {
+        // 模拟导出后的形态：src/shadowSrc 已被抽成 zip 路径（assets/*.png）
+        const backupParts = [
+            { id: 'fronthair_cc_1', categoryKey: 'fronthair', name: '云朵', tintable: true,
+              src: 'assets/asset_1.png', shadowSrc: 'assets/asset_2.png', createdAt: 1 },
+            { id: 'decor_cc_2', categoryKey: 'decor', name: '星星', tintable: false,
+              src: 'assets/asset_3.png', createdAt: 2 },
+        ];
+
+        // beforeWrite 模拟 restoreAssetsInPlace：把 assets/*.png 路径换回 data:image。
+        // 只有 restoreAssets=true 的 section 才会触发它——这正是回归点。
+        const restored: string[] = [];
+        const beforeWrite = async (root: any) => {
+            const walk = (o: any) => {
+                if (!o || typeof o !== 'object') return;
+                for (const k of Object.keys(o)) {
+                    const v = o[k];
+                    if (typeof v === 'string' && v.startsWith('assets/')) {
+                        restored.push(v);
+                        o[k] = `data:image/png;base64,RESTORED(${v})`;
+                    } else if (v && typeof v === 'object') walk(v);
+                }
+            };
+            walk(root);
+        };
+
+        await DB.importFullData({ customCreatorParts: backupParts } as any, { beforeWrite } as any);
+
+        // beforeWrite 被调到了，三张图路径都被还原（bug 版本：restored 为空）
+        expect(restored.sort()).toEqual(['assets/asset_1.png', 'assets/asset_2.png', 'assets/asset_3.png']);
+
+        // 落库的部件 src/shadowSrc 已是 data:image，不再是死链路径
+        const stored = (await DB.getRawStoreData('cc_custom_parts')).sort((a: any, b: any) => a.createdAt - b.createdAt);
+        expect(stored).toHaveLength(2);
+        expect(stored[0].src).toContain('data:image/png;base64,RESTORED(assets/asset_1.png)');
+        expect(stored[0].shadowSrc).toContain('data:image/png;base64,RESTORED(assets/asset_2.png)');
+        expect(stored[1].src).toContain('data:image/png;base64,RESTORED(assets/asset_3.png)');
+        expect(stored.some((p: any) => typeof p.src === 'string' && p.src.startsWith('assets/'))).toBe(false);
+    });
+});

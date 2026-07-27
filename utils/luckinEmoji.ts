@@ -1,1 +1,38 @@
-LyoqCiAqIOeRnuW5uOWVhuWTgeWQjSDihpIg5aSnIGVtb2ppIOaYoOWwhAogKiBNQ1Ag5LiK5ri45LiN5LiA5a6a6L+U5Zu+LCDnlKjlhbPplK7or43ljLnphY3nu5nmr4/mnaHoj5zljZXotLTkuIDkuKrlg4/moLfnmoTlm77moIcsIOavlCDimJUg6YCa5p2A5aW955yL44CCCiAqIOmhuuW6j+aVj+aEnzog6LaK5YW35L2T55qE5YWz6ZSu6K+N6LaK5b6A5YmN44CCCiAqLwoKY29uc3QgUlVMRVM6IEFycmF5PFtSZWdFeHAsIHN0cmluZ10+ID0gWwogICAgLy8g5oub54mMIC8g55Sf5qSwIC8g5Y6a5Lmz57O75YiXCiAgICBbL+eUn+aksHzmpLDkupF85qSw5a2QL2ksICfwn6WlJ10sCiAgICBbL+WOmuS5s3zmi7/pk4EvaSwgJ+KYlSddLAogICAgWy/nvo7lvI985rWT57ypfGVzcHJlc3NvfOaEj+W8jy9pLCAn4piVJ10sCiAgICBbL+WNoeW4g+Wlh+ivunzmkanljaF8546b5aWH5py1fOmmpeiKrueZvXxmbGF0XHMqd2hpdGUvaSwgJ+KYlSddLAogICAgLy8g6Iy26aWuIC8g5p6c6Iy2CiAgICBbL+iMtuaLv+mTgXzlpbbojLZ86L275Lmz6Iy2L2ksICfwn6eLJ10sCiAgICBbL+iMieiOiXzkuYzpvpl857qi6Iy2fOe7v+iMtnzojLYoPyHmi78pL2ksICfwn421J10sCiAgICBbL+afoOaqrHzpnZLmj5B86JGh6JCEfOapmXzmn5p86I6TfOahg3zoipLmnpx85Yek5qKofOiPoOiQnS9pLCAn8J+ngyddLAogICAgLy8g5ben5YWL5YqbIC8g5Y+v5Y+vCiAgICBbL+W3p+WFi+WKm3zlj6/lj6985biD5pyX5bC8L2ksICfwn42rJ10sCiAgICAvLyDlhrfokIMgLyDmsJTms6EKICAgIFsv5Ya36JCDfOawlOazoXzlvq7phrp86YWSL2ksICfwn6unJ10sCiAgICAvLyDng5jnhJkgLyDovbvpo58KICAgIFsv6JuL57OVfOaFleaWr3zmj5Dmi4nnsbPoi48vaSwgJ/CfjbAnXSwKICAgIFsv5Y+v6aKCfOeJm+inknzpnaLljIV85ZCQ5Y+4L2ksICfwn6WQJ10sCiAgICBbL+absuWlh3zppbzlubJ85Y+45bq3L2ksICfwn42qJ10sCiAgICBbL+S4ieaYjuayu3zluJXlsLzlsLx86L276aOffOaymeaLiS9pLCAn8J+lqiddLAogICAgWy/om4vmjJ585oyeL2ksICfwn6WnJ10sCiAgICAvLyDlkajovrkgLyDliLgKICAgIFsv5Yi4fOWNoXzlhZHmjaJ85aWX6aSQfOWll+elqC9pLCAn8J+On++4jyddLAogICAgLy8g5YWc5bqVOiDlkpbllaHlupcsIOm7mOiupOWSluWVoeadrwpdOwoKZXhwb3J0IGNvbnN0IGx1Y2tpbkl0ZW1FbW9qaSA9IChuYW1lPzogc3RyaW5nKTogc3RyaW5nID0+IHsKICAgIGlmICghbmFtZSkgcmV0dXJuICfwn6WkJzsKICAgIGZvciAoY29uc3QgW3JlLCBlbV0gb2YgUlVMRVMpIHsKICAgICAgICBpZiAocmUudGVzdChuYW1lKSkgcmV0dXJuIGVtOwogICAgfQogICAgcmV0dXJuICfimJUnOwp9Owo=
+/**
+ * 瑞幸商品名 → 大 emoji 映射
+ * MCP 上游不一定返图, 用关键词匹配给每条菜单贴一个像样的图标, 比 ☕ 通杀好看。
+ * 顺序敏感: 越具体的关键词越往前。
+ */
+
+const RULES: Array<[RegExp, string]> = [
+    // 招牌 / 生椰 / 厚乳系列
+    [/生椰|椰云|椰子/i, '🥥'],
+    [/厚乳|拿铁/i, '☕'],
+    [/美式|浓缩|espresso|意式/i, '☕'],
+    [/卡布奇诺|摩卡|玛奇朵|馥芮白|flat\s*white/i, '☕'],
+    // 茶饮 / 果茶
+    [/茶拿铁|奶茶|轻乳茶/i, '🧋'],
+    [/茉莉|乌龙|红茶|绿茶|茶(?!拿)/i, '🍵'],
+    [/柠檬|青提|葡萄|橙|柚|莓|桃|芒果|凤梨|菠萝/i, '🧃'],
+    // 巧克力 / 可可
+    [/巧克力|可可|布朗尼/i, '🍫'],
+    // 冷萃 / 气泡
+    [/冷萃|气泡|微醺|酒/i, '🫧'],
+    // 烘焙 / 轻食
+    [/蛋糕|慕斯|提拉米苏/i, '🍰'],
+    [/可颂|牛角|面包|吐司/i, '🥐'],
+    [/曲奇|饼干|司康/i, '🍪'],
+    [/三明治|帕尼尼|轻食|沙拉/i, '🥪'],
+    [/蛋挞|挞/i, '🥧'],
+    // 周边 / 券
+    [/券|卡|兑换|套餐|套票/i, '🎟️'],
+    // 兜底: 咖啡店, 默认咖啡杯
+];
+
+export const luckinItemEmoji = (name?: string): string => {
+    if (!name) return '🥤';
+    for (const [re, em] of RULES) {
+        if (re.test(name)) return em;
+    }
+    return '☕';
+};

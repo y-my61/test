@@ -1,1 +1,43 @@
-aW1wb3J0IHsgZGVzY3JpYmUsIGl0LCBleHBlY3QgfSBmcm9tICd2aXRlc3QnOwppbXBvcnQgeyByZXdyaXRlU2hhcmtwYW5VcmxzLCBTSEFSS1BBTl9BU1NFVF9NQVAgfSBmcm9tICcuL3NoYXJrcGFuQXNzZXRNaWdyYXRpb24nOwoKY29uc3QgSlNEID0gJ2h0dHBzOi8vY2RuLmpzZGVsaXZyLm5ldC9naC9xZWdqNTY3LWNsb3VkL1N1bGx5T1MtYXNzZXRzQG1haW4vYmdtL1NVTExZLyc7CgpkZXNjcmliZSgncmV3cml0ZVNoYXJrcGFuVXJscycsICgpID0+IHsKICAgIGl0KCflt7Lnn6Xpsqjnm5jpk77mjqXmlLnlhpnmiJAgYmdtL1NVTExZIOS4i+eahCBqc0RlbGl2cicsICgpID0+IHsKICAgICAgICBleHBlY3QocmV3cml0ZVNoYXJrcGFuVXJscygnaHR0cHM6Ly9zaGFya3Bhbi54eXovZi9wV2c2SFEvbmlnaHQucG5nJykpLnRvQmUoSlNEICsgJ25pZ2h0LnBuZycpOwogICAgICAgIGV4cGVjdChyZXdyaXRlU2hhcmtwYW5VcmxzKCdodHRwczovL3NoYXJrcGFuLnh5ei9mL0EzWGVVWi9CRUQucG5nJykpLnRvQmUoSlNEICsgJ0JFRC5wbmcnKTsKICAgICAgICBleHBlY3QocmV3cml0ZVNoYXJrcGFuVXJscygnaHR0cHM6Ly9zaGFya3Bhbi54eXovZi94bDhtdVgvVkJsLnBuZycpKS50b0JlKEpTRCArICdWQmwucG5nJyk7CiAgICB9KTsKCiAgICBpdCgn5rex5bGC5bWM5aWX77yI6KeS6ImyIEpTT07vvInph4znmoTlpJrlpITpk77mjqXkuIDmrKHlhajmlLknLCAoKSA9PiB7CiAgICAgICAgY29uc3QgY2hhciA9IEpTT04uc3RyaW5naWZ5KHsKICAgICAgICAgICAgc3ByaXRlczogeyBub3JtYWw6ICdodHRwczovL3NoYXJrcGFuLnh5ei9mL3czUVFGcS8wMS5wbmcnLCBjaGliaTogJ2h0dHBzOi8vc2hhcmtwYW4ueHl6L2Yvb1daUUY0L1MyLnBuZycgfSwKICAgICAgICAgICAgcm9vbUNvbmZpZzogeyB3YWxsSW1hZ2U6ICdodHRwczovL3NoYXJrcGFuLnh5ei9mL05kSnlodi9iLnBuZycsIGl0ZW1zOiBbeyBpbWFnZTogJ2h0dHBzOi8vc2hhcmtwYW4ueHl6L2YvQTNYZVVaL0JFRC5wbmcnIH1dIH0sCiAgICAgICAgfSk7CiAgICAgICAgY29uc3Qgb3V0ID0gcmV3cml0ZVNoYXJrcGFuVXJscyhjaGFyKTsKICAgICAgICBleHBlY3Qob3V0KS5ub3QudG9Db250YWluKCdzaGFya3Bhbi54eXonKTsKICAgICAgICBjb25zdCBwYXJzZWQgPSBKU09OLnBhcnNlKG91dCk7CiAgICAgICAgZXhwZWN0KHBhcnNlZC5zcHJpdGVzLm5vcm1hbCkudG9CZShKU0QgKyAnMDEucG5nJyk7CiAgICAgICAgZXhwZWN0KHBhcnNlZC5yb29tQ29uZmlnLml0ZW1zWzBdLmltYWdlKS50b0JlKEpTRCArICdCRUQucG5nJyk7CiAgICB9KTsKCiAgICBpdCgn5LiN56Kw5pyq5pS25b2V55qE6ZO+5o6l77yaYmFuayDog4zmma8gYmcucG5nIC8gaGVhZC5wbmcgLyDnlKjmiLfoh6rkvKDlm74nLCAoKSA9PiB7CiAgICAgICAgY29uc3Qga2VlcCA9ICdodHRwczovL3NoYXJrcGFuLnh5ei9mLzVuMWdTai9iZy5wbmcnOwogICAgICAgIGV4cGVjdChyZXdyaXRlU2hhcmtwYW5VcmxzKGtlZXApKS50b0JlKGtlZXApOwogICAgICAgIGV4cGVjdChyZXdyaXRlU2hhcmtwYW5VcmxzKCdodHRwczovL3NoYXJrcGFuLnh5ei9mL0JaM1ZTYS9oZWFkLnBuZycpKS50b0JlKCdodHRwczovL3NoYXJrcGFuLnh5ei9mL0JaM1ZTYS9oZWFkLnBuZycpOwogICAgICAgIGV4cGVjdChyZXdyaXRlU2hhcmtwYW5VcmxzKCdodHRwczovL2kuZXhhbXBsZS5jb20vbXktY3VzdG9tLnBuZycpKS50b0JlKCdodHRwczovL2kuZXhhbXBsZS5jb20vbXktY3VzdG9tLnBuZycpOwogICAgfSk7CgogICAgaXQoJ+aXoOmyqOebmOmTvuaOpeWOn+agt+i/lOWbnicsICgpID0+IHsKICAgICAgICBleHBlY3QocmV3cml0ZVNoYXJrcGFuVXJscygnaGVsbG8gd29ybGQnKSkudG9CZSgnaGVsbG8gd29ybGQnKTsKICAgICAgICBleHBlY3QocmV3cml0ZVNoYXJrcGFuVXJscygnJykpLnRvQmUoJycpOwogICAgfSk7CgogICAgaXQoJ+aYoOWwhOihqOimhuebliAzMCDmnaHvvIgzMSDlvKDljrvmjokgYmFuayBiZ++8ie+8jOS4lOmDveaMh+WQkSBiZ20vU1VMTFknLCAoKSA9PiB7CiAgICAgICAgZXhwZWN0KE9iamVjdC5rZXlzKFNIQVJLUEFOX0FTU0VUX01BUCkubGVuZ3RoKS50b0JlKDMwKTsKICAgICAgICBleHBlY3QoT2JqZWN0LnZhbHVlcyhTSEFSS1BBTl9BU1NFVF9NQVApLmV2ZXJ5KHUgPT4gdS5zdGFydHNXaXRoKEpTRCkpKS50b0JlKHRydWUpOwogICAgICAgIC8vIOehruS/neS4jeWQq+eUqOaIt+S4jei/geeahCBiYW5rIOiDjOaZrwogICAgICAgIGV4cGVjdChPYmplY3Qua2V5cyhTSEFSS1BBTl9BU1NFVF9NQVApKS5ub3QudG9Db250YWluKCdodHRwczovL3NoYXJrcGFuLnh5ei9mLzVuMWdTai9iZy5wbmcnKTsKICAgIH0pOwp9KTsK
+import { describe, it, expect } from 'vitest';
+import { rewriteSharkpanUrls, SHARKPAN_ASSET_MAP } from './sharkpanAssetMigration';
+
+const JSD = 'https://cdn.jsdelivr.net/gh/qegj567-cloud/SullyOS-assets@main/bgm/SULLY/';
+
+describe('rewriteSharkpanUrls', () => {
+    it('已知鲨盘链接改写成 bgm/SULLY 下的 jsDelivr', () => {
+        expect(rewriteSharkpanUrls('https://sharkpan.xyz/f/pWg6HQ/night.png')).toBe(JSD + 'night.png');
+        expect(rewriteSharkpanUrls('https://sharkpan.xyz/f/A3XeUZ/BED.png')).toBe(JSD + 'BED.png');
+        expect(rewriteSharkpanUrls('https://sharkpan.xyz/f/xl8muX/VBl.png')).toBe(JSD + 'VBl.png');
+    });
+
+    it('深层嵌套（角色 JSON）里的多处链接一次全改', () => {
+        const char = JSON.stringify({
+            sprites: { normal: 'https://sharkpan.xyz/f/w3QQFq/01.png', chibi: 'https://sharkpan.xyz/f/oWZQF4/S2.png' },
+            roomConfig: { wallImage: 'https://sharkpan.xyz/f/NdJyhv/b.png', items: [{ image: 'https://sharkpan.xyz/f/A3XeUZ/BED.png' }] },
+        });
+        const out = rewriteSharkpanUrls(char);
+        expect(out).not.toContain('sharkpan.xyz');
+        const parsed = JSON.parse(out);
+        expect(parsed.sprites.normal).toBe(JSD + '01.png');
+        expect(parsed.roomConfig.items[0].image).toBe(JSD + 'BED.png');
+    });
+
+    it('不碰未收录的链接：bank 背景 bg.png / head.png / 用户自传图', () => {
+        const keep = 'https://sharkpan.xyz/f/5n1gSj/bg.png';
+        expect(rewriteSharkpanUrls(keep)).toBe(keep);
+        expect(rewriteSharkpanUrls('https://sharkpan.xyz/f/BZ3VSa/head.png')).toBe('https://sharkpan.xyz/f/BZ3VSa/head.png');
+        expect(rewriteSharkpanUrls('https://i.example.com/my-custom.png')).toBe('https://i.example.com/my-custom.png');
+    });
+
+    it('无鲨盘链接原样返回', () => {
+        expect(rewriteSharkpanUrls('hello world')).toBe('hello world');
+        expect(rewriteSharkpanUrls('')).toBe('');
+    });
+
+    it('映射表覆盖 30 条（31 张去掉 bank bg），且都指向 bgm/SULLY', () => {
+        expect(Object.keys(SHARKPAN_ASSET_MAP).length).toBe(30);
+        expect(Object.values(SHARKPAN_ASSET_MAP).every(u => u.startsWith(JSD))).toBe(true);
+        // 确保不含用户不迁的 bank 背景
+        expect(Object.keys(SHARKPAN_ASSET_MAP)).not.toContain('https://sharkpan.xyz/f/5n1gSj/bg.png');
+    });
+});

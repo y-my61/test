@@ -1,1 +1,315 @@
-LyoqCiAqIOWNlemhteaTjeS9nOimhuebluWxggogKgogKiDnlKjmiLflnKjnlLvluIPkuIrngrnkuobmn5DkuKogZnJhZ21lbnQg4oaSIOW8uei/meS4qumdouadvzoKICogICAtIOeci+WIsOivpSBwYWdlIOeahOWujOaVtOaWh+acrCjlj6/og73lkKvlpJrkuKogZnJhZ21lbnQpCiAqICAgLSDmlLnlhpkgLyDliKDpmaTmlbTpobUgLyDkuI3lhaXlhowgLyDph43mlrDnlJ/miJAo6KeS6Imy6aG1KQogKgogKiDms6g657KS5bqm5pivIHBhZ2Us5LiN5pivIGZyYWdtZW5044CCZnJhZ21lbnQg5pivIExMTSDkuIDmrKHmgKfkuqflh7rnmoQi56KO54mHIiwKICogICAg55So5oi357yW6L6RID0g5pS55pW06aG1ICjmlLnlrozkvJrmuIXnqbogZnJhZ21lbnRzLOWbnumAgOWIsCBwbGFpbiBjb250ZW50KeOAggogKi8KCmltcG9ydCBSZWFjdCwgeyB1c2VTdGF0ZSwgdXNlRWZmZWN0IH0gZnJvbSAncmVhY3QnOwppbXBvcnQgeyBIYW5kYm9va1BhZ2UsIENoYXJhY3RlclByb2ZpbGUgfSBmcm9tICcuLi8uLi90eXBlcyc7CmltcG9ydCB7CiAgICBQQVBFUl9UT05FUywgU0VSSUZfU1RBQ0ssIENVVEVfU1RBQ0ssIE1PTk9fU1RBQ0ssIFBBUEVSUywKfSBmcm9tICcuL3BhcGVyJzsKaW1wb3J0IHsKICAgIFBlbmNpbFNpbXBsZSwgVHJhc2gsIEV5ZSwgRXllU2xhc2gsIEFycm93c0Nsb2Nrd2lzZSwKICAgIEZsb3BweURpc2ssIFgsCn0gZnJvbSAnQHBob3NwaG9yLWljb25zL3JlYWN0JzsKCmludGVyZmFjZSBQcm9wcyB7CiAgICBwYWdlOiBIYW5kYm9va1BhZ2U7CiAgICBjaGFyPzogQ2hhcmFjdGVyUHJvZmlsZTsKICAgIGlzUmVnZW5lcmF0aW5nPzogYm9vbGVhbjsKICAgIG9uQ2xvc2U6ICgpID0+IHZvaWQ7CiAgICBvblNhdmU6IChuZXdDb250ZW50OiBzdHJpbmcsIG5ld1BhcGVyU3R5bGU/OiBzdHJpbmcpID0+IHZvaWQ7CiAgICBvblRvZ2dsZUV4Y2x1ZGU6ICgpID0+IHZvaWQ7CiAgICBvbkRlbGV0ZTogKCkgPT4gdm9pZDsKICAgIG9uUmVnZW5lcmF0ZT86ICgpID0+IHZvaWQ7Cn0KCmNvbnN0IFBBUEVSX09QVElPTlM6IHsga2luZDoga2V5b2YgdHlwZW9mIFBBUEVSUzsgbGFiZWw6IHN0cmluZyB9W10gPSBbCiAgICB7IGtpbmQ6ICdwbGFpbicsIGxhYmVsOiAn57SgJyB9LAogICAgeyBraW5kOiAnbGluZWQnLCBsYWJlbDogJ+aoque6vycgfSwKICAgIHsga2luZDogJ2dyaWQnLCBsYWJlbDogJ+aWueagvCcgfSwKICAgIHsga2luZDogJ2RvdCcsIGxhYmVsOiAn54K56Zi1JyB9LAogICAgeyBraW5kOiAnY3JlYW0nLCBsYWJlbDogJ+WltuayuScgfSwKICAgIHsga2luZDogJ21pbnQnLCBsYWJlbDogJ+iWhOiNtycgfSwKICAgIHsga2luZDogJ3Jvc2UnLCBsYWJlbDogJ+aoseeyiScgfSwKICAgIHsga2luZDogJ3NreScsIGxhYmVsOiAn6Zu+6JOdJyB9LApdOwoKY29uc3QgSm91cm5hbFBhZ2VFZGl0b3I6IFJlYWN0LkZDPFByb3BzPiA9ICh7CiAgICBwYWdlLCBjaGFyLCBpc1JlZ2VuZXJhdGluZywgb25DbG9zZSwgb25TYXZlLAogICAgb25Ub2dnbGVFeGNsdWRlLCBvbkRlbGV0ZSwgb25SZWdlbmVyYXRlLAp9KSA9PiB7CiAgICBjb25zdCBbZWRpdGluZywgc2V0RWRpdGluZ10gPSB1c2VTdGF0ZShmYWxzZSk7CiAgICBjb25zdCBbZHJhZnQsIHNldERyYWZ0XSA9IHVzZVN0YXRlKHBhZ2UuY29udGVudCk7CiAgICBjb25zdCBbZHJhZnRQYXBlciwgc2V0RHJhZnRQYXBlcl0gPSB1c2VTdGF0ZTxzdHJpbmc+KHBhZ2UucGFwZXJTdHlsZSB8fCAncGxhaW4nKTsKCiAgICB1c2VFZmZlY3QoKCkgPT4gewogICAgICAgIHNldERyYWZ0KHBhZ2UuY29udGVudCk7CiAgICAgICAgc2V0RHJhZnRQYXBlcihwYWdlLnBhcGVyU3R5bGUgfHwgJ3BsYWluJyk7CiAgICB9LCBbcGFnZS5pZCwgcGFnZS5jb250ZW50LCBwYWdlLnBhcGVyU3R5bGVdKTsKCiAgICBjb25zdCB0aXRsZVBhcnRzID0gKCgpID0+IHsKICAgICAgICBzd2l0Y2ggKHBhZ2UudHlwZSkgewogICAgICAgICAgICBjYXNlICd1c2VyX2RpYXJ5JzogICAgIHJldHVybiB7IGtpY2tlcjogJ01ZIMK3IERJQVJZJywgICAgIHRpdGxlOiAn5oiRIOeahCDkuIAg5aSpJyB9OwogICAgICAgICAgICBjYXNlICdjaGFyYWN0ZXJfbGlmZSc6IHJldHVybiB7IGtpY2tlcjogJ0NPIMK3IExJRkVTVFJFQU0nLCB0aXRsZTogY2hhciA/IGAke2NoYXIubmFtZX0gwrcg55qEIOS7iiDlpKlgIDogJ+Wwj+eUn+a0uycgfTsKICAgICAgICAgICAgY2FzZSAndXNlcl9ub3RlJzogICAgICByZXR1cm4geyBraWNrZXI6ICdOT1RFJywgICAgICAgICAgIHRpdGxlOiAn5L6/IOesuicgfTsKICAgICAgICAgICAgY2FzZSAnZnJlZSc6ICAgICAgICAgICByZXR1cm4geyBraWNrZXI6ICdGUkVFJywgICAgICAgICAgIHRpdGxlOiAn5L6/IOetvicgfTsKICAgICAgICB9CiAgICB9KSgpOwoKICAgIHJldHVybiAoCiAgICAgICAgPGRpdgogICAgICAgICAgICBjbGFzc05hbWU9ImFic29sdXRlIGluc2V0LTAgei01MCBmbGV4IGl0ZW1zLWVuZCBqdXN0aWZ5LWNlbnRlciIKICAgICAgICAgICAgc3R5bGU9e3sgYmFja2dyb3VuZDogJ3JnYmEoMTIyLDkwLDExNCwwLjQpJywgYmFja2Ryb3BGaWx0ZXI6ICdibHVyKDZweCknIH19CiAgICAgICAgICAgIG9uQ2xpY2s9e29uQ2xvc2V9CiAgICAgICAgPgogICAgICAgICAgICA8ZGl2CiAgICAgICAgICAgICAgICBjbGFzc05hbWU9InctZnVsbCBtYXgtaC1bOTAlXSBvdmVyZmxvdy15LWF1dG8gcm91bmRlZC10LTN4bCByZWxhdGl2ZSIKICAgICAgICAgICAgICAgIHN0eWxlPXt7CiAgICAgICAgICAgICAgICAgICAgYmFja2dyb3VuZDogUEFQRVJfVE9ORVMucGFwZXIsCiAgICAgICAgICAgICAgICAgICAgYm94U2hhZG93OiAnMCAtOHB4IDI4cHggcmdiYSgxMjIsOTAsMTE0LDAuMjUpJywKICAgICAgICAgICAgICAgIH19CiAgICAgICAgICAgICAgICBvbkNsaWNrPXtlID0+IGUuc3RvcFByb3BhZ2F0aW9uKCl9CiAgICAgICAgICAgID4KICAgICAgICAgICAgICAgIHsvKiDpobbmiormiYsgKi99CiAgICAgICAgICAgICAgICA8ZGl2IGNsYXNzTmFtZT0iZmxleCBqdXN0aWZ5LWNlbnRlciBwdC0zIHBiLTEiPgogICAgICAgICAgICAgICAgICAgIDxkaXYgc3R5bGU9e3sgd2lkdGg6IDQwLCBoZWlnaHQ6IDQsIGJvcmRlclJhZGl1czogMiwgYmFja2dyb3VuZDogUEFQRVJfVE9ORVMuYWNjZW50Um9zZSwgb3BhY2l0eTogMC41IH19IC8+CiAgICAgICAgICAgICAgICA8L2Rpdj4KCiAgICAgICAgICAgICAgICB7Lyog5qCH6aKYICovfQogICAgICAgICAgICAgICAgPGRpdiBjbGFzc05hbWU9InB4LTUgcHQtMiBwYi0zIGZsZXggaXRlbXMtY2VudGVyIGdhcC0zIj4KICAgICAgICAgICAgICAgICAgICB7Y2hhcj8uYXZhdGFyICYmICgKICAgICAgICAgICAgICAgICAgICAgICAgPGltZwogICAgICAgICAgICAgICAgICAgICAgICAgICAgc3JjPXtjaGFyLmF2YXRhcn0KICAgICAgICAgICAgICAgICAgICAgICAgICAgIGFsdD17Y2hhci5uYW1lfQogICAgICAgICAgICAgICAgICAgICAgICAgICAgY2xhc3NOYW1lPSJyb3VuZGVkLWZ1bGwgb2JqZWN0LWNvdmVyIHNocmluay0wIgogICAgICAgICAgICAgICAgICAgICAgICAgICAgc3R5bGU9e3sgd2lkdGg6IDM4LCBoZWlnaHQ6IDM4LCBib3hTaGFkb3c6ICcwIDAgMCAyLjVweCAjZmZmLCAwIDFweCAzcHggcmdiYSgwLDAsMCwwLjE1KScgfX0KICAgICAgICAgICAgICAgICAgICAgICAgLz4KICAgICAgICAgICAgICAgICAgICApfQogICAgICAgICAgICAgICAgICAgIDxkaXYgY2xhc3NOYW1lPSJmbGV4LTEgbWluLXctMCI+CiAgICAgICAgICAgICAgICAgICAgICAgIDxkaXYKICAgICAgICAgICAgICAgICAgICAgICAgICAgIGNsYXNzTmFtZT0idHJ1bmNhdGUiCiAgICAgICAgICAgICAgICAgICAgICAgICAgICBzdHlsZT17ewogICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgIC4uLk1PTk9fU1RBQ0ssCiAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgZm9udFNpemU6IDkuNSwKICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICBsZXR0ZXJTcGFjaW5nOiAnMC4zZW0nLAogICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgIGNvbG9yOiBQQVBFUl9UT05FUy5pbmtTb2Z0LAogICAgICAgICAgICAgICAgICAgICAgICAgICAgfX0KICAgICAgICAgICAgICAgICAgICAgICAgPgogICAgICAgICAgICAgICAgICAgICAgICAgICAge3RpdGxlUGFydHMua2lja2VyfQogICAgICAgICAgICAgICAgICAgICAgICA8L2Rpdj4KICAgICAgICAgICAgICAgICAgICAgICAgPGRpdgogICAgICAgICAgICAgICAgICAgICAgICAgICAgY2xhc3NOYW1lPSJ0cnVuY2F0ZSIKICAgICAgICAgICAgICAgICAgICAgICAgICAgIHN0eWxlPXt7IC4uLkNVVEVfU1RBQ0ssIGZvbnRTaXplOiAxNiwgZm9udFdlaWdodDogNzAwLCBjb2xvcjogUEFQRVJfVE9ORVMuaW5rIH19CiAgICAgICAgICAgICAgICAgICAgICAgID4KICAgICAgICAgICAgICAgICAgICAgICAgICAgIHt0aXRsZVBhcnRzLnRpdGxlfQogICAgICAgICAgICAgICAgICAgICAgICA8L2Rpdj4KICAgICAgICAgICAgICAgICAgICA8L2Rpdj4KICAgICAgICAgICAgICAgICAgICA8YnV0dG9uCiAgICAgICAgICAgICAgICAgICAgICAgIG9uQ2xpY2s9e29uQ2xvc2V9CiAgICAgICAgICAgICAgICAgICAgICAgIGNsYXNzTmFtZT0idy04IGgtOCBmbGV4IGl0ZW1zLWNlbnRlciBqdXN0aWZ5LWNlbnRlciByb3VuZGVkLWZ1bGwgYWN0aXZlOnNjYWxlLTk1IHRyYW5zaXRpb24gc2hyaW5rLTAiCiAgICAgICAgICAgICAgICAgICAgICAgIHN0eWxlPXt7IGJhY2tncm91bmQ6ICdyZ2JhKDI1MywyNDYsMjMxLDAuOCknLCBjb2xvcjogUEFQRVJfVE9ORVMuaW5rIH19CiAgICAgICAgICAgICAgICAgICAgPgogICAgICAgICAgICAgICAgICAgICAgICA8WCBjbGFzc05hbWU9InctNCBoLTQiIHdlaWdodD0iYm9sZCIgLz4KICAgICAgICAgICAgICAgICAgICA8L2J1dHRvbj4KICAgICAgICAgICAgICAgIDwvZGl2PgoKICAgICAgICAgICAgICAgIHsvKiDlhoXlrrkgKi99CiAgICAgICAgICAgICAgICA8ZGl2IGNsYXNzTmFtZT0icHgtNSBwYi0zIj4KICAgICAgICAgICAgICAgICAgICB7ZWRpdGluZyA/ICgKICAgICAgICAgICAgICAgICAgICAgICAgPD4KICAgICAgICAgICAgICAgICAgICAgICAgICAgIDxkaXYgY2xhc3NOYW1lPSJmbGV4IGl0ZW1zLWNlbnRlciBnYXAtMS41IG1iLTIgb3ZlcmZsb3cteC1hdXRvIG5vLXNjcm9sbGJhciI+CiAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgPHNwYW4KICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgY2xhc3NOYW1lPSJ0ZXh0LVsxMHB4XSB0cmFja2luZy13aWRlc3Qgc2hyaW5rLTAgbXItMSIKICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgc3R5bGU9e3sgLi4uQ1VURV9TVEFDSywgY29sb3I6IFBBUEVSX1RPTkVTLmlua1NvZnQgfX0KICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICA+CiAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgIOKXhiDnurgKICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICA8L3NwYW4+CiAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAge1BBUEVSX09QVElPTlMubWFwKG9wdCA9PiB7CiAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgIGNvbnN0IHAgPSBQQVBFUlNbb3B0LmtpbmRdOwogICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICBjb25zdCBhY3RpdmUgPSBkcmFmdFBhcGVyID09PSBvcHQua2luZDsKICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgcmV0dXJuICgKICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgIDxidXR0b24KICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICBrZXk9e29wdC5raW5kfQogICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgIG9uQ2xpY2s9eygpID0+IHNldERyYWZ0UGFwZXIob3B0LmtpbmQpfQogICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgIGNsYXNzTmFtZT0ic2hyaW5rLTAgZmxleCBmbGV4LWNvbCBpdGVtcy1jZW50ZXIgYWN0aXZlOnNjYWxlLTk1IHRyYW5zaXRpb24iCiAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICA+CiAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgPGRpdgogICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICBjbGFzc05hbWU9InJvdW5kZWQiCiAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgIHN0eWxlPXt7CiAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICB3aWR0aDogMjIsIGhlaWdodDogMjIsCiAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICBiYWNrZ3JvdW5kOiBwLmJnLAogICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgLi4ucC5zdHlsZSwKICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgIGJvcmRlcjogYWN0aXZlID8gYDJweCBzb2xpZCAke1BBUEVSX1RPTkVTLmFjY2VudExhdmVuZGVyfWAgOiBgMXB4IHNvbGlkICR7UEFQRVJfVE9ORVMuc3BpbmV9YCwKICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgfX0KICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAvPgogICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgIDxzcGFuCiAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgIGNsYXNzTmFtZT0idGV4dC1bOHB4XSBtdC0wLjUiCiAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgIHN0eWxlPXt7CiAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAuLi5DVVRFX1NUQUNLLAogICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgY29sb3I6IGFjdGl2ZSA/IFBBUEVSX1RPTkVTLmFjY2VudExhdmVuZGVyIDogUEFQRVJfVE9ORVMuaW5rRmFpbnQsCiAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgIH19CiAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgPgogICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICB7b3B0LmxhYmVsfQogICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgIDwvc3Bhbj4KICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgIDwvYnV0dG9uPgogICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICApOwogICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgIH0pfQogICAgICAgICAgICAgICAgICAgICAgICAgICAgPC9kaXY+CiAgICAgICAgICAgICAgICAgICAgICAgICAgICA8dGV4dGFyZWEKICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICB2YWx1ZT17ZHJhZnR9CiAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgb25DaGFuZ2U9e2UgPT4gc2V0RHJhZnQoZS50YXJnZXQudmFsdWUpfQogICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgIGF1dG9Gb2N1cwogICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgIGNsYXNzTmFtZT0idy1mdWxsIHAtMyByb3VuZGVkLWxnIG91dGxpbmUtbm9uZSByZXNpemUtbm9uZSB0ZXh0LVsxNHB4XSBsZWFkaW5nLVsyNHB4XSBtaW4taC1bMTYwcHhdIgogICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgIHN0eWxlPXt7CiAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgIC4uLlNFUklGX1NUQUNLLAogICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICBjb2xvcjogUEFQRVJfVE9ORVMuaW5rLAogICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICBiYWNrZ3JvdW5kOiBQQVBFUlNbZHJhZnRQYXBlciBhcyBrZXlvZiB0eXBlb2YgUEFQRVJTXT8uYmcgPz8gJyNmZmYnLAogICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAuLi4oUEFQRVJTW2RyYWZ0UGFwZXIgYXMga2V5b2YgdHlwZW9mIFBBUEVSU10/LnN0eWxlID8/IHt9KSwKICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgYm9yZGVyOiBgMXB4IHNvbGlkICR7UEFQRVJfVE9ORVMuc3BpbmV9YCwKICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICB9fQogICAgICAgICAgICAgICAgICAgICAgICAgICAgLz4KICAgICAgICAgICAgICAgICAgICAgICAgPC8+CiAgICAgICAgICAgICAgICAgICAgKSA6IHBhZ2UuZnJhZ21lbnRzICYmIHBhZ2UuZnJhZ21lbnRzLmxlbmd0aCA+IDAgPyAoCiAgICAgICAgICAgICAgICAgICAgICAgIDxkaXYgY2xhc3NOYW1lPSJzcGFjZS15LTIiPgogICAgICAgICAgICAgICAgICAgICAgICAgICAge3BhZ2UuZnJhZ21lbnRzLm1hcChmID0+ICgKICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICA8ZGl2CiAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgIGtleT17Zi5pZH0KICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgY2xhc3NOYW1lPSJyb3VuZGVkLWxnIHB4LTMgcHktMi41IgogICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICBzdHlsZT17ewogICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgYmFja2dyb3VuZDogJyNmZmYnLAogICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgYm9yZGVyOiBgMXB4IHNvbGlkICR7UEFQRVJfVE9ORVMuc3BpbmV9YCwKICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgfX0KICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICA+CiAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgIHtmLnRpbWUgJiYgKAogICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgPGRpdgogICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgIGNsYXNzTmFtZT0ibWItMSIKICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICBzdHlsZT17ewogICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAuLi5NT05PX1NUQUNLLAogICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICBmb250U2l6ZTogOSwKICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgbGV0dGVyU3BhY2luZzogJzAuMmVtJywKICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgY29sb3I6IFBBUEVSX1RPTkVTLmlua0ZhaW50LAogICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgIH19CiAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICA+CiAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAge2YudGltZX0KICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgIDwvZGl2PgogICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICApfQogICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICA8cAogICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgY2xhc3NOYW1lPSJ3aGl0ZXNwYWNlLXByZS13cmFwIGJyZWFrLXdvcmRzIgogICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgc3R5bGU9e3sgLi4uU0VSSUZfU1RBQ0ssIGZvbnRTaXplOiAxMy41LCBsaW5lSGVpZ2h0OiAnMjNweCcsIGNvbG9yOiBQQVBFUl9UT05FUy5pbmssIG1hcmdpbjogMCB9fQogICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICA+CiAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICB7Zi50ZXh0fQogICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICA8L3A+CiAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgPC9kaXY+CiAgICAgICAgICAgICAgICAgICAgICAgICAgICApKX0KICAgICAgICAgICAgICAgICAgICAgICAgPC9kaXY+CiAgICAgICAgICAgICAgICAgICAgKSA6ICgKICAgICAgICAgICAgICAgICAgICAgICAgPHAKICAgICAgICAgICAgICAgICAgICAgICAgICAgIGNsYXNzTmFtZT0id2hpdGVzcGFjZS1wcmUtd3JhcCBicmVhay13b3JkcyByb3VuZGVkLWxnIHB4LTMgcHktMyIKICAgICAgICAgICAgICAgICAgICAgICAgICAgIHN0eWxlPXt7CiAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgLi4uU0VSSUZfU1RBQ0ssCiAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgZm9udFNpemU6IDE0LAogICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgIGxpbmVIZWlnaHQ6ICcyNHB4JywKICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICBjb2xvcjogUEFQRVJfVE9ORVMuaW5rLAogICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgIGJhY2tncm91bmQ6ICcjZmZmJywKICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICBib3JkZXI6IGAxcHggc29saWQgJHtQQVBFUl9UT05FUy5zcGluZX1gLAogICAgICAgICAgICAgICAgICAgICAgICAgICAgfX0KICAgICAgICAgICAgICAgICAgICAgICAgPgogICAgICAgICAgICAgICAgICAgICAgICAgICAge3BhZ2UuY29udGVudCB8fCAoCiAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgPHNwYW4gc3R5bGU9e3sgY29sb3I6IFBBUEVSX1RPTkVTLmlua1NvZnQsIGZvbnRTdHlsZTogJ2l0YWxpYycsIG9wYWNpdHk6IDAuNiB9fT4KICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAg6L+Z5LiA6aG16L+Y5piv56m655m955qE4oCmCiAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgPC9zcGFuPgogICAgICAgICAgICAgICAgICAgICAgICAgICAgKX0KICAgICAgICAgICAgICAgICAgICAgICAgPC9wPgogICAgICAgICAgICAgICAgICAgICl9CiAgICAgICAgICAgICAgICA8L2Rpdj4KCiAgICAgICAgICAgICAgICB7Lyog5pON5L2c6KGMICovfQogICAgICAgICAgICAgICAgPGRpdgogICAgICAgICAgICAgICAgICAgIGNsYXNzTmFtZT0ic3RpY2t5IGJvdHRvbS0wIHB4LTUgcHktMyBmbGV4IGZsZXgtd3JhcCBnYXAtMiIKICAgICAgICAgICAgICAgICAgICBzdHlsZT17ewogICAgICAgICAgICAgICAgICAgICAgICBiYWNrZ3JvdW5kOiBQQVBFUl9UT05FUy5wYXBlciwKICAgICAgICAgICAgICAgICAgICAgICAgYm9yZGVyVG9wOiBgMS41cHggc29saWQgJHtQQVBFUl9UT05FUy5hY2NlbnRSb3NlfWAsCiAgICAgICAgICAgICAgICAgICAgfX0KICAgICAgICAgICAgICAgID4KICAgICAgICAgICAgICAgICAgICB7ZWRpdGluZyA/ICgKICAgICAgICAgICAgICAgICAgICAgICAgPD4KICAgICAgICAgICAgICAgICAgICAgICAgICAgIDxidXR0b24KICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICBvbkNsaWNrPXsoKSA9PiB7IHNldEVkaXRpbmcoZmFsc2UpOyBzZXREcmFmdChwYWdlLmNvbnRlbnQpOyB9fQogICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgIGNsYXNzTmFtZT0icHgtMyBweS0yIHJvdW5kZWQtZnVsbCB0ZXh0LVsxMnB4XSBhY3RpdmU6c2NhbGUtOTUgdHJhbnNpdGlvbiBmbGV4IGl0ZW1zLWNlbnRlciBnYXAtMSIKICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICBzdHlsZT17eyAuLi5DVVRFX1NUQUNLLCBjb2xvcjogUEFQRVJfVE9ORVMuaW5rU29mdCwgYmFja2dyb3VuZDogJyNmZmYnLCBib3JkZXI6IGAxLjVweCBzb2xpZCAke1BBUEVSX1RPTkVTLnNwaW5lfWAgfX0KICAgICAgICAgICAgICAgICAgICAgICAgICAgID4KICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICA8WCBjbGFzc05hbWU9InctMyBoLTMiIC8+IOWPlua2iAogICAgICAgICAgICAgICAgICAgICAgICAgICAgPC9idXR0b24+CiAgICAgICAgICAgICAgICAgICAgICAgICAgICA8YnV0dG9uCiAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgb25DbGljaz17KCkgPT4geyBvblNhdmUoZHJhZnQsIGRyYWZ0UGFwZXIpOyBzZXRFZGl0aW5nKGZhbHNlKTsgfX0KICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICBjbGFzc05hbWU9ImZsZXgtMSBweC0zIHB5LTIgcm91bmRlZC1mdWxsIHRleHQtWzEycHhdIGZvbnQtYm9sZCBhY3RpdmU6c2NhbGUtOTUgdHJhbnNpdGlvbiBmbGV4IGl0ZW1zLWNlbnRlciBqdXN0aWZ5LWNlbnRlciBnYXAtMS41IgogICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgIHN0eWxlPXt7CiAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgIC4uLkNVVEVfU1RBQ0ssCiAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgIGJhY2tncm91bmQ6IFBBUEVSX1RPTkVTLmFjY2VudEJsdXNoLAogICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICBjb2xvcjogJyNmZmYnLAogICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICBib3hTaGFkb3c6ICcwIDFweCAzcHggcmdiYSgxMjIsOTAsMTE0LDAuMTgpJywKICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICB9fQogICAgICAgICAgICAgICAgICAgICAgICAgICAgPgogICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgIDxGbG9wcHlEaXNrIGNsYXNzTmFtZT0idy0zLjUgaC0zLjUiIC8+IOaUtuS4iyDimaEKICAgICAgICAgICAgICAgICAgICAgICAgICAgIDwvYnV0dG9uPgogICAgICAgICAgICAgICAgICAgICAgICA8Lz4KICAgICAgICAgICAgICAgICAgICApIDogKAogICAgICAgICAgICAgICAgICAgICAgICA8PgogICAgICAgICAgICAgICAgICAgICAgICAgICAgPGJ1dHRvbgogICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgIG9uQ2xpY2s9eygpID0+IHNldEVkaXRpbmcodHJ1ZSl9CiAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgY2xhc3NOYW1lPSJmbGV4LTEgcHgtMyBweS0yIHJvdW5kZWQtZnVsbCB0ZXh0LVsxMnB4XSBhY3RpdmU6c2NhbGUtOTUgdHJhbnNpdGlvbiBmbGV4IGl0ZW1zLWNlbnRlciBqdXN0aWZ5LWNlbnRlciBnYXAtMS41IgogICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgIHN0eWxlPXt7CiAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgIC4uLkNVVEVfU1RBQ0ssIGNvbG9yOiAnI2ZmZicsCiAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgIGJhY2tncm91bmQ6IFBBUEVSX1RPTkVTLmFjY2VudEJsdXNoLAogICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICBib3hTaGFkb3c6ICcwIDFweCAzcHggcmdiYSgxMjIsOTAsMTE0LDAuMTgpJywKICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICB9fQogICAgICAgICAgICAgICAgICAgICAgICAgICAgPgogICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgIDxQZW5jaWxTaW1wbGUgY2xhc3NOYW1lPSJ3LTMuNSBoLTMuNSIgd2VpZ2h0PSJib2xkIiAvPiDmlLnlhpkKICAgICAgICAgICAgICAgICAgICAgICAgICAgIDwvYnV0dG9uPgogICAgICAgICAgICAgICAgICAgICAgICAgICAge29uUmVnZW5lcmF0ZSAmJiAoCiAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgPGJ1dHRvbgogICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICBvbkNsaWNrPXtvblJlZ2VuZXJhdGV9CiAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgIGRpc2FibGVkPXtpc1JlZ2VuZXJhdGluZ30KICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgY2xhc3NOYW1lPSJweC0zIHB5LTIgcm91bmRlZC1mdWxsIHRleHQtWzEycHhdIGFjdGl2ZTpzY2FsZS05NSB0cmFuc2l0aW9uIGRpc2FibGVkOm9wYWNpdHktNTAgZmxleCBpdGVtcy1jZW50ZXIgZ2FwLTEuNSIKICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgc3R5bGU9e3sgLi4uQ1VURV9TVEFDSywgY29sb3I6IFBBUEVSX1RPTkVTLmluaywgYmFja2dyb3VuZDogJyNmZmYnLCBib3JkZXI6IGAxLjVweCBzb2xpZCAke1BBUEVSX1RPTkVTLnNwaW5lfWAgfX0KICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICA+CiAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgIDxBcnJvd3NDbG9ja3dpc2UgY2xhc3NOYW1lPXtgdy0zLjUgaC0zLjUgJHtpc1JlZ2VuZXJhdGluZyA/ICdhbmltYXRlLXNwaW4nIDogJyd9YH0gd2VpZ2h0PSJib2xkIiAvPgogICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICB7aXNSZWdlbmVyYXRpbmcgPyAn5q2j5Zyo5YaZ4oCmJyA6ICflho3lhpnkuIDmrKEnfQogICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgIDwvYnV0dG9uPgogICAgICAgICAgICAgICAgICAgICAgICAgICAgKX0KICAgICAgICAgICAgICAgICAgICAgICAgICAgIDxidXR0b24KICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICBvbkNsaWNrPXtvblRvZ2dsZUV4Y2x1ZGV9CiAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgY2xhc3NOYW1lPSJweC0zIHB5LTIgcm91bmRlZC1mdWxsIHRleHQtWzEycHhdIGFjdGl2ZTpzY2FsZS05NSB0cmFuc2l0aW9uIGZsZXggaXRlbXMtY2VudGVyIGdhcC0xLjUiCiAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgc3R5bGU9e3sgLi4uQ1VURV9TVEFDSywgY29sb3I6IFBBUEVSX1RPTkVTLmluaywgYmFja2dyb3VuZDogJyNmZmYnLCBib3JkZXI6IGAxLjVweCBzb2xpZCAke1BBUEVSX1RPTkVTLnNwaW5lfWAgfX0KICAgICAgICAgICAgICAgICAgICAgICAgICAgID4KICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICB7cGFnZS5leGNsdWRlZAogICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICA/IDw+PEV5ZVNsYXNoIGNsYXNzTmFtZT0idy0zLjUgaC0zLjUiIHdlaWdodD0iYm9sZCIgLz4g5LiN5YWl5YaMPC8+CiAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgIDogPD48RXllIGNsYXNzTmFtZT0idy0zLjUgaC0zLjUiIHdlaWdodD0iYm9sZCIgLz4g5YWl5YaMPC8+CiAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgfQogICAgICAgICAgICAgICAgICAgICAgICAgICAgPC9idXR0b24+CiAgICAgICAgICAgICAgICAgICAgICAgICAgICA8YnV0dG9uCiAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgb25DbGljaz17b25EZWxldGV9CiAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgY2xhc3NOYW1lPSJweC0zIHB5LTIgcm91bmRlZC1mdWxsIHRleHQtWzEycHhdIGFjdGl2ZTpzY2FsZS05NSB0cmFuc2l0aW9uIGZsZXggaXRlbXMtY2VudGVyIGdhcC0xLjUiCiAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgc3R5bGU9e3sKICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgLi4uQ1VURV9TVEFDSywgY29sb3I6ICcjYzQ3MDhhJywKICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgYmFja2dyb3VuZDogJyNmZmYnLCBib3JkZXI6IGAxLjVweCBzb2xpZCAjZjVkMGQ4YCwKICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICB9fQogICAgICAgICAgICAgICAgICAgICAgICAgICAgPgogICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgIDxUcmFzaCBjbGFzc05hbWU9InctMy41IGgtMy41IiB3ZWlnaHQ9ImJvbGQiIC8+IOaSleaOiQogICAgICAgICAgICAgICAgICAgICAgICAgICAgPC9idXR0b24+CiAgICAgICAgICAgICAgICAgICAgICAgIDwvPgogICAgICAgICAgICAgICAgICAgICl9CiAgICAgICAgICAgICAgICA8L2Rpdj4KICAgICAgICAgICAgPC9kaXY+CiAgICAgICAgPC9kaXY+CiAgICApOwp9OwoKZXhwb3J0IGRlZmF1bHQgSm91cm5hbFBhZ2VFZGl0b3I7Cg==
+/**
+ * 单页操作覆盖层
+ *
+ * 用户在画布上点了某个 fragment → 弹这个面板:
+ *   - 看到该 page 的完整文本(可能含多个 fragment)
+ *   - 改写 / 删除整页 / 不入册 / 重新生成(角色页)
+ *
+ * 注:粒度是 page,不是 fragment。fragment 是 LLM 一次性产出的"碎片",
+ *    用户编辑 = 改整页 (改完会清空 fragments,回退到 plain content)。
+ */
+
+import React, { useState, useEffect } from 'react';
+import { HandbookPage, CharacterProfile } from '../../types';
+import {
+    PAPER_TONES, SERIF_STACK, CUTE_STACK, MONO_STACK, PAPERS,
+} from './paper';
+import {
+    PencilSimple, Trash, Eye, EyeSlash, ArrowsClockwise,
+    FloppyDisk, X,
+} from '@phosphor-icons/react';
+
+interface Props {
+    page: HandbookPage;
+    char?: CharacterProfile;
+    isRegenerating?: boolean;
+    onClose: () => void;
+    onSave: (newContent: string, newPaperStyle?: string) => void;
+    onToggleExclude: () => void;
+    onDelete: () => void;
+    onRegenerate?: () => void;
+}
+
+const PAPER_OPTIONS: { kind: keyof typeof PAPERS; label: string }[] = [
+    { kind: 'plain', label: '素' },
+    { kind: 'lined', label: '横线' },
+    { kind: 'grid', label: '方格' },
+    { kind: 'dot', label: '点阵' },
+    { kind: 'cream', label: '奶油' },
+    { kind: 'mint', label: '薄荷' },
+    { kind: 'rose', label: '樱粉' },
+    { kind: 'sky', label: '雾蓝' },
+];
+
+const JournalPageEditor: React.FC<Props> = ({
+    page, char, isRegenerating, onClose, onSave,
+    onToggleExclude, onDelete, onRegenerate,
+}) => {
+    const [editing, setEditing] = useState(false);
+    const [draft, setDraft] = useState(page.content);
+    const [draftPaper, setDraftPaper] = useState<string>(page.paperStyle || 'plain');
+
+    useEffect(() => {
+        setDraft(page.content);
+        setDraftPaper(page.paperStyle || 'plain');
+    }, [page.id, page.content, page.paperStyle]);
+
+    const titleParts = (() => {
+        switch (page.type) {
+            case 'user_diary':     return { kicker: 'MY · DIARY',     title: '我 的 一 天' };
+            case 'character_life': return { kicker: 'CO · LIFESTREAM', title: char ? `${char.name} · 的 今 天` : '小生活' };
+            case 'user_note':      return { kicker: 'NOTE',           title: '便 笺' };
+            case 'free':           return { kicker: 'FREE',           title: '便 签' };
+        }
+    })();
+
+    return (
+        <div
+            className="absolute inset-0 z-50 flex items-end justify-center"
+            style={{ background: 'rgba(122,90,114,0.4)', backdropFilter: 'blur(6px)' }}
+            onClick={onClose}
+        >
+            <div
+                className="w-full max-h-[90%] overflow-y-auto rounded-t-3xl relative"
+                style={{
+                    background: PAPER_TONES.paper,
+                    boxShadow: '0 -8px 28px rgba(122,90,114,0.25)',
+                }}
+                onClick={e => e.stopPropagation()}
+            >
+                {/* 顶把手 */}
+                <div className="flex justify-center pt-3 pb-1">
+                    <div style={{ width: 40, height: 4, borderRadius: 2, background: PAPER_TONES.accentRose, opacity: 0.5 }} />
+                </div>
+
+                {/* 标题 */}
+                <div className="px-5 pt-2 pb-3 flex items-center gap-3">
+                    {char?.avatar && (
+                        <img
+                            src={char.avatar}
+                            alt={char.name}
+                            className="rounded-full object-cover shrink-0"
+                            style={{ width: 38, height: 38, boxShadow: '0 0 0 2.5px #fff, 0 1px 3px rgba(0,0,0,0.15)' }}
+                        />
+                    )}
+                    <div className="flex-1 min-w-0">
+                        <div
+                            className="truncate"
+                            style={{
+                                ...MONO_STACK,
+                                fontSize: 9.5,
+                                letterSpacing: '0.3em',
+                                color: PAPER_TONES.inkSoft,
+                            }}
+                        >
+                            {titleParts.kicker}
+                        </div>
+                        <div
+                            className="truncate"
+                            style={{ ...CUTE_STACK, fontSize: 16, fontWeight: 700, color: PAPER_TONES.ink }}
+                        >
+                            {titleParts.title}
+                        </div>
+                    </div>
+                    <button
+                        onClick={onClose}
+                        className="w-8 h-8 flex items-center justify-center rounded-full active:scale-95 transition shrink-0"
+                        style={{ background: 'rgba(253,246,231,0.8)', color: PAPER_TONES.ink }}
+                    >
+                        <X className="w-4 h-4" weight="bold" />
+                    </button>
+                </div>
+
+                {/* 内容 */}
+                <div className="px-5 pb-3">
+                    {editing ? (
+                        <>
+                            <div className="flex items-center gap-1.5 mb-2 overflow-x-auto no-scrollbar">
+                                <span
+                                    className="text-[10px] tracking-widest shrink-0 mr-1"
+                                    style={{ ...CUTE_STACK, color: PAPER_TONES.inkSoft }}
+                                >
+                                    ◆ 纸
+                                </span>
+                                {PAPER_OPTIONS.map(opt => {
+                                    const p = PAPERS[opt.kind];
+                                    const active = draftPaper === opt.kind;
+                                    return (
+                                        <button
+                                            key={opt.kind}
+                                            onClick={() => setDraftPaper(opt.kind)}
+                                            className="shrink-0 flex flex-col items-center active:scale-95 transition"
+                                        >
+                                            <div
+                                                className="rounded"
+                                                style={{
+                                                    width: 22, height: 22,
+                                                    background: p.bg,
+                                                    ...p.style,
+                                                    border: active ? `2px solid ${PAPER_TONES.accentLavender}` : `1px solid ${PAPER_TONES.spine}`,
+                                                }}
+                                            />
+                                            <span
+                                                className="text-[8px] mt-0.5"
+                                                style={{
+                                                    ...CUTE_STACK,
+                                                    color: active ? PAPER_TONES.accentLavender : PAPER_TONES.inkFaint,
+                                                }}
+                                            >
+                                                {opt.label}
+                                            </span>
+                                        </button>
+                                    );
+                                })}
+                            </div>
+                            <textarea
+                                value={draft}
+                                onChange={e => setDraft(e.target.value)}
+                                autoFocus
+                                className="w-full p-3 rounded-lg outline-none resize-none text-[14px] leading-[24px] min-h-[160px]"
+                                style={{
+                                    ...SERIF_STACK,
+                                    color: PAPER_TONES.ink,
+                                    background: PAPERS[draftPaper as keyof typeof PAPERS]?.bg ?? '#fff',
+                                    ...(PAPERS[draftPaper as keyof typeof PAPERS]?.style ?? {}),
+                                    border: `1px solid ${PAPER_TONES.spine}`,
+                                }}
+                            />
+                        </>
+                    ) : page.fragments && page.fragments.length > 0 ? (
+                        <div className="space-y-2">
+                            {page.fragments.map(f => (
+                                <div
+                                    key={f.id}
+                                    className="rounded-lg px-3 py-2.5"
+                                    style={{
+                                        background: '#fff',
+                                        border: `1px solid ${PAPER_TONES.spine}`,
+                                    }}
+                                >
+                                    {f.time && (
+                                        <div
+                                            className="mb-1"
+                                            style={{
+                                                ...MONO_STACK,
+                                                fontSize: 9,
+                                                letterSpacing: '0.2em',
+                                                color: PAPER_TONES.inkFaint,
+                                            }}
+                                        >
+                                            {f.time}
+                                        </div>
+                                    )}
+                                    <p
+                                        className="whitespace-pre-wrap break-words"
+                                        style={{ ...SERIF_STACK, fontSize: 13.5, lineHeight: '23px', color: PAPER_TONES.ink, margin: 0 }}
+                                    >
+                                        {f.text}
+                                    </p>
+                                </div>
+                            ))}
+                        </div>
+                    ) : (
+                        <p
+                            className="whitespace-pre-wrap break-words rounded-lg px-3 py-3"
+                            style={{
+                                ...SERIF_STACK,
+                                fontSize: 14,
+                                lineHeight: '24px',
+                                color: PAPER_TONES.ink,
+                                background: '#fff',
+                                border: `1px solid ${PAPER_TONES.spine}`,
+                            }}
+                        >
+                            {page.content || (
+                                <span style={{ color: PAPER_TONES.inkSoft, fontStyle: 'italic', opacity: 0.6 }}>
+                                    这一页还是空白的…
+                                </span>
+                            )}
+                        </p>
+                    )}
+                </div>
+
+                {/* 操作行 */}
+                <div
+                    className="sticky bottom-0 px-5 py-3 flex flex-wrap gap-2"
+                    style={{
+                        background: PAPER_TONES.paper,
+                        borderTop: `1.5px solid ${PAPER_TONES.accentRose}`,
+                    }}
+                >
+                    {editing ? (
+                        <>
+                            <button
+                                onClick={() => { setEditing(false); setDraft(page.content); }}
+                                className="px-3 py-2 rounded-full text-[12px] active:scale-95 transition flex items-center gap-1"
+                                style={{ ...CUTE_STACK, color: PAPER_TONES.inkSoft, background: '#fff', border: `1.5px solid ${PAPER_TONES.spine}` }}
+                            >
+                                <X className="w-3 h-3" /> 取消
+                            </button>
+                            <button
+                                onClick={() => { onSave(draft, draftPaper); setEditing(false); }}
+                                className="flex-1 px-3 py-2 rounded-full text-[12px] font-bold active:scale-95 transition flex items-center justify-center gap-1.5"
+                                style={{
+                                    ...CUTE_STACK,
+                                    background: PAPER_TONES.accentBlush,
+                                    color: '#fff',
+                                    boxShadow: '0 1px 3px rgba(122,90,114,0.18)',
+                                }}
+                            >
+                                <FloppyDisk className="w-3.5 h-3.5" /> 收下 ♡
+                            </button>
+                        </>
+                    ) : (
+                        <>
+                            <button
+                                onClick={() => setEditing(true)}
+                                className="flex-1 px-3 py-2 rounded-full text-[12px] active:scale-95 transition flex items-center justify-center gap-1.5"
+                                style={{
+                                    ...CUTE_STACK, color: '#fff',
+                                    background: PAPER_TONES.accentBlush,
+                                    boxShadow: '0 1px 3px rgba(122,90,114,0.18)',
+                                }}
+                            >
+                                <PencilSimple className="w-3.5 h-3.5" weight="bold" /> 改写
+                            </button>
+                            {onRegenerate && (
+                                <button
+                                    onClick={onRegenerate}
+                                    disabled={isRegenerating}
+                                    className="px-3 py-2 rounded-full text-[12px] active:scale-95 transition disabled:opacity-50 flex items-center gap-1.5"
+                                    style={{ ...CUTE_STACK, color: PAPER_TONES.ink, background: '#fff', border: `1.5px solid ${PAPER_TONES.spine}` }}
+                                >
+                                    <ArrowsClockwise className={`w-3.5 h-3.5 ${isRegenerating ? 'animate-spin' : ''}`} weight="bold" />
+                                    {isRegenerating ? '正在写…' : '再写一次'}
+                                </button>
+                            )}
+                            <button
+                                onClick={onToggleExclude}
+                                className="px-3 py-2 rounded-full text-[12px] active:scale-95 transition flex items-center gap-1.5"
+                                style={{ ...CUTE_STACK, color: PAPER_TONES.ink, background: '#fff', border: `1.5px solid ${PAPER_TONES.spine}` }}
+                            >
+                                {page.excluded
+                                    ? <><EyeSlash className="w-3.5 h-3.5" weight="bold" /> 不入册</>
+                                    : <><Eye className="w-3.5 h-3.5" weight="bold" /> 入册</>
+                                }
+                            </button>
+                            <button
+                                onClick={onDelete}
+                                className="px-3 py-2 rounded-full text-[12px] active:scale-95 transition flex items-center gap-1.5"
+                                style={{
+                                    ...CUTE_STACK, color: '#c4708a',
+                                    background: '#fff', border: `1.5px solid #f5d0d8`,
+                                }}
+                            >
+                                <Trash className="w-3.5 h-3.5" weight="bold" /> 撕掉
+                            </button>
+                        </>
+                    )}
+                </div>
+            </div>
+        </div>
+    );
+};
+
+export default JournalPageEditor;

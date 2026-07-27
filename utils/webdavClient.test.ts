@@ -1,1 +1,25 @@
-aW1wb3J0IHsgZGVzY3JpYmUsIGl0LCBleHBlY3QgfSBmcm9tICd2aXRlc3QnOwppbXBvcnQgeyB1cGxvYWRCYWNrdXAgfSBmcm9tICcuL3dlYmRhdkNsaWVudCc7CmltcG9ydCB0eXBlIHsgQ2xvdWRCYWNrdXBDb25maWcgfSBmcm9tICcuLi90eXBlcyc7CgovLyDov5nmnaHplIHkvY8gIzUg55qE5aSn5bCP6aKE5qOA77ya57uPIFdvcmtlciDku6PnkIbkuIrkvKDvvIh3ZWIg6Lev5b6E77yJ5pe277yM5aSH5Lu9IGJsb2Ig6LaF5L2T56ev5LiK6ZmQ5b+F6aG75Zyo5Y+R6LW35LiK5LygCi8vIOWJjeWwsee7meWPr+aJp+ihjOaKpemUme+8iOaPkOekuuaUueeUqOacrOWcsOWvvOWHuiAvIEdpdEh1Yu+8ie+8jOiAjOS4jeaYr+WCu+etieWHoOWNgeenkuS4iuihjOWQjuaJjeWksei0peOAggovLyBub2RlIOa1i+ivleeOr+Wig+mdniBuYXRpdmXvvIzotbAgd2ViIOWIhuaUr++8m+i2hemZkOS8muWcqOWIm+W7uiBYTUxIdHRwUmVxdWVzdCDkuYvliY0gcmVzb2x2Ze+8jOaJgOS7pei/memHjOaXoOmcgCBYSFLjgIIKCmNvbnN0IGNvbmZpZzogQ2xvdWRCYWNrdXBDb25maWcgPSB7CiAgICB3ZWJkYXZVcmw6ICdodHRwczovL2V4YW1wbGUuaW52YWxpZC9kYXYnLAogICAgcmVtb3RlUGF0aDogJy9iYWNrdXBzJywKICAgIHVzZXJuYW1lOiAndScsCiAgICBwYXNzd29yZDogJ3AnLAp9IGFzIENsb3VkQmFja3VwQ29uZmlnOwoKZGVzY3JpYmUoJ3VwbG9hZEJhY2t1cCDlpKflsI/pooTmo4DvvIgjNe+8iScsICgpID0+IHsKICAgIGl0KCfotoXov4cgV29ya2VyIOS4iuS8oOS4iumZkO+8muebtOaOpeaKpemUmeS4lOaPkOekuuaUueeUqOacrOWcsOWvvOWHuiAvIEdpdEh1Yu+8jOS4jeWPkei1t+S4iuS8oCcsIGFzeW5jICgpID0+IHsKICAgICAgICAvLyDlj6ror7sgYmxvYi5zaXpl77yM6YCg5LiA5Liq5aOw5piO6LaF5aSn55qE5YGHIGJsb2LvvIzpgb/lhY3nnJ/liIbphY3lh6Dnmb4gTUIKICAgICAgICBjb25zdCBvdmVyc2l6ZWQgPSB7IHNpemU6IDIwMCAqIDEwMjQgKiAxMDI0IH0gYXMgQmxvYjsKICAgICAgICBjb25zdCByZXMgPSBhd2FpdCB1cGxvYWRCYWNrdXAoY29uZmlnLCBvdmVyc2l6ZWQsICdiYWNrdXAuemlwJyk7CiAgICAgICAgZXhwZWN0KHJlcy5vaykudG9CZShmYWxzZSk7CiAgICAgICAgZXhwZWN0KHJlcy5tZXNzYWdlKS50b01hdGNoKC/otoXov4fkupHnq6/ku6PnkIbkuIrkvKDkuIrpmZAvKTsKICAgICAgICBleHBlY3QocmVzLm1lc3NhZ2UpLnRvTWF0Y2goL+acrOWcsOWvvOWHunxHaXRIdWIvKTsKICAgIH0pOwp9KTsK
+import { describe, it, expect } from 'vitest';
+import { uploadBackup } from './webdavClient';
+import type { CloudBackupConfig } from '../types';
+
+// 这条锁住 #5 的大小预检：经 Worker 代理上传（web 路径）时，备份 blob 超体积上限必须在发起上传
+// 前就给可执行报错（提示改用本地导出 / GitHub），而不是傻等几十秒上行后才失败。
+// node 测试环境非 native，走 web 分支；超限会在创建 XMLHttpRequest 之前 resolve，所以这里无需 XHR。
+
+const config: CloudBackupConfig = {
+    webdavUrl: 'https://example.invalid/dav',
+    remotePath: '/backups',
+    username: 'u',
+    password: 'p',
+} as CloudBackupConfig;
+
+describe('uploadBackup 大小预检（#5）', () => {
+    it('超过 Worker 上传上限：直接报错且提示改用本地导出 / GitHub，不发起上传', async () => {
+        // 只读 blob.size，造一个声明超大的假 blob，避免真分配几百 MB
+        const oversized = { size: 200 * 1024 * 1024 } as Blob;
+        const res = await uploadBackup(config, oversized, 'backup.zip');
+        expect(res.ok).toBe(false);
+        expect(res.message).toMatch(/超过云端代理上传上限/);
+        expect(res.message).toMatch(/本地导出|GitHub/);
+    });
+});

@@ -1,1 +1,152 @@
-aW1wb3J0IHsgZGVzY3JpYmUsIGl0LCBleHBlY3QgfSBmcm9tICd2aXRlc3QnOwppbXBvcnQgeyBub3JtTmFtZSwgbWF0Y2hSZWFsQ2hhciwgY2xhbXBBZmZpbml0eSwgdXBzZXJ0Q29udGFjdCwgZmxpcFRyYW5zY3JpcHQsIHBhcnNlVHJhbnNjcmlwdCwgc2VyaWFsaXplVHVybnMsIGFwcGVuZExlYXJuZWQsIHRvcGljVGV4dCB9IGZyb20gJy4vcmVsYXRpb25zaGlwQ2hhdCc7CmltcG9ydCB0eXBlIHsgUGhvbmVDb250YWN0IH0gZnJvbSAnLi4vdHlwZXMnOwoKZGVzY3JpYmUoJ3JlbGF0aW9uc2hpcENoYXQgwrcg57qv5Ye95pWwJywgKCkgPT4gewogICAgaXQoJ25vcm1OYW1lIOWOu+aLrOWPt+i6q+S7vS/nqbrnmb0v5aSn5bCP5YaZJywgKCkgPT4gewogICAgICAgIGV4cGVjdChub3JtTmFtZSgn6Zi/5ZOyICjnpL7lm6Llrabplb8pJykpLnRvQmUoJ+mYv+WTsicpOwogICAgICAgIGV4cGVjdChub3JtTmFtZSgnICBBbGljZSAgJykpLnRvQmUoJ2FsaWNlJyk7CiAgICAgICAgZXhwZWN0KG5vcm1OYW1lKCflsI/mmI7vvIjliY3ku7vvvIknKSkudG9CZSgn5bCP5piOJyk7CiAgICB9KTsKCiAgICBpdCgnbWF0Y2hSZWFsQ2hhciDnsr7noa4gKyDljIXlkKvljLnphY0nLCAoKSA9PiB7CiAgICAgICAgY29uc3Qgcm9zdGVyID0gW3sgaWQ6ICdjMScsIG5hbWU6ICfpmL/lk7InIH0sIHsgaWQ6ICdjMicsIG5hbWU6ICdCZWxsYScgfV07CiAgICAgICAgZXhwZWN0KG1hdGNoUmVhbENoYXIoJ+mYv+WTsicsIHJvc3RlcikpLnRvQmUoJ2MxJyk7CiAgICAgICAgZXhwZWN0KG1hdGNoUmVhbENoYXIoJ+mYv+WTsiAo5a2m6ZW/KScsIHJvc3RlcikpLnRvQmUoJ2MxJyk7CiAgICAgICAgZXhwZWN0KG1hdGNoUmVhbENoYXIoJ+WtpumVv+mYv+WTsicsIHJvc3RlcikpLnRvQmUoJ2MxJyk7IC8vIOWMheWQqwogICAgICAgIGV4cGVjdChtYXRjaFJlYWxDaGFyKCdiZWxsYScsIHJvc3RlcikpLnRvQmUoJ2MyJyk7CiAgICAgICAgZXhwZWN0KG1hdGNoUmVhbENoYXIoJ+mZjOeUn+S6uicsIHJvc3RlcikpLnRvQmVVbmRlZmluZWQoKTsKICAgICAgICBleHBlY3QobWF0Y2hSZWFsQ2hhcignJywgcm9zdGVyKSkudG9CZVVuZGVmaW5lZCgpOwogICAgfSk7CgogICAgaXQoJ2NsYW1wQWZmaW5pdHkg6ZKz5Yi25bm25Y+W5pW05YiwIC0xMDAuLjEwMCcsICgpID0+IHsKICAgICAgICBleHBlY3QoY2xhbXBBZmZpbml0eSgxNTApKS50b0JlKDEwMCk7CiAgICAgICAgZXhwZWN0KGNsYW1wQWZmaW5pdHkoLTE1MCkpLnRvQmUoLTEwMCk7CiAgICAgICAgZXhwZWN0KGNsYW1wQWZmaW5pdHkoMTIuNikpLnRvQmUoMTMpOwogICAgICAgIGV4cGVjdChjbGFtcEFmZmluaXR5KE5hTikpLnRvQmUoMCk7CiAgICB9KTsKCiAgICBpdCgndXBzZXJ0Q29udGFjdCDmlrDlop4gLyDlkIjlubbkuI3kuKIgaWQg5LiOIGNyZWF0ZWRBdCcsICgpID0+IHsKICAgICAgICBjb25zdCBiYXNlOiBQaG9uZUNvbnRhY3RbXSA9IFtdOwogICAgICAgIGNvbnN0IGFkZGVkID0gdXBzZXJ0Q29udGFjdChiYXNlLCB7IG5hbWU6ICfpmL/lk7InLCBraW5kOiAncmVhbCcsIGxpbmtlZENoYXJJZDogJ2MxJywgYWZmaW5pdHk6IDMwIH0pOwogICAgICAgIGV4cGVjdChhZGRlZCkudG9IYXZlTGVuZ3RoKDEpOwogICAgICAgIGV4cGVjdChhZGRlZFswXS5pZCkudG9CZVRydXRoeSgpOwogICAgICAgIGV4cGVjdChhZGRlZFswXS5hZmZpbml0eSkudG9CZSgzMCk7CgogICAgICAgIGNvbnN0IG9yaWdJZCA9IGFkZGVkWzBdLmlkOwogICAgICAgIGNvbnN0IG9yaWdDcmVhdGVkID0gYWRkZWRbMF0uY3JlYXRlZEF0OwogICAgICAgIGNvbnN0IG1lcmdlZCA9IHVwc2VydENvbnRhY3QoYWRkZWQsIHsgbmFtZTogJ+mYv+WTsiAnLCBub3RlOiAn5qyg5oiR6ZKxJywgYWZmaW5pdHk6IDUwIH0pOwogICAgICAgIGV4cGVjdChtZXJnZWQpLnRvSGF2ZUxlbmd0aCgxKTsgLy8g5oyJ5ZCN5a2X5b2S5LiA5Y676YeNCiAgICAgICAgZXhwZWN0KG1lcmdlZFswXS5pZCkudG9CZShvcmlnSWQpOwogICAgICAgIGV4cGVjdChtZXJnZWRbMF0uY3JlYXRlZEF0KS50b0JlKG9yaWdDcmVhdGVkKTsKICAgICAgICBleHBlY3QobWVyZ2VkWzBdLm5vdGUpLnRvQmUoJ+asoOaIkemSsScpOwogICAgICAgIGV4cGVjdChtZXJnZWRbMF0uYWZmaW5pdHkpLnRvQmUoNTApOwogICAgfSk7CgogICAgaXQoJ3Vwc2VydENvbnRhY3Qg5aW95oSf6ZKz5Yi2JywgKCkgPT4gewogICAgICAgIGNvbnN0IHIgPSB1cHNlcnRDb250YWN0KFtdLCB7IG5hbWU6ICdYJywgYWZmaW5pdHk6IDk5OSB9KTsKICAgICAgICBleHBlY3QoclswXS5hZmZpbml0eSkudG9CZSgxMDApOwogICAgfSk7CgogICAgaXQoJ2ZsaXBUcmFuc2NyaXB0IOe/u+i9rOaIkS/lr7nmlrnop4bop5InLCAoKSA9PiB7CiAgICAgICAgY29uc3QgYURldGFpbCA9ICfmiJE6IOWcqOWQl1xu5a+55pa5OiDlnKjnmoRcbuaIkTog5YCf54K56ZKxJzsKICAgICAgICBjb25zdCBmbGlwcGVkID0gZmxpcFRyYW5zY3JpcHQoYURldGFpbCk7CiAgICAgICAgZXhwZWN0KGZsaXBwZWQpLnRvQmUoJ+WvueaWuTog5Zyo5ZCXXG7miJE6IOWcqOeahFxu5a+55pa5OiDlgJ/ngrnpkrEnKTsKICAgICAgICAvLyDnv7vkuKTmrKHlm57liLDljp/moLcKICAgICAgICBleHBlY3QoZmxpcFRyYW5zY3JpcHQoZmxpcHBlZCkpLnRvQmUoYURldGFpbCk7CiAgICB9KTsKCiAgICBpdCgncGFyc2VUcmFuc2NyaXB0IOWkmuihjOa2iOaBr+eahOe7reihjOi3n+maj+S4iuS4gOadoeivtOivneS6uu+8iOS/ruWkjemUmeS9je+8iScsICgpID0+IHsKICAgICAgICBjb25zdCBkZXRhaWwgPSAn5oiROiDnrKzkuIDlj6Vcbui/mOacieesrOS6jOWPpVxu5a+55pa5OiDmlLbliLBcbuWlveeahCc7CiAgICAgICAgZXhwZWN0KHBhcnNlVHJhbnNjcmlwdChkZXRhaWwpKS50b0VxdWFsKFsKICAgICAgICAgICAgeyBpc01lOiB0cnVlLCB0ZXh0OiAn56ys5LiA5Y+lJyB9LAogICAgICAgICAgICB7IGlzTWU6IHRydWUsIHRleHQ6ICfov5jmnInnrKzkuozlj6UnIH0sIC8vIOe7reihjOW9kuOAjOaIkeOAje+8jOS4jeiiq+ivr+WIpOe7meWvueaWuQogICAgICAgICAgICB7IGlzTWU6IGZhbHNlLCB0ZXh0OiAn5pS25YiwJyB9LAogICAgICAgICAgICB7IGlzTWU6IGZhbHNlLCB0ZXh0OiAn5aW955qEJyB9LCAgICAgIC8vIOe7reihjOW9kuOAjOWvueaWueOAjQogICAgICAgIF0pOwogICAgfSk7CgogICAgaXQoJ3BhcnNlVHJhbnNjcmlwdCDnu63lhpnlj6/mjIflrprpppbooYzlvZLlsZ7vvIjkv67lpI0gTlBDIOe7reWGmee5geauliBjaGFyIOeahOivne+8iScsICgpID0+IHsKICAgICAgICAvLyDml6DliY3nvIDnu63lhpnvvJrkuIrkuIDlj6XmmK8gaG9zdCjmiJEp4oaS5LiL5LiA5Y+l6L2u5Yiw5a+55pa577yM5LygIGZhbHNl77yM5pW05q615b2S5a+55pa5CiAgICAgICAgZXhwZWN0KHBhcnNlVHJhbnNjcmlwdCgn5pS25YiwXG7lpb3nmoQnLCBmYWxzZSkpLnRvRXF1YWwoWwogICAgICAgICAgICB7IGlzTWU6IGZhbHNlLCB0ZXh0OiAn5pS25YiwJyB9LCB7IGlzTWU6IGZhbHNlLCB0ZXh0OiAn5aW955qEJyB9LAogICAgICAgIF0pOwogICAgICAgIC8vIOS8oCB0cnVlIOKGkiDlvZLmiJEKICAgICAgICBleHBlY3QocGFyc2VUcmFuc2NyaXB0KCflnKjnmoRcbueojeetiScsIHRydWUpKS50b0VxdWFsKFsKICAgICAgICAgICAgeyBpc01lOiB0cnVlLCB0ZXh0OiAn5Zyo55qEJyB9LCB7IGlzTWU6IHRydWUsIHRleHQ6ICfnqI3nrYknIH0sCiAgICAgICAgXSk7CiAgICAgICAgLy8g5pyJ5pi+5byP5YmN57yA5pe25YmN57yA5LyY5YWI77yMZGVmYXVsdCDlj6rnrqHpppbooYzml6DliY3nvIDnmoTlhZzlupUKICAgICAgICBleHBlY3QocGFyc2VUcmFuc2NyaXB0KCflr7nmlrk6IOWXr1xu5oiROiDlpb0nLCB0cnVlKSkudG9FcXVhbChbCiAgICAgICAgICAgIHsgaXNNZTogZmFsc2UsIHRleHQ6ICfll68nIH0sIHsgaXNNZTogdHJ1ZSwgdGV4dDogJ+WlvScgfSwKICAgICAgICBdKTsKICAgIH0pOwoKICAgIGl0KCdwYXJzZVRyYW5zY3JpcHQgKyBzZXJpYWxpemVUdXJucyDnu63lhpnml6DmjZ/vvIjkv67lpI3nu63lhpnopobnm5Yv5ZCe5YaF5a6577yJJywgKCkgPT4gewogICAgICAgIGNvbnN0IGRldGFpbCA9ICfmiJE6IGFcbmJcbuWvueaWuTogYyc7CiAgICAgICAgLy8g5pen6YC76L6R5Lya5Lii5o6J5peg5YmN57yA55qE44CMYuOAje+8jOWvvOiHtOe7reWGmeaXtuaVtOauteabv+aNouWQjuWGheWuueWPmOefre+8m+eOsOWcqOavj+ihjOmDveihpeWbnuWJjee8gAogICAgICAgIGV4cGVjdChzZXJpYWxpemVUdXJucyhwYXJzZVRyYW5zY3JpcHQoZGV0YWlsKSkpLnRvQmUoJ+aIkTogYVxu5oiROiBiXG7lr7nmlrk6IGMnKTsKICAgIH0pOwoKICAgIGl0KCdmbGlwVHJhbnNjcmlwdCDlpJrooYzmtojmga/kuZ/mlbTkvZPnv7vovazjgIHooaXlhajliY3nvIAnLCAoKSA9PiB7CiAgICAgICAgZXhwZWN0KGZsaXBUcmFuc2NyaXB0KCfmiJE6IGFcbmJcbuWvueaWuTogYycpKS50b0JlKCflr7nmlrk6IGFcbuWvueaWuTogYlxu5oiROiBjJyk7CiAgICB9KTsKCiAgICBpdCgnYXBwZW5kTGVhcm5lZCDntK/np68v5Y676YeNL+mZkOmVvycsICgpID0+IHsKICAgICAgICBleHBlY3QoYXBwZW5kTGVhcm5lZCgnJywgJ+WFtuWunuWcqOivu+eglCcpKS50b0JlKCflhbblrp7lnKjor7vnoJQnKTsKICAgICAgICBleHBlY3QoYXBwZW5kTGVhcm5lZCgn5YW25a6e5Zyo6K+756CUJywgJ+asoOaIv+S4nOS4pOS4quaciOaIv+ennycpKS50b0JlKCflhbblrp7lnKjor7vnoJRcbuasoOaIv+S4nOS4pOS4quaciOaIv+ennycpOwogICAgICAgIC8vIOWujOWFqOebuOWQjOeahOS4jemHjeWkjeWKoAogICAgICAgIGV4cGVjdChhcHBlbmRMZWFybmVkKCflhbblrp7lnKjor7vnoJQnLCAn5YW25a6e5Zyo6K+756CUJykpLnRvQmUoJ+WFtuWunuWcqOivu+eglCcpOwogICAgICAgIC8vIOepuuS6huino+S4jeaUueWKqOW3suaciQogICAgICAgIGV4cGVjdChhcHBlbmRMZWFybmVkKCflhbblrp7lnKjor7vnoJQnLCAnICAnKSkudG9CZSgn5YW25a6e5Zyo6K+756CUJyk7CiAgICAgICAgLy8g6LaF6L+H5LiK6ZmQ5Y+q55WZ5pyA6L+RIE4g6KGMCiAgICAgICAgY29uc3QgbWFueSA9IEFycmF5LmZyb20oeyBsZW5ndGg6IDEwIH0sIChfLCBpKSA9PiBg5LqLJHtpfWApLmpvaW4oJ1xuJyk7CiAgICAgICAgY29uc3QgciA9IGFwcGVuZExlYXJuZWQobWFueSwgJ+aWsOS6iycsIDgpLnNwbGl0KCdcbicpOwogICAgICAgIGV4cGVjdChyKS50b0hhdmVMZW5ndGgoOCk7CiAgICAgICAgZXhwZWN0KHJbci5sZW5ndGggLSAxXSkudG9CZSgn5paw5LqLJyk7CiAgICAgICAgZXhwZWN0KHJbMF0pLnRvQmUoJ+S6izMnKTsgLy8g5pyA5pep55qE5LqLMH7kuosyIOiiq+aMpOaOiQogICAgfSk7CgogICAgaXQoJ3RvcGljVGV4dCDmi7zmjqUv6L+H5ruk56m6L+mZkOacgOi/kSBOIOadoScsICgpID0+IHsKICAgICAgICBleHBlY3QodG9waWNUZXh0KHVuZGVmaW5lZCkpLnRvQmUoJycpOwogICAgICAgIGV4cGVjdCh0b3BpY1RleHQoW10pKS50b0JlKCcnKTsKICAgICAgICBjb25zdCBib3ggPSBbCiAgICAgICAgICAgIHsgaWQ6ICcxJywgdGV4dDogJ+iBiuS6huWAn+mSsScsIGNyZWF0ZWRBdDogMSB9LAogICAgICAgICAgICB7IGlkOiAnMicsIHRleHQ6ICcgICcsIGNyZWF0ZWRBdDogMiB9LCAgICAgLy8g56m655m96L+H5rukCiAgICAgICAgICAgIHsgaWQ6ICczJywgdGV4dDogJ+WSjOWlveS6hicsIGNyZWF0ZWRBdDogMyB9LAogICAgICAgIF07CiAgICAgICAgZXhwZWN0KHRvcGljVGV4dChib3gpKS50b0JlKCfCtyDogYrkuoblgJ/pkrFcbsK3IOWSjOWlveS6hicpOwogICAgICAgIC8vIOWPquWPluacgOi/kSBOIOadoQogICAgICAgIGNvbnN0IG1hbnkgPSBBcnJheS5mcm9tKHsgbGVuZ3RoOiAxMiB9LCAoXywgaSkgPT4gKHsgaWQ6IGAke2l9YCwgdGV4dDogYHQke2l9YCwgY3JlYXRlZEF0OiBpIH0pKTsKICAgICAgICBjb25zdCBvdXQgPSB0b3BpY1RleHQobWFueSwgMykuc3BsaXQoJ1xuJyk7CiAgICAgICAgZXhwZWN0KG91dCkudG9FcXVhbChbJ8K3IHQ5JywgJ8K3IHQxMCcsICfCtyB0MTEnXSk7CiAgICB9KTsKCiAgICBpdCgndXBzZXJ0Q29udGFjdCDkuI3nlKggdW5kZWZpbmVkIOaKueaOieW3suacieWtl+aute+8jOS4lOS/neeVmeW3suaciemdnuepuuWkh+azqCcsICgpID0+IHsKICAgICAgICBjb25zdCBzZWVkID0gdXBzZXJ0Q29udGFjdChbXSwgeyBuYW1lOiAn6Zi/5ZOyJywga2luZDogJ3JlYWwnLCBsaW5rZWRDaGFySWQ6ICdjMScsIG5vdGU6ICfmrKDmiJHpkrEnLCBpZGVudGl0eTogJ+WQjOS6iycsIGFmZmluaXR5OiAzMCB9KTsKICAgICAgICAvLyDlho3mrKEgdXBzZXJ077yI5aaC5omr5o+PL+WvueivneWbnuWhq++8ieS4jeW4piBub3RlL2lkZW50aXR577ya5LiN5b6X5riF56m6CiAgICAgICAgY29uc3QgYWZ0ZXIgPSB1cHNlcnRDb250YWN0KHNlZWQsIHsgbmFtZTogJ+mYv+WTsicsIGtpbmQ6ICdyZWFsJywgYWZmaW5pdHk6IDQwIH0pOwogICAgICAgIGV4cGVjdChhZnRlclswXS5ub3RlKS50b0JlKCfmrKDmiJHpkrEnKTsKICAgICAgICBleHBlY3QoYWZ0ZXJbMF0uaWRlbnRpdHkpLnRvQmUoJ+WQjOS6iycpOwogICAgICAgIGV4cGVjdChhZnRlclswXS5hZmZpbml0eSkudG9CZSg0MCk7CiAgICAgICAgLy8g5Y2z5L6/5bim5LqG5paw55qEIG5vdGXvvIzkuZ/kuI3opobnm5bnlKjmiLflt7LlhpnnmoTpnZ7nqbrlpIfms6jvvIjmmL7lvI/nvJbovpHotbAgVUkg5LiN57uP5q2k5Ye95pWw77yJCiAgICAgICAgY29uc3QgYWZ0ZXIyID0gdXBzZXJ0Q29udGFjdChzZWVkLCB7IG5hbWU6ICfpmL/lk7InLCBub3RlOiAnQUkg556O57yW55qE5aSH5rOoJyB9KTsKICAgICAgICBleHBlY3QoYWZ0ZXIyWzBdLm5vdGUpLnRvQmUoJ+asoOaIkemSsScpOwogICAgfSk7CgogICAgaXQoJ3Vwc2VydENvbnRhY3Qg5LiN6KaG55uW55So5oi35omL5Yqo56Gu6K6k55qE5aSH5rOo5ZCN77yM5YyF5ous5piO56Gu55WZ56m6JywgKCkgPT4gewogICAgICAgIGNvbnN0IGF1dG9tYXRpYyA9IHVwc2VydENvbnRhY3QoW10sIHsgbmFtZTogJ+Wwj+aelycsIGlkZW50aXR5OiAn5ZCM5LqLJyB9KTsKICAgICAgICBleHBlY3QodXBzZXJ0Q29udGFjdChhdXRvbWF0aWMsIHsgbmFtZTogJ+Wwj+aelycsIGlkZW50aXR5OiAn5a2m6ZW/JyB9KVswXS5pZGVudGl0eSkudG9CZSgn5a2m6ZW/Jyk7CgogICAgICAgIGNvbnN0IG1hbnVhbCA9IHVwc2VydENvbnRhY3QoW10sIHsKICAgICAgICAgICAgbmFtZTogJ+mYv+WTsicsIGtpbmQ6ICdyZWFsJywgbGlua2VkQ2hhcklkOiAnYzEnLCBpZGVudGl0eTogJ+WtpumVvycsIGlkZW50aXR5TWFudWFsOiB0cnVlLAogICAgICAgIH0pOwogICAgICAgIGNvbnN0IGFmdGVyID0gdXBzZXJ0Q29udGFjdChtYW51YWwsIHsgbmFtZTogJ+mYv+WTsicsIGlkZW50aXR5OiAn5py65Li75ZCN5a2XJyB9KTsKICAgICAgICBleHBlY3QoYWZ0ZXJbMF0uaWRlbnRpdHkpLnRvQmUoJ+WtpumVvycpOwogICAgICAgIGV4cGVjdChhZnRlclswXS5pZGVudGl0eU1hbnVhbCkudG9CZSh0cnVlKTsKCiAgICAgICAgY29uc3QgY2xlYXJlZCA9IFt7IC4uLm1hbnVhbFswXSwgaWRlbnRpdHk6IHVuZGVmaW5lZCwgaWRlbnRpdHlNYW51YWw6IHRydWUgfV07CiAgICAgICAgY29uc3QgYWZ0ZXJDbGVhcmVkID0gdXBzZXJ0Q29udGFjdChjbGVhcmVkLCB7IG5hbWU6ICfpmL/lk7InLCBpZGVudGl0eTogJ+WQjOS6iycgfSk7CiAgICAgICAgZXhwZWN0KGFmdGVyQ2xlYXJlZFswXS5pZGVudGl0eSkudG9CZVVuZGVmaW5lZCgpOwogICAgICAgIGV4cGVjdChhZnRlckNsZWFyZWRbMF0uaWRlbnRpdHlNYW51YWwpLnRvQmUodHJ1ZSk7CiAgICB9KTsKfSk7Cg==
+import { describe, it, expect } from 'vitest';
+import { normName, matchRealChar, clampAffinity, upsertContact, flipTranscript, parseTranscript, serializeTurns, appendLearned, topicText } from './relationshipChat';
+import type { PhoneContact } from '../types';
+
+describe('relationshipChat · 纯函数', () => {
+    it('normName 去括号身份/空白/大小写', () => {
+        expect(normName('阿哲 (社团学长)')).toBe('阿哲');
+        expect(normName('  Alice  ')).toBe('alice');
+        expect(normName('小明（前任）')).toBe('小明');
+    });
+
+    it('matchRealChar 精确 + 包含匹配', () => {
+        const roster = [{ id: 'c1', name: '阿哲' }, { id: 'c2', name: 'Bella' }];
+        expect(matchRealChar('阿哲', roster)).toBe('c1');
+        expect(matchRealChar('阿哲 (学长)', roster)).toBe('c1');
+        expect(matchRealChar('学长阿哲', roster)).toBe('c1'); // 包含
+        expect(matchRealChar('bella', roster)).toBe('c2');
+        expect(matchRealChar('陌生人', roster)).toBeUndefined();
+        expect(matchRealChar('', roster)).toBeUndefined();
+    });
+
+    it('clampAffinity 钳制并取整到 -100..100', () => {
+        expect(clampAffinity(150)).toBe(100);
+        expect(clampAffinity(-150)).toBe(-100);
+        expect(clampAffinity(12.6)).toBe(13);
+        expect(clampAffinity(NaN)).toBe(0);
+    });
+
+    it('upsertContact 新增 / 合并不丢 id 与 createdAt', () => {
+        const base: PhoneContact[] = [];
+        const added = upsertContact(base, { name: '阿哲', kind: 'real', linkedCharId: 'c1', affinity: 30 });
+        expect(added).toHaveLength(1);
+        expect(added[0].id).toBeTruthy();
+        expect(added[0].affinity).toBe(30);
+
+        const origId = added[0].id;
+        const origCreated = added[0].createdAt;
+        const merged = upsertContact(added, { name: '阿哲 ', note: '欠我钱', affinity: 50 });
+        expect(merged).toHaveLength(1); // 按名字归一去重
+        expect(merged[0].id).toBe(origId);
+        expect(merged[0].createdAt).toBe(origCreated);
+        expect(merged[0].note).toBe('欠我钱');
+        expect(merged[0].affinity).toBe(50);
+    });
+
+    it('upsertContact 好感钳制', () => {
+        const r = upsertContact([], { name: 'X', affinity: 999 });
+        expect(r[0].affinity).toBe(100);
+    });
+
+    it('flipTranscript 翻转我/对方视角', () => {
+        const aDetail = '我: 在吗\n对方: 在的\n我: 借点钱';
+        const flipped = flipTranscript(aDetail);
+        expect(flipped).toBe('对方: 在吗\n我: 在的\n对方: 借点钱');
+        // 翻两次回到原样
+        expect(flipTranscript(flipped)).toBe(aDetail);
+    });
+
+    it('parseTranscript 多行消息的续行跟随上一条说话人（修复错位）', () => {
+        const detail = '我: 第一句\n还有第二句\n对方: 收到\n好的';
+        expect(parseTranscript(detail)).toEqual([
+            { isMe: true, text: '第一句' },
+            { isMe: true, text: '还有第二句' }, // 续行归「我」，不被误判给对方
+            { isMe: false, text: '收到' },
+            { isMe: false, text: '好的' },      // 续行归「对方」
+        ]);
+    });
+
+    it('parseTranscript 续写可指定首行归属（修复 NPC 续写繁殖 char 的话）', () => {
+        // 无前缀续写：上一句是 host(我)→下一句轮到对方，传 false，整段归对方
+        expect(parseTranscript('收到\n好的', false)).toEqual([
+            { isMe: false, text: '收到' }, { isMe: false, text: '好的' },
+        ]);
+        // 传 true → 归我
+        expect(parseTranscript('在的\n稍等', true)).toEqual([
+            { isMe: true, text: '在的' }, { isMe: true, text: '稍等' },
+        ]);
+        // 有显式前缀时前缀优先，default 只管首行无前缀的兜底
+        expect(parseTranscript('对方: 嗯\n我: 好', true)).toEqual([
+            { isMe: false, text: '嗯' }, { isMe: true, text: '好' },
+        ]);
+    });
+
+    it('parseTranscript + serializeTurns 续写无损（修复续写覆盖/吞内容）', () => {
+        const detail = '我: a\nb\n对方: c';
+        // 旧逻辑会丢掉无前缀的「b」，导致续写时整段替换后内容变短；现在每行都补回前缀
+        expect(serializeTurns(parseTranscript(detail))).toBe('我: a\n我: b\n对方: c');
+    });
+
+    it('flipTranscript 多行消息也整体翻转、补全前缀', () => {
+        expect(flipTranscript('我: a\nb\n对方: c')).toBe('对方: a\n对方: b\n我: c');
+    });
+
+    it('appendLearned 累积/去重/限长', () => {
+        expect(appendLearned('', '其实在读研')).toBe('其实在读研');
+        expect(appendLearned('其实在读研', '欠房东两个月房租')).toBe('其实在读研\n欠房东两个月房租');
+        // 完全相同的不重复加
+        expect(appendLearned('其实在读研', '其实在读研')).toBe('其实在读研');
+        // 空了解不改动已有
+        expect(appendLearned('其实在读研', '  ')).toBe('其实在读研');
+        // 超过上限只留最近 N 行
+        const many = Array.from({ length: 10 }, (_, i) => `事${i}`).join('\n');
+        const r = appendLearned(many, '新事', 8).split('\n');
+        expect(r).toHaveLength(8);
+        expect(r[r.length - 1]).toBe('新事');
+        expect(r[0]).toBe('事3'); // 最早的事0~事2 被挤掉
+    });
+
+    it('topicText 拼接/过滤空/限最近 N 条', () => {
+        expect(topicText(undefined)).toBe('');
+        expect(topicText([])).toBe('');
+        const box = [
+            { id: '1', text: '聊了借钱', createdAt: 1 },
+            { id: '2', text: '  ', createdAt: 2 },     // 空白过滤
+            { id: '3', text: '和好了', createdAt: 3 },
+        ];
+        expect(topicText(box)).toBe('· 聊了借钱\n· 和好了');
+        // 只取最近 N 条
+        const many = Array.from({ length: 12 }, (_, i) => ({ id: `${i}`, text: `t${i}`, createdAt: i }));
+        const out = topicText(many, 3).split('\n');
+        expect(out).toEqual(['· t9', '· t10', '· t11']);
+    });
+
+    it('upsertContact 不用 undefined 抹掉已有字段，且保留已有非空备注', () => {
+        const seed = upsertContact([], { name: '阿哲', kind: 'real', linkedCharId: 'c1', note: '欠我钱', identity: '同事', affinity: 30 });
+        // 再次 upsert（如扫描/对话回填）不带 note/identity：不得清空
+        const after = upsertContact(seed, { name: '阿哲', kind: 'real', affinity: 40 });
+        expect(after[0].note).toBe('欠我钱');
+        expect(after[0].identity).toBe('同事');
+        expect(after[0].affinity).toBe(40);
+        // 即便带了新的 note，也不覆盖用户已写的非空备注（显式编辑走 UI 不经此函数）
+        const after2 = upsertContact(seed, { name: '阿哲', note: 'AI 瞎编的备注' });
+        expect(after2[0].note).toBe('欠我钱');
+    });
+
+    it('upsertContact 不覆盖用户手动确认的备注名，包括明确留空', () => {
+        const automatic = upsertContact([], { name: '小林', identity: '同事' });
+        expect(upsertContact(automatic, { name: '小林', identity: '学长' })[0].identity).toBe('学长');
+
+        const manual = upsertContact([], {
+            name: '阿哲', kind: 'real', linkedCharId: 'c1', identity: '学长', identityManual: true,
+        });
+        const after = upsertContact(manual, { name: '阿哲', identity: '机主名字' });
+        expect(after[0].identity).toBe('学长');
+        expect(after[0].identityManual).toBe(true);
+
+        const cleared = [{ ...manual[0], identity: undefined, identityManual: true }];
+        const afterCleared = upsertContact(cleared, { name: '阿哲', identity: '同事' });
+        expect(afterCleared[0].identity).toBeUndefined();
+        expect(afterCleared[0].identityManual).toBe(true);
+    });
+});

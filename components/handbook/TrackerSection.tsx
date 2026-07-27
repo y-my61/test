@@ -1,1 +1,193 @@
-LyoqCiAqIOWNleS4qiBUcmFja2VyIOeahCBTZWN0aW9uIOinhuWbvgogKgogKiA9IOaciOWOhiArIOeCueagvOWtkOW8gCBlbnRyeSBzaGVldCzmiormlbDmja7mupAgLyDljZXlhYPmoLzmuLLmn5PkuqTnu5kgY2FsbGVyIOaOp+WItgogKgogKiDnibnliKvlpITnkIYgY2VsbFJlbmRlckZpZWxkIOWtl+autToKICogICAtIHJhdGluZyAg4oaSIOaYvuekuuWvueW6lCBlbW9qaQogKiAgIC0gb3B0aW9ucyDihpIg5pi+56S65a+55bqUIGVtb2ppCiAqICAgLSBib29sZWFuIOKGkiDinJMg5oiW55WZ56m6CiAqICAgLSBudW1iZXIgIOKGkiDmmL7npLrmlbDlrZcKICogICAtIOWQpuWImSAgICDihpIg5pi+56S65LiA5LiqIHRyYWNrZXIuY29sb3Ig5ZyG54K5CiAqLwoKaW1wb3J0IFJlYWN0LCB7IHVzZVN0YXRlLCB1c2VFZmZlY3QsIHVzZUNhbGxiYWNrIH0gZnJvbSAncmVhY3QnOwppbXBvcnQgeyBUcmFja2VyLCBUcmFja2VyRW50cnkgfSBmcm9tICcuLi8uLi90eXBlcyc7CmltcG9ydCB7IERCIH0gZnJvbSAnLi4vLi4vdXRpbHMvZGInOwppbXBvcnQgQ2FsZW5kYXJWaWV3IGZyb20gJy4vQ2FsZW5kYXJWaWV3JzsKaW1wb3J0IFRyYWNrZXJFbnRyeVNoZWV0IGZyb20gJy4vVHJhY2tlckVudHJ5U2hlZXQnOwppbXBvcnQgeyBQQVBFUl9UT05FUywgU0VSSUZfU1RBQ0ssIENVVEVfU1RBQ0ssIFdhc2hpVGFwZSB9IGZyb20gJy4vcGFwZXInOwppbXBvcnQgeyBTY2F0dGVyZWRTdGlja2VycyB9IGZyb20gJy4vc3RpY2tlcnMnOwoKaW50ZXJmYWNlIFByb3BzIHsKICAgIHRyYWNrZXI6IFRyYWNrZXI7CiAgICBvbkFkZFRvYXN0PzogKG1zZzogc3RyaW5nLCB0eXBlPzogJ3N1Y2Nlc3MnIHwgJ2Vycm9yJyB8ICdpbmZvJykgPT4gdm9pZDsKfQoKY29uc3QgVHJhY2tlclNlY3Rpb246IFJlYWN0LkZDPFByb3BzPiA9ICh7IHRyYWNrZXIsIG9uQWRkVG9hc3QgfSkgPT4gewogICAgY29uc3QgW2VudHJpZXMsIHNldEVudHJpZXNdID0gdXNlU3RhdGU8VHJhY2tlckVudHJ5W10+KFtdKTsKICAgIGNvbnN0IFtsb2FkaW5nLCBzZXRMb2FkaW5nXSA9IHVzZVN0YXRlKHRydWUpOwogICAgY29uc3QgW29wZW5EYXRlLCBzZXRPcGVuRGF0ZV0gPSB1c2VTdGF0ZTxzdHJpbmcgfCBudWxsPihudWxsKTsKCiAgICBjb25zdCByZWZyZXNoID0gdXNlQ2FsbGJhY2soYXN5bmMgKCkgPT4gewogICAgICAgIGNvbnN0IGxpc3QgPSBhd2FpdCBEQi5nZXRUcmFja2VyRW50cmllc0J5VHJhY2tlcih0cmFja2VyLmlkKTsKICAgICAgICBzZXRFbnRyaWVzKGxpc3QpOwogICAgICAgIHNldExvYWRpbmcoZmFsc2UpOwogICAgfSwgW3RyYWNrZXIuaWRdKTsKCiAgICB1c2VFZmZlY3QoKCkgPT4geyByZWZyZXNoKCk7IH0sIFtyZWZyZXNoXSk7CgogICAgY29uc3QgZW50cnlCeURhdGU6IFJlY29yZDxzdHJpbmcsIFRyYWNrZXJFbnRyeT4gPSB7fTsKICAgIGZvciAoY29uc3QgZSBvZiBlbnRyaWVzKSBlbnRyeUJ5RGF0ZVtlLmRhdGVdID0gZTsKCiAgICBjb25zdCB0b2RheSA9ICgoKSA9PiB7CiAgICAgICAgY29uc3QgZCA9IG5ldyBEYXRlKCk7CiAgICAgICAgcmV0dXJuIGAke2QuZ2V0RnVsbFllYXIoKX0tJHtTdHJpbmcoZC5nZXRNb250aCgpICsgMSkucGFkU3RhcnQoMiwnMCcpfS0ke1N0cmluZyhkLmdldERhdGUoKSkucGFkU3RhcnQoMiwnMCcpfWA7CiAgICB9KSgpOwoKICAgIC8vIOWNleWFg+agvOWGheWuuTrmoLnmja4gY2VsbFJlbmRlckZpZWxkIOa4suafk+S4gOS4que0p+WHkeagh+iusAogICAgY29uc3QgcmVuZGVyQ2VsbCA9IChkYXRlOiBzdHJpbmcpOiBSZWFjdC5SZWFjdE5vZGUgPT4gewogICAgICAgIGNvbnN0IGVudHJ5ID0gZW50cnlCeURhdGVbZGF0ZV07CiAgICAgICAgaWYgKCFlbnRyeSkgcmV0dXJuIG51bGw7CiAgICAgICAgY29uc3QgZmllbGRLZXkgPSB0cmFja2VyLmNlbGxSZW5kZXJGaWVsZCB8fCB0cmFja2VyLnNjaGVtYVswXT8ua2V5OwogICAgICAgIGNvbnN0IGZpZWxkID0gdHJhY2tlci5zY2hlbWEuZmluZChmID0+IGYua2V5ID09PSBmaWVsZEtleSk7CiAgICAgICAgaWYgKCFmaWVsZCkgewogICAgICAgICAgICByZXR1cm4gPHNwYW4gc3R5bGU9e3sgY29sb3I6IHRyYWNrZXIuY29sb3IsIGZvbnRTaXplOiAxOCwgbGluZUhlaWdodDogMSB9fT7igKI8L3NwYW4+OwogICAgICAgIH0KICAgICAgICBjb25zdCB2ID0gZW50cnkudmFsdWVzW2ZpZWxkS2V5XTsKICAgICAgICBpZiAodiA9PT0gdW5kZWZpbmVkIHx8IHYgPT09IG51bGwgfHwgdiA9PT0gJycpIHsKICAgICAgICAgICAgcmV0dXJuIDxzcGFuIHN0eWxlPXt7IGNvbG9yOiB0cmFja2VyLmNvbG9yLCBmb250U2l6ZTogMTQsIGxpbmVIZWlnaHQ6IDEgfX0+wrc8L3NwYW4+OwogICAgICAgIH0KICAgICAgICBpZiAoZmllbGQua2luZCA9PT0gJ3JhdGluZycgfHwgZmllbGQua2luZCA9PT0gJ29wdGlvbnMnKSB7CiAgICAgICAgICAgIGNvbnN0IGNob2ljZSA9IGZpZWxkLmNob2ljZXM/LmZpbmQoYyA9PiBTdHJpbmcoYy52YWx1ZSkgPT09IFN0cmluZyh2KSk7CiAgICAgICAgICAgIGlmIChjaG9pY2U/LmVtb2ppKSByZXR1cm4gPHNwYW4gc3R5bGU9e3sgZm9udFNpemU6IDE2LCBsaW5lSGVpZ2h0OiAxIH19PntjaG9pY2UuZW1vaml9PC9zcGFuPjsKICAgICAgICAgICAgcmV0dXJuIDxzcGFuIHN0eWxlPXt7IC4uLkNVVEVfU1RBQ0ssIGZvbnRTaXplOiAxMSwgY29sb3I6IHRyYWNrZXIuY29sb3IsIGZvbnRXZWlnaHQ6IDcwMCB9fT57U3RyaW5nKHYpfTwvc3Bhbj47CiAgICAgICAgfQogICAgICAgIGlmIChmaWVsZC5raW5kID09PSAnYm9vbGVhbicpIHsKICAgICAgICAgICAgcmV0dXJuIHYKICAgICAgICAgICAgICAgID8gPHNwYW4gc3R5bGU9e3sgY29sb3I6IHRyYWNrZXIuY29sb3IsIGZvbnRTaXplOiAxNCwgZm9udFdlaWdodDogNzAwLCBsaW5lSGVpZ2h0OiAxIH19PuKckzwvc3Bhbj4KICAgICAgICAgICAgICAgIDogPHNwYW4gc3R5bGU9e3sgY29sb3I6IFBBUEVSX1RPTkVTLmlua0ZhaW50LCBmb250U2l6ZTogMTQgfX0+wrc8L3NwYW4+OwogICAgICAgIH0KICAgICAgICBpZiAoZmllbGQua2luZCA9PT0gJ251bWJlcicpIHsKICAgICAgICAgICAgcmV0dXJuIDxzcGFuIHN0eWxlPXt7IC4uLkNVVEVfU1RBQ0ssIGZvbnRTaXplOiAxMCwgY29sb3I6IHRyYWNrZXIuY29sb3IsIGZvbnRXZWlnaHQ6IDcwMCB9fT57dn08L3NwYW4+OwogICAgICAgIH0KICAgICAgICAvLyB0ZXh0IC8gcGhvdG86IOS4gOS4quiJsueCueihqOekuuacieiusOW9lQogICAgICAgIHJldHVybiA8c3BhbiBzdHlsZT17eyBjb2xvcjogdHJhY2tlci5jb2xvciwgZm9udFNpemU6IDE4LCBsaW5lSGVpZ2h0OiAxIH19PuKAojwvc3Bhbj47CiAgICB9OwoKICAgIGNvbnN0IGhhbmRsZVNhdmUgPSBhc3luYyAodmFsdWVzOiBSZWNvcmQ8c3RyaW5nLCBhbnk+KSA9PiB7CiAgICAgICAgaWYgKCFvcGVuRGF0ZSkgcmV0dXJuOwogICAgICAgIGNvbnN0IGV4aXN0aW5nID0gZW50cnlCeURhdGVbb3BlbkRhdGVdOwogICAgICAgIGNvbnN0IG5vdyA9IERhdGUubm93KCk7CiAgICAgICAgY29uc3QgZW50cnk6IFRyYWNrZXJFbnRyeSA9IGV4aXN0aW5nCiAgICAgICAgICAgID8geyAuLi5leGlzdGluZywgdmFsdWVzLCB1cGRhdGVkQXQ6IG5vdyB9CiAgICAgICAgICAgIDogeyBpZDogYHRlLSR7dHJhY2tlci5pZH0tJHtvcGVuRGF0ZX0tJHtub3d9YCwgdHJhY2tlcklkOiB0cmFja2VyLmlkLCBkYXRlOiBvcGVuRGF0ZSwgdmFsdWVzLCBjcmVhdGVkQXQ6IG5vdywgdXBkYXRlZEF0OiBub3cgfTsKICAgICAgICBhd2FpdCBEQi5zYXZlVHJhY2tlckVudHJ5KGVudHJ5KTsKICAgICAgICBhd2FpdCByZWZyZXNoKCk7CiAgICAgICAgc2V0T3BlbkRhdGUobnVsbCk7CiAgICAgICAgb25BZGRUb2FzdD8uKGV4aXN0aW5nID8gJ+abtOaWsOWlveWVpiDimaEnIDogJ+iusOS4i+WVpiDimaEnLCAnc3VjY2VzcycpOwogICAgfTsKCiAgICBjb25zdCBoYW5kbGVEZWxldGUgPSBhc3luYyAoKSA9PiB7CiAgICAgICAgaWYgKCFvcGVuRGF0ZSkgcmV0dXJuOwogICAgICAgIGNvbnN0IGV4aXN0aW5nID0gZW50cnlCeURhdGVbb3BlbkRhdGVdOwogICAgICAgIGlmICghZXhpc3RpbmcpIHJldHVybjsKICAgICAgICBhd2FpdCBEQi5kZWxldGVUcmFja2VyRW50cnkoZXhpc3RpbmcuaWQpOwogICAgICAgIGF3YWl0IHJlZnJlc2goKTsKICAgICAgICBzZXRPcGVuRGF0ZShudWxsKTsKICAgICAgICBvbkFkZFRvYXN0Py4oJ+W3suaSleaOiei/meWkqSDimaEnLCAnaW5mbycpOwogICAgfTsKCiAgICByZXR1cm4gKAogICAgICAgIDxkaXYKICAgICAgICAgICAgY2xhc3NOYW1lPSJmbGV4LTEgb3ZlcmZsb3cteS1hdXRvIHBiLTEyIHJlbGF0aXZlIgogICAgICAgICAgICBzdHlsZT17ewogICAgICAgICAgICAgICAgYmFja2dyb3VuZDogYCR7UEFQRVJfVE9ORVMucGFwZXJXYXJtfSByYWRpYWwtZ3JhZGllbnQoY2lyY2xlIGF0IDIwJSAxMCUsICR7dHJhY2tlci5jb2xvcn0yNSAwJSwgdHJhbnNwYXJlbnQgNDAlKSwgcmFkaWFsLWdyYWRpZW50KGNpcmNsZSBhdCA4MCUgNzAlLCByZ2JhKDE4NSwyMTEsMjI0LDAuMTUpIDAlLCB0cmFuc3BhcmVudCA0MCUpYCwKICAgICAgICAgICAgfX0KICAgICAgICA+CiAgICAgICAgICAgIHsvKiBTZWN0aW9uIOagh+mimOWMuiAqL30KICAgICAgICAgICAgPGRpdiBjbGFzc05hbWU9Im14LTQgbXQtMyBtYi00IHJlbGF0aXZlIj4KICAgICAgICAgICAgICAgIDxkaXYKICAgICAgICAgICAgICAgICAgICBjbGFzc05hbWU9InJvdW5kZWQtMnhsIHB4LTUgcHktNSByZWxhdGl2ZSBvdmVyZmxvdy1oaWRkZW4iCiAgICAgICAgICAgICAgICAgICAgc3R5bGU9e3sKICAgICAgICAgICAgICAgICAgICAgICAgYmFja2dyb3VuZDogJyNmZmYnLAogICAgICAgICAgICAgICAgICAgICAgICBib3hTaGFkb3c6ICcwIDNweCAxMHB4IC0ycHggcmdiYSgxMjIsOTAsMTE0LDAuMTgpLCAwIDAgMCAxLjVweCByZ2JhKDIyMCwxOTksMjEzLDAuNSknLAogICAgICAgICAgICAgICAgICAgIH19CiAgICAgICAgICAgICAgICA+CiAgICAgICAgICAgICAgICAgICAgey8qIOaVo+i0tOe6uCAqL30KICAgICAgICAgICAgICAgICAgICA8U2NhdHRlcmVkU3RpY2tlcnMgc2VlZD17YHRyYWNrZXItJHt0cmFja2VyLmlkfWB9IGNvdW50PXszfSB6b25lPSJjb3JuZXJzIiAvPgoKICAgICAgICAgICAgICAgICAgICA8ZGl2IGNsYXNzTmFtZT0icmVsYXRpdmUgei0xMCBmbGV4IGl0ZW1zLWNlbnRlciBnYXAtMyI+CiAgICAgICAgICAgICAgICAgICAgICAgIDxkaXYKICAgICAgICAgICAgICAgICAgICAgICAgICAgIGNsYXNzTmFtZT0idy0xMiBoLTEyIHJvdW5kZWQtZnVsbCBmbGV4IGl0ZW1zLWNlbnRlciBqdXN0aWZ5LWNlbnRlciB0ZXh0LTJ4bCBzaHJpbmstMCIKICAgICAgICAgICAgICAgICAgICAgICAgICAgIHN0eWxlPXt7CiAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgYmFja2dyb3VuZDogYCR7dHJhY2tlci5jb2xvcn00MGAsCiAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgYm9yZGVyOiBgMnB4IHNvbGlkICR7dHJhY2tlci5jb2xvcn1gLAogICAgICAgICAgICAgICAgICAgICAgICAgICAgfX0KICAgICAgICAgICAgICAgICAgICAgICAgPgogICAgICAgICAgICAgICAgICAgICAgICAgICAge3RyYWNrZXIuaWNvbiB8fCAn4piFJ30KICAgICAgICAgICAgICAgICAgICAgICAgPC9kaXY+CiAgICAgICAgICAgICAgICAgICAgICAgIDxkaXYgY2xhc3NOYW1lPSJmbGV4LTEgbWluLXctMCI+CiAgICAgICAgICAgICAgICAgICAgICAgICAgICA8ZGl2CiAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgY2xhc3NOYW1lPSJ0ZXh0LVsxMHB4XSB0cmFja2luZy1bMC40ZW1dIG1iLTAuNSIKICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICBzdHlsZT17eyAuLi5DVVRFX1NUQUNLLCBjb2xvcjogUEFQRVJfVE9ORVMuaW5rU29mdCB9fQogICAgICAgICAgICAgICAgICAgICAgICAgICAgPgogICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgIMK3IFRSQUNLRVIgwrcKICAgICAgICAgICAgICAgICAgICAgICAgICAgIDwvZGl2PgogICAgICAgICAgICAgICAgICAgICAgICAgICAgPGRpdgogICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgIGNsYXNzTmFtZT0idGV4dC14bCBmb250LWJvbGQiCiAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgc3R5bGU9e3sgLi4uU0VSSUZfU1RBQ0ssIGNvbG9yOiBQQVBFUl9UT05FUy5pbmsgfX0KICAgICAgICAgICAgICAgICAgICAgICAgICAgID4KICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICB7dHJhY2tlci5uYW1lfQogICAgICAgICAgICAgICAgICAgICAgICAgICAgPC9kaXY+CiAgICAgICAgICAgICAgICAgICAgICAgIDwvZGl2PgogICAgICAgICAgICAgICAgICAgICAgICA8V2FzaGlUYXBlIGNvbG9yPSJjcmVhbSIgcGF0dGVybj0iZG90IiByb3RhdGU9ezZ9PgogICAgICAgICAgICAgICAgICAgICAgICAgICAge2VudHJpZXMubGVuZ3RofSDmrKEKICAgICAgICAgICAgICAgICAgICAgICAgPC9XYXNoaVRhcGU+CiAgICAgICAgICAgICAgICAgICAgPC9kaXY+CiAgICAgICAgICAgICAgICA8L2Rpdj4KICAgICAgICAgICAgPC9kaXY+CgogICAgICAgICAgICB7Lyog5pyI5Y6GICovfQogICAgICAgICAgICB7bG9hZGluZyA/ICgKICAgICAgICAgICAgICAgIDxkaXYKICAgICAgICAgICAgICAgICAgICBjbGFzc05hbWU9InRleHQtY2VudGVyIHB5LTEwIHRleHQtc20iCiAgICAgICAgICAgICAgICAgICAgc3R5bGU9e3sgLi4uQ1VURV9TVEFDSywgY29sb3I6IFBBUEVSX1RPTkVTLmlua1NvZnQgfX0KICAgICAgICAgICAgICAgID4KICAgICAgICAgICAgICAgICAgICDnv7vlvIDkuK3igKYKICAgICAgICAgICAgICAgIDwvZGl2PgogICAgICAgICAgICApIDogKAogICAgICAgICAgICAgICAgPGRpdgogICAgICAgICAgICAgICAgICAgIGNsYXNzTmFtZT0ibXgtMyByb3VuZGVkLTJ4bCIKICAgICAgICAgICAgICAgICAgICBzdHlsZT17ewogICAgICAgICAgICAgICAgICAgICAgICBiYWNrZ3JvdW5kOiBQQVBFUl9UT05FUy5wYXBlciwKICAgICAgICAgICAgICAgICAgICAgICAgYm94U2hhZG93OiAnMCA0cHggMTRweCAtNHB4IHJnYmEoMTIyLDkwLDExNCwwLjE4KScsCiAgICAgICAgICAgICAgICAgICAgfX0KICAgICAgICAgICAgICAgID4KICAgICAgICAgICAgICAgICAgICA8Q2FsZW5kYXJWaWV3CiAgICAgICAgICAgICAgICAgICAgICAgIGhpZ2hsaWdodERhdGU9e3RvZGF5fQogICAgICAgICAgICAgICAgICAgICAgICByZW5kZXJDZWxsPXtyZW5kZXJDZWxsfQogICAgICAgICAgICAgICAgICAgICAgICBvbkNlbGxUYXA9eyhkKSA9PiBzZXRPcGVuRGF0ZShkKX0KICAgICAgICAgICAgICAgICAgICAgICAgYWNjZW50Q29sb3I9e3RyYWNrZXIuY29sb3J9CiAgICAgICAgICAgICAgICAgICAgICAgIHRpdGxlPSLngrnmoLzlrZDmiZPljaEgwrcg55WZ55m95Lmf5Y+v5LulIOKZoSIKICAgICAgICAgICAgICAgICAgICAvPgogICAgICAgICAgICAgICAgPC9kaXY+CiAgICAgICAgICAgICl9CgogICAgICAgICAgICB7Lyog6L6T5YWlIHNoZWV0ICovfQogICAgICAgICAgICB7b3BlbkRhdGUgJiYgKAogICAgICAgICAgICAgICAgPFRyYWNrZXJFbnRyeVNoZWV0CiAgICAgICAgICAgICAgICAgICAgdmlzaWJsZT17ISFvcGVuRGF0ZX0KICAgICAgICAgICAgICAgICAgICB0cmFja2VyPXt0cmFja2VyfQogICAgICAgICAgICAgICAgICAgIGRhdGU9e29wZW5EYXRlfQogICAgICAgICAgICAgICAgICAgIGV4aXN0aW5nRW50cnk9e2VudHJ5QnlEYXRlW29wZW5EYXRlXSB8fCBudWxsfQogICAgICAgICAgICAgICAgICAgIG9uQ2FuY2VsPXsoKSA9PiBzZXRPcGVuRGF0ZShudWxsKX0KICAgICAgICAgICAgICAgICAgICBvblNhdmU9e2hhbmRsZVNhdmV9CiAgICAgICAgICAgICAgICAgICAgb25EZWxldGU9e2VudHJ5QnlEYXRlW29wZW5EYXRlXSA/IGhhbmRsZURlbGV0ZSA6IHVuZGVmaW5lZH0KICAgICAgICAgICAgICAgIC8+CiAgICAgICAgICAgICl9CiAgICAgICAgPC9kaXY+CiAgICApOwp9OwoKZXhwb3J0IGRlZmF1bHQgVHJhY2tlclNlY3Rpb247Cg==
+/**
+ * 单个 Tracker 的 Section 视图
+ *
+ * = 月历 + 点格子开 entry sheet,把数据源 / 单元格渲染交给 caller 控制
+ *
+ * 特别处理 cellRenderField 字段:
+ *   - rating  → 显示对应 emoji
+ *   - options → 显示对应 emoji
+ *   - boolean → ✓ 或留空
+ *   - number  → 显示数字
+ *   - 否则    → 显示一个 tracker.color 圆点
+ */
+
+import React, { useState, useEffect, useCallback } from 'react';
+import { Tracker, TrackerEntry } from '../../types';
+import { DB } from '../../utils/db';
+import CalendarView from './CalendarView';
+import TrackerEntrySheet from './TrackerEntrySheet';
+import { PAPER_TONES, SERIF_STACK, CUTE_STACK, WashiTape } from './paper';
+import { ScatteredStickers } from './stickers';
+
+interface Props {
+    tracker: Tracker;
+    onAddToast?: (msg: string, type?: 'success' | 'error' | 'info') => void;
+}
+
+const TrackerSection: React.FC<Props> = ({ tracker, onAddToast }) => {
+    const [entries, setEntries] = useState<TrackerEntry[]>([]);
+    const [loading, setLoading] = useState(true);
+    const [openDate, setOpenDate] = useState<string | null>(null);
+
+    const refresh = useCallback(async () => {
+        const list = await DB.getTrackerEntriesByTracker(tracker.id);
+        setEntries(list);
+        setLoading(false);
+    }, [tracker.id]);
+
+    useEffect(() => { refresh(); }, [refresh]);
+
+    const entryByDate: Record<string, TrackerEntry> = {};
+    for (const e of entries) entryByDate[e.date] = e;
+
+    const today = (() => {
+        const d = new Date();
+        return `${d.getFullYear()}-${String(d.getMonth() + 1).padStart(2,'0')}-${String(d.getDate()).padStart(2,'0')}`;
+    })();
+
+    // 单元格内容:根据 cellRenderField 渲染一个紧凑标记
+    const renderCell = (date: string): React.ReactNode => {
+        const entry = entryByDate[date];
+        if (!entry) return null;
+        const fieldKey = tracker.cellRenderField || tracker.schema[0]?.key;
+        const field = tracker.schema.find(f => f.key === fieldKey);
+        if (!field) {
+            return <span style={{ color: tracker.color, fontSize: 18, lineHeight: 1 }}>•</span>;
+        }
+        const v = entry.values[fieldKey];
+        if (v === undefined || v === null || v === '') {
+            return <span style={{ color: tracker.color, fontSize: 14, lineHeight: 1 }}>·</span>;
+        }
+        if (field.kind === 'rating' || field.kind === 'options') {
+            const choice = field.choices?.find(c => String(c.value) === String(v));
+            if (choice?.emoji) return <span style={{ fontSize: 16, lineHeight: 1 }}>{choice.emoji}</span>;
+            return <span style={{ ...CUTE_STACK, fontSize: 11, color: tracker.color, fontWeight: 700 }}>{String(v)}</span>;
+        }
+        if (field.kind === 'boolean') {
+            return v
+                ? <span style={{ color: tracker.color, fontSize: 14, fontWeight: 700, lineHeight: 1 }}>✓</span>
+                : <span style={{ color: PAPER_TONES.inkFaint, fontSize: 14 }}>·</span>;
+        }
+        if (field.kind === 'number') {
+            return <span style={{ ...CUTE_STACK, fontSize: 10, color: tracker.color, fontWeight: 700 }}>{v}</span>;
+        }
+        // text / photo: 一个色点表示有记录
+        return <span style={{ color: tracker.color, fontSize: 18, lineHeight: 1 }}>•</span>;
+    };
+
+    const handleSave = async (values: Record<string, any>) => {
+        if (!openDate) return;
+        const existing = entryByDate[openDate];
+        const now = Date.now();
+        const entry: TrackerEntry = existing
+            ? { ...existing, values, updatedAt: now }
+            : { id: `te-${tracker.id}-${openDate}-${now}`, trackerId: tracker.id, date: openDate, values, createdAt: now, updatedAt: now };
+        await DB.saveTrackerEntry(entry);
+        await refresh();
+        setOpenDate(null);
+        onAddToast?.(existing ? '更新好啦 ♡' : '记下啦 ♡', 'success');
+    };
+
+    const handleDelete = async () => {
+        if (!openDate) return;
+        const existing = entryByDate[openDate];
+        if (!existing) return;
+        await DB.deleteTrackerEntry(existing.id);
+        await refresh();
+        setOpenDate(null);
+        onAddToast?.('已撕掉这天 ♡', 'info');
+    };
+
+    return (
+        <div
+            className="flex-1 overflow-y-auto pb-12 relative"
+            style={{
+                background: `${PAPER_TONES.paperWarm} radial-gradient(circle at 20% 10%, ${tracker.color}25 0%, transparent 40%), radial-gradient(circle at 80% 70%, rgba(185,211,224,0.15) 0%, transparent 40%)`,
+            }}
+        >
+            {/* Section 标题区 */}
+            <div className="mx-4 mt-3 mb-4 relative">
+                <div
+                    className="rounded-2xl px-5 py-5 relative overflow-hidden"
+                    style={{
+                        background: '#fff',
+                        boxShadow: '0 3px 10px -2px rgba(122,90,114,0.18), 0 0 0 1.5px rgba(220,199,213,0.5)',
+                    }}
+                >
+                    {/* 散贴纸 */}
+                    <ScatteredStickers seed={`tracker-${tracker.id}`} count={3} zone="corners" />
+
+                    <div className="relative z-10 flex items-center gap-3">
+                        <div
+                            className="w-12 h-12 rounded-full flex items-center justify-center text-2xl shrink-0"
+                            style={{
+                                background: `${tracker.color}40`,
+                                border: `2px solid ${tracker.color}`,
+                            }}
+                        >
+                            {tracker.icon || '★'}
+                        </div>
+                        <div className="flex-1 min-w-0">
+                            <div
+                                className="text-[10px] tracking-[0.4em] mb-0.5"
+                                style={{ ...CUTE_STACK, color: PAPER_TONES.inkSoft }}
+                            >
+                                · TRACKER ·
+                            </div>
+                            <div
+                                className="text-xl font-bold"
+                                style={{ ...SERIF_STACK, color: PAPER_TONES.ink }}
+                            >
+                                {tracker.name}
+                            </div>
+                        </div>
+                        <WashiTape color="cream" pattern="dot" rotate={6}>
+                            {entries.length} 次
+                        </WashiTape>
+                    </div>
+                </div>
+            </div>
+
+            {/* 月历 */}
+            {loading ? (
+                <div
+                    className="text-center py-10 text-sm"
+                    style={{ ...CUTE_STACK, color: PAPER_TONES.inkSoft }}
+                >
+                    翻开中…
+                </div>
+            ) : (
+                <div
+                    className="mx-3 rounded-2xl"
+                    style={{
+                        background: PAPER_TONES.paper,
+                        boxShadow: '0 4px 14px -4px rgba(122,90,114,0.18)',
+                    }}
+                >
+                    <CalendarView
+                        highlightDate={today}
+                        renderCell={renderCell}
+                        onCellTap={(d) => setOpenDate(d)}
+                        accentColor={tracker.color}
+                        title="点格子打卡 · 留白也可以 ♡"
+                    />
+                </div>
+            )}
+
+            {/* 输入 sheet */}
+            {openDate && (
+                <TrackerEntrySheet
+                    visible={!!openDate}
+                    tracker={tracker}
+                    date={openDate}
+                    existingEntry={entryByDate[openDate] || null}
+                    onCancel={() => setOpenDate(null)}
+                    onSave={handleSave}
+                    onDelete={entryByDate[openDate] ? handleDelete : undefined}
+                />
+            )}
+        </div>
+    );
+};
+
+export default TrackerSection;

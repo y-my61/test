@@ -1,1 +1,59 @@
-aW1wb3J0IHsgZGVzY3JpYmUsIGl0LCBleHBlY3QgfSBmcm9tICd2aXRlc3QnOwppbXBvcnQgeyBhc3NldE1pcnJvcnMsIGFzc2V0VXJsLCBhc3NldFBhdGhGcm9tVXJsLCBtaXJyb3JzRm9yVXJsIH0gZnJvbSAnLi9hc3NldFVybCc7CgpkZXNjcmliZSgnYXNzZXRNaXJyb3JzJywgKCkgPT4gewogICAgaXQoJ+S4u+a6kOaYryBqc0RlbGl2cu+8jOacq+S9jeWFnOW6leaYryByYXcuZ2l0aHVidXNlcmNvbnRlbnQnLCAoKSA9PiB7CiAgICAgICAgY29uc3QgbSA9IGFzc2V0TWlycm9ycygnaW1nL01PT04ucG5nJyk7CiAgICAgICAgZXhwZWN0KG1bMF0pLnRvQmUoJ2h0dHBzOi8vY2RuLmpzZGVsaXZyLm5ldC9naC9xZWdqNTY3LWNsb3VkL1N1bGx5T1MtYXNzZXRzQG1haW4vaW1nL01PT04ucG5nJyk7CiAgICAgICAgZXhwZWN0KG1bbS5sZW5ndGggLSAxXSkudG9CZSgnaHR0cHM6Ly9yYXcuZ2l0aHVidXNlcmNvbnRlbnQuY29tL3FlZ2o1NjctY2xvdWQvU3VsbHlPUy1hc3NldHMvbWFpbi9pbWcvTU9PTi5wbmcnKTsKICAgIH0pOwoKICAgIGl0KCfplZzlg4/ot6jlpJrkuKrni6znq4vnvZHnu5zvvIzml6Dph43lpI0nLCAoKSA9PiB7CiAgICAgICAgY29uc3QgbSA9IGFzc2V0TWlycm9ycygnYmdtL1BPRU0vQTAxLm1wMycpOwogICAgICAgIGV4cGVjdChtLmxlbmd0aCkudG9CZUdyZWF0ZXJUaGFuT3JFcXVhbCg0KTsKICAgICAgICBleHBlY3QobmV3IFNldChtKS5zaXplKS50b0JlKG0ubGVuZ3RoKTsKICAgICAgICBleHBlY3QobS5ldmVyeSh1ID0+IHUuZW5kc1dpdGgoJ2JnbS9QT0VNL0EwMS5tcDMnKSkpLnRvQmUodHJ1ZSk7CiAgICB9KTsKCiAgICBpdCgn5ZCD5o6J6Lev5b6E5YmN5a+85pac5p2g77yM5LiN5Lqn55SfIC8vICcsICgpID0+IHsKICAgICAgICBleHBlY3QoYXNzZXRNaXJyb3JzKCcvaW1nL3gucG5nJylbMF0pLnRvQmUoYXNzZXRNaXJyb3JzKCdpbWcveC5wbmcnKVswXSk7CiAgICB9KTsKCiAgICBpdCgnYXNzZXRVcmwg5bCx5piv5Li75rqQJywgKCkgPT4gewogICAgICAgIGV4cGVjdChhc3NldFVybCgnaW1nL3gucG5nJykpLnRvQmUoYXNzZXRNaXJyb3JzKCdpbWcveC5wbmcnKVswXSk7CiAgICB9KTsKfSk7CgpkZXNjcmliZSgnYXNzZXRQYXRoRnJvbVVybCcsICgpID0+IHsKICAgIGl0KCflj43op6MganNEZWxpdnIgQHJlZiDpk77mjqUnLCAoKSA9PiB7CiAgICAgICAgZXhwZWN0KGFzc2V0UGF0aEZyb21VcmwoJ2h0dHBzOi8vY2RuLmpzZGVsaXZyLm5ldC9naC9xZWdqNTY3LWNsb3VkL1N1bGx5T1MtYXNzZXRzQG1haW4vaW1nL01PT04ucG5nJykpCiAgICAgICAgICAgIC50b0JlKCdpbWcvTU9PTi5wbmcnKTsKICAgIH0pOwogICAgaXQoJ+WPjeinoyByYXcuZ2l0aHVidXNlcmNvbnRlbnQg6ZO+5o6lJywgKCkgPT4gewogICAgICAgIGV4cGVjdChhc3NldFBhdGhGcm9tVXJsKCdodHRwczovL3Jhdy5naXRodWJ1c2VyY29udGVudC5jb20vcWVnajU2Ny1jbG91ZC9TdWxseU9TLWFzc2V0cy9tYWluL2ltZy9CT09LLnBuZycpKQogICAgICAgICAgICAudG9CZSgnaW1nL0JPT0sucG5nJyk7CiAgICB9KTsKICAgIGl0KCflj43op6Mgc3RhdGljYWxseSDpk77mjqUnLCAoKSA9PiB7CiAgICAgICAgZXhwZWN0KGFzc2V0UGF0aEZyb21VcmwoJ2h0dHBzOi8vY2RuLnN0YXRpY2FsbHkuaW8vZ2gvcWVnajU2Ny1jbG91ZC9TdWxseU9TLWFzc2V0cy9tYWluL2JnbS9sZXR0ZXIvMS5tcDMnKSkKICAgICAgICAgICAgLnRvQmUoJ2JnbS9sZXR0ZXIvMS5tcDMnKTsKICAgIH0pOwogICAgaXQoJ+WPjeino+W4puWtkOebruW9leeahOa3sei3r+W+hCcsICgpID0+IHsKICAgICAgICBleHBlY3QoYXNzZXRQYXRoRnJvbVVybCgnaHR0cHM6Ly9jZG4uanNkZWxpdnIubmV0L2doL3FlZ2o1NjctY2xvdWQvU3VsbHlPUy1hc3NldHNAbWFpbi9pbWcvRFJFQU1TL2ElMjBiLnBuZycpKQogICAgICAgICAgICAudG9CZSgnaW1nL0RSRUFNUy9hJTIwYi5wbmcnKTsKICAgIH0pOwogICAgaXQoJ+iupOS4jeWHuueahOesrOS4ieaWueWbvuW6iui/lOWbniBudWxsJywgKCkgPT4gewogICAgICAgIGV4cGVjdChhc3NldFBhdGhGcm9tVXJsKCdodHRwczovL3NoYXJrcGFuLnh5ei9mL0JaM1ZTYS9oZWFkLnBuZycpKS50b0JlTnVsbCgpOwogICAgfSk7Cn0pOwoKZGVzY3JpYmUoJ21pcnJvcnNGb3JVcmwnLCAoKSA9PiB7CiAgICBpdCgn5bey55+l57Sg5p2QIHVybCDlsZXlvIDmiJDlrozmlbTplZzlg4/pk74nLCAoKSA9PiB7CiAgICAgICAgY29uc3QgbSA9IG1pcnJvcnNGb3JVcmwoJ2h0dHBzOi8vcmF3LmdpdGh1YnVzZXJjb250ZW50LmNvbS9xZWdqNTY3LWNsb3VkL1N1bGx5T1MtYXNzZXRzL21haW4vaW1nL0JPT0sucG5nJyk7CiAgICAgICAgZXhwZWN0KG1bMF0pLnRvQmUoJ2h0dHBzOi8vY2RuLmpzZGVsaXZyLm5ldC9naC9xZWdqNTY3LWNsb3VkL1N1bGx5T1MtYXNzZXRzQG1haW4vaW1nL0JPT0sucG5nJyk7CiAgICAgICAgZXhwZWN0KG0ubGVuZ3RoKS50b0JlR3JlYXRlclRoYW5PckVxdWFsKDQpOwogICAgfSk7CiAgICBpdCgn6K6k5LiN5Ye655qEIHVybCDljp/moLfljZXmnaHov5Tlm57vvIjkuI3or6/kvKTnrKzkuInmlrnlm77luorvvIknLCAoKSA9PiB7CiAgICAgICAgY29uc3QgdSA9ICdodHRwczovL3NoYXJrcGFuLnh5ei9mL0JaM1ZTYS9oZWFkLnBuZyc7CiAgICAgICAgZXhwZWN0KG1pcnJvcnNGb3JVcmwodSkpLnRvRXF1YWwoW3VdKTsKICAgIH0pOwp9KTsK
+import { describe, it, expect } from 'vitest';
+import { assetMirrors, assetUrl, assetPathFromUrl, mirrorsForUrl } from './assetUrl';
+
+describe('assetMirrors', () => {
+    it('主源是 jsDelivr，末位兜底是 raw.githubusercontent', () => {
+        const m = assetMirrors('img/MOON.png');
+        expect(m[0]).toBe('https://cdn.jsdelivr.net/gh/qegj567-cloud/SullyOS-assets@main/img/MOON.png');
+        expect(m[m.length - 1]).toBe('https://raw.githubusercontent.com/qegj567-cloud/SullyOS-assets/main/img/MOON.png');
+    });
+
+    it('镜像跨多个独立网络，无重复', () => {
+        const m = assetMirrors('bgm/POEM/A01.mp3');
+        expect(m.length).toBeGreaterThanOrEqual(4);
+        expect(new Set(m).size).toBe(m.length);
+        expect(m.every(u => u.endsWith('bgm/POEM/A01.mp3'))).toBe(true);
+    });
+
+    it('吃掉路径前导斜杠，不产生 // ', () => {
+        expect(assetMirrors('/img/x.png')[0]).toBe(assetMirrors('img/x.png')[0]);
+    });
+
+    it('assetUrl 就是主源', () => {
+        expect(assetUrl('img/x.png')).toBe(assetMirrors('img/x.png')[0]);
+    });
+});
+
+describe('assetPathFromUrl', () => {
+    it('反解 jsDelivr @ref 链接', () => {
+        expect(assetPathFromUrl('https://cdn.jsdelivr.net/gh/qegj567-cloud/SullyOS-assets@main/img/MOON.png'))
+            .toBe('img/MOON.png');
+    });
+    it('反解 raw.githubusercontent 链接', () => {
+        expect(assetPathFromUrl('https://raw.githubusercontent.com/qegj567-cloud/SullyOS-assets/main/img/BOOK.png'))
+            .toBe('img/BOOK.png');
+    });
+    it('反解 statically 链接', () => {
+        expect(assetPathFromUrl('https://cdn.statically.io/gh/qegj567-cloud/SullyOS-assets/main/bgm/letter/1.mp3'))
+            .toBe('bgm/letter/1.mp3');
+    });
+    it('反解带子目录的深路径', () => {
+        expect(assetPathFromUrl('https://cdn.jsdelivr.net/gh/qegj567-cloud/SullyOS-assets@main/img/DREAMS/a%20b.png'))
+            .toBe('img/DREAMS/a%20b.png');
+    });
+    it('认不出的第三方图床返回 null', () => {
+        expect(assetPathFromUrl('https://sharkpan.xyz/f/BZ3VSa/head.png')).toBeNull();
+    });
+});
+
+describe('mirrorsForUrl', () => {
+    it('已知素材 url 展开成完整镜像链', () => {
+        const m = mirrorsForUrl('https://raw.githubusercontent.com/qegj567-cloud/SullyOS-assets/main/img/BOOK.png');
+        expect(m[0]).toBe('https://cdn.jsdelivr.net/gh/qegj567-cloud/SullyOS-assets@main/img/BOOK.png');
+        expect(m.length).toBeGreaterThanOrEqual(4);
+    });
+    it('认不出的 url 原样单条返回（不误伤第三方图床）', () => {
+        const u = 'https://sharkpan.xyz/f/BZ3VSa/head.png';
+        expect(mirrorsForUrl(u)).toEqual([u]);
+    });
+});

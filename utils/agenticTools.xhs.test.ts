@@ -1,1 +1,92 @@
-aW1wb3J0IHsgYWZ0ZXJFYWNoLCBkZXNjcmliZSwgZXhwZWN0LCBpdCwgdmkgfSBmcm9tICd2aXRlc3QnOwppbXBvcnQgeyBydW5YaHNEZXRhaWwsIHR5cGUgWGhzQ2FjaGVzIH0gZnJvbSAnLi9hZ2VudGljVG9vbHMnOwppbXBvcnQgeyBYaHNNY3BDbGllbnQgfSBmcm9tICcuL3hoc01jcENsaWVudCc7CgpkZXNjcmliZSgncnVuWGhzRGV0YWlsJywgKCkgPT4gewogICAgYWZ0ZXJFYWNoKCgpID0+IHZpLnJlc3RvcmVBbGxNb2NrcygpKTsKCiAgICBpdCgnZXhwb3NlcyBMaXRlIGludGVyYWN0aW9ucy9jb21tZW50cyB0byB0aGUgcm9sZSBhbmQgZW5yaWNoZXMgdGhlIHNoYXJlIGNhcmQgd2l0aCBvbmUgcmVxdWVzdCcsIGFzeW5jICgpID0+IHsKICAgICAgICBjb25zdCBnZXREZXRhaWwgPSB2aS5zcHlPbihYaHNNY3BDbGllbnQsICdnZXROb3RlRGV0YWlsJykubW9ja1Jlc29sdmVkVmFsdWUoewogICAgICAgICAgICBzdWNjZXNzOiB0cnVlLAogICAgICAgICAgICBkYXRhOiB7CiAgICAgICAgICAgICAgICBkYXRhOiB7CiAgICAgICAgICAgICAgICAgICAgbm90ZTogewogICAgICAgICAgICAgICAgICAgICAgICBub3RlX2lkOiAnbm90ZS0xJywKICAgICAgICAgICAgICAgICAgICAgICAgdGl0bGU6ICflrozmlbTmoIfpopgnLAogICAgICAgICAgICAgICAgICAgICAgICBkZXNjOiAn5a6M5pW05q2j5paHJywKICAgICAgICAgICAgICAgICAgICAgICAgdXNlcjogeyB1c2VyX2lkOiAnYXV0aG9yLTEnLCBuaWNrbmFtZTogJ+alvOS4uycgfSwKICAgICAgICAgICAgICAgICAgICAgICAgaW50ZXJhY3RfaW5mbzogewogICAgICAgICAgICAgICAgICAgICAgICAgICAgbGlrZWRfY291bnQ6ICcxLjLkuIcnLAogICAgICAgICAgICAgICAgICAgICAgICAgICAgY29sbGVjdGVkX2NvdW50OiAnMzQ1JywKICAgICAgICAgICAgICAgICAgICAgICAgICAgIGNvbW1lbnRfY291bnQ6ICcyJywKICAgICAgICAgICAgICAgICAgICAgICAgICAgIHNoYXJlX2NvdW50OiAnOCcsCiAgICAgICAgICAgICAgICAgICAgICAgIH0sCiAgICAgICAgICAgICAgICAgICAgfSwKICAgICAgICAgICAgICAgICAgICBjb21tZW50czogewogICAgICAgICAgICAgICAgICAgICAgICBsaXN0OiBbewogICAgICAgICAgICAgICAgICAgICAgICAgICAgY29tbWVudF9pZDogJ2NvbW1lbnQtMScsCiAgICAgICAgICAgICAgICAgICAgICAgICAgICBjb250ZW50OiAn5LiA57qn6K+E6K66JywKICAgICAgICAgICAgICAgICAgICAgICAgICAgIHVzZXI6IHsgdXNlcl9pZDogJ3VzZXItMScsIG5pY2tuYW1lOiAn55SyJyB9LAogICAgICAgICAgICAgICAgICAgICAgICAgICAgc3ViX2NvbW1lbnRzOiBbewogICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgIGNvbW1lbnRfaWQ6ICdjb21tZW50LTInLAogICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgIGNvbnRlbnQ6ICflm57lpI3lhoXlrrknLAogICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgIHVzZXJfaW5mbzogeyB1c2VyX2lkOiAndXNlci0yJywgbmlja25hbWU6ICfkuZknIH0sCiAgICAgICAgICAgICAgICAgICAgICAgICAgICB9XSwKICAgICAgICAgICAgICAgICAgICAgICAgfV0sCiAgICAgICAgICAgICAgICAgICAgfSwKICAgICAgICAgICAgICAgIH0sCiAgICAgICAgICAgIH0sCiAgICAgICAgfSk7CiAgICAgICAgY29uc3QgY2FjaGVzOiBYaHNDYWNoZXMgPSB7CiAgICAgICAgICAgIHhzZWNUb2tlbkNhY2hlOiBuZXcgTWFwKFtbJ25vdGUtMScsICd0b2tlbi0xJ11dKSwKICAgICAgICAgICAgbm90ZVRpdGxlQ2FjaGU6IG5ldyBNYXAoW1snbm90ZS0xJywgJ+aQnOe0ouagh+mimCddXSksCiAgICAgICAgICAgIGNvbW1lbnRVc2VySWRDYWNoZTogbmV3IE1hcCgpLAogICAgICAgICAgICBjb21tZW50QXV0aG9yTmFtZUNhY2hlOiBuZXcgTWFwKCksCiAgICAgICAgICAgIGNvbW1lbnRQYXJlbnRJZENhY2hlOiBuZXcgTWFwKCksCiAgICAgICAgfTsKICAgICAgICBjb25zdCBsYXN0WGhzTm90ZXNSZWYgPSB7CiAgICAgICAgICAgIGN1cnJlbnQ6IFt7CiAgICAgICAgICAgICAgICBub3RlSWQ6ICdub3RlLTEnLAogICAgICAgICAgICAgICAgdGl0bGU6ICfmkJzntKLmoIfpopgnLAogICAgICAgICAgICAgICAgZGVzYzogJ+aQnOe0ouaRmOimgScsCiAgICAgICAgICAgICAgICBsaWtlczogMSwKICAgICAgICAgICAgICAgIGF1dGhvcjogJ+alvOS4uycsCiAgICAgICAgICAgICAgICBhdXRob3JJZDogJ2F1dGhvci0xJywKICAgICAgICAgICAgICAgIHhzZWNUb2tlbjogJ3Rva2VuLTEnLAogICAgICAgICAgICB9XSwKICAgICAgICB9OwoKICAgICAgICBjb25zdCByZXN1bHQgPSBhd2FpdCBydW5YaHNEZXRhaWwoCiAgICAgICAgICAgIHsgbm90ZUlkOiAnbm90ZS0xJyB9LAogICAgICAgICAgICB7CiAgICAgICAgICAgICAgICBjaGFyOiB7IHhoc0VuYWJsZWQ6IHRydWUgfSBhcyBhbnksCiAgICAgICAgICAgICAgICB1c2VyUHJvZmlsZToge30gYXMgYW55LAogICAgICAgICAgICAgICAgcmVhbHRpbWVDb25maWc6IHsKICAgICAgICAgICAgICAgICAgICB4aHNNY3BDb25maWc6IHsgZW5hYmxlZDogdHJ1ZSwgc2VydmVyVXJsOiAnaHR0cHM6Ly9leGFtcGxlLnRlc3QveGhzJyB9LAogICAgICAgICAgICAgICAgfSBhcyBhbnksCiAgICAgICAgICAgICAgICB4aHNDYWNoZXM6IGNhY2hlcywKICAgICAgICAgICAgICAgIGxhc3RYaHNOb3Rlc1JlZiwKICAgICAgICAgICAgfSwKICAgICAgICApOwoKICAgICAgICBleHBlY3QoZ2V0RGV0YWlsKS50b0hhdmVCZWVuQ2FsbGVkVGltZXMoMSk7CiAgICAgICAgZXhwZWN0KHJlc3VsdCkudG9NYXRjaE9iamVjdCh7IG9rOiB0cnVlLCBmYWlsZWQ6IGZhbHNlIH0pOwogICAgICAgIGV4cGVjdChyZXN1bHQub2sgJiYgcmVzdWx0LmRldGFpbFRleHQpLnRvQ29udGFpbignMTIwMDDotZ4gMzQ15pS26JePIDLor4TorrogOOWIhuS6qycpOwogICAgICAgIGV4cGVjdChyZXN1bHQub2sgJiYgcmVzdWx0LmRldGFpbFRleHQpLnRvQ29udGFpbign55SyOiDkuIDnuqfor4TorronKTsKICAgICAgICBleHBlY3QocmVzdWx0Lm9rICYmIHJlc3VsdC5kZXRhaWxUZXh0KS50b0NvbnRhaW4oJ+S5mTog5Zue5aSN5YaF5a65Jyk7CiAgICAgICAgZXhwZWN0KGNhY2hlcy5jb21tZW50VXNlcklkQ2FjaGUuZ2V0KCdjb21tZW50LTEnKSkudG9CZSgndXNlci0xJyk7CiAgICAgICAgZXhwZWN0KGNhY2hlcy5jb21tZW50VXNlcklkQ2FjaGUuZ2V0KCdjb21tZW50LTInKSkudG9CZSgndXNlci0yJyk7CiAgICAgICAgZXhwZWN0KGNhY2hlcy5jb21tZW50UGFyZW50SWRDYWNoZS5nZXQoJ2NvbW1lbnQtMicpKS50b0JlKCdjb21tZW50LTEnKTsKICAgICAgICBleHBlY3QobGFzdFhoc05vdGVzUmVmLmN1cnJlbnRbMF0pLnRvTWF0Y2hPYmplY3QoewogICAgICAgICAgICBub3RlSWQ6ICdub3RlLTEnLAogICAgICAgICAgICB0aXRsZTogJ+WujOaVtOagh+mimCcsCiAgICAgICAgICAgIGRlc2M6ICflrozmlbTmraPmlocnLAogICAgICAgICAgICBsaWtlczogMTJfMDAwLAogICAgICAgICAgICBjb21tZW50Q291bnQ6IDIsCiAgICAgICAgICAgIGNvbW1lbnRzOiBbCiAgICAgICAgICAgICAgICB7IGF1dGhvcjogJ+eUsicsIGNvbnRlbnQ6ICfkuIDnuqfor4TorronIH0sCiAgICAgICAgICAgICAgICB7IGF1dGhvcjogJ+S5mScsIGNvbnRlbnQ6ICflm57lpI3lhoXlrrknIH0sCiAgICAgICAgICAgIF0sCiAgICAgICAgfSk7CiAgICB9KTsKfSk7Cg==
+import { afterEach, describe, expect, it, vi } from 'vitest';
+import { runXhsDetail, type XhsCaches } from './agenticTools';
+import { XhsMcpClient } from './xhsMcpClient';
+
+describe('runXhsDetail', () => {
+    afterEach(() => vi.restoreAllMocks());
+
+    it('exposes Lite interactions/comments to the role and enriches the share card with one request', async () => {
+        const getDetail = vi.spyOn(XhsMcpClient, 'getNoteDetail').mockResolvedValue({
+            success: true,
+            data: {
+                data: {
+                    note: {
+                        note_id: 'note-1',
+                        title: '完整标题',
+                        desc: '完整正文',
+                        user: { user_id: 'author-1', nickname: '楼主' },
+                        interact_info: {
+                            liked_count: '1.2万',
+                            collected_count: '345',
+                            comment_count: '2',
+                            share_count: '8',
+                        },
+                    },
+                    comments: {
+                        list: [{
+                            comment_id: 'comment-1',
+                            content: '一级评论',
+                            user: { user_id: 'user-1', nickname: '甲' },
+                            sub_comments: [{
+                                comment_id: 'comment-2',
+                                content: '回复内容',
+                                user_info: { user_id: 'user-2', nickname: '乙' },
+                            }],
+                        }],
+                    },
+                },
+            },
+        });
+        const caches: XhsCaches = {
+            xsecTokenCache: new Map([['note-1', 'token-1']]),
+            noteTitleCache: new Map([['note-1', '搜索标题']]),
+            commentUserIdCache: new Map(),
+            commentAuthorNameCache: new Map(),
+            commentParentIdCache: new Map(),
+        };
+        const lastXhsNotesRef = {
+            current: [{
+                noteId: 'note-1',
+                title: '搜索标题',
+                desc: '搜索摘要',
+                likes: 1,
+                author: '楼主',
+                authorId: 'author-1',
+                xsecToken: 'token-1',
+            }],
+        };
+
+        const result = await runXhsDetail(
+            { noteId: 'note-1' },
+            {
+                char: { xhsEnabled: true } as any,
+                userProfile: {} as any,
+                realtimeConfig: {
+                    xhsMcpConfig: { enabled: true, serverUrl: 'https://example.test/xhs' },
+                } as any,
+                xhsCaches: caches,
+                lastXhsNotesRef,
+            },
+        );
+
+        expect(getDetail).toHaveBeenCalledTimes(1);
+        expect(result).toMatchObject({ ok: true, failed: false });
+        expect(result.ok && result.detailText).toContain('12000赞 345收藏 2评论 8分享');
+        expect(result.ok && result.detailText).toContain('甲: 一级评论');
+        expect(result.ok && result.detailText).toContain('乙: 回复内容');
+        expect(caches.commentUserIdCache.get('comment-1')).toBe('user-1');
+        expect(caches.commentUserIdCache.get('comment-2')).toBe('user-2');
+        expect(caches.commentParentIdCache.get('comment-2')).toBe('comment-1');
+        expect(lastXhsNotesRef.current[0]).toMatchObject({
+            noteId: 'note-1',
+            title: '完整标题',
+            desc: '完整正文',
+            likes: 12_000,
+            commentCount: 2,
+            comments: [
+                { author: '甲', content: '一级评论' },
+                { author: '乙', content: '回复内容' },
+            ],
+        });
+    });
+});

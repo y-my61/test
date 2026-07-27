@@ -1,1 +1,49 @@
-aW1wb3J0IHsgZGVzY3JpYmUsIGl0LCBleHBlY3QgfSBmcm9tICd2aXRlc3QnOwppbXBvcnQgeyBDaGF0UGFyc2VyIH0gZnJvbSAnLi9jaGF0UGFyc2VyJzsKCi8vIOmUgeS9j+OAjOWkmuautSA86K+t6Z+zPiDkuI3ooqsgY2h1bmtUZXh0IOaMieaNouihjOWIh+eijuOAjeeahOS/ruWkjeOAggovLyDog4zmma86IOWkluivreivremfs+Wtl+W5leWvuem9kOaooeW8jyAoY2hhdFByb21wdHMgdm9pY2VBY3RpbmdHdWlkZSwgY29tbWl0IGMyYmE4NWUpIOimgeaxguaooeWeiwovLyAgIOaKiiA86K+t6Z+zPiDlhoXlrrnmjInnqbrooYzliIbmiJDlpb3lh6DmrrXjgIJjaHVua1RleHQg5Li75YiH54K55piv5o2i6KGMLCDkv67lpI3liY3kvJrmiorkuIDkuKrlpJrmrrXor63pn7PlnZcKLy8gICDmi4bliLDlpb3lh6DkuKrmsJTms6Hph4wg4oCU4oCUIDzor63pn7M+IOW8gOagh+etvuiQveS4gOadoeOAgTwv6K+t6Z+zPiDpl63moIfnrb7okL3lj6bkuIDmnaEsIE1lc3NhZ2VJdGVtIOeahAovLyAgIGhhc1ZvaWNlVGFnICjopoHmsYLlvIDpl63miJDlr7kpIOWFqOmDqOWMuemFjeWksei0pSwg5LqO5piv5Y6f5aeLIDzor63pn7MgZW1vdGlvbj0i4oCmIj4g5qCH562+5b2T57qv5paH5a2XCi8vICAg5ryP57uZ55So5oi355yLLCDor63pn7PmnaHlkoznv7vor5HkuZ/pg73kuI3muLLmn5MgKOeUqOaIt+aKpeeahOOAjOivremfs+aOieagvOW8j+OAjSnjgIIKZGVzY3JpYmUoJ2NodW5rVGV4dDogPOivremfsz4g5Y6f5a2Q5Z2X5L+d5oqkJywgKCkgPT4gewogIGl0KCflpJrmrrXor63pn7MgKOWQq+epuuihjCkg4oaSIOaVtOWdl+WNlSBjaHVuaywg5byA6Zet5qCH562+5LiN5pWj6JC9JywgKCkgPT4gewogICAgY29uc3QgaW5wdXQgPSAnPOivremfsyBlbW90aW9uPSJjYWxtIj7nrKzkuIDmrrXjgIJcblxu56ys5LqM5q6144CCXG5cbuesrOS4ieauteOAgjwv6K+t6Z+zPic7CiAgICBjb25zdCBjaHVua3MgPSBDaGF0UGFyc2VyLmNodW5rVGV4dChpbnB1dCk7CiAgICBleHBlY3QoY2h1bmtzKS50b0VxdWFsKFsKICAgICAgJzzor63pn7MgZW1vdGlvbj0iY2FsbSI+56ys5LiA5q6144CCXG5cbuesrOS6jOauteOAglxuXG7nrKzkuInmrrXjgII8L+ivremfsz4nLAogICAgXSk7CiAgfSk7CgogIGl0KCfliY3nva7mloflrZcgKyDlpJrmrrXor63pn7Mg4oaSIOaWh+Wtl+aIkOS4gOadoSwg6K+t6Z+z5pW05Z2X5oiQ5LiA5p2hJywgKCkgPT4gewogICAgY29uc3QgaW5wdXQgPSAn5L2g5ZCs5oiR6K+0XG486K+t6Z+zIGVtb3Rpb249InNhZCI+44Gt44GI44CB6IGe44GE44Gm44CCXG5cbuWkp+S4iOWkq+OBoOOBi+OCieOAgjwv6K+t6Z+zPic7CiAgICBjb25zdCBjaHVua3MgPSBDaGF0UGFyc2VyLmNodW5rVGV4dChpbnB1dCk7CiAgICBleHBlY3QoY2h1bmtzKS50b0VxdWFsKFsKICAgICAgJ+S9oOWQrOaIkeivtCcsCiAgICAgICc86K+t6Z+zIGVtb3Rpb249InNhZCI+44Gt44GI44CB6IGe44GE44Gm44CCXG5cbuWkp+S4iOWkq+OBoOOBi+OCieOAgjwv6K+t6Z+zPicsCiAgICBdKTsKICB9KTsKCiAgaXQoJ+ivremfs+Wdl+WQjui/mOacieato+aWhyDihpIg6K+t6Z+z5pW05Z2XICsg5q2j5paH5ZCE6Ieq5oiQ5p2hJywgKCkgPT4gewogICAgY29uc3QgaW5wdXQgPSAnPOivremfsz5XYWl0Li4uXG5hcmUgeW91IHNlcmlvdXM/PC/or63pn7M+XG7nnJ/nmoTlgYfnmoQnOwogICAgY29uc3QgY2h1bmtzID0gQ2hhdFBhcnNlci5jaHVua1RleHQoaW5wdXQpOwogICAgZXhwZWN0KGNodW5rcykudG9FcXVhbChbCiAgICAgICc86K+t6Z+zPldhaXQuLi5cbmFyZSB5b3Ugc2VyaW91cz88L+ivremfsz4nLAogICAgICAn55yf55qE5YGH55qEJywKICAgIF0pOwogIH0pOwoKICBpdCgn57mB5L2TIDzoqp7pn7M+IOWQjOagt+WPl+S/neaKpCcsICgpID0+IHsKICAgIGNvbnN0IGlucHV0ID0gJzzoqp7pn7MgZW1vdGlvbj0iaGFwcHkiPuS7iuaXpeOBr+OBhOOBhOWkqeawl+OAglxuXG7mlaPmranjgZfjgojjgYbjgII8L+iqnumfsz4nOwogICAgY29uc3QgY2h1bmtzID0gQ2hhdFBhcnNlci5jaHVua1RleHQoaW5wdXQpOwogICAgZXhwZWN0KGNodW5rcykudG9FcXVhbChbCiAgICAgICc86Kqe6Z+zIGVtb3Rpb249ImhhcHB5Ij7ku4rml6Xjga/jgYTjgYTlpKnmsJfjgIJcblxu5pWj5q2p44GX44KI44GG44CCPC/oqp7pn7M+JywKICAgIF0pOwogIH0pOwoKICBpdCgn5peg6K+t6Z+z5qCH562+5pe26KGM5Li65LiN5Zue5b2SICjku43mjInmjaLooYwgKyBDSksg56m65qC85YiG5rCU5rOhKScsICgpID0+IHsKICAgIGV4cGVjdChDaGF0UGFyc2VyLmNodW5rVGV4dCgn56ys5LiA5Y+lXG7nrKzkuozlj6UnKSkudG9FcXVhbChbJ+esrOS4gOWPpScsICfnrKzkuozlj6UnXSk7CiAgICBleHBlY3QoQ2hhdFBhcnNlci5jaHVua1RleHQoJ+S9oOWlvSDkuJbnlYwnKSkudG9FcXVhbChbJ+S9oOWlvScsICfkuJbnlYwnXSk7CiAgfSk7Cn0pOwo=
+import { describe, it, expect } from 'vitest';
+import { ChatParser } from './chatParser';
+
+// 锁住「多段 <语音> 不被 chunkText 按换行切碎」的修复。
+// 背景: 外语语音字幕对齐模式 (chatPrompts voiceActingGuide, commit c2ba85e) 要求模型
+//   把 <语音> 内容按空行分成好几段。chunkText 主切点是换行, 修复前会把一个多段语音块
+//   拆到好几个气泡里 —— <语音> 开标签落一条、</语音> 闭标签落另一条, MessageItem 的
+//   hasVoiceTag (要求开闭成对) 全部匹配失败, 于是原始 <语音 emotion="…"> 标签当纯文字
+//   漏给用户看, 语音条和翻译也都不渲染 (用户报的「语音掉格式」)。
+describe('chunkText: <语音> 原子块保护', () => {
+  it('多段语音 (含空行) → 整块单 chunk, 开闭标签不散落', () => {
+    const input = '<语音 emotion="calm">第一段。\n\n第二段。\n\n第三段。</语音>';
+    const chunks = ChatParser.chunkText(input);
+    expect(chunks).toEqual([
+      '<语音 emotion="calm">第一段。\n\n第二段。\n\n第三段。</语音>',
+    ]);
+  });
+
+  it('前置文字 + 多段语音 → 文字成一条, 语音整块成一条', () => {
+    const input = '你听我说\n<语音 emotion="sad">ねえ、聞いて。\n\n大丈夫だから。</语音>';
+    const chunks = ChatParser.chunkText(input);
+    expect(chunks).toEqual([
+      '你听我说',
+      '<语音 emotion="sad">ねえ、聞いて。\n\n大丈夫だから。</语音>',
+    ]);
+  });
+
+  it('语音块后还有正文 → 语音整块 + 正文各自成条', () => {
+    const input = '<语音>Wait...\nare you serious?</语音>\n真的假的';
+    const chunks = ChatParser.chunkText(input);
+    expect(chunks).toEqual([
+      '<语音>Wait...\nare you serious?</语音>',
+      '真的假的',
+    ]);
+  });
+
+  it('繁体 <語音> 同样受保护', () => {
+    const input = '<語音 emotion="happy">今日はいい天気。\n\n散歩しよう。</語音>';
+    const chunks = ChatParser.chunkText(input);
+    expect(chunks).toEqual([
+      '<語音 emotion="happy">今日はいい天気。\n\n散歩しよう。</語音>',
+    ]);
+  });
+
+  it('无语音标签时行为不回归 (仍按换行 + CJK 空格分气泡)', () => {
+    expect(ChatParser.chunkText('第一句\n第二句')).toEqual(['第一句', '第二句']);
+    expect(ChatParser.chunkText('你好 世界')).toEqual(['你好', '世界']);
+  });
+});

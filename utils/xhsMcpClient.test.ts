@@ -1,1 +1,86 @@
-aW1wb3J0IHsgZGVzY3JpYmUsIGV4cGVjdCwgaXQgfSBmcm9tICd2aXRlc3QnOwppbXBvcnQgewogICAgbm9ybWFsaXplTm90ZSwKICAgIG5vcm1hbGl6ZVhoc0NvbW1lbnRzLAogICAgbm9ybWFsaXplWGhzTGl0ZURldGFpbCwKICAgIHBhcnNlWGhzQ291bnQsCn0gZnJvbSAnLi94aHNNY3BDbGllbnQnOwoKZGVzY3JpYmUoJ1hIUyBMaXRlIHJlc3BvbnNlIG5vcm1hbGl6YXRpb24nLCAoKSA9PiB7CiAgICBpdCgncGFyc2VzIGNvbXBhY3QgY291bnRlcnMgd2l0aG91dCB0dXJuaW5nIDEuMuS4hyBpbnRvIDEnLCAoKSA9PiB7CiAgICAgICAgZXhwZWN0KHBhcnNlWGhzQ291bnQoJzEuMuS4hycpKS50b0JlKDEyXzAwMCk7CiAgICAgICAgZXhwZWN0KHBhcnNlWGhzQ291bnQoJzPkuIcrJykpLnRvQmUoMzBfMDAwKTsKICAgICAgICBleHBlY3QocGFyc2VYaHNDb3VudCgnMi41aycpKS50b0JlKDJfNTAwKTsKICAgICAgICBleHBlY3QocGFyc2VYaHNDb3VudCgnMSwyMzQnKSkudG9CZSgxXzIzNCk7CiAgICB9KTsKCiAgICBpdCgncmVhZHMgc25ha2VfY2FzZSBpbnRlcmFjdGlvbiBjb3VudGVycyByZXR1cm5lZCBieSBMaXRlJywgKCkgPT4gewogICAgICAgIGV4cGVjdChub3JtYWxpemVOb3RlKHsKICAgICAgICAgICAgbm90ZV9pZDogJ25vdGUtMScsCiAgICAgICAgICAgIHRpdGxlOiAn5qCH6aKYJywKICAgICAgICAgICAgaW50ZXJhY3RfaW5mbzogewogICAgICAgICAgICAgICAgbGlrZWRfY291bnQ6ICcxLjLkuIcnLAogICAgICAgICAgICAgICAgY29sbGVjdGVkX2NvdW50OiAnMzQ1JywKICAgICAgICAgICAgICAgIGNvbW1lbnRfY291bnQ6ICc2NycsCiAgICAgICAgICAgICAgICBzaGFyZV9jb3VudDogJzgnLAogICAgICAgICAgICB9LAogICAgICAgIH0pKS50b01hdGNoT2JqZWN0KHsKICAgICAgICAgICAgbm90ZUlkOiAnbm90ZS0xJywKICAgICAgICAgICAgbGlrZXM6IDEyXzAwMCwKICAgICAgICAgICAgY29sbGVjdHM6IDM0NSwKICAgICAgICAgICAgY29tbWVudENvdW50OiA2NywKICAgICAgICAgICAgc2hhcmVDb3VudDogOCwKICAgICAgICB9KTsKICAgIH0pOwoKICAgIGl0KCdrZWVwcyB1c2VyL3VzZXJfaW5mbyBhdXRob3JzIGFuZCBuZXN0ZWQgc3ViX2NvbW1lbnRzJywgKCkgPT4gewogICAgICAgIGNvbnN0IHBheWxvYWQgPSB7CiAgICAgICAgICAgIGRhdGE6IHsKICAgICAgICAgICAgICAgIG5vdGU6IHsgbm90ZV9pZDogJ25vdGUtMScsIHRpdGxlOiAn5qCH6aKYJyB9LAogICAgICAgICAgICAgICAgY29tbWVudHM6IHsKICAgICAgICAgICAgICAgICAgICBsaXN0OiBbewogICAgICAgICAgICAgICAgICAgICAgICBjb21tZW50X2lkOiAnY29tbWVudC0xJywKICAgICAgICAgICAgICAgICAgICAgICAgY29udGVudDogJ+S4gOe6p+ivhOiuuicsCiAgICAgICAgICAgICAgICAgICAgICAgIGxpa2VfY291bnQ6ICcxLjLkuIcnLAogICAgICAgICAgICAgICAgICAgICAgICB1c2VyOiB7IHVzZXJfaWQ6ICd1c2VyLTEnLCBuaWNrbmFtZTogJ+eUsicgfSwKICAgICAgICAgICAgICAgICAgICAgICAgc3ViX2NvbW1lbnRzOiBbewogICAgICAgICAgICAgICAgICAgICAgICAgICAgY29tbWVudF9pZDogJ2NvbW1lbnQtMicsCiAgICAgICAgICAgICAgICAgICAgICAgICAgICBjb250ZW50OiAn5Zue5aSN5YaF5a65JywKICAgICAgICAgICAgICAgICAgICAgICAgICAgIGxpa2VfY291bnQ6ICcyJywKICAgICAgICAgICAgICAgICAgICAgICAgICAgIHVzZXJfaW5mbzogeyB1c2VyX2lkOiAndXNlci0yJywgbmlja25hbWU6ICfkuZknIH0sCiAgICAgICAgICAgICAgICAgICAgICAgIH1dLAogICAgICAgICAgICAgICAgICAgIH1dLAogICAgICAgICAgICAgICAgfSwKICAgICAgICAgICAgfSwKICAgICAgICB9OwoKICAgICAgICBleHBlY3Qobm9ybWFsaXplWGhzQ29tbWVudHMocGF5bG9hZCkpLnRvTWF0Y2hPYmplY3QoW3sKICAgICAgICAgICAgY29tbWVudElkOiAnY29tbWVudC0xJywKICAgICAgICAgICAgdXNlcklkOiAndXNlci0xJywKICAgICAgICAgICAgYXV0aG9yOiAn55SyJywKICAgICAgICAgICAgbGlrZXM6IDEyXzAwMCwKICAgICAgICAgICAgc3ViQ29tbWVudHM6IFt7CiAgICAgICAgICAgICAgICBjb21tZW50SWQ6ICdjb21tZW50LTInLAogICAgICAgICAgICAgICAgdXNlcklkOiAndXNlci0yJywKICAgICAgICAgICAgICAgIGF1dGhvcjogJ+S5mScsCiAgICAgICAgICAgICAgICBwYXJlbnRDb21tZW50SWQ6ICdjb21tZW50LTEnLAogICAgICAgICAgICB9XSwKICAgICAgICB9XSk7CiAgICAgICAgZXhwZWN0KG5vcm1hbGl6ZVhoc0xpdGVEZXRhaWwocGF5bG9hZCkuY29tbWVudHMpLnRvRXF1YWwoWwogICAgICAgICAgICB7CiAgICAgICAgICAgICAgICBhdXRob3I6ICfnlLInLAogICAgICAgICAgICAgICAgY29udGVudDogJ+S4gOe6p+ivhOiuuicsCiAgICAgICAgICAgICAgICBsaWtlczogMTJfMDAwLAogICAgICAgICAgICAgICAgY29tbWVudElkOiAnY29tbWVudC0xJywKICAgICAgICAgICAgICAgIHVzZXJJZDogJ3VzZXItMScsCiAgICAgICAgICAgIH0sCiAgICAgICAgICAgIHsKICAgICAgICAgICAgICAgIGF1dGhvcjogJ+S5mScsCiAgICAgICAgICAgICAgICBjb250ZW50OiAn5Zue5aSN5YaF5a65JywKICAgICAgICAgICAgICAgIGxpa2VzOiAyLAogICAgICAgICAgICAgICAgY29tbWVudElkOiAnY29tbWVudC0yJywKICAgICAgICAgICAgICAgIHVzZXJJZDogJ3VzZXItMicsCiAgICAgICAgICAgIH0sCiAgICAgICAgXSk7CiAgICB9KTsKfSk7Cg==
+import { describe, expect, it } from 'vitest';
+import {
+    normalizeNote,
+    normalizeXhsComments,
+    normalizeXhsLiteDetail,
+    parseXhsCount,
+} from './xhsMcpClient';
+
+describe('XHS Lite response normalization', () => {
+    it('parses compact counters without turning 1.2万 into 1', () => {
+        expect(parseXhsCount('1.2万')).toBe(12_000);
+        expect(parseXhsCount('3万+')).toBe(30_000);
+        expect(parseXhsCount('2.5k')).toBe(2_500);
+        expect(parseXhsCount('1,234')).toBe(1_234);
+    });
+
+    it('reads snake_case interaction counters returned by Lite', () => {
+        expect(normalizeNote({
+            note_id: 'note-1',
+            title: '标题',
+            interact_info: {
+                liked_count: '1.2万',
+                collected_count: '345',
+                comment_count: '67',
+                share_count: '8',
+            },
+        })).toMatchObject({
+            noteId: 'note-1',
+            likes: 12_000,
+            collects: 345,
+            commentCount: 67,
+            shareCount: 8,
+        });
+    });
+
+    it('keeps user/user_info authors and nested sub_comments', () => {
+        const payload = {
+            data: {
+                note: { note_id: 'note-1', title: '标题' },
+                comments: {
+                    list: [{
+                        comment_id: 'comment-1',
+                        content: '一级评论',
+                        like_count: '1.2万',
+                        user: { user_id: 'user-1', nickname: '甲' },
+                        sub_comments: [{
+                            comment_id: 'comment-2',
+                            content: '回复内容',
+                            like_count: '2',
+                            user_info: { user_id: 'user-2', nickname: '乙' },
+                        }],
+                    }],
+                },
+            },
+        };
+
+        expect(normalizeXhsComments(payload)).toMatchObject([{
+            commentId: 'comment-1',
+            userId: 'user-1',
+            author: '甲',
+            likes: 12_000,
+            subComments: [{
+                commentId: 'comment-2',
+                userId: 'user-2',
+                author: '乙',
+                parentCommentId: 'comment-1',
+            }],
+        }]);
+        expect(normalizeXhsLiteDetail(payload).comments).toEqual([
+            {
+                author: '甲',
+                content: '一级评论',
+                likes: 12_000,
+                commentId: 'comment-1',
+                userId: 'user-1',
+            },
+            {
+                author: '乙',
+                content: '回复内容',
+                likes: 2,
+                commentId: 'comment-2',
+                userId: 'user-2',
+            },
+        ]);
+    });
+});

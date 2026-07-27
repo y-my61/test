@@ -1,1 +1,59 @@
-aW1wb3J0IHsgZGVzY3JpYmUsIGl0LCBleHBlY3QgfSBmcm9tICd2aXRlc3QnOwppbXBvcnQgeyBjb3VudFVucHJvY2Vzc2VkQnVmZmVyTWVzc2FnZXMgfSBmcm9tICcuL2J1ZmZlckNvdW50JzsKaW1wb3J0IHsgaXNNZXNzYWdlU2VtYW50aWNhbGx5UmVsZXZhbnQgfSBmcm9tICcuLi9tZXNzYWdlRm9ybWF0JzsKCi8qKiDpgKDkuIDmibkgaWQg6L+e57ut44CB5YaF5a656Z2e56m655qE5paH5pys5raI5oGvICovCmNvbnN0IG1ha2VNc2dzID0gKG46IG51bWJlciwgc3RhcnRJZCA9IDEpID0+CiAgICBBcnJheS5mcm9tKHsgbGVuZ3RoOiBuIH0sIChfLCBpKSA9PiAoeyBpZDogc3RhcnRJZCArIGksIHR5cGU6ICd0ZXh0JywgY29udGVudDogJ3gnIH0pKSBhcyBhbnk7CgpkZXNjcmliZSgnY291bnRVbnByb2Nlc3NlZEJ1ZmZlck1lc3NhZ2Vz77yI6K6w5b+G5a6r5q6/5pyq5ZCM5q2l5Y+j5b6E77yJJywgKCkgPT4gewogICAgaXQoJ+a2iOaBr+aVsCA8PSDng63ljLrml7bmgZLkuLogMO+8iOWFqOWcqOeDreWMuu+8jOawuOi/nOS4jeS8muiiq+WkhOeQhu+8iScsICgpID0+IHsKICAgICAgICBleHBlY3QoY291bnRVbnByb2Nlc3NlZEJ1ZmZlck1lc3NhZ2VzKG1ha2VNc2dzKDIwMCksIDAsIDIwMCkpLnRvQmUoMCk7CiAgICAgICAgLy8g5bCP54Ot5Yy65ZCM55CGCiAgICAgICAgZXhwZWN0KGNvdW50VW5wcm9jZXNzZWRCdWZmZXJNZXNzYWdlcyhtYWtlTXNncygzKSwgMCwgMykpLnRvQmUoMCk7CiAgICB9KTsKCiAgICBpdCgn5o6S6Zmk5pyA5ZCOIE4g5p2h54Ot5Yy677yaMjUwIOadoeOAgWh3bT0w44CB54Ot5Yy6MjAwIOKGkiDlj6rmlbDliY0gNTAg5p2hJywgKCkgPT4gewogICAgICAgIGV4cGVjdChjb3VudFVucHJvY2Vzc2VkQnVmZmVyTWVzc2FnZXMobWFrZU1zZ3MoMjUwKSwgMCwgMjAwKSkudG9CZSg1MCk7CiAgICB9KTsKCiAgICBpdCgn5YaN5o6S6Zmk5bey5aSE55CGKGlkIDw9IGh3bSnvvJoyNTAg5p2h44CBaHdtPTMw44CB54Ot5Yy6MjAwIOKGkiA1MCDph4zljrvmjonliY0gMzAgPSAyMCcsICgpID0+IHsKICAgICAgICBleHBlY3QoY291bnRVbnByb2Nlc3NlZEJ1ZmZlck1lc3NhZ2VzKG1ha2VNc2dzKDI1MCksIDMwLCAyMDApKS50b0JlKDIwKTsKICAgIH0pOwoKICAgIGl0KCflsI/ng63ljLrnsr7noa7ovrnnlYzvvJo1IOadoeOAgeeDreWMujPjgIFod209MCDihpIg5Y+q5pyJIGlkIDHjgIEyIOiQveWcqOe8k+WGsuWMuiA9IDInLCAoKSA9PiB7CiAgICAgICAgLy8g5o6S5bqP5ZCOIFsxLDIsMyw0LDVd77yM54Ot5Yy66LW354K5ID0g5YCS5pWw56ysIDMg5p2hID0gaWQgM++8m+e8k+WGsuWMuiA9IGlkPjAg5LiUIGlkPDMgPSB7MSwyfQogICAgICAgIGV4cGVjdChjb3VudFVucHJvY2Vzc2VkQnVmZmVyTWVzc2FnZXMobWFrZU1zZ3MoNSksIDAsIDMpKS50b0JlKDIpOwogICAgfSk7CgogICAgaXQoJ+S5seW6j+i+k+WFpeS5n+aMiSBpZCDmjpLluo/lkI7orqHnrpfvvIznu5PmnpzkuIDoh7QnLCAoKSA9PiB7CiAgICAgICAgY29uc3Qgc2h1ZmZsZWQgPSBbeyBpZDogNSB9LCB7IGlkOiAxIH0sIHsgaWQ6IDMgfSwgeyBpZDogMiB9LCB7IGlkOiA0IH1dIGFzIGFueTsKICAgICAgICBleHBlY3QoY291bnRVbnByb2Nlc3NlZEJ1ZmZlck1lc3NhZ2VzKHNodWZmbGVkLCAwLCAzKSkudG9CZSgyKTsKICAgIH0pOwoKICAgIGl0KCflm57lvZLlrojljavvvJrnu53kuI3og73pgIDlm54gImlkID4gaHdtIiDoo7jlj6PlvoQnLCAoKSA9PiB7CiAgICAgICAgY29uc3QgbXNncyA9IG1ha2VNc2dzKDI1MCk7IC8vIGlkIDEuLjI1MAogICAgICAgIGNvbnN0IG5haXZlID0gbXNncy5maWx0ZXIoKG06IGFueSkgPT4gbS5pZCA+IDApLmxlbmd0aDsgLy8g6KO45Y+j5b6EID0gMjUwCiAgICAgICAgY29uc3QgY29ycmVjdCA9IGNvdW50VW5wcm9jZXNzZWRCdWZmZXJNZXNzYWdlcyhtc2dzLCAwLCAyMDApOyAvLyDmraPnoa4gPSA1MAogICAgICAgIGV4cGVjdChjb3JyZWN0KS50b0JlKDUwKTsKICAgICAgICBleHBlY3QoY29ycmVjdCkubm90LnRvQmUobmFpdmUpOyAvLyDoi6XmnInkurrmlLnlm57oo7jov4fmu6TvvIzov5nkuIDooYzkvJrmjIIKICAgIH0pOwoKICAgIGl0KCfor63pn7PovazlhpnkuI4gbWV0YWRhdGEg5Y2h54mH6L+b5YWl5ZCM5LiA5rC05L2N57q/57uf6K6h77yM57qv5aqS5L2T5LiN6K6h5pWwJywgKCkgPT4gewogICAgICAgIGNvbnN0IG1peGVkID0gWwogICAgICAgICAgICB7IGlkOiAxLCB0eXBlOiAndGV4dCcsIGNvbnRlbnQ6ICfmloflrZcnIH0sCiAgICAgICAgICAgIHsgaWQ6IDIsIHR5cGU6ICd2b2ljZScsIGNvbnRlbnQ6ICfor63pn7PphY3lpZfmloflrZcnIH0sCiAgICAgICAgICAgIHsgaWQ6IDMsIHR5cGU6ICd4aHNfY2FyZCcsIGNvbnRlbnQ6ICcnLCBtZXRhZGF0YTogeyB4aHNOb3RlOiB7IHRpdGxlOiAn5Y2h54mH5qCH6aKYJyB9IH0gfSwKICAgICAgICAgICAgeyBpZDogNCwgdHlwZTogJ2ltYWdlJywgY29udGVudDogJ2RhdGE6aW1hZ2UvcG5nO2Jhc2U2NCxBQUFBJyB9LAogICAgICAgICAgICB7IGlkOiA1LCB0eXBlOiAnZW1vamknLCBjb250ZW50OiAnYmxvYjplbW9qaScgfSwKICAgICAgICAgICAgeyBpZDogNiwgdHlwZTogJ3ZvaWNlJywgY29udGVudDogJ2Jsb2I6dm9pY2UnIH0sCiAgICAgICAgICAgIHsgaWQ6IDcsIHR5cGU6ICd0ZXh0JywgY29udGVudDogJ+eDreWMuuS4gCcgfSwKICAgICAgICAgICAgeyBpZDogOCwgdHlwZTogJ3RleHQnLCBjb250ZW50OiAn54Ot5Yy65LqMJyB9LAogICAgICAgIF0gYXMgYW55OwogICAgICAgIGNvbnN0IHNlbWFudGljID0gbWl4ZWQuZmlsdGVyKGlzTWVzc2FnZVNlbWFudGljYWxseVJlbGV2YW50KTsKCiAgICAgICAgZXhwZWN0KHNlbWFudGljLm1hcCgobTogYW55KSA9PiBtLmlkKSkudG9FcXVhbChbMSwgMiwgMywgNywgOF0pOwogICAgICAgIGV4cGVjdChjb3VudFVucHJvY2Vzc2VkQnVmZmVyTWVzc2FnZXMoc2VtYW50aWMsIDAsIDIpKS50b0JlKDMpOwogICAgICAgIGV4cGVjdChjb3VudFVucHJvY2Vzc2VkQnVmZmVyTWVzc2FnZXMoc2VtYW50aWMsIDEsIDIpKS50b0JlKDIpOwogICAgfSk7Cn0pOwo=
+import { describe, it, expect } from 'vitest';
+import { countUnprocessedBufferMessages } from './bufferCount';
+import { isMessageSemanticallyRelevant } from '../messageFormat';
+
+/** 造一批 id 连续、内容非空的文本消息 */
+const makeMsgs = (n: number, startId = 1) =>
+    Array.from({ length: n }, (_, i) => ({ id: startId + i, type: 'text', content: 'x' })) as any;
+
+describe('countUnprocessedBufferMessages（记忆宫殿未同步口径）', () => {
+    it('消息数 <= 热区时恒为 0（全在热区，永远不会被处理）', () => {
+        expect(countUnprocessedBufferMessages(makeMsgs(200), 0, 200)).toBe(0);
+        // 小热区同理
+        expect(countUnprocessedBufferMessages(makeMsgs(3), 0, 3)).toBe(0);
+    });
+
+    it('排除最后 N 条热区：250 条、hwm=0、热区200 → 只数前 50 条', () => {
+        expect(countUnprocessedBufferMessages(makeMsgs(250), 0, 200)).toBe(50);
+    });
+
+    it('再排除已处理(id <= hwm)：250 条、hwm=30、热区200 → 50 里去掉前 30 = 20', () => {
+        expect(countUnprocessedBufferMessages(makeMsgs(250), 30, 200)).toBe(20);
+    });
+
+    it('小热区精确边界：5 条、热区3、hwm=0 → 只有 id 1、2 落在缓冲区 = 2', () => {
+        // 排序后 [1,2,3,4,5]，热区起点 = 倒数第 3 条 = id 3；缓冲区 = id>0 且 id<3 = {1,2}
+        expect(countUnprocessedBufferMessages(makeMsgs(5), 0, 3)).toBe(2);
+    });
+
+    it('乱序输入也按 id 排序后计算，结果一致', () => {
+        const shuffled = [{ id: 5 }, { id: 1 }, { id: 3 }, { id: 2 }, { id: 4 }] as any;
+        expect(countUnprocessedBufferMessages(shuffled, 0, 3)).toBe(2);
+    });
+
+    it('回归守卫：绝不能退回 "id > hwm" 裸口径', () => {
+        const msgs = makeMsgs(250); // id 1..250
+        const naive = msgs.filter((m: any) => m.id > 0).length; // 裸口径 = 250
+        const correct = countUnprocessedBufferMessages(msgs, 0, 200); // 正确 = 50
+        expect(correct).toBe(50);
+        expect(correct).not.toBe(naive); // 若有人改回裸过滤，这一行会挂
+    });
+
+    it('语音转写与 metadata 卡片进入同一水位线统计，纯媒体不计数', () => {
+        const mixed = [
+            { id: 1, type: 'text', content: '文字' },
+            { id: 2, type: 'voice', content: '语音配套文字' },
+            { id: 3, type: 'xhs_card', content: '', metadata: { xhsNote: { title: '卡片标题' } } },
+            { id: 4, type: 'image', content: 'data:image/png;base64,AAAA' },
+            { id: 5, type: 'emoji', content: 'blob:emoji' },
+            { id: 6, type: 'voice', content: 'blob:voice' },
+            { id: 7, type: 'text', content: '热区一' },
+            { id: 8, type: 'text', content: '热区二' },
+        ] as any;
+        const semantic = mixed.filter(isMessageSemanticallyRelevant);
+
+        expect(semantic.map((m: any) => m.id)).toEqual([1, 2, 3, 7, 8]);
+        expect(countUnprocessedBufferMessages(semantic, 0, 2)).toBe(3);
+        expect(countUnprocessedBufferMessages(semantic, 1, 2)).toBe(2);
+    });
+});

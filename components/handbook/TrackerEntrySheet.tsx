@@ -1,1 +1,327 @@
-LyoqCiAqIOmAmueUqCBUcmFja2VyIOaJk+WNoei+k+WFpeihqOWNlSjlupXpg6jlvLnlh7opCiAqCiAqIOS4jee7keWumiBtb29kIOKAlOKAlCDmoLnmja4gdHJhY2tlci5zY2hlbWEg5Yqo5oCB5riy5p+TOgogKiAgIHJhdGluZyAg4oaSIDUg6aKXIGVtb2ppL+iJsuWdl+aMiemSrgogKiAgIG51bWJlciAg4oaSIOaVsOWtl+i+k+WFpSjlj6/liqAgdW5pdCkKICogICBvcHRpb25zIOKGkiDmqKrmjpIgcGlsbCDmjInpkq4o5Y+v5bimIGVtb2ppKQogKiAgIHRleHQgICAg4oaSIOWNleihjCB0ZXh0YXJlYQogKiAgIGJvb2xlYW4g4oaSIOW8gOWFswogKiAgIHBob3RvICAg4oaSIOaWh+S7tiDihpIgYmFzZTY0IOe8qeeVpQogKgogKiDov5nkuIDkuKrnu4Tku7bopobnm5bmiYDmnIkgdHJhY2tlciDnmoTovpPlhaXpnIDmsYIs5LiN5b+F5q+P5Yqg5LiA5LiqIHRyYWNrZXIg5YaZ5LiA5LiqIHNoZWV0CiAqLwoKaW1wb3J0IFJlYWN0LCB7IHVzZVN0YXRlLCB1c2VFZmZlY3QgfSBmcm9tICdyZWFjdCc7CmltcG9ydCB7IFRyYWNrZXIsIFRyYWNrZXJFbnRyeSwgVHJhY2tlckZpZWxkIH0gZnJvbSAnLi4vLi4vdHlwZXMnOwppbXBvcnQgeyBQQVBFUl9UT05FUywgU0VSSUZfU1RBQ0ssIENVVEVfU1RBQ0ssIFdhc2hpVGFwZSB9IGZyb20gJy4vcGFwZXInOwppbXBvcnQgeyBIZWFydFN0aWNrZXIsIFN0YXJTdGlja2VyIH0gZnJvbSAnLi9zdGlja2Vycyc7CmltcG9ydCB7IFRyYXNoLCBYLCBGbG9wcHlEaXNrIH0gZnJvbSAnQHBob3NwaG9yLWljb25zL3JlYWN0JzsKCmludGVyZmFjZSBQcm9wcyB7CiAgICB2aXNpYmxlOiBib29sZWFuOwogICAgdHJhY2tlcjogVHJhY2tlcjsKICAgIGRhdGU6IHN0cmluZzsKICAgIGV4aXN0aW5nRW50cnk6IFRyYWNrZXJFbnRyeSB8IG51bGw7CiAgICBvbkNhbmNlbDogKCkgPT4gdm9pZDsKICAgIG9uU2F2ZTogKHZhbHVlczogUmVjb3JkPHN0cmluZywgYW55PikgPT4gdm9pZDsKICAgIG9uRGVsZXRlPzogKCkgPT4gdm9pZDsKfQoKY29uc3QgVHJhY2tlckVudHJ5U2hlZXQ6IFJlYWN0LkZDPFByb3BzPiA9ICh7CiAgICB2aXNpYmxlLCB0cmFja2VyLCBkYXRlLCBleGlzdGluZ0VudHJ5LCBvbkNhbmNlbCwgb25TYXZlLCBvbkRlbGV0ZSwKfSkgPT4gewogICAgY29uc3QgW3ZhbHVlcywgc2V0VmFsdWVzXSA9IHVzZVN0YXRlPFJlY29yZDxzdHJpbmcsIGFueT4+KHt9KTsKCiAgICB1c2VFZmZlY3QoKCkgPT4gewogICAgICAgIHNldFZhbHVlcyhleGlzdGluZ0VudHJ5Py52YWx1ZXMgfHwge30pOwogICAgfSwgW2V4aXN0aW5nRW50cnksIHZpc2libGVdKTsKCiAgICBpZiAoIXZpc2libGUpIHJldHVybiBudWxsOwoKICAgIGNvbnN0IHNldEZpZWxkID0gKGtleTogc3RyaW5nLCB2OiBhbnkpID0+IHNldFZhbHVlcyhwcmV2ID0+ICh7IC4uLnByZXYsIFtrZXldOiB2IH0pKTsKCiAgICBjb25zdCByZW5kZXJGaWVsZCA9IChmaWVsZDogVHJhY2tlckZpZWxkKSA9PiB7CiAgICAgICAgY29uc3QgdiA9IHZhbHVlc1tmaWVsZC5rZXldOwogICAgICAgIHN3aXRjaCAoZmllbGQua2luZCkgewogICAgICAgICAgICBjYXNlICdyYXRpbmcnOgogICAgICAgICAgICAgICAgcmV0dXJuICgKICAgICAgICAgICAgICAgICAgICA8ZGl2IGNsYXNzTmFtZT0iZmxleCBnYXAtMiBmbGV4LXdyYXAiPgogICAgICAgICAgICAgICAgICAgICAgICB7KGZpZWxkLmNob2ljZXMgJiYgZmllbGQuY2hvaWNlcy5sZW5ndGggPiAwCiAgICAgICAgICAgICAgICAgICAgICAgICAgICA/IGZpZWxkLmNob2ljZXMKICAgICAgICAgICAgICAgICAgICAgICAgICAgIDogQXJyYXkuZnJvbSh7IGxlbmd0aDogKGZpZWxkLm1heCA/PyA1KSAtIChmaWVsZC5taW4gPz8gMSkgKyAxIH0sIChfLCBpKSA9PiAoewogICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgIHZhbHVlOiBTdHJpbmcoKGZpZWxkLm1pbiA/PyAxKSArIGkpLAogICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgIGxhYmVsOiAnJywKICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICBlbW9qaTogJ+KYhScsCiAgICAgICAgICAgICAgICAgICAgICAgICAgICB9KSkKICAgICAgICAgICAgICAgICAgICAgICAgKS5tYXAoYyA9PiB7CiAgICAgICAgICAgICAgICAgICAgICAgICAgICBjb25zdCBhY3RpdmUgPSBTdHJpbmcodikgPT09IFN0cmluZyhjLnZhbHVlKTsKICAgICAgICAgICAgICAgICAgICAgICAgICAgIHJldHVybiAoCiAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgPGJ1dHRvbgogICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICBrZXk9e2MudmFsdWV9CiAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgIG9uQ2xpY2s9eygpID0+IHNldEZpZWxkKGZpZWxkLmtleSwgYy52YWx1ZSl9CiAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgIGNsYXNzTmFtZT0iZmxleCBmbGV4LWNvbCBpdGVtcy1jZW50ZXIganVzdGlmeS1jZW50ZXIgcHgtMyBweS0yIHJvdW5kZWQteGwgdHJhbnNpdGlvbiBhY3RpdmU6c2NhbGUtOTUiCiAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgIHN0eWxlPXt7CiAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICBiYWNrZ3JvdW5kOiBhY3RpdmUgPyBgJHt0cmFja2VyLmNvbG9yfTMzYCA6ICdyZ2JhKDI1MywyNDYsMjMxLDAuNiknLAogICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgYm9yZGVyOiBgMS41cHggc29saWQgJHthY3RpdmUgPyB0cmFja2VyLmNvbG9yIDogUEFQRVJfVE9ORVMuc3BpbmV9YCwKICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgIG1pbldpZHRoOiA1NiwKICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgfX0KICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICA+CiAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgIDxzcGFuIGNsYXNzTmFtZT0idGV4dC0yeGwgbGVhZGluZy1ub25lIj57Yy5lbW9qaSB8fCAnJ308L3NwYW4+CiAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgIHtjLmxhYmVsICYmICgKICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgIDxzcGFuCiAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgY2xhc3NOYW1lPSJ0ZXh0LVsxMHB4XSBtdC0xIgogICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgIHN0eWxlPXt7IC4uLkNVVEVfU1RBQ0ssIGNvbG9yOiBQQVBFUl9UT05FUy5pbmtTb2Z0IH19CiAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICA+CiAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAge2MubGFiZWx9CiAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICA8L3NwYW4+CiAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICl9CiAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgPC9idXR0b24+CiAgICAgICAgICAgICAgICAgICAgICAgICAgICApOwogICAgICAgICAgICAgICAgICAgICAgICB9KX0KICAgICAgICAgICAgICAgICAgICA8L2Rpdj4KICAgICAgICAgICAgICAgICk7CiAgICAgICAgICAgIGNhc2UgJ251bWJlcic6CiAgICAgICAgICAgICAgICByZXR1cm4gKAogICAgICAgICAgICAgICAgICAgIDxkaXYgY2xhc3NOYW1lPSJmbGV4IGl0ZW1zLWJhc2VsaW5lIGdhcC0yIj4KICAgICAgICAgICAgICAgICAgICAgICAgPGlucHV0CiAgICAgICAgICAgICAgICAgICAgICAgICAgICB0eXBlPSJudW1iZXIiCiAgICAgICAgICAgICAgICAgICAgICAgICAgICB2YWx1ZT17diA/PyAnJ30KICAgICAgICAgICAgICAgICAgICAgICAgICAgIG9uQ2hhbmdlPXtlID0+IHNldEZpZWxkKGZpZWxkLmtleSwgZS50YXJnZXQudmFsdWUgPT09ICcnID8gdW5kZWZpbmVkIDogTnVtYmVyKGUudGFyZ2V0LnZhbHVlKSl9CiAgICAgICAgICAgICAgICAgICAgICAgICAgICBwbGFjZWhvbGRlcj17ZmllbGQucGxhY2Vob2xkZXIgfHwgJyd9CiAgICAgICAgICAgICAgICAgICAgICAgICAgICBtaW49e2ZpZWxkLm1pbn0KICAgICAgICAgICAgICAgICAgICAgICAgICAgIG1heD17ZmllbGQubWF4fQogICAgICAgICAgICAgICAgICAgICAgICAgICAgY2xhc3NOYW1lPSJmbGV4LTEgb3V0bGluZS1ub25lIHJvdW5kZWQtbGcgcHgtMyBweS0yIgogICAgICAgICAgICAgICAgICAgICAgICAgICAgc3R5bGU9e3sKICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAuLi5TRVJJRl9TVEFDSywKICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICBmb250U2l6ZTogMTYsCiAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgYmFja2dyb3VuZDogJ3JnYmEoMjUzLDI0NiwyMzEsMC42KScsCiAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgYm9yZGVyOiBgMS41cHggc29saWQgJHtQQVBFUl9UT05FUy5zcGluZX1gLAogICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgIGNvbG9yOiBQQVBFUl9UT05FUy5pbmssCiAgICAgICAgICAgICAgICAgICAgICAgICAgICB9fQogICAgICAgICAgICAgICAgICAgICAgICAvPgogICAgICAgICAgICAgICAgICAgICAgICB7ZmllbGQudW5pdCAmJiAoCiAgICAgICAgICAgICAgICAgICAgICAgICAgICA8c3BhbiBzdHlsZT17eyAuLi5DVVRFX1NUQUNLLCBjb2xvcjogUEFQRVJfVE9ORVMuaW5rU29mdCwgZm9udFNpemU6IDEzIH19PgogICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgIHtmaWVsZC51bml0fQogICAgICAgICAgICAgICAgICAgICAgICAgICAgPC9zcGFuPgogICAgICAgICAgICAgICAgICAgICAgICApfQogICAgICAgICAgICAgICAgICAgIDwvZGl2PgogICAgICAgICAgICAgICAgKTsKICAgICAgICAgICAgY2FzZSAnb3B0aW9ucyc6CiAgICAgICAgICAgICAgICByZXR1cm4gKAogICAgICAgICAgICAgICAgICAgIDxkaXYgY2xhc3NOYW1lPSJmbGV4IGdhcC0yIGZsZXgtd3JhcCI+CiAgICAgICAgICAgICAgICAgICAgICAgIHsoZmllbGQuY2hvaWNlcyB8fCBbXSkubWFwKGMgPT4gewogICAgICAgICAgICAgICAgICAgICAgICAgICAgY29uc3QgYWN0aXZlID0gdiA9PT0gYy52YWx1ZTsKICAgICAgICAgICAgICAgICAgICAgICAgICAgIHJldHVybiAoCiAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgPGJ1dHRvbgogICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICBrZXk9e2MudmFsdWV9CiAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgIG9uQ2xpY2s9eygpID0+IHNldEZpZWxkKGZpZWxkLmtleSwgYy52YWx1ZSl9CiAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgIGNsYXNzTmFtZT0icHgtMyBweS0xLjUgcm91bmRlZC1mdWxsIHRyYW5zaXRpb24gYWN0aXZlOnNjYWxlLTk1IGZsZXggaXRlbXMtY2VudGVyIGdhcC0xIgogICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICBzdHlsZT17ewogICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgYmFja2dyb3VuZDogYWN0aXZlID8gdHJhY2tlci5jb2xvciA6ICdyZ2JhKDI1MywyNDYsMjMxLDAuNiknLAogICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgY29sb3I6IGFjdGl2ZSA/ICcjZmZmJyA6IFBBUEVSX1RPTkVTLmluaywKICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgIGJvcmRlcjogYDFweCBzb2xpZCAke2FjdGl2ZSA/IHRyYWNrZXIuY29sb3IgOiBQQVBFUl9UT05FUy5zcGluZX1gLAogICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgLi4uQ1VURV9TVEFDSywKICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgIGZvbnRTaXplOiAxMiwKICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgfX0KICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICA+CiAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgIHtjLmVtb2ppICYmIDxzcGFuPntjLmVtb2ppfTwvc3Bhbj59CiAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgIDxzcGFuPntjLmxhYmVsfTwvc3Bhbj4KICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICA8L2J1dHRvbj4KICAgICAgICAgICAgICAgICAgICAgICAgICAgICk7CiAgICAgICAgICAgICAgICAgICAgICAgIH0pfQogICAgICAgICAgICAgICAgICAgIDwvZGl2PgogICAgICAgICAgICAgICAgKTsKICAgICAgICAgICAgY2FzZSAnYm9vbGVhbic6CiAgICAgICAgICAgICAgICByZXR1cm4gKAogICAgICAgICAgICAgICAgICAgIDxkaXYgY2xhc3NOYW1lPSJmbGV4IGdhcC0yIj4KICAgICAgICAgICAgICAgICAgICAgICAge1sKICAgICAgICAgICAgICAgICAgICAgICAgICAgIHsgdmFsOiB0cnVlLCBsYWJlbDogJ+aYryDimaEnLCBlbW9qaTogJ+KckycgfSwKICAgICAgICAgICAgICAgICAgICAgICAgICAgIHsgdmFsOiBmYWxzZSwgbGFiZWw6ICfmsqHmnIknLCBlbW9qaTogJ8K3JyB9LAogICAgICAgICAgICAgICAgICAgICAgICBdLm1hcChvcHQgPT4gewogICAgICAgICAgICAgICAgICAgICAgICAgICAgY29uc3QgYWN0aXZlID0gdiA9PT0gb3B0LnZhbDsKICAgICAgICAgICAgICAgICAgICAgICAgICAgIHJldHVybiAoCiAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgPGJ1dHRvbgogICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICBrZXk9e1N0cmluZyhvcHQudmFsKX0KICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgb25DbGljaz17KCkgPT4gc2V0RmllbGQoZmllbGQua2V5LCBvcHQudmFsKX0KICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgY2xhc3NOYW1lPSJmbGV4LTEgcHktMiByb3VuZGVkLXhsIHRyYW5zaXRpb24gYWN0aXZlOnNjYWxlLTk1IgogICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICBzdHlsZT17ewogICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgYmFja2dyb3VuZDogYWN0aXZlID8gdHJhY2tlci5jb2xvciA6ICdyZ2JhKDI1MywyNDYsMjMxLDAuNiknLAogICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgY29sb3I6IGFjdGl2ZSA/ICcjZmZmJyA6IFBBUEVSX1RPTkVTLmluaywKICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgIGJvcmRlcjogYDEuNXB4IHNvbGlkICR7YWN0aXZlID8gdHJhY2tlci5jb2xvciA6IFBBUEVSX1RPTkVTLnNwaW5lfWAsCiAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAuLi5DVVRFX1NUQUNLLAogICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgZm9udFNpemU6IDEzLAogICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICB9fQogICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgID4KICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAge29wdC5sYWJlbH0KICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICA8L2J1dHRvbj4KICAgICAgICAgICAgICAgICAgICAgICAgICAgICk7CiAgICAgICAgICAgICAgICAgICAgICAgIH0pfQogICAgICAgICAgICAgICAgICAgIDwvZGl2PgogICAgICAgICAgICAgICAgKTsKICAgICAgICAgICAgY2FzZSAndGV4dCc6CiAgICAgICAgICAgICAgICByZXR1cm4gKAogICAgICAgICAgICAgICAgICAgIDx0ZXh0YXJlYQogICAgICAgICAgICAgICAgICAgICAgICB2YWx1ZT17diA/PyAnJ30KICAgICAgICAgICAgICAgICAgICAgICAgb25DaGFuZ2U9e2UgPT4gc2V0RmllbGQoZmllbGQua2V5LCBlLnRhcmdldC52YWx1ZSl9CiAgICAgICAgICAgICAgICAgICAgICAgIHBsYWNlaG9sZGVyPXtmaWVsZC5wbGFjZWhvbGRlciB8fCAn5LiA5Y+l6K+d5bCx5aW94oCmJ30KICAgICAgICAgICAgICAgICAgICAgICAgcm93cz17Mn0KICAgICAgICAgICAgICAgICAgICAgICAgY2xhc3NOYW1lPSJ3LWZ1bGwgb3V0bGluZS1ub25lIHJlc2l6ZS1ub25lIHJvdW5kZWQtbGcgcHgtMyBweS0yIgogICAgICAgICAgICAgICAgICAgICAgICBzdHlsZT17ewogICAgICAgICAgICAgICAgICAgICAgICAgICAgLi4uU0VSSUZfU1RBQ0ssCiAgICAgICAgICAgICAgICAgICAgICAgICAgICBmb250U2l6ZTogMTQsCiAgICAgICAgICAgICAgICAgICAgICAgICAgICBsaW5lSGVpZ2h0OiAnMjJweCcsCiAgICAgICAgICAgICAgICAgICAgICAgICAgICBiYWNrZ3JvdW5kOiAncmdiYSgyNTMsMjQ2LDIzMSwwLjYpJywKICAgICAgICAgICAgICAgICAgICAgICAgICAgIGJvcmRlcjogYDEuNXB4IHNvbGlkICR7UEFQRVJfVE9ORVMuc3BpbmV9YCwKICAgICAgICAgICAgICAgICAgICAgICAgICAgIGNvbG9yOiBQQVBFUl9UT05FUy5pbmssCiAgICAgICAgICAgICAgICAgICAgICAgIH19CiAgICAgICAgICAgICAgICAgICAgLz4KICAgICAgICAgICAgICAgICk7CiAgICAgICAgICAgIGNhc2UgJ3Bob3RvJzoKICAgICAgICAgICAgICAgIHJldHVybiAoCiAgICAgICAgICAgICAgICAgICAgPGxhYmVsCiAgICAgICAgICAgICAgICAgICAgICAgIGNsYXNzTmFtZT0iZmxleCBpdGVtcy1jZW50ZXIgZ2FwLTMgcHgtMyBweS0yIHJvdW5kZWQtbGcgY3Vyc29yLXBvaW50ZXIiCiAgICAgICAgICAgICAgICAgICAgICAgIHN0eWxlPXt7CiAgICAgICAgICAgICAgICAgICAgICAgICAgICBiYWNrZ3JvdW5kOiAncmdiYSgyNTMsMjQ2LDIzMSwwLjYpJywKICAgICAgICAgICAgICAgICAgICAgICAgICAgIGJvcmRlcjogYDEuNXB4IGRhc2hlZCAke1BBUEVSX1RPTkVTLnNwaW5lfWAsCiAgICAgICAgICAgICAgICAgICAgICAgIH19CiAgICAgICAgICAgICAgICAgICAgPgogICAgICAgICAgICAgICAgICAgICAgICA8aW5wdXQKICAgICAgICAgICAgICAgICAgICAgICAgICAgIHR5cGU9ImZpbGUiCiAgICAgICAgICAgICAgICAgICAgICAgICAgICBhY2NlcHQ9ImltYWdlLyoiCiAgICAgICAgICAgICAgICAgICAgICAgICAgICBjbGFzc05hbWU9ImhpZGRlbiIKICAgICAgICAgICAgICAgICAgICAgICAgICAgIG9uQ2hhbmdlPXthc3luYyBlID0+IHsKICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICBjb25zdCBmaWxlID0gZS50YXJnZXQuZmlsZXM/LlswXTsKICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICBpZiAoIWZpbGUpIHJldHVybjsKICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICBjb25zdCByZWFkZXIgPSBuZXcgRmlsZVJlYWRlcigpOwogICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgIHJlYWRlci5vbmxvYWQgPSBldiA9PiBzZXRGaWVsZChmaWVsZC5rZXksIGV2LnRhcmdldD8ucmVzdWx0KTsKICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICByZWFkZXIucmVhZEFzRGF0YVVSTChmaWxlKTsKICAgICAgICAgICAgICAgICAgICAgICAgICAgIH19CiAgICAgICAgICAgICAgICAgICAgICAgIC8+CiAgICAgICAgICAgICAgICAgICAgICAgIHt2CiAgICAgICAgICAgICAgICAgICAgICAgICAgICA/IDxpbWcgc3JjPXt2fSBhbHQ9IiIgY2xhc3NOYW1lPSJ3LTE2IGgtMTYgcm91bmRlZCBvYmplY3QtY292ZXIiIC8+CiAgICAgICAgICAgICAgICAgICAgICAgICAgICA6IDxkaXYgY2xhc3NOYW1lPSJ3LTE2IGgtMTYgZmxleCBpdGVtcy1jZW50ZXIganVzdGlmeS1jZW50ZXIgdGV4dC0yeGwiIHN0eWxlPXt7IGNvbG9yOiBQQVBFUl9UT05FUy5pbmtGYWludCB9fT7wn5O3PC9kaXY+CiAgICAgICAgICAgICAgICAgICAgICAgIH0KICAgICAgICAgICAgICAgICAgICAgICAgPHNwYW4gY2xhc3NOYW1lPSJ0ZXh0LVsxMnB4XSIgc3R5bGU9e3sgLi4uQ1VURV9TVEFDSywgY29sb3I6IFBBUEVSX1RPTkVTLmlua1NvZnQgfX0+CiAgICAgICAgICAgICAgICAgICAgICAgICAgICB7diA/ICfmjaLkuIDlvKAnIDogJ+eCuei/memHjOaLjS/pgIknfQogICAgICAgICAgICAgICAgICAgICAgICA8L3NwYW4+CiAgICAgICAgICAgICAgICAgICAgPC9sYWJlbD4KICAgICAgICAgICAgICAgICk7CiAgICAgICAgfQogICAgfTsKCiAgICBjb25zdCBoYW5kbGVTYXZlID0gKCkgPT4gewogICAgICAgIG9uU2F2ZSh2YWx1ZXMpOwogICAgfTsKCiAgICByZXR1cm4gKAogICAgICAgIDxkaXYKICAgICAgICAgICAgY2xhc3NOYW1lPSJhYnNvbHV0ZSBpbnNldC0wIHotNTAgZmxleCBpdGVtcy1lbmQganVzdGlmeS1jZW50ZXIiCiAgICAgICAgICAgIHN0eWxlPXt7IGJhY2tncm91bmQ6ICdyZ2JhKDEyMiw5MCwxMTQsMC40KScsIGJhY2tkcm9wRmlsdGVyOiAnYmx1cig2cHgpJyB9fQogICAgICAgICAgICBvbkNsaWNrPXtvbkNhbmNlbH0KICAgICAgICA+CiAgICAgICAgICAgIDxkaXYKICAgICAgICAgICAgICAgIGNsYXNzTmFtZT0idy1mdWxsIG1heC1oLVs4OCVdIG92ZXJmbG93LXktYXV0byByb3VuZGVkLXQtM3hsIHJlbGF0aXZlIgogICAgICAgICAgICAgICAgc3R5bGU9e3sKICAgICAgICAgICAgICAgICAgICBiYWNrZ3JvdW5kOiBQQVBFUl9UT05FUy5wYXBlciwKICAgICAgICAgICAgICAgICAgICBib3hTaGFkb3c6ICcwIC04cHggMjhweCByZ2JhKDEyMiw5MCwxMTQsMC4yNSknLAogICAgICAgICAgICAgICAgfX0KICAgICAgICAgICAgICAgIG9uQ2xpY2s9e2UgPT4gZS5zdG9wUHJvcGFnYXRpb24oKX0KICAgICAgICAgICAgPgogICAgICAgICAgICAgICAgey8qIOmhtumDqOaKiuaJiyAqL30KICAgICAgICAgICAgICAgIDxkaXYgY2xhc3NOYW1lPSJmbGV4IGp1c3RpZnktY2VudGVyIHB0LTMgcGItMSI+CiAgICAgICAgICAgICAgICAgICAgPGRpdiBzdHlsZT17eyB3aWR0aDogNDAsIGhlaWdodDogNCwgYm9yZGVyUmFkaXVzOiAyLCBiYWNrZ3JvdW5kOiB0cmFja2VyLmNvbG9yLCBvcGFjaXR5OiAwLjYgfX0gLz4KICAgICAgICAgICAgICAgIDwvZGl2PgoKICAgICAgICAgICAgICAgIHsvKiDoo4XppbDotLTnurggKi99CiAgICAgICAgICAgICAgICA8ZGl2IGNsYXNzTmFtZT0iYWJzb2x1dGUgdG9wLTQgbGVmdC01IHBvaW50ZXItZXZlbnRzLW5vbmUiIHN0eWxlPXt7IHRyYW5zZm9ybTogJ3JvdGF0ZSgtMTVkZWcpJyB9fT4KICAgICAgICAgICAgICAgICAgICA8SGVhcnRTdGlja2VyIHNpemU9ezE4fSBjb2xvcj17dHJhY2tlci5jb2xvcn0gLz4KICAgICAgICAgICAgICAgIDwvZGl2PgogICAgICAgICAgICAgICAgPGRpdiBjbGFzc05hbWU9ImFic29sdXRlIHRvcC01IHJpZ2h0LTcgcG9pbnRlci1ldmVudHMtbm9uZSIgc3R5bGU9e3sgdHJhbnNmb3JtOiAncm90YXRlKDIwZGVnKScgfX0+CiAgICAgICAgICAgICAgICAgICAgPFN0YXJTdGlja2VyIHNpemU9ezE2fSBjb2xvcj17UEFQRVJfVE9ORVMuYWNjZW50TGVtb259IC8+CiAgICAgICAgICAgICAgICA8L2Rpdj4KCiAgICAgICAgICAgICAgICB7Lyog5qCH6aKYICovfQogICAgICAgICAgICAgICAgPGRpdiBjbGFzc05hbWU9InB4LTUgcHQtMiBwYi0zIHRleHQtY2VudGVyIj4KICAgICAgICAgICAgICAgICAgICA8V2FzaGlUYXBlIGNvbG9yPSJyb3NlIiBwYXR0ZXJuPSJoZWFydCIgcm90YXRlPXstMS41fT4KICAgICAgICAgICAgICAgICAgICAgICAge3RyYWNrZXIuaWNvbiA/IGAke3RyYWNrZXIuaWNvbn0gYCA6ICcnfXt0cmFja2VyLm5hbWV9CiAgICAgICAgICAgICAgICAgICAgPC9XYXNoaVRhcGU+CiAgICAgICAgICAgICAgICAgICAgPGRpdgogICAgICAgICAgICAgICAgICAgICAgICBjbGFzc05hbWU9InRleHQtWzExcHhdIG10LTMiCiAgICAgICAgICAgICAgICAgICAgICAgIHN0eWxlPXt7IC4uLkNVVEVfU1RBQ0ssIGNvbG9yOiBQQVBFUl9UT05FUy5pbmtTb2Z0IH19CiAgICAgICAgICAgICAgICAgICAgPgogICAgICAgICAgICAgICAgICAgICAgICB7ZGF0ZX0KICAgICAgICAgICAgICAgICAgICA8L2Rpdj4KICAgICAgICAgICAgICAgIDwvZGl2PgoKICAgICAgICAgICAgICAgIHsvKiDlrZfmrrXooajljZUgKi99CiAgICAgICAgICAgICAgICA8ZGl2IGNsYXNzTmFtZT0icHgtNSBweS0zIHNwYWNlLXktNCBwYi02Ij4KICAgICAgICAgICAgICAgICAgICB7dHJhY2tlci5zY2hlbWEubWFwKGZpZWxkID0+ICgKICAgICAgICAgICAgICAgICAgICAgICAgPGRpdiBrZXk9e2ZpZWxkLmtleX0+CiAgICAgICAgICAgICAgICAgICAgICAgICAgICA8ZGl2CiAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgY2xhc3NOYW1lPSJ0ZXh0LVsxMXB4XSBtYi0yIHRyYWNraW5nLXdpZGVzdCIKICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICBzdHlsZT17eyAuLi5DVVRFX1NUQUNLLCBjb2xvcjogUEFQRVJfVE9ORVMuaW5rU29mdCB9fQogICAgICAgICAgICAgICAgICAgICAgICAgICAgPgogICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgIHtmaWVsZC5yZXF1aXJlZCA/ICfil4YgJyA6ICcnfXtmaWVsZC5sYWJlbH0KICAgICAgICAgICAgICAgICAgICAgICAgICAgIDwvZGl2PgogICAgICAgICAgICAgICAgICAgICAgICAgICAge3JlbmRlckZpZWxkKGZpZWxkKX0KICAgICAgICAgICAgICAgICAgICAgICAgPC9kaXY+CiAgICAgICAgICAgICAgICAgICAgKSl9CiAgICAgICAgICAgICAgICA8L2Rpdj4KCiAgICAgICAgICAgICAgICB7Lyog5bqV6YOo5pON5L2cICovfQogICAgICAgICAgICAgICAgPGRpdgogICAgICAgICAgICAgICAgICAgIGNsYXNzTmFtZT0ic3RpY2t5IGJvdHRvbS0wIHB4LTUgcHktMyBmbGV4IGdhcC0yIgogICAgICAgICAgICAgICAgICAgIHN0eWxlPXt7CiAgICAgICAgICAgICAgICAgICAgICAgIGJhY2tncm91bmQ6IFBBUEVSX1RPTkVTLnBhcGVyLAogICAgICAgICAgICAgICAgICAgICAgICBib3JkZXJUb3A6IGAxLjVweCBzb2xpZCAke3RyYWNrZXIuY29sb3J9YCwKICAgICAgICAgICAgICAgICAgICB9fQogICAgICAgICAgICAgICAgPgogICAgICAgICAgICAgICAgICAgIHtleGlzdGluZ0VudHJ5ICYmIG9uRGVsZXRlICYmICgKICAgICAgICAgICAgICAgICAgICAgICAgPGJ1dHRvbgogICAgICAgICAgICAgICAgICAgICAgICAgICAgb25DbGljaz17KCkgPT4gewogICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgIGlmIChjb25maXJtKCfliKDpmaTov5nlpKnnmoTmiZPljaE/JykpIG9uRGVsZXRlKCk7CiAgICAgICAgICAgICAgICAgICAgICAgICAgICB9fQogICAgICAgICAgICAgICAgICAgICAgICAgICAgY2xhc3NOYW1lPSJweC0zIHB5LTMgcm91bmRlZC1mdWxsIGFjdGl2ZTpzY2FsZS05NSB0cmFuc2l0aW9uIgogICAgICAgICAgICAgICAgICAgICAgICAgICAgc3R5bGU9e3sKICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICBjb2xvcjogJyNjNDcwOGEnLAogICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgIGJhY2tncm91bmQ6ICcjZmZmJywKICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICBib3JkZXI6ICcxLjVweCBzb2xpZCAjZjBjMGQwJywKICAgICAgICAgICAgICAgICAgICAgICAgICAgIH19CiAgICAgICAgICAgICAgICAgICAgICAgICAgICBhcmlhLWxhYmVsPSLliKDpmaQiCiAgICAgICAgICAgICAgICAgICAgICAgID4KICAgICAgICAgICAgICAgICAgICAgICAgICAgIDxUcmFzaCBjbGFzc05hbWU9InctNCBoLTQiIHdlaWdodD0iYm9sZCIgLz4KICAgICAgICAgICAgICAgICAgICAgICAgPC9idXR0b24+CiAgICAgICAgICAgICAgICAgICAgKX0KICAgICAgICAgICAgICAgICAgICA8YnV0dG9uCiAgICAgICAgICAgICAgICAgICAgICAgIG9uQ2xpY2s9e29uQ2FuY2VsfQogICAgICAgICAgICAgICAgICAgICAgICBjbGFzc05hbWU9InB4LTQgcHktMyByb3VuZGVkLWZ1bGwgdGV4dC1bMTNweF0gZm9udC1ib2xkIGFjdGl2ZTpzY2FsZS05NSB0cmFuc2l0aW9uIGZsZXggaXRlbXMtY2VudGVyIGdhcC0xIgogICAgICAgICAgICAgICAgICAgICAgICBzdHlsZT17ewogICAgICAgICAgICAgICAgICAgICAgICAgICAgLi4uQ1VURV9TVEFDSywKICAgICAgICAgICAgICAgICAgICAgICAgICAgIGNvbG9yOiBQQVBFUl9UT05FUy5pbmtTb2Z0LAogICAgICAgICAgICAgICAgICAgICAgICAgICAgYmFja2dyb3VuZDogJyNmZmYnLAogICAgICAgICAgICAgICAgICAgICAgICAgICAgYm9yZGVyOiBgMS41cHggc29saWQgJHtQQVBFUl9UT05FUy5zcGluZX1gLAogICAgICAgICAgICAgICAgICAgICAgICB9fQogICAgICAgICAgICAgICAgICAgID4KICAgICAgICAgICAgICAgICAgICAgICAgPFggY2xhc3NOYW1lPSJ3LTMuNSBoLTMuNSIgLz4g566X5LqGCiAgICAgICAgICAgICAgICAgICAgPC9idXR0b24+CiAgICAgICAgICAgICAgICAgICAgPGJ1dHRvbgogICAgICAgICAgICAgICAgICAgICAgICBvbkNsaWNrPXtoYW5kbGVTYXZlfQogICAgICAgICAgICAgICAgICAgICAgICBjbGFzc05hbWU9ImZsZXgtMSBmbGV4IGl0ZW1zLWNlbnRlciBqdXN0aWZ5LWNlbnRlciBnYXAtMiBweS0zIHJvdW5kZWQtZnVsbCB0ZXh0LVsxM3B4XSBmb250LWJvbGQgYWN0aXZlOnNjYWxlLTk1IHRyYW5zaXRpb24iCiAgICAgICAgICAgICAgICAgICAgICAgIHN0eWxlPXt7CiAgICAgICAgICAgICAgICAgICAgICAgICAgICAuLi5DVVRFX1NUQUNLLAogICAgICAgICAgICAgICAgICAgICAgICAgICAgYmFja2dyb3VuZDogYGxpbmVhci1ncmFkaWVudCgxMzVkZWcsICR7dHJhY2tlci5jb2xvcn0gMCUsICR7UEFQRVJfVE9ORVMuYWNjZW50Qmx1c2h9IDEwMCUpYCwKICAgICAgICAgICAgICAgICAgICAgICAgICAgIGNvbG9yOiAnI2ZmZicsCiAgICAgICAgICAgICAgICAgICAgICAgICAgICBib3hTaGFkb3c6ICcwIDJweCA2cHggcmdiYSgyNDIsMTU3LDE3NiwwLjQpJywKICAgICAgICAgICAgICAgICAgICAgICAgfX0KICAgICAgICAgICAgICAgICAgICA+CiAgICAgICAgICAgICAgICAgICAgICAgIDxGbG9wcHlEaXNrIHdlaWdodD0iZmlsbCIgY2xhc3NOYW1lPSJ3LTMuNSBoLTMuNSIgLz4KICAgICAgICAgICAgICAgICAgICAgICAge2V4aXN0aW5nRW50cnkgPyAn5pu05pawIOKZoScgOiAn5pS25LiLIOKZoSd9CiAgICAgICAgICAgICAgICAgICAgPC9idXR0b24+CiAgICAgICAgICAgICAgICA8L2Rpdj4KICAgICAgICAgICAgPC9kaXY+CiAgICAgICAgPC9kaXY+CiAgICApOwp9OwoKZXhwb3J0IGRlZmF1bHQgVHJhY2tlckVudHJ5U2hlZXQ7Cg==
+/**
+ * 通用 Tracker 打卡输入表单(底部弹出)
+ *
+ * 不绑定 mood —— 根据 tracker.schema 动态渲染:
+ *   rating  → 5 颗 emoji/色块按钮
+ *   number  → 数字输入(可加 unit)
+ *   options → 横排 pill 按钮(可带 emoji)
+ *   text    → 单行 textarea
+ *   boolean → 开关
+ *   photo   → 文件 → base64 缩略
+ *
+ * 这一个组件覆盖所有 tracker 的输入需求,不必每加一个 tracker 写一个 sheet
+ */
+
+import React, { useState, useEffect } from 'react';
+import { Tracker, TrackerEntry, TrackerField } from '../../types';
+import { PAPER_TONES, SERIF_STACK, CUTE_STACK, WashiTape } from './paper';
+import { HeartSticker, StarSticker } from './stickers';
+import { Trash, X, FloppyDisk } from '@phosphor-icons/react';
+
+interface Props {
+    visible: boolean;
+    tracker: Tracker;
+    date: string;
+    existingEntry: TrackerEntry | null;
+    onCancel: () => void;
+    onSave: (values: Record<string, any>) => void;
+    onDelete?: () => void;
+}
+
+const TrackerEntrySheet: React.FC<Props> = ({
+    visible, tracker, date, existingEntry, onCancel, onSave, onDelete,
+}) => {
+    const [values, setValues] = useState<Record<string, any>>({});
+
+    useEffect(() => {
+        setValues(existingEntry?.values || {});
+    }, [existingEntry, visible]);
+
+    if (!visible) return null;
+
+    const setField = (key: string, v: any) => setValues(prev => ({ ...prev, [key]: v }));
+
+    const renderField = (field: TrackerField) => {
+        const v = values[field.key];
+        switch (field.kind) {
+            case 'rating':
+                return (
+                    <div className="flex gap-2 flex-wrap">
+                        {(field.choices && field.choices.length > 0
+                            ? field.choices
+                            : Array.from({ length: (field.max ?? 5) - (field.min ?? 1) + 1 }, (_, i) => ({
+                                value: String((field.min ?? 1) + i),
+                                label: '',
+                                emoji: '★',
+                            }))
+                        ).map(c => {
+                            const active = String(v) === String(c.value);
+                            return (
+                                <button
+                                    key={c.value}
+                                    onClick={() => setField(field.key, c.value)}
+                                    className="flex flex-col items-center justify-center px-3 py-2 rounded-xl transition active:scale-95"
+                                    style={{
+                                        background: active ? `${tracker.color}33` : 'rgba(253,246,231,0.6)',
+                                        border: `1.5px solid ${active ? tracker.color : PAPER_TONES.spine}`,
+                                        minWidth: 56,
+                                    }}
+                                >
+                                    <span className="text-2xl leading-none">{c.emoji || ''}</span>
+                                    {c.label && (
+                                        <span
+                                            className="text-[10px] mt-1"
+                                            style={{ ...CUTE_STACK, color: PAPER_TONES.inkSoft }}
+                                        >
+                                            {c.label}
+                                        </span>
+                                    )}
+                                </button>
+                            );
+                        })}
+                    </div>
+                );
+            case 'number':
+                return (
+                    <div className="flex items-baseline gap-2">
+                        <input
+                            type="number"
+                            value={v ?? ''}
+                            onChange={e => setField(field.key, e.target.value === '' ? undefined : Number(e.target.value))}
+                            placeholder={field.placeholder || ''}
+                            min={field.min}
+                            max={field.max}
+                            className="flex-1 outline-none rounded-lg px-3 py-2"
+                            style={{
+                                ...SERIF_STACK,
+                                fontSize: 16,
+                                background: 'rgba(253,246,231,0.6)',
+                                border: `1.5px solid ${PAPER_TONES.spine}`,
+                                color: PAPER_TONES.ink,
+                            }}
+                        />
+                        {field.unit && (
+                            <span style={{ ...CUTE_STACK, color: PAPER_TONES.inkSoft, fontSize: 13 }}>
+                                {field.unit}
+                            </span>
+                        )}
+                    </div>
+                );
+            case 'options':
+                return (
+                    <div className="flex gap-2 flex-wrap">
+                        {(field.choices || []).map(c => {
+                            const active = v === c.value;
+                            return (
+                                <button
+                                    key={c.value}
+                                    onClick={() => setField(field.key, c.value)}
+                                    className="px-3 py-1.5 rounded-full transition active:scale-95 flex items-center gap-1"
+                                    style={{
+                                        background: active ? tracker.color : 'rgba(253,246,231,0.6)',
+                                        color: active ? '#fff' : PAPER_TONES.ink,
+                                        border: `1px solid ${active ? tracker.color : PAPER_TONES.spine}`,
+                                        ...CUTE_STACK,
+                                        fontSize: 12,
+                                    }}
+                                >
+                                    {c.emoji && <span>{c.emoji}</span>}
+                                    <span>{c.label}</span>
+                                </button>
+                            );
+                        })}
+                    </div>
+                );
+            case 'boolean':
+                return (
+                    <div className="flex gap-2">
+                        {[
+                            { val: true, label: '是 ♡', emoji: '✓' },
+                            { val: false, label: '没有', emoji: '·' },
+                        ].map(opt => {
+                            const active = v === opt.val;
+                            return (
+                                <button
+                                    key={String(opt.val)}
+                                    onClick={() => setField(field.key, opt.val)}
+                                    className="flex-1 py-2 rounded-xl transition active:scale-95"
+                                    style={{
+                                        background: active ? tracker.color : 'rgba(253,246,231,0.6)',
+                                        color: active ? '#fff' : PAPER_TONES.ink,
+                                        border: `1.5px solid ${active ? tracker.color : PAPER_TONES.spine}`,
+                                        ...CUTE_STACK,
+                                        fontSize: 13,
+                                    }}
+                                >
+                                    {opt.label}
+                                </button>
+                            );
+                        })}
+                    </div>
+                );
+            case 'text':
+                return (
+                    <textarea
+                        value={v ?? ''}
+                        onChange={e => setField(field.key, e.target.value)}
+                        placeholder={field.placeholder || '一句话就好…'}
+                        rows={2}
+                        className="w-full outline-none resize-none rounded-lg px-3 py-2"
+                        style={{
+                            ...SERIF_STACK,
+                            fontSize: 14,
+                            lineHeight: '22px',
+                            background: 'rgba(253,246,231,0.6)',
+                            border: `1.5px solid ${PAPER_TONES.spine}`,
+                            color: PAPER_TONES.ink,
+                        }}
+                    />
+                );
+            case 'photo':
+                return (
+                    <label
+                        className="flex items-center gap-3 px-3 py-2 rounded-lg cursor-pointer"
+                        style={{
+                            background: 'rgba(253,246,231,0.6)',
+                            border: `1.5px dashed ${PAPER_TONES.spine}`,
+                        }}
+                    >
+                        <input
+                            type="file"
+                            accept="image/*"
+                            className="hidden"
+                            onChange={async e => {
+                                const file = e.target.files?.[0];
+                                if (!file) return;
+                                const reader = new FileReader();
+                                reader.onload = ev => setField(field.key, ev.target?.result);
+                                reader.readAsDataURL(file);
+                            }}
+                        />
+                        {v
+                            ? <img src={v} alt="" className="w-16 h-16 rounded object-cover" />
+                            : <div className="w-16 h-16 flex items-center justify-center text-2xl" style={{ color: PAPER_TONES.inkFaint }}>📷</div>
+                        }
+                        <span className="text-[12px]" style={{ ...CUTE_STACK, color: PAPER_TONES.inkSoft }}>
+                            {v ? '换一张' : '点这里拍/选'}
+                        </span>
+                    </label>
+                );
+        }
+    };
+
+    const handleSave = () => {
+        onSave(values);
+    };
+
+    return (
+        <div
+            className="absolute inset-0 z-50 flex items-end justify-center"
+            style={{ background: 'rgba(122,90,114,0.4)', backdropFilter: 'blur(6px)' }}
+            onClick={onCancel}
+        >
+            <div
+                className="w-full max-h-[88%] overflow-y-auto rounded-t-3xl relative"
+                style={{
+                    background: PAPER_TONES.paper,
+                    boxShadow: '0 -8px 28px rgba(122,90,114,0.25)',
+                }}
+                onClick={e => e.stopPropagation()}
+            >
+                {/* 顶部把手 */}
+                <div className="flex justify-center pt-3 pb-1">
+                    <div style={{ width: 40, height: 4, borderRadius: 2, background: tracker.color, opacity: 0.6 }} />
+                </div>
+
+                {/* 装饰贴纸 */}
+                <div className="absolute top-4 left-5 pointer-events-none" style={{ transform: 'rotate(-15deg)' }}>
+                    <HeartSticker size={18} color={tracker.color} />
+                </div>
+                <div className="absolute top-5 right-7 pointer-events-none" style={{ transform: 'rotate(20deg)' }}>
+                    <StarSticker size={16} color={PAPER_TONES.accentLemon} />
+                </div>
+
+                {/* 标题 */}
+                <div className="px-5 pt-2 pb-3 text-center">
+                    <WashiTape color="rose" pattern="heart" rotate={-1.5}>
+                        {tracker.icon ? `${tracker.icon} ` : ''}{tracker.name}
+                    </WashiTape>
+                    <div
+                        className="text-[11px] mt-3"
+                        style={{ ...CUTE_STACK, color: PAPER_TONES.inkSoft }}
+                    >
+                        {date}
+                    </div>
+                </div>
+
+                {/* 字段表单 */}
+                <div className="px-5 py-3 space-y-4 pb-6">
+                    {tracker.schema.map(field => (
+                        <div key={field.key}>
+                            <div
+                                className="text-[11px] mb-2 tracking-widest"
+                                style={{ ...CUTE_STACK, color: PAPER_TONES.inkSoft }}
+                            >
+                                {field.required ? '◆ ' : ''}{field.label}
+                            </div>
+                            {renderField(field)}
+                        </div>
+                    ))}
+                </div>
+
+                {/* 底部操作 */}
+                <div
+                    className="sticky bottom-0 px-5 py-3 flex gap-2"
+                    style={{
+                        background: PAPER_TONES.paper,
+                        borderTop: `1.5px solid ${tracker.color}`,
+                    }}
+                >
+                    {existingEntry && onDelete && (
+                        <button
+                            onClick={() => {
+                                if (confirm('删除这天的打卡?')) onDelete();
+                            }}
+                            className="px-3 py-3 rounded-full active:scale-95 transition"
+                            style={{
+                                color: '#c4708a',
+                                background: '#fff',
+                                border: '1.5px solid #f0c0d0',
+                            }}
+                            aria-label="删除"
+                        >
+                            <Trash className="w-4 h-4" weight="bold" />
+                        </button>
+                    )}
+                    <button
+                        onClick={onCancel}
+                        className="px-4 py-3 rounded-full text-[13px] font-bold active:scale-95 transition flex items-center gap-1"
+                        style={{
+                            ...CUTE_STACK,
+                            color: PAPER_TONES.inkSoft,
+                            background: '#fff',
+                            border: `1.5px solid ${PAPER_TONES.spine}`,
+                        }}
+                    >
+                        <X className="w-3.5 h-3.5" /> 算了
+                    </button>
+                    <button
+                        onClick={handleSave}
+                        className="flex-1 flex items-center justify-center gap-2 py-3 rounded-full text-[13px] font-bold active:scale-95 transition"
+                        style={{
+                            ...CUTE_STACK,
+                            background: `linear-gradient(135deg, ${tracker.color} 0%, ${PAPER_TONES.accentBlush} 100%)`,
+                            color: '#fff',
+                            boxShadow: '0 2px 6px rgba(242,157,176,0.4)',
+                        }}
+                    >
+                        <FloppyDisk weight="fill" className="w-3.5 h-3.5" />
+                        {existingEntry ? '更新 ♡' : '收下 ♡'}
+                    </button>
+                </div>
+            </div>
+        </div>
+    );
+};
+
+export default TrackerEntrySheet;

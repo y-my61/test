@@ -1,1 +1,76 @@
-aW1wb3J0IHsgU2ltU3RvcnlBdHRhY2htZW50LCBTaW1TdG9yeUF0dGFjaG1lbnREcmFmdCB9IGZyb20gJy4uL3R5cGVzJzsKCmNvbnN0IFJBUklUWV9BQ0NFTlRTID0gewogICAgY29tbW9uOiBbJyM3ZjhjOWInLCAnI2Q4ZGVlOCddLAogICAgcmFyZTogWycjNWI3YmI4JywgJyNkN2U1ZmYnXSwKICAgIGVwaWM6IFsnIzliNWJiOCcsICcjZjJkN2ZmJ10sCn0gYXMgY29uc3Q7CgpmdW5jdGlvbiBzdmdUb0RhdGFVcmkoc3ZnOiBzdHJpbmcpOiBzdHJpbmcgewogICAgcmV0dXJuIGBkYXRhOmltYWdlL3N2Zyt4bWwsJHtlbmNvZGVVUklDb21wb25lbnQoc3ZnLnRyaW0oKSl9YDsKfQoKZnVuY3Rpb24gaGFzaFRleHQoaW5wdXQ6IHN0cmluZyk6IG51bWJlciB7CiAgICBsZXQgaGFzaCA9IDA7CiAgICBmb3IgKGxldCBpID0gMDsgaSA8IGlucHV0Lmxlbmd0aDsgaSsrKSB7CiAgICAgICAgaGFzaCA9IChoYXNoICogMzEgKyBpbnB1dC5jaGFyQ29kZUF0KGkpKSA+Pj4gMDsKICAgIH0KICAgIHJldHVybiBoYXNoOwp9CgpmdW5jdGlvbiBidWlsZEltYWdlQ2FyZFN2ZyhkcmFmdDogU2ltU3RvcnlBdHRhY2htZW50RHJhZnQpOiBzdHJpbmcgewogICAgY29uc3QgcmFyaXR5ID0gZHJhZnQucmFyaXR5IHx8ICdjb21tb24nOwogICAgY29uc3QgW2FjY2VudCwgc29mdF0gPSBSQVJJVFlfQUNDRU5UU1tyYXJpdHldOwogICAgY29uc3Qgc2VlZCA9IGhhc2hUZXh0KGAke2RyYWZ0LnRpdGxlfToke2RyYWZ0LnN1bW1hcnl9OiR7ZHJhZnQudmlzdWFsUHJvbXB0IHx8ICcnfWApOwogICAgY29uc3Qgc2hhcGVPZmZzZXQgPSBzZWVkICUgMTg7CiAgICBjb25zdCBtb3RpZiA9IChkcmFmdC52aXN1YWxQcm9tcHQgfHwgZHJhZnQuc3VtbWFyeSB8fCBkcmFmdC50aXRsZSkuc2xpY2UoMCwgMjYpOwogICAgY29uc3QgdGl0bGUgPSBkcmFmdC50aXRsZS5zbGljZSgwLCAxOCk7CiAgICBjb25zdCBzdWJ0aXRsZSA9IGRyYWZ0LnN1bW1hcnkuc2xpY2UoMCwgNDApOwoKICAgIHJldHVybiBgCjxzdmcgeG1sbnM9Imh0dHA6Ly93d3cudzMub3JnLzIwMDAvc3ZnIiB3aWR0aD0iMzYwIiBoZWlnaHQ9IjIyMCIgdmlld0JveD0iMCAwIDM2MCAyMjAiIGZpbGw9Im5vbmUiPgogIDxkZWZzPgogICAgPGxpbmVhckdyYWRpZW50IGlkPSJiZyIgeDE9IjIyIiB5MT0iMTgiIHgyPSIzMjAiIHkyPSIyMDYiIGdyYWRpZW50VW5pdHM9InVzZXJTcGFjZU9uVXNlIj4KICAgICAgPHN0b3Agc3RvcC1jb2xvcj0iJHthY2NlbnR9Ii8+CiAgICAgIDxzdG9wIG9mZnNldD0iMSIgc3RvcC1jb2xvcj0iIzE3MWIyYyIvPgogICAgPC9saW5lYXJHcmFkaWVudD4KICAgIDxsaW5lYXJHcmFkaWVudCBpZD0ic29mdCIgeDE9IjQyIiB5MT0iMzgiIHgyPSIyODIiIHkyPSIxODgiIGdyYWRpZW50VW5pdHM9InVzZXJTcGFjZU9uVXNlIj4KICAgICAgPHN0b3Agc3RvcC1jb2xvcj0iJHtzb2Z0fSIgc3RvcC1vcGFjaXR5PSIwLjk1Ii8+CiAgICAgIDxzdG9wIG9mZnNldD0iMSIgc3RvcC1jb2xvcj0iI2ZmZmZmZiIgc3RvcC1vcGFjaXR5PSIwLjA1Ii8+CiAgICA8L2xpbmVhckdyYWRpZW50PgogIDwvZGVmcz4KICA8cmVjdCB4PSI4IiB5PSI4IiB3aWR0aD0iMzQ0IiBoZWlnaHQ9IjIwNCIgcng9IjIwIiBmaWxsPSJ1cmwoI2JnKSIvPgogIDxyZWN0IHg9IjE4IiB5PSIxOCIgd2lkdGg9IjMyNCIgaGVpZ2h0PSIxODQiIHJ4PSIxNCIgZmlsbD0icmdiYSgyNTUsMjU1LDI1NSwwLjA2KSIgc3Ryb2tlPSJyZ2JhKDI1NSwyNTUsMjU1LDAuMTgpIi8+CiAgPGNpcmNsZSBjeD0iJHs4OCArIHNoYXBlT2Zmc2V0fSIgY3k9IjcyIiByPSIzNCIgZmlsbD0idXJsKCNzb2Z0KSIgb3BhY2l0eT0iMC45Ii8+CiAgPHJlY3QgeD0iJHsxNzYgLSBzaGFwZU9mZnNldH0iIHk9IjQ0IiB3aWR0aD0iMTEyIiBoZWlnaHQ9IjcyIiByeD0iMTYiIGZpbGw9InJnYmEoMjU1LDI1NSwyNTUsMC4xKSIgc3Ryb2tlPSJyZ2JhKDI1NSwyNTUsMjU1LDAuMikiLz4KICA8cGF0aCBkPSJNNDIgMTU2Qzc4IDEyNCAxMTggMTIyIDE1MCAxNTRDMTgyIDE4NiAyMjQgMTkwIDI4NiAxMzhMMzIwIDE3NFYxODhINDJWMTU2WiIgZmlsbD0iJHtzb2Z0fSIgZmlsbC1vcGFjaXR5PSIwLjQyIi8+CiAgPHBhdGggZD0iTTQyIDE3NkM4NiAxNDggMTI2IDE0NiAxNjAgMTcwQzE5NiAxOTQgMjQ2IDE5NiAzMTAgMTU0IiBzdHJva2U9InJnYmEoMjU1LDI1NSwyNTUsMC4yOCkiIHN0cm9rZS13aWR0aD0iNiIgc3Ryb2tlLWxpbmVjYXA9InJvdW5kIi8+CiAgPHRleHQgeD0iMzQiIHk9IjQyIiBmaWxsPSJyZ2JhKDI1NSwyNTUsMjU1LDAuNzgpIiBmb250LXNpemU9IjE0IiBmb250LWZhbWlseT0ibW9ub3NwYWNlIj5NQUlOIFBMT1QgRFJPUDwvdGV4dD4KICA8dGV4dCB4PSIzNCIgeT0iMTQ0IiBmaWxsPSIjZmZmZmZmIiBmb250LXNpemU9IjI0IiBmb250LXdlaWdodD0iNzAwIiBmb250LWZhbWlseT0iQXJpYWwsIHNhbnMtc2VyaWYiPiR7dGl0bGV9PC90ZXh0PgogIDx0ZXh0IHg9IjM0IiB5PSIxNjgiIGZpbGw9InJnYmEoMjU1LDI1NSwyNTUsMC44MikiIGZvbnQtc2l6ZT0iMTMiIGZvbnQtZmFtaWx5PSJBcmlhbCwgc2Fucy1zZXJpZiI+JHtzdWJ0aXRsZX08L3RleHQ+CiAgPHRleHQgeD0iMzQiIHk9IjE5MCIgZmlsbD0icmdiYSgyNTUsMjU1LDI1NSwwLjY1KSIgZm9udC1zaXplPSIxMiIgZm9udC1mYW1pbHk9Im1vbm9zcGFjZSI+JHttb3RpZn08L3RleHQ+Cjwvc3ZnPmA7Cn0KCmZ1bmN0aW9uIGVuc3VyZURldGFpbChkcmFmdDogU2ltU3RvcnlBdHRhY2htZW50RHJhZnQpOiBzdHJpbmcgfCB1bmRlZmluZWQgewogICAgaWYgKGRyYWZ0LmRldGFpbCkgcmV0dXJuIGRyYWZ0LmRldGFpbDsKICAgIGlmIChkcmFmdC5raW5kID09PSAnZmFuZmljJykgewogICAgICAgIHJldHVybiBgJHtkcmFmdC50aXRsZX1cblxuJHtkcmFmdC5zdW1tYXJ5fVxuXG7mnInkurrmiorov5nkuIDmrrXlhpnlvpfmr5TnnJ/nm7jov5jlg4/nnJ/nm7jvvIzor7vlrozlj6rkvJrmm7Tmg7Pnu6fnu63lkIPnk5zjgIJgOwogICAgfQogICAgaWYgKGRyYWZ0LmtpbmQgPT09ICdpdGVtJyB8fCBkcmFmdC5raW5kID09PSAnZXZpZGVuY2UnKSB7CiAgICAgICAgcmV0dXJuIGAke2RyYWZ0LnRpdGxlfVxuXG4ke2RyYWZ0LnN1bW1hcnl9YDsKICAgIH0KICAgIHJldHVybiB1bmRlZmluZWQ7Cn0KCmV4cG9ydCBmdW5jdGlvbiBtYXRlcmlhbGl6ZVN0b3J5QXR0YWNobWVudHMoZHJhZnRzOiBTaW1TdG9yeUF0dGFjaG1lbnREcmFmdFtdKTogU2ltU3RvcnlBdHRhY2htZW50W10gewogICAgcmV0dXJuIGRyYWZ0cy5tYXAoKGRyYWZ0LCBpbmRleCkgPT4gKHsKICAgICAgICBpZDogYHN0b3J5LWF0dGFjaG1lbnQtJHtEYXRlLm5vdygpfS0ke2luZGV4fS0ke01hdGgucmFuZG9tKCkudG9TdHJpbmcoMzYpLnNsaWNlKDIsIDcpfWAsCiAgICAgICAga2luZDogZHJhZnQua2luZCwKICAgICAgICB0aXRsZTogZHJhZnQudGl0bGUsCiAgICAgICAgc3VtbWFyeTogZHJhZnQuc3VtbWFyeSwKICAgICAgICBkZXRhaWw6IGVuc3VyZURldGFpbChkcmFmdCksCiAgICAgICAgaW1hZ2VVcmw6IGRyYWZ0LmtpbmQgPT09ICdpbWFnZScgPyBzdmdUb0RhdGFVcmkoYnVpbGRJbWFnZUNhcmRTdmcoZHJhZnQpKSA6IHVuZGVmaW5lZCwKICAgICAgICByYXJpdHk6IGRyYWZ0LnJhcml0eSB8fCAnY29tbW9uJywKICAgIH0pKTsKfQo=
+import { SimStoryAttachment, SimStoryAttachmentDraft } from '../types';
+
+const RARITY_ACCENTS = {
+    common: ['#7f8c9b', '#d8dee8'],
+    rare: ['#5b7bb8', '#d7e5ff'],
+    epic: ['#9b5bb8', '#f2d7ff'],
+} as const;
+
+function svgToDataUri(svg: string): string {
+    return `data:image/svg+xml,${encodeURIComponent(svg.trim())}`;
+}
+
+function hashText(input: string): number {
+    let hash = 0;
+    for (let i = 0; i < input.length; i++) {
+        hash = (hash * 31 + input.charCodeAt(i)) >>> 0;
+    }
+    return hash;
+}
+
+function buildImageCardSvg(draft: SimStoryAttachmentDraft): string {
+    const rarity = draft.rarity || 'common';
+    const [accent, soft] = RARITY_ACCENTS[rarity];
+    const seed = hashText(`${draft.title}:${draft.summary}:${draft.visualPrompt || ''}`);
+    const shapeOffset = seed % 18;
+    const motif = (draft.visualPrompt || draft.summary || draft.title).slice(0, 26);
+    const title = draft.title.slice(0, 18);
+    const subtitle = draft.summary.slice(0, 40);
+
+    return `
+<svg xmlns="http://www.w3.org/2000/svg" width="360" height="220" viewBox="0 0 360 220" fill="none">
+  <defs>
+    <linearGradient id="bg" x1="22" y1="18" x2="320" y2="206" gradientUnits="userSpaceOnUse">
+      <stop stop-color="${accent}"/>
+      <stop offset="1" stop-color="#171b2c"/>
+    </linearGradient>
+    <linearGradient id="soft" x1="42" y1="38" x2="282" y2="188" gradientUnits="userSpaceOnUse">
+      <stop stop-color="${soft}" stop-opacity="0.95"/>
+      <stop offset="1" stop-color="#ffffff" stop-opacity="0.05"/>
+    </linearGradient>
+  </defs>
+  <rect x="8" y="8" width="344" height="204" rx="20" fill="url(#bg)"/>
+  <rect x="18" y="18" width="324" height="184" rx="14" fill="rgba(255,255,255,0.06)" stroke="rgba(255,255,255,0.18)"/>
+  <circle cx="${88 + shapeOffset}" cy="72" r="34" fill="url(#soft)" opacity="0.9"/>
+  <rect x="${176 - shapeOffset}" y="44" width="112" height="72" rx="16" fill="rgba(255,255,255,0.1)" stroke="rgba(255,255,255,0.2)"/>
+  <path d="M42 156C78 124 118 122 150 154C182 186 224 190 286 138L320 174V188H42V156Z" fill="${soft}" fill-opacity="0.42"/>
+  <path d="M42 176C86 148 126 146 160 170C196 194 246 196 310 154" stroke="rgba(255,255,255,0.28)" stroke-width="6" stroke-linecap="round"/>
+  <text x="34" y="42" fill="rgba(255,255,255,0.78)" font-size="14" font-family="monospace">MAIN PLOT DROP</text>
+  <text x="34" y="144" fill="#ffffff" font-size="24" font-weight="700" font-family="Arial, sans-serif">${title}</text>
+  <text x="34" y="168" fill="rgba(255,255,255,0.82)" font-size="13" font-family="Arial, sans-serif">${subtitle}</text>
+  <text x="34" y="190" fill="rgba(255,255,255,0.65)" font-size="12" font-family="monospace">${motif}</text>
+</svg>`;
+}
+
+function ensureDetail(draft: SimStoryAttachmentDraft): string | undefined {
+    if (draft.detail) return draft.detail;
+    if (draft.kind === 'fanfic') {
+        return `${draft.title}\n\n${draft.summary}\n\n有人把这一段写得比真相还像真相，读完只会更想继续吃瓜。`;
+    }
+    if (draft.kind === 'item' || draft.kind === 'evidence') {
+        return `${draft.title}\n\n${draft.summary}`;
+    }
+    return undefined;
+}
+
+export function materializeStoryAttachments(drafts: SimStoryAttachmentDraft[]): SimStoryAttachment[] {
+    return drafts.map((draft, index) => ({
+        id: `story-attachment-${Date.now()}-${index}-${Math.random().toString(36).slice(2, 7)}`,
+        kind: draft.kind,
+        title: draft.title,
+        summary: draft.summary,
+        detail: ensureDetail(draft),
+        imageUrl: draft.kind === 'image' ? svgToDataUri(buildImageCardSvg(draft)) : undefined,
+        rarity: draft.rarity || 'common',
+    }));
+}

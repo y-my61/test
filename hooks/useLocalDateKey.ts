@@ -1,1 +1,45 @@
-aW1wb3J0IHsgdXNlRWZmZWN0LCB1c2VTdGF0ZSB9IGZyb20gJ3JlYWN0JzsKaW1wb3J0IHsgZ2V0TG9jYWxEYXRlS2V5LCBtc1VudGlsTmV4dExvY2FsRGF5IH0gZnJvbSAnLi4vdXRpbHMvbG9jYWxEYXRlJzsKCi8qKgogKiBSZWFjdGl2ZSBsb2NhbCBjYWxlbmRhciBkYXRlLiBSZWNoZWNrcyBhdCBtaWRuaWdodCBhbmQgd2hlbiBhIHN1c3BlbmRlZCBhcHAKICogcmV0dXJucyB0byB0aGUgZm9yZWdyb3VuZDsgdGhlIHBlcmlvZGljIGNoZWNrIGFsc28gY2F0Y2hlcyBsaXZlIHRpbWV6b25lIGNoYW5nZXMuCiAqLwpleHBvcnQgZnVuY3Rpb24gdXNlTG9jYWxEYXRlS2V5KCk6IHN0cmluZyB7CiAgICBjb25zdCBbZGF0ZUtleSwgc2V0RGF0ZUtleV0gPSB1c2VTdGF0ZSgoKSA9PiBnZXRMb2NhbERhdGVLZXkoKSk7CgogICAgdXNlRWZmZWN0KCgpID0+IHsKICAgICAgICBsZXQgbWlkbmlnaHRUaW1lcjogUmV0dXJuVHlwZTx0eXBlb2Ygc2V0VGltZW91dD4gfCBudWxsID0gbnVsbDsKCiAgICAgICAgY29uc3QgcmVmcmVzaCA9ICgpID0+IHsKICAgICAgICAgICAgc2V0RGF0ZUtleShwcmV2aW91cyA9PiB7CiAgICAgICAgICAgICAgICBjb25zdCBuZXh0ID0gZ2V0TG9jYWxEYXRlS2V5KCk7CiAgICAgICAgICAgICAgICByZXR1cm4gcHJldmlvdXMgPT09IG5leHQgPyBwcmV2aW91cyA6IG5leHQ7CiAgICAgICAgICAgIH0pOwogICAgICAgICAgICBzY2hlZHVsZU1pZG5pZ2h0KCk7CiAgICAgICAgfTsKCiAgICAgICAgY29uc3Qgc2NoZWR1bGVNaWRuaWdodCA9ICgpID0+IHsKICAgICAgICAgICAgaWYgKG1pZG5pZ2h0VGltZXIpIGNsZWFyVGltZW91dChtaWRuaWdodFRpbWVyKTsKICAgICAgICAgICAgbWlkbmlnaHRUaW1lciA9IHNldFRpbWVvdXQocmVmcmVzaCwgbXNVbnRpbE5leHRMb2NhbERheSgpKTsKICAgICAgICB9OwoKICAgICAgICBjb25zdCBvblZpc2liaWxpdHlDaGFuZ2UgPSAoKSA9PiB7CiAgICAgICAgICAgIGlmIChkb2N1bWVudC52aXNpYmlsaXR5U3RhdGUgPT09ICd2aXNpYmxlJykgcmVmcmVzaCgpOwogICAgICAgIH07CgogICAgICAgIHNjaGVkdWxlTWlkbmlnaHQoKTsKICAgICAgICBjb25zdCB0aW1lem9uZVBvbGwgPSB3aW5kb3cuc2V0SW50ZXJ2YWwocmVmcmVzaCwgNjBfMDAwKTsKICAgICAgICB3aW5kb3cuYWRkRXZlbnRMaXN0ZW5lcignZm9jdXMnLCByZWZyZXNoKTsKICAgICAgICBkb2N1bWVudC5hZGRFdmVudExpc3RlbmVyKCd2aXNpYmlsaXR5Y2hhbmdlJywgb25WaXNpYmlsaXR5Q2hhbmdlKTsKCiAgICAgICAgcmV0dXJuICgpID0+IHsKICAgICAgICAgICAgaWYgKG1pZG5pZ2h0VGltZXIpIGNsZWFyVGltZW91dChtaWRuaWdodFRpbWVyKTsKICAgICAgICAgICAgd2luZG93LmNsZWFySW50ZXJ2YWwodGltZXpvbmVQb2xsKTsKICAgICAgICAgICAgd2luZG93LnJlbW92ZUV2ZW50TGlzdGVuZXIoJ2ZvY3VzJywgcmVmcmVzaCk7CiAgICAgICAgICAgIGRvY3VtZW50LnJlbW92ZUV2ZW50TGlzdGVuZXIoJ3Zpc2liaWxpdHljaGFuZ2UnLCBvblZpc2liaWxpdHlDaGFuZ2UpOwogICAgICAgIH07CiAgICB9LCBbXSk7CgogICAgcmV0dXJuIGRhdGVLZXk7Cn0K
+import { useEffect, useState } from 'react';
+import { getLocalDateKey, msUntilNextLocalDay } from '../utils/localDate';
+
+/**
+ * Reactive local calendar date. Rechecks at midnight and when a suspended app
+ * returns to the foreground; the periodic check also catches live timezone changes.
+ */
+export function useLocalDateKey(): string {
+    const [dateKey, setDateKey] = useState(() => getLocalDateKey());
+
+    useEffect(() => {
+        let midnightTimer: ReturnType<typeof setTimeout> | null = null;
+
+        const refresh = () => {
+            setDateKey(previous => {
+                const next = getLocalDateKey();
+                return previous === next ? previous : next;
+            });
+            scheduleMidnight();
+        };
+
+        const scheduleMidnight = () => {
+            if (midnightTimer) clearTimeout(midnightTimer);
+            midnightTimer = setTimeout(refresh, msUntilNextLocalDay());
+        };
+
+        const onVisibilityChange = () => {
+            if (document.visibilityState === 'visible') refresh();
+        };
+
+        scheduleMidnight();
+        const timezonePoll = window.setInterval(refresh, 60_000);
+        window.addEventListener('focus', refresh);
+        document.addEventListener('visibilitychange', onVisibilityChange);
+
+        return () => {
+            if (midnightTimer) clearTimeout(midnightTimer);
+            window.clearInterval(timezonePoll);
+            window.removeEventListener('focus', refresh);
+            document.removeEventListener('visibilitychange', onVisibilityChange);
+        };
+    }, []);
+
+    return dateKey;
+}

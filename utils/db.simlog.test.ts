@@ -1,1 +1,56 @@
-aW1wb3J0IHsgZGVzY3JpYmUsIGl0LCBleHBlY3QgfSBmcm9tICd2aXRlc3QnOwppbXBvcnQgeyBEQiB9IGZyb20gJy4vZGInOwppbXBvcnQgdHlwZSB7IENoYXJhY3RlclByb2ZpbGUgfSBmcm9tICcuLi90eXBlcyc7CgovLyDlpI3njrDjgIzkurrmoLzmqKHmi5/nlJ/mtLvorrDlvZXlr7zlh7rlho3lr7zlhaXlkI7mtojlpLHjgI3nmoTmiqXpmpzvvJoKLy8gc2ltTG9ncyDlrZjlnKggY2hhci5waG9uZVN0YXRlLnNpbUxvZ3PvvIzlupTpmo/op5LoibLkuIDotbcgcm91bmQtdHJpcOOAggpkZXNjcmliZSgn55Sf5rS76K6w5b2VIChwaG9uZVN0YXRlLnNpbUxvZ3MpIOWvvOWHui/lr7zlhaUgcm91bmQtdHJpcCcsICgpID0+IHsKICBpdCgnZXhwb3J0RnVsbERhdGEg4oaSIEpTT04g4oaSIGltcG9ydEZ1bGxEYXRhIOWQjiBzaW1Mb2dzIOS7jeWcqCcsIGFzeW5jICgpID0+IHsKICAgIGNvbnN0IGNoYXIgPSB7CiAgICAgIGlkOiAnc2ltLXJ0LWNoYXInLAogICAgICBuYW1lOiAn6Zi/54u4JywKICAgICAgcGVyc29uYTogJ+a1i+ivleinkuiJsicsCiAgICAgIHBob25lU3RhdGU6IHsKICAgICAgICByZWNvcmRzOiBbXSwKICAgICAgICBzaW1Mb2dzOiBbCiAgICAgICAgICAvLyDmlrDniYjvvJrluKblrozmlbTohJrmnKzlv6vnhafvvIjlj6/ph43mkq3vvInvvIzlr7zlh7rlr7zlhaXpobvmioogc2NyaXB0LmJlYXRzIOS4gOi1t+W4pui1sAogICAgICAgICAgeyBpZDogJ3NpbS0xJywgbW9kZTogJ2RhaWx5JywgdGhlbWU6ICfpm6jlpKknLCB0aXRsZTogJ+S4gOS4qumbqOWkqScsIHN1bW1hcnk6ICcnLCBlbmRpbmc6ICdzb2Z0JywgYmVhdHNDb3VudDogMTIsIG1lbW9yeVRleHQ6ICfkuIvkuobkuIDlpKnnmoTpm6jjgIInLCB0aW1lc3RhbXA6IDE3MTg5MDAwMDAwMDAsCiAgICAgICAgICAgIHNjcmlwdDogeyB0aXRsZTogJ+S4gOS4qumbqOWkqScsIHN1bW1hcnk6ICcnLCBlbmRpbmc6ICdzb2Z0JywgYmVhdHM6IFsKICAgICAgICAgICAgICB7IGtpbmQ6ICdsb2NrJywgdGltZTogJzA3OjAwJywgbW9ub2xvZ3VlOiAn5LiN5oOz6LW35bqK44CCJyB9LAogICAgICAgICAgICAgIHsga2luZDogJ3Rob3VnaHQnLCBtb25vbG9ndWU6ICflj4jkuIvpm6jkuobjgIInLCB2aWJlOiAnbnVtYicgfSwKICAgICAgICAgICAgICB7IGtpbmQ6ICdlbmQnIH0sCiAgICAgICAgICAgIF0gfSB9LAogICAgICAgICAgLy8g5pen54mI77ya5rKh5pyJIHNjcmlwdCDlv6vnhafvvIzlr7zlhaXlkI7ku43lupTkv53mjIHjgIzmsqHmnInjgI3vvIjlj6rog73lj5HpgIHjgIHkuI3og73ph43mkq3vvIkKICAgICAgICAgIHsgaWQ6ICdzaW0tMicsIG1vZGU6ICdldmVudCcsIHRoZW1lOiAn5pCs5a62JywgdGl0bGU6ICfmkKzlrrbpgqPlpKknLCBzdW1tYXJ5OiAnJywgZW5kaW5nOiAnb3BlbicsIGJlYXRzQ291bnQ6IDIwLCBtZW1vcnlUZXh0OiAn566x5a2Q5aCG5ruh5LqG5a6i5Y6F44CCJywgdGltZXN0YW1wOiAxNzE4OTkwMDAwMDAwIH0sCiAgICAgICAgXSwKICAgICAgfSwKICAgIH0gYXMgdW5rbm93biBhcyBDaGFyYWN0ZXJQcm9maWxlOwoKICAgIGF3YWl0IERCLnNhdmVDaGFyYWN0ZXIoY2hhcik7CgogICAgLy8gMSkg5a+85Ye677yIREIg5bGC6Lev5b6E77yM562J5Lu35LqO6K6+572uLeWvvOWHuuivuyBjaGFyYWN0ZXJzIHN0b3JlIOeahOWGheWuue+8iQogICAgY29uc3QgZXhwb3J0ZWQgPSBhd2FpdCBEQi5leHBvcnRGdWxsRGF0YSgpOwogICAgLy8gMikg5qih5ouf5YaZ5paH5Lu2ICsg6K+75paH5Lu2CiAgICBjb25zdCBvbkRpc2sgPSBKU09OLnBhcnNlKEpTT04uc3RyaW5naWZ5KGV4cG9ydGVkKSk7CgogICAgLy8g5a+85Ye654mp6YeM5b+F6aG75bim552AIHNpbUxvZ3MKICAgIGNvbnN0IGV4cG9ydGVkQ2hhciA9IChvbkRpc2suY2hhcmFjdGVycyBhcyBDaGFyYWN0ZXJQcm9maWxlW10pLmZpbmQoYyA9PiBjLmlkID09PSAnc2ltLXJ0LWNoYXInKTsKICAgIGV4cGVjdChleHBvcnRlZENoYXI/LnBob25lU3RhdGU/LnNpbUxvZ3M/Lmxlbmd0aCkudG9CZSgyKTsKCiAgICAvLyAzKSDmuIXmjonlho3lr7zlhaUKICAgIGF3YWl0IERCLnNhdmVDaGFyYWN0ZXIoeyAuLi5jaGFyLCBwaG9uZVN0YXRlOiB7IHJlY29yZHM6IFtdIH0gfSBhcyBhbnkpOyAvLyDmqKHmi5/lr7zlhaXliY3mnKzlnLDml6DorrDlvZUKICAgIGF3YWl0IERCLmltcG9ydEZ1bGxEYXRhKG9uRGlzayBhcyBhbnksIHt9KTsKCiAgICAvLyA0KSDlr7zlhaXlkI7ku44gREIg6YeN5paw6K+7CiAgICBjb25zdCBhbGwgPSBhd2FpdCBEQi5nZXRBbGxDaGFyYWN0ZXJzKCk7CiAgICBjb25zdCByZXN0b3JlZCA9IGFsbC5maW5kKGMgPT4gYy5pZCA9PT0gJ3NpbS1ydC1jaGFyJyk7CiAgICBjb25zdCByZXN0b3JlZExvZ3MgPSByZXN0b3JlZD8ucGhvbmVTdGF0ZT8uc2ltTG9nczsKICAgIGV4cGVjdChyZXN0b3JlZExvZ3M/Lmxlbmd0aCkudG9CZSgyKTsKICAgIGV4cGVjdChyZXN0b3JlZExvZ3M/LlswXS5tZW1vcnlUZXh0KS50b0JlKCfkuIvkuobkuIDlpKnnmoTpm6jjgIInKTsKICAgIC8vIOaWsOeJiOiEmuacrOW/q+eFp+WujOaVtCByb3VuZC10cmlwIOKGkiDlr7zlhaXlkI7ku43lj6/ph43mkq0KICAgIGV4cGVjdChyZXN0b3JlZExvZ3M/LlswXS5zY3JpcHQ/LmJlYXRzPy5sZW5ndGgpLnRvQmUoMyk7CiAgICBleHBlY3QocmVzdG9yZWRMb2dzPy5bMF0uc2NyaXB0Py5iZWF0cz8uWzBdLm1vbm9sb2d1ZSkudG9CZSgn5LiN5oOz6LW35bqK44CCJyk7CiAgICAvLyDml6fniYjmsqHmnIkgc2NyaXB077yM5a+85YWl5ZCO5L6d5pen5rKh5pyJ77yI5LiN5Lya5Yet56m65YaS5Ye65p2l77yJCiAgICBleHBlY3QocmVzdG9yZWRMb2dzPy5bMV0uc2NyaXB0KS50b0JlVW5kZWZpbmVkKCk7CiAgfSk7Cn0pOwo=
+import { describe, it, expect } from 'vitest';
+import { DB } from './db';
+import type { CharacterProfile } from '../types';
+
+// 复现「人格模拟生活记录导出再导入后消失」的报障：
+// simLogs 存在 char.phoneState.simLogs，应随角色一起 round-trip。
+describe('生活记录 (phoneState.simLogs) 导出/导入 round-trip', () => {
+  it('exportFullData → JSON → importFullData 后 simLogs 仍在', async () => {
+    const char = {
+      id: 'sim-rt-char',
+      name: '阿狸',
+      persona: '测试角色',
+      phoneState: {
+        records: [],
+        simLogs: [
+          // 新版：带完整脚本快照（可重播），导出导入须把 script.beats 一起带走
+          { id: 'sim-1', mode: 'daily', theme: '雨天', title: '一个雨天', summary: '', ending: 'soft', beatsCount: 12, memoryText: '下了一天的雨。', timestamp: 1718900000000,
+            script: { title: '一个雨天', summary: '', ending: 'soft', beats: [
+              { kind: 'lock', time: '07:00', monologue: '不想起床。' },
+              { kind: 'thought', monologue: '又下雨了。', vibe: 'numb' },
+              { kind: 'end' },
+            ] } },
+          // 旧版：没有 script 快照，导入后仍应保持「没有」（只能发送、不能重播）
+          { id: 'sim-2', mode: 'event', theme: '搬家', title: '搬家那天', summary: '', ending: 'open', beatsCount: 20, memoryText: '箱子堆满了客厅。', timestamp: 1718990000000 },
+        ],
+      },
+    } as unknown as CharacterProfile;
+
+    await DB.saveCharacter(char);
+
+    // 1) 导出（DB 层路径，等价于设置-导出读 characters store 的内容）
+    const exported = await DB.exportFullData();
+    // 2) 模拟写文件 + 读文件
+    const onDisk = JSON.parse(JSON.stringify(exported));
+
+    // 导出物里必须带着 simLogs
+    const exportedChar = (onDisk.characters as CharacterProfile[]).find(c => c.id === 'sim-rt-char');
+    expect(exportedChar?.phoneState?.simLogs?.length).toBe(2);
+
+    // 3) 清掉再导入
+    await DB.saveCharacter({ ...char, phoneState: { records: [] } } as any); // 模拟导入前本地无记录
+    await DB.importFullData(onDisk as any, {});
+
+    // 4) 导入后从 DB 重新读
+    const all = await DB.getAllCharacters();
+    const restored = all.find(c => c.id === 'sim-rt-char');
+    const restoredLogs = restored?.phoneState?.simLogs;
+    expect(restoredLogs?.length).toBe(2);
+    expect(restoredLogs?.[0].memoryText).toBe('下了一天的雨。');
+    // 新版脚本快照完整 round-trip → 导入后仍可重播
+    expect(restoredLogs?.[0].script?.beats?.length).toBe(3);
+    expect(restoredLogs?.[0].script?.beats?.[0].monologue).toBe('不想起床。');
+    // 旧版没有 script，导入后依旧没有（不会凭空冒出来）
+    expect(restoredLogs?.[1].script).toBeUndefined();
+  });
+});

@@ -1,1 +1,39 @@
-aW1wb3J0IHsgZGVzY3JpYmUsIGV4cGVjdCwgaXQgfSBmcm9tICd2aXRlc3QnOwppbXBvcnQgewogICAgYnVpbGRSYW5nZVNlYXJjaEVudHJpZXMsCiAgICBmaWx0ZXJSYW5nZVNlYXJjaEVudHJpZXMsCiAgICBnZXRSYW5nZUVuZHBvaW50TGFiZWwsCiAgICBnZXRSYW5nZVNlbGVjdGlvbkhpbnQsCiAgICBub3JtYWxpemVSYW5nZVNlYXJjaFRleHQsCn0gZnJvbSAnLi9yYW5nZVNlbGVjdGlvbic7CgpkZXNjcmliZSgn5omL5Yqo5oC757uT5Yy66Ze06YCJ5oupJywgKCkgPT4gewogICAgaXQoJ+WFiOmAiee7iOeCueaXtuS/neaMgeaYvuekuuKAnOe7iOeCueKAne+8jOS4jeS8muivr+agh+S4uui1t+eCuScsICgpID0+IHsKICAgICAgICBleHBlY3QoZ2V0UmFuZ2VFbmRwb2ludExhYmVsKDIyLCBudWxsLCAyMikpLnRvQmUoJ+e7iOeCuScpOwogICAgICAgIGV4cGVjdChnZXRSYW5nZVNlbGVjdGlvbkhpbnQobnVsbCwgMjIsIDEpKS50b0JlKCflt7LpgInnu4jngrnvvIzor7flho3ngrnotbfngrknKTsKICAgIH0pOwoKICAgIGl0KCfotbfnu4jngrnlj43lkJHpgInmi6nml7bku43lv6Dlrp7mmL7npLrnlKjmiLfmjIflrprnmoTop5LoibInLCAoKSA9PiB7CiAgICAgICAgZXhwZWN0KGdldFJhbmdlRW5kcG9pbnRMYWJlbCg4MCwgODAsIDIwKSkudG9CZSgn6LW354K5Jyk7CiAgICAgICAgZXhwZWN0KGdldFJhbmdlRW5kcG9pbnRMYWJlbCgyMCwgODAsIDIwKSkudG9CZSgn57uI54K5Jyk7CiAgICB9KTsKCiAgICBpdCgn5ZCM5LiA5p2h5raI5oGv5Y+v5ZCM5pe25L2c5Li66LW354K55ZKM57uI54K5JywgKCkgPT4gewogICAgICAgIGV4cGVjdChnZXRSYW5nZUVuZHBvaW50TGFiZWwoMzAsIDMwLCAzMCkpLnRvQmUoJ+i1t+eCuSAvIOe7iOeCuScpOwogICAgICAgIGV4cGVjdChnZXRSYW5nZVNlbGVjdGlvbkhpbnQoMzAsIDMwLCAxKSkudG9CZSgn5bey6YCJIDEg5p2hJyk7CiAgICB9KTsKCiAgICBpdCgn5pel5pyf5pCc57Si5b+955Wl5YiG6ZqU56ym5ZCO55qE5YmN5a+86Zu277yM5bm25aSN55So6aKE6K6h566X57Si5byVJywgKCkgPT4gewogICAgICAgIGNvbnN0IG1lc3NhZ2VzID0gWwogICAgICAgICAgICB7IGlkOiAxLCBjb250ZW50OiAn5YWt5pyI55qE57qm5a6aJywgdGltZXN0YW1wOiAxIH0sCiAgICAgICAgICAgIHsgaWQ6IDIsIGNvbnRlbnQ6ICfkuIPmnIjop4EnLCB0aW1lc3RhbXA6IDIgfSwKICAgICAgICBdIGFzIGFueTsKICAgICAgICBjb25zdCBlbnRyaWVzID0gYnVpbGRSYW5nZVNlYXJjaEVudHJpZXMobWVzc2FnZXMsIHRpbWVzdGFtcCA9PgogICAgICAgICAgICB0aW1lc3RhbXAgPT09IDEgPyAnMjAyNi8wNi8yMiAwMTowNCcgOiAnMjAyNi8wNy8wMyAwOTozMCcsCiAgICAgICAgKTsKCiAgICAgICAgZXhwZWN0KG5vcm1hbGl6ZVJhbmdlU2VhcmNoVGV4dCgnIDYvMjIgJykpLnRvQmUoJzYvMjInKTsKICAgICAgICBleHBlY3QoZmlsdGVyUmFuZ2VTZWFyY2hFbnRyaWVzKGVudHJpZXMsICc2LzIyJykubWFwKG1lc3NhZ2UgPT4gbWVzc2FnZS5pZCkpLnRvRXF1YWwoWzFdKTsKICAgICAgICBleHBlY3QoZmlsdGVyUmFuZ2VTZWFyY2hFbnRyaWVzKGVudHJpZXMsICfkuIPmnIgnKS5tYXAobWVzc2FnZSA9PiBtZXNzYWdlLmlkKSkudG9FcXVhbChbMl0pOwogICAgfSk7Cn0pOwo=
+import { describe, expect, it } from 'vitest';
+import {
+    buildRangeSearchEntries,
+    filterRangeSearchEntries,
+    getRangeEndpointLabel,
+    getRangeSelectionHint,
+    normalizeRangeSearchText,
+} from './rangeSelection';
+
+describe('手动总结区间选择', () => {
+    it('先选终点时保持显示“终点”，不会误标为起点', () => {
+        expect(getRangeEndpointLabel(22, null, 22)).toBe('终点');
+        expect(getRangeSelectionHint(null, 22, 1)).toBe('已选终点，请再点起点');
+    });
+
+    it('起终点反向选择时仍忠实显示用户指定的角色', () => {
+        expect(getRangeEndpointLabel(80, 80, 20)).toBe('起点');
+        expect(getRangeEndpointLabel(20, 80, 20)).toBe('终点');
+    });
+
+    it('同一条消息可同时作为起点和终点', () => {
+        expect(getRangeEndpointLabel(30, 30, 30)).toBe('起点 / 终点');
+        expect(getRangeSelectionHint(30, 30, 1)).toBe('已选 1 条');
+    });
+
+    it('日期搜索忽略分隔符后的前导零，并复用预计算索引', () => {
+        const messages = [
+            { id: 1, content: '六月的约定', timestamp: 1 },
+            { id: 2, content: '七月见', timestamp: 2 },
+        ] as any;
+        const entries = buildRangeSearchEntries(messages, timestamp =>
+            timestamp === 1 ? '2026/06/22 01:04' : '2026/07/03 09:30',
+        );
+
+        expect(normalizeRangeSearchText(' 6/22 ')).toBe('6/22');
+        expect(filterRangeSearchEntries(entries, '6/22').map(message => message.id)).toEqual([1]);
+        expect(filterRangeSearchEntries(entries, '七月').map(message => message.id)).toEqual([2]);
+    });
+});

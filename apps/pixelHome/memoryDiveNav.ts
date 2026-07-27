@@ -1,1 +1,80 @@
-LyoqCiAqIE1lbW9yeSBEaXZlIOKAlCDmiL/pl7Tlr7zoiKrpobrluo8KICoKICog5paw54mI5Ymn5pys5rWB56iL77ya6KeS6Imy5LiN5YaN6LWw5ZCR5a625YW377yM5Y+q5Zyo5oi/6Ze06YeM6K+06K+d44CCCiAqIOi/memHjOWPquS/neeVmeOAjOS4i+S4gOS4quivpeWOu+WTquS4quaIv+mXtOOAjeeahOmAu+i+keOAggogKi8KCmltcG9ydCB0eXBlIHsgTWVtb3J5Um9vbSB9IGZyb20gJy4uLy4uL3V0aWxzL21lbW9yeVBhbGFjZS90eXBlcyc7CgovKiog5byV5a+86aG65bqP4oCU4oCU5LuO5a6i5Y6F5pel5bi46YCQ5q2l6L+b5YWl5YaF5b+D5rex5aSE77yM6ZiB5qW85pyA5ZCOICovCmV4cG9ydCBjb25zdCBHVUlERURfUk9PTV9PUkRFUjogTWVtb3J5Um9vbVtdID0gWwogICdsaXZpbmdfcm9vbScsICdiZWRyb29tJywgJ3N0dWR5JywgJ3NlbGZfcm9vbScsICd1c2VyX3Jvb20nLCAnd2luZG93c2lsbCcsICdhdHRpYycsCl07CgovKioKICog6KeS6Imy56uZ5L2N54K577yI5q+P5Liq5oi/6Ze05LiA5Liq6ISa5bqV54K577yJCiAqCiAqIOi/meS6m+WdkOagh+aYr+aMieWQhOaIv+mXtCByb29tVGVtcGxhdGVzIOmHjOWutuWFt+eahCBkZWZhdWx0IOS9jee9ruaMkeWHuuadpeeahOepuuWcsOKAlOKAlAogKiDpgb/lvIDkuobmspnlj5HjgIHluorjgIHmoYzlrZDov5nkupvlpKfku7bvvIzorqnop5LoibLokL3ohJrnmoTml7blgJnkuI3kvJrouKnlnKjlrrblhbfkuIrjgIIKICog5ZCO57ut55So5oi35pS56L+H5a625YW35biD5bGA5LmL5ZCO5Lmf5LiN5LiA5a6a5a6M576O6YG/5byA77yM5L2G6Iez5bCR6buY6K6k5biD5bGA5LiL5piv5bmy5YeA55qE44CCCiAqIOeUqOaIt+Wwj+S6uiA9IOinkuiJsuS9jee9ruW3puWBjyAxMCXjgIHkuIvlgY8gNCXvvIjop4EgdXNlclBvc++8ie+8jOaJgOS7pei/memHjOeahCB4IOS4jeiDveWkqumdoOW3pui+ueOAggogKi8KY29uc3QgUk9PTV9DSEFSX1BPUzogUmVjb3JkPE1lbW9yeVJvb20sIHsgeDogbnVtYmVyOyB5OiBudW1iZXIgfT4gPSB7CiAgbGl2aW5nX3Jvb206IHsgeDogNjIsIHk6IDgyIH0sIC8vIOaymeWPkSgyNSw2MCkg6Iy25YegKDQwLDY1KSDlnLDmr68oNTAsNzUpIOWPs+S4i+epuuWcsAogIGJlZHJvb206ICAgICB7IHg6IDMyLCB5OiA4MCB9LCAvLyDluoooNjAsNTUpIOW6iuWktOafnCg4NSw1NSkg5bem5LiL56m65ZywCiAgc3R1ZHk6ICAgICAgIHsgeDogMzUsIHk6IDgyIH0sIC8vIOS5puahjCg1MCw1NSkg5Lmm5p62KDE1LDM1KSDlt6bkuIvnqbrlnLAKICBhdHRpYzogICAgICAgeyB4OiA0OCwgeTogODIgfSwgLy8g566x5a2QKDMwLDYwKSDlhavpn7Pnm5IoNjUsNjUpIOS4reS4i+epuuWcsAogIHNlbGZfcm9vbTogICB7IHg6IDQ1LCB5OiA4MiB9LCAvLyDmorPlpoblj7AoMjUsNTApIOWuoOeJqeeqnSg3MCw3MCkg5Lit5LiL56m65ZywCiAgdXNlcl9yb29tOiAgIHsgeDogMzUsIHk6IDc1IH0sIC8vIOWuouW6iig1NSw1NSkg6Zeo5Z6rKDUwLDg1KSDlt6bkuK3nqbrlnLAKICB3aW5kb3dzaWxsOiAgeyB4OiA1NSwgeTogNzggfSwgLy8g6Iqx55uGKDMwLDU1KSDmnJvov5zplZwoNzUsNDUpIOenjeWtkOebkigyMCw2NSkg5Lit5LiL56m65ZywCn07CgpleHBvcnQgZnVuY3Rpb24gcm9vbUNoYXJQb3Mocm9vbUlkOiBNZW1vcnlSb29tKTogeyB4OiBudW1iZXI7IHk6IG51bWJlciB9IHsKICByZXR1cm4gUk9PTV9DSEFSX1BPU1tyb29tSWRdIHx8IHsgeDogNTIsIHk6IDc4IH07Cn0KCi8qKiDnlKjmiLflsI/kurrmlpzlkI7ot5/pmo8gKi8KZXhwb3J0IGZ1bmN0aW9uIHVzZXJQb3MoY2hhclg6IG51bWJlciwgY2hhclk6IG51bWJlcik6IHsgeDogbnVtYmVyOyB5OiBudW1iZXIgfSB7CiAgcmV0dXJuIHsKICAgIHg6IE1hdGgubWF4KDgsIE1hdGgubWluKDkyLCBjaGFyWCAtIDEwKSksCiAgICB5OiBNYXRoLm1heCg0MiwgTWF0aC5taW4oOTIsIGNoYXJZICsgNCkpLAogIH07Cn0KCi8qKiDop5LoibLlnKjkuIDkuKrmiL/pl7Tph4wgYmVhdCDkuYvpl7TnmoTovbvlvq7mvILnp7vvvIzorqnnlLvpnaLmtLvkuIDngrkgKi8KZXhwb3J0IGZ1bmN0aW9uIGppdHRlclBvcyhiYXNlOiB7IHg6IG51bWJlcjsgeTogbnVtYmVyIH0pOiB7IHg6IG51bWJlcjsgeTogbnVtYmVyIH0gewogIGNvbnN0IGp4ID0gKE1hdGgucmFuZG9tKCkgLSAwLjUpICogMTg7IC8vIMKxOSUKICBjb25zdCBqeSA9IChNYXRoLnJhbmRvbSgpIC0gMC41KSAqIDEwOyAvLyDCsTUlCiAgLy8g5LulIGJhc2UueSDkuLrlj4LogIPlgZogwrE1JSDkuIrkuIvmipbliqjvvIzkuI3lho3noazplIHmrbvlnKggNTguLjg277ybCiAgLy8g5ZCm5YiZ5bCP5oi/6Ze06YeMIGJhc2UueSDlt7Lnu4/mjKrliLAgNzgtODIg55qE56m65Zyw77yM56Gs6ZKz5L2PIDU4Li44NiDkvJrmiorop5LoibLmi73lm57lrrblhbfouqvkuIrjgIIKICBjb25zdCBtaW5ZID0gTWF0aC5tYXgoNTUsIGJhc2UueSAtIDEyKTsKICBjb25zdCBtYXhZID0gTWF0aC5taW4oODgsIGJhc2UueSArIDgpOwogIHJldHVybiB7CiAgICB4OiBNYXRoLm1heCgxOCwgTWF0aC5taW4oODIsIGJhc2UueCArIGp4KSksCiAgICB5OiBNYXRoLm1heChtaW5ZLCBNYXRoLm1pbihtYXhZLCBiYXNlLnkgKyBqeSkpLAogIH07Cn0KCi8qKgogKiDpgInkuIvkuIDkuKrmiL/pl7TjgILkvJjlhYggTExNIOaOqOiNkO+8jOWQpuWImeaMieWbuuWumumhuuW6j+WPluesrOS4gOS4quacquiuv+mXrui/h+eahOaIv+mXtO+8mwogKiDlhajpg6jorr/pl67lrozov5Tlm54gbnVsbOOAggogKi8KZXhwb3J0IGZ1bmN0aW9uIHBpY2tOZXh0Um9vbSgKICBjdXJyZW50Um9vbTogTWVtb3J5Um9vbSwKICB2aXNpdGVkUm9vbXM6IE1lbW9yeVJvb21bXSwKICBwcmVmZXJyZWQ/OiBNZW1vcnlSb29tLAopOiBNZW1vcnlSb29tIHwgbnVsbCB7CiAgaWYgKHByZWZlcnJlZCAmJiBwcmVmZXJyZWQgIT09IGN1cnJlbnRSb29tICYmICF2aXNpdGVkUm9vbXMuaW5jbHVkZXMocHJlZmVycmVkKSkgewogICAgcmV0dXJuIHByZWZlcnJlZDsKICB9CiAgY29uc3QgaWR4ID0gR1VJREVEX1JPT01fT1JERVIuaW5kZXhPZihjdXJyZW50Um9vbSk7CiAgZm9yIChsZXQgaSA9IGlkeCArIDE7IGkgPCBHVUlERURfUk9PTV9PUkRFUi5sZW5ndGg7IGkrKykgewogICAgY29uc3QgciA9IEdVSURFRF9ST09NX09SREVSW2ldOwogICAgaWYgKCF2aXNpdGVkUm9vbXMuaW5jbHVkZXMocikpIHJldHVybiByOwogIH0KICBmb3IgKGNvbnN0IHIgb2YgR1VJREVEX1JPT01fT1JERVIpIHsKICAgIGlmICghdmlzaXRlZFJvb21zLmluY2x1ZGVzKHIpKSByZXR1cm4gcjsKICB9CiAgcmV0dXJuIG51bGw7Cn0K
+/**
+ * Memory Dive — 房间导航顺序
+ *
+ * 新版剧本流程：角色不再走向家具，只在房间里说话。
+ * 这里只保留「下一个该去哪个房间」的逻辑。
+ */
+
+import type { MemoryRoom } from '../../utils/memoryPalace/types';
+
+/** 引导顺序——从客厅日常逐步进入内心深处，阁楼最后 */
+export const GUIDED_ROOM_ORDER: MemoryRoom[] = [
+  'living_room', 'bedroom', 'study', 'self_room', 'user_room', 'windowsill', 'attic',
+];
+
+/**
+ * 角色站位点（每个房间一个脚底点）
+ *
+ * 这些坐标是按各房间 roomTemplates 里家具的 default 位置挑出来的空地——
+ * 避开了沙发、床、桌子这些大件，让角色落脚的时候不会踩在家具上。
+ * 后续用户改过家具布局之后也不一定完美避开，但至少默认布局下是干净的。
+ * 用户小人 = 角色位置左偏 10%、下偏 4%（见 userPos），所以这里的 x 不能太靠左边。
+ */
+const ROOM_CHAR_POS: Record<MemoryRoom, { x: number; y: number }> = {
+  living_room: { x: 62, y: 82 }, // 沙发(25,60) 茶几(40,65) 地毯(50,75) 右下空地
+  bedroom:     { x: 32, y: 80 }, // 床(60,55) 床头柜(85,55) 左下空地
+  study:       { x: 35, y: 82 }, // 书桌(50,55) 书架(15,35) 左下空地
+  attic:       { x: 48, y: 82 }, // 箱子(30,60) 八音盒(65,65) 中下空地
+  self_room:   { x: 45, y: 82 }, // 梳妆台(25,50) 宠物窝(70,70) 中下空地
+  user_room:   { x: 35, y: 75 }, // 客床(55,55) 门垫(50,85) 左中空地
+  windowsill:  { x: 55, y: 78 }, // 花盆(30,55) 望远镜(75,45) 种子盒(20,65) 中下空地
+};
+
+export function roomCharPos(roomId: MemoryRoom): { x: number; y: number } {
+  return ROOM_CHAR_POS[roomId] || { x: 52, y: 78 };
+}
+
+/** 用户小人斜后跟随 */
+export function userPos(charX: number, charY: number): { x: number; y: number } {
+  return {
+    x: Math.max(8, Math.min(92, charX - 10)),
+    y: Math.max(42, Math.min(92, charY + 4)),
+  };
+}
+
+/** 角色在一个房间里 beat 之间的轻微漂移，让画面活一点 */
+export function jitterPos(base: { x: number; y: number }): { x: number; y: number } {
+  const jx = (Math.random() - 0.5) * 18; // ±9%
+  const jy = (Math.random() - 0.5) * 10; // ±5%
+  // 以 base.y 为参考做 ±5% 上下抖动，不再硬锁死在 58..86；
+  // 否则小房间里 base.y 已经挪到 78-82 的空地，硬钳住 58..86 会把角色拽回家具身上。
+  const minY = Math.max(55, base.y - 12);
+  const maxY = Math.min(88, base.y + 8);
+  return {
+    x: Math.max(18, Math.min(82, base.x + jx)),
+    y: Math.max(minY, Math.min(maxY, base.y + jy)),
+  };
+}
+
+/**
+ * 选下一个房间。优先 LLM 推荐，否则按固定顺序取第一个未访问过的房间；
+ * 全部访问完返回 null。
+ */
+export function pickNextRoom(
+  currentRoom: MemoryRoom,
+  visitedRooms: MemoryRoom[],
+  preferred?: MemoryRoom,
+): MemoryRoom | null {
+  if (preferred && preferred !== currentRoom && !visitedRooms.includes(preferred)) {
+    return preferred;
+  }
+  const idx = GUIDED_ROOM_ORDER.indexOf(currentRoom);
+  for (let i = idx + 1; i < GUIDED_ROOM_ORDER.length; i++) {
+    const r = GUIDED_ROOM_ORDER[i];
+    if (!visitedRooms.includes(r)) return r;
+  }
+  for (const r of GUIDED_ROOM_ORDER) {
+    if (!visitedRooms.includes(r)) return r;
+  }
+  return null;
+}

@@ -1,1 +1,285 @@
-aW1wb3J0IFJlYWN0LCB7IHVzZUVmZmVjdCwgdXNlU3RhdGUgfSBmcm9tICdyZWFjdCc7CmltcG9ydCBNb2RhbCBmcm9tICcuLi9vcy9Nb2RhbCc7CmltcG9ydCB7IEFjdGl2ZU1zZzJHbG9iYWxDb25maWcgfSBmcm9tICcuLi8uLi90eXBlcyc7CmltcG9ydCB7IEFjdGl2ZU1zZ0NsaWVudCB9IGZyb20gJy4uLy4uL3V0aWxzL2FjdGl2ZU1zZ0NsaWVudCc7CmltcG9ydCB7IEFjdGl2ZU1zZ1N0b3JlLCBtYXNrQWN0aXZlTXNnVXNlcklkIH0gZnJvbSAnLi4vLi4vdXRpbHMvYWN0aXZlTXNnU3RvcmUnOwoKaW50ZXJmYWNlIEFjdGl2ZU1zZ0dsb2JhbFNldHRpbmdzTW9kYWxQcm9wcyB7CiAgaXNPcGVuOiBib29sZWFuOwogIG9uQ2xvc2U6ICgpID0+IHZvaWQ7CiAgYWRkVG9hc3Q6IChtZXNzYWdlOiBzdHJpbmcsIHR5cGU/OiAnc3VjY2VzcycgfCAnZXJyb3InIHwgJ2luZm8nKSA9PiB2b2lkOwp9Cgpjb25zdCBBY3RpdmVNc2dHbG9iYWxTZXR0aW5nc01vZGFsOiBSZWFjdC5GQzxBY3RpdmVNc2dHbG9iYWxTZXR0aW5nc01vZGFsUHJvcHM+ID0gKHsKICBpc09wZW4sCiAgb25DbG9zZSwKICBhZGRUb2FzdCwKfSkgPT4gewogIGNvbnN0IFtjb25maWcsIHNldENvbmZpZ10gPSB1c2VTdGF0ZTxBY3RpdmVNc2cyR2xvYmFsQ29uZmlnIHwgbnVsbD4obnVsbCk7CiAgY29uc3QgW2xvYWRpbmcsIHNldExvYWRpbmddID0gdXNlU3RhdGUoZmFsc2UpOwogIGNvbnN0IFthZHZhbmNlZE9wZW4sIHNldEFkdmFuY2VkT3Blbl0gPSB1c2VTdGF0ZShmYWxzZSk7CiAgY29uc3QgW3B1c2hTdGF0dXMsIHNldFB1c2hTdGF0dXNdID0gdXNlU3RhdGU8ewogICAgc3VwcG9ydGVkOiBib29sZWFuOwogICAgcGVybWlzc2lvbjogTm90aWZpY2F0aW9uUGVybWlzc2lvbiB8ICd1bnN1cHBvcnRlZCc7CiAgICBoYXNTdWJzY3JpcHRpb246IGJvb2xlYW47CiAgICB2YXBpZENvbmZpZ3VyZWQ6IGJvb2xlYW47CiAgICBkZXRhaWw/OiBzdHJpbmc7CiAgfSB8IG51bGw+KG51bGwpOwogIGNvbnN0IFtrZXlTdGF0dXMsIHNldEtleVN0YXR1c10gPSB1c2VTdGF0ZSgnJyk7CgogIGNvbnN0IHJlZnJlc2ggPSBhc3luYyAoKSA9PiB7CiAgICBjb25zdCBuZXh0Q29uZmlnID0gYXdhaXQgQWN0aXZlTXNnQ2xpZW50LmdldEdsb2JhbENvbmZpZygpOwogICAgY29uc3QgbmV4dFB1c2hTdGF0dXMgPSBhd2FpdCBBY3RpdmVNc2dDbGllbnQuZ2V0UHVzaFN0YXR1cygpOwogICAgc2V0Q29uZmlnKHsKICAgICAgLi4ubmV4dENvbmZpZywKICAgICAgZHJpdmVyOiAnbmVvbicsCiAgICB9KTsKICAgIHNldFB1c2hTdGF0dXMobmV4dFB1c2hTdGF0dXMpOwogIH07CgogIHVzZUVmZmVjdCgoKSA9PiB7CiAgICBpZiAoIWlzT3BlbikgcmV0dXJuOwogICAgc2V0QWR2YW5jZWRPcGVuKGZhbHNlKTsKICAgIHZvaWQgcmVmcmVzaCgpOwogIH0sIFtpc09wZW5dKTsKCiAgdXNlRWZmZWN0KCgpID0+IHsKICAgIGlmICghaXNPcGVuIHx8ICFjb25maWcpIHJldHVybjsKICAgIHZvaWQgQWN0aXZlTXNnU3RvcmUuc2F2ZUdsb2JhbENvbmZpZyh7CiAgICAgIGRyaXZlcjogJ25lb24nLAogICAgICBkYXRhYmFzZVVybDogY29uZmlnLmRhdGFiYXNlVXJsLAogICAgICBpbml0U2VjcmV0OiBjb25maWcuaW5pdFNlY3JldCwKICAgIH0pOwogIH0sIFtjb25maWc/LmRhdGFiYXNlVXJsLCBjb25maWc/LmluaXRTZWNyZXQsIGlzT3Blbl0pOwoKICBjb25zdCBwYXRjaENvbmZpZyA9ICh1cGRhdGVzOiBQYXJ0aWFsPEFjdGl2ZU1zZzJHbG9iYWxDb25maWc+KSA9PiB7CiAgICBzZXRDb25maWcoKHByZXYpID0+ICh7CiAgICAgIC4uLihwcmV2IHx8IHsgdXNlcklkOiAnJywgZHJpdmVyOiAnbmVvbicsIGRhdGFiYXNlVXJsOiAnJyB9KSwKICAgICAgLi4udXBkYXRlcywKICAgICAgZHJpdmVyOiAnbmVvbicsCiAgICB9KSk7CiAgfTsKCiAgY29uc3QgaGFuZGxlQ3JlYXRlU3Vic2NyaXB0aW9uID0gYXN5bmMgKCkgPT4gewogICAgc2V0TG9hZGluZyh0cnVlKTsKICAgIHRyeSB7CiAgICAgIGF3YWl0IEFjdGl2ZU1zZ0NsaWVudC5lbnN1cmVQdXNoU3Vic2NyaXB0aW9uKCk7CiAgICAgIGF3YWl0IHJlZnJlc2goKTsKICAgICAgYWRkVG9hc3QoJ+mAmuefpeadg+mZkOWSjOaOqOmAgeiuoumYheW3suWHhuWkh+WujOaIkOOAgicsICdzdWNjZXNzJyk7CiAgICB9IGNhdGNoIChlcnJvcjogYW55KSB7CiAgICAgIGFkZFRvYXN0KGVycm9yPy5tZXNzYWdlIHx8ICfliJvlu7rmjqjpgIHorqLpmIXlpLHotKXjgIInLCAnZXJyb3InKTsKICAgIH0gZmluYWxseSB7CiAgICAgIHNldExvYWRpbmcoZmFsc2UpOwogICAgfQogIH07CgogIGNvbnN0IGhhbmRsZUluaXRUZW5hbnQgPSBhc3luYyAoKSA9PiB7CiAgICBpZiAoIWNvbmZpZz8uZGF0YWJhc2VVcmwudHJpbSgpKSB7CiAgICAgIGFkZFRvYXN0KCflhYjmioogTmVvbiDnmoTmlbDmja7lupPov57mjqXkuLLotLTov5vmnaXjgIInLCAnZXJyb3InKTsKICAgICAgcmV0dXJuOwogICAgfQoKICAgIHNldExvYWRpbmcodHJ1ZSk7CiAgICB0cnkgewogICAgICBhd2FpdCBBY3RpdmVNc2dDbGllbnQuaW5pdFRlbmFudCh7CiAgICAgICAgZHJpdmVyOiAnbmVvbicsCiAgICAgICAgZGF0YWJhc2VVcmw6IGNvbmZpZy5kYXRhYmFzZVVybCwKICAgICAgICBpbml0U2VjcmV0OiBjb25maWcuaW5pdFNlY3JldCwKICAgICAgfSk7CiAgICAgIGF3YWl0IHJlZnJlc2goKTsKICAgICAgYWRkVG9hc3QoJ+W3sui/nuaOpeaIkOWKn++8jOS4u+WKqOa2iOaBryAyLjAg5Y+v5Lul55So5LqG44CCJywgJ3N1Y2Nlc3MnKTsKICAgIH0gY2F0Y2ggKGVycm9yOiBhbnkpIHsKICAgICAgYWRkVG9hc3QoZXJyb3I/Lm1lc3NhZ2UgfHwgJ+i/nuaOpeWksei0peOAgicsICdlcnJvcicpOwogICAgfSBmaW5hbGx5IHsKICAgICAgc2V0TG9hZGluZyhmYWxzZSk7CiAgICB9CiAgfTsKCiAgY29uc3QgaGFuZGxlR2V0VXNlcktleSA9IGFzeW5jICgpID0+IHsKICAgIHNldExvYWRpbmcodHJ1ZSk7CiAgICB0cnkgewogICAgICBjb25zdCByZXN1bHQgPSBhd2FpdCBBY3RpdmVNc2dDbGllbnQudmVyaWZ5VXNlcktleSgpOwogICAgICBzZXRLZXlTdGF0dXMoYOeUqOaIt+WvhumSpeajgOafpemAmui/h++8jOeJiOacrCB2JHtyZXN1bHQudmVyc2lvbn3jgIJgKTsKICAgICAgYWRkVG9hc3QoJ+eUqOaIt+WvhumSpeiOt+WPluaIkOWKn+OAgicsICdzdWNjZXNzJyk7CiAgICB9IGNhdGNoIChlcnJvcjogYW55KSB7CiAgICAgIHNldEtleVN0YXR1cyhlcnJvcj8ubWVzc2FnZSB8fCAn55So5oi35a+G6ZKl6I635Y+W5aSx6LSl44CCJyk7CiAgICAgIGFkZFRvYXN0KGVycm9yPy5tZXNzYWdlIHx8ICfnlKjmiLflr4bpkqXojrflj5blpLHotKXjgIInLCAnZXJyb3InKTsKICAgIH0gZmluYWxseSB7CiAgICAgIHNldExvYWRpbmcoZmFsc2UpOwogICAgfQogIH07CgogIGlmICghY29uZmlnKSByZXR1cm4gbnVsbDsKCiAgY29uc3QgaXNJbml0aWFsaXplZCA9IEJvb2xlYW4oY29uZmlnLnRlbmFudElkICYmIGNvbmZpZy50ZW5hbnRUb2tlbik7CgogIHJldHVybiAoCiAgICA8TW9kYWwKICAgICAgaXNPcGVuPXtpc09wZW59CiAgICAgIHRpdGxlPSLkuLvliqjmtojmga8gMi4wIgogICAgICBvbkNsb3NlPXtvbkNsb3NlfQogICAgICBmb290ZXI9eygKICAgICAgICA8YnV0dG9uCiAgICAgICAgICBvbkNsaWNrPXtvbkNsb3NlfQogICAgICAgICAgY2xhc3NOYW1lPSJmbGV4LTEgcHktMyBiZy1zbGF0ZS0xMDAgdGV4dC1zbGF0ZS01MDAgZm9udC1ib2xkIHJvdW5kZWQtMnhsIGFjdGl2ZTpzY2FsZS05NSB0cmFuc2l0aW9uLXRyYW5zZm9ybSIKICAgICAgICA+CiAgICAgICAgICDlhbPpl60KICAgICAgICA8L2J1dHRvbj4KICAgICAgKX0KICAgID4KICAgICAgPGRpdiBjbGFzc05hbWU9InNwYWNlLXktNCB0ZXh0LXNtIHRleHQtc2xhdGUtNjAwIj4KICAgICAgICA8ZGl2IGNsYXNzTmFtZT0iYmctdmlvbGV0LTUwIGJvcmRlciBib3JkZXItdmlvbGV0LTEwMCByb3VuZGVkLTJ4bCBwLTQgc3BhY2UteS0yIj4KICAgICAgICAgIDxkaXYgY2xhc3NOYW1lPSJmbGV4IGl0ZW1zLWNlbnRlciBqdXN0aWZ5LWJldHdlZW4gZ2FwLTMiPgogICAgICAgICAgICA8c3BhbiBjbGFzc05hbWU9ImZvbnQtYm9sZCB0ZXh0LXNsYXRlLTcwMCI+6L+e5o6l5pa55byPPC9zcGFuPgogICAgICAgICAgICA8c3BhbiBjbGFzc05hbWU9InB4LTMgcHktMSByb3VuZGVkLWZ1bGwgYmctdmlvbGV0LTUwMCB0ZXh0LXdoaXRlIHRleHQteHMgZm9udC1ib2xkIj5OZW9uPC9zcGFuPgogICAgICAgICAgPC9kaXY+CiAgICAgICAgICA8cCBjbGFzc05hbWU9InRleHQteHMgbGVhZGluZy1yZWxheGVkIHRleHQtdmlvbGV0LTcwMCI+CiAgICAgICAgICAgIOi/memHjOm7mOiupOWwseaYr+e7mSBOZW9uIOeUqOeahOOAguaKiiBOZW9uIOaPkOS+m+eahOaVsOaNruW6k+i/nuaOpeS4sui0tOi/m+adpe+8jOeEtuWQjueCueS4gOasoeKAnOi/nuaOpeW5tuWQr+eUqOKAneWwseihjOOAggogICAgICAgICAgPC9wPgogICAgICAgICAgPHAgY2xhc3NOYW1lPSJ0ZXh0LVsxMXB4XSBsZWFkaW5nLXJlbGF4ZWQgdGV4dC12aW9sZXQtNjAwLzgwIj4KICAgICAgICAgICAg5bCx566X5L2g5aSN5Yi255qE5pivIDxjb2RlPnBzcWwgJ3Bvc3RncmVzcWw6Ly8uLi4nPC9jb2RlPiDmlbTmrrXvvIzns7vnu5/kuZ/kvJroh6rliqjluK7kvaDmuIXnkIbmiJDlj6/nlKjnmoTov57mjqXkuLLjgIIKICAgICAgICAgIDwvcD4KICAgICAgICA8L2Rpdj4KCiAgICAgICAgPGRpdiBjbGFzc05hbWU9ImJnLXdoaXRlIGJvcmRlciBib3JkZXItc2xhdGUtMjAwIHJvdW5kZWQtMnhsIHAtNCBzcGFjZS15LTMiPgogICAgICAgICAgPGRpdiBjbGFzc05hbWU9ImZsZXggaXRlbXMtY2VudGVyIGp1c3RpZnktYmV0d2VlbiBnYXAtMyI+CiAgICAgICAgICAgIDxzcGFuIGNsYXNzTmFtZT0iZm9udC1ib2xkIHRleHQtc2xhdGUtNzAwIj7lvZPliY3nirbmgIE8L3NwYW4+CiAgICAgICAgICAgIDxzcGFuIGNsYXNzTmFtZT17YHRleHQteHMgZm9udC1ib2xkICR7aXNJbml0aWFsaXplZCA/ICd0ZXh0LWVtZXJhbGQtNjAwJyA6ICd0ZXh0LWFtYmVyLTYwMCd9YH0+CiAgICAgICAgICAgICAge2lzSW5pdGlhbGl6ZWQgPyAn5bey6L+e5o6lJyA6ICfmnKrov57mjqUnfQogICAgICAgICAgICA8L3NwYW4+CiAgICAgICAgICA8L2Rpdj4KCiAgICAgICAgICA8ZGl2PgogICAgICAgICAgICA8bGFiZWwgY2xhc3NOYW1lPSJ0ZXh0LVsxMHB4XSBmb250LWJvbGQgdGV4dC1zbGF0ZS00MDAgdXBwZXJjYXNlIHRyYWNraW5nLXdpZGVzdCBtYi0xLjUgYmxvY2sgcGwtMSI+CiAgICAgICAgICAgICAgTmVvbiBEYXRhYmFzZSBVUkwKICAgICAgICAgICAgPC9sYWJlbD4KICAgICAgICAgICAgPHRleHRhcmVhCiAgICAgICAgICAgICAgdmFsdWU9e2NvbmZpZy5kYXRhYmFzZVVybH0KICAgICAgICAgICAgICBvbkNoYW5nZT17KGV2ZW50KSA9PiBwYXRjaENvbmZpZyh7IGRhdGFiYXNlVXJsOiBldmVudC50YXJnZXQudmFsdWUgfSl9CiAgICAgICAgICAgICAgcGxhY2Vob2xkZXI9IuaKiiBOZW9uIOe7meS9oOeahCBwb3N0Z3Jlc3FsOi8vLi4uIOi/nuaOpeS4sui0tOWcqOi/memHjCIKICAgICAgICAgICAgICBjbGFzc05hbWU9InctZnVsbCBoLTI4IGJnLXdoaXRlLzcwIGJvcmRlciBib3JkZXItc2xhdGUtMjAwIHJvdW5kZWQtMnhsIHB4LTQgcHktMyB0ZXh0LXhzIGZvbnQtbW9ubyByZXNpemUtbm9uZSIKICAgICAgICAgICAgLz4KICAgICAgICAgIDwvZGl2PgoKICAgICAgICAgIDxidXR0b24KICAgICAgICAgICAgb25DbGljaz17aGFuZGxlSW5pdFRlbmFudH0KICAgICAgICAgICAgZGlzYWJsZWQ9e2xvYWRpbmd9CiAgICAgICAgICAgIGNsYXNzTmFtZT0idy1mdWxsIHB5LTMgYmctc2xhdGUtOTAwIHRleHQtd2hpdGUgZm9udC1ib2xkIHJvdW5kZWQtMnhsIGFjdGl2ZTpzY2FsZS05NSB0cmFuc2l0aW9uLXRyYW5zZm9ybSBkaXNhYmxlZDpvcGFjaXR5LTUwIgogICAgICAgICAgPgogICAgICAgICAgICB7bG9hZGluZyA/ICflpITnkIbkuK0uLi4nIDogaXNJbml0aWFsaXplZCA/ICfph43mlrDov57mjqXlubbmm7TmlrAnIDogJ+i/nuaOpeW5tuWQr+eUqCd9CiAgICAgICAgICA8L2J1dHRvbj4KCiAgICAgICAgICA8cCBjbGFzc05hbWU9InRleHQteHMgbGVhZGluZy1yZWxheGVkIHRleHQtc2xhdGUtNTAwIj4KICAgICAgICAgICAg5pmu6YCa55So5oi35Y+q6ZyA6KaB6L+Z5LiA5q2l44CC5LiL6Z2i6YKj5Lqb4oCc5a+G6ZKlIC8gdG9rZW4gLyB3ZWJob29r4oCd6YO95piv6auY57qn5L+h5oGv77yM5LiN55So55yL44CCCiAgICAgICAgICA8L3A+CiAgICAgICAgPC9kaXY+CgogICAgICAgIDxkaXYgY2xhc3NOYW1lPSJiZy1zbGF0ZS01MCBib3JkZXIgYm9yZGVyLXNsYXRlLTIwMCByb3VuZGVkLTJ4bCBwLTQgc3BhY2UteS0zIj4KICAgICAgICAgIDxkaXYgY2xhc3NOYW1lPSJmbGV4IGl0ZW1zLWNlbnRlciBqdXN0aWZ5LWJldHdlZW4gZ2FwLTMiPgogICAgICAgICAgICA8c3BhbiBjbGFzc05hbWU9ImZvbnQtYm9sZCB0ZXh0LXNsYXRlLTcwMCI+6YCa55+l5p2D6ZmQPC9zcGFuPgogICAgICAgICAgICA8c3BhbiBjbGFzc05hbWU9e2B0ZXh0LXhzIGZvbnQtYm9sZCAke3B1c2hTdGF0dXM/Lmhhc1N1YnNjcmlwdGlvbiA/ICd0ZXh0LWVtZXJhbGQtNjAwJyA6ICd0ZXh0LWFtYmVyLTYwMCd9YH0+CiAgICAgICAgICAgICAge3B1c2hTdGF0dXM/Lmhhc1N1YnNjcmlwdGlvbiA/ICflt7LlvIDlkK8nIDogJ+acquW8gOWQryd9CiAgICAgICAgICAgIDwvc3Bhbj4KICAgICAgICAgIDwvZGl2PgogICAgICAgICAgPHAgY2xhc3NOYW1lPSJ0ZXh0LXhzIGxlYWRpbmctcmVsYXhlZCB0ZXh0LXNsYXRlLTUwMCI+CiAgICAgICAgICAgIOi/meaYr+esrOS6jOatpeOAguWPquacieS9oOecn+eahOaDs+iuqeinkuiJsuWcqOWQjuWPsOS4u+WKqOaOqOmAgea2iOaBr+aXtu+8jOaJjemcgOimgeeCueOAggogICAgICAgICAgPC9wPgogICAgICAgICAge3B1c2hTdGF0dXM/LmRldGFpbCA/ICgKICAgICAgICAgICAgPHAgY2xhc3NOYW1lPSJ0ZXh0LXhzIGxlYWRpbmctcmVsYXhlZCB0ZXh0LWFtYmVyLTYwMCI+e3B1c2hTdGF0dXMuZGV0YWlsfTwvcD4KICAgICAgICAgICkgOiBudWxsfQogICAgICAgICAgPGJ1dHRvbgogICAgICAgICAgICBvbkNsaWNrPXtoYW5kbGVDcmVhdGVTdWJzY3JpcHRpb259CiAgICAgICAgICAgIGRpc2FibGVkPXtsb2FkaW5nfQogICAgICAgICAgICBjbGFzc05hbWU9InctZnVsbCBweS0zIGJnLXZpb2xldC01MDAgdGV4dC13aGl0ZSBmb250LWJvbGQgcm91bmRlZC0yeGwgYWN0aXZlOnNjYWxlLTk1IHRyYW5zaXRpb24tdHJhbnNmb3JtIGRpc2FibGVkOm9wYWNpdHktNTAiCiAgICAgICAgICA+CiAgICAgICAgICAgIHtsb2FkaW5nID8gJ+WkhOeQhuS4rS4uLicgOiAn5byA5ZCv6YCa55+l5LiO5o6o6YCBJ30KICAgICAgICAgIDwvYnV0dG9uPgogICAgICAgIDwvZGl2PgoKICAgICAgICA8ZGl2IGNsYXNzTmFtZT0iYmctYW1iZXItNTAgYm9yZGVyIGJvcmRlci1hbWJlci0xMDAgcm91bmRlZC0yeGwgcC00IHRleHQteHMgbGVhZGluZy1yZWxheGVkIHRleHQtYW1iZXItNzAwIHNwYWNlLXktMiI+CiAgICAgICAgICA8ZGl2IGNsYXNzTmFtZT0iZm9udC1ib2xkIHRleHQtYW1iZXItODAwIj7po47pmanor7TmmI48L2Rpdj4KICAgICAgICAgIDxwPuW8gOS6hiAyLjAg5Lul5ZCO77yM5Li75Yqo5raI5oGv5YaF5a6544CB5o+Q56S66K+N44CB55u45YWz6YWN572u77yM6YO95Lya6L+b5YWl5L2g5aGr5YaZ55qEIE5lb24g5pWw5o2u5bqT44CCPC9wPgogICAgICAgICAgPHA+5pWw5o2u5bqT566h55CG5ZGY5pyJ5py65Lya55yL5Yiw6L+Z5Lqb5YaF5a6544CC6Zmk5q2k5LmL5aSW77yM5oyJ6L+Z5aWX5L+h5Lu75qih5Z6L77yM6aG555uu57u05oqk6ICF5Lmf5bCx5piv57Ov57Gz6bih77yM6YC76L6R5LiK5ZCM5qC35bGe5LqO5pyJ5p2D6ZmQ56Kw5Yiw6L+Z5Lqb5pWw5o2u55qE5Lq644CCPC9wPgogICAgICAgICAgPHA+5aaC5p6c5L2g5LiN5o6l5Y+X6L+Z5LiA54K577yM5bCx5LiN6KaB5byAIDIuMO+8jOS5n+S4jeimgeaKiuiHquW3seeahCBBUEkgS2V544CB5pWP5oSf5o+Q56S66K+N44CB56eB5a+G5YaF5a655pS+6L+b5Y6744CCPC9wPgogICAgICAgICAgPHA+6aG555uu5LiN5Lya6aKd5aSW5YG35YG35o6l5LiA5Liq5Lit5b+D5pyN5Yqh5Zmo77yb5a6D6LWw55qE6L+Y5piv5L2g6Ieq5bex55qE5bqT44CC5L2G5Y+q6KaB5pWw5o2u6L+b5bqT77yM5bCx6buY6K6k5pWw5o2u5bqT566h55CG5ZGY5ZKM6aG555uu57u05oqk6ICF5piv5L2g6ZyA6KaB5L+h5Lu755qE5Lq644CCPC9wPgogICAgICAgIDwvZGl2PgoKICAgICAgICA8ZGl2IGNsYXNzTmFtZT0iYmctd2hpdGUgYm9yZGVyIGJvcmRlci1zbGF0ZS0yMDAgcm91bmRlZC0yeGwgcC00IHNwYWNlLXktMyI+CiAgICAgICAgICA8YnV0dG9uCiAgICAgICAgICAgIHR5cGU9ImJ1dHRvbiIKICAgICAgICAgICAgb25DbGljaz17KCkgPT4gc2V0QWR2YW5jZWRPcGVuKChwcmV2KSA9PiAhcHJldil9CiAgICAgICAgICAgIGNsYXNzTmFtZT0idy1mdWxsIGZsZXggaXRlbXMtY2VudGVyIGp1c3RpZnktYmV0d2VlbiB0ZXh0LWxlZnQiCiAgICAgICAgICA+CiAgICAgICAgICAgIDxzcGFuIGNsYXNzTmFtZT0iZm9udC1ib2xkIHRleHQtc2xhdGUtNzAwIj7pq5jnuqfkv6Hmga88L3NwYW4+CiAgICAgICAgICAgIDxzcGFuIGNsYXNzTmFtZT0idGV4dC14cyBmb250LWJvbGQgdGV4dC1zbGF0ZS00MDAiPnthZHZhbmNlZE9wZW4gPyAn5pS26LW3JyA6ICflsZXlvIAnfTwvc3Bhbj4KICAgICAgICAgIDwvYnV0dG9uPgoKICAgICAgICAgIHthZHZhbmNlZE9wZW4gPyAoCiAgICAgICAgICAgIDxkaXYgY2xhc3NOYW1lPSJzcGFjZS15LTMgdGV4dC14cyI+CiAgICAgICAgICAgICAgPGRpdiBjbGFzc05hbWU9ImJnLXZpb2xldC01MCBib3JkZXIgYm9yZGVyLXZpb2xldC0xMDAgcm91bmRlZC0yeGwgcC0zIHNwYWNlLXktMiI+CiAgICAgICAgICAgICAgICA8ZGl2IGNsYXNzTmFtZT0iZmxleCBpdGVtcy1jZW50ZXIganVzdGlmeS1iZXR3ZWVuIGdhcC0zIj4KICAgICAgICAgICAgICAgICAgPHNwYW4gY2xhc3NOYW1lPSJmb250LXNlbWlib2xkIHRleHQtc2xhdGUtNzAwIj5YLVVzZXItSWQ8L3NwYW4+CiAgICAgICAgICAgICAgICAgIDxzcGFuIGNsYXNzTmFtZT0iZm9udC1tb25vIHRleHQtdmlvbGV0LTYwMCI+e21hc2tBY3RpdmVNc2dVc2VySWQoY29uZmlnLnVzZXJJZCl9PC9zcGFuPgogICAgICAgICAgICAgICAgPC9kaXY+CiAgICAgICAgICAgICAgICA8ZGl2IGNsYXNzTmFtZT0iZmxleCBpdGVtcy1zdGFydCBqdXN0aWZ5LWJldHdlZW4gZ2FwLTMiPgogICAgICAgICAgICAgICAgICA8c3BhbiBjbGFzc05hbWU9ImZvbnQtc2VtaWJvbGQgdGV4dC1zbGF0ZS03MDAiPkFQSSBCYXNlPC9zcGFuPgogICAgICAgICAgICAgICAgICA8c3BhbiBjbGFzc05hbWU9ImZvbnQtbW9ubyB0ZXh0LVsxMHB4XSB0ZXh0LXZpb2xldC02MDAgYnJlYWstYWxsIHRleHQtcmlnaHQiPntBY3RpdmVNc2dDbGllbnQuYXBpQmFzZVVybH08L3NwYW4+CiAgICAgICAgICAgICAgICA8L2Rpdj4KICAgICAgICAgICAgICA8L2Rpdj4KCiAgICAgICAgICAgICAgPGRpdj4KICAgICAgICAgICAgICAgIDxsYWJlbCBjbGFzc05hbWU9InRleHQtWzEwcHhdIGZvbnQtYm9sZCB0ZXh0LXNsYXRlLTQwMCB1cHBlcmNhc2UgdHJhY2tpbmctd2lkZXN0IG1iLTEuNSBibG9jayBwbC0xIj4KICAgICAgICAgICAgICAgICAgSW5pdCBTZWNyZXTvvIjlj6/pgInvvIkKICAgICAgICAgICAgICAgIDwvbGFiZWw+CiAgICAgICAgICAgICAgICA8aW5wdXQKICAgICAgICAgICAgICAgICAgdHlwZT0icGFzc3dvcmQiCiAgICAgICAgICAgICAgICAgIHZhbHVlPXtjb25maWcuaW5pdFNlY3JldCB8fCAnJ30KICAgICAgICAgICAgICAgICAgb25DaGFuZ2U9eyhldmVudCkgPT4gcGF0Y2hDb25maWcoeyBpbml0U2VjcmV0OiBldmVudC50YXJnZXQudmFsdWUgfSl9CiAgICAgICAgICAgICAgICAgIHBsYWNlaG9sZGVyPSLlj6rmnInkvaDoh6rlt7Hpop3lpJbphY3kuoYgaW5pdC1zZWNyZXQg5omN6ZyA6KaB5aGrIgogICAgICAgICAgICAgICAgICBjbGFzc05hbWU9InctZnVsbCBiZy13aGl0ZS83MCBib3JkZXIgYm9yZGVyLXNsYXRlLTIwMCByb3VuZGVkLTJ4bCBweC00IHB5LTMgdGV4dC1zbSIKICAgICAgICAgICAgICAgIC8+CiAgICAgICAgICAgICAgPC9kaXY+CgogICAgICAgICAgICAgIDxidXR0b24KICAgICAgICAgICAgICAgIG9uQ2xpY2s9e2hhbmRsZUdldFVzZXJLZXl9CiAgICAgICAgICAgICAgICBkaXNhYmxlZD17bG9hZGluZyB8fCAhY29uZmlnLnRlbmFudFRva2VufQogICAgICAgICAgICAgICAgY2xhc3NOYW1lPSJ3LWZ1bGwgcHktMyBiZy1lbWVyYWxkLTUwMCB0ZXh0LXdoaXRlIGZvbnQtYm9sZCByb3VuZGVkLTJ4bCBhY3RpdmU6c2NhbGUtOTUgdHJhbnNpdGlvbi10cmFuc2Zvcm0gZGlzYWJsZWQ6b3BhY2l0eS01MCIKICAgICAgICAgICAgICA+CiAgICAgICAgICAgICAgICB7bG9hZGluZyA/ICflpITnkIbkuK0uLi4nIDogJ+ajgOafpeeUqOaIt+WvhumSpSd9CiAgICAgICAgICAgICAgPC9idXR0b24+CiAgICAgICAgICAgICAge2tleVN0YXR1cyA/IDxwIGNsYXNzTmFtZT0idGV4dC14cyB0ZXh0LWVtZXJhbGQtNjAwIGxlYWRpbmctcmVsYXhlZCI+e2tleVN0YXR1c308L3A+IDogbnVsbH0KCiAgICAgICAgICAgICAgPGRpdiBjbGFzc05hbWU9ImJnLXNsYXRlLTUwIGJvcmRlciBib3JkZXItc2xhdGUtMjAwIHJvdW5kZWQtMnhsIHAtNCBzcGFjZS15LTMiPgogICAgICAgICAgICAgICAgPGRpdiBjbGFzc05hbWU9ImZvbnQtYm9sZCB0ZXh0LXNsYXRlLTcwMCI+5Yid5aeL5YyW57uT5p6cPC9kaXY+CiAgICAgICAgICAgICAgICA8ZGl2IGNsYXNzTmFtZT0ic3BhY2UteS0yIj4KICAgICAgICAgICAgICAgICAgPGRpdj4KICAgICAgICAgICAgICAgICAgICA8ZGl2IGNsYXNzTmFtZT0iZm9udC1zZW1pYm9sZCB0ZXh0LXNsYXRlLTUwMCBtYi0xIj50ZW5hbnRJZDwvZGl2PgogICAgICAgICAgICAgICAgICAgIDxkaXYgY2xhc3NOYW1lPSJmb250LW1vbm8gYnJlYWstYWxsIj57Y29uZmlnLnRlbmFudElkIHx8ICfmnKrliJ3lp4vljJYnfTwvZGl2PgogICAgICAgICAgICAgICAgICA8L2Rpdj4KICAgICAgICAgICAgICAgICAgPGRpdj4KICAgICAgICAgICAgICAgICAgICA8ZGl2IGNsYXNzTmFtZT0iZm9udC1zZW1pYm9sZCB0ZXh0LXNsYXRlLTUwMCBtYi0xIj50ZW5hbnRUb2tlbjwvZGl2PgogICAgICAgICAgICAgICAgICAgIDx0ZXh0YXJlYSByZWFkT25seSB2YWx1ZT17Y29uZmlnLnRlbmFudFRva2VuIHx8ICcnfSBjbGFzc05hbWU9InctZnVsbCBoLTE2IGJnLXdoaXRlIHJvdW5kZWQteGwgcHgtMyBweS0yIGZvbnQtbW9ubyByZXNpemUtbm9uZSIgLz4KICAgICAgICAgICAgICAgICAgPC9kaXY+CiAgICAgICAgICAgICAgICAgIDxkaXY+CiAgICAgICAgICAgICAgICAgICAgPGRpdiBjbGFzc05hbWU9ImZvbnQtc2VtaWJvbGQgdGV4dC1zbGF0ZS01MDAgbWItMSI+Y3JvblRva2VuPC9kaXY+CiAgICAgICAgICAgICAgICAgICAgPHRleHRhcmVhIHJlYWRPbmx5IHZhbHVlPXtjb25maWcuY3JvblRva2VuIHx8ICcnfSBjbGFzc05hbWU9InctZnVsbCBoLTE2IGJnLXdoaXRlIHJvdW5kZWQteGwgcHgtMyBweS0yIGZvbnQtbW9ubyByZXNpemUtbm9uZSIgLz4KICAgICAgICAgICAgICAgICAgPC9kaXY+CiAgICAgICAgICAgICAgICAgIDxkaXY+CiAgICAgICAgICAgICAgICAgICAgPGRpdiBjbGFzc05hbWU9ImZvbnQtc2VtaWJvbGQgdGV4dC1zbGF0ZS01MDAgbWItMSI+Y3JvbldlYmhvb2tVcmw8L2Rpdj4KICAgICAgICAgICAgICAgICAgICA8dGV4dGFyZWEgcmVhZE9ubHkgdmFsdWU9e2NvbmZpZy5jcm9uV2ViaG9va1VybCB8fCAnJ30gY2xhc3NOYW1lPSJ3LWZ1bGwgaC0xNiBiZy13aGl0ZSByb3VuZGVkLXhsIHB4LTMgcHktMiBmb250LW1vbm8gcmVzaXplLW5vbmUiIC8+CiAgICAgICAgICAgICAgICAgIDwvZGl2PgogICAgICAgICAgICAgICAgICA8ZGl2PgogICAgICAgICAgICAgICAgICAgIDxkaXYgY2xhc3NOYW1lPSJmb250LXNlbWlib2xkIHRleHQtc2xhdGUtNTAwIG1iLTEiPm1hc3RlcktleUZpbmdlcnByaW50PC9kaXY+CiAgICAgICAgICAgICAgICAgICAgPGRpdiBjbGFzc05hbWU9ImZvbnQtbW9ubyBicmVhay1hbGwiPntjb25maWcubWFzdGVyS2V5RmluZ2VycHJpbnQgfHwgJ+acqueUn+aIkCd9PC9kaXY+CiAgICAgICAgICAgICAgICAgIDwvZGl2PgogICAgICAgICAgICAgICAgPC9kaXY+CiAgICAgICAgICAgICAgPC9kaXY+CiAgICAgICAgICAgIDwvZGl2PgogICAgICAgICAgKSA6IG51bGx9CiAgICAgICAgPC9kaXY+CiAgICAgIDwvZGl2PgogICAgPC9Nb2RhbD4KICApOwp9OwoKZXhwb3J0IGRlZmF1bHQgUmVhY3QubWVtbyhBY3RpdmVNc2dHbG9iYWxTZXR0aW5nc01vZGFsKTsK
+import React, { useEffect, useState } from 'react';
+import Modal from '../os/Modal';
+import { ActiveMsg2GlobalConfig } from '../../types';
+import { ActiveMsgClient } from '../../utils/activeMsgClient';
+import { ActiveMsgStore, maskActiveMsgUserId } from '../../utils/activeMsgStore';
+
+interface ActiveMsgGlobalSettingsModalProps {
+  isOpen: boolean;
+  onClose: () => void;
+  addToast: (message: string, type?: 'success' | 'error' | 'info') => void;
+}
+
+const ActiveMsgGlobalSettingsModal: React.FC<ActiveMsgGlobalSettingsModalProps> = ({
+  isOpen,
+  onClose,
+  addToast,
+}) => {
+  const [config, setConfig] = useState<ActiveMsg2GlobalConfig | null>(null);
+  const [loading, setLoading] = useState(false);
+  const [advancedOpen, setAdvancedOpen] = useState(false);
+  const [pushStatus, setPushStatus] = useState<{
+    supported: boolean;
+    permission: NotificationPermission | 'unsupported';
+    hasSubscription: boolean;
+    vapidConfigured: boolean;
+    detail?: string;
+  } | null>(null);
+  const [keyStatus, setKeyStatus] = useState('');
+
+  const refresh = async () => {
+    const nextConfig = await ActiveMsgClient.getGlobalConfig();
+    const nextPushStatus = await ActiveMsgClient.getPushStatus();
+    setConfig({
+      ...nextConfig,
+      driver: 'neon',
+    });
+    setPushStatus(nextPushStatus);
+  };
+
+  useEffect(() => {
+    if (!isOpen) return;
+    setAdvancedOpen(false);
+    void refresh();
+  }, [isOpen]);
+
+  useEffect(() => {
+    if (!isOpen || !config) return;
+    void ActiveMsgStore.saveGlobalConfig({
+      driver: 'neon',
+      databaseUrl: config.databaseUrl,
+      initSecret: config.initSecret,
+    });
+  }, [config?.databaseUrl, config?.initSecret, isOpen]);
+
+  const patchConfig = (updates: Partial<ActiveMsg2GlobalConfig>) => {
+    setConfig((prev) => ({
+      ...(prev || { userId: '', driver: 'neon', databaseUrl: '' }),
+      ...updates,
+      driver: 'neon',
+    }));
+  };
+
+  const handleCreateSubscription = async () => {
+    setLoading(true);
+    try {
+      await ActiveMsgClient.ensurePushSubscription();
+      await refresh();
+      addToast('通知权限和推送订阅已准备完成。', 'success');
+    } catch (error: any) {
+      addToast(error?.message || '创建推送订阅失败。', 'error');
+    } finally {
+      setLoading(false);
+    }
+  };
+
+  const handleInitTenant = async () => {
+    if (!config?.databaseUrl.trim()) {
+      addToast('先把 Neon 的数据库连接串贴进来。', 'error');
+      return;
+    }
+
+    setLoading(true);
+    try {
+      await ActiveMsgClient.initTenant({
+        driver: 'neon',
+        databaseUrl: config.databaseUrl,
+        initSecret: config.initSecret,
+      });
+      await refresh();
+      addToast('已连接成功，主动消息 2.0 可以用了。', 'success');
+    } catch (error: any) {
+      addToast(error?.message || '连接失败。', 'error');
+    } finally {
+      setLoading(false);
+    }
+  };
+
+  const handleGetUserKey = async () => {
+    setLoading(true);
+    try {
+      const result = await ActiveMsgClient.verifyUserKey();
+      setKeyStatus(`用户密钥检查通过，版本 v${result.version}。`);
+      addToast('用户密钥获取成功。', 'success');
+    } catch (error: any) {
+      setKeyStatus(error?.message || '用户密钥获取失败。');
+      addToast(error?.message || '用户密钥获取失败。', 'error');
+    } finally {
+      setLoading(false);
+    }
+  };
+
+  if (!config) return null;
+
+  const isInitialized = Boolean(config.tenantId && config.tenantToken);
+
+  return (
+    <Modal
+      isOpen={isOpen}
+      title="主动消息 2.0"
+      onClose={onClose}
+      footer={(
+        <button
+          onClick={onClose}
+          className="flex-1 py-3 bg-slate-100 text-slate-500 font-bold rounded-2xl active:scale-95 transition-transform"
+        >
+          关闭
+        </button>
+      )}
+    >
+      <div className="space-y-4 text-sm text-slate-600">
+        <div className="bg-violet-50 border border-violet-100 rounded-2xl p-4 space-y-2">
+          <div className="flex items-center justify-between gap-3">
+            <span className="font-bold text-slate-700">连接方式</span>
+            <span className="px-3 py-1 rounded-full bg-violet-500 text-white text-xs font-bold">Neon</span>
+          </div>
+          <p className="text-xs leading-relaxed text-violet-700">
+            这里默认就是给 Neon 用的。把 Neon 提供的数据库连接串贴进来，然后点一次“连接并启用”就行。
+          </p>
+          <p className="text-[11px] leading-relaxed text-violet-600/80">
+            就算你复制的是 <code>psql 'postgresql://...'</code> 整段，系统也会自动帮你清理成可用的连接串。
+          </p>
+        </div>
+
+        <div className="bg-white border border-slate-200 rounded-2xl p-4 space-y-3">
+          <div className="flex items-center justify-between gap-3">
+            <span className="font-bold text-slate-700">当前状态</span>
+            <span className={`text-xs font-bold ${isInitialized ? 'text-emerald-600' : 'text-amber-600'}`}>
+              {isInitialized ? '已连接' : '未连接'}
+            </span>
+          </div>
+
+          <div>
+            <label className="text-[10px] font-bold text-slate-400 uppercase tracking-widest mb-1.5 block pl-1">
+              Neon Database URL
+            </label>
+            <textarea
+              value={config.databaseUrl}
+              onChange={(event) => patchConfig({ databaseUrl: event.target.value })}
+              placeholder="把 Neon 给你的 postgresql://... 连接串贴在这里"
+              className="w-full h-28 bg-white/70 border border-slate-200 rounded-2xl px-4 py-3 text-xs font-mono resize-none"
+            />
+          </div>
+
+          <button
+            onClick={handleInitTenant}
+            disabled={loading}
+            className="w-full py-3 bg-slate-900 text-white font-bold rounded-2xl active:scale-95 transition-transform disabled:opacity-50"
+          >
+            {loading ? '处理中...' : isInitialized ? '重新连接并更新' : '连接并启用'}
+          </button>
+
+          <p className="text-xs leading-relaxed text-slate-500">
+            普通用户只需要这一步。下面那些“密钥 / token / webhook”都是高级信息，不用看。
+          </p>
+        </div>
+
+        <div className="bg-slate-50 border border-slate-200 rounded-2xl p-4 space-y-3">
+          <div className="flex items-center justify-between gap-3">
+            <span className="font-bold text-slate-700">通知权限</span>
+            <span className={`text-xs font-bold ${pushStatus?.hasSubscription ? 'text-emerald-600' : 'text-amber-600'}`}>
+              {pushStatus?.hasSubscription ? '已开启' : '未开启'}
+            </span>
+          </div>
+          <p className="text-xs leading-relaxed text-slate-500">
+            这是第二步。只有你真的想让角色在后台主动推送消息时，才需要点。
+          </p>
+          {pushStatus?.detail ? (
+            <p className="text-xs leading-relaxed text-amber-600">{pushStatus.detail}</p>
+          ) : null}
+          <button
+            onClick={handleCreateSubscription}
+            disabled={loading}
+            className="w-full py-3 bg-violet-500 text-white font-bold rounded-2xl active:scale-95 transition-transform disabled:opacity-50"
+          >
+            {loading ? '处理中...' : '开启通知与推送'}
+          </button>
+        </div>
+
+        <div className="bg-amber-50 border border-amber-100 rounded-2xl p-4 text-xs leading-relaxed text-amber-700 space-y-2">
+          <div className="font-bold text-amber-800">风险说明</div>
+          <p>开了 2.0 以后，主动消息内容、提示词、相关配置，都会进入你填写的 Neon 数据库。</p>
+          <p>数据库管理员有机会看到这些内容。除此之外，按这套信任模型，项目维护者也就是糯米鸡，逻辑上同样属于有权限碰到这些数据的人。</p>
+          <p>如果你不接受这一点，就不要开 2.0，也不要把自己的 API Key、敏感提示词、私密内容放进去。</p>
+          <p>项目不会额外偷偷接一个中心服务器；它走的还是你自己的库。但只要数据进库，就默认数据库管理员和项目维护者是你需要信任的人。</p>
+        </div>
+
+        <div className="bg-white border border-slate-200 rounded-2xl p-4 space-y-3">
+          <button
+            type="button"
+            onClick={() => setAdvancedOpen((prev) => !prev)}
+            className="w-full flex items-center justify-between text-left"
+          >
+            <span className="font-bold text-slate-700">高级信息</span>
+            <span className="text-xs font-bold text-slate-400">{advancedOpen ? '收起' : '展开'}</span>
+          </button>
+
+          {advancedOpen ? (
+            <div className="space-y-3 text-xs">
+              <div className="bg-violet-50 border border-violet-100 rounded-2xl p-3 space-y-2">
+                <div className="flex items-center justify-between gap-3">
+                  <span className="font-semibold text-slate-700">X-User-Id</span>
+                  <span className="font-mono text-violet-600">{maskActiveMsgUserId(config.userId)}</span>
+                </div>
+                <div className="flex items-start justify-between gap-3">
+                  <span className="font-semibold text-slate-700">API Base</span>
+                  <span className="font-mono text-[10px] text-violet-600 break-all text-right">{ActiveMsgClient.apiBaseUrl}</span>
+                </div>
+              </div>
+
+              <div>
+                <label className="text-[10px] font-bold text-slate-400 uppercase tracking-widest mb-1.5 block pl-1">
+                  Init Secret（可选）
+                </label>
+                <input
+                  type="password"
+                  value={config.initSecret || ''}
+                  onChange={(event) => patchConfig({ initSecret: event.target.value })}
+                  placeholder="只有你自己额外配了 init-secret 才需要填"
+                  className="w-full bg-white/70 border border-slate-200 rounded-2xl px-4 py-3 text-sm"
+                />
+              </div>
+
+              <button
+                onClick={handleGetUserKey}
+                disabled={loading || !config.tenantToken}
+                className="w-full py-3 bg-emerald-500 text-white font-bold rounded-2xl active:scale-95 transition-transform disabled:opacity-50"
+              >
+                {loading ? '处理中...' : '检查用户密钥'}
+              </button>
+              {keyStatus ? <p className="text-xs text-emerald-600 leading-relaxed">{keyStatus}</p> : null}
+
+              <div className="bg-slate-50 border border-slate-200 rounded-2xl p-4 space-y-3">
+                <div className="font-bold text-slate-700">初始化结果</div>
+                <div className="space-y-2">
+                  <div>
+                    <div className="font-semibold text-slate-500 mb-1">tenantId</div>
+                    <div className="font-mono break-all">{config.tenantId || '未初始化'}</div>
+                  </div>
+                  <div>
+                    <div className="font-semibold text-slate-500 mb-1">tenantToken</div>
+                    <textarea readOnly value={config.tenantToken || ''} className="w-full h-16 bg-white rounded-xl px-3 py-2 font-mono resize-none" />
+                  </div>
+                  <div>
+                    <div className="font-semibold text-slate-500 mb-1">cronToken</div>
+                    <textarea readOnly value={config.cronToken || ''} className="w-full h-16 bg-white rounded-xl px-3 py-2 font-mono resize-none" />
+                  </div>
+                  <div>
+                    <div className="font-semibold text-slate-500 mb-1">cronWebhookUrl</div>
+                    <textarea readOnly value={config.cronWebhookUrl || ''} className="w-full h-16 bg-white rounded-xl px-3 py-2 font-mono resize-none" />
+                  </div>
+                  <div>
+                    <div className="font-semibold text-slate-500 mb-1">masterKeyFingerprint</div>
+                    <div className="font-mono break-all">{config.masterKeyFingerprint || '未生成'}</div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          ) : null}
+        </div>
+      </div>
+    </Modal>
+  );
+};
+
+export default React.memo(ActiveMsgGlobalSettingsModal);

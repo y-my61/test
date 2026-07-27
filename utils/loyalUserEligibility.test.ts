@@ -1,1 +1,295 @@
-aW1wb3J0IHsgZGVzY3JpYmUsIGV4cGVjdCwgaXQgfSBmcm9tICd2aXRlc3QnOwppbXBvcnQgdHlwZSB7IENoYXJhY3RlclByb2ZpbGUsIE1lc3NhZ2UgfSBmcm9tICcuLi90eXBlcyc7CmltcG9ydCB0eXBlIHsgTWVtb3J5Tm9kZSwgTWVtb3J5Um9vbSB9IGZyb20gJy4vbWVtb3J5UGFsYWNlL3R5cGVzJzsKaW1wb3J0IHsKICAgIGV2YWx1YXRlTG95YWxVc2VyRWxpZ2liaWxpdHksCiAgICBMT1lBTF9SRUNSVUlUTUVOVF9DVVRPRkZfQVQsCiAgICBMT1lBTF9SRUNSVUlUTUVOVF9SRUNFTlRfU1RBUlRfQVQsCiAgICB0eXBlIExveWFsRWxpZ2liaWxpdHlTbmFwc2hvdCwKfSBmcm9tICcuL2xveWFsVXNlckVsaWdpYmlsaXR5JzsKCmNvbnN0IERBWSA9IDg2XzQwMF8wMDA7CgpmdW5jdGlvbiBjaGFyYWN0ZXIoaWQ6IHN0cmluZywgbWVtb3JpZXM6IENoYXJhY3RlclByb2ZpbGVbJ21lbW9yaWVzJ10gPSBbXSwgcmVmaW5lZE1lbW9yaWVzPzogUmVjb3JkPHN0cmluZywgc3RyaW5nPik6IENoYXJhY3RlclByb2ZpbGUgewogICAgcmV0dXJuIHsKICAgICAgICBpZCwKICAgICAgICBuYW1lOiBpZCwKICAgICAgICBhdmF0YXI6ICcnLAogICAgICAgIGRlc2NyaXB0aW9uOiAnJywKICAgICAgICBzeXN0ZW1Qcm9tcHQ6ICcnLAogICAgICAgIG1lbW9yaWVzLAogICAgICAgIHJlZmluZWRNZW1vcmllcywKICAgIH07Cn0KCmZ1bmN0aW9uIHVzZXJNZXNzYWdlcyhkYXlPZmZzZXRzOiBudW1iZXJbXSwgcGVyRGF5OiBudW1iZXIsIGNoYXJJZCA9ICdwcmVzZXQtc3VsbHktdjInKTogTWVzc2FnZVtdIHsKICAgIGxldCBpZCA9IDE7CiAgICByZXR1cm4gZGF5T2Zmc2V0cy5mbGF0TWFwKG9mZnNldCA9PiBBcnJheS5mcm9tKHsgbGVuZ3RoOiBwZXJEYXkgfSwgKF8sIGluZGV4KSA9PiAoewogICAgICAgIGlkOiBpZCsrLAogICAgICAgIGNoYXJJZCwKICAgICAgICByb2xlOiAndXNlcicgYXMgY29uc3QsCiAgICAgICAgdHlwZTogJ3RleHQnIGFzIGNvbnN0LAogICAgICAgIGNvbnRlbnQ6IGBtZXNzYWdlLSR7b2Zmc2V0fS0ke2luZGV4fWAsCiAgICAgICAgdGltZXN0YW1wOiBMT1lBTF9SRUNSVUlUTUVOVF9SRUNFTlRfU1RBUlRfQVQgKyBvZmZzZXQgKiBEQVkgKyAzXzYwMF8wMDAsCiAgICB9KSkpOwp9CgpmdW5jdGlvbiBub2RlKGlkOiBzdHJpbmcsIHJvb206IE1lbW9yeVJvb20sIGNyZWF0ZWRBdDogbnVtYmVyLCBleHRyYTogUGFydGlhbDxNZW1vcnlOb2RlPiA9IHt9KTogTWVtb3J5Tm9kZSB7CiAgICByZXR1cm4gewogICAgICAgIGlkLAogICAgICAgIGNoYXJJZDogJ3ByZXNldC1zdWxseS12MicsCiAgICAgICAgY29udGVudDogaWQsCiAgICAgICAgcm9vbSwKICAgICAgICB0YWdzOiBbXSwKICAgICAgICBpbXBvcnRhbmNlOiA1LAogICAgICAgIG1vb2Q6ICduZXV0cmFsJywKICAgICAgICBlbWJlZGRlZDogdHJ1ZSwKICAgICAgICBjcmVhdGVkQXQsCiAgICAgICAgbGFzdEFjY2Vzc2VkQXQ6IGNyZWF0ZWRBdCwKICAgICAgICBhY2Nlc3NDb3VudDogMCwKICAgICAgICBvcmlnaW46ICdleHRyYWN0aW9uJywKICAgICAgICAuLi5leHRyYSwKICAgIH07Cn0KCmZ1bmN0aW9uIHNuYXBzaG90KG92ZXJyaWRlczogUGFydGlhbDxMb3lhbEVsaWdpYmlsaXR5U25hcHNob3Q+ID0ge30pOiBMb3lhbEVsaWdpYmlsaXR5U25hcHNob3QgewogICAgcmV0dXJuIHsKICAgICAgICBjaGFyYWN0ZXJzOiBbY2hhcmFjdGVyKCdwcmVzZXQtc3VsbHktdjInKV0sCiAgICAgICAgbWVzc2FnZXM6IFtdLAogICAgICAgIGd1aWRlYm9va1Nlc3Npb25zOiBbXSwKICAgICAgICBtZW1vcnlOb2RlczogW10sCiAgICAgICAgLi4ub3ZlcnJpZGVzLAogICAgfTsKfQoKZGVzY3JpYmUoJ+W/oOWunueUqOaIt+S4gOasoeaAp+i1hOagvOajgOa1iycsICgpID0+IHsKICAgIGl0KCfpq5jmtLvot4MgKyDmiKrmraLml6XliY3mnInor4Hmja7nmoTpnZ7pu5jorqTop5LoibLlj6/lnKjmsqHmnInorrDlv4blrqvmrr/ml7bpgJrov4cnLCAoKSA9PiB7CiAgICAgICAgY29uc3QgbWVzc2FnZXMgPSB1c2VyTWVzc2FnZXMoWzEsIDIsIDgsIDksIDE1LCAxNiwgMjIsIDIzLCAyNSwgMjYsIDI3XSwgMTQsICdjaGFyLWN1c3RvbScpOwogICAgICAgIGNvbnN0IHJlc3VsdCA9IGV2YWx1YXRlTG95YWxVc2VyRWxpZ2liaWxpdHkoc25hcHNob3QoewogICAgICAgICAgICBjaGFyYWN0ZXJzOiBbY2hhcmFjdGVyKCdwcmVzZXQtc3VsbHktdjInKSwgY2hhcmFjdGVyKCdjaGFyLWN1c3RvbScpXSwKICAgICAgICAgICAgbWVzc2FnZXMsCiAgICAgICAgfSkpOwoKICAgICAgICBleHBlY3QocmVzdWx0LmhhcmRHYXRlUGFzc2VkKS50b0JlKHRydWUpOwogICAgICAgIGV4cGVjdChyZXN1bHQuYnJlYWtkb3duLnJlY2VudEFjdGl2aXR5KS50b0JlKDUwKTsKICAgICAgICBleHBlY3QocmVzdWx0LmJyZWFrZG93bi5jdXN0b21DaGFyYWN0ZXIpLnRvQmUoMTUpOwogICAgICAgIGV4cGVjdChyZXN1bHQuYnJlYWtkb3duLm1lbW9yeVBhbGFjZSkudG9CZSgwKTsKICAgICAgICBleHBlY3QocmVzdWx0LnNjb3JlKS50b0JlKDY1KTsKICAgICAgICBleHBlY3QocmVzdWx0LnF1YWxpZmljYXRpb25QYXRoKS50b0JlKCdzdGFuZGFyZCcpOwogICAgICAgIGV4cGVjdChyZXN1bHQucGFzc2VkKS50b0JlKHRydWUpOwogICAgfSk7CgogICAgaXQoJ+aciemdnum7mOiupOinkuiJsuaXtu+8jOS7u+aEj+WNleS4quinkuiJsuWcqOaIquatouaXpeWJjee0r+iuoeS4ieS4qua0u+i3g+aXpeWNs+WPr+i1sOa3seW6pumAmumBkycsICgpID0+IHsKICAgICAgICBjb25zdCByZXN1bHQgPSBldmFsdWF0ZUxveWFsVXNlckVsaWdpYmlsaXR5KHNuYXBzaG90KHsKICAgICAgICAgICAgY2hhcmFjdGVyczogWwogICAgICAgICAgICAgICAgY2hhcmFjdGVyKCdwcmVzZXQtc3VsbHktdjInKSwKICAgICAgICAgICAgICAgIGNoYXJhY3RlcignY2hhci1jdXN0b20nLCBbeyBpZDogJ2V2aWRlbmNlJywgZGF0ZTogJzIwMjYtMDUtMDEnLCBzdW1tYXJ5OiAndXNlZCcgfV0pLAogICAgICAgICAgICBdLAogICAgICAgICAgICBtZXNzYWdlczogdXNlck1lc3NhZ2VzKFstMTIwLCAtNjAsIC0xMF0sIDMsICdwcmVzZXQtc3VsbHktdjInKSwKICAgICAgICB9KSk7CgogICAgICAgIGV4cGVjdChyZXN1bHQubWV0cmljcy5yZWNlbnRVc2VyTWVzc2FnZXMpLnRvQmUoMCk7CiAgICAgICAgZXhwZWN0KHJlc3VsdC5tZXRyaWNzLm1heFByZUN1dG9mZkNoYXJhY3RlckFjdGl2ZURheXMpLnRvQmUoMyk7CiAgICAgICAgZXhwZWN0KHJlc3VsdC5oYXJkR2F0ZVBhc3NlZCkudG9CZShmYWxzZSk7CiAgICAgICAgZXhwZWN0KHJlc3VsdC5kZWVwVXNlckNoYW5uZWxQYXNzZWQpLnRvQmUodHJ1ZSk7CiAgICAgICAgZXhwZWN0KHJlc3VsdC5xdWFsaWZpY2F0aW9uUGF0aCkudG9CZSgnZGVlcCcpOwogICAgICAgIGV4cGVjdChyZXN1bHQucGFzc2VkKS50b0JlKHRydWUpOwogICAgfSk7CgogICAgaXQoJ+aciemdnum7mOiupOinkuiJsuaXtu+8jOS4g+aciOS7peadpeS4ieadoeacieaViOelnue7j+mTvuaOpeiusOW/huWNs+WPr+i1sOa3seW6pumAmumBkycsICgpID0+IHsKICAgICAgICBjb25zdCBtZW1vcmllczogQ2hhcmFjdGVyUHJvZmlsZVsnbWVtb3JpZXMnXSA9IFsnMjAyNi0wNy0wMScsICcyMDI2LTA3LTEwJywgJzIwMjYtMDctMTknXQogICAgICAgICAgICAubWFwKChkYXRlLCBpbmRleCkgPT4gKHsgaWQ6IGBtLSR7aW5kZXh9YCwgZGF0ZSwgc3VtbWFyeTogYG1lbW9yeS0ke2luZGV4fWAgfSkpOwogICAgICAgIGNvbnN0IHJlc3VsdCA9IGV2YWx1YXRlTG95YWxVc2VyRWxpZ2liaWxpdHkoc25hcHNob3QoewogICAgICAgICAgICBjaGFyYWN0ZXJzOiBbY2hhcmFjdGVyKCdwcmVzZXQtc3VsbHktdjInKSwgY2hhcmFjdGVyKCdjaGFyLWN1c3RvbScsIG1lbW9yaWVzKV0sCiAgICAgICAgfSkpOwoKICAgICAgICBleHBlY3QocmVzdWx0Lm1ldHJpY3MubmV1cmFsTWVtb3J5RW50cmllc1NpbmNlSnVseSkudG9CZSgzKTsKICAgICAgICBleHBlY3QocmVzdWx0Lm1ldHJpY3MubmV1cmFsTWVtb3J5RW50cmllc1NpbmNlSnVuZSkudG9CZSgzKTsKICAgICAgICBleHBlY3QocmVzdWx0LmRlZXBVc2VyQ2hhbm5lbFBhc3NlZCkudG9CZSh0cnVlKTsKICAgICAgICBleHBlY3QocmVzdWx0LnF1YWxpZmljYXRpb25QYXRoKS50b0JlKCdkZWVwJyk7CiAgICB9KTsKCiAgICBpdCgn5pyJ6Z2e6buY6K6k6KeS6Imy5pe277yM5YWt5pyI5Lul5p2l5Y2B5LqU5p2h5pyJ5pWI56We57uP6ZO+5o6l6K6w5b+G5Y2z5Y+v6LWw5rex5bqm6YCa6YGTJywgKCkgPT4gewogICAgICAgIGNvbnN0IG1lbW9yaWVzOiBDaGFyYWN0ZXJQcm9maWxlWydtZW1vcmllcyddID0gQXJyYXkuZnJvbSh7IGxlbmd0aDogMTUgfSwgKF8sIGluZGV4KSA9PiAoewogICAgICAgICAgICBpZDogYG0tJHtpbmRleH1gLAogICAgICAgICAgICBkYXRlOiBgMjAyNi0wNi0ke1N0cmluZyhpbmRleCArIDEpLnBhZFN0YXJ0KDIsICcwJyl9YCwKICAgICAgICAgICAgc3VtbWFyeTogYG1lbW9yeS0ke2luZGV4fWAsCiAgICAgICAgfSkpOwogICAgICAgIGNvbnN0IHJlc3VsdCA9IGV2YWx1YXRlTG95YWxVc2VyRWxpZ2liaWxpdHkoc25hcHNob3QoewogICAgICAgICAgICBjaGFyYWN0ZXJzOiBbY2hhcmFjdGVyKCdwcmVzZXQtc3VsbHktdjInKSwgY2hhcmFjdGVyKCdjaGFyLWN1c3RvbScsIG1lbW9yaWVzKV0sCiAgICAgICAgfSkpOwoKICAgICAgICBleHBlY3QocmVzdWx0Lm1ldHJpY3MubmV1cmFsTWVtb3J5RW50cmllc1NpbmNlSnVseSkudG9CZSgwKTsKICAgICAgICBleHBlY3QocmVzdWx0Lm1ldHJpY3MubmV1cmFsTWVtb3J5RW50cmllc1NpbmNlSnVuZSkudG9CZSgxNSk7CiAgICAgICAgZXhwZWN0KHJlc3VsdC5kZWVwVXNlckNoYW5uZWxQYXNzZWQpLnRvQmUodHJ1ZSk7CiAgICAgICAgZXhwZWN0KHJlc3VsdC5xdWFsaWZpY2F0aW9uUGF0aCkudG9CZSgnZGVlcCcpOwogICAgfSk7CgogICAgaXQoJ+aciemdnum7mOiupOinkuiJsuaXtu+8jOaIquatouaXpeWJjee0r+iuoeS6jOeZvuadoeacieaViOelnue7j+mTvuaOpeiusOW/huWNs+WPr+i1sOa3seW6pumAmumBkycsICgpID0+IHsKICAgICAgICBjb25zdCBtZW1vcmllczogQ2hhcmFjdGVyUHJvZmlsZVsnbWVtb3JpZXMnXSA9IEFycmF5LmZyb20oeyBsZW5ndGg6IDIwMCB9LCAoXywgaW5kZXgpID0+ICh7CiAgICAgICAgICAgIGlkOiBgbS0ke2luZGV4fWAsCiAgICAgICAgICAgIGRhdGU6ICcyMDI2LTA1LTAxJywKICAgICAgICAgICAgc3VtbWFyeTogYG1lbW9yeS0ke2luZGV4fWAsCiAgICAgICAgfSkpOwogICAgICAgIGNvbnN0IHJlc3VsdCA9IGV2YWx1YXRlTG95YWxVc2VyRWxpZ2liaWxpdHkoc25hcHNob3QoewogICAgICAgICAgICBjaGFyYWN0ZXJzOiBbY2hhcmFjdGVyKCdwcmVzZXQtc3VsbHktdjInKSwgY2hhcmFjdGVyKCdjaGFyLWN1c3RvbScsIG1lbW9yaWVzKV0sCiAgICAgICAgfSkpOwoKICAgICAgICBleHBlY3QocmVzdWx0Lm1ldHJpY3MubmV1cmFsTWVtb3J5RW50cmllc1RvdGFsKS50b0JlKDIwMCk7CiAgICAgICAgZXhwZWN0KHJlc3VsdC5kZWVwVXNlckNoYW5uZWxQYXNzZWQpLnRvQmUodHJ1ZSk7CiAgICAgICAgZXhwZWN0KHJlc3VsdC5xdWFsaWZpY2F0aW9uUGF0aCkudG9CZSgnZGVlcCcpOwogICAgfSk7CgogICAgaXQoJ+elnue7j+mTvuaOpeS4ieaho+adoeS7tumDveW/hemhu+i+vuWIsOi+ueeVjO+8jOS6jOadoeS4g+aciOOAgeWNgeWbm+adoeWFreaciOWSjOS4jei2s+S6jOeZvuaAu+mHj+S4jeS8mumAmui/hycsICgpID0+IHsKICAgICAgICBjb25zdCBqdW5lID0gQXJyYXkuZnJvbSh7IGxlbmd0aDogMTIgfSwgKF8sIGluZGV4KSA9PiAoewogICAgICAgICAgICBpZDogYGp1bmUtJHtpbmRleH1gLAogICAgICAgICAgICBkYXRlOiBgMjAyNi0wNi0ke1N0cmluZyhpbmRleCArIDEpLnBhZFN0YXJ0KDIsICcwJyl9YCwKICAgICAgICAgICAgc3VtbWFyeTogYGp1bmUtJHtpbmRleH1gLAogICAgICAgIH0pKTsKICAgICAgICBjb25zdCBqdWx5ID0gWycyMDI2LTA3LTAxJywgJzIwMjYtMDctMTknXS5tYXAoKGRhdGUsIGluZGV4KSA9PiAoewogICAgICAgICAgICBpZDogYGp1bHktJHtpbmRleH1gLAogICAgICAgICAgICBkYXRlLAogICAgICAgICAgICBzdW1tYXJ5OiBganVseS0ke2luZGV4fWAsCiAgICAgICAgfSkpOwogICAgICAgIGNvbnN0IHJlc3VsdCA9IGV2YWx1YXRlTG95YWxVc2VyRWxpZ2liaWxpdHkoc25hcHNob3QoewogICAgICAgICAgICBjaGFyYWN0ZXJzOiBbY2hhcmFjdGVyKCdwcmVzZXQtc3VsbHktdjInKSwgY2hhcmFjdGVyKCdjaGFyLWN1c3RvbScsIFsuLi5qdW5lLCAuLi5qdWx5XSldLAogICAgICAgIH0pKTsKCiAgICAgICAgZXhwZWN0KHJlc3VsdC5tZXRyaWNzLm5ldXJhbE1lbW9yeUVudHJpZXNTaW5jZUp1bHkpLnRvQmUoMik7CiAgICAgICAgZXhwZWN0KHJlc3VsdC5tZXRyaWNzLm5ldXJhbE1lbW9yeUVudHJpZXNTaW5jZUp1bmUpLnRvQmUoMTQpOwogICAgICAgIGV4cGVjdChyZXN1bHQubWV0cmljcy5uZXVyYWxNZW1vcnlFbnRyaWVzVG90YWwpLnRvQmUoMTQpOwogICAgICAgIGV4cGVjdChyZXN1bHQuZGVlcFVzZXJDaGFubmVsUGFzc2VkKS50b0JlKGZhbHNlKTsKICAgICAgICBleHBlY3QocmVzdWx0LnBhc3NlZCkudG9CZShmYWxzZSk7CiAgICB9KTsKCiAgICBpdCgn5pyJ6Z2e6buY6K6k6KeS6Imy5pe277yM6K6w5b+G5a6r5q6/5pyJ5pWI6IqC54K56LaF6L+H5LqM5Y2B5Y2z5Y+v6LWw5rex5bqm6YCa6YGTJywgKCkgPT4gewogICAgICAgIGNvbnN0IG5vZGVzID0gQXJyYXkuZnJvbSh7IGxlbmd0aDogMjEgfSwgKF8sIGluZGV4KSA9PiBub2RlKAogICAgICAgICAgICBgbi0ke2luZGV4fWAsCiAgICAgICAgICAgICdsaXZpbmdfcm9vbScsCiAgICAgICAgICAgIExPWUFMX1JFQ1JVSVRNRU5UX0NVVE9GRl9BVCAtIChpbmRleCArIDEpICogREFZLAogICAgICAgICkpOwogICAgICAgIGNvbnN0IHJlc3VsdCA9IGV2YWx1YXRlTG95YWxVc2VyRWxpZ2liaWxpdHkoc25hcHNob3QoewogICAgICAgICAgICBjaGFyYWN0ZXJzOiBbCiAgICAgICAgICAgICAgICBjaGFyYWN0ZXIoJ3ByZXNldC1zdWxseS12MicpLAogICAgICAgICAgICAgICAgY2hhcmFjdGVyKCdjaGFyLWN1c3RvbScsIFt7IGlkOiAnZXZpZGVuY2UnLCBkYXRlOiAnMjAyNi0wNS0wMScsIHN1bW1hcnk6ICd1c2VkJyB9XSksCiAgICAgICAgICAgIF0sCiAgICAgICAgICAgIG1lbW9yeU5vZGVzOiBub2RlcywKICAgICAgICB9KSk7CgogICAgICAgIGV4cGVjdChyZXN1bHQubWV0cmljcy5wYWxhY2VOb2RlcykudG9CZSgyMSk7CiAgICAgICAgZXhwZWN0KHJlc3VsdC5kZWVwVXNlckNoYW5uZWxQYXNzZWQpLnRvQmUodHJ1ZSk7CiAgICAgICAgZXhwZWN0KHJlc3VsdC5xdWFsaWZpY2F0aW9uUGF0aCkudG9CZSgnZGVlcCcpOwogICAgfSk7CgogICAgaXQoJ+ayoeaciemdnum7mOiupOinkuiJsuaXtu+8jOWNs+S9v+iusOW/huWuq+auv+i2hei/h+S6jOWNgeS5n+S4jei/m+WFpea3seW6pumAmumBkycsICgpID0+IHsKICAgICAgICBjb25zdCBub2RlcyA9IEFycmF5LmZyb20oeyBsZW5ndGg6IDIxIH0sIChfLCBpbmRleCkgPT4gbm9kZSgKICAgICAgICAgICAgYG4tJHtpbmRleH1gLAogICAgICAgICAgICAnbGl2aW5nX3Jvb20nLAogICAgICAgICAgICBMT1lBTF9SRUNSVUlUTUVOVF9DVVRPRkZfQVQgLSAoaW5kZXggKyAxKSAqIERBWSwKICAgICAgICApKTsKICAgICAgICBjb25zdCByZXN1bHQgPSBldmFsdWF0ZUxveWFsVXNlckVsaWdpYmlsaXR5KHNuYXBzaG90KHsgbWVtb3J5Tm9kZXM6IG5vZGVzIH0pKTsKCiAgICAgICAgZXhwZWN0KHJlc3VsdC5tZXRyaWNzLmhhc1F1YWxpZmllZEN1c3RvbUNoYXJhY3RlcikudG9CZShmYWxzZSk7CiAgICAgICAgZXhwZWN0KHJlc3VsdC5kZWVwVXNlckNoYW5uZWxQYXNzZWQpLnRvQmUoZmFsc2UpOwogICAgICAgIGV4cGVjdChyZXN1bHQucGFzc2VkKS50b0JlKGZhbHNlKTsKICAgIH0pOwoKICAgIGl0KCfkuInkuKrop5LoibLlkITmtLvot4PkuIDlpKnkuI3og73lhpLlhYXku7vmhI/ljZXkuKrop5LoibLmtLvot4PkuInlpKknLCAoKSA9PiB7CiAgICAgICAgY29uc3QgbWVzc2FnZXMgPSBbCiAgICAgICAgICAgIC4uLnVzZXJNZXNzYWdlcyhbLTMwXSwgMywgJ3ByZXNldC1zdWxseS12MicpLAogICAgICAgICAgICAuLi51c2VyTWVzc2FnZXMoWy0yMF0sIDMsICdjaGFyLWEnKSwKICAgICAgICAgICAgLi4udXNlck1lc3NhZ2VzKFstMTBdLCAzLCAnY2hhci1iJyksCiAgICAgICAgXTsKICAgICAgICBjb25zdCByZXN1bHQgPSBldmFsdWF0ZUxveWFsVXNlckVsaWdpYmlsaXR5KHNuYXBzaG90KHsKICAgICAgICAgICAgY2hhcmFjdGVyczogW2NoYXJhY3RlcigncHJlc2V0LXN1bGx5LXYyJyksIGNoYXJhY3RlcignY2hhci1hJyksIGNoYXJhY3RlcignY2hhci1iJyldLAogICAgICAgICAgICBtZXNzYWdlcywKICAgICAgICB9KSk7CgogICAgICAgIGV4cGVjdChyZXN1bHQubWV0cmljcy5tYXhQcmVDdXRvZmZDaGFyYWN0ZXJBY3RpdmVEYXlzKS50b0JlKDEpOwogICAgICAgIGV4cGVjdChyZXN1bHQuZGVlcFVzZXJDaGFubmVsUGFzc2VkKS50b0JlKGZhbHNlKTsKICAgICAgICBleHBlY3QocmVzdWx0LnBhc3NlZCkudG9CZShmYWxzZSk7CiAgICB9KTsKCiAgICBpdCgn5LiA5aSp5YaF6ZuG5Lit5Yi35raI5oGv5peg5rOV6Leo6L+H5pyA6L+R5LiA5Liq5pyI5rS76LeD56Gs6Zeo5qebJywgKCkgPT4gewogICAgICAgIGNvbnN0IHJlc3VsdCA9IGV2YWx1YXRlTG95YWxVc2VyRWxpZ2liaWxpdHkoc25hcHNob3QoewogICAgICAgICAgICBjaGFyYWN0ZXJzOiBbY2hhcmFjdGVyKCdwcmVzZXQtc3VsbHktdjInKSwgY2hhcmFjdGVyKCdjaGFyLWN1c3RvbScpXSwKICAgICAgICAgICAgbWVzc2FnZXM6IHVzZXJNZXNzYWdlcyhbMTBdLCAyMDAsICdjaGFyLWN1c3RvbScpLAogICAgICAgIH0pKTsKCiAgICAgICAgZXhwZWN0KHJlc3VsdC5tZXRyaWNzLnJlY2VudFVzZXJNZXNzYWdlcykudG9CZSgyMDApOwogICAgICAgIGV4cGVjdChyZXN1bHQubWV0cmljcy5yZWNlbnRBY3RpdmVEYXlzKS50b0JlKDEpOwogICAgICAgIGV4cGVjdChyZXN1bHQuaGFyZEdhdGVQYXNzZWQpLnRvQmUoZmFsc2UpOwogICAgICAgIGV4cGVjdChyZXN1bHQuZGVlcFVzZXJDaGFubmVsUGFzc2VkKS50b0JlKGZhbHNlKTsKICAgICAgICBleHBlY3QocmVzdWx0LnBhc3NlZCkudG9CZShmYWxzZSk7CiAgICB9KTsKCiAgICBpdCgn5oiq5q2i5pe26Ze05ZCO55qE5raI5oGv5ZKM6KeS6Imy6K+B5o2u5a6M5YWo5LiN6K6hJywgKCkgPT4gewogICAgICAgIGNvbnN0IGFmdGVyQ3V0b2ZmOiBNZXNzYWdlW10gPSBBcnJheS5mcm9tKHsgbGVuZ3RoOiAyMDAgfSwgKF8sIGluZGV4KSA9PiAoewogICAgICAgICAgICBpZDogaW5kZXggKyAxLAogICAgICAgICAgICBjaGFySWQ6ICdjaGFyLWxhdGUnLAogICAgICAgICAgICByb2xlOiAndXNlcicsCiAgICAgICAgICAgIHR5cGU6ICd0ZXh0JywKICAgICAgICAgICAgY29udGVudDogJ2xhdGUnLAogICAgICAgICAgICB0aW1lc3RhbXA6IExPWUFMX1JFQ1JVSVRNRU5UX0NVVE9GRl9BVCArIDEgKyBpbmRleCwKICAgICAgICB9KSk7CiAgICAgICAgY29uc3QgcmVzdWx0ID0gZXZhbHVhdGVMb3lhbFVzZXJFbGlnaWJpbGl0eShzbmFwc2hvdCh7CiAgICAgICAgICAgIGNoYXJhY3RlcnM6IFtjaGFyYWN0ZXIoJ3ByZXNldC1zdWxseS12MicpLCBjaGFyYWN0ZXIoJ2NoYXItbGF0ZScpXSwKICAgICAgICAgICAgbWVzc2FnZXM6IGFmdGVyQ3V0b2ZmLAogICAgICAgIH0pKTsKCiAgICAgICAgZXhwZWN0KHJlc3VsdC5tZXRyaWNzLnJlY2VudFVzZXJNZXNzYWdlcykudG9CZSgwKTsKICAgICAgICBleHBlY3QocmVzdWx0Lm1ldHJpY3MuaGFzUXVhbGlmaWVkQ3VzdG9tQ2hhcmFjdGVyKS50b0JlKGZhbHNlKTsKICAgICAgICBleHBlY3QocmVzdWx0LnNjb3JlKS50b0JlKDApOwogICAgfSk7CgogICAgaXQoJ+S8oOe7n+iusOW/huaOkumZpCA3IOaciCAyMCDml6UgZGF0ZS1vbmx5IOaVsOaNruWSjCAyMDI2IOW5tCA3IOaciOeyvueCvOaAu+e7kycsICgpID0+IHsKICAgICAgICBjb25zdCByZXN1bHQgPSBldmFsdWF0ZUxveWFsVXNlckVsaWdpYmlsaXR5KHNuYXBzaG90KHsKICAgICAgICAgICAgY2hhcmFjdGVyczogW2NoYXJhY3RlcigncHJlc2V0LXN1bGx5LXYyJywgWwogICAgICAgICAgICAgICAgeyBpZDogJ2xhdGUtZGF5JywgZGF0ZTogJzIwMjYtMDctMjAnLCBzdW1tYXJ5OiAn5peg5rOV5Yik5patIDE5IOeCueWJjeWQjicgfSwKICAgICAgICAgICAgXSwgewogICAgICAgICAgICAgICAgJzIwMjYtMDcnOiAn5peg5rOV5Yik5patIDE5IOeCueWJjeWQjicsCiAgICAgICAgICAgIH0pXSwKICAgICAgICB9KSk7CgogICAgICAgIGV4cGVjdChyZXN1bHQubWV0cmljcy5tZW1vcnlVbml0cykudG9CZSgwKTsKICAgICAgICBleHBlY3QocmVzdWx0LmJyZWFrZG93bi5uZXVyYWxNZW1vcnkpLnRvQmUoMCk7CiAgICB9KTsKCiAgICBpdCgn56We57uP6ZO+5o6l6K6w5b+G5ZCM5pe25oyJ6Leo5bqm44CB56ev57Sv6YeP5ZKM5pyA6L+R5rS76LeD6K6h5YiGJywgKCkgPT4gewogICAgICAgIGNvbnN0IHJlc3VsdCA9IGV2YWx1YXRlTG95YWxVc2VyRWxpZ2liaWxpdHkoc25hcHNob3QoewogICAgICAgICAgICBjaGFyYWN0ZXJzOiBbY2hhcmFjdGVyKCdwcmVzZXQtc3VsbHktdjInLCBbCiAgICAgICAgICAgICAgICB7IGlkOiAnbTEnLCBkYXRlOiAnMjAyNi0wMy0wMScsIHN1bW1hcnk6ICdvbGQnIH0sCiAgICAgICAgICAgICAgICB7IGlkOiAnbTInLCBkYXRlOiAnMjAyNi0wNi0yMScsIHN1bW1hcnk6ICdyZWNlbnQnIH0sCiAgICAgICAgICAgICAgICB7IGlkOiAnbTMnLCBkYXRlOiAnMjAyNi0wNi0yNScsIHN1bW1hcnk6ICdyZWNlbnQnIH0sCiAgICAgICAgICAgICAgICB7IGlkOiAnbTQnLCBkYXRlOiAnMjAyNi0wNy0wMScsIHN1bW1hcnk6ICdyZWNlbnQnIH0sCiAgICAgICAgICAgICAgICB7IGlkOiAnbTUnLCBkYXRlOiAnMjAyNi0wNy0wOCcsIHN1bW1hcnk6ICdyZWNlbnQnIH0sCiAgICAgICAgICAgICAgICB7IGlkOiAnbTYnLCBkYXRlOiAnMjAyNi0wNy0xOScsIHN1bW1hcnk6ICdyZWNlbnQnIH0sCiAgICAgICAgICAgIF0pXSwKICAgICAgICB9KSk7CgogICAgICAgIGV4cGVjdChyZXN1bHQubWV0cmljcy5tZW1vcnlVbml0cykudG9CZSg2KTsKICAgICAgICBleHBlY3QocmVzdWx0Lm1ldHJpY3MucmVjZW50TWVtb3J5VW5pdHMpLnRvQmUoNSk7CiAgICAgICAgZXhwZWN0KHJlc3VsdC5tZXRyaWNzLm1lbW9yeVNwYW5EYXlzKS50b0JlR3JlYXRlclRoYW5PckVxdWFsKDkwKTsKICAgICAgICBleHBlY3QocmVzdWx0LmJyZWFrZG93bi5uZXVyYWxNZW1vcnkpLnRvQmUoMjQpOyAvLyAxMCDot6jluqYgKyA5IOenr+e0ryArIDUg6L+R5pyfCiAgICB9KTsKCiAgICBpdCgn6K6w5b+G5a6r5q6/5Y+q5aWW5Yqx5Y6f5aeL5pyJ5pWI6IqC54K577yM5o6S6Zmk5oC757uT44CB5raI5YyW5ZKM57O757uf5rS+55Sf6IqC54K5JywgKCkgPT4gewogICAgICAgIGNvbnN0IHJvb21zOiBNZW1vcnlSb29tW10gPSBbJ2xpdmluZ19yb29tJywgJ2JlZHJvb20nLCAnc3R1ZHknXTsKICAgICAgICBjb25zdCB2YWxpZCA9IEFycmF5LmZyb20oeyBsZW5ndGg6IDE1IH0sIChfLCBpbmRleCkgPT4gbm9kZSgKICAgICAgICAgICAgYG4tJHtpbmRleH1gLAogICAgICAgICAgICByb29tc1tpbmRleCAlIHJvb21zLmxlbmd0aF0sCiAgICAgICAgICAgIExPWUFMX1JFQ1JVSVRNRU5UX0NVVE9GRl9BVCAtIChpbmRleCArIDEpICogREFZLAogICAgICAgICkpOwogICAgICAgIGNvbnN0IGlnbm9yZWQgPSBbCiAgICAgICAgICAgIG5vZGUoJ3N1bW1hcnknLCAnbGl2aW5nX3Jvb20nLCBMT1lBTF9SRUNSVUlUTUVOVF9DVVRPRkZfQVQgLSBEQVksIHsgaXNCb3hTdW1tYXJ5OiB0cnVlIH0pLAogICAgICAgICAgICBub2RlKCdkaWdlc3Rpb24nLCAnYmVkcm9vbScsIExPWUFMX1JFQ1JVSVRNRU5UX0NVVE9GRl9BVCAtIERBWSwgeyBvcmlnaW46ICdkaWdlc3Rpb24nIH0pLAogICAgICAgICAgICBub2RlKCdzeXN0ZW0nLCAnc3R1ZHknLCBMT1lBTF9SRUNSVUlUTUVOVF9DVVRPRkZfQVQgLSBEQVksIHsgb3JpZ2luOiAnc3lzdGVtJyB9KSwKICAgICAgICAgICAgbm9kZSgnZnV0dXJlJywgJ2F0dGljJywgTE9ZQUxfUkVDUlVJVE1FTlRfQ1VUT0ZGX0FUICsgREFZKSwKICAgICAgICBdOwogICAgICAgIGNvbnN0IHJlc3VsdCA9IGV2YWx1YXRlTG95YWxVc2VyRWxpZ2liaWxpdHkoc25hcHNob3QoeyBtZW1vcnlOb2RlczogWy4uLnZhbGlkLCAuLi5pZ25vcmVkXSB9KSk7CgogICAgICAgIGV4cGVjdChyZXN1bHQubWV0cmljcy5wYWxhY2VOb2RlcykudG9CZSgxNSk7CiAgICAgICAgZXhwZWN0KHJlc3VsdC5tZXRyaWNzLnBhbGFjZVJvb21zKS50b0JlKDMpOwogICAgICAgIGV4cGVjdChyZXN1bHQuYnJlYWtkb3duLm1lbW9yeVBhbGFjZSkudG9CZSg4KTsgLy8gNSDoioLngrkgKyAyIOaIv+mXtCArIDEg6L+R5pyfCiAgICB9KTsKfSk7Cg==
+import { describe, expect, it } from 'vitest';
+import type { CharacterProfile, Message } from '../types';
+import type { MemoryNode, MemoryRoom } from './memoryPalace/types';
+import {
+    evaluateLoyalUserEligibility,
+    LOYAL_RECRUITMENT_CUTOFF_AT,
+    LOYAL_RECRUITMENT_RECENT_START_AT,
+    type LoyalEligibilitySnapshot,
+} from './loyalUserEligibility';
+
+const DAY = 86_400_000;
+
+function character(id: string, memories: CharacterProfile['memories'] = [], refinedMemories?: Record<string, string>): CharacterProfile {
+    return {
+        id,
+        name: id,
+        avatar: '',
+        description: '',
+        systemPrompt: '',
+        memories,
+        refinedMemories,
+    };
+}
+
+function userMessages(dayOffsets: number[], perDay: number, charId = 'preset-sully-v2'): Message[] {
+    let id = 1;
+    return dayOffsets.flatMap(offset => Array.from({ length: perDay }, (_, index) => ({
+        id: id++,
+        charId,
+        role: 'user' as const,
+        type: 'text' as const,
+        content: `message-${offset}-${index}`,
+        timestamp: LOYAL_RECRUITMENT_RECENT_START_AT + offset * DAY + 3_600_000,
+    })));
+}
+
+function node(id: string, room: MemoryRoom, createdAt: number, extra: Partial<MemoryNode> = {}): MemoryNode {
+    return {
+        id,
+        charId: 'preset-sully-v2',
+        content: id,
+        room,
+        tags: [],
+        importance: 5,
+        mood: 'neutral',
+        embedded: true,
+        createdAt,
+        lastAccessedAt: createdAt,
+        accessCount: 0,
+        origin: 'extraction',
+        ...extra,
+    };
+}
+
+function snapshot(overrides: Partial<LoyalEligibilitySnapshot> = {}): LoyalEligibilitySnapshot {
+    return {
+        characters: [character('preset-sully-v2')],
+        messages: [],
+        guidebookSessions: [],
+        memoryNodes: [],
+        ...overrides,
+    };
+}
+
+describe('忠实用户一次性资格检测', () => {
+    it('高活跃 + 截止日前有证据的非默认角色可在没有记忆宫殿时通过', () => {
+        const messages = userMessages([1, 2, 8, 9, 15, 16, 22, 23, 25, 26, 27], 14, 'char-custom');
+        const result = evaluateLoyalUserEligibility(snapshot({
+            characters: [character('preset-sully-v2'), character('char-custom')],
+            messages,
+        }));
+
+        expect(result.hardGatePassed).toBe(true);
+        expect(result.breakdown.recentActivity).toBe(50);
+        expect(result.breakdown.customCharacter).toBe(15);
+        expect(result.breakdown.memoryPalace).toBe(0);
+        expect(result.score).toBe(65);
+        expect(result.qualificationPath).toBe('standard');
+        expect(result.passed).toBe(true);
+    });
+
+    it('有非默认角色时，任意单个角色在截止日前累计三个活跃日即可走深度通道', () => {
+        const result = evaluateLoyalUserEligibility(snapshot({
+            characters: [
+                character('preset-sully-v2'),
+                character('char-custom', [{ id: 'evidence', date: '2026-05-01', summary: 'used' }]),
+            ],
+            messages: userMessages([-120, -60, -10], 3, 'preset-sully-v2'),
+        }));
+
+        expect(result.metrics.recentUserMessages).toBe(0);
+        expect(result.metrics.maxPreCutoffCharacterActiveDays).toBe(3);
+        expect(result.hardGatePassed).toBe(false);
+        expect(result.deepUserChannelPassed).toBe(true);
+        expect(result.qualificationPath).toBe('deep');
+        expect(result.passed).toBe(true);
+    });
+
+    it('有非默认角色时，七月以来三条有效神经链接记忆即可走深度通道', () => {
+        const memories: CharacterProfile['memories'] = ['2026-07-01', '2026-07-10', '2026-07-19']
+            .map((date, index) => ({ id: `m-${index}`, date, summary: `memory-${index}` }));
+        const result = evaluateLoyalUserEligibility(snapshot({
+            characters: [character('preset-sully-v2'), character('char-custom', memories)],
+        }));
+
+        expect(result.metrics.neuralMemoryEntriesSinceJuly).toBe(3);
+        expect(result.metrics.neuralMemoryEntriesSinceJune).toBe(3);
+        expect(result.deepUserChannelPassed).toBe(true);
+        expect(result.qualificationPath).toBe('deep');
+    });
+
+    it('有非默认角色时，六月以来十五条有效神经链接记忆即可走深度通道', () => {
+        const memories: CharacterProfile['memories'] = Array.from({ length: 15 }, (_, index) => ({
+            id: `m-${index}`,
+            date: `2026-06-${String(index + 1).padStart(2, '0')}`,
+            summary: `memory-${index}`,
+        }));
+        const result = evaluateLoyalUserEligibility(snapshot({
+            characters: [character('preset-sully-v2'), character('char-custom', memories)],
+        }));
+
+        expect(result.metrics.neuralMemoryEntriesSinceJuly).toBe(0);
+        expect(result.metrics.neuralMemoryEntriesSinceJune).toBe(15);
+        expect(result.deepUserChannelPassed).toBe(true);
+        expect(result.qualificationPath).toBe('deep');
+    });
+
+    it('有非默认角色时，截止日前累计二百条有效神经链接记忆即可走深度通道', () => {
+        const memories: CharacterProfile['memories'] = Array.from({ length: 200 }, (_, index) => ({
+            id: `m-${index}`,
+            date: '2026-05-01',
+            summary: `memory-${index}`,
+        }));
+        const result = evaluateLoyalUserEligibility(snapshot({
+            characters: [character('preset-sully-v2'), character('char-custom', memories)],
+        }));
+
+        expect(result.metrics.neuralMemoryEntriesTotal).toBe(200);
+        expect(result.deepUserChannelPassed).toBe(true);
+        expect(result.qualificationPath).toBe('deep');
+    });
+
+    it('神经链接三档条件都必须达到边界，二条七月、十四条六月和不足二百总量不会通过', () => {
+        const june = Array.from({ length: 12 }, (_, index) => ({
+            id: `june-${index}`,
+            date: `2026-06-${String(index + 1).padStart(2, '0')}`,
+            summary: `june-${index}`,
+        }));
+        const july = ['2026-07-01', '2026-07-19'].map((date, index) => ({
+            id: `july-${index}`,
+            date,
+            summary: `july-${index}`,
+        }));
+        const result = evaluateLoyalUserEligibility(snapshot({
+            characters: [character('preset-sully-v2'), character('char-custom', [...june, ...july])],
+        }));
+
+        expect(result.metrics.neuralMemoryEntriesSinceJuly).toBe(2);
+        expect(result.metrics.neuralMemoryEntriesSinceJune).toBe(14);
+        expect(result.metrics.neuralMemoryEntriesTotal).toBe(14);
+        expect(result.deepUserChannelPassed).toBe(false);
+        expect(result.passed).toBe(false);
+    });
+
+    it('有非默认角色时，记忆宫殿有效节点超过二十即可走深度通道', () => {
+        const nodes = Array.from({ length: 21 }, (_, index) => node(
+            `n-${index}`,
+            'living_room',
+            LOYAL_RECRUITMENT_CUTOFF_AT - (index + 1) * DAY,
+        ));
+        const result = evaluateLoyalUserEligibility(snapshot({
+            characters: [
+                character('preset-sully-v2'),
+                character('char-custom', [{ id: 'evidence', date: '2026-05-01', summary: 'used' }]),
+            ],
+            memoryNodes: nodes,
+        }));
+
+        expect(result.metrics.palaceNodes).toBe(21);
+        expect(result.deepUserChannelPassed).toBe(true);
+        expect(result.qualificationPath).toBe('deep');
+    });
+
+    it('没有非默认角色时，即使记忆宫殿超过二十也不进入深度通道', () => {
+        const nodes = Array.from({ length: 21 }, (_, index) => node(
+            `n-${index}`,
+            'living_room',
+            LOYAL_RECRUITMENT_CUTOFF_AT - (index + 1) * DAY,
+        ));
+        const result = evaluateLoyalUserEligibility(snapshot({ memoryNodes: nodes }));
+
+        expect(result.metrics.hasQualifiedCustomCharacter).toBe(false);
+        expect(result.deepUserChannelPassed).toBe(false);
+        expect(result.passed).toBe(false);
+    });
+
+    it('三个角色各活跃一天不能冒充任意单个角色活跃三天', () => {
+        const messages = [
+            ...userMessages([-30], 3, 'preset-sully-v2'),
+            ...userMessages([-20], 3, 'char-a'),
+            ...userMessages([-10], 3, 'char-b'),
+        ];
+        const result = evaluateLoyalUserEligibility(snapshot({
+            characters: [character('preset-sully-v2'), character('char-a'), character('char-b')],
+            messages,
+        }));
+
+        expect(result.metrics.maxPreCutoffCharacterActiveDays).toBe(1);
+        expect(result.deepUserChannelPassed).toBe(false);
+        expect(result.passed).toBe(false);
+    });
+
+    it('一天内集中刷消息无法跨过最近一个月活跃硬门槛', () => {
+        const result = evaluateLoyalUserEligibility(snapshot({
+            characters: [character('preset-sully-v2'), character('char-custom')],
+            messages: userMessages([10], 200, 'char-custom'),
+        }));
+
+        expect(result.metrics.recentUserMessages).toBe(200);
+        expect(result.metrics.recentActiveDays).toBe(1);
+        expect(result.hardGatePassed).toBe(false);
+        expect(result.deepUserChannelPassed).toBe(false);
+        expect(result.passed).toBe(false);
+    });
+
+    it('截止时间后的消息和角色证据完全不计', () => {
+        const afterCutoff: Message[] = Array.from({ length: 200 }, (_, index) => ({
+            id: index + 1,
+            charId: 'char-late',
+            role: 'user',
+            type: 'text',
+            content: 'late',
+            timestamp: LOYAL_RECRUITMENT_CUTOFF_AT + 1 + index,
+        }));
+        const result = evaluateLoyalUserEligibility(snapshot({
+            characters: [character('preset-sully-v2'), character('char-late')],
+            messages: afterCutoff,
+        }));
+
+        expect(result.metrics.recentUserMessages).toBe(0);
+        expect(result.metrics.hasQualifiedCustomCharacter).toBe(false);
+        expect(result.score).toBe(0);
+    });
+
+    it('传统记忆排除 7 月 20 日 date-only 数据和 2026 年 7 月精炼总结', () => {
+        const result = evaluateLoyalUserEligibility(snapshot({
+            characters: [character('preset-sully-v2', [
+                { id: 'late-day', date: '2026-07-20', summary: '无法判断 19 点前后' },
+            ], {
+                '2026-07': '无法判断 19 点前后',
+            })],
+        }));
+
+        expect(result.metrics.memoryUnits).toBe(0);
+        expect(result.breakdown.neuralMemory).toBe(0);
+    });
+
+    it('神经链接记忆同时按跨度、积累量和最近活跃计分', () => {
+        const result = evaluateLoyalUserEligibility(snapshot({
+            characters: [character('preset-sully-v2', [
+                { id: 'm1', date: '2026-03-01', summary: 'old' },
+                { id: 'm2', date: '2026-06-21', summary: 'recent' },
+                { id: 'm3', date: '2026-06-25', summary: 'recent' },
+                { id: 'm4', date: '2026-07-01', summary: 'recent' },
+                { id: 'm5', date: '2026-07-08', summary: 'recent' },
+                { id: 'm6', date: '2026-07-19', summary: 'recent' },
+            ])],
+        }));
+
+        expect(result.metrics.memoryUnits).toBe(6);
+        expect(result.metrics.recentMemoryUnits).toBe(5);
+        expect(result.metrics.memorySpanDays).toBeGreaterThanOrEqual(90);
+        expect(result.breakdown.neuralMemory).toBe(24); // 10 跨度 + 9 积累 + 5 近期
+    });
+
+    it('记忆宫殿只奖励原始有效节点，排除总结、消化和系统派生节点', () => {
+        const rooms: MemoryRoom[] = ['living_room', 'bedroom', 'study'];
+        const valid = Array.from({ length: 15 }, (_, index) => node(
+            `n-${index}`,
+            rooms[index % rooms.length],
+            LOYAL_RECRUITMENT_CUTOFF_AT - (index + 1) * DAY,
+        ));
+        const ignored = [
+            node('summary', 'living_room', LOYAL_RECRUITMENT_CUTOFF_AT - DAY, { isBoxSummary: true }),
+            node('digestion', 'bedroom', LOYAL_RECRUITMENT_CUTOFF_AT - DAY, { origin: 'digestion' }),
+            node('system', 'study', LOYAL_RECRUITMENT_CUTOFF_AT - DAY, { origin: 'system' }),
+            node('future', 'attic', LOYAL_RECRUITMENT_CUTOFF_AT + DAY),
+        ];
+        const result = evaluateLoyalUserEligibility(snapshot({ memoryNodes: [...valid, ...ignored] }));
+
+        expect(result.metrics.palaceNodes).toBe(15);
+        expect(result.metrics.palaceRooms).toBe(3);
+        expect(result.breakdown.memoryPalace).toBe(8); // 5 节点 + 2 房间 + 1 近期
+    });
+});

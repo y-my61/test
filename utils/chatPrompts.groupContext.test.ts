@@ -1,1 +1,45 @@
-aW1wb3J0IHsgZGVzY3JpYmUsIGl0LCBleHBlY3QgfSBmcm9tICd2aXRlc3QnOwppbXBvcnQgeyBDaGF0UHJvbXB0cyB9IGZyb20gJy4vY2hhdFByb21wdHMnOwppbXBvcnQgeyBEQiB9IGZyb20gJy4vZGInOwppbXBvcnQgeyBzZXRDaGFyTmFtZVJlZ2lzdHJ5LCBnZXRDaGFyTmFtZUJ5SWQgfSBmcm9tICcuL2NoYXJOYW1lUmVnaXN0cnknOwoKLy8g576k6IGK6IOM5pmv5rOo5YWl55qE5Y+R6KiA5Lq65qCH5rOo77ya5LmL5YmN5omA5pyJ6KeS6Imy5Y+R6KiA77yI5YyF5ous5pS25Yiw5rOo5YWl55qE6KeS6Imy6Ieq5bex77yJ6YO96KKr5Yy/5ZCN5oiQCi8vICJNZW1iZXIi77yM56eB6IGK6KKr6Zeu6LW3576k6YeM55qE5LqL5pe26KeS6Imy5YiG5LiN5riF6LCB6K+05LqG5LuA5LmI44CB6K6k5LiN5Ye66Ieq5bex55qE5Y+R6KiA44CCCi8vIOS/ruWkjeWQju+8mnVzZXIg5pi+56S655So5oi35ZCN77yM5rOo5YWl5a+56LGh6Ieq5bex55qE5Y+R6KiA5qCH44CM5L2g77yI5ZCN5a2X77yJ44CN77yM5YW25LuW5oiQ5ZGY57uPCi8vIGNoYXJOYW1lUmVnaXN0cnkg6Kej5p6Q5Ye655yf5a6e5ZCN5a2X77yM5p+l5LiN5Yiw55qE5YWc5bqV44CM576k5Y+L44CN44CCCgpjb25zdCBjaGFyQSA9IHsgaWQ6ICdjaGFyLWEnLCBuYW1lOiAn6Zi/5LiAJyB9IGFzIGFueTsKY29uc3QgdXNlclByb2ZpbGUgPSB7IG5hbWU6ICfmnaHmnaEnIH0gYXMgYW55Owpjb25zdCBncm91cHMgPSBbeyBpZDogJ2ctdGVzdCcsIG5hbWU6ICfmt7HlpJzojLbor53kvJonLCBtZW1iZXJzOiBbJ2NoYXItYScsICdjaGFyLWInXSB9XSBhcyBhbnk7CgpkZXNjcmliZSgn576k6IGK6IOM5pmv5rOo5YWlIMK3IOWPkeiogOS6uuecn+Wunuagh+azqCcsICgpID0+IHsKICAgIGl0KCdjaGFyTmFtZVJlZ2lzdHJ5IOWfuuacrOihjOS4uicsICgpID0+IHsKICAgICAgICBzZXRDaGFyTmFtZVJlZ2lzdHJ5KFt7IGlkOiAneCcsIG5hbWU6ICflsI/mmI4nIH1dKTsKICAgICAgICBleHBlY3QoZ2V0Q2hhck5hbWVCeUlkKCd4JykpLnRvQmUoJ+Wwj+aYjicpOwogICAgICAgIGV4cGVjdChnZXRDaGFyTmFtZUJ5SWQoJ21pc3NpbmcnKSkudG9CZU51bGwoKTsKICAgICAgICBleHBlY3QoZ2V0Q2hhck5hbWVCeUlkKG51bGwpKS50b0JlTnVsbCgpOwogICAgfSk7CgogICAgaXQoJ+azqOWFpeWdl+agh+azqO+8mueUqOaIt+WQjSAvIOS9oO+8iOiHquW3se+8iSAvIOecn+WunuaIkOWRmOWQjSAvIOacquefpeWFnOW6lee+pOWPiycsIGFzeW5jICgpID0+IHsKICAgICAgICBzZXRDaGFyTmFtZVJlZ2lzdHJ5KFsKICAgICAgICAgICAgeyBpZDogJ2NoYXItYScsIG5hbWU6ICfpmL/kuIAnIH0sCiAgICAgICAgICAgIHsgaWQ6ICdjaGFyLWInLCBuYW1lOiAn6Zi/5LqMJyB9LAogICAgICAgIF0pOwogICAgICAgIGF3YWl0IERCLnNhdmVNZXNzYWdlKHsgY2hhcklkOiAndXNlcicsIGdyb3VwSWQ6ICdnLXRlc3QnLCByb2xlOiAndXNlcicsIHR5cGU6ICd0ZXh0JywgY29udGVudDogJ+S7iuaZmuWQg+eBq+mUheWQlycgfSBhcyBhbnkpOwogICAgICAgIGF3YWl0IERCLnNhdmVNZXNzYWdlKHsgY2hhcklkOiAnY2hhci1hJywgZ3JvdXBJZDogJ2ctdGVzdCcsIHJvbGU6ICdhc3Npc3RhbnQnLCB0eXBlOiAndGV4dCcsIGNvbnRlbnQ6ICfmiJHopoHmr5vogponIH0gYXMgYW55KTsKICAgICAgICBhd2FpdCBEQi5zYXZlTWVzc2FnZSh7IGNoYXJJZDogJ2NoYXItYicsIGdyb3VwSWQ6ICdnLXRlc3QnLCByb2xlOiAnYXNzaXN0YW50JywgdHlwZTogJ3RleHQnLCBjb250ZW50OiAn5Yqg5a6957KJJyB9IGFzIGFueSk7CiAgICAgICAgYXdhaXQgREIuc2F2ZU1lc3NhZ2UoeyBjaGFySWQ6ICdjaGFyLWdob3N0JywgZ3JvdXBJZDogJ2ctdGVzdCcsIHJvbGU6ICdhc3Npc3RhbnQnLCB0eXBlOiAndGV4dCcsIGNvbnRlbnQ6ICflub3ngbXlj5HoqIAnIH0gYXMgYW55KTsKCiAgICAgICAgY29uc3QgcGFydHMgPSBhd2FpdCBDaGF0UHJvbXB0cy5idWlsZFN5c3RlbVByb21wdFBhcnRzKAogICAgICAgICAgICBjaGFyQSwgdXNlclByb2ZpbGUsIGdyb3VwcywgW10sIFtdLCBbXSwKICAgICAgICApOwogICAgICAgIGNvbnN0IGluamVjdGVkID0gcGFydHMudm9sYXRpbGVTdGF0ZTsKCiAgICAgICAgZXhwZWN0KGluamVjdGVkKS50b0NvbnRhaW4oJ+S9oOS6suWOhueahOi/keacn+e+pOiBiicpOwogICAgICAgIGV4cGVjdChpbmplY3RlZCkudG9Db250YWluKCfmnaHmnaE6IOS7iuaZmuWQg+eBq+mUheWQlycpOwogICAgICAgIGV4cGVjdChpbmplY3RlZCkudG9Db250YWluKCfkvaDvvIjpmL/kuIDvvIk6IOaIkeimgeavm+iCmicpOwogICAgICAgIGV4cGVjdChpbmplY3RlZCkudG9Db250YWluKCfpmL/kuow6IOWKoOWuveeyiScpOwogICAgICAgIGV4cGVjdChpbmplY3RlZCkudG9Db250YWluKCfnvqTlj4s6IOW5veeBteWPkeiogCcpOwogICAgICAgIGV4cGVjdChpbmplY3RlZCkubm90LnRvQ29udGFpbignTWVtYmVyJyk7CiAgICB9KTsKfSk7Cg==
+import { describe, it, expect } from 'vitest';
+import { ChatPrompts } from './chatPrompts';
+import { DB } from './db';
+import { setCharNameRegistry, getCharNameById } from './charNameRegistry';
+
+// 群聊背景注入的发言人标注：之前所有角色发言（包括收到注入的角色自己）都被匿名成
+// "Member"，私聊被问起群里的事时角色分不清谁说了什么、认不出自己的发言。
+// 修复后：user 显示用户名，注入对象自己的发言标「你（名字）」，其他成员经
+// charNameRegistry 解析出真实名字，查不到的兜底「群友」。
+
+const charA = { id: 'char-a', name: '阿一' } as any;
+const userProfile = { name: '条条' } as any;
+const groups = [{ id: 'g-test', name: '深夜茶话会', members: ['char-a', 'char-b'] }] as any;
+
+describe('群聊背景注入 · 发言人真实标注', () => {
+    it('charNameRegistry 基本行为', () => {
+        setCharNameRegistry([{ id: 'x', name: '小明' }]);
+        expect(getCharNameById('x')).toBe('小明');
+        expect(getCharNameById('missing')).toBeNull();
+        expect(getCharNameById(null)).toBeNull();
+    });
+
+    it('注入块标注：用户名 / 你（自己） / 真实成员名 / 未知兜底群友', async () => {
+        setCharNameRegistry([
+            { id: 'char-a', name: '阿一' },
+            { id: 'char-b', name: '阿二' },
+        ]);
+        await DB.saveMessage({ charId: 'user', groupId: 'g-test', role: 'user', type: 'text', content: '今晚吃火锅吗' } as any);
+        await DB.saveMessage({ charId: 'char-a', groupId: 'g-test', role: 'assistant', type: 'text', content: '我要毛肚' } as any);
+        await DB.saveMessage({ charId: 'char-b', groupId: 'g-test', role: 'assistant', type: 'text', content: '加宽粉' } as any);
+        await DB.saveMessage({ charId: 'char-ghost', groupId: 'g-test', role: 'assistant', type: 'text', content: '幽灵发言' } as any);
+
+        const parts = await ChatPrompts.buildSystemPromptParts(
+            charA, userProfile, groups, [], [], [],
+        );
+        const injected = parts.volatileState;
+
+        expect(injected).toContain('你亲历的近期群聊');
+        expect(injected).toContain('条条: 今晚吃火锅吗');
+        expect(injected).toContain('你（阿一）: 我要毛肚');
+        expect(injected).toContain('阿二: 加宽粉');
+        expect(injected).toContain('群友: 幽灵发言');
+        expect(injected).not.toContain('Member');
+    });
+});

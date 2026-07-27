@@ -1,1 +1,260 @@
-LyoqCiAqIOaJi+i0puWGhSBtYXJrZG93bi1saXRlIOa4suafkwogKgogKiDmlK/mjIE6CiAqICAgKirnspcqKiAq5pacKiA9PemrmOS6rj09IH5+5Yigfn4gYOS7o+eggWAgW2NvbG9yOnJlZF0o5paH5a2XKQogKiAgIOihjOmmliAjICMjICMjIyDihpIg5LiJ57qn5qCH6aKYCiAqICAg6KGM6aaWIC0gLyDCtyAvIOKXpiDihpIg5YiX6KGoCiAqICAg6KGM6aaWID4g4oaSIOW8leeUqAogKiAgIDo6OiBjYWxsb3V0IC4uLiA6OjogIOKGkiDmlbTmrrUgY2FsbG91dCAo5riy5p+T55Sx54i257qn5Yaz5a6aKQogKgogKiDkuI3mlK/mjIHlrozmlbQgbWFya2Rvd24o6ZO+5o6lL+WbvueJhy/ooajmoLwp44CCTExNIOWPr+aOpyzmoLfmnKzph4/lsJEs5q2j5YiZ5bCx5aSf44CCCiAqLwoKaW1wb3J0IFJlYWN0IGZyb20gJ3JlYWN0JzsKCmV4cG9ydCBpbnRlcmZhY2UgUmljaFRleHRPcHRzIHsKICAgIC8qKiDpu5jorqTmraPmlofpopzoibIgKi8KICAgIGNvbG9yPzogc3RyaW5nOwogICAgLyoqIOmrmOS6rumFjeiJsizlj6/mjaIgKi8KICAgIGFjY2VudD86IHN0cmluZzsKICAgIC8qKiDliKDpmaQvY29kZSDnrYnmrKHopoHoibIgKi8KICAgIG11dGVkPzogc3RyaW5nOwogICAgLyoqIOeyl+S9k+minOiJsijpu5jorqQgPSBjb2xvcikgKi8KICAgIGJvbGRDb2xvcj86IHN0cmluZzsKICAgIC8qKiDooYzpppbpq5jkuq4gKCMp5qCH6aKY6aKc6ImyICovCiAgICBoZWFkQ29sb3I/OiBzdHJpbmc7Cn0KCmNvbnN0IEhFQURJTkdfUkUgPSAvXigjezEsM30pXHMrKC4rKSQvOwpjb25zdCBRVU9URV9SRSA9IC9ePlxzKyguKykkLzsKY29uc3QgTElTVF9SRSA9IC9eWy3Ct+KXpl1ccysoLispJC87CgovKiog5oqK5LiA6KGM5YaF6IGUIG1hcmtkb3duIOaLhuaIkCBSZWFjdCDoioLngrkgKi8KZnVuY3Rpb24gcmVuZGVySW5saW5lKGxpbmU6IHN0cmluZywgb3B0czogUmljaFRleHRPcHRzLCBrZXk6IHN0cmluZyk6IFJlYWN0LlJlYWN0Tm9kZVtdIHsKICAgIGNvbnN0IGFjY2VudCA9IG9wdHMuYWNjZW50IHx8ICcjZjI5ZGIwJzsKICAgIGNvbnN0IG11dGVkID0gb3B0cy5tdXRlZCB8fCAncmdiYSgxMjIsOTAsMTE0LDAuNTUpJzsKICAgIGNvbnN0IGJvbGQgPSBvcHRzLmJvbGRDb2xvciB8fCBvcHRzLmNvbG9yIHx8ICcjM2QyZjNkJzsKCiAgICAvLyDkvJjlhYjljLnphY3nmoTpobrluo86IGNvZGUgPiBjb2xvciA+IGhpZ2hsaWdodCA+IHN0cmlrZSA+IGJvbGQgPiBpdGFsaWMKICAgIC8vIOeUqOS4gOS4queugOWNleeahCB0b2tlbiDljJbmlrnmoYg66YCQ5qyh5om+5pyA5pep5Ye6546w55qE5qCH6K6wCiAgICBjb25zdCB0b2tlbnM6IHsga2luZDogJ3RleHQnIHwgJ2InIHwgJ2knIHwgJ2gnIHwgJ3MnIHwgJ2MnIHwgJ2NvbCc7IHRleHQ6IHN0cmluZzsgY29sPzogc3RyaW5nIH1bXSA9IFtdOwogICAgbGV0IHJlc3QgPSBsaW5lOwogICAgbGV0IHNhZmV0eSA9IDA7CiAgICB3aGlsZSAocmVzdC5sZW5ndGggPiAwICYmIHNhZmV0eSsrIDwgMjAwKSB7CiAgICAgICAgLy8g5p+l5om+5ZCE56eNIG1hcmtlciDnmoTmnIDml6nkvY3nva4KICAgICAgICBjb25zdCBjYW5kaWRhdGVzOiB7IGtpbmQ6IHR5cGVvZiB0b2tlbnNbbnVtYmVyXVsna2luZCddOyBpZHg6IG51bWJlcjsgbGVuOiBudW1iZXI7IGlubmVyOiBzdHJpbmc7IGNvbD86IHN0cmluZyB9W10gPSBbXTsKCiAgICAgICAgY29uc3QgY29kZSA9IHJlc3QubWF0Y2goL2AoW15gXSspYC8pOwogICAgICAgIGlmIChjb2RlICYmIGNvZGUuaW5kZXggIT09IHVuZGVmaW5lZCkgY2FuZGlkYXRlcy5wdXNoKHsga2luZDogJ2MnLCBpZHg6IGNvZGUuaW5kZXgsIGxlbjogY29kZVswXS5sZW5ndGgsIGlubmVyOiBjb2RlWzFdIH0pOwoKICAgICAgICAvLyBbY29sb3I6cmVkXSguLi4pIOKAlCDoh6rlrprkuYnlvanoibLnrJQKICAgICAgICBjb25zdCBjb2xNYXRjaCA9IHJlc3QubWF0Y2goL1xbY29sb3I6KFthLXpBLVojMC05XSspXF1cKChbXildKylcKS8pOwogICAgICAgIGlmIChjb2xNYXRjaCAmJiBjb2xNYXRjaC5pbmRleCAhPT0gdW5kZWZpbmVkKSB7CiAgICAgICAgICAgIGNhbmRpZGF0ZXMucHVzaCh7IGtpbmQ6ICdjb2wnLCBpZHg6IGNvbE1hdGNoLmluZGV4LCBsZW46IGNvbE1hdGNoWzBdLmxlbmd0aCwgaW5uZXI6IGNvbE1hdGNoWzJdLCBjb2w6IGNvbG9yQWxpYXMoY29sTWF0Y2hbMV0pIH0pOwogICAgICAgIH0KCiAgICAgICAgY29uc3QgaGkgPSByZXN0Lm1hdGNoKC89PShbXj1dKyk9PS8pOwogICAgICAgIGlmIChoaSAmJiBoaS5pbmRleCAhPT0gdW5kZWZpbmVkKSBjYW5kaWRhdGVzLnB1c2goeyBraW5kOiAnaCcsIGlkeDogaGkuaW5kZXgsIGxlbjogaGlbMF0ubGVuZ3RoLCBpbm5lcjogaGlbMV0gfSk7CgogICAgICAgIGNvbnN0IHN0ID0gcmVzdC5tYXRjaCgvfn4oW15+XSspfn4vKTsKICAgICAgICBpZiAoc3QgJiYgc3QuaW5kZXggIT09IHVuZGVmaW5lZCkgY2FuZGlkYXRlcy5wdXNoKHsga2luZDogJ3MnLCBpZHg6IHN0LmluZGV4LCBsZW46IHN0WzBdLmxlbmd0aCwgaW5uZXI6IHN0WzFdIH0pOwoKICAgICAgICBjb25zdCBiID0gcmVzdC5tYXRjaCgvXCpcKihbXipdKylcKlwqLyk7CiAgICAgICAgaWYgKGIgJiYgYi5pbmRleCAhPT0gdW5kZWZpbmVkKSBjYW5kaWRhdGVzLnB1c2goeyBraW5kOiAnYicsIGlkeDogYi5pbmRleCwgbGVuOiBiWzBdLmxlbmd0aCwgaW5uZXI6IGJbMV0gfSk7CgogICAgICAgIC8vIOWNleaYn+aWnOS9kywg6KaB5o6S6ZmkICoq57KX5L2TKiog55qE5Y2V5pif44CC5LiN55So5ZCO6KGM5pat6KiAICg/PCFcKik6IGlPUyBTYWZhcmkgPDE2LjQg55qEIEpTQyDkuI3mlK/mjIEsCiAgICAgICAgLy8g5pen6K6+5aSHIG5ldyBSZWdFeHAg5Lya5oqbICJpbnZhbGlkIGdyb3VwIHNwZWNpZmllciBuYW1lIi4g5pS55oiQ5oqK5bem5L6n6Z2e5pif5a2X56ymICjmiJbooYzpppYpIOaNleiOt+i/mwogICAgICAgIC8vIGl0WzFdLCDlkb3kuK3lkI7nlKggaXRbMV0ubGVuZ3RoIOS/ruatoyBpZHgvbGVuLCDooYzkuLrnrYnku7cgKOingSB1dGlscy9sb29rYmVoaW5kRnJlZS50ZXN0LnRzKeOAggogICAgICAgIGNvbnN0IGl0ID0gcmVzdC5tYXRjaCgvKF58W14qXSlcKihbXipdKylcKig/IVwqKS8pOwogICAgICAgIGlmIChpdCAmJiBpdC5pbmRleCAhPT0gdW5kZWZpbmVkKSB7CiAgICAgICAgICAgIGNvbnN0IG9mZnNldCA9IGl0WzFdLmxlbmd0aDsgIC8vIOihjOmmluWMuemFjeS4uiAwLCDmma7pgJrlrZfnrKbkuLogMQogICAgICAgICAgICBjYW5kaWRhdGVzLnB1c2goeyBraW5kOiAnaScsIGlkeDogaXQuaW5kZXggKyBvZmZzZXQsIGxlbjogaXRbMF0ubGVuZ3RoIC0gb2Zmc2V0LCBpbm5lcjogaXRbMl0gfSk7CiAgICAgICAgfQoKICAgICAgICBpZiAoY2FuZGlkYXRlcy5sZW5ndGggPT09IDApIHsKICAgICAgICAgICAgdG9rZW5zLnB1c2goeyBraW5kOiAndGV4dCcsIHRleHQ6IHJlc3QgfSk7CiAgICAgICAgICAgIGJyZWFrOwogICAgICAgIH0KICAgICAgICBjYW5kaWRhdGVzLnNvcnQoKGEsIGIpID0+IGEuaWR4IC0gYi5pZHgpOwogICAgICAgIGNvbnN0IGZpcnN0ID0gY2FuZGlkYXRlc1swXTsKICAgICAgICBpZiAoZmlyc3QuaWR4ID4gMCkgdG9rZW5zLnB1c2goeyBraW5kOiAndGV4dCcsIHRleHQ6IHJlc3Quc2xpY2UoMCwgZmlyc3QuaWR4KSB9KTsKICAgICAgICB0b2tlbnMucHVzaCh7IGtpbmQ6IGZpcnN0LmtpbmQsIHRleHQ6IGZpcnN0LmlubmVyLCBjb2w6IGZpcnN0LmNvbCB9KTsKICAgICAgICByZXN0ID0gcmVzdC5zbGljZShmaXJzdC5pZHggKyBmaXJzdC5sZW4pOwogICAgfQoKICAgIHJldHVybiB0b2tlbnMubWFwKCh0LCBpKSA9PiB7CiAgICAgICAgY29uc3QgayA9IGAke2tleX0tJHtpfWA7CiAgICAgICAgaWYgKHQua2luZCA9PT0gJ3RleHQnKSByZXR1cm4gPFJlYWN0LkZyYWdtZW50IGtleT17a30+e3QudGV4dH08L1JlYWN0LkZyYWdtZW50PjsKICAgICAgICBpZiAodC5raW5kID09PSAnYicpIHJldHVybiA8c3Ryb25nIGtleT17a30gc3R5bGU9e3sgY29sb3I6IGJvbGQsIGZvbnRXZWlnaHQ6IDcwMCB9fT57dC50ZXh0fTwvc3Ryb25nPjsKICAgICAgICBpZiAodC5raW5kID09PSAnaScpIHJldHVybiA8ZW0ga2V5PXtrfSBzdHlsZT17eyBmb250U3R5bGU6ICdpdGFsaWMnIH19Pnt0LnRleHR9PC9lbT47CiAgICAgICAgaWYgKHQua2luZCA9PT0gJ3MnKSByZXR1cm4gPHNwYW4ga2V5PXtrfSBzdHlsZT17eyB0ZXh0RGVjb3JhdGlvbjogJ2xpbmUtdGhyb3VnaCcsIGNvbG9yOiBtdXRlZCB9fT57dC50ZXh0fTwvc3Bhbj47CiAgICAgICAgaWYgKHQua2luZCA9PT0gJ2MnKSByZXR1cm4gKAogICAgICAgICAgICA8Y29kZQogICAgICAgICAgICAgICAga2V5PXtrfQogICAgICAgICAgICAgICAgc3R5bGU9e3sKICAgICAgICAgICAgICAgICAgICBmb250RmFtaWx5OiAnIkNvdXJpZXIgUHJpbWUiLCAiQ291cmllciBOZXciLCBtb25vc3BhY2UnLAogICAgICAgICAgICAgICAgICAgIGZvbnRTaXplOiAnMC45MmVtJywKICAgICAgICAgICAgICAgICAgICBiYWNrZ3JvdW5kOiAncmdiYSgxMjIsOTAsMTE0LDAuMDgpJywKICAgICAgICAgICAgICAgICAgICBwYWRkaW5nOiAnMCA0cHgnLAogICAgICAgICAgICAgICAgICAgIGJvcmRlclJhZGl1czogMywKICAgICAgICAgICAgICAgICAgICBjb2xvcjogbXV0ZWQsCiAgICAgICAgICAgICAgICB9fQogICAgICAgICAgICA+CiAgICAgICAgICAgICAgICB7dC50ZXh0fQogICAgICAgICAgICA8L2NvZGU+CiAgICAgICAgKTsKICAgICAgICBpZiAodC5raW5kID09PSAnaCcpIHJldHVybiAoCiAgICAgICAgICAgIDxzcGFuCiAgICAgICAgICAgICAgICBrZXk9e2t9CiAgICAgICAgICAgICAgICBzdHlsZT17ewogICAgICAgICAgICAgICAgICAgIGJhY2tncm91bmQ6IGBsaW5lYXItZ3JhZGllbnQodHJhbnNwYXJlbnQgNTUlLCAke2FjY2VudH1hYSA1NSUsICR7YWNjZW50fWFhIDkwJSwgdHJhbnNwYXJlbnQgOTAlKWAsCiAgICAgICAgICAgICAgICAgICAgcGFkZGluZzogJzAgMnB4JywKICAgICAgICAgICAgICAgIH19CiAgICAgICAgICAgID4KICAgICAgICAgICAgICAgIHt0LnRleHR9CiAgICAgICAgICAgIDwvc3Bhbj4KICAgICAgICApOwogICAgICAgIGlmICh0LmtpbmQgPT09ICdjb2wnKSByZXR1cm4gKAogICAgICAgICAgICA8c3BhbiBrZXk9e2t9IHN0eWxlPXt7IGNvbG9yOiB0LmNvbCwgZm9udFdlaWdodDogNjAwIH19Pnt0LnRleHR9PC9zcGFuPgogICAgICAgICk7CiAgICAgICAgcmV0dXJuIG51bGw7CiAgICB9KTsKfQoKZnVuY3Rpb24gY29sb3JBbGlhcyhyYXc6IHN0cmluZyk6IHN0cmluZyB7CiAgICBjb25zdCBrID0gcmF3LnRvTG93ZXJDYXNlKCk7CiAgICBjb25zdCBtYXA6IFJlY29yZDxzdHJpbmcsIHN0cmluZz4gPSB7CiAgICAgICAgcmVkOiAnI2M5NGE0YScsIHBpbms6ICcjZTg5YjkxJywgcm9zZTogJyNmMjlkYjAnLAogICAgICAgIGJsdWU6ICcjNWE3YThlJywgc2t5OiAnIzdlYTdiZScsIGN5YW46ICcjN2ViOGJlJywKICAgICAgICBncmVlbjogJyM4OGM1YTgnLCBtaW50OiAnIzg4YzVhOCcsIHNhZ2U6ICcjYTNiODhjJywKICAgICAgICB5ZWxsb3c6ICcjZDZiODVhJywgbGVtb246ICcjZDZiODVhJywgZ29sZDogJyNjOWExNGEnLAogICAgICAgIHB1cnBsZTogJyNhOThlYzQnLCBsYXZlbmRlcjogJyNhOThlYzQnLCB2aW9sZXQ6ICcjOTA3MGI4JywKICAgICAgICBvcmFuZ2U6ICcjZTg5YjZhJywKICAgICAgICBncmF5OiAncmdiYSgxMjIsOTAsMTE0LDAuNiknLCBncmV5OiAncmdiYSgxMjIsOTAsMTE0LDAuNiknLAogICAgfTsKICAgIHJldHVybiBtYXBba10gfHwgcmF3OyAgLy8g5Lmf5YWB6K64ICNycmdnYmIg55u05o6l5LygCn0KCmNvbnN0IEpvdXJuYWxSaWNoVGV4dDogUmVhY3QuRkM8ewogICAgdGV4dDogc3RyaW5nOwogICAgb3B0cz86IFJpY2hUZXh0T3B0czsKICAgIGZvbnRTaXplPzogbnVtYmVyOwogICAgbGluZUhlaWdodD86IHN0cmluZzsKICAgIGZvbnRGYW1pbHk/OiBzdHJpbmc7CiAgICBpdGFsaWM/OiBib29sZWFuOwp9PiA9ICh7IHRleHQsIG9wdHMgPSB7fSwgZm9udFNpemUgPSAxMy41LCBsaW5lSGVpZ2h0ID0gJzIzcHgnLCBmb250RmFtaWx5LCBpdGFsaWMgfSkgPT4gewogICAgY29uc3QgbGluZXMgPSAodGV4dCB8fCAnJykuc3BsaXQoJ1xuJyk7CiAgICBjb25zdCBoZWFkQ29sb3IgPSBvcHRzLmhlYWRDb2xvciB8fCBvcHRzLmNvbG9yIHx8ICcjM2QyZjNkJzsKICAgIGNvbnN0IGJsb2NrczogUmVhY3QuUmVhY3ROb2RlW10gPSBbXTsKCiAgICBsZXQgbGlzdEJ1ZmZlcjogUmVhY3QuUmVhY3ROb2RlW10gPSBbXTsKICAgIGNvbnN0IGZsdXNoTGlzdCA9IChrZXk6IHN0cmluZykgPT4gewogICAgICAgIGlmIChsaXN0QnVmZmVyLmxlbmd0aCA9PT0gMCkgcmV0dXJuOwogICAgICAgIGJsb2Nrcy5wdXNoKAogICAgICAgICAgICA8dWwKICAgICAgICAgICAgICAgIGtleT17YGwtJHtrZXl9YH0KICAgICAgICAgICAgICAgIHN0eWxlPXt7CiAgICAgICAgICAgICAgICAgICAgbWFyZ2luOiAnNHB4IDAnLAogICAgICAgICAgICAgICAgICAgIHBhZGRpbmdMZWZ0OiAxNiwKICAgICAgICAgICAgICAgICAgICBsaXN0U3R5bGU6ICdkaXNjJywKICAgICAgICAgICAgICAgICAgICBjb2xvcjogb3B0cy5jb2xvciwKICAgICAgICAgICAgICAgIH19CiAgICAgICAgICAgID4KICAgICAgICAgICAgICAgIHtsaXN0QnVmZmVyfQogICAgICAgICAgICA8L3VsPgogICAgICAgICk7CiAgICAgICAgbGlzdEJ1ZmZlciA9IFtdOwogICAgfTsKCiAgICBsaW5lcy5mb3JFYWNoKChyYXdMaW5lLCBpKSA9PiB7CiAgICAgICAgY29uc3QgbGluZSA9IHJhd0xpbmU7CiAgICAgICAgY29uc3QgdHJpbW1lZCA9IGxpbmUudHJpbSgpOwoKICAgICAgICBpZiAoIXRyaW1tZWQpIHsKICAgICAgICAgICAgZmx1c2hMaXN0KGAke2l9YCk7CiAgICAgICAgICAgIGJsb2Nrcy5wdXNoKDxkaXYga2V5PXtgc3AtJHtpfWB9IHN0eWxlPXt7IGhlaWdodDogNiB9fSAvPik7CiAgICAgICAgICAgIHJldHVybjsKICAgICAgICB9CgogICAgICAgIGNvbnN0IGhlYWRNYXRjaCA9IHRyaW1tZWQubWF0Y2goSEVBRElOR19SRSk7CiAgICAgICAgaWYgKGhlYWRNYXRjaCkgewogICAgICAgICAgICBmbHVzaExpc3QoYCR7aX1gKTsKICAgICAgICAgICAgY29uc3QgbGV2ZWwgPSBoZWFkTWF0Y2hbMV0ubGVuZ3RoOwogICAgICAgICAgICBjb25zdCBzaXplcyA9IFtmb250U2l6ZSArIDYsIGZvbnRTaXplICsgNCwgZm9udFNpemUgKyAyXTsKICAgICAgICAgICAgYmxvY2tzLnB1c2goCiAgICAgICAgICAgICAgICA8ZGl2CiAgICAgICAgICAgICAgICAgICAga2V5PXtgaC0ke2l9YH0KICAgICAgICAgICAgICAgICAgICBzdHlsZT17ewogICAgICAgICAgICAgICAgICAgICAgICBmb250RmFtaWx5OiAnIkRNIFNlcmlmIERpc3BsYXkiLCAiTm90byBTZXJpZiBTQyIsIHNlcmlmJywKICAgICAgICAgICAgICAgICAgICAgICAgZm9udFdlaWdodDogbGV2ZWwgPT09IDEgPyA3MDAgOiA0MDAsCiAgICAgICAgICAgICAgICAgICAgICAgIGZvbnRTaXplOiBzaXplc1tsZXZlbCAtIDFdLAogICAgICAgICAgICAgICAgICAgICAgICBsaW5lSGVpZ2h0OiAxLjE1LAogICAgICAgICAgICAgICAgICAgICAgICBjb2xvcjogaGVhZENvbG9yLAogICAgICAgICAgICAgICAgICAgICAgICBtYXJnaW46ICc0cHggMCA0cHgnLAogICAgICAgICAgICAgICAgICAgICAgICBsZXR0ZXJTcGFjaW5nOiAnLTAuMDFlbScsCiAgICAgICAgICAgICAgICAgICAgfX0KICAgICAgICAgICAgICAgID4KICAgICAgICAgICAgICAgICAgICB7cmVuZGVySW5saW5lKGhlYWRNYXRjaFsyXSwgb3B0cywgYGgke2l9YCl9CiAgICAgICAgICAgICAgICA8L2Rpdj4KICAgICAgICAgICAgKTsKICAgICAgICAgICAgcmV0dXJuOwogICAgICAgIH0KCiAgICAgICAgY29uc3QgcXVvdGVNYXRjaCA9IHRyaW1tZWQubWF0Y2goUVVPVEVfUkUpOwogICAgICAgIGlmIChxdW90ZU1hdGNoKSB7CiAgICAgICAgICAgIGZsdXNoTGlzdChgJHtpfWApOwogICAgICAgICAgICBibG9ja3MucHVzaCgKICAgICAgICAgICAgICAgIDxkaXYKICAgICAgICAgICAgICAgICAgICBrZXk9e2BxLSR7aX1gfQogICAgICAgICAgICAgICAgICAgIHN0eWxlPXt7CiAgICAgICAgICAgICAgICAgICAgICAgIGJvcmRlckxlZnQ6IGAzcHggc29saWQgJHtvcHRzLmFjY2VudCB8fCAnI2YyOWRiMCd9YCwKICAgICAgICAgICAgICAgICAgICAgICAgcGFkZGluZzogJzJweCAwIDJweCA4cHgnLAogICAgICAgICAgICAgICAgICAgICAgICBtYXJnaW46ICc0cHggMCcsCiAgICAgICAgICAgICAgICAgICAgICAgIGNvbG9yOiAncmdiYSgxMjIsOTAsMTE0LDAuNzUpJywKICAgICAgICAgICAgICAgICAgICAgICAgZm9udFN0eWxlOiAnaXRhbGljJywKICAgICAgICAgICAgICAgICAgICAgICAgZm9udFNpemUsCiAgICAgICAgICAgICAgICAgICAgICAgIGxpbmVIZWlnaHQsCiAgICAgICAgICAgICAgICAgICAgfX0KICAgICAgICAgICAgICAgID4KICAgICAgICAgICAgICAgICAgICB7cmVuZGVySW5saW5lKHF1b3RlTWF0Y2hbMV0sIG9wdHMsIGBxJHtpfWApfQogICAgICAgICAgICAgICAgPC9kaXY+CiAgICAgICAgICAgICk7CiAgICAgICAgICAgIHJldHVybjsKICAgICAgICB9CgogICAgICAgIGNvbnN0IGxpc3RNYXRjaCA9IHRyaW1tZWQubWF0Y2goTElTVF9SRSk7CiAgICAgICAgaWYgKGxpc3RNYXRjaCkgewogICAgICAgICAgICBsaXN0QnVmZmVyLnB1c2goCiAgICAgICAgICAgICAgICA8bGkga2V5PXtgbGktJHtpfWB9IHN0eWxlPXt7IGZvbnRTaXplLCBsaW5lSGVpZ2h0IH19PgogICAgICAgICAgICAgICAgICAgIHtyZW5kZXJJbmxpbmUobGlzdE1hdGNoWzFdLCBvcHRzLCBgbGkke2l9YCl9CiAgICAgICAgICAgICAgICA8L2xpPgogICAgICAgICAgICApOwogICAgICAgICAgICByZXR1cm47CiAgICAgICAgfQoKICAgICAgICBmbHVzaExpc3QoYCR7aX1gKTsKICAgICAgICBibG9ja3MucHVzaCgKICAgICAgICAgICAgPHAKICAgICAgICAgICAgICAgIGtleT17YHAtJHtpfWB9CiAgICAgICAgICAgICAgICBzdHlsZT17ewogICAgICAgICAgICAgICAgICAgIG1hcmdpbjogMCwKICAgICAgICAgICAgICAgICAgICBmb250U2l6ZSwKICAgICAgICAgICAgICAgICAgICBsaW5lSGVpZ2h0LAogICAgICAgICAgICAgICAgICAgIGNvbG9yOiBvcHRzLmNvbG9yLAogICAgICAgICAgICAgICAgICAgIGZvbnRGYW1pbHksCiAgICAgICAgICAgICAgICAgICAgZm9udFN0eWxlOiBpdGFsaWMgPyAnaXRhbGljJyA6IHVuZGVmaW5lZCwKICAgICAgICAgICAgICAgICAgICB3aGl0ZVNwYWNlOiAncHJlLXdyYXAnLAogICAgICAgICAgICAgICAgICAgIHdvcmRCcmVhazogJ2JyZWFrLXdvcmQnLAogICAgICAgICAgICAgICAgfX0KICAgICAgICAgICAgPgogICAgICAgICAgICAgICAge3JlbmRlcklubGluZShsaW5lLCBvcHRzLCBgcCR7aX1gKX0KICAgICAgICAgICAgPC9wPgogICAgICAgICk7CiAgICB9KTsKICAgIGZsdXNoTGlzdCgnZW5kJyk7CgogICAgcmV0dXJuIDw+e2Jsb2Nrc308Lz47Cn07CgpleHBvcnQgZGVmYXVsdCBKb3VybmFsUmljaFRleHQ7Cg==
+/**
+ * 手账内 markdown-lite 渲染
+ *
+ * 支持:
+ *   **粗** *斜* ==高亮== ~~删~~ `代码` [color:red](文字)
+ *   行首 # ## ### → 三级标题
+ *   行首 - / · / ◦ → 列表
+ *   行首 > → 引用
+ *   ::: callout ... :::  → 整段 callout (渲染由父级决定)
+ *
+ * 不支持完整 markdown(链接/图片/表格)。LLM 可控,样本量少,正则就够。
+ */
+
+import React from 'react';
+
+export interface RichTextOpts {
+    /** 默认正文颜色 */
+    color?: string;
+    /** 高亮配色,可换 */
+    accent?: string;
+    /** 删除/code 等次要色 */
+    muted?: string;
+    /** 粗体颜色(默认 = color) */
+    boldColor?: string;
+    /** 行首高亮 (#)标题颜色 */
+    headColor?: string;
+}
+
+const HEADING_RE = /^(#{1,3})\s+(.+)$/;
+const QUOTE_RE = /^>\s+(.+)$/;
+const LIST_RE = /^[-·◦]\s+(.+)$/;
+
+/** 把一行内联 markdown 拆成 React 节点 */
+function renderInline(line: string, opts: RichTextOpts, key: string): React.ReactNode[] {
+    const accent = opts.accent || '#f29db0';
+    const muted = opts.muted || 'rgba(122,90,114,0.55)';
+    const bold = opts.boldColor || opts.color || '#3d2f3d';
+
+    // 优先匹配的顺序: code > color > highlight > strike > bold > italic
+    // 用一个简单的 token 化方案:逐次找最早出现的标记
+    const tokens: { kind: 'text' | 'b' | 'i' | 'h' | 's' | 'c' | 'col'; text: string; col?: string }[] = [];
+    let rest = line;
+    let safety = 0;
+    while (rest.length > 0 && safety++ < 200) {
+        // 查找各种 marker 的最早位置
+        const candidates: { kind: typeof tokens[number]['kind']; idx: number; len: number; inner: string; col?: string }[] = [];
+
+        const code = rest.match(/`([^`]+)`/);
+        if (code && code.index !== undefined) candidates.push({ kind: 'c', idx: code.index, len: code[0].length, inner: code[1] });
+
+        // [color:red](...) — 自定义彩色笔
+        const colMatch = rest.match(/\[color:([a-zA-Z#0-9]+)\]\(([^)]+)\)/);
+        if (colMatch && colMatch.index !== undefined) {
+            candidates.push({ kind: 'col', idx: colMatch.index, len: colMatch[0].length, inner: colMatch[2], col: colorAlias(colMatch[1]) });
+        }
+
+        const hi = rest.match(/==([^=]+)==/);
+        if (hi && hi.index !== undefined) candidates.push({ kind: 'h', idx: hi.index, len: hi[0].length, inner: hi[1] });
+
+        const st = rest.match(/~~([^~]+)~~/);
+        if (st && st.index !== undefined) candidates.push({ kind: 's', idx: st.index, len: st[0].length, inner: st[1] });
+
+        const b = rest.match(/\*\*([^*]+)\*\*/);
+        if (b && b.index !== undefined) candidates.push({ kind: 'b', idx: b.index, len: b[0].length, inner: b[1] });
+
+        // 单星斜体, 要排除 **粗体** 的单星。不用后行断言 (?<!\*): iOS Safari <16.4 的 JSC 不支持,
+        // 旧设备 new RegExp 会抛 "invalid group specifier name". 改成把左侧非星字符 (或行首) 捕获进
+        // it[1], 命中后用 it[1].length 修正 idx/len, 行为等价 (见 utils/lookbehindFree.test.ts)。
+        const it = rest.match(/(^|[^*])\*([^*]+)\*(?!\*)/);
+        if (it && it.index !== undefined) {
+            const offset = it[1].length;  // 行首匹配为 0, 普通字符为 1
+            candidates.push({ kind: 'i', idx: it.index + offset, len: it[0].length - offset, inner: it[2] });
+        }
+
+        if (candidates.length === 0) {
+            tokens.push({ kind: 'text', text: rest });
+            break;
+        }
+        candidates.sort((a, b) => a.idx - b.idx);
+        const first = candidates[0];
+        if (first.idx > 0) tokens.push({ kind: 'text', text: rest.slice(0, first.idx) });
+        tokens.push({ kind: first.kind, text: first.inner, col: first.col });
+        rest = rest.slice(first.idx + first.len);
+    }
+
+    return tokens.map((t, i) => {
+        const k = `${key}-${i}`;
+        if (t.kind === 'text') return <React.Fragment key={k}>{t.text}</React.Fragment>;
+        if (t.kind === 'b') return <strong key={k} style={{ color: bold, fontWeight: 700 }}>{t.text}</strong>;
+        if (t.kind === 'i') return <em key={k} style={{ fontStyle: 'italic' }}>{t.text}</em>;
+        if (t.kind === 's') return <span key={k} style={{ textDecoration: 'line-through', color: muted }}>{t.text}</span>;
+        if (t.kind === 'c') return (
+            <code
+                key={k}
+                style={{
+                    fontFamily: '"Courier Prime", "Courier New", monospace',
+                    fontSize: '0.92em',
+                    background: 'rgba(122,90,114,0.08)',
+                    padding: '0 4px',
+                    borderRadius: 3,
+                    color: muted,
+                }}
+            >
+                {t.text}
+            </code>
+        );
+        if (t.kind === 'h') return (
+            <span
+                key={k}
+                style={{
+                    background: `linear-gradient(transparent 55%, ${accent}aa 55%, ${accent}aa 90%, transparent 90%)`,
+                    padding: '0 2px',
+                }}
+            >
+                {t.text}
+            </span>
+        );
+        if (t.kind === 'col') return (
+            <span key={k} style={{ color: t.col, fontWeight: 600 }}>{t.text}</span>
+        );
+        return null;
+    });
+}
+
+function colorAlias(raw: string): string {
+    const k = raw.toLowerCase();
+    const map: Record<string, string> = {
+        red: '#c94a4a', pink: '#e89b91', rose: '#f29db0',
+        blue: '#5a7a8e', sky: '#7ea7be', cyan: '#7eb8be',
+        green: '#88c5a8', mint: '#88c5a8', sage: '#a3b88c',
+        yellow: '#d6b85a', lemon: '#d6b85a', gold: '#c9a14a',
+        purple: '#a98ec4', lavender: '#a98ec4', violet: '#9070b8',
+        orange: '#e89b6a',
+        gray: 'rgba(122,90,114,0.6)', grey: 'rgba(122,90,114,0.6)',
+    };
+    return map[k] || raw;  // 也允许 #rrggbb 直接传
+}
+
+const JournalRichText: React.FC<{
+    text: string;
+    opts?: RichTextOpts;
+    fontSize?: number;
+    lineHeight?: string;
+    fontFamily?: string;
+    italic?: boolean;
+}> = ({ text, opts = {}, fontSize = 13.5, lineHeight = '23px', fontFamily, italic }) => {
+    const lines = (text || '').split('\n');
+    const headColor = opts.headColor || opts.color || '#3d2f3d';
+    const blocks: React.ReactNode[] = [];
+
+    let listBuffer: React.ReactNode[] = [];
+    const flushList = (key: string) => {
+        if (listBuffer.length === 0) return;
+        blocks.push(
+            <ul
+                key={`l-${key}`}
+                style={{
+                    margin: '4px 0',
+                    paddingLeft: 16,
+                    listStyle: 'disc',
+                    color: opts.color,
+                }}
+            >
+                {listBuffer}
+            </ul>
+        );
+        listBuffer = [];
+    };
+
+    lines.forEach((rawLine, i) => {
+        const line = rawLine;
+        const trimmed = line.trim();
+
+        if (!trimmed) {
+            flushList(`${i}`);
+            blocks.push(<div key={`sp-${i}`} style={{ height: 6 }} />);
+            return;
+        }
+
+        const headMatch = trimmed.match(HEADING_RE);
+        if (headMatch) {
+            flushList(`${i}`);
+            const level = headMatch[1].length;
+            const sizes = [fontSize + 6, fontSize + 4, fontSize + 2];
+            blocks.push(
+                <div
+                    key={`h-${i}`}
+                    style={{
+                        fontFamily: '"DM Serif Display", "Noto Serif SC", serif',
+                        fontWeight: level === 1 ? 700 : 400,
+                        fontSize: sizes[level - 1],
+                        lineHeight: 1.15,
+                        color: headColor,
+                        margin: '4px 0 4px',
+                        letterSpacing: '-0.01em',
+                    }}
+                >
+                    {renderInline(headMatch[2], opts, `h${i}`)}
+                </div>
+            );
+            return;
+        }
+
+        const quoteMatch = trimmed.match(QUOTE_RE);
+        if (quoteMatch) {
+            flushList(`${i}`);
+            blocks.push(
+                <div
+                    key={`q-${i}`}
+                    style={{
+                        borderLeft: `3px solid ${opts.accent || '#f29db0'}`,
+                        padding: '2px 0 2px 8px',
+                        margin: '4px 0',
+                        color: 'rgba(122,90,114,0.75)',
+                        fontStyle: 'italic',
+                        fontSize,
+                        lineHeight,
+                    }}
+                >
+                    {renderInline(quoteMatch[1], opts, `q${i}`)}
+                </div>
+            );
+            return;
+        }
+
+        const listMatch = trimmed.match(LIST_RE);
+        if (listMatch) {
+            listBuffer.push(
+                <li key={`li-${i}`} style={{ fontSize, lineHeight }}>
+                    {renderInline(listMatch[1], opts, `li${i}`)}
+                </li>
+            );
+            return;
+        }
+
+        flushList(`${i}`);
+        blocks.push(
+            <p
+                key={`p-${i}`}
+                style={{
+                    margin: 0,
+                    fontSize,
+                    lineHeight,
+                    color: opts.color,
+                    fontFamily,
+                    fontStyle: italic ? 'italic' : undefined,
+                    whiteSpace: 'pre-wrap',
+                    wordBreak: 'break-word',
+                }}
+            >
+                {renderInline(line, opts, `p${i}`)}
+            </p>
+        );
+    });
+    flushList('end');
+
+    return <>{blocks}</>;
+};
+
+export default JournalRichText;

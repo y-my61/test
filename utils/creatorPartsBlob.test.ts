@@ -1,1 +1,58 @@
-aW1wb3J0IHsgZGVzY3JpYmUsIGl0LCBleHBlY3QgfSBmcm9tICd2aXRlc3QnOwppbXBvcnQgeyBEQiB9IGZyb20gJy4vZGInOwppbXBvcnQgeyBpc0Jsb2JSZWYgfSBmcm9tICcuL2Jsb2JSZWYnOwppbXBvcnQgeyBjcmVhdG9yUGFydFRvQmxvYlJlZnMsIGxvYWRDcmVhdG9yUGFydHNGb3JSZW5kZXIgfSBmcm9tICcuL2NyZWF0b3JQYXJ0c0Jsb2InOwppbXBvcnQgdHlwZSB7IEN1c3RvbUNyZWF0b3JQYXJ0IH0gZnJvbSAnLi4vdHlwZXMnOwoKLy8g5o2P5Lq65Zmo6Ieq5a6a5LmJ6YOo5Lu2IGJhc2U2NCDih4QgQmxvYiDmoaXvvJrokL3lupPovazku6TniYzjgIHor7vlh7rovazlm54gYmFzZTY044CB5a2Y6YeP5oOw5oCn6L+B56e744CCCgpjb25zdCBUSU5ZX1BORyA9ICdkYXRhOmltYWdlL3BuZztiYXNlNjQsaVZCT1J3MEtHZ29BQUFBTlNVaEVVZ0FBQUFFQUFBQUJDQVFBQUFDMUhBd0NBQUFBQzBsRVFWUjQybVA4ejhCUUR3QUVoUUdBaEttTUlRQUFBQUJKUlU1RXJrSmdnZz09JzsKCmRlc2NyaWJlKCdjcmVhdG9yUGFydFRvQmxvYlJlZnPvvIjokL3lupPovazku6TniYzvvIknLCAoKSA9PiB7CiAgICBpdCgnYmFzZTY0IOeahCBzcmMgLyBzaGFkb3dTcmMg6L2s5oiQIGJsb2JyZWYg5Luk54mM77yM5YW25a6D5a2X5q615LiN5YqoJywgYXN5bmMgKCkgPT4gewogICAgICAgIGNvbnN0IHBhcnQ6IEN1c3RvbUNyZWF0b3JQYXJ0ID0gewogICAgICAgICAgICBpZDogJ2Zyb250aGFpcl9jY190ZXN0MScsIGNhdGVnb3J5S2V5OiAnZnJvbnRoYWlyJywgbmFtZTogJ+a1i+ivleWJjeWPkScsCiAgICAgICAgICAgIHNyYzogVElOWV9QTkcsIHNoYWRvd1NyYzogVElOWV9QTkcsIHRpbnRhYmxlOiB0cnVlLCBjcmVhdGVkQXQ6IDEyMywKICAgICAgICB9OwogICAgICAgIGNvbnN0IHN0b3JlZCA9IGF3YWl0IGNyZWF0b3JQYXJ0VG9CbG9iUmVmcyhwYXJ0KTsKICAgICAgICBleHBlY3QoaXNCbG9iUmVmKHN0b3JlZC5zcmMpKS50b0JlKHRydWUpOwogICAgICAgIGV4cGVjdChpc0Jsb2JSZWYoc3RvcmVkLnNoYWRvd1NyYyEpKS50b0JlKHRydWUpOwogICAgICAgIGV4cGVjdChzdG9yZWQuaWQpLnRvQmUoJ2Zyb250aGFpcl9jY190ZXN0MScpOwogICAgICAgIGV4cGVjdChzdG9yZWQudGludGFibGUpLnRvQmUodHJ1ZSk7CiAgICAgICAgZXhwZWN0KHN0b3JlZC5jYXRlZ29yeUtleSkudG9CZSgnZnJvbnRoYWlyJyk7CiAgICB9KTsKCiAgICBpdCgnaHR0cCAvIOW3suaYr+S7pOeJjOeahOWAvOWOn+agt+S/neeVmScsIGFzeW5jICgpID0+IHsKICAgICAgICBjb25zdCBwYXJ0OiBDdXN0b21DcmVhdG9yUGFydCA9IHsKICAgICAgICAgICAgaWQ6ICd4JywgY2F0ZWdvcnlLZXk6ICdza2luJywgbmFtZTogJ3MnLCBzcmM6ICdodHRwczovL2EuY29tL2IucG5nJywgY3JlYXRlZEF0OiAwLAogICAgICAgIH07CiAgICAgICAgY29uc3Qgc3RvcmVkID0gYXdhaXQgY3JlYXRvclBhcnRUb0Jsb2JSZWZzKHBhcnQpOwogICAgICAgIGV4cGVjdChzdG9yZWQuc3JjKS50b0JlKCdodHRwczovL2EuY29tL2IucG5nJyk7CiAgICB9KTsKfSk7CgpkZXNjcmliZSgnbG9hZENyZWF0b3JQYXJ0c0ZvclJlbmRlcu+8iOivu+WHuui9rOWbniBiYXNlNjQgKyDlrZjph4/ov4Hnp7vvvIknLCAoKSA9PiB7CiAgICBpdCgn5bqT6YeM5a2Y5Luk54mMIOKGkiDor7vlh7rop6PmnpDmiJAgYmFzZTY077yb5a2Y6YePIGRhdGE6IOaDsOaAp+i/geenu+aIkOS7pOeJjCcsIGFzeW5jICgpID0+IHsKICAgICAgICAvLyDlhYjloZ7kuIDkuKrjgIzku6TniYzlvaLmgIHjgI3nmoTpg6jku7YKICAgICAgICBjb25zdCBzdG9yZWQgPSBhd2FpdCBjcmVhdG9yUGFydFRvQmxvYlJlZnMoewogICAgICAgICAgICBpZDogJ2V5ZXNfY2NfYScsIGNhdGVnb3J5S2V5OiAnZXllcycsIG5hbWU6ICfnnLwnLCBzcmM6IFRJTllfUE5HLCBjcmVhdGVkQXQ6IDEsCiAgICAgICAgfSk7CiAgICAgICAgYXdhaXQgREIuc2F2ZUN1c3RvbUNyZWF0b3JQYXJ0KHN0b3JlZCk7CiAgICAgICAgLy8g5YaN5aGe5LiA5Liq44CM5a2Y6YePIGJhc2U2NCDlvaLmgIHjgI3nmoTml6fpg6jku7YKICAgICAgICBhd2FpdCBEQi5zYXZlQ3VzdG9tQ3JlYXRvclBhcnQoewogICAgICAgICAgICBpZDogJ21vdXRoX2NjX2InLCBjYXRlZ29yeUtleTogJ21vdXRoJywgbmFtZTogJ+WYtCcsIHNyYzogVElOWV9QTkcsIGNyZWF0ZWRBdDogMiwKICAgICAgICB9KTsKCiAgICAgICAgY29uc3QgcmVuZGVyZWQgPSBhd2FpdCBsb2FkQ3JlYXRvclBhcnRzRm9yUmVuZGVyKCk7CiAgICAgICAgY29uc3QgYSA9IHJlbmRlcmVkLmZpbmQocCA9PiBwLmlkID09PSAnZXllc19jY19hJykhOwogICAgICAgIGNvbnN0IGIgPSByZW5kZXJlZC5maW5kKHAgPT4gcC5pZCA9PT0gJ21vdXRoX2NjX2InKSE7CiAgICAgICAgLy8g6K+75Ye655qE6YO95piv5Y+v55u05o6lIDxpbWc+IOeahCBiYXNlNjQKICAgICAgICBleHBlY3QoYS5zcmMpLnRvQmUoVElOWV9QTkcpOwogICAgICAgIGV4cGVjdChiLnNyYykudG9CZShUSU5ZX1BORyk7CgogICAgICAgIC8vIOWtmOmHj+aXp+mDqOS7tuW6lOW3suWcqOW6k+mHjOiiq+i/geaIkOS7pOeJjAogICAgICAgIGNvbnN0IHJhdyA9IGF3YWl0IERCLmdldEN1c3RvbUNyZWF0b3JQYXJ0cygpOwogICAgICAgIGNvbnN0IHJhd0IgPSByYXcuZmluZChwID0+IHAuaWQgPT09ICdtb3V0aF9jY19iJykhOwogICAgICAgIGV4cGVjdChpc0Jsb2JSZWYocmF3Qi5zcmMpKS50b0JlKHRydWUpOwogICAgfSk7Cn0pOwo=
+import { describe, it, expect } from 'vitest';
+import { DB } from './db';
+import { isBlobRef } from './blobRef';
+import { creatorPartToBlobRefs, loadCreatorPartsForRender } from './creatorPartsBlob';
+import type { CustomCreatorPart } from '../types';
+
+// 捏人器自定义部件 base64 ⇄ Blob 桥：落库转令牌、读出转回 base64、存量惰性迁移。
+
+const TINY_PNG = 'data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAQAAAC1HAwCAAAAC0lEQVR42mP8z8BQDwAEhQGAhKmMIQAAAABJRU5ErkJggg==';
+
+describe('creatorPartToBlobRefs（落库转令牌）', () => {
+    it('base64 的 src / shadowSrc 转成 blobref 令牌，其它字段不动', async () => {
+        const part: CustomCreatorPart = {
+            id: 'fronthair_cc_test1', categoryKey: 'fronthair', name: '测试前发',
+            src: TINY_PNG, shadowSrc: TINY_PNG, tintable: true, createdAt: 123,
+        };
+        const stored = await creatorPartToBlobRefs(part);
+        expect(isBlobRef(stored.src)).toBe(true);
+        expect(isBlobRef(stored.shadowSrc!)).toBe(true);
+        expect(stored.id).toBe('fronthair_cc_test1');
+        expect(stored.tintable).toBe(true);
+        expect(stored.categoryKey).toBe('fronthair');
+    });
+
+    it('http / 已是令牌的值原样保留', async () => {
+        const part: CustomCreatorPart = {
+            id: 'x', categoryKey: 'skin', name: 's', src: 'https://a.com/b.png', createdAt: 0,
+        };
+        const stored = await creatorPartToBlobRefs(part);
+        expect(stored.src).toBe('https://a.com/b.png');
+    });
+});
+
+describe('loadCreatorPartsForRender（读出转回 base64 + 存量迁移）', () => {
+    it('库里存令牌 → 读出解析成 base64；存量 data: 惰性迁移成令牌', async () => {
+        // 先塞一个「令牌形态」的部件
+        const stored = await creatorPartToBlobRefs({
+            id: 'eyes_cc_a', categoryKey: 'eyes', name: '眼', src: TINY_PNG, createdAt: 1,
+        });
+        await DB.saveCustomCreatorPart(stored);
+        // 再塞一个「存量 base64 形态」的旧部件
+        await DB.saveCustomCreatorPart({
+            id: 'mouth_cc_b', categoryKey: 'mouth', name: '嘴', src: TINY_PNG, createdAt: 2,
+        });
+
+        const rendered = await loadCreatorPartsForRender();
+        const a = rendered.find(p => p.id === 'eyes_cc_a')!;
+        const b = rendered.find(p => p.id === 'mouth_cc_b')!;
+        // 读出的都是可直接 <img> 的 base64
+        expect(a.src).toBe(TINY_PNG);
+        expect(b.src).toBe(TINY_PNG);
+
+        // 存量旧部件应已在库里被迁成令牌
+        const raw = await DB.getCustomCreatorParts();
+        const rawB = raw.find(p => p.id === 'mouth_cc_b')!;
+        expect(isBlobRef(rawB.src)).toBe(true);
+    });
+});

@@ -1,1 +1,41 @@
-aW1wb3J0IHsgZGVzY3JpYmUsIGV4cGVjdCwgaXQgfSBmcm9tICd2aXRlc3QnOwppbXBvcnQgeyBleHRyYWN0QXNzaXN0YW50VHJhbnNmZXJzIH0gZnJvbSAnLi9jaGF0UGFyc2VyJzsKCmRlc2NyaWJlKCdleHRyYWN0QXNzaXN0YW50VHJhbnNmZXJzJywgKCkgPT4gewogICAgaXQoJ2tlZXBzIHN1cHBvcnRpbmcgdGhlIGNhbm9uaWNhbCBhY3Rpb24gZm9ybWF0JywgKCkgPT4gewogICAgICAgIGV4cGVjdChleHRyYWN0QXNzaXN0YW50VHJhbnNmZXJzKCfnu5nkvaDjgIJcbltbQUNUSU9OOlRSQU5TRkVSOjUyMF1dJykpLnRvRXF1YWwoewogICAgICAgICAgICBjb250ZW50OiAn57uZ5L2g44CCJywKICAgICAgICAgICAgYW1vdW50czogWyc1MjAnXSwKICAgICAgICB9KTsKICAgIH0pOwoKICAgIGl0KCd0b2xlcmF0ZXMgZnVsbC13aWR0aCBwdW5jdHVhdGlvbiwgY3VycmVuY3kgc3ltYm9scyBhbmQgZGVjaW1hbHMnLCAoKSA9PiB7CiAgICAgICAgZXhwZWN0KGV4dHJhY3RBc3Npc3RhbnRUcmFuc2ZlcnMoJ1tbIEFDVElPTu+8mlRSQU5TRkVS77ya77+lMSw5OTkuNTAg5YWDIF1dJykpLnRvRXF1YWwoewogICAgICAgICAgICBjb250ZW50OiAnJywKICAgICAgICAgICAgYW1vdW50czogWycxOTk5LjUwJ10sCiAgICAgICAgfSk7CiAgICB9KTsKCiAgICBpdCgncmVjb3ZlcnMgYSB0cmFuc2ZlciB3aGVuIHRoZSBtb2RlbCBpbWl0YXRlcyBhIHN5c3RlbSBsb2cnLCAoKSA9PiB7CiAgICAgICAgZXhwZWN0KGV4dHJhY3RBc3Npc3RhbnRUcmFuc2ZlcnMoJ+aLv+edgOOAglxuW+ezu+e7nzog5L2g5ZCR5bCP6bG86L2s6LSmIDE5OTldJykpLnRvRXF1YWwoewogICAgICAgICAgICBjb250ZW50OiAn5ou/552A44CCJywKICAgICAgICAgICAgYW1vdW50czogWycxOTk5J10sCiAgICAgICAgfSk7CiAgICAgICAgZXhwZWN0KGV4dHJhY3RBc3Npc3RhbnRUcmFuc2ZlcnMoJ+OAkOezu+e7n++8muaIkeWQkeS9oOi9rOi0pu+/pTUyMOWFg+OAkScpKS50b0VxdWFsKHsKICAgICAgICAgICAgY29udGVudDogJycsCiAgICAgICAgICAgIGFtb3VudHM6IFsnNTIwJ10sCiAgICAgICAgfSk7CiAgICB9KTsKCiAgICBpdCgnZG9lcyBub3QgdHVybiBhbiBpbmNvbWluZyB1c2VyIHRyYW5zZmVyIGxvZyBpbnRvIGFuIG91dGdvaW5nIHRyYW5zZmVyJywgKCkgPT4gewogICAgICAgIGNvbnN0IGluY29taW5nID0gJ1vns7vnu586IOeUqOaIt+WQkeS9oOi9rOi0piAxOTk5XSc7CiAgICAgICAgZXhwZWN0KGV4dHJhY3RBc3Npc3RhbnRUcmFuc2ZlcnMoaW5jb21pbmcpKS50b0VxdWFsKHsgY29udGVudDogaW5jb21pbmcsIGFtb3VudHM6IFtdIH0pOwogICAgfSk7CgogICAgaXQoJ2V4dHJhY3RzIG11bHRpcGxlIHRyYW5zZmVycyBhbmQgaWdub3JlcyB6ZXJvLXZhbHVlIGFjdGlvbnMnLCAoKSA9PiB7CiAgICAgICAgZXhwZWN0KGV4dHJhY3RBc3Npc3RhbnRUcmFuc2ZlcnMoJ1tbQUNUSU9OOlRSQU5TRkVSOjUyMF1dXG5bW0FDVElPTjpUUkFOU0ZFUjowXV1cbltbQUNUSU9OOlRSQU5TRkVSOjEzMTRdXScpKS50b0VxdWFsKHsKICAgICAgICAgICAgY29udGVudDogJycsCiAgICAgICAgICAgIGFtb3VudHM6IFsnNTIwJywgJzEzMTQnXSwKICAgICAgICB9KTsKICAgIH0pOwp9KTsK
+import { describe, expect, it } from 'vitest';
+import { extractAssistantTransfers } from './chatParser';
+
+describe('extractAssistantTransfers', () => {
+    it('keeps supporting the canonical action format', () => {
+        expect(extractAssistantTransfers('给你。\n[[ACTION:TRANSFER:520]]')).toEqual({
+            content: '给你。',
+            amounts: ['520'],
+        });
+    });
+
+    it('tolerates full-width punctuation, currency symbols and decimals', () => {
+        expect(extractAssistantTransfers('[[ ACTION：TRANSFER：￥1,999.50 元 ]]')).toEqual({
+            content: '',
+            amounts: ['1999.50'],
+        });
+    });
+
+    it('recovers a transfer when the model imitates a system log', () => {
+        expect(extractAssistantTransfers('拿着。\n[系统: 你向小鱼转账 1999]')).toEqual({
+            content: '拿着。',
+            amounts: ['1999'],
+        });
+        expect(extractAssistantTransfers('【系统：我向你转账￥520元】')).toEqual({
+            content: '',
+            amounts: ['520'],
+        });
+    });
+
+    it('does not turn an incoming user transfer log into an outgoing transfer', () => {
+        const incoming = '[系统: 用户向你转账 1999]';
+        expect(extractAssistantTransfers(incoming)).toEqual({ content: incoming, amounts: [] });
+    });
+
+    it('extracts multiple transfers and ignores zero-value actions', () => {
+        expect(extractAssistantTransfers('[[ACTION:TRANSFER:520]]\n[[ACTION:TRANSFER:0]]\n[[ACTION:TRANSFER:1314]]')).toEqual({
+            content: '',
+            amounts: ['520', '1314'],
+        });
+    });
+});

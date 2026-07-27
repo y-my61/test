@@ -1,1 +1,192 @@
-LyoqCiAqIOW9qeiJsueslOaJueazqCAvIOWLvueUuwogKgogKiDnlKggU1ZHIOWcqOWNoeeJh+ihqOmdouWPoOS4gOWxgiLmiYvnu5gi5qCH6K6wIOKAlCDkuIvliJLms6Lmtarnur/jgIHlnIjjgIHnrq3lpLTjgIHmmJ/jgIF0aWNr44CCCiAqIOminOiJsuaYr+mprOWFi+eslOmjjijnlaXljYrpgI/mmI4p44CC5L2N572u55SxIHNlZWQg5Yaz5a6aLOWQjOS4gCBzZWVkIOawuOi/nOmVv+S4gOagt+OAggogKgogKiDnlKjms5U6IDxDYXJkQW5ub3RhdGlvbnMgc2VlZD0iZnJhZy1pZCIgaW50ZW5zaXR5PSJsaWdodHxtZWRpdW0iIC8+CiAqLwoKaW1wb3J0IFJlYWN0IGZyb20gJ3JlYWN0JzsKaW1wb3J0IHsgc2VlZEZsb2F0LCBzZWVkUmFuZ2UsIHNlZWRDZW50ZXJlZCB9IGZyb20gJy4vcGFwZXInOwoKY29uc3QgUEVOX0NPTE9SUyA9IFsKICAgICcjZTg5YjkxJywgIC8vIOaoseeyiQogICAgJyNjOTRhNGEnLCAgLy8g57qiCiAgICAnIzVhN2E4ZScsICAvLyDok50KICAgICcjODhjNWE4JywgIC8vIOe7vwogICAgJyNkNmI4NWEnLCAgLy8g6buECiAgICAnI2E5OGVjNCcsICAvLyDntKsKXTsKCnR5cGUgTWFya0tpbmQgPSAndW5kZXJsaW5lJyB8ICdjaXJjbGUnIHwgJ2Fycm93JyB8ICdzdGFyJyB8ICd0aWNrJyB8ICd3YXZlJyB8ICdoaWdobGlnaHQnOwoKY29uc3QgQUxMX0tJTkRTOiBNYXJrS2luZFtdID0gWyd1bmRlcmxpbmUnLCAnY2lyY2xlJywgJ2Fycm93JywgJ3N0YXInLCAndGljaycsICd3YXZlJywgJ2hpZ2hsaWdodCddOwoKaW50ZXJmYWNlIFByb3BzIHsKICAgIHNlZWQ6IHN0cmluZzsKICAgIGludGVuc2l0eT86ICdub25lJyB8ICdsaWdodCcgfCAnbWVkaXVtJyB8ICdidXN5JzsKICAgIC8qKiDpmZDliLblj6/nlKjpopzoibIg4oCUIOm7mOiupOWFqOmDqCAqLwogICAgcGFsZXR0ZT86IHN0cmluZ1tdOwp9Cgpjb25zdCBDYXJkQW5ub3RhdGlvbnM6IFJlYWN0LkZDPFByb3BzPiA9ICh7IHNlZWQsIGludGVuc2l0eSA9ICdsaWdodCcsIHBhbGV0dGUgfSkgPT4gewogICAgaWYgKGludGVuc2l0eSA9PT0gJ25vbmUnKSByZXR1cm4gbnVsbDsKCiAgICBjb25zdCBjb2xvcnMgPSBwYWxldHRlICYmIHBhbGV0dGUubGVuZ3RoID4gMCA/IHBhbGV0dGUgOiBQRU5fQ09MT1JTOwoKICAgIGNvbnN0IGNvdW50ID0gaW50ZW5zaXR5ID09PSAnYnVzeScgPyAzIDogaW50ZW5zaXR5ID09PSAnbWVkaXVtJyA/IDIgOiAxOwogICAgY29uc3QgbWFya3M6IFJlYWN0LlJlYWN0Tm9kZVtdID0gW107CgogICAgZm9yIChsZXQgaSA9IDA7IGkgPCBjb3VudDsgaSsrKSB7CiAgICAgICAgY29uc3Qga2luZElkeCA9IE1hdGguZmxvb3Ioc2VlZEZsb2F0KHNlZWQsIGkgKiAxMSArIDEpICogQUxMX0tJTkRTLmxlbmd0aCk7CiAgICAgICAgY29uc3Qga2luZCA9IEFMTF9LSU5EU1traW5kSWR4XTsKICAgICAgICBjb25zdCBjb2xvciA9IGNvbG9yc1tNYXRoLmZsb29yKHNlZWRGbG9hdChzZWVkLCBpICogMTEgKyAyKSAqIGNvbG9ycy5sZW5ndGgpXTsKICAgICAgICBjb25zdCB0b3AgPSBzZWVkUmFuZ2Uoc2VlZCwgaSAqIDExICsgMywgOCwgODApOyAgICAvLyAlIOWuueWZqOmrmOW6pgogICAgICAgIGNvbnN0IGxlZnQgPSBzZWVkUmFuZ2Uoc2VlZCwgaSAqIDExICsgNCwgNCwgODApOwogICAgICAgIGNvbnN0IHdpZHRoUGN0ID0gc2VlZFJhbmdlKHNlZWQsIGkgKiAxMSArIDUsIDIyLCA1MCk7CiAgICAgICAgY29uc3Qgcm90YXRlID0gc2VlZENlbnRlcmVkKHNlZWQsIGkgKiAxMSArIDYsIDgpOwoKICAgICAgICBtYXJrcy5wdXNoKAogICAgICAgICAgICA8TWFyawogICAgICAgICAgICAgICAga2V5PXtpfQogICAgICAgICAgICAgICAga2luZD17a2luZH0KICAgICAgICAgICAgICAgIGNvbG9yPXtjb2xvcn0KICAgICAgICAgICAgICAgIHRvcFBjdD17dG9wfQogICAgICAgICAgICAgICAgbGVmdFBjdD17bGVmdH0KICAgICAgICAgICAgICAgIHdpZHRoUGN0PXt3aWR0aFBjdH0KICAgICAgICAgICAgICAgIHJvdGF0ZT17cm90YXRlfQogICAgICAgICAgICAgICAgc2VlZD17YCR7c2VlZH0tJHtpfWB9CiAgICAgICAgICAgIC8+CiAgICAgICAgKTsKICAgIH0KCiAgICByZXR1cm4gKAogICAgICAgIDxkaXYKICAgICAgICAgICAgY2xhc3NOYW1lPSJhYnNvbHV0ZSBpbnNldC0wIHBvaW50ZXItZXZlbnRzLW5vbmUiCiAgICAgICAgICAgIHN0eWxlPXt7IHpJbmRleDogNSB9fQogICAgICAgICAgICBhcmlhLWhpZGRlbgogICAgICAgID4KICAgICAgICAgICAge21hcmtzfQogICAgICAgIDwvZGl2PgogICAgKTsKfTsKCmNvbnN0IE1hcms6IFJlYWN0LkZDPHsKICAgIGtpbmQ6IE1hcmtLaW5kOwogICAgY29sb3I6IHN0cmluZzsKICAgIHRvcFBjdDogbnVtYmVyOyBsZWZ0UGN0OiBudW1iZXI7IHdpZHRoUGN0OiBudW1iZXI7CiAgICByb3RhdGU6IG51bWJlcjsKICAgIHNlZWQ6IHN0cmluZzsKfT4gPSAoeyBraW5kLCBjb2xvciwgdG9wUGN0LCBsZWZ0UGN0LCB3aWR0aFBjdCwgcm90YXRlLCBzZWVkIH0pID0+IHsKICAgIGNvbnN0IGJhc2VTdHlsZTogUmVhY3QuQ1NTUHJvcGVydGllcyA9IHsKICAgICAgICBwb3NpdGlvbjogJ2Fic29sdXRlJywKICAgICAgICB0b3A6IGAke3RvcFBjdH0lYCwKICAgICAgICBsZWZ0OiBgJHtsZWZ0UGN0fSVgLAogICAgICAgIHdpZHRoOiBgJHt3aWR0aFBjdH0lYCwKICAgICAgICB0cmFuc2Zvcm06IGByb3RhdGUoJHtyb3RhdGV9ZGVnKWAsCiAgICAgICAgdHJhbnNmb3JtT3JpZ2luOiAnbGVmdCBjZW50ZXInLAogICAgICAgIG9wYWNpdHk6IDAuNywKICAgIH07CgogICAgaWYgKGtpbmQgPT09ICd1bmRlcmxpbmUnKSB7CiAgICAgICAgcmV0dXJuICgKICAgICAgICAgICAgPHN2ZyB2aWV3Qm94PSIwIDAgMTAwIDYiIHByZXNlcnZlQXNwZWN0UmF0aW89Im5vbmUiIHN0eWxlPXt7IC4uLmJhc2VTdHlsZSwgaGVpZ2h0OiA2IH19PgogICAgICAgICAgICAgICAgPHBhdGgKICAgICAgICAgICAgICAgICAgICBkPXtgTSAxICR7MyArIHNlZWRGbG9hdChzZWVkLCAxKSAqIDEuNX0gUSAyNSAkezEgKyBzZWVkRmxvYXQoc2VlZCwgMikgKiA0fSA1MCAkezIgKyBzZWVkRmxvYXQoc2VlZCwgMykgKiAzfSBUIDk5ICR7MyArIHNlZWRGbG9hdChzZWVkLCA0KSAqIDJ9YH0KICAgICAgICAgICAgICAgICAgICBzdHJva2U9e2NvbG9yfQogICAgICAgICAgICAgICAgICAgIHN0cm9rZVdpZHRoPXsyfQogICAgICAgICAgICAgICAgICAgIGZpbGw9Im5vbmUiCiAgICAgICAgICAgICAgICAgICAgc3Ryb2tlTGluZWNhcD0icm91bmQiCiAgICAgICAgICAgICAgICAvPgogICAgICAgICAgICA8L3N2Zz4KICAgICAgICApOwogICAgfQoKICAgIGlmIChraW5kID09PSAnd2F2ZScpIHsKICAgICAgICByZXR1cm4gKAogICAgICAgICAgICA8c3ZnIHZpZXdCb3g9IjAgMCAxMDAgNiIgcHJlc2VydmVBc3BlY3RSYXRpbz0ibm9uZSIgc3R5bGU9e3sgLi4uYmFzZVN0eWxlLCBoZWlnaHQ6IDYgfX0+CiAgICAgICAgICAgICAgICA8cGF0aAogICAgICAgICAgICAgICAgICAgIGQ9Ik0gMSA0IFEgOCAxIDE2IDQgVCAzMiA0IFQgNDggNCBUIDY0IDQgVCA4MCA0IFQgOTkgNCIKICAgICAgICAgICAgICAgICAgICBzdHJva2U9e2NvbG9yfQogICAgICAgICAgICAgICAgICAgIHN0cm9rZVdpZHRoPXsxLjZ9CiAgICAgICAgICAgICAgICAgICAgZmlsbD0ibm9uZSIKICAgICAgICAgICAgICAgICAgICBzdHJva2VMaW5lY2FwPSJyb3VuZCIKICAgICAgICAgICAgICAgIC8+CiAgICAgICAgICAgIDwvc3ZnPgogICAgICAgICk7CiAgICB9CgogICAgaWYgKGtpbmQgPT09ICdoaWdobGlnaHQnKSB7CiAgICAgICAgcmV0dXJuICgKICAgICAgICAgICAgPGRpdgogICAgICAgICAgICAgICAgc3R5bGU9e3sKICAgICAgICAgICAgICAgICAgICAuLi5iYXNlU3R5bGUsCiAgICAgICAgICAgICAgICAgICAgaGVpZ2h0OiAxNiwKICAgICAgICAgICAgICAgICAgICBiYWNrZ3JvdW5kOiBgbGluZWFyLWdyYWRpZW50KHRyYW5zcGFyZW50IDMwJSwgJHtjb2xvcn00NCAzMCUsICR7Y29sb3J9NDQgODAlLCB0cmFuc3BhcmVudCA4MCUpYCwKICAgICAgICAgICAgICAgICAgICBib3JkZXJSYWRpdXM6IDIsCiAgICAgICAgICAgICAgICB9fQogICAgICAgICAgICAvPgogICAgICAgICk7CiAgICB9CgogICAgaWYgKGtpbmQgPT09ICdjaXJjbGUnKSB7CiAgICAgICAgcmV0dXJuICgKICAgICAgICAgICAgPHN2ZyB2aWV3Qm94PSIwIDAgMTAwIDYwIiBwcmVzZXJ2ZUFzcGVjdFJhdGlvPSJub25lIiBzdHlsZT17eyAuLi5iYXNlU3R5bGUsIGhlaWdodDogd2lkdGhQY3QgKiAwLjYgKyAnJScgfX0+CiAgICAgICAgICAgICAgICA8ZWxsaXBzZQogICAgICAgICAgICAgICAgICAgIGN4PSI1MCIgY3k9IjMwIiByeD0iNDYiIHJ5PSIyNCIKICAgICAgICAgICAgICAgICAgICBzdHJva2U9e2NvbG9yfSBzdHJva2VXaWR0aD0iMS44IgogICAgICAgICAgICAgICAgICAgIGZpbGw9Im5vbmUiCiAgICAgICAgICAgICAgICAgICAgc3Ryb2tlRGFzaGFycmF5PSIyLDEiCiAgICAgICAgICAgICAgICAgICAgdHJhbnNmb3JtPXtgcm90YXRlKCR7c2VlZENlbnRlcmVkKHNlZWQsIDcsIDQpfSA1MCAzMClgfQogICAgICAgICAgICAgICAgLz4KICAgICAgICAgICAgPC9zdmc+CiAgICAgICAgKTsKICAgIH0KCiAgICBpZiAoa2luZCA9PT0gJ2Fycm93JykgewogICAgICAgIGNvbnN0IGR5ID0gc2VlZENlbnRlcmVkKHNlZWQsIDgsIDgpOwogICAgICAgIHJldHVybiAoCiAgICAgICAgICAgIDxzdmcgdmlld0JveD0iMCAwIDEwMCAzMCIgcHJlc2VydmVBc3BlY3RSYXRpbz0ibm9uZSIgc3R5bGU9e3sgLi4uYmFzZVN0eWxlLCBoZWlnaHQ6IDIyIH19PgogICAgICAgICAgICAgICAgPHBhdGgKICAgICAgICAgICAgICAgICAgICBkPXtgTSA0ICR7MTUgKyBkeX0gUSAzNSAkezUgKyBkeX0gNzAgJHsxNSArIGR5fWB9CiAgICAgICAgICAgICAgICAgICAgc3Ryb2tlPXtjb2xvcn0gc3Ryb2tlV2lkdGg9ezEuNn0KICAgICAgICAgICAgICAgICAgICBmaWxsPSJub25lIiBzdHJva2VMaW5lY2FwPSJyb3VuZCIKICAgICAgICAgICAgICAgIC8+CiAgICAgICAgICAgICAgICA8cGF0aAogICAgICAgICAgICAgICAgICAgIGQ9e2BNIDcwICR7MTUgKyBkeX0gTCA4MCAkezEwICsgZHl9IE0gNzAgJHsxNSArIGR5fSBMIDgwICR7MjAgKyBkeX1gfQogICAgICAgICAgICAgICAgICAgIHN0cm9rZT17Y29sb3J9IHN0cm9rZVdpZHRoPXsxLjZ9CiAgICAgICAgICAgICAgICAgICAgZmlsbD0ibm9uZSIgc3Ryb2tlTGluZWNhcD0icm91bmQiCiAgICAgICAgICAgICAgICAvPgogICAgICAgICAgICA8L3N2Zz4KICAgICAgICApOwogICAgfQoKICAgIGlmIChraW5kID09PSAnc3RhcicpIHsKICAgICAgICByZXR1cm4gKAogICAgICAgICAgICA8c3ZnIHZpZXdCb3g9IjAgMCAyNCAyNCIgc3R5bGU9e3sgLi4uYmFzZVN0eWxlLCB3aWR0aDogMTYgKyBzZWVkRmxvYXQoc2VlZCwgOSkgKiA4LCBoZWlnaHQ6ICdhdXRvJyB9fT4KICAgICAgICAgICAgICAgIDxwYXRoCiAgICAgICAgICAgICAgICAgICAgZD0iTTEyIDIgTDE0IDkgTDIxIDkgTDE1LjUgMTMgTDE3LjUgMjAgTDEyIDE2IEw2LjUgMjAgTDguNSAxMyBMMyA5IEwxMCA5IFoiCiAgICAgICAgICAgICAgICAgICAgZmlsbD0ibm9uZSIgc3Ryb2tlPXtjb2xvcn0gc3Ryb2tlV2lkdGg9IjEuNCIKICAgICAgICAgICAgICAgICAgICBzdHJva2VMaW5lam9pbj0icm91bmQiCiAgICAgICAgICAgICAgICAvPgogICAgICAgICAgICA8L3N2Zz4KICAgICAgICApOwogICAgfQoKICAgIGlmIChraW5kID09PSAndGljaycpIHsKICAgICAgICByZXR1cm4gKAogICAgICAgICAgICA8c3ZnIHZpZXdCb3g9IjAgMCAzMCAyNCIgc3R5bGU9e3sgLi4uYmFzZVN0eWxlLCB3aWR0aDogMTggKyBzZWVkRmxvYXQoc2VlZCwgMTApICogNiwgaGVpZ2h0OiAnYXV0bycgfX0+CiAgICAgICAgICAgICAgICA8cGF0aAogICAgICAgICAgICAgICAgICAgIGQ9Ik0gNCAxMyBMIDEyIDIwIEwgMjYgNCIKICAgICAgICAgICAgICAgICAgICBzdHJva2U9e2NvbG9yfSBzdHJva2VXaWR0aD0iMi4yIgogICAgICAgICAgICAgICAgICAgIGZpbGw9Im5vbmUiIHN0cm9rZUxpbmVjYXA9InJvdW5kIiBzdHJva2VMaW5lam9pbj0icm91bmQiCiAgICAgICAgICAgICAgICAvPgogICAgICAgICAgICA8L3N2Zz4KICAgICAgICApOwogICAgfQoKICAgIHJldHVybiBudWxsOwp9OwoKZXhwb3J0IGRlZmF1bHQgQ2FyZEFubm90YXRpb25zOwo=
+/**
+ * 彩色笔批注 / 勾画
+ *
+ * 用 SVG 在卡片表面叠一层"手绘"标记 — 下划波浪线、圈、箭头、星、tick。
+ * 颜色是马克笔风(略半透明)。位置由 seed 决定,同一 seed 永远长一样。
+ *
+ * 用法: <CardAnnotations seed="frag-id" intensity="light|medium" />
+ */
+
+import React from 'react';
+import { seedFloat, seedRange, seedCentered } from './paper';
+
+const PEN_COLORS = [
+    '#e89b91',  // 樱粉
+    '#c94a4a',  // 红
+    '#5a7a8e',  // 蓝
+    '#88c5a8',  // 绿
+    '#d6b85a',  // 黄
+    '#a98ec4',  // 紫
+];
+
+type MarkKind = 'underline' | 'circle' | 'arrow' | 'star' | 'tick' | 'wave' | 'highlight';
+
+const ALL_KINDS: MarkKind[] = ['underline', 'circle', 'arrow', 'star', 'tick', 'wave', 'highlight'];
+
+interface Props {
+    seed: string;
+    intensity?: 'none' | 'light' | 'medium' | 'busy';
+    /** 限制可用颜色 — 默认全部 */
+    palette?: string[];
+}
+
+const CardAnnotations: React.FC<Props> = ({ seed, intensity = 'light', palette }) => {
+    if (intensity === 'none') return null;
+
+    const colors = palette && palette.length > 0 ? palette : PEN_COLORS;
+
+    const count = intensity === 'busy' ? 3 : intensity === 'medium' ? 2 : 1;
+    const marks: React.ReactNode[] = [];
+
+    for (let i = 0; i < count; i++) {
+        const kindIdx = Math.floor(seedFloat(seed, i * 11 + 1) * ALL_KINDS.length);
+        const kind = ALL_KINDS[kindIdx];
+        const color = colors[Math.floor(seedFloat(seed, i * 11 + 2) * colors.length)];
+        const top = seedRange(seed, i * 11 + 3, 8, 80);    // % 容器高度
+        const left = seedRange(seed, i * 11 + 4, 4, 80);
+        const widthPct = seedRange(seed, i * 11 + 5, 22, 50);
+        const rotate = seedCentered(seed, i * 11 + 6, 8);
+
+        marks.push(
+            <Mark
+                key={i}
+                kind={kind}
+                color={color}
+                topPct={top}
+                leftPct={left}
+                widthPct={widthPct}
+                rotate={rotate}
+                seed={`${seed}-${i}`}
+            />
+        );
+    }
+
+    return (
+        <div
+            className="absolute inset-0 pointer-events-none"
+            style={{ zIndex: 5 }}
+            aria-hidden
+        >
+            {marks}
+        </div>
+    );
+};
+
+const Mark: React.FC<{
+    kind: MarkKind;
+    color: string;
+    topPct: number; leftPct: number; widthPct: number;
+    rotate: number;
+    seed: string;
+}> = ({ kind, color, topPct, leftPct, widthPct, rotate, seed }) => {
+    const baseStyle: React.CSSProperties = {
+        position: 'absolute',
+        top: `${topPct}%`,
+        left: `${leftPct}%`,
+        width: `${widthPct}%`,
+        transform: `rotate(${rotate}deg)`,
+        transformOrigin: 'left center',
+        opacity: 0.7,
+    };
+
+    if (kind === 'underline') {
+        return (
+            <svg viewBox="0 0 100 6" preserveAspectRatio="none" style={{ ...baseStyle, height: 6 }}>
+                <path
+                    d={`M 1 ${3 + seedFloat(seed, 1) * 1.5} Q 25 ${1 + seedFloat(seed, 2) * 4} 50 ${2 + seedFloat(seed, 3) * 3} T 99 ${3 + seedFloat(seed, 4) * 2}`}
+                    stroke={color}
+                    strokeWidth={2}
+                    fill="none"
+                    strokeLinecap="round"
+                />
+            </svg>
+        );
+    }
+
+    if (kind === 'wave') {
+        return (
+            <svg viewBox="0 0 100 6" preserveAspectRatio="none" style={{ ...baseStyle, height: 6 }}>
+                <path
+                    d="M 1 4 Q 8 1 16 4 T 32 4 T 48 4 T 64 4 T 80 4 T 99 4"
+                    stroke={color}
+                    strokeWidth={1.6}
+                    fill="none"
+                    strokeLinecap="round"
+                />
+            </svg>
+        );
+    }
+
+    if (kind === 'highlight') {
+        return (
+            <div
+                style={{
+                    ...baseStyle,
+                    height: 16,
+                    background: `linear-gradient(transparent 30%, ${color}44 30%, ${color}44 80%, transparent 80%)`,
+                    borderRadius: 2,
+                }}
+            />
+        );
+    }
+
+    if (kind === 'circle') {
+        return (
+            <svg viewBox="0 0 100 60" preserveAspectRatio="none" style={{ ...baseStyle, height: widthPct * 0.6 + '%' }}>
+                <ellipse
+                    cx="50" cy="30" rx="46" ry="24"
+                    stroke={color} strokeWidth="1.8"
+                    fill="none"
+                    strokeDasharray="2,1"
+                    transform={`rotate(${seedCentered(seed, 7, 4)} 50 30)`}
+                />
+            </svg>
+        );
+    }
+
+    if (kind === 'arrow') {
+        const dy = seedCentered(seed, 8, 8);
+        return (
+            <svg viewBox="0 0 100 30" preserveAspectRatio="none" style={{ ...baseStyle, height: 22 }}>
+                <path
+                    d={`M 4 ${15 + dy} Q 35 ${5 + dy} 70 ${15 + dy}`}
+                    stroke={color} strokeWidth={1.6}
+                    fill="none" strokeLinecap="round"
+                />
+                <path
+                    d={`M 70 ${15 + dy} L 80 ${10 + dy} M 70 ${15 + dy} L 80 ${20 + dy}`}
+                    stroke={color} strokeWidth={1.6}
+                    fill="none" strokeLinecap="round"
+                />
+            </svg>
+        );
+    }
+
+    if (kind === 'star') {
+        return (
+            <svg viewBox="0 0 24 24" style={{ ...baseStyle, width: 16 + seedFloat(seed, 9) * 8, height: 'auto' }}>
+                <path
+                    d="M12 2 L14 9 L21 9 L15.5 13 L17.5 20 L12 16 L6.5 20 L8.5 13 L3 9 L10 9 Z"
+                    fill="none" stroke={color} strokeWidth="1.4"
+                    strokeLinejoin="round"
+                />
+            </svg>
+        );
+    }
+
+    if (kind === 'tick') {
+        return (
+            <svg viewBox="0 0 30 24" style={{ ...baseStyle, width: 18 + seedFloat(seed, 10) * 6, height: 'auto' }}>
+                <path
+                    d="M 4 13 L 12 20 L 26 4"
+                    stroke={color} strokeWidth="2.2"
+                    fill="none" strokeLinecap="round" strokeLinejoin="round"
+                />
+            </svg>
+        );
+    }
+
+    return null;
+};
+
+export default CardAnnotations;

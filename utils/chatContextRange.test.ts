@@ -1,1 +1,209 @@
-aW1wb3J0IHsgZGVzY3JpYmUsIGV4cGVjdCwgaXQgfSBmcm9tICd2aXRlc3QnOwppbXBvcnQgdHlwZSB7IENoYXJhY3RlclByb2ZpbGUsIE1lc3NhZ2UgfSBmcm9tICcuLi90eXBlcyc7CmltcG9ydCB7CiAgICBjb21wdXRlQ29udGV4dFJhbmdlU25hcHNob3QsCiAgICBtaWdyYXRlQ2hhcmFjdGVyQ29udGV4dFJhbmdlLAp9IGZyb20gJy4vY2hhdENvbnRleHRSYW5nZSc7Cgpjb25zdCBtYWtlTWVzc2FnZXMgPSAoZnJvbTogbnVtYmVyLCB0bzogbnVtYmVyKTogTWVzc2FnZVtdID0+CiAgICBBcnJheS5mcm9tKHsgbGVuZ3RoOiB0byAtIGZyb20gKyAxIH0sIChfLCBpbmRleCkgPT4gewogICAgICAgIGNvbnN0IGlkID0gZnJvbSArIGluZGV4OwogICAgICAgIHJldHVybiB7CiAgICAgICAgICAgIGlkLAogICAgICAgICAgICBjaGFySWQ6ICdjaGFyLWNvbnRleHQnLAogICAgICAgICAgICByb2xlOiBpZCAlIDIgPyAndXNlcicgOiAnYXNzaXN0YW50JywKICAgICAgICAgICAgdHlwZTogJ3RleHQnLAogICAgICAgICAgICBjb250ZW50OiBgbWVzc2FnZS0ke2lkfWAsCiAgICAgICAgICAgIHRpbWVzdGFtcDogaWQsCiAgICAgICAgfSBhcyBNZXNzYWdlOwogICAgfSk7Cgpjb25zdCBtYWtlQ2hhciA9IChwYXJ0aWFsOiBQYXJ0aWFsPENoYXJhY3RlclByb2ZpbGU+KTogQ2hhcmFjdGVyUHJvZmlsZSA9PiAoewogICAgaWQ6ICdjaGFyLWNvbnRleHQnLAogICAgbmFtZTogJ0NvbnRleHQnLAogICAgYXZhdGFyOiAnJywKICAgIGRlc2NyaXB0aW9uOiAnJywKICAgIHN5c3RlbVByb21wdDogJycsCiAgICBtZW1vcmllczogW10sCiAgICBjb250ZXh0UmFuZ2VQb2xpY3lWZXJzaW9uOiAxLAogICAgLi4ucGFydGlhbCwKfSk7CgpkZXNjcmliZSgnQUkg5Y6f5paH6IyD5Zu06L6555WMJywgKCkgPT4gewogICAgaXQoJ+iHqumAguW6lOacgOWkp+iMg+WbtOS7juawtOS9jee6v+S5i+WQjuW8gOWniycsICgpID0+IHsKICAgICAgICBjb25zdCBzbmFwc2hvdCA9IGNvbXB1dGVDb250ZXh0UmFuZ2VTbmFwc2hvdCgKICAgICAgICAgICAgbWFrZU1lc3NhZ2VzKDEsIDEwMDApLAogICAgICAgICAgICBtYWtlQ2hhcih7IGF1dG9BcmNoaXZlRW5hYmxlZDogdHJ1ZSwgY29udGV4dFJhbmdlTW9kZTogJ2FkYXB0aXZlJywgY29udGV4dExpbWl0OiA1MDAwIH0pLAogICAgICAgICAgICA4MDAsCiAgICAgICAgKTsKCiAgICAgICAgZXhwZWN0KHNuYXBzaG90Lm1heFJhbmdlU3RhcnRNZXNzYWdlSWQpLnRvQmUoODAxKTsKICAgICAgICBleHBlY3Qoc25hcHNob3QuZWZmZWN0aXZlU3RhcnRNZXNzYWdlSWQpLnRvQmUoODAxKTsKICAgICAgICBleHBlY3Qoc25hcHNob3QubWVzc2FnZXNbMF0uaWQpLnRvQmUoODAxKTsKICAgICAgICBleHBlY3Qoc25hcHNob3QubWVzc2FnZXMuYXQoLTEpPy5pZCkudG9CZSgxMDAwKTsKICAgIH0pOwoKICAgIGl0KCfojIPlm7TlhoXnlKjmiLfmlq3ngrnlj6rog73miorotbfngrnlkJHmm7TmlrDmtojmga/mjqjov5snLCAoKSA9PiB7CiAgICAgICAgY29uc3Qgc25hcHNob3QgPSBjb21wdXRlQ29udGV4dFJhbmdlU25hcHNob3QoCiAgICAgICAgICAgIG1ha2VNZXNzYWdlcygxLCAxMDAwKSwKICAgICAgICAgICAgbWFrZUNoYXIoewogICAgICAgICAgICAgICAgYXV0b0FyY2hpdmVFbmFibGVkOiB0cnVlLAogICAgICAgICAgICAgICAgY29udGV4dFJhbmdlTW9kZTogJ2FkYXB0aXZlJywKICAgICAgICAgICAgICAgIGNvbnRleHRVc2VyU3RhcnRNZXNzYWdlSWQ6IDkwMCwKICAgICAgICAgICAgfSksCiAgICAgICAgICAgIDgwMCwKICAgICAgICApOwoKICAgICAgICBleHBlY3Qoc25hcHNob3QubWF4UmFuZ2VTdGFydE1lc3NhZ2VJZCkudG9CZSg4MDEpOwogICAgICAgIGV4cGVjdChzbmFwc2hvdC51c2VyU3RhcnRNZXNzYWdlSWQpLnRvQmUoOTAwKTsKICAgICAgICBleHBlY3Qoc25hcHNob3QuZWZmZWN0aXZlU3RhcnRNZXNzYWdlSWQpLnRvQmUoOTAwKTsKICAgICAgICBleHBlY3Qoc25hcHNob3QubWVzc2FnZXNbMF0uaWQpLnRvQmUoOTAwKTsKICAgIH0pOwoKICAgIGl0KCfnlKjmiLfmlq3ngrnmgbDlpb3kvY3kuo7mnIDlpKfojIPlm7Totbfngrnml7bmnInmlYjkuJTmsqHmnInotornlYwnLCAoKSA9PiB7CiAgICAgICAgY29uc3Qgc25hcHNob3QgPSBjb21wdXRlQ29udGV4dFJhbmdlU25hcHNob3QoCiAgICAgICAgICAgIG1ha2VNZXNzYWdlcygxLCAxMDAwKSwKICAgICAgICAgICAgbWFrZUNoYXIoewogICAgICAgICAgICAgICAgYXV0b0FyY2hpdmVFbmFibGVkOiB0cnVlLAogICAgICAgICAgICAgICAgY29udGV4dFJhbmdlTW9kZTogJ21hbnVhbCcsCiAgICAgICAgICAgICAgICBjb250ZXh0TGltaXQ6IDUwMCwKICAgICAgICAgICAgICAgIGNvbnRleHRVc2VyU3RhcnRNZXNzYWdlSWQ6IDUwMSwKICAgICAgICAgICAgfSksCiAgICAgICAgICAgIDgwMCwKICAgICAgICApOwoKICAgICAgICBleHBlY3Qoc25hcHNob3QudXNlckJyZWFrcG9pbnRFeHBpcmVkKS50b0JlKGZhbHNlKTsKICAgICAgICBleHBlY3Qoc25hcHNob3QuZWZmZWN0aXZlU3RhcnRNZXNzYWdlSWQpLnRvQmUoNTAxKTsKICAgICAgICBleHBlY3Qoc25hcHNob3QubWVzc2FnZXMpLnRvSGF2ZUxlbmd0aCg1MDApOwogICAgfSk7CgogICAgaXQoJ+awtOS9jee6v+S5i+WJjeeahOeUqOaIt+aWreeCueS4jeiDveeqgeegtOiHqumAguW6lOacgOWkp+iMg+WbtCcsICgpID0+IHsKICAgICAgICBjb25zdCBzbmFwc2hvdCA9IGNvbXB1dGVDb250ZXh0UmFuZ2VTbmFwc2hvdCgKICAgICAgICAgICAgbWFrZU1lc3NhZ2VzKDEsIDEwMDApLAogICAgICAgICAgICBtYWtlQ2hhcih7CiAgICAgICAgICAgICAgICBhdXRvQXJjaGl2ZUVuYWJsZWQ6IHRydWUsCiAgICAgICAgICAgICAgICBjb250ZXh0UmFuZ2VNb2RlOiAnYWRhcHRpdmUnLAogICAgICAgICAgICAgICAgY29udGV4dFVzZXJTdGFydE1lc3NhZ2VJZDogNzAwLAogICAgICAgICAgICB9KSwKICAgICAgICAgICAgODAwLAogICAgICAgICk7CgogICAgICAgIGV4cGVjdChzbmFwc2hvdC51c2VyQnJlYWtwb2ludEV4cGlyZWQpLnRvQmUodHJ1ZSk7CiAgICAgICAgZXhwZWN0KHNuYXBzaG90LnVzZXJTdGFydE1lc3NhZ2VJZCkudG9CZVVuZGVmaW5lZCgpOwogICAgICAgIGV4cGVjdChzbmFwc2hvdC5lZmZlY3RpdmVTdGFydE1lc3NhZ2VJZCkudG9CZSg4MDEpOwogICAgICAgIGV4cGVjdChzbmFwc2hvdC5tZXNzYWdlc1swXS5pZCkudG9CZSg4MDEpOwogICAgfSk7CgogICAgaXQoJ+aJi+WKqOaLieadhuW/veeVpeawtOS9jee6v+W5tuaKiuacgOi/kSBOIOadoeS9nOS4uuacgOWkp+iMg+WbtCcsICgpID0+IHsKICAgICAgICBjb25zdCBzbmFwc2hvdCA9IGNvbXB1dGVDb250ZXh0UmFuZ2VTbmFwc2hvdCgKICAgICAgICAgICAgbWFrZU1lc3NhZ2VzKDEsIDEwMDApLAogICAgICAgICAgICBtYWtlQ2hhcih7CiAgICAgICAgICAgICAgICBhdXRvQXJjaGl2ZUVuYWJsZWQ6IHRydWUsCiAgICAgICAgICAgICAgICBjb250ZXh0UmFuZ2VNb2RlOiAnbWFudWFsJywKICAgICAgICAgICAgICAgIGNvbnRleHRMaW1pdDogNTAwLAogICAgICAgICAgICB9KSwKICAgICAgICAgICAgODAwLAogICAgICAgICk7CgogICAgICAgIGV4cGVjdChzbmFwc2hvdC5tYXhSYW5nZVN0YXJ0TWVzc2FnZUlkKS50b0JlKDUwMSk7CiAgICAgICAgZXhwZWN0KHNuYXBzaG90LmVmZmVjdGl2ZVN0YXJ0TWVzc2FnZUlkKS50b0JlKDUwMSk7CiAgICAgICAgZXhwZWN0KHNuYXBzaG90Lm1lc3NhZ2VzKS50b0hhdmVMZW5ndGgoNTAwKTsKICAgIH0pOwoKICAgIGl0KCfmi4nmnYbojIPlm7TlpJbnmoTml6fmlq3ngrnlpLHmlYjvvIznu53kuI3kvJrmianlpKfojIPlm7QnLCAoKSA9PiB7CiAgICAgICAgY29uc3Qgc25hcHNob3QgPSBjb21wdXRlQ29udGV4dFJhbmdlU25hcHNob3QoCiAgICAgICAgICAgIG1ha2VNZXNzYWdlcygxLCAxMDAwKSwKICAgICAgICAgICAgbWFrZUNoYXIoewogICAgICAgICAgICAgICAgYXV0b0FyY2hpdmVFbmFibGVkOiB0cnVlLAogICAgICAgICAgICAgICAgY29udGV4dFJhbmdlTW9kZTogJ21hbnVhbCcsCiAgICAgICAgICAgICAgICBjb250ZXh0TGltaXQ6IDUwMCwKICAgICAgICAgICAgICAgIGNvbnRleHRVc2VyU3RhcnRNZXNzYWdlSWQ6IDMwMCwKICAgICAgICAgICAgfSksCiAgICAgICAgICAgIDgwMCwKICAgICAgICApOwoKICAgICAgICBleHBlY3Qoc25hcHNob3QudXNlckJyZWFrcG9pbnRFeHBpcmVkKS50b0JlKHRydWUpOwogICAgICAgIGV4cGVjdChzbmFwc2hvdC5lZmZlY3RpdmVTdGFydE1lc3NhZ2VJZCkudG9CZSg1MDEpOwogICAgICAgIGV4cGVjdChzbmFwc2hvdC5tZXNzYWdlc1swXS5pZCkudG9CZSg1MDEpOwogICAgfSk7CgogICAgaXQoJ+aWsOa2iOaBr+aKiuaLieadhui1t+eCueaOqOi/h+WbuuWumuaWreeCueWQju+8jOWbuuWumuaWreeCueWkseaViOW5tui3n+maj+aLieadhicsICgpID0+IHsKICAgICAgICBjb25zdCBzbmFwc2hvdCA9IGNvbXB1dGVDb250ZXh0UmFuZ2VTbmFwc2hvdCgKICAgICAgICAgICAgbWFrZU1lc3NhZ2VzKDEsIDEyMDApLAogICAgICAgICAgICBtYWtlQ2hhcih7CiAgICAgICAgICAgICAgICBhdXRvQXJjaGl2ZUVuYWJsZWQ6IHRydWUsCiAgICAgICAgICAgICAgICBjb250ZXh0UmFuZ2VNb2RlOiAnbWFudWFsJywKICAgICAgICAgICAgICAgIGNvbnRleHRMaW1pdDogNTAwLAogICAgICAgICAgICAgICAgY29udGV4dFVzZXJTdGFydE1lc3NhZ2VJZDogNzAwLAogICAgICAgICAgICB9KSwKICAgICAgICAgICAgODAwLAogICAgICAgICk7CgogICAgICAgIGV4cGVjdChzbmFwc2hvdC5tYXhSYW5nZVN0YXJ0TWVzc2FnZUlkKS50b0JlKDcwMSk7CiAgICAgICAgZXhwZWN0KHNuYXBzaG90LnVzZXJCcmVha3BvaW50RXhwaXJlZCkudG9CZSh0cnVlKTsKICAgICAgICBleHBlY3Qoc25hcHNob3QuZWZmZWN0aXZlU3RhcnRNZXNzYWdlSWQpLnRvQmUoNzAxKTsKICAgIH0pOwoKICAgIGl0KCfkvZzkuLrmlq3ngrnnmoTmtojmga/ooqvliKDpmaTlkI7mlq3ngrnlpLHmlYjvvIzkuI3og73lgZzlnKjkuI3lrZjlnKjnmoQgSUQg5LiKJywgKCkgPT4gewogICAgICAgIGNvbnN0IG1lc3NhZ2VzID0gbWFrZU1lc3NhZ2VzKDEsIDEwMDApLmZpbHRlcihtZXNzYWdlID0+IG1lc3NhZ2UuaWQgIT09IDgwMCk7CiAgICAgICAgY29uc3Qgc25hcHNob3QgPSBjb21wdXRlQ29udGV4dFJhbmdlU25hcHNob3QoCiAgICAgICAgICAgIG1lc3NhZ2VzLAogICAgICAgICAgICBtYWtlQ2hhcih7CiAgICAgICAgICAgICAgICBhdXRvQXJjaGl2ZUVuYWJsZWQ6IHRydWUsCiAgICAgICAgICAgICAgICBjb250ZXh0UmFuZ2VNb2RlOiAnbWFudWFsJywKICAgICAgICAgICAgICAgIGNvbnRleHRMaW1pdDogNTAwLAogICAgICAgICAgICAgICAgY29udGV4dFVzZXJTdGFydE1lc3NhZ2VJZDogODAwLAogICAgICAgICAgICB9KSwKICAgICAgICAgICAgNzAwLAogICAgICAgICk7CgogICAgICAgIGV4cGVjdChzbmFwc2hvdC51c2VyQnJlYWtwb2ludEV4cGlyZWQpLnRvQmUodHJ1ZSk7CiAgICAgICAgZXhwZWN0KHNuYXBzaG90LnVzZXJTdGFydE1lc3NhZ2VJZCkudG9CZVVuZGVmaW5lZCgpOwogICAgICAgIGV4cGVjdChzbmFwc2hvdC5tZXNzYWdlc1swXS5pZCkudG9CZSg1MDApOwogICAgfSk7Cn0pOwoKZGVzY3JpYmUoJ+aXp+inkuiJsuS4iuS4i+aWh+i/geenuycsICgpID0+IHsKICAgIGl0KCflhajoh6rliqjnlKjmiLfljbPkvb/ljp/mnaXmi4nmu6EgNTAwMCDmnaHkuZ/lm57liLDoh6rpgILlupTpu5jorqQnLCAoKSA9PiB7CiAgICAgICAgY29uc3QgcmVzdWx0ID0gbWlncmF0ZUNoYXJhY3RlckNvbnRleHRSYW5nZShtYWtlQ2hhcih7CiAgICAgICAgICAgIGNvbnRleHRSYW5nZVBvbGljeVZlcnNpb246IHVuZGVmaW5lZCwKICAgICAgICAgICAgYXV0b0FyY2hpdmVFbmFibGVkOiB0cnVlLAogICAgICAgICAgICBjb250ZXh0TGltaXQ6IDUwMDAsCiAgICAgICAgICAgIGhpZGVCZWZvcmVNZXNzYWdlSWQ6IDYwMCwKICAgICAgICB9KSk7CgogICAgICAgIGV4cGVjdChyZXN1bHQubWlncmF0ZWQpLnRvQmUodHJ1ZSk7CiAgICAgICAgZXhwZWN0KHJlc3VsdC5yZXNldEF1dG9Db250ZXh0KS50b0JlKHRydWUpOwogICAgICAgIGV4cGVjdChyZXN1bHQuY2hhcmFjdGVyLmNvbnRleHRSYW5nZU1vZGUpLnRvQmUoJ2FkYXB0aXZlJyk7CiAgICAgICAgZXhwZWN0KHJlc3VsdC5jaGFyYWN0ZXIuY29udGV4dExpbWl0KS50b0JlKDUwMCk7CiAgICAgICAgZXhwZWN0KHJlc3VsdC5jaGFyYWN0ZXIuY29udGV4dFVzZXJTdGFydE1lc3NhZ2VJZCkudG9CZVVuZGVmaW5lZCgpOwogICAgfSk7CgogICAgaXQoJ+acquW8gOWFqOiHquWKqOeahOaXp+eUqOaIt+S/neeVmeaLieadhu+8jOW5tuaKiuaXp+eUqOaIt+aWreeCuei/geWFpeaWsOWtl+autScsICgpID0+IHsKICAgICAgICBjb25zdCByZXN1bHQgPSBtaWdyYXRlQ2hhcmFjdGVyQ29udGV4dFJhbmdlKG1ha2VDaGFyKHsKICAgICAgICAgICAgY29udGV4dFJhbmdlUG9saWN5VmVyc2lvbjogdW5kZWZpbmVkLAogICAgICAgICAgICBhdXRvQXJjaGl2ZUVuYWJsZWQ6IGZhbHNlLAogICAgICAgICAgICBjb250ZXh0TGltaXQ6IDMwMCwKICAgICAgICAgICAgaGlkZUJlZm9yZU1lc3NhZ2VJZDogMjUwLAogICAgICAgIH0pKTsKCiAgICAgICAgZXhwZWN0KHJlc3VsdC5jaGFyYWN0ZXIuY29udGV4dFJhbmdlTW9kZSkudG9CZSgnbWFudWFsJyk7CiAgICAgICAgZXhwZWN0KHJlc3VsdC5jaGFyYWN0ZXIuY29udGV4dExpbWl0KS50b0JlKDMwMCk7CiAgICAgICAgZXhwZWN0KHJlc3VsdC5jaGFyYWN0ZXIuY29udGV4dFVzZXJTdGFydE1lc3NhZ2VJZCkudG9CZSgyNTApOwogICAgfSk7CgogICAgaXQoJ+aWsOWtl+auteS8mumaj+inkuiJsuiuvue9riBKU09OIOWkh+S7veW+gOi/lOS/neeVmScsICgpID0+IHsKICAgICAgICBjb25zdCBvcmlnaW5hbCA9IG1ha2VDaGFyKHsKICAgICAgICAgICAgYXV0b0FyY2hpdmVFbmFibGVkOiB0cnVlLAogICAgICAgICAgICBjb250ZXh0UmFuZ2VNb2RlOiAnbWFudWFsJywKICAgICAgICAgICAgY29udGV4dExpbWl0OiAxMjAwLAogICAgICAgICAgICBjb250ZXh0VXNlclN0YXJ0TWVzc2FnZUlkOiAzMjEsCiAgICAgICAgfSk7CiAgICAgICAgY29uc3QgcmVzdG9yZWQgPSBKU09OLnBhcnNlKEpTT04uc3RyaW5naWZ5KG9yaWdpbmFsKSkgYXMgQ2hhcmFjdGVyUHJvZmlsZTsKCiAgICAgICAgZXhwZWN0KHJlc3RvcmVkLmNvbnRleHRSYW5nZVBvbGljeVZlcnNpb24pLnRvQmUoMSk7CiAgICAgICAgZXhwZWN0KHJlc3RvcmVkLmNvbnRleHRSYW5nZU1vZGUpLnRvQmUoJ21hbnVhbCcpOwogICAgICAgIGV4cGVjdChyZXN0b3JlZC5jb250ZXh0TGltaXQpLnRvQmUoMTIwMCk7CiAgICAgICAgZXhwZWN0KHJlc3RvcmVkLmNvbnRleHRVc2VyU3RhcnRNZXNzYWdlSWQpLnRvQmUoMzIxKTsKICAgIH0pOwp9KTsK
+import { describe, expect, it } from 'vitest';
+import type { CharacterProfile, Message } from '../types';
+import {
+    computeContextRangeSnapshot,
+    migrateCharacterContextRange,
+} from './chatContextRange';
+
+const makeMessages = (from: number, to: number): Message[] =>
+    Array.from({ length: to - from + 1 }, (_, index) => {
+        const id = from + index;
+        return {
+            id,
+            charId: 'char-context',
+            role: id % 2 ? 'user' : 'assistant',
+            type: 'text',
+            content: `message-${id}`,
+            timestamp: id,
+        } as Message;
+    });
+
+const makeChar = (partial: Partial<CharacterProfile>): CharacterProfile => ({
+    id: 'char-context',
+    name: 'Context',
+    avatar: '',
+    description: '',
+    systemPrompt: '',
+    memories: [],
+    contextRangePolicyVersion: 1,
+    ...partial,
+});
+
+describe('AI 原文范围边界', () => {
+    it('自适应最大范围从水位线之后开始', () => {
+        const snapshot = computeContextRangeSnapshot(
+            makeMessages(1, 1000),
+            makeChar({ autoArchiveEnabled: true, contextRangeMode: 'adaptive', contextLimit: 5000 }),
+            800,
+        );
+
+        expect(snapshot.maxRangeStartMessageId).toBe(801);
+        expect(snapshot.effectiveStartMessageId).toBe(801);
+        expect(snapshot.messages[0].id).toBe(801);
+        expect(snapshot.messages.at(-1)?.id).toBe(1000);
+    });
+
+    it('范围内用户断点只能把起点向更新消息推进', () => {
+        const snapshot = computeContextRangeSnapshot(
+            makeMessages(1, 1000),
+            makeChar({
+                autoArchiveEnabled: true,
+                contextRangeMode: 'adaptive',
+                contextUserStartMessageId: 900,
+            }),
+            800,
+        );
+
+        expect(snapshot.maxRangeStartMessageId).toBe(801);
+        expect(snapshot.userStartMessageId).toBe(900);
+        expect(snapshot.effectiveStartMessageId).toBe(900);
+        expect(snapshot.messages[0].id).toBe(900);
+    });
+
+    it('用户断点恰好位于最大范围起点时有效且没有越界', () => {
+        const snapshot = computeContextRangeSnapshot(
+            makeMessages(1, 1000),
+            makeChar({
+                autoArchiveEnabled: true,
+                contextRangeMode: 'manual',
+                contextLimit: 500,
+                contextUserStartMessageId: 501,
+            }),
+            800,
+        );
+
+        expect(snapshot.userBreakpointExpired).toBe(false);
+        expect(snapshot.effectiveStartMessageId).toBe(501);
+        expect(snapshot.messages).toHaveLength(500);
+    });
+
+    it('水位线之前的用户断点不能突破自适应最大范围', () => {
+        const snapshot = computeContextRangeSnapshot(
+            makeMessages(1, 1000),
+            makeChar({
+                autoArchiveEnabled: true,
+                contextRangeMode: 'adaptive',
+                contextUserStartMessageId: 700,
+            }),
+            800,
+        );
+
+        expect(snapshot.userBreakpointExpired).toBe(true);
+        expect(snapshot.userStartMessageId).toBeUndefined();
+        expect(snapshot.effectiveStartMessageId).toBe(801);
+        expect(snapshot.messages[0].id).toBe(801);
+    });
+
+    it('手动拉杆忽略水位线并把最近 N 条作为最大范围', () => {
+        const snapshot = computeContextRangeSnapshot(
+            makeMessages(1, 1000),
+            makeChar({
+                autoArchiveEnabled: true,
+                contextRangeMode: 'manual',
+                contextLimit: 500,
+            }),
+            800,
+        );
+
+        expect(snapshot.maxRangeStartMessageId).toBe(501);
+        expect(snapshot.effectiveStartMessageId).toBe(501);
+        expect(snapshot.messages).toHaveLength(500);
+    });
+
+    it('拉杆范围外的旧断点失效，绝不会扩大范围', () => {
+        const snapshot = computeContextRangeSnapshot(
+            makeMessages(1, 1000),
+            makeChar({
+                autoArchiveEnabled: true,
+                contextRangeMode: 'manual',
+                contextLimit: 500,
+                contextUserStartMessageId: 300,
+            }),
+            800,
+        );
+
+        expect(snapshot.userBreakpointExpired).toBe(true);
+        expect(snapshot.effectiveStartMessageId).toBe(501);
+        expect(snapshot.messages[0].id).toBe(501);
+    });
+
+    it('新消息把拉杆起点推过固定断点后，固定断点失效并跟随拉杆', () => {
+        const snapshot = computeContextRangeSnapshot(
+            makeMessages(1, 1200),
+            makeChar({
+                autoArchiveEnabled: true,
+                contextRangeMode: 'manual',
+                contextLimit: 500,
+                contextUserStartMessageId: 700,
+            }),
+            800,
+        );
+
+        expect(snapshot.maxRangeStartMessageId).toBe(701);
+        expect(snapshot.userBreakpointExpired).toBe(true);
+        expect(snapshot.effectiveStartMessageId).toBe(701);
+    });
+
+    it('作为断点的消息被删除后断点失效，不能停在不存在的 ID 上', () => {
+        const messages = makeMessages(1, 1000).filter(message => message.id !== 800);
+        const snapshot = computeContextRangeSnapshot(
+            messages,
+            makeChar({
+                autoArchiveEnabled: true,
+                contextRangeMode: 'manual',
+                contextLimit: 500,
+                contextUserStartMessageId: 800,
+            }),
+            700,
+        );
+
+        expect(snapshot.userBreakpointExpired).toBe(true);
+        expect(snapshot.userStartMessageId).toBeUndefined();
+        expect(snapshot.messages[0].id).toBe(500);
+    });
+});
+
+describe('旧角色上下文迁移', () => {
+    it('全自动用户即使原来拉满 5000 条也回到自适应默认', () => {
+        const result = migrateCharacterContextRange(makeChar({
+            contextRangePolicyVersion: undefined,
+            autoArchiveEnabled: true,
+            contextLimit: 5000,
+            hideBeforeMessageId: 600,
+        }));
+
+        expect(result.migrated).toBe(true);
+        expect(result.resetAutoContext).toBe(true);
+        expect(result.character.contextRangeMode).toBe('adaptive');
+        expect(result.character.contextLimit).toBe(500);
+        expect(result.character.contextUserStartMessageId).toBeUndefined();
+    });
+
+    it('未开全自动的旧用户保留拉杆，并把旧用户断点迁入新字段', () => {
+        const result = migrateCharacterContextRange(makeChar({
+            contextRangePolicyVersion: undefined,
+            autoArchiveEnabled: false,
+            contextLimit: 300,
+            hideBeforeMessageId: 250,
+        }));
+
+        expect(result.character.contextRangeMode).toBe('manual');
+        expect(result.character.contextLimit).toBe(300);
+        expect(result.character.contextUserStartMessageId).toBe(250);
+    });
+
+    it('新字段会随角色设置 JSON 备份往返保留', () => {
+        const original = makeChar({
+            autoArchiveEnabled: true,
+            contextRangeMode: 'manual',
+            contextLimit: 1200,
+            contextUserStartMessageId: 321,
+        });
+        const restored = JSON.parse(JSON.stringify(original)) as CharacterProfile;
+
+        expect(restored.contextRangePolicyVersion).toBe(1);
+        expect(restored.contextRangeMode).toBe('manual');
+        expect(restored.contextLimit).toBe(1200);
+        expect(restored.contextUserStartMessageId).toBe(321);
+    });
+});

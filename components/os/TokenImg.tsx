@@ -1,1 +1,15 @@
-aW1wb3J0IFJlYWN0IGZyb20gJ3JlYWN0JzsKaW1wb3J0IHsgdXNlQmxvYlJlZlVybCB9IGZyb20gJy4uLy4uL3V0aWxzL2Jsb2JSZWYnOwoKLyoqCiAqIOWbvueJh+aUueWtmCBCbG9iIOWQjueahOmAmueUqOa4suafk+e7hOS7tu+8iOingSB1dGlscy9ibG9iUmVmLnRz77yJ44CCCiAqIOaKiuOAjGJsb2JyZWYg5Luk54mMIC8g5penIGRhdGE6IC8gaHR0cChzKeOAjee7n+S4gOino+aekOaIkOWPr+ebtOaOpeeUqOeahCB1cmwg5YaN5ZaC57uZIDxpbWc+77yMCiAqIOS7pOeJjOino+aekOWHuueahCBvYmplY3RVUkwg5Lya5Zyo5Y246L29IC8gdmFsdWUg5Y+Y5YyW5pe26Ieq5Yqo5Zue5pS277yM5LiN5rOE5ryP44CCCiAqIOmdnuS7pOeJjOWAvOWOn+agt+mAj+S8oO+8jOihjOS4uuS4juaZrumAmiA8aW1nPiDkuIDoh7TjgIIKICovCmNvbnN0IFRva2VuSW1nOiBSZWFjdC5GQzx7IHZhbHVlPzogc3RyaW5nIHwgbnVsbCB9ICYgUmVhY3QuSW1nSFRNTEF0dHJpYnV0ZXM8SFRNTEltYWdlRWxlbWVudD4+ID0gKHsgdmFsdWUsIC4uLnJlc3QgfSkgPT4gewogICAgY29uc3Qgc3JjID0gdXNlQmxvYlJlZlVybCh2YWx1ZSA/PyB1bmRlZmluZWQpOwogICAgcmV0dXJuIDxpbWcgc3JjPXtzcmN9IHsuLi5yZXN0fSAvPjsKfTsKCmV4cG9ydCBkZWZhdWx0IFRva2VuSW1nOwo=
+import React from 'react';
+import { useBlobRefUrl } from '../../utils/blobRef';
+
+/**
+ * 图片改存 Blob 后的通用渲染组件（见 utils/blobRef.ts）。
+ * 把「blobref 令牌 / 旧 data: / http(s)」统一解析成可直接用的 url 再喂给 <img>，
+ * 令牌解析出的 objectURL 会在卸载 / value 变化时自动回收，不泄漏。
+ * 非令牌值原样透传，行为与普通 <img> 一致。
+ */
+const TokenImg: React.FC<{ value?: string | null } & React.ImgHTMLAttributes<HTMLImageElement>> = ({ value, ...rest }) => {
+    const src = useBlobRefUrl(value ?? undefined);
+    return <img src={src} {...rest} />;
+};
+
+export default TokenImg;

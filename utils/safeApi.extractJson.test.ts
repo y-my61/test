@@ -1,1 +1,69 @@
-aW1wb3J0IHsgZGVzY3JpYmUsIGl0LCBleHBlY3QgfSBmcm9tICd2aXRlc3QnOwppbXBvcnQgeyBleHRyYWN0SnNvbiB9IGZyb20gJy4vc2FmZUFwaSc7CgovKioKICog5Zue5b2S5rWL6K+V77ya6Ieq5Lmg5a6k77yIU3R1ZHlBcHDvvInnlJ/miJDpopjnm67ml7bvvIxDbGF1ZGUg6auY6aKR6L+U5Zue5pyq6L2s5LmJ54m55q6K5a2X56ym55qEIEpTT07vvIwKICog6KO4IEpTT04ucGFyc2Ug5Lya5ZyoIGxpbmUgMTIg6ZmE6L+R5oqbICJFeHBlY3RlZCAnLCcgb3IgJ30nIGFmdGVyIHByb3BlcnR5IHZhbHVlIuOAggogKiBnZW5lcmF0ZVF1aXogLyBjcmVhdGVDb3Vyc2Ug5pS555SoIGV4dHJhY3RKc29uIOeahOWkmuWxguWuuemUmeadpeWQg+aOiei/meexu+eVuOW9oui+k+WHuuOAggogKi8KZGVzY3JpYmUoJ2V4dHJhY3RKc29uIOKAkyBDbGF1ZGUgcXVpeiBKU09OIHJlY292ZXJ5JywgKCkgPT4gewogICAgaXQoJ3JlY292ZXJzIHVuZXNjYXBlZCBpbm5lciBxdW90ZXMgaW5zaWRlIGEgc3RyaW5nIHZhbHVlJywgKCkgPT4gewogICAgICAgIGNvbnN0IGJhZCA9IGB7CiAgInF1ZXN0aW9ucyI6IFsKICAgIHsKICAgICAgInR5cGUiOiAiY2hvaWNlIiwKICAgICAgInN0ZW0iOiAiRmlyc3QiLAogICAgICAib3B0aW9ucyI6IFsiQS4geCIsICJCLiB5IiwgIkMuIHoiLCAiRC4gdyJdLAogICAgICAiYW5zd2VyIjogIkEiLAogICAgICAiZXhwbGFuYXRpb24iOiAib2siCiAgICB9LAogICAgewogICAgICAidHlwZSI6ICJmaWxsX2JsYW5rIiwKICAgICAgInN0ZW0iOiAiVGhlIHRlcm0gIlJlYWN0IiByZWZlcnMgdG8gYSBfX18iLAogICAgICAiYW5zd2VyIjogImxpYnJhcnkiLAogICAgICAiZXhwbGFuYXRpb24iOiAiYmVjYXVzZSIKICAgIH0KICBdCn1gOwogICAgICAgIGNvbnN0IGogPSBleHRyYWN0SnNvbihiYWQpOwogICAgICAgIGV4cGVjdChqKS5ub3QudG9CZU51bGwoKTsKICAgICAgICBleHBlY3QoQXJyYXkuaXNBcnJheShqLnF1ZXN0aW9ucykpLnRvQmUodHJ1ZSk7CiAgICAgICAgZXhwZWN0KGoucXVlc3Rpb25zLmxlbmd0aCkudG9CZSgyKTsKICAgIH0pOwoKICAgIGl0KCdyZWNvdmVycyBhIGRpYXJ5IHJlcGx5IHdpdGggdW5lc2NhcGVkIGlubmVyIHF1b3RlcyAo5Lqk5o2i5pel6K6wIFJFUExZKScsICgpID0+IHsKICAgICAgICAvLyBNaXJyb3JzIEpvdXJuYWxBcHAncyBjaGFyIHJlcGx5IHNoYXBlIHsgdGV4dCwgcGFwZXJTdHlsZSwgc3RpY2tlcnMgfS4KICAgICAgICAvLyBDbGF1ZGUgbGVhdmVzIHRoZSBpbm5lciDjgIwi6L+Y5LiN5aSf5aW9IuOAjSBxdW90ZXMgdW5lc2NhcGVkIOKGkiBuYWtlZCBKU09OLnBhcnNlIGRpZXMgYW5kCiAgICAgICAgLy8gdGhlIG9sZCBjYXRjaCBkdW1wZWQgdGhlIHdob2xlIHJhdyBvYmplY3QgaW50byB0aGUgZGlhcnkgYm9keS4KICAgICAgICBjb25zdCBiYWQgPSBgewogICJ0ZXh0IjogIuaZrumAmueahOS4gOWkqe+8jOaIkeS7iuWkqeaDs+S6huaDs+mCo+WPpSAi6L+Y5LiN5aSf5aW9Iu+8jOWFtuWunuaMuumHiuaAgOeahOOAgiIsCiAgInBhcGVyU3R5bGUiOiAicGxhaW4iLAogICJzdGlja2VycyI6IFtdCn1gOwogICAgICAgIGNvbnN0IGogPSBleHRyYWN0SnNvbihiYWQpOwogICAgICAgIGV4cGVjdChqKS5ub3QudG9CZU51bGwoKTsKICAgICAgICBleHBlY3QodHlwZW9mIGoudGV4dCkudG9CZSgnc3RyaW5nJyk7CiAgICAgICAgZXhwZWN0KGoudGV4dCkudG9Db250YWluKCfov5jkuI3lpJ/lpb0nKTsKICAgIH0pOwoKICAgIGl0KCdzdHJpcHMgY29kZSBmZW5jZXMgYW5kIGRyb3BzIHRyYWlsaW5nIGNvbW1hcycsICgpID0+IHsKICAgICAgICBjb25zdCBiYWQgPSAnYGBganNvblxueyAicXVlc3Rpb25zIjogWyB7ICJ0eXBlIjogInRydWVfZmFsc2UiLCAiYW5zd2VyIjogInRydWUiLCB9LCBdLCB9XG5gYGAnOwogICAgICAgIGNvbnN0IGogPSBleHRyYWN0SnNvbihiYWQpOwogICAgICAgIGV4cGVjdChqKS5ub3QudG9CZU51bGwoKTsKICAgICAgICBleHBlY3QoQXJyYXkuaXNBcnJheShqLnF1ZXN0aW9ucykpLnRvQmUodHJ1ZSk7CiAgICB9KTsKCiAgICBpdCgnZGVncmFkZXMgc2FmZWx5IG9uIHRydW5jYXRlZCBvdXRwdXQgKGhpdCBtYXhfdG9rZW5zIG1pZC1hcnJheSknLCAoKSA9PiB7CiAgICAgICAgLy8gZXh0cmFjdEpzb24gY2Fubm90IHJlYnVpbGQgdGhlIHsgcXVlc3Rpb25zOiBbLi4uXSB9IHdyYXBwZXIgZnJvbSBhIG1pZC1uZXN0ZWQtYXJyYXkKICAgICAgICAvLyBjdXRvZmYsIHNvIHRoZSBTdHVkeUFwcCBndWFyZCAoIUFycmF5LmlzQXJyYXkoanNvbi5xdWVzdGlvbnMpKSByZWplY3RzIHRoZSByZXN1bHQgYW5kCiAgICAgICAgLy8gc2hvd3MgYSBmcmllbmRseSAi6K+36YeN6K+VIiB0b2FzdCBpbnN0ZWFkIG9mIHRoZSBvbGQgdW5jYXVnaHQgSlNPTi5wYXJzZSBjcmFzaC4KICAgICAgICBjb25zdCBiYWQgPSAneyAicXVlc3Rpb25zIjogWyB7ICJ0eXBlIjogImNob2ljZSIsICJzdGVtIjogIlExIiwgImFuc3dlciI6ICJBIiwgImV4cGxhbmF0aW9uIjogIm9rIiB9LCB7ICJ0eXBlIjogImNob2ljZSIsICJzdGVtIjogIlEyIiwgImFuc3dlcic7CiAgICAgICAgY29uc3QgaiA9IGV4dHJhY3RKc29uKGJhZCk7CiAgICAgICAgY29uc3QgdXNhYmxlID0gaiAhPSBudWxsICYmIEFycmF5LmlzQXJyYXkoai5xdWVzdGlvbnMpOwogICAgICAgIGV4cGVjdCh1c2FibGUpLnRvQmUoZmFsc2UpOwogICAgfSk7CgogICAgaXQoJ3JldHVybnMgbnVsbCBvbiBob3BlbGVzcyBnYXJiYWdlIChjYWxsZXIgdGhlbiB0aHJvd3MgYSBmcmllbmRseSBlcnJvciknLCAoKSA9PiB7CiAgICAgICAgZXhwZWN0KGV4dHJhY3RKc29uKCd0aGlzIGlzIG5vdCBqc29uIGF0IGFsbCcpKS50b0JlTnVsbCgpOwogICAgfSk7Cn0pOwo=
+import { describe, it, expect } from 'vitest';
+import { extractJson } from './safeApi';
+
+/**
+ * 回归测试：自习室（StudyApp）生成题目时，Claude 高频返回未转义特殊字符的 JSON，
+ * 裸 JSON.parse 会在 line 12 附近抛 "Expected ',' or '}' after property value"。
+ * generateQuiz / createCourse 改用 extractJson 的多层容错来吃掉这类畸形输出。
+ */
+describe('extractJson – Claude quiz JSON recovery', () => {
+    it('recovers unescaped inner quotes inside a string value', () => {
+        const bad = `{
+  "questions": [
+    {
+      "type": "choice",
+      "stem": "First",
+      "options": ["A. x", "B. y", "C. z", "D. w"],
+      "answer": "A",
+      "explanation": "ok"
+    },
+    {
+      "type": "fill_blank",
+      "stem": "The term "React" refers to a ___",
+      "answer": "library",
+      "explanation": "because"
+    }
+  ]
+}`;
+        const j = extractJson(bad);
+        expect(j).not.toBeNull();
+        expect(Array.isArray(j.questions)).toBe(true);
+        expect(j.questions.length).toBe(2);
+    });
+
+    it('recovers a diary reply with unescaped inner quotes (交换日记 REPLY)', () => {
+        // Mirrors JournalApp's char reply shape { text, paperStyle, stickers }.
+        // Claude leaves the inner 「"还不够好"」 quotes unescaped → naked JSON.parse dies and
+        // the old catch dumped the whole raw object into the diary body.
+        const bad = `{
+  "text": "普通的一天，我今天想了想那句 "还不够好"，其实挺释怀的。",
+  "paperStyle": "plain",
+  "stickers": []
+}`;
+        const j = extractJson(bad);
+        expect(j).not.toBeNull();
+        expect(typeof j.text).toBe('string');
+        expect(j.text).toContain('还不够好');
+    });
+
+    it('strips code fences and drops trailing commas', () => {
+        const bad = '```json\n{ "questions": [ { "type": "true_false", "answer": "true", }, ], }\n```';
+        const j = extractJson(bad);
+        expect(j).not.toBeNull();
+        expect(Array.isArray(j.questions)).toBe(true);
+    });
+
+    it('degrades safely on truncated output (hit max_tokens mid-array)', () => {
+        // extractJson cannot rebuild the { questions: [...] } wrapper from a mid-nested-array
+        // cutoff, so the StudyApp guard (!Array.isArray(json.questions)) rejects the result and
+        // shows a friendly "请重试" toast instead of the old uncaught JSON.parse crash.
+        const bad = '{ "questions": [ { "type": "choice", "stem": "Q1", "answer": "A", "explanation": "ok" }, { "type": "choice", "stem": "Q2", "answer';
+        const j = extractJson(bad);
+        const usable = j != null && Array.isArray(j.questions);
+        expect(usable).toBe(false);
+    });
+
+    it('returns null on hopeless garbage (caller then throws a friendly error)', () => {
+        expect(extractJson('this is not json at all')).toBeNull();
+    });
+});

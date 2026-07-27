@@ -1,1 +1,189 @@
-LyoqCiAqIEdyb3VwIE1lbW9yeSBQYWxhY2Ug4oCUIOe+pOiBiuiusOW/huaPkOWPlu+8iOesrOS4ieS6uuensOeJiOacrO+8jOeLrOeri+S6juengeiBiu+8iQogKgogKiDkuI4gZXh0cmFjdGlvbi50cyDnmoTljLrliKvvvJoKICogLSDop4bop5LmmK8i576k6IGK6KeC5a+f6ICFIuiAjOmdnuinkuiJsuacrOS6uiDihpIg56ys5LiJ5Lq656ew5Y+Z5LqL77yM5Li76K+t5piv5YW35L2T55qE6KeS6Imy5ZCNCiAqIC0g5YaF5a655YmN57yA57uf5LiA5Li6ICLlnKjjgJBYWFjnvqTjgJHph4zvvIwuLi4i77yM5L6/5LqO6K+l6K6w5b+G5ZCO57ut5bmz562J5Zyw5YiG5Y+R57uZ5q+P5Liq5oiQ5ZGYCiAqIC0g5LiN5Y+C5LiO5L6/5Yip6LS057O757uf77yIcGluRGF5c++8ie+8jOS4jeWPguS4jiByZWxhdGVkVG8gLyBFdmVudEJveCDot6jml7bpl7Tpk77mjqXvvIh2MSDnroDljJbvvIkKICoKICog56eB6IGK6Lev5b6E5a6M5YWo5LiN5oSf55+l5pys5paH5Lu25a2Y5Zyo44CCCiAqLwppbXBvcnQgdHlwZSB7IE1lc3NhZ2UgfSBmcm9tICcuLi8uLi90eXBlcyc7CmltcG9ydCB0eXBlIHsgTWVtb3J5Um9vbSB9IGZyb20gJy4vdHlwZXMnOwppbXBvcnQgdHlwZSB7IExpZ2h0TExNQ29uZmlnIH0gZnJvbSAnLi9waXBlbGluZSc7CmltcG9ydCB7IHNhZmVGZXRjaEpzb24gfSBmcm9tICcuLi9zYWZlQXBpJzsKaW1wb3J0IHsgc2FmZVBhcnNlSnNvbkFycmF5IH0gZnJvbSAnLi9qc29uVXRpbHMnOwoKLyoqIOe+pOiusOW/huiNieeov+KAlOKAlOWwmuacquaMh+a0viBjaGFySWTvvIjkuIDku73orrDlv4bnqI3lkI7kvJrlpI3liLbnu5nmr4/kuKrmiJDlkZjmjIHkuYXljJbvvIkgKi8KZXhwb3J0IGludGVyZmFjZSBHcm91cE1lbW9yeURyYWZ0IHsKICAgIGNvbnRlbnQ6IHN0cmluZzsKICAgIHJvb206IE1lbW9yeVJvb207CiAgICB0YWdzOiBzdHJpbmdbXTsKICAgIGltcG9ydGFuY2U6IG51bWJlcjsKICAgIG1vb2Q6IHN0cmluZzsKICAgIHZhbGVuY2U/OiBudW1iZXI7CiAgICBhcm91c2FsPzogbnVtYmVyOwogICAgLyoqIOi/meaJueiNieeov+WvueW6lOeahOe+pOa2iOaBr+aXtumXtOeql+S4reeCue+8iOeUqOS6jiBjcmVhdGVkQXTvvIkgKi8KICAgIGNyZWF0ZWRBdDogbnVtYmVyOwp9Cgpjb25zdCBWQUxJRF9ST09NUzogTWVtb3J5Um9vbVtdID0gWwogICAgJ2xpdmluZ19yb29tJywgJ2JlZHJvb20nLCAnc3R1ZHknLCAndXNlcl9yb29tJywKICAgICdzZWxmX3Jvb20nLCAnYXR0aWMnLCAnd2luZG93c2lsbCcsCl07CgpmdW5jdGlvbiBjbGFtcFZBKHg6IG51bWJlcik6IG51bWJlciB7CiAgICBpZiAoTnVtYmVyLmlzTmFOKHgpKSByZXR1cm4gMDsKICAgIGlmICh4ID4gMSkgcmV0dXJuIDE7CiAgICBpZiAoeCA8IC0xKSByZXR1cm4gLTE7CiAgICByZXR1cm4geDsKfQoKZnVuY3Rpb24gYnVpbGRHcm91cFJ1bGVzQmxvY2soZ3JvdXBOYW1lOiBzdHJpbmcsIG1lbWJlck5hbWVzOiBzdHJpbmdbXSwgdXNlckxhYmVsOiBzdHJpbmcpOiBzdHJpbmcgewogICAgY29uc3QgbWVtYmVyTGlzdCA9IG1lbWJlck5hbWVzLmpvaW4oJ+OAgScpOwogICAgcmV0dXJuIGAjIyDop4TliJkKCjEuICoq56ys5LiJ5Lq656ew5Y+Z5LqLKirvvJrkvaDmmK/jgJAke2dyb3VwTmFtZX3jgJHnmoTnvqTogYrop4Llr5/ogIXvvIzorrDlvZUi576k6YeM5Y+R55Sf5LqG5LuA5LmIIuOAggogICAtIOeUqOaIt+ensOWRvOS4uiIke3VzZXJMYWJlbH0i77yM576k5oiQ5ZGY5ZCN5a2X55u05o6l55So77yaJHttZW1iZXJMaXN0fQogICAtICoq57ud5a+55LiN6KaB55SoIuaIkSIqKiDigJTigJQg6L+Z5p2h6K6w5b+G5Lya5bmz562J5Zyw5Y+R57uZ576k6YeM5q+P5Liq5oiQ5ZGY77yM5omA5Lul5LiN6IO956uZ5Zyo5p+Q5LiA5Liq5Lq655qE6KeG6KeSCiAgIC0g5YaF5a655YmN57yA57uf5LiA5Li677yaIuWcqOOAkCR7Z3JvdXBOYW1lfeOAkemHjO+8jC4uLiIKICAg5L6L77yaCiAgIC0gIuWcqOOAkCR7Z3JvdXBOYW1lfeOAkemHjO+8jCR7bWVtYmVyTmFtZXNbMF0gfHwgJ0EnfSDmj5DotbfkuobmnIDov5HlnKjov73nmoTliafvvIwke21lbWJlck5hbWVzWzFdIHx8ICdCJ30g6Lef552A5a6J5Yip77yMJHt1c2VyTGFiZWx9IOihqOekuuW3sue7j+iiq+enjeiNieS6huOAgiIKICAgLSAi5Zyo44CQJHtncm91cE5hbWV944CR6YeM77yMJHttZW1iZXJOYW1lc1swXSB8fCAnQSd9IOaKseaAqOS6huWRqOacq+WKoOePreeahOS6i++8jOWkp+WutuWIhuWIq+aUr+S6huS4gOaLm++8jCR7bWVtYmVyTmFtZXNbMV0gfHwgJ0InfSDorqkgdGEg55u05o6l5ouS57ud77yMJHttZW1iZXJOYW1lc1syXSB8fCAnQyd9IOiuqSB0YSDlhYjop4LmnJvjgIIiCgoyLiAqKumHjeimgeaAp+WIhue6p+aOp+WItuaWh+Wtl+mVv+W6pioq77yaCiAgIC0g6YeN6KaB5oCnIDHigJM177yaMjDigJM2MOWtl++8jOS6i+WunuS4uuS4uwogICAtIOmHjeimgeaApyA24oCTN++8mjYw4oCTMTQw5a2X77yM5YyF5ZCr576k6YeM55qE5rCb5Zu05o+P5YaZCiAgIC0g6YeN6KaB5oCnIDjigJMxMO+8mjEyMOKAkzIyMOWtl++8jOWujOaVtOWPmeS6i++8iOi1t+WboOKGkue7j+i/h+KGkue+pOmHjOeahOWPjeW6lO+8iQoKMy4gKirmiL/pl7TliIbphY0qKu+8iOazqOaEj+inhuinkuaYr+e+pOaVtOS9k++8ie+8mgogICAtIGxpdmluZ19yb29t77ya576k6YeM55qE5pel5bi46Zey6IGK44CB546p5qKX44CB5aSN6K+744CB5peg5YWz57Sn6KaB55qE5rS76LeD5rCU5rCbCiAgIC0gYmVkcm9vbe+8mue+pOmHjOeahOaaluW/g+eerOmXtOOAgea3seW6puS6kuWKqOOAgeW9vOatpOWFs+W/g+aIlui1t+WThOmAlyAke3VzZXJMYWJlbH0g55qE5pe25Yi7CiAgIC0gc3R1ZHnvvJrnvqTph4zorqjorrrlt6XkvZwgLyDlrabkuaAgLyDlhbTotqMgLyDmioDog70gLyDmlrDpl7vor53popgKICAgLSB1c2VyX3Jvb23vvJrnvqTph4zlj5HnlJ/nmoTjgIHlhbPkuo4gJHt1c2VyTGFiZWx9IOeahOS6i+KAlOKAlCR7dXNlckxhYmVsfSDlnKjnvqTph4znmoTnirbmgIHjgIHmg4Xnu6rjgIHmj5DliLDnmoTlrrbkurrmnIvlj4vjgIHooqvotbflk4TnrYkKICAgLSBzZWxmX3Jvb23vvJrnvqTmiJDlkZjkuYvpl7TnmoTlhbPns7vmvJTlj5jjgIHnvqTmlbTkvZPmsJvlm7TnmoTlj5jljJbjgIHosIHlkozosIHlhbPns7vlj5jlpb0v5Y+Y5beuCiAgIC0gYXR0aWPvvJrnvqTph4zmsqHop6PlhrPnmoTnn5vnm77jgIHlsLTlsKzlhrflnLrjgIHooqvmkIHnva7nmoTor53popjjgIHmmpfmtYHmtozliqjnmoTkv67nvZflnLoKICAgLSB3aW5kb3dzaWxs77ya576k6YeM56uL5LiL55qE57qm5a6a44CB5YWx5ZCM5pyf55u844CB576k5L2T55uu5qCH77yI57q/5LiL6IGa5Lya44CB6ZuG5L2T6K6h5YiS562J77yJCgo0LiAqKuaDhee7quagh+etvioq77yIbW9vZO+8ie+8mmhhcHB5LCBzYWQsIGFuZ3J5LCBhbnhpb3VzLCB0ZW5kZXIsIGV4Y2l0ZWQsIHBlYWNlZnVsLCBjb25mdXNlZCwgaHVydCwgZ3JhdGVmdWwsIG5vc3RhbGdpYywgbmV1dHJhbAo1LiAqKuaDheaEn+WdkOaghyoq77yIdmFsZW5jZSwgYXJvdXNhbO+8ie+8mgogICAtIHZhbGVuY2XvvJotMe+8iOaegeeXm+iLpu+8ieKGkiArMe+8iOaegeaEieaCpu+8iQogICAtIGFyb3VzYWzvvJotMe+8iOaegeW5s+mdme+8ieKGkiArMe+8iOaegea/gOeDiO+8iQo2LiAqKuagh+etvioq77yIdGFnc++8ie+8muaPkOWPliAyLTUg5Liq5YWz6ZSu6K+N5qCH562+77yM5pyA5aW95YyF5ZCr5raJ5Y+K55qE6KeS6Imy5ZCNCjcuICoq5LiN6KaB6YGX5ryP5YC85b6X6K6w55qE5LqL77yM5L2G5Lmf5LiN6KaB5oqK5q+P5Y+l6K+d6YO95Y+Y5oiQ6K6w5b+GKirjgILkuIDmrrXnvqTogYrpgJrluLjmj5Dlj5YgMeKAkzUg5p2h6K6w5b+G44CCCjguICoq5LiN6ZyA6KaBIHBpbkRheXMgLyByZWxhdGVkVG8gLyBzYW1lQXMgLyBldmVudE5hbWUgLyBldmVudFRhZ3MqKiDigJTigJQg576k6K6w5b+GIHYxIOS4jeWPguS4juS+v+WIqei0tOWSjOS6i+S7tuebkuezu+e7n+OAgmA7Cn0KCmZ1bmN0aW9uIGJ1aWxkR3JvdXBDb252ZXJzYXRpb25UZXh0KG1lc3NhZ2VzOiBNZXNzYWdlW10sIHNwZWFrZXJOYW1lT2Y6IChtOiBNZXNzYWdlKSA9PiBzdHJpbmcpOiBzdHJpbmcgewogICAgcmV0dXJuIG1lc3NhZ2VzLm1hcChtID0+IHsKICAgICAgICBjb25zdCBuYW1lID0gc3BlYWtlck5hbWVPZihtKTsKICAgICAgICBjb25zdCB0aW1lID0gbmV3IERhdGUobS50aW1lc3RhbXApLnRvTG9jYWxlU3RyaW5nKFtdLCB7IG1vbnRoOiAnMi1kaWdpdCcsIGRheTogJzItZGlnaXQnLCBob3VyOiAnMi1kaWdpdCcsIG1pbnV0ZTogJzItZGlnaXQnIH0pOwogICAgICAgIGxldCBjb250ZW50OiBzdHJpbmc7CiAgICAgICAgaWYgKG0udHlwZSA9PT0gJ2ltYWdlJykgY29udGVudCA9ICdb5Zu+54mHXSc7CiAgICAgICAgZWxzZSBpZiAobS50eXBlID09PSAnZW1vamknKSBjb250ZW50ID0gYFvooajmg4XljIVdYDsKICAgICAgICBlbHNlIGlmIChtLnR5cGUgPT09ICd0cmFuc2ZlcicpIGNvbnRlbnQgPSBgW+e6ouWMhTogJHttLm1ldGFkYXRhPy5hbW91bnQgPz8gJyd9XWA7CiAgICAgICAgZWxzZSBjb250ZW50ID0gKG0uY29udGVudCB8fCAnJykuc2xpY2UoMCwgNjAwKTsKICAgICAgICByZXR1cm4gYFske3RpbWV9XSAke25hbWV9OiAke2NvbnRlbnR9YDsKICAgIH0pLmpvaW4oJ1xuJyk7Cn0KCmV4cG9ydCBpbnRlcmZhY2UgR3JvdXBFeHRyYWN0aW9uUmVzdWx0IHsKICAgIGRyYWZ0czogR3JvdXBNZW1vcnlEcmFmdFtdOwp9CgovKioKICog5LuO576k5raI5oGv57yT5Yay5Yy65o+Q5Y+W6K6w5b+G6I2J56i/44CCY2FsbGVyIOaLv+WIsCBkcmFmdHMg5ZCO5YaN5Li65q+P5Liq5oiQ5ZGY5ZCE5oyB5LmF5YyW5LiA5Lu944CCCiAqCiAqIOS7u+S9lSBMTE0gLyDnvZHnu5zlvILluLjpg73lkJ7mjonvvIzov5Tlm57nqbogZHJhZnRzIOS+myBjYWxsZXIg6Lez6L+H5pys6L2u4oCU4oCU57ud5LiN5oqb5Yiw5LiK5bGC44CCCiAqLwpleHBvcnQgYXN5bmMgZnVuY3Rpb24gZXh0cmFjdEdyb3VwTWVtb3JpZXNGcm9tQnVmZmVyKAogICAgbWVzc2FnZXM6IE1lc3NhZ2VbXSwKICAgIGdyb3VwTmFtZTogc3RyaW5nLAogICAgbWVtYmVyTmFtZXM6IHN0cmluZ1tdLAogICAgdXNlckxhYmVsOiBzdHJpbmcsCiAgICBzcGVha2VyTmFtZU9mOiAobTogTWVzc2FnZSkgPT4gc3RyaW5nLAogICAgbGxtQ29uZmlnOiBMaWdodExMTUNvbmZpZywKKTogUHJvbWlzZTxHcm91cEV4dHJhY3Rpb25SZXN1bHQ+IHsKICAgIGlmIChtZXNzYWdlcy5sZW5ndGggPT09IDApIHJldHVybiB7IGRyYWZ0czogW10gfTsKCiAgICBjb25zdCBjb252ZXJzYXRpb25UZXh0ID0gYnVpbGRHcm91cENvbnZlcnNhdGlvblRleHQobWVzc2FnZXMsIHNwZWFrZXJOYW1lT2YpOwogICAgY29uc3QgbWVtYmVyTGlzdCA9IG1lbWJlck5hbWVzLmpvaW4oJ+OAgScpOwoKICAgIGNvbnN0IHN5c3RlbVByb21wdCA9IGDkvaDmmK/jgJAke2dyb3VwTmFtZX3jgJHnmoTnvqTogYrop4Llr5/ogIXvvIzor7fku47ku6XkuIvnvqTogYrorrDlvZXkuK3mj5Dlj5blgLzlvpforrDkvY/nmoTnvqTogYrorrDlv4bjgIIK576k5oiQ5ZGY77yaJHttZW1iZXJMaXN0fQrnlKjmiLfvvJoke3VzZXJMYWJlbH0KCiR7YnVpbGRHcm91cFJ1bGVzQmxvY2soZ3JvdXBOYW1lLCBtZW1iZXJOYW1lcywgdXNlckxhYmVsKX0KCiMjIOi+k+WHuuagvOW8jwoK5Lil5qC8IEpTT04g5pWw57uE77yM5LiN6KaBIG1hcmtkb3duIOWMheijue+8mgpbCiAgewogICAgImNvbnRlbnQiOiAi5Zyo44CQJHtncm91cE5hbWV944CR6YeM77yMLi4uIiwKICAgICJyb29tIjogImxpdmluZ19yb29tIiwKICAgICJpbXBvcnRhbmNlIjogNSwKICAgICJtb29kIjogIm5ldXRyYWwiLAogICAgInZhbGVuY2UiOiAwLAogICAgImFyb3VzYWwiOiAwLAogICAgInRhZ3MiOiBbIuagh+etvjEiLCAi5qCH562+MiJdCiAgfQpdCgrlpoLmnpznvqTogYrov4fkuo7nkJDnoo7ml6DlgLzlvpforrDlv4bnmoTlhoXlrrnvvIzov5Tlm57nqbrmlbDnu4QgW13jgIJgOwoKICAgIHRyeSB7CiAgICAgICAgY29uc3QgZGF0YSA9IGF3YWl0IHNhZmVGZXRjaEpzb24oCiAgICAgICAgICAgIGAke2xsbUNvbmZpZy5iYXNlVXJsLnJlcGxhY2UoL1wvKyQvLCAnJyl9L2NoYXQvY29tcGxldGlvbnNgLAogICAgICAgICAgICB7CiAgICAgICAgICAgICAgICBtZXRob2Q6ICdQT1NUJywKICAgICAgICAgICAgICAgIGhlYWRlcnM6IHsKICAgICAgICAgICAgICAgICAgICAnQ29udGVudC1UeXBlJzogJ2FwcGxpY2F0aW9uL2pzb24nLAogICAgICAgICAgICAgICAgICAgICdBdXRob3JpemF0aW9uJzogYEJlYXJlciAke2xsbUNvbmZpZy5hcGlLZXl9YCwKICAgICAgICAgICAgICAgIH0sCiAgICAgICAgICAgICAgICBib2R5OiBKU09OLnN0cmluZ2lmeSh7CiAgICAgICAgICAgICAgICAgICAgbW9kZWw6IGxsbUNvbmZpZy5tb2RlbCwKICAgICAgICAgICAgICAgICAgICBtZXNzYWdlczogWwogICAgICAgICAgICAgICAgICAgICAgICB7IHJvbGU6ICdzeXN0ZW0nLCBjb250ZW50OiBzeXN0ZW1Qcm9tcHQgfSwKICAgICAgICAgICAgICAgICAgICAgICAgeyByb2xlOiAndXNlcicsIGNvbnRlbnQ6IGDnvqTogYrorrDlvZXvvJpcbiR7Y29udmVyc2F0aW9uVGV4dH1gIH0sCiAgICAgICAgICAgICAgICAgICAgXSwKICAgICAgICAgICAgICAgICAgICB0ZW1wZXJhdHVyZTogMC40LAogICAgICAgICAgICAgICAgICAgIG1heF90b2tlbnM6IDEyMDAwLAogICAgICAgICAgICAgICAgICAgIHN0cmVhbTogZmFsc2UsCiAgICAgICAgICAgICAgICB9KSwKICAgICAgICAgICAgfSwKICAgICAgICAgICAgMiwgMTgwXzAwMCwgeyBhcHBOYW1lOiAn6K6w5b+G5a6r5q6/JywgcHVycG9zZTogJ+e+pOiusOW/huaPkOWPlicgfQogICAgICAgICk7CgogICAgICAgIGNvbnN0IHJlcGx5ID0gZGF0YS5jaG9pY2VzPy5bMF0/Lm1lc3NhZ2U/LmNvbnRlbnQgfHwgJyc7CiAgICAgICAgY29uc3QgcGFyc2VkID0gc2FmZVBhcnNlSnNvbkFycmF5KHJlcGx5KTsKCiAgICAgICAgaWYgKHBhcnNlZC5sZW5ndGggPT09IDAgJiYgcmVwbHkudHJpbSgpLmxlbmd0aCA+IDApIHsKICAgICAgICAgICAgY29uc29sZS53YXJuKGDwn4+wIFtHcm91cEV4dHJhY3Rpb25dIExMTSDov5Tlm57kuoblhoXlrrnkvYYgSlNPTiDop6PmnpDkuLrnqbrmlbDnu4TjgILljp/lp4vlm57lpI3liY0yMDDlrZc6ICR7cmVwbHkuc2xpY2UoMCwgMjAwKX1gKTsKICAgICAgICB9CgogICAgICAgIGNvbnN0IG1zZ1RpbWVzdGFtcHMgPSBtZXNzYWdlcy5tYXAobSA9PiBtLnRpbWVzdGFtcCkuZmlsdGVyKHQgPT4gdCA+IDApOwogICAgICAgIGNvbnN0IG1pZFRpbWUgPSBtc2dUaW1lc3RhbXBzLmxlbmd0aCA+IDAKICAgICAgICAgICAgPyBNYXRoLnJvdW5kKChtc2dUaW1lc3RhbXBzWzBdICsgbXNnVGltZXN0YW1wc1ttc2dUaW1lc3RhbXBzLmxlbmd0aCAtIDFdKSAvIDIpCiAgICAgICAgICAgIDogRGF0ZS5ub3coKTsKCiAgICAgICAgY29uc3QgZHJhZnRzOiBHcm91cE1lbW9yeURyYWZ0W10gPSBwYXJzZWQKICAgICAgICAgICAgLmZpbHRlcigoaXRlbTogYW55KSA9PiBpdGVtICYmIHR5cGVvZiBpdGVtLmNvbnRlbnQgPT09ICdzdHJpbmcnICYmIGl0ZW0uY29udGVudC50cmltKCkgJiYgaXRlbS5yb29tKQogICAgICAgICAgICAubWFwKChpdGVtOiBhbnkpOiBHcm91cE1lbW9yeURyYWZ0ID0+ICh7CiAgICAgICAgICAgICAgICBjb250ZW50OiBpdGVtLmNvbnRlbnQsCiAgICAgICAgICAgICAgICByb29tOiAoVkFMSURfUk9PTVMuaW5jbHVkZXMoaXRlbS5yb29tIGFzIE1lbW9yeVJvb20pID8gaXRlbS5yb29tIDogJ2xpdmluZ19yb29tJykgYXMgTWVtb3J5Um9vbSwKICAgICAgICAgICAgICAgIHRhZ3M6IEFycmF5LmlzQXJyYXkoaXRlbS50YWdzKSA/IGl0ZW0udGFncyA6IFtdLAogICAgICAgICAgICAgICAgaW1wb3J0YW5jZTogTWF0aC5tYXgoMSwgTWF0aC5taW4oMTAsIE1hdGgucm91bmQoaXRlbS5pbXBvcnRhbmNlIHx8IDUpKSksCiAgICAgICAgICAgICAgICBtb29kOiB0eXBlb2YgaXRlbS5tb29kID09PSAnc3RyaW5nJyA/IGl0ZW0ubW9vZCA6ICduZXV0cmFsJywKICAgICAgICAgICAgICAgIHZhbGVuY2U6IHR5cGVvZiBpdGVtLnZhbGVuY2UgPT09ICdudW1iZXInID8gY2xhbXBWQShpdGVtLnZhbGVuY2UpIDogdW5kZWZpbmVkLAogICAgICAgICAgICAgICAgYXJvdXNhbDogdHlwZW9mIGl0ZW0uYXJvdXNhbCA9PT0gJ251bWJlcicgPyBjbGFtcFZBKGl0ZW0uYXJvdXNhbCkgOiB1bmRlZmluZWQsCiAgICAgICAgICAgICAgICBjcmVhdGVkQXQ6IG1pZFRpbWUsCiAgICAgICAgICAgIH0pKTsKCiAgICAgICAgY29uc29sZS5sb2coYPCfj7AgW0dyb3VwRXh0cmFjdGlvbl0g5LuOICR7bWVzc2FnZXMubGVuZ3RofSDmnaHnvqTmtojmga/mj5Dlj5YgJHtkcmFmdHMubGVuZ3RofSDmnaHnvqTorrDlv4bojYnnqL9gKTsKICAgICAgICByZXR1cm4geyBkcmFmdHMgfTsKICAgIH0gY2F0Y2ggKGVycjogYW55KSB7CiAgICAgICAgY29uc29sZS53YXJuKGDinYwgW0dyb3VwRXh0cmFjdGlvbl0g576k6K6w5b+G5o+Q5Y+W5aSx6LSlICgke21lc3NhZ2VzLmxlbmd0aH0g5p2h5raI5oGvKTogJHtlcnIubWVzc2FnZX1gKTsKICAgICAgICByZXR1cm4geyBkcmFmdHM6IFtdIH07CiAgICB9Cn0K
+/**
+ * Group Memory Palace — 群聊记忆提取（第三人称版本，独立于私聊）
+ *
+ * 与 extraction.ts 的区别：
+ * - 视角是"群聊观察者"而非角色本人 → 第三人称叙事，主语是具体的角色名
+ * - 内容前缀统一为 "在【XXX群】里，..."，便于该记忆后续平等地分发给每个成员
+ * - 不参与便利贴系统（pinDays），不参与 relatedTo / EventBox 跨时间链接（v1 简化）
+ *
+ * 私聊路径完全不感知本文件存在。
+ */
+import type { Message } from '../../types';
+import type { MemoryRoom } from './types';
+import type { LightLLMConfig } from './pipeline';
+import { safeFetchJson } from '../safeApi';
+import { safeParseJsonArray } from './jsonUtils';
+
+/** 群记忆草稿——尚未指派 charId（一份记忆稍后会复制给每个成员持久化） */
+export interface GroupMemoryDraft {
+    content: string;
+    room: MemoryRoom;
+    tags: string[];
+    importance: number;
+    mood: string;
+    valence?: number;
+    arousal?: number;
+    /** 这批草稿对应的群消息时间窗中点（用于 createdAt） */
+    createdAt: number;
+}
+
+const VALID_ROOMS: MemoryRoom[] = [
+    'living_room', 'bedroom', 'study', 'user_room',
+    'self_room', 'attic', 'windowsill',
+];
+
+function clampVA(x: number): number {
+    if (Number.isNaN(x)) return 0;
+    if (x > 1) return 1;
+    if (x < -1) return -1;
+    return x;
+}
+
+function buildGroupRulesBlock(groupName: string, memberNames: string[], userLabel: string): string {
+    const memberList = memberNames.join('、');
+    return `## 规则
+
+1. **第三人称叙事**：你是【${groupName}】的群聊观察者，记录"群里发生了什么"。
+   - 用户称呼为"${userLabel}"，群成员名字直接用：${memberList}
+   - **绝对不要用"我"** —— 这条记忆会平等地发给群里每个成员，所以不能站在某一个人的视角
+   - 内容前缀统一为："在【${groupName}】里，..."
+   例：
+   - "在【${groupName}】里，${memberNames[0] || 'A'} 提起了最近在追的剧，${memberNames[1] || 'B'} 跟着安利，${userLabel} 表示已经被种草了。"
+   - "在【${groupName}】里，${memberNames[0] || 'A'} 抱怨了周末加班的事，大家分别支了一招，${memberNames[1] || 'B'} 让 ta 直接拒绝，${memberNames[2] || 'C'} 让 ta 先观望。"
+
+2. **重要性分级控制文字长度**：
+   - 重要性 1–5：20–60字，事实为主
+   - 重要性 6–7：60–140字，包含群里的氛围描写
+   - 重要性 8–10：120–220字，完整叙事（起因→经过→群里的反应）
+
+3. **房间分配**（注意视角是群整体）：
+   - living_room：群里的日常闲聊、玩梗、复读、无关紧要的活跃气氛
+   - bedroom：群里的暖心瞬间、深度互动、彼此关心或起哄逗 ${userLabel} 的时刻
+   - study：群里讨论工作 / 学习 / 兴趣 / 技能 / 新闻话题
+   - user_room：群里发生的、关于 ${userLabel} 的事——${userLabel} 在群里的状态、情绪、提到的家人朋友、被起哄等
+   - self_room：群成员之间的关系演变、群整体氛围的变化、谁和谁关系变好/变差
+   - attic：群里没解决的矛盾、尴尬冷场、被搁置的话题、暗流涌动的修罗场
+   - windowsill：群里立下的约定、共同期盼、群体目标（线下聚会、集体计划等）
+
+4. **情绪标签**（mood）：happy, sad, angry, anxious, tender, excited, peaceful, confused, hurt, grateful, nostalgic, neutral
+5. **情感坐标**（valence, arousal）：
+   - valence：-1（极痛苦）→ +1（极愉悦）
+   - arousal：-1（极平静）→ +1（极激烈）
+6. **标签**（tags）：提取 2-5 个关键词标签，最好包含涉及的角色名
+7. **不要遗漏值得记的事，但也不要把每句话都变成记忆**。一段群聊通常提取 1–5 条记忆。
+8. **不需要 pinDays / relatedTo / sameAs / eventName / eventTags** —— 群记忆 v1 不参与便利贴和事件盒系统。`;
+}
+
+function buildGroupConversationText(messages: Message[], speakerNameOf: (m: Message) => string): string {
+    return messages.map(m => {
+        const name = speakerNameOf(m);
+        const time = new Date(m.timestamp).toLocaleString([], { month: '2-digit', day: '2-digit', hour: '2-digit', minute: '2-digit' });
+        let content: string;
+        if (m.type === 'image') content = '[图片]';
+        else if (m.type === 'emoji') content = `[表情包]`;
+        else if (m.type === 'transfer') content = `[红包: ${m.metadata?.amount ?? ''}]`;
+        else content = (m.content || '').slice(0, 600);
+        return `[${time}] ${name}: ${content}`;
+    }).join('\n');
+}
+
+export interface GroupExtractionResult {
+    drafts: GroupMemoryDraft[];
+}
+
+/**
+ * 从群消息缓冲区提取记忆草稿。caller 拿到 drafts 后再为每个成员各持久化一份。
+ *
+ * 任何 LLM / 网络异常都吞掉，返回空 drafts 供 caller 跳过本轮——绝不抛到上层。
+ */
+export async function extractGroupMemoriesFromBuffer(
+    messages: Message[],
+    groupName: string,
+    memberNames: string[],
+    userLabel: string,
+    speakerNameOf: (m: Message) => string,
+    llmConfig: LightLLMConfig,
+): Promise<GroupExtractionResult> {
+    if (messages.length === 0) return { drafts: [] };
+
+    const conversationText = buildGroupConversationText(messages, speakerNameOf);
+    const memberList = memberNames.join('、');
+
+    const systemPrompt = `你是【${groupName}】的群聊观察者，请从以下群聊记录中提取值得记住的群聊记忆。
+群成员：${memberList}
+用户：${userLabel}
+
+${buildGroupRulesBlock(groupName, memberNames, userLabel)}
+
+## 输出格式
+
+严格 JSON 数组，不要 markdown 包裹：
+[
+  {
+    "content": "在【${groupName}】里，...",
+    "room": "living_room",
+    "importance": 5,
+    "mood": "neutral",
+    "valence": 0,
+    "arousal": 0,
+    "tags": ["标签1", "标签2"]
+  }
+]
+
+如果群聊过于琐碎无值得记忆的内容，返回空数组 []。`;
+
+    try {
+        const data = await safeFetchJson(
+            `${llmConfig.baseUrl.replace(/\/+$/, '')}/chat/completions`,
+            {
+                method: 'POST',
+                headers: {
+                    'Content-Type': 'application/json',
+                    'Authorization': `Bearer ${llmConfig.apiKey}`,
+                },
+                body: JSON.stringify({
+                    model: llmConfig.model,
+                    messages: [
+                        { role: 'system', content: systemPrompt },
+                        { role: 'user', content: `群聊记录：\n${conversationText}` },
+                    ],
+                    temperature: 0.4,
+                    max_tokens: 12000,
+                    stream: false,
+                }),
+            },
+            2, 180_000, { appName: '记忆宫殿', purpose: '群记忆提取' }
+        );
+
+        const reply = data.choices?.[0]?.message?.content || '';
+        const parsed = safeParseJsonArray(reply);
+
+        if (parsed.length === 0 && reply.trim().length > 0) {
+            console.warn(`🏰 [GroupExtraction] LLM 返回了内容但 JSON 解析为空数组。原始回复前200字: ${reply.slice(0, 200)}`);
+        }
+
+        const msgTimestamps = messages.map(m => m.timestamp).filter(t => t > 0);
+        const midTime = msgTimestamps.length > 0
+            ? Math.round((msgTimestamps[0] + msgTimestamps[msgTimestamps.length - 1]) / 2)
+            : Date.now();
+
+        const drafts: GroupMemoryDraft[] = parsed
+            .filter((item: any) => item && typeof item.content === 'string' && item.content.trim() && item.room)
+            .map((item: any): GroupMemoryDraft => ({
+                content: item.content,
+                room: (VALID_ROOMS.includes(item.room as MemoryRoom) ? item.room : 'living_room') as MemoryRoom,
+                tags: Array.isArray(item.tags) ? item.tags : [],
+                importance: Math.max(1, Math.min(10, Math.round(item.importance || 5))),
+                mood: typeof item.mood === 'string' ? item.mood : 'neutral',
+                valence: typeof item.valence === 'number' ? clampVA(item.valence) : undefined,
+                arousal: typeof item.arousal === 'number' ? clampVA(item.arousal) : undefined,
+                createdAt: midTime,
+            }));
+
+        console.log(`🏰 [GroupExtraction] 从 ${messages.length} 条群消息提取 ${drafts.length} 条群记忆草稿`);
+        return { drafts };
+    } catch (err: any) {
+        console.warn(`❌ [GroupExtraction] 群记忆提取失败 (${messages.length} 条消息): ${err.message}`);
+        return { drafts: [] };
+    }
+}

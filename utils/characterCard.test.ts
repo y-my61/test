@@ -1,1 +1,79 @@
-aW1wb3J0IHsgZGVzY3JpYmUsIGl0LCBleHBlY3QgfSBmcm9tICd2aXRlc3QnOwppbXBvcnQgeyBzdHJpcFNlbnNpdGl2ZUNhcmRGaWVsZHMsIENBUkRfU1RSSVBQRURfRklFTERTIH0gZnJvbSAnLi9jaGFyYWN0ZXJDYXJkJzsKCmRlc2NyaWJlKCdzdHJpcFNlbnNpdGl2ZUNhcmRGaWVsZHMnLCAoKSA9PiB7CiAgaXQoJ+WJpeemu+aJgOacieWGheW1jCBBUEkg5a+G6ZKl77yI5a+85Ye657ud5LiN5rOE5ryP5Yet5o2u77yJJywgKCkgPT4gewogICAgY29uc3QgY2FyZCA9IHsKICAgICAgbmFtZTogJ+Wwj+aYjicsCiAgICAgIHN5c3RlbVByb21wdDogJ+S9oOaYr+Wwj+aYjicsCiAgICAgIGVtb3Rpb25Db25maWc6IHsgZW5hYmxlZDogdHJ1ZSwgYXBpOiB7IGJhc2VVcmw6ICdodHRwczovL3gnLCBhcGlLZXk6ICdzay1TRUNSRVQnLCBtb2RlbDogJ2dwdCcgfSB9LAogICAgICBlbWJlZGRpbmdDb25maWc6IHsgYmFzZVVybDogJ2h0dHBzOi8veCcsIGFwaUtleTogJ3NrLVNFQ1JFVDInLCBtb2RlbDogJ2VtYicsIGRpbWVuc2lvbnM6IDEwMjQgfSwKICAgICAgcHJvYWN0aXZlQ29uZmlnOiB7IGVuYWJsZWQ6IHRydWUsIGludGVydmFsTWludXRlczogNjAsIHNlY29uZGFyeUFwaTogeyBiYXNlVXJsOiAnaHR0cHM6Ly94JywgYXBpS2V5OiAnc2stU0VDUkVUMycsIG1vZGVsOiAnZ3B0JyB9IH0sCiAgICAgIGFjdGl2ZU1zZzJDb25maWc6IHsgZW5hYmxlZDogdHJ1ZSwgc2Vjb25kYXJ5QXBpOiB7IGFwaUtleTogJ3NrLVNFQ1JFVDQnIH0gfSwKICAgIH07CgogICAgY29uc3Qgb3V0ID0gc3RyaXBTZW5zaXRpdmVDYXJkRmllbGRzKGNhcmQpOwogICAgY29uc3QganNvbiA9IEpTT04uc3RyaW5naWZ5KG91dCk7CgogICAgZXhwZWN0KG91dC5uYW1lKS50b0JlKCflsI/mmI4nKTsKICAgIGV4cGVjdChvdXQuc3lzdGVtUHJvbXB0KS50b0JlKCfkvaDmmK/lsI/mmI4nKTsKICAgIGV4cGVjdChqc29uKS5ub3QudG9Db250YWluKCdzay1TRUNSRVQnKTsKICAgIGV4cGVjdChvdXQpLm5vdC50b0hhdmVQcm9wZXJ0eSgnZW1vdGlvbkNvbmZpZycpOwogICAgZXhwZWN0KG91dCkubm90LnRvSGF2ZVByb3BlcnR5KCdlbWJlZGRpbmdDb25maWcnKTsKICAgIGV4cGVjdChvdXQpLm5vdC50b0hhdmVQcm9wZXJ0eSgncHJvYWN0aXZlQ29uZmlnJyk7CiAgICBleHBlY3Qob3V0KS5ub3QudG9IYXZlUHJvcGVydHkoJ2FjdGl2ZU1zZzJDb25maWcnKTsKICB9KTsKCiAgaXQoJ+WJpeemu+e+juWMliAvIOivreiogCAvIOi/kOihjOaXtueKtuaAge+8jOS/neeVmeinkuiJsuacrOi6qycsICgpID0+IHsKICAgIGNvbnN0IGNhcmQgPSB7CiAgICAgIG5hbWU6ICflsI/nuqInLAogICAgICBzeXN0ZW1Qcm9tcHQ6ICdzcCcsCiAgICAgIHdvcmxkdmlldzogJ+S4lueVjOingicsCiAgICAgIHNwcml0ZXM6IHsgaGFwcHk6ICdkYXRhOmltZycgfSwKICAgICAgLy8g576O5YyWCiAgICAgIGJ1YmJsZVN0eWxlOiAndGhlbWUtMScsCiAgICAgIGNoYXRGaW5lVHVuZTogeyBlbmFibGVkOiB0cnVlLCBjaGF0QnViYmxlRm9udFNpemU6IDE0IH0sCiAgICAgIGNocm9tZUN1c3RvbUNzczogJy54e30nLAogICAgICBlbWJlZGRlZFRoZW1lOiB7IGlkOiAndDEnIH0sCiAgICAgIGNoYXRCYWNrZ3JvdW5kOiAnYmcnLAogICAgICAvLyDor63oqIAKICAgICAgY2hhdFZvaWNlTGFuZzogJ2phJywKICAgICAgZGF0ZVZvaWNlTGFuZzogJ2VuJywKICAgICAgLy8g6L+Q6KGM5pe254q25oCBCiAgICAgIGFjdGl2ZUJ1ZmZzOiBbeyBpZDogJ2IxJyB9XSwKICAgICAgYnVmZkluamVjdGlvbjogJ++8iOW8gOW/g++8iScsCiAgICAgIHBob25lU3RhdGU6IHsgcmVjb3JkczogW10gfSwKICAgICAgc2F2ZWREYXRlU3RhdGU6IHsgZm9vOiAxIH0sCiAgICB9OwoKICAgIGNvbnN0IG91dCA9IHN0cmlwU2Vuc2l0aXZlQ2FyZEZpZWxkcyhjYXJkKTsKCiAgICAvLyDop5LoibLmnKzouqvkv53nlZkKICAgIGV4cGVjdChvdXQubmFtZSkudG9CZSgn5bCP57qiJyk7CiAgICBleHBlY3Qob3V0LndvcmxkdmlldykudG9CZSgn5LiW55WM6KeCJyk7CiAgICBleHBlY3Qob3V0LnNwcml0ZXMpLnRvRXF1YWwoeyBoYXBweTogJ2RhdGE6aW1nJyB9KTsKCiAgICAvLyDlhajpg6jooqvliaXnprsKICAgIGZvciAoY29uc3Qga2V5IG9mIFsnYnViYmxlU3R5bGUnLCAnY2hhdEZpbmVUdW5lJywgJ2Nocm9tZUN1c3RvbUNzcycsICdlbWJlZGRlZFRoZW1lJywgJ2NoYXRCYWNrZ3JvdW5kJywKICAgICAgJ2NoYXRWb2ljZUxhbmcnLCAnZGF0ZVZvaWNlTGFuZycsICdhY3RpdmVCdWZmcycsICdidWZmSW5qZWN0aW9uJywgJ3Bob25lU3RhdGUnLCAnc2F2ZWREYXRlU3RhdGUnXSkgewogICAgICBleHBlY3Qob3V0KS5ub3QudG9IYXZlUHJvcGVydHkoa2V5KTsKICAgIH0KICB9KTsKCiAgaXQoJ+S4jeS/ruaUueWOn+Wvueixoe+8iOi/lOWbnua1heaLt+i0ne+8iScsICgpID0+IHsKICAgIGNvbnN0IGNhcmQgPSB7IG5hbWU6ICd4JywgZW1vdGlvbkNvbmZpZzogeyBlbmFibGVkOiB0cnVlLCBhcGk6IHsgYXBpS2V5OiAnc2snIH0gfSB9OwogICAgc3RyaXBTZW5zaXRpdmVDYXJkRmllbGRzKGNhcmQpOwogICAgZXhwZWN0KGNhcmQpLnRvSGF2ZVByb3BlcnR5KCdlbW90aW9uQ29uZmlnJyk7CiAgfSk7CgogIGl0KCflr7nnvLrlpLHlrZfmrrXlronlhajvvIjkuI3kvJrmipvplJnvvIknLCAoKSA9PiB7CiAgICBleHBlY3QoKCkgPT4gc3RyaXBTZW5zaXRpdmVDYXJkRmllbGRzKHsgbmFtZTogJ3gnIH0pKS5ub3QudG9UaHJvdygpOwogICAgZXhwZWN0KHN0cmlwU2Vuc2l0aXZlQ2FyZEZpZWxkcyh7IG5hbWU6ICd4JyB9KSkudG9FcXVhbCh7IG5hbWU6ICd4JyB9KTsKICB9KTsKCiAgaXQoJ+a4heWNleimhuebluWbm+exu+aVj+aEn+Wtl+autScsICgpID0+IHsKICAgIGZvciAoY29uc3QgayBvZiBbJ2Vtb3Rpb25Db25maWcnLCAnZW1iZWRkaW5nQ29uZmlnJywgJ2J1YmJsZVN0eWxlJywgJ2NoYXRWb2ljZUxhbmcnLCAnYWN0aXZlQnVmZnMnLCAncGhvbmVTdGF0ZSddKSB7CiAgICAgIGV4cGVjdChDQVJEX1NUUklQUEVEX0ZJRUxEUykudG9Db250YWluKGspOwogICAgfQogIH0pOwp9KTsK
+import { describe, it, expect } from 'vitest';
+import { stripSensitiveCardFields, CARD_STRIPPED_FIELDS } from './characterCard';
+
+describe('stripSensitiveCardFields', () => {
+  it('剥离所有内嵌 API 密钥（导出绝不泄漏凭据）', () => {
+    const card = {
+      name: '小明',
+      systemPrompt: '你是小明',
+      emotionConfig: { enabled: true, api: { baseUrl: 'https://x', apiKey: 'sk-SECRET', model: 'gpt' } },
+      embeddingConfig: { baseUrl: 'https://x', apiKey: 'sk-SECRET2', model: 'emb', dimensions: 1024 },
+      proactiveConfig: { enabled: true, intervalMinutes: 60, secondaryApi: { baseUrl: 'https://x', apiKey: 'sk-SECRET3', model: 'gpt' } },
+      activeMsg2Config: { enabled: true, secondaryApi: { apiKey: 'sk-SECRET4' } },
+    };
+
+    const out = stripSensitiveCardFields(card);
+    const json = JSON.stringify(out);
+
+    expect(out.name).toBe('小明');
+    expect(out.systemPrompt).toBe('你是小明');
+    expect(json).not.toContain('sk-SECRET');
+    expect(out).not.toHaveProperty('emotionConfig');
+    expect(out).not.toHaveProperty('embeddingConfig');
+    expect(out).not.toHaveProperty('proactiveConfig');
+    expect(out).not.toHaveProperty('activeMsg2Config');
+  });
+
+  it('剥离美化 / 语言 / 运行时状态，保留角色本身', () => {
+    const card = {
+      name: '小红',
+      systemPrompt: 'sp',
+      worldview: '世界观',
+      sprites: { happy: 'data:img' },
+      // 美化
+      bubbleStyle: 'theme-1',
+      chatFineTune: { enabled: true, chatBubbleFontSize: 14 },
+      chromeCustomCss: '.x{}',
+      embeddedTheme: { id: 't1' },
+      chatBackground: 'bg',
+      // 语言
+      chatVoiceLang: 'ja',
+      dateVoiceLang: 'en',
+      // 运行时状态
+      activeBuffs: [{ id: 'b1' }],
+      buffInjection: '（开心）',
+      phoneState: { records: [] },
+      savedDateState: { foo: 1 },
+    };
+
+    const out = stripSensitiveCardFields(card);
+
+    // 角色本身保留
+    expect(out.name).toBe('小红');
+    expect(out.worldview).toBe('世界观');
+    expect(out.sprites).toEqual({ happy: 'data:img' });
+
+    // 全部被剥离
+    for (const key of ['bubbleStyle', 'chatFineTune', 'chromeCustomCss', 'embeddedTheme', 'chatBackground',
+      'chatVoiceLang', 'dateVoiceLang', 'activeBuffs', 'buffInjection', 'phoneState', 'savedDateState']) {
+      expect(out).not.toHaveProperty(key);
+    }
+  });
+
+  it('不修改原对象（返回浅拷贝）', () => {
+    const card = { name: 'x', emotionConfig: { enabled: true, api: { apiKey: 'sk' } } };
+    stripSensitiveCardFields(card);
+    expect(card).toHaveProperty('emotionConfig');
+  });
+
+  it('对缺失字段安全（不会抛错）', () => {
+    expect(() => stripSensitiveCardFields({ name: 'x' })).not.toThrow();
+    expect(stripSensitiveCardFields({ name: 'x' })).toEqual({ name: 'x' });
+  });
+
+  it('清单覆盖四类敏感字段', () => {
+    for (const k of ['emotionConfig', 'embeddingConfig', 'bubbleStyle', 'chatVoiceLang', 'activeBuffs', 'phoneState']) {
+      expect(CARD_STRIPPED_FIELDS).toContain(k);
+    }
+  });
+});

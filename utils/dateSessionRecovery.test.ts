@@ -1,1 +1,85 @@
-aW1wb3J0IHsgZGVzY3JpYmUsIGl0LCBleHBlY3QsIGFmdGVyRWFjaCwgdmkgfSBmcm9tICd2aXRlc3QnOwppbXBvcnQgewogICAgYXJtRGF0ZVJlc3VtZUF0dGVtcHQsCiAgICBjbGVhckRhdGVSZXN1bWVBdHRlbXB0LAogICAgdGFrZUNyYXNoZWREYXRlUmVzdW1lLAp9IGZyb20gJy4vZGF0ZVNlc3Npb25SZWNvdmVyeSc7CgovLyDplIHkvY/op4HpnaLjgIznu6fnu63kuIrmrKHjgI3ltKnmuoPoh6rmhIjnmoTkuKTmrrXlvI/miqTmoI86Ci8vIGFybSjmgaLlpI3lvIDlp4spIOKGkiBjbGVhcijmgaLlpI3miJDlip8v5bmy5YeA6YCA5Ye6KTsg6Iul6L+b56iL5Zyo5Lik6ICF5LmL6Ze06KKrIGlPUyBXZWJLaXQg5p2A5o6JLAovLyDlk6jlhbXmrovnlZksIOS4i+asoSB0YWtlIOivu+WIsCA9IOS4iuasoeaBouWkjeW0qeS6hiDihpIg6LCD55So5pa55Lii5byD5pyJ5q+S55qEIHNhdmVkRGF0ZVN0YXRl44CCCi8vCi8vIOa1i+ivleeOr+Wig+aYryBub2RlICjml6Agc2Vzc2lvblN0b3JhZ2Up77yM55SoIE1hcCDlkI7nq6/nmoQgc3R1YiDmqKHmi5/vvIzkuI4gY2h1bmtMb2FkUmVjb3ZlcnkudGVzdC50cyDkuIDoh7TjgIIKCmNvbnN0IEtFWSA9ICdzdWxseW9zX2RhdGVfcmVzdW1lX2F0dGVtcHQnOwoKY29uc3Qgc3R1YlNlc3Npb25TdG9yYWdlID0gKCkgPT4gewogICAgY29uc3Qgc3RvcmUgPSBuZXcgTWFwPHN0cmluZywgc3RyaW5nPigpOwogICAgdmkuc3R1Ykdsb2JhbCgnc2Vzc2lvblN0b3JhZ2UnLCB7CiAgICAgICAgZ2V0SXRlbTogKGs6IHN0cmluZykgPT4gKHN0b3JlLmhhcyhrKSA/IHN0b3JlLmdldChrKSEgOiBudWxsKSwKICAgICAgICBzZXRJdGVtOiAoazogc3RyaW5nLCB2OiBzdHJpbmcpID0+IHsgc3RvcmUuc2V0KGssIFN0cmluZyh2KSk7IH0sCiAgICAgICAgcmVtb3ZlSXRlbTogKGs6IHN0cmluZykgPT4geyBzdG9yZS5kZWxldGUoayk7IH0sCiAgICAgICAgY2xlYXI6ICgpID0+IHsgc3RvcmUuY2xlYXIoKTsgfSwKICAgIH0pOwogICAgcmV0dXJuIHN0b3JlOwp9OwoKYWZ0ZXJFYWNoKCgpID0+IHsKICAgIHZpLnVuc3R1YkFsbEdsb2JhbHMoKTsKICAgIHZpLnJlc3RvcmVBbGxNb2NrcygpOwp9KTsKCmRlc2NyaWJlKCdkYXRlU2Vzc2lvblJlY292ZXJ5IOS4pOauteW8j+aKpOagjycsICgpID0+IHsKICAgIGl0KCdhcm0g5ZCO5q2j5bi4IGNsZWFy77yI5oGi5aSN5oiQ5Yqf77yJ4oaSIOWGjei/m+ingemdouaXoOaui+eVmScsICgpID0+IHsKICAgICAgICBzdHViU2Vzc2lvblN0b3JhZ2UoKTsKICAgICAgICBhcm1EYXRlUmVzdW1lQXR0ZW1wdCgnY2hhci0xJyk7CiAgICAgICAgY2xlYXJEYXRlUmVzdW1lQXR0ZW1wdCgpOwogICAgICAgIGV4cGVjdCh0YWtlQ3Jhc2hlZERhdGVSZXN1bWUoKSkudG9CZU51bGwoKTsKICAgIH0pOwoKICAgIGl0KCdhcm0g5ZCO5rKhIGNsZWFy77yI6L+b56iL5bSp5rqD77yJ4oaSIOS4i+asoei/m+ingemdouajgOWHuuW0qea6g+eahCBjaGFySWQnLCAoKSA9PiB7CiAgICAgICAgc3R1YlNlc3Npb25TdG9yYWdlKCk7CiAgICAgICAgYXJtRGF0ZVJlc3VtZUF0dGVtcHQoJ2NoYXItNDInKTsKICAgICAgICAvLyDmqKHmi5/ltKnmuoMgKyByZWxvYWTvvJpzZXNzaW9uU3RvcmFnZSDlnKjlkIzkuIAgdGFiIOS8muivneWGheeVmeWtmO+8jOWTqOWFteS7jeWcqAogICAgICAgIGV4cGVjdCh0YWtlQ3Jhc2hlZERhdGVSZXN1bWUoKSkudG9CZSgnY2hhci00MicpOwogICAgfSk7CgogICAgaXQoJ3Rha2Ug5Y+q6K+75LiA5qyh77ya6K+75Yiw5ZCO6Ieq5Yqo5riF6Zmk77yM56ys5LqM5qyh6L+U5ZueIG51bGwnLCAoKSA9PiB7CiAgICAgICAgc3R1YlNlc3Npb25TdG9yYWdlKCk7CiAgICAgICAgYXJtRGF0ZVJlc3VtZUF0dGVtcHQoJ2NoYXItNycpOwogICAgICAgIGV4cGVjdCh0YWtlQ3Jhc2hlZERhdGVSZXN1bWUoKSkudG9CZSgnY2hhci03Jyk7CiAgICAgICAgZXhwZWN0KHRha2VDcmFzaGVkRGF0ZVJlc3VtZSgpKS50b0JlTnVsbCgpOwogICAgfSk7CgogICAgaXQoJ+S7juacqiBhcm0g4oaSIHRha2Ug6L+U5ZueIG51bGzvvIjmraPluLjlhajmlrDov5vlhaXkuI3or6/kvKTvvIknLCAoKSA9PiB7CiAgICAgICAgc3R1YlNlc3Npb25TdG9yYWdlKCk7CiAgICAgICAgZXhwZWN0KHRha2VDcmFzaGVkRGF0ZVJlc3VtZSgpKS50b0JlTnVsbCgpOwogICAgfSk7CgogICAgaXQoJ+WQjuS4gOasoSBhcm0g6KaG55uW5YmN5LiA5qyh55qEIGNoYXJJZCcsICgpID0+IHsKICAgICAgICBzdHViU2Vzc2lvblN0b3JhZ2UoKTsKICAgICAgICBhcm1EYXRlUmVzdW1lQXR0ZW1wdCgnY2hhci1hJyk7CiAgICAgICAgYXJtRGF0ZVJlc3VtZUF0dGVtcHQoJ2NoYXItYicpOwogICAgICAgIGV4cGVjdCh0YWtlQ3Jhc2hlZERhdGVSZXN1bWUoKSkudG9CZSgnY2hhci1iJyk7CiAgICB9KTsKCiAgICBpdCgn5ZOo5YW15YaF5a655o2f5Z2P77yI6Z2e5rOVIEpTT07vvInihpIgdGFrZSDlronlhajov5Tlm54gbnVsbO+8jOS4jeaKm+W8guW4uO+8jOW5tua4hemZpCcsICgpID0+IHsKICAgICAgICBjb25zdCBzdG9yZSA9IHN0dWJTZXNzaW9uU3RvcmFnZSgpOwogICAgICAgIHN0b3JlLnNldChLRVksICd7bm90IHZhbGlkIGpzb24nKTsKICAgICAgICBleHBlY3QoKCkgPT4gdGFrZUNyYXNoZWREYXRlUmVzdW1lKCkpLm5vdC50b1Rocm93KCk7CiAgICAgICAgZXhwZWN0KHN0b3JlLmhhcyhLRVkpKS50b0JlKGZhbHNlKTsKICAgIH0pOwoKICAgIGl0KCflk6jlhbXnvLogY2hhcklkIOWtl+autSDihpIgdGFrZSDov5Tlm54gbnVsbCcsICgpID0+IHsKICAgICAgICBjb25zdCBzdG9yZSA9IHN0dWJTZXNzaW9uU3RvcmFnZSgpOwogICAgICAgIHN0b3JlLnNldChLRVksIEpTT04uc3RyaW5naWZ5KHsgYXQ6IDEyMyB9KSk7CiAgICAgICAgZXhwZWN0KHRha2VDcmFzaGVkRGF0ZVJlc3VtZSgpKS50b0JlTnVsbCgpOwogICAgfSk7CgogICAgaXQoJ3Nlc3Npb25TdG9yYWdlIOS4jeWPr+eUqOaXtumdmem7mOmZjee6p++8jOS4jeW9seWTjeiwg+eUqOaWuScsICgpID0+IHsKICAgICAgICAvLyDkuI0gc3R1YiBzZXNzaW9uU3RvcmFnZSDihpIg6K6/6Zeu5oqbIFJlZmVyZW5jZUVycm9yIOKGkiDlhoXpg6ggY2F0Y2gKICAgICAgICBleHBlY3QoKCkgPT4gYXJtRGF0ZVJlc3VtZUF0dGVtcHQoJ2NoYXIteCcpKS5ub3QudG9UaHJvdygpOwogICAgICAgIGV4cGVjdCgoKSA9PiBjbGVhckRhdGVSZXN1bWVBdHRlbXB0KCkpLm5vdC50b1Rocm93KCk7CiAgICAgICAgZXhwZWN0KHRha2VDcmFzaGVkRGF0ZVJlc3VtZSgpKS50b0JlTnVsbCgpOwogICAgfSk7Cn0pOwo=
+import { describe, it, expect, afterEach, vi } from 'vitest';
+import {
+    armDateResumeAttempt,
+    clearDateResumeAttempt,
+    takeCrashedDateResume,
+} from './dateSessionRecovery';
+
+// 锁住见面「继续上次」崩溃自愈的两段式护栏:
+// arm(恢复开始) → clear(恢复成功/干净退出); 若进程在两者之间被 iOS WebKit 杀掉,
+// 哨兵残留, 下次 take 读到 = 上次恢复崩了 → 调用方丢弃有毒的 savedDateState。
+//
+// 测试环境是 node (无 sessionStorage)，用 Map 后端的 stub 模拟，与 chunkLoadRecovery.test.ts 一致。
+
+const KEY = 'sullyos_date_resume_attempt';
+
+const stubSessionStorage = () => {
+    const store = new Map<string, string>();
+    vi.stubGlobal('sessionStorage', {
+        getItem: (k: string) => (store.has(k) ? store.get(k)! : null),
+        setItem: (k: string, v: string) => { store.set(k, String(v)); },
+        removeItem: (k: string) => { store.delete(k); },
+        clear: () => { store.clear(); },
+    });
+    return store;
+};
+
+afterEach(() => {
+    vi.unstubAllGlobals();
+    vi.restoreAllMocks();
+});
+
+describe('dateSessionRecovery 两段式护栏', () => {
+    it('arm 后正常 clear（恢复成功）→ 再进见面无残留', () => {
+        stubSessionStorage();
+        armDateResumeAttempt('char-1');
+        clearDateResumeAttempt();
+        expect(takeCrashedDateResume()).toBeNull();
+    });
+
+    it('arm 后没 clear（进程崩溃）→ 下次进见面检出崩溃的 charId', () => {
+        stubSessionStorage();
+        armDateResumeAttempt('char-42');
+        // 模拟崩溃 + reload：sessionStorage 在同一 tab 会话内留存，哨兵仍在
+        expect(takeCrashedDateResume()).toBe('char-42');
+    });
+
+    it('take 只读一次：读到后自动清除，第二次返回 null', () => {
+        stubSessionStorage();
+        armDateResumeAttempt('char-7');
+        expect(takeCrashedDateResume()).toBe('char-7');
+        expect(takeCrashedDateResume()).toBeNull();
+    });
+
+    it('从未 arm → take 返回 null（正常全新进入不误伤）', () => {
+        stubSessionStorage();
+        expect(takeCrashedDateResume()).toBeNull();
+    });
+
+    it('后一次 arm 覆盖前一次的 charId', () => {
+        stubSessionStorage();
+        armDateResumeAttempt('char-a');
+        armDateResumeAttempt('char-b');
+        expect(takeCrashedDateResume()).toBe('char-b');
+    });
+
+    it('哨兵内容损坏（非法 JSON）→ take 安全返回 null，不抛异常，并清除', () => {
+        const store = stubSessionStorage();
+        store.set(KEY, '{not valid json');
+        expect(() => takeCrashedDateResume()).not.toThrow();
+        expect(store.has(KEY)).toBe(false);
+    });
+
+    it('哨兵缺 charId 字段 → take 返回 null', () => {
+        const store = stubSessionStorage();
+        store.set(KEY, JSON.stringify({ at: 123 }));
+        expect(takeCrashedDateResume()).toBeNull();
+    });
+
+    it('sessionStorage 不可用时静默降级，不影响调用方', () => {
+        // 不 stub sessionStorage → 访问抛 ReferenceError → 内部 catch
+        expect(() => armDateResumeAttempt('char-x')).not.toThrow();
+        expect(() => clearDateResumeAttempt()).not.toThrow();
+        expect(takeCrashedDateResume()).toBeNull();
+    });
+});

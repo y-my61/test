@@ -1,1 +1,265 @@
-LyoqCiAqIFBpeGVsIEhvbWUg4oCUIOWDj+e0oOWwj+S6uueUn+aIkOWZqO+8iOWfuuS6juWbvuWxgue0oOadkOeJiO+8iQogKgogKiDntKDmnZDkvY3kuo4gcHVibGljL3BpeGVsLWNoYXIv77yM5oyJ5Zu+5bGC5LuO5ZCO5Yiw5YmN5ZCI5oiQ77yaCiAqICAgMy3lkI7lj5EgIOKGkiAyLei6q+S9kyjogqToibIr6KGj5pyNK+ijpOWtkCvnur/nqL8pIOKGkiAxLeecvOedmyjpopzoibLlupUr57q/56i/KSDihpIgMC3liY3lj5Eo6aKc6Imy5bqVK+e6v+eovykKICoKICog5q+P5LiA5bGC55qEIuminOiJsuW6leWbviLmmK/nuq/oibIgYWxwaGEg6JKZ54mI77yM6YCa6L+HIENhbnZhcyDnmoQgc291cmNlLWluIOWQiOaIkOabv+aNouS4uueUqOaIt+mAieaLqeeahOminOiJsu+8mwogKiDnhLblkI7lj6DliqDlkIzkuIDkvY3nva7nmoTpu5HoibLnur/nqL/lvpfliLDmnIDnu4jlg4/ntKDlsI/kurrjgIIKICovCgpleHBvcnQgY29uc3QgQVNTRVRfU0laRSA9IHsgdzogNTMsIGg6IDU2IH07CmNvbnN0IE9VVFBVVF9TQ0FMRSA9IDQ7IC8vIOi+k+WHuuWGjeaUvuWkp++8iOS/neaMgeWDj+e0oOmjju+8iQoKY29uc3QgQkFTRV9VUkwgPSAoaW1wb3J0Lm1ldGEgYXMgYW55KS5lbnY/LkJBU0VfVVJMID8/ICcvJzsKY29uc3QgYXNzZXQgPSAocDogc3RyaW5nKSA9PiBgJHtCQVNFX1VSTH1waXhlbC1jaGFyLyR7cH1gLnJlcGxhY2UoL1wvKy9nLCAnLycpOwoKZXhwb3J0IGNvbnN0IEZST05UX0hBSVJfQ09VTlQgPSA0OwpleHBvcnQgY29uc3QgQkFDS19IQUlSX0NPVU5UID0gNDsKZXhwb3J0IGNvbnN0IEVZRV9DT1VOVCA9IDM7CgpleHBvcnQgY29uc3QgRlJPTlRfSEFJUl9OQU1FUyA9IFsn5YmN5Y+RQScsICfliY3lj5FCJywgJ+WJjeWPkUMnLCAn5YmN5Y+RRCddOwpleHBvcnQgY29uc3QgQkFDS19IQUlSX05BTUVTID0gWyflkI7lj5FBJywgJ+WQjuWPkUInLCAn5ZCO5Y+RQycsICflkI7lj5FEJ107CmV4cG9ydCBjb25zdCBFWUVfTkFNRVMgPSBbJ+ecvOWeizEnLCAn55y85Z6LMicsICfnnLzlnoszJ107CgpleHBvcnQgaW50ZXJmYWNlIFBpeGVsQ2hhckNvbmZpZyB7CiAgLyoqIOWJjeWPkeagt+W8j++8jDEuLjTvvJswIOihqOekuuS4jeaItOWJjeWPkSAqLwogIGZyb250SGFpcjogbnVtYmVyOwogIC8qKiDlkI7lj5HmoLflvI/vvIwxLi4077ybMCDooajnpLrkuI3miLTlkI7lj5EgKi8KICBiYWNrSGFpcjogbnVtYmVyOwogIC8qKiDnnLznnZvmoLflvI/vvIwxLi4zICovCiAgZXllczogbnVtYmVyOwogIC8qKiDlpLTlj5HpopzoibLvvIjlkIzml7bkvZznlKjkuo7liY3lj5EgKyDlkI7lj5HvvIkgKi8KICBoYWlyQ29sb3I6IHN0cmluZzsKICAvKiog55y8552b6aKc6ImyICovCiAgZXllQ29sb3I6IHN0cmluZzsKICAvKiog6IKk6Imy77yIYm9keSDloavlhYXvvIkgKi8KICBza2luVG9uZTogc3RyaW5nOwogIC8qKiDkuIrooaPpopzoibIgKi8KICBvdXRmaXRDb2xvcjogc3RyaW5nOwogIC8qKiDoo6TlrZDpopzoibIgKi8KICBvdXRmaXRDb2xvcjI6IHN0cmluZzsKICAvKiog55So5oi355u05o6l5LiK5Lyg55qE5YOP57Sg5bCP5Lq6IGRhdGEgVVJJ77yI6Lez6L+H5ZCI5oiQ77yJICovCiAgY3VzdG9tU3ByaXRlPzogc3RyaW5nOwogIC8qKiDnlKjmiLflnKjnlLvluIPkuIrmiYvnu5jopobnm5bnmoTlg4/ntKDvvJoieCx5IiAtPiDpopzoibLvvIjmiJYgJ3RyYW5zcGFyZW50JyDooajnpLrmk6bpmaTvvIkgKi8KICBjdXN0b21QaXhlbHM/OiBSZWNvcmQ8c3RyaW5nLCBzdHJpbmc+OwoKICAvLyDilIDilIAg5pen5a2X5q615L+d55WZ5Li65Y+v6YCJ77yM6YG/5YWN6K+75Yiw6ICB5a2Y5qGj5pe2IFRTIOaKpemUmSDilIDilIAKICBoYWlyU3R5bGU/OiBudW1iZXI7Cn0KCmV4cG9ydCBjb25zdCBERUZBVUxUX0NPTkZJRzogUGl4ZWxDaGFyQ29uZmlnID0gewogIGZyb250SGFpcjogMSwKICBiYWNrSGFpcjogMSwKICBleWVzOiAxLAogIGhhaXJDb2xvcjogJyM4YjY5MTQnLAogIGV5ZUNvbG9yOiAnIzRhMzcyOCcsCiAgc2tpblRvbmU6ICcjZmNkNWI0JywKICBvdXRmaXRDb2xvcjogJyMxZTkwZmYnLAogIG91dGZpdENvbG9yMjogJyMyZDM3NDgnLAp9OwoKZXhwb3J0IGNvbnN0IEhBSVJfQ09MT1JTID0gWwogICcjMWExYTJlJywgJyMyZDM3NDgnLCAnIzRhMzcyOCcsICcjOGI2OTE0JywKICAnI2Q0YTAxNycsICcjZTg3NDYxJywgJyNjMDM5MmInLCAnI2Y1YjdiMScsCiAgJyNhNzhiZmEnLCAnI2UyZThmMCcsICcjZjRhNDYwJywgJyNmZjZiOWQnLApdOwoKZXhwb3J0IGNvbnN0IEVZRV9DT0xPUlMgPSBbCiAgJyM2M2IzZWQnLCAnIzQ4YmI3OCcsICcjZjZhZDU1JywgJyNmYzgxODEnLAogICcjYjc5NGY0JywgJyMyZDM3NDgnLCAnI2U1M2UzZScsICcjZDY5ZTJlJywKICAnIzRhMzcyOCcsICcjMWExYTJlJywKXTsKCmV4cG9ydCBjb25zdCBTS0lOX1RPTkVTID0gWwogICcjZmNlNGQ2JywgJyNmY2Q1YjQnLCAnI2YwYzA5MCcsICcjZDRhNTc0JywKICAnI2M2ODY0MicsICcjOGQ1NTI0JywgJyM3MDM2MWMnLApdOwoKZXhwb3J0IGNvbnN0IE9VVEZJVF9DT0xPUlMgPSBbCiAgJyMyZDM3NDgnLCAnIzFlM2E1ZicsICcjMWE0NzMxJywgJyM1YjFhMWEnLAogICcjNGExYTVlJywgJyNlMmU4ZjAnLCAnI2Y1ZjBlMScsICcjYzQxZTNhJywKICAnIzFlOTBmZicsICcjZmY2MzQ3JywgJyMyZWNjNzEnLCAnI2YzOWMxMicsCiAgJyNmZjZiOWQnLCAnI2E3OGJmYScsICcjMTExMTExJywgJyNmZmZmZmYnLApdOwoKLy8g4pSA4pSA4pSAIOWbvueJh+WKoOi9vSDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIAKCmNvbnN0IGltZ0NhY2hlID0gbmV3IE1hcDxzdHJpbmcsIFByb21pc2U8SFRNTEltYWdlRWxlbWVudD4+KCk7CmZ1bmN0aW9uIGxvYWRJbWFnZShzcmM6IHN0cmluZyk6IFByb21pc2U8SFRNTEltYWdlRWxlbWVudD4gewogIGxldCBwID0gaW1nQ2FjaGUuZ2V0KHNyYyk7CiAgaWYgKHApIHJldHVybiBwOwogIHAgPSBuZXcgUHJvbWlzZSgocmVzb2x2ZSwgcmVqZWN0KSA9PiB7CiAgICBjb25zdCBpbWcgPSBuZXcgSW1hZ2UoKTsKICAgIGltZy5jcm9zc09yaWdpbiA9ICdhbm9ueW1vdXMnOwogICAgaW1nLm9ubG9hZCA9ICgpID0+IHJlc29sdmUoaW1nKTsKICAgIGltZy5vbmVycm9yID0gKGUpID0+IHJlamVjdChuZXcgRXJyb3IoYEZhaWxlZCB0byBsb2FkICR7c3JjfTogJHtlfWApKTsKICAgIGltZy5zcmMgPSBzcmM7CiAgfSk7CiAgaW1nQ2FjaGUuc2V0KHNyYywgcCk7CiAgcmV0dXJuIHA7Cn0KCi8qKiDmiorpopzoibLlupXlm77mjIkgYWxwaGEg6JKZ54mI6LS05LiK5oyH5a6a6aKc6ImyICovCmZ1bmN0aW9uIGRyYXdUaW50ZWQoCiAgZHN0OiBDYW52YXNSZW5kZXJpbmdDb250ZXh0MkQsCiAgbWFza0ltZzogSFRNTEltYWdlRWxlbWVudCwKICBjb2xvcjogc3RyaW5nLAopIHsKICBjb25zdCB0bXAgPSBkb2N1bWVudC5jcmVhdGVFbGVtZW50KCdjYW52YXMnKTsKICB0bXAud2lkdGggPSBBU1NFVF9TSVpFLnc7CiAgdG1wLmhlaWdodCA9IEFTU0VUX1NJWkUuaDsKICBjb25zdCB0Y3R4ID0gdG1wLmdldENvbnRleHQoJzJkJykhOwogIHRjdHguaW1hZ2VTbW9vdGhpbmdFbmFibGVkID0gZmFsc2U7CiAgdGN0eC5kcmF3SW1hZ2UobWFza0ltZywgMCwgMCk7CiAgdGN0eC5nbG9iYWxDb21wb3NpdGVPcGVyYXRpb24gPSAnc291cmNlLWluJzsKICB0Y3R4LmZpbGxTdHlsZSA9IGNvbG9yOwogIHRjdHguZmlsbFJlY3QoMCwgMCwgdG1wLndpZHRoLCB0bXAuaGVpZ2h0KTsKICBkc3QuZHJhd0ltYWdlKHRtcCwgMCwgMCk7Cn0KCi8vIOKUgOKUgOKUgCDlkIjmiJAg4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSACgpleHBvcnQgYXN5bmMgZnVuY3Rpb24gZ2VuZXJhdGVQaXhlbENoYXIoY29uZmlnOiBQaXhlbENoYXJDb25maWcpOiBQcm9taXNlPHN0cmluZz4gewogIGlmIChjb25maWcuY3VzdG9tU3ByaXRlKSByZXR1cm4gY29uZmlnLmN1c3RvbVNwcml0ZTsKCiAgY29uc3QgewogICAgZnJvbnRIYWlyLCBiYWNrSGFpciwgZXllcywKICAgIGhhaXJDb2xvciwgZXllQ29sb3IsIHNraW5Ub25lLAogICAgb3V0Zml0Q29sb3IsIG91dGZpdENvbG9yMiwgY3VzdG9tUGl4ZWxzLAogIH0gPSB7IC4uLkRFRkFVTFRfQ09ORklHLCAuLi5jb25maWcgfTsKCiAgLy8g6aKE5Yqg6L295omA5pyJ6ZyA6KaB55qE5Zu+54mHCiAgY29uc3Qgam9iczogUHJvbWlzZTxIVE1MSW1hZ2VFbGVtZW50IHwgbnVsbD5bXSA9IFsKICAgIGJhY2tIYWlyID4gMCA/IGxvYWRJbWFnZShhc3NldChgYmFja2hhaXIvJHtiYWNrSGFpcn0tY29sb3IucG5nYCkpIDogUHJvbWlzZS5yZXNvbHZlKG51bGwpLAogICAgYmFja0hhaXIgPiAwID8gbG9hZEltYWdlKGFzc2V0KGBiYWNraGFpci8ke2JhY2tIYWlyfS5wbmdgKSkgOiBQcm9taXNlLnJlc29sdmUobnVsbCksCiAgICBsb2FkSW1hZ2UoYXNzZXQoJ2JvZHkvc2tpbi1jb2xvci5wbmcnKSksCiAgICBsb2FkSW1hZ2UoYXNzZXQoJ2JvZHkvc2hpcnQtY29sb3IucG5nJykpLAogICAgbG9hZEltYWdlKGFzc2V0KCdib2R5L3BhbnRzLWNvbG9yLnBuZycpKSwKICAgIGxvYWRJbWFnZShhc3NldCgnYm9keS9ib2R5LnBuZycpKSwKICAgIGxvYWRJbWFnZShhc3NldCgnZXllcy9jb2xvci5wbmcnKSksCiAgICBsb2FkSW1hZ2UoYXNzZXQoYGV5ZXMvJHtleWVzfS5wbmdgKSksCiAgICBmcm9udEhhaXIgPiAwID8gbG9hZEltYWdlKGFzc2V0KGBmcm9udGhhaXIvJHtmcm9udEhhaXJ9LWNvbG9yLnBuZ2ApKSA6IFByb21pc2UucmVzb2x2ZShudWxsKSwKICAgIGZyb250SGFpciA+IDAgPyBsb2FkSW1hZ2UoYXNzZXQoYGZyb250aGFpci8ke2Zyb250SGFpcn0ucG5nYCkpIDogUHJvbWlzZS5yZXNvbHZlKG51bGwpLAogIF07CiAgY29uc3QgWwogICAgYmFja0hhaXJDb2xvck1hc2ssIGJhY2tIYWlyTGluZSwKICAgIHNraW5NYXNrLCBzaGlydE1hc2ssIHBhbnRzTWFzaywgYm9keUxpbmUsCiAgICBleWVDb2xvck1hc2ssIGV5ZUxpbmUsCiAgICBmcm9udEhhaXJDb2xvck1hc2ssIGZyb250SGFpckxpbmUsCiAgXSA9IGF3YWl0IFByb21pc2UuYWxsKGpvYnMpOwoKICBjb25zdCBjYW52YXMgPSBkb2N1bWVudC5jcmVhdGVFbGVtZW50KCdjYW52YXMnKTsKICBjYW52YXMud2lkdGggPSBBU1NFVF9TSVpFLnc7CiAgY2FudmFzLmhlaWdodCA9IEFTU0VUX1NJWkUuaDsKICBjb25zdCBjdHggPSBjYW52YXMuZ2V0Q29udGV4dCgnMmQnKSE7CiAgY3R4LmltYWdlU21vb3RoaW5nRW5hYmxlZCA9IGZhbHNlOwoKICAvLyAzLeWQjuWPkQogIGlmIChiYWNrSGFpckNvbG9yTWFzaykgZHJhd1RpbnRlZChjdHgsIGJhY2tIYWlyQ29sb3JNYXNrLCBoYWlyQ29sb3IpOwogIGlmIChiYWNrSGFpckxpbmUpIGN0eC5kcmF3SW1hZ2UoYmFja0hhaXJMaW5lLCAwLCAwKTsKCiAgLy8gMi3ouqvkvZPvvJrnmq7ogqTlupUgKyDooaPmnI0gKyDoo6TlrZAgKyDpu5HoibLnur/nqL8KICBpZiAoc2tpbk1hc2spIGRyYXdUaW50ZWQoY3R4LCBza2luTWFzaywgc2tpblRvbmUpOwogIGlmIChzaGlydE1hc2spIGRyYXdUaW50ZWQoY3R4LCBzaGlydE1hc2ssIG91dGZpdENvbG9yKTsKICBpZiAocGFudHNNYXNrKSBkcmF3VGludGVkKGN0eCwgcGFudHNNYXNrLCBvdXRmaXRDb2xvcjIpOwogIGlmIChib2R5TGluZSkgY3R4LmRyYXdJbWFnZShib2R5TGluZSwgMCwgMCk7CgogIC8vIDEt55y8552b77ya57uf5LiA6aKc6Imy5bqVICsg55y85Z6L57q/56i/CiAgaWYgKGV5ZUNvbG9yTWFzaykgZHJhd1RpbnRlZChjdHgsIGV5ZUNvbG9yTWFzaywgZXllQ29sb3IpOwogIGlmIChleWVMaW5lKSBjdHguZHJhd0ltYWdlKGV5ZUxpbmUsIDAsIDApOwoKICAvLyAwLeWJjeWPkQogIGlmIChmcm9udEhhaXJDb2xvck1hc2spIGRyYXdUaW50ZWQoY3R4LCBmcm9udEhhaXJDb2xvck1hc2ssIGhhaXJDb2xvcik7CiAgaWYgKGZyb250SGFpckxpbmUpIGN0eC5kcmF3SW1hZ2UoZnJvbnRIYWlyTGluZSwgMCwgMCk7CgogIC8vIOecvOedmyLlub3ngbUi5bGC77yaMzAlIOmAj+aYjuW6puWOi+WcqOWJjeWPkeS4iuaWue+8jOiQpemAoCLnnLznnZvpgI/ov4fliJjmtbci55qE5LqM5qyh5YWD5oSfCiAgY29uc3QgcHJldkFscGhhID0gY3R4Lmdsb2JhbEFscGhhOwogIGN0eC5nbG9iYWxBbHBoYSA9IDAuMzsKICBpZiAoZXllQ29sb3JNYXNrKSBkcmF3VGludGVkKGN0eCwgZXllQ29sb3JNYXNrLCBleWVDb2xvcik7CiAgaWYgKGV5ZUxpbmUpIGN0eC5kcmF3SW1hZ2UoZXllTGluZSwgMCwgMCk7CiAgY3R4Lmdsb2JhbEFscGhhID0gcHJldkFscGhhOwoKICAvLyDnlKjmiLfmiYvnu5jopobnm5bvvIjmnIDpobblsYLvvIkKICBpZiAoY3VzdG9tUGl4ZWxzKSB7CiAgICBmb3IgKGNvbnN0IFtrZXksIGNvbG9yXSBvZiBPYmplY3QuZW50cmllcyhjdXN0b21QaXhlbHMpKSB7CiAgICAgIGNvbnN0IFtjeCwgY3ldID0ga2V5LnNwbGl0KCcsJykubWFwKE51bWJlcik7CiAgICAgIGlmICghTnVtYmVyLmlzRmluaXRlKGN4KSB8fCAhTnVtYmVyLmlzRmluaXRlKGN5KSkgY29udGludWU7CiAgICAgIGlmIChjeCA8IDAgfHwgY3ggPj0gQVNTRVRfU0laRS53IHx8IGN5IDwgMCB8fCBjeSA+PSBBU1NFVF9TSVpFLmgpIGNvbnRpbnVlOwogICAgICBpZiAoY29sb3IgPT09ICd0cmFuc3BhcmVudCcgfHwgY29sb3IgPT09ICcnKSB7CiAgICAgICAgY3R4LmNsZWFyUmVjdChjeCwgY3ksIDEsIDEpOwogICAgICB9IGVsc2UgewogICAgICAgIGN0eC5maWxsU3R5bGUgPSBjb2xvcjsKICAgICAgICBjdHguY2xlYXJSZWN0KGN4LCBjeSwgMSwgMSk7CiAgICAgICAgY3R4LmZpbGxSZWN0KGN4LCBjeSwgMSwgMSk7CiAgICAgIH0KICAgIH0KICB9CgogIC8vIOaUvuWkp+i+k+WHugogIGNvbnN0IGRpc3BsYXkgPSBkb2N1bWVudC5jcmVhdGVFbGVtZW50KCdjYW52YXMnKTsKICBkaXNwbGF5LndpZHRoID0gQVNTRVRfU0laRS53ICogT1VUUFVUX1NDQUxFOwogIGRpc3BsYXkuaGVpZ2h0ID0gQVNTRVRfU0laRS5oICogT1VUUFVUX1NDQUxFOwogIGNvbnN0IGRjdHggPSBkaXNwbGF5LmdldENvbnRleHQoJzJkJykhOwogIGRjdHguaW1hZ2VTbW9vdGhpbmdFbmFibGVkID0gZmFsc2U7CiAgZGN0eC5kcmF3SW1hZ2UoY2FudmFzLCAwLCAwLCBkaXNwbGF5LndpZHRoLCBkaXNwbGF5LmhlaWdodCk7CiAgcmV0dXJuIGRpc3BsYXkudG9EYXRhVVJMKCdpbWFnZS9wbmcnKTsKfQoKLy8g4pSA4pSA4pSAIOe8k+WtmO+8iOWQjOatpeivu+WPlu+8iSDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIAKCmNvbnN0IF9jYWNoZSA9IG5ldyBNYXA8c3RyaW5nLCBzdHJpbmc+KCk7CmNvbnN0IF9wZW5kaW5nID0gbmV3IE1hcDxzdHJpbmcsIFByb21pc2U8c3RyaW5nPj4oKTsKY29uc3QgX2xpc3RlbmVycyA9IG5ldyBTZXQ8KCkgPT4gdm9pZD4oKTsKCmZ1bmN0aW9uIGtleU9mKGNmZzogUGl4ZWxDaGFyQ29uZmlnKTogc3RyaW5nIHsKICBpZiAoY2ZnLmN1c3RvbVNwcml0ZSkgcmV0dXJuIGBjdXN0b206JHtjZmcuY3VzdG9tU3ByaXRlLmxlbmd0aH06JHtjZmcuY3VzdG9tU3ByaXRlLnNsaWNlKC0zMil9YDsKICByZXR1cm4gSlNPTi5zdHJpbmdpZnkoewogICAgZnJvbnRIYWlyOiBjZmcuZnJvbnRIYWlyLCBiYWNrSGFpcjogY2ZnLmJhY2tIYWlyLCBleWVzOiBjZmcuZXllcywKICAgIGhhaXJDb2xvcjogY2ZnLmhhaXJDb2xvciwgZXllQ29sb3I6IGNmZy5leWVDb2xvciwgc2tpblRvbmU6IGNmZy5za2luVG9uZSwKICAgIG91dGZpdENvbG9yOiBjZmcub3V0Zml0Q29sb3IsIG91dGZpdENvbG9yMjogY2ZnLm91dGZpdENvbG9yMiwKICAgIGN1c3RvbVBpeGVsczogY2ZnLmN1c3RvbVBpeGVscyB8fCBudWxsLAogIH0pOwp9Cgpjb25zdCBUUkFOU1BBUkVOVF9QWCA9CiAgJ2RhdGE6aW1hZ2UvcG5nO2Jhc2U2NCxpVkJPUncwS0dnb0FBQUFOU1VoRVVnQUFBQUVBQUFBQkNBUUFBQUMxSEF3Q0FBQUFDMGxFUVZSNDJtTmtZQUFBQUFZQUFqQ0IwQzhBQUFBQVNVVk9SSzVDWUlJPSc7CgovKiog6K6i6ZiF57yT5a2Y5pu05paw77yM55So5LqO6Kem5Y+RIFJlYWN0IOmHjea4suafkyAqLwpleHBvcnQgZnVuY3Rpb24gb25QaXhlbENoYXJDYWNoZVVwZGF0ZShjYjogKCkgPT4gdm9pZCk6ICgpID0+IHZvaWQgewogIF9saXN0ZW5lcnMuYWRkKGNiKTsKICByZXR1cm4gKCkgPT4geyBfbGlzdGVuZXJzLmRlbGV0ZShjYik7IH07Cn0KCi8qKgogKiDlkIzmraXor7vlj5bnvJPlrZjniYjmnKzjgILoi6XmnKrnvJPlrZjliJnnq4vliLvov5Tlm57pgI/mmI7ljaDkvY3lm77lubblvILmraXnlJ/miJDvvIznlJ/miJDlrozmiJDlkI7pgJrnn6XorqLpmIXogIXjgIIKICovCmV4cG9ydCBmdW5jdGlvbiBnZXRDYWNoZWRQaXhlbENoYXIoY29uZmlnOiBQaXhlbENoYXJDb25maWcpOiBzdHJpbmcgewogIGlmIChjb25maWcuY3VzdG9tU3ByaXRlKSByZXR1cm4gY29uZmlnLmN1c3RvbVNwcml0ZTsKICBjb25zdCBrID0ga2V5T2YoY29uZmlnKTsKICBjb25zdCBoaXQgPSBfY2FjaGUuZ2V0KGspOwogIGlmIChoaXQpIHJldHVybiBoaXQ7CiAgaWYgKCFfcGVuZGluZy5oYXMoaykpIHsKICAgIGNvbnN0IHRhc2sgPSBnZW5lcmF0ZVBpeGVsQ2hhcihjb25maWcpLnRoZW4odXJpID0+IHsKICAgICAgX2NhY2hlLnNldChrLCB1cmkpOwogICAgICBfcGVuZGluZy5kZWxldGUoayk7CiAgICAgIF9saXN0ZW5lcnMuZm9yRWFjaChjYiA9PiB7IHRyeSB7IGNiKCk7IH0gY2F0Y2gge30gfSk7CiAgICAgIHJldHVybiB1cmk7CiAgICB9KS5jYXRjaChlcnIgPT4gewogICAgICBfcGVuZGluZy5kZWxldGUoayk7CiAgICAgIHRocm93IGVycjsKICAgIH0pOwogICAgX3BlbmRpbmcuc2V0KGssIHRhc2spOwogIH0KICByZXR1cm4gVFJBTlNQQVJFTlRfUFg7Cn0KCi8qKiDlvILmraXojrflj5blubblhpnlhaXnvJPlrZggKi8KZXhwb3J0IGFzeW5jIGZ1bmN0aW9uIGVuc3VyZVBpeGVsQ2hhcihjb25maWc6IFBpeGVsQ2hhckNvbmZpZyk6IFByb21pc2U8c3RyaW5nPiB7CiAgaWYgKGNvbmZpZy5jdXN0b21TcHJpdGUpIHJldHVybiBjb25maWcuY3VzdG9tU3ByaXRlOwogIGNvbnN0IGsgPSBrZXlPZihjb25maWcpOwogIGlmIChfY2FjaGUuaGFzKGspKSByZXR1cm4gX2NhY2hlLmdldChrKSE7CiAgY29uc3QgdXJpID0gYXdhaXQgZ2VuZXJhdGVQaXhlbENoYXIoY29uZmlnKTsKICBfY2FjaGUuc2V0KGssIHVyaSk7CiAgcmV0dXJuIHVyaTsKfQo=
+/**
+ * Pixel Home — 像素小人生成器（基于图层素材版）
+ *
+ * 素材位于 public/pixel-char/，按图层从后到前合成：
+ *   3-后发  → 2-身体(肤色+衣服+裤子+线稿) → 1-眼睛(颜色底+线稿) → 0-前发(颜色底+线稿)
+ *
+ * 每一层的"颜色底图"是纯色 alpha 蒙版，通过 Canvas 的 source-in 合成替换为用户选择的颜色；
+ * 然后叠加同一位置的黑色线稿得到最终像素小人。
+ */
+
+export const ASSET_SIZE = { w: 53, h: 56 };
+const OUTPUT_SCALE = 4; // 输出再放大（保持像素风）
+
+const BASE_URL = (import.meta as any).env?.BASE_URL ?? '/';
+const asset = (p: string) => `${BASE_URL}pixel-char/${p}`.replace(/\/+/g, '/');
+
+export const FRONT_HAIR_COUNT = 4;
+export const BACK_HAIR_COUNT = 4;
+export const EYE_COUNT = 3;
+
+export const FRONT_HAIR_NAMES = ['前发A', '前发B', '前发C', '前发D'];
+export const BACK_HAIR_NAMES = ['后发A', '后发B', '后发C', '后发D'];
+export const EYE_NAMES = ['眼型1', '眼型2', '眼型3'];
+
+export interface PixelCharConfig {
+  /** 前发样式，1..4；0 表示不戴前发 */
+  frontHair: number;
+  /** 后发样式，1..4；0 表示不戴后发 */
+  backHair: number;
+  /** 眼睛样式，1..3 */
+  eyes: number;
+  /** 头发颜色（同时作用于前发 + 后发） */
+  hairColor: string;
+  /** 眼睛颜色 */
+  eyeColor: string;
+  /** 肤色（body 填充） */
+  skinTone: string;
+  /** 上衣颜色 */
+  outfitColor: string;
+  /** 裤子颜色 */
+  outfitColor2: string;
+  /** 用户直接上传的像素小人 data URI（跳过合成） */
+  customSprite?: string;
+  /** 用户在画布上手绘覆盖的像素："x,y" -> 颜色（或 'transparent' 表示擦除） */
+  customPixels?: Record<string, string>;
+
+  // ── 旧字段保留为可选，避免读到老存档时 TS 报错 ──
+  hairStyle?: number;
+}
+
+export const DEFAULT_CONFIG: PixelCharConfig = {
+  frontHair: 1,
+  backHair: 1,
+  eyes: 1,
+  hairColor: '#8b6914',
+  eyeColor: '#4a3728',
+  skinTone: '#fcd5b4',
+  outfitColor: '#1e90ff',
+  outfitColor2: '#2d3748',
+};
+
+export const HAIR_COLORS = [
+  '#1a1a2e', '#2d3748', '#4a3728', '#8b6914',
+  '#d4a017', '#e87461', '#c0392b', '#f5b7b1',
+  '#a78bfa', '#e2e8f0', '#f4a460', '#ff6b9d',
+];
+
+export const EYE_COLORS = [
+  '#63b3ed', '#48bb78', '#f6ad55', '#fc8181',
+  '#b794f4', '#2d3748', '#e53e3e', '#d69e2e',
+  '#4a3728', '#1a1a2e',
+];
+
+export const SKIN_TONES = [
+  '#fce4d6', '#fcd5b4', '#f0c090', '#d4a574',
+  '#c68642', '#8d5524', '#70361c',
+];
+
+export const OUTFIT_COLORS = [
+  '#2d3748', '#1e3a5f', '#1a4731', '#5b1a1a',
+  '#4a1a5e', '#e2e8f0', '#f5f0e1', '#c41e3a',
+  '#1e90ff', '#ff6347', '#2ecc71', '#f39c12',
+  '#ff6b9d', '#a78bfa', '#111111', '#ffffff',
+];
+
+// ─── 图片加载 ────────────────────────────────────────
+
+const imgCache = new Map<string, Promise<HTMLImageElement>>();
+function loadImage(src: string): Promise<HTMLImageElement> {
+  let p = imgCache.get(src);
+  if (p) return p;
+  p = new Promise((resolve, reject) => {
+    const img = new Image();
+    img.crossOrigin = 'anonymous';
+    img.onload = () => resolve(img);
+    img.onerror = (e) => reject(new Error(`Failed to load ${src}: ${e}`));
+    img.src = src;
+  });
+  imgCache.set(src, p);
+  return p;
+}
+
+/** 把颜色底图按 alpha 蒙版贴上指定颜色 */
+function drawTinted(
+  dst: CanvasRenderingContext2D,
+  maskImg: HTMLImageElement,
+  color: string,
+) {
+  const tmp = document.createElement('canvas');
+  tmp.width = ASSET_SIZE.w;
+  tmp.height = ASSET_SIZE.h;
+  const tctx = tmp.getContext('2d')!;
+  tctx.imageSmoothingEnabled = false;
+  tctx.drawImage(maskImg, 0, 0);
+  tctx.globalCompositeOperation = 'source-in';
+  tctx.fillStyle = color;
+  tctx.fillRect(0, 0, tmp.width, tmp.height);
+  dst.drawImage(tmp, 0, 0);
+}
+
+// ─── 合成 ────────────────────────────────────────────
+
+export async function generatePixelChar(config: PixelCharConfig): Promise<string> {
+  if (config.customSprite) return config.customSprite;
+
+  const {
+    frontHair, backHair, eyes,
+    hairColor, eyeColor, skinTone,
+    outfitColor, outfitColor2, customPixels,
+  } = { ...DEFAULT_CONFIG, ...config };
+
+  // 预加载所有需要的图片
+  const jobs: Promise<HTMLImageElement | null>[] = [
+    backHair > 0 ? loadImage(asset(`backhair/${backHair}-color.png`)) : Promise.resolve(null),
+    backHair > 0 ? loadImage(asset(`backhair/${backHair}.png`)) : Promise.resolve(null),
+    loadImage(asset('body/skin-color.png')),
+    loadImage(asset('body/shirt-color.png')),
+    loadImage(asset('body/pants-color.png')),
+    loadImage(asset('body/body.png')),
+    loadImage(asset('eyes/color.png')),
+    loadImage(asset(`eyes/${eyes}.png`)),
+    frontHair > 0 ? loadImage(asset(`fronthair/${frontHair}-color.png`)) : Promise.resolve(null),
+    frontHair > 0 ? loadImage(asset(`fronthair/${frontHair}.png`)) : Promise.resolve(null),
+  ];
+  const [
+    backHairColorMask, backHairLine,
+    skinMask, shirtMask, pantsMask, bodyLine,
+    eyeColorMask, eyeLine,
+    frontHairColorMask, frontHairLine,
+  ] = await Promise.all(jobs);
+
+  const canvas = document.createElement('canvas');
+  canvas.width = ASSET_SIZE.w;
+  canvas.height = ASSET_SIZE.h;
+  const ctx = canvas.getContext('2d')!;
+  ctx.imageSmoothingEnabled = false;
+
+  // 3-后发
+  if (backHairColorMask) drawTinted(ctx, backHairColorMask, hairColor);
+  if (backHairLine) ctx.drawImage(backHairLine, 0, 0);
+
+  // 2-身体：皮肤底 + 衣服 + 裤子 + 黑色线稿
+  if (skinMask) drawTinted(ctx, skinMask, skinTone);
+  if (shirtMask) drawTinted(ctx, shirtMask, outfitColor);
+  if (pantsMask) drawTinted(ctx, pantsMask, outfitColor2);
+  if (bodyLine) ctx.drawImage(bodyLine, 0, 0);
+
+  // 1-眼睛：统一颜色底 + 眼型线稿
+  if (eyeColorMask) drawTinted(ctx, eyeColorMask, eyeColor);
+  if (eyeLine) ctx.drawImage(eyeLine, 0, 0);
+
+  // 0-前发
+  if (frontHairColorMask) drawTinted(ctx, frontHairColorMask, hairColor);
+  if (frontHairLine) ctx.drawImage(frontHairLine, 0, 0);
+
+  // 眼睛"幽灵"层：30% 透明度压在前发上方，营造"眼睛透过刘海"的二次元感
+  const prevAlpha = ctx.globalAlpha;
+  ctx.globalAlpha = 0.3;
+  if (eyeColorMask) drawTinted(ctx, eyeColorMask, eyeColor);
+  if (eyeLine) ctx.drawImage(eyeLine, 0, 0);
+  ctx.globalAlpha = prevAlpha;
+
+  // 用户手绘覆盖（最顶层）
+  if (customPixels) {
+    for (const [key, color] of Object.entries(customPixels)) {
+      const [cx, cy] = key.split(',').map(Number);
+      if (!Number.isFinite(cx) || !Number.isFinite(cy)) continue;
+      if (cx < 0 || cx >= ASSET_SIZE.w || cy < 0 || cy >= ASSET_SIZE.h) continue;
+      if (color === 'transparent' || color === '') {
+        ctx.clearRect(cx, cy, 1, 1);
+      } else {
+        ctx.fillStyle = color;
+        ctx.clearRect(cx, cy, 1, 1);
+        ctx.fillRect(cx, cy, 1, 1);
+      }
+    }
+  }
+
+  // 放大输出
+  const display = document.createElement('canvas');
+  display.width = ASSET_SIZE.w * OUTPUT_SCALE;
+  display.height = ASSET_SIZE.h * OUTPUT_SCALE;
+  const dctx = display.getContext('2d')!;
+  dctx.imageSmoothingEnabled = false;
+  dctx.drawImage(canvas, 0, 0, display.width, display.height);
+  return display.toDataURL('image/png');
+}
+
+// ─── 缓存（同步读取） ────────────────────────────────
+
+const _cache = new Map<string, string>();
+const _pending = new Map<string, Promise<string>>();
+const _listeners = new Set<() => void>();
+
+function keyOf(cfg: PixelCharConfig): string {
+  if (cfg.customSprite) return `custom:${cfg.customSprite.length}:${cfg.customSprite.slice(-32)}`;
+  return JSON.stringify({
+    frontHair: cfg.frontHair, backHair: cfg.backHair, eyes: cfg.eyes,
+    hairColor: cfg.hairColor, eyeColor: cfg.eyeColor, skinTone: cfg.skinTone,
+    outfitColor: cfg.outfitColor, outfitColor2: cfg.outfitColor2,
+    customPixels: cfg.customPixels || null,
+  });
+}
+
+const TRANSPARENT_PX =
+  'data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAQAAAC1HAwCAAAAC0lEQVR42mNkYAAAAAYAAjCB0C8AAAAASUVORK5CYII=';
+
+/** 订阅缓存更新，用于触发 React 重渲染 */
+export function onPixelCharCacheUpdate(cb: () => void): () => void {
+  _listeners.add(cb);
+  return () => { _listeners.delete(cb); };
+}
+
+/**
+ * 同步读取缓存版本。若未缓存则立刻返回透明占位图并异步生成，生成完成后通知订阅者。
+ */
+export function getCachedPixelChar(config: PixelCharConfig): string {
+  if (config.customSprite) return config.customSprite;
+  const k = keyOf(config);
+  const hit = _cache.get(k);
+  if (hit) return hit;
+  if (!_pending.has(k)) {
+    const task = generatePixelChar(config).then(uri => {
+      _cache.set(k, uri);
+      _pending.delete(k);
+      _listeners.forEach(cb => { try { cb(); } catch {} });
+      return uri;
+    }).catch(err => {
+      _pending.delete(k);
+      throw err;
+    });
+    _pending.set(k, task);
+  }
+  return TRANSPARENT_PX;
+}
+
+/** 异步获取并写入缓存 */
+export async function ensurePixelChar(config: PixelCharConfig): Promise<string> {
+  if (config.customSprite) return config.customSprite;
+  const k = keyOf(config);
+  if (_cache.has(k)) return _cache.get(k)!;
+  const uri = await generatePixelChar(config);
+  _cache.set(k, uri);
+  return uri;
+}

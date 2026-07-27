@@ -1,1 +1,70 @@
-aW1wb3J0IHsgZGVzY3JpYmUsIGl0LCBleHBlY3QgfSBmcm9tICd2aXRlc3QnOwppbXBvcnQgeyBidWlsZE1lbWJlclRpbWVsaW5lIH0gZnJvbSAnLi90aW1lbGluZSc7CmltcG9ydCB7IE1lc3NhZ2UgfSBmcm9tICcuLi8uLi90eXBlcyc7Cgpjb25zdCBtc2cgPSAob3ZlcjogUGFydGlhbDxNZXNzYWdlPik6IE1lc3NhZ2UgPT4gKHsKICAgIGlkOiAxLAogICAgY2hhcklkOiAnYzEnLAogICAgcm9sZTogJ2Fzc2lzdGFudCcsCiAgICB0eXBlOiAndGV4dCcsCiAgICBjb250ZW50OiAn5YaF5a65JywKICAgIHRpbWVzdGFtcDogMCwKICAgIC4uLm92ZXIsCn0gYXMgTWVzc2FnZSk7Cgpjb25zdCByZXNvbHZlU3BlYWtlciA9IChtOiBNZXNzYWdlKSA9PiAobS5jaGFySWQgPT09ICdjMScgPyAn5bCP5aSPJyA6ICfmnKrnn6UnKTsKCmRlc2NyaWJlKCdidWlsZE1lbWJlclRpbWVsaW5lJywgKCkgPT4gewogICAgaXQoJ+engeiBiuWSjOe+pOiBiuaMieaXtumXtOaIs+WQiOW5tuWNh+W6j++8jOW4puadpea6kOagh+etvicsICgpID0+IHsKICAgICAgICBjb25zdCBwcml2YXRlTXNncyA9IFsKICAgICAgICAgICAgbXNnKHsgaWQ6IDEsIHJvbGU6ICd1c2VyJywgY29udGVudDogJ+S7iuWkqeWlvee0rycsIHRpbWVzdGFtcDogMTAwMCB9KSwKICAgICAgICAgICAgbXNnKHsgaWQ6IDIsIHJvbGU6ICdhc3Npc3RhbnQnLCBjb250ZW50OiAn5pep54K5552hJywgdGltZXN0YW1wOiAyMDAwIH0pLAogICAgICAgIF07CiAgICAgICAgY29uc3QgZ3JvdXBNc2dzID0gWwogICAgICAgICAgICBtc2coeyBpZDogMywgcm9sZTogJ2Fzc2lzdGFudCcsIGdyb3VwSWQ6ICdnMScsIGNvbnRlbnQ6ICfml6nllYrvvIEnLCB0aW1lc3RhbXA6IDE1MDAgfSksCiAgICAgICAgXTsKICAgICAgICBjb25zdCBsaW5lcyA9IGJ1aWxkTWVtYmVyVGltZWxpbmUoeyBwcml2YXRlTXNncywgZ3JvdXBNc2dzLCBjYXA6IDQwLCByZXNvbHZlU3BlYWtlciB9KS5zcGxpdCgnXG4nKTsKICAgICAgICBleHBlY3QobGluZXMpLnRvSGF2ZUxlbmd0aCgzKTsKICAgICAgICBleHBlY3QobGluZXNbMF0pLnRvQ29udGFpbignW+engeiBil0nKTsKICAgICAgICBleHBlY3QobGluZXNbMF0pLnRvQ29udGFpbign55So5oi3OiDku4rlpKnlpb3ntK8nKTsKICAgICAgICBleHBlY3QobGluZXNbMV0pLnRvQ29udGFpbignW+e+pOiBil0nKTsKICAgICAgICBleHBlY3QobGluZXNbMV0pLnRvQ29udGFpbign5bCP5aSPOiDml6nllYrvvIEnKTsKICAgICAgICBleHBlY3QobGluZXNbMl0pLnRvQ29udGFpbignW+engeiBil0nKTsKICAgICAgICBleHBlY3QobGluZXNbMl0pLnRvQ29udGFpbign5oiROiDml6nngrnnnaEnKTsKICAgIH0pOwoKICAgIGl0KCdjYXAg55Sf5pWI77ya5ZCI5bm25ZCO5Y+q55WZ5pe26Ze05pyA6L+R55qEIE4g5p2hJywgKCkgPT4gewogICAgICAgIGNvbnN0IHByaXZhdGVNc2dzID0gQXJyYXkuZnJvbSh7IGxlbmd0aDogMTAgfSwgKF8sIGkpID0+CiAgICAgICAgICAgIG1zZyh7IGlkOiBpLCByb2xlOiAndXNlcicsIGNvbnRlbnQ6IGBwJHtpfWAsIHRpbWVzdGFtcDogaSAqIDEwMCB9KSk7CiAgICAgICAgY29uc3QgZ3JvdXBNc2dzID0gQXJyYXkuZnJvbSh7IGxlbmd0aDogMTAgfSwgKF8sIGkpID0+CiAgICAgICAgICAgIG1zZyh7IGlkOiAxMDAgKyBpLCBncm91cElkOiAnZzEnLCBjb250ZW50OiBgZyR7aX1gLCB0aW1lc3RhbXA6IGkgKiAxMDAgKyA1MCB9KSk7CiAgICAgICAgY29uc3QgbGluZXMgPSBidWlsZE1lbWJlclRpbWVsaW5lKHsgcHJpdmF0ZU1zZ3MsIGdyb3VwTXNncywgY2FwOiA1LCByZXNvbHZlU3BlYWtlciB9KS5zcGxpdCgnXG4nKTsKICAgICAgICBleHBlY3QobGluZXMpLnRvSGF2ZUxlbmd0aCg1KTsKICAgICAgICAvLyDmnKsgNSDmnaHlupTmmK/ml7bpl7TmnIDlpKfnmoTvvJpnNyg3NTApIHA4KDgwMCkgZzgoODUwKSBwOSg5MDApIGc5KDk1MCkKICAgICAgICBleHBlY3QobGluZXNbNF0pLnRvQ29udGFpbignZzknKTsKICAgICAgICBleHBlY3QobGluZXNbMF0pLnRvQ29udGFpbignZzcnKTsKICAgIH0pOwoKICAgIGl0KCfpnZ7mlofmnKzmtojmga/nlKjljaDkvY3nrKbvvIxiYXNlNjQg5LiN5Lya5Ye6546w5Zyo5pe26Ze057q/6YeMJywgKCkgPT4gewogICAgICAgIGNvbnN0IGdyb3VwTXNncyA9IFsKICAgICAgICAgICAgbXNnKHsgaWQ6IDEsIGdyb3VwSWQ6ICdnMScsIHR5cGU6ICdpbWFnZScsIGNvbnRlbnQ6ICdkYXRhOmltYWdlL2pwZWc7YmFzZTY0LEFBQUEnLCB0aW1lc3RhbXA6IDEwMCB9KSwKICAgICAgICAgICAgbXNnKHsgaWQ6IDIsIGdyb3VwSWQ6ICdnMScsIHR5cGU6ICd0cmFuc2ZlcicsIGNvbnRlbnQ6ICdb57qi5YyFXSA4OCBDcmVkaXRzJywgbWV0YWRhdGE6IHsgYW1vdW50OiAnODgnIH0sIHRpbWVzdGFtcDogMjAwIH0pLAogICAgICAgIF07CiAgICAgICAgY29uc3QgdGV4dCA9IGJ1aWxkTWVtYmVyVGltZWxpbmUoeyBwcml2YXRlTXNnczogW10sIGdyb3VwTXNncywgY2FwOiA0MCwgcmVzb2x2ZVNwZWFrZXIgfSk7CiAgICAgICAgZXhwZWN0KHRleHQpLm5vdC50b0NvbnRhaW4oJ2Jhc2U2NCcpOwogICAgICAgIGV4cGVjdCh0ZXh0KS50b0NvbnRhaW4oJ1vlm77niYddJyk7CiAgICAgICAgZXhwZWN0KHRleHQpLnRvQ29udGFpbignW+WPkee6ouWMhTogODhdJyk7CiAgICB9KTsKCiAgICBpdCgn6LaF6ZW/5q2j5paH5oiq5pat5YiwIDgwIOWtl+W5tuWKoOecgeeVpeWPtycsICgpID0+IHsKICAgICAgICBjb25zdCBsb25nID0gJ+WViicucmVwZWF0KDEyMCk7CiAgICAgICAgY29uc3QgcHJpdmF0ZU1zZ3MgPSBbbXNnKHsgaWQ6IDEsIHJvbGU6ICd1c2VyJywgY29udGVudDogbG9uZywgdGltZXN0YW1wOiAxMDAgfSldOwogICAgICAgIGNvbnN0IGxpbmUgPSBidWlsZE1lbWJlclRpbWVsaW5lKHsgcHJpdmF0ZU1zZ3MsIGdyb3VwTXNnczogW10sIGNhcDogNDAsIHJlc29sdmVTcGVha2VyIH0pOwogICAgICAgIGV4cGVjdChsaW5lKS50b0NvbnRhaW4oJ+WViicucmVwZWF0KDgwKSArICfigKYnKTsKICAgICAgICBleHBlY3QobGluZSkubm90LnRvQ29udGFpbign5ZWKJy5yZXBlYXQoODEpKTsKICAgIH0pOwoKICAgIGl0KCfnqbrovpPlhaXov5Tlm57nqbrkuLInLCAoKSA9PiB7CiAgICAgICAgZXhwZWN0KGJ1aWxkTWVtYmVyVGltZWxpbmUoeyBwcml2YXRlTXNnczogW10sIGdyb3VwTXNnczogW10sIGNhcDogNDAsIHJlc29sdmVTcGVha2VyIH0pKS50b0JlKCcnKTsKICAgIH0pOwp9KTsK
+import { describe, it, expect } from 'vitest';
+import { buildMemberTimeline } from './timeline';
+import { Message } from '../../types';
+
+const msg = (over: Partial<Message>): Message => ({
+    id: 1,
+    charId: 'c1',
+    role: 'assistant',
+    type: 'text',
+    content: '内容',
+    timestamp: 0,
+    ...over,
+} as Message);
+
+const resolveSpeaker = (m: Message) => (m.charId === 'c1' ? '小夏' : '未知');
+
+describe('buildMemberTimeline', () => {
+    it('私聊和群聊按时间戳合并升序，带来源标签', () => {
+        const privateMsgs = [
+            msg({ id: 1, role: 'user', content: '今天好累', timestamp: 1000 }),
+            msg({ id: 2, role: 'assistant', content: '早点睡', timestamp: 2000 }),
+        ];
+        const groupMsgs = [
+            msg({ id: 3, role: 'assistant', groupId: 'g1', content: '早啊！', timestamp: 1500 }),
+        ];
+        const lines = buildMemberTimeline({ privateMsgs, groupMsgs, cap: 40, resolveSpeaker }).split('\n');
+        expect(lines).toHaveLength(3);
+        expect(lines[0]).toContain('[私聊]');
+        expect(lines[0]).toContain('用户: 今天好累');
+        expect(lines[1]).toContain('[群聊]');
+        expect(lines[1]).toContain('小夏: 早啊！');
+        expect(lines[2]).toContain('[私聊]');
+        expect(lines[2]).toContain('我: 早点睡');
+    });
+
+    it('cap 生效：合并后只留时间最近的 N 条', () => {
+        const privateMsgs = Array.from({ length: 10 }, (_, i) =>
+            msg({ id: i, role: 'user', content: `p${i}`, timestamp: i * 100 }));
+        const groupMsgs = Array.from({ length: 10 }, (_, i) =>
+            msg({ id: 100 + i, groupId: 'g1', content: `g${i}`, timestamp: i * 100 + 50 }));
+        const lines = buildMemberTimeline({ privateMsgs, groupMsgs, cap: 5, resolveSpeaker }).split('\n');
+        expect(lines).toHaveLength(5);
+        // 末 5 条应是时间最大的：g7(750) p8(800) g8(850) p9(900) g9(950)
+        expect(lines[4]).toContain('g9');
+        expect(lines[0]).toContain('g7');
+    });
+
+    it('非文本消息用占位符，base64 不会出现在时间线里', () => {
+        const groupMsgs = [
+            msg({ id: 1, groupId: 'g1', type: 'image', content: 'data:image/jpeg;base64,AAAA', timestamp: 100 }),
+            msg({ id: 2, groupId: 'g1', type: 'transfer', content: '[红包] 88 Credits', metadata: { amount: '88' }, timestamp: 200 }),
+        ];
+        const text = buildMemberTimeline({ privateMsgs: [], groupMsgs, cap: 40, resolveSpeaker });
+        expect(text).not.toContain('base64');
+        expect(text).toContain('[图片]');
+        expect(text).toContain('[发红包: 88]');
+    });
+
+    it('超长正文截断到 80 字并加省略号', () => {
+        const long = '啊'.repeat(120);
+        const privateMsgs = [msg({ id: 1, role: 'user', content: long, timestamp: 100 })];
+        const line = buildMemberTimeline({ privateMsgs, groupMsgs: [], cap: 40, resolveSpeaker });
+        expect(line).toContain('啊'.repeat(80) + '…');
+        expect(line).not.toContain('啊'.repeat(81));
+    });
+
+    it('空输入返回空串', () => {
+        expect(buildMemberTimeline({ privateMsgs: [], groupMsgs: [], cap: 40, resolveSpeaker })).toBe('');
+    });
+});

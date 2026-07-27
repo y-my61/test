@@ -1,1 +1,112 @@
-aW1wb3J0IFJlYWN0IGZyb20gJ3JlYWN0JzsKaW1wb3J0IHsgcmVuZGVyVG9TdGF0aWNNYXJrdXAgfSBmcm9tICdyZWFjdC1kb20vc2VydmVyJzsKaW1wb3J0IHsgZGVzY3JpYmUsIGV4cGVjdCwgaXQsIHZpIH0gZnJvbSAndml0ZXN0JzsKaW1wb3J0IHR5cGUgeyBNZXNzYWdlIH0gZnJvbSAnLi4vdHlwZXMnOwppbXBvcnQgTWVzc2FnZUl0ZW0gZnJvbSAnLi4vY29tcG9uZW50cy9jaGF0L01lc3NhZ2VJdGVtJzsKCmNvbnN0IGFjdGl2ZVRoZW1lID0gewogICAgaWQ6ICd0ZXN0LXRoZW1lJywKICAgIG5hbWU6ICdUZXN0JywKICAgIHVzZXI6IHt9LAogICAgYWk6IHt9LAp9IGFzIGFueTsKCmNvbnN0IHJlbmRlck1lc3NhZ2UgPSAoCiAgICBtc2c6IE1lc3NhZ2UsCiAgICBtb2R1bGVBbGlnbjogJ2FuY2hvcicgfCAnY2VudGVyJyA9ICdjZW50ZXInLAogICAgYXZhdGFyTW9kZTogJ2dyb3VwZWQnIHwgJ2V2ZXJ5X21lc3NhZ2UnID0gJ2V2ZXJ5X21lc3NhZ2UnLAopID0+IHJlbmRlclRvU3RhdGljTWFya3VwKFJlYWN0LmNyZWF0ZUVsZW1lbnQoTWVzc2FnZUl0ZW0sIHsKICAgIG1zZywKICAgIGlzRmlyc3RJbkdyb3VwOiB0cnVlLAogICAgaXNMYXN0SW5Hcm91cDogdHJ1ZSwKICAgIGFjdGl2ZVRoZW1lLAogICAgY2hhckF2YXRhcjogJ2h0dHBzOi8vZXhhbXBsZS5jb20vY2hhci5wbmcnLAogICAgY2hhck5hbWU6ICfop5LoibInLAogICAgdXNlckF2YXRhcjogJ2h0dHBzOi8vZXhhbXBsZS5jb20vdXNlci5wbmcnLAogICAgb25Mb25nUHJlc3M6IHZpLmZuKCksCiAgICBvblJlcGx5OiB2aS5mbigpLAogICAgc2VsZWN0aW9uTW9kZTogZmFsc2UsCiAgICBpc1NlbGVjdGVkOiBmYWxzZSwKICAgIG9uVG9nZ2xlU2VsZWN0OiB2aS5mbigpLAogICAgYXZhdGFyTW9kZSwKICAgIG1vZHVsZUFsaWduLAp9KSk7Cgpjb25zdCBodG1sQ2FyZCA9ICgpOiBNZXNzYWdlID0+ICh7CiAgICBpZDogMSwKICAgIGNoYXJJZDogJ2NoYXItMScsCiAgICByb2xlOiAnYXNzaXN0YW50JywKICAgIHR5cGU6ICdodG1sX2NhcmQnLAogICAgY29udGVudDogJ1tIVE1M5Y2h54mHXScsCiAgICB0aW1lc3RhbXA6IDEsCiAgICBtZXRhZGF0YTogeyBodG1sU291cmNlOiAnPGRpdj5oZWxsbzwvZGl2PicgfSwKfSk7Cgpjb25zdCBtdXNpY0NhcmQgPSAoKTogTWVzc2FnZSA9PiAoewogICAgaWQ6IDIsCiAgICBjaGFySWQ6ICdjaGFyLTEnLAogICAgcm9sZTogJ2Fzc2lzdGFudCcsCiAgICB0eXBlOiAnbXVzaWNfY2FyZCcsCiAgICBjb250ZW50OiAnW+mfs+S5kOWNoeeJh10nLAogICAgdGltZXN0YW1wOiAyLAogICAgbWV0YWRhdGE6IHsKICAgICAgICBpbnRlbnQ6ICdqb2luJywKICAgICAgICBzb25nOiB7IHNvbmdJZDogNywgbmFtZTogJ1NvbmcnLCBhcnRpc3RzOiAnQXJ0aXN0JywgYWxidW1QaWM6ICcnIH0sCiAgICB9LAp9KTsKCmRlc2NyaWJlKCdNZXNzYWdlSXRlbSBtb2R1bGUgbGF5b3V0JywgKCkgPT4gewogICAgY29uc3QgbW9kdWxlTW9kZXMgPSBbCiAgICAgICAgWydjZW50ZXInLCAnZ3JvdXBlZCddLAogICAgICAgIFsnY2VudGVyJywgJ2V2ZXJ5X21lc3NhZ2UnXSwKICAgICAgICBbJ2FuY2hvcicsICdncm91cGVkJ10sCiAgICAgICAgWydhbmNob3InLCAnZXZlcnlfbWVzc2FnZSddLAogICAgXSBhcyBjb25zdDsKCiAgICBpdC5lYWNoKG1vZHVsZU1vZGVzKSgnSFRNTCDljaHniYflnKggJXMgLyAlcyDmqKHlvI/pg73kuI3muLLmn5Pmtojmga/lpJbkvqflpLTlg48nLCAoYWxpZ24sIGF2YXRhck1vZGUpID0+IHsKICAgICAgICBjb25zdCBtYXJrdXAgPSByZW5kZXJNZXNzYWdlKGh0bWxDYXJkKCksIGFsaWduLCBhdmF0YXJNb2RlKTsKICAgICAgICBleHBlY3QobWFya3VwKS5ub3QudG9Db250YWluKCdhbHQ9ImF2YXRhciInKTsKICAgICAgICBleHBlY3QobWFya3VwKS50b0NvbnRhaW4oJ3N1bGx5LWh0bWwtd3JhcCcpOwogICAgICAgIGV4cGVjdChtYXJrdXApLnRvQ29udGFpbihhbGlnbiA9PT0gJ2NlbnRlcicgPyAnbXgtYXV0byBzdWxseS1odG1sLXdyYXAnIDogJ21sLTEyIHN1bGx5LWh0bWwtd3JhcCcpOwogICAgfSk7CgogICAgaXQuZWFjaChtb2R1bGVNb2RlcykoJ+S4gOi1t+WQrOWNoeeJh+WcqCAlcyAvICVzIOaooeW8j+i3n+maj+aooeWdl+S9jee9ruS4lOayoeaciea2iOaBr+WkluS+p+WktOWDjycsIChhbGlnbiwgYXZhdGFyTW9kZSkgPT4gewogICAgICAgIGNvbnN0IG1hcmt1cCA9IHJlbmRlck1lc3NhZ2UobXVzaWNDYXJkKCksIGFsaWduLCBhdmF0YXJNb2RlKTsKICAgICAgICBleHBlY3QobWFya3VwKS5ub3QudG9Db250YWluKCdhbHQ9ImF2YXRhciInKTsKICAgICAgICBleHBlY3QobWFya3VwKS50b0NvbnRhaW4oYWxpZ24gPT09ICdjZW50ZXInID8gJ214LWF1dG8gc3VsbHktaHRtbC13cmFwJyA6ICdtbC0xMiBzdWxseS1odG1sLXdyYXAnKTsKICAgICAgICAvLyDljaHniYflhoXpg6jnmoTigJzkuIDotbflkKzigJ3lj4zlpLTlg4/ku43kv53nlZnvvJvlj6rnp7vpmaTmtojmga/lpJblo7PlpLTlg4/jgIIKICAgICAgICBleHBlY3QobWFya3VwKS50b0NvbnRhaW4oJ2h0dHBzOi8vZXhhbXBsZS5jb20vdXNlci5wbmcnKTsKICAgICAgICBleHBlY3QobWFya3VwKS50b0NvbnRhaW4oJ2h0dHBzOi8vZXhhbXBsZS5jb20vY2hhci5wbmcnKTsKICAgIH0pOwoKICAgIGl0KCfmma7pgJrop5LoibLmtojmga/nu6fnu63mmL7npLrlpJbkvqflpLTlg48nLCAoKSA9PiB7CiAgICAgICAgY29uc3QgbWFya3VwID0gcmVuZGVyTWVzc2FnZSh7CiAgICAgICAgICAgIGlkOiAzLAogICAgICAgICAgICBjaGFySWQ6ICdjaGFyLTEnLAogICAgICAgICAgICByb2xlOiAnYXNzaXN0YW50JywKICAgICAgICAgICAgdHlwZTogJ3RleHQnLAogICAgICAgICAgICBjb250ZW50OiAn5pmu6YCa5raI5oGvJywKICAgICAgICAgICAgdGltZXN0YW1wOiAzLAogICAgICAgIH0pOwogICAgICAgIGV4cGVjdChtYXJrdXApLnRvQ29udGFpbignYWx0PSJhdmF0YXIiJyk7CiAgICAgICAgZXhwZWN0KG1hcmt1cCkudG9Db250YWluKCdodHRwczovL2V4YW1wbGUuY29tL2NoYXIucG5nJyk7CiAgICB9KTsKCiAgICBpdCgn5b+D6LGh5Y2h54mH5o+Q5L6b6ZW/5oyJ5aSN5Yi25o+Q56S65LiO54us56uL5Lqk5LqS5YWl5Y+jJywgKCkgPT4gewogICAgICAgIGNvbnN0IG1hcmt1cCA9IHJlbmRlck1lc3NhZ2UoewogICAgICAgICAgICBpZDogNCwKICAgICAgICAgICAgY2hhcklkOiAnY2hhci0xJywKICAgICAgICAgICAgcm9sZTogJ2Fzc2lzdGFudCcsCiAgICAgICAgICAgIHR5cGU6ICd0ZXh0JywKICAgICAgICAgICAgY29udGVudDogJ+WbnuWkjeato+aWhycsCiAgICAgICAgICAgIHRpbWVzdGFtcDogNCwKICAgICAgICAgICAgbWV0YWRhdGE6IHsgdGhpbmtpbmdDaGFpbjogJ+i/meaYr+WPr+S7peS4gOmUruWkjeWItueahOWujOaVtOW/g+ixoeOAgicgfSwKICAgICAgICB9KTsKCiAgICAgICAgZXhwZWN0KG1hcmt1cCkudG9Db250YWluKCdhcmlhLWxhYmVsPSLlv4PosaHvvJrngrnlh7vlsZXlvIDvvIzplb/mjInlpI3liLblhajmlociJyk7CiAgICAgICAgZXhwZWN0KG1hcmt1cCkudG9Db250YWluKCd0aXRsZT0i6ZW/5oyJ5aSN5Yi25b+D6LGh5YWo5paHIicpOwogICAgICAgIGV4cGVjdChtYXJrdXApLnRvQ29udGFpbign6L+Z5piv5Y+v5Lul5LiA6ZSu5aSN5Yi255qE5a6M5pW05b+D6LGhJyk7CiAgICAgICAgZXhwZWN0KG1hcmt1cCkudG9Db250YWluKCd1c2VyLXNlbGVjdDp0ZXh0Jyk7CiAgICAgICAgZXhwZWN0KG1hcmt1cCkudG9Db250YWluKCctd2Via2l0LXRvdWNoLWNhbGxvdXQ6ZGVmYXVsdCcpOwogICAgfSk7Cn0pOwo=
+import React from 'react';
+import { renderToStaticMarkup } from 'react-dom/server';
+import { describe, expect, it, vi } from 'vitest';
+import type { Message } from '../types';
+import MessageItem from '../components/chat/MessageItem';
+
+const activeTheme = {
+    id: 'test-theme',
+    name: 'Test',
+    user: {},
+    ai: {},
+} as any;
+
+const renderMessage = (
+    msg: Message,
+    moduleAlign: 'anchor' | 'center' = 'center',
+    avatarMode: 'grouped' | 'every_message' = 'every_message',
+) => renderToStaticMarkup(React.createElement(MessageItem, {
+    msg,
+    isFirstInGroup: true,
+    isLastInGroup: true,
+    activeTheme,
+    charAvatar: 'https://example.com/char.png',
+    charName: '角色',
+    userAvatar: 'https://example.com/user.png',
+    onLongPress: vi.fn(),
+    onReply: vi.fn(),
+    selectionMode: false,
+    isSelected: false,
+    onToggleSelect: vi.fn(),
+    avatarMode,
+    moduleAlign,
+}));
+
+const htmlCard = (): Message => ({
+    id: 1,
+    charId: 'char-1',
+    role: 'assistant',
+    type: 'html_card',
+    content: '[HTML卡片]',
+    timestamp: 1,
+    metadata: { htmlSource: '<div>hello</div>' },
+});
+
+const musicCard = (): Message => ({
+    id: 2,
+    charId: 'char-1',
+    role: 'assistant',
+    type: 'music_card',
+    content: '[音乐卡片]',
+    timestamp: 2,
+    metadata: {
+        intent: 'join',
+        song: { songId: 7, name: 'Song', artists: 'Artist', albumPic: '' },
+    },
+});
+
+describe('MessageItem module layout', () => {
+    const moduleModes = [
+        ['center', 'grouped'],
+        ['center', 'every_message'],
+        ['anchor', 'grouped'],
+        ['anchor', 'every_message'],
+    ] as const;
+
+    it.each(moduleModes)('HTML 卡片在 %s / %s 模式都不渲染消息外侧头像', (align, avatarMode) => {
+        const markup = renderMessage(htmlCard(), align, avatarMode);
+        expect(markup).not.toContain('alt="avatar"');
+        expect(markup).toContain('sully-html-wrap');
+        expect(markup).toContain(align === 'center' ? 'mx-auto sully-html-wrap' : 'ml-12 sully-html-wrap');
+    });
+
+    it.each(moduleModes)('一起听卡片在 %s / %s 模式跟随模块位置且没有消息外侧头像', (align, avatarMode) => {
+        const markup = renderMessage(musicCard(), align, avatarMode);
+        expect(markup).not.toContain('alt="avatar"');
+        expect(markup).toContain(align === 'center' ? 'mx-auto sully-html-wrap' : 'ml-12 sully-html-wrap');
+        // 卡片内部的“一起听”双头像仍保留；只移除消息外壳头像。
+        expect(markup).toContain('https://example.com/user.png');
+        expect(markup).toContain('https://example.com/char.png');
+    });
+
+    it('普通角色消息继续显示外侧头像', () => {
+        const markup = renderMessage({
+            id: 3,
+            charId: 'char-1',
+            role: 'assistant',
+            type: 'text',
+            content: '普通消息',
+            timestamp: 3,
+        });
+        expect(markup).toContain('alt="avatar"');
+        expect(markup).toContain('https://example.com/char.png');
+    });
+
+    it('心象卡片提供长按复制提示与独立交互入口', () => {
+        const markup = renderMessage({
+            id: 4,
+            charId: 'char-1',
+            role: 'assistant',
+            type: 'text',
+            content: '回复正文',
+            timestamp: 4,
+            metadata: { thinkingChain: '这是可以一键复制的完整心象。' },
+        });
+
+        expect(markup).toContain('aria-label="心象：点击展开，长按复制全文"');
+        expect(markup).toContain('title="长按复制心象全文"');
+        expect(markup).toContain('这是可以一键复制的完整心象');
+        expect(markup).toContain('user-select:text');
+        expect(markup).toContain('-webkit-touch-callout:default');
+    });
+});

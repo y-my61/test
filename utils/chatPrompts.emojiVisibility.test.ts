@@ -1,1 +1,69 @@
-aW1wb3J0IHsgZGVzY3JpYmUsIGl0LCBleHBlY3QgfSBmcm9tICd2aXRlc3QnOwppbXBvcnQgeyBDaGF0UHJvbXB0cyB9IGZyb20gJy4vY2hhdFByb21wdHMnOwppbXBvcnQgdHlwZSB7IEVtb2ppLCBFbW9qaUNhdGVnb3J5IH0gZnJvbSAnLi4vdHlwZXMnOwoKLy8g6ZSB5L2P44CM6KeS6Imy5Y+q6IO955So6Ieq5bex6IyD5Zu05YaF55qE6KGo5oOF5YyF44CN55qE5L+u5aSN44CCCi8vCi8vIOihqOaDheWMheWIhuexu+WPr+S7peiuviBhbGxvd2VkQ2hhcmFjdGVySWRzIOmZkOWumuWPr+ingeinkuiJsuOAguengeiBiui3r+W+hCAoQ2hhdC50c3gpIOWcqOWWgue7mQovLyBMTE0g5YmN5Lya5oyJ6KeS6Imy6L+H5ruk77yb5L2G5Li75Yqo5raI5oGvIChhY3RpdmVNc2dDbGllbnQuYnVpbGRDb21wbGV0ZVByb21wdCkg5LmL5YmN5ryP5LqG6L+Z5q2l77yMCi8vIOebtOaOpeaKiuWFqOmDqOihqOaDheWhnui/myBzeXN0ZW0gcHJvbXB077yM5a+86Ie0IEIg5Zyo5Li75Yqo5raI5oGv6YeM55So5Yiw5Y+q6KeE5a6a57uZIEEg55qE6KGo5oOF5YyF44CCCi8vIOS/ruWkjeaKiui/h+a7pOaUtuWPo+WIsCBDaGF0UHJvbXB0cy5maWx0ZXJWaXNpYmxlRW1vamlz77yM5Lik5p2h6Lev5b6E5YWx55So44CC6L+Z6YeM6ZKJ5L2PIGhlbHBlciDooYzkuLrjgIIKCmNvbnN0IGNhdGVnb3JpZXM6IEVtb2ppQ2F0ZWdvcnlbXSA9IFsKICB7IGlkOiAncHVibGljJywgbmFtZTogJ+mAmueUqCcgfSwgLy8g5pegIGFsbG93ZWRDaGFyYWN0ZXJJZHMgPSDmiYDmnInkurrlj6/op4EKICB7IGlkOiAnb25seUEnLCBuYW1lOiAn5Y+q57uZQScsIGFsbG93ZWRDaGFyYWN0ZXJJZHM6IFsnQSddIH0sCiAgeyBpZDogJ2VtcHR5TGlzdCcsIG5hbWU6ICfnqbrlkI3ljZUnLCBhbGxvd2VkQ2hhcmFjdGVySWRzOiBbXSB9LCAvLyDnqbrlkI3ljZUgPSDmiYDmnInkurrlj6/op4EKXTsKCmNvbnN0IGVtb2ppczogRW1vamlbXSA9IFsKICB7IG5hbWU6ICfpgJrnlKjooajmg4UnLCB1cmw6ICd1MScsIGNhdGVnb3J5SWQ6ICdwdWJsaWMnIH0sCiAgeyBuYW1lOiAnQeS4k+WxnicsIHVybDogJ3UyJywgY2F0ZWdvcnlJZDogJ29ubHlBJyB9LAogIHsgbmFtZTogJ+aXoOWIhuexuycsIHVybDogJ3UzJyB9LCAvLyDml6AgY2F0ZWdvcnlJZCDlp4vnu4jlj6/op4EKICB7IG5hbWU6ICfnqbrlkI3ljZXooajmg4UnLCB1cmw6ICd1NCcsIGNhdGVnb3J5SWQ6ICdlbXB0eUxpc3QnIH0sCl07CgpkZXNjcmliZSgnQ2hhdFByb21wdHMuZmlsdGVyVmlzaWJsZUVtb2ppcycsICgpID0+IHsKICBpdCgn5L+d55WZ6IyD5Zu05YaF6KeS6Imy55qE5Y+X6ZmQ6KGo5oOFJywgKCkgPT4gewogICAgY29uc3QgcmVzID0gQ2hhdFByb21wdHMuZmlsdGVyVmlzaWJsZUVtb2ppcyhlbW9qaXMsIGNhdGVnb3JpZXMsICdBJyk7CiAgICBleHBlY3QocmVzLmVtb2ppcy5tYXAoZSA9PiBlLm5hbWUpLnNvcnQoKSkudG9FcXVhbCgKICAgICAgWydB5LiT5bGeJywgJ+aXoOWIhuexuycsICfnqbrlkI3ljZXooajmg4UnLCAn6YCa55So6KGo5oOFJ10uc29ydCgpLAogICAgKTsKICAgIGV4cGVjdChyZXMuY2F0ZWdvcmllcy5tYXAoYyA9PiBjLmlkKS5zb3J0KCkpLnRvRXF1YWwoCiAgICAgIFsnZW1wdHlMaXN0JywgJ29ubHlBJywgJ3B1YmxpYyddLnNvcnQoKSwKICAgICk7CiAgfSk7CgogIGl0KCflr7nojIPlm7TlpJbop5LoibLpmpDol4/lj5fpmZDliIbnsbvkuIvnmoTooajmg4UnLCAoKSA9PiB7CiAgICBjb25zdCByZXMgPSBDaGF0UHJvbXB0cy5maWx0ZXJWaXNpYmxlRW1vamlzKGVtb2ppcywgY2F0ZWdvcmllcywgJ0InKTsKICAgIGV4cGVjdChyZXMuZW1vamlzLm1hcChlID0+IGUubmFtZSkpLm5vdC50b0NvbnRhaW4oJ0HkuJPlsZ4nKTsKICAgIC8vIOmAmueUqCAvIOepuuWQjeWNlSAvIOaXoOWIhuexuyDku43nhLblj6/op4EKICAgIGV4cGVjdChyZXMuZW1vamlzLm1hcChlID0+IGUubmFtZSkuc29ydCgpKS50b0VxdWFsKAogICAgICBbJ+aXoOWIhuexuycsICfnqbrlkI3ljZXooajmg4UnLCAn6YCa55So6KGo5oOFJ10uc29ydCgpLAogICAgKTsKICAgIGV4cGVjdChyZXMuY2F0ZWdvcmllcy5tYXAoYyA9PiBjLmlkKSkubm90LnRvQ29udGFpbignb25seUEnKTsKICB9KTsKCiAgaXQoJ+ayoeacieS7u+S9leWPl+mZkOWIhuexu+aXtuWOn+agt+i/lOWbnu+8iOefrei3r++8iScsICgpID0+IHsKICAgIGNvbnN0IG9wZW5DYXRzOiBFbW9qaUNhdGVnb3J5W10gPSBbeyBpZDogJ3B1YmxpYycsIG5hbWU6ICfpgJrnlKgnIH1dOwogICAgY29uc3QgcmVzID0gQ2hhdFByb21wdHMuZmlsdGVyVmlzaWJsZUVtb2ppcyhlbW9qaXMsIG9wZW5DYXRzLCAnQicpOwogICAgZXhwZWN0KHJlcy5lbW9qaXMpLnRvQmUoZW1vamlzKTsKICB9KTsKCiAgaXQoJ+WQjOWQjeihqOaDheWPquS/neeVmeW9k+WJjeinkuiJsue7keWumueahOeJiOacrO+8jOmBv+WFjeaMieWQjeWtl+WPjeafpeWIsOWFtuS7luinkuiJsueahCBVUkwnLCAoKSA9PiB7CiAgICBjb25zdCBzY29wZWRDYXRlZ29yaWVzOiBFbW9qaUNhdGVnb3J5W10gPSBbCiAgICAgIHsgaWQ6ICdvbmx5QScsIG5hbWU6ICdBIOS4k+WxnicsIGFsbG93ZWRDaGFyYWN0ZXJJZHM6IFsnQSddIH0sCiAgICAgIHsgaWQ6ICdvbmx5QicsIG5hbWU6ICdCIOS4k+WxnicsIGFsbG93ZWRDaGFyYWN0ZXJJZHM6IFsnQiddIH0sCiAgICBdOwogICAgY29uc3QgZHVwbGljYXRlTmFtZXM6IEVtb2ppW10gPSBbCiAgICAgIHsgbmFtZTogJ+aMpeaJiycsIHVybDogJ2Etb25seS11cmwnLCBjYXRlZ29yeUlkOiAnb25seUEnIH0sCiAgICAgIHsgbmFtZTogJ+aMpeaJiycsIHVybDogJ2Itb25seS11cmwnLCBjYXRlZ29yeUlkOiAnb25seUInIH0sCiAgICBdOwoKICAgIGNvbnN0IHJlcyA9IENoYXRQcm9tcHRzLmZpbHRlclZpc2libGVFbW9qaXMoZHVwbGljYXRlTmFtZXMsIHNjb3BlZENhdGVnb3JpZXMsICdCJyk7CgogICAgZXhwZWN0KHJlcy5lbW9qaXMpLnRvRXF1YWwoWwogICAgICB7IG5hbWU6ICfmjKXmiYsnLCB1cmw6ICdiLW9ubHktdXJsJywgY2F0ZWdvcnlJZDogJ29ubHlCJyB9LAogICAgXSk7CiAgICBleHBlY3QocmVzLmVtb2ppcy5maW5kKGUgPT4gZS5uYW1lID09PSAn5oyl5omLJyk/LnVybCkudG9CZSgnYi1vbmx5LXVybCcpOwogIH0pOwp9KTsK
+import { describe, it, expect } from 'vitest';
+import { ChatPrompts } from './chatPrompts';
+import type { Emoji, EmojiCategory } from '../types';
+
+// 锁住「角色只能用自己范围内的表情包」的修复。
+//
+// 表情包分类可以设 allowedCharacterIds 限定可见角色。私聊路径 (Chat.tsx) 在喂给
+// LLM 前会按角色过滤；但主动消息 (activeMsgClient.buildCompletePrompt) 之前漏了这步，
+// 直接把全部表情塞进 system prompt，导致 B 在主动消息里用到只规定给 A 的表情包。
+// 修复把过滤收口到 ChatPrompts.filterVisibleEmojis，两条路径共用。这里钉住 helper 行为。
+
+const categories: EmojiCategory[] = [
+  { id: 'public', name: '通用' }, // 无 allowedCharacterIds = 所有人可见
+  { id: 'onlyA', name: '只给A', allowedCharacterIds: ['A'] },
+  { id: 'emptyList', name: '空名单', allowedCharacterIds: [] }, // 空名单 = 所有人可见
+];
+
+const emojis: Emoji[] = [
+  { name: '通用表情', url: 'u1', categoryId: 'public' },
+  { name: 'A专属', url: 'u2', categoryId: 'onlyA' },
+  { name: '无分类', url: 'u3' }, // 无 categoryId 始终可见
+  { name: '空名单表情', url: 'u4', categoryId: 'emptyList' },
+];
+
+describe('ChatPrompts.filterVisibleEmojis', () => {
+  it('保留范围内角色的受限表情', () => {
+    const res = ChatPrompts.filterVisibleEmojis(emojis, categories, 'A');
+    expect(res.emojis.map(e => e.name).sort()).toEqual(
+      ['A专属', '无分类', '空名单表情', '通用表情'].sort(),
+    );
+    expect(res.categories.map(c => c.id).sort()).toEqual(
+      ['emptyList', 'onlyA', 'public'].sort(),
+    );
+  });
+
+  it('对范围外角色隐藏受限分类下的表情', () => {
+    const res = ChatPrompts.filterVisibleEmojis(emojis, categories, 'B');
+    expect(res.emojis.map(e => e.name)).not.toContain('A专属');
+    // 通用 / 空名单 / 无分类 仍然可见
+    expect(res.emojis.map(e => e.name).sort()).toEqual(
+      ['无分类', '空名单表情', '通用表情'].sort(),
+    );
+    expect(res.categories.map(c => c.id)).not.toContain('onlyA');
+  });
+
+  it('没有任何受限分类时原样返回（短路）', () => {
+    const openCats: EmojiCategory[] = [{ id: 'public', name: '通用' }];
+    const res = ChatPrompts.filterVisibleEmojis(emojis, openCats, 'B');
+    expect(res.emojis).toBe(emojis);
+  });
+
+  it('同名表情只保留当前角色绑定的版本，避免按名字反查到其他角色的 URL', () => {
+    const scopedCategories: EmojiCategory[] = [
+      { id: 'onlyA', name: 'A 专属', allowedCharacterIds: ['A'] },
+      { id: 'onlyB', name: 'B 专属', allowedCharacterIds: ['B'] },
+    ];
+    const duplicateNames: Emoji[] = [
+      { name: '挥手', url: 'a-only-url', categoryId: 'onlyA' },
+      { name: '挥手', url: 'b-only-url', categoryId: 'onlyB' },
+    ];
+
+    const res = ChatPrompts.filterVisibleEmojis(duplicateNames, scopedCategories, 'B');
+
+    expect(res.emojis).toEqual([
+      { name: '挥手', url: 'b-only-url', categoryId: 'onlyB' },
+    ]);
+    expect(res.emojis.find(e => e.name === '挥手')?.url).toBe('b-only-url');
+  });
+});

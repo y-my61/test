@@ -1,1 +1,44 @@
-aW1wb3J0IHsgZGVzY3JpYmUsIGl0LCBleHBlY3QgfSBmcm9tICd2aXRlc3QnOwppbXBvcnQgeyBwYXJzZUxheWVyTmFtZSB9IGZyb20gJy4vcHNkQ3JlYXRvckltcG9ydCc7CgpkZXNjcmliZSgncGFyc2VMYXllck5hbWUnLCAoKSA9PiB7CiAgICBpdCgn5Lit5paH5Yir5ZCNICsg56m65qC8JywgKCkgPT4gewogICAgICAgIGV4cGVjdChwYXJzZUxheWVyTmFtZSgn5YmN5Y+RIOS6keacteWImOa1tycpKS50b0VxdWFsKHsgY2F0ZWdvcnlLZXk6ICdmcm9udGhhaXInLCBuYW1lOiAn5LqR5py15YiY5rW3JywgdGludGFibGU6IG51bGwgfSk7CiAgICAgICAgZXhwZWN0KHBhcnNlTGF5ZXJOYW1lKCfogLPlj5Eg6ZW/6ayT5Y+RJykpLnRvRXF1YWwoeyBjYXRlZ29yeUtleTogJ2VhcmhhaXInLCBuYW1lOiAn6ZW/6ayT5Y+RJywgdGludGFibGU6IG51bGwgfSk7CiAgICB9KTsKCiAgICBpdCgn6Iux5paHIGtleSArIOWQhOenjeWIhumalOespicsICgpID0+IHsKICAgICAgICBleHBlY3QocGFyc2VMYXllck5hbWUoJ2Zyb250aGFpci1jbG91ZCcpKS50b0VxdWFsKHsgY2F0ZWdvcnlLZXk6ICdmcm9udGhhaXInLCBuYW1lOiAnY2xvdWQnLCB0aW50YWJsZTogbnVsbCB9KTsKICAgICAgICBleHBlY3QocGFyc2VMYXllck5hbWUoJ+WQjuWPkTFf6ams5bC+JykpLnRvRXF1YWwoeyBjYXRlZ29yeUtleTogJ2JhY2sxJywgbmFtZTogJ+mprOWwvicsIHRpbnRhYmxlOiBudWxsIH0pOwogICAgICAgIGV4cGVjdChwYXJzZUxheWVyTmFtZSgn6YWN6aWwwrfonbTonbbnu5MnKSkudG9FcXVhbCh7IGNhdGVnb3J5S2V5OiAnZGVjb3InLCBuYW1lOiAn6J206J2257uTJywgdGludGFibGU6IG51bGwgfSk7CiAgICB9KTsKCiAgICBpdCgn5ZCO5Y+RMS/lkI7lj5EyIOS4jeiiqyLlkI7lj5Ei5oiq5patJywgKCkgPT4gewogICAgICAgIGV4cGVjdChwYXJzZUxheWVyTmFtZSgn5ZCO5Y+RMiDlj4zpqazlsL4nKS5jYXRlZ29yeUtleSkudG9CZSgnYmFjazInKTsKICAgIH0pOwoKICAgIGl0KCfliJjmtbfmmK/liY3lj5HnmoTliKvlkI0nLCAoKSA9PiB7CiAgICAgICAgZXhwZWN0KHBhcnNlTGF5ZXJOYW1lKCfliJjmtbcg6b2Q5YiY5rW3JykuY2F0ZWdvcnlLZXkpLnRvQmUoJ2Zyb250aGFpcicpOwogICAgfSk7CgogICAgaXQoJyPoibIgLyAj5Y6f6ImyIOagh+iusO+8iOWQq+WFqOinkuS6leWPt++8ie+8jOW5tuS7juWQjeWtl+mHjOWJpeaOiScsICgpID0+IHsKICAgICAgICBleHBlY3QocGFyc2VMYXllck5hbWUoJ+iho+acjSDmsLTmiYvmnI0gI+iJsicpKS50b0VxdWFsKHsgY2F0ZWdvcnlLZXk6ICdvdXRmaXQnLCBuYW1lOiAn5rC05omL5pyNJywgdGludGFibGU6IHRydWUgfSk7CiAgICAgICAgZXhwZWN0KHBhcnNlTGF5ZXJOYW1lKCfliY3lj5Eg5oyR5p+T5YiY5rW3IO+8g+WOn+iJsicpKS50b0VxdWFsKHsgY2F0ZWdvcnlLZXk6ICdmcm9udGhhaXInLCBuYW1lOiAn5oyR5p+T5YiY5rW3JywgdGludGFibGU6IGZhbHNlIH0pOwogICAgICAgIGV4cGVjdChwYXJzZUxheWVyTmFtZSgnb3V0Zml0IHNhaWxvciAjbm90aW50JykudGludGFibGUpLnRvQmUoZmFsc2UpOwogICAgICAgIGV4cGVjdChwYXJzZUxheWVyTmFtZSgnb3V0Zml0IHNhaWxvciAjdGludCcpLnRpbnRhYmxlKS50b0JlKHRydWUpOwogICAgfSk7CgogICAgaXQoJ+ivhuWIq+S4jeWHuuexu+ebruaXtuaVtOS4quWQjeWtl+S/neeVmeOAgWNhdGVnb3J5S2V5IOS4uiBudWxsJywgKCkgPT4gewogICAgICAgIGV4cGVjdChwYXJzZUxheWVyTmFtZSgn6ZqP5L6/55S755qE5LiA5bGCJykpLnRvRXF1YWwoeyBjYXRlZ29yeUtleTogbnVsbCwgbmFtZTogJ+maj+S+v+eUu+eahOS4gOWxgicsIHRpbnRhYmxlOiBudWxsIH0pOwogICAgfSk7CgogICAgaXQoJ+WPquacieexu+ebruayoeacieWQjeWtl+aXtuWQjeWtl+WbnumAgOS4uuWOn+Wni+S4sicsICgpID0+IHsKICAgICAgICBleHBlY3QocGFyc2VMYXllck5hbWUoJ+WJjeWPkScpKS50b0VxdWFsKHsgY2F0ZWdvcnlLZXk6ICdmcm9udGhhaXInLCBuYW1lOiAn5YmN5Y+RJywgdGludGFibGU6IG51bGwgfSk7CiAgICB9KTsKCiAgICBpdCgnaGFzQ2F0ZWdvcnk9ZmFsc2Ug5pe25LiN6K6k57G755uu44CB5pW05ZCN5L+d55WZ77yI57uE5YaF5Zu+5bGC5ZCN6LWw6L+Z5p2h77ya57G755uu5p2l6Ieq57uE77yJJywgKCkgPT4gewogICAgICAgIGV4cGVjdChwYXJzZUxheWVyTmFtZSgn5p2P55y8JywgZmFsc2UpKS50b0VxdWFsKHsgY2F0ZWdvcnlLZXk6IG51bGwsIG5hbWU6ICfmnY/nnLwnLCB0aW50YWJsZTogbnVsbCB9KTsKICAgICAgICAvLyB0aW50IOagh+iusOS7jeS8muiiq+WJpeWHugogICAgICAgIGV4cGVjdChwYXJzZUxheWVyTmFtZSgn54uQ54u455y8ICPoibInLCBmYWxzZSkpLnRvRXF1YWwoeyBjYXRlZ29yeUtleTogbnVsbCwgbmFtZTogJ+eLkOeLuOecvCcsIHRpbnRhYmxlOiB0cnVlIH0pOwogICAgfSk7Cn0pOwo=
+import { describe, it, expect } from 'vitest';
+import { parseLayerName } from './psdCreatorImport';
+
+describe('parseLayerName', () => {
+    it('中文别名 + 空格', () => {
+        expect(parseLayerName('前发 云朵刘海')).toEqual({ categoryKey: 'fronthair', name: '云朵刘海', tintable: null });
+        expect(parseLayerName('耳发 长鬓发')).toEqual({ categoryKey: 'earhair', name: '长鬓发', tintable: null });
+    });
+
+    it('英文 key + 各种分隔符', () => {
+        expect(parseLayerName('fronthair-cloud')).toEqual({ categoryKey: 'fronthair', name: 'cloud', tintable: null });
+        expect(parseLayerName('后发1_马尾')).toEqual({ categoryKey: 'back1', name: '马尾', tintable: null });
+        expect(parseLayerName('配饰·蝴蝶结')).toEqual({ categoryKey: 'decor', name: '蝴蝶结', tintable: null });
+    });
+
+    it('后发1/后发2 不被"后发"截断', () => {
+        expect(parseLayerName('后发2 双马尾').categoryKey).toBe('back2');
+    });
+
+    it('刘海是前发的别名', () => {
+        expect(parseLayerName('刘海 齐刘海').categoryKey).toBe('fronthair');
+    });
+
+    it('#色 / #原色 标记（含全角井号），并从名字里剥掉', () => {
+        expect(parseLayerName('衣服 水手服 #色')).toEqual({ categoryKey: 'outfit', name: '水手服', tintable: true });
+        expect(parseLayerName('前发 挑染刘海 ＃原色')).toEqual({ categoryKey: 'fronthair', name: '挑染刘海', tintable: false });
+        expect(parseLayerName('outfit sailor #notint').tintable).toBe(false);
+        expect(parseLayerName('outfit sailor #tint').tintable).toBe(true);
+    });
+
+    it('识别不出类目时整个名字保留、categoryKey 为 null', () => {
+        expect(parseLayerName('随便画的一层')).toEqual({ categoryKey: null, name: '随便画的一层', tintable: null });
+    });
+
+    it('只有类目没有名字时名字回退为原始串', () => {
+        expect(parseLayerName('前发')).toEqual({ categoryKey: 'fronthair', name: '前发', tintable: null });
+    });
+
+    it('hasCategory=false 时不认类目、整名保留（组内图层名走这条：类目来自组）', () => {
+        expect(parseLayerName('杏眼', false)).toEqual({ categoryKey: null, name: '杏眼', tintable: null });
+        // tint 标记仍会被剥出
+        expect(parseLayerName('狐狸眼 #色', false)).toEqual({ categoryKey: null, name: '狐狸眼', tintable: true });
+    });
+});

@@ -1,1 +1,130 @@
-aW1wb3J0IHsgZGVzY3JpYmUsIGl0LCBleHBlY3QsIHZpIH0gZnJvbSAndml0ZXN0JzsKaW1wb3J0IHsgREIsIG9wZW5EQiB9IGZyb20gJy4vZGInOwoKLy8gZmFrZS1pbmRleGVkZGIg5bey6YCa6L+HIHRlc3Qtc2V0dXAudHMg5rOo5YWl44CC6L+Z57uE55So5L6L6ZSB5L2P44CM5Y2V5L6L6L+e5o6l5aSN55So44CN6L+Z5p2h5L+u5aSNOgovLyDkv67lpI3liY0gb3BlbkRCIOavj+asoeiwg+eUqOmDvSBpbmRleGVkREIub3BlbigpIOaWsOW8gOS4gOadoei/nuaOpSAoYSAhPT0gYiwg5LiU5q+P5LiqIERCIOaTjeS9nAovLyDpg73op6blj5HkuIDmrKEgb3Blbikg4oCU4oCUIOWcqOiusOW/hueuoee6v+W5tuWPkeS4i+WghuWHuuWHoOWNgeadoei/nuaOpeaSkeeIhiBiYWNraW5nIHN0b3Jl44CC5L+u5aSN5ZCO5aSN55SoCi8vIOWQjOS4gOadoei/nuaOpeOAggoKZGVzY3JpYmUoJ29wZW5EQiDljZXkvovov57mjqXlpI3nlKgnLCAoKSA9PiB7CiAgaXQoJ+WkmuasoSBvcGVuREIg6L+U5Zue5ZCM5LiA5p2h6L+e5o6lICjkuI3lho3mr4/mrKHmlrDlvIApJywgYXN5bmMgKCkgPT4gewogICAgY29uc3QgYSA9IGF3YWl0IG9wZW5EQigpOwogICAgY29uc3QgYiA9IGF3YWl0IG9wZW5EQigpOwogICAgZXhwZWN0KGEpLnRvQmUoYik7CiAgfSk7CgogIGl0KCfov57nu60gREIg5pON5L2c5aSN55So5bey57yT5a2Y6L+e5o6lLCDkuI3lho3op6blj5HmlrDnmoQgaW5kZXhlZERCLm9wZW4nLCBhc3luYyAoKSA9PiB7CiAgICBhd2FpdCBvcGVuREIoKTsgLy8g56Gu5L+d5Y2V5L6L5bey5bu656uLICjluYLnrYkpCiAgICBjb25zdCBvcGVuU3B5ID0gdmkuc3B5T24oaW5kZXhlZERCLCAnb3BlbicpOwogICAgdHJ5IHsKICAgICAgYXdhaXQgREIuZ2V0QWxsQ2hhcmFjdGVycygpOwogICAgICBhd2FpdCBEQi5nZXRBbGxDaGFyYWN0ZXJzKCk7CiAgICAgIGF3YWl0IERCLmdldEFsbENoYXJhY3RlcnMoKTsKICAgICAgZXhwZWN0KG9wZW5TcHkpLm5vdC50b0hhdmVCZWVuQ2FsbGVkKCk7CiAgICB9IGZpbmFsbHkgewogICAgICBvcGVuU3B5Lm1vY2tSZXN0b3JlKCk7CiAgICB9CiAgfSk7Cn0pOwoKLy8g5Y2V5L6L5Y+q6Kej5Yaz44CM5aSN55So44CNLCDov5jlvpfkv53or4Hov57mjqXooqvlpJbpg6jlpLHmlYjlkI7og73oh6rmhIgsIOWQpuWImeS4i+asoeaLv+WIsOeahOi/mOaYr+atu+i/nuaOpeOAggovLyDov5nph4znm7TmjqXop6blj5HmjILlnKjov57mjqXkuIrnmoQgb252ZXJzaW9uY2hhbmdlIC8gb25jbG9zZSDlm57osIMsIOmqjOivgee8k+WtmOiiq+a4heOAgeS4i+asoSBvcGVuREIg6YeN5byA44CCCmRlc2NyaWJlKCdvcGVuREIg5aSx5pWI6Ieq5oSIJywgKCkgPT4gewogIGl0KCdvbnZlcnNpb25jaGFuZ2Ug6Kem5Y+R5ZCOIGNsb3NlIOiuqeS9jeW5tua4hee8k+WtmCwg5LiL5qyhIG9wZW5EQiDph43lvIDmlrDov57mjqUnLCBhc3luYyAoKSA9PiB7CiAgICBjb25zdCBhID0gYXdhaXQgb3BlbkRCKCk7CiAgICAvLyDmqKHmi5/lj6bkuIDkuKogdGFiIOWNh+e6p+eJiOacrOaXtua1j+iniOWZqOa0vuWPkeeahCB2ZXJzaW9uY2hhbmdlCiAgICAoYSBhcyB1bmtub3duIGFzIHsgb252ZXJzaW9uY2hhbmdlPzogKGU6IEV2ZW50KSA9PiB2b2lkIH0pLm9udmVyc2lvbmNoYW5nZT8uKG5ldyBFdmVudCgndmVyc2lvbmNoYW5nZScpKTsKICAgIGNvbnN0IGIgPSBhd2FpdCBvcGVuREIoKTsKICAgIGV4cGVjdChiKS5ub3QudG9CZShhKTsKICB9KTsKCiAgaXQoJ29uY2xvc2Ug6Kem5Y+R5ZCO5riF57yT5a2YLCDkuIvmrKEgb3BlbkRCIOmHjeW8gOaWsOi/nuaOpScsIGFzeW5jICgpID0+IHsKICAgIGNvbnN0IGEgPSBhd2FpdCBvcGVuREIoKTsKICAgIC8vIOecn+WunuWcuuaZrzog5rWP6KeI5Zmo5piv5YWI5by65Yi25YWz6Zet6L+e5o6l44CB5YaNIGZpcmUgY2xvc2Ug5LqL5Lu244CC5YWIIGNsb3NlKGEpIOiuqSBmYWtlLWluZGV4ZWRkYgogICAgLy8g6L+b5YWlIui/nuaOpeW3suWFsyLnmoTnnJ/lrp7nirbmgIEgKOWQpuWImSBhIOS8muS9nOS4uuS4gOadoeW8gOedgOeahOWtpOWEv+i/nuaOpeaui+eVmSwg5ouW57Sv5ZCO6Z2i55qE5Yig5bqTKSwKICAgIC8vIOWGjeaJi+WKqOinpuWPkeaIkeS7rOaMgueahCBvbmNsb3NlIOWkhOeQhuWZqCAo5a6D5Y+q6LSf6LSj5riF57yT5a2YLCDkuI3otJ/otKPlhbPov57mjqUp44CCCiAgICBhLmNsb3NlKCk7CiAgICAoYSBhcyB1bmtub3duIGFzIHsgb25jbG9zZT86IChlOiBFdmVudCkgPT4gdm9pZCB9KS5vbmNsb3NlPy4obmV3IEV2ZW50KCdjbG9zZScpKTsKICAgIGNvbnN0IGIgPSBhd2FpdCBvcGVuREIoKTsKICAgIGV4cGVjdChiKS5ub3QudG9CZShhKTsKICB9KTsKCiAgaXQoJ+mZiOaXp+i/nuaOpei/n+WIsOeahCBvbmNsb3NlIOS4jeivr+a4heW3sumHjeW8gOeahOaWsOWNleS+iyAoPT09IHByb21pc2Ug5a6I5Y2rKScsIGFzeW5jICgpID0+IHsKICAgIGNvbnN0IGEgPSBhd2FpdCBvcGVuREIoKTsKICAgIC8vIOmHjeW8gDog6Kem5Y+RIGEg55qEIG9udmVyc2lvbmNoYW5nZSAo5LyaIGNsb3NlIGEgKyDmuIXnvJPlrZgpLCDlho0gb3BlbkRCIOaLv+WIsOaWsOWNleS+iyBiCiAgICAoYSBhcyB1bmtub3duIGFzIHsgb252ZXJzaW9uY2hhbmdlPzogKGU6IEV2ZW50KSA9PiB2b2lkIH0pLm9udmVyc2lvbmNoYW5nZT8uKG5ldyBFdmVudCgndmVyc2lvbmNoYW5nZScpKTsKICAgIGNvbnN0IGIgPSBhd2FpdCBvcGVuREIoKTsKICAgIGV4cGVjdChiKS5ub3QudG9CZShhKTsKICAgIC8vIOatpOWIu+aJjei/n+WIsOinpuWPkSBhICjpmYjml6fov57mjqUpIOeahCBvbmNsb3NlIOKAlOKAlCDkuI3luKblrojljavkvJrmioogYiDor6/muIXmiJAgbnVsbO+8jAogICAgLy8g5LiL5qyhIG9wZW5EQiDlh63nqbrlpJrlvIDkuIDmnaHov57mjqUgKOato+aYr+acrOasoeimgea2iOeBreeahCBjaHVybinjgILluKblrojljavliJkgYiDkv53nlZnjgIIKICAgIChhIGFzIHVua25vd24gYXMgeyBvbmNsb3NlPzogKGU6IEV2ZW50KSA9PiB2b2lkIH0pLm9uY2xvc2U/LihuZXcgRXZlbnQoJ2Nsb3NlJykpOwogICAgY29uc3QgYyA9IGF3YWl0IG9wZW5EQigpOwogICAgZXhwZWN0KGMpLnRvQmUoYik7CiAgfSk7Cn0pOwoKLy8g546w5pyJ54mI5pys6auY5LqO5b2T5YmNIGJ1aWxkIOeahCBEQl9WRVJTSU9OIOaXtiAo55So5oi35YWI6LeR6L+H5pu05paw55qEIGJ1aWxkIC8g5Y+m5LiAIHRhYiDljYfov4fnuqcgLwovLyBTVyDnvJPlrZjkuobmm7TmlrDnmoQgYnVuZGxlKSwg5bimIERCX1ZFUlNJT04g5omT5byA5Lya5oqbIFZlcnNpb25FcnJvciDigJTigJQg5pen6YC76L6R55u05o6lIHJlamVjdCwKLy8g5pW05LiqIG9yaWdpbiDnmoQgSW5kZXhlZERCIOWFqOaMgiAoU1lTVEVNIEVSUk9S44CB576O5YyW6K+75LiN5Ye65p2l44CB57q/5LiL6L+b5LiN5Y67KeOAguS/ruWkjeWQjuWbnumAgOWIsAovLyDjgIzkuI3luKbniYjmnKzlj7fmiZPlvIDjgI0sIOi/nuWIsOeOsOacieabtOmrmOeJiOacrCAoc3RvcmUg5piv6LaF6ZuGLCDor7vlhpnlhbzlrrkp44CCCmRlc2NyaWJlKCdvcGVuREIg54mI5pys5Zue6YCAICjnjrDmnInniYjmnKzpq5jkuo7lvZPliY0gYnVpbGQpJywgKCkgPT4gewogIGl0KCfpgYfliLAgVmVyc2lvbkVycm9yIOaXtuS4jeW4pueJiOacrOWPt+WbnumAgOaJk+W8gCwg5LiN5YaN5pW05bqT5oql6ZSZJywgYXN5bmMgKCkgPT4gewogICAgYXdhaXQgREIuZGVsZXRlREIoKTsgLy8g5aSN5L2NICsg5riF5o6J5Y2V5L6L6L+e5o6lCgogICAgLy8g6KO45byA5LiA5p2h44CM5q+UIERCX1ZFUlNJT04g5pu06auY44CN55qE6L+e5o6l5bu65bqT5ZCO5YWz6ZetLCDliLbpgKDnjrDmnInniYjmnKzlgY/pq5jnmoTnjrDlnLoKICAgIGNvbnN0IGhpID0gYXdhaXQgbmV3IFByb21pc2U8SURCRGF0YWJhc2U+KChyZXNvbHZlLCByZWplY3QpID0+IHsKICAgICAgY29uc3QgciA9IGluZGV4ZWREQi5vcGVuKCdBZXRoZXJPU19EYXRhJywgOTk5KTsKICAgICAgci5vbnN1Y2Nlc3MgPSAoKSA9PiByZXNvbHZlKHIucmVzdWx0KTsKICAgICAgci5vbmVycm9yID0gKCkgPT4gcmVqZWN0KHIuZXJyb3IpOwogICAgfSk7CiAgICBoaS5jbG9zZSgpOwoKICAgIC8vIG9wZW5EQiDluKYgREJfVkVSU0lPTig8OTk5KSDmiZPlvIAg4oaSIFZlcnNpb25FcnJvciDihpIg5Zue6YCA5Yiw5LiN5bim54mI5pys5Y+3IOKGkiDov57liLAgdjk5OQogICAgY29uc3QgZGIgPSBhd2FpdCBvcGVuREIoKTsKICAgIGV4cGVjdChkYikudG9CZVRydXRoeSgpOwogICAgZXhwZWN0KGRiLnZlcnNpb24pLnRvQmUoOTk5KTsKCiAgICBhd2FpdCBEQi5kZWxldGVEQigpOyAvLyDmlLblsL4sIOmBv+WFjeaxoeafk+WQjue7reeUqOS+iwogIH0pOwp9KTsKCmRlc2NyaWJlKCdEQi5kZWxldGVEQicsICgpID0+IHsKICBpdCgn5Yig5bqT5YmN5YWI5YWz5o6J5Y2V5L6L6L+e5o6lLCDkuI3ooqvmnKzpobXoh6rlt7HnmoTov57mjqUgYmxvY2snLCBhc3luYyAoKSA9PiB7CiAgICBhd2FpdCBvcGVuREIoKTsgLy8g5bu656uL5Y2V5L6L6L+e5o6lCiAgICAvLyDkv67lpI3liY06IOWNleS+i+i/nuaOpeS4gOebtOW8gOedgCDihpIgZGVsZXRlRGF0YWJhc2Ug6KKrIG9uYmxvY2tlZCDljaHkvY8sIOi/memHjOS8miBoYW5nL+i2heaXtuOAggogICAgLy8g5L+u5aSN5ZCOOiBkZWxldGVEQiDlhYggY2xvc2Ug5Y2V5L6L5YaN5YigLCDmraPluLggcmVzb2x2ZeOAggogICAgYXdhaXQgZXhwZWN0KERCLmRlbGV0ZURCKCkpLnJlc29sdmVzLnRvQmVVbmRlZmluZWQoKTsKICB9KTsKfSk7CgovLyBibG9ja2VkLXRoZW4tdW5ibG9ja2VkIOi/nuaOpeazhOa8jzogb25ibG9ja2VkIOWFiCByZWplY3QsIOS9huW6leWxgiBvcGVuIHJlcXVlc3Qg6L+Y5rS7552AIOKAlOKAlAovLyDljaDnlKjmlrnlhbPpl63lkI4gb25zdWNjZXNzIOS7jeS8muinpuWPkeOAguS/ruWkjeWJjemCo+adoei/n+WIsOeahOi/nuaOpeayoeS6uuaMgeacieS5n+ayoee8k+WtmCwg5byA552A5LyaIGJsb2NrCi8vIOWQjue7reWNh+e6py/liKDlupM7IOS/ruWkjeWQjiBzZXR0bGVkIOWuiOWNq+iuqeWug+iiqyBjbG9zZeOAgui/memHjOWkjeeOsOaVtOadoemTvui3rywg55So44CM5LqL5ZCOIGRlbGV0ZURhdGFiYXNlCi8vIOS4jeiiqyBibG9ja+OAjeadpeivgeaYjuWtpOWEv+i/nuaOpeehruWunuiiq+WFs+aOieS6huOAggpkZXNjcmliZSgnb3BlbkRCIGJsb2NrZWQtdGhlbi11bmJsb2NrZWQg5LiN5rOE5ryP6L+e5o6lJywgKCkgPT4gewogIGl0KCfljaDnlKjmlrnlhbPpl63lkI7ov5/liLDnmoQgb25zdWNjZXNzIOWFs+aOieWtpOWEv+i/nuaOpSwg5LiNIGJsb2NrIOWQjue7reWIoOW6kycsIGFzeW5jICgpID0+IHsKICAgIGF3YWl0IERCLmRlbGV0ZURCKCk7IC8vIOWkjeS9jeWIsCB2ZXJzaW9uIDAsIOiuqeS4i+mdouiDveS7juS9jueJiOacrOi1t+atpQoKICAgIC8vIOS4gOadoSByYXcg6L+e5o6l5Y2g5L2PIHY1MCDkuJTkuI3mjIIgb252ZXJzaW9uY2hhbmdlICjmqKHmi5/kuI3ogq/orqnkvY3nmoTml6cgdGFiKQogICAgY29uc3QgYmxvY2tlciA9IGF3YWl0IG5ldyBQcm9taXNlPElEQkRhdGFiYXNlPigocmVzb2x2ZSwgcmVqZWN0KSA9PiB7CiAgICAgIGNvbnN0IHIgPSBpbmRleGVkREIub3BlbignQWV0aGVyT1NfRGF0YScsIDUwKTsKICAgICAgci5vbnN1Y2Nlc3MgPSAoKSA9PiByZXNvbHZlKHIucmVzdWx0KTsKICAgICAgci5vbmVycm9yID0gKCkgPT4gcmVqZWN0KHIuZXJyb3IpOwogICAgfSk7CgogICAgLy8gb3BlbkRCIOimgeWNh+WIsCBEQl9WRVJTSU9OKDUxKSDihpIg6KKrIGJsb2NrZXIg5oyh5L2PIOKGkiByZWplY3QKICAgIGF3YWl0IGV4cGVjdChvcGVuREIoKSkucmVqZWN0cy50b0JlVHJ1dGh5KCk7CgogICAgLy8g5pS+6KGMOiDlhbPmjokgYmxvY2tlciwg6YKj5p2h5oyC6LW355qEIDUxLW9wZW4g5Lya6LWw5a6MIG9uc3VjY2VzcyAo5q2k5pe2IHNldHRsZWQ9dHJ1ZSDihpIg5bqUIGNsb3NlKQogICAgYmxvY2tlci5jbG9zZSgpOwogICAgYXdhaXQgbmV3IFByb21pc2UoKHIpID0+IHNldFRpbWVvdXQociwgNTApKTsgLy8g562J5LqL5Lu26Zif5YiX5oqKIG9uc3VjY2VzcyDot5HmjokKCiAgICAvLyDoi6XlraTlhL/ov57mjqXmsqHooqvlhbMsIOi/memHjCBkZWxldGVEYXRhYmFzZSDkvJrop6blj5Egb25ibG9ja2VkIOKGkiByZWplY3Q7IOWFs+aOieS6huWImeato+W4uCByZXNvbHZlCiAgICBhd2FpdCBleHBlY3QobmV3IFByb21pc2U8dm9pZD4oKHJlc29sdmUsIHJlamVjdCkgPT4gewogICAgICBjb25zdCBkZWwgPSBpbmRleGVkREIuZGVsZXRlRGF0YWJhc2UoJ0FldGhlck9TX0RhdGEnKTsKICAgICAgZGVsLm9uc3VjY2VzcyA9ICgpID0+IHJlc29sdmUoKTsKICAgICAgZGVsLm9uZXJyb3IgPSAoKSA9PiByZWplY3QoZGVsLmVycm9yKTsKICAgICAgZGVsLm9uYmxvY2tlZCA9ICgpID0+IHJlamVjdChuZXcgRXJyb3IoJ2RlbGV0ZURhdGFiYXNlIOiiqyBibG9jayDigJTigJQg5pyJ5a2k5YS/6L+e5o6l5rKh5YWz6ZetJykpOwogICAgfSkpLnJlc29sdmVzLnRvQmVVbmRlZmluZWQoKTsKICB9KTsKfSk7Cg==
+import { describe, it, expect, vi } from 'vitest';
+import { DB, openDB } from './db';
+
+// fake-indexeddb 已通过 test-setup.ts 注入。这组用例锁住「单例连接复用」这条修复:
+// 修复前 openDB 每次调用都 indexedDB.open() 新开一条连接 (a !== b, 且每个 DB 操作
+// 都触发一次 open) —— 在记忆管线并发下堆出几十条连接撑爆 backing store。修复后复用
+// 同一条连接。
+
+describe('openDB 单例连接复用', () => {
+  it('多次 openDB 返回同一条连接 (不再每次新开)', async () => {
+    const a = await openDB();
+    const b = await openDB();
+    expect(a).toBe(b);
+  });
+
+  it('连续 DB 操作复用已缓存连接, 不再触发新的 indexedDB.open', async () => {
+    await openDB(); // 确保单例已建立 (幂等)
+    const openSpy = vi.spyOn(indexedDB, 'open');
+    try {
+      await DB.getAllCharacters();
+      await DB.getAllCharacters();
+      await DB.getAllCharacters();
+      expect(openSpy).not.toHaveBeenCalled();
+    } finally {
+      openSpy.mockRestore();
+    }
+  });
+});
+
+// 单例只解决「复用」, 还得保证连接被外部失效后能自愈, 否则下次拿到的还是死连接。
+// 这里直接触发挂在连接上的 onversionchange / onclose 回调, 验证缓存被清、下次 openDB 重开。
+describe('openDB 失效自愈', () => {
+  it('onversionchange 触发后 close 让位并清缓存, 下次 openDB 重开新连接', async () => {
+    const a = await openDB();
+    // 模拟另一个 tab 升级版本时浏览器派发的 versionchange
+    (a as unknown as { onversionchange?: (e: Event) => void }).onversionchange?.(new Event('versionchange'));
+    const b = await openDB();
+    expect(b).not.toBe(a);
+  });
+
+  it('onclose 触发后清缓存, 下次 openDB 重开新连接', async () => {
+    const a = await openDB();
+    // 真实场景: 浏览器是先强制关闭连接、再 fire close 事件。先 close(a) 让 fake-indexeddb
+    // 进入"连接已关"的真实状态 (否则 a 会作为一条开着的孤儿连接残留, 拖累后面的删库),
+    // 再手动触发我们挂的 onclose 处理器 (它只负责清缓存, 不负责关连接)。
+    a.close();
+    (a as unknown as { onclose?: (e: Event) => void }).onclose?.(new Event('close'));
+    const b = await openDB();
+    expect(b).not.toBe(a);
+  });
+
+  it('陈旧连接迟到的 onclose 不误清已重开的新单例 (=== promise 守卫)', async () => {
+    const a = await openDB();
+    // 重开: 触发 a 的 onversionchange (会 close a + 清缓存), 再 openDB 拿到新单例 b
+    (a as unknown as { onversionchange?: (e: Event) => void }).onversionchange?.(new Event('versionchange'));
+    const b = await openDB();
+    expect(b).not.toBe(a);
+    // 此刻才迟到触发 a (陈旧连接) 的 onclose —— 不带守卫会把 b 误清成 null，
+    // 下次 openDB 凭空多开一条连接 (正是本次要消灭的 churn)。带守卫则 b 保留。
+    (a as unknown as { onclose?: (e: Event) => void }).onclose?.(new Event('close'));
+    const c = await openDB();
+    expect(c).toBe(b);
+  });
+});
+
+// 现有版本高于当前 build 的 DB_VERSION 时 (用户先跑过更新的 build / 另一 tab 升过级 /
+// SW 缓存了更新的 bundle), 带 DB_VERSION 打开会抛 VersionError —— 旧逻辑直接 reject,
+// 整个 origin 的 IndexedDB 全挂 (SYSTEM ERROR、美化读不出来、线下进不去)。修复后回退到
+// 「不带版本号打开」, 连到现有更高版本 (store 是超集, 读写兼容)。
+describe('openDB 版本回退 (现有版本高于当前 build)', () => {
+  it('遇到 VersionError 时不带版本号回退打开, 不再整库报错', async () => {
+    await DB.deleteDB(); // 复位 + 清掉单例连接
+
+    // 裸开一条「比 DB_VERSION 更高」的连接建库后关闭, 制造现有版本偏高的现场
+    const hi = await new Promise<IDBDatabase>((resolve, reject) => {
+      const r = indexedDB.open('AetherOS_Data', 999);
+      r.onsuccess = () => resolve(r.result);
+      r.onerror = () => reject(r.error);
+    });
+    hi.close();
+
+    // openDB 带 DB_VERSION(<999) 打开 → VersionError → 回退到不带版本号 → 连到 v999
+    const db = await openDB();
+    expect(db).toBeTruthy();
+    expect(db.version).toBe(999);
+
+    await DB.deleteDB(); // 收尾, 避免污染后续用例
+  });
+});
+
+describe('DB.deleteDB', () => {
+  it('删库前先关掉单例连接, 不被本页自己的连接 block', async () => {
+    await openDB(); // 建立单例连接
+    // 修复前: 单例连接一直开着 → deleteDatabase 被 onblocked 卡住, 这里会 hang/超时。
+    // 修复后: deleteDB 先 close 单例再删, 正常 resolve。
+    await expect(DB.deleteDB()).resolves.toBeUndefined();
+  });
+});
+
+// blocked-then-unblocked 连接泄漏: onblocked 先 reject, 但底层 open request 还活着 ——
+// 占用方关闭后 onsuccess 仍会触发。修复前那条迟到的连接没人持有也没缓存, 开着会 block
+// 后续升级/删库; 修复后 settled 守卫让它被 close。这里复现整条链路, 用「事后 deleteDatabase
+// 不被 block」来证明孤儿连接确实被关掉了。
+describe('openDB blocked-then-unblocked 不泄漏连接', () => {
+  it('占用方关闭后迟到的 onsuccess 关掉孤儿连接, 不 block 后续删库', async () => {
+    await DB.deleteDB(); // 复位到 version 0, 让下面能从低版本起步
+
+    // 一条 raw 连接占住 v50 且不挂 onversionchange (模拟不肯让位的旧 tab)
+    const blocker = await new Promise<IDBDatabase>((resolve, reject) => {
+      const r = indexedDB.open('AetherOS_Data', 50);
+      r.onsuccess = () => resolve(r.result);
+      r.onerror = () => reject(r.error);
+    });
+
+    // openDB 要升到 DB_VERSION(51) → 被 blocker 挡住 → reject
+    await expect(openDB()).rejects.toBeTruthy();
+
+    // 放行: 关掉 blocker, 那条挂起的 51-open 会走完 onsuccess (此时 settled=true → 应 close)
+    blocker.close();
+    await new Promise((r) => setTimeout(r, 50)); // 等事件队列把 onsuccess 跑掉
+
+    // 若孤儿连接没被关, 这里 deleteDatabase 会触发 onblocked → reject; 关掉了则正常 resolve
+    await expect(new Promise<void>((resolve, reject) => {
+      const del = indexedDB.deleteDatabase('AetherOS_Data');
+      del.onsuccess = () => resolve();
+      del.onerror = () => reject(del.error);
+      del.onblocked = () => reject(new Error('deleteDatabase 被 block —— 有孤儿连接没关闭'));
+    })).resolves.toBeUndefined();
+  });
+});

@@ -1,1 +1,21 @@
-aW1wb3J0IHsgZGVzY3JpYmUsIGl0LCBleHBlY3QgfSBmcm9tICd2aXRlc3QnOwppbXBvcnQgeyBpc1N0YXR1c0JhckhpZGRlbiB9IGZyb20gJy4vaW9zU3RhbmRhbG9uZSc7CgovLyDpobbpg6jml7bpkp8v55S16YeP5p2h5pi+6ZqQ55qE5Y+W5YC86YC76L6R77ya5aSW6KeC5byA5YWz5pi+5byP5YC85LyY5YWI77yM5rKh6K6+6L+H5pe26Lef6ZqP5bmz5Y+w6buY6K6k44CCCi8vIOW5s+WPsOm7mOiupOS9nOS4uuesrOS6jOWPguazqOWFpe+8jOiuqeeUqOS+i+S4jeS+nei1lui/kOihjOeOr+Wig++8iGpzZG9tIOmdniBzdGFuZGFsb25l77yJ44CCCmRlc2NyaWJlKCdpc1N0YXR1c0JhckhpZGRlbicsICgpID0+IHsKICAvLyDlm57lvZLlrojljavvvJrlv4XpobvnlKggPz8g6ICM6Z2eIHx844CC5pi+5byPIGZhbHNl77yI55So5oi35Li75Yqo6KaB5pi+56S677yJ57ud5LiN6IO96KKr5bmz5Y+w6buY6K6kIHRydWUg55uW5o6J77yMCiAgLy8g5ZCm5YiZIGlPUyDnlKjmiLflnKjlpJbop4Lph4zlhbPmjonlvIDlhbPmg7PnnIsgU3VsbHlPUyDml7bpkp/vvIzljbTku43ooqvlvLrliLbpmpDol4/jgILml6fnmoTplJnor6/ooYzkuLrvvIh8fO+8ieS8muiuqeacrOeUqOS+i+aMguOAggogIGl0KCfmmL7lvI8gZmFsc2Ug5Y6L6L+H5bmz5Y+w6buY6K6kIHRydWUnLCAoKSA9PiB7CiAgICBleHBlY3QoaXNTdGF0dXNCYXJIaWRkZW4oZmFsc2UsIHRydWUpKS50b0JlKGZhbHNlKTsKICB9KTsKCiAgaXQoJ+aYvuW8jyB0cnVlIOmakOiXj++8jOS4juW5s+WPsOm7mOiupOaXoOWFsycsICgpID0+IHsKICAgIGV4cGVjdChpc1N0YXR1c0JhckhpZGRlbih0cnVlLCBmYWxzZSkpLnRvQmUodHJ1ZSk7CiAgfSk7CgogIGl0KCfmsqHorr7ov4codW5kZWZpbmVkKSDot5/pmo/lubPlj7Dpu5jorqQnLCAoKSA9PiB7CiAgICBleHBlY3QoaXNTdGF0dXNCYXJIaWRkZW4odW5kZWZpbmVkLCB0cnVlKSkudG9CZSh0cnVlKTsKICAgIGV4cGVjdChpc1N0YXR1c0JhckhpZGRlbih1bmRlZmluZWQsIGZhbHNlKSkudG9CZShmYWxzZSk7CiAgfSk7Cn0pOwo=
+import { describe, it, expect } from 'vitest';
+import { isStatusBarHidden } from './iosStandalone';
+
+// 顶部时钟/电量条显隐的取值逻辑：外观开关显式值优先，没设过时跟随平台默认。
+// 平台默认作为第二参注入，让用例不依赖运行环境（jsdom 非 standalone）。
+describe('isStatusBarHidden', () => {
+  // 回归守卫：必须用 ?? 而非 ||。显式 false（用户主动要显示）绝不能被平台默认 true 盖掉，
+  // 否则 iOS 用户在外观里关掉开关想看 SullyOS 时钟，却仍被强制隐藏。旧的错误行为（||）会让本用例挂。
+  it('显式 false 压过平台默认 true', () => {
+    expect(isStatusBarHidden(false, true)).toBe(false);
+  });
+
+  it('显式 true 隐藏，与平台默认无关', () => {
+    expect(isStatusBarHidden(true, false)).toBe(true);
+  });
+
+  it('没设过(undefined) 跟随平台默认', () => {
+    expect(isStatusBarHidden(undefined, true)).toBe(true);
+    expect(isStatusBarHidden(undefined, false)).toBe(false);
+  });
+});

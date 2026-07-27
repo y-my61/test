@@ -1,1 +1,105 @@
-aW1wb3J0IHsgYWZ0ZXJFYWNoLCBiZWZvcmVFYWNoLCBkZXNjcmliZSwgZXhwZWN0LCBpdCwgdmkgfSBmcm9tICd2aXRlc3QnOwppbXBvcnQgeyBMT1lBTF9SRUNSVUlUTUVOVF9DUklURVJJQV9WRVJTSU9OIH0gZnJvbSAnLi9sb3lhbFVzZXJFbGlnaWJpbGl0eSc7CmltcG9ydCB7CiAgICBMT1lBTF9SRUNSVUlUTUVOVF9BVFRFTVBUX0tFWSwKICAgIHJlYWRMb3lhbFJlY3J1aXRtZW50QXR0ZW1wdCwKICAgIHJlc2V0TG95YWxSZWNydWl0bWVudEZvclRlc3RpbmcsCiAgICBzdWJtaXRRdWFsaWZpZWRRUSwKfSBmcm9tICcuL2xveWFsVXNlclJlY3J1aXRtZW50JzsKCmNvbnN0IExFR0FDWV9BVFRFTVBUX0tFWSA9ICdzdWxseW9zX2xveWFsX3JlY3J1aXRtZW50XzIwMjYtMDctMjAtdjEnOwpjb25zdCBMRUdBQ1lfVjJfQVRURU1QVF9LRVkgPSAnc3VsbHlvc19sb3lhbF9yZWNydWl0bWVudF8yMDI2LTA3LTIwLXYyJzsKY29uc3QgTEVHQUNZX1YzX0FUVEVNUFRfS0VZID0gJ3N1bGx5b3NfbG95YWxfcmVjcnVpdG1lbnRfMjAyNi0wNy0yMC12Myc7CgpmdW5jdGlvbiBsZWdhY3lGYWlsZWRBdHRlbXB0KGFjdGl2ZURheXMgPSAyLCBwYWxhY2VOb2RlcyA9IDExNDcsIHJlY2VudE1lbW9yeVVuaXRzID0gNSkgewogICAgcmV0dXJuIHsKICAgICAgICBzdGF0dXM6ICdmYWlsZWQnLAogICAgICAgIGNyaXRlcmlhVmVyc2lvbjogJzIwMjYtMDctMjAtdjEnLAogICAgICAgIGV2YWx1YXRlZEF0OiAxXzcyMV80NjZfMDAwXzAwMCwKICAgICAgICBldmFsdWF0aW9uOiB7CiAgICAgICAgICAgIGNyaXRlcmlhVmVyc2lvbjogJzIwMjYtMDctMjAtdjEnLAogICAgICAgICAgICBjdXRvZmZBdDogMV83MjFfNDY2XzAwMF8wMDAsCiAgICAgICAgICAgIGhhcmRHYXRlUGFzc2VkOiBmYWxzZSwKICAgICAgICAgICAgcGFzc2VkOiBmYWxzZSwKICAgICAgICAgICAgc2NvcmU6IDU5LAogICAgICAgICAgICBicmVha2Rvd246IHsKICAgICAgICAgICAgICAgIHJlY2VudEFjdGl2aXR5OiAxMSwKICAgICAgICAgICAgICAgIGN1c3RvbUNoYXJhY3RlcjogMTUsCiAgICAgICAgICAgICAgICBuZXVyYWxNZW1vcnk6IDIzLAogICAgICAgICAgICAgICAgbWVtb3J5UGFsYWNlOiAxMCwKICAgICAgICAgICAgfSwKICAgICAgICAgICAgbWV0cmljczogewogICAgICAgICAgICAgICAgcmVjZW50VXNlck1lc3NhZ2VzOiAzNSwKICAgICAgICAgICAgICAgIHJlY2VudEFjdGl2ZURheXM6IGFjdGl2ZURheXMsCiAgICAgICAgICAgICAgICByZWNlbnRBY3RpdmVXZWVrczogMSwKICAgICAgICAgICAgICAgIGhhc1F1YWxpZmllZEN1c3RvbUNoYXJhY3RlcjogdHJ1ZSwKICAgICAgICAgICAgICAgIG1lbW9yeVVuaXRzOiAxNSwKICAgICAgICAgICAgICAgIHJlY2VudE1lbW9yeVVuaXRzLAogICAgICAgICAgICAgICAgbWVtb3J5U3BhbkRheXM6IDEyMCwKICAgICAgICAgICAgICAgIHBhbGFjZU5vZGVzLAogICAgICAgICAgICAgICAgcmVjZW50UGFsYWNlTm9kZXM6IDIwLAogICAgICAgICAgICAgICAgcGFsYWNlUm9vbXM6IDMsCiAgICAgICAgICAgIH0sCiAgICAgICAgfSwKICAgIH07Cn0KCmRlc2NyaWJlKCflv6Dlrp7nlKjmiLfmi5vli5/op4TliJnljYfnuqcnLCAoKSA9PiB7CiAgICBiZWZvcmVFYWNoKCgpID0+IGxvY2FsU3RvcmFnZS5jbGVhcigpKTsKICAgIGFmdGVyRWFjaCgoKSA9PiB2aS51bnN0dWJBbGxHbG9iYWxzKCkpOwoKICAgIGl0KCflj6rnlKjml6fniYjlt7LlsIHlrZjmkZjopoHlsIbmt7HluqbnlKjmiLfljYfnuqfkuLrlvoXloasgUVHvvIzkuI3ph43mlrDor7vlj5bkuJrliqHmlbDmja4nLCAoKSA9PiB7CiAgICAgICAgbG9jYWxTdG9yYWdlLnNldEl0ZW0oTEVHQUNZX0FUVEVNUFRfS0VZLCBKU09OLnN0cmluZ2lmeShsZWdhY3lGYWlsZWRBdHRlbXB0KCkpKTsKCiAgICAgICAgY29uc3QgYXR0ZW1wdCA9IHJlYWRMb3lhbFJlY3J1aXRtZW50QXR0ZW1wdCgpOwoKICAgICAgICBleHBlY3QoYXR0ZW1wdD8uc3RhdHVzKS50b0JlKCdxdWFsaWZpZWRfcGVuZGluZ19xcScpOwogICAgICAgIGV4cGVjdChhdHRlbXB0Py5jcml0ZXJpYVZlcnNpb24pLnRvQmUoTE9ZQUxfUkVDUlVJVE1FTlRfQ1JJVEVSSUFfVkVSU0lPTik7CiAgICAgICAgZXhwZWN0KGF0dGVtcHQ/LmV2YWx1YXRpb24/LnF1YWxpZmljYXRpb25QYXRoKS50b0JlKCdkZWVwJyk7CiAgICAgICAgZXhwZWN0KGF0dGVtcHQ/LmV2YWx1YXRpb24/LnBhc3NlZCkudG9CZSh0cnVlKTsKICAgICAgICBleHBlY3QobG9jYWxTdG9yYWdlLmdldEl0ZW0oTE9ZQUxfUkVDUlVJVE1FTlRfQVRURU1QVF9LRVkpKS50b0JlTnVsbCgpOwogICAgfSk7CgogICAgaXQoJ+aXp+e7k+aenOayoeaciea7oei2s+S7u+S9leS4gOS4quWbuuWumuadoeS7tuaXtuS7jeS/neaMgeWksei0pScsICgpID0+IHsKICAgICAgICBsb2NhbFN0b3JhZ2Uuc2V0SXRlbShMRUdBQ1lfQVRURU1QVF9LRVksIEpTT04uc3RyaW5naWZ5KGxlZ2FjeUZhaWxlZEF0dGVtcHQoMSwgMCwgMCkpKTsKCiAgICAgICAgY29uc3QgYXR0ZW1wdCA9IHJlYWRMb3lhbFJlY3J1aXRtZW50QXR0ZW1wdCgpOwoKICAgICAgICBleHBlY3QoYXR0ZW1wdD8uc3RhdHVzKS50b0JlKCdmYWlsZWQnKTsKICAgICAgICBleHBlY3QoYXR0ZW1wdD8uZXZhbHVhdGlvbj8ucXVhbGlmaWNhdGlvblBhdGgpLnRvQmVOdWxsKCk7CiAgICAgICAgZXhwZWN0KGF0dGVtcHQ/LmV2YWx1YXRpb24/LnBhc3NlZCkudG9CZShmYWxzZSk7CiAgICB9KTsKCiAgICBpdCgn5rWL6K+V6YeN572u5ZCM5pe25riF6Zmk5b2T5YmN54mI5LiO5pen54mI5bCB5a2Y54q25oCBJywgKCkgPT4gewogICAgICAgIGxvY2FsU3RvcmFnZS5zZXRJdGVtKExFR0FDWV9BVFRFTVBUX0tFWSwgJ3t9Jyk7CiAgICAgICAgbG9jYWxTdG9yYWdlLnNldEl0ZW0oTEVHQUNZX1YyX0FUVEVNUFRfS0VZLCAne30nKTsKICAgICAgICBsb2NhbFN0b3JhZ2Uuc2V0SXRlbShMRUdBQ1lfVjNfQVRURU1QVF9LRVksICd7fScpOwogICAgICAgIGxvY2FsU3RvcmFnZS5zZXRJdGVtKExPWUFMX1JFQ1JVSVRNRU5UX0FUVEVNUFRfS0VZLCAne30nKTsKCiAgICAgICAgcmVzZXRMb3lhbFJlY3J1aXRtZW50Rm9yVGVzdGluZygpOwoKICAgICAgICBleHBlY3QobG9jYWxTdG9yYWdlLmdldEl0ZW0oTEVHQUNZX0FUVEVNUFRfS0VZKSkudG9CZU51bGwoKTsKICAgICAgICBleHBlY3QobG9jYWxTdG9yYWdlLmdldEl0ZW0oTEVHQUNZX1YyX0FUVEVNUFRfS0VZKSkudG9CZU51bGwoKTsKICAgICAgICBleHBlY3QobG9jYWxTdG9yYWdlLmdldEl0ZW0oTEVHQUNZX1YzX0FUVEVNUFRfS0VZKSkudG9CZU51bGwoKTsKICAgICAgICBleHBlY3QobG9jYWxTdG9yYWdlLmdldEl0ZW0oTE9ZQUxfUkVDUlVJVE1FTlRfQVRURU1QVF9LRVkpKS50b0JlTnVsbCgpOwogICAgfSk7CgogICAgaXQoJ+WwhuacjeWKoeerr+acquWIhumFjee7k+aenOW9kuS4gOWMluS4uuS4jeWQq+e+pOS/oeaBr+eahOacgOe7iOe7k+aenCcsIGFzeW5jICgpID0+IHsKICAgICAgICB2aS5zdHViR2xvYmFsKCdmZXRjaCcsIHZpLmZuKGFzeW5jICgpID0+IG5ldyBSZXNwb25zZShKU09OLnN0cmluZ2lmeSh7CiAgICAgICAgICAgIG9rOiB0cnVlLAogICAgICAgICAgICBhbGxvY2F0ZWQ6IGZhbHNlLAogICAgICAgIH0pLCB7CiAgICAgICAgICAgIHN0YXR1czogMjAwLAogICAgICAgICAgICBoZWFkZXJzOiB7ICdDb250ZW50LVR5cGUnOiAnYXBwbGljYXRpb24vanNvbicgfSwKICAgICAgICB9KSkpOwoKICAgICAgICBjb25zdCByZXN1bHQgPSBhd2FpdCBzdWJtaXRRdWFsaWZpZWRRUSgnMTIzNDU2Nzg5Jyk7CgogICAgICAgIGV4cGVjdChyZXN1bHQpLnRvRXF1YWwoewogICAgICAgICAgICBncmFudGVkOiBmYWxzZSwKICAgICAgICAgICAgcmVnaXN0ZXJlZDogZmFsc2UsCiAgICAgICAgICAgIGdyb3VwOiAnJywKICAgICAgICAgICAgcGFzc3dvcmQ6ICcnLAogICAgICAgIH0pOwogICAgfSk7Cn0pOwo=
+import { afterEach, beforeEach, describe, expect, it, vi } from 'vitest';
+import { LOYAL_RECRUITMENT_CRITERIA_VERSION } from './loyalUserEligibility';
+import {
+    LOYAL_RECRUITMENT_ATTEMPT_KEY,
+    readLoyalRecruitmentAttempt,
+    resetLoyalRecruitmentForTesting,
+    submitQualifiedQQ,
+} from './loyalUserRecruitment';
+
+const LEGACY_ATTEMPT_KEY = 'sullyos_loyal_recruitment_2026-07-20-v1';
+const LEGACY_V2_ATTEMPT_KEY = 'sullyos_loyal_recruitment_2026-07-20-v2';
+const LEGACY_V3_ATTEMPT_KEY = 'sullyos_loyal_recruitment_2026-07-20-v3';
+
+function legacyFailedAttempt(activeDays = 2, palaceNodes = 1147, recentMemoryUnits = 5) {
+    return {
+        status: 'failed',
+        criteriaVersion: '2026-07-20-v1',
+        evaluatedAt: 1_721_466_000_000,
+        evaluation: {
+            criteriaVersion: '2026-07-20-v1',
+            cutoffAt: 1_721_466_000_000,
+            hardGatePassed: false,
+            passed: false,
+            score: 59,
+            breakdown: {
+                recentActivity: 11,
+                customCharacter: 15,
+                neuralMemory: 23,
+                memoryPalace: 10,
+            },
+            metrics: {
+                recentUserMessages: 35,
+                recentActiveDays: activeDays,
+                recentActiveWeeks: 1,
+                hasQualifiedCustomCharacter: true,
+                memoryUnits: 15,
+                recentMemoryUnits,
+                memorySpanDays: 120,
+                palaceNodes,
+                recentPalaceNodes: 20,
+                palaceRooms: 3,
+            },
+        },
+    };
+}
+
+describe('忠实用户招募规则升级', () => {
+    beforeEach(() => localStorage.clear());
+    afterEach(() => vi.unstubAllGlobals());
+
+    it('只用旧版已封存摘要将深度用户升级为待填 QQ，不重新读取业务数据', () => {
+        localStorage.setItem(LEGACY_ATTEMPT_KEY, JSON.stringify(legacyFailedAttempt()));
+
+        const attempt = readLoyalRecruitmentAttempt();
+
+        expect(attempt?.status).toBe('qualified_pending_qq');
+        expect(attempt?.criteriaVersion).toBe(LOYAL_RECRUITMENT_CRITERIA_VERSION);
+        expect(attempt?.evaluation?.qualificationPath).toBe('deep');
+        expect(attempt?.evaluation?.passed).toBe(true);
+        expect(localStorage.getItem(LOYAL_RECRUITMENT_ATTEMPT_KEY)).toBeNull();
+    });
+
+    it('旧结果没有满足任何一个固定条件时仍保持失败', () => {
+        localStorage.setItem(LEGACY_ATTEMPT_KEY, JSON.stringify(legacyFailedAttempt(1, 0, 0)));
+
+        const attempt = readLoyalRecruitmentAttempt();
+
+        expect(attempt?.status).toBe('failed');
+        expect(attempt?.evaluation?.qualificationPath).toBeNull();
+        expect(attempt?.evaluation?.passed).toBe(false);
+    });
+
+    it('测试重置同时清除当前版与旧版封存状态', () => {
+        localStorage.setItem(LEGACY_ATTEMPT_KEY, '{}');
+        localStorage.setItem(LEGACY_V2_ATTEMPT_KEY, '{}');
+        localStorage.setItem(LEGACY_V3_ATTEMPT_KEY, '{}');
+        localStorage.setItem(LOYAL_RECRUITMENT_ATTEMPT_KEY, '{}');
+
+        resetLoyalRecruitmentForTesting();
+
+        expect(localStorage.getItem(LEGACY_ATTEMPT_KEY)).toBeNull();
+        expect(localStorage.getItem(LEGACY_V2_ATTEMPT_KEY)).toBeNull();
+        expect(localStorage.getItem(LEGACY_V3_ATTEMPT_KEY)).toBeNull();
+        expect(localStorage.getItem(LOYAL_RECRUITMENT_ATTEMPT_KEY)).toBeNull();
+    });
+
+    it('将服务端未分配结果归一化为不含群信息的最终结果', async () => {
+        vi.stubGlobal('fetch', vi.fn(async () => new Response(JSON.stringify({
+            ok: true,
+            allocated: false,
+        }), {
+            status: 200,
+            headers: { 'Content-Type': 'application/json' },
+        })));
+
+        const result = await submitQualifiedQQ('123456789');
+
+        expect(result).toEqual({
+            granted: false,
+            registered: false,
+            group: '',
+            password: '',
+        });
+    });
+});

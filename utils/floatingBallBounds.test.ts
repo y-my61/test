@@ -1,1 +1,95 @@
-aW1wb3J0IHsgZGVzY3JpYmUsIGl0LCBleHBlY3QgfSBmcm9tICd2aXRlc3QnOwppbXBvcnQgeyBjbGFtcEJ1YmJsZVBvcywgY2xhbXBFeHBhbmRlZEJvdHRvbSwgcmVzb2x2ZUluc2V0cywgcmVzb2x2ZVNhZmVUb3BJbnNldCB9IGZyb20gJy4vZmxvYXRpbmdCYWxsQm91bmRzJzsKCi8vIOiuvuWkh+aooeWei++8muerluWxjyBpUGhvbmXvvIzniLblrrnlmaggMzkww5c4MDDvvIzpobbpg6jliJjmtbcgNDTjgIHlupXpg6ggaG9tZSDmnaEgMzTjgIIKY29uc3QgcGFyZW50VyA9IDM5MDsKY29uc3QgcGFyZW50SCA9IDgwMDsKY29uc3QgaW5zZXRUb3AgPSA0NDsKY29uc3QgaW5zZXRCb3R0b20gPSAzNDsKY29uc3QgYnViYmxlID0gNDA7CmNvbnN0IHBhZCA9IDg7CgpkZXNjcmliZSgnY2xhbXBCdWJibGVQb3PvvIjmipjlj6DlsI/nkIPvvIknLCAoKSA9PiB7CiAgaXQoJ+aLluWIsOW6lemDqOaXtuWBnOWcqCBob21lIOadoeS4iuaWue+8jOS4jeiiq+aJi+WKv+adoeaMoeS9jycsICgpID0+IHsKICAgIGNvbnN0IHsgeSB9ID0gY2xhbXBCdWJibGVQb3MoMCwgOTk5OSwgeyBwYXJlbnRXLCBwYXJlbnRILCBpbnNldFRvcCwgaW5zZXRCb3R0b20gfSk7CiAgICAvLyDml6fpgLvovpHvvIjkuI3lh48gaW5zZXRCb3R0b23vvInkvJrlgZzlnKggNzUy77yM55CD5bqV5q2j5aW95Y6L6L+bIGhvbWUg5p2h5Yy65Z+f77yb546w5Zyo5bqU5YGc5Zyo5pu05LiK5pa5CiAgICBleHBlY3QoeSkudG9CZShwYXJlbnRIIC0gYnViYmxlIC0gcGFkIC0gaW5zZXRCb3R0b20pOyAvLyA3MTgKICB9KTsKCiAgaXQoJ+aLluWIsOmhtumDqOaXtuWBnOWcqOWImOa1t+S4i+aWue+8jOS4jemSu+i/m+WImOa1tycsICgpID0+IHsKICAgIGNvbnN0IHsgeSB9ID0gY2xhbXBCdWJibGVQb3MoMCwgLTk5OTksIHsgcGFyZW50VywgcGFyZW50SCwgaW5zZXRUb3AsIGluc2V0Qm90dG9tIH0pOwogICAgZXhwZWN0KHkpLnRvQmUocGFkICsgaW5zZXRUb3ApOyAvLyA1Mu+8jOiAjOmdnuaXp+eahCA4CiAgfSk7CgogIGl0KCfmqKrlkJHku43lj6rnlZkgRURHRV9QQUTvvIjnq5blsY/ml6Dlt6blj7PlronlhajljLrvvIknLCAoKSA9PiB7CiAgICBleHBlY3QoY2xhbXBCdWJibGVQb3MoLTEwMCwgMTAwLCB7IHBhcmVudFcsIHBhcmVudEgsIGluc2V0VG9wLCBpbnNldEJvdHRvbSB9KS54KS50b0JlKHBhZCk7CiAgICBleHBlY3QoY2xhbXBCdWJibGVQb3MoOTk5OSwgMTAwLCB7IHBhcmVudFcsIHBhcmVudEgsIGluc2V0VG9wLCBpbnNldEJvdHRvbSB9KS54KS50b0JlKHBhcmVudFcgLSBidWJibGUgLSBwYWQpOwogIH0pOwoKICBpdCgn5peg5a6J5YWo5Yy66K6+5aSH6YCA5YyW5Li657qv54mp55CG6L6555WMJywgKCkgPT4gewogICAgY29uc3QgeyB4LCB5IH0gPSBjbGFtcEJ1YmJsZVBvcyg5OTk5LCA5OTk5LCB7IHBhcmVudFcsIHBhcmVudEgsIGluc2V0VG9wOiAwLCBpbnNldEJvdHRvbTogMCB9KTsKICAgIGV4cGVjdCh4KS50b0JlKHBhcmVudFcgLSBidWJibGUgLSBwYWQpOwogICAgZXhwZWN0KHkpLnRvQmUocGFyZW50SCAtIGJ1YmJsZSAtIHBhZCk7CiAgfSk7Cn0pOwoKZGVzY3JpYmUoJ2NsYW1wRXhwYW5kZWRCb3R0b23vvIjlsZXlvIDmnaHvvIknLCAoKSA9PiB7CiAgY29uc3Qgc2VsZkggPSA2MDsKCiAgaXQoJ+WQkeS4i+aLluWIsOW6leaXtuemuyBob21lIOadoeiHs+WwkeeVmeWHuuWuieWFqOWMuiArIOmXtOi3nScsICgpID0+IHsKICAgIGNvbnN0IGIgPSBjbGFtcEV4cGFuZGVkQm90dG9tKDAsIHsgcGFyZW50SCwgc2VsZkgsIGluc2V0VG9wLCBpbnNldEJvdHRvbSB9KTsKICAgIGV4cGVjdChiKS50b0JlKHBhZCArIGluc2V0Qm90dG9tKTsgLy8gNDLvvIzogIzpnZ7ml6fnmoQgOAogIH0pOwoKICBpdCgn5ZCR5LiK5ouW5Yiw6aG25pe25p2h6aG25LiN6ZK76L+b5YiY5rW3JywgKCkgPT4gewogICAgY29uc3QgYiA9IGNsYW1wRXhwYW5kZWRCb3R0b20oOTk5OSwgeyBwYXJlbnRILCBzZWxmSCwgaW5zZXRUb3AsIGluc2V0Qm90dG9tIH0pOwogICAgZXhwZWN0KGIpLnRvQmUocGFyZW50SCAtIHNlbGZIIC0gcGFkIC0gaW5zZXRUb3ApOyAvLyA2ODjvvIzogIzpnZ7ml6fnmoQgNzMyCiAgfSk7Cn0pOwoKZGVzY3JpYmUoJ3Jlc29sdmVJbnNldHPvvIjlronlhajljLrlkIjmiJDvvIknLCAoKSA9PiB7CiAgaXQoJ+W3sui/geenuyBBcHDvvJrlpJblo7MgcGFkZGluZ1RvcCDkuLogMO+8jOS7jeeUqOecn+acuuWImOa1t+WFnOW6le+8jOeQg+S4jei/m+WImOa1tycsICgpID0+IHsKICAgIC8vIOWbnuW9kuWuiOWNq++8muiLpeacieS6uuaKiumhtumDqOaUueaIkOWPquivuyBwYWRkaW5nVG9w77yM5bey6L+B56e7IEFwcCDkvJrph43mlrDpkrvov5vliJjmtbfvvIzov5nmnaHkvJrmjIIKICAgIGV4cGVjdChyZXNvbHZlSW5zZXRzKHsgcGFkVG9wOiAwLCBwYWRCb3R0b206IDAsIHNhZmVUb3A6IDQ0IH0pLmluc2V0VG9wKS50b0JlKDQ0KTsKICB9KTsKCiAgaXQoJ+acqui/geenuyBBcHDvvJpwYWRkaW5nVG9wIOW3suaYr+WImOa1t+mrmOW6pu+8jOWPluWugycsICgpID0+IHsKICAgIGV4cGVjdChyZXNvbHZlSW5zZXRzKHsgcGFkVG9wOiA0NCwgcGFkQm90dG9tOiAzNCwgc2FmZVRvcDogNDQgfSkuaW5zZXRUb3ApLnRvQmUoNDQpOwogIH0pOwoKICBpdCgn6aG26YOo5Y+WIHBhZGRpbmcg5LiO55yf5py65YiY5rW355qE6L6D5aSn5YC8JywgKCkgPT4gewogICAgZXhwZWN0KHJlc29sdmVJbnNldHMoeyBwYWRUb3A6IDUwLCBwYWRCb3R0b206IDAsIHNhZmVUb3A6IDQ0IH0pLmluc2V0VG9wKS50b0JlKDUwKTsKICAgIGV4cGVjdChyZXNvbHZlSW5zZXRzKHsgcGFkVG9wOiAyMCwgcGFkQm90dG9tOiAwLCBzYWZlVG9wOiA0NCB9KS5pbnNldFRvcCkudG9CZSg0NCk7CiAgfSk7CgogIGl0KCflupXpg6jlj6rlj5YgcGFkZGluZ0JvdHRvbe+8jOS4jeWPoOWKoOecn+acuiBzYWZlLWJvdHRvbe+8iOmBv+WFjeW3sui/geenuyBBcHAg5aSa6K6p77yJJywgKCkgPT4gewogICAgZXhwZWN0KHJlc29sdmVJbnNldHMoeyBwYWRUb3A6IDAsIHBhZEJvdHRvbTogMCwgc2FmZVRvcDogNDQgfSkuaW5zZXRCb3R0b20pLnRvQmUoMCk7CiAgICBleHBlY3QocmVzb2x2ZUluc2V0cyh7IHBhZFRvcDogMCwgcGFkQm90dG9tOiAzNCwgc2FmZVRvcDogNDQgfSkuaW5zZXRCb3R0b20pLnRvQmUoMzQpOwogIH0pOwp9KTsKCmRlc2NyaWJlKCdyZXNvbHZlU2FmZVRvcEluc2V077yI6aG26YOo5a6J5YWo5Yy65p2l5rqQ77yJJywgKCkgPT4gewogIGl0KCdpT1Mgc3RhbmRhbG9uZSDlhrflkK/liqjvvJpyYXcgcHJvYmUg5Li6IDAg5pe25aSN55SoIENTUyDlj5jph4/lhZzlupUnLCAoKSA9PiB7CiAgICBleHBlY3QocmVzb2x2ZVNhZmVUb3BJbnNldCh7CiAgICAgIHN0YW5kYWxvbmVTYWZlVG9wOiA0NCwKICAgICAgcHJvYmVkU2FmZVRvcDogMCwKICAgICAgaXNJT1NTdGFuZGFsb25lOiB0cnVlLAogICAgfSkpLnRvQmUoNDQpOwogIH0pOwoKICBpdCgnQ1NTIOWPmOmHj+i/mOayoeWIneWni+WMluS4lCByYXcgcHJvYmUg5LuN5Li6IDAg5pe277yMaU9TIHN0YW5kYWxvbmUg57un57ut5YWcIDQ0cHgnLCAoKSA9PiB7CiAgICBleHBlY3QocmVzb2x2ZVNhZmVUb3BJbnNldCh7CiAgICAgIHN0YW5kYWxvbmVTYWZlVG9wOiAwLAogICAgICBwcm9iZWRTYWZlVG9wOiAwLAogICAgICBpc0lPU1N0YW5kYWxvbmU6IHRydWUsCiAgICB9KSkudG9CZSg0NCk7CiAgfSk7CgogIGl0KCfpnZ4gaU9TIHN0YW5kYWxvbmUg5rKh5pyJ5a6J5YWo5Yy66K+75pWw5pe25L+d5oyBIDAnLCAoKSA9PiB7CiAgICBleHBlY3QocmVzb2x2ZVNhZmVUb3BJbnNldCh7CiAgICAgIHN0YW5kYWxvbmVTYWZlVG9wOiAwLAogICAgICBwcm9iZWRTYWZlVG9wOiAwLAogICAgICBpc0lPU1N0YW5kYWxvbmU6IGZhbHNlLAogICAgfSkpLnRvQmUoMCk7CiAgfSk7Cn0pOwo=
+import { describe, it, expect } from 'vitest';
+import { clampBubblePos, clampExpandedBottom, resolveInsets, resolveSafeTopInset } from './floatingBallBounds';
+
+// 设备模型：竖屏 iPhone，父容器 390×800，顶部刘海 44、底部 home 条 34。
+const parentW = 390;
+const parentH = 800;
+const insetTop = 44;
+const insetBottom = 34;
+const bubble = 40;
+const pad = 8;
+
+describe('clampBubblePos（折叠小球）', () => {
+  it('拖到底部时停在 home 条上方，不被手势条挡住', () => {
+    const { y } = clampBubblePos(0, 9999, { parentW, parentH, insetTop, insetBottom });
+    // 旧逻辑（不减 insetBottom）会停在 752，球底正好压进 home 条区域；现在应停在更上方
+    expect(y).toBe(parentH - bubble - pad - insetBottom); // 718
+  });
+
+  it('拖到顶部时停在刘海下方，不钻进刘海', () => {
+    const { y } = clampBubblePos(0, -9999, { parentW, parentH, insetTop, insetBottom });
+    expect(y).toBe(pad + insetTop); // 52，而非旧的 8
+  });
+
+  it('横向仍只留 EDGE_PAD（竖屏无左右安全区）', () => {
+    expect(clampBubblePos(-100, 100, { parentW, parentH, insetTop, insetBottom }).x).toBe(pad);
+    expect(clampBubblePos(9999, 100, { parentW, parentH, insetTop, insetBottom }).x).toBe(parentW - bubble - pad);
+  });
+
+  it('无安全区设备退化为纯物理边界', () => {
+    const { x, y } = clampBubblePos(9999, 9999, { parentW, parentH, insetTop: 0, insetBottom: 0 });
+    expect(x).toBe(parentW - bubble - pad);
+    expect(y).toBe(parentH - bubble - pad);
+  });
+});
+
+describe('clampExpandedBottom（展开条）', () => {
+  const selfH = 60;
+
+  it('向下拖到底时离 home 条至少留出安全区 + 间距', () => {
+    const b = clampExpandedBottom(0, { parentH, selfH, insetTop, insetBottom });
+    expect(b).toBe(pad + insetBottom); // 42，而非旧的 8
+  });
+
+  it('向上拖到顶时条顶不钻进刘海', () => {
+    const b = clampExpandedBottom(9999, { parentH, selfH, insetTop, insetBottom });
+    expect(b).toBe(parentH - selfH - pad - insetTop); // 688，而非旧的 732
+  });
+});
+
+describe('resolveInsets（安全区合成）', () => {
+  it('已迁移 App：外壳 paddingTop 为 0，仍用真机刘海兜底，球不进刘海', () => {
+    // 回归守卫：若有人把顶部改成只读 paddingTop，已迁移 App 会重新钻进刘海，这条会挂
+    expect(resolveInsets({ padTop: 0, padBottom: 0, safeTop: 44 }).insetTop).toBe(44);
+  });
+
+  it('未迁移 App：paddingTop 已是刘海高度，取它', () => {
+    expect(resolveInsets({ padTop: 44, padBottom: 34, safeTop: 44 }).insetTop).toBe(44);
+  });
+
+  it('顶部取 padding 与真机刘海的较大值', () => {
+    expect(resolveInsets({ padTop: 50, padBottom: 0, safeTop: 44 }).insetTop).toBe(50);
+    expect(resolveInsets({ padTop: 20, padBottom: 0, safeTop: 44 }).insetTop).toBe(44);
+  });
+
+  it('底部只取 paddingBottom，不叠加真机 safe-bottom（避免已迁移 App 多让）', () => {
+    expect(resolveInsets({ padTop: 0, padBottom: 0, safeTop: 44 }).insetBottom).toBe(0);
+    expect(resolveInsets({ padTop: 0, padBottom: 34, safeTop: 44 }).insetBottom).toBe(34);
+  });
+});
+
+describe('resolveSafeTopInset（顶部安全区来源）', () => {
+  it('iOS standalone 冷启动：raw probe 为 0 时复用 CSS 变量兜底', () => {
+    expect(resolveSafeTopInset({
+      standaloneSafeTop: 44,
+      probedSafeTop: 0,
+      isIOSStandalone: true,
+    })).toBe(44);
+  });
+
+  it('CSS 变量还没初始化且 raw probe 仍为 0 时，iOS standalone 继续兜 44px', () => {
+    expect(resolveSafeTopInset({
+      standaloneSafeTop: 0,
+      probedSafeTop: 0,
+      isIOSStandalone: true,
+    })).toBe(44);
+  });
+
+  it('非 iOS standalone 没有安全区读数时保持 0', () => {
+    expect(resolveSafeTopInset({
+      standaloneSafeTop: 0,
+      probedSafeTop: 0,
+      isIOSStandalone: false,
+    })).toBe(0);
+  });
+});

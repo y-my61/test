@@ -1,1 +1,176 @@
-aW1wb3J0IFJlYWN0IGZyb20gJ3JlYWN0JzsKaW1wb3J0IHsgQXBwSUQgfSBmcm9tICcuLi8uLi90eXBlcyc7CgovLyA9PT09PSDmiYvmuLjkuLvpopjkuJPnlKjmj5LnlLsgPT09PT0KLy8g5LqM5qyh5YWD5omL57uY6aOO77ya5bmz5raC57KJ57Sr5riQ5Y+YICsg5bmy5YeA5o+P6L656L2u5buTICsg5LqM5YiG6Zi05b2xKGNlbCkgKyDnmb3oibLpq5jlhYnlsI/nu4boioLjgIIKLy8g5q+P5LiqIHZpZXdCb3ggNjR4NjTvvIxjbGFzc05hbWUg5o6n5Yi25bC65a+444CC5riQ5Y+YIGlkIOWQhOiHquWUr+S4gO+8jOmBv+WFjeWGsueqgeOAggoKY29uc3QgQSA9IHsKICAgIHB1cnBsZTE6ICcjY2RiY2YyJywgcHVycGxlMjogJyM5YTgyZDYnLCBwdXJwbGVMaW5lOiAnIzZmNTdiMCcsIHB1cnBsZVNoOiAnIzgyNjVjNCcsCiAgICBwaW5rMTogJyNmYmNmZTYnLCBwaW5rMjogJyNmMDliY2InLCBwaW5rTGluZTogJyNjZjVlOWUnLCBwaW5rU2g6ICcjZTg3ZmI4JywKICAgIHBlcmkxOiAnI2M0ZDFmNicsIHBlcmkyOiAnIzk0YWFlNicsIHBlcmlMaW5lOiAnIzY2ODBjZicsIHBlcmlTaDogJyM3ZTk4ZGUnLAogICAgZ2xvc3M6ICcjZmZmZmZmJywKfTsKCmNvbnN0IFNwYXJrbGU6IFJlYWN0LkZDPHsgeDogbnVtYmVyOyB5OiBudW1iZXI7IHM6IG51bWJlcjsgYzogc3RyaW5nIH0+ID0gKHsgeCwgeSwgcywgYyB9KSA9PiAoCiAgICA8cGF0aCBkPXtgTSR7eH0gJHt5IC0gc30gTCR7eCArIHMgKiAwLjN9ICR7eSAtIHMgKiAwLjN9IEwke3ggKyBzfSAke3l9IEwke3ggKyBzICogMC4zfSAke3kgKyBzICogMC4zfSBMJHt4fSAke3kgKyBzfSBMJHt4IC0gcyAqIDAuM30gJHt5ICsgcyAqIDAuM30gTCR7eCAtIHN9ICR7eX0gTCR7eCAtIHMgKiAwLjN9ICR7eSAtIHMgKiAwLjN9IFpgfSBmaWxsPXtjfSAvPgopOwoKLy8g6KGM5pifIMK3IOelnue7j+mTvuaOpQpjb25zdCBQbGFuZXQ6IFJlYWN0LkZDID0gKCkgPT4gKAogICAgPHN2ZyB2aWV3Qm94PSIwIDAgNjQgNjQiIGNsYXNzTmFtZT0idy1mdWxsIGgtZnVsbCI+CiAgICAgICAgPGRlZnM+CiAgICAgICAgICAgIDxsaW5lYXJHcmFkaWVudCBpZD0ibWctcGxhbmV0IiB4MT0iMCIgeTE9IjAiIHgyPSIwLjQiIHkyPSIxIj48c3RvcCBvZmZzZXQ9IjAiIHN0b3BDb2xvcj17QS5wdXJwbGUxfSAvPjxzdG9wIG9mZnNldD0iMSIgc3RvcENvbG9yPXtBLnB1cnBsZTJ9IC8+PC9saW5lYXJHcmFkaWVudD4KICAgICAgICAgICAgPGNsaXBQYXRoIGlkPSJtZy1wbGFuZXQtY2xpcCI+PGNpcmNsZSBjeD0iMzAiIGN5PSIzMCIgcj0iMTYiIC8+PC9jbGlwUGF0aD4KICAgICAgICA8L2RlZnM+CiAgICAgICAgPGNpcmNsZSBjeD0iMzAiIGN5PSIzMCIgcj0iMTYiIGZpbGw9InVybCgjbWctcGxhbmV0KSIgc3Ryb2tlPXtBLnB1cnBsZUxpbmV9IHN0cm9rZVdpZHRoPSIxLjgiIC8+CiAgICAgICAgPGcgY2xpcFBhdGg9InVybCgjbWctcGxhbmV0LWNsaXApIj48cGF0aCBkPSJNMTQgMzQgUTMwIDMwIDQ2IDM2IEw0NiA1MCBMMTQgNTAgWiIgZmlsbD17QS5wdXJwbGVTaH0gb3BhY2l0eT0iMC40NSIgLz48L2c+CiAgICAgICAgPGVsbGlwc2UgY3g9IjIzIiBjeT0iMjIiIHJ4PSI1LjUiIHJ5PSIzLjQiIGZpbGw9e0EuZ2xvc3N9IG9wYWNpdHk9IjAuNyIgdHJhbnNmb3JtPSJyb3RhdGUoLTI1IDIzIDIyKSIgLz4KICAgICAgICA8ZWxsaXBzZSBjeD0iMzEiIGN5PSIzMSIgcng9IjI2IiByeT0iOC41IiBmaWxsPSJub25lIiBzdHJva2U9e0EucGlua0xpbmV9IHN0cm9rZVdpZHRoPSI0LjYiIHRyYW5zZm9ybT0icm90YXRlKC0yMiAzMSAzMSkiIG9wYWNpdHk9IjAuOTUiIC8+CiAgICAgICAgPGVsbGlwc2UgY3g9IjMxIiBjeT0iMzEiIHJ4PSIyNiIgcnk9IjguNSIgZmlsbD0ibm9uZSIgc3Ryb2tlPXtBLnBpbmsxfSBzdHJva2VXaWR0aD0iMS44IiB0cmFuc2Zvcm09InJvdGF0ZSgtMjIgMzEgMzEpIiBvcGFjaXR5PSIwLjkiIC8+CiAgICAgICAgPFNwYXJrbGUgeD17NTJ9IHk9ezEzfSBzPXs1fSBjPXtBLnBpbmsxfSAvPgogICAgICAgIDxTcGFya2xlIHg9ezEyfSB5PXs0Nn0gcz17M30gYz17QS5nbG9zc30gLz4KICAgIDwvc3ZnPgopOwoKLy8g5aSn6ISRIMK3IOiusOW/huWuq+auvwpjb25zdCBCcmFpbjogUmVhY3QuRkMgPSAoKSA9PiAoCiAgICA8c3ZnIHZpZXdCb3g9IjAgMCA2NCA2NCIgY2xhc3NOYW1lPSJ3LWZ1bGwgaC1mdWxsIj4KICAgICAgICA8ZGVmcz4KICAgICAgICAgICAgPGxpbmVhckdyYWRpZW50IGlkPSJtZy1icmFpbiIgeDE9IjAiIHkxPSIwIiB4Mj0iMCIgeTI9IjEiPjxzdG9wIG9mZnNldD0iMCIgc3RvcENvbG9yPXtBLnBpbmsxfSAvPjxzdG9wIG9mZnNldD0iMSIgc3RvcENvbG9yPXtBLnBpbmsyfSAvPjwvbGluZWFyR3JhZGllbnQ+CiAgICAgICAgICAgIDxjbGlwUGF0aCBpZD0ibWctYnJhaW4tY2xpcCI+PHBhdGggZD0iTTMyIDEzIEMyMSAxMyAxNSAyMSAxOCAyOSBDMTIgMzMgMTUgNDQgMjUgNDMgQzI3IDQ5IDM3IDQ5IDM5IDQzIEM0OSA0NCA1MiAzMyA0NiAyOSBDNDkgMjEgNDMgMTMgMzIgMTMgWiIgLz48L2NsaXBQYXRoPgogICAgICAgIDwvZGVmcz4KICAgICAgICA8cGF0aCBkPSJNMzIgMTMgQzIxIDEzIDE1IDIxIDE4IDI5IEMxMiAzMyAxNSA0NCAyNSA0MyBDMjcgNDkgMzcgNDkgMzkgNDMgQzQ5IDQ0IDUyIDMzIDQ2IDI5IEM0OSAyMSA0MyAxMyAzMiAxMyBaIiBmaWxsPSJ1cmwoI21nLWJyYWluKSIgc3Ryb2tlPXtBLnBpbmtMaW5lfSBzdHJva2VXaWR0aD0iMS44IiBzdHJva2VMaW5lam9pbj0icm91bmQiIC8+CiAgICAgICAgPGcgY2xpcFBhdGg9InVybCgjbWctYnJhaW4tY2xpcCkiPjxyZWN0IHg9IjMyIiB5PSIxMiIgd2lkdGg9IjIwIiBoZWlnaHQ9IjQwIiBmaWxsPXtBLnBpbmtTaH0gb3BhY2l0eT0iMC40IiAvPjwvZz4KICAgICAgICA8cGF0aCBkPSJNMzIgMTUgVjQ1IiBzdHJva2U9e0EucGlua0xpbmV9IHN0cm9rZVdpZHRoPSIxLjgiIG9wYWNpdHk9IjAuNTUiIGZpbGw9Im5vbmUiIHN0cm9rZUxpbmVjYXA9InJvdW5kIiAvPgogICAgICAgIDxwYXRoIGQ9Ik0yNSAyMyBxNSAyIDEgNyBNMzkgMjMgcS01IDIgLTEgNyBNMjEgMzMgcTUgMyA5IDEgTTQzIDMzIHEtNSAzIC05IDEiIHN0cm9rZT17QS5nbG9zc30gc3Ryb2tlV2lkdGg9IjEuOCIgb3BhY2l0eT0iMC42IiBmaWxsPSJub25lIiBzdHJva2VMaW5lY2FwPSJyb3VuZCIgLz4KICAgICAgICA8U3BhcmtsZSB4PXs1MH0geT17MTZ9IHM9ezQuNX0gYz17QS5nbG9zc30gLz4KICAgIDwvc3ZnPgopOwoKLy8g55S16K+dIMK3IOeUteivnQpjb25zdCBQaG9uZTogUmVhY3QuRkMgPSAoKSA9PiAoCiAgICA8c3ZnIHZpZXdCb3g9IjAgMCA2NCA2NCIgY2xhc3NOYW1lPSJ3LWZ1bGwgaC1mdWxsIj4KICAgICAgICA8ZGVmcz48bGluZWFyR3JhZGllbnQgaWQ9Im1nLXBob25lIiB4MT0iMCIgeTE9IjAiIHgyPSIwIiB5Mj0iMSI+PHN0b3Agb2Zmc2V0PSIwIiBzdG9wQ29sb3I9e0EucHVycGxlMX0gLz48c3RvcCBvZmZzZXQ9IjEiIHN0b3BDb2xvcj17QS5wdXJwbGUyfSAvPjwvbGluZWFyR3JhZGllbnQ+PC9kZWZzPgogICAgICAgIDxwYXRoIGQ9Ik0xOSAxNSBxLTUgMCAtNSA1IHEwIDkgOCAxOSBxMTAgMTMgMjEgMTYgcTUgMSA2IC0zIGwyIC02IHExIC0zIC0zIC00IGwtNyAtMiBxLTMgLTEgLTQgMiBsLTEgMiBxLTcgLTQgLTEyIC0xMiBsMiAtMSBxMyAtMSAyIC00IGwtMiAtNyBxLTEgLTMgLTQgLTIgeiIgZmlsbD0idXJsKCNtZy1waG9uZSkiIHN0cm9rZT17QS5wdXJwbGVMaW5lfSBzdHJva2VXaWR0aD0iMS44IiBzdHJva2VMaW5lam9pbj0icm91bmQiIC8+CiAgICAgICAgPHBhdGggZD0iTTIxIDE4LjUgcS0yLjUgMCAtMi41IDMuMiIgc3Ryb2tlPXtBLmdsb3NzfSBzdHJva2VXaWR0aD0iMiIgb3BhY2l0eT0iMC42IiBmaWxsPSJub25lIiBzdHJva2VMaW5lY2FwPSJyb3VuZCIgLz4KICAgICAgICA8cGF0aCBkPSJNNDIgMTQgYTkgOSAwIDAgMSA4IDggTTQ0IDkgYTE0IDE0IDAgMCAxIDExIDExIiBzdHJva2U9e0EucGluazJ9IHN0cm9rZVdpZHRoPSIyLjYiIGZpbGw9Im5vbmUiIHN0cm9rZUxpbmVjYXA9InJvdW5kIiAvPgogICAgICAgIDxTcGFya2xlIHg9ezE0fSB5PXs0N30gcz17NH0gYz17QS5waW5rMX0gLz4KICAgIDwvc3ZnPgopOwoKLy8g5oi/5a2QIMK3IOWwj+Wwj+eqnQpjb25zdCBIb3VzZTogUmVhY3QuRkMgPSAoKSA9PiAoCiAgICA8c3ZnIHZpZXdCb3g9IjAgMCA2NCA2NCIgY2xhc3NOYW1lPSJ3LWZ1bGwgaC1mdWxsIj4KICAgICAgICA8ZGVmcz4KICAgICAgICAgICAgPGxpbmVhckdyYWRpZW50IGlkPSJtZy1ob3VzZSIgeDE9IjAiIHkxPSIwIiB4Mj0iMCIgeTI9IjEiPjxzdG9wIG9mZnNldD0iMCIgc3RvcENvbG9yPXtBLnBlcmkxfSAvPjxzdG9wIG9mZnNldD0iMSIgc3RvcENvbG9yPXtBLnBlcmkyfSAvPjwvbGluZWFyR3JhZGllbnQ+CiAgICAgICAgICAgIDxsaW5lYXJHcmFkaWVudCBpZD0ibWctcm9vZiIgeDE9IjAiIHkxPSIwIiB4Mj0iMCIgeTI9IjEiPjxzdG9wIG9mZnNldD0iMCIgc3RvcENvbG9yPXtBLnB1cnBsZTF9IC8+PHN0b3Agb2Zmc2V0PSIxIiBzdG9wQ29sb3I9e0EucHVycGxlMn0gLz48L2xpbmVhckdyYWRpZW50PgogICAgICAgIDwvZGVmcz4KICAgICAgICA8cmVjdCB4PSIxOCIgeT0iMzAiIHdpZHRoPSIyOCIgaGVpZ2h0PSIyMCIgcng9IjMiIGZpbGw9InVybCgjbWctaG91c2UpIiBzdHJva2U9e0EucGVyaUxpbmV9IHN0cm9rZVdpZHRoPSIxLjgiIHN0cm9rZUxpbmVqb2luPSJyb3VuZCIgLz4KICAgICAgICA8cmVjdCB4PSIzOCIgeT0iMzAiIHdpZHRoPSI4IiBoZWlnaHQ9IjIwIiBmaWxsPXtBLnBlcmlTaH0gb3BhY2l0eT0iMC40IiAvPgogICAgICAgIDxwYXRoIGQ9Ik0zMiAxMiBMNTIgMzEgUTUzIDMzIDUwIDMzIEwxNCAzMyBRMTEgMzMgMTIgMzEgWiIgZmlsbD0idXJsKCNtZy1yb29mKSIgc3Ryb2tlPXtBLnB1cnBsZUxpbmV9IHN0cm9rZVdpZHRoPSIxLjgiIHN0cm9rZUxpbmVqb2luPSJyb3VuZCIgLz4KICAgICAgICA8cmVjdCB4PSIyOCIgeT0iMzgiIHdpZHRoPSI4IiBoZWlnaHQ9IjEyIiByeD0iMiIgZmlsbD17QS5nbG9zc30gb3BhY2l0eT0iMC45MiIgc3Ryb2tlPXtBLnBlcmlMaW5lfSBzdHJva2VXaWR0aD0iMS4yIiAvPgogICAgICAgIDxjaXJjbGUgY3g9IjM0IiBjeT0iNDQiIHI9IjEiIGZpbGw9e0EucGVyaUxpbmV9IC8+CiAgICAgICAgPFNwYXJrbGUgeD17NTB9IHk9ezE2fSBzPXs0fSBjPXtBLnBpbmsxfSAvPgogICAgPC9zdmc+Cik7CgovLyDmiYvmnLogwrcg5p+l5omL5py6CmNvbnN0IFNtYXJ0cGhvbmU6IFJlYWN0LkZDID0gKCkgPT4gKAogICAgPHN2ZyB2aWV3Qm94PSIwIDAgNjQgNjQiIGNsYXNzTmFtZT0idy1mdWxsIGgtZnVsbCI+CiAgICAgICAgPGRlZnM+PGxpbmVhckdyYWRpZW50IGlkPSJtZy1zcCIgeDE9IjAiIHkxPSIwIiB4Mj0iMC41IiB5Mj0iMSI+PHN0b3Agb2Zmc2V0PSIwIiBzdG9wQ29sb3I9e0EucGVyaTF9IC8+PHN0b3Agb2Zmc2V0PSIxIiBzdG9wQ29sb3I9e0EucGVyaTJ9IC8+PC9saW5lYXJHcmFkaWVudD48L2RlZnM+CiAgICAgICAgPHJlY3QgeD0iMjAiIHk9IjEwIiB3aWR0aD0iMjQiIGhlaWdodD0iNDQiIHJ4PSI3IiBmaWxsPSJ1cmwoI21nLXNwKSIgc3Ryb2tlPXtBLnBlcmlMaW5lfSBzdHJva2VXaWR0aD0iMS44IiAvPgogICAgICAgIDxyZWN0IHg9IjI0IiB5PSIxNiIgd2lkdGg9IjE2IiBoZWlnaHQ9IjI4IiByeD0iMyIgZmlsbD17QS5nbG9zc30gb3BhY2l0eT0iMC45IiAvPgogICAgICAgIDxwYXRoIGQ9Ik0yNiAxOCBsOSAwIC0xMSAxNSAwIC0xMSB6IiBmaWxsPXtBLnBlcmkxfSBvcGFjaXR5PSIwLjciIC8+CiAgICAgICAgPGNpcmNsZSBjeD0iMzIiIGN5PSI0OSIgcj0iMiIgZmlsbD17QS5nbG9zc30gb3BhY2l0eT0iMC45NSIgLz4KICAgICAgICA8U3BhcmtsZSB4PXs0N30geT17MTZ9IHM9ezQuNX0gYz17QS5waW5rMX0gLz4KICAgIDwvc3ZnPgopOwoKLy8g5pel6K6w5pys77yI5bim54ix5b+D77yJwrcg6KeB6Z2iCmNvbnN0IERpYXJ5OiBSZWFjdC5GQyA9ICgpID0+ICgKICAgIDxzdmcgdmlld0JveD0iMCAwIDY0IDY0IiBjbGFzc05hbWU9InctZnVsbCBoLWZ1bGwiPgogICAgICAgIDxkZWZzPjxsaW5lYXJHcmFkaWVudCBpZD0ibWctZGlhcnkiIHgxPSIwIiB5MT0iMCIgeDI9IjAiIHkyPSIxIj48c3RvcCBvZmZzZXQ9IjAiIHN0b3BDb2xvcj17QS5waW5rMX0gLz48c3RvcCBvZmZzZXQ9IjEiIHN0b3BDb2xvcj17QS5waW5rMn0gLz48L2xpbmVhckdyYWRpZW50PjwvZGVmcz4KICAgICAgICA8cmVjdCB4PSIxNiIgeT0iMTIiIHdpZHRoPSIzMiIgaGVpZ2h0PSI0MCIgcng9IjUiIGZpbGw9InVybCgjbWctZGlhcnkpIiBzdHJva2U9e0EucGlua0xpbmV9IHN0cm9rZVdpZHRoPSIxLjgiIHN0cm9rZUxpbmVqb2luPSJyb3VuZCIgLz4KICAgICAgICA8cmVjdCB4PSIxNiIgeT0iMTIiIHdpZHRoPSI3IiBoZWlnaHQ9IjQwIiByeD0iMyIgZmlsbD17QS5waW5rU2h9IG9wYWNpdHk9IjAuNiIgLz4KICAgICAgICA8cGF0aCBkPSJNMzQgMjQgYy0yIC0zIC03IC0yIC03IDIgYzAgMyA0IDYgNyA4IGMzIC0yIDcgLTUgNyAtOCBjMCAtNCAtNSAtNSAtNyAtMiB6IiBmaWxsPXtBLmdsb3NzfSBzdHJva2U9e0EucGlua0xpbmV9IHN0cm9rZVdpZHRoPSIxLjIiIHN0cm9rZUxpbmVqb2luPSJyb3VuZCIgLz4KICAgICAgICA8cmVjdCB4PSI0MyIgeT0iMjAiIHdpZHRoPSI0IiBoZWlnaHQ9IjE2IiByeD0iMiIgZmlsbD17QS5wZXJpU2h9IHN0cm9rZT17QS5wZXJpTGluZX0gc3Ryb2tlV2lkdGg9IjEiIC8+CiAgICAgICAgPFNwYXJrbGUgeD17NTB9IHk9ezQ4fSBzPXs0fSBjPXtBLnBpbmsxfSAvPgogICAgPC9zdmc+Cik7CgovLyDmlofku7blpLkgwrcg5qGj5qGICmNvbnN0IEZvbGRlcjogUmVhY3QuRkMgPSAoKSA9PiAoCiAgICA8c3ZnIHZpZXdCb3g9IjAgMCA2NCA2NCIgY2xhc3NOYW1lPSJ3LWZ1bGwgaC1mdWxsIj4KICAgICAgICA8ZGVmcz48bGluZWFyR3JhZGllbnQgaWQ9Im1nLWZvbGRlciIgeDE9IjAiIHkxPSIwIiB4Mj0iMCIgeTI9IjEiPjxzdG9wIG9mZnNldD0iMCIgc3RvcENvbG9yPXtBLnBlcmkxfSAvPjxzdG9wIG9mZnNldD0iMSIgc3RvcENvbG9yPXtBLnBlcmkyfSAvPjwvbGluZWFyR3JhZGllbnQ+PC9kZWZzPgogICAgICAgIDxwYXRoIGQ9Ik0xMiAyMCBxMCAtNCA0IC00IGwxMCAwIHEyIDAgMyAyIGwyIDMgbDE3IDAgcTQgMCA0IDQgbDAgNCBsLTQ0IDAgeiIgZmlsbD17QS5wZXJpU2h9IHN0cm9rZT17QS5wZXJpTGluZX0gc3Ryb2tlV2lkdGg9IjEuNiIgc3Ryb2tlTGluZWpvaW49InJvdW5kIiAvPgogICAgICAgIDxyZWN0IHg9IjIwIiB5PSIyNCIgd2lkdGg9IjI0IiBoZWlnaHQ9IjE0IiByeD0iMiIgZmlsbD17QS5nbG9zc30gb3BhY2l0eT0iMC45MiIgc3Ryb2tlPXtBLnBlcmlMaW5lfSBzdHJva2VXaWR0aD0iMS4yIiAvPgogICAgICAgIDxwYXRoIGQ9Ik0xMCAzMCBxMCAtMyA0IC0zIGwzNiAwIHE0IDAgNCAzIGwtMiAxNSBxLTEgNCAtNSA0IGwtMzAgMCBxLTQgMCAtNSAtNCB6IiBmaWxsPSJ1cmwoI21nLWZvbGRlcikiIHN0cm9rZT17QS5wZXJpTGluZX0gc3Ryb2tlV2lkdGg9IjEuOCIgc3Ryb2tlTGluZWpvaW49InJvdW5kIiAvPgogICAgICAgIDxlbGxpcHNlIGN4PSIyMCIgY3k9IjM0IiByeD0iNSIgcnk9IjIiIGZpbGw9e0EuZ2xvc3N9IG9wYWNpdHk9IjAuNCIgLz4KICAgICAgICA8U3BhcmtsZSB4PXs0OH0geT17MjB9IHM9ezR9IGM9e0EucGluazF9IC8+CiAgICA8L3N2Zz4KKTsKCi8vIOaYn+aYn+e9kCDCtyDlrZjpkrHnvZAKY29uc3QgSmFyOiBSZWFjdC5GQyA9ICgpID0+ICgKICAgIDxzdmcgdmlld0JveD0iMCAwIDY0IDY0IiBjbGFzc05hbWU9InctZnVsbCBoLWZ1bGwiPgogICAgICAgIDxkZWZzPgogICAgICAgICAgICA8bGluZWFyR3JhZGllbnQgaWQ9Im1nLWphciIgeDE9IjAiIHkxPSIwIiB4Mj0iMCIgeTI9IjEiPjxzdG9wIG9mZnNldD0iMCIgc3RvcENvbG9yPXtBLnBpbmsxfSBzdG9wT3BhY2l0eT0iMC43IiAvPjxzdG9wIG9mZnNldD0iMSIgc3RvcENvbG9yPXtBLnBpbmsyfSBzdG9wT3BhY2l0eT0iMC44NSIgLz48L2xpbmVhckdyYWRpZW50PgogICAgICAgICAgICA8Y2xpcFBhdGggaWQ9Im1nLWphci1jbGlwIj48cGF0aCBkPSJNMjAgMjAgcTAgLTQgNCAtNCBsMTYgMCBxNCAwIDQgNCBsMCAyNiBxMCA2IC02IDYgbC0xMiAwIHEtNiAwIC02IC02IHoiIC8+PC9jbGlwUGF0aD4KICAgICAgICA8L2RlZnM+CiAgICAgICAgPHJlY3QgeD0iMjIiIHk9IjkiIHdpZHRoPSIyMCIgaGVpZ2h0PSI3IiByeD0iMy41IiBmaWxsPXtBLnBpbmtTaH0gc3Ryb2tlPXtBLnBpbmtMaW5lfSBzdHJva2VXaWR0aD0iMS42IiAvPgogICAgICAgIDxwYXRoIGQ9Ik0yMCAyMCBxMCAtNCA0IC00IGwxNiAwIHE0IDAgNCA0IGwwIDI2IHEwIDYgLTYgNiBsLTEyIDAgcS02IDAgLTYgLTYgeiIgZmlsbD0idXJsKCNtZy1qYXIpIiBzdHJva2U9e0EucGlua0xpbmV9IHN0cm9rZVdpZHRoPSIxLjgiIHN0cm9rZUxpbmVqb2luPSJyb3VuZCIgLz4KICAgICAgICA8ZyBjbGlwUGF0aD0idXJsKCNtZy1qYXItY2xpcCkiPjxyZWN0IHg9IjMyIiB5PSIxNiIgd2lkdGg9IjE0IiBoZWlnaHQ9IjQwIiBmaWxsPXtBLnBpbmtTaH0gb3BhY2l0eT0iMC4zIiAvPjwvZz4KICAgICAgICA8U3BhcmtsZSB4PXszMn0geT17MzV9IHM9ezl9IGM9e0EuZ2xvc3N9IC8+CiAgICAgICAgPHBhdGggZD17YE0zMiAkezM1IC0gOX0gTCR7MzIgKyA5ICogMC4zfSAkezM1IC0gOSAqIDAuM30gTCR7MzIgKyA5fSAzNSBMJHszMiArIDkgKiAwLjN9ICR7MzUgKyA5ICogMC4zfSBMMzIgJHszNSArIDl9IEwkezMyIC0gOSAqIDAuM30gJHszNSArIDkgKiAwLjN9IEwkezMyIC0gOX0gMzUgTCR7MzIgLSA5ICogMC4zfSAkezM1IC0gOSAqIDAuM30gWmB9IGZpbGw9Im5vbmUiIHN0cm9rZT17QS5waW5rTGluZX0gc3Ryb2tlV2lkdGg9IjEuMiIgc3Ryb2tlTGluZWpvaW49InJvdW5kIiAvPgogICAgICAgIDxlbGxpcHNlIGN4PSIyNiIgY3k9IjI2IiByeD0iMi41IiByeT0iNyIgZmlsbD17QS5nbG9zc30gb3BhY2l0eT0iMC40IiAvPgogICAgICAgIDxTcGFya2xlIHg9ezQ5fSB5PXsxNX0gcz17NH0gYz17QS5waW5rMX0gLz4KICAgIDwvc3ZnPgopOwoKLy8g5pel5Y6G77yI5bim5Yu+77yJwrcg5pel56iLCmNvbnN0IENhbGVuZGFyOiBSZWFjdC5GQyA9ICgpID0+ICgKICAgIDxzdmcgdmlld0JveD0iMCAwIDY0IDY0IiBjbGFzc05hbWU9InctZnVsbCBoLWZ1bGwiPgogICAgICAgIDxkZWZzPjxsaW5lYXJHcmFkaWVudCBpZD0ibWctY2FsIiB4MT0iMCIgeTE9IjAiIHgyPSIwIiB5Mj0iMSI+PHN0b3Agb2Zmc2V0PSIwIiBzdG9wQ29sb3I9e0EucHVycGxlMX0gLz48c3RvcCBvZmZzZXQ9IjEiIHN0b3BDb2xvcj17QS5wdXJwbGUyfSAvPjwvbGluZWFyR3JhZGllbnQ+PC9kZWZzPgogICAgICAgIDxyZWN0IHg9IjEzIiB5PSIxNiIgd2lkdGg9IjM4IiBoZWlnaHQ9IjM2IiByeD0iNiIgZmlsbD0idXJsKCNtZy1jYWwpIiBzdHJva2U9e0EucHVycGxlTGluZX0gc3Ryb2tlV2lkdGg9IjEuOCIgLz4KICAgICAgICA8cGF0aCBkPSJNMTMgMjcgaDM4IiBzdHJva2U9e0EucHVycGxlTGluZX0gc3Ryb2tlV2lkdGg9IjEuNiIgb3BhY2l0eT0iMC43IiAvPgogICAgICAgIDxyZWN0IHg9IjEzIiB5PSIxNiIgd2lkdGg9IjM4IiBoZWlnaHQ9IjExIiByeD0iNiIgZmlsbD17QS5wdXJwbGVTaH0gb3BhY2l0eT0iMC41NSIgLz4KICAgICAgICA8cmVjdCB4PSIyMSIgeT0iMTEiIHdpZHRoPSI0IiBoZWlnaHQ9IjkiIHJ4PSIyIiBmaWxsPXtBLnB1cnBsZUxpbmV9IC8+CiAgICAgICAgPHJlY3QgeD0iMzkiIHk9IjExIiB3aWR0aD0iNCIgaGVpZ2h0PSI5IiByeD0iMiIgZmlsbD17QS5wdXJwbGVMaW5lfSAvPgogICAgICAgIDxwYXRoIGQ9Ik0yNCAzOSBsNSA1IDkgLTExIiBzdHJva2U9e0EuZ2xvc3N9IHN0cm9rZVdpZHRoPSIzLjYiIGZpbGw9Im5vbmUiIHN0cm9rZUxpbmVjYXA9InJvdW5kIiBzdHJva2VMaW5lam9pbj0icm91bmQiIC8+CiAgICAgICAgPFNwYXJrbGUgeD17NDd9IHk9ezQ4fSBzPXs0fSBjPXtBLnBpbmsxfSAvPgogICAgPC9zdmc+Cik7CgovLyDpvb/ova4gwrcg6K6+572uCmNvbnN0IEdlYXI6IFJlYWN0LkZDID0gKCkgPT4gKAogICAgPHN2ZyB2aWV3Qm94PSIwIDAgNjQgNjQiIGNsYXNzTmFtZT0idy1mdWxsIGgtZnVsbCI+CiAgICAgICAgPGRlZnM+PGxpbmVhckdyYWRpZW50IGlkPSJtZy1nZWFyIiB4MT0iMCIgeTE9IjAiIHgyPSIwIiB5Mj0iMSI+PHN0b3Agb2Zmc2V0PSIwIiBzdG9wQ29sb3I9e0EucHVycGxlMX0gLz48c3RvcCBvZmZzZXQ9IjEiIHN0b3BDb2xvcj17QS5wdXJwbGUyfSAvPjwvbGluZWFyR3JhZGllbnQ+PC9kZWZzPgogICAgICAgIHtBcnJheS5mcm9tKHsgbGVuZ3RoOiA4IH0pLm1hcCgoXywgaSkgPT4gKAogICAgICAgICAgICA8cmVjdCBrZXk9e2l9IHg9IjI5IiB5PSI3IiB3aWR0aD0iNiIgaGVpZ2h0PSIxMiIgcng9IjMiIGZpbGw9InVybCgjbWctZ2VhcikiIHN0cm9rZT17QS5wdXJwbGVMaW5lfSBzdHJva2VXaWR0aD0iMS40IiB0cmFuc2Zvcm09e2Byb3RhdGUoJHtpICogNDV9IDMyIDMyKWB9IC8+CiAgICAgICAgKSl9CiAgICAgICAgPGNpcmNsZSBjeD0iMzIiIGN5PSIzMiIgcj0iMTYiIGZpbGw9InVybCgjbWctZ2VhcikiIHN0cm9rZT17QS5wdXJwbGVMaW5lfSBzdHJva2VXaWR0aD0iMS44IiAvPgogICAgICAgIDxjaXJjbGUgY3g9IjMyIiBjeT0iMzIiIHI9IjciIGZpbGw9e0EuZ2xvc3N9IG9wYWNpdHk9IjAuOTIiIHN0cm9rZT17QS5wdXJwbGVMaW5lfSBzdHJva2VXaWR0aD0iMS40IiAvPgogICAgICAgIDxlbGxpcHNlIGN4PSIyNiIgY3k9IjI1IiByeD0iMy42IiByeT0iMi4yIiBmaWxsPXtBLmdsb3NzfSBvcGFjaXR5PSIwLjUiIHRyYW5zZm9ybT0icm90YXRlKC0zMCAyNiAyNSkiIC8+CiAgICAgICAgPFNwYXJrbGUgeD17NTF9IHk9ezE0fSBzPXs0fSBjPXtBLnBpbmsxfSAvPgogICAgPC9zdmc+Cik7Cgpjb25zdCBNR19BUlQ6IFBhcnRpYWw8UmVjb3JkPEFwcElELCBSZWFjdC5GQz4+ID0gewogICAgW0FwcElELkNoYXJhY3Rlcl06IFBsYW5ldCwKICAgIFtBcHBJRC5NZW1vcnlQYWxhY2VdOiBCcmFpbiwKICAgIFtBcHBJRC5DYWxsXTogUGhvbmUsCiAgICBbQXBwSUQuUm9vbV06IEhvdXNlLAogICAgW0FwcElELkNoZWNrUGhvbmVdOiBTbWFydHBob25lLAogICAgW0FwcElELkRhdGVdOiBEaWFyeSwKICAgIFtBcHBJRC5Vc2VyXTogRm9sZGVyLAogICAgW0FwcElELkJhbmtdOiBKYXIsCiAgICBbQXBwSUQuU2NoZWR1bGVdOiBDYWxlbmRhciwKICAgIFtBcHBJRC5TZXR0aW5nc106IEdlYXIsCn07CgovLyDmnInmj5LnlLvlsLHnlKjmj5LnlLvvvIzlkKbliJnov5Tlm54gbnVsbO+8iOiwg+eUqOaWueWbnumAgOWIsCBQaG9zcGhvciDlm77moIfvvIkKZXhwb3J0IGNvbnN0IGdldE1vYmlsZUdhbWVBcnQgPSAoaWQ6IEFwcElEKTogUmVhY3QuUmVhY3ROb2RlID0+IHsKICAgIGNvbnN0IENvbXAgPSBNR19BUlRbaWRdOwogICAgcmV0dXJuIENvbXAgPyA8Q29tcCAvPiA6IG51bGw7Cn07Cg==
+import React from 'react';
+import { AppID } from '../../types';
+
+// ===== 手游主题专用插画 =====
+// 二次元手绘风：平涂粉紫渐变 + 干净描边轮廓 + 二分阴影(cel) + 白色高光小细节。
+// 每个 viewBox 64x64，className 控制尺寸。渐变 id 各自唯一，避免冲突。
+
+const A = {
+    purple1: '#cdbcf2', purple2: '#9a82d6', purpleLine: '#6f57b0', purpleSh: '#8265c4',
+    pink1: '#fbcfe6', pink2: '#f09bcb', pinkLine: '#cf5e9e', pinkSh: '#e87fb8',
+    peri1: '#c4d1f6', peri2: '#94aae6', periLine: '#6680cf', periSh: '#7e98de',
+    gloss: '#ffffff',
+};
+
+const Sparkle: React.FC<{ x: number; y: number; s: number; c: string }> = ({ x, y, s, c }) => (
+    <path d={`M${x} ${y - s} L${x + s * 0.3} ${y - s * 0.3} L${x + s} ${y} L${x + s * 0.3} ${y + s * 0.3} L${x} ${y + s} L${x - s * 0.3} ${y + s * 0.3} L${x - s} ${y} L${x - s * 0.3} ${y - s * 0.3} Z`} fill={c} />
+);
+
+// 行星 · 神经链接
+const Planet: React.FC = () => (
+    <svg viewBox="0 0 64 64" className="w-full h-full">
+        <defs>
+            <linearGradient id="mg-planet" x1="0" y1="0" x2="0.4" y2="1"><stop offset="0" stopColor={A.purple1} /><stop offset="1" stopColor={A.purple2} /></linearGradient>
+            <clipPath id="mg-planet-clip"><circle cx="30" cy="30" r="16" /></clipPath>
+        </defs>
+        <circle cx="30" cy="30" r="16" fill="url(#mg-planet)" stroke={A.purpleLine} strokeWidth="1.8" />
+        <g clipPath="url(#mg-planet-clip)"><path d="M14 34 Q30 30 46 36 L46 50 L14 50 Z" fill={A.purpleSh} opacity="0.45" /></g>
+        <ellipse cx="23" cy="22" rx="5.5" ry="3.4" fill={A.gloss} opacity="0.7" transform="rotate(-25 23 22)" />
+        <ellipse cx="31" cy="31" rx="26" ry="8.5" fill="none" stroke={A.pinkLine} strokeWidth="4.6" transform="rotate(-22 31 31)" opacity="0.95" />
+        <ellipse cx="31" cy="31" rx="26" ry="8.5" fill="none" stroke={A.pink1} strokeWidth="1.8" transform="rotate(-22 31 31)" opacity="0.9" />
+        <Sparkle x={52} y={13} s={5} c={A.pink1} />
+        <Sparkle x={12} y={46} s={3} c={A.gloss} />
+    </svg>
+);
+
+// 大脑 · 记忆宫殿
+const Brain: React.FC = () => (
+    <svg viewBox="0 0 64 64" className="w-full h-full">
+        <defs>
+            <linearGradient id="mg-brain" x1="0" y1="0" x2="0" y2="1"><stop offset="0" stopColor={A.pink1} /><stop offset="1" stopColor={A.pink2} /></linearGradient>
+            <clipPath id="mg-brain-clip"><path d="M32 13 C21 13 15 21 18 29 C12 33 15 44 25 43 C27 49 37 49 39 43 C49 44 52 33 46 29 C49 21 43 13 32 13 Z" /></clipPath>
+        </defs>
+        <path d="M32 13 C21 13 15 21 18 29 C12 33 15 44 25 43 C27 49 37 49 39 43 C49 44 52 33 46 29 C49 21 43 13 32 13 Z" fill="url(#mg-brain)" stroke={A.pinkLine} strokeWidth="1.8" strokeLinejoin="round" />
+        <g clipPath="url(#mg-brain-clip)"><rect x="32" y="12" width="20" height="40" fill={A.pinkSh} opacity="0.4" /></g>
+        <path d="M32 15 V45" stroke={A.pinkLine} strokeWidth="1.8" opacity="0.55" fill="none" strokeLinecap="round" />
+        <path d="M25 23 q5 2 1 7 M39 23 q-5 2 -1 7 M21 33 q5 3 9 1 M43 33 q-5 3 -9 1" stroke={A.gloss} strokeWidth="1.8" opacity="0.6" fill="none" strokeLinecap="round" />
+        <Sparkle x={50} y={16} s={4.5} c={A.gloss} />
+    </svg>
+);
+
+// 电话 · 电话
+const Phone: React.FC = () => (
+    <svg viewBox="0 0 64 64" className="w-full h-full">
+        <defs><linearGradient id="mg-phone" x1="0" y1="0" x2="0" y2="1"><stop offset="0" stopColor={A.purple1} /><stop offset="1" stopColor={A.purple2} /></linearGradient></defs>
+        <path d="M19 15 q-5 0 -5 5 q0 9 8 19 q10 13 21 16 q5 1 6 -3 l2 -6 q1 -3 -3 -4 l-7 -2 q-3 -1 -4 2 l-1 2 q-7 -4 -12 -12 l2 -1 q3 -1 2 -4 l-2 -7 q-1 -3 -4 -2 z" fill="url(#mg-phone)" stroke={A.purpleLine} strokeWidth="1.8" strokeLinejoin="round" />
+        <path d="M21 18.5 q-2.5 0 -2.5 3.2" stroke={A.gloss} strokeWidth="2" opacity="0.6" fill="none" strokeLinecap="round" />
+        <path d="M42 14 a9 9 0 0 1 8 8 M44 9 a14 14 0 0 1 11 11" stroke={A.pink2} strokeWidth="2.6" fill="none" strokeLinecap="round" />
+        <Sparkle x={14} y={47} s={4} c={A.pink1} />
+    </svg>
+);
+
+// 房子 · 小小窝
+const House: React.FC = () => (
+    <svg viewBox="0 0 64 64" className="w-full h-full">
+        <defs>
+            <linearGradient id="mg-house" x1="0" y1="0" x2="0" y2="1"><stop offset="0" stopColor={A.peri1} /><stop offset="1" stopColor={A.peri2} /></linearGradient>
+            <linearGradient id="mg-roof" x1="0" y1="0" x2="0" y2="1"><stop offset="0" stopColor={A.purple1} /><stop offset="1" stopColor={A.purple2} /></linearGradient>
+        </defs>
+        <rect x="18" y="30" width="28" height="20" rx="3" fill="url(#mg-house)" stroke={A.periLine} strokeWidth="1.8" strokeLinejoin="round" />
+        <rect x="38" y="30" width="8" height="20" fill={A.periSh} opacity="0.4" />
+        <path d="M32 12 L52 31 Q53 33 50 33 L14 33 Q11 33 12 31 Z" fill="url(#mg-roof)" stroke={A.purpleLine} strokeWidth="1.8" strokeLinejoin="round" />
+        <rect x="28" y="38" width="8" height="12" rx="2" fill={A.gloss} opacity="0.92" stroke={A.periLine} strokeWidth="1.2" />
+        <circle cx="34" cy="44" r="1" fill={A.periLine} />
+        <Sparkle x={50} y={16} s={4} c={A.pink1} />
+    </svg>
+);
+
+// 手机 · 查手机
+const Smartphone: React.FC = () => (
+    <svg viewBox="0 0 64 64" className="w-full h-full">
+        <defs><linearGradient id="mg-sp" x1="0" y1="0" x2="0.5" y2="1"><stop offset="0" stopColor={A.peri1} /><stop offset="1" stopColor={A.peri2} /></linearGradient></defs>
+        <rect x="20" y="10" width="24" height="44" rx="7" fill="url(#mg-sp)" stroke={A.periLine} strokeWidth="1.8" />
+        <rect x="24" y="16" width="16" height="28" rx="3" fill={A.gloss} opacity="0.9" />
+        <path d="M26 18 l9 0 -11 15 0 -11 z" fill={A.peri1} opacity="0.7" />
+        <circle cx="32" cy="49" r="2" fill={A.gloss} opacity="0.95" />
+        <Sparkle x={47} y={16} s={4.5} c={A.pink1} />
+    </svg>
+);
+
+// 日记本（带爱心）· 见面
+const Diary: React.FC = () => (
+    <svg viewBox="0 0 64 64" className="w-full h-full">
+        <defs><linearGradient id="mg-diary" x1="0" y1="0" x2="0" y2="1"><stop offset="0" stopColor={A.pink1} /><stop offset="1" stopColor={A.pink2} /></linearGradient></defs>
+        <rect x="16" y="12" width="32" height="40" rx="5" fill="url(#mg-diary)" stroke={A.pinkLine} strokeWidth="1.8" strokeLinejoin="round" />
+        <rect x="16" y="12" width="7" height="40" rx="3" fill={A.pinkSh} opacity="0.6" />
+        <path d="M34 24 c-2 -3 -7 -2 -7 2 c0 3 4 6 7 8 c3 -2 7 -5 7 -8 c0 -4 -5 -5 -7 -2 z" fill={A.gloss} stroke={A.pinkLine} strokeWidth="1.2" strokeLinejoin="round" />
+        <rect x="43" y="20" width="4" height="16" rx="2" fill={A.periSh} stroke={A.periLine} strokeWidth="1" />
+        <Sparkle x={50} y={48} s={4} c={A.pink1} />
+    </svg>
+);
+
+// 文件夹 · 档案
+const Folder: React.FC = () => (
+    <svg viewBox="0 0 64 64" className="w-full h-full">
+        <defs><linearGradient id="mg-folder" x1="0" y1="0" x2="0" y2="1"><stop offset="0" stopColor={A.peri1} /><stop offset="1" stopColor={A.peri2} /></linearGradient></defs>
+        <path d="M12 20 q0 -4 4 -4 l10 0 q2 0 3 2 l2 3 l17 0 q4 0 4 4 l0 4 l-44 0 z" fill={A.periSh} stroke={A.periLine} strokeWidth="1.6" strokeLinejoin="round" />
+        <rect x="20" y="24" width="24" height="14" rx="2" fill={A.gloss} opacity="0.92" stroke={A.periLine} strokeWidth="1.2" />
+        <path d="M10 30 q0 -3 4 -3 l36 0 q4 0 4 3 l-2 15 q-1 4 -5 4 l-30 0 q-4 0 -5 -4 z" fill="url(#mg-folder)" stroke={A.periLine} strokeWidth="1.8" strokeLinejoin="round" />
+        <ellipse cx="20" cy="34" rx="5" ry="2" fill={A.gloss} opacity="0.4" />
+        <Sparkle x={48} y={20} s={4} c={A.pink1} />
+    </svg>
+);
+
+// 星星罐 · 存钱罐
+const Jar: React.FC = () => (
+    <svg viewBox="0 0 64 64" className="w-full h-full">
+        <defs>
+            <linearGradient id="mg-jar" x1="0" y1="0" x2="0" y2="1"><stop offset="0" stopColor={A.pink1} stopOpacity="0.7" /><stop offset="1" stopColor={A.pink2} stopOpacity="0.85" /></linearGradient>
+            <clipPath id="mg-jar-clip"><path d="M20 20 q0 -4 4 -4 l16 0 q4 0 4 4 l0 26 q0 6 -6 6 l-12 0 q-6 0 -6 -6 z" /></clipPath>
+        </defs>
+        <rect x="22" y="9" width="20" height="7" rx="3.5" fill={A.pinkSh} stroke={A.pinkLine} strokeWidth="1.6" />
+        <path d="M20 20 q0 -4 4 -4 l16 0 q4 0 4 4 l0 26 q0 6 -6 6 l-12 0 q-6 0 -6 -6 z" fill="url(#mg-jar)" stroke={A.pinkLine} strokeWidth="1.8" strokeLinejoin="round" />
+        <g clipPath="url(#mg-jar-clip)"><rect x="32" y="16" width="14" height="40" fill={A.pinkSh} opacity="0.3" /></g>
+        <Sparkle x={32} y={35} s={9} c={A.gloss} />
+        <path d={`M32 ${35 - 9} L${32 + 9 * 0.3} ${35 - 9 * 0.3} L${32 + 9} 35 L${32 + 9 * 0.3} ${35 + 9 * 0.3} L32 ${35 + 9} L${32 - 9 * 0.3} ${35 + 9 * 0.3} L${32 - 9} 35 L${32 - 9 * 0.3} ${35 - 9 * 0.3} Z`} fill="none" stroke={A.pinkLine} strokeWidth="1.2" strokeLinejoin="round" />
+        <ellipse cx="26" cy="26" rx="2.5" ry="7" fill={A.gloss} opacity="0.4" />
+        <Sparkle x={49} y={15} s={4} c={A.pink1} />
+    </svg>
+);
+
+// 日历（带勾）· 日程
+const Calendar: React.FC = () => (
+    <svg viewBox="0 0 64 64" className="w-full h-full">
+        <defs><linearGradient id="mg-cal" x1="0" y1="0" x2="0" y2="1"><stop offset="0" stopColor={A.purple1} /><stop offset="1" stopColor={A.purple2} /></linearGradient></defs>
+        <rect x="13" y="16" width="38" height="36" rx="6" fill="url(#mg-cal)" stroke={A.purpleLine} strokeWidth="1.8" />
+        <path d="M13 27 h38" stroke={A.purpleLine} strokeWidth="1.6" opacity="0.7" />
+        <rect x="13" y="16" width="38" height="11" rx="6" fill={A.purpleSh} opacity="0.55" />
+        <rect x="21" y="11" width="4" height="9" rx="2" fill={A.purpleLine} />
+        <rect x="39" y="11" width="4" height="9" rx="2" fill={A.purpleLine} />
+        <path d="M24 39 l5 5 9 -11" stroke={A.gloss} strokeWidth="3.6" fill="none" strokeLinecap="round" strokeLinejoin="round" />
+        <Sparkle x={47} y={48} s={4} c={A.pink1} />
+    </svg>
+);
+
+// 齿轮 · 设置
+const Gear: React.FC = () => (
+    <svg viewBox="0 0 64 64" className="w-full h-full">
+        <defs><linearGradient id="mg-gear" x1="0" y1="0" x2="0" y2="1"><stop offset="0" stopColor={A.purple1} /><stop offset="1" stopColor={A.purple2} /></linearGradient></defs>
+        {Array.from({ length: 8 }).map((_, i) => (
+            <rect key={i} x="29" y="7" width="6" height="12" rx="3" fill="url(#mg-gear)" stroke={A.purpleLine} strokeWidth="1.4" transform={`rotate(${i * 45} 32 32)`} />
+        ))}
+        <circle cx="32" cy="32" r="16" fill="url(#mg-gear)" stroke={A.purpleLine} strokeWidth="1.8" />
+        <circle cx="32" cy="32" r="7" fill={A.gloss} opacity="0.92" stroke={A.purpleLine} strokeWidth="1.4" />
+        <ellipse cx="26" cy="25" rx="3.6" ry="2.2" fill={A.gloss} opacity="0.5" transform="rotate(-30 26 25)" />
+        <Sparkle x={51} y={14} s={4} c={A.pink1} />
+    </svg>
+);
+
+const MG_ART: Partial<Record<AppID, React.FC>> = {
+    [AppID.Character]: Planet,
+    [AppID.MemoryPalace]: Brain,
+    [AppID.Call]: Phone,
+    [AppID.Room]: House,
+    [AppID.CheckPhone]: Smartphone,
+    [AppID.Date]: Diary,
+    [AppID.User]: Folder,
+    [AppID.Bank]: Jar,
+    [AppID.Schedule]: Calendar,
+    [AppID.Settings]: Gear,
+};
+
+// 有插画就用插画，否则返回 null（调用方回退到 Phosphor 图标）
+export const getMobileGameArt = (id: AppID): React.ReactNode => {
+    const Comp = MG_ART[id];
+    return Comp ? <Comp /> : null;
+};

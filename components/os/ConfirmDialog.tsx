@@ -1,1 +1,96 @@
-CmltcG9ydCBSZWFjdCBmcm9tICdyZWFjdCc7CgppbnRlcmZhY2UgQ29uZmlybURpYWxvZ1Byb3BzIHsKICAgIGlzT3BlbjogYm9vbGVhbjsKICAgIHRpdGxlOiBzdHJpbmc7CiAgICBtZXNzYWdlOiBzdHJpbmc7CiAgICBjb25maXJtVGV4dD86IHN0cmluZzsKICAgIGNhbmNlbFRleHQ/OiBzdHJpbmc7CiAgICB2YXJpYW50PzogJ2RhbmdlcicgfCAnd2FybmluZycgfCAnaW5mbyc7CiAgICBvbkNvbmZpcm06ICgpID0+IHZvaWQ7CiAgICBvbkNhbmNlbDogKCkgPT4gdm9pZDsKfQoKY29uc3QgQ29uZmlybURpYWxvZzogUmVhY3QuRkM8Q29uZmlybURpYWxvZ1Byb3BzPiA9ICh7IAogICAgaXNPcGVuLCAKICAgIHRpdGxlLCAKICAgIG1lc3NhZ2UsIAogICAgY29uZmlybVRleHQgPSAn56Gu6K6kJywgCiAgICBjYW5jZWxUZXh0ID0gJ+WPlua2iCcsIAogICAgdmFyaWFudCA9ICdpbmZvJywgCiAgICBvbkNvbmZpcm0sIAogICAgb25DYW5jZWwgCn0pID0+IHsKICAgIGlmICghaXNPcGVuKSByZXR1cm4gbnVsbDsKCiAgICBjb25zdCBnZXRCdG5Db2xvciA9ICgpID0+IHsKICAgICAgICBzd2l0Y2ggKHZhcmlhbnQpIHsKICAgICAgICAgICAgY2FzZSAnZGFuZ2VyJzogcmV0dXJuICdiZy1yZWQtNTAwIGhvdmVyOmJnLXJlZC02MDAgdGV4dC13aGl0ZSBzaGFkb3ctcmVkLTIwMCc7CiAgICAgICAgICAgIGNhc2UgJ3dhcm5pbmcnOiByZXR1cm4gJ2JnLW9yYW5nZS01MDAgaG92ZXI6Ymctb3JhbmdlLTYwMCB0ZXh0LXdoaXRlIHNoYWRvdy1vcmFuZ2UtMjAwJzsKICAgICAgICAgICAgZGVmYXVsdDogcmV0dXJuICdiZy1pbmRpZ28tNTAwIGhvdmVyOmJnLWluZGlnby02MDAgdGV4dC13aGl0ZSBzaGFkb3ctaW5kaWdvLTIwMCc7CiAgICAgICAgfQogICAgfTsKCiAgICBjb25zdCBnZXRJY29uID0gKCkgPT4gewogICAgICAgIHN3aXRjaCAodmFyaWFudCkgewogICAgICAgICAgICBjYXNlICdkYW5nZXInOiAKICAgICAgICAgICAgICAgIHJldHVybiAoCiAgICAgICAgICAgICAgICAgICAgPGRpdiBjbGFzc05hbWU9InctMTAgaC0xMCByb3VuZGVkLWZ1bGwgYmctcmVkLTUwIHRleHQtcmVkLTUwMCBmbGV4IGl0ZW1zLWNlbnRlciBqdXN0aWZ5LWNlbnRlciBzaHJpbmstMCI+CiAgICAgICAgICAgICAgICAgICAgICAgIDxzdmcgeG1sbnM9Imh0dHA6Ly93d3cudzMub3JnLzIwMDAvc3ZnIiBmaWxsPSJub25lIiB2aWV3Qm94PSIwIDAgMjQgMjQiIHN0cm9rZVdpZHRoPXsyfSBzdHJva2U9ImN1cnJlbnRDb2xvciIgY2xhc3NOYW1lPSJ3LTYgaC02Ij4KICAgICAgICAgICAgICAgICAgICAgICAgICAgIDxwYXRoIHN0cm9rZUxpbmVjYXA9InJvdW5kIiBzdHJva2VMaW5lam9pbj0icm91bmQiIGQ9Ik0xMiA5djMuNzVtLTkuMzAzIDMuMzc2Yy0uODY2IDEuNS4yMTcgMy4zNzQgMS45NDggMy4zNzRoMTQuNzFjMS43MyAwIDIuODEzLTEuODc0IDEuOTQ4LTMuMzc0TDEzLjk0OSAzLjM3OGMtLjg2Ni0xLjUtMy4wMzItMS41LTMuODk4IDBMMi42OTcgMTYuMTI2Wk0xMiAxNS43NWguMDA3di4wMDhIMTJ2LS4wMDhaIiAvPgogICAgICAgICAgICAgICAgICAgICAgICA8L3N2Zz4KICAgICAgICAgICAgICAgICAgICA8L2Rpdj4KICAgICAgICAgICAgICAgICk7CiAgICAgICAgICAgIGNhc2UgJ3dhcm5pbmcnOgogICAgICAgICAgICAgICAgcmV0dXJuICgKICAgICAgICAgICAgICAgICAgICA8ZGl2IGNsYXNzTmFtZT0idy0xMCBoLTEwIHJvdW5kZWQtZnVsbCBiZy1vcmFuZ2UtNTAgdGV4dC1vcmFuZ2UtNTAwIGZsZXggaXRlbXMtY2VudGVyIGp1c3RpZnktY2VudGVyIHNocmluay0wIj4KICAgICAgICAgICAgICAgICAgICAgICAgPHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIGZpbGw9Im5vbmUiIHZpZXdCb3g9IjAgMCAyNCAyNCIgc3Ryb2tlV2lkdGg9ezJ9IHN0cm9rZT0iY3VycmVudENvbG9yIiBjbGFzc05hbWU9InctNiBoLTYiPgogICAgICAgICAgICAgICAgICAgICAgICAgICAgPHBhdGggc3Ryb2tlTGluZWNhcD0icm91bmQiIHN0cm9rZUxpbmVqb2luPSJyb3VuZCIgZD0iTTkuODc5IDcuNTE5YzEuMTcxLTEuMDI1IDMuMDcxLTEuMDI1IDQuMjQyIDAgMS4xNzIgMS4wMjUgMS4xNzIgMi42ODcgMCAzLjcxMi0uMjAzLjE3OS0uNDMuMzI2LS42Ny40NDItLjc0NS4zNjEtMS40NS45OTktMS40NSAxLjgyN3YuNzVNMjEgMTJhOSA5IDAgMSAxLTE4IDAgOSA5IDAgMCAxIDE4IDBabS05IDUuMjVoLjAwOHYuMDA4SDEydi0uMDA4WiIgLz4KICAgICAgICAgICAgICAgICAgICAgICAgPC9zdmc+CiAgICAgICAgICAgICAgICAgICAgPC9kaXY+CiAgICAgICAgICAgICAgICApOwogICAgICAgICAgICBkZWZhdWx0OgogICAgICAgICAgICAgICAgcmV0dXJuICgKICAgICAgICAgICAgICAgICAgICA8ZGl2IGNsYXNzTmFtZT0idy0xMCBoLTEwIHJvdW5kZWQtZnVsbCBiZy1pbmRpZ28tNTAgdGV4dC1pbmRpZ28tNTAwIGZsZXggaXRlbXMtY2VudGVyIGp1c3RpZnktY2VudGVyIHNocmluay0wIj4KICAgICAgICAgICAgICAgICAgICAgICAgPHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIGZpbGw9Im5vbmUiIHZpZXdCb3g9IjAgMCAyNCAyNCIgc3Ryb2tlV2lkdGg9ezJ9IHN0cm9rZT0iY3VycmVudENvbG9yIiBjbGFzc05hbWU9InctNiBoLTYiPgogICAgICAgICAgICAgICAgICAgICAgICAgICAgPHBhdGggc3Ryb2tlTGluZWNhcD0icm91bmQiIHN0cm9rZUxpbmVqb2luPSJyb3VuZCIgZD0iTTExLjI1IDExLjI1bC4wNDEtLjAyYS43NS43NSAwIDAxMS4wNjMuODUybC0uNzA4IDIuODM2YS43NS43NSAwIDAwMS4wNjMuODUzbC4wNDEtLjAyMU0yMSAxMmE5IDkgMCAxMS0xOCAwIDkgOSAwIDAxMTggMHptLTktMy43NWguMDA4di4wMDhIMTJWOC4yNXoiIC8+CiAgICAgICAgICAgICAgICAgICAgICAgIDwvc3ZnPgogICAgICAgICAgICAgICAgICAgIDwvZGl2PgogICAgICAgICAgICAgICAgKTsKICAgICAgICB9CiAgICB9OwoKICAgIHJldHVybiAoCiAgICAgICAgPGRpdiBjbGFzc05hbWU9ImZpeGVkIGluc2V0LTAgei1bMTAwXSBmbGV4IGl0ZW1zLWNlbnRlciBqdXN0aWZ5LWNlbnRlciBwLTQgYW5pbWF0ZS1mYWRlLWluIiBzdHlsZT17eyB6SW5kZXg6IDk5OTkgfX0+CiAgICAgICAgICAgIDxkaXYgY2xhc3NOYW1lPSJhYnNvbHV0ZSBpbnNldC0wIGJnLWJsYWNrLzMwIGJhY2tkcm9wLWJsdXItc20gdHJhbnNpdGlvbi1vcGFjaXR5IiBvbkNsaWNrPXtvbkNhbmNlbH0+PC9kaXY+CiAgICAgICAgICAgIDxkaXYgY2xhc3NOYW1lPSJyZWxhdGl2ZSBiZy13aGl0ZSByb3VuZGVkLTJ4bCBzaGFkb3ctMnhsIHctZnVsbCBtYXgtdy1zbSBvdmVyZmxvdy1oaWRkZW4gYW5pbWF0ZS1wb3AtaW4gdHJhbnNmb3JtIHRyYW5zaXRpb24tYWxsIj4KICAgICAgICAgICAgICAgIDxkaXYgY2xhc3NOYW1lPSJwLTYiPgogICAgICAgICAgICAgICAgICAgIDxkaXYgY2xhc3NOYW1lPSJmbGV4IGdhcC00Ij4KICAgICAgICAgICAgICAgICAgICAgICAge2dldEljb24oKX0KICAgICAgICAgICAgICAgICAgICAgICAgPGRpdiBjbGFzc05hbWU9ImZsZXgtMSI+CiAgICAgICAgICAgICAgICAgICAgICAgICAgICA8aDMgY2xhc3NOYW1lPSJ0ZXh0LWxnIGZvbnQtYm9sZCB0ZXh0LXNsYXRlLTgwMCBsZWFkaW5nLTYgbWItMiI+e3RpdGxlfTwvaDM+CiAgICAgICAgICAgICAgICAgICAgICAgICAgICA8cCBjbGFzc05hbWU9InRleHQtc20gdGV4dC1zbGF0ZS01MDAgbGVhZGluZy1yZWxheGVkIj57bWVzc2FnZX08L3A+CiAgICAgICAgICAgICAgICAgICAgICAgIDwvZGl2PgogICAgICAgICAgICAgICAgICAgIDwvZGl2PgogICAgICAgICAgICAgICAgPC9kaXY+CiAgICAgICAgICAgICAgICA8ZGl2IGNsYXNzTmFtZT0iYmctc2xhdGUtNTAgcHgtNiBweS00IGZsZXggZ2FwLTMganVzdGlmeS1lbmQgYm9yZGVyLXQgYm9yZGVyLXNsYXRlLTEwMCI+CiAgICAgICAgICAgICAgICAgICAgPGJ1dHRvbiAKICAgICAgICAgICAgICAgICAgICAgICAgb25DbGljaz17b25DYW5jZWx9CiAgICAgICAgICAgICAgICAgICAgICAgIGNsYXNzTmFtZT0icHgtNCBweS0yIGJnLXdoaXRlIGJvcmRlciBib3JkZXItc2xhdGUtMjAwIHJvdW5kZWQteGwgdGV4dC1zbSBmb250LWJvbGQgdGV4dC1zbGF0ZS02MDAgaG92ZXI6Ymctc2xhdGUtNTAgdHJhbnNpdGlvbi1jb2xvcnMiCiAgICAgICAgICAgICAgICAgICAgPgogICAgICAgICAgICAgICAgICAgICAgICB7Y2FuY2VsVGV4dH0KICAgICAgICAgICAgICAgICAgICA8L2J1dHRvbj4KICAgICAgICAgICAgICAgICAgICA8YnV0dG9uIAogICAgICAgICAgICAgICAgICAgICAgICBvbkNsaWNrPXtvbkNvbmZpcm19CiAgICAgICAgICAgICAgICAgICAgICAgIGNsYXNzTmFtZT17YHB4LTQgcHktMiByb3VuZGVkLXhsIHRleHQtc20gZm9udC1ib2xkIHNoYWRvdy1sZyB0cmFuc2l0aW9uLXRyYW5zZm9ybSBhY3RpdmU6c2NhbGUtOTUgJHtnZXRCdG5Db2xvcigpfWB9CiAgICAgICAgICAgICAgICAgICAgPgogICAgICAgICAgICAgICAgICAgICAgICB7Y29uZmlybVRleHR9CiAgICAgICAgICAgICAgICAgICAgPC9idXR0b24+CiAgICAgICAgICAgICAgICA8L2Rpdj4KICAgICAgICAgICAgPC9kaXY+CiAgICAgICAgPC9kaXY+CiAgICApOwp9OwoKZXhwb3J0IGRlZmF1bHQgQ29uZmlybURpYWxvZzsK
+
+import React from 'react';
+
+interface ConfirmDialogProps {
+    isOpen: boolean;
+    title: string;
+    message: string;
+    confirmText?: string;
+    cancelText?: string;
+    variant?: 'danger' | 'warning' | 'info';
+    onConfirm: () => void;
+    onCancel: () => void;
+}
+
+const ConfirmDialog: React.FC<ConfirmDialogProps> = ({ 
+    isOpen, 
+    title, 
+    message, 
+    confirmText = '确认', 
+    cancelText = '取消', 
+    variant = 'info', 
+    onConfirm, 
+    onCancel 
+}) => {
+    if (!isOpen) return null;
+
+    const getBtnColor = () => {
+        switch (variant) {
+            case 'danger': return 'bg-red-500 hover:bg-red-600 text-white shadow-red-200';
+            case 'warning': return 'bg-orange-500 hover:bg-orange-600 text-white shadow-orange-200';
+            default: return 'bg-indigo-500 hover:bg-indigo-600 text-white shadow-indigo-200';
+        }
+    };
+
+    const getIcon = () => {
+        switch (variant) {
+            case 'danger': 
+                return (
+                    <div className="w-10 h-10 rounded-full bg-red-50 text-red-500 flex items-center justify-center shrink-0">
+                        <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" strokeWidth={2} stroke="currentColor" className="w-6 h-6">
+                            <path strokeLinecap="round" strokeLinejoin="round" d="M12 9v3.75m-9.303 3.376c-.866 1.5.217 3.374 1.948 3.374h14.71c1.73 0 2.813-1.874 1.948-3.374L13.949 3.378c-.866-1.5-3.032-1.5-3.898 0L2.697 16.126ZM12 15.75h.007v.008H12v-.008Z" />
+                        </svg>
+                    </div>
+                );
+            case 'warning':
+                return (
+                    <div className="w-10 h-10 rounded-full bg-orange-50 text-orange-500 flex items-center justify-center shrink-0">
+                        <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" strokeWidth={2} stroke="currentColor" className="w-6 h-6">
+                            <path strokeLinecap="round" strokeLinejoin="round" d="M9.879 7.519c1.171-1.025 3.071-1.025 4.242 0 1.172 1.025 1.172 2.687 0 3.712-.203.179-.43.326-.67.442-.745.361-1.45.999-1.45 1.827v.75M21 12a9 9 0 1 1-18 0 9 9 0 0 1 18 0Zm-9 5.25h.008v.008H12v-.008Z" />
+                        </svg>
+                    </div>
+                );
+            default:
+                return (
+                    <div className="w-10 h-10 rounded-full bg-indigo-50 text-indigo-500 flex items-center justify-center shrink-0">
+                        <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" strokeWidth={2} stroke="currentColor" className="w-6 h-6">
+                            <path strokeLinecap="round" strokeLinejoin="round" d="M11.25 11.25l.041-.02a.75.75 0 011.063.852l-.708 2.836a.75.75 0 001.063.853l.041-.021M21 12a9 9 0 11-18 0 9 9 0 0118 0zm-9-3.75h.008v.008H12V8.25z" />
+                        </svg>
+                    </div>
+                );
+        }
+    };
+
+    return (
+        <div className="fixed inset-0 z-[100] flex items-center justify-center p-4 animate-fade-in" style={{ zIndex: 9999 }}>
+            <div className="absolute inset-0 bg-black/30 backdrop-blur-sm transition-opacity" onClick={onCancel}></div>
+            <div className="relative bg-white rounded-2xl shadow-2xl w-full max-w-sm overflow-hidden animate-pop-in transform transition-all">
+                <div className="p-6">
+                    <div className="flex gap-4">
+                        {getIcon()}
+                        <div className="flex-1">
+                            <h3 className="text-lg font-bold text-slate-800 leading-6 mb-2">{title}</h3>
+                            <p className="text-sm text-slate-500 leading-relaxed">{message}</p>
+                        </div>
+                    </div>
+                </div>
+                <div className="bg-slate-50 px-6 py-4 flex gap-3 justify-end border-t border-slate-100">
+                    <button 
+                        onClick={onCancel}
+                        className="px-4 py-2 bg-white border border-slate-200 rounded-xl text-sm font-bold text-slate-600 hover:bg-slate-50 transition-colors"
+                    >
+                        {cancelText}
+                    </button>
+                    <button 
+                        onClick={onConfirm}
+                        className={`px-4 py-2 rounded-xl text-sm font-bold shadow-lg transition-transform active:scale-95 ${getBtnColor()}`}
+                    >
+                        {confirmText}
+                    </button>
+                </div>
+            </div>
+        </div>
+    );
+};
+
+export default ConfirmDialog;

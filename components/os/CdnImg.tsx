@@ -1,1 +1,36 @@
-aW1wb3J0IFJlYWN0LCB7IHVzZU1lbW8sIHVzZVN0YXRlLCB1c2VFZmZlY3QgfSBmcm9tICdyZWFjdCc7CmltcG9ydCB7IGFzc2V0TWlycm9ycywgbWlycm9yc0ZvclVybCB9IGZyb20gJy4uLy4uL3V0aWxzL2Fzc2V0VXJsJzsKCi8qKgogKiA8aW1nPu+8jOS9huWKoOi9veWksei0peS8muiHquWKqOWIh+WIsOS4i+S4gOS4qiBDRE4g6ZWc5YOP77yM5YWo5oyC5a6M5omN55yf55qE566X5aSx6LSl77yI6KeBIHV0aWxzL2Fzc2V0VXJsLnRz77yJ44CCCiAqIOS4k+ayuyBqc0RlbGl2ciDooqvlopkgLyByYXcuZ2l0aHVidXNlcmNvbnRlbnQg5YWo55CD5oWi5a+86Ie055qE44CM55yL5LiN5Yiw5Zu+44CN44CCCiAqCiAqIOeUqOazleS6jOmAieS4gO+8mgogKiAgIMK3IHBhdGjvvJrku5PlupPnm7jlr7not6/lvoTvvIjmjqjojZDvvInvvIzlpoIgPENkbkltZyBwYXRoPSJpbWcvTU9PTi5wbmciIC8+CiAqICAgwrcgc3JjIO+8muWujOaVtOe0oOadkCB1cmzvvIjljoblj7Llhpnmrbvpk77mjqXvvInvvIzkvJrlsL3ph4/lj43op6PmiJDplZzlg4/pk77vvJvorqTkuI3lh7rlsLHpgIDljJbmiJDmma7pgJogPGltZz4KICovCnR5cGUgUHJvcHMgPSB7IHBhdGg/OiBzdHJpbmc7IHNyYz86IHN0cmluZyB9ICYgT21pdDxSZWFjdC5JbWdIVE1MQXR0cmlidXRlczxIVE1MSW1hZ2VFbGVtZW50PiwgJ3NyYyc+OwoKY29uc3QgQ2RuSW1nOiBSZWFjdC5GQzxQcm9wcz4gPSAoeyBwYXRoLCBzcmMsIG9uRXJyb3IsIC4uLnJlc3QgfSkgPT4gewogICAgY29uc3QgY2hhaW4gPSB1c2VNZW1vKCgpID0+IHsKICAgICAgICBpZiAocGF0aCkgcmV0dXJuIGFzc2V0TWlycm9ycyhwYXRoKTsKICAgICAgICBpZiAoc3JjKSByZXR1cm4gbWlycm9yc0ZvclVybChzcmMpOwogICAgICAgIHJldHVybiBbXSBhcyBzdHJpbmdbXTsKICAgIH0sIFtwYXRoLCBzcmNdKTsKCiAgICBjb25zdCBbaWR4LCBzZXRJZHhdID0gdXNlU3RhdGUoMCk7CiAgICB1c2VFZmZlY3QoKCkgPT4geyBzZXRJZHgoMCk7IH0sIFtjaGFpblswXV0pOyAvLyDmjaLlm77ml7bku47kuLvmupDph43mnaUKCiAgICByZXR1cm4gKAogICAgICAgIDxpbWcKICAgICAgICAgICAgc3JjPXtjaGFpbltpZHhdID8/IHVuZGVmaW5lZH0KICAgICAgICAgICAgey4uLnJlc3R9CiAgICAgICAgICAgIG9uRXJyb3I9eyhlKSA9PiB7CiAgICAgICAgICAgICAgICBpZiAoaWR4IDwgY2hhaW4ubGVuZ3RoIC0gMSkgc2V0SWR4KGlkeCArIDEpOyAvLyDov5jmnInplZzlg48g4oaSIOWIh+S4i+S4gOS4qgogICAgICAgICAgICAgICAgZWxzZSBvbkVycm9yPy4oZSk7ICAgICAgICAgICAgICAgICAgICAgICAgICAgIC8vIOWFqOaMguWujCDihpIg5Lqk57uZ6LCD55So5pa5CiAgICAgICAgICAgIH19CiAgICAgICAgLz4KICAgICk7Cn07CgpleHBvcnQgZGVmYXVsdCBDZG5JbWc7Cg==
+import React, { useMemo, useState, useEffect } from 'react';
+import { assetMirrors, mirrorsForUrl } from '../../utils/assetUrl';
+
+/**
+ * <img>，但加载失败会自动切到下一个 CDN 镜像，全挂完才真的算失败（见 utils/assetUrl.ts）。
+ * 专治 jsDelivr 被墙 / raw.githubusercontent 全球慢导致的「看不到图」。
+ *
+ * 用法二选一：
+ *   · path：仓库相对路径（推荐），如 <CdnImg path="img/MOON.png" />
+ *   · src ：完整素材 url（历史写死链接），会尽量反解成镜像链；认不出就退化成普通 <img>
+ */
+type Props = { path?: string; src?: string } & Omit<React.ImgHTMLAttributes<HTMLImageElement>, 'src'>;
+
+const CdnImg: React.FC<Props> = ({ path, src, onError, ...rest }) => {
+    const chain = useMemo(() => {
+        if (path) return assetMirrors(path);
+        if (src) return mirrorsForUrl(src);
+        return [] as string[];
+    }, [path, src]);
+
+    const [idx, setIdx] = useState(0);
+    useEffect(() => { setIdx(0); }, [chain[0]]); // 换图时从主源重来
+
+    return (
+        <img
+            src={chain[idx] ?? undefined}
+            {...rest}
+            onError={(e) => {
+                if (idx < chain.length - 1) setIdx(idx + 1); // 还有镜像 → 切下一个
+                else onError?.(e);                            // 全挂完 → 交给调用方
+            }}
+        />
+    );
+};
+
+export default CdnImg;

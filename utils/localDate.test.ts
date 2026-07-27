@@ -1,1 +1,42 @@
-aW1wb3J0IHsgYWZ0ZXJBbGwsIGRlc2NyaWJlLCBleHBlY3QsIGl0IH0gZnJvbSAndml0ZXN0JzsKaW1wb3J0IHsgYWRkTG9jYWxEYXlzLCBnZXRDYWxlbmRhckRheURpZmZlcmVuY2UsIGdldExvY2FsRGF0ZUtleSwgZ2V0TG9jYWxEYXlSYW5nZSwgcGFyc2VMb2NhbERhdGVLZXkgfSBmcm9tICcuL2xvY2FsRGF0ZSc7Cgpjb25zdCBvcmlnaW5hbFRpbWVab25lID0gcHJvY2Vzcy5lbnYuVFo7CgphZnRlckFsbCgoKSA9PiB7CiAgICBpZiAob3JpZ2luYWxUaW1lWm9uZSA9PT0gdW5kZWZpbmVkKSBkZWxldGUgcHJvY2Vzcy5lbnYuVFo7CiAgICBlbHNlIHByb2Nlc3MuZW52LlRaID0gb3JpZ2luYWxUaW1lWm9uZTsKfSk7CgpkZXNjcmliZSgnbG9jYWwgY2FsZW5kYXIgZGF0ZXMnLCAoKSA9PiB7CiAgICBpdC5lYWNoKFsKICAgICAgICBbJ0FzaWEvU2hhbmdoYWknLCAnMjAyNi0wNy0yMFQxNjozMDowMC4wMDBaJywgJzIwMjYtMDctMjEnXSwKICAgICAgICBbJ0V0Yy9HTVQtMTInLCAnMjAyNi0wNy0yMFQxMjozMDowMC4wMDBaJywgJzIwMjYtMDctMjEnXSwKICAgICAgICBbJ1BhY2lmaWMvS2lyaXRpbWF0aScsICcyMDI2LTA3LTIwVDEwOjMwOjAwLjAwMFonLCAnMjAyNi0wNy0yMSddLAogICAgICAgIFsnRXRjL0dNVCsxMicsICcyMDI2LTA3LTIxVDEyOjMwOjAwLjAwMFonLCAnMjAyNi0wNy0yMSddLAogICAgXSkoJ3VzZXMgdGhlIHN5c3RlbSBkYXRlIGluICVzJywgKHRpbWVab25lLCBpbnN0YW50LCBleHBlY3RlZCkgPT4gewogICAgICAgIHByb2Nlc3MuZW52LlRaID0gdGltZVpvbmU7CiAgICAgICAgZXhwZWN0KGdldExvY2FsRGF0ZUtleShuZXcgRGF0ZShpbnN0YW50KSkpLnRvQmUoZXhwZWN0ZWQpOwogICAgfSk7CgogICAgaXQoJ2NoYW5nZXMgYXQgbG9jYWwgbWlkbmlnaHQgZm9yIENoaW5hIHVzZXJzJywgKCkgPT4gewogICAgICAgIHByb2Nlc3MuZW52LlRaID0gJ0FzaWEvU2hhbmdoYWknOwogICAgICAgIGV4cGVjdChnZXRMb2NhbERhdGVLZXkobmV3IERhdGUoJzIwMjYtMDctMjBUMTU6NTk6NTkuOTk5WicpKSkudG9CZSgnMjAyNi0wNy0yMCcpOwogICAgICAgIGV4cGVjdChnZXRMb2NhbERhdGVLZXkobmV3IERhdGUoJzIwMjYtMDctMjBUMTY6MDA6MDAuMDAwWicpKSkudG9CZSgnMjAyNi0wNy0yMScpOwogICAgfSk7CgogICAgaXQoJ3BhcnNlcyBhbmQgYWRkcyBkYXRlLW9ubHkgdmFsdWVzIGFzIGxvY2FsIGNhbGVuZGFyIGRhdGVzJywgKCkgPT4gewogICAgICAgIHByb2Nlc3MuZW52LlRaID0gJ0FzaWEvU2hhbmdoYWknOwogICAgICAgIGV4cGVjdChwYXJzZUxvY2FsRGF0ZUtleSgnMjAyNi0wMi0yOScpKS50b0JlTnVsbCgpOwogICAgICAgIGV4cGVjdChhZGRMb2NhbERheXMoJzIwMjYtMDItMjgnLCAxKSkudG9CZSgnMjAyNi0wMy0wMScpOwogICAgICAgIGV4cGVjdChnZXRDYWxlbmRhckRheURpZmZlcmVuY2UoJzIwMjYtMDMtMDgnLCAnMjAyNi0wMy0wOScpKS50b0JlKDEpOwogICAgfSk7CgogICAgaXQoJ3VzZXMgdGhlIG5leHQgbG9jYWwgbWlkbmlnaHQgYWNyb3NzIERTVCBpbnN0ZWFkIG9mIGEgZml4ZWQgMjQgaG91cnMnLCAoKSA9PiB7CiAgICAgICAgcHJvY2Vzcy5lbnYuVFogPSAnQW1lcmljYS9OZXdfWW9yayc7CiAgICAgICAgY29uc3Qgc3ByaW5nID0gZ2V0TG9jYWxEYXlSYW5nZSgnMjAyNi0wMy0wOCcpOwogICAgICAgIGNvbnN0IGF1dHVtbiA9IGdldExvY2FsRGF5UmFuZ2UoJzIwMjYtMTEtMDEnKTsKICAgICAgICBleHBlY3Qoc3ByaW5nICYmIHNwcmluZy5lbmQgLSBzcHJpbmcuc3RhcnQpLnRvQmUoMjMgKiA2MCAqIDYwICogMTAwMCk7CiAgICAgICAgZXhwZWN0KGF1dHVtbiAmJiBhdXR1bW4uZW5kIC0gYXV0dW1uLnN0YXJ0KS50b0JlKDI1ICogNjAgKiA2MCAqIDEwMDApOwogICAgfSk7Cn0pOwo=
+import { afterAll, describe, expect, it } from 'vitest';
+import { addLocalDays, getCalendarDayDifference, getLocalDateKey, getLocalDayRange, parseLocalDateKey } from './localDate';
+
+const originalTimeZone = process.env.TZ;
+
+afterAll(() => {
+    if (originalTimeZone === undefined) delete process.env.TZ;
+    else process.env.TZ = originalTimeZone;
+});
+
+describe('local calendar dates', () => {
+    it.each([
+        ['Asia/Shanghai', '2026-07-20T16:30:00.000Z', '2026-07-21'],
+        ['Etc/GMT-12', '2026-07-20T12:30:00.000Z', '2026-07-21'],
+        ['Pacific/Kiritimati', '2026-07-20T10:30:00.000Z', '2026-07-21'],
+        ['Etc/GMT+12', '2026-07-21T12:30:00.000Z', '2026-07-21'],
+    ])('uses the system date in %s', (timeZone, instant, expected) => {
+        process.env.TZ = timeZone;
+        expect(getLocalDateKey(new Date(instant))).toBe(expected);
+    });
+
+    it('changes at local midnight for China users', () => {
+        process.env.TZ = 'Asia/Shanghai';
+        expect(getLocalDateKey(new Date('2026-07-20T15:59:59.999Z'))).toBe('2026-07-20');
+        expect(getLocalDateKey(new Date('2026-07-20T16:00:00.000Z'))).toBe('2026-07-21');
+    });
+
+    it('parses and adds date-only values as local calendar dates', () => {
+        process.env.TZ = 'Asia/Shanghai';
+        expect(parseLocalDateKey('2026-02-29')).toBeNull();
+        expect(addLocalDays('2026-02-28', 1)).toBe('2026-03-01');
+        expect(getCalendarDayDifference('2026-03-08', '2026-03-09')).toBe(1);
+    });
+
+    it('uses the next local midnight across DST instead of a fixed 24 hours', () => {
+        process.env.TZ = 'America/New_York';
+        const spring = getLocalDayRange('2026-03-08');
+        const autumn = getLocalDayRange('2026-11-01');
+        expect(spring && spring.end - spring.start).toBe(23 * 60 * 60 * 1000);
+        expect(autumn && autumn.end - autumn.start).toBe(25 * 60 * 60 * 1000);
+    });
+});

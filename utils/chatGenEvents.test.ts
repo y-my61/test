@@ -1,1 +1,31 @@
-aW1wb3J0IHsgZGVzY3JpYmUsIGl0LCBleHBlY3QgfSBmcm9tICd2aXRlc3QnOwppbXBvcnQgewogICAgYW5ub3VuY2VDaGF0R2VuLAogICAgQ0hBVF9HRU5fRVZFTlRTLAogICAgc2V0Q2hhdFZpZXdTbmFwc2hvdCwKICAgIGdldENoYXRWaWV3U25hcHNob3QsCn0gZnJvbSAnLi9jaGF0R2VuRXZlbnRzJzsKCi8vIG5vZGUg546v5aKD5pegIHdpbmRvdyDigJTigJQg5rS+5Y+R5Ye95pWw5b+F6aG76Z2Z6buY6ZmN57qn77yI55Sf5oiQ6Zet5YyFL+ivhOS8sOWHveaVsOWcqOa1i+ivleS4jgovLyBTU1Ig546v5aKD5Lmf5Lya6KKr6LCD55So77yM5LiN6IO95Zug5Li65bm/5pKt6ICM5oqb6ZSZ5ouW5Z6u5Li75rWB56iL77yJ44CCCgpkZXNjcmliZSgnY2hhdEdlbkV2ZW50cycsICgpID0+IHsKICAgIGl0KCfml6Agd2luZG93IOaXtiBhbm5vdW5jZUNoYXRHZW4g5LiN5oqb6ZSZJywgKCkgPT4gewogICAgICAgIGV4cGVjdCgoKSA9PiBhbm5vdW5jZUNoYXRHZW4oQ0hBVF9HRU5fRVZFTlRTLnJlcGx5U3RhcnQsIHsgY2hhcklkOiAnYzEnLCBjaGFyTmFtZTogJ+Wwj+inkuiJsicgfSkpLm5vdC50b1Rocm93KCk7CiAgICB9KTsKCiAgICBpdCgn6KeG5Zu+5b+r54WnIHNldC9nZXQg5b6A6L+U5LiA6Ie077yM5pegIHdpbmRvdyDkuZ/kuI3mipvplJknLCAoKSA9PiB7CiAgICAgICAgZXhwZWN0KCgpID0+IHNldENoYXRWaWV3U25hcHNob3QodHJ1ZSwgJ2MxJykpLm5vdC50b1Rocm93KCk7CiAgICAgICAgZXhwZWN0KGdldENoYXRWaWV3U25hcHNob3QoKSkudG9FcXVhbCh7IGNoYXRPcGVuOiB0cnVlLCBjaGFySWQ6ICdjMScgfSk7CiAgICAgICAgc2V0Q2hhdFZpZXdTbmFwc2hvdChmYWxzZSwgbnVsbCk7CiAgICAgICAgZXhwZWN0KGdldENoYXRWaWV3U25hcHNob3QoKSkudG9FcXVhbCh7IGNoYXRPcGVuOiBmYWxzZSwgY2hhcklkOiBudWxsIH0pOwogICAgfSk7CgogICAgaXQoJ+S6i+S7tuWQjeeos+Wumu+8iENoYXRCcm9hZGNhc3QgLyBPU0NvbnRleHQgLyB1c2VDaGF0QUkg5LiJ5pa557qm5a6a77yJJywgKCkgPT4gewogICAgICAgIGV4cGVjdChDSEFUX0dFTl9FVkVOVFMucmVwbHlTdGFydCkudG9CZSgnY2hhdC1nZW4tcmVwbHktc3RhcnQnKTsKICAgICAgICBleHBlY3QoQ0hBVF9HRU5fRVZFTlRTLnJlcGx5RW5kKS50b0JlKCdjaGF0LWdlbi1yZXBseS1lbmQnKTsKICAgICAgICBleHBlY3QoQ0hBVF9HRU5fRVZFTlRTLnJlcGx5QXJyaXZlZCkudG9CZSgnY2hhdC1nZW4tcmVwbHktYXJyaXZlZCcpOwogICAgICAgIGV4cGVjdChDSEFUX0dFTl9FVkVOVFMuZW1vdGlvblN0YXJ0KS50b0JlKCdjaGF0LWdlbi1lbW90aW9uLXN0YXJ0Jyk7CiAgICAgICAgZXhwZWN0KENIQVRfR0VOX0VWRU5UUy5lbW90aW9uRW5kKS50b0JlKCdjaGF0LWdlbi1lbW90aW9uLWVuZCcpOwogICAgfSk7Cn0pOwo=
+import { describe, it, expect } from 'vitest';
+import {
+    announceChatGen,
+    CHAT_GEN_EVENTS,
+    setChatViewSnapshot,
+    getChatViewSnapshot,
+} from './chatGenEvents';
+
+// node 环境无 window —— 派发函数必须静默降级（生成闭包/评估函数在测试与
+// SSR 环境也会被调用，不能因为广播而抛错拖垮主流程）。
+
+describe('chatGenEvents', () => {
+    it('无 window 时 announceChatGen 不抛错', () => {
+        expect(() => announceChatGen(CHAT_GEN_EVENTS.replyStart, { charId: 'c1', charName: '小角色' })).not.toThrow();
+    });
+
+    it('视图快照 set/get 往返一致，无 window 也不抛错', () => {
+        expect(() => setChatViewSnapshot(true, 'c1')).not.toThrow();
+        expect(getChatViewSnapshot()).toEqual({ chatOpen: true, charId: 'c1' });
+        setChatViewSnapshot(false, null);
+        expect(getChatViewSnapshot()).toEqual({ chatOpen: false, charId: null });
+    });
+
+    it('事件名稳定（ChatBroadcast / OSContext / useChatAI 三方约定）', () => {
+        expect(CHAT_GEN_EVENTS.replyStart).toBe('chat-gen-reply-start');
+        expect(CHAT_GEN_EVENTS.replyEnd).toBe('chat-gen-reply-end');
+        expect(CHAT_GEN_EVENTS.replyArrived).toBe('chat-gen-reply-arrived');
+        expect(CHAT_GEN_EVENTS.emotionStart).toBe('chat-gen-emotion-start');
+        expect(CHAT_GEN_EVENTS.emotionEnd).toBe('chat-gen-emotion-end');
+    });
+});

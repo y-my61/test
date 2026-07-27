@@ -1,1 +1,57 @@
-aW1wb3J0IFJlYWN0LCB7IHVzZUVmZmVjdCwgdXNlU3RhdGUgfSBmcm9tICdyZWFjdCc7CmltcG9ydCBRUkNvZGUgZnJvbSAncXJjb2RlJzsKCi8qKgogKiDnkZ7lubjmlK/ku5jkuoznu7TnoIEKICoKICogY3JlYXRlT3JkZXIg6L+U5ZueOgogKiAgLSBwYXlPcmRlclVybDogd2VpeGluOi8vd3hwYXkvYml6cGF5dXJsP3ByPXh4eCAgKOW+ruS/oeaUr+S7mCBjb2RlLXVybCwg5omr56CB5Y2z5LuYKQogKiAgLSBwYXlPcmRlclFyQ29kZVVybDogaHR0cHM6Ly8uLi4vdHJhbnNmZXIvcXJjb2RlP3Rva2VuPXh4eCAo55Ge5bm45omY566h55qE5LqM57u056CB6ZO+5o6lKQogKgogKiDmtY/op4jlmajph4zngrkgd2VpeGluOi8vIOaLieS4jei1t+W+ruS/oSwg5omA5Lul6L+Z6YeMKirmnKzlnLDmioogcGF5T3JkZXJVcmwg55Sf5oiQ5LqM57u056CBKiosCiAqIOeUqOaIt+eUqOW+ruS/oeaJq+S4gOS4i+WwseS7mOS6hiwg5LiN55So5Zue55Ge5bm4IGFwcOOAggogKiDlhZzlupU6IOacrOWcsOeUn+aIkOWksei0peaXtumAgOWbnueRnuW5uOWumOaWueaJmOeuoeS6jOe7tOeggeWbvjsg56e75Yqo56uv6aKd5aSW57uZ5LiA5LiqIueCueaIkeeUqOW+ruS/oeaJk+W8gCLjgIIKICovCmNvbnN0IFBheVFyOiBSZWFjdC5GQzx7IHBheVVybD86IHN0cmluZzsgcXJJbWFnZVVybD86IHN0cmluZzsgc2l6ZT86IG51bWJlciB9PiA9ICh7IHBheVVybCwgcXJJbWFnZVVybCwgc2l6ZSA9IDE2OCB9KSA9PiB7CiAgICBjb25zdCBbZGF0YVVybCwgc2V0RGF0YVVybF0gPSB1c2VTdGF0ZTxzdHJpbmc+KCcnKTsKICAgIGNvbnN0IFtnZW5GYWlsZWQsIHNldEdlbkZhaWxlZF0gPSB1c2VTdGF0ZShmYWxzZSk7CgogICAgdXNlRWZmZWN0KCgpID0+IHsKICAgICAgICBsZXQgY2FuY2VsbGVkID0gZmFsc2U7CiAgICAgICAgaWYgKCFwYXlVcmwpIHsgc2V0RGF0YVVybCgnJyk7IHJldHVybjsgfQogICAgICAgIFFSQ29kZS50b0RhdGFVUkwocGF5VXJsLCB7IHdpZHRoOiBzaXplICogMiwgbWFyZ2luOiAxLCBlcnJvckNvcnJlY3Rpb25MZXZlbDogJ00nIH0pCiAgICAgICAgICAgIC50aGVuKCh1cmwpID0+IHsgaWYgKCFjYW5jZWxsZWQpIHsgc2V0RGF0YVVybCh1cmwpOyBzZXRHZW5GYWlsZWQoZmFsc2UpOyB9IH0pCiAgICAgICAgICAgIC5jYXRjaCgoKSA9PiB7IGlmICghY2FuY2VsbGVkKSBzZXRHZW5GYWlsZWQodHJ1ZSk7IH0pOwogICAgICAgIHJldHVybiAoKSA9PiB7IGNhbmNlbGxlZCA9IHRydWU7IH07CiAgICB9LCBbcGF5VXJsLCBzaXplXSk7CgogICAgLy8g5LyY5YWI5pys5Zyw55Sf5oiQ55qE56CBOyDmsqHmnIkgcGF5VXJsIOaIlueUn+aIkOWksei0peaXtumAgOWbnuWumOaWueaJmOeuoeS6jOe7tOeggeWbvgogICAgY29uc3QgaW1nU3JjID0gKCFnZW5GYWlsZWQgJiYgZGF0YVVybCkgPyBkYXRhVXJsIDogKHFySW1hZ2VVcmwgfHwgJycpOwogICAgaWYgKCFpbWdTcmMpIHsKICAgICAgICAvLyDlrp7lnKjmsqHnoIE6IOmAgOWbnuS4gOS4qui3s+i9rOmTvuaOpSAo56e75Yqo56uv5pyJ5pWIKQogICAgICAgIGlmIChwYXlVcmwgfHwgcXJJbWFnZVVybCkgewogICAgICAgICAgICByZXR1cm4gKAogICAgICAgICAgICAgICAgPGEgaHJlZj17cGF5VXJsIHx8IHFySW1hZ2VVcmx9IHRhcmdldD0iX2JsYW5rIiByZWw9Im5vcmVmZXJyZXIiCiAgICAgICAgICAgICAgICAgICAgY2xhc3NOYW1lPSJibG9jayB0ZXh0LWNlbnRlciBweC0zIHB5LTIgYmctWyMwQjFGM0FdIHRleHQtd2hpdGUgdGV4dC1bMTJweF0gZm9udC1ib2xkIHJvdW5kZWQteGwgYWN0aXZlOnNjYWxlLTk1Ij4KICAgICAgICAgICAgICAgICAgICDljrvlvq7kv6HmlK/ku5gg4oaSCiAgICAgICAgICAgICAgICA8L2E+CiAgICAgICAgICAgICk7CiAgICAgICAgfQogICAgICAgIHJldHVybiBudWxsOwogICAgfQoKICAgIHJldHVybiAoCiAgICAgICAgPGRpdiBjbGFzc05hbWU9ImZsZXggZmxleC1jb2wgaXRlbXMtY2VudGVyIGdhcC0xLjUiPgogICAgICAgICAgICA8ZGl2IGNsYXNzTmFtZT0iYmctd2hpdGUgcC0yIHJvdW5kZWQteGwgYm9yZGVyIGJvcmRlci1bI0U2REZDRl0iIHN0eWxlPXt7IHdpZHRoOiBzaXplICsgMTYsIGhlaWdodDogc2l6ZSArIDE2IH19PgogICAgICAgICAgICAgICAgPGltZyBzcmM9e2ltZ1NyY30gYWx0PSLmlK/ku5jkuoznu7TnoIEiIGNsYXNzTmFtZT0idy1mdWxsIGgtZnVsbCBvYmplY3QtY29udGFpbiIgcmVmZXJyZXJQb2xpY3k9Im5vLXJlZmVycmVyIgogICAgICAgICAgICAgICAgICAgIG9uRXJyb3I9eygpID0+IHsgaWYgKGRhdGFVcmwgJiYgaW1nU3JjICE9PSBkYXRhVXJsKSB7IC8qIGFscmVhZHkgb24gZmFsbGJhY2sgKi8gfSBlbHNlIGlmIChxckltYWdlVXJsKSBzZXRHZW5GYWlsZWQodHJ1ZSk7IH19IC8+CiAgICAgICAgICAgIDwvZGl2PgogICAgICAgICAgICA8ZGl2IGNsYXNzTmFtZT0idGV4dC1bMTFweF0gdGV4dC1bIzBCMUYzQV0vNzAgZm9udC1ib2xkIj7lvq7kv6HmiavnoIHmlK/ku5g8L2Rpdj4KICAgICAgICAgICAge3BheVVybCAmJiAoCiAgICAgICAgICAgICAgICA8YSBocmVmPXtwYXlVcmx9IHRhcmdldD0iX2JsYW5rIiByZWw9Im5vcmVmZXJyZXIiIGNsYXNzTmFtZT0idGV4dC1bMTBweF0gdGV4dC1bIzE2Mzg2Rl0gdW5kZXJsaW5lIj7miYvmnLrkuIrngrnov5nph4znm7TmjqXnlKjlvq7kv6HmiZPlvIA8L2E+CiAgICAgICAgICAgICl9CiAgICAgICAgPC9kaXY+CiAgICApOwp9OwoKZXhwb3J0IGRlZmF1bHQgUGF5UXI7Cg==
+import React, { useEffect, useState } from 'react';
+import QRCode from 'qrcode';
+
+/**
+ * 瑞幸支付二维码
+ *
+ * createOrder 返回:
+ *  - payOrderUrl: weixin://wxpay/bizpayurl?pr=xxx  (微信支付 code-url, 扫码即付)
+ *  - payOrderQrCodeUrl: https://.../transfer/qrcode?token=xxx (瑞幸托管的二维码链接)
+ *
+ * 浏览器里点 weixin:// 拉不起微信, 所以这里**本地把 payOrderUrl 生成二维码**,
+ * 用户用微信扫一下就付了, 不用回瑞幸 app。
+ * 兜底: 本地生成失败时退回瑞幸官方托管二维码图; 移动端额外给一个"点我用微信打开"。
+ */
+const PayQr: React.FC<{ payUrl?: string; qrImageUrl?: string; size?: number }> = ({ payUrl, qrImageUrl, size = 168 }) => {
+    const [dataUrl, setDataUrl] = useState<string>('');
+    const [genFailed, setGenFailed] = useState(false);
+
+    useEffect(() => {
+        let cancelled = false;
+        if (!payUrl) { setDataUrl(''); return; }
+        QRCode.toDataURL(payUrl, { width: size * 2, margin: 1, errorCorrectionLevel: 'M' })
+            .then((url) => { if (!cancelled) { setDataUrl(url); setGenFailed(false); } })
+            .catch(() => { if (!cancelled) setGenFailed(true); });
+        return () => { cancelled = true; };
+    }, [payUrl, size]);
+
+    // 优先本地生成的码; 没有 payUrl 或生成失败时退回官方托管二维码图
+    const imgSrc = (!genFailed && dataUrl) ? dataUrl : (qrImageUrl || '');
+    if (!imgSrc) {
+        // 实在没码: 退回一个跳转链接 (移动端有效)
+        if (payUrl || qrImageUrl) {
+            return (
+                <a href={payUrl || qrImageUrl} target="_blank" rel="noreferrer"
+                    className="block text-center px-3 py-2 bg-[#0B1F3A] text-white text-[12px] font-bold rounded-xl active:scale-95">
+                    去微信支付 →
+                </a>
+            );
+        }
+        return null;
+    }
+
+    return (
+        <div className="flex flex-col items-center gap-1.5">
+            <div className="bg-white p-2 rounded-xl border border-[#E6DFCF]" style={{ width: size + 16, height: size + 16 }}>
+                <img src={imgSrc} alt="支付二维码" className="w-full h-full object-contain" referrerPolicy="no-referrer"
+                    onError={() => { if (dataUrl && imgSrc !== dataUrl) { /* already on fallback */ } else if (qrImageUrl) setGenFailed(true); }} />
+            </div>
+            <div className="text-[11px] text-[#0B1F3A]/70 font-bold">微信扫码支付</div>
+            {payUrl && (
+                <a href={payUrl} target="_blank" rel="noreferrer" className="text-[10px] text-[#16386F] underline">手机上点这里直接用微信打开</a>
+            )}
+        </div>
+    );
+};
+
+export default PayQr;

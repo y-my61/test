@@ -1,1 +1,44 @@
-CmltcG9ydCBSZWFjdCBmcm9tICdyZWFjdCc7CgppbnRlcmZhY2UgTW9kYWxQcm9wcyB7CiAgICBpc09wZW46IGJvb2xlYW47CiAgICB0aXRsZTogc3RyaW5nOwogICAgb25DbG9zZTogKCkgPT4gdm9pZDsKICAgIGNoaWxkcmVuOiBSZWFjdC5SZWFjdE5vZGU7CiAgICBmb290ZXI/OiBSZWFjdC5SZWFjdE5vZGU7Cn0KCmNvbnN0IE1vZGFsOiBSZWFjdC5GQzxNb2RhbFByb3BzPiA9ICh7IGlzT3BlbiwgdGl0bGUsIG9uQ2xvc2UsIGNoaWxkcmVuLCBmb290ZXIgfSkgPT4gewogICAgaWYgKCFpc09wZW4pIHJldHVybiBudWxsOwoKICAgIHJldHVybiAoCiAgICAgICAgPGRpdiBjbGFzc05hbWU9ImZpeGVkIGluc2V0LTAgei1bMTAwXSBmbGV4IGl0ZW1zLWNlbnRlciBqdXN0aWZ5LWNlbnRlciBwLTYgYW5pbWF0ZS1mYWRlLWluIj4KICAgICAgICAgICAgPGRpdiBjbGFzc05hbWU9ImFic29sdXRlIGluc2V0LTAgYmctYmxhY2svNDAiIG9uQ2xpY2s9e29uQ2xvc2V9IC8+CiAgICAgICAgICAgIDxkaXYgY2xhc3NOYW1lPSJyZWxhdGl2ZSB3LWZ1bGwgbWF4LXctc20gYmctd2hpdGUgcm91bmRlZC1bMi41cmVtXSBzaGFkb3ctMnhsIGJvcmRlciBib3JkZXItd2hpdGUvMjAgb3ZlcmZsb3ctaGlkZGVuIGFuaW1hdGUtc2xpZGUtdXAiPgogICAgICAgICAgICAgICAgPGRpdiBjbGFzc05hbWU9InB4LTYgcHQtNiBwYi0yIj4KICAgICAgICAgICAgICAgICAgICA8aDMgY2xhc3NOYW1lPSJ0ZXh0LWxnIGZvbnQtYm9sZCB0ZXh0LXNsYXRlLTgwMCB0ZXh0LWNlbnRlciI+e3RpdGxlfTwvaDM+CiAgICAgICAgICAgICAgICA8L2Rpdj4KICAgICAgICAgICAgICAgIDxkaXYgY2xhc3NOYW1lPSJweC02IHB5LTQgbWF4LWgtWzYwdmhdIG92ZXJmbG93LXktYXV0byBuby1zY3JvbGxiYXIiPgogICAgICAgICAgICAgICAgICAgIHtjaGlsZHJlbn0KICAgICAgICAgICAgICAgIDwvZGl2PgogICAgICAgICAgICAgICAge2Zvb3RlciA/ICgKICAgICAgICAgICAgICAgICAgICA8ZGl2IGNsYXNzTmFtZT0icHgtNiBwYi02IGZsZXggZ2FwLTMiPgogICAgICAgICAgICAgICAgICAgICAgICB7Zm9vdGVyfQogICAgICAgICAgICAgICAgICAgIDwvZGl2PgogICAgICAgICAgICAgICAgKSA6ICgKICAgICAgICAgICAgICAgICAgICA8ZGl2IGNsYXNzTmFtZT0icHgtNiBwYi02Ij4KICAgICAgICAgICAgICAgICAgICAgICAgPGJ1dHRvbiAKICAgICAgICAgICAgICAgICAgICAgICAgICAgIG9uQ2xpY2s9e29uQ2xvc2V9CiAgICAgICAgICAgICAgICAgICAgICAgICAgICBjbGFzc05hbWU9InctZnVsbCBweS0zIGJnLXNsYXRlLTEwMCB0ZXh0LXNsYXRlLTUwMCBmb250LWJvbGQgcm91bmRlZC0yeGwgYWN0aXZlOnNjYWxlLTk1IHRyYW5zaXRpb24tdHJhbnNmb3JtIgogICAgICAgICAgICAgICAgICAgICAgICA+CiAgICAgICAgICAgICAgICAgICAgICAgICAgICDlhbPpl60KICAgICAgICAgICAgICAgICAgICAgICAgPC9idXR0b24+CiAgICAgICAgICAgICAgICAgICAgPC9kaXY+CiAgICAgICAgICAgICAgICApfQogICAgICAgICAgICA8L2Rpdj4KICAgICAgICA8L2Rpdj4KICAgICk7Cn07CgpleHBvcnQgZGVmYXVsdCBNb2RhbDsK
+
+import React from 'react';
+
+interface ModalProps {
+    isOpen: boolean;
+    title: string;
+    onClose: () => void;
+    children: React.ReactNode;
+    footer?: React.ReactNode;
+}
+
+const Modal: React.FC<ModalProps> = ({ isOpen, title, onClose, children, footer }) => {
+    if (!isOpen) return null;
+
+    return (
+        <div className="fixed inset-0 z-[100] flex items-center justify-center p-6 animate-fade-in">
+            <div className="absolute inset-0 bg-black/40" onClick={onClose} />
+            <div className="relative w-full max-w-sm bg-white rounded-[2.5rem] shadow-2xl border border-white/20 overflow-hidden animate-slide-up">
+                <div className="px-6 pt-6 pb-2">
+                    <h3 className="text-lg font-bold text-slate-800 text-center">{title}</h3>
+                </div>
+                <div className="px-6 py-4 max-h-[60vh] overflow-y-auto no-scrollbar">
+                    {children}
+                </div>
+                {footer ? (
+                    <div className="px-6 pb-6 flex gap-3">
+                        {footer}
+                    </div>
+                ) : (
+                    <div className="px-6 pb-6">
+                        <button 
+                            onClick={onClose}
+                            className="w-full py-3 bg-slate-100 text-slate-500 font-bold rounded-2xl active:scale-95 transition-transform"
+                        >
+                            关闭
+                        </button>
+                    </div>
+                )}
+            </div>
+        </div>
+    );
+};
+
+export default Modal;

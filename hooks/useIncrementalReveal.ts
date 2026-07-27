@@ -1,1 +1,36 @@
-aW1wb3J0IHsgdXNlRWZmZWN0LCB1c2VSZWYsIHVzZVN0YXRlIH0gZnJvbSAncmVhY3QnOwoKLyoqCiAqIOWkp+WIl+ihqOWinumHj+a4suafk++8muWFiOa4suafk+WJjSBzdGVwIOS4qu+8jOa7muWKqOWIsCBzZW50aW5lbCDpmYTov5Hml7boh6rliqjov73liqDjgIIKICog55So5LqO6KGo5oOF5YyF572R5qC86L+Z57G744CM5Yeg55m+5bygIGJhc2U2NCDlm77kuIDmrKHmgKfmjILovb3kvJrljaHniIbjgI3nmoTlnLrmma/jgIIKICogcmVzZXRLZXkg5Y+Y5YyW77yI5aaC5YiH5o2i5YiG57uE77yJ5pe25Zue5Yiw5Yid5aeL5pWw6YeP44CCCiAqLwpleHBvcnQgZnVuY3Rpb24gdXNlSW5jcmVtZW50YWxSZXZlYWwodG90YWw6IG51bWJlciwgc3RlcCA9IDQ4LCByZXNldEtleT86IHVua25vd24pIHsKICAgIGNvbnN0IFtjb3VudCwgc2V0Q291bnRdID0gdXNlU3RhdGUoc3RlcCk7CiAgICBjb25zdCBzZW50aW5lbFJlZiA9IHVzZVJlZjxIVE1MRGl2RWxlbWVudCB8IG51bGw+KG51bGwpOwoKICAgIHVzZUVmZmVjdCgoKSA9PiB7CiAgICAgICAgc2V0Q291bnQoc3RlcCk7CiAgICB9LCBbcmVzZXRLZXksIHN0ZXBdKTsKCiAgICB1c2VFZmZlY3QoKCkgPT4gewogICAgICAgIGNvbnN0IGVsID0gc2VudGluZWxSZWYuY3VycmVudDsKICAgICAgICBpZiAoIWVsIHx8IGNvdW50ID49IHRvdGFsKSByZXR1cm47CiAgICAgICAgY29uc3Qgb2JzZXJ2ZXIgPSBuZXcgSW50ZXJzZWN0aW9uT2JzZXJ2ZXIoCiAgICAgICAgICAgIGVudHJpZXMgPT4gewogICAgICAgICAgICAgICAgaWYgKGVudHJpZXMuc29tZShlbnRyeSA9PiBlbnRyeS5pc0ludGVyc2VjdGluZykpIHsKICAgICAgICAgICAgICAgICAgICBzZXRDb3VudChjdXJyZW50ID0+IE1hdGgubWluKGN1cnJlbnQgKyBzdGVwLCB0b3RhbCkpOwogICAgICAgICAgICAgICAgfQogICAgICAgICAgICB9LAogICAgICAgICAgICB7IHJvb3RNYXJnaW46ICcyMDBweCcgfQogICAgICAgICk7CiAgICAgICAgb2JzZXJ2ZXIub2JzZXJ2ZShlbCk7CiAgICAgICAgcmV0dXJuICgpID0+IG9ic2VydmVyLmRpc2Nvbm5lY3QoKTsKICAgIH0sIFtjb3VudCwgdG90YWwsIHN0ZXBdKTsKCiAgICByZXR1cm4gewogICAgICAgIGNvdW50OiBNYXRoLm1pbihjb3VudCwgdG90YWwpLAogICAgICAgIGhhc01vcmU6IGNvdW50IDwgdG90YWwsCiAgICAgICAgc2VudGluZWxSZWYsCiAgICB9Owp9Cg==
+import { useEffect, useRef, useState } from 'react';
+
+/**
+ * 大列表增量渲染：先渲染前 step 个，滚动到 sentinel 附近时自动追加。
+ * 用于表情包网格这类「几百张 base64 图一次性挂载会卡爆」的场景。
+ * resetKey 变化（如切换分组）时回到初始数量。
+ */
+export function useIncrementalReveal(total: number, step = 48, resetKey?: unknown) {
+    const [count, setCount] = useState(step);
+    const sentinelRef = useRef<HTMLDivElement | null>(null);
+
+    useEffect(() => {
+        setCount(step);
+    }, [resetKey, step]);
+
+    useEffect(() => {
+        const el = sentinelRef.current;
+        if (!el || count >= total) return;
+        const observer = new IntersectionObserver(
+            entries => {
+                if (entries.some(entry => entry.isIntersecting)) {
+                    setCount(current => Math.min(current + step, total));
+                }
+            },
+            { rootMargin: '200px' }
+        );
+        observer.observe(el);
+        return () => observer.disconnect();
+    }, [count, total, step]);
+
+    return {
+        count: Math.min(count, total),
+        hasMore: count < total,
+        sentinelRef,
+    };
+}

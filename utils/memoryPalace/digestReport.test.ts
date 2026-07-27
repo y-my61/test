@@ -1,1 +1,56 @@
-aW1wb3J0IHsgZGVzY3JpYmUsIGl0LCBleHBlY3QgfSBmcm9tICd2aXRlc3QnOwppbXBvcnQgeyBEaWdlc3RSZXBvcnREQiB9IGZyb20gJy4vZGInOwppbXBvcnQgeyBESUdFU1RfUkVQT1JUX0tFRVAgfSBmcm9tICcuL3R5cGVzJzsKaW1wb3J0IHR5cGUgeyBEaWdlc3RSZXBvcnQgfSBmcm9tICcuL3R5cGVzJzsKCmZ1bmN0aW9uIHJlcG9ydChpOiBudW1iZXIsIGNoYXJJZCA9ICdjaGFyX2RyX3Rlc3QnKTogRGlnZXN0UmVwb3J0IHsKICAgIHJldHVybiB7CiAgICAgICAgaWQ6IGBkcl90ZXN0XyR7Y2hhcklkfV8ke2l9YCwKICAgICAgICBjaGFySWQsCiAgICAgICAgY3JlYXRlZEF0OiAxXzcwMF8wMDBfMDAwXzAwMCArIGkgKiA2MF8wMDAsCiAgICAgICAgdHJpZ2dlcjogaSAlIDIgPT09IDAgPyAnYXV0bycgOiAnbWFudWFsJywKICAgICAgICBleGFtaW5lZDogW3sgbGFiZWw6ICfpmIHmpbzlm7Dmg5EnLCBpdGVtczogW2Dlm7Dmg5EgJHtpfWBdIH1dLAogICAgICAgIG91dGNvbWVzOiBbXSwKICAgICAgICBwbGF0ZVN1Ym1pc3Npb25zOiBbeyBsYWJlbDogJ+aPkOS6pOe7memXqOeJjOOAjFRB55qE5LqL44CNJywgaXRlbXM6IFtg5LqL5a6eICR7aX1gXSB9XSwKICAgICAgICBwbGF0ZVVwZGF0ZWQ6IFsndXNlcl9yb29tJ10sCiAgICB9Owp9CgpkZXNjcmliZSgnRGlnZXN0UmVwb3J0REIg4oCUIOa2iOWMluaXpeW/l+WtmOWPluS4juS/ruWJqicsICgpID0+IHsKICAgIGl0KCfmjInml7bpl7TlgJLluo/ov5Tlm57vvIzmnIDmlrDlnKjliY0nLCBhc3luYyAoKSA9PiB7CiAgICAgICAgY29uc3QgY2hhcklkID0gJ2NoYXJfZHJfb3JkZXInOwogICAgICAgIGZvciAoY29uc3QgaSBvZiBbMiwgMCwgMV0pIHsKICAgICAgICAgICAgYXdhaXQgRGlnZXN0UmVwb3J0REIuc2F2ZShyZXBvcnQoaSwgY2hhcklkKSk7CiAgICAgICAgfQogICAgICAgIGNvbnN0IGxpc3QgPSBhd2FpdCBEaWdlc3RSZXBvcnREQi5nZXRCeUNoYXJJZChjaGFySWQpOwogICAgICAgIGV4cGVjdChsaXN0Lm1hcChyID0+IHIuaWQpKS50b0VxdWFsKFsKICAgICAgICAgICAgYGRyX3Rlc3RfJHtjaGFySWR9XzJgLCBgZHJfdGVzdF8ke2NoYXJJZH1fMWAsIGBkcl90ZXN0XyR7Y2hhcklkfV8wYCwKICAgICAgICBdKTsKICAgIH0pOwoKICAgIGl0KGDmr4/op5LoibLlj6rkv53nlZnmnIDov5EgJHtESUdFU1RfUkVQT1JUX0tFRVB9IOadoe+8jOaXp+eahOiiq+S/ruWJqmAsIGFzeW5jICgpID0+IHsKICAgICAgICBjb25zdCBjaGFySWQgPSAnY2hhcl9kcl9wcnVuZSc7CiAgICAgICAgY29uc3QgdG90YWwgPSBESUdFU1RfUkVQT1JUX0tFRVAgKyA1OwogICAgICAgIGZvciAobGV0IGkgPSAwOyBpIDwgdG90YWw7IGkrKykgewogICAgICAgICAgICBhd2FpdCBEaWdlc3RSZXBvcnREQi5zYXZlKHJlcG9ydChpLCBjaGFySWQpKTsKICAgICAgICB9CiAgICAgICAgY29uc3QgbGlzdCA9IGF3YWl0IERpZ2VzdFJlcG9ydERCLmdldEJ5Q2hhcklkKGNoYXJJZCk7CiAgICAgICAgZXhwZWN0KGxpc3QpLnRvSGF2ZUxlbmd0aChESUdFU1RfUkVQT1JUX0tFRVApOwogICAgICAgIC8vIOacgOaXp+eahCA1IOadoeiiq+WJquaOie+8jOacgOaWsOeahOS4gOadoei/mOWcqAogICAgICAgIGV4cGVjdChsaXN0WzBdLmlkKS50b0JlKGBkcl90ZXN0XyR7Y2hhcklkfV8ke3RvdGFsIC0gMX1gKTsKICAgICAgICBleHBlY3QobGlzdC5zb21lKHIgPT4gci5pZCA9PT0gYGRyX3Rlc3RfJHtjaGFySWR9XzBgKSkudG9CZShmYWxzZSk7CiAgICAgICAgZXhwZWN0KGxpc3Quc29tZShyID0+IHIuaWQgPT09IGBkcl90ZXN0XyR7Y2hhcklkfV80YCkpLnRvQmUoZmFsc2UpOwogICAgICAgIGV4cGVjdChsaXN0LnNvbWUociA9PiByLmlkID09PSBgZHJfdGVzdF8ke2NoYXJJZH1fNWApKS50b0JlKHRydWUpOwogICAgfSk7CgogICAgaXQoJ+S/ruWJquWPquW9seWTjeacrOinkuiJsu+8jOS4jeWKqOWFtuS7luinkuiJsueahOaXpeW/lycsIGFzeW5jICgpID0+IHsKICAgICAgICBjb25zdCBhID0gJ2NoYXJfZHJfYSc7CiAgICAgICAgY29uc3QgYiA9ICdjaGFyX2RyX2InOwogICAgICAgIGF3YWl0IERpZ2VzdFJlcG9ydERCLnNhdmUocmVwb3J0KDAsIGIpKTsKICAgICAgICBmb3IgKGxldCBpID0gMDsgaSA8IERJR0VTVF9SRVBPUlRfS0VFUCArIDM7IGkrKykgewogICAgICAgICAgICBhd2FpdCBEaWdlc3RSZXBvcnREQi5zYXZlKHJlcG9ydChpLCBhKSk7CiAgICAgICAgfQogICAgICAgIGV4cGVjdChhd2FpdCBEaWdlc3RSZXBvcnREQi5nZXRCeUNoYXJJZChiKSkudG9IYXZlTGVuZ3RoKDEpOwogICAgICAgIGV4cGVjdChhd2FpdCBEaWdlc3RSZXBvcnREQi5nZXRCeUNoYXJJZChhKSkudG9IYXZlTGVuZ3RoKERJR0VTVF9SRVBPUlRfS0VFUCk7CiAgICB9KTsKfSk7Cg==
+import { describe, it, expect } from 'vitest';
+import { DigestReportDB } from './db';
+import { DIGEST_REPORT_KEEP } from './types';
+import type { DigestReport } from './types';
+
+function report(i: number, charId = 'char_dr_test'): DigestReport {
+    return {
+        id: `dr_test_${charId}_${i}`,
+        charId,
+        createdAt: 1_700_000_000_000 + i * 60_000,
+        trigger: i % 2 === 0 ? 'auto' : 'manual',
+        examined: [{ label: '阁楼困惑', items: [`困惑 ${i}`] }],
+        outcomes: [],
+        plateSubmissions: [{ label: '提交给门牌「TA的事」', items: [`事实 ${i}`] }],
+        plateUpdated: ['user_room'],
+    };
+}
+
+describe('DigestReportDB — 消化日志存取与修剪', () => {
+    it('按时间倒序返回，最新在前', async () => {
+        const charId = 'char_dr_order';
+        for (const i of [2, 0, 1]) {
+            await DigestReportDB.save(report(i, charId));
+        }
+        const list = await DigestReportDB.getByCharId(charId);
+        expect(list.map(r => r.id)).toEqual([
+            `dr_test_${charId}_2`, `dr_test_${charId}_1`, `dr_test_${charId}_0`,
+        ]);
+    });
+
+    it(`每角色只保留最近 ${DIGEST_REPORT_KEEP} 条，旧的被修剪`, async () => {
+        const charId = 'char_dr_prune';
+        const total = DIGEST_REPORT_KEEP + 5;
+        for (let i = 0; i < total; i++) {
+            await DigestReportDB.save(report(i, charId));
+        }
+        const list = await DigestReportDB.getByCharId(charId);
+        expect(list).toHaveLength(DIGEST_REPORT_KEEP);
+        // 最旧的 5 条被剪掉，最新的一条还在
+        expect(list[0].id).toBe(`dr_test_${charId}_${total - 1}`);
+        expect(list.some(r => r.id === `dr_test_${charId}_0`)).toBe(false);
+        expect(list.some(r => r.id === `dr_test_${charId}_4`)).toBe(false);
+        expect(list.some(r => r.id === `dr_test_${charId}_5`)).toBe(true);
+    });
+
+    it('修剪只影响本角色，不动其他角色的日志', async () => {
+        const a = 'char_dr_a';
+        const b = 'char_dr_b';
+        await DigestReportDB.save(report(0, b));
+        for (let i = 0; i < DIGEST_REPORT_KEEP + 3; i++) {
+            await DigestReportDB.save(report(i, a));
+        }
+        expect(await DigestReportDB.getByCharId(b)).toHaveLength(1);
+        expect(await DigestReportDB.getByCharId(a)).toHaveLength(DIGEST_REPORT_KEEP);
+    });
+});

@@ -1,1 +1,322 @@
-LyoqCiAqIOinkuiJsumfs+S5kOS6uuagvOWIneWni+WMlgogKgogKiDnm67moIfvvJrnrKzkuIDmrKHlnKjpn7PkuZAgQXBwIOmHjCLmi5zorr8i5p+Q5LiqIGNoYXIg5pe277yI5oiW55So5oi35omL5Yqo54K5IuWIneWni+WMliLvvInvvIzosIPkuIDmrKEgTExN77yMCiAqIOWfuuS6jiBjaGFyIOeahCBzeXN0ZW1Qcm9tcHQgKyB3b3JsZHZpZXcgKyBpbXByZXNzaW9uIOeUn+aIkOS4gOS7vSBDaGFyTXVzaWNQcm9maWxl44CCCiAqCiAqIOiuvuiuoeWOn+WIme+8mgogKiAxLiDnlJ/miJDnmoQgc2lnbmF0dXJlQXJ0aXN0cyDlkI3lrZfpg73mmK/nnJ/lrp7lrZjlnKjnmoTnvZHmmJPkupHlj6/mkJznmoToibrkurrvvIhMTE0g6KaB55+l6YGT55yf6Im65Lq677yJ44CCCiAqIDIuIOeUn+aIkOeahCBwbGF5bGlzdHMg5pivIDMg5Liq5qaC5b+177yM5LiN6aKE5YWI5aGr55yf5q2M5puyIOKAlCDmrYzmm7LnrYnliLDnlKjmiLfmiZPlvIDmn5DkuKrmrYzljZXlho3lrp7ml7bmkJzjgIIKICogMy4g5Lqn5Ye65piv57qv5pys5Zyw5pWw5o2u77yM5LiN5omT572R5piT5LqRIHVwc3RyZWFtIOKAlOKAlCDpm7YgV29ya2VyIOaIkOacrOOAggogKiA0LiDlpLHotKXlsLHmipvplJnvvIznu53kuI3pmY3nuqcg4oCU4oCUIOWQpuWImeS8muW+l+WIsOS4gOS7vSLlkYrkupTkurov6ZmI57uu6LSeIueahOmAmueUqOaho+ahiO+8jAogKiAgICDorqnnlKjmiLfor6/ku6XkuLogY2hhciDnnJ/nmoTllpzmrKLov5nkupvoibrkurrjgILlroHlj6/orqnnlKjmiLfph43or5XvvIzkuZ/kuI3og73msaHmn5PkurrmoLzjgIIKICovCgppbXBvcnQgeyBBUElDb25maWcsIENoYXJhY3RlclByb2ZpbGUsIENoYXJNdXNpY1Byb2ZpbGUsIENoYXJQbGF5bGlzdCwgVXNlclByb2ZpbGUgfSBmcm9tICcuLi90eXBlcyc7CmltcG9ydCB7IENvbnRleHRCdWlsZGVyIH0gZnJvbSAnLi9jb250ZXh0JzsKCmNvbnN0IGNhbGxMbG0gPSBhc3luYyAoYXBpOiBBUElDb25maWcsIHN5czogc3RyaW5nLCB1c2VyOiBzdHJpbmcpOiBQcm9taXNlPHN0cmluZz4gPT4gewogICAgY29uc3QgYmFzZVVybCA9IGFwaS5iYXNlVXJsLnJlcGxhY2UoL1wvKyQvLCAnJyk7CiAgICBjb25zdCByZXNwID0gYXdhaXQgZmV0Y2goYCR7YmFzZVVybH0vY2hhdC9jb21wbGV0aW9uc2AsIHsKICAgICAgICBtZXRob2Q6ICdQT1NUJywKICAgICAgICBoZWFkZXJzOiB7CiAgICAgICAgICAgICdDb250ZW50LVR5cGUnOiAnYXBwbGljYXRpb24vanNvbicsCiAgICAgICAgICAgICdBdXRob3JpemF0aW9uJzogYEJlYXJlciAke2FwaS5hcGlLZXkgfHwgJ3NrLW5vbmUnfWAsCiAgICAgICAgfSwKICAgICAgICBib2R5OiBKU09OLnN0cmluZ2lmeSh7CiAgICAgICAgICAgIG1vZGVsOiBhcGkubW9kZWwsCiAgICAgICAgICAgIG1lc3NhZ2VzOiBbCiAgICAgICAgICAgICAgICB7IHJvbGU6ICdzeXN0ZW0nLCBjb250ZW50OiBzeXMgfSwKICAgICAgICAgICAgICAgIHsgcm9sZTogJ3VzZXInLCBjb250ZW50OiB1c2VyIH0sCiAgICAgICAgICAgIF0sCiAgICAgICAgICAgIHRlbXBlcmF0dXJlOiAwLjgsCiAgICAgICAgICAgIC8vIOS5i+WJjeayoeiuviBtYXhfdG9rZW5z77yM5pyJ55qEIHByb3ZpZGVyIOm7mOiupOWPque7mSA1MTLvvIxKU09OIOebtOaOpeiiq+aIquaWrSDihpIKICAgICAgICAgICAgLy8gZXh0cmFjdEpzb24g5aSx6LSlIOKGkiDml6fpgLvovpEgZmFsbGJhY2sg5YiwIuWRiuS6lOS6ui/pmYjnu67otJ4i44CCCiAgICAgICAgICAgIC8vIDgwMDAg5ZKM6aG555uu6YeM5YW25a6DIHByb21wdCDkuIDmoaPvvIznu5kgdGhpbmtpbmcg5qih5Z6LIC8g6K+d5aSa55qE5qih5Z6L55WZ6Laz56m66Ze044CCCiAgICAgICAgICAgIG1heF90b2tlbnM6IDgwMDAsCiAgICAgICAgICAgIHN0cmVhbTogZmFsc2UsCiAgICAgICAgfSksCiAgICAgICAgLy8gQVBJIOiwg+eUqOiusOW9leagh+etvu+8mumfs+S5kOS6uuagvOeUn+aIkOaYr+WQjuWPsOS7u+WKoe+8jOS4jeagh+S8muiiq+WFnOW6leaIkOOAjOeUqOaIt+W9k+aXtuaJk+W8gOeahCBBcHDjgI0KICAgICAgICBfX3N1bGx5TWV0YTogeyBhcHBOYW1lOiAn6Z+z5LmQJywgcHVycG9zZTogJ+mfs+S5kOS6uuagvOeUn+aIkCcgfSwKICAgIH0gYXMgUmVxdWVzdEluaXQpOwogICAgaWYgKCFyZXNwLm9rKSB0aHJvdyBuZXcgRXJyb3IoYExMTSAke3Jlc3Auc3RhdHVzfWApOwogICAgY29uc3QgaiA9IGF3YWl0IHJlc3AuanNvbigpOwogICAgcmV0dXJuIGo/LmNob2ljZXM/LlswXT8ubWVzc2FnZT8uY29udGVudCB8fCAnJzsKfTsKCi8qKgogKiDpsoHmo5LnmoQgSlNPTiDmj5Dlj5blmajvvJoKICogLSDkvp3mrKHlsJ3or5XvvJrnuq8gcGFyc2Ug4oaSIOWOuyBmZW5jZWQg4oaSIOWOuyBwcmVhbWJsZSDihpIg5pyA5aSW5bGC6Iqx5ous5Y+3IOKGkiDlrr3mnb7kv67lpI0g4oaSIOmAkOWtl+auteato+WImeaKoAogKiAtIOWuveadvuS/ruWkjeWMheaLrO+8muS4reaWh+WFqOinkuagh+eCuSAvIHRyYWlsaW5nIGNvbW1hIC8g5Y2V5byV5Y+3IC8g5pyq5Yqg5byV5Y+355qEIGtleSAvIEJPTQogKiAtIOS7u+S9leS4gOatpeaIkOWKn+WNs+i/lOWbnu+8m+WFqOmDqOWksei0pei/lOWbniBudWxsCiAqLwpjb25zdCBleHRyYWN0SnNvbiA9IDxUID0gYW55Pih0ZXh0OiBzdHJpbmcpOiBUIHwgbnVsbCA9PiB7CiAgICBpZiAoIXRleHQgfHwgdHlwZW9mIHRleHQgIT09ICdzdHJpbmcnKSByZXR1cm4gbnVsbDsKCiAgICAvLyAxKSDljp/mlofnm7TmjqUgcGFyc2UKICAgIGNvbnN0IHJhdyA9IHRleHQudHJpbSgpLnJlcGxhY2UoL15cdUZFRkYvLCAnJyk7CiAgICBjb25zdCB0cnlQYXJzZSA9IChzOiBzdHJpbmcpOiBhbnkgfCBudWxsID0+IHsKICAgICAgICB0cnkgeyByZXR1cm4gSlNPTi5wYXJzZShzKTsgfSBjYXRjaCB7IHJldHVybiBudWxsOyB9CiAgICB9OwogICAgbGV0IGhpdCA9IHRyeVBhcnNlKHJhdyk7CiAgICBpZiAoaGl0KSByZXR1cm4gaGl0OwoKICAgIC8vIDIpIOWOu+mZpCBgYGAg5Luj56CB5Zu05qCPCiAgICBjb25zdCBmZW5jZWRNYXRjaCA9IHJhdy5tYXRjaCgvYGBgKD86anNvbnxKU09OKT9ccyooW1xzXFNdKj8pYGBgLyk7CiAgICBpZiAoZmVuY2VkTWF0Y2gpIHsKICAgICAgICBoaXQgPSB0cnlQYXJzZShmZW5jZWRNYXRjaFsxXS50cmltKCkpOwogICAgICAgIGlmIChoaXQpIHJldHVybiBoaXQ7CiAgICB9CgogICAgLy8gMykg5oq95Y+W56ys5LiA5q615pyA5aSW5bGC6Iqx5ous5Y+377yI55So5qCI5Yy56YWN77yM5q2j56Gu5aSE55CG5bWM5aWX77yJCiAgICBjb25zdCBicmFjZVNsaWNlID0gKCgpID0+IHsKICAgICAgICBjb25zdCBzID0gZmVuY2VkTWF0Y2ggPyBmZW5jZWRNYXRjaFsxXSA6IHJhdzsKICAgICAgICBjb25zdCBzdGFydCA9IHMuaW5kZXhPZigneycpOwogICAgICAgIGlmIChzdGFydCA8IDApIHJldHVybiBudWxsOwogICAgICAgIGxldCBkZXB0aCA9IDAsIGluU3RyID0gZmFsc2UsIGVzYyA9IGZhbHNlOwogICAgICAgIGZvciAobGV0IGkgPSBzdGFydDsgaSA8IHMubGVuZ3RoOyBpKyspIHsKICAgICAgICAgICAgY29uc3QgY2ggPSBzW2ldOwogICAgICAgICAgICBpZiAoZXNjKSB7IGVzYyA9IGZhbHNlOyBjb250aW51ZTsgfQogICAgICAgICAgICBpZiAoY2ggPT09ICdcXCcpIHsgZXNjID0gdHJ1ZTsgY29udGludWU7IH0KICAgICAgICAgICAgaWYgKGNoID09PSAnIicpIHsgaW5TdHIgPSAhaW5TdHI7IGNvbnRpbnVlOyB9CiAgICAgICAgICAgIGlmIChpblN0cikgY29udGludWU7CiAgICAgICAgICAgIGlmIChjaCA9PT0gJ3snKSBkZXB0aCsrOwogICAgICAgICAgICBlbHNlIGlmIChjaCA9PT0gJ30nKSB7CiAgICAgICAgICAgICAgICBkZXB0aC0tOwogICAgICAgICAgICAgICAgaWYgKGRlcHRoID09PSAwKSByZXR1cm4gcy5zbGljZShzdGFydCwgaSArIDEpOwogICAgICAgICAgICB9CiAgICAgICAgfQogICAgICAgIHJldHVybiBudWxsOwogICAgfSkoKTsKICAgIGlmIChicmFjZVNsaWNlKSB7CiAgICAgICAgaGl0ID0gdHJ5UGFyc2UoYnJhY2VTbGljZSk7CiAgICAgICAgaWYgKGhpdCkgcmV0dXJuIGhpdDsKCiAgICAgICAgLy8gNCkg5a695p2+5L+u5aSN5ZCO5YaN6K+VCiAgICAgICAgbGV0IHJlcGFpcmVkID0gYnJhY2VTbGljZQogICAgICAgICAgICAvLyDkuK3mloflhajop5LmoIfngrkg4oaSIOWNiuinku+8iOWPquWkhOeQhiBrZXkvdmFsdWUg5aSW5Zu077yJCiAgICAgICAgICAgIC5yZXBsYWNlKC9b77yaXS9nLCAnOicpCiAgICAgICAgICAgIC5yZXBsYWNlKC9b77yMXS9nLCAnLCcpCiAgICAgICAgICAgIC5yZXBsYWNlKC9b4oCc4oCd4oCeXS9nLCAnIicpCiAgICAgICAgICAgIC5yZXBsYWNlKC9b4oCY4oCZ4oCaXS9nLCAiJyIpCiAgICAgICAgICAgIC8vIOWNleW8leWPt+Wtl+espuS4siDihpIg5Y+M5byV5Y+377yI566A54mI77ya5LiN5aSE55CG6L2s5LmJ77yJCiAgICAgICAgICAgIC5yZXBsYWNlKC8nKFteJ1xuXHJdKj8pJy9nLCAnIiQxIicpCiAgICAgICAgICAgIC8vIOacquWKoOW8leWPt+eahCBrZXkg5Yqg5byV5Y+377yIeyBmb286IOKGkiB7ICJmb28iOu+8iQogICAgICAgICAgICAucmVwbGFjZSgvKFt7LF1ccyopKFtBLVphLXpfXVtBLVphLXowLTlfXSopKFxzKjopL2csICckMSIkMiIkMycpCiAgICAgICAgICAgIC8vIHRyYWlsaW5nIGNvbW1hCiAgICAgICAgICAgIC5yZXBsYWNlKC8sKFxzKlt9XF1dKS9nLCAnJDEnKTsKICAgICAgICBoaXQgPSB0cnlQYXJzZShyZXBhaXJlZCk7CiAgICAgICAgaWYgKGhpdCkgcmV0dXJuIGhpdDsKICAgIH0KICAgIHJldHVybiBudWxsOwp9OwoKLyoqIOS7juiHqueUseaWh+acrOmHjOmAkOWtl+auteaPkOWPliBwZXJzb25h77yISlNPTiDlrozlhajkuI3lj6/nlKjml7bnmoTmnIDlkI7pmLLnur/vvIkgKi8KY29uc3Qgc2NhdmVuZ2VGaWVsZHMgPSAodGV4dDogc3RyaW5nKTogUGFydGlhbDxQZXJzb25hRHJhZnQ+ID0+IHsKICAgIGNvbnN0IG91dDogUGFydGlhbDxQZXJzb25hRHJhZnQ+ID0ge307CgogICAgLy8gYmlvIOKAlCDmib4gImJpbyIg6KGMCiAgICBjb25zdCBiaW9NID0gdGV4dC5tYXRjaCgvIj9iaW8iP1xzKls677yaXVxzKlsi4oCcXShbXiJcbuKAnV17Miw2MH0pWyLigJ1dLyk7CiAgICBpZiAoYmlvTSkgb3V0LmJpbyA9IGJpb01bMV0udHJpbSgpOwoKICAgIC8vIGdlbnJlVGFncyDigJQg5om+56ys5LiA5Liq5pWw57uEIFsuLi5dCiAgICBjb25zdCBnZW5yZU0gPSB0ZXh0Lm1hdGNoKC8iP2dlbnJlW3RUXWFncyI/XHMqWzrvvJpdXHMqXFsoW15cXV0rKVxdLyk7CiAgICBpZiAoZ2VucmVNKSB7CiAgICAgICAgb3V0LmdlbnJlVGFncyA9IGdlbnJlTVsxXS5zcGxpdCgnLCcpCiAgICAgICAgICAgIC5tYXAocyA9PiBzLnJlcGxhY2UoL1siJ+KAnOKAneKAmOKAmVxzXS9nLCAnJykpCiAgICAgICAgICAgIC5maWx0ZXIoQm9vbGVhbikuc2xpY2UoMCwgOCk7CiAgICB9CgogICAgLy8gc2lnbmF0dXJlQXJ0aXN0cyDigJQg5b2i5aaCIFt7Im5hbWUiOiAiLi4uIn1dIOaIlue6r+Wtl+espuS4suaVsOe7hAogICAgY29uc3QgYXJ0aXN0QmxvY2sgPSB0ZXh0Lm1hdGNoKC8iP3NpZ25hdHVyZVthQV1ydGlzdHMiP1xzKls677yaXVxzKlxbKFtcc1xTXSo/KVxdLyk7CiAgICBpZiAoYXJ0aXN0QmxvY2spIHsKICAgICAgICBjb25zdCBpbm5lciA9IGFydGlzdEJsb2NrWzFdOwogICAgICAgIGNvbnN0IG5hbWVzOiBzdHJpbmdbXSA9IFtdOwogICAgICAgIGNvbnN0IG5hbWVSZSA9IC9bIuKAnF0oW14i4oCdXG5dezEsMzB9KVsi4oCdXS9nOwogICAgICAgIGxldCBtOiBSZWdFeHBFeGVjQXJyYXkgfCBudWxsOwogICAgICAgIHdoaWxlICgobSA9IG5hbWVSZS5leGVjKGlubmVyKSkgIT09IG51bGwpIHsKICAgICAgICAgICAgY29uc3QgbiA9IG1bMV0udHJpbSgpOwogICAgICAgICAgICBpZiAobiAmJiAhWyduYW1lJywgJ2FydGlzdElkJ10uaW5jbHVkZXMobikpIG5hbWVzLnB1c2gobik7CiAgICAgICAgfQogICAgICAgIGlmIChuYW1lcy5sZW5ndGgpIG91dC5zaWduYXR1cmVBcnRpc3RzID0gbmFtZXMuc2xpY2UoMCwgNikubWFwKG4gPT4gKHsgbmFtZTogbiB9KSk7CiAgICB9CgogICAgLy8gcGxheWxpc3RzIOKAlCDmnIDnnIHkuovvvJrmib7oi6XlubIgdGl0bGUg5a2X56ym5LiyCiAgICBjb25zdCBwbGF5bGlzdFRpdGxlczogc3RyaW5nW10gPSBbXTsKICAgIGNvbnN0IHBsVGl0bGVSZSA9IC8iP3RpdGxlIj9ccypbOu+8ml1ccypbIuKAnF0oW14i4oCdXG5dezEsMzB9KVsi4oCdXS9nOwogICAgbGV0IHBtOiBSZWdFeHBFeGVjQXJyYXkgfCBudWxsOwogICAgd2hpbGUgKChwbSA9IHBsVGl0bGVSZS5leGVjKHRleHQpKSAhPT0gbnVsbCkgcGxheWxpc3RUaXRsZXMucHVzaChwbVsxXS50cmltKCkpOwogICAgaWYgKHBsYXlsaXN0VGl0bGVzLmxlbmd0aCA+IDApIHsKICAgICAgICBvdXQucGxheWxpc3RzID0gcGxheWxpc3RUaXRsZXMuc2xpY2UoMCwgMykubWFwKHQgPT4gKHsKICAgICAgICAgICAgdGl0bGU6IHQsCiAgICAgICAgICAgIGRlc2NyaXB0aW9uOiAnJywKICAgICAgICB9KSk7CiAgICB9CgogICAgcmV0dXJuIG91dDsKfTsKCmludGVyZmFjZSBQZXJzb25hRHJhZnQgewogICAgYmlvOiBzdHJpbmc7CiAgICBnZW5yZVRhZ3M6IHN0cmluZ1tdOwogICAgc2lnbmF0dXJlQXJ0aXN0czogeyBuYW1lOiBzdHJpbmc7IGFydGlzdElkPzogbnVtYmVyIH1bXTsKICAgIHBsYXlsaXN0czogeyB0aXRsZTogc3RyaW5nOyBkZXNjcmlwdGlvbjogc3RyaW5nOyBtb29kPzogc3RyaW5nOyBjb3ZlclN0eWxlPzogc3RyaW5nIH1bXTsKfQoKY29uc3QgYnVpbGRQZXJzb25hUHJvbXB0ID0gKGNoYXI6IENoYXJhY3RlclByb2ZpbGUsIHVzZXI6IFVzZXJQcm9maWxlKTogeyBzeXM6IHN0cmluZzsgdXNyOiBzdHJpbmcgfSA9PiB7CiAgICBjb25zdCBjb3JlID0gQ29udGV4dEJ1aWxkZXIuYnVpbGRSb2xlU2V0dGluZ3NDb250ZXh0KGNoYXIsIHsgc2tpcE1lbW9yaWVzOiB0cnVlIH0pOwogICAgY29uc3Qgc3lzID0gYOS9oOaYr+S4gOS4qiLpn7PkuZDkurrmoLznlJ/miJDlmagi44CC5qC55o2u57uZ5a6a55qE6KeS6Imy6K6+5a6a77yM5Li66L+Z5Liq6KeS6Imy6K6+6K6h5LiA5Lu9572R5piT5LqR6Z+z5LmQ5Liq5Lq65Li76aG155qE5ZOB5ZGz5qGj5qGI44CCCgropoHmsYI6CjEuIOiJuuS6uuW/hemhu+aYr+ecn+WunuWtmOWcqOOAgeWPr+S7peWcqOe9keaYk+S6keaQnOWIsOeahOWNjuivrSAvIOaXpeezuyAvIOiLseivrSAvIOmfqeivreiJuuS6uu+8iOS4jeimgeiZmuaehO+8iQoyLiDmm7Lpo47moIfnrb7opoHlhbfkvZMgKHNob2VnYXplIC8gY2l0eS1wb3AgLyBwb3N0LXJvY2sgLyDmsJHosKMgLyB0cmlwLWhvcCAvIFImQiAvIOWQjuaci+WFiyAuLi4p77yM6YG/5YWN5rOb5rObICgi5rWB6KGMIi8i5pGH5ruaIikKMy4gKiozIOS4quatjOWNleW/hemhu+S4u+mimOW9u+W6leS4jeWQjCoqIOKAlOKAlCDkuI3mmK8iMyDkuKrlt67kuI3lpJrkvYbmjaLkuoblkI3lrZci77yM6ICM5pivIDMg5LiqKirnnJ/mraPkuI3lkIznmoTlnLrmma8gLyDlv4PlooMgLyDnlKjpgJQqKu+8jAogICDlvbzmraQgbW9vZOOAgeabsumjjuOAgeS9v+eUqOWcuuWQiOmDveimgeWIhuW8gOOAguWPr+S7peWPguiAg+e7tOW6piAo5Lu76YCJIDMg5Liq5LiN5ZCM55qEKe+8mgogICAtIOaXtuautSAvIOWcuuWQiO+8mua3seWknOeLrOWkhO+9nOa4heaZqOmAmuWLpO+9nOWkseecoO+9nOaatOmbqOWkqe+9nOmVv+mAlOi9pumHjO+9nOiBmuS8muWJjeeahOaNouijhe+9nOWGmeS9nOS4re+9nOWkseaBi+WQjgogICAtIOaDhee7qu+8muWPkeazhO+9nOayu+aEiO+9nOaAgOaXp++9nOS6ouWli++9nOaFteaHku+9nOaAneiAg++9nOa1qua8qwogICAtIOihqOi+vuaWueW8j++8muiHquaIkeWvueivne+9nOmAgee7meafkOS4queJueWumuS6uu+9nOWvueS4lueVjOeahOWPjeaKl++9nOmAg+mBv+eOsOWungogICDkuKXnpoHlh7rnjrDkuKTkuKrmrYzljZUgbW9vZCDkuIDoh7TjgIHmiJbmj4/ov7Dph4zorrLlkIzkuIDku7bkuovnmoTmg4XlhrXjgIIKNC4g5q2M5Y2V5qCH6aKYIC8g5o+P6L+wIC8gbW9vZCDpg73opoHku47op5LoibLnsr7npZ7lhoXmoLjlh7rlj5HvvIzkuI3opoHlpZfot6/ljJbvvIjkuI3opoEi5oiR55qE5pyA54ixIi8i5b6q546v5Y2VIui/meenjemAmueUqOWQje+8iQo1LiBiaW8g55So6KeS6Imy6Ieq5bex55qE5Y+j5ZC75YaZ77yI56ys5LiA5Lq656ew77yJ77yM5LiA5Y+l6K+d5Y2z5Y+v77yM5LiN6LaF6L+HMzDlrZcKCuWPqui+k+WHuiBKU09O77yM5LiN6KaB5Lu75L2V6Kej6YeKOgp7CiAgImJpbyI6ICIo5LiA5Y+l6K+d77yM6KeS6Imy56ys5LiA5Lq656ewKSIsCiAgImdlbnJlVGFncyI6IFsiLi4uIiwgIi4uLiIsICIuLi4oMy015LiqKSJdLAogICJzaWduYXR1cmVBcnRpc3RzIjogW3sibmFtZSI6Iuecn+WunuiJuuS6uuWQjSJ9LCAuLi4gKDMtNuS4qildLAogICJwbGF5bGlzdHMiOiBbCiAgICB7InRpdGxlIjoi5q2M5Y2VQSjnn63Ct+eLrOeJueWcuuaZrykiLCAiZGVzY3JpcHRpb24iOiIo6KeS6Imy5Y+j5ZC7LCAxLTLlj6UsIOivtOa4healmuS7gOS5iOaXtuWAmeWQrCAvIOS4uuS7gOS5iCkiLCAibW9vZCI6IuS7juS4i+mdojjkuKrph4zpgInkuIDkuKo6IGhhcHB5fHNhZHxyb21hbnRpY3xhbmdyeXxjaGlsbHxlcGljfG5vc3RhbGdpY3xkcmVhbXkifSwKICAgIHsidGl0bGUiOiLmrYzljZVCKOefrcK35ZKMQeWujOWFqOS4jeWQjOeahOWcuuaZry/lv4PlooMpIiwgImRlc2NyaXB0aW9uIjoiLi4uIiwgIm1vb2QiOiLlv4XpobvlkoxB5LiN5ZCMIn0sCiAgICB7InRpdGxlIjoi5q2M5Y2VQyjnn63Ct+WSjEHjgIFC6YO95LiN5ZCMKSIsICJkZXNjcmlwdGlvbiI6Ii4uLiIsICJtb29kIjoi5b+F6aG75ZKMQeOAgULpg73kuI3lkIwifQogIF0KfWA7CgogICAgY29uc3QgdXNyID0gYCR7Y29yZX0KCijlj6/pgIkpIOeUqOaIt+Wnk+WQjTogJHt1c2VyLm5hbWUgfHwgJ+eUqOaItyd9Cijlj6/pgIkpIOeUqOaItyBiaW86ICR7dXNlci5iaW8gfHwgJyd9Cgror7fkuLoiJHtjaGFyLm5hbWV9IueUn+aIkOmfs+S5kOS6uuagvOaho+ahiOOAgmA7CiAgICByZXR1cm4geyBzeXMsIHVzciB9Owp9OwoKZXhwb3J0IGNvbnN0IENoYXJNdXNpY1BlcnNvbmEgPSB7CiAgICAvKiog5qOA5p+l5piv5ZCm5bey5Yid5aeL5YyWICovCiAgICBpc0luaXRpYWxpemVkKGNoYXI6IENoYXJhY3RlclByb2ZpbGUpOiBib29sZWFuIHsKICAgICAgICBjb25zdCBwID0gY2hhci5tdXNpY1Byb2ZpbGU7CiAgICAgICAgcmV0dXJuICEhKHAgJiYgcC5pbml0aWFsaXplZEF0ICYmIHAuc2lnbmF0dXJlQXJ0aXN0cy5sZW5ndGggPiAwKTsKICAgIH0sCgogICAgLyoqCiAgICAgKiDosIMgTExNIOeUn+aIkOinkuiJsueahOmfs+S5kOS6uuagvOaho+ahiAogICAgICoKICAgICAqIOWksei0peetlueVpe+8mioq55u05o6l5oqb6ZSZKirvvIzkuI3otbDkv53lupXjgIIKICAgICAqIC0g5rKhIExMTSDphY3nva4g4oaSIOaKmyLmnKrphY3nva4gQVBJIgogICAgICogLSDnvZHnu5wvSFRUUCDlpLHotKUg4oaSIOaKm+W6leWxgumUmeivr++8iOS/neeVmSBzdGF0dXMgY29kZe+8iQogICAgICogLSBKU09OIOWujOWFqOS4jeWPr+ino+aekCDihpIg5oqbIuino+aekOWksei0pSIKICAgICAqIC0g6Kej5p6Q5Ye65p2l5L2G57y65YWz6ZSu5a2X5q6177yI6Im65Lq677yJ4oaSIOaKmyLlrZfmrrXnvLrlpLEiCiAgICAgKiDnm67nmoTvvJrlroHlj6/orqnnlKjmiLfph43or5XvvIzkuZ/liKvmgoTmgoTnu5kgY2hhciDloZ7kuIDku73pu5jorqTlk4HlkbPjgIIKICAgICAqCiAgICAgKiBAcmV0dXJucyDmlrDnmoQgQ2hhck11c2ljUHJvZmlsZe+8iOiwg+eUqOaWuei0n+i0o+aMgeS5heWMluWIsCBDaGFyYWN0ZXJQcm9maWxl77yJCiAgICAgKi8KICAgIGFzeW5jIGluaXRpYWxpemUoCiAgICAgICAgY2hhcjogQ2hhcmFjdGVyUHJvZmlsZSwKICAgICAgICB1c2VyUHJvZmlsZTogVXNlclByb2ZpbGUsCiAgICAgICAgYXBpQ29uZmlnOiBBUElDb25maWcsCiAgICApOiBQcm9taXNlPENoYXJNdXNpY1Byb2ZpbGU+IHsKICAgICAgICBjb25zdCBub3cgPSBEYXRlLm5vdygpOwoKICAgICAgICBpZiAoIWFwaUNvbmZpZy5iYXNlVXJsIHx8ICFhcGlDb25maWcubW9kZWwpIHsKICAgICAgICAgICAgdGhyb3cgbmV3IEVycm9yKCfmnKrphY3nva4gQVBJ77yIYmFzZVVybCDmiJYgbW9kZWwg5Li656m677yJJyk7CiAgICAgICAgfQoKICAgICAgICBjb25zdCB7IHN5cywgdXNyIH0gPSBidWlsZFBlcnNvbmFQcm9tcHQoY2hhciwgdXNlclByb2ZpbGUpOwogICAgICAgIGNvbnN0IHJhd1RleHQgPSBhd2FpdCBjYWxsTGxtKGFwaUNvbmZpZywgc3lzLCB1c3IpOwogICAgICAgIGlmICghcmF3VGV4dCB8fCAhcmF3VGV4dC50cmltKCkpIHsKICAgICAgICAgICAgdGhyb3cgbmV3IEVycm9yKCdMTE0g6L+U5Zue5Li656m6Jyk7CiAgICAgICAgfQoKICAgICAgICAvLyDop6PmnpDvvJrnu5PmnoTljJYgcGFyc2Ug5LyY5YWI77yb5LiN6KGM5bCxIHNjYXZlbmdl77yI6YCQ5a2X5q615q2j5YiZ5oqg77yJCiAgICAgICAgLy8g5Lik5p2h57q/57uT5p6c5ZCI5bm2IOKAlCDku7vkvZXlrZfmrrXljZXpobkgT0sg6YO95YWI5pS25LiLCiAgICAgICAgY29uc3Qgc3RydWN0dXJlZCA9IGV4dHJhY3RKc29uPFBlcnNvbmFEcmFmdD4ocmF3VGV4dCkgfHwge307CiAgICAgICAgY29uc3Qgc2NhdmVuZ2VkID0gc2NhdmVuZ2VGaWVsZHMocmF3VGV4dCk7CiAgICAgICAgY29uc3QgZHJhZnQ6IFBhcnRpYWw8UGVyc29uYURyYWZ0PiA9IHsKICAgICAgICAgICAgYmlvOiBzYW5pdGl6ZVN0cihzdHJ1Y3R1cmVkLmJpbykgfHwgc2FuaXRpemVTdHIoc2NhdmVuZ2VkLmJpbyksCiAgICAgICAgICAgIGdlbnJlVGFnczogZmlyc3RBcnJheShzdHJ1Y3R1cmVkLmdlbnJlVGFncywgc2NhdmVuZ2VkLmdlbnJlVGFncyksCiAgICAgICAgICAgIHNpZ25hdHVyZUFydGlzdHM6IGZpcnN0QXJyYXkoCiAgICAgICAgICAgICAgICBzdHJ1Y3R1cmVkLnNpZ25hdHVyZUFydGlzdHMsCiAgICAgICAgICAgICAgICBzY2F2ZW5nZWQuc2lnbmF0dXJlQXJ0aXN0cyBhcyBQZXJzb25hRHJhZnRbJ3NpZ25hdHVyZUFydGlzdHMnXSwKICAgICAgICAgICAgKSwKICAgICAgICAgICAgcGxheWxpc3RzOiBmaXJzdEFycmF5KHN0cnVjdHVyZWQucGxheWxpc3RzLCBzY2F2ZW5nZWQucGxheWxpc3RzIGFzIFBlcnNvbmFEcmFmdFsncGxheWxpc3RzJ10pLAogICAgICAgIH07CgogICAgICAgIC8vIOiJuuS6uuWtl+aute+8muWFvOWuueS4ieenjeW9ouaAgSDigJQgW3tuYW1lOiIuLi4ifV0gLyBbIi4uLiJdIC8g5re35ZCICiAgICAgICAgY29uc3QgYXJ0aXN0c0luID0gZHJhZnQuc2lnbmF0dXJlQXJ0aXN0cyB8fCBbXTsKICAgICAgICBjb25zdCBhcnRpc3RzID0gYXJ0aXN0c0luCiAgICAgICAgICAgIC5tYXAoKGE6IGFueSkgPT4gewogICAgICAgICAgICAgICAgaWYgKHR5cGVvZiBhID09PSAnc3RyaW5nJykgcmV0dXJuIHsgbmFtZTogYS50cmltKCkgfTsKICAgICAgICAgICAgICAgIGlmIChhICYmIHR5cGVvZiBhID09PSAnb2JqZWN0JyAmJiB0eXBlb2YgYS5uYW1lID09PSAnc3RyaW5nJykgcmV0dXJuIHsgbmFtZTogYS5uYW1lLnRyaW0oKSB9OwogICAgICAgICAgICAgICAgcmV0dXJuIG51bGw7CiAgICAgICAgICAgIH0pCiAgICAgICAgICAgIC5maWx0ZXIoKGEpOiBhIGlzIHsgbmFtZTogc3RyaW5nIH0gPT4gISFhICYmICEhYS5uYW1lKQogICAgICAgICAgICAuc2xpY2UoMCwgOCk7CgogICAgICAgIGNvbnN0IGdlbnJlcyA9IChkcmFmdC5nZW5yZVRhZ3MgfHwgW10pCiAgICAgICAgICAgIC5maWx0ZXIoKHQ6IGFueSkgPT4gdHlwZW9mIHQgPT09ICdzdHJpbmcnICYmIHQudHJpbSgpKQogICAgICAgICAgICAubWFwKCh0OiBzdHJpbmcpID0+IHQudHJpbSgpKQogICAgICAgICAgICAuc2xpY2UoMCwgOCk7CgogICAgICAgIGNvbnN0IHBsYXlsaXN0c0luID0gKGRyYWZ0LnBsYXlsaXN0cyB8fCBbXSkuc2xpY2UoMCwgMyk7CiAgICAgICAgY29uc3QgcGxheWxpc3RzOiBDaGFyUGxheWxpc3RbXSA9IHBsYXlsaXN0c0luLm1hcCgocCwgaSkgPT4gKHsKICAgICAgICAgICAgaWQ6IGBwbC0ke25vd30tJHtpfWAsCiAgICAgICAgICAgIHRpdGxlOiBzYW5pdGl6ZVN0cihwPy50aXRsZSkgfHwgYOatjOWNlSAke2kgKyAxfWAsCiAgICAgICAgICAgIGRlc2NyaXB0aW9uOiBzYW5pdGl6ZVN0cihwPy5kZXNjcmlwdGlvbikgfHwgJycsCiAgICAgICAgICAgIGNvdmVyU3R5bGU6IHNhbml0aXplU3RyKHA/LmNvdmVyU3R5bGUpIHx8IGBncmFkaWVudC0wJHsoaSAlIDYpICsgMX1gLAogICAgICAgICAgICBzb25nczogW10sCiAgICAgICAgICAgIG1vb2Q6ICh0eXBlb2YgcD8ubW9vZCA9PT0gJ3N0cmluZycgJiYgWydoYXBweScsJ3NhZCcsJ3JvbWFudGljJywnYW5ncnknLCdjaGlsbCcsJ2VwaWMnLCdub3N0YWxnaWMnLCdkcmVhbXknXS5pbmNsdWRlcyhwLm1vb2QpKQogICAgICAgICAgICAgICAgPyAocC5tb29kIGFzIGFueSkgOiB1bmRlZmluZWQsCiAgICAgICAgICAgIGNyZWF0ZWRBdDogbm93LAogICAgICAgICAgICB1cGRhdGVkQXQ6IG5vdywKICAgICAgICB9KSk7CgogICAgICAgIC8vIOWFs+mUruWtl+auteS4gOW+i+S4jeiuuCLmib7ooaUiIOKAlOKAlCDmsqHoibrkurrlsLHnrYnkuo7msqHlk4HlkbPvvIznm7TmjqXmiqXplJnorqnnlKjmiLfph43or5UKICAgICAgICBpZiAoYXJ0aXN0cy5sZW5ndGggPT09IDApIHsKICAgICAgICAgICAgdGhyb3cgbmV3IEVycm9yKCdMTE0g5rKh6L+U5Zue5Y+v55So55qE6Im65Lq65a2X5q6177yI5aSn5qaC546H5pivIEpTT04g5qC85byP6ZSZ5LqG77yJJyk7CiAgICAgICAgfQogICAgICAgIGlmIChnZW5yZXMubGVuZ3RoID09PSAwKSB7CiAgICAgICAgICAgIHRocm93IG5ldyBFcnJvcignTExNIOayoei/lOWbnuabsumjjuagh+etvicpOwogICAgICAgIH0KICAgICAgICBpZiAocGxheWxpc3RzLmxlbmd0aCA9PT0gMCkgewogICAgICAgICAgICB0aHJvdyBuZXcgRXJyb3IoJ0xMTSDmsqHov5Tlm57mrYzljZXmpoLlv7UnKTsKICAgICAgICB9CgogICAgICAgIHJldHVybiB7CiAgICAgICAgICAgIGJpbzogc2FuaXRpemVTdHIoZHJhZnQuYmlvKSB8fCBgJHtjaGFyLm5hbWV9IOeahOmfs+S5kOinkuiQvWAsCiAgICAgICAgICAgIGdlbnJlVGFnczogZ2VucmVzLAogICAgICAgICAgICBzaWduYXR1cmVBcnRpc3RzOiBhcnRpc3RzLAogICAgICAgICAgICBwbGF5bGlzdHMsCiAgICAgICAgICAgIGxpa2VkU29uZ0lkczogW10sCiAgICAgICAgICAgIHJlY2VudFBsYXlzOiBbXSwKICAgICAgICAgICAgcmV2aWV3czogW10sCiAgICAgICAgICAgIGNhblJlYWRVc2VyTXVzaWM6IHRydWUsCiAgICAgICAgICAgIGluaXRpYWxpemVkQXQ6IG5vdywKICAgICAgICAgICAgdXBkYXRlZEF0OiBub3csCiAgICAgICAgfTsKICAgIH0sCn07CgovLyDigJTigJQgaGVscGVycyDigJTigJQKY29uc3Qgc2FuaXRpemVTdHIgPSAoczogYW55KTogc3RyaW5nID0+IHsKICAgIGlmICh0eXBlb2YgcyAhPT0gJ3N0cmluZycpIHJldHVybiAnJzsKICAgIHJldHVybiBzCiAgICAgICAgLnJlcGxhY2UoL15ccypbIuKAnOKAnSfigJjigJldK3xbIuKAnOKAnSfigJjigJldK1xzKiQvZywgJycpICAvLyDljrvpppblsL7lpJrkvZnlvJXlj7cKICAgICAgICAucmVwbGFjZSgvXHMrL2csICcgJykKICAgICAgICAudHJpbSgpOwp9OwoKZnVuY3Rpb24gZmlyc3RBcnJheTxUPiguLi5jYW5kaWRhdGVzOiAoVFtdIHwgdW5kZWZpbmVkKVtdKTogVFtdIHwgdW5kZWZpbmVkIHsKICAgIGZvciAoY29uc3QgYyBvZiBjYW5kaWRhdGVzKSB7CiAgICAgICAgaWYgKEFycmF5LmlzQXJyYXkoYykgJiYgYy5sZW5ndGggPiAwKSByZXR1cm4gYzsKICAgIH0KICAgIHJldHVybiB1bmRlZmluZWQ7Cn0K
+/**
+ * 角色音乐人格初始化
+ *
+ * 目标：第一次在音乐 App 里"拜访"某个 char 时（或用户手动点"初始化"），调一次 LLM，
+ * 基于 char 的 systemPrompt + worldview + impression 生成一份 CharMusicProfile。
+ *
+ * 设计原则：
+ * 1. 生成的 signatureArtists 名字都是真实存在的网易云可搜的艺人（LLM 要知道真艺人）。
+ * 2. 生成的 playlists 是 3 个概念，不预先填真歌曲 — 歌曲等到用户打开某个歌单再实时搜。
+ * 3. 产出是纯本地数据，不打网易云 upstream —— 零 Worker 成本。
+ * 4. 失败就抛错，绝不降级 —— 否则会得到一份"告五人/陈绮贞"的通用档案，
+ *    让用户误以为 char 真的喜欢这些艺人。宁可让用户重试，也不能污染人格。
+ */
+
+import { APIConfig, CharacterProfile, CharMusicProfile, CharPlaylist, UserProfile } from '../types';
+import { ContextBuilder } from './context';
+
+const callLlm = async (api: APIConfig, sys: string, user: string): Promise<string> => {
+    const baseUrl = api.baseUrl.replace(/\/+$/, '');
+    const resp = await fetch(`${baseUrl}/chat/completions`, {
+        method: 'POST',
+        headers: {
+            'Content-Type': 'application/json',
+            'Authorization': `Bearer ${api.apiKey || 'sk-none'}`,
+        },
+        body: JSON.stringify({
+            model: api.model,
+            messages: [
+                { role: 'system', content: sys },
+                { role: 'user', content: user },
+            ],
+            temperature: 0.8,
+            // 之前没设 max_tokens，有的 provider 默认只给 512，JSON 直接被截断 →
+            // extractJson 失败 → 旧逻辑 fallback 到"告五人/陈绮贞"。
+            // 8000 和项目里其它 prompt 一档，给 thinking 模型 / 话多的模型留足空间。
+            max_tokens: 8000,
+            stream: false,
+        }),
+        // API 调用记录标签：音乐人格生成是后台任务，不标会被兜底成「用户当时打开的 App」
+        __sullyMeta: { appName: '音乐', purpose: '音乐人格生成' },
+    } as RequestInit);
+    if (!resp.ok) throw new Error(`LLM ${resp.status}`);
+    const j = await resp.json();
+    return j?.choices?.[0]?.message?.content || '';
+};
+
+/**
+ * 鲁棒的 JSON 提取器：
+ * - 依次尝试：纯 parse → 去 fenced → 去 preamble → 最外层花括号 → 宽松修复 → 逐字段正则抠
+ * - 宽松修复包括：中文全角标点 / trailing comma / 单引号 / 未加引号的 key / BOM
+ * - 任何一步成功即返回；全部失败返回 null
+ */
+const extractJson = <T = any>(text: string): T | null => {
+    if (!text || typeof text !== 'string') return null;
+
+    // 1) 原文直接 parse
+    const raw = text.trim().replace(/^\uFEFF/, '');
+    const tryParse = (s: string): any | null => {
+        try { return JSON.parse(s); } catch { return null; }
+    };
+    let hit = tryParse(raw);
+    if (hit) return hit;
+
+    // 2) 去除 ``` 代码围栏
+    const fencedMatch = raw.match(/```(?:json|JSON)?\s*([\s\S]*?)```/);
+    if (fencedMatch) {
+        hit = tryParse(fencedMatch[1].trim());
+        if (hit) return hit;
+    }
+
+    // 3) 抽取第一段最外层花括号（用栈匹配，正确处理嵌套）
+    const braceSlice = (() => {
+        const s = fencedMatch ? fencedMatch[1] : raw;
+        const start = s.indexOf('{');
+        if (start < 0) return null;
+        let depth = 0, inStr = false, esc = false;
+        for (let i = start; i < s.length; i++) {
+            const ch = s[i];
+            if (esc) { esc = false; continue; }
+            if (ch === '\\') { esc = true; continue; }
+            if (ch === '"') { inStr = !inStr; continue; }
+            if (inStr) continue;
+            if (ch === '{') depth++;
+            else if (ch === '}') {
+                depth--;
+                if (depth === 0) return s.slice(start, i + 1);
+            }
+        }
+        return null;
+    })();
+    if (braceSlice) {
+        hit = tryParse(braceSlice);
+        if (hit) return hit;
+
+        // 4) 宽松修复后再试
+        let repaired = braceSlice
+            // 中文全角标点 → 半角（只处理 key/value 外围）
+            .replace(/[：]/g, ':')
+            .replace(/[，]/g, ',')
+            .replace(/[“”„]/g, '"')
+            .replace(/[‘’‚]/g, "'")
+            // 单引号字符串 → 双引号（简版：不处理转义）
+            .replace(/'([^'\n\r]*?)'/g, '"$1"')
+            // 未加引号的 key 加引号（{ foo: → { "foo":）
+            .replace(/([{,]\s*)([A-Za-z_][A-Za-z0-9_]*)(\s*:)/g, '$1"$2"$3')
+            // trailing comma
+            .replace(/,(\s*[}\]])/g, '$1');
+        hit = tryParse(repaired);
+        if (hit) return hit;
+    }
+    return null;
+};
+
+/** 从自由文本里逐字段提取 persona（JSON 完全不可用时的最后防线） */
+const scavengeFields = (text: string): Partial<PersonaDraft> => {
+    const out: Partial<PersonaDraft> = {};
+
+    // bio — 找 "bio" 行
+    const bioM = text.match(/"?bio"?\s*[:：]\s*["“]([^"\n”]{2,60})["”]/);
+    if (bioM) out.bio = bioM[1].trim();
+
+    // genreTags — 找第一个数组 [...]
+    const genreM = text.match(/"?genre[tT]ags"?\s*[:：]\s*\[([^\]]+)\]/);
+    if (genreM) {
+        out.genreTags = genreM[1].split(',')
+            .map(s => s.replace(/["'“”‘’\s]/g, ''))
+            .filter(Boolean).slice(0, 8);
+    }
+
+    // signatureArtists — 形如 [{"name": "..."}] 或纯字符串数组
+    const artistBlock = text.match(/"?signature[aA]rtists"?\s*[:：]\s*\[([\s\S]*?)\]/);
+    if (artistBlock) {
+        const inner = artistBlock[1];
+        const names: string[] = [];
+        const nameRe = /["“]([^"”\n]{1,30})["”]/g;
+        let m: RegExpExecArray | null;
+        while ((m = nameRe.exec(inner)) !== null) {
+            const n = m[1].trim();
+            if (n && !['name', 'artistId'].includes(n)) names.push(n);
+        }
+        if (names.length) out.signatureArtists = names.slice(0, 6).map(n => ({ name: n }));
+    }
+
+    // playlists — 最省事：找若干 title 字符串
+    const playlistTitles: string[] = [];
+    const plTitleRe = /"?title"?\s*[:：]\s*["“]([^"”\n]{1,30})["”]/g;
+    let pm: RegExpExecArray | null;
+    while ((pm = plTitleRe.exec(text)) !== null) playlistTitles.push(pm[1].trim());
+    if (playlistTitles.length > 0) {
+        out.playlists = playlistTitles.slice(0, 3).map(t => ({
+            title: t,
+            description: '',
+        }));
+    }
+
+    return out;
+};
+
+interface PersonaDraft {
+    bio: string;
+    genreTags: string[];
+    signatureArtists: { name: string; artistId?: number }[];
+    playlists: { title: string; description: string; mood?: string; coverStyle?: string }[];
+}
+
+const buildPersonaPrompt = (char: CharacterProfile, user: UserProfile): { sys: string; usr: string } => {
+    const core = ContextBuilder.buildRoleSettingsContext(char, { skipMemories: true });
+    const sys = `你是一个"音乐人格生成器"。根据给定的角色设定，为这个角色设计一份网易云音乐个人主页的品味档案。
+
+要求:
+1. 艺人必须是真实存在、可以在网易云搜到的华语 / 日系 / 英语 / 韩语艺人（不要虚构）
+2. 曲风标签要具体 (shoegaze / city-pop / post-rock / 民谣 / trip-hop / R&B / 后朋克 ...)，避免泛泛 ("流行"/"摇滚")
+3. **3 个歌单必须主题彻底不同** —— 不是"3 个差不多但换了名字"，而是 3 个**真正不同的场景 / 心境 / 用途**，
+   彼此 mood、曲风、使用场合都要分开。可以参考维度 (任选 3 个不同的)：
+   - 时段 / 场合：深夜独处｜清晨通勤｜失眠｜暴雨天｜长途车里｜聚会前的换装｜写作中｜失恋后
+   - 情绪：发泄｜治愈｜怀旧｜亢奋｜慵懒｜思考｜浪漫
+   - 表达方式：自我对话｜送给某个特定人｜对世界的反抗｜逃避现实
+   严禁出现两个歌单 mood 一致、或描述里讲同一件事的情况。
+4. 歌单标题 / 描述 / mood 都要从角色精神内核出发，不要套路化（不要"我的最爱"/"循环单"这种通用名）
+5. bio 用角色自己的口吻写（第一人称），一句话即可，不超过30字
+
+只输出 JSON，不要任何解释:
+{
+  "bio": "(一句话，角色第一人称)",
+  "genreTags": ["...", "...", "...(3-5个)"],
+  "signatureArtists": [{"name":"真实艺人名"}, ... (3-6个)],
+  "playlists": [
+    {"title":"歌单A(短·独特场景)", "description":"(角色口吻, 1-2句, 说清楚什么时候听 / 为什么)", "mood":"从下面8个里选一个: happy|sad|romantic|angry|chill|epic|nostalgic|dreamy"},
+    {"title":"歌单B(短·和A完全不同的场景/心境)", "description":"...", "mood":"必须和A不同"},
+    {"title":"歌单C(短·和A、B都不同)", "description":"...", "mood":"必须和A、B都不同"}
+  ]
+}`;
+
+    const usr = `${core}
+
+(可选) 用户姓名: ${user.name || '用户'}
+(可选) 用户 bio: ${user.bio || ''}
+
+请为"${char.name}"生成音乐人格档案。`;
+    return { sys, usr };
+};
+
+export const CharMusicPersona = {
+    /** 检查是否已初始化 */
+    isInitialized(char: CharacterProfile): boolean {
+        const p = char.musicProfile;
+        return !!(p && p.initializedAt && p.signatureArtists.length > 0);
+    },
+
+    /**
+     * 调 LLM 生成角色的音乐人格档案
+     *
+     * 失败策略：**直接抛错**，不走保底。
+     * - 没 LLM 配置 → 抛"未配置 API"
+     * - 网络/HTTP 失败 → 抛底层错误（保留 status code）
+     * - JSON 完全不可解析 → 抛"解析失败"
+     * - 解析出来但缺关键字段（艺人）→ 抛"字段缺失"
+     * 目的：宁可让用户重试，也别悄悄给 char 塞一份默认品味。
+     *
+     * @returns 新的 CharMusicProfile（调用方负责持久化到 CharacterProfile）
+     */
+    async initialize(
+        char: CharacterProfile,
+        userProfile: UserProfile,
+        apiConfig: APIConfig,
+    ): Promise<CharMusicProfile> {
+        const now = Date.now();
+
+        if (!apiConfig.baseUrl || !apiConfig.model) {
+            throw new Error('未配置 API（baseUrl 或 model 为空）');
+        }
+
+        const { sys, usr } = buildPersonaPrompt(char, userProfile);
+        const rawText = await callLlm(apiConfig, sys, usr);
+        if (!rawText || !rawText.trim()) {
+            throw new Error('LLM 返回为空');
+        }
+
+        // 解析：结构化 parse 优先；不行就 scavenge（逐字段正则抠）
+        // 两条线结果合并 — 任何字段单项 OK 都先收下
+        const structured = extractJson<PersonaDraft>(rawText) || {};
+        const scavenged = scavengeFields(rawText);
+        const draft: Partial<PersonaDraft> = {
+            bio: sanitizeStr(structured.bio) || sanitizeStr(scavenged.bio),
+            genreTags: firstArray(structured.genreTags, scavenged.genreTags),
+            signatureArtists: firstArray(
+                structured.signatureArtists,
+                scavenged.signatureArtists as PersonaDraft['signatureArtists'],
+            ),
+            playlists: firstArray(structured.playlists, scavenged.playlists as PersonaDraft['playlists']),
+        };
+
+        // 艺人字段：兼容三种形态 — [{name:"..."}] / ["..."] / 混合
+        const artistsIn = draft.signatureArtists || [];
+        const artists = artistsIn
+            .map((a: any) => {
+                if (typeof a === 'string') return { name: a.trim() };
+                if (a && typeof a === 'object' && typeof a.name === 'string') return { name: a.name.trim() };
+                return null;
+            })
+            .filter((a): a is { name: string } => !!a && !!a.name)
+            .slice(0, 8);
+
+        const genres = (draft.genreTags || [])
+            .filter((t: any) => typeof t === 'string' && t.trim())
+            .map((t: string) => t.trim())
+            .slice(0, 8);
+
+        const playlistsIn = (draft.playlists || []).slice(0, 3);
+        const playlists: CharPlaylist[] = playlistsIn.map((p, i) => ({
+            id: `pl-${now}-${i}`,
+            title: sanitizeStr(p?.title) || `歌单 ${i + 1}`,
+            description: sanitizeStr(p?.description) || '',
+            coverStyle: sanitizeStr(p?.coverStyle) || `gradient-0${(i % 6) + 1}`,
+            songs: [],
+            mood: (typeof p?.mood === 'string' && ['happy','sad','romantic','angry','chill','epic','nostalgic','dreamy'].includes(p.mood))
+                ? (p.mood as any) : undefined,
+            createdAt: now,
+            updatedAt: now,
+        }));
+
+        // 关键字段一律不许"找补" —— 没艺人就等于没品味，直接报错让用户重试
+        if (artists.length === 0) {
+            throw new Error('LLM 没返回可用的艺人字段（大概率是 JSON 格式错了）');
+        }
+        if (genres.length === 0) {
+            throw new Error('LLM 没返回曲风标签');
+        }
+        if (playlists.length === 0) {
+            throw new Error('LLM 没返回歌单概念');
+        }
+
+        return {
+            bio: sanitizeStr(draft.bio) || `${char.name} 的音乐角落`,
+            genreTags: genres,
+            signatureArtists: artists,
+            playlists,
+            likedSongIds: [],
+            recentPlays: [],
+            reviews: [],
+            canReadUserMusic: true,
+            initializedAt: now,
+            updatedAt: now,
+        };
+    },
+};
+
+// —— helpers ——
+const sanitizeStr = (s: any): string => {
+    if (typeof s !== 'string') return '';
+    return s
+        .replace(/^\s*["“”'‘’]+|["“”'‘’]+\s*$/g, '')  // 去首尾多余引号
+        .replace(/\s+/g, ' ')
+        .trim();
+};
+
+function firstArray<T>(...candidates: (T[] | undefined)[]): T[] | undefined {
+    for (const c of candidates) {
+        if (Array.isArray(c) && c.length > 0) return c;
+    }
+    return undefined;
+}

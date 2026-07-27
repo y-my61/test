@@ -1,1 +1,54 @@
-aW1wb3J0IHsgZGVzY3JpYmUsIGl0LCBleHBlY3QgfSBmcm9tICd2aXRlc3QnOwppbXBvcnQgeyBDaGF0UHJvbXB0cyB9IGZyb20gJy4vY2hhdFByb21wdHMnOwppbXBvcnQgeyBmbGF0dGVuSW1hZ2VDb250ZW50UGFydHMgfSBmcm9tICcuL2NoYXRSZXF1ZXN0UGF5bG9hZCc7CgovLyDplIHkvY/jgIzlvbzmlrkv5a625Zut562J54us56uLIEFQSSDlnLrmma/miorljoblj7Llm77niYfljovlubPmiJDnuq/mlofmnKzjgI3nmoTkv67lpI3jgIIKLy8KLy8g6ZO+6LevOiDnlKjmiLflnKjogYrlpKnph4zlj5Hov4flm74g4oaSIGJ1aWxkTWVzc2FnZUhpc3Rvcnkg5oqK6K+l5p2h5p6E6YCg5oiQCi8vICAgY29udGVudDogW3t0eXBlOid0ZXh0JywuLi59LCB7dHlwZTonaW1hZ2VfdXJsJywuLi59XQovLyDihpIg5b285pa5L+WutuWbreWkjeeUqOWQjOS4gOS7veWOhuWPsuWPkee7meiHquW3semFjee9rueahCBBUEnjgILnm67moIfmqKHlnovoi6XkuI3mlK/mjIHop4bop4kKLy8gKERlZXBTZWVrIOetiSksIOWvuSBpbWFnZV91cmwg55u05o6lIDQwMDogInVua25vd24gdmFyaWFudCBgaW1hZ2VfdXJsYCwKLy8gZXhwZWN0ZWQgYHRleHRgIuOAguS/ruWkjeWQjui/meS4pOadoei3r+W+hOe7jyBmbGF0dGVuSW1hZ2VDb250ZW50UGFydHMg5Y6L5bmzLAovLyDlj6rkv53nlZkgdGV4dCDpg6jliIYgKOiHquW4piBbVXNlciBzZW50IGFuIGltYWdlXSDljaDkvY0pLCDkuI4gYnVpbGRNZXNzYWdlSGlzdG9yeQovLyDnmoQi5Zu+54mH5pWw5o2u5bey5Lii5aSxIuWIhuaUr+S6p+WHuuWQjOW9ouOAggoKY29uc3QgY2hhciA9IHsgaWQ6ICdjMScsIG5hbWU6ICflsI/op5LoibInIH0gYXMgYW55Owpjb25zdCB1c2VyUHJvZmlsZSA9IHsgbmFtZTogJ+aIkScgfSBhcyBhbnk7Cgpjb25zdCB0MCA9IERhdGUubm93KCkgLSA2MF8wMDA7CmNvbnN0IG1ha2VIaXN0b3J5ID0gKCkgPT4gKFsKICAgIHsgaWQ6IDEsIGNoYXJJZDogJ2MxJywgcm9sZTogJ3VzZXInLCB0eXBlOiAnaW1hZ2UnLCBjb250ZW50OiAnZGF0YTppbWFnZS9qcGVnO2Jhc2U2NCxBQUFBJywgdGltZXN0YW1wOiB0MCB9LAogICAgeyBpZDogMiwgY2hhcklkOiAnYzEnLCByb2xlOiAndXNlcicsIHR5cGU6ICd0ZXh0JywgY29udGVudDogJ+eci+eci+i/meW8oOWbvicsIHRpbWVzdGFtcDogdDAgKyAxMDAwIH0sCl0gYXMgYW55W10pOwoKZGVzY3JpYmUoJ2ZsYXR0ZW5JbWFnZUNvbnRlbnRQYXJ0cycsICgpID0+IHsKICAgIGl0KCfmioogaW1hZ2VfdXJsIOWkmuaooeaAgea2iOaBr+WOi+W5s+aIkOe6r+aWh+acrCwg5L+d55WZIHRleHQg5Y2g5L2NJywgKCkgPT4gewogICAgICAgIGNvbnN0IHsgYXBpTWVzc2FnZXMgfSA9IENoYXRQcm9tcHRzLmJ1aWxkTWVzc2FnZUhpc3RvcnkobWFrZUhpc3RvcnkoKSwgMTAsIGNoYXIsIHVzZXJQcm9maWxlLCBbXSk7CiAgICAgICAgLy8g5YmN572u56Gu6K6kOiDmnInlm77niYfmlbDmja7ml7YgYnVpbGRNZXNzYWdlSGlzdG9yeSDnoa7lrp7kuqflh7rmlbDnu4QgY29udGVudCAoYnVnIOeahOa6kOWktCkKICAgICAgICBjb25zdCBpbWdNc2cgPSBhcGlNZXNzYWdlcy5maW5kKChtOiBhbnkpID0+IEFycmF5LmlzQXJyYXkobS5jb250ZW50KSk7CiAgICAgICAgZXhwZWN0KGltZ01zZykudG9CZVRydXRoeSgpOwoKICAgICAgICBjb25zdCBmbGF0ID0gZmxhdHRlbkltYWdlQ29udGVudFBhcnRzKGFwaU1lc3NhZ2VzKTsKICAgICAgICBmb3IgKGNvbnN0IG0gb2YgZmxhdCkgewogICAgICAgICAgICBleHBlY3QodHlwZW9mIG0uY29udGVudCkudG9CZSgnc3RyaW5nJyk7CiAgICAgICAgfQogICAgICAgIGNvbnN0IGZsYXRJbWcgPSBmbGF0W2FwaU1lc3NhZ2VzLmluZGV4T2YoaW1nTXNnISldOwogICAgICAgIGV4cGVjdChmbGF0SW1nLmNvbnRlbnQpLnRvQ29udGFpbignW1VzZXIgc2VudCBhbiBpbWFnZV0nKTsKICAgICAgICBleHBlY3QoZmxhdEltZy5jb250ZW50KS5ub3QudG9Db250YWluKCdkYXRhOmltYWdlJyk7CiAgICB9KTsKCiAgICBpdCgn57qv5paH5pys5raI5oGv5Y6f5qC36L+U5ZueICjlvJXnlKjlkIzkuIDlr7nosaEsIOS4jeivr+S8pCknLCAoKSA9PiB7CiAgICAgICAgY29uc3QgeyBhcGlNZXNzYWdlcyB9ID0gQ2hhdFByb21wdHMuYnVpbGRNZXNzYWdlSGlzdG9yeShtYWtlSGlzdG9yeSgpLCAxMCwgY2hhciwgdXNlclByb2ZpbGUsIFtdKTsKICAgICAgICBjb25zdCBmbGF0ID0gZmxhdHRlbkltYWdlQ29udGVudFBhcnRzKGFwaU1lc3NhZ2VzKTsKICAgICAgICBjb25zdCB0ZXh0SWR4ID0gYXBpTWVzc2FnZXMuZmluZEluZGV4KChtOiBhbnkpID0+IHR5cGVvZiBtLmNvbnRlbnQgPT09ICdzdHJpbmcnKTsKICAgICAgICBleHBlY3QoZmxhdFt0ZXh0SWR4XSkudG9CZShhcGlNZXNzYWdlc1t0ZXh0SWR4XSk7CiAgICAgICAgZXhwZWN0KGZsYXRbdGV4dElkeF0uY29udGVudCkudG9Db250YWluKCfnnIvnnIvov5nlvKDlm74nKTsKICAgIH0pOwoKICAgIGl0KCfmsqHmnIkgdGV4dCDpg6jliIbnmoTmlbDnu4QgY29udGVudCDlhZzlupXkuLogW+WbvueJh10nLCAoKSA9PiB7CiAgICAgICAgY29uc3QgZmxhdCA9IGZsYXR0ZW5JbWFnZUNvbnRlbnRQYXJ0cyhbCiAgICAgICAgICAgIHsgcm9sZTogJ3VzZXInLCBjb250ZW50OiBbeyB0eXBlOiAnaW1hZ2VfdXJsJywgaW1hZ2VfdXJsOiB7IHVybDogJ2RhdGE6aW1hZ2UvcG5nO2Jhc2U2NCxCQkJCJyB9IH1dIH0sCiAgICAgICAgXSk7CiAgICAgICAgZXhwZWN0KGZsYXRbMF0uY29udGVudCkudG9CZSgnW+WbvueJh10nKTsKICAgIH0pOwp9KTsK
+import { describe, it, expect } from 'vitest';
+import { ChatPrompts } from './chatPrompts';
+import { flattenImageContentParts } from './chatRequestPayload';
+
+// 锁住「彼方/家园等独立 API 场景把历史图片压平成纯文本」的修复。
+//
+// 链路: 用户在聊天里发过图 → buildMessageHistory 把该条构造成
+//   content: [{type:'text',...}, {type:'image_url',...}]
+// → 彼方/家园复用同一份历史发给自己配置的 API。目标模型若不支持视觉
+// (DeepSeek 等), 对 image_url 直接 400: "unknown variant `image_url`,
+// expected `text`"。修复后这两条路径经 flattenImageContentParts 压平,
+// 只保留 text 部分 (自带 [User sent an image] 占位), 与 buildMessageHistory
+// 的"图片数据已丢失"分支产出同形。
+
+const char = { id: 'c1', name: '小角色' } as any;
+const userProfile = { name: '我' } as any;
+
+const t0 = Date.now() - 60_000;
+const makeHistory = () => ([
+    { id: 1, charId: 'c1', role: 'user', type: 'image', content: 'data:image/jpeg;base64,AAAA', timestamp: t0 },
+    { id: 2, charId: 'c1', role: 'user', type: 'text', content: '看看这张图', timestamp: t0 + 1000 },
+] as any[]);
+
+describe('flattenImageContentParts', () => {
+    it('把 image_url 多模态消息压平成纯文本, 保留 text 占位', () => {
+        const { apiMessages } = ChatPrompts.buildMessageHistory(makeHistory(), 10, char, userProfile, []);
+        // 前置确认: 有图片数据时 buildMessageHistory 确实产出数组 content (bug 的源头)
+        const imgMsg = apiMessages.find((m: any) => Array.isArray(m.content));
+        expect(imgMsg).toBeTruthy();
+
+        const flat = flattenImageContentParts(apiMessages);
+        for (const m of flat) {
+            expect(typeof m.content).toBe('string');
+        }
+        const flatImg = flat[apiMessages.indexOf(imgMsg!)];
+        expect(flatImg.content).toContain('[User sent an image]');
+        expect(flatImg.content).not.toContain('data:image');
+    });
+
+    it('纯文本消息原样返回 (引用同一对象, 不误伤)', () => {
+        const { apiMessages } = ChatPrompts.buildMessageHistory(makeHistory(), 10, char, userProfile, []);
+        const flat = flattenImageContentParts(apiMessages);
+        const textIdx = apiMessages.findIndex((m: any) => typeof m.content === 'string');
+        expect(flat[textIdx]).toBe(apiMessages[textIdx]);
+        expect(flat[textIdx].content).toContain('看看这张图');
+    });
+
+    it('没有 text 部分的数组 content 兜底为 [图片]', () => {
+        const flat = flattenImageContentParts([
+            { role: 'user', content: [{ type: 'image_url', image_url: { url: 'data:image/png;base64,BBBB' } }] },
+        ]);
+        expect(flat[0].content).toBe('[图片]');
+    });
+});

@@ -1,1 +1,138 @@
-LyoqCiAqIOWPs+S+p+S8uOWHuueahOa0u+mhteacrCB0YWIg5p2hCiAqCiAqIOinhuiniTrlg4/mtLvpobXmnKzkvqfovrnpnLLlh7rnmoTlvanoibLmoIfnrb7nurgs5q+P5LiqIHRhYjoKICogICAtIOWNoOaNruWPs+S+pyB+MjJweCDlrr0KICogICAtIOWeguebtOWghuWPoCzmr4/kuKogdGFiIOeUqOWvueW6lCB0cmFja2VyLmNvbG9yIOafk+iJsgogKiAgIC0g5paH5a2X56uW5o6SKHdyaXRpbmctbW9kZTogdmVydGljYWwtcmwpLHRyYWNrZXIgbmFtZSDnrKzkuIDkuKrlrZcgKyBpY29uCiAqICAgLSDlvZPliY3mv4DmtLvnmoQgdGFiIOWQkeW3puWHuOWHuuS4gOS6myjlg4/ooqvnv7vliLDnmoTpgqPkuIDpobUpCiAqCiAqIOmhtumDqOWbuuWumueahCAi5LuKIiB0YWIg5rC46L+c5pivIHRvZGF5IOS4u+inhuWbvizlupXpg6ggIisiIOaYr+aWsOW7uiB0cmFja2VyIOWFpeWPowogKi8KCmltcG9ydCBSZWFjdCBmcm9tICdyZWFjdCc7CmltcG9ydCB7IFRyYWNrZXIgfSBmcm9tICcuLi8uLi90eXBlcyc7CmltcG9ydCB7IFBBUEVSX1RPTkVTLCBTRVJJRl9TVEFDSywgQ1VURV9TVEFDSyB9IGZyb20gJy4vcGFwZXInOwoKZXhwb3J0IHR5cGUgSGFuZGJvb2tTZWN0aW9uID0KICAgIHwgeyBraW5kOiAndG9kYXknIH0KICAgIHwgeyBraW5kOiAndHJhY2tlcic7IHRyYWNrZXJJZDogc3RyaW5nIH07CgppbnRlcmZhY2UgUHJvcHMgewogICAgYWN0aXZlU2VjdGlvbjogSGFuZGJvb2tTZWN0aW9uOwogICAgdHJhY2tlcnM6IFRyYWNrZXJbXTsKICAgIG9uU3dpdGNoOiAoc2VjdGlvbjogSGFuZGJvb2tTZWN0aW9uKSA9PiB2b2lkOwogICAgb25BZGRUcmFja2VyOiAoKSA9PiB2b2lkOwp9CgppbnRlcmZhY2UgVGFiU3BlYyB7CiAgICBrZXk6IHN0cmluZzsKICAgIGxhYmVsOiBzdHJpbmc7CiAgICBpY29uPzogc3RyaW5nOwogICAgY29sb3I6IHN0cmluZzsKICAgIG9uQ2xpY2s6ICgpID0+IHZvaWQ7CiAgICBpc0FjdGl2ZTogYm9vbGVhbjsKfQoKY29uc3QgVGFiU3RyaXA6IFJlYWN0LkZDPHsgdGFiOiBUYWJTcGVjIH0+ID0gKHsgdGFiIH0pID0+IHsKICAgIHJldHVybiAoCiAgICAgICAgPGJ1dHRvbgogICAgICAgICAgICBvbkNsaWNrPXt0YWIub25DbGlja30KICAgICAgICAgICAgY2xhc3NOYW1lPSJyZWxhdGl2ZSBmbGV4IGZsZXgtY29sIGl0ZW1zLWNlbnRlciBqdXN0aWZ5LWNlbnRlciB0cmFuc2l0aW9uIGFjdGl2ZTpzY2FsZS05NSIKICAgICAgICAgICAgc3R5bGU9e3sKICAgICAgICAgICAgICAgIHdpZHRoOiB0YWIuaXNBY3RpdmUgPyAzMCA6IDIyLAogICAgICAgICAgICAgICAgbWluSGVpZ2h0OiA2NCwKICAgICAgICAgICAgICAgIG1hcmdpblJpZ2h0OiB0YWIuaXNBY3RpdmUgPyAtMTAgOiAwLAogICAgICAgICAgICAgICAgYmFja2dyb3VuZDogdGFiLmNvbG9yLAogICAgICAgICAgICAgICAgY29sb3I6IFBBUEVSX1RPTkVTLmluaywKICAgICAgICAgICAgICAgIGNsaXBQYXRoOiAncG9seWdvbig0MCUgMCwgMTAwJSAwLCAxMDAlIDEwMCUsIDQwJSAxMDAlLCAwIDUwJSknLAogICAgICAgICAgICAgICAgcGFkZGluZ0xlZnQ6IDEyLAogICAgICAgICAgICAgICAgcGFkZGluZ1JpZ2h0OiA0LAogICAgICAgICAgICAgICAgcGFkZGluZ1RvcDogOCwKICAgICAgICAgICAgICAgIHBhZGRpbmdCb3R0b206IDgsCiAgICAgICAgICAgICAgICBib3hTaGFkb3c6IHRhYi5pc0FjdGl2ZQogICAgICAgICAgICAgICAgICAgID8gJzAgMnB4IDhweCAtMnB4IHJnYmEoMTIyLDkwLDExNCwwLjMpJwogICAgICAgICAgICAgICAgICAgIDogJzAgMXB4IDNweCByZ2JhKDEyMiw5MCwxMTQsMC4xNSknLAogICAgICAgICAgICAgICAgdHJhbnNpdGlvbjogJ2FsbCAwLjJzIGVhc2UnLAogICAgICAgICAgICB9fQogICAgICAgICAgICBhcmlhLWxhYmVsPXt0YWIubGFiZWx9CiAgICAgICAgICAgIHRpdGxlPXt0YWIubGFiZWx9CiAgICAgICAgPgogICAgICAgICAgICB7dGFiLmljb24gJiYgKAogICAgICAgICAgICAgICAgPHNwYW4gc3R5bGU9e3sgZm9udFNpemU6IDE0LCBsaW5lSGVpZ2h0OiAxLCBtYXJnaW5Cb3R0b206IDIgfX0+e3RhYi5pY29ufTwvc3Bhbj4KICAgICAgICAgICAgKX0KICAgICAgICAgICAgPHNwYW4KICAgICAgICAgICAgICAgIHN0eWxlPXt7CiAgICAgICAgICAgICAgICAgICAgLi4uQ1VURV9TVEFDSywKICAgICAgICAgICAgICAgICAgICB3cml0aW5nTW9kZTogJ3ZlcnRpY2FsLXJsJyBhcyBhbnksCiAgICAgICAgICAgICAgICAgICAgdGV4dE9yaWVudGF0aW9uOiAndXByaWdodCcgYXMgYW55LAogICAgICAgICAgICAgICAgICAgIGZvbnRTaXplOiAxMCwKICAgICAgICAgICAgICAgICAgICBsZXR0ZXJTcGFjaW5nOiAnMC4xNWVtJywKICAgICAgICAgICAgICAgICAgICBmb250V2VpZ2h0OiA3MDAsCiAgICAgICAgICAgICAgICAgICAgY29sb3I6IFBBUEVSX1RPTkVTLmluaywKICAgICAgICAgICAgICAgIH19CiAgICAgICAgICAgID4KICAgICAgICAgICAgICAgIHt0YWIubGFiZWx9CiAgICAgICAgICAgIDwvc3Bhbj4KICAgICAgICA8L2J1dHRvbj4KICAgICk7Cn07Cgpjb25zdCBIYW5kYm9va1NpZGVUYWJzOiBSZWFjdC5GQzxQcm9wcz4gPSAoewogICAgYWN0aXZlU2VjdGlvbiwgdHJhY2tlcnMsIG9uU3dpdGNoLCBvbkFkZFRyYWNrZXIsCn0pID0+IHsKICAgIGNvbnN0IHNvcnRlZFRyYWNrZXJzID0gWy4uLnRyYWNrZXJzXS5zb3J0KChhLCBiKSA9PiAoYS5zb3J0T3JkZXIgPz8gMCkgLSAoYi5zb3J0T3JkZXIgPz8gMCkpOwoKICAgIGNvbnN0IHRhYnM6IFRhYlNwZWNbXSA9IFsKICAgICAgICB7CiAgICAgICAgICAgIGtleTogJ3RvZGF5JywKICAgICAgICAgICAgbGFiZWw6ICfku4rml6UnLAogICAgICAgICAgICBpY29uOiAn4pymJywKICAgICAgICAgICAgY29sb3I6ICcjZmZmOGZiJywKICAgICAgICAgICAgaXNBY3RpdmU6IGFjdGl2ZVNlY3Rpb24ua2luZCA9PT0gJ3RvZGF5JywKICAgICAgICAgICAgb25DbGljazogKCkgPT4gb25Td2l0Y2goeyBraW5kOiAndG9kYXknIH0pLAogICAgICAgIH0sCiAgICAgICAgLi4uc29ydGVkVHJhY2tlcnMubWFwPFRhYlNwZWM+KHQgPT4gKHsKICAgICAgICAgICAga2V5OiB0LmlkLAogICAgICAgICAgICBsYWJlbDogdC5uYW1lLmxlbmd0aCA+IDIgPyB0Lm5hbWUuc2xpY2UoMCwgMikgOiB0Lm5hbWUsCiAgICAgICAgICAgIGljb246IHQuaWNvbiwKICAgICAgICAgICAgY29sb3I6IHQuY29sb3IgKyAnY2MnLCAvLyDljYrpgI/mmI4KICAgICAgICAgICAgaXNBY3RpdmU6IGFjdGl2ZVNlY3Rpb24ua2luZCA9PT0gJ3RyYWNrZXInICYmIGFjdGl2ZVNlY3Rpb24udHJhY2tlcklkID09PSB0LmlkLAogICAgICAgICAgICBvbkNsaWNrOiAoKSA9PiBvblN3aXRjaCh7IGtpbmQ6ICd0cmFja2VyJywgdHJhY2tlcklkOiB0LmlkIH0pLAogICAgICAgIH0pKSwKICAgIF07CgogICAgcmV0dXJuICgKICAgICAgICA8ZGl2CiAgICAgICAgICAgIGNsYXNzTmFtZT0iYWJzb2x1dGUgdG9wLTIwIHJpZ2h0LTAgei0zMCBmbGV4IGZsZXgtY29sIGdhcC0yIHBvaW50ZXItZXZlbnRzLW5vbmUiCiAgICAgICAgICAgIGFyaWEtbGFiZWw9IuaJi+i0puWIhuWMuuagh+etviIKICAgICAgICA+CiAgICAgICAgICAgIDxkaXYgY2xhc3NOYW1lPSJwb2ludGVyLWV2ZW50cy1hdXRvIGZsZXggZmxleC1jb2wgZ2FwLTIiPgogICAgICAgICAgICAgICAge3RhYnMubWFwKHQgPT4gKAogICAgICAgICAgICAgICAgICAgIDxUYWJTdHJpcCBrZXk9e3Qua2V5fSB0YWI9e3R9IC8+CiAgICAgICAgICAgICAgICApKX0KICAgICAgICAgICAgICAgIHsvKiDmlrDlu7rmjInpkq4gKi99CiAgICAgICAgICAgICAgICA8YnV0dG9uCiAgICAgICAgICAgICAgICAgICAgb25DbGljaz17b25BZGRUcmFja2VyfQogICAgICAgICAgICAgICAgICAgIGNsYXNzTmFtZT0iZmxleCBpdGVtcy1jZW50ZXIganVzdGlmeS1jZW50ZXIgdHJhbnNpdGlvbiBhY3RpdmU6c2NhbGUtOTUiCiAgICAgICAgICAgICAgICAgICAgc3R5bGU9e3sKICAgICAgICAgICAgICAgICAgICAgICAgd2lkdGg6IDIyLAogICAgICAgICAgICAgICAgICAgICAgICBtaW5IZWlnaHQ6IDM2LAogICAgICAgICAgICAgICAgICAgICAgICBiYWNrZ3JvdW5kOiAncmdiYSgyNTUsMjU1LDI1NSwwLjg1KScsCiAgICAgICAgICAgICAgICAgICAgICAgIGJvcmRlcjogYDEuNXB4IGRhc2hlZCAke1BBUEVSX1RPTkVTLnNwaW5lfWAsCiAgICAgICAgICAgICAgICAgICAgICAgIGNsaXBQYXRoOiAncG9seWdvbig0MCUgMCwgMTAwJSAwLCAxMDAlIDEwMCUsIDQwJSAxMDAlLCAwIDUwJSknLAogICAgICAgICAgICAgICAgICAgICAgICBwYWRkaW5nTGVmdDogMTAsCiAgICAgICAgICAgICAgICAgICAgfX0KICAgICAgICAgICAgICAgICAgICB0aXRsZT0i5paw5bu6IHRyYWNrZXIiCiAgICAgICAgICAgICAgICAgICAgYXJpYS1sYWJlbD0i5paw5bu6IHRyYWNrZXIiCiAgICAgICAgICAgICAgICA+CiAgICAgICAgICAgICAgICAgICAgPHNwYW4gc3R5bGU9e3sgLi4uU0VSSUZfU1RBQ0ssIGNvbG9yOiBQQVBFUl9UT05FUy5pbmtTb2Z0LCBmb250U2l6ZTogMTQsIGZvbnRXZWlnaHQ6IDcwMCB9fT4KICAgICAgICAgICAgICAgICAgICAgICAgKwogICAgICAgICAgICAgICAgICAgIDwvc3Bhbj4KICAgICAgICAgICAgICAgIDwvYnV0dG9uPgogICAgICAgICAgICA8L2Rpdj4KICAgICAgICA8L2Rpdj4KICAgICk7Cn07CgpleHBvcnQgZGVmYXVsdCBIYW5kYm9va1NpZGVUYWJzOwo=
+/**
+ * 右侧伸出的活页本 tab 条
+ *
+ * 视觉:像活页本侧边露出的彩色标签纸,每个 tab:
+ *   - 占据右侧 ~22px 宽
+ *   - 垂直堆叠,每个 tab 用对应 tracker.color 染色
+ *   - 文字竖排(writing-mode: vertical-rl),tracker name 第一个字 + icon
+ *   - 当前激活的 tab 向左凸出一些(像被翻到的那一页)
+ *
+ * 顶部固定的 "今" tab 永远是 today 主视图,底部 "+" 是新建 tracker 入口
+ */
+
+import React from 'react';
+import { Tracker } from '../../types';
+import { PAPER_TONES, SERIF_STACK, CUTE_STACK } from './paper';
+
+export type HandbookSection =
+    | { kind: 'today' }
+    | { kind: 'tracker'; trackerId: string };
+
+interface Props {
+    activeSection: HandbookSection;
+    trackers: Tracker[];
+    onSwitch: (section: HandbookSection) => void;
+    onAddTracker: () => void;
+}
+
+interface TabSpec {
+    key: string;
+    label: string;
+    icon?: string;
+    color: string;
+    onClick: () => void;
+    isActive: boolean;
+}
+
+const TabStrip: React.FC<{ tab: TabSpec }> = ({ tab }) => {
+    return (
+        <button
+            onClick={tab.onClick}
+            className="relative flex flex-col items-center justify-center transition active:scale-95"
+            style={{
+                width: tab.isActive ? 30 : 22,
+                minHeight: 64,
+                marginRight: tab.isActive ? -10 : 0,
+                background: tab.color,
+                color: PAPER_TONES.ink,
+                clipPath: 'polygon(40% 0, 100% 0, 100% 100%, 40% 100%, 0 50%)',
+                paddingLeft: 12,
+                paddingRight: 4,
+                paddingTop: 8,
+                paddingBottom: 8,
+                boxShadow: tab.isActive
+                    ? '0 2px 8px -2px rgba(122,90,114,0.3)'
+                    : '0 1px 3px rgba(122,90,114,0.15)',
+                transition: 'all 0.2s ease',
+            }}
+            aria-label={tab.label}
+            title={tab.label}
+        >
+            {tab.icon && (
+                <span style={{ fontSize: 14, lineHeight: 1, marginBottom: 2 }}>{tab.icon}</span>
+            )}
+            <span
+                style={{
+                    ...CUTE_STACK,
+                    writingMode: 'vertical-rl' as any,
+                    textOrientation: 'upright' as any,
+                    fontSize: 10,
+                    letterSpacing: '0.15em',
+                    fontWeight: 700,
+                    color: PAPER_TONES.ink,
+                }}
+            >
+                {tab.label}
+            </span>
+        </button>
+    );
+};
+
+const HandbookSideTabs: React.FC<Props> = ({
+    activeSection, trackers, onSwitch, onAddTracker,
+}) => {
+    const sortedTrackers = [...trackers].sort((a, b) => (a.sortOrder ?? 0) - (b.sortOrder ?? 0));
+
+    const tabs: TabSpec[] = [
+        {
+            key: 'today',
+            label: '今日',
+            icon: '✦',
+            color: '#fff8fb',
+            isActive: activeSection.kind === 'today',
+            onClick: () => onSwitch({ kind: 'today' }),
+        },
+        ...sortedTrackers.map<TabSpec>(t => ({
+            key: t.id,
+            label: t.name.length > 2 ? t.name.slice(0, 2) : t.name,
+            icon: t.icon,
+            color: t.color + 'cc', // 半透明
+            isActive: activeSection.kind === 'tracker' && activeSection.trackerId === t.id,
+            onClick: () => onSwitch({ kind: 'tracker', trackerId: t.id }),
+        })),
+    ];
+
+    return (
+        <div
+            className="absolute top-20 right-0 z-30 flex flex-col gap-2 pointer-events-none"
+            aria-label="手账分区标签"
+        >
+            <div className="pointer-events-auto flex flex-col gap-2">
+                {tabs.map(t => (
+                    <TabStrip key={t.key} tab={t} />
+                ))}
+                {/* 新建按钮 */}
+                <button
+                    onClick={onAddTracker}
+                    className="flex items-center justify-center transition active:scale-95"
+                    style={{
+                        width: 22,
+                        minHeight: 36,
+                        background: 'rgba(255,255,255,0.85)',
+                        border: `1.5px dashed ${PAPER_TONES.spine}`,
+                        clipPath: 'polygon(40% 0, 100% 0, 100% 100%, 40% 100%, 0 50%)',
+                        paddingLeft: 10,
+                    }}
+                    title="新建 tracker"
+                    aria-label="新建 tracker"
+                >
+                    <span style={{ ...SERIF_STACK, color: PAPER_TONES.inkSoft, fontSize: 14, fontWeight: 700 }}>
+                        +
+                    </span>
+                </button>
+            </div>
+        </div>
+    );
+};
+
+export default HandbookSideTabs;

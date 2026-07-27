@@ -1,1 +1,148 @@
-aW1wb3J0IHsgZGVzY3JpYmUsIGl0LCBleHBlY3QgfSBmcm9tICd2aXRlc3QnOwppbXBvcnQgewogICAgaXNCbG9iUmVmLCBCTE9CUkVGX1BSRUZJWCwKICAgIHB1dEltYWdlQmxvYiwgZ2V0QmxvYkZvclJlZiwgZGVsZXRlQmxvYlJlZiwgZGVsZXRlQmxvYlJlZklmVW5yZWZlcmVuY2VkLAogICAgZGF0YVVybFRvQmxvYiwgYmxvYlRvRGF0YVVybCwKICAgIG1pZ3JhdGVEYXRhVXJsVG9SZWYsIG1pZ3JhdGVBcHBlYXJhbmNlUHJlc2V0QmxvYlJlZnMsIHJlc29sdmVCbG9iUmVmc0RlZXAsCn0gZnJvbSAnLi9ibG9iUmVmJzsKaW1wb3J0IHsgREIgfSBmcm9tICcuL2RiJzsKCi8vIGZha2UtaW5kZXhlZGRiIOW3sueUsSB0ZXN0LXNldHVwLnRzIOazqOWFpe+8m+acrOe7hOeUqOS+i+mUgeS9jyBiYXNlNjQg4oeEIEJsb2Ig6L+B56e75bGC55qE5qC45b+D5LiN5Y+Y6YeP77yaCi8vIOS7pOeJjOivhuWIq+OAgUJsb2Ig5a2Y5Y+W44CBZGF0YSBVUkwg5LqS6L2s5peg5o2f44CB5rex5bqm6Kej5p6Q77yI5aSH5Lu95a+85Ye65YmN5oqK5Luk54mM5Y+Y5ZueIGRhdGE6aW1hZ2XvvInjgIIKCmNvbnN0IFRJTllfUE5HID0gJ2RhdGE6aW1hZ2UvcG5nO2Jhc2U2NCxpVkJPUncwS0dnb0FBQUFOU1VoRVVnQUFBQUVBQUFBQkNBUUFBQUMxSEF3Q0FBQUFDMGxFUVZSNDJtUDh6OEJRRHdBRWhRR0FoS21NSVFBQUFBQkpSVTVFcmtKZ2dnPT0nOwoKZGVzY3JpYmUoJ2lzQmxvYlJlZicsICgpID0+IHsKICAgIGl0KCflj6rorqQgYmxvYnJlZjog5YmN57yA77yMZGF0YTovaHR0cC/nqbog6YO95LiN5pivJywgKCkgPT4gewogICAgICAgIGV4cGVjdChpc0Jsb2JSZWYoQkxPQlJFRl9QUkVGSVggKyAneCcpKS50b0JlKHRydWUpOwogICAgICAgIGV4cGVjdChpc0Jsb2JSZWYoJ2RhdGE6aW1hZ2UvcG5nO2Jhc2U2NCxBQUFBJykpLnRvQmUoZmFsc2UpOwogICAgICAgIGV4cGVjdChpc0Jsb2JSZWYoJ2h0dHBzOi8vYS5jb20vYi5wbmcnKSkudG9CZShmYWxzZSk7CiAgICAgICAgZXhwZWN0KGlzQmxvYlJlZignJykpLnRvQmUoZmFsc2UpOwogICAgICAgIGV4cGVjdChpc0Jsb2JSZWYodW5kZWZpbmVkKSkudG9CZShmYWxzZSk7CiAgICAgICAgZXhwZWN0KGlzQmxvYlJlZihudWxsKSkudG9CZShmYWxzZSk7CiAgICB9KTsKfSk7CgpkZXNjcmliZSgnZGF0YVVybCDih4QgQmxvYiDml6DmjZ/kupLovawnLCAoKSA9PiB7CiAgICBpdCgnZGF0YVVybFRvQmxvYiDkv53nlZkgbWltZSDkuI7lrZfoioInLCBhc3luYyAoKSA9PiB7CiAgICAgICAgY29uc3QgYmxvYiA9IGRhdGFVcmxUb0Jsb2IoVElOWV9QTkcpOwogICAgICAgIGV4cGVjdChibG9iLnR5cGUpLnRvQmUoJ2ltYWdlL3BuZycpOwogICAgICAgIGV4cGVjdChibG9iLnNpemUpLnRvQmVHcmVhdGVyVGhhbigwKTsKICAgICAgICAvLyDlho3ovazlm54gZGF0YSBVUkwg5bqU5LiO5Y6f5Liy5LiA6Ie0CiAgICAgICAgY29uc3QgYmFjayA9IGF3YWl0IGJsb2JUb0RhdGFVcmwoYmxvYik7CiAgICAgICAgZXhwZWN0KGJhY2spLnRvQmUoVElOWV9QTkcpOwogICAgfSk7Cn0pOwoKZGVzY3JpYmUoJ3B1dEltYWdlQmxvYiAvIGdldEJsb2JGb3JSZWYgLyBkZWxldGVCbG9iUmVmJywgKCkgPT4gewogICAgaXQoJ+WtmOi/m+WOu+iDveaMieS7pOeJjOWPluWbnuWQjOagt+Wtl+iKgu+8jOWIoOmZpOWQjuWPluS4jeWIsCcsIGFzeW5jICgpID0+IHsKICAgICAgICBjb25zdCBibG9iID0gZGF0YVVybFRvQmxvYihUSU5ZX1BORyk7CiAgICAgICAgY29uc3QgcmVmID0gYXdhaXQgcHV0SW1hZ2VCbG9iKGJsb2IpOwogICAgICAgIGV4cGVjdChpc0Jsb2JSZWYocmVmKSkudG9CZSh0cnVlKTsKCiAgICAgICAgY29uc3QgZ290ID0gYXdhaXQgZ2V0QmxvYkZvclJlZihyZWYpOwogICAgICAgIGV4cGVjdChnb3QpLm5vdC50b0JlTnVsbCgpOwogICAgICAgIGV4cGVjdChhd2FpdCBibG9iVG9EYXRhVXJsKGdvdCEpKS50b0JlKFRJTllfUE5HKTsKCiAgICAgICAgYXdhaXQgZGVsZXRlQmxvYlJlZihyZWYpOwogICAgICAgIGV4cGVjdChhd2FpdCBnZXRCbG9iRm9yUmVmKHJlZikpLnRvQmVOdWxsKCk7CiAgICB9KTsKCiAgICBpdCgn6Z2e5Luk54mM5LiA5b6L6L+U5ZueIG51bGwnLCBhc3luYyAoKSA9PiB7CiAgICAgICAgZXhwZWN0KGF3YWl0IGdldEJsb2JGb3JSZWYoJ2RhdGE6aW1hZ2UvcG5nO2Jhc2U2NCxBQUFBJykpLnRvQmVOdWxsKCk7CiAgICAgICAgZXhwZWN0KGF3YWl0IGdldEJsb2JGb3JSZWYoJ2h0dHBzOi8veC95LnBuZycpKS50b0JlTnVsbCgpOwogICAgfSk7Cn0pOwoKZGVzY3JpYmUoJ2RlbGV0ZUJsb2JSZWZJZlVucmVmZXJlbmNlZCcsICgpID0+IHsKICAgIGl0KCflpJbop4LpooTorr7ku43lvJXnlKjml7bkv53nlZnvvIzlvJXnlKjnp7vpmaTlkI7miY3liKDpmaQnLCBhc3luYyAoKSA9PiB7CiAgICAgICAgY29uc3QgcmVmID0gYXdhaXQgcHV0SW1hZ2VCbG9iKGRhdGFVcmxUb0Jsb2IoVElOWV9QTkcpKTsKICAgICAgICBhd2FpdCBEQi5zYXZlQXNzZXQoJ2FwcGVhcmFuY2VfcHJlc2V0X2Jsb2JyZWZfdGVzdCcsIEpTT04uc3RyaW5naWZ5KHsgd2FsbHBhcGVyOiByZWYgfSkpOwoKICAgICAgICBleHBlY3QoYXdhaXQgZGVsZXRlQmxvYlJlZklmVW5yZWZlcmVuY2VkKHJlZikpLnRvQmUoZmFsc2UpOwogICAgICAgIGV4cGVjdChhd2FpdCBnZXRCbG9iRm9yUmVmKHJlZikpLm5vdC50b0JlTnVsbCgpOwoKICAgICAgICBhd2FpdCBEQi5kZWxldGVBc3NldCgnYXBwZWFyYW5jZV9wcmVzZXRfYmxvYnJlZl90ZXN0Jyk7CiAgICAgICAgZXhwZWN0KGF3YWl0IGRlbGV0ZUJsb2JSZWZJZlVucmVmZXJlbmNlZChyZWYpKS50b0JlKHRydWUpOwogICAgICAgIGV4cGVjdChhd2FpdCBnZXRCbG9iRm9yUmVmKHJlZikpLnRvQmVOdWxsKCk7CiAgICB9KTsKCiAgICBpdCgnbG9jYWxTdG9yYWdlIOearuiCpOWkh+S7veS7jeW8leeUqOaXtuS4jeS8muWIoOmZpCcsIGFzeW5jICgpID0+IHsKICAgICAgICBjb25zdCByZWYgPSBhd2FpdCBwdXRJbWFnZUJsb2IoZGF0YVVybFRvQmxvYihUSU5ZX1BORykpOwogICAgICAgIGxvY2FsU3RvcmFnZS5zZXRJdGVtKCdhY25oX3dhbGxwYXBlcl9iYWNrdXBfdGVzdCcsIHJlZik7CgogICAgICAgIGV4cGVjdChhd2FpdCBkZWxldGVCbG9iUmVmSWZVbnJlZmVyZW5jZWQocmVmKSkudG9CZShmYWxzZSk7CiAgICAgICAgZXhwZWN0KGF3YWl0IGdldEJsb2JGb3JSZWYocmVmKSkubm90LnRvQmVOdWxsKCk7CgogICAgICAgIGxvY2FsU3RvcmFnZS5yZW1vdmVJdGVtKCdhY25oX3dhbGxwYXBlcl9iYWNrdXBfdGVzdCcpOwogICAgICAgIGV4cGVjdChhd2FpdCBkZWxldGVCbG9iUmVmSWZVbnJlZmVyZW5jZWQocmVmKSkudG9CZSh0cnVlKTsKICAgIH0pOwp9KTsKCmRlc2NyaWJlKCdtaWdyYXRlRGF0YVVybFRvUmVmJywgKCkgPT4gewogICAgaXQoJ2RhdGE6IOi/geenu+aIkOS7pOeJjO+8jOS4lOiDveWPluWbnuWOn+WbvicsIGFzeW5jICgpID0+IHsKICAgICAgICBjb25zdCByZWYgPSBhd2FpdCBtaWdyYXRlRGF0YVVybFRvUmVmKFRJTllfUE5HKTsKICAgICAgICBleHBlY3QoaXNCbG9iUmVmKHJlZikpLnRvQmUodHJ1ZSk7CiAgICAgICAgY29uc3QgYmxvYiA9IGF3YWl0IGdldEJsb2JGb3JSZWYocmVmKTsKICAgICAgICBleHBlY3QoYXdhaXQgYmxvYlRvRGF0YVVybChibG9iISkpLnRvQmUoVElOWV9QTkcpOwogICAgfSk7CgogICAgaXQoJ+mdnuazlSBkYXRhIFVSTCDov4Hnp7vlpLHotKXml7bljp/moLfov5Tlm57vvIzkuI3mipvplJnjgIHkuI3kuKLlgLwnLCBhc3luYyAoKSA9PiB7CiAgICAgICAgY29uc3QgYmFkID0gJ25vdC1hLWRhdGEtdXJsJzsKICAgICAgICBleHBlY3QoYXdhaXQgbWlncmF0ZURhdGFVcmxUb1JlZihiYWQpKS50b0JlKGJhZCk7CiAgICB9KTsKfSk7CgpkZXNjcmliZSgnbWlncmF0ZUFwcGVhcmFuY2VQcmVzZXRCbG9iUmVmcycsICgpID0+IHsKICAgIGl0KCflr7zlhaXml7bnq4vljbPov4Hnp7vlo4HnurjjgIHplIHlsY/lkozoh6rlrprkuYnlm77moIfvvIzlubblpI3nlKjnm7jlkIzlm77niYcgQmxvYicsIGFzeW5jICgpID0+IHsKICAgICAgICBjb25zdCBzb3VyY2U6IGFueSA9IHsKICAgICAgICAgICAgaWQ6ICdwcmVzZXRfaW1wb3J0X3Rlc3QnLAogICAgICAgICAgICBuYW1lOiAn5a+85YWl5rWL6K+VJywKICAgICAgICAgICAgY3JlYXRlZEF0OiAxLAogICAgICAgICAgICB0aGVtZTogewogICAgICAgICAgICAgICAgaHVlOiA4OCwKICAgICAgICAgICAgICAgIHNhdHVyYXRpb246IDE0LAogICAgICAgICAgICAgICAgbGlnaHRuZXNzOiA0NiwKICAgICAgICAgICAgICAgIHdhbGxwYXBlcjogVElOWV9QTkcsCiAgICAgICAgICAgICAgICBsb2NrV2FsbHBhcGVyOiBUSU5ZX1BORywKICAgICAgICAgICAgICAgIGRhcmtNb2RlOiBmYWxzZSwKICAgICAgICAgICAgfSwKICAgICAgICAgICAgY3VzdG9tSWNvbnM6IHsgY2hhdDogVElOWV9QTkcgfSwKICAgICAgICB9OwoKICAgICAgICBjb25zdCBtaWdyYXRlZCA9IGF3YWl0IG1pZ3JhdGVBcHBlYXJhbmNlUHJlc2V0QmxvYlJlZnMoc291cmNlKTsKICAgICAgICBleHBlY3QoaXNCbG9iUmVmKG1pZ3JhdGVkLnRoZW1lLndhbGxwYXBlcikpLnRvQmUodHJ1ZSk7CiAgICAgICAgZXhwZWN0KG1pZ3JhdGVkLnRoZW1lLmxvY2tXYWxscGFwZXIpLnRvQmUobWlncmF0ZWQudGhlbWUud2FsbHBhcGVyKTsKICAgICAgICBleHBlY3QobWlncmF0ZWQuY3VzdG9tSWNvbnM/LmNoYXQpLnRvQmUobWlncmF0ZWQudGhlbWUud2FsbHBhcGVyKTsKICAgICAgICBleHBlY3QoYXdhaXQgYmxvYlRvRGF0YVVybCgoYXdhaXQgZ2V0QmxvYkZvclJlZihtaWdyYXRlZC50aGVtZS53YWxscGFwZXIpKSEpKS50b0JlKFRJTllfUE5HKTsKICAgICAgICBleHBlY3Qoc291cmNlLnRoZW1lLndhbGxwYXBlcikudG9CZShUSU5ZX1BORyk7CiAgICB9KTsKfSk7CgpkZXNjcmliZSgncmVzb2x2ZUJsb2JSZWZzRGVlcO+8iOWkh+S7veWvvOWHuuWJjeS7pOeJjCDihpIgZGF0YTppbWFnZe+8iScsICgpID0+IHsKICAgIGl0KCfmt7HluqbpgY3ljobmiorku6TniYzlsLHlnLDmjaLlm54gZGF0YSBVUkzvvIzpnZ7ku6TniYzkuI3liqgnLCBhc3luYyAoKSA9PiB7CiAgICAgICAgY29uc3QgcmVmQSA9IGF3YWl0IHB1dEltYWdlQmxvYihkYXRhVXJsVG9CbG9iKFRJTllfUE5HKSk7CiAgICAgICAgY29uc3QgcmVmQiA9IGF3YWl0IHB1dEltYWdlQmxvYihkYXRhVXJsVG9CbG9iKFRJTllfUE5HKSk7CiAgICAgICAgY29uc3QgdHJlZTogYW55ID0gewogICAgICAgICAgICB3YWxsSW1hZ2U6IHJlZkEsCiAgICAgICAgICAgIGtlZXA6ICdodHRwczovL3gveS5wbmcnLAogICAgICAgICAgICBncmFkaWVudDogJ2xpbmVhci1ncmFkaWVudCgjZmZmLCMwMDApJywKICAgICAgICAgICAgbmVzdGVkOiB7IGl0ZW1zOiBbeyBpbWFnZTogcmVmQiB9LCB7IGltYWdlOiAnZGF0YTppbWFnZS9wbmc7YmFzZTY0LEFBQUEnIH1dIH0sCiAgICAgICAgfTsKICAgICAgICBhd2FpdCByZXNvbHZlQmxvYlJlZnNEZWVwKHRyZWUpOwogICAgICAgIGV4cGVjdCh0cmVlLndhbGxJbWFnZSkudG9CZShUSU5ZX1BORyk7CiAgICAgICAgZXhwZWN0KHRyZWUubmVzdGVkLml0ZW1zWzBdLmltYWdlKS50b0JlKFRJTllfUE5HKTsKICAgICAgICAvLyDpnZ7ku6TniYzkv53mjIHljp/moLcKICAgICAgICBleHBlY3QodHJlZS5rZWVwKS50b0JlKCdodHRwczovL3gveS5wbmcnKTsKICAgICAgICBleHBlY3QodHJlZS5ncmFkaWVudCkudG9CZSgnbGluZWFyLWdyYWRpZW50KCNmZmYsIzAwMCknKTsKICAgICAgICBleHBlY3QodHJlZS5uZXN0ZWQuaXRlbXNbMV0uaW1hZ2UpLnRvQmUoJ2RhdGE6aW1hZ2UvcG5nO2Jhc2U2NCxBQUFBJyk7CiAgICB9KTsKCiAgICBpdCgn5Luk54mM5a+55bqU55qEIEJsb2Ig5bey5LiN5a2Y5Zyo5pe2572u56m65Liy77yI5Zu+5bey5Lii77yM6YG/5YWN5a+85Ye65q275Luk54mM77yJJywgYXN5bmMgKCkgPT4gewogICAgICAgIGNvbnN0IHJlZiA9IGF3YWl0IHB1dEltYWdlQmxvYihkYXRhVXJsVG9CbG9iKFRJTllfUE5HKSk7CiAgICAgICAgYXdhaXQgZGVsZXRlQmxvYlJlZihyZWYpOwogICAgICAgIGNvbnN0IHRyZWU6IGFueSA9IHsgYTogcmVmIH07CiAgICAgICAgYXdhaXQgcmVzb2x2ZUJsb2JSZWZzRGVlcCh0cmVlKTsKICAgICAgICBleHBlY3QodHJlZS5hKS50b0JlKCcnKTsKICAgIH0pOwp9KTsK
+import { describe, it, expect } from 'vitest';
+import {
+    isBlobRef, BLOBREF_PREFIX,
+    putImageBlob, getBlobForRef, deleteBlobRef, deleteBlobRefIfUnreferenced,
+    dataUrlToBlob, blobToDataUrl,
+    migrateDataUrlToRef, migrateAppearancePresetBlobRefs, resolveBlobRefsDeep,
+} from './blobRef';
+import { DB } from './db';
+
+// fake-indexeddb 已由 test-setup.ts 注入；本组用例锁住 base64 ⇄ Blob 迁移层的核心不变量：
+// 令牌识别、Blob 存取、data URL 互转无损、深度解析（备份导出前把令牌变回 data:image）。
+
+const TINY_PNG = 'data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAQAAAC1HAwCAAAAC0lEQVR42mP8z8BQDwAEhQGAhKmMIQAAAABJRU5ErkJggg==';
+
+describe('isBlobRef', () => {
+    it('只认 blobref: 前缀，data:/http/空 都不是', () => {
+        expect(isBlobRef(BLOBREF_PREFIX + 'x')).toBe(true);
+        expect(isBlobRef('data:image/png;base64,AAAA')).toBe(false);
+        expect(isBlobRef('https://a.com/b.png')).toBe(false);
+        expect(isBlobRef('')).toBe(false);
+        expect(isBlobRef(undefined)).toBe(false);
+        expect(isBlobRef(null)).toBe(false);
+    });
+});
+
+describe('dataUrl ⇄ Blob 无损互转', () => {
+    it('dataUrlToBlob 保留 mime 与字节', async () => {
+        const blob = dataUrlToBlob(TINY_PNG);
+        expect(blob.type).toBe('image/png');
+        expect(blob.size).toBeGreaterThan(0);
+        // 再转回 data URL 应与原串一致
+        const back = await blobToDataUrl(blob);
+        expect(back).toBe(TINY_PNG);
+    });
+});
+
+describe('putImageBlob / getBlobForRef / deleteBlobRef', () => {
+    it('存进去能按令牌取回同样字节，删除后取不到', async () => {
+        const blob = dataUrlToBlob(TINY_PNG);
+        const ref = await putImageBlob(blob);
+        expect(isBlobRef(ref)).toBe(true);
+
+        const got = await getBlobForRef(ref);
+        expect(got).not.toBeNull();
+        expect(await blobToDataUrl(got!)).toBe(TINY_PNG);
+
+        await deleteBlobRef(ref);
+        expect(await getBlobForRef(ref)).toBeNull();
+    });
+
+    it('非令牌一律返回 null', async () => {
+        expect(await getBlobForRef('data:image/png;base64,AAAA')).toBeNull();
+        expect(await getBlobForRef('https://x/y.png')).toBeNull();
+    });
+});
+
+describe('deleteBlobRefIfUnreferenced', () => {
+    it('外观预设仍引用时保留，引用移除后才删除', async () => {
+        const ref = await putImageBlob(dataUrlToBlob(TINY_PNG));
+        await DB.saveAsset('appearance_preset_blobref_test', JSON.stringify({ wallpaper: ref }));
+
+        expect(await deleteBlobRefIfUnreferenced(ref)).toBe(false);
+        expect(await getBlobForRef(ref)).not.toBeNull();
+
+        await DB.deleteAsset('appearance_preset_blobref_test');
+        expect(await deleteBlobRefIfUnreferenced(ref)).toBe(true);
+        expect(await getBlobForRef(ref)).toBeNull();
+    });
+
+    it('localStorage 皮肤备份仍引用时不会删除', async () => {
+        const ref = await putImageBlob(dataUrlToBlob(TINY_PNG));
+        localStorage.setItem('acnh_wallpaper_backup_test', ref);
+
+        expect(await deleteBlobRefIfUnreferenced(ref)).toBe(false);
+        expect(await getBlobForRef(ref)).not.toBeNull();
+
+        localStorage.removeItem('acnh_wallpaper_backup_test');
+        expect(await deleteBlobRefIfUnreferenced(ref)).toBe(true);
+    });
+});
+
+describe('migrateDataUrlToRef', () => {
+    it('data: 迁移成令牌，且能取回原图', async () => {
+        const ref = await migrateDataUrlToRef(TINY_PNG);
+        expect(isBlobRef(ref)).toBe(true);
+        const blob = await getBlobForRef(ref);
+        expect(await blobToDataUrl(blob!)).toBe(TINY_PNG);
+    });
+
+    it('非法 data URL 迁移失败时原样返回，不抛错、不丢值', async () => {
+        const bad = 'not-a-data-url';
+        expect(await migrateDataUrlToRef(bad)).toBe(bad);
+    });
+});
+
+describe('migrateAppearancePresetBlobRefs', () => {
+    it('导入时立即迁移壁纸、锁屏和自定义图标，并复用相同图片 Blob', async () => {
+        const source: any = {
+            id: 'preset_import_test',
+            name: '导入测试',
+            createdAt: 1,
+            theme: {
+                hue: 88,
+                saturation: 14,
+                lightness: 46,
+                wallpaper: TINY_PNG,
+                lockWallpaper: TINY_PNG,
+                darkMode: false,
+            },
+            customIcons: { chat: TINY_PNG },
+        };
+
+        const migrated = await migrateAppearancePresetBlobRefs(source);
+        expect(isBlobRef(migrated.theme.wallpaper)).toBe(true);
+        expect(migrated.theme.lockWallpaper).toBe(migrated.theme.wallpaper);
+        expect(migrated.customIcons?.chat).toBe(migrated.theme.wallpaper);
+        expect(await blobToDataUrl((await getBlobForRef(migrated.theme.wallpaper))!)).toBe(TINY_PNG);
+        expect(source.theme.wallpaper).toBe(TINY_PNG);
+    });
+});
+
+describe('resolveBlobRefsDeep（备份导出前令牌 → data:image）', () => {
+    it('深度遍历把令牌就地换回 data URL，非令牌不动', async () => {
+        const refA = await putImageBlob(dataUrlToBlob(TINY_PNG));
+        const refB = await putImageBlob(dataUrlToBlob(TINY_PNG));
+        const tree: any = {
+            wallImage: refA,
+            keep: 'https://x/y.png',
+            gradient: 'linear-gradient(#fff,#000)',
+            nested: { items: [{ image: refB }, { image: 'data:image/png;base64,AAAA' }] },
+        };
+        await resolveBlobRefsDeep(tree);
+        expect(tree.wallImage).toBe(TINY_PNG);
+        expect(tree.nested.items[0].image).toBe(TINY_PNG);
+        // 非令牌保持原样
+        expect(tree.keep).toBe('https://x/y.png');
+        expect(tree.gradient).toBe('linear-gradient(#fff,#000)');
+        expect(tree.nested.items[1].image).toBe('data:image/png;base64,AAAA');
+    });
+
+    it('令牌对应的 Blob 已不存在时置空串（图已丢，避免导出死令牌）', async () => {
+        const ref = await putImageBlob(dataUrlToBlob(TINY_PNG));
+        await deleteBlobRef(ref);
+        const tree: any = { a: ref };
+        await resolveBlobRefsDeep(tree);
+        expect(tree.a).toBe('');
+    });
+});

@@ -1,1 +1,59 @@
-LyoqCiAqIOW9kuaho+aPkOekuuivjeaooeadv+W3peWFt++8iOWFseS6q++8iQogKgogKiDnlKjmiLflnKggQ2hhcmFjdGVyLnRzeCAvIENoYXQudHN4IOeahCLorrDlv4blvZLmoaPorr7nva4i6YeM6YCJ5Lit55qE5o+Q56S66K+N5qih5p2/IGlkCiAqIOWtmOWcqCBsb2NhbFN0b3JhZ2Ug6YeM77yM5YaF5a655Lmf6YOo5YiG5a2Y5ZyoIGxvY2FsU3RvcmFnZe+8iOeUqOaIt+iHquWumuS5ieeahO+8ieOAggogKiDpu5jorqTmqKHmnb/vvIhwcmVzZXRfKu+8ieadpeiHqiBDaGF0Q29uc3RhbnRzLkRFRkFVTFRfQVJDSElWRV9QUk9NUFRT44CCCiAqCiAqIOi/memHjOaKiiLlj5blvZPliY3pgInkuK3mqKHmnb8gY29udGVudCLpm4bkuK3miJDkuIDkuKrlh73mlbDvvIzkvpvvvJoKICogLSDmiYvliqjlvZLmoaPot6/lvoQKICogLSBwYWxhY2Ug6Ieq5Yqo5b2S5qGj6Lev5b6E77yIcGlwZWxpbmUudHMg6LCD55So77yJCiAqIOWFseeUqOOAggogKi8KCmltcG9ydCB7IERFRkFVTFRfQVJDSElWRV9QUk9NUFRTIH0gZnJvbSAnLi4vY29tcG9uZW50cy9jaGF0L0NoYXRDb25zdGFudHMnOwoKY29uc3QgTFNfS0VZX0NVU1RPTV9QUk9NUFRTID0gJ2NoYXRfYXJjaGl2ZV9wcm9tcHRzJzsKY29uc3QgTFNfS0VZX1NFTEVDVEVEX0lEID0gJ2NoYXRfYWN0aXZlX2FyY2hpdmVfcHJvbXB0X2lkJzsKY29uc3QgREVGQVVMVF9JRCA9ICdwcmVzZXRfcmF0aW9uYWwnOwoKLyoqCiAqIOWPluW9k+WJjemAieS4reeahOW9kuaho+aPkOekuuivjeaooeadv+WGheWuue+8iOW3suWBmui/h+Wtl+auteabv+aNou+8ieOAggogKgogKiDov5Tlm54gbnVsbCDooajnpLrlj5bkuI3liLDvvIzosIPnlKjmlrnlupQgZmFsbGJhY2sg5YiwIHBhbGFjZSDoo7jmi7wgWUFNTCBidWxsZXRz44CCCiAqLwpleHBvcnQgZnVuY3Rpb24gZ2V0QWN0aXZlQXJjaGl2ZVRlbXBsYXRlKG9wdHM6IHsKICAgIGRhdGVTdHI6IHN0cmluZzsKICAgIGNoYXJOYW1lOiBzdHJpbmc7CiAgICB1c2VyTmFtZTogc3RyaW5nOwogICAgcmF3TG9nOiBzdHJpbmc7Cn0pOiBzdHJpbmcgfCBudWxsIHsKICAgIHRyeSB7CiAgICAgICAgY29uc3Qgc2VsZWN0ZWRJZCA9IGxvY2FsU3RvcmFnZS5nZXRJdGVtKExTX0tFWV9TRUxFQ1RFRF9JRCkgfHwgREVGQVVMVF9JRDsKCiAgICAgICAgLy8g5ZCI5bm26buY6K6k5qih5p2/ICsg55So5oi36Ieq5a6a5LmJCiAgICAgICAgbGV0IGFsbDogeyBpZDogc3RyaW5nOyBuYW1lOiBzdHJpbmc7IGNvbnRlbnQ6IHN0cmluZyB9W10gPSBbLi4uREVGQVVMVF9BUkNISVZFX1BST01QVFNdOwogICAgICAgIHRyeSB7CiAgICAgICAgICAgIGNvbnN0IHJhdyA9IGxvY2FsU3RvcmFnZS5nZXRJdGVtKExTX0tFWV9DVVNUT01fUFJPTVBUUyk7CiAgICAgICAgICAgIGlmIChyYXcpIHsKICAgICAgICAgICAgICAgIGNvbnN0IHBhcnNlZCA9IEpTT04ucGFyc2UocmF3KTsKICAgICAgICAgICAgICAgIGlmIChBcnJheS5pc0FycmF5KHBhcnNlZCkpIHsKICAgICAgICAgICAgICAgICAgICAvLyDlj6rlkIjlubbpnZ4gcHJlc2V0IOeahOiHquWumuS5ieadoeebrgogICAgICAgICAgICAgICAgICAgIGFsbCA9IFsuLi5hbGwsIC4uLnBhcnNlZC5maWx0ZXIoKHA6IGFueSkgPT4gcD8uaWQgJiYgIXAuaWQuc3RhcnRzV2l0aCgncHJlc2V0XycpKV07CiAgICAgICAgICAgICAgICB9CiAgICAgICAgICAgIH0KICAgICAgICB9IGNhdGNoIHsgLyog6Ieq5a6a5LmJ6Kej5p6Q5aSx6LSl5Lmf5LiN5b2x5ZON5Y+W6buY6K6kICovIH0KCiAgICAgICAgY29uc3QgZm91bmQgPSBhbGwuZmluZChwID0+IHAuaWQgPT09IHNlbGVjdGVkSWQpIHx8IGFsbFswXTsKICAgICAgICBpZiAoIWZvdW5kKSByZXR1cm4gbnVsbDsKCiAgICAgICAgLy8g5a2X5q615pu/5o2iCiAgICAgICAgcmV0dXJuIGZvdW5kLmNvbnRlbnQKICAgICAgICAgICAgLnJlcGxhY2UoL1wkXHtkYXRlU3RyXH0vZywgb3B0cy5kYXRlU3RyKQogICAgICAgICAgICAucmVwbGFjZSgvXCRce2NoYXJcLm5hbWVcfS9nLCBvcHRzLmNoYXJOYW1lKQogICAgICAgICAgICAucmVwbGFjZSgvXCRce3VzZXJQcm9maWxlXC5uYW1lXH0vZywgb3B0cy51c2VyTmFtZSkKICAgICAgICAgICAgLnJlcGxhY2UoL1wkXHtyYXdMb2cuKj9cfS9nLCBvcHRzLnJhd0xvZyk7CiAgICB9IGNhdGNoIHsKICAgICAgICByZXR1cm4gbnVsbDsKICAgIH0KfQo=
+/**
+ * 归档提示词模板工具（共享）
+ *
+ * 用户在 Character.tsx / Chat.tsx 的"记忆归档设置"里选中的提示词模板 id
+ * 存在 localStorage 里，内容也部分存在 localStorage（用户自定义的）。
+ * 默认模板（preset_*）来自 ChatConstants.DEFAULT_ARCHIVE_PROMPTS。
+ *
+ * 这里把"取当前选中模板 content"集中成一个函数，供：
+ * - 手动归档路径
+ * - palace 自动归档路径（pipeline.ts 调用）
+ * 共用。
+ */
+
+import { DEFAULT_ARCHIVE_PROMPTS } from '../components/chat/ChatConstants';
+
+const LS_KEY_CUSTOM_PROMPTS = 'chat_archive_prompts';
+const LS_KEY_SELECTED_ID = 'chat_active_archive_prompt_id';
+const DEFAULT_ID = 'preset_rational';
+
+/**
+ * 取当前选中的归档提示词模板内容（已做过字段替换）。
+ *
+ * 返回 null 表示取不到，调用方应 fallback 到 palace 裸拼 YAML bullets。
+ */
+export function getActiveArchiveTemplate(opts: {
+    dateStr: string;
+    charName: string;
+    userName: string;
+    rawLog: string;
+}): string | null {
+    try {
+        const selectedId = localStorage.getItem(LS_KEY_SELECTED_ID) || DEFAULT_ID;
+
+        // 合并默认模板 + 用户自定义
+        let all: { id: string; name: string; content: string }[] = [...DEFAULT_ARCHIVE_PROMPTS];
+        try {
+            const raw = localStorage.getItem(LS_KEY_CUSTOM_PROMPTS);
+            if (raw) {
+                const parsed = JSON.parse(raw);
+                if (Array.isArray(parsed)) {
+                    // 只合并非 preset 的自定义条目
+                    all = [...all, ...parsed.filter((p: any) => p?.id && !p.id.startsWith('preset_'))];
+                }
+            }
+        } catch { /* 自定义解析失败也不影响取默认 */ }
+
+        const found = all.find(p => p.id === selectedId) || all[0];
+        if (!found) return null;
+
+        // 字段替换
+        return found.content
+            .replace(/\$\{dateStr\}/g, opts.dateStr)
+            .replace(/\$\{char\.name\}/g, opts.charName)
+            .replace(/\$\{userProfile\.name\}/g, opts.userName)
+            .replace(/\$\{rawLog.*?\}/g, opts.rawLog);
+    } catch {
+        return null;
+    }
+}

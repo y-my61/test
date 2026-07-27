@@ -1,1 +1,328 @@
-LyoqCiAqIGxvb2tiZWhpbmQtZnJlZSDmlLnlhpnlr7nnhafmtYvor5UKICoKICog6IOM5pmvOiDmraPliJnlkI7ooYzmlq3oqIAgKD88PSkgLyAoPzwhKSDlnKggaU9TIFNhZmFyaSA8IDE2LjQgKFdlYktpdC9KU0MpIOS4jeaUr+aMgSwKICogICDml6forr7lpIfkuIogYG5ldyBSZWdFeHAoJyg/PD3igKYpJylgIOebtOaOpeaKmyAiSW52YWxpZCByZWd1bGFyIGV4cHJlc3Npb246CiAqICAgaW52YWxpZCBncm91cCBzcGVjaWZpZXIgbmFtZSIsIOiiq+iBiuWkqeWFnOW6lSBjYXRjaCDljIXmiJAgIlvov57mjqXkuK3mlq06IOKApl0iIOW8uee7meeUqOaIt+OAggogKiAgIOingSB1dGlscy9jaGF0UGFyc2VyLnRzIC8gc2FuaXRpemUudHMgLyBHcm91cENoYXQudHN4IOetiSA4IOWkhOOAggogKgogKiDnrZbnlaU6IOi/memHjOaKiuavj+WkhOOAjOaXpyBsb29rYmVoaW5kIOWGmeazleOAjeW9kyBvcmFjbGUsIOOAjOaWsCBsb29rYWhlYWQg5YaZ5rOV44CN5b2TIGNhbmRpZGF0ZSwKICogICDlnKjmlK/mjIEgbG9va2JlaGluZCDnmoQgTm9kZS9WOCDph4zot5HkuIDmibnopobnm5bmgKfovpPlhaUsIOaWreiogOS4pOiAhemAkOWtl+iKguS4gOiHtOOAggogKiAgIOaXp+WGmeazleWPquWtmOWcqOS6juacrOa1i+ivleaWh+S7tiAob3JhY2xlKSwg5rqQ56CB6YeM5bey5YWo6YOo5riF6ZmkICjop4Egbm8tbG9va2JlaGluZCDlrojljasp44CCCiAqCiAqIOazqOaEjzogb3JhY2xlIOeUqOeahCBsb29rYmVoaW5kIOato+WImeacrOi6q+S8muiuqSA8MTYuNCDnmoQgSlNDIOino+aekOWksei0pSwg5L2G5pys5rWL6K+V5Y+q5ZyoCiAqICAgQ0kgLyDlvIDlj5HmnLrnmoQgTm9kZSDkuIrot5EsIOS4jei/myBidW5kbGUsIOaJgOS7peaXoOaJgOiwk+OAggogKi8KaW1wb3J0IHsgZGVzY3JpYmUsIGl0LCBleHBlY3QgfSBmcm9tICd2aXRlc3QnOwoKLy8g4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSACi8vIDEpIENKSyDliIbmsJTms6E6IGNoYXRQYXJzZXIuY2h1bmtUZXh0IC8gc2FuaXRpemUuY2h1bmtUZXh0Ci8vICAgIOaXpzogc3BsaXQoLyg/PD1bQ0pLXSlccysoPz1bQ0pLXSkvKSAg4oCU4oCU44CM5aS55Zyo5Lik5LiqIENKSyDkuYvpl7TnmoTnqbrmoLzjgI3lpITmlq3lvIAKLy8gICAg5pawOiDmiorlt6bkvqcgQ0pLIOaNleiOt+i/m+adpSwg55So5o2i6KGM5ZOo5YW15qCH6K6w5YiH54K5LCDlho0gc3BsaXQKLy8g4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSACmNvbnN0IENKSyA9CiAgJ1xcdTRlMDAtXFx1OWZmZlxcdTM0MDAtXFx1NGRiZlxcdTMwMDAtXFx1MzAzZlxcdWZmMDAtXFx1ZmZlZlxcdTIwMDAtXFx1MjA2ZlxcdTJlODAtXFx1MmVmZlxcdTMwMDEtXFx1MzAwM1xcdTIwMTgtXFx1MjAxZlxcdTMwMGEtXFx1MzAwZlxcdWZmMDEtXFx1ZmYwZlxcdWZmMWEtXFx1ZmYyMCc7Cgpjb25zdCBvcmFjbGVDamtTcGxpdCA9IChjaHVuazogc3RyaW5nKTogc3RyaW5nW10gPT4gewogIGNvbnN0IHJlID0gbmV3IFJlZ0V4cChgKD88PVske0NKS31dKVxccysoPz1bJHtDSkt9XSlgKTsKICByZXR1cm4gY2h1bmsuc3BsaXQocmUpOwp9OwoKLy8gY2FuZGlkYXRlOiBsb29rYWhlYWQtb25seeOAguW3puS+pyBDSksg55So5o2V6I6357uE5ZCD6L+b5p2l5YaN55SoICQxIOihpeWbniwg5Y+z5L6n5L+d5oyB6Zu25a69IGxvb2thaGVhZOOAggovLyDlk6jlhbXnlKggVSsyNDFGICjikJ8sIFVuaXQgU2VwYXJhdG9yIOeahOWPr+ingeespuWPtyksIOato+aWh+mHjOS4jeS8muWHuueOsCwg5LiU6IKJ55y85Y+v6KeBIOKAlOKAlCDliKvnlKjoo7ggXDAsCi8vIOmCo+S4nOilv+S4jeWPr+ingeOAgeS8muaxoeafkyBzaGVsbOOAgVJlYWQg6L+Y5Lya5oqK5a6D5pi+56S65oiQ5pmu6YCa56m65qC8ICjmnKzmtYvor5XlsLHooqvov5nlnZHov4fkuIDmrKEp44CCCmNvbnN0IFNQTElUX1NFTlRJTkVMID0gJ+KQnyc7CmNvbnN0IGNhbmRpZGF0ZUNqa1NwbGl0ID0gKGNodW5rOiBzdHJpbmcpOiBzdHJpbmdbXSA9PiB7CiAgY29uc3QgcmUgPSBuZXcgUmVnRXhwKGAoWyR7Q0pLfV0pXFxzKyg/PVske0NKS31dKWAsICdnJyk7CiAgcmV0dXJuIGNodW5rLnJlcGxhY2UocmUsIGAkMSR7U1BMSVRfU0VOVElORUx9YCkuc3BsaXQoU1BMSVRfU0VOVElORUwpOwp9OwoKZGVzY3JpYmUoJ0NKSyDliIbmsJTms6E6IGxvb2thaGVhZCDmlLnlhpnkuI4gbG9va2JlaGluZCDnrYnku7cnLCAoKSA9PiB7CiAgY29uc3QgY2FzZXMgPSBbCiAgICAn5L2g5aW9IOS4lueVjCcsICAgICAgICAgICAvLyDln7rmnKw6IOS4gOS4quepuuagvOWkueWcqOS4pOaxieWtl+mXtAogICAgJ+S4rSDmlocg5a2XJywgICAgICAgICAgICAvLyDov57nu63ljZXlrZc6IOW/hemhu+WIh+aIkOS4ieautSwg5LiN6IO95ryPIChjb2RleCDmj5DnmoTlnZEpCiAgICAn5LitICDmlocnLCAgICAgICAgICAgICAgLy8g5aSa5Liq56m65qC8CiAgICAnaGVsbG8gd29ybGQnLCAgICAgICAgIC8vIOe6r+iLseaWhzog5LiN6K+l5YiHCiAgICAn5L2g5aW9IHdvcmxkIOWGjeingScsICAgICAgLy8g5Lit6Iux5re3OiDkuK0t6IuxIOS4jeWIhywg6IuxLeS4rSDkuI3liIcsIOWPquWIhyDkuK0t5LitPyAo56m65qC85Y+z6L655pivIHcg6Z2eIENKSykKICAgICflj6Xlj7fjgIIg5LiL5LiA5Y+lJywgICAgICAgIC8vIOagh+eCueS5n+WcqCBDSksg6ZuG5ZCI6YeMCiAgICAnICAgJywgICAgICAgICAgICAgICAgIC8vIOWFqOepuuagvAogICAgJycsICAgICAgICAgICAgICAgICAgICAvLyDnqbrkuLIKICAgICfljZUnLCAgICAgICAgICAgICAgICAgIC8vIOWNleWtl+espgogICAgJ2Eg5LitJywgICAgICAgICAgICAgICAgLy8g6IuxLeS4rSAo5bem6Z2eIENKSywg5LiN5YiHKQogICAgJ+S4rSBhJywgICAgICAgICAgICAgICAgLy8g5LitLeiLsSAo5Y+z6Z2eIENKSywg5LiN5YiHKQogICAgJ+S9oOWlvQnkuJbnlYwnLCAgICAgICAgICAvLyB0YWIg5YiG6ZqUCiAgICAn5oiRIOaYryDosIEg5ZWKIOWWgicsICAgICAgIC8vIOWkmuS4qui/nue7reWNleWtlwogIF07CiAgZm9yIChjb25zdCBpbnB1dCBvZiBjYXNlcykgewogICAgaXQoYOetieS7tzogJHtKU09OLnN0cmluZ2lmeShpbnB1dCl9YCwgKCkgPT4gewogICAgICBleHBlY3QoY2FuZGlkYXRlQ2prU3BsaXQoaW5wdXQpKS50b0VxdWFsKG9yYWNsZUNqa1NwbGl0KGlucHV0KSk7CiAgICB9KTsKICB9Cn0pOwoKLy8g4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSACi8vIDIpIEdyb3VwQ2hhdCDliIbmsJTms6E6IOW3puWPs+Wtl+espumbhuS4jeWQjCAo5bem5ZCr5qCH54K55YWo6ZuGLCDlj7Plj6rlkKvmsYnlrZfkuKTmrrUpCi8vICAgIOaXpzogc3BsaXQoLyg/PD1b5bemQ0pLXSlccysoPz1b5Y+zQ0pLXSkvKQovLyDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIAKY29uc3QgR0NfTEVGVCA9CiAgJ1xcdTRlMDAtXFx1OWZmZlxcdTM0MDAtXFx1NGRiZlxcdTMwMDAtXFx1MzAzZlxcdWZmMDAtXFx1ZmZlZlxcdTIwMDAtXFx1MjA2ZlxcdTJlODAtXFx1MmVmZlxcdTMwMDEtXFx1MzAwM1xcdTIwMTgtXFx1MjAxZlxcdTMwMGEtXFx1MzAwZlxcdWZmMDEtXFx1ZmYwZlxcdWZmMWEtXFx1ZmYyMCc7CmNvbnN0IEdDX1JJR0hUID0gJ1xcdTRlMDAtXFx1OWZmZlxcdTM0MDAtXFx1NGRiZic7Cgpjb25zdCBvcmFjbGVHcm91cFNwbGl0ID0gKHRleHQ6IHN0cmluZyk6IHN0cmluZ1tdID0+IHsKICBjb25zdCByZSA9IG5ldyBSZWdFeHAoYCg/PD1bJHtHQ19MRUZUfV0pXFxzKyg/PVske0dDX1JJR0hUfV0pYCk7CiAgcmV0dXJuIHRleHQuc3BsaXQocmUpOwp9Owpjb25zdCBjYW5kaWRhdGVHcm91cFNwbGl0ID0gKHRleHQ6IHN0cmluZyk6IHN0cmluZ1tdID0+IHsKICBjb25zdCByZSA9IG5ldyBSZWdFeHAoYChbJHtHQ19MRUZUfV0pXFxzKyg/PVske0dDX1JJR0hUfV0pYCwgJ2cnKTsKICByZXR1cm4gdGV4dC5yZXBsYWNlKHJlLCBgJDEke1NQTElUX1NFTlRJTkVMfWApLnNwbGl0KFNQTElUX1NFTlRJTkVMKTsKfTsKCmRlc2NyaWJlKCdHcm91cENoYXQg5YiG5rCU5rOhOiDlt6blj7PojIPlm7TkuI3lkIzkuZ/nrYnku7cnLCAoKSA9PiB7CiAgY29uc3QgY2FzZXMgPSBbCiAgICAn5L2g5aW9IOS4lueVjCcsCiAgICAn5LitIOaWhyDlrZcnLAogICAgJ+WPpeWPt+OAgiDkuK3mlocnLCAgICAgICAgLy8g5bem5qCH54K5ICsg5Y+z5rGJ5a2XOiDliIcKICAgICflj6Xlj7fjgIIg77yBJywgICAgICAgICAgLy8g5Y+z5piv5YWo6KeS5qCH54K5ICjlnKjlt6bpm4bkvYbkuI3lnKjlj7Ppm4YpOiDkuI3liIcKICAgICfkuK0g5paHJywKICAgICfmiJEg5pivIOiwgSDllYog5ZaCJywKICAgICfkuK0gYSDmlocnLCAgICAgICAgICAgIC8vIOS4rS3oi7HkuI3liIcsIOiLsS3kuK3kuI3liIcKICAgICcnLAogICAgJ+S4rScsCiAgXTsKICBmb3IgKGNvbnN0IGlucHV0IG9mIGNhc2VzKSB7CiAgICBpdChg562J5Lu3OiAke0pTT04uc3RyaW5naWZ5KGlucHV0KX1gLCAoKSA9PiB7CiAgICAgIGV4cGVjdChjYW5kaWRhdGVHcm91cFNwbGl0KGlucHV0KSkudG9FcXVhbChvcmFjbGVHcm91cFNwbGl0KGlucHV0KSk7CiAgICB9KTsKICB9Cn0pOwoKLy8g4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSACi8vIDMpIG1lbW9yeVBhbGFjZS9taWdyYXRpb24g5Y+l5pyr5YiH5Y+lCi8vICAgIOaXpzogc3BsaXQoLyg/PD1b44CC77yB77yfIT9dKVxzKnxcbisvKSAg4oCU4oCUIOWPpeacq+agh+eCueWQjuWIhyAo5qCH54K555WZ57uZ5YmN5Y+lKSwg5oiW5o2i6KGM5YiHCi8vICAgIOaWsDog5YWI55So5Y2g5L2N5oqKIFxuIOautee7n+S4gCwg5qCH54K55YiH54K55ZCM5qC36Z2gIuaNleiOt+agh+eCuSArIOWTqOWFtSIKLy8g4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSACmNvbnN0IG9yYWNsZVNlbnRlbmNlU3BsaXQgPSAoc3VtbWFyeTogc3RyaW5nKTogc3RyaW5nW10gPT4KICBzdW1tYXJ5CiAgICAuc3BsaXQoLyg/PD1b44CC77yB77yfIT9dKVxzKnxcbisvKQogICAgLm1hcCgocykgPT4gcy50cmltKCkpCiAgICAuZmlsdGVyKEJvb2xlYW4pOwoKLy8gY2FuZGlkYXRlOiDkuKTkuKogYWx0ZXJuYXRpb24g5YiG5pSv5YiG5Yir5aSE55CG44CCCi8vICAg5YiG5pSvIEHjgIwoPzw9W+agh+eCuV0pXHMq44CNOiDlnKjmoIfngrnlkI4o5ZCr5Y+v6YCJ56m655m9KeWIhywg5qCH54K555WZ5YmN5Y+lIOKGkiDmjZXojrfmoIfngrkgKyDlk6jlhbUgKyDlkIPmjonpmo/lkI7nmoQgXHMqCi8vICAg5YiG5pSvIELjgIxcbivjgI06IOebtOaOpeWIhwpjb25zdCBjYW5kaWRhdGVTZW50ZW5jZVNwbGl0ID0gKHN1bW1hcnk6IHN0cmluZyk6IHN0cmluZ1tdID0+IHsKICBjb25zdCBtYXJrZWQgPSBzdW1tYXJ5CiAgICAucmVwbGFjZSgvKFvjgILvvIHvvJ8hP10pXHMqL2csIGAkMSR7U1BMSVRfU0VOVElORUx9YCkKICAgIC5yZXBsYWNlKC9cbisvZywgU1BMSVRfU0VOVElORUwpOwogIHJldHVybiBtYXJrZWQKICAgIC5zcGxpdChTUExJVF9TRU5USU5FTCkKICAgIC5tYXAoKHMpID0+IHMudHJpbSgpKQogICAgLmZpbHRlcihCb29sZWFuKTsKfTsKCmRlc2NyaWJlKCflj6XmnKvliIflj6U6IOetieS7tycsICgpID0+IHsKICBjb25zdCBjYXNlcyA9IFsKICAgICfku4rlpKnljrvniKzlsbHkuobjgILlpKnmsJTlvojlpb3vvIHkvaDlkaI/JywKICAgICfnrKzkuIDlj6XjgIJcbuesrOS6jOWPpeOAglxuXG7nrKzkuInlj6UnLAogICAgJ+ayoeacieagh+eCueeahOS4gOmVv+WPpeivnScsCiAgICAn5re35ZCI44CCIOW4puepuuagvCDvvIEg5bim5o2i6KGMXG7nu5PlsL4nLAogICAgJ0hlbGxvLiBXb3JsZCEgSG93IGFyZSB5b3U/JywKICAgICcnLAogICAgJ+OAguOAguOAgicsCiAgICAn57uT5bC+5qCH54K544CCJywKICAgICfkuK3pl7RcblxuXG7lpJrmjaLooYwnLAogIF07CiAgZm9yIChjb25zdCBpbnB1dCBvZiBjYXNlcykgewogICAgaXQoYOetieS7tzogJHtKU09OLnN0cmluZ2lmeShpbnB1dCl9YCwgKCkgPT4gewogICAgICBleHBlY3QoY2FuZGlkYXRlU2VudGVuY2VTcGxpdChpbnB1dCkpLnRvRXF1YWwob3JhY2xlU2VudGVuY2VTcGxpdChpbnB1dCkpOwogICAgfSk7CiAgfQp9KTsKCi8vIOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgAovLyA0KSBkYXRlUmVzb2x2ZXI6ICg/PCFbXGTlubRdKSDliY3lkJHlkKblrpog4oCU4oCUIOWAmemAieaciC/mnIjml6XliY3pnaLkuI3og73ntKfot5/mlbDlrZfmiJYi5bm0IgovLyAgICDml6c6IG1hdGNoQWxsKC8oPzwhW1xk5bm0XSkoXGR7MSwyfXxb5LiA5LqM5LiJ5Zub5LqU5YWt5LiD5YWr5Lmd5Y2BXSspXHMq5pyILi4uL2d1KQovLyAgICDmlrA6IOWOu+aOiSBsb29rYmVoaW5kLCDmlLnmiJDljLnphY3lkI7nlKggbS5pbmRleCDmo4Dmn6XliY3kuIDlrZfnrKYsIOS4jea7oei2s+WImei3s+i/hyAoY29kZXgg5o+Q55qE5rOV5a2QKQovLyAgICDov5nph4zpqozor4HjgIzkv53nlZnpm4blkIjjgI3pgJDlrZfoioLkuIDoh7Q6IOWvueWQjOS4gCBxdWVyeSwg5Lik56eN5pa55rOV562b5Ye655qEICjlgLwsIGluZGV4KSDliJfooajnm7jlkIzjgIIKLy8g4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSACnR5cGUgSGl0ID0geyB2MTogc3RyaW5nOyB2Mj86IHN0cmluZzsgaW5kZXg6IG51bWJlciB9OwoKY29uc3Qgb3JhY2xlTW9udGhEYXkgPSAocXVlcnk6IHN0cmluZyk6IEhpdFtdID0+IHsKICBjb25zdCBvdXQ6IEhpdFtdID0gW107CiAgZm9yIChjb25zdCBtIG9mIHF1ZXJ5Lm1hdGNoQWxsKAogICAgLyg/PCFbXGTlubRdKShcZHsxLDJ9fFvkuIDkuozkuInlm5vkupTlha3kuIPlhavkuZ3ljYFdKylccyrmnIhccyooXGR7MSwyfXxb5LiA5LqM5LiJ5Zub5LqU5YWt5LiD5YWr5Lmd5Y2BXSspXHMqW+aXpeWPt10vZ3UsCiAgKSkgewogICAgb3V0LnB1c2goeyB2MTogbVsxXSwgdjI6IG1bMl0sIGluZGV4OiBtLmluZGV4ID8/IDAgfSk7CiAgfQogIHJldHVybiBvdXQ7Cn07CmNvbnN0IGNhbmRpZGF0ZU1vbnRoRGF5ID0gKHF1ZXJ5OiBzdHJpbmcpOiBIaXRbXSA9PiB7CiAgY29uc3Qgb3V0OiBIaXRbXSA9IFtdOwogIGZvciAoY29uc3QgbSBvZiBxdWVyeS5tYXRjaEFsbCgKICAgIC8oXGR7MSwyfXxb5LiA5LqM5LiJ5Zub5LqU5YWt5LiD5YWr5Lmd5Y2BXSspXHMq5pyIXHMqKFxkezEsMn18W+S4gOS6jOS4ieWbm+S6lOWFreS4g+WFq+S5neWNgV0rKVxzKlvml6Xlj7ddL2d1LAogICkpIHsKICAgIGNvbnN0IGluZGV4ID0gbS5pbmRleCA/PyAwOwogICAgaWYgKGluZGV4ID4gMCAmJiAvW1xk5bm0XS91LnRlc3QocXVlcnlbaW5kZXggLSAxXSkpIGNvbnRpbnVlOyAvLyDmqKHmi58gKD88IVtcZOW5tF0pCiAgICBvdXQucHVzaCh7IHYxOiBtWzFdLCB2MjogbVsyXSwgaW5kZXggfSk7CiAgfQogIHJldHVybiBvdXQ7Cn07Cgpjb25zdCBvcmFjbGVNb250aCA9IChxdWVyeTogc3RyaW5nKTogSGl0W10gPT4gewogIGNvbnN0IG91dDogSGl0W10gPSBbXTsKICBmb3IgKGNvbnN0IG0gb2YgcXVlcnkubWF0Y2hBbGwoCiAgICAvKD88IVtcZOW5tF0pKFxkezEsMn18W+S4gOS6jOS4ieWbm+S6lOWFreS4g+WFq+S5neWNgV0rKVxzKuaciCg/IVtcZOaXpeWPt+S7veS4gOS6jOS4ieWbm+S6lOWFreS4g+WFq+S5neWNgV0pL2d1LAogICkpIHsKICAgIG91dC5wdXNoKHsgdjE6IG1bMV0sIGluZGV4OiBtLmluZGV4ID8/IDAgfSk7CiAgfQogIHJldHVybiBvdXQ7Cn07CmNvbnN0IGNhbmRpZGF0ZU1vbnRoID0gKHF1ZXJ5OiBzdHJpbmcpOiBIaXRbXSA9PiB7CiAgY29uc3Qgb3V0OiBIaXRbXSA9IFtdOwogIGZvciAoY29uc3QgbSBvZiBxdWVyeS5tYXRjaEFsbCgKICAgIC8oXGR7MSwyfXxb5LiA5LqM5LiJ5Zub5LqU5YWt5LiD5YWr5Lmd5Y2BXSspXHMq5pyIKD8hW1xk5pel5Y+35Lu95LiA5LqM5LiJ5Zub5LqU5YWt5LiD5YWr5Lmd5Y2BXSkvZ3UsCiAgKSkgewogICAgY29uc3QgaW5kZXggPSBtLmluZGV4ID8/IDA7CiAgICBpZiAoaW5kZXggPiAwICYmIC9bXGTlubRdL3UudGVzdChxdWVyeVtpbmRleCAtIDFdKSkgY29udGludWU7CiAgICBvdXQucHVzaCh7IHYxOiBtWzFdLCBpbmRleCB9KTsKICB9CiAgcmV0dXJuIG91dDsKfTsKCmRlc2NyaWJlKCdkYXRlUmVzb2x2ZXI6IG0uaW5kZXgg5qOA5p+l5LiOIGxvb2tiZWhpbmQg562J5Lu3JywgKCkgPT4gewogIGNvbnN0IGNhc2VzID0gWwogICAgJzPmnIg05Y+3JywKICAgICcxMuaciDE15pelJywKICAgICfljrvlubQz5pyINOWPtycsICAgICAgICAgLy8gIuW5tCLlnKjliY0g4oaSIOaXp+eahOiiqyAoPzwh5bm0KSDmi5IsIOaWsOeahOS5n+W+l+aLkgogICAgJzIwMjTlubQz5pyIJywgICAgICAgICAgLy8g5bm05YmN57yACiAgICAnMTPmnIg05Y+3JywgICAgICAgICAgICAvLyDmnIjku73pnZ7ms5XkvYbmraPliJnku43ljLnphY0gKOetm+mAieWcqOS4muWKoeWxgikKICAgICfmiJHmg7Pmn6Uz5pyI55qE5LqLJywKICAgICcz5pyIIOWSjCA15pyINuWPtycsCiAgICAn56ysM+aciCcsICAgICAgICAgICAgICAvLyDliY3pnaLmmK8i56ysIijpnZ7mlbDlrZfpnZ7lubQpIOKGkiDlupTkv53nlZkKICAgICcyMDI0MDMwNCcsICAgICAgICAgICAvLyDnuq/mlbDlrZfml6DmnIgKICAgICfljYHkuozmnIjkuInljYHkuIDlj7cnLAogICAgJ+WJjemdouaciTLnhLblkI4z5pyIJywgICAgICAvLyAiMiLpnZ7ntKfpgrs/ICLnhLblkI4z5pyIIiDihpIgMyDliY3mmK8i5ZCOIiwg5L+d55WZCiAgICAnMjPmnIgnLCAgICAgICAgICAgICAgIC8vIDIg57Sn6YK7IDMg4oaSIOaXpyBsb29rYmVoaW5kIOWcqCAiM+aciCIg5aSE5YmN5LiA5a2X56ym5pivICIyIijmlbDlrZcpIOW6lOaLkgogICAgLy8g5Lul5LiL5LiT6Zeo5Y6L44CMbWF0Y2hBbGwg5raI6LS56Lez6L+H44CNOiDlgJnpgIkgQSDooqvliY3nvIDmi5Lnu53lkI4sIOe0p+aMqOeahOWAmemAiSBCIOS4jeiDveiiqyBBIOeahOWMuemFjeWQnuaOiQogICAgJzHmnIgy5pyIJywgICAgICAgICAgICAgLy8gIjHmnIgi5YmN5piv6KGM6aaW5bqU55WZOyAiMuaciCLliY3mmK8i5pyIIijpnZ7mlbDlrZfpnZ7lubQp5bqU55WZIOKGkiDkuKTkuKrpg73kuK0KICAgICc15pyIM+aciDTlj7cnLCAgICAgICAgICAvLyAiNeaciCLnlZk7IOe0p+i3nyIz5pyINOWPtyLliY3mmK8i5pyIIuW6lOeVmQogICAgJzEy5pyIMzTlj7c1NuWPtycsICAgICAgIC8vIOi/nue7reaXpeWPtwogICAgJ+W5tDPmnIgnLCAgICAgICAgICAgICAgLy8gIuW5tCLntKfotLQg4oaSIOaLkjsg5L2G6KGM6aaWIuW5tCLmnKzouqvkuI3lj4LkuI4KICAgICcz5pyINOaciDXmnIgnLCAgICAgICAgICAvLyDkuInov57mnIgsIOWFqOW6lOS/neeVmQogICAgJzk55pyIODjlj7c3N+aciCcsICAgICAgIC8vIOWFqOmdnuazleWAvOS9huWMuemFjSwg5rWL57qv5YiH5YiG5LiA6Ie05oCnCiAgXTsKICBmb3IgKGNvbnN0IGlucHV0IG9mIGNhc2VzKSB7CiAgICBpdChg5pyI5pel562J5Lu3OiAke0pTT04uc3RyaW5naWZ5KGlucHV0KX1gLCAoKSA9PiB7CiAgICAgIGV4cGVjdChjYW5kaWRhdGVNb250aERheShpbnB1dCkpLnRvRXF1YWwob3JhY2xlTW9udGhEYXkoaW5wdXQpKTsKICAgIH0pOwogICAgaXQoYOWtpOeri+aciOetieS7tzogJHtKU09OLnN0cmluZ2lmeShpbnB1dCl9YCwgKCkgPT4gewogICAgICBleHBlY3QoY2FuZGlkYXRlTW9udGgoaW5wdXQpKS50b0VxdWFsKG9yYWNsZU1vbnRoKGlucHV0KSk7CiAgICB9KTsKICB9Cn0pOwoKLy8gZGF0ZVJlc29sdmVyOiDmnInmhI/lgY/nprvml6cgbG9va2JlaGluZCDnmoQgY2FzZSAo6aG65omL5L+u5LqG5penIGJ1Zywg5LiN5by66KGM562J5Lu3KQovLwovLyDml6cgbG9va2JlaGluZCDlhpnms5XmnInkuKrpmpDol48gYnVnOiDlvZPkuK3mlofmlbDlrZfmmK/lpJrlrZfnrKbotKrlqarkuLIgKOWmgiLljYHkuozmnIgiKSDkuJTliY3pnaLntKfot58g5bm0L+aVsOWtl+aXtiwKLy8gKD88IVtcZOW5tF0pIOWcqOmmluWtlyLljYEi5aSE5ouS57ud5ZCOLCDmraPliJnlvJXmk47kvJrku44i5LqMIumHjeivlSwg6LSq5amq6YeP6K+NIFvkuIDkuozkuInigKZdKyDlj6rlpJ/ljLnphY0i5LqMIiwKLy8g5LqO5piv5oqKIuWNgeS6jOaciCLplJnor6/ogqLop6PmiJAi5LqM5pyIIuWOu+ajgOe0ouiusOW/hiDigJTigJQg6L+Z5pivIGJ1Z+OAggovLyDmlrDlhpnms5UgKG1hdGNoQWxsIOS4gOasoeaAp+i0quWpquWQg+aOiSLljYHkuozmnIgiICsgaWR4LTEg5qOA5p+lKSDkvJrmlbTmnaHot7Pov4csIOS4jeWGjeaKoOWHuuWBh+eahCLkuozmnIgi44CCCi8vIOi/meexu+i+k+WFpeacrOWwseivpeeUseWJjemdoueahCBjYXNlIDXjgIznu53lr7nlubTmnIjjgI0oXGR7Miw0feW5tFxkezEsMn3mnIgpIOWkhOeQhiwgY2FzZSA4IOi/meS4qiBmYWxsYmFjayDkuI3or6Xmj5LmiYvjgIIKLy8g5omA5Lul6L+Z6YeM5pat6KiA5paw6KGM5Li6ICjmlbTmnaHot7Pov4cpLCDkuI3lkozml6cgb3JhY2xlIOavlOOAggpkZXNjcmliZSgnZGF0ZVJlc29sdmVyOiDpobrmiYvkv67mraPml6cgbG9va2JlaGluZCDnmoQi55+t5Yy56YWN5Zue6YCAImJ1ZycsICgpID0+IHsKICBjb25zdCBjYXNlczogQXJyYXk8W3N0cmluZywgSGl0W11dPiA9IFsKICAgIFsnMjAyNOW5tOWNgeS6jOaciCcsIFtdXSwgICAvLyDml6c6IOaKoOWHuiLkuozmnIgiKGlkeDYpOyDmlrA6IOi3s+i/hyAo6K+l6LWw57ud5a+55bm05pyIIGNhc2UpCiAgICBbJ+S7iuW5tOS4ieWbm+aciCcsIFtdXSwgICAgICAvLyDml6c6IOaKoOWHuiLlm5vmnIgiKGlkeDMpOyDmlrA6IOi3s+i/hwogICAgWyd4MeWNgeS6jOaciCcsIFtdXSwgICAgICAgIC8vIOaXpzog5oqg5Ye6IuS6jOaciCIoaWR4Myk7IOaWsDog6Lez6L+HICjmlbDlrZfliY3nvIDkuZ/op6blj5EpCiAgICBbJ+WOu+W5tOWNgeS6jOaciCcsIFtdXSwgICAgICAvLyDml6c6IOaKoOWHuiLkuozmnIgiKGlkeDMpOyDmlrA6IOi3s+i/hyAo6K+l6LWw55u45a+55bm05pyIKQogIF07CiAgZm9yIChjb25zdCBbaW5wdXQsIGV4cGVjdGVkXSBvZiBjYXNlcykgewogICAgaXQoYOWtpOeri+aciOS4jeWGjeiCouinozogJHtKU09OLnN0cmluZ2lmeShpbnB1dCl9YCwgKCkgPT4gewogICAgICBleHBlY3QoY2FuZGlkYXRlTW9udGgoaW5wdXQpKS50b0VxdWFsKGV4cGVjdGVkKTsKICAgIH0pOwogIH0KfSk7CgovLyDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIAKLy8gNSkgc2NoZWR1bGVHZW5lcmF0b3I6IOaVsOacqui9rOS5ieW8leWPtwovLyAgICDml6c6IHMubWF0Y2goLyg/PCFcXCkiL2cpPy5sZW5ndGgg4oCU4oCUIOWJjemdouS4jeaYr+WPjeaWnOadoOeahOW8leWPt+S4quaVsAovLyAgICDms6jmhI86IOaXp+WGmeazleWvuSBcXCIgKOWBtuaVsOWPjeaWnOadoCwg5Y2z6L2s5LmJ55qE5Y+N5pac5p2gICsg55yf5byV5Y+3KSDkvJror6/liKTmiJAi5bey6L2s5LmJIiwKLy8gICAgICAgICDmiYDku6XmlrDlhpnms5XkuI3ov73msYLlkozml6flhpnms5XlrZfoioLkuIDoh7QsIOiAjOaYr+i/veaxgiLmraPnoa4iOiDmlbDlvJXlj7fliY3ov57nu63lj43mlpzmnaAsIOWBtuaVsOaJjeeul+acqui9rOS5ieOAggovLyAgICDov5nph4zmtYvjgIzmlrDlhpnms5XlnKjml6flhpnms5XmraPnoa7nmoTlnLrmma/kuIvkuI7kuYvkuIDoh7TjgI0r44CM5paw5YaZ5rOV5L+u5q2j5LqG5pen5YaZ5rOV55qEIGJ1Z+OAjeOAggovLyDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIAKY29uc3Qgb3JhY2xlVW5lc2NhcGVkUXVvdGVDb3VudCA9IChzOiBzdHJpbmcpOiBudW1iZXIgPT4KICAocy5tYXRjaCgvKD88IVxcKSIvZykgfHwgW10pLmxlbmd0aDsKCi8vIOaWsDog5omr5o+P5Zmo44CC5pWw5q+P5LiqICIg5YmN6L+e57ut5Y+N5pac5p2g5pWw6YePLCDlgbbmlbAo5ZCrMCkg4oaSIOacqui9rOS5ieOAggpjb25zdCBjb3VudFVuZXNjYXBlZFF1b3RlcyA9IChzOiBzdHJpbmcpOiBudW1iZXIgPT4gewogIGxldCBjb3VudCA9IDA7CiAgZm9yIChsZXQgaSA9IDA7IGkgPCBzLmxlbmd0aDsgaSsrKSB7CiAgICBpZiAoc1tpXSAhPT0gJyInKSBjb250aW51ZTsKICAgIGxldCBiYWNrc2xhc2hlcyA9IDA7CiAgICBsZXQgaiA9IGkgLSAxOwogICAgd2hpbGUgKGogPj0gMCAmJiBzW2pdID09PSAnXFwnKSB7CiAgICAgIGJhY2tzbGFzaGVzKys7CiAgICAgIGotLTsKICAgIH0KICAgIGlmIChiYWNrc2xhc2hlcyAlIDIgPT09IDApIGNvdW50Kys7CiAgfQogIHJldHVybiBjb3VudDsKfTsKCmRlc2NyaWJlKCfmnKrovazkuYnlvJXlj7forqHmlbAnLCAoKSA9PiB7CiAgaXQoJ+S4juaXp+WGmeazleWcqOeugOWNleWcuuaZr+S4gOiHtCcsICgpID0+IHsKICAgIGNvbnN0IHNpbXBsZSA9IFsnImFiYyInLCAnbm8gcXVvdGVzJywgJ1xcImVzY2FwZWRcXCInLCAnYSJiImMnLCAnIiInXTsKICAgIGZvciAoY29uc3QgcyBvZiBzaW1wbGUpIHsKICAgICAgZXhwZWN0KGNvdW50VW5lc2NhcGVkUXVvdGVzKHMpKS50b0JlKG9yYWNsZVVuZXNjYXBlZFF1b3RlQ291bnQocykpOwogICAgfQogIH0pOwogIGl0KCfkv67mraPml6flhpnms5Xlr7nlgbbmlbDlj43mlpzmnaDnmoTor6/liKQnLCAoKSA9PiB7CiAgICAvLyDlrZfnrKbkuLLlrZfpnaLph48gJ1xcXFwiJyA9IOWPjeaWnOadoCArIOWPjeaWnOadoCArIOW8leWPtyA9IOi9rOS5ieeahOWPjeaWnOadoOWQjui3n+ecn+W8leWPtyDihpIg5bqU566XIuacqui9rOS5iSIoMSkKICAgIGNvbnN0IHRyaWNreSA9ICdcXFxcIic7CiAgICBleHBlY3QoY291bnRVbmVzY2FwZWRRdW90ZXModHJpY2t5KSkudG9CZSgxKTsgICAvLyDmlrA6IOato+ehrgogICAgZXhwZWN0KG9yYWNsZVVuZXNjYXBlZFF1b3RlQ291bnQodHJpY2t5KSkudG9CZSgwKTsgLy8g5penOiDor6/liKTkuLrlt7LovazkuYkKICB9KTsKfSk7CgovLyDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIAKLy8gNikgSm91cm5hbFJpY2hUZXh0OiDljZXmmJ/mlpzkvZMgKOWMuuWIhiAq5pac5L2TKiDkuI4gKirnspfkvZMqKikKLy8gICAg5penOiByZXN0Lm1hdGNoKC8oPzwhXCopXCooW14qXSspXCooPyFcKikvKSDigJTigJQg5bem5Y+z6YO95LiN5piv5pif5Y+355qE5Y2V5pifCi8vICAgIOaWsDogKF58W14qXSlcKiDigKYsIOWRveS4reWQjiBpZHgvbGVuIOimgeWHj+WOu+WJjee8gOWtl+espiBpdFsxXQovLyDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIAKdHlwZSBJdGFsaWNIaXQgPSB7IGlkeDogbnVtYmVyOyBsZW46IG51bWJlcjsgaW5uZXI6IHN0cmluZyB9IHwgbnVsbDsKCmNvbnN0IG9yYWNsZUl0YWxpYyA9IChyZXN0OiBzdHJpbmcpOiBJdGFsaWNIaXQgPT4gewogIGNvbnN0IGl0ID0gcmVzdC5tYXRjaCgvKD88IVwqKVwqKFteKl0rKVwqKD8hXCopLyk7CiAgaWYgKGl0ICYmIGl0LmluZGV4ICE9PSB1bmRlZmluZWQpIHsKICAgIHJldHVybiB7IGlkeDogaXQuaW5kZXgsIGxlbjogaXRbMF0ubGVuZ3RoLCBpbm5lcjogaXRbMV0gfTsKICB9CiAgcmV0dXJuIG51bGw7Cn07CmNvbnN0IGNhbmRpZGF0ZUl0YWxpYyA9IChyZXN0OiBzdHJpbmcpOiBJdGFsaWNIaXQgPT4gewogIGNvbnN0IGl0ID0gcmVzdC5tYXRjaCgvKF58W14qXSlcKihbXipdKylcKig/IVwqKS8pOwogIGlmIChpdCAmJiBpdC5pbmRleCAhPT0gdW5kZWZpbmVkKSB7CiAgICBjb25zdCBvZmZzZXQgPSBpdFsxXS5sZW5ndGg7IC8vIOWJjee8gCAoXiDml7bkuLogJycg6ZW/5bqmMCwgW14qXSDml7bkuLogMSkKICAgIHJldHVybiB7IGlkeDogaXQuaW5kZXggKyBvZmZzZXQsIGxlbjogaXRbMF0ubGVuZ3RoIC0gb2Zmc2V0LCBpbm5lcjogaXRbMl0gfTsKICB9CiAgcmV0dXJuIG51bGw7Cn07CgpkZXNjcmliZSgn5pac5L2T5Y2V5pifOiDliY3nvIDmjZXojrfmlLnlhpnkuI4gbG9va2JlaGluZCDnrYnku7cnLCAoKSA9PiB7CiAgY29uc3QgY2FzZXMgPSBbCiAgICAnKuaWnOS9kyonLAogICAgJ+ihjOmmlirmlpzkvZMq5bC+JywKICAgICdhKuaWnOS9kypiJywKICAgICcqKueyl+S9kyoqJywgICAgICAgICAgIC8vIOS4jeivpeiiq+aWnOS9k+WRveS4rQogICAgJyoq57KXKirlkowq5pacKicsICAgICAgICAvLyDmt7flkIg6IOWNleaYn+W6lOWRveS4rSLmlpwiCiAgICAn5rKh5pyJ5pif5Y+3JywKICAgICcq5Y2V6L65JywgICAgICAgICAgICAgIC8vIOS4jemXreWQiAogICAgJyog56m65qC85pifJywKICAgICfliY3nvIAqeConLAogICAgJyphKiAqYionLCAgICAgICAgICAgIC8vIOWkmuS4qiwgbWF0Y2gg5Y+W56ys5LiA5LiqCiAgXTsKICBmb3IgKGNvbnN0IGlucHV0IG9mIGNhc2VzKSB7CiAgICBpdChg562J5Lu3OiAke0pTT04uc3RyaW5naWZ5KGlucHV0KX1gLCAoKSA9PiB7CiAgICAgIGV4cGVjdChjYW5kaWRhdGVJdGFsaWMoaW5wdXQpKS50b0VxdWFsKG9yYWNsZUl0YWxpYyhpbnB1dCkpOwogICAgfSk7CiAgfQp9KTsK
+/**
+ * lookbehind-free 改写对照测试
+ *
+ * 背景: 正则后行断言 (?<=) / (?<!) 在 iOS Safari < 16.4 (WebKit/JSC) 不支持,
+ *   旧设备上 `new RegExp('(?<=…)')` 直接抛 "Invalid regular expression:
+ *   invalid group specifier name", 被聊天兜底 catch 包成 "[连接中断: …]" 弹给用户。
+ *   见 utils/chatParser.ts / sanitize.ts / GroupChat.tsx 等 8 处。
+ *
+ * 策略: 这里把每处「旧 lookbehind 写法」当 oracle, 「新 lookahead 写法」当 candidate,
+ *   在支持 lookbehind 的 Node/V8 里跑一批覆盖性输入, 断言两者逐字节一致。
+ *   旧写法只存在于本测试文件 (oracle), 源码里已全部清除 (见 no-lookbehind 守卫)。
+ *
+ * 注意: oracle 用的 lookbehind 正则本身会让 <16.4 的 JSC 解析失败, 但本测试只在
+ *   CI / 开发机的 Node 上跑, 不进 bundle, 所以无所谓。
+ */
+import { describe, it, expect } from 'vitest';
+
+// ─────────────────────────────────────────────────────────────────────────────
+// 1) CJK 分气泡: chatParser.chunkText / sanitize.chunkText
+//    旧: split(/(?<=[CJK])\s+(?=[CJK])/)  ——「夹在两个 CJK 之间的空格」处断开
+//    新: 把左侧 CJK 捕获进来, 用换行哨兵标记切点, 再 split
+// ─────────────────────────────────────────────────────────────────────────────
+const CJK =
+  '\\u4e00-\\u9fff\\u3400-\\u4dbf\\u3000-\\u303f\\uff00-\\uffef\\u2000-\\u206f\\u2e80-\\u2eff\\u3001-\\u3003\\u2018-\\u201f\\u300a-\\u300f\\uff01-\\uff0f\\uff1a-\\uff20';
+
+const oracleCjkSplit = (chunk: string): string[] => {
+  const re = new RegExp(`(?<=[${CJK}])\\s+(?=[${CJK}])`);
+  return chunk.split(re);
+};
+
+// candidate: lookahead-only。左侧 CJK 用捕获组吃进来再用 $1 补回, 右侧保持零宽 lookahead。
+// 哨兵用 U+241F (␟, Unit Separator 的可见符号), 正文里不会出现, 且肉眼可见 —— 别用裸 \0,
+// 那东西不可见、会污染 shell、Read 还会把它显示成普通空格 (本测试就被这坑过一次)。
+const SPLIT_SENTINEL = '␟';
+const candidateCjkSplit = (chunk: string): string[] => {
+  const re = new RegExp(`([${CJK}])\\s+(?=[${CJK}])`, 'g');
+  return chunk.replace(re, `$1${SPLIT_SENTINEL}`).split(SPLIT_SENTINEL);
+};
+
+describe('CJK 分气泡: lookahead 改写与 lookbehind 等价', () => {
+  const cases = [
+    '你好 世界',           // 基本: 一个空格夹在两汉字间
+    '中 文 字',            // 连续单字: 必须切成三段, 不能漏 (codex 提的坑)
+    '中  文',              // 多个空格
+    'hello world',         // 纯英文: 不该切
+    '你好 world 再见',      // 中英混: 中-英 不切, 英-中 不切, 只切 中-中? (空格右边是 w 非 CJK)
+    '句号。 下一句',        // 标点也在 CJK 集合里
+    '   ',                 // 全空格
+    '',                    // 空串
+    '单',                  // 单字符
+    'a 中',                // 英-中 (左非 CJK, 不切)
+    '中 a',                // 中-英 (右非 CJK, 不切)
+    '你好	世界',          // tab 分隔
+    '我 是 谁 啊 喂',       // 多个连续单字
+  ];
+  for (const input of cases) {
+    it(`等价: ${JSON.stringify(input)}`, () => {
+      expect(candidateCjkSplit(input)).toEqual(oracleCjkSplit(input));
+    });
+  }
+});
+
+// ─────────────────────────────────────────────────────────────────────────────
+// 2) GroupChat 分气泡: 左右字符集不同 (左含标点全集, 右只含汉字两段)
+//    旧: split(/(?<=[左CJK])\s+(?=[右CJK])/)
+// ─────────────────────────────────────────────────────────────────────────────
+const GC_LEFT =
+  '\\u4e00-\\u9fff\\u3400-\\u4dbf\\u3000-\\u303f\\uff00-\\uffef\\u2000-\\u206f\\u2e80-\\u2eff\\u3001-\\u3003\\u2018-\\u201f\\u300a-\\u300f\\uff01-\\uff0f\\uff1a-\\uff20';
+const GC_RIGHT = '\\u4e00-\\u9fff\\u3400-\\u4dbf';
+
+const oracleGroupSplit = (text: string): string[] => {
+  const re = new RegExp(`(?<=[${GC_LEFT}])\\s+(?=[${GC_RIGHT}])`);
+  return text.split(re);
+};
+const candidateGroupSplit = (text: string): string[] => {
+  const re = new RegExp(`([${GC_LEFT}])\\s+(?=[${GC_RIGHT}])`, 'g');
+  return text.replace(re, `$1${SPLIT_SENTINEL}`).split(SPLIT_SENTINEL);
+};
+
+describe('GroupChat 分气泡: 左右范围不同也等价', () => {
+  const cases = [
+    '你好 世界',
+    '中 文 字',
+    '句号。 中文',        // 左标点 + 右汉字: 切
+    '句号。 ！',          // 右是全角标点 (在左集但不在右集): 不切
+    '中 文',
+    '我 是 谁 啊 喂',
+    '中 a 文',            // 中-英不切, 英-中不切
+    '',
+    '中',
+  ];
+  for (const input of cases) {
+    it(`等价: ${JSON.stringify(input)}`, () => {
+      expect(candidateGroupSplit(input)).toEqual(oracleGroupSplit(input));
+    });
+  }
+});
+
+// ─────────────────────────────────────────────────────────────────────────────
+// 3) memoryPalace/migration 句末切句
+//    旧: split(/(?<=[。！？!?])\s*|\n+/)  —— 句末标点后切 (标点留给前句), 或换行切
+//    新: 先用占位把 \n 段统一, 标点切点同样靠"捕获标点 + 哨兵"
+// ─────────────────────────────────────────────────────────────────────────────
+const oracleSentenceSplit = (summary: string): string[] =>
+  summary
+    .split(/(?<=[。！？!?])\s*|\n+/)
+    .map((s) => s.trim())
+    .filter(Boolean);
+
+// candidate: 两个 alternation 分支分别处理。
+//   分支 A「(?<=[标点])\s*」: 在标点后(含可选空白)切, 标点留前句 → 捕获标点 + 哨兵 + 吃掉随后的 \s*
+//   分支 B「\n+」: 直接切
+const candidateSentenceSplit = (summary: string): string[] => {
+  const marked = summary
+    .replace(/([。！？!?])\s*/g, `$1${SPLIT_SENTINEL}`)
+    .replace(/\n+/g, SPLIT_SENTINEL);
+  return marked
+    .split(SPLIT_SENTINEL)
+    .map((s) => s.trim())
+    .filter(Boolean);
+};
+
+describe('句末切句: 等价', () => {
+  const cases = [
+    '今天去爬山了。天气很好！你呢?',
+    '第一句。\n第二句。\n\n第三句',
+    '没有标点的一长句话',
+    '混合。 带空格 ！ 带换行\n结尾',
+    'Hello. World! How are you?',
+    '',
+    '。。。',
+    '结尾标点。',
+    '中间\n\n\n多换行',
+  ];
+  for (const input of cases) {
+    it(`等价: ${JSON.stringify(input)}`, () => {
+      expect(candidateSentenceSplit(input)).toEqual(oracleSentenceSplit(input));
+    });
+  }
+});
+
+// ─────────────────────────────────────────────────────────────────────────────
+// 4) dateResolver: (?<![\d年]) 前向否定 —— 候选月/月日前面不能紧跟数字或"年"
+//    旧: matchAll(/(?<![\d年])(\d{1,2}|[一二三四五六七八九十]+)\s*月.../gu)
+//    新: 去掉 lookbehind, 改成匹配后用 m.index 检查前一字符, 不满足则跳过 (codex 提的法子)
+//    这里验证「保留集合」逐字节一致: 对同一 query, 两种方法筛出的 (值, index) 列表相同。
+// ─────────────────────────────────────────────────────────────────────────────
+type Hit = { v1: string; v2?: string; index: number };
+
+const oracleMonthDay = (query: string): Hit[] => {
+  const out: Hit[] = [];
+  for (const m of query.matchAll(
+    /(?<![\d年])(\d{1,2}|[一二三四五六七八九十]+)\s*月\s*(\d{1,2}|[一二三四五六七八九十]+)\s*[日号]/gu,
+  )) {
+    out.push({ v1: m[1], v2: m[2], index: m.index ?? 0 });
+  }
+  return out;
+};
+const candidateMonthDay = (query: string): Hit[] => {
+  const out: Hit[] = [];
+  for (const m of query.matchAll(
+    /(\d{1,2}|[一二三四五六七八九十]+)\s*月\s*(\d{1,2}|[一二三四五六七八九十]+)\s*[日号]/gu,
+  )) {
+    const index = m.index ?? 0;
+    if (index > 0 && /[\d年]/u.test(query[index - 1])) continue; // 模拟 (?<![\d年])
+    out.push({ v1: m[1], v2: m[2], index });
+  }
+  return out;
+};
+
+const oracleMonth = (query: string): Hit[] => {
+  const out: Hit[] = [];
+  for (const m of query.matchAll(
+    /(?<![\d年])(\d{1,2}|[一二三四五六七八九十]+)\s*月(?![\d日号份一二三四五六七八九十])/gu,
+  )) {
+    out.push({ v1: m[1], index: m.index ?? 0 });
+  }
+  return out;
+};
+const candidateMonth = (query: string): Hit[] => {
+  const out: Hit[] = [];
+  for (const m of query.matchAll(
+    /(\d{1,2}|[一二三四五六七八九十]+)\s*月(?![\d日号份一二三四五六七八九十])/gu,
+  )) {
+    const index = m.index ?? 0;
+    if (index > 0 && /[\d年]/u.test(query[index - 1])) continue;
+    out.push({ v1: m[1], index });
+  }
+  return out;
+};
+
+describe('dateResolver: m.index 检查与 lookbehind 等价', () => {
+  const cases = [
+    '3月4号',
+    '12月15日',
+    '去年3月4号',         // "年"在前 → 旧的被 (?<!年) 拒, 新的也得拒
+    '2024年3月',          // 年前缀
+    '13月4号',            // 月份非法但正则仍匹配 (筛选在业务层)
+    '我想查3月的事',
+    '3月 和 5月6号',
+    '第3月',              // 前面是"第"(非数字非年) → 应保留
+    '20240304',           // 纯数字无月
+    '十二月三十一号',
+    '前面有2然后3月',      // "2"非紧邻? "然后3月" → 3 前是"后", 保留
+    '23月',               // 2 紧邻 3 → 旧 lookbehind 在 "3月" 处前一字符是 "2"(数字) 应拒
+    // 以下专门压「matchAll 消费跳过」: 候选 A 被前缀拒绝后, 紧挨的候选 B 不能被 A 的匹配吞掉
+    '1月2月',             // "1月"前是行首应留; "2月"前是"月"(非数字非年)应留 → 两个都中
+    '5月3月4号',          // "5月"留; 紧跟"3月4号"前是"月"应留
+    '12月34号56号',       // 连续日号
+    '年3月',              // "年"紧贴 → 拒; 但行首"年"本身不参与
+    '3月4月5月',          // 三连月, 全应保留
+    '99月88号77月',       // 全非法值但匹配, 测纯切分一致性
+  ];
+  for (const input of cases) {
+    it(`月日等价: ${JSON.stringify(input)}`, () => {
+      expect(candidateMonthDay(input)).toEqual(oracleMonthDay(input));
+    });
+    it(`孤立月等价: ${JSON.stringify(input)}`, () => {
+      expect(candidateMonth(input)).toEqual(oracleMonth(input));
+    });
+  }
+});
+
+// dateResolver: 有意偏离旧 lookbehind 的 case (顺手修了旧 bug, 不强行等价)
+//
+// 旧 lookbehind 写法有个隐藏 bug: 当中文数字是多字符贪婪串 (如"十二月") 且前面紧跟 年/数字时,
+// (?<![\d年]) 在首字"十"处拒绝后, 正则引擎会从"二"重试, 贪婪量词 [一二三…]+ 只够匹配"二",
+// 于是把"十二月"错误肢解成"二月"去检索记忆 —— 这是 bug。
+// 新写法 (matchAll 一次性贪婪吃掉"十二月" + idx-1 检查) 会整条跳过, 不再抠出假的"二月"。
+// 这类输入本就该由前面的 case 5「绝对年月」(\d{2,4}年\d{1,2}月) 处理, case 8 这个 fallback 不该插手。
+// 所以这里断言新行为 (整条跳过), 不和旧 oracle 比。
+describe('dateResolver: 顺手修正旧 lookbehind 的"短匹配回退"bug', () => {
+  const cases: Array<[string, Hit[]]> = [
+    ['2024年十二月', []],   // 旧: 抠出"二月"(idx6); 新: 跳过 (该走绝对年月 case)
+    ['今年三四月', []],      // 旧: 抠出"四月"(idx3); 新: 跳过
+    ['x1十二月', []],        // 旧: 抠出"二月"(idx3); 新: 跳过 (数字前缀也触发)
+    ['去年十二月', []],      // 旧: 抠出"二月"(idx3); 新: 跳过 (该走相对年月)
+  ];
+  for (const [input, expected] of cases) {
+    it(`孤立月不再肢解: ${JSON.stringify(input)}`, () => {
+      expect(candidateMonth(input)).toEqual(expected);
+    });
+  }
+});
+
+// ─────────────────────────────────────────────────────────────────────────────
+// 5) scheduleGenerator: 数未转义引号
+//    旧: s.match(/(?<!\\)"/g)?.length —— 前面不是反斜杠的引号个数
+//    注意: 旧写法对 \\" (偶数反斜杠, 即转义的反斜杠 + 真引号) 会误判成"已转义",
+//         所以新写法不追求和旧写法字节一致, 而是追求"正确": 数引号前连续反斜杠, 偶数才算未转义。
+//    这里测「新写法在旧写法正确的场景下与之一致」+「新写法修正了旧写法的 bug」。
+// ─────────────────────────────────────────────────────────────────────────────
+const oracleUnescapedQuoteCount = (s: string): number =>
+  (s.match(/(?<!\\)"/g) || []).length;
+
+// 新: 扫描器。数每个 " 前连续反斜杠数量, 偶数(含0) → 未转义。
+const countUnescapedQuotes = (s: string): number => {
+  let count = 0;
+  for (let i = 0; i < s.length; i++) {
+    if (s[i] !== '"') continue;
+    let backslashes = 0;
+    let j = i - 1;
+    while (j >= 0 && s[j] === '\\') {
+      backslashes++;
+      j--;
+    }
+    if (backslashes % 2 === 0) count++;
+  }
+  return count;
+};
+
+describe('未转义引号计数', () => {
+  it('与旧写法在简单场景一致', () => {
+    const simple = ['"abc"', 'no quotes', '\\"escaped\\"', 'a"b"c', '""'];
+    for (const s of simple) {
+      expect(countUnescapedQuotes(s)).toBe(oracleUnescapedQuoteCount(s));
+    }
+  });
+  it('修正旧写法对偶数反斜杠的误判', () => {
+    // 字符串字面量 '\\\\"' = 反斜杠 + 反斜杠 + 引号 = 转义的反斜杠后跟真引号 → 应算"未转义"(1)
+    const tricky = '\\\\"';
+    expect(countUnescapedQuotes(tricky)).toBe(1);   // 新: 正确
+    expect(oracleUnescapedQuoteCount(tricky)).toBe(0); // 旧: 误判为已转义
+  });
+});
+
+// ─────────────────────────────────────────────────────────────────────────────
+// 6) JournalRichText: 单星斜体 (区分 *斜体* 与 **粗体**)
+//    旧: rest.match(/(?<!\*)\*([^*]+)\*(?!\*)/) —— 左右都不是星号的单星
+//    新: (^|[^*])\* …, 命中后 idx/len 要减去前缀字符 it[1]
+// ─────────────────────────────────────────────────────────────────────────────
+type ItalicHit = { idx: number; len: number; inner: string } | null;
+
+const oracleItalic = (rest: string): ItalicHit => {
+  const it = rest.match(/(?<!\*)\*([^*]+)\*(?!\*)/);
+  if (it && it.index !== undefined) {
+    return { idx: it.index, len: it[0].length, inner: it[1] };
+  }
+  return null;
+};
+const candidateItalic = (rest: string): ItalicHit => {
+  const it = rest.match(/(^|[^*])\*([^*]+)\*(?!\*)/);
+  if (it && it.index !== undefined) {
+    const offset = it[1].length; // 前缀 (^ 时为 '' 长度0, [^*] 时为 1)
+    return { idx: it.index + offset, len: it[0].length - offset, inner: it[2] };
+  }
+  return null;
+};
+
+describe('斜体单星: 前缀捕获改写与 lookbehind 等价', () => {
+  const cases = [
+    '*斜体*',
+    '行首*斜体*尾',
+    'a*斜体*b',
+    '**粗体**',           // 不该被斜体命中
+    '**粗**和*斜*',        // 混合: 单星应命中"斜"
+    '没有星号',
+    '*单边',              // 不闭合
+    '* 空格星',
+    '前缀*x*',
+    '*a* *b*',            // 多个, match 取第一个
+  ];
+  for (const input of cases) {
+    it(`等价: ${JSON.stringify(input)}`, () => {
+      expect(candidateItalic(input)).toEqual(oracleItalic(input));
+    });
+  }
+});

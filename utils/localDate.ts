@@ -1,1 +1,63 @@
-Y29uc3QgREFURV9LRVlfUkUgPSAvXihcZHs0fSktKFxkezJ9KS0oXGR7Mn0pJC87CgovKiogRm9ybWF0IGEgY2FsZW5kYXIgZGF0ZSBpbiB0aGUgdXNlcidzIGN1cnJlbnQgc3lzdGVtIHRpbWV6b25lLiAqLwpleHBvcnQgZnVuY3Rpb24gZ2V0TG9jYWxEYXRlS2V5KGRhdGU6IERhdGUgPSBuZXcgRGF0ZSgpKTogc3RyaW5nIHsKICAgIGNvbnN0IHllYXIgPSBkYXRlLmdldEZ1bGxZZWFyKCk7CiAgICBjb25zdCBtb250aCA9IFN0cmluZyhkYXRlLmdldE1vbnRoKCkgKyAxKS5wYWRTdGFydCgyLCAnMCcpOwogICAgY29uc3QgZGF5ID0gU3RyaW5nKGRhdGUuZ2V0RGF0ZSgpKS5wYWRTdGFydCgyLCAnMCcpOwogICAgcmV0dXJuIGAke3llYXJ9LSR7bW9udGh9LSR7ZGF5fWA7Cn0KCi8qKiBQYXJzZSBZWVlZLU1NLUREIGFzIGxvY2FsIGNhbGVuZGFyIG1pZG5pZ2h0LCBuZXZlciBhcyBVVEMgbWlkbmlnaHQuICovCmV4cG9ydCBmdW5jdGlvbiBwYXJzZUxvY2FsRGF0ZUtleShrZXk6IHN0cmluZyk6IERhdGUgfCBudWxsIHsKICAgIGNvbnN0IG1hdGNoID0gREFURV9LRVlfUkUuZXhlYyhrZXkpOwogICAgaWYgKCFtYXRjaCkgcmV0dXJuIG51bGw7CgogICAgY29uc3QgeWVhciA9IE51bWJlcihtYXRjaFsxXSk7CiAgICBjb25zdCBtb250aCA9IE51bWJlcihtYXRjaFsyXSk7CiAgICBjb25zdCBkYXkgPSBOdW1iZXIobWF0Y2hbM10pOwogICAgY29uc3QgcGFyc2VkID0gbmV3IERhdGUoeWVhciwgbW9udGggLSAxLCBkYXksIDAsIDAsIDAsIDApOwogICAgaWYgKAogICAgICAgIHBhcnNlZC5nZXRGdWxsWWVhcigpICE9PSB5ZWFyCiAgICAgICAgfHwgcGFyc2VkLmdldE1vbnRoKCkgIT09IG1vbnRoIC0gMQogICAgICAgIHx8IHBhcnNlZC5nZXREYXRlKCkgIT09IGRheQogICAgKSByZXR1cm4gbnVsbDsKICAgIHJldHVybiBwYXJzZWQ7Cn0KCi8qKiBDYWxlbmRhci1kYXkgYXJpdGhtZXRpYyBpbiB0aGUgdXNlcidzIGN1cnJlbnQgc3lzdGVtIHRpbWV6b25lLiAqLwpleHBvcnQgZnVuY3Rpb24gYWRkTG9jYWxEYXlzKGtleTogc3RyaW5nLCBhbW91bnQ6IG51bWJlcik6IHN0cmluZyB7CiAgICBjb25zdCBwYXJzZWQgPSBwYXJzZUxvY2FsRGF0ZUtleShrZXkpOwogICAgaWYgKCFwYXJzZWQpIHJldHVybiAnJzsKICAgIHBhcnNlZC5zZXREYXRlKHBhcnNlZC5nZXREYXRlKCkgKyBhbW91bnQpOwogICAgcmV0dXJuIGdldExvY2FsRGF0ZUtleShwYXJzZWQpOwp9CgovKiogQ2FsZW5kYXItZGF5IGRpZmZlcmVuY2UgKHRvIC0gZnJvbSksIGluZGVwZW5kZW50IG9mIERTVCBkYXkgbGVuZ3RoLiAqLwpleHBvcnQgZnVuY3Rpb24gZ2V0Q2FsZW5kYXJEYXlEaWZmZXJlbmNlKGZyb21LZXk6IHN0cmluZywgdG9LZXk6IHN0cmluZyk6IG51bWJlciB8IG51bGwgewogICAgY29uc3QgZnJvbU1hdGNoID0gREFURV9LRVlfUkUuZXhlYyhmcm9tS2V5KTsKICAgIGNvbnN0IHRvTWF0Y2ggPSBEQVRFX0tFWV9SRS5leGVjKHRvS2V5KTsKICAgIGlmICghZnJvbU1hdGNoIHx8ICF0b01hdGNoIHx8ICFwYXJzZUxvY2FsRGF0ZUtleShmcm9tS2V5KSB8fCAhcGFyc2VMb2NhbERhdGVLZXkodG9LZXkpKSByZXR1cm4gbnVsbDsKICAgIGNvbnN0IHV0Y0RheSA9IChtYXRjaDogUmVnRXhwRXhlY0FycmF5KSA9PiBEYXRlLlVUQygKICAgICAgICBOdW1iZXIobWF0Y2hbMV0pLAogICAgICAgIE51bWJlcihtYXRjaFsyXSkgLSAxLAogICAgICAgIE51bWJlcihtYXRjaFszXSksCiAgICApOwogICAgcmV0dXJuIE1hdGgucm91bmQoKHV0Y0RheSh0b01hdGNoKSAtIHV0Y0RheShmcm9tTWF0Y2gpKSAvIDg2XzQwMF8wMDApOwp9CgovKiogTG9jYWwgW3N0YXJ0LCBlbmQpIGJvdW5kcy4gVGhlIGR1cmF0aW9uIG1heSBiZSAyMy8yNSBob3VycyBhY3Jvc3MgRFNULiAqLwpleHBvcnQgZnVuY3Rpb24gZ2V0TG9jYWxEYXlSYW5nZShrZXk6IHN0cmluZyk6IHsgc3RhcnQ6IG51bWJlcjsgZW5kOiBudW1iZXIgfSB8IG51bGwgewogICAgY29uc3Qgc3RhcnREYXRlID0gcGFyc2VMb2NhbERhdGVLZXkoa2V5KTsKICAgIGlmICghc3RhcnREYXRlKSByZXR1cm4gbnVsbDsKICAgIGNvbnN0IGVuZERhdGUgPSBuZXcgRGF0ZShzdGFydERhdGUpOwogICAgZW5kRGF0ZS5zZXREYXRlKGVuZERhdGUuZ2V0RGF0ZSgpICsgMSk7CiAgICByZXR1cm4geyBzdGFydDogc3RhcnREYXRlLmdldFRpbWUoKSwgZW5kOiBlbmREYXRlLmdldFRpbWUoKSB9Owp9CgovKiogTWlsbGlzZWNvbmRzIHVudGlsIHRoZSBuZXh0IGxvY2FsIG1pZG5pZ2h0LCB3aXRoIGEgc21hbGwgcG9zdC1ib3VuZGFyeSBidWZmZXIuICovCmV4cG9ydCBmdW5jdGlvbiBtc1VudGlsTmV4dExvY2FsRGF5KG5vdzogRGF0ZSA9IG5ldyBEYXRlKCkpOiBudW1iZXIgewogICAgY29uc3QgbmV4dCA9IG5ldyBEYXRlKG5vdyk7CiAgICBuZXh0LnNldEhvdXJzKDI0LCAwLCAwLCA1MCk7CiAgICByZXR1cm4gTWF0aC5tYXgoNTAsIG5leHQuZ2V0VGltZSgpIC0gbm93LmdldFRpbWUoKSk7Cn0K
+const DATE_KEY_RE = /^(\d{4})-(\d{2})-(\d{2})$/;
+
+/** Format a calendar date in the user's current system timezone. */
+export function getLocalDateKey(date: Date = new Date()): string {
+    const year = date.getFullYear();
+    const month = String(date.getMonth() + 1).padStart(2, '0');
+    const day = String(date.getDate()).padStart(2, '0');
+    return `${year}-${month}-${day}`;
+}
+
+/** Parse YYYY-MM-DD as local calendar midnight, never as UTC midnight. */
+export function parseLocalDateKey(key: string): Date | null {
+    const match = DATE_KEY_RE.exec(key);
+    if (!match) return null;
+
+    const year = Number(match[1]);
+    const month = Number(match[2]);
+    const day = Number(match[3]);
+    const parsed = new Date(year, month - 1, day, 0, 0, 0, 0);
+    if (
+        parsed.getFullYear() !== year
+        || parsed.getMonth() !== month - 1
+        || parsed.getDate() !== day
+    ) return null;
+    return parsed;
+}
+
+/** Calendar-day arithmetic in the user's current system timezone. */
+export function addLocalDays(key: string, amount: number): string {
+    const parsed = parseLocalDateKey(key);
+    if (!parsed) return '';
+    parsed.setDate(parsed.getDate() + amount);
+    return getLocalDateKey(parsed);
+}
+
+/** Calendar-day difference (to - from), independent of DST day length. */
+export function getCalendarDayDifference(fromKey: string, toKey: string): number | null {
+    const fromMatch = DATE_KEY_RE.exec(fromKey);
+    const toMatch = DATE_KEY_RE.exec(toKey);
+    if (!fromMatch || !toMatch || !parseLocalDateKey(fromKey) || !parseLocalDateKey(toKey)) return null;
+    const utcDay = (match: RegExpExecArray) => Date.UTC(
+        Number(match[1]),
+        Number(match[2]) - 1,
+        Number(match[3]),
+    );
+    return Math.round((utcDay(toMatch) - utcDay(fromMatch)) / 86_400_000);
+}
+
+/** Local [start, end) bounds. The duration may be 23/25 hours across DST. */
+export function getLocalDayRange(key: string): { start: number; end: number } | null {
+    const startDate = parseLocalDateKey(key);
+    if (!startDate) return null;
+    const endDate = new Date(startDate);
+    endDate.setDate(endDate.getDate() + 1);
+    return { start: startDate.getTime(), end: endDate.getTime() };
+}
+
+/** Milliseconds until the next local midnight, with a small post-boundary buffer. */
+export function msUntilNextLocalDay(now: Date = new Date()): number {
+    const next = new Date(now);
+    next.setHours(24, 0, 0, 50);
+    return Math.max(50, next.getTime() - now.getTime());
+}

@@ -1,1 +1,151 @@
-aW1wb3J0IHsgZGVzY3JpYmUsIGl0LCBleHBlY3QsIHZpLCBiZWZvcmVFYWNoIH0gZnJvbSAndml0ZXN0JzsKaW1wb3J0IHsKICAgIFJlYWx0aW1lQ29udGV4dE1hbmFnZXIsCiAgICBmZXRjaE9wZW5NZXRlb1dlYXRoZXIsCiAgICBkZWZhdWx0UmVhbHRpbWVDb25maWcsCiAgICB0eXBlIFJlYWx0aW1lQ29uZmlnLAp9IGZyb20gJy4vcmVhbHRpbWVDb250ZXh0JzsKCi8vIOWkqeawlOWPjOa6kOetlueVpe+8muaciSBPV00ga2V5IOi1sCBPV03vvIzlpLHotKUgLyDmsqEga2V5IOWbnuiQveWFjei0ueeahCBPcGVuLU1ldGVv44CCCi8vIE9wZW4tTWV0ZW8g6Lev5b6EID0gZ2VvY29kaW5n77yI5Lit5paH5Z+O5biC5ZCNIOKGkiDlnZDmoIfvvIkrIGZvcmVjYXN077yIV01PIGNvZGUg4oaSIOS4reaWh+aPj+i/sO+8ieOAggoKZnVuY3Rpb24ganNvblJlc3BvbnNlKGJvZHk6IGFueSwgb2sgPSB0cnVlLCBzdGF0dXMgPSAyMDApIHsKICAgIHJldHVybiB7CiAgICAgICAgb2ssCiAgICAgICAgc3RhdHVzLAogICAgICAgIHRleHQ6IGFzeW5jICgpID0+IEpTT04uc3RyaW5naWZ5KGJvZHkpLAogICAgfSBhcyBhbnk7Cn0KCmNvbnN0IEdFT19CRUlKSU5HID0gewogICAgcmVzdWx0czogW3sgbGF0aXR1ZGU6IDM5LjkwNDIsIGxvbmdpdHVkZTogMTE2LjQwNzQsIG5hbWU6ICfljJfkuqzluIInIH1dLAp9OwoKY29uc3QgTUVURU9fQ1VSUkVOVCA9IHsKICAgIGN1cnJlbnQ6IHsKICAgICAgICB0ZW1wZXJhdHVyZV8ybTogMjEuMywKICAgICAgICBhcHBhcmVudF90ZW1wZXJhdHVyZTogMTkuOCwKICAgICAgICByZWxhdGl2ZV9odW1pZGl0eV8ybTogNTUsCiAgICAgICAgd2VhdGhlcl9jb2RlOiA2MSwKICAgIH0sCn07Cgpjb25zdCBPV01fUkVTUE9OU0UgPSB7CiAgICBtYWluOiB7IHRlbXA6IDIwLjYsIGZlZWxzX2xpa2U6IDE5LjIsIGh1bWlkaXR5OiA2MCB9LAogICAgd2VhdGhlcjogW3sgZGVzY3JpcHRpb246ICflpJrkupEnLCBpY29uOiAnMDNkJyB9XSwKICAgIG5hbWU6ICdCZWlqaW5nJywKfTsKCmZ1bmN0aW9uIG1ha2VDb25maWcob3ZlcnJpZGVzOiBQYXJ0aWFsPFJlYWx0aW1lQ29uZmlnPik6IFJlYWx0aW1lQ29uZmlnIHsKICAgIHJldHVybiB7IC4uLmRlZmF1bHRSZWFsdGltZUNvbmZpZywgd2VhdGhlckVuYWJsZWQ6IHRydWUsIC4uLm92ZXJyaWRlcyB9Owp9CgpiZWZvcmVFYWNoKCgpID0+IHsKICAgIFJlYWx0aW1lQ29udGV4dE1hbmFnZXIuY2xlYXJDYWNoZSgpOwogICAgdmkucmVzdG9yZUFsbE1vY2tzKCk7Cn0pOwoKZGVzY3JpYmUoJ2ZldGNoT3Blbk1ldGVvV2VhdGhlcicsICgpID0+IHsKICAgIGl0KCfkuK3mlofln47luILlkI0g4oaSIGdlb2NvZGluZyDihpIgZm9yZWNhc3TvvIxXTU8gY29kZSDmmKDlsITmiJDkuK3mlofmj4/ov7AnLCBhc3luYyAoKSA9PiB7CiAgICAgICAgZ2xvYmFsLmZldGNoID0gdmkuZm4oKQogICAgICAgICAgICAubW9ja1Jlc29sdmVkVmFsdWVPbmNlKGpzb25SZXNwb25zZShHRU9fQkVJSklORykpCiAgICAgICAgICAgIC5tb2NrUmVzb2x2ZWRWYWx1ZU9uY2UoanNvblJlc3BvbnNlKE1FVEVPX0NVUlJFTlQpKTsKCiAgICAgICAgY29uc3Qgd2VhdGhlciA9IGF3YWl0IGZldGNoT3Blbk1ldGVvV2VhdGhlcign5YyX5LqsJyk7CgogICAgICAgIGV4cGVjdCh3ZWF0aGVyKS50b0VxdWFsKHsKICAgICAgICAgICAgdGVtcDogMjEsIGZlZWxzTGlrZTogMjAsIGh1bWlkaXR5OiA1NSwKICAgICAgICAgICAgZGVzY3JpcHRpb246ICflsI/pm6gnLCBpY29uOiAnMTBkJywgY2l0eTogJ+WMl+S6rOW4gicsCiAgICAgICAgfSk7CiAgICAgICAgY29uc3QgZ2VvVXJsID0gdmkubW9ja2VkKGZldGNoKS5tb2NrLmNhbGxzWzBdWzBdIGFzIHN0cmluZzsKICAgICAgICBleHBlY3QoZ2VvVXJsKS50b0NvbnRhaW4oJ2dlb2NvZGluZy1hcGkub3Blbi1tZXRlby5jb20nKTsKICAgICAgICBleHBlY3QoZ2VvVXJsKS50b0NvbnRhaW4oZW5jb2RlVVJJQ29tcG9uZW50KCfljJfkuqwnKSk7CiAgICAgICAgY29uc3QgZm9yZWNhc3RVcmwgPSB2aS5tb2NrZWQoZmV0Y2gpLm1vY2suY2FsbHNbMV1bMF0gYXMgc3RyaW5nOwogICAgICAgIGV4cGVjdChmb3JlY2FzdFVybCkudG9Db250YWluKCdsYXRpdHVkZT0zOS45MDQyJyk7CiAgICB9KTsKCiAgICBpdCgn5ZCM5Z+O5biC56ys5LqM5qyh6LCD55So5ZG95LitIGdlb2NvZGluZyDnvJPlrZjvvIzlj6rmiZMgZm9yZWNhc3QnLCBhc3luYyAoKSA9PiB7CiAgICAgICAgZ2xvYmFsLmZldGNoID0gdmkuZm4oKQogICAgICAgICAgICAubW9ja1Jlc29sdmVkVmFsdWVPbmNlKGpzb25SZXNwb25zZShHRU9fQkVJSklORykpCiAgICAgICAgICAgIC5tb2NrUmVzb2x2ZWRWYWx1ZShqc29uUmVzcG9uc2UoTUVURU9fQ1VSUkVOVCkpOwoKICAgICAgICBhd2FpdCBmZXRjaE9wZW5NZXRlb1dlYXRoZXIoJ+e8k+WtmOWfjicpOwogICAgICAgIGF3YWl0IGZldGNoT3Blbk1ldGVvV2VhdGhlcign57yT5a2Y5Z+OJyk7CgogICAgICAgIGNvbnN0IGdlb0NhbGxzID0gdmkubW9ja2VkKGZldGNoKS5tb2NrLmNhbGxzCiAgICAgICAgICAgIC5maWx0ZXIoYyA9PiAoY1swXSBhcyBzdHJpbmcpLmluY2x1ZGVzKCdnZW9jb2RpbmctYXBpJykpOwogICAgICAgIGV4cGVjdChnZW9DYWxscy5sZW5ndGgpLnRvQmUoMSk7CiAgICB9KTsKCiAgICBpdCgn5Z+O5biC5om+5LiN5Yiw5pe25oqb6ZSZJywgYXN5bmMgKCkgPT4gewogICAgICAgIGdsb2JhbC5mZXRjaCA9IHZpLmZuKCkubW9ja1Jlc29sdmVkVmFsdWUoanNvblJlc3BvbnNlKHsgcmVzdWx0czogW10gfSkpOwogICAgICAgIGF3YWl0IGV4cGVjdChmZXRjaE9wZW5NZXRlb1dlYXRoZXIoJ+S4jeWtmOWcqOeahOWcsOaWuScpKS5yZWplY3RzLnRvVGhyb3coJ+aJvuS4jeWIsOWfjuW4gicpOwogICAgfSk7CgogICAgaXQoJ+acquefpSBXTU8gY29kZSDmj4/ov7DlhZzlupXkuLrjgIzmnKrnn6XjgI0nLCBhc3luYyAoKSA9PiB7CiAgICAgICAgZ2xvYmFsLmZldGNoID0gdmkuZm4oKQogICAgICAgICAgICAubW9ja1Jlc29sdmVkVmFsdWVPbmNlKGpzb25SZXNwb25zZShHRU9fQkVJSklORykpCiAgICAgICAgICAgIC5tb2NrUmVzb2x2ZWRWYWx1ZU9uY2UoanNvblJlc3BvbnNlKHsKICAgICAgICAgICAgICAgIGN1cnJlbnQ6IHsgLi4uTUVURU9fQ1VSUkVOVC5jdXJyZW50LCB3ZWF0aGVyX2NvZGU6IDQyIH0sCiAgICAgICAgICAgIH0pKTsKICAgICAgICBjb25zdCB3ZWF0aGVyID0gYXdhaXQgZmV0Y2hPcGVuTWV0ZW9XZWF0aGVyKCfmnKrnn6XnoIHln44nKTsKICAgICAgICBleHBlY3Qod2VhdGhlci5kZXNjcmlwdGlvbikudG9CZSgn5pyq55+lJyk7CiAgICB9KTsKfSk7CgpkZXNjcmliZSgnUmVhbHRpbWVDb250ZXh0TWFuYWdlci5mZXRjaFdlYXRoZXIg5Y+M5rqQ562W55WlJywgKCkgPT4gewogICAgaXQoJ+ayoeWhqyBrZXkg5pe255u05o6l6LWwIE9wZW4tTWV0ZW8nLCBhc3luYyAoKSA9PiB7CiAgICAgICAgZ2xvYmFsLmZldGNoID0gdmkuZm4oKQogICAgICAgICAgICAubW9ja1Jlc29sdmVkVmFsdWVPbmNlKGpzb25SZXNwb25zZShHRU9fQkVJSklORykpCiAgICAgICAgICAgIC5tb2NrUmVzb2x2ZWRWYWx1ZU9uY2UoanNvblJlc3BvbnNlKE1FVEVPX0NVUlJFTlQpKTsKCiAgICAgICAgY29uc3Qgd2VhdGhlciA9IGF3YWl0IFJlYWx0aW1lQ29udGV4dE1hbmFnZXIuZmV0Y2hXZWF0aGVyKAogICAgICAgICAgICBtYWtlQ29uZmlnKHsgd2VhdGhlckFwaUtleTogJycsIHdlYXRoZXJDaXR5OiAn5YyX5LqsJyB9KSk7CgogICAgICAgIGV4cGVjdCh3ZWF0aGVyPy5kZXNjcmlwdGlvbikudG9CZSgn5bCP6ZuoJyk7CiAgICAgICAgY29uc3QgdXJscyA9IHZpLm1vY2tlZChmZXRjaCkubW9jay5jYWxscy5tYXAoYyA9PiBjWzBdIGFzIHN0cmluZyk7CiAgICAgICAgZXhwZWN0KHVybHMuc29tZSh1ID0+IHUuaW5jbHVkZXMoJ29wZW53ZWF0aGVybWFwJykpKS50b0JlKGZhbHNlKTsKICAgIH0pOwoKICAgIGl0KCfloavkuoYga2V5IOS8mOWFiOi1sCBPV00nLCBhc3luYyAoKSA9PiB7CiAgICAgICAgZ2xvYmFsLmZldGNoID0gdmkuZm4oKS5tb2NrUmVzb2x2ZWRWYWx1ZU9uY2UoanNvblJlc3BvbnNlKE9XTV9SRVNQT05TRSkpOwoKICAgICAgICBjb25zdCB3ZWF0aGVyID0gYXdhaXQgUmVhbHRpbWVDb250ZXh0TWFuYWdlci5mZXRjaFdlYXRoZXIoCiAgICAgICAgICAgIG1ha2VDb25maWcoeyB3ZWF0aGVyQXBpS2V5OiAnazEyMycsIHdlYXRoZXJDaXR5OiAnQmVpamluZycgfSkpOwoKICAgICAgICBleHBlY3Qod2VhdGhlcikudG9FcXVhbCh7CiAgICAgICAgICAgIHRlbXA6IDIxLCBmZWVsc0xpa2U6IDE5LCBodW1pZGl0eTogNjAsCiAgICAgICAgICAgIGRlc2NyaXB0aW9uOiAn5aSa5LqRJywgaWNvbjogJzAzZCcsIGNpdHk6ICdCZWlqaW5nJywKICAgICAgICB9KTsKICAgICAgICBleHBlY3QodmkubW9ja2VkKGZldGNoKS5tb2NrLmNhbGxzWzBdWzBdKS50b0NvbnRhaW4oJ29wZW53ZWF0aGVybWFwJyk7CiAgICB9KTsKCiAgICBpdCgnT1dNIOaMguS6huiHquWKqOWbnuiQvSBPcGVuLU1ldGVv77yI5LiN5YaN55u05o6l6L+U5ZueIG51bGzvvIknLCBhc3luYyAoKSA9PiB7CiAgICAgICAgZ2xvYmFsLmZldGNoID0gdmkuZm4oKQogICAgICAgICAgICAubW9ja1Jlc29sdmVkVmFsdWVPbmNlKGpzb25SZXNwb25zZSh7fSwgZmFsc2UsIDUwMykpIC8vIE9XTSDkuI3nqLPlrpoKICAgICAgICAgICAgLm1vY2tSZXNvbHZlZFZhbHVlT25jZShqc29uUmVzcG9uc2UoR0VPX0JFSUpJTkcpKQogICAgICAgICAgICAubW9ja1Jlc29sdmVkVmFsdWVPbmNlKGpzb25SZXNwb25zZShNRVRFT19DVVJSRU5UKSk7CgogICAgICAgIGNvbnN0IHdlYXRoZXIgPSBhd2FpdCBSZWFsdGltZUNvbnRleHRNYW5hZ2VyLmZldGNoV2VhdGhlcigKICAgICAgICAgICAgbWFrZUNvbmZpZyh7IHdlYXRoZXJBcGlLZXk6ICdrMTIzJywgd2VhdGhlckNpdHk6ICfljJfkuqwnIH0pKTsKCiAgICAgICAgZXhwZWN0KHdlYXRoZXI/LmRlc2NyaXB0aW9uKS50b0JlKCflsI/pm6gnKTsKICAgICAgICBleHBlY3Qod2VhdGhlcj8uY2l0eSkudG9CZSgn5YyX5Lqs5biCJyk7CiAgICB9KTsKCiAgICBpdCgnd2VhdGhlckVuYWJsZWQ9ZmFsc2Ug5oiW5Z+O5biC5Li656m65pe26L+U5ZueIG51bGwg5LiU5LiN5Y+R6K+35rGCJywgYXN5bmMgKCkgPT4gewogICAgICAgIGdsb2JhbC5mZXRjaCA9IHZpLmZuKCk7CiAgICAgICAgZXhwZWN0KGF3YWl0IFJlYWx0aW1lQ29udGV4dE1hbmFnZXIuZmV0Y2hXZWF0aGVyKAogICAgICAgICAgICBtYWtlQ29uZmlnKHsgd2VhdGhlckVuYWJsZWQ6IGZhbHNlIH0pKSkudG9CZU51bGwoKTsKICAgICAgICBleHBlY3QoYXdhaXQgUmVhbHRpbWVDb250ZXh0TWFuYWdlci5mZXRjaFdlYXRoZXIoCiAgICAgICAgICAgIG1ha2VDb25maWcoeyB3ZWF0aGVyQ2l0eTogJycgfSkpKS50b0JlTnVsbCgpOwogICAgICAgIGV4cGVjdChmZXRjaCkubm90LnRvSGF2ZUJlZW5DYWxsZWQoKTsKICAgIH0pOwoKICAgIGl0KCfkuKTkuKrmupDpg73mjILml7bov5Tlm54gbnVsbCDkuI3mipvplJknLCBhc3luYyAoKSA9PiB7CiAgICAgICAgZ2xvYmFsLmZldGNoID0gdmkuZm4oKS5tb2NrUmVzb2x2ZWRWYWx1ZShqc29uUmVzcG9uc2Uoe30sIGZhbHNlLCA1MDApKTsKICAgICAgICBjb25zdCB3ZWF0aGVyID0gYXdhaXQgUmVhbHRpbWVDb250ZXh0TWFuYWdlci5mZXRjaFdlYXRoZXIoCiAgICAgICAgICAgIG1ha2VDb25maWcoeyB3ZWF0aGVyQXBpS2V5OiAnJywgd2VhdGhlckNpdHk6ICfljJfkuqwnIH0pKTsKICAgICAgICBleHBlY3Qod2VhdGhlcikudG9CZU51bGwoKTsKICAgIH0pOwp9KTsK
+import { describe, it, expect, vi, beforeEach } from 'vitest';
+import {
+    RealtimeContextManager,
+    fetchOpenMeteoWeather,
+    defaultRealtimeConfig,
+    type RealtimeConfig,
+} from './realtimeContext';
+
+// 天气双源策略：有 OWM key 走 OWM，失败 / 没 key 回落免费的 Open-Meteo。
+// Open-Meteo 路径 = geocoding（中文城市名 → 坐标）+ forecast（WMO code → 中文描述）。
+
+function jsonResponse(body: any, ok = true, status = 200) {
+    return {
+        ok,
+        status,
+        text: async () => JSON.stringify(body),
+    } as any;
+}
+
+const GEO_BEIJING = {
+    results: [{ latitude: 39.9042, longitude: 116.4074, name: '北京市' }],
+};
+
+const METEO_CURRENT = {
+    current: {
+        temperature_2m: 21.3,
+        apparent_temperature: 19.8,
+        relative_humidity_2m: 55,
+        weather_code: 61,
+    },
+};
+
+const OWM_RESPONSE = {
+    main: { temp: 20.6, feels_like: 19.2, humidity: 60 },
+    weather: [{ description: '多云', icon: '03d' }],
+    name: 'Beijing',
+};
+
+function makeConfig(overrides: Partial<RealtimeConfig>): RealtimeConfig {
+    return { ...defaultRealtimeConfig, weatherEnabled: true, ...overrides };
+}
+
+beforeEach(() => {
+    RealtimeContextManager.clearCache();
+    vi.restoreAllMocks();
+});
+
+describe('fetchOpenMeteoWeather', () => {
+    it('中文城市名 → geocoding → forecast，WMO code 映射成中文描述', async () => {
+        global.fetch = vi.fn()
+            .mockResolvedValueOnce(jsonResponse(GEO_BEIJING))
+            .mockResolvedValueOnce(jsonResponse(METEO_CURRENT));
+
+        const weather = await fetchOpenMeteoWeather('北京');
+
+        expect(weather).toEqual({
+            temp: 21, feelsLike: 20, humidity: 55,
+            description: '小雨', icon: '10d', city: '北京市',
+        });
+        const geoUrl = vi.mocked(fetch).mock.calls[0][0] as string;
+        expect(geoUrl).toContain('geocoding-api.open-meteo.com');
+        expect(geoUrl).toContain(encodeURIComponent('北京'));
+        const forecastUrl = vi.mocked(fetch).mock.calls[1][0] as string;
+        expect(forecastUrl).toContain('latitude=39.9042');
+    });
+
+    it('同城市第二次调用命中 geocoding 缓存，只打 forecast', async () => {
+        global.fetch = vi.fn()
+            .mockResolvedValueOnce(jsonResponse(GEO_BEIJING))
+            .mockResolvedValue(jsonResponse(METEO_CURRENT));
+
+        await fetchOpenMeteoWeather('缓存城');
+        await fetchOpenMeteoWeather('缓存城');
+
+        const geoCalls = vi.mocked(fetch).mock.calls
+            .filter(c => (c[0] as string).includes('geocoding-api'));
+        expect(geoCalls.length).toBe(1);
+    });
+
+    it('城市找不到时抛错', async () => {
+        global.fetch = vi.fn().mockResolvedValue(jsonResponse({ results: [] }));
+        await expect(fetchOpenMeteoWeather('不存在的地方')).rejects.toThrow('找不到城市');
+    });
+
+    it('未知 WMO code 描述兜底为「未知」', async () => {
+        global.fetch = vi.fn()
+            .mockResolvedValueOnce(jsonResponse(GEO_BEIJING))
+            .mockResolvedValueOnce(jsonResponse({
+                current: { ...METEO_CURRENT.current, weather_code: 42 },
+            }));
+        const weather = await fetchOpenMeteoWeather('未知码城');
+        expect(weather.description).toBe('未知');
+    });
+});
+
+describe('RealtimeContextManager.fetchWeather 双源策略', () => {
+    it('没填 key 时直接走 Open-Meteo', async () => {
+        global.fetch = vi.fn()
+            .mockResolvedValueOnce(jsonResponse(GEO_BEIJING))
+            .mockResolvedValueOnce(jsonResponse(METEO_CURRENT));
+
+        const weather = await RealtimeContextManager.fetchWeather(
+            makeConfig({ weatherApiKey: '', weatherCity: '北京' }));
+
+        expect(weather?.description).toBe('小雨');
+        const urls = vi.mocked(fetch).mock.calls.map(c => c[0] as string);
+        expect(urls.some(u => u.includes('openweathermap'))).toBe(false);
+    });
+
+    it('填了 key 优先走 OWM', async () => {
+        global.fetch = vi.fn().mockResolvedValueOnce(jsonResponse(OWM_RESPONSE));
+
+        const weather = await RealtimeContextManager.fetchWeather(
+            makeConfig({ weatherApiKey: 'k123', weatherCity: 'Beijing' }));
+
+        expect(weather).toEqual({
+            temp: 21, feelsLike: 19, humidity: 60,
+            description: '多云', icon: '03d', city: 'Beijing',
+        });
+        expect(vi.mocked(fetch).mock.calls[0][0]).toContain('openweathermap');
+    });
+
+    it('OWM 挂了自动回落 Open-Meteo（不再直接返回 null）', async () => {
+        global.fetch = vi.fn()
+            .mockResolvedValueOnce(jsonResponse({}, false, 503)) // OWM 不稳定
+            .mockResolvedValueOnce(jsonResponse(GEO_BEIJING))
+            .mockResolvedValueOnce(jsonResponse(METEO_CURRENT));
+
+        const weather = await RealtimeContextManager.fetchWeather(
+            makeConfig({ weatherApiKey: 'k123', weatherCity: '北京' }));
+
+        expect(weather?.description).toBe('小雨');
+        expect(weather?.city).toBe('北京市');
+    });
+
+    it('weatherEnabled=false 或城市为空时返回 null 且不发请求', async () => {
+        global.fetch = vi.fn();
+        expect(await RealtimeContextManager.fetchWeather(
+            makeConfig({ weatherEnabled: false }))).toBeNull();
+        expect(await RealtimeContextManager.fetchWeather(
+            makeConfig({ weatherCity: '' }))).toBeNull();
+        expect(fetch).not.toHaveBeenCalled();
+    });
+
+    it('两个源都挂时返回 null 不抛错', async () => {
+        global.fetch = vi.fn().mockResolvedValue(jsonResponse({}, false, 500));
+        const weather = await RealtimeContextManager.fetchWeather(
+            makeConfig({ weatherApiKey: '', weatherCity: '北京' }));
+        expect(weather).toBeNull();
+    });
+});

@@ -1,1 +1,86 @@
-aW1wb3J0IHsgZGVzY3JpYmUsIGl0LCBleHBlY3QsIGJlZm9yZUVhY2ggfSBmcm9tICd2aXRlc3QnOwppbXBvcnQgewogICAgZ2V0QmFja3VwUmVtaW5kZXJTdGF0ZSwKICAgIHNldEJhY2t1cFJlbWluZGVySW50ZXJ2YWxEYXlzLAogICAgbWFya0JhY2t1cERvbmUsCiAgICBtYXJrQmFja3VwUmVtaW5kZXJTaG93biwKICAgIHNob3VsZFNob3dCYWNrdXBSZW1pbmRlciwKICAgIGRheXNTaW5jZUxhc3RCYWNrdXAsCiAgICBjbGFtcFJlbWluZGVyRGF5cywKICAgIEJBQ0tVUF9SRU1JTkRFUl9ERUZBVUxUX0RBWVMsCn0gZnJvbSAnLi9iYWNrdXBSZW1pbmRlcic7Cgpjb25zdCBEQVkgPSAyNCAqIDYwICogNjAgKiAxMDAwOwpjb25zdCBUMCA9IDFfNzAwXzAwMF8wMDBfMDAwOyAvLyDlm7rlrprln7rlh4bml7bpl7TvvIzpgb/lvIAgRGF0ZS5ub3coKQoKYmVmb3JlRWFjaCgoKSA9PiB7CiAgICBsb2NhbFN0b3JhZ2UuY2xlYXIoKTsKfSk7CgpkZXNjcmliZSgnY2xhbXBSZW1pbmRlckRheXMnLCAoKSA9PiB7CiAgICBpdCgn5aS55ZyoIDF+MzDvvIzlj5bmlbTvvIzpnZ7ms5XlgLzlm57pu5jorqQnLCAoKSA9PiB7CiAgICAgICAgZXhwZWN0KGNsYW1wUmVtaW5kZXJEYXlzKDApKS50b0JlKDEpOwogICAgICAgIGV4cGVjdChjbGFtcFJlbWluZGVyRGF5cyg5OTkpKS50b0JlKDMwKTsKICAgICAgICBleHBlY3QoY2xhbXBSZW1pbmRlckRheXMoNy42KSkudG9CZSg4KTsKICAgICAgICBleHBlY3QoY2xhbXBSZW1pbmRlckRheXMoTmFOKSkudG9CZShCQUNLVVBfUkVNSU5ERVJfREVGQVVMVF9EQVlTKTsKICAgIH0pOwp9KTsKCmRlc2NyaWJlKCdnZXRCYWNrdXBSZW1pbmRlclN0YXRlJywgKCkgPT4gewogICAgaXQoJ+mmluasoeivu+WPlumUmuWumiBmaXJzdFNlZW5BdCDlubblm57lhpnvvIzpu5jorqTpl7TpmpQgNyDlpKknLCAoKSA9PiB7CiAgICAgICAgY29uc3Qgc3QgPSBnZXRCYWNrdXBSZW1pbmRlclN0YXRlKFQwKTsKICAgICAgICBleHBlY3Qoc3QuaW50ZXJ2YWxEYXlzKS50b0JlKEJBQ0tVUF9SRU1JTkRFUl9ERUZBVUxUX0RBWVMpOwogICAgICAgIGV4cGVjdChzdC5maXJzdFNlZW5BdCkudG9CZShUMCk7CiAgICAgICAgZXhwZWN0KHN0Lmxhc3RCYWNrdXBBdCkudG9CZSgwKTsKICAgICAgICAvLyDlm57lhpnlkI7lho3or7vvvIxmaXJzdFNlZW5BdCDkuI3lho3pmo8gbm93IOWPmAogICAgICAgIGV4cGVjdChnZXRCYWNrdXBSZW1pbmRlclN0YXRlKFQwICsgNSAqIERBWSkuZmlyc3RTZWVuQXQpLnRvQmUoVDApOwogICAgfSk7Cn0pOwoKZGVzY3JpYmUoJ3Nob3VsZFNob3dCYWNrdXBSZW1pbmRlcicsICgpID0+IHsKICAgIGl0KCfmlrDnlKjmiLfliJrov5vmnaXvvIjmnKrliLDpl7TpmpTvvInkuI3lvLknLCAoKSA9PiB7CiAgICAgICAgZ2V0QmFja3VwUmVtaW5kZXJTdGF0ZShUMCk7IC8vIOmUmiBmaXJzdFNlZW5BdCA9IFQwCiAgICAgICAgZXhwZWN0KHNob3VsZFNob3dCYWNrdXBSZW1pbmRlcihUMCArIDMgKiBEQVkpKS50b0JlKGZhbHNlKTsKICAgIH0pOwoKICAgIGl0KCfku47mnKrlpIfku73kuJTotoXov4fpl7TpmpQg4oaSIOW8uScsICgpID0+IHsKICAgICAgICBnZXRCYWNrdXBSZW1pbmRlclN0YXRlKFQwKTsKICAgICAgICBleHBlY3Qoc2hvdWxkU2hvd0JhY2t1cFJlbWluZGVyKFQwICsgOCAqIERBWSkpLnRvQmUodHJ1ZSk7CiAgICB9KTsKCiAgICBpdCgn5by56L+H5LmL5ZCO6L+b5YWl5LiA5Liq6Ze06ZqU55qE5Ya35Y2077yM5LiN5YaN6L+e5by5JywgKCkgPT4gewogICAgICAgIGdldEJhY2t1cFJlbWluZGVyU3RhdGUoVDApOwogICAgICAgIGV4cGVjdChzaG91bGRTaG93QmFja3VwUmVtaW5kZXIoVDAgKyA4ICogREFZKSkudG9CZSh0cnVlKTsKICAgICAgICBtYXJrQmFja3VwUmVtaW5kZXJTaG93bihUMCArIDggKiBEQVkpOwogICAgICAgIGV4cGVjdChzaG91bGRTaG93QmFja3VwUmVtaW5kZXIoVDAgKyA5ICogREFZKSkudG9CZShmYWxzZSk7IC8vIOWGt+WNtOS4rQogICAgICAgIGV4cGVjdChzaG91bGRTaG93QmFja3VwUmVtaW5kZXIoVDAgKyAxNiAqIERBWSkpLnRvQmUodHJ1ZSk7ICAvLyDlj4jov4fkuobkuIDkuKrpl7TpmpQKICAgIH0pOwoKICAgIGl0KCflpIfku73miJDlip/lkI7kuI3lho3lvLnvvIzkuJTmuIXmjonmj5DphpLlhrfljbQnLCAoKSA9PiB7CiAgICAgICAgZ2V0QmFja3VwUmVtaW5kZXJTdGF0ZShUMCk7CiAgICAgICAgbWFya0JhY2t1cFJlbWluZGVyU2hvd24oVDAgKyA4ICogREFZKTsKICAgICAgICBtYXJrQmFja3VwRG9uZShUMCArIDkgKiBEQVkpOwogICAgICAgIGV4cGVjdChnZXRCYWNrdXBSZW1pbmRlclN0YXRlKCkubGFzdFJlbWluZGVkQXQpLnRvQmUoMCk7CiAgICAgICAgZXhwZWN0KHNob3VsZFNob3dCYWNrdXBSZW1pbmRlcihUMCArIDEwICogREFZKSkudG9CZShmYWxzZSk7CiAgICAgICAgLy8g6Led5LiK5qyh5aSH5Lu95YaN5qyh6LaF6L+H6Ze06ZqU5omN5Lya6YeN5paw5by5CiAgICAgICAgZXhwZWN0KHNob3VsZFNob3dCYWNrdXBSZW1pbmRlcihUMCArIDE3ICogREFZKSkudG9CZSh0cnVlKTsKICAgIH0pOwoKICAgIGl0KCfpl7TpmpTlj6/osIPvvJrorr7miJAgMSDlpKnlkI7pmpTlpKnlsLHlvLknLCAoKSA9PiB7CiAgICAgICAgZ2V0QmFja3VwUmVtaW5kZXJTdGF0ZShUMCk7CiAgICAgICAgc2V0QmFja3VwUmVtaW5kZXJJbnRlcnZhbERheXMoMSwgVDApOwogICAgICAgIGV4cGVjdChzaG91bGRTaG93QmFja3VwUmVtaW5kZXIoVDAgKyAxMiAqIDYwICogNjAgKiAxMDAwKSkudG9CZShmYWxzZSk7IC8vIOWNiuWkqQogICAgICAgIGV4cGVjdChzaG91bGRTaG93QmFja3VwUmVtaW5kZXIoVDAgKyAxLjUgKiBEQVkpKS50b0JlKHRydWUpOwogICAgfSk7Cn0pOwoKZGVzY3JpYmUoJ2RheXNTaW5jZUxhc3RCYWNrdXAnLCAoKSA9PiB7CiAgICBpdCgn5LuO5pyq5aSH5Lu96L+U5ZueIG51bGwnLCAoKSA9PiB7CiAgICAgICAgZ2V0QmFja3VwUmVtaW5kZXJTdGF0ZShUMCk7CiAgICAgICAgZXhwZWN0KGRheXNTaW5jZUxhc3RCYWNrdXAoVDAgKyAzICogREFZKSkudG9CZU51bGwoKTsKICAgIH0pOwogICAgaXQoJ+Wkh+S7veWQjuaMieWkqeaVsOWQkeS4i+WPluaVtCcsICgpID0+IHsKICAgICAgICBtYXJrQmFja3VwRG9uZShUMCk7CiAgICAgICAgZXhwZWN0KGRheXNTaW5jZUxhc3RCYWNrdXAoVDAgKyAzLjkgKiBEQVkpKS50b0JlKDMpOwogICAgfSk7Cn0pOwo=
+import { describe, it, expect, beforeEach } from 'vitest';
+import {
+    getBackupReminderState,
+    setBackupReminderIntervalDays,
+    markBackupDone,
+    markBackupReminderShown,
+    shouldShowBackupReminder,
+    daysSinceLastBackup,
+    clampReminderDays,
+    BACKUP_REMINDER_DEFAULT_DAYS,
+} from './backupReminder';
+
+const DAY = 24 * 60 * 60 * 1000;
+const T0 = 1_700_000_000_000; // 固定基准时间，避开 Date.now()
+
+beforeEach(() => {
+    localStorage.clear();
+});
+
+describe('clampReminderDays', () => {
+    it('夹在 1~30，取整，非法值回默认', () => {
+        expect(clampReminderDays(0)).toBe(1);
+        expect(clampReminderDays(999)).toBe(30);
+        expect(clampReminderDays(7.6)).toBe(8);
+        expect(clampReminderDays(NaN)).toBe(BACKUP_REMINDER_DEFAULT_DAYS);
+    });
+});
+
+describe('getBackupReminderState', () => {
+    it('首次读取锚定 firstSeenAt 并回写，默认间隔 7 天', () => {
+        const st = getBackupReminderState(T0);
+        expect(st.intervalDays).toBe(BACKUP_REMINDER_DEFAULT_DAYS);
+        expect(st.firstSeenAt).toBe(T0);
+        expect(st.lastBackupAt).toBe(0);
+        // 回写后再读，firstSeenAt 不再随 now 变
+        expect(getBackupReminderState(T0 + 5 * DAY).firstSeenAt).toBe(T0);
+    });
+});
+
+describe('shouldShowBackupReminder', () => {
+    it('新用户刚进来（未到间隔）不弹', () => {
+        getBackupReminderState(T0); // 锚 firstSeenAt = T0
+        expect(shouldShowBackupReminder(T0 + 3 * DAY)).toBe(false);
+    });
+
+    it('从未备份且超过间隔 → 弹', () => {
+        getBackupReminderState(T0);
+        expect(shouldShowBackupReminder(T0 + 8 * DAY)).toBe(true);
+    });
+
+    it('弹过之后进入一个间隔的冷却，不再连弹', () => {
+        getBackupReminderState(T0);
+        expect(shouldShowBackupReminder(T0 + 8 * DAY)).toBe(true);
+        markBackupReminderShown(T0 + 8 * DAY);
+        expect(shouldShowBackupReminder(T0 + 9 * DAY)).toBe(false); // 冷却中
+        expect(shouldShowBackupReminder(T0 + 16 * DAY)).toBe(true);  // 又过了一个间隔
+    });
+
+    it('备份成功后不再弹，且清掉提醒冷却', () => {
+        getBackupReminderState(T0);
+        markBackupReminderShown(T0 + 8 * DAY);
+        markBackupDone(T0 + 9 * DAY);
+        expect(getBackupReminderState().lastRemindedAt).toBe(0);
+        expect(shouldShowBackupReminder(T0 + 10 * DAY)).toBe(false);
+        // 距上次备份再次超过间隔才会重新弹
+        expect(shouldShowBackupReminder(T0 + 17 * DAY)).toBe(true);
+    });
+
+    it('间隔可调：设成 1 天后隔天就弹', () => {
+        getBackupReminderState(T0);
+        setBackupReminderIntervalDays(1, T0);
+        expect(shouldShowBackupReminder(T0 + 12 * 60 * 60 * 1000)).toBe(false); // 半天
+        expect(shouldShowBackupReminder(T0 + 1.5 * DAY)).toBe(true);
+    });
+});
+
+describe('daysSinceLastBackup', () => {
+    it('从未备份返回 null', () => {
+        getBackupReminderState(T0);
+        expect(daysSinceLastBackup(T0 + 3 * DAY)).toBeNull();
+    });
+    it('备份后按天数向下取整', () => {
+        markBackupDone(T0);
+        expect(daysSinceLastBackup(T0 + 3.9 * DAY)).toBe(3);
+    });
+});

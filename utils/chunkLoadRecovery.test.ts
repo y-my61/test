@@ -1,1 +1,67 @@
-aW1wb3J0IHsgZGVzY3JpYmUsIGl0LCBleHBlY3QsIHZpLCBhZnRlckVhY2ggfSBmcm9tICd2aXRlc3QnOwppbXBvcnQgeyBpc0NodW5rTG9hZEVycm9yLCB0cnlBdXRvUmVsb2FkRm9yQ2h1bmtFcnJvciB9IGZyb20gJy4vY2h1bmtMb2FkUmVjb3ZlcnknOwoKLy8g6ZSB5L2PICJJbXBvcnRpbmcgYSBtb2R1bGUgc2NyaXB0IGZhaWxlZC4iIOiHquaEiOmTvui3rzoKLy8gaU9TIFNhZmFyaSBzdGFuZGFsb25lIFBXQSDkuIvliqjmgIEgaW1wb3J0IOWksei0peS8muiiq+e8k+WtmOi/m+aooeWdl+ihqCwg5pys6aG15YaF6YeN6K+V5b+F5aSx6LSlLAovLyDlj6rmnInmlbTpobUgcmVsb2FkIOiDveaBouWkjSDigJQgQXBwRXJyb3JCb3VuZGFyeSDpnaDov5nkuKTkuKrlh73mlbDor4bliKsgKyDoh6rliqjliLfmlrAgKOW4pumYsuW+queOr+WGt+WNtCnjgIIKCmRlc2NyaWJlKCdpc0NodW5rTG9hZEVycm9yJywgKCkgPT4gewogICAgaXQoJ+ivhuWIq+WQhOa1j+iniOWZqOeahCBjaHVuayDliqDovb3lpLHotKXmjIfnurknLCAoKSA9PiB7CiAgICAgICAgLy8gaU9TIC8gbWFjT1MgU2FmYXJpICjnlKjmiLfmiqXplJnljp/mlocpCiAgICAgICAgZXhwZWN0KGlzQ2h1bmtMb2FkRXJyb3IobmV3IFR5cGVFcnJvcignSW1wb3J0aW5nIGEgbW9kdWxlIHNjcmlwdCBmYWlsZWQuJykpKS50b0JlKHRydWUpOwogICAgICAgIC8vIENocm9tZQogICAgICAgIGV4cGVjdChpc0NodW5rTG9hZEVycm9yKG5ldyBUeXBlRXJyb3IoJ0ZhaWxlZCB0byBmZXRjaCBkeW5hbWljYWxseSBpbXBvcnRlZCBtb2R1bGU6IGh0dHBzOi8veC5kZXYvYXNzZXRzL0NoYXQtQ2syZi5qcycpKSkudG9CZSh0cnVlKTsKICAgICAgICAvLyBGaXJlZm94CiAgICAgICAgZXhwZWN0KGlzQ2h1bmtMb2FkRXJyb3IobmV3IFR5cGVFcnJvcignZXJyb3IgbG9hZGluZyBkeW5hbWljYWxseSBpbXBvcnRlZCBtb2R1bGUnKSkpLnRvQmUodHJ1ZSk7CiAgICAgICAgLy8gVml0ZSBDU1Mg5L6d6LWW6aKE6L295aSx6LSlCiAgICAgICAgZXhwZWN0KGlzQ2h1bmtMb2FkRXJyb3IobmV3IEVycm9yKCdVbmFibGUgdG8gcHJlbG9hZCBDU1MgZm9yIC9hc3NldHMvQ2hhdC1EM3hxLmNzcycpKSkudG9CZSh0cnVlKTsKICAgICAgICAvLyDlrZfnrKbkuLLlvaLmgIHkuZ/mjqXlj5cKICAgICAgICBleHBlY3QoaXNDaHVua0xvYWRFcnJvcignSW1wb3J0aW5nIGEgbW9kdWxlIHNjcmlwdCBmYWlsZWQuJykpLnRvQmUodHJ1ZSk7CiAgICB9KTsKCiAgICBpdCgn5pmu6YCa6L+Q6KGM5pe26ZSZ6K+v5LiN6K+v5YikJywgKCkgPT4gewogICAgICAgIGV4cGVjdChpc0NodW5rTG9hZEVycm9yKG5ldyBUeXBlRXJyb3IoIkNhbm5vdCByZWFkIHByb3BlcnRpZXMgb2YgdW5kZWZpbmVkIChyZWFkaW5nICdtYXAnKSIpKSkudG9CZShmYWxzZSk7CiAgICAgICAgZXhwZWN0KGlzQ2h1bmtMb2FkRXJyb3IobmV3IEVycm9yKCdOZXR3b3JrIHJlcXVlc3QgZmFpbGVkJykpKS50b0JlKGZhbHNlKTsKICAgICAgICBleHBlY3QoaXNDaHVua0xvYWRFcnJvcihudWxsKSkudG9CZShmYWxzZSk7CiAgICAgICAgZXhwZWN0KGlzQ2h1bmtMb2FkRXJyb3IodW5kZWZpbmVkKSkudG9CZShmYWxzZSk7CiAgICAgICAgZXhwZWN0KGlzQ2h1bmtMb2FkRXJyb3IoNDIpKS50b0JlKGZhbHNlKTsKICAgIH0pOwp9KTsKCmRlc2NyaWJlKCd0cnlBdXRvUmVsb2FkRm9yQ2h1bmtFcnJvcicsICgpID0+IHsKICAgIGFmdGVyRWFjaCgoKSA9PiB7CiAgICAgICAgdmkudW5zdHViQWxsR2xvYmFscygpOwogICAgfSk7CgogICAgY29uc3Qgc3R1YkVudiA9ICgpID0+IHsKICAgICAgICBjb25zdCBzdG9yZSA9IG5ldyBNYXA8c3RyaW5nLCBzdHJpbmc+KCk7CiAgICAgICAgY29uc3QgcmVsb2FkID0gdmkuZm4oKTsKICAgICAgICB2aS5zdHViR2xvYmFsKCdzZXNzaW9uU3RvcmFnZScsIHsKICAgICAgICAgICAgZ2V0SXRlbTogKGs6IHN0cmluZykgPT4gKHN0b3JlLmhhcyhrKSA/IHN0b3JlLmdldChrKSEgOiBudWxsKSwKICAgICAgICAgICAgc2V0SXRlbTogKGs6IHN0cmluZywgdjogc3RyaW5nKSA9PiB7IHN0b3JlLnNldChrLCBTdHJpbmcodikpOyB9LAogICAgICAgIH0pOwogICAgICAgIHZpLnN0dWJHbG9iYWwoJ3dpbmRvdycsIHsgbG9jYXRpb246IHsgcmVsb2FkIH0gfSk7CiAgICAgICAgcmV0dXJuIHsgcmVsb2FkIH07CiAgICB9OwoKICAgIGl0KCfpppbmrKHop6blj5E6IOiusOW9leaXtumXtOaIs+W5tuaVtOmhteWIt+aWsCcsICgpID0+IHsKICAgICAgICBjb25zdCB7IHJlbG9hZCB9ID0gc3R1YkVudigpOwogICAgICAgIGV4cGVjdCh0cnlBdXRvUmVsb2FkRm9yQ2h1bmtFcnJvcigpKS50b0JlKHRydWUpOwogICAgICAgIGV4cGVjdChyZWxvYWQpLnRvSGF2ZUJlZW5DYWxsZWRUaW1lcygxKTsKICAgIH0pOwoKICAgIGl0KCflhrfljbTmnJ/lhoXlho3op6blj5E6IOS4jeWGjeiHquWKqOWIt+aWsCAo6Ziy5b6q546vKSwg55WZ57uZ5omL5Yqo5oyJ6ZKuJywgKCkgPT4gewogICAgICAgIGNvbnN0IHsgcmVsb2FkIH0gPSBzdHViRW52KCk7CiAgICAgICAgZXhwZWN0KHRyeUF1dG9SZWxvYWRGb3JDaHVua0Vycm9yKCkpLnRvQmUodHJ1ZSk7CiAgICAgICAgZXhwZWN0KHRyeUF1dG9SZWxvYWRGb3JDaHVua0Vycm9yKCkpLnRvQmUoZmFsc2UpOwogICAgICAgIGV4cGVjdChyZWxvYWQpLnRvSGF2ZUJlZW5DYWxsZWRUaW1lcygxKTsKICAgIH0pOwoKICAgIGl0KCdzZXNzaW9uU3RvcmFnZSDkuI3lj6/nlKjml7bkuI3oh6rliqjliLfmlrAgKOayoeazlemYsuW+queOryknLCAoKSA9PiB7CiAgICAgICAgY29uc3QgcmVsb2FkID0gdmkuZm4oKTsKICAgICAgICB2aS5zdHViR2xvYmFsKCd3aW5kb3cnLCB7IGxvY2F0aW9uOiB7IHJlbG9hZCB9IH0pOwogICAgICAgIC8vIOS4jSBzdHViIHNlc3Npb25TdG9yYWdlIOKGkiDorr/pl67mipsgUmVmZXJlbmNlRXJyb3Ig4oaSIOWGhemDqCBjYXRjaCDihpIg5LiN6Ieq5Yi3CiAgICAgICAgZXhwZWN0KHRyeUF1dG9SZWxvYWRGb3JDaHVua0Vycm9yKCkpLnRvQmUoZmFsc2UpOwogICAgICAgIGV4cGVjdChyZWxvYWQpLm5vdC50b0hhdmVCZWVuQ2FsbGVkKCk7CiAgICB9KTsKfSk7Cg==
+import { describe, it, expect, vi, afterEach } from 'vitest';
+import { isChunkLoadError, tryAutoReloadForChunkError } from './chunkLoadRecovery';
+
+// 锁住 "Importing a module script failed." 自愈链路:
+// iOS Safari standalone PWA 下动态 import 失败会被缓存进模块表, 本页内重试必失败,
+// 只有整页 reload 能恢复 — AppErrorBoundary 靠这两个函数识别 + 自动刷新 (带防循环冷却)。
+
+describe('isChunkLoadError', () => {
+    it('识别各浏览器的 chunk 加载失败指纹', () => {
+        // iOS / macOS Safari (用户报错原文)
+        expect(isChunkLoadError(new TypeError('Importing a module script failed.'))).toBe(true);
+        // Chrome
+        expect(isChunkLoadError(new TypeError('Failed to fetch dynamically imported module: https://x.dev/assets/Chat-Ck2f.js'))).toBe(true);
+        // Firefox
+        expect(isChunkLoadError(new TypeError('error loading dynamically imported module'))).toBe(true);
+        // Vite CSS 依赖预载失败
+        expect(isChunkLoadError(new Error('Unable to preload CSS for /assets/Chat-D3xq.css'))).toBe(true);
+        // 字符串形态也接受
+        expect(isChunkLoadError('Importing a module script failed.')).toBe(true);
+    });
+
+    it('普通运行时错误不误判', () => {
+        expect(isChunkLoadError(new TypeError("Cannot read properties of undefined (reading 'map')"))).toBe(false);
+        expect(isChunkLoadError(new Error('Network request failed'))).toBe(false);
+        expect(isChunkLoadError(null)).toBe(false);
+        expect(isChunkLoadError(undefined)).toBe(false);
+        expect(isChunkLoadError(42)).toBe(false);
+    });
+});
+
+describe('tryAutoReloadForChunkError', () => {
+    afterEach(() => {
+        vi.unstubAllGlobals();
+    });
+
+    const stubEnv = () => {
+        const store = new Map<string, string>();
+        const reload = vi.fn();
+        vi.stubGlobal('sessionStorage', {
+            getItem: (k: string) => (store.has(k) ? store.get(k)! : null),
+            setItem: (k: string, v: string) => { store.set(k, String(v)); },
+        });
+        vi.stubGlobal('window', { location: { reload } });
+        return { reload };
+    };
+
+    it('首次触发: 记录时间戳并整页刷新', () => {
+        const { reload } = stubEnv();
+        expect(tryAutoReloadForChunkError()).toBe(true);
+        expect(reload).toHaveBeenCalledTimes(1);
+    });
+
+    it('冷却期内再触发: 不再自动刷新 (防循环), 留给手动按钮', () => {
+        const { reload } = stubEnv();
+        expect(tryAutoReloadForChunkError()).toBe(true);
+        expect(tryAutoReloadForChunkError()).toBe(false);
+        expect(reload).toHaveBeenCalledTimes(1);
+    });
+
+    it('sessionStorage 不可用时不自动刷新 (没法防循环)', () => {
+        const reload = vi.fn();
+        vi.stubGlobal('window', { location: { reload } });
+        // 不 stub sessionStorage → 访问抛 ReferenceError → 内部 catch → 不自刷
+        expect(tryAutoReloadForChunkError()).toBe(false);
+        expect(reload).not.toHaveBeenCalled();
+    });
+});

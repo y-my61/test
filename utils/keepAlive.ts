@@ -1,1 +1,58 @@
-LyoqCiAqIEtlZXAtQWxpdmUgdXRpbGl0eSDigJQgc2lnbmFscyB0aGUgU2VydmljZSBXb3JrZXIgdG8gcHJldmVudCBiYWNrZ3JvdW5kIHN1c3BlbnNpb24KICogZHVyaW5nIGxvbmctcnVubmluZyBBSSBBUEkgY2FsbHMgKGVzcGVjaWFsbHkgb24gbW9iaWxlIC8gQ2FwYWNpdG9yKS4KICoKICogVXNhZ2U6CiAqICAgaW1wb3J0IHsgS2VlcEFsaXZlIH0gZnJvbSAnLi4vdXRpbHMva2VlcEFsaXZlJzsKICoKICogICBLZWVwQWxpdmUuc3RhcnQoKTsgICAvLyBiZWZvcmUgQVBJIGNhbGwKICogICBhd2FpdCBmZXRjaCguLi4pOwogKiAgIEtlZXBBbGl2ZS5zdG9wKCk7ICAgIC8vIGFmdGVyIEFQSSBjYWxsIGNvbXBsZXRlcwogKi8KCmxldCByZWdpc3RlcmVkID0gZmFsc2U7Cgphc3luYyBmdW5jdGlvbiBlbnN1cmVSZWdpc3RlcmVkKCk6IFByb21pc2U8dm9pZD4gewogIGlmIChyZWdpc3RlcmVkIHx8ICEoJ3NlcnZpY2VXb3JrZXInIGluIG5hdmlnYXRvcikpIHJldHVybjsKICB0cnkgewogICAgY29uc3QgYmFzZSA9IGltcG9ydC5tZXRhLmVudi5CQVNFX1VSTCB8fCAnLyc7CiAgICBjb25zdCBzY3JpcHRVcmwgPSBiYXNlICsgJ3N3LWtlZXAtYWxpdmUuanMnOwogICAgY29uc3QgcmVnID0gYXdhaXQgbmF2aWdhdG9yLnNlcnZpY2VXb3JrZXIucmVnaXN0ZXIoc2NyaXB0VXJsLCB7IHNjb3BlOiBiYXNlIH0pOwogICAgYXdhaXQgbmF2aWdhdG9yLnNlcnZpY2VXb3JrZXIucmVhZHk7CiAgICByZWdpc3RlcmVkID0gdHJ1ZTsKICAgIGNvbnNvbGUubG9nKCdbS2VlcEFsaXZlXSBTZXJ2aWNlIFdvcmtlciByZWdpc3RlcmVkJywgcmVnLnNjb3BlKTsKICB9IGNhdGNoIChlKSB7CiAgICBjb25zb2xlLndhcm4oJ1tLZWVwQWxpdmVdIFNXIHJlZ2lzdHJhdGlvbiBmYWlsZWQsIGtlZXAtYWxpdmUgZGlzYWJsZWQ6JywgZSk7CiAgfQp9CgpmdW5jdGlvbiBwb3N0VG9TVyhtc2c6IHsgdHlwZTogc3RyaW5nIH0pIHsKICBpZiAoISgnc2VydmljZVdvcmtlcicgaW4gbmF2aWdhdG9yKSB8fCAhbmF2aWdhdG9yLnNlcnZpY2VXb3JrZXIuY29udHJvbGxlcikgcmV0dXJuOwogIG5hdmlnYXRvci5zZXJ2aWNlV29ya2VyLmNvbnRyb2xsZXIucG9zdE1lc3NhZ2UobXNnKTsKfQoKZXhwb3J0IGNvbnN0IEtlZXBBbGl2ZSA9IHsKICAvKiogUmVnaXN0ZXIgdGhlIFNXIG9uIGFwcCBzdGFydHVwIChpZGVtcG90ZW50LCBjYWxsIGVhcmx5KS4gKi8KICBpbml0OiBlbnN1cmVSZWdpc3RlcmVkLAoKICAvKiogU2lnbmFsIHRoYXQgYSBsb25nLXJ1bm5pbmcgcmVxdWVzdCBpcyBzdGFydGluZy4gKi8KICBhc3luYyBzdGFydCgpIHsKICAgIGF3YWl0IGVuc3VyZVJlZ2lzdGVyZWQoKTsKICAgIHBvc3RUb1NXKHsgdHlwZTogJ2tlZXBhbGl2ZS1zdGFydCcgfSk7CiAgfSwKCiAgLyoqIFNpZ25hbCB0aGF0IHRoZSByZXF1ZXN0IGhhcyBmaW5pc2hlZC4gKi8KICBzdG9wKCkgewogICAgcG9zdFRvU1coeyB0eXBlOiAna2VlcGFsaXZlLXN0b3AnIH0pOwogIH0sCgogIC8qKgogICAqIEZvcmNlIHJlLXJlZ2lzdGVyIHRoZSBTVy4g6LCD55So5pa5ICjmt7Hluqbph43nva7orqLpmIUpIOW3sue7j+WFiCB1bnJlZ2lzdGVyIOS6huaXpyBTVzsKICAgKiDov5nph4zlj6rotJ/otKPmiorlhoXpg6ggYHJlZ2lzdGVyZWRgIGZsYWcg5riF5o6J5YaN6LWw5LiA6YGNIGVuc3VyZVJlZ2lzdGVyZWQsIOWQpuWImQogICAqIOiAgeeahCBpZGVtcG90ZW50IGd1YXJkIOS8muS7peS4uiAi5bey5rOo5YaMIiDnm7TmjqUgcmV0dXJuLgogICAqLwogIGFzeW5jIHJlcmVnaXN0ZXIoKSB7CiAgICByZWdpc3RlcmVkID0gZmFsc2U7CiAgICBhd2FpdCBlbnN1cmVSZWdpc3RlcmVkKCk7CiAgfSwKfTsK
+/**
+ * Keep-Alive utility — signals the Service Worker to prevent background suspension
+ * during long-running AI API calls (especially on mobile / Capacitor).
+ *
+ * Usage:
+ *   import { KeepAlive } from '../utils/keepAlive';
+ *
+ *   KeepAlive.start();   // before API call
+ *   await fetch(...);
+ *   KeepAlive.stop();    // after API call completes
+ */
+
+let registered = false;
+
+async function ensureRegistered(): Promise<void> {
+  if (registered || !('serviceWorker' in navigator)) return;
+  try {
+    const base = import.meta.env.BASE_URL || '/';
+    const scriptUrl = base + 'sw-keep-alive.js';
+    const reg = await navigator.serviceWorker.register(scriptUrl, { scope: base });
+    await navigator.serviceWorker.ready;
+    registered = true;
+    console.log('[KeepAlive] Service Worker registered', reg.scope);
+  } catch (e) {
+    console.warn('[KeepAlive] SW registration failed, keep-alive disabled:', e);
+  }
+}
+
+function postToSW(msg: { type: string }) {
+  if (!('serviceWorker' in navigator) || !navigator.serviceWorker.controller) return;
+  navigator.serviceWorker.controller.postMessage(msg);
+}
+
+export const KeepAlive = {
+  /** Register the SW on app startup (idempotent, call early). */
+  init: ensureRegistered,
+
+  /** Signal that a long-running request is starting. */
+  async start() {
+    await ensureRegistered();
+    postToSW({ type: 'keepalive-start' });
+  },
+
+  /** Signal that the request has finished. */
+  stop() {
+    postToSW({ type: 'keepalive-stop' });
+  },
+
+  /**
+   * Force re-register the SW. 调用方 (深度重置订阅) 已经先 unregister 了旧 SW;
+   * 这里只负责把内部 `registered` flag 清掉再走一遍 ensureRegistered, 否则
+   * 老的 idempotent guard 会以为 "已注册" 直接 return.
+   */
+  async reregister() {
+    registered = false;
+    await ensureRegistered();
+  },
+};

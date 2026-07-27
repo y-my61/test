@@ -1,1 +1,46 @@
-aW1wb3J0IHsgU2ltQWN0aW9uLCBVc2VyUHJvZmlsZSB9IGZyb20gJy4uL3R5cGVzJzsKCmV4cG9ydCBmdW5jdGlvbiBidWlsZExpZmVTaW1TZXNzaW9uU3VtbWFyeVByb21wdCgKICAgIHVzZXI6IFVzZXJQcm9maWxlLAogICAgcGFydGljaXBhbnROYW1lczogc3RyaW5nW10sCiAgICBhY3Rpb25Mb2c6IFNpbUFjdGlvbltdCik6IHN0cmluZyB7CiAgICBjb25zdCBtYWluUGxvdHMgPSBhY3Rpb25Mb2cuZmlsdGVyKGFjdGlvbiA9PiBhY3Rpb24uc3RvcnlLaW5kID09PSAnbWFpbl9wbG90Jyk7CiAgICBjb25zdCByZWNlbnRCZWF0cyA9IG1haW5QbG90cy5zbGljZSgtOCkubWFwKChhY3Rpb24sIGluZGV4KSA9PiB7CiAgICAgICAgY29uc3QgdGl0bGUgPSBhY3Rpb24uaGVhZGxpbmUgfHwgYOiKgueCuSAke2luZGV4ICsgMX1gOwogICAgICAgIGNvbnN0IHJlc3VsdCA9IGFjdGlvbi5pbW1lZGlhdGVSZXN1bHQgfHwgYWN0aW9uLmRlc2NyaXB0aW9uOwogICAgICAgIHJldHVybiBgLSAke3RpdGxlfTogJHtyZXN1bHR9YDsKICAgIH0pLmpvaW4oJ1xuJyk7CgogICAgcmV0dXJuIGAK5L2g5piv44CK6YO95biC5Lq655Sf44CL57uT5p2f57uT566X5Zmo44CCCuS7u+WKoe+8muaKiui/meS4gOaVtOWxgOeahOS4lueVjOe6v+a1k+e8qeaIkCAzMDAg5a2X5Lul5YaF55qE5Lit5paH5oC757uT44CCCgrop4TliJnvvJoKLSDovpPlh7ogSlNPTu+8mnsgInN1bW1hcnkiOiAiLi4uIiB9Ci0g55u05o6l5YaZ5Y+v6K+75oC757uT77yM5LiN6KaB6Kej6YeK5qC85byP44CCCi0g6YeN54K55piv4oCc6L+Z576k5Lq65LiA6LW3546p5Ye65LqG5LuA5LmI5Li757q/4oCd77yM5LiN5piv5oqA5pyv57uG6IqC44CCCi0g6K+t5rCU5YOP5ryC5Lqu55qE5bCP5Y2h54mH5paH5qGI77yM6KaB566A5rSB44CB5pyJ55S76Z2i5oSf44CB6IO96K6p6KeS6Imy6K+75oeC44CCCi0g6ZyA6KaB54K55Yiw546p5a625ZCN5a2XICR7dXNlci5uYW1lfe+8jOS7peWPiuWPguS4juinkuiJsu+8miR7cGFydGljaXBhbnROYW1lcy5qb2luKCfjgIEnKSB8fCAn5peg5Lq65Y+C5LiOJ33jgIIKLSDlpoLmnpzmnInlpJrkuKrkuLvnur/oioLngrnvvIzlkIjmiJDkuIDmrrXpobrnlYXnmoTmgLvlj5nov7DjgIIKCuS4u+e6v+iKgueCue+8mgoke3JlY2VudEJlYXRzIHx8ICctIOi/meS4gOWxgOWHoOS5juayoeaKveWIsOWujOaVtOS4u+e6v++8jOabtOWkmuaYr+mbtuaVo+WQg+eTnOOAgid9CiAgICBgLnRyaW0oKTsKfQoKZXhwb3J0IGZ1bmN0aW9uIGJ1aWxkRmFsbGJhY2tMaWZlU2ltU2Vzc2lvblN1bW1hcnkoCiAgICB1c2VyTmFtZTogc3RyaW5nLAogICAgcGFydGljaXBhbnROYW1lczogc3RyaW5nW10sCiAgICBhY3Rpb25Mb2c6IFNpbUFjdGlvbltdCik6IHN0cmluZyB7CiAgICBjb25zdCBtYWluUGxvdHMgPSBhY3Rpb25Mb2cuZmlsdGVyKGFjdGlvbiA9PiBhY3Rpb24uc3RvcnlLaW5kID09PSAnbWFpbl9wbG90Jyk7CiAgICBjb25zdCBiZWF0cyA9IG1haW5QbG90cy5zbGljZSgtMykubWFwKGFjdGlvbiA9PiBhY3Rpb24uaGVhZGxpbmUgfHwgYWN0aW9uLmRlc2NyaXB0aW9uKS5maWx0ZXIoQm9vbGVhbik7CiAgICBjb25zdCBjYXN0ID0gcGFydGljaXBhbnROYW1lcy5sZW5ndGggPiAwID8gYCR7cGFydGljaXBhbnROYW1lcy5qb2luKCfjgIEnKX0g5ZKMICR7dXNlck5hbWV9YCA6IHVzZXJOYW1lOwoKICAgIGlmIChiZWF0cy5sZW5ndGggPT09IDApIHsKICAgICAgICByZXR1cm4gYCR7Y2FzdH0g5LiA6LW35Zu06KeC5LqG6L+Z5bqn5Z+O55qE5pel5bi46bih6aOe54uX6Lez77yM6Jm954S25rKh5pyJ5ouJ5Ye65a6M5pW05Li757q/77yM5L2G5Yeg5q615pqn5pin44CB56uZ6Zif5ZKM5bCP5Z6L6aOO5rOi5bey57uP5oqK5rCU5rCb54KS54Ot44CCYDsKICAgIH0KCiAgICByZXR1cm4gYCR7Y2FzdH0g5LiA6LW35oqK6L+Z5bGA44CK6YO95biC5Lq655Sf44CL5o6o5oiQ5LqGICR7YmVhdHMuam9pbign44CBJyl9IOi/meadoeS4lueVjOe6v++8jOaVtOW6p+WfjuS7juWQg+eTnOWbtOinguS4gOi3r+a7muWIsOermemYn+WNh+e6p++8jOacgOWQjuaJgOacieS6uumDveiiq+WNt+i/m+WQjOS4gOWcuiBkcmFtYSDph4zjgIJgLnNsaWNlKDAsIDMwMCk7Cn0K
+import { SimAction, UserProfile } from '../types';
+
+export function buildLifeSimSessionSummaryPrompt(
+    user: UserProfile,
+    participantNames: string[],
+    actionLog: SimAction[]
+): string {
+    const mainPlots = actionLog.filter(action => action.storyKind === 'main_plot');
+    const recentBeats = mainPlots.slice(-8).map((action, index) => {
+        const title = action.headline || `节点 ${index + 1}`;
+        const result = action.immediateResult || action.description;
+        return `- ${title}: ${result}`;
+    }).join('\n');
+
+    return `
+你是《都市人生》结束结算器。
+任务：把这一整局的世界线浓缩成 300 字以内的中文总结。
+
+规则：
+- 输出 JSON：{ "summary": "..." }
+- 直接写可读总结，不要解释格式。
+- 重点是“这群人一起玩出了什么主线”，不是技术细节。
+- 语气像漂亮的小卡片文案，要简洁、有画面感、能让角色读懂。
+- 需要点到玩家名字 ${user.name}，以及参与角色：${participantNames.join('、') || '无人参与'}。
+- 如果有多个主线节点，合成一段顺畅的总叙述。
+
+主线节点：
+${recentBeats || '- 这一局几乎没抽到完整主线，更多是零散吃瓜。'}
+    `.trim();
+}
+
+export function buildFallbackLifeSimSessionSummary(
+    userName: string,
+    participantNames: string[],
+    actionLog: SimAction[]
+): string {
+    const mainPlots = actionLog.filter(action => action.storyKind === 'main_plot');
+    const beats = mainPlots.slice(-3).map(action => action.headline || action.description).filter(Boolean);
+    const cast = participantNames.length > 0 ? `${participantNames.join('、')} 和 ${userName}` : userName;
+
+    if (beats.length === 0) {
+        return `${cast} 一起围观了这座城的日常鸡飞狗跳，虽然没有拉出完整主线，但几段暧昧、站队和小型风波已经把气氛炒热。`;
+    }
+
+    return `${cast} 一起把这局《都市人生》推成了 ${beats.join('、')} 这条世界线，整座城从吃瓜围观一路滚到站队升级，最后所有人都被卷进同一场 drama 里。`.slice(0, 300);
+}

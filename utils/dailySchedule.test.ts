@@ -1,1 +1,70 @@
-aW1wb3J0IHsgYWZ0ZXJBbGwsIGJlZm9yZUVhY2gsIGRlc2NyaWJlLCBleHBlY3QsIGl0LCB2aSB9IGZyb20gJ3ZpdGVzdCc7Cgp2aS5tb2NrKCcuL2RiJywgKCkgPT4gKHsKICAgIERCOiB7CiAgICAgICAgZ2V0RGFpbHlTY2hlZHVsZTogdmkuZm4oKSwKICAgICAgICBzYXZlRGFpbHlTY2hlZHVsZTogdmkuZm4oKSwKICAgIH0sCn0pKTsKCmltcG9ydCB7IERCIH0gZnJvbSAnLi9kYic7CmltcG9ydCB7IGdldExvY2FsRGFpbHlTY2hlZHVsZSB9IGZyb20gJy4vZGFpbHlTY2hlZHVsZSc7CmltcG9ydCB0eXBlIHsgRGFpbHlTY2hlZHVsZSB9IGZyb20gJy4uL3R5cGVzJzsKCmNvbnN0IG9yaWdpbmFsVGltZVpvbmUgPSBwcm9jZXNzLmVudi5UWjsKY29uc3QgZ2V0U2NoZWR1bGUgPSB2aS5tb2NrZWQoREIuZ2V0RGFpbHlTY2hlZHVsZSk7CmNvbnN0IHNhdmVTY2hlZHVsZSA9IHZpLm1vY2tlZChEQi5zYXZlRGFpbHlTY2hlZHVsZSk7CgphZnRlckFsbCgoKSA9PiB7CiAgICBpZiAob3JpZ2luYWxUaW1lWm9uZSA9PT0gdW5kZWZpbmVkKSBkZWxldGUgcHJvY2Vzcy5lbnYuVFo7CiAgICBlbHNlIHByb2Nlc3MuZW52LlRaID0gb3JpZ2luYWxUaW1lWm9uZTsKfSk7CgpiZWZvcmVFYWNoKCgpID0+IHsKICAgIHByb2Nlc3MuZW52LlRaID0gJ0FzaWEvU2hhbmdoYWknOwogICAgZ2V0U2NoZWR1bGUubW9ja1Jlc2V0KCk7CiAgICBzYXZlU2NoZWR1bGUubW9ja1Jlc2V0KCk7Cn0pOwoKY29uc3Qgc2NoZWR1bGUgPSAoZGF0ZTogc3RyaW5nLCBnZW5lcmF0ZWRBdDogbnVtYmVyKTogRGFpbHlTY2hlZHVsZSA9PiAoewogICAgaWQ6IGBjaGFyLTFfJHtkYXRlfWAsCiAgICBjaGFySWQ6ICdjaGFyLTEnLAogICAgZGF0ZSwKICAgIHNsb3RzOiBbeyBzdGFydFRpbWU6ICcwODowMCcsIGFjdGl2aXR5OiAn5pep6aSQJyB9XSwKICAgIGdlbmVyYXRlZEF0LAp9KTsKCmRlc2NyaWJlKCdsb2NhbCBkYWlseSBzY2hlZHVsZSBjb21wYXRpYmlsaXR5JywgKCkgPT4gewogICAgaXQoJ2xvYWRzIHRoZSBDaGluYS1sb2NhbCBrZXkgZGlyZWN0bHknLCBhc3luYyAoKSA9PiB7CiAgICAgICAgY29uc3QgYXQgPSBuZXcgRGF0ZSgnMjAyNi0wNy0yMFQxNjozMDowMC4wMDBaJyk7IC8vIOWMl+S6rCA3LzIxIDAwOjMwCiAgICAgICAgY29uc3QgY3VycmVudCA9IHNjaGVkdWxlKCcyMDI2LTA3LTIxJywgYXQuZ2V0VGltZSgpKTsKICAgICAgICBnZXRTY2hlZHVsZS5tb2NrUmVzb2x2ZWRWYWx1ZU9uY2UoY3VycmVudCk7CgogICAgICAgIGF3YWl0IGV4cGVjdChnZXRMb2NhbERhaWx5U2NoZWR1bGUoJ2NoYXItMScsIGF0KSkucmVzb2x2ZXMudG9CZShjdXJyZW50KTsKICAgICAgICBleHBlY3QoZ2V0U2NoZWR1bGUpLnRvSGF2ZUJlZW5DYWxsZWRXaXRoKCdjaGFyLTEnLCAnMjAyNi0wNy0yMScpOwogICAgICAgIGV4cGVjdChzYXZlU2NoZWR1bGUpLm5vdC50b0hhdmVCZWVuQ2FsbGVkKCk7CiAgICB9KTsKCiAgICBpdCgncmVrZXlzIGEgbGVnYWN5IFVUQyByZWNvcmQgb25seSB3aGVuIGdlbmVyYXRlZCBvbiB0aGUgY3VycmVudCBsb2NhbCBkYXknLCBhc3luYyAoKSA9PiB7CiAgICAgICAgY29uc3QgYXQgPSBuZXcgRGF0ZSgnMjAyNi0wNy0yMFQxNjozMDowMC4wMDBaJyk7CiAgICAgICAgY29uc3QgbGVnYWN5ID0gc2NoZWR1bGUoJzIwMjYtMDctMjAnLCBhdC5nZXRUaW1lKCkpOwogICAgICAgIGdldFNjaGVkdWxlLm1vY2tSZXNvbHZlZFZhbHVlT25jZShudWxsKS5tb2NrUmVzb2x2ZWRWYWx1ZU9uY2UobGVnYWN5KTsKCiAgICAgICAgY29uc3QgcmVzdWx0ID0gYXdhaXQgZ2V0TG9jYWxEYWlseVNjaGVkdWxlKCdjaGFyLTEnLCBhdCk7CiAgICAgICAgZXhwZWN0KHJlc3VsdD8uZGF0ZSkudG9CZSgnMjAyNi0wNy0yMScpOwogICAgICAgIGV4cGVjdChyZXN1bHQ/LmlkKS50b0JlKCdjaGFyLTFfMjAyNi0wNy0yMScpOwogICAgICAgIGV4cGVjdChzYXZlU2NoZWR1bGUpLnRvSGF2ZUJlZW5DYWxsZWRXaXRoKGV4cGVjdC5vYmplY3RDb250YWluaW5nKHsKICAgICAgICAgICAgaWQ6ICdjaGFyLTFfMjAyNi0wNy0yMScsCiAgICAgICAgICAgIGRhdGU6ICcyMDI2LTA3LTIxJywKICAgICAgICB9KSk7CiAgICB9KTsKCiAgICBpdCgnZG9lcyBub3QgcmV3cml0ZSBhIGdlbnVpbmVseSBoaXN0b3JpY2FsIGxlZ2FjeSByZWNvcmQnLCBhc3luYyAoKSA9PiB7CiAgICAgICAgY29uc3QgYXQgPSBuZXcgRGF0ZSgnMjAyNi0wNy0yMFQxNjozMDowMC4wMDBaJyk7CiAgICAgICAgY29uc3QgaGlzdG9yaWNhbCA9IHNjaGVkdWxlKCcyMDI2LTA3LTIwJywgbmV3IERhdGUoJzIwMjYtMDctMjBUMDI6MDA6MDAuMDAwWicpLmdldFRpbWUoKSk7CiAgICAgICAgZ2V0U2NoZWR1bGUubW9ja1Jlc29sdmVkVmFsdWVPbmNlKG51bGwpLm1vY2tSZXNvbHZlZFZhbHVlT25jZShoaXN0b3JpY2FsKTsKCiAgICAgICAgYXdhaXQgZXhwZWN0KGdldExvY2FsRGFpbHlTY2hlZHVsZSgnY2hhci0xJywgYXQpKS5yZXNvbHZlcy50b0JlTnVsbCgpOwogICAgICAgIGV4cGVjdChzYXZlU2NoZWR1bGUpLm5vdC50b0hhdmVCZWVuQ2FsbGVkKCk7CiAgICB9KTsKfSk7Cg==
+import { afterAll, beforeEach, describe, expect, it, vi } from 'vitest';
+
+vi.mock('./db', () => ({
+    DB: {
+        getDailySchedule: vi.fn(),
+        saveDailySchedule: vi.fn(),
+    },
+}));
+
+import { DB } from './db';
+import { getLocalDailySchedule } from './dailySchedule';
+import type { DailySchedule } from '../types';
+
+const originalTimeZone = process.env.TZ;
+const getSchedule = vi.mocked(DB.getDailySchedule);
+const saveSchedule = vi.mocked(DB.saveDailySchedule);
+
+afterAll(() => {
+    if (originalTimeZone === undefined) delete process.env.TZ;
+    else process.env.TZ = originalTimeZone;
+});
+
+beforeEach(() => {
+    process.env.TZ = 'Asia/Shanghai';
+    getSchedule.mockReset();
+    saveSchedule.mockReset();
+});
+
+const schedule = (date: string, generatedAt: number): DailySchedule => ({
+    id: `char-1_${date}`,
+    charId: 'char-1',
+    date,
+    slots: [{ startTime: '08:00', activity: '早餐' }],
+    generatedAt,
+});
+
+describe('local daily schedule compatibility', () => {
+    it('loads the China-local key directly', async () => {
+        const at = new Date('2026-07-20T16:30:00.000Z'); // 北京 7/21 00:30
+        const current = schedule('2026-07-21', at.getTime());
+        getSchedule.mockResolvedValueOnce(current);
+
+        await expect(getLocalDailySchedule('char-1', at)).resolves.toBe(current);
+        expect(getSchedule).toHaveBeenCalledWith('char-1', '2026-07-21');
+        expect(saveSchedule).not.toHaveBeenCalled();
+    });
+
+    it('rekeys a legacy UTC record only when generated on the current local day', async () => {
+        const at = new Date('2026-07-20T16:30:00.000Z');
+        const legacy = schedule('2026-07-20', at.getTime());
+        getSchedule.mockResolvedValueOnce(null).mockResolvedValueOnce(legacy);
+
+        const result = await getLocalDailySchedule('char-1', at);
+        expect(result?.date).toBe('2026-07-21');
+        expect(result?.id).toBe('char-1_2026-07-21');
+        expect(saveSchedule).toHaveBeenCalledWith(expect.objectContaining({
+            id: 'char-1_2026-07-21',
+            date: '2026-07-21',
+        }));
+    });
+
+    it('does not rewrite a genuinely historical legacy record', async () => {
+        const at = new Date('2026-07-20T16:30:00.000Z');
+        const historical = schedule('2026-07-20', new Date('2026-07-20T02:00:00.000Z').getTime());
+        getSchedule.mockResolvedValueOnce(null).mockResolvedValueOnce(historical);
+
+        await expect(getLocalDailySchedule('char-1', at)).resolves.toBeNull();
+        expect(saveSchedule).not.toHaveBeenCalled();
+    });
+});

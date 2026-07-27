@@ -1,1 +1,75 @@
-aW1wb3J0IHsgZGVzY3JpYmUsIGl0LCBleHBlY3QgfSBmcm9tICd2aXRlc3QnOwppbXBvcnQgeyBDaGF0UHJvbXB0cyB9IGZyb20gJy4vY2hhdFByb21wdHMnOwppbXBvcnQgeyBjbGVhbkFwaU1lc3NhZ2VzIH0gZnJvbSAnLi9jaGF0UmVxdWVzdFBheWxvYWQnOwoKLy8g6ZSB5L2P44CM57+76K+R5qih5byP5LiL5byV55So5Zue5aSNLCDop5LoibLlj6rnnIvliLDlvJXnlKjjgIHnnIvkuI3liLDnlKjmiLflrp7pmYXlm57lpI3jgI3nmoTkv67lpI3jgIIKLy8KLy8g6ZO+6LevOiDlj4zor60gY2hhciDmtojmga/lrZjlgqjkuLogYOWOn+aWh1xuJSVCSUxJTkdVQUwlJVxu6K+R5paHYDsg55So5oi35byV55So5a6D5pe2IHJlcGx5VG8uY29udGVudAovLyDmmK/lrozmlbTlj4zor63kuLLjgIJidWlsZE1lc3NhZ2VIaXN0b3J5IOaKiuW8leeUqOaLvOaIkAovLyAgIFvnlKjmiLflvJXnlKjkuobkvaDkuYvliY3or7TnmoTjgIw85pGY6KaBNjDlrZc+44CN77yM5bm25Zue5aSN5LqGIOKGk11cbjznlKjmiLflm57lpI0+Ci8vIOS/ruWkjeWJjeaRmOimgeWOn+agt+aIquWPliDihpIgJSVCSUxJTkdVQUwlJSDmt7fov5vlvJXnlKjlpLQg4oaSIGNsZWFuQXBpTWVzc2FnZXMg5Zyo5qCH6K6w5aSE5pW05p2h5oiq5patCi8vIOKGkiDjgIzlubblm57lpI3kuoYg4oaT44CN5ZKM55So5oi35Zue5aSN5YWo6KKr5ZCD5o6JLCDmqKHlnovlj6rnnIvliLDljYrmiKrlvJXnlKjlpLTjgIIKLy8g5L+u5aSN5ZCO5pGY6KaB5YWI5Yml5Y+M6K+t5qCH6K6w44CB5Y+q5Y+W5Y6f5paH5L6nLCDmiKrmlq3kuI3lho3ms6Llj4rnlKjmiLflm57lpI3jgIIKCmNvbnN0IGNoYXIgPSB7IGlkOiAnYzEnLCBuYW1lOiAn5bCP6KeS6ImyJyB9IGFzIGFueTsKY29uc3QgdXNlclByb2ZpbGUgPSB7IG5hbWU6ICfmiJEnIH0gYXMgYW55OwoKY29uc3QgQklfQ09OVEVOVCA9ICfjgZPjgpPjgavjgaHjga/jgIHlhYPmsJfvvJ9cbiUlQklMSU5HVUFMJSVcbuS9oOWlve+8jOacgOi/keWlveWQl++8nyc7CmNvbnN0IFVTRVJfUkVQTFkgPSAn5oiR55qE5a6e6ZmF5Zue5aSN5YaF5a6577yM5LiN6IO96KKr5ZCe5o6JJzsKCmNvbnN0IHQwID0gRGF0ZS5ub3coKSAtIDYwXzAwMDsKY29uc3QgbWFrZUhpc3RvcnkgPSAoKSA9PiAoWwogICAgeyBpZDogMSwgY2hhcklkOiAnYzEnLCByb2xlOiAnYXNzaXN0YW50JywgdHlwZTogJ3RleHQnLCBjb250ZW50OiBCSV9DT05URU5ULCB0aW1lc3RhbXA6IHQwIH0sCiAgICB7CiAgICAgICAgaWQ6IDIsIGNoYXJJZDogJ2MxJywgcm9sZTogJ3VzZXInLCB0eXBlOiAndGV4dCcsIGNvbnRlbnQ6IFVTRVJfUkVQTFksIHRpbWVzdGFtcDogdDAgKyAxMDAwLAogICAgICAgIHJlcGx5VG86IHsgaWQ6IDEsIGNvbnRlbnQ6IEJJX0NPTlRFTlQsIG5hbWU6ICflsI/op5LoibInIH0sCiAgICB9LApdIGFzIGFueVtdKTsKCmRlc2NyaWJlKCdidWlsZE1lc3NhZ2VIaXN0b3J5IOW8leeUqOWPjOivrea2iOaBrycsICgpID0+IHsKICAgIGl0KCflvJXnlKjmkZjopoHlj6rlj5bljp/mlofkvqcsIOS4jeaKiiAlJUJJTElOR1VBTCUlIOa3t+i/m+W8leeUqOWktCcsICgpID0+IHsKICAgICAgICBjb25zdCB7IGFwaU1lc3NhZ2VzIH0gPSBDaGF0UHJvbXB0cy5idWlsZE1lc3NhZ2VIaXN0b3J5KG1ha2VIaXN0b3J5KCksIDEwLCBjaGFyLCB1c2VyUHJvZmlsZSwgW10pOwogICAgICAgIGNvbnN0IHVzZXJNc2cgPSBhcGlNZXNzYWdlcy5maW5kKChtOiBhbnkpID0+IG0ucm9sZSA9PT0gJ3VzZXInKTsKICAgICAgICBleHBlY3QodXNlck1zZykudG9CZVRydXRoeSgpOwogICAgICAgIGNvbnN0IGNvbnRlbnQgPSB1c2VyTXNnIS5jb250ZW50IGFzIHN0cmluZzsKICAgICAgICBleHBlY3QoY29udGVudCkudG9Db250YWluKCfjgZPjgpPjgavjgaHjga/jgIHlhYPmsJfvvJ8nKTsKICAgICAgICBleHBlY3QoY29udGVudCkudG9Db250YWluKFVTRVJfUkVQTFkpOwogICAgICAgIGV4cGVjdChjb250ZW50LnRvTG93ZXJDYXNlKCkpLm5vdC50b0NvbnRhaW4oJyUlYmlsaW5ndWFsJSUnKTsKICAgIH0pOwoKICAgIGl0KCflvJXnlKjlpLQgKyDnlKjmiLflm57lpI3nu48gY2xlYW5BcGlNZXNzYWdlcyDlkI7lrozmlbTkv53nlZkgKOS/ruWkjeWJjeWbnuWkjeiiq+aIquaOiSknLCAoKSA9PiB7CiAgICAgICAgY29uc3QgeyBhcGlNZXNzYWdlcyB9ID0gQ2hhdFByb21wdHMuYnVpbGRNZXNzYWdlSGlzdG9yeShtYWtlSGlzdG9yeSgpLCAxMCwgY2hhciwgdXNlclByb2ZpbGUsIFtdKTsKICAgICAgICBjb25zdCBjbGVhbmVkID0gY2xlYW5BcGlNZXNzYWdlcyhhcGlNZXNzYWdlcyk7CiAgICAgICAgY29uc3QgdXNlck1zZyA9IGNsZWFuZWQuZmluZCgobTogYW55KSA9PiBtLnJvbGUgPT09ICd1c2VyJyk7CiAgICAgICAgY29uc3QgY29udGVudCA9IHVzZXJNc2chLmNvbnRlbnQgYXMgc3RyaW5nOwogICAgICAgIGV4cGVjdChjb250ZW50KS50b0NvbnRhaW4oJ+W8leeUqOS6hicpOwogICAgICAgIGV4cGVjdChjb250ZW50KS50b0NvbnRhaW4oVVNFUl9SRVBMWSk7CiAgICB9KTsKCiAgICBpdCgn5Y+M6K+tIGFzc2lzdGFudCDmtojmga/mnKzkvZPku43lnKjmoIforrDlpITmiKrmlq3lj6rnlZnljp/mlocgKOaXouacieihjOS4uuS4jeWbnuW9kiknLCAoKSA9PiB7CiAgICAgICAgY29uc3QgeyBhcGlNZXNzYWdlcyB9ID0gQ2hhdFByb21wdHMuYnVpbGRNZXNzYWdlSGlzdG9yeShtYWtlSGlzdG9yeSgpLCAxMCwgY2hhciwgdXNlclByb2ZpbGUsIFtdKTsKICAgICAgICBjb25zdCBjbGVhbmVkID0gY2xlYW5BcGlNZXNzYWdlcyhhcGlNZXNzYWdlcyk7CiAgICAgICAgY29uc3QgYWlNc2cgPSBjbGVhbmVkLmZpbmQoKG06IGFueSkgPT4gbS5yb2xlID09PSAnYXNzaXN0YW50Jyk7CiAgICAgICAgY29uc3QgY29udGVudCA9IGFpTXNnIS5jb250ZW50IGFzIHN0cmluZzsKICAgICAgICBleHBlY3QoY29udGVudCkudG9Db250YWluKCfjgZPjgpPjgavjgaHjga/jgIHlhYPmsJfvvJ8nKTsKICAgICAgICBleHBlY3QoY29udGVudCkubm90LnRvQ29udGFpbign5L2g5aW977yM5pyA6L+R5aW95ZCX77yfJyk7CiAgICB9KTsKCiAgICBpdCgn5byV55So5YaF5a655pivIDznv7vor5E+IFhNTCDlvaLmgIHml7bkuZ/liaXlubLlh4DjgIHlj6rnlZnljp/mlocnLCAoKSA9PiB7CiAgICAgICAgY29uc3QgeG1sQmkgPSAnPOe/u+ivkT5cbjzljp/mloc+44GK44Gv44KI44GGPC/ljp/mloc+XG486K+R5paHPuaXqeS4iuWlvTwv6K+R5paHPlxuPC/nv7vor5E+JzsKICAgICAgICBjb25zdCBoaXN0b3J5ID0gWwogICAgICAgICAgICB7IGlkOiAxLCBjaGFySWQ6ICdjMScsIHJvbGU6ICdhc3Npc3RhbnQnLCB0eXBlOiAndGV4dCcsIGNvbnRlbnQ6IHhtbEJpLCB0aW1lc3RhbXA6IHQwIH0sCiAgICAgICAgICAgIHsKICAgICAgICAgICAgICAgIGlkOiAyLCBjaGFySWQ6ICdjMScsIHJvbGU6ICd1c2VyJywgdHlwZTogJ3RleHQnLCBjb250ZW50OiBVU0VSX1JFUExZLCB0aW1lc3RhbXA6IHQwICsgMTAwMCwKICAgICAgICAgICAgICAgIHJlcGx5VG86IHsgaWQ6IDEsIGNvbnRlbnQ6IHhtbEJpLCBuYW1lOiAn5bCP6KeS6ImyJyB9LAogICAgICAgICAgICB9LAogICAgICAgIF0gYXMgYW55W107CiAgICAgICAgY29uc3QgeyBhcGlNZXNzYWdlcyB9ID0gQ2hhdFByb21wdHMuYnVpbGRNZXNzYWdlSGlzdG9yeShoaXN0b3J5LCAxMCwgY2hhciwgdXNlclByb2ZpbGUsIFtdKTsKICAgICAgICBjb25zdCB1c2VyTXNnID0gYXBpTWVzc2FnZXMuZmluZCgobTogYW55KSA9PiBtLnJvbGUgPT09ICd1c2VyJyk7CiAgICAgICAgY29uc3QgY29udGVudCA9IHVzZXJNc2chLmNvbnRlbnQgYXMgc3RyaW5nOwogICAgICAgIGV4cGVjdChjb250ZW50KS50b0NvbnRhaW4oJ+OBiuOBr+OCiOOBhicpOwogICAgICAgIGV4cGVjdChjb250ZW50KS50b0NvbnRhaW4oVVNFUl9SRVBMWSk7CiAgICAgICAgZXhwZWN0KGNvbnRlbnQpLm5vdC50b0NvbnRhaW4oJzznv7vor5E+Jyk7CiAgICAgICAgZXhwZWN0KGNvbnRlbnQpLm5vdC50b0NvbnRhaW4oJzzor5Hmloc+Jyk7CiAgICB9KTsKfSk7Cg==
+import { describe, it, expect } from 'vitest';
+import { ChatPrompts } from './chatPrompts';
+import { cleanApiMessages } from './chatRequestPayload';
+
+// 锁住「翻译模式下引用回复, 角色只看到引用、看不到用户实际回复」的修复。
+//
+// 链路: 双语 char 消息存储为 `原文\n%%BILINGUAL%%\n译文`; 用户引用它时 replyTo.content
+// 是完整双语串。buildMessageHistory 把引用拼成
+//   [用户引用了你之前说的「<摘要60字>」，并回复了 ↓]\n<用户回复>
+// 修复前摘要原样截取 → %%BILINGUAL%% 混进引用头 → cleanApiMessages 在标记处整条截断
+// → 「并回复了 ↓」和用户回复全被吃掉, 模型只看到半截引用头。
+// 修复后摘要先剥双语标记、只取原文侧, 截断不再波及用户回复。
+
+const char = { id: 'c1', name: '小角色' } as any;
+const userProfile = { name: '我' } as any;
+
+const BI_CONTENT = 'こんにちは、元気？\n%%BILINGUAL%%\n你好，最近好吗？';
+const USER_REPLY = '我的实际回复内容，不能被吞掉';
+
+const t0 = Date.now() - 60_000;
+const makeHistory = () => ([
+    { id: 1, charId: 'c1', role: 'assistant', type: 'text', content: BI_CONTENT, timestamp: t0 },
+    {
+        id: 2, charId: 'c1', role: 'user', type: 'text', content: USER_REPLY, timestamp: t0 + 1000,
+        replyTo: { id: 1, content: BI_CONTENT, name: '小角色' },
+    },
+] as any[]);
+
+describe('buildMessageHistory 引用双语消息', () => {
+    it('引用摘要只取原文侧, 不把 %%BILINGUAL%% 混进引用头', () => {
+        const { apiMessages } = ChatPrompts.buildMessageHistory(makeHistory(), 10, char, userProfile, []);
+        const userMsg = apiMessages.find((m: any) => m.role === 'user');
+        expect(userMsg).toBeTruthy();
+        const content = userMsg!.content as string;
+        expect(content).toContain('こんにちは、元気？');
+        expect(content).toContain(USER_REPLY);
+        expect(content.toLowerCase()).not.toContain('%%bilingual%%');
+    });
+
+    it('引用头 + 用户回复经 cleanApiMessages 后完整保留 (修复前回复被截掉)', () => {
+        const { apiMessages } = ChatPrompts.buildMessageHistory(makeHistory(), 10, char, userProfile, []);
+        const cleaned = cleanApiMessages(apiMessages);
+        const userMsg = cleaned.find((m: any) => m.role === 'user');
+        const content = userMsg!.content as string;
+        expect(content).toContain('引用了');
+        expect(content).toContain(USER_REPLY);
+    });
+
+    it('双语 assistant 消息本体仍在标记处截断只留原文 (既有行为不回归)', () => {
+        const { apiMessages } = ChatPrompts.buildMessageHistory(makeHistory(), 10, char, userProfile, []);
+        const cleaned = cleanApiMessages(apiMessages);
+        const aiMsg = cleaned.find((m: any) => m.role === 'assistant');
+        const content = aiMsg!.content as string;
+        expect(content).toContain('こんにちは、元気？');
+        expect(content).not.toContain('你好，最近好吗？');
+    });
+
+    it('引用内容是 <翻译> XML 形态时也剥干净、只留原文', () => {
+        const xmlBi = '<翻译>\n<原文>おはよう</原文>\n<译文>早上好</译文>\n</翻译>';
+        const history = [
+            { id: 1, charId: 'c1', role: 'assistant', type: 'text', content: xmlBi, timestamp: t0 },
+            {
+                id: 2, charId: 'c1', role: 'user', type: 'text', content: USER_REPLY, timestamp: t0 + 1000,
+                replyTo: { id: 1, content: xmlBi, name: '小角色' },
+            },
+        ] as any[];
+        const { apiMessages } = ChatPrompts.buildMessageHistory(history, 10, char, userProfile, []);
+        const userMsg = apiMessages.find((m: any) => m.role === 'user');
+        const content = userMsg!.content as string;
+        expect(content).toContain('おはよう');
+        expect(content).toContain(USER_REPLY);
+        expect(content).not.toContain('<翻译>');
+        expect(content).not.toContain('<译文>');
+    });
+});

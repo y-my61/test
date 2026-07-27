@@ -1,1 +1,98 @@
-aW1wb3J0IFJlYWN0LCB7IHVzZUVmZmVjdCwgdXNlUmVmLCB1c2VTdGF0ZSB9IGZyb20gJ3JlYWN0JzsKaW1wb3J0IHsgcXVlcnlTd1ZlcnNpb24gfSBmcm9tICcuLi8uLi91dGlscy9zd1ZlcnNpb24nOwppbXBvcnQgeyBBUFBfVkVSU0lPTiwgQlVJTERfTEFCRUwgfSBmcm9tICcuLi8uLi91dGlscy9idWlsZEluZm8nOwppbXBvcnQgeyBpc0RldkRlYnVnQXZhaWxhYmxlLCBzdWJzY3JpYmVEZXZEZWJ1Z0F2YWlsYWJpbGl0eSwgdW5sb2NrRGV2RGVidWcgfSBmcm9tICcuLi8uLi91dGlscy9kZXZEZWJ1Zyc7CgovKioKICogU2V0dGluZ3Mg5bqV6YOo55qE54mI5pys5L+h5oGv6ISa5rOo44CCCiAqCiAqIOS4juWPs+S4i+inkueahCBCdWlsZEJhZGdlIOS4jeWQjO+8mkJ1aWxkQmFkZ2Ug5Y+q5ZyoIGRldiAvIGZvcmsg5p6E5bu65Y+v6KeB77yI5q2j5byP54mI5qCR5pGH5o6J77yJ77yMCiAqIOi/memHjOWcqCoq5omA5pyJKirmnoTlu7rvvIjlkKvmraPlvI/niYjvvInph4zpg73kvY7osIPmmL7npLrvvIzmlrnkvr/nlKjmiLfmiKrlm77miqXpmpzml7bpmYTluKbniYjmnKzkuIrkuIvmlofvvJoKICogICAtIEFQUF9WRVJTSU9O77ya5omL5bel57u05oqk55qE5Lqn5ZOB54mI5pys5ZCN77yI5LmL5YmN56Gs57yW56CB55qEIHYyLjLvvIkKICogICAtIGJ1aWxk77yadml0ZS5jb25maWcg5rOo5YWl55qEIF9fQlVJTERfQlJBTkNIX19AX19CVUlMRF9DT01NSVRfXwogKiAgIC0gc3fvvJrov5DooYzml7blkJEgU2VydmljZSBXb3JrZXIg5p+l6K+i55qEIFNXX1ZFUlNJT04KICoKICog5p6E5bu65YWo5bGA77yIX19CVUlMRF9CUkFOQ0hfXyDnrYnvvInnlLEgdml0ZSBkZWZpbmUg5aeL57uI5rOo5YWl77yMcHJvZCDkuZ/mnInlgLzvvIwKICog5omA5Lul5peg6ZyA5Lu75L2VIGRldiDmnaHku7bliKTmlq3jgIJTVyDmnKrms6jlhowgLyDmnKrlk43lupTml7Ygc3cg5pi+56S6ICc/J+OAggogKgogKiDlvanom4vvvIhkZXYg6ZmE5Yqg77yJ77ya6L+e54K5IEFQUF9WRVJTSU9OIDUg5LiL5omL5Yqo6Kej6ZSBIERldkRlYnVnIOmdouadv+KAlOKAlOato+W8j+eJiOm7mOiupOmakOiXj++8jAogKiDov5nmmK/lnKjmraPlvI/niYjkuIrkuLTml7bosIPlh7rosIPor5Xlt6XlhbfmjpLpmpznmoTlhaXlj6PvvIjkvJror53nuqfvvIzliLfmlrDljbPlhbPvvJvpnaLmnb/lhoXmnInjgIzlhbPpl63jgI3mjInpkq7lj6/pmo/ml7blvLrliLblhbPmjonvvInjgIIKICog6Z2i5p2/5bey5Y+v55So5pe277yI6Z2eIHByb2QgLyDlt7Lop6PplIHvvInlho3ngrnkuI3orqHmlbDjgIIKICovCgpjb25zdCBVTkxPQ0tfVEFQX0NPVU5UID0gNTsKY29uc3QgVEFQX1JFU0VUX01TID0gMjAwMDsKCmNvbnN0IFZlcnNpb25JbmZvOiBSZWFjdC5GQyA9ICgpID0+IHsKICAgIGNvbnN0IFtzd1ZlcnNpb24sIHNldFN3VmVyc2lvbl0gPSB1c2VTdGF0ZTxzdHJpbmc+KCfigKYnKTsKICAgIC8vIGF2YWlsYWJsZSA9IOmdouadv+W9k+WJjeaYr+WQpuWPr+eUqO+8iOmdniBwcm9kIOm7mOiupCB0cnVl77ybcHJvZCDop6PplIHlkI4gdHJ1Ze+8m+W8uuWItuWFs+mXreWQjiBmYWxzZe+8ieOAggogICAgY29uc3QgW2F2YWlsYWJsZSwgc2V0QXZhaWxhYmxlXSA9IHVzZVN0YXRlPGJvb2xlYW4+KCgpID0+IGlzRGV2RGVidWdBdmFpbGFibGUoKSk7CiAgICBjb25zdCBbaGludCwgc2V0SGludF0gPSB1c2VTdGF0ZTxzdHJpbmcgfCBudWxsPihudWxsKTsKICAgIGNvbnN0IHRhcENvdW50UmVmID0gdXNlUmVmKDApOwogICAgY29uc3QgdGFwVGltZXJSZWYgPSB1c2VSZWY8bnVtYmVyIHwgbnVsbD4obnVsbCk7CiAgICBjb25zdCBoaW50VGltZXJSZWYgPSB1c2VSZWY8bnVtYmVyIHwgbnVsbD4obnVsbCk7CgogICAgdXNlRWZmZWN0KCgpID0+IHsKICAgICAgICBsZXQgY2FuY2VsbGVkID0gZmFsc2U7CiAgICAgICAgcXVlcnlTd1ZlcnNpb24oKS50aGVuKCh2KSA9PiB7IGlmICghY2FuY2VsbGVkKSBzZXRTd1ZlcnNpb24odik7IH0pOwogICAgICAgIHJldHVybiAoKSA9PiB7IGNhbmNlbGxlZCA9IHRydWU7IH07CiAgICB9LCBbXSk7CgogICAgdXNlRWZmZWN0KCgpID0+IHN1YnNjcmliZURldkRlYnVnQXZhaWxhYmlsaXR5KHNldEF2YWlsYWJsZSksIFtdKTsKCiAgICAvLyDljbjovb3ml7bmuIXmjonorqHml7blmajvvIzpgb/lhY3lhoXlrZjms4TmvI8gLyDljbjovb3lkI4gc2V0U3RhdGXjgIIKICAgIHVzZUVmZmVjdCgoKSA9PiAoKSA9PiB7CiAgICAgICAgaWYgKHRhcFRpbWVyUmVmLmN1cnJlbnQpIHdpbmRvdy5jbGVhclRpbWVvdXQodGFwVGltZXJSZWYuY3VycmVudCk7CiAgICAgICAgaWYgKGhpbnRUaW1lclJlZi5jdXJyZW50KSB3aW5kb3cuY2xlYXJUaW1lb3V0KGhpbnRUaW1lclJlZi5jdXJyZW50KTsKICAgIH0sIFtdKTsKCiAgICBjb25zdCBzaG93SGludCA9ICh0ZXh0OiBzdHJpbmcsIG1zOiBudW1iZXIpID0+IHsKICAgICAgICBzZXRIaW50KHRleHQpOwogICAgICAgIGlmIChoaW50VGltZXJSZWYuY3VycmVudCkgd2luZG93LmNsZWFyVGltZW91dChoaW50VGltZXJSZWYuY3VycmVudCk7CiAgICAgICAgaGludFRpbWVyUmVmLmN1cnJlbnQgPSB3aW5kb3cuc2V0VGltZW91dCgoKSA9PiBzZXRIaW50KG51bGwpLCBtcyk7CiAgICB9OwoKICAgIGNvbnN0IGhhbmRsZVZlcnNpb25UYXAgPSAoKSA9PiB7CiAgICAgICAgaWYgKGF2YWlsYWJsZSkgcmV0dXJuOyAvLyDpnaLmnb/lt7Lnu4/lvIDnnYDvvIjpnZ4gcHJvZCDmiJblt7Lop6PplIHvvInvvIzkuI3nlKjlho3mlbAKICAgICAgICBpZiAodGFwVGltZXJSZWYuY3VycmVudCkgd2luZG93LmNsZWFyVGltZW91dCh0YXBUaW1lclJlZi5jdXJyZW50KTsKICAgICAgICB0YXBDb3VudFJlZi5jdXJyZW50ICs9IDE7CiAgICAgICAgY29uc3QgcmVtYWluaW5nID0gVU5MT0NLX1RBUF9DT1VOVCAtIHRhcENvdW50UmVmLmN1cnJlbnQ7CgogICAgICAgIGlmIChyZW1haW5pbmcgPD0gMCkgewogICAgICAgICAgICB0YXBDb3VudFJlZi5jdXJyZW50ID0gMDsKICAgICAgICAgICAgdW5sb2NrRGV2RGVidWcoKTsKICAgICAgICAgICAgc2hvd0hpbnQoJ/CflKcg6LCD6K+V6Z2i5p2/5bey6Kej6ZSB77yI5Yi35paw5Y2z5YWz6Zet77yJJywgMjYwMCk7CiAgICAgICAgICAgIHJldHVybjsKICAgICAgICB9CiAgICAgICAgaWYgKHJlbWFpbmluZyA8PSAyKSBzaG93SGludChg6L+Y5beuICR7cmVtYWluaW5nfSDkuIvigKZgLCBUQVBfUkVTRVRfTVMpOwogICAgICAgIC8vIOmXtOmalOi2hei/hyBUQVBfUkVTRVRfTVMg5rKh57un57ut54K55bCx6YeN572u6K6h5pWw44CCCiAgICAgICAgdGFwVGltZXJSZWYuY3VycmVudCA9IHdpbmRvdy5zZXRUaW1lb3V0KCgpID0+IHsgdGFwQ291bnRSZWYuY3VycmVudCA9IDA7IH0sIFRBUF9SRVNFVF9NUyk7CiAgICB9OwoKICAgIHJldHVybiAoCiAgICAgICAgPGRpdiBjbGFzc05hbWU9ImZsZXggZmxleC1jb2wgaXRlbXMtY2VudGVyIGdhcC0xLjUgcHQtMiBwYi04IHNlbGVjdC1ub25lIj4KICAgICAgICAgICAgPGJ1dHRvbgogICAgICAgICAgICAgICAgdHlwZT0iYnV0dG9uIgogICAgICAgICAgICAgICAgb25DbGljaz17aGFuZGxlVmVyc2lvblRhcH0KICAgICAgICAgICAgICAgIGNsYXNzTmFtZT0idGV4dC1bMTBweF0gdGV4dC1zbGF0ZS0zMDAgZm9udC1tb25vIHRyYWNraW5nLXdpZGVzdCB1cHBlcmNhc2UiCiAgICAgICAgICAgID4KICAgICAgICAgICAgICAgIHtBUFBfVkVSU0lPTn0KICAgICAgICAgICAgPC9idXR0b24+CiAgICAgICAgICAgIDxkaXYgY2xhc3NOYW1lPSJmbGV4IGl0ZW1zLWNlbnRlciBnYXAtMS41IHRleHQtWzlweF0gZm9udC1tb25vIHRleHQtc2xhdGUtNDAwLzgwIj4KICAgICAgICAgICAgICAgIDxzcGFuIGNsYXNzTmFtZT0icHgtMS41IHB5LTAuNSByb3VuZGVkLW1kIGJnLXNsYXRlLTEwMCB0cmFja2luZy13aWRlIj4KICAgICAgICAgICAgICAgICAgICBidWlsZCZuYnNwOzxzcGFuIGNsYXNzTmFtZT0idGV4dC1zbGF0ZS01MDAiPntCVUlMRF9MQUJFTH08L3NwYW4+CiAgICAgICAgICAgICAgICA8L3NwYW4+CiAgICAgICAgICAgICAgICA8c3BhbiBjbGFzc05hbWU9InB4LTEuNSBweS0wLjUgcm91bmRlZC1tZCBiZy1zbGF0ZS0xMDAgdHJhY2tpbmctd2lkZSI+CiAgICAgICAgICAgICAgICAgICAgc3cmbmJzcDs8c3BhbiBjbGFzc05hbWU9InRleHQtc2xhdGUtNTAwIj57c3dWZXJzaW9ufTwvc3Bhbj4KICAgICAgICAgICAgICAgIDwvc3Bhbj4KICAgICAgICAgICAgPC9kaXY+CiAgICAgICAgICAgIHtoaW50ICYmICgKICAgICAgICAgICAgICAgIDxkaXYgY2xhc3NOYW1lPSJ0ZXh0LVs5cHhdIGZvbnQtbW9ubyB0ZXh0LWFtYmVyLTUwMC84MCB0cmFja2luZy1ub3JtYWwgbm9ybWFsLWNhc2UiPgogICAgICAgICAgICAgICAgICAgIHtoaW50fQogICAgICAgICAgICAgICAgPC9kaXY+CiAgICAgICAgICAgICl9CiAgICAgICAgPC9kaXY+CiAgICApOwp9OwoKZXhwb3J0IGRlZmF1bHQgVmVyc2lvbkluZm87Cg==
+import React, { useEffect, useRef, useState } from 'react';
+import { querySwVersion } from '../../utils/swVersion';
+import { APP_VERSION, BUILD_LABEL } from '../../utils/buildInfo';
+import { isDevDebugAvailable, subscribeDevDebugAvailability, unlockDevDebug } from '../../utils/devDebug';
+
+/**
+ * Settings 底部的版本信息脚注。
+ *
+ * 与右下角的 BuildBadge 不同：BuildBadge 只在 dev / fork 构建可见（正式版树摇掉），
+ * 这里在**所有**构建（含正式版）里都低调显示，方便用户截图报障时附带版本上下文：
+ *   - APP_VERSION：手工维护的产品版本名（之前硬编码的 v2.2）
+ *   - build：vite.config 注入的 __BUILD_BRANCH__@__BUILD_COMMIT__
+ *   - sw：运行时向 Service Worker 查询的 SW_VERSION
+ *
+ * 构建全局（__BUILD_BRANCH__ 等）由 vite define 始终注入，prod 也有值，
+ * 所以无需任何 dev 条件判断。SW 未注册 / 未响应时 sw 显示 '?'。
+ *
+ * 彩蛋（dev 附加）：连点 APP_VERSION 5 下手动解锁 DevDebug 面板——正式版默认隐藏，
+ * 这是在正式版上临时调出调试工具排障的入口（会话级，刷新即关；面板内有「关闭」按钮可随时强制关掉）。
+ * 面板已可用时（非 prod / 已解锁）再点不计数。
+ */
+
+const UNLOCK_TAP_COUNT = 5;
+const TAP_RESET_MS = 2000;
+
+const VersionInfo: React.FC = () => {
+    const [swVersion, setSwVersion] = useState<string>('…');
+    // available = 面板当前是否可用（非 prod 默认 true；prod 解锁后 true；强制关闭后 false）。
+    const [available, setAvailable] = useState<boolean>(() => isDevDebugAvailable());
+    const [hint, setHint] = useState<string | null>(null);
+    const tapCountRef = useRef(0);
+    const tapTimerRef = useRef<number | null>(null);
+    const hintTimerRef = useRef<number | null>(null);
+
+    useEffect(() => {
+        let cancelled = false;
+        querySwVersion().then((v) => { if (!cancelled) setSwVersion(v); });
+        return () => { cancelled = true; };
+    }, []);
+
+    useEffect(() => subscribeDevDebugAvailability(setAvailable), []);
+
+    // 卸载时清掉计时器，避免内存泄漏 / 卸载后 setState。
+    useEffect(() => () => {
+        if (tapTimerRef.current) window.clearTimeout(tapTimerRef.current);
+        if (hintTimerRef.current) window.clearTimeout(hintTimerRef.current);
+    }, []);
+
+    const showHint = (text: string, ms: number) => {
+        setHint(text);
+        if (hintTimerRef.current) window.clearTimeout(hintTimerRef.current);
+        hintTimerRef.current = window.setTimeout(() => setHint(null), ms);
+    };
+
+    const handleVersionTap = () => {
+        if (available) return; // 面板已经开着（非 prod 或已解锁），不用再数
+        if (tapTimerRef.current) window.clearTimeout(tapTimerRef.current);
+        tapCountRef.current += 1;
+        const remaining = UNLOCK_TAP_COUNT - tapCountRef.current;
+
+        if (remaining <= 0) {
+            tapCountRef.current = 0;
+            unlockDevDebug();
+            showHint('🔧 调试面板已解锁（刷新即关闭）', 2600);
+            return;
+        }
+        if (remaining <= 2) showHint(`还差 ${remaining} 下…`, TAP_RESET_MS);
+        // 间隔超过 TAP_RESET_MS 没继续点就重置计数。
+        tapTimerRef.current = window.setTimeout(() => { tapCountRef.current = 0; }, TAP_RESET_MS);
+    };
+
+    return (
+        <div className="flex flex-col items-center gap-1.5 pt-2 pb-8 select-none">
+            <button
+                type="button"
+                onClick={handleVersionTap}
+                className="text-[10px] text-slate-300 font-mono tracking-widest uppercase"
+            >
+                {APP_VERSION}
+            </button>
+            <div className="flex items-center gap-1.5 text-[9px] font-mono text-slate-400/80">
+                <span className="px-1.5 py-0.5 rounded-md bg-slate-100 tracking-wide">
+                    build&nbsp;<span className="text-slate-500">{BUILD_LABEL}</span>
+                </span>
+                <span className="px-1.5 py-0.5 rounded-md bg-slate-100 tracking-wide">
+                    sw&nbsp;<span className="text-slate-500">{swVersion}</span>
+                </span>
+            </div>
+            {hint && (
+                <div className="text-[9px] font-mono text-amber-500/80 tracking-normal normal-case">
+                    {hint}
+                </div>
+            )}
+        </div>
+    );
+};
+
+export default VersionInfo;

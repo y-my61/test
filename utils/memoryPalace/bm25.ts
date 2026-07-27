@@ -1,1 +1,227 @@
-LyoqCiAqIE1lbW9yeSBQYWxhY2Ug4oCUIEJNMjUg5pCc57SiCiAqCiAqIOWFs+mUruivjeeyvuehruWMuemFje+8jOihpeWBv+WQkemHj+aQnOe0ouWvueS4k+acieWQjeivjeeahOW8seeCueOAggogKiDkuK3mlocgMi1ncmFtIOWIhuivjSArIOiLseaWh+epuuagvOWIhuivjSArIFRGLUlERiDor4TliIbjgIIKICog57qv5YmN56uv6K6h566X77yM5peg6ZyA5aSW6YOo5pyN5Yqh44CCCiAqLwoKaW1wb3J0IHR5cGUgeyBNZW1vcnlOb2RlIH0gZnJvbSAnLi90eXBlcyc7CmltcG9ydCB7IGJtMjVJbmRleCB9IGZyb20gJy4vYm0yNUluZGV4JzsKCi8vIEJNMjUg5Y+C5pWwCmV4cG9ydCBjb25zdCBLMSA9IDEuMjsKZXhwb3J0IGNvbnN0IEIgPSAwLjc1OwoKLy8g4pSA4pSA4pSAIOWIhuivjSDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIAKCi8qKgogKiDkuK3mlocgMi1ncmFtICsg6Iux5paH5oyJ56m65qC85YiG6K+NCiAqCiAqIOekuuS+i++8mgogKiAi5bCP5piO5Y675LqG5YyX5LqsIiDihpIgWyLlsI/mmI4iLCAi5piO5Y67IiwgIuWOu+S6hiIsICLkuobljJciLCAi5YyX5LqsIl0KICogImhlbGxvIHdvcmxkIiDihpIgWyJoZWxsbyIsICJ3b3JsZCJdCiAqICLlsI/mmI7or7RoZWxsbyIg4oaSIFsi5bCP5piOIiwgIuaYjuivtCIsICJoZWxsbyJdCiAqLwpleHBvcnQgZnVuY3Rpb24gdG9rZW5pemUodGV4dDogc3RyaW5nKTogc3RyaW5nW10gewogICAgY29uc3QgdG9rZW5zOiBzdHJpbmdbXSA9IFtdOwogICAgLy8g5YWI5oyJ6Z2e5Lit5paH5a2X56ym5YiG5Ymy77yM5o+Q5Y+W6Iux5paHIHRva2VuCiAgICBjb25zdCBwYXJ0cyA9IHRleHQuc3BsaXQoLyhbYS16QS1aMC05XSspLyk7CgogICAgZm9yIChjb25zdCBwYXJ0IG9mIHBhcnRzKSB7CiAgICAgICAgY29uc3QgdHJpbW1lZCA9IHBhcnQudHJpbSgpOwogICAgICAgIGlmICghdHJpbW1lZCkgY29udGludWU7CgogICAgICAgIGlmICgvXlthLXpBLVowLTldKyQvLnRlc3QodHJpbW1lZCkpIHsKICAgICAgICAgICAgLy8g6Iux5paHL+aVsOWtl++8muaVtOivjQogICAgICAgICAgICB0b2tlbnMucHVzaCh0cmltbWVkLnRvTG93ZXJDYXNlKCkpOwogICAgICAgIH0gZWxzZSB7CiAgICAgICAgICAgIC8vIOS4reaWh++8mjItZ3JhbQogICAgICAgICAgICBjb25zdCBjbGVhbmVkID0gdHJpbW1lZC5yZXBsYWNlKC9bXHNccHtQfV0vZ3UsICcnKTsgLy8g5Y675o6J5qCH54K55ZKM56m655m9CiAgICAgICAgICAgIGZvciAobGV0IGkgPSAwOyBpIDwgY2xlYW5lZC5sZW5ndGggLSAxOyBpKyspIHsKICAgICAgICAgICAgICAgIHRva2Vucy5wdXNoKGNsZWFuZWQuc2xpY2UoaSwgaSArIDIpKTsKICAgICAgICAgICAgfQogICAgICAgICAgICAvLyDlpoLmnpzlj6rmnIkgMSDkuKrlrZfvvIzkuZ/liqDlhaUKICAgICAgICAgICAgaWYgKGNsZWFuZWQubGVuZ3RoID09PSAxKSB7CiAgICAgICAgICAgICAgICB0b2tlbnMucHVzaChjbGVhbmVkKTsKICAgICAgICAgICAgfQogICAgICAgIH0KICAgIH0KCiAgICByZXR1cm4gdG9rZW5zOwp9CgovLyDilIDilIDilIAgQk0yNSDmkJzntKLlvJXmk44g4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSACgppbnRlcmZhY2UgQk0yNVJlc3VsdCB7CiAgICBub2RlOiBNZW1vcnlOb2RlOwogICAgc2NvcmU6IG51bWJlcjsKfQoKLyoqCiAqIEJNMjUg5pCc57SiCiAqCiAqIEBwYXJhbSBxdWVyeSDmkJzntKLmn6Xor6LmlofmnKwKICogQHBhcmFtIG5vZGVzIOWAmemAieiusOW/huiKgueCuQogKiBAcGFyYW0gdG9wSyDov5Tlm57mnIDlpJogdG9wSyDmnaEKICovCmV4cG9ydCBmdW5jdGlvbiBibTI1U2VhcmNoKAogICAgcXVlcnk6IHN0cmluZywKICAgIG5vZGVzOiBNZW1vcnlOb2RlW10sCiAgICB0b3BLOiBudW1iZXIgPSAyMCwKKTogQk0yNVJlc3VsdFtdIHsKICAgIGlmIChub2Rlcy5sZW5ndGggPT09IDApIHJldHVybiBbXTsKCiAgICBjb25zdCBxdWVyeVRva2VucyA9IHRva2VuaXplKHF1ZXJ5KTsKICAgIGlmIChxdWVyeVRva2Vucy5sZW5ndGggPT09IDApIHJldHVybiBbXTsKCiAgICBjb25zdCB0MCA9ICh0eXBlb2YgcGVyZm9ybWFuY2UgIT09ICd1bmRlZmluZWQnKSA/IHBlcmZvcm1hbmNlLm5vdygpIDogMDsKCiAgICAvLyDpooTlpITnkIbvvJrkuLrmr4/kuKrmlofmoaPlu7rnq4sgdG9rZW4g6aKR546H6KGoCiAgICBjb25zdCBkb2NUb2tlbnM6IHN0cmluZ1tdW10gPSBub2Rlcy5tYXAobiA9PiB0b2tlbml6ZShuLmNvbnRlbnQpKTsKCiAgICAvLyDorqHnrpflubPlnYfmlofmoaPplb/luqYKICAgIGNvbnN0IGF2Z0RsID0gZG9jVG9rZW5zLnJlZHVjZSgoc3VtLCB0KSA9PiBzdW0gKyB0Lmxlbmd0aCwgMCkgLyBkb2NUb2tlbnMubGVuZ3RoOwoKICAgIC8vIOaehOW7uiBJREbvvIhJbnZlcnNlIERvY3VtZW50IEZyZXF1ZW5jee+8iQogICAgY29uc3QgZG9jQ291bnQgPSBub2Rlcy5sZW5ndGg7CiAgICBjb25zdCBpZGY6IFJlY29yZDxzdHJpbmcsIG51bWJlcj4gPSB7fTsKCiAgICBmb3IgKGNvbnN0IHF0IG9mIHF1ZXJ5VG9rZW5zKSB7CiAgICAgICAgaWYgKGlkZltxdF0gIT09IHVuZGVmaW5lZCkgY29udGludWU7CiAgICAgICAgLy8g5YyF5ZCr6K+lIHRva2VuIOeahOaWh+aho+aVsAogICAgICAgIGNvbnN0IGRmID0gZG9jVG9rZW5zLmZpbHRlcihkdCA9PiBkdC5pbmNsdWRlcyhxdCkpLmxlbmd0aDsKICAgICAgICAvLyBCTTI1IElERiDlhazlvI8KICAgICAgICBpZGZbcXRdID0gTWF0aC5sb2coKGRvY0NvdW50IC0gZGYgKyAwLjUpIC8gKGRmICsgMC41KSArIDEpOwogICAgfQoKICAgIC8vIOiuoeeul+avj+S4quaWh+aho+eahCBCTTI1IOWIhuaVsAogICAgY29uc3QgcmVzdWx0czogQk0yNVJlc3VsdFtdID0gW107CgogICAgZm9yIChsZXQgaSA9IDA7IGkgPCBub2Rlcy5sZW5ndGg7IGkrKykgewogICAgICAgIGNvbnN0IGRsID0gZG9jVG9rZW5zW2ldLmxlbmd0aDsKICAgICAgICBpZiAoZGwgPT09IDApIGNvbnRpbnVlOwoKICAgICAgICBsZXQgc2NvcmUgPSAwOwoKICAgICAgICAvLyDmnoTlu7ror6XmlofmoaPnmoQgdG9rZW4g6aKR546H6KGoCiAgICAgICAgY29uc3QgdGY6IFJlY29yZDxzdHJpbmcsIG51bWJlcj4gPSB7fTsKICAgICAgICBmb3IgKGNvbnN0IHQgb2YgZG9jVG9rZW5zW2ldKSB7CiAgICAgICAgICAgIHRmW3RdID0gKHRmW3RdIHx8IDApICsgMTsKICAgICAgICB9CgogICAgICAgIGZvciAoY29uc3QgcXQgb2YgcXVlcnlUb2tlbnMpIHsKICAgICAgICAgICAgY29uc3QgdGVybUZyZXEgPSB0ZltxdF0gfHwgMDsKICAgICAgICAgICAgaWYgKHRlcm1GcmVxID09PSAwKSBjb250aW51ZTsKCiAgICAgICAgICAgIGNvbnN0IHRmTm9ybSA9ICh0ZXJtRnJlcSAqIChLMSArIDEpKSAvICh0ZXJtRnJlcSArIEsxICogKDEgLSBCICsgQiAqIGRsIC8gYXZnRGwpKTsKICAgICAgICAgICAgc2NvcmUgKz0gKGlkZltxdF0gfHwgMCkgKiB0Zk5vcm07CiAgICAgICAgfQoKICAgICAgICBpZiAoc2NvcmUgPiAwKSB7CiAgICAgICAgICAgIHJlc3VsdHMucHVzaCh7IG5vZGU6IG5vZGVzW2ldLCBzY29yZSB9KTsKICAgICAgICB9CiAgICB9CgogICAgLy8g5oyJ5YiG5pWw6ZmN5bqPCiAgICByZXN1bHRzLnNvcnQoKGEsIGIpID0+IGIuc2NvcmUgLSBhLnNjb3JlKTsKCiAgICBpZiAodDAgJiYgbm9kZXMubGVuZ3RoID49IDUwMCkgewogICAgICAgIGNvbnN0IGR0ID0gcGVyZm9ybWFuY2Uubm93KCkgLSB0MDsKICAgICAgICBjb25zb2xlLmxvZyhgW2JtMjU6bmFpdmVdICR7bm9kZXMubGVuZ3RofSBub2RlcyAvICR7cXVlcnlUb2tlbnMubGVuZ3RofSBxdG9rZW5zIOKGkiAke2R0LnRvRml4ZWQoMSl9bXNgKTsKICAgIH0KCiAgICByZXR1cm4gcmVzdWx0cy5zbGljZSgwLCB0b3BLKTsKfQoKLy8g4pSA4pSA4pSAIOWAkuaOkue0ouW8leeJiO+8iOihjOS4uuetieS7t++8jOWkjeadguW6puS7jiBPKFHDl07Dl0wpIOmZjeWIsCBPKFHDl3Bvc3RpbmdzKe+8iSDilIDilIAKCi8qKgogKiBCTTI1IOaQnOe0oiDigJTigJQg5YCS5o6S57Si5byV54mICiAqCiAqIOS4jiBibTI1U2VhcmNoKCkg6KGM5Li6562J5Lu377yI5ZCMIHRva2VuaXplciAvIOWFrOW8jyAvIElERiAvIOWAmemAiembhu+8ie+8jAogKiDkvYbpgb/lhY3lr7nlhajph4/oioLngrnph43mlrDliIbor43jgILntKLlvJXnlLEgYm0yNUluZGV4IOaooeWdl+WcqCBNZW1vcnlOb2RlREIKICog5YaZ5YWl6Lev5b6E5Lit5aKe6YeP57u05oqk77yM6aaW5qyh5p+l6K+i5p+QIGNoYXJJZCDml7bmjInpnIDlhajph4/mnoTlu7rjgIIKICoKICog5YCZ6YCJ6L+H5ruk562W55Wl77ya5oqK5Lyg5YWl55qEIG5vZGVzIOW9k+S9nCLnmb3lkI3ljZUi77yM57Si5byV5Lit6LaF5Ye65q2k6ZuG5ZCI55qECiAqIOiKgueCue+8iOWmgiBhcmNoaXZlZCAvIOacqiBlbWJlZGRlZO+8ieiiq+aOkumZpOOAgui/meagtyBhcmNoaXZlIOe/u+i9rOaXoOmcgAogKiDop6blj5HntKLlvJXph43lu7rjgIIKICovCmV4cG9ydCBmdW5jdGlvbiBibTI1U2VhcmNoSW5kZXhlZCgKICAgIHF1ZXJ5OiBzdHJpbmcsCiAgICBub2RlczogTWVtb3J5Tm9kZVtdLAogICAgdG9wSzogbnVtYmVyID0gMjAsCik6IEJNMjVSZXN1bHRbXSB7CiAgICBpZiAobm9kZXMubGVuZ3RoID09PSAwKSByZXR1cm4gW107CiAgICBjb25zdCBxdWVyeVRva2VucyA9IHRva2VuaXplKHF1ZXJ5KTsKICAgIGlmIChxdWVyeVRva2Vucy5sZW5ndGggPT09IDApIHJldHVybiBbXTsKCiAgICBjb25zdCBjaGFySWQgPSBub2Rlc1swXS5jaGFySWQ7CiAgICAvLyDntKLlvJXlv4Xpobvlt7LnlLHosIPnlKjmlrnpgJrov4cgYm0yNUluZGV4LmVuc3VyZUJ1aWx0KGNoYXJJZCwgYWxsTm9kZXMpIOaehOW7uuWlvQogICAgLy8g77yIYWxsTm9kZXMg5ZCrIGFyY2hpdmVkL+acqiBlbWJlZGRlZCDoioLngrnvvIzkv53or4EgdW5hcmNoaXZlIOWQjuiDveaQnOWIsO+8ieOAggogICAgLy8g6L+Z6YeM6Iul5pyq5ZG95Lit5Y+q6IO96YCA5YyW5Li65oyJ5YCZ6YCJ6ZuG5p6E5bu677yM5Lya5LiiIHVuYXJjaGl2ZSDoioLngrkg4oCU4oCUIOaJkyB3YXJuIOaatOmcsumXrumimOOAggogICAgaWYgKCFibTI1SW5kZXguaGFzKGNoYXJJZCkpIHsKICAgICAgICBjb25zb2xlLndhcm4oJ1tibTI1OmluZGV4ZWRdIGluZGV4IG5vdCBidWlsdCBmb3InLCBjaGFySWQsICfigJQgYnVpbGRpbmcgZnJvbSBmaWx0ZXJlZCBjYW5kaWRhdGVzIChtYXkgbWlzcyB1bmFyY2hpdmVkIG5vZGVzKS4gQ2FsbGVyIHNob3VsZCBlbnN1cmVCdWlsdCgpIHdpdGggZnVsbCBjaGFySWQgbm9kZXMuJyk7CiAgICAgICAgYm0yNUluZGV4LmVuc3VyZUJ1aWx0KGNoYXJJZCwgbm9kZXMpOwogICAgfQoKICAgIGNvbnN0IHQwID0gKHR5cGVvZiBwZXJmb3JtYW5jZSAhPT0gJ3VuZGVmaW5lZCcpID8gcGVyZm9ybWFuY2Uubm93KCkgOiAwOwoKICAgIGNvbnN0IGFsbG93ZWQgPSBuZXcgU2V0KG5vZGVzLm1hcChuID0+IG4uaWQpKTsKICAgIGNvbnN0IHJhdyA9IGJtMjVJbmRleC5zZWFyY2goY2hhcklkLCBxdWVyeVRva2VucywgYWxsb3dlZCk7CgogICAgLy8g6YeN5bu6IChub2RlLCBzY29yZSkg5bm255So5LiO5py057Sg54mI5LiA6Ie055qEIHRpZS1icmVha++8mgogICAgLy8g5py057Sg54mI57uT5p6c5L+d55WZIG5vZGVzW2ldIOi+k+WFpemhuuW6j++8jHNvcnQg5piv56iz5a6a55qEIOKGkiDlkIzliIbml7bmjIkgaSDljYfluo/jgIIKICAgIC8vIOi/memHjOe7meavj+S4qiByYXcg5ZG95Lit57uR5LiK5a+55bqUIG5vZGVzW10g55qE5LiL5qCH77yM5LqM57qn5o6S5bqP6ZSu44CCCiAgICBjb25zdCBub2RlSW5kZXhNYXAgPSBuZXcgTWFwPHN0cmluZywgbnVtYmVyPigpOwogICAgZm9yIChsZXQgaSA9IDA7IGkgPCBub2Rlcy5sZW5ndGg7IGkrKykgbm9kZUluZGV4TWFwLnNldChub2Rlc1tpXS5pZCwgaSk7CgogICAgY29uc3QgZW5yaWNoZWQgPSByYXcubWFwKHIgPT4gKHsKICAgICAgICBub2RlOiBub2Rlc1tub2RlSW5kZXhNYXAuZ2V0KHIubm9kZUlkKSFdLAogICAgICAgIHNjb3JlOiByLnNjb3JlLAogICAgICAgIGlkeDogbm9kZUluZGV4TWFwLmdldChyLm5vZGVJZCkhLAogICAgfSkpOwogICAgZW5yaWNoZWQuc29ydCgoYSwgYikgPT4gYi5zY29yZSAtIGEuc2NvcmUgfHwgYS5pZHggLSBiLmlkeCk7CgogICAgY29uc3QgcmVzdWx0czogQk0yNVJlc3VsdFtdID0gZW5yaWNoZWQuc2xpY2UoMCwgdG9wSykubWFwKGUgPT4gKHsgbm9kZTogZS5ub2RlLCBzY29yZTogZS5zY29yZSB9KSk7CgogICAgaWYgKHQwICYmIG5vZGVzLmxlbmd0aCA+PSA1MDApIHsKICAgICAgICBjb25zdCBkdCA9IHBlcmZvcm1hbmNlLm5vdygpIC0gdDA7CiAgICAgICAgY29uc29sZS5sb2coYFtibTI1OmluZGV4ZWRdICR7bm9kZXMubGVuZ3RofSBjYW5kaWRhdGVzIC8gJHtxdWVyeVRva2Vucy5sZW5ndGh9IHF0b2tlbnMg4oaSICR7ZHQudG9GaXhlZCgxKX1tc2ApOwogICAgfQoKICAgIHJldHVybiByZXN1bHRzOwp9CgovKioKICog5Y+M6LeR5qCh6aqM77ya5ZCM5pe26LCD55So5py057Sg54mI5LiO5YCS5o6S54mI77yM5a+55q+UIHRvcCBLIOaYr+WQpuS4gOiHtOOAggogKiDkuI3kuIDoh7Tml7bmiZPorablkYrvvIjlkKvlt67lvILor6bmg4XvvInvvIzov5Tlm57lgLzlp4vnu4jmmK/mnLTntKDniYjnu5PmnpzvvIjkv53or4HngbDluqbmnJ/ooYzkuLrkuI3lj5jvvInjgIIKICovCmV4cG9ydCBmdW5jdGlvbiBibTI1U2VhcmNoRHVhbFJ1bigKICAgIHF1ZXJ5OiBzdHJpbmcsCiAgICBub2RlczogTWVtb3J5Tm9kZVtdLAogICAgdG9wSzogbnVtYmVyID0gMjAsCik6IEJNMjVSZXN1bHRbXSB7CiAgICBjb25zdCBuYWl2ZSA9IGJtMjVTZWFyY2gocXVlcnksIG5vZGVzLCB0b3BLKTsKICAgIGNvbnN0IGluZGV4ZWQgPSBibTI1U2VhcmNoSW5kZXhlZChxdWVyeSwgbm9kZXMsIHRvcEspOwoKICAgIC8vIOavlOi+gyB0b3AgSyDnmoQgbm9kZUlkIOW6j+WIl+S4juWIhuaVsO+8iOWuueiuuOa1rueCuSAxZS02IOivr+W3ru+8iQogICAgY29uc3QgbGVuID0gTWF0aC5taW4obmFpdmUubGVuZ3RoLCBpbmRleGVkLmxlbmd0aCk7CiAgICBsZXQgbWlzbWF0Y2ggPSBmYWxzZTsKICAgIGlmIChuYWl2ZS5sZW5ndGggIT09IGluZGV4ZWQubGVuZ3RoKSBtaXNtYXRjaCA9IHRydWU7CiAgICBmb3IgKGxldCBpID0gMDsgaSA8IGxlbiAmJiAhbWlzbWF0Y2g7IGkrKykgewogICAgICAgIGlmIChuYWl2ZVtpXS5ub2RlLmlkICE9PSBpbmRleGVkW2ldLm5vZGUuaWQpIHsgbWlzbWF0Y2ggPSB0cnVlOyBicmVhazsgfQogICAgICAgIGlmIChNYXRoLmFicyhuYWl2ZVtpXS5zY29yZSAtIGluZGV4ZWRbaV0uc2NvcmUpID4gMWUtNikgeyBtaXNtYXRjaCA9IHRydWU7IGJyZWFrOyB9CiAgICB9CgogICAgaWYgKG1pc21hdGNoKSB7CiAgICAgICAgY29uc29sZS53YXJuKCdbYm0yNTpkdWFsLXJ1bl0gbWlzbWF0Y2ggZGV0ZWN0ZWQnLCB7CiAgICAgICAgICAgIHF1ZXJ5OiBxdWVyeS5zbGljZSgwLCA1MCksCiAgICAgICAgICAgIG5vZGVDb3VudDogbm9kZXMubGVuZ3RoLAogICAgICAgICAgICBuYWl2ZVRvcDogbmFpdmUuc2xpY2UoMCwgNSkubWFwKHIgPT4gKHsgaWQ6IHIubm9kZS5pZCwgczogci5zY29yZS50b0ZpeGVkKDQpIH0pKSwKICAgICAgICAgICAgaW5kZXhlZFRvcDogaW5kZXhlZC5zbGljZSgwLCA1KS5tYXAociA9PiAoeyBpZDogci5ub2RlLmlkLCBzOiByLnNjb3JlLnRvRml4ZWQoNCkgfSkpLAogICAgICAgIH0pOwogICAgfQoKICAgIHJldHVybiBuYWl2ZTsKfQo=
+/**
+ * Memory Palace — BM25 搜索
+ *
+ * 关键词精确匹配，补偿向量搜索对专有名词的弱点。
+ * 中文 2-gram 分词 + 英文空格分词 + TF-IDF 评分。
+ * 纯前端计算，无需外部服务。
+ */
+
+import type { MemoryNode } from './types';
+import { bm25Index } from './bm25Index';
+
+// BM25 参数
+export const K1 = 1.2;
+export const B = 0.75;
+
+// ─── 分词 ──────────────────────────────────────────────
+
+/**
+ * 中文 2-gram + 英文按空格分词
+ *
+ * 示例：
+ * "小明去了北京" → ["小明", "明去", "去了", "了北", "北京"]
+ * "hello world" → ["hello", "world"]
+ * "小明说hello" → ["小明", "明说", "hello"]
+ */
+export function tokenize(text: string): string[] {
+    const tokens: string[] = [];
+    // 先按非中文字符分割，提取英文 token
+    const parts = text.split(/([a-zA-Z0-9]+)/);
+
+    for (const part of parts) {
+        const trimmed = part.trim();
+        if (!trimmed) continue;
+
+        if (/^[a-zA-Z0-9]+$/.test(trimmed)) {
+            // 英文/数字：整词
+            tokens.push(trimmed.toLowerCase());
+        } else {
+            // 中文：2-gram
+            const cleaned = trimmed.replace(/[\s\p{P}]/gu, ''); // 去掉标点和空白
+            for (let i = 0; i < cleaned.length - 1; i++) {
+                tokens.push(cleaned.slice(i, i + 2));
+            }
+            // 如果只有 1 个字，也加入
+            if (cleaned.length === 1) {
+                tokens.push(cleaned);
+            }
+        }
+    }
+
+    return tokens;
+}
+
+// ─── BM25 搜索引擎 ────────────────────────────────────
+
+interface BM25Result {
+    node: MemoryNode;
+    score: number;
+}
+
+/**
+ * BM25 搜索
+ *
+ * @param query 搜索查询文本
+ * @param nodes 候选记忆节点
+ * @param topK 返回最多 topK 条
+ */
+export function bm25Search(
+    query: string,
+    nodes: MemoryNode[],
+    topK: number = 20,
+): BM25Result[] {
+    if (nodes.length === 0) return [];
+
+    const queryTokens = tokenize(query);
+    if (queryTokens.length === 0) return [];
+
+    const t0 = (typeof performance !== 'undefined') ? performance.now() : 0;
+
+    // 预处理：为每个文档建立 token 频率表
+    const docTokens: string[][] = nodes.map(n => tokenize(n.content));
+
+    // 计算平均文档长度
+    const avgDl = docTokens.reduce((sum, t) => sum + t.length, 0) / docTokens.length;
+
+    // 构建 IDF（Inverse Document Frequency）
+    const docCount = nodes.length;
+    const idf: Record<string, number> = {};
+
+    for (const qt of queryTokens) {
+        if (idf[qt] !== undefined) continue;
+        // 包含该 token 的文档数
+        const df = docTokens.filter(dt => dt.includes(qt)).length;
+        // BM25 IDF 公式
+        idf[qt] = Math.log((docCount - df + 0.5) / (df + 0.5) + 1);
+    }
+
+    // 计算每个文档的 BM25 分数
+    const results: BM25Result[] = [];
+
+    for (let i = 0; i < nodes.length; i++) {
+        const dl = docTokens[i].length;
+        if (dl === 0) continue;
+
+        let score = 0;
+
+        // 构建该文档的 token 频率表
+        const tf: Record<string, number> = {};
+        for (const t of docTokens[i]) {
+            tf[t] = (tf[t] || 0) + 1;
+        }
+
+        for (const qt of queryTokens) {
+            const termFreq = tf[qt] || 0;
+            if (termFreq === 0) continue;
+
+            const tfNorm = (termFreq * (K1 + 1)) / (termFreq + K1 * (1 - B + B * dl / avgDl));
+            score += (idf[qt] || 0) * tfNorm;
+        }
+
+        if (score > 0) {
+            results.push({ node: nodes[i], score });
+        }
+    }
+
+    // 按分数降序
+    results.sort((a, b) => b.score - a.score);
+
+    if (t0 && nodes.length >= 500) {
+        const dt = performance.now() - t0;
+        console.log(`[bm25:naive] ${nodes.length} nodes / ${queryTokens.length} qtokens → ${dt.toFixed(1)}ms`);
+    }
+
+    return results.slice(0, topK);
+}
+
+// ─── 倒排索引版（行为等价，复杂度从 O(Q×N×L) 降到 O(Q×postings)） ──
+
+/**
+ * BM25 搜索 —— 倒排索引版
+ *
+ * 与 bm25Search() 行为等价（同 tokenizer / 公式 / IDF / 候选集），
+ * 但避免对全量节点重新分词。索引由 bm25Index 模块在 MemoryNodeDB
+ * 写入路径中增量维护，首次查询某 charId 时按需全量构建。
+ *
+ * 候选过滤策略：把传入的 nodes 当作"白名单"，索引中超出此集合的
+ * 节点（如 archived / 未 embedded）被排除。这样 archive 翻转无需
+ * 触发索引重建。
+ */
+export function bm25SearchIndexed(
+    query: string,
+    nodes: MemoryNode[],
+    topK: number = 20,
+): BM25Result[] {
+    if (nodes.length === 0) return [];
+    const queryTokens = tokenize(query);
+    if (queryTokens.length === 0) return [];
+
+    const charId = nodes[0].charId;
+    // 索引必须已由调用方通过 bm25Index.ensureBuilt(charId, allNodes) 构建好
+    // （allNodes 含 archived/未 embedded 节点，保证 unarchive 后能搜到）。
+    // 这里若未命中只能退化为按候选集构建，会丢 unarchive 节点 —— 打 warn 暴露问题。
+    if (!bm25Index.has(charId)) {
+        console.warn('[bm25:indexed] index not built for', charId, '— building from filtered candidates (may miss unarchived nodes). Caller should ensureBuilt() with full charId nodes.');
+        bm25Index.ensureBuilt(charId, nodes);
+    }
+
+    const t0 = (typeof performance !== 'undefined') ? performance.now() : 0;
+
+    const allowed = new Set(nodes.map(n => n.id));
+    const raw = bm25Index.search(charId, queryTokens, allowed);
+
+    // 重建 (node, score) 并用与朴素版一致的 tie-break：
+    // 朴素版结果保留 nodes[i] 输入顺序，sort 是稳定的 → 同分时按 i 升序。
+    // 这里给每个 raw 命中绑上对应 nodes[] 的下标，二级排序键。
+    const nodeIndexMap = new Map<string, number>();
+    for (let i = 0; i < nodes.length; i++) nodeIndexMap.set(nodes[i].id, i);
+
+    const enriched = raw.map(r => ({
+        node: nodes[nodeIndexMap.get(r.nodeId)!],
+        score: r.score,
+        idx: nodeIndexMap.get(r.nodeId)!,
+    }));
+    enriched.sort((a, b) => b.score - a.score || a.idx - b.idx);
+
+    const results: BM25Result[] = enriched.slice(0, topK).map(e => ({ node: e.node, score: e.score }));
+
+    if (t0 && nodes.length >= 500) {
+        const dt = performance.now() - t0;
+        console.log(`[bm25:indexed] ${nodes.length} candidates / ${queryTokens.length} qtokens → ${dt.toFixed(1)}ms`);
+    }
+
+    return results;
+}
+
+/**
+ * 双跑校验：同时调用朴素版与倒排版，对比 top K 是否一致。
+ * 不一致时打警告（含差异详情），返回值始终是朴素版结果（保证灰度期行为不变）。
+ */
+export function bm25SearchDualRun(
+    query: string,
+    nodes: MemoryNode[],
+    topK: number = 20,
+): BM25Result[] {
+    const naive = bm25Search(query, nodes, topK);
+    const indexed = bm25SearchIndexed(query, nodes, topK);
+
+    // 比较 top K 的 nodeId 序列与分数（容许浮点 1e-6 误差）
+    const len = Math.min(naive.length, indexed.length);
+    let mismatch = false;
+    if (naive.length !== indexed.length) mismatch = true;
+    for (let i = 0; i < len && !mismatch; i++) {
+        if (naive[i].node.id !== indexed[i].node.id) { mismatch = true; break; }
+        if (Math.abs(naive[i].score - indexed[i].score) > 1e-6) { mismatch = true; break; }
+    }
+
+    if (mismatch) {
+        console.warn('[bm25:dual-run] mismatch detected', {
+            query: query.slice(0, 50),
+            nodeCount: nodes.length,
+            naiveTop: naive.slice(0, 5).map(r => ({ id: r.node.id, s: r.score.toFixed(4) })),
+            indexedTop: indexed.slice(0, 5).map(r => ({ id: r.node.id, s: r.score.toFixed(4) })),
+        });
+    }
+
+    return naive;
+}

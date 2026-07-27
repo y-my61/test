@@ -1,1 +1,87 @@
-aW1wb3J0IHsgTWVzc2FnZSB9IGZyb20gJy4uL3R5cGVzJzsKCi8qKgogKiDlrZfluZXlr7npvZDmqKHlvI/vvIjlpJbor63or63pn7PvvInkuIvvvIzkuK3mloflrZfluZXlkowgPOivremfsz4g5Z2X5Lya6KKrIGNodW5rVGV4dCDmi4bmiJDlkIzkuIDlm57lkIjph4znmoQKICog5LiN5ZCM5rCU5rOh77ya5a2X5bmV5piv54us56uL55qE5paH5a2X5rCU5rOh77yM6K+t6Z+z5raI5oGv5pys6Lqr5qCH562+5aSW5b6A5b6A5rKh5pyJ5Lit5paH44CCCiAqCiAqIOS7peWJjeivremfs+adoeeahOS4reaWh+e/u+ivkSAob3JpZ2luYWxUZXh0KSDlj6rnnIvjgIzmoIfnrb7lpJbnmoTmloflrZfjgI3vvIznnIvkuI3liLDlsLHlj5HkuIDmrKEgTExNCiAqIOivt+axguaKiuWkluivree/u+WbnuS4reaWh+KAlOKAlOivt+axguS4gOWksei0pee/u+ivkeWwseawuOi/nOepuuedgO+8iOOAjOWkluivreivremfs+ayoee/u+ivkeOAje+8ieOAggogKgogKiDov5nkuKogaGVscGVyIOS7juWQjOS4gOaJuSBhc3Npc3RhbnQg5raI5oGv6YeM5oqK5a2X5bmV55u05o6l5pS25Zue5p2l5b2T57+76K+R77ya56Gu5a6a5oCn44CB6Zu25oiQ5pys44CBCiAqIOWGheWuuei/mOWSjOeUqOaIt+eci+WIsOeahOWtl+W5lemAkOWtl+S4gOiHtOOAguaUtuS4jeWIsO+8iOaIluWvueS4jem9kO+8ieWGjeiuqeiwg+eUqOaWuei1sCBMTE0g5YWc5bqV44CCCiAqCiAqIOKaoO+4jyDliY3mj5DmmK/mqKHlnovnnJ/nmoTpgbXlrojkuoblrZfluZXlr7npvZDmoLzlvI/jgILmqKHlnovkuI3lrojmoLzlvI/ml7bvvIjmoIfnrb7lpJbmmK/ni6znq4vpl7LogYrnn63lj6XjgIEKICog6K+t6Z+z6YeM5piv5Y+m5LiA5q616K+d77yJ77yM5oqK5YWE5byf5rCU5rOh5b2T57+76K+R5bCx5Lya5pi+56S65oiQ6am05ZSH5LiN5a+56ams5Zi055qE5Lit5paH77yI55yf5a6e57+76L2mCiAqIOaKpeWRiu+8mui9rOaWh+Wtl+mdouadv+aYvuekuuWQjOWbnuWQiOeahOOAjOetieaIkeS4gOS4i+OAjeiAjOS4jeaYr+ivremfs+eahOe/u+ivke+8ieOAguaJgOS7peaUtuS5i+WJjeW/hemhuwogKiDlgZrnu5PmnoTmoKHpqozvvIzlr7nkuI3kuIrkuIDlvovov5Tlm54gJyfvvIjlroHlj6/lpJroirHkuIDmrKEgTExNIOiwg+eUqO+8jOS5n+S4jeiDveWxleekuumUmeivr+WGheWuue+8ie+8mgogKiAgLSDkuK3mlofmsJTms6HmlbAgPT0g6K+t6Z+z5YaF5a6555qE5YiG5q615pWw77yI5a2X5bmV5a+56b2QIHByb21wdCDopoHmsYLpgJDmrrXlr7nlupTvvIxjaHVua1RleHQKICogICAg5oyJ5o2i6KGM5YiG5rCU5rOh44CB6K+t6Z+z5YaF5a655oyJ5o2i6KGM5YiG5q6177yM5Lik6L655bqU5b2T5pWw55uu5LiA6Ie077yJCiAqICAtIOS4reWkluaWh+Wtl+espumHj+avlOS+i+WQiOeQhu+8iDQg5Liq5a2X55qE44CM562J5oiR5LiA5LiL44CN6YWNIDMwMCDlrZfnrKbnmoToi7Hmlofni6znmb3kuIDnnLzlgYfvvIkKICoKICog5YW25L2Z57qm5p2f77yaCiAqICAtIOWPquaUtiBtc2cg5omA5Zyo55qE6L+e57utIGFzc2lzdGFudCDmibnmrKHvvIjliY3lkI7mianlsZXvvIzpgYfliLDpnZ4gYXNzaXN0YW50IOWBnO+8iQogKiAgLSDmibnmrKHph4zpmaQgbXNnIOWklui/mOacieWIq+eahOivremfs+a2iOaBryDihpIg5a2X5bmV5b2S5bGe5ZCr57OK77yM6L+U5ZueICcnCiAqICAtIOWPquaUtiB0eXBlPT09J3RleHQnIOS4lOS4jeWQq+ivremfs+agh+etvueahOawlOazoe+8m2Vtb2ppIC8g5Y2h54mH562J6Lez6L+HCiAqICAtIOWPjOivreawlOazoeWPquWPliAlJUJJTElOR1VBTCUlIOS5i+WJjeeahOOAjOmAieOAjeivreiogOWNiui+ue+8iOmCo+aJjeaYr+Wtl+W5lemdou+8iQogKi8KdHlwZSBNc2dMaWtlID0gUGljazxNZXNzYWdlLCAnaWQnIHwgJ3JvbGUnIHwgJ3R5cGUnIHwgJ2NvbnRlbnQnPjsKCi8qKiDmlLbpm4blkIzmibnmrKHlhYTlvJ/msJTms6HmlofmnKwgKyDor63pn7PmoIfnrb7lhoXmlofvvIjkuI3lgZrlr7npvZDmoKHpqozvvInjgIJhbWJpZ3VvdXM95ZCM5om55pyJ56ys5LqM5p2h6K+t6Z+z44CCICovCmZ1bmN0aW9uIGNvbGxlY3RQYXJ0cyhtZXNzYWdlczogTXNnTGlrZVtdLCBtc2dJZDogbnVtYmVyKTogeyBwYXJ0czogc3RyaW5nW107IGlubmVyOiBzdHJpbmc7IGFtYmlndW91czogYm9vbGVhbiB9IHsKICAgIGNvbnN0IGlkeCA9IG1lc3NhZ2VzLmZpbmRJbmRleChtID0+IG0uaWQgPT09IG1zZ0lkKTsKICAgIGlmIChpZHggPT09IC0xKSByZXR1cm4geyBwYXJ0czogW10sIGlubmVyOiAnJywgYW1iaWd1b3VzOiBmYWxzZSB9OwoKICAgIC8vIOivremfs+WGheWuue+8iOmFjeWvueaPkOWPlu+8m+acqumXreWQiOeahOWOhuWPsuWdj+aVsOaNruWPluagh+etvuWQjuWFqOmDqO+8iQogICAgY29uc3Qgdm9pY2VDb250ZW50ID0gbWVzc2FnZXNbaWR4XS5jb250ZW50IHx8ICcnOwogICAgY29uc3QgaW5uZXIgPSAoCiAgICAgICAgdm9pY2VDb250ZW50Lm1hdGNoKC88W+ivreiqnl3pn7NbXj5dKj4oW1xzXFNdKj8pPFwvXHMqW+ivreiqnl3pn7Nccyo+Lyk/LlsxXQogICAgICAgID8/IHZvaWNlQ29udGVudC5tYXRjaCgvPFvor63oqp5d6Z+zW14+XSo+KFtcc1xTXSopJC8pPy5bMV0KICAgICAgICA/PyAnJwogICAgKS50cmltKCk7CgogICAgbGV0IHN0YXJ0ID0gaWR4OwogICAgbGV0IGVuZCA9IGlkeDsKICAgIHdoaWxlIChzdGFydCA+IDAgJiYgbWVzc2FnZXNbc3RhcnQgLSAxXS5yb2xlID09PSAnYXNzaXN0YW50Jykgc3RhcnQtLTsKICAgIHdoaWxlIChlbmQgPCBtZXNzYWdlcy5sZW5ndGggLSAxICYmIG1lc3NhZ2VzW2VuZCArIDFdLnJvbGUgPT09ICdhc3Npc3RhbnQnKSBlbmQrKzsKCiAgICBjb25zdCBWT0lDRV9PUEVOX1JFID0gLzxb6K+t6KqeXemfs1tePl0qPi87CiAgICBjb25zdCBwYXJ0czogc3RyaW5nW10gPSBbXTsKICAgIGZvciAobGV0IGkgPSBzdGFydDsgaSA8PSBlbmQ7IGkrKykgewogICAgICAgIGNvbnN0IG0gPSBtZXNzYWdlc1tpXTsKICAgICAgICBpZiAoaSA9PT0gaWR4KSBjb250aW51ZTsKICAgICAgICBpZiAobS50eXBlICE9PSAndGV4dCcpIGNvbnRpbnVlOwogICAgICAgIGlmIChWT0lDRV9PUEVOX1JFLnRlc3QobS5jb250ZW50IHx8ICcnKSkgcmV0dXJuIHsgcGFydHM6IFtdLCBpbm5lciwgYW1iaWd1b3VzOiB0cnVlIH07CiAgICAgICAgY29uc3QgaGFsZiA9IChtLmNvbnRlbnQgfHwgJycpLnNwbGl0KC8lJUJJTElOR1VBTCUlL2kpWzBdLnRyaW0oKTsKICAgICAgICBpZiAoaGFsZikgcGFydHMucHVzaChoYWxmKTsKICAgIH0KICAgIHJldHVybiB7IHBhcnRzLCBpbm5lciwgYW1iaWd1b3VzOiBmYWxzZSB9Owp9CgpleHBvcnQgZnVuY3Rpb24gY29sbGVjdFZvaWNlQmF0Y2hTdWJ0aXRsZShtZXNzYWdlczogTXNnTGlrZVtdLCBtc2dJZDogbnVtYmVyKTogc3RyaW5nIHsKICAgIGNvbnN0IHsgcGFydHMsIGlubmVyLCBhbWJpZ3VvdXMgfSA9IGNvbGxlY3RQYXJ0cyhtZXNzYWdlcywgbXNnSWQpOwogICAgaWYgKGFtYmlndW91cyB8fCAhaW5uZXIgfHwgIXBhcnRzLmxlbmd0aCkgcmV0dXJuICcnOwoKICAgIC8vIOKUgOKUgCDnu5PmnoTlr7npvZDmoKHpqozvvJrlr7nkuI3kuIror7TmmI7moIfnrb7lpJbkuI3mmK/lrZfluZXvvIzotbAgTExNIOWFnOW6lSDilIDilIAKICAgIGNvbnN0IGZvcmVpZ25TZWdzID0gaW5uZXIuc3BsaXQoL1xuKy8pLm1hcChzID0+IHMudHJpbSgpKS5maWx0ZXIoQm9vbGVhbik7CiAgICBpZiAocGFydHMubGVuZ3RoICE9PSBmb3JlaWduU2Vncy5sZW5ndGgpIHJldHVybiAnJzsKICAgIGNvbnN0IHpoTGVuID0gcGFydHMuam9pbignJykucmVwbGFjZSgvXHMvZywgJycpLmxlbmd0aDsKICAgIGNvbnN0IGZMZW4gPSBpbm5lci5yZXBsYWNlKC9ccy9nLCAnJykubGVuZ3RoOwogICAgaWYgKHpoTGVuICogNiA8IGZMZW4gfHwgZkxlbiAqIDYgPCB6aExlbikgcmV0dXJuICcnOwoKICAgIC8vIOWFnOS4quS4iumZkO+8jOmYsuaegeerr+mVv+WbnuWQiOaKiue/u+ivkemdouadv+aSkeeIhgogICAgcmV0dXJuIHBhcnRzLmpvaW4oJ1xuJykuc2xpY2UoMCwgMjAwMCk7Cn0KCi8qKgogKiDmr5LmlbDmja7oh6rmo4DvvJoyMDI2LTA3LTAyIH4gMDctMDQg5LmL6Ze055qE54mI5pys5pS25a2X5bmVKirkuI3lgZrlr7npvZDmoKHpqowqKu+8jOaooeWei+S4jeWuiOWtl+W5lQogKiDmoLzlvI/ml7bmiorlkIzlm57lkIjnmoTpl7LogYrnn63lj6XlvZPnv7vor5HmjIHkuYXljJbkuobjgILlm57ngYzor63pn7PmlbDmja7ml7bnlKjov5nkuKrlh73mlbDorqTlh7rov5nnp40KICog5a2Y6YeP6ISP57+76K+R77yI5a2Y55qE5YC8ID09IOaXp+mAu+i+keeahOS6p+eJqe+8jOS4lOaWsOagoemqjOWIpOWumuS4jeaYr+Wtl+W5le+8ie+8jOiupOWHuuadpeWwsea4heaOieOAggogKi8KZXhwb3J0IGZ1bmN0aW9uIGlzUG9pc29uZWRWb2ljZVN1YnRpdGxlKG1lc3NhZ2VzOiBNc2dMaWtlW10sIG1zZ0lkOiBudW1iZXIsIHN0b3JlZE9yaWdpbmFsVGV4dDogc3RyaW5nKTogYm9vbGVhbiB7CiAgICBpZiAoIXN0b3JlZE9yaWdpbmFsVGV4dCkgcmV0dXJuIGZhbHNlOwogICAgY29uc3QgeyBwYXJ0cywgYW1iaWd1b3VzIH0gPSBjb2xsZWN0UGFydHMobWVzc2FnZXMsIG1zZ0lkKTsKICAgIGlmIChhbWJpZ3VvdXMgfHwgIXBhcnRzLmxlbmd0aCkgcmV0dXJuIGZhbHNlOwogICAgY29uc3QgbGVnYWN5Sm9pbiA9IHBhcnRzLmpvaW4oJ1xuJykuc2xpY2UoMCwgMjAwMCk7IC8vIOaXp+mAu+i+ke+8iOaXoOagoemqjO+8ieeahOi+k+WHugogICAgaWYgKHN0b3JlZE9yaWdpbmFsVGV4dCAhPT0gbGVnYWN5Sm9pbikgcmV0dXJuIGZhbHNlOyAvLyDkuI3mmK/ml6fpgLvovpHlhpnnmoTvvIhMTE0g57+76K+RL+agh+etvuWkluaWh+Wtl++8ie+8jOS4jeWKqAogICAgcmV0dXJuIGNvbGxlY3RWb2ljZUJhdGNoU3VidGl0bGUobWVzc2FnZXMsIG1zZ0lkKSAhPT0gbGVnYWN5Sm9pbjsgLy8g5paw5qCh6aqM5LiN6K6k5Y+vIOKGkiDmr5LmlbDmja4KfQo=
+import { Message } from '../types';
+
+/**
+ * 字幕对齐模式（外语语音）下，中文字幕和 <语音> 块会被 chunkText 拆成同一回合里的
+ * 不同气泡：字幕是独立的文字气泡，语音消息本身标签外往往没有中文。
+ *
+ * 以前语音条的中文翻译 (originalText) 只看「标签外的文字」，看不到就发一次 LLM
+ * 请求把外语翻回中文——请求一失败翻译就永远空着（「外语语音没翻译」）。
+ *
+ * 这个 helper 从同一批 assistant 消息里把字幕直接收回来当翻译：确定性、零成本、
+ * 内容还和用户看到的字幕逐字一致。收不到（或对不齐）再让调用方走 LLM 兜底。
+ *
+ * ⚠️ 前提是模型真的遵守了字幕对齐格式。模型不守格式时（标签外是独立闲聊短句、
+ * 语音里是另一段话），把兄弟气泡当翻译就会显示成驴唇不对马嘴的中文（真实翻车
+ * 报告：转文字面板显示同回合的「等我一下」而不是语音的翻译）。所以收之前必须
+ * 做结构校验，对不上一律返回 ''（宁可多花一次 LLM 调用，也不能展示错误内容）：
+ *  - 中文气泡数 == 语音内容的分段数（字幕对齐 prompt 要求逐段对应，chunkText
+ *    按换行分气泡、语音内容按换行分段，两边应当数目一致）
+ *  - 中外文字符量比例合理（4 个字的「等我一下」配 300 字符的英文独白一眼假）
+ *
+ * 其余约束：
+ *  - 只收 msg 所在的连续 assistant 批次（前后扩展，遇到非 assistant 停）
+ *  - 批次里除 msg 外还有别的语音消息 → 字幕归属含糊，返回 ''
+ *  - 只收 type==='text' 且不含语音标签的气泡；emoji / 卡片等跳过
+ *  - 双语气泡只取 %%BILINGUAL%% 之前的「选」语言半边（那才是字幕面）
+ */
+type MsgLike = Pick<Message, 'id' | 'role' | 'type' | 'content'>;
+
+/** 收集同批次兄弟气泡文本 + 语音标签内文（不做对齐校验）。ambiguous=同批有第二条语音。 */
+function collectParts(messages: MsgLike[], msgId: number): { parts: string[]; inner: string; ambiguous: boolean } {
+    const idx = messages.findIndex(m => m.id === msgId);
+    if (idx === -1) return { parts: [], inner: '', ambiguous: false };
+
+    // 语音内容（配对提取；未闭合的历史坏数据取标签后全部）
+    const voiceContent = messages[idx].content || '';
+    const inner = (
+        voiceContent.match(/<[语語]音[^>]*>([\s\S]*?)<\/\s*[语語]音\s*>/)?.[1]
+        ?? voiceContent.match(/<[语語]音[^>]*>([\s\S]*)$/)?.[1]
+        ?? ''
+    ).trim();
+
+    let start = idx;
+    let end = idx;
+    while (start > 0 && messages[start - 1].role === 'assistant') start--;
+    while (end < messages.length - 1 && messages[end + 1].role === 'assistant') end++;
+
+    const VOICE_OPEN_RE = /<[语語]音[^>]*>/;
+    const parts: string[] = [];
+    for (let i = start; i <= end; i++) {
+        const m = messages[i];
+        if (i === idx) continue;
+        if (m.type !== 'text') continue;
+        if (VOICE_OPEN_RE.test(m.content || '')) return { parts: [], inner, ambiguous: true };
+        const half = (m.content || '').split(/%%BILINGUAL%%/i)[0].trim();
+        if (half) parts.push(half);
+    }
+    return { parts, inner, ambiguous: false };
+}
+
+export function collectVoiceBatchSubtitle(messages: MsgLike[], msgId: number): string {
+    const { parts, inner, ambiguous } = collectParts(messages, msgId);
+    if (ambiguous || !inner || !parts.length) return '';
+
+    // ── 结构对齐校验：对不上说明标签外不是字幕，走 LLM 兜底 ──
+    const foreignSegs = inner.split(/\n+/).map(s => s.trim()).filter(Boolean);
+    if (parts.length !== foreignSegs.length) return '';
+    const zhLen = parts.join('').replace(/\s/g, '').length;
+    const fLen = inner.replace(/\s/g, '').length;
+    if (zhLen * 6 < fLen || fLen * 6 < zhLen) return '';
+
+    // 兜个上限，防极端长回合把翻译面板撑爆
+    return parts.join('\n').slice(0, 2000);
+}
+
+/**
+ * 毒数据自检：2026-07-02 ~ 07-04 之间的版本收字幕**不做对齐校验**，模型不守字幕
+ * 格式时把同回合的闲聊短句当翻译持久化了。回灌语音数据时用这个函数认出这种
+ * 存量脏翻译（存的值 == 旧逻辑的产物，且新校验判定不是字幕），认出来就清掉。
+ */
+export function isPoisonedVoiceSubtitle(messages: MsgLike[], msgId: number, storedOriginalText: string): boolean {
+    if (!storedOriginalText) return false;
+    const { parts, ambiguous } = collectParts(messages, msgId);
+    if (ambiguous || !parts.length) return false;
+    const legacyJoin = parts.join('\n').slice(0, 2000); // 旧逻辑（无校验）的输出
+    if (storedOriginalText !== legacyJoin) return false; // 不是旧逻辑写的（LLM 翻译/标签外文字），不动
+    return collectVoiceBatchSubtitle(messages, msgId) !== legacyJoin; // 新校验不认可 → 毒数据
+}

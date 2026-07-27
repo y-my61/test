@@ -1,1 +1,21 @@
-LyoqCiAqIFN1bGx5T1Mg5Y+q5oGi5aSN6Ieq6Lqr5aSH5Lu944CCCiAqCiAqIHYxIFN1bGx5T1Mg5aSH5Lu95LuN5piv5a695p2+55qE5Y2V5qC5IGRhdGEuanNvbu+8jOS4jeiDveS7hemdoOaJqeWxleWQjeaIliBaSVAg5biD5bGA6K+G5Yir5p2l5rqQ77ybCiAqIOi/memHjOaLpuaIquW3sue7j+aYjuehruWxnuS6juaXp+esrOS4ieaWuei/geenu+agvOW8j+eahOmhtuWxguWtl+auteOAguajgOafpeW/hemhu+WcqOS7u+S9leaVsOaNruW6k+WGmeWFpeWJjeWujOaIkOOAggogKi8KY29uc3QgVU5TVVBQT1JURURfVEhJUkRfUEFSVFlfRklFTERTID0gWwogICAgJ3ZlY3Rvck1lbW9yaWVzJywKICAgICdleHRyYUxvY2FsU3RvcmFnZUNvbmZpZycsCl0gYXMgY29uc3Q7CgpleHBvcnQgZnVuY3Rpb24gYXNzZXJ0U3VwcG9ydGVkU3VsbHlCYWNrdXAoaW5wdXQ6IHVua25vd24pOiBhc3NlcnRzIGlucHV0IGlzIFJlY29yZDxzdHJpbmcsIHVua25vd24+IHsKICAgIGlmICghaW5wdXQgfHwgdHlwZW9mIGlucHV0ICE9PSAnb2JqZWN0JyB8fCBBcnJheS5pc0FycmF5KGlucHV0KSkgewogICAgICAgIHRocm93IG5ldyBFcnJvcign5aSH5Lu95YaF5a655peg5pWI77ya5Y+q5pSv5oyBIFN1bGx5T1Mg5a+85Ye655qEIFpJUCDmiJYgSlNPTiDlpIfku73jgIInKTsKICAgIH0KCiAgICBjb25zdCByZWNvcmQgPSBpbnB1dCBhcyBSZWNvcmQ8c3RyaW5nLCB1bmtub3duPjsKICAgIGlmIChVTlNVUFBPUlRFRF9USElSRF9QQVJUWV9GSUVMRFMuc29tZShmaWVsZCA9PiBPYmplY3QucHJvdG90eXBlLmhhc093blByb3BlcnR5LmNhbGwocmVjb3JkLCBmaWVsZCkpKSB7CiAgICAgICAgdGhyb3cgbmV3IEVycm9yKCfkuI3mlK/mjIHlr7zlhaXnrKzkuInmlrnns7vnu5/lpIfku73vvIzor7fpgInmi6nnlLEgU3VsbHlPUyDlr7zlh7rnmoQgWklQIOaIliBKU09OIOaWh+S7tuOAgicpOwogICAgfQp9Cg==
+/**
+ * SullyOS 只恢复自身备份。
+ *
+ * v1 SullyOS 备份仍是宽松的单根 data.json，不能仅靠扩展名或 ZIP 布局识别来源；
+ * 这里拦截已经明确属于旧第三方迁移格式的顶层字段。检查必须在任何数据库写入前完成。
+ */
+const UNSUPPORTED_THIRD_PARTY_FIELDS = [
+    'vectorMemories',
+    'extraLocalStorageConfig',
+] as const;
+
+export function assertSupportedSullyBackup(input: unknown): asserts input is Record<string, unknown> {
+    if (!input || typeof input !== 'object' || Array.isArray(input)) {
+        throw new Error('备份内容无效：只支持 SullyOS 导出的 ZIP 或 JSON 备份。');
+    }
+
+    const record = input as Record<string, unknown>;
+    if (UNSUPPORTED_THIRD_PARTY_FIELDS.some(field => Object.prototype.hasOwnProperty.call(record, field))) {
+        throw new Error('不支持导入第三方系统备份，请选择由 SullyOS 导出的 ZIP 或 JSON 文件。');
+    }
+}

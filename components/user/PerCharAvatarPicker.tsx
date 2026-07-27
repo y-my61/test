@@ -1,1 +1,248 @@
-aW1wb3J0IFJlYWN0LCB7IHVzZU1lbW8sIHVzZVJlZiwgdXNlU3RhdGUgfSBmcm9tICdyZWFjdCc7CmltcG9ydCB7IHVzZU9TIH0gZnJvbSAnLi4vLi4vY29udGV4dC9PU0NvbnRleHQnOwppbXBvcnQgeyBwcm9jZXNzSW1hZ2UgfSBmcm9tICcuLi8uLi91dGlscy9maWxlJzsKCi8qKgogKiDmoaPmoYggQXBw44CM5YiG6KeS6Imy6IGK5aSp5aS05YOP44CN77ya57uZ5q+P5Liq6KeS6Imy55qE56eB6IGK5Y2V54us6K6+572u44CM5L2g44CN55qE5aS05YOP44CCCiAqIOS4jeiuvue9riA9IOeUqOaho+ahiOS4iumdoueahOaVtOS9k+WktOWDj++8iOWuj+ingum7mOiupO+8ie+8m+aVsOaNruWtmCB1c2VyUHJvZmlsZS5wZXJDaGFyQXZhdGFyc++8jAogKiDpmo8gdXNlcl9wcm9maWxlIOWNleS+i+i/m+Wkh+S7veOAgue+pOiBiuS7jeeUqOaVtOS9k+WktOWDj+OAggogKgogKiDop5LoibLlj6/og73lvojlpJrvvJrmkJzntKLov4fmu6QgKyDmr4/pobUgOCDkuKrnmoTnv7vpobXnvZHmoLzvvIjlt6blj7Pnrq3lpLQgLyDmqKrmu5EgLyDlnIbngrnnm7Tovr7vvInvvIwKICog57+76aG15bim6L276YeP5ruR5YWl5Yqo5pWI44CC5aS05YOP5p2l5rqQ5pSv5oyB5Zu+5bqKIFVSTO+8iOaOqOiNkO+8jOi9u+mHj++8ieS4juacrOWcsOS4iuS8oOOAggogKi8KCmNvbnN0IFBBR0VfU0laRSA9IDg7Cgpjb25zdCBpc1ZhbGlkSHR0cEltYWdlVXJsID0gKHZhbHVlOiBzdHJpbmcpID0+IHsKICAgIHRyeSB7CiAgICAgICAgY29uc3QgcGFyc2VkID0gbmV3IFVSTCh2YWx1ZSk7CiAgICAgICAgcmV0dXJuIHBhcnNlZC5wcm90b2NvbCA9PT0gJ2h0dHBzOicgfHwgcGFyc2VkLnByb3RvY29sID09PSAnaHR0cDonOwogICAgfSBjYXRjaCB7CiAgICAgICAgcmV0dXJuIGZhbHNlOwogICAgfQp9OwoKY29uc3QgUGVyQ2hhckF2YXRhclBpY2tlcjogUmVhY3QuRkMgPSAoKSA9PiB7CiAgICBjb25zdCB7IGNoYXJhY3RlcnMsIHVzZXJQcm9maWxlLCB1cGRhdGVVc2VyUHJvZmlsZSwgYWRkVG9hc3QgfSA9IHVzZU9TKCk7CiAgICBjb25zdCBvdmVycmlkZXMgPSB1c2VyUHJvZmlsZS5wZXJDaGFyQXZhdGFycyB8fCB7fTsKCiAgICBjb25zdCBbcXVlcnksIHNldFF1ZXJ5XSA9IHVzZVN0YXRlKCcnKTsKICAgIGNvbnN0IFtwYWdlLCBzZXRQYWdlXSA9IHVzZVN0YXRlKDApOwogICAgY29uc3QgW3NsaWRlRGlyLCBzZXRTbGlkZURpcl0gPSB1c2VTdGF0ZTwnbCcgfCAncic+KCdsJyk7CiAgICBjb25zdCBzd2lwZVN0YXJ0WCA9IHVzZVJlZjxudW1iZXIgfCBudWxsPihudWxsKTsKCiAgICBjb25zdCBbZWRpdGluZ0lkLCBzZXRFZGl0aW5nSWRdID0gdXNlU3RhdGU8c3RyaW5nIHwgbnVsbD4obnVsbCk7CiAgICBjb25zdCBbdXJsRHJhZnQsIHNldFVybERyYWZ0XSA9IHVzZVN0YXRlKCcnKTsKICAgIGNvbnN0IHVwbG9hZFJlZiA9IHVzZVJlZjxIVE1MSW5wdXRFbGVtZW50PihudWxsKTsKCiAgICBjb25zdCBmaWx0ZXJlZCA9IHVzZU1lbW8oKCkgPT4gewogICAgICAgIGNvbnN0IHEgPSBxdWVyeS50cmltKCkudG9Mb3dlckNhc2UoKTsKICAgICAgICByZXR1cm4gcSA/IGNoYXJhY3RlcnMuZmlsdGVyKGMgPT4gYy5uYW1lLnRvTG93ZXJDYXNlKCkuaW5jbHVkZXMocSkpIDogY2hhcmFjdGVyczsKICAgIH0sIFtjaGFyYWN0ZXJzLCBxdWVyeV0pOwoKICAgIGNvbnN0IHBhZ2VDb3VudCA9IE1hdGgubWF4KDEsIE1hdGguY2VpbChmaWx0ZXJlZC5sZW5ndGggLyBQQUdFX1NJWkUpKTsKICAgIGNvbnN0IHNhZmVQYWdlID0gTWF0aC5taW4ocGFnZSwgcGFnZUNvdW50IC0gMSk7CiAgICBjb25zdCBwYWdlQ2hhcnMgPSBmaWx0ZXJlZC5zbGljZShzYWZlUGFnZSAqIFBBR0VfU0laRSwgc2FmZVBhZ2UgKiBQQUdFX1NJWkUgKyBQQUdFX1NJWkUpOwoKICAgIGNvbnN0IGdvUGFnZSA9IChuZXh0OiBudW1iZXIpID0+IHsKICAgICAgICBjb25zdCBjbGFtcGVkID0gTWF0aC5tYXgoMCwgTWF0aC5taW4ocGFnZUNvdW50IC0gMSwgbmV4dCkpOwogICAgICAgIGlmIChjbGFtcGVkID09PSBzYWZlUGFnZSkgcmV0dXJuOwogICAgICAgIHNldFNsaWRlRGlyKGNsYW1wZWQgPiBzYWZlUGFnZSA/ICdsJyA6ICdyJyk7CiAgICAgICAgc2V0UGFnZShjbGFtcGVkKTsKICAgIH07CgogICAgY29uc3Qgc2V0T3ZlcnJpZGUgPSAoY2hhcklkOiBzdHJpbmcsIGF2YXRhcjogc3RyaW5nIHwgdW5kZWZpbmVkKSA9PiB7CiAgICAgICAgY29uc3QgbmV4dCA9IHsgLi4ub3ZlcnJpZGVzIH07CiAgICAgICAgaWYgKGF2YXRhcikgbmV4dFtjaGFySWRdID0gYXZhdGFyOyBlbHNlIGRlbGV0ZSBuZXh0W2NoYXJJZF07CiAgICAgICAgdXBkYXRlVXNlclByb2ZpbGUoeyBwZXJDaGFyQXZhdGFyczogbmV4dCB9KTsKICAgIH07CgogICAgY29uc3QgZWRpdGluZ0NoYXIgPSBlZGl0aW5nSWQgPyBjaGFyYWN0ZXJzLmZpbmQoYyA9PiBjLmlkID09PSBlZGl0aW5nSWQpIDogbnVsbDsKICAgIGNvbnN0IGVkaXRpbmdPdmVycmlkZSA9IGVkaXRpbmdJZCA/IG92ZXJyaWRlc1tlZGl0aW5nSWRdIDogdW5kZWZpbmVkOwoKICAgIGNvbnN0IG9wZW5FZGl0b3IgPSAoY2hhcklkOiBzdHJpbmcpID0+IHsKICAgICAgICBzZXRFZGl0aW5nSWQoY2hhcklkKTsKICAgICAgICBjb25zdCBjdXIgPSBvdmVycmlkZXNbY2hhcklkXTsKICAgICAgICBzZXRVcmxEcmFmdChjdXIgJiYgIWN1ci5zdGFydHNXaXRoKCdkYXRhOicpID8gY3VyIDogJycpOwogICAgfTsKCiAgICBjb25zdCBhcHBseVVybCA9ICgpID0+IHsKICAgICAgICBpZiAoIWVkaXRpbmdJZCkgcmV0dXJuOwogICAgICAgIGNvbnN0IHVybCA9IHVybERyYWZ0LnRyaW0oKTsKICAgICAgICBpZiAoIWlzVmFsaWRIdHRwSW1hZ2VVcmwodXJsKSkgewogICAgICAgICAgICBhZGRUb2FzdCgnVVJMIOaXoOaViO+8jOivt+Whq+WGmSBodHRwKHMpIOWbvueJh+ebtOmTvicsICdlcnJvcicpOwogICAgICAgICAgICByZXR1cm47CiAgICAgICAgfQogICAgICAgIHNldE92ZXJyaWRlKGVkaXRpbmdJZCwgdXJsKTsKICAgICAgICBhZGRUb2FzdCgn5bey6K6+572u6K+l6KeS6Imy55qE6IGK5aSp5aS05YOPJywgJ3N1Y2Nlc3MnKTsKICAgIH07CgogICAgY29uc3QgaGFuZGxlVXBsb2FkID0gYXN5bmMgKGU6IFJlYWN0LkNoYW5nZUV2ZW50PEhUTUxJbnB1dEVsZW1lbnQ+KSA9PiB7CiAgICAgICAgY29uc3QgZmlsZSA9IGUudGFyZ2V0LmZpbGVzPy5bMF07CiAgICAgICAgZS50YXJnZXQudmFsdWUgPSAnJzsKICAgICAgICBpZiAoIWZpbGUgfHwgIWVkaXRpbmdJZCkgcmV0dXJuOwogICAgICAgIHRyeSB7CiAgICAgICAgICAgIGNvbnN0IGJhc2U2NCA9IGF3YWl0IHByb2Nlc3NJbWFnZShmaWxlKTsKICAgICAgICAgICAgc2V0T3ZlcnJpZGUoZWRpdGluZ0lkLCBiYXNlNjQpOwogICAgICAgICAgICBzZXRVcmxEcmFmdCgnJyk7CiAgICAgICAgICAgIGFkZFRvYXN0KCflt7Lorr7nva7or6Xop5LoibLnmoTogYrlpKnlpLTlg48nLCAnc3VjY2VzcycpOwogICAgICAgIH0gY2F0Y2ggKGVycjogYW55KSB7CiAgICAgICAgICAgIGFkZFRvYXN0KGVyci5tZXNzYWdlLCAnZXJyb3InKTsKICAgICAgICB9CiAgICB9OwoKICAgIGlmIChjaGFyYWN0ZXJzLmxlbmd0aCA9PT0gMCkgcmV0dXJuIG51bGw7CgogICAgcmV0dXJuICgKICAgICAgICA8ZGl2IGNsYXNzTmFtZT0iYmctd2hpdGUgcm91bmRlZC1bMS43NXJlbV0gc2hhZG93LVswXzEwcHhfMzBweF8tMTJweF9yZ2JhKDgwLDcwLDEyMCwwLjE4KV0gYm9yZGVyIGJvcmRlci1zbGF0ZS0xMDAgcC01Ij4KICAgICAgICAgICAgey8qIOe/u+mhtea7keWFpeWKqOaViO+8iOe7hOS7tuengeacie+8jOS4jei/m+WFqOWxgCB0YWlsd2luZCDphY3nva7vvIkgKi99CiAgICAgICAgICAgIDxzdHlsZT57YAogICAgICAgICAgICAgICAgQGtleWZyYW1lcyBwY2FTbGlkZUwgeyBmcm9tIHsgb3BhY2l0eTogLjM1OyB0cmFuc2Zvcm06IHRyYW5zbGF0ZVgoMjZweCk7IH0gdG8geyBvcGFjaXR5OiAxOyB0cmFuc2Zvcm06IG5vbmU7IH0gfQogICAgICAgICAgICAgICAgQGtleWZyYW1lcyBwY2FTbGlkZVIgeyBmcm9tIHsgb3BhY2l0eTogLjM1OyB0cmFuc2Zvcm06IHRyYW5zbGF0ZVgoLTI2cHgpOyB9IHRvIHsgb3BhY2l0eTogMTsgdHJhbnNmb3JtOiBub25lOyB9IH0KICAgICAgICAgICAgICAgIC5wY2Etc2xpZGUtbCB7IGFuaW1hdGlvbjogcGNhU2xpZGVMIC4yOHMgY3ViaWMtYmV6aWVyKDAuMjUsIDEsIDAuNSwgMSk7IH0KICAgICAgICAgICAgICAgIC5wY2Etc2xpZGUtciB7IGFuaW1hdGlvbjogcGNhU2xpZGVSIC4yOHMgY3ViaWMtYmV6aWVyKDAuMjUsIDEsIDAuNSwgMSk7IH0KICAgICAgICAgICAgYH08L3N0eWxlPgoKICAgICAgICAgICAgPGRpdiBjbGFzc05hbWU9ImZsZXggaXRlbXMtY2VudGVyIGdhcC0yIG1iLTEiPgogICAgICAgICAgICAgICAgPHNwYW4gY2xhc3NOYW1lPSJ3LTcgaC03IHJvdW5kZWQteGwgYmctcHJpbWFyeS8xMCB0ZXh0LXByaW1hcnkgZmxleCBpdGVtcy1jZW50ZXIganVzdGlmeS1jZW50ZXIiPgogICAgICAgICAgICAgICAgICAgIDxzdmcgeG1sbnM9Imh0dHA6Ly93d3cudzMub3JnLzIwMDAvc3ZnIiBmaWxsPSJub25lIiB2aWV3Qm94PSIwIDAgMjQgMjQiIHN0cm9rZVdpZHRoPXsxLjh9IHN0cm9rZT0iY3VycmVudENvbG9yIiBjbGFzc05hbWU9InctNCBoLTQiPgogICAgICAgICAgICAgICAgICAgICAgICA8cGF0aCBzdHJva2VMaW5lY2FwPSJyb3VuZCIgc3Ryb2tlTGluZWpvaW49InJvdW5kIiBkPSJNMTcuOTgyIDE4LjcyNUE3LjQ4OCA3LjQ4OCAwIDAgMCAxMiAxNS43NWE3LjQ4OCA3LjQ4OCAwIDAgMC01Ljk4MiAyLjk3NW0xMS45NjMgMGE5IDkgMCAxIDAtMTEuOTYzIDBtMTEuOTYzIDBBOC45NjYgOC45NjYgMCAwIDEgMTIgMjFhOC45NjYgOC45NjYgMCAwIDEtNS45ODItMi4yNzVNMTUgOS43NWEzIDMgMCAxIDEtNiAwIDMgMyAwIDAgMSA2IDBaIiAvPgogICAgICAgICAgICAgICAgICAgIDwvc3ZnPgogICAgICAgICAgICAgICAgPC9zcGFuPgogICAgICAgICAgICAgICAgPGgyIGNsYXNzTmFtZT0idGV4dC1zbSBmb250LWJvbGQgdGV4dC1zbGF0ZS03MDAiPuWIhuinkuiJsuiBiuWkqeWktOWDjzwvaDI+CiAgICAgICAgICAgIDwvZGl2PgogICAgICAgICAgICA8cCBjbGFzc05hbWU9InRleHQtWzExcHhdIHRleHQtc2xhdGUtNDAwIG1iLTMgbGVhZGluZy1yZWxheGVkIj4KICAgICAgICAgICAgICAgIOWSjOS4jeWQjOinkuiJsuiBiuWkqeaXtu+8jOOAjOS9oOOAjeWPr+S7pemhtuedgOS4jeWQjOeahOWktOWDj+OAgui/memHjOS4jeiuvue9rueahOinkuiJsu+8jOeUqOS4iumdoueahOaVtOS9k+WktOWDj++8m+e+pOiBiuWni+e7iOeUqOaVtOS9k+WktOWDj+OAggogICAgICAgICAgICA8L3A+CgogICAgICAgICAgICB7Y2hhcmFjdGVycy5sZW5ndGggPiBQQUdFX1NJWkUgJiYgKAogICAgICAgICAgICAgICAgPGlucHV0CiAgICAgICAgICAgICAgICAgICAgdmFsdWU9e3F1ZXJ5fQogICAgICAgICAgICAgICAgICAgIG9uQ2hhbmdlPXsoZSkgPT4geyBzZXRRdWVyeShlLnRhcmdldC52YWx1ZSk7IHNldFBhZ2UoMCk7IH19CiAgICAgICAgICAgICAgICAgICAgcGxhY2Vob2xkZXI9IuaQnOe0ouinkuiJsuKApiIKICAgICAgICAgICAgICAgICAgICBjbGFzc05hbWU9InctZnVsbCBtYi0zIGJnLXNsYXRlLTUwIGZvY3VzOmJnLXdoaXRlIGJvcmRlciBib3JkZXItc2xhdGUtMTAwIGZvY3VzOmJvcmRlci1wcmltYXJ5LzMwIHJvdW5kZWQtMnhsIHB4LTQgcHktMiB0ZXh0LXhzIHRleHQtc2xhdGUtNzAwIG91dGxpbmUtbm9uZSB0cmFuc2l0aW9uLWFsbCBwbGFjZWhvbGRlcjp0ZXh0LXNsYXRlLTMwMCIKICAgICAgICAgICAgICAgIC8+CiAgICAgICAgICAgICl9CgogICAgICAgICAgICB7ZmlsdGVyZWQubGVuZ3RoID09PSAwID8gKAogICAgICAgICAgICAgICAgPGRpdiBjbGFzc05hbWU9InB5LTggdGV4dC1jZW50ZXIgdGV4dC1bMTFweF0gdGV4dC1zbGF0ZS0zMDAiPuayoeacieWPq+i/meS4quWQjeWtl+eahOinkuiJsjwvZGl2PgogICAgICAgICAgICApIDogKAogICAgICAgICAgICAgICAgPGRpdgogICAgICAgICAgICAgICAgICAgIG9uVG91Y2hTdGFydD17KGUpID0+IHsgc3dpcGVTdGFydFguY3VycmVudCA9IGUudG91Y2hlc1swXT8uY2xpZW50WCA/PyBudWxsOyB9fQogICAgICAgICAgICAgICAgICAgIG9uVG91Y2hFbmQ9eyhlKSA9PiB7CiAgICAgICAgICAgICAgICAgICAgICAgIGNvbnN0IHN0YXJ0WCA9IHN3aXBlU3RhcnRYLmN1cnJlbnQ7CiAgICAgICAgICAgICAgICAgICAgICAgIHN3aXBlU3RhcnRYLmN1cnJlbnQgPSBudWxsOwogICAgICAgICAgICAgICAgICAgICAgICBjb25zdCBlbmRYID0gZS5jaGFuZ2VkVG91Y2hlc1swXT8uY2xpZW50WDsKICAgICAgICAgICAgICAgICAgICAgICAgaWYgKHN0YXJ0WCA9PSBudWxsIHx8IGVuZFggPT0gbnVsbCkgcmV0dXJuOwogICAgICAgICAgICAgICAgICAgICAgICBjb25zdCBkeCA9IGVuZFggLSBzdGFydFg7CiAgICAgICAgICAgICAgICAgICAgICAgIGlmIChNYXRoLmFicyhkeCkgPiA0OCkgZ29QYWdlKHNhZmVQYWdlICsgKGR4IDwgMCA/IDEgOiAtMSkpOwogICAgICAgICAgICAgICAgICAgIH19CiAgICAgICAgICAgICAgICA+CiAgICAgICAgICAgICAgICAgICAgPGRpdiBrZXk9e2Ake3NhZmVQYWdlfS0ke3F1ZXJ5fWB9IGNsYXNzTmFtZT17YGdyaWQgZ3JpZC1jb2xzLTQgZ2FwLTMgJHtzbGlkZURpciA9PT0gJ2wnID8gJ3BjYS1zbGlkZS1sJyA6ICdwY2Etc2xpZGUtcid9YH0+CiAgICAgICAgICAgICAgICAgICAgICAgIHtwYWdlQ2hhcnMubWFwKGMgPT4gewogICAgICAgICAgICAgICAgICAgICAgICAgICAgY29uc3Qgb3ZlcnJpZGUgPSBvdmVycmlkZXNbYy5pZF07CiAgICAgICAgICAgICAgICAgICAgICAgICAgICByZXR1cm4gKAogICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgIDxidXR0b24ga2V5PXtjLmlkfSBvbkNsaWNrPXsoKSA9PiBvcGVuRWRpdG9yKGMuaWQpfSBjbGFzc05hbWU9ImZsZXggZmxleC1jb2wgaXRlbXMtY2VudGVyIGdhcC0xLjUgZ3JvdXAgYWN0aXZlOnNjYWxlLTk1IHRyYW5zaXRpb24tdHJhbnNmb3JtIj4KICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgPGRpdiBjbGFzc05hbWU9InJlbGF0aXZlIj4KICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgIDxpbWcgc3JjPXtjLmF2YXRhcn0gYWx0PSIiIGNsYXNzTmFtZT0idy0xNCBoLTE0IHJvdW5kZWQtZnVsbCBvYmplY3QtY292ZXIgYmctc2xhdGUtMTAwIGJvcmRlciBib3JkZXItc2xhdGUtMTAwIGdyb3VwLWhvdmVyOmJvcmRlci1wcmltYXJ5LzMwIHRyYW5zaXRpb24tY29sb3JzIiAvPgogICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgey8qIOWPs+S4i+Wwj+WchiA9IOi/meS4quiBiuWkqemHjOOAjOS9oOOAjeeahOWktOWDj++8m+iuvue9rui/hyDihpIg5Li76aKY6Imy5o+P6L6577yM5ZCm5YiZ54Gw5pi+5pW05L2T5aS05YOPICovfQogICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgPGltZwogICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgIHNyYz17b3ZlcnJpZGUgfHwgdXNlclByb2ZpbGUuYXZhdGFyfQogICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgIGFsdD0iIgogICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgIGNsYXNzTmFtZT17YGFic29sdXRlIC1ib3R0b20tMS41IC1yaWdodC0xLjUgdy03IGgtNyByb3VuZGVkLWZ1bGwgb2JqZWN0LWNvdmVyIGJnLXdoaXRlIHNoYWRvdy1zbSAke292ZXJyaWRlID8gJ3JpbmctMiByaW5nLXByaW1hcnknIDogJ3JpbmctMiByaW5nLXdoaXRlIG9wYWNpdHktNjAnfWB9CiAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAvPgogICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICA8L2Rpdj4KICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgPHNwYW4gY2xhc3NOYW1lPSJ3LWZ1bGwgdGV4dC1bMTBweF0gdGV4dC1zbGF0ZS01MDAgdHJ1bmNhdGUgdGV4dC1jZW50ZXIiPntjLm5hbWV9PC9zcGFuPgogICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgIDwvYnV0dG9uPgogICAgICAgICAgICAgICAgICAgICAgICAgICAgKTsKICAgICAgICAgICAgICAgICAgICAgICAgfSl9CiAgICAgICAgICAgICAgICAgICAgICAgIHsvKiDmnKvpobXkuI3mu6EgOCDkurrml7bnlKjpmpDlvaLljaDkvY3ooaXpvZDkuKTooYzpq5jluqbvvIznv7vpobXml7blrrnlmajkuI3lvLnot7MgKi99CiAgICAgICAgICAgICAgICAgICAgICAgIHtwYWdlQ291bnQgPiAxICYmIHBhZ2VDaGFycy5sZW5ndGggPCBQQUdFX1NJWkUgJiYgQXJyYXkuZnJvbSh7IGxlbmd0aDogUEFHRV9TSVpFIC0gcGFnZUNoYXJzLmxlbmd0aCB9LCAoXywgaSkgPT4gKAogICAgICAgICAgICAgICAgICAgICAgICAgICAgPGRpdiBrZXk9e2BwYWQtJHtpfWB9IGNsYXNzTmFtZT0iZmxleCBmbGV4LWNvbCBpdGVtcy1jZW50ZXIgZ2FwLTEuNSBpbnZpc2libGUiIGFyaWEtaGlkZGVuPSJ0cnVlIj4KICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICA8ZGl2IGNsYXNzTmFtZT0idy0xNCBoLTE0IHJvdW5kZWQtZnVsbCIgLz4KICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICA8c3BhbiBjbGFzc05hbWU9InRleHQtWzEwcHhdIj4mbmJzcDs8L3NwYW4+CiAgICAgICAgICAgICAgICAgICAgICAgICAgICA8L2Rpdj4KICAgICAgICAgICAgICAgICAgICAgICAgKSl9CiAgICAgICAgICAgICAgICAgICAgPC9kaXY+CgogICAgICAgICAgICAgICAgICAgIHtwYWdlQ291bnQgPiAxICYmICgKICAgICAgICAgICAgICAgICAgICAgICAgPGRpdiBjbGFzc05hbWU9Im10LTMgZmxleCBpdGVtcy1jZW50ZXIganVzdGlmeS1jZW50ZXIgZ2FwLTMiPgogICAgICAgICAgICAgICAgICAgICAgICAgICAgPGJ1dHRvbiBvbkNsaWNrPXsoKSA9PiBnb1BhZ2Uoc2FmZVBhZ2UgLSAxKX0gZGlzYWJsZWQ9e3NhZmVQYWdlID09PSAwfQogICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgIGNsYXNzTmFtZT0iZmxleCBoLTcgdy03IGl0ZW1zLWNlbnRlciBqdXN0aWZ5LWNlbnRlciByb3VuZGVkLWZ1bGwgYmctc2xhdGUtMTAwIHRleHQtc20gdGV4dC1zbGF0ZS01MDAgdHJhbnNpdGlvbi1hbGwgYWN0aXZlOnNjYWxlLTkwIGRpc2FibGVkOm9wYWNpdHktMzAiIGFyaWEtbGFiZWw9IuS4iuS4gOmhtSI+4oC5PC9idXR0b24+CiAgICAgICAgICAgICAgICAgICAgICAgICAgICA8ZGl2IGNsYXNzTmFtZT0iZmxleCBpdGVtcy1jZW50ZXIgZ2FwLTEuNSI+CiAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAge0FycmF5LmZyb20oeyBsZW5ndGg6IHBhZ2VDb3VudCB9LCAoXywgaSkgPT4gKAogICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICA8YnV0dG9uIGtleT17aX0gb25DbGljaz17KCkgPT4gZ29QYWdlKGkpfSBhcmlhLWxhYmVsPXtg56ysICR7aSArIDF9IOmhtWB9CiAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICBjbGFzc05hbWU9e2Byb3VuZGVkLWZ1bGwgdHJhbnNpdGlvbi1hbGwgJHtpID09PSBzYWZlUGFnZSA/ICd3LTQgaC0xLjUgYmctcHJpbWFyeScgOiAndy0xLjUgaC0xLjUgYmctc2xhdGUtMjAwIGhvdmVyOmJnLXNsYXRlLTMwMCd9YH0gLz4KICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICApKX0KICAgICAgICAgICAgICAgICAgICAgICAgICAgIDwvZGl2PgogICAgICAgICAgICAgICAgICAgICAgICAgICAgPGJ1dHRvbiBvbkNsaWNrPXsoKSA9PiBnb1BhZ2Uoc2FmZVBhZ2UgKyAxKX0gZGlzYWJsZWQ9e3NhZmVQYWdlID09PSBwYWdlQ291bnQgLSAxfQogICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgIGNsYXNzTmFtZT0iZmxleCBoLTcgdy03IGl0ZW1zLWNlbnRlciBqdXN0aWZ5LWNlbnRlciByb3VuZGVkLWZ1bGwgYmctc2xhdGUtMTAwIHRleHQtc20gdGV4dC1zbGF0ZS01MDAgdHJhbnNpdGlvbi1hbGwgYWN0aXZlOnNjYWxlLTkwIGRpc2FibGVkOm9wYWNpdHktMzAiIGFyaWEtbGFiZWw9IuS4i+S4gOmhtSI+4oC6PC9idXR0b24+CiAgICAgICAgICAgICAgICAgICAgICAgIDwvZGl2PgogICAgICAgICAgICAgICAgICAgICl9CiAgICAgICAgICAgICAgICA8L2Rpdj4KICAgICAgICAgICAgKX0KCiAgICAgICAgICAgIHsvKiDnvJbovpHlvLnlsYLvvJpVUkwg5LyY5YWI77yI5o6o6I2Q77yJKyDmnKzlnLDkuIrkvKAgKyDmgaLlpI3mlbTkvZPlpLTlg48gKi99CiAgICAgICAgICAgIHtlZGl0aW5nQ2hhciAmJiAoCiAgICAgICAgICAgICAgICA8ZGl2IGNsYXNzTmFtZT0iZml4ZWQgaW5zZXQtMCB6LVsxMjBdIGZsZXggaXRlbXMtZW5kIHNtOml0ZW1zLWNlbnRlciBqdXN0aWZ5LWNlbnRlciBiZy1ibGFjay8zMCBiYWNrZHJvcC1ibHVyLXNtIGFuaW1hdGUtZmFkZS1pbiIgb25DbGljaz17KCkgPT4gc2V0RWRpdGluZ0lkKG51bGwpfT4KICAgICAgICAgICAgICAgICAgICA8ZGl2IGNsYXNzTmFtZT0idy1mdWxsIHNtOm1heC13LXNtIGJnLXdoaXRlIHJvdW5kZWQtdC0zeGwgc206cm91bmRlZC0zeGwgc2hhZG93LTJ4bCBwLTUgYW5pbWF0ZS1zbGlkZS11cCBzbTphbmltYXRlLXBvcC1pbiIKICAgICAgICAgICAgICAgICAgICAgICAgc3R5bGU9e3sgcGFkZGluZ0JvdHRvbTogJ2NhbGMoMS4yNXJlbSArIHZhcigtLXNhZmUtYm90dG9tKSknIH19CiAgICAgICAgICAgICAgICAgICAgICAgIG9uQ2xpY2s9eyhlKSA9PiBlLnN0b3BQcm9wYWdhdGlvbigpfT4KICAgICAgICAgICAgICAgICAgICAgICAgPGRpdiBjbGFzc05hbWU9ImZsZXggaXRlbXMtc3RhcnQganVzdGlmeS1iZXR3ZWVuIG1iLTMiPgogICAgICAgICAgICAgICAgICAgICAgICAgICAgPGRpdj4KICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICA8ZGl2IGNsYXNzTmFtZT0idGV4dC1zbSBmb250LWJvbGQgdGV4dC1zbGF0ZS04MDAiPuWSjCB7ZWRpdGluZ0NoYXIubmFtZX0g6IGK5aSp5pe277yM5L2g55qE5aS05YOPPC9kaXY+CiAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgPGRpdiBjbGFzc05hbWU9Im10LTAuNSB0ZXh0LVsxMHB4XSB0ZXh0LXNsYXRlLTQwMCI+5Y+q5b2x5ZON6L+Z5Liq6KeS6Imy55qE56eB6IGK77yb5YW25LuW6IGK5aSp5LiN5Y+Y44CCPC9kaXY+CiAgICAgICAgICAgICAgICAgICAgICAgICAgICA8L2Rpdj4KICAgICAgICAgICAgICAgICAgICAgICAgICAgIDxidXR0b24gb25DbGljaz17KCkgPT4gc2V0RWRpdGluZ0lkKG51bGwpfSBjbGFzc05hbWU9InB4LTIgdGV4dC14bCBsZWFkaW5nLW5vbmUgdGV4dC1zbGF0ZS00MDAgaG92ZXI6dGV4dC1zbGF0ZS02MDAiPsOXPC9idXR0b24+CiAgICAgICAgICAgICAgICAgICAgICAgIDwvZGl2PgoKICAgICAgICAgICAgICAgICAgICAgICAgPGRpdiBjbGFzc05hbWU9ImZsZXggaXRlbXMtY2VudGVyIGp1c3RpZnktY2VudGVyIGdhcC01IG1iLTQiPgogICAgICAgICAgICAgICAgICAgICAgICAgICAgPGRpdiBjbGFzc05hbWU9ImZsZXggZmxleC1jb2wgaXRlbXMtY2VudGVyIGdhcC0xIj4KICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICA8aW1nIHNyYz17ZWRpdGluZ0NoYXIuYXZhdGFyfSBjbGFzc05hbWU9InctMTYgaC0xNiByb3VuZGVkLWZ1bGwgb2JqZWN0LWNvdmVyIGJnLXNsYXRlLTEwMCIgYWx0PSIiIC8+CiAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgPHNwYW4gY2xhc3NOYW1lPSJ0ZXh0LVsxMHB4XSB0ZXh0LXNsYXRlLTQwMCI+e2VkaXRpbmdDaGFyLm5hbWV9PC9zcGFuPgogICAgICAgICAgICAgICAgICAgICAgICAgICAgPC9kaXY+CiAgICAgICAgICAgICAgICAgICAgICAgICAgICA8c3BhbiBjbGFzc05hbWU9InRleHQtc2xhdGUtMzAwIHRleHQtbGciPsOXPC9zcGFuPgogICAgICAgICAgICAgICAgICAgICAgICAgICAgPGRpdiBjbGFzc05hbWU9ImZsZXggZmxleC1jb2wgaXRlbXMtY2VudGVyIGdhcC0xIj4KICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICA8aW1nIHNyYz17ZWRpdGluZ092ZXJyaWRlIHx8IHVzZXJQcm9maWxlLmF2YXRhcn0gY2xhc3NOYW1lPXtgdy0xNiBoLTE2IHJvdW5kZWQtZnVsbCBvYmplY3QtY292ZXIgYmctc2xhdGUtMTAwICR7ZWRpdGluZ092ZXJyaWRlID8gJ3JpbmctMiByaW5nLXByaW1hcnknIDogJ3JpbmctMiByaW5nLXNsYXRlLTIwMCd9YH0gYWx0PSIiIC8+CiAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgPHNwYW4gY2xhc3NOYW1lPSJ0ZXh0LVsxMHB4XSB0ZXh0LXNsYXRlLTQwMCI+e2VkaXRpbmdPdmVycmlkZSA/ICflt7LljZXni6zorr7nva4nIDogJ+aVtOS9k+WktOWDj++8iOm7mOiupO+8iSd9PC9zcGFuPgogICAgICAgICAgICAgICAgICAgICAgICAgICAgPC9kaXY+CiAgICAgICAgICAgICAgICAgICAgICAgIDwvZGl2PgoKICAgICAgICAgICAgICAgICAgICAgICAgPGRpdiBjbGFzc05hbWU9InJvdW5kZWQtMnhsIGJnLXNsYXRlLTUwIHAtMyBtYi0yIj4KICAgICAgICAgICAgICAgICAgICAgICAgICAgIDxkaXYgY2xhc3NOYW1lPSJ0ZXh0LVsxMXB4XSBmb250LWJvbGQgdGV4dC1zbGF0ZS02MDAgbWItMS41Ij7lm77luorpk77mjqXvvIjmjqjojZDvvIk8L2Rpdj4KICAgICAgICAgICAgICAgICAgICAgICAgICAgIDxkaXYgY2xhc3NOYW1lPSJmbGV4IGdhcC0yIj4KICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICA8aW5wdXQKICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgdmFsdWU9e3VybERyYWZ0fQogICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICBvbkNoYW5nZT17KGUpID0+IHNldFVybERyYWZ0KGUudGFyZ2V0LnZhbHVlKX0KICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgcGxhY2Vob2xkZXI9Imh0dHBzOi8v4oCmIOWbvueJh+ebtOmTviIKICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgY2xhc3NOYW1lPSJmbGV4LTEgbWluLXctMCBiZy13aGl0ZSBib3JkZXIgYm9yZGVyLXNsYXRlLTIwMCBmb2N1czpib3JkZXItcHJpbWFyeS80MCByb3VuZGVkLXhsIHB4LTMgcHktMiB0ZXh0LXhzIHRleHQtc2xhdGUtNzAwIG91dGxpbmUtbm9uZSB0cmFuc2l0aW9uLWFsbCBwbGFjZWhvbGRlcjp0ZXh0LXNsYXRlLTMwMCIKICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAvPgogICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgIDxidXR0b24gb25DbGljaz17YXBwbHlVcmx9IGNsYXNzTmFtZT0ic2hyaW5rLTAgcm91bmRlZC14bCBiZy1wcmltYXJ5IHB4LTMgcHktMiB0ZXh0LVsxMXB4XSBmb250LWJvbGQgdGV4dC13aGl0ZSBhY3RpdmU6c2NhbGUtOTUgdHJhbnNpdGlvbi10cmFuc2Zvcm0iPuS9v+eUqDwvYnV0dG9uPgogICAgICAgICAgICAgICAgICAgICAgICAgICAgPC9kaXY+CiAgICAgICAgICAgICAgICAgICAgICAgICAgICA8cCBjbGFzc05hbWU9Im10LTEuNSB0ZXh0LVsxMHB4XSBsZWFkaW5nLXJlbGF4ZWQgdGV4dC1zbGF0ZS00MDAiPgogICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgIOaOqOiNkOmTvuaOpe+8muS4jeWNoOacrOWcsOepuumXtO+8jOWkh+S7veabtOWwj+abtOW/q++8m+OAjOe6r+aWh+Wtl+Wkh+S7veOAjeS5n+WPquaciemTvuaOpeiDveaKiuWbvuW4pui1sO+8iOacrOWcsOS4iuS8oOeahOWbvuS8muiiq+WJpeaOie+8ieOAggogICAgICAgICAgICAgICAgICAgICAgICAgICAgPC9wPgogICAgICAgICAgICAgICAgICAgICAgICA8L2Rpdj4KCiAgICAgICAgICAgICAgICAgICAgICAgIDxkaXYgY2xhc3NOYW1lPSJmbGV4IGdhcC0yIj4KICAgICAgICAgICAgICAgICAgICAgICAgICAgIDxidXR0b24gb25DbGljaz17KCkgPT4gdXBsb2FkUmVmLmN1cnJlbnQ/LmNsaWNrKCl9CiAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgY2xhc3NOYW1lPSJmbGV4LTEgcm91bmRlZC0yeGwgYm9yZGVyIGJvcmRlci1zbGF0ZS0yMDAgYmctd2hpdGUgcHgtNCBweS0yLjUgdGV4dC1bMTFweF0gZm9udC1ib2xkIHRleHQtc2xhdGUtNjAwIGFjdGl2ZTpzY2FsZS1bMC45OF0gdHJhbnNpdGlvbi10cmFuc2Zvcm0iPgogICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgIOacrOWcsOS4iuS8oO+8iOWtmOi/m+acrOacuu+8iQogICAgICAgICAgICAgICAgICAgICAgICAgICAgPC9idXR0b24+CiAgICAgICAgICAgICAgICAgICAgICAgICAgICB7ZWRpdGluZ092ZXJyaWRlICYmICgKICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICA8YnV0dG9uCiAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgIG9uQ2xpY2s9eygpID0+IHsgc2V0T3ZlcnJpZGUoZWRpdGluZ0NoYXIuaWQsIHVuZGVmaW5lZCk7IHNldFVybERyYWZ0KCcnKTsgYWRkVG9hc3QoJ+W3suaBouWkjeaVtOS9k+WktOWDjycsICdzdWNjZXNzJyk7IH19CiAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgIGNsYXNzTmFtZT0iZmxleC0xIHJvdW5kZWQtMnhsIGJvcmRlciBib3JkZXItcm9zZS0yMDAgYmctcm9zZS01MCBweC00IHB5LTIuNSB0ZXh0LVsxMXB4XSBmb250LWJvbGQgdGV4dC1yb3NlLTUwMCBhY3RpdmU6c2NhbGUtWzAuOThdIHRyYW5zaXRpb24tdHJhbnNmb3JtIj4KICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAg5oGi5aSN5pW05L2T5aS05YOPCiAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgPC9idXR0b24+CiAgICAgICAgICAgICAgICAgICAgICAgICAgICApfQogICAgICAgICAgICAgICAgICAgICAgICA8L2Rpdj4KICAgICAgICAgICAgICAgICAgICAgICAgPGlucHV0IHR5cGU9ImZpbGUiIHJlZj17dXBsb2FkUmVmfSBjbGFzc05hbWU9ImhpZGRlbiIgYWNjZXB0PSJpbWFnZS8qIiBvbkNoYW5nZT17aGFuZGxlVXBsb2FkfSAvPgogICAgICAgICAgICAgICAgICAgIDwvZGl2PgogICAgICAgICAgICAgICAgPC9kaXY+CiAgICAgICAgICAgICl9CiAgICAgICAgPC9kaXY+CiAgICApOwp9OwoKZXhwb3J0IGRlZmF1bHQgUGVyQ2hhckF2YXRhclBpY2tlcjsK
+import React, { useMemo, useRef, useState } from 'react';
+import { useOS } from '../../context/OSContext';
+import { processImage } from '../../utils/file';
+
+/**
+ * 档案 App「分角色聊天头像」：给每个角色的私聊单独设置「你」的头像。
+ * 不设置 = 用档案上面的整体头像（宏观默认）；数据存 userProfile.perCharAvatars，
+ * 随 user_profile 单例进备份。群聊仍用整体头像。
+ *
+ * 角色可能很多：搜索过滤 + 每页 8 个的翻页网格（左右箭头 / 横滑 / 圆点直达），
+ * 翻页带轻量滑入动效。头像来源支持图床 URL（推荐，轻量）与本地上传。
+ */
+
+const PAGE_SIZE = 8;
+
+const isValidHttpImageUrl = (value: string) => {
+    try {
+        const parsed = new URL(value);
+        return parsed.protocol === 'https:' || parsed.protocol === 'http:';
+    } catch {
+        return false;
+    }
+};
+
+const PerCharAvatarPicker: React.FC = () => {
+    const { characters, userProfile, updateUserProfile, addToast } = useOS();
+    const overrides = userProfile.perCharAvatars || {};
+
+    const [query, setQuery] = useState('');
+    const [page, setPage] = useState(0);
+    const [slideDir, setSlideDir] = useState<'l' | 'r'>('l');
+    const swipeStartX = useRef<number | null>(null);
+
+    const [editingId, setEditingId] = useState<string | null>(null);
+    const [urlDraft, setUrlDraft] = useState('');
+    const uploadRef = useRef<HTMLInputElement>(null);
+
+    const filtered = useMemo(() => {
+        const q = query.trim().toLowerCase();
+        return q ? characters.filter(c => c.name.toLowerCase().includes(q)) : characters;
+    }, [characters, query]);
+
+    const pageCount = Math.max(1, Math.ceil(filtered.length / PAGE_SIZE));
+    const safePage = Math.min(page, pageCount - 1);
+    const pageChars = filtered.slice(safePage * PAGE_SIZE, safePage * PAGE_SIZE + PAGE_SIZE);
+
+    const goPage = (next: number) => {
+        const clamped = Math.max(0, Math.min(pageCount - 1, next));
+        if (clamped === safePage) return;
+        setSlideDir(clamped > safePage ? 'l' : 'r');
+        setPage(clamped);
+    };
+
+    const setOverride = (charId: string, avatar: string | undefined) => {
+        const next = { ...overrides };
+        if (avatar) next[charId] = avatar; else delete next[charId];
+        updateUserProfile({ perCharAvatars: next });
+    };
+
+    const editingChar = editingId ? characters.find(c => c.id === editingId) : null;
+    const editingOverride = editingId ? overrides[editingId] : undefined;
+
+    const openEditor = (charId: string) => {
+        setEditingId(charId);
+        const cur = overrides[charId];
+        setUrlDraft(cur && !cur.startsWith('data:') ? cur : '');
+    };
+
+    const applyUrl = () => {
+        if (!editingId) return;
+        const url = urlDraft.trim();
+        if (!isValidHttpImageUrl(url)) {
+            addToast('URL 无效，请填写 http(s) 图片直链', 'error');
+            return;
+        }
+        setOverride(editingId, url);
+        addToast('已设置该角色的聊天头像', 'success');
+    };
+
+    const handleUpload = async (e: React.ChangeEvent<HTMLInputElement>) => {
+        const file = e.target.files?.[0];
+        e.target.value = '';
+        if (!file || !editingId) return;
+        try {
+            const base64 = await processImage(file);
+            setOverride(editingId, base64);
+            setUrlDraft('');
+            addToast('已设置该角色的聊天头像', 'success');
+        } catch (err: any) {
+            addToast(err.message, 'error');
+        }
+    };
+
+    if (characters.length === 0) return null;
+
+    return (
+        <div className="bg-white rounded-[1.75rem] shadow-[0_10px_30px_-12px_rgba(80,70,120,0.18)] border border-slate-100 p-5">
+            {/* 翻页滑入动效（组件私有，不进全局 tailwind 配置） */}
+            <style>{`
+                @keyframes pcaSlideL { from { opacity: .35; transform: translateX(26px); } to { opacity: 1; transform: none; } }
+                @keyframes pcaSlideR { from { opacity: .35; transform: translateX(-26px); } to { opacity: 1; transform: none; } }
+                .pca-slide-l { animation: pcaSlideL .28s cubic-bezier(0.25, 1, 0.5, 1); }
+                .pca-slide-r { animation: pcaSlideR .28s cubic-bezier(0.25, 1, 0.5, 1); }
+            `}</style>
+
+            <div className="flex items-center gap-2 mb-1">
+                <span className="w-7 h-7 rounded-xl bg-primary/10 text-primary flex items-center justify-center">
+                    <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" strokeWidth={1.8} stroke="currentColor" className="w-4 h-4">
+                        <path strokeLinecap="round" strokeLinejoin="round" d="M17.982 18.725A7.488 7.488 0 0 0 12 15.75a7.488 7.488 0 0 0-5.982 2.975m11.963 0a9 9 0 1 0-11.963 0m11.963 0A8.966 8.966 0 0 1 12 21a8.966 8.966 0 0 1-5.982-2.275M15 9.75a3 3 0 1 1-6 0 3 3 0 0 1 6 0Z" />
+                    </svg>
+                </span>
+                <h2 className="text-sm font-bold text-slate-700">分角色聊天头像</h2>
+            </div>
+            <p className="text-[11px] text-slate-400 mb-3 leading-relaxed">
+                和不同角色聊天时，「你」可以顶着不同的头像。这里不设置的角色，用上面的整体头像；群聊始终用整体头像。
+            </p>
+
+            {characters.length > PAGE_SIZE && (
+                <input
+                    value={query}
+                    onChange={(e) => { setQuery(e.target.value); setPage(0); }}
+                    placeholder="搜索角色…"
+                    className="w-full mb-3 bg-slate-50 focus:bg-white border border-slate-100 focus:border-primary/30 rounded-2xl px-4 py-2 text-xs text-slate-700 outline-none transition-all placeholder:text-slate-300"
+                />
+            )}
+
+            {filtered.length === 0 ? (
+                <div className="py-8 text-center text-[11px] text-slate-300">没有叫这个名字的角色</div>
+            ) : (
+                <div
+                    onTouchStart={(e) => { swipeStartX.current = e.touches[0]?.clientX ?? null; }}
+                    onTouchEnd={(e) => {
+                        const startX = swipeStartX.current;
+                        swipeStartX.current = null;
+                        const endX = e.changedTouches[0]?.clientX;
+                        if (startX == null || endX == null) return;
+                        const dx = endX - startX;
+                        if (Math.abs(dx) > 48) goPage(safePage + (dx < 0 ? 1 : -1));
+                    }}
+                >
+                    <div key={`${safePage}-${query}`} className={`grid grid-cols-4 gap-3 ${slideDir === 'l' ? 'pca-slide-l' : 'pca-slide-r'}`}>
+                        {pageChars.map(c => {
+                            const override = overrides[c.id];
+                            return (
+                                <button key={c.id} onClick={() => openEditor(c.id)} className="flex flex-col items-center gap-1.5 group active:scale-95 transition-transform">
+                                    <div className="relative">
+                                        <img src={c.avatar} alt="" className="w-14 h-14 rounded-full object-cover bg-slate-100 border border-slate-100 group-hover:border-primary/30 transition-colors" />
+                                        {/* 右下小圆 = 这个聊天里「你」的头像；设置过 → 主题色描边，否则灰显整体头像 */}
+                                        <img
+                                            src={override || userProfile.avatar}
+                                            alt=""
+                                            className={`absolute -bottom-1.5 -right-1.5 w-7 h-7 rounded-full object-cover bg-white shadow-sm ${override ? 'ring-2 ring-primary' : 'ring-2 ring-white opacity-60'}`}
+                                        />
+                                    </div>
+                                    <span className="w-full text-[10px] text-slate-500 truncate text-center">{c.name}</span>
+                                </button>
+                            );
+                        })}
+                        {/* 末页不满 8 人时用隐形占位补齐两行高度，翻页时容器不弹跳 */}
+                        {pageCount > 1 && pageChars.length < PAGE_SIZE && Array.from({ length: PAGE_SIZE - pageChars.length }, (_, i) => (
+                            <div key={`pad-${i}`} className="flex flex-col items-center gap-1.5 invisible" aria-hidden="true">
+                                <div className="w-14 h-14 rounded-full" />
+                                <span className="text-[10px]">&nbsp;</span>
+                            </div>
+                        ))}
+                    </div>
+
+                    {pageCount > 1 && (
+                        <div className="mt-3 flex items-center justify-center gap-3">
+                            <button onClick={() => goPage(safePage - 1)} disabled={safePage === 0}
+                                className="flex h-7 w-7 items-center justify-center rounded-full bg-slate-100 text-sm text-slate-500 transition-all active:scale-90 disabled:opacity-30" aria-label="上一页">‹</button>
+                            <div className="flex items-center gap-1.5">
+                                {Array.from({ length: pageCount }, (_, i) => (
+                                    <button key={i} onClick={() => goPage(i)} aria-label={`第 ${i + 1} 页`}
+                                        className={`rounded-full transition-all ${i === safePage ? 'w-4 h-1.5 bg-primary' : 'w-1.5 h-1.5 bg-slate-200 hover:bg-slate-300'}`} />
+                                ))}
+                            </div>
+                            <button onClick={() => goPage(safePage + 1)} disabled={safePage === pageCount - 1}
+                                className="flex h-7 w-7 items-center justify-center rounded-full bg-slate-100 text-sm text-slate-500 transition-all active:scale-90 disabled:opacity-30" aria-label="下一页">›</button>
+                        </div>
+                    )}
+                </div>
+            )}
+
+            {/* 编辑弹层：URL 优先（推荐）+ 本地上传 + 恢复整体头像 */}
+            {editingChar && (
+                <div className="fixed inset-0 z-[120] flex items-end sm:items-center justify-center bg-black/30 backdrop-blur-sm animate-fade-in" onClick={() => setEditingId(null)}>
+                    <div className="w-full sm:max-w-sm bg-white rounded-t-3xl sm:rounded-3xl shadow-2xl p-5 animate-slide-up sm:animate-pop-in"
+                        style={{ paddingBottom: 'calc(1.25rem + var(--safe-bottom))' }}
+                        onClick={(e) => e.stopPropagation()}>
+                        <div className="flex items-start justify-between mb-3">
+                            <div>
+                                <div className="text-sm font-bold text-slate-800">和 {editingChar.name} 聊天时，你的头像</div>
+                                <div className="mt-0.5 text-[10px] text-slate-400">只影响这个角色的私聊；其他聊天不变。</div>
+                            </div>
+                            <button onClick={() => setEditingId(null)} className="px-2 text-xl leading-none text-slate-400 hover:text-slate-600">×</button>
+                        </div>
+
+                        <div className="flex items-center justify-center gap-5 mb-4">
+                            <div className="flex flex-col items-center gap-1">
+                                <img src={editingChar.avatar} className="w-16 h-16 rounded-full object-cover bg-slate-100" alt="" />
+                                <span className="text-[10px] text-slate-400">{editingChar.name}</span>
+                            </div>
+                            <span className="text-slate-300 text-lg">×</span>
+                            <div className="flex flex-col items-center gap-1">
+                                <img src={editingOverride || userProfile.avatar} className={`w-16 h-16 rounded-full object-cover bg-slate-100 ${editingOverride ? 'ring-2 ring-primary' : 'ring-2 ring-slate-200'}`} alt="" />
+                                <span className="text-[10px] text-slate-400">{editingOverride ? '已单独设置' : '整体头像（默认）'}</span>
+                            </div>
+                        </div>
+
+                        <div className="rounded-2xl bg-slate-50 p-3 mb-2">
+                            <div className="text-[11px] font-bold text-slate-600 mb-1.5">图床链接（推荐）</div>
+                            <div className="flex gap-2">
+                                <input
+                                    value={urlDraft}
+                                    onChange={(e) => setUrlDraft(e.target.value)}
+                                    placeholder="https://… 图片直链"
+                                    className="flex-1 min-w-0 bg-white border border-slate-200 focus:border-primary/40 rounded-xl px-3 py-2 text-xs text-slate-700 outline-none transition-all placeholder:text-slate-300"
+                                />
+                                <button onClick={applyUrl} className="shrink-0 rounded-xl bg-primary px-3 py-2 text-[11px] font-bold text-white active:scale-95 transition-transform">使用</button>
+                            </div>
+                            <p className="mt-1.5 text-[10px] leading-relaxed text-slate-400">
+                                推荐链接：不占本地空间，备份更小更快；「纯文字备份」也只有链接能把图带走（本地上传的图会被剥掉）。
+                            </p>
+                        </div>
+
+                        <div className="flex gap-2">
+                            <button onClick={() => uploadRef.current?.click()}
+                                className="flex-1 rounded-2xl border border-slate-200 bg-white px-4 py-2.5 text-[11px] font-bold text-slate-600 active:scale-[0.98] transition-transform">
+                                本地上传（存进本机）
+                            </button>
+                            {editingOverride && (
+                                <button
+                                    onClick={() => { setOverride(editingChar.id, undefined); setUrlDraft(''); addToast('已恢复整体头像', 'success'); }}
+                                    className="flex-1 rounded-2xl border border-rose-200 bg-rose-50 px-4 py-2.5 text-[11px] font-bold text-rose-500 active:scale-[0.98] transition-transform">
+                                    恢复整体头像
+                                </button>
+                            )}
+                        </div>
+                        <input type="file" ref={uploadRef} className="hidden" accept="image/*" onChange={handleUpload} />
+                    </div>
+                </div>
+            )}
+        </div>
+    );
+};
+
+export default PerCharAvatarPicker;

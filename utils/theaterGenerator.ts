@@ -1,1 +1,227 @@
-LyoqCiAqIOaXpeeoi+Wwj+WJp+Wcuu+8iOeqpeinhua8lOWHuu+8ieeUn+aIkOWZqOOAggogKgogKiDorr7orqHvvJrnlKjmiLflnKjml6XnqIvljaHkuIrngrnmn5DkuKrjgIzlt7Lov4fljrsgLyDmraPlnKjov5vooYzjgI3ml7bmrrXnmoTmkq3mlL7mjInpkq7vvIwKICog5LulKirnrKzkuInkurrnp7DjgIzkuIrluJ3op4bop5LjgI0qKueUn+aIkOinkuiJsuWcqOi/meS4quaXtumXtOeCueeahOS4gOWwj+auteihjOS4uua8lOWHuiDigJTigJQg6KeS6Imy5a6M5YWoCiAqIOS4jeefpemBk+iHquW3seiiq+ingueci++8iOe6r+e6quW9leeJh+W8j+eqpeinhu+8ie+8jOmAkOihjOaSreaUvu+8jOWDj+eci+S4gOauteWwj+efreWJp+OAggogKgogKiDms6jlhaXpnaLkuI7op4HpnaLvvIhEYXRlQXBw77yJLyDml6XnqIvlr7npvZDvvIzlpI3nlKjlkIzkuIDmibnpm7bku7bvvJoKICogICAtIOS6uuiuvuWFqOmHj++8mkNvbnRleHRCdWlsZGVyLmJ1aWxkQ29yZUNvbnRleHQoY2hhciwgdXNlciwgdHJ1ZSkKICogICAtIOivpeaXtuauteeahOehrOS6i+Wunu+8mmFjdGl2aXR5IC8gbG9jYXRpb24gLyBkZXNjcmlwdGlvbgogKiAgIC0g5b2T5aSp5oSP6K+G5rWB5bqV6Imy77yaZmxvd05hcnJhdGl2Ze+8iOaMieaXtuaute+8ieaIliBzbG90LmlubmVyVGhvdWdodAogKiAgIC0g5oOF57uqIGJ1ZmbvvJpjaGFyLmJ1ZmZJbmplY3Rpb24KICogICAtIOaWh+mjju+8muWkjeeUqOingemdouS+pyBEQVRFX1NUWUxFX1BSRVNFVFPvvIjlj5YgY2hhci5kYXRlU3R5bGVDb25maWcg55qE6aOO5qC877yM57y655yB55S15b2x5oSf77yJCiAqCiAqIOi+k+WHuuayv+eUqOingemdoueahCBWTuOAjOS4gOihjOS4gOaLjeOAjeagvOW8j++8muavj+ihjCBgW+awm+WbtF0g5paH5pysYO+8jOino+aekOaIkCBUaGVhdGVyTGluZVtd77yMCiAqIOe8k+WtmOi/myBzbG90LnRoZWF0ZXLvvIzlj6/lj43lpI3ph43nnIvvvIzkuI3ph43lpI3ng6cgdG9rZW7jgIIKICovCgppbXBvcnQgeyBDaGFyYWN0ZXJQcm9maWxlLCBVc2VyUHJvZmlsZSwgRGFpbHlTY2hlZHVsZSwgU2NoZWR1bGVTbG90LCBTbG90VGhlYXRlciwgVGhlYXRlckxpbmUgfSBmcm9tICcuLi90eXBlcyc7CmltcG9ydCB7IENvbnRleHRCdWlsZGVyIH0gZnJvbSAnLi9jb250ZXh0JzsKaW1wb3J0IHsgREIgfSBmcm9tICcuL2RiJzsKaW1wb3J0IHsgc2FmZVJlc3BvbnNlSnNvbiwgZXh0cmFjdENvbnRlbnQgfSBmcm9tICcuL3NhZmVBcGknOwppbXBvcnQgeyBpc1NjaGVkdWxlRmVhdHVyZU9uLCBnZXRGbG93TmFycmF0aXZlS2V5IH0gZnJvbSAnLi9zY2hlZHVsZUdlbmVyYXRvcic7CmltcG9ydCB7IERBVEVfU1RZTEVfUFJFU0VUUyB9IGZyb20gJy4vZGF0ZVByb21wdHMnOwoKaW50ZXJmYWNlIEFwaUNvbmZpZyB7CiAgICBiYXNlVXJsOiBzdHJpbmc7CiAgICBhcGlLZXk6IHN0cmluZzsKICAgIG1vZGVsOiBzdHJpbmc7Cn0KCi8qKiDmoLnmja4gc2xvdCDnmoTlvIDlp4vml7bpl7TmjJHlvZPlpKnmhI/or4bmtYHlupXoibLvvJrkvJjlhYjor6Xml7bmrrXni6znmb3vvIzlho3pgIDliLAgZmxvd05hcnJhdGl2ZeOAgiAqLwpmdW5jdGlvbiBwaWNrTmFycmF0aXZlQmFja2Ryb3Aoc2NoZWR1bGU6IERhaWx5U2NoZWR1bGUsIHNsb3Q6IFNjaGVkdWxlU2xvdCk6IHN0cmluZyB7CiAgICBpZiAoc2xvdC5pbm5lclRob3VnaHQgJiYgc2xvdC5pbm5lclRob3VnaHQudHJpbSgpKSByZXR1cm4gc2xvdC5pbm5lclRob3VnaHQudHJpbSgpOwogICAgY29uc3QgaG91ciA9IHBhcnNlSW50KHNsb3Quc3RhcnRUaW1lLnNwbGl0KCc6JylbMF0sIDEwKTsKICAgIGNvbnN0IGtleSA9IGdldEZsb3dOYXJyYXRpdmVLZXkoTnVtYmVyLmlzRmluaXRlKGhvdXIpID8gaG91ciA6IDEyKTsKICAgIGNvbnN0IGZyb21GbG93ID0gc2NoZWR1bGUuZmxvd05hcnJhdGl2ZT8uW2tleV07CiAgICByZXR1cm4gZnJvbUZsb3cgJiYgZnJvbUZsb3cudHJpbSgpID8gZnJvbUZsb3cudHJpbSgpIDogJyc7Cn0KCi8qKiDlj5bop4HpnaLkvqfmlofpo47pooTorr7nmoTkuIDlj6Xor53mj5DnpLrvvIzkvZzkuLrlsI/liaflnLrnmoTmlofpo47nur/ntKLvvIjnvLrnnIHnlLXlvbHmhJ/vvInjgIIgKi8KZnVuY3Rpb24gcGlja1N0eWxlSGludChjaGFyOiBDaGFyYWN0ZXJQcm9maWxlKTogc3RyaW5nIHsKICAgIGNvbnN0IHN0eWxlSWQgPSBjaGFyLmRhdGVTdHlsZUNvbmZpZz8uc3R5bGUgfHwgJ2NpbmVtYXRpYyc7CiAgICBjb25zdCBwcmVzZXQgPSBEQVRFX1NUWUxFX1BSRVNFVFMuZmluZChwID0+IHAuaWQgPT09IHN0eWxlSWQpIHx8IERBVEVfU1RZTEVfUFJFU0VUU1swXTsKICAgIHJldHVybiBwcmVzZXQucGVla0hpbnQ7Cn0KCmZ1bmN0aW9uIGJ1aWxkVGhlYXRlclByb21wdCgKICAgIGJhc2VDb250ZXh0OiBzdHJpbmcsCiAgICBjaGFyOiBDaGFyYWN0ZXJQcm9maWxlLAogICAgdXNlcjogVXNlclByb2ZpbGUsCiAgICBzbG90OiBTY2hlZHVsZVNsb3QsCiAgICBiYWNrZHJvcDogc3RyaW5nLAogICAgc3R5bGVIaW50OiBzdHJpbmcsCik6IHN0cmluZyB7CiAgICBjb25zdCB1bmFtZSA9IHVzZXI/Lm5hbWUgfHwgJ+WvueaWuSc7CiAgICBjb25zdCB3aGVyZSA9IHNsb3QubG9jYXRpb24gPyBg77yI5Zyw54K577yaJHtzbG90LmxvY2F0aW9ufe+8iWAgOiAnJzsKICAgIGNvbnN0IGRlc2MgPSBzbG90LmRlc2NyaXB0aW9uID8gYFxu6L+Z5Liq5pe25q615pel56iL5LiK55qE5o+P6L+w5piv77yaJHtzbG90LmRlc2NyaXB0aW9ufWAgOiAnJzsKICAgIGNvbnN0IGJhY2tkcm9wQmxvY2sgPSBiYWNrZHJvcAogICAgICAgID8gYFxuXG7ov5nkuKrml7bmrrXvvIzjgIwke2NoYXIubmFtZX3jgI3lv4Pph4znm5jml4vnmoTlv7XlpLTlpKfoh7TmmK/ov5nmoLfvvIjkvZzkuLrmg4Xnu6rlupXoibLvvIzliKvnhafmioTvvIzopoHljJbov5vooYzkuLrph4zvvInvvJpcbiR7YmFja2Ryb3B9YAogICAgICAgIDogJyc7CiAgICBjb25zdCBidWZmQmxvY2sgPSAoaXNTY2hlZHVsZUZlYXR1cmVPbihjaGFyKSAmJiBjaGFyLmVtb3Rpb25Db25maWc/LmVuYWJsZWQgJiYgY2hhci5idWZmSW5qZWN0aW9uKQogICAgICAgID8gYFxuXG4ke2NoYXIuYnVmZkluamVjdGlvbn1gCiAgICAgICAgOiAnJzsKCiAgICAvLyDjgIznp4HlupXkuIvnmoTkuIDpnaLjgI3mmK/ov5nmrrXmiI/lpb3kuI3lpb3nnIvnmoTlhbPplK7vvJrotoHmsqHkurrml7YgdGEg5pyA55yf5a6e44CB5pyA5pS+5p2+44CB55Sa6Iez5pyJ54K56KCi5pyJ54K55oCq55qE5qC35a2Q77yMCiAgICAvLyDlpJrmlbDml7blgJnot58gdXNlciDml6DlhbPjgILnlJ/mtLvns7vop5LoibLvvIjmnInniannkIbnlJ/mtLvvvInlsKTlhbbopoHlvoDph4zmt7fmgKrliqjkvZwgLyDmgKrlv7XlpLTvvJvmhI/or4bns7vkvqfph43lhoXlv4PmgKrlv7XlpLTjgIIKICAgIGNvbnN0IGlzTGlmZXN0eWxlID0gKGNoYXIuc2NoZWR1bGVTdHlsZSB8fCAnbGlmZXN0eWxlJykgPT09ICdsaWZlc3R5bGUnOwogICAgY29uc3QgcXVpcmtCbG9jayA9IGlzTGlmZXN0eWxlCiAgICAgICAgPyBgCiMjIyDmnIDph43opoHvvJrmvJTlh7ogdGEg56eB5bqV5LiL44CB5rKh5Lq655yL6KeB55qE6YKj5LiA6Z2i77yI6L+Z5q615oiP5aW95LiN5aW955yL5YWo55yL6L+Z5Liq77yJCui/mSoq5LiN5pivKirjgIwke2NoYXIubmFtZX0g5Zyo5oCd5b+1ICR7dW5hbWV944CN55qE5oiP4oCU4oCUKirnu53lpKflpJrmlbDml7blgJnot58gJHt1bmFtZX0g5LiA54K55YWz57O76YO95rKh5pyJKirjgILov5nmmK/otoHlm5vkuIvml6Dkurrml7bvvIx0YSDni6zlpITml7bmnIDnnJ/lrp7jgIHmnIDmlL7mnb7jgIHnlJroh7PmnInngrnooKLjgIHmnInngrnmgKrjgIHmnInngrnlj6/niLHnmoTmoLflrZDjgILopoEqKumdnuW4uOWFt+S9k+OAgemdnuW4uOe7huiKgioq5Zyw5oqT5L2P6YKj5LqbIuWViuWOn+adpSB0YSDnp4HlupXkuIvmmK/ov5nmoLci55qE556s6Ze077yM6K6p55yL55qE5Lq66KeJ5b6XIuWkquacieaEj+aAneS6hiAvIOWkquecn+WunuS6hiAvIOi/meS5n+WkqiB0YSDkuoYi44CCCgoqKuW+gOi/meauteaIj+mHjOiHqueEtua3t+i/myAx772eMyDkuKrov5nnsbvnp4HkuIvlsI/liqjkvZwgLyDlsI/lv7XlpLQqKu+8iOi0tOedgCB0YSDnmoTkurrorr7lkozmraTliLvlnKjlgZrnmoTkuovljrvlj5HmjKXvvIzliKvnhafmkKzkuIvpnaLnmoTvvIzopoHplb/lh7ogdGEg6Ieq5bex55qE54mI5pys77yJ77yaCi0g5ZO85q2M5ZO85Yiw5Ymv5q2M56C05LqG6Z+z77yM6Ieq5bex5YWI5oSj5LiA5LiL77yM5bem5Y+z556E5LiA55y85pyJ5rKh5pyJ5Lq65ZCs6KeBCi0g56qB54S25aW95aWH6Ieq5bex5Lik5Y+q6IOz6IaK5piv5LiN5piv5LiA5qC36ZW/77yM5Ly455u05LqG6K6k55yf5q+U5YiSCi0g6Kej6ZSB5omL5py65pys5oOz5p+l5Liq5q2j57uP5Lic6KW/77yM57uT5p6c5Yi35Yiw576k6YeM5pyJ5Lq65Zyo5rC077yM55yL5LqG5LqU5YiG6ZKf5b+Y5LqG6Ieq5bex6KaB5bmy5ZibCi0g6Lev6L+H6ZWc5a2QIC8g6buR5bGP77yM5YG35YG35Ye55Liq6KGo5oOF44CB5pGG5Liq6Ieq5Lul5Li65b6I5biF55qEIHBvc2XvvIzlj5HnjrDml4HovrnmnInkurrnq4vliLvoo4XmsqHkuosKLSDmg7Pnu5kgJHt1bmFtZX0g5oyR5Liq56S854mp77yM6YCb552A6YCb552A55yL5Yiw5Liq6Ieq5bex5pu05oOz6KaB55qE77yM55uv552A54q56LGr5Y2K5aSp77yM5pyJ54K55LiN5aW95oSP5oCdCi0g5auM6Ieq5a625a6g54mp56KN5LqL5o6o5LqG5LiA5oqK77yM5Y+N6KKr5ZKsIC8g6KKr556q77yM556s6Ze05oCC5LqG5byA5aeL6K6o5aW9Ci0g5a+5552A5LiN6aG65b+D55qE5bCP5LqL5LiA5Liq5Lq656qB54S25bCP5bSp5rqD77yM5oaL552A5Yqy5L2O5ZC844CB6Lef56m65rCU5ZC15Lik5Y+l77yM5ZC85a6M6Iul5peg5YW25LqLCi0g6Zey5b6X5peg6IGK77yM5YGH6KOF6Ieq5bex5piv5qih5ouf5Lq655SfIC8g5ri45oiP6YeM55qE6KeS6Imy77yM57uZ6Ieq5bex6YWN5peB55m944CB6ISR6KGl54q25oCB5qCPCi0g5YG35ZCDIC8g5YG35oeSIC8g5ouW5bu26KKr6Ieq5bex5oqT5YyF77yM5YGa6LS85b+D6Jma5Zyw5om+6KGlCi0g6Lef5p+Q5Liq5pel5bi45bCP54mp6L6D55yf5Y2K5aSp77yI5pKV5LiN6b2Q55qE6IO25bim44CB5ZCI5LiN5LiK55qE5oq95bGJ44CB6L2s5LiN6aG655qE56yU77yJCi0g6Ieq6KiA6Ieq6K+t5ryU5LiA5q615YaF5b+D5bCP5Ymn5Zy677yM5LiA5Lq65YiG6aWw5Lik6KeSCuKApui/meS6m+WPquaYr+aWueWQkeOAguimgSoq6LS0552AIHRhIOeahOaAp+agvOWSjOW9k+WJjeWcuuaZryoq5Y675oOzIHRhIOS8muaAjuagt+eKr+aAquOAgeeKr+igouOAgeeKr+WPr+eIse+8jOi2iuWFt+S9k+i2iuWHuuS6uuaEj+aWmei2iuWlveOAgui/meS6m+aAqueerOmXtOimgSoq5re35Zyo5b2T5YmN5Li76aKY6KGM5Li677yIJHtzbG90LmFjdGl2aXR5fe+8iemHjCoq77yM5LiN5piv5Y+m6LW354KJ54G244CCCmAKICAgICAgICA6IGAKIyMjIOmHjeeCue+8mua8lOWHuiB0YSDnp4HlupXkuIvjgIHmsqHkurrnnIvop4HnmoTpgqPkuIDpnaIK6L+Z5q615oiPKirlpJrmlbDml7blgJnot58gJHt1bmFtZX0g5peg5YWzKirjgILotoHmsqHkurrml7bvvIzmioogdGEg54us5aSE5pe255yf5a6e44CB56eB5a+G44CB55Sa6Iez5pyJ54K55oCq55qE5YaF5b+D5rS75Yqo5YaZ57uG77ya5b+954S25YaS5Ye65p2l55qE5aWH5oCq5b+15aS044CB5a+55p+Q5Lu25bCP5LqL6I6r5ZCN55qE5omn5b+144CB6Ieq5oiR5ZCQ5qe9IC8g6Ieq5oiR5ZKM6Kej44CB5LiA5Lq65YiG6aWw5Lik6KeS55qE5YaF5b+D5bCP5Ymn5Zy644CB6KKr5LiA5q615Zue5b+G56qB54S25Ye75Lit4oCm4oCm6KaBKirpnZ7luLjlhbfkvZMqKu+8jOiuqeS6uuinieW+lyLljp/mnaUgdGEg56eB5LiL5piv6L+Z5qC3IuOAgui/meS6m+mDveimgSoq6LS0552A5b2T5YmN5Li76aKY77yIJHtzbG90LmFjdGl2aXR5fe+8ieiHqueEtua1gea3jCoq44CCCmA7CgogICAgcmV0dXJuIGAke2Jhc2VDb250ZXh0fQoKIyMgVGFzazog55Sf5oiQ5LiA5q6144CM56ql6KeG5bCP5Ymn5Zy644CNCgrnjrDlnKjvvIzjgIwke3VuYW1lfeOAjeato+WcqOaChOaChOeqpeinhuOAjCR7Y2hhci5uYW1lfeOAjeatpOWIu+eahOeUn+a0u+eJh+auteOAggoKKirml7bpl7TngrkqKu+8miR7c2xvdC5zdGFydFRpbWV977yM44CMJHtjaGFyLm5hbWV944CN5q2j5Zyo44CMJHtzbG90LmFjdGl2aXR5feOAjSR7d2hlcmV944CCJHtkZXNjfSR7YmFja2Ryb3BCbG9ja30ke2J1ZmZCbG9ja30KCuivt+S9oOS7pSoq56ys5LiJ5Lq656ewwrfkuIrluJ3op4bop5IqKu+8jOa8lOWHuuOAjCR7Y2hhci5uYW1lfeOAjeWcqOi/meS4quaXtumXtOeCueeahOS4gOauteWujOaVtOeUn+a0u+eJh+autSDigJTigJQg5YOP5LiA5q616KKr5YG35YG35ouN5LiL44CB5pyJ5aS05pyJ5bC+55qE55Sf5rS757qq5b2V55+t54mH44CC5LiN5piv5Yeg5Liq6Zu25pWj6ZWc5aS077yM6ICM5piv5LiAKirmrrXmiI8qKu+8muaciei/m+WFpeOAgeacieWxleW8gOOAgeS4remXtOecn+eahCoq5Y+R55Sf5LiA5Lu25YW35L2T55qE5bCP5LqLKirjgIHmnIDlkI7mnInkuKrmlLbmnZ/jgIIKCiMjIyDpk4HlvovvvIjpnZ7luLjph43opoHvvIkKMS4gKirop5LoibLlrozlhajkuI3nn6XpgZPoh6rlt7Hooqvop4LnnIsqKuOAgue7neWvueS4jeimgeiuqSB0YSDnnIvplZzlpLTjgIHkuI3opoHlr7njgIwke3VuYW1lfeOAjeivtOivneOAgeS4jeimgeaEj+ivhuWIsOacieS6uuWcqOeci+OAgui/meaYr+WBt+eci++8jOS4jeaYr+ihqOa8lOe7meiwgeeci+OAggoyLiAqKuesrOS4ieS6uuensOWPmei/sCoq77ya55So44CMJHtjaGFyLm5hbWV944CN5oiWIHRhL+WluS/ku5Yg5oyH5Luj6KeS6Imy77yM5LiN6KaB55SoIuaIkSLjgIIKMy4gKirov5nkuI3mmK/nu5kgJHt1bmFtZX0g55yL55qE5oiP77yM5Lmf5LiN5LiA5a6a6LefICR7dW5hbWV9IOacieWFsyoq44CCJHt1bmFtZX0g5pyA5aSa5L2c5Li6IHRhIOiEkeWtkOmHjOWBtuWwlOmXqui/h+eahOS4gOS4quW/teWktOWHuueOsO+8iOaDs+i1t+afkOWPpeivneS5i+exu++8ie+8jCoq5Lmf5a6M5YWo5Y+v5Lul5pW05q616YO95LiN5Ye6546wKirvvJvnu53kuI3og73orqkgJHt1bmFtZX0g5Zyo5Zy644CB5oiQ5Li65Li76K+t5oiW6L+Z5q615oiP55qE54Sm54K544CCCjQuICoq57Sn5omj6L+Z5Liq5pe25q615Zyo5YGa55qE5LqLKirvvIgke3Nsb3QuYWN0aXZpdHl977yJ77ya5YaZIHRhIOWFt+S9k+eahOaJi+WcqOWBmuS7gOS5iOOAgei6q+S9k+WcqOWTquOAgeeOr+Wig+S7gOS5iOagt++8jOiwg+WKqOWkmuenjeaEn+WumO+8iOeci+WIsCAvIOWQrOWIsCAvIOmXu+WIsCAvIOinpuaEnyAvIOa4qeW6piAvIOWFiee6v++8ie+8jOacieWFt+S9k+eahOeJqeS7tuWSjOWKqOS9nO+8jOe7neS4jeimgeWGmeaIkOaKveixoeeahCLlnKjkvJHmga8iIuWcqOW3peS9nCLjgIIKNS4g5paH6aOO57q/57Si77yaJHtzdHlsZUhpbnR944CCCiR7cXVpcmtCbG9ja30KIyMjIOi/meauteaIj+imgSLmnInlhoXlrrki77yI6YeN54K577yJCi0gKirmnInnu5PmnoTvvIjotbfmib/ovazlkIjvvIkqKu+8muW8gOWktOS6pOS7oyB0YSDmraTliLvmiYDlpITnmoTlnLrmma/kuI7nirbmgIHvvJvkuK3mrrXorqnkuovmg4XlvoDliY3mjqjov5vvvJsqKuS4remXtOS4gOWumuimgeWPkeeUn+S4gOS4quWFt+S9k+eahOWwj+S6i+S7tuaIluWwj+i9rOaKmCoq77yI5omL5py65ZON5LqGIC8g5Lic6KW/5omT57+75LqGIC8g56qX5aSW5LiA6Zi15Yqo6Z2ZIC8g5LiA5q616K6w5b+G56qB54S25raM5LiK5p2lIC8g5Li05pe25pS55Li75oSPIC8g5LiA5Liq5LiN5pyf6ICM6Iez55qE5bCP5o+S5puy77yJ77yM6K6p6L+Z5q615oiP5pyJIuWPkeeUn+S6huS7gOS5iCLogIzkuI3lj6rmmK8i5Zyo5bmy5LuA5LmIIu+8m+e7k+Wwvue7meS4gOS4quS9memfteaUtuadn+OAggotICoq5pyJ5oOF57uq6LW35LyPKirvvJrku47mn5DkuKrnirbmgIHvvIzooqvpgqPkuKrlsI/kuovku7bnibXliqjvvIzliLDokL3lrprjgILliKvlhajnqIvkuIDkuKrosIPlrZDjgIIKLSAqKuaciee7huiKguacieeUu+mdoioq77ya5YW35L2T5Yiw5LiA5Liq5Yqo5L2c44CB5LiA5Liq6KGo5oOF44CB5LiA5Lu254mp5ZOB44CB5LiA5Y+l6Ieq6KiA6Ieq6K+t77yM6K6p5Lq66IO9Iueci+ingSLjgIIKLSAqKuWDj+ecn+eahOi/h+S6huS4gOauteaXtumXtCoq77ya5Yeg5YiG6ZKf6YeM5pyJ6IqC5aWP44CB5pyJ5YGc6aG/44CB5pyJ5b+r5oWi44CCCgojIyMg6L6T5Ye65qC85byP77yI5Lil5qC86YG15a6I44CM5LiA6KGM5LiA5ouN44CN77yJCi0g5q+P5LiA6KGM5piv5LiA5Liq55S76Z2iIC8g5LiA5Liq5Yqo5L2cIC8g5LiA5Y+l5Y+w6K+N77yI54us55m977yJ77yMKirljZXni6zljaDkuIDooYwqKuOAggotICoq5q+P5LiA6KGM6YO95LulIFxgW+awm+WbtF1cYCDlvIDlpLQqKu+8jOaWueaLrOWPt+mHjOaUvioq5LiA5LiqIGVtb2ppKirvvIzooajnpLrov5nkuIDmi43nmoTmg4Xnu6rmsJvlm7TvvIjlpoIg8J+YjPCfjqfwn5iu4oCN8J+SqPCfmYLigI3ihpTvuI/wn6Wx77yJ44CCCi0g5Y+w6K+NIC8g6Ieq6KiA6Ieq6K+t55So5byV5Y+344CM44CN5YyF6LW35p2l77yb5Yqo5L2c5ZKM5Y+Z6L+w55u05o6l5YaZ77yM5LiN5Yqg5byV5Y+344CCCi0g5LiA6KGM5Y+q5om/6L295LiA5ouN77yb5Y+Z6L+w6KGM5Y+v5Lul5YaZ5b6X5pyJ6LSo5oSf77yI5LiA5Lik5Y+l77yJ77yM5L2G5LiN6KaB5Zyo5LiA6KGM6YeM5pei5YaZ5aSn5q615Yqo5L2c5Y+I5aGe5Y+w6K+N44CCCi0g5oC75YWxICoqMTIg5YiwIDE4IOihjCoq77yM56Gu5L+d5oqK5LiK6Z2i55qEIui1t+aJv+i9rOWQiCArIOS4reauteWwj+S6i+S7tiLpg73pk7rmu6HvvIzlhpnmiJDkuIDmrrXlrozmlbTnmoTmiI/jgIIKLSDkuI3opoHmoIfpopjjgIHkuI3opoHnvJblj7fjgIHkuI3opoEgSlNPTuOAgeS4jeimgeS7u+S9lemineWkluivtOaYju+8jOebtOaOpeS7juesrOS4gOihjOW8gOWni+OAggoKIyMjIOekuuS+i++8iOWBpei6q+aIv+aXtuaute+8jOS7heekuuaEj+agvOW8j+OAgei0qOaEn+S4jiLnp4HkuIvmgKrnnqzpl7Qi55qE5re35YWl5pa55byP77yM5Yir54Wn5oqE5YaF5a6577yJClvwn5qqXSDlpbnmi47nnYDljIXmjqjlvIDlgaXouqvmiL/nmoTnjrvnkoPpl6jvvIzlhrfmsJTmt7fnnYDmqaHog7blkozmsZflkbPkuIDkuIvmiZHlnKjohLjkuIrjgIIKW/CfkZ9dIOWcqOabtOiho+mVnOWJjei5suS4i+ezu+e0p+mei+W4pu+8jOaMh+WwluiDveaEn+WIsOmei+mdoue7t+i1t+eahOW8oOWKm+OAggpb8J+qnl0g6LW36Lqr556l6KeB6ZWc5a2Q77yM5LiL5oSP6K+G5pS25LqG5pS25LiL5be05pGG5LqG5Liq6Ieq5Lul5Li65b6I6YW355qE5ae/5Yq/77yM5Y+R546w5peB6L655pyJ5Lq656uL5Yi76KOF5L2c5Zyo5ouo5aS05Y+R44CCClvwn46kXSDogLPmnLrpmo/mnLrliLDpgqPpppbmrYzvvIzot5/nnYDlsI/lo7Dlk7zvvIzlia/mrYzkuIDkuIrlpLTnoLTkuobpn7PvvIzoh6rlt7HlhYjmsqHlv43kvY/nrJHlnLrjgIIKW/Cfj4NdIOi3keatpeacuuaVsOWtl+aFouaFoueIrOWIsOS4ieWFrOmHjO+8jOWRvOWQuOW8gOWni+WPkeeDq++8jOmineinkua4l+WHuue7huaxl+OAggpb8J+TsV0g5oOz5p+lIui3keWujOWkmuS5heiDveWQg+S4nOilvyLvvIzop6PplIHljbTliLfliLDnvqTph4zmnInkurrlj5HkuJHnhafvvIznm6/nnYDnnIvkuobljYrlpKnvvIzlv5jkuoboh6rlt7HopoHmkJzllaXjgIIKW/CfmKRdIOmalOWjgeWZqOaisOiiq+S6uuWNoOS6huWlveS5he+8jOWlueaGi+edgOawlOWGsuepuuawlOWwj+WjsOWSleWTneS6huS4gOWPpe+8jOWPiOiLpeaXoOWFtuS6i+WcsOWIq+W8gOiEuOOAggpb8J+rp10g5Yeg5YWs6YeM5ZCO5om2552A5oqK5omL5ZaY5rCU77yMVCDmgaTlkI7og4zlt7Lnu4/mtIfmub/kuobkuIDniYfjgIIKW/CfmrBdIOi1sOWIsOmlruawtOacuuWJje+8jOWHieawtOmhuuedgOWWieWSmeS4i+WOu++8jOaVtOS4quS6uuaJjeaFouaFouiQveWbnuWcsOmdouOAggoK546w5Zyo77yM5byA5aeL5ryU5Ye677yI55u05o6l6L6T5Ye677yM5LuO56ys5LiA6KGM6LW377yM5YaZ5LiA5q615pyJ5aS05pyJ5bC+44CB57Sn5omjJHtzbG90LmFjdGl2aXR5feOAgeWPiOa3t+i/m+S6hiB0YSDnp4HkuIvpgqPngrnmgKrlirLlhL/nmoTlrozmlbTlsI/liaflnLrvvInvvJpgOwp9CgovKiog5oqK5qih5Z6L6L6T5Ye655qE44CM5LiA6KGM5LiA5ouN44CN5paH5pys6Kej5p6Q5oiQIFRoZWF0ZXJMaW5lW13jgIIgKi8KZXhwb3J0IGZ1bmN0aW9uIHBhcnNlVGhlYXRlckxpbmVzKHJhdzogc3RyaW5nKTogVGhlYXRlckxpbmVbXSB7CiAgICBpZiAoIXJhdykgcmV0dXJuIFtdOwogICAgLy8g5Y675o6J5Y+v6IO955qE5Luj56CB5Zu05qCPCiAgICBjb25zdCBjbGVhbmVkID0gcmF3LnJlcGxhY2UoL15gYGBbYS16XSpccyovaSwgJycpLnJlcGxhY2UoL2BgYFxzKiQvaSwgJycpLnRyaW0oKTsKICAgIGNvbnN0IGxpbmVzOiBUaGVhdGVyTGluZVtdID0gW107CiAgICAvLyDmlrnmi6zlj7flrrnlv43lhagv5Y2K6KeS77yaW10g44CQ44CRCiAgICBjb25zdCB0YWdSZSA9IC9eXHMqW1xb44CQXVxzKiguKz8pXHMqW1xd44CRXVxzKiguKykkLzsKICAgIGZvciAoY29uc3QgcmF3TGluZSBvZiBjbGVhbmVkLnNwbGl0KCdcbicpKSB7CiAgICAgICAgY29uc3QgbGluZSA9IHJhd0xpbmUudHJpbSgpOwogICAgICAgIGlmICghbGluZSkgY29udGludWU7CiAgICAgICAgLy8g6Lez6L+H5a2k56uL55qE5qCH6aKYL+WIhumalOihjAogICAgICAgIGlmICgvXlst4oCUPSojXSskLy50ZXN0KGxpbmUpKSBjb250aW51ZTsKICAgICAgICBjb25zdCBtID0gbGluZS5tYXRjaCh0YWdSZSk7CiAgICAgICAgaWYgKG0gJiYgbVsyXS50cmltKCkpIHsKICAgICAgICAgICAgbGluZXMucHVzaCh7IGVtb3Rpb246IG1bMV0udHJpbSgpLnNsaWNlKDAsIDgpLCB0ZXh0OiBtWzJdLnRyaW0oKSB9KTsKICAgICAgICB9IGVsc2UgewogICAgICAgICAgICAvLyDmsqHluKbmsJvlm7TmoIfnrb7nmoTooYzkuZ/mlLbkuIvvvIzpgb/lhY3kuKLlhoXlrrkKICAgICAgICAgICAgbGluZXMucHVzaCh7IHRleHQ6IGxpbmUgfSk7CiAgICAgICAgfQogICAgfQogICAgcmV0dXJuIGxpbmVzOwp9CgovKioKICog5Li65p+Q5Liq5pe25q6155Sf5oiQ77yI5oiW6L+U5Zue5bey57yT5a2Y55qE77yJ5bCP5Ymn5Zy677yM5bm25YaZ5ZueIERC44CCCiAqIEBwYXJhbSBmb3JjZVJlZ2VuZXJhdGUg5Li6IHRydWUg5pe25peg6KeG57yT5a2Y6YeN5paw55Sf5oiQ77yI6YeN5ryU77yJ44CCCiAqIEByZXR1cm5zIOabtOaWsOWQjueahOaVtOS7vSBzY2hlZHVsZe+8iHNsb3QudGhlYXRlciDlt7LloavlhYXvvInvvJvlpLHotKXov5Tlm54gbnVsbOOAggogKi8KZXhwb3J0IGFzeW5jIGZ1bmN0aW9uIGdlbmVyYXRlU2xvdFRoZWF0ZXIoCiAgICBjaGFyOiBDaGFyYWN0ZXJQcm9maWxlLAogICAgdXNlclByb2ZpbGU6IFVzZXJQcm9maWxlLAogICAgc2NoZWR1bGU6IERhaWx5U2NoZWR1bGUsCiAgICBzbG90SW5kZXg6IG51bWJlciwKICAgIGFwaUNvbmZpZzogQXBpQ29uZmlnLAogICAgZm9yY2VSZWdlbmVyYXRlOiBib29sZWFuID0gZmFsc2UsCik6IFByb21pc2U8RGFpbHlTY2hlZHVsZSB8IG51bGw+IHsKICAgIGlmICghaXNTY2hlZHVsZUZlYXR1cmVPbihjaGFyKSkgcmV0dXJuIG51bGw7CiAgICBjb25zdCBzbG90ID0gc2NoZWR1bGUuc2xvdHNbc2xvdEluZGV4XTsKICAgIGlmICghc2xvdCkgcmV0dXJuIG51bGw7CgogICAgLy8g5ZG95Lit57yT5a2Y55u05o6l6L+U5Zue77yI6YeN55yL5LiN54OnIHRva2Vu77yJCiAgICBpZiAoIWZvcmNlUmVnZW5lcmF0ZSAmJiBzbG90LnRoZWF0ZXIgJiYgc2xvdC50aGVhdGVyLmxpbmVzLmxlbmd0aCA+IDApIHsKICAgICAgICByZXR1cm4gc2NoZWR1bGU7CiAgICB9CgogICAgY29uc3QgYmFzZUNvbnRleHQgPSBDb250ZXh0QnVpbGRlci5idWlsZENvcmVDb250ZXh0KGNoYXIsIHVzZXJQcm9maWxlLCB0cnVlKTsKICAgIGNvbnN0IGJhY2tkcm9wID0gcGlja05hcnJhdGl2ZUJhY2tkcm9wKHNjaGVkdWxlLCBzbG90KTsKICAgIGNvbnN0IHN0eWxlSGludCA9IHBpY2tTdHlsZUhpbnQoY2hhcik7CiAgICBjb25zdCBwcm9tcHQgPSBidWlsZFRoZWF0ZXJQcm9tcHQoYmFzZUNvbnRleHQsIGNoYXIsIHVzZXJQcm9maWxlLCBzbG90LCBiYWNrZHJvcCwgc3R5bGVIaW50KTsKCiAgICB0cnkgewogICAgICAgIGNvbnN0IHJlc3BvbnNlID0gYXdhaXQgZmV0Y2goYCR7YXBpQ29uZmlnLmJhc2VVcmwucmVwbGFjZSgvXC8rJC8sICcnKX0vY2hhdC9jb21wbGV0aW9uc2AsIHsKICAgICAgICAgICAgbWV0aG9kOiAnUE9TVCcsCiAgICAgICAgICAgIGhlYWRlcnM6IHsgJ0NvbnRlbnQtVHlwZSc6ICdhcHBsaWNhdGlvbi9qc29uJywgJ0F1dGhvcml6YXRpb24nOiBgQmVhcmVyICR7YXBpQ29uZmlnLmFwaUtleX1gIH0sCiAgICAgICAgICAgIGJvZHk6IEpTT04uc3RyaW5naWZ5KHsKICAgICAgICAgICAgICAgIG1vZGVsOiBhcGlDb25maWcubW9kZWwsCiAgICAgICAgICAgICAgICBtZXNzYWdlczogW3sgcm9sZTogJ3VzZXInLCBjb250ZW50OiBwcm9tcHQgfV0sCiAgICAgICAgICAgICAgICB0ZW1wZXJhdHVyZTogMC45LAogICAgICAgICAgICAgICAgLy8gMTLigJMxOCDooYzjgIHmr4/ooYzlj6/lhpnlvpfmnInotKjmhJ/vvIwyNjAwIOWuueaYk+aKiuacgOWQjuS4gOaLjeaIquaWre+8m+aUvuWuveWIsCA0NjAwIOeVmei2s+WwvuW3tOOAggogICAgICAgICAgICAgICAgbWF4X3Rva2VuczogNDYwMCwKICAgICAgICAgICAgfSksCiAgICAgICAgICAgIF9fc3VsbHlNZXRhOiB7IGFwcE5hbWU6ICfml6XnqIvns7vnu58nLCBjaGFySWQ6IGNoYXIuaWQsIGNoYXJOYW1lOiBjaGFyLm5hbWUsIHB1cnBvc2U6ICflsI/liaflnLrnlJ/miJAnIH0sCiAgICAgICAgfSBhcyBSZXF1ZXN0SW5pdCk7CgogICAgICAgIGlmICghcmVzcG9uc2Uub2spIHsKICAgICAgICAgICAgY29uc29sZS5lcnJvcignW1RoZWF0ZXJdIEFQSSBlcnJvcjonLCByZXNwb25zZS5zdGF0dXMpOwogICAgICAgICAgICByZXR1cm4gbnVsbDsKICAgICAgICB9CgogICAgICAgIGNvbnN0IGRhdGEgPSBhd2FpdCBzYWZlUmVzcG9uc2VKc29uKHJlc3BvbnNlKTsKICAgICAgICBjb25zdCBjb250ZW50ID0gZXh0cmFjdENvbnRlbnQoZGF0YSk7CiAgICAgICAgY29uc3QgbGluZXMgPSBwYXJzZVRoZWF0ZXJMaW5lcyhjb250ZW50KTsKICAgICAgICBpZiAobGluZXMubGVuZ3RoID09PSAwKSB7CiAgICAgICAgICAgIGNvbnNvbGUuZXJyb3IoJ1tUaGVhdGVyXSBHZW5lcmF0aW9uIGZhaWxlZDog5peg5rOV6Kej5p6Q5Ye65ryU5Ye66KGMOicsIGNvbnRlbnQuc2xpY2UoMCwgMjAwKSk7CiAgICAgICAgICAgIHJldHVybiBudWxsOwogICAgICAgIH0KCiAgICAgICAgY29uc3QgdGhlYXRlcjogU2xvdFRoZWF0ZXIgPSB7IGxpbmVzLCBnZW5lcmF0ZWRBdDogRGF0ZS5ub3coKSB9OwoKICAgICAgICAvLyDlhpnlm57lr7nlupQgc2xvdO+8iOS4jeWPr+WPmOabtOaWsO+8jOS/neaMgeWFtuS9mSBzbG90IOW8leeUqOeos+Wumu+8iQogICAgICAgIGNvbnN0IG5ld1Nsb3RzID0gc2NoZWR1bGUuc2xvdHMubWFwKChzLCBpKSA9PiAoaSA9PT0gc2xvdEluZGV4ID8geyAuLi5zLCB0aGVhdGVyIH0gOiBzKSk7CiAgICAgICAgY29uc3QgdXBkYXRlZDogRGFpbHlTY2hlZHVsZSA9IHsgLi4uc2NoZWR1bGUsIHNsb3RzOiBuZXdTbG90cyB9OwogICAgICAgIGF3YWl0IERCLnNhdmVEYWlseVNjaGVkdWxlKHVwZGF0ZWQpOwogICAgICAgIHJldHVybiB1cGRhdGVkOwogICAgfSBjYXRjaCAoZSkgewogICAgICAgIGNvbnNvbGUuZXJyb3IoJ1tUaGVhdGVyXSBHZW5lcmF0aW9uIGZhaWxlZDonLCBlKTsKICAgICAgICByZXR1cm4gbnVsbDsKICAgIH0KfQo=
+/**
+ * 日程小剧场（窥视演出）生成器。
+ *
+ * 设计：用户在日程卡上点某个「已过去 / 正在进行」时段的播放按钮，
+ * 以**第三人称「上帝视角」**生成角色在这个时间点的一小段行为演出 —— 角色完全
+ * 不知道自己被观看（纯纪录片式窥视），逐行播放，像看一段小短剧。
+ *
+ * 注入面与见面（DateApp）/ 日程对齐，复用同一批零件：
+ *   - 人设全量：ContextBuilder.buildCoreContext(char, user, true)
+ *   - 该时段的硬事实：activity / location / description
+ *   - 当天意识流底色：flowNarrative（按时段）或 slot.innerThought
+ *   - 情绪 buff：char.buffInjection
+ *   - 文风：复用见面侧 DATE_STYLE_PRESETS（取 char.dateStyleConfig 的风格，缺省电影感）
+ *
+ * 输出沿用见面的 VN「一行一拍」格式：每行 `[氛围] 文本`，解析成 TheaterLine[]，
+ * 缓存进 slot.theater，可反复重看，不重复烧 token。
+ */
+
+import { CharacterProfile, UserProfile, DailySchedule, ScheduleSlot, SlotTheater, TheaterLine } from '../types';
+import { ContextBuilder } from './context';
+import { DB } from './db';
+import { safeResponseJson, extractContent } from './safeApi';
+import { isScheduleFeatureOn, getFlowNarrativeKey } from './scheduleGenerator';
+import { DATE_STYLE_PRESETS } from './datePrompts';
+
+interface ApiConfig {
+    baseUrl: string;
+    apiKey: string;
+    model: string;
+}
+
+/** 根据 slot 的开始时间挑当天意识流底色：优先该时段独白，再退到 flowNarrative。 */
+function pickNarrativeBackdrop(schedule: DailySchedule, slot: ScheduleSlot): string {
+    if (slot.innerThought && slot.innerThought.trim()) return slot.innerThought.trim();
+    const hour = parseInt(slot.startTime.split(':')[0], 10);
+    const key = getFlowNarrativeKey(Number.isFinite(hour) ? hour : 12);
+    const fromFlow = schedule.flowNarrative?.[key];
+    return fromFlow && fromFlow.trim() ? fromFlow.trim() : '';
+}
+
+/** 取见面侧文风预设的一句话提示，作为小剧场的文风线索（缺省电影感）。 */
+function pickStyleHint(char: CharacterProfile): string {
+    const styleId = char.dateStyleConfig?.style || 'cinematic';
+    const preset = DATE_STYLE_PRESETS.find(p => p.id === styleId) || DATE_STYLE_PRESETS[0];
+    return preset.peekHint;
+}
+
+function buildTheaterPrompt(
+    baseContext: string,
+    char: CharacterProfile,
+    user: UserProfile,
+    slot: ScheduleSlot,
+    backdrop: string,
+    styleHint: string,
+): string {
+    const uname = user?.name || '对方';
+    const where = slot.location ? `（地点：${slot.location}）` : '';
+    const desc = slot.description ? `\n这个时段日程上的描述是：${slot.description}` : '';
+    const backdropBlock = backdrop
+        ? `\n\n这个时段，「${char.name}」心里盘旋的念头大致是这样（作为情绪底色，别照抄，要化进行为里）：\n${backdrop}`
+        : '';
+    const buffBlock = (isScheduleFeatureOn(char) && char.emotionConfig?.enabled && char.buffInjection)
+        ? `\n\n${char.buffInjection}`
+        : '';
+
+    // 「私底下的一面」是这段戏好不好看的关键：趁没人时 ta 最真实、最放松、甚至有点蠢有点怪的样子，
+    // 多数时候跟 user 无关。生活系角色（有物理生活）尤其要往里混怪动作 / 怪念头；意识系侧重内心怪念头。
+    const isLifestyle = (char.scheduleStyle || 'lifestyle') === 'lifestyle';
+    const quirkBlock = isLifestyle
+        ? `
+### 最重要：演出 ta 私底下、没人看见的那一面（这段戏好不好看全看这个）
+这**不是**「${char.name} 在思念 ${uname}」的戏——**绝大多数时候跟 ${uname} 一点关系都没有**。这是趁四下无人时，ta 独处时最真实、最放松、甚至有点蠢、有点怪、有点可爱的样子。要**非常具体、非常细节**地抓住那些"啊原来 ta 私底下是这样"的瞬间，让看的人觉得"太有意思了 / 太真实了 / 这也太 ta 了"。
+
+**往这段戏里自然混进 1～3 个这类私下小动作 / 小念头**（贴着 ta 的人设和此刻在做的事去发挥，别照搬下面的，要长出 ta 自己的版本）：
+- 哼歌哼到副歌破了音，自己先愣一下，左右瞄一眼有没有人听见
+- 突然好奇自己两只胳膊是不是一样长，伸直了认真比划
+- 解锁手机本想查个正经东西，结果刷到群里有人在水，看了五分钟忘了自己要干嘛
+- 路过镜子 / 黑屏，偷偷凹个表情、摆个自以为很帅的 pose，发现旁边有人立刻装没事
+- 想给 ${uname} 挑个礼物，逛着逛着看到个自己更想要的，盯着犹豫半天，有点不好意思
+- 嫌自家宠物碍事推了一把，反被咬 / 被瞪，瞬间怂了开始讨好
+- 对着不顺心的小事一个人突然小崩溃，憋着劲低吼、跟空气吵两句，吼完若无其事
+- 闲得无聊，假装自己是模拟人生 / 游戏里的角色，给自己配旁白、脑补状态栏
+- 偷吃 / 偷懒 / 拖延被自己抓包，做贼心虚地找补
+- 跟某个日常小物较真半天（撕不齐的胶带、合不上的抽屉、转不顺的笔）
+- 自言自语演一段内心小剧场，一人分饰两角
+…这些只是方向。要**贴着 ta 的性格和当前场景**去想 ta 会怎样犯怪、犯蠢、犯可爱，越具体越出人意料越好。这些怪瞬间要**混在当前主题行为（${slot.activity}）里**，不是另起炉灶。
+`
+        : `
+### 重点：演出 ta 私底下、没人看见的那一面
+这段戏**多数时候跟 ${uname} 无关**。趁没人时，把 ta 独处时真实、私密、甚至有点怪的内心活动写细：忽然冒出来的奇怪念头、对某件小事莫名的执念、自我吐槽 / 自我和解、一人分饰两角的内心小剧场、被一段回忆突然击中……要**非常具体**，让人觉得"原来 ta 私下是这样"。这些都要**贴着当前主题（${slot.activity}）自然流淌**。
+`;
+
+    return `${baseContext}
+
+## Task: 生成一段「窥视小剧场」
+
+现在，「${uname}」正在悄悄窥视「${char.name}」此刻的生活片段。
+
+**时间点**：${slot.startTime}，「${char.name}」正在「${slot.activity}」${where}。${desc}${backdropBlock}${buffBlock}
+
+请你以**第三人称·上帝视角**，演出「${char.name}」在这个时间点的一段完整生活片段 —— 像一段被偷偷拍下、有头有尾的生活纪录短片。不是几个零散镜头，而是一**段戏**：有进入、有展开、中间真的**发生一件具体的小事**、最后有个收束。
+
+### 铁律（非常重要）
+1. **角色完全不知道自己被观看**。绝对不要让 ta 看镜头、不要对「${uname}」说话、不要意识到有人在看。这是偷看，不是表演给谁看。
+2. **第三人称叙述**：用「${char.name}」或 ta/她/他 指代角色，不要用"我"。
+3. **这不是给 ${uname} 看的戏，也不一定跟 ${uname} 有关**。${uname} 最多作为 ta 脑子里偶尔闪过的一个念头出现（想起某句话之类），**也完全可以整段都不出现**；绝不能让 ${uname} 在场、成为主语或这段戏的焦点。
+4. **紧扣这个时段在做的事**（${slot.activity}）：写 ta 具体的手在做什么、身体在哪、环境什么样，调动多种感官（看到 / 听到 / 闻到 / 触感 / 温度 / 光线），有具体的物件和动作，绝不要写成抽象的"在休息""在工作"。
+5. 文风线索：${styleHint}。
+${quirkBlock}
+### 这段戏要"有内容"（重点）
+- **有结构（起承转合）**：开头交代 ta 此刻所处的场景与状态；中段让事情往前推进；**中间一定要发生一个具体的小事件或小转折**（手机响了 / 东西打翻了 / 窗外一阵动静 / 一段记忆突然涌上来 / 临时改主意 / 一个不期而至的小插曲），让这段戏有"发生了什么"而不只是"在干什么"；结尾给一个余韵收束。
+- **有情绪起伏**：从某个状态，被那个小事件牵动，到落定。别全程一个调子。
+- **有细节有画面**：具体到一个动作、一个表情、一件物品、一句自言自语，让人能"看见"。
+- **像真的过了一段时间**：几分钟里有节奏、有停顿、有快慢。
+
+### 输出格式（严格遵守「一行一拍」）
+- 每一行是一个画面 / 一个动作 / 一句台词（独白），**单独占一行**。
+- **每一行都以 \`[氛围]\` 开头**，方括号里放**一个 emoji**，表示这一拍的情绪氛围（如 😌🎧😮‍💨🙂‍↔️🥱）。
+- 台词 / 自言自语用引号「」包起来；动作和叙述直接写，不加引号。
+- 一行只承载一拍；叙述行可以写得有质感（一两句），但不要在一行里既写大段动作又塞台词。
+- 总共 **12 到 18 行**，确保把上面的"起承转合 + 中段小事件"都铺满，写成一段完整的戏。
+- 不要标题、不要编号、不要 JSON、不要任何额外说明，直接从第一行开始。
+
+### 示例（健身房时段，仅示意格式、质感与"私下怪瞬间"的混入方式，别照抄内容）
+[🚪] 她拎着包推开健身房的玻璃门，冷气混着橡胶和汗味一下扑在脸上。
+[👟] 在更衣镜前蹲下系紧鞋带，指尖能感到鞋面绷起的张力。
+[🪞] 起身瞥见镜子，下意识收了收下巴摆了个自以为很酷的姿势，发现旁边有人立刻装作在拨头发。
+[🎤] 耳机随机到那首歌，跟着小声哼，副歌一上头破了音，自己先没忍住笑场。
+[🏃] 跑步机数字慢慢爬到三公里，呼吸开始发烫，额角渗出细汗。
+[📱] 想查"跑完多久能吃东西"，解锁却刷到群里有人发丑照，盯着看了半天，忘了自己要搜啥。
+[😤] 隔壁器械被人占了好久，她憋着气冲空气小声咕哝了一句，又若无其事地别开脸。
+[🫧] 几公里后扶着把手喘气，T 恤后背已经洇湿了一片。
+[🚰] 走到饮水机前，凉水顺着喉咙下去，整个人才慢慢落回地面。
+
+现在，开始演出（直接输出，从第一行起，写一段有头有尾、紧扣${slot.activity}、又混进了 ta 私下那点怪劲儿的完整小剧场）：`;
+}
+
+/** 把模型输出的「一行一拍」文本解析成 TheaterLine[]。 */
+export function parseTheaterLines(raw: string): TheaterLine[] {
+    if (!raw) return [];
+    // 去掉可能的代码围栏
+    const cleaned = raw.replace(/^```[a-z]*\s*/i, '').replace(/```\s*$/i, '').trim();
+    const lines: TheaterLine[] = [];
+    // 方括号容忍全/半角：[] 【】
+    const tagRe = /^\s*[\[【]\s*(.+?)\s*[\]】]\s*(.+)$/;
+    for (const rawLine of cleaned.split('\n')) {
+        const line = rawLine.trim();
+        if (!line) continue;
+        // 跳过孤立的标题/分隔行
+        if (/^[-—=*#]+$/.test(line)) continue;
+        const m = line.match(tagRe);
+        if (m && m[2].trim()) {
+            lines.push({ emotion: m[1].trim().slice(0, 8), text: m[2].trim() });
+        } else {
+            // 没带氛围标签的行也收下，避免丢内容
+            lines.push({ text: line });
+        }
+    }
+    return lines;
+}
+
+/**
+ * 为某个时段生成（或返回已缓存的）小剧场，并写回 DB。
+ * @param forceRegenerate 为 true 时无视缓存重新生成（重演）。
+ * @returns 更新后的整份 schedule（slot.theater 已填充）；失败返回 null。
+ */
+export async function generateSlotTheater(
+    char: CharacterProfile,
+    userProfile: UserProfile,
+    schedule: DailySchedule,
+    slotIndex: number,
+    apiConfig: ApiConfig,
+    forceRegenerate: boolean = false,
+): Promise<DailySchedule | null> {
+    if (!isScheduleFeatureOn(char)) return null;
+    const slot = schedule.slots[slotIndex];
+    if (!slot) return null;
+
+    // 命中缓存直接返回（重看不烧 token）
+    if (!forceRegenerate && slot.theater && slot.theater.lines.length > 0) {
+        return schedule;
+    }
+
+    const baseContext = ContextBuilder.buildCoreContext(char, userProfile, true);
+    const backdrop = pickNarrativeBackdrop(schedule, slot);
+    const styleHint = pickStyleHint(char);
+    const prompt = buildTheaterPrompt(baseContext, char, userProfile, slot, backdrop, styleHint);
+
+    try {
+        const response = await fetch(`${apiConfig.baseUrl.replace(/\/+$/, '')}/chat/completions`, {
+            method: 'POST',
+            headers: { 'Content-Type': 'application/json', 'Authorization': `Bearer ${apiConfig.apiKey}` },
+            body: JSON.stringify({
+                model: apiConfig.model,
+                messages: [{ role: 'user', content: prompt }],
+                temperature: 0.9,
+                // 12–18 行、每行可写得有质感，2600 容易把最后一拍截断；放宽到 4600 留足尾巴。
+                max_tokens: 4600,
+            }),
+            __sullyMeta: { appName: '日程系统', charId: char.id, charName: char.name, purpose: '小剧场生成' },
+        } as RequestInit);
+
+        if (!response.ok) {
+            console.error('[Theater] API error:', response.status);
+            return null;
+        }
+
+        const data = await safeResponseJson(response);
+        const content = extractContent(data);
+        const lines = parseTheaterLines(content);
+        if (lines.length === 0) {
+            console.error('[Theater] Generation failed: 无法解析出演出行:', content.slice(0, 200));
+            return null;
+        }
+
+        const theater: SlotTheater = { lines, generatedAt: Date.now() };
+
+        // 写回对应 slot（不可变更新，保持其余 slot 引用稳定）
+        const newSlots = schedule.slots.map((s, i) => (i === slotIndex ? { ...s, theater } : s));
+        const updated: DailySchedule = { ...schedule, slots: newSlots };
+        await DB.saveDailySchedule(updated);
+        return updated;
+    } catch (e) {
+        console.error('[Theater] Generation failed:', e);
+        return null;
+    }
+}

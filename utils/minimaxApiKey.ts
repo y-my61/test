@@ -1,1 +1,9 @@
-aW1wb3J0IHsgQVBJQ29uZmlnIH0gZnJvbSAnLi4vdHlwZXMnOwoKZXhwb3J0IGNvbnN0IG5vcm1hbGl6ZUFwaUtleSA9IChyYXc6IHN0cmluZyk6IHN0cmluZyA9PiByYXcudHJpbSgpLnJlcGxhY2UoL15CZWFyZXJccysvaSwgJycpLnRyaW0oKTsKCmV4cG9ydCBjb25zdCByZXNvbHZlTWluaU1heEFwaUtleSA9IChhcGlDb25maWc6IEFQSUNvbmZpZyk6IHN0cmluZyA9PiB7CiAgY29uc3QgZGVkaWNhdGVkID0gbm9ybWFsaXplQXBpS2V5KGFwaUNvbmZpZy5taW5pbWF4QXBpS2V5IHx8ICcnKTsKICBpZiAoZGVkaWNhdGVkKSByZXR1cm4gZGVkaWNhdGVkOwogIHJldHVybiBub3JtYWxpemVBcGlLZXkoYXBpQ29uZmlnLmFwaUtleSB8fCAnJyk7Cn07Cg==
+import { APIConfig } from '../types';
+
+export const normalizeApiKey = (raw: string): string => raw.trim().replace(/^Bearer\s+/i, '').trim();
+
+export const resolveMiniMaxApiKey = (apiConfig: APIConfig): string => {
+  const dedicated = normalizeApiKey(apiConfig.minimaxApiKey || '');
+  if (dedicated) return dedicated;
+  return normalizeApiKey(apiConfig.apiKey || '');
+};

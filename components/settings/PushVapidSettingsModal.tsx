@@ -1,1 +1,249 @@
-aW1wb3J0IFJlYWN0LCB7IHVzZUVmZmVjdCwgdXNlU3RhdGUgfSBmcm9tICdyZWFjdCc7CmltcG9ydCBNb2RhbCBmcm9tICcuLi9vcy9Nb2RhbCc7CmltcG9ydCB7IHVzZU9TIH0gZnJvbSAnLi4vLi4vY29udGV4dC9PU0NvbnRleHQnOwppbXBvcnQgeyBnZW5lcmF0ZVZhcGlkS2V5UGFpciB9IGZyb20gJy4uLy4uL3V0aWxzL3ZhcGlkR2VuJzsKaW1wb3J0IHsgbG9hZFB1c2hWYXBpZCwgc2F2ZVB1c2hWYXBpZCwgY2xlYXJQdXNoVmFwaWQgfSBmcm9tICcuLi8uLi91dGlscy9wdXNoVmFwaWQnOwoKaW50ZXJmYWNlIFB1c2hWYXBpZFNldHRpbmdzTW9kYWxQcm9wcyB7CiAgb3BlbjogYm9vbGVhbjsKICBvbkNsb3NlOiAoKSA9PiB2b2lkOwp9CgovKioKICog5o6o6YCB5Yet5o2uIChWQVBJRCkg6YWN572u6Z2i5p2/LgogKgogKiDmir3lh7rmnaXljZXni6znrqHnkIbmmK/lm6DkuLogUHJvYWN0aXZlIFB1c2gg5ZKMIEluc3RhbnQgUHVzaCDlhbHnlKjkuIDku70gVkFQSUQg4oCUIOS4pOi+uQogKiDnlKjkuI3lkIznmoQga2V5IOaXtuS8muWPjeWkjSB1bnN1YnNjcmliZSDmiqLlkIzkuIDkuKogcHVzaE1hbmFnZXIg6K6i6ZiFLiDmioogVUkg5o+Q5YiwCiAqIOmhtuWxguWQjiwg55So5oi35LiA55y855yL5Yiw6L+Z5piv5YWo5bGA5o6o6YCB5Yet5o2uLCDkuI3kvJrlho3ku6XkuLrlroPlsZ7kuo4gSW5zdGFudCBQdXNoLgogKgogKiDnp4HpkqXkuZ/lrZggbG9jYWxTdG9yYWdlIOaWueS+v+WkjeWItuWIsCBDRiBXb3JrZXIgZW52LCDov5nph4zkuI3lvZPmiJDkuIDmrKHmgKflr4bpkqXlpITnkIYuCiAqLwpleHBvcnQgY29uc3QgUHVzaFZhcGlkU2V0dGluZ3NNb2RhbDogUmVhY3QuRkM8UHVzaFZhcGlkU2V0dGluZ3NNb2RhbFByb3BzPiA9ICh7IG9wZW4sIG9uQ2xvc2UgfSkgPT4gewogIGNvbnN0IHsgYWRkVG9hc3QgfSA9IHVzZU9TKCk7CgogIGNvbnN0IFtwdWJsaWNLZXksIHNldFB1YmxpY0tleV0gPSB1c2VTdGF0ZSgnJyk7CiAgY29uc3QgW3ByaXZhdGVLZXksIHNldFByaXZhdGVLZXldID0gdXNlU3RhdGUoJycpOwogIGNvbnN0IFtzaG93UHJpdmF0ZUtleSwgc2V0U2hvd1ByaXZhdGVLZXldID0gdXNlU3RhdGUoZmFsc2UpOwogIGNvbnN0IFtnZW5lcmF0aW5nLCBzZXRHZW5lcmF0aW5nXSA9IHVzZVN0YXRlKGZhbHNlKTsKCiAgdXNlRWZmZWN0KCgpID0+IHsKICAgIGlmICghb3BlbikgcmV0dXJuOwogICAgY29uc3QgdiA9IGxvYWRQdXNoVmFwaWQoKTsKICAgIHNldFB1YmxpY0tleSh2LnZhcGlkUHVibGljS2V5KTsKICAgIHNldFByaXZhdGVLZXkodi52YXBpZFByaXZhdGVLZXkpOwogICAgc2V0U2hvd1ByaXZhdGVLZXkoZmFsc2UpOwogIH0sIFtvcGVuXSk7CgogIGNvbnN0IHBlcnNpc3QgPSAocHViOiBzdHJpbmcsIHByaXY6IHN0cmluZykgPT4gewogICAgc2F2ZVB1c2hWYXBpZCh7IHZhcGlkUHVibGljS2V5OiBwdWIsIHZhcGlkUHJpdmF0ZUtleTogcHJpdiB9KTsKICB9OwoKICBjb25zdCBoYW5kbGVHZW5lcmF0ZSA9IGFzeW5jICgpID0+IHsKICAgIHNldEdlbmVyYXRpbmcodHJ1ZSk7CiAgICB0cnkgewogICAgICBjb25zdCBrcCA9IGF3YWl0IGdlbmVyYXRlVmFwaWRLZXlQYWlyKCk7CiAgICAgIHNldFB1YmxpY0tleShrcC5wdWJsaWNLZXkpOwogICAgICBzZXRQcml2YXRlS2V5KGtwLnByaXZhdGVLZXkpOwogICAgICBwZXJzaXN0KGtwLnB1YmxpY0tleSwga3AucHJpdmF0ZUtleSk7CiAgICAgIHNldFNob3dQcml2YXRlS2V5KHRydWUpOwogICAgICBhZGRUb2FzdCgn5bey55Sf5oiQ5paw55qEIFZBUElEIOWvhumSpeWvuScsICdzdWNjZXNzJyk7CiAgICB9IGNhdGNoIChlKSB7CiAgICAgIGNvbnN0IGVyciA9IGUgYXMgeyBtZXNzYWdlPzogc3RyaW5nIH0gfCBudWxsOwogICAgICBhZGRUb2FzdChlcnI/Lm1lc3NhZ2UgPz8gJ+eUn+aIkOWksei0pScsICdlcnJvcicpOwogICAgfSBmaW5hbGx5IHsKICAgICAgc2V0R2VuZXJhdGluZyhmYWxzZSk7CiAgICB9CiAgfTsKCiAgY29uc3QgaGFuZGxlQ2xlYXIgPSAoKSA9PiB7CiAgICBpZiAoIWNvbmZpcm0oJ+ehruWumua4heepuiBWQVBJRCDlr4bpkqXlr7nvvJ9Qcm9hY3RpdmUgLyBJbnN0YW50IFB1c2gg6YO95Lya56uL5Y2z5aSx5pWI77yM5LiL5qyh6K6i6ZiF6ZyA6KaB6YeN5bu644CCJykpIHJldHVybjsKICAgIGNsZWFyUHVzaFZhcGlkKCk7CiAgICBzZXRQdWJsaWNLZXkoJycpOwogICAgc2V0UHJpdmF0ZUtleSgnJyk7CiAgICBhZGRUb2FzdCgnVkFQSUQg5bey5riF56m6JywgJ3N1Y2Nlc3MnKTsKICB9OwoKICBjb25zdCBoYW5kbGVDb3B5UHVibGljS2V5ID0gYXN5bmMgKCkgPT4gewogICAgaWYgKCFwdWJsaWNLZXkpIHJldHVybjsKICAgIGF3YWl0IG5hdmlnYXRvci5jbGlwYm9hcmQud3JpdGVUZXh0KHB1YmxpY0tleSk7CiAgICBhZGRUb2FzdCgn5YWs6ZKl5bey5aSN5Yi2JywgJ3N1Y2Nlc3MnKTsKICB9OwoKICBjb25zdCBoYW5kbGVDb3B5UHJpdmF0ZUtleSA9IGFzeW5jICgpID0+IHsKICAgIGlmICghcHJpdmF0ZUtleSkgewogICAgICBhZGRUb2FzdCgn56eB6ZKl5bCa5pyq55Sf5oiQJywgJ2Vycm9yJyk7CiAgICAgIHJldHVybjsKICAgIH0KICAgIGF3YWl0IG5hdmlnYXRvci5jbGlwYm9hcmQud3JpdGVUZXh0KHByaXZhdGVLZXkpOwogICAgYWRkVG9hc3QoJ+engemSpeW3suWkjeWIticsICdzdWNjZXNzJyk7CiAgfTsKCiAgY29uc3QgaGFuZGxlQ29weUVudiA9IGFzeW5jICgpID0+IHsKICAgIGxldCBwdWIgPSBwdWJsaWNLZXkudHJpbSgpOwogICAgbGV0IHByaXYgPSBwcml2YXRlS2V5LnRyaW0oKTsKICAgIGlmICghcHViIHx8ICFwcml2KSB7CiAgICAgIGF3YWl0IGhhbmRsZUdlbmVyYXRlKCk7CiAgICAgIGNvbnN0IHYgPSBsb2FkUHVzaFZhcGlkKCk7CiAgICAgIHB1YiA9IHYudmFwaWRQdWJsaWNLZXk7CiAgICAgIHByaXYgPSB2LnZhcGlkUHJpdmF0ZUtleTsKICAgICAgaWYgKCFwdWIgfHwgIXByaXYpIHJldHVybjsKICAgIH0KICAgIGNvbnN0IGxpbmVzID0gWwogICAgICBgVkFQSURfUFVCTElDX0tFWT0ke3B1Yn1gLAogICAgICBgVkFQSURfUFJJVkFURV9LRVk9JHtwcml2fWAsCiAgICAgIGAjIOWPr+mAie+8mmAsCiAgICAgIGAjIFZBUElEX0VNQUlMPW1haWx0bzp5b3VAZXhhbXBsZS5jb21gLAogICAgXTsKICAgIGF3YWl0IG5hdmlnYXRvci5jbGlwYm9hcmQud3JpdGVUZXh0KGxpbmVzLmpvaW4oJ1xuJykpOwogICAgYWRkVG9hc3QoJ2VudiDlt7LlpI3liLbvvIjlkKvnnJ/lrp7lr4bpkqXvvIknLCAnc3VjY2VzcycpOwogIH07CgogIGNvbnN0IGhhbmRsZVNhdmUgPSAoKSA9PiB7CiAgICBwZXJzaXN0KHB1YmxpY0tleS50cmltKCksIHByaXZhdGVLZXkudHJpbSgpKTsKICAgIGFkZFRvYXN0KCfmjqjpgIHlh63mja7lt7Lkv53lrZgnLCAnc3VjY2VzcycpOwogICAgb25DbG9zZSgpOwogIH07CgogIGNvbnN0IG1hc2tlZFByaXZhdGVLZXkgPSBwcml2YXRlS2V5CiAgICA/IHByaXZhdGVLZXkuc2xpY2UoMCwgNCkgKyAn4oCiJy5yZXBlYXQoTWF0aC5tYXgoOCwgcHJpdmF0ZUtleS5sZW5ndGggLSA4KSkgKyBwcml2YXRlS2V5LnNsaWNlKC00KQogICAgOiAnJzsKCiAgcmV0dXJuICgKICAgIDxNb2RhbAogICAgICBpc09wZW49e29wZW59CiAgICAgIHRpdGxlPSLmjqjpgIHlh63mja4gKFZBUElEKSIKICAgICAgb25DbG9zZT17b25DbG9zZX0KICAgICAgZm9vdGVyPXsKICAgICAgICA8ZGl2IGNsYXNzTmFtZT0iZmxleCBnYXAtMiB3LWZ1bGwiPgogICAgICAgICAgPGJ1dHRvbgogICAgICAgICAgICB0eXBlPSJidXR0b24iCiAgICAgICAgICAgIG9uQ2xpY2s9e29uQ2xvc2V9CiAgICAgICAgICAgIGNsYXNzTmFtZT0iZmxleC0xIHB5LTMgYmctc2xhdGUtMTAwIHRleHQtc2xhdGUtNjAwIGZvbnQtYm9sZCByb3VuZGVkLTJ4bCB0ZXh0LXNtIgogICAgICAgICAgPgogICAgICAgICAgICDlj5bmtogKICAgICAgICAgIDwvYnV0dG9uPgogICAgICAgICAgPGJ1dHRvbgogICAgICAgICAgICB0eXBlPSJidXR0b24iCiAgICAgICAgICAgIG9uQ2xpY2s9e2hhbmRsZVNhdmV9CiAgICAgICAgICAgIGNsYXNzTmFtZT0iZmxleC0xIHB5LTMgYmctaW5kaWdvLTUwMCB0ZXh0LXdoaXRlIGZvbnQtYm9sZCByb3VuZGVkLTJ4bCBzaGFkb3ctbGcgc2hhZG93LWluZGlnby0yMDAgdGV4dC1zbSIKICAgICAgICAgID4KICAgICAgICAgICAg5L+d5a2YCiAgICAgICAgICA8L2J1dHRvbj4KICAgICAgICA8L2Rpdj4KICAgICAgfQogICAgPgogICAgICA8ZGl2IGNsYXNzTmFtZT0ic3BhY2UteS01IHRleHQtc20iPgoKICAgICAgICA8ZGl2IGNsYXNzTmFtZT0iYmctYW1iZXItNTAgYm9yZGVyIGJvcmRlci1hbWJlci0yMDAgcm91bmRlZC0yeGwgcC0zIHRleHQtWzExcHhdIHRleHQtYW1iZXItODAwIGxlYWRpbmctcmVsYXhlZCI+CiAgICAgICAgICA8cCBjbGFzc05hbWU9ImZvbnQtYm9sZCBtYi0xIj7imqAg5LiA5Lu9IFZBUElELCDkuKTkuKrnlKjms5U8L3A+CiAgICAgICAgICA8cD4KICAgICAgICAgICAg5rWP6KeI5Zmo6K6i6ZiFIHB1c2gg55SoPGI+5YWs6ZKlPC9iPjsgV29ya2VyIOetvuWQjSBwdXNoIOeUqDxiPuengemSpTwvYj4uCiAgICAgICAgICAgIFByb2FjdGl2ZSBQdXNoIOWSjCBJbnN0YW50IFB1c2ggPGI+6YO95LuO6L+Z6YeM6K+75YWs6ZKlPC9iPiDigJTigJQKICAgICAgICAgICAg5Lik6L655YWs6ZKl5LiN5LiA6Ie05Lya5Y+N5aSNIHVuc3Vic2NyaWJlIOaKouWQjOS4gOS4quiuoumYhSwg5pivICLmjqjpgIHphY3pop3msqHmjonkvYbmmK/mlLbkuI3liLDpgJrnn6UiIOeahOW4uOingeWOn+WboC4KICAgICAgICAgIDwvcD4KICAgICAgICAgIDxwIGNsYXNzTmFtZT0ibXQtMSI+CiAgICAgICAgICAgIOeUn+aIkCAvIOaUueS6huS5i+WQjiwg5L2g55qEIENGIFdvcmtlciBlbnYgKDxjb2RlPlZBUElEX1BVQkxJQ19LRVk8L2NvZGU+ICsgPGNvZGU+VkFQSURfUFJJVkFURV9LRVk8L2NvZGU+KSDkuZ/opoHlkIzmraXmm7TmlrAsIOWQpuWImeetvuWQjeagoemqjOS8muWksei0pS4KICAgICAgICAgIDwvcD4KICAgICAgICA8L2Rpdj4KCiAgICAgICAgey8qIOWFrOmSpSAqL30KICAgICAgICA8ZGl2IGNsYXNzTmFtZT0iYmctc2xhdGUtNTAgcm91bmRlZC0yeGwgcC00IHNwYWNlLXktMiI+CiAgICAgICAgICA8ZGl2IGNsYXNzTmFtZT0iZmxleCBpdGVtcy1jZW50ZXIganVzdGlmeS1iZXR3ZWVuIj4KICAgICAgICAgICAgPGxhYmVsIGNsYXNzTmFtZT0idGV4dC1bMTFweF0gdGV4dC1zbGF0ZS01MDAgZm9udC1tZWRpdW0iPlZBUElEIOWFrOmSpTwvbGFiZWw+CiAgICAgICAgICAgIHtwdWJsaWNLZXkgJiYgKAogICAgICAgICAgICAgIDxidXR0b24KICAgICAgICAgICAgICAgIHR5cGU9ImJ1dHRvbiIKICAgICAgICAgICAgICAgIG9uQ2xpY2s9eygpID0+IHZvaWQgaGFuZGxlQ29weVB1YmxpY0tleSgpfQogICAgICAgICAgICAgICAgY2xhc3NOYW1lPSJ0ZXh0LVsxMXB4XSB0ZXh0LXNsYXRlLTUwMCBob3Zlcjp0ZXh0LXNsYXRlLTcwMCBmb250LW1lZGl1bSIKICAgICAgICAgICAgICA+CiAgICAgICAgICAgICAgICDlpI3liLYKICAgICAgICAgICAgICA8L2J1dHRvbj4KICAgICAgICAgICAgKX0KICAgICAgICAgIDwvZGl2PgogICAgICAgICAgPGlucHV0CiAgICAgICAgICAgIHR5cGU9InRleHQiCiAgICAgICAgICAgIHZhbHVlPXtwdWJsaWNLZXl9CiAgICAgICAgICAgIG9uQ2hhbmdlPXsoZSkgPT4gc2V0UHVibGljS2V5KGUudGFyZ2V0LnZhbHVlKX0KICAgICAgICAgICAgcGxhY2Vob2xkZXI9IkJB4oCm77yI54K55LiL5pa544CM55Sf5oiQ5paw5a+G6ZKl5a+544CN6Ieq5Yqo55Sf5oiQ77yJIgogICAgICAgICAgICBjbGFzc05hbWU9InctZnVsbCB0ZXh0LVsxMXB4XSBmb250LW1vbm8gYmctd2hpdGUgYm9yZGVyIGJvcmRlci1zbGF0ZS0yMDAgcm91bmRlZC14bCBweC0zIHB5LTIgZm9jdXM6b3V0bGluZS1ub25lIGZvY3VzOmJvcmRlci1pbmRpZ28tNDAwIgogICAgICAgICAgLz4KICAgICAgICA8L2Rpdj4KCiAgICAgICAgey8qIOengemSpSAqL30KICAgICAgICA8ZGl2IGNsYXNzTmFtZT0iYmctc2xhdGUtNTAgcm91bmRlZC0yeGwgcC00IHNwYWNlLXktMiI+CiAgICAgICAgICA8ZGl2IGNsYXNzTmFtZT0iZmxleCBpdGVtcy1jZW50ZXIganVzdGlmeS1iZXR3ZWVuIj4KICAgICAgICAgICAgPGxhYmVsIGNsYXNzTmFtZT0idGV4dC1bMTFweF0gdGV4dC1zbGF0ZS01MDAgZm9udC1tZWRpdW0iPlZBUElEIOengemSpTwvbGFiZWw+CiAgICAgICAgICAgIDxkaXYgY2xhc3NOYW1lPSJmbGV4IGl0ZW1zLWNlbnRlciBnYXAtMyI+CiAgICAgICAgICAgICAge3ByaXZhdGVLZXkgJiYgKAogICAgICAgICAgICAgICAgPD4KICAgICAgICAgICAgICAgICAgPGJ1dHRvbgogICAgICAgICAgICAgICAgICAgIHR5cGU9ImJ1dHRvbiIKICAgICAgICAgICAgICAgICAgICBvbkNsaWNrPXsoKSA9PiBzZXRTaG93UHJpdmF0ZUtleSgocykgPT4gIXMpfQogICAgICAgICAgICAgICAgICAgIGNsYXNzTmFtZT0idGV4dC1bMTFweF0gdGV4dC1zbGF0ZS01MDAgaG92ZXI6dGV4dC1zbGF0ZS03MDAgZm9udC1tZWRpdW0iCiAgICAgICAgICAgICAgICAgID4KICAgICAgICAgICAgICAgICAgICB7c2hvd1ByaXZhdGVLZXkgPyAn6ZqQ6JePJyA6ICfmmL7npLonfQogICAgICAgICAgICAgICAgICA8L2J1dHRvbj4KICAgICAgICAgICAgICAgICAgPGJ1dHRvbgogICAgICAgICAgICAgICAgICAgIHR5cGU9ImJ1dHRvbiIKICAgICAgICAgICAgICAgICAgICBvbkNsaWNrPXsoKSA9PiB2b2lkIGhhbmRsZUNvcHlQcml2YXRlS2V5KCl9CiAgICAgICAgICAgICAgICAgICAgY2xhc3NOYW1lPSJ0ZXh0LVsxMXB4XSB0ZXh0LWluZGlnby01MDAgaG92ZXI6dGV4dC1pbmRpZ28tNjAwIGZvbnQtbWVkaXVtIgogICAgICAgICAgICAgICAgICA+CiAgICAgICAgICAgICAgICAgICAg5aSN5Yi2CiAgICAgICAgICAgICAgICAgIDwvYnV0dG9uPgogICAgICAgICAgICAgICAgPC8+CiAgICAgICAgICAgICAgKX0KICAgICAgICAgICAgPC9kaXY+CiAgICAgICAgICA8L2Rpdj4KICAgICAgICAgIHtzaG93UHJpdmF0ZUtleSA/ICgKICAgICAgICAgICAgPHRleHRhcmVhCiAgICAgICAgICAgICAgdmFsdWU9e3ByaXZhdGVLZXl9CiAgICAgICAgICAgICAgb25DaGFuZ2U9eyhlKSA9PiBzZXRQcml2YXRlS2V5KGUudGFyZ2V0LnZhbHVlKX0KICAgICAgICAgICAgICByb3dzPXszfQogICAgICAgICAgICAgIHBsYWNlaG9sZGVyPSLngrnkuIvmlrnjgIznlJ/miJDmlrDlr4bpkqXlr7njgI3oh6rliqjnlJ/miJAiCiAgICAgICAgICAgICAgY2xhc3NOYW1lPSJ3LWZ1bGwgZm9udC1tb25vIHRleHQtWzExcHhdIGJnLXdoaXRlIGJvcmRlciBib3JkZXItc2xhdGUtMjAwIHJvdW5kZWQteGwgcC0yIHJlc2l6ZS1ub25lIGxlYWRpbmctcmVsYXhlZCBmb2N1czpvdXRsaW5lLW5vbmUgZm9jdXM6Ym9yZGVyLWluZGlnby00MDAiCiAgICAgICAgICAgIC8+CiAgICAgICAgICApIDogKAogICAgICAgICAgICA8ZGl2IGNsYXNzTmFtZT0idy1mdWxsIHRleHQtWzExcHhdIGZvbnQtbW9ubyBiZy13aGl0ZSBib3JkZXIgYm9yZGVyLXNsYXRlLTIwMCByb3VuZGVkLXhsIHB4LTMgcHktMiB0ZXh0LXNsYXRlLTUwMCBzZWxlY3Qtbm9uZSBicmVhay1hbGwiPgogICAgICAgICAgICAgIHttYXNrZWRQcml2YXRlS2V5IHx8ICflsJrmnKrnlJ/miJAnfQogICAgICAgICAgICA8L2Rpdj4KICAgICAgICAgICl9CiAgICAgICAgICA8cCBjbGFzc05hbWU9InRleHQtWzEwcHhdIHRleHQtc2xhdGUtNDAwIGxlYWRpbmctcmVsYXhlZCI+CiAgICAgICAgICAgIOengemSpeW4uOmpuyBsb2NhbFN0b3JhZ2Ug5pa55L6/5aSN5Yi25YiwIFdvcmtlciBlbnYuIOacrOacuuaVsOaNruW3sue7j+Wkn+WkmiBzZWNyZXQsIOWkmui/meS4gOS4quS4jeaUueWPmOWogeiDgeaooeWeiy4KICAgICAgICAgIDwvcD4KICAgICAgICA8L2Rpdj4KCiAgICAgICAgey8qIOaTjeS9nCAqL30KICAgICAgICA8ZGl2IGNsYXNzTmFtZT0iZ3JpZCBncmlkLWNvbHMtMiBnYXAtMiI+CiAgICAgICAgICA8YnV0dG9uCiAgICAgICAgICAgIHR5cGU9ImJ1dHRvbiIKICAgICAgICAgICAgb25DbGljaz17KCkgPT4gdm9pZCBoYW5kbGVHZW5lcmF0ZSgpfQogICAgICAgICAgICBkaXNhYmxlZD17Z2VuZXJhdGluZ30KICAgICAgICAgICAgY2xhc3NOYW1lPXtgcHktMi41IHJvdW5kZWQteGwgdGV4dC1bMTFweF0gZm9udC1ib2xkICR7Z2VuZXJhdGluZyA/ICdiZy1zbGF0ZS0yMDAgdGV4dC1zbGF0ZS00MDAnIDogJ2JnLWluZGlnby01MDAgdGV4dC13aGl0ZSBob3ZlcjpiZy1pbmRpZ28tNjAwJ31gfQogICAgICAgICAgPgogICAgICAgICAgICB7Z2VuZXJhdGluZyA/ICfnlJ/miJDkuK3igKYnIDogKHB1YmxpY0tleSA/ICfwn5SEIOmHjeaWsOeUn+aIkOWvhumSpeWvuScgOiAn55Sf5oiQ5paw5a+G6ZKl5a+5Jyl9CiAgICAgICAgICA8L2J1dHRvbj4KICAgICAgICAgIDxidXR0b24KICAgICAgICAgICAgdHlwZT0iYnV0dG9uIgogICAgICAgICAgICBvbkNsaWNrPXsoKSA9PiB2b2lkIGhhbmRsZUNvcHlFbnYoKX0KICAgICAgICAgICAgZGlzYWJsZWQ9e2dlbmVyYXRpbmd9CiAgICAgICAgICAgIGNsYXNzTmFtZT17YHB5LTIuNSByb3VuZGVkLXhsIHRleHQtWzExcHhdIGZvbnQtYm9sZCBib3JkZXIgYm9yZGVyLXNsYXRlLTIwMCAke2dlbmVyYXRpbmcgPyAnYmctc2xhdGUtMTAwIHRleHQtc2xhdGUtNDAwJyA6ICdiZy13aGl0ZSB0ZXh0LXNsYXRlLTYwMCBob3ZlcjpiZy1zbGF0ZS01MCd9YH0KICAgICAgICAgID4KICAgICAgICAgICAg5aSN5Yi2IGVudiDmuIXljZUKICAgICAgICAgIDwvYnV0dG9uPgogICAgICAgIDwvZGl2PgoKICAgICAgICB7KHB1YmxpY0tleSB8fCBwcml2YXRlS2V5KSAmJiAoCiAgICAgICAgICA8ZGl2IGNsYXNzTmFtZT0idGV4dC1jZW50ZXIiPgogICAgICAgICAgICA8YnV0dG9uCiAgICAgICAgICAgICAgdHlwZT0iYnV0dG9uIgogICAgICAgICAgICAgIG9uQ2xpY2s9e2hhbmRsZUNsZWFyfQogICAgICAgICAgICAgIGNsYXNzTmFtZT0idGV4dC1bMTFweF0gdGV4dC1yb3NlLTUwMCBob3Zlcjp0ZXh0LXJvc2UtNjAwIGZvbnQtbWVkaXVtIHVuZGVybGluZS1vZmZzZXQtMiBob3Zlcjp1bmRlcmxpbmUiCiAgICAgICAgICAgID4KICAgICAgICAgICAgICDmuIXnqbogVkFQSUTvvIhQcm9hY3RpdmUgLyBJbnN0YW50IOmDveS8muWkseaViO+8iQogICAgICAgICAgICA8L2J1dHRvbj4KICAgICAgICAgIDwvZGl2PgogICAgICAgICl9CiAgICAgIDwvZGl2PgogICAgPC9Nb2RhbD4KICApOwp9Owo=
+import React, { useEffect, useState } from 'react';
+import Modal from '../os/Modal';
+import { useOS } from '../../context/OSContext';
+import { generateVapidKeyPair } from '../../utils/vapidGen';
+import { loadPushVapid, savePushVapid, clearPushVapid } from '../../utils/pushVapid';
+
+interface PushVapidSettingsModalProps {
+  open: boolean;
+  onClose: () => void;
+}
+
+/**
+ * 推送凭据 (VAPID) 配置面板.
+ *
+ * 抽出来单独管理是因为 Proactive Push 和 Instant Push 共用一份 VAPID — 两边
+ * 用不同的 key 时会反复 unsubscribe 抢同一个 pushManager 订阅. 把 UI 提到
+ * 顶层后, 用户一眼看到这是全局推送凭据, 不会再以为它属于 Instant Push.
+ *
+ * 私钥也存 localStorage 方便复制到 CF Worker env, 这里不当成一次性密钥处理.
+ */
+export const PushVapidSettingsModal: React.FC<PushVapidSettingsModalProps> = ({ open, onClose }) => {
+  const { addToast } = useOS();
+
+  const [publicKey, setPublicKey] = useState('');
+  const [privateKey, setPrivateKey] = useState('');
+  const [showPrivateKey, setShowPrivateKey] = useState(false);
+  const [generating, setGenerating] = useState(false);
+
+  useEffect(() => {
+    if (!open) return;
+    const v = loadPushVapid();
+    setPublicKey(v.vapidPublicKey);
+    setPrivateKey(v.vapidPrivateKey);
+    setShowPrivateKey(false);
+  }, [open]);
+
+  const persist = (pub: string, priv: string) => {
+    savePushVapid({ vapidPublicKey: pub, vapidPrivateKey: priv });
+  };
+
+  const handleGenerate = async () => {
+    setGenerating(true);
+    try {
+      const kp = await generateVapidKeyPair();
+      setPublicKey(kp.publicKey);
+      setPrivateKey(kp.privateKey);
+      persist(kp.publicKey, kp.privateKey);
+      setShowPrivateKey(true);
+      addToast('已生成新的 VAPID 密钥对', 'success');
+    } catch (e) {
+      const err = e as { message?: string } | null;
+      addToast(err?.message ?? '生成失败', 'error');
+    } finally {
+      setGenerating(false);
+    }
+  };
+
+  const handleClear = () => {
+    if (!confirm('确定清空 VAPID 密钥对？Proactive / Instant Push 都会立即失效，下次订阅需要重建。')) return;
+    clearPushVapid();
+    setPublicKey('');
+    setPrivateKey('');
+    addToast('VAPID 已清空', 'success');
+  };
+
+  const handleCopyPublicKey = async () => {
+    if (!publicKey) return;
+    await navigator.clipboard.writeText(publicKey);
+    addToast('公钥已复制', 'success');
+  };
+
+  const handleCopyPrivateKey = async () => {
+    if (!privateKey) {
+      addToast('私钥尚未生成', 'error');
+      return;
+    }
+    await navigator.clipboard.writeText(privateKey);
+    addToast('私钥已复制', 'success');
+  };
+
+  const handleCopyEnv = async () => {
+    let pub = publicKey.trim();
+    let priv = privateKey.trim();
+    if (!pub || !priv) {
+      await handleGenerate();
+      const v = loadPushVapid();
+      pub = v.vapidPublicKey;
+      priv = v.vapidPrivateKey;
+      if (!pub || !priv) return;
+    }
+    const lines = [
+      `VAPID_PUBLIC_KEY=${pub}`,
+      `VAPID_PRIVATE_KEY=${priv}`,
+      `# 可选：`,
+      `# VAPID_EMAIL=mailto:you@example.com`,
+    ];
+    await navigator.clipboard.writeText(lines.join('\n'));
+    addToast('env 已复制（含真实密钥）', 'success');
+  };
+
+  const handleSave = () => {
+    persist(publicKey.trim(), privateKey.trim());
+    addToast('推送凭据已保存', 'success');
+    onClose();
+  };
+
+  const maskedPrivateKey = privateKey
+    ? privateKey.slice(0, 4) + '•'.repeat(Math.max(8, privateKey.length - 8)) + privateKey.slice(-4)
+    : '';
+
+  return (
+    <Modal
+      isOpen={open}
+      title="推送凭据 (VAPID)"
+      onClose={onClose}
+      footer={
+        <div className="flex gap-2 w-full">
+          <button
+            type="button"
+            onClick={onClose}
+            className="flex-1 py-3 bg-slate-100 text-slate-600 font-bold rounded-2xl text-sm"
+          >
+            取消
+          </button>
+          <button
+            type="button"
+            onClick={handleSave}
+            className="flex-1 py-3 bg-indigo-500 text-white font-bold rounded-2xl shadow-lg shadow-indigo-200 text-sm"
+          >
+            保存
+          </button>
+        </div>
+      }
+    >
+      <div className="space-y-5 text-sm">
+
+        <div className="bg-amber-50 border border-amber-200 rounded-2xl p-3 text-[11px] text-amber-800 leading-relaxed">
+          <p className="font-bold mb-1">⚠ 一份 VAPID, 两个用法</p>
+          <p>
+            浏览器订阅 push 用<b>公钥</b>; Worker 签名 push 用<b>私钥</b>.
+            Proactive Push 和 Instant Push <b>都从这里读公钥</b> ——
+            两边公钥不一致会反复 unsubscribe 抢同一个订阅, 是 "推送配额没掉但是收不到通知" 的常见原因.
+          </p>
+          <p className="mt-1">
+            生成 / 改了之后, 你的 CF Worker env (<code>VAPID_PUBLIC_KEY</code> + <code>VAPID_PRIVATE_KEY</code>) 也要同步更新, 否则签名校验会失败.
+          </p>
+        </div>
+
+        {/* 公钥 */}
+        <div className="bg-slate-50 rounded-2xl p-4 space-y-2">
+          <div className="flex items-center justify-between">
+            <label className="text-[11px] text-slate-500 font-medium">VAPID 公钥</label>
+            {publicKey && (
+              <button
+                type="button"
+                onClick={() => void handleCopyPublicKey()}
+                className="text-[11px] text-slate-500 hover:text-slate-700 font-medium"
+              >
+                复制
+              </button>
+            )}
+          </div>
+          <input
+            type="text"
+            value={publicKey}
+            onChange={(e) => setPublicKey(e.target.value)}
+            placeholder="BA…（点下方「生成新密钥对」自动生成）"
+            className="w-full text-[11px] font-mono bg-white border border-slate-200 rounded-xl px-3 py-2 focus:outline-none focus:border-indigo-400"
+          />
+        </div>
+
+        {/* 私钥 */}
+        <div className="bg-slate-50 rounded-2xl p-4 space-y-2">
+          <div className="flex items-center justify-between">
+            <label className="text-[11px] text-slate-500 font-medium">VAPID 私钥</label>
+            <div className="flex items-center gap-3">
+              {privateKey && (
+                <>
+                  <button
+                    type="button"
+                    onClick={() => setShowPrivateKey((s) => !s)}
+                    className="text-[11px] text-slate-500 hover:text-slate-700 font-medium"
+                  >
+                    {showPrivateKey ? '隐藏' : '显示'}
+                  </button>
+                  <button
+                    type="button"
+                    onClick={() => void handleCopyPrivateKey()}
+                    className="text-[11px] text-indigo-500 hover:text-indigo-600 font-medium"
+                  >
+                    复制
+                  </button>
+                </>
+              )}
+            </div>
+          </div>
+          {showPrivateKey ? (
+            <textarea
+              value={privateKey}
+              onChange={(e) => setPrivateKey(e.target.value)}
+              rows={3}
+              placeholder="点下方「生成新密钥对」自动生成"
+              className="w-full font-mono text-[11px] bg-white border border-slate-200 rounded-xl p-2 resize-none leading-relaxed focus:outline-none focus:border-indigo-400"
+            />
+          ) : (
+            <div className="w-full text-[11px] font-mono bg-white border border-slate-200 rounded-xl px-3 py-2 text-slate-500 select-none break-all">
+              {maskedPrivateKey || '尚未生成'}
+            </div>
+          )}
+          <p className="text-[10px] text-slate-400 leading-relaxed">
+            私钥常驻 localStorage 方便复制到 Worker env. 本机数据已经够多 secret, 多这一个不改变威胁模型.
+          </p>
+        </div>
+
+        {/* 操作 */}
+        <div className="grid grid-cols-2 gap-2">
+          <button
+            type="button"
+            onClick={() => void handleGenerate()}
+            disabled={generating}
+            className={`py-2.5 rounded-xl text-[11px] font-bold ${generating ? 'bg-slate-200 text-slate-400' : 'bg-indigo-500 text-white hover:bg-indigo-600'}`}
+          >
+            {generating ? '生成中…' : (publicKey ? '🔄 重新生成密钥对' : '生成新密钥对')}
+          </button>
+          <button
+            type="button"
+            onClick={() => void handleCopyEnv()}
+            disabled={generating}
+            className={`py-2.5 rounded-xl text-[11px] font-bold border border-slate-200 ${generating ? 'bg-slate-100 text-slate-400' : 'bg-white text-slate-600 hover:bg-slate-50'}`}
+          >
+            复制 env 清单
+          </button>
+        </div>
+
+        {(publicKey || privateKey) && (
+          <div className="text-center">
+            <button
+              type="button"
+              onClick={handleClear}
+              className="text-[11px] text-rose-500 hover:text-rose-600 font-medium underline-offset-2 hover:underline"
+            >
+              清空 VAPID（Proactive / Instant 都会失效）
+            </button>
+          </div>
+        )}
+      </div>
+    </Modal>
+  );
+};

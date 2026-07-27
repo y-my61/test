@@ -1,1 +1,257 @@
-LyoqCiAqIE1lbW9yeSBQYWxhY2Ug4oCUIOaXpeacn+W8leeUqOino+aekAogKgogKiDogYrlpKnph4zlh7rnjrAi5Y675bm0MTLmnIgiIjPmnIg05Y+3IiLkuIrlkagiIuaYqOWkqSLov5nnsbvml6XmnJ/lvJXnlKjml7bvvIwKICog5ZCR6YeP55u45Ly85bqmL0JNMjUg6YO95LiN5Y+v6Z2g77yI6K6w5b+G5YaF5a656YeM5pivIjEy5pyIMTXml6Ui77yMcXVlcnkg6YeM5pivIuWNgeS6jOaciCIKICog5oiWIuWOu+W5tDEy5pyIIu+8jOS4pOiAhSBlbWJlZGRpbmcg5ZCR6YeP5LiN5a+56b2Q77ybQk0yNSDliIbor43kuZ/lr7nkuI3kuIrvvInjgIIKICoKICog5pys5qih5Z2X5oqKIHF1ZXJ5IOaWh+acrOmHjOeahOaXpeacn+W8leeUqOino+aekOaIkOe7neWvuSBbc3RhcnQsIGVuZCkg5pe26Ze05oiz5Yy66Ze077yMCiAqIOS+myBwaXBlbGluZSDlj6botbfkuIDot6/mjIkgY3JlYXRlZEF0IOafpeiusOW/hu+8jOiejeWFpeWPrOWbnuaxoOOAggogKgogKiDorr7orqHljp/liJnvvJoKICogLSDlrr3mnb7kvJjlhYjvvJrlk6rmgJXlj6rlkb3kuK0i5Y675bm0IuaIliIz5pyIIui/meenjeeyl+iMg+WbtOS5n+e7meWHuue7k+aenO+8jOWugeWPr+WkmuS4jeimgemUmei/hwogKiAtIOatp+S5ieaXtumAieacgOi/ke+8muWtpOeri+eahCIz5pyIIuKGkiDmnIDov5HkuIDmrKHlh7rnjrDov4fnmoQgMyDmnIjvvIjot6jlubTml7blvoDliY3mib7vvIkKICogLSDlj6rlpITnkIbluLjop4HkuK3mlocv5pWw5a2X6KGo6L6+77yM5LiN5aWXIE5MVSDmqKHlnosKICovCgpleHBvcnQgaW50ZXJmYWNlIERhdGVSYW5nZSB7CiAgICAvKiog5Yy66Ze06LW354K577yI5q+r56eS5pe26Ze05oiz77yM5ZCr77yJICovCiAgICBzdGFydDogbnVtYmVyOwogICAgLyoqIOWMuumXtOe7iOeCue+8iOavq+enkuaXtumXtOaIs++8jOS4jeWQq++8iSAqLwogICAgZW5kOiBudW1iZXI7CiAgICAvKiog5Lq657G75Y+v6K+75qCH562+77yM55So5LqO5pel5b+XICovCiAgICBsYWJlbDogc3RyaW5nOwogICAgLyoqIGV4YWN0ID0g5pel57qn57K+56Gu77ybZnV6enkgPSDmnIgv5ZGoL+W5tOe6p+eyl+eykuW6piAqLwogICAgY29uZmlkZW5jZTogJ2V4YWN0JyB8ICdmdXp6eSc7Cn0KCi8vIOS4reaWh+aVsOWtl++8iOWPquWkhOeQhiAxLTMx77yM5aSf55So5LqO5pyI5Lu95ZKM5pel5pyf77yJCmNvbnN0IENOX0RJR0lUOiBSZWNvcmQ8c3RyaW5nLCBudW1iZXI+ID0gewogICAgJ+mbtic6IDAsICfjgIcnOiAwLCAn5LiAJzogMSwgJ+S6jCc6IDIsICfkuKQnOiAyLCAn5LiJJzogMywgJ+Wbmyc6IDQsCiAgICAn5LqUJzogNSwgJ+WFrSc6IDYsICfkuIMnOiA3LCAn5YWrJzogOCwgJ+S5nSc6IDksICfljYEnOiAxMCwKfTsKZnVuY3Rpb24gY25OdW1Ub0ludChzOiBzdHJpbmcpOiBudW1iZXIgfCBudWxsIHsKICAgIC8vICLljYHkuowiIOKGkiAxMiwgIuS6jOWNgSIg4oaSIDIwLCAi5LqM5Y2B5LiJIiDihpIgMjMsICLljYEiIOKGkiAxMCwgIuS5nSIg4oaSIDkKICAgIGlmICghcykgcmV0dXJuIG51bGw7CiAgICBpZiAoL15cZCskLy50ZXN0KHMpKSByZXR1cm4gcGFyc2VJbnQocywgMTApOwogICAgaWYgKENOX0RJR0lUW3NdICE9PSB1bmRlZmluZWQpIHJldHVybiBDTl9ESUdJVFtzXTsKICAgIC8vIOWNgVgKICAgIGNvbnN0IG0xID0gL17ljYEoW+S4gOS6jOS4ieWbm+S6lOWFreS4g+WFq+S5nV0pJC8uZXhlYyhzKTsKICAgIGlmIChtMSkgcmV0dXJuIDEwICsgQ05fRElHSVRbbTFbMV1dOwogICAgLy8gWOWNgSAvIFjljYFZCiAgICBjb25zdCBtMiA9IC9eKFvkuIDkuozkuInlm5vkupTlha3kuIPlhavkuZ1dKeWNgShb5LiA5LqM5LiJ5Zub5LqU5YWt5LiD5YWr5LmdXSk/JC8uZXhlYyhzKTsKICAgIGlmIChtMikgcmV0dXJuIENOX0RJR0lUW20yWzFdXSAqIDEwICsgKG0yWzJdID8gQ05fRElHSVRbbTJbMl1dIDogMCk7CiAgICByZXR1cm4gbnVsbDsKfQoKZnVuY3Rpb24gc3RhcnRPZkRheSh5OiBudW1iZXIsIG0wOiBudW1iZXIsIGQ6IG51bWJlcik6IG51bWJlciB7CiAgICByZXR1cm4gbmV3IERhdGUoeSwgbTAsIGQsIDAsIDAsIDAsIDApLmdldFRpbWUoKTsKfQoKZnVuY3Rpb24gZGF5c0luTW9udGgoeTogbnVtYmVyLCBtMDogbnVtYmVyKTogbnVtYmVyIHsKICAgIHJldHVybiBuZXcgRGF0ZSh5LCBtMCArIDEsIDApLmdldERhdGUoKTsKfQoKLyoqIOaKiuaXpee6p+WumuS9jeaIkCBb5b2T5aSpIDAwOjAwLCDmrKHml6UgMDA6MDApICovCmZ1bmN0aW9uIGRheVJhbmdlKHk6IG51bWJlciwgbTA6IG51bWJlciwgZDogbnVtYmVyLCBsYWJlbDogc3RyaW5nKTogRGF0ZVJhbmdlIHsKICAgIGNvbnN0IHN0YXJ0ID0gc3RhcnRPZkRheSh5LCBtMCwgZCk7CiAgICByZXR1cm4geyBzdGFydCwgZW5kOiBzdGFydE9mRGF5KHksIG0wLCBkICsgMSksIGxhYmVsLCBjb25maWRlbmNlOiAnZXhhY3QnIH07Cn0KCi8qKiDmiormnIjnuqflrprkvY3miJAgWzEg5Y+3IDAwOjAwLCDmrKHmnIggMSDlj7cgMDA6MDApICovCmZ1bmN0aW9uIG1vbnRoUmFuZ2UoeTogbnVtYmVyLCBtMDogbnVtYmVyLCBsYWJlbDogc3RyaW5nKTogRGF0ZVJhbmdlIHsKICAgIGNvbnN0IHN0YXJ0ID0gc3RhcnRPZkRheSh5LCBtMCwgMSk7CiAgICBjb25zdCBlbmQgPSBzdGFydE9mRGF5KHksIG0wICsgMSwgMSk7CiAgICByZXR1cm4geyBzdGFydCwgZW5kLCBsYWJlbCwgY29uZmlkZW5jZTogJ2Z1enp5JyB9Owp9CgovKiog5oqK5bm057qn5a6a5L2N5oiQIFsxIOaciCAxIOaXpSAwMDowMCwg5qyh5bm0IDEg5pyIIDEg5pelIDAwOjAwKSAqLwpmdW5jdGlvbiB5ZWFyUmFuZ2UoeTogbnVtYmVyLCBsYWJlbDogc3RyaW5nKTogRGF0ZVJhbmdlIHsKICAgIGNvbnN0IHN0YXJ0ID0gc3RhcnRPZkRheSh5LCAwLCAxKTsKICAgIGNvbnN0IGVuZCA9IHN0YXJ0T2ZEYXkoeSArIDEsIDAsIDEpOwogICAgcmV0dXJuIHsgc3RhcnQsIGVuZCwgbGFiZWwsIGNvbmZpZGVuY2U6ICdmdXp6eScgfTsKfQoKLyoqCiAqIOe7meWumuaciOS7ve+8iDEtMTLvvInvvIznu5PlkIjlvZPliY3ml6XmnJ/vvIzpgInlrpoi5pyA6L+R5LiA5qyh5Ye6546w6K+l5pyI5Lu9IueahOW5tOS7veOAggogKiDkvovvvJpub3c9MjAyNi0wNO+8jHF1ZXJ5PSIxMuaciCIg4oaSIDIwMjUtMTLvvIjov4fljrvnmoQgMTIg5pyI77yJCiAqICAgICBub3c9MjAyNi0wNO+8jHF1ZXJ5PSIz5pyIIiAg4oaSIDIwMjYtMDPvvIjlvZPlubTliJrov4fvvIkKICogICAgIG5vdz0yMDI2LTA077yMcXVlcnk9IjXmnIgiICDihpIgMjAyNS0wNe+8iOS7iuW5tOi/mOayoeWIsO+8jOaMh+WQkeWOu+W5tO+8iQogKi8KZnVuY3Rpb24gcmVzb2x2ZU5lYXJlc3RQYXN0TW9udGgodGFyZ2V0TW9udGgxOiBudW1iZXIsIG5vdzogRGF0ZSk6IG51bWJlciB7CiAgICBjb25zdCB5ID0gbm93LmdldEZ1bGxZZWFyKCk7CiAgICBjb25zdCBtMSA9IG5vdy5nZXRNb250aCgpICsgMTsKICAgIHJldHVybiB0YXJnZXRNb250aDEgPD0gbTEgPyB5IDogeSAtIDE7Cn0KCi8vIOKUgOKUgOKUgCDkuLvop6PmnpAg4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSACgpleHBvcnQgZnVuY3Rpb24gcmVzb2x2ZURhdGVSZWZlcmVuY2VzKHF1ZXJ5OiBzdHJpbmcsIG5vdzogRGF0ZSA9IG5ldyBEYXRlKCkpOiBEYXRlUmFuZ2VbXSB7CiAgICBjb25zdCByYW5nZXM6IERhdGVSYW5nZVtdID0gW107CiAgICBjb25zdCBzZWVuTGFiZWxzID0gbmV3IFNldDxzdHJpbmc+KCk7CiAgICBjb25zdCBwdXNoID0gKHI6IERhdGVSYW5nZSB8IG51bGwpID0+IHsKICAgICAgICBpZiAoIXIpIHJldHVybjsKICAgICAgICBpZiAoc2VlbkxhYmVscy5oYXMoci5sYWJlbCkpIHJldHVybjsKICAgICAgICBzZWVuTGFiZWxzLmFkZChyLmxhYmVsKTsKICAgICAgICByYW5nZXMucHVzaChyKTsKICAgIH07CgogICAgY29uc3QgY3VyWSA9IG5vdy5nZXRGdWxsWWVhcigpOwogICAgY29uc3QgY3VyTTAgPSBub3cuZ2V0TW9udGgoKTsKICAgIGNvbnN0IGN1ckQgPSBub3cuZ2V0RGF0ZSgpOwoKICAgIC8vIOebuOWvueW5tO+8iOWJjeW5tC/ljrvlubQv5LuK5bm0L+aYjuW5tO+8ieWPr+WNleeLrOWHuueOsO+8jOS5n+WPryLljrvlubQxMuaciCLov5nnp43nu4TlkIgKICAgIC8vICAg5YWI5o2V6I6357uE5ZCI77yM5YaN5aSE55CG5Y2V54usCgogICAgLy8gMSkg55u45a+55bm0ICsg5pyIICsg5pel77ya5Y675bm0MTLmnIgxNeaXpSAvIOWOu+W5tDEy5pyIMTXlj7cKICAgIGZvciAoY29uc3QgbSBvZiBxdWVyeS5tYXRjaEFsbCgvKOWJjeW5tHzljrvlubR85LuK5bm0fOaYjuW5tClccyooXGR7MSwyfXxb5LiA5LqM5LiJ5Zub5LqU5YWt5LiD5YWr5Lmd5Y2BXSspXHMq5pyIXHMqKFxkezEsMn18W+S4gOS6jOS4ieWbm+S6lOWFreS4g+WFq+S5neWNgV0rKVxzKlvml6Xlj7ddL2d1KSkgewogICAgICAgIGNvbnN0IHlPZmYgPSB7ICfliY3lubQnOiAtMiwgJ+WOu+W5tCc6IC0xLCAn5LuK5bm0JzogMCwgJ+aYjuW5tCc6IDEgfVttWzFdXSE7CiAgICAgICAgY29uc3QgbW0gPSBjbk51bVRvSW50KG1bMl0pOwogICAgICAgIGNvbnN0IGRkID0gY25OdW1Ub0ludChtWzNdKTsKICAgICAgICBpZiAobW0gJiYgZGQgJiYgbW0gPj0gMSAmJiBtbSA8PSAxMiAmJiBkZCA+PSAxICYmIGRkIDw9IDMxKSB7CiAgICAgICAgICAgIGNvbnN0IHkgPSBjdXJZICsgeU9mZjsKICAgICAgICAgICAgaWYgKGRkIDw9IGRheXNJbk1vbnRoKHksIG1tIC0gMSkpIHsKICAgICAgICAgICAgICAgIHB1c2goZGF5UmFuZ2UoeSwgbW0gLSAxLCBkZCwgbVswXSkpOwogICAgICAgICAgICB9CiAgICAgICAgfQogICAgfQoKICAgIC8vIDIpIOebuOWvueW5tCArIOaciO+8muWOu+W5tDEy5pyICiAgICBmb3IgKGNvbnN0IG0gb2YgcXVlcnkubWF0Y2hBbGwoLyjliY3lubR85Y675bm0fOS7iuW5tHzmmI7lubQpXHMqKFxkezEsMn18W+S4gOS6jOS4ieWbm+S6lOWFreS4g+WFq+S5neWNgV0rKVxzKuaciCg/IVtcZOS4gOS6jOS4ieWbm+S6lOWFreS4g+WFq+S5neWNgeS7vV0pL2d1KSkgewogICAgICAgIGNvbnN0IHlPZmYgPSB7ICfliY3lubQnOiAtMiwgJ+WOu+W5tCc6IC0xLCAn5LuK5bm0JzogMCwgJ+aYjuW5tCc6IDEgfVttWzFdXSE7CiAgICAgICAgY29uc3QgbW0gPSBjbk51bVRvSW50KG1bMl0pOwogICAgICAgIGlmIChtbSAmJiBtbSA+PSAxICYmIG1tIDw9IDEyKSB7CiAgICAgICAgICAgIHB1c2gobW9udGhSYW5nZShjdXJZICsgeU9mZiwgbW0gLSAxLCBtWzBdKSk7CiAgICAgICAgfQogICAgfQoKICAgIC8vIDMpIOebuOWvueW5tO+8muWOu+W5tO+8iOaXoOe0p+i3n+aciOS7ve+8iQogICAgZm9yIChjb25zdCBtIG9mIHF1ZXJ5Lm1hdGNoQWxsKC8o5YmN5bm0fOWOu+W5tHzku4rlubR85piO5bm0KSg/IVtcZOS4gOS6jOS4ieWbm+S6lOWFreS4g+WFq+S5neWNgV0pL2d1KSkgewogICAgICAgIGNvbnN0IHlPZmYgPSB7ICfliY3lubQnOiAtMiwgJ+WOu+W5tCc6IC0xLCAn5LuK5bm0JzogMCwgJ+aYjuW5tCc6IDEgfVttWzFdXSE7CiAgICAgICAgcHVzaCh5ZWFyUmFuZ2UoY3VyWSArIHlPZmYsIG1bMF0pKTsKICAgIH0KCiAgICAvLyA0KSDnu53lr7nlubTmnIjml6XvvJoyMDI05bm0MTLmnIgxNeaXpSAvIDI05bm0MTLmnIgxNeWPtyAvIDIwMjQtMTItMTUgLyAyMDI0LzEyLzE1CiAgICBmb3IgKGNvbnN0IG0gb2YgcXVlcnkubWF0Y2hBbGwoLyhcZHsyLDR9KVxzKuW5tFxzKihcZHsxLDJ9KVxzKuaciFxzKihcZHsxLDJ9KVxzKlvml6Xlj7ddPy9nKSkgewogICAgICAgIGxldCB5ID0gcGFyc2VJbnQobVsxXSwgMTApOwogICAgICAgIGlmICh5IDwgMTAwKSB5ICs9IDIwMDA7CiAgICAgICAgY29uc3QgbW0gPSBwYXJzZUludChtWzJdLCAxMCk7CiAgICAgICAgY29uc3QgZGQgPSBwYXJzZUludChtWzNdLCAxMCk7CiAgICAgICAgaWYgKG1tID49IDEgJiYgbW0gPD0gMTIgJiYgZGQgPj0gMSAmJiBkZCA8PSBkYXlzSW5Nb250aCh5LCBtbSAtIDEpKSB7CiAgICAgICAgICAgIHB1c2goZGF5UmFuZ2UoeSwgbW0gLSAxLCBkZCwgbVswXSkpOwogICAgICAgIH0KICAgIH0KICAgIGZvciAoY29uc3QgbSBvZiBxdWVyeS5tYXRjaEFsbCgvKFxkezR9KVstL10oXGR7MSwyfSlbLS9dKFxkezEsMn0pL2cpKSB7CiAgICAgICAgY29uc3QgeSA9IHBhcnNlSW50KG1bMV0sIDEwKTsKICAgICAgICBjb25zdCBtbSA9IHBhcnNlSW50KG1bMl0sIDEwKTsKICAgICAgICBjb25zdCBkZCA9IHBhcnNlSW50KG1bM10sIDEwKTsKICAgICAgICBpZiAobW0gPj0gMSAmJiBtbSA8PSAxMiAmJiBkZCA+PSAxICYmIGRkIDw9IGRheXNJbk1vbnRoKHksIG1tIC0gMSkpIHsKICAgICAgICAgICAgcHVzaChkYXlSYW5nZSh5LCBtbSAtIDEsIGRkLCBtWzBdKSk7CiAgICAgICAgfQogICAgfQoKICAgIC8vIDUpIOe7neWvueW5tOaciO+8mjIwMjTlubQxMuaciCAvIDI05bm0MTLmnIgKICAgIGZvciAoY29uc3QgbSBvZiBxdWVyeS5tYXRjaEFsbCgvKFxkezIsNH0pXHMq5bm0XHMqKFxkezEsMn0pXHMq5pyIKD8hW1xk5pel5Y+3XSkvZykpIHsKICAgICAgICBsZXQgeSA9IHBhcnNlSW50KG1bMV0sIDEwKTsKICAgICAgICBpZiAoeSA8IDEwMCkgeSArPSAyMDAwOwogICAgICAgIGNvbnN0IG1tID0gcGFyc2VJbnQobVsyXSwgMTApOwogICAgICAgIGlmIChtbSA+PSAxICYmIG1tIDw9IDEyKSB7CiAgICAgICAgICAgIHB1c2gobW9udGhSYW5nZSh5LCBtbSAtIDEsIG1bMF0pKTsKICAgICAgICB9CiAgICB9CgogICAgLy8gNikg5LuF5bm077yaMjAyNOW5tO+8iOaXoOe0p+i3n+aciOS7ve+8iQogICAgZm9yIChjb25zdCBtIG9mIHF1ZXJ5Lm1hdGNoQWxsKC8oXGR7NH0pXHMq5bm0KD8hW1xk5LiA5LqM5LiJ5Zub5LqU5YWt5LiD5YWr5Lmd5Y2BXSkvZykpIHsKICAgICAgICBjb25zdCB5ID0gcGFyc2VJbnQobVsxXSwgMTApOwogICAgICAgIHB1c2goeWVhclJhbmdlKHksIG1bMF0pKTsKICAgIH0KCiAgICAvLyA3KSDlraTnq4vmnIjml6XvvJoz5pyINOWPtyAvIDEy5pyIMTXml6UgLyAzLzQgLyAxMi0xNe+8iOaXoOW5tOS7ve+8ieKGkiDmnIDov5HkuIDmrKHlh7rnjrAKICAgIC8vICAgIOWOn+acrOeUqCAoPzwhW1xk5bm0XSkg5o6S6ZmkIuWJjemdoue0p+i3n+aVsOWtl+aIluW5tCLnmoTmg4XlhrXjgIJpT1MgU2FmYXJpIDwxNi40IOeahCBKU0Mg5LiN5pSv5oyB5ZCO6KGM5pat6KiALAogICAgLy8gICAg5pS55oiQ5Yy56YWN5ZCO55SoIG0uaW5kZXgg5qOA5p+l5YmN5LiA5a2X56ymLCDooYzkuLrnrYnku7cgKOingSB1dGlscy9sb29rYmVoaW5kRnJlZS50ZXN0LnRzKeOAggogICAgZm9yIChjb25zdCBtIG9mIHF1ZXJ5Lm1hdGNoQWxsKC8oXGR7MSwyfXxb5LiA5LqM5LiJ5Zub5LqU5YWt5LiD5YWr5Lmd5Y2BXSspXHMq5pyIXHMqKFxkezEsMn18W+S4gOS6jOS4ieWbm+S6lOWFreS4g+WFq+S5neWNgV0rKVxzKlvml6Xlj7ddL2d1KSkgewogICAgICAgIGNvbnN0IGlkeCA9IG0uaW5kZXggPz8gMDsKICAgICAgICBpZiAoaWR4ID4gMCAmJiAvW1xk5bm0XS91LnRlc3QocXVlcnlbaWR4IC0gMV0pKSBjb250aW51ZTsgIC8vIOetieS7t+S6jiAoPzwhW1xk5bm0XSkKICAgICAgICBjb25zdCBtbSA9IGNuTnVtVG9JbnQobVsxXSk7CiAgICAgICAgY29uc3QgZGQgPSBjbk51bVRvSW50KG1bMl0pOwogICAgICAgIGlmIChtbSAmJiBkZCAmJiBtbSA+PSAxICYmIG1tIDw9IDEyICYmIGRkID49IDEgJiYgZGQgPD0gMzEpIHsKICAgICAgICAgICAgY29uc3QgeSA9IHJlc29sdmVOZWFyZXN0UGFzdE1vbnRoKG1tLCBub3cpOwogICAgICAgICAgICBpZiAoZGQgPD0gZGF5c0luTW9udGgoeSwgbW0gLSAxKSkgewogICAgICAgICAgICAgICAgcHVzaChkYXlSYW5nZSh5LCBtbSAtIDEsIGRkLCBtWzBdKSk7CiAgICAgICAgICAgIH0KICAgICAgICB9CiAgICB9CgogICAgLy8gOCkg5a2k56uL5pyI77yaM+aciCAvIOWNgeS6jOaciO+8iOaXoOW5tOS7veOAgeaXoOWQjue7reaXpS/lj7fvvIkKICAgIC8vICAgIOWQjCA3KTogKD88IVtcZOW5tF0pIOaUueaIkCBtLmluZGV4IOajgOafpeWJjeS4gOWtl+espiwg6YG/5byA5penIGlPUyDkuI3mlK/mjIHnmoTlkI7ooYzmlq3oqIDjgIIKICAgIGZvciAoY29uc3QgbSBvZiBxdWVyeS5tYXRjaEFsbCgvKFxkezEsMn18W+S4gOS6jOS4ieWbm+S6lOWFreS4g+WFq+S5neWNgV0rKVxzKuaciCg/IVtcZOaXpeWPt+S7veS4gOS6jOS4ieWbm+S6lOWFreS4g+WFq+S5neWNgV0pL2d1KSkgewogICAgICAgIGNvbnN0IGlkeCA9IG0uaW5kZXggPz8gMDsKICAgICAgICBpZiAoaWR4ID4gMCAmJiAvW1xk5bm0XS91LnRlc3QocXVlcnlbaWR4IC0gMV0pKSBjb250aW51ZTsgIC8vIOetieS7t+S6jiAoPzwhW1xk5bm0XSkKICAgICAgICBjb25zdCBtbSA9IGNuTnVtVG9JbnQobVsxXSk7CiAgICAgICAgaWYgKG1tICYmIG1tID49IDEgJiYgbW0gPD0gMTIpIHsKICAgICAgICAgICAgY29uc3QgeSA9IHJlc29sdmVOZWFyZXN0UGFzdE1vbnRoKG1tLCBub3cpOwogICAgICAgICAgICBwdXNoKG1vbnRoUmFuZ2UoeSwgbW0gLSAxLCBtWzBdKSk7CiAgICAgICAgfQogICAgfQoKICAgIC8vIDkpIOebuOWvueaXpe+8muaYqOWkqS/liY3lpKkv5LuK5aSpL+aYjuWkqS/lkI7lpKkv5aSn5YmN5aSpL+Wkp+WQjuWkqQogICAgY29uc3QgZGF5T2Zmc2V0czogUmVjb3JkPHN0cmluZywgbnVtYmVyPiA9IHsKICAgICAgICAn5aSn5YmN5aSpJzogLTMsICfliY3lpKknOiAtMiwgJ+aYqOWkqSc6IC0xLCAn5LuK5aSpJzogMCwKICAgICAgICAn5piO5aSpJzogMSwgJ+WQjuWkqSc6IDIsICflpKflkI7lpKknOiAzLAogICAgfTsKICAgIGZvciAoY29uc3QgW2t3LCBvZmZdIG9mIE9iamVjdC5lbnRyaWVzKGRheU9mZnNldHMpKSB7CiAgICAgICAgaWYgKHF1ZXJ5LmluY2x1ZGVzKGt3KSkgewogICAgICAgICAgICBjb25zdCB0YXJnZXQgPSBuZXcgRGF0ZShjdXJZLCBjdXJNMCwgY3VyRCArIG9mZik7CiAgICAgICAgICAgIHB1c2goZGF5UmFuZ2UodGFyZ2V0LmdldEZ1bGxZZWFyKCksIHRhcmdldC5nZXRNb250aCgpLCB0YXJnZXQuZ2V0RGF0ZSgpLCBrdykpOwogICAgICAgIH0KICAgIH0KCiAgICAvLyAxMCkg55u45a+55ZGo77ya5LiK5ZGoL+S4iuekvOaLnC/mnKzlkagv6L+Z5ZGoL+S4i+WRqC/kuIvnpLzmi5wKICAgIC8vICAgIOacrOWRqCA9IOWRqOS4gCAwMDowMCDliLDlkajml6UgMjM6NTkKICAgIGNvbnN0IGRheU9mV2VlayA9IG5vdy5nZXREYXkoKSA9PT0gMCA/IDcgOiBub3cuZ2V0RGF5KCk7IC8vIOWRqOS4gD0xLi7lkajml6U9NwogICAgY29uc3QgdGhpc01vbmRheUQgPSBjdXJEIC0gKGRheU9mV2VlayAtIDEpOwogICAgY29uc3QgdGhpc01vbmRheTAgPSBzdGFydE9mRGF5KGN1clksIGN1ck0wLCB0aGlzTW9uZGF5RCk7CiAgICBpZiAoL+S4ilxzKijkuKopP1xzKijlkah856S85oucfOaYn+acnykvLnRlc3QocXVlcnkpKSB7CiAgICAgICAgcHVzaCh7CiAgICAgICAgICAgIHN0YXJ0OiBzdGFydE9mRGF5KGN1clksIGN1ck0wLCB0aGlzTW9uZGF5RCAtIDcpLAogICAgICAgICAgICBlbmQ6IHRoaXNNb25kYXkwLAogICAgICAgICAgICBsYWJlbDogJ+S4iuWRqCcsCiAgICAgICAgICAgIGNvbmZpZGVuY2U6ICdmdXp6eScsCiAgICAgICAgfSk7CiAgICB9CiAgICBpZiAoLyjmnKx86L+ZKVxzKijlkah856S85oucfOaYn+acnykvLnRlc3QocXVlcnkpKSB7CiAgICAgICAgcHVzaCh7CiAgICAgICAgICAgIHN0YXJ0OiB0aGlzTW9uZGF5MCwKICAgICAgICAgICAgZW5kOiBzdGFydE9mRGF5KGN1clksIGN1ck0wLCB0aGlzTW9uZGF5RCArIDcpLAogICAgICAgICAgICBsYWJlbDogJ+acrOWRqCcsCiAgICAgICAgICAgIGNvbmZpZGVuY2U6ICdmdXp6eScsCiAgICAgICAgfSk7CiAgICB9CiAgICBpZiAoL+S4i1xzKijkuKopP1xzKijlkah856S85oucfOaYn+acnykvLnRlc3QocXVlcnkpKSB7CiAgICAgICAgcHVzaCh7CiAgICAgICAgICAgIHN0YXJ0OiBzdGFydE9mRGF5KGN1clksIGN1ck0wLCB0aGlzTW9uZGF5RCArIDcpLAogICAgICAgICAgICBlbmQ6IHN0YXJ0T2ZEYXkoY3VyWSwgY3VyTTAsIHRoaXNNb25kYXlEICsgMTQpLAogICAgICAgICAgICBsYWJlbDogJ+S4i+WRqCcsCiAgICAgICAgICAgIGNvbmZpZGVuY2U6ICdmdXp6eScsCiAgICAgICAgfSk7CiAgICB9CgogICAgLy8gMTEpIOebuOWvueaciO+8muS4iuS4quaciC/kuIrmnIgv5pys5pyIL+i/meS4quaciC/kuIvkuKrmnIgKICAgIGlmICgv5LiKXHMqKOS4qik/XHMq5pyIKD8hW1xk5LiA5LqM5LiJ5Zub5LqU5YWt5LiD5YWr5Lmd5Y2B5Lu9XSkvLnRlc3QocXVlcnkpKSB7CiAgICAgICAgcHVzaChtb250aFJhbmdlKGN1clksIGN1ck0wIC0gMSwgJ+S4iuS4quaciCcpKTsKICAgIH0KICAgIGlmICgvKOacrHzov5lccyrkuKo/KVxzKuaciCg/IVtcZOS4gOS6jOS4ieWbm+S6lOWFreS4g+WFq+S5neWNgeS7vV0pLy50ZXN0KHF1ZXJ5KSkgewogICAgICAgIHB1c2gobW9udGhSYW5nZShjdXJZLCBjdXJNMCwgJ+acrOaciCcpKTsKICAgIH0KICAgIGlmICgv5LiLXHMqKOS4qik/XHMq5pyIKD8hW1xk5LiA5LqM5LiJ5Zub5LqU5YWt5LiD5YWr5Lmd5Y2B5Lu9XSkvLnRlc3QocXVlcnkpKSB7CiAgICAgICAgcHVzaChtb250aFJhbmdlKGN1clksIGN1ck0wICsgMSwgJ+S4i+S4quaciCcpKTsKICAgIH0KCiAgICAvLyAxMikg5pyA6L+RIC8g5pyA6L+R5LiA5ZGoIC8g5pyA6L+R5Yeg5aSp77yI57KX57KS5bqm77yM5Y+WIDcg5aSp77yJCiAgICBpZiAoL+acgOi/kSjkuIDlkah85Yeg5aSpfOi/mSjkuIB85YegKT/lpKkpPy8udGVzdChxdWVyeSkpIHsKICAgICAgICBjb25zdCBlbmQgPSBzdGFydE9mRGF5KGN1clksIGN1ck0wLCBjdXJEICsgMSk7IC8vIOWQq+S7iuWkqQogICAgICAgIHB1c2goeyBzdGFydDogc3RhcnRPZkRheShjdXJZLCBjdXJNMCwgY3VyRCAtIDYpLCBlbmQsIGxhYmVsOiAn5pyA6L+RJywgY29uZmlkZW5jZTogJ2Z1enp5JyB9KTsKICAgIH0KCiAgICByZXR1cm4gcmFuZ2VzOwp9Cg==
+/**
+ * Memory Palace — 日期引用解析
+ *
+ * 聊天里出现"去年12月""3月4号""上周""昨天"这类日期引用时，
+ * 向量相似度/BM25 都不可靠（记忆内容里是"12月15日"，query 里是"十二月"
+ * 或"去年12月"，两者 embedding 向量不对齐；BM25 分词也对不上）。
+ *
+ * 本模块把 query 文本里的日期引用解析成绝对 [start, end) 时间戳区间，
+ * 供 pipeline 另起一路按 createdAt 查记忆，融入召回池。
+ *
+ * 设计原则：
+ * - 宽松优先：哪怕只命中"去年"或"3月"这种粗范围也给出结果，宁可多不要错过
+ * - 歧义时选最近：孤立的"3月"→ 最近一次出现过的 3 月（跨年时往前找）
+ * - 只处理常见中文/数字表达，不套 NLU 模型
+ */
+
+export interface DateRange {
+    /** 区间起点（毫秒时间戳，含） */
+    start: number;
+    /** 区间终点（毫秒时间戳，不含） */
+    end: number;
+    /** 人类可读标签，用于日志 */
+    label: string;
+    /** exact = 日级精确；fuzzy = 月/周/年级粗粒度 */
+    confidence: 'exact' | 'fuzzy';
+}
+
+// 中文数字（只处理 1-31，够用于月份和日期）
+const CN_DIGIT: Record<string, number> = {
+    '零': 0, '〇': 0, '一': 1, '二': 2, '两': 2, '三': 3, '四': 4,
+    '五': 5, '六': 6, '七': 7, '八': 8, '九': 9, '十': 10,
+};
+function cnNumToInt(s: string): number | null {
+    // "十二" → 12, "二十" → 20, "二十三" → 23, "十" → 10, "九" → 9
+    if (!s) return null;
+    if (/^\d+$/.test(s)) return parseInt(s, 10);
+    if (CN_DIGIT[s] !== undefined) return CN_DIGIT[s];
+    // 十X
+    const m1 = /^十([一二三四五六七八九])$/.exec(s);
+    if (m1) return 10 + CN_DIGIT[m1[1]];
+    // X十 / X十Y
+    const m2 = /^([一二三四五六七八九])十([一二三四五六七八九])?$/.exec(s);
+    if (m2) return CN_DIGIT[m2[1]] * 10 + (m2[2] ? CN_DIGIT[m2[2]] : 0);
+    return null;
+}
+
+function startOfDay(y: number, m0: number, d: number): number {
+    return new Date(y, m0, d, 0, 0, 0, 0).getTime();
+}
+
+function daysInMonth(y: number, m0: number): number {
+    return new Date(y, m0 + 1, 0).getDate();
+}
+
+/** 把日级定位成 [当天 00:00, 次日 00:00) */
+function dayRange(y: number, m0: number, d: number, label: string): DateRange {
+    const start = startOfDay(y, m0, d);
+    return { start, end: startOfDay(y, m0, d + 1), label, confidence: 'exact' };
+}
+
+/** 把月级定位成 [1 号 00:00, 次月 1 号 00:00) */
+function monthRange(y: number, m0: number, label: string): DateRange {
+    const start = startOfDay(y, m0, 1);
+    const end = startOfDay(y, m0 + 1, 1);
+    return { start, end, label, confidence: 'fuzzy' };
+}
+
+/** 把年级定位成 [1 月 1 日 00:00, 次年 1 月 1 日 00:00) */
+function yearRange(y: number, label: string): DateRange {
+    const start = startOfDay(y, 0, 1);
+    const end = startOfDay(y + 1, 0, 1);
+    return { start, end, label, confidence: 'fuzzy' };
+}
+
+/**
+ * 给定月份（1-12），结合当前日期，选定"最近一次出现该月份"的年份。
+ * 例：now=2026-04，query="12月" → 2025-12（过去的 12 月）
+ *     now=2026-04，query="3月"  → 2026-03（当年刚过）
+ *     now=2026-04，query="5月"  → 2025-05（今年还没到，指向去年）
+ */
+function resolveNearestPastMonth(targetMonth1: number, now: Date): number {
+    const y = now.getFullYear();
+    const m1 = now.getMonth() + 1;
+    return targetMonth1 <= m1 ? y : y - 1;
+}
+
+// ─── 主解析 ────────────────────────────────────────────
+
+export function resolveDateReferences(query: string, now: Date = new Date()): DateRange[] {
+    const ranges: DateRange[] = [];
+    const seenLabels = new Set<string>();
+    const push = (r: DateRange | null) => {
+        if (!r) return;
+        if (seenLabels.has(r.label)) return;
+        seenLabels.add(r.label);
+        ranges.push(r);
+    };
+
+    const curY = now.getFullYear();
+    const curM0 = now.getMonth();
+    const curD = now.getDate();
+
+    // 相对年（前年/去年/今年/明年）可单独出现，也可"去年12月"这种组合
+    //   先捕获组合，再处理单独
+
+    // 1) 相对年 + 月 + 日：去年12月15日 / 去年12月15号
+    for (const m of query.matchAll(/(前年|去年|今年|明年)\s*(\d{1,2}|[一二三四五六七八九十]+)\s*月\s*(\d{1,2}|[一二三四五六七八九十]+)\s*[日号]/gu)) {
+        const yOff = { '前年': -2, '去年': -1, '今年': 0, '明年': 1 }[m[1]]!;
+        const mm = cnNumToInt(m[2]);
+        const dd = cnNumToInt(m[3]);
+        if (mm && dd && mm >= 1 && mm <= 12 && dd >= 1 && dd <= 31) {
+            const y = curY + yOff;
+            if (dd <= daysInMonth(y, mm - 1)) {
+                push(dayRange(y, mm - 1, dd, m[0]));
+            }
+        }
+    }
+
+    // 2) 相对年 + 月：去年12月
+    for (const m of query.matchAll(/(前年|去年|今年|明年)\s*(\d{1,2}|[一二三四五六七八九十]+)\s*月(?![\d一二三四五六七八九十份])/gu)) {
+        const yOff = { '前年': -2, '去年': -1, '今年': 0, '明年': 1 }[m[1]]!;
+        const mm = cnNumToInt(m[2]);
+        if (mm && mm >= 1 && mm <= 12) {
+            push(monthRange(curY + yOff, mm - 1, m[0]));
+        }
+    }
+
+    // 3) 相对年：去年（无紧跟月份）
+    for (const m of query.matchAll(/(前年|去年|今年|明年)(?![\d一二三四五六七八九十])/gu)) {
+        const yOff = { '前年': -2, '去年': -1, '今年': 0, '明年': 1 }[m[1]]!;
+        push(yearRange(curY + yOff, m[0]));
+    }
+
+    // 4) 绝对年月日：2024年12月15日 / 24年12月15号 / 2024-12-15 / 2024/12/15
+    for (const m of query.matchAll(/(\d{2,4})\s*年\s*(\d{1,2})\s*月\s*(\d{1,2})\s*[日号]?/g)) {
+        let y = parseInt(m[1], 10);
+        if (y < 100) y += 2000;
+        const mm = parseInt(m[2], 10);
+        const dd = parseInt(m[3], 10);
+        if (mm >= 1 && mm <= 12 && dd >= 1 && dd <= daysInMonth(y, mm - 1)) {
+            push(dayRange(y, mm - 1, dd, m[0]));
+        }
+    }
+    for (const m of query.matchAll(/(\d{4})[-/](\d{1,2})[-/](\d{1,2})/g)) {
+        const y = parseInt(m[1], 10);
+        const mm = parseInt(m[2], 10);
+        const dd = parseInt(m[3], 10);
+        if (mm >= 1 && mm <= 12 && dd >= 1 && dd <= daysInMonth(y, mm - 1)) {
+            push(dayRange(y, mm - 1, dd, m[0]));
+        }
+    }
+
+    // 5) 绝对年月：2024年12月 / 24年12月
+    for (const m of query.matchAll(/(\d{2,4})\s*年\s*(\d{1,2})\s*月(?![\d日号])/g)) {
+        let y = parseInt(m[1], 10);
+        if (y < 100) y += 2000;
+        const mm = parseInt(m[2], 10);
+        if (mm >= 1 && mm <= 12) {
+            push(monthRange(y, mm - 1, m[0]));
+        }
+    }
+
+    // 6) 仅年：2024年（无紧跟月份）
+    for (const m of query.matchAll(/(\d{4})\s*年(?![\d一二三四五六七八九十])/g)) {
+        const y = parseInt(m[1], 10);
+        push(yearRange(y, m[0]));
+    }
+
+    // 7) 孤立月日：3月4号 / 12月15日 / 3/4 / 12-15（无年份）→ 最近一次出现
+    //    原本用 (?<![\d年]) 排除"前面紧跟数字或年"的情况。iOS Safari <16.4 的 JSC 不支持后行断言,
+    //    改成匹配后用 m.index 检查前一字符, 行为等价 (见 utils/lookbehindFree.test.ts)。
+    for (const m of query.matchAll(/(\d{1,2}|[一二三四五六七八九十]+)\s*月\s*(\d{1,2}|[一二三四五六七八九十]+)\s*[日号]/gu)) {
+        const idx = m.index ?? 0;
+        if (idx > 0 && /[\d年]/u.test(query[idx - 1])) continue;  // 等价于 (?<![\d年])
+        const mm = cnNumToInt(m[1]);
+        const dd = cnNumToInt(m[2]);
+        if (mm && dd && mm >= 1 && mm <= 12 && dd >= 1 && dd <= 31) {
+            const y = resolveNearestPastMonth(mm, now);
+            if (dd <= daysInMonth(y, mm - 1)) {
+                push(dayRange(y, mm - 1, dd, m[0]));
+            }
+        }
+    }
+
+    // 8) 孤立月：3月 / 十二月（无年份、无后续日/号）
+    //    同 7): (?<![\d年]) 改成 m.index 检查前一字符, 避开旧 iOS 不支持的后行断言。
+    for (const m of query.matchAll(/(\d{1,2}|[一二三四五六七八九十]+)\s*月(?![\d日号份一二三四五六七八九十])/gu)) {
+        const idx = m.index ?? 0;
+        if (idx > 0 && /[\d年]/u.test(query[idx - 1])) continue;  // 等价于 (?<![\d年])
+        const mm = cnNumToInt(m[1]);
+        if (mm && mm >= 1 && mm <= 12) {
+            const y = resolveNearestPastMonth(mm, now);
+            push(monthRange(y, mm - 1, m[0]));
+        }
+    }
+
+    // 9) 相对日：昨天/前天/今天/明天/后天/大前天/大后天
+    const dayOffsets: Record<string, number> = {
+        '大前天': -3, '前天': -2, '昨天': -1, '今天': 0,
+        '明天': 1, '后天': 2, '大后天': 3,
+    };
+    for (const [kw, off] of Object.entries(dayOffsets)) {
+        if (query.includes(kw)) {
+            const target = new Date(curY, curM0, curD + off);
+            push(dayRange(target.getFullYear(), target.getMonth(), target.getDate(), kw));
+        }
+    }
+
+    // 10) 相对周：上周/上礼拜/本周/这周/下周/下礼拜
+    //    本周 = 周一 00:00 到周日 23:59
+    const dayOfWeek = now.getDay() === 0 ? 7 : now.getDay(); // 周一=1..周日=7
+    const thisMondayD = curD - (dayOfWeek - 1);
+    const thisMonday0 = startOfDay(curY, curM0, thisMondayD);
+    if (/上\s*(个)?\s*(周|礼拜|星期)/.test(query)) {
+        push({
+            start: startOfDay(curY, curM0, thisMondayD - 7),
+            end: thisMonday0,
+            label: '上周',
+            confidence: 'fuzzy',
+        });
+    }
+    if (/(本|这)\s*(周|礼拜|星期)/.test(query)) {
+        push({
+            start: thisMonday0,
+            end: startOfDay(curY, curM0, thisMondayD + 7),
+            label: '本周',
+            confidence: 'fuzzy',
+        });
+    }
+    if (/下\s*(个)?\s*(周|礼拜|星期)/.test(query)) {
+        push({
+            start: startOfDay(curY, curM0, thisMondayD + 7),
+            end: startOfDay(curY, curM0, thisMondayD + 14),
+            label: '下周',
+            confidence: 'fuzzy',
+        });
+    }
+
+    // 11) 相对月：上个月/上月/本月/这个月/下个月
+    if (/上\s*(个)?\s*月(?![\d一二三四五六七八九十份])/.test(query)) {
+        push(monthRange(curY, curM0 - 1, '上个月'));
+    }
+    if (/(本|这\s*个?)\s*月(?![\d一二三四五六七八九十份])/.test(query)) {
+        push(monthRange(curY, curM0, '本月'));
+    }
+    if (/下\s*(个)?\s*月(?![\d一二三四五六七八九十份])/.test(query)) {
+        push(monthRange(curY, curM0 + 1, '下个月'));
+    }
+
+    // 12) 最近 / 最近一周 / 最近几天（粗粒度，取 7 天）
+    if (/最近(一周|几天|这(一|几)?天)?/.test(query)) {
+        const end = startOfDay(curY, curM0, curD + 1); // 含今天
+        push({ start: startOfDay(curY, curM0, curD - 6), end, label: '最近', confidence: 'fuzzy' });
+    }
+
+    return ranges;
+}

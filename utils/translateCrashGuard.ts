@@ -1,1 +1,53 @@
-LyoqCiAqIOa1j+iniOWZqOiHquWKqOe/u+ivkeWvvOiHtCBSZWFjdCDltKnmuoPoh6rmhIgg4oCU4oCUICJGYWlsZWQgdG8gZXhlY3V0ZSAnaW5zZXJ0QmVmb3JlJy8ncmVtb3ZlQ2hpbGQnIG9uICdOb2RlJyIKICoKICog6Kem5Y+R5Zy65pmvIChDaHJvbWUgLyBFZGdlIC8g5LiJ5pif5rWP6KeI5ZmoIOetieW8gOWQr+OAjOe9kemhteiHquWKqOe/u+ivkeOAjeaXtumrmOWPkSk6CiAqICAtIOe/u+ivkeW8leaTjuS8muaKiumhtemdoumHjOeahOaWh+acrOiKgueCuSAoVGV4dCBub2RlKSDmi4blvIDjgIHmm7/mjaLjgIHlpJbpnaLlho3ljIXkuIDlsYIgPGZvbnQ+IOS5i+exu+eahOWuueWZqCwKICogICAg55u05o6l5pS55Yqo5LqGIFJlYWN0IOaJmOeuoeeahOecn+WuniBET00g57uT5p6EOwogKiAgLSDkuYvlkI4gUmVhY3Qg6LWwIHJlY29uY2lsZSDmg7MgcmVtb3ZlQ2hpbGQgLyBpbnNlcnRCZWZvcmUg5p+Q5Liq6IqC54K55pe2LCDor6XoioLngrnnmoQgcGFyZW50Tm9kZQogKiAgICDlt7Lnu4/ooqvnv7vor5HlmajmjaLmjonkuoYsIOa1j+iniOWZqOaKmyBOb3RGb3VuZEVycm9yOiAiVGhlIG5vZGUgYmVmb3JlIHdoaWNoIHRoZSBuZXcgbm9kZSBpcyB0byBiZQogKiAgICBpbnNlcnRlZCBpcyBub3QgYSBjaGlsZCBvZiB0aGlzIG5vZGUuIiDigJTigJQg5pW05LiqIEFwcCDnmb3lsY/ltKnmuoPjgIIKICogIC0g55So5oi35L6n6KGo546wOiDlhbPmjonnv7vor5HlsLHlpb3kuoYsIOS9huW8gOedgOe/u+ivkeWwseS4gOi/m+adpSAvIOS4gOWIh+aNoumhtemdouWwseaKpemUmeOAggogKgogKiDkuJrnlYzpgJrooYzop6Pms5UgKGZhY2Vib29rL3JlYWN0IzExNTM4KTog57uZIE5vZGUucHJvdG90eXBlLmluc2VydEJlZm9yZSAvIHJlbW92ZUNoaWxkIOaJk+S4quaKpOagjyDigJTigJQKICog5b2T5Y+C54Wn6IqC54K5IC8g5b6F5Yig6IqC54K555qEIHBhcmVudE5vZGUg5bey57uP5LiN5pivIHRoaXMg5pe2ICjor7TmmI7ooqvnv7vor5HlmajmkKzotbDkuoYpLCDkuI3lho3noazosIPljp/nlJ/mlrnms5XmipvplJksCiAqIOiAjOaYr+mZjee6p+WkhOeQhiAo5bC96YeP5Zyo6IqC54K555yf5q2j55qEIHBhcmVudCDkuIrooaXlgZrkuIDmrKEsIOWQpuWImemdmem7mOi/lOWbninjgIJSZWFjdCDkuIvkuIDova7muLLmn5PkvJroh6rmiJHkv67mraMsCiAqIOaXouS4jeW0qea6gywg5Lmf5LiN5b2x5ZON57+76K+R5Yqf6IO95pys6Lqr44CCCiAqCiAqIOazqOaEjzog5Y+q5Zyo5rWP6KeI5Zmo546v5aKD6KOF5LiA5qyhLCDluYLnrYnjgILlv4XpobvlnKggUmVhY3Qg5oyC6L295YmN5omn6KGMICjop4EgaW5kZXgudHN4IOmmluihjCBpbXBvcnQp44CCCiAqLwoKbGV0IGluc3RhbGxlZCA9IGZhbHNlOwoKZXhwb3J0IGNvbnN0IGluc3RhbGxUcmFuc2xhdGVDcmFzaEd1YXJkID0gKCk6IHZvaWQgPT4gewogICAgaWYgKGluc3RhbGxlZCkgcmV0dXJuOwogICAgaWYgKHR5cGVvZiBOb2RlICE9PSAnZnVuY3Rpb24nIHx8ICFOb2RlLnByb3RvdHlwZSkgcmV0dXJuOwogICAgaW5zdGFsbGVkID0gdHJ1ZTsKCiAgICBjb25zdCBvcmlnaW5hbEluc2VydEJlZm9yZSA9IE5vZGUucHJvdG90eXBlLmluc2VydEJlZm9yZTsKICAgIE5vZGUucHJvdG90eXBlLmluc2VydEJlZm9yZSA9IGZ1bmN0aW9uIDxUIGV4dGVuZHMgTm9kZT4odGhpczogTm9kZSwgbmV3Tm9kZTogVCwgcmVmZXJlbmNlTm9kZTogTm9kZSB8IG51bGwpOiBUIHsKICAgICAgICAvLyDlj4LnhafoioLngrnlrZjlnKjjgIHkvYblroPnmoTniLnlt7Lnu4/kuI3mmK8gdGhpcyDigJTigJQg57+76K+R5Zmo5oqKIERPTSDmkKzov4flrrbkuoYsIOehrOaPkuS8muaKmyBOb3RGb3VuZEVycm9y44CCCiAgICAgICAgaWYgKHJlZmVyZW5jZU5vZGUgJiYgcmVmZXJlbmNlTm9kZS5wYXJlbnROb2RlICE9PSB0aGlzKSB7CiAgICAgICAgICAgIC8vIOWwvemHj+WcqOWPgueFp+iKgueCueecn+ato+eahCBwYXJlbnQg5LiK5a6M5oiQ5o+S5YWlLCDorqnop4bop4nnu5PmnpzlsL3ph4/mraPnoa47CiAgICAgICAgICAgIGlmIChyZWZlcmVuY2VOb2RlLnBhcmVudE5vZGUpIHsKICAgICAgICAgICAgICAgIHJldHVybiBvcmlnaW5hbEluc2VydEJlZm9yZS5jYWxsKHJlZmVyZW5jZU5vZGUucGFyZW50Tm9kZSwgbmV3Tm9kZSwgcmVmZXJlbmNlTm9kZSkgYXMgVDsKICAgICAgICAgICAgfQogICAgICAgICAgICAvLyDlj4LnhafoioLngrnlt7LlvbvlupXohLHnprvmlofmoaPmoJEsIOmAgOWMluaIkCBhcHBlbmQg5YiwIHRoaXMsIOaAu+avlOW0qea6g+W8uuOAggogICAgICAgICAgICByZXR1cm4gdGhpcy5hcHBlbmRDaGlsZChuZXdOb2RlKSBhcyBUOwogICAgICAgIH0KICAgICAgICByZXR1cm4gb3JpZ2luYWxJbnNlcnRCZWZvcmUuY2FsbCh0aGlzLCBuZXdOb2RlLCByZWZlcmVuY2VOb2RlKSBhcyBUOwogICAgfSBhcyB0eXBlb2YgTm9kZS5wcm90b3R5cGUuaW5zZXJ0QmVmb3JlOwoKICAgIGNvbnN0IG9yaWdpbmFsUmVtb3ZlQ2hpbGQgPSBOb2RlLnByb3RvdHlwZS5yZW1vdmVDaGlsZDsKICAgIE5vZGUucHJvdG90eXBlLnJlbW92ZUNoaWxkID0gZnVuY3Rpb24gPFQgZXh0ZW5kcyBOb2RlPih0aGlzOiBOb2RlLCBjaGlsZDogVCk6IFQgewogICAgICAgIC8vIOW+heWIoOiKgueCueeahOeIueW3sue7j+S4jeaYryB0aGlzIOKAlOKAlCDlkIzmoLfmmK/nv7vor5HlmajmkKzlrrbmiYDoh7QsIOehrOWIoOS8muaKmyBOb3RGb3VuZEVycm9y44CCCiAgICAgICAgaWYgKGNoaWxkLnBhcmVudE5vZGUgIT09IHRoaXMpIHsKICAgICAgICAgICAgLy8g6IqC54K56Iul6L+Y5oyC5Zyo5Yir5aSELCDlsLHku47lroPnnJ/mraPnmoQgcGFyZW50IOS4iuWIoOaOiTsg5ZCm5YiZ6KeG5Li65bey6ISx56a7LCDnm7TmjqXov5Tlm57jgIIKICAgICAgICAgICAgaWYgKGNoaWxkLnBhcmVudE5vZGUpIHsKICAgICAgICAgICAgICAgIHJldHVybiBvcmlnaW5hbFJlbW92ZUNoaWxkLmNhbGwoY2hpbGQucGFyZW50Tm9kZSwgY2hpbGQpIGFzIFQ7CiAgICAgICAgICAgIH0KICAgICAgICAgICAgcmV0dXJuIGNoaWxkOwogICAgICAgIH0KICAgICAgICByZXR1cm4gb3JpZ2luYWxSZW1vdmVDaGlsZC5jYWxsKHRoaXMsIGNoaWxkKSBhcyBUOwogICAgfSBhcyB0eXBlb2YgTm9kZS5wcm90b3R5cGUucmVtb3ZlQ2hpbGQ7Cn07Cg==
+/**
+ * 浏览器自动翻译导致 React 崩溃自愈 —— "Failed to execute 'insertBefore'/'removeChild' on 'Node'"
+ *
+ * 触发场景 (Chrome / Edge / 三星浏览器 等开启「网页自动翻译」时高发):
+ *  - 翻译引擎会把页面里的文本节点 (Text node) 拆开、替换、外面再包一层 <font> 之类的容器,
+ *    直接改动了 React 托管的真实 DOM 结构;
+ *  - 之后 React 走 reconcile 想 removeChild / insertBefore 某个节点时, 该节点的 parentNode
+ *    已经被翻译器换掉了, 浏览器抛 NotFoundError: "The node before which the new node is to be
+ *    inserted is not a child of this node." —— 整个 App 白屏崩溃。
+ *  - 用户侧表现: 关掉翻译就好了, 但开着翻译就一进来 / 一切换页面就报错。
+ *
+ * 业界通行解法 (facebook/react#11538): 给 Node.prototype.insertBefore / removeChild 打个护栏 ——
+ * 当参照节点 / 待删节点的 parentNode 已经不是 this 时 (说明被翻译器搬走了), 不再硬调原生方法抛错,
+ * 而是降级处理 (尽量在节点真正的 parent 上补做一次, 否则静默返回)。React 下一轮渲染会自我修正,
+ * 既不崩溃, 也不影响翻译功能本身。
+ *
+ * 注意: 只在浏览器环境装一次, 幂等。必须在 React 挂载前执行 (见 index.tsx 首行 import)。
+ */
+
+let installed = false;
+
+export const installTranslateCrashGuard = (): void => {
+    if (installed) return;
+    if (typeof Node !== 'function' || !Node.prototype) return;
+    installed = true;
+
+    const originalInsertBefore = Node.prototype.insertBefore;
+    Node.prototype.insertBefore = function <T extends Node>(this: Node, newNode: T, referenceNode: Node | null): T {
+        // 参照节点存在、但它的爹已经不是 this —— 翻译器把 DOM 搬过家了, 硬插会抛 NotFoundError。
+        if (referenceNode && referenceNode.parentNode !== this) {
+            // 尽量在参照节点真正的 parent 上完成插入, 让视觉结果尽量正确;
+            if (referenceNode.parentNode) {
+                return originalInsertBefore.call(referenceNode.parentNode, newNode, referenceNode) as T;
+            }
+            // 参照节点已彻底脱离文档树, 退化成 append 到 this, 总比崩溃强。
+            return this.appendChild(newNode) as T;
+        }
+        return originalInsertBefore.call(this, newNode, referenceNode) as T;
+    } as typeof Node.prototype.insertBefore;
+
+    const originalRemoveChild = Node.prototype.removeChild;
+    Node.prototype.removeChild = function <T extends Node>(this: Node, child: T): T {
+        // 待删节点的爹已经不是 this —— 同样是翻译器搬家所致, 硬删会抛 NotFoundError。
+        if (child.parentNode !== this) {
+            // 节点若还挂在别处, 就从它真正的 parent 上删掉; 否则视为已脱离, 直接返回。
+            if (child.parentNode) {
+                return originalRemoveChild.call(child.parentNode, child) as T;
+            }
+            return child;
+        }
+        return originalRemoveChild.call(this, child) as T;
+    } as typeof Node.prototype.removeChild;
+};

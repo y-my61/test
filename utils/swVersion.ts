@@ -1,1 +1,58 @@
-LyoqCiAqIOafpeivouW9k+WJjea/gOa0uyBTZXJ2aWNlIFdvcmtlciDnmoTniYjmnKzlj7fjgIIKICoKICog6YCa6L+HIE1lc3NhZ2VDaGFubmVsICsgcG9zdE1lc3NhZ2Ug55qEIEdFVF9TV19WRVJTSU9OIOWNj+iuruWQkSBTVyDor6Lpl67vvIwKICogU1cg5ZyoIHdvcmtlci9zdy1rZWVwLWFsaXZlLnRzIOmHjOeUqCBldmVudC5wb3J0c1swXS5wb3N0TWVzc2FnZSh7IHZlcnNpb24gfSkg5Zue5YyF44CCCiAqCiAqIDEuNXMg5oC76LaF5pe26YCa6L+HIHJhY2Ug5pW05Liq5rWB56iL5a6e546w77yM6YG/5YWNIGBuYXZpZ2F0b3Iuc2VydmljZVdvcmtlci5yZWFkeWAKICog5Zyo5rKh5pyJIFNXIOaOpeeuoemhtemdouaXtu+8iOmakOengeaooeW8j+OAgea1j+iniOWZqOemgeeUqCBTV+OAgemmluasoeazqOWGjOWujOaIkOWJje+8ieawuOi/nCBwZW5kaW5nCiAqIOiuqeiwg+eUqOaWueS4gOebtOaMguedgOOAggogKgogKiDph4rmlL7vvJpmaW5hbGx5IOmHjCBjbGVhclRpbWVvdXQg5bm2IGNoYW5uZWwucG9ydDEuY2xvc2UoKeKAlOKAlHRpbWVvdXQg6LWi55qE5oOF5Ya15LiLCiAqIOWGhemDqCBQcm9taXNlIOawuOS4jSBzZXR0bGXvvIzkuI3kuLvliqjlhbMgcG9ydCDkvJrorqkgTWVzc2FnZUNoYW5uZWwgKyBvbm1lc3NhZ2Ug6Zet5YyFCiAqIOS4gOebtOaMguWGheWtmOmHjO+8jEJ1aWxkQmFkZ2UgLyBWZXJzaW9uSW5mbyDlj43lpI3mjILovb3kvJrntK/np6/jgIIKICoKICogQnVpbGRCYWRnZe+8iOWPs+S4i+inkuW8gOWPkeaMh+ekuuWZqO+8ieS4jiBTZXR0aW5ncyDlupXpg6jnmoTniYjmnKzkv6Hmga/pg73lpI3nlKjov5nkuKrlh73mlbDjgIIKICovCmNvbnN0IFNXX1FVRVJZX1RJTUVPVVRfTVMgPSAxNTAwOwoKZXhwb3J0IGFzeW5jIGZ1bmN0aW9uIHF1ZXJ5U3dWZXJzaW9uKCk6IFByb21pc2U8c3RyaW5nPiB7CiAgICBpZiAodHlwZW9mIG5hdmlnYXRvciA9PT0gJ3VuZGVmaW5lZCcgfHwgISgnc2VydmljZVdvcmtlcicgaW4gbmF2aWdhdG9yKSkgcmV0dXJuICc/JzsKCiAgICBsZXQgY2hhbm5lbDogTWVzc2FnZUNoYW5uZWwgfCB1bmRlZmluZWQ7CiAgICBsZXQgdGltZXI6IG51bWJlciB8IHVuZGVmaW5lZDsKICAgIC8vIGhhc1RpbWVkT3V077ya5L+d5oqk44CMcmVhZHkg5rC46L+cIHBlbmRpbmcg4oaSIHRpbWVvdXQg6LWiIOKGkiBmaW5hbGx5IOW3sui3keOAjeS5i+WQjiByZWFkeSDmiY0KICAgIC8vIOe7iOS6jiByZXNvbHZlIOeahOWcuuaZr+OAgmNoYW5uZWwgPSBuZXcgTWVzc2FnZUNoYW5uZWwoKSDlnKggYXdhaXQg5LmL5ZCO5omN5Y+R55Sf77yMCiAgICAvLyDmraTml7YgZmluYWxseSDlt7Lnu4/ov4fljrvjgIHlho3kuZ/kuI3kvJogY2xvc2UoKeKAlOKAlOW9ouaIkCLlu7bov5/ms4TmvI8i44CCCiAgICBsZXQgaGFzVGltZWRPdXQgPSBmYWxzZTsKCiAgICBjb25zdCBxdWVyeSA9IChhc3luYyAoKTogUHJvbWlzZTxzdHJpbmc+ID0+IHsKICAgICAgICBjb25zdCByZWcgPSBhd2FpdCBuYXZpZ2F0b3Iuc2VydmljZVdvcmtlci5yZWFkeTsKICAgICAgICBpZiAoaGFzVGltZWRPdXQpIHJldHVybiAnPyc7CiAgICAgICAgY29uc3QgdGFyZ2V0ID0gcmVnLmFjdGl2ZSB8fCByZWcud2FpdGluZyB8fCByZWcuaW5zdGFsbGluZzsKICAgICAgICBpZiAoIXRhcmdldCkgcmV0dXJuICc/JzsKICAgICAgICBjaGFubmVsID0gbmV3IE1lc3NhZ2VDaGFubmVsKCk7CiAgICAgICAgcmV0dXJuIGF3YWl0IG5ldyBQcm9taXNlPHN0cmluZz4oKHJlc29sdmUpID0+IHsKICAgICAgICAgICAgY2hhbm5lbCEucG9ydDEub25tZXNzYWdlID0gKGUpID0+IHJlc29sdmUoZS5kYXRhPy52ZXJzaW9uID8/ICc/Jyk7CiAgICAgICAgICAgIHRhcmdldC5wb3N0TWVzc2FnZSh7IHR5cGU6ICdHRVRfU1dfVkVSU0lPTicgfSwgW2NoYW5uZWwhLnBvcnQyXSk7CiAgICAgICAgfSk7CiAgICB9KSgpOwoKICAgIGNvbnN0IHRpbWVvdXQgPSBuZXcgUHJvbWlzZTxzdHJpbmc+KChyZXNvbHZlKSA9PiB7CiAgICAgICAgdGltZXIgPSB3aW5kb3cuc2V0VGltZW91dCgoKSA9PiB7CiAgICAgICAgICAgIGhhc1RpbWVkT3V0ID0gdHJ1ZTsKICAgICAgICAgICAgcmVzb2x2ZSgnPycpOwogICAgICAgIH0sIFNXX1FVRVJZX1RJTUVPVVRfTVMpOwogICAgfSk7CgogICAgdHJ5IHsKICAgICAgICByZXR1cm4gYXdhaXQgUHJvbWlzZS5yYWNlKFtxdWVyeSwgdGltZW91dF0pOwogICAgfSBjYXRjaCB7CiAgICAgICAgcmV0dXJuICc/JzsKICAgIH0gZmluYWxseSB7CiAgICAgICAgaWYgKHRpbWVyICE9PSB1bmRlZmluZWQpIHdpbmRvdy5jbGVhclRpbWVvdXQodGltZXIpOwogICAgICAgIC8vIOWFs+aOiSBwb3J0Me+8mnF1ZXJ5IOi1ouaXtuW3siByZXNvbHZl77yM5YWz5o6J5peg5a6z77ybdGltZW91dCDotaLml7borqnlhoXpg6ggUHJvbWlzZQogICAgICAgIC8vIOawuOi/nOS4jeS8muWGjeiiq+WklumdouaMgeacie+8jHBvcnQgKyBvbm1lc3NhZ2Ug6Zet5YyF5Y+v6KKrIEdD44CCCiAgICAgICAgY2hhbm5lbD8ucG9ydDEuY2xvc2UoKTsKICAgIH0KfQo=
+/**
+ * 查询当前激活 Service Worker 的版本号。
+ *
+ * 通过 MessageChannel + postMessage 的 GET_SW_VERSION 协议向 SW 询问，
+ * SW 在 worker/sw-keep-alive.ts 里用 event.ports[0].postMessage({ version }) 回包。
+ *
+ * 1.5s 总超时通过 race 整个流程实现，避免 `navigator.serviceWorker.ready`
+ * 在没有 SW 接管页面时（隐私模式、浏览器禁用 SW、首次注册完成前）永远 pending
+ * 让调用方一直挂着。
+ *
+ * 释放：finally 里 clearTimeout 并 channel.port1.close()——timeout 赢的情况下
+ * 内部 Promise 永不 settle，不主动关 port 会让 MessageChannel + onmessage 闭包
+ * 一直挂内存里，BuildBadge / VersionInfo 反复挂载会累积。
+ *
+ * BuildBadge（右下角开发指示器）与 Settings 底部的版本信息都复用这个函数。
+ */
+const SW_QUERY_TIMEOUT_MS = 1500;
+
+export async function querySwVersion(): Promise<string> {
+    if (typeof navigator === 'undefined' || !('serviceWorker' in navigator)) return '?';
+
+    let channel: MessageChannel | undefined;
+    let timer: number | undefined;
+    // hasTimedOut：保护「ready 永远 pending → timeout 赢 → finally 已跑」之后 ready 才
+    // 终于 resolve 的场景。channel = new MessageChannel() 在 await 之后才发生，
+    // 此时 finally 已经过去、再也不会 close()——形成"延迟泄漏"。
+    let hasTimedOut = false;
+
+    const query = (async (): Promise<string> => {
+        const reg = await navigator.serviceWorker.ready;
+        if (hasTimedOut) return '?';
+        const target = reg.active || reg.waiting || reg.installing;
+        if (!target) return '?';
+        channel = new MessageChannel();
+        return await new Promise<string>((resolve) => {
+            channel!.port1.onmessage = (e) => resolve(e.data?.version ?? '?');
+            target.postMessage({ type: 'GET_SW_VERSION' }, [channel!.port2]);
+        });
+    })();
+
+    const timeout = new Promise<string>((resolve) => {
+        timer = window.setTimeout(() => {
+            hasTimedOut = true;
+            resolve('?');
+        }, SW_QUERY_TIMEOUT_MS);
+    });
+
+    try {
+        return await Promise.race([query, timeout]);
+    } catch {
+        return '?';
+    } finally {
+        if (timer !== undefined) window.clearTimeout(timer);
+        // 关掉 port1：query 赢时已 resolve，关掉无害；timeout 赢时让内部 Promise
+        // 永远不会再被外面持有，port + onmessage 闭包可被 GC。
+        channel?.port1.close();
+    }
+}

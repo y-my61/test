@@ -1,1 +1,114 @@
-LyoqCiAqIENoYXIg6IOM5pmv6Z+zIMK3IOatjOivjeeJh+autee8k+WtmAogKgogKiDnu5kgc2NoZWR1bGUg5bGC6YKj5LiqIuatpOWIuyBjaGFyIOWcqOWQrCBYIuazqOWFpeS4gOauteeos+WumueahOatjOivjeeql+WPo++8jOW9seWTjSBjaGFyIOeahOW/g+WigyAvIOaDhee7quOAggogKiDkuI3lgZoi5b2T5YmN5pKt5pS+5Yiw5ZOq5LiA6KGMIui/meenjei/m+W6puaooeaLnyDigJTigJQgY2hhciDmsqHmnInniannkIbmkq3mlL7vvIzmi7/kuIDmrrXku6PooajmgKfmrYzor43ljbPlj6/jgIIKICoKICogLSDlkIzkuIDpppbmrYznmoTlhajph4/mrYzor43mjIkgc29uZ0lkIOmVv+S5hee8k+WtmO+8iOatjOivjeS4jeS8muWPmO+8m+WRveS4reeOh+eIhumrmO+8iQogKiAtIOeql+WPo+aMiSAoY2hhcklkICsgdG9kYXkgKyBzbG90LnN0YXJ0VGltZSArIHNvbmdJZCkg56eN5a2Q5ZOI5biM5oyR6LW354K577yMCiAqICAg5L+d6K+B5ZCM5LiA5LiqIHNsb3Qg5YaF5q+P5qyh6IGK5aSp55yL5Yiw55qE5q2M6K+N54mH5q615piv5LiA5qC355qE77yMc2xvdCDkuIDov4flsLHmjaLmiJbmtojlpLEKICogLSDmi4nlpLHotKXlsLHov5Tlm57nqbogc3RyaW5nW13vvIxwcm9tcHQg5bGC5Lya5peg5o2f6ZmN57qn5oiQIuWPquacieatjOWQjSArIOiJuuS6uiIKICovCgppbXBvcnQgeyBNdXNpY0NmZywgbXVzaWNBcGksIHBhcnNlTHlyaWMgfSBmcm9tICcuLi9jb250ZXh0L011c2ljQ29udGV4dCc7Cgpjb25zdCBNRU1fQ0FDSEUgPSBuZXcgTWFwPG51bWJlciwgc3RyaW5nW10gfCBudWxsPigpOyAgLy8gbnVsbCA9IOW3suefpeayoeacieatjOivjQpjb25zdCBJTkZMSUdIVCA9IG5ldyBNYXA8bnVtYmVyLCBQcm9taXNlPHN0cmluZ1tdIHwgbnVsbD4+KCk7Cgpjb25zdCBMU19LRVkgPSAoaWQ6IG51bWJlcikgPT4gYHN1bGx5X2NoYXJfbHlyaWNfdjFfJHtpZH1gOwpjb25zdCBMU19NRVRBX0tFWSA9ICdzdWxseV9jaGFyX2x5cmljX21ldGFfdjEnOwpjb25zdCBMU19DQVAgPSAyMDA7ICAvLyDmnKzlnLDlrZjnmoTmrYzmnIDlpJogMjAwIOmmlu+8jOi2heS6huaMiSBMUlUg5reY5rGwCgp0eXBlIEx5cmljRW50cnkgPSB7IHRleHQ6IHN0cmluZ1tdIHwgbnVsbDsgYXQ6IG51bWJlciB9OwoKY29uc3QgbG9hZEZyb21MUyA9IChpZDogbnVtYmVyKTogTHlyaWNFbnRyeSB8IG51bGwgPT4gewogICAgdHJ5IHsKICAgICAgICBjb25zdCByYXcgPSBsb2NhbFN0b3JhZ2UuZ2V0SXRlbShMU19LRVkoaWQpKTsKICAgICAgICBpZiAoIXJhdykgcmV0dXJuIG51bGw7CiAgICAgICAgY29uc3QgaiA9IEpTT04ucGFyc2UocmF3KTsKICAgICAgICBpZiAoIWogfHwgIUFycmF5LmlzQXJyYXkoai50ZXh0KSAmJiBqLnRleHQgIT09IG51bGwpIHJldHVybiBudWxsOwogICAgICAgIHJldHVybiBqIGFzIEx5cmljRW50cnk7CiAgICB9IGNhdGNoIHsgcmV0dXJuIG51bGw7IH0KfTsKCmNvbnN0IHNhdmVUb0xTID0gKGlkOiBudW1iZXIsIHRleHQ6IHN0cmluZ1tdIHwgbnVsbCkgPT4gewogICAgdHJ5IHsKICAgICAgICBsb2NhbFN0b3JhZ2Uuc2V0SXRlbShMU19LRVkoaWQpLCBKU09OLnN0cmluZ2lmeSh7IHRleHQsIGF0OiBEYXRlLm5vdygpIH0pKTsKICAgICAgICAvLyDnu7TmiqQgbWV0YSDntKLlvJXlgZogTFJVIOa3mOaxsAogICAgICAgIGNvbnN0IG1ldGFSYXcgPSBsb2NhbFN0b3JhZ2UuZ2V0SXRlbShMU19NRVRBX0tFWSk7CiAgICAgICAgY29uc3QgbWV0YTogbnVtYmVyW10gPSBtZXRhUmF3ID8gSlNPTi5wYXJzZShtZXRhUmF3KSA6IFtdOwogICAgICAgIGNvbnN0IG5leHQgPSBbaWQsIC4uLm1ldGEuZmlsdGVyKHggPT4geCAhPT0gaWQpXS5zbGljZSgwLCBMU19DQVApOwogICAgICAgIGxvY2FsU3RvcmFnZS5zZXRJdGVtKExTX01FVEFfS0VZLCBKU09OLnN0cmluZ2lmeShuZXh0KSk7CiAgICAgICAgLy8g5reY5rGw5aSa5Ye65p2l55qECiAgICAgICAgaWYgKG1ldGEubGVuZ3RoID49IExTX0NBUCkgewogICAgICAgICAgICBmb3IgKGNvbnN0IGdvbmUgb2YgbWV0YS5zbGljZShMU19DQVAgLSAxKSkgewogICAgICAgICAgICAgICAgaWYgKGdvbmUgIT09IGlkKSBsb2NhbFN0b3JhZ2UucmVtb3ZlSXRlbShMU19LRVkoZ29uZSkpOwogICAgICAgICAgICB9CiAgICAgICAgfQogICAgfSBjYXRjaCB7fQp9OwoKLyoqIOaLieS4gOmmluatjOeahOWFqOmHj+atjOivjeihjOaWh+acrO+8jOW4puWPjOWxgue8k+WtmO+8iG1lbSArIGxvY2FsU3RvcmFnZe+8iSAqLwpjb25zdCBnZXRGdWxsTHlyaWMgPSBhc3luYyAoY2ZnOiBNdXNpY0NmZywgc29uZ0lkOiBudW1iZXIpOiBQcm9taXNlPHN0cmluZ1tdIHwgbnVsbD4gPT4gewogICAgaWYgKE1FTV9DQUNIRS5oYXMoc29uZ0lkKSkgcmV0dXJuIE1FTV9DQUNIRS5nZXQoc29uZ0lkKSE7CgogICAgY29uc3QgZnJvbUxTID0gbG9hZEZyb21MUyhzb25nSWQpOwogICAgaWYgKGZyb21MUykgewogICAgICAgIE1FTV9DQUNIRS5zZXQoc29uZ0lkLCBmcm9tTFMudGV4dCk7CiAgICAgICAgcmV0dXJuIGZyb21MUy50ZXh0OwogICAgfQoKICAgIC8vIOWOu+mHjSBpbi1mbGlnaHTvvIjlkIzkuIDpppbmrYzlubblj5HlpJrmrKHosIPnlKjlj6rmiZPkuIDmrKHnvZHvvIkKICAgIGNvbnN0IGV4aXN0aW5nID0gSU5GTElHSFQuZ2V0KHNvbmdJZCk7CiAgICBpZiAoZXhpc3RpbmcpIHJldHVybiBleGlzdGluZzsKCiAgICBjb25zdCBwID0gKGFzeW5jICgpID0+IHsKICAgICAgICB0cnkgewogICAgICAgICAgICBjb25zdCByID0gYXdhaXQgbXVzaWNBcGkubHlyaWMoY2ZnLCBzb25nSWQpOwogICAgICAgICAgICBjb25zdCByYXcgPSByPy5scmM/Lmx5cmljIHx8ICcnOwogICAgICAgICAgICBjb25zdCBsaW5lcyA9IHBhcnNlTHlyaWMocmF3KS5tYXAobCA9PiBsLnRleHQpLmZpbHRlcihCb29sZWFuKTsKICAgICAgICAgICAgY29uc3QgcmVzdWx0ID0gbGluZXMubGVuZ3RoID4gMCA/IGxpbmVzIDogbnVsbDsKICAgICAgICAgICAgTUVNX0NBQ0hFLnNldChzb25nSWQsIHJlc3VsdCk7CiAgICAgICAgICAgIHNhdmVUb0xTKHNvbmdJZCwgcmVzdWx0KTsKICAgICAgICAgICAgcmV0dXJuIHJlc3VsdDsKICAgICAgICB9IGNhdGNoIHsKICAgICAgICAgICAgLy8g5ouJ5aSx6LSl5LiNIHBvaXNvbnMg57yT5a2Y77yI5LiL5LiA5LiqIHNsb3Qg5pyJ5py65Lya6YeN6K+V77yJCiAgICAgICAgICAgIHJldHVybiBudWxsOwogICAgICAgIH0gZmluYWxseSB7CiAgICAgICAgICAgIElORkxJR0hULmRlbGV0ZShzb25nSWQpOwogICAgICAgIH0KICAgIH0pKCk7CiAgICBJTkZMSUdIVC5zZXQoc29uZ0lkLCBwKTsKICAgIHJldHVybiBwOwp9OwoKLyoqIOeUqOe7meWumuenjeWtkOS4sueos+WumuWcsOWPluS4gOautSBsaW5lQ291bnQg6KGM55qE56qX5Y+jICovCmNvbnN0IHBpY2tXaW5kb3cgPSAobGluZXM6IHN0cmluZ1tdLCBzZWVkOiBzdHJpbmcsIGxpbmVDb3VudDogbnVtYmVyKTogc3RyaW5nW10gPT4gewogICAgaWYgKGxpbmVzLmxlbmd0aCA9PT0gMCkgcmV0dXJuIFtdOwogICAgaWYgKGxpbmVzLmxlbmd0aCA8PSBsaW5lQ291bnQpIHJldHVybiBsaW5lcy5zbGljZSgpOwogICAgbGV0IGggPSAwOwogICAgZm9yIChjb25zdCBjaCBvZiBzZWVkKSBoID0gKGggKiAzMSArIGNoLmNoYXJDb2RlQXQoMCkpID4+PiAwOwogICAgY29uc3QgbWF4U3RhcnQgPSBsaW5lcy5sZW5ndGggLSBsaW5lQ291bnQ7CiAgICBjb25zdCBzdGFydCA9IGggJSAobWF4U3RhcnQgKyAxKTsKICAgIHJldHVybiBsaW5lcy5zbGljZShzdGFydCwgc3RhcnQgKyBsaW5lQ291bnQpOwp9OwoKLyoqCiAqIOaLvyBjaGFyIOatpOWIu+W6lOivpSLlkKzliLAi55qE6YKj5q615q2M6K+N77yI56iz5a6a44CB5pyJ6ZmQ6KGM44CB57qv5Y+q6K+777yJ44CCCiAqIEBwYXJhbSBjZmcgTXVzaWNDb250ZXh0IOmHjOmCo+S7vSBNdXNpY0NmZ++8iHdvcmtlclVybCArIGNvb2tpZSArIHF1YWxpdHnvvIkKICogQHBhcmFtIHNvbmdJZCDmrYznmoQgaWQKICogQHBhcmFtIHNlZWQg5LiA6Iis5LygIGAke2NoYXJJZH0tJHt0b2RheX0tJHtzbG90LnN0YXJ0VGltZX0tJHtzb25nSWR9YAogKiBAcGFyYW0gbGluZUNvdW50IOm7mOiupCA2IOihjO+8jOi2s+Wkn+iuqSBMTE0g5ZOB5ZGz5Yiw5oOF57uq5L2G5LiN5Lya5pKR54iGIHByb21wdAogKiBAcmV0dXJucyDkuIDmrrXov57nu63nmoTmrYzor43ooYzvvIjlj6/og73kuLogW13vvIzlpoLmrYzor43mi4nkuI3liLDmiJbmmK/nuq/pn7PkuZDvvIkKICovCmV4cG9ydCBjb25zdCBnZXRDaGFyTHlyaWNTbmlwcGV0ID0gYXN5bmMgKAogICAgY2ZnOiBNdXNpY0NmZywKICAgIHNvbmdJZDogbnVtYmVyLAogICAgc2VlZDogc3RyaW5nLAogICAgbGluZUNvdW50OiBudW1iZXIgPSA2LAopOiBQcm9taXNlPHN0cmluZ1tdPiA9PiB7CiAgICBpZiAoIXNvbmdJZCB8fCAhY2ZnPy53b3JrZXJVcmwpIHJldHVybiBbXTsKICAgIGNvbnN0IGZ1bGwgPSBhd2FpdCBnZXRGdWxsTHlyaWMoY2ZnLCBzb25nSWQpOwogICAgaWYgKCFmdWxsIHx8IGZ1bGwubGVuZ3RoID09PSAwKSByZXR1cm4gW107CiAgICByZXR1cm4gcGlja1dpbmRvdyhmdWxsLCBzZWVkLCBsaW5lQ291bnQpOwp9Owo=
+/**
+ * Char 背景音 · 歌词片段缓存
+ *
+ * 给 schedule 层那个"此刻 char 在听 X"注入一段稳定的歌词窗口，影响 char 的心境 / 情绪。
+ * 不做"当前播放到哪一行"这种进度模拟 —— char 没有物理播放，拿一段代表性歌词即可。
+ *
+ * - 同一首歌的全量歌词按 songId 长久缓存（歌词不会变；命中率爆高）
+ * - 窗口按 (charId + today + slot.startTime + songId) 种子哈希挑起点，
+ *   保证同一个 slot 内每次聊天看到的歌词片段是一样的，slot 一过就换或消失
+ * - 拉失败就返回空 string[]，prompt 层会无损降级成"只有歌名 + 艺人"
+ */
+
+import { MusicCfg, musicApi, parseLyric } from '../context/MusicContext';
+
+const MEM_CACHE = new Map<number, string[] | null>();  // null = 已知没有歌词
+const INFLIGHT = new Map<number, Promise<string[] | null>>();
+
+const LS_KEY = (id: number) => `sully_char_lyric_v1_${id}`;
+const LS_META_KEY = 'sully_char_lyric_meta_v1';
+const LS_CAP = 200;  // 本地存的歌最多 200 首，超了按 LRU 淘汰
+
+type LyricEntry = { text: string[] | null; at: number };
+
+const loadFromLS = (id: number): LyricEntry | null => {
+    try {
+        const raw = localStorage.getItem(LS_KEY(id));
+        if (!raw) return null;
+        const j = JSON.parse(raw);
+        if (!j || !Array.isArray(j.text) && j.text !== null) return null;
+        return j as LyricEntry;
+    } catch { return null; }
+};
+
+const saveToLS = (id: number, text: string[] | null) => {
+    try {
+        localStorage.setItem(LS_KEY(id), JSON.stringify({ text, at: Date.now() }));
+        // 维护 meta 索引做 LRU 淘汰
+        const metaRaw = localStorage.getItem(LS_META_KEY);
+        const meta: number[] = metaRaw ? JSON.parse(metaRaw) : [];
+        const next = [id, ...meta.filter(x => x !== id)].slice(0, LS_CAP);
+        localStorage.setItem(LS_META_KEY, JSON.stringify(next));
+        // 淘汰多出来的
+        if (meta.length >= LS_CAP) {
+            for (const gone of meta.slice(LS_CAP - 1)) {
+                if (gone !== id) localStorage.removeItem(LS_KEY(gone));
+            }
+        }
+    } catch {}
+};
+
+/** 拉一首歌的全量歌词行文本，带双层缓存（mem + localStorage） */
+const getFullLyric = async (cfg: MusicCfg, songId: number): Promise<string[] | null> => {
+    if (MEM_CACHE.has(songId)) return MEM_CACHE.get(songId)!;
+
+    const fromLS = loadFromLS(songId);
+    if (fromLS) {
+        MEM_CACHE.set(songId, fromLS.text);
+        return fromLS.text;
+    }
+
+    // 去重 in-flight（同一首歌并发多次调用只打一次网）
+    const existing = INFLIGHT.get(songId);
+    if (existing) return existing;
+
+    const p = (async () => {
+        try {
+            const r = await musicApi.lyric(cfg, songId);
+            const raw = r?.lrc?.lyric || '';
+            const lines = parseLyric(raw).map(l => l.text).filter(Boolean);
+            const result = lines.length > 0 ? lines : null;
+            MEM_CACHE.set(songId, result);
+            saveToLS(songId, result);
+            return result;
+        } catch {
+            // 拉失败不 poisons 缓存（下一个 slot 有机会重试）
+            return null;
+        } finally {
+            INFLIGHT.delete(songId);
+        }
+    })();
+    INFLIGHT.set(songId, p);
+    return p;
+};
+
+/** 用给定种子串稳定地取一段 lineCount 行的窗口 */
+const pickWindow = (lines: string[], seed: string, lineCount: number): string[] => {
+    if (lines.length === 0) return [];
+    if (lines.length <= lineCount) return lines.slice();
+    let h = 0;
+    for (const ch of seed) h = (h * 31 + ch.charCodeAt(0)) >>> 0;
+    const maxStart = lines.length - lineCount;
+    const start = h % (maxStart + 1);
+    return lines.slice(start, start + lineCount);
+};
+
+/**
+ * 拿 char 此刻应该"听到"的那段歌词（稳定、有限行、纯只读）。
+ * @param cfg MusicContext 里那份 MusicCfg（workerUrl + cookie + quality）
+ * @param songId 歌的 id
+ * @param seed 一般传 `${charId}-${today}-${slot.startTime}-${songId}`
+ * @param lineCount 默认 6 行，足够让 LLM 品味到情绪但不会撑爆 prompt
+ * @returns 一段连续的歌词行（可能为 []，如歌词拉不到或是纯音乐）
+ */
+export const getCharLyricSnippet = async (
+    cfg: MusicCfg,
+    songId: number,
+    seed: string,
+    lineCount: number = 6,
+): Promise<string[]> => {
+    if (!songId || !cfg?.workerUrl) return [];
+    const full = await getFullLyric(cfg, songId);
+    if (!full || full.length === 0) return [];
+    return pickWindow(full, seed, lineCount);
+};

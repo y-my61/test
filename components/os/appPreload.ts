@@ -1,1 +1,75 @@
-aW1wb3J0IHsgQXBwSUQgfSBmcm9tICcuLi8uLi90eXBlcyc7CmltcG9ydCB7IGlzSU9TU3RhbmRhbG9uZVdlYkFwcCB9IGZyb20gJy4uLy4uL3V0aWxzL2lvc1N0YW5kYWxvbmUnOwoKLy8gQXBwSUQg4oaSIOivpSBBcHAg5Luj56CB5Z2X55qEIGltcG9ydCDlt6XljoLvvIjot6/lvoTnm7jlr7nmnKzmlofku7YgY29tcG9uZW50cy9vcy/vvInjgIIKLy8g5LiOIFBob25lU2hlbGwg55qEIGxhenkg5a6a5LmJ5oyH5ZCR5ZCM5LiA5om55qih5Z2X77ybVml0ZSDmjInmqKHlnZcgVVJMIOWOu+mHje+8jAovLyDjgIzmjInkuIvljbPpooTlj5bjgI3kuI7jgIznqbrpl7LpooTlj5Yv5oeS5Yqg6L2944CN5YWx55So5ZCM5LiA5Lu9IGNodW5r77yM57ud5LiN6YeN5aSN5LiL6L2944CCCi8vIOaWsOWiniBBcHAg5pe26Iul5b+Y6K6w5Zyo5q2k55m76K6w77yM5LuF5Lya5bCR5LiA5qyh5oyJ5LiL6aKE5Y+W5LyY5YyW77yM5LiN5b2x5ZON5Yqf6IO977yI5omT5byA5pe254Wn5bi45oeS5Yqg6L2977yJ44CCCmNvbnN0IGltcG9ydGVyczogUGFydGlhbDxSZWNvcmQ8QXBwSUQsICgpID0+IFByb21pc2U8dW5rbm93bj4+PiA9IHsKICBbQXBwSUQuU2V0dGluZ3NdOiAoKSA9PiBpbXBvcnQoJy4uLy4uL2FwcHMvU2V0dGluZ3MnKSwKICBbQXBwSUQuQ2hhcmFjdGVyXTogKCkgPT4gaW1wb3J0KCcuLi8uLi9hcHBzL0NoYXJhY3RlcicpLAogIFtBcHBJRC5DaGF0XTogKCkgPT4gaW1wb3J0KCcuLi8uLi9hcHBzL0NoYXQnKSwKICBbQXBwSUQuR3JvdXBDaGF0XTogKCkgPT4gaW1wb3J0KCcuLi8uLi9hcHBzL0dyb3VwQ2hhdCcpLAogIFtBcHBJRC5UaGVtZU1ha2VyXTogKCkgPT4gaW1wb3J0KCcuLi8uLi9hcHBzL1RoZW1lTWFrZXInKSwKICBbQXBwSUQuQXBwZWFyYW5jZV06ICgpID0+IGltcG9ydCgnLi4vLi4vYXBwcy9BcHBlYXJhbmNlJyksCiAgW0FwcElELkdhbGxlcnldOiAoKSA9PiBpbXBvcnQoJy4uLy4uL2FwcHMvR2FsbGVyeScpLAogIFtBcHBJRC5EYXRlXTogKCkgPT4gaW1wb3J0KCcuLi8uLi9hcHBzL0RhdGVBcHAnKSwKICBbQXBwSUQuVXNlcl06ICgpID0+IGltcG9ydCgnLi4vLi4vYXBwcy9Vc2VyQXBwJyksCiAgW0FwcElELkpvdXJuYWxdOiAoKSA9PiBpbXBvcnQoJy4uLy4uL2FwcHMvSm91cm5hbEFwcCcpLAogIFtBcHBJRC5TY2hlZHVsZV06ICgpID0+IGltcG9ydCgnLi4vLi4vYXBwcy9TY2hlZHVsZUFwcCcpLAogIFtBcHBJRC5Sb29tXTogKCkgPT4gaW1wb3J0KCcuLi8uLi9hcHBzL1Jvb21BcHAnKSwKICBbQXBwSUQuQ2hlY2tQaG9uZV06ICgpID0+IGltcG9ydCgnLi4vLi4vYXBwcy9DaGVja1Bob25lJyksCiAgW0FwcElELlNvY2lhbF06ICgpID0+IGltcG9ydCgnLi4vLi4vYXBwcy9Tb2NpYWxBcHAnKSwKICBbQXBwSUQuU3R1ZHldOiAoKSA9PiBpbXBvcnQoJy4uLy4uL2FwcHMvU3R1ZHlBcHAnKSwKICBbQXBwSUQuRkFRXTogKCkgPT4gaW1wb3J0KCcuLi8uLi9hcHBzL0ZBUUFwcCcpLAogIFtBcHBJRC5HYW1lXTogKCkgPT4gaW1wb3J0KCcuLi8uLi9hcHBzL0dhbWVBcHAnKSwKICBbQXBwSUQuV29ybGRib29rXTogKCkgPT4gaW1wb3J0KCcuLi8uLi9hcHBzL1dvcmxkYm9va0FwcCcpLAogIFtBcHBJRC5Ob3ZlbF06ICgpID0+IGltcG9ydCgnLi4vLi4vYXBwcy9Ob3ZlbEFwcCcpLAogIFtBcHBJRC5CYW5rXTogKCkgPT4gaW1wb3J0KCcuLi8uLi9hcHBzL0JhbmtBcHAnKSwKICBbQXBwSUQuWGhzU3RvY2tdOiAoKSA9PiBpbXBvcnQoJy4uLy4uL2FwcHMvWGhzU3RvY2tBcHAnKSwKICBbQXBwSUQuWGhzRnJlZVJvYW1dOiAoKSA9PiBpbXBvcnQoJy4uLy4uL2FwcHMvWGhzRnJlZVJvYW1BcHAnKSwKICBbQXBwSUQuQnJvd3Nlcl06ICgpID0+IGltcG9ydCgnLi4vLi4vYXBwcy9Ccm93c2VyQXBwJyksCiAgW0FwcElELlNvbmd3cml0aW5nXTogKCkgPT4gaW1wb3J0KCcuLi8uLi9hcHBzL1Nvbmd3cml0aW5nQXBwJyksCiAgW0FwcElELk11c2ljXTogKCkgPT4gaW1wb3J0KCcuLi8uLi9hcHBzL011c2ljQXBwJyksCiAgW0FwcElELkNhbGxdOiAoKSA9PiBpbXBvcnQoJy4uLy4uL2FwcHMvQ2FsbEFwcCcpLAogIFtBcHBJRC5Wb2ljZURlc2lnbmVyXTogKCkgPT4gaW1wb3J0KCcuLi8uLi9hcHBzL1ZvaWNlRGVzaWduZXJBcHAnKSwKICBbQXBwSUQuR3VpZGVib29rXTogKCkgPT4gaW1wb3J0KCcuLi8uLi9hcHBzL0d1aWRlYm9va0FwcCcpLAogIFtBcHBJRC5MaWZlU2ltXTogKCkgPT4gaW1wb3J0KCcuLi8uLi9hcHBzL0xpZmVTaW1BcHAnKSwKICBbQXBwSUQuTWVtb3J5UGFsYWNlXTogKCkgPT4gaW1wb3J0KCcuLi8uLi9hcHBzL01lbW9yeVBhbGFjZUFwcCcpLAogIFtBcHBJRC5IYW5kYm9va106ICgpID0+IGltcG9ydCgnLi4vLi4vYXBwcy9IYW5kYm9va0FwcCcpLAogIFtBcHBJRC5RUUJyaWRnZV06ICgpID0+IGltcG9ydCgnLi4vLi4vYXBwcy9RUUJyaWRnZScpLAogIFtBcHBJRC5Ib3ROZXdzXTogKCkgPT4gaW1wb3J0KCcuLi8uLi9hcHBzL0hvdE5ld3NBcHAnKSwKICBbQXBwSUQuU3BlY2lhbE1vbWVudHNdOiAoKSA9PiBpbXBvcnQoJy4uL1ZhbGVudGluZUV2ZW50JyksCiAgW0FwcElELlZSV29ybGRdOiAoKSA9PiBpbXBvcnQoJy4uLy4uL2FwcHMvVlJXb3JsZEFwcCcpLAogIFtBcHBJRC5DaGFyQ3JlYXRvckRldl06ICgpID0+IGltcG9ydCgnLi4vLi4vYXBwcy9DaGFyQ3JlYXRvckRldkFwcCcpLAp9OwoKLy8g5bey5Y+R6LW36aKE5Y+W55qEIEFwcO+8iOWOu+mHje+8jOmBv+WFjeWQjOS4gOWbvuagh+WkmuasoSBwb2ludGVyZG93biDph43lpI3op6blj5HvvInjgIIKY29uc3QgcmVxdWVzdGVkID0gbmV3IFNldDxBcHBJRD4oKTsKCmNvbnN0IElPU19TVEFOREFMT05FX1NBRkVfUFJFTE9BRF9BUFBTID0gbmV3IFNldDxBcHBJRD4oWwogIEFwcElELkNoYXJhY3RlciwKICBBcHBJRC5DYWxsLAogIEFwcElELlJvb20sCl0pOwoKLy8g6LSf6L296aKE54Ot5oyC6ZKp77ya55SxIFBob25lU2hlbGwg5rOo5YWl77yM5oyJIEFwcElEIOino+aekOWvueW6lCBSZWFjdC5sYXp5IOeahOi0n+i9veacrOi6qwovLyDvvIjkuI3ku4XkuIvovb3mqKHlnZfvvInvvIzkvb/pppbmrKHmiZPlvIDkuI3lho0gc3VzcGVuZOOAgeaXoOWIh+aNoueerOmXtOmcsuW6leiJsueahOmXqueDgeOAggovLyDop6PogKbmlL7ov5nph4zmmK/kuLrkuoborqkgQXBwSWNvbu+8iHBvaW50ZXJkb3du77yJ5Lmf6IO96Kem5Y+R77yM6ICM5peg6ZyA55u05o6l5L6d6LWWIFBob25lU2hlbGwg55qEIGxhenkg5a6a5LmJ44CCCmxldCBwYXlsb2FkV2FybWVyOiAoKGlkOiBBcHBJRCkgPT4gdm9pZCkgfCBudWxsID0gbnVsbDsKZXhwb3J0IGNvbnN0IHNldEFwcFBheWxvYWRXYXJtZXIgPSAoZm46IChpZDogQXBwSUQpID0+IHZvaWQpOiB2b2lkID0+IHsgcGF5bG9hZFdhcm1lciA9IGZuOyB9OwoKLyoqCiAqIOOAjOaMieS4i+WNs+mihOWPluOAje+8muaJi+aMh+WImuaMieWIsOWbvuagh++8iHBvaW50ZXJkb3du77yM5pep5LqOIHRhcCDlrozmiJDnuqYgMTAwbXPvvInljbPpooTng63or6UgQXBw44CCCiAqIOWFnOS9j+OAjOW8gOacuuWQjuepuumXsumihOWPlui/mOayoei9ruWIsOOAgeeUqOaIt+WwseaKouWFiOeCueS6huafkOS4quWGt+mXqCBBcHDjgI3nmoTmnoHnq6/mg4XlhrXjgIIKICog5LyY5YWI6LWw6LSf6L296aKE54Ot77yI6L+eIFJlYWN0Lmxhenkg6LSf6L295LiA6LW36Kej5p6QIOKGkiDml6Dpl6rng4HvvInvvJvmnKrms6jlhaXml7bpgIDljJbkuLrku4XpooTng60gVml0ZSDmqKHlnZfjgIIKICovCmV4cG9ydCBjb25zdCBwcmVsb2FkQXBwID0gKGlkOiBBcHBJRCk6IHZvaWQgPT4gewogIGlmIChpc0lPU1N0YW5kYWxvbmVXZWJBcHAoKSAmJiAhSU9TX1NUQU5EQUxPTkVfU0FGRV9QUkVMT0FEX0FQUFMuaGFzKGlkKSkgcmV0dXJuOwogIGlmIChyZXF1ZXN0ZWQuaGFzKGlkKSkgcmV0dXJuOwogIHJlcXVlc3RlZC5hZGQoaWQpOwogIGlmIChwYXlsb2FkV2FybWVyKSB7IHBheWxvYWRXYXJtZXIoaWQpOyByZXR1cm47IH0KICBjb25zdCBmYWN0b3J5ID0gaW1wb3J0ZXJzW2lkXTsKICBpZiAoZmFjdG9yeSkgUHJvbWlzZS5yZXNvbHZlKGZhY3RvcnkoKSkuY2F0Y2goKCkgPT4geyByZXF1ZXN0ZWQuZGVsZXRlKGlkKTsgfSk7CiAgZWxzZSByZXF1ZXN0ZWQuZGVsZXRlKGlkKTsKfTsK
+import { AppID } from '../../types';
+import { isIOSStandaloneWebApp } from '../../utils/iosStandalone';
+
+// AppID → 该 App 代码块的 import 工厂（路径相对本文件 components/os/）。
+// 与 PhoneShell 的 lazy 定义指向同一批模块；Vite 按模块 URL 去重，
+// 「按下即预取」与「空闲预取/懒加载」共用同一份 chunk，绝不重复下载。
+// 新增 App 时若忘记在此登记，仅会少一次按下预取优化，不影响功能（打开时照常懒加载）。
+const importers: Partial<Record<AppID, () => Promise<unknown>>> = {
+  [AppID.Settings]: () => import('../../apps/Settings'),
+  [AppID.Character]: () => import('../../apps/Character'),
+  [AppID.Chat]: () => import('../../apps/Chat'),
+  [AppID.GroupChat]: () => import('../../apps/GroupChat'),
+  [AppID.ThemeMaker]: () => import('../../apps/ThemeMaker'),
+  [AppID.Appearance]: () => import('../../apps/Appearance'),
+  [AppID.Gallery]: () => import('../../apps/Gallery'),
+  [AppID.Date]: () => import('../../apps/DateApp'),
+  [AppID.User]: () => import('../../apps/UserApp'),
+  [AppID.Journal]: () => import('../../apps/JournalApp'),
+  [AppID.Schedule]: () => import('../../apps/ScheduleApp'),
+  [AppID.Room]: () => import('../../apps/RoomApp'),
+  [AppID.CheckPhone]: () => import('../../apps/CheckPhone'),
+  [AppID.Social]: () => import('../../apps/SocialApp'),
+  [AppID.Study]: () => import('../../apps/StudyApp'),
+  [AppID.FAQ]: () => import('../../apps/FAQApp'),
+  [AppID.Game]: () => import('../../apps/GameApp'),
+  [AppID.Worldbook]: () => import('../../apps/WorldbookApp'),
+  [AppID.Novel]: () => import('../../apps/NovelApp'),
+  [AppID.Bank]: () => import('../../apps/BankApp'),
+  [AppID.XhsStock]: () => import('../../apps/XhsStockApp'),
+  [AppID.XhsFreeRoam]: () => import('../../apps/XhsFreeRoamApp'),
+  [AppID.Browser]: () => import('../../apps/BrowserApp'),
+  [AppID.Songwriting]: () => import('../../apps/SongwritingApp'),
+  [AppID.Music]: () => import('../../apps/MusicApp'),
+  [AppID.Call]: () => import('../../apps/CallApp'),
+  [AppID.VoiceDesigner]: () => import('../../apps/VoiceDesignerApp'),
+  [AppID.Guidebook]: () => import('../../apps/GuidebookApp'),
+  [AppID.LifeSim]: () => import('../../apps/LifeSimApp'),
+  [AppID.MemoryPalace]: () => import('../../apps/MemoryPalaceApp'),
+  [AppID.Handbook]: () => import('../../apps/HandbookApp'),
+  [AppID.QQBridge]: () => import('../../apps/QQBridge'),
+  [AppID.HotNews]: () => import('../../apps/HotNewsApp'),
+  [AppID.SpecialMoments]: () => import('../ValentineEvent'),
+  [AppID.VRWorld]: () => import('../../apps/VRWorldApp'),
+  [AppID.CharCreatorDev]: () => import('../../apps/CharCreatorDevApp'),
+};
+
+// 已发起预取的 App（去重，避免同一图标多次 pointerdown 重复触发）。
+const requested = new Set<AppID>();
+
+const IOS_STANDALONE_SAFE_PRELOAD_APPS = new Set<AppID>([
+  AppID.Character,
+  AppID.Call,
+  AppID.Room,
+]);
+
+// 负载预热挂钩：由 PhoneShell 注入，按 AppID 解析对应 React.lazy 的负载本身
+// （不仅下载模块），使首次打开不再 suspend、无切换瞬间露底色的闪烁。
+// 解耦放这里是为了让 AppIcon（pointerdown）也能触发，而无需直接依赖 PhoneShell 的 lazy 定义。
+let payloadWarmer: ((id: AppID) => void) | null = null;
+export const setAppPayloadWarmer = (fn: (id: AppID) => void): void => { payloadWarmer = fn; };
+
+/**
+ * 「按下即预取」：手指刚按到图标（pointerdown，早于 tap 完成约 100ms）即预热该 App。
+ * 兜住「开机后空闲预取还没轮到、用户就抢先点了某个冷门 App」的极端情况。
+ * 优先走负载预热（连 React.lazy 负载一起解析 → 无闪烁）；未注入时退化为仅预热 Vite 模块。
+ */
+export const preloadApp = (id: AppID): void => {
+  if (isIOSStandaloneWebApp() && !IOS_STANDALONE_SAFE_PRELOAD_APPS.has(id)) return;
+  if (requested.has(id)) return;
+  requested.add(id);
+  if (payloadWarmer) { payloadWarmer(id); return; }
+  const factory = importers[id];
+  if (factory) Promise.resolve(factory()).catch(() => { requested.delete(id); });
+  else requested.delete(id);
+};

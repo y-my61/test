@@ -1,1 +1,388 @@
-LyoqCiAqIFByb2FjdGl2ZSBDaGF0IC0gc2NoZWR1bGUgY2hhcmFjdGVycyB0byBzZW5kIG1lc3NhZ2VzIGF0IHJlZ3VsYXIgaW50ZXJ2YWxzLgogKgogKiBIb3cgaXQgd29ya3M6CiAqICAxLiBFYWNoIGNoYXJhY3RlciBjYW4gcGVyc2lzdCBhbiBpbmRlcGVuZGVudCBwcm9hY3RpdmUgc2NoZWR1bGUuCiAqICAyLiBUaGUgU1cga2VlcHMgdGltZXJzIGZvciBhbGwgYWN0aXZlIHNjaGVkdWxlcyBhbmQgcG9zdHMgJ3Byb2FjdGl2ZS10cmlnZ2VyJwogKiAgICAgd2l0aCB0aGUgcmVsZXZhbnQgY2hhcklkLgogKiAgMy4gVGhlIG1haW4gdGhyZWFkIHJlY2VpdmVzIHRoZSB0cmlnZ2VyIGFuZCBydW5zIHRoZSBub3JtYWwgQUkgZmxvdy4KICogIDQuIElmIHRoZSBhcHAgd2FzIGJhY2tncm91bmRlZCwgdmlzaWJpbGl0eS1jaGFuZ2UgY2F0Y2gtdXAgZmlyZXMgYW55IG92ZXJkdWUgcm9sZXMuCiAqICA1LiBJZiB0aGUgb3B0aW9uYWwgQ2xvdWRmbGFyZSBXb3JrZXIgYWNjZWxlcmF0b3IgaXMgY29uZmlndXJlZCAoc2VlCiAqICAgICBgdXRpbHMvcHJvYWN0aXZlUHVzaENvbmZpZy50c2ApLCBgc3RhcnRgL2BzdG9wYCBhbHNvIHJlZ2lzdGVyL3VucmVnaXN0ZXIKICogICAgIGEgV2ViIFB1c2ggd2FrZS11cCBzY2hlZHVsZSBvbiB0aGUgV29ya2VyLiAgVGhlIFdvcmtlcidzIGNyb24gc2VuZHMgYQogKiAgICAgYHt0eXBlOidwcm9hY3RpdmUtd2FrZScsIGNoYXJJZH1gIHB1c2ggYXQgaW50ZXJ2YWwgdGltZTsgdGhlIFNXIHJvdXRlcwogKiAgICAgaXQgdGhyb3VnaCB0aGUgc2FtZSBgcHJvYWN0aXZlLXRyaWdnZXJgIGNoYW5uZWwgc28gdGhlIG1haW4tdGhyZWFkIEFJCiAqICAgICBmbG93IHJ1bnMgZXhhY3RseSBvbmNlIHBlciB0cmlnZ2VyIHJlZ2FyZGxlc3Mgb2Ygc291cmNlLgogKi8KCmltcG9ydCB7CiAgbG9hZFB1c2hDb25maWcsCiAgaXNQdXNoQ29uZmlnUmVhZHksCiAgcmVnaXN0ZXJTY2hlZHVsZU9uV29ya2VyLAogIHVucmVnaXN0ZXJTY2hlZHVsZU9uV29ya2VyLAogIHN0YXJ0SGVhcnRiZWF0LAogIHN0b3BIZWFydGJlYXQsCn0gZnJvbSAnLi9wcm9hY3RpdmVQdXNoQ29uZmlnJzsKCmV4cG9ydCBpbnRlcmZhY2UgUHJvYWN0aXZlU2NoZWR1bGUgewogIGNoYXJJZDogc3RyaW5nOwogIGludGVydmFsTXM6IG51bWJlcjsgLy8gbXVzdCBiZSBtdWx0aXBsZSBvZiAzMCAqIDYwICogMTAwMAp9Cgp0eXBlIFByb2FjdGl2ZVNjaGVkdWxlTWFwID0gUmVjb3JkPHN0cmluZywgUHJvYWN0aXZlU2NoZWR1bGU+Owp0eXBlIExhc3RGaXJlTWFwID0gUmVjb3JkPHN0cmluZywgbnVtYmVyPjsKCmNvbnN0IFNUT1JBR0VfS0VZID0gJ3Byb2FjdGl2ZV9zY2hlZHVsZXMnOwpjb25zdCBMQVNUX0ZJUkVfS0VZID0gJ3Byb2FjdGl2ZV9sYXN0X2ZpcmVfbWFwJzsKY29uc3QgTEVHQUNZX1NUT1JBR0VfS0VZID0gJ3Byb2FjdGl2ZV9zY2hlZHVsZSc7CmNvbnN0IExFR0FDWV9MQVNUX0ZJUkVfS0VZID0gJ3Byb2FjdGl2ZV9sYXN0X2ZpcmUnOwoKZnVuY3Rpb24gbG9hZFNjaGVkdWxlcygpOiBQcm9hY3RpdmVTY2hlZHVsZU1hcCB7CiAgdHJ5IHsKICAgIGNvbnN0IHJhdyA9IGxvY2FsU3RvcmFnZS5nZXRJdGVtKFNUT1JBR0VfS0VZKTsKICAgIGlmICghcmF3KSB7CiAgICAgIGNvbnN0IGxlZ2FjeVJhdyA9IGxvY2FsU3RvcmFnZS5nZXRJdGVtKExFR0FDWV9TVE9SQUdFX0tFWSk7CiAgICAgIGlmICghbGVnYWN5UmF3KSByZXR1cm4ge307CgogICAgICBjb25zdCBsZWdhY3lTY2hlZHVsZSA9IEpTT04ucGFyc2UobGVnYWN5UmF3KSBhcyBQcm9hY3RpdmVTY2hlZHVsZSB8IG51bGw7CiAgICAgIGlmICghbGVnYWN5U2NoZWR1bGU/LmNoYXJJZCB8fCAhbGVnYWN5U2NoZWR1bGUuaW50ZXJ2YWxNcykgcmV0dXJuIHt9OwoKICAgICAgY29uc3QgbWlncmF0ZWRTY2hlZHVsZXMgPSB7IFtsZWdhY3lTY2hlZHVsZS5jaGFySWRdOiBsZWdhY3lTY2hlZHVsZSB9OwogICAgICBzYXZlU2NoZWR1bGVzKG1pZ3JhdGVkU2NoZWR1bGVzKTsKICAgICAgbG9jYWxTdG9yYWdlLnJlbW92ZUl0ZW0oTEVHQUNZX1NUT1JBR0VfS0VZKTsKICAgICAgcmV0dXJuIG1pZ3JhdGVkU2NoZWR1bGVzOwogICAgfQogICAgY29uc3QgcGFyc2VkID0gSlNPTi5wYXJzZShyYXcpIGFzIFByb2FjdGl2ZVNjaGVkdWxlTWFwOwogICAgcmV0dXJuIHBhcnNlZCAmJiB0eXBlb2YgcGFyc2VkID09PSAnb2JqZWN0JyA/IHBhcnNlZCA6IHt9OwogIH0gY2F0Y2ggewogICAgcmV0dXJuIHt9OwogIH0KfQoKZnVuY3Rpb24gc2F2ZVNjaGVkdWxlcyhzY2hlZHVsZXM6IFByb2FjdGl2ZVNjaGVkdWxlTWFwKSB7CiAgY29uc3QgZW50cmllcyA9IE9iamVjdC5lbnRyaWVzKHNjaGVkdWxlcyk7CiAgaWYgKGVudHJpZXMubGVuZ3RoID09PSAwKSB7CiAgICBsb2NhbFN0b3JhZ2UucmVtb3ZlSXRlbShTVE9SQUdFX0tFWSk7CiAgICByZXR1cm47CiAgfQogIGxvY2FsU3RvcmFnZS5zZXRJdGVtKFNUT1JBR0VfS0VZLCBKU09OLnN0cmluZ2lmeShzY2hlZHVsZXMpKTsKfQoKZnVuY3Rpb24gbG9hZExhc3RGaXJlVGltZXMoKTogTGFzdEZpcmVNYXAgewogIHRyeSB7CiAgICBjb25zdCByYXcgPSBsb2NhbFN0b3JhZ2UuZ2V0SXRlbShMQVNUX0ZJUkVfS0VZKTsKICAgIGlmICghcmF3KSB7CiAgICAgIGNvbnN0IGxlZ2FjeVJhdyA9IGxvY2FsU3RvcmFnZS5nZXRJdGVtKExFR0FDWV9MQVNUX0ZJUkVfS0VZKTsKICAgICAgY29uc3Qgc2NoZWR1bGVzID0gbG9hZFNjaGVkdWxlcygpOwogICAgICBjb25zdCBmaXJzdFNjaGVkdWxlID0gT2JqZWN0LnZhbHVlcyhzY2hlZHVsZXMpWzBdOwogICAgICBjb25zdCBsZWdhY3lUcyA9IHBhcnNlSW50KGxlZ2FjeVJhdyB8fCAnMCcsIDEwKTsKICAgICAgaWYgKCFmaXJzdFNjaGVkdWxlIHx8ICFsZWdhY3lUcykgcmV0dXJuIHt9OwoKICAgICAgY29uc3QgbWlncmF0ZWRMYXN0RmlyZSA9IHsgW2ZpcnN0U2NoZWR1bGUuY2hhcklkXTogbGVnYWN5VHMgfTsKICAgICAgc2F2ZUxhc3RGaXJlVGltZXMobWlncmF0ZWRMYXN0RmlyZSk7CiAgICAgIGxvY2FsU3RvcmFnZS5yZW1vdmVJdGVtKExFR0FDWV9MQVNUX0ZJUkVfS0VZKTsKICAgICAgcmV0dXJuIG1pZ3JhdGVkTGFzdEZpcmU7CiAgICB9CiAgICBjb25zdCBwYXJzZWQgPSBKU09OLnBhcnNlKHJhdykgYXMgTGFzdEZpcmVNYXA7CiAgICByZXR1cm4gcGFyc2VkICYmIHR5cGVvZiBwYXJzZWQgPT09ICdvYmplY3QnID8gcGFyc2VkIDoge307CiAgfSBjYXRjaCB7CiAgICByZXR1cm4ge307CiAgfQp9CgpmdW5jdGlvbiBzYXZlTGFzdEZpcmVUaW1lcyhsYXN0RmlyZU1hcDogTGFzdEZpcmVNYXApIHsKICBjb25zdCBlbnRyaWVzID0gT2JqZWN0LmVudHJpZXMobGFzdEZpcmVNYXApOwogIGlmIChlbnRyaWVzLmxlbmd0aCA9PT0gMCkgewogICAgbG9jYWxTdG9yYWdlLnJlbW92ZUl0ZW0oTEFTVF9GSVJFX0tFWSk7CiAgICByZXR1cm47CiAgfQogIGxvY2FsU3RvcmFnZS5zZXRJdGVtKExBU1RfRklSRV9LRVksIEpTT04uc3RyaW5naWZ5KGxhc3RGaXJlTWFwKSk7Cn0KCmZ1bmN0aW9uIGdldExhc3RGaXJlVGltZShjaGFySWQ6IHN0cmluZyk6IG51bWJlciB7CiAgcmV0dXJuIGxvYWRMYXN0RmlyZVRpbWVzKClbY2hhcklkXSB8fCAwOwp9CgpmdW5jdGlvbiBzZXRMYXN0RmlyZVRpbWUoY2hhcklkOiBzdHJpbmcsIHRzOiBudW1iZXIpIHsKICBjb25zdCBsYXN0RmlyZU1hcCA9IGxvYWRMYXN0RmlyZVRpbWVzKCk7CiAgbGFzdEZpcmVNYXBbY2hhcklkXSA9IHRzOwogIHNhdmVMYXN0RmlyZVRpbWVzKGxhc3RGaXJlTWFwKTsKfQoKZnVuY3Rpb24gcmVtb3ZlTGFzdEZpcmVUaW1lKGNoYXJJZDogc3RyaW5nKSB7CiAgY29uc3QgbGFzdEZpcmVNYXAgPSBsb2FkTGFzdEZpcmVUaW1lcygpOwogIGRlbGV0ZSBsYXN0RmlyZU1hcFtjaGFySWRdOwogIHNhdmVMYXN0RmlyZVRpbWVzKGxhc3RGaXJlTWFwKTsKfQoKZnVuY3Rpb24gcG9zdFRvU1cobXNnOiBhbnkpIHsKICBpZiAoISgnc2VydmljZVdvcmtlcicgaW4gbmF2aWdhdG9yKSB8fCAhbmF2aWdhdG9yLnNlcnZpY2VXb3JrZXIuY29udHJvbGxlcikgcmV0dXJuOwogIG5hdmlnYXRvci5zZXJ2aWNlV29ya2VyLmNvbnRyb2xsZXIucG9zdE1lc3NhZ2UobXNnKTsKfQoKZnVuY3Rpb24gc3luY1NjaGVkdWxlc1RvU1coKSB7CiAgY29uc3Qgc2NoZWR1bGVzID0gT2JqZWN0LnZhbHVlcyhsb2FkU2NoZWR1bGVzKCkpOwogIHBvc3RUb1NXKHsgdHlwZTogJ3Byb2FjdGl2ZS1zeW5jJywgY29uZmlnczogc2NoZWR1bGVzIH0pOwp9CgovLyAtLS0gVHJpZ2dlciBjYWxsYmFjayBtYW5hZ2VtZW50IC0tLQpsZXQgdHJpZ2dlckNhbGxiYWNrOiAoKGNoYXJJZDogc3RyaW5nKSA9PiB2b2lkIHwgUHJvbWlzZTx2b2lkPikgfCBudWxsID0gbnVsbDsKbGV0IHN3TGlzdGVuZXI6ICgoZTogTWVzc2FnZUV2ZW50KSA9PiB2b2lkKSB8IG51bGwgPSBudWxsOwpsZXQgdmlzaWJpbGl0eUxpc3RlbmVyOiAoKCkgPT4gdm9pZCkgfCBudWxsID0gbnVsbDsKbGV0IGZvY3VzTGlzdGVuZXI6ICgoKSA9PiB2b2lkKSB8IG51bGwgPSBudWxsOwpsZXQgbWFpblRocmVhZFRpbWVyOiBSZXR1cm5UeXBlPHR5cGVvZiBzZXRJbnRlcnZhbD4gfCBudWxsID0gbnVsbDsKbGV0IHByZWNpc2VUaW1lcjogUmV0dXJuVHlwZTx0eXBlb2Ygc2V0VGltZW91dD4gfCBudWxsID0gbnVsbDsKCi8vIE1haW4tdGhyZWFkIHBvbGxpbmcgYWN0cyBhcyB0aGUgYm90dG9tLWxpbmUgc2FmZXR5IG5ldCBpbiBjYXNlIFNlcnZpY2UKLy8gV29ya2VyIHRpbWVycyBnZXQgdGVybWluYXRlZCBieSB0aGUgYnJvd3NlciBBTkQgdGhlIHByZWNpc2Ugc2V0VGltZW91dCBnZXRzCi8vIHRocm90dGxlZCBpbiBhIGJhY2tncm91bmQgdGFiLiAgMjAgcyBpcyBjaGVhcCAoanVzdCBhIGxvY2FsU3RvcmFnZSByZWFkKQovLyBhbmQga2VlcHMgdGhlIHdvcnN0LWNhc2UgZGVsYXkgdW5kZXIgb25lIGJ1Y2tldCBmb3IgaGlkZGVuLXRhYiB0aHJvdHRsaW5nLgpjb25zdCBNQUlOX1RIUkVBRF9DSEVDS19JTlRFUlZBTCA9IDIwXzAwMDsKCmZ1bmN0aW9uIGhhbmRsZVNXTWVzc2FnZShlOiBNZXNzYWdlRXZlbnQpIHsKICBpZiAoZS5kYXRhPy50eXBlICE9PSAncHJvYWN0aXZlLXRyaWdnZXInKSByZXR1cm47CiAgY29uc3QgY2hhcklkID0gZS5kYXRhLmNoYXJJZDsKICBjb25zdCBzY2hlZHVsZSA9IGxvYWRTY2hlZHVsZXMoKVtjaGFySWRdOwogIGlmICghc2NoZWR1bGUpIHJldHVybjsKICBpZiAoIXRyaWdnZXJDYWxsYmFjaykgewogICAgLy8gQ2FsbGJhY2sgbm90IHJlYWR5IHlldCDigJQgbGVhdmUgbGFzdEZpcmUgdW50b3VjaGVkIHNvIHRoZSBtYWluLXRocmVhZAogICAgLy8gcG9sbGluZyB3aWxsIGZpcmUgb25jZSB0aGUgY2FsbGJhY2sgaXMgcmVnaXN0ZXJlZC4KICAgIHJldHVybjsKICB9CgogIC8vIERlLWR1cGU6IHdoZW4gYm90aCB0aGUgV29ya2VyJ3MgcHVzaCBhbmQgdGhlIG1haW4tdGhyZWFkIGNhdGNoLXVwIGZpcmUKICAvLyB3aXRoaW4gYSBzbWFsbCB3aW5kb3cgb2YgZWFjaCBvdGhlciAoaGFwcGVucyB3aGVuIHRoZSB1c2VyIHJldHVybnMgYWZ0ZXIKICAvLyBhbiBvZmZsaW5lIGdhcCksIHRoZSBmaXJzdCBvbmUgdG8gbGFuZCB3aW5zIGFuZCB0aGUgb3RoZXIgZ2V0cyBzaWxlbnRseQogIC8vIGRyb3BwZWQuICBXaXRob3V0IHRoaXMgZ3VhcmQgdGhlIGNoYXJhY3RlciB3b3VsZCBzZW5kIHR3byBwcm9hY3RpdmUKICAvLyBtZXNzYWdlcyBiYWNrLXRvLWJhY2suCiAgY29uc3Qgbm93ID0gRGF0ZS5ub3coKTsKICBjb25zdCBsYXN0RmlyZSA9IGdldExhc3RGaXJlVGltZShjaGFySWQpOwogIGNvbnN0IG1pbkdhcCA9IE1hdGgubWluKDYwXzAwMCwgc2NoZWR1bGUuaW50ZXJ2YWxNcyAqIDAuMSk7CiAgaWYgKGxhc3RGaXJlID4gMCAmJiBub3cgLSBsYXN0RmlyZSA8IG1pbkdhcCkgewogICAgY29uc29sZS5sb2coYFtQcm9hY3RpdmVDaGF0XSBJZ25vcmluZyBkdXBsaWNhdGUgdHJpZ2dlciBmb3IgJHtjaGFySWR9IChmaXJlZCAke01hdGgucm91bmQoKG5vdyAtIGxhc3RGaXJlKSAvIDEwMDApfXMgYWdvKWApOwogICAgcmV0dXJuOwogIH0KCiAgc2V0TGFzdEZpcmVUaW1lKGNoYXJJZCwgbm93KTsKICBzY2hlZHVsZVByZWNpc2VUaW1lcigpOwogIHZvaWQgdHJpZ2dlckNhbGxiYWNrKGNoYXJJZCk7Cn0KCi8qKiBDaGVjayBhbGwgc2NoZWR1bGVzIGFuZCBmaXJlIGFueSB0aGF0IGFyZSBvdmVyZHVlLiAqLwpmdW5jdGlvbiBjaGVja092ZXJkdWVTY2hlZHVsZXMoKSB7CiAgaWYgKCF0cmlnZ2VyQ2FsbGJhY2spIHJldHVybjsKCiAgY29uc3Qgc2NoZWR1bGVzID0gT2JqZWN0LnZhbHVlcyhsb2FkU2NoZWR1bGVzKCkpOwogIGNvbnN0IG5vdyA9IERhdGUubm93KCk7CgogIGZvciAoY29uc3Qgc2NoZWR1bGUgb2Ygc2NoZWR1bGVzKSB7CiAgICBjb25zdCBsYXN0RmlyZSA9IGdldExhc3RGaXJlVGltZShzY2hlZHVsZS5jaGFySWQpOwogICAgY29uc3QgZWxhcHNlZCA9IG5vdyAtIGxhc3RGaXJlOwoKICAgIGlmIChsYXN0RmlyZSA+IDAgJiYgZWxhcHNlZCA+PSBzY2hlZHVsZS5pbnRlcnZhbE1zKSB7CiAgICAgIGNvbnNvbGUubG9nKGBbUHJvYWN0aXZlQ2hhdF0gTWFpbi10aHJlYWQgdHJpZ2dlcjogJHtzY2hlZHVsZS5jaGFySWR9LCAke01hdGgucm91bmQoZWxhcHNlZCAvIDYwMDAwKX1taW4gZWxhcHNlZGApOwogICAgICBzZXRMYXN0RmlyZVRpbWUoc2NoZWR1bGUuY2hhcklkLCBub3cpOwogICAgICBzeW5jU2NoZWR1bGVzVG9TVygpOwogICAgICB2b2lkIHRyaWdnZXJDYWxsYmFjayhzY2hlZHVsZS5jaGFySWQpOwogICAgfQogIH0KCiAgc2NoZWR1bGVQcmVjaXNlVGltZXIoKTsKfQoKLyoqCiAqIFNjaGVkdWxlIGEgc2luZ2xlIHNldFRpbWVvdXQgdG8gZmlyZSBleGFjdGx5IGF0IHRoZSBuZXh0IGR1ZSBtb21lbnQgYWNyb3NzCiAqIGFsbCBhY3RpdmUgc2NoZWR1bGVzLiAgVGhpcyBpcyB0aGUgcHJpbWFyeSBkZWxpdmVyeSBtZWNoYW5pc20gd2hpbGUgdGhlIHRhYgogKiBpcyB2aXNpYmxlIOKAlCBzZXRJbnRlcnZhbCAvIHNldFRpbWVvdXQgYXJlIGFjY3VyYXRlIGluIHRoZSBmb3JlZ3JvdW5kLCBhbmQKICogdGhlIHVzZXIncyBzcGVjaWZpYyBjb21wbGFpbnQgaXMgIuWcqOinkuiJsuS5n+S4jee7meaIkeWPkea2iOaBryIgKG1lc3NhZ2VzIGRvbid0IGZpcmUKICogd2hlbiBJJ20gc2l0dGluZyBvbiB0aGUgY2hhcmFjdGVyIHNjcmVlbikuICBCYWNrcyB1cCB0aGUgU2VydmljZSBXb3JrZXIKICogdGltZXIsIHdoaWNoIHRoZSBicm93c2VyIG1heSB0ZXJtaW5hdGUgYXQgYW55IHRpbWUuCiAqLwpmdW5jdGlvbiBzY2hlZHVsZVByZWNpc2VUaW1lcigpIHsKICBpZiAocHJlY2lzZVRpbWVyKSB7CiAgICBjbGVhclRpbWVvdXQocHJlY2lzZVRpbWVyKTsKICAgIHByZWNpc2VUaW1lciA9IG51bGw7CiAgfQogIGlmICghdHJpZ2dlckNhbGxiYWNrKSByZXR1cm47CgogIGNvbnN0IHNjaGVkdWxlcyA9IE9iamVjdC52YWx1ZXMobG9hZFNjaGVkdWxlcygpKTsKICBpZiAoc2NoZWR1bGVzLmxlbmd0aCA9PT0gMCkgcmV0dXJuOwoKICBjb25zdCBub3cgPSBEYXRlLm5vdygpOwogIGxldCBuZXh0RHVlID0gSW5maW5pdHk7CiAgZm9yIChjb25zdCBzY2hlZHVsZSBvZiBzY2hlZHVsZXMpIHsKICAgIGNvbnN0IGxhc3RGaXJlID0gZ2V0TGFzdEZpcmVUaW1lKHNjaGVkdWxlLmNoYXJJZCk7CiAgICBjb25zdCBiYXNlID0gbGFzdEZpcmUgPiAwID8gbGFzdEZpcmUgOiBub3c7CiAgICBjb25zdCBkdWUgPSBiYXNlICsgc2NoZWR1bGUuaW50ZXJ2YWxNczsKICAgIGlmIChkdWUgPCBuZXh0RHVlKSBuZXh0RHVlID0gZHVlOwogIH0KICBpZiAoIU51bWJlci5pc0Zpbml0ZShuZXh0RHVlKSkgcmV0dXJuOwoKICAvLyBDbGFtcDogYXQgbGVhc3QgNTAwbXMgdG8gYXZvaWQgdGlnaHQgbG9vcHMsIGF0IG1vc3QgfjI0ZCB0byBmaXQgYSAzMi1iaXQgdGltZXIuCiAgY29uc3QgZGVsYXkgPSBNYXRoLm1pbihNYXRoLm1heChuZXh0RHVlIC0gbm93LCA1MDApLCAyXzE0N18wMDBfMDAwKTsKICBwcmVjaXNlVGltZXIgPSBzZXRUaW1lb3V0KCgpID0+IHsKICAgIHByZWNpc2VUaW1lciA9IG51bGw7CiAgICBjaGVja092ZXJkdWVTY2hlZHVsZXMoKTsKICB9LCBkZWxheSk7Cn0KCmZ1bmN0aW9uIGhhbmRsZVZpc2liaWxpdHkoKSB7CiAgaWYgKGRvY3VtZW50LnZpc2liaWxpdHlTdGF0ZSAhPT0gJ3Zpc2libGUnKSByZXR1cm47CiAgLy8gV2hlbiB0aGUgcGFnZSBiZWNvbWVzIHZpc2libGUgYWdhaW4sIGRvIGFuIGltbWVkaWF0ZSBvdmVyZHVlIGNoZWNrIGFuZAogIC8vIHJlLWFybSB0aGUgcHJlY2lzZSB0aW1lciAoYmFja2dyb3VuZCB0aHJvdHRsaW5nIG1heSBoYXZlIGRlbGF5ZWQgaXQpLgogIGNoZWNrT3ZlcmR1ZVNjaGVkdWxlcygpOwp9CgpmdW5jdGlvbiBoYW5kbGVGb2N1cygpIHsKICBjaGVja092ZXJkdWVTY2hlZHVsZXMoKTsKfQoKZnVuY3Rpb24gc3RhcnRNYWluVGhyZWFkVGltZXIoKSB7CiAgaWYgKG1haW5UaHJlYWRUaW1lcikgcmV0dXJuOwogIG1haW5UaHJlYWRUaW1lciA9IHNldEludGVydmFsKGNoZWNrT3ZlcmR1ZVNjaGVkdWxlcywgTUFJTl9USFJFQURfQ0hFQ0tfSU5URVJWQUwpOwp9CgpmdW5jdGlvbiBzdG9wTWFpblRocmVhZFRpbWVyKCkgewogIGlmIChtYWluVGhyZWFkVGltZXIpIHsKICAgIGNsZWFySW50ZXJ2YWwobWFpblRocmVhZFRpbWVyKTsKICAgIG1haW5UaHJlYWRUaW1lciA9IG51bGw7CiAgfQp9CgpmdW5jdGlvbiBhdHRhY2hMaXN0ZW5lcnMoKSB7CiAgZGV0YWNoTGlzdGVuZXJzKCk7CiAgc3dMaXN0ZW5lciA9IGhhbmRsZVNXTWVzc2FnZTsKICBuYXZpZ2F0b3Iuc2VydmljZVdvcmtlcj8uYWRkRXZlbnRMaXN0ZW5lcignbWVzc2FnZScsIHN3TGlzdGVuZXIpOwogIHZpc2liaWxpdHlMaXN0ZW5lciA9IGhhbmRsZVZpc2liaWxpdHk7CiAgZG9jdW1lbnQuYWRkRXZlbnRMaXN0ZW5lcigndmlzaWJpbGl0eWNoYW5nZScsIHZpc2liaWxpdHlMaXN0ZW5lcik7CiAgZm9jdXNMaXN0ZW5lciA9IGhhbmRsZUZvY3VzOwogIHdpbmRvdy5hZGRFdmVudExpc3RlbmVyKCdmb2N1cycsIGZvY3VzTGlzdGVuZXIpOwogIHN0YXJ0TWFpblRocmVhZFRpbWVyKCk7CiAgc2NoZWR1bGVQcmVjaXNlVGltZXIoKTsKfQoKZnVuY3Rpb24gZGV0YWNoTGlzdGVuZXJzKCkgewogIGlmIChzd0xpc3RlbmVyKSB7CiAgICBuYXZpZ2F0b3Iuc2VydmljZVdvcmtlcj8ucmVtb3ZlRXZlbnRMaXN0ZW5lcignbWVzc2FnZScsIHN3TGlzdGVuZXIpOwogICAgc3dMaXN0ZW5lciA9IG51bGw7CiAgfQogIGlmICh2aXNpYmlsaXR5TGlzdGVuZXIpIHsKICAgIGRvY3VtZW50LnJlbW92ZUV2ZW50TGlzdGVuZXIoJ3Zpc2liaWxpdHljaGFuZ2UnLCB2aXNpYmlsaXR5TGlzdGVuZXIpOwogICAgdmlzaWJpbGl0eUxpc3RlbmVyID0gbnVsbDsKICB9CiAgaWYgKGZvY3VzTGlzdGVuZXIpIHsKICAgIHdpbmRvdy5yZW1vdmVFdmVudExpc3RlbmVyKCdmb2N1cycsIGZvY3VzTGlzdGVuZXIpOwogICAgZm9jdXNMaXN0ZW5lciA9IG51bGw7CiAgfQogIHN0b3BNYWluVGhyZWFkVGltZXIoKTsKICBpZiAocHJlY2lzZVRpbWVyKSB7CiAgICBjbGVhclRpbWVvdXQocHJlY2lzZVRpbWVyKTsKICAgIHByZWNpc2VUaW1lciA9IG51bGw7CiAgfQp9CgpleHBvcnQgY29uc3QgUHJvYWN0aXZlQ2hhdCA9IHsKICAvKioKICAgKiBSZWdpc3RlciB0aGUgY2FsbGJhY2sgdGhhdCBmaXJlcyB3aGVuIGl0J3MgdGltZSBmb3IgYSBwcm9hY3RpdmUgbWVzc2FnZS4KICAgKiBDYWxsIHRoaXMgb25jZSBmcm9tIGFwcCBjb2RlLiBUaGUgY2FsbGJhY2sgc2hvdWxkIGluamVjdCBhIHN5c3RlbSBoaW50CiAgICogYW5kIGNhbGwgdGhlIG5vcm1hbCBBSSBmbG93LgogICAqLwogIG9uVHJpZ2dlcihjYWxsYmFjazogKGNoYXJJZDogc3RyaW5nKSA9PiB2b2lkIHwgUHJvbWlzZTx2b2lkPikgewogICAgdHJpZ2dlckNhbGxiYWNrID0gY2FsbGJhY2s7CiAgICBhdHRhY2hMaXN0ZW5lcnMoKTsKICAgIC8vIENhdGNoIHVwIGFueXRoaW5nIHRoYXQgY2FtZSBkdWUgd2hpbGUgdGhlIGNhbGxiYWNrIHdhc24ndCByZWdpc3RlcmVkCiAgICAvLyB5ZXQgKGUuZy4gYmV0d2VlbiBgUHJvYWN0aXZlQ2hhdC5yZXN1bWUoKWAgb24gYm9vdCBhbmQgT1NDb250ZXh0CiAgICAvLyBmaW5pc2hpbmcgaXRzIGZpcnN0IHJlbmRlcikuCiAgICBjaGVja092ZXJkdWVTY2hlZHVsZXMoKTsKICB9LAoKICAvKioKICAgKiBTdGFydCBvciB1cGRhdGUgb25lIGNoYXJhY3RlcidzIHByb2FjdGl2ZSBzY2hlZHVsZS4KICAgKi8KICBzdGFydChjaGFySWQ6IHN0cmluZywgaW50ZXJ2YWxNaW51dGVzOiBudW1iZXIpIHsKICAgIGNvbnN0IGNsYW1wZWQgPSBNYXRoLm1heCgzMCwgTWF0aC5yb3VuZChpbnRlcnZhbE1pbnV0ZXMgLyAzMCkgKiAzMCk7CiAgICBjb25zdCBpbnRlcnZhbE1zID0gY2xhbXBlZCAqIDYwICogMTAwMDsKICAgIGNvbnN0IHNjaGVkdWxlcyA9IGxvYWRTY2hlZHVsZXMoKTsKICAgIHNjaGVkdWxlc1tjaGFySWRdID0geyBjaGFySWQsIGludGVydmFsTXMgfTsKICAgIHNhdmVTY2hlZHVsZXMoc2NoZWR1bGVzKTsKICAgIHNldExhc3RGaXJlVGltZShjaGFySWQsIERhdGUubm93KCkpOwogICAgc3luY1NjaGVkdWxlc1RvU1coKTsKICAgIGF0dGFjaExpc3RlbmVycygpOwoKICAgIC8vIENsb3VkIGFjY2VsZXJhdG9yIOKAlCBmaXJlLWFuZC1mb3JnZXQ7IGlmIG5vdCBjb25maWd1cmVkLCB0aGlzIG5vLW9wcy4KICAgIGlmIChpc1B1c2hDb25maWdSZWFkeShsb2FkUHVzaENvbmZpZygpKSkgewogICAgICB2b2lkIHJlZ2lzdGVyU2NoZWR1bGVPbldvcmtlcihjaGFySWQsIGludGVydmFsTXMpOwogICAgICBzdGFydEhlYXJ0YmVhdCgpOwogICAgfQoKICAgIGNvbnNvbGUubG9nKGBbUHJvYWN0aXZlQ2hhdF0gU3RhcnRlZDogJHtjaGFySWR9LCBldmVyeSAke2NsYW1wZWR9bWluYCk7CiAgfSwKCiAgLyoqCiAgICogU3RvcCBvbmUgY2hhcmFjdGVyJ3MgcHJvYWN0aXZlIHNjaGVkdWxlLgogICAqLwogIHN0b3AoY2hhcklkOiBzdHJpbmcpIHsKICAgIGNvbnN0IHNjaGVkdWxlcyA9IGxvYWRTY2hlZHVsZXMoKTsKICAgIGRlbGV0ZSBzY2hlZHVsZXNbY2hhcklkXTsKICAgIHNhdmVTY2hlZHVsZXMoc2NoZWR1bGVzKTsKICAgIHJlbW92ZUxhc3RGaXJlVGltZShjaGFySWQpOwogICAgc3luY1NjaGVkdWxlc1RvU1coKTsKCiAgICBpZiAoaXNQdXNoQ29uZmlnUmVhZHkobG9hZFB1c2hDb25maWcoKSkpIHsKICAgICAgdm9pZCB1bnJlZ2lzdGVyU2NoZWR1bGVPbldvcmtlcihjaGFySWQpOwogICAgfQoKICAgIGlmIChPYmplY3Qua2V5cyhzY2hlZHVsZXMpLmxlbmd0aCA9PT0gMCkgewogICAgICBkZXRhY2hMaXN0ZW5lcnMoKTsKICAgICAgc3RvcEhlYXJ0YmVhdCgpOwogICAgfSBlbHNlIHsKICAgICAgc2NoZWR1bGVQcmVjaXNlVGltZXIoKTsKICAgIH0KCiAgICBjb25zb2xlLmxvZyhgW1Byb2FjdGl2ZUNoYXRdIFN0b3BwZWQ6ICR7Y2hhcklkfWApOwogIH0sCgogIC8qKgogICAqIFJlc3VtZSBhbGwgc2F2ZWQgc2NoZWR1bGVzIGFmdGVyIHBhZ2UgcmVsb2FkLgogICAqLwogIHJlc3VtZSgpIHsKICAgIGNvbnN0IHNjaGVkdWxlcyA9IE9iamVjdC52YWx1ZXMobG9hZFNjaGVkdWxlcygpKTsKICAgIGlmIChzY2hlZHVsZXMubGVuZ3RoID09PSAwKSByZXR1cm47CgogICAgY29uc29sZS5sb2coYFtQcm9hY3RpdmVDaGF0XSBSZXN1bWluZyAke3NjaGVkdWxlcy5sZW5ndGh9IHByb2FjdGl2ZSBzY2hlZHVsZShzKWApOwogICAgc3luY1NjaGVkdWxlc1RvU1coKTsKICAgIGF0dGFjaExpc3RlbmVycygpOwogICAgaGFuZGxlVmlzaWJpbGl0eSgpOwoKICAgIC8vIFJlLXJlZ2lzdGVyIHNjaGVkdWxlcyBvbiB0aGUgV29ya2VyIGluIGNhc2UgdGhlIGNsaWVudCB0b2tlbiwgVkFQSUQKICAgIC8vIGtleSwgb3IgcHVzaCBzdWJzY3JpcHRpb24gaGFzIHJvdGF0ZWQgc2luY2UgbGFzdCBydW4uICBBbHNvIHJlc3RhcnQKICAgIC8vIHRoZSBoZWFydGJlYXQgbG9vcC4KICAgIGlmIChpc1B1c2hDb25maWdSZWFkeShsb2FkUHVzaENvbmZpZygpKSkgewogICAgICBmb3IgKGNvbnN0IHNjaGVkdWxlIG9mIHNjaGVkdWxlcykgewogICAgICAgIHZvaWQgcmVnaXN0ZXJTY2hlZHVsZU9uV29ya2VyKHNjaGVkdWxlLmNoYXJJZCwgc2NoZWR1bGUuaW50ZXJ2YWxNcyk7CiAgICAgIH0KICAgICAgc3RhcnRIZWFydGJlYXQoKTsKICAgIH0KICB9LAoKICAvKiogQ2hlY2sgaWYgcHJvYWN0aXZlIGlzIGFjdGl2ZSBmb3IgYSBnaXZlbiBjaGFyYWN0ZXIgKi8KICBpc0FjdGl2ZUZvcihjaGFySWQ6IHN0cmluZyk6IGJvb2xlYW4gewogICAgcmV0dXJuICEhbG9hZFNjaGVkdWxlcygpW2NoYXJJZF07CiAgfSwKCiAgLyoqIEdldCBjdXJyZW50IHNjaGVkdWxlIGludGVydmFsIGluIG1pbnV0ZXMgZm9yIG9uZSBjaGFyYWN0ZXIsIG9yIG51bGwgKi8KICBnZXRJbnRlcnZhbE1pbnV0ZXMoY2hhcklkOiBzdHJpbmcpOiBudW1iZXIgfCBudWxsIHsKICAgIGNvbnN0IHNjaGVkdWxlID0gbG9hZFNjaGVkdWxlcygpW2NoYXJJZF07CiAgICByZXR1cm4gc2NoZWR1bGUgPyBzY2hlZHVsZS5pbnRlcnZhbE1zIC8gNjAwMDAgOiBudWxsOwogIH0sCgogIC8qKiBHZXQgY3VycmVudCBzY2hlZHVsZSBmb3Igb25lIGNoYXJhY3RlciAqLwogIGdldFNjaGVkdWxlKGNoYXJJZDogc3RyaW5nKTogUHJvYWN0aXZlU2NoZWR1bGUgfCBudWxsIHsKICAgIHJldHVybiBsb2FkU2NoZWR1bGVzKClbY2hhcklkXSB8fCBudWxsOwogIH0sCgogIC8qKiBHZXQgYWxsIGFjdGl2ZSBzY2hlZHVsZXMgKi8KICBnZXRTY2hlZHVsZXMoKTogUHJvYWN0aXZlU2NoZWR1bGVbXSB7CiAgICByZXR1cm4gT2JqZWN0LnZhbHVlcyhsb2FkU2NoZWR1bGVzKCkpOwogIH0sCn07Cg==
+/**
+ * Proactive Chat - schedule characters to send messages at regular intervals.
+ *
+ * How it works:
+ *  1. Each character can persist an independent proactive schedule.
+ *  2. The SW keeps timers for all active schedules and posts 'proactive-trigger'
+ *     with the relevant charId.
+ *  3. The main thread receives the trigger and runs the normal AI flow.
+ *  4. If the app was backgrounded, visibility-change catch-up fires any overdue roles.
+ *  5. If the optional Cloudflare Worker accelerator is configured (see
+ *     `utils/proactivePushConfig.ts`), `start`/`stop` also register/unregister
+ *     a Web Push wake-up schedule on the Worker.  The Worker's cron sends a
+ *     `{type:'proactive-wake', charId}` push at interval time; the SW routes
+ *     it through the same `proactive-trigger` channel so the main-thread AI
+ *     flow runs exactly once per trigger regardless of source.
+ */
+
+import {
+  loadPushConfig,
+  isPushConfigReady,
+  registerScheduleOnWorker,
+  unregisterScheduleOnWorker,
+  startHeartbeat,
+  stopHeartbeat,
+} from './proactivePushConfig';
+
+export interface ProactiveSchedule {
+  charId: string;
+  intervalMs: number; // must be multiple of 30 * 60 * 1000
+}
+
+type ProactiveScheduleMap = Record<string, ProactiveSchedule>;
+type LastFireMap = Record<string, number>;
+
+const STORAGE_KEY = 'proactive_schedules';
+const LAST_FIRE_KEY = 'proactive_last_fire_map';
+const LEGACY_STORAGE_KEY = 'proactive_schedule';
+const LEGACY_LAST_FIRE_KEY = 'proactive_last_fire';
+
+function loadSchedules(): ProactiveScheduleMap {
+  try {
+    const raw = localStorage.getItem(STORAGE_KEY);
+    if (!raw) {
+      const legacyRaw = localStorage.getItem(LEGACY_STORAGE_KEY);
+      if (!legacyRaw) return {};
+
+      const legacySchedule = JSON.parse(legacyRaw) as ProactiveSchedule | null;
+      if (!legacySchedule?.charId || !legacySchedule.intervalMs) return {};
+
+      const migratedSchedules = { [legacySchedule.charId]: legacySchedule };
+      saveSchedules(migratedSchedules);
+      localStorage.removeItem(LEGACY_STORAGE_KEY);
+      return migratedSchedules;
+    }
+    const parsed = JSON.parse(raw) as ProactiveScheduleMap;
+    return parsed && typeof parsed === 'object' ? parsed : {};
+  } catch {
+    return {};
+  }
+}
+
+function saveSchedules(schedules: ProactiveScheduleMap) {
+  const entries = Object.entries(schedules);
+  if (entries.length === 0) {
+    localStorage.removeItem(STORAGE_KEY);
+    return;
+  }
+  localStorage.setItem(STORAGE_KEY, JSON.stringify(schedules));
+}
+
+function loadLastFireTimes(): LastFireMap {
+  try {
+    const raw = localStorage.getItem(LAST_FIRE_KEY);
+    if (!raw) {
+      const legacyRaw = localStorage.getItem(LEGACY_LAST_FIRE_KEY);
+      const schedules = loadSchedules();
+      const firstSchedule = Object.values(schedules)[0];
+      const legacyTs = parseInt(legacyRaw || '0', 10);
+      if (!firstSchedule || !legacyTs) return {};
+
+      const migratedLastFire = { [firstSchedule.charId]: legacyTs };
+      saveLastFireTimes(migratedLastFire);
+      localStorage.removeItem(LEGACY_LAST_FIRE_KEY);
+      return migratedLastFire;
+    }
+    const parsed = JSON.parse(raw) as LastFireMap;
+    return parsed && typeof parsed === 'object' ? parsed : {};
+  } catch {
+    return {};
+  }
+}
+
+function saveLastFireTimes(lastFireMap: LastFireMap) {
+  const entries = Object.entries(lastFireMap);
+  if (entries.length === 0) {
+    localStorage.removeItem(LAST_FIRE_KEY);
+    return;
+  }
+  localStorage.setItem(LAST_FIRE_KEY, JSON.stringify(lastFireMap));
+}
+
+function getLastFireTime(charId: string): number {
+  return loadLastFireTimes()[charId] || 0;
+}
+
+function setLastFireTime(charId: string, ts: number) {
+  const lastFireMap = loadLastFireTimes();
+  lastFireMap[charId] = ts;
+  saveLastFireTimes(lastFireMap);
+}
+
+function removeLastFireTime(charId: string) {
+  const lastFireMap = loadLastFireTimes();
+  delete lastFireMap[charId];
+  saveLastFireTimes(lastFireMap);
+}
+
+function postToSW(msg: any) {
+  if (!('serviceWorker' in navigator) || !navigator.serviceWorker.controller) return;
+  navigator.serviceWorker.controller.postMessage(msg);
+}
+
+function syncSchedulesToSW() {
+  const schedules = Object.values(loadSchedules());
+  postToSW({ type: 'proactive-sync', configs: schedules });
+}
+
+// --- Trigger callback management ---
+let triggerCallback: ((charId: string) => void | Promise<void>) | null = null;
+let swListener: ((e: MessageEvent) => void) | null = null;
+let visibilityListener: (() => void) | null = null;
+let focusListener: (() => void) | null = null;
+let mainThreadTimer: ReturnType<typeof setInterval> | null = null;
+let preciseTimer: ReturnType<typeof setTimeout> | null = null;
+
+// Main-thread polling acts as the bottom-line safety net in case Service
+// Worker timers get terminated by the browser AND the precise setTimeout gets
+// throttled in a background tab.  20 s is cheap (just a localStorage read)
+// and keeps the worst-case delay under one bucket for hidden-tab throttling.
+const MAIN_THREAD_CHECK_INTERVAL = 20_000;
+
+function handleSWMessage(e: MessageEvent) {
+  if (e.data?.type !== 'proactive-trigger') return;
+  const charId = e.data.charId;
+  const schedule = loadSchedules()[charId];
+  if (!schedule) return;
+  if (!triggerCallback) {
+    // Callback not ready yet — leave lastFire untouched so the main-thread
+    // polling will fire once the callback is registered.
+    return;
+  }
+
+  // De-dupe: when both the Worker's push and the main-thread catch-up fire
+  // within a small window of each other (happens when the user returns after
+  // an offline gap), the first one to land wins and the other gets silently
+  // dropped.  Without this guard the character would send two proactive
+  // messages back-to-back.
+  const now = Date.now();
+  const lastFire = getLastFireTime(charId);
+  const minGap = Math.min(60_000, schedule.intervalMs * 0.1);
+  if (lastFire > 0 && now - lastFire < minGap) {
+    console.log(`[ProactiveChat] Ignoring duplicate trigger for ${charId} (fired ${Math.round((now - lastFire) / 1000)}s ago)`);
+    return;
+  }
+
+  setLastFireTime(charId, now);
+  schedulePreciseTimer();
+  void triggerCallback(charId);
+}
+
+/** Check all schedules and fire any that are overdue. */
+function checkOverdueSchedules() {
+  if (!triggerCallback) return;
+
+  const schedules = Object.values(loadSchedules());
+  const now = Date.now();
+
+  for (const schedule of schedules) {
+    const lastFire = getLastFireTime(schedule.charId);
+    const elapsed = now - lastFire;
+
+    if (lastFire > 0 && elapsed >= schedule.intervalMs) {
+      console.log(`[ProactiveChat] Main-thread trigger: ${schedule.charId}, ${Math.round(elapsed / 60000)}min elapsed`);
+      setLastFireTime(schedule.charId, now);
+      syncSchedulesToSW();
+      void triggerCallback(schedule.charId);
+    }
+  }
+
+  schedulePreciseTimer();
+}
+
+/**
+ * Schedule a single setTimeout to fire exactly at the next due moment across
+ * all active schedules.  This is the primary delivery mechanism while the tab
+ * is visible — setInterval / setTimeout are accurate in the foreground, and
+ * the user's specific complaint is "在角色也不给我发消息" (messages don't fire
+ * when I'm sitting on the character screen).  Backs up the Service Worker
+ * timer, which the browser may terminate at any time.
+ */
+function schedulePreciseTimer() {
+  if (preciseTimer) {
+    clearTimeout(preciseTimer);
+    preciseTimer = null;
+  }
+  if (!triggerCallback) return;
+
+  const schedules = Object.values(loadSchedules());
+  if (schedules.length === 0) return;
+
+  const now = Date.now();
+  let nextDue = Infinity;
+  for (const schedule of schedules) {
+    const lastFire = getLastFireTime(schedule.charId);
+    const base = lastFire > 0 ? lastFire : now;
+    const due = base + schedule.intervalMs;
+    if (due < nextDue) nextDue = due;
+  }
+  if (!Number.isFinite(nextDue)) return;
+
+  // Clamp: at least 500ms to avoid tight loops, at most ~24d to fit a 32-bit timer.
+  const delay = Math.min(Math.max(nextDue - now, 500), 2_147_000_000);
+  preciseTimer = setTimeout(() => {
+    preciseTimer = null;
+    checkOverdueSchedules();
+  }, delay);
+}
+
+function handleVisibility() {
+  if (document.visibilityState !== 'visible') return;
+  // When the page becomes visible again, do an immediate overdue check and
+  // re-arm the precise timer (background throttling may have delayed it).
+  checkOverdueSchedules();
+}
+
+function handleFocus() {
+  checkOverdueSchedules();
+}
+
+function startMainThreadTimer() {
+  if (mainThreadTimer) return;
+  mainThreadTimer = setInterval(checkOverdueSchedules, MAIN_THREAD_CHECK_INTERVAL);
+}
+
+function stopMainThreadTimer() {
+  if (mainThreadTimer) {
+    clearInterval(mainThreadTimer);
+    mainThreadTimer = null;
+  }
+}
+
+function attachListeners() {
+  detachListeners();
+  swListener = handleSWMessage;
+  navigator.serviceWorker?.addEventListener('message', swListener);
+  visibilityListener = handleVisibility;
+  document.addEventListener('visibilitychange', visibilityListener);
+  focusListener = handleFocus;
+  window.addEventListener('focus', focusListener);
+  startMainThreadTimer();
+  schedulePreciseTimer();
+}
+
+function detachListeners() {
+  if (swListener) {
+    navigator.serviceWorker?.removeEventListener('message', swListener);
+    swListener = null;
+  }
+  if (visibilityListener) {
+    document.removeEventListener('visibilitychange', visibilityListener);
+    visibilityListener = null;
+  }
+  if (focusListener) {
+    window.removeEventListener('focus', focusListener);
+    focusListener = null;
+  }
+  stopMainThreadTimer();
+  if (preciseTimer) {
+    clearTimeout(preciseTimer);
+    preciseTimer = null;
+  }
+}
+
+export const ProactiveChat = {
+  /**
+   * Register the callback that fires when it's time for a proactive message.
+   * Call this once from app code. The callback should inject a system hint
+   * and call the normal AI flow.
+   */
+  onTrigger(callback: (charId: string) => void | Promise<void>) {
+    triggerCallback = callback;
+    attachListeners();
+    // Catch up anything that came due while the callback wasn't registered
+    // yet (e.g. between `ProactiveChat.resume()` on boot and OSContext
+    // finishing its first render).
+    checkOverdueSchedules();
+  },
+
+  /**
+   * Start or update one character's proactive schedule.
+   */
+  start(charId: string, intervalMinutes: number) {
+    const clamped = Math.max(30, Math.round(intervalMinutes / 30) * 30);
+    const intervalMs = clamped * 60 * 1000;
+    const schedules = loadSchedules();
+    schedules[charId] = { charId, intervalMs };
+    saveSchedules(schedules);
+    setLastFireTime(charId, Date.now());
+    syncSchedulesToSW();
+    attachListeners();
+
+    // Cloud accelerator — fire-and-forget; if not configured, this no-ops.
+    if (isPushConfigReady(loadPushConfig())) {
+      void registerScheduleOnWorker(charId, intervalMs);
+      startHeartbeat();
+    }
+
+    console.log(`[ProactiveChat] Started: ${charId}, every ${clamped}min`);
+  },
+
+  /**
+   * Stop one character's proactive schedule.
+   */
+  stop(charId: string) {
+    const schedules = loadSchedules();
+    delete schedules[charId];
+    saveSchedules(schedules);
+    removeLastFireTime(charId);
+    syncSchedulesToSW();
+
+    if (isPushConfigReady(loadPushConfig())) {
+      void unregisterScheduleOnWorker(charId);
+    }
+
+    if (Object.keys(schedules).length === 0) {
+      detachListeners();
+      stopHeartbeat();
+    } else {
+      schedulePreciseTimer();
+    }
+
+    console.log(`[ProactiveChat] Stopped: ${charId}`);
+  },
+
+  /**
+   * Resume all saved schedules after page reload.
+   */
+  resume() {
+    const schedules = Object.values(loadSchedules());
+    if (schedules.length === 0) return;
+
+    console.log(`[ProactiveChat] Resuming ${schedules.length} proactive schedule(s)`);
+    syncSchedulesToSW();
+    attachListeners();
+    handleVisibility();
+
+    // Re-register schedules on the Worker in case the client token, VAPID
+    // key, or push subscription has rotated since last run.  Also restart
+    // the heartbeat loop.
+    if (isPushConfigReady(loadPushConfig())) {
+      for (const schedule of schedules) {
+        void registerScheduleOnWorker(schedule.charId, schedule.intervalMs);
+      }
+      startHeartbeat();
+    }
+  },
+
+  /** Check if proactive is active for a given character */
+  isActiveFor(charId: string): boolean {
+    return !!loadSchedules()[charId];
+  },
+
+  /** Get current schedule interval in minutes for one character, or null */
+  getIntervalMinutes(charId: string): number | null {
+    const schedule = loadSchedules()[charId];
+    return schedule ? schedule.intervalMs / 60000 : null;
+  },
+
+  /** Get current schedule for one character */
+  getSchedule(charId: string): ProactiveSchedule | null {
+    return loadSchedules()[charId] || null;
+  },
+
+  /** Get all active schedules */
+  getSchedules(): ProactiveSchedule[] {
+    return Object.values(loadSchedules());
+  },
+};

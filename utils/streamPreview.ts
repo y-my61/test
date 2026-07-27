@@ -1,1 +1,149 @@
-LyoqCiAqIOa1geW8j+WbnuWkjeeahOOAjOmihOiniOawlOazoeOAjeiuoeeulyDigJTigJQg57qv5Ye95pWw77yM5peg5Ymv5L2c55So44CCCiAqCiAqIOS4u+iBiuWkqei3r+W+hOW8gOWQryBzdHJlYW0g5ZCO77yM6L655pS25rWB6L655oqK5bey5a6M5oiQ6KGM5ZKM5a6J5YWo55qE5pyq5a6M5oiQ5bC+5Y+l5riy5p+T5oiQ5Li05pe26aKE6KeI5rCU5rOhCiAqIO+8iHV0aWxzL3NhZmVBcGkudHMgU3RyZWFtSG9va3Mub25EZWx0YSDihpIgaG9va3MvdXNlQ2hhdEFJLnRzIOKGkiBhcHBzL0NoYXQudHN477yJ44CCCiAqIOa1gee7k+adn+WQjuS7jeeUseaXouacieWQjuWkhOeQhueuoee6vyAoYXBwbHlBc3Npc3RhbnRQb3N0UHJvY2Vzc2luZykg6LSf6LSj55yf5q2j55qE6Kej5p6Q44CBCiAqIOiQveW6k+S4jua4suafk++8jOmihOiniOawlOazoemaj+WNs+iiq+a4heaOiSDigJTigJQg6aKE6KeI5Y+q5b2x5ZON5L2T5oSf5bu26L+f77yM5LiN5pS55Y+Y5Lu75L2V5oyB5LmF5YyW6KGM5Li644CCCiAqCiAqIOWboOatpOi/memHjOeahOi/h+a7pOetlueVpeaYr+OAjOWugee8uuavi+a7peOAje+8muaLv+S4jeWHhueahOihjO+8iOaMh+S7pOOAgeivremfsy/nv7vor5Ev5oCd6ICDL+aXpeiusC9IVE1MIOWdl+OAgQogKiDmnKrpl63lkIjmoIfnrb7vvInkuIDlvovkuI3pooTop4jvvIznrYnmnIDnu4jnrqHnur/lpITnkIbjgILmvI/mmL7npLrlj6rmjZ/lpLHkuIDngrnpooTop4jlrozmlbTluqbvvJsKICog6ZSZ5pi+56S677yI5oqKIFtbRElBUllfU1RBUlRdXSDnmoTml6XorrDmraPmloflvZPogYrlpKnmsJTms6HlvLnlh7rmnaXvvInmiY3mmK/kuovmlYXjgIIKICoKICog5q+P5qyhIG9uRGVsdGEg6YO95Z+65LqO57Sv6K6h5YWo5paH5YWo6YeP6YeN566X77yI5bmC562J77yJ4oCU4oCUc2FmZUZldGNoSnNvbiDlhoXpg6jph43or5XkvJrph43lvIDkuIDmnaHmtYHjgIEKICog5YWo5paH5LuO5aS057Sv6K6h77yM5YWo6YeP6YeN566X5aSp54S25aSE55CG6L+Z56eN6YeN572u44CCCiAqLwoKaW1wb3J0IHsgQ2hhdFBhcnNlciB9IGZyb20gJy4vY2hhdFBhcnNlcic7CmltcG9ydCB0eXBlIHsgTWVzc2FnZSB9IGZyb20gJy4uL3R5cGVzJzsKCi8qKiDot6jooYzlnZfop4TliJnvvJpvcGVuIOWRveS4rei/m+WFpeaKkeWItuaAge+8jOebtOWIsCBjbG9zZSDlkb3kuK3vvIjlkKvpl63lkIjooYzmnKzouqvvvInjgIIgKi8KY29uc3QgQkxPQ0tfUlVMRVM6IEFycmF5PHsgb3BlbjogUmVnRXhwOyBjbG9zZTogUmVnRXhwIH0+ID0gWwogICAgLy8gTm90aW9uIC8g6aOe5Lmm5pel6K6w5aSa6KGM5Z2XIOKAlOKAlCDmraPmlofmmK/ml6XorrDlhoXlrrnvvIzkuI3mmK/ogYrlpKnmsJTms6EKICAgIHsgb3BlbjogL1xbXFsoPzpGU18pP0RJQVJZX1NUQVJUL2ksIGNsb3NlOiAvXFtcWyg/OkZTXyk/RElBUllfRU5EXF1cXS9pIH0sCiAgICAvLyBIVE1MIOWNoeeJh+WdlwogICAgeyBvcGVuOiAvXFtodG1sXF0vaSwgY2xvc2U6IC9cW1wvaHRtbFxdL2kgfSwKICAgIC8vIOaAneiAg+mTvu+8iGNvbnRlbnQg5YaF5bWM5b2i5oCB77ybcmVhc29uaW5nX2NvbnRlbnQg6YCa6YGT5qC55pys5LiN6L+b5q2j5paH77yJCiAgICB7IG9wZW46IC88KD86dGhpbmt8dGhpbmtpbmd8dGhvdWdodCk+L2ksIGNsb3NlOiAvPFwvKD86dGhpbmt8dGhpbmtpbmd8dGhvdWdodCk+L2kgfSwKICAgIC8vIOivremfsyAvIOWtl+W5lSAvIOWPjOivree/u+ivkeagh+etviDigJTigJQg55Sx5pyA57uI566h57q/5oiQ5a+56Kej5p6Q5riy5p+T77yM6aKE6KeI5LiA5b6L5LiN56KwCiAgICB7IG9wZW46IC88W+ivreiqnl3pn7NbXj5dKj4vLCBjbG9zZTogLzxcL1xzKlvor63oqp5d6Z+zXHMqPi8gfSwKICAgIHsgb3BlbjogLzzlrZfluZU+LywgY2xvc2U6IC88XC/lrZfluZU+LyB9LAogICAgeyBvcGVuOiAvPOe/u+ivkT4vLCBjbG9zZTogLzxcL+e/u+ivkT4vIH0sCl07CgovKiog5Y2V6KGM57qn5o6S6Zmk77ya5ZCr5Lu75L2VIFtbLi4uXV0g5oyH5Luk44CB5pel56iL5oyH5Luk44CB5Y+M6K+t5qCH6K6w55qE6KGM5LiN6aKE6KeI44CCICovCmZ1bmN0aW9uIGlzTGluZVByZXZpZXdhYmxlKGxpbmU6IHN0cmluZyk6IGJvb2xlYW4gewogICAgaWYgKCFsaW5lKSByZXR1cm4gZmFsc2U7CiAgICBpZiAobGluZS5pbmNsdWRlcygnW1snKSkgcmV0dXJuIGZhbHNlOyAgICAgICAgICAgICAgICAgICAgLy8gU0VORF9FTU9KSSAvIFFVT1RFIC8gQUNUSU9OIC8gUkVDQUxMIC8gWEhTXyog4oCmCiAgICBpZiAoL15cW3NjaGVkdWxlX21lc3NhZ2VccypcfC9pLnRlc3QobGluZSkpIHJldHVybiBmYWxzZTsgLy8g5a6a5pe25raI5oGv5oyH5LukCiAgICBpZiAoLyUlQklMSU5HVUFMJSV8JSVUUkFOUyUlL2kudGVzdChsaW5lKSkgcmV0dXJuIGZhbHNlOwogICAgaWYgKC88XC8/KD86W+ivreiqnl3pn7N85a2X5bmVfOe/u+ivkXzljp/mlod86K+R5paHfHRoaW5rfHRoaW5raW5nfHRob3VnaHQpXGIvaS50ZXN0KGxpbmUpKSByZXR1cm4gZmFsc2U7CiAgICByZXR1cm4gdHJ1ZTsKfQoKLyoqCiAqIOS7juOAjOe0r+iuoeWIsOebruWJjeS4uuatoueahOWOn+Wni+a1geaWh+acrOOAjeiuoeeul+W9k+WJjeWPr+WxleekuueahOmihOiniOawlOazoeOAggogKgogKiDlt7LlrozmiJDooYzmjInml6LmnInop4TliJnov4fmu6TvvJvmnKrlrozmiJDlsL7lj6XkuZ/kvJrmjIHnu63lop7plb/vvIzkvYblnKggYFtgLCBgPGAsIGAlJWAKICog6L+Z57G75o6n5Yi25qCH6K6w5YmN5oiq5pat77yM6YG/5YWN5Y2K5oiq5oyH5Luk5oiW5qCH562+5rOE5ryP5Yiw6IGK5aSp5rCU5rOh44CCCiAqLwpleHBvcnQgZnVuY3Rpb24gY29tcHV0ZVN0cmVhbVByZXZpZXdCdWJibGVzKGZ1bGxUZXh0OiBzdHJpbmcpOiBzdHJpbmdbXSB7CiAgICBpZiAoIWZ1bGxUZXh0KSByZXR1cm4gW107CiAgICBjb25zdCBsYXN0TmwgPSBmdWxsVGV4dC5sYXN0SW5kZXhPZignXG4nKTsKICAgIGNvbnN0IGNvbXBsZXRlZCA9IGxhc3RObCA8IDAgPyAnJyA6IGZ1bGxUZXh0LnNsaWNlKDAsIGxhc3RObCk7CiAgICBjb25zdCB0cmFpbGluZyA9IGxhc3RObCA8IDAgPyBmdWxsVGV4dCA6IGZ1bGxUZXh0LnNsaWNlKGxhc3RObCArIDEpOwoKICAgIGNvbnN0IGtlcHQ6IHN0cmluZ1tdID0gW107CiAgICBsZXQgaW5CbG9ja0Nsb3NlOiBSZWdFeHAgfCBudWxsID0gbnVsbDsKICAgIGZvciAoY29uc3QgcmF3TGluZSBvZiBjb21wbGV0ZWQuc3BsaXQoL1xyP1xuLykpIHsKICAgICAgICBjb25zdCBsaW5lID0gcmF3TGluZS50cmltKCk7CiAgICAgICAgaWYgKGluQmxvY2tDbG9zZSkgewogICAgICAgICAgICAvLyDmipHliLbmgIHvvJrlj6rmib7pl63lkIjvvIzpl63lkIjooYzmnKzouqvkuZ/kuI3lsZXnpLoKICAgICAgICAgICAgaWYgKGluQmxvY2tDbG9zZS50ZXN0KGxpbmUpKSBpbkJsb2NrQ2xvc2UgPSBudWxsOwogICAgICAgICAgICBjb250aW51ZTsKICAgICAgICB9CiAgICAgICAgY29uc3Qgb3BlbmVkID0gQkxPQ0tfUlVMRVMuZmluZChyID0+IHIub3Blbi50ZXN0KGxpbmUpKTsKICAgICAgICBpZiAob3BlbmVkKSB7CiAgICAgICAgICAgIC8vIOWQjOihjOW8gOmXre+8iOWmguWNleihjCA86K+t6Z+zPuKApjwv6K+t6Z+zPu+8ieKGkiDor6XooYzmlbTkvZPot7Pov4fvvJvlkKbliJnov5vlhaXmipHliLbmgIEKICAgICAgICAgICAgY29uc3QgY2xvc2VJZHggPSBsaW5lLnNlYXJjaChvcGVuZWQuY2xvc2UpOwogICAgICAgICAgICBjb25zdCBvcGVuSWR4ID0gbGluZS5zZWFyY2gob3BlbmVkLm9wZW4pOwogICAgICAgICAgICBpZiAoY2xvc2VJZHggPCAwIHx8IGNsb3NlSWR4IDw9IG9wZW5JZHgpIGluQmxvY2tDbG9zZSA9IG9wZW5lZC5jbG9zZTsKICAgICAgICAgICAgY29udGludWU7CiAgICAgICAgfQogICAgICAgIGlmICghaXNMaW5lUHJldmlld2FibGUobGluZSkpIGNvbnRpbnVlOwogICAgICAgIGtlcHQucHVzaChsaW5lKTsKICAgIH0KCiAgICAvLyBTdHJlYW0gdGhlIHVuZmluaXNoZWQgdGFpbCB0b28sIGJ1dCBzdG9wIGJlZm9yZSBhIHBvc3NpYmxlIGNvbnRyb2wvdGFnIHByZWZpeC4KICAgIC8vIFRoaXMga2VlcHMgb3JkaW5hcnkgb25lLXBhcmFncmFwaCByZXBsaWVzIGxpdmUgd2l0aG91dCBmbGFzaGluZyBwYXJ0aWFsIGRpcmVjdGl2ZXMuCiAgICBpZiAoIWluQmxvY2tDbG9zZSAmJiB0cmFpbGluZy50cmltKCkpIHsKICAgICAgICBjb25zdCBtYXJrZXJJbmRleGVzID0gW3RyYWlsaW5nLmluZGV4T2YoJ1snKSwgdHJhaWxpbmcuaW5kZXhPZignPCcpLCB0cmFpbGluZy5pbmRleE9mKCclJScpXQogICAgICAgICAgICAuZmlsdGVyKGluZGV4ID0+IGluZGV4ID49IDApOwogICAgICAgIGNvbnN0IHNhZmVFbmQgPSBtYXJrZXJJbmRleGVzLmxlbmd0aCA+IDAgPyBNYXRoLm1pbiguLi5tYXJrZXJJbmRleGVzKSA6IHRyYWlsaW5nLmxlbmd0aDsKICAgICAgICBjb25zdCBzYWZlVHJhaWxpbmcgPSB0cmFpbGluZy5zbGljZSgwLCBzYWZlRW5kKS50cmltKCk7CiAgICAgICAgaWYgKHNhZmVUcmFpbGluZyAmJiBpc0xpbmVQcmV2aWV3YWJsZShzYWZlVHJhaWxpbmcpKSBrZXB0LnB1c2goc2FmZVRyYWlsaW5nKTsKICAgIH0KICAgIGlmIChrZXB0Lmxlbmd0aCA9PT0gMCkgcmV0dXJuIFtdOwoKICAgIC8vIOS4juacgOe7iOeuoee6v+WQjOS4gOWll+awlOazoeWIh+WIhu+8iENKSyDnqbrmoLzliIfngrnnrYnvvInvvIzlho3pgJDmnaEgc2FuaXRpemUgKyDmnInmlYjlhoXlrrnmoKHpqozvvIwKICAgIC8vIOiuqemihOiniOawlOazoeeahOi+ueeVjOWSjOWGheWuueWwvemHj+i0tOi/keacgOe7iOiQveW6k+eahOagt+WtkOOAggogICAgY29uc3QgYnViYmxlczogc3RyaW5nW10gPSBbXTsKICAgIGZvciAoY29uc3QgY2h1bmsgb2YgQ2hhdFBhcnNlci5jaHVua1RleHQoa2VwdC5qb2luKCdcbicpKSkgewogICAgICAgIGNvbnN0IGNsZWFuID0gQ2hhdFBhcnNlci5zYW5pdGl6ZShjaHVuaykudHJpbSgpOwogICAgICAgIGlmIChjbGVhbiAmJiBDaGF0UGFyc2VyLmhhc0Rpc3BsYXlDb250ZW50KGNsZWFuKSkgYnViYmxlcy5wdXNoKGNsZWFuKTsKICAgIH0KICAgIHJldHVybiBidWJibGVzOwp9CgovKiog5o+Q5Y+W5pmu6YCaIGNvbnRlbnQg6YCa6YGT6YeM5bey6Zet5ZCI5oiW5LuN5Zyo5aKe6ZW/55qE5YaF5bWM5oCd6ICD5Z2X44CCICovCmV4cG9ydCBmdW5jdGlvbiBleHRyYWN0U3RyZWFtaW5nRW1iZWRkZWRUaGlua2luZyhmdWxsVGV4dDogc3RyaW5nKTogc3RyaW5nIHsKICAgIGlmICghZnVsbFRleHQpIHJldHVybiAnJzsKICAgIGNvbnN0IGJsb2Nrczogc3RyaW5nW10gPSBbXTsKICAgIGNvbnN0IGNsb3NlZCA9IC88KHRoaW5rfHRoaW5raW5nfHRob3VnaHQpPihbXHNcU10qPyk8XC9cMT4vZ2k7CiAgICBsZXQgbWF0Y2g6IFJlZ0V4cEV4ZWNBcnJheSB8IG51bGw7CiAgICBsZXQgbGFzdENsb3NlZEVuZCA9IDA7CiAgICB3aGlsZSAoKG1hdGNoID0gY2xvc2VkLmV4ZWMoZnVsbFRleHQpKSAhPT0gbnVsbCkgewogICAgICAgIGNvbnN0IHRleHQgPSBtYXRjaFsyXS50cmltKCk7CiAgICAgICAgaWYgKHRleHQpIGJsb2Nrcy5wdXNoKHRleHQpOwogICAgICAgIGxhc3RDbG9zZWRFbmQgPSBjbG9zZWQubGFzdEluZGV4OwogICAgfQoKICAgIGNvbnN0IHRhaWwgPSBmdWxsVGV4dC5zbGljZShsYXN0Q2xvc2VkRW5kKTsKICAgIGNvbnN0IG9wZW4gPSB0YWlsLm1hdGNoKC88KD86dGhpbmt8dGhpbmtpbmd8dGhvdWdodCk+KFtcc1xTXSopJC9pKTsKICAgIGlmIChvcGVuPy5bMV0udHJpbSgpKSBibG9ja3MucHVzaChvcGVuWzFdLnRyaW0oKSk7CiAgICByZXR1cm4gYmxvY2tzLmpvaW4oJ1xuXG4nKS50cmltKCk7Cn0KCi8qKgogKiDmib7lh7rmnKzova7nnJ/mraPnlLHmtYHlvI/pooTop4jlsZXnpLrov4fjgIHpmo/lkI7miY3okL3lupPnmoTmtojmga/jgIIKICoKICog5ZCO5aSE55CG5Y+v6IO96L+Y5Lya6L+95Yqg5LqM5qyhIExMTSDlm57lpI3jgIHooajmg4XmiJblip/og73ljaHniYfvvJvov5nkupvlhoXlrrnmsqHmnInlnKjpooTop4jph4zlh7rnjrDvvIwKICog5LiN6IO95LiA5bm256aB55So5YWl5Zy65Yqo55S744CC5Zug5q2k5oyJ44CM5Z+657q/5ZCO55qEIGFzc2lzdGFudCDmlofmnKwgKyDpooTop4jmraPmlofpobrluo/jgI3nsr7noa7ljLnphY3jgIIKICogY2xhaW1lZElkcyDorqnlpJrmrKEgc2V0TWVzc2FnZXPvvIhBIC0+IEErQiAtPiBBK0IrQ++8ieWPquS4iuaKpeaWsOaOpeajkueahCBpZOOAggogKi8KZXhwb3J0IGZ1bmN0aW9uIGZpbmROZXdTdHJlYW1QcmV2aWV3SGFuZG92ZXJJZHMoCiAgICBtZXNzYWdlczogTWVzc2FnZVtdLAogICAgcHJldmlld0J1YmJsZXM6IHJlYWRvbmx5IHN0cmluZ1tdLAogICAgYmFzZWxpbmVNYXhJZDogbnVtYmVyLAogICAgY2xhaW1lZElkczogUmVhZG9ubHlTZXQ8bnVtYmVyPiwKKTogbnVtYmVyW10gewogICAgaWYgKHByZXZpZXdCdWJibGVzLmxlbmd0aCA9PT0gMCkgcmV0dXJuIFtdOwoKICAgIGNvbnN0IGZvdW5kOiBudW1iZXJbXSA9IFtdOwogICAgbGV0IHByZXZpZXdJbmRleCA9IDA7CiAgICBmb3IgKGNvbnN0IG1lc3NhZ2Ugb2YgbWVzc2FnZXMpIHsKICAgICAgICBpZiAoCiAgICAgICAgICAgIG1lc3NhZ2UuaWQgPD0gYmFzZWxpbmVNYXhJZAogICAgICAgICAgICB8fCBtZXNzYWdlLnJvbGUgIT09ICdhc3Npc3RhbnQnCiAgICAgICAgICAgIHx8IG1lc3NhZ2UudHlwZSAhPT0gJ3RleHQnCiAgICAgICAgKSBjb250aW51ZTsKCiAgICAgICAgaWYgKHByZXZpZXdJbmRleCA+PSBwcmV2aWV3QnViYmxlcy5sZW5ndGgpIGJyZWFrOwogICAgICAgIGNvbnN0IHBlcnNpc3RlZFRleHQgPSBDaGF0UGFyc2VyLnNhbml0aXplKG1lc3NhZ2UuY29udGVudCkudHJpbSgpOwogICAgICAgIGlmIChwZXJzaXN0ZWRUZXh0ICE9PSBwcmV2aWV3QnViYmxlc1twcmV2aWV3SW5kZXhdKSBjb250aW51ZTsKCiAgICAgICAgaWYgKCFjbGFpbWVkSWRzLmhhcyhtZXNzYWdlLmlkKSkgZm91bmQucHVzaChtZXNzYWdlLmlkKTsKICAgICAgICBwcmV2aWV3SW5kZXgrKzsKICAgIH0KICAgIHJldHVybiBmb3VuZDsKfQo=
+/**
+ * 流式回复的「预览气泡」计算 —— 纯函数，无副作用。
+ *
+ * 主聊天路径开启 stream 后，边收流边把已完成行和安全的未完成尾句渲染成临时预览气泡
+ * （utils/safeApi.ts StreamHooks.onDelta → hooks/useChatAI.ts → apps/Chat.tsx）。
+ * 流结束后仍由既有后处理管线 (applyAssistantPostProcessing) 负责真正的解析、
+ * 落库与渲染，预览气泡随即被清掉 —— 预览只影响体感延迟，不改变任何持久化行为。
+ *
+ * 因此这里的过滤策略是「宁缺毋滥」：拿不准的行（指令、语音/翻译/思考/日记/HTML 块、
+ * 未闭合标签）一律不预览，等最终管线处理。漏显示只损失一点预览完整度；
+ * 错显示（把 [[DIARY_START]] 的日记正文当聊天气泡弹出来）才是事故。
+ *
+ * 每次 onDelta 都基于累计全文全量重算（幂等）——safeFetchJson 内部重试会重开一条流、
+ * 全文从头累计，全量重算天然处理这种重置。
+ */
+
+import { ChatParser } from './chatParser';
+import type { Message } from '../types';
+
+/** 跨行块规则：open 命中进入抑制态，直到 close 命中（含闭合行本身）。 */
+const BLOCK_RULES: Array<{ open: RegExp; close: RegExp }> = [
+    // Notion / 飞书日记多行块 —— 正文是日记内容，不是聊天气泡
+    { open: /\[\[(?:FS_)?DIARY_START/i, close: /\[\[(?:FS_)?DIARY_END\]\]/i },
+    // HTML 卡片块
+    { open: /\[html\]/i, close: /\[\/html\]/i },
+    // 思考链（content 内嵌形态；reasoning_content 通道根本不进正文）
+    { open: /<(?:think|thinking|thought)>/i, close: /<\/(?:think|thinking|thought)>/i },
+    // 语音 / 字幕 / 双语翻译标签 —— 由最终管线成对解析渲染，预览一律不碰
+    { open: /<[语語]音[^>]*>/, close: /<\/\s*[语語]音\s*>/ },
+    { open: /<字幕>/, close: /<\/字幕>/ },
+    { open: /<翻译>/, close: /<\/翻译>/ },
+];
+
+/** 单行级排除：含任何 [[...]] 指令、日程指令、双语标记的行不预览。 */
+function isLinePreviewable(line: string): boolean {
+    if (!line) return false;
+    if (line.includes('[[')) return false;                    // SEND_EMOJI / QUOTE / ACTION / RECALL / XHS_* …
+    if (/^\[schedule_message\s*\|/i.test(line)) return false; // 定时消息指令
+    if (/%%BILINGUAL%%|%%TRANS%%/i.test(line)) return false;
+    if (/<\/?(?:[语語]音|字幕|翻译|原文|译文|think|thinking|thought)\b/i.test(line)) return false;
+    return true;
+}
+
+/**
+ * 从「累计到目前为止的原始流文本」计算当前可展示的预览气泡。
+ *
+ * 已完成行按既有规则过滤；未完成尾句也会持续增长，但在 `[`, `<`, `%%`
+ * 这类控制标记前截断，避免半截指令或标签泄漏到聊天气泡。
+ */
+export function computeStreamPreviewBubbles(fullText: string): string[] {
+    if (!fullText) return [];
+    const lastNl = fullText.lastIndexOf('\n');
+    const completed = lastNl < 0 ? '' : fullText.slice(0, lastNl);
+    const trailing = lastNl < 0 ? fullText : fullText.slice(lastNl + 1);
+
+    const kept: string[] = [];
+    let inBlockClose: RegExp | null = null;
+    for (const rawLine of completed.split(/\r?\n/)) {
+        const line = rawLine.trim();
+        if (inBlockClose) {
+            // 抑制态：只找闭合，闭合行本身也不展示
+            if (inBlockClose.test(line)) inBlockClose = null;
+            continue;
+        }
+        const opened = BLOCK_RULES.find(r => r.open.test(line));
+        if (opened) {
+            // 同行开闭（如单行 <语音>…</语音>）→ 该行整体跳过；否则进入抑制态
+            const closeIdx = line.search(opened.close);
+            const openIdx = line.search(opened.open);
+            if (closeIdx < 0 || closeIdx <= openIdx) inBlockClose = opened.close;
+            continue;
+        }
+        if (!isLinePreviewable(line)) continue;
+        kept.push(line);
+    }
+
+    // Stream the unfinished tail too, but stop before a possible control/tag prefix.
+    // This keeps ordinary one-paragraph replies live without flashing partial directives.
+    if (!inBlockClose && trailing.trim()) {
+        const markerIndexes = [trailing.indexOf('['), trailing.indexOf('<'), trailing.indexOf('%%')]
+            .filter(index => index >= 0);
+        const safeEnd = markerIndexes.length > 0 ? Math.min(...markerIndexes) : trailing.length;
+        const safeTrailing = trailing.slice(0, safeEnd).trim();
+        if (safeTrailing && isLinePreviewable(safeTrailing)) kept.push(safeTrailing);
+    }
+    if (kept.length === 0) return [];
+
+    // 与最终管线同一套气泡切分（CJK 空格切点等），再逐条 sanitize + 有效内容校验，
+    // 让预览气泡的边界和内容尽量贴近最终落库的样子。
+    const bubbles: string[] = [];
+    for (const chunk of ChatParser.chunkText(kept.join('\n'))) {
+        const clean = ChatParser.sanitize(chunk).trim();
+        if (clean && ChatParser.hasDisplayContent(clean)) bubbles.push(clean);
+    }
+    return bubbles;
+}
+
+/** 提取普通 content 通道里已闭合或仍在增长的内嵌思考块。 */
+export function extractStreamingEmbeddedThinking(fullText: string): string {
+    if (!fullText) return '';
+    const blocks: string[] = [];
+    const closed = /<(think|thinking|thought)>([\s\S]*?)<\/\1>/gi;
+    let match: RegExpExecArray | null;
+    let lastClosedEnd = 0;
+    while ((match = closed.exec(fullText)) !== null) {
+        const text = match[2].trim();
+        if (text) blocks.push(text);
+        lastClosedEnd = closed.lastIndex;
+    }
+
+    const tail = fullText.slice(lastClosedEnd);
+    const open = tail.match(/<(?:think|thinking|thought)>([\s\S]*)$/i);
+    if (open?.[1].trim()) blocks.push(open[1].trim());
+    return blocks.join('\n\n').trim();
+}
+
+/**
+ * 找出本轮真正由流式预览展示过、随后才落库的消息。
+ *
+ * 后处理可能还会追加二次 LLM 回复、表情或功能卡片；这些内容没有在预览里出现，
+ * 不能一并禁用入场动画。因此按「基线后的 assistant 文本 + 预览正文顺序」精确匹配。
+ * claimedIds 让多次 setMessages（A -> A+B -> A+B+C）只上报新接棒的 id。
+ */
+export function findNewStreamPreviewHandoverIds(
+    messages: Message[],
+    previewBubbles: readonly string[],
+    baselineMaxId: number,
+    claimedIds: ReadonlySet<number>,
+): number[] {
+    if (previewBubbles.length === 0) return [];
+
+    const found: number[] = [];
+    let previewIndex = 0;
+    for (const message of messages) {
+        if (
+            message.id <= baselineMaxId
+            || message.role !== 'assistant'
+            || message.type !== 'text'
+        ) continue;
+
+        if (previewIndex >= previewBubbles.length) break;
+        const persistedText = ChatParser.sanitize(message.content).trim();
+        if (persistedText !== previewBubbles[previewIndex]) continue;
+
+        if (!claimedIds.has(message.id)) found.push(message.id);
+        previewIndex++;
+    }
+    return found;
+}

@@ -1,1 +1,240 @@
-aW1wb3J0IFJlYWN0IGZyb20gJ3JlYWN0JzsKaW1wb3J0IHsgVXNlckltcHJlc3Npb24gfSBmcm9tICcuLi8uLi90eXBlcyc7CmltcG9ydCB7IG5vcm1hbGl6ZVVzZXJJbXByZXNzaW9uIH0gZnJvbSAnLi4vLi4vdXRpbHMvaW1wcmVzc2lvbic7Cgpjb25zdCBUYWdHcm91cDogUmVhY3QuRkM8eyB0aXRsZTogc3RyaW5nOyB0YWdzOiBzdHJpbmdbXTsgY29sb3I6IHN0cmluZzsgb25SZW1vdmU/OiAodDogc3RyaW5nKSA9PiB2b2lkIH0+ID0gKHsgdGl0bGUsIHRhZ3MsIGNvbG9yLCBvblJlbW92ZSB9KSA9PiAoCiAgICA8ZGl2IGNsYXNzTmFtZT0ibWItNCI+CiAgICAgICAgPGg0IGNsYXNzTmFtZT0idGV4dC1bMTBweF0gZm9udC1ib2xkIHRleHQtc2xhdGUtNDAwIHVwcGVyY2FzZSB0cmFja2luZy13aWRlc3QgbWItMiBmbGV4IGl0ZW1zLWNlbnRlciBnYXAtMiI+CiAgICAgICAgICAgIDxzcGFuIGNsYXNzTmFtZT17YHctMS41IGgtMS41IHJvdW5kZWQtZnVsbCAke2NvbG9yfWB9Pjwvc3Bhbj4ge3RpdGxlfQogICAgICAgIDwvaDQ+CiAgICAgICAgPGRpdiBjbGFzc05hbWU9ImZsZXggZmxleC13cmFwIGdhcC0yIj4KICAgICAgICAgICAge3RhZ3MubGVuZ3RoID4gMCA/IHRhZ3MubWFwKCh0YWcsIGluZGV4KSA9PiAoCiAgICAgICAgICAgICAgICA8c3BhbiBrZXk9e2Ake3RhZ30tJHtpbmRleH1gfSBjbGFzc05hbWU9ImlubGluZS1mbGV4IGl0ZW1zLWNlbnRlciBweC0yLjUgcHktMSByb3VuZGVkLWxnIGJnLXdoaXRlIGJvcmRlciBib3JkZXItc2xhdGUtMTAwIHRleHQteHMgdGV4dC1zbGF0ZS02MDAgc2hhZG93LXNtIj4KICAgICAgICAgICAgICAgICAgICB7dGFnfQogICAgICAgICAgICAgICAgICAgIHtvblJlbW92ZSAmJiA8YnV0dG9uIG9uQ2xpY2s9eygpID0+IG9uUmVtb3ZlKHRhZyl9IGNsYXNzTmFtZT0ibWwtMS41IHRleHQtc2xhdGUtMzAwIGhvdmVyOnRleHQtcmVkLTQwMCI+eDwvYnV0dG9uPn0KICAgICAgICAgICAgICAgIDwvc3Bhbj4KICAgICAgICAgICAgKSkgOiA8c3BhbiBjbGFzc05hbWU9InRleHQteHMgdGV4dC1zbGF0ZS0zMDAgaXRhbGljIj7mmoLml6DmlbDmja48L3NwYW4+fQogICAgICAgIDwvZGl2PgogICAgPC9kaXY+Cik7Cgpjb25zdCBBbmFseXNpc0Jsb2NrOiBSZWFjdC5GQzx7IHRpdGxlOiBzdHJpbmc7IGNvbnRlbnQ6IHN0cmluZzsgaWNvbjogUmVhY3QuUmVhY3ROb2RlIH0+ID0gKHsgdGl0bGUsIGNvbnRlbnQsIGljb24gfSkgPT4gKAogICAgPGRpdiBjbGFzc05hbWU9ImJnLXdoaXRlLzYwIHAtNCByb3VuZGVkLTJ4bCBib3JkZXIgYm9yZGVyLXdoaXRlLzYwIHNoYWRvdy1zbSByZWxhdGl2ZSBvdmVyZmxvdy1oaWRkZW4gZ3JvdXAiPgogICAgICAgIDxkaXYgY2xhc3NOYW1lPSJhYnNvbHV0ZSB0b3AtMCByaWdodC0wIHAtMyBvcGFjaXR5LTEwIGdyb3VwLWhvdmVyOm9wYWNpdHktMjAgdHJhbnNpdGlvbi1vcGFjaXR5IHRyYW5zZm9ybSBncm91cC1ob3ZlcjpzY2FsZS0xMTAgZHVyYXRpb24tNTAwIHRleHQtc2xhdGUtODAwIj4KICAgICAgICAgICAge2ljb259CiAgICAgICAgPC9kaXY+CiAgICAgICAgPGg0IGNsYXNzTmFtZT0idGV4dC14cyBmb250LWJvbGQgdGV4dC1zbGF0ZS01MDAgbWItMiBmbGV4IGl0ZW1zLWNlbnRlciBnYXAtMiByZWxhdGl2ZSB6LTEwIj4KICAgICAgICAgICAge3RpdGxlfQogICAgICAgIDwvaDQ+CiAgICAgICAgPHAgY2xhc3NOYW1lPSJ0ZXh0LXNtIHRleHQtc2xhdGUtNzAwIGxlYWRpbmctcmVsYXhlZCB0ZXh0LWp1c3RpZnkgcmVsYXRpdmUgei0xMCB3aGl0ZXNwYWNlLXByZS13cmFwIj4KICAgICAgICAgICAge2NvbnRlbnQgfHwgJ+mcgOimgeabtOWkmuaVsOaNrui/m+ihjOWIhuaekOOAgid9CiAgICAgICAgPC9wPgogICAgPC9kaXY+Cik7Cgpjb25zdCBNQlRJQmFyOiBSZWFjdC5GQzx7IGxhYmVsTGVmdDogc3RyaW5nOyBsYWJlbFJpZ2h0OiBzdHJpbmc7IHZhbHVlOiBudW1iZXI7IGNvbG9yOiBzdHJpbmcgfT4gPSAoeyBsYWJlbExlZnQsIGxhYmVsUmlnaHQsIHZhbHVlLCBjb2xvciB9KSA9PiAoCiAgICA8ZGl2IGNsYXNzTmFtZT0iZmxleCBpdGVtcy1jZW50ZXIgZ2FwLTIgdGV4dC1bMTBweF0gZm9udC1ib2xkIHRleHQtc2xhdGUtNTAwIHctZnVsbCI+CiAgICAgICAgPHNwYW4gY2xhc3NOYW1lPXtgdy00IHRleHQtY2VudGVyICR7dmFsdWUgPCA1MCA/IGNvbG9yIDogJ29wYWNpdHktNTAnfWB9PntsYWJlbExlZnR9PC9zcGFuPgogICAgICAgIDxkaXYgY2xhc3NOYW1lPSJmbGV4LTEgaC0xLjUgYmctc2xhdGUtMjAwIHJvdW5kZWQtZnVsbCBvdmVyZmxvdy1oaWRkZW4gcmVsYXRpdmUiPgogICAgICAgICAgICA8ZGl2IGNsYXNzTmFtZT17YGFic29sdXRlIHRvcC0wIGJvdHRvbS0wIHctMS41IHJvdW5kZWQtZnVsbCAke2NvbG9yfSB0cmFuc2l0aW9uLWFsbCBkdXJhdGlvbi0xMDAwYH0gc3R5bGU9e3sgbGVmdDogYCR7dmFsdWV9JWAsIHRyYW5zZm9ybTogJ3RyYW5zbGF0ZVgoLTUwJSknIH19PjwvZGl2PgogICAgICAgIDwvZGl2PgogICAgICAgIDxzcGFuIGNsYXNzTmFtZT17YHctNCB0ZXh0LWNlbnRlciAke3ZhbHVlID4gNTAgPyBjb2xvciA6ICdvcGFjaXR5LTUwJ31gfT57bGFiZWxSaWdodH08L3NwYW4+CiAgICA8L2Rpdj4KKTsKCmludGVyZmFjZSBJbXByZXNzaW9uUGFuZWxQcm9wcyB7CiAgICBpbXByZXNzaW9uOiBVc2VySW1wcmVzc2lvbiB8IHVuZGVmaW5lZDsKICAgIGlzR2VuZXJhdGluZzogYm9vbGVhbjsKICAgIG9uR2VuZXJhdGU6ICh0eXBlOiAnaW5pdGlhbCcgfCAndXBkYXRlJykgPT4gdm9pZDsKICAgIG9uVXBkYXRlSW1wcmVzc2lvbjogKG5ld0ltcDogVXNlckltcHJlc3Npb24pID0+IHZvaWQ7CiAgICBvbkRlbGV0ZT86ICgpID0+IHZvaWQ7Cn0KCmNvbnN0IEltcHJlc3Npb25QYW5lbDogUmVhY3QuRkM8SW1wcmVzc2lvblBhbmVsUHJvcHM+ID0gKHsgaW1wcmVzc2lvbiwgaXNHZW5lcmF0aW5nLCBvbkdlbmVyYXRlLCBvblVwZGF0ZUltcHJlc3Npb24sIG9uRGVsZXRlIH0pID0+IHsKICAgIGNvbnN0IFtzaG93RGVsZXRlQ29uZmlybSwgc2V0U2hvd0RlbGV0ZUNvbmZpcm1dID0gUmVhY3QudXNlU3RhdGUoZmFsc2UpOwogICAgY29uc3Qgc2FmZUltcHJlc3Npb24gPSBSZWFjdC51c2VNZW1vKCgpID0+IG5vcm1hbGl6ZVVzZXJJbXByZXNzaW9uKGltcHJlc3Npb24pLCBbaW1wcmVzc2lvbl0pOwoKICAgIGNvbnN0IHJlbW92ZVRhZyA9IChwYXRoOiBzdHJpbmdbXSwgdGFnOiBzdHJpbmcpID0+IHsKICAgICAgICBpZiAoIXNhZmVJbXByZXNzaW9uKSByZXR1cm47CiAgICAgICAgY29uc3QgbmV4dEltcHJlc3Npb24gPSBKU09OLnBhcnNlKEpTT04uc3RyaW5naWZ5KHNhZmVJbXByZXNzaW9uKSkgYXMgVXNlckltcHJlc3Npb24gJiBSZWNvcmQ8c3RyaW5nLCBhbnk+OwogICAgICAgIGxldCB0YXJnZXQ6IFJlY29yZDxzdHJpbmcsIGFueT4gPSBuZXh0SW1wcmVzc2lvbjsKICAgICAgICBmb3IgKGxldCBpbmRleCA9IDA7IGluZGV4IDwgcGF0aC5sZW5ndGggLSAxOyBpbmRleCArPSAxKSB7CiAgICAgICAgICAgIHRhcmdldCA9IHRhcmdldFtwYXRoW2luZGV4XV07CiAgICAgICAgfQogICAgICAgIGNvbnN0IGxhc3RLZXkgPSBwYXRoW3BhdGgubGVuZ3RoIC0gMV07CiAgICAgICAgaWYgKEFycmF5LmlzQXJyYXkodGFyZ2V0W2xhc3RLZXldKSkgewogICAgICAgICAgICB0YXJnZXRbbGFzdEtleV0gPSB0YXJnZXRbbGFzdEtleV0uZmlsdGVyKChpdGVtOiBzdHJpbmcpID0+IGl0ZW0gIT09IHRhZyk7CiAgICAgICAgICAgIG9uVXBkYXRlSW1wcmVzc2lvbihuZXh0SW1wcmVzc2lvbik7CiAgICAgICAgfQogICAgfTsKCiAgICBpZiAoIXNhZmVJbXByZXNzaW9uICYmICFpc0dlbmVyYXRpbmcpIHsKICAgICAgICByZXR1cm4gKAogICAgICAgICAgICA8ZGl2IGNsYXNzTmFtZT0iZmxleCBmbGV4LWNvbCBpdGVtcy1jZW50ZXIganVzdGlmeS1jZW50ZXIgaC1mdWxsIHRleHQtY2VudGVyIHAtOCBzcGFjZS15LTYiPgogICAgICAgICAgICAgICAgPGRpdiBjbGFzc05hbWU9InctMjQgaC0yNCBiZy1pbmRpZ28tNTAgcm91bmRlZC1mdWxsIGZsZXggaXRlbXMtY2VudGVyIGp1c3RpZnktY2VudGVyIHRleHQtaW5kaWdvLTIwMCI+CiAgICAgICAgICAgICAgICAgICAgPHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIGZpbGw9Im5vbmUiIHZpZXdCb3g9IjAgMCAyNCAyNCIgc3Ryb2tlV2lkdGg9ezF9IHN0cm9rZT0iY3VycmVudENvbG9yIiBjbGFzc05hbWU9InctMTIgaC0xMiI+CiAgICAgICAgICAgICAgICAgICAgICAgIDxwYXRoIHN0cm9rZUxpbmVjYXA9InJvdW5kIiBzdHJva2VMaW5lam9pbj0icm91bmQiIGQ9Ik0xNS4wNDIgMjEuNjcyIDEzLjY4NCAxNi42bTAgMC0yLjUxIDIuMjI1LjU2OS05LjQ3IDUuMjI3IDcuOTE3LTMuMjg2LS42NzJaTTEyIDIuMjVWNC41bTUuODM0LjE2Ni0xLjU5MSAxLjU5MU0yMC4yNSAxMC41SDE4TTcuNzU3IDE0Ljc0M2wtMS41OSAxLjU5TTYgMTAuNUgzLjc1bTQuMDA3LTQuMjQzLTEuNTktMS41OSIgLz4KICAgICAgICAgICAgICAgICAgICA8L3N2Zz4KICAgICAgICAgICAgICAgIDwvZGl2PgogICAgICAgICAgICAgICAgPGRpdj4KICAgICAgICAgICAgICAgICAgICA8aDMgY2xhc3NOYW1lPSJ0ZXh0LWxnIGZvbnQtYm9sZCB0ZXh0LXNsYXRlLTcwMCI+5bCa5pyq55Sf5oiQ5Y2w6LGh5qGj5qGIPC9oMz4KICAgICAgICAgICAgICAgICAgICA8cCBjbGFzc05hbWU9InRleHQtc20gdGV4dC1zbGF0ZS00MDAgbXQtMiBtYXgtdy14cyBteC1hdXRvIj7orqkgQUkg5Zue6aG+5L2g5Lus55qE6ZW/5pyf6K6w5b+G5ZKM6L+R5pyf5LqS5Yqo77yM55Sf5oiQ5LiA5Lu96KeS6Imy6KeG6KeS5LiL55qE56eB5a+G5Y2w6LGh5qGj5qGI44CCPC9wPgogICAgICAgICAgICAgICAgPC9kaXY+CiAgICAgICAgICAgICAgICA8YnV0dG9uCiAgICAgICAgICAgICAgICAgICAgb25DbGljaz17KCkgPT4gb25HZW5lcmF0ZSgnaW5pdGlhbCcpfQogICAgICAgICAgICAgICAgICAgIGNsYXNzTmFtZT0icHgtOCBweS0zIGJnLWluZGlnby02MDAgdGV4dC13aGl0ZSByb3VuZGVkLWZ1bGwgZm9udC1ib2xkIHNoYWRvdy1sZyBzaGFkb3ctaW5kaWdvLTIwMCBob3ZlcjpiZy1pbmRpZ28tNzAwIGFjdGl2ZTpzY2FsZS05NSB0cmFuc2l0aW9uLWFsbCIKICAgICAgICAgICAgICAgID4KICAgICAgICAgICAgICAgICAgICDlvIDlp4vmt7HluqbliIbmnpAKICAgICAgICAgICAgICAgIDwvYnV0dG9uPgogICAgICAgICAgICA8L2Rpdj4KICAgICAgICApOwogICAgfQoKICAgIGlmIChpc0dlbmVyYXRpbmcpIHsKICAgICAgICByZXR1cm4gKAogICAgICAgICAgICA8ZGl2IGNsYXNzTmFtZT0iZmxleCBmbGV4LWNvbCBpdGVtcy1jZW50ZXIganVzdGlmeS1jZW50ZXIgaC1mdWxsIHNwYWNlLXktNCI+CiAgICAgICAgICAgICAgICA8ZGl2IGNsYXNzTmFtZT0icmVsYXRpdmUgdy0yMCBoLTIwIj4KICAgICAgICAgICAgICAgICAgICA8ZGl2IGNsYXNzTmFtZT0iYWJzb2x1dGUgaW5zZXQtMCBib3JkZXItNCBib3JkZXItc2xhdGUtMTAwIHJvdW5kZWQtZnVsbCI+PC9kaXY+CiAgICAgICAgICAgICAgICAgICAgPGRpdiBjbGFzc05hbWU9ImFic29sdXRlIGluc2V0LTAgYm9yZGVyLTQgYm9yZGVyLWluZGlnby01MDAgYm9yZGVyLXQtdHJhbnNwYXJlbnQgcm91bmRlZC1mdWxsIGFuaW1hdGUtc3BpbiI+PC9kaXY+CiAgICAgICAgICAgICAgICA8L2Rpdj4KICAgICAgICAgICAgICAgIDxwIGNsYXNzTmFtZT0idGV4dC1zbSB0ZXh0LXNsYXRlLTUwMCBmb250LW1lZGl1bSBhbmltYXRlLXB1bHNlIj7mraPlnKjmlbTnkIbkvaDku6znmoTplb/mnJ/kupLliqjljbDosaEuLi48L3A+CiAgICAgICAgICAgICAgICA8cCBjbGFzc05hbWU9InRleHQteHMgdGV4dC1zbGF0ZS00MDAiPuaehOW7uuaAnee7tOS+p+WGmSAvIOais+eQhuaDhee7qui9qOi/uTwvcD4KICAgICAgICAgICAgPC9kaXY+CiAgICAgICAgKTsKICAgIH0KCiAgICBpZiAoIXNhZmVJbXByZXNzaW9uKSByZXR1cm4gbnVsbDsKCiAgICByZXR1cm4gKAogICAgICAgIDxkaXYgY2xhc3NOYW1lPSJzcGFjZS15LTYgYW5pbWF0ZS1mYWRlLWluIHBiLTEwIj4KICAgICAgICAgICAgPGRpdiBjbGFzc05hbWU9ImZsZXgganVzdGlmeS1iZXR3ZWVuIGl0ZW1zLWNlbnRlciBiZy13aGl0ZSBwLTQgcm91bmRlZC0yeGwgYm9yZGVyIGJvcmRlci1zbGF0ZS0xMDAgc2hhZG93LXNtIj4KICAgICAgICAgICAgICAgIDxkaXY+CiAgICAgICAgICAgICAgICAgICAgPGRpdiBjbGFzc05hbWU9InRleHQtWzEwcHhdIHRleHQtc2xhdGUtNDAwIHVwcGVyY2FzZSB0cmFja2luZy13aWRlc3QgZm9udC1ib2xkIj5WZXJzaW9uIHtzYWZlSW1wcmVzc2lvbi52ZXJzaW9uLnRvRml4ZWQoMSl9PC9kaXY+CiAgICAgICAgICAgICAgICAgICAgPGRpdiBjbGFzc05hbWU9InRleHQteHMgdGV4dC1zbGF0ZS02MDAiPuS4iuasoeabtOaWsDoge25ldyBEYXRlKHNhZmVJbXByZXNzaW9uLmxhc3RVcGRhdGVkIHx8IERhdGUubm93KCkpLnRvTG9jYWxlRGF0ZVN0cmluZygpfTwvZGl2PgogICAgICAgICAgICAgICAgPC9kaXY+CiAgICAgICAgICAgICAgICA8ZGl2IGNsYXNzTmFtZT0iZmxleCBnYXAtMiI+CiAgICAgICAgICAgICAgICAgICAge29uRGVsZXRlICYmIDxidXR0b24gb25DbGljaz17KCkgPT4gc2V0U2hvd0RlbGV0ZUNvbmZpcm0odHJ1ZSl9IGNsYXNzTmFtZT0icHgtMyBweS0xLjUgdGV4dC14cyBmb250LWJvbGQgdGV4dC1yZWQtNDAwIGJnLXJlZC01MCByb3VuZGVkLWxnIGhvdmVyOmJnLXJlZC0xMDAiPuWIoOmZpDwvYnV0dG9uPn0KICAgICAgICAgICAgICAgICAgICA8YnV0dG9uIG9uQ2xpY2s9eygpID0+IG9uR2VuZXJhdGUoJ2luaXRpYWwnKX0gY2xhc3NOYW1lPSJweC0zIHB5LTEuNSB0ZXh0LXhzIGZvbnQtYm9sZCB0ZXh0LXNsYXRlLTQwMCBiZy1zbGF0ZS01MCByb3VuZGVkLWxnIGhvdmVyOmJnLXNsYXRlLTEwMCI+6YeN572uPC9idXR0b24+CiAgICAgICAgICAgICAgICAgICAgPGJ1dHRvbiBvbkNsaWNrPXsoKSA9PiBvbkdlbmVyYXRlKCd1cGRhdGUnKX0gY2xhc3NOYW1lPSJweC00IHB5LTEuNSB0ZXh0LXhzIGZvbnQtYm9sZCB0ZXh0LXdoaXRlIGJnLWluZGlnby01MDAgcm91bmRlZC1sZyBzaGFkb3ctbWQgc2hhZG93LWluZGlnby0yMDAgaG92ZXI6YmctaW5kaWdvLTYwMCBhY3RpdmU6c2NhbGUtOTUgdHJhbnNpdGlvbi1hbGwiPui/veWKoC/mm7TmlrA8L2J1dHRvbj4KICAgICAgICAgICAgICAgIDwvZGl2PgogICAgICAgICAgICA8L2Rpdj4KCiAgICAgICAgICAgIDxkaXYgY2xhc3NOYW1lPSJyZWxhdGl2ZSBiZy1ncmFkaWVudC10by1iciBmcm9tLWluZGlnby01MDAgdG8tcHVycGxlLTYwMCByb3VuZGVkLTN4bCBwLTYgdGV4dC13aGl0ZSBzaGFkb3ctbGcgb3ZlcmZsb3ctaGlkZGVuIj4KICAgICAgICAgICAgICAgIDxkaXYgY2xhc3NOYW1lPSJhYnNvbHV0ZSB0b3AtMCByaWdodC0wIC1tdC00IC1tci00IHctMjQgaC0yNCBiZy13aGl0ZS8xMCByb3VuZGVkLWZ1bGwgYmx1ci0yeGwiPjwvZGl2PgogICAgICAgICAgICAgICAgPGgzIGNsYXNzTmFtZT0idGV4dC14cyBmb250LWJvbGQgdGV4dC13aGl0ZS82MCB1cHBlcmNhc2UgdHJhY2tpbmctd2lkZXN0IG1iLTMiPuaguOW/g+WNsOixoTwvaDM+CiAgICAgICAgICAgICAgICA8cCBjbGFzc05hbWU9InRleHQtbGcgZm9udC1saWdodCBsZWFkaW5nLXJlbGF4ZWQgaXRhbGljIG9wYWNpdHktOTUiPiJ7c2FmZUltcHJlc3Npb24ucGVyc29uYWxpdHlfY29yZS5zdW1tYXJ5fSI8L3A+CgogICAgICAgICAgICAgICAgPGRpdiBjbGFzc05hbWU9Im10LTYgcHQtNCBib3JkZXItdCBib3JkZXItd2hpdGUvMjAgZ3JpZCBncmlkLWNvbHMtMiBnYXAtNCI+CiAgICAgICAgICAgICAgICAgICAgPGRpdj4KICAgICAgICAgICAgICAgICAgICAgICAgPGRpdiBjbGFzc05hbWU9InRleHQtWzEwcHhdIHRleHQtd2hpdGUvNjAgdXBwZXJjYXNlIG1iLTEiPuS6kuWKqOaooeW8jzwvZGl2PgogICAgICAgICAgICAgICAgICAgICAgICA8ZGl2IGNsYXNzTmFtZT0idGV4dC1zbSBmb250LW1lZGl1bSI+e3NhZmVJbXByZXNzaW9uLnBlcnNvbmFsaXR5X2NvcmUuaW50ZXJhY3Rpb25fc3R5bGV9PC9kaXY+CiAgICAgICAgICAgICAgICAgICAgPC9kaXY+CiAgICAgICAgICAgICAgICAgICAgPGRpdj4KICAgICAgICAgICAgICAgICAgICAgICAgPGRpdiBjbGFzc05hbWU9InRleHQtWzEwcHhdIHRleHQtd2hpdGUvNjAgdXBwZXJjYXNlIG1iLTEiPuivreawlOaEn+efpTwvZGl2PgogICAgICAgICAgICAgICAgICAgICAgICA8ZGl2IGNsYXNzTmFtZT0idGV4dC1zbSBmb250LW1lZGl1bSI+e3NhZmVJbXByZXNzaW9uLmJlaGF2aW9yX3Byb2ZpbGUudG9uZV9zdHlsZX08L2Rpdj4KICAgICAgICAgICAgICAgICAgICA8L2Rpdj4KICAgICAgICAgICAgICAgIDwvZGl2PgogICAgICAgICAgICA8L2Rpdj4KCiAgICAgICAgICAgIHtzYWZlSW1wcmVzc2lvbi5tYnRpX2FuYWx5c2lzICYmICgKICAgICAgICAgICAgICAgIDxkaXYgY2xhc3NOYW1lPSJiZy13aGl0ZSByb3VuZGVkLTN4bCBwLTYgYm9yZGVyIGJvcmRlci1zbGF0ZS0xMDAgc2hhZG93LXNtIHJlbGF0aXZlIG92ZXJmbG93LWhpZGRlbiI+CiAgICAgICAgICAgICAgICAgICAgPGRpdiBjbGFzc05hbWU9ImFic29sdXRlIC1yaWdodC02IC10b3AtNiB3LTI0IGgtMjQgYmctdGVhbC01MCByb3VuZGVkLWZ1bGwgYmx1ci14bCBwb2ludGVyLWV2ZW50cy1ub25lIj48L2Rpdj4KICAgICAgICAgICAgICAgICAgICA8ZGl2IGNsYXNzTmFtZT0iZmxleCBqdXN0aWZ5LWJldHdlZW4gaXRlbXMtc3RhcnQgbWItNCByZWxhdGl2ZSB6LTEwIj4KICAgICAgICAgICAgICAgICAgICAgICAgPGgzIGNsYXNzTmFtZT0idGV4dC1zbSBmb250LWJvbGQgdGV4dC1zbGF0ZS03MDAgZmxleCBpdGVtcy1jZW50ZXIgZ2FwLTIiPgogICAgICAgICAgICAgICAgICAgICAgICAgICAgPGltZyBzcmM9Imh0dHBzOi8vY2RuanMuY2xvdWRmbGFyZS5jb20vYWpheC9saWJzL3R3ZW1vamkvMTQuMC4yLzcyeDcyLzFmOWU5LnBuZyIgYWx0PSIiIGNsYXNzTmFtZT0idy01IGgtNSIgLz4gTUJUSSDkvqflhpkKICAgICAgICAgICAgICAgICAgICAgICAgPC9oMz4KICAgICAgICAgICAgICAgICAgICAgICAgPHNwYW4gY2xhc3NOYW1lPSJ0ZXh0LTJ4bCBmb250LWJsYWNrIHRleHQtc2xhdGUtODAwIHRyYWNraW5nLXRpZ2h0ZXIgYmctdGVhbC0xMDAvNTAgcHgtMiByb3VuZGVkLWxnIHRleHQtdGVhbC03MDAiPgogICAgICAgICAgICAgICAgICAgICAgICAgICAge3NhZmVJbXByZXNzaW9uLm1idGlfYW5hbHlzaXMudHlwZX0KICAgICAgICAgICAgICAgICAgICAgICAgPC9zcGFuPgogICAgICAgICAgICAgICAgICAgIDwvZGl2PgoKICAgICAgICAgICAgICAgICAgICA8ZGl2IGNsYXNzTmFtZT0ic3BhY2UteS0zIG1iLTUiPgogICAgICAgICAgICAgICAgICAgICAgICA8TUJUSUJhciBsYWJlbExlZnQ9IkUiIGxhYmVsUmlnaHQ9IkkiIHZhbHVlPXtzYWZlSW1wcmVzc2lvbi5tYnRpX2FuYWx5c2lzLmRpbWVuc2lvbnMuZV9pfSBjb2xvcj0idGV4dC10ZWFsLTUwMCBiZy10ZWFsLTUwMCIgLz4KICAgICAgICAgICAgICAgICAgICAgICAgPE1CVElCYXIgbGFiZWxMZWZ0PSJTIiBsYWJlbFJpZ2h0PSJOIiB2YWx1ZT17c2FmZUltcHJlc3Npb24ubWJ0aV9hbmFseXNpcy5kaW1lbnNpb25zLnNfbn0gY29sb3I9InRleHQtdGVhbC01MDAgYmctdGVhbC01MDAiIC8+CiAgICAgICAgICAgICAgICAgICAgICAgIDxNQlRJQmFyIGxhYmVsTGVmdD0iVCIgbGFiZWxSaWdodD0iRiIgdmFsdWU9e3NhZmVJbXByZXNzaW9uLm1idGlfYW5hbHlzaXMuZGltZW5zaW9ucy50X2Z9IGNvbG9yPSJ0ZXh0LXRlYWwtNTAwIGJnLXRlYWwtNTAwIiAvPgogICAgICAgICAgICAgICAgICAgICAgICA8TUJUSUJhciBsYWJlbExlZnQ9IkoiIGxhYmVsUmlnaHQ9IlAiIHZhbHVlPXtzYWZlSW1wcmVzc2lvbi5tYnRpX2FuYWx5c2lzLmRpbWVuc2lvbnMual9wfSBjb2xvcj0idGV4dC10ZWFsLTUwMCBiZy10ZWFsLTUwMCIgLz4KICAgICAgICAgICAgICAgICAgICA8L2Rpdj4KCiAgICAgICAgICAgICAgICAgICAgPGRpdiBjbGFzc05hbWU9ImJnLXNsYXRlLTUwIHAtMyByb3VuZGVkLXhsIj4KICAgICAgICAgICAgICAgICAgICAgICAgPHAgY2xhc3NOYW1lPSJ0ZXh0LXhzIHRleHQtc2xhdGUtNjAwIGxlYWRpbmctcmVsYXhlZCBpdGFsaWMiPiJ7c2FmZUltcHJlc3Npb24ubWJ0aV9hbmFseXNpcy5yZWFzb25pbmd9IjwvcD4KICAgICAgICAgICAgICAgICAgICA8L2Rpdj4KICAgICAgICAgICAgICAgIDwvZGl2PgogICAgICAgICAgICApfQoKICAgICAgICAgICAgPGRpdiBjbGFzc05hbWU9ImJnLXdoaXRlIHJvdW5kZWQtM3hsIHAtNiBib3JkZXIgYm9yZGVyLXNsYXRlLTEwMCBzaGFkb3ctc20iPgogICAgICAgICAgICAgICAgPGgzIGNsYXNzTmFtZT0idGV4dC1zbSBmb250LWJvbGQgdGV4dC1zbGF0ZS03MDAgbWItNiBmbGV4IGl0ZW1zLWNlbnRlciBnYXAtMiI+CiAgICAgICAgICAgICAgICAgICAgPHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIGNsYXNzTmFtZT0iaC01IHctNSB0ZXh0LWluZGlnby01MDAiIHZpZXdCb3g9IjAgMCAyMCAyMCIgZmlsbD0iY3VycmVudENvbG9yIj4KICAgICAgICAgICAgICAgICAgICAgICAgPHBhdGggZmlsbFJ1bGU9ImV2ZW5vZGQiIGQ9Ik0xMCAxOGE4IDggMCAxMDAtMTYgOCA4IDAgMDAwIDE2em0zLjcwNy05LjI5M2ExIDEgMCAwMC0xLjQxNC0xLjQxNEw5IDEwLjU4NiA3LjcwNyA5LjI5M2ExIDEgMCAwMC0xLjQxNCAxLjQxNGwyIDJhMSAxIDAgMDAxLjQxNCAwbDQtNGExIDEgMCAwMDEuNDE0IDBsNC00YTEgMSAwIDAwMS40MTQgMGw0LTR6IiBjbGlwUnVsZT0iZXZlbm9kZCIgLz4KICAgICAgICAgICAgICAgICAgICA8L3N2Zz4KICAgICAgICAgICAgICAgICAgICDku7flgLzlnLDlm74KICAgICAgICAgICAgICAgIDwvaDM+CgogICAgICAgICAgICAgICAgPFRhZ0dyb3VwIHRpdGxlPSLop4Llr5/liLDnmoTnibnotKgiIHRhZ3M9e3NhZmVJbXByZXNzaW9uLnBlcnNvbmFsaXR5X2NvcmUub2JzZXJ2ZWRfdHJhaXRzfSBjb2xvcj0iYmctYmx1ZS00MDAiIG9uUmVtb3ZlPXsodGFnKSA9PiByZW1vdmVUYWcoWydwZXJzb25hbGl0eV9jb3JlJywgJ29ic2VydmVkX3RyYWl0cyddLCB0YWcpfSAvPgogICAgICAgICAgICAgICAgPFRhZ0dyb3VwIHRpdGxlPSJUQSDllpzmrKLnmoQiIHRhZ3M9e3NhZmVJbXByZXNzaW9uLnZhbHVlX21hcC5saWtlc30gY29sb3I9ImJnLXBpbmstNDAwIiBvblJlbW92ZT17KHRhZykgPT4gcmVtb3ZlVGFnKFsndmFsdWVfbWFwJywgJ2xpa2VzJ10sIHRhZyl9IC8+CiAgICAgICAgICAgICAgICA8VGFnR3JvdXAgdGl0bGU9IlRBIOiuqOWOjOeahCIgdGFncz17c2FmZUltcHJlc3Npb24udmFsdWVfbWFwLmRpc2xpa2VzfSBjb2xvcj0iYmctc2xhdGUtNDAwIiBvblJlbW92ZT17KHRhZykgPT4gcmVtb3ZlVGFnKFsndmFsdWVfbWFwJywgJ2Rpc2xpa2VzJ10sIHRhZyl9IC8+CgogICAgICAgICAgICAgICAgPGRpdiBjbGFzc05hbWU9Im10LTQgcC00IGJnLXNsYXRlLTUwIHJvdW5kZWQteGwiPgogICAgICAgICAgICAgICAgICAgIDxkaXYgY2xhc3NOYW1lPSJ0ZXh0LVsxMHB4XSBmb250LWJvbGQgdGV4dC1zbGF0ZS00MDAgdXBwZXJjYXNlIHRyYWNraW5nLXdpZGVzdCBtYi0xIj7moLjlv4Pku7flgLzop4LmjqjmtYs8L2Rpdj4KICAgICAgICAgICAgICAgICAgICA8cCBjbGFzc05hbWU9InRleHQtc20gdGV4dC1zbGF0ZS02MDAiPntzYWZlSW1wcmVzc2lvbi52YWx1ZV9tYXAuY29yZV92YWx1ZXN9PC9wPgogICAgICAgICAgICAgICAgPC9kaXY+CiAgICAgICAgICAgIDwvZGl2PgoKICAgICAgICAgICAgPGRpdiBjbGFzc05hbWU9ImdyaWQgZ3JpZC1jb2xzLTEgZ2FwLTQiPgogICAgICAgICAgICAgICAgPEFuYWx5c2lzQmxvY2sKICAgICAgICAgICAgICAgICAgICB0aXRsZT0i5oOF57uq54q25oCB5oC757uTIgogICAgICAgICAgICAgICAgICAgIGNvbnRlbnQ9e3NhZmVJbXByZXNzaW9uLmJlaGF2aW9yX3Byb2ZpbGUuZW1vdGlvbl9zdW1tYXJ5fQogICAgICAgICAgICAgICAgICAgIGljb249ezxzdmcgeG1sbnM9Imh0dHA6Ly93d3cudzMub3JnLzIwMDAvc3ZnIiBjbGFzc05hbWU9ImgtMTAgdy0xMCIgZmlsbD0ibm9uZSIgdmlld0JveD0iMCAwIDI0IDI0IiBzdHJva2U9ImN1cnJlbnRDb2xvciI+PHBhdGggc3Ryb2tlTGluZWNhcD0icm91bmQiIHN0cm9rZUxpbmVqb2luPSJyb3VuZCIgc3Ryb2tlV2lkdGg9ezF9IGQ9Ik0xNC44MjggMTQuODI4YTQgNCAwIDAxLTUuNjU2IDBNOSAxMGguMDFNMTUgMTBoLjAxTTIxIDEyYTkgOSAwIDExLTE4IDAgOSA5IDAgMDExOCAweiIgLz48L3N2Zz59CiAgICAgICAgICAgICAgICAvPgogICAgICAgICAgICAgICAgPGRpdiBjbGFzc05hbWU9ImJnLXdoaXRlIHJvdW5kZWQtMnhsIHAtNSBib3JkZXIgYm9yZGVyLXNsYXRlLTEwMCBzaGFkb3ctc20iPgogICAgICAgICAgICAgICAgICAgIDxkaXYgY2xhc3NOYW1lPSJncmlkIGdyaWQtY29scy0yIGdhcC02Ij4KICAgICAgICAgICAgICAgICAgICAgICAgPGRpdj4KICAgICAgICAgICAgICAgICAgICAgICAgICAgIDxkaXYgY2xhc3NOYW1lPSJ0ZXh0LVsxMHB4XSBmb250LWJvbGQgdGV4dC1ncmVlbi01MDAgdXBwZXJjYXNlIHRyYWNraW5nLXdpZGVzdCBtYi0yIj7mraPlkJHop6blj5Hlmag8L2Rpdj4KICAgICAgICAgICAgICAgICAgICAgICAgICAgIDx1bCBjbGFzc05hbWU9Imxpc3QtZGlzYyBsaXN0LWluc2lkZSB0ZXh0LXhzIHRleHQtc2xhdGUtNjAwIHNwYWNlLXktMSI+CiAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAge3NhZmVJbXByZXNzaW9uLmVtb3Rpb25fc2NoZW1hLnRyaWdnZXJzLnBvc2l0aXZlLm1hcCgodGFnLCBpbmRleCkgPT4gPGxpIGtleT17YCR7dGFnfS0ke2luZGV4fWB9Pnt0YWd9PC9saT4pfQogICAgICAgICAgICAgICAgICAgICAgICAgICAgPC91bD4KICAgICAgICAgICAgICAgICAgICAgICAgPC9kaXY+CiAgICAgICAgICAgICAgICAgICAgICAgIDxkaXY+CiAgICAgICAgICAgICAgICAgICAgICAgICAgICA8ZGl2IGNsYXNzTmFtZT0idGV4dC1bMTBweF0gZm9udC1ib2xkIHRleHQtcmVkLTQwMCB1cHBlcmNhc2UgdHJhY2tpbmctd2lkZXN0IG1iLTIiPuWOi+WKmy/pm7fljLo8L2Rpdj4KICAgICAgICAgICAgICAgICAgICAgICAgICAgIDx1bCBjbGFzc05hbWU9Imxpc3QtZGlzYyBsaXN0LWluc2lkZSB0ZXh0LXhzIHRleHQtc2xhdGUtNjAwIHNwYWNlLXktMSI+CiAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAge3NhZmVJbXByZXNzaW9uLmVtb3Rpb25fc2NoZW1hLnRyaWdnZXJzLm5lZ2F0aXZlLm1hcCgodGFnLCBpbmRleCkgPT4gPGxpIGtleT17YCR7dGFnfS0ke2luZGV4fWB9Pnt0YWd9PC9saT4pfQogICAgICAgICAgICAgICAgICAgICAgICAgICAgPC91bD4KICAgICAgICAgICAgICAgICAgICAgICAgPC9kaXY+CiAgICAgICAgICAgICAgICAgICAgPC9kaXY+CiAgICAgICAgICAgICAgICA8L2Rpdj4KICAgICAgICAgICAgICAgIDxkaXYgY2xhc3NOYW1lPSJiZy13aGl0ZSByb3VuZGVkLTJ4bCBwLTUgYm9yZGVyIGJvcmRlci1zbGF0ZS0xMDAgc2hhZG93LXNtIj4KICAgICAgICAgICAgICAgICAgICA8ZGl2IGNsYXNzTmFtZT0idGV4dC1bMTBweF0gZm9udC1ib2xkIHRleHQtaW5kaWdvLTQwMCB1cHBlcmNhc2UgdHJhY2tpbmctd2lkZXN0IG1iLTIiPuiIkumAguWMujwvZGl2PgogICAgICAgICAgICAgICAgICAgIDxwIGNsYXNzTmFtZT0idGV4dC1zbSB0ZXh0LXNsYXRlLTYwMCI+e3NhZmVJbXByZXNzaW9uLmVtb3Rpb25fc2NoZW1hLmNvbWZvcnRfem9uZX08L3A+CiAgICAgICAgICAgICAgICA8L2Rpdj4KICAgICAgICAgICAgPC9kaXY+CgogICAgICAgICAgICB7c2FmZUltcHJlc3Npb24ub2JzZXJ2ZWRfY2hhbmdlcyAmJiBzYWZlSW1wcmVzc2lvbi5vYnNlcnZlZF9jaGFuZ2VzLmxlbmd0aCA+IDAgJiYgKAogICAgICAgICAgICAgICAgPGRpdiBjbGFzc05hbWU9ImJnLWFtYmVyLTUwIHAtNCByb3VuZGVkLTJ4bCBib3JkZXIgYm9yZGVyLWFtYmVyLTEwMCI+CiAgICAgICAgICAgICAgICAgICAgPGg0IGNsYXNzTmFtZT0idGV4dC1bMTBweF0gZm9udC1ib2xkIHRleHQtYW1iZXItNTAwIHVwcGVyY2FzZSB0cmFja2luZy13aWRlc3QgbWItMiI+5pyA6L+R6KeC5a+f5Yiw55qE5Y+Y5YyWPC9oND4KICAgICAgICAgICAgICAgICAgICA8dWwgY2xhc3NOYW1lPSJzcGFjZS15LTIiPgogICAgICAgICAgICAgICAgICAgICAgICB7c2FmZUltcHJlc3Npb24ub2JzZXJ2ZWRfY2hhbmdlcy5tYXAoKGNoYW5nZSwgaW5kZXgpID0+ICgKICAgICAgICAgICAgICAgICAgICAgICAgICAgIDxsaSBrZXk9e2Ake2NoYW5nZX0tJHtpbmRleH1gfSBjbGFzc05hbWU9InRleHQteHMgdGV4dC1hbWJlci05MDAgZmxleCBpdGVtcy1zdGFydCBnYXAtMiI+CiAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgPHNwYW4gY2xhc3NOYW1lPSJtdC0xIHctMS41IGgtMS41IHJvdW5kZWQtZnVsbCBiZy1hbWJlci00MDAgc2hyaW5rLTAiPjwvc3Bhbj4KICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICA8c3BhbiBjbGFzc05hbWU9Im9wYWNpdHktOTAiPntjaGFuZ2V9PC9zcGFuPgogICAgICAgICAgICAgICAgICAgICAgICAgICAgPC9saT4KICAgICAgICAgICAgICAgICAgICAgICAgKSl9CiAgICAgICAgICAgICAgICAgICAgPC91bD4KICAgICAgICAgICAgICAgIDwvZGl2PgogICAgICAgICAgICApfQoKICAgICAgICAgICAge3Nob3dEZWxldGVDb25maXJtICYmICgKICAgICAgICAgICAgICAgIDxkaXYgY2xhc3NOYW1lPSJmaXhlZCBpbnNldC0wIHotWzk5OV0gYmctYmxhY2svNDAgYmFja2Ryb3AtYmx1ci1zbSBmbGV4IGl0ZW1zLWNlbnRlciBqdXN0aWZ5LWNlbnRlciBweC02Ij4KICAgICAgICAgICAgICAgICAgICA8ZGl2IGNsYXNzTmFtZT0idy1mdWxsIG1heC13LXNtIGJnLXdoaXRlIHJvdW5kZWQtM3hsIHAtNSBzaGFkb3ctMnhsIj4KICAgICAgICAgICAgICAgICAgICAgICAgPGRpdiBjbGFzc05hbWU9InRleHQtYmFzZSBmb250LWJvbGQgdGV4dC1zbGF0ZS03MDAiPuWIoOmZpOWNsOixoeaho+ahiO+8nzwvZGl2PgogICAgICAgICAgICAgICAgICAgICAgICA8cCBjbGFzc05hbWU9Im10LTIgdGV4dC1zbSB0ZXh0LXNsYXRlLTUwMCBsZWFkaW5nLXJlbGF4ZWQiPui/meS7vea3seW6puWIhuaekOaKpeWRiuWwhuiiq+W9u+W6leWIoOmZpO+8jOWIoOmZpOWQjuWPr+S7pemHjeaWsOeUn+aIkOOAgjwvcD4KICAgICAgICAgICAgICAgICAgICAgICAgPGRpdiBjbGFzc05hbWU9Im10LTUgZmxleCBnYXAtMyI+CiAgICAgICAgICAgICAgICAgICAgICAgICAgICA8YnV0dG9uIG9uQ2xpY2s9eygpID0+IHNldFNob3dEZWxldGVDb25maXJtKGZhbHNlKX0gY2xhc3NOYW1lPSJmbGV4LTEgcHktMi41IHJvdW5kZWQtMnhsIGJnLXNsYXRlLTEwMCB0ZXh0LXNsYXRlLTYwMCBmb250LWJvbGQgdGV4dC1zbSI+5Y+W5raIPC9idXR0b24+CiAgICAgICAgICAgICAgICAgICAgICAgICAgICA8YnV0dG9uIG9uQ2xpY2s9eygpID0+IHsgc2V0U2hvd0RlbGV0ZUNvbmZpcm0oZmFsc2UpOyBvbkRlbGV0ZT8uKCk7IH19IGNsYXNzTmFtZT0iZmxleC0xIHB5LTIuNSByb3VuZGVkLTJ4bCBiZy1yZWQtNTAwIHRleHQtd2hpdGUgZm9udC1ib2xkIHRleHQtc20gc2hhZG93LWxnIHNoYWRvdy1yZWQtMjAwIj7liKDpmaQ8L2J1dHRvbj4KICAgICAgICAgICAgICAgICAgICAgICAgPC9kaXY+CiAgICAgICAgICAgICAgICAgICAgPC9kaXY+CiAgICAgICAgICAgICAgICA8L2Rpdj4KICAgICAgICAgICAgKX0KICAgICAgICA8L2Rpdj4KICAgICk7Cn07CgpleHBvcnQgZGVmYXVsdCBJbXByZXNzaW9uUGFuZWw7Cg==
+import React from 'react';
+import { UserImpression } from '../../types';
+import { normalizeUserImpression } from '../../utils/impression';
+
+const TagGroup: React.FC<{ title: string; tags: string[]; color: string; onRemove?: (t: string) => void }> = ({ title, tags, color, onRemove }) => (
+    <div className="mb-4">
+        <h4 className="text-[10px] font-bold text-slate-400 uppercase tracking-widest mb-2 flex items-center gap-2">
+            <span className={`w-1.5 h-1.5 rounded-full ${color}`}></span> {title}
+        </h4>
+        <div className="flex flex-wrap gap-2">
+            {tags.length > 0 ? tags.map((tag, index) => (
+                <span key={`${tag}-${index}`} className="inline-flex items-center px-2.5 py-1 rounded-lg bg-white border border-slate-100 text-xs text-slate-600 shadow-sm">
+                    {tag}
+                    {onRemove && <button onClick={() => onRemove(tag)} className="ml-1.5 text-slate-300 hover:text-red-400">x</button>}
+                </span>
+            )) : <span className="text-xs text-slate-300 italic">暂无数据</span>}
+        </div>
+    </div>
+);
+
+const AnalysisBlock: React.FC<{ title: string; content: string; icon: React.ReactNode }> = ({ title, content, icon }) => (
+    <div className="bg-white/60 p-4 rounded-2xl border border-white/60 shadow-sm relative overflow-hidden group">
+        <div className="absolute top-0 right-0 p-3 opacity-10 group-hover:opacity-20 transition-opacity transform group-hover:scale-110 duration-500 text-slate-800">
+            {icon}
+        </div>
+        <h4 className="text-xs font-bold text-slate-500 mb-2 flex items-center gap-2 relative z-10">
+            {title}
+        </h4>
+        <p className="text-sm text-slate-700 leading-relaxed text-justify relative z-10 whitespace-pre-wrap">
+            {content || '需要更多数据进行分析。'}
+        </p>
+    </div>
+);
+
+const MBTIBar: React.FC<{ labelLeft: string; labelRight: string; value: number; color: string }> = ({ labelLeft, labelRight, value, color }) => (
+    <div className="flex items-center gap-2 text-[10px] font-bold text-slate-500 w-full">
+        <span className={`w-4 text-center ${value < 50 ? color : 'opacity-50'}`}>{labelLeft}</span>
+        <div className="flex-1 h-1.5 bg-slate-200 rounded-full overflow-hidden relative">
+            <div className={`absolute top-0 bottom-0 w-1.5 rounded-full ${color} transition-all duration-1000`} style={{ left: `${value}%`, transform: 'translateX(-50%)' }}></div>
+        </div>
+        <span className={`w-4 text-center ${value > 50 ? color : 'opacity-50'}`}>{labelRight}</span>
+    </div>
+);
+
+interface ImpressionPanelProps {
+    impression: UserImpression | undefined;
+    isGenerating: boolean;
+    onGenerate: (type: 'initial' | 'update') => void;
+    onUpdateImpression: (newImp: UserImpression) => void;
+    onDelete?: () => void;
+}
+
+const ImpressionPanel: React.FC<ImpressionPanelProps> = ({ impression, isGenerating, onGenerate, onUpdateImpression, onDelete }) => {
+    const [showDeleteConfirm, setShowDeleteConfirm] = React.useState(false);
+    const safeImpression = React.useMemo(() => normalizeUserImpression(impression), [impression]);
+
+    const removeTag = (path: string[], tag: string) => {
+        if (!safeImpression) return;
+        const nextImpression = JSON.parse(JSON.stringify(safeImpression)) as UserImpression & Record<string, any>;
+        let target: Record<string, any> = nextImpression;
+        for (let index = 0; index < path.length - 1; index += 1) {
+            target = target[path[index]];
+        }
+        const lastKey = path[path.length - 1];
+        if (Array.isArray(target[lastKey])) {
+            target[lastKey] = target[lastKey].filter((item: string) => item !== tag);
+            onUpdateImpression(nextImpression);
+        }
+    };
+
+    if (!safeImpression && !isGenerating) {
+        return (
+            <div className="flex flex-col items-center justify-center h-full text-center p-8 space-y-6">
+                <div className="w-24 h-24 bg-indigo-50 rounded-full flex items-center justify-center text-indigo-200">
+                    <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" strokeWidth={1} stroke="currentColor" className="w-12 h-12">
+                        <path strokeLinecap="round" strokeLinejoin="round" d="M15.042 21.672 13.684 16.6m0 0-2.51 2.225.569-9.47 5.227 7.917-3.286-.672ZM12 2.25V4.5m5.834.166-1.591 1.591M20.25 10.5H18M7.757 14.743l-1.59 1.59M6 10.5H3.75m4.007-4.243-1.59-1.59" />
+                    </svg>
+                </div>
+                <div>
+                    <h3 className="text-lg font-bold text-slate-700">尚未生成印象档案</h3>
+                    <p className="text-sm text-slate-400 mt-2 max-w-xs mx-auto">让 AI 回顾你们的长期记忆和近期互动，生成一份角色视角下的私密印象档案。</p>
+                </div>
+                <button
+                    onClick={() => onGenerate('initial')}
+                    className="px-8 py-3 bg-indigo-600 text-white rounded-full font-bold shadow-lg shadow-indigo-200 hover:bg-indigo-700 active:scale-95 transition-all"
+                >
+                    开始深度分析
+                </button>
+            </div>
+        );
+    }
+
+    if (isGenerating) {
+        return (
+            <div className="flex flex-col items-center justify-center h-full space-y-4">
+                <div className="relative w-20 h-20">
+                    <div className="absolute inset-0 border-4 border-slate-100 rounded-full"></div>
+                    <div className="absolute inset-0 border-4 border-indigo-500 border-t-transparent rounded-full animate-spin"></div>
+                </div>
+                <p className="text-sm text-slate-500 font-medium animate-pulse">正在整理你们的长期互动印象...</p>
+                <p className="text-xs text-slate-400">构建思维侧写 / 梳理情绪轨迹</p>
+            </div>
+        );
+    }
+
+    if (!safeImpression) return null;
+
+    return (
+        <div className="space-y-6 animate-fade-in pb-10">
+            <div className="flex justify-between items-center bg-white p-4 rounded-2xl border border-slate-100 shadow-sm">
+                <div>
+                    <div className="text-[10px] text-slate-400 uppercase tracking-widest font-bold">Version {safeImpression.version.toFixed(1)}</div>
+                    <div className="text-xs text-slate-600">上次更新: {new Date(safeImpression.lastUpdated || Date.now()).toLocaleDateString()}</div>
+                </div>
+                <div className="flex gap-2">
+                    {onDelete && <button onClick={() => setShowDeleteConfirm(true)} className="px-3 py-1.5 text-xs font-bold text-red-400 bg-red-50 rounded-lg hover:bg-red-100">删除</button>}
+                    <button onClick={() => onGenerate('initial')} className="px-3 py-1.5 text-xs font-bold text-slate-400 bg-slate-50 rounded-lg hover:bg-slate-100">重置</button>
+                    <button onClick={() => onGenerate('update')} className="px-4 py-1.5 text-xs font-bold text-white bg-indigo-500 rounded-lg shadow-md shadow-indigo-200 hover:bg-indigo-600 active:scale-95 transition-all">追加/更新</button>
+                </div>
+            </div>
+
+            <div className="relative bg-gradient-to-br from-indigo-500 to-purple-600 rounded-3xl p-6 text-white shadow-lg overflow-hidden">
+                <div className="absolute top-0 right-0 -mt-4 -mr-4 w-24 h-24 bg-white/10 rounded-full blur-2xl"></div>
+                <h3 className="text-xs font-bold text-white/60 uppercase tracking-widest mb-3">核心印象</h3>
+                <p className="text-lg font-light leading-relaxed italic opacity-95">"{safeImpression.personality_core.summary}"</p>
+
+                <div className="mt-6 pt-4 border-t border-white/20 grid grid-cols-2 gap-4">
+                    <div>
+                        <div className="text-[10px] text-white/60 uppercase mb-1">互动模式</div>
+                        <div className="text-sm font-medium">{safeImpression.personality_core.interaction_style}</div>
+                    </div>
+                    <div>
+                        <div className="text-[10px] text-white/60 uppercase mb-1">语气感知</div>
+                        <div className="text-sm font-medium">{safeImpression.behavior_profile.tone_style}</div>
+                    </div>
+                </div>
+            </div>
+
+            {safeImpression.mbti_analysis && (
+                <div className="bg-white rounded-3xl p-6 border border-slate-100 shadow-sm relative overflow-hidden">
+                    <div className="absolute -right-6 -top-6 w-24 h-24 bg-teal-50 rounded-full blur-xl pointer-events-none"></div>
+                    <div className="flex justify-between items-start mb-4 relative z-10">
+                        <h3 className="text-sm font-bold text-slate-700 flex items-center gap-2">
+                            <img src="https://cdnjs.cloudflare.com/ajax/libs/twemoji/14.0.2/72x72/1f9e9.png" alt="" className="w-5 h-5" /> MBTI 侧写
+                        </h3>
+                        <span className="text-2xl font-black text-slate-800 tracking-tighter bg-teal-100/50 px-2 rounded-lg text-teal-700">
+                            {safeImpression.mbti_analysis.type}
+                        </span>
+                    </div>
+
+                    <div className="space-y-3 mb-5">
+                        <MBTIBar labelLeft="E" labelRight="I" value={safeImpression.mbti_analysis.dimensions.e_i} color="text-teal-500 bg-teal-500" />
+                        <MBTIBar labelLeft="S" labelRight="N" value={safeImpression.mbti_analysis.dimensions.s_n} color="text-teal-500 bg-teal-500" />
+                        <MBTIBar labelLeft="T" labelRight="F" value={safeImpression.mbti_analysis.dimensions.t_f} color="text-teal-500 bg-teal-500" />
+                        <MBTIBar labelLeft="J" labelRight="P" value={safeImpression.mbti_analysis.dimensions.j_p} color="text-teal-500 bg-teal-500" />
+                    </div>
+
+                    <div className="bg-slate-50 p-3 rounded-xl">
+                        <p className="text-xs text-slate-600 leading-relaxed italic">"{safeImpression.mbti_analysis.reasoning}"</p>
+                    </div>
+                </div>
+            )}
+
+            <div className="bg-white rounded-3xl p-6 border border-slate-100 shadow-sm">
+                <h3 className="text-sm font-bold text-slate-700 mb-6 flex items-center gap-2">
+                    <svg xmlns="http://www.w3.org/2000/svg" className="h-5 w-5 text-indigo-500" viewBox="0 0 20 20" fill="currentColor">
+                        <path fillRule="evenodd" d="M10 18a8 8 0 100-16 8 8 0 000 16zm3.707-9.293a1 1 0 00-1.414-1.414L9 10.586 7.707 9.293a1 1 0 00-1.414 1.414l2 2a1 1 0 001.414 0l4-4a1 1 0 001.414 0l4-4a1 1 0 001.414 0l4-4z" clipRule="evenodd" />
+                    </svg>
+                    价值地图
+                </h3>
+
+                <TagGroup title="观察到的特质" tags={safeImpression.personality_core.observed_traits} color="bg-blue-400" onRemove={(tag) => removeTag(['personality_core', 'observed_traits'], tag)} />
+                <TagGroup title="TA 喜欢的" tags={safeImpression.value_map.likes} color="bg-pink-400" onRemove={(tag) => removeTag(['value_map', 'likes'], tag)} />
+                <TagGroup title="TA 讨厌的" tags={safeImpression.value_map.dislikes} color="bg-slate-400" onRemove={(tag) => removeTag(['value_map', 'dislikes'], tag)} />
+
+                <div className="mt-4 p-4 bg-slate-50 rounded-xl">
+                    <div className="text-[10px] font-bold text-slate-400 uppercase tracking-widest mb-1">核心价值观推测</div>
+                    <p className="text-sm text-slate-600">{safeImpression.value_map.core_values}</p>
+                </div>
+            </div>
+
+            <div className="grid grid-cols-1 gap-4">
+                <AnalysisBlock
+                    title="情绪状态总结"
+                    content={safeImpression.behavior_profile.emotion_summary}
+                    icon={<svg xmlns="http://www.w3.org/2000/svg" className="h-10 w-10" fill="none" viewBox="0 0 24 24" stroke="currentColor"><path strokeLinecap="round" strokeLinejoin="round" strokeWidth={1} d="M14.828 14.828a4 4 0 01-5.656 0M9 10h.01M15 10h.01M21 12a9 9 0 11-18 0 9 9 0 0118 0z" /></svg>}
+                />
+                <div className="bg-white rounded-2xl p-5 border border-slate-100 shadow-sm">
+                    <div className="grid grid-cols-2 gap-6">
+                        <div>
+                            <div className="text-[10px] font-bold text-green-500 uppercase tracking-widest mb-2">正向触发器</div>
+                            <ul className="list-disc list-inside text-xs text-slate-600 space-y-1">
+                                {safeImpression.emotion_schema.triggers.positive.map((tag, index) => <li key={`${tag}-${index}`}>{tag}</li>)}
+                            </ul>
+                        </div>
+                        <div>
+                            <div className="text-[10px] font-bold text-red-400 uppercase tracking-widest mb-2">压力/雷区</div>
+                            <ul className="list-disc list-inside text-xs text-slate-600 space-y-1">
+                                {safeImpression.emotion_schema.triggers.negative.map((tag, index) => <li key={`${tag}-${index}`}>{tag}</li>)}
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+                <div className="bg-white rounded-2xl p-5 border border-slate-100 shadow-sm">
+                    <div className="text-[10px] font-bold text-indigo-400 uppercase tracking-widest mb-2">舒适区</div>
+                    <p className="text-sm text-slate-600">{safeImpression.emotion_schema.comfort_zone}</p>
+                </div>
+            </div>
+
+            {safeImpression.observed_changes && safeImpression.observed_changes.length > 0 && (
+                <div className="bg-amber-50 p-4 rounded-2xl border border-amber-100">
+                    <h4 className="text-[10px] font-bold text-amber-500 uppercase tracking-widest mb-2">最近观察到的变化</h4>
+                    <ul className="space-y-2">
+                        {safeImpression.observed_changes.map((change, index) => (
+                            <li key={`${change}-${index}`} className="text-xs text-amber-900 flex items-start gap-2">
+                                <span className="mt-1 w-1.5 h-1.5 rounded-full bg-amber-400 shrink-0"></span>
+                                <span className="opacity-90">{change}</span>
+                            </li>
+                        ))}
+                    </ul>
+                </div>
+            )}
+
+            {showDeleteConfirm && (
+                <div className="fixed inset-0 z-[999] bg-black/40 backdrop-blur-sm flex items-center justify-center px-6">
+                    <div className="w-full max-w-sm bg-white rounded-3xl p-5 shadow-2xl">
+                        <div className="text-base font-bold text-slate-700">删除印象档案？</div>
+                        <p className="mt-2 text-sm text-slate-500 leading-relaxed">这份深度分析报告将被彻底删除，删除后可以重新生成。</p>
+                        <div className="mt-5 flex gap-3">
+                            <button onClick={() => setShowDeleteConfirm(false)} className="flex-1 py-2.5 rounded-2xl bg-slate-100 text-slate-600 font-bold text-sm">取消</button>
+                            <button onClick={() => { setShowDeleteConfirm(false); onDelete?.(); }} className="flex-1 py-2.5 rounded-2xl bg-red-500 text-white font-bold text-sm shadow-lg shadow-red-200">删除</button>
+                        </div>
+                    </div>
+                </div>
+            )}
+        </div>
+    );
+};
+
+export default ImpressionPanel;

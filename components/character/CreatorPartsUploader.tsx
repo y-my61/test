@@ -1,1 +1,204 @@
-aW1wb3J0IFJlYWN0LCB7IHVzZVN0YXRlLCB1c2VFZmZlY3QsIHVzZUNhbGxiYWNrLCB1c2VSZWYgfSBmcm9tICdyZWFjdCc7CmltcG9ydCB7IHVzZU9TIH0gZnJvbSAnLi4vLi4vY29udGV4dC9PU0NvbnRleHQnOwppbXBvcnQgeyBDYXJldExlZnQsIEZpbGVBcnJvd1VwLCBUcmFzaCwgV2FybmluZyB9IGZyb20gJ0BwaG9zcGhvci1pY29ucy9yZWFjdCc7CmltcG9ydCB7IERCIH0gZnJvbSAnLi4vLi4vdXRpbHMvZGInOwppbXBvcnQgeyBDQ19DQVRFR09SSUVTLCBsYWJlbE9mQ2F0ZWdvcnkgfSBmcm9tICcuLi8uLi91dGlscy9jcmVhdG9yQ2F0ZWdvcmllcyc7CmltcG9ydCB7IGNyZWF0b3JQYXJ0VG9CbG9iUmVmcywgbG9hZENyZWF0b3JQYXJ0c0ZvclJlbmRlciB9IGZyb20gJy4uLy4uL3V0aWxzL2NyZWF0b3JQYXJ0c0Jsb2InOwppbXBvcnQgdHlwZSB7IEN1c3RvbUNyZWF0b3JQYXJ0IH0gZnJvbSAnLi4vLi4vdHlwZXMnOwppbXBvcnQgdHlwZSB7IFBhcnNlZFBzZFBhcnQgfSBmcm9tICcuLi8uLi91dGlscy9wc2RDcmVhdG9ySW1wb3J0JzsKCi8qKgogKiDnlKjmiLfkvqfjgIzoh6rlrprkuYnntKDmnZDlt6XlnYrjgI3igJTigJTmjILlnKjmiYvlip7mn5zvvIhDaGliaVN0dWRpb++8iemHjO+8jOiuqeato+W8j+ermeeUqOaIt+S5n+iDvSBQU0Qg5om56YeP5a+85YWlCiAqIOiHquWumuS5iemDqOS7tu+8iGRldiDpnaLmnb8gQ2hhckNyZWF0b3JEZXZBcHAg5Y+q5Zyo5pys5Zyw5rWL6K+V54mI5Y+v6KeB77yM55So5oi35aSf5LiN552A77yJ44CCCiAqIOmDqOS7tuWtmOi/myBjY19jdXN0b21fcGFydHPvvIhCbG9iIOS7pOeJjO+8jOecgemFjemine+8ie+8m+WGjei/m+aNj+S6uuWZqOaXtue7jyBsb2FkQ3JlYXRvclBhcnRzRm9yUmVuZGVyIOazqOWFpeOAggogKi8KY29uc3QgQ3JlYXRvclBhcnRzVXBsb2FkZXI6IFJlYWN0LkZDPHsgb25DbG9zZTogKCkgPT4gdm9pZCB9PiA9ICh7IG9uQ2xvc2UgfSkgPT4gewogICAgY29uc3QgeyBhZGRUb2FzdCB9ID0gdXNlT1MoKTsKICAgIGNvbnN0IFtwYXJ0cywgc2V0UGFydHNdID0gdXNlU3RhdGU8Q3VzdG9tQ3JlYXRvclBhcnRbXT4oW10pOwogICAgY29uc3QgW3Nob3dSdWxlcywgc2V0U2hvd1J1bGVzXSA9IHVzZVN0YXRlKGZhbHNlKTsKICAgIGNvbnN0IFtwc2RQYXJzaW5nLCBzZXRQc2RQYXJzaW5nXSA9IHVzZVN0YXRlKGZhbHNlKTsKICAgIGNvbnN0IFtwc2RQYXJ0cywgc2V0UHNkUGFydHNdID0gdXNlU3RhdGU8UGFyc2VkUHNkUGFydFtdPihbXSk7CiAgICBjb25zdCBbcHNkV2FybmluZ3MsIHNldFBzZFdhcm5pbmdzXSA9IHVzZVN0YXRlPHN0cmluZ1tdPihbXSk7CiAgICBjb25zdCBbYnVzeSwgc2V0QnVzeV0gPSB1c2VTdGF0ZShmYWxzZSk7CiAgICBjb25zdCBwc2RSZWYgPSB1c2VSZWY8SFRNTElucHV0RWxlbWVudD4obnVsbCk7CgogICAgY29uc3QgbG9hZCA9IHVzZUNhbGxiYWNrKGFzeW5jICgpID0+IHsKICAgICAgICB0cnkgeyBzZXRQYXJ0cyhhd2FpdCBsb2FkQ3JlYXRvclBhcnRzRm9yUmVuZGVyKCkpOyB9IGNhdGNoIHsgLyogaWdub3JlICovIH0KICAgIH0sIFtdKTsKICAgIHVzZUVmZmVjdCgoKSA9PiB7IHZvaWQgbG9hZCgpOyB9LCBbbG9hZF0pOwoKICAgIGNvbnN0IG9uUHNkRmlsZSA9IGFzeW5jIChmOiBGaWxlIHwgdW5kZWZpbmVkKSA9PiB7CiAgICAgICAgaWYgKCFmKSByZXR1cm47CiAgICAgICAgc2V0UHNkUGFyc2luZyh0cnVlKTsKICAgICAgICBzZXRQc2RQYXJ0cyhbXSk7IHNldFBzZFdhcm5pbmdzKFtdKTsKICAgICAgICB0cnkgewogICAgICAgICAgICBjb25zdCB7IHBhcnNlQ3JlYXRvclBzZCB9ID0gYXdhaXQgaW1wb3J0KCcuLi8uLi91dGlscy9wc2RDcmVhdG9ySW1wb3J0Jyk7CiAgICAgICAgICAgIGNvbnN0IHJlc3VsdCA9IGF3YWl0IHBhcnNlQ3JlYXRvclBzZChhd2FpdCBmLmFycmF5QnVmZmVyKCkpOwogICAgICAgICAgICBzZXRQc2RQYXJ0cyhyZXN1bHQucGFydHMpOwogICAgICAgICAgICBzZXRQc2RXYXJuaW5ncyhyZXN1bHQud2FybmluZ3MpOwogICAgICAgICAgICBpZiAoIXJlc3VsdC5wYXJ0cy5sZW5ndGgpIGFkZFRvYXN0KCfmsqHop6PmnpDlh7rpg6jku7bvvIznnIvnnIvjgIzlkb3lkI3op4TliJnjgI3ph4znmoTnu5PmnoTopoHmsYInLCAnZXJyb3InKTsKICAgICAgICB9IGNhdGNoIChlcnIpIHsKICAgICAgICAgICAgYWRkVG9hc3QoJ1BTRCDop6PmnpDlpLHotKXvvJonICsgU3RyaW5nKChlcnIgYXMgRXJyb3IpPy5tZXNzYWdlIHx8IGVyciksICdlcnJvcicpOwogICAgICAgIH0gZmluYWxseSB7CiAgICAgICAgICAgIHNldFBzZFBhcnNpbmcoZmFsc2UpOwogICAgICAgICAgICBpZiAocHNkUmVmLmN1cnJlbnQpIHBzZFJlZi5jdXJyZW50LnZhbHVlID0gJyc7CiAgICAgICAgfQogICAgfTsKCiAgICBjb25zdCB1cGRhdGVQc2RQYXJ0ID0gKGlkeDogbnVtYmVyLCBwYXRjaDogUGFydGlhbDxQYXJzZWRQc2RQYXJ0PikgPT4KICAgICAgICBzZXRQc2RQYXJ0cyhwcmV2ID0+IHByZXYubWFwKChwLCBpKSA9PiAoaSA9PT0gaWR4ID8geyAuLi5wLCAuLi5wYXRjaCB9IDogcCkpKTsKCiAgICBjb25zdCBzYXZlUHNkUGFydHMgPSBhc3luYyAoKSA9PiB7CiAgICAgICAgY29uc3QgcmVhZHkgPSBwc2RQYXJ0cy5maWx0ZXIocCA9PiBwLmNhdGVnb3J5S2V5KTsKICAgICAgICBpZiAoIXJlYWR5Lmxlbmd0aCkgeyBhZGRUb2FzdCgn5YWI57uZ5q+P5Liq6YOo5Lu26YCJ5aW957G755uuJywgJ2Vycm9yJyk7IHJldHVybjsgfQogICAgICAgIGlmIChyZWFkeS5sZW5ndGggPCBwc2RQYXJ0cy5sZW5ndGgpIHsgYWRkVG9hc3QoJ+i/mOaciemDqOS7tuayoemAieexu+ebricsICdlcnJvcicpOyByZXR1cm47IH0KICAgICAgICBzZXRCdXN5KHRydWUpOwogICAgICAgIHRyeSB7CiAgICAgICAgICAgIGZvciAoY29uc3QgcCBvZiByZWFkeSkgewogICAgICAgICAgICAgICAgY29uc3QgcGFydDogQ3VzdG9tQ3JlYXRvclBhcnQgPSB7CiAgICAgICAgICAgICAgICAgICAgaWQ6IGAke3AuY2F0ZWdvcnlLZXl9X2NjXyR7RGF0ZS5ub3coKS50b1N0cmluZygzNil9XyR7TWF0aC5yYW5kb20oKS50b1N0cmluZygzNikuc2xpY2UoMiwgNil9YCwKICAgICAgICAgICAgICAgICAgICBjYXRlZ29yeUtleTogcC5jYXRlZ29yeUtleSEsCiAgICAgICAgICAgICAgICAgICAgbmFtZTogcC5uYW1lIHx8IGDoh6rlrprkuYkke2xhYmVsT2ZDYXRlZ29yeShwLmNhdGVnb3J5S2V5ISl9YCwKICAgICAgICAgICAgICAgICAgICBzcmM6IHAuc3JjLAogICAgICAgICAgICAgICAgICAgIHRpbnRhYmxlOiBwLnRpbnRhYmxlLAogICAgICAgICAgICAgICAgICAgIHNoYWRvd1NyYzogcC5zaGFkb3dTcmMsCiAgICAgICAgICAgICAgICAgICAgY3JlYXRlZEF0OiBEYXRlLm5vdygpLAogICAgICAgICAgICAgICAgfTsKICAgICAgICAgICAgICAgIGF3YWl0IERCLnNhdmVDdXN0b21DcmVhdG9yUGFydChhd2FpdCBjcmVhdG9yUGFydFRvQmxvYlJlZnMocGFydCkpOwogICAgICAgICAgICB9CiAgICAgICAgICAgIHNldFBzZFBhcnRzKFtdKTsgc2V0UHNkV2FybmluZ3MoW10pOwogICAgICAgICAgICBhd2FpdCBsb2FkKCk7CiAgICAgICAgICAgIGFkZFRvYXN0KGDlt7LliqDlhaUgJHtyZWFkeS5sZW5ndGh9IOS4qumDqOS7tu+8jOi/m+aNj+S6uuWZqOWwseiDveeUqOWVpmAsICdzdWNjZXNzJyk7CiAgICAgICAgfSBjYXRjaCAoZSkgewogICAgICAgICAgICBhZGRUb2FzdCgn5L+d5a2Y5aSx6LSl77yaJyArIFN0cmluZygoZSBhcyBFcnJvcik/Lm1lc3NhZ2UgfHwgZSksICdlcnJvcicpOwogICAgICAgIH0gZmluYWxseSB7CiAgICAgICAgICAgIHNldEJ1c3koZmFsc2UpOwogICAgICAgIH0KICAgIH07CgogICAgY29uc3QgcmVtb3ZlUGFydCA9IGFzeW5jIChpZDogc3RyaW5nKSA9PiB7CiAgICAgICAgdHJ5IHsgYXdhaXQgREIuZGVsZXRlQ3VzdG9tQ3JlYXRvclBhcnQoaWQpOyBhd2FpdCBsb2FkKCk7IGFkZFRvYXN0KCflt7LliKDpmaQnLCAnc3VjY2VzcycpOyB9CiAgICAgICAgY2F0Y2ggKGUpIHsgYWRkVG9hc3QoJ+WIoOmZpOWksei0pe+8micgKyBTdHJpbmcoKGUgYXMgRXJyb3IpPy5tZXNzYWdlIHx8IGUpLCAnZXJyb3InKTsgfQogICAgfTsKCiAgICAvLyDmjInnsbvnm67liIbnu4TlsZXnpLrlt7LmnInpg6jku7YKICAgIGNvbnN0IGdyb3VwZWQ6IFJlY29yZDxzdHJpbmcsIEN1c3RvbUNyZWF0b3JQYXJ0W10+ID0ge307CiAgICBwYXJ0cy5mb3JFYWNoKHAgPT4geyAoZ3JvdXBlZFtwLmNhdGVnb3J5S2V5XSA9IGdyb3VwZWRbcC5jYXRlZ29yeUtleV0gfHwgW10pLnB1c2gocCk7IH0pOwoKICAgIHJldHVybiAoCiAgICAgICAgPGRpdiBjbGFzc05hbWU9ImZpeGVkIGluc2V0LTAgei1bNjVdIGZsZXggZmxleC1jb2wiIHN0eWxlPXt7IGJhY2tncm91bmQ6ICdsaW5lYXItZ3JhZGllbnQoMTgwZGVnLCAjMjQxYjNmIDAlLCAjMTcxMTMwIDU1JSwgIzEyMGQyNCAxMDAlKScgfX0+CiAgICAgICAgICAgIHsvKiDpobbmoI/vvJrlhajlsY/mta7lsYLnu5/kuIDnlKggLS1jaHJvbWUtdG9w77yI5a6J5YWo5Yy6ICsgU3VsbHlPUyDnirbmgIHmoI/vvJvnirbmgIHmoI/pmpDol4/ml7boh6rliqjloYzlm54gLS1zYWZlLXRvcO+8ie+8jAogICAgICAgICAgICAgICAg5LiOIENoaWJpU3R1ZGlvIC8g5b285pa5IENoaWJpRWRpdG9yIOWQjOS4gOWll+e6puWumu+8jOmBv+WFjeaAvOi/m+eKtuaAgeagj+aXtumSny/nlLXph4/mnaEgKi99CiAgICAgICAgICAgIDxkaXYgY2xhc3NOYW1lPSJzaHJpbmstMCBweC00IHBiLTMgZmxleCBpdGVtcy1jZW50ZXIgZ2FwLTIgdGV4dC13aGl0ZSIgc3R5bGU9e3sgcGFkZGluZ1RvcDogJ3ZhcigtLWNocm9tZS10b3ApJyB9fT4KICAgICAgICAgICAgICAgIDxidXR0b24gb25DbGljaz17b25DbG9zZX0gY2xhc3NOYW1lPSJwLTIgLW1sLTIgcm91bmRlZC1mdWxsIHRleHQtaW5kaWdvLTEwMCBhY3RpdmU6Ymctd2hpdGUvMTAiPjxDYXJldExlZnQgc2l6ZT17MjB9IHdlaWdodD0iYm9sZCIgLz48L2J1dHRvbj4KICAgICAgICAgICAgICAgIDxkaXY+CiAgICAgICAgICAgICAgICAgICAgPGgyIGNsYXNzTmFtZT0iZm9udC1zZXJpZiB0ZXh0LWxnIGZvbnQtYm9sZCB0cmFja2luZy13aWRlIGxlYWRpbmctdGlnaHQiPuiHquWumuS5iee0oOadkOW3peWdijwvaDI+CiAgICAgICAgICAgICAgICAgICAgPHAgY2xhc3NOYW1lPSJ0ZXh0LVsxMHB4XSB0cmFja2luZy1bM3B4XSB0ZXh0LWluZGlnby0zMDAvNjAiPkNVU1RPTSBQQVJUUzwvcD4KICAgICAgICAgICAgICAgIDwvZGl2PgogICAgICAgICAgICA8L2Rpdj4KCiAgICAgICAgICAgIDxkaXYgY2xhc3NOYW1lPSJmbGV4LTEgb3ZlcmZsb3cteS1hdXRvIG5vLXNjcm9sbGJhciBweC00IHNwYWNlLXktNCIgc3R5bGU9e3sgcGFkZGluZ0JvdHRvbTogJ2NhbGMoMnJlbSArIHZhcigtLXNhZmUtYm90dG9tKSknIH19PgogICAgICAgICAgICAgICAgey8qIFBTRCDlr7zlhaXljaEgKi99CiAgICAgICAgICAgICAgICA8ZGl2IGNsYXNzTmFtZT0icm91bmRlZC0yeGwgcC0zLjUgYm9yZGVyIGJvcmRlci13aGl0ZS8xMCBzcGFjZS15LTIuNSIgc3R5bGU9e3sgYmFja2dyb3VuZDogJ3JnYmEoMjU1LDI1NSwyNTUsMC4wNCknIH19PgogICAgICAgICAgICAgICAgICAgIDxkaXYgY2xhc3NOYW1lPSJ0ZXh0LVsxM3B4XSBmb250LWJvbGQgdGV4dC13aGl0ZSBmbGV4IGl0ZW1zLWNlbnRlciBnYXAtMS41Ij4KICAgICAgICAgICAgICAgICAgICAgICAgPEZpbGVBcnJvd1VwIHNpemU9ezE1fSB3ZWlnaHQ9ImJvbGQiIGNsYXNzTmFtZT0idGV4dC1hbWJlci0zMDAiIC8+CiAgICAgICAgICAgICAgICAgICAgICAgIOS4iuS8oCBQU0TvvIzmibnph4/liqDoh6rlrprkuYnpg6jku7YKICAgICAgICAgICAgICAgICAgICA8L2Rpdj4KCiAgICAgICAgICAgICAgICAgICAgPGJ1dHRvbiBvbkNsaWNrPXsoKSA9PiBzZXRTaG93UnVsZXModiA9PiAhdil9IGNsYXNzTmFtZT0idGV4dC1bMTFweF0gZm9udC1ib2xkIHRleHQtYW1iZXItMjAwLzkwIGZsZXggaXRlbXMtY2VudGVyIGdhcC0xIGFjdGl2ZTpvcGFjaXR5LTcwIj4KICAgICAgICAgICAgICAgICAgICAgICAge3Nob3dSdWxlcyA/ICfilr4nIDogJ+KWuCd9IFBTRCDmgI7kuYjlgZrvvIjlkb3lkI3op4TliJnvvIkKICAgICAgICAgICAgICAgICAgICA8L2J1dHRvbj4KICAgICAgICAgICAgICAgICAgICB7c2hvd1J1bGVzICYmICgKICAgICAgICAgICAgICAgICAgICAgICAgPGRpdiBjbGFzc05hbWU9InRleHQtWzEwLjVweF0gdGV4dC1pbmRpZ28tMTAwLzYwIGxlYWRpbmctcmVsYXhlZCBzcGFjZS15LTIgcm91bmRlZC14bCBiZy1ibGFjay8yNSBwLTIuNSBib3JkZXIgYm9yZGVyLXdoaXRlLzEwIj4KICAgICAgICAgICAgICAgICAgICAgICAgICAgIDxkaXY+PGIgY2xhc3NOYW1lPSJ0ZXh0LXdoaXRlLzg1Ij7ikaAg57uT5p6EPC9iPu+8mumhtuWxgjxiPuWbvuWxgue7hCA9IOS4gOS4quexu+ebrjwvYj7vvIw8Yj7nu4TlhoXmr4/kuKrlm77lsYIgPSDkuIDkuKrpg6jku7Y8L2I+44CC5L6L77yaPGNvZGU+55y8552bPC9jb2RlPiDnu4Tph4zmlL7jgIzmnY/nnLzjgI3jgIzlnIbnnLzjgI3lkITkuIDlsYIg4oaSIOS4pOS4qumDqOS7tuOAgjwvZGl2PgogICAgICAgICAgICAgICAgICAgICAgICAgICAgPGRpdj4KICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICA8YiBjbGFzc05hbWU9InRleHQtd2hpdGUvODUiPuKRoSDnu4TlkI0gPSDnsbvnm648L2I+77yI5Lit6Iux5paH6YO96K6k77yJ77yaCiAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgPGRpdiBjbGFzc05hbWU9ImZsZXggZmxleC13cmFwIGdhcC0xIG10LTEiPgogICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICB7Q0NfQ0FURUdPUklFUy5tYXAoYyA9PiAoCiAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICA8c3BhbiBrZXk9e2Mua2V5fSBjbGFzc05hbWU9InB4LTEuNSBweS0wLjUgcm91bmRlZCBiZy13aGl0ZS84IHRleHQtd2hpdGUvNzUiPntjLmxhYmVsfTxzcGFuIGNsYXNzTmFtZT0idGV4dC13aGl0ZS8zNSI+IC8ge2Mua2V5fTwvc3Bhbj48L3NwYW4+CiAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICkpfQogICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgIDwvZGl2PgogICAgICAgICAgICAgICAgICAgICAgICAgICAgPC9kaXY+CiAgICAgICAgICAgICAgICAgICAgICAgICAgICA8ZGl2PjxiIGNsYXNzTmFtZT0idGV4dC13aGl0ZS84NSI+4pGiIOWbvuWxguWQjSA9IOmDqOS7tuWQjTwvYj7vvJvmjaLoibLmoIforrAgPGNvZGU+I+iJsjwvY29kZT4gLyA8Y29kZT4j5Y6f6ImyPC9jb2RlPu+8iOWktOWPkSvnnLznnZvpu5jorqTlj6/mjaLoibLvvInjgII8L2Rpdj4KICAgICAgICAgICAgICAgICAgICAgICAgICAgIDxkaXY+PGIgY2xhc3NOYW1lPSJ0ZXh0LXdoaXRlLzg1Ij7ikaMg5pi+56S6IC8g6ZqQ6JePPC9iPu+8muimgeWvvOWFpeeahOWbvuWxguS/neaMgTxiPuaYvuekujwvYj7vvIzpmpDol4/lm77lsYLkvJrot7Pov4fvvJvkuI3pgI/mmI7luqbmi4nmu6HjgII8L2Rpdj4KICAgICAgICAgICAgICAgICAgICAgICAgICAgIDxkaXY+PGIgY2xhc3NOYW1lPSJ0ZXh0LXdoaXRlLzg1Ij7ikaQg55S75biDPC9iPiA0NzLDlzQ3MiDmraPmlrnlvaLjgILor4bliKvkuI3lh7rnsbvnm67kuZ/msqHlhbPns7vvvIzkuIvpnaLog73miYvliqjpgInjgII8L2Rpdj4KICAgICAgICAgICAgICAgICAgICAgICAgPC9kaXY+CiAgICAgICAgICAgICAgICAgICAgKX0KCiAgICAgICAgICAgICAgICAgICAgPGlucHV0IHJlZj17cHNkUmVmfSB0eXBlPSJmaWxlIiBhY2NlcHQ9Ii5wc2QiIGNsYXNzTmFtZT0iaGlkZGVuIiBvbkNoYW5nZT17ZSA9PiB2b2lkIG9uUHNkRmlsZShlLnRhcmdldC5maWxlcz8uWzBdKX0gLz4KICAgICAgICAgICAgICAgICAgICA8YnV0dG9uIG9uQ2xpY2s9eygpID0+IHBzZFJlZi5jdXJyZW50Py5jbGljaygpfSBkaXNhYmxlZD17cHNkUGFyc2luZyB8fCBidXN5fQogICAgICAgICAgICAgICAgICAgICAgICBjbGFzc05hbWU9InctZnVsbCByb3VuZGVkLXhsIGJvcmRlciBib3JkZXItZGFzaGVkIGJvcmRlci13aGl0ZS8zMCBweS0zIHRleHQtWzEycHhdIHRleHQtaW5kaWdvLTEwMC83MCBhY3RpdmU6Ymctd2hpdGUvNSBkaXNhYmxlZDpvcGFjaXR5LTUwIj4KICAgICAgICAgICAgICAgICAgICAgICAge3BzZFBhcnNpbmcgPyAn6Kej5p6Q5Lit4oCmJyA6ICfpgInmi6kgLnBzZCDmlofku7YnfQogICAgICAgICAgICAgICAgICAgIDwvYnV0dG9uPgoKICAgICAgICAgICAgICAgICAgICB7cHNkV2FybmluZ3MubWFwKCh3LCBpKSA9PiAoCiAgICAgICAgICAgICAgICAgICAgICAgIDxkaXYga2V5PXtpfSBjbGFzc05hbWU9InRleHQtWzEwcHhdIHRleHQtYW1iZXItMjAwLzgwIGZsZXggZ2FwLTEiPjxXYXJuaW5nIHNpemU9ezEyfSBjbGFzc05hbWU9InNocmluay0wIG10LTAuNSIgLz57d308L2Rpdj4KICAgICAgICAgICAgICAgICAgICApKX0KCiAgICAgICAgICAgICAgICAgICAge3BzZFBhcnRzLmxlbmd0aCA+IDAgJiYgKAogICAgICAgICAgICAgICAgICAgICAgICA8ZGl2IGNsYXNzTmFtZT0ic3BhY2UteS0yIj4KICAgICAgICAgICAgICAgICAgICAgICAgICAgIHtwc2RQYXJ0cy5tYXAoKHAsIGlkeCkgPT4gKAogICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgIDxkaXYga2V5PXtpZHh9IGNsYXNzTmFtZT0icm91bmRlZC14bCBib3JkZXIgYm9yZGVyLXdoaXRlLzEwIHAtMiBmbGV4IGdhcC0yIiBzdHlsZT17eyBiYWNrZ3JvdW5kOiAncmdiYSgyNTUsMjU1LDI1NSwwLjAzKScgfX0+CiAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgIDxkaXYgY2xhc3NOYW1lPSJ3LTE0IGgtMTQgc2hyaW5rLTAgcm91bmRlZC1sZyBvdmVyZmxvdy1oaWRkZW4iIHN0eWxlPXt7IGJhY2tncm91bmQ6ICdyZXBlYXRpbmctY29uaWMtZ3JhZGllbnQoI2ZmZmZmZjEwIDAlIDI1JSwgdHJhbnNwYXJlbnQgMCUgNTAlKSA1MCUgLyAxMnB4IDEycHgnIH19PgogICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgPGltZyBzcmM9e3Auc3JjfSBhbHQ9e3AubmFtZX0gY2xhc3NOYW1lPSJ3LWZ1bGwgaC1mdWxsIG9iamVjdC1jb250YWluIiAvPgogICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICA8L2Rpdj4KICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgPGRpdiBjbGFzc05hbWU9ImZsZXgtMSBtaW4tdy0wIHNwYWNlLXktMS41Ij4KICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgIDxkaXYgY2xhc3NOYW1lPSJmbGV4IGdhcC0xLjUiPgogICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgIDxzZWxlY3QgdmFsdWU9e3AuY2F0ZWdvcnlLZXkgfHwgJyd9IG9uQ2hhbmdlPXtlID0+IHVwZGF0ZVBzZFBhcnQoaWR4LCB7IGNhdGVnb3J5S2V5OiBlLnRhcmdldC52YWx1ZSB8fCBudWxsIH0pfQogICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICBjbGFzc05hbWU9e2B0ZXh0LVsxMC41cHhdIHJvdW5kZWQgcHgtMS41IHB5LTEgYmctd2hpdGUvMTAgb3V0bGluZS1ub25lICR7cC5jYXRlZ29yeUtleSA/ICd0ZXh0LXdoaXRlJyA6ICd0ZXh0LXJlZC0zMDAgYm9yZGVyIGJvcmRlci1yZWQtNDAwLzUwJ31gfT4KICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgPG9wdGlvbiB2YWx1ZT0iIj7nsbvnm64/PC9vcHRpb24+CiAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgIHtDQ19DQVRFR09SSUVTLm1hcChjID0+IDxvcHRpb24ga2V5PXtjLmtleX0gdmFsdWU9e2Mua2V5fT57Yy5sYWJlbH08L29wdGlvbj4pfQogICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgIDwvc2VsZWN0PgogICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgIDxpbnB1dCB2YWx1ZT17cC5uYW1lfSBvbkNoYW5nZT17ZSA9PiB1cGRhdGVQc2RQYXJ0KGlkeCwgeyBuYW1lOiBlLnRhcmdldC52YWx1ZSB9KX0KICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgY2xhc3NOYW1lPSJmbGV4LTEgbWluLXctMCB0ZXh0LVsxMC41cHhdIHJvdW5kZWQgcHgtMS41IHB5LTEgYmctd2hpdGUvMTAgdGV4dC13aGl0ZSBvdXRsaW5lLW5vbmUiIC8+CiAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICA8L2Rpdj4KICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgIDxkaXYgY2xhc3NOYW1lPSJmbGV4IGl0ZW1zLWNlbnRlciBnYXAtMi41IHRleHQtWzEwcHhdIHRleHQtaW5kaWdvLTEwMC83MCI+CiAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgPGxhYmVsIGNsYXNzTmFtZT0iZmxleCBpdGVtcy1jZW50ZXIgZ2FwLTEiPgogICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICA8aW5wdXQgdHlwZT0iY2hlY2tib3giIGNoZWNrZWQ9e3AudGludGFibGV9IG9uQ2hhbmdlPXtlID0+IHVwZGF0ZVBzZFBhcnQoaWR4LCB7IHRpbnRhYmxlOiBlLnRhcmdldC5jaGVja2VkIH0pfSBjbGFzc05hbWU9ImFjY2VudC1hbWJlci00MDAgdy0zIGgtMyIgLz4KICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAg5Y+v5o2i6ImyCiAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgPC9sYWJlbD4KICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICA8YnV0dG9uIG9uQ2xpY2s9eygpID0+IHNldFBzZFBhcnRzKHByZXYgPT4gcHJldi5maWx0ZXIoKF8sIGkpID0+IGkgIT09IGlkeCkpfSBjbGFzc05hbWU9Im1sLWF1dG8gdGV4dC1yZWQtMzAwLzgwIGFjdGl2ZTp0ZXh0LXJlZC0zMDAiPuenu+mZpDwvYnV0dG9uPgogICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgPC9kaXY+CiAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgIDwvZGl2PgogICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgIDwvZGl2PgogICAgICAgICAgICAgICAgICAgICAgICAgICAgKSl9CiAgICAgICAgICAgICAgICAgICAgICAgICAgICA8YnV0dG9uIG9uQ2xpY2s9eygpID0+IHZvaWQgc2F2ZVBzZFBhcnRzKCl9IGRpc2FibGVkPXtidXN5fQogICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgIGNsYXNzTmFtZT0idy1mdWxsIHJvdW5kZWQteGwgcHktMi41IHRleHQtWzEzcHhdIGZvbnQtYm9sZCB0ZXh0LWJsYWNrIGRpc2FibGVkOm9wYWNpdHktNTAiIHN0eWxlPXt7IGJhY2tncm91bmQ6ICdsaW5lYXItZ3JhZGllbnQoMTM1ZGVnLCNmYmJmMjQsI2Y1OWUwYiknIH19PgogICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgIHtidXN5ID8gJ+S/neWtmOS4reKApicgOiBg5YWo6YOo5Yqg5YWl77yIJHtwc2RQYXJ0cy5sZW5ndGh977yJYH0KICAgICAgICAgICAgICAgICAgICAgICAgICAgIDwvYnV0dG9uPgogICAgICAgICAgICAgICAgICAgICAgICA8L2Rpdj4KICAgICAgICAgICAgICAgICAgICApfQogICAgICAgICAgICAgICAgPC9kaXY+CgogICAgICAgICAgICAgICAgey8qIOW3suacieiHquWumuS5iemDqOS7tiAqL30KICAgICAgICAgICAgICAgIDxkaXYgY2xhc3NOYW1lPSJzcGFjZS15LTIiPgogICAgICAgICAgICAgICAgICAgIDxkaXYgY2xhc3NOYW1lPSJ0ZXh0LVsxMnB4XSBmb250LWJvbGQgdGV4dC1pbmRpZ28tMTAwLzg1IHB4LTAuNSI+5oiR55qE6Ieq5a6a5LmJ6YOo5Lu2e3BhcnRzLmxlbmd0aCA+IDAgPyBgIMK3ICR7cGFydHMubGVuZ3RofWAgOiAnJ308L2Rpdj4KICAgICAgICAgICAgICAgICAgICB7cGFydHMubGVuZ3RoID09PSAwID8gKAogICAgICAgICAgICAgICAgICAgICAgICA8cCBjbGFzc05hbWU9InRleHQtWzExcHhdIHRleHQtaW5kaWdvLTMwMC80NSBweS0zIHRleHQtY2VudGVyIj7ov5jmsqHmnInoh6rlrprkuYnpg6jku7bjgILkvKDkuKogUFNEIOivleivle+9njwvcD4KICAgICAgICAgICAgICAgICAgICApIDogKAogICAgICAgICAgICAgICAgICAgICAgICBPYmplY3Qua2V5cyhncm91cGVkKS5tYXAoa2V5ID0+ICgKICAgICAgICAgICAgICAgICAgICAgICAgICAgIDxkaXYga2V5PXtrZXl9PgogICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgIDxkaXYgY2xhc3NOYW1lPSJ0ZXh0LVsxMC41cHhdIGZvbnQtYm9sZCB0ZXh0LWluZGlnby0zMDAvNzAgbWItMS41Ij57bGFiZWxPZkNhdGVnb3J5KGtleSl9IMK3IHtncm91cGVkW2tleV0ubGVuZ3RofTwvZGl2PgogICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgIDxkaXYgY2xhc3NOYW1lPSJncmlkIGdyaWQtY29scy00IGdhcC0yIj4KICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAge2dyb3VwZWRba2V5XS5tYXAocCA9PiAoCiAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICA8ZGl2IGtleT17cC5pZH0gY2xhc3NOYW1lPSJyZWxhdGl2ZSByb3VuZGVkLWxnIG92ZXJmbG93LWhpZGRlbiBib3JkZXIgYm9yZGVyLXdoaXRlLzEwIGFzcGVjdC1zcXVhcmUgZmxleCBpdGVtcy1jZW50ZXIganVzdGlmeS1jZW50ZXIiCiAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgc3R5bGU9e3sgYmFja2dyb3VuZDogJ3JlcGVhdGluZy1jb25pYy1ncmFkaWVudCgjZmZmZmZmMTAgMCUgMjUlLCB0cmFuc3BhcmVudCAwJSA1MCUpIDUwJSAvIDE0cHggMTRweCcgfX0+CiAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgPGltZyBzcmM9e3Auc3JjfSBhbHQ9e3AubmFtZX0gY2xhc3NOYW1lPSJtYXgtaC1mdWxsIG1heC13LWZ1bGwgb2JqZWN0LWNvbnRhaW4iIC8+CiAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgPHNwYW4gY2xhc3NOYW1lPSJhYnNvbHV0ZSBib3R0b20tMCBpbnNldC14LTAgYmctYmxhY2svNjAgdGV4dC1bOHB4XSB0ZXh0LXdoaXRlLzkwIHB4LTEgcHktMC41IHRydW5jYXRlIj57cC5uYW1lfXtwLnRpbnRhYmxlID8gJyDCt+iJsicgOiAnJ308L3NwYW4+CiAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgPGJ1dHRvbiBvbkNsaWNrPXsoKSA9PiB2b2lkIHJlbW92ZVBhcnQocC5pZCl9IGNsYXNzTmFtZT0iYWJzb2x1dGUgdG9wLTEgcmlnaHQtMSBiZy1yZWQtNTAwLzkwIHJvdW5kZWQtZnVsbCBwLTEgYWN0aXZlOnNjYWxlLTkwIHRleHQtd2hpdGUiPjxUcmFzaCBzaXplPXsxMH0gd2VpZ2h0PSJib2xkIiAvPjwvYnV0dG9uPgogICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgPC9kaXY+CiAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICkpfQogICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgIDwvZGl2PgogICAgICAgICAgICAgICAgICAgICAgICAgICAgPC9kaXY+CiAgICAgICAgICAgICAgICAgICAgICAgICkpCiAgICAgICAgICAgICAgICAgICAgKX0KICAgICAgICAgICAgICAgICAgICA8cCBjbGFzc05hbWU9InRleHQtWzEwcHhdIHRleHQtaW5kaWdvLTMwMC80NSBsZWFkaW5nLXJlbGF4ZWQgcHgtMC41IHB0LTEiPgogICAgICAgICAgICAgICAgICAgICAgICDoh6rlrprkuYnpg6jku7bkvJrlh7rnjrDlnKg8YiBjbGFzc05hbWU9InRleHQtaW5kaWdvLTIwMC83MCI+5o2P5Lq65ZmoPC9iPumHjOWvueW6lOexu+ebruS4i++8iOWPquS9oOiHquW3seWPr+inge+8ieOAguWKoC/liKDlkI7ph43mlrDov5vmjY/kurrlmajljbPlj6/nnIvliLDjgIIKICAgICAgICAgICAgICAgICAgICA8L3A+CiAgICAgICAgICAgICAgICA8L2Rpdj4KICAgICAgICAgICAgPC9kaXY+CiAgICAgICAgPC9kaXY+CiAgICApOwp9OwoKZXhwb3J0IGRlZmF1bHQgQ3JlYXRvclBhcnRzVXBsb2FkZXI7Cg==
+import React, { useState, useEffect, useCallback, useRef } from 'react';
+import { useOS } from '../../context/OSContext';
+import { CaretLeft, FileArrowUp, Trash, Warning } from '@phosphor-icons/react';
+import { DB } from '../../utils/db';
+import { CC_CATEGORIES, labelOfCategory } from '../../utils/creatorCategories';
+import { creatorPartToBlobRefs, loadCreatorPartsForRender } from '../../utils/creatorPartsBlob';
+import type { CustomCreatorPart } from '../../types';
+import type { ParsedPsdPart } from '../../utils/psdCreatorImport';
+
+/**
+ * 用户侧「自定义素材工坊」——挂在手办柜（ChibiStudio）里，让正式站用户也能 PSD 批量导入
+ * 自定义部件（dev 面板 CharCreatorDevApp 只在本地测试版可见，用户够不着）。
+ * 部件存进 cc_custom_parts（Blob 令牌，省配额）；再进捏人器时经 loadCreatorPartsForRender 注入。
+ */
+const CreatorPartsUploader: React.FC<{ onClose: () => void }> = ({ onClose }) => {
+    const { addToast } = useOS();
+    const [parts, setParts] = useState<CustomCreatorPart[]>([]);
+    const [showRules, setShowRules] = useState(false);
+    const [psdParsing, setPsdParsing] = useState(false);
+    const [psdParts, setPsdParts] = useState<ParsedPsdPart[]>([]);
+    const [psdWarnings, setPsdWarnings] = useState<string[]>([]);
+    const [busy, setBusy] = useState(false);
+    const psdRef = useRef<HTMLInputElement>(null);
+
+    const load = useCallback(async () => {
+        try { setParts(await loadCreatorPartsForRender()); } catch { /* ignore */ }
+    }, []);
+    useEffect(() => { void load(); }, [load]);
+
+    const onPsdFile = async (f: File | undefined) => {
+        if (!f) return;
+        setPsdParsing(true);
+        setPsdParts([]); setPsdWarnings([]);
+        try {
+            const { parseCreatorPsd } = await import('../../utils/psdCreatorImport');
+            const result = await parseCreatorPsd(await f.arrayBuffer());
+            setPsdParts(result.parts);
+            setPsdWarnings(result.warnings);
+            if (!result.parts.length) addToast('没解析出部件，看看「命名规则」里的结构要求', 'error');
+        } catch (err) {
+            addToast('PSD 解析失败：' + String((err as Error)?.message || err), 'error');
+        } finally {
+            setPsdParsing(false);
+            if (psdRef.current) psdRef.current.value = '';
+        }
+    };
+
+    const updatePsdPart = (idx: number, patch: Partial<ParsedPsdPart>) =>
+        setPsdParts(prev => prev.map((p, i) => (i === idx ? { ...p, ...patch } : p)));
+
+    const savePsdParts = async () => {
+        const ready = psdParts.filter(p => p.categoryKey);
+        if (!ready.length) { addToast('先给每个部件选好类目', 'error'); return; }
+        if (ready.length < psdParts.length) { addToast('还有部件没选类目', 'error'); return; }
+        setBusy(true);
+        try {
+            for (const p of ready) {
+                const part: CustomCreatorPart = {
+                    id: `${p.categoryKey}_cc_${Date.now().toString(36)}_${Math.random().toString(36).slice(2, 6)}`,
+                    categoryKey: p.categoryKey!,
+                    name: p.name || `自定义${labelOfCategory(p.categoryKey!)}`,
+                    src: p.src,
+                    tintable: p.tintable,
+                    shadowSrc: p.shadowSrc,
+                    createdAt: Date.now(),
+                };
+                await DB.saveCustomCreatorPart(await creatorPartToBlobRefs(part));
+            }
+            setPsdParts([]); setPsdWarnings([]);
+            await load();
+            addToast(`已加入 ${ready.length} 个部件，进捏人器就能用啦`, 'success');
+        } catch (e) {
+            addToast('保存失败：' + String((e as Error)?.message || e), 'error');
+        } finally {
+            setBusy(false);
+        }
+    };
+
+    const removePart = async (id: string) => {
+        try { await DB.deleteCustomCreatorPart(id); await load(); addToast('已删除', 'success'); }
+        catch (e) { addToast('删除失败：' + String((e as Error)?.message || e), 'error'); }
+    };
+
+    // 按类目分组展示已有部件
+    const grouped: Record<string, CustomCreatorPart[]> = {};
+    parts.forEach(p => { (grouped[p.categoryKey] = grouped[p.categoryKey] || []).push(p); });
+
+    return (
+        <div className="fixed inset-0 z-[65] flex flex-col" style={{ background: 'linear-gradient(180deg, #241b3f 0%, #171130 55%, #120d24 100%)' }}>
+            {/* 顶栏：全屏浮层统一用 --chrome-top（安全区 + SullyOS 状态栏；状态栏隐藏时自动塌回 --safe-top），
+                与 ChibiStudio / 彼方 ChibiEditor 同一套约定，避免怼进状态栏时钟/电量条 */}
+            <div className="shrink-0 px-4 pb-3 flex items-center gap-2 text-white" style={{ paddingTop: 'var(--chrome-top)' }}>
+                <button onClick={onClose} className="p-2 -ml-2 rounded-full text-indigo-100 active:bg-white/10"><CaretLeft size={20} weight="bold" /></button>
+                <div>
+                    <h2 className="font-serif text-lg font-bold tracking-wide leading-tight">自定义素材工坊</h2>
+                    <p className="text-[10px] tracking-[3px] text-indigo-300/60">CUSTOM PARTS</p>
+                </div>
+            </div>
+
+            <div className="flex-1 overflow-y-auto no-scrollbar px-4 space-y-4" style={{ paddingBottom: 'calc(2rem + var(--safe-bottom))' }}>
+                {/* PSD 导入卡 */}
+                <div className="rounded-2xl p-3.5 border border-white/10 space-y-2.5" style={{ background: 'rgba(255,255,255,0.04)' }}>
+                    <div className="text-[13px] font-bold text-white flex items-center gap-1.5">
+                        <FileArrowUp size={15} weight="bold" className="text-amber-300" />
+                        上传 PSD，批量加自定义部件
+                    </div>
+
+                    <button onClick={() => setShowRules(v => !v)} className="text-[11px] font-bold text-amber-200/90 flex items-center gap-1 active:opacity-70">
+                        {showRules ? '▾' : '▸'} PSD 怎么做（命名规则）
+                    </button>
+                    {showRules && (
+                        <div className="text-[10.5px] text-indigo-100/60 leading-relaxed space-y-2 rounded-xl bg-black/25 p-2.5 border border-white/10">
+                            <div><b className="text-white/85">① 结构</b>：顶层<b>图层组 = 一个类目</b>，<b>组内每个图层 = 一个部件</b>。例：<code>眼睛</code> 组里放「杏眼」「圆眼」各一层 → 两个部件。</div>
+                            <div>
+                                <b className="text-white/85">② 组名 = 类目</b>（中英文都认）：
+                                <div className="flex flex-wrap gap-1 mt-1">
+                                    {CC_CATEGORIES.map(c => (
+                                        <span key={c.key} className="px-1.5 py-0.5 rounded bg-white/8 text-white/75">{c.label}<span className="text-white/35"> / {c.key}</span></span>
+                                    ))}
+                                </div>
+                            </div>
+                            <div><b className="text-white/85">③ 图层名 = 部件名</b>；换色标记 <code>#色</code> / <code>#原色</code>（头发+眼睛默认可换色）。</div>
+                            <div><b className="text-white/85">④ 显示 / 隐藏</b>：要导入的图层保持<b>显示</b>，隐藏图层会跳过；不透明度拉满。</div>
+                            <div><b className="text-white/85">⑤ 画布</b> 472×472 正方形。识别不出类目也没关系，下面能手动选。</div>
+                        </div>
+                    )}
+
+                    <input ref={psdRef} type="file" accept=".psd" className="hidden" onChange={e => void onPsdFile(e.target.files?.[0])} />
+                    <button onClick={() => psdRef.current?.click()} disabled={psdParsing || busy}
+                        className="w-full rounded-xl border border-dashed border-white/30 py-3 text-[12px] text-indigo-100/70 active:bg-white/5 disabled:opacity-50">
+                        {psdParsing ? '解析中…' : '选择 .psd 文件'}
+                    </button>
+
+                    {psdWarnings.map((w, i) => (
+                        <div key={i} className="text-[10px] text-amber-200/80 flex gap-1"><Warning size={12} className="shrink-0 mt-0.5" />{w}</div>
+                    ))}
+
+                    {psdParts.length > 0 && (
+                        <div className="space-y-2">
+                            {psdParts.map((p, idx) => (
+                                <div key={idx} className="rounded-xl border border-white/10 p-2 flex gap-2" style={{ background: 'rgba(255,255,255,0.03)' }}>
+                                    <div className="w-14 h-14 shrink-0 rounded-lg overflow-hidden" style={{ background: 'repeating-conic-gradient(#ffffff10 0% 25%, transparent 0% 50%) 50% / 12px 12px' }}>
+                                        <img src={p.src} alt={p.name} className="w-full h-full object-contain" />
+                                    </div>
+                                    <div className="flex-1 min-w-0 space-y-1.5">
+                                        <div className="flex gap-1.5">
+                                            <select value={p.categoryKey || ''} onChange={e => updatePsdPart(idx, { categoryKey: e.target.value || null })}
+                                                className={`text-[10.5px] rounded px-1.5 py-1 bg-white/10 outline-none ${p.categoryKey ? 'text-white' : 'text-red-300 border border-red-400/50'}`}>
+                                                <option value="">类目?</option>
+                                                {CC_CATEGORIES.map(c => <option key={c.key} value={c.key}>{c.label}</option>)}
+                                            </select>
+                                            <input value={p.name} onChange={e => updatePsdPart(idx, { name: e.target.value })}
+                                                className="flex-1 min-w-0 text-[10.5px] rounded px-1.5 py-1 bg-white/10 text-white outline-none" />
+                                        </div>
+                                        <div className="flex items-center gap-2.5 text-[10px] text-indigo-100/70">
+                                            <label className="flex items-center gap-1">
+                                                <input type="checkbox" checked={p.tintable} onChange={e => updatePsdPart(idx, { tintable: e.target.checked })} className="accent-amber-400 w-3 h-3" />
+                                                可换色
+                                            </label>
+                                            <button onClick={() => setPsdParts(prev => prev.filter((_, i) => i !== idx))} className="ml-auto text-red-300/80 active:text-red-300">移除</button>
+                                        </div>
+                                    </div>
+                                </div>
+                            ))}
+                            <button onClick={() => void savePsdParts()} disabled={busy}
+                                className="w-full rounded-xl py-2.5 text-[13px] font-bold text-black disabled:opacity-50" style={{ background: 'linear-gradient(135deg,#fbbf24,#f59e0b)' }}>
+                                {busy ? '保存中…' : `全部加入（${psdParts.length}）`}
+                            </button>
+                        </div>
+                    )}
+                </div>
+
+                {/* 已有自定义部件 */}
+                <div className="space-y-2">
+                    <div className="text-[12px] font-bold text-indigo-100/85 px-0.5">我的自定义部件{parts.length > 0 ? ` · ${parts.length}` : ''}</div>
+                    {parts.length === 0 ? (
+                        <p className="text-[11px] text-indigo-300/45 py-3 text-center">还没有自定义部件。传个 PSD 试试～</p>
+                    ) : (
+                        Object.keys(grouped).map(key => (
+                            <div key={key}>
+                                <div className="text-[10.5px] font-bold text-indigo-300/70 mb-1.5">{labelOfCategory(key)} · {grouped[key].length}</div>
+                                <div className="grid grid-cols-4 gap-2">
+                                    {grouped[key].map(p => (
+                                        <div key={p.id} className="relative rounded-lg overflow-hidden border border-white/10 aspect-square flex items-center justify-center"
+                                            style={{ background: 'repeating-conic-gradient(#ffffff10 0% 25%, transparent 0% 50%) 50% / 14px 14px' }}>
+                                            <img src={p.src} alt={p.name} className="max-h-full max-w-full object-contain" />
+                                            <span className="absolute bottom-0 inset-x-0 bg-black/60 text-[8px] text-white/90 px-1 py-0.5 truncate">{p.name}{p.tintable ? ' ·色' : ''}</span>
+                                            <button onClick={() => void removePart(p.id)} className="absolute top-1 right-1 bg-red-500/90 rounded-full p-1 active:scale-90 text-white"><Trash size={10} weight="bold" /></button>
+                                        </div>
+                                    ))}
+                                </div>
+                            </div>
+                        ))
+                    )}
+                    <p className="text-[10px] text-indigo-300/45 leading-relaxed px-0.5 pt-1">
+                        自定义部件会出现在<b className="text-indigo-200/70">捏人器</b>里对应类目下（只你自己可见）。加/删后重新进捏人器即可看到。
+                    </p>
+                </div>
+            </div>
+        </div>
+    );
+};
+
+export default CreatorPartsUploader;

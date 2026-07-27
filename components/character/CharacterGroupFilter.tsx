@@ -1,1 +1,88 @@
-aW1wb3J0IFJlYWN0IGZyb20gJ3JlYWN0JzsKaW1wb3J0IHsgQ2hhcmFjdGVyUHJvZmlsZSwgQ2hhcmFjdGVyR3JvdXAgfSBmcm9tICcuLi8uLi90eXBlcyc7CgovKioKICog6KeS6Imy5YiG57uE55qE5YWs5YWx5bel5YW3ICsg6YCJ6KeS5YWl5Y+j55qE5YiG57uE562b6YCJ6IO25ZuK5p2h44CCCiAqCiAqIOiDjOaZr++8muinkuiJsuS4gOWkmu+8jOOAjOelnue7j+mTvuaOpSAvIOaJk+eUteivnSAvIOingemdoiAvIOafpeaJi+acuiAvIOi9rOWPkeOAjei/meS6m+mAieinkuWIl+ihqOWwseS8muWkqumVv+OAggogKiDlkITlhaXlj6PnmoTliJfooaggVUkg5Y2D5beu5LiH5Yir77yI56uW5YiXIC8gZ3JpZCAvIOaoqua7keWIhumhte+8ie+8jOaJgOS7pei/memHjOS4jeWBmue7n+S4gOeahCLop5LoibLpgInmi6nlmagi77yMCiAqIOiAjOaYr+aPkOS+m+acgOWwj+WFrOWFseS7tu+8muS4gOadoeaMieWIhue7hOetm+mAieeahOiDtuWbiuadoSArIOe6r+WHveaVsOetm+mAiemAu+i+ke+8jOWQhOWFpeWPo+aKiuetm+mAiee7k+aenAogKiDlloLnu5noh6rlt7Hljp/mnInnmoTliJfooagv5YiG6aG15riy5p+T5Y2z5Y+v44CC5rKh5bu66L+H5YiG57uE55qE55So5oi377yM6IO25ZuK5p2h5pW05L2T5LiN5riy5p+T77yM5ZCE5YWl5Y+j6Zu25Y+Y5YyW44CCCiAqLwoKLyoqIOOAjOWFqOmDqOOAjeiZmuaLn+WIhue7hCBpZCAqLwpleHBvcnQgY29uc3QgR1JPVVBfRklMVEVSX0FMTCA9ICdhbGwnOwovKiog44CM5pyq5YiG57uE44CN6Jma5ouf5YiG57uEIGlk77yIZ3JvdXBJZCDkuLrnqbrjgIHmiJbmjIflkJHlt7LliKDliIbnu4TnmoTop5LoibLpg73nrpfvvIkgKi8KZXhwb3J0IGNvbnN0IEdST1VQX0ZJTFRFUl9VTkdST1VQRUQgPSAnX191bmdyb3VwZWRfXyc7CgovKiog5YiG57uE5pi+56S66aG65bqP77yab3JkZXIg5LyY5YWI77yM57y655yB5oyJ5Yib5bu65pe26Ze05YWI5ZCOICovCmV4cG9ydCBjb25zdCBzb3J0Q2hhcmFjdGVyR3JvdXBzID0gKGdyb3VwczogQ2hhcmFjdGVyR3JvdXBbXSk6IENoYXJhY3Rlckdyb3VwW10gPT4KICAgIFsuLi5ncm91cHNdLnNvcnQoKGEsIGIpID0+IChhLm9yZGVyID8/IGEuY3JlYXRlZEF0ID8/IDApIC0gKGIub3JkZXIgPz8gYi5jcmVhdGVkQXQgPz8gMCkpOwoKLyoqIOaMieWIhue7hOetm+mAieinkuiJsuOAgmdyb3VwSWQg5LygIEdST1VQX0ZJTFRFUl9BTEwgLyBHUk9VUF9GSUxURVJfVU5HUk9VUEVEIC8g5YW35L2T5YiG57uEIGlkICovCmV4cG9ydCBjb25zdCBmaWx0ZXJDaGFyYWN0ZXJzQnlHcm91cCA9ICgKICAgIGNoYXJhY3RlcnM6IENoYXJhY3RlclByb2ZpbGVbXSwKICAgIGdyb3VwczogQ2hhcmFjdGVyR3JvdXBbXSwKICAgIGdyb3VwSWQ6IHN0cmluZywKKTogQ2hhcmFjdGVyUHJvZmlsZVtdID0+IHsKICAgIGlmIChncm91cElkID09PSBHUk9VUF9GSUxURVJfQUxMKSByZXR1cm4gY2hhcmFjdGVyczsKICAgIGlmIChncm91cElkID09PSBHUk9VUF9GSUxURVJfVU5HUk9VUEVEKSB7CiAgICAgICAgY29uc3Qga25vd24gPSBuZXcgU2V0KGdyb3Vwcy5tYXAoZyA9PiBnLmlkKSk7CiAgICAgICAgcmV0dXJuIGNoYXJhY3RlcnMuZmlsdGVyKGMgPT4gIWMuZ3JvdXBJZCB8fCAha25vd24uaGFzKGMuZ3JvdXBJZCkpOwogICAgfQogICAgcmV0dXJuIGNoYXJhY3RlcnMuZmlsdGVyKGMgPT4gYy5ncm91cElkID09PSBncm91cElkKTsKfTsKCmludGVyZmFjZSBGaWx0ZXJCYXJQcm9wcyB7CiAgICAvKiog6K+l5YWl5Y+j55qE5a6M5pW05YCZ6YCJ5YiX6KGo77yI5pyq562b6YCJ77yJ77yM55So5LqO6K6h566X5ZCE57uE5pWw6YeP5LiO5piv5ZCm5pi+56S644CM5pyq5YiG57uE44CNICovCiAgICBjaGFyYWN0ZXJzOiBDaGFyYWN0ZXJQcm9maWxlW107CiAgICBncm91cHM6IENoYXJhY3Rlckdyb3VwW107CiAgICB2YWx1ZTogc3RyaW5nOwogICAgb25DaGFuZ2U6IChncm91cElkOiBzdHJpbmcpID0+IHZvaWQ7CiAgICAvKiog5rex6Imy5bqV55qEIEFwcO+8iOaJk+eUteivnSAvIOingemdoiAvIOafpeaJi+acuu+8ieS8oCB0cnVl77yM6IO25ZuK5o2i55m95a2X6YWN6ImyICovCiAgICBkYXJrPzogYm9vbGVhbjsKICAgIGNsYXNzTmFtZT86IHN0cmluZzsKfQoKLyoqCiAqIOWIhue7hOetm+mAieiDtuWbiuadoe+8muWFqOmDqCAvIOWQhOWIhue7hCAvIOacquWIhue7hO+8jOaoquWQkeWPr+a7muWKqOOAggogKiBncm91cHMg5Li656m65pe26L+U5ZueIG51bGzigJTigJTmsqHnlKjliIbnu4TnmoTnlKjmiLfnnIvkuI3liLDku7vkvZXlj5jljJbjgIIKICovCmV4cG9ydCBjb25zdCBDaGFyYWN0ZXJHcm91cEZpbHRlckJhcjogUmVhY3QuRkM8RmlsdGVyQmFyUHJvcHM+ID0gKHsgY2hhcmFjdGVycywgZ3JvdXBzLCB2YWx1ZSwgb25DaGFuZ2UsIGRhcmssIGNsYXNzTmFtZSB9KSA9PiB7CiAgICBpZiAoZ3JvdXBzLmxlbmd0aCA9PT0gMCkgcmV0dXJuIG51bGw7CgogICAgY29uc3Qga25vd24gPSBuZXcgU2V0KGdyb3Vwcy5tYXAoZyA9PiBnLmlkKSk7CiAgICBjb25zdCB1bmdyb3VwZWRDb3VudCA9IGNoYXJhY3RlcnMuZmlsdGVyKGMgPT4gIWMuZ3JvdXBJZCB8fCAha25vd24uaGFzKGMuZ3JvdXBJZCkpLmxlbmd0aDsKICAgIGNvbnN0IGNoaXBzOiB7IGlkOiBzdHJpbmc7IGxhYmVsOiBzdHJpbmc7IGNvdW50OiBudW1iZXIgfVtdID0gWwogICAgICAgIHsgaWQ6IEdST1VQX0ZJTFRFUl9BTEwsIGxhYmVsOiAn5YWo6YOoJywgY291bnQ6IGNoYXJhY3RlcnMubGVuZ3RoIH0sCiAgICAgICAgLi4uc29ydENoYXJhY3Rlckdyb3Vwcyhncm91cHMpLm1hcChnID0+ICh7CiAgICAgICAgICAgIGlkOiBnLmlkLAogICAgICAgICAgICBsYWJlbDogZy5uYW1lLAogICAgICAgICAgICBjb3VudDogY2hhcmFjdGVycy5maWx0ZXIoYyA9PiBjLmdyb3VwSWQgPT09IGcuaWQpLmxlbmd0aCwKICAgICAgICB9KSksCiAgICBdOwogICAgaWYgKHVuZ3JvdXBlZENvdW50ID4gMCkgY2hpcHMucHVzaCh7IGlkOiBHUk9VUF9GSUxURVJfVU5HUk9VUEVELCBsYWJlbDogJ+acquWIhue7hCcsIGNvdW50OiB1bmdyb3VwZWRDb3VudCB9KTsKCiAgICBjb25zdCBiYXNlID0gJ3Nocmluay0wIHB4LTMgcHktMS41IHJvdW5kZWQtZnVsbCB0ZXh0LXhzIGZvbnQtbWVkaXVtIGJvcmRlciB0cmFuc2l0aW9uLWFsbCBhY3RpdmU6c2NhbGUtOTUgZmxleCBpdGVtcy1jZW50ZXIgZ2FwLTEnOwogICAgY29uc3QgaWRsZSA9IGRhcmsKICAgICAgICA/ICdiZy13aGl0ZS9bMC4wNl0gdGV4dC13aGl0ZS82MCBib3JkZXItd2hpdGUvMTUnCiAgICAgICAgOiAnYmctd2hpdGUvNzAgdGV4dC1zbGF0ZS01MDAgYm9yZGVyLXNsYXRlLTIwMCc7CiAgICBjb25zdCBhY3RpdmUgPSBkYXJrCiAgICAgICAgPyAnYmctd2hpdGUvOTAgdGV4dC1zbGF0ZS05MDAgYm9yZGVyLXdoaXRlJwogICAgICAgIDogJ2JnLXNsYXRlLTcwMCB0ZXh0LXdoaXRlIGJvcmRlci1zbGF0ZS03MDAnOwoKICAgIHJldHVybiAoCiAgICAgICAgPGRpdiBjbGFzc05hbWU9e2BmbGV4IGdhcC0xLjUgb3ZlcmZsb3cteC1hdXRvIG5vLXNjcm9sbGJhciAke2NsYXNzTmFtZSB8fCAnJ31gfT4KICAgICAgICAgICAge2NoaXBzLm1hcChjaGlwID0+ICgKICAgICAgICAgICAgICAgIDxidXR0b24KICAgICAgICAgICAgICAgICAgICBrZXk9e2NoaXAuaWR9CiAgICAgICAgICAgICAgICAgICAgb25DbGljaz17KCkgPT4gb25DaGFuZ2UoY2hpcC5pZCl9CiAgICAgICAgICAgICAgICAgICAgY2xhc3NOYW1lPXtgJHtiYXNlfSAke3ZhbHVlID09PSBjaGlwLmlkID8gYWN0aXZlIDogaWRsZX1gfQogICAgICAgICAgICAgICAgPgogICAgICAgICAgICAgICAgICAgIDxzcGFuPntjaGlwLmxhYmVsfTwvc3Bhbj4KICAgICAgICAgICAgICAgICAgICA8c3BhbiBjbGFzc05hbWU9e3ZhbHVlID09PSBjaGlwLmlkID8gJ29wYWNpdHktNzAnIDogJ29wYWNpdHktNTAnfT57Y2hpcC5jb3VudH08L3NwYW4+CiAgICAgICAgICAgICAgICA8L2J1dHRvbj4KICAgICAgICAgICAgKSl9CiAgICAgICAgPC9kaXY+CiAgICApOwp9Owo=
+import React from 'react';
+import { CharacterProfile, CharacterGroup } from '../../types';
+
+/**
+ * 角色分组的公共工具 + 选角入口的分组筛选胶囊条。
+ *
+ * 背景：角色一多，「神经链接 / 打电话 / 见面 / 查手机 / 转发」这些选角列表就会太长。
+ * 各入口的列表 UI 千差万别（竖列 / grid / 横滑分页），所以这里不做统一的"角色选择器"，
+ * 而是提供最小公共件：一条按分组筛选的胶囊条 + 纯函数筛选逻辑，各入口把筛选结果
+ * 喂给自己原有的列表/分页渲染即可。没建过分组的用户，胶囊条整体不渲染，各入口零变化。
+ */
+
+/** 「全部」虚拟分组 id */
+export const GROUP_FILTER_ALL = 'all';
+/** 「未分组」虚拟分组 id（groupId 为空、或指向已删分组的角色都算） */
+export const GROUP_FILTER_UNGROUPED = '__ungrouped__';
+
+/** 分组显示顺序：order 优先，缺省按创建时间先后 */
+export const sortCharacterGroups = (groups: CharacterGroup[]): CharacterGroup[] =>
+    [...groups].sort((a, b) => (a.order ?? a.createdAt ?? 0) - (b.order ?? b.createdAt ?? 0));
+
+/** 按分组筛选角色。groupId 传 GROUP_FILTER_ALL / GROUP_FILTER_UNGROUPED / 具体分组 id */
+export const filterCharactersByGroup = (
+    characters: CharacterProfile[],
+    groups: CharacterGroup[],
+    groupId: string,
+): CharacterProfile[] => {
+    if (groupId === GROUP_FILTER_ALL) return characters;
+    if (groupId === GROUP_FILTER_UNGROUPED) {
+        const known = new Set(groups.map(g => g.id));
+        return characters.filter(c => !c.groupId || !known.has(c.groupId));
+    }
+    return characters.filter(c => c.groupId === groupId);
+};
+
+interface FilterBarProps {
+    /** 该入口的完整候选列表（未筛选），用于计算各组数量与是否显示「未分组」 */
+    characters: CharacterProfile[];
+    groups: CharacterGroup[];
+    value: string;
+    onChange: (groupId: string) => void;
+    /** 深色底的 App（打电话 / 见面 / 查手机）传 true，胶囊换白字配色 */
+    dark?: boolean;
+    className?: string;
+}
+
+/**
+ * 分组筛选胶囊条：全部 / 各分组 / 未分组，横向可滚动。
+ * groups 为空时返回 null——没用分组的用户看不到任何变化。
+ */
+export const CharacterGroupFilterBar: React.FC<FilterBarProps> = ({ characters, groups, value, onChange, dark, className }) => {
+    if (groups.length === 0) return null;
+
+    const known = new Set(groups.map(g => g.id));
+    const ungroupedCount = characters.filter(c => !c.groupId || !known.has(c.groupId)).length;
+    const chips: { id: string; label: string; count: number }[] = [
+        { id: GROUP_FILTER_ALL, label: '全部', count: characters.length },
+        ...sortCharacterGroups(groups).map(g => ({
+            id: g.id,
+            label: g.name,
+            count: characters.filter(c => c.groupId === g.id).length,
+        })),
+    ];
+    if (ungroupedCount > 0) chips.push({ id: GROUP_FILTER_UNGROUPED, label: '未分组', count: ungroupedCount });
+
+    const base = 'shrink-0 px-3 py-1.5 rounded-full text-xs font-medium border transition-all active:scale-95 flex items-center gap-1';
+    const idle = dark
+        ? 'bg-white/[0.06] text-white/60 border-white/15'
+        : 'bg-white/70 text-slate-500 border-slate-200';
+    const active = dark
+        ? 'bg-white/90 text-slate-900 border-white'
+        : 'bg-slate-700 text-white border-slate-700';
+
+    return (
+        <div className={`flex gap-1.5 overflow-x-auto no-scrollbar ${className || ''}`}>
+            {chips.map(chip => (
+                <button
+                    key={chip.id}
+                    onClick={() => onChange(chip.id)}
+                    className={`${base} ${value === chip.id ? active : idle}`}
+                >
+                    <span>{chip.label}</span>
+                    <span className={value === chip.id ? 'opacity-70' : 'opacity-50'}>{chip.count}</span>
+                </button>
+            ))}
+        </div>
+    );
+};

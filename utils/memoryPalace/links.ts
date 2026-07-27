@@ -1,1 +1,277 @@
-LyoqCiAqIE1lbW9yeSBQYWxhY2Ug4oCUIOWFs+iBlOe9kee7nCAoTWVtb3J5IExpbmtzKQogKgogKiDorrDlv4bkuYvpl7TnmoTkupTnp43ov57mjqXvvJp0ZW1wb3JhbCwgZW1vdGlvbmFsLCBjYXVzYWwsIHBlcnNvbiwgbWV0YXBob3LjgIIKICogLSB0ZW1wb3JhbCAvIGVtb3Rpb25hbDog6Ieq5Yqo6KeE5YiZ5bu656uLCiAqIC0gY2F1c2FsIC8gcGVyc29uIC8gbWV0YXBob3I6IExMTSDliKTmlq3vvIjmr4/mrKHlsIHnm5Lml7blr7nmlrDorrDlv4YgdnMgVG9wLTUg55u45Ly85pen6K6w5b+G5YGa5LiA5qyh5om56YeP5Yik5pat77yJCiAqLwoKaW1wb3J0IHR5cGUgeyBNZW1vcnlOb2RlLCBNZW1vcnlMaW5rLCBMaW5rVHlwZSB9IGZyb20gJy4vdHlwZXMnOwppbXBvcnQgdHlwZSB7IExpZ2h0TExNQ29uZmlnIH0gZnJvbSAnLi9waXBlbGluZSc7CmltcG9ydCB7IE1lbW9yeUxpbmtEQiB9IGZyb20gJy4vZGInOwppbXBvcnQgeyBzYWZlRmV0Y2hKc29uIH0gZnJvbSAnLi4vc2FmZUFwaSc7CmltcG9ydCB7IHNhZmVQYXJzZUpzb25BcnJheSB9IGZyb20gJy4vanNvblV0aWxzJzsKaW1wb3J0IHsgZ2V0RW1vdGlvblZBLCBlbW90aW9uRGlzdGFuY2UgfSBmcm9tICcuL2Vtb3Rpb25TcGFjZSc7Cgpjb25zdCBURU1QT1JBTF9XSU5ET1dfTVMgPSAyNCAqIDYwICogNjAgKiAxMDAwOyAvLyAyNCDlsI/ml7YKY29uc3QgQ09fQUNUSVZBVElPTl9JTkNSRU1FTlQgPSAwLjA1Owpjb25zdCBNQVhfU1RSRU5HVEggPSAxLjA7CgovLyDilIDilIDilIAgRW1vdGlvbmFsIGxpbmsg6ZiI5YC877yIUnVzc2VsbCDmg4XmhJ/nqbrpl7TvvIkg4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSACi8qKiDmg4XmhJ/ot53nprsgPCDmraTlgLzmiY3lu7ogZW1vdGlvbmFsIOi+uSAqLwpjb25zdCBFTU9USU9OQUxfTElOS19ESVNUID0gMC4zNTsKLyoqIOWPjOaWuSAodixhKSDmqKHplb/pg70gPCDmraTlgLwg6KeG5Li6IuaDhee7quWkquW8sSLvvIzkuI3lu7rovrnvvIjpgb/lhY3kuIDloIYgbmV1dHJhbCDoioLngrnkupLpk77vvIkgKi8KY29uc3QgRU1PVElPTkFMX01JTl9NQUdOSVRVREUgPSAwLjI7CgovKiog5Yik5pat5LiA5p2h5pawLeaXp+iKgueCueWvueaYr+WQpuW6lOW7uiBlbW90aW9uYWwg6L6577yM5Lul5Y+K6K+l57uZ5aSa5aSnIHN0cmVuZ3RoICovCmZ1bmN0aW9uIGVtb3Rpb25hbExpbmtTdHJlbmd0aChhOiBNZW1vcnlOb2RlLCBiOiBNZW1vcnlOb2RlKTogbnVtYmVyIHsKICAgIGNvbnN0IHZhID0gZ2V0RW1vdGlvblZBKGEpOwogICAgY29uc3QgdmIgPSBnZXRFbW90aW9uVkEoYik7CiAgICBjb25zdCBtYWdBID0gTWF0aC5oeXBvdCh2YS52LCB2YS5hKTsKICAgIGNvbnN0IG1hZ0IgPSBNYXRoLmh5cG90KHZiLnYsIHZiLmEpOwogICAgaWYgKG1hZ0EgPCBFTU9USU9OQUxfTUlOX01BR05JVFVERSB8fCBtYWdCIDwgRU1PVElPTkFMX01JTl9NQUdOSVRVREUpIHJldHVybiAwOwogICAgY29uc3QgZGlzdCA9IGVtb3Rpb25EaXN0YW5jZSh2YSwgdmIpOwogICAgaWYgKGRpc3QgPj0gRU1PVElPTkFMX0xJTktfRElTVCkgcmV0dXJuIDA7CiAgICAvLyDot53nprsgMCDihpIgMC41Ne+8m+i3neemuyA9IOmYiOWAvCDihpIgMC4yNeOAgue6v+aAp+OAggogICAgcmV0dXJuIDAuMjUgKyAoMC41NSAtIDAuMjUpICogKDEgLSBkaXN0IC8gRU1PVElPTkFMX0xJTktfRElTVCk7Cn0KCmZ1bmN0aW9uIGdlbmVyYXRlSWQoKTogc3RyaW5nIHsKICAgIHJldHVybiBgbWxfJHtEYXRlLm5vdygpfV8ke01hdGgucmFuZG9tKCkudG9TdHJpbmcoMzYpLnNsaWNlKDIsIDgpfWA7Cn0KCi8vIOKUgOKUgOKUgCBMTE0g5YWz6IGU5Yik5patIOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgAoKLyoqCiAqIOS4gOasoSBMTE0g6LCD55So77yM5om56YeP5Yik5pat5omA5pyJ5paw6K6w5b+G5ZKM5YCZ6YCJ5pen6K6w5b+G5LmL6Ze055qE5rex5bGC5YWz6IGUCiAqLwphc3luYyBmdW5jdGlvbiBiYXRjaENsYXNzaWZ5RGVlcExpbmtzKAogICAgbmV3Tm9kZXM6IE1lbW9yeU5vZGVbXSwKICAgIGNhbmRpZGF0ZXM6IE1lbW9yeU5vZGVbXSwKICAgIGxsbUNvbmZpZzogTGlnaHRMTE1Db25maWcsCik6IFByb21pc2U8eyBzb3VyY2VJZDogc3RyaW5nOyB0YXJnZXRJZDogc3RyaW5nOyB0eXBlOiBMaW5rVHlwZTsgc3RyZW5ndGg6IG51bWJlciB9W10+IHsKICAgIGlmIChuZXdOb2Rlcy5sZW5ndGggPT09IDAgfHwgY2FuZGlkYXRlcy5sZW5ndGggPT09IDApIHJldHVybiBbXTsKCiAgICBjb25zdCBuZXdMaXN0ID0gbmV3Tm9kZXMKICAgICAgICAubWFwKChuLCBpKSA9PiBgW04ke2l9XSAoJHtuLnJvb219LCAke24ubW9vZH0pOiAke24uY29udGVudC5zbGljZSgwLCA4MCl9YCkKICAgICAgICAuam9pbignXG4nKTsKCiAgICBjb25zdCBvbGRMaXN0ID0gY2FuZGlkYXRlcwogICAgICAgIC5tYXAoKGMsIGkpID0+IGBbTyR7aX1dICgke2Mucm9vbX0sICR7Yy5tb29kfSk6ICR7Yy5jb250ZW50LnNsaWNlKDAsIDgwKX1gKQogICAgICAgIC5qb2luKCdcbicpOwoKICAgIGNvbnN0IHByb21wdCA9IGDkvaDmmK/kuIDkuKrorrDlv4blhbPogZTliIbmnpDlmajjgILnu5nkvaDkuIDnu4TmlrDorrDlv4YgW04qXSDlkozkuIDnu4Tml6forrDlv4YgW08qXe+8jOaJvuWHuuWug+S7rOS5i+mXtOeahOa3seWxguWFs+iBlOOAggoK5LiJ56eN5YWz6IGU57G75Z6L77yaCi0gY2F1c2FsOiDlm6DmnpzlhbPns7vvvIjkuIDku7bkuovlr7zoh7Tkuoblj6bkuIDku7bkuovvvIkKLSBwZXJzb246IOaPkOWIsOS6huWQjOS4gOS4quS6ugotIG1ldGFwaG9yOiDpmpDllrsv57G75q+U77yI5LiN5ZCM5LqL5Lu25L2G5pyJ55u45Ly855qE5oOF5oSf5qih5byP77yJCgrlj6rovpPlh7rlrZjlnKjlhbPogZTnmoTphY3lr7njgILkuKXmoLwgSlNPTiDmlbDnu4TmoLzlvI/vvJoKW3siZnJvbSI6ICJOMCIsICJ0byI6ICJPMiIsICJ0eXBlIjogInBlcnNvbiIsICJzdHJlbmd0aCI6IDAuNn1dCgpzdHJlbmd0aCDojIPlm7QgMC4zLTAuOOOAguayoeacieWFs+iBlOi/lOWbniBbXeOAguWPqui+k+WHuiBKU09O44CCYDsKCiAgICBjb25zdCB1c2VyTXNnID0gYOaWsOiusOW/hu+8mlxuJHtuZXdMaXN0fVxuXG7ml6forrDlv4bvvJpcbiR7b2xkTGlzdH1gOwoKICAgIHRyeSB7CiAgICAgICAgY29uc3QgZGF0YSA9IGF3YWl0IHNhZmVGZXRjaEpzb24oCiAgICAgICAgICAgIGAke2xsbUNvbmZpZy5iYXNlVXJsLnJlcGxhY2UoL1wvKyQvLCAnJyl9L2NoYXQvY29tcGxldGlvbnNgLAogICAgICAgICAgICB7CiAgICAgICAgICAgICAgICBtZXRob2Q6ICdQT1NUJywKICAgICAgICAgICAgICAgIGhlYWRlcnM6IHsKICAgICAgICAgICAgICAgICAgICAnQ29udGVudC1UeXBlJzogJ2FwcGxpY2F0aW9uL2pzb24nLAogICAgICAgICAgICAgICAgICAgICdBdXRob3JpemF0aW9uJzogYEJlYXJlciAke2xsbUNvbmZpZy5hcGlLZXl9YCwKICAgICAgICAgICAgICAgIH0sCiAgICAgICAgICAgICAgICBib2R5OiBKU09OLnN0cmluZ2lmeSh7CiAgICAgICAgICAgICAgICAgICAgbW9kZWw6IGxsbUNvbmZpZy5tb2RlbCwKICAgICAgICAgICAgICAgICAgICBtZXNzYWdlczogWwogICAgICAgICAgICAgICAgICAgICAgICB7IHJvbGU6ICdzeXN0ZW0nLCBjb250ZW50OiBwcm9tcHQgfSwKICAgICAgICAgICAgICAgICAgICAgICAgeyByb2xlOiAndXNlcicsIGNvbnRlbnQ6IHVzZXJNc2cgfSwKICAgICAgICAgICAgICAgICAgICBdLAogICAgICAgICAgICAgICAgICAgIHRlbXBlcmF0dXJlOiAwLjIsCiAgICAgICAgICAgICAgICAgICAgbWF4X3Rva2VuczogODAwLAogICAgICAgICAgICAgICAgICAgIHN0cmVhbTogZmFsc2UsCiAgICAgICAgICAgICAgICB9KSwKICAgICAgICAgICAgfSwKICAgICAgICAgICAgMiwgOTBfMDAwLCB7IGFwcE5hbWU6ICforrDlv4blrqvmrr8nLCBwdXJwb3NlOiAn6K6w5b+G5YWz6IGUJyB9CiAgICAgICAgKTsKCiAgICAgICAgY29uc3QgcmVwbHkgPSBkYXRhLmNob2ljZXM/LlswXT8ubWVzc2FnZT8uY29udGVudCB8fCAnJzsKICAgICAgICBjb25zdCBwYXJzZWQgPSBzYWZlUGFyc2VKc29uQXJyYXkocmVwbHkpOwogICAgICAgIGNvbnN0IHZhbGlkVHlwZXM6IExpbmtUeXBlW10gPSBbJ2NhdXNhbCcsICdwZXJzb24nLCAnbWV0YXBob3InXTsKCiAgICAgICAgcmV0dXJuIHBhcnNlZAogICAgICAgICAgICAuZmlsdGVyKGl0ZW0gPT4gewogICAgICAgICAgICAgICAgY29uc3QgZnJvbUlkeCA9IHBhcnNlSW50KGl0ZW0uZnJvbT8ucmVwbGFjZSgnTicsICcnKSB8fCAnLTEnLCAxMCk7CiAgICAgICAgICAgICAgICBjb25zdCB0b0lkeCA9IHBhcnNlSW50KGl0ZW0udG8/LnJlcGxhY2UoJ08nLCAnJykgfHwgJy0xJywgMTApOwogICAgICAgICAgICAgICAgcmV0dXJuIGZyb21JZHggPj0gMCAmJiBmcm9tSWR4IDwgbmV3Tm9kZXMubGVuZ3RoICYmCiAgICAgICAgICAgICAgICAgICAgICAgdG9JZHggPj0gMCAmJiB0b0lkeCA8IGNhbmRpZGF0ZXMubGVuZ3RoICYmCiAgICAgICAgICAgICAgICAgICAgICAgdmFsaWRUeXBlcy5pbmNsdWRlcyhpdGVtLnR5cGUgYXMgTGlua1R5cGUpOwogICAgICAgICAgICB9KQogICAgICAgICAgICAubWFwKGl0ZW0gPT4gKHsKICAgICAgICAgICAgICAgIHNvdXJjZUlkOiBuZXdOb2Rlc1twYXJzZUludChpdGVtLmZyb20ucmVwbGFjZSgnTicsICcnKSwgMTApXS5pZCwKICAgICAgICAgICAgICAgIHRhcmdldElkOiBjYW5kaWRhdGVzW3BhcnNlSW50KGl0ZW0udG8ucmVwbGFjZSgnTycsICcnKSwgMTApXS5pZCwKICAgICAgICAgICAgICAgIHR5cGU6IGl0ZW0udHlwZSBhcyBMaW5rVHlwZSwKICAgICAgICAgICAgICAgIHN0cmVuZ3RoOiBNYXRoLm1heCgwLjMsIE1hdGgubWluKDAuOCwgaXRlbS5zdHJlbmd0aCB8fCAwLjUpKSwKICAgICAgICAgICAgfSkpOwoKICAgIH0gY2F0Y2ggKGVycjogYW55KSB7CiAgICAgICAgY29uc29sZS53YXJuKCfimqEgW0xpbmtzXSBCYXRjaCBkZWVwIGxpbmsgY2xhc3NpZmljYXRpb24gZmFpbGVkOicsIGVyci5tZXNzYWdlKTsKICAgICAgICByZXR1cm4gW107CiAgICB9Cn0KCi8vIOKUgOKUgOKUgCDkuLvlh73mlbAg4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSACgovKioKICog5Li65paw6K6w5b+G6IqC54K55bu656uL5YWz6IGUCiAqCiAqIOS4ieWxgu+8mgogKiAxLiB0ZW1wb3JhbCDigJQgMjRoIOWGhSAvIOWQjCBib3gg6Ieq5Yqo5bu66ZO+CiAqIDIuIGVtb3Rpb25hbCDigJQg55u45ZCMIG1vb2Qg6Ieq5Yqo5bu66ZO+CiAqIDMuIGNhdXNhbCAvIHBlcnNvbiAvIG1ldGFwaG9yIOKAlCBMTE0g5Yik5pat77yI5aaC5p6c5o+Q5L6b5LqGIGxsbUNvbmZpZ++8iQogKgogKiBAcGFyYW0gbGxtQ29uZmlnIOWPr+mAieOAguS8oOWFpeWImeWQr+eUqCBMTE0g5rex5bGC5YWz6IGU5Yik5pat44CCCiAqLwpleHBvcnQgYXN5bmMgZnVuY3Rpb24gYnVpbGRMaW5rcygKICAgIG5ld05vZGVzOiBNZW1vcnlOb2RlW10sCiAgICBleGlzdGluZ05vZGVzOiBNZW1vcnlOb2RlW10sCiAgICBsbG1Db25maWc/OiBMaWdodExMTUNvbmZpZyB8IG51bGwsCik6IFByb21pc2U8TWVtb3J5TGlua1tdPiB7CiAgICBjb25zdCBsaW5rczogTWVtb3J5TGlua1tdID0gW107CiAgICBjb25zdCBsaW5rU2V0ID0gbmV3IFNldDxzdHJpbmc+KCk7CgogICAgZm9yIChjb25zdCBuZXdOb2RlIG9mIG5ld05vZGVzKSB7CiAgICAgICAgLy8g4pSA4pSA4pSAIOiHquWKqOinhOWImeWFs+iBlCDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIAKCiAgICAgICAgZm9yIChjb25zdCBleGlzdGluZyBvZiBleGlzdGluZ05vZGVzKSB7CiAgICAgICAgICAgIGlmIChuZXdOb2RlLmlkID09PSBleGlzdGluZy5pZCkgY29udGludWU7CgogICAgICAgICAgICAvLyAxLiBUZW1wb3JhbDogMjRoIOWGheWIm+W7ugogICAgICAgICAgICBpZiAoTWF0aC5hYnMobmV3Tm9kZS5jcmVhdGVkQXQgLSBleGlzdGluZy5jcmVhdGVkQXQpIDwgVEVNUE9SQUxfV0lORE9XX01TKSB7CiAgICAgICAgICAgICAgICBjb25zdCBrZXkgPSBtYWtlS2V5KG5ld05vZGUuaWQsIGV4aXN0aW5nLmlkLCAndGVtcG9yYWwnKTsKICAgICAgICAgICAgICAgIGlmICghbGlua1NldC5oYXMoa2V5KSkgewogICAgICAgICAgICAgICAgICAgIGxpbmtzLnB1c2goY3JlYXRlTGluayhuZXdOb2RlLmlkLCBleGlzdGluZy5pZCwgJ3RlbXBvcmFsJywgMC4zKSk7CiAgICAgICAgICAgICAgICAgICAgbGlua1NldC5hZGQoa2V5KTsKICAgICAgICAgICAgICAgIH0KICAgICAgICAgICAgfQoKICAgICAgICAgICAgLy8gMi4gRW1vdGlvbmFsOiBSdXNzZWxsIOaDheaEn+epuumXtOi3neemuyA8IDAuMzXvvIxzdHJlbmd0aCDpmo/ot53nprvnur/mgKfnvKnmlL4KICAgICAgICAgICAgY29uc3QgZW1vU3RyZW5ndGggPSBlbW90aW9uYWxMaW5rU3RyZW5ndGgobmV3Tm9kZSwgZXhpc3RpbmcpOwogICAgICAgICAgICBpZiAoZW1vU3RyZW5ndGggPiAwKSB7CiAgICAgICAgICAgICAgICBjb25zdCBrZXkgPSBtYWtlS2V5KG5ld05vZGUuaWQsIGV4aXN0aW5nLmlkLCAnZW1vdGlvbmFsJyk7CiAgICAgICAgICAgICAgICBpZiAoIWxpbmtTZXQuaGFzKGtleSkpIHsKICAgICAgICAgICAgICAgICAgICBsaW5rcy5wdXNoKGNyZWF0ZUxpbmsobmV3Tm9kZS5pZCwgZXhpc3RpbmcuaWQsICdlbW90aW9uYWwnLCBlbW9TdHJlbmd0aCkpOwogICAgICAgICAgICAgICAgICAgIGxpbmtTZXQuYWRkKGtleSk7CiAgICAgICAgICAgICAgICB9CiAgICAgICAgICAgIH0KICAgICAgICB9CgogICAgICAgIC8vIOWQjOaJueasoeWGheeahOiKgueCuQogICAgICAgIGZvciAoY29uc3Qgb3RoZXIgb2YgbmV3Tm9kZXMpIHsKICAgICAgICAgICAgaWYgKG5ld05vZGUuaWQgPT09IG90aGVyLmlkKSBjb250aW51ZTsKCiAgICAgICAgICAgIGlmIChuZXdOb2RlLmJveElkID09PSBvdGhlci5ib3hJZCkgewogICAgICAgICAgICAgICAgY29uc3Qga2V5ID0gbWFrZUtleShuZXdOb2RlLmlkLCBvdGhlci5pZCwgJ3RlbXBvcmFsJyk7CiAgICAgICAgICAgICAgICBpZiAoIWxpbmtTZXQuaGFzKGtleSkpIHsKICAgICAgICAgICAgICAgICAgICBsaW5rcy5wdXNoKGNyZWF0ZUxpbmsobmV3Tm9kZS5pZCwgb3RoZXIuaWQsICd0ZW1wb3JhbCcsIDAuNSkpOwogICAgICAgICAgICAgICAgICAgIGxpbmtTZXQuYWRkKGtleSk7CiAgICAgICAgICAgICAgICB9CiAgICAgICAgICAgIH0KCiAgICAgICAgICAgIGNvbnN0IGVtb1N0cmVuZ3RoID0gZW1vdGlvbmFsTGlua1N0cmVuZ3RoKG5ld05vZGUsIG90aGVyKTsKICAgICAgICAgICAgaWYgKGVtb1N0cmVuZ3RoID4gMCkgewogICAgICAgICAgICAgICAgY29uc3Qga2V5ID0gbWFrZUtleShuZXdOb2RlLmlkLCBvdGhlci5pZCwgJ2Vtb3Rpb25hbCcpOwogICAgICAgICAgICAgICAgaWYgKCFsaW5rU2V0LmhhcyhrZXkpKSB7CiAgICAgICAgICAgICAgICAgICAgbGlua3MucHVzaChjcmVhdGVMaW5rKG5ld05vZGUuaWQsIG90aGVyLmlkLCAnZW1vdGlvbmFsJywgZW1vU3RyZW5ndGgpKTsKICAgICAgICAgICAgICAgICAgICBsaW5rU2V0LmFkZChrZXkpOwogICAgICAgICAgICAgICAgfQogICAgICAgICAgICB9CiAgICAgICAgfQoKICAgIH0KCiAgICAvLyDilIDilIDilIAgTExNIOa3seWxguWFs+iBlO+8iGNhdXNhbCAvIHBlcnNvbiAvIG1ldGFwaG9y77yJ4pSA4pSAIOS4gOasoeiwg+eUqOWkhOeQhuaJgOacieaWsOiKgueCuQoKICAgIGlmIChsbG1Db25maWcgJiYgZXhpc3RpbmdOb2Rlcy5sZW5ndGggPiAwICYmIG5ld05vZGVzLmxlbmd0aCA+IDApIHsKICAgICAgICBjb25zdCBjYW5kaWRhdGVzID0gZXhpc3RpbmdOb2RlcwogICAgICAgICAgICAuc29ydCgoYSwgYikgPT4gYi5jcmVhdGVkQXQgLSBhLmNyZWF0ZWRBdCkKICAgICAgICAgICAgLnNsaWNlKDAsIDgpOyAvLyDmnIDov5EgOCDmnaHml6forrDlv4bkvZzkuLrlgJnpgIkKCiAgICAgICAgaWYgKGNhbmRpZGF0ZXMubGVuZ3RoID4gMCkgewogICAgICAgICAgICBjb25zdCBkZWVwTGlua3MgPSBhd2FpdCBiYXRjaENsYXNzaWZ5RGVlcExpbmtzKG5ld05vZGVzLCBjYW5kaWRhdGVzLCBsbG1Db25maWcpOwoKICAgICAgICAgICAgZm9yIChjb25zdCBkbCBvZiBkZWVwTGlua3MpIHsKICAgICAgICAgICAgICAgIGNvbnN0IGtleSA9IG1ha2VLZXkoZGwuc291cmNlSWQsIGRsLnRhcmdldElkLCBkbC50eXBlKTsKICAgICAgICAgICAgICAgIGlmICghbGlua1NldC5oYXMoa2V5KSkgewogICAgICAgICAgICAgICAgICAgIGxpbmtzLnB1c2goY3JlYXRlTGluayhkbC5zb3VyY2VJZCwgZGwudGFyZ2V0SWQsIGRsLnR5cGUsIGRsLnN0cmVuZ3RoKSk7CiAgICAgICAgICAgICAgICAgICAgbGlua1NldC5hZGQoa2V5KTsKICAgICAgICAgICAgICAgIH0KICAgICAgICAgICAgfQogICAgICAgIH0KICAgIH0KCiAgICAvLyDmibnph4/kv53lrZgKICAgIGlmIChsaW5rcy5sZW5ndGggPiAwKSB7CiAgICAgICAgYXdhaXQgTWVtb3J5TGlua0RCLnNhdmVNYW55KGxpbmtzKTsKICAgICAgICBjb25zb2xlLmxvZyhg8J+UlyBbTGlua3NdIENyZWF0ZWQgJHtsaW5rcy5sZW5ndGh9IGxpbmtzICh0ZW1wb3JhbC9lbW90aW9uYWw6IGF1dG8sIGNhdXNhbC9wZXJzb24vbWV0YXBob3I6ICR7bGxtQ29uZmlnID8gJ0xMTScgOiAnc2tpcHBlZCd9KWApOwogICAgfQoKICAgIHJldHVybiBsaW5rczsKfQoKLyoqCiAqIOWFseWQjOa/gOa0u++8muW9k+WkmuadoeiusOW/huWQjOaXtuiiq+ajgOe0ouWRveS4reaXtu+8jOWKoOW8uuWug+S7rOS5i+mXtOeahOWFs+iBlAogKi8KZXhwb3J0IGFzeW5jIGZ1bmN0aW9uIHN0cmVuZ3RoZW5Db0FjdGl2YXRlZChub2RlSWRzOiBzdHJpbmdbXSk6IFByb21pc2U8dm9pZD4gewogICAgaWYgKG5vZGVJZHMubGVuZ3RoIDwgMikgcmV0dXJuOwoKICAgIGZvciAobGV0IGkgPSAwOyBpIDwgbm9kZUlkcy5sZW5ndGg7IGkrKykgewogICAgICAgIGZvciAobGV0IGogPSBpICsgMTsgaiA8IG5vZGVJZHMubGVuZ3RoOyBqKyspIHsKICAgICAgICAgICAgY29uc3QgbGlua3MgPSBhd2FpdCBNZW1vcnlMaW5rREIuZ2V0QnlTb3VyY2VJZChub2RlSWRzW2ldKTsKICAgICAgICAgICAgY29uc3QgZXhpc3RpbmdMaW5rID0gbGlua3MuZmluZChsID0+IGwudGFyZ2V0SWQgPT09IG5vZGVJZHNbal0pOwoKICAgICAgICAgICAgaWYgKGV4aXN0aW5nTGluaykgewogICAgICAgICAgICAgICAgZXhpc3RpbmdMaW5rLnN0cmVuZ3RoID0gTWF0aC5taW4oCiAgICAgICAgICAgICAgICAgICAgTUFYX1NUUkVOR1RILAogICAgICAgICAgICAgICAgICAgIGV4aXN0aW5nTGluay5zdHJlbmd0aCArIENPX0FDVElWQVRJT05fSU5DUkVNRU5UCiAgICAgICAgICAgICAgICApOwogICAgICAgICAgICAgICAgYXdhaXQgTWVtb3J5TGlua0RCLnNhdmUoZXhpc3RpbmdMaW5rKTsKICAgICAgICAgICAgfQogICAgICAgICAgICBlbHNlIHsKICAgICAgICAgICAgICAgIGNvbnN0IHJldmVyc2VMaW5rcyA9IGF3YWl0IE1lbW9yeUxpbmtEQi5nZXRCeVNvdXJjZUlkKG5vZGVJZHNbal0pOwogICAgICAgICAgICAgICAgY29uc3QgcmV2ZXJzZUxpbmsgPSByZXZlcnNlTGlua3MuZmluZChsID0+IGwudGFyZ2V0SWQgPT09IG5vZGVJZHNbaV0pOwogICAgICAgICAgICAgICAgaWYgKHJldmVyc2VMaW5rKSB7CiAgICAgICAgICAgICAgICAgICAgcmV2ZXJzZUxpbmsuc3RyZW5ndGggPSBNYXRoLm1pbigKICAgICAgICAgICAgICAgICAgICAgICAgTUFYX1NUUkVOR1RILAogICAgICAgICAgICAgICAgICAgICAgICByZXZlcnNlTGluay5zdHJlbmd0aCArIENPX0FDVElWQVRJT05fSU5DUkVNRU5UCiAgICAgICAgICAgICAgICAgICAgKTsKICAgICAgICAgICAgICAgICAgICBhd2FpdCBNZW1vcnlMaW5rREIuc2F2ZShyZXZlcnNlTGluayk7CiAgICAgICAgICAgICAgICB9CiAgICAgICAgICAgICAgICBlbHNlIHsKICAgICAgICAgICAgICAgICAgICBjb25zdCBsaW5rID0gY3JlYXRlTGluayhub2RlSWRzW2ldLCBub2RlSWRzW2pdLCAndGVtcG9yYWwnLCBDT19BQ1RJVkFUSU9OX0lOQ1JFTUVOVCk7CiAgICAgICAgICAgICAgICAgICAgYXdhaXQgTWVtb3J5TGlua0RCLnNhdmUobGluayk7CiAgICAgICAgICAgICAgICB9CiAgICAgICAgICAgIH0KICAgICAgICB9CiAgICB9Cn0KCi8vIOKUgOKUgOKUgCDlt6Xlhbflh73mlbAg4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSACgpmdW5jdGlvbiBjcmVhdGVMaW5rKHNvdXJjZUlkOiBzdHJpbmcsIHRhcmdldElkOiBzdHJpbmcsIHR5cGU6IExpbmtUeXBlLCBzdHJlbmd0aDogbnVtYmVyKTogTWVtb3J5TGluayB7CiAgICByZXR1cm4gewogICAgICAgIGlkOiBnZW5lcmF0ZUlkKCksCiAgICAgICAgc291cmNlSWQsCiAgICAgICAgdGFyZ2V0SWQsCiAgICAgICAgdHlwZSwKICAgICAgICBzdHJlbmd0aCwKICAgIH07Cn0KCi8qKiDnlJ/miJDljrvph40ga2V577yI56Gu5L+dIEEtQiDlkowgQi1BIOinhuS4uuWQjOS4gOWvue+8iSAqLwpmdW5jdGlvbiBtYWtlS2V5KGlkMTogc3RyaW5nLCBpZDI6IHN0cmluZywgdHlwZTogc3RyaW5nKTogc3RyaW5nIHsKICAgIGNvbnN0IFthLCBiXSA9IGlkMSA8IGlkMiA/IFtpZDEsIGlkMl0gOiBbaWQyLCBpZDFdOwogICAgcmV0dXJuIGAke2F9LSR7Yn0tJHt0eXBlfWA7Cn0K
+/**
+ * Memory Palace — 关联网络 (Memory Links)
+ *
+ * 记忆之间的五种连接：temporal, emotional, causal, person, metaphor。
+ * - temporal / emotional: 自动规则建立
+ * - causal / person / metaphor: LLM 判断（每次封盒时对新记忆 vs Top-5 相似旧记忆做一次批量判断）
+ */
+
+import type { MemoryNode, MemoryLink, LinkType } from './types';
+import type { LightLLMConfig } from './pipeline';
+import { MemoryLinkDB } from './db';
+import { safeFetchJson } from '../safeApi';
+import { safeParseJsonArray } from './jsonUtils';
+import { getEmotionVA, emotionDistance } from './emotionSpace';
+
+const TEMPORAL_WINDOW_MS = 24 * 60 * 60 * 1000; // 24 小时
+const CO_ACTIVATION_INCREMENT = 0.05;
+const MAX_STRENGTH = 1.0;
+
+// ─── Emotional link 阈值（Russell 情感空间） ─────────
+/** 情感距离 < 此值才建 emotional 边 */
+const EMOTIONAL_LINK_DIST = 0.35;
+/** 双方 (v,a) 模长都 < 此值 视为"情绪太弱"，不建边（避免一堆 neutral 节点互链） */
+const EMOTIONAL_MIN_MAGNITUDE = 0.2;
+
+/** 判断一条新-旧节点对是否应建 emotional 边，以及该给多大 strength */
+function emotionalLinkStrength(a: MemoryNode, b: MemoryNode): number {
+    const va = getEmotionVA(a);
+    const vb = getEmotionVA(b);
+    const magA = Math.hypot(va.v, va.a);
+    const magB = Math.hypot(vb.v, vb.a);
+    if (magA < EMOTIONAL_MIN_MAGNITUDE || magB < EMOTIONAL_MIN_MAGNITUDE) return 0;
+    const dist = emotionDistance(va, vb);
+    if (dist >= EMOTIONAL_LINK_DIST) return 0;
+    // 距离 0 → 0.55；距离 = 阈值 → 0.25。线性。
+    return 0.25 + (0.55 - 0.25) * (1 - dist / EMOTIONAL_LINK_DIST);
+}
+
+function generateId(): string {
+    return `ml_${Date.now()}_${Math.random().toString(36).slice(2, 8)}`;
+}
+
+// ─── LLM 关联判断 ────────────────────────────────────
+
+/**
+ * 一次 LLM 调用，批量判断所有新记忆和候选旧记忆之间的深层关联
+ */
+async function batchClassifyDeepLinks(
+    newNodes: MemoryNode[],
+    candidates: MemoryNode[],
+    llmConfig: LightLLMConfig,
+): Promise<{ sourceId: string; targetId: string; type: LinkType; strength: number }[]> {
+    if (newNodes.length === 0 || candidates.length === 0) return [];
+
+    const newList = newNodes
+        .map((n, i) => `[N${i}] (${n.room}, ${n.mood}): ${n.content.slice(0, 80)}`)
+        .join('\n');
+
+    const oldList = candidates
+        .map((c, i) => `[O${i}] (${c.room}, ${c.mood}): ${c.content.slice(0, 80)}`)
+        .join('\n');
+
+    const prompt = `你是一个记忆关联分析器。给你一组新记忆 [N*] 和一组旧记忆 [O*]，找出它们之间的深层关联。
+
+三种关联类型：
+- causal: 因果关系（一件事导致了另一件事）
+- person: 提到了同一个人
+- metaphor: 隐喻/类比（不同事件但有相似的情感模式）
+
+只输出存在关联的配对。严格 JSON 数组格式：
+[{"from": "N0", "to": "O2", "type": "person", "strength": 0.6}]
+
+strength 范围 0.3-0.8。没有关联返回 []。只输出 JSON。`;
+
+    const userMsg = `新记忆：\n${newList}\n\n旧记忆：\n${oldList}`;
+
+    try {
+        const data = await safeFetchJson(
+            `${llmConfig.baseUrl.replace(/\/+$/, '')}/chat/completions`,
+            {
+                method: 'POST',
+                headers: {
+                    'Content-Type': 'application/json',
+                    'Authorization': `Bearer ${llmConfig.apiKey}`,
+                },
+                body: JSON.stringify({
+                    model: llmConfig.model,
+                    messages: [
+                        { role: 'system', content: prompt },
+                        { role: 'user', content: userMsg },
+                    ],
+                    temperature: 0.2,
+                    max_tokens: 800,
+                    stream: false,
+                }),
+            },
+            2, 90_000, { appName: '记忆宫殿', purpose: '记忆关联' }
+        );
+
+        const reply = data.choices?.[0]?.message?.content || '';
+        const parsed = safeParseJsonArray(reply);
+        const validTypes: LinkType[] = ['causal', 'person', 'metaphor'];
+
+        return parsed
+            .filter(item => {
+                const fromIdx = parseInt(item.from?.replace('N', '') || '-1', 10);
+                const toIdx = parseInt(item.to?.replace('O', '') || '-1', 10);
+                return fromIdx >= 0 && fromIdx < newNodes.length &&
+                       toIdx >= 0 && toIdx < candidates.length &&
+                       validTypes.includes(item.type as LinkType);
+            })
+            .map(item => ({
+                sourceId: newNodes[parseInt(item.from.replace('N', ''), 10)].id,
+                targetId: candidates[parseInt(item.to.replace('O', ''), 10)].id,
+                type: item.type as LinkType,
+                strength: Math.max(0.3, Math.min(0.8, item.strength || 0.5)),
+            }));
+
+    } catch (err: any) {
+        console.warn('⚡ [Links] Batch deep link classification failed:', err.message);
+        return [];
+    }
+}
+
+// ─── 主函数 ──────────────────────────────────────────
+
+/**
+ * 为新记忆节点建立关联
+ *
+ * 三层：
+ * 1. temporal — 24h 内 / 同 box 自动建链
+ * 2. emotional — 相同 mood 自动建链
+ * 3. causal / person / metaphor — LLM 判断（如果提供了 llmConfig）
+ *
+ * @param llmConfig 可选。传入则启用 LLM 深层关联判断。
+ */
+export async function buildLinks(
+    newNodes: MemoryNode[],
+    existingNodes: MemoryNode[],
+    llmConfig?: LightLLMConfig | null,
+): Promise<MemoryLink[]> {
+    const links: MemoryLink[] = [];
+    const linkSet = new Set<string>();
+
+    for (const newNode of newNodes) {
+        // ─── 自动规则关联 ─────────────────────────
+
+        for (const existing of existingNodes) {
+            if (newNode.id === existing.id) continue;
+
+            // 1. Temporal: 24h 内创建
+            if (Math.abs(newNode.createdAt - existing.createdAt) < TEMPORAL_WINDOW_MS) {
+                const key = makeKey(newNode.id, existing.id, 'temporal');
+                if (!linkSet.has(key)) {
+                    links.push(createLink(newNode.id, existing.id, 'temporal', 0.3));
+                    linkSet.add(key);
+                }
+            }
+
+            // 2. Emotional: Russell 情感空间距离 < 0.35，strength 随距离线性缩放
+            const emoStrength = emotionalLinkStrength(newNode, existing);
+            if (emoStrength > 0) {
+                const key = makeKey(newNode.id, existing.id, 'emotional');
+                if (!linkSet.has(key)) {
+                    links.push(createLink(newNode.id, existing.id, 'emotional', emoStrength));
+                    linkSet.add(key);
+                }
+            }
+        }
+
+        // 同批次内的节点
+        for (const other of newNodes) {
+            if (newNode.id === other.id) continue;
+
+            if (newNode.boxId === other.boxId) {
+                const key = makeKey(newNode.id, other.id, 'temporal');
+                if (!linkSet.has(key)) {
+                    links.push(createLink(newNode.id, other.id, 'temporal', 0.5));
+                    linkSet.add(key);
+                }
+            }
+
+            const emoStrength = emotionalLinkStrength(newNode, other);
+            if (emoStrength > 0) {
+                const key = makeKey(newNode.id, other.id, 'emotional');
+                if (!linkSet.has(key)) {
+                    links.push(createLink(newNode.id, other.id, 'emotional', emoStrength));
+                    linkSet.add(key);
+                }
+            }
+        }
+
+    }
+
+    // ─── LLM 深层关联（causal / person / metaphor）── 一次调用处理所有新节点
+
+    if (llmConfig && existingNodes.length > 0 && newNodes.length > 0) {
+        const candidates = existingNodes
+            .sort((a, b) => b.createdAt - a.createdAt)
+            .slice(0, 8); // 最近 8 条旧记忆作为候选
+
+        if (candidates.length > 0) {
+            const deepLinks = await batchClassifyDeepLinks(newNodes, candidates, llmConfig);
+
+            for (const dl of deepLinks) {
+                const key = makeKey(dl.sourceId, dl.targetId, dl.type);
+                if (!linkSet.has(key)) {
+                    links.push(createLink(dl.sourceId, dl.targetId, dl.type, dl.strength));
+                    linkSet.add(key);
+                }
+            }
+        }
+    }
+
+    // 批量保存
+    if (links.length > 0) {
+        await MemoryLinkDB.saveMany(links);
+        console.log(`🔗 [Links] Created ${links.length} links (temporal/emotional: auto, causal/person/metaphor: ${llmConfig ? 'LLM' : 'skipped'})`);
+    }
+
+    return links;
+}
+
+/**
+ * 共同激活：当多条记忆同时被检索命中时，加强它们之间的关联
+ */
+export async function strengthenCoActivated(nodeIds: string[]): Promise<void> {
+    if (nodeIds.length < 2) return;
+
+    for (let i = 0; i < nodeIds.length; i++) {
+        for (let j = i + 1; j < nodeIds.length; j++) {
+            const links = await MemoryLinkDB.getBySourceId(nodeIds[i]);
+            const existingLink = links.find(l => l.targetId === nodeIds[j]);
+
+            if (existingLink) {
+                existingLink.strength = Math.min(
+                    MAX_STRENGTH,
+                    existingLink.strength + CO_ACTIVATION_INCREMENT
+                );
+                await MemoryLinkDB.save(existingLink);
+            }
+            else {
+                const reverseLinks = await MemoryLinkDB.getBySourceId(nodeIds[j]);
+                const reverseLink = reverseLinks.find(l => l.targetId === nodeIds[i]);
+                if (reverseLink) {
+                    reverseLink.strength = Math.min(
+                        MAX_STRENGTH,
+                        reverseLink.strength + CO_ACTIVATION_INCREMENT
+                    );
+                    await MemoryLinkDB.save(reverseLink);
+                }
+                else {
+                    const link = createLink(nodeIds[i], nodeIds[j], 'temporal', CO_ACTIVATION_INCREMENT);
+                    await MemoryLinkDB.save(link);
+                }
+            }
+        }
+    }
+}
+
+// ─── 工具函数 ──────────────────────────────────────────
+
+function createLink(sourceId: string, targetId: string, type: LinkType, strength: number): MemoryLink {
+    return {
+        id: generateId(),
+        sourceId,
+        targetId,
+        type,
+        strength,
+    };
+}
+
+/** 生成去重 key（确保 A-B 和 B-A 视为同一对） */
+function makeKey(id1: string, id2: string, type: string): string {
+    const [a, b] = id1 < id2 ? [id1, id2] : [id2, id1];
+    return `${a}-${b}-${type}`;
+}

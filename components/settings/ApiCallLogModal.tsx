@@ -1,1 +1,302 @@
-aW1wb3J0IFJlYWN0LCB7IHVzZUVmZmVjdCwgdXNlU3RhdGUsIHVzZUNhbGxiYWNrIH0gZnJvbSAncmVhY3QnOwppbXBvcnQgTW9kYWwgZnJvbSAnLi4vb3MvTW9kYWwnOwppbXBvcnQgeyBEQiB9IGZyb20gJy4uLy4uL3V0aWxzL2RiJzsKaW1wb3J0IHsgaXNTYW1lQ29yZU1vZGVsLCBpc0ZpeGVkUHJvbXB0QmxvY2tMYWJlbCB9IGZyb20gJy4uLy4uL3V0aWxzL2FwaUNhbGxMb2cnOwppbXBvcnQgdHlwZSB7IEFwaUNhbGxMb2dFbnRyeSwgUHJvbXB0QmxvY2tTdGF0IH0gZnJvbSAnLi4vLi4vdXRpbHMvYXBpQ2FsbExvZyc7CgppbnRlcmZhY2UgQXBpQ2FsbExvZ01vZGFsUHJvcHMgewogICAgaXNPcGVuOiBib29sZWFuOwogICAgb25DbG9zZTogKCkgPT4gdm9pZDsKfQoKLyoqIOaKiuaXtumXtOaIs+agvOW8j+WMluaIkOOAjOS7iuWkqSAxNDowMzoyMSAvIOaYqOWkqSAwOToxMiAvIDA2LTA0IDIyOjA444CN6L+Z56eN5aW95omr55qE5b2i5oCB44CCICovCmZ1bmN0aW9uIGZvcm1hdFRpbWUodHM6IG51bWJlcik6IHsgZGF5OiBzdHJpbmc7IHRpbWU6IHN0cmluZyB9IHsKICAgIGNvbnN0IGQgPSBuZXcgRGF0ZSh0cyk7CiAgICBjb25zdCBub3cgPSBuZXcgRGF0ZSgpOwogICAgY29uc3QgcGFkID0gKG46IG51bWJlcikgPT4gU3RyaW5nKG4pLnBhZFN0YXJ0KDIsICcwJyk7CiAgICBjb25zdCB0aW1lID0gYCR7cGFkKGQuZ2V0SG91cnMoKSl9OiR7cGFkKGQuZ2V0TWludXRlcygpKX06JHtwYWQoZC5nZXRTZWNvbmRzKCkpfWA7CiAgICBjb25zdCBzYW1lRGF5ID0gKGE6IERhdGUsIGI6IERhdGUpID0+CiAgICAgICAgYS5nZXRGdWxsWWVhcigpID09PSBiLmdldEZ1bGxZZWFyKCkgJiYgYS5nZXRNb250aCgpID09PSBiLmdldE1vbnRoKCkgJiYgYS5nZXREYXRlKCkgPT09IGIuZ2V0RGF0ZSgpOwogICAgY29uc3QgeWVzdGVyZGF5ID0gbmV3IERhdGUobm93KTsKICAgIHllc3RlcmRheS5zZXREYXRlKG5vdy5nZXREYXRlKCkgLSAxKTsKICAgIGxldCBkYXk6IHN0cmluZzsKICAgIGlmIChzYW1lRGF5KGQsIG5vdykpIGRheSA9ICfku4rlpKknOwogICAgZWxzZSBpZiAoc2FtZURheShkLCB5ZXN0ZXJkYXkpKSBkYXkgPSAn5pio5aSpJzsKICAgIGVsc2UgZGF5ID0gYCR7cGFkKGQuZ2V0TW9udGgoKSArIDEpfS0ke3BhZChkLmdldERhdGUoKSl9YDsKICAgIHJldHVybiB7IGRheSwgdGltZSB9Owp9Cgpjb25zdCBBcGlDYWxsTG9nTW9kYWw6IFJlYWN0LkZDPEFwaUNhbGxMb2dNb2RhbFByb3BzPiA9ICh7IGlzT3Blbiwgb25DbG9zZSB9KSA9PiB7CiAgICBjb25zdCBbZW50cmllcywgc2V0RW50cmllc10gPSB1c2VTdGF0ZTxBcGlDYWxsTG9nRW50cnlbXT4oW10pOwogICAgY29uc3QgW2xvYWRpbmcsIHNldExvYWRpbmddID0gdXNlU3RhdGUoZmFsc2UpOwogICAgY29uc3QgW3Nob3dIZWxwLCBzZXRTaG93SGVscF0gPSB1c2VTdGF0ZShmYWxzZSk7CiAgICBjb25zdCBbZXhwYW5kZWRJZCwgc2V0RXhwYW5kZWRJZF0gPSB1c2VTdGF0ZTxzdHJpbmcgfCBudWxsPihudWxsKTsKCiAgICBjb25zdCBsb2FkID0gdXNlQ2FsbGJhY2soYXN5bmMgKCkgPT4gewogICAgICAgIHNldExvYWRpbmcodHJ1ZSk7CiAgICAgICAgdHJ5IHsKICAgICAgICAgICAgY29uc3QgZGF0YSA9IGF3YWl0IERCLmdldEFwaUNhbGxMb2coKTsKICAgICAgICAgICAgLy8gREIg6YeM5bey5oyJ5paw4oaS5penIHVuc2hpZnTvvIzov5nph4zlho3lhZzlupXmjpLkuIDmrKHluo8KICAgICAgICAgICAgZGF0YS5zb3J0KChhOiBBcGlDYWxsTG9nRW50cnksIGI6IEFwaUNhbGxMb2dFbnRyeSkgPT4gKGIudGltZXN0YW1wID8/IDApIC0gKGEudGltZXN0YW1wID8/IDApKTsKICAgICAgICAgICAgc2V0RW50cmllcyhkYXRhKTsKICAgICAgICB9IGNhdGNoIHsKICAgICAgICAgICAgc2V0RW50cmllcyhbXSk7CiAgICAgICAgfSBmaW5hbGx5IHsKICAgICAgICAgICAgc2V0TG9hZGluZyhmYWxzZSk7CiAgICAgICAgfQogICAgfSwgW10pOwoKICAgIHVzZUVmZmVjdCgoKSA9PiB7CiAgICAgICAgaWYgKGlzT3BlbikgbG9hZCgpOwogICAgfSwgW2lzT3BlbiwgbG9hZF0pOwoKICAgIGNvbnN0IGhhbmRsZUNsZWFyID0gdXNlQ2FsbGJhY2soYXN5bmMgKCkgPT4gewogICAgICAgIGlmICghd2luZG93LmNvbmZpcm0oJ+ehruWumua4heepuuaJgOaciSBBUEkg6LCD55So6K6w5b2V5ZCX77yf5q2k5pON5L2c5LiN5Y+v5pKk6ZSA44CCJykpIHJldHVybjsKICAgICAgICBhd2FpdCBEQi5jbGVhckFwaUNhbGxMb2coKTsKICAgICAgICBzZXRFbnRyaWVzKFtdKTsKICAgIH0sIFtdKTsKCiAgICByZXR1cm4gKAogICAgICAgIDxNb2RhbAogICAgICAgICAgICBpc09wZW49e2lzT3Blbn0KICAgICAgICAgICAgdGl0bGU9IkFQSSDosIPnlKjorrDlvZUiCiAgICAgICAgICAgIG9uQ2xvc2U9e29uQ2xvc2V9CiAgICAgICAgICAgIGZvb3Rlcj17CiAgICAgICAgICAgICAgICA8ZGl2IGNsYXNzTmFtZT0iZmxleCBnYXAtMiB3LWZ1bGwiPgogICAgICAgICAgICAgICAgICAgIDxidXR0b24KICAgICAgICAgICAgICAgICAgICAgICAgb25DbGljaz17b25DbG9zZX0KICAgICAgICAgICAgICAgICAgICAgICAgY2xhc3NOYW1lPSJmbGV4LTEgcHktMyBiZy1zbGF0ZS0xMDAgdGV4dC1zbGF0ZS02MDAgZm9udC1ib2xkIHJvdW5kZWQtMnhsIGFjdGl2ZTpzY2FsZS05NSB0cmFuc2l0aW9uLXRyYW5zZm9ybSIKICAgICAgICAgICAgICAgICAgICA+CiAgICAgICAgICAgICAgICAgICAgICAgIOWFs+mXrQogICAgICAgICAgICAgICAgICAgIDwvYnV0dG9uPgogICAgICAgICAgICAgICAgICAgIDxidXR0b24KICAgICAgICAgICAgICAgICAgICAgICAgb25DbGljaz17aGFuZGxlQ2xlYXJ9CiAgICAgICAgICAgICAgICAgICAgICAgIGRpc2FibGVkPXtlbnRyaWVzLmxlbmd0aCA9PT0gMH0KICAgICAgICAgICAgICAgICAgICAgICAgY2xhc3NOYW1lPSJweC01IHB5LTMgYmctcm9zZS01MCB0ZXh0LXJvc2UtNTAwIGZvbnQtYm9sZCByb3VuZGVkLTJ4bCBhY3RpdmU6c2NhbGUtOTUgdHJhbnNpdGlvbi10cmFuc2Zvcm0gZGlzYWJsZWQ6b3BhY2l0eS00MCIKICAgICAgICAgICAgICAgICAgICA+CiAgICAgICAgICAgICAgICAgICAgICAgIOa4heepugogICAgICAgICAgICAgICAgICAgIDwvYnV0dG9uPgogICAgICAgICAgICAgICAgPC9kaXY+CiAgICAgICAgICAgIH0KICAgICAgICA+CiAgICAgICAgICAgIDxkaXYgY2xhc3NOYW1lPSJmbGV4IGl0ZW1zLXN0YXJ0IGp1c3RpZnktYmV0d2VlbiBnYXAtMiBtYi0zIHB4LTEiPgogICAgICAgICAgICAgICAgPHAgY2xhc3NOYW1lPSJ0ZXh0LVsxMXB4XSB0ZXh0LXNsYXRlLTQwMCBsZWFkaW5nLXJlbGF4ZWQiPgogICAgICAgICAgICAgICAgICAgIOWPquS/neeVmeacgOi/kSA8c3BhbiBjbGFzc05hbWU9ImZvbnQtc2VtaWJvbGQgdGV4dC1zbGF0ZS01MDAiPjUg5aSpPC9zcGFuPueahOiwg+eUqO+8jOi2heacn+iHquWKqOS4ouW8g+OAguiusOW9leWcqOS9oOacrOWcsOa1j+iniOWZqO+8jOS4jeS4iuS8oOOAggogICAgICAgICAgICAgICAgPC9wPgogICAgICAgICAgICAgICAgPGJ1dHRvbgogICAgICAgICAgICAgICAgICAgIG9uQ2xpY2s9eygpID0+IHNldFNob3dIZWxwKHYgPT4gIXYpfQogICAgICAgICAgICAgICAgICAgIGNsYXNzTmFtZT17YHNocmluay0wIHctNSBoLTUgcm91bmRlZC1mdWxsIHRleHQtWzExcHhdIGZvbnQtYm9sZCBsZWFkaW5nLW5vbmUgZmxleCBpdGVtcy1jZW50ZXIganVzdGlmeS1jZW50ZXIgdHJhbnNpdGlvbi1jb2xvcnMgJHsKICAgICAgICAgICAgICAgICAgICAgICAgc2hvd0hlbHAgPyAnYmctcHJpbWFyeSB0ZXh0LXdoaXRlJyA6ICdiZy1zbGF0ZS0yMDAgdGV4dC1zbGF0ZS01MDAnCiAgICAgICAgICAgICAgICAgICAgfWB9CiAgICAgICAgICAgICAgICAgICAgYXJpYS1sYWJlbD0i5a2X5q616K+05piOIgogICAgICAgICAgICAgICAgPgogICAgICAgICAgICAgICAgICAgID8KICAgICAgICAgICAgICAgIDwvYnV0dG9uPgogICAgICAgICAgICA8L2Rpdj4KCiAgICAgICAgICAgIHtzaG93SGVscCAmJiAoCiAgICAgICAgICAgICAgICA8ZGl2IGNsYXNzTmFtZT0ibWItMyByb3VuZGVkLTJ4bCBiZy1hbWJlci01MC83MCBib3JkZXIgYm9yZGVyLWFtYmVyLTIwMC82MCBweC00IHB5LTMgdGV4dC1bMTFweF0gdGV4dC1zbGF0ZS02MDAgbGVhZGluZy1yZWxheGVkIHNwYWNlLXktMiI+CiAgICAgICAgICAgICAgICAgICAgPHAgY2xhc3NOYW1lPSJmb250LWJvbGQgdGV4dC1hbWJlci03MDAiPuOAjOWunumZheWQjuerr+OAjeaYr+S7gOS5iOKAlOKAlOS7heS+m+WPguiAg++8jOS4jeaYr+a1i+iwjuS7qjwvcD4KICAgICAgICAgICAgICAgICAgICA8cD4KICAgICAgICAgICAgICAgICAgICAgICAg5a6D5pivPHNwYW4gY2xhc3NOYW1lPSJmb250LXNlbWlib2xkIj7lr7npnaLlnKjlm57lpI3ph4zoh6rlt7HmiqXnmoTmqKHlnovlkI3lrZc8L3NwYW4+44CC5rOo5oSP77ya6L+Z5Liq5ZCN5a2X5piv5a+56Z2i6Ieq5bex5aGr55qE77yM5Y+v5Lul5piv55yf55qE77yM5Lmf5Y+v5Lul5piv5YGH55qE44CCCiAgICAgICAgICAgICAgICAgICAgPC9wPgogICAgICAgICAgICAgICAgICAgIDxwIGNsYXNzTmFtZT0iZm9udC1zZW1pYm9sZCI+5LiJ56eN5oOF5Ya177yaPC9wPgogICAgICAgICAgICAgICAgICAgIDxwPgogICAgICAgICAgICAgICAgICAgICAgICA8c3BhbiBjbGFzc05hbWU9ImZvbnQtc2VtaWJvbGQgdGV4dC1hbWJlci02MDAiPvCfn6Eg55Cl54+A6ImyICsg4pqg77iPPC9zcGFuPu+8muaKpeeahOWQjeWtl+WSjOS9oOimgeeahOWvueS4jeS4iuOAggogICAgICAgICAgICAgICAgICAgICAgICA8c3BhbiBjbGFzc05hbWU9ImZvbnQtc2VtaWJvbGQiPuacieWPr+iDvTwvc3Bhbj7ooqvmjaLkuobkvr/lrpzmqKHlnovvvIzkvYbkuZ/lj6/og73lj6rmmK/nq5nlrZDmoIfnrb7msqHlhpnmlbTpvZDigJTigJTliKvlj6rlh63ov5nkuIDooYzljrvlrprnvarjgIIKICAgICAgICAgICAgICAgICAgICA8L3A+CiAgICAgICAgICAgICAgICAgICAgPHA+CiAgICAgICAgICAgICAgICAgICAgICAgIDxzcGFuIGNsYXNzTmFtZT0iZm9udC1zZW1pYm9sZCI+4pqqIOeBsOiJsjwvc3Bhbj7vvJrlkI3lrZfln7rmnKzkuIDoh7TvvIzlj6rmmK/moLzlvI/kuI3lkIzvvIjmr5TlpoLlsJHkuoYgW+a4oOmBk13jgIEo5oyJ5qyhKeOAgWdjbGktIOi/meexu+agh+etvuWJjee8gO+8ieOAguato+W4uOOAggogICAgICAgICAgICAgICAgICAgIDwvcD4KICAgICAgICAgICAgICAgICAgICA8cD4KICAgICAgICAgICAgICAgICAgICAgICAgPHNwYW4gY2xhc3NOYW1lPSJmb250LXNlbWlib2xkIj7wn6ulIOayoeaciei/meS4gOihjDwvc3Bhbj7vvJrmnIDluLjop4HnmoTmg4XlhrXjgILopoHkuYjlr7npnaLmiorkvaDor7fmsYLnmoTlkI3lrZc8c3BhbiBjbGFzc05hbWU9ImZvbnQtc2VtaWJvbGQiPuWOn+agt+aKhOS6huWbnuadpTwvc3Bhbj7vvIjnrYnkuo7ku4DkuYjpg73msqHor7TvvInvvIzopoHkuYjlubLohIbmsqHmiqXjgIIKICAgICAgICAgICAgICAgICAgICAgICAgPHNwYW4gY2xhc3NOYW1lPSJmb250LXNlbWlib2xkIj7kuI3ku6PooajmnInpl67popjvvIzkuZ/kuI3ku6PooajmsqHpl67popjigJTigJTlsLHmmK/ku47ov5nmnaHnur/ntKLnnIvkuI3lh7rmnaXjgII8L3NwYW4+CiAgICAgICAgICAgICAgICAgICAgPC9wPgogICAgICAgICAgICAgICAgICAgIDxwPgogICAgICAgICAgICAgICAgICAgICAgICDmg7PliKTmlq3mnInmsqHmnInooqvlgbflgbfmjaLmqKHlnovvvIzopoHlh6DkuKrkv6Hlj7c8c3BhbiBjbGFzc05hbWU9ImZvbnQtc2VtaWJvbGQiPuS4gOi1t+ecizwvc3Bhbj7vvJp0b2tlbiDmlbDmmK/lkKbnqoHnhLblr7nkuI3kuIrvvIjmr5TlpoLlubPml7YgNCDkuIfov5nmrKEgMS41IOS4h++8ieOAgemAn+W6puaYr+WQpueqgeWPmOOAgeinkuiJsuaYr+WQpueqgeeEtuWPmOesqC/mjonmoLzlvI/jgILlj6rmnInkuIDkuKrkv6Hlj7flvILluLjml7bvvIzlhYjop4LmnJvvvIzlpJrmlJLlh6Dova7lho3or7TjgIIKICAgICAgICAgICAgICAgICAgICA8L3A+CiAgICAgICAgICAgICAgICA8L2Rpdj4KICAgICAgICAgICAgKX0KCiAgICAgICAgICAgIHtlbnRyaWVzLmxlbmd0aCA+IDAgJiYgKCgpID0+IHsKICAgICAgICAgICAgICAgIGNvbnN0IHRvdGFsVG9rID0gZW50cmllcy5yZWR1Y2UoKHMsIGUpID0+IHMgKyAoZS50b3RhbFRva2VucyA/PyAwKSwgMCk7CiAgICAgICAgICAgICAgICBjb25zdCBwcm9tcHRUb2sgPSBlbnRyaWVzLnJlZHVjZSgocywgZSkgPT4gcyArIChlLnByb21wdFRva2VucyA/PyAwKSwgMCk7CiAgICAgICAgICAgICAgICBjb25zdCBjb21wVG9rID0gZW50cmllcy5yZWR1Y2UoKHMsIGUpID0+IHMgKyAoZS5jb21wbGV0aW9uVG9rZW5zID8/IDApLCAwKTsKICAgICAgICAgICAgICAgIGNvbnN0IGZtdCA9IChuOiBudW1iZXIpID0+IG4udG9Mb2NhbGVTdHJpbmcoJ2VuLVVTJyk7CiAgICAgICAgICAgICAgICByZXR1cm4gKAogICAgICAgICAgICAgICAgICAgIDxkaXYgY2xhc3NOYW1lPSJtYi0zIHJvdW5kZWQtMnhsIGJnLXByaW1hcnkvNSBib3JkZXIgYm9yZGVyLXByaW1hcnkvMTUgcHgtNCBweS0zIGZsZXggaXRlbXMtY2VudGVyIGp1c3RpZnktYXJvdW5kIHRleHQtY2VudGVyIj4KICAgICAgICAgICAgICAgICAgICAgICAgPGRpdj4KICAgICAgICAgICAgICAgICAgICAgICAgICAgIDxkaXYgY2xhc3NOYW1lPSJ0ZXh0LVsxMHB4XSB0ZXh0LXNsYXRlLTQwMCI+6LCD55So5qyh5pWwPC9kaXY+CiAgICAgICAgICAgICAgICAgICAgICAgICAgICA8ZGl2IGNsYXNzTmFtZT0idGV4dC1zbSBmb250LWJvbGQgdGV4dC1zbGF0ZS02MDAiPntlbnRyaWVzLmxlbmd0aH08L2Rpdj4KICAgICAgICAgICAgICAgICAgICAgICAgPC9kaXY+CiAgICAgICAgICAgICAgICAgICAgICAgIDxkaXYgY2xhc3NOYW1lPSJ3LXB4IGgtNyBiZy1zbGF0ZS0yMDAiIC8+CiAgICAgICAgICAgICAgICAgICAgICAgIDxkaXY+CiAgICAgICAgICAgICAgICAgICAgICAgICAgICA8ZGl2IGNsYXNzTmFtZT0idGV4dC1bMTBweF0gdGV4dC1zbGF0ZS00MDAiPuaAuyBUb2tlbjwvZGl2PgogICAgICAgICAgICAgICAgICAgICAgICAgICAgPGRpdiBjbGFzc05hbWU9InRleHQtc20gZm9udC1ib2xkIHRleHQtcHJpbWFyeSI+e2ZtdCh0b3RhbFRvayl9PC9kaXY+CiAgICAgICAgICAgICAgICAgICAgICAgIDwvZGl2PgogICAgICAgICAgICAgICAgICAgICAgICA8ZGl2IGNsYXNzTmFtZT0idy1weCBoLTcgYmctc2xhdGUtMjAwIiAvPgogICAgICAgICAgICAgICAgICAgICAgICA8ZGl2PgogICAgICAgICAgICAgICAgICAgICAgICAgICAgPGRpdiBjbGFzc05hbWU9InRleHQtWzEwcHhdIHRleHQtc2xhdGUtNDAwIj7ovpPlhaUgLyDovpPlh7o8L2Rpdj4KICAgICAgICAgICAgICAgICAgICAgICAgICAgIDxkaXYgY2xhc3NOYW1lPSJ0ZXh0LVsxMXB4XSBmb250LXNlbWlib2xkIHRleHQtc2xhdGUtNTAwIj57Zm10KHByb21wdFRvayl9IC8ge2ZtdChjb21wVG9rKX08L2Rpdj4KICAgICAgICAgICAgICAgICAgICAgICAgPC9kaXY+CiAgICAgICAgICAgICAgICAgICAgPC9kaXY+CiAgICAgICAgICAgICAgICApOwogICAgICAgICAgICB9KSgpfQoKICAgICAgICAgICAge2xvYWRpbmcgPyAoCiAgICAgICAgICAgICAgICA8ZGl2IGNsYXNzTmFtZT0icHktMTAgdGV4dC1jZW50ZXIgdGV4dC1zbSB0ZXh0LXNsYXRlLTQwMCI+5Yqg6L295Lit4oCmPC9kaXY+CiAgICAgICAgICAgICkgOiBlbnRyaWVzLmxlbmd0aCA9PT0gMCA/ICgKICAgICAgICAgICAgICAgIDxkaXYgY2xhc3NOYW1lPSJweS0xMCB0ZXh0LWNlbnRlciB0ZXh0LXNtIHRleHQtc2xhdGUtNDAwIj4KICAgICAgICAgICAgICAgICAgICDmmoLml6DosIPnlKjorrDlvZXjgII8YnIgLz4KICAgICAgICAgICAgICAgICAgICA8c3BhbiBjbGFzc05hbWU9InRleHQtWzExcHhdIj7lkozop5LoibLogYrlh6Dlj6XjgIHorqnlroPliLfkuIvlsI/nuqLkuabvvIzov5nph4zlsLHkvJrmnInmlbDmja7kuobjgII8L3NwYW4+CiAgICAgICAgICAgICAgICA8L2Rpdj4KICAgICAgICAgICAgKSA6ICgKICAgICAgICAgICAgICAgIDxkaXYgY2xhc3NOYW1lPSJzcGFjZS15LTIiPgogICAgICAgICAgICAgICAgICAgIHtlbnRyaWVzLm1hcCgoZSkgPT4gewogICAgICAgICAgICAgICAgICAgICAgICBjb25zdCB7IGRheSwgdGltZSB9ID0gZm9ybWF0VGltZShlLnRpbWVzdGFtcCk7CiAgICAgICAgICAgICAgICAgICAgICAgIGNvbnN0IGhhc0JyZWFrZG93biA9ICEhZS5wcm9tcHRCcmVha2Rvd24/Lmxlbmd0aDsKICAgICAgICAgICAgICAgICAgICAgICAgY29uc3QgZXhwYW5kZWQgPSBleHBhbmRlZElkID09PSBlLmlkOwogICAgICAgICAgICAgICAgICAgICAgICByZXR1cm4gKAogICAgICAgICAgICAgICAgICAgICAgICAgICAgPGRpdgogICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgIGtleT17ZS5pZH0KICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICBvbkNsaWNrPXtoYXNCcmVha2Rvd24gPyAoKSA9PiBzZXRFeHBhbmRlZElkKGV4cGFuZGVkID8gbnVsbCA6IGUuaWQpIDogdW5kZWZpbmVkfQogICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgIGNsYXNzTmFtZT17YHJvdW5kZWQtMnhsIGJvcmRlciBwLTMgJHsKICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgZS5vayA/ICdiZy13aGl0ZS83MCBib3JkZXItc2xhdGUtMjAwLzYwJyA6ICdiZy1yb3NlLTUwLzYwIGJvcmRlci1yb3NlLTIwMC82MCcKICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICB9ICR7aGFzQnJlYWtkb3duID8gJ2N1cnNvci1wb2ludGVyIGFjdGl2ZTpzY2FsZS1bMC45OV0gdHJhbnNpdGlvbi10cmFuc2Zvcm0nIDogJyd9YH0KICAgICAgICAgICAgICAgICAgICAgICAgICAgID4KICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICA8ZGl2IGNsYXNzTmFtZT0iZmxleCBpdGVtcy1jZW50ZXIganVzdGlmeS1iZXR3ZWVuIGdhcC0yIG1iLTEuNSI+CiAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgIDxkaXYgY2xhc3NOYW1lPSJmbGV4IGl0ZW1zLWNlbnRlciBnYXAtMS41IG1pbi13LTAiPgogICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgPHNwYW4gY2xhc3NOYW1lPSJ0ZXh0LVsxMXB4XSBmb250LWJvbGQgdGV4dC1zbGF0ZS00MDAgc2hyaW5rLTAiPntkYXl9PC9zcGFuPgogICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgPHNwYW4gY2xhc3NOYW1lPSJ0ZXh0LVsxMXB4XSBmb250LW1vbm8gdGV4dC1zbGF0ZS01MDAgc2hyaW5rLTAiPnt0aW1lfTwvc3Bhbj4KICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgPC9kaXY+CiAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgIDxzcGFuCiAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICBjbGFzc05hbWU9e2B0ZXh0LVsxMHB4XSBmb250LWJvbGQgcHgtMiBweS0wLjUgcm91bmRlZC1mdWxsIHNocmluay0wICR7CiAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgZS5vayA/ICdiZy1lbWVyYWxkLTEwMCB0ZXh0LWVtZXJhbGQtNjAwJyA6ICdiZy1yb3NlLTEwMCB0ZXh0LXJvc2UtNjAwJwogICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgfWB9CiAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgID4KICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgIHtlLm9rID8gJ+aIkOWKnycgOiBg5aSx6LSlJHtlLnN0YXR1cyA/IGAgJHtlLnN0YXR1c31gIDogJyd9YH0KICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgPC9zcGFuPgogICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgIDwvZGl2PgogICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgIDxkaXYgY2xhc3NOYW1lPSJncmlkIGdyaWQtY29scy0yIGdhcC14LTMgZ2FwLXktMSB0ZXh0LVsxMXB4XSI+CiAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgIDxGaWVsZCBsYWJlbD0iQVBJIiB2YWx1ZT17ZS5wcmVzZXROYW1lfSBhY2NlbnQgLz4KICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgPEZpZWxkIGxhYmVsPSJBcHAiIHZhbHVlPXtlLmFwcE5hbWV9IC8+CiAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgIDxGaWVsZCBsYWJlbD0i6KeS6ImyIiB2YWx1ZT17ZS5jaGFyTmFtZX0gLz4KICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgPEZpZWxkIGxhYmVsPSLnlKjpgJQiIHZhbHVlPXtlLnB1cnBvc2V9IC8+CiAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgIDxkaXYgY2xhc3NOYW1lPSJjb2wtc3Bhbi0yIj4KICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgIHsvKiDmqKHlnosv5a6e6ZmF5ZCO56uv5Lik6KGM5LiN5oiq5pat77yIYnJlYWstYWxsIOaNouihjO+8ie+8muaIquaWreS8muaKiuOAjOS4uuS7gOS5iOm7hOS6huOAjeeahAogICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgIOWFs+mUruW3ruW8gu+8iOWQjue8gCAtY+OAgea4oOmBk+agh+etvu+8ieiXj+i/m+ecgeeVpeWPt+mHjO+8jOeUqOaIt+eci+edgOS4pOihjOS4gOagt+WNtOagh+m7hOS4gOWktOmbvuawtCAqL30KICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgIDxGaWVsZCBsYWJlbD0i5qih5Z6LIiB2YWx1ZT17ZS5tb2RlbH0gbW9ubyB3cmFwIC8+CiAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgIDwvZGl2PgogICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICB7Lyog5ZCO56uv6Ieq5oql6Lqr5Lu977yIcmVzcG9uc2UubW9kZWzvvInvvJrlrZfnrKbkuLLkuI3lkIzlsLHlsZXnpLrvvJvnkKXnj4DliKTlrprop4EKICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgIGlzU2FtZUNvcmVNb2RlbOKAlOKAlOa4oOmBk+agh+etvi/liY3nvIDvvIhb5rig6YGTXeOAgSjmjInmrKEp44CBZ2NsaS3jgIFtb2RlbHMv77yJ566X5ZCM5ZCNCiAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICDvvIjngbDoibLvvInvvIzlsL7lt7Tplb/lh7rlj5jkvZPvvIhYLWMgLyBYLWxpdGXvvInmiY3mmK/nnJ/ooqvmjaLkuoblkI7nq6/vvIjnkKXnj4DvvInjgIIgKi99CiAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgIHtlLmJhY2tlbmRNb2RlbCAmJiBlLmJhY2tlbmRNb2RlbCAhPT0gZS5tb2RlbCAmJiAoKCkgPT4gewogICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgY29uc3Qgc3dhcHBlZCA9ICFpc1NhbWVDb3JlTW9kZWwoZS5tb2RlbCwgZS5iYWNrZW5kTW9kZWwpOwogICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgcmV0dXJuICgKICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICA8ZGl2IGNsYXNzTmFtZT0iY29sLXNwYW4tMiBmbGV4IGl0ZW1zLWJhc2VsaW5lIGdhcC0xLjUgbWluLXctMCI+CiAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgIDxzcGFuIGNsYXNzTmFtZT17YHRleHQtWzEwcHhdIHNocmluay0wICR7c3dhcHBlZCA/ICd0ZXh0LWFtYmVyLTUwMCcgOiAndGV4dC1zbGF0ZS00MDAnfWB9PuWunumZheWQjuerrzwvc3Bhbj4KICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgPHNwYW4gY2xhc3NOYW1lPXtgYnJlYWstYWxsIGZvbnQtbW9ubyAke3N3YXBwZWQgPyAnZm9udC1zZW1pYm9sZCB0ZXh0LWFtYmVyLTYwMCcgOiAndGV4dC1zbGF0ZS01MDAnfWB9PgogICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAge2UuYmFja2VuZE1vZGVsfXtzd2FwcGVkID8gJyDimqDvuI8nIDogJyd9CiAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgIDwvc3Bhbj4KICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICA8L2Rpdj4KICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICk7CiAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgIH0pKCl9CiAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgIHtlLmR1cmF0aW9uTXMgIT0gbnVsbCAmJiAoCiAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICA8RmllbGQgbGFiZWw9IuiAl+aXtiIgdmFsdWU9e2UuZHVyYXRpb25NcyA+PSAxMDAwID8gYCR7KGUuZHVyYXRpb25NcyAvIDEwMDApLnRvRml4ZWQoMSl9c2AgOiBgJHtlLmR1cmF0aW9uTXN9bXNgfSAvPgogICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICApfQogICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICB7KGUudG90YWxUb2tlbnMgIT0gbnVsbCB8fCBlLnByb21wdFRva2VucyAhPSBudWxsIHx8IGUuY29tcGxldGlvblRva2VucyAhPSBudWxsKSAmJiAoCiAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICA8ZGl2IGNsYXNzTmFtZT0iY29sLXNwYW4tMiBmbGV4IGl0ZW1zLWJhc2VsaW5lIGdhcC0xLjUgbWluLXctMCI+CiAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgPHNwYW4gY2xhc3NOYW1lPSJ0ZXh0LVsxMHB4XSB0ZXh0LXNsYXRlLTQwMCBzaHJpbmstMCI+VG9rZW48L3NwYW4+CiAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgPHNwYW4gY2xhc3NOYW1lPSJ0ZXh0LXNsYXRlLTYwMCB0cnVuY2F0ZSI+CiAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgIHsoZS50b3RhbFRva2VucyA/PyAwKS50b0xvY2FsZVN0cmluZygnZW4tVVMnKX0KICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgPHNwYW4gY2xhc3NOYW1lPSJ0ZXh0LXNsYXRlLTQwMCI+CiAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICB7JyAnfe+8iOWFpSB7KGUucHJvbXB0VG9rZW5zID8/IDApLnRvTG9jYWxlU3RyaW5nKCdlbi1VUycpfSDCtyDlh7ogeyhlLmNvbXBsZXRpb25Ub2tlbnMgPz8gMCkudG9Mb2NhbGVTdHJpbmcoJ2VuLVVTJyl977yJCiAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgIDwvc3Bhbj4KICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICA8L3NwYW4+CiAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICA8L2Rpdj4KICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgKX0KICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICA8L2Rpdj4KICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICB7aGFzQnJlYWtkb3duICYmICgKICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgPGRpdiBjbGFzc05hbWU9Im10LTEuNSB0ZXh0LVsxMHB4XSB0ZXh0LXNsYXRlLTMwMCBzZWxlY3Qtbm9uZSI+CiAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICB7ZXhwYW5kZWQgPyAn4payIOaUtui1t+i+k+WFpeaehOaIkCcgOiAn4pa8IOeCueWHu+afpeeci+i+k+WFpeaehOaIkO+8iOWTquWdl+WNoOS6huWkmuWwke+8iSd9CiAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgIDwvZGl2PgogICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICl9CiAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAge2V4cGFuZGVkICYmIGUucHJvbXB0QnJlYWtkb3duICYmICgKICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgPFByb21wdEJyZWFrZG93blZpZXcgYmxvY2tzPXtlLnByb21wdEJyZWFrZG93bn0gcHJvbXB0VG9rZW5zPXtlLnByb21wdFRva2Vuc30gLz4KICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICApfQogICAgICAgICAgICAgICAgICAgICAgICAgICAgPC9kaXY+CiAgICAgICAgICAgICAgICAgICAgICAgICk7CiAgICAgICAgICAgICAgICAgICAgfSl9CiAgICAgICAgICAgICAgICA8L2Rpdj4KICAgICAgICAgICAgKX0KICAgICAgICA8L01vZGFsPgogICAgKTsKfTsKCi8qKgogKiDovpPlhaXmnoTmiJDpnaLmnb/vvJrmjInlrZfmlbDpmY3luo/liJflh7rmr4/lnZfvvIhzeXN0ZW0g55qEICMjIyDmrrXokL0gLyDogZrlkIjnmoTogYrlpKnljoblj7LvvInvvIwKICog6ZmE5Y2g5q+U5p2hICsg5oyJ5a2X56ym5Y2g5q+U5oqY566X55qEIHRva2VuIOS8sOeul++8iOWIhuivjeWZqOW3ruW8guS4i+WPquaYr+mHj+e6p+WPguiAg++8jOS4jeaYr+eyvuehruWAvO+8ieOAggogKi8KY29uc3QgUHJvbXB0QnJlYWtkb3duVmlldzogUmVhY3QuRkM8eyBibG9ja3M6IFByb21wdEJsb2NrU3RhdFtdOyBwcm9tcHRUb2tlbnM/OiBudW1iZXIgfT4gPSAoeyBibG9ja3MsIHByb21wdFRva2VucyB9KSA9PiB7CiAgICBjb25zdCB0b3RhbENoYXJzID0gYmxvY2tzLnJlZHVjZSgoc3VtLCBiKSA9PiBzdW0gKyBiLmNoYXJzLCAwKSB8fCAxOwogICAgLy8g5YaZ5q2755qE5Zu65a6a6aqo5p625Z2X77yI6KGM5Li66KeE6IyDL+ihqOi+vuW6lee6vy/pkqLljbDnrYnvvInlkIjlubbmiJDkuIDooYzigJTigJTlroPku6zkuI3pmo/nlKjmiLfmlbDmja4KICAgIC8vIOWPmOWMluOAgeS5n+ayoeacieWPr+S8mOWMluepuumXtO+8jOaVo+aIkOS4gOWghuWwj+ihjOWPquS8mua3ueayoeecn+ato+acieS/oeaBr+mHj+eahOaVsOaNruWdl+OAggogICAgY29uc3QgZml4ZWQgPSBibG9ja3MuZmlsdGVyKGIgPT4gaXNGaXhlZFByb21wdEJsb2NrTGFiZWwoYi5sYWJlbCkpOwogICAgY29uc3QgbWVyZ2VkOiBQcm9tcHRCbG9ja1N0YXRbXSA9IGZpeGVkLmxlbmd0aCA+PSAyCiAgICAgICAgPyBbCiAgICAgICAgICAgIC4uLmJsb2Nrcy5maWx0ZXIoYiA9PiAhaXNGaXhlZFByb21wdEJsb2NrTGFiZWwoYi5sYWJlbCkpLAogICAgICAgICAgICB7IGxhYmVsOiBg5Zu65a6a5o+Q56S66K+N77yI6KeE5YiZL+agvOW8j++8jOWFsSAke2ZpeGVkLmxlbmd0aH0g5Z2X77yJYCwgY2hhcnM6IGZpeGVkLnJlZHVjZSgocywgYikgPT4gcyArIGIuY2hhcnMsIDApIH0sCiAgICAgICAgXQogICAgICAgIDogYmxvY2tzOwogICAgY29uc3Qgcm93cyA9IFsuLi5tZXJnZWRdLnNvcnQoKGEsIGIpID0+IGIuY2hhcnMgLSBhLmNoYXJzKTsKICAgIGNvbnN0IGZtdCA9IChuOiBudW1iZXIpID0+IG4udG9Mb2NhbGVTdHJpbmcoJ2VuLVVTJyk7CiAgICByZXR1cm4gKAogICAgICAgIDxkaXYgY2xhc3NOYW1lPSJtdC0yIHB0LTIgYm9yZGVyLXQgYm9yZGVyLXNsYXRlLTEwMCBzcGFjZS15LTEuNSIgb25DbGljaz17KGV2KSA9PiBldi5zdG9wUHJvcGFnYXRpb24oKX0+CiAgICAgICAgICAgIDxkaXYgY2xhc3NOYW1lPSJmbGV4IGl0ZW1zLWJhc2VsaW5lIGp1c3RpZnktYmV0d2VlbiI+CiAgICAgICAgICAgICAgICA8c3BhbiBjbGFzc05hbWU9InRleHQtWzEwcHhdIGZvbnQtYm9sZCB0ZXh0LXNsYXRlLTQwMCI+6L6T5YWl5p6E5oiQIMK3IOWFsSB7Zm10KHRvdGFsQ2hhcnMpfSDlrZfnrKY8L3NwYW4+CiAgICAgICAgICAgICAgICB7cHJvbXB0VG9rZW5zICE9IG51bGwgJiYgKAogICAgICAgICAgICAgICAgICAgIDxzcGFuIGNsYXNzTmFtZT0idGV4dC1bOXB4XSB0ZXh0LXNsYXRlLTMwMCI+dG9rZW4g5YiX5Li65oyJ5a2X56ym5Y2g5q+U5oqY566X55qE5Lyw566XPC9zcGFuPgogICAgICAgICAgICAgICAgKX0KICAgICAgICAgICAgPC9kaXY+CiAgICAgICAgICAgIHtyb3dzLm1hcCgoYiwgaSkgPT4gewogICAgICAgICAgICAgICAgY29uc3QgcGN0ID0gKGIuY2hhcnMgLyB0b3RhbENoYXJzKSAqIDEwMDsKICAgICAgICAgICAgICAgIGNvbnN0IGVzdFRvayA9IHByb21wdFRva2VucyAhPSBudWxsID8gTWF0aC5yb3VuZChwcm9tcHRUb2tlbnMgKiBiLmNoYXJzIC8gdG90YWxDaGFycykgOiBudWxsOwogICAgICAgICAgICAgICAgcmV0dXJuICgKICAgICAgICAgICAgICAgICAgICA8ZGl2IGtleT17aX0gY2xhc3NOYW1lPSJtaW4tdy0wIj4KICAgICAgICAgICAgICAgICAgICAgICAgPGRpdiBjbGFzc05hbWU9ImZsZXggaXRlbXMtYmFzZWxpbmUganVzdGlmeS1iZXR3ZWVuIGdhcC0yIG1pbi13LTAiPgogICAgICAgICAgICAgICAgICAgICAgICAgICAgPHNwYW4gY2xhc3NOYW1lPSJ0ZXh0LVsxMHB4XSB0ZXh0LXNsYXRlLTUwMCB0cnVuY2F0ZSIgdGl0bGU9e2IubGFiZWx9PntiLmxhYmVsfTwvc3Bhbj4KICAgICAgICAgICAgICAgICAgICAgICAgICAgIDxzcGFuIGNsYXNzTmFtZT0idGV4dC1bMTBweF0gZm9udC1tb25vIHRleHQtc2xhdGUtNDAwIHNocmluay0wIj4KICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICB7Zm10KGIuY2hhcnMpfSDlrZd7ZXN0VG9rICE9IG51bGwgPyBgIMK3IH4ke2ZtdChlc3RUb2spfSB0b2tgIDogJyd9IMK3IHtwY3QgPCAxID8gJzwxJyA6IE1hdGgucm91bmQocGN0KX0lCiAgICAgICAgICAgICAgICAgICAgICAgICAgICA8L3NwYW4+CiAgICAgICAgICAgICAgICAgICAgICAgIDwvZGl2PgogICAgICAgICAgICAgICAgICAgICAgICA8ZGl2IGNsYXNzTmFtZT0iaC0xIHJvdW5kZWQtZnVsbCBiZy1zbGF0ZS0xMDAgb3ZlcmZsb3ctaGlkZGVuIj4KICAgICAgICAgICAgICAgICAgICAgICAgICAgIDxkaXYgY2xhc3NOYW1lPSJoLWZ1bGwgcm91bmRlZC1mdWxsIGJnLXByaW1hcnkvNTAiIHN0eWxlPXt7IHdpZHRoOiBgJHtNYXRoLm1heChwY3QsIDEuNSl9JWAgfX0gLz4KICAgICAgICAgICAgICAgICAgICAgICAgPC9kaXY+CiAgICAgICAgICAgICAgICAgICAgPC9kaXY+CiAgICAgICAgICAgICAgICApOwogICAgICAgICAgICB9KX0KICAgICAgICA8L2Rpdj4KICAgICk7Cn07Cgpjb25zdCBGaWVsZDogUmVhY3QuRkM8eyBsYWJlbDogc3RyaW5nOyB2YWx1ZT86IHN0cmluZzsgYWNjZW50PzogYm9vbGVhbjsgbW9ubz86IGJvb2xlYW47IHdyYXA/OiBib29sZWFuIH0+ID0gKHsKICAgIGxhYmVsLAogICAgdmFsdWUsCiAgICBhY2NlbnQsCiAgICBtb25vLAogICAgd3JhcCwKfSkgPT4gKAogICAgPGRpdiBjbGFzc05hbWU9ImZsZXggaXRlbXMtYmFzZWxpbmUgZ2FwLTEuNSBtaW4tdy0wIj4KICAgICAgICA8c3BhbiBjbGFzc05hbWU9InRleHQtWzEwcHhdIHRleHQtc2xhdGUtNDAwIHNocmluay0wIj57bGFiZWx9PC9zcGFuPgogICAgICAgIDxzcGFuCiAgICAgICAgICAgIGNsYXNzTmFtZT17YCR7d3JhcCA/ICdicmVhay1hbGwnIDogJ3RydW5jYXRlJ30gJHttb25vID8gJ2ZvbnQtbW9ubycgOiAnJ30gJHsKICAgICAgICAgICAgICAgIGFjY2VudCA/ICdmb250LXNlbWlib2xkIHRleHQtcHJpbWFyeScgOiAndGV4dC1zbGF0ZS02MDAnCiAgICAgICAgICAgIH1gfQogICAgICAgICAgICB0aXRsZT17dmFsdWUgfHwgJyd9CiAgICAgICAgPgogICAgICAgICAgICB7dmFsdWUgJiYgdmFsdWUudHJpbSgpID8gdmFsdWUgOiAn4oCUJ30KICAgICAgICA8L3NwYW4+CiAgICA8L2Rpdj4KKTsKCmV4cG9ydCBkZWZhdWx0IEFwaUNhbGxMb2dNb2RhbDsK
+import React, { useEffect, useState, useCallback } from 'react';
+import Modal from '../os/Modal';
+import { DB } from '../../utils/db';
+import { isSameCoreModel, isFixedPromptBlockLabel } from '../../utils/apiCallLog';
+import type { ApiCallLogEntry, PromptBlockStat } from '../../utils/apiCallLog';
+
+interface ApiCallLogModalProps {
+    isOpen: boolean;
+    onClose: () => void;
+}
+
+/** 把时间戳格式化成「今天 14:03:21 / 昨天 09:12 / 06-04 22:08」这种好扫的形态。 */
+function formatTime(ts: number): { day: string; time: string } {
+    const d = new Date(ts);
+    const now = new Date();
+    const pad = (n: number) => String(n).padStart(2, '0');
+    const time = `${pad(d.getHours())}:${pad(d.getMinutes())}:${pad(d.getSeconds())}`;
+    const sameDay = (a: Date, b: Date) =>
+        a.getFullYear() === b.getFullYear() && a.getMonth() === b.getMonth() && a.getDate() === b.getDate();
+    const yesterday = new Date(now);
+    yesterday.setDate(now.getDate() - 1);
+    let day: string;
+    if (sameDay(d, now)) day = '今天';
+    else if (sameDay(d, yesterday)) day = '昨天';
+    else day = `${pad(d.getMonth() + 1)}-${pad(d.getDate())}`;
+    return { day, time };
+}
+
+const ApiCallLogModal: React.FC<ApiCallLogModalProps> = ({ isOpen, onClose }) => {
+    const [entries, setEntries] = useState<ApiCallLogEntry[]>([]);
+    const [loading, setLoading] = useState(false);
+    const [showHelp, setShowHelp] = useState(false);
+    const [expandedId, setExpandedId] = useState<string | null>(null);
+
+    const load = useCallback(async () => {
+        setLoading(true);
+        try {
+            const data = await DB.getApiCallLog();
+            // DB 里已按新→旧 unshift，这里再兜底排一次序
+            data.sort((a: ApiCallLogEntry, b: ApiCallLogEntry) => (b.timestamp ?? 0) - (a.timestamp ?? 0));
+            setEntries(data);
+        } catch {
+            setEntries([]);
+        } finally {
+            setLoading(false);
+        }
+    }, []);
+
+    useEffect(() => {
+        if (isOpen) load();
+    }, [isOpen, load]);
+
+    const handleClear = useCallback(async () => {
+        if (!window.confirm('确定清空所有 API 调用记录吗？此操作不可撤销。')) return;
+        await DB.clearApiCallLog();
+        setEntries([]);
+    }, []);
+
+    return (
+        <Modal
+            isOpen={isOpen}
+            title="API 调用记录"
+            onClose={onClose}
+            footer={
+                <div className="flex gap-2 w-full">
+                    <button
+                        onClick={onClose}
+                        className="flex-1 py-3 bg-slate-100 text-slate-600 font-bold rounded-2xl active:scale-95 transition-transform"
+                    >
+                        关闭
+                    </button>
+                    <button
+                        onClick={handleClear}
+                        disabled={entries.length === 0}
+                        className="px-5 py-3 bg-rose-50 text-rose-500 font-bold rounded-2xl active:scale-95 transition-transform disabled:opacity-40"
+                    >
+                        清空
+                    </button>
+                </div>
+            }
+        >
+            <div className="flex items-start justify-between gap-2 mb-3 px-1">
+                <p className="text-[11px] text-slate-400 leading-relaxed">
+                    只保留最近 <span className="font-semibold text-slate-500">5 天</span>的调用，超期自动丢弃。记录在你本地浏览器，不上传。
+                </p>
+                <button
+                    onClick={() => setShowHelp(v => !v)}
+                    className={`shrink-0 w-5 h-5 rounded-full text-[11px] font-bold leading-none flex items-center justify-center transition-colors ${
+                        showHelp ? 'bg-primary text-white' : 'bg-slate-200 text-slate-500'
+                    }`}
+                    aria-label="字段说明"
+                >
+                    ?
+                </button>
+            </div>
+
+            {showHelp && (
+                <div className="mb-3 rounded-2xl bg-amber-50/70 border border-amber-200/60 px-4 py-3 text-[11px] text-slate-600 leading-relaxed space-y-2">
+                    <p className="font-bold text-amber-700">「实际后端」是什么——仅供参考，不是测谎仪</p>
+                    <p>
+                        它是<span className="font-semibold">对面在回复里自己报的模型名字</span>。注意：这个名字是对面自己填的，可以是真的，也可以是假的。
+                    </p>
+                    <p className="font-semibold">三种情况：</p>
+                    <p>
+                        <span className="font-semibold text-amber-600">🟡 琥珀色 + ⚠️</span>：报的名字和你要的对不上。
+                        <span className="font-semibold">有可能</span>被换了便宜模型，但也可能只是站子标签没写整齐——别只凭这一行去定罪。
+                    </p>
+                    <p>
+                        <span className="font-semibold">⚪ 灰色</span>：名字基本一致，只是格式不同（比如少了 [渠道]、(按次)、gcli- 这类标签前缀）。正常。
+                    </p>
+                    <p>
+                        <span className="font-semibold">🫥 没有这一行</span>：最常见的情况。要么对面把你请求的名字<span className="font-semibold">原样抄了回来</span>（等于什么都没说），要么干脆没报。
+                        <span className="font-semibold">不代表有问题，也不代表没问题——就是从这条线索看不出来。</span>
+                    </p>
+                    <p>
+                        想判断有没有被偷偷换模型，要几个信号<span className="font-semibold">一起看</span>：token 数是否突然对不上（比如平时 4 万这次 1.5 万）、速度是否突变、角色是否突然变笨/掉格式。只有一个信号异常时，先观望，多攒几轮再说。
+                    </p>
+                </div>
+            )}
+
+            {entries.length > 0 && (() => {
+                const totalTok = entries.reduce((s, e) => s + (e.totalTokens ?? 0), 0);
+                const promptTok = entries.reduce((s, e) => s + (e.promptTokens ?? 0), 0);
+                const compTok = entries.reduce((s, e) => s + (e.completionTokens ?? 0), 0);
+                const fmt = (n: number) => n.toLocaleString('en-US');
+                return (
+                    <div className="mb-3 rounded-2xl bg-primary/5 border border-primary/15 px-4 py-3 flex items-center justify-around text-center">
+                        <div>
+                            <div className="text-[10px] text-slate-400">调用次数</div>
+                            <div className="text-sm font-bold text-slate-600">{entries.length}</div>
+                        </div>
+                        <div className="w-px h-7 bg-slate-200" />
+                        <div>
+                            <div className="text-[10px] text-slate-400">总 Token</div>
+                            <div className="text-sm font-bold text-primary">{fmt(totalTok)}</div>
+                        </div>
+                        <div className="w-px h-7 bg-slate-200" />
+                        <div>
+                            <div className="text-[10px] text-slate-400">输入 / 输出</div>
+                            <div className="text-[11px] font-semibold text-slate-500">{fmt(promptTok)} / {fmt(compTok)}</div>
+                        </div>
+                    </div>
+                );
+            })()}
+
+            {loading ? (
+                <div className="py-10 text-center text-sm text-slate-400">加载中…</div>
+            ) : entries.length === 0 ? (
+                <div className="py-10 text-center text-sm text-slate-400">
+                    暂无调用记录。<br />
+                    <span className="text-[11px]">和角色聊几句、让它刷下小红书，这里就会有数据了。</span>
+                </div>
+            ) : (
+                <div className="space-y-2">
+                    {entries.map((e) => {
+                        const { day, time } = formatTime(e.timestamp);
+                        const hasBreakdown = !!e.promptBreakdown?.length;
+                        const expanded = expandedId === e.id;
+                        return (
+                            <div
+                                key={e.id}
+                                onClick={hasBreakdown ? () => setExpandedId(expanded ? null : e.id) : undefined}
+                                className={`rounded-2xl border p-3 ${
+                                    e.ok ? 'bg-white/70 border-slate-200/60' : 'bg-rose-50/60 border-rose-200/60'
+                                } ${hasBreakdown ? 'cursor-pointer active:scale-[0.99] transition-transform' : ''}`}
+                            >
+                                <div className="flex items-center justify-between gap-2 mb-1.5">
+                                    <div className="flex items-center gap-1.5 min-w-0">
+                                        <span className="text-[11px] font-bold text-slate-400 shrink-0">{day}</span>
+                                        <span className="text-[11px] font-mono text-slate-500 shrink-0">{time}</span>
+                                    </div>
+                                    <span
+                                        className={`text-[10px] font-bold px-2 py-0.5 rounded-full shrink-0 ${
+                                            e.ok ? 'bg-emerald-100 text-emerald-600' : 'bg-rose-100 text-rose-600'
+                                        }`}
+                                    >
+                                        {e.ok ? '成功' : `失败${e.status ? ` ${e.status}` : ''}`}
+                                    </span>
+                                </div>
+                                <div className="grid grid-cols-2 gap-x-3 gap-y-1 text-[11px]">
+                                    <Field label="API" value={e.presetName} accent />
+                                    <Field label="App" value={e.appName} />
+                                    <Field label="角色" value={e.charName} />
+                                    <Field label="用途" value={e.purpose} />
+                                    <div className="col-span-2">
+                                        {/* 模型/实际后端两行不截断（break-all 换行）：截断会把「为什么黄了」的
+                                            关键差异（后缀 -c、渠道标签）藏进省略号里，用户看着两行一样却标黄一头雾水 */}
+                                        <Field label="模型" value={e.model} mono wrap />
+                                    </div>
+                                    {/* 后端自报身份（response.model）：字符串不同就展示；琥珀判定见
+                                        isSameCoreModel——渠道标签/前缀（[渠道]、(按次)、gcli-、models/）算同名
+                                        （灰色），尾巴长出变体（X-c / X-lite）才是真被换了后端（琥珀）。 */}
+                                    {e.backendModel && e.backendModel !== e.model && (() => {
+                                        const swapped = !isSameCoreModel(e.model, e.backendModel);
+                                        return (
+                                            <div className="col-span-2 flex items-baseline gap-1.5 min-w-0">
+                                                <span className={`text-[10px] shrink-0 ${swapped ? 'text-amber-500' : 'text-slate-400'}`}>实际后端</span>
+                                                <span className={`break-all font-mono ${swapped ? 'font-semibold text-amber-600' : 'text-slate-500'}`}>
+                                                    {e.backendModel}{swapped ? ' ⚠️' : ''}
+                                                </span>
+                                            </div>
+                                        );
+                                    })()}
+                                    {e.durationMs != null && (
+                                        <Field label="耗时" value={e.durationMs >= 1000 ? `${(e.durationMs / 1000).toFixed(1)}s` : `${e.durationMs}ms`} />
+                                    )}
+                                    {(e.totalTokens != null || e.promptTokens != null || e.completionTokens != null) && (
+                                        <div className="col-span-2 flex items-baseline gap-1.5 min-w-0">
+                                            <span className="text-[10px] text-slate-400 shrink-0">Token</span>
+                                            <span className="text-slate-600 truncate">
+                                                {(e.totalTokens ?? 0).toLocaleString('en-US')}
+                                                <span className="text-slate-400">
+                                                    {' '}（入 {(e.promptTokens ?? 0).toLocaleString('en-US')} · 出 {(e.completionTokens ?? 0).toLocaleString('en-US')}）
+                                                </span>
+                                            </span>
+                                        </div>
+                                    )}
+                                </div>
+                                {hasBreakdown && (
+                                    <div className="mt-1.5 text-[10px] text-slate-300 select-none">
+                                        {expanded ? '▲ 收起输入构成' : '▼ 点击查看输入构成（哪块占了多少）'}
+                                    </div>
+                                )}
+                                {expanded && e.promptBreakdown && (
+                                    <PromptBreakdownView blocks={e.promptBreakdown} promptTokens={e.promptTokens} />
+                                )}
+                            </div>
+                        );
+                    })}
+                </div>
+            )}
+        </Modal>
+    );
+};
+
+/**
+ * 输入构成面板：按字数降序列出每块（system 的 ### 段落 / 聚合的聊天历史），
+ * 附占比条 + 按字符占比折算的 token 估算（分词器差异下只是量级参考，不是精确值）。
+ */
+const PromptBreakdownView: React.FC<{ blocks: PromptBlockStat[]; promptTokens?: number }> = ({ blocks, promptTokens }) => {
+    const totalChars = blocks.reduce((sum, b) => sum + b.chars, 0) || 1;
+    // 写死的固定骨架块（行为规范/表达底线/钢印等）合并成一行——它们不随用户数据
+    // 变化、也没有可优化空间，散成一堆小行只会淹没真正有信息量的数据块。
+    const fixed = blocks.filter(b => isFixedPromptBlockLabel(b.label));
+    const merged: PromptBlockStat[] = fixed.length >= 2
+        ? [
+            ...blocks.filter(b => !isFixedPromptBlockLabel(b.label)),
+            { label: `固定提示词（规则/格式，共 ${fixed.length} 块）`, chars: fixed.reduce((s, b) => s + b.chars, 0) },
+        ]
+        : blocks;
+    const rows = [...merged].sort((a, b) => b.chars - a.chars);
+    const fmt = (n: number) => n.toLocaleString('en-US');
+    return (
+        <div className="mt-2 pt-2 border-t border-slate-100 space-y-1.5" onClick={(ev) => ev.stopPropagation()}>
+            <div className="flex items-baseline justify-between">
+                <span className="text-[10px] font-bold text-slate-400">输入构成 · 共 {fmt(totalChars)} 字符</span>
+                {promptTokens != null && (
+                    <span className="text-[9px] text-slate-300">token 列为按字符占比折算的估算</span>
+                )}
+            </div>
+            {rows.map((b, i) => {
+                const pct = (b.chars / totalChars) * 100;
+                const estTok = promptTokens != null ? Math.round(promptTokens * b.chars / totalChars) : null;
+                return (
+                    <div key={i} className="min-w-0">
+                        <div className="flex items-baseline justify-between gap-2 min-w-0">
+                            <span className="text-[10px] text-slate-500 truncate" title={b.label}>{b.label}</span>
+                            <span className="text-[10px] font-mono text-slate-400 shrink-0">
+                                {fmt(b.chars)} 字{estTok != null ? ` · ~${fmt(estTok)} tok` : ''} · {pct < 1 ? '<1' : Math.round(pct)}%
+                            </span>
+                        </div>
+                        <div className="h-1 rounded-full bg-slate-100 overflow-hidden">
+                            <div className="h-full rounded-full bg-primary/50" style={{ width: `${Math.max(pct, 1.5)}%` }} />
+                        </div>
+                    </div>
+                );
+            })}
+        </div>
+    );
+};
+
+const Field: React.FC<{ label: string; value?: string; accent?: boolean; mono?: boolean; wrap?: boolean }> = ({
+    label,
+    value,
+    accent,
+    mono,
+    wrap,
+}) => (
+    <div className="flex items-baseline gap-1.5 min-w-0">
+        <span className="text-[10px] text-slate-400 shrink-0">{label}</span>
+        <span
+            className={`${wrap ? 'break-all' : 'truncate'} ${mono ? 'font-mono' : ''} ${
+                accent ? 'font-semibold text-primary' : 'text-slate-600'
+            }`}
+            title={value || ''}
+        >
+            {value && value.trim() ? value : '—'}
+        </span>
+    </div>
+);
+
+export default ApiCallLogModal;

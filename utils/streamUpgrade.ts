@@ -1,1 +1,78 @@
-LyoqCiAqIOmAj+aYjua1geW8j+WNh+e6p++8iFRyYW5zcGFyZW50IFN0cmVhbSBVcGdyYWRl77yJCiAqCiAqIOiDjOaZr++8muS7k+W6k+mHjOaciSA0MCsg5aSEIExMTSDosIPnlKjngrnnoaznvJbnoIEgYHN0cmVhbTpmYWxzZWDvvIjmn6XmiYvmnLogLyDorrDlv4blrqvmrr8gLyDml6XnqIsgLwogKiDliaflnLogLyDnvqTogYogLyDml6XorrDigKbvvInjgILpnZ7mtYHlvI/nmoTplb/nlJ/miJDmnIDlrrnmmJPmkp7nvZHlhbMv5Lit6L2s55qE56m66Zey6LaF5pe24oCU4oCU6L+e5o6l5LiK5Yeg5Y2B56eSCiAqIOS4gOS4quWtl+iKgumDveS4jeWbnu+8jOe9keWFs+aOkOaOiei/nuaOpe+8jOihqOeOsOS4uuOAjOWbnuWkjeiiq+aIquaWrSAvIOWNiuaIqiBKU09O44CN44CCCiAqCiAqIOWBmuazle+8muWcqCBPU0NvbnRleHQg55qE5YWo5bGAIGZldGNoIOaLpuaIquWZqO+8iOaJgOaciSAvY2hhdC9jb21wbGV0aW9ucyDnmoTnu5/kuIDlh7rlj6PvvIzkuI4KICog6YeH5qC35Y+C5pWw5YW85a655bGC5ZCM5LiA5L2N572u77yJ5YGa5Y+M5ZCR5pS55YaZ77yaCiAqICAgLSDor7fmsYLkvqfvvJrkuLsgQVBJIOiuvue9ruW8gOS6hiBzdHJlYW0g5pe277yM5oqKIGBzdHJlYW06ZmFsc2Uv57y655yBYCDnmoTor7fmsYLkvZPljYfnuqfkuLoKICogICAgIGBzdHJlYW06dHJ1ZSAoKyBzdHJlYW1fb3B0aW9ucy5pbmNsdWRlX3VzYWdlKWAKICogICAtIOWTjeW6lOS+p++8muaKiiBTU0Ug5pSS6b2Q5ou85Zue5qCH5YeGIGNoYXQuY29tcGxldGlvbiBKU09O77yM5YaN5Lqk6L+Y6LCD55So5pa5CiAqCiAqIOiwg+eUqOaWueaLv+WIsOeahOWTjeW6lOS4juWNh+e6p+WJjSoq5a2X6IqC57qn562J5Lu3KirvvIjlkIzmoLfnmoQgY2hvaWNlcy91c2FnZSDnu5PmnoTvvInvvIzkvYbkvKDovpPov4fnqIsKICog5LiA55u05pyJ5a2X6IqC5Zyo5rWB77yM572R5YWz5LiN5Lya6K+v5Yik5q276L+e5o6l44CC5bey57uP6Ieq5bex6K6+5LqGIGBzdHJlYW06dHJ1ZWAg55qE6LCD55So77yI6IGK5aSp5Li76Lev5b6E44CBCiAqIOingemdouOAgeaDhee7quivhOS8sO+8ieS4jeeisOKAlOKAlOWug+S7rOWQhOiHqueahOino+aekOmTvui3r++8iOWinumHj+mihOiniCAvIHNhZmVSZXNwb25zZUpzb27vvInljp/moLflt6XkvZzjgIIKICoKICog6Ieq5oSI77ya5Liq5Yir5Lit6L2s5a+5IHN0cmVhbS9zdHJlYW1fb3B0aW9ucyDnm7TmjqUgNHh4IOeahO+8jOaLpuaIquWZqOeUqOWNh+e6p+WJjeeahOWOnyBib2R5IOmHjeWPkQogKiDkuIDmrKHvvIjop4EgT1NDb250ZXh0IOmbhuaIkOeCue+8ie+8jOihjOS4uumAgOWbnuaXp+eJiOOAggogKi8KCmltcG9ydCB7IGlzU3NlUmVzcG9uc2VUZXh0LCBwYXJzZVNzZVRvQ29tcGxldGlvbiB9IGZyb20gJy4vc2FmZUFwaSc7Cgpjb25zdCBBUElfQ09ORklHX0tFWSA9ICdvc19hcGlfY29uZmlnJzsKCi8qKiDkuLsgQVBJIOiuvue9rumHjOeahOa1geW8j+W8gOWFs++8iOiuvue9riDihpIgQVBJIOKGkiDmtYHlvI/vvInjgILor7vlj5blpLHotKXkuIDlvovop4bkuLrlhbPjgIIgKi8KZXhwb3J0IGZ1bmN0aW9uIGlzR2xvYmFsU3RyZWFtRW5hYmxlZCgpOiBib29sZWFuIHsKICAgIHRyeSB7CiAgICAgICAgaWYgKHR5cGVvZiBsb2NhbFN0b3JhZ2UgPT09ICd1bmRlZmluZWQnKSByZXR1cm4gZmFsc2U7CiAgICAgICAgY29uc3QgcmF3ID0gbG9jYWxTdG9yYWdlLmdldEl0ZW0oQVBJX0NPTkZJR19LRVkpOwogICAgICAgIGlmICghcmF3KSByZXR1cm4gZmFsc2U7CiAgICAgICAgcmV0dXJuIEpTT04ucGFyc2UocmF3KT8uc3RyZWFtID09PSB0cnVlOwogICAgfSBjYXRjaCB7CiAgICAgICAgcmV0dXJuIGZhbHNlOwogICAgfQp9CgovKioKICog5oqK5LiA5LiqIGNoYXQvY29tcGxldGlvbnMg6K+35rGC5L2T5Y2H57qn5Li65rWB5byP44CCCiAqIOi/lOWbnuWNh+e6p+WQjueahCBib2R5IOWtl+espuS4su+8m+S4jemcgOimgeWNh+e6p++8iOW3suaYr+a1geW8jyAvIOmdniBKU09OIC8g6Z2e5a+56LGh77yJ6L+U5ZueIG51bGzjgIIKICog5rOo5oSP77ya6LCD55So5pa56LSf6LSj5YWI5Yik5pat5YWo5bGA5byA5YWz77yIaXNHbG9iYWxTdHJlYW1FbmFibGVk77yJ77yM5pys5Ye95pWw5L+d5oyB57qv57K544CCCiAqLwpleHBvcnQgZnVuY3Rpb24gdXBncmFkZUNoYXRCb2R5VG9TdHJlYW0oYm9keVN0cjogc3RyaW5nKTogc3RyaW5nIHwgbnVsbCB7CiAgICBsZXQgcGFyc2VkOiBhbnk7CiAgICB0cnkgeyBwYXJzZWQgPSBKU09OLnBhcnNlKGJvZHlTdHIpOyB9IGNhdGNoIHsgcmV0dXJuIG51bGw7IH0KICAgIGlmICghcGFyc2VkIHx8IHR5cGVvZiBwYXJzZWQgIT09ICdvYmplY3QnIHx8IEFycmF5LmlzQXJyYXkocGFyc2VkKSkgcmV0dXJuIG51bGw7CiAgICBpZiAocGFyc2VkLnN0cmVhbSA9PT0gdHJ1ZSkgcmV0dXJuIG51bGw7ICAvLyDosIPnlKjmlrnoh6rlt7HlvIDkuobmtYHlvI/vvJrkuI3norAKICAgIHBhcnNlZC5zdHJlYW0gPSB0cnVlOwogICAgLy8gaW5jbHVkZV91c2FnZe+8muiuqeacq+WwviBjaHVuayDluKYgdXNhZ2XvvIx0b2tlbiDorqHotLnlvr3moIcgLyBBUEkg6LCD55So6K6w5b2V5LiN57y65pWwCiAgICBwYXJzZWQuc3RyZWFtX29wdGlvbnMgPSB7IGluY2x1ZGVfdXNhZ2U6IHRydWUgfTsKICAgIHJldHVybiBKU09OLnN0cmluZ2lmeShwYXJzZWQpOwp9CgovKioKICog5oqK77yI5Y2H57qn5ZCO5ou/5Yiw55qE77yJ5ZON5bqU5b2S5LiA5YyW5Zue6LCD55So5pa55pyf5b6F55qE5b2i5oCB77yaCiAqICAgLSBTU0Ug5rWBIOKGkiDmlJLpvZDmi7zoo4XmiJDmoIflh4YgY2hhdC5jb21wbGV0aW9uIEpTT07vvIhDb250ZW50LVR5cGU6IGFwcGxpY2F0aW9uL2pzb27vvIkKICogICAtIOW3suaYryBKU09O77yI5Luj55CG5peg6KeGIHN0cmVhbe+8iS8g5YW25LuW5paH5pysIOKGkiDljp/mlofph43mlrDljIXoo4XvvIhib2R5IOW3suiiq+a2iOi0ue+8jOW/hemhu+mHjeWMhe+8iQogKiDlj6rlnKjlk43lupQgb2sg5pe26LCD55So77yb6ZSZ6K+v5ZON5bqU55Sx6LCD55So5pa55Y6f5qC36YCP5Lyg57uZ5Lia5Yqh5bGC55qE6ZSZ6K+v5aSE55CG44CCCiAqLwpleHBvcnQgYXN5bmMgZnVuY3Rpb24gYXNzZW1ibGVVcGdyYWRlZFJlc3BvbnNlKHJlc3BvbnNlOiBSZXNwb25zZSk6IFByb21pc2U8UmVzcG9uc2U+IHsKICAgIGNvbnN0IHRleHQgPSBhd2FpdCByZXNwb25zZS50ZXh0KCk7CiAgICBpZiAoaXNTc2VSZXNwb25zZVRleHQodGV4dCwgcmVzcG9uc2UuaGVhZGVycy5nZXQoJ2NvbnRlbnQtdHlwZScpKSkgewogICAgICAgIGNvbnN0IGFzc2VtYmxlZCA9IHBhcnNlU3NlVG9Db21wbGV0aW9uKHRleHQpOwogICAgICAgIGlmIChhc3NlbWJsZWQpIHsKICAgICAgICAgICAgcmV0dXJuIG5ldyBSZXNwb25zZShKU09OLnN0cmluZ2lmeShhc3NlbWJsZWQpLCB7CiAgICAgICAgICAgICAgICBzdGF0dXM6IHJlc3BvbnNlLnN0YXR1cywKICAgICAgICAgICAgICAgIHN0YXR1c1RleHQ6IHJlc3BvbnNlLnN0YXR1c1RleHQsCiAgICAgICAgICAgICAgICBoZWFkZXJzOiB7ICdDb250ZW50LVR5cGUnOiAnYXBwbGljYXRpb24vanNvbicgfSwKICAgICAgICAgICAgfSk7CiAgICAgICAgfQogICAgICAgIC8vIOaLvOS4jeWHuuS7u+S9lSBjaHVua++8muaMieWOn+aWh+mAj+S8oO+8jOiuqeiwg+eUqOaWueeahOino+aekOWZqOaKpeWHuuW4piBwcmV2aWV3IOeahOmUmeivrwogICAgfQogICAgcmV0dXJuIG5ldyBSZXNwb25zZSh0ZXh0LCB7CiAgICAgICAgc3RhdHVzOiByZXNwb25zZS5zdGF0dXMsCiAgICAgICAgc3RhdHVzVGV4dDogcmVzcG9uc2Uuc3RhdHVzVGV4dCwKICAgICAgICBoZWFkZXJzOiB7ICdDb250ZW50LVR5cGUnOiByZXNwb25zZS5oZWFkZXJzLmdldCgnY29udGVudC10eXBlJykgfHwgJ2FwcGxpY2F0aW9uL2pzb24nIH0sCiAgICB9KTsKfQo=
+/**
+ * 透明流式升级（Transparent Stream Upgrade）
+ *
+ * 背景：仓库里有 40+ 处 LLM 调用点硬编码 `stream:false`（查手机 / 记忆宫殿 / 日程 /
+ * 剧场 / 群聊 / 日记…）。非流式的长生成最容易撞网关/中转的空闲超时——连接上几十秒
+ * 一个字节都不回，网关掐掉连接，表现为「回复被截断 / 半截 JSON」。
+ *
+ * 做法：在 OSContext 的全局 fetch 拦截器（所有 /chat/completions 的统一出口，与
+ * 采样参数兼容层同一位置）做双向改写：
+ *   - 请求侧：主 API 设置开了 stream 时，把 `stream:false/缺省` 的请求体升级为
+ *     `stream:true (+ stream_options.include_usage)`
+ *   - 响应侧：把 SSE 攒齐拼回标准 chat.completion JSON，再交还调用方
+ *
+ * 调用方拿到的响应与升级前**字节级等价**（同样的 choices/usage 结构），但传输过程
+ * 一直有字节在流，网关不会误判死连接。已经自己设了 `stream:true` 的调用（聊天主路径、
+ * 见面、情绪评估）不碰——它们各自的解析链路（增量预览 / safeResponseJson）原样工作。
+ *
+ * 自愈：个别中转对 stream/stream_options 直接 4xx 的，拦截器用升级前的原 body 重发
+ * 一次（见 OSContext 集成点），行为退回旧版。
+ */
+
+import { isSseResponseText, parseSseToCompletion } from './safeApi';
+
+const API_CONFIG_KEY = 'os_api_config';
+
+/** 主 API 设置里的流式开关（设置 → API → 流式）。读取失败一律视为关。 */
+export function isGlobalStreamEnabled(): boolean {
+    try {
+        if (typeof localStorage === 'undefined') return false;
+        const raw = localStorage.getItem(API_CONFIG_KEY);
+        if (!raw) return false;
+        return JSON.parse(raw)?.stream === true;
+    } catch {
+        return false;
+    }
+}
+
+/**
+ * 把一个 chat/completions 请求体升级为流式。
+ * 返回升级后的 body 字符串；不需要升级（已是流式 / 非 JSON / 非对象）返回 null。
+ * 注意：调用方负责先判断全局开关（isGlobalStreamEnabled），本函数保持纯粹。
+ */
+export function upgradeChatBodyToStream(bodyStr: string): string | null {
+    let parsed: any;
+    try { parsed = JSON.parse(bodyStr); } catch { return null; }
+    if (!parsed || typeof parsed !== 'object' || Array.isArray(parsed)) return null;
+    if (parsed.stream === true) return null;  // 调用方自己开了流式：不碰
+    parsed.stream = true;
+    // include_usage：让末尾 chunk 带 usage，token 计费徽标 / API 调用记录不缺数
+    parsed.stream_options = { include_usage: true };
+    return JSON.stringify(parsed);
+}
+
+/**
+ * 把（升级后拿到的）响应归一化回调用方期待的形态：
+ *   - SSE 流 → 攒齐拼装成标准 chat.completion JSON（Content-Type: application/json）
+ *   - 已是 JSON（代理无视 stream）/ 其他文本 → 原文重新包装（body 已被消费，必须重包）
+ * 只在响应 ok 时调用；错误响应由调用方原样透传给业务层的错误处理。
+ */
+export async function assembleUpgradedResponse(response: Response): Promise<Response> {
+    const text = await response.text();
+    if (isSseResponseText(text, response.headers.get('content-type'))) {
+        const assembled = parseSseToCompletion(text);
+        if (assembled) {
+            return new Response(JSON.stringify(assembled), {
+                status: response.status,
+                statusText: response.statusText,
+                headers: { 'Content-Type': 'application/json' },
+            });
+        }
+        // 拼不出任何 chunk：按原文透传，让调用方的解析器报出带 preview 的错误
+    }
+    return new Response(text, {
+        status: response.status,
+        statusText: response.statusText,
+        headers: { 'Content-Type': response.headers.get('content-type') || 'application/json' },
+    });
+}

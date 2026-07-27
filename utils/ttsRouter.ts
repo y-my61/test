@@ -1,1 +1,52 @@
-LyoqCiAqIFRUUyDmnI3liqHllYbot6/nlLHvvJrmjIkgYXBpQ29uZmlnLnR0c1Byb3ZpZGVyIOaKiuivremfs+WQiOaIkOWIhuWPkeWIsCBNaW5pTWF4IOaIlumxvOWjsCBGaXNoIEF1ZGlv44CCCiAqCiAqIOiBiuWkqeivremfs+adoe+8iENoYXTvvInjgIHnuqbkvJrvvIhEYXRlU2Vzc2lvbu+8ieebtOaOpeeUqOi/memHjOeahCBzeW50aGVzaXplU3BlZWNoKERldGFpbGVkKe+8jAogKiDkuI3lv4XlhbPlv4PlupXlsYLmmK/lk6rlrrbjgIJDYWxsQXBwIOWboOS4uuimgeWBmuWIhuWPpea1geW8jyArIOe8k+WtmOmUruWvuem9kO+8jOWNleeLrOWcqOiHquW3seWGhemDqOWIhuaUr+OAggogKi8KaW1wb3J0IHsgQ2hhcmFjdGVyUHJvZmlsZSwgQVBJQ29uZmlnIH0gZnJvbSAnLi4vdHlwZXMnOwppbXBvcnQgewogIHN5bnRoZXNpemVTcGVlY2hEZXRhaWxlZCBhcyBtaW5pbWF4U3ludGhlc2l6ZURldGFpbGVkLAogIHR5cGUgVHRzUmVzdWx0LAp9IGZyb20gJy4vbWluaW1heFR0cyc7CmltcG9ydCB7IHN5bnRoZXNpemVTcGVlY2hGaXNoRGV0YWlsZWQgfSBmcm9tICcuL2Zpc2hBdWRpb1R0cyc7CmltcG9ydCB7IHJlc29sdmVUdHNQcm92aWRlciB9IGZyb20gJy4vdHRzUHJvdmlkZXInOwoKZXhwb3J0IHR5cGUgeyBUdHNSZXN1bHQgfTsKCnR5cGUgU3ludGhPcHRpb25zID0geyBsYW5ndWFnZUJvb3N0Pzogc3RyaW5nOyBncm91cElkPzogc3RyaW5nOyBlbW90aW9uPzogc3RyaW5nIH07CgpleHBvcnQgYXN5bmMgZnVuY3Rpb24gc3ludGhlc2l6ZVNwZWVjaERldGFpbGVkKAogIHRleHQ6IHN0cmluZywKICBjaGFyOiBDaGFyYWN0ZXJQcm9maWxlLAogIGFwaUNvbmZpZzogQVBJQ29uZmlnLAogIG9wdGlvbnM/OiBTeW50aE9wdGlvbnMsCik6IFByb21pc2U8VHRzUmVzdWx0PiB7CiAgaWYgKHJlc29sdmVUdHNQcm92aWRlcihhcGlDb25maWcpID09PSAnZmlzaGF1ZGlvJykgewogICAgcmV0dXJuIHN5bnRoZXNpemVTcGVlY2hGaXNoRGV0YWlsZWQodGV4dCwgY2hhciwgYXBpQ29uZmlnLCBvcHRpb25zKTsKICB9CiAgcmV0dXJuIG1pbmltYXhTeW50aGVzaXplRGV0YWlsZWQodGV4dCwgY2hhciwgYXBpQ29uZmlnLCBvcHRpb25zKTsKfQoKZXhwb3J0IGFzeW5jIGZ1bmN0aW9uIHN5bnRoZXNpemVTcGVlY2goCiAgdGV4dDogc3RyaW5nLAogIGNoYXI6IENoYXJhY3RlclByb2ZpbGUsCiAgYXBpQ29uZmlnOiBBUElDb25maWcsCiAgb3B0aW9ucz86IFN5bnRoT3B0aW9ucywKKTogUHJvbWlzZTxzdHJpbmc+IHsKICBjb25zdCB7IHVybCB9ID0gYXdhaXQgc3ludGhlc2l6ZVNwZWVjaERldGFpbGVkKHRleHQsIGNoYXIsIGFwaUNvbmZpZywgb3B0aW9ucyk7CiAgcmV0dXJuIHVybDsKfQoKLyoqCiAqIOW9k+WJjSBUVFMg5pyN5Yqh5ZWG5LiL77yM6L+Z5Liq6KeS6Imy5piv5ZCm5bey6YWN5aW95Y+v55So6Z+z6Imy44CCCiAqIOmxvOWjsOeciyBmaXNoUmVmZXJlbmNlSWTvvJtNaW5pTWF4IOeciyB2b2ljZUlkIC8gdGltYmVyV2VpZ2h0c+OAggogKiDlkITlpITjgIzopoHkuI3opoHmmL7npLror63pn7PmjInpkq4gLyDopoHkuI3opoHop6blj5Hoh6rliqggVFRT44CN55qE5Yik5pat57uf5LiA55So5a6D77yM6YG/5YWN5ryP5o6J6bG85aOw5YiG5pSv44CCCiAqLwpleHBvcnQgY29uc3QgY2hhcmFjdGVySGFzVm9pY2UgPSAoY2hhcjogQ2hhcmFjdGVyUHJvZmlsZSwgYXBpQ29uZmlnOiBBUElDb25maWcpOiBib29sZWFuID0+IHsKICBjb25zdCB2cCA9IGNoYXIudm9pY2VQcm9maWxlOwogIGlmIChyZXNvbHZlVHRzUHJvdmlkZXIoYXBpQ29uZmlnKSA9PT0gJ2Zpc2hhdWRpbycpIHsKICAgIHJldHVybiAhIXZwPy5maXNoUmVmZXJlbmNlSWQ7CiAgfQogIHJldHVybiAhISh2cD8udm9pY2VJZCB8fCAodnA/LnRpbWJlcldlaWdodHMgJiYgdnAudGltYmVyV2VpZ2h0cy5sZW5ndGggPiAwKSk7Cn07Cg==
+/**
+ * TTS 服务商路由：按 apiConfig.ttsProvider 把语音合成分发到 MiniMax 或鱼声 Fish Audio。
+ *
+ * 聊天语音条（Chat）、约会（DateSession）直接用这里的 synthesizeSpeech(Detailed)，
+ * 不必关心底层是哪家。CallApp 因为要做分句流式 + 缓存键对齐，单独在自己内部分支。
+ */
+import { CharacterProfile, APIConfig } from '../types';
+import {
+  synthesizeSpeechDetailed as minimaxSynthesizeDetailed,
+  type TtsResult,
+} from './minimaxTts';
+import { synthesizeSpeechFishDetailed } from './fishAudioTts';
+import { resolveTtsProvider } from './ttsProvider';
+
+export type { TtsResult };
+
+type SynthOptions = { languageBoost?: string; groupId?: string; emotion?: string };
+
+export async function synthesizeSpeechDetailed(
+  text: string,
+  char: CharacterProfile,
+  apiConfig: APIConfig,
+  options?: SynthOptions,
+): Promise<TtsResult> {
+  if (resolveTtsProvider(apiConfig) === 'fishaudio') {
+    return synthesizeSpeechFishDetailed(text, char, apiConfig, options);
+  }
+  return minimaxSynthesizeDetailed(text, char, apiConfig, options);
+}
+
+export async function synthesizeSpeech(
+  text: string,
+  char: CharacterProfile,
+  apiConfig: APIConfig,
+  options?: SynthOptions,
+): Promise<string> {
+  const { url } = await synthesizeSpeechDetailed(text, char, apiConfig, options);
+  return url;
+}
+
+/**
+ * 当前 TTS 服务商下，这个角色是否已配好可用音色。
+ * 鱼声看 fishReferenceId；MiniMax 看 voiceId / timberWeights。
+ * 各处「要不要显示语音按钮 / 要不要触发自动 TTS」的判断统一用它，避免漏掉鱼声分支。
+ */
+export const characterHasVoice = (char: CharacterProfile, apiConfig: APIConfig): boolean => {
+  const vp = char.voiceProfile;
+  if (resolveTtsProvider(apiConfig) === 'fishaudio') {
+    return !!vp?.fishReferenceId;
+  }
+  return !!(vp?.voiceId || (vp?.timberWeights && vp.timberWeights.length > 0));
+};
